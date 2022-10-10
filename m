@@ -1,862 +1,830 @@
-Content-Type: multipart/mixed; boundary="===============4905690965950010190=="
+Content-Type: multipart/mixed; boundary="===============0850193483353425180=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/virt/kvm/mst/qemu
-Date: Mon, 10 Oct 2022 17:27:29 -0000
-Message-Id: <166542284921.14371.12780116024814433797@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Mon, 10 Oct 2022 17:35:10 -0000
+Message-Id: <166542331061.20368.16882811310602473266@gitolite.kernel.org>
 
---===============4905690965950010190==
+--===============0850193483353425180==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/virt/kvm/mst/qemu
-user: mst
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/tags/for_autotest
-    old: 4f5a3c528a168e36d7ffe373b6b35f9e51ed3e9e
-    new: be492316fa1b1e4068b5a61adf112718a25ac72b
-    log: revlist-4f5a3c528a16-be492316fa1b.txt
-  - ref: refs/tags/for_autotest_next
-    old: 4f5a3c528a168e36d7ffe373b6b35f9e51ed3e9e
-    new: be492316fa1b1e4068b5a61adf112718a25ac72b
-    log: revlist-4f5a3c528a16-be492316fa1b.txt
-  - ref: refs/tags/for_upstream
-    old: 4f5a3c528a168e36d7ffe373b6b35f9e51ed3e9e
-    new: be492316fa1b1e4068b5a61adf112718a25ac72b
-    log: revlist-4f5a3c528a16-be492316fa1b.txt
+  - ref: refs/heads/acpi
+    old: c8efe77f23d508d62e232de612e739dbf4da4659
+    new: 056a81549c2722f0e7a9cceb7a98728eb1d67434
+    log: revlist-c8efe77f23d5-056a81549c27.txt
+  - ref: refs/tags/acpi-6.1-rc1-2
+    old: 0000000000000000000000000000000000000000
+    new: 75a3c65b70349af3864a6ca415e68d990fba13c6
 
---===============4905690965950010190==
-Content-Type: text/plain; charset="utf-8"
+--===============0850193483353425180==
+Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
-Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-4f5a3c528a16-be492316fa1b.txt
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-c8efe77f23d5-056a81549c27.txt
 
-2748583211d6e4d14f8862c65276b2d6cc1681ad dbus-vmstate: Restrict error checks to registered proxies in dbus_get_proxies
-f0caba4475b630c79aa34ee7385d0fbe8a2d1ea8 build-sys: disable vhost-user-gpu if !opengl
-88738ea40bee4c2cf9aae05edd2ec87e0cbeaf36 ui/console: fix qemu_console_resize() regression
-a89a946f019400a0d740e1647a155c49e36fd4aa Merge tag 'for_upstream' of git://git.kernel.org/pub/scm/virt/kvm/mst/qemu into staging
-a9197ad2101cfc885cc316af299f49ba89039e54 kvm: fix segfault with query-stats-schemas and -M none
-4d65d4ba57372c57a1236fb5cb789dbcc100645c Merge tag 'fixes-pull-request' of gitlab.com:marcandre.lureau/qemu into staging
-976a55c0fe427a0084823152447cf5bb9092d24f Revert "linux-user: un-parent OBJECT(cpu) when closing thread"
-6fab0c182dabaca5b3d56e60a8de3122ce9afbea target/hppa: Fix proberi instruction emulation for linux-user
-a78241a62b55b202b29f3b190bdca3c3a425e693 Merge tag 'for-upstream' of https://gitlab.com/bonzini/qemu into staging
-ba58ccbef60338d0b7334c714589a6423a3e7f91 Merge tag 'for-7.1-hppa' of https://github.com/hdeller/qemu-hppa into staging
-51e15194b0a091e5c40aab2eb234a1d36c5c58ee scsi-generic: Fix emulated block limits VPD page
-a8cc5842b5cb863e46a2d009151c6ccbdecadaba Merge tag 'for-upstream' of git://repo.or.cz/qemu/kevin into staging
-48acf68cfe08496284fb12bf598721dea82d74a9 tests/avocado: push default timeout to QemuBaseTest
-e25636a12a1cc0a136aaa611a0cfbe6ebfa4aed4 tests/qtest/migration-test: Only wait for serial output where migration succeeds
-c398c7618737d7ff36ae49ba31dae1925683a605 tests/migration/aarch64: Speed up the aarch64 migration test
-41adc59640b786575ebf002a4ede8169b0a9541e tests/migration/i386: Speed up the i386 migration test (when using TCG)
-00269477c2184393d23865a089a3d71b03ef3d17 tests/qtest/migration-test: Remove duplicated test_postcopy from the test plan
-5af2b0f6eace7b368ed5cad9677e3bc995b6a7e3 qemu-options: try and clarify preferred block semantics
-1f6a638cee087b1be4f464e44a9311e19a79c50e Merge tag 'pull-for-7.1-fixes-240822-3' of https://github.com/stsquad/qemu into staging
-9a99f964b152f8095949bbddca7841744ad418da Update version for v7.1.0-rc4 release
-a47ea61de593a8243a66caba9d436040ecae25d5 tests/qtest: Use g_setenv()
-3c239aa77ed19521992a0b14594907adc0d79a6c tests/qtest: Use g_mkdtemp()
-413bebc04603d87d1889c919fbdd4adf30d4ebb5 tests: Use g_mkdir_with_parents()
-2549f6102e3ac9cab1954b44331c18b16faa3d97 tests/qtest: migration-test: Handle link() for win32
-d1c637ecff6f8c13cc9983b96a7aad2922d283f9 backends/tpm: Exclude headers and macros that don't exist on win32
-f10225d7d67815df745da82b6bdd8d233609767b tests/qtest: Adapt {m48t59,rtc}-test cases for win32
-bc67e31c3ebc284bf3fee284c1cd8f2f8ef489d1 tests/qtest: Build e1000e-test for posix only
-84efa8aa4e7c568c996b9575947474c734f128b3 tests/qtest: Build cases that use memory-backend-file for posix only
-8b1525b702448396fa3e1b61ff05ae029e367dae tests/qtest: i440fx-test: Skip running request_{bios, pflash} for win32
-d7613ee2165769303d0fa31069c4b6a840f0dae2 tests/qtest: migration-test: Skip running test_migrate_fd_proto on win32
-f514e1477f0d098f00d739c49e91944e04612e13 hw: Add compat machines for 7.2
-1d41de5f0524b00a3e1ac0a5b66958466f4332fa s390x/cpumodel: add stfl197 processor-activity-instrumentation extension 1
-d324c21ba0b84b3033baa097e44a7fbbec815fad target/s390x: Fix CLFIT and CLGIT immediate size
-8be934b70e923104da883b990dee18f02552d40e backends/hostmem: Fix support of memory-backend-memfd in qemu_maxrampagesize()
-90de559a669b99919e2a95ee85cb6b9b2e7256cb softmmu/physmem: Remove the ifdef __linux__ around the pagesize functions
-90d994619383c2665cf4f4712872c43ad2728bec util/mmap-alloc: Remove qemu_mempath_getpagesize()
-e0e4c27c6f3a34fe8965ee46a301ccf61a31d3b6 tests/qtest: libqos: Drop inclusion of <sys/wait.h>
-b243c73cf4dc7017e28577c4056df0655427a76e tests/qtest: libqos: Rename malloc.h to libqos-malloc.h
-fbde3ae8e7b73f4d5c46206ae3d22bcc470c55e1 tests/qtest: device-plug-test: Reverse the usage of double/single quotes
-de56338e068c97709febaf7ac45088b4b4eb0037 tests/qtest: machine-none-test: Use double quotes to pass the cpu option
-bf3267e790f2877e99a6aa3c24ce6e4e9f65220d tests/qtest: npcm7xx_emc-test: Skip running test_{tx, rx} on win32
-94add6ee24d55be96dd029fc506ea9a2df38f8e8 tests/qtest: prom-env-test: Use double quotes to pass the prom-env option
-0026be1d0f836ee899b47c6b925fdfc9baa9fd2f tests/vm: Add libslirp to the VM tests
-0fc389fe9208f0bfd9fa41cd7e6315a0989a3729 tests/avocado: Do not run tests that require libslirp if it is not available
-0aeefd5fcb6538074391a5281349bf1dbeb20688 tests/avocado: Fix trivial typo
-0285a0ec60484b2cfe0da1c39e992b8735675482 docs/devel/testing: fix minor typo
-5f2992fe1ec5594e5cf5b17d1a9979f46054a7cc gitlab-ci: Only use one process in Windows jobs for compilation
-146f39d7f3b08caa3a2a0645474465437cf085b8 tests/qtest/ac97-test: Correct reference to driver
-da55be562ea2b082da5d55cc12730fe8fe118852 tests/avocado/migration: Get find_free_port() from the ports
-621da7789083b80d6f1ff1c0fb499334007b4f51 Update version for v7.1.0 release
-93fac696d241dccb04ebb9d23da55fc1e9d8ee36 Open 7.2 development tree
-c49b67f72b1a875ca355a170759303b0faa959ca pseries: Update SLOF firmware image
-21d3a78ed9cf470f87180db62f7aa1296b7b0ee5 target/ppc: Fix host PVR matching for KVM
-0bf4d77e5922128506a3495d72ee9f432726c085 ppc/pnv: Add initial P9/10 SBE model
-c40da5c6fb6dd243e906900de1d22cf20e32a8cd fpu: Add rebias bool, value and operation
-08e185cadb24b038574dad676d4dae8488ba8b6e target/ppc: Bugfix FP when OE/UE are set
-91bcee7157b0a1c627705d5a24076a3058ea01a7 ppc/pnv: add PHB3 bus init helper
-e4e6db5283f775e44879246c6c93cb2462cf742f ppc/pnv: add PnvPHB base/proxy device
-1f5d6b2ad14df9daad17e81d9e247bd1fd2fd5fc ppc/pnv: turn PnvPHB3 into a PnvPHB backend
-fe5bfd4bb816faa1b3fa8c3c23165cdbadfa5c91 ppc/pnv: add PHB4 bus init helper
-210aacb3b92707ecc5de811c743322ca395c0fa6 ppc/pnv: turn PnvPHB4 into a PnvPHB backend
-5ba76b61a2d3c90daa264bbaa14464eb3c49caa9 ppc/pnv: add pnv-phb-root-port device
-805150619e47eea910c760e1fde8d3e7e61a3a24 ppc/pnv: remove pnv-phb3-root-port
-c8d14603e998ee41313e989cec590c3ec8ddc923 ppc/pnv: remove pnv-phb4-root-port
-17c681e92ddd66b8a5c425ea6a1c6ec3a4e079d4 ppc/pnv: remove root port name from pnv_phb_attach_root_port()
-cb6a5c26446f797252a479f456da030dc7febb20 ppc/pnv: remove pecc->rp_model
-d69db7dadfe7fd13731a9621520ffb2f382f1675 ppc/pnv: remove PnvPHB4.version
-e5ea94360eba4818467283a259d8d681f0da799f ppc/pnv: move attach_root_port helper to pnv-phb.c
-8ec1e4f1ef974e901b416fef6c3b38a5cc2eeffa ppc/pnv: add phb-id/chip-id PnvPHB3RootBus properties
-b7c1750dc440bb46ddc38dd0c391d6394db7bdb1 ppc/pnv: add phb-id/chip-id PnvPHB4RootBus properties
-c2f3f78af5fd664f95748ebc918ae86463690249 ppc/pnv: set root port chassis and slot using Bus properties
-ba47c3a4f888e99dedde1fed740927e973f9bc32 ppc/pnv: add helpers for pnv-phb user devices
-0d512c7120a2638da242436d45bd8a82ffffe27a ppc/pnv: turn chip8->phbs[] into a PnvPHB* array
-892c3ad0d5d6bb9b1e414d61118e93362ecab782 ppc/pnv: enable user created pnv-phb for powernv8
-c1471772772499b36659a0785d9a3de759d5aee2 ppc/pnv: add PHB4 helpers for user created pnv-phb
-d786be3fe7466ff96db96b86e6fee437136d63d7 ppc/pnv: enable user created pnv-phb for powernv9
-607e9316d3bd64ea6c1f7193ff9a7085a272244e ppc/pnv: change pnv_phb4_get_pec() to also retrieve chip10->pecs
-f1327fde3556aeea17f721f4fa2bb8bcf13b2038 ppc/pnv: user creatable pnv-phb for powernv10
-3466bb50ec7c49a63b4a146c82d4030742451f40 ppc/pnv: consolidate pnv_parent_*_fixup() helpers
-6a1e1ce2efb9c22723f9f7cada5d5a31842eb37d ppc/pnv: fix QOM parenting of user creatable root ports
-1335caf312a9522fe3abe6231891456ada721de2 ppc/ppc405: Remove taihu machine
-e67b374d0806d75b33bd4bf0fd6c0d6d7cd5e913 ppc/ppc405: Introduce a PPC405 generic machine
-041816c6d5e72896f3e829e8be6a80969c6cf047 ppc/ppc405: Move devices under the ref405ep machine
-df2372086f8af030bf5c2d1e1a46812d59923b80 ppc/ppc405: Move SRAM under the ref405ep machine
-3b758ca2f05fccd73b49cf88eff7d2dbf489902e ppc/ppc405: Introduce a PPC405 SoC
-5b0f170a8aa2b83d04aa6769eef35013a24ac52f ppc/ppc405: Start QOMification of the SoC
-b42ad437562f72b31e5743db4ddf183a8e810eb2 ppc/ppc405: QOM'ify CPU
-629cae617039e03d5bfdc0120ade69135a009d33 ppc/ppc4xx: Introduce a DCR device model
-4a7d2b7e5cebd00bdcc842517174ad33fd4934cb ppc/ppc405: QOM'ify CPC
-269fbb5b8ac0506b872ad3df277f23de1856ed15 ppc/ppc405: QOM'ify GPT
-2847eb40891b252e66a178532d26a8f7f91c735e ppc/ppc405: QOM'ify OCM
-125277c6a88d93760c2ec28c74bf3a1c30b90113 ppc/ppc405: QOM'ify GPIO
-82c86e304ad9532308486c516fe9396658a72d72 ppc/ppc405: QOM'ify DMA
-415a6333d44818b6ae23d4dda813fa8a8f0df2fc ppc/ppc405: QOM'ify EBC
-72beecc20c72fefb97bc4a4e558ba4e884166629 ppc/ppc405: QOM'ify OPBA
-2841430e6ae5cee6e58b1f0d86b77c6bbbc8c2d3 ppc/ppc405: QOM'ify POB
-695bce07dc1c0f7de054fb471a494d572e649e07 ppc/ppc405: QOM'ify PLB
-da116a8aab47695a8364708f2e1d14ed6fcc659f ppc/ppc405: QOM'ify MAL
-2d54aaf121d7a94a57b05059b15e9cbe670734a2 ppc4xx: Move PLB model to ppc4xx_devs.c
-052c779b4c2c08e07b77046e9acfbe30de2c3562 ppc4xx: Rename ppc405-plb to ppc4xx-plb
-127ba8d03e270fcbb5d71ea7a90609680803027d ppc4xx: Move EBC model to ppc4xx_devs.c
-cba58aa7629b94d6938dcac1fd5443f51daee2c9 ppc4xx: Rename ppc405-ebc to ppc4xx-ebc
-e9d20f37175bc89d8bca37304404f118918a9911 ppc/ppc405: Use an embedded PPCUIC model in SoC state
-a55b213646d8a62515912490d259cf84d2f9e168 hw/intc/ppc-uic: Convert ppc-uic to a PPC4xx DCR device
-111913fb2da19cb72e208a951b11f897f65cc8c7 ppc/ppc405: Use an explicit I2C object
-ea9b3186954ff07efbaad771e4c5674518fe872f ppc/ppc405: QOM'ify FPGA
-b5aae5f66098655f44cbacf463e358605e380889 ppc405: Move machine specific code to ppc405_boards.c
-adb566d371141d403a8e55b8728d7ab20389d248 hw/ppc/sam460ex: Remove PPC405 dependency from sam460ex
-56a5b199e4dd3043eb8f0954bdd71988f063366a hw/ppc/Kconfig: Move imply before select
-1b46bc17f49a48c8156a82bb8b66b716d1d45d00 ppc/ppc4xx: Fix sdram trace events
-95e22932870f523765910b01c2dc5b845b8bec85 ppc4xx: Fix code style problems reported by checkpatch
-3a2a29ebbdf47138ffa3cb729afeaa5286948521 Merge tag 's390x-pull-request-2022-08-30' of https://gitlab.com/thuth/qemu into staging
-e93ded1bf6c94ab95015b33e188bc8b0b0c32670 Merge tag 'testing-pull-request-2022-08-30' of https://gitlab.com/thuth/qemu into staging
-7bccb9e3222024470073568d05c2121386564ca3 target/avr: Support probe argument to tlb_fill
-9e1b2375daabc4d133baf08766676c5d301bade5 target/avr: Call avr_cpu_do_interrupt directly
-cecaad540155927f2faf1b6897c72cc59074cb45 target/avr: Only execute one interrupt at a time
-36027c70974fef1392e6c73dfb94c3f94f0930bc target/avr: Disable interrupts when env->skip set
-c6e51f1bb28ed762d2039c063cbb71a8ad29762d esp: Handle CMD_BUSRESET by resetting the SCSI bus
-fe9d8927e265fd723a6dc87cd6d220f4677dbe1f scsi: Add buf_len parameter to scsi_req_new()
-6d1511cea0fb536f2df7b6c31bb745d80b98d82e scsi: Reject commands if the CDB length exceeds buf_len
-3cafdb67504a34a0305260f0c86a73d5a3fb000b i386: reset KVM nested state upon CPU reset
-45ed68a1a3a19754ade954d75a3c9d13ff560e5c i386: do kvm_put_msr_feature_control() first thing when vCPU is reset
-7cb5844808f092306a5a764fe8427a653ac05358 configure: improve error for ucontext coroutine backend
-0169815b47bffe4361ac2370a4ad584277a62a96 meson: be strict for boolean options
-eccae02d99dfcf32d5c5db76f59c8f6ba25b5cb0 meson: remove dead code
-e3af71e9009de156665df67b9bdf5bc192aae215 meson: remove dead assignments
-4802bf910eee98312c4a9777ac2567e6a0445c46 KVM: dirty ring: add missing memory barrier
-9e8504c0572de7a6d91e95738beaf18ffada1cf2 tests/tcg: x86_64: improve consistency with i386
-7b764d41733075624bf7d93b3e1ff9aa8f66f563 tests/tcg: i386: extend BMI test
-75046ad72eaaae954849e2b793b6f629befb4ebc target/i386: fix PHSUB* instructions with dest=src
-bf30ad8cefeb3b199f5485c5d78f2801cd248264 target/i386: DPPS rounding fix
-7dd9d7e0bd29abf590d1ac235c0a00606ef81153 Merge tag 'pull-ppc-20220831' of https://gitlab.com/danielhb/qemu into staging
-91117bc546b10aeefd6d78502d82df5729f5f780 tests/tcg: i386: add SSE tests
-3dd116e32e8624dcfa966570a7806e92e19dc380 target/i386: do not use MOVL to move data between SSE registers
-da1a7edb5d790757b266462ab5d5e80b6a98214e target/i386: formatting fixes
-36fc7ee299cf7901e372fec31b46b5367b55f9f5 target/i386: Add ZMM_OFFSET macro
-f2dbc28947026d8c55a28774f04d96d5612cf6dd target/i386: Rework sse_op_table1
-491f0f1962f3ac6d2968cbf2a5f192ac613abbcf target/i386: Rework sse_op_table6/7
-622ef8f29123a4048d93ae78303b52a4fca51e03 target/i386: Move 3DNOW decoder
-2607e76ffde4b0620428500a00c354c58578a933 target/i386: check SSE table flags instead of hardcoding opcodes
-d7a851f89ac60379087b7d29c4ba09e1c6e11265 target/i386: isolate MMX code more
-ce4fa29f949595666ecea52eadc84ca899ccf2a4 target/i386: Add size suffix to vector FP helpers
-7f326902433052e97a6aa9539f45d5a8a1fdd172 target/i386: do not cast gen_helper_* function pointers
-71964f1b692addde852a3eb05e2298cbd80882ae target/i386: Add CHECK_NO_VEX
-25bdec79c629b49fbcf134f9eca063aaba6d4094 target/i386: rewrite destructive 3DNow operations
-18592d2ec2dddff3b08568d29aa82d96e0369b88 target/i386: Rewrite vector shift helper
-ee04a3c86dc125bbbdb04abaf4188dbafe612891 target/i386: Rewrite simple integer vector helpers
-e894bae8cbfdf08c0f006234badf297857aed3cd target/i386: Misc integer AVX helper prep
-d45b0de63d545aad2a2d91fde7b816ee3641d8d4 target/i386: Destructive vector helpers for AVX
-3403cafeeef30f41afee42c655573675286b3238 target/i386: Floating point arithmetic helper AVX prep
-cbf4ad5498039105db7c41e16e116b5b6584a786 target/i386: reimplement AVX comparison helpers
-6f218d6e994bd8b229d6522899b6ac6cd98bdb47 target/i386: Dot product AVX helper prep
-6567ffb4f259d9937ff74f21e96cdac905440620 target/i386: Destructive FP helpers for AVX
-fd17264ad153824204e1b5b88ebb3b597321b012 target/i386: Misc AVX helper prep
-0e29cea589ac870f9bfcc33514ccce14dbd8f098 target/i386: Rewrite blendv helpers
-5a09df21f7478f18e2ec59bac78a85c60e15604b target/i386: AVX pclmulqdq prep
-a64fc269198e09d422da0e89e606f6f12b40af1f target/i386: AVX+AES helpers prep
-c125b5520712badab15b90034a808a809288b477 Merge tag 'pull-avr-20220901' of https://gitlab.com/rth7680/qemu into staging
-10dab9f2635b9bab23a2b29974b526e62bb61268 vdpa: Skip the maps not in the iova tree
-7dab70bec397e3522211e7bcc36d879bad8154c5 vdpa: do not save failed dma maps in SVQ iova tree
-69292a8e40f4dae8af5f04724e06392cdf03c09e util: accept iova_tree_remove_parameter by value
-b37c12be962f95fd1e93b470a5ff05f6e2035d46 vdpa: Remove SVQ vring from iova_tree at shutdown
-5b590f51b923776a14d3bcafcb393279c1b72022 vdpa: Make SVQ vring unmapping return void
-8b64e486423b09db4463799727bf1fad62fe496a vhost: Always store new kick fd on vhost_svq_set_svq_kick_fd
-8b6d6119ad7fd983d192f60c4960fb6a9197d995 vdpa: Use ring hwaddr at vhost_vdpa_svq_unmap_ring
-9c2ab2f1ec333be8614cc12272d4b91960704dbe vhost: stop transfer elem ownership in vhost_handle_guest_kick
-86f5f2546f03a3dfde421c715187b262e29b2848 vhost: use SVQ element ndescs instead of opaque data for desc validation
-9e193cec5db949e4001070442a2f7de7042ef09b vhost: Delete useless read memory barrier
-d368c0b052ad95d3bf4fcc5a5d25715a35c91d4b vhost: Do not depend on !NULL VirtQueueElement on vhost_svq_flush
-eb92b75380fc0f2368e22be45d1e2d1e2cd2f79c vhost_net: Add NetClientInfo start callback
-c5e5269d8a955a0f924218911c2f4a0b34e87a21 vhost_net: Add NetClientInfo stop callback
-f8972b56eeace10a410990f032406250abe18d64 vdpa: add net_vhost_vdpa_cvq_info NetClientInfo
-7a7f87e94c4e75ca177564491595dd17b7e41a62 vdpa: Move command buffers map to start of net device
-be4278b65fc1be8fce87e1e7c01bc52602d304eb vdpa: extract vhost_vdpa_net_cvq_add from vhost_vdpa_net_handle_ctrl_avail
-539573c317dc0b8d50a128db60550f2f2898d2fc vhost_net: add NetClientState->load() callback
-dd036d8d278e6882803bccaa8c51b8527ea33f45 vdpa: Add virtio-net mac address via CVQ at start
-0e3fdcffead7c651ce06ab50cffb89e806f04e2b vdpa: Delete CVQ migration blocker
-3772cf0d1b37d32e61dc314e9cc18ff745327ddd net/colo.c: Fix the pointer issue reported by Coverity.
-36a894aeb64a2e02871016da1c37d4a4ca109182 net: tulip: Restrict DMA engine to memories
-d409373b9d0482bbce312539d02a648cbb1c790a util/qemu-sockets: Enable unix socket support on Windows
-120fa5e0e6ebacd811e4d830cff8a405806d305c chardev/char-socket: Update AF_UNIX for Windows
-0370f239ad14aeacc496775e241b9ef041df4374 tests/unit: Update test-io-channel-socket.c for Windows
-0f957c53c84d655f2e99677d407cf2bbe1832de4 audio: exit(1) if audio backend failed to be found or initialized
-9fd704da6809f3e01d0283f0d6d619022d481fb9 Merge tag 'char-pull-request' of https://gitlab.com/marcandre.lureau/qemu into staging
-fccffd53719255cafd4bc89f5b0bda1cd37924f4 Merge tag 'net-pull-request' of https://github.com/jasowang/qemu into staging
-61fd710b8da8aedcea9b4f197283dc38638e4b60 Merge tag 'for-upstream' of https://gitlab.com/bonzini/qemu into staging
-7025114b1cd7683cb7fbef0810577c67aa3cbbd8 hw/openrisc: Split re-usable boot time apis out to boot.c
-0fd8a106efb6bc2e55b3e9629b106d13a7214570 target/openrisc: Fix memory reading in debugger
-65f5144e1726c36c97df7e70484250941aafaa27 goldfish_rtc: Add big-endian property
-b5fcfe927b7a9cbbc0864e7fc4f34bc94631ee0e hw/openrisc: Add the OpenRISC virtual machine
-40fef82c4e7ea723b52eb3d2a0c4a46189f1ad44 hw/openrisc: Add PCI bus support to virt
-557e37071d4d4e6de577f5a4dfb012a6a733f319 hw/openrisc: Initialize timer time at startup
-bbe6855ef80f61c6b00da22aa0cd550d79d8e381 target/openrisc: Add interrupted CPU to log
-6a0fc96ad2b16a264ead6b696bdb91a963450dbb target/openrisc: Enable MTTCG
-66564c31e4e012c65c84d403c2dc14c0a754047f target/openrisc: Interrupt handling fixes
-c6fe3e6b4cd8d7b98ea37bf37fb3686ecd1304fe hw/openrisc: virt: pass random seed to fdt
-b14df228d7c4fe6e86e7f8a4998e9ccf4967b678 docs/system: openrisc: Add OpenRISC documentation
-fd28528ece590dc709d1a893fce2ff2f68ddca70 Merge tag 'pull-or1k-20220904' of https://github.com/stffrdhrn/qemu into staging
-3e01455edd5fce06c14e2926b6ef408d9a94c9fb usb-braille: Better explain that one also has to create a chardev backend
-fbd3c4cff641cae082edb765017cbb699efa6712 linux-user/arm: Mark the commpage executable
-eee816c0b972bd085e62fcd7d2de7a34dbbd155b linux-user/hppa: Allocate page zero as a commpage
-d461b73ec007ccbe861db91bbcd792c92e46fcad linux-user/x86_64: Allocate vsyscall page as a commpage
-872f3d046f2381e3f416519e82df96bd60818311 linux-user: Honor PT_GNU_STACK
-aa98e2d885ca9de66ddd56d88b19b0e162cc90d7 linux-user: Clear translations on mprotect()
-d64655c2c35d967e9c496937885c511240204e76 tests/tcg/i386: Move smc_code2 to an executable section
-f3b2b81b6fdaacfa8a769ad5834e6f6f129e2119 accel/tcg: Introduce is_same_page()
-cdf7130851318004e6512dbfdb73156fe59c7a59 accel/tcg: Properly implement get_page_addr_code for user-only
-297368c74d077b24f0bb5c4f1ce541cc23d36815 accel/tcg: Unlock mmap_lock after longjmp
-0c90ba16e3b51381dc82b0f54532c6609261aea0 accel/tcg: Make tb_htable_lookup static
-97e03465f7dac073434373428388eb6e0998ecea accel/tcg: Move qemu_ram_addr_from_host_nofail to physmem.c
-7e0d9973ea665bf459b2dbd173d0e51bc6ca5216 accel/tcg: Use probe_access_internal for softmmu get_page_addr_code_hostp
-9867b30287ec98728e52ed49d03c666e86c90a04 accel/tcg: Document the faulting lookup in tb_lookup_cmp
-dac8d19bdb3ccaafbcbd2df34135464964232a8f accel/tcg: Remove translator_ldsw
-306c872103b4d0986c9f671eb7538b0b70bf69b5 accel/tcg: Add pc and host_pc params to gen_intermediate_code
-50627f1b7b1b1db60166a670fbc17623c7d7243e accel/tcg: Add fast path for translator_ld*
-ab12c95d3f1999648d70bca54ebcc0588a07dd3e target/s390x: Make translator stop before the end of a page
-950936681f322a5ba2813f83eb44dd972be2d5a3 target/i386: Make translator stop before the end of a page
-ef6e987b64343e0dc9e8526c80ee8d27d0654549 target/riscv: Add MAX_INSN_LEN and insn_len
-00c07344fa245b22e895b363320ba4cd0ec1088a target/riscv: Make translator stop before the end of a page
-b34b42f1b6a33c455dccce6ceb49962dddbb7a8a Merge tag 'pull-tcg-20220906' of https://gitlab.com/rth7680/qemu into staging
-946e9bccf12f2bcc3ca471b820738fb22d14fc80 Merge tag 'samuel-thibault' of https://people.debian.org/~sthibault/qemu into staging
-8e2aa21b0a0d434be2f53a9435fec4f63ec192c4 target/riscv: Update [m|h]tinst CSR in riscv_cpu_do_interrupt()
-9a1f054d5bd9acaa82b66e09309482cba9eced63 target/riscv: Force disable extensions if priv spec version does not match
-3363277525958e173b4526f9dca225e125b1a5de target/riscv: fix shifts shamt value for rv128c
-6d00ffad4e9549086e80a47566ed5f3b4b8bb2dd target/riscv: move zmmul out of the experimental properties
-e4b4f0b71ccbeb0157489c0904ba4957761528ff hw/riscv: virt: pass random seed to fdt
-0b572c8131998e7bcd048dbbbe78f95e6101d68d target/riscv: Add check for supported privilege mode combinations
-756b0374dc37af2213e3b652fb3f50a4cc9acb24 target/riscv: H extension depends on I extension
-108c4f26ce441fe0fa0ee20c776e2b71706068be target/riscv: Fix checkpatch warning may triggered in csr_ops table
-c126f83cd64883f7cb4be90a7fbf29e2be3bb9c7 target/riscv: Add check for csrs existed with U extension
-62a09b9b4118ca42e79d9bd179daf7230462705b target/riscv: Fix checks in hmode/hmode32
-5de124538b618c864508868eae505e77149649b7 target/riscv: Simplify the check in hmode to reuse the check in riscv_csrrw_check
-780bb81bb3624b304d3226803b61e881777d183d roms/opensbi: Upgrade from v1.0 to v1.1
-dec19f68130cda6c44c4eab4ed8c185c5ed40e5a target/riscv: Fix typo and restore Pointer Masking functionality for RISC-V
-079520033facc70beee5eedee8d7a27a2a9261b4 docs: List kvm as a supported accelerator on RISC-V
-355d5584de1129eec1c4043fdee1335010cfabb6 target/riscv: rvv: Add mask agnostic for vv instructions
-265ecd4c62a008f3be351a75e1847cee9c71e380 target/riscv: rvv: Add mask agnostic for vector load / store instructions
-bce9a636beabbb2c538cdfca49592b04bfbf7e2c target/riscv: rvv: Add mask agnostic for vx instructions
-fd93045ebfa6ab07ce7017fb4095736c3f6f315a target/riscv: rvv: Add mask agnostic for vector integer shift instructions
-6e11d7eaa02c5834e5172d25e8c794ac5731b56e target/riscv: rvv: Add mask agnostic for vector integer comparison instructions
-72e17a9f86098feb25d2c1f2af043dc5f9f211e3 target/riscv: rvv: Add mask agnostic for vector fix-point arithmetic instructions
-5b448f44c92f7355ae2b02af0699d22674cc5f6e target/riscv: rvv: Add mask agnostic for vector floating-point instructions
-35f2d795f313c43af5851ca2243317c0b0834c6c target/riscv: rvv: Add mask agnostic for vector mask instructions
-edabcd0e0aea2ac8d68931f31fcf8d3b99a28f20 target/riscv: rvv: Add mask agnostic for vector permutation instructions
-1ad3f9bdc76c83b23d689a111d5a160c528ac8ba target/riscv: rvv: Add option 'rvv_ma_all_1s' to enable optional mask agnostic behavior
-4696f0ab5c436ed53567ce6baec67c921d9b70ae target/riscv: Add Zihintpause support
-6934f15b225c9324eafa064d3520a698ed09f9df hw/riscv: remove 'fdt' param from riscv_setup_rom_reset_vec()
-eacaf440195675bc528f4aac394da7a74a9d95eb target/riscv: Fix priority of csr related check in riscv_csrrw_check
-bf8803c64d756128e4537e22fe86e3717a5274f1 hw/riscv: opentitan: bump opentitan version
-25da6e311336b431d8cf1eaa8fe8688b7ee710ed hw/riscv: microchip_pfsoc: fix kernel panics due to missing peripherals
-240b363618bdd981333e8ebbb1cb09e702315b0a target/riscv: Remove additional priv version check for mcountinhibit
-53c38f7ab1a5b55d63303d36a42c3e74b5fc9225 hw/riscv: virt: fix uart node name
-95e401d3785a9be9ac4edc7a5a7f9147d917e610 hw/riscv: virt: fix the plic's address cells
-ae29379998f101aedf32f9168135eb0545257b3c hw/riscv: virt: fix syscon subnode paths
-d1af78745cfc4e8efdda9b3484b32bbb4507276f hw/core: fix platform bus node name
-e0dea2f55f678a1aa1dab3a25c13f52d68b4ec2b target/riscv: Add xicondops in ISA entry
-dc9acc9ce4add37bc5b4437ae9117c318b4f09d4 target/riscv: Use official extension names for AIA CSRs
-7cbcc538f4b3040db1e39a6547efa501a8a44907 hw/intc: Move mtimer/mtimecmp to aclint
-43888c2f1823212b1064a6a94d65d8acaf954478 target/riscv: Add stimecmp support
-3ec0fe18a31fabfe999b480e4c21847ac0d51560 target/riscv: Add vstimecmp support
-14664483457b21235be42fbfb534e5ea881508b8 target/riscv: Add sscofpmf extension support
-ade445ef85aa0cf711a311132cb458f11f6a6d12 target/riscv: Simplify counter predicate function
-892320facd73136b48bb58af3bd742686eb05416 target/riscv: Add few cache related PMU events
-abd9a20665496aa4f3680fbbd42b5c389ea53d1c hw/riscv: virt: Add PMU DT node to the device tree
-f0551560b5c01b1dcbed1ac46ca0bd1155330f5f target/riscv: Update the privilege field for sscofpmf CSRs
-e46e2628e9fcce39e7ae28ac8c24bcc643ac48eb Merge tag 'pull-riscv-to-apply-20220907' of https://github.com/alistair23/qemu into staging
-5d07159d639603e31f570665946e0817da313302 qapi: fix example of query-ballon command
-5be07b3e54b4eb9781fd0fb729e0ac7406499605 qapi: fix example of query-vnc command
-612fb7cd5492f7f421cbcbb6d6118ca7eef62c91 qapi: fix example of query-dump-guest-memory-capability command
-ccc9ddbcbe5a0a8d7d2881bf6b17324016fb994b qapi: fix example of BLOCK_JOB_READY event
-dac318d3dfebfb89e0266ad12df2792bb33c5210 qapi: fix example of NIC_RX_FILTER_CHANGED event
-0cd5a5e9c9f3255d76e52b6f8a3790ba4044ce2e qapi: fix example of DEVICE_UNPLUG_GUEST_ERROR event
-e8796ac4b6f8a9f8d1d2c3c6a774d815d10d88c5 qapi: fix example of MEM_UNPLUG_ERROR event
-b6522938327141235b97ab38e40c6c4512587373 qapi: fix examples of blockdev-add with qcow2
-b4c32cbf06621117214f71501866514011434f43 qapi: fix example of query-hotpluggable-cpus command
-6e7a37ffc230d06852f1a8893097331d39df77c9 qapi: fix examples of events missing timestamp
-79dfa177ae348bb5ab5f97c0915359b13d6186e2 Merge tag 'pull-qapi-2022-09-07' of git://repo.or.cz/qemu/armbru into staging
-a0bcec03761477371ff7c2e80dc07fff14222d92 tpm_emulator: Avoid double initialization during migration
-f0ccce6a95f6ff947040692ef941230918181562 tpm_crb: Avoid backend startup just before shutdown under Xen
-efef4756c7f66e51fd5bfa132680ee0fb585f7a5 tpm_emulator: Use latest tpm_ioctl.h from swtpm project
-99bdcd2cc2d05833f5c11caca22193f8dd878ae9 tpm_emulator: Have swtpm relock storage upon migration fall-back
-d1e23cbaa403b2d816e1cb2acd61105d00c38b9b target/nios2: Use semihosting/syscalls.h
-78c2c68ddac7b1a73615d89363fffd8c01561123 target/nios2: Convert semihosting errno to gdb remote errno
-950272506dbd8dcf8c74b63e9949d18397e6a0ec target/m68k: Use semihosting/syscalls.h
-7327e60237c36e9aa089141de547ca224ec5f3be target/m68k: Convert semihosting errno to gdb remote errno
-5202861b20d77b1d638da5f10af0f51ebcfc61bf semihosting: Allow optional use of semihosting from userspace
-19b26317e9eb0c4dfd42e341ba7c4474c6d53ff9 target/arm: Honour -semihosting-config userspace=on
-a52417e1eeb4501993e29145d16faac59e8465ca target/m68k: Honour -semihosting-config userspace=on
-b35d74015b0262260b7dbb75c80ea85aeebab89b target/mips: Honour -semihosting-config userspace=on
-cab9f19370b5e26afbc7f62e08293507bf2a5f6b target/nios2: Honour -semihosting-config userspace=on
-870ab98bee4312caf0ced42999e295f741aba853 target/xtensa: Honour -semihosting-config userspace=on
-7d7fb11615809839ff858328134c6a0abad27ea4 target/riscv: Honour -semihosting-config userspace=on and enable=on
-3b16766b5ae7f61079e3ae674e140219c4cdbe85 target/arm: Add cortex-a35
-3b9a030e846dd42a53f9f5bdcdd0228bb898e01b hw/arm/bcm2835_property: Add support for RPI_FIRMWARE_FRAMEBUFFER_GET_NUM_DISPLAYS
-dde4d028dc829cb70d285bb943ebdc049692fa27 target/arm: Make cpregs 0, c0, c{3-15}, {0-7} correctly RAZ in v8
-62b6f5e2f0a029810791dde6e02f86ad8575a02c target/arm: Sort KVM reads of AArch32 ID registers into encoding order
-32957aad8ce3cd4f923b464efb80645963479ff8 target/arm: Implement ID_MMFR5
-d22c564958ffa6bd40be34c6ea3333ee7ef73b68 target/arm: Implement ID_DFR1
-3fe72e213eae33daaea88685878a571bd5ef3e08 target/arm: Advertise FEAT_ETS for '-cpu max'
-bb7d902154f7f17c9127631c42a21fbbc805cb40 target/arm: Add missing space in comment
-76e25d41d44c49eb0fe399064a719702a3023102 target/arm: Don't corrupt high half of PMOVSR when cycle counter overflows
-c117c0649ce4022f518a7f0bc14bf7b036c89de3 target/arm: Correct value returned by pmu_counter_mask()
-01765386a88868ae993bcbb39f111501fe690035 target/arm: Don't mishandle count when enabling or disabling PMU counters
-b57aa7bdc3b4f16b216bd854e86431146729a640 target/arm: Ignore PMCR.D when PMCR.LC is set
-872d20343de4f1af45a31270f47cc54cc474bf55 target/arm: Honour MDCR_EL2.HPMD in Secure EL2
-f1dd2506ee75b21a604e5a8b6e1c0fd00a435f7e target/arm: Detect overflow when calculating next PMU interrupt
-a793bcd0272d9d25c942184ee18c7ed4dc75dc0d target/arm: Rename pmu_8_n feature test functions
-0b42f4fab9d3e994efa44e17cb76c15b269bcbda target/arm: Implement FEAT_PMUv3p5 cycle counter disable bits
-47b385dae8e95e833114285625f4db796c52e8a3 target/arm: Support 64-bit event counters for FEAT_PMUv3p5
-e31e0f56616ae88cda22da8d5a257c2fcee4de2a target/arm: Report FEAT_PMUv3p5 for TCG '-cpu max'
-f92bd43480bf2da36354e148d139ef2aac12d3f2 target/arm: Remove useless TARGET_BIG_ENDIAN check in armv7m_load_kernel()
-761c532ab1ebe9d345c9afe4fb9c2c4b26c58582 target/arm: Make boards pass base address to armv7m_load_kernel()
-00d60cfcbda54b86ad9e09b20c7b71250dd6b19b monitor: Support specified vCPU registers
-3183bb3f441ba5b9da570f7f5f9abdc3313ba311 monitor/hmp: print trace as option in help for log command
-22269b0436cc8e4aaac975b4c8cb01b343d09661 hmp: Fix ordering of text
-92411fd91e914b95f9c6c512ddd0d3935bd60115 Merge tag 'tpm-pull-2022-09-13-1' of https://github.com/stefanberger/qemu-tpm into staging
-50eac424c74bddd2d73cee47080be94c1d04893e Merge tag 'pull-arm-20220914' of https://gitlab.com/rth7680/qemu into staging
-123a32f9b38c3bd22d47688d0bf0ab955d4152bc Merge tag 'pull-semi-20220914' of https://gitlab.com/rth7680/qemu into staging
-d29201ff34a135cdfc197f4413c1c5047e4f58bb Merge tag 'pull-hmp-20220915a' of https://gitlab.com/dagrh/qemu into staging
-52281c6d11ec68b802e8a264780df2c4b981e6bc KVM: use store-release to mark dirty pages as harvested
-958e1dd1300f37f18b2161dfb4eb806fc8c19b44 target/i386: Raise #GP on unaligned m128 accesses when required.
-21adec30f62e4e700e0e217da756723e189d7b29 kvm: fix memory leak on failure to read stats descriptors
-c4ef328bdc5dac319c8a1bdbe6d4108382b41584 spapr_pci: fix leak in spapr_phb_vfio_get_loc_code
-2ff2004bb858e8760c2e381b05a3144897c5161d coverity: add new RISC-V component
-b00e2c68c5864b4158afc924d868f5c5611a0362 coverity: put NUBus under m68k component
-57e3069641d057a9ca90bb603c86477d5b331ecd smbios: sanitize type from external type before checking have_fields_bitmap
-ac9e723fb6baaf9d9afa31f81c57f38ef7610616 tests: unit: simplify test-visitor-serialization list tests
-5dc51100394206b4ca3fdcafb008de8f99fc4676 tests: test-qga: close socket on failure to connect
-b3a58a6ae346f14075af0df7f9903ad389c33dbd tests: unit: add NULL-pointer check
-4ce4a1a71452028960d641438bb5289cff410ae8 tests/tcg: i386: fix typos in 3DNow! instructions
-3ff17902c48bfb4e7ce20acf6f00c33fb6e0ed60 hw/loongarch: Remove vga device when loongarch init
-feae45dc427ed8e0cf01e4730f2f798374536137 hw/loongarch: Support fw_cfg dma function
-525207cd77adb181b4ef61d0b7669f52f737e9d0 tests: mark io-command test as skipped if socat is missing
-5bf060252274f3b12ee2a58687493a3dff2c8a6c tests/vm: update NetBSD to 9.3
-039fb5490695438d013b1c4ff8c63aadf441a99b .gitlab-ci.d/windows.yml: Drop the sed processing in the 64-bit build
-d1592cbe07fa7b653aa9dde2eb8dafbe1de16885 tests/qtest: npcm7xx-emc-test: Skip checking MAC
-a772ddc1c013c3ff54cd6bc5f1e4a9107093fc01 qtest/fuzz-lsi53c895a-test: set guest RAM to 2G
-fa7ce0b0282300c8c06a6c6857949168ec31a762 tests/tcg: i386: add MMX and 3DNow! tests
-e02907cc12df4765cc92f8b0c193a10c1841c82e tests/tcg: refine MMX support in SSE tests
-e121d7606bc9041619d8c6e0524a1ccdbbdd6547 tests/tcg: remove old SSE tests
-5e03b6daf66dfb0f5512a0dfc9e21e749b6f67b7 audio: add help option for -audio and -audiodev
-034668c329bb3e257a1f259571bd462938522e7a target/i386: correctly mask SSE4a bit indices in register operands
-ca4b1b43bc5ac25c56a3a7a4a2252d6fdc8dcf02 target/i386: fix INSERTQ implementation
-5c2f60bd1b6fc7164118a6270eefbf0b6dafc4ae target/i386: REPZ and REPNZ are mutually exclusive
-efcca7ef172a6844423670aa62f93099feb58b8c target/i386: introduce insn_get_addr
-9ee37d3bb89c8743e8b1a0e69af8efb6e25bb7db build: remove extra parentheses causing missing rebuilds
-df22fbb751dc72f321218c3fb192730a47ad59a9 qboot: update to latest submodule
-caa0a12e0112b4496b4a6b7832e56da5e50481c6 Hexagon (target/hexagon) remove unused encodings
-8888ee42af726b9aba8245022fd4b7350a12acd3 Hexagon (tests/tcg/hexagon): add fmin/fmax tests for signed zero
-ee413a52c1bc36abbdbf097da0c9143b9a88220d hw/loongarch: Add interrupt information to FDT table
-a1f7d78e564a453ea07159efaa1af9a7210ddeda hw/loongarch: Add platform bus support
-e27e535768129834cf6debed4575a161f7013dda hw/loongarch: Add hotplug handler for machine
-f8ab9aa2883c91fb14eb583febf6a301373c8f62 hw/loongarch: Add RAMFB to dynamic_sysbus_devices list
-1cd5db2e8836dc2e1e8fe83f6a2fc101c539df0c hw/loongarch: Fix acpi ged irq number in dsdt table
-c3da26f314ad918ad36ca1373ea7c7f1aa036a87 hw/loongarch: Support memory hotplug
-1895b967922890f76ad0ba8eefad6019e0328606 hw/loongarch: Improve acpi dsdt table
-a65c9527fd78dbea7f6f24f8c581a91281f355d9 tests: Fix error strings
-abad185c6bf5bea46a999b623690ef42ea20cb02 meson-build: Enable CONFIG_REPLICATION only when replication is set
-b3ad62c14f6905fe28fcd276f3029525b44bbe18 bios-tables-test: Make oem-fields tests be consistent
-d007981ae1d56924f5f532a6c458980d675f3ca6 bios-tables-test: Sort all x86_64 tests by machine type
-34b1f2c62095c483e10c591ec02e91c7d365ea2a bios-tables-test: Only run test for machine types compiled in
-08ed0988d6d589a9cb4d092765bd8f2272d1e8e9 tests: Only run intel-hda-tests if machine type is compiled in
-1dbea8185281f9c6c09a2fe8c333c6e26c5c741f tests: sb16 has both pc and q35 tests
-7eab180f903931a5fac16b253d115706f008eade gitlab-ci: Update the FreeBSD 13 job from 13.0 to 13.1
-582a098e6ca00dd42f317dad8affd13e5a20bc42 qga: Replace 'blacklist' command line and config file options by 'block-rpcs'
-0e4ef702e82baf1797ea02e40f39acabe46923aa qga: Replace 'blacklist' and 'whitelist' in the guest agent sources
-903f84eb88c8d43fa2e46d4c30969de30dbb5297 target/ppc: Add HASHKEYR and HASHPKEYR SPRs
-670f1da374d9e9a7d509ef6f03d871144284f8d6 target/ppc: Implement hashst and hashchk
-53ae2aeb940729d7f6f42ce734dc65d5332260c2 target/ppc: Implement hashstp and hashchkp
-6a8654d6c215f410cfd5c7dd853e6cf311156b5f target/ppc: Move fsqrt to decodetree
-4896c15bc36591436f02c3bfc4c828099be2b1f8 target/ppc: Move fsqrts to decodetree
-74177ec661cc3d8553cc645632a9b6fdfe1b85e5 target/ppc: Merge fsqrt and fsqrts helpers
-676696f428202b8f2dcd34ec8ff84baa38a14e61 target/ppc: Remove extra space from s128 field in ppc_vsr_t
-228ab1451d2b4a731d00d4ff42c6e367afbbabdd target/ppc: Remove unused xer_* macros
-34f760bac2c9a32afae150fbcc56ceba399d61de target/ppc: Zero second doubleword in DFP instructions
-3ecec4c0429f65de1822b881ea732689cf647254 target/ppc: Set result to QNaN for DENBCD when VXCVI occurs
-9f097daa5483cdb7d745740606232c931d32b796 target/ppc: Zero second doubleword for VSX madd instructions
-af721a31696a1e08d8dcdabcd14c4cb09f9a5e16 target/ppc: Set OV32 when OV is set
-4b65b6e76977895fe43eb340c54b552fd16fe1ce target/ppc: Zero second doubleword of VSR registers for FPR insns
-c3f24257e3c094122a82611db3d7c3e8b25d9153 target/ppc: Clear fpstatus flags on helpers missing it
-9864b7f8ac5f06d7ce610997e01c187c3d01967c gitlab: reduce targets in cross_user_build_job
-7fcc3f759536b9a6e07d979e73b81ccdc4751c01 tests/avocado/boot_linux_console: Fix the test_aarch64_xlnx_versal_virt test
-c7f059ac112d5efe939a9d131442a8b019677a50 tests/avocado: add explicit timeout for Aarch64 TCG tests
-06a4c9cf2447578bea2e464daaf17c80c40f212b tests/avocado: add explicit timeout for s390 TCG tests
-b247dba067bf2808de6395ff09ff0cb220ed7c95 tests/avocado: add explicit timeout for ppc64le TCG tests
-92f8e8e2fe3adcbbfaa6ee93591e7e7a3a896b08 tests/avocado: split the AST2x00Machine classes
-8f58f0c7d9389083695237d8f477771df9c51e48 tests/avocado: reduce the default timeout to 120s
-d9df358f53494d121f569abe2e5a0888731315c4 tests/docker: update and flatten debian-alpha-cross
-8b034187607f5b9c153b4b42ed45ee0b9b4c9881 tests/docker: update and flatten debian-hppa-cross
-77855002369b80d7d31cb85952c2149f7f3f2624 tests/docker: update and flatten debian-m68k-cross
-2d2a154be711162478fccf4c5450080be41f4543 tests/docker: update and flatten debian-mips64-cross
-376c4109af99463aab8f33fb68a298d72da2b59b tests/docker: update and flatten debian-sh4-cross
-6ede0767bac84d0b722c3fcc37ec102d5418f09b tests/docker: update and flatten debian-sparc64-cross
-0fd8f7a2dfcb3abcccd7b20ae18c1924f5fae708 tests/docker: flatten debian-powerpc-test-cross
-95b0af40ded2aa0b350a9d8cb4256146e3397e48 tests/docker: remove tricore qemu/debian10 dependency
-0068cf8bd23738c20e131cb5f89ed3947ca77bd7 tests/docker: remove amd64 qemu/debian10 dependency
-3c696fdc596cdf04f8a1b3fa2cecabbb82507bb4 tests/vm: Remove obsolete Fedora VM test
-cb5b5ab9a516ce5ecddfc50971bf6f690300fd74 hw/ppc: spapr: Use qemu_vfree() to free spapr->htab
-90865af7d901a2aa5eeadfb488f3a9d4aaf70605 hw/pci-host: pnv_phb{3, 4}: Fix heap out-of-bound access failure
-6b5cf264ee76d24b357a60b69b0635a533c1f647 hw/ppc/spapr: Fix code style problems reported by checkpatch
-abafb64b6dcbdb0ca0943cd04373bd84353ce7ec configure: explicitly set cflags for --disable-pie
-45e1b746943eefe4c0fb35e29878cd038ac62fd7 gitlab-ci/custom-runners: Disable -static-pie for ubuntu-20.04-aarch64
-66dca267489e7b150546297e7c33a04430a15eb4 gitlab-ci: update aarch32/aarch64 custom runner jobs
-54ab3c3feef6e5a6c6cf97c4532ebed642ec2705 Deprecate 32 bit big-endian MIPS
-fab08026a2627625a1c4e856285ab8f350b1b3ed tests/docker: flatten debian-riscv64-test-cross
-b6fafe5b3e5eb555cf13f51cd5d08400c86dac96 tests/docker: update and flatten debian-all-test-cross
-8bb499955e26466b2b64f0736d77037a56fcddcb tests/lcitool: bump to latest version
-cd150e19e83833d164d69fd159ee95ff3a203e17 tests/docker: update and flatten debian-amd64-cross
-35782a1b9a2ee71fb037bf1ec6379d5720abf817 tests/docker: update and flatten debian-loongarch-cross
-581cd47fe5a708ebd999bd426a111984074c9ea6 tests/docker: update and flatten debian-hexagon-cross
-4239162add71101feddeaba216d576c581128975 tests/docker: update and flatten debian-toolchain
-07056db1b504acf12a0a39647846030956445fea tests/docker: remove FROM qemu/ support from docker.py
-d996f0aeb2fe8f5c5f30ac8a2f633e3196457d6f tests/docker: remove the Debian base images
-832e9e33bc51f52fc3ea667d48912e95af3e28f3 Merge tag 'pull-loongarch-20220920' of https://gitlab.com/gaosong/qemu into staging
-1b3a3383df62e32485161712405c2e3dd8b478b0 Merge tag 'for-upstream' of https://gitlab.com/bonzini/qemu into staging
-2906f933dd1de6d94c54881cc16ea7390a6ba300 Merge tag 'pull-request-2022-09-20' of https://gitlab.com/thuth/qemu into staging
-5934dae7a747f0aed24e8d20936ca5e117d95ad9 target/m68k: Implement atomic test-and-set
-24ec52f91dfb6d26d7035093adca60d18f02074e target/m68k: Fix MACSR to CCR
-214c6002d0263bce2225e23983e58d36740a6e1d target/m68k: Perform writback before modifying SR
-aece90d85df4c33e413af6ba75964acb304945f5 target/m68k: rename M68K_FEATURE_M68000 to M68K_FEATURE_M68K
-c7546abfaa1b1c2729eaddd41c6268a73cdae14f target/m68k: always call gen_exit_tb() after writes to SR
-8f3aeb012f86977e3a48fae062f8afafa32ffce9 Merge tag 'pull-testing-next-200922-2' of https://github.com/stsquad/qemu into staging
-6514f1a52249799a32fa26a952d876ebb785b715 Merge tag 'pull-ppc-20220920' of https://gitlab.com/danielhb/qemu into staging
-6338c30111d596d955e6bc933a82184a0b910c43 Merge tag 'm68k-for-7.2-pull-request' of https://github.com/vivier/qemu-m68k into staging
-b91b6b5a2cd83a096116929dfc8e016091080adc hw/microblaze: pass random seed to fdt
-fb96d131eec66ecb2993c544058a8cb2c9c3521f hw/net/can: fix Xilinx ZynqMP CAN RX FIFO logic
-3a661024cc680104ce2cd21f8f5466dacba6f405 target/arm: Fix alignment for VLD4.32
-de05a709ec2b3ddf7a739d85ef8cdd9d5a02b6e1 target/arm: Create GetPhysAddrResult
-03ee9bbe702a471a03c9a0f5c9b924e257d1001b target/arm: Use GetPhysAddrResult in get_phys_addr_lpae
-60a6a180b1694ee7452266d05f71c8feb8ea8383 target/arm: Use GetPhysAddrResult in get_phys_addr_v6
-51d98ce2cbfcea8fc14d5b05736f782ecae499d3 target/arm: Use GetPhysAddrResult in get_phys_addr_v5
-b7b9b579cf616e3a933e833462e50ad5b4e36d75 target/arm: Use GetPhysAddrResult in get_phys_addr_pmsav5
-e59367e2ef998a4e0cb1f123861a56fc288d5620 target/arm: Use GetPhysAddrResult in get_phys_addr_pmsav7
-5272b23e2e525d50ab5a507632b26cc67f1f6daf target/arm: Use GetPhysAddrResult in get_phys_addr_pmsav8
-d2c92e585619516d7d29d38de3acba206806e64c target/arm: Use GetPhysAddrResult in pmsav8_mpu_lookup
-652c750ee5c57ba3bbaf32e5ebb77fbbc8f68385 target/arm: Remove is_subpage argument to pmsav8_mpu_lookup
-dbf2a71ad62b99286adf6cdc6d6c12cdb26306a9 target/arm: Add is_secure parameter to v8m_security_lookup
-e9fb709041d7866fca33de0848a3d43092e42512 target/arm: Add secure parameter to pmsav8_mpu_lookup
-b29c85d50c7069ddf53187860e18f9dce824f590 target/arm: Add is_secure parameter to get_phys_addr_v5
-71e73beb5101f0999f1a1440a3c544b24cb71430 target/arm: Add is_secure parameter to get_phys_addr_v6
-be0ca9485d6aeb3a9d9cae36f5e5b8fe1de9440b target/arm: Add secure parameter to get_phys_addr_pmsav8
-1a469cf78d45a711fb5fce3cbbb325917d17895a target/arm: Add is_secure parameter to pmsav7_use_background_region
-957a0bb751e9b87c85118a2f55871d981df78d20 target/arm: Add secure parameter to get_phys_addr_pmsav7
-a5b5092f66fc93c49e24c043d5e0589150a6c352 target/arm: Add is_secure parameter to get_phys_addr_pmsav5
-d4424bebceaa8ffbc23060ce45e52a9bb817e3c9 hw/acpi: Add ospm_status hook implementation for acpi-ged
-895a803ce91704f28c9b49621a4f589273289f1e hw/net/lan9118: Signal TSFL_INT flag when TX FIFO reaches specified level
-f63a6e381c48b796c3964accaa88c0d0e229b17f chardev/baum: Replace magic values by X_MAX / Y_MAX definitions
-1e3acd33576c695262a09262c9319d44a01b11e7 chardev/baum: Use definitions to avoid dynamic stack allocation
-d34977d682e382fb2af83e6e6508e3b06d1a3cf2 chardev/baum: Avoid dynamic stack allocation
-5e689840a10e01dc2ab87defc5347337db8103da io/channel-websock: Replace strlen(const_str) by sizeof(const_str) - 1
-c140a69055bad798a335ea3c83aebceaca82bde0 hw/net/e1000e_core: Use definition to avoid dynamic stack allocation
-a580fdcd609e1db77ef5a1cbcbfd2af5ca05c939 hw/ppc/pnv: Avoid dynamic stack allocation
-7650c8fe520c67c3b36f6962c4ad990f56ad40b8 hw/intc/xics: Avoid dynamic stack allocation
-fa87341dabebe79d2e5577432a98b83c9eddf968 hw/i386/multiboot: Avoid dynamic stack allocation
-29d81e429d16fe8f0f1cd99e63507ca53ca1945c hw/usb/hcd-ohci: Use definition to avoid dynamic stack allocation
-2d5f4a713d27f2b218b0c5abfa9833953da108d9 ui/curses: Avoid dynamic stack allocation
-972d325a8dc855aa3817d0df9e09fd556a0449f7 tests/unit/test-vmstate: Avoid dynamic stack allocation
-342cf3041394916c9e6d6f23c27f62093a97a834 configure: Remove unused python_version variable
-cbbc44d8efc57f4a07fada20740dfa9ef55b4fbc configure: Remove unused meson_args variable
-64708615e7c4748a6487f3c078dfac71061be01f configure: Add missing quoting for some easy cases
-002d8c13df9f28bd3112edc1c1159b6d762d130f configure: Add './' on front of glob of */config-devices.mak.d
-cc3c71e89f0b1b18024030976fda650d27806c9f configure: Remove use of backtick `...` syntax
-563661c05677ad7c4b3f956507f3529df42afbf7 configure: Check mkdir result directly, not via $?
-b3b5472db0ab7a53499441c1fe1dedec05b1e285 configure: Avoid use of 'local' as it is non-POSIX
-f16d15c9276bd8f501f861c39cbd4adc812d0c1d virtiofsd: use g_date_time_get_microsecond to get subsecond
-394876e00806e72de2845c55b20794e79aa0c130 Merge tag 'pull-hex-20220919' of https://github.com/quic/qemu into staging
-6160d8ff81fb9fba70f5dad88d43ffd0fa44984c Merge tag 'edgar/xilinx-next-2022-09-21.for-upstream' of https://github.com/edgarigl/qemu into staging
-131aafa7eff4aa4d747cb7113726b27394a38866 s390x/tcg: Fix opcode for lzrf
-df6322a8973b5e69bdc8931ff79d3bfe3901cab5 ui/console: Get tab completion working again in the SDL monitor vc
-d135f781405f7c78153aa65e0327b05a4aa72e50 linux-user: use 'max' instead of 'qemu32' / 'qemu64' by default
-bab6a301c58286229ca8fbc36728d1469f243260 ui/cocoa: Run qemu_init in the main thread
-2dc7f90a835a4cd2362ace5e2388687afd296b85 Revert "main-loop: Disable block backend global state assertion on Cocoa"
-64d3fec76c913bf94f9b87f7482669302af9bbf9 meson: Allow to enable gtk and sdl while cocoa is enabled
-410840cdb1342751f58a3521f48d5a9faf694c3b ui: add some vdagent related traces
-0e23ae9c657d65049e5ef3a06451b22830964f35 ui/clipboard: fix serial priority
-e46d4d684224872b8b5999a51c688ee8fffb4a1b ui/vdagent: always reset the clipboard serial on caps
-72ce36f77ca6fe8cf9aae5ed28d7c3c865ef887d ui/clipboard: reset the serial state on reset
-d18431547f388db1e43c0cbc8a423ea9cc0df3d6 ui/vdagent: fix serial reset of guest agent
-17b55372b509a253abed9d7d4a81772f6067220f ui/console: fix three double frees in png_save()
-0b33bb394d0d02918679064caa11ef59e5ff3924 hw/usb/hcd-xhci: Check whether DMA accesses fail
-d8c2e6f2f6d29ccb766197181eb1c65c1d46b3a4 hcd-ohci: Drop ohci_service_iso_td() if ed->head & OHCI_DPTR_MASK is zero
-ab9ccfa8502435502c74fc55cec8ae6eda879919 linux-user/host/s390: Add vector instructions to host_signal_write()
-9f17bfdab422887807cbd5260ed6b0b6e54ddb33 target/s390x: support SHA-512 extensions
-65d4830dac7d88059ba77f1d31ec0c2f8f65ae28 linux-user: fix readlinkat handling with magic exe symlink
-3dbc5fdacb5af08dffa408ac7315eae53c4d5497 target/s390x: support PRNO_TRNG instruction
-28d01b1d69e947a50b9ab9b45113fda1c4f96ac9 configure: Add -Wno-gnu-variable-sized-type-not-at-end
-d525f73f9186a5bc641b8caf0b2c9bb94e5aa963 Update linux headers to v6.0-rc4
-21fa15298d88db2050a713cdf79c10cb0e09146f s390x/pci: add routine to get host function handle from CLP info
-dd1d5fd9684beeb0c14c39f497ef2aa9ac683aa7 s390x/pci: enable for load/store interpretation
-15d0e7942d3b31ff71d8e0e8cec3a8203214f19b s390x/pci: don't fence interpreted devices without MSI-X
-d0bc7091c2013ad2fa164100cf7b17962370e8ab s390x/pci: enable adapter event notification for interpreted devices
-30dcf4f7fd23bef7d72a2454c60881710fd4c785 s390x/pci: let intercept devices have separate PCI groups
-9ee8f7e46a7d42ede69a4780200129bf1acb0d01 s390x/pci: reflect proper maxstbl for groups of interpreted devices
-59d1ce44396e3ad2330dc3261ff3da7ad3a16184 s390x/s390-virtio-ccw: add zpcii-disable machine property
-5890258aeeba303704ec1adca415e46067800777 Remove the slirp submodule (i.e. compile only with an external libslirp)
-99d6b11b5b44d7dd64f4cb1973184e40a4a174f8 Merge tag 'pull-target-arm-20220922' of https://git.linaro.org/people/pmaydell/qemu-arm into staging
-15aa08a405e449c5ab88b479dd2728920d829c61 Merge tag 'block-pull-request' of https://gitlab.com/stefanha/qemu into staging
-a44558636aed935579701e7805684d1138383c7d hw/ssi: ibex_spi: fixup typos in ibex_spi_host
-7a426f83c3192db8006ce29abc702dfa2eb00fc8 hw/ssi: ibex_spi: update reg addr
-0c2d4671916333e5b66fd923279fb6fb62315bed docs/system: clean up code escape for riscv virt platform
-513eb437aef7687ad1963d935ffb884fff3c4775 target/riscv: Remove sideleg and sedeleg
-a412829406905a7edf7a33ded754f89f50a33af1 target/riscv: fix csr check for cycle{h}, instret{h}, time{h}, hpmcounter3-31{h}
-94452ac4cf263e8996613db8d981e4ea85bd019a target/riscv: remove fflags, frm, and fcsr from riscv-*-fpu.xml
-4c0f0b6619126637e802f07c9fe8e9fffbc1c4bb target/riscv: remove fixed numbering from GDB xml feature files
-277b210dd86636cc910bf6cd9a5477d01a10603f target/riscv: Set the CPU resetvec directly
-d057aaece7665d49e81ef8d8204b095351253f21 hw/riscv: opentitan: Fixup resetvec
-a06fded82e9edc471dbbe4321f856040b996b54c hw/riscv: opentitan: Expose the resetvec as a SoC property
-9e37653b5c73d8e43013ed78ee9d7644f23d146c target/riscv: Check the correct exception cause in vector GDB stub
-9dfa6c2aec299fda9946c327e889087365a715b5 hw/riscv/sifive_e: Fix inheritance of SiFiveEState
-2dc7bf63cf77d23b287c8d78628d62046fba1bf4 target/m68k: increase size of m68k CPU features from uint32_t to uint64_t
-b342e56b23dc2a0a1f30e21d67d001a1d0befbf0 target/m68k: use M68K_FEATURE_MOVEFROMSR_PRIV feature for move_from_sr privilege check
-2cfa963126fe77fac034a43f986b2bf3e8fe6a4f m68k: align bootinfo strings and data to 4 bytes
-a42bd0016654cafd6ca8ca4dbb82fc921ca19ae4 target/riscv: debug: Determine the trigger type from tdata1.type
-9d5a84db91f12bd843206a57e0cde01e6a9d488d target/riscv: debug: Introduce build_tdata1() to build tdata1 register content
-9495c4888a80809ab9dba6d6e536b21c018c77a4 target/riscv: debug: Introduce tdata1, tdata2, and tdata3 CSRs
-6ea8d3fc40a8db8d22d00255cea9f9f8c927d643 target/riscv: debug: Restrict the range of tselect value can be written
-31b9798d824512b7daf868cc8581f9a97a9d13a8 target/riscv: debug: Introduce tinfo CSR
-d1c111411e6240c01ee3d54801a7e3eeb6acc3b1 target/riscv: debug: Create common trigger actions function
-c32461d8eeb17490b1b1e969e2ce8f1ecd83bfbb target/riscv: debug: Check VU/VS modes for type 2 trigger
-c472c142a7552f5b0e40378d5643a2810ef1b111 target/riscv: debug: Add initial support of type 6 trigger
-5bda21c0ea02c1af160ddee6f0b62c569282294c target/riscv: rvv-1.0: Simplify vfwredsum code
-a3ab69f9f6c000481c439923d16416b8941d5b37 target/riscv: rvv-1.0: vf[w]redsum distinguish between ordered/unordered
-cea5aa85691d7f26b7ea995417d41a32802691b7 usb/msd: move usb_msd_packet_complete()
-12b69878fc7b4b92b1bbd3959f2c3d4c717881fb usb/msd: add usb_msd_fatal_error() and fix guest-triggerable assert
-145cdaba0f7ea721080e1289dc7a31bb2066406f hcd-xhci: drop operation with secondary stream arrays enabled
-a89003780d0a96b79314da4a4cdb148ff1dcb397 usbnet: Add missing usb_wakeup() call in usbnet_receive()
-954cbf7bb53476e99091f9c99a8014af2491f6ef usbnet: Accept mandatory USB_CDC_SET_ETHERNET_PACKET_FILTER request
-2423ee233872d07c7607ce26f9225c64b30b0dc3 usbnet: Detect short packets as sent by the xHCI controller
-f3def4dd42531cb542bb0e004f375b9d89fd5853 usbnet: Report link-up via interrupt endpoint in CDC-ECM mode
-663df1cc68729adc0468d632fb19f6106ddcdca8 audio: Add sndio backend
-12f4abf6a245c43d8411577fd400373c85f08c6b Revert "audio: Log context for audio bug"
-0cbc8bd4694f32687bf47c6da48efa48fac35fd2 audio: remove abort() in audio_bug()
-205ccfd7a5ec86bd9a5678b8bd157562fc9a1643 hw/display/ati_2d: Fix buffer overflow in ati_2d_blt (CVE-2021-3638)
-49a99ecb2290571b2e3f464c13e9c73b87ca91c4 virtio-gpu: update scanout if there is any area covered by the rect
-8dc2779180f0cadd7df93a946b84c8117955d299 e1000e: set RX desc status with DD flag in a separate operation
-17fb889f8a63ceba94d02d21781750b48e0705a6 vdpa: Make VhostVDPAState cvq_cmd_in_buffer control ack type
-f73c0c43ac1ddeb21804b8683e1c674ad1b4c7d2 vdpa: extract vhost_vdpa_net_load_mac from vhost_vdpa_net_load
-f64c7cda6973b0ea7477d999b11139306b3d04d5 vdpa: Add vhost_vdpa_net_load_mq
-275ba561cd3f7b17675046792ecbdea184e948f8 vdpa: validate MQ CVQ commands
-ca8717f931463833da3ce5ca9712c9341ba8c308 virtio-net: Update virtio-net curr_queue_pairs in vdpa backends
-72b99a87cebf803b4427297a59b44d090c065eba vdpa: Allow MQ feature in SVQ
-bf769f742c3624952f125b303878a77ea870c156 virtio: del net client if net_init_tap_one failed
-7b72aa1d81d263c9d84bc02b89ea10892a08b451 linux-user: Add missing signals in strace output
-aad43d15422c358ece148e39887fbd0821bca657 linux-user: Add missing clock_gettime64() syscall strace
-cc054c6f139cf54ce8fbefd6fd536f50b4cba694 linux-user: Add pidfd_open(), pidfd_send_signal() and pidfd_getfd() syscalls
-35dffc568164f08ebdb42bc8eb6307fed9af0ffe linux-user: Log failing executable in EXCP_DUMP()
-12640b4fe96fe23dc344b03378dda1eea5b7a191 linux-user/hppa: Use EXCP_DUMP() to show enhanced debug info
-770525f8eac9a2d048896fd54e4c596af747f238 linux-user/hppa: Dump IIR on register dump
-105d599a33462bd64529bc3bacc68e2d0fbb876b linux-user: Fix strace of chmod() if mode == 0
-9c9b5d7b9220d2f52a2df24373c8f35604f444fc linux-user/hppa: Set TASK_UNMAPPED_BASE to 0xfa000000 for hppa arch
-05f3adc982caf4d10128f087775385decc7fb3b3 linux-user: Add strace for clock_nanosleep()
-811ee5cfc5da2e0b94eb11192ce2700fcd7063d1 linux-user: Show timespec on strace for futex()
-9f22020b91ae235be2b27c47d11e842872ec5e85 linux-user: Provide MADV_* definitions
-8655b4c7099dd198836610bdfb22f09d332b28d3 linux-user: Fix madvise(MADV_DONTNEED) on alpha
-375ce49be285c5ff73674674350cc99807dfac83 linux-user: Implement stracing madvise()
-f93b76958a358e82bfdd1474598fe75184afeb4d linux-user: Passthrough MADV_DONTNEED for certain file mappings
-38b870cc8c5e9d079649d8769c8f271f28953d24 tests/tcg/linux-test: Add linux-madvise test
-d124853bd73057cd6a60c810413f1a416bd04d34 linux-user: Fix TARGET_PROT_SEM for XTENSA
-785783bab1ae879817a26f6757a997ebdc5e89c5 linux-user: Add proper strace format strings for getdents()/getdents64()
-47393189ce9e23b560865e361f4ab8fb93a904d0 linux-user/hppa: Add signal trampoline for hppa target
-f43882052f330ce5f5a1a2553466df5aa0808fa0 linux-user/hppa: Drop stack guard page on hppa target
-0a3346b5938530178e20abea5219e80130cf0204 linux-user/hppa: Increase guest stack size to 80MB for hppa target
-e935b735085dfa61d8e6d276b6f9e7687796a3c7 x86: return modified setup_data only if read as memory, not as file
-eebb38a5633a77f5fa79d6486d5b2fcf8fbe3c07 x86: use typedef for SetupData struct
-763a2828bf313ed55878b09759dc435355035f2e x86: reinitialize RNG seed on system reboot
-ffe2d2382e5f1aae1abc4081af407905ef380311 x86: re-enable rng seeding via SetupData
-2fc7eb689704687f890688507e15bbbe71275f63 qboot: rebuild based on latest commit
-7089977a24133b3b1dd0864f4138efe3b906af4b configure: do not invoke as/ld directly for pc-bios/optionrom
-4c184e70ad01289f89a9a780d154b00d6a86cccd linux-user/hppa: Allow PROT_GROWSUP and PROT_GROWSDOWN in mprotect()
-2319a53758efd0a2a1b45d94d3a3b721730cbc00 linux-user/hppa: Fix setup_sigcontext()
-9b9145f04d303354d8da1112577ece26aaf478dd linux-user: fix bug about missing signum convert of sigqueue
-9e59899f8c75e3a7b327eb42ef61818d7f06992e linux-user: Don't assume 0 is not a valid host timer_t value
-2941e0fa050314cd200f24e3b99da61440b106ab linux-user/s390x: Save/restore fpc when handling a signal
-fcdc0ab4b4d09bac65c192726af1c1bcb28de8e4 linux-user: Introduce stubs for ELF AT_BASE_PLATFORM
-fbf47c18aa8687b1c6a929fbcd8bb36dfc386454 linux-user: Set ELF_BASE_PLATFORM for MIPS
-0fbc0f8da1ec69991472a42ba601376e3f7c6b2d linux-user: Combine do_futex and do_futex_time64
-57b9ccd4c03dc5f175c4bd7d7406a15fb4d24aca linux-user: Sink call to do_safe_futex
-a6180f8aede726c1648b1ae3a602058c93f859c8 linux-user: Implement FUTEX_WAKE_BITSET
-0f9467311260c23eed758f97c75d83f1815acb29 linux-user: Convert signal number for FUTEX_FD
-c72a90df47b990572ac4fdb7e918005466446db9 linux-user: Implement PI futexes
-53b578f31fda28b2cf83ca28d0c7a5159416d32b linux-user: Update print_futex_op
-c5a1c6b88cad2e8c4d81b03dda48d49ea0be9cca linux-user: Lock log around strace
-8b077615b3fd3041c6e7105ec3a178a2a0ed3cad Merge tag 'pull-riscv-to-apply-20220927' of https://github.com/alistair23/qemu into staging
-c48c9c6b33d7bb2b4ffa14cd33934a37db0cd342 Merge tag 'kraxel-20220927-pull-request' of https://gitlab.com/kraxel/qemu into staging
-fb36fb9344c284a58f3f3ec5be6408fc51eaf3f1 hw/xen: set pci Atomic Ops requests for passthrough device
-fe65642bbae13bc8ea2e2498ea7bd2977ed443e5 Merge tag 'pull-request-2022-09-26' of https://gitlab.com/thuth/qemu into staging
-5c3c21ebd94395c127bd88550999dc672ecccbf2 Merge tag 'm68k-for-7.2-pull-request' of https://github.com/vivier/qemu-m68k into staging
-dbc4f48b5ab3e6d85f78aa4df6bd6ad561c3d152 Merge tag 'net-pull-request' of https://github.com/jasowang/qemu into staging
-3039fd4b6e9b80ab35b34493181202a22b952812 tests/qtest: i440fx-test: Rewrite create_blob_file() to be portable
-d9eefd35b678d6c1fa8c523de6441ef722f5321a tests/qtest: ahci-test: Avoid using hardcoded /tmp
-39df79e4ed89cd835784ede8563ee41aa1f8265d tests/qtest: aspeed_smc-test: Avoid using hardcoded /tmp
-4bcea44b9af7981e2074c74298e89ea3f97a3174 tests/qtest: boot-serial-test: Avoid using hardcoded /tmp
-39180d4e944caa0a9818f73acc4fadc2fbd2f422 tests/qtest: cxl-test: Avoid using hardcoded /tmp
-394bcc5bc5247697f2091ac4b4686e39bfabba37 tests/qtest: fdc-test: Avoid using hardcoded /tmp
-9e5d84037fcff3c5936b1e7776cc2363920ad1f1 tests/qtest: generic_fuzz: Avoid using hardcoded /tmp
-3ff220a0acc1d46d528600af937badf246cb05f3 tests/qtest: virtio_blk_fuzz: Avoid using hardcoded /tmp
-354aeeabecebb24cb7765b261f7a8ba084d3ef0e tests/qtest: ide-test: Avoid using hardcoded /tmp
-c20413558a49326599b15c3854c0df68a0b45895 tests/qtest: vhost-user-blk-test: Avoid using hardcoded /tmp
-bc989a2b870629276fcbb9f5ee380d5c53e145cc tests/qtest: virtio-blk-test: Avoid using hardcoded /tmp
-28ea545b33f79dfd734d9a842a3a2cc9bf89d5e8 tests/qtest: virtio-scsi-test: Avoid using hardcoded /tmp
-b6dabc82b070850711881feaa0d8028ee7c396dc tests/qtest: libqtest: Avoid using hardcoded /tmp
-e0e5b3dc0024f76a27b4643c4158cc5463713d9c tests/unit: test-image-locking: Avoid using hardcoded /tmp
-5b9f2781c251aa0b98cf9a3b025b803a7e23e638 tests/unit: test-qga: Avoid using hardcoded /tmp
-786e46ee68d7920d4bead184c42950a4b0e2e75a tests: vhost-user-bridge: Avoid using hardcoded /tmp
-cac4373aa0953fe4a96268d28a35401cf0747f07 tests/qtest: Skip running virtio-net-test cases that require socketpair() for win32
-8bf5bb2e04f33dd869f1221ec949359874b6c604 tests/qtest: Build test-filter-{mirror, redirector} cases for posix only
-b82cbbf0f229f0295e917c69b40e6c12365782e8 tests/qtest: qmp-test: Skip running test_qmp_oob for win32
-39f0e991e10706447cad782e0de48ad9724aadf7 tests/qtest: libqtest: Adapt global_qtest declaration for win32
-490081b282766df0e91de3903d948f1eed6fe6d2 tests/qtest: libqtest: Exclude the *_fds APIs for win32
-be181f87eb75d21ad82819e92175a2d6716527e0 tests/qtest: {ahci, ide}-test: Use relative path for temporary files for win32
-4b83dd0efdbbf0e9213aa8e789ab0700e191ae24 tests/qtest: bios-tables-test: Adapt the case for win32
-4dc8be388320b95ee965e28893381c9193eca663 tests/qtest: migration-test: Disable IO redirection for win32
-6b2906d65ca2e1fc2c71be1ce8992eaa3c5d7eab tests/qtest: ide-test: Open file in binary mode
-a68667066ad0b171a8938fb3f6bf0ad964362593 tests/qtest: virtio-net-failover: Disable migration tests for win32
-e6f59e4c0b86a82cdaeacbd0ee94183b896523df tests/qtest: microbit-test: Fix socket access for win32
-3665fadd468b3fb02371e57d1ab7de60c882038b tests/qtest: libqtest: Replace the call to close a socket with closesocket()
-2c73437d8de59942bbe6dde0029922744c4c4f81 tests/qtest: migration-test: Skip running some TLS cases for win32
-3070eeba8510ce755d6cd75e761126c01f065a24 .gitlab-ci.d/windows.yml: Display meson test logs
-9bcc0f7de7a6a04bd184ac4a1dbcbc3ccd53a6c0 tests/x86: Move common code to function in device-plug-test
-52ca92d6d7b287e3d1b326168f57fc00ebd47b64 tests/qtest: hd-geo-test: Avoid using hardcoded /tmp
-8189b27d3b183e27e3720f4a06b6d950542cba64 tests/qtest: pflash-cfi02-test: Avoid using hardcoded /tmp
-c12fea71a0195b71715f4c1b190232bebb2e9cf6 tests/qtest: qmp-test: Avoid using hardcoded /tmp
-e6efe236c1d1f2451d59a7151c50d1c79360857c tests/qtest: vhost-user-test: Avoid using hardcoded /tmp
-65a2eff0f53871166dee6767494f0cc6ffbf4a14 tests/qtest: boot-serial-test: Close the serial file before starting QEMU
-0b49bc1b713d6e3896179f9700c8c35e511075f6 docs/devel: testing: Document writing portable test cases
-429c72800654503e0073906f63fdc9a641639bdc vfio/migration: Fix incorrect initialization value for parameters in VFIOMigration
-85b6d2b5fc25c9c0d10d493b3728183ab8f8e68a vfio/common: Fix vfio_iommu_type1_info use after free
-4a877b82f7f99f7366fbb4820687d88dcf97478f linux-user: Add parameters of getrandom() syscall for strace
-1acf19faedef820fd88435cb5b93f0267b6a224c Merge tag 'pull-xen-20220927' of https://xenbits.xen.org/git-http/people/aperard/qemu-dm into staging
-dc6c2342a0c1103bf4b2750dd756609d6ab7ecac Merge tag 'vfio-updates-20220927.1' of https://gitlab.com/alex.williamson/qemu into staging
-36cd0aeac3337af06875e08683380389df48ccd0 Merge tag 'linux-user-for-7.2-pull-request' of https://gitlab.com/laurent_vivier/qemu into staging
-c8de6ec63d766ca1998c5af468483ce912fdc0c2 Merge tag 'pull-request-2022-09-28' of https://gitlab.com/thuth/qemu into staging
-5433af7697ba97531d97e16e721cfe8a90722198 watchdog: remove -watchdog option
-a39fe10557462648b8bee7aec5e24aad75ebd32d msmouse: Handle mouse reset
-8f9abdf586d48552273abe38cf55058f7d0c85fd chardev: src buffer const for write functions
-e0cf7f230778efbb560dc7774258fd9e88f4e1ff msmouse: Use fifo8 instead of array
-50d03d485251d63931a69b3ad7004f3bb6ac8eee msmouse: Add pnp data
-769a726ccb9a8ab9b2a05bca648c79b3f80ab8de serial: Allow unaligned i/o access
-fc0c128531ed55f058bfbad4f1348ebd9a0187f2 chardev: fix segfault in finalize
-3c63b4e94a16db730a8185278479b592f7de8b7f oslib-posix: Introduce qemu_socketpair()
-9cbda7b354389e536d546cc2091365bc402b3206 vhost-user: Call qemu_socketpair() instead of socketpair()
-0e902f59c1f24f5779850d4ff6001c88bed2527c ui: fix path to dbus-display1.h
-7f4fbfb5dc08fe3fb6829bde8e4072d6cb214931 target/arm: Mark registers which call pmu_op_start() as ARM_CP_IO
-80d2b43b2ff367f38ae4c9616b1ed261ecf801b6 target/arm: Make writes to MDCR_EL3 use PMU start/finish calls
-f190bd1da1c291bb1dac9a715e02ef2521698d16 target/arm: Update SDCR_VALID_MASK to include SCCD
-042e85d14c0f7cf3adf9ce67dd45b311378e67fa target/arm: Rearrange cpu64.c so all the CPU initfns are together
-acc0b8b05af518586d86c1fab96d88cbbe77b2ec hw/arm/xlnx-zynqmp: Connect ZynqMP's USB controllers
-5f1d731c08d86528bafce1d7bfe8b359bcbaeabf hw/arm/virt: Fix devicetree warning about the root node
-a312a530076cb24414f193d3e6279b882a8288ff hw/arm/virt: Fix devicetree warning about the GIC node
-6b2f3ac945b75f548ab7ca37ac239dc981f7dfc3 hw/arm/virt: Use "msi-map" devicetree property for PCI
-6ebbf2f9d120db04e3bea1f874d8a506ffb62fb3 hw/arm/virt: Fix devicetree warning about the SMMU node
-beeec926d24aac28f95cc7694ef3837d7a4cd3bb target/arm: mark SP_EL1 with ARM_CP_EL3_NO_EL2_KEEP
-539cb0876b0a84731267d6a21cd3448f87c9ae62 Merge tag 'char-pull-request' of https://gitlab.com/marcandre.lureau/qemu into staging
-ad9f958db5c48b9501905002a19e80b221dc7186 hw/virtio/vhost-shadow-virtqueue: Silence GCC error "maybe-uninitialized"
-fcf5813cba7079d94eccc8804fb80c4b05e48a86 .gitignore: add .cache/ to .gitignore
-c6cc866c0eaab1deddea21bf0b386730ed71bb97 mem/cxl_type3: fix GPF DVSEC
-321b0ca353a2cb568ed7807ff6b64ad97101ee1e checkpatch: ignore target/hexagon/imported/* files
-38f034e728e5a60c27c3ac43ed2bc4ae7a6659b0 qcow2: fix memory leak in qcow2_read_extensions
-8485563aa6b0e32f8509184b202d285fce2169bc block/qcow2-bitmap: Add missing cast to silent GCC error
-7f118b433a2e8c98fe5a8d73f0dd529aada327d1 qemu-img: Wean documentation and help output off '?' for help
-b2aaf354773417f034fdc1a56cdb76ad79de6e19 block: pass OnOffAuto instead of bool to block_acct_setup()
-62a6c300f18a9f6994baf6d767985425d48de427 block: add missed block_acct_setup with new block device init procedure
-006e1962449f8ea9f0822b838d9fdf13c98eb147 block: use bdrv_is_sg() helper instead of raw bs->sg reading
-131498f775ea18852992dc56441eba33de3fcde5 block: make serializing requests functions 'void'
-9a891a91a19a9b999fec00ce6e27bc71c93273ec gluster: stop using .bdrv_needs_filename
-ec64b1ca08138b5f57d270a5756a9138f897ee5a block/qcow2: Keep auto_backing_file if possible
-dc70638ff616ef0a1a6e4f61ce1f3f5282d2c942 block/qed: Keep auto_backing_file if possible
-283153f10ab474cb2f14cc2b3f272edcf13aedaf iotests/backing-file-invalidation: Add new test
-a7c5f67a78569f8c275ea4ea9962e9c79b9d03cb block: move bdrv_qiov_is_aligned to file-posix
-25474d90aa50bd32e0de395a33d8de42dd6f2aef block: use the request length for iov alignment
-4851a986b205ac8fb133164cd15d9bb983d8502d piix_ide_reset: Use pci_set_* functions instead of direct access
-ecfcf71314bc1548f387a035e1061296ec8f4ec3 tests/qtest/ide-test.c: Create disk image for use as a secondary
-3195c9e6abe96b367a671474e850ae3f89781880 hw/ide/core: Clear LBA and drive bits for EXECUTE DEVICE DIAGNOSTIC
-2cc38a02e61e0f4d858df2cfa5388f72bddcd634 tests/qtest/ide-test: Verify that DIAGNOSTIC clears DEV to zero
-176e4961bb33d559da1af441fb0ee2e0cb8245ae hw/ide/core.c: Implement ATA INITIALIZE_DEVICE_PARAMETERS command
-b772528acbd4669a56c8bbc16d78f8f4335c1aa3 Hexagon (target/hexagon) add instruction attributes from archlib
-e2be9a5c5f65a2cbde4915e29a112439177656d7 Hexagon (target/hexagon) Change decision to set pkt_has_store_s[01]
-661ad999c554d1cc99ff96b3baf3ff4acbe2ecee Hexagon (target/hexagon) move store size tracking to translation
-bb2dc4b73a30613216c048fe2a6551e011d1c963 meson: -display dbus and CFI are incompatible
-8a29c20597f98e20c7390300b63fa6ac7d3ad6dd meson: require 0.61.3
-6d3226357fb848499aacf609bf628932bca781ea meson: multiple names can be passed to dependency()
-b485458e00dae4af5e2b7b1c17521e2885180544 configure, meson: move C++ compiler detection to meson.build
-e4333d14c574631029e2d9d00bcb94b81a8df800 configure, meson: move linker flag detection to meson
-c4ef867f2949bf2a2ae18a4e27cf1a34bbc8aecb target/i386/kvm: fix kvmclock_current_nsec: Assertion `time.tsc_timestamp <= migration_tsc' failed
-cc63374a5a7c240b7d3be734ef589dabbefc7527 x86: re-initialize RNG seed when selecting kernel
-772b3eb4b4fe15f0595bd95923778a5a0f3558cc Hexagon (gen_tcg_funcs.py): avoid duplicated tcg code on A_CVI_NEW
-81f12b8cdfb6ea526c57a2d367ea6424f16c3106 Merge tag 'pull-target-arm-20220930' of https://git.linaro.org/people/pmaydell/qemu-arm into staging
-efbf38d73e5dcc4d5f8b98c6e7a12be1f3b91745 Merge tag 'for-upstream' of git://repo.or.cz/qemu/kevin into staging
-90dc46d31495ec5825dc35e6984c38149261538f block/qcow2-bitmap: Add missing cast to silent GCC error
-76eb88b12baf2bd9a1729ded33bd58b7da5d7ec3 Drop superfluous conditionals around g_free()
-c5e8d51824fe725d0693cd9f50171d34297c5cc0 Use g_new() & friends where that makes obvious sense
-4a4a74bf439910e957db42405a3abefdf867516a docs: Update TPM documentation for usage of a TPM 2
-6fbdff870620705042a5b2d87491659487b3f4e2 cpu: cache CPUClass in CPUState for hot code paths
-b404ca370e4ee60e98effec5cdf942d15b61c507 hw/core/cpu-sysemu: used cached class in cpu_asidx_from_attrs
-8810ee2ac0899356013f56db6ea5f3e5023fbef6 cputlb: used cached CPUClass in our hot-paths
-25d3ec5831e08ed3e72a5db654d7c281feb559c7 accel/tcg: Rename CPUIOTLBEntry to CPUTLBEntryFull
-37523ff734721a699d338f918e95b1697cb0880c accel/tcg: Drop addr member from SavedIOTLB
-c3c8bf579b431b6b305dce12d67ff6fe86bc79e8 accel/tcg: Suppress auto-invalidate in probe_access_internal
-af803a4fcb1c707a6a885b5736335baf794f7676 accel/tcg: Introduce probe_access_full
-4047368938f64e2b79103c6e6358b06570b237e5 accel/tcg: Introduce tlb_set_page_full
-8c6953cf034cec0998815961e5ec70c9de15da6e include/exec: Introduce TARGET_PAGE_ENTRY_EXTRA
-6981f7026af3507f0bac6a16ae3b098fae12beb2 accel/tcg: Remove PageDesc code_bitmap
-f79542afa798e1a6f7056b82c9a7e933242dd81b accel/tcg: Use bool for page_find_alloc
-b21af662c15522b83a973bc2ffd51d0117c0e039 accel/tcg: Use DisasContextBase in plugin_gen_tb_start
-f8ec554cb87503806ca341b69d3474c8cfdf6c28 Merge tag 'for-upstream' of https://gitlab.com/bonzini/qemu into staging
-fafd35a6dab8e70a7c395aaa8e1273267cf9f3c8 Merge tag 'trivial-branch-for-7.2-pull-request' of https://gitlab.com/laurent_vivier/qemu into staging
-93b996161b54860ded173f54ed96257717bb9728 accel/tcg: Do not align tb->page_addr[0]
-1d41a79b3c7573c941723455149cfadfe7c2ab37 accel/tcg: Inline tb_flush_jmp_cache
-a976a99a29755e8c7a275ac269db8a0a20d79e95 include/hw/core: Create struct CPUJumpCache
-e4fdf9df5b1c2aa427de796bea973520027ddd15 hw/core: Add CPUClass.get_pc
-fbf59aad178d98afe193fa872a2d880266a75269 accel/tcg: Introduce tb_pc and log_pc
-8ed558ec0cbcc29ecf490e93c54dd65d276e8e69 accel/tcg: Introduce TARGET_TB_PCREL
-20add588296a8a24374004e9dbf6219f28665d34 tcg/ppc: Optimize 26-bit jumps
-ab419fd8a035a65942de4e63effcd55ccbf1a9fe target/sh4: Fix TB_FLAG_UNALIGN
-4a9c04672a875ed00ea807ea4d552c01f6440bc7 Merge tag 'pull-tcg-20221004' of https://gitlab.com/rth7680/qemu into staging
-1dcdc92c72af5311666df64f5f04d6600af262ed Merge tag 'pull-hex-20221003' of https://github.com/quic/qemu into staging
-0f900baec7680fb9b50fbd23eab44c897ed3ea2c scripts/ci/setup: ninja missing from build-environment
-561612f9c20d4c76d23c3051fa7b47bb13123c74 scripts/ci/setup: Fix libxen requirements
-556ede028d5b1dba6d88dc0cd34ab9b96fa59288 scripts/ci/setup: spice-server only on x86 aarch64
-f0c67a79ef7acce9305092f685da5d15c03502b4 tests/docker: run script use realpath instead of readlink
-48543dd727e2751356731e0a3aa6e86929652f0c configure: move detected gdb to TCG's config-host.mak
-94378d4eb6d75322665d8a6d1577736fcc4ba97b target/hexagon: add flex/bison/glib2 to qemu.yml
-8fae3910e2370691b098d51b918600b9ad905df5 target/hexagon: regenerate docker/cirrus files
-3de61b9856f59bab7739bf213936ac63d8ef3584 target/hexagon: manually add flex/bison/glib2 to remaining containers
-81844654156af97294657c0b4e793206afcc68ce tests/docker: move alpine from edge to tagged release
-100c459f1948b9367cea44c76d5c633b0d23f23b tests/qtest: bump up QOS_PATH_MAX_ELEMENT_SIZE
-66c9f20f5b63bac2249996e20a16de4dc212251e pc-bios/optionrom: detect CC options just once
-ebc1d8213cb7807069f42191dcbfc05b6f9ebb0e pc-bios/s390-ccw: detect CC options just once
-ff0102f67ff859daebbbac7c5c7752fba97e3bfd vof: add distclean target
-4a3447e5b393d11e3b7aaf50602cbc28a7deeb88 build: add recursive distclean rules
-61cbb35677896ef2de8aa907e91024a9e69edde8 configure: return status code from probe_target_compiler
-c4575b59155e2e0065c29d56496dbf3e6ffd035b configure: store container engine in config-host.mak
-a3e28f81fd886a79502d56ac3614d30bdf4a6dad tests: simplify Makefile invocation for tests/tcg
-d674342e2e29feb7dd3ccf44e2116f78e611e906 tests/tcg: remove -f from Makefile invocation
-6ffe81370aab511f438ece256977def804f9b6e2 tests/tcg: add distclean rule
-37b0dba45c4e44a02000a4170f25af0110f501d5 tests/tcg: unify ppc64 and ppc64le Makefiles
-c6cf8a20521c7114893042cb7c75866bd07838ae tests/tcg: clean up calls to run-test
-15b273f8e6a4740768fba3878a346c82ef48a966 tests/tcg: move compiler tests to Makefiles
-b898bf28469847cbe4e576000e83ec103bf9b174 configure: move tests/tcg/Makefile.prereqs to root build directory
-0825cae023133871dfbd803cae9f004cb7447a48 configure: unify creation of cross-compilation Makefiles
-c7022a703c497aca6e409d46534896f8ee06a209 configure: cleanup creation of tests/tcg target config
-730fe750fba63023e294ff0acf0f874369f1946f configure: build ROMs with container-based cross compilers
-f9236995b38f42a6e0a5c4a9d2c5153e1e6cc0ed pc-bios/optionrom: Adopt meson style Make output
-b5fc8458fff07bdefa9d501a5d9c3564738ce446 pc-bios/s390-ccw: Adopt meson style Make output
-3cc70a9994bf0967c7a2bda539ed43926fb4c2cb pc-bios/vof: Adopt meson style Make output
-bf0c50d4aa851e78c91096f510303831a2aadaeb monitor: expose monitor_puts to rest of code
-4332099f0e69b938fa968a98e130845010ec6fe2 disas: generalise plugin_printf and use for monitor_disas
-90bbf9d9dbbbc3956fd0e9a641e724d210190757 disas: use result of ->read_memory_func
-b7855bf65f5bed868b06d6492a6d8a174f6cb71b plugins: extend execlog to filter matches
-5413c37f3b2acdae53c19ed16632c723fc93f109 plugins: Assert mmu_idx in range before use in qemu_plugin_get_hwaddr
-1d0603a990b4363ec7680bd99a249f43ad42cc21 docs/devel: clean-up qemu invocations in tcg-plugins
-7f522743dfcea095fe77755386e980cbb5db4ef4 docs/devel: move API to end of tcg-plugins.rst
-8c1f1020d6e7dd329f5cf0cd8fd108dfb224eaec contrib/plugins: reset skip when matching in execlog
-59195c6558913dcc6ec6d8cfb71f0461a7769174 docs/devel: document the test plugins
-424d5ecf520621e9b9bd802995558f83bd0e37af semihosting: update link to spec
-842b42df2b5d3bf5ccbafba19dc756d531dcce23 gdbstub: move into its own sub directory
-3b7a93880a88fb2e3c0e71378a7d39d25103d734 gdbstub: move sstep flags probing into AccelClass
-ae7467b1ac49e10c548099e9f9c59af895af2d3f gdbstub: move breakpoint logic to accel ops
-a48e7d9e52f8fe8b47f4c74f3e99d9d677b87fe5 gdbstub: move guest debug support check to ops
-c7f1c5373507de48250dcff3487787a674a0ac5e accel/kvm: move kvm_update_guest_debug to inline stub
-bc093f8b1a7e10e5e40d4cbf234614e47d93ab30 contrib/gitdm: add mapping for Loongson Technology
-13b2918fdd93fd8cca03730a8b42aaa2c38bbd3a contrib/gitdm: add Paul to individual contributors
-9c86422df61455abf945927db279d0d4462d4306 contrib/gitdm: add WANG Xuerui to individual contributers
-effc4015c706273206a8e83730a8fa488601b7df contrib/gitdm: add ISCAS to the academics group
-fd0ddd22b82e34a3260538630ded3a0ecdee06fb contrib/gitdm: add China Telecom to the domain map
-15fe7182fb9466dd6061201a673f652f5ef4d5f4 contrib/gitdm: add Simon to individual contributors
-37e62694e4bcc937c8c5fa6153302a5451fb12c5 contrib/gitdm: add Université Grenoble Alpes
-f7e15affa8e574a800180de3bde1a6462aec7241 plugins: add [pre|post]fork helpers to linux-user
-f1d33f55c47dfdaf8daacd618588ad3ae4c452d1 Merge tag 'pull-testing-gdbstub-plugins-gitdm-061022-3' of https://github.com/stsquad/qemu into staging
-02b61f38d3574900fb4cc4c450b17c75956a6a04 hw/virtio: incorporate backend features in features
-ea5d6ea7788c83216547fe72874033d4bf693182 include/hw/virtio: more comment for VIRTIO_F_BAD_FEATURE
-c7066f2d30d6d9c7f83cf741afb2f489e0cdd16d include/hw: document vhost_dev feature life-cycle
-c97c76b3e75496e8d63ca6b754727446c4e74768 hw/virtio: fix some coding style issues
-8d11c10d0699d9ee9745b4b5bc138e573d852c0f hw/virtio: log potentially buggy guest drivers
-a27612311988aff8f29a68ed5eaecde3bf6cdf99 hw/virtio: add some vhost-user trace events
-9f6bcfd99f46377888059d8539befec9505f57fb hw/virtio: move vm_running check to virtio_device_started
-b8f3e6a18de6ad5cb668c5430b4933f1e40783cf hw/virtio: move vhd->started check into helper and add FIXME
-27ba7b027f0f06479091bcfbcd308a6b272563a4 hw/virtio: add boilerplate for vhost-user-gpio device
-25c60a4612dd30976dc2c471ebe050dd5f6635a4 hw/virtio: add vhost-user-gpio-pci boilerplate
-bbd971153745ca2aa9a26b7d6370374ef559a328 tests/qtest: pass stdout/stderr down to subtests
-ebaa07083b57aab2d2dabf86d9bf172f43bad7a6 tests/qtest: add a timeout for subprocess_run_one_test
-30ea13e9d97dcbd4ea541ddf9e8857fa1d5cb30f tests/qtest: use qos_printf instead of g_test_message
-20a4127fbd4f54ab5ff2e0f3538c2b8e89011bce tests/qtest: catch unhandled vhost-user messages
-f48d994fb50c49093dd1dfe64c0d7314c6b62faf tests/qtest: plain g_assert for VHOST_USER_F_PROTOCOL_FEATURES
-3bd869f36e3bec51969c8cdb0e3637312d85eb1b tests/qtest: add assert to catch bad features
-ff070f602af6163b6ef4d803d5c3bde735035fed tests/qtest: implement stub for VHOST_USER_GET_CONFIG
-19d55a19a4b9151f15eb5e2b5d0610aa2a738c7c tests/qtest: add a get_features op to vhost-user-test
-8fcfc8235e43649cd4045c815abdaac078cff9c2 tests/qtest: enable tests for virtio-gpio
-d74c30c81159d703fb4e1caa0ec6772ff89dd02f virtio: introduce VirtIOConfigSizeParams & virtio_get_config_size
-d9cf55a86d315efc9fa07daad72f74f769555183 virtio-blk: move config size params to virtio-blk-common
-246db16d43b664d7fbf1993858fe193feb712978 vhost-user-blk: make it possible to disable write-zeroes/discard
-f1c25f295dc784a2e8270d94c8d12d8a55a0882c vhost-user-blk: make 'config_wce' part of 'host_features'
-8edd56735baa7f58aa504d0f2c4ed6f893630cce vhost-user-blk: dynamically resize config space based on features
-b1b146f53cad89ed51956f67bc5b672348753777 tests/acpi: virt: allow acpi GTDT changes
-5dbc9a27856b7b345c6cbd47eba0d730d9852ce1 acpi: arm/virt: build_gtdt: fix invalid 64-bit physical addresses
-0a17270761e7d90a67edadb19c7f6871387931be tests/acpi: virt: update ACPI GTDT binaries
-9c769e04465118601dea96b02c27887bd46cce25 mem/cxl-type3: Add sn option to provide serial number for PCI ecap
-20ca47429e96df84e7b2e741f740bfce8a813fb2 Revert "intel_iommu: Fix irqchip / X2APIC configuration checks"
-a5ebce385763447d2ab7cb572914713eedea764a qmp: add QMP command x-query-virtio
-90c066cd6822fb5e892e3daedd0a72b40e33dc30 qmp: add QMP command x-query-virtio-status
-f3034ad71fcd0a6a58bc37830f182b307f089159 qmp: decode feature & status bits in virtio-status
-07536ddda73a07bba6da8087fed5dd5a02320b11 qmp: add QMP commands for virtio/vhost queue-status
-1ee7bb5befaa24d2dfe8b32a437050209298c983 qmp: add QMP command x-query-virtio-queue-element
-8a8287981d1169f534894d983ecfd3b70b71918b hmp: add virtio commands
-31e039e76d60fab708d49444ba40effc3037670d pci: Remove unused pci_get_*_by_mask() functions
-775cc426a986742fb252dd3aa865763c10cdb438 pci: Sanity check mask argument to pci_set_*_by_mask()
-fd8caa253c56ed126c09d3b9cc682753ff12218f hw/smbios: support for type 8 (port connector)
-beec628c80bbc9475b05f4465fe36188de14999e tests: acpi: whitelist pc/q35 DSDT due to HPET AML move
-e05acc360e50626e253ddfa185561b0383a8f3e0 acpi: x86: deduplicate HPET AML building
-4609296d0601f24899863d5a6895f31be6e4b897 tests: acpi: update expected blobs after HPET move
-31b5dd03908e0c78fe8ad27e10be630cec5d4a93 tests: acpi: whitelist pc/q35 DSDT due to HPET AML move
-a12cf6923ce121633d877cf3ec53b2bcc85763ca acpi: x86: refactor PDSM method to reduce nesting
-467d099a2985c1e1bd41b234529d7f2262fd2e27 x86: acpi: _DSM: use Package to pass parameters
-13508ea26a978e1326424ca80a1346c0492f3813 tests: acpi: update expected blobs
-18a31b8d3e75f5bb727826dfe6a0c762536bf408 tests: acpi: whitelist pc/q35 DSDT before switching _DSM to use ASUN
-5840a16364b8d7b474b2730a4c73ffb4c1dbaf47 x86: acpi: cleanup PCI device _DSM duplication
-01766490708273b66e7175c1ff5921edd934348e tests: acpi: update expected blobs
-5d08517fd723a8d2348a93a5706f6bd3aa659adf tests: acpi: whitelist pc/q35 DSDT before moving _ADR field
-366047d6251f931eb72049b8d32b0eb7f894cc4c x86: pci: acpi: reorder Device's _ADR and _SUN fields
-3c99559269ed6b6cc3051a1219e1785487b9249c tests: acpi: update expected blobs
-166cff2b8fa428ec411dd4beea98d8c4aa07f76d tests: acpi: whitelist pc/q35 DSDT before moving _ADR field
-87debd32a8e0fe272135d50ffe52b9287ccbdbd7 x86: pci: acpi: reorder Device's _DSM method
-1ccd2220948c8d577ec8a3473a15f52ce2841800 tests: acpi: update expected blobs
-3216ab2acb08b47d4ff83e709406690d37e44aff x86: pci: acpi: consolidate PCI slots creation
+2eb502f496f7764027b7958d4e74356fed918059 ARM: dts: am33xx: Fix MMCHS0 dma properties
+149d17140bcedc906082c4f874dec98b1ffc5a90 pmem: fix a name collision
+69053101e096c01a4c8e3d2497e3cd5716e43cec ndtest: Cleanup all of blk namespace specific code
+d34213ebfea31229411583716a9ebe3610bf2d29 nvdimm/namespace: drop nested variable in create_namespace_pmem()
+17d9c15c9b9e7fb285f7ac5367dfb5f00ff575e3 fsdax: Fix infinite loop in dax_iomap_rw()
+d36cb843e456324d6e725f1d8b440c4645a52d0d OPP: Fix an un-initialized variable usage
+c0feea594e058223973db94c1c32a830c9807c86 workqueue: don't skip lockdep work dependency in cancel_work_sync()
+23c48a124b469cee2eb0c75e6d22d366d1caa118 docs/zh_CN: Update the translation of gpio to 6.0-rc1
+74a3c2aefe04f381ca14d0e589c62edd4af94b4c Documentation: irqdomain: Fix typo of "at least once"
+97024e159ff5ab9a1d1a769d351184fadffebfe7 maintainer-pgp-guide: use key terminology consistent with upstream
+7d61aa2cbd62d57a6a3ac5a7635686320f5ded9b maintainer-pgp-guide: remove keyserver instructions
+0a1a279bdade0230f5021fa8d9e8a71d3de2e859 maintainer-pgp-guide: update ECC support information
+6043134dcedb4fb74e57858bca913a8117478ac0 maintainer-pgp-guide: add a section on PGP-signed patches
+e72b3b9810dd2cb6d057dce8666e12f4f8f2ccdf maintainer-pgp-guide: minor wording tweaks
+b1cb8a71f1eaec4eb77051590f7f561f25b15e32 batman-adv: Fix hang up with small MTU hard-interface
+2e42b1652df00daf7000011ec9917f2eda534190 firmware: arm_scmi: Fix missing kernel-doc in optee
+1ecb7d27b1af6705e9a4e94415b4d8cc8cf2fbfb firmware: arm_scmi: Improve checks in the info_get operations
+76f89c954788763db575fb512a40bd483864f1e9 firmware: arm_scmi: Harden accesses to the sensor domains
+e9076ffbcaed5da6c182b144ef9f6e24554af268 firmware: arm_scmi: Harden accesses to the reset domains
+b75c83d9b961fd3abf7310f8d36d5e6e9f573efb firmware: arm_scmi: Fix the asynchronous reset requests
+dea796fcab0a219830831c070b8dc367d7e0f708 firmware: arm_scmi: Add SCMI PM driver remove routine
+40d30cf680cb735eed479a2fee127a7bc7fa3d4e firmware: arm_scmi: Harmonize SCMI tracing message format
+1ea90b2d293fd8b1f3377c9ed08364ff6f2a8562 arm64: dts: rockchip: Lower sd speed on quartz64-b
+e5467359a725de90b6b8d0dd865500f6373828ca arm64: dts: rockchip: Pull up wlan wake# on Gru-Bob
+4a00c43818dcc19be97250d4c3c4a1e2f1ed4f9d arm64: dts: rockchip: Fix typo in lisense text for PX30.Core
+388f9f0a7ff84b7890a24499a3a1fea0cad21373 arm64: dts: rockchip: fix upper usb port on BPI-R2-Pro
+c7e31e36d8a262eb0bc2daf8f9b7481c83284386 dt-bindings: opp: Add missing (unevaluated|additional)Properties on child nodes
+eeda05b5e92f51d9a09646ecb493f0a1e872a6ef drm/mediatek: dsi: Add atomic {destroy,duplicate}_state, reset callbacks
+1d330a6783c66ac6c569f14ecf8dd196d50c15e5 arm64: dts: qcom: sm8150: Fix fastrpc iommu values
+b6a6535b339776d32fa515a18a93b1b317e9b063 arm64: dts: qcom: thinkpad-x13s: Fix firmware location
+d5089f79b1e4fad445daa48382380a7e584603e2 arm64: dts: qcom: sc7280: move USB wakeup-source property
+8c8d28e1f10a0359f0c704be18cf744b3513acd2 MAINTAINERS: Update Bjorn's email address
+0a6fc70d76bddf98278af2ac000379c82aec8f11 phy: marvell: phy-mvebu-a3700-comphy: Remove broken reset support
+051d9eb403887bb11852b7a4f744728a6a4b1b58 reset: imx7: Fix the iMX8MP PCIe PHY PERST support
+51fd191422d987dfd75a711aae592069ebb03ec9 reset: microchip-sparx5: issue a reset on startup
+150f7b11cb59670a147e88580a604ce3c6845a88 media: uvcvideo: Fix InterfaceProtocol for Quanta camera
+4d2f862b5b49141a1762baa67c846c598b54be27 doc: Emphasize the need for explicit RCU read-side markers
+ed336c6fe4c0110a56f6f237865ff9660de8c598 doc: Call out queue_rcu_work() for blocking RCU callbacks
+1c1c1d983e75f53b3e307804a39d17d24310c5f2 doc: Use rcu_barrier() to rate-limit RCU callbacks
+ca8a439e4611765b0e4bf5d4fd3fab54bab5ffe2 doc: Fix list: rcu_access_pointer() is not lockdep-checked
+022d1b356c8a687a58a74cbc90a92d56d3aa207d doc: Update rcu_access_pointer() advice in rcu_dereference.rst
+99cf092058e13f133ff9373fcbd25ae38509df03 doc: SLAB_TYPESAFE_BY_RCU uses cannot rely on spinlocks
+ef32aee9aa062bfbaab2cab36ee837be6060d0a1 doc/rcu: Update LWN article URLs and add 2019 article
+6d60ea03ac2d3dcf6ddee6b45aa7213d8b0461c5 rcu: Fix rcu_read_unlock_strict() strict QS reporting
+bca4fa8cb0f4c096b515952f64e560fd784a0514 rcu: Update rcu_preempt_deferred_qs() comments for !PREEMPT kernels
+fcb42c9a77d490ed0974e4d394519481aa06e585 rcu: Add QS check in rcu_exp_handler() for non-preemptible kernels
+6ca0292ccf968e0132e64d6a699d36ba3e92cb81 rcu: Make tiny RCU support leak callbacks for debug-object errors
+089254fd386eb6800dd7d7863f12a04ada0c35fa rcu: Document reason for rcu_all_qs() call to preempt_disable()
+d8f3f5834febb74d18b5b2098f67d9db740f3e30 rcu: Update rcu_access_pointer() header for rcu_dereference_protected()
+e73dfe30930b75c98746152e7a2f6a8ab6067b51 sched/debug: Try trigger_single_cpu_backtrace(cpu) in dump_cpu_task()
+bc1cca97e6da6c7c34db7c5b864bb354ca5305ac sched/debug: Show the registers of 'current' in dump_cpu_task()
+621189a1fe93cb2b34d62c5cdb9e258bca044813 rcu: Avoid triggering strict-GP irq-work when RCU is idle
+7634b1eaa0cd135d5eedadb04ad3c91b1ecf28a9 rcu: Exclude outgoing CPU when it is the last to leave
+093590c16b447f53e66771c8579ae66c96f6ef61 rcu: Back off upon fill_page_cache_func() allocation failure
+38269096351806bf7315f971c53205b676ada259 rcu/kfree: Fix kfree_rcu_shrink_count() return value
+51824b780b719c53113dc39e027fbf670dc66028 rcu/kvfree: Update KFREE_DRAIN_JIFFIES interval
+5334da2af25eceb6a88ae162e69d6586b5cb9abc rcu/nocb: Choose the right rcuog/rcuop kthreads to output
+638dce227a41534bbc4fdd73280e73e0b3570048 rcu/nocb: Add CPU number to CPU-{,de}offload failure messages
+91a967fd6934abc0c7e4b0d26728e38674278707 rcu: Add full-sized polling for get_completed*() and poll_state*()
+3fdefca9b42c8bebe3beea5c1a067c9718ca0fc7 rcu: Add full-sized polling for get_state()
+ccb42229fb34bc3e93f7aa081da3e78eac68cd27 rcutorture: Abstract synchronous and polled API testing
+ed7d2f1abee48a90fae5fdf5c60d71803a5a1d10 rcutorture: Allow per-RCU-flavor polled double-GP check
+d594231aa50a0f113cfb4749da5162e6a0c3fa73 rcutorture: Verify RCU reader prevents full polling from completing
+37d6ade31cf83305495a2875ab5d283e17322032 rcutorture: Remove redundant RTWS_DEF_FREE check
+f4754ad2922e5a2b08c8aecf33d1ec03d7219fb4 rcutorture: Verify long-running reader prevents full polling from completing
+76ea364161e72b1878126edf8d507d2a62fb47b0 rcu: Add full-sized polling for start_poll()
+6c502b14ba66da0670a59e20354469fa56eab26c rcu: Add full-sized polling for start_poll_expedited()
+f21e014345e0abf11fdc2e59fb6eb6d6aa6ae4eb rcu: Remove blank line from poll_state_synchronize_rcu() docbook header
+b6fe4917ae4353b397079902cb024ae01f20dfb2 rcu: Add full-sized polling for cond_sync_full()
+8df13f01608ea48712956c0b1afce35bdba5a1c5 rcu: Add full-sized polling for cond_sync_exp_full()
+258f887aba60c8fc7946a9f379f9a3889f92fc85 rcu: Disable run-time single-CPU grace-period optimization
+a5d1b0b68a62afb1bce0b36cc9a1875acf8a6dff rcu: Set rcu_data structures' initial ->gpwrap value to true
+5f11bad6b7228858e06729de6dd4079dfc082648 rcu-tasks: Remove grace-period fast-path rcu-tasks helper
+910e12092eac8a9f19b507ed0fdc1c21d8da9483 rcu: Make synchronize_rcu() fast path update ->gp_seq counters
+e8755d2bde7c296026fe5d47f1b75c7b19ba46fd rcu: Remove expedited grace-period fast-path forward-progress helper
+43ff97cc997f5641127152f97e1fd0fc9fa060f6 rcu: Make synchronize_rcu_expedited() fast path update .expedited_sequence
+7ecef0871dd9a879038dbe8a681ab48bd0c92988 rcu: Remove ->rgos_polled field from rcu_gp_oldstate structure
+b3cdd0a79c875d5e9cac9f6555485031ce5bea81 rcutorture: Adjust rcu_poll_need_2gp() for rcu_gp_oldstate field removal
+d761de8a7dcef8e8e9e20a543f85a2c079ae3d0d rcu: Make synchronize_rcu() fastpath update only boot-CPU counters
+cc8faf5b65997a994c77a0122b94240b82c95f23 rcutorture: Use 1-suffixed variable in rcu_torture_write_types() check
+5d7801f20170a50252b791c2ce05fb982616665b rcutorture: Expand rcu_torture_write_types() first "if" statement
+18538248e5486b0f0e8581083de275176674cd1f rcu: Add functions to compare grace-period state values
+967c298d650e2a8562fb4ea488af36bdf2a71ac4 rcutorture: Limit read-side polling-API testing
+599d97e3f2236a0f02a59da05798e8af43d5ce72 rcutorture: Make "srcud" option also test polled grace-period API
+d66e4cf974a53c1195f1f5a96387ee5dbad2bdf2 srcu: Add GP and maximum requested GP to Tiny SRCU rcutorture output
+de3f2671ae563d24c679dcca36c9e0ebd9564ebd srcu: Make Tiny SRCU poll_state_synchronize_srcu() more precise
+5fe89191e43fb37e874b8e5177fb2a5c72379b06 srcu: Make Tiny SRCU use full-sized grace-period counters
+fcd53c8a4dfa38bafb89efdd0b0f718f3a03f884 rcu-tasks: Convert RCU_LOCKDEP_WARN() to WARN_ONCE()
+d6ad60635cafe900bcd11ad588d8accb36c36b1b rcu-tasks: Ensure RCU Tasks Trace loops have quiescent states
+528262f50274079740b53e29bcaaabf219aa7417 rcu-tasks: Make RCU Tasks Trace check for userspace execution
+203185f6b1e393cf2f4b84023d4d01d515fcfd5f docs/memory-barriers.txt: Fix confusing name of 'data dependency barrier'
+f556082dd7fc5a97326e44aae66199cc639a671c docs/memory-barriers.txt: Fixup long lines
+be94ecf7608cc11ff46442012e710bb8fb139b99 tools/memory-model: Clarify LKMM's limitations in litmus-tests.txt
+a30d551f34df66d739949a6140b50496afa36f66 tools/nolibc: make argc 32-bit in riscv startup code
+8b53e83b08cfdc3f430b5415cd1031d5e7e1f935 tools/nolibc: fix build warning in sys_mmap() when my_syscall6 is not defined
+364702f7551451f2fab341f1b31adf911c888375 tools/nolibc: make sys_mmap() automatically use the right __NR_mmap definition
+362aecb2d8cfad0268d6c0ae5f448e9b6eee7ffb selftests/nolibc: add basic infrastructure to ease creation of nolibc tests
+23da7bc923609bc90b6989c6c6a17e74c8f433ed selftests/nolibc: support a test definition format
+b4844fa0bdb4075ad842e89d6c41e3d0c6124848 selftests/nolibc: implement a few tests for various syscalls
+95bc989488eb7150949cf2fcce3f486741d1c57f selftests/nolibc: add a few tests for some libc functions
+f49896d7d9a69b7565a59f5085c78ca1c08c7dd7 selftests/nolibc: exit with poweroff on success when getpid() == 1
+aa73a86cda26705c7f0af1afe9bb255a52accf87 selftests/nolibc: on x86, support exiting with isa-debug-exit
+1a5454f625997049d886d8c3dae8e8de2a553125 selftests/nolibc: recreate and populate /dev and /proc if missing
+7172f1c6854cb424e3be3401e3df34c1c38cffc2 selftests/nolibc: condition some tests on /proc existence
+1da02f510882cd5684dc04dc7119056e01da90bd selftests/nolibc: support glibc as well
+d248cabff5da2f3f2ce0ab99c1f96a15e8fb98c6 selftests/nolibc: add a "kernel" target to build the kernel with the initramfs
+5c43fd7954108bd138f7a1b4db4fb997ae1dc696 selftests/nolibc: add a "defconfig" target
+662ea60e373be8a6b8a925b237cdb93a2af353c1 selftests/nolibc: add a "run" target to start the kernel in QEMU
+b25c5284db0a481a427c9838f32662587d947d27 selftests/nolibc: "sysroot" target installs a local copy of the sysroot
+ffc297fe2259a701f2bd52a6fb8481abc89d331d selftests/nolibc: add a "help" target
+43cf168fa99992ee70ff041a61f866f56aa47f3b selftests/nolibc: Avoid generated files being committed
+5515d21c6817bc27b0b13c61edf22b09b58bc647 x86/cpu: Add CPU model numbers for Meteor Lake
+6726d552a6912e88cf63fe2bda87b2efa0efc7d0 clk: ingenic-tcu: Properly enable registers before accessing timers
+24919fdea6f8b31d7cdf32ac291bc5dd0b023878 perf/x86/intel: Fix unchecked MSR access error for Alder Lake N
+f2aeea57504cbbc58da3c59b939fc16150087648 perf/x86/core: Completely disable guest PEBS via guest's global_ctrl
+48297a22a39adcde7a3ba52b913c5aaa9a990364 rcutorture: Use the barrier operation specified by cur_ops
+5c0ec4900497f7c9cc12f393c329a52e67bc6b8b Merge branches 'doc.2022.08.31b', 'fixes.2022.08.31b', 'kvfree.2022.08.31b', 'nocb.2022.09.01a', 'poll.2022.08.31b', 'poll-srcu.2022.08.31b' and 'tasks.2022.08.31b' into HEAD
+2e9ceb6728f1dc2fa4b5d08f37d88cbc49a20a62 exfat: fix overflow for large capacity partition
+8194a356226ce6f53e1d98b44c0436c583db89d2 arm64: dts: imx8mm: Reverse CPLD_Dn GPIO label mapping on MX8Menlo
+8123437cf46ea5a0f6ca5cb3c528d8b6db97b9c2 arm64: dts: rockchip: Set RK3399-Gru PCLK_EDP to 24 MHz
+91df7751eb890e970afc08f50b8f0fa5ea39e03d dmaengine: xilinx_dma: Fix devm_platform_ioremap_resource error handling
+462bce790e6a7e68620a4ce260cc38f7ed0255d5 dmaengine: xilinx_dma: cleanup for fetching xlnx,num-fstores property
+8f2b6bc79c32f0fa60df000ae387a790ec80eae9 dmaengine: xilinx_dma: Report error in case of dma_set_mask_and_coherent API failure
+347155d1fa85972ac19d1bf58ae3f3ce95e51a5d arm64: dts: imx8mn: remove GPU power domain reset
+d707ff3470c22c8dc897b2ad4626749813cea913 arm64: dts: tqma8mpxl-ba8mpxl: Fix button GPIOs
+5fa383a25fd8a16a73485c90da4e3e33a78b45cf arm64: dts: imx8ulp: add #reset-cells for pcc
+f9fdb0b86f087c2b7f6c6168dd0985a3c1eda87e dmaengine: ti: k3-udma-private: Fix refcount leak bug in of_xudma_dev_get()
+e0f1b21c504f050de83922dd49e6a425dad2d518 dmaengine: zynqmp_dma: Typecast with enum to fix the coverity warning
+43e1d6d3b45c4e7e25171ec04a10d09969b0f889 arm64: dts: rockchip: fix property for usb2 phy supply on rock-3a
+1988e3ef0544bbe54cffa4ec30a5883e5a08c2b6 arm64: dts: rockchip: fix property for usb2 phy supply on rk3568-evb1-v10
+a994b34b9abb9c08ee09e835b4027ff2147f9d94 arm64: dts: rockchip: Remove 'enable-active-low' from rk3399-puma
+ea89926d9690f055fd8da929f6621a760e8e0f14 arm64: dts: rockchip: Remove 'enable-active-low' from rk3566-quartz64-a
+766a96dc558385be735a370db867e302c8f22153 USB: core: Fix RST error in hub.c
+b5a76cb38df779076a3cff624ce6a368d9bcf330 arm64: dts: imx8mm-verdin: extend pmic voltages
+6a6d9ecff14a2a46c1deeffa3eb3825349639bdd ARM: dts: am5748: keep usb4_tm disabled
+2a906db2824b75444982f5e9df870106982afca8 Merge branch 'am5748-fix' into fixes
+6b959ba22d34ca793ffdb15b5715457c78e38b1a perf/core: Fix reentry problem in perf_output_read_group()
+a81e18e963ce13ecfa4f0f11b185bc8372f203f8 cpuset: Add Waiman Long as a cpuset maintainer
+4d8421f2dd88583cc7a4d6c2a5532c35e816a52a wifi: iwlwifi: don't spam logs with NSS>2 messages
+ab0b4b575b46d29bf49dc86047dc2964125db722 Merge tag 'phy-fixes-6.0' of git://git.kernel.org/pub/scm/linux/kernel/git/phy/linux-phy into char-misc-linus
+39aebedeaaa95757f5c1f2ddb5f43fdddbf478ca netfilter: nf_conntrack_sip: fix ct_sip_walk_headers
+25b327d4f818b9d41265ea3eea26d805216589b8 selftests: nft_concat_range: add socat support
+e8d5dfd1d8747b56077d02664a8838c71ced948e netfilter: nf_conntrack_irc: Tighten matching on DCC message
+559c36c5a8d730c49ef805a72b213d3bba155cc8 netfilter: nfnetlink_osf: fix possible bogus match in nf_osf_find()
+91062e663b261815573ce00967b1895a99e668df usb: dwc3: core: leave default DMA if the controller does not support 64-bit DMA
+e77cab77f2cb3a1ca2ba8df4af45bb35617ac16d serial: Create uart_xmit_advance()
+754f68044c7dd6c52534ba3e0f664830285c4b15 serial: tegra: Use uart_xmit_advance(), fixes icount.tx accounting
+1d10cd4da593bc0196a239dcc54dac24b6b0a74e serial: tegra-tcu: Use uart_xmit_advance(), fixes icount.tx accounting
+d4f1920d07e8eb0f217f8f65c0bc5b20bb8e3b8c Merge tag 'scmi-fixes-6.0' of git://git.kernel.org/pub/scm/linux/kernel/git/sudeep.holla/linux into arm/fixes
+02181e68275d28cab3c3f755852770367f1bc229 ARM: dts: fix Moxa SDIO 'compatible', remove 'sdhci' misnomer
+23c619190318376769ad7b61504c2ea0703fb783 ice: Don't double unplug aux on peer initiated reset
+a509702cac95a8b450228a037c8542f57e538e5b ice: Fix crash by keep old cfg when update TCs more than queues
+f66b98c868f2c1ffcb1139ea19d6f20983f1f9dc iavf: Fix change VF's mac address
+809f23c0423a43266e47a7dc67e95b5cb4d1cbfc iavf: Fix cached head and tail value for iavf_get_tx_pending
+fd362baad2e659ef0fb5652f023a606b248f1781 soc: sunxi: sram: Actually claim SRAM regions
+90e10a1fcd9b24b4ba8c0d35136127473dcd829e soc: sunxi: sram: Prevent the driver from being unbound
+133e049a3f8c91b175029fb6a59b6039d5e79cba x86/sgx: Do not fail on incomplete sanitization on premature stop of ksgxd
+49fad91a7b8941979c3e9a35f9894ac45bc5d3d6 soc: sunxi: sram: Fix probe function ordering issues
+81fa6fd13b5c43601fba8486f2385dbd7c1935e2 x86/sgx: Handle VA page allocation failure for EAUG on PF.
+e3c95edb1bd8b9c2cb0caa6ae382fc8080f6a0ed soc: sunxi: sram: Fix debugfs info for A64 SRAM C
+7e9c323c52b379d261a72dc7bd38120a761a93cd mm/slub: fix to return errno if kmalloc() fails
+14c7d905283744809e6b82efae2f490660a11cda thunderbolt: Add support for Intel Maple Ridge single port controller
+df2a60173a61a5acf44fca2cfb2d8d9f5b810a3f Merge git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
+81225b2ea161af48e093f58e8dfee6d705b16af4 ipvlan: Fix out-of-bound bugs caused by unset skb->mac_header
+64ae13ed478428135cddc2f1113dff162d8112d4 net: core: fix flow symmetric hash
+35e60f1aadf6c02d77fdf42180fbf205aec7e8fc Bluetooth: Fix HCIGETDEVINFO regression
+ead3d3c5b54f76da79c079e61bacb4279ec56965 ALSA: hda: Fix hang at HD-audio codec unbinding due to refcount saturation
+1b513f613731e2afc05550e8070d79fac80c661e ntfs: fix BUG_ON in ntfs_lookup_inode_by_name()
+3d36424b3b5850bd92f3e89b953a430d7cfc88ef mm/page_alloc: fix race condition between build_all_zonelists and page allocation
+b14d067e850c19921cec2200bd8d179edf6a1aa6 xfs: quiet notify_failure EOPNOTSUPP cases
+fd63612ae81159bd7e59762de478889315463ee8 xfs: fix SB_BORN check in xfs_dax_notify_failure()
+65d3440e8d2e9e024ef2357f8ff021611b068c99 mm/memory-failure: fix detection of memory_failure() handlers
+ac87ca0ea0102ec5dfd17c95eb9fa87a8bf54d61 mm/memory-failure: fall back to vma_address() when ->notify_failure() fails
+818c4fdaa98769ce2d0bf64bc50a6c9af89290ea x86/mm: disable instrumentations of mm/pgprot.c
+60bae73708963de4a17231077285bd9ff2f41c44 mm/migrate_device.c: flush TLB while holding PTL
+a3589e1d5fe39c3d9fdd291b111524b93d08bc32 mm/migrate_device.c: add missing flush_cache_page()
+fd35ca3d12cc9922d7d9a35f934e72132dbc4853 mm/migrate_device.c: copy pte dirty bit to page
+1552fd3ef7dbe07208b8ae84a0a6566adf7dfc9d mm/damon/dbgfs: fix memory leak when using debugfs_lookup()
+283c05f66dcaecb0c6d5c55dd7e4dab5c631dd92 tools: fix compilation after gfp_types.h split
+b9eb7776e8a64f9d53e8fa1cd27acb3024c74893 mm: fix VM_BUG_ON in __delete_from_swap_cache()
+36a3b14b5febdaf0e7f70c4ca6f62c8ea75fabfe vmscan: check folio_test_private(), not folio_get_private()
+4eb5bbde3ccb710d3b85bfb13466612e56393369 mm: fix dereferencing possible ERR_PTR
+b2ddf399d0555d3b517ed97f35767c054bbc6535 ASoC: rt5640: Fix the issue of the abnormal JD2 status
+45b91a158918e04a85bb8e814cbe1924a459fceb arm64: dts: imx8mp-tqma8mpql-mba8mpxl: add missing pinctrl for RTC alarm
+3c20d9618143c282b59dc29ce18e608992c24bc7 arm64: defconfig: enable ARCH_NXP
+8997f5c8a62760db69fd5c56116705796322c8ed wifi: iwlwifi: Mark IWLMEI as broken
+c3a510e2b53785df31d882a773c4c0780b4c825f wifi: mt76: fix reading current per-tid starting sequence number for aggregation
+781b80f452fcc1cfc16ee41f12556626a9ced049 wifi: mt76: fix 5 GHz connection regression on mt76x0/mt76x2
+70ae49c5ac876f0f4689889588544104209c09c4 arm64: dts: tqma8mqml: Include phy-imx8-pcie.h header
+edeed42402cebd9147b484d6df9964869bdc0681 MIPS: Fix comment typo
+877336c1856ea4277994ba7cdd8aede416e75a4e MIPS: move from strlcpy with unused retval to strscpy
+a343ca9bd728ed070b209d1ec40fe38dad7e516c MIPS: ath25: clean up non-kernel-doc comment warning
+050a3f1db5b968ce838724f1c92787483770335d MIPS: Fix comments typo
+0153682e9e6accd1796dd6bbe9df792d03d88b1f MIPS: dts: lantiq: rename dts files with soc name being the prefix
+78c94808a459fc78a74780b5940ea1323217992d Merge tag 'v6.0-rockchip-dtsfixes1' of git://git.kernel.org/pub/scm/linux/kernel/git/mmind/linux-rockchip into arm/fixes
+96c9b511fc0fd40880cd944b87c099e88db1a71d dt-bindings: memory-controllers: fsl,imx8m-ddrc: drop Leonard Crestez
+8fc7a6198a80bc39b6c5b3cc1a578e7d24f068a2 irqchip/stm32-exti: Remove check on always false condition
+f55a9b59e8f06e034368aeb48625359194e41f0e irqchip/gic-v3-its: Remove cpumask_var_t allocation
+8d5356f9820dc48578fc50077f5a34905386e47f irqchip: Select downstream irqchip drivers for LoongArch CPU
+87fd9294e63e8fa7532b5e65b534c3001c654ef8 drm/mediatek: Fix wrong dither settings
+e4ef0885632ed485961ac0962ad01be4ec9ec658 arm64: dts: imx8mp-venice-gw74xx: fix CAN STBY polarity
+c3681de3b8f2e8aff0306e2d6c129ca15b70b79d arm64: dts: imx8mp-venice-gw74xx: fix ksz9477 cpu port
+4d40ceef4745536289012670103c59264e0fb3ec ALSA: hda: add Intel 5 Series / 3400 PCI DID
+3c4d8c24fb6c44f426e447b04800b0ed61a7b5ae ALSA: hda/tegra: set depop delay for tegra
+cbcdf8c4d35cd74aee8581eb2f0453e0ecab7b05 ALSA: hda/realtek: Add quirk for Huawei WRT-WX9
+f5fc22cbbdcd349402faaddf1a07eb8403658ae8 ARM: dts: lan966x: Fix the interrupt number for internal PHYs
+f89e409402e2aeb3bc3aa44d2b7a597959e4e6af ALSA: hda: Fix Nvidia dp infoframe
+ca2dccdeeb49a7e408112d681bf447984c845292 net: phy: aquantia: wait for the suspend/resume operations to finish
+7288ff6ec795804b1b4632e535403d52bd2b3ce1 mptcp: fix fwd memory accounting on coalesce
+0727a9a5fbc1151fcaebfa9772e9f68f5e38ba9e Documentation: mptcp: fix pm_type formatting
+8f7e001e0325de63a42f23342ac3b8139150c5cf RISC-V: Clean up the Zicbom block size probing
+d56ba9a04d7548d4149c46ec86a0e3cc41a70f4a ASoC: imx-card: Fix refcount issue with of_node_put
+8a1f1e3d1eecf9d2359a2709e276743a67e145db btrfs: fix hang during unmount when stopping block group reclaim worker
+a362bb864b8db4861977d00bd2c3222503ccc34b btrfs: fix hang during unmount when stopping a space reclaim worker
+2dd7e7bc02829eded71be2342a93dc035f5223f9 btrfs: zoned: wait for extent buffer IOs before finishing a zone
+f8f67eff6847f9b8d753fa029723bcc54296055a USB: serial: option: add Quectel BG95 0x0203 composition
+d640c4cb8f2f933c0ca896541f9de7fb1ae245f4 USB: serial: option: add Quectel RM520N
+2b1e8921fc355ff5afda65690d6e40ce25b80cd7 Revert "selftests/timens: add a test for vfork+exit"
+33a2d6bc3480f9f8ac8c8def29854f98cc8bfee2 Revert "fs/exec: allow to unshare a time namespace on vfork+exec"
+f7fc391a5e28216150ab5390df35032309ead7e5 arm64: dts: imx8mp-venice-gw74xx: fix port/phy validation
+5da39ac5d648cdbfdfa8bea0e0cde279ded5c7c2 clk: microchip: mpfs: fix clk_cfg array bounds violation
+05d27090b6dc88bce71a608d1271536e582b73d1 clk: microchip: mpfs: make the rtc's ahb clock critical
+bdc9b7396f7d4d6533e70fd8d5472f505b5ef58f ALSA: hda/realtek: Enable 4-speaker output Dell Precision 5570 laptop
+faded9b5572a27c1eaec19f3a2759b4547507731 mmc: sdhci: Fix host->cmd is null
+35ca91d1338ae158f6dcc0de5d1e86197924ffda mmc: moxart: fix 4-bit bus width and remove 8-bit bus width
+a52540522c9541bfa3e499d2edba7bc0ca73a4ca selftests/landlock: Fix out-of-tree builds
+29f894eca862f55e570d578571aa62b38d9ac9f4 arm64: dts: qcom: sc8280xp-x13s: Update firmware location
+0af4ed0c329ebb4cef95fda4fcdbfcdea0255442 drm/amdgpu/mes: zero the sdma_hqd_mask of 2nd SDMA engine for SDMA 6.0.1
+d8ab4685adc1f78aef5ece1334a47ca1a8181745 Revert "driver core: Set fw_devlink.strict=1 by default"
+ce001778dfc34804f2b1fa6faaad7ac888326afb Merge tag 'thunderbolt-for-v6.0-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/westeri/thunderbolt into usb-linus
+7b9a516a91827e7994a4df51593278c98aae2ce6 Merge tag 'imx-fixes-6.0-2' of git://git.kernel.org/pub/scm/linux/kernel/git/shawnguo/linux into arm/fixes
+1885ff13d4c42910b37a0e3f7c2f182520f4eed1 ALSA: hda/realtek: Enable 4-speaker output Dell Precision 5530 laptop
+b16c8f229a58eaddfc58aab447253464abd3c85e ALSA: hda/realtek: Re-arrange quirk table entries
+c611e659044168e7abcbae8ba1ea833521498fbb ALSA: hda/realtek: Add pincfg for ASUS G513 HP jack
+bc2c23549ccd7105eb6ff0d4f0ac519285628673 ALSA: hda/realtek: Add pincfg for ASUS G533Z HP jack
+ba1f818053b0668a1ce2fe86b840e81b592cc560 ALSA: hda/realtek: Add quirk for ASUS GA503R laptop
+aaa58141a5d7647b14d812dde92b8d680e0985db Merge tag 'at91-fixes-6.0-2' of https://git.kernel.org/pub/scm/linux/kernel/git/at91/linux into arm/fixes
+90d000288e115ca63452813c423f9dfd9f521c96 soc: bcm: brcmstb: biuctrl: Avoid double of_node_put()
+fbfe96869b782364caebae0445763969ddb6ea67 scsi: qedf: Fix a UAF bug in __qedf_probe()
+601be20fc6a1b762044d2398befffd6bf236cebf scsi: qla2xxx: Fix memory leak in __qlt_24xx_handle_abts()
+e0e0747de0ea3dd87cdbb0393311e17471a9baf1 scsi: mpt3sas: Fix return value check of dma_get_required_mask()
+ce6b8ccdef959ba86b2711e090e84a987a000bf7 xen/xenbus: fix xenbus_setup_ring()
+e7ccba7728cff0e0f1299951571f209fcadcb7b1 irqchip/loongson-pch-lpc: Add dependence on LoongArch
+94160108a70c8af17fa1484a37e05181c0e094af net/ieee802154: fix uninit value bug in dgram_sendmsg
+9124dbcc2dd6c51e81f97f63f7807118c4eb140a net: marvell: prestera: add support for for Aldrin2
+21be1ad637493f960ea754399d86f65f7e260250 Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
+1d9a143ee3408349700f44a9197b7ae0e4faae5d net: bonding: Share lacpdu_mcast_addr definition
+86247aba599e5b07d7e828e6edaaebb0ef2b1158 net: bonding: Unsync device addresses on ndo_stop
+bd60234222b2fd5573526da7bcd422801f271f5f net: team: Unsync device addresses on ndo_stop
+bbb774d921e273ca262944c94011bc2cc888ebeb net: Add tests for bonding and team address list management
+34d2d3367de3b815cc7cd5670e18c557f95cfe1e Merge branch 'net-unsync-addresses-from-ports'
+5f80d6bd2b01de4cafac3302f58456bf860322fc ALSA: hda/hdmi: Fix the converter reuse for the silent stream
+96628951869c0dedf0377adca01c8675172d8639 tcp: Use WARN_ON_ONCE() in tcp_read_skb()
+40e9541959100e017533e18e44d07eed44f91dc5 arm64: dts: qcom: sm8350: fix UFS PHY serdes size
+085aacaa73163f4b8a89dec24ecb32cfacd34017 i2c: imx: If pm_runtime_get_sync() returned 1 device access is possible
+2c2c72ec111fd818d37fbe00e7df3042507d7663 MAINTAINERS: remove Nehal Shah from AMD MP2 I2C DRIVER
+9d55e7b0bdf9480a57b4fe87134e749cb18e281a Documentation: i2c: fix references to other documents
+5373b8a09d6e037ee0587cb5d9fe4cc09077deeb kasan: call kasan_malloc() from __kmalloc_*track_caller()
+225e47ea20ea4f37031131f4fa7a6c281fac6657 riscv: fix RISCV_ISA_SVPBMT kconfig dependency warning
+2a2018c3ac84c2dc7cfbad117ce9339ea0914622 riscv: make t-head erratas depend on MMU
+762df359aa5849e010ef04c3ed79d57588ce17d9 riscv: fix a nasty sigreturn bug...
+c589e3ca27c9f608004b155d3acb2fab6f7a9f26 RISC-V: Avoid coupling the T-Head CMOs and Zicbom
+2a5be6d1340c0fefcee8a6489cff7fd88a0d5b85 i2c: mlxbf: incorrect base address passed during io write
+de24aceb07d426b6f1c59f33889d6a964770547b i2c: mlxbf: prevent stack overflow in mlxbf_i2c_smbus_start_transaction()
+a7c48a0ab87ae52c087d663e83e56b8225ac4cce drm/panel: simple: Fix innolux_g121i1_l01 bus_format
+468c9d928a8f38fdfaa61b05e81473cc7c8a6461 fpga: m10bmc-sec: Fix possible memory leak of flash_buf
+496322302bf1e58dc2ff134173527493105f51ab ALSA: hda/realtek: Add a quirk for HP OMEN 16 (8902) mute LED
+c01b5a33bf0614e61e8074a51976134f62a64201 m68k: Move from strlcpy with unused retval to strscpy
+d355a08e28691cc057f851a3cf9bf016bdfb3c39 m68k: Allow kexec on M68KCLASSIC with MMU enabled only
+15f9042311b0ab9c2904d50428f304a6229d6a02 m68k: defconfig: Update defconfigs for v6.0-rc2
+c3afa2a402d1ecefa59f88d55d9e765f52f75bd9 ALSA: core: Fix double-free at snd_card_new()
+d71608a877362becdc94191f190902fac1e64d35 mm/slab_common: fix possible double free of kmem_cache
+502550123bee6a2ffa438409b5b9aad4d6db3a8c MIPS: lantiq: export clk_get_io() for lantiq_wdt.ko
+e9f3f8f488005f6da3cfb66070706770ecaef747 MIPS: Loongson32: Fix PHY-mode being left unspecified
+1e6d11fe72e311c1989991ee318d239f650fa318 MIPS: SGI-IP30: Fix platform-device leak in bridge_platform_create()
+11bec9cba4de06b3c0e9e4041453c2caaa1cbec1 MIPS: SGI-IP27: Fix platform-device leak in bridge_platform_create()
+b971612cc193b524b554fe53821f4dbb2a774c01 mips: bmips: bcm63268: add TWD block binding
+aaec03d331303494227dc1e208eb212682fe925d MIPS: Loongson2ef: remove orphan sbx00_acpi_init() declaration
+df1a727fa2f67369115574b02a01c140440c5a72 MIPS: Octeon: remove orphan octeon_swiotlb declaration
+c5f60e1cbb7a4f37bd158f4046f9c049ee235230 MIPS: Octeon: remove orphan cvmx_fpa_setup_pool() declaration
+2af06ba7ee2fb80e1ededade7cda85cc04c51109 MIPS: Octeon: remove orphan octeon_hal_setup_reserved32() declaration
+0b8b94c384e7eb2363cd90f4d438c41ce93ae530 MIPS: IRQ: remove orphan declarations from arch/mips/include/asm/irq.h
+b7dc37fcf67b6191da5049938c8a1c881b4992df MIPS: remove orphan sni_cpu_time_init() declaration
+5c5a4682e96a424c7d6b071b5832b5068ce29107 MIPS: AR7: remove orphan declarations from arch/mips/include/asm/mach-ar7/ar7.h
+6f674034b467dc231c99ea34abf4a3f6434ff766 mips: cavium: convert to DEFINE_SHOW_ATTRIBUTE
+27a43a85bcfe5cd9ee0fa561d7ec9aead462166d mips: kernel: convert to DEFINE_SHOW_ATTRIBUTE
+53f9cd5c16a57076ba1ef01c62299fa899bd83b3 mips: ralink: convert to DEFINE_SHOW_ATTRIBUTE
+4a13c949501902d4e6b59cc693005f4ca352dc15 ASoC: Intel: sof_sdw: add support for Dell SKU 0AFF
+0dedcf6e3301836eb70cfa649052e7ce4fcd13ba MIPS: BCM47XX: Cast memcmp() of function to (void *)
+db7ba07108a48c0f95b74fabbfd5d63e924f992d s390/dasd: fix Oops in dasd_alias_get_start_dev due to missing pavgroup
+522c9a64c7049f50c7b1299741c13fac3f231cd4 KVM: arm64: Use kmemleak_free_part_phys() to unregister hyp_mem_base
+7042bde216ada135b2f88423ae714ab9a22e3a22 ASoC: nau8824: Fix semaphore is released unexpectedly
+0a0342ede303fc420f3a388e1ae82da3ae8ff6bd ASoC: tas2770: Reinit regcache on reset
+61670b4d270c71219def1fbc9441debc2ac2e6e9 um: Cleanup syscall_handler_t cast in syscalls_32.h
+d27fff3499671dc23a08efd01cdb8b3764a391c4 um: Cleanup compiler warning in arch/x86/um/tls_32.c
+782b1f70f8a8b28571949d2ba43fe88b96d75ec3 um: fix default console kernel parameter
+2975e4a282964dd14831e4612ac1b6b10745e5ba um: Prevent KASAN splats in dump_stack()
+66039eb9015eee4f7ff0c99b83c65c7ecb3c8190 iavf: Fix bad page state
+182447b12144b7be9b63a273d27c5a11bd54960a mlxbf_gige: clear MDIO gateway lock after read
+399c98c4dc50b7eb7e9f24da7ffdda6f025676ef iavf: Fix set max MTU size with port VLAN and jumbo frames
+372539def2824c43b6afe2403045b140f65c5acc i40e: Fix VF set max MTU size
+198eb7e1b81d8ba676d0f4f120c092032ae69a8e i40e: Fix set max_tx_rate when it is lower than 1 Mbps
+34513ada53eb3e3f711250d8dbc2de4de493d510 netdevsim: Fix hwstats debugfs file permissions
+6fb2dbdb26893b6423cbf419a56a85d824619fd8 MAINTAINERS: gve: update developers
+6fd2c68da55c552f86e401ebe40c4a619025ef69 net: mana: Add rmb after checking owner bits
+5e69163d3b9931098922b3fc2f8e786af8c1f37e net: ethernet: mtk_eth_soc: enable XDP support just for MT7986 SoC
+95b9fd760b7a32f738f225ec041c980e7941c73a Merge tag 'for-net-2022-09-09' of git://git.kernel.org/pub/scm/linux/kernel/git/bluetooth/bluetooth
+f232af4295653afa4ade3230462b3be15ad16419 sfc: fix TX channel offset when using legacy interrupts
+0a242eb2913a4aa3d6fbdb86559f27628e9466f3 sfc: fix null pointer dereference in efx_hard_start_xmit
+0ee513c773695e6fa6b615b24539f2a59c7c1f06 Merge tag 'batadv-net-pullrequest-20220916' of git://git.open-mesh.org/linux-merge
+094cc3b649e27b43afb9bc44d3417668c3d53e19 Merge tag 'wireless-2022-09-19' of git://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless
+ae8ffba8baad651af706538e8c47d0a049d406c6 bnxt_en: fix flags to check for supported fw version
+8ccac4edc8da764389d4fc18b1df740892006557 gve: Fix GFP flags when allocing pages
+5415bec18c69d3aaa7d4e3b170c8b8c6bb24a823 drm/mgag200: Force 32 bpp on the console
+d8a79c03054911c375a2252627a429c9bc4615b6 drm/hisilicon: Add depends on MMU
+f52d74b190f8d10ec01cd5774eca77c2186c8ab7 open: always initialize ownership fields
+807e5eda2078327d1adaf213cf7d6b3862cad1f4 net: dsa: microchip: lan937x: fix maximum frame length check
+7b15515fc1ca3b320fe37793aaaf6f56cc964ef4 Revert "fec: Restart PPS after link state change"
+01b825f997ac28f1e20309bafbf2068cd77c50a4 Revert "net: fec: Use a spinlock to guard `fep->ptp_clk_on`"
+90fdd1c1e9c49bcb46cde589dbdee94a6977086a Merge branch 'revert-fec-ptp-changes'
+79764ec772bc1346441ae1c4b1f3bd1991d634e8 Revert "ALSA: usb-audio: Split endpoint setups for hw_params and prepare"
+db4192a754ebd52300a28abe1a50dd18eae0eb12 tcp: read multiple skbs in tcp_read_skb()
+b7df41a6f79dfb18ba2203f8c5f0e9c0b9b57f68 gpio: mockup: fix NULL pointer dereference when removing debugfs
+02743c4091ccfb246f5cdbbe3f44b152d5d12933 gpio: mockup: Fix potential resource leakage when register a chip
+ab637d48363d7b8ee67ae089808a8bc6051d53c4 gpio: ftgpio010: Make irqchip immutable
+4c66a326b5ab784cddd72de07ac5b6210e9e1b06 Revert "block: freeze the queue earlier in del_gendisk"
+5ce8f7444f8fbb5adee644590c0e4e1890ab004c drm/i915/gem: Flush contexts on driver release
+d119888b09bd567e07c6b93a07f175df88857e02 drm/i915/gem: Really move i915_gem_context.link under ref protection
+1c48709e6d9d353acaaac1d8e33474756b121d78 of: mdio: Add of_node_put() when breaking out of for_each_xx
+cf412ec333250cb82bafe57169204e14a9f1c2ac net: ipa: properly limit modem routing table use
+b07a9b26e2b1aa3711fd6935eccb08a463b1fb11 ipmr: Always call ip{,6}_mr_forward() from RCU read-side critical section
+2b5a8c8f59d9dff49f273bafbde57d5a7dc2706a selftests: forwarding: Add test cases for unresolved multicast routes
+68fe503c2b8065791c98979790a7b91e198d3006 Merge branch 'ipmr-always-call-ip-6-_mr_forward-from-rcu-read-side-critical-section'
+d547c1b717fc5a1e062307e1efdf81590ba9f6c1 net: clear msg_get_inq in __get_compat_msghdr()
+f489921dba468b3d208a5234dcbf7f21a615f395 Merge tag 'execve-v6.0-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
+7da5b13dccd99cfdc42940fc7adcb88647023292 efi: efibc: Guard against allocation failure
+84a31938831f6d2338ceffe630a1271ec2a51a59 Merge tag 'fs.fixes.v6.0-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/idmapping
+60891ec99e141b74544d11e897a245ef06263052 Merge tag 'for-6.0-rc6-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
+974bb793aded499491246f6f9826e26c2b127320 sfc/siena: fix TX channel offset when using legacy interrupts
+589c6eded10c77a12b7b2cf235b6b19a2bdb91fa sfc/siena: fix null pointer dereference in efx_hard_start_xmit
+684dec3cf45da2b0848298efae4adf3b2aeafeda wireguard: ratelimiter: disable timings test by default
+8e25c02b8cce7063ae9f08cad51d246a60370bc9 wireguard: selftests: do not install headers on UML
+26c013108c12b94bc023bf19198a4300596c98b1 wireguard: netlink: avoid variable-sized memcpy on sockaddr
+0507246d9e7aaac21e14d653eea7111106e6a136 Merge branch 'wireguard-patches-for-6-0-rc6'
+fed38e64d9b99d65a36c0dbadc3d3f8ddd9ea030 net: enetc: move enetc_set_psfp() out of the common enetc_set_features()
+5641c751fe2f92d3d9e8a8e03c1263ac8caa0b42 net: enetc: deny offload of tc-based TSN features on VF interfaces
+76dd07281338da6951fdab3432ced843fa87839c ipv6: Fix crash when IPv6 is administratively disabled
+db46e3a88a09c5cf7e505664d01da7238cd56c92 net/sched: taprio: avoid disabling offload when it was never enabled
+1461d212ab277d8bba1a753d33e9afe03d81f9d4 net/sched: taprio: make qdisc_leaf() see the per-netdev-queue pfifo child qdiscs
+da847246ab80610c5acca34df5893bee1d8cf7c2 Merge branch 'fixes-for-tc-taprio-software-mode'
+122045ca770492660005c22379995506f13efea8 ice: config netdev tc before setting queues number
+8ac7132704f3fbd2095abb9459e5303ce8c9e559 ice: Fix interface being down after reset with link-down-on-close flag on
+603ccb3aca717d04a4b1a04e3a7bc3b91eba33e8 MAINTAINERS: Add myself as a reviewer for Qualcomm ETHQOS Ethernet driver
+76b907ee00c4a5cdd5d0adbacdaa1c1989385615 netfilter: conntrack: remove nf_conntrack_helper documentation
+921ebde3c0d22c8cba74ce8eb3cc4626abff1ccd netfilter: nf_tables: fix nft_counters_enabled underflow at nf_tables_addchain()
+9a4d6dd554b86e65581ef6b6638a39ae079b17ac netfilter: nf_tables: fix percpu memory leak at nf_tables_addchain()
+62ce44c4fff947eebdf10bb582267e686e6835c9 netfilter: ebtables: fix memory leak when blob is malformed
+d25088932227680988a6b794221e031a7232f137 netfilter: nf_ct_ftp: fix deadlock when nat rewrite is needed
+4924c0cdce75575295f8fa682851fb8e5d619dd2 net: ravb: Fix PHY state warning splat during system resume
+6a1dbfefdae4f7809b3e277cc76785dac0ac1cd0 net: sh_eth: Fix PHY state warning splat during system resume
+bd71558d585ac61cfd799db7f25e78dca404dd7a arch: um: Mark the stack non-executable to fix a binutils warning
+21a9acc162457402c74c5c1e16471fda6eb090c0 gpio: tqmx86: fix uninitialized variable girq
+69bef19d6b9700e96285f4b4e28691cda3dcd0d1 gpiolib: cdev: Set lineevent_state::irq after IRQ register successfully
+a09721dd47c8468b3f2fdd73f40422699ffe26dd can: flexcan: flexcan_mailbox_read() fix return value for drop = true
+5440428b3da65408dba0241985acb7a05258b85e can: gs_usb: gs_can_open(): fix race dev->can.state condition
+0f2211f1cf58876f00d2fd8839e0fdadf0786894 can: gs_usb: gs_usb_set_phys_id(): return with error if identify is not supported
+79a392a3b19a106e0268bfbe1b4cc31d85eeb552 Merge git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
+7ebb5f8e001037efbdf18afabbbebf71bd98825e Revert "iommu/vt-d: Fix possible recursive locking in intel_iommu_init()"
+154897807050c1161cb2660e502fc0470d46b986 iommu/vt-d: Check correct capability for sagaw determination
+65e5d27df61283e5390f04b09dc79cd832f95607 net: atlantic: fix potential memory leak in aq_ndev_close()
+e9233917a7e53980664efbc565888163c0a33c3f mmc: core: Terminate infinite loop in SD-UHS voltage switch
+ab4bbde809ff7bc964f638d62959ec4272a8729a Merge tag 'fpga-for-6.0-final' of git://git.kernel.org/pub/scm/linux/kernel/git/fpga/linux-fpga into char-misc-linus
+0d77326c3369e255715ed2440a78894ccc98dd69 perf stat: Fix BPF program section name
+3da35231d9e4949c4ae40e3ce653e7c468455d55 perf stat: Fix cpu map index in bperf cgroup code
+8a92605daa9098fadb473fb30edafacc40033a05 perf stat: Use evsel->core.cpus to iterate cpus in BPF cgroup counters
+7901086014bbaa3aeabcf060e0bbad6220427a3b perf test: Add a new test for perf stat cgroup BPF counter
+babd04386b1df8c364cdaa39ac0e54349502e1e5 perf jit: Include program header in ELF files
+375a683321a331697103a5ba2fed880b759c626d Merge tag 'linux-can-fixes-for-6.0-20220921' of git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can
+e8c924a4fb6ef9a224423fb5542954acbda234b3 KVM: s390: pci: fix plain integer as NULL pointer warnings
+b3cefd6bf16e7234ffbd4209f6083060f4e35f59 KVM: s390: Pass initialized arg even if unused
+70ba8fae27758cc2679a948b03d8a9ca18f1dcb1 KVM: s390: pci: fix GAIT physical vs virtual pointers usage
+189e7d876e48d7c791fe1c9c01516f70f5621a9f KVM: s390: pci: register pci hooks without interpretation
+48062bb2647711a5ed7605f485dfcb8fc9938d9c Merge tag 'exfat-for-6.0-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/linkinjeon/exfat
+5ce94102fb82f10e8810fb41bc8be504ecc58647 Merge tag 'sound-6.0-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
+06f7db9499937c6496d697a765ac05cdcd37f381 Merge tag 'iommu-fixes-v6.0-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/joro/iommu
+88e6546b36771daa145e7f6cf29f3496341634a6 Merge tag 'dmaengine-fix-6.0' of git://git.kernel.org/pub/scm/linux/kernel/git/vkoul/dmaengine
+26c95642d419028db590ae0c511d9ddcdbc51746 Merge tag 'mips-fixes_6.0_2' of git://git.kernel.org/pub/scm/linux/kernel/git/mips/linux
+dc164f4fb00a0abebdfff132f8bc7291a28f5401 Merge tag 'for-linus-6.0-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/uml/linux
+9614369a042a3a345ef7e2997c277aa8a271b8a0 Merge tag 'opp-fixes-6.0' of git://git.kernel.org/pub/scm/linux/kernel/git/vireshk/pm
+e1dda48e4370043443e7d121d4b67a96fb70c75b perf test: Skip wp modify test on old kernels
+ca76d7d2812b46124291f99c9b50aaf63a936f23 perf record: Fix cpu mask bit setting for mixed mmaps
+6cc447964555df209c590756bd804d3bb9ce1fe0 libperf evlist: Fix polling of system-wide events
+5b427df27b94aec1312cace48a746782a0925c53 perf kcore_copy: Do not check /proc/modules is unchanged
+356edeca2e811642b5848605c2f5f9a7c6c32112 tools headers cpufeatures: Sync with the kernel sources
+999e4eaa4b3691acf85d094836260ec4b66c74fd perf tools: Honor namespace when synthesizing build-ids
+37f071ec327b04c83d47637c5e5c2199b39899ca i2c: mlxbf: Fix frequency calculation
+b7af938f4379a884f15713319648a7653497a907 i2c: mux: harden i2c_mux_alloc() against integer overflows
+1918f2b20c3de73ef6f644979896e20a2e7dbb2d s390/vfio-ap: bypass unnecessary processing of AP resources
+37a0bad677a76e51c5e9e53f5d9f8f4f3e77912f drm/amdgpu: Update PTE flags with TF enabled
+88d4cea24049de0fa073462b24ab471ecd685d8a drm/amd/display: Port DCN30 420 logic to DCN32
+16c6077f2eea3c8321782d2fb0a6790532cd8c03 drm/amd/display: Only consider pixle rate div policy for DCN32+
+b261509952bc19d1012cf732f853659be6ebc61e drm/amd/display: Fix double cursor on non-video RGB MPO
+cb0eca01ad9756e853efec3301203c2b5b45aa9f drm/amd/display: fix dcn315 memory channel count and width read
+29956d0fded036a570bd8e7d4ea4b1a1730307d2 drm/amd/display: Assume an LTTPR is always present on fixed_vs links
+52bb21499cf54fa65b56d97cd0d68579c90207dd drm/amd/display: update gamut remap if plane has changed
+65fbfb02c2734cacffec5e3f492e1b4f1dabcf98 drm/amd/display: skip audio setup when audio stream is enabled
+056fb8cfbe213f6eb5e987a806583986a4ae8328 drm/amd/display: Update dummy P-state search to use DCN32 DML
+72002056f771a025a2e6b4578aeb538799cb9ba2 drm/amd/display: Display distortion after hotplug 5K tiled display
+20c6168b3c8aadef7d2853c925d99eb546bd5e1c drm/amd/display: Fix DP MST timeslot issue when fallback happened
+dcc2527df918edfe297c5074ccc1f05eae361ca6 drm/amd/display: increase dcn315 pstate change latency
+f528fa3989c53d4cf2ee22d306eb1a96ed0010e6 drm/amd/display: Add shift and mask for ICH_RESET_AT_END_OF_LINE
+29a1c581a5d873046302aa22c4a05124c5faefab drm/amd/display: Disable OTG WA for the plane_state NULL case on DCN314
+193b6a1934cc2e258e463e94fe3e94382c0bf458 drm/amd/display: correct num_dsc based on HW cap
+dd4bc65c5bdf17ce8e74f91bca5e41b368b0e32b drm/amd/pm: add support for 3794 pptable for SMU13.0.0
+88bab90f7a8aef3732a57cf33bf0ae121de8c7af drm/amd/pm: drop the pptable related workarounds for SMU 13.0.0
+abbc7a3dafb91b9d4ec56b70ec9a7520f8e13334 drm/amdgpu: don't register a dirty callback for non-atomic
+faed5d0182480556cddb8343d9bad968387848f4 drm/amd/display: Reduce number of arguments of dml314's CalculateWatermarksAndDRAMSpeedChangeSupport()
+f525ed19437d376736bed64ee7bc4afee82f2ba9 drm/amd/display: Reduce number of arguments of dml314's CalculateFlipSchedule()
+90144dd8b0d137d9e78ef34b3c418e51a49299ad drm/mediatek: dsi: Move mtk_dsi_stop() call back to mtk_dsi_poweroff()
+f64780e3ccecf00477bb8f0a021f78205b27a610 Merge branch '40GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
+114f398d48c571bb628187a7b2dd42695156781f ice: Fix ice_xdp_xmit() when XDP TX queue number is not sufficient
+624aea6bede7fef24dc3daed83f37453c11ebb39 Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
+4fca50d440cc5d4dc570ad5484cc0b70b381bc2a ext4: make mballoc try target group first even with mb_optimize_scan
+1940265ede6683f6317cba0d428ce6505eaca944 ext4: avoid unnecessary spreading of allocations among groups
+613c5a85898d1cd44e68f28d65eccf64a8ace9cf ext4: make directory inode spreading reflect flexbg size
+a9f2a2931d0e197ab28c6007966053fdababd53f ext4: use locality group preallocation for small closed files
+83e80a6e3543f37f74c8e48a5f305b054b65ce2a ext4: use buckets for cr 1 block scan instead of rbtree
+d21fc11109ca02e870794a53c0a236365e92c148 Merge tag 'drm-intel-fixes-2022-09-21' of git://anongit.freedesktop.org/drm/drm-intel into drm-fixes
+32844a8eecaa4a3e65841c53e43e04a9087d1ef6 ARM: 9243/1: riscpc: Unbreak the build
+2ccd19b3ffac07cc7e75a2bd1ed779728bb67197 ARM: 9244/1: dump: Fix wrong pg_level in walk_pmd()
+14ca1a4690750bb54e1049e49f3140ef48958a6e ARM: 9247/1: mm: set readonly for MT_MEMORY_RO with ARM_LPAE
+63bf28ceb3ebbe76048c3fb2987996ca1ae64f83 efi: x86: Wipe setup_data on pure EFI boot
+5f56a74cc0a6d9b9f8ba89cea29cd7c4774cb2b1 efi: libstub: check Shim mode using MokSBStateRT
+763679f0eeff0185fc431498849bbc1c24460875 media: flexcop-usb: fix endpoint type check
+e738455b2c6dcdab03e45d97de36476f93f557d2 net/smc: Stop the CLC flow if no link to map buffers on
+d7f06bdd6ee87fbefa05af5f57361d85e7715b11 drivers/base: Fix unsigned comparison to -1 in CPUMAP_FILE_MAX_BYTES
+31f87f705b3c1635345d8e8a493697099b43e508 thunderbolt: Explicitly reset plug events delay back to USB4 spec value
+cbdac8bc2cbf91b42a92869dc938b809054d4fae Merge tag 'asoc-fix-v6.0-rc6' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
+c35fbea48659ec99a4f532c9ee9e8692405afdd0 ALSA: hda: intel-dsp-config: add missing RaptorLake PCI IDs
+61d2d1808b20da4a45a90b4bd61ae92f729bab78 arm64: mm: don't acquire mutex when rewriting swapper
+d4955c0ad77dbc684fc716387070ac24801b8bca arm64: topology: fix possible overflow in amu_fie_setup()
+2bc54aaa65d2126ae629919175708a28ce7ef06e counter: 104-quad-8: Fix skipped IRQ lines during events configuration
+09431acde35f46ac82fb5230c7479f1edc557c75 usb: typec: anx7411: Fix build error without CONFIG_POWER_SUPPLY
+05d6f6d346fea2fa4580a0c2b6be207456bebb08 perf/arm-cmn: Add more bits to child node address offset field
+2002fbac743b6e2391b4ed50ad9eb626768dd78a net: phy: micrel: fix shared interrupt on LAN8814
+0e400d602f46360752e4b32ce842dba3808e15e6 bonding: fix NULL deref in bond_rr_gen_slave_id
+2ffd57327ff1e91ad675c1efd5f02a3d786e64d1 selftests: bonding: cause oops in bond_rr_gen_slave_id
+c5da4b68d2a8592a7535bb9e4523158088a6538b Merge branch 'bonding-fix-null-deref-in-bond_rr_gen_slave_id'
+db39dfdc1c3bd9da273902da12f01973792ff911 udp: Use WARN_ON_ONCE() in udp_read_skb()
+47af6c640ed82f111dbce0b3bf4083a91d61e324 Merge tag 'usb-serial-6.0-rc7' of https://git.kernel.org/pub/scm/linux/kernel/git/johan/usb-serial into usb-linus
+878e2405710aacfeeb19364c300f38b7a9abfe8f net: sunhme: Fix packet reception for len < RX_COPY_THRESHOLD
+c2e1cfefcac35e0eea229e148c8284088ce437b5 net: sched: fix possible refcount leak in tc_new_tfilter()
+3aac7ada64d8c26ccc922f1ca966043c0dae88da net: marvell: Fix refcounting bugs in prestera_port_sfp_bind()
+c31f26c8f69f776759cbbdfb38e40ea91aa0dd65 bnxt: prevent skb UAF after handing over to PTP worker
+83e4b196838d90799a8879e5054a3beecf9ed256 selftests: forwarding: add shebang for sch_red.sh
+60f361722ad2ae5ee667d0b0545d40c42f754daf serial: fsl_lpuart: Reset prior to registration
+1e005bfae83290f6673f8213a418cc0e12868c2d serial: 8250: omap: Use serial8250_em485_supported
+643792048ee84b199052e9c8f89253649ca78922 serial: sifive: enable clocks for UART when probed
+29a5b8a137ac8eb410cc823653a29ac0e7b7e1b0 ext4: fix bug in extents parsing when eh_entries == 0 and eh_depth > 0
+80fa46d6b9e7b1527bfd2197d75431fd9c382161 ext4: limit the number of retries after discarding preallocations blocks
+ae358d71d4623ed0a466a7498f8ce25c7fda22d1 reset: npcm: fix iprst2 and iprst4 setting
+9597f088c9fc0a9a1de402426f57ff0a18cd069e Merge tag 'perf-tools-fixes-for-v6.0-2022-09-21' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
+5e0a93e42756fa93b69fe8848cf8dda7cee5d13a Merge tag 'gpio-fixes-for-v6.0-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
+129e7152184b0224f9ca3f91b870acc14c64e1fa Merge tag 'efi-urgent-for-v6.0-2' of git://git.kernel.org/pub/scm/linux/kernel/git/efi/efi
+504c25cb76a9cb805407f7701b25a1fbd48605fa Merge tag 'net-6.0-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
+c69cf88cda5faca0e411babb67ac0d8bfd8b4646 Merge tag 'soc-fixes-6.0-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
+e45cc288724f0cfd497bb5920bcfa60caa335729 mm: slub: fix flush_cpu_slab()/__free_slab() invocations in task context.
+b4ac28a32f589d389e5391f5b546c17a484915dc Merge tag 'kvmarm-fixes-6.0-2' of git://git.kernel.org/pub/scm/linux/kernel/git/kvmarm/kvmarm into HEAD
+561cafebb2cf97b0927b4fb0eba22de6200f682e selftests: kvm: Fix a compile error in selftests/kvm/rseq_test.c
+604f533262aea08671a74c2fd630c7deb9eb3c0d KVM: x86/mmu: add missing update to max_mmu_rmap_size
+ee519b3a2ae3027c341bce829ee8c51f4f494f5b KVM: x86: Reinstate kvm_vcpu_arch.guest_supported_xcr0
+a1020a25e69755a8a1a37735d674b91d6f02939f KVM: x86: Always enable legacy FP/SSE in allowed user XFEATURES
+50b2d49bafa16e6311ab2da82f5aafc5f9ada99b KVM: x86: Inject #UD on emulated XSETBV if XSAVES isn't enabled
+3c0f396a386c81715e34472566cdd8f39dde5a6a Merge tag 'slab-for-6.0-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/vbabka/slab
+bf682942cd26ce9cd5e87f73ae099b383041e782 Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
+387df878fdcf63ce497109c4e1eb805a7df9043f Merge tag 'amd-drm-fixes-6.0-2022-09-21' of https://gitlab.freedesktop.org/agd5f/linux into drm-fixes
+73646baf68444e24284516ddd4dac43ddb3162d4 Merge tag 'mediatek-drm-fixes-6.0' of https://git.kernel.org/pub/scm/linux/kernel/git/chunkuang.hu/linux into drm-fixes
+3b38b65ed076fa93f1b0d5fb97c55a9bf692cc49 Merge tag 'drm-misc-fixes-2022-09-22' of git://anongit.freedesktop.org/drm/drm-misc into drm-fixes
+8288206c27856f6f56d35aacf3a48ee923e1d3e2 MAINTAINERS: switch graphics to airlied other addresses
+3c6656337852e9f1a4079d172f3fddfbf00868f9 Revert "firmware: arm_scmi: Add clock management to the SCMI power domain"
+da73a94fa282f78d485bd0aab36c8ac15b6f792c drm/bridge: lt8912b: add vsync hsync
+6dd1de12e1243f2013e4fabf31e99e63b1a860d0 drm/bridge: lt8912b: set hdmi or dvi mode
+051ad2788d35ca07aec8402542e5d38429f2426a drm/bridge: lt8912b: fix corrupted image output
+195624d9c26b64c6856863da30ec578a790feec4 tun: support not enabling carrier in TUNSETIFF
+f22bd29ba19a43e758b192429613e04aa7abb70d net: macb: Fix ZynqMP SGMII non-wakeup source resume failure
+1e6989a3357c85ddc1c691eaf872ccd2e21f5a10 ARM: sunplus: fix serial console kconfig and build problems
+415da412257b1595b8f05f2d7c7815b41f00757e Merge tag 'omap-for-6.0/fixes-signed' of git://git.kernel.org/pub/scm/linux/kernel/git/tmlind/linux-omap into arm/fixes
+b58e731783a0cfdc82ec13951fefdc7dd6ce36a2 Merge tag 'arm-soc/for-6.0/drivers-fixes-v2' of https://github.com/Broadcom/stblinux into arm/fixes
+7e1e2acb7b16c0464b9cbfe243cbaec03198039f Merge tag 'sunxi-drivers-fixes-for-6.0-1' of https://git.kernel.org/pub/scm/linux/kernel/git/sunxi/linux into arm/fixes
+13b0566962914e167cb3238fbe29ced618f07a27 vmlinux.lds.h: CFI: Reduce alignment of jump-table to function alignment
+f8497b3e9650a0d094a3995c644dfedd32e8cde7 MAINTAINERS: rectify file entry in TEAM DRIVER
+42bc4fafe359ed6b73602b7a2dba0dd99588f8ce net: mt7531: only do PLL once after the reset
+728c2af6ad8c809f66639b70e4fd8c67c57c66e7 net: mt7531: ensure all MACs are powered down before reset
+6bf8e846e4bf336db7e451a6b42ca8c02f99fb0f Merge branch 'net-mt7531-pll-reset-fixes'
+69604fe76e58c9d195e48b41d019b07fc27ce9d7 Merge tag 'kvm-s390-master-6.0-2' of https://git.kernel.org/pub/scm/linux/kernel/git/kvms390/linux into HEAD
+cc62d98bd56d45de4531844ca23913a15136c05b Revert "drm: bridge: analogix/dp: add panel prepare/unprepare in suspend/resume time"
+4952aa696a9f221c5e34e5961e02fca41ef67ad6 ARM: dts: integrator: Tag PCI host with device_type
+c69badd1d74690e5b5b4d5c3c254a1e64bcc1ac9 Merge tag 'qcom-arm64-fixes-for-6.0' of https://git.kernel.org/pub/scm/linux/kernel/git/qcom/linux into arm/fixes
+22565ae784134282e03912023456151a61db479c Merge tag 'drm-fixes-2022-09-23-1' of git://anongit.freedesktop.org/drm/drm
+526e8262856027cea38c45a5ff45fbe4204aed04 Merge tag 'for-linus-6.0-rc7-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/xen/tip
+317fab7ec55d5a150bce46f37efbc942013a8c5b Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
+2653853e2a2a21a9b87d976044863cf776035b8e Merge tag 'reset-fixes-for-v6.0' of git://git.pengutronix.de/pza/linux into arm/fixes
+a7b7751aeb1348a4358724719aac5310597144fc Merge tag 'riscv-for-linus-6.0-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
+9395cd7cef45698a7fd64f53cf97ce511e1334ba Merge tag 'landlock-6.0-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/mic/linux
+33a4e37ebc8ccdfe2c51306b1a40d9e7d17b4691 Merge tag 'usb-6.0-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb
+1707c39ae309bf91965aa6f04d63816a090d90a1 Merge tag 'driver-core-6.0-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/driver-core
+df02452f3df069a59bc9e69c84435bf115cb6e37 cgroup: cgroup_get_from_id() must check the looked-up kn is a directory
+237fe72749425f2cd3132bf54fa6b98807c27938 scripts/clang-tools: remove unused module
+03764b30a4f0185a97515d616e60e2e00c558583 Kconfig: remove unused function 'menu_get_root_menu'
+2154aca21408752eaa3eeaf2ba6e942724ff2a4d certs: make system keyring depend on built-in x509 parser
+e400ad8b7e6a1b9102123c6240289a811501f7d9 ACPI: processor idle: Practically limit "Dummy wait" workaround to old Intel systems
+a63f2e7cb1107ab124f80407e5eb8579c04eb7a9 Merge tag 'arm64-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux
+e775f93f2ab976a2cdb4a7b53063cbe890904f73 io_uring: ensure that cached task references are always put on exit
+61f2b7c7497ba96cdde5bbaeb9e07f4c48f41f97 Makefile.debug: set -g unconditional on CONFIG_DEBUG_INFO_SPLIT
+32ef9e5054ec0321b9336058c58ec749e9c6b0fe Makefile.debug: re-enable debug info for .S files
+b7ca8d5f56e6c57b671ceb8de1361d2a5a495087 sfc: correct filter_table_remove method for EF10 PFs
+730320fd770d4114a2ecb6fb223dcc8c3cecdc5b MIPS: lantiq: enable all hardware interrupts on second VPE
+692cb5b0f4e25b3ff504f108e55033dd20d2ef74 MIPS: Lantiq: switch vmmc to use gpiod API
+c8fbf8a88fcd4464b0727d646a85793ccba49b03 MIPS: remove orphan sb1250_time_init() declaration
+fe23057cbc042073f7a05a92ed2cd1d2b3c81f28 MIPS: IRQ: remove orphan allocate_irqno() declaration
+0be27f7be2e5def5577de097fb420af09acf0983 Merge tag 'block-6.0-2022-09-22' of git://git.kernel.dk/linux
+3db61221f4e8f18d1dd6e45dbe9e3702ff2d67ab Merge tag 'io_uring-6.0-2022-09-23' of git://git.kernel.dk/linux
+aae8dda51964ff9d3f1dc96528b853826667efad Merge tag 'wq-for-6.0-rc6-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/wq
+1772094f12a7b180aa9ab849586f891b14d06d1f Merge tag 'cgroup-for-6.0-rc6-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/cgroup
+7e2cd21e02b35483ce8ea88da5732d4d3ec3a6c9 Merge tag 'tty-6.0-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/tty
+1a61b828566fba088d3baa0dc3e440b51fdf9ce2 Merge tag 'char-misc-6.0-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc
+42f9508b3bcb4214491a327238170963a59a309d Merge tag 'pm-6.0-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
+23b99237f86df34cbcefa81d1fa45bc316b4a124 Merge tag 's390-6.0-5' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
+105a36f3694edc680f3e9318cdd3c03722e42554 Merge tag 'kbuild-fixes-v6.0-3' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+67feaba413ec68daf4124e9870878899b4ed9a0e devdax: Fix soft-reservation memory description
+b3bbcc5d1da1b654091dad15980b3d58fdae0fc6 Merge branch 'for-6.0/dax' into libnvdimm-fixes
+a54dc27bd25f20ee3ea2009584b3166d25178243 Input: melfas_mip4 - fix return value check in mip4_probe()
+e336d85e5b08c9d206a89b2b95c0c7bb47c64a56 Input: iqs62x-keys - drop unused device node references
+2fd003ee8ade6b7f2777becc6f9917d7c313784f Input: synaptics - disable Intertouch for Lenovo T14 and P14s AMD G1
+f0cc7c00089bf923259370fefc1d4f48d7252fc5 Merge tag 'i2c-for-6.0-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
+4207d59567c017be284dbebc5d3fb5a2037a5df5 Merge tag 'dax-and-nvdimm-fixes-v6.0-final' of git://git.kernel.org/pub/scm/linux/kernel/git/nvdimm/nvdimm
+5e049663f678938dd56812ba870a471060f8ce28 Merge tag 'ext4_for_linus_stable' of git://git.kernel.org/pub/scm/linux/kernel/git/tytso/ext4
+f76349cf41451c5c42a99f18a9163377e4b364ff Linux 6.0-rc7
+4335417da2b8d6d9b2d4411b5f9e248e5bb2d380 gpio: mvebu: Fix check for pwm support on non-A8K platforms
+e42c9c54f2e731885ea2bd92c478c85d879637a6 perf tools: Get a perf cgroup more portably in BPF
+e28c07871c3f2107e316c2590d4703496bd114f4 perf print-events: Fix "perf list" can not display the PMU prefix for some hybrid cache events
+71c86cda750b001100e0d6dc04a88449b7381a59 perf parse-events: Remove "not supported" hybrid cache events
+f4a2aade6809c6573f420c6fc1031797dfe8a4d2 perf tests powerpc: Fix branch stack sampling test to include sanity check for branch filter
+6ef7d362123ecb5bf6d163bb9c7fd6ba2d8c968c drm/i915/gt: Restrict forced preemption to the active context
+6052a4c11fd893234e085edf7bf2e00a33a79d4e Revert "net: mvpp2: debugfs: fix memory leak when using debugfs_lookup()"
+a078dff870136090b5779ca2831870a6c5539d36 ext4: fixup possible uninitialized variable access in ext4_mb_choose_next_group_cr1()
+7cae596bc31f900bb72492ff40c7f5addf72fa19 io_uring: register single issuer task at creation
+a43206156263fbaf1f2b7f96257441f331e91bb7 usbnet: Fix memory leak in usbnet_disconnect()
+70cbc3cc78a997d8247b50389d37c4e1736019da mm: gup: fix the fast GUP race against THP collapse
+bedf03416913d88c796288f9dca109a53608c745 powerpc/64s/radix: don't need to broadcast IPI for radix pmd collapse flush
+58d426a7ba92870d489686dfdb9d06b66815a2ab mm: fix madivse_pageout mishandling on non-LRU page
+2b7aa91ba0e86b8643f5d3c83874c80599c731d7 mm/huge_memory: use pfn_to_online_page() in split_huge_pages_all()
+37dcc673d065d9823576cd9f2484a72531e1cba6 frontswap: don't call ->init if no ops are registered
+70427f6e9ecfc8c5f977b21dd9f846b3bda02500 mm: bring back update_mmu_cache() to finish_fault()
+dac22531bbd4af2426c4e29e05594415ccfa365d mm: prevent page_frag_alloc() from corrupting the memory
+317314527d173e1f139ceaf8cb87cb1746abf240 mm/hugetlb: correct demote page offset logic
+77677cdbc2aa4b5d5d839562793d3d126201d18d mm,hwpoison: check mm when killing accessing process
+80e2b584f3abfc31c3fe5573007f0d1d10810fde mm/page_isolation: fix isolate_single_pageblock() isolation behavior
+59298997df89e19aad426d4ae0a7e5037074da5a x86/uaccess: avoid check_object_size() in copy_from_user_nmi()
+6e23ec0ba92d426c77a73a9ccab16346e5e0ef49 net: sched: act_ct: fix possible refcount leak in tcf_ct_init()
+3a710532cfe586710738670fb7e1ee44fc3c9b5c Merge tag 'ext4_for_linus_fixes2' of git://git.kernel.org/pub/scm/linux/kernel/git/tytso/ext4
+c635ebe8d911a93bd849a9419b01a58783de76f1 cxgb4: fix missing unlock on ETHOFLD desc collect fail path
+4774db8dfc6a2e6649920ebb2fc8e2f062c2080d net/mlxbf_gige: Fix an IS_ERR() vs NULL bug in mlxbf_gige_mdio_probe
+0dc383796f9c59d7297190aa864b986eaf2f73e6 net: hippi: Add missing pci_disable_device() in rr_init_one()
+3800a713b6070d4f03fb43613a7b7d536a99b2b7 Merge tag 'mm-hotfixes-stable-2022-09-26' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
+7bea67a994300c7dff827d1eb2344c180d1ffd93 ARM: dts: integrator: Fix DMA ranges
+a1375562c0a87f0fa2eaf3e8ce15824696d4170a Merge tag 'x86_urgent_for_v6.0-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+ea08aec7e77bfd6599489ec430f9f859ab84575a libata: add ATA_HORKAGE_NOLPM for Pioneer BDR-207M and BDR-205
+c292a337d0e45a292c301e3cd51c35aa0ae91e95 nvme: Fix IOC_PR_CLEAR and IOC_PR_RELEASE ioctls for nvme devices
+d14c273132aec81a1a8107c9ab4865b89e7910a7 nvme-pci: disable Write Zeroes on Phison E3C/E4C
+4e768c8e34e639cff66a0f175bc4aebf472e4305 media: v4l2-compat-ioctl32.c: zero buffer passed to v4l2_compat_get_array_args()
+f0da34f32920c16f34acb692cf1646465bd40c04 media: v4l2-ioctl.c: fix incorrect error path
+37238699073e7e93f05517e529661151173cd458 media: dvb_vb2: fix possible out of bound access
+a2d2e593d39bc2f29a1cd5e3779af457fd26490c media: mediatek: vcodec: Drop platform_get_resource(IORESOURCE_IRQ)
+3a99c4474112f49a5459933d8758614002ca0ddc media: rkvdec: Disable H.264 error detection
+64e966d1e84b29c9fa916cfeaabbf4013703942e wifi: cfg80211: fix MCS divisor value
+b7ce33df1ce2b6631234233c5367bcfe9c67fbe9 wifi: mac80211: don't start TX with fq->lock to fix deadlock
+527008e5e87600a389feb8a57042c928ecca195d wifi: mac80211: ensure vif queues are operational after start
+d873697ef2b7e1b6fdd8e9d449d9354bd5d29a4a wifi: mac80211: fix regression with non-QoS drivers
+be92292b90bfdc31f332c962882b6d3ea0285fdf wifi: mac80211: fix memory corruption in minstrel_ht_update_rates()
+883b8dc1a8766464d5bde4d97e1d7c795d990d31 wifi: mac80211: mlme: Fix missing unlock on beacon RX
+6546646a7fb0d7fe1caef947889497c16aaecc8c wifi: mac80211: mlme: Fix double unlock on assoc success handling
+49725ffc15fc4e9fae68c55b691fd25168cbe5c1 net: stmmac: power up/down serdes in stmmac_open/release
+f208ce4d45c5884eae2b8a67bed1c3d646cafc15 Merge tag 'thunderbolt-for-v6.0' of git://git.kernel.org/pub/scm/linux/kernel/git/westeri/thunderbolt into usb-linus
+ea64cdfad124922c931633e39287c5a31a9b14a1 net: phy: Don't WARN for PHY_UP state in mdio_bus_phy_resume()
+415ba26cb73f7d22a892043301b91b57ae54db02 usb: typec: ucsi: Remove incorrect warning
+f5c5936d6b4dfd3f9a145be5bc6ff27eb706bc39 usb: dwc3: st: Fix node's child name
+a625a4b8806cc1e928b7dd2cca1fee709c9de56e uas: add no-uas quirk for Hiksemi usb_disk
+e00b488e813f0f1ad9f778e771b7cd2fe2877023 usb-storage: Add Hiksemi USB3-FW to IGNORE_UAS
+0fb9703a3eade0bb84c635705d9c795345e55053 uas: ignore UAS for Thinkplus chips
+bc7a319844891746135dc1f34ab9df78d636a3ac selftests: Fix the if conditions of in test_extra_filter()
+e7afa79a3b35a27a046a2139f8b20bd6b98155c2 mmc: hsq: Fix data stomping during mmc recovery
+0f816e024f2fb5a52ebd42daf07233a5b45c25dd KVM: selftests: Skip tests that require EPT when it is not available
+c0cca6a66458a0daa627774de7ca2b678a6bb3d8 Merge tag 'irqchip-fixes-6.0-2' of git://git.kernel.org/pub/scm/linux/kernel/git/maz/arm-platforms into irq/urgent
+46452d3786a82bd732ba73fb308ae5cbe4e1e591 Merge tag 'sound-6.0-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
+e62563db857f81d75c5726a35bc0180bed6d1540 Input: snvs_pwrkey - fix SNVS_HPVIDR1 register address
+797666cd5af041ffb66642fff62f7389f08566a2 net: usb: qmi_wwan: Add new usb-id for Dell branded EM7455
+29322791bc8b4f42fc65734840826e3ddc30921e ice: xsk: change batched Tx descriptor cleaning
+b3056ae2b57858b02b376b3fed6077040caf14b4 ice: xsk: drop power of 2 ring size restriction for AF_XDP
+df8238629112b8f61f96367f84d5b236051d8c93 docs/zh_CN: Update zh_CN/process/email-clients.rst to 5.19
+7114fe6f906cdec2d263c1c84cd0cf5f0726652f docs/zh_CN: Update zh_CN/process/submitting-patches.rst to 5.19
+78b07714c4ef4f7faeb4e7e57ed0530986ba8c88 docs/zh_CN: Fix two missing labels in zh_CN/process
+021904f38baed568bc12b017386740b7a4cff1df Documentation: filesystems: xfs: update pseudocode and typo fixes
+6cf3116d5eeda0284bbedb8610192df31f86cdf0 Documentation: ext4: correct the document about superblock
+3d8b56d7b10e1ca972330d8892da3f3e9a6346f2 docs/zh_CN: Update the translation of io_ordering to 6.0-rc2
+876d8552fa7c116d93254c61e11596dbcb33c201 docs/zh_CN: Remove IRQ and oops-tracing
+7e94556e26c67138009169cd61959adc12db24b6 docs/zh_TW: Remove oops-tracing
+363fd2324c3ef9638a5ef42c5e5a2b75a8041d46 docs: scheduler: Update new path for the sysctl knobs
+20e21951f3ebceac93168854edc1c222e515d292 docs/zh_CN: Update zh_CN/process/submit-checklist.rst to 6.0-rc2
+6b0d3e7c5888d2ec0f5527ee699265dc852a5faa docs/conf.py: Treat mathjax as fallback math renderer
+3b384e95642c0f01a34525a71b6a5a4826934b75 docs/conf.py: Respect env variable SPHINX_IMGMATH
+d2bef8e1037cc69695c6b146bb05ce053450e0de Remove duplicate words inside documentation
+8a7f0e8ab9e8c1a32eefd632fb11cdc08af28aee Documentation/ABI: correct possessive "its" typos
+3f10b50829194eb7ce4c8f320a665b7b076a5fb6 docs: admin-guide: do not mention the 'run a.out user programs' feature
+32a3a9db16eb7551a6763820a8ed6f151f879eaa docs: admin-guide: for kernel bugs refer to other kernel documentation
+7f77ebbf758be6df89951713e7b234a9e6c5d32b Delete duplicate words from kernel docs
+adb95582a09f24201e071732824aef53593020e2 Documentation: process/submitting-patches: misspelling "mesages"
+980309d94e021ddac12e3bd9932e2a1686161899 docs/zh_CN: add PCI acpi-info translation
+330f5a300548babcaada664668bb17165db8d54c docs/zh_CN: add dt changesets translation
+5e38432db8f361e002481b006e54ad4de678721f docs/zh_CN: add dt dynamic-resolution-notes translation
+f773455ce59d9425c473e1e559fc26ea84bcdf00 docs/zh_CN: add dt overlay-notes translation
+9485acfded2024bcd28e9e4d5d503ed7beda0308 docs/zh_CN: add dt kernel-api translation
+8bfdfa0d6b929ede7b6189e0e546ceb6a124d05d docs: update mediator information in CoC docs
+67fe6792a7fb9b7af85d1abf44605c3ab7d3b5f7 Documentation: stable: Document alternative for referring upstream commit hash
+622d6f198737c26a47d892f29d054bf20df5a460 Documentation: filesystems: correct possessive "its"
+06cb31cc761823ef444ba4e1df11347342a6e745 Documentation/hw-vuln: Update spectre doc
+5415673414c99b44db0c917f1400ad3b6d56fef7 docs/zh_CN: Update zh_CN/process/coding-style.rst to 6.0-rc2
+e2815b71cc48c988474dc2f2fc4725c5913f7155 Documentation: spufs: correct a duplicate word typo
+3832d1fd84b6220842d92513239005b2c116633b docs/core-api: expand Fedora instructions for GCC plugins
+60e89a10eef2a3052dc35bea62f51acf26525698 Documentation: fb: udlfb: clean up text and formatting
+b270228753f241aa70ad37134f284566be86ec73 Documentation: W1: minor typo corrections
+c68c0db4b25ff7336471ca32be7f9af5110528bc usb: chipidea: clarify Documentation/ABI text
+a356c06699e2e9bde64b17fc220de3c01f0c7d20 docs: x86: replace do_IRQ int the entry_64.rst with common_interrupt()
+7675ea68d60554e119d7439472af056d07a521ba docs/zh_CN: core-api: Add idr Chinese translation
+2e6506c1a5a51eabaf1cc88a0fe6783509c905e8 docs/zh_CN: core-api: Add circular-buffers Chinese translation
+eda91f4090e97dd75d5f4aec82021c097d4b3114 docs/zh_CN: core-api: Add generic-radix-tree Chinese translation
+6d75bb92f99260af29986657cea1426f4040b280 docs/zh_CN: core-api: Add packing Chinese translation
+8f0ec4094d01dbc40dcbad93a7ec85675cf035cf docs/zh_CN: Update zh_CN/admin-guide/README.rst to 6.0-rc2
+0a13b6c3c546e3b6df75639cfe09954a1a17dd63 docs/zh_CN: Add new translation of admin-guide/bootconfig.rst
+16461c66de0b559ee0b19e429561cae9cae72e8c docs: hugetlbpage.rst: fix a typo of hugepage size
+a9a7da031dcaeb5064df6605535cf360276b911a Documentation: devres: add missing PINCTRL helpers
+49beeea7ebdb1d86ba8465e5021d72ad9e9474b8 Documentation: devres: add missing SPI helper
+bf21f3f8d0336ec28d9ab09ad274ac0bd71b7cf8 MIPS: Lantiq: vmmc: fix compile break introduced by gpiod patch
+efd608fa7403ba106412b437f873929e2c862e28 x86/alternative: Fix race in try_get_desc()
+7516777434570833469252c16e5fd7d8f73c45be drm/amdgpu: avoid gfx register accessing during gfxoff
+3c480531a4b1652561fd16824c16be8b8a3ba8f1 drm/amd/pm: enable gfxoff feature for SMU 13.0.0
+b9caeadf5cb89566412b94b14a1583419aeba45e drm/amd/pm: use adverse selection for dpm features unsupported by driver
+a9b4700279f21c5c1a3425630dea86d338ab13b2 drm/amdkfd: fix MQD init for GFX11 in init_mqd
+91ef6cfd30bf75763f41e7a4bc119883fe190606 drm/amdgpu: pass queue size and is_aql_queue to MES
+664883ddde67971d59764f2dda855183ecf8bc46 drm/amdkfd: fix dropped interrupt in kfd_int_process_v11
+783d446749c09eb34178cb8600a9a93d3b99e35d drm/amd/display: Avoid avoid unnecessary pixel rate divider programming
+b6d1c39bc637fe4879d610e6687b1d4224c4b2fb drm/amd/display: Update DCN32 to use new SR latencies
+dd37fba90e72a48998d9f0eb5497088ea2b02ad1 drm/amd/display: Do DIO FIFO enable after DP video stream enable
+ec669ef2e2cf277f3e73d842bb3bda1c3ea2ea73 drm/amd/display: Wrap OTG disable workaround with FIFO control
+85096a73f4dc223b5848e41ce40afc5ee913079e drm/amd/display: Add explicit FIFO disable for DP blank
+1ec5c0e1289c70c8e7dd93a988d945ad5bc3f4b1 drm/amd/display: Fix audio on display after unplugging another
+391ce355e72bd5713afc85ec5acc955294499dcf drm/amd/display: Fix typo in get_pixel_rate_div
+8dd2e87dbd49ba0b6afc1dd22a5930d797cf423f drm/amd/display: Remove assert for odm transition case
+a28acf7091babf4248b042326946cee7736f796a drm/amd/display: Avoid unnecessary pixel rate divider programming
+2d3907c152611a0d65efe54b93972320dcce1565 drm/amd/display: fill in clock values when DPM is not enabled
+b3e45b18e5c40f1f7e5f6383953343f96f963b13 drm/amdgpu: Correct the position in patch_cond_exec
+11e38360cc15e2d5995449d19030b13a67d73cb3 drm/amdgpu: Remove fence_process in count_emitted
+3b7329cf5a767c1be38352d43066012e220ad43c drm/amdgpu: Add amdgpu suspend-resume code path under SRIOV
+db5db1a00d0816207be3a0166fcb4f523eaf3b52 vdpa/ifcvf: fix the calculation of queuepair
+1bedcf22c081a6e9943f09937b2da8d3ef52d20d virtio-crypto: fix memory-leak
+dbe449d8f8f2ef91af729f0adcc9bef785873168 virtio_test: fixup for vq reset
+37fafe6b61e4f15d977982635bb785f4e605f7cd virtio-blk: Fix WARN_ON_ONCE in virtio_queue_rq()
+46f8a29272e51b6df7393d58fc5cb8967397ef2b vduse: prevent uninitialized memory accesses
+a43ae8057cc154fd26a3a23c0e8643bef104d995 vdpa/mlx5: Fix MQ to support non power of two num queues
+49c13ed0316d55d73f1c81c66a7e2abd743f9ae6 Merge tag 'soc-fixes-6.0-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
+44d70bb561dac9363f45787aa93dfca36877ee01 Merge tag 'wireless-2022-09-27' of git://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless
+81d192c2ce74157e717e1fc4b68791f82f7499d4 can: c_can: don't cache TX messages for C_CAN cores
+6a8438de524346f2ac73b0b493980c336ebce688 ata: libata-scsi: Fix initialization of device queue depth
+141f3d6256e58103ece1c3dd2835e871f1dde240 ata: libata-sata: Fix device queue depth control
+506442439317153c1aa646fcb35f8678d42efce9 perf tests vmlinux-kallsyms: Update is_ignored_symbol function to match the kernel ignored list
+74a61d53a6d1ca1172d85964d15c83c2cc3670b3 perf arm-spe: augment the data source type with neoverse_spe list
+b1cab78ba392162a5ef11173d02db6e182e04edd Revert "net: set proper memcg for net_init hooks allocations"
+df5b035b5683d6a25f077af889fb88e09827f8bc x86/cacheinfo: Add a cpu_llc_shared_mask() UP variant
+af2faee54d591904050d69a55b6e429565bbe389 Merge tag 'linux-can-fixes-for-6.0-20220928' of git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can
+3d87f6c3be0df4a0f6d0ca719550a7bc77e520bf Merge tag 'clk-microchip-fixes-6.0' of https://git.kernel.org/pub/scm/linux/kernel/git/at91/linux into clk-fixes
+06bbaa6dc53cb72040db952053432541acb9adc7 [coredump] don't use __kernel_write() on kmap_local_page()
+e817c070fd9f813774defd8ef5e0349108e924e0 Merge tag 'mmc-v6.0-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/mmc
+c3e0e1e23c70455916ff3472072437b3605c6cfe Merge tag 'irq_urgent_for_v6.0' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+7c236d93c6764dcaca7ab66d76768a044647876d m68k: Process bootinfo records before saving them
+dc63a086daee92c63e392e4e7cd7ed61f3693026 m68k: Rework BI_VIRT_RNG_SEED as BI_RNG_SEED
+b1ff1bfe81e763420afd5f3f25f0b3cbfd97055c clk: imx: imx6sx: remove the SET_RATE_PARENT flag for QSPI clocks
+7738be973fc4e2ba22154fafd3a5d7b9666f9abf drm/i915/gt: Perf_limit_reasons are only available for Gen11+
+4014e916fd0cea19b559890588d70b4e9f44b87f clk: sunxi-ng: h6: Fix default PLL GPU rate
+d59bd748db0a97a5d6a33b284b6c58b7f6f4f768 io_uring/poll: disable level triggered poll
+1b24a132eba7a1c19475ba2510ec1c00af3ff914 clk: iproc: Do not rely on node name for correct PLL setup
+daaa2fbe678efdaced53d1c635f4d326751addf8 clk: imx93: drop of_match_ptr
+276d37eb449133bc22872b8f0a6f878e120deeff net: mscc: ocelot: fix tagged VLAN refusal while under a VLAN-unaware bridge
+c9da02bfb1112461e048d3b736afb1873f6f4ccf net: ethernet: mtk_eth_soc: fix mask of RX_DMA_GET_SPORT{,_V2}
+3e1308a7c88ba149baa08ddffedee30c6b3224a0 Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
+26d3e21ce1aab6cb19069c510fac8e7474445b18 mptcp: factor out __mptcp_close() without socket lock
+30e51b923e436b631e8d5b77fa5e318c6b066dc7 mptcp: fix unreleased socket in accept queue
+3b04cba7add093d0d8267cf70a333ca8fe8233ca Merge branch 'mptcp-properly-clean-up-unaccepted-subflows'
+2938431e9338bf4e8d434513d3a5832d64c0fa8b LoongArch: Align the address of kernel_entry to 4KB
+06e76acec70d1381b9a96e6014d5587d84201f82 LoongArch: Fix and cleanup csr_era handling in do_ri()
+4f196cb64b693c64f8f981432b1ff326b7ea1c28 LoongArch: Clean up loongson3_smp_ops declaration
+81bcd4b522cf1dc312385b79b144153aff0cf0c6 Merge tag 'loongarch-fixes-6.0-3' of git://git.kernel.org/pub/scm/linux/kernel/git/chenhuacai/linux-loongson
+71f187570592e74d32db4f52e7f50a64c11ee621 Merge tag 'ata-6.0-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/dlemoal/libata
+457c8b60267054869513ab1fb5513abb0a566dd0 perf test: Fix test case 87 ("perf record tests") for hybrid systems
+25c5e67cdf744cbb93fd06647611d3036218debe perf tests record: Fail the test if the 'errs' counter is not zero
+83ca5fb40e758e0a0257bf4e3a1148dd52c6d0f2 drm/amd/display: Prevent OTG shutdown during PSR SU
+6c84501a3c38adaf1c3486fb80b972f728ad8fd1 Merge tag 'nvme-6.0-2022-09-29' of git://git.infradead.org/nvme into block-6.0
+da9eede6b2423381d592b832a7c5ba0082f2e905 Merge tag 'input-for-v6.0-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input
+511cce163b75bc3933fa3de769a82bb7e8663f2b Merge tag 'net-6.0-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
+5149a427d27751da95b04fabe98ab65f412b5777 perf parse-events: Ignore clang 15 warning about variable set but unused in bison produced code
+5551717bddb0c8aa78c4d2f8846624e2cf6816f7 perf tests mmap-basic: Remove unused variable to address clang 15 warning
+9d0f5cd167444dcffcd46fe19a2cf86f30371f5c docs: promote the title of process/index.rst
+0c7b4366f1ab955f0b8411c14e764d75e21e1a1c docs: Rewrite the front page
+3aa024e4e91249524e1342a6790bb561fbea89a4 docs: reconfigure the HTML left column
+90c0bf89dec0c66d2e6538857060586073427059 docs: remove some index.rst cruft
+f4bf1cd4ac9c8c4610b687e49a1ba691ab286235 docs: move asm-annotations.rst into core-api
+e40573a43d163a5c9fe14c647bc4c5201d782893 docs: put atomic*.txt and memory-barriers.txt into the core-api book
+489876063fb14290d2d1b6080c5fdc02b7a481d4 docs: add a man-pages link to the front page
+1404f29258dc87a5fc971ea96743d4635caeb9b3 Merge branch 'fp' into docs-mw
+8e8bf60a675473a034ecfcb7a842b98868ed74a3 perf build: Fixup disabling of -Wdeprecated-declarations for the python scripting engine
+a3aded135e84a581ba567c30ecddff47c8b6cfcf drm/amdgpu: Enable VCN DPG for GC11_0_1
+541540b9045c2665d6736a77c776ac81d4225eec drm/amdgpu: Enable sram on vcn_4_0_2
+e94102e5067591aa713e623d7d1226f07d4431cf docs, kprobes: Fix the wrong location of Kprobes
+2f993509a97ed210ed0ada9198d380885265fa0b docs: process/5.Posting.rst: clarify use of Reported-by: tag
+679b4bc25fc7b5b742622eb760211f2b5b1dc4db docs/doc-guide: Add documentation on SPHINX_IMGMATH
+26e54448092917edd54c4255382f78b24e07b01f Documentation/CoC: Reflect current CoC interpretation and practices
+9a7d7a80e11025e5e8b4dedf75c97096b67a7b9b Documentation/mm: modify page_referenced to folio_referenced
+06699e6915536b88ec9457f105a5facf5bc81f88 Documentation: devres: update IRQ helper
+657ed9c9bca059660238771dd1fcecb57b59f90a Documentation: devres: add missing IO helper
+1cfd9d7e43d5a1cf739d1420b10b1e65feb02f88 coding-style.rst: document BUG() and WARN() rules ("do not crash the kernel")
+69d517e6e21099f81efbd39e47874649ae575804 checkpatch: warn on usage of VM_BUG_ON() and other BUG variants
+987a926c1d8a40e4256953b04771fbdb63bc7938 Merge tag 'pull-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
+153a97b4e3de713c05b6bd42d734a2f9eeaf7968 Merge tag 'drm-misc-fixes-2022-09-29' of git://anongit.freedesktop.org/drm/drm-misc into drm-fixes
+91462afa42e6b8c5a148a44482c893f1800c513d Merge tag 'amd-drm-fixes-6.0-2022-09-29' of https://gitlab.freedesktop.org/agd5f/linux into drm-fixes
+6643b3836f3908c4f77883b2fae72451e85cf3ca Merge tag 'drm-intel-fixes-2022-09-29' of git://anongit.freedesktop.org/drm/drm-intel into drm-fixes
+6336a810db5c7e8e48b55b12fbb5e9cbd36a3d19 KVM: selftests: replace assertion with warning in access_tracking_perf_test
+09636efd1bd164ac782ff0d3a714db2c53964776 KVM: selftests: Gracefully handle empty stack traces
+aae2e72229cdb21f90df2dbe4244c977e5d3265b KVM: x86: Hide IA32_PLATFORM_DCA_CAP[31:0] from the guest
+6b6f71484bf4fbe169fdbd401c829d8981365fd2 KVM: selftests: Implement memcmp(), memcpy(), and memset() for guest use
+394265079b6c271fdc191ac31b1ebfbee3dd6d63 KVM: selftests: Compare insn opcodes directly in fix_hypercall_test
+84aff0b6905c1101aab1525c2d649127f307218b mips: update config files
+0668951705d356d77c8263010c7ae59e78fdb2c6 MIPS: Silence missing prototype warning
+8e6ec6ce02b5a58f01099118ddfed71d3f657b1c MIPS: Simplify __bswapdi2() and __bswapsi2()
+5a77386984b513ebfb2700e70dac44509fc81aa9 Merge tag 'drm-fixes-2022-09-30-1' of git://anongit.freedesktop.org/drm/drm
+40158dbf7eb2b13d8851fe0b875b4c3170ea15db Revert "pstore: migrate to crypto acomp interface"
+89e10b860cbf8015dd77aaa90839fb0ef65e0619 Merge tag 'gpio-fixes-for-v6.0' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
+d649d2c49baa4336bf65a02fc8e9d42c8ef2db6b Merge tag 'pstore-v6.0-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
+a0debc4c7a7e1a4adf0866b105e9e4f29002c2ca Merge tag 'io_uring-6.0-2022-09-29' of git://git.kernel.dk/linux
+7bc6e90d7aa4170039abe80b9f4e8c8e4eb35091 Merge tag 'block-6.0-2022-09-29' of git://git.kernel.dk/linux
+70575e77839f4c5337ce2653b39b86bb365a870e Merge tag 'for_linus' of git://git.kernel.org/pub/scm/linux/kernel/git/mst/vhost
+af81a9201e0112e9c4ca7258e32cd28baf19f31a drm/amdgpu: save rlcv/rlcp ucode version in amdgpu_gfx
+2f3f958602721c7915ddb1f2a0e8dc5031bc0151 drm/amdgpu: add helper to init rlc fw in header v2_0
+90df15124526176ff03c246362c196a047c8a39a drm/amdgpu: add helper to init rlc fw in header v2_1
+bcecb6524881c54ded92f14a6cf2406d5c439637 drm/amdgpu: add helper to init rlc fw in header v2_2
+c1c3f41ffb1bd262e40d68938af68c6ab53a41f8 drm/amdgpu: add helper to init rlc fw in header v2_3
+b33139ee15352043123b81b32ca1a6a84340eb5d drm/amdgpu: add helper to init rlc fw in header v2_4
+04fa38cce6e02be4362cd889780d58ec275c4d26 drm/amdgpu: add helper to init rlc firmware
+0fd85e89b5bf18447e56099a010ee5be5dc9f2b0 drm/amdgpu/gfx11: switch to amdgpu_gfx_rlc_init_microcode
+414208e48963fdb136240d7f59c15e627832d288 Merge tag 'amd-drm-fixes-6.0-2022-09-30-1' of https://gitlab.freedesktop.org/agd5f/linux into drm-fixes
+920541bb0b9bf08d1455890694fbb2bbffb7a12b Merge tag 'for-linus-6.0' of git://git.kernel.org/pub/scm/virt/kvm/kvm
+c816f2e9813d218b36343c67b443c77c539ea294 Merge tag 'perf-tools-fixes-for-v6.0-2022-09-29' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
+e5fa173f9a472dec2f8d5fb63d5c8824c49c6e51 Merge tag 'clk-fixes-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
+ffb4d94b4314655cea60ab7962756e6bab72fc7e Merge tag 'drm-fixes-2022-10-01' of git://anongit.freedesktop.org/drm/drm
+b674deddeb49fd37b8f20a15b658abde6671e2a8 MAINTAINERS: drop entry to removed file in ARM/RISCPC ARCHITECTURE
+30c19366636f72515679aa10dad61a4d988d4c9a mm: fix BUG splat with kvmalloc + GFP_ATOMIC
+1c8e2349f2d033f634d046063b704b2ca6c46972 damon/sysfs: fix possible memleak on damon_sysfs_add_target
+056a68cea01edfa78b3474af1bfa39cc6bcc7bee mips: allow firmware to pass RNG seed to kernel
+90c2d2eb7ab5848c4f853751f12b96bdc460ad1b MIPS: pci: lantiq: switch to using gpiod API
+2a4b6e13e170a5c0c201a1858a8f5a61f98eb11e Merge tag 'mm-hotfixes-stable-2022-09-30' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
+89f2ddce78cc2a397065de8df509364d37c058da Merge tag 'media/v6.0-1' of git://git.kernel.org/pub/scm/linux/kernel/git/mchehab/linux-media
+b357fd1c2afc1a3e1b73dc4574bb7ac0e3bd4193 Merge tag 'usb-6.0-final' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb
+f938a5295cedf7fdcc4f1caad0ac1a9be1f1a5f5 dt-bindings: i2c: st,stm32-i2c: Document interrupt-names property
+367d4c887acd2be7524bd532ae9446ed2f508c3c dt-bindings: i2c: st,stm32-i2c: Document wakeup-source property
+e2062df704dea47efe16edcaa2316d7b5ecca64f i2c: davinci: fix PM disable depth imbalance in davinci_i2c_probe
+534b0abc627a4034ecaf177e780b1680e61b37f4 Merge tag 'x86_urgent_for_v6.0' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+febae48afe6063105a0fad83d8e12a6addda7c6a Merge tag 'perf-urgent-2022-10-02' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+a962b54e162c2977ff37905726cab29728380835 Merge tag 'i2c-for-6.0-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
+4fe89d07dcc2804c8b562f6c7896a45643d34b2f Linux 6.0
+fb443f36f3b9af6a4590b6e65e2d7affdfe0da18 Merge tag 'mips_6.1' of git://git.kernel.org/pub/scm/linux/kernel/git/mips/linux
+75003fa726e990883bba5b38c4c4d873dab45d62 Merge tag 'm68k-for-v6.1-tag1' of git://git.kernel.org/pub/scm/linux/kernel/git/geert/linux-m68k
+038239640e3afc8370a4de9880cbd4f942154fc3 Merge tag 'for-linus' of git://git.armlinux.org.uk/~rmk/linux-arm
+dda0ba40da68255cea24474e69bcf14499408e2b Merge tag 'nolibc.2022.09.30a' of git://git.kernel.org/pub/scm/linux/kernel/git/paulmck/linux-rcu
+b8fb65e1d33206f78ad62e10ceb93095ecac24a6 Merge tag 'lkmm.2022.09.30a' of git://git.kernel.org/pub/scm/linux/kernel/git/paulmck/linux-rcu
+890f242084c9eac18ef87031d95e0bdbaac01ed4 Merge tag 'rcu.2022.09.30a' of git://git.kernel.org/pub/scm/linux/kernel/git/paulmck/linux-rcu
+f3dfe925f9548a4337883926db542ccf4ca55fe1 Merge tag 'docs-6.1' of git://git.lwn.net/linux
+9388076b4cedf199624173b4fcd3f208c02632d6 Merge tag 'acpi-6.1-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
+4c99256013fa4e0fe9733ca1bab2b5684ccc02a1 gpiolib: acpi: Add wake_capable variants of acpi_dev_gpio_irq_get
+5ff811604f93bdd2650beed80b48c2ca16c6fba6 ACPI: resources: Add wake_capable parameter to acpi_dev_irq_flags
+b38f2d5d9615cf991fb68626e70b042cb8b6dc3e i2c: acpi: Use ACPI wake capability bit to set wake_irq
+a6c05e1223c9f32836ee8df3d66208b869e5b5d7 ACPI: PM: Take wake IRQ into consideration when entering suspend-to-idle
+e7fd8b68404f3d8bc03f85bc3c078d67096be06f kernel/reboot: Add SYS_OFF_MODE_RESTART_PREPARE mode
+38f34dba806a4cb54ef3b2256948e770699a5769 PM: ACPI: reboot: Reinstate S5 for reboot
+415fed694fe11395df56e05022d6e7cee1d39dd3 ACPI: APEI: do not add task_work to kernel thread to avoid memory leak
+800b8eecb284eb0f1d213dae5d00b4f372b7353a platform/x86: int3472: Don't leak reference on error
+52ce50498c6f432fad13315f0387bfc100e2d18b ACPI: thermal: Use white space more consistently
+9e8bc16626a007108f2c3496cd48f0eda4d09045 ACPI: thermal: Drop redundant parens from expressions
+36f554046bd6da91b7e71bddeb38952c6d92cd98 ACPI: thermal: Drop some redundant code
+056a81549c2722f0e7a9cceb7a98728eb1d67434 Merge branches 'acpi-apei', 'acpi-wakeup', 'acpi-reboot' and 'acpi-thermal'
 
---===============4905690965950010190==--
+--===============0850193483353425180==--
