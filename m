@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7806744834762214731=="
+Content-Type: multipart/mixed; boundary="===============2964153271093801630=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Mon, 10 Oct 2022 07:01:52 -0000
-Message-Id: <166538531212.16853.7808001757952059262@gitolite.kernel.org>
+Date: Mon, 10 Oct 2022 07:02:17 -0000
+Message-Id: <166538533796.17127.10815657965115568624@gitolite.kernel.org>
 
---===============7806744834762214731==
+--===============2964153271093801630==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,64 +16,66 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-6.0.y
-    old: 4fe89d07dcc2804c8b562f6c7896a45643d34b2f
-    new: 9b88354790ebc21a9d844d7bc95a0061e255efcc
-    log: revlist-4fe89d07dcc2-9b88354790eb.txt
+  - ref: refs/heads/linux-5.4.y
+    old: 6e150d605c9e21dbe939875c13e82da33fb59ed0
+    new: f98b7b56ae247654dbe6dc948e68b8ce733f19d8
+    log: revlist-6e150d605c9e-f98b7b56ae24.txt
 
---===============7806744834762214731==
+--===============2964153271093801630==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1665385356 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1665385382 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1665385310-664769a653ca0f378218ce0e99fb6f901ad46550
+nonce 1665385335-a5cc471573c4673dfb6bd86c342a4d83bb7be97d
 
-4fe89d07dcc2804c8b562f6c7896a45643d34b2f 9b88354790ebc21a9d844d7bc95a0061e255efcc refs/heads/linux-6.0.y
+6e150d605c9e21dbe939875c13e82da33fb59ed0 f98b7b56ae247654dbe6dc948e68b8ce733f19d8 refs/heads/linux-5.4.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmNDw4wbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+0VsP/ioAsY7b0kT4s1jUPCje
-rqcwZ+qyZLhXLr7/Jl3dQc8Pgsvkgreu+P/eBrZeO2OJIQ+EMYsBr1qOY0k5dwXI
-uiW49f9fnW7TozRJjmwniSMHeoZW4k+UyF8ehUHzdUok/MMALNq46wtAill0eaRN
-OYJgkKh5cvC0N7MGcvT70eCXCCtHYccrK/rth+ZvLR76xCwm+y5K4+v/C+Zka9OB
-gvP/0iZExfTRDGnRaEQRv+EEqKbO0I2L2+anti/ztUkEkicWb2m81c/kaK1VZHwk
-TX+sXncnrvIjuWVmj51yCwbc7q74BFf99VFssqhq2CAjm55wy11JoaiJC9HAZo5y
-Hr5XWg5NL6jhwoOIyn5ZmC58qLB7Qg0HtfN6YWSMO/sK3OsavSsVaZld3M0hSuZD
-Yh0YjxDrG6j/k2l8PHl9fPBH9M1ZV1Uu7vWuKb0tSp5N4PoC0fb8WDNGr4ScdexR
-H0r7BWffLPCE4rQ+sJhHjvrs80vbUWdELEoiHX0jZhXLEPC5rjgmxVdXRXI+1r/Z
-OCvjXXV68hrkCnEk0TxkAhOFIF+ZZZlx/CQFJz1Wa+ixJZYKFr2Xeh6m6oIdHT/3
-Bo9vvBrRHy59el3E3OaicZmafPHSEo5cjmrYXApC37xr48k6c8tkwuLCLSlesFjr
-OF0zivl00oVGBlGphIG/nTta
-=QT37
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmNDw6YbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+/6wP/Am570afBjuA1rGyHirO
+NSsRf8DtDP82QYPHvCPSOIIahf0LurFLkGa87fyDzs+5gcn0moJ9NCgS0X30SykJ
+4c/x4BAVA67li6gZk9Pm8r/yFGRGUsFmackKcOjKLg/jeAj+t3Fnj/+7scAlAjBC
+RlfjKuqzKCxWauRkwCWy0G7vLPiqMrJt5ykpY82nHW2mYPSsEM824Zmxb1W4Z0g0
+lQ5VhWNJ4RFLOeYOOLwUMR8Q6w2Fywo1dDbpipiftTCSSgry7fW/xoyRm9nbRuyg
+RhBkAo9MPSAXJufhSEZdiHb1f3Ro0S+0gMHz5+qFE/HuDf/glk7iGv3DIGF7/mZ4
+zBXj3jfPMQSkVKY8v4aVcF6oFRIuF4rIuHLvinuM+Pz7GZSZaAviMGhBnIek92/a
+S1Ni6A95azIJjFoUhezh8O0kzuCSC//2lUyTfgMGyGiB8aXCD0JCYtKlEqtK+PAk
+ZUCbXufuoOd+FTz27Id1LLAgYxN/91PsywMBS5KGDLJUUfncJvL5qNK/ahTlQbU6
+2SqC1190EsRAhMcETt9UGlm9bvt3TZ1bqh5TussCIsD+ZjNLlpQAp6z6Xid9dKgZ
+QUjb5A9dMP+vjgpYWtgdh+O2lueFNg00G3+JOCMiiEJ6AUCEh9HBbZ5pD0a7MMJV
+Fp88ZL20FwFph5VIekybU/xm
+=Oizt
 -----END PGP SIGNATURE-----
 
---===============7806744834762214731==
+--===============2964153271093801630==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4fe89d07dcc2-9b88354790eb.txt
+Content-Disposition: attachment; filename=revlist-6e150d605c9e-f98b7b56ae24.txt
 
-7a98faded08e82061e40a9dbd539cea16f5f3309 xsk: Inherit need_wakeup flag for shared sockets
-e6f4b5767f3792bd40f247453a5b5acb7cd792f9 fs: fix UAF/GPF bug in nilfs_mdt_destroy
-058fd475742c22d3bb59f9b78d86597d1b0a7867 fix coredump breakage
-f36b0cc66a7d9e8f464293317545b4ad47609b70 sparc: Unbreak the build
-b96a287b7ab073e60c323effd9be4d2014709221 Makefile.extrawarn: Move -Wcast-function-type-strict to W=1
-876d537063635987dad2485513f762e40a4af90c hardening: Remove Clang's enable flag for -ftrivial-auto-var-init=zero
-04149ebe049e451c9f5bbf09a6b635bddaffbaa5 docs: update mediator information in CoC docs
-cc998edafcf12eefaecf4193d21688dc3f341490 hwmon: (aquacomputer_d5next) Fix Quadro fan speed offsets
-0d0971c37db07c985c5b2792c19b4137a53aca81 usb: mon: make mmapped memory read only
-b085eeb509d4a428d6dd4ebdb04bb3565a4408ac USB: serial: ftdi_sio: fix 300 bps rate for SIO
-bae0a2cc8dda6e9205f70a64e1738ffbeac29ee6 gpiolib: acpi: Add support to ignore programming an interrupt
-6030f101765e2164a73ba66f16fef9edfbbee92e gpiolib: acpi: Add a quirk for Asus UM325UAZ
-8c316f9089562a9f2e77ae6e78157e2bdc49028a RISC-V: Print SSTC in canonical order
-74dd97a5a0641b49df6ad71a16a08880aa554e8e bpf: Gate dynptr API behind CAP_BPF
-9c6051cab2f83b38b7ff9d7f1f23501ae19d1de3 net: ethernet: mtk_eth_soc: fix state in __mtk_foe_entry_clear
-7d90be97341e7c056ce21a8115a64cbadfd6a015 bpf: Fix resetting logic for unreferenced kptrs
-7d72d66d8e03664e5baa8137a6bf4971cf7d79bd Bluetooth: use hdev->workqueue when queuing hdev->{cmd,ncmd}_timer works
-9b88354790ebc21a9d844d7bc95a0061e255efcc Linux 6.0.1-rc1
+ffd61a6be15baf3e40806c278aa07b0ca5284e70 mm: pagewalk: Fix race between unmap and page walker
+d1cd9a9f29c413c980132f0e93001af82097c5f9 wait_on_bit: add an acquire memory barrier
+1eb0b8684088dbeb1b41914a82e2f9ba9f808bfd provide arch_test_bit_acquire for architectures that define test_bit
+c79abbb2c7b421daafb3e967fe9c119d573102d2 perf tools: Fixup get_current_dir_name() compilation
+6cdaee38ad730c3c7985f2a29126e95b27445e77 fs: fix UAF/GPF bug in nilfs_mdt_destroy
+d4e325afd71768b5f89ad06f0d6ceb4aac9fb44a firmware: arm_scmi: Add SCMI PM driver remove routine
+dfe5be3a4fb3463f5f6d5aa9222a89badef17ffe dmaengine: xilinx_dma: cleanup for fetching xlnx,num-fstores property
+6cd45381331c75868f6eb72bc517ab09e36fc2b0 dmaengine: xilinx_dma: Report error in case of dma_set_mask_and_coherent API failure
+c72aefb6b7d11a68954d97e702f44d0fb6af3877 ARM: dts: fix Moxa SDIO 'compatible', remove 'sdhci' misnomer
+6d6ebd10aafd3cec177f835849107480d2bfe5ee scsi: qedf: Fix a UAF bug in __qedf_probe()
+5fdf91ec600896c046d028730d8fe9bf83cfc966 net/ieee802154: fix uninit value bug in dgram_sendmsg
+d42dc960f0a623b56a2afb2a3b9d82902c9d293e um: Cleanup syscall_handler_t cast in syscalls_32.h
+7767bdb0d9bca511de4a5a5f56c5c0af19948ad5 um: Cleanup compiler warning in arch/x86/um/tls_32.c
+a767dd53ec22ec351a5ceb240e85c18d47b90128 arch: um: Mark the stack non-executable to fix a binutils warning
+53f18189e29fcd06ddcda1dfd78f6cac26eea176 usb: mon: make mmapped memory read only
+fa5cd39ac3506b9754519793af08358d2d3fc959 USB: serial: ftdi_sio: fix 300 bps rate for SIO
+53cf626da22b62449a03ec3548e60866e3349f5e mmc: core: Replace with already defined values for readability
+0ba3a727bc0b79db6731d94a78062b3a329723b9 mmc: core: Terminate infinite loop in SD-UHS voltage switch
+ddd9ba2450cbcceb6765275b73f663a61adecff7 rpmsg: qcom: glink: replace strncpy() with strscpy_pad()
+f98b7b56ae247654dbe6dc948e68b8ce733f19d8 Linux 5.4.218-rc1
 
---===============7806744834762214731==--
+--===============2964153271093801630==--
