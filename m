@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9132079504957607833=="
+Content-Type: multipart/mixed; boundary="===============4540663532980352685=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Mon, 10 Oct 2022 07:02:45 -0000
-Message-Id: <166538536569.17741.12863312572936337292@gitolite.kernel.org>
+Date: Mon, 10 Oct 2022 07:02:46 -0000
+Message-Id: <166538536640.17806.13283781945715271364@gitolite.kernel.org>
 
---===============9132079504957607833==
+--===============4540663532980352685==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,66 +16,75 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.19.y
-    old: 48b6420636bebc8e3999047cd425c3a7f7fa03d8
-    new: 5644b22533b36dc1a95ab1db4ae83381514b2908
-    log: revlist-48b6420636be-5644b22533b3.txt
+  - ref: refs/heads/linux-4.9.y
+    old: 67c4b6e822ad35e9775afcdb2e2eefe42ec8617e
+    new: 4437ac1b6f927fdd734fcbe6891e63409734679a
+    log: revlist-67c4b6e822ad-4437ac1b6f92.txt
 
---===============9132079504957607833==
+--===============4540663532980352685==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1665385410 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1665385411 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1665385363-1bbeb960a6628f526822d41edfd2150f6c17ffcc
+nonce 1665385364-2e3816af2684ef82e2b4fa8bbbb4f8007a734f20
 
-48b6420636bebc8e3999047cd425c3a7f7fa03d8 5644b22533b36dc1a95ab1db4ae83381514b2908 refs/heads/linux-4.19.y
+67c4b6e822ad35e9775afcdb2e2eefe42ec8617e 4437ac1b6f927fdd734fcbe6891e63409734679a refs/heads/linux-4.9.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmNDw8IbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+A1MQANRk2ym5auqF9SXEuF7P
-qnn5AZbZtNzSrZ14Rg3JDoI/UjKt3LCbPSF9hRSB+C+Y5D7Bu+mloyBVeQxwwtC2
-kUmOoYAuw5X0TZfZrcCaq8qD8KwNG1objvESrvcdS8NS/p2nIuovD9t2YDOBk1K+
-1XLSxQJSSHuw89cWuHky3Aob+lNKyWmI8wk3Sv3XS00L93K+mXrw8mHNkNCrAD2H
-roO4gxS0qjofqohlef+dIypp9T8mA0j6/u5MgozFGttG6f4Xg7XtWiwQF+DU7bmT
-wds7PstcJiXjUvIXAsFBonBaDQGdJXRVoAS8a4mlK8J+L2dfWOGHzVmRWeAktoob
-QjlmyBOZnBYsOoHWDFHDLsMaQkYkCZUBn/aL+TtmKvwxW/swpX/zJFyRCCni0eos
-iip7mITde1uySApJXkqBArCHhkjH8gbZ3yudFLdPB03AFB2MWyo8m6yTxRWdHpij
-kAnpjw8sAvwXWU5Ot+bUciiDLx/MThSD8093MFn9N/knRI+R9Y7VDbSOhbh4GJ5a
-taMi736thmPRiw8lgcc1Csr7cgvt2smpR55Dw4dfx1U9zmKXlAMk58MN8MG+prYx
-9Ny+EhbGS5z9qRvaeImHOVaGt+xbwQ0/La89O/nSzc/n+2/aOsLRLVBJgiotdjy+
-0PnDu99nidZQ5dXBNnm99iio
-=X4Lj
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmNDw8MbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+FrwP/jytgtPXQnBUopeau787
+hWlRsgLLgL/NFELXMSYjc96vDU6ZLt1AmHt5h+SRa0BrjzON8+llyPepXPhu8jO3
+obzeZVIZwp+Im+40iHCwjOFj8xXIxSaUGA4QfEPtJ1X11X3lb4aKPm54HdfdhdIa
+J0EEmDDSAZv02T4GhKCKIU6TXqxOYkw0sMY0wRelvgyzyD8M78Ud6rnmhMH1vMHh
+A4P2caWuj+OWYFnjZaxk+d1f/qtgRbYVE2OgWi51prIze1YiHLJEwQQx4mkUAEgv
+JAyYURK621BDF9JdEK5RMPkk1GmVv03ccMkU+iT6EKP2rfAajjA5WlLqrWd20Jn4
+UxCuDLmPd5BiUssCeZxumOI+/EHqnF+/slh+PCoInySRu38VpHNBug0ZzwYJjVzK
+JNB76rp+kdSTOlZXWsFFvQdUb9kQ4/1InzJSkX/jlcx7ArLlxUOXxMZeJJU9EtS5
+g0a3GjvBBqLNDotkN6YfTD5lA/bld0mO/dH9WfpPu0OkhrydQxLrqNgBFEeWLmCv
+aYZnK8JnczAHMCZiHqsUsgNlyPKhJ/tec4sUwXC1GaaeC9z8Qw+ZbUDpqHcAr3o8
+i+UI+iwop9/GssFZFEWb/ns3A0I6TQGg5pBRc0Nsxe2RhmELBUFZLG77rz0l9IxK
+Oxf6gcYS4olFPoEQgKIiVZQb
+=SOiH
 -----END PGP SIGNATURE-----
 
---===============9132079504957607833==
+--===============4540663532980352685==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-48b6420636be-5644b22533b3.txt
+Content-Disposition: attachment; filename=revlist-67c4b6e822ad-4437ac1b6f92.txt
 
-712fb1fba4bdad2175e85e279060e93328b38f46 Makefile.extrawarn: Move -Wcast-function-type-strict to W=1
-a96b8401c5ae0887a9e9317f92303ce188530b84 docs: update mediator information in CoC docs
-4329f8e06442f654c47a84926b6a01455d5177d4 ARM: fix function graph tracer and unwinder dependencies
-69ac1a3f175be151676d2c9ef30cb95af040cd60 wait_on_bit: add an acquire memory barrier
-8133f80b1009d183a5e52cdaee8010d8512a5b73 provide arch_test_bit_acquire for architectures that define test_bit
-d3fb5c5436f8fc58ae926e6894b308b9bc51a473 fs: fix UAF/GPF bug in nilfs_mdt_destroy
-05697bc3e4c3847f4c19e2d332a2ca9ef7c9776c firmware: arm_scmi: Add SCMI PM driver remove routine
-4075075b912749ff5749cb009de8fd9ed0447b8d dmaengine: xilinx_dma: cleanup for fetching xlnx,num-fstores property
-d2d33e8a79a84f06fc4365d635d92c16fbe0f0b3 dmaengine: xilinx_dma: Report error in case of dma_set_mask_and_coherent API failure
-3cbaf67d84d1f695ece72958946767dcd2130c90 ARM: dts: fix Moxa SDIO 'compatible', remove 'sdhci' misnomer
-685dbbc94377bd6d6f11959fac13abdf151a4170 scsi: qedf: Fix a UAF bug in __qedf_probe()
-ca182cc009d447a7835d822be5b7128c3cd376c2 net/ieee802154: fix uninit value bug in dgram_sendmsg
-a983764f4451cf8769be564a56288c6055258fd4 um: Cleanup syscall_handler_t cast in syscalls_32.h
-d23183b8a990fb034edf6a9110355ec24deea1b5 um: Cleanup compiler warning in arch/x86/um/tls_32.c
-13230f27a5442af575db33f6b738099a4dcf855b usb: mon: make mmapped memory read only
-1b89491e8a8a9fff6e05794b600b979a60c7d0e9 USB: serial: ftdi_sio: fix 300 bps rate for SIO
-415dfb8d44cd2c8507dccc2bdb8c070e22ddcc74 mmc: core: Replace with already defined values for readability
-111785ea7ee440042e50d81da85664596c17c390 mmc: core: Terminate infinite loop in SD-UHS voltage switch
-653ed6f10237d7eb17f456a1142d43eefc9b6103 rpmsg: qcom: glink: replace strncpy() with strscpy_pad()
-5644b22533b36dc1a95ab1db4ae83381514b2908 Linux 4.19.262-rc1
+8dda0a56ce34aa15c9627656a0dfb7c32dfc4005 uas: add no-uas quirk for Hiksemi usb_disk
+d0d6d869c301f41264c8d658b0da41136cec089f usb-storage: Add Hiksemi USB3-FW to IGNORE_UAS
+d88ef16676dee465feafc5abc55f9efde38db950 uas: ignore UAS for Thinkplus chips
+693c2f0677865dcb0c23e4c2bdb4cd84e80f841f net: usb: qmi_wwan: Add new usb-id for Dell branded EM7455
+7350fdbac152d008e0619fd989db3434f87d3f06 ntfs: fix BUG_ON in ntfs_lookup_inode_by_name()
+92579e72196d5f2d42e24727be31d322284ae1ad mmc: moxart: fix 4-bit bus width and remove 8-bit bus width
+0a949bb4abe16185e03dbdee108cd9d12aa75984 mm: prevent page_frag_alloc() from corrupting the memory
+15da60ed5aec96b4404e89b06b438ec3af3a81a4 Revert "drm: bridge: analogix/dp: add panel prepare/unprepare in suspend/resume time"
+6f2773b5961601d25197bec4f5a83bd46d7a25ac Input: melfas_mip4 - fix return value check in mip4_probe()
+1dcf6be712ac2630b995b5b361d77925fc9a284a usbnet: Fix memory leak in usbnet_disconnect()
+9518fffdd7f6620051803189aeee231f1df639f8 nvme: add new line after variable declatation
+acc768700967c2adb59811596dbe2f9418599875 nvme: Fix IOC_PR_CLEAR and IOC_PR_RELEASE ioctls for nvme devices
+fdde18694df237689058f7264817e76a31812235 selftests: Fix the if conditions of in test_extra_filter()
+5653dcfac93e70442f27803f02c4ea1e268695ee clk: iproc: Minor tidy up of iproc pll data structures
+768049f5809b3c54b8df7322b06a1956f122a080 clk: iproc: Do not rely on node name for correct PLL setup
+56109d6fd5f228ed9f983f591149867094180def Makefile.extrawarn: Move -Wcast-function-type-strict to W=1
+1036f10a1049b5264ef3b40788011b3070231f7a ARM: fix function graph tracer and unwinder dependencies
+318666f8e5991f060777f45eb87dcf9c47b812a4 wait_on_bit: add an acquire memory barrier
+53bc22a8a2e8eebb4120e7af76702879eb55f66e provide arch_test_bit_acquire for architectures that define test_bit
+b33e8c0b60d19f85943754ff6d6b677e4152e8ae fs: fix UAF/GPF bug in nilfs_mdt_destroy
+c53d871f3ba87a8531b3635a0d0aea0896d15305 dmaengine: xilinx_dma: cleanup for fetching xlnx,num-fstores property
+e0550fdd25e20dde5b9668f9c162c3e381d5c12f dmaengine: xilinx_dma: Report error in case of dma_set_mask_and_coherent API failure
+294953f57e207042516ada8e1f2ff5b1e54c7281 ARM: dts: fix Moxa SDIO 'compatible', remove 'sdhci' misnomer
+50666840547abdba7ddeb98b5c7569c0fafe6002 net/ieee802154: fix uninit value bug in dgram_sendmsg
+499fc2bacbf6cfa62be176695f5367cdb19094a0 um: Cleanup syscall_handler_t cast in syscalls_32.h
+2ceaab788dadaf8e659d273a10c48cd904a99a96 um: Cleanup compiler warning in arch/x86/um/tls_32.c
+384ce57a4ccf66e3f9d2c2155c76a67040040565 usb: mon: make mmapped memory read only
+87c001c64fecc9df7478750eed4695c0be4455f7 USB: serial: ftdi_sio: fix 300 bps rate for SIO
+4437ac1b6f927fdd734fcbe6891e63409734679a Linux 4.9.331-rc1
 
---===============9132079504957607833==--
+--===============4540663532980352685==--
