@@ -1,22 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Mon, 10 Oct 2022 12:17:35 -0000
-Message-Id: <166540425583.22633.17900094667324380007@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xen/tip
+Date: Mon, 10 Oct 2022 12:33:16 -0000
+Message-Id: <166540519612.1639.11506574882153656639@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/xen/tip
+user: jgross
 changes:
-  - ref: refs/heads/file1gjc5J
-    old: 0000000000000000000000000000000000000000
-    new: 5302e1ff315b40dfc9bb3f08911f5a788cc1de01
-  - ref: refs/heads/fileG7NHNG
-    old: 0000000000000000000000000000000000000000
-    new: 29eb79a9a6283d661ea1f70ab012809fdbf057a7
-  - ref: refs/heads/v2_20221010_zhangqilong3_asoc_wmxxxx_revert_old_asoc_wmxxxx_fix_pm_disable_depth_imbalance_in_wmxxxx
-    old: 0000000000000000000000000000000000000000
-    new: 68ce83e3bb26feba0fcdd59667fde942b3a600a1
+  - ref: refs/heads/linux-next
+    old: 2849752f36848359034616eb70dfc7fb14eb3cd4
+    new: 61367688f1fb07678b1d865a0ce9364f5267a896
+    log: |
+         c9133112f347907774055bbf73179a7ff8504689 xen/virtio: restructure xen grant dma setup
+         7228113d1fa0107a377aef71094d610eb8824aa2 xen/virtio: use dom0 as default backend for CONFIG_XEN_VIRTIO_FORCE_GRANT
+         61367688f1fb07678b1d865a0ce9364f5267a896 xen/virtio: enable grant based virtio on x86
+         
