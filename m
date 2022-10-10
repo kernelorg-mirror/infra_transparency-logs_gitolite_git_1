@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3545032043105612832=="
+Content-Type: multipart/mixed; boundary="===============7540903302041498718=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
 Date: Mon, 10 Oct 2022 07:02:18 -0000
-Message-Id: <166538533832.17183.16511042378397101967@gitolite.kernel.org>
+Message-Id: <166538533843.17219.12675087834131865322@gitolite.kernel.org>
 
---===============3545032043105612832==
+--===============7540903302041498718==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,75 +16,64 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.9.y
-    old: 66fd5eaabe970570f8e7086af4180deedf83347f
-    new: 67c4b6e822ad35e9775afcdb2e2eefe42ec8617e
-    log: revlist-66fd5eaabe97-67c4b6e822ad.txt
+  - ref: refs/heads/linux-6.0.y
+    old: 9b88354790ebc21a9d844d7bc95a0061e255efcc
+    new: 27dd35f093fc49a7f8d1dc1e5b52ac8064578cc0
+    log: revlist-9b88354790eb-27dd35f093fc.txt
 
---===============3545032043105612832==
+--===============7540903302041498718==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1665385382 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1665385383 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
 nonce 1665385336-702d056e192bbe01224a40af05dc9d07a12b5dfc
 
-66fd5eaabe970570f8e7086af4180deedf83347f 67c4b6e822ad35e9775afcdb2e2eefe42ec8617e refs/heads/linux-4.9.y
+9b88354790ebc21a9d844d7bc95a0061e255efcc 27dd35f093fc49a7f8d1dc1e5b52ac8064578cc0 refs/heads/linux-6.0.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmNDw6YbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+rcEQAI1G3Xbm5IjeMeVhJzZ5
-DnVIFNxvT0f9TX58Ota6ZNQjY2aNR5GydJ+/l/SvKWCpn81tGREZ3NsK6303Th3I
-NYvl0yxJQHFEXSPIDqH19gBpAl6Jc/fLdstl7wvxlUgE21T3sa667qQpfZEAitGF
-FwtFARXfJHmoIjBBUsOszNQIHUdKNbaqkxhjsETG00+nF0j/j/aVPDOQp9rgLfvt
-wcnwEszaRM7BQ8fcNKhKfv1qYQh/xFRRXVpMqD+0gk6scXz8HSPAOouabsRjlGYc
-+4FMhh0LgEShL9asy4Znvz9LiWRN6SiXTwY8uQQSjmK5BfWNjSorpsLTPjkZLFHS
-fSHE9dsfWHj+QzBbDcqjHrLcfoqunPeB5tQZSQTr1kjBg8vDyjNGhSyHlXkpZL+K
-UTaK9OJ45y1YBcsrmngnmrep+hp2CH00L0JKEiFHM1iBUcggrvBHyEhBEwUZeX1x
-s4NhPgF7i7Nt2BV9r5R3lUl77Bkfyy5/ph7FzEX8okNHrTxYWgAP8+JBuGzsDSaE
-u5dGiM4RqZ0CYVV4G9Wm2YJ6Y3do5RTeQPlypeL4IQbfCDd13PdVbRLvq/+ojFAk
-qE5t0LAyUpD+u0AmbrV7P5XHMCOhWeSfT95jWMLhutxUZupZ/uUuvr8sDr3PxXx3
-7a7tX7aQOd0TnWNCaLEJz/2F
-=7xEY
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmNDw6cbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+PZUP/2CdbCdk2DTOrqtzqn6Q
+S4dhc+5v4MJ/ueEACpycIAt9HmzLrASDB5NVcrTD6buamFs9h0d181VtW0g671bc
+u/rjD4oOXOJEzRyU53kv61FOSFDnEGJGjvCcx1N5HltHx88Z5Q9f+sBuPuqxxlvJ
+mPk3xke8Wma0ZpLNXDg0GRPwsOdmaQT9vL0SojCIGkIjP/0rnZglgCmFvr1bvLOV
+TsevzyBYs9drvAkmNRdM6BMcXrDdXIWN3vQ+kZELGnNXgGDpUU/hLSkxj2tzeQfh
+X/8D28pCywmZ8nXpLk42g+gv/tXBBQp9bCOt7/Qj1+LfVQWreTQhixHMomWA5Dgb
+dWEGVtVRuPf2WcCAUwm1uHdLbn7kTagz+hgbZ+8vUmuzN5qFcDERa4Xp3Fk42vUD
+3KKZeVRMuv/Y8uz7x4S0/JmAhiJQmnkAbCGIbEjutnm05R9ilr0nHoDZn5sHTXJs
+hqYvO9UeTG9x7RXBLbgPqhpLTfMAolsTp9sOhKeSQzzsCXL5bwmmgZ/yM4bhAiGm
+sLxO5SuAEDYjgQ7051P8IZMrfEQjQSsRY/2Th4OKeIPt9atSYZTRxvDFtXdgpmYt
+xTKegxG8zvnw7htNJoDyXz3pLzuYgocQlvtETRgo+3zbboCJciWtGsEI5uJEwLm4
+VSg5klXvHBxqnYkpz7BkiC23
+=vP5d
 -----END PGP SIGNATURE-----
 
---===============3545032043105612832==
+--===============7540903302041498718==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-66fd5eaabe97-67c4b6e822ad.txt
+Content-Disposition: attachment; filename=revlist-9b88354790eb-27dd35f093fc.txt
 
-1f74be35676aab7b569f577e02d931175cd5e732 uas: add no-uas quirk for Hiksemi usb_disk
-ce0b608e9d9dbc4e094bcfc01edc079ecef42818 usb-storage: Add Hiksemi USB3-FW to IGNORE_UAS
-054116b1db8b546ea99c9ac26cf5bd65fc460de7 uas: ignore UAS for Thinkplus chips
-dad447a177a1a2394fbbe706a4d9d61510a3469d net: usb: qmi_wwan: Add new usb-id for Dell branded EM7455
-27414d988f1852ed73647b622928f6eb938c2df6 ntfs: fix BUG_ON in ntfs_lookup_inode_by_name()
-42fcea4d3f8876c373081434be4165298635bad1 mmc: moxart: fix 4-bit bus width and remove 8-bit bus width
-ad1b9e308e78884e6b9a5ecca6bcc08ef3693f4f mm: prevent page_frag_alloc() from corrupting the memory
-bf865de1a23f7ac1c7dd3edc795ffbce9ad58e45 Revert "drm: bridge: analogix/dp: add panel prepare/unprepare in suspend/resume time"
-e2f4eed1e2d70a362ac723f99f60f51dd51dfff0 Input: melfas_mip4 - fix return value check in mip4_probe()
-b4bd77e46018659b08eee53f3e11a5fc1beaecf4 usbnet: Fix memory leak in usbnet_disconnect()
-b20c3bc30c4da51b39783e9c7abe97168b399ee7 nvme: add new line after variable declatation
-97b19737ecf0553b5ff5267d22044a9943e590ea nvme: Fix IOC_PR_CLEAR and IOC_PR_RELEASE ioctls for nvme devices
-0288f42adc0895e5ff812d91eec07aa6403a4d5a selftests: Fix the if conditions of in test_extra_filter()
-b4cbb540361245d97b5b63dc7a82c010c0c794f8 clk: iproc: Minor tidy up of iproc pll data structures
-31fe7339a23a349734fffc4bddfbf23f4114d0fb clk: iproc: Do not rely on node name for correct PLL setup
-67384b05fafc8ad97048f5b1a2b75180842d425b Makefile.extrawarn: Move -Wcast-function-type-strict to W=1
-be75472662d8ce29b83773b88809fcbe0e46c989 ARM: fix function graph tracer and unwinder dependencies
-a67877e3c2f373414692f98a7c62213222ebb34c wait_on_bit: add an acquire memory barrier
-43be64a3aa557e3b164d10573ba15b6b28c3182b provide arch_test_bit_acquire for architectures that define test_bit
-d5f60b31fc751e1fb7cda23a86c2ac10589cf6a8 fs: fix UAF/GPF bug in nilfs_mdt_destroy
-a10ea4372e9e8bcfc82b032500e6cca9703ed40b dmaengine: xilinx_dma: cleanup for fetching xlnx,num-fstores property
-c7402c69943fabf9ab34bbd233b5b23d265d6adf dmaengine: xilinx_dma: Report error in case of dma_set_mask_and_coherent API failure
-63e6f620ec5183dd9726168b1b868e4a47b87f2e ARM: dts: fix Moxa SDIO 'compatible', remove 'sdhci' misnomer
-cbb8d460f1c5ee49b6a12bfaf07d95928ac98dd1 net/ieee802154: fix uninit value bug in dgram_sendmsg
-2d43699e05901e800f94fac9bfe70baeea726e0f um: Cleanup syscall_handler_t cast in syscalls_32.h
-947150f7336ea39f19da68dd53e0ba2b11f4d680 um: Cleanup compiler warning in arch/x86/um/tls_32.c
-7c327b2fdbbe20a9f383bca2d0a484827210e253 usb: mon: make mmapped memory read only
-b81487b66993e733ccb5b4ba1e8e7ab482eeda90 USB: serial: ftdi_sio: fix 300 bps rate for SIO
-67c4b6e822ad35e9775afcdb2e2eefe42ec8617e Linux 4.9.331-rc1
+2ab31eb8cf3035f79bfef3a3044410a60ef32b54 xsk: Inherit need_wakeup flag for shared sockets
+3a6e7d4c7c0228985d99770f3d0360b4b5e6f4cd fs: fix UAF/GPF bug in nilfs_mdt_destroy
+84db3bd90ee52fdca6c03a189582cbddef00abfa fix coredump breakage
+adffe1e68c0eb8b998defd29545d07bcde0823c2 sparc: Unbreak the build
+bccf55ef00d9dda3eb80d6547bc766768e4efca7 Makefile.extrawarn: Move -Wcast-function-type-strict to W=1
+23a7270a1fbafff97ec4dbe729c0afe85e565d24 hardening: Remove Clang's enable flag for -ftrivial-auto-var-init=zero
+ba2dc66278fcdc809495ef63132d88ecb3769fbb docs: update mediator information in CoC docs
+86111d94f78e45ff31106a126d1e9b13e3900689 hwmon: (aquacomputer_d5next) Fix Quadro fan speed offsets
+6d01c9efeca54a0a239d1a05b578c6335b7f01c0 usb: mon: make mmapped memory read only
+568459ba2fd63e9053e03c2f45e5b40b13819e10 USB: serial: ftdi_sio: fix 300 bps rate for SIO
+72dcd9293541f95eb77ad1b1221a11599bbb8227 gpiolib: acpi: Add support to ignore programming an interrupt
+bbfc7a56aca05974b71097283eeb9c2e2b8425a7 gpiolib: acpi: Add a quirk for Asus UM325UAZ
+39d43817a826fc4df6b4d2124b549e335ad19861 RISC-V: Print SSTC in canonical order
+b8fde1845f7a64093bc5a7ae50e82147b163423f bpf: Gate dynptr API behind CAP_BPF
+a6238dafc59974793880c243eb23d74515695ca2 net: ethernet: mtk_eth_soc: fix state in __mtk_foe_entry_clear
+ed7342eb7c3f05061265b0dc305621323f2377ad bpf: Fix resetting logic for unreferenced kptrs
+f4337eeaad337ad8ba79d8dec992f4e60cf7c3ea Bluetooth: use hdev->workqueue when queuing hdev->{cmd,ncmd}_timer works
+27dd35f093fc49a7f8d1dc1e5b52ac8064578cc0 Linux 6.0.1-rc1
 
---===============3545032043105612832==--
+--===============7540903302041498718==--
