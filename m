@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0732493840884666288=="
+Content-Type: multipart/mixed; boundary="===============8357770110530685109=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Mon, 10 Oct 2022 07:02:47 -0000
-Message-Id: <166538536784.17990.9734047896015915837@gitolite.kernel.org>
+Date: Mon, 10 Oct 2022 07:02:48 -0000
+Message-Id: <166538536804.18022.3983526848060667635@gitolite.kernel.org>
 
---===============0732493840884666288==
+--===============8357770110530685109==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,12 +16,12 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.14.y
-    old: 1511487232d98e670d3c789541e2acd0f986576e
-    new: 30c76a7f0bd1e0cd712263293c973f5db619f86e
-    log: revlist-1511487232d9-30c76a7f0bd1.txt
+  - ref: refs/heads/linux-5.10.y
+    old: 254b8badd0783bb920c3f66ebbbe0f1964585746
+    new: 1a3141006d41369149bdab31a4f17d65a4e8e819
+    log: revlist-254b8badd078-1a3141006d41.txt
 
---===============0732493840884666288==
+--===============8357770110530685109==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -32,67 +32,61 @@ pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1665385412 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
 nonce 1665385366-ebcee7b906000dc600d891b20f932fa63a88596d
 
-1511487232d98e670d3c789541e2acd0f986576e 30c76a7f0bd1e0cd712263293c973f5db619f86e refs/heads/linux-4.14.y
+254b8badd0783bb920c3f66ebbbe0f1964585746 1a3141006d41369149bdab31a4f17d65a4e8e819 refs/heads/linux-5.10.y
 -----BEGIN PGP SIGNATURE-----
 
 iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmNDw8QbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+mJoQANTyqt0Smn3wbf66lEDa
-46oNY+v9ihCuTzER9d5VKCWYr1XjJ85ewgb9JQKU0EF0sJ/EmWWbSHI0GdKooOXL
-Z3iVo7YPDBh1IBVEsSSzFsDnynBDT1s0/DpMWLZkSC01zz+AntUHnFUWmQa+h+vP
-ZR2SnJJ4wrNJfe/T+B/gz1+PnE1jndMlb50qp0LG9Iqv8MEpHkpO8pAJTYi9bKL2
-GZU7fX00oLzPKc4xtq2/JyEilSUtu8ZX735gZq0AXFCcMUf5bXcbNOgw3hQuPevB
-PbNYPg98Pxg9g+5p5Jc2MT8r+9NGx4noONopG9xbjiZMbfvBYW7xnJx4XiZDHdeL
-29v0HkSeO0I9f5WdI8IMSiIHUaEgPaFckcFFPuUHuPUrokWcr2tnXTv2aVewx+IE
-REBMJ54ip07oI0+4sT74+LZgRfAkyJpJScvDJNiuGQSUYrVtuAq8/AKLTnf26lJu
-ImH2WQvwAameaX1fCZsqLUMwmm6drDxpYjyFEgG+COpHN63Hj4hCYFBlY7gb4RgW
-Q4Bro5FumOc8VltcLj0Q0CkGj0XPcQOvmMEUWASHZBOMYuhcuvrSj17Y/sDQZNEX
-TwGxF8zWyyLK7u7EW2zjSrEWDQ7sXX20yKxnmExb+iMLLmcWtii+D36/xxQ5t5q4
-21rk4wxPOjYrz4H9QnmlkhKp
-=n7Bp
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+WQYQAJ5g9ZCTzHpv1Cwu6dh1
+HQ42w8pUqHAGd0b6lOhBAeEhsFedfLPDQ4UXKQcecClldB8jaED6vn3VuGYuRUBi
+UTvqwhrpthXLgXGmTIYQYxMZ8oQkyXUws1JTQXGeFFAaW5RU65CACeXTCCbOo17U
+qGUyt7NbUp4ko3vHmndYczlyfZAykUG8sf9d9VzcDwpUZ8OwkQUsuIl7jGQLbBuX
+/Bp3zWvlzXinhUqtCldU7QOQDVmC28aZHwqSj7HKdnfwWeM0lAsgh3Sdtu5QN1lK
+jwCNuxs3S+F4F0QynyWgXZLyO/tJv5koFn0iJyKBsOj2EJ4Byy5Yo9yGY27JCKu2
+rz+/YyY3swM6u0J0ya9tadFEa3AqWuBisLOjFKfpf98wGME2PlG8G94/bUAL4mgR
+y96mai20OrHr/Ze4yjIajqvLgnJdyfPXI4ZRWDMc/Bk0nVf+p3pwTBlr6H/L+r4R
+vBqh6EJJOyxUD2SDUDYWKgicTbSrWRF5n48Nc9vW/T1z5RQGTovXpVbbYI/wWdx/
+e3AZM6h1Nk6c3iE5suzVqkU38KOYXojfiHY+LzaXdJESs4cKVi3JS7myVuQ8e54j
+oZyZ2z7KoqZlTRqAdAi6x9Th7NPh/CD/aGyWJQdBul224XrRf6WGWAJ/FExAhkOV
+fellC5PFckc3oWmIAewqjSur
+=/AnJ
 -----END PGP SIGNATURE-----
 
---===============0732493840884666288==
+--===============8357770110530685109==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1511487232d9-30c76a7f0bd1.txt
+Content-Disposition: attachment; filename=revlist-254b8badd078-1a3141006d41.txt
 
-ed8807128f3e7fcb2d1f29ee3a1de26a620286c2 uas: add no-uas quirk for Hiksemi usb_disk
-594d9709fec75d856c604e47c6085c9676c740f6 usb-storage: Add Hiksemi USB3-FW to IGNORE_UAS
-53d266f95885853a7a4875b17ff16aa3219af048 uas: ignore UAS for Thinkplus chips
-a7c7063f1a5e1ab8af01f6b789817ef7b1020cfb net: usb: qmi_wwan: Add new usb-id for Dell branded EM7455
-6fda6ba90c9ba2a15c46fe0554225881aeb66257 ntfs: fix BUG_ON in ntfs_lookup_inode_by_name()
-bb5a83768df05f6432690bfd5b2cddb7ac45d65c mmc: moxart: fix 4-bit bus width and remove 8-bit bus width
-2472810ffcfd2302bc8cdcd5332266ba044139c3 mm/page_alloc: fix race condition between build_all_zonelists and page allocation
-a19864859eb2721bf4e576f9869c09c57f20617d mm: prevent page_frag_alloc() from corrupting the memory
-0246f090c70701e4096d59be0ab3e1396fa80bbc mm/migrate_device.c: flush TLB while holding PTL
-9e908397acc4ea437b707da04957fec00549412f soc: sunxi: sram: Actually claim SRAM regions
-388f37017697bdadd3dcc319eac493bc565137e8 soc: sunxi: sram: Fix debugfs info for A64 SRAM C
-7e05aa79a14f56eccb4b411b40ffebb8a9ef2b98 Revert "drm: bridge: analogix/dp: add panel prepare/unprepare in suspend/resume time"
-0ddd7f3840dd389d142f2e066c999ec2a6887069 Input: melfas_mip4 - fix return value check in mip4_probe()
-fc0921519ac66ca80dda1ea3030db1105cb98754 usbnet: Fix memory leak in usbnet_disconnect()
-e3235e171ee1a253784f96967aee4b4d820a3fbb nvme: add new line after variable declatation
-0638225188ed29697fb94b28afc131547edcee00 nvme: Fix IOC_PR_CLEAR and IOC_PR_RELEASE ioctls for nvme devices
-c9e7c0f856410687595538b348ba6df5d2dea993 selftests: Fix the if conditions of in test_extra_filter()
-76e770ae67a9cb569e58c109f5edbc682d3a17f2 clk: iproc: Minor tidy up of iproc pll data structures
-1e431f4f1d7c400e824e9f7040f9558372fc2b27 clk: iproc: Do not rely on node name for correct PLL setup
-e88c5e9c0eea4b12af971fcbf8a334ead31b29e2 Makefile.extrawarn: Move -Wcast-function-type-strict to W=1
-dcb72f10073423a365167c57b3efcb88b3ea07cb i2c: dev: prevent ZERO_SIZE_PTR deref in i2cdev_ioctl_rdwr()
-4e51c0bb61a4b69dcb37f5b10a748a9bb89329b4 ARM: fix function graph tracer and unwinder dependencies
-350d4a0df81e5e84bb445000da55a0cdcc24940e wait_on_bit: add an acquire memory barrier
-6b16d06a9e0e6367610214f251e31e2670ebfd08 provide arch_test_bit_acquire for architectures that define test_bit
-a52afb22b896eb6c1ab19b555247ab42d1d6ca01 fs: fix UAF/GPF bug in nilfs_mdt_destroy
-6a447bc018df3cb90119bf51ac694f567f505a4b dmaengine: xilinx_dma: cleanup for fetching xlnx,num-fstores property
-3856013910f50c46975037e4c166ee1339d8c120 dmaengine: xilinx_dma: Report error in case of dma_set_mask_and_coherent API failure
-c98da8f553b6eaa99b026279048f9c52516ebfa6 ARM: dts: fix Moxa SDIO 'compatible', remove 'sdhci' misnomer
-b71e46fe55e7d38f1167b58c1851d690e5131f3b net/ieee802154: fix uninit value bug in dgram_sendmsg
-aa111f136df8b9449f4e7bcb155b9e7b88f9f291 um: Cleanup syscall_handler_t cast in syscalls_32.h
-db4150911b578e7734066a63cf64c5b950884b53 um: Cleanup compiler warning in arch/x86/um/tls_32.c
-c6b092af10eca0945f5e9ddc8dafd973d67d4c9a usb: mon: make mmapped memory read only
-ccdded0f8b6b9c362632886a6420997db672b2fc USB: serial: ftdi_sio: fix 300 bps rate for SIO
-81cb9076eff48955f49973f648ecc0f569f91145 mmc: core: Replace with already defined values for readability
-41f86acd2526a5e5a1c1c7a07b7f738dc2f11e1c mmc: core: Terminate infinite loop in SD-UHS voltage switch
-9f434d76261cea76cf00f81a0fa2cbe2c69e396d rpmsg: qcom: glink: replace strncpy() with strscpy_pad()
-30c76a7f0bd1e0cd712263293c973f5db619f86e Linux 4.14.296-rc1
+6b0e951738a93be0adc7eb01c2509bfd10555a67 Makefile.extrawarn: Move -Wcast-function-type-strict to W=1
+91304fa9a51ad1dfa90883bcd83af0328960395d docs: update mediator information in CoC docs
+8d6c06d0711911cba63974b2d33aac2f7cf111a5 perf tools: Fixup get_current_dir_name() compilation
+e98935f39f3ae64812c0899596f09aad740e9203 xsk: Inherit need_wakeup flag for shared sockets
+f69c3e819e4971d8b55d71335b838f1a4f8ca6d4 ALSA: pcm: oss: Fix race at SNDCTL_DSP_SYNC
+4313130acff462fc8b1a869c84835238c29a95d3 mm: gup: fix the fast GUP race against THP collapse
+1f942d770b08b1f969bc5298a8bf78669e96b7ba powerpc/64s/radix: don't need to broadcast IPI for radix pmd collapse flush
+bd066f7f48f8003a33b3cffbfa9a240d6cee980f wait_on_bit: add an acquire memory barrier
+78988fffd2a24eb2cdd68436db0457b5c373032a provide arch_test_bit_acquire for architectures that define test_bit
+35793fe4769c9cd8214b1a3b91879ea349e42760 fs: fix UAF/GPF bug in nilfs_mdt_destroy
+e1f603010088d8386bf574601de6dd87766ff44c compiler_attributes.h: move __compiletime_{error|warning}
+1a729bafa6130b8cfebc0e4b935e9ec5868f4805 firmware: arm_scmi: Add SCMI PM driver remove routine
+446244f89f820b31579f5b7cf0e69a2ee88dc147 dmaengine: xilinx_dma: Fix devm_platform_ioremap_resource error handling
+bf12dabfefe6987c7801ff6a25551e1a92c41689 dmaengine: xilinx_dma: cleanup for fetching xlnx,num-fstores property
+63e83a98a633d99254c449f2e025618c78b189cd dmaengine: xilinx_dma: Report error in case of dma_set_mask_and_coherent API failure
+8a5e4e920cb77b6d41c696504f47c3c180abe28f ARM: dts: fix Moxa SDIO 'compatible', remove 'sdhci' misnomer
+bfd3cf8b342fc9368474717db6ed5d03793e9bdc scsi: qedf: Fix a UAF bug in __qedf_probe()
+1703109004642cdba80613fef119fe5b5d0f7809 net/ieee802154: fix uninit value bug in dgram_sendmsg
+b62c09c5f0c364a6d1422c56070834d722fca206 ALSA: hda/hdmi: Fix the converter reuse for the silent stream
+753a502091ac307c2d3480cb60ecc8523ba3a5c3 um: Cleanup syscall_handler_t cast in syscalls_32.h
+d3dcbfc3354b7bdde165e1a00feb84395b1353d8 um: Cleanup compiler warning in arch/x86/um/tls_32.c
+42c598585c5a3ac6074e9e4bbd5a6732c1096570 arch: um: Mark the stack non-executable to fix a binutils warning
+725a9099c7a8ea7fa730f3631402085350aefff8 net: atlantic: fix potential memory leak in aq_ndev_close()
+f99f01d7fda3a25dfd29c72219adb200c9292a20 drm/amd/display: update gamut remap if plane has changed
+542f5fde696778f604c2b46e25779a58bed1766e drm/amd/display: skip audio setup when audio stream is enabled
+0b3cad02fba2bddffe4848da39be0ce4a482a609 mmc: core: Replace with already defined values for readability
+7ac037c0567b2a257024f81e8a40ccae5c4739a7 mmc: core: Terminate infinite loop in SD-UHS voltage switch
+619c31dce8cd0385a19638f5c5fa8b131c6ca09c usb: mon: make mmapped memory read only
+8582a21eec5fa3eb2f59b4c93a08525b992df20a USB: serial: ftdi_sio: fix 300 bps rate for SIO
+71243b386bca116d0693b1e2137d2387f9476e57 rpmsg: qcom: glink: replace strncpy() with strscpy_pad()
+1a3141006d41369149bdab31a4f17d65a4e8e819 Linux 5.10.148-rc1
 
---===============0732493840884666288==--
+--===============8357770110530685109==--
