@@ -1,16 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/joro/iommu
-Date: Mon, 10 Oct 2022 12:11:05 -0000
-Message-Id: <166540386541.18780.11782205707922525915@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Mon, 10 Oct 2022 12:17:35 -0000
+Message-Id: <166540425583.22633.17900094667324380007@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/joro/iommu
-user: joro
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/tags/iommu-updates-v6.1
+  - ref: refs/heads/file1gjc5J
     old: 0000000000000000000000000000000000000000
-    new: 3366fd1d4d31d8178e64b6051b122502df736291
+    new: 5302e1ff315b40dfc9bb3f08911f5a788cc1de01
+  - ref: refs/heads/fileG7NHNG
+    old: 0000000000000000000000000000000000000000
+    new: 29eb79a9a6283d661ea1f70ab012809fdbf057a7
+  - ref: refs/heads/v2_20221010_zhangqilong3_asoc_wmxxxx_revert_old_asoc_wmxxxx_fix_pm_disable_depth_imbalance_in_wmxxxx
+    old: 0000000000000000000000000000000000000000
+    new: 68ce83e3bb26feba0fcdd59667fde942b3a600a1
