@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9213854975378223430=="
+Content-Type: multipart/mixed; boundary="===============5832423454106066811=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
-Date: Mon, 10 Oct 2022 15:37:07 -0000
-Message-Id: <166541622700.978.7682617394350908625@gitolite.kernel.org>
+Date: Mon, 10 Oct 2022 15:37:21 -0000
+Message-Id: <166541624110.1153.15994872115022975654@gitolite.kernel.org>
 
---===============9213854975378223430==
+--===============5832423454106066811==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/s390/linux
 user: gor
 changes:
-  - ref: refs/heads/features
-    old: 8fb65e05bd60058e15842e511b3ee5299ac51829
+  - ref: refs/heads/for-next
+    old: c2eb8657875b74e288f82095a9a33dc85db4eb5f
     new: bf18140d30541c2c1e5c0f57879634f3d0d04912
-    log: revlist-8fb65e05bd60-bf18140d3054.txt
+    log: revlist-c2eb8657875b-bf18140d3054.txt
 
---===============9213854975378223430==
+--===============5832423454106066811==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8fb65e05bd60-bf18140d3054.txt
+Content-Disposition: attachment; filename=revlist-c2eb8657875b-bf18140d3054.txt
 
 276d37eb449133bc22872b8f0a6f878e120deeff net: mscc: ocelot: fix tagged VLAN refusal while under a VLAN-unaware bridge
 c9da02bfb1112461e048d3b736afb1873f6f4ccf net: ethernet: mtk_eth_soc: fix mask of RX_DMA_GET_SPORT{,_V2}
@@ -1051,4 +1051,4 @@ ef688f8b8cd3eb20547a6543f03e3d8952b87769 Merge tag 'for-linus' of git://git.kern
 f3e59ff348c077a6afd4edb23d7e69e9cba62fdc s390/vmur: remove unnecessary BUG statement
 bf18140d30541c2c1e5c0f57879634f3d0d04912 s390/vmur: generate uevent on unsolicited device end
 
---===============9213854975378223430==--
+--===============5832423454106066811==--
