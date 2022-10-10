@@ -1,24 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/devel/pahole/pahole
-Date: Mon, 10 Oct 2022 20:16:44 -0000
-Message-Id: <166543300441.5271.12478467722932544493@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs-tools
+Date: Mon, 10 Oct 2022 20:17:35 -0000
+Message-Id: <166543305589.5623.16832365468314874447@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/devel/pahole/pahole
-user: acme
+repo: pub/scm/linux/kernel/git/jaegeuk/f2fs-tools
+user: jaegeuk
 changes:
-  - ref: refs/heads/tmp.master
-    old: b1f41c252771a2ab5c04927fbd7a7aaa39e49575
-    new: 8c3824d6cae2c41c8e4753b16950e7421d6118f1
+  - ref: refs/heads/dev
+    old: 5a5e419d51d7f7a3019a903a4b3f9b8d6e2a872a
+    new: 2a699a80fb0d321c26d067a608d24b729c58bd58
     log: |
-         cf27a2b805f213561351fe15217717b0b2565f19 core: Print more info on tag__assert_search_result()
-         56bcfa9135312ffea09ba5e948b81fa76eb76d39 fprintf: Emit "_Atomic" modifiers for DW_TAG_atomic_type
-         121a46a026afac197652cb8a4cdf2d3879d7f587 btf_encoder: Store the CU being processed to avoid changing many functions
-         75e0fe28bb02036dd404eec53dc3b71b55684ed1 core: Add DW_TAG_unspecified_type to tag__is_tag_type() set
-         cffe5e1f75e1612e1ffd8da5fab30e0230fbcdd4 core: Record if a CU has a DW_TAG_unspecified_type
-         8c3824d6cae2c41c8e4753b16950e7421d6118f1 btf_encoder: Encode DW_TAG_unspecified_type returning routines as void
+         8e85e49e42c79b2e96da539ef937d0ee54980bd8 f2fs-tools: support F2FS_IOC_START_ATOMIC_REPLACE
+         5f4ba9ebfd3050e5fde898158fbff39f8b9d2931 fsck.f2fs: fix __end_block_addr()
+         541f655b761d62d8a3ed9a4997de667b11a85fad mkfs.f2fs: update allocation policy for ro feature
+         6c8eb9f34f7bb047a67cf04c34842d0854e63830 fsck.f2fs: export valid image size
+         c5f8a10ef6b6127aa73617b1ea3d02a06321dee1 fsck.f2fs: trigger repairing if filesystem was forced to stop
+         2a699a80fb0d321c26d067a608d24b729c58bd58 fsck.f2fs: trigger repairing if filesystem has inconsistent errors
          
