@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2006075948969506700=="
+Content-Type: multipart/mixed; boundary="===============1064544678857668842=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Mon, 10 Oct 2022 07:02:48 -0000
-Message-Id: <166538536866.18101.17719260440988189816@gitolite.kernel.org>
+Date: Mon, 10 Oct 2022 07:02:51 -0000
+Message-Id: <166538537184.18193.17707844447011072941@gitolite.kernel.org>
 
---===============2006075948969506700==
+--===============1064544678857668842==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,84 +16,95 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.15.y
-    old: d4be59aacdf031902e4f26bb831bb743fe58aea8
-    new: ebe70cd7f54131bf594f842a69d363a9e2812d67
-    log: revlist-d4be59aacdf0-ebe70cd7f541.txt
+  - ref: refs/heads/linux-5.19.y
+    old: 30c780ac0f9fc09160790cf58f07ef3b92097ceb
+    new: 2e79dbde2710b3939943c5d2ea3028329b820e9f
+    log: revlist-30c780ac0f9f-2e79dbde2710.txt
 
---===============2006075948969506700==
+--===============1064544678857668842==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1665385413 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1665385416 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1665385367-557c53a3ca046ec490595deba23d32a49a638e9a
+nonce 1665385369-1b43d2f6f34e1aca4d1677ecf8daeb1a5014351c
 
-d4be59aacdf031902e4f26bb831bb743fe58aea8 ebe70cd7f54131bf594f842a69d363a9e2812d67 refs/heads/linux-5.15.y
+30c780ac0f9fc09160790cf58f07ef3b92097ceb 2e79dbde2710b3939943c5d2ea3028329b820e9f refs/heads/linux-5.19.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmNDw8UbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+YEgP/3El/DITOTJiRcTJa8yn
-2ZlisWtBRc5RDpS9jGIv+/cV6fgcD6NNTRs6Zxae5mFsQrEjIGYgdd1UObYm9ASy
-DGaE7lYmsNKE2R84YJ1bggKn4nw1INYImE54+koAjByz/mt5/T4VCfQyMa0kG32/
-zc6yuL79RXclR9fV20jbuieiRHia0Cw4xjvYsXJ2CoobxNbufC/s9y0XjO71CnvD
-espStpy+d3yqpTrJjzSUBT3Y/WRZhZRRs1IZWlyrp37IKu17iq3BZBNprJW+xUwz
-YTXvnHVAkAbnaQnRu3q7NBoZPeZM/hEPG3YSpTB4XZIkLEoAignePlwknZYxf9bC
-nnNJwnAdV0ceCxljaveFXGFaRx8WS7rLUtxJh5OAyhnaD0wjuP6uTnefR1+Nag5a
-OpllRUWTZhdBsDyf8s92fsFhvYMBvMsE0Zg2U+S8DiWMvqLdsLj95PnJ/fIy1eLf
-MfRvovQ+01SUb0OlqZs1iOeE4oNnUgZzz0AtGzhQvnT28TbLy+eFiQsjSgrNjmLT
-nT2zpSkKrP04J15b8+2B/UpH56PsFVRSlSmnXl3vuRv5TUsCm+ZBtcIRLp3eGQdt
-FjrrKJyV3o5VH2t0KYZYD+Vs/D4mjbPX2h4E7gsmbCOZvHhBWeau1ztNn8Le/13q
-ovgL/KlrDPDV6oYC5Thkmx/1
-=7WFK
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmNDw8gbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+NX0QAK2tGFCWNH34xK6fuFer
+7mJGZwnnbOto+he9vQzPTW0Ne3PWNSpXTllk2JD+vl7rHMsQ9jDUYklBWAgByIAP
+N5/76Lc6nl8gvTp7LqLlV4cWyhZYSMVGmoIgvuhUU6NtTh9AtHxRDhMYGU+LOezn
+QEdVVVSTzwUF/jiZ2+TRDu5KQyKxlbjJbvDqnj99itdNs8Fr+dc6Zx7eEMNupr92
++rz53xrw6BZDvpKeO4GGZioKOYxumoyG7pxEhorx3/elNmKYulFpBevKc3Kes2pO
+lxAcOMXXx2Y8HaaDd+v4yBieZ3nnsq5ezTqpWU82TFti8UY0UdbQnsWir5xPURF1
+zUTv5jU/yQ4EOOWzk6GFTfrl1DoHoSG5seG5F8HoRNun4t0uOysQphZO6EUDJnDJ
+ZpURAWF2PQ+GKTG01qGTBdXa7Lu6dDdNRu7uRlXr0Yv+l4clLkLpU424d4CQm0mE
+laE7I5VkiDL9DIqnEi8sfNou1Qf/c0JCI3vskX+dskODyKUUYtRaFbqt5Rd3vMmr
+AYgDUQOPlpZVWM/Ikc5E5E6a1IR1KMu4gjeLWk9CkdRNZ0PfT0694qI3t7MCiDIb
+OyRlwAMsDDRW67lTeG/hGP0zboeBWGS9bFDaPV8HXY7dv6Q561dWjG55IifsmZpF
+QkvMBxjGDagLJHpAi1QG8jjt
+=5jU7
 -----END PGP SIGNATURE-----
 
---===============2006075948969506700==
+--===============1064544678857668842==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d4be59aacdf0-ebe70cd7f541.txt
+Content-Disposition: attachment; filename=revlist-30c780ac0f9f-2e79dbde2710.txt
 
-0a789a93e51aedb09c6c067dccf8092c78766f6e Makefile.extrawarn: Move -Wcast-function-type-strict to W=1
-a11afe101358d445230a4335bf823eb2554f8eab docs: update mediator information in CoC docs
-e58bb2fb5591adf4783d803fecf2fc27e67a7036 xsk: Inherit need_wakeup flag for shared sockets
-ccf986eed3a9d976f9bae5493fb6a946a2afac23 mm: gup: fix the fast GUP race against THP collapse
-46a93a9d31148b84fed20d031e90879452de3483 powerpc/64s/radix: don't need to broadcast IPI for radix pmd collapse flush
-202e85653f7e159b1a6ed46db9561f68a01aae8a wait_on_bit: add an acquire memory barrier
-a51fde2ab637f4338c2811c44e5a9f0c92cac54e provide arch_test_bit_acquire for architectures that define test_bit
-f260260ee4388e31e70c834cdbcaaf6b72565da2 fs: fix UAF/GPF bug in nilfs_mdt_destroy
-072788fe7b1a2adcab5fd26952fe842b7df0157a firmware: arm_scmi: Improve checks in the info_get operations
-29dddd4077ad3300bff846fb6d4d1dcffd0d9364 firmware: arm_scmi: Harden accesses to the sensor domains
-2aa5cde7dd85bc7a4e10c91a40f0658cde107256 firmware: arm_scmi: Add SCMI PM driver remove routine
-1be7ad828eecbbb7e572d8a5718f81cf1b46dbad dmaengine: xilinx_dma: Fix devm_platform_ioremap_resource error handling
-862caa519df27d3b9ca88f4789b631a44662d17e dmaengine: xilinx_dma: cleanup for fetching xlnx,num-fstores property
-e2617e826a8241beaa3788eb4822056fe69ceb40 dmaengine: xilinx_dma: Report error in case of dma_set_mask_and_coherent API failure
-9b4f39e34e8c18f94ab807d3d3f973bd1f5d9755 ARM: dts: fix Moxa SDIO 'compatible', remove 'sdhci' misnomer
-14b37530247b70f7ff4c56238510ed6f31638bc8 scsi: qedf: Fix a UAF bug in __qedf_probe()
-58301c199ab3640a57bcde287b936a512f3fdab1 net/ieee802154: fix uninit value bug in dgram_sendmsg
-b0ba006cb26ebf21d1f73e10a9d3defb4550d7ca net: marvell: prestera: add support for for Aldrin2
-679deb6b0b5ad0a9dd6d61520ad135c3490b1a60 ALSA: hda/hdmi: Fix the converter reuse for the silent stream
-59b7b6676c438aab19fba524bfcc9ced50c894bf um: Cleanup syscall_handler_t cast in syscalls_32.h
-9a89fc54b38ddfe93ad976b527be2e187672c474 um: Cleanup compiler warning in arch/x86/um/tls_32.c
-677fc1688ff371bd799a70f5ad16db808673576f arch: um: Mark the stack non-executable to fix a binutils warning
-a7e2d8e2243101a0e507cf0cbb277db7c226c7b9 net: atlantic: fix potential memory leak in aq_ndev_close()
-2d9ea696fe3d6ae655f749545aafb350a59bebaa drm/amd/display: Fix double cursor on non-video RGB MPO
-b977d267bc2a24cc3e34f991fb87dd9e9b81e2f3 drm/amd/display: Assume an LTTPR is always present on fixed_vs links
-4b868d996a0351f7fc5126eadea77fdd447fd60e drm/amd/display: update gamut remap if plane has changed
-934df9cb463b245c873fb5ad6c035f9461496f0c drm/amd/display: skip audio setup when audio stream is enabled
-67256469451e90c56c8363d90385cb00d4e05691 mmc: core: Replace with already defined values for readability
-b57452004467bd83fb6bab519068e0e88151583f mmc: core: Terminate infinite loop in SD-UHS voltage switch
-8daaf821efc204606ce8e5405e74e1f74fcdbabc perf parse-events: Identify broken modifiers
-af5557dd81603c2457d1b5873bcda90b6045d4d4 mm/huge_memory: minor cleanup for split_huge_pages_all
-541c21c45219646def599dca30854f3cad1376cf mm/huge_memory: use pfn_to_online_page() in split_huge_pages_all()
-4e90f47caf005e341d772e79a7c6e6aaba774f7e wifi: cfg80211: fix MCS divisor value
-8c93d6d55461f9310dab1353e1b08d13bafd7275 net/mlx5: Disable irq when locking lag_lock
-0352b2fb684820ab1dcecf3de2f1a34685261082 usb: mon: make mmapped memory read only
-aa0a45f6e91b35866acc4f2d5b5fcdd376e01eb4 USB: serial: ftdi_sio: fix 300 bps rate for SIO
-be31caca382c635c4968cb3d3b6d21eb7a32f0ac rpmsg: qcom: glink: replace strncpy() with strscpy_pad()
-ebe70cd7f54131bf594f842a69d363a9e2812d67 Linux 5.15.73-rc1
+d668531fb53a8dfcf450aa73643bf925e89edc72 sparc: Unbreak the build
+ef610953a11b6a74b5b53e81a759cea9fb9b6efc Makefile.extrawarn: Move -Wcast-function-type-strict to W=1
+026965dc05cf689050a2d610a49b568714bbaeab hardening: Remove Clang's enable flag for -ftrivial-auto-var-init=zero
+89aa9f04e63fa6beb4807b90c423c95d1b356a05 docs: update mediator information in CoC docs
+3b6b951c45d04f4f97d94ee03df69bdc59784ede xsk: Inherit need_wakeup flag for shared sockets
+f662836fc79ddc686e37eab85006b1872207a0a8 wait_on_bit: add an acquire memory barrier
+fbd92139930ff9f7f8d0238cf5461cb36e734765 provide arch_test_bit_acquire for architectures that define test_bit
+5ee84440295f15bdc8e12420b1f60868c91fd985 fs: fix UAF/GPF bug in nilfs_mdt_destroy
+ed95c142c76437d6e74eb39bde40a58185dc0265 firmware: arm_scmi: Improve checks in the info_get operations
+1e9d5a14b32a8b911ae03ce89e5e3a725a696723 firmware: arm_scmi: Harden accesses to the sensor domains
+2a651ebc68cf6f89711d0974855d2fb0314e9ae8 firmware: arm_scmi: Add SCMI PM driver remove routine
+6c57f6a1dda7cea593bd337043e64eb421d60c2c arm64: dts: rockchip: fix upper usb port on BPI-R2-Pro
+d5af6ebe550acfae4ac96a0b07ea9390ee9bebc8 dmaengine: xilinx_dma: Fix devm_platform_ioremap_resource error handling
+f52cb11e9609d13af53226841c2c991c43ac3575 dmaengine: xilinx_dma: cleanup for fetching xlnx,num-fstores property
+b45394d8d68de5c85497eb1d85f1c91a6adcbfed dmaengine: xilinx_dma: Report error in case of dma_set_mask_and_coherent API failure
+c7a8de42aba624ed2748c9a811d08c2aae957119 wifi: iwlwifi: don't spam logs with NSS>2 messages
+6e8c61adaba6d400add7a2915f8ff686def7f665 ARM: dts: fix Moxa SDIO 'compatible', remove 'sdhci' misnomer
+5f967bd39fabbb643ff0d727ac3c448e62a8a555 drm/amdgpu/mes: zero the sdma_hqd_mask of 2nd SDMA engine for SDMA 6.0.1
+919b2d2d53117fe7c62404d90957304a8d5d9644 scsi: qedf: Fix a UAF bug in __qedf_probe()
+4eaed9f7bb0cc7abdf53bca776374b2e2c93f3c5 net/ieee802154: fix uninit value bug in dgram_sendmsg
+ccf804724029af9b46bad3f0899f1c47306b8cf4 net: marvell: prestera: add support for for Aldrin2
+54af2e511ea1ad410611d80013d743f5e38ca3fa ALSA: hda/hdmi: Fix the converter reuse for the silent stream
+7e5ca0f0cf4d01e243207264e184e037b3b29810 um: Cleanup syscall_handler_t cast in syscalls_32.h
+d83133be15649d3d268f261ba206ce33a32dc778 um: Cleanup compiler warning in arch/x86/um/tls_32.c
+bd2c3edc72b04a295b84f453d1fe19cd33e9c350 gpio: ftgpio010: Make irqchip immutable
+02aa2a432664d4d21a61aca203a3367c3ad83a5d arch: um: Mark the stack non-executable to fix a binutils warning
+f49849aa1becbf2f22d5fac96a03da92e4c3ec23 net: atlantic: fix potential memory leak in aq_ndev_close()
+d2ae756ac6b4fceadc7ecd64b00efe1d9d195abc KVM: s390: Pass initialized arg even if unused
+7fd3a251870cc56a2f0f70f63d4b585d3c11b861 drm/amd/display: Fix double cursor on non-video RGB MPO
+6a75e969cd8f582b0acf5ec14a1347a19999283f drm/amd/display: Assume an LTTPR is always present on fixed_vs links
+72647e23ab0dbb45c12c06c0ae0d3b1448b25b4c drm/amd/display: update gamut remap if plane has changed
+a61f3a9f02764ea5de0623b5c850adb6b58dc60e drm/amd/display: skip audio setup when audio stream is enabled
+99a92b9ab2f9a831cc20ecc0d3e548cc0c62e6ac drm/amd/display: Fix DP MST timeslot issue when fallback happened
+e60095db26997e18427f1ad79c5c60a315ce811c drm/amd/display: increase dcn315 pstate change latency
+edfd655118e3d43d1e92116bce78e92eaf07a23b perf/x86/intel: Fix unchecked MSR access error for Alder Lake N
+b49edf7e342dbd67ceac77a85cd7e2e260aa1117 don't use __kernel_write() on kmap_local_page()
+75df93282207d1c31808168f6a8d6db1e9f47091 i2c: davinci: fix PM disable depth imbalance in davinci_i2c_probe
+c7b207389495c34ae7016a99b492097da6789b43 usb: mon: make mmapped memory read only
+bb93f4388490d4fb3a45d9a1bfdf82673469ca72 USB: serial: ftdi_sio: fix 300 bps rate for SIO
+e55b4de37d16d2917d5fc53dedceb1f76e10208b gpiolib: acpi: Add support to ignore programming an interrupt
+eb533ce51796263d2ce973116a5219b9db6c0a05 gpiolib: acpi: Add a quirk for Asus UM325UAZ
+bbfdbaa912990edcfb77576f06eca5627faa6595 mmc: core: Replace with already defined values for readability
+e2357111789e02b3d97e81b34a6030b1759dfc9a mmc: core: Terminate infinite loop in SD-UHS voltage switch
+48069a6cb93d68d6bec675ca67391284a8534658 rpmsg: qcom: glink: replace strncpy() with strscpy_pad()
+99bce2d7d5f0325a2dea29d1e48759d868f6e631 bpf: Gate dynptr API behind CAP_BPF
+cd70215bc9680db946a7b9f47bd7ea42838e7c1a net: ethernet: mtk_eth_soc: fix state in __mtk_foe_entry_clear
+b50447c7f9452aed23b80f35dddb810bc74866ae bpf: Fix resetting logic for unreferenced kptrs
+303bcc11b76473b6bbbd38ae54e6e87231a9d9ad Bluetooth: use hdev->workqueue when queuing hdev->{cmd,ncmd}_timer works
+2e79dbde2710b3939943c5d2ea3028329b820e9f Linux 5.19.15-rc1
 
---===============2006075948969506700==--
+--===============1064544678857668842==--
