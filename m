@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/network/ethtool/ethtool
-Date: Mon, 10 Oct 2022 18:06:13 -0000
-Message-Id: <166542517356.9795.9403216509992802135@gitolite.kernel.org>
+Date: Mon, 10 Oct 2022 18:06:23 -0000
+Message-Id: <166542518370.9964.18343711548311216494@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,10 +11,6 @@ service: git-receive-pack
 repo: pub/scm/network/ethtool/ethtool
 user: mkubecek
 changes:
-  - ref: refs/heads/master
-    old: d6b83759d0b8236a5ac29507539502864e790624
-    new: 4308959717a5042636e68302407f32543bb0c7f5
-    log: |
-         68dd99b4bec12cfef25abcbe390a935e97862599 update UAPI header copies
-         4308959717a5042636e68302407f32543bb0c7f5 Release version 6.0.
-         
+  - ref: refs/tags/v6.0
+    old: 0000000000000000000000000000000000000000
+    new: 8e42eb9cd23e575e68910ba1b391d9b89ce68c3f
