@@ -1,56 +1,47 @@
-Content-Type: multipart/mixed; boundary="===============6292959076070495021=="
+Content-Type: multipart/mixed; boundary="===============6696464721389630409=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Tue, 11 Oct 2022 18:36:32 -0000
-Message-Id: <166551339259.25746.9523667330532451672@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Tue, 11 Oct 2022 18:37:29 -0000
+Message-Id: <166551344942.26167.10946131126170162468@gitolite.kernel.org>
 
---===============6292959076070495021==
+--===============6696464721389630409==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
+user: tnguy
 changes:
   - ref: refs/heads/master
-    old: 814204498290deafb515a6be9983c7c3d217674b
-    new: 7a7f6bddc7497bb2328fec82b049731ed58a0293
-    log: |
-         7a7f6bddc7497bb2328fec82b049731ed58a0293 4.14-stable patches
-         
+    old: aabf6155dfb83262ef9a10af4bef945e7aba9b8e
+    new: 0cf3cae9697bddeeab3eb84b8cabae13c656fbb6
+    log: revlist-aabf6155dfb8-0cf3cae9697b.txt
 
---===============6292959076070495021==
+--===============6696464721389630409==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-aabf6155dfb8-0cf3cae9697b.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1665513438 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1665513391-0890b50f5b4b31d4ccdf78ade02202d9a0715559
+175302f6b79ebbb207c2d58d6d3e679465de23b0 mISDN: hfcpci: Fix use-after-free bug in hfcpci_softirq
+b64085b00044bdf3cd1c9825e9ef5b2e0feae91a macvlan: enforce a consistent minimal mtu
+897fab7a726aa461ad0dcda7c345d5261bb6a0ca octeontx2-pf: mcs: fix missing unlock in some error paths
+557f050166e523ce86018d7a43e7d543d9598b3d net: dsa: fix wrong pointer passed to PTR_ERR() in dsa_port_phylink_create()
+b2cf5d902ec1a7560f20945ddd2b0de82eff7cf3 octeontx2-af: cn10k: mcs: Fix error return code in mcs_register_interrupts()
+84cdf5bcbdce1622eeb6c857f8a7e383de1074a9 ] ptp: ocp: remove symlink for second GNSS
+af7d23f9d96a3e9647cff8619a6860d73b109b5f octeontx2-pf: mcs: fix possible memory leak in otx2_probe()
+32391e646a71fc4cca4a74740bf401423d7a926d net: prestera: span: do not unbind things things that were never bound
+a390e03401e908ebfecdab0c53b70ff512f11d71 net: systemport: Enable all RX descriptors for SYSTEMPORT Lite
+5b4c189d660a9b8a852f0863360eb40a100226fc net: sfp: fill also 5gbase-r and 25gbase-r modes in sfp_parse_support()
+b15e2e49bfc4965d86b9bc4a8426d53ec90a7192 nfp: flower: fix incorrect struct type in GRE key_size
+1499ecaea9d2ba68d5e18d80573b4561a8dc4ee7 can: kvaser_usb_leaf: Fix overread with an invalid command
+cd7f30e174d09a02ca2afa5ef093fb0f0352e0d8 can: kvaser_usb: Fix use of uninitialized completion
+455561fb618fde40558776b5b8435f9420f335db can: kvaser_usb_leaf: Fix TX queue out of sync after restart
+0be1a655fe68c8e6dcadbcbddb69cf2fb29881f5 can: kvaser_usb_leaf: Fix CAN state after restart
+8183602b8cbc4d865068c6c5705228760d30b003 Merge patch series "can: kvaser_usb: Various fixes"
+0cf3cae9697bddeeab3eb84b8cabae13c656fbb6 Merge tag 'linux-can-fixes-for-6.1-20221011' of git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can
 
-814204498290deafb515a6be9983c7c3d217674b 7a7f6bddc7497bb2328fec82b049731ed58a0293 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmNFt94bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+NKAP/j7Eb1lAX89ZudFV0yQl
-mbM2kdlqNASBi9AWm0J16TWoyr4UqyM5IobU8E6YhatDsSiWfGlOCp1ReGogZqew
-3Hn8Mie+W8QhRrFb0HgAWK2TLlZL8eGJH6AFn8cYyD579Nd8X2sieuvsnW+GBkz0
-kDkjBVoMvJMSh2szcxiOiYyFP+6uVL1NdRYFbxDccTb0MY53BM7rBxG3g/4QL5cC
-Z2UqzQ0P+2zrZjC0LpciE3D48BRPDvKlnQfwrEVa0xmSulv0PNvqFONsdDNqMClP
-zLznYp3Dz+Wk0JTtApXMfshq3gKz+faPI5G+P9hnLiy1pFABard3OHqvQCSMAkvO
-idThgmzGwbmh8XA8gAPWQQ1ceaJ6JZdYYvutLTEwVru6CNaZ/2DfQrRhaG0qU40g
-lVHaruoTWaGeW5+JnMKFgQJ8fG0z9O8J/rmmO6j0GhHTY4u/nntouemrChKJERe1
-e3iXa66Q+cYY2pO8pBk3vwGGToyX/jWHJDLClNODZrAyA30Tu5/x0tdNEfmSNwl+
-tv5df7vnS/9ZRIvA+KgRcL050YdKgf/JUXAPMm4fwedLiMZmbaDqGmSjq3qscxEm
-gMEP+dOM6T0lBADRbLnBe46juy6RKRbsx5yA0dCAVSXzRUr/XcdTiCPnS5u9y9aY
-cGlR/8b8/oCwDDES0IvEQfEq
-=rpAa
------END PGP SIGNATURE-----
-
---===============6292959076070495021==--
+--===============6696464721389630409==--
