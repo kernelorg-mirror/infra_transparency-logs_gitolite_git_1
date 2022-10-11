@@ -1,73 +1,54 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rppt/memblock
-Date: Tue, 11 Oct 2022 10:31:28 -0000
-Message-Id: <166548428885.9967.763512219358261779@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============3781536088537701675=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
+Date: Tue, 11 Oct 2022 11:27:44 -0000
+Message-Id: <166548766461.16465.2269734221021466700@gitolite.kernel.org>
+
+--===============3781536088537701675==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rppt/memblock
-user: rppt
+repo: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
+user: chenhuacai
 changes:
-  - ref: refs/tags/memblock-v6.1-rc1
-    old: 0000000000000000000000000000000000000000
-    new: d543d793b414dba6da77b6b20170d4fee32ab216
-  - ref: refs/tags/v5.18
-    old: 0000000000000000000000000000000000000000
-    new: 99cd00206e418c5fb0e9bd885ded84b8781194b7
-  - ref: refs/tags/v5.18-rc7
-    old: 0000000000000000000000000000000000000000
-    new: 56606d65a50beb4b7e3bbffcf5da88d7cdd5a038
-  - ref: refs/tags/v5.19
-    old: 0000000000000000000000000000000000000000
-    new: 2c1ad8d25ec27ecee5910b62b26b93074091a3e4
-  - ref: refs/tags/v5.19-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 15fd1bd1e8b4c33f1f249d02d15aa043df52271c
-  - ref: refs/tags/v5.19-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 91f5f37f5ce4ff7e0ba802f89cadd48b4040514a
-  - ref: refs/tags/v5.19-rc3
-    old: 0000000000000000000000000000000000000000
-    new: afdb472867d4677930236a864496939f496de1b9
-  - ref: refs/tags/v5.19-rc4
-    old: 0000000000000000000000000000000000000000
-    new: b9442c86eac959e20abb900442e6cc31d2d775d4
-  - ref: refs/tags/v5.19-rc5
-    old: 0000000000000000000000000000000000000000
-    new: 2235bc49f8edfaafc6269344aa80e6400931a4af
-  - ref: refs/tags/v5.19-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 8fcdc0ea4cc7ea79a1837f5040f5656f9be98f9f
-  - ref: refs/tags/v5.19-rc7
-    old: 0000000000000000000000000000000000000000
-    new: 99023ab67a130976ddcfb7cfb5ca01358045768f
-  - ref: refs/tags/v5.19-rc8
-    old: 0000000000000000000000000000000000000000
-    new: cb84a9aae2260636f12f10c7f60779eb69e82849
-  - ref: refs/tags/v6.0
-    old: 0000000000000000000000000000000000000000
-    new: 45eb8ae5370d5df1ee8236f45df3f29103ba6e12
-  - ref: refs/tags/v6.0-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 09e4144cab94d10fec58b9296d6fc22a8b42b30a
-  - ref: refs/tags/v6.0-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 59226d37effcc06e431f8d0ab609ddd3003666fe
-  - ref: refs/tags/v6.0-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 035064d655edeefd7ea1aa65dd12bac26ab1b3c3
-  - ref: refs/tags/v6.0-rc4
-    old: 0000000000000000000000000000000000000000
-    new: 96e1a1037aedb9f9596e2af5a6fcaa8053dafe4f
-  - ref: refs/tags/v6.0-rc5
-    old: 0000000000000000000000000000000000000000
-    new: 52868a8b445605ea56831f92b5607ae3183f09bd
-  - ref: refs/tags/v6.0-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 3447cb6c198e59b5b4275ecc6d4400a49b9dbaba
-  - ref: refs/tags/v6.0-rc7
-    old: 0000000000000000000000000000000000000000
-    new: b81e85a3efdc3d610f733fffc6f821f03d8fd490
+  - ref: refs/heads/loongarch-next
+    old: 3d2af8298e140a9335e4ff419b9fddf4561f51f7
+    new: cf4ed45080ca438d26ba4bbd3e009275d1e636d0
+    log: revlist-3d2af8298e14-cf4ed45080ca.txt
+
+--===============3781536088537701675==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-3d2af8298e14-cf4ed45080ca.txt
+
+5f5557a8f584c22ea42445354b76a45952ef0736 LoongArch: Fix cpu name after CPU-hotplug
+128ec26e74e76f7d60d00c570703c0eb5a0c75b6 LoongArch: Do not create sysfs control file for io master CPUs
+c59b16f2bcef03f0257f5b3d096ca9e2bed13fa4 LoongArch: Mark __xchg() and __cmpxchg() as __always_inline
+8364c82a5c855c227fef09eae1047061575d6a14 LoongArch: Kconfig: Fix spelling mistake "delibrately" -> "deliberately"
+7ca8dfd10cb301dbefca1656e609c50ade451b70 LoongArch: Add Kconfig option AS_HAS_EXPLICIT_RELOCS
+d94e34a96a96d9ec9594f62bb3cecb975580510f LoongArch: Adjust symbol addressing for AS_HAS_EXPLICIT_RELOCS
+4a25b1587aaf0e63af342b5720269b358fc321c7 LoongArch: Define ELF relocation types added in ABIv2.0
+b58b65e735cf7a2abb57704783e3e668556f0bf5 LoongArch: Support PC-relative relocations in modules
+21958d12afba16e3c9d0b764093217f959adeac5 LoongArch: Support R_LARCH_GOT_PC_{LO12,HI20} in modules
+39b684b50095a1f77b8ce74aa3b8d6901b64eeec LoongArch: mm: Refactor TLB exception handlers
+baff4e5447942f88653d3358ad50156c79b08653 LoongArch: Refactor cache probe and flush methods
+8faefe9eb9f16c3a8f85fa0a39426f96e167696d LoongArch: Support access filter to /dev/mem interface
+cf4d11bf954abf230594d4bf56fd1aebcf6b8b46 LoongArch: Use TLB for ioremap()
+5ebb09cdc3c0682bd44c6337110b58730390ebef LoongArch: Add qspinlock support
+877d59190125b7ce66bdb91e7310abecdda14328 LoongArch: Add perf events support
+4a7d23969cba2e6ff23e3bbf45c5faf26a2364bd LoongArch: Add SysRq-x (TLB Dump) support
+2d50b5e98aba0683e490ff0006d354bdf0ed3adf LoongArch: Use generic BUG() handler
+7155545b2d7f5be3fb845a334127788b1dfa0a7c LoongArch: Add kexec support
+0f5ca46edacda4a181ef3894d40fdedf867d8f5b LoongArch: Add kdump support
+a0b91d1701287730b1b61e971cfd0505a3d8dbae LoongArch: Move {signed,unsigned}_imm_check() to inst.h
+bcd3848a55bc11b696706de63d2674abb4d98739 LoongArch: Add some instruction opcodes and formats
+036b30554811149747f0f1976c5cde4cac24688f LoongArch: Add BPF JIT support
+424295c73f11498def513343af125c03414f155d LoongArch: Add ACPI-based generic laptop driver
+cf4ed45080ca438d26ba4bbd3e009275d1e636d0 LoongArch: Update Loongson-3 default config file
+
+--===============3781536088537701675==--
