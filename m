@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5318702333040975448=="
+Content-Type: multipart/mixed; boundary="===============8727322137675098104=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/crng/random
-Date: Tue, 11 Oct 2022 23:44:41 -0000
-Message-Id: <166553188156.15924.5174272546236303493@gitolite.kernel.org>
+Date: Tue, 11 Oct 2022 23:49:44 -0000
+Message-Id: <166553218448.19316.2517844035718980957@gitolite.kernel.org>
 
---===============5318702333040975448==
+--===============8727322137675098104==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,21 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/crng/random
 user: zx2c4
 changes:
-  - ref: refs/heads/master
-    old: 9a32d8a2039e763a5fec6e3c30a669769f6fbc58
-    new: de492c83cae0af72de370b9404aacda93dafcad5
-    log: revlist-9a32d8a2039e-de492c83cae0.txt
+  - ref: refs/heads/jd/get_random_u32_below
+    old: f1f00e27dc1cf53b4dff36cfaa61b44184b2b505
+    new: e090a62118dd191334ef6869be5bd5ae5cd9168a
+    log: revlist-f1f00e27dc1c-e090a62118dd.txt
 
---===============5318702333040975448==
+--===============8727322137675098104==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-9a32d8a2039e-de492c83cae0.txt
+Content-Disposition: attachment; filename=revlist-f1f00e27dc1c-e090a62118dd.txt
 
-c3b6eed31f441129aee1cd8e59fd20ba2842f3c9 cifs: misc: fix spelling typo in comment
-d7752a6c60c2de889425e27912e3fa96ba5626b2 MAINTAINERS: Add Tom Talpey as cifs.ko reviewer
-09a1f9a168ae1f69f701689429871793174417d2 cifs: return correct error in ->calc_signature()
-bb44c31cdcac107344dd2fcc3bd0504a53575c51 cifs: destage dirty pages before re-reading them for cache=none
 750321ace9107e103f254bf46900629ff347eb7b m68knommu: fix non-specific 68328 choice interrupt build failure
 18011e50c497f04a57a8e00122906f04922b30b4 m68knommu: fix non-mmu classic 68000 legacy timer tick selection
 053bab4c220be7749b7d7e101d9d172f3991b21a iommu/amd: Free domain id in error path
@@ -1050,5 +1046,9 @@ f743f16c548b1a2633e8b6034058d6475d7f26a3 treewide: use get_random_{u8,u16}() whe
 a251c17aa558d8e3128a528af5cf8b9d7caae4fd treewide: use get_random_u32() when possible
 197173db990cad244221ba73c43b1df6170ae278 treewide: use get_random_bytes() when possible
 de492c83cae0af72de370b9404aacda93dafcad5 prandom: remove unused functions
+8a1a93486453230b8bad39ada6d71c5d46d840c2 random: use rejection sampling for uniform bounded random integers
+9c3386b8ec884b5061015ff76fd430dfd1a157a4 ext4: use get_random_u32_below() for more efficient selection
+bcfe92c70ea0ec37c7e386863c7956bbb8254ef0 treewide: use get_random_u32_below() instead of deprecated function
+e090a62118dd191334ef6869be5bd5ae5cd9168a prandom: remove prandom_u32_max()
 
---===============5318702333040975448==--
+--===============8727322137675098104==--
