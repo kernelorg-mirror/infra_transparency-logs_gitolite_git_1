@@ -1,32 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Tue, 11 Oct 2022 05:49:05 -0000
-Message-Id: <166546734514.23377.12192811821498204302@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Tue, 11 Oct 2022 06:01:57 -0000
+Message-Id: <166546811761.1549.6988758312555682577@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
-  - ref: refs/heads/for-linus
-    old: 2ea8e1297801f7b0220ebf6ae61a5b74ca83981e
-    new: 4f2e56a59b9947b3e698d3cabcb858765c12b1e8
-    log: |
-         4f2e56a59b9947b3e698d3cabcb858765c12b1e8 ALSA: hda/realtek: Add Intel Reference SSID to support headset keys
-         
-  - ref: refs/heads/for-next
-    old: 2ea8e1297801f7b0220ebf6ae61a5b74ca83981e
-    new: 4f2e56a59b9947b3e698d3cabcb858765c12b1e8
-    log: |
-         4f2e56a59b9947b3e698d3cabcb858765c12b1e8 ALSA: hda/realtek: Add Intel Reference SSID to support headset keys
-         
   - ref: refs/heads/master
-    old: 5f208d681ebfbe2724ac68f7358b6a9efd851a15
-    new: 85f4dbe77360ad873ce034efafd5f9bcad843a9c
+    old: d33f65e61d0f482a01d7084ab47a8bb64e20ecea
+    new: f91a9ebb23c35b0f5dd8edca1e04ac6d57c3f9a8
     log: |
-         4f2e56a59b9947b3e698d3cabcb858765c12b1e8 ALSA: hda/realtek: Add Intel Reference SSID to support headset keys
-         85f4dbe77360ad873ce034efafd5f9bcad843a9c Merge branch 'for-linus'
+         f91a9ebb23c35b0f5dd8edca1e04ac6d57c3f9a8 Tue Oct 11 05:59:35 AM UTC 2022
          
