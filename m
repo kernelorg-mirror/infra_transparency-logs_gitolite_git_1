@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-Date: Tue, 11 Oct 2022 19:32:24 -0000
-Message-Id: <166551674466.1144.11520186452555515395@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Tue, 11 Oct 2022 19:35:32 -0000
+Message-Id: <166551693252.3896.5154023204856524435@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-user: vudentz
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
+user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: 8549542298e92bbf78f8139779e87a829b00eb02
-    new: ff8b0d72e8c236a03757e9ec01bd5969988a131a
+  - ref: refs/heads/dev-queue
+    old: 79438fff3c835c88c9f71af8b071c20a1ab20260
+    new: 3b86549f761b155e3c1acb8fdddcf8678606a7c7
     log: |
-         64b5c4c8e79c131fe8f135bab5e5dfaa245c5776 Bluetooth: hci_sync: cancel cmd_timer if hci_open failed
-         ff8b0d72e8c236a03757e9ec01bd5969988a131a Bluetooth: virtio_bt: fix device removal
+         3b00c8eeb6710707145cd499f93b3c43128393c2 ice: Fix spurious interrupt during removal of trusted VF
+         3b86549f761b155e3c1acb8fdddcf8678606a7c7 i40e: Fix DMA mappings leak
          
