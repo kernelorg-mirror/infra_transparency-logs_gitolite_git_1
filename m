@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6696464721389630409=="
+Content-Type: multipart/mixed; boundary="===============6313692473662921416=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Tue, 11 Oct 2022 18:37:29 -0000
-Message-Id: <166551344942.26167.10946131126170162468@gitolite.kernel.org>
+Date: Tue, 11 Oct 2022 18:37:33 -0000
+Message-Id: <166551345389.26260.2506872656174666716@gitolite.kernel.org>
 
---===============6696464721389630409==
+--===============6313692473662921416==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: aabf6155dfb83262ef9a10af4bef945e7aba9b8e
-    new: 0cf3cae9697bddeeab3eb84b8cabae13c656fbb6
-    log: revlist-aabf6155dfb8-0cf3cae9697b.txt
+  - ref: refs/heads/dev-queue
+    old: 90f107e4f83b51cab7ba39ed1bbac422de512859
+    new: 79438fff3c835c88c9f71af8b071c20a1ab20260
+    log: revlist-90f107e4f83b-79438fff3c83.txt
 
---===============6696464721389630409==
+--===============6313692473662921416==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-aabf6155dfb8-0cf3cae9697b.txt
+Content-Disposition: attachment; filename=revlist-90f107e4f83b-79438fff3c83.txt
 
 175302f6b79ebbb207c2d58d6d3e679465de23b0 mISDN: hfcpci: Fix use-after-free bug in hfcpci_softirq
 b64085b00044bdf3cd1c9825e9ef5b2e0feae91a macvlan: enforce a consistent minimal mtu
@@ -43,5 +43,8 @@ cd7f30e174d09a02ca2afa5ef093fb0f0352e0d8 can: kvaser_usb: Fix use of uninitializ
 0be1a655fe68c8e6dcadbcbddb69cf2fb29881f5 can: kvaser_usb_leaf: Fix CAN state after restart
 8183602b8cbc4d865068c6c5705228760d30b003 Merge patch series "can: kvaser_usb: Various fixes"
 0cf3cae9697bddeeab3eb84b8cabae13c656fbb6 Merge tag 'linux-can-fixes-for-6.1-20221011' of git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can
+dda1d62aeeac6abdb299abeac7f8db119384b9f4 i40e: Fix ethtool rx-flow-hash setting for X722
+6dffb107a047d569a2795f0c1ae485a61528846d i40e: Fix VF hang when reset is triggered on another VF
+79438fff3c835c88c9f71af8b071c20a1ab20260 i40e: Fix flow-type by setting GL_HASH_INSET registers
 
---===============6696464721389630409==--
+--===============6313692473662921416==--
