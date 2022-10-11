@@ -1,28 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/clk/linux
-Date: Tue, 11 Oct 2022 03:41:56 -0000
-Message-Id: <166545971684.31774.2751541520719675018@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Tue, 11 Oct 2022 03:50:03 -0000
+Message-Id: <166546020343.5392.13062848510210821765@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/clk/linux
-user: sboyd
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/clk-next
-    old: eb2b13270e0e6094d4ef7967e929f71da7a5ccf6
-    new: fcc98bb85501d767add36a31aac96e79102d1206
+  - ref: refs/heads/for-next
+    old: a413a2523727f8f01dd1c98b6abb24c4c651bded
+    new: 7dc30bd26fb3b38c993624454c6d2bcc90edc965
     log: |
-         096f2a0c6469c8a8e70cfbb83345b7ada2929f13 clk: Update req_rate on __clk_recalc_rates()
-         589a2004881f0941ca46146a5de68b3666d1d54a clk: tests: Add tests for notifiers
-         fcc98bb85501d767add36a31aac96e79102d1206 Merge branch 'clk-rate-range' into clk-next
+         01c620cf9e96b1355c87545ed26521deef4aef80 io_uring: local variable rw shadows outer variable in io_write
+         9af3f837a9bf59ede807303831892448eaa2ed0b io_uring: fix fdinfo sqe offsets calculation
+         7dc30bd26fb3b38c993624454c6d2bcc90edc965 Merge branch 'io_uring-6.1' into for-next
          
-  - ref: refs/heads/clk-rate-range
-    old: 433fb8a611ca2a32112668225beabda2302c9634
-    new: 589a2004881f0941ca46146a5de68b3666d1d54a
+  - ref: refs/heads/io_uring-6.1
+    old: 5e7186a0be306ba1a11d1091dcb154e064471c2d
+    new: 9af3f837a9bf59ede807303831892448eaa2ed0b
     log: |
-         096f2a0c6469c8a8e70cfbb83345b7ada2929f13 clk: Update req_rate on __clk_recalc_rates()
-         589a2004881f0941ca46146a5de68b3666d1d54a clk: tests: Add tests for notifiers
+         01c620cf9e96b1355c87545ed26521deef4aef80 io_uring: local variable rw shadows outer variable in io_write
+         9af3f837a9bf59ede807303831892448eaa2ed0b io_uring: fix fdinfo sqe offsets calculation
          
