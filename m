@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/deller/linux-fbdev
-Date: Tue, 11 Oct 2022 20:22:00 -0000
-Message-Id: <166551972052.3225.13591252933570412190@gitolite.kernel.org>
+Subject: post-receive: pub/scm/git/git
+Date: Tue, 11 Oct 2022 20:31:12 -0000
+Message-Id: <166552027210.10862.12463345558458024631@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/deller/linux-fbdev
-user: deller
+repo: pub/scm/git/git
+user: junio
 changes:
-  - ref: refs/heads/for-next
-    old: 0000000000000000000000000000000000000000
-    new: 4fe89d07dcc2804c8b562f6c7896a45643d34b2f
+  - ref: refs/heads/next
+    old: df6567fe121ebc48885f48ac98580ec32c9c880c
+    new: 32076d13b70f5b24fb2e2db92b4a039ca0154cde
+    log: |
+         32076d13b70f5b24fb2e2db92b4a039ca0154cde Merge branch 'ed/fsmonitor-on-networked-macos' into next
+         
