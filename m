@@ -1,27 +1,44 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Wed, 12 Oct 2022 21:49:36 -0000
-Message-Id: <166561137640.22527.8253938395459083365@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============5714104986790901662=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
+Date: Wed, 12 Oct 2022 22:01:24 -0000
+Message-Id: <166561208453.32728.10773438346109919017@gitolite.kernel.org>
+
+--===============5714104986790901662==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
-user: broonie
+repo: pub/scm/linux/kernel/git/palmer/linux
+user: palmer
 changes:
-  - ref: refs/heads/arm64-nmi
-    old: 3e8d854f65261f066b37624d176649be92c13df5
-    new: 9ec80a1a3f4a9a76c31a5820985b342acc08695c
-    log: |
-         07af90de7a8dd2785854fa0ebf1ea6189e684c63 arm64/booting: Document boot requirements for FEAT_NMI
-         955815b6346bcf13a3ef19e1a71718de97bee8d9 arm64/sysreg: Add definition for ICC_NMIAR1_EL1
-         b8c37b20fc30d10857b2677243906cf633f35f3a arm64/sysreg: Add definition of ISR_EL1
-         acad1e565ba0b2619c3cbe9b657bbcb53ed36eb5 arm64/sysreg: Add definitions for immediate versions of MSR ALLINT
-         9601fb02b046d552c519c42cc129f5ddd211ced4 arm64/hyp-stub: Enable access to NMIs
-         c51a845b6882ec8889ecd04c8d1ab41efdfcdca5 arm64/cpufeature: Detect PE support for NMIs
-         91d7df4131e7a61aa5ba06bad25dd2222bd88569 arm64/entry: Manage ALLINT.ALLINT when FEAT_NMI is active
-         74c85c7f045a045cfa28b06990ed36e76ecf2597 arm64/nmi: Add handling of superpriority interrupts as NMIs
-         9ec80a1a3f4a9a76c31a5820985b342acc08695c arm64/nmi: Add Kconfig for NMI
-         
+  - ref: refs/heads/for-next
+    old: 06267eb2decaa6baac81bbd882265a8e7782dba4
+    new: 90e0d94d369d342e735a75174439482119b6c393
+    log: revlist-06267eb2deca-90e0d94d369d.txt
+
+--===============5714104986790901662==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-06267eb2deca-90e0d94d369d.txt
+
+7eac0081a8e958106ed3aea402c8105f30fad6d9 riscv: dts: microchip: add qspi compatible fallback
+a0d49a8f77f26609036a05e7832393b6279554db dt-bindings: riscv: microchip: document icicle reference design
+0ebdc51787dbb8ef8d259daa98b8fd35babf8970 dt-bindings: riscv: microchip: document the aries m100pfsevp
+db3d481698efe8a7a943ecbba9491648c5a49ef3 dt-bindings: riscv: microchip: document the sev kit
+f890e67f292db46c9bd5b5c004ba0f98761d1a33 riscv: dts: microchip: add pci dma ranges for the icicle kit
+99d451a7db1624308bc9eb94b7befb3722f67b10 riscv: dts: microchip: move the mpfs' pci node to -fabric.dtsi
+6fc655ed4986f88b91e3f7b339222fc1c4ffba08 riscv: dts: microchip: icicle: update pci address properties
+ab291621a8b85269496ae9a964b6d49cd1e030c8 riscv: dts: microchip: icicle: re-jig fabric peripheral addresses
+fa52935abef422d119dda3c10c02787a86e6289d riscv: dts: microchip: reduce the fic3 clock rate
+978a17d1a688db025275d282665ab3f39407191d riscv: dts: microchip: add sevkit device tree
+d49166646e44064b694a2e631fcdba4f814746d9 riscv: dts: microchip: add a devicetree for aries' m100pfsevp
+6c1193301791d3fcc0ad9ff3b861a8216e00773b riscv: dts: microchip: update memory configuration for v2022.10
+c210b91818e81068ca2573c20684644b8e110a07 riscv: dts: microchip: fix fabric i2c reg size
+90e0d94d369d342e735a75174439482119b6c393 Merge tag 'dt-for-palmer-v6.1-mw1' of git://git.kernel.org/pub/scm/linux/kernel/git/conor/linux into for-next
+
+--===============5714104986790901662==--
