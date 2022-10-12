@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Wed, 12 Oct 2022 21:19:28 -0000
-Message-Id: <166560956896.31453.4155964419241061357@gitolite.kernel.org>
+Subject: post-receive: pub/scm/bluetooth/bluez
+Date: Wed, 12 Oct 2022 21:22:02 -0000
+Message-Id: <166560972298.3422.17473505772904889007@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/bluetooth/bluez
+user: bgix
 changes:
   - ref: refs/heads/master
-    old: 65f2fa6b1498a8f9a649171c71e4aa8194d66d89
-    new: cbf9a764d63aa2b04ac265a86ff26a59c648eebc
+    old: 9065853fe5c70db2b9ca42fd40b027746e85f56d
+    new: 5f06473908d9e477574c59cb0854eacc38cfcf68
     log: |
-         cbf9a764d63aa2b04ac265a86ff26a59c648eebc foor
+         5f06473908d9e477574c59cb0854eacc38cfcf68 mesh: Keep cancelled SAR data for at least 10 sec
          
