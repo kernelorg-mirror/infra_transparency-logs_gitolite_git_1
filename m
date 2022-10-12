@@ -1,23 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Wed, 12 Oct 2022 12:32:00 -0000
-Message-Id: <166557792025.19396.14201689130802119619@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Wed, 12 Oct 2022 12:58:57 -0000
+Message-Id: <166557953715.5218.9949346714082740245@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: davem
+repo: pub/scm/linux/kernel/git/broonie/misc
+user: broonie
 changes:
-  - ref: refs/heads/master
-    old: 739cfa34518ef3a6789f5f77239073972a387359
-    new: 3a732b46736cd8a29092e4b0b1a9ba83e672bf89
+  - ref: refs/heads/arm64-nmi
+    old: 8b6a6cc79da97321325648088a0d1549e4a30862
+    new: b72fec7b389784a3cd08de18c61c82eebace44ea
     log: |
-         6e31ce831c63bd7aec8ff9cc2a6d50ee8c4d4e04 selftests: netfilter: Test reverse path filtering
-         acc641ab95b66b813c1ce856c377a2bbe71e7f52 netfilter: rpfilter/fib: Populate flowic_l3mdev field
-         6a91e7270936c5a504af7e0a197d7021e169d281 selftests: netfilter: Fix nft_fib.sh for all.rp_filter=1
-         ed5d1f61b4069c8b91a00ac29cfe1cef324e8bc2 Merge branch 'master' of git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
-         3a732b46736cd8a29092e4b0b1a9ba83e672bf89 mctp: prevent double key removal and unref
+         2eac3a7818530de978439650b4ed4e7709393a5a arm64/sysreg: Add definition for ICC_NMIAR1_EL1
+         a78cf3f3a899871a612dff4176f97abe9d14e3c6 arm64/sysreg: Add definition of ISR_EL1
+         622a613af356be0bb1384f4cc7c756da13ee161d arm64/sysreg: Add definitions for immediate versions of MSR ALLINT
+         ad6d5e471f74190488df14b0d3c2d346500a310b arm64/hyp-stub: Enable access to NMIs
+         45c8b277845aa1b58f1c5b376a10bff9bf05f1ed arm64/nmi: Detect PE support for NMIs
+         191c267e04daf12cbd4d78bc5d41aaa00d1bab96 arm64/nmi: Introduce assembly macros for managing all interrupts
+         5eac79dad95b4575524deeddbbfdfac8ffd80f4e arm64/mm: Disable all interrupts while replacing TTBR1
+         4601f237f2b62a6a94397fcf2c8cd322f763db82 arm64/nmi: Allow registration of handlers for superpriority interrupts
+         b72fec7b389784a3cd08de18c61c82eebace44ea arm64/nmi: Add Kconfig for NMI
          
