@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4739425523023823071=="
+Content-Type: multipart/mixed; boundary="===============8058471114631008665=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Wed, 12 Oct 2022 17:11:38 -0000
-Message-Id: <166559469835.20717.15184603534945868263@gitolite.kernel.org>
+Date: Wed, 12 Oct 2022 17:12:22 -0000
+Message-Id: <166559474259.21046.11665995328547470651@gitolite.kernel.org>
 
---===============4739425523023823071==
+--===============8058471114631008665==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/kbuild
+  - ref: refs/heads/for-next
     old: 0715fdb03e2c4f5748d245a231e422602ed29f33
     new: e5f44e4de9fae3e8d16121aa498d38e631899692
     log: revlist-0715fdb03e2c-e5f44e4de9fa.txt
 
---===============4739425523023823071==
+--===============8058471114631008665==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ b47bfd10f1b225204dfe7babcccf5cb7aa0b3ae0 kbuild: add -fno-discard-value-names to
 61168a974a16e3f543c84d6857e37f89cf4989c8 Makefile: add implicit enum-conversion check for compile build
 e5f44e4de9fae3e8d16121aa498d38e631899692 scripts/clang-tools: Convert clang-tidy args to list
 
---===============4739425523023823071==--
+--===============8058471114631008665==--
