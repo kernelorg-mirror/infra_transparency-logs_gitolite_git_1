@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2524298737738628136=="
+Content-Type: multipart/mixed; boundary="===============5167040668046113210=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Wed, 12 Oct 2022 20:38:18 -0000
-Message-Id: <166560709877.3068.14399034659605110658@gitolite.kernel.org>
+Date: Wed, 12 Oct 2022 20:40:55 -0000
+Message-Id: <166560725538.5667.6349995937676268271@gitolite.kernel.org>
 
---===============2524298737738628136==
+--===============5167040668046113210==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,229 +16,226 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: bot-stable-queue
 changes:
   - ref: refs/heads/queue/4.14
-    old: ebaa96530bbc70ec887569ad5b4293a6c2314ede
-    new: b3fee78a72f957795eeed3d2742d305d4a8a73a4
-    log: revlist-ebaa96530bbc-b3fee78a72f9.txt
+    old: b3fee78a72f957795eeed3d2742d305d4a8a73a4
+    new: 16965d10f25db5dcfe144b3b63d12161f913bd11
+    log: revlist-b3fee78a72f9-16965d10f25d.txt
   - ref: refs/heads/queue/4.19
-    old: 522aa51acb9b16f7cb469bc3cbfc223d8135184d
-    new: 33237ec3d47a1b5a35967d377c483f59112155e1
-    log: revlist-522aa51acb9b-33237ec3d47a.txt
+    old: 33237ec3d47a1b5a35967d377c483f59112155e1
+    new: 9909d9958692a64c16dadbceb4bdb3d74bded9ea
+    log: revlist-33237ec3d47a-9909d9958692.txt
   - ref: refs/heads/queue/4.9
-    old: 4f6b38727e86e01fa8629a52c1dee3d7c5db2e34
-    new: 38a54229d9f9ab4e6045bfce0443c68ebcb67270
-    log: revlist-4f6b38727e86-38a54229d9f9.txt
+    old: 38a54229d9f9ab4e6045bfce0443c68ebcb67270
+    new: 13e68ec96f097a0c56fcda921a77a4775fe80711
+    log: revlist-38a54229d9f9-13e68ec96f09.txt
   - ref: refs/heads/queue/5.10
-    old: 3e4866f5a919d794be10de727db43c661f650c64
-    new: 7d95a71302f57cd1981e399ba8ec9462e25aa645
-    log: revlist-3e4866f5a919-7d95a71302f5.txt
+    old: 7d95a71302f57cd1981e399ba8ec9462e25aa645
+    new: 5919b6430dc34a6f6aa53e3b5091f433a6eb8297
+    log: revlist-7d95a71302f5-5919b6430dc3.txt
   - ref: refs/heads/queue/5.15
-    old: e05a7dc25d204cdb6f4506d21c7a70e8fc115b6e
-    new: ee45a2b329e9a8fa2d4253573adb41ce51a5c9e9
+    old: ee45a2b329e9a8fa2d4253573adb41ce51a5c9e9
+    new: 3e267c5d83c3e36ae0160d8cdd8a7bb98eed36ac
     log: |
-         90527e825c28c0daf6989e3ea91667faa6d9d65b nilfs2: fix NULL pointer dereference at nilfs_bmap_lookup_at_level()
-         60357d37277dc7b4a67380ff725aed3089513c59 nilfs2: fix use-after-free bug of struct nilfs_root
-         721f38abfef2f6c0f4932f0604444d5c857a1320 nilfs2: fix leak of nilfs_root in case of writer thread creation failure
-         ee45a2b329e9a8fa2d4253573adb41ce51a5c9e9 nilfs2: replace WARN_ONs by nilfs_error for checkpoint acquisition failure
+         a90b0bc9f88486c5b121420d256cf5701d4267ec nilfs2: fix NULL pointer dereference at nilfs_bmap_lookup_at_level()
+         f447cc0ed1d06d6529e4e9d80c51df7e66dbd4b1 nilfs2: fix use-after-free bug of struct nilfs_root
+         cba67a8c1454c331de01daa5813280aae300a968 nilfs2: fix leak of nilfs_root in case of writer thread creation failure
+         3e267c5d83c3e36ae0160d8cdd8a7bb98eed36ac nilfs2: replace WARN_ONs by nilfs_error for checkpoint acquisition failure
          
   - ref: refs/heads/queue/5.19
-    old: 913e95951f1032f7f08eca0fdad1443bd451985f
-    new: d7c14d9c6b47263283041a57e14a8b8cd73c6ccd
+    old: d7c14d9c6b47263283041a57e14a8b8cd73c6ccd
+    new: 1580615f410567dbe1e7f3125464a1f0a23c1753
     log: |
-         be74167ba370cb591bea78c75ffdf3994b394081 nilfs2: fix NULL pointer dereference at nilfs_bmap_lookup_at_level()
-         737452410e1656576e6fc72010d56c97be3af27f nilfs2: fix use-after-free bug of struct nilfs_root
-         bfb0a1da2137243bb079e4f5f75d6f9174672e74 nilfs2: fix leak of nilfs_root in case of writer thread creation failure
-         d7c14d9c6b47263283041a57e14a8b8cd73c6ccd nilfs2: replace WARN_ONs by nilfs_error for checkpoint acquisition failure
+         a670216410e02064709891f2d07f9509f992fbd8 nilfs2: fix NULL pointer dereference at nilfs_bmap_lookup_at_level()
+         989235da52c8904fa1e80e98e776784453db6e21 nilfs2: fix use-after-free bug of struct nilfs_root
+         7271fb9f3858c25620014e8f61e16a22bbcb1fb9 nilfs2: fix leak of nilfs_root in case of writer thread creation failure
+         1580615f410567dbe1e7f3125464a1f0a23c1753 nilfs2: replace WARN_ONs by nilfs_error for checkpoint acquisition failure
          
   - ref: refs/heads/queue/5.4
-    old: fc6e8f8b84a7024354503385878fc78535f6670a
-    new: 91241f38031ef6d070bfa056e1c2e07246eaaf2e
-    log: revlist-fc6e8f8b84a7-91241f38031e.txt
+    old: 91241f38031ef6d070bfa056e1c2e07246eaaf2e
+    new: 386a2683c93c6a921e7123dd5678ce3ba54f7761
+    log: revlist-91241f38031e-386a2683c93c.txt
   - ref: refs/heads/queue/6.0
-    old: 8ded21597db54818a5c3738cbba3328f7fc68ace
-    new: 09d75262311d2bd9e11a1a233409f8dc3bf77886
+    old: 09d75262311d2bd9e11a1a233409f8dc3bf77886
+    new: 957bbe6405329f0abb6f9c81f6892e31fcfa6ade
     log: |
-         23801a92f2f673d8630f1b3d677244ca32c3b33f nilfs2: fix NULL pointer dereference at nilfs_bmap_lookup_at_level()
-         3437a2f5e168a595caa95511806b5f58ec50cee9 nilfs2: fix use-after-free bug of struct nilfs_root
-         b75029d29e826576ca7b511d5853160c989a4a90 nilfs2: fix leak of nilfs_root in case of writer thread creation failure
-         09d75262311d2bd9e11a1a233409f8dc3bf77886 nilfs2: replace WARN_ONs by nilfs_error for checkpoint acquisition failure
+         6e007966ddcae014c032ab0616e373670b043efb nilfs2: fix NULL pointer dereference at nilfs_bmap_lookup_at_level()
+         84e0bf073505f9e0ab1a6afe2ca822fefee4e157 nilfs2: fix use-after-free bug of struct nilfs_root
+         95cd38a93be2167d97d6c9dfc3311030c555c57b nilfs2: fix leak of nilfs_root in case of writer thread creation failure
+         957bbe6405329f0abb6f9c81f6892e31fcfa6ade nilfs2: replace WARN_ONs by nilfs_error for checkpoint acquisition failure
          
 
---===============2524298737738628136==
+--===============5167040668046113210==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ebaa96530bbc-b3fee78a72f9.txt
+Content-Disposition: attachment; filename=revlist-b3fee78a72f9-16965d10f25d.txt
 
-a87e3023a05b9e8c3962ba24614d5ebce58de2cd uas: add no-uas quirk for Hiksemi usb_disk
-eec01ee4246df9ef4450413da420d29515838cd8 usb-storage: Add Hiksemi USB3-FW to IGNORE_UAS
-e267c510038a449117a5db3624d96a20005ce66a uas: ignore UAS for Thinkplus chips
-a861e469affeba9be783c2e1b425f65cf7aac75e net: usb: qmi_wwan: Add new usb-id for Dell branded EM7455
-50593a91c8b15ec6ea38158e6f3b9520ad09ae01 ntfs: fix BUG_ON in ntfs_lookup_inode_by_name()
-ce199ce790d28ee2feb063dbbc8c97d332f6d14a mmc: moxart: fix 4-bit bus width and remove 8-bit bus width
-dfbf198250e3749146dc130d523cf31cddc2aba5 mm/page_alloc: fix race condition between build_all_zonelists and page allocation
-205983e0fcbcbd4a88d11480ece5c96d2a43cd56 mm: prevent page_frag_alloc() from corrupting the memory
-49537f3fcd9c8f458ac83e96b79cdedca542ed4d mm/migrate_device.c: flush TLB while holding PTL
-5045a19cc699c2ea7f83d17a3d45338a545a6191 soc: sunxi: sram: Actually claim SRAM regions
-794ad2c739f5730079a4effb8c2a66840e83d31e soc: sunxi: sram: Fix debugfs info for A64 SRAM C
-4700cfa63af344a526737138c160641600508d52 Revert "drm: bridge: analogix/dp: add panel prepare/unprepare in suspend/resume time"
-c708e4c9036f5b80daa8de63ea94223686ba2534 Input: melfas_mip4 - fix return value check in mip4_probe()
-13b8b58802d719426fa98561b3cb301664790a3c usbnet: Fix memory leak in usbnet_disconnect()
-90ce4a4c3bef5bbe4c10a405f669d85e2064411c nvme: add new line after variable declatation
-7fcd2c8f31cff628d19e57c10a72b6e1ca10f320 nvme: Fix IOC_PR_CLEAR and IOC_PR_RELEASE ioctls for nvme devices
-8aace621e9f1643fcafad87f8974dab32b53c5b6 selftests: Fix the if conditions of in test_extra_filter()
-3efa1f6cbb7610e39e1e944916f287e7e2661e0e clk: iproc: Minor tidy up of iproc pll data structures
-43f27264f482d7cd9c827b6dd2f6594ba6346b5d clk: iproc: Do not rely on node name for correct PLL setup
-2316b420f957e97fcf5fb62974c256e298c770e4 Makefile.extrawarn: Move -Wcast-function-type-strict to W=1
-b516e66bebdd65a304e091259c43152c35c9f52c i2c: dev: prevent ZERO_SIZE_PTR deref in i2cdev_ioctl_rdwr()
-1dc7d0f84c8be9dd03b0164d51cbe7863c9b6674 ARM: fix function graph tracer and unwinder dependencies
-b32b49b542b684cc8739d9dbabf7491daff4f8fd fs: fix UAF/GPF bug in nilfs_mdt_destroy
-9f500f8a897d9e60565ed5c1639d78de84238500 dmaengine: xilinx_dma: cleanup for fetching xlnx,num-fstores property
-8ea54fd72ec08c5c23eaf82d1cea01794850a1a7 dmaengine: xilinx_dma: Report error in case of dma_set_mask_and_coherent API failure
-3bf73431ce9c75796cbb40b97db97142866b29b1 ARM: dts: fix Moxa SDIO 'compatible', remove 'sdhci' misnomer
-6ec785a973c0aa96edc5cd854b9fd1685dbdc018 net/ieee802154: fix uninit value bug in dgram_sendmsg
-bba2947616611c41d4c2f4614205709e5d846094 um: Cleanup syscall_handler_t cast in syscalls_32.h
-e7778bdddca3a1cba4c95825b355e783663f7921 um: Cleanup compiler warning in arch/x86/um/tls_32.c
-ef228a5c9810c39d79abd8c7d3e59076e0f1cad9 usb: mon: make mmapped memory read only
-13da832805313cea9fcd602364074ee877bb92ed USB: serial: ftdi_sio: fix 300 bps rate for SIO
-b15a9b0420c4475084944260c2fa7d0728b25fdd mmc: core: Replace with already defined values for readability
-64e9961f94d497ab1e494e9fca27f6dcb2847ca3 mmc: core: Terminate infinite loop in SD-UHS voltage switch
-064bd134cbc7a0a409bf30b5bbe63e35a56fdf32 rpmsg: qcom: glink: replace strncpy() with strscpy_pad()
-1306dca2debf99d4facf0597cf66d1c20ab14e87 netfilter: nf_queue: fix socket leak
-c12b8a2de93946e583bf83a1e15370331fb09885 nilfs2: fix NULL pointer dereference at nilfs_bmap_lookup_at_level()
-6d89554d24062477b8d88aae34b7a591fee7585e nilfs2: fix use-after-free bug of struct nilfs_root
-dbde7af9af7e7eeae2de46d7632195746e6e0f32 nilfs2: fix leak of nilfs_root in case of writer thread creation failure
-b3fee78a72f957795eeed3d2742d305d4a8a73a4 nilfs2: replace WARN_ONs by nilfs_error for checkpoint acquisition failure
+204bedaef816ea1e287e3293c0d78777bc12fa89 uas: add no-uas quirk for Hiksemi usb_disk
+b46bc5f4d321578c4ad9e82bda331873c6b07949 usb-storage: Add Hiksemi USB3-FW to IGNORE_UAS
+76dbbc10b501d9ed382dc09c344eeeb91ab04142 uas: ignore UAS for Thinkplus chips
+86ee5cb834bd05758cb0c43626b2160d5bb24633 net: usb: qmi_wwan: Add new usb-id for Dell branded EM7455
+9623b85a7c8356056c512bc6c5f71c7a6fa019db ntfs: fix BUG_ON in ntfs_lookup_inode_by_name()
+04798c8401ef743d5d11f86823abb43c60ebf20d mmc: moxart: fix 4-bit bus width and remove 8-bit bus width
+fddefcdf2330566248d382762695fe1092b217c1 mm/page_alloc: fix race condition between build_all_zonelists and page allocation
+0686af9564c829badd3d04e124c412673dc3d4d1 mm: prevent page_frag_alloc() from corrupting the memory
+9df2f88886b1874258ace0a02a0a1b96780a1798 mm/migrate_device.c: flush TLB while holding PTL
+6960fef05525c7495c5fac5efcb1b73516518950 soc: sunxi: sram: Actually claim SRAM regions
+55d1e6baa65a64f99c3214f2f93021a8141adde1 soc: sunxi: sram: Fix debugfs info for A64 SRAM C
+b16d1584aa38e60b6e2c16c6625b4c472f3a6a88 Revert "drm: bridge: analogix/dp: add panel prepare/unprepare in suspend/resume time"
+f3b5ef683eff4ec7ab14499500353b1ed1d7d2ed Input: melfas_mip4 - fix return value check in mip4_probe()
+99a91f83e608d71decfb43c8f588cb8f776e6ccd usbnet: Fix memory leak in usbnet_disconnect()
+34f610fc0e71f61d0bb7ed1c2ff4347af7639c58 nvme: add new line after variable declatation
+310e6c94e43894456860927da96bc44ed6c8d355 nvme: Fix IOC_PR_CLEAR and IOC_PR_RELEASE ioctls for nvme devices
+e7454cbdfcffb746eeed805837e8048a91e60df7 selftests: Fix the if conditions of in test_extra_filter()
+82fa0a7d1596384268118040ea2649211b9dad43 clk: iproc: Minor tidy up of iproc pll data structures
+20a29e6956ce73e4df5c010558fe554afb57e89f clk: iproc: Do not rely on node name for correct PLL setup
+14104210ccf8e833814b22766b6645190dde1771 Makefile.extrawarn: Move -Wcast-function-type-strict to W=1
+27ffffd9bc6877ac74e57b361b5cd4821686730a i2c: dev: prevent ZERO_SIZE_PTR deref in i2cdev_ioctl_rdwr()
+e59e5662d60a33675de46a76232f802cdf4f6014 ARM: fix function graph tracer and unwinder dependencies
+bacac98b62703e1bed29fadfb68371fb14ea1a35 fs: fix UAF/GPF bug in nilfs_mdt_destroy
+d018e53d978f75872d8c32e0b4e691f1abf2d1f1 dmaengine: xilinx_dma: cleanup for fetching xlnx,num-fstores property
+3cae183e7b30272cd770b5e50c06f81a0e01d070 dmaengine: xilinx_dma: Report error in case of dma_set_mask_and_coherent API failure
+6adec031e69e38d0fc60f9276a675f80ad226f94 ARM: dts: fix Moxa SDIO 'compatible', remove 'sdhci' misnomer
+740e0ebfcb9090725bb83b5ebf909431d4a5bf9e net/ieee802154: fix uninit value bug in dgram_sendmsg
+0e97698504ef0f14f59209851ddb229b41b2c96d um: Cleanup syscall_handler_t cast in syscalls_32.h
+3997c78eb78d95861bdd5bbbca9c6d3e6d06341d um: Cleanup compiler warning in arch/x86/um/tls_32.c
+52478928eb8262a4c9c9f13cd62336d4cc683cf5 usb: mon: make mmapped memory read only
+734580388b634f13d61f3402a4de63dbea09f322 USB: serial: ftdi_sio: fix 300 bps rate for SIO
+c22a02ea2cfdf6fb8f61470edb94d2f9d69e8379 mmc: core: Replace with already defined values for readability
+742d850a3089785ebabaeff4c47dd8e83511e66e mmc: core: Terminate infinite loop in SD-UHS voltage switch
+adefc95fb5ced0baa5ff33cea4428c90c7d627c1 rpmsg: qcom: glink: replace strncpy() with strscpy_pad()
+ecb4e88887863788b33bd39f29839e71fff78bd7 netfilter: nf_queue: fix socket leak
+bd70cc0f7618054d0a841673d155db3b412ec460 nilfs2: fix NULL pointer dereference at nilfs_bmap_lookup_at_level()
+fecaa4c687891725375b53f133419698e2245061 nilfs2: fix leak of nilfs_root in case of writer thread creation failure
+16965d10f25db5dcfe144b3b63d12161f913bd11 nilfs2: replace WARN_ONs by nilfs_error for checkpoint acquisition failure
 
---===============2524298737738628136==
+--===============5167040668046113210==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-522aa51acb9b-33237ec3d47a.txt
+Content-Disposition: attachment; filename=revlist-33237ec3d47a-9909d9958692.txt
 
-4a865dcb434316a74f4454e49a0b927f23df3be0 Makefile.extrawarn: Move -Wcast-function-type-strict to W=1
-e60ab4367e7410180a7312ce15b8f8baa06f8911 docs: update mediator information in CoC docs
-654c4d066a5f8bd60614a45cf67205eeaffc6ea9 ARM: fix function graph tracer and unwinder dependencies
-6ac79bfaf65af8f854f623ba98176c97a5bc8df9 fs: fix UAF/GPF bug in nilfs_mdt_destroy
-593c6629f053196e50ae63d3da1ce9268819a32b firmware: arm_scmi: Add SCMI PM driver remove routine
-06b9413d1c5f3a2e6add531c50ff14f0a578f143 dmaengine: xilinx_dma: cleanup for fetching xlnx,num-fstores property
-20a6cb5ec07c40a4e499c70a7647464e0b4c4d32 dmaengine: xilinx_dma: Report error in case of dma_set_mask_and_coherent API failure
-fc4476b4d087ce73923580fb1cb4b2adcd23615e ARM: dts: fix Moxa SDIO 'compatible', remove 'sdhci' misnomer
-f840925607a0cc871aaabbe8a9a22fd5034fddd5 scsi: qedf: Fix a UAF bug in __qedf_probe()
-13628443f23e05235dcd536e0d1412ff0ad8e99c net/ieee802154: fix uninit value bug in dgram_sendmsg
-00939ffba32ce09f0b39a3f565df76f19c481273 um: Cleanup syscall_handler_t cast in syscalls_32.h
-2df1dede20823e71d8a8e22eeaf43b8f06f3ad01 um: Cleanup compiler warning in arch/x86/um/tls_32.c
-39e435692e8d690b6ff9dd172e42f31cc942b3e9 usb: mon: make mmapped memory read only
-43d23052517da19b3e1bd9e8da42abfd25ebcaa9 USB: serial: ftdi_sio: fix 300 bps rate for SIO
-f8a68e464310f3772bc6fbc3bfa9d970c52256f3 mmc: core: Replace with already defined values for readability
-174903326ced60efcc8ef34f8659aa14b2a91127 mmc: core: Terminate infinite loop in SD-UHS voltage switch
-f7ed73b9de99229fb984faff6e184cb21c63ce3b rpmsg: qcom: glink: replace strncpy() with strscpy_pad()
-7f910599c2f0d1427573d29d5e187ad3b310aa7a nilfs2: fix NULL pointer dereference at nilfs_bmap_lookup_at_level()
-65c7a0dab31e4ffc876b9fd70ee7d6daa8586683 nilfs2: fix use-after-free bug of struct nilfs_root
-3dbcffc5b585d28c291251ed131f47ce822c42d4 nilfs2: fix leak of nilfs_root in case of writer thread creation failure
-33237ec3d47a1b5a35967d377c483f59112155e1 nilfs2: replace WARN_ONs by nilfs_error for checkpoint acquisition failure
+8a91f4c287b14e83bf95ab3312c84e32dd4afabc Makefile.extrawarn: Move -Wcast-function-type-strict to W=1
+774b9dc5e4e94128f56defbcb6e243fc7201ec04 docs: update mediator information in CoC docs
+cd445dc1e552f3dbc23fa07b6506b458c5766ea3 ARM: fix function graph tracer and unwinder dependencies
+bed4fafc7af027d5708bfef1fe30c9ecb10f7da6 fs: fix UAF/GPF bug in nilfs_mdt_destroy
+e518467b767c493563b63858f00ebdbcd7e0b7a6 firmware: arm_scmi: Add SCMI PM driver remove routine
+f2a4cb58ed0b058d7c3d224fa8bb55943ec85f11 dmaengine: xilinx_dma: cleanup for fetching xlnx,num-fstores property
+d06c77c36b89753675f0a2e802d460ce25a851f8 dmaengine: xilinx_dma: Report error in case of dma_set_mask_and_coherent API failure
+1c53b94e87c8ed53b37fabc9850fef13089331a9 ARM: dts: fix Moxa SDIO 'compatible', remove 'sdhci' misnomer
+370df06da9e7670edb9c3719795f525706e59b32 scsi: qedf: Fix a UAF bug in __qedf_probe()
+e0d9f3a5eb4370e807577a0dbded61cc6e5c3934 net/ieee802154: fix uninit value bug in dgram_sendmsg
+b1e4863a3f75e280903069d176c97e44cd7bae8c um: Cleanup syscall_handler_t cast in syscalls_32.h
+af854487e7aa6838bd10aad7f514f613255c7412 um: Cleanup compiler warning in arch/x86/um/tls_32.c
+260deafeddad0fff1b9b3d2a39052bbb7cdffd2c usb: mon: make mmapped memory read only
+b8cfe41f78bdaad4024d81ab81a151abdb5c8abc USB: serial: ftdi_sio: fix 300 bps rate for SIO
+7fa2a536aeaf8cb84a238fdb112203c63e3eafc3 mmc: core: Replace with already defined values for readability
+a65e2a34b1fcdbe666edea2116cdd4555a8cdf6b mmc: core: Terminate infinite loop in SD-UHS voltage switch
+65db326690594571704cdb5e240ae0e922c69cb0 rpmsg: qcom: glink: replace strncpy() with strscpy_pad()
+ea4a6c0ecc47dbbb43480b6868ceab49e909aec0 nilfs2: fix NULL pointer dereference at nilfs_bmap_lookup_at_level()
+86384daac2c948e599112c3e0c794f05fd265a55 nilfs2: fix leak of nilfs_root in case of writer thread creation failure
+9909d9958692a64c16dadbceb4bdb3d74bded9ea nilfs2: replace WARN_ONs by nilfs_error for checkpoint acquisition failure
 
---===============2524298737738628136==
+--===============5167040668046113210==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4f6b38727e86-38a54229d9f9.txt
+Content-Disposition: attachment; filename=revlist-38a54229d9f9-13e68ec96f09.txt
 
-5d75e64fd012f5d6c96a143c74f7d0be645f25f0 uas: add no-uas quirk for Hiksemi usb_disk
-ac58cb092afe989d8b06eb5be82fa9b0ce9c2200 usb-storage: Add Hiksemi USB3-FW to IGNORE_UAS
-f18b77f5f35ca7127219efef7abbe16d55c17c63 uas: ignore UAS for Thinkplus chips
-7be902402df91b53363957c15b27bd37df45a90d net: usb: qmi_wwan: Add new usb-id for Dell branded EM7455
-0e1db1e559e3017c9845f9cf855e1a6416002b53 ntfs: fix BUG_ON in ntfs_lookup_inode_by_name()
-620ce65d549636887b5d4d143059636aa5f0b3ae mmc: moxart: fix 4-bit bus width and remove 8-bit bus width
-4a18938220df9a8bcd903904c43f0128ac44e098 mm: prevent page_frag_alloc() from corrupting the memory
-5b236ba4652c7f51fdd54e670f07ba06e1888bee Revert "drm: bridge: analogix/dp: add panel prepare/unprepare in suspend/resume time"
-1089d8a499cd632720f31af7afd32608d9deace9 Input: melfas_mip4 - fix return value check in mip4_probe()
-0dc7d18ae4259ae41416fb606e229bba0802e4f8 usbnet: Fix memory leak in usbnet_disconnect()
-96efce5108eb5267122235fcf7f64131615856bd nvme: add new line after variable declatation
-dba3df743ddef81df66cde25986c8d2e965fc9b3 nvme: Fix IOC_PR_CLEAR and IOC_PR_RELEASE ioctls for nvme devices
-22ac9cee124e13106069d5d4d53465b90e7976e9 selftests: Fix the if conditions of in test_extra_filter()
-bc15a01cd7ddd35826d24f0a8ea862d797b68f64 clk: iproc: Minor tidy up of iproc pll data structures
-b6b9d7a3c9c112024de5bc0a677524bf6231b7d3 clk: iproc: Do not rely on node name for correct PLL setup
-f27100e6dbd5460c33b2fbd8cffb3802d3ec7464 Makefile.extrawarn: Move -Wcast-function-type-strict to W=1
-76b4e1a76f972d4b4bfc5046c49c7070c9cdd993 ARM: fix function graph tracer and unwinder dependencies
-c5e2d63014566263244bc6a730d4413e41136b8d fs: fix UAF/GPF bug in nilfs_mdt_destroy
-f000d3996346ab7e2bc53a9ace6d4cf5fb9fc533 dmaengine: xilinx_dma: cleanup for fetching xlnx,num-fstores property
-75b58029533994dcd5f5e74a9956534ae8dd5f39 dmaengine: xilinx_dma: Report error in case of dma_set_mask_and_coherent API failure
-e383731029ba676fc35fcbf9a2bbd16793a7688a ARM: dts: fix Moxa SDIO 'compatible', remove 'sdhci' misnomer
-f7659edbe83faa5d11244fe96f41060e9653b35f net/ieee802154: fix uninit value bug in dgram_sendmsg
-c247fdc236e752ffd99e189d30e987aa47b2f845 um: Cleanup syscall_handler_t cast in syscalls_32.h
-73efbb03ca773641b120dc4d2d7fbd09399c2f5b um: Cleanup compiler warning in arch/x86/um/tls_32.c
-3afb97026b35e1b6c78f23000a5aa6e46cdb038e usb: mon: make mmapped memory read only
-b287e0b4a37805c5d61f25afd516a32d4fa5493d USB: serial: ftdi_sio: fix 300 bps rate for SIO
-ef829e1a3621d670c384ed8b57a2e4b818e1dc89 nilfs2: fix NULL pointer dereference at nilfs_bmap_lookup_at_level()
-fa8b2eeb30583424c8ec125fbdfd3e222f4fbedd nilfs2: fix leak of nilfs_root in case of writer thread creation failure
-38a54229d9f9ab4e6045bfce0443c68ebcb67270 nilfs2: replace WARN_ONs by nilfs_error for checkpoint acquisition failure
+38f4049757e2fc63f68accc33ffb1502225a04b9 uas: add no-uas quirk for Hiksemi usb_disk
+a56b44e07aff68944a61949e1a89a77290d14383 usb-storage: Add Hiksemi USB3-FW to IGNORE_UAS
+72625ad2213430f7e2677c264935e88494d1abb0 uas: ignore UAS for Thinkplus chips
+db6d7159933e88003eeb45474e274b7cff374a02 net: usb: qmi_wwan: Add new usb-id for Dell branded EM7455
+4af8ff41a526a61c63e6171a194b4f0e0b4f2d04 ntfs: fix BUG_ON in ntfs_lookup_inode_by_name()
+15341ae966521e87d63bf942ffd34191defe6d75 mmc: moxart: fix 4-bit bus width and remove 8-bit bus width
+0ee693776ad898bd3372788958ab2a81100c2eff mm: prevent page_frag_alloc() from corrupting the memory
+c48a9d282009154524e2804879936cebc22066f5 Revert "drm: bridge: analogix/dp: add panel prepare/unprepare in suspend/resume time"
+eba2c5457765586fa81eaa0479c3681a907cdf83 Input: melfas_mip4 - fix return value check in mip4_probe()
+b5b1f30ef07486195c01647ca474a91941c20c7d usbnet: Fix memory leak in usbnet_disconnect()
+dd31b013a632a7263c75bc3d0a851be17e4b600c nvme: add new line after variable declatation
+a78da19bdd075b5b9b73da661851378ab3bbf0be nvme: Fix IOC_PR_CLEAR and IOC_PR_RELEASE ioctls for nvme devices
+45597a3367c95decd16cf26b3f8dd0dcb844462f selftests: Fix the if conditions of in test_extra_filter()
+9b3d7f6fd355f10b6c0314af7e052a2250f68330 clk: iproc: Minor tidy up of iproc pll data structures
+37d9891947fbbd309d6ad9d22a0b2ed718b7e28d clk: iproc: Do not rely on node name for correct PLL setup
+1a9a08d8739dcd884c6299ed45dc391dd0562a5d Makefile.extrawarn: Move -Wcast-function-type-strict to W=1
+bd1457cb6aa785d129734b724a15953e43c1fd56 ARM: fix function graph tracer and unwinder dependencies
+8f9e54f354a9e0c90b0af7ac3a17742351e06f8a fs: fix UAF/GPF bug in nilfs_mdt_destroy
+8b503d5d7d5c457ffd7ef20247920c6724ae3109 dmaengine: xilinx_dma: cleanup for fetching xlnx,num-fstores property
+f15c5976a5a0ecc50715e2f4ef501f066d8c97f7 dmaengine: xilinx_dma: Report error in case of dma_set_mask_and_coherent API failure
+d0e38ce7dd485066d05e4780dbd5f4a9063b5348 ARM: dts: fix Moxa SDIO 'compatible', remove 'sdhci' misnomer
+3c3369072667162563c8dff32ad7d2fe1eabc689 net/ieee802154: fix uninit value bug in dgram_sendmsg
+da6f8bb6c3ebf1d60f669ffba14d98b721df7d92 um: Cleanup syscall_handler_t cast in syscalls_32.h
+dad8b918f0bca8b4c301a9a4ea48a55b6145c6dd um: Cleanup compiler warning in arch/x86/um/tls_32.c
+c3771b363c50c33f57aadc2a4785f1e519331998 usb: mon: make mmapped memory read only
+20a29d26cc1a25a609557fa33408ff6003d03e3c USB: serial: ftdi_sio: fix 300 bps rate for SIO
+dacd8f04457e57142399a755a7587338f921591f nilfs2: fix NULL pointer dereference at nilfs_bmap_lookup_at_level()
+b376201e652654d47cfac02e457f6bcdca4740c9 nilfs2: fix leak of nilfs_root in case of writer thread creation failure
+13e68ec96f097a0c56fcda921a77a4775fe80711 nilfs2: replace WARN_ONs by nilfs_error for checkpoint acquisition failure
 
---===============2524298737738628136==
+--===============5167040668046113210==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3e4866f5a919-7d95a71302f5.txt
+Content-Disposition: attachment; filename=revlist-7d95a71302f5-5919b6430dc3.txt
 
-95a4793e026d6aa2585152dd51fec7eb27e8788f nilfs2: fix NULL pointer dereference at nilfs_bmap_lookup_at_level()
-69c353c423eaada87f905a9093fba1d979f1a746 nilfs2: fix use-after-free bug of struct nilfs_root
-3de56384b8a050d1db4cc0f0a2ff5cdbdf0d06b8 nilfs2: fix leak of nilfs_root in case of writer thread creation failure
-0919ad903041e460b31d27bca5597b7998d784b2 nilfs2: replace WARN_ONs by nilfs_error for checkpoint acquisition failure
-ce2744e464c02bc352979d04d51f67d60930d7c4 Makefile.extrawarn: Move -Wcast-function-type-strict to W=1
-054f843a237574c6011268635765e434a8aed729 docs: update mediator information in CoC docs
-bf8b724f47221967c04ee4a5abb66074ff399dfc perf tools: Fixup get_current_dir_name() compilation
-202e02f1dd1ac904faea3a2a6266c35526a43580 xsk: Inherit need_wakeup flag for shared sockets
-ba6ad0f2d6eee1440c48f085cece39ff15e6c526 ALSA: pcm: oss: Fix race at SNDCTL_DSP_SYNC
-fb1603c45067ee9af1a0f8b2cf92db0e1a564077 mm: gup: fix the fast GUP race against THP collapse
-bf20bb303688c160e864f6bb88926ee42007efa6 powerpc/64s/radix: don't need to broadcast IPI for radix pmd collapse flush
-e5abde89520c1cfb3991428102723a1b27297394 fs: fix UAF/GPF bug in nilfs_mdt_destroy
-0ddeb34c3f831b0915909b77e6123a244f29a1ff compiler_attributes.h: move __compiletime_{error|warning}
-0bc818bc440de1511f06a48baef66f6d62f7a388 firmware: arm_scmi: Add SCMI PM driver remove routine
-3a86e484210afbd0a70b23ee78381508a12148a4 dmaengine: xilinx_dma: Fix devm_platform_ioremap_resource error handling
-07619341f2dadf474a4db2c426c9b41d72032df2 dmaengine: xilinx_dma: cleanup for fetching xlnx,num-fstores property
-e107f7e7e7ea4a69d5b1fb65f7194fc2328550d1 dmaengine: xilinx_dma: Report error in case of dma_set_mask_and_coherent API failure
-baa40a65c1d0b0142fbf74ca129939950e33cf06 ARM: dts: fix Moxa SDIO 'compatible', remove 'sdhci' misnomer
-3df82d617d517f0f725879cbbbcf3e9cda17f6c3 scsi: qedf: Fix a UAF bug in __qedf_probe()
-1a1148ff560ad1b8506462b6ca4ed2af1c9a7cd5 net/ieee802154: fix uninit value bug in dgram_sendmsg
-5951b064018befd8955db2875cfd51e601feed3c ALSA: hda/hdmi: Fix the converter reuse for the silent stream
-6a70e70024397ab7228db291b3c4bb76262f2c58 um: Cleanup syscall_handler_t cast in syscalls_32.h
-fcd9046a7cd592d6f827def1bf4427875066a8f6 um: Cleanup compiler warning in arch/x86/um/tls_32.c
-08c61b6a37b0d78754b47c17a3f8848dd605c2dd arch: um: Mark the stack non-executable to fix a binutils warning
-7b3da4c39c01cf2f16f1d9aff5a189c4c1449034 net: atlantic: fix potential memory leak in aq_ndev_close()
-71dea253c8e62b198219a56360a93042c834195f drm/amd/display: update gamut remap if plane has changed
-0d2dfa97cd3c3f890c52bf7b374feaf863c1921a drm/amd/display: skip audio setup when audio stream is enabled
-f5941a65d12807fd1d856da50bad4bf7301a21ce mmc: core: Replace with already defined values for readability
-4c5d7cb09df84a150f0c46268642a94cdc7dba73 mmc: core: Terminate infinite loop in SD-UHS voltage switch
-b19128f39b5a1081def56c2496928244bf3303d8 usb: mon: make mmapped memory read only
-c8b1e4696be253e7785e1810a29405f5994ae407 USB: serial: ftdi_sio: fix 300 bps rate for SIO
-0c42f0ef83e36ed3dd6c2079792375c944b06cfb rpmsg: qcom: glink: replace strncpy() with strscpy_pad()
-7d95a71302f57cd1981e399ba8ec9462e25aa645 Revert "clk: ti: Stop using legacy clkctrl names for omap4 and 5"
+f6a9b328da64e7affa851690a29aea719244ea64 nilfs2: fix NULL pointer dereference at nilfs_bmap_lookup_at_level()
+115702d4f64eb80a742678a281ec5bca1c340bca nilfs2: fix use-after-free bug of struct nilfs_root
+373b456f2b055fdfe7cad30f153b8b339a8421a1 nilfs2: fix leak of nilfs_root in case of writer thread creation failure
+a2894a3995a036c222796aee9614842fa7dd61b2 nilfs2: replace WARN_ONs by nilfs_error for checkpoint acquisition failure
+1a9d3504ee1590830c72c14e861c628140488abf Makefile.extrawarn: Move -Wcast-function-type-strict to W=1
+f406c8738b46b7b9274458b100b2f5494e61fea2 docs: update mediator information in CoC docs
+7e730ad3a8f6d17696280ed4b521aeb201b9cac4 perf tools: Fixup get_current_dir_name() compilation
+3146f549618e542d18eab097b4c1bb609fceb880 xsk: Inherit need_wakeup flag for shared sockets
+c3bef21e6f2b5206df17ae49c7e7c263535d9aa5 ALSA: pcm: oss: Fix race at SNDCTL_DSP_SYNC
+15af035fb7374041e809d8d8a1abe8b4cecc8052 mm: gup: fix the fast GUP race against THP collapse
+ab9e69f84ff78bfac4600282d3c760606c924a56 powerpc/64s/radix: don't need to broadcast IPI for radix pmd collapse flush
+0fb25804633576b59f36698e4144b58aa5daec03 fs: fix UAF/GPF bug in nilfs_mdt_destroy
+77951731e6750019c754f486bac153feb4ddf651 compiler_attributes.h: move __compiletime_{error|warning}
+bd387a8b61886f8c37e4f352b1c055c635459c5e firmware: arm_scmi: Add SCMI PM driver remove routine
+5387a8be67b74f98051dcd02303294f8c1dc8759 dmaengine: xilinx_dma: Fix devm_platform_ioremap_resource error handling
+707b1e1ebdcfb710f02c2a18f44cd527f9d46aaa dmaengine: xilinx_dma: cleanup for fetching xlnx,num-fstores property
+65efeee744035c2329808fa4515eebb82583ccf3 dmaengine: xilinx_dma: Report error in case of dma_set_mask_and_coherent API failure
+1aa1dffb14592c723b0030e26803e774cedb2013 ARM: dts: fix Moxa SDIO 'compatible', remove 'sdhci' misnomer
+f86cc6c588d6258382b4090903877e04c5fc7178 scsi: qedf: Fix a UAF bug in __qedf_probe()
+46e8aa7eaa5b81030002385de86a8440ea2346df net/ieee802154: fix uninit value bug in dgram_sendmsg
+c1a66d3905b65435a659adad8bb511020b78856c ALSA: hda/hdmi: Fix the converter reuse for the silent stream
+19309e7f51ecd1f83e5cbedf121bbc8192825b7d um: Cleanup syscall_handler_t cast in syscalls_32.h
+6a87eac3141e47d39b4cc81c36b92b90ee4a66de um: Cleanup compiler warning in arch/x86/um/tls_32.c
+6c3b91b0c1439eb133a26cbabae96f3530de6dde arch: um: Mark the stack non-executable to fix a binutils warning
+dc5eb319f48c9c0ce5044a8730f4a16927dfcbec net: atlantic: fix potential memory leak in aq_ndev_close()
+fc81952e288229760bf8eddcff7eb9908b709c16 drm/amd/display: update gamut remap if plane has changed
+d4aa3e1359f17536ea78236f77a2c4700ca1ff5f drm/amd/display: skip audio setup when audio stream is enabled
+3a288ec750ce1d3fe9612c661d6ac82b3a9e36a1 mmc: core: Replace with already defined values for readability
+b0e8162b4d93ccf6e7fbf4c3b793c4347dd25fe1 mmc: core: Terminate infinite loop in SD-UHS voltage switch
+aeb24f7a42583eb38615f52456147092a06897f0 usb: mon: make mmapped memory read only
+9acad8bab6855fddf767ad3c8692faa29705dc32 USB: serial: ftdi_sio: fix 300 bps rate for SIO
+244d80d4c1b66ee329a273bb0a799fb7a1060763 rpmsg: qcom: glink: replace strncpy() with strscpy_pad()
+5919b6430dc34a6f6aa53e3b5091f433a6eb8297 Revert "clk: ti: Stop using legacy clkctrl names for omap4 and 5"
 
---===============2524298737738628136==
+--===============5167040668046113210==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fc6e8f8b84a7-91241f38031e.txt
+Content-Disposition: attachment; filename=revlist-91241f38031e-386a2683c93c.txt
 
-827b31361d58a2d6e06938741ef1ec7664b5ed03 mm: pagewalk: Fix race between unmap and page walker
-aad1de109ad526eda3299d9c71de8ffc95ddae86 perf tools: Fixup get_current_dir_name() compilation
-da5797abae48b2e07e51fc7017697795a22dc6bc fs: fix UAF/GPF bug in nilfs_mdt_destroy
-61952e97a0f07554cdf191e8b5a32b4301e1c63e firmware: arm_scmi: Add SCMI PM driver remove routine
-dd7a642e3830fa8cc554a29925320202c60cb779 dmaengine: xilinx_dma: cleanup for fetching xlnx,num-fstores property
-2b41299653b781742a519d2cc4bd57f2665162b0 dmaengine: xilinx_dma: Report error in case of dma_set_mask_and_coherent API failure
-598ee6e39467b13dcf23704ac2244b05cd4d4338 ARM: dts: fix Moxa SDIO 'compatible', remove 'sdhci' misnomer
-fb4f954b1b15a6d71e88a18c018c1879274e18cb scsi: qedf: Fix a UAF bug in __qedf_probe()
-c69c3faa629c893489d34968635e5c05fd37313a net/ieee802154: fix uninit value bug in dgram_sendmsg
-c92004c4ffaca8bc3b34ddd9e97d2ea48f66d4f3 um: Cleanup syscall_handler_t cast in syscalls_32.h
-44725c67b11dd0ddab63a58a76fc9dec2844c9d0 um: Cleanup compiler warning in arch/x86/um/tls_32.c
-fb7f0d5836bb8382660ef07c31caffb68c6ae55c arch: um: Mark the stack non-executable to fix a binutils warning
-89e7d9a4458370feedc728b2ba250311a5419c8a usb: mon: make mmapped memory read only
-97b61fc9cbd5442a6e92e074440fd394f3936fb0 USB: serial: ftdi_sio: fix 300 bps rate for SIO
-adb5f8f4dad0b958f690e4b15ef57a4b66d91ba6 mmc: core: Replace with already defined values for readability
-6e1fa32949adfef1c589b862f8286d6107539b1d mmc: core: Terminate infinite loop in SD-UHS voltage switch
-6e8fb68cf1440ea35c99104cc9dc7b7415e9d522 rpmsg: qcom: glink: replace strncpy() with strscpy_pad()
-76636bdef71bcdfc19913385c2893d77b825e35c nilfs2: fix NULL pointer dereference at nilfs_bmap_lookup_at_level()
-22456cf9ebd61e1803933ff9c48067699d1804a4 nilfs2: fix use-after-free bug of struct nilfs_root
-82eb0835bfe61893ba8dd07d55373e692c6e40bc nilfs2: fix leak of nilfs_root in case of writer thread creation failure
-91241f38031ef6d070bfa056e1c2e07246eaaf2e nilfs2: replace WARN_ONs by nilfs_error for checkpoint acquisition failure
+8bff7af9d70d6fa92855c36af967d00b75472752 mm: pagewalk: Fix race between unmap and page walker
+533a4351cf67a43d8b203ff28877a28d285dfda6 perf tools: Fixup get_current_dir_name() compilation
+671286c981fa1ae09660dbb83f534ade0c514061 fs: fix UAF/GPF bug in nilfs_mdt_destroy
+2d9bd9221a2e5948101c4605edb243b92de7f75c firmware: arm_scmi: Add SCMI PM driver remove routine
+115a5b54e1f4d41634156e95c44b990d36bddce3 dmaengine: xilinx_dma: cleanup for fetching xlnx,num-fstores property
+6914b113844e3379fa31226eef5316b0aad29a46 dmaengine: xilinx_dma: Report error in case of dma_set_mask_and_coherent API failure
+2b5b9dea668e231eaa605666f58d2f2711691612 ARM: dts: fix Moxa SDIO 'compatible', remove 'sdhci' misnomer
+4c13a77336fd394708ebf3e5859d01f93a9233b4 scsi: qedf: Fix a UAF bug in __qedf_probe()
+096c270f8464440f7b4be8650db3a91bd6337ab0 net/ieee802154: fix uninit value bug in dgram_sendmsg
+85062f4482b4d4bd8ac455df3ae8d1575619f4e4 um: Cleanup syscall_handler_t cast in syscalls_32.h
+02aaead52868e4a39c92c88f4a7569e2cdbe8183 um: Cleanup compiler warning in arch/x86/um/tls_32.c
+17999004127f3e17b60cb44d9db01fdbaef6f592 arch: um: Mark the stack non-executable to fix a binutils warning
+ffef645458491b26f03b11d9125b1953a9d28f39 usb: mon: make mmapped memory read only
+79ffd6bb972b0ef4cc794169b7325e871581f78e USB: serial: ftdi_sio: fix 300 bps rate for SIO
+a076dafdc034187daaa4d7e98a4712cd654012c5 mmc: core: Replace with already defined values for readability
+046d3fd2c1adc3cb3b050990f97f788247b92938 mmc: core: Terminate infinite loop in SD-UHS voltage switch
+3249b18eb27d4f53a48874cd366ac7eccef93134 rpmsg: qcom: glink: replace strncpy() with strscpy_pad()
+b11d8e2fbd5b1150c4ed7ff082c10f1bf47f8f88 nilfs2: fix NULL pointer dereference at nilfs_bmap_lookup_at_level()
+668e155de8bc93c525bd4c99de9b004c5596a23f nilfs2: fix leak of nilfs_root in case of writer thread creation failure
+386a2683c93c6a921e7123dd5678ce3ba54f7761 nilfs2: replace WARN_ONs by nilfs_error for checkpoint acquisition failure
 
---===============2524298737738628136==--
+--===============5167040668046113210==--
