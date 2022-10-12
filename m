@@ -1,1065 +1,793 @@
-Content-Type: multipart/mixed; boundary="===============8441096637751564815=="
+Content-Type: multipart/mixed; boundary="===============4020551842206178645=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Wed, 12 Oct 2022 13:50:05 -0000
-Message-Id: <166558260502.8961.17493322871100861802@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/iwlwifi/backport-iwlwifi
+Date: Wed, 12 Oct 2022 14:11:46 -0000
+Message-Id: <166558390602.23818.17634098607421318610@gitolite.kernel.org>
 
---===============8441096637751564815==
+--===============4020551842206178645==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/iwlwifi/backport-iwlwifi
+user: egrumbach
 changes:
-  - ref: refs/heads/block-6.1
-    old: 24a403340d70aad3667b3ee0f9a7aa5c0a5193a0
-    new: 3bc429c1e2cf6fa830057c61ae93d483f270b8ff
-    log: |
-         a1ae8d4d9be0178132df7c4931a1ba77d0e76039 nvme-rdma: fix possible hang caused during ctrl deletion
-         c4abd8757189c7ca5803828f9c892328d7d94943 nvme-tcp: fix possible hang caused during ctrl deletion
-         80b2624094c8d369a3c6eab515e8f1564d2e5db2 nvme-pci: add NVME_QUIRK_BOGUS_NID for Lexar NM760
-         d5d3c100ac40dcb03959a6f1d2f0f13204c4f145 nvme-pci: avoid the deepest sleep state on ZHITAI TiPro5000 SSDs
-         72e3b8883a36e80ebfa41015c7b6926ce31ace05 nvme-multipath: fix possible hang in live ns resize with ANA access
-         3bc429c1e2cf6fa830057c61ae93d483f270b8ff Merge tag 'nvme-6.1-2022-10-12' of git://git.infradead.org/nvme into block-6.1
-         
-  - ref: refs/heads/for-next
-    old: 6f1111bfcd46155479d7b20f9f2b6b08899924bf
-    new: 02455c432a64178d622ffaeb6eb0cff270044032
-    log: revlist-6f1111bfcd46-02455c432a64.txt
+  - ref: refs/heads/master
+    old: 0e43e07a9c376260e23ed5852f3129ab8ceb3197
+    new: 75dcacfdf6de4b8394ddd51f03211e5d1da6c911
+    log: revlist-0e43e07a9c37-75dcacfdf6de.txt
 
---===============8441096637751564815==
+--===============4020551842206178645==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6f1111bfcd46-02455c432a64.txt
+Content-Disposition: attachment; filename=revlist-0e43e07a9c37-75dcacfdf6de.txt
 
-0c88760f8f5e13e32f624a1da71144b240b05125 habanalabs/gaudi2: add secured attestation info uapi
-006fd8cb659bb02789dc1ec48836fff5f348ba8d habanalabs/gaudi2: Remove unnecessary (void*) conversions
-4f3ce5e0d0f85d6be0a2bc3a2aa75ba3b649c7c6 habanalabs: failure to open device due to reset is debug level
-bb677d527e14184d89012ce332128f3767fa9925 habanalabs/gaudi2: allow user to flush PCIE by read
-0f6632e2e8beb6a1e0895c1309dd0b84b805c202 USB: serial: ftdi_sio: convert to use dev_groups
-61dfa797c731754642d1ac500a6ac42f9b47f920 USB: serial: console: move mutex_unlock() before usb_serial_put()
-fbbc73a20f38dcadf8a250bc761962588cd91f7e soundwire: cadence: fix updating slave status when a bus has multiple peripherals
-f605f32e59d8021a032746c2ca73b1adc46873d7 soundwire: bus: Don't lose unattach notifications
-7297f8fa9a4312701c5066cd0d22e1a252cbb2d7 soundwire: bus: Don't re-enumerate before status is UNATTACHED
-0c5e99c41504b74dcfa9f3643f55cacab5c1e41f soundwire: cadence: Fix lost ATTACHED interrupts when enumerating
-72124f07f0fab446caeea1f545d8c58b7549a899 soundwire: bus: Don't exit early if no device IDs were programmed
-ba05b39d265bdd16913f7684600d9d41e2796745 soundwire: cadence: Don't overwrite msg->buf during write commands
-8039b6f3e5c777e41df34f8e996af18555a4f303 soundwire: qcom: update status from device id 1
-ed8d07acec73c34cbebd209ff7a37051424de60c soundwire: qcom: do not send status of device 0 during alert
-560458df5f144fb3547a9fde8e0b7b2143ef0711 soundwire: bus: Fix wrong port number in sdw_handle_slave_alerts()
-3ed96fb4a6d8426f766687ff02fc5fb5f91575fd soundwire: cadence: Write to correct address for each FIFO chunk
-7f6bad4dfde0ec1d479fdcbbb62bccdbf3a93bb4 soundwire: cadence: Fix error check in cdns_xfer_msg()
-bafb1eacfbd98c6cdbca7e1723ef933ad371cd51 soundwire: cadence: Simplify error paths in cdns_xfer_msg()
-c6867cda906aadbce5e71efde9c78a26108b2bad soundwire: intel: fix error handling on dai registration issues
-54f391dd1b9fc34b37fc1824f9bd24430167f683 soundwire: intel: simplify flow and use devm_ for DAI registration
-aa425707c3c8aacfbc37b88a68d89b909b6291c3 soundwire: intel: move DAI registration and debugfs init earlier
-30cbae662ba989ada383cf3db2a4c6400b9ae1fc soundwire: intel: move all PDI initialization under intel_register_dai()
-a658fd8d2b60f040ea042fd79bbd9c58e5f2b911 soundwire: intel: remove clock_stop parameter in intel_shim_init()
-bc8729476a537ff372c33588189c6ef5b39ce081 soundwire: intel: move shim initialization before power up/down
-b81bcdb424d05a18b4e928e2f9f6c25d90c5c35d soundwire: intel: remove intel_init() wrapper
-0b59d4c9475893fa1fa435502c0e0cc6df879ac9 soundwire: intel: simplify read ops assignment
-0f3c54c22ae19c1ad86afb138c45424645213a44 soundwire: intel: introduce intel_shim_check_wake() helper
-8d875da7319de6c6b89d2644cd1e36b8d5ac5eb5 soundwire: intel: introduce helpers to start bus
-503ae285944a5e99ad3e0c36852ffe2680288418 soundwire: intel: add helper to stop bus
-4382d518d1887e62234560ea08a0203d11d28cc1 phy: qcom-qmp-combo: disable runtime PM on unbind
-beee6ed1d63f28284b3d2d9bc01c56436d4e9311 phy: qcom-qmp-combo: drop unused defines
-9062e92a241b2c2ef9ba11403d73c812347e725b phy: qcom-qmp-pcie: drop unused runtime PM implementation
-52d8d441a8546b836a91619a0c21cc7c4103cad4 phy: qcom-qmp-pcie: drop unused defines
-cec61c070d408703c40446022f579ecb2aa050dc phy: qcom-qmp-pcie-msm8996: drop unused runtime PM implementation
-7936e5f32fd0ef6b123ed9e7390f3f4047c24770 phy: qcom-qmp-pcie-msm8996: drop unused defines
-b3a467d9c6d1a1b6e93104bf5c093b16f2fa3c9e phy: qcom-qmp-ufs: drop unused runtime PM implementation
-6d07bd6f46017aca6648fe387884916b36243096 phy: qcom-qmp-ufs: drop unused defines
-e57655e66806750785f9121c98a962404d02395b phy: qcom-qmp-usb: disable runtime PM on unbind
-613b30244b87d791b4da8c0a6cb06a3ca9935272 phy: qcom-qmp-usb: drop unused defines
-d44c3e1a1e02cb12496bfc7e03c7957c32f9de4c phy: qcom-qmp: silence noisy probe
-e5cedefa7203c787ccadaa3e2400d0b8e252a0c1 phy: qcom-qmp-combo: shorten function prefixes
-d0eec88b38a4302113508a41366efc7ce9446cae phy: qcom-qmp-pcie-msm8996: drop unused secondary init tables
-c577468c77f9f43a5e2f09de21573f97aaea6bd6 phy: qcom-qmp-pcie-msm8996: shorten function prefixes
-4412817b12da6bb99e0590ab1c9cd3e894fc93d5 phy: qcom-qmp-ufs: shorten function prefixes
-b767dedc05ec92a11e99bd9e4ec18ce6abe02388 phy: qcom-qmp-usb: shorten function prefixes
-ecd5507e72ea03659dc2cc3e4393fbf8f4e2e02a phy: qcom-qmp-pcie: add pcs_misc sanity check
-4be26f695ffa458b065b7942dbff9393bf0836ea phy: qcom-qmp-pcie: fix memleak on probe deferral
-1f69ededf8e80c42352e7f1c165a003614de9cc2 phy: qcom-qmp-pcie-msm8996: fix memleak on probe deferral
-2de8a325b1084330ae500380cc27edc39f488c30 phy: qcom-qmp-combo: fix memleak on probe deferral
-ef74a97f0df8758efe4476b4645961286aa86f0d phy: qcom-qmp-ufs: fix memleak on probe deferral
-a5d6b1ac56cbd6b5850a3a54e35f1cb71e8e8cdd phy: qcom-qmp-usb: fix memleak on probe deferral
-79a03925f79e4cfada997db7af1fcd3e958c1a2a phy: qcom-qmp-pcie-msm8996: drop unused pcs_misc handling
-69c90cb51661290e2f49e3d4c18cbbbe56749337 phy: qcom-qmp-pcie: drop unused legacy DT workaround
-064bbdba4f8d30f9ecd0b96c3bcca5535d8811e7 phy: qcom-qmp-combo: drop unused legacy DT workaround
-638255587418a31eadc5b24105c3cee288ae1d0f phy: qcom-qmp-ufs: drop legacy DT workaround
-264dac74e7a31a726bd0bee3d1403faa1e2ae529 phy: qcom-qmp-usb: drop legacy DT workaround
-be7038238bd0f5a7c1aa10fb53b34383c91e4f8c dt-bindings: phy: qcom,qmp-ufs: Fix SM6115 clocks, regs
-4b507195a4c3afa0b4365a34555fd6735ae7e8bc dt-bindings: phy-rockchip-inno-dsidphy: add compatible for rk3568
-b8ecfbaf2e7268d4f934678d00a3849eda0cf7c9 phy: rockchip: inno-dsidphy: Add support for rk3568
-f5d6b5d613e9135e78cd91632a6ed4d04c4e5e49 phy: qcom-qmp-combo: fix sc8280xp PCS_USB offset
-92086b884caf6ff02fda75084a331e70b0e26f81 dt-bindings: phy: renesas,rcar-gen2-usb-phy: Convert to json-schema
-c4c349be07aeec5f397a349046dc5fc0f2657691 phy: amlogic: phy-meson-axg-mipi-pcie-analog: Hold reference returned by of_get_parent()
-8b8934ac6de5da734ebe1b693cc475d11515888f phy: rockchip-snps-pcie3: Use devm_platform_get_and_ioremap_resource()
-0d14f4912606c4858fbe923ac4991c2030f3b9aa dt-bindings: phy: mediatek,tphy: add support type of SGMII
-54511f207ca7b3e63c1fbfed949c8ef7a3faaf2b dt-bindings: phy: mediatek,tphy: add property to set pre-emphasis
-930981b425d94fc09e7597779cda870b1838bc99 phy: phy-mtk-tphy: add property to set pre-emphasis
-8da71ebad8455cde05bb6c148c84f3954b788497 phy: phy-mtk-tphy: disable hardware efuse when set INTR
-3fbbb75c40e6c51bff67dd17959d855fb497c901 phy: phy-mtk-tphy: disable gpio mode for all usb2 phys
-1e77f026eb094cac123e701f97a8c042c82b32a3 phy: phy-mtk-tphy: set utmi 0 register in init() ops
-931c05a8cb1be029ef2fbc1e4af313d4cb297c47 phy: phy-mtk-tphy: fix the phy type setting issue
-8b10ca2f7551e024b60ab5e27d3e3630c029000a gpiolib: fix OOB access in quirk callbacks
-1fbef61beaad9d54f977947cecc9e9d4b34b3dfd phy: ti: phy-j721e-wiz: stop name conflict if multiple serdes are initialized
-971479115444e9f575226e76d5443e6e90954e78 gpio: twl4030: Reorder functions which allows to drop a forward declaraion
-c142bdc5c7207018efa1928317b1e708eda05e09 USB: serial: ftdi_sio: clean up attribute visibility logic
-a8619505a7780e30db259e01a643eca621e963d3 USB: serial: ftdi_sio: move driver structure
-6b2fe3df7c0ca3cf9ee9cea4470462fa708baf87 USB: serial: ftdi_sio: clean up driver prefix
-a050910972bb25152b42ad2e544652117c5ad915 efi/libstub: implement generic EFI zboot
-f55793403c53ffaaaca43948498ed2b8896d9615 riscv: efi: enable generic EFI compressed boot
-c5d5cba795e29ad659271a7ed2dbc87ce1104f7c loongarch: efi: enable generic EFI compressed boot
-c37b830fef1396f9f2ad79a65700e152ec362543 arm64: efi: enable generic EFI compressed boot
-a241d94bb532dcfb7ef3f723e6a0a0e7cf8f10ea efi: libstub: fix type confusion for load_options_size
-8412bb69ed789464adadf7f0906971c7be29e204 habanalabs: build ASICs from new to old
-6b9b9e244fdd0d6c5ee21b7b9d74282d9e43733a habanalabs: remove some f/w descriptor validations
-e403856468456aeaff68a5cb0a851d945c133ed9 habanalabs/gaudi: use 8KB aligned address for TPC kernels
-259cee1c2422bcff7ba6bb4e8179faadb52ebdee habanalabs: eliminate aggregate use warning
-7aa429e8d40ed7e8ab3c0ff5e2836c051ab2434a interconnect: qcom: Kconfig: Make INTERCONNECT_QCOM tristate
-7360d55ba1993cb59267507d04b7e62c40bad424 Merge branch 'icc-ignore-return-val' into icc-next
-361c1ca384c93013e08bd117e4fe23ca9739e3f7 Merge tag 'intel-gpio-v6.1-1' of gitolite.kernel.org:pub/scm/linux/kernel/git/andy/linux-gpio-intel into gpio/for-next
-d80ca810f096ff66f451e7a3ed2f0cd9ef1ff519 efi: libstub: drop pointless get_memory_map() call
-cbb9a572f94be8da041e72a51a7f9968e63d837c Merge tag 'fpga-for-6.1-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/fpga/linux-fpga into char-misc-next
-bfbb588486755be6209f4ab40e6c500fd835f052 Merge tag 'mhi-for-v6.1' of git://git.kernel.org/pub/scm/linux/kernel/git/mani/mhi into char-misc-next
-4ba028e41b0500cc16bf1ee303be48af88b65e77 Merge tag 'iio-for-6.1a' of https://git.kernel.org/pub/scm/linux/kernel/git/jic23/iio into char-misc-next
-8be7dfc6a8eb54589100d4ea15b0039c2d01422b Merge tag 'coresight-next-v6.1' of git://git.kernel.org/pub/scm/linux/kernel/git/coresight/linux into char-misc-next
-d322259506a429f85194f3b28754d615364ea99d Merge tag 'misc-habanalabs-next-2022-09-21' of https://git.kernel.org/pub/scm/linux/kernel/git/ogabbay/linux into char-misc-next
-b402783711bfe93e9da0e3f9eab3aee95cece29d dt-bindings: iio: st,st-sensors add LPS22DF.
-92ba0ab945aee1f3d23b045c893290380e3e059c iio: pressure: st_pressure: Add support for LPS22DF
-5d5129b17f8315d317db01a3f6e050e8ca23952f iio: pressure: bmp280: fix datasheet links
-abf90541d19c17a29bf6137febe71bb2770896f3 dt-bindings: iio: accel: adxl313: Add compatibles for adxl312 and adxl314
-a7a1c60bc4c9159aa3a4cb3e1814145666c3a00c drivers: iio: accel: adxl312 and adxl314 support
-d9d0c0725ae2798bd51f38ae26c2477f6eed40b3 iio: temperature: mlx90614 Refactoring available filter attributes
-558a25f903b4af6361b7fbeea08a6446a0745653 iio: dac: ad5593r: Fix i2c read protocol requirements
-f13c81a3359ccfb2cd8ea2d0609d7d7a91e3dde7 iio: dac: ad5593r: add check for i2c functionality
-5f0c359defea73c0ca27fb47a3a891abf2f5a504 iio: pressure: bmp280: reorder local variables following reverse xmas tree
-2405f8cc8485d7c06fdd7b85a0df1a3febd076d6 iio: pressure: bmp280: use FIELD_GET, FIELD_PREP and GENMASK
-83cb40beaefaf59b224efdabecaac611b783da74 iio: pressure: bmp280: Simplify bmp280 calibration data reading
-b00e805a47a86fb5890a1c2451e4d89043b1761d iio: pressure: bmp280: simplify driver initialization logic
-327b5c0512c18287162d0f12949aae41d64358b0 iio: pressure: bmp280: Fix alignment for DMA safety
-18d1bb377023cad76e01b598da3da53da9fc36b7 iio: pressure: bmp280: reorder i2c device tables declarations
-8d329309184d5824e44c6426bf878c5f1e1156e5 iio: pressure: bmp280: Add support for BMP380 sensor family
-2a332dcd68aff25b5177b5e4196b4d46403ba364 dt-bindings: iio: pressure: bmp085: Add BMP380 compatible string
-10b40ffba2f95cdeed47b731c5ad5ecc73e140e8 iio: pressure: bmp280: Add more tunable config parameters for BMP380
-7f4f1096d5921f5d90547596f9ce80e0b924f887 iio: ltc2497: Fix reading conversion results
-bb43bfedce47c22dfd4df38c9051e930fecd6da9 MAINTAINERS: Remove duplicate matching entry
-14446b4dc2780e86d93f20732c05a8e38eec0ff7 dt-bindings: iio: adc: Add docs for LTC2499
-cc6fbf2672bba1c1042f8e5b8a61067f5d3a3214 Add MAINTAINERS entries for LTC2497 and LTC2496
-2187cfeb362678dae2f6235b20a6ef658836b3d4 drivers: iio: adc: ltc2497: LTC2499 support
-1695c52a1260aee2a33e29add1adca6433d5eac7 drivers: iio: adc: ltc2497: Rename the LTC2499 iio device
-186b9e3845b89df945bb9b370d61ca21888dfa52 iio: imu: st_lsm6dsx: add support to LSM6DSTX
-fd8059ec60193c11e3237bbf86dff4f51946c94e dt-bindings: iio: imu: st_lsm6dsx: add lsm6dstx device bindings
-548616242fe025b8c071e8d760fba6c4f71b0bc6 iio: adc: stm32-adc: add id registers support
-f4f43f01cff2f29779343ade755191afd2581c77 iio: adc: ad7923: fix channel readings for some variants
-096d2dac25f9947d1cb1e16a16468de8fda685e6 iio: adc: ad7923: support extended range
-4b622a658c21d4de7f6fdb6b5e1c99bfb20b2d22 dt-bindings: iio: adi,ad7923: add adi,range-double property
-c2329717bdd3fa62f8a2f3d8d85ad0bee4556bd7 iio: pressure: dps310: Refactor startup procedure
-7b4ab4abcea4c0c10b25187bf2569e5a07e9a20c iio: pressure: dps310: Reset chip after timeout
-bcc57a48eaee63a71983996c4c9d89ce7cbf55d9 iio: add modifiers for linear acceleration
-396882617d1087a0a3fb56d0a59d6dc216640680 iio: document linear acceleration modifiers
-4db63c85462ed81eb3b27f805ed8571f9563dbd7 iio: event_monitor: add linear acceleration modifiers
-dcedf14553810cd6bbf7227c995beb4548e0859d iio: add modifers for pitch, yaw, roll
-246d178c78685fc6ffcd8339ef0e64771024d82f iio: document pitch, yaw, roll modifiers
-ab9d343da3a43c8e28c6341cbf7fd30b6bc42664 iio: event_monitor: add pitch, yaw and roll modifiers
-e0d27ea3ba1332c81060d9d52182953dbc835b40 iio: add support for binary attributes
-4aefe1c2bd0cb0223130671d459cd16efa3d3462 iio: imu: add Bosch Sensortec BNO055 core driver
-4a1728d27225c4cea6b46143fe0c7ec82ccfce54 iio: document bno055 private sysfs attributes
-e4ea07cf89a1208090f596ad69976b0596e990b3 iio: document "serialnumber" sysfs attribute
-21f95c75e0b7e77370177173c67d0931d4020e78 dt-bindings: iio/imu: Add Bosch BNO055
-2eef5a9cc6439a4c8eb4c741a498e72f9335febe iio: imu: add BNO055 serdev driver
-50fe984f376abb4a00f80e13f51465ef09c2bde7 iio: imu: add BNO055 I2C driver
-130476acfdc1663bc402faa3f2faab5a910f696a docs: iio: add documentation for BNO055 driver
-93176acee936d330b600ca93b3ca6e9c40053fa9 iio: proximity: sx9310: Switch to DEFINE_SIMPLE_DEV_PM_OPS() and pm_sleep_ptr()
-d53f6cdc1e5a974d12172978a1f0f8c555d011cb iio: proximity: sx9324: Switch to DEFINE_SIMPLE_DEV_PM_OPS() and pm_sleep_ptr()
-5c682eeecf8a255974e1f8b0695e3de40cb518a6 iio: proximity: sx9360: Switch to DEFINE_SIMPLE_DEV_PM_OPS() and pm_sleep_ptr()
-1364262c8a381dd929f0973f92402c70d4e81b9f iio: proximity: srf04: Use pm_ptr() to remove unused struct dev_pm_ops
-66991b106a2c182c1b499d45d3025318d8774bd6 iio: accel: bmi088: Use EXPORT_NS_GPL_RUNTIME_DEV_PM_OPS() and pm_ptr()
-3259b99e0afc9b7b245b5aaa121a94a2b5d637ce iio: light: st_uvis25: Use EXPORT_NS_SIMPLE_DEV_PM_OPS()
-6ee2a7058fea5d42087045250c667ac02f1a4e20 iio: accel: bma400: Fix smatch warning based on use of unintialized value.
-0e0a07adaff9718f22a55148c764a3d9dd2e1c5c iio: adc: mcp3911: use resource-managed version of iio_device_register
-5db9f38d394f1204f55934e27fe023de1064d317 iio: adc: mcp3911: add support for buffers
-08a65f61db69ae4850c3c15e8fbe6293a09a998d iio: adc: mcp3911: add support for interrupts
-1a84fa695c7385b4f5547795149cb0bdd1073be8 dt-bindings: iio: adc: mcp3911: add microchip,data-ready-hiz entry
-6d965885f4ea82f916d31f17f67b2ad771bdabac iio: adc: mcp3911: add support for oversampling ratio
-cca1fd41ab2862465d75443822d751e4f9a112ee counter: Realign counter_comp comment block to 80 characters
-715a654bc65c648bdc209a20513b2053d46aa5b5 Merge tag 'usb-serial-6.1-rc1' of https://git.kernel.org/pub/scm/linux/kernel/git/johan/usb-serial into usb-next
-7e271f42a5cc3768cd2622b929ba66859ae21f97 usb: host: xhci: Fix potential memory leak in xhci_alloc_stream_info()
-d591b32e519603524a35b172156db71df9116902 xhci: dbc: Fix memory leak in xhci_alloc_dbc()
-484d6f7aa3283d082c87654b7fe7a7f725423dfb xhci: Don't show warning for reinit on known broken suspend
-e11487f1f6a61be48b080ce2edbe3785759dfc7b xhci: show fault reason for a failed enable slot command
-1a855a83592ed968d95ea28f15755c22f8336fba xhci: remove unused command member from struct xhci_hcd struct
-d2e672a67fd24d842874216911ea2d1cdb54173e xhci: remove unused lpm_failed_dev member from struct xhci_hcd
-24b7ba2f88e04800b54d462f376512e8c41b8a3c usb: gadget: function: fix dangling pnp_string in f_printer.c
-af870d93c706c302a8742d7c751a60a832f7bc64 usb: dwc3: Fix typos in gadget.c
-b4e05668348edea7f39bf4dc80be0c0c4ca9ed4b usb: dwc2: Remove redundant license text
-7489ec86bcb3830d3bd161365da425fd28d6382f usb: gadget: add _init/__exit annotations to module init/exit funcs
-e45d7337dc0e4f7f1c2876e1b22c71a544ad12fd usb: typec: anx7411: Use of_get_child_by_name() instead of of_find_node_by_name()
-bb845948d93bd3b175f1d8b27aedfaab379b5638 dt-bindings: usb: qcom,dwc3: Fix SM6115 clocks, irqs
-5032b269203287c17064d33c72be1ebf30c04a95 dt-bindings: usb: dwc2: rockchip: add rockchip,rk3128-usb
-a659daf63d16aa883be42f3f34ff84235c302198 usb: mon: make mmapped memory read only
-76bff31c7fba6cc21bf8f9785572484d54d31878 usb: dwc3: gadget: Do not clear ep delayed stop flag during ep disable
-875296ea8ff227ce906c13d703977a6e794c8b1f usb: dwc3: qcom: drop unneeded compatibles
-23b92adb53a18f1aa366511b4f8a2d0c0458e7e9 dt-bindings: phy: qcom,qusb2: document sdm670 compatible
-d225ea95e9f9be04914f51aaabab7ed04097cd4e dt-bindings: usb: dwc3: add sdm670 compatible
-6ba8b8d45335180523df8f1b6cd1c995a3dbf560 media: v4l: move helper functions for fractions from uvc to v4l2-common
-6b028df7d466a5f7c0263a46256c9bdc42debd9f media: uvcvideo: move uvc_format_desc to common header
-588b9e85609bcb2f84a2be83591480aa943943b6 usb: gadget: uvc: add v4l2 enumeration api calls
-e219a712bc06dc68ecccb3085cb91438bee2466a usb: gadget: uvc: add v4l2 try_format api call
-ec50e114385f9ec7a5995a4b9b4be3a971061af7 usb: dwc3: xilinx: add power management ops support
-d6edcdc1ef06800f63519caac9b01b81274e25b7 usb: dwc3: xilinx: fix usb3 non-wakeup source resume failure
-ff2d2bee475077cb5d023e65fcc0b4f01a3ecdaf usb: dwc3: pci: Update the macro names for USB PCIe device ID's for Alder Lake platforms
-93440d1fdf0a8d15857d755650fdcfc29c04e1f2 usb: dwc3: pci: Add PCIe device ID for USB3 controller on CPU sub-system for Alder Lake P
-eea4c860c3b366369eff0489d94ee4f0571d467d usb: musb: Fix musb_gadget.c rxstate overflow bug
-206732f9a5d8bbae5a2b7f64a469f0a54e626e91 dt-bindings: usb: dwc3: Add gfladj-refclk-lpm-sel-quirk
-a6fc2f1b092787e9d7dbe472d720cede81680315 usb: dwc3: core: add gfladj_refclk_lpm_sel quirk
-5c3d5ecf48ab06c709c012bf1e8f0c91e1fcd7ad arm64: dts: imx8mp: Add snps,gfladj-refclk-lpm-sel quirk to USB nodes
-fc4ade55c617dc73c7e9756b57f3230b4ff24540 USB: add RESET_RESUME quirk for NVIDIA Jetson devices in RCM
-031cba1695d4d3767ba47718077e83f2b5aac944 dt-bindings: usb: snps,dwc3: Add 'snps,resume-hs-terminations' quirk
-63d7f9810a38102cdb8cad214fac98682081e1a7 usb: dwc3: core: Enable GUCTL1 bit 10 for fixing termination error after resume bug
-2a735e4b5580a2a6bbd6572109b4c4f163c57462 usb: dwc3: core: fix some leaks in probe
-ad5dbfc123e6ffbbde194e2a4603323e09f741ee Revert "usb: storage: Add quirk for Samsung Fit flash"
-19fb0a664f6448fe7d6a8105d25f308a28ba499d tty: n_gsm: add enumeration for gsm encodings
-796492de01246f2c39841c7aede375cb394eacbe tty: n_gsm: name gsm tty device minors
-669609cea1d294f43efdd8d57ab65927df90e6df tty: n_gsm: replace use of gsm_read_ea() with gsm_read_ea_val()
-de640bc6b8b1401792aa0ac99b6512411f18a87d tty: n_gsm: introduce gsm_control_command() function
-c07da737af4dd9a29508ae2863fa2afdec130088 tty: n_gsm: name the debug bits
-c22d054f1ed6b3e990436c2dde7d3b7d6a170cff tty: n_gsm: add debug bit for user payload
-ed9f4bb39624af6461774812888847a7d3f7f8b1 tty: serial: cpm_uart: remove unused cpm_uart_nr declaration
-e2752ae3cfc9a486c5af38b302615705992c3a78 serial: omap: Disallow RS-485 if rts-gpio is not specified
-007b20e9ec8d8f5f57cf48b3d129616cf4c0c102 dt-bindings: serial: rockchip: add rockchip,rk3128-uart
-1d5859ef229e381f4db38dce8ed58e4bf862006b drivers: serial: jsm: fix some leaks in probe
-7a4e0d2c7fb8e28bb8ce0687925c9cf91d65f2a0 tty: remove TTY_MAGIC
-5052df99d3bc3cd281222bbcba44323b2d0937d2 tty: remove TTY_DRIVER_MAGIC
-14f9ed6153705016f584e0f6644a2386739dd1e3 tty: n_hdlc: remove HDLC_MAGIC
-0e6357c3b61d6597fc799d05699cdd3cc07c08bd tty: synclink_gt: remove MGSL_MAGIC
-eef7381d8134f249dc17138bb1794c249aff7f5a tty: hvc: remove HVC_IUCV_MAGIC
-0c0bfc6b14388356ce6016b9d548ac8b874013e0 tty: serial: move and cleanup vt8500_tx_empty()
-d9c128117da41cf4cb0e80ae565b5d3ac79dffac tty: serial: clean up stop-tx part in altera_uart_tx_chars()
-3af44d9bb0539d5fa27d6159d696fda5f3747bff tty: serial: altera_uart_{r,t}x_chars() need only uart_port
-0fbf36bb6a072a537478f4e1071eb13c451a16e2 tty: serial: extract lqasc_tx_ready() from lqasc_tx_chars()
-2a4be3a55cd2970aa8c45f6cd1cd9dce09061093 tty: serial: extract tx_ready() from __serial_lpc32xx_tx()
-8ca01f8f70d1e54cf033945ac3539f52b7334c34 tty: serial: switch mpc52xx_uart_int_{r,t}x_chars() to bool
-7ef26ab6feea3459d96dff9e4f98bf8a20bfb809 tty: serial: extract serial_omap_put_char() from transmit_chars()
-9906890c89e4dbd900ed87ad3040080339a7f411 serial: 8250: Let drivers request full 16550A feature probing
-00b7a4d4ee42be1c515e56cb1e8ba0f25e271d8e serial: 8250: Request full 16550A feature probing for OxSemi PCIe devices
-46a8973c4d9d7b12e0e4dd9f589d08d420fb6c0d serial: 8250: Switch UART port flags to using BIT_ULL
-039d4926379b1d1c17b51cf21c500a5eed86899e serial: 8250: Toggle IER bits on only after irq has been set up
-316ae95c175a7d770d1bfe4c011192712f57aa4a tty: serial: fsl_lpuart: disable dma rx/tx use flags in lpuart_dma_shutdown
-b9e947fbf008769ffda1028f627d604757e62265 dt-bindings: serial: atmel,at91-usart: convert to json-schema
-9e1618008064e80dbd2f8aca80a0a3b17b103e70 dt-bindings: serial: atmel,at91-usart: Add SAM9260 compatibles to SAM9X60
-79cb50350069e080e14ea9e3fff31b31f877261d dt-bindings: serial: atmel,at91-usart: Add gclk as a possible USART clock
-1a5a01a1e31e6cc3b83a2c843adba743c2f474b9 tty: serial: atmel: Separate mode clearing between UART and USART
-5644bf1843d915b6fb460fd44f4b9f9ac19a3fbb tty: serial: atmel: Only divide Clock Divisor if the IP is USART
-5e3ce1f261296bfe4bb59a98c82f4959d214a4f7 tty: serial: atmel: Make the driver aware of the existence of GCLK
-f73db49650a1841b038fd20329e6bfbbdcad45ae tty: serial: atmel: Use FIELD_PREP/FIELD_GET
-f47551bd6bfdd9971a5e99e64e12575980d4539f Merge tag 'gnss-6.1-rc1' of https://git.kernel.org/pub/scm/linux/kernel/git/johan/gnss into char-misc-next
-3a939433ddc1bab98be028903aaa286e5e7461d7 serial: ar933x: Deassert Transmit Enable on ->rs485_config()
-adafbbf6895eb0ce41a313c6ee68870ab9aa93cd serial: stm32: Deassert Transmit Enable on ->rs485_config()
-0e8bf26c777a7da6e085ff1f0e31640a042dae5c misc: microchip: pci1xxxx: Remove duplicate include
-dc2c96a39da197da137a797f22bb408b5865514d misc: microchip: pci1xxxx: use DEFINE_SIMPLE_DEV_PM_OPS() in place of the SIMPLE_DEV_PM_OPS() in pci1xxxx's gpio driver
-c8b4747569eba7e5f4835e027d294486534ed0d3 misc: microchip: pci1xxxx: Do not disable the pci device twice in gp_aux_bus_remove()
-62e5d00684ef81b4be35d23e54eec92ee38db7b8 misc: microchip: pci1xxxx: Fix a memory leak in the error handling of gp_aux_bus_probe()
-2408ab5aa876cb0dd5ede23a5dadfec8132f5feb clk: rockchip: Add clock controller support for RV1126 SoC
-f878a26a2a61abae9cb4d01a04a49dfac209b37c dt-bindings: clock: convert rockchip,rk3128-cru.txt to YAML
-cfadbb9df8c4dc917787da4458327e5ec14743d4 cpuidle: riscv-sbi: Fix CPU_PM_CPU_IDLE_ENTER_xyz() macro usage
-ec5c3a359cfaf68d4db30969745db18f9928aab9 Merge branch 'fixes' into next
-fffa0fa4d029c10406d417dd33f630bee4b12c02 dt-bindings: clock: rockchip: change SPDX-License-Identifier
-61ab46fe2a5bf0e04fb61f337c873b47ab4c9a52 phy: qcom-qmp-pcie: drop unused type from config
-7a114df1f2a305d0b0b6855a029384ea628319a5 phy: qcom-qmp-pcie-msm8996: drop unused type from config
-877f3debb33e16f120133c00e62b3525e324e611 phy: qcom-qmp-ufs: drop unused type from config
-44d1b5ad174c56b9257b18ece93afdad78c35b05 phy: qcom-qmp-usb: drop unused type from config
-91174e2c52ea9b5069ee04cffbdfa14837a5b761 phy: qcom-qmp-pcie: drop init and exit wrappers
-fe2da191f125d299835e0bb299e7b35f68aa26e6 phy: qcom-qmp-usb: drop init and exit wrappers
-ec1f303b3eeda24aa78f91a3fd2eb5b09b182783 phy: qcom-qmp: drop unused forward declarations
-7dbea6093d540fa5c8320ae9d024f2eae7314d22 phy: qcom-qmp-pcie-msm8996: drop unused kernel doc
-96da759b5306f8600b44fab81f1816daaab07651 phy: qcom-qmp-pcie: drop unused mode field
-a4683acfa4fb964cab6ac4f486a18095a7bb3131 phy: qcom-qmp-pcie: drop unused config field
-b4e9da4d961faeae3c76ecbc26057f7d00965498 phy: qcom-qmp: drop unused index field
-f02543fa5b2c96cc7196e40992e5b715aa4e6cfc phy: qcom-qmp-pcie: consolidate lane config
-0d316ce5c0491410db8031a36d561f966995eea9 phy: qcom-qmp-pcie-msm8996: rename nlanes config
-099155615ac2ddb457bd8462038901c162e2cb96 phy: qcom-qmp-combo: consolidate lane config
-07d386bf6d50a8a0e8e430a97c5efad616385fb0 phy: qcom-qmp-ufs: consolidate lane config
-a73a19ea382830cf27c49b9dda5aefe84c442a08 phy: qcom-qmp-usb: consolidate lane config
-9d943961912cdbbe33d04ca0144b27997f890d10 phy: qcom-qmp-combo: drop redundant DP config flag
-8283fb57e46246ae998c6961c89a76ef7f14c6d9 thunderbolt: Convert to use sysfs_emit()/sysfs_emit_at() APIs
-8d9dcfff7b1c6b5c4264d91b193336c6f6df9b53 thunderbolt: Use dev_err_probe()
-29c07477556eb68a64f0ff53235feb0bd1cf1f63 phy: mediatek: add a new helper to update bitfield
-6b5ef194611e581b7da2bf0f7d3ad3950b2aaba3 phy: mediatek: tphy: remove macros to prepare bitfield value
-c221baa355483548fb01456442615a838e66aec6 phy: mediatek: xsphy: remove macros used to prepare bitfield value
-2b0c0043846c5c06d52f45f089f7996371359718 phy: mediatek: ufs: use common register access helpers
-d87f2b83739bdfdb5d2787886e247e5a174b4e90 phy: mediatek: pcie: use new helper to update register bits
-b0870c0151440121e78586c7681c5599a1e4eba8 phy: mediatek: hdmi: mt2701: use GENMASK and BIT to generate mask and bits
-a98d935eacc75a6e956045bdef91c7c2dad729f6 phy: mediatek: hdmi: mt2701: use FIELD_PREP to prepare bits field
-cff81a618a53491c783bd798da304c085851361b phy: mediatek: hdmi: mt2701: use common helper to access registers
-a8a78274c6b4ce7af1616ff29551e1808ffa43bb phy: mediatek: hdmi: mt8173: use GENMASK to generate bits mask
-309b4fec539cee6fe7a52938fbfdb6a893237cbd phy: mediatek: hdmi: mt8173: use FIELD_PREP to prepare bits field
-0fb5e57e67b299eed2859614f4229f40c6c19cfc phy: mediatek: hdmi: mt8173: use common helper to access registers
-299a9c72ac7a4ac54cd0482c7d7829f482a88851 phy: mediatek: hdmi: remove register access helpers
-7bd72714327d4783f82ccce12f611b415cbee0d5 phy: mediatek: mipi: mt8173: use GENMASK to generate bits mask
-993aa53ed076a987842be2943dba46b6099d8ec3 phy: mediatek: mipi: mt8173: use FIELD_PREP to prepare bits field
-bd4ba730ff28985c0ecb49da1c6f18488666aa4f phy: mediatek: mipi: mt8173: use common helper to access registers
-d36d69a5517bb4e90a6ba07b043806bffffe19fb phy: mediatek: mipi: mt8183: use GENMASK to generate bits mask
-5f88a93b5aa9bbc85831877c456a9114ba67ea4a phy: mediatek: mipi: mt8183: use common helper to access registers
-60d9b6aaabe827e5ed025355e7d4622f6506b91e phy: mediatek: mipi: remove register access helpers
-a270cc137ba942af554c18db551b9487f04f43a4 phy: ti: phy-j721e-wiz: fix reference leaks in wiz_probe()
-a548b6b4e4d9de38ec9603608875aad914382cb8 phy: qcom-qmp-pcie: Use dev_err_probe() to simplify code
-72f1f6085a731efb655ba6308e1ac54b787b416f phy: qcom-qusb2: Use dev_err_probe() to simplify code
-668dc8afce43d4bc01feb3e929d6d5ffcb14f899 phy: qcom-snps: Use dev_err_probe() to simplify code
-6177f79644a0b4434d66fcfa93568979f3778173 phy: tegra: xusb: Use dev_err_probe() to simplify code
-7706630c56070f6205e8bad637472d802f883b1a phy: intel: Use dev_err_probe() to simplify code
-c3966ced8eb8dc53b6c8d7f97d32cc8a2107d83e phy: qualcomm: call clk_disable_unprepare in the error handling
-4c0255e7957d5a536c6da7ba08cbb46540fb5d42 phy: qcom-qmp-combo: Use dev_err_probe() to simplify code
-413e048a2e51bcc96667c711785b40cf742fb366 phy: qcom-qmp-pcie-msm8996: Use dev_err_probe() to simplify code
-6d9b32fb3e432829e4f46427f334a8fc90233ef8 phy: qcom-qmp-ufs: Use dev_err_probe() to simplify code
-add7000bdd438c4195095dca7bff6877d54d06f4 phy: qcom-qmp-usb: Use dev_err_probe() to simplify code
-4c8928850c9dc5c849ee37d89a79d44a283bdd87 MAINTAINERS: Solve warning regarding inexistent atmel-usart binding
-74adc1f005e6c28f9019ae49cb5f2796e532f25e staging: fwserial: Switch to kfree_rcu() API
-bbc8c3a4c4449e8f30da2287f96271f0a53ff880 staging: rtl8192e: Remove ftrace-like logging in r8192E_firmware.c, ...
-0e260856b724844999d4f90eae4135fc19c69650 staging: rtl8192e: Remove ftrace-like logging in r8192E_dev.c
-7d1409dededd20664c79d34009fd29f72fbcff28 staging: rtl8192e: Remove ftrace-like logging in r8192E_phy.c
-f7624a76e64acc65a6610b469d970d40e5006277 staging: rtl8192e: Remove ftrace-like logging in rtl_dm.c
-42e3a68e2e1ba333fb9898a2340ccd7d5b72a121 staging: rtl8192e: Remove ftrace-like logging in rtl_ps.c
-9bbf2f32859b52cb7870b06de7f7bea0b2d14e3b staging: rtl8192e: Remove ftrace-like logging in rtl819x_BAProc.c, ...
-5a5aa9cce621e2c0e25a1e5d72d6be1749167cc0 staging: rtl8723bs: fix potential memory leak in rtw_init_drv_sw()
-708056fba733a73d926772ea4ce9a42d240345da staging: rtl8723bs: fix a potential memory leak in rtw_init_cmd_priv()
-56fb8f051f3d3ad91c16fa52795f4ddd6bc82c0f staging: rtl8723bs: remove braces in single statement blocks
-47a54e93bf4cb8c29174b954bb92c3fd0cd57202 staging: rtl8723bs: Insert blank line after declarations
-ea1f50427c99446e6601ee2ed1b7d19b161a9957 staging: rtl8723bs: Fix coding style issue in block comment
-e8f5ab391c18493d158e087a37257bfd12f82262 staging: rtl8723bs: replace code indent as tabs
-51c8299a031c19449669d9c15f52427e481c0be6 staging: rtl8723bs: Relocate constant on the right side of test
-21df60c4ab20ae7bad526dcd3dbe6514664befd1 staging: rtl8723bs: Make switch and case at the same indent
-2d3cdad6ea41386d149502edafb9f59687b16fdf staging: rtl8723bs: Add a blank line after declarations
-2a2db520e3ca5aafba7c211abfd397666c9b5f9d staging: vt6655: fix some erroneous memory clean-up loops
-2851349ac351010a2649e0ff86a1e3d68fe5d683 staging: rtl8192u: Fix return type of ieee80211_xmit
-9fabdbe8bcce08faaa51f618a87e3bf3ac264462 staging: pi433: use DEFINE_SHOW_ATTRIBUTE to simplify pi433_debugfs_regs
-b77599043f00fce9253d0f22522c5d5b521555ce staging: octeon: Fix return type of cvm_oct_xmit and cvm_oct_xmit_pow
-06bfdb6d889f57fe9ce7bd139ce278b68f3a59de staging: r8188eu: fix a potential memory leak in rtw_init_cmd_priv()
-5b296918f9f384d454512f17e5ae79344e326056 staging: r8188eu: simplify the code to prevent scan blinking restart
-96f8f22b5183688c6f21815b98a2dcd8519f0906 staging: r8188eu: cancel blink_work before scan blinking
-56e9ef2a7e042c84775ccb4b203e30b33c49f353 staging: r8188eu: update status before scan blinking
-38eec30471303a278b914b832fdd88d766f7981a staging: r8188eu: simplify the code to prevent tx/rx blinking restart
-5ef21996f3fc19b6826547751b5ee27295bbb0da staging: r8188eu: cancel blink_work before tx/rx blinking
-8a42af27b4321227e8e461f02ed6d3bdf78fd556 staging: r8188eu: update status before scan blinking
-b1c17560de5446a68b047df38abd02987c045624 staging: r8188eu: simplify the code to prevent link blinking restart
-21cce84a7c3526ce6aa3186161ba574db7245ab6 staging: r8188eu: cancel blink_work before link blinking
-8a8380fff3cbd8138a4e09b4d47a8717f14463a5 staging: r8188eu: update status before link blinking
-d9a28d22308b46349cb5c0021fa142522e056263 staging: r8188eu: rename odm_SignalScaleMapping()
-971193b46a5324c4e961a35794cbb0e8f688e103 staging: r8188eu: clean up camel case in odm_signal_scale_mapping()
-5440b9312262d17be614e83764e8a91196610cff staging: r8188eu: remove unnecessary initialization
-6c268b6e29257295257ff71b29fe65aab3e5c736 staging: r8188eu: rename odm_QueryRxPwrPercentage()
-f7438373fa0283d5b086df238e19f3d3ded9b8e5 staging: r8188eu: clean up camel case in odm_query_rxpwrpercentage()
-368eca5bcf61401d4cdd0070ff9688171996e4c0 staging: r8188eu: replace tabs with space in odm_query_rxpwrpercentage()
-b067be8290734c2bdcd2d00b3a755129ff85ae54 staging: r8188eu: make _netdev_open() static
-a1974d31545c98e1fcc39c932482c45d6a331a4e staging: r8188eu: remove unused prototypes from recv_osdep.h
-00def639882747aad89dfd095ea95f295ad034d3 staging: r8188eu: remove recv_osdep.h
-f63ed6cf93014c7fac56d82069801a26ab8b04a6 staging: r8188eu: add kfree() on an error path of rtw_xmit_resource_alloc()
-f44641bfc4e81fb2f37a92fb13afdc7c63c9114b staging: r8188eu: fix potential memory leak in _rtw_init_xmit_priv()
-9512d5f8e34fb7c92be6179dc48ba5f0b9b922ac staging: r8188eu: Fix return type of rtw_xmit_entry
-cb2b3460133cf5f91f79abb4d63812dc9be67004 staging: r8188eu: cancel blink_work during wps stop
-b08d89994dbb2fd38ce5c299b6b486e2b2621a07 staging: r8188eu: update status before wps success blinking
-64c82a8888a658c117e398af83446e28c1d58114 staging: r8188eu: remove bLedNoLinkBlinkInProgress
-bf0d687586f62db4f7000456c63a45c23b08bbb2 staging: r8188eu: remove BlinkingLedState
-8f60cb9534e459d66f6888038951ffd74351ef25 staging: r8188eu: remove duplicate bSurpriseRemoved check
-f6633de18d95545abf285c1d5c8cc8deeda5341b staging: r8188eu: remove two unused enum entries
-ec9c88070debd8d87335f2468481a41d6bc2d0c6 Merge 1707c39ae309 ("Merge tag 'driver-core-6.0-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/driver-core") driver-core-next
-4abc99652812a2ddf932f137515d5c5a04723538 kernfs: fix use-after-free in __kernfs_remove
-b8de524ce46ef59889600bc29019c5ed4ccd6687 debugfs: Only clobber mode/uid/gid on remount if asked
-01daccf748323dfc61112f474cf2ba81015446b0 devcoredump : Serialize devcd_del work
-766c5a3ecb319cff62612568d05756c85a759998 Documentation: remove nonexistent magic numbers
-53c2bd679017277fce41101ae86ab51a234c29f7 a.out: remove define-only CMAGIC, previously magic number
-ddbded78f78953c121d9626f5fb803b8ef0134c4 Bluetooth: RFCOMM: remove define-only RFCOMM_TTY_MAGIC ex-magic-number
-21c660fd7c935ad76f6851b6f233e1df1530261f MIPS: remove define-only GDA_MAGIC, previously magic number
-03b15a984dc3b6c605e5abc83cdc978a7f1a0659 Documentation: HFS is not a user of magic numbers
-82b5b4e6cc81770125f09f5f21d71436d70d7436 Documentation: sndmagic.h doesn't exist
-4235e896928f54fbea25088e88fb576789f78b2b Documentation: zh: remove references to IrDA
-63e79d3f7cbe78196c4360e9fb2c5ecaba779cfd Documentation: zh: remove stale magic numbers
-60464c2d3ff088621cb18c2bdac8b69e0c3fc26d Documentation: CG_MAGIC isn't a magic number
-ba5e03f15aebb514b04fd663946b54a0af5c6ed2 Documentation: FULL_DUPLEX_MAGIC isn't a magic number
-976c957c197bc909687d77e8b892a66f3875926b Documentation: RIEBL_MAGIC isn't a magic number
-6a0abf8ff9940f6f2a1c678fccadabad442a6ed6 Documentation: SAVEKMSG_MAGIC[12] aren't magic numbers
-4da0cdb1a6a72c336af3b336f775247574c7bb31 Documentation: COW_MAGIC isn't a magic number
-03acba12179c5359882f35bdf316e211bfbfe00d Documentation: EEPROM_MAGIC_VALUE isn't a magic number
-4b0ab3d522cac8934cc1d0abe0e19d29dc75e671 Documentation: FW_HEADER_MAGIC isn't a magic number
-bd5926220ffe00e1f6f09b3b27808f29fa6a8cef nbd: remove define-only NBD_MAGIC, previously magic number
-82805818898ddd3c35e1171885169fd45a7fedcc Documentation: NBD_REPLY_MAGIC isn't a magic number
-21760e5c3829ed093953b990681aa1ba1b86ad31 Documentation: ENI155_MAGIC isn't a magic number
-5038d21dde818fe74ba1fcb6f2cee35b8c2ebbf2 slimbus: qcom-ngd: use correct error in message of pdr_add_lookup() failure
-16f14551d0df9e7cd283545d7d748829594d912f slimbus: qcom-ngd: cleanup in probe error path
-e7a3c8b9b1c212462332170a81353eea992762aa slimbus: qcom-ngd: simplify error paths with dev_err_probe
-e291691c69776ad278cd39dec2306dd39d681a9f slimbus: qcom-ngd-ctrl: allow compile testing without QCOM_RPROC_COMMON
-bd1244561fa2a4531ded40dbf09c9599084f8b29 nvmem: core: Fix memleak in nvmem_register()
-42992cf187e4e4bcfe3c58f8fc7b1832c5652d9f slimbus: qcom-ngd: Add error handling in of_qcom_slim_ngd_register
-d5542923f200f95bddf524f36fd495f78aa28e3c nvmem: add driver handling U-Boot environment variables
-4a575865c1ea67018d96acda9b43e5d3d25b2366 mtd: allow getting MTD device associated with a specific DT node
-5544e90c81261e82e02bbf7c6015a4b9c8c825ef nvmem: core: add error handling for dev_set_name
-ff1df1886f43365f2333770f89a7b435424897f4 dt-bindings: nvmem: mediatek: efuse: Add support for MT8188
-d3524bb5b9a0c567b853a0024526afe87dde01ed nvmem: brcm_nvram: Use kzalloc for allocating only one element
-105ca4190dcf15903cc2b503df7ce473715c432f dt-bindings: nvmem: qfprom: add IPQ8064 and SDM630 compatibles
-28fc7c986f01fdcfd28af648be2597624cac0e27 nvmem: prefix all symbols with NVMEM_
-a06d9e5a63b7c2f622c908cd9600ce735e70f7c6 nvmem: sort config symbols alphabetically
-8f6a3a19e99cdb52b0ff0d2d3197e810258b6e46 dt-bindings: nvmem: Add SoC compatible for sm6115
-d4d432670f7dee0a5432fcffcfc8699b25181ace nvmem: u-boot-env: find Device Tree nodes for NVMEM cells
-d1b274c4819deed7673e5edec12fea1e57110ad8 dt-bindings: lan9662-otpc: document Lan9662 OTPC
-9e8f208ad5229ddda97cd4a83ecf89c735d99592 nvmem: lan9662-otp: add support
-3717ca3e0cc8683f93b41d3f06ca79631eb58715 nvmem: u-boot-env: fix crc32 casting type
-1b46c82146d732aa6dab5ef51a89ec0b53bd05b4 drivers/misc/sgi-xp: Remove orphan declarations from drivers/misc/sgi-xp/xp.h
-4b25cf09c69c0e48e7fb75786f29b50bddf50ebf mei: fix repeated words in comments
-9ea224b119223ddacbed3d7c96a30b2823e09579 mei: gsc: Remove redundant dev_err call
-711898b1d5ac37bc85a9495f3f2815f5fbd0a937 MAINTAINERS: Add header files under VMWARE VMCI DRIVER
-a5ccec12acfaf3a7ebbbeb90555b35b275fce0df bus: mvebu-mbus: use DEFINE_SHOW_ATTRIBUTE to simplify mvebu_{sdram/devs}_debug
-3e081438b8e639cc76ef1a5ce0c1bd8a154082c7 firmware: google: Test spinlock on panic path to avoid lockups
-d70590d53a8996acf55426ba934d49eee9f091cd driver core: use IS_ERR_OR_NULL() helper in device_create_groups_vargs()
-19029f3f47c7f2dd796cecd001619a37034d658a debugfs: use DEFINE_SHOW_ATTRIBUTE to define debugfs_regset32_fops
-0406faf25fb12d29cb1823e641c6f3f3e2037735 drm_print: condense enum drm_debug_category
-f158936b60a7874f29cf8de8d83191ad69119c11 drm: POC drm on dyndbg - use in core, 2 helpers, 3 drivers.
-e820f52577b14c63f7a15f534e17088d3c6afa6c drm_print: interpose drm_*dbg with forwarding macros
-84ec67288c10fbf136aa050d00b0fe7a89655da0 drm_print: wrap drm_*_dbg in dyndbg descriptor factory macro
-ee7d633f2dfb12bac90898edf2ceb5f43a4957eb drm-print.h: include dyndbg header
-95a77b6331c2d2313aa843fa77ec91cd092ab0e4 drm-print: add drm_dbg_driver to improve namespace symmetry
-6ce6fae8453687e39e564dc15b6142fe79d76ad5 drm_print: optimize drm_debug_enabled for jump-label
-ccc2b496324c13e917ef05f563626f4e7826bef1 drm_print: prefer bare printk KERN_DEBUG on generic fn
-16deeb8e18cafd30e70d8dc2b12a753b28298d8a drm_print: add _ddebug descriptor to drm_*dbg prototypes
-aade55c86033bee868a93e4bf3843c9c99e84526 device property: Add const qualifier to device_get_match_data() parameter
-4314a0b79fe18f8c734c6bdb7e994313de730d7f Merge tag 'iio-for-6.1b' of https://git.kernel.org/pub/scm/linux/kernel/git/jic23/iio into char-misc-next
-a12c689209185c1ad872723a644d0cd27e52d49c Merge 7e2cd21e02b3 ("Merge tag 'tty-6.0-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/tty") into tty-next
-77b2d26805c9b438b5f74cf73849979d28cefeb3 serial: 8250_omap: Convert to use uart_xmit_advance()
-e02fbb0bcb9b6d5f83f01af87bc643dd0d78319b serial: 8250_dma: Convert to use uart_xmit_advance()
-7c7f9bc986e698873b489c371a08f206979d06b7 serial: Deassert Transmit Enable on probe in driver-specific way
-379a33786d489ab81885ff0b3935cfeb36137fea serial: 8250: Fix restoring termios speed after suspend
-1a77dd1c2bb5d4a58c16d198cf593720787c02e4 scsi: tracing: Fix compile error in trace_array calls when TRACING is disabled
-3d217b9ac532571335e69e64acf03a307b7acaf3 scsi: core: Make SCSI_MOD depend on BLOCK for cleaner .config files
-1a2433b0ec45acd71130bd0bf419394c7d7d85c0 scsi: ufs: core: Remove redundant function definitions from ufshcd.h
-d88a0240ff76062eb0728963e7aacf6dbe87f7c7 scsi: scsi_transport_fc: Adjust struct fc_nl_event flex array usage
-46ba53c30666717cb06c2b3c5d896301cd00d0c0 scsi: libsas: Fix use-after-free bug in smp_execute_task_sg()
-d8c22c4697c11ed28062afe3c2b377025be11a23 scsi: pm8001: Fix running_req for internal abort commands
-c682df71996aee74c6a50d0fe491c135a7bea1e7 scsi: hptiop: Replace one-element array with flexible-array member
-5b12a568cc6f69bfd9f7286d6e9c3e47392d240b scsi: hptiop: Use struct_size() helper in code related to struct hpt_iop_request_scsi_command
-d20796627fec15e79727b147707c632b0e2ca162 scsi: hptiop: Replace one-element array with flexible-array member in struct hpt_iop_request_ioctl_command()
-0fb9125e2aff083f42787cd686188c944d1a11f7 scsi: 3w-xxxx: Replace one-element array with flexible-array member
-fd2f045202d12c55748090885c47cc5f9a6c3c72 scsi: pm8001: Replace one-element array with flexible-array member
-592642e6b11e620e4b43189f8072752429fc8dc3 scsi: qedf: Populate sysfs attributes for vport
-48517eefb20ec2d6595ebd77ae11f34b3540cd78 scsi: core: Add I/O timeout count for SCSI device
-d4a0a0f2c84ad810141e25c3490d4e314fcf4838 scsi: wd33c93: Remove dead code related to the long-gone config WD33C93_PIO
-f920642e406cfa17ebecf03d5b83a02273ec718e scsi: mpt3sas: Revert "scsi: mpt3sas: Fix writel() use"
-d82e68483b81768c8d19bc7529635dad741607ce scsi: mpt3sas: Revert "scsi: mpt3sas: Fix ioc->base_readl() use"
-ee6f2d6bb2a0a3824b8f1d2cd4ceba8f8a3fb193 scsi: mpi3mr: Update mpi3 header files
-47cd930ee6aed7d63312ef133d1d46c4be42d6a9 scsi: mpi3mr: Support new power management framework
-7f9f953d537a7c8362ed6adafd25ef8deb548756 scsi: mpi3mr: Schedule IRQ kthreads only on non-RT kernels
-f2a79d2030ad9055e58f5b617f655fa5e270a57c scsi: mpi3mr: Graceful handling of surprise removal of PCIe HBA
-bad2f28da6250120ddbd19e4b68c814b3e3aaa2d scsi: mpi3mr: Handle 0xF003 Fault Code
-130fc180a48141cb6fbfdb30138a114cf9be61c7 scsi: mpi3mr: Free enclosure objects during driver unload
-f84e8b5bb57eb64391a45f95ebf0e2a179d8c566 scsi: mpi3mr: Scan the devices during resume time
-2e31be8697b16391d33c74c47f09fdef5015369e scsi: mpi3mr: Fix scheduling while atomic type bug
-f616efbee9d64cbd3b7b955914fea01cbdd95710 scsi: mpi3mr: Update driver version to 8.2.0.3.0
-6022f210461fef67e6e676fd8544ca02d1bcfa7a scsi: stex: Properly zero out the passthrough command structure
-c863a2dcb9b0894d9ac6030c4d1ab2e7867dabcb scsi: mpi3mr: Remove unnecessary cast
-57569c37f0add1b6489e1a1563c71519daf732cf scsi: iscsi: iscsi_tcp: Fix null-ptr-deref while calling getpeername()
-9483811a126a319ecac749f1b767ea5faecc7aed extcon: usbc-tusb320: Factor out extcon into dedicated functions
-bf7571c00dca0a9c5af3f5125ef5a89a40b13cd5 extcon: usbc-tusb320: Add USB TYPE-C support
-08099ecd9216219f51cc82637f06797cf81890b6 extcon: usbc-tusb320: fix kernel-doc warning
-d5099c95c93d63c41c9db0b1d030526b9ef11c0b dt-bindings: mediatek: Document MT6795 system controllers bindings
-32ccd1ab09059c1d126f4e28fcccd7a4843f47e4 dt-bindings: clock: Add MediaTek Helio X10 MT6795 clock bindings
-f098c088f968dd159619c8447712b02f7ace178b dt-bindings: reset: Add bindings for MT6795 Helio X10 reset controllers
-e629bf40d33cd469faace0ec57f6a55ac097f768 dt-bindings: clock: mediatek: Add clock driver bindings for MT6795
-85b2181c285c9d6348704db98d6e40f5c2c93c01 clk: mediatek: clk-apmixed: Remove unneeded __init annotation
-7cbe5cb291fa3cbd069152f8f955bff06b851923 clk: mediatek: Export required symbols to compile clk drivers as module
-b7520e2d4ed18af69d4da44ab3c61c62dbf84c8c clk: mediatek: clk-apmixed: Add helper function to unregister ref2usb_tx
-0d363282bb0c42dd412c9daa0c8a77e84fa32262 clk: mediatek: Add MediaTek Helio X10 MT6795 clock drivers
-973d1607d936cd319a1ec47a7d181e078150bd00 clk: mediatek: mt2701: use mtk_clk_simple_probe to simplify driver
-f3e4e7350e2c457a63eb7efc0ea28277fa5fc990 clk: mediatek: mt2712: use mtk_clk_simple_probe to simplify driver
-2b74c1f6efc6df15c7579f7e573d4cd80d6e3ba3 clk: mediatek: mt6765: use mtk_clk_simple_probe to simplify driver
-dc6fdd8a1b9fa3256b035a47313ed077716fc2ff clk: mediatek: mt6779: use mtk_clk_simple_probe to simplify driver
-a481c6c73bffc2e4ac3ffba8871d67ce2438c4b2 clk: mediatek: mt6797: use mtk_clk_simple_probe to simplify driver
-d36d697a00f1896acc305e93501697cf2ba1da54 clk: mediatek: mt8183: use mtk_clk_simple_probe to simplify driver
-43eb33c6a1112766def8099e063763733a413329 clk: mediatek: mt8192: add mtk_clk_simple_remove
-879b752b97f12b678978e17f57316641ef0f2aa0 dt-bindings: clk: mediatek: Add MT8195 DPI clocks
-3dfe6e17c97b16971619b53c2cc79185c7f8b9aa clk: mediatek: add VDOSYS1 clock
-0f65caa911019561d71ceb70f0d1c7a965b3045f Merge tag 'extcon-next-for-6.1' of git://git.kernel.org/pub/scm/linux/kernel/git/chanwoo/extcon into char-misc-next
-5066c9acf5656fb96fed2cff646fe312e9a2962f clk: mediatek: gate: Export mtk_clk_register_gates_with_dev
-9ec105db6d13101627dc1f991904a3b07a32c998 clk: mediatek: Use mtk_clk_register_gates_with_dev in simple probe
-2e2cb44c03d2a1c2704ef1ce40159e06a01b09dc staging: rtl8192e: Rename Tx_Retry_Count_Reg
-877fe503e6310675830198233c326b27b74c5cec staging: rtl8192e: fix CamelCase variables
-db65becab2a331863620be9a1c08eccbdd0e03a7 staging: fwserial: delete the driver.
-ec07986067a7496b437fba3ca7c987e61a54f7d4 staging: rtl8192e: Rename eRFPowerState, eRfOff and eRfOn
-b7dd95be88aac0f768191c92091a040886ec51ca staging: rtl8192e: Rename eRfSleep, eRfPowerStateToSet and RfOffReason
-92b2f4b851d970b4c3f82dc2ca3c3984278d524a staging: rtl8192e: Rename dot11Cur..., bCurTxBW40MHz and bCurrentRT2...
-27dd3f00a7fd2ed391b9726d21d30d45d4066e42 staging: rtl8192e: Rename bSwBwInPro..., bRegRT2RTAg... and bCurrentRT...
-55bce0ae3689a098337ce8953a172c7ac590dcb2 staging: rtl8192e: Rename szRT2RTAggBuffer, bRegRxRe... and bCurRxReo...
-155c89f195360270b6139229f48b044a3f13be9c staging: rtl8192e: Rename RxRe...WinSize, RxReorder... and RxReorderDr...
-9c63f13358e533ea3996f32e7199a8c08e5e845a staging: rtl8192e: Rename PeerMimoPs, IOTAction and IOTRaFunc
-be13eda50611cb7ccfe2269ebdc3e2c371f60b5e staging: rtl8192e: Rename SelfMimoPs, CurrentOpMode and bForcedShortGI
-53be6238f8bfcd1c960711b912ba1029dd17cf7d staging: rtl8192e: Rename CurrentMPDU..., ForcedAMPDU... and ForcedMPDU...
-9d92bb1d89f5564653d7ee81d090c93f6e149da8 staging: rtl8192e: Remove unused variables ForcedAMSDUMaxSize, ...
-647085006beb2cc41bef27a24f249f4dec3c1e15 staging: r8188eu: don't check bSurpriseRemoved in SwLedOff
-7589197485da6fb02f3c06cfd7465aa2193da563 staging: r8188eu: don't check for stop/removal in the blink worker
-67102bd31b4e31abb0abbc390381212a2d65db72 Merge 6.0-rc7 into usb-next
-3de50478b5cc2e0c2479a5f2b967f331f7597d23 media: flexcop-usb: clean up endpoint sanity checks
-fd449bb9ac44fdc334907db7bcc20ade9a4037cd media: flexcop-usb: clean up URB initialisation
-a8be6b6ee9595d425f304770811f3513a503e61c media: flexcop-usb: use usb_endpoint_maxp()
-9a10ccb29c0a2befa5a9f691ed0ae37ee3e799a8 powerpc/pseries: move hcall_tracepoint_refcount out of .toc
-0c32903197ce9f7119aee75a6bcaa4b49e0cd21a powerpc/64: Remove unused prom_init_toc symbols
-331771e836e6a32c8632d8cf5e2cdd94471258ad powerpc/vmlinux.lds: Ensure STRICT_ALIGN_SIZE is at least page aligned
-b150a4d12b919baf956b807aa305cf78df03d0fe powerpc/vmlinux.lds: Add an explicit symbol for the SRWX boundary
-7082f8e7d2276575a8806370007cbb4a7b9abdce powerpc: move __end_rodata to cover arch read-only sections
-1faa1235c1a00614bc4849a8dbd0790363c9a22f powerpc/32/build: move got1/got2 sections out of text
-f21ba4499a15b76ad6013ca0a60873dbcf164c7b powerpc/build: move got, toc, plt, branch_lt sections to read-only
-b6adc6d6d327229d75607a948cde2349d317f366 powerpc/build: move .data.rel.ro, .sdata2 to read-only
-c787fed11890babda1e4882cd3b6efaf412e1bde powerpc/64/build: only include .opd with ELFv1
-1e9eca485a840985a663080eb049c420272d4bdd powerpc/64/build: merge .got and .toc input sections
-fdfdcfd504933ed06eb6b4c9df21eede0e213c3e powerpc/build: put sys_call_table in .data.rel.ro if RELOCATABLE
-e74611aa91bb9939dfc4a41b045a1a19227cff98 powerpc/64: Remove unused SYS_CALL_TABLE symbol
-456c3005102b18cce6662b1915c6efffe7744dcc powerpc/microwatt: Remove unused early debug code
-51da853e3708852f47cd95e6f5e1821c3d54c3ef powerpc/mm/64s: Drop pgd_huge()
-79c5640ab4460a03535ce0f120193174e7701b65 powerpc/mm/64s: Drop p4d_leaf()
-a26494cf4aeb8e9888428a43f55cc486f06f1334 powerpc/nohash: Remove pgd_huge() stub
-691cdf016d3be6f66a3ea384809be229e0f9c590 powerpc: Rely on generic definition of hugepd_t and is_hugepd when unused
-73ea68ad0d2f655815b6f1fbe1c5521d72f01b64 powerpc/book3s: Inline first level of update_mmu_cache()
-b997b2f57cae396448bb62c428efa4b112dd90ed powerpc/mm: Reduce redundancy in pgtable.h
-6cc07821adce44e864c3752a3842936a6a7f6aef powerpc/mm: Make PAGE_KERNEL_xxx macros grep-friendly
-c4167aec98524fa4511b3222303a758b532b6009 powerpc/prom_init: drop PROM_BUG()
-2fc1c63d2763ad7562ea7d241da79b42538a557b powerpc/highmem: Properly handle fragmented memory
-ecf8f36446f53866727d9670df1746f8d20130a8 powerpc: Always select HAVE_EFFICIENT_UNALIGNED_ACCESS
-c9986f0aefd1ae22fe9cf794d49699643f1e268b powerpc: dts: turris1x.dts: Fix NOR partitions labels
-8bf056f57f1d16c561e43f9af37301f23990cd21 powerpc: dts: turris1x.dts: Fix labels in DSA cpu port nodes
-d1203f32d86987a3ccd7de9ba2448ba12d86d125 powerpc/Kconfig: Fix non existing CONFIG_PPC_FSL_BOOKE
-0069f3d14e7a656ba9d7dbaac72659687fdbf43c powerpc/64e: Tie PPC_BOOK3E_64 to PPC_E500MC
-b6100bedf1f9aea264757ac4a56eb1d8b04b9356 powerpc/64e: Remove unnecessary #ifdef CONFIG_PPC_FSL_BOOK3E
-afd2288a4c7d3400a53cb29616742f4395a809a1 powerpc/cputable: Remove __machine_check_early_realmode_p{7/8/9} prototypes
-a5e3aaa654c15760afdfb85d0b6fd825ce068efc microblaze: Add xmb_manager_register function
-88707ebe77e23e856981e597f322cabbf6415662 microblaze: Add custom break vector handler for mb manager
-adc4cefae9cfafc1c88b789021266d6f09a0ecef microblaze: Add support for error injection
-0ae3109a839192920f09338e9abc4d5321107865 gpiolib: cdev: add fdinfo output for line request file descriptors
-76b719881a26fec3b77652134f19cf1dfcc96318 powerpc/cputable: Move __cpu_setup() prototypes out of cputable.h
-e320a76db4b02e1160eb4bfb17d8d1bc57979955 powerpc/cputable: Split cpu_specs[] out of cputable.h
-dfc3095cec27f402c183da920f4733785e4c873d powerpc: Remove CONFIG_FSL_BOOKE
-d7216567c65cbed655f9bf87ef906f9246d6f698 powerpc/cputable: Split cpu_specs[] for mpc85xx and e500mc
-e0d68273d7069537701bb91c51d90d1e12aacc33 powerpc: Remove CONFIG_PPC_BOOK3E
-1df399012b6ab0b24466a0675710a53e3feb000f powerpc: Remove redundant selection of E500 and E500MC
-688de017efaab8a7764ab2c05ce7128d0361023b powerpc: Change CONFIG_E500 to CONFIG_PPC_E500
-404a5e72f4dfd80dda6a3e9edd18012f79287bff Documentation: Rename PPC_FSL_BOOK3E to PPC_E500
-ec65560ad84d9d2eb98cf864e3b530856cafd233 watchdog: booke_wdt: Replace PPC_FSL_BOOK3E by PPC_E500
-3e7318584dfec11992f3ac45658c4bc1210b3778 powerpc: Remove CONFIG_PPC_FSL_BOOK3E
-aa5f59df201dd350f7c291c845ac8b62c0d0edd5 powerpc: Remove CONFIG_PPC_BOOK3E_MMU
-772fd56deca62628c638d1a9bd2d34cbd371bb81 powerpc: Replace PPC_85xx || PPC_BOOKE_64 by PPC_E500
-73d11498793f495d64230308afa50905f012f080 powerpc: Simplify redundant Kconfig tests
-6556fd1a1e9fcd180348c4368d2387bdc6a17613 powerpc: Cleanup idle for e500
-605ba9ee8aaabc77178b369ec6f773616089020d powerpc: Remove impossible mmu_psize_defs[] on nohash
-4af83545538a4fa80d14b9247ffc0db556e6a556 powerpc/irq: Refactor irq_soft_mask_{set,or}_return()
-5ba6c9a912fe4c60f84d6617ad10d2b8d7910990 powerpc: Remove asmlinkage from syscall handler definitions
-2c27d4a419f627636b8c6038e55acb26df05c391 powerpc: Save caller r3 prior to system_call_exception
-9d54a5ce3aa87810f13cd33b314097ac6d28c350 powerpc: Add ZEROIZE_GPRS macros for register clears
-2b1dac4b5f97ea88fb01dfcab7fc24500b5dea95 powerpc/64s: Use {ZEROIZE,SAVE,REST}_GPRS macros in sc, scv 0 handlers
-15ba74502ccfd0b34dad0ea022093ccc66b334d6 powerpc/32: Clarify interrupt restores with REST_GPR macro in entry_32.S
-53ecaa6778d613807e590c320ccfcf48a4114108 powerpc/64e: Clarify register saves and clears with {SAVE,ZEROIZE}_GPRS
-620f5c59c8617d623428c03414a022fca4e9eea2 powerpc/64s: Fix comment on interrupt handler prologue
-016ff72bd2090903715c0f9422a44afbb966f4ee powerpc: Fix fallocate and fadvise64_64 compat parameter combination
-43d5de2b67d7f4a8478820005152f7f689608f2f asm-generic: compat: Support BE for long long args in 32-bit ABIs
-c2e7a19827eec443a7cbe85e8d959052412d6dc3 powerpc: Use generic fallocate compatibility syscall
-b6b1334c9510e162bd8ca0ae58403cafad9572f1 powerpc/32: Remove powerpc select specialisation
-4df0221f9ded8c39aecfb1a80cef346026671cb7 powerpc: Remove direct call to personality syscall handler
-5a2a961be2ad6a16eb388a80442443b353c11d16 KVM: fix memoryleak in kvm_init()
-afe30b59d30b80d91c70664f58c05ba149ef3a5d KVM/VMX: Avoid stack engine synchronization uop in __vmx_vcpu_run
-db25eb87ad42f6eb3dcc045e760fc9e23df3e845 KVM: SVM: remove unnecessary check on INIT intercept
-b5cb32b16ce7f757b53f14586bbdd05c3b7ebc29 KVM: x86: Delete duplicate documentation for KVM_X86_SET_MSR_FILTER
-faa03b39722a86e4b83e594151d1775875a0c7ca KVM: Add extra information in kvm_page_fault trace point
-bff0adc40c0050dbbcec74829ffa9ef5a5d29eba KVM: x86: Use u64 for address and error code in page fault tracepoint
-89e54ec592324ed8b2b1eb41f91c1a4b724b0db5 KVM: x86: Update trace function for nested VM entry to support VMX
-37ef0be269540028a375f28a68ac16979a4349df KVM: nVMX: Add tracepoint for nested VM-Enter
-02dfc44f205772f0edc0d8e58420205c1cf2f83b KVM: x86: Print guest pgd in kvm_nested_vmenter()
-e390f4d69da026149c8c80a7a2218e166d5643fc KVM:x86: Clean up ModR/M "reg" initialization in reg op decoding
-57abfa11ba9b64d123289e261ddb05775f4fd3ac KVM: VMX: Do not declare vmread_error() asmlinkage
-5f5651c67311fd10d2309339005db5118f29621d KVM: selftests: Require DISABLE_NX_HUGE_PAGES cap for NX hugepage test
-ea9da788a61e47e7ab9cbad397453e51cd82ac0d x86/hyperv: Fix 'struct hv_enlightened_vmcs' definition
-5ef384a60f22f70a99b45f769144761de37b037c x86/hyperv: Update 'struct hv_enlightened_vmcs' definition
-ce2196b831b1e9f8982b2904fc3e8658cc0e6573 KVM: x86: Zero out entire Hyper-V CPUID cache before processing entries
-1cac8d9f6bd25df3713103e44e2d9ca0c2e03c33 KVM: x86: Check for existing Hyper-V vCPU in kvm_hv_vcpu_init()
-3be29eb7b5251a772e2033761a9b67981fdfb0f7 KVM: x86: Report error when setting CPUID if Hyper-V allocation fails
-85ab071af83952a44473e3d02304c17053ade2f4 KVM: nVMX: Treat eVMCS as enabled for guest iff Hyper-V is also enabled
-f4d361b4c29477dbcc6e436b9425ee2716aecc6e KVM: nVMX: Refactor unsupported eVMCS controls logic to use 2-d array
-6cce93de28c23ca0272111ec1eeeee4da6545722 KVM: nVMX: Use CC() macro to handle eVMCS unsupported controls checks
-b19e4ff5e5582217b0c1d2df3e4e1451b6c91e5d KVM: VMX: Define VMCS-to-EVMCS conversion for the new fields
-c9d31986e86d0f4e237f17d2d56e5c6bcf1d9d12 KVM: nVMX: Support several new fields in eVMCSv1
-dea6e140d927b8d9b299f972eac5574de71bc75f KVM: x86: hyper-v: Cache HYPERV_CPUID_NESTED_FEATURES CPUID leaf
-a0fa4b7abf416dcea483a2e0d8f978314e72f2b6 KVM: selftests: Add ENCLS_EXITING_BITMAP{,HIGH} VMCS fields
-8174193163095238e70e0decd121feb4b9ef8cc0 KVM: selftests: Switch to updated eVMCSv1 definition
-3ff8a13d41b283932ec6ac692c6def22a157269b KVM: nVMX: WARN once and fail VM-Enter if eVMCS sees VMFUNC[63:32] != 0
-4da77090b0fcec1aa430e67631a1474343a33738 KVM: nVMX: Support PERF_GLOBAL_CTRL with enlightened VMCS
-9bcb90650e314ee8ac748f319ffcd2c1d7f53632 KVM: VMX: Get rid of eVMCS specific VMX controls sanitization
-def9d705c05eab3fdedeb10ad67907513b12038e KVM: nVMX: Don't propagate vmcs12's PERF_GLOBAL_CTRL settings to vmcs02
-f4c93d1a0e7190b61be25658519fe74c8c9f086a KVM: nVMX: Always emulate PERF_GLOBAL_CTRL VM-Entry/VM-Exit controls
-ffaaf5913f8ce8b2ad0cad8c203de9ecfb51b61b KVM: VMX: Check VM_ENTRY_IA32E_MODE in setup_vmcs_config()
-378c4c18509b9eb268a18e03cc1c7e531a97f550 KVM: VMX: Check CPU_BASED_{INTR,NMI}_WINDOW_EXITING in setup_vmcs_config()
-1dae276569bd30ab6f3069179e5ffffed462b71e KVM: VMX: Tweak the special handling of SECONDARY_EXEC_ENCLS_EXITING in setup_vmcs_config()
-ebb3c8d4094d9248ad026291740c27c6310cf1f4 KVM: VMX: Don't toggle VM_ENTRY_IA32E_MODE for 32-bit kernels/KVM
-ee087b4da022978a51fa3b363eea82c8bab8c3b5 KVM: VMX: Extend VMX controls macro shenanigans
-e89e1e2302d3db96ebc430ab24bef200d94d8cb8 KVM: VMX: Move CPU_BASED_CR8_{LOAD,STORE}_EXITING filtering out of setup_vmcs_config()
-f16e47429e46cbf9add0d665399646aae909b693 KVM: VMX: Add missing VMEXIT controls to vmcs_config
-a83bea73fa04b8551e1a38f75825a12eb6c7b3ae KVM: VMX: Add missing CPU based VM execution controls to vmcs_config
-64f80ea73b358265ee36fd827791bbd9a6069c52 KVM: VMX: Adjust CR3/INVPLG interception for EPT=y at runtime, not setup
-aef46a6476bbb48cd0d486c9e5d0b9ada2f48a6f KVM: x86: VMX: Replace some Intel model numbers with mnemonics
-9d78d6fb186bc4aff41b5d6c4726b76649d3cb53 KVM: VMX: Move LOAD_IA32_PERF_GLOBAL_CTRL errata handling out of setup_vmcs_config()
-66a329be4b0abc81ee3d9a7e4f77f5f33f435362 KVM: nVMX: Always set required-1 bits of pinbased_ctls to PIN_BASED_ALWAYSON_WITHOUT_TRUE_MSR
-bcdf201f8a4d09663b0608d5c9fce802558af3d7 KVM: nVMX: Use sanitized allowed-1 bits for VMX control MSRs
-0809d9b05a9154edecbd02649ddab296f4e9a227 KVM: VMX: Cache MSR_IA32_VMX_MISC in vmcs_config
-37d145ef62ff4f424ed05f8c99dc1c9ec67ff133 KVM: nVMX: Use cached host MSR_IA32_VMX_MISC value for setting up nested MSR
-b85a97b851ca295fb475fa10ca5f0c83a8852cf7 KVM: x86/mmu: fix repeated words in comments
-36d546d59af7cfc984b159016bed3e2a3113266f KVM: x86: Return emulator error if RDMSR/WRMSR emulation failed
-794663e13f8815bf85d87dcef796ef2c55bf270a KVM: x86: Add missing trace points for RDMSR/WRMSR in emulator path
-d953540430c5af57f5de97ea9e36253908204027 KVM: nVMX: Unconditionally purge queued/injected events on nested "exit"
-eba9799b5a6efe2993cf92529608e4aa8163d73b KVM: VMX: Drop bits 31:16 when shoving exception error code into VMCS
-750f8fcb261ae350af7a2467721e76082b527cbf KVM: x86: Don't check for code breakpoints when emulating on exception
-d500e1ed3dc873818277e109ccf6407118669236 KVM: x86: Allow clearing RFLAGS.RF on forced emulation to test code #DBs
-baf67ca8e545b6ac77a7e2abd52b9961e672f8f0 KVM: x86: Suppress code #DBs on Intel if MOV/POP SS blocking is active
-8d178f460772ecdee8e6d72389b43a8d35a14ff5 KVM: nVMX: Treat General Detect #DB (DR7.GD=1) as fault-like
-b9d44f9091ac6c325fc2f7b7671b462fb36abbed KVM: nVMX: Prioritize TSS T-flag #DBs over Monitor Trap Flag
-5623f751bd9c438ed12840e086f33c4646440d19 KVM: x86: Treat #DBs from the emulator as fault-like (code and DR7.GD=1)
-0701ec903e6bf1fcc07f92e64ca8474d151844da KVM: x86: Use DR7_GD macro instead of open coding check in emulator
-c2086eca86585bfd8132dd91e802497a202185c8 KVM: nVMX: Ignore SIPI that arrives in L2 when vCPU is not in WFS
-593a5c2e3c12a2f65967739267093255c47e9fe0 KVM: nVMX: Unconditionally clear mtf_pending on nested VM-Exit
-bfcb08a0b9e99b959814a329fabace22c3df046d KVM: VMX: Inject #PF on ENCLS as "emulated" #PF
-6ad75c5c99f78e28b6ff2a44be167cd857270405 KVM: x86: Rename kvm_x86_ops.queue_exception to inject_exception
-d4963e319f1f7851a098df6610a27f9f4cf6d42a KVM: x86: Make kvm_queued_exception a properly named, visible struct
-72c14e00bdc445e96045c28d04bba45cbe69cf95 KVM: x86: Formalize blocking of nested pending exceptions
-81601495c5f9839b76eef4edb920b2f101f2fc77 KVM: x86: Use kvm_queue_exception_e() to queue #DF
-6c593b5276e6ce411dcdf03e2f7d4b93c2e7138e KVM: x86: Hoist nested event checks above event injection logic
-28360f88706837fc3f1ac8944b45b4a630a71c75 KVM: x86: Evaluate ability to inject SMI/NMI/IRQ after potential VM-Exit
-2b384165f4d15540f94998b751f50058642ad110 KVM: nVMX: Add a helper to identify low-priority #DB traps
-f43f8a3ba9a615316fc0c059758dc1503bb17292 KVM: nVMX: Document priority of all known events on Intel CPUs
-7709aba8f71613ae5d18d8c00adb54948e6bedb3 KVM: x86: Morph pending exceptions to pending VM-Exits at queue time
-7055fb11311622852c16463b1ccaa59e7691e42e KVM: x86: Treat pending TRIPLE_FAULT requests as pending exceptions
-65ec8f01beb62f76b2bf92009323cb3cb1865992 KVM: VMX: Update MTF and ICEBP comments to document KVM's subtle behavior
-e746c1f1b94ac9fa6c1f02fce808a6b2f3ef8cbd KVM: x86: Rename inject_pending_events() to kvm_check_and_inject_events()
-1e2e9222e6e0367c8dc612013b07f76bbce87e9e KVM: selftests: Use uapi header to get VMX and SVM exit reasons/codes
-28c40b2cfb841d55f9f10fd973e1a72e0bf09572 KVM: selftests: Add an x86-only test to verify nested exception queueing
-40aaa5b6dadc2cbdfff004c31fdd00b9684ff1a8 KVM: x86: Allow force_emulation_prefix to be written without a reload
-23e280172f1e16c601c8bc7c826ee9301f8c087b mailmap: Update Oliver's email address
-1ba0a3bbd5ed5a1bb8d0165912d9904b812af74b clk: qcom: msm8996-cpu: Rename DIV_2_INDEX to SMUX_INDEX
-de37e0214c28330cf0dbf4fe51db1d9d38c13c93 clk: qcom: msm8996-cpu: Statically define PLL dividers
-382139bfd68fe6cc9dc94ffe3b9d783b85be3b1c clk: qcom: msm8996-cpu: Unify cluster order
-9a9f5f9a5a0ca3f463eb28ba5920a6fd18dc9956 clk: qcom: msm8996-cpu: Convert secondary muxes to clk_regmap_mux
-b4feed4a3d0a6b8cef4a574a9df707c556928ec2 dt-bindings: clock: qcom,msm8996-apcc: Fix clocks
-da5daae8b412c922e08f86979e84ea80b60092a1 clk: qcom: msm8996-cpu: Use parent_data/_hws for all clocks
-a808c7848a52523cb758c844f642b3d9e059c0c3 clk: qcom: cpu-8996: switch to devm_clk_notifier_register
-f1e3fcc4fc81e2aa78f4af754c460468e3f19782 clk: qcom: cpu-8996: declare ACD clocks
-81165aca05dc003ea41c9bc725238dc249d477fd clk: qcom: cpu-8996: move ACD logic to clk_cpu_8996_pmux_determine_rate
-f387d1c46f53457d0d9687295629f3db2f44d29b clk: qcom: cpu-8996: don't store parents in clk_cpu_8996_pmux
-f9ea0f59f7eefe44d82bbd4e86d2fac353fcfcbe clk: qcom: cpu-8996: use constant mask for pmux
-d7081998cca9df11727d77bf9a34f6499a13862b dt-bindings: clock: add pcm reset for ipq806x lcc
-ce6bb04cad2632baa6ec27852f417b0baeaa58da clk: qcom: lcc-ipq806x: add reset definition
-7458b82fa563468843a35fce946b9893d0445fd3 clk: qcom: lcc-ipq806x: convert to parent data
-18f6e9cd7fa3ef6a6dcb10d3fe357afaa52bd216 clk: qcom: lcc-ipq806x: use ARRAY_SIZE for num_parents
-5b4ac1a1b713736f906fb0378a5bde612fdad538 KVM: x86: make vendor code check for all nested events
-2ea89c7f7f7b192e32d1842dafc2e972cd14329b KVM: nVMX: Make an event request when pending an MTF nested VM-Exit
-1b7a1b78d6601776cd8fed69b1e5803612184e93 KVM: x86: Rename and expose helper to detect if INIT/SIPI are allowed
-a61353acc574d8d81f07f156d992e14e63d06e95 KVM: x86: Rename kvm_apic_has_events() to make it INIT/SIPI specific
-bf7f9352af5d184f28d352a58cb9230e404f8c5c KVM: x86: lapic does not have to process INIT if it is blocked
-0bba8fc24c7593068d5defd0238b723bf7aecc84 KVM: SVM: Make an event request if INIT or SIPI is pending when GIF is set
-a56953e9506c068c4becbd2c067ba08c82da78fc KVM: nVMX: Make an event request if INIT or SIPI is pending on VM-Enter
-ea2f00c6219e654ed7cdd11478001ea9df036bd4 KVM: nVMX: Make event request on VMXOFF iff INIT/SIPI is pending
-1e17a6f8721ca165e0883fae00cb6d1b95d748d6 KVM: x86: Don't snapshot pending INIT/SIPI prior to checking nested events
-26844fee6adee9b1557d2279b0506285de9ee82b KVM: x86: never write to memory from kvm_vcpu_check_block()
-599275c060a02a8f0db19c2e6a70d026d4b445ca KVM: mips, x86: do not rely on KVM_REQ_UNHALT
-c59fb127583869350256656b7ed848c398bef879 KVM: remove KVM_REQ_UNHALT
-cdc7daa9e3e102fc650321c8c0d2d8cf0ced3910 a.out: restore CMAGIC
-5d2569cb4a65c373896ec0217febdf88739ed295 thunderbolt: Explicitly enable lane adapter hotplug events at startup
-3aa12610b481f99b5e4e3f801ff7f9b7629e4ecf Merge tag 'icc-6.1-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/djakov/icc into char-misc-next
-f80d26043af91ceb5036c478101c015edb9e7630 efi: libstub: avoid efi_get_memory_map() for allocating the virt map
-eab3126571ed1e3e57ce0f066b566af472ebc47a efi: libstub: simplify efi_get_memory_map() and struct efi_boot_memmap
-a12b78b5714456e276b9545005f518802a319af9 efi: libstub: remove pointless goto kludge
-c5d2c96b3a7bd8987fad9957510034130037fccf clk: qcom: clk-rcg2: add rcg2 mux ops
-43a56cbf2a38170b02db29654607575b1b4b5bc0 clk: qcom: apss-ipq6018: fix apcs_alias0_clk_src
-86e78995c93ee182433f965babfccd48417d4dcf clk: qcom: apss-ipq6018: mark apcs_alias0_core_clk as critical
-d522c77aa86069abc7653ff73691ff4e2fff7707 dt-bindings: clock: qcom,a53pll: add IPQ8074 compatible
-823a117e1d97b57d1ef9932c55cc02d6d7ba0523 clk: qcom: apss-ipq-pll: use OF match data for Alpha PLL config
-2a4d70246556af9eae086af2fc6d582143b1c6f5 clk: qcom: apss-ipq-pll: update IPQ6018 Alpha PLL config
-cca7b7d5f168dc0da83429e4f5c0bfbd53c9a456 clk: qcom: apss-ipq-pll: add support for IPQ8074
-31e4fcf9713096c187f84bf3cb249637b8b681e1 clk: qcom: lpass: Fix lpass audiocc probe
-1a58ee1330b2cb6d71feb0aaf827cc10030f78b4 clk: qcom: gcc-sc7280: Update the .pwrsts for PCIe GDSC
-38557c6fc0771be5791e16837342db581daa6379 dt-bindings: clock: add QCOM SM6115 display clock bindings
-9b518788631cf7bc2b10d3967fd2343d1c88d65c clk: qcom: Add display clock controller driver for SM6115
-a7edd291636ac0bddf6c5a5aef6a94c2a9794830 dt-bindings: clock: qcom: add bindings for dispcc on SM8450
-9d062edd561f594b71130c4846c9032bfec8d97f clk: qcom: alpha-pll: add support for power off mode for lucid evo PLL
-16fb89f92ec4412ac49ddca64944d5f72e063f69 clk: qcom: Add support for Display Clock Controller on SM8450
-068a0605ef5a6b430e7278c169bfcd25b680b28f clk: qcom: gcc-sm6115: Override default Alpha PLL regs
-65f1fa35aa70b9e5abfd184ce3078c9aa93a1cb4 clk: qcom: gcc-sm6115: Move alpha pll bramo overrides
-9e48f0519bae644d91c85d0a99ea5887688e4bd5 clk: qcom: Merge alt alpha plls for qcm2260, sm6115
-46e0962ff2825790fecfc689f6f1135eab5c6e45 dt-bindings: clock: qcom,a53pll: replace maintainer
-eee48781ea199e32c1d0c4732641c494833788ca USB: serial: qcserial: add new usb-id for Dell branded EM7455
-1da40c2667388dd70306bfd3d4dcb49fd20b50a9 Documentation: NBD_REQUEST_MAGIC isn't a magic number
-f157555ea3b0f1f7ff19ca7d52576ab231fabfad fsi: Fix typo in comment
-7326939faa4b8d078dd2b8cddc36b5758d9b984c fsi: occ: Fix checksum failure mode
-0061a2a9550b845f7c0b291c0b74047290048571 staging: r8188eu: make odm_ConfigMAC_8188E() static
-1254b194f82f0539624064864d1fccdf4617b899 staging: r8188eu: make odm_ConfigRF_RadioA_8188E() static
-7622384c379fb2fbd6757190f5396d009bc89419 staging: r8188eu: remove hal/odm_RegConfig8188E.c
-a6e7f8a49f99b25e29af578bf1d4e19b30a1212f staging: r8188eu: Use skb_put_data() instead of skb_put/memcpy pair
-280f669ba63aa20082ffc7daa8fade8e738c944e staging: rtl8192e: cmdpkt: Use skb_put_data() instead of skb_put/memcpy pair
-3fbfcf0c42166d7a5336ed7251f869b82b4f655c usb: usb251xb: Switch to use dev_err_probe() helper
-759fcaaf600e56ec0a33678e85f317c5347562c7 usb: typec: stusb160x: Switch to use dev_err_probe() helper
-3eab90ae9f5b8e7c40a619c4c8aadf9bcd8c24cf usb: typec: qcom-pmic-typec: Switch to use dev_err_probe() helper
-a075590c0aa2b9d1bc1204bf8ea97519aef2994a usb: typec: fusb302: Switch to use dev_err_probe() helper
-7be7231d41971f5e244c0ba8f340dc4697868aa1 usb: musb: core: Switch to use dev_err_probe() helper
-92150ca664e957d776ca25c29e4a09675c910747 usb: musb: da8xx: Switch to use dev_err_probe() helper
-a806f67f15feca7449ffc792daa59af36a9c0135 usb: musb: cppi41: Switch to use dev_err_probe() helper
-82d788750e35ab0bf7f5cc1005b694bb2ca3cf20 usb: musb: jz4740: Switch to use dev_err_probe() helper
-7a8275099361e248d3c4dc350332606bf36b19b7 usb: musb: sunxi: Switch to use dev_err_probe() helper
-1abf6ab490c518164a3ffb62e4533850aaecb6fd usb: cdc-wdm: Use skb_put_data() instead of skb_put/memcpy pair
-29afbe5f5afc2f724b8aef2d11fbe6a7ee48997e usb: cdns3: remove dead code
-5d5fb7c75f5a32b08089ab15dedcd5d83c809991 usb: ulpi: use DEFINE_SHOW_ATTRIBUTE to simplify ulpi_regs
-e0b27d38ffb7552b28a993c3c7029ce89670ff5b usb: phy: generic: Switch to use dev_err_probe() helper
-411c4597df7dcc60b7aae83761618c94a60ded3f USB: PHY: JZ4770: Switch to use dev_err_probe() helper
-bce2b0539933e485d22d6f6f076c0fcd6f185c4c usb: idmouse: fix an uninit-value in idmouse_open
-f4dc7fffa9873db50ec25624572f8217a6225de8 efi: libstub: unify initrd loading between architectures
-4fc8e738ff3e6a208855bb69783280870c7cf251 efi: libstub: remove DT dependency from generic stub
-171539f5a90e3fdf7d17f5396fac79d7e44ad68e efi: libstub: install boot-time memory map as config table
-40cd01a9c324bd238e107d9d5ecb6824146a7836 efi/loongarch: libstub: remove dependency on flattened DT
-24e88ab0448814be43fc2781f3b54d7a73083345 Merge tag 'efi-loongarch-for-v6.1-2' into HEAD
-566331696329c2f9ca0fe2a55a5dd029ac43d2d2 efi/libstub: refactor the initrd measuring functions
-71c7adc9fffd4e38ebc197314f6909c9fd6051ef efi/libstub: measure EFI LoadOptions
-69e377b289376147c84cfd09bab1ad0328a0ecc6 efi/arm: libstub: move ARM specific code out of generic routines
-04419e8a7b41c83c628d45c684d6bd117c24cea9 efi: libstub: fix up the last remaining open coded boot service call
-3c6edd9034240ce9582be3392112321336bd25bb efi: zboot: create MemoryMapped() device path for the parent if needed
-d3549a938b73f203ef522562ae9f2d38aa43d234 efi/arm64: libstub: avoid SetVirtualAddressMap() when possible
-0a5bfb824a6ea35e54b7e5ac6f881beea5e309d2 KVM: PPC: Book3S HV: Fix decrementer migration
-bc91c04bfff7cdf676011b97bb21b2861d7b21c9 KVM: PPC: Book3S HV P9: Clear vcpu cpu fields before enabling host irqs
-c953f7500b65f2b157d1eb468ca8b86328834cce KVM: PPC: Book3S HV P9: Fix irq disabling in tick accounting
-b31bc24a49037aad7aa00d2b0354e9704d8134dc KVM: PPC: Book3S HV: Update guest state entry/exit accounting to new API
-1a5486b3c3517aa1f608a10003ade4da122cb175 KVM: PPC: Book3S HV P9: Restore stolen time logging in dtl
-c6648a402ced29ef826055583a96dcc85d9d3f55 dt-bindings: clock: add rpmhcc bindings for sdm670
-2ded040cedf830c698c04ee79d436bd23014811a clk: qcom: rpmhcc: add sdm670 clocks
-de55ec3b3af0db790948906b0e41f468fcfa9f98 dt-bindings: clock: qcom,rpmcc: Add compatible for SM6375
-65cfaf4eface0a347f62187b52eeb84f635b6be0 dt-bindings: clock: qcom: rpmcc: Add BIMC_FREQ_LOG
-644c4229559257cadc4267fc36c2dc22ee9c040f clk: qcom: smd: Add SM6375 clocks
-9f60eb3ec02757ab9441f2463eceddf2c71ec5e3 dt-bindings: clock: Add Qualcomm SC8280XP GPU binding
-e55d937d8cf391c1fb9afad296948b3697ad96f7 clk: qcom: Add SC8280XP GPU clock controller
-d399723950c45cd9507aef848771826afc3f69b0 clk: qcom: gdsc: Fix the handling of PWRSTS_RET support
-d9fe9f3fefe74d15e280fce628bff1b6fc6d9675 clk: qcom: gcc-sc7180: Update the .pwrsts for usb gdsc
-e3ae3e899aa0322ff685fd7cf1322c6670da7db7 clk: qcom: gcc-sc7280: Update the .pwrsts for usb gdscs
-dc99bbfe48e4f3b4827dc5b04a8642c23a12917e clk: qcom: alpha: Add support for programming the PLL_FSM_LEGACY_MODE bit
-43398afc0b561925a9ce57555afe3af2ddef8d35 dt-bindings: clock: add SM6375 QCOM global clock bindings
-184fdd873d83bfcfdd25310ae3f2d7eb8dc5224a clk: qcom: Add global clock controller driver for SM6375
-6632a6adae86265ca79cefc0e48e4a672a1108df dt-bindings: clocks: qcom,gcc-sc8280xp: Fix typos
-4b39d40ea1a076ac643c7383cdb1cb66617fe860 s390/cio: remove unused ccw_device_force_console() declaration
-8fb65e05bd60058e15842e511b3ee5299ac51829 s390/pci: remove unused bus_next field from struct zpci_dev
-b7fa9ce86d32baf2a3a8bf8fdaa44870084edd85 powerpc: Remove direct call to mmap2 syscall handlers
-ac17defbeb4e8285c5b9752164b1d68b13bf3e3b powerpc: Provide do_ppc64_personality helper
-dec20c50df79cadaff17e964ef7f622491a52134 powerpc: Adopt SYSCALL_DEFINE for arch-specific syscall handlers
-8cd1def4b8e4a592949509fac443e850da8428d0 powerpc: Include all arch-specific syscall prototypes
-39859aea411b1696c6bc0c04bd2b5095ddba6196 powerpc: Enable compile-time check for syscall handlers
-8640de0dee49cec50040d9845a2bc96fd15adc9e powerpc: Use common syscall handler type
-f8971c627b14040e533768985a99f4fd6ffa420f powerpc: Change system_call_exception calling convention
-7e92e01b724526b98cbc7f03dd4afa0295780d56 powerpc: Provide syscall wrapper
-bd7dc90e52e8db7ee0f38c51bc9047bafb54fe43 powerpc/64/kdump: Limit kdump base to 512MB
-b19448fe846baad689ff51a991ebfc74b4b5e0a8 powerpc: Add support for early debugging via Serial 16550 console
-c84550203b3173511e8cdbe94bc2e33175ba1d72 powerpc/time: avoid programming DEC at the start of the timer interrupt
-dabeb572adf24bbd7cb21d1cc4d118bdf2c2ab74 powerpc: add ISA v3.0 / v3.1 wait opcode macro
-9c7bfc2dc21e737e8e4a753630bce675e1e7c0ad powerpc/64s: Make POWER10 and later use pause_short in cpu_relax loops
-58ec7f06b74e0d6e76c4110afce367c8b5f0837d powerpc/64s: Fix GENERIC_CPU build flags for PPC970 / G5
-7fd123e544886bf04fa853869efe55cb3f22d0c0 powerpc/64s: update cpu selection options
-5e8b2c4dd3a0a4a2966e61d60dbeafab441cff28 powerpc/64s: Add DEBUG_PAGEALLOC for radix
-3e791d0f32b10eff9437822c6099c7a158560151 powerpc/64s: Remove unneeded #ifdef CONFIG_DEBUG_PAGEALLOC in hash_utils
-d7902d31cbc3bf72722768831a684b0286ccd523 powerpc/64s: Allow double call of kernel_[un]map_linear_page()
-a5edf9815dd739fce660b4c8658f61b7d2517042 powerpc/64s: Enable KFENCE on book3s64
-56adbb7a8b6cc7fc9b940829c38494e53c9e57d1 powerpc/64/interrupt: Fix false warning in context tracking due to idle state
-799f7063c7645f9a751d17f5dfd73b952f962cd2 powerpc/64: mark irqs hard disabled in boot paca
-e485f6c751e0a969327336c635ca602feea117f0 powerpc/64/interrupt: Fix return to masked context after hard-mask irq becomes pending
-9524f2278f2e6925f147d9140c83f658e7a7c84f powerpc/64s: Fix irq state management in runlatch functions
-c39fb71a54f09977eba7584ef0eebb25047097c6 powerpc/64s/interrupt: masked handler debug check for previous hard disable
-f7bff6e7759b1abb59334f6448f9ef3172c4c04a powerpc/64/interrupt: avoid BUG/WARN recursion in interrupt entry
-1da5351f9eb9b72a7d25316b4d38bf10b6e671b1 powerpc/64/irq: tidy soft-masked irq replay and improve documentation
-465dda9d320d1cb9424f1015b0520ec4c4f0d279 powerpc/pseries: Move vas_migration_handler early during migration
-4b2a9315f20d98576e25c9e4572e9a8e028d7aa2 powerpc/64s: POWER10 CPU Kconfig build option
-17773afdcd1589c5925a984f512330410cb2ba4f powerpc/64: use 32-bit immediate for STACK_FRAME_REGS_MARKER
-dab3b8f4fd09c22e8dbb2d9608194c7d52252f33 powerpc/64: asm use consistent global variable declaration and access
-754f611774e4b9357a944f5b703dd291c85161cf powerpc/64: switch asm helpers from GOT to TOC relative addressing
-8e93fb33c84f68db20c0bc2821334a4c54c3e251 powerpc/64: provide a helper macro to load r2 with the kernel TOC
-3569d84bb26f6f07d426446da3d2c836180f1565 powerpc/64e: provide an addressing macro for use with TOC in alternate register
-bf75a3258a40327b73c5b4458ae8102cfa921b40 powerpc/64s/interrupt: move early boot ILE fixup into a macro
-2f5182cffa43f31c241131a2c10a4ecd8e90fb3e powerpc/64s: early boot machine check handler
-b830c8754e046f96e84da9d3b3e028c4ceef2b18 powerpc/64: avoid using r13 in relocate
-519b2e317e39ac99ce589a7c8480c47a17d62638 powerpc/64: don't set boot CPU's r13 to paca until the structure is set up
-e1100cee059ad0bea6a668177e835baa087a0c65 powerpc/64s/interrupt: halt early boot interrupts if paca is not set up
-b9c001276d4a756f98cc7dc4672eff5343949203 powerpc/perf: Fix branch_filter support for multiple filters
-18213532de7156af689cb0511d2f95bcbe3c98a0 selftests/powerpc: Update bhrb filter sampling test for multiple branch filters
-37b9345ce7f4ab17538ea62def6f6d430f091355 powerpc: Fix SPE Power ISA properties for e500v1 platforms
-c102432005e8811b80b25641e12c4577970b5558 powerpc: Include e500v1_power_isa.dtsi for remaining e500v1 platforms
-110a58b9f91c66f743c01a2c217243d94c899c23 powerpc/boot: Explicitly disable usage of SPE instructions
-6bd7ff497b4af13ea3d53781ffca7dc744dbb4da powerpc/udbg: Remove extern function prototypes
-99df7a2810b6d24651d4887ab61a142e042fb235 powerpc/pseries: block untrusted device tree changes when locked down
-b8f3e48834fe8c86b4f21739c6effd160e2c2c19 powerpc/rtas: block error injection when locked down
-b37ac1894ac3c014863986d6b8ed880195213e78 powerpc/smp: poll cpu_callin_map more aggressively in __cpu_up()
-91986d7f0300c2c01722e0eac5119bb0946fe9b5 powerpc/pseries/vas: Remove the unneeded result variable
-5e4952656bca1b5d8c2be36682dc66d844797ad2 ocxl: Remove the unneeded result variable
-dbed963ed62c4c2b8870a02c8b7dcb0c2af3ee0b hwmon (occ): Retry for checksum failure
-d3e1e24604031b0d83b6c2d38f54eeea265cfcc0 fsi: occ: Prevent use after free
-362fbc830a7ecd440d797c2ddce53020fd1020f5 fsi: cleanup extern usage in function definition
-b1534a05e1f283a157231f1b334f34d07fdda511 fsi: sbefifo: Add detailed debugging information
-182d98e00e4745fe253cb0c24c63bbac253464a2 fsi: master-ast-cf: Fix missing of_node_put in fsi_master_acf_probe
-8d4c99002d2f38edd50a9896a29a1650be3de1af dt-bindings: hwmon: Add IBM OCC bindings
-0fead4fc926f000d2daee938f0d4886ac8da11d0 fsi: occ: Support probing the hwmon child device from dts node
-89a286fb153643b9b0f6e78160857f86eef16ba5 hwmon: (occ) Check for device property for setting OCC active during probe
-35af9fb49bc5c6d61ef70b501c3a56fe161cce3e fsi: core: Check error number after calling ida_simple_get
-97f88a3d723162781d6cbfdc7b9617eefab55b19 powerpc/kprobes: Fix null pointer reference in arch_prepare_kprobe()
-bbd71709087a9d486d1da42399eec14e106072f2 powerpc: Make stack frame marker upper case
-19c95df1277c48e3ef8cc7d9f1d315dce949f203 powerpc: Reverse stack frame marker on little endian
-335e1a91042764629fbbcd8c7e40379fa3762d35 powerpc: Ignore DSI error caused by the copy/paste instruction
-9e1343ede72af69675c103099560820e9de8fd4b Merge tag 'v6.1-rockchip-clock1' of git://git.kernel.org/pub/scm/linux/kernel/git/mmind/linux-rockchip into clk-rockchip
-9e1ab1fef1ec4542fea79bb02ace412e70aa163c Merge tag 'renesas-clk-for-v6.1-tag1' of git://git.kernel.org/pub/scm/linux/kernel/git/geert/renesas-drivers into clk-renesas
-acb84a167f14ae7d51475379ca1ff2f7bb36e2b6 Merge tag 'renesas-clk-for-v6.1-tag2' of git://git.kernel.org/pub/scm/linux/kernel/git/geert/renesas-drivers into clk-renesas
-50cf94b419d5746b52393fa71f115e8c667a1a0f Merge tag 'clk-microchip-6.1' of https://git.kernel.org/pub/scm/linux/kernel/git/at91/linux into clk-microchip
-d772c9370fe8c3c8247dbc78dcd2f6d10eab3e18 Merge tag 'sunxi-clk-for-6.1-1' of https://git.kernel.org/pub/scm/linux/kernel/git/sunxi/linux into clk-allwinner
-0049eb1a44ce98bd0c8d3a2d9fec150664da8d66 Merge tag 'clk-imx-6.1' of git://git.kernel.org/pub/scm/linux/kernel/git/abelvesa/linux into clk-imx
-13b0452ddaa3f7d840ee16fc92aa433392a56685 clk: clk-npcm7xx: Remove unused struct npcm7xx_clk_gate_data and npcm7xx_clk_div_fixed_data
-fe9d25b46bc744d73491fb68f1c322910dc70437 clk: pistachio: Fix initconst confusion
-9f94f545f258b15bfa6357eb62e1e307b712851e clk: mediatek: mt8183: mfgcfg: Propagate rate changes to parent
-b66add7a74e84a915dc8e1da89e192751e74bb4c clk: mediatek: mux: add clk notifier functions
-ae333e63a2474a8277c9c34709615a40e46d2bb8 clk: mediatek: mt8183: Add clk mux notifier for MFG mux
-a5f7bf5458c2cf6730106e16a6373638a0e5ed1e clk: mediatek: clk-mt8195-mfg: Reparent mfg_bg3d and propagate rate changes
-deeb2af77cf6bae26a51b70ba3a1ba968981a14a clk: mediatek: clk-mt8195-topckgen: Register mfg_ck_fast_ref as generic mux
-f8fd4b550caca0413f958a0788ee1c0e215596ce clk: mediatek: clk-mt8195-topckgen: Add GPU clock mux notifier
-72d38ed720e97e0e5fe2ee48b3e5ba573dba193d clk: mediatek: clk-mt8195-topckgen: Drop univplls from mfg mux parents
-341d2035fac07d710e1035f9922d97d96ddfa295 clk: mediatek: clk-mt8192-mfg: Propagate rate changes to parent
-116151bd95d5050581c8f77be7fe91f0cedfb32a clk: mediatek: clk-mt8192: Add clock mux notifier for mfg_pll_sel
-20f7a0dba9075fb0e3d645495bc24d7025b58de1 clk: mediatek: fix unregister function in mtk_clk_register_dividers cleanup
-fef14676fc4be40b8441745a3c96b7e7d7d8592d clk: mediatek: Migrate remaining clk_unregister_*() to clk_hw_unregister_*()
-99f3a5e851e9a1d82d73c4f396c6dbf123413c16 clk: mediatek: mt8192: deduplicate parent clock lists
-84513eccd67804c02a0c42017bc7eaa4ad112478 phy: mediatek: fix build warning of FIELD_PREP()
-03b756d293484057b4248695345f4344b174af00 phy: tegra: xusb: Enable usb role switch attribute
-37d40a21473fdf1d0194089eb259b8ceeec2a4b9 phy: rockchip-snps-pcie3: only look for rockchip,pipe-grf on rk3588
-0a40891b83f257b25a2b983758f72f6813f361cb phy: qcom-qmp-pcie: fix resource mapping for SDM845 QHP PHY
-74157538a17879e77a8540e5e6503c98a1509109 dt-bindings: phy: qcom,qusb2: document sdm670 compatible
-26696d4657167112a1079f86cba1739765c1360e dmaengine: mxs: use platform_driver_register
-c10a7777dd30e36a0105055cc393aad7c35a9713 dmaengine: qcom: gpi: move read_lock_bh to read_lock in tasklet
-d7873903cc6bb681138c263a1648d23a71dafbd2 dmaengine: virt-dma: Fix double word in comments
-5c43442fee2d37881eb4c3781409ad9508685df8 dmaengine: pl08x: Fix double word
-8e527aac055557897d43a3d74d7970ef5cf6a8bb dmaengine: idxd: Set wq state to disabled in idxd_wq_disable_cleanup()
-de5819b994893197c71c86d21af10f85f50d6499 dmaengine: idxd: track enabled workqueues in bitmap
-612fcfdd1a7ccb1968052250f2622de0bdcd513b dt-bindings: renesas,rcar-dmac: Add r8a779g0 support
-d1083fd04302a95bc4dcf1c059537da87b39bd9a dmaengine: idxd: Remove unused struct idxd_fault
-9aa0dade8f6b4cdcbb114e1a06037939ee3238bc phy: phy-mtk-dp: make array driving_params static const
-45ecf27f300765d135f98d444957675ff6bb9837 dmaengine: sh: rcar-dmac: Replace zero-length arrays with DECLARE_FLEX_ARRAY() helper
-19ea810e88e08f87d07aafcf82f45084c360ed03 Documentation: devicetree: dma: update the comments
-65add05cfd6e44ea45b2b4e6135745564595cf4f dt-bindings: dma: Make minor fixes to qcom,bam-dma binding doc
-0f4c5b29e3337c2718b812ae2dade5fc55a8321b dmaengine: ti: edma: Remove some unused functions
-072431595a57bc6605c29724afce5f9ef8114915 dmaengine: apple-admac: Do not use devres for IRQs
-6aed75d7ccb3288029287c50fc594a4314698be0 dmaengine: apple-admac: Trigger shared reset
-5cfeaf7cc5d2a349ba7f2cc1942e106c972e0a1c dmaengine: ti: k3-psil: add additional TX threads for j7200
-693e9c269e8e8fb16f1d7fac38bd774402722e87 dmaengine: ti: k3-psil: add additional TX threads for j721e
-eab4c1ebdd657957bf7ae66ffb8849b462db78b3 clk: qcom: gdsc: add missing error handling
-27da533af9b050e751a419c743096d06017daf0e clk: qcom: gcc-sc8280xp: use retention for USB power domains
-a01ef02093ac45cc4991dbf93134c3cb4c293c32 clk: qcom: gcc-sm6350: Update the .pwrsts for usb gdscs
-2ab5b5663805ec8e5dc1dbdd9cb14ffac5b06ed1 dt-bindings: clock: move qcom,gcc-msm8939 to qcom,gcc-msm8916.yaml
-f565f9235a675e6eb5a105daa9b70ffa96aab715 clk: qcom: gcc-msm8939: use parent_hws where possible
-994c77ed371e464ae4c1bfc316f7aff7309b2d59 clk: qcom: gcc-msm8939: use ARRAY_SIZE instead of specifying num_parents
-7c8765308371be30f50c1b5b97618b731514b207 dmaengine: qcom-adm: fix wrong sizeof config in slave_config
-b9d2140c3badf4107973ad77c5a0ec3075705c85 dmaengine: qcom-adm: fix wrong calling convention for prep_slave_sg
-898ec89dbb55b8294695ad71694a0684e62b2a73 dmaengine: ioat: stop mod_timer from resurrecting deleted timer in __cleanup()
-22bd0df846ca1388ce9f5d54fb6e9f597c932ba9 dmaengine: idxd: convert ats_dis to a wq flag
-a8563a33a5e26064061f2fb34215c97f0e2995f4 dmanegine: idxd: reformat opcap output to match bitmap_parse() input
-b0325aefd398d8b536ba46ee2e5d24252c1b2258 dmaengine: idxd: add WQ operation cap restriction support
-1f2737521af2b7d018971f1d873856fff02d2b33 dmaengine: idxd: add configuration for concurrent work descriptor processing
-7ca68fa3c8ab83dfa539f16c5b4b1aec2e33320d dmaengine: idxd: add configuration for concurrent batch descriptor processing
-a0188eb6e71c93ab7dd9bfa4305fac43c70db309 dmaengine: dw-edma: Remove runtime PM support
-41742afd34b7ac354ec354a3efa3651e486d8c54 dt-bindings: dma: apple,admac: Add iommus and power-domains properties
-84641a1e32cbbabfe9a808b4df79f75ed4c88576 dt-bindings: dma: rework qcom,adm Documentation to yaml schema
-41d8ffd7cb2add394a2626f12357770846abcf1e dt-bindings: dma: add additional pbus reset to qcom,adm
-f2b816a1dfb8b4bbbecd1603e6c17c3d457e2c0a dmaengine: zynqmp_dma: Add device_synchronize support
-e8e2f92b1553b977aef8bb4fa4e4c5b69c8d9d54 dmaengine: ti: k3-udma: Respond TX done if DMA_PREP_INTERRUPT is not requested
-b957df98469240d459bcfae6904b36d6ecea9bee dmaengine: ioat: remove unused declarations in dma.h
-f882a1e20519230ab8998f94e3359825a3b13f7c Merge tag 'mtk-clk-for-6.1' of https://git.kernel.org/pub/scm/linux/kernel/git/wens/linux into clk-mtk
-f5290d8e4f0caa81a491448a27dd70e726095d07 clk: asm9260: use parent index to link the reference clock
-1d7d20658534c7d36fe6f4252f6f1a27d9631a99 clk: fixed-rate: add devm_clk_hw_register_fixed_rate
-9511b5a033e99070ae1f54cd3c0aa3d10eae7c26 Merge branch 'topic/ppc-kvm' into next
-e4335f53198fa0c0aefb2a38bb5518e94253412c KVM: PPC: Book3S HV: Implement scheduling wait interval counters in the VPA
-f3e5d9e53e74d77e711a2c90a91a8b0836a9e0b3 powerpc/pseries/vas: Pass hw_cpu_id to node associativity HCALL
-a08661af4c52068972c552deb940b3b13635eb3e powerpc: remove orphan systbl_chk.sh
-57a8e4b26eaa8f30aa8bc737255d192915a53023 powerpc/64s: Remove old STAB comment
-0c360996425e36945c10479e2bc6ad5992c57794 powerpc/64s: Remove lost/old comment
-7673335e2a0b8e68a2a238773a34e287a089a8fe powerpc: Drops STABS_DEBUG from linker scripts
-d368e0c478a628f36680650f8d1d1634037b046e powerpc/mm/book3s/hash: Rename flush_tlb_pmd_range
-7b31f7dadd7074fa70bb14a53bd286ffdfc98b04 powerpc/mm: Always update max/min_low_pfn in mem_topology_setup()
-7dd3a7b90bca2c12e2146a47d63cf69a2f5d7e89 powerpc/mm: Fix UBSAN warning reported on hugetlb
-d210ee3fdfe8584f84f8fdd0ac4a9895d023325b powerpc/configs: Update config files for removed/renamed symbols
-d91c3f15fcaf90723ebdcd1c9172f9bb8ea4f09b powerpc/configs: Enable PPC_UV in powernv_defconfig
-41dc056391b334fae646b55ee020bfa8f67b60c8 powerpc: Add hardware description string
-bd649d40e0f2ffa1e16b4dbb93dc627177410e78 powerpc: Add PVR & CPU name to hardware description
-48b7019b6abd029d3800620bb53f0ae3ca052441 powerpc/64: Add logical PVR to the hardware description
-541229707970ff2ad3f7705b1dbd025d7cc9bc48 powerpc: Add device-tree model to the hardware description
-37576cb0961fe9d3318c17e4e4bc5ecebf38e9bb powerpc/powernv: Add opal details to the hardware description
-8535a1afff0f4f568eb589f3795a930ef3d483b0 powerpc/pseries: Add firmware details to the hardware description
-a62e6791476a5d07abb8dec9afc2c6d0f65f7e4e MAINTAINERS: switch dwc3 to Thinh
-bffcd14facbdc25ba4da9993cc7811b55b50b6e8 Merge tag 'thunderbolt-for-v6.1-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/westeri/thunderbolt into usb-next
-37d49519b41405b08748392c6a7f193d9f77ecd2 usb: add quirks for Lenovo OneLink+ Dock
-fce703a991b7e8c7e1371de95b9abaa832ecf9c3 usb: typec: ucsi: Don't warn on probe deferral
-c9180362a920b99f2aef7d55b89ae94b8138474e usb: typec: Replace custom implementation of device_match_fwnode()
-691f43cbfe631488cc3fe2d01658fd372c9ef0a7 usb: typec: ucsi_ccg: Disable UCSI ALT support on Tegra
-4b833fb3eb1e5c87f51211844b39743ccd01eac9 USB: omap_udc: Fix spelling mistake: "tranceiver_ctrl" -> "transceiver_ctrl"
-1c703e29da5efac6180e4c189029fa34b7e48e97 usb: mtu3: fix failed runtime suspend in host only mode
-fb87c979fd89a262481a8c49e2b78b07e1f4d229 dt-bindings: usb: Convert FOTG210 to dt schema
-2adc960ce79d3231b02f820daeee434542fe2911 Revert "USB: fixup for merge issue with "usb: dwc3: Don't switch OTG -> peripheral if extcon is present""
-7a84e7353e23202d4f82b05093af4db2b26e6768 Revert "usb: dwc3: Don't switch OTG -> peripheral if extcon is present"
-a0d381caf99317977942e1228cdc2e14392e1d72 usb: host: ehci-exynos: switch to using gpiod API
-a15e17acce5aaae54243f55a7349c2225450b9bc usb: gadget: uvc: Fix argument to sizeof() in uvc_register_video()
-f5e536af4860a7d07b769d0388a68e74fe453c9b Merge tag 'fsi-for-v6.1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/joel/fsi into char-misc-next
-55e5832bb1f24237ce294acca5b2c67ed1197cbc MAINTAINERS: Update Counter subsystem git tree repo link
-3216e5512abdd1fc671ed8443ffc8fa9e4adc78c counter: Move symbols into COUNTER namespace
-7bbf842cdcff30ddd1da4ab9059cf92f9d1a4326 counter: interrupt-cnt: Implement watch_validate callback
-650ae67bbf7ba5ac193f053969612fbb93247b64 counter: Introduce the Signal polarity component
-9830288aeada5ec8ded1665aafe2d2b8f4121bad counter: 104-quad-8: Add Signal polarity component
-45d2918520b2d8e640e4fb3fbf664dfb823dc520 counter: Introduce the Count capture component
-bb4bbbec664ffdb4652bf3d5daf7c930e68e5c40 counter: Consolidate Counter extension sysfs attribute creation
-d2011be1e22f7769c7c71d6d7f777ffcc544808d counter: Introduce the COUNTER_COMP_ARRAY component type
-b5bee6ced21ca98389000b7017dd41b0cc37fa50 dt-bindings: counter: add ti,am62-ecap-capture.yaml
-5a47aed0d651490ad0d6f9dbc98bc6dfc71de787 Documentation: ABI: sysfs-bus-counter: add frequency & num_overflows items
-4e2f42aa00b67605938173a61d07a44fe13bad68 counter: ti-ecap-capture: capture driver support for ECAP
-54d0999f96abadcc0586fe577e6cf4dc4c2749c1 MAINTAINERS: add TI ECAP driver info
-9357fc3b3b85a7d9f0dedf5446222a26957852b4 drivers: spmi: Directly use ida_alloc()/free()
-33c912d3c5efea62298921627fad7f5ad396b8fb spmi: pmic-arb: add a print in cleanup_irq
-abb9088b3a39cfec1321e93170ee3c0c1255fd9d spmi: pmic-arb: handle spurious interrupt
-b6c1761721193c52234e3ed048e4d16ab527bb74 spmi: pmic-arb: do not ack and clear peripheral interrupts in cleanup_irq
-191adbdd26f1a26c9302369b2701bfddf8c0780e spmi: pmic-arb: check apid against limits before calling irq handler
-4df88fe5b631bb9e381880b4cca73e91750afffe spmi: pmic-arb: add support to dispatch interrupt based on IRQ status
-1f1693118c2476cb1666ad357edcf3cf48bf9b16 spmi: pmic-arb: correct duplicate APID to PPID mapping logic
-c8669773c74e26ceb2412215a2db40399e3fe119 spmi: pmic-arb: block access for invalid PMIC arbiter v5 SPMI writes
-9c573cdcf913e0a38bc260634017be3174595c56 spmi: pmic-arb: increase SPMI transaction timeout delay
-29c7dbbcd08c6d7f168797867e85dc008d868eb9 staging: r8188eu: convert ODM_ReadAndConfig_MAC_REG_8188E() to int
-9090b84a7b43148c33139abe0da1623ac1345d38 staging: r8188eu: convert ODM_ReadAndConfig_RadioA_1T_8188E() to int
-6d09f25aa60bd8fc6865c2a385746afc7cc1860c staging: r8188eu: convert ODM_ReadAndConfig_PHY_REG_1T_8188E() to int
-b933b6a2667a988e999fef92e7d4bf7a4f41eaff staging: r8188eu: convert ODM_ReadAndConfig_AGC_TAB_1T_8188E() to int
-1206c0e9e325502ef37bf34caf97dbe0716abcf0 staging: r8188eu: remove PHY_RF6052_Config8188E()
-006d2f4872b8bd05f2aca0c2c0bed5aaec1efe53 staging: r8188eu: remove PHY_RFConfig8188E()
-4256e500f61922a3e59c7ecb6a11aab972d41b18 staging: rtl8192e: Rename variable Bandwidth to avoid CamelCase
-7cd04013fbf3e6dcb67ca6b59aa813269a2ad9ce w1: Split memcpy() of struct cn_msg flexible array
-468cdabe93c5fa969de65752e38c31f07a5e048d tty: serial: atmel: Add COMMON_CLK dependency to SERIAL_ATMEL
-fda8c908bc2d523c0770ded667dcdad29c06ff52 docs: filesystems: sysfs: Make text and code for ->show() consistent
-dfdabd3856547c3bed996134e84b9452fb19e695 serial: stm32: Fix unused-variable warning
-8a1088116ba5ddbfcd69789b4a153733c9686cbb tty: serial: allow pxa.c to be COMPILE_TESTed
-d8544c9c7cf77100be9340c61a9e3e88fe4bb12c tty: serial: extend lqasc_tx_ready() to lqasc_console_putchar()
-ed9bf4aea06e36bbb3482e01061c433d703bcaff tty: serial: use FIELD_GET() in lqasc_tx_ready()
-523f54ed3be7e23340b1c43921e39fddfe149c09 tty: serial: unify TX space reads under altera_jtaguart_tx_space()
-12f3a5eba3c4eb0031d7db36773579e517459a41 tty: serial: do unlock on a common path in altera_jtaguart_console_putc()
-30963b2f75bfdbbcf1cc5d80bf88fec7aaba808d serial: cpm_uart: Don't request IRQ too early for console port
-3180d827c807d8d6e5d6ba4f2e08eed9efa083af usb: gadget: uvc: don't put item still in use
-af3bd36573e3686a82ebb79114cd9c9ccbd5374f clk: sprd: Add clocks support for UMS512
-a5ff3d8c85ab3c5677e2b4bba3cc1f0068063e5d clk: mmp: pxa168: add additional register defines
-a77a1e2f1b00ec3385523283b8fcbd56ed166797 clk: mmp: pxa168: fix incorrect dividers
-260d2f347b765422584a5fa5209b8ecd17d773b4 dt-bindings: marvell,pxa168: add clock ids for additional dividers
-ac1d62c948d063ec99b3b23d02af8260bba4660c clk: mmp: pxa168: add new clocks for peripherals
-e2fd64dd472bea0da332da0cc8e8946d2d3294c4 clk: mmp: pxa168: fix const-correctness
-30c0368207b1efa3bbcafcdca0b1749a375f86e3 clk: mmp: pxa168: fix incorrect parent clocks
-7fad6b755fcb5fd4fe9127662cf41eb84d02fdb8 clk: mmp: pxa168: add muxes for more peripherals
-d4161f7e7358eb3f20e6b82fa2ace19712ea5e6e clk: mmp: pxa168: fix GPIO clock enable bits
-ca41820b9d569d92162ee470610564ec6bc5012c dt-bindings: marvell,pxa168: add clock id for SDH3
-69ec86917c00b035b56e86d6a453940943f975da clk: mmp: pxa168: add clocks for SDH2 and SDH3
-238e73edcea557b1aef35113cf4333b41ebe35d9 dt-bindings: marvell,pxa168: add clock ids for SDH AXI clocks
-e11a47f52098dc88d82c2a22f165ac9f4f7a5997 clk: mmp: pxa168: control shared SDH bits with separate clock
-e488db982c67327fa2cc70312a27e23e91efa620 MAINTAINERS: add header file to TI DAVINCI SERIES CLOCK DRIVER
-225bb79123ea7ecd555a4992ff41414dd9cd604e clk: davinci: pll: fix spelling typo in comment
-3475c885480817c9e340fb75b9f6e31b19331ba9 clk: davinci: cfgchip: Use dev_err_probe() helper
-c388cc804016cf0f65afdc2362b120aa594ff3e6 clk: vc5: Fix 5P49V6901 outputs disabling when enabling FOD
-3c742088686ce922704aec5b11d09bcc5a396589 clk: baikal-t1: Fix invalid xGMAC PTP clock divider
-e2eef312762e0b5a5a70d29fe59a245c0a3cffa0 clk: baikal-t1: Add shared xGMAC ref/ptp clocks internal parent
-081a9b7c74eae4e12b2cb1b86720f836a8f29247 clk: baikal-t1: Add SATA internal ref clock buffer
-70fa895488a4ebdae8b2d08b4c84e164ef14696e clk: baikal-t1: Move reset-controls code into a dedicated module
-c0cd3b1790df76049d1806100d6c744b757fe004 dt-bindings: clk: baikal-t1: Add DDR/PCIe reset IDs
-fa6bd541d786aa6db93bcddf23cea26fcfa859a3 clk: baikal-t1: Add DDR/PCIe directly controlled resets support
-c4e05443b6d400ed026cef9107188899a6d5e632 clk: baikal-t1: Convert to platform device driver
-6c5422851d8be8c7451e968fd2e6da41b6109e17 clk: bcm2835: Make peripheral PLLC critical
-f690a4d7a8f66430662975511c86819dc9965bcc clk: bcm2835: Round UART input clock up
-0b919a3728691c172312dee99ba654055ccd8c84 clk: bcm2835: fix bcm2835_clock_rate_from_divisor declaration
-4c68a345c157db23a59edb8e3227932c00de83a1 clk: bcm: rpi: Add support HEVC clock
-16baa8c1c1ba00506d367d00856c58f5985f9b2e clk: bcm: rpi: Handle pixel clock in firmware
-1777cb60f7df80d9b4ca3385eca1d2c0bed61cb6 clk: bcm: rpi: Add support for VEC clock
-1c8934b4802d2744c97e7c97d244af967f4bf141 clk: Remove never used devm_of_clk_del_provider()
-07bdf48d3fee12268bf9a179821aee9b80f5239c clkdev: Remove never used devm_clk_release_clkdev()
-d61876a2850faf0f07843ecf157a42a79e7e34a2 clkdev: Simplify devm_clk_hw_register_clkdev() function
-c61978175ac1337f028ac1f956666f16db84f4e5 dt-bindings: clock: mediatek: add bindings for MT8365 SoC
-50e68b99049ac6e850da025c0aa0a6ce23189234 clk: mediatek: Provide mtk_devm_alloc_clk_data
-083cc5e402c7eba818e5a4770c3ab1521bf6c341 clk: mediatek: Export required common code symbols
-d46adccb79668877fe4548a9cde83f9ad3c09e41 clk: mediatek: add driver for MT8365 SoC
-cc3237827a21ca6fe29085a78f96b0509cf6d095 clk: vc5: Check IO access results
-01874fb2a3e60365d9cc68cd931ac9ad6e90025a clk: vc5: Use regmap_{set,clear}_bits() where appropriate
-855ae87a2073ebf1b395e020de54fdf9ce7d166f clk: imx: scu: fix memleak on platform_device_add() fails
-058a3996b888ab60eb1857fb4fd28f1b89a9a95a clk: ti: Balance of_node_get() calls for of_find_node_by_name()
-09d1855656dad04127aee195baf2eedae029175d dt-bindings: Renesas versaclock7 device tree bindings
-48c5e98fedd9e0b164df4de592fd740537ead9e2 clk: Renesas versaclock7 ccf device driver
-9c59a01caba26ec06fefd6ca1f22d5fd1de57d63 clk: ti: dra7-atl: Fix reference leak in of_dra7_atl_clk_probe
-f816ac1115b9d4f874efa04f721eba99cf69067e clk: mvebu: armada-37xx-tbg: Remove the unneeded result variable
-00988f70a0763f14c97c4c0df76fb9aa4959e953 Merge tag 'usb-serial-6.0-rc8' of https://git.kernel.org/pub/scm/linux/kernel/git/johan/usb-serial into usb-next
-3c92506d86785967fd7e7933e04491b9276c2f00 gpio: tc3589x: Make irqchip immutable
-f0fa3a3614b90b43ed590d484ae391eb03fa4a07 dt-bindings: clock: vc5: Add 5P49V6975
-d8473831066b163d3af59ab0bb75a93b211ee1aa clk: vc5: Add support for IDT/Renesas VersaClock 5P49V6975
-117a1542c0bc9bcce0c5b9bc63ff54dc967acdf5 clk: pxa: add a check for the return value of kzalloc()
-7942ac9fe9c30804fc9403a6e1fae4b8ad50181d clk: nxp: fix typo in comment
-fd30ac84f3022ea3c8c6380dfb919c869c6fd9e2 clk: clocking-wizard: Use dev_err_probe() helper
-c00b5f204041581fadcc6d3de7f9407d2d110035 clk: clocking-wizard: Depend on HAS_IOMEM
-b8c1dc9c00b252b3be853720a71b05ed451ddd9f clk: ast2600: BCLK comes from EPLL
-ae039f0fc0432922e95888cb470e5d9e1d8f6934 clk: clk-xgene: simplify if-if to if-else
-8a977bbb17e2619ba06559f102cffd8678c3084e clk: allow building lan966x as a module
-8f2fcac809be13c433ae188f0e9f3f05755326c5 Merge tag 'qcom-clk-for-6.1' of https://git.kernel.org/pub/scm/linux/kernel/git/qcom/linux into clk-qcom
-d7915651fe9a6474e06161c34c637e6aeb811e9d clk: introduce (devm_)hw_register_mux_parent_data_table API
-c3db5128e80e1437cb08d0d41aeb7163004897e7 clk: qcom: kpss-xcc: convert to parent data API
-8154850b28bd57a35ea73a7518ffcb9ccd5e43bc powerpc/64s/interrupt: Change must-hard-mask interrupt check from BUG to WARN
-0fa6831811f62cfc10415d731bcf9fde2647ad81 powerpc/64: Fix msr_check_and_set/clear MSR[EE] race
-a76d550f761d4f1b0a0e2faa27af122e51904b86 clk: qcom: gcc-sm6375: Remove unused variables
-39bc9b589ea3d2750a6fec6409cd7fc687bc99fe clk: qcom: gcc-sm6375: Ensure unsigned long type
-49f4c2d101bbf93c62e3fa58e666f71352c54121 Merge branches 'clk-ofnode', 'clk-bindings', 'clk-cleanup', 'clk-zynq' and 'clk-xilinx' into clk-next
-a64b79c01c2836ddd8e1eb7c8173b44c3e66f999 Merge branches 'clk-samsung', 'clk-mtk', 'clk-rm', 'clk-ast' and 'clk-qcom' into clk-next
-26bebbfed5bd06fd7202fd1befa6c2c935a593e8 Merge branches 'clk-rockchip', 'clk-renesas', 'clk-microchip', 'clk-allwinner' and 'clk-imx' into clk-next
-b7f257ceb3c88ee3e2c6b0d1db703c818d3971f1 Merge branches 'clk-fixed-rate', 'clk-spreadtrum', 'clk-pxa' and 'clk-ti' into clk-next
-f9efefdba95a5110a1346bb03acdd8ff3cdf557f Merge branches 'clk-baikal', 'clk-broadcom', 'clk-vc5' and 'clk-versaclock' into clk-next
-e623715f3d67ad10985b2c10cf7edd9ad85db372 RISC-V: Increase range and default value of NR_CPUS
-b2e82e495a528eed77c15f3923c2b049a21d7280 powerpc/64s/interrupt: Fix stack frame regs marker
-542d353e25520e7db11d2cdb31d19c50ed921812 riscv: compat: s/failed/unsupported if compat mode isn't supported
-7e5cd064f73ccecd2ac1aadca078394bd25ea3ce mailbox: imx: fix RST channel support
-6e2bdf7dc3c817dd91d84adb306a5dfab999c309 dt-bindings: mailbox: fix the mpfs' reg property
-2e10289d1f304f5082a4dda55a677b72b3bdb581 mailbox: mpfs: fix handling of the reg property
-0d1aadfe10ba17ebdeb96abb9638eb0f623f9b55 mailbox: mpfs: account for mbox offsets while sending
-f3d961299cdd484e1aeb60b392a4c5efaf323a9c dt-bindings: mailbox: qcom: set correct #clock-cells
-75d439edb1550d3cc7f33c1fd4abe4aef288d780 dt-bindings: mailbox: qcom: correct clocks for IPQ6018 and IPQ8074
-f5fe925df802eb3c7a71a97c01cf371eea24ea6a mailbox: qcom-apcs-ipc: add IPQ8074 APSS clock support
-6b207ce8a96a71e966831e3a13c38143ba9a73c1 mailbox: bcm-ferxrm-mailbox: Fix error check for dma_map_sg
-8ac1111055afc863c78e389b051d843babbf2ca9 mailbox: pcc: Fix spelling mistake "Plaform" -> "Platform"
-b8ae88e1e75e5cb7a6df5298ab75334362ed631c mailbox: qcom-ipcc: flag IRQ NO_THREAD
-94746890202cf18e5266b4de77895243e55b0a79 powerpc: Don't add __powerpc_ prefix to syscall entry points
-61a41d16ad20657f93613229a8b17766c51dc849 RISC-V: Print SSTC in canonical order
-87f81e66e2e84c7e6056413703d732a99c20c09b riscv: enable THP_SWAP for RV64
-376b3275c19f83d373e841e9af2d7658693190b9 KVM: PPC: Book3S HV: Fix stack frame regs marker
-62e6e5940c0c09433efa52d0fa9a11623a4704b2 Merge tag 'scsi-misc' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
-416a2f4f91525fcdec821320bc4608cf012d418e Merge tag 'dmaengine-6.1-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/vkoul/dmaengine
-33e591dee915832c618cf68bb1058c8e7d296128 Merge tag 'phy-for-6.1' of git://git.kernel.org/pub/scm/linux/kernel/git/phy/linux-phy
-881eccbef52563feb4fde0d19d375884798783f7 Merge tag 'soundwire-6.1-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/vkoul/soundwire
-6181073dd6a7e5deafc60e7981bd765b6c93da8c Merge tag 'tty-6.1-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/tty
-d3dcbe24a0fc6373ce7e4a65acd5c785aa8e2396 Merge tag 'usb-6.1-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb
-e8bc52cb8df80c31c73c726ab58ea9746e9ff734 Merge tag 'driver-core-6.1-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/driver-core
-a09476668e3016ea4a7b0a7ebd02f44e0546c12c Merge tag 'char-misc-6.1-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc
-3002b7a31894cfa0e57080f7e0961b5fee788aa3 Merge tag 'staging-6.1-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/staging
-f01603979a4afaad7504a728918b678d572cda9e Merge tag 'gpio-updates-for-v6.1-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
-bdc753c7fcb4eb009ae246a188ea7ac6dac98ce1 Merge tag 'clk-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
-a6afa4199d3d038fbfdff5511f7523b0e30cb774 Merge tag 'mailbox-v6.1' of git://git.linaro.org/landing-teams/working/fujitsu/integration
-0e470763d84dcad27284067647dfb4b1a94dfce0 Merge tag 'efi-next-for-v6.1' of git://git.kernel.org/pub/scm/linux/kernel/git/efi/efi
-ef688f8b8cd3eb20547a6543f03e3d8952b87769 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
-57c92724c8c19fc1b099826610fdb51985de12ba Merge tag 'microblaze-v6.1' of git://git.monstr.eu/linux-2.6-microblaze
-2e64066dab157ffcd0e9ec2ff631862e6e222876 Merge tag 'riscv-for-linus-6.1-mw1' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
-03785a69ae47a17fe57fee31058fef7cd3042977 Merge tag 's390-6.1-1' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
-4899a36f91a9f9b06878471096bd143e7253006d Merge tag 'powerpc-6.1-1' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
-c71370bde7dbd3aefae0c2e8dd643d68fb2c51c8 Merge tag 'interrupting_kthread_stop-for-v5.20' of git://git.kernel.org/pub/scm/linux/kernel/git/ebiederm/user-namespace
-86fb9c53d82f1dadf960553a3bd351de6173911f Merge tag 'retire_mq_sysctls-for-v5.19' of git://git.kernel.org/pub/scm/linux/kernel/git/ebiederm/user-namespace
-e572410e47a4e9647d5d7a49ca699a1497378707 Merge tag 'signal-for-v5.20' of git://git.kernel.org/pub/scm/linux/kernel/git/ebiederm/user-namespace
-493ffd6605b2d3d4dc7008ab927dba319f36671f Merge tag 'ucount-rlimits-cleanups-for-v5.19' of git://git.kernel.org/pub/scm/linux/kernel/git/ebiederm/user-namespace
-24a403340d70aad3667b3ee0f9a7aa5c0a5193a0 Merge branch 'for-6.1/block' into block-6.1
-a1ae8d4d9be0178132df7c4931a1ba77d0e76039 nvme-rdma: fix possible hang caused during ctrl deletion
-c4abd8757189c7ca5803828f9c892328d7d94943 nvme-tcp: fix possible hang caused during ctrl deletion
-80b2624094c8d369a3c6eab515e8f1564d2e5db2 nvme-pci: add NVME_QUIRK_BOGUS_NID for Lexar NM760
-d5d3c100ac40dcb03959a6f1d2f0f13204c4f145 nvme-pci: avoid the deepest sleep state on ZHITAI TiPro5000 SSDs
-72e3b8883a36e80ebfa41015c7b6926ce31ace05 nvme-multipath: fix possible hang in live ns resize with ANA access
-3bc429c1e2cf6fa830057c61ae93d483f270b8ff Merge tag 'nvme-6.1-2022-10-12' of git://git.infradead.org/nvme into block-6.1
-02455c432a64178d622ffaeb6eb0cff270044032 Merge branch 'block-6.1' into for-next
+728935123320c0f9593d671b36fa74b42836cf05 nl80211: rework internal_flags usage
+62b40d01cb07416f650e809989d754dc9eb7e10f [NOUPSTREAM] nl80211: limit default scan channels on FPGA
+47f3aaee0d88fa87f5bfb814cf3bb9d49d397ea5 [BUGFIX] iwlwifi: pcie: Add reading and storing of crf and cdb id.
+a0010917e792f04b7145a9dfe3b73e9b511f1549 [BUGFIX] iwlwifi: xvt: Flush all queues while terminating tx_handler
+1d9a022f4b632bc703ee83d262781c5515da7fb6 [BUGFIX] mac80211: correction of Rx rate decoding
+58ee3ba7209d99e306b159ed97a2e191520bb4be [BUGFIX] iwlwifi: mvm: fix sec_key_add command for WEP keys
+45b75a607c60aeb6462e9307093df3f2da9330d8 [BUGFIX] iwlwifi: mvm: d3: add TKIP to the GTK iterator
+7a2483ea34d04a95f1638e108e8a6d488c0412dc [BUGFIX] iwlwifi: mvm: d3: parse keys from wowlan info notification
+eacb06d07a4f91b7706fd5bc4da85778a52fdeea [BUGFIX] iwlwifi: mvm: send TKIP connection status to csme
+6c3eaef5b8cb97e7a7e486a72e2d384e1fb7d18c [BUGFIX] iwlwifi: iwl-dbg: Use del_timer_sync() before freeing
+2a89ec7808ba2a4dba0fd8556d9bfd06d5033fbd nl80211: Update the documentation of NL80211_SCAN_FLAG_COLOCATED_6GHZ
+c7d588deab3ddaf82f116e52339103a2919c9e5a [BUGFIX] iwlwifi: mei: clear the sap data header before sending
+6aff03307a9dbed6d61c8ead8bb79a2052796a5b [BUGFIX] iwlwifi: mei: make sure ownership confirmed message is sent
+29e3588c7add6a0b43ac615d95e00a0b689ee238 [NOUPSTREAM] iwlwifi: modify scan request and results when in link protection
+04f02faa71bf11de8924b882bf64410c13545460 cfg80211: remove cfg80211_get_chan_state()
+89280aea9fbf3b61453bb651d07a7dc2356a8b8a [BUGFIX] iwlwifi: mei: fix potential NULL-ptr deref
+2526e13ced2bea004ea9142fb6ecb7ea91e4f795 [BUGFIX] iwlwifi: mei: don't send SAP commands if AMT is disabled
+ff67b360cf7a32ca87742272a33017e1ae66d000 iwlwifi: dump: Update check for UMAC valid FW address
+0d51eb3582bc3ed497f45bbb2652ec66d75679e3 [NOUPSTREAM] iwlwifi: enable test setups delay factoring
+a925c37df2850668041e7280db2cd7c13b2e54ba [BUGFIX] iwlwifi: fw: use correct IML/ROM status register
+adf6c2f6d002d5851cfa03986670a8ea5eeae28d iwlwifi: improve tag handling in iwl_request_firmware
+4cf4e58eb787fb5af59e0e3dea949d66e418ef5b iwlwifi: mvm: remove h from printk format specifier
+e8fbc582859249880131e051d7b801c9af96183e [BUGFIX] iwlwifi: mvm: always send nullfunc frames on MGMT queue
+783c03875010da05a820fe8fe69b1412705ed507 mac80211: adjust scan cancel comment/check
+d0560beb069948280e51f4a210689f1d86684bce iwlwifi: rx: add sniffer support for EHT mode
+c8140c3aa4f9852d9a76217312798aa0e8392a2d iwlwifi: mvm: add sniffer meta data APIs
+266a35ccfb4fafa62ead2285dbaa610513d82312 net: ieee80211_radiotap: Add EHT radiotap definitions
+4f6e25838b631c7e8dca9a06cb232ff9e6093717 iwlwifi: mvm: simplify by using SKB MAC header pointer
+bffd6001873bfb1ba68bc9cf9c2e34ceb9dd151b [BUGFIX] mvm: Reset rate index if rate is wrong
+7b007e63fe66461ded22b794487efdfe0dbef6bf Merge remote-tracking branch 'auto/master'
+b94c304951aa3c98bbd4a7e7274a0797c033eda5 [BUGFIX] mac80211: make puncturing code more robust
+998690b59baa8eccf50034653a062f801800f4a9 iwlwifi: bump FW API to 74 for AX devices
+a0293ca32f86a19c932c6761808393d1eee719d5 iwlwifi: mvm: Support STEP equalizer settings from BIOS.
+4f72991ff310e6c0cd5641c7d1b08499f55331ae iwlwifi: mvm: add LSIG info to radio tap info in EHT
+8ba23ca78dc7f0e3fca1ea82f2c01d41848cc4a5 iwlwifi: mvm: mark mac header with no data frames
+2c0c3f8f6a060fd15677e4aa477020e15c4591a0 [BUGFIX] mac80211: clear all bits that relate rtap fields on skb
+f0b78db0eb0a2130ef94e7a49413673c48f6cff8 [BUGFIX] iwlwifi: mvm: set properly mac header
+709c47d0e5deab910e23a61463e8de40c4860cdc mac80211: add support for driver adding radiotap TLVs
+566464aa5d7ba780020e1ff0a3fe31a32d10060f [NOUPSTREAM] Revert "nl80211/cfg80211: allow setting multiple group cipher suites"
+0a478e23fd78633e32cc110879ef112be583bd18 [NOUPSTREAM] Revert "cfg80211: Include the PMK and PMKID in NL80211_CMD_EXTERNAL_AUTH"
+b656ff24870bd32d0d2eabb9751175db1b0678a2 [BUGFIX][NOUPSTREAM] iwlwifi: mvm: unblock RFKILL when CSME releases ownership
+cc765051914695cc9c33e735024873aa80047db1 [BUGFIX] iwlwifi: Adding the code to get RF name for MsP device
+76c46fdc583a697135d00dd9daf14425b4a01ecd [NOUPSTREAM] nl80211: limit default sched scan channels on FPGA
+bbf5c5f5beb9f54a7b815950e5c1163fc7ce6e56 iwlwifi: yoyo: Add new tlv for dump file name extension
+96be9cf962d67aeb76c2cc6cd493bcc307804d6e [BUGFIX]iwlwifi: mvm: don't send protocol offload command
+aa0ef04f02aaf100c6559dbb9518a2946a6eed93 ieee80211_radiotap: fix typo
+a4ce2d0167bc32e5f9c35543bf7de0f98e4ffc99 iwlwifi: api: fix typo in RU alloc bits
+8d22ddd91f3080fd3d5f519be2a10de55238bcd6 iwlwifi: add default value for FW_DBG_DOMAIN
+9fb15988b9cd091fa71f52b399b04741875c1195 iwlwifi: reduce verbosity of some logging events
+c5704fc75a8aa16022a5a8125a54a5944d07c664 iwlwifi: mvm: add an helper function for adding TLVs
+d20f134e7042c9479887ef08d0b6e454db91a668 iwlwifi: mvm: add EHT radiotap info based on rate_n_flags
+5956460d87f25324eb73008c530ff713b44423c1 iwlwifi: mvm: add all EHT based on data0 info from HW
+285db72a1fafa63081b5f95fda9cce949934d5a6 [BUGFIX] net: ieee80211_radiotap: fix EHT USIG TLV struct
+8cc28e3753d0b7125ed7d6cd4d8fb355a1ea0c2c [BUGFIX] iwlwifi: mvm: fix types in EHT HW defines
+5bf1c07cd46f869cc00cd0607adc80103569c705 iwlwifi: add option to disable debug/preset
+ebaee0cc1b013b1459ccb450308dd303b71b23d4 [BUGFIX] iwlwifi: xvt: Don't use deprecated register
+d1db90c629188ec1156417a4ff9207c9bfcacdf9 [BUGFIX] iwlwifi: mei: fix tx DHCP packet for devices with new Tx API
+8ad750a787d5d95e32838906868b9d6d1f7e28e9 [BUGFIX] iwlwifi: mvm: indicate to mac80211 about the added TLV
+5a696fac1af072998fd26488c8b2e198b276ba85 iwlwifi: mvm: add Microsoft to the list of OEMs which allowed to use TAS
+6e675756e3b873b8c8bc8dfe369555259cd496fd iwlwifi: mvm: rename define to generic name
+a6bd42581c1c2aac0d24683d0af343fc9a3e751b net: ieee80211_radiotap: update new RU alloc format for radiotap EHT
+d516511fa81427cc4c7ff390c9095a45c63593de iwlwifi: mvm: decode USIG_B1_B7 RU to nl80211 RU width
+e539a682695476ddee242d8ac75a79c3fb34b662 iwlwifi: mvm: parse FW frame metadata for EHT sniffer mode
+ba02473e5c6c2425b2b4c443ff901f7ced6ccd2e iwlwifi: mvm: add primary 80 known for EHT TLV
+2d4abd1fa2ce621facb381aa438d0cf507f90b05 [BUGFIX] iwlwifi: mvm: avoid UB shift of snif_queue
+42a3f9879ddcbc63e387c525cc57006931cb5a5f [NOUPSTREAM] enable UBSAN for SIMULATION
+c60222dc4264f7c7a0db92a2e6d8db03be4ef1fe iwlwifi: mvm: make flush code a bit clearer
+1721c75722cf8efea4c5486a5dbb9dfba2a6f524 [NOUPSTREAM] iwlwifi: mvm: discard superfluous FPGA frames
+7f7546d4d2122ef2fcc4c3ea43227d91f9ab18a1 [BUGFIX] iwlwifi: fix typo on BnJ B0 FW name
+a5aa767a350069f2482d2f44dcd410a0b32d419a iwlwifi: Add support for B step of BnJ-Fm4
+502c6ed7e2566dae595437ca184136c249ea509b iwlwifi: rs-fw: break out for unsupported bandwidth
+81aba22095397ec328e9d332bd9c70430ea5d7c9 [BUGFIX] iwlwifi: mvm: set nss + 1 than FW report
+d4f480c48978391b2d115a9b583243a1faccb008 iwlwifi: mvm: cleanup depleted defines
+5a60d871dbb6246d5350032c86ea141f6b936875 Revert "iwlwifi: mvm: cleanup depleted defines"
+2ae2e8c3583e83c33d16aa42a2237387e4496d3c Revert "[BUGFIX] iwlwifi: mvm: set nss + 1 than FW report"
+2a0b041d6dbabc4643c96f258502e6ca8107c71d Revert "iwlwifi: rs-fw: break out for unsupported bandwidth"
+4851a62faf6799903bb1985f60c0409544582e29 iwlwifi: rs-fw: break out for unsupported bandwidth
+feb556b11c39e4fe6c27c9b0bf8f55d5c7cb85ef [BUGFIX] iwlwifi: mvm: set nss + 1 than FW report
+1d007cd1b509bb34febab48f505c7bd140c0a8bf iwlwifi: mvm: cleanup duplicated defines
+447f8496c756c3de05ce715ee8b668945841a3fe iwlwifi: Update logs for yoyo reset sw changes
+d1e523ff0221770b4bc3a3c1c0ea3b501720eca0 iwlwifi: yoyo: Add driver defined dump file name
+97eac76ecbf49588bd3d069238b1850f9f0363c9 iwlwifi: mvm: add EHT - RU allocation to radiotap TLV
+059ede4dd29783b2e4a6c3e904ac2b53903495af mac80211: check key taint for beacon protection
+9f92327ac2645c9cf3721c6a56c5b42cc88718b7 mac80211: allow beacon protection HW offload
+dc42ba09bb8923d23ada9700a4b63d72f46aa913 iwlwifi: mvm: enable TX beacon protection
+89007f7ec20526192fb0e2fee8e5ec018fefbe68 [BUGFIX] net: wireless: return primary channel regardless of DUP
+66ee7dad84d1f992d2fa4d09491798425a65bd57 [BUGFIX] iwlwifi: mvm: Fix setting the rate for non station cases
+8b412901ddb6b46b91e7c0f2edadf60e25ecb8e1 iwlwifi: mvm: Refactor STA_HE_CTXT_CMD sending flow
+8768986cd5d0a0f170c804675fc42f7e48f625eb iwlwifi: mvm: Refactor MAC_CONTEXT_CMD sending flow
+97f06f69841a834da995446282a271eeadd71696 iwlwifi: mvm: add support for the new MAC CTXT command
+e7b6363047bd5b2c7025384ac42cb8c43554cb90 iwlwifi: mvm: add support for the new LINK command
+3bd3fc52ff8d1c01c958c1ac986e6c233f9322f3 iwlwifi: mvm: add support for the new STA related commands
+7f73e55d1f0fbabfa78a3f49a9a7f8a900c6d791 compat: backport mul_u64_u64_div_u64()
+0c4be5cd886238f304c5b61123130590b9ba251b [BUGFIX] iwlwifi: mvm: fix wrap around handling in PTP clock
+d43545bb056e2bb94f53d9ca1297060e765fa227 iwlwifi: mvm: implement PHC clock adjustments
+3379aa83b9a52f3229df231a322b1f194809061e [BUGFIX] Revert "[BUGFIX] iwlwifi: mvm: Fix setting the rate for non station cases"
+71c9f5082c1b5bdda747155e98aa162a980a0640 iwlwifi: mvm: Add an add_interface() callback for mld mode
+b37f004d45151040cc7a90fd3a8b0507fd44f2dd iwlwifi: mvm: Add a remove_interface() callback for mld mode
+d243b4b054cf9a44601188eb3640be7eaf1d5011 iwlwifi: mvm: refactor __iwl_mvm_assign_vif_chanctx()
+a2824e14a01bf7d67b305ec1f29caae1106f521a iwlwifi: mvm: Add an assign_vif_chanctx() callback for MLD mode
+e73a088bc6574470d6f9e8c824e285866ed7245a iwlwifi: mvm: refactor __iwl_mvm_unassign_vif_chanctx()
+f9d0729d8d8602bd86513efafefb6e7dbf0d15dc iwlwifi: mvm: add an unassign_vif_chanctx() callback for MLD mode
+33f94529c2e6246510502027b8b24f8868860f6f net: wireless: correct validation 6G Band for primary channel
+79839266fd10a0e9ef19c831524d3c5b54b1b2ea [BUGFIX] iwlwifi: mei: avoid blocking sap messages handling due to rtnl lock
+9e0794ae2cb8d0a376225547dabad781ca529873 [BUGFIX] iwlwifi: pcie: rename CAUSE macro
+1922b231bcd8f3425cdeb215e0f18a535a3a2818 iwlwifi: mvm: remove setting of 'sta' parameter
+c70e56c6a7b7c4b80ad7f99910be626e3d5cef80 iwlwifi: fix typos in comment
+ea6e9a08bab3e2ccd5ed9f822ef065788c116c71 [BUGFIX] mac80211: fix use-after-free in chanctx code
+4877b51a25a8173546319a901a93b245e554ab5d iwlwifi: Remove prohibited spaces
+972ca24b74c5ed4487c1cd0143212a6fdaccb3dd iwlwifi: Add required space before open '('
+1bda5dbc9c4005fdde588eb13bbc1a3d1c35089b iwlwifi: Replace space with tabs as code indent
+ee5493474459345bec02b6b9ded970f7200999da iwlwifi: use unsigned to silence a GCC 12 warning
+dbf1afb9074d74d7e87b02663d5ac71a75e1cb44 [NOUPSTREAM] iwlwifi: mvm: ftm-initiator: work around gcc issue
+a5fbcdc8bd3bd0fb154b57168697f47f1eecc53a iwlwifi: mvm: rs: print BAD_RATE for invalid HT/VHT index
+71e5ee129638c6104c83e9fb82d7a11292ddd119 iwlwifi: Update configurations for Bnj and Bz devices
+6477fba98b35e57bb7bc2a425a66939d7faa5129 net: wireless: cleanup unused function parameters
+bebbd96c2b67d028653f71c30211fc30d5ac93f4 [BUGFIX] iwlwifi: fw: pnvm: fix uefi reduced TX power loading
+6927b836fa16d3bfc6cf63f5ccf2892809daaf73 [BUGFIX] iwlwifi: mei: fix potential NULL-ptr deref after clone
+b35fc1af1ee3c39ff977eda3a67a269e469f07b6 mac80211: prepare sta handling for MLO support
+db48563076384955f1115b4abdd9be928b2a4087 mac80211: refactor some key code
+3a0e8a7e4693860517f925344ef20a6641eda439 mac80211: reject WEP or pairwise keys with key ID > 3
+e4bcce0a1626b0a890fb68417083bc3712726b67 mac80211: mlme: move in RSSI reporting code
+a5b386b0bb60cb4cd4c09bad857996588221c15a mac80211: use ifmgd->bssid instead of ifmgd->associated->bssid
+f3fcefe6ed5885782401e0f3deda1f569334a57e mac80211: mlme: use local SSID copy
+8632fdc27d5184068366f2985a9398c2625c38f7 mac80211: remove unused argument to ieee80211_sta_connection_lost()
+2dba3d239b00e9b32601f818980a98de45996b6a mac80211: remove useless bssid copy
+2c06a821bc10eb7096ed22f2382db663936a910a mac80211: mlme: track assoc_bss/associated separately
+a2c2f7bc6ec49f66f339ce1e91c44885b312f3c6 mac80211: refactor freeing the next_beacon
+ca16daac6599b218a87d97af80c61f2938557f2b nl80211: fix locking in nl80211_set_tx_bitrate_mask()
+9defa833aa80180115603db4b7b256869f9e39f8 nl80211: show SSID for P2P_GO interfaces
+793031aa4fa8439e357f94b77d32790a5c6b1563 [BUGFIX] nl80211: correctly check NL80211_ATTR_REG_ALPHA2 size
+34b201e74c4da98e09189b729f53bb4f6034af6e cfg80211: do some rework towards MLO link APIs
+2faaaefe07596ea0e0609627cbd5113a51713fd5 mac80211_hwsim: fix RCU protected chanctx access
+b3b7735f508de51e2ac698238c147b7896ea6042 mac80211_hwsim: call ieee80211_tx_prepare_skb under RCU protection
+81cfc3f4e6868c7d5013fd4096473e77098c72f5 mac80211: move some future per-link data to bss_conf
+2b0a8942d0402029b05c823c3c5eadb98dc9d136 mac80211: move interface config to new struct
+4c7291e41dae6d2d79af06855c244421e7e75eda mac80211: reorg some iface data structs for MLD
+8d6f94fc0bfb5b2b269deb24ef80214add96bc2c mac80211: split bss_info_changed method
+de28f7bc8d89b420fd27b88f7a719f7da88642f0 iwlwifi: mvm: add station id and non-ofdma user to radiotab header
+64337357babf6b5badd4aa5c2751c55fe809904d iwlwifi: mvm: Add debugfs to get TAS status
+69bc553b3449779b8924188aacd5b6232eaa2785 [BUGFIX] iwlwifi: Fix the context-info update for step equalizer
+2a5034ba198042923cd0d76bb58ad26eb82a9f53 iwlwifi: mvm: add start_ap() and join_ibss() callbacks for MLD mode
+4ee42f8dea28e6312b7d65967a611646213af1cd iwlwifi: mvm: add stop_ap() and leave_ibss() callbacks for MLD mode
+426850561311b55295b23da5151d20829f58c34d iwlwifi: mvm: Don't send MAC CTXT cmd after deauthorization
+18735f1688da0ae4b68fcdf5246d772fb3e926d3 iwlwifi: mvm: refactor iwl_mvm_cfg_he_sta()
+cf6337c9754fdf25255bcefb197a4cf238127d5d iwlwifi: mvm: refactor iwl_mvm_sta
+822ac0e07990c02c088a05392641a0488c9464d9 iwlwifi: mvm: refactor iwl_mvm_sta_send_to_fw()
+441cd27e2991f484691fb8a1034882c6b086891f iwlwifi: mvm: remove not needed initializations
+22c747191e247b50d4055ae7cfa3a59a84b6a2e7 iwlwifi: mvm: refactor iwl_mvm_add_sta(), iwl_mvm_rm_sta()
+e1a546f45eeb813bcbe095fa461bd4b406a87044 iwlwifi: mvm: add sta handling flows for MLD mode
+19fa057115ead8889ff1de2d77e646542ea0df6e iwlwifi: mvm: add an indication that the new MLD API is used
+75895e44ab95337ec774e748159140decdaf408c iwlwifi: mvm: add a sta_state() ops for MLD mode
+a8ef6817c70dd513c4f667b50a8a62c217eeaec6 iwlwifi: mvm: add a bss_info_changed() ops for MLD mode
+5409d5467a1508a3afd8b9e746166bfa9658c737 iwlwifi: mvm: add an switch_vif_chanctx() ops for MLD mode
+84ce2488b705ff714b58da78709af23c4eb3bad5 mac80211: add per-link configuration pointer
+8e8de06636ebaf35a8c3d80b4b88c88664a14db5 mac80211: pass link ID where already present
+10661851b34ba608d42d2af75ca4079f5fe3e447 mac80211: make channel context code MLO-aware
+dd5e6e31a850b0802b4c9bce9f9ee2d58084e605 mac80211: remove sta_info_tx_streams()
+db91dbe4bded99ba41e9b5edb7a7e5fea955ead4 mac80211: refactor some sta_info link handling
+78951c296109e0f063df9477f0a28c37a5c06d43 mac80211: use IEEE80211_MLD_MAX_NUM_LINKS
+af33be05b9dbe3a3d3c7893f295d72e412f40531 mac80211: validate some driver features for MLO
+e9976a12bb02a8c7e1220886f753ba191b05df82 mac80211: refactor some link setup code
+f290578028c14a41df37a8f285166fb3f2fe2c88 mac80211: add link_id to vht.c code for MLO
+553ab4fd397b45541eb4ab0649272ca86cf5668a mac80211: add link_id to eht.c code for MLO
+566a1883d68f94aa41552085c040fd28ad3198c8 mac80211: HT: make ieee80211_ht_cap_ie_to_sta_ht_cap() MLO-aware
+603cb3a2ab2be74dd1045abc983fa3d357258932 mac80211: make some SMPS code MLD-aware
+c8af96fafc7dc6f7d816f28a56f3be5a4660ae9f mac80211: make ieee80211_he_cap_ie_to_sta_he_cap() MLO-aware
+cca83744a3a0ca7418a7f6da4296a8c47e794021 mac80211: correct link config data in tracing
+3d620d9b23d59dadaf2a8bc156c4d3b43dafd045 iwlwifi: mvm: add a config_iface_filter() ops for MLD mode
+82b8d2291605eb0bfc2df79bec4f7f2c405517f4 iwlwifi: mvm: add a conf_tx() ops for MLD mode
+9ed618a2b99d27239cc9f97e7dfce6dfa3b399af iwlwifi: mvm: refactor iwl_mvm_roc()
+2450cac66fd3b2b020429d71f9244d6b158c404a iwlwifi: mvm: add a remain_on_channel() for MLD mode
+91e9ec4f47284b4ee22a4a818ad9f237fcaee18b iwlwifi: mvm: add support for cancel_remain_on_channel in MLD mode
+3c7bd78f674249f68f2d77473e37cd4d0284f24b iwlwifi: mvm: unite sta_modify_disable_tx flows
+50ab8fa7558aa138bb442ea0ea02b0ddddc6da19 iwlwifi: mvm: add support for post_channel_switch in MLD mode
+3ae1c45c4fd02b084fd22ad486a0065adad16fb3 iwlwifi: mvm: add all missing ops to iwl_mvm_mld_ops
+2592513c839911e60b3d9e1fb43e2a5f95f44cb1 iwlwifi: mvm: register to mac80211 with the mld ops
+4fd9b006933800daeb7afab973e22cd74d2e4d8a [BUGFIX] iwlwifi: mvm: update the mac id on link change
+a30b925baafe170be489cac374f787560e627a51 [NOUPSTREAM] iwlwifi: nvm: add an option to overwrite eht phy/mac IEs
+13ffd9d5d5d626094f04c66233c4168d658799a2 [NOUPSTREAM] iwlwifi: nvm: add an option to overwrite eht ppe/nss
+8a6019426d525d48e5a33c7a56f8e682bb457563 iwlwifi: Update configurations for Bnj device
+2cc21bbe5ae9e88fbfb1c43306affbdb0f8c19a2 [BUGFIX] iwlwifi: mvm: fix crash on queue removal
+6fef3b4c7533ba0bec68448bd4459b00c57e6c1a [BUGFIX] iwlwifi: xvt: Update tid in iwl_xvt while add/remove/modify a queue
+34ff1a75b056c4754d199970f1cbcf592c077567 [BUGFIX] iwlwifi: xvt: fix queue removal
+c6d4da87b2c72aeca7714075c0b1fa89b655ed8e [BUGFIX] iwlwifi: Check for static disable reason instead of status
+13cc5016fcab867b9fcfffcc1ba83df76497c439 mac80211: sort trace.h file
+f4bcf002aea69365dee6ce9e9415c60c4254c9f9 mac80211: status: look up band only where needed
+0146f1ab95df03ad09dfe90eaf17099b601a1add mac80211: tx: simplify chanctx_conf handling
+2494eda5ca59909f2404dcdf7b7e7bd3c4b2034e cfg80211: mlme: get BSS entry outside cfg80211_mlme_assoc()
+6fa54b6669d13e5a77127a7528ffb4f44208c7c7 nl80211: refactor BSS lookup in nl80211_associate()
+deaef10105994bd0a6c46a6cb78b1acc46d02c75 [NOUPSTREAM] mac80211: remove duplicate code
+c0322560c72f028efb12b087593f581e7bc67e0a ieee80211: add definitions for multi-link element
+3f8ea703751c40d4a9d68516e7eb221451a754f1 nl80211: add missing attribute docs
+a82045d31aa6e2e733677d73786f4a376c7a7347 [BUGFIX] mac80211: fix link_info_changed prototype
+63d37348a824c832fc8d3e24ba4b8e3a20f84680 [BUGFIX] mac80211: pass only relevant change flags
+36ec64d0c33cb6ef19b24e0967e5abe76a3f124d cfg80211: simplify cfg80211_mlme_auth() prototype
+cb6a9a9e9ae9cdcc64c7d92c3a6df08ef4dad546 mac80211_hwsim: split bss_info_changed to vif/link info_changed
+4e27db8efc712e0ce397f58a84438b66d51cf29d mac80211: ignore IEEE80211_CONF_CHANGE_SMPS in chanctx mode
+eff3a9a1f3e180b16593df85be6d8d9d18fc84eb nl80211: support MLO in auth/assoc
+5368edae4fd16dbf589d7afe8a396a45381901b4 [NOUPSTREAM] iwlwifi: nvm: add an option to overwrite eht mcs
+7c237791e718e033acb3ae0a72a3ccb1dd537ecb [NOUPSTREAM] iwlwifi: nvm: add an option to overwrite eht 320bw
+ce95c7d4ca0f9c6a2106329a56fc52d9ecd89b2e [NOUPSTREAM] iwlwifi: iwl-nvm-parse: cleanup by using a c macro
+8555f19a929b73b852636e5b4a2301742772b55b mac80211: add vif link addition/removal
+004cb3b23ee6369d83e4f16a61cbb26fb8cac70b mac80211: remove band from TX info in MLO
+3fd3a4a2fc86080d18d6eee0dde775b0d2e3d542 mac80211: add MLO link ID to TX frame metadata
+da04edd4750180699b0ebbdb7a3d2cdb6cde370d mac80211: add sta link addition/removal
+f2bfec777fe804bb2266a323c83464517d387259 nl80211: update add/remove link command
+18a2afc8e1e817c9e93c79051ca97b67c08d9f4d cfg80211: sort trace.h
+0e9b1bdd2342bef4a1e0610bbc5405b3d8ab2e57 cfg80211: add optional link add/remove callbacks
+819da6756a0521258b4426c98a6265ae68a71a1e mac80211: implement add/del interface link callbacks
+c6e93d678f758a2665a6c80064089b45660f81ca mac80211: use link in start/stop ap
+eef68d1e69b2546fbf0bcf3dea024b4bb6be98f4 mac80211: pass the link id in start/stop ap
+28aec4423aa1c2301fab92ff6864ed5cb6905fd4 mac80211: return a beacon for a specific link
+8b697ffc678b6054816d82fc128396fb5130f12a iwlwifi: mvm: don't send the beacon template before adding the MAC
+9eda027173147824308241fe91c958f2ce52c283 nl80211: add locking in add/remove link commands
+b09acac3f1b6878b1df8d1ce6be70ca6fdb891fe [BUGFIX] iwlwifi: mvm: set link timing params only when available
+e08d2c2364ed9e5a13dcf23c58a0ad8a79070720 [BUGFIX] iwlwifi: mvm: set link parameters after association
+12bd77b898775ece58053ba7111a3b2c41f9fa5d [BUGFIX] iwlwifi: mvm: fix "modify_mask" value in the link cmd.
+c9193d208e95b61fd6a065e09d18ddcbc0752b91 [BUGFIX] iwlwifi: mvm: fix iwl_mvm_mld_cfg_sta()
+4a08d64d64b754d01cfc3f2f8fc1f5ca18513549 iwlwifi: mvm: add a debug print on HE connection in sta mode
+7fd870d591076caafe3222f8eb8d080f88692cac [BUGFIX] iwlwifi: don't use the NL80211_EXT_FEATURE_HW_TIMESTAMP feature flag
+fb412973fff65648fcbb12f616f662c9a9032410 [BUGFIX] mac80211: don't use the NL80211_EXT_FEATURE_HW_TIMESTAMP feature flag
+e29d85553c75facace907b99a698cf2d7b88d62e [BUGFIX] nl80211: remove the NL80211_EXT_FEATURE_HW_TIMESTAMP feature flag
+b311f5d9d24154c762ad2da6a6d17b8d5e96c631 nl80211/cfg80211: add command to enable/disable HW timestamping
+30731ec09fdb5a2641f27ce6ba73fb1a38eb6be6 mac80211: add support for set_hw_timestamp command
+d755cee570636326131609b11646c4820a709f7b iwlwifi: mvm: support enabling and disabling HW timestamping
+cee8a248800161f3812d9bb6f2d3ef3d5dd28f38 [BUGFIX] mac80211_hwsim: set virtio device ready in probe()
+f55e992a8af5959ca464a3e3be3cde016bfc27fe [BUGFIX] iwlwifi: mvm: Change default value of lookup_notif_ver
+c166b16db6e4fe5d6c1213a94ce6c297d0086a70 mac80211: move ieee80211_bssid_match() function
+01669e51f6bb0e2157ca5c87c5f8a3edd705c319 iwlwifi: nvm-parse: enable 160/320 MHz for AP mode
+5858c9fa18aac0dc2410ce9eb6c3c32dada06fba mac80211: ethtool: use deflink for now
+a6453d87845a4baf77affba597df3e66657ccf77 mac80211: RCU-ify link STA pointers
+b104c6b6937731e88c5ab3b920d25816ba225cd1 mac80211: maintain link-sta hash table
+0bf9d3f3037381e0d1c226b3cec2405722cfb6e7 [BUGFIX] mac80211: set STA deflink addresses
+1d32c54116cf05f57784d242449dd455d11f447f mac80211_hwsim: send a beacon per link
+1ae170bbdc29242136b85235e70ebd54284ab972 [BUGFIX] nl80211: fix locking in MLO-unsupported error paths
+43868602344256851aeeaff3c2380939df644b0a iwlwifi: mvm: vif preparation for MLO
+d9615d70565419aae58451ea6683f1f248d98765 iwlwifi: mvm: prepare iwl_mvm_flush_sta() for MLO refactoring
+1393385741fce05fa1064d10c1375df14dd0f08c iwlwifi: mvm: move max_agg_bufsize into host TLC lq_sta
+69434fb5440b40ce00e8db9d06edd00304342b8d [BUGFIX] iwlwifi: add a validity check of queue_id in iwl_txq_reclaim
+a671d5933be3d6e161e593de90e0073383cb76c4 iwlwifi: bump FW API to 75 for AX devices
+ea818068913cf44698228ec378e201499ba5f52b [BUGFIX] iwlwifi: fix the station config struct name in comments
+bbeb883e2da81208096b74eb26bb8f5b2f62d866 [BUGFIX] iwlwifi: mvm: configure rates info in link cmd in p2p
+125da51e8ed32d2034a577310c372ad73c1b9995 [BUGFIX] iwlwifi: mvm: use mac_id for link_id
+b4813947c6e63953831a45c79cf602e3147fc91f nl80211: expose link information for interfaces
+4d810084e8b09e41285bc72903e42483c7fa6166 nl80211: expose link ID for associated BSSes
+97071463e21ef9c0c0013864b5cea08ac470b73b mac80211_hwsim: support creating MLO-capable radios
+20eb966b14b905eaa3e516e8ee8e6e8acc2da1ea mac80211_hwsim: print the link id
+4c564ac79564dd993dda020249945b62e04d4214 [BUGFIX] mac80211: mlme: don't shift with negative values
+3a931c711d257e6b426a29a26936048a9dcb6aff [BUGFIX] mac80211_hwsim: fix BSS_CHANGED_BSSID handling
+f04f0b2c7af435604ea531a9ae6f4b6e440fbc60 mac80211: Align with Draft P802.11be_D1.5
+baa69f7f856b59c7d6d382737fb95e251b5a36cc mac80211: Align with Draft P802.11be_D2.0
+e2775a7fb07a5113886da9e5eb149a782e336f1d [BUGFIX] iwlwifi: Update configuration for SO,SOF MAC and HR RF
+8c1368a0086e2c4d6eec70ef6d8c592b58848ea2 mac80211_hwsim: Support link channel matching on rx
+00389087f486fd145ae6aae9ebe34d3e3c346ffb [BUGFIX] cfg80211: initialize return value
+f818b9bbdb4cc962d0a19852675d0f99bd0605d1 mac80211: consistently use sdata_dereference()
+b55a5b031b913cfdbaec44656f18b07189da4dca mac80211: rx: accept link-addressed frames
+fed7cbddfa337b420f0c48334c816bf3f1859f9c mac80211: Consider MLO links in offchannel logic
+2752f07ade70e87c03bf04ff6402749f1f46dfb4 cfg80211: Allow MLO TX with link source address
+6454fca60d6c84c509d7aeb173be7e5bf84bbc7f mac80211: Remove AP SMPS leftovers
+54e8c52f6971551a6de400e9c47b4d7eb330adb2 cfg80211: Indicate MLO connection info in connect and roam callbacks
+16500b259723e93b66abef6aec4ff292471e595f mac80211: add an ieee80211_get_link_sband
+0ea64fdfb549b1cc53392f17e2f5302fec8e1ebd cfg80211: add API to add/modify/remove a link station
+f7db32ed39f6e405c08186fa3610dcbee8fb8934 cfg80211/mac80211: separate link params from station params
+b3f5ff4d7bcb941a57efb877cc95f8c18767f6b2 mac80211: implement callbacks for <add/mod/del>_link_station
+1885a075251acf33a15e122d661d81e0f9f24e9b iwlwifi: mvm: convert TID to FW value on queue remove
+d2421a7aa2db3e08e88e25e467eda616fbb7d104 [BUGFIX] iwlwifi: mvm: use OFDM rate if IEEE80211_TX_CTL_NO_CCK_RATE is set
+731628a0de46169a3193c4106550681ec7cb3d10 [BUGFIX] iwlwifi: mei: make mei filtered scan more aggressive
+4eae8d1ed3a2f0d8010d7a890ae7f38943e71376 iwlwifi: mvm: enable bz hw checksum from c step
+5ae160f7adde776096d10448c63c854792d80653 mac80211_hwsim: remove useless condition
+dae276573f241a9589402c827b2ef52eee251c72 nl80211: hold wdev mutex in add/mod/del link station
+507e17f19eb20c65eaed876cbe9127cf0042367b nl80211: hold wdev mutex for channel switch APIs
+70accf59ee350d1afdebaf8753169c021473c670 nl80211: hold wdev mutex for station APIs
+0af0b0896c4ea398acd4cd5a5c2f9a23e3441aad mac80211: RCU-ify link/link_conf pointers
+ba6f930219edaae11a8ee89b5cd4b5ccee97bf67 nl80211: enable setting the link address at new station
+624dcfef7672847ba4d04a9ac8aadbebbc9c9eed iwlwifi: nvm: Update HE capabilities on 6GHz band for EHT device
+91c441343a5d68c68b781e939cd14929e37dba9a cfg80211: make cfg80211_auth_request::key_idx signed
+b4fe7176431810912c311334f3e221013fa6f384 cfg80211: drop BSS elements from assoc trace for now
+787b18018d131c9fce4144a95c6508e2deef84f3 iwlwifi: mvm: move function sequence
+f3426254375aafb11ff5a45397919d6572abd6e1 [BUGFIX] iwlwifi: Update init sequence if tx diversity supported
+0ea624c0ae1ae3a870ac835b0af17ea1e2d49997 wlwifi: Update configurations for Bnj-a0 and specific rf devices
+75fc9c078ee07d11c1b22d595aeca6095c11f729 [BUGFIX] mac80211: Use link's sband in sta_apply_parameters()
+b9b4fe5f80154175be6417cc7bcc1204fde91789 [BUGFIX] mac80211_hwsim: Fix link channel matching
+3107c9babfd1d4b5b10d59e80789c5dbc14f7610 [BUGFIX] mac80211: fix RCU annotation in start_ap trace
+f5b7a1768e16fd1e628d531c23d82146357362c3 mac80211_hwsim: Ack link addressed frames
+059e81bc0aa6894c64af0a2bd57ce1a8d7006cb3 [BUGFIX] iwlwifi: trans: don't trigger d3 interrupt twice
+872cbbe16f58cc9820dff0439476607843c06c96 mac80211: debug: omit link if non-MLO connection
+f7297f39110c38e817f1b1e1272287167349c6e5 mac80211: skip powersave recalc if driver SUPPORTS_DYNAMIC_PS
+fa643923ef04338b33e23c75d89b270f2c98bd83 mac80211: separate out connection downgrade flags
+b4f6bea968f36b8201d646b3531319cc758e2d79 [BUGFIX] iwlwifi: Update init sequence in old devices
+f2a361d83e0965eab70f0d3ab9d66656b5b53b8a [BUGFIX] mac80211: mlme: reset deflink conn_flags
+2def23649fbce85225dec1986897c695b25c8354 [BUGFIX] mac80211: fix key lookup
+31e1b020f2a49dfb926a33e50f982a761e29ba45 [BUGFIX] iwlwifi: mvm: don't set CHECKSUM_COMPLETE for unsupported protocols
+040ab25cb4a129e35ea5ea20f8d929bf2a75e1f3 iwlwifi: dbg: print pc register data once fw dump occurred
+22f1efb3c5b4857628a4f3a303be5d536244f133 [BUGFIX] mac80211: properly skip link info driver update
+c1999f8f0507ecebb06a4ab450f0865b16b4e0ea [BUGFIX] cfg80211: handle IBSS in channel switch
+fd0811345a1708f0ef98affa951afcc5399dcb71 [BUGFIX] nl80211: hold wdev mutex for tid config
+298e75b4ca7f6f6ff4c778bffcd2e2c34ee777d4 [BUGFIX] nl80211: acquire wdev mutex earlier in start_ap
+1067613cd785e28b7db27e83ca5f11553c925801 [BUGFIX] nl80211: acquire wdev mutex for dump_survey
+830d5844473f3579a3e672a4ab90434a7b2af8d5 [BUGFIX] Revert "[BUGFIX] mac80211: mlme: don't shift with negative values"
+e27206adbcee9a3543eecebe1362e092300c1bb0 [BUGFIX] mac80211: fix integer overflow in bandwidth
+a402832e90a08c6b394e29a23ee4fe5236cdb22f [BUGFIX] mac80211: fix disabled subchannel bitmap extraction
+57e67314669413407b965244b1a66b086a0cce40 mac80211: rename variables in subchannel bitmap extraction
+f71bfaf177855431eb056361d959e00955d97c20 [BUGFIX] mac80211: mlme: use data center and not control center
+a1aa56ae253be9e8007e399550893d4cbd3d2fb5 mac80211: move ieee80211_request_smps_mgd_work
+901b876cb42153d4a6dd9d4480b667d2bbcdd388 mac80211: set up/tear down client vif links properly
+6954eda0815f4e93b58c350c0b896b571f7e4b4b mac80211: provide link ID in link_conf
+c2951faf0e358da527cd84044f0f1f4f6f514e8c mac80211: move ps setting to vif config
+de1179c9e2f487c38b43be15e6cc2c9972217d99 mac80211: expect powersave handling in driver for MLO
+e1fa0ee06ee56ec39a35534fc3ed75759a9f9365 mac80211: change QoS settings API to take link into account
+ff5d514faeb524d2c3c549106419e2710c87089b mac80211: remove unused bssid variable
+e5d6f59dbab3e1f695d9f915111249763ce30baa mac80211: mlme: track AP (MLD) address separately
+7b4200be27c66721e8c2ed6ecfa633438e86de96 mac80211: mlme: do IEEE80211_STA_RESET_SIGNAL_AVE per link
+9f795530a60996008681d20f08e386ee4ec5c2c6 mac80211: mlme: first adjustments for MLO
+a4712fe859ae5c8d90b126a600c24582d2950d95 mac80211: split IEEE80211_STA_DISABLE_WMM to link data
+7a7a3c50390e08a7699c0e2cb27018cdbb1e97b1 mac80211: mlme: use ieee80211_get_link_sband()
+e46caca2fcd7e89670656500d9d677791a51e8d6 mac80211: mlme: remove sta argument from ieee80211_config_bw
+ce0d719cbe40ce752db34e65d8c970c123d49dda mac80211: mlme: use correct link_sta
+41aa520c6aa9c49ff0569ededea64ade545c2332 cfg80211: remove BSS pointer from cfg80211_disassoc_request
+b448ea739f5f7f5724db07cd745585175e931484 [BUGFIX] iwlwifi: mvm: fix crash on queue removal for MLD API too
+7d7011e683acf6e531f95f378e9c3b13dc0eec5d [BUGFIX] iwlwifi: mvm: fix sta commands address field
+14e0ac8e626a417522a5b683062bc2989c2b2a9e [BUGFIX] iwlwifi: mvm: fix local address field of link cmd
+b31b9d2ad4e614530451f9aafdb74a07b679e947 cfg80211: prepare association failure APIs for MLO
+29824d48006a661ec5f594490eabb82bfde7abc2 mac80211: mlme: unify assoc data event sending
+a2700a50e359874155fd3121615fbf34d1d776a6 cfg80211: adjust assoc comeback for MLO
+93898f431026eaaa987f0132deb69587a6aa729b cfg80211: put cfg80211_rx_assoc_resp() arguments into a struct
+71381b57bb96ec9c214758cd080127379ecd6d66 cfg80211: extend cfg80211_rx_assoc_resp() for MLO
+cf9bcac97e0564dadcfb0fe75536b58fa4baffd2 mac80211: refactor elements parsing with parameter struct
+47e62af230fb16ea9da86476e80985879e381112 mac80211: replace link_id with link_conf in start/stop_ap()
+afaac1fae4450d00c722ee11ca7e85cc8ccb864b mac80211: don't re-parse elems in ieee80211_assoc_success()
+61e7a7a90c5cdd6a2564337324e6536bbed66cf3 mac80211: move tdls_chan_switch_prohibited to link data
+4fadc86b02d03730c9871095bad6244e4d90e908 [BUGFIX] mac80211: fix multi-BSSID element parsing
+6c5fdac373dca2cae52746a583939abfaac6ad98 mac80211: don't set link address for station
+74e8f3614093bf12cc76d4c0a9bfa469f012cb0f mac80211: remove redundant condition
+79d94f84f37b24c6c76ae259869e4f27902eef7d cfg80211: add ieee80211_chanwidth_rate_flags()
+6f735f63076073f44826906e33b303b140db0e87 mac80211: use only channel width in ieee80211_parse_bitrates()
+ad97c55428fe7cd30d3102cbed17f07fc6cd7330 mac80211: refactor adding rates to assoc request
+6e3ab3791efb55eac5f7dff6215212b7f5420cf9 mac80211: refactor adding custom elements
+d100b41e80a9342e14749c75ba479903de6071af mac80211: mlme: simplify adding ht/vht/he/eht elements
+35b26b1cb9057c827e5d0705b42ae2dbf550ded9 [BUGFIX] mac80211: consider EHT element size in assoc request
+c43e5db6dcc5c418bd4b8fef93ec5fd1e56b3c19 ieee80211: check length first in ieee80211_is_timing_measurement()
+7bfc539eea492ac7e4473751dee0ed0ff03f9423 iwlwifi: Add RF Step Type for BZ device
+18a90ed65335c062614601c7df89a09d106b8712 [BUGFIX]: xvt: Flush the tx queues if all TX resp are not rxed
+53f633bfd10163c0bb49528333436dbc8818da9d [BUGFIX] iwlwifi: Update TAS status presentation
+ed09b77ebf5394be0f088f29b7a94495dc1e0a1a iwlwifi: add a new PCI device ID for BZ device
+5a6676a1fb7b2b2453c1c44d26ab7ce23dc0f88a iwlwifi: Check if vendor is in approved list
+da4d10b9d3c769ff210e1f4d79058101ac5d32c0 [BUGFIX] iwlwifi: mvm: don't drop unencrypted MCAST frames
+a8269d077da3018bc5ea5c589fb5d7cc68d40a56 iwlwifi: acpi: support modules with high antenna gain
+b19624c6e6cb1dbe21242d6d56b7a3a847967ba3 cfg80211: clean up links appropriately
+f2cbd5b366401ef8916443f89ced5e6f57d0a491 mac80211: tighten locking check
+b02d9956833d5a465db2602080deb9c198b91cc0 [BUGFIX] mac80211: tx: fix link finding loop
+03f7f418836db68bfaf79e18d584f27b005140d1 [BUGFIX] mac80211: fix link manipulation
+6eadb8b2a49b0d38d85aa876d7577b43e8e1de58 [BUGFIX] mac80211: mlme set up BSSID pointer in link
+8c4a2589ef366a695590a7821c84a6d7b3e2cf01 nl80211: better validate link ID for stations
+da37cca5916abe2e0d0fc70b6fcdc66c144c9983 nl80211: add EML/MLD capabilities to per-iftype capabilities
+d2a19f91b9900630704267a064795fef5ec63993 [BUGFIX] nl80211: set BSS to NULL if IS_ERR()
+33d2069ebb4ea7e799f4b7fc70238c0cb470d05a mac80211: skip rate statistics for MLD STAs
+677bfd62727f142e7e9c90aa08c39a2a7b402054 mac80211: add a helper to fragment an element
+3e4fd5e9421e99e31c2bb74f71b50b35b984a232 [BUGFIX] nl80211: check MLO support in authenticate
+65acbdbc489da733eae6e37f901d43a4f86ec5de nl80211: Support MLD parameters in nl80211_set_station()
+40faf16c293099eafeb9e4b60f781de171db93c0 mac80211_hwsim: use MLO link ID for TX
+b010801c98f15b63bcdfd362c6716839addfb49f cfg80211/mac80211: Support control port TX from specific link
+52f68eea4cc83f0bed93244ef38f41c2c1771a43 mac80211: Allow EAPOL frames from link addresses
+68e65a02ae3deae67b48b84950de5cb5fdd50635 mac80211: Allow EAPOL tx from specific link
+5ff3a632ea397cfa37e449afa276fa402bc2f20d nl80211: allow link ID in set_wiphy with frequency
+5377c769addbaa33877a4bc18f75e7ec1c95fa0b mac80211: don't check carrier in chanctx code
+d2319de39ee4675f0b29bb9501c719fde6b60938 mac80211: Support multi link in ieee80211_recalc_min_chandef()
+5b5ae4b57a795ebe502cecaf9cab9ce4b3e997ad [BUGFIX] iwlwifi: mvm: modify link instead of removing it during csa
+d57224673ce58afff9f5768b3db04746480e05e0 [BUGFIX] iwlwifi: mvm: always use the sta->addr as the peers addr
+b8cf03eae2c5ebc21db71a74dc1c5705d93887c5 iwlwifi: mvm: align to the LINK cmd update in the FW
+419913f41e626bfbc7900e68cf3faf915645a7e1 [BUGFIX] iwlwifi: mvm: fix shift-out-of-bounds
+154251cfedf9ebe23f12ed0bb9d2a431d74bc9e0 iwlwifi: mvm: request limiting to 8 MSDUs per A-MSDU
+e8e9a8512b0ac30af4f8f7c0b1439e10ce7db8ef [BUGFIX] iwlwifi: mvm: make HLTK configuration for PASN station optional
+dc5d3282aa3f3bb0f435226700104041aa582f43 nl80211: advertise MLO support
+b93c3e21934547871ac592ca1fc41ddb8d5b535f [BUGFIX] nl80211: Fix reading NL80211_ATTR_MLO_LINK_ID in nl80211_pre_doit
+86fcd4ab10423a86b496cd8d8ac057baedb56926 [BUGFIX] wifi: nl80211: fix sending link ID info of associated BSS
+13ed01541742c8df9899e954a29fa609d8e22740 [BUGFIX] iwlwifi: Fix the wrong dump data
+7817af5f0677774943ed832aea49c144c64661d7 mac80211: replace link_id with link_conf in switch/(un)assign_vif_chanctx()
+7ae68c72d5b6c4c09691316f1960080c8803b7f5 mac80211: remove link_id parameter from link_info_changed()
+52a2df478ebe1ed13a1525d6ad9213d3910d656d [BUGFIX] mac80211: refine sdata lock check in start/stop_ap()
+1099311040ab2df3c119910c6a647107a7548131 iwlwifi: mvm: sta preparation for MLO
+2040c42b1bb4e02b9557cef3f3f9a980fb9f1ea7 [BUGFIX] iwlwifi: mvm: add for_each_mvm_vif_valid_link() macro
+f42a59ee558a009d3a5f2580e032e4576f735974 iwlwifi: mvm: adjust iwl_mvm_link_changed() to MLO
+01defb4b6cc9f7db8bbd2a0b105b1353ec8ee47b iwlwifi: mvm: adjust smart fifo configuration to MLO
+e9fa277e6758654718e42ecee58192296f983e8e iwlwifi: mvm: adjust iwl_mvm_mld_mac_ctxt_changed() for multiple links
+9161d5eb586fdd3e5dbf07e3e9c3b9798028ad7c iwlwifi: mvm: adjust some PS and PM methods to MLD
+f6dbca2bafc1d2daf15fd82fdc2c1ba4a3f477ab iwlwifi: mvm: adjust iwl_mvm_mac_ctxt_beacon_changed() to MLO
+85712d87ba9733c39a3c1796a6ef5ec698835c9c iwlwifi: mvm: support wowlan info notification version 2
+6b8a8b21adfaca0b032dcf15bab0a64e3e66015b Revert "iwlwifi: mvm: adjust iwl_mvm_link_changed() to MLO"
+8b3f79a913774a60f7922a606113e8592484982e [BUGFIX] iwlwifi: debug: fix crash in __iwl_err()
+8ceb64fa01c1dfcc4cfb7bd27ed9ff170f2e42ea [BUGFIX] iwlwifi: fix LINK cmd update
+a44330fdebbfd290fa507cd329f04c90e79d4fb3 [BUGFIX] iwlwifi: mvm: cleanup beacon_inject_active during hw restart
+956528694843773b71f37bf104e3f22a6d6ff5d9 [BUGFIX] iwlwifi: mvm: remove WARN_ON_ONCE() in iwl_mvm_link_changed
+3dfcbf15cf9ae54c29c7c37f6591507c1fe94da7 mac80211: select link when transmitting to non-MLO stations
+c73013914dd5f629533acfd5c525fc9112fa05a0 nl80211: reject link specific elements on assoc link
+0967d8a0404cbde6ad42b529acf17baa4fe8f03d nl80211: reject fragmented and non-inheritance elements
+f2faea2e7163be2f379eb8a878980a1740560782 nl80211: fix some attribute policy entries
+946211d03e49d58e49aba94b6386bb2ff374d8b4 [BUGFIX] cfg80211: set valid links in cfg80211_rx_assoc_resp()
+86b970f5ebc7c6b8229e512b01d185345c07efb7 mac80211: prohibit DEAUTH_NEED_MGD_TX_PREP in MLO
+db17a77c8eb4b1354690c811bbfc59dc2e5caeba mac80211: release channel context on link stop
+a2721f50defe3bf85e06dd79cc5d21bbafc5a227 mac80211: mlme: clean up supported channels element code
+23e7bc29999664d3568395cc16d43ac58774b78a mac80211: add multi-link element to AUTH frames
+d10a97068e67f3a3778d91718d5120573d5a89b1 mac80211: make ieee80211_check_rate_mask() link-aware
+9f4b2f781a29a22ec7ff4120dbe4b6f39ea00824 mac80211: move IEEE80211_SDATA_OPERATING_GMODE to link
+154f7b7cadd86191bb7e3affe727869cffa9e1ed mac80211: mlme: refactor link station setup
+b4bbfb363f9ab3e09e9b36c1df9b96ce4248a6be mac80211: mlme: shift some code around
+1f5376c040792802eb87127506c192b1ad51c4ef mac80211: mlme: change flags in ieee80211_determine_chantype()
+3de24f84dbd2e06e6c57b42d692057fef05ae3e8 mac80211: mlme: switch some things back to deflink
+df15ef5e8128cf6d27387322f27cad0348df7b6b mac80211: mlme: refactor assoc req element building
+017c88fb423a80771e493157fd640277b4a06662 mac80211: mlme: refactor ieee80211_prep_channel() a bit
+91c28630bb22170fb60298886328ca9374c8d879 mac80211: mlme: refactor assoc success handling
+0179f50b1d11d855d9b3c30ba512326682270f90 mac80211: mlme: remove address arg to ieee80211_mark_sta_auth()
+32c40c028faa2d65da9e1f4c1d19b82ecf2b8f93 mac80211: mlme: refactor assoc link setup
+d9aeeedd0d2b7f75c33b5de81f409e12d36ffe5d mac80211: mlme: look up beacon elems only if needed
+d79bb35e4174b20e2b49555e25e7590eae2108c5 mac80211_hwsim: Do rc update per link
+3d0c9e66add980507d5eea11e6f2b99d65ec5e94 cfg80211: add cfg80211_get_iftype_ext_capa()
+cb56c0e1e27bb1e5fd60d5e4e7365cc98eacc826 mac80211: mlme: refactor ieee80211_set_associated()
+73bb187c8cb52a7f618f88b67a90f607c5f3e48e [BUGFIX] mac80211: limit A-MSDU subframes for client too
+bdd522bc23a1aa60e626b25d449a32d2eb0d98ef mac80211: reject adding already existing links to STAs
+9b72a67d1bf9d9d878c327802fd1f51b86bbf37e mac80211: rx: refactor link-sta lookup
+66a1dcd006a5ad400773ae1e4971a4eca448b615 mac80211_hwsim: implement sta_state for MLO
+4db21ef7107c45f64e2ad6bb2141ff9d23ab9d3f mac80211_hwsim: fix TX link selection
+c633078bef7242c10b6434c503d21ba4b0dd45f0 iwlwifi: remove EHT RX NDP wider bandwidth support
+ccabc00b2009b2eb8091e84494969181cf251fb6 [BUGFIX] [NOUPSTREAM] cfg80211: fix wext handlers
+6da7bfbb617fda1ddf3b7f01a43577f26618b12f mac80211: save RCU dereference etc. in non-MLO
+4ca2e024182da1e0052ff2637d8f9fe788aa166c mac80211: fix up link station creation/insertion
+a291766a3ec7699ef34ee6aa7bef3e7c9971c9e5 mac80211: remove WARN_ON() in STA link parameters
+096958460722a8d63cd4e9fa72bbb1014ab42add mac80211: do link->MLD address translation on RX
+12dfc16b76635fb6eeb4208883f93d14a96cc0e7 [BUGFIX] mac80211_hwsim: fix link selection in non-MLO
+5405443e4cd04b9d631ab91c6b38b19173d244ed mac80211: add API to parse multi-link element
+125a896ed60ceb52dfb9bdfae4481adb6b00d4ac mac80211: support MLO authentication/association with one link
+41bd33e64093ce70a5a1912611ccab53e55eaece mac80211: remove stray printk
+c319831b59979bd074ebd83ba90e9af8cdf4aa58 mac80211: mlme: set sta.mlo correctly
+3bd79f1945648b2f20ce14869e7f4da7726edab6 iwlwifi: mvm: add DSM_FUNC_ENABLE_6E value to debugfs
+fdf52a1e1390345ef6b2e15861be059bdadd144c [BUGFIX] iwlwifi: pcie: work around ROM bug on AX210 integrated
+0bb952056cdea785c61301901655a3077df93861 [BUGFIX]: xvt: Flush the tx queues while terminating tx handler
+32a504e4db9556051f2c115d3a2e86582a11d184 [BUGFIX] mac80211: mlme: fix override calculation
+6f925262bbfb518451145a33416742b488380b97 [BUGFIX] mac80211: fix NULL pointer deref with non-MLD STA
+0ceaccaf00f2becdd0cfb71a5d982c706a33da5d iwlwifi: mvm: add link to firmware earlier
+d5ab1f52b9fc21b2bea4266410c2a27aaa381e13 [BUGFIX] iwlwifi: Fix the duplicate dump name
+9d91dec87901342051315af0d2a123b78849b4d4 [BUGFIX] mac80211: fix RX MLD address translation
+e7ee7fc8bc5331317b4daf6bc7b304ce7ba6d301 mac80211_hwsim: fix address translation for MLO
+5507d80b6ddac3cb77441cd6ce1228131c00268b mac80211: fast-xmit: handle non-MLO clients
+3bcb0f998ff93fcce22752c9039ae6d9c4a75021 [BUGFIX] mac80211: mlme: set sta.mlo to mlo state
+4393517b92ad7cbee112991aba2c0760656b947e mac80211: tx: use AP address in some places for MLO
+3220208b2be12af3196c02f60a8b06493593914e [BUGFIX] mac80211: validate link address doesn't change
+8a010265f28779b10bba2cc83d896a4971b560e8 [BUGFIX] mac80211: fix link sta hash table handling
+73961624daa5213d9cb3622ece01cd00615006e7 mac80211: more station handling sanity checks
+547f6361acb5abff06b675d6e034a8ba10a7d5e5 nl80211: require MLD address on link STA add/modify
+734daa87819f09520a474ffdd2883a8d5b7d1226 mac80211: return error from control port TX for drops
+06ef9a21b0e1ed904d87c1f2fd5090633c703016 nl80211/mac80211: clarify link ID in control port TX
+0f412cee6eaa34dfb4affb63a32e0903169a610c [BUGFIX] mac80211: mlme: fix link_sta setup
+124a0ba82523492492d48e8ff9dcd107cba35aa8 [BUGFIX] mac80211: sta_info: fix link_sta insertion
+448d9a576fff0378fa11b1d4ad40e31ba6bb6ea0 cfg80211: report link ID in NL80211_CMD_FRAME
+9ccae5651b11d045cb33c71c7389f2a6f76da0b1 mac80211: report link ID to cfg80211 on mgmt RX
+d60926d67329b802fa89c35176162f73edcef908 nl80211: add MLO link ID to the NL80211_CMD_FRAME TX API
+2c0eb803d387558cff841d76a515e3701c0135de mac80211: expand ieee80211_mgmt_tx() for MLO
+81340324e041dc6a41da7ab1118039ac93a5f708 [BUGFIX] iwlwifi: mvm: remove warning on link with PHY ctxt
+97041cf2b665ad267754c378392dad6103a8c3db [BUGFIX] iwlwifi: mvm: remove link/mac removal at AP/IBSS stop
+5a9463d7bbc290fe3142f373bbd9dab69a561eff [BUGFIX] iwlwifi: mvm: align vif removal between mac80211 and FW
+996a42dc7464d1eb6e2987f32935cffef0dc8747 [BUGFIX] iwlwifi: mvm: fix AP-side channel switch
+bf305ff0adcbab6637bd30cfb60b41ca0a61ba6b iwlwifi: mvm: enable new MLD FW API
+fdb0c45458508300bde887ecd0877616616b3a48 [NOUPSTREAM] iwlwifi: mvm: temporarily use 0xff for invalid PHY
+e67e110ef22719c2794a3c3a702337776c8ac65b Revert "[NOUPSTREAM] iwlwifi: mvm: temporarily use 0xff for invalid PHY"
+b60b2e01f8b333ef14cda816256f107ee67c0bcc [BUGFIX] iwlwifi: mvm: add set_hw_timestamp to mld ops
+e84e6acdb894683da2112304e15ea4201d04e6d6 [BUGFIX] iwlwifi: mvm: don't configure time sync when adding mld station
+de116b35ffdb8f86a25063119ef3ce55ede2a1e4 [BUGFIX] iwlwifi: pcie: fix possible NULL pointer dereference
+4c3e6434ca32be454351d97cebca448a7d58b2f6 [BUGFIX] iwlwifi: yoyo: skip dump correctly on hw error
+944b0748d8840d7d93b72680b5c927901fbdd5bf mac80211_hwsim: handle links for wmediumd/virtio
+8b2f1421f3786bd7fe059f854ae0860a44bf2790 mac80211: optionally implement MLO multicast TX
+d2c49bbd588723588baba4dd9167167fd7811040 cfg80211/mac80211: report link ID on control port RX
+c74f47cb9428e0d79876dbe28a5f79dfb55e8c88 mac80211: rx: track link in RX data
+45702c8fa189ece8b2f2d0519c30ab7feb6b6365 mac80211: verify link addresses are different
+655343dcd1d55fad9476c1157ad86f734444c141 [BUGFIX] mac80211: mlme: transmit assoc frame with address translation
+59f53505e8a13f9f8dbd16d25a44acbab73fdc25 [BUGFIX] mac80211: remove erroneous sband/link validation
+f3aa81b0933b3fe9858ab6f8795fcdd9b1553ff1 mac80211: add macros to loop over active links
+defe8da171c5f53892cdc3d77344fd834e1c890c iwlwifi: mvm: adjust SMPS for MLO
+9a439f097b85b0c3a8dd27391e9b141cb0d5ae39 mac80211: warn only once on AP probe
+779d7144d552eec80fed465404467043982db44b mac80211: mlme: fix disassoc with MLO
+82507438c70a49bf3d26b4cffc729ceb5bfbcee2 [BUGFIX] mac80211: fix link data leak
+487c598244e29d8d02fb9ca53fe53df675757fec iwlwifi: mvm: don't check dtim_period in new API
+7643c7b9428cf8894df774f308add9db488bfc67 iwlwifi: mvm: add link_conf parameter for add/remove/change link
+683b078a474c0d84de389f479f1f955a0c957a75 iwlwifi: mvm: replace bss_info_changed() with vif_cfg/link_info_changed()
+e385a8bae9b0d93d43ab971688e3854b5be62b66 iwlwifi: mvm: adjust internal stations to MLO
+3bddd8edb5d79e72557ab3f560699c3c34e75907 iwlwifi: mvm: add fw link id allocation
+b3e88b10e7a3ad3fc73f4c408da838154e04fd05 iwlwifi: mvm: adjust to MLO assign/unassign/switch_vif_chanctx()
+9b9c72424ce9c63f9b186ae212ce3090547e2e17 iwlwifi: mvm: update iwl_mvm_tx_reclaim() for MLO
+1e0482736f47cbf4de5fec51422be237c7d1763e iwlwifi: mvm: refactor iwl_mvm_mac_sta_state_common()
+47f7b288ab950dd6131b3d09bc927dfae0860a1b iwlwifi: mvm: refactor callbacks in iwl_mvm_mld_mac_sta_state() for MLO
+da5203c785c9a1d0dd1e8c1821ae96b6d6d51b70 iwlwifi: mvm: adjust iwl_mvm_cleanup_iterator() to MLO
+26f2fe5519778ea4ab5e6d235584d28114181262 iwlwifi: mvm: adjust iwl_mvm_sta_pre_rcu_remove() to MLO
+40c0867823ce4ccfe4e513aaed2d93e640f1f699 iwlwifi: mvm: implement link change ops
+d0688575c902c372c91d8638619f17a3cec3b700 iwlwifi: mvm: make some HW flags conditional
+786cc16e23bae204f7a91e104dee36d8139196b3 iwlwifi: mvm: fix narrow RU check for MLO
+ed1f23798f4db45ecb987000f56ea2859cc94004 iwlwifi: mvm: skip MEI update for MLO
+1f67cb44707dd8b65f27de945a1a7d426202d7b8 iwlwifi: mvm: use STA link address
+e142a9ab063e18f4d5f06e8393b080992d18f995 iwlwifi: mvm: rs-fw: don't crash on missing channel
+907f8faff737f493edd58eb8f897b6456f4b9000 iwlwifi: mvm: disable BT coex in MLO
+f6fffd0182e969b9f6aadc59384051b250105d50 iwlwifi: mvm: make a few warnings only trigger once
+fb5b3c6ebd0f8771582f168e5e1ec60f47e98433 [BUGFIX] mac80211: accept STA changes without link changes
+19a5f425b8f85a3a00257ea94c17b7350fb34fc9 [BUGFIX] mac80211: properly set old_links when removing a link
+c3201e3d7d88bdfa0f0a94e4141c626c35724655 [BUGFIX] iwlwifi: mvm: handle PS changes in vif_cfg_changed
+cb582cc96ddbd658af5ce6e764c158337c150f5d [BUGFIX] mac80211: Keep CSA channel blocked in failed case
+51964173cc070d12a02daf2f620ba62746b1e163 Revert "[BUGFIX] mac80211: Keep CSA channel blocked in failed case"
+dfa811c821faed108c6ad829901cc0e44321da27 iwlwifi: mvm: adjust iwl_mvm_sec_key_remove_ap to MLO
+49ea2e6ac292ff51ff1eae1064443f8182c7c810 [BUGFIX] iwlwifi: mvm: fix link remove/deactivate
+94a7c7cfec0493afae5c9a1887fecef6f209b0d9 iwlwifi: mvm: add a handler to update SMPS on all active links
+fe4031ec880833287d6e253c9bd982d0436b571c iwlwifi: mvm: adjust radar detection to MLO
+6ec6f4feefda2f140fba95cd7a9c752fa5a72a5d iwlwifi: mvm: adjust rs init to MLO
+7de5b9de4d7efc910962e3e03656e2b1ae83a128 [BUGFIX] iwlwifi: yoyo: Fix possible division by zero
+7c7ec5fc030248d5f4e41e1fe01b02a22c5cdd2b iwlwifi: mvm: scan legacy bands and UHB channels with same antenna
+2e18b414cac6c2405ea85717292c3dfed19b44a6 [BUGFIX] iwlwifi: mvm: Fix setting the rate for non station cases
+a311adbee23a2a38034d1a20ab3b3962eb8f2240 [BUGFIX] cfg80211: Update RNR parsing to align with Draft P802.11be_D2.0
+8b9badbec4b43667f2ca55d9f83160f2eabdf9bc iwlwifi: mvm: fix the template_id for new beacon command
+d95736fc6a92b2bd68c36a5d0286f19baab9b056 iwlwifi: mvm: reduce NSS message level
+643dd23ba1213be228878e3e6640031924022ada iwlwifi: iwl-nvm-parse: remove HB/UHB bits in LB capabilities
+dfaf4a076f620c5297a1156250f8f0182b8b6386 iwlwifi: mei: implement PLDR flow
+87e9e8750e2bc1abd905db577870c229c05151cc iwlwifi: mei: use wait_event_timeout() return value
+aca4d94165b00410971b43a9ab492be562ecead3 [BUGFIX] iwlwifi: mvm: fix the linkId in debugfs beacon injection hooks
+dd3a3a0665caec28ea42ad5bca0ad54bd5c97422 iwlwifi: mvm: remove a TODO about the beacon setting in the firmware
+3c540c09dd63702875b6ef70721408858342455c iwlwifi: mvm: tx: remove misleading if statement
+311d47a457ab802d544734d05e4c21d501ee46a0 [BUGFIX] iwlwifi: mvm: Fix typos in setting radio tab bits
+19ee3eda7c159e4e9c7097a08d99ccf1ecf79104 [BUGFIX] iwlwifi: mvm: fix QOS configuration for non-HE links
+712dc6a5650f7c0288aee0ccf98ec2df8edb52fa [BUGFIX] iwlwifi: don't set eht in case iftype doesn't support it
+6a6abfac738deb0c945367f4d7c6872030e63261 iwlwifi: mvm: print OTP info after alive
+d724ca2c0a39e15eef23c589fef51567208389ce iwlwifi: nvm-parse: add full BW UL MU-MIMO support
+444cdd36a331e9c6b20f2e5b13d03a3762e28b3b [BUGFIX] iwlwifi: call napi_synchronize() before freeing rx/tx queues
+843b9893f0d9b2f0482dea2bb37943b506f749cc backports: allow more kernel versions
+05144ae97e2bffeced5fcac6153a317a723d4db9 iwlwifi: Switch to proper EFI variable store interface
+cabc3e507364d7083d01adeb3305f1cd34e626c2 iwlwifi: Switch STEP access to EFI variable store interface
+de7bd68f161590bf3bd7e6f6cc94fef739975c21 [BUGFIX] cfg80211: get correct AP link chandef
+d5e73108ee3d36edd2e347ec07f850af17e8bd19 iwlwifi: mvm: use the link sta address
+931869a4d9181efc2629a46681d965d72ab1e4e6 iwlwifi: mvm: implement mac80211 callback change_sta_links
+47f0d8a656e394415796d05ba4fdf3d63da58260 mac80211: set link BSSID
+620bb6c8b1f023aeb07cf20586cd902ce5ef6b0b iwlwifi: mvm: translate management frame address
+6712f1b6b3503732a019f0165900bfbb9a64bb66 iwlwifi: mvm: use bcast/mcast link station id
+b25e783ad1fb814245a7443ef272cfe25758bbf0 cfg80211: add link id to txq params
+511b7cc9f69d55e2c6770951ac0deb877f803825 mac80211: use link in TXQ parameter configuration
+6e01f00e0e6a14172541f3e4a5414f57f4911387 [BUGFIX] iwlwifi: mvm: ifdef beacon_inject_active usage
+a98c9d8683889b50ecca51230aef90a343e4010d iwlwifi: Fix spelling mistake "upto" -> "up to"
+da878653c774265beb718efe112f5625eaaf3c1a iwlwifi: mvm: Fix spelling mistake "Gerenal" -> "General"
+f41f742a872fda584847303cfe64119f56469950 [BUGFIX] iwlwifi: mvm: initialize seq variable
+814af3f44146ce9708bc0f417aa06e9f50f0bc01 [BUGFIX] iwlwifi: fw: move memset before early return
+bbcaff1849417a84e1c5d8786472990e39b4a73c iwlwifi: pcie: Fix integer overflow in iwl_write_to_user_buf
+bb624e8e6a9b66c27948eea825d4cab695424186 [BUGFIX] iwlwifi: mvm: reset fw_link_id upon cleanup
+f6d593b29fcd2d1f9650f4bce7b8e39084672457 [BUGFIX] iwlwifi: mvm: adjust to MLO adding sta after restart
+0b8c120e0e81ee448f71445188a68cea94302e06 Merge remote-tracking branch 'auto/master'
+17a52cb7fa5556f54ee9c603abb8915303777575 [BUGFIX] wifi: iwlwifi: mvm: initialize fw_link_id
+ee356543cd3217602c453c2cc062fa2f54f7fa6a [BUGFIX] wifi: nl80211: fix logic in TXQ parameter check
+c59e4c784d8cae7afd282040c67ec904918ed765 [BUGFIX] wifi: mac80211: fix use-after-free
+568e9b63632f4a6aa4b3f0bf52f42c11b998aeac wifi: cfg80211: reject connect response with MLO params for WEP
+2bf7477dbccfb45ff4c07673d85af1a7bd7b1896 wifi: cfg80211: Prevent cfg80211_wext_siwencodeext() on MLD
+73c76baad262d88e19b311857beaee9566b3d954 wifi: cfg80211: Add link_id parameter to various key operations for MLO
+af8937fe063c46a3d94ec05896db154078375e46 [BUGFIX] wifi: mac80211: check link exists to configure TXQ
+34dc733d3e796195f238fb820aee0ead1186c73c wifi: mac80211: properly implement MLO key handling
+919c04178413014c91a4311bd512bc36870eea07 wifi: mac80211: add link information in ieee80211_rx_status
+b553a1dde4c2a1c6bb2eab59f01bf6f692e00674 wifi: mac80211: use the corresponding link for stats update
+9c510ddca94b4b15975945e03cf34121e3a4db5d wifi: mac80211: use link ID for MLO in queued frames
+1e88b55710ea6a1133eacc49700046979c20e902 wifi: iwlwifi: mvm: track AP STA pointer and use it for MFP
+dfbaa55e32b2fa56af008484a1818e308a5fb953 wifi: iwlwifi: mvm: make iwl_mvm_mac_ctxt_send_beacon() static
+8a5fd58b3df2a1d8c054fe20c4f3ef2c48b5f852 [BUGFIX] wifi: iwlwifi: mvm: add/remove only new/removed links
+8f418e22358e8af9f89f4ebae50a0318fcb95f3a [BUGFIX] wifi: iwlwifi: mvm: properly track AP STA
+5fd8efae727c826c40ecae2fcaf1c4eeed0689c7 [BUGFIX] wifi: mac80211: mlme: don't add empty EML capabilities
+ceead514013e3350cbe720d1ddbc350d5ed97c7d wifi: mac80211_hwsim: split iftype data into AP/non-AP
+4df9e85185cd75ba5db888049c26ab482de167de wifi: cfg80211/mac80211: check EHT capability size correctly
+14e4f65da6e8bed534cf409a992ba36c42e558ae [BUGFIX] wifi: iwlwifi: mvm: fix ptk_pn memory leak
+db0e77da581955e2631542ef94870cbcba2be44b wifi: iwlwifi: mvm: set STA mask for keys in MLO
+990d8a638b1398123e09490188352ed9cb7f62d5 wifi: iwlwifi: mvm: validate station properly in flush
+65372e4345abeaa520d8ab83966c087fc457af70 wifi: mac80211: maintain link_id in link_sta
+dec43745c3b42f00fc050ac2b0fb9e21c352a626 wifi: iwlwifi: mvm: rxmq: report link ID to mac80211
+9f9eccdb958508ab1101f3671dd1243c40554a19 [BUGFIX] wifi: mac80211_hwsim: fix link change handling
+dc8cceb40e5e0861e9d534e907de86733ca7a01a wifi: iwlwifi: mvm: check HE 2 MHz block from correct link
+06b7f9efe7006dd4118956d7dce97ae8fa8e7d9b wifi: iwlwifi: mvm: coex: start handling multiple links
+55fecf25b60759a60e919402d80600b4351a863c [BUGFIX] wifi: iwlwifi: yoyo: check only DRAM buf alloc TLV req size
+52953ac4a706fd899eec3d177bc4144fbaaf27ef wifi: mac80211: set link ID in TX info for beacons
+cb0413c58233247b33658fb9ee7d8b3014278fba wifi: iwlwifi: mvm: fix getting lowest TX rate for MLO
+18827080216c918bad124b580fa28cfc1cfac3a0 [BUGFIX] wifi: mac80211: fix control port frame addressing
+07a0d3593d1ed95f79057d68bc87dcf6034762a4 [BUGFIX] wifi: mac80211: allow link address A2 in TXQ dequeue
+9efff7e1839240e4da65076e38f601baa6266385 [BUGFIX] wifi: mac80211: Fix MLO key handling
+b1dfdeb57758bedc5ab9668760b73daf49ebf601 [BUGFIX] wifi: mac80211: Set the link station also for non MLO case
+196a809727d97d0f67953734885601ae6734c30b [BUGFIX] wifi: iwlwifi: mvm: Fix _iwl_mvm_get_scan_type()
+44a17f70d5119a8fe792718c640b69d285c78345 wifi: iwlwifi: mvm: adjust iwl_mvm_scan_respect_p2p_go_iter() for MLO
+2bcefc7e2a0d4c310001ca79caaaa897c4b894ff wifi: iwlwifi: rs: add an option to set partial fixed rate for fw
+246b932a454d8cbe5c707c7d19712e5f86c8798a wifi: mac80211: correct SMPS mode in HE 6 GHz capability
+40b703d9dab41327107d078281b15302388c63bc [BUGFIX] wifi: iwlwifi: mvm: set HE/EHT in firmware for MLO
+489f278930add225fafca34a0adf4e82c687b7ec wifi: iwlwifi: mvm: use fixed values
+487a9df830bbd1641b5c759000d0ecf2c7e4bce6 [BUGFIX] wifi: mac80211: fix locking in auth/assoc timeout
+8a036d126fca20e5cb5409539094c092bae6014d wifi: iwlwifi: mvm: skip inactive links
+a95e375e62cd429663fd70772155c0a62324f06f wifi: iwlwifi: mvm: remove only link-specific AP keys
+d25832ddf96e62dfc5099620ede89e8b1cef500a wifi: iwlwifi: mvm: remove WARN_ON in BT coex
+63b498ae10c10e48b5e06f3ff491245fc083c548 wifi: iwlwifi: mvm: remove unused iwl_dbgfs_is_match()
+705829baea6043562a779f8b47491ec09b075366 wifi: mac80211_hwsim: remove multicast workaround
+448c03ba2cc72707ccceec21fadbc9e71d520b6d wifi: iwlwifi: mvm: properly implement HE AP support
+d4b2d01d078e3ff235f96e74ba89ccb73d12b574 [BUGFIX] wifi: mac80211: fix potential deadlock in ieee80211_key_link()
+380237e1fc3d9c9bad3b39452555beabfe55b9db [BUGFIX] wifi: rs: reorder tlc type enum
+57df975b0a5fa84572193187a0476adf09d45481 wifi: mac80211: remove unused arg to ieee80211_chandef_eht_oper
+826325aea31de4b3e296d398f1b156a2a5eb039f [BUGFIX] wifi: mac80211: fix disabled-subchannel bitmap extraction
+207cd74cb464016915ac823357a6a54a1c5db1e1 wifi: mac80211_hwsim: check STA magic in change_sta_links
+100a934bc02358d7a8d98d2905bcaef7cff83d5d wifi: mac80211_hwsim: refactor RX a bit
+662bc910d32b533ed511f0be15c7c047e4c57b6e wifi: mac80211: move link code to a new file
+407fabe958fe0686e3940ea8d054fb679270a921 [BUGFIX] wifi: mac80211: mlme: assign link address correctly
+9decab47b3110618a8b055cf94c1a443d32d6237 wifi: mac80211_hwsim: warn on invalid link address
+6706e08ab895c42da933e26f9f0af447a1a1fb1c [BUGFIX] wifi: mac80211: fix link warning in RX agg timer expiry
+a676b56f0c250aa21c3f1e796d556a78f669c9c0 wifi: mac80211: use correct rx link_sta instead of default
+be1cdb2d74d950032d956522e5ae2865627369fd wifi: mac80211: make smps_mode per-link
+0201c8c6b7819c90ac5634d6799581dbd711768a wifi: mac80211: isolate driver from inactive links
+0088744be4103107d029fa9a2dcebcfe83de19ca wifi: mac80211: add ieee80211_find_sta_by_link_addrs API
+2416021046769e106c9290b88696b1dfb41a6d9d wifi: mac80211_hwsim: skip inactive links on TX
+137485d17bebca9003f63f68d1a50ce415ec1e96 wifi: mac80211_hwsim: track active STA links
+a6f8912011bd0590c00dc2ccc4fc082f9adf8678 wifi: iwlwifi: mvm: only prevent >1 active links
+86df5d9ce273693f55c9aa1f44ff3fa45c117860 wifi: mac80211: mlme: refactor QoS settings code
+964b72f0c33b979228fb9875fbb632ba4450cba4 wifi: mac80211: extend ieee80211_nullfunc_get() for MLO
+2de8ed4ebcb1a113a3d034d2049722f409c2ce9a wifi: mac80211_hwsim: send NDP for link (de)activation
+b55a8ee71b57d81659b2a6ef3ee0367aaa1447d2 wifi: mac80211_hwsim: fix multi-channel handling in netlink RX
+af3aa3fe2d2830335ff545c0be96faf2c708b647 wifi: iwlwifi: mvm: avoid sending MAC context for idle
+3d70ef26591876f688f98812fb5c6d86e6295ffb wifi: nl80211: add MLD address to assoc BSS entries
+9eb3a07f1fd16fd38e97c20758789d61b6ebf7ea wifi: iwlwifi: mvm: remove chanctx WARN_ON
+f9476ed3f72a85b3077a1b5c5fabcd71ca283523 wifi: iwlwifi: mvm: factor out iwl_mvm_sta_fw_id_mask()
+34701968b08f41ae2bde466b7e633c1665fdaccc wifi: iwlwifi: mvm: iwl_mvm_rs_rate_init_all_links() isn't a macro
+7f68389657c9bffe59a17b7e7c7704f173b6b7f1 [BUGFIX] wifi: mac80211: call drv_sta_state() under sdata_lock() in reconfig
+de2cc1f2ee2e60cefafce1cc8fcecf8d9e546ece wifi: mac80211: add vif/sta link RCU dereference macros
+41edf6793d55754867ad992951d8f8ad5924617c wifi: iwlwifi: mvm: use the new lockdep-checking macros
+31fed62bad5787de341c0dd3a57de02f694a27a6 [BUGFIX] wifi: mac80211: set up beacon timing config on links
+7a323a57542cc2d680f1606366c5346934c6c368 [BUGFIX] wifi: iwlwifi: mvm: avoid iterating over an un-initialized list
+ecee91070bfb9aae36d8e8f19696a2c96abca882 wifi: mac80211: keep A-MSDU data in sta and per-link
+f3d1c51daa52d5bee1b2000b1822c2a6d490645b wifi: iwlwifi: mvm: use appropriate link for rate selection
+b64c3cd283f3f2c75356af21db7ebbc169a384e3 wifi: iwlwifi: mvm: initialize max_rc_amsdu_len per-link
+abbe0517bd181dbbc6e8f58ab0d9384254f03d4f [BUGFIX] wifi: mac80211: also set link_sta in agg timeout
+145ba2eba78928f0e1b6a0084c99bbb8d79d1b4e wifi: iwlwifi: bump FW API to 77 for AX devices
+839b2fe8a176cda4fce18133943d3d36b38c70e0 [BUGFIX] wifi: iwlwifi: mei: don't send PLDR messages if WIAMT is disabled
+c3aa081d4e7e7675948614c00fa168a4f4b71094 [BUGFIX] wifi: iwlwifi: mvm: use correct sta mask to remove queue
+51f7b4258fefa4a3c25e53420213b259fcd678d9 [BUGFIX] wifi: iwlwifi: mvm: fix link allocation
+7e42cc27bad03e16f5b637c63e20aa66f5d8959b wifi: iwlwifi: mvm: remove unused vif arg from iwl_mvm_mld_rm_sta_id
+d439ad415675e87f338d8fe109e96641050bd04e wifi: iwlwifi: mvm: clean up iwl_mvm_mld_sta_rm_all_sta_links()
+452af0a7eecef8774abeae046049d89b5a0b0c0e [BUGFIX] wifi: iwlwifi: mvm: fix station link data leak
+be6c9798945a99a2b63cbed168b04624a321220e [BUGFIX] wifi: mac80211: mlme: release deflink channel in error cases
+83fee49d94759a4c95e1b0abcb1a3a1a89288f72 wifi: mac80211: fix double SW scan stop
+2268ffe8f61230ae56d8980579dbcb9c24ebb206 wifi: mac80211: prevent 4-addr use on MLDs
+fc1298edd0c39a1775b88097bd9a9b0e6d2a4d67 wifi: mac80211: prevent VLANs on MLDs
+33716e0d0cfbd0b3736a371f583c0fd8b29b8fcc wifi: iwlwifi: mvm: track station mask for BAIDs
+d1863c6508c262039567a956f91672553eaffda1 wifi: iwlwifi: mvm: implement BAID link switching
+273b61a452c8e00d9dfbd25b302a7cbf74a8328c wifi: iwlwifi: mvm: implement key link switching
+e0450ebb1633a7ad75880b46604819757d0208b3 wifi: nl80211: send MLO links channel info in GET_INTERFACE
+9b89d245ecc44d8ae5d649bac3bf6aa585d3f9b6 wifi: iwlwifi: mvm: fix another rcu_dereference_protected()
+bd5ffb7c416a959c8a00f865b66355ac00cf54bc wifi: iwlwifi: mvm: allow number of beacons from FW
+b15e47cd5933a42e00d46f6f45edef56676da49b wifi: iwlwifi: mvm: enable MLO support
+9a96096d67885374fb5b1e7c149538e4ed45fd30 wifi: mac80211: implement link switching
+3e5f5634f76abfd7ff5ce8cbba38aad6bf02e2f5 wifi: mac80211_hwsim: always activate all links
+d55ab6f2c4abbcab484efc55e774f1a94ec4c9e2 [BUGFIX] wifi: iwlwifi: mvm: fix AP mode in HE
+59e91cf0dbe657e9566866032af436c1d2c1104f wifi: iwlwifi: mvm: clean up mac_id vs. link_id in MLD sta
+4e51247ea8755710e77cb1af7a2f465d175b68be [BUGFIX] wifi: iwlwifi: mvm: use FW link ID during HW restart
+05285c5a25252edeb1c57344ecee74caa194d01e wifi: iwlwifi: mvm: use the correct link queue
+c0b95f21b64d879b7eac14ee5c78801664cae7ba wifi: mac80211: add pointer from link STA to STA
+c1e0f00da938b7b9d8ae0749b0d224b3668e7ece wifi: mac80211: add API to show the link STAs in debugfs
+1eaec7a450ad2c575d6599a500b0e1e858f0681c wifi: mac80211: include link address in debugfs
+7b33afbd7c5a7d3c0c3ba1be553c8533382d6826 wifi: iwlwifi: make debugfs entries link specific
+72a34dbed1199c3024641b3e91c2cbd5244033ea [BUGFIX] wifi: mac80211: fix aggregates recalc to exclude inactive links
+82b463bc9f4fe1acc646366b6410bc3b987584f0 wifi: cfg80211: support reporting failed links
+7beba0e812b6dd8d6b4805e8f61c73c5a3e951a5 [BUGFIX] wifi: iwlwifi: mvm: update mac config when assigning chanctx
+8b2fdd2df13d70065e8a333d02a2a94101485646 [BUGFIX] wifi: iwlwifi: mvm: rework active links counting
+fce16f21bb2687e295051d89186f227292f9b282 [BUGFIX] wifi: iwlwifi: mvm: fix setting ERP slot
+2180cbd6331d1d341604f8fa328f40d92f7cec05 wifi: ieee80211: Support validating ML station profile length
+121072b394c9776370c67a509f4d0ea8d657f62c [BUGFIX] wifi: cfg80211/mac80211: Fix ML element common size calculation
+b342bec22635f52637594a240919226fcd6d6bf3 [BUGFIX] wifi: cfg80211/mac80211: Fix ML element common size validation
+4220592022f59dda4122753e51d9802680c329af wifi: mac80211: Parse station profile from association response
+f33c607e84c593e8d2999599eca489592c466c0b wifi: mac80211: Process association status for affiliated links
+9473d02bc29b7086113dabb9f49070a76161f95a wifi: mac80211: wme: use ap_addr instead of deflink BSSID
+ba7c63bcb47a57f8af8b7d484f14d5650e03a459 wifi: mac80211: transmit AddBA with MLD address
+890a1869779dafb63d9ef2d71f7698683d564314 wifi: nl80211: use link ID in NL80211_CMD_SET_BSS
+7305ffb6c108d3e5b2a59b8b27ac996cfd77036c wifi: mac80211: use link_id in ieee80211_change_bss()
+6d06959123622fdd6e40b70e1bd59f5036a3ef74 [BUGFIX][NOUPSTREAM] wifi: iwlwifi: set IEEE80211_HE_MAC_CAP0_TWT_REQ in the he cap elem
+e341ee28d8d488e1b1997d5ad97689193071eed0 [BUGFIX] wifi: iwlwifi: mvm: Fix setting UAPSD configuration
+5ae30d97261d14924a89b80f38b4ae5bf890c5c8 [BUGFIX] wifi: iwlwifi: make the loop for card preparation effective
+f9f8720e0463c84f1d39f149acd0bfe7225e83db [BUGFIX] wifi: mac80211: advertise TWT REQ support if the hw support it
+d5285dc35fb99a421f20eeed4b8fd78276c9f84c wifi: iwlwifi: move debug buffer allocation failure to info verbosity
+81da6bb3a049a29bffd82e005f4a536313867fe3 wifi: iwlwifi: mvm: adopt the latest firmware API
+3d1e5c36fb3ed0e8e8578b521d45f70b75d5252b wifi: iwlwifi: iwlmei: report disconnection as temporary
+d28b064a912cade49cc18a2e46c87c603020192c [NOUPSTREAM] wifi: iwlwifi: iwlmei: re-ask for ownership after it was taken by CSME
+49978856ea288d9d5537de7fb335207e0ba8b0b4 [BUGFIX] wifi: iwlwifi: mvm: fix active link accounting
+42b700014c4f923f07683201abe81f168dfab325 wifi: iwlwifi: Update string for ucode for specific hardware
+24cb470e870d679bff23fa4a0771e3475bc6538d wifi: iwlwifi: mvm: update mac id management
+6fd905a56bf4e7dc9d5a366c2dcf78e83c46ba83 [BUGFIX] backport: fix compilation of lockdep_is_held()
+bd96712362be7d4d10a4768ffdca6774cc31d0b0 wifi: iwlwifi: Update support for b0 version
+ac1d154b2b40cdf28766ed19bd47a4cd626245d2 [BUGFIX] wifi: iwlwifi: mvm: fix EOF bit reporting
+70f45326349584f9fb7320dc2e6e8b5275233ac0 wifi: mac80211: set internal scan request BSSID
+ae02f8bce192bd45cc3e2a4513f917f9b70171ff wifi: iwlwifi: mvm: use BSSID when building probe requests
+07732a2a0975261e34ab36e0c83d0d1bd40be950 wifi: iwlwifi: mvm: allow NL80211_EXT_FEATURE_SCAN_MIN_PREQ_CONTENT
+3e4bcc4b9c1329611fa7eb01222093b1328eced9 [BUGFIX] wifi: iwlwifi: mvm: clear/free mvmsta->ptk_pn[] properly
+02c483714357ef0c8e91694134be773d5acf6454 [BUGFIX] wifi: iwlwifi: fw: fix memory leak in debugfs
+fbff15c283cf36d3cd864ab8e014981cf865791d [BUGFIX] wifi: iwlwifi: mvm: fix BAID link switching
+e9416209315b6d83417c2251e20a5979be6e87f9 [BUGFIX] wifi: mac80211: fix AddBA response addressing
+638141e1036f840df3575edbac71704de40b0adb [BUGFIX] wifi: iwlwifi: mvm: remove per-STA MFP setting
+201f5a27caefa66dca6e5db4524eb9fb287f585e wifi: mac80211: add RCU _check() link access variants
+f10984258f6f4288eb29cb3ed7acebcb37517d2f [BUGFIX] wifi: iwlwifi: mvm: avoid allocation while sending DHC
+656f8d4b3cb27c210251374c4b0af172e01e79d5 wifi: iwlwifi: mvm: fix iwl_mvm_sta_rc_update for MLO
+4fd0b0ef136ca4f39057f24012ec7bdfaa391a9d [BUGFIX] wifi: iwlwifi: mvm: fix NSS in no-data RX
+744b3e2b059f729a0387b63ae44b04953724c35b [BUGFIX] wifi: fix multi-link element subelement iteration
+45b1cbfad19253582557a7fa4ebd8d6501a463b4 [BUGFIX] wifi: iwlwifi: mvm: only clients can be 20MHz-only
+e370a44632d14fa0d03e8488d359d8d5202b8abf [BUGFIX] wifi: mac80211: mlme: fix null-ptr deref on failed assoc
+9cb5afcf391823953a743fe088bcf4759b621dd1 [BUGFIX] wifi: mac80211: check link ID in auth/assoc continuation
+842c5104b6f3cb5dc06b6279fb735371348bf343 wifi: mac80211: mlme: mark assoc link in output
+f3765e4d8428a43156f0eefae1035845c14e434e wifi: mac80211: change AddBA deny error message
+3390667068434f113ce9931a9d02e08766764c42 [BUGFIX] wifi: mac80211: don't clear DTIM period after setting it
+f5388613608748461b2e84ee21ee6a2ad0f57bd9 [BUGFIX] wifi: iwlwifi: mvm: rs-fw: properly access sband->iftype_data
+727b725770312b1f455618b11da12c6aeac0b5cf wifi: iwlwifi: mvm: initialize per-link STA ratescale data
+6e1491ca501824b7c8c3fa3a7c638249d6695f33 wifi: iwlwifi: mvm: remove RS rate init update argument
+54118ae94008e38c318eea0710424e3c040eba5f wifi: iwlwifi: fix iwl_mvm_max_amsdu_size() for MLO
+9f2ee9b2398f47dc5d0f645bb101ddd2d1537feb wifi: iwlwifi: mvm: configure TLC on link activation
+cae302bdea32a6e3f738c6df3bdad5106d0108bd wifi: iwlwifi: mvm: add MLO support to SF - use sta pointer
+f8a742502006c855ab2beab190709d774af11854 [NOUPSTREAM] wifi: iwlwifi: mvm: set max MPDU len to 0 to disable A-MSDU
+b58fcef2efa652b234d682cdf12e4fab45544b10 [BUGFIX] wifi: iwlwifi: mei: wait for the mac to stop on suspend
+f5a9b207dc4cdf08e14b43ee974738c5d8049ec7 wifi: iwlwifi: api: remove IWL_TLC_DEBUG_TYPES_NUM
+3652720f89eb04ac6be74ffb12e45167766fe44b [BUGFIX] wifi: iwlwifi: mvm: fix MIC removal confusion
+b20fe0980e297e24769657c3e42c096be32a5685 wifi: mac80211: prohibit IEEE80211_HT_CAP_DELAY_BA with MLO
+5174e10630224f9d7f6be5c7d0e556aac41bc3ed [BUGFIX] wifi: mac80211: agg-rx: avoid band check
+bc75e217d89e578ce9e1142dcdac4bf2d60575f9 wifi: mac80211: remove support for AddBA with fragmentation
+75ca5c165befb01351f7debf26fbc93ed0c4a4e4 [BUGFIX] wifi: iwlwifi: mvm: fix sending beacon template for older devices
+cd2fd4ef0483bf7a2c459f2166b9ad23dd6cb136 [BUGFIX] wifi: mac80211: mlme: Fix double unlock on assoc success handling
+49b0337f4bb352c6bda18c008914221850d60688 [BUGFIX] wifi: mac80211: mlme: Fix missing unlock on beacon RX
+4e837c147b189bd71bb4f203dcafadc37fd923da [NOUPSTREAM] wifi: iwlwifi: xvt: use common code to stop op mode
+ac6493cf50bd307095abb04f60104986916cd28c [NOUPSTREAM] wifi: iwlwifi: xvt: ensure TX kthreads are stopped
+99d7834586239579407d7474878c461855f3bf52 [BUGFIX] wifi: iwlwifi: xvt: unset is_enhanced_tx in all error cases
+e61523757132bdca050ce4c19516691d71423888 [BUGFIX] wifi: mac80211: fix build w/o debugfs
+7be41e7b8a02a85f76737bb9a9f91b6925880b50 [BUGFIX] wifi: iwlwifi: mvm: fix double list_add at iwl_mvm_mac_wake_tx_queue (other cases)
+2e7f3395c077d01067c738e08d46a49d1cbe66fa wifi: mac80211: add pointer from bss_conf to vif
+1939dc0ae6c316880aa9865b567dbf96d24d9de0 [BUGFIX] wifi: mac80211: remove SMPS from AP debugfs
+b936f52c60ef02e3df1fcc864b14e2c7826798e6 wifi: mac80211: add netdev per-link debugfs data and driver hook
+6ae19d328bf3cb4ef05c71f669f2e737f32ad154 wifi: mac80211_hwsim: Indicate support for NL80211_EXT_FEATURE_SCAN_MIN_PREQ_CONTENT
+56edaabe3f7e5ad7695af860f755f4839c556a57 [BUGFIX] wifi: iwlwifi: fw: fix argument to efi.get_variable
+154ab886229ac1c1ef9c902bc11170805ea5e324 [BUGFIX] wifi: mac80211: recalc chanctx mindef before assigning
+4b7c6336d1c91f82d4e4c91e8210905a33dca458 [BUGFIX] wifi: nl80211: fix NULL-ptr deref in offchan check
+75bc490248d8e5d15db8ebf6d59a037d638f9509 [BUGFIX] wifi: iwlwifi: mvm: fix potential memory leak
+77fc76b0171859aa26644c5d71ba51785b9b47ff wifi: mac80211: mlme: remove pointless sta check
+185baf50e5367d291a9aa9a2a6e9bde0d00105a8 wifi: mac80211: simplify reasoning about EHT capa handling
+cf5b4936f2cbf63da9361b9a4ad666c6524f5991 wifi: mac80211: fix ieee80211_link_set_associated() type
+c93b3c822a666afe804465191110a3b94586419b wifi: cfg80211: fix MLO connection ownership
+79300cbfe3d34986b935408ec0fec99882b8afe5 [BUGFIX] wifi: nl80211: check attribute nesting worked
+72b43882b7a65651776ddaa7296d50470ee8e868 [BUGFIX] wifi: mac80211: always free sta in __sta_info_alloc in case of error
+af75b0c9c5a53850d0490e7551157a23ef920658 [BUGFIX] wifi: iwlwifi: mvm: check firmware response size
+eb36b2586e33ad8f32a3e66b81e7fa1099be61c4 wifi: iwlwifi: mvm: remove useless NULL check
+21a4a394fdcbace788a502eac4d4e89b27272a4a [BUGFIX] wifi: iwlwifi: mvm: always initialize link[0]
+ea5cb60d3b8f6206e65de1cb9f8500b543c66813 wifi: iwlwifi: mvm: free unused links after error
+f5a2ffc198d1c1342d319cc2148bee02557f1a7a wifi: iwlwifi: mvm: correctly use link in iwl_mvm_sta_del()
+076bfa2f1ba1ec17db86709e970aa382cd90321f wifi: iwlwifi: mvm: prefer RCU_INIT_POINTER()
+e736c5a45f09a6649aefcea2b4b82fc5cc5305bb wifi: iwlwifi: bump FW API to 78 for AX devices
+8a508d3b3e9031c045e01ea1c77703b8c2c0cb86 wifi: iwlwifi: fw: Add new ODM vendor to ppag approved list
+4fbc9869e13395762c041d94ff780a651325f13b [NOUPSTREAM] wifi: iwlwifi: remove old netlink macros
+740a756cd6a8a1775d29523b29c12fd314f94ae4 [NOUPSTREAM] backports: drop nla_put_u64 macro
+697ba31528fcde0c1bbe9cc8205c9e61ead1f082 [NOUPSTREAM] backports: drop ktime_before()
+502b30eb108776425d7e4a4ab05588b573ce162b [NOUPSTREAM] backports: drop duplicate kvcalloc()
+0b8bf3988febd6c8be4c3cfa70c273cc399ca218 [NOUPSTREAM] backports: remove module_pci_driver()
+3634809d5b4a13300696a9497b89bccbd625077d [NOUPSTREAM] backports: remove struct msix_entry
+c36b2b82ab38b699df0ba430c8f4af24f63c80a7 [NOUPSTREAM] backports: remove skb_xmit_more()
+e4c7f108bd60f977796430f79bd354f92b25827c [NOUPSTREAM] backports: remove skb_free_frag()
+d3cddb9a8958326ad0932bdc0f8a45b0b77ce8cf [NOUPSTREAM] backports: remove skb_get_hash_perturb()
+ba471d52a6316b4ce1d6e5af5898292f4afd976a [NOUPSTREAM] backports: uuid: remove stray newline
+469abf15dc8c42249a84e22c458856cf8f6b10e6 [NOUPSTREAM] backports: drop spurious newline
+11c621debbe08f484e09c178b3cc3a3c0a9e31a0 [NOUPSTREAM] backports: drop cfg80211.h
+b76af14bd2e2f4e3eea7f0b15c1024f294d58a22 [NOUPSTREAM] backports: remove unused portid macros
+ef3d3c3a03eb757f3f4d7b81d75acc77be4887bb [NOUPSTREAM] backports: align with upstream
+df3e6e072a04ba59ab89ac9f34622632528d7c4a [BUGFIX] wifi: iwlwifi: disable RX STBC when a device doesn't support it
+cd923a078bf6e355812a2b5a8677a880d69e88aa wifi: iwlwifi: mvm: remove useless code
+75dcacfdf6de4b8394ddd51f03211e5d1da6c911 [BUGFIX] wifi: iwlwifi: fw: fix DBGI dump
 
---===============8441096637751564815==--
+--===============4020551842206178645==--
