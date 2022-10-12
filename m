@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/bluetooth/bluez
-Date: Wed, 12 Oct 2022 21:22:02 -0000
-Message-Id: <166560972298.3422.17473505772904889007@gitolite.kernel.org>
+Subject: post-receive: pub/scm/git/git
+Date: Wed, 12 Oct 2022 21:23:01 -0000
+Message-Id: <166560978185.3830.3031180356273257836@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/bluetooth/bluez
-user: bgix
+repo: pub/scm/git/git
+user: junio
 changes:
-  - ref: refs/heads/master
-    old: 9065853fe5c70db2b9ca42fd40b027746e85f56d
-    new: 5f06473908d9e477574c59cb0854eacc38cfcf68
+  - ref: refs/heads/todo
+    old: fa45c35b151d7dba1e887fb9d051f435562d9397
+    new: 65842eb6e196cc853eb51f419eb2d84b50ff92e6
     log: |
-         5f06473908d9e477574c59cb0854eacc38cfcf68 mesh: Keep cancelled SAR data for at least 10 sec
+         65842eb6e196cc853eb51f419eb2d84b50ff92e6 What's cooking (2022/10 #04)
          
