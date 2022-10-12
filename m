@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1598733225851970780=="
+Content-Type: multipart/mixed; boundary="===============1565933310175570896=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Wed, 12 Oct 2022 11:21:58 -0000
-Message-Id: <166557371854.1510.4707568713264655985@gitolite.kernel.org>
+Date: Wed, 12 Oct 2022 11:22:11 -0000
+Message-Id: <166557373126.1622.8884606037783236414@gitolite.kernel.org>
 
---===============1598733225851970780==
+--===============1565933310175570896==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,49 +16,47 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/kobject-const2
-    old: 6cc28e9808fe871603a2bcb8ea1cfdba7920420b
-    new: 9bbba27df3011928c052fea2b9c8c1a0c7aa6114
-    log: revlist-6cc28e9808fe-9bbba27df301.txt
+  - ref: refs/heads/readfile
+    old: 9baa1b9a10c1e7506ac0996961ea28b3bdbeb090
+    new: abadae949a41b61ed7d0e84b22c32194cd3e3232
+    log: revlist-9baa1b9a10c1-abadae949a41.txt
 
---===============1598733225851970780==
+--===============1565933310175570896==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1665573763 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1665573775 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1665573715-b979ad74bd2ba2774415020aaa9f85207b1507ff
+nonce 1665573727-052faaf92e8e6aae0732845c3b57f4311e28acf7
 
-6cc28e9808fe871603a2bcb8ea1cfdba7920420b 9bbba27df3011928c052fea2b9c8c1a0c7aa6114 refs/heads/kobject-const2
+9baa1b9a10c1e7506ac0996961ea28b3bdbeb090 abadae949a41b61ed7d0e84b22c32194cd3e3232 refs/heads/readfile
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmNGo4MbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+WXQP/RzOsiDjEZjmX6tkAJ3r
-OAOrnsnGPgQqOvU1kjwvvbyRorqLzIn0En9D5pn+rBzUGLDCCbOYwPUxA56tK5Ey
-uXgYACPW7fVj3ZOVctR3LlyebTgAUGiN2ggT59sNNGBUx/1ygAORhq3DQ9HUOGyr
-qGDLlUyNvB/D5QFb/Es9mwR8XU4XGQiy8WglY82aAf0KC8akmR/w2ZDLPjBljMgA
-2FdpU0VmroeRar96DzeqqDr7Igk+hFdDPa3UOfpezfWJGgbSd60X2StodwDXCv59
-QeKl4HhIveq8q2DE+Sv5SXOc8spYs78TQj9LfUDOQv2JS87C2gJXahwh90iM69RR
-KIgnp6fTTtDy5XBOOHI13sevXiZS5ZbfXbmm+fM+05ud5uoflKkL1A3n+BhDkKp0
-ElPzLlJ+gGGMVSNjlFZFp31+FbGSNhOtxhBs7tLGncf8NQS/rUt1MrgRtjH4WikG
-gHcDEaHn3cT+iTfTwJD+lCoovkkCdUQv5DrbC9aj1B9DIAAeDA68zcMS8EkjJ84B
-LdX3PUYLAGaFYrQU2DMJdBnrK9An8bNmaxfaFEHXmcxB0aBiyJAn8hAV4LWBEijS
-xNqWtk5RK5Nc2slwVqwPi0ugxcQhapR9U/3C1h0X/lqhBM0R+x/QiPJS/HjOjeyH
-edqyj7pjgcKx+hPynaQ2fRK2
-=yKCm
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmNGo48bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+dOAQAKvpmmFUk1Vr7nwV1glU
+N/O8WqOfU20NZETttWxtBTWN7Jy85lagACXadRz5kyeKZUWJzH3QweO3jnnEEBeR
+AoO2xq46ddLs64q8s7DiiK7u/YokimMVKjq3xqJco7nFPYrvQZUslrEQbB5Qhaef
+I2vGqQj3AB2pOnq5bJa8pP9e14XAbaSES+F5G8wjtLe+hr5m6e3Sec/5VPRUq6xD
+uxRDKOB4OqZYKzt8OGvLf3fhz7uiYQPPXMSSE3uwnQ7wjh0vLkEZufK7pvUKRdYk
+q2Gr1kIAGJFm6hlsh82KP68sZn+pq1/dMVwragpHIYgl1tq1Lsl0xFyVsuSLTGlR
+LZbZMmjBcg6CmX8LqGyvy0w9tbNX2qWtWLB7gqaCaJ1DXmlaSm7+kJBOPtTQJUBq
+efRFpYjlu7EVvVxLwLOmP8mc4wetwezEvy454BW3ba3I5o/P5L+QcXBcFXBgh2H4
+5SP5V4VIH5bK0xQph8SFoYrC43wcQL9ZV865mjdBa+Qf0zoswpLTaABqIY9xQUky
+ogzBzzBsntw4vMl7Vas8XVekB5sCxVLN3u/l/6NwJ8Wc9gaBe/NPtBkPIoyNrcz7
+uuZPQ9w862mjC5kS4AqR4eY+k/ufxIAaasGkHHqHeVilVYEIDzoGmWbQfjVQUXoi
+uz63QwUQIbblOzppqPGA3PxC
+=Faua
 -----END PGP SIGNATURE-----
 
---===============1598733225851970780==
+--===============1565933310175570896==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-6cc28e9808fe-9bbba27df301.txt
+Content-Disposition: attachment; filename=revlist-9baa1b9a10c1-abadae949a41.txt
 
-69e377b289376147c84cfd09bab1ad0328a0ecc6 efi/arm: libstub: move ARM specific code out of generic routines
-04419e8a7b41c83c628d45c684d6bd117c24cea9 efi: libstub: fix up the last remaining open coded boot service call
 3c6edd9034240ce9582be3392112321336bd25bb efi: zboot: create MemoryMapped() device path for the parent if needed
 d3549a938b73f203ef522562ae9f2d38aa43d234 efi/arm64: libstub: avoid SetVirtualAddressMap() when possible
 0a5bfb824a6ea35e54b7e5ac6f881beea5e309d2 KVM: PPC: Book3S HV: Fix decrementer migration
@@ -1079,7 +1077,9 @@ c440f99695236ceb610606e4b5c50e150981f6c5 Merge tag 'i2c-for-6.1-rc1-batch2' of g
 d465bff130bf4ca17b6980abe51164ace1e0cba4 Merge tag 'perf-tools-for-v6.1-1-2022-10-07' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 f311d498be8f1aa49d5cfca0b18d6db4f77845b7 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 49da070062390094112b423ba443ea193527b2e4 Merge tag 'memblock-v6.1-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rppt/memblock
-d577f4f12cdbe20036f329210f43f9700500214f driver core: allow kobj_to_dev() to take a const pointer
-9bbba27df3011928c052fea2b9c8c1a0c7aa6114 USB: allow some usb functions to take a const pointer.
+16a3c2426d363e88f33508fc6dd792f5af3544e1 readfile: implement readfile syscall
+e2f0d707b608462bb3eba89adeaf4da81acedc0e arch: wire up the readfile syscall
+b7dc2d9cd2faf1dbb814483c1b55ba051a0654f2 selftests: add readfile(2) selftests
+abadae949a41b61ed7d0e84b22c32194cd3e3232 readfile.2: new page describing readfile(2)
 
---===============1598733225851970780==--
+--===============1565933310175570896==--
