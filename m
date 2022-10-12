@@ -1,22 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Wed, 12 Oct 2022 08:13:20 -0000
-Message-Id: <166556240025.16747.3379432918425434062@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Wed, 12 Oct 2022 08:15:48 -0000
+Message-Id: <166556254817.19241.9927706020472114143@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: davem
+repo: pub/scm/linux/kernel/git/tip/tip
+user: tglx
 changes:
-  - ref: refs/heads/master
-    old: 72da9dc22ff34c0dbdbc1222d6b6adc2d725caa9
-    new: 4a4462a06b18c9e013d6b94ccf4aea2a1e570de2
+  - ref: refs/heads/irq/core
+    old: 36de4f94197318e45ba77badb5b07274f5bc72a9
+    new: b8d49bcd8fd19824888c766a217891855d8692ad
     log: |
-         7e777b1b012e977cfd04347fb347f3f5d097f99e net: ethernet: ti: am65-cpsw: set correct devlink flavour for unused ports
-         87445f369cca2965620e79f87145d3d7fa35befd ipv6: ping: fix wrong checksum for large frames
-         0d24148bd276ead5708ef56a4725580555bb48a3 inet: ping: fix recent breakage
-         4a4462a06b18c9e013d6b94ccf4aea2a1e570de2 Merge branch 'inet-ping-fixes'
+         1b00adce8afdb842615a5bf3774510f14a9b769a irqchip/ls-extirq: Fix invalid wait context by avoiding to use regmap
+         e4a7e67a08ac409f1485c82a2190636d5c81b932 irqchip/imx-mu-msi: Fix wrong register offset for 8ulp
+         6c9f7434159b96231f5b27ab938f4766e3586b48 irqchip: IMX_MU_MSI should depend on ARCH_MXC
+         b8d49bcd8fd19824888c766a217891855d8692ad Merge tag 'irqchip-fixes-6.1-1' of git://git.kernel.org/pub/scm/linux/kernel/git/maz/arm-platforms into irq/core
          
