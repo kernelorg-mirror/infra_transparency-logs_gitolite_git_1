@@ -1,80 +1,62 @@
-Content-Type: multipart/mixed; boundary="===============8955042956854075842=="
+Content-Type: multipart/mixed; boundary="===============7684454234059095843=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Wed, 12 Oct 2022 11:22:27 -0000
-Message-Id: <166557374724.2013.7804673482909849129@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Wed, 12 Oct 2022 11:23:52 -0000
+Message-Id: <166557383286.2576.14311521690616086399@gitolite.kernel.org>
 
---===============8955042956854075842==
+--===============7684454234059095843==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-testing
-    old: a6afa4199d3d038fbfdff5511f7523b0e30cb774
-    new: 49da070062390094112b423ba443ea193527b2e4
-    log: revlist-a6afa4199d3d-49da07006239.txt
+  - ref: refs/heads/kobject-const
+    old: 318fbfc691ea7851bfa7c54e338e1b59544d8f6a
+    new: 6e2a4c41f786eaf21f2c1daadfaf524d1954ed4c
+    log: revlist-318fbfc691ea-6e2a4c41f786.txt
 
---===============8955042956854075842==
+--===============7684454234059095843==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1665573792 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1665573746-5929a0fc8dcfc841e582ee2a9d360778613c0057
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1665573876 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1665573829-60aba4952ee17702bb6e7fc12deb3957017a1f07
 
-a6afa4199d3d038fbfdff5511f7523b0e30cb774 49da070062390094112b423ba443ea193527b2e4 refs/heads/usb-testing
+318fbfc691ea7851bfa7c54e338e1b59544d8f6a 6e2a4c41f786eaf21f2c1daadfaf524d1954ed4c refs/heads/kobject-const
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmNGo6AbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+EFEP/iqHOyWbFGUMejKBFhx+
-SlPPGcHSH4eRHpq88jUtaFRPWOroa3WxfOfvqbUEqfPSehHEfQQIMNYGe+Huy2my
-BSySQP5d9pz2jMR2WiR5XutgCozemg0rxIuru4mz729gWGcmorh1Rl91b0t4qcYw
-H450NJoIxbaRrCz2AWNgW98miR21P+cFAxJIvDuYIHUVL/wyuw8BCA9jwEhJ2b7B
-ZrNca4fiMihLI4zgwFGHDBcbc0ntj+/TiSPo+SWGKYIx97DaUgzKr4h0Q+bvUL+x
-jeA/MXU12bPK/D8BHc39AYlId9NOyPcIWNplKvhMTGVjUbSyM9Sftcj75KDurB0u
-I19EkVzEbVqb7TB4KY1DDDxySvrQZpXRC1eTbOuCCSDzZiZcGeqwRM6cJVqOuvgh
-+ald6oZkOqNirOpiYzJ8pmm4smTOyB09n4s+coTr9pfinwH4Q4i34fgSsu6xGmro
-z5D+o4aa186yoIHGl1omJhpAcXB3bVMb4bWM36om7YImmrkr5E0qLpJ1W8QXzsDU
-lIzMpT6cKEPgdA2JozjoDsAUCgJEcaS+GAOJivgD1JIfiCgwpijn4nTRKry+kKtB
-h0/DAd76Ppaw4F3dP/4A9G8Zr83uWnmd7Rhz6ZaAESFxlRS12gt9YCbOKBTHe6cw
-boUQP1CqHrguz0VGt5nVjs5c
-=IoGp
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmNGo/QbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+cbQP/Rhe/qMNqxvN55kMdf1E
+Ak/Rt6Nl731PV/bTb0TYe17GTLEyFZpqHhJ5M2RMev+LnbWC7V0F9rfrFsfIHWMt
+SSLC/YQifG5iO5d/j4Y4HTcU9OK5vav7RcDh1F10f7ufMcmuulcKbR/bQB83teY2
+bj+RJKdKQz5cvaQRjK+ATJNefr37vyjREbNzZHCaiUEuKtwM7H7y4QSSuY7wAM37
+6QmtvlTmIJHS16zXfG1TkyN9gKXpuuFyYSUyxqUIGBtlu6Q6Sz0g9T8XfAkjztnr
+6217I1cr9/3bDTVOH2P4xdOpuJl2I3sIzb+m0lh+mnd2hsFINbLiER3lABzb94BN
+HGn809dawYyrv4jgyhsqoKL/QVvdWK1CRr6I6c5dekaOC001NB0nSC1GDUza7OfF
+IHQwHrFqAcSiaQG9sl/UK+G4PLupejK4W6nX4W0fv23/CxXZIJgDXthMrkD2OOBL
+BVBb/sg9AW9bWad7WZy3PPP4+IVOHID5DWH8FVRENQ7VXcKnzWk4f0ZOkdfcKZso
+bPcvfKmAzFy45VpfDrJx9OCupCeJsBYfGAd4Cn3ZQw5FhRSB2kiLLv87i8C0PWyo
+hcl1OGgVnxwlJ/54HbiLMUlrxIs8GNUwvBySBA4Am9y7+MeXubrYABNFA8BcekUc
+v4pP1LuDeSN5bFDrjtQ5gzg9
+=8cD8
 -----END PGP SIGNATURE-----
 
---===============8955042956854075842==
+--===============7684454234059095843==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-a6afa4199d3d-49da07006239.txt
+Content-Disposition: attachment; filename=revlist-318fbfc691ea-6e2a4c41f786.txt
 
-566331696329c2f9ca0fe2a55a5dd029ac43d2d2 efi/libstub: refactor the initrd measuring functions
-71c7adc9fffd4e38ebc197314f6909c9fd6051ef efi/libstub: measure EFI LoadOptions
-69e377b289376147c84cfd09bab1ad0328a0ecc6 efi/arm: libstub: move ARM specific code out of generic routines
-04419e8a7b41c83c628d45c684d6bd117c24cea9 efi: libstub: fix up the last remaining open coded boot service call
-3c6edd9034240ce9582be3392112321336bd25bb efi: zboot: create MemoryMapped() device path for the parent if needed
-d3549a938b73f203ef522562ae9f2d38aa43d234 efi/arm64: libstub: avoid SetVirtualAddressMap() when possible
-0a5bfb824a6ea35e54b7e5ac6f881beea5e309d2 KVM: PPC: Book3S HV: Fix decrementer migration
-bc91c04bfff7cdf676011b97bb21b2861d7b21c9 KVM: PPC: Book3S HV P9: Clear vcpu cpu fields before enabling host irqs
-c953f7500b65f2b157d1eb468ca8b86328834cce KVM: PPC: Book3S HV P9: Fix irq disabling in tick accounting
-b31bc24a49037aad7aa00d2b0354e9704d8134dc KVM: PPC: Book3S HV: Update guest state entry/exit accounting to new API
-1a5486b3c3517aa1f608a10003ade4da122cb175 KVM: PPC: Book3S HV P9: Restore stolen time logging in dtl
-d7c6ea024c08bbdb799768f51ffd9fdd6236d190 kbuild: take into account DT_SCHEMA_FILES changes while checking dtbs
-b6acf807351781c3c3810df7873b3f0d793d59b2 dt: Add a check for undocumented compatible strings in kernel
-2b7672b0fa0b833312aef5a366a741921af3634f Input: twl4030-pwrbutton - add missing of.h include
-9dedc915937c33302df7fcab01c45e7936d6195a Input: synaptics-rmi4 - convert to use sysfs_emit() APIs
-c0a581d7126c0bbc96163276f585fd7b4e4d8d0e tracing: Disable interrupt or preemption before acquiring arch_spinlock_t
-3008119a3dd8052b7e5c07488e20a7abb0d287f2 ftrace: Remove obsoleted code from ftrace and task_struct
-ae398ad89456847aab9f12b0e63c51443af5da48 x86: kprobes: Remove unused macro stack_addr
 dc399adecd4e2826868e5d116a58e33071b18346 tracing/eprobe: Fix alloc event dir failed when event name no set
 0ce0638edf5ec83343302b884fa208179580700a ftrace: Properly unset FTRACE_HASH_FL_MOD
 9d2ce78ddcee159eb6a97449e9c68b6d60b9cec4 ftrace: Fix recursive locking direct_mutex in ftrace_modify_direct_caller
@@ -1081,5 +1063,23 @@ c440f99695236ceb610606e4b5c50e150981f6c5 Merge tag 'i2c-for-6.1-rc1-batch2' of g
 d465bff130bf4ca17b6980abe51164ace1e0cba4 Merge tag 'perf-tools-for-v6.1-1-2022-10-07' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 f311d498be8f1aa49d5cfca0b18d6db4f77845b7 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 49da070062390094112b423ba443ea193527b2e4 Merge tag 'memblock-v6.1-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rppt/memblock
+d9181fa25ac98f011710a99d7811ffadb41b5c45 USB: make devnode() callback in usb_class_driver take a const *
+70b383934877ac148edb02918a5847e4ac22325f blkdev: make struct block_device_operations.devnode() take a const *
+5f926dd0843c5b730177f6fecea2ed9e54119c5d driver core: allow kobj_to_dev() to take a const pointer
+92fab3da67184b8f43f659e6a632c137b4d446e6 driver core: class: make namespace and get_ownership take const *
+f56cc6a73808e5f3775a6451f7b9233c11a34dff kobject: modify kobject_get_path() to take a const *
+c98c11de39e643ccf349a45c0879d60a6acc58d6 kobject: make kobject_get_ownership() take a constant kobject *
+5cf58e714ed1ce59899d7d524e81a9d8a32b1ac0 kobject: make kobject_namespace take a const *
+6bcbcf0b8409bdc9a13aa954e1fbe70a763c0e29 kobject: make get_ktype() take a const pointer
+2334765833df8c2aea9009b0438929a3c9cb8e9e kobject: kset_uevent_ops: make filter() callback take a const *
+7e71384650e814e9285f456624874285a06fa64e kobject: kset_uevent_ops: make name() callback take a const *
+9a860454c3378fc3199796a4e37d5e0e77acde99 driver core: pass a const * into of_device_uevent()
+a188b3d61161748dec8fd39bbd1957088c8d58f1 driver core: make struct class.dev_uevent() take a const *
+7e659f7b3a7b0034e0e4ec4bf2a30efcae8fad28 driver core: make struct class.devnode() take a const *
+e736ecc07b7b90d96a3973f360aa69f22b398c39 driver core: make struct device_type.uevent() take a const *
+cf25837a72a35dfabd6de9dc56d27d0ed2b466b1 driver core: make struct device_type.devnode() take a const *
+f2ddfeee9211fc00349b5141035046bb4800ccd1 driver core: device_get_devnode() should take a const *
+9ae4fcf3c0ac99bf8ffe0aa8db744b3627b54b3d driver core: make struct bus_type.uevent() take a const *
+6e2a4c41f786eaf21f2c1daadfaf524d1954ed4c kobject: kset_uevent_ops: make uevent() callback take a const *
 
---===============8955042956854075842==--
+--===============7684454234059095843==--
