@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6854114992042994675=="
+Content-Type: multipart/mixed; boundary="===============8985383622277988107=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Wed, 12 Oct 2022 20:34:58 -0000
-Message-Id: <166560689874.2622.6874329099508635668@gitolite.kernel.org>
+Date: Wed, 12 Oct 2022 20:36:38 -0000
+Message-Id: <166560699850.2333.15412243846054182681@gitolite.kernel.org>
 
---===============6854114992042994675==
+--===============8985383622277988107==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 2450cf1a1d236df56e50710b6b62b1d091750b3d
-    new: a472e527f3b04b9b1bf2fef513be253b8723455f
+    old: a472e527f3b04b9b1bf2fef513be253b8723455f
+    new: 8cd440fa59261c8b30f0ea04bb0413c6854b3d01
     log: |
-         a472e527f3b04b9b1bf2fef513be253b8723455f drop queue-4.9/nilfs2-fix-use-after-free-bug-of-struct-nilfs_root.patch
+         8cd440fa59261c8b30f0ea04bb0413c6854b3d01 drop nilfs2 patch from 5.4 4.14 and 4.19
          
 
---===============6854114992042994675==
+--===============8985383622277988107==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1665606945 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1665607044 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1665606897-c0ab7a03df764bea33ceb270ba42e7f9ffb7c868
+nonce 1665606997-8fc04e116765731842449ab335b0319740080f5e
 
-2450cf1a1d236df56e50710b6b62b1d091750b3d a472e527f3b04b9b1bf2fef513be253b8723455f refs/heads/master
+a472e527f3b04b9b1bf2fef513be253b8723455f 8cd440fa59261c8b30f0ea04bb0413c6854b3d01 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmNHJSEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+GlcQAKTFLFJ89uXPrGr2JVRv
-VnKXfdoQNuLfdO5BMLII7EUAtzAm6buX6Bly7rakir7/Q99H1L9VNe4Wu3an9oMx
-oGSjJAoPEX6naP4KSFAc/ClPXICLj8g6x0HQl9hTXesMSN7m4d7iz7v3F42gMIE2
-85pZ30sBGypGo2s8LhcJaARAmSslHsRjZGsDz0bpNiLrE5lyLeQU74kA+7UMBw3u
-WXUkAex+hWSYGL4OBhK3UXDkCMIM1Zgl2tVCkn5pt9f+bokc5/k4LrauYyoYKw9y
-o+GYWAD2wg44y0I5H8eOT49CkbBxC2DS1dtn+xNg/MEGDCHi+BYHYp8izumUjX5j
-aoNjnDBOFH8i0ZLa1OZmxSCcbSIOQMSBtdvnmKCbdqJEc6y3q12apCiLI7BZOx8I
-HN033a9QKozxm/nTbTfkrane3yZOcgCjUzoYm5kQOybf5l557n4/VHPWQO1DsX/I
-guV2zT+gnl9Uz45ILdXV8g/5UGA2BhSRxbpXYZarZdYgYbcHuWJdZUcHr8IFGVaf
-VjLMMOYB0Hx/tQaZOSzy7/V3vH9iYBzF9wnujdFoHKDDsIQuqfVMLAMkFvnN6nk0
-j9GBIhv/yYglaunsw7t2zo1/vM2tGsWegHjxescNmtz94seOOpx9ZPSCml8ppxmG
-gUm0ZMrWSPuzxpPew0j/VYHN
-=wCOF
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmNHJYQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+hZwP/RDVVMqsqx2+GFKIQeez
+tylJyo8K+HUxx/trPWC34HBUxtR5eq081obFHY92kifPNUm4+SVOm1kQji74GCor
+81xqM1+Q/Z+cbpFlNpOxfggHDLZ4A6o3hOJqHvydS+Hx/uC+k0rSB9OdmLNOo5j2
+l5+edYDVjyB3YD+cAVa2tTImbvnRlJHvyodUoij251E/e/RbD88VHIiww58fedro
+ETeAcVjigC32JtZvKLYCtTv7Y9CXLiJk8wV1hfO/J+5PiBvZGN1fLHog5H22ordy
+SDooNUYnOnJsKWWe23MjQ51u6RkblC6n0ygYwNZ+A2Jr9/H1PYC1DSH7yaBQGbJg
+nNr4bVdeXGFCLdu+cgqXwkZFrcY/gYhSbsd0QtRpmGD03tKIZu91Vmps9mTVLsVu
+9jp7c4VYm4FX2rxDzrsVLCQTKMEltYbR1joKKi/4R7JE6geDPoce+c6JevYBy/My
+fOurKrc3t0z6jbSqnUbH0hCrdd1YhzG0RbXY0NFLbST6Ynv+zChq9iROkiHbY92m
+wezERWGspj654G8WP53Ie2alttrk+NTQHjw8bRuL3HUs2R/rsC58JhhhA1FHqz2W
+N8ZjWK4vG52AXpKowuFksJPbRlosGGAjRl8YIj3d2mu95ggAP85ajJcpIqLyA9YQ
+q3+Nu55LnQFTE+ZHoNDfWWD5
+=nCGd
 -----END PGP SIGNATURE-----
 
---===============6854114992042994675==--
+--===============8985383622277988107==--
