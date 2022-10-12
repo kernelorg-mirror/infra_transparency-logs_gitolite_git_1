@@ -1,98 +1,162 @@
-Content-Type: multipart/mixed; boundary="===============8391447783965226068=="
+Content-Type: multipart/mixed; boundary="===============7616149689517427159=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Wed, 12 Oct 2022 23:14:07 -0000
-Message-Id: <166561644794.18290.14261669368296132223@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
+Date: Wed, 12 Oct 2022 23:23:01 -0000
+Message-Id: <166561698119.24515.5777401190787720216@gitolite.kernel.org>
 
---===============8391447783965226068==
+--===============7616149689517427159==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/linux
-user: sj
+repo: pub/scm/linux/kernel/git/groeck/linux-staging
+user: groeck
 changes:
-  - ref: refs/heads/damon/next
-    old: 28fc5384fa3f629b1712ad9475cf148d17f607f2
-    new: c44819d05f06b46f965a3148335ace55cc0aeb9e
-    log: revlist-28fc5384fa3f-c44819d05f06.txt
+  - ref: refs/heads/master
+    old: 49da070062390094112b423ba443ea193527b2e4
+    new: 1440f576022887004f719883acb094e7e0dd4944
+    log: revlist-49da07006239-1440f5760228.txt
 
---===============8391447783965226068==
+--===============7616149689517427159==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-28fc5384fa3f-c44819d05f06.txt
+Content-Disposition: attachment; filename=revlist-49da07006239-1440f5760228.txt
 
+f5b23d6704e478b5a97dbba5df9dea96a9cbf847 hfsplus: unmap the page in the "fail_page" label
+6c3014a67a44f11dc1020c8b47a1d1d626f007a9 hfsplus: convert kmap() to kmap_local_page() in bnode.c
+f9ef3b95a305874de0b36b7294f6cc8a0e07951e hfsplus: convert kmap() to kmap_local_page() in bitmap.c
+9f25f357c557bfea39a2d6a629a6317d2b3dfc64 hfsplus: convert kmap() to kmap_local_page() in btree.c
+765f2bf04fdaced4e7d7e94cfc3f743048629f31 scripts/decodecode: improve faulting line determination
+58b5c203360799e181325f3f8ce212de80ebf304 ipc/util.c: cleanup and improve sysvipc_find_ipc()
+64367f2e4f11cfdd983c637d219fb364ab85558c treewide: defconfig: address renamed CONFIG_DEBUG_INFO=y
+5bb6ce3aeb02497668a4e8971268b041aa61de8d fs/isofs: replace kmap() with kmap_local_page()
+defdaff15a84c68521c5f02b157fc8541e0356f3 checkpatch: add kmap and kmap_atomic to the deprecated list
+9847f21225c4eb0b843cb2b72ed83b32edb1e6f2 lib/cmdline: avoid page fault in next_arg
+7bb5da0d490b2d836c5218f5186ee588d2145310 kexec: turn all kexec_mutex acquisitions into trylocks
+05c6257433b7212f07a7e53479a8ab038fc1666a panic, kexec: make __crash_kexec() NMI safe
+4f1d2a030db09af4d21695983674a18633cd0ffb llist: use try_cmpxchg in llist_add_batch and llist_del_first
+f4068af3a6383da3487c07de85db7732de851734 proc: save LOC in vsyscall test
+2be9880dc87342dc7ae459c9ea5c9ee2a45b33d8 kernel: exit: cleanup release_thread()
+cba7543e1515e79a85d37df85a0eb2cf0f07d115 fs/qnx6: delete unnecessary checks before brelse()
+aa06a9bd853306c239f759018fb227d7e8f4e203 ia64: fix clock_getres(CLOCK_MONOTONIC) to report ITC frequency
+693fc06e98514c2d5951ead4aca40cf8b21100b1 epoll: use try_cmpxchg in list_add_tail_lockless
+b0192296b45232872720d969366449c001ab1f4a buffer: use try_cmpxchg in discard_buffer
+38ace0d513d9d2556beca4d07102d25e9a73c53c aio: use atomic_try_cmpxchg in __get_reqs_available
+da3f52ba359590d8eb465ae0d8b6e11d6fd9432f iversion: use atomic64_try_cmpxchg)
+948084f0f6959f602f89f679522b706a72da0285 kexec: replace kmap() with kmap_local_page()
+d75e9a4bccf4e19928534dec797935e650f85b09 hfs: unmap the page in the "fail_page" label
+ca0ac8dfd35b218b3c95d3b38c695fbff35d94ca hfs: replace kmap() with kmap_local_page() in bnode.c
+21490eff121555b123f7088b935e40ee43d2c642 hfs: replace kmap() with kmap_local_page() in btree.c
+e1d7c7609ae0933b59840390c1b207ac0a925c8b bitops: use try_cmpxchg in set_mask_bits and bit_clear_unless
+88040e67b9533003cfd1a2d61ebd17593435322c alpha: move from strlcpy with unused retval to strscpy
+216e71f13c13a7b3df352742554445907011a3a5 ia64: move from strlcpy with unused retval to strscpy
+c97e21fe91ed1d59eb36cac1728bcb9a82167c7a ocfs2: move from strlcpy with unused retval to strscpy
+512cb7e4c110133e49da9f69885df3ed41aa284f reiserfs: move from strlcpy with unused retval to strscpy
+a1d3a6d9f243797d1bcaa0ca14c03396bc302ca6 init: move from strlcpy with unused retval to strscpy
+977bbf4385fc64986f22b024858071a35c481a8a lib: move from strlcpy with unused retval to strscpy
+5fdfa161b2043001f82cbce49e87e8e9f581d510 task_work: use try_cmpxchg in task_work_add, task_work_cancel_match and task_work_run
+9a15193e23b780d1da77e3db18698beb0637897d smpboot: use atomic_try_cmpxchg in cpu_wait_death and cpu_report_death
+f81259c6dbcefb255fa473090cd975f3827bca89 fail_function: switch to memdup_user_nul() helper
+cef9f5f866ad45a2dd64fed6e6b657043c2c6f17 fail_function: refactor code of checking return value of register_kprobe()
+d2e85432a2e0a6f31bd9489800f443228f020ed6 fail_function: fix wrong use of fei_attr_remove()
+199cda13534f4c676d7e4601665e971f4f0582c4 initramfs: mark my_inptr as __initdata
+d85a1bec8e8d552ab13163ca1874dcd82f3d1550 ntfs: fix use-after-free in ntfs_attr_find()
+36a4d82dddbbd421d2b8e79e1cab68c8126d5075 ntfs: fix out-of-bounds read in ntfs_attr_find()
+63095f4f3af59322bea984a6ae44337439348fe0 ntfs: check overflow when iterating ATTR_RECORDs
+35783ccbe519b33f6652b2d7aafcfc82f10b1a1b kernel/profile.c: simplify duplicated code in profile_setup()
+7b9e664beb237d90bc600f117668227af5ce53ae asm-generic: make parameter types consistent in _unaligned_be48()
+8ea0114eda0c1c85f8f01922ac8fc1e489a61129 checkpatch: handle FILE pointer type
+bfca3dd3d0680fc2fc7f659a152234afbac26e4d kernel/utsname_sysctl.c: print kernel arch
+b814751175470b00969a317bf3192260750f9455 latencytop: use the last element of latency_record of system
+6a164c646999847b843e651f71c53dfaceb2c2b4 genirq: Provide generic_handle_domain_irq_safe().
+f460c70125bcb1b753f152d9d0c9cee3ddbc2d91 pinctrl: amd: Use generic_handle_irq_safe()
+f285de79569f9e674816a67308316206e4eb30ee ssb: gpio: Use generic_handle_irq_safe()
+c6a91405ac5cd5baa03fea061e11b05788223160 platform/x86: intel_int0002_vgpio: Use generic_handle_irq_safe()
+118c3ba24d04f084eadd9d4a0ab7830f495e9106 gpio: mlxbf2: Use generic_handle_irq_safe()
+94ec234a16cf3acdb319f05917b1efec9642222e bcma: gpio: Use generic_handle_irq_safe()
+612d5494aef9bd2ab68d585a8c0ac2b16d12d520 irqchip: Make irqchip_init() usable on pure ACPI systems
+a1cc8a62c2b21d6d71d5a3d5d7c7658e3ab42d47 irqchip/realtek-rtl: use irq_domain_add_linear()
+a3e77b70f19240f8a52bbe1c703aa8db6a8f7450 dt-bindings: interrupt-controller: realtek,rtl-intc: require parents
+9070f1ce31c5027821d5f37e9ca8dfb23158e457 irqchip/realtek-rtl: use parent interrupts
+aecd1de3b1438cc4ead086a025fb49a3a896d615 platform-msi: Export symbol platform_msi_create_irq_domain()
+334f7d42db3eb0274aa6b4aba7ce14d87df3fef0 irqchip: Allow extra fields to be passed to IRQCHIP_PLATFORM_DRIVER_END
+d9fc272bfd76acadf0537901549d07a1b81dbeed dt-bindings: irqchip: ti,sci-inta: Fix warning for missing #interrupt-cells
+daa0b6d0187599a574cb5cb392b259bda3dcf979 dt-bindings: interrupt-controller: ti,sci-intr: Fix missing reg property in the binding
+4d96829774b7bd70ed81b5e2830afb9d97b9fea2 irqchip/gic-v3: Fix typo in comment
+872f3a4e90ef2a0245f9143558d9f45bfc352194 dt-bindings: irqchip: renesas,irqc: Add r8a779g0 support
+70afdab904d2d1e68bffe75fe08e7e48e0b0ff8e irqchip: Add IMX MU MSI controller driver
+7c025238b47a55c81c61dfe85a200ab82e6a6ece dt-bindings: irqchip: Describe the IMX MU block as a MSI controller
+4b0b6c7cd746c13bbe7b44e663266df5413931c2 Merge branch irq/fsl-mu-msi into irq/irqchip-next
+aa2808087335af628032da25e2801d7ab562635c Merge branch irq/rtl-imap-deprecation into irq/irqchip-next
+732d69c80cb04a587d9ec2935bcb63989e66eb92 Merge branch irq/misc-6.1 into irq/irqchip-next
+1625c8cba77086a90c4a037f2ab4597ebfdce08e Merge tag 'efi-next-for-v6.1' into loongarch-next
+1b00adce8afdb842615a5bf3774510f14a9b769a irqchip/ls-extirq: Fix invalid wait context by avoiding to use regmap
+6e4a53ee7989c8a2b9fc3b14cd90f6e2d613ca76 ocfs2: replace zero-length arrays with DECLARE_FLEX_ARRAY() helper
+1c320cfa17701cbf98085b34ad6159e9f41e5268 fs/ocfs2/suballoc.h: fix spelling typo in comment
+8f824b4abd31c5ea32ae1d6725c47bdb247d18da init.h: fix spelling typo in comment
+5758478a3d3c42a78ee9ddc4b08db3e968a68058 ipc: mqueue: remove unnecessary conditionals
+1179083ff07698b870da30a5aad34d44ed5dae10 firmware: google: test spinlock on panic path to avoid lockups
+5ca14835dc429c09fefb290f60343fe266382760 fs: uninline inode_maybe_inc_iversion()
+7ec354baa2ad6dcf1b481a5a582293cec0eb2a67 proc: make config PROC_CHILDREN depend on PROC_FS
+83d87a4ddb3b4a42bb73b314b3d1acc3965a689f relay: use kvcalloc to alloc page array in relay_alloc_page_array
+e77999c1d4d26df7a3fe83627d05898052437269 fs/ocfs2: fix repeated words in comments
+5d0ce3595ab75330a15cec914096efbbb8b41e4a percpu: add percpu_counter_add_local and percpu_counter_sub_local
+72d1e611082eda18689106a0c192f2827072713c ipc/msg: mitigate the lock contention with percpu counter
+462cd7724e2341472c9f9670ac88e250788d4c82 usr/gen_init_cpio.c: remove unnecessary -1 values from int file
+bd17e036b495bebbf07a5fc814c868e30e1dc131 checkpatch: warn for non-standard fixes tag style
+0badb2e46a7699d09ef09a2c7f8f4fe66c15e606 nilfs2: delete unnecessary checks before brelse()
+da6f79164e98de4ab3f2fdeea4875207fe282014 nilfs2: remove the unneeded result variable
+ef1d61781bc6708ccc4a21262cc80a7dad952e04 proc: mark more files as permanent
+374d6cda7946431611c41cbb6e75dc4a25727ea8 init/main.c: remove unnecessary (void*) conversions
+36de4f94197318e45ba77badb5b07274f5bc72a9 Merge tag 'irqchip-6.1' of git://git.kernel.org/pub/scm/linux/kernel/git/maz/arm-platforms into irq/core
+e4a7e67a08ac409f1485c82a2190636d5c81b932 irqchip/imx-mu-msi: Fix wrong register offset for 8ulp
+ef79361b265dd229725ad62bc850f6913ef2f94a fork: remove duplicate included header files
+723ac751208f6d6540191689cfbf6c77135a7a1b nilfs2: replace WARN_ONs by nilfs_error for checkpoint acquisition failure
+329028e04a0b4d6a2e37b75ea90335436b7c3c8c ia64: update config files
+30341ec95af4f6e85b981c975c23929bbea8b58a init/Kconfig: fix unmet direct dependencies
+95e9a8552e85a7b7c885d3458c7c74c28dfe359b ia64: mca: use strscpy() is more robust and safer
+0f4107d1798f7ee603845b2a6699c9559a1fec9f mailmap: update Frank Rowand email address
+5bc73bb3451b9e449828694733a4c6b413ceeb3b proc: test how it holds up with mapping'less process
+6a961bffd1c3505c13b4d33bbb8385fe08239cb8 include/linux/entry-common.h: remove has_signal comment of arch_do_signal_or_restart() prototype
 fac35ba763ed07ba93154c95ffc0c4a55023707f mm/hugetlb: fix races when looking up a CONT-PTE/PMD size hugetlb page
 b1f44cdabad8c50cd72d6b6731e9fdf3730a8f4f mm/damon/core: initialize damon_target->list in damon_new_target()
 d325dc6eb763c10f591c239550b8c7e5466a5d09 nilfs2: fix use-after-free bug of struct nilfs_root
 21a87d88c2253350e115029f14fe2a10a7e6c856 nilfs2: fix NULL pointer dereference at nilfs_bmap_lookup_at_level()
 d0d51a97063db4704a5ef6bc978dddab1636a306 nilfs2: fix leak of nilfs_root in case of writer thread creation failure
-139f692d447784284be90e92d0e3e85cc0e10874 Merge branch 'mm-stable' into mm-unstable
-1a37b49db462452292f1c2c307105691d6403e4e mm/hugetlb.c: make __hugetlb_vma_unlock_write_put() static
-5a965c3b0b8f1abffd5cc128ac7ea8ae292dd332 mm/compaction: fix set skip in fast_find_migrateblock
-f40efb9c8a2a00c674cee8706b563a4ed6f5b084 mmap: fix copy_vma() failure path
-ef1554fda7f4892e4fe53a8a76fe9bd49d66c519 mm: more vma cache removal
-9d4d9794c44aa5b51e6e056c394798b8eae474b1 mm/mmap: preallocate maple nodes for brk vma expansion
-3a5eb0678fd887eb86fb0f925ef44c97160291bc mm/uffd: fix warning without PTE_MARKER_UFFD_WP compiled in
-a3b854e99af2232e198b4cc2c13e227b833a7408 mm/mmap: undo ->mmap() when arch_validate_flags() fails
-ae154ae5295f464260421c9937206f6133d66f82 mm: discard __GFP_ATOMIC
-6966f3b7b074c3fd8cee39db511404a776dfb651 kmsan: unpoison @tlb in arch_tlb_gather_mmu()
-4848d538a5dbf4ef3e76c578d350a12fbf3cddbb ACPI: HMAT: release platform device in case of platform_device_add_data() failure
-2c779f28b6895864090a2d11a15025a8b582f91d lib/test_meminit: add checks for the allocation functions
-28dde76e349788b3e4faf02137fc0d2281f1e3a8 kasan: fix array-bounds warnings in tests
-5a756962d12de3fd938513ac987808d05cec623b mm: vmscan: fix extreme overreclaim and swap floods
-7ee4870bf042d5a290d505a0c33aab33ce4be952 mm/damon: move sz_damon_region to damon_sz_region
-0cb4d6d6db6f7f15b386bbf32d113ebe51799b53 mm/damon: use damon_sz_region() in appropriate place
-0ff650c630706ca1f9c0ce4ba8ac9fc3b0928ca4 mm/memory.c: fix race when faulting a device private page
-961f2c6b66eb07e84bebd602aeefa880a386f24c mm-memoryc-fix-race-when-faulting-a-device-private-page-fix
-a537dda29cbb62f6816fb914ddc99da5f4206e5b mm: free device private pages have zero refcount
-699df35b0c6eb001262d0455b1381dcb4ebd6c19 mm/memremap.c: take a pgmap reference on page allocation
-54166d35001c2e29880442039b3fe5c4358ea578 mm/migrate_device.c: refactor migrate_vma and migrate_deivce_coherent_page()
-5edb1bf2fcb83f4f7f69a9811d3a5d810207e83f mm/migrate_device.c: add migrate_device_range()
-007ef04bc4ceb0d660b756286ce4866f4537272b nouveau/dmem: refactor nouveau_dmem_fault_copy_one()
-57cac935ef87a02632d013c130792f2d403e0fef nouveau/dmem: evict device private memory during release
-1b3d8e8f3b2ba4e86bd3c5b9136ca40a19b849ff hmm-tests: add test for migrate_device_range()
-541adde28a55bd78a61acd5e2091393c337a285a mm: use update_mmu_tlb() on the second thread
-18541bd0095588ac0fe57992434ad04572bccfd6 LoongArch: update local TLB if PTE entry exists
-34d101d7ec09a3dc956deead3801d9ddfcc9283a zram: always expose rw_page
-95fbb16cc96976067ebc861a97edf5a048fedac2 mm/hugetlb: fix race condition of uffd missing/minor handling
-b6ce728650cd3d6c20fa87f677b572368016ab53 mm/hugetlb: use hugetlb_pte_stable in migration race check
-1b791929612b75e1373a0b3e58a5ae34d543e5d4 mm/selftest: uffd: explain the write missing fault check
-e0bf6cfd577e7180bd700c2c13b126a8f8c63ff9 mm/page_alloc: fix incorrect PGFREE and PGALLOC for high-order page
-57b956be40df5ddc46d029abb33c2098008a87f6 highmem: fix kmap_to_page() for kmap_local_page() addresses
-1936dd501e6f5a853c1b2f8d5169f607493a7fd1 highmem-fix-kmap_to_page-for-kmap_local_page-addresses-fix
-3b3520ba3ac7a4c9a741b82613fa59c13b19e403 === Mark start of DAMON hack tree ===
-69472e921b56f4dbb3c2a683f46c6c25efd42d47 Add -damon suffix to the version name
-969e8e1af7410688683033753b6aea953c65a021 for_damon_hack: Add files for DAMON hacks
-9e50809e713358720303031feb6d643242fbd68e === Patches in mm-unstable but not yet pushed ===
-e678096cfd4fff1ea47c9da03f09bc5378d768b6 === Patches written or reviewed by SJ but not merged in -mm ===
-94b2b21afd1200ed4db7792e7696874c15e92cb3 xen-blkback: Advertise feature-persistent as user requested
-7611e21d84b1296a892d29bb938a8d812ef6f3e4 xen-blkfront: Advertise feature-persistent as user requested
-502f80989345d3787c541973fbf412d397750d4a xen-blkfront: Cache feature_persistent value before advertisement
-44be406a1eb13780c4ed7aed331b27099e7d55a8 ==== YuanChu's DAMON kselftest fix ====
-de5faccfae72902985f9b5020d0c1e73aa181f3d selftests/damon: suppress compiler warnings for huge_count_read_write
-4e31a7d6ec45eb5fdd37836ea5230896b083c09d === commits having no plan to post for now ===
-2c3b34ead4f85566bb7abc20e294bd144aabf11f tools/perf: Integrate DAMON in perf
-f575d5ea5673d6a26b4b6e9edc3abf487e3ab5d0 selftests/damon: Test race between target_ids_read() and dbgfs_before_terminate()
-7d410350b8501cfbdb3911d5ad2ded3b5f327ca9 selftests/damon: Test target_ids_write()'s pids leaks
-324efa2570f676ac3be8c31112c580ad129b9179 === Commits aiming not to be posted ===
-cb21e0329ebdaf5f3a4a9ac58596bcbb86090d0f mm/damon: Add debug code
-ab892c825e98bf5a9ce2c5ecfe67d959f692de5c Docs: Modify for DAMON only
-f1fd4cc5840b8825ce5eaab56af78a3eed930e0d Docs/DAMON: Add more docs -next doc
-8a61efcbb8ea8071938c2a24de7bbb8ea9cf7a8d === Hacks in progress (aim to be posted) ===
-fd4c8cec73ea2ca29e8d88c4c06b5d06c5db5023 mm/damon/modules: deduplicate init steps for DAMON context setup
-93d79ff2736af6029733f6c3a0702c886208ae79 mm/damon/core: separate DAMOS-charged region skip logic to a function
-70bfb7b41eecb7586721910eb202088db54e9469 mm/damon/core: separate damos application logic
-f0f061898cf0881f38286eae6a827921e367da81 mm/damon/core: separate scheme stat update logic
-3b781b80f29a4d0e1c73aaf39308c330bf880655 mm/damon/core: fix damos_apply_scheme() factor out commit
-3cd5b3262a82802ca94ce52c8fadaf891927f138 mm/damon/core: separate scheme quota adjustment logic
-48281e3c0f74d644fb16e529b8970366ea600596 mm/damon/core: add a DAMON callback for scheme target regions check
-b4c53f6c15e44318be9e8f0974ac8aac1a5cdf40 Docs/admin-guide/DAMON: add tried regions and applied regions sysfs directory
-340ed7ded2a5dee5c3ddc74c3bf023296f6a9477 for_damon_hack/damon_commits: Support stable commits only filtering
-c44819d05f06b46f965a3148335ace55cc0aeb9e for_damon_back/todo: Remove overdue line
+6c9f7434159b96231f5b27ab938f4766e3586b48 irqchip: IMX_MU_MSI should depend on ARCH_MXC
+b8d49bcd8fd19824888c766a217891855d8692ad Merge tag 'irqchip-fixes-6.1-1' of git://git.kernel.org/pub/scm/linux/kernel/git/maz/arm-platforms into irq/core
+4b2edd38282a42742d8f2039767fa4f1919330f0 LoongArch: Fix cpu name after CPU-hotplug
+a522b7ad8e66fd9021d354844c1c6bd7893bde6f LoongArch: Do not create sysfs control file for io master CPUs
+1299a129a9f927433ba792b242c1f287a96059e7 LoongArch: Flush TLB earlier at initialization
+ddf502717da029c9f065ade7e9bce90a1890e7df LoongArch: Mark __xchg() and __cmpxchg() as __always_inline
+9550dfde5eb83558c9c21f664d9b622a26bacf7d LoongArch: Kconfig: Fix spelling mistake "delibrately" -> "deliberately"
+0d8dad7048611e5ba02ae8519539ce4b8b1482d3 LoongArch: Add Kconfig option AS_HAS_EXPLICIT_RELOCS
+11cd8a648301af0ad6937ed9493519d1e93fd4c8 LoongArch: Adjust symbol addressing for AS_HAS_EXPLICIT_RELOCS
+0a75e5d1a1845db94b9c462e7b0ee755642febfe LoongArch: Define ELF relocation types added in ABIv2.0
+9bd1e38032fb72982d9efe11948037cfa01eaa50 LoongArch: Support PC-relative relocations in modules
+59b3d4a9b0cc065a6a88446f8dd9b6d4659cc3df LoongArch: Support R_LARCH_GOT_PC_{LO12,HI20} in modules
+a2a84e36331af3b000ad12b552c5485b8282b366 LoongArch: mm: Refactor TLB exception handlers
+b61a40afca164a9bd066f749beff3bf209c5e209 LoongArch: Refactor cache probe and flush methods
+235d074fdc9a69e3720b8bb6efeb7c6d30c12d8e LoongArch: Support access filter to /dev/mem interface
+d279134168c78ac2caa1f7cd2a846579da1c93ac LoongArch: Use TLB for ioremap()
+5f1e001be579c2b7f37e7d5ff87c208c33e90fca LoongArch: Add qspinlock support
+b37042b2bb7cd751f03b73afb90364a418d870f4 LoongArch: Add perf events support
+dea2df3cc72555633cc7858ce1daa4b757f843ad LoongArch: Add SysRq-x (TLB Dump) support
+2d2c395217d2233e752dbddcae3c5d94050b48c1 LoongArch: Use generic BUG() handler
+4a03b2ac06a5bcae29371866d9d11f5bfd4c9188 LoongArch: Add kexec support
+4e62d1d86585e1b62b4f96ee586881dd45a443dc LoongArch: Add kdump support
+8a34228eb30308f6e223c6f2b87e2381d45056e2 LoongArch: Move {signed,unsigned}_imm_check() to inst.h
+4e59e5a46936dd649208f348ead678c35197203d LoongArch: Add some instruction opcodes and formats
+5dc615520c4dfb358245680f1904bad61116648e LoongArch: Add BPF JIT support
+6246ed09111fbb17168619006b4380103c6673c3 LoongArch: Add ACPI-based generic laptop driver
+2c8577f5e455b149f3ecb24e9a9f48f372a5d71a LoongArch: Update Loongson-3 default config file
+60ac35bf6b98fb87475c2f85f022d5ea737dd68c Merge tag 'irq-core-2022-10-12' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+95b8b5953a315081eadbadf49200e57d7e05aae7 Merge tag 'loongarch-6.1' of git://git.kernel.org/pub/scm/linux/kernel/git/chenhuacai/linux-loongson
+676cb4957396411fdb7aba906d5f950fc3de7cc9 Merge tag 'mm-nonmm-stable-2022-10-11' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
+1440f576022887004f719883acb094e7e0dd4944 Merge tag 'mm-hotfixes-stable-2022-10-11' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 
---===============8391447783965226068==--
+--===============7616149689517427159==--
