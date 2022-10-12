@@ -1,62 +1,66 @@
-Content-Type: multipart/mixed; boundary="===============1565933310175570896=="
+Content-Type: multipart/mixed; boundary="===============4368114241074435605=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Wed, 12 Oct 2022 11:22:11 -0000
-Message-Id: <166557373126.1622.8884606037783236414@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Wed, 12 Oct 2022 11:22:17 -0000
+Message-Id: <166557373753.1743.8578331977682376692@gitolite.kernel.org>
 
---===============1565933310175570896==
+--===============4368114241074435605==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/driver-core
+repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/readfile
-    old: 9baa1b9a10c1e7506ac0996961ea28b3bdbeb090
-    new: abadae949a41b61ed7d0e84b22c32194cd3e3232
-    log: revlist-9baa1b9a10c1-abadae949a41.txt
+  - ref: refs/heads/main
+    old: a6afa4199d3d038fbfdff5511f7523b0e30cb774
+    new: 49da070062390094112b423ba443ea193527b2e4
+    log: revlist-a6afa4199d3d-49da07006239.txt
 
---===============1565933310175570896==
+--===============4368114241074435605==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1665573775 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1665573727-052faaf92e8e6aae0732845c3b57f4311e28acf7
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1665573781 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1665573734-f5203ad72022c587f7bef9175a9b69a46826e2d3
 
-9baa1b9a10c1e7506ac0996961ea28b3bdbeb090 abadae949a41b61ed7d0e84b22c32194cd3e3232 refs/heads/readfile
+a6afa4199d3d038fbfdff5511f7523b0e30cb774 49da070062390094112b423ba443ea193527b2e4 refs/heads/main
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmNGo48bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+dOAQAKvpmmFUk1Vr7nwV1glU
-N/O8WqOfU20NZETttWxtBTWN7Jy85lagACXadRz5kyeKZUWJzH3QweO3jnnEEBeR
-AoO2xq46ddLs64q8s7DiiK7u/YokimMVKjq3xqJco7nFPYrvQZUslrEQbB5Qhaef
-I2vGqQj3AB2pOnq5bJa8pP9e14XAbaSES+F5G8wjtLe+hr5m6e3Sec/5VPRUq6xD
-uxRDKOB4OqZYKzt8OGvLf3fhz7uiYQPPXMSSE3uwnQ7wjh0vLkEZufK7pvUKRdYk
-q2Gr1kIAGJFm6hlsh82KP68sZn+pq1/dMVwragpHIYgl1tq1Lsl0xFyVsuSLTGlR
-LZbZMmjBcg6CmX8LqGyvy0w9tbNX2qWtWLB7gqaCaJ1DXmlaSm7+kJBOPtTQJUBq
-efRFpYjlu7EVvVxLwLOmP8mc4wetwezEvy454BW3ba3I5o/P5L+QcXBcFXBgh2H4
-5SP5V4VIH5bK0xQph8SFoYrC43wcQL9ZV865mjdBa+Qf0zoswpLTaABqIY9xQUky
-ogzBzzBsntw4vMl7Vas8XVekB5sCxVLN3u/l/6NwJ8Wc9gaBe/NPtBkPIoyNrcz7
-uuZPQ9w862mjC5kS4AqR4eY+k/ufxIAaasGkHHqHeVilVYEIDzoGmWbQfjVQUXoi
-uz63QwUQIbblOzppqPGA3PxC
-=Faua
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmNGo5UbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+AEsQAMnkJa8Gi6xI5SNHq0oa
+HfS5ouVl8/aOXPnee6z9uM9DGXwmslFkz25RtxZuHj85dgSIusarnCKnaMXAXmDe
+nczUC1WOVFrQIoXaW/qdSaOsf9aJSdI3PYjEthhRUW7l3nPMsNV6qBDELmevu8zY
+88axLn6039/Zqv53GT+8Uv8mlAc5r5e7ILkrXSm8StKyMRSAZCC+IkTlPhwcw8Q3
+xt63ztujWoNXYtwi6Xw9X0ExAb0uLW+T5y+XGIWf/Ibs31pA1SyutHXYbsdavGlu
+zEt7b6ZPNzjlmjQbBMCowJMJvrUd5CSyYYMUf+kU5vX3ymAcl7h5g5Fa2Pi1yFu7
+vbytLmpe6Ur/OuoyXqpUxihVQv35dZJp3NfT8saRn0Uu4hreofxf8eou8Ebl1zMu
+9c4tbbNr4EMf21fk2Lh3t/L38yqa2ogpXVFIjyqBWLbSb0Hc8/CWWznsFLIaIdvj
+faKz28wiK7/YUxnaiB2XlEMXDVvFfxTcLvAEugvNIMoKYTeVrDgy5ltxwacgYU8T
+zXYpPtXW3TYnDK5V3YbkZAlZ01+Zs4OzqT0qhzVj39BXqJKa7A6TpgUSpFrEEov0
+/bWdrH5swQHsU0vp4adRhm12VC79AvcfmqPCItcjYAJe0yaq9wrhzCRjMtIBkkRJ
+eK5H0OYuqzNWwEL5apIgMtrO
+=5Nc+
 -----END PGP SIGNATURE-----
 
---===============1565933310175570896==
+--===============4368114241074435605==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-9baa1b9a10c1-abadae949a41.txt
+Content-Disposition: attachment; filename=revlist-a6afa4199d3d-49da07006239.txt
 
+566331696329c2f9ca0fe2a55a5dd029ac43d2d2 efi/libstub: refactor the initrd measuring functions
+71c7adc9fffd4e38ebc197314f6909c9fd6051ef efi/libstub: measure EFI LoadOptions
+69e377b289376147c84cfd09bab1ad0328a0ecc6 efi/arm: libstub: move ARM specific code out of generic routines
+04419e8a7b41c83c628d45c684d6bd117c24cea9 efi: libstub: fix up the last remaining open coded boot service call
 3c6edd9034240ce9582be3392112321336bd25bb efi: zboot: create MemoryMapped() device path for the parent if needed
 d3549a938b73f203ef522562ae9f2d38aa43d234 efi/arm64: libstub: avoid SetVirtualAddressMap() when possible
 0a5bfb824a6ea35e54b7e5ac6f881beea5e309d2 KVM: PPC: Book3S HV: Fix decrementer migration
@@ -1077,9 +1081,5 @@ c440f99695236ceb610606e4b5c50e150981f6c5 Merge tag 'i2c-for-6.1-rc1-batch2' of g
 d465bff130bf4ca17b6980abe51164ace1e0cba4 Merge tag 'perf-tools-for-v6.1-1-2022-10-07' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 f311d498be8f1aa49d5cfca0b18d6db4f77845b7 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 49da070062390094112b423ba443ea193527b2e4 Merge tag 'memblock-v6.1-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rppt/memblock
-16a3c2426d363e88f33508fc6dd792f5af3544e1 readfile: implement readfile syscall
-e2f0d707b608462bb3eba89adeaf4da81acedc0e arch: wire up the readfile syscall
-b7dc2d9cd2faf1dbb814483c1b55ba051a0654f2 selftests: add readfile(2) selftests
-abadae949a41b61ed7d0e84b22c32194cd3e3232 readfile.2: new page describing readfile(2)
 
---===============1565933310175570896==--
+--===============4368114241074435605==--
