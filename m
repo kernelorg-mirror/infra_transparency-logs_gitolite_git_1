@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8772172914458008092=="
+Content-Type: multipart/mixed; boundary="===============4847943700087288353=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Thu, 13 Oct 2022 15:07:42 -0000
-Message-Id: <166567366250.30492.3406702184558900061@gitolite.kernel.org>
+Date: Thu, 13 Oct 2022 15:07:55 -0000
+Message-Id: <166567367507.30599.14527116737242535466@gitolite.kernel.org>
 
---===============8772172914458008092==
+--===============4847943700087288353==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,18 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/perf/urgent
-    old: 6b959ba22d34ca793ffdb15b5715457c78e38b1a
-    new: bf7284dfb1e447b0f48d2b69a64cb6d0e9da83f7
-    log: revlist-6b959ba22d34-bf7284dfb1e4.txt
+  - ref: refs/heads/perf/core
+    old: 82aad7ff7ac25c8cf09d491ae23b9823f1901486
+    new: cf26c035745daa3085e25e2cdca0f6c157543a67
+    log: revlist-82aad7ff7ac2-cf26c035745d.txt
 
---===============8772172914458008092==
+--===============4847943700087288353==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-6b959ba22d34-bf7284dfb1e4.txt
+Content-Disposition: attachment; filename=revlist-82aad7ff7ac2-cf26c035745d.txt
 
+cb691e2f28bc63b1a872aa593dd542ee796e8364 mm: remove lookup_swap_cache()
 aedd74d4397a2b1a4882215b6169b47d139c0319 swap_state: convert free_swap_cache() to use a folio
 71fa1a533d2e027a3df98fd065605bebab42d7bf swap: convert swap_writepage() to use a folio
 e4a2ed94908cc0104b8826ed8d831661ed1c3ea1 mm: convert do_wp_page() to use a folio
@@ -379,9 +380,6 @@ e19d4ebc536dadb607fe305fdaf48218d3e32d7c alpha: add full ioread64/iowrite64 impl
 823f606ab6b4759a1faf0388abcf4fb0776710d2 ARM: 9242/1: kasan: Only map modules if CONFIG_KASAN_VMALLOC=n
 afd1efa1d80162cd48bacb3b848136249df28c62 ARM: 9245/1: dump: show FDT region
 e66372ecb80dc5179c7abb880229c7452e813d15 ARM: 9246/1: dump: show page table level name
-0ce38047e82a02017839b6cae837f13a1383a3a0 perf: Fix lockdep_assert_event_ctx()
-7be51cc1c68dfa180ef84e71bcb4204237bb5620 perf: Fix pmu_filter_match()
-82aad7ff7ac25c8cf09d491ae23b9823f1901486 perf/hw_breakpoint: Annotate tsk->perf_event_mutex vs ctx->mutex
 8012243e62b5e13bded3ce8a3b69d28f8ea694fe perf inject: Add a command line option to specify build ids.
 709533e51b166d5a520589a03f0044ed304b33bd tools build: Fix feature detection output due to eval expansion
 74da7697a2ab988e3889ba4db78992a0944ea83d tools build: Increment room for feature name in feature detection output
@@ -1050,5 +1048,7 @@ b6509735239b9a42451e7ad2975a350ccb0a7a13 perf: Fix missing SIGTRAPs
 f354f595cde2bb92a0b9de837cd43f2101c5f199 selftests/perf_events: Add a SIGTRAP stress test with disables
 5dd979af34d36b413b4a11fe952b7612e72514a5 bpf: fix sample_flags for bpf_perf_event_output
 bf7284dfb1e447b0f48d2b69a64cb6d0e9da83f7 x86/perf: Fixed kernel panic during boot on Nano processor.
+359ed74b43a7380336a65d30c710cee357a87fc2 perf: Rewrite core context handling
+cf26c035745daa3085e25e2cdca0f6c157543a67 perf: Optimize perf_tp_event()
 
---===============8772172914458008092==--
+--===============4847943700087288353==--
