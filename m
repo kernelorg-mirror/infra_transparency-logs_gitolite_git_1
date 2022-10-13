@@ -1,45 +1,60 @@
-Content-Type: multipart/mixed; boundary="===============8326621017285425501=="
+Content-Type: multipart/mixed; boundary="===============0133929750478895206=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/git/git
-Date: Thu, 13 Oct 2022 21:58:54 -0000
-Message-Id: <166569833409.5263.7820561856794990711@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
+Date: Thu, 13 Oct 2022 22:07:52 -0000
+Message-Id: <166569887250.11610.17878723402217949418@gitolite.kernel.org>
 
---===============8326621017285425501==
+--===============0133929750478895206==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/git/git
-user: junio
+repo: pub/scm/linux/kernel/git/sj/linux
+user: sj
 changes:
-  - ref: refs/heads/seen
-    old: 6c1221c99975ad3216d82de51ed980fbf327d7f8
-    new: 192ff102ae13b1760c47ec3c2d41b5a58ebabb6a
-    log: revlist-6c1221c99975-192ff102ae13.txt
+  - ref: refs/heads/damon/next
+    old: 0c5900bc4d42e7eaa0ea999617bd28b2bb4ce693
+    new: 028e671ea1e968d9014a8c40f63f8b4f85c7925b
+    log: revlist-0c5900bc4d42-028e671ea1e9.txt
 
---===============8326621017285425501==
+--===============0133929750478895206==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6c1221c99975-192ff102ae13.txt
+Content-Disposition: attachment; filename=revlist-0c5900bc4d42-028e671ea1e9.txt
 
-a8437f3cb1994cb0c93b27fdefaa0163eddcf92a midx.c: fix whitespace typo
-1dc4f1ef0d2528f405d71850d73d80ff1a571abd midx.c: consider annotated tags during bitmap selection
-2dcff52524e611413cb0cb49015f0d105f5f8dfa midx.c: instrument MIDX and bitmap generation with trace2 regions
-e9c383994493f3b775191aed13811a868aa639da pack-bitmap-write.c: instrument number of reused bitmaps
-dd38e9e510ca8119f252adf42668f5b9006abd56 trace2: use size_t alloc,nr_open_regions in tr2tls_thread_ctx
-d305665aebaed019cd83d31ca69b0271a93a711c tr2tls: clarify TLS terminology
-820eb5b0d968a7ddc56a04cb9960ba3315f0bed3 api-trace2.txt: elminate section describing the public trace2 API
-e6c59790637afeb9d93f646e12cb5db6b739e2c6 trace2: rename the thread_name argument to trace2_thread_start
-e2a59be57c547e887274ad0a188c7965cd73cd28 trace2: convert ctx.thread_name from strbuf to pointer
-5d6b57a330e1c86984ce4951f80c8b4448f97970 trace2: add stopwatch timers
-61a12f4fa3fe9598bea6d3aba65598b983bbe4ec trace2: add global counter mechanism
-1e3e0a693df999be0b29c4c297c63bd76d557984 builtin/repack.c: remove redundant pack-based bitmaps
-5e01d2f6b7e0bf49294158b8aeb441490f3e3aea Merge branch 'tb/midx-bitmap-selection-fix' into seen
-1c8d04e0740846520f09c3dfa6d0514a9bc64ad7 Merge branch 'jh/trace2-timers-and-counters' into seen
-192ff102ae13b1760c47ec3c2d41b5a58ebabb6a Merge branch 'tb/remove-unused-pack-bitmap' into seen
+a67bf723a1b613718b777e036d4eeb4decff3dc1 for_damon_hack: Add files for DAMON hacks
+0bfc7e546514b5b62614a7eac181160fd8c9db6a === Patches in mm-unstable but not yet pushed ===
+63d4d36c9e1a4507c62ae2314e43b10b3136d9c1 === Patches written or reviewed by SJ but not merged in -mm ===
+c5c950fb9a5bfe065fb5b73be2dd21280043a973 xen-blkback: Advertise feature-persistent as user requested
+46d033fbea5b4b26bf0c79716355184c2ecf7009 xen-blkfront: Advertise feature-persistent as user requested
+e6e9af6830f09f23401aca84c74374c854d542f2 xen-blkfront: Cache feature_persistent value before advertisement
+85128aa9fa1ac875ab873faa0688c919b9dd15d6 ==== YuanChu's DAMON kselftest fix ====
+7987aef8468b547de10a5be4cb9bb8934f7b5579 selftests/damon: suppress compiler warnings for huge_count_read_write
+8b5ece7ca21e5cce1b7072c7ccba800c82561034 === commits having no plan to post for now ===
+c1759f8577439b3dbaeae8a0b3e875d9328d23c1 tools/perf: Integrate DAMON in perf
+9f0feac70d36e0e518105f83bc899d7fad8f64b6 selftests/damon: Test race between target_ids_read() and dbgfs_before_terminate()
+bb892e24e1e29145d7eed77b2b04ffd98a1ede1d selftests/damon: Test target_ids_write()'s pids leaks
+0188f45e3069ed8b0b8679ae32818758904595ec === Commits aiming not to be posted ===
+57d56a9c4ea8548f40e00ce4e1d2cfd3ba0076b7 mm/damon: Add debug code
+536a60b16fb46d07f1e1da6a18d67b9d1731a37f Docs: Modify for DAMON only
+983428a5067674e0cfa68a2bf71e60cf6408c499 Docs/DAMON: Add more docs -next doc
+59e2e59482a7cc14e4c59b66260a63c85ddf89ee === Hacks in progress (aim to be posted) ===
+ccf7387951090d9ad6d2e5fd7fc0f2d4a962d08a mm/damon/modules: deduplicate init steps for DAMON context setup
+dc0b8191dcf08e4acb4bfc9cdd31f3474d42074c mm/damon/core: separate DAMOS-charged region skip logic to a function
+d7535cd0a6c5f880146e76866eb27f15a95b2c46 mm/damon/core: separate damos application logic
+bfe7ee1041de28a236a7c904244cfbd3be3ae0db mm/damon/core: separate scheme stat update logic
+e6e300b702ef451e8541931cedb46d9185d8b9f1 mm/damon/core: fix damos_apply_scheme() factor out commit
+558b3e162168df45e327ecbc236e859a36a3e460 mm/damon/core: separate scheme quota adjustment logic
+5a99569119ed10b4749931adc426703c5062173c mm/damon/core: add a DAMON callback for scheme target regions check
+467a2a146e477c49f6c646bf72272511a97f8ea2 Docs/admin-guide/DAMON: add tried regions and applied regions sysfs directory
+b9e6d7457491e5f6b8fa276cf0a589017f38a4ee mm/damon/sysfs: Use damon_addr_range for regions' start and end values
+c2ec8603c3dab0e0ab88e785b3fcbd9100b20846 mm/damon/sysfs: move sysfs_lock to common module
+d5ee97ac600121ff1dd6779376d528e0878a77c7 mm/damon/sysfs: move unsigned long range directory to common module
+10ece6124efd6deceddbfc37a7bb3a3270d48967 mm/damon/sysfs: separate kdamond-independent schemes stats update function
+028e671ea1e968d9014a8c40f63f8b4f85c7925b mm/damon/sysfs: move schemes directory implementation to separate module
 
---===============8326621017285425501==--
+--===============0133929750478895206==--
