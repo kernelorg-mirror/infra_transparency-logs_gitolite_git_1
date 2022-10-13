@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2142035205603056797=="
+Content-Type: multipart/mixed; boundary="===============7473974467450492149=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Thu, 13 Oct 2022 17:38:00 -0000
-Message-Id: <166568268063.12332.12659193933741327139@gitolite.kernel.org>
+Date: Thu, 13 Oct 2022 17:38:13 -0000
+Message-Id: <166568269313.12486.16244139531755550706@gitolite.kernel.org>
 
---===============2142035205603056797==
+--===============7473974467450492149==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,20 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
 user: jaegeuk
 changes:
-  - ref: refs/heads/dev-test
-    old: af7cd022a6c8a91590cdc1a6a49587901139c591
-    new: e1334055788ad1a18ba17374ded560652884ed43
-    log: revlist-af7cd022a6c8-e1334055788a.txt
+  - ref: refs/heads/dev
+    old: b4dac1203f39821c6119033cdeebcea83cf45786
+    new: 49da070062390094112b423ba443ea193527b2e4
+    log: revlist-b4dac1203f39-49da07006239.txt
 
---===============2142035205603056797==
+--===============7473974467450492149==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-af7cd022a6c8-e1334055788a.txt
+Content-Disposition: attachment; filename=revlist-b4dac1203f39-49da07006239.txt
 
+0cf46a653bdae56683fece68dc50340f7520e6c4 hwmon: (corsair-psu) add USB id of new revision of the HX1000i psu
+02f2e785c4834828876a4701926416157dfd7b26 Merge branch 'for-next' into for-linus
+42e8e6d906dabb58a0e0ea53443b0e0a0821f1d5 Merge branch 'master' of git://git.kernel.org/pub/scm/linux/kernel/git/klassert/ipsec-next
 a91b750fd6629354460282bbf5146c01b05c4859 net: rds: don't hold sock lock when cancelling work from rds_tcp_reset_callbacks()
 537dd2d9fb9f4aa7939fb4fcf552ebe4f497bd7e net: Add helper function to parse netlink msg of ip_tunnel_encap
 b86fca800a6a3d439c454b462f7f067a18234e60 net: Add helper function to parse netlink msg of ip_tunnel_parm
@@ -1047,8 +1050,5 @@ c440f99695236ceb610606e4b5c50e150981f6c5 Merge tag 'i2c-for-6.1-rc1-batch2' of g
 d465bff130bf4ca17b6980abe51164ace1e0cba4 Merge tag 'perf-tools-for-v6.1-1-2022-10-07' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 f311d498be8f1aa49d5cfca0b18d6db4f77845b7 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 49da070062390094112b423ba443ea193527b2e4 Merge tag 'memblock-v6.1-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rppt/memblock
-c0cd2171d02beaf298d3883ad6a2f571159f9679 f2fs: support errors=remount-ro|continue|panic mountoption
-8af33ac9ca3deabddd3fd8458ebb7f610c90bbe9 f2fs: support fault injection for f2fs_is_valid_blkaddr()
-e1334055788ad1a18ba17374ded560652884ed43 f2fs: fix to invalidate dcc->f2fs_issue_discard in error path
 
---===============2142035205603056797==--
+--===============7473974467450492149==--
