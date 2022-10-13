@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Thu, 13 Oct 2022 14:11:53 -0000
-Message-Id: <166567031339.23447.2543048357874050385@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ulfh/mmc
+Date: Thu, 13 Oct 2022 14:19:49 -0000
+Message-Id: <166567078933.27790.18109094977901929368@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/linux/kernel/git/ulfh/mmc
+user: ulfh
 changes:
-  - ref: refs/heads/dev
-    old: 55b66ccaa0a54718a09d9e643f58acc0515e4bd6
-    new: f965c827ea36521a2145b538660fe64237ab4a96
+  - ref: refs/heads/fixes
+    old: 6e141772e6465f937458b35ddcfd0a981b6f5280
+    new: 1702591f069c0b7461105d12eea3f5427ae99f29
     log: |
-         f965c827ea36521a2145b538660fe64237ab4a96 rcu: Fix __this_cpu_read() lockdep warning in rcu_force_quiescent_state()
+         83239c1e738d9ed61749c00d3a742cbd50c2616b mmc: block: Remove error check of hw_reset on reset
+         1702591f069c0b7461105d12eea3f5427ae99f29 mmc: queue: Cancel recovery work on cleanup
          
