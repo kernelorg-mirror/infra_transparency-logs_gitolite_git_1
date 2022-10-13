@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
-Date: Thu, 13 Oct 2022 19:50:29 -0000
-Message-Id: <166569062935.11103.15565500857513465201@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/aegl/ras-tools
+Date: Thu, 13 Oct 2022 20:07:25 -0000
+Message-Id: <166569164538.22977.10996587444319031842@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/palmer/linux
-user: palmer
+repo: pub/scm/linux/kernel/git/aegl/ras-tools
+user: aegl
 changes:
-  - ref: refs/heads/for-next
-    old: c45fc916c2b2cc2a0587659c18d6ceef9b7299be
-    new: 8aeb7b17f04ef40f620c763502e2b644c5c73efd
+  - ref: refs/heads/master
+    old: 2740eba4435937341bb7dc4719d1d108f459d8b6
+    new: 9262f4f291dc1511b5d8ba83ffa46e6b7bb944fc
     log: |
-         7ab72c597356be1e7f0f3d856e54ce78527f43c8 riscv: Make VM_WRITE imply VM_READ
-         9e2e6042a7ec6504fe8e366717afa2f40cf16488 riscv: Allow PROT_WRITE-only mmap()
-         8aeb7b17f04ef40f620c763502e2b644c5c73efd RISC-V: Make mmap() with PROT_WRITE imply PROT_READ
+         0fbd1d82f15b27d5fbe34afb63d6e7955d0fe050 einj_mem_uc: Add missing argument to error message
+         9262f4f291dc1511b5d8ba83ffa46e6b7bb944fc einj_mem_uc: Error return from mmap(2) is not NULL
          
