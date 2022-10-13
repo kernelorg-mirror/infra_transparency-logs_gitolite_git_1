@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2358484869253943340=="
+Content-Type: multipart/mixed; boundary="===============2945091551432322611=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/wbg/counter
-Date: Thu, 13 Oct 2022 14:35:15 -0000
-Message-Id: <166567171501.8378.17126598810272186502@gitolite.kernel.org>
+Date: Thu, 13 Oct 2022 14:40:09 -0000
+Message-Id: <166567200919.11617.5256709535018491870@gitolite.kernel.org>
 
---===============2358484869253943340==
+--===============2945091551432322611==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,30 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/wbg/counter
 user: wbg
 changes:
-  - ref: refs/heads/master
-    old: 568035b01cfb107af8d2e4bd2fb9aea22cf5b868
-    new: 4fe89d07dcc2804c8b562f6c7896a45643d34b2f
-    log: revlist-568035b01cfb-4fe89d07dcc2.txt
+  - ref: refs/heads/counter-next
+    old: bb980cb69381c570b72701398991100ac91079ec
+    new: 8ddf5c2d1fb0f36d97c466e4a5215c74583925f2
+    log: revlist-bb980cb69381-8ddf5c2d1fb0.txt
 
---===============2358484869253943340==
+--===============2945091551432322611==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-568035b01cfb-4fe89d07dcc2.txt
+Content-Disposition: attachment; filename=revlist-bb980cb69381-8ddf5c2d1fb0.txt
 
-7f41d52ced9e1b7ed4ff8e1ae9cacbf46b64e6db ARM: dts: at91: sama7g5ek: specify proper regulator output ranges
-617a0d9fe6867bf5b3b7272629cd780c27c877d9 ARM: dts: at91: sama5d27_wlsom1: don't keep ldo2 enabled all the time
-3d074b750d2b4c91962f10ea1df1c289ce0d3ce8 ARM: dts: at91: sama5d2_icp: don't keep vdd_other enabled all the time
-150f7b11cb59670a147e88580a604ce3c6845a88 media: uvcvideo: Fix InterfaceProtocol for Quanta camera
-58bfe7d8e31014d7ce246788df99c56e3cfe6c68 Revert "usb: add quirks for Lenovo OneLink+ Dock"
-b118509076b39cc5e616c0680312b5caaca535fe netfilter: remove nf_conntrack_helper sysctl and modparam toggles
-d047283a7034140ea5da759a494fd2274affdd46 netfilter: br_netfilter: Drop dst references before setting.
-475043fabe8c58fb18c32c7942d8754897bd11fa regulator: Fix qcom,spmi-regulator schema
-77972a36ecc4db7fc7c68f0e80714263c5f03f65 netfilter: nf_tables: clean up hook list when offload flags check fails
-518e26f11af2fe4f5bebf9a0351595d508c7077f gpio: pca953x: Add mutex_lock for regcache sync in PM
-3f5df3ac646e21a79a421ae4037c4ef0632bcaa9 perf metric: Return early if no CPU PMU table exists
-ceb4038472a4803e7046ed488b03d11551991514 USB: serial: cp210x: add Decagon UCA device id
-c0955bf957be4bead01fae1d791476260da7325d ethernet: rocker: fix sleep in atomic context bug in neigh_timer_handler
 814816d71e29934d0a76ee259b54c0b80c3b0e4a powerpc: Fix hard_irq_disable() with sanitizer
 8e83622ae7ca481c76c8fd9579877f6abae64ca2 USB: serial: ch341: fix lost character on LCR updates
 41ca302a697b64a3dab4676e01d0d11bb184737d USB: serial: ch341: fix disabled rx timer on older devices
@@ -1050,5 +1037,18 @@ e2062df704dea47efe16edcaa2316d7b5ecca64f i2c: davinci: fix PM disable depth imba
 febae48afe6063105a0fad83d8e12a6addda7c6a Merge tag 'perf-urgent-2022-10-02' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 a962b54e162c2977ff37905726cab29728380835 Merge tag 'i2c-for-6.0-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 4fe89d07dcc2804c8b562f6c7896a45643d34b2f Linux 6.0
+b981c7412ad386875d137d2ae097998a9639423a counter: Realign counter_comp comment block to 80 characters
+1858485fc42aa9eec6e0f7e92500b1834b8dacb0 MAINTAINERS: Update Counter subsystem git tree repo link
+9ecdb9cbfa89e4aff21253b5f6ec23ae503c0229 counter: Move symbols into COUNTER namespace
+dabb6c6d9383b60cfc05a58d91f5ba52bdc05dd4 counter: interrupt-cnt: Implement watch_validate callback
+4661adb0e52587bb51f4e4c1d05326aec1887b49 counter: Introduce the Signal polarity component
+bc787a04f1344695ee4130f3048e80b460554677 counter: 104-quad-8: Add Signal polarity component
+0e493d75fa2e42b96d6f28124108ae0e5b38dd08 counter: Introduce the Count capture component
+d3c212aa35d944ba30ee2f1f5a64ae6f33b4b0c3 counter: Consolidate Counter extension sysfs attribute creation
+c835de6a0d1282dbfaa73b296f32fae1bd41a015 counter: Introduce the COUNTER_COMP_ARRAY component type
+0a9fc5e1b86fc26f09cd5e730cbccfca3a4a5464 dt-bindings: counter: add ti,am62-ecap-capture.yaml
+5ab4e29e31359fab9181c92b71601060bc7b28d5 Documentation: ABI: sysfs-bus-counter: add frequency & num_overflows items
+f6d389d28bd561fa66fda6d3a9e86d4125603fe8 counter: ti-ecap-capture: capture driver support for ECAP
+8ddf5c2d1fb0f36d97c466e4a5215c74583925f2 MAINTAINERS: add TI ECAP driver info
 
---===============2358484869253943340==--
+--===============2945091551432322611==--
