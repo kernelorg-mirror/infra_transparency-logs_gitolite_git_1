@@ -1,52 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============6458289439598591699=="
+Content-Type: multipart/mixed; boundary="===============3290777298453659415=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
-Date: Thu, 13 Oct 2022 17:05:03 -0000
-Message-Id: <166568070393.20724.17444235394455120770@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/aegl/ras-tools
+Date: Thu, 13 Oct 2022 17:07:15 -0000
+Message-Id: <166568083562.21577.5256845297531715849@gitolite.kernel.org>
 
---===============6458289439598591699==
+--===============3290777298453659415==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ardb/linux
-user: ardb
+repo: pub/scm/linux/kernel/git/aegl/ras-tools
+user: aegl
 changes:
-  - ref: refs/heads/efi-zboot-direct
-    old: c4954c4853a50dbfefd1beb56d466ab612164ae2
-    new: bf1830a27c8d6916637f2df1d9ff68812fb25cf9
-    log: revlist-c4954c4853a5-bf1830a27c8d.txt
+  - ref: refs/heads/master
+    old: bd845af6ae49d614be3f5ed4c2915ac5c1ffbea7
+    new: 2740eba4435937341bb7dc4719d1d108f459d8b6
+    log: revlist-bd845af6ae49-2740eba44359.txt
 
---===============6458289439598591699==
+--===============3290777298453659415==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c4954c4853a5-bf1830a27c8d.txt
+Content-Disposition: attachment; filename=revlist-bd845af6ae49-2740eba44359.txt
 
-82108570c33a955afc70920caaa1b55884df60e9 arm64: kernel: move ID map out of .text mapping
-bc32be00703dddc4fcc19390d614d20d72c6e506 arm64: head: record the MMU state at primary entry
-b86a0185c7578e6e87661837bb77969a7b9254ce arm64: head: avoid cache invalidation when entering with the MMU on
-433db10a931bdc5f9cb5956b523c1d5be742ee3e arm64: head: clean the ID map page to the PoC
-1397b70a23934678c74b2097d07544b788289cac arm64: efi/libstub: enter with the MMU on
-73f72b9496ffb185acaf4ee2240ad309193c3c7b efi: libstub: Drop randomization of runtime memory map
-9769fe10b2cbdd06d75b624a6809fa84b72600dc efi: libstub: Drop handling of EFI properties table
-1a2ebc41516f4cc864d522d24cca3245c7c7a566 efi: libstub: Deduplicate ftrace command line argument filtering
-8351c96fbb706c6abe4e1f1f23fcac3c70302616 efi: libstub: Use local strncmp() implementation unconditionally
-9037a8fc74236ebff75ca862de31a42f2fe2567d efi: libstub: Clone memcmp() into the stub
-bb39d79ce8e061bd6ed56cce3c16e21c50a90c9e efi: libstub: Enable efi_printk() in zboot decompressor
-38a5129126dd2eaafc5bc6cdc9254ad75366babb efi: loongarch: Drop exports of unused string routines
-be6250756a33e63f312aae2b6e9e838ec218bdfb efi: libstub: Move screen_info handling to common code
-8e53cc8c11eef958f7c6fc3f4e900388f5e935f6 efi: libstub: Provide local implementations of strrchr() and memchr()
-5adc413c093edd9b39745cd0873aa44f4a799ad0 efi: libstub: Factor out EFI stub entrypoint into separate file
-d044fec06a36c12a2f039dd1cf2fc51ddbf12d1e efi: libstub: Add image size in memory to the image metadata
-4b3b139a4953e6eb3a345c81e6d148220d7866a9 efi: libstub: Factor out min alignment and preferred kernel load address
-557c44b5d9599f7277f8431d64bfbfffea763b43 efi/riscv: libstub: Split off kernel image relocation for builtin stub
-dbf9274bee27ebd8a6faf7b1a3bd279feeeaecd9 efi/arm64: libstub: Split off kernel image relocation for builtin stub
-b35a0bd26b032ace2feca76dcda647e18fe37cca efi/loongarch: Don't jump to kernel entry via the old image
-9695846a8c801211206cd13f72c712d96b347445 efi/loongarch: libstub: Split off kernel image relocation for builtin stub
-bf1830a27c8d6916637f2df1d9ff68812fb25cf9 efi: libstub: Merge zboot decompressor with the ordinary stub
+5813875f6df15d5f5bc6ab534196e8511c1f6c1b einj_mem_uc: surround arch dependent code with target arch macros
+fa48527470572391b7e8aa53960d91cfde5dc80e einj_mem_uc: add Sflag as condition when check configuration
+cb5e1bc7b56a54682765f8a8fac0e69a77231ca2 einj_mem_uc: check advanced RAS support by vendor id
+b7b70cc62fb9737eff82fc191b6a0391b3f93b94 einj_mem_uc: implement memcpy in assembly on Arm64
+9f1eadac8adb39918241865a53d624c32d6760d1 einj_mem_uc: explicitly print step when inject and trigger error
+449c7138938b5e0ade28e8db73bcdb1e6bd144e2 einj_mem_uc: add a z flag to trigger write with an offset
+adbf8b3f6959f0eefbf89c3cb6775c4782d58140 einj_mem_uc: add explicitly str, strb and strh case for Arm64
+051c9b4379e3ec45b9f5b52fe73a0acd9343ef42 einj_mem_uc: add a case to trigger LLC UCE on arm64
+49bded454d33278c1b40a73af04513fefc7da0d6 einj_mem_uc: add cases to inject processor error
+af0669f8305057bb415b56b02bea70c7cc45fef0 einj_mem_uc: add a case for hugetlb page
+00fac3288314f698d561a95d291b1f5c21bf72ed einj_mem_uc: add cases for platform specific
+cb000779db6e81845e3b19f24eea9ba53378bccb einj_mem_uc: Wait for injection to take effect before triggering
+a98884b2782ab8e3d0e4465fa3788f29be00f171 einj_mem_uc: trigger single with an offset
+31afc0db520db03fedaf6f207858ec26097adae8 einj_mem_uc: enhance sig action to explicitly print si_code
+fe4a436c9d33e388137ef8654f48dffa1ab0a765 add thread cases
+18bade659db463a167043b34d161095cd9bd6ba5 memattr: add a test suit to poison specific memory attribute
+eada934874aa845d92a2782c21d820ff27488060 ras-tolerance: overwrite error severity to a lower level at runtime
+7424ca7e42b45115462d8c9bfe89364c3ec33d2b Merge from https://gitee.com/anolis/ras-tools.git
+ae751087afe12f98c573581eb06ee0583245f5fd README: add a brief introduction of ras-tools
+2740eba4435937341bb7dc4719d1d108f459d8b6 Add LICENSE.
 
---===============6458289439598591699==--
+--===============3290777298453659415==--
