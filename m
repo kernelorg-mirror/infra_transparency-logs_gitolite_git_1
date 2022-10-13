@@ -1,58 +1,43 @@
-Content-Type: multipart/mixed; boundary="===============3322163138746199177=="
+Content-Type: multipart/mixed; boundary="===============4622018371521827794=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Thu, 13 Oct 2022 16:21:59 -0000
-Message-Id: <166567811909.19355.14893305545915907303@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Thu, 13 Oct 2022 16:24:21 -0000
+Message-Id: <166567826104.20260.13519943407705580759@gitolite.kernel.org>
 
---===============3322163138746199177==
+--===============4622018371521827794==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/broonie/misc
+user: broonie
 changes:
-  - ref: refs/heads/master
-    old: efee33baea14fc8decac78cc8657d638a5ff42c2
-    new: ea19bc31c011a9e0cc160b8a40e09b43fa46fd2c
-    log: |
-         3b3e60ba53e0a8aedcfb8165b8a1dbc7ea0bfdce 4.14-stable patches
-         22bc1f84c278ba62b3bd4aaa4d2640a7fbdc8398 4.19-stable patches
-         ea19bc31c011a9e0cc160b8a40e09b43fa46fd2c 5.4-stable patches
-         
+  - ref: refs/heads/arm64-nmi
+    old: 9ec80a1a3f4a9a76c31a5820985b342acc08695c
+    new: 422a4794b33f187a9feb6b33aef8a1d042cef518
+    log: revlist-9ec80a1a3f4a-422a4794b33f.txt
 
---===============3322163138746199177==
+--===============4622018371521827794==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-9ec80a1a3f4a-422a4794b33f.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1665678165 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1665678117-170ed16eac02500eca2d1d3b7df635bcd884f5a4
+a8e5e5146ad08d794c58252bab00b261045ef16d arm64: mte: Avoid setting PG_mte_tagged if no tags cleared or restored
+0e5d5ae837c8ce04d2ddb874ec5f920118bd9d31 arm64: Add AMPERE1 to the Spectre-BHB affected list
+6ef647c345d9c66f71254f07a681bc2b909dad0f arm64/booting: Document boot requirements for FEAT_NMI
+1dcb7e4dea157db9ff285455b7a2fcfb8d5e7667 arm64/sysreg: Add definition for ICC_NMIAR1_EL1
+3b3ee6061dfda74b4dfd6a69e1e1be373aa8514e arm64/sysreg: Add definition of ISR_EL1
+db6682cd80aadefad223de19c9cd9317266852bc arm64/sysreg: Add definitions for immediate versions of MSR ALLINT
+36ce62e99da790a43f5606f902ffe6c0feabe372 arm64/asm: Introduce assembly macros for managing ALLINT
+d68d745b91ff92840b8aeeaf2b4abfc56f492c86 arm64/hyp-stub: Enable access to ALLINT
+e2a5c200f4c5232b66acbd511040fb715dd95aea arm64/cpufeature: Detect PE support for NMIs
+aaf9f7bfd0cf959ad96d5001fb8074cbe43ddeb7 arm64/entry: Manage ALLINT.ALLINT when FEAT_NMI is active
+64d2810499f7d997f69f43aa8a55ddf3c4ce929e arm64/mm: Disable all interrupts while replacing TTBR1
+757e3a840f22875a6bc094497ae4c7412df2690a arm64/nmi: Add handling of superpriority interrupts as NMIs
+422a4794b33f187a9feb6b33aef8a1d042cef518 arm64/nmi: Add Kconfig for NMI
 
-efee33baea14fc8decac78cc8657d638a5ff42c2 ea19bc31c011a9e0cc160b8a40e09b43fa46fd2c refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmNIO1UbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+UrUQAKJKxXBNI1CQmFJTTrlS
-FviOEhIFuQdUekrN3ZAQkFpM9Rfts3jRS5xhKq27W8Azs8z0hJ7Obe1haqC2IWke
-gs+PYANPL/0t7jYxN8lwS4Jw2pURpovAl4jPCgswSD5dXsCwoQAOmtyQB2jP2VSD
-aaXbGu2Mt8x3xS53vUoCuAEvF6jkrTfjdp4IA76Bv3QrVSlWr7EfPUHmVxGT/teM
-1JW1jnmo4cSIMEcoX/WHGrP5Sbt66GzkgoIT4om9uy5IQJ9NdgabmLo8ROkpv1qq
-AMcquEDlew5PLRjvL8H4MI7M7kPxpr2p863PLvF3oCJeOBkKOnerPkNxsew79jzE
-epoXpx+GdAUD0IWRYtS4XJk6ULcfusyXOpY8AfC1POckAvFwxQpUWg/x2L83A79l
-cgBacKHR6ZfejKrCHc7xCGd9XRMVVl0gxMHXO5vTymayrHzeewPB5RfSdOPieXIE
-IJrcuhd4gldjwY/amonsCUy8A5IaXRErlEABUdeWDncPn+bkwO0vFNHQIeHfRO2Y
-T/DU94Cm80sGnPpb0z2892w/I0JO4RrKinW2+ww1PZWBf8Q/Rgph/vx21pwfjfZh
-1dY3EjWZVWgow7I+dVMVij3oX4Kcj0iByiBwl8SH9wZGqFyqE9y4gV3MGY3jBMXp
-Sy2A4MC4q7NUBSLuc9OSw5xl
-=QSJJ
------END PGP SIGNATURE-----
-
---===============3322163138746199177==--
+--===============4622018371521827794==--
