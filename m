@@ -1,61 +1,61 @@
-Content-Type: multipart/mixed; boundary="===============5655542501773590966=="
+Content-Type: multipart/mixed; boundary="===============8064919864102542244=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Thu, 13 Oct 2022 06:39:12 -0000
-Message-Id: <166564315274.12616.8997037649039013305@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Thu, 13 Oct 2022 06:41:25 -0000
+Message-Id: <166564328514.14924.2918784330724266302@gitolite.kernel.org>
 
---===============5655542501773590966==
+--===============8064919864102542244==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/tty
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-testing
-    old: 49da070062390094112b423ba443ea193527b2e4
-    new: a185a0995518a3355c8623c95c36aaaae489de10
-    log: revlist-49da07006239-a185a0995518.txt
+  - ref: refs/heads/readfile
+    old: abadae949a41b61ed7d0e84b22c32194cd3e3232
+    new: afed62505dbc330738f027e5ddddabd67a5ae3b7
+    log: revlist-abadae949a41-afed62505dbc.txt
 
---===============5655542501773590966==
+--===============8064919864102542244==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1665643199 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1665643151-b92559df53b58100dea64045e90d23969dcc2160
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1665643328 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1665643279-302100e433d6bd0b14104fc14a500c3ba489baf7
 
-49da070062390094112b423ba443ea193527b2e4 a185a0995518a3355c8623c95c36aaaae489de10 refs/heads/tty-testing
+abadae949a41b61ed7d0e84b22c32194cd3e3232 afed62505dbc330738f027e5ddddabd67a5ae3b7 refs/heads/readfile
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmNHsr8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ZI0QAIaNy809bK99rzYJr0nR
-gV5XOLrJvuFXcoRKxgnzaj5HM8ypKJonhAtvTIa4mDEBbi6PCTV1eVf9/7TtoHMG
-ZNMJFBHEfkbMxqmp+XBGmK4i9PPR66hdvgnetsWAR0ZeDek5960rFC2fBVNCEXdj
-KofO3tsxsV8yhFAVFzZDug33c0hKTpgt++DEKTuhfgzqrp+gaIgSltdqDmG8r4Dr
-iuGTfc4v3ZcY39y6WKzM2IA0J4ZthygD3cmYubDyrR12oVN62DxtKiZQr2aWTX/s
-2W69ambpqOWaA23Zhhw9ZJOV5+wdmFBvD+WwDVf/y+i4Xe8jH6WJF9IRA6gseCrK
-QXIHa9dqHPtl6IiUb3Ceg4fJAINUYKjLjCR5iq6+b9GXtMF6wCmdZGfIO24BvAGd
-QvNMvJcekYGaQjGwNhZUcrDbgoV5BRZg9zPTQ83mOdTY5YEK2nA14xRdLmiYGfdM
-kBIbqkDgy0HJdIgRf5uppReRLBJPsdo+iYL6+F2jBN1/Hl1OHGO3lDT8ldTLFM/7
-cJczSPVkMXZaOyJL9m0HioRTl+dzZJfaTu7Tq6JCJGWn+FuxHAWNZbidwmX5TdlV
-Bi76Wwe24tDEd84wNQWy5WeQY//KjVYi3x4EXf88f8ROkZq0U7zkPNHGwE4iAzF+
-JKIkWV0wgwiLymGlTWDBUa4x
-=vaYs
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmNHs0EbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ghkP/0i/BPtUV20DyPdw/zmf
+UQXJWpqLc/3DrX5JJAgj6Lz6uiaHLgD4NJFpSObOIAU3mDvtDcwriSqSpuKfcfD5
+GXkbq5/0RwPV5ka+EKIxpPzuRaCUPV9CrUmN3uUxNs5cD1kHva1mcAB3Gclq8pK7
+fn7F7LPAfDvGQP5AkQcvkM1sazoJC/CPbiLqw/C5wZ5qpWN1ZTwKQiTxPzRcCo1R
+Gj4QCPTX5Jo9IdRhFZmR/zw9Q6hewi01x7FRvPb2yPmgsksEUYDdYzFZWHm8ZIX8
+WBpWF1NSR/V5DGAQxM8s4uvz9IoIW32t7BJajBD3dAWSd5y8lL4L0BwP/C2pXWWo
+K3MGAbN5uvLBEkDV4AVYlGR4Jxf9eGPql3QV14D7/r4O9pJdZUw287cukNQDh8Q5
+t5lVUVQfa5uYhjFOHcN3hNcB60ZxUeQv9uvRqJ9Ap97UayQhhFV7rsrOsYuJEgoU
+P0N8dVjOPcdG9GZTZLOL9A004jkFUfXj2o9CeSiuYvsw0auUuIgNhCIpnqV7xNKD
+SEVOeWsMBKSCzRgml5svm3K43+tjLVDynXVwXo1qv/iqvFM05D2pXylnSmIPXQmH
+VvnaKdgM4T7//yDF6j2hwHsGcFFR8DexPlCn+1PJ3M7pCYDCHFRCK9S4rDqAtAh8
+yXP+iFWS/Mo3TN8o9N9WU/S1
+=IUWD
 -----END PGP SIGNATURE-----
 
---===============5655542501773590966==
+--===============8064919864102542244==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-49da07006239-a185a0995518.txt
+Content-Disposition: attachment; filename=revlist-abadae949a41-afed62505dbc.txt
 
 e34a0425b8ef524355811e7408dc1d53d08dc538 vfio/pci: Split linux/vfio_pci_core.h
 1e979ef5df8b7b604a625343a179b812a7984068 vfio/pci: Rename vfio_pci_register_dev_region()
@@ -301,5 +301,9 @@ dea2df3cc72555633cc7858ce1daa4b757f843ad LoongArch: Add SysRq-x (TLB Dump) suppo
 d3cf40513330752238ae585fdb0e46ec6baa588b Merge tag 'vfio-v6.1-rc1' of https://github.com/awilliam/linux-vfio
 661e00960f072a63bb956836e65f2ce3a1ca8793 Merge tag 'linux-kselftest-next-6.1-rc1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
 a185a0995518a3355c8623c95c36aaaae489de10 Merge tag 'linux-kselftest-kunit-6.1-rc1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
+fdc66f1676f99a063e1f78bdc0a2d5004d2d9cf1 readfile: implement readfile syscall
+4b716690f4e02c97781dbd2fadd822e111f50841 arch: wire up the readfile syscall
+148fe05649b509b9d9a6df2094eeae73c2ac7daa selftests: add readfile(2) selftests
+afed62505dbc330738f027e5ddddabd67a5ae3b7 readfile.2: new page describing readfile(2)
 
---===============5655542501773590966==--
+--===============8064919864102542244==--
