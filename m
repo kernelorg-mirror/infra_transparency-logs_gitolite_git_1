@@ -1,50 +1,39 @@
-Content-Type: multipart/mixed; boundary="===============1886573282832056689=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Thu, 13 Oct 2022 13:41:08 -0000
-Message-Id: <166566846834.1926.5945586419402035459@gitolite.kernel.org>
-
---===============1886573282832056689==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Thu, 13 Oct 2022 13:41:21 -0000
+Message-Id: <166566848174.2078.16116792703150151612@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.1
-    old: 5302e1ff315b40dfc9bb3f08911f5a788cc1de01
-    new: 6a43cd02ddbc597dc9a1f82c1e433f871a2f6f06
+  - ref: refs/heads/for-linus
+    old: 57f7497e24a5b7fe0869d3c89f4251ebb9ecbedc
+    new: 7ce4b03eadf041367e839421edea1d10045bbbe2
     log: |
-         6a43cd02ddbc597dc9a1f82c1e433f871a2f6f06 spi: intel: Fix the offset to get the 64K erase opcode
+         de71d7567e358effd06dfc3e2a154b25f1331c10 ASoC: wm5102: Revert "ASoC: wm5102: Fix PM disable depth imbalance in wm5102_probe"
+         7d4e966f4cd73ff69bf06934e8e14a33fb7ef447 ASoC: wm5110: Revert "ASoC: wm5110: Fix PM disable depth imbalance in wm5110_probe"
+         68ce83e3bb26feba0fcdd59667fde942b3a600a1 ASoC: wm8997: Revert "ASoC: wm8997: Fix PM disable depth imbalance in wm8997_probe"
+         551f2994b8ccdbe296e239278531e345d6e94d4d ASoC: codec: tlv320adc3xxx: add GPIOLIB dependency
+         c4ab29b0f3a6f1e167c5a627f7cd036c1d2b7d65 ASoC: mt6660: Keep the pm_runtime enables before component stuff in mt6660_i2c_probe
+         29eb79a9a6283d661ea1f70ab012809fdbf057a7 ASoC: cx2072x: fix spelling typo in comment
+         25e06831eb6f8903714f80c61f6c15352d77b07b ASoC: wmxxxx: Revert old "ASoC: wmxxxx: Fix PM disable depth imbalance in wmxxxx_probe"
+         7ce4b03eadf041367e839421edea1d10045bbbe2 Merge remote-tracking branch 'asoc/for-6.0' into asoc-linus
          
-
---===============1886573282832056689==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1665668466 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1665668466-57f5855e3c27105ce5915ea551a129d574660973
-
-5302e1ff315b40dfc9bb3f08911f5a788cc1de01 6a43cd02ddbc597dc9a1f82c1e433f871a2f6f06 refs/heads/for-6.1
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmNIFXIACgkQJNaLcl1U
-h9DQhAf/VkqTZHbLNe+2bTiTjDvBsXBV6iGT5jR2cPXBgXj/nTSxdAzuREZnVBMp
-6/M4uiQE7TxHYFdeBRbT/U0iOrob77FzMLIrli9Pro8cpmIFUYRZfk2iduAKGFD4
-2v8aq+hWp6sf6RoK6yHAsY99UuXwsdTmEk+7nyUayRQM5kyfkH2ip4gFOJFLJWMY
-DdI0CFDBGX2ep9flYHiuCKCdNcSvpkDbwUxLcgKDyaI2xBODCQjmoaF7U8Gq81hb
-mI7CCImYnPCD/zCYwQrMAJfL8lIxHJ7726C48S9lRPdFzxjCdzx/3L2/gWiNW8lZ
-4xIvdDQcOqR0R0CmroDHDnpUUjk8tg==
-=TuwJ
------END PGP SIGNATURE-----
-
---===============1886573282832056689==--
+  - ref: refs/heads/for-next
+    old: 57f7497e24a5b7fe0869d3c89f4251ebb9ecbedc
+    new: 7ce4b03eadf041367e839421edea1d10045bbbe2
+    log: |
+         de71d7567e358effd06dfc3e2a154b25f1331c10 ASoC: wm5102: Revert "ASoC: wm5102: Fix PM disable depth imbalance in wm5102_probe"
+         7d4e966f4cd73ff69bf06934e8e14a33fb7ef447 ASoC: wm5110: Revert "ASoC: wm5110: Fix PM disable depth imbalance in wm5110_probe"
+         68ce83e3bb26feba0fcdd59667fde942b3a600a1 ASoC: wm8997: Revert "ASoC: wm8997: Fix PM disable depth imbalance in wm8997_probe"
+         551f2994b8ccdbe296e239278531e345d6e94d4d ASoC: codec: tlv320adc3xxx: add GPIOLIB dependency
+         c4ab29b0f3a6f1e167c5a627f7cd036c1d2b7d65 ASoC: mt6660: Keep the pm_runtime enables before component stuff in mt6660_i2c_probe
+         29eb79a9a6283d661ea1f70ab012809fdbf057a7 ASoC: cx2072x: fix spelling typo in comment
+         25e06831eb6f8903714f80c61f6c15352d77b07b ASoC: wmxxxx: Revert old "ASoC: wmxxxx: Fix PM disable depth imbalance in wmxxxx_probe"
+         7ce4b03eadf041367e839421edea1d10045bbbe2 Merge remote-tracking branch 'asoc/for-6.0' into asoc-linus
+         
