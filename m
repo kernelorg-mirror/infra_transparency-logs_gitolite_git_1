@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1415387253891190253=="
+Content-Type: multipart/mixed; boundary="===============8658788009456597819=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Thu, 13 Oct 2022 09:30:29 -0000
-Message-Id: <166565342946.6052.5896533971419769793@gitolite.kernel.org>
+Date: Thu, 13 Oct 2022 09:30:40 -0000
+Message-Id: <166565344044.6163.5736481771979922897@gitolite.kernel.org>
 
---===============1415387253891190253==
+--===============8658788009456597819==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,29 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/perf/core
-    old: 82aad7ff7ac25c8cf09d491ae23b9823f1901486
-    new: a7560340a5a83514ad5117aec2c770956e1813f3
-    log: revlist-82aad7ff7ac2-a7560340a5a8.txt
+  - ref: refs/heads/sched/core
+    old: fdf756f7127185eeffe00e918e66dfee797f3625
+    new: e7c69e86e29590d8bacd63595f3a687d97288ccc
+    log: revlist-fdf756f71271-e7c69e86e295.txt
 
---===============1415387253891190253==
+--===============8658788009456597819==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-82aad7ff7ac2-a7560340a5a8.txt
+Content-Disposition: attachment; filename=revlist-fdf756f71271-e7c69e86e295.txt
 
-cb691e2f28bc63b1a872aa593dd542ee796e8364 mm: remove lookup_swap_cache()
-aedd74d4397a2b1a4882215b6169b47d139c0319 swap_state: convert free_swap_cache() to use a folio
-71fa1a533d2e027a3df98fd065605bebab42d7bf swap: convert swap_writepage() to use a folio
-e4a2ed94908cc0104b8826ed8d831661ed1c3ea1 mm: convert do_wp_page() to use a folio
-2fad3d14b9ebc8e42977bfb34a8165bb61a7c3f7 huge_memory: convert do_huge_pmd_wp_page() to use a folio
-98b211d6415f9538b81e50da71f09d195ce2afe6 madvise: convert madvise_free_pte_range() to use a folio
-5fcd079af9ed4e69cca0a2f77c6255d0eb8a8cca uprobes: use folios more widely in __replace_page()
-b4e6f66e45b43aed0903731b6c0700573f88282a ksm: use a folio in replace_page()
-a160e5377b55bc5c1925a7456b656aabfc07261f mm: convert do_swap_page() to use folio_free_swap()
-9202d527b715f67bcdccbb9b712b65fe053f8109 memcg: convert mem_cgroup_swap_full() to take a folio
-3b344157c0c15b8f9588e3021dfb22ee25f4508a mm: remove try_to_free_swap()
-595af4c9368aba88c45831ef80ed686b602fe3fe rmap: convert page_move_anon_rmap() to use a folio
 682a71a1b6b363bff71440f4eca6498f827a839d migrate: convert __unmap_and_move() to use folios
 c33db29231ad242b0c381c60b1603f5e1dec7e46 migrate: convert unmap_and_move_huge_page() to use folios
 3e9a13daa61253e28a1c7d8f366931e0a58a2b5a huge_memory: convert split_huge_page_to_list() to use a folio
@@ -380,6 +368,9 @@ e19d4ebc536dadb607fe305fdaf48218d3e32d7c alpha: add full ioread64/iowrite64 impl
 823f606ab6b4759a1faf0388abcf4fb0776710d2 ARM: 9242/1: kasan: Only map modules if CONFIG_KASAN_VMALLOC=n
 afd1efa1d80162cd48bacb3b848136249df28c62 ARM: 9245/1: dump: show FDT region
 e66372ecb80dc5179c7abb880229c7452e813d15 ARM: 9246/1: dump: show page table level name
+0ce38047e82a02017839b6cae837f13a1383a3a0 perf: Fix lockdep_assert_event_ctx()
+7be51cc1c68dfa180ef84e71bcb4204237bb5620 perf: Fix pmu_filter_match()
+82aad7ff7ac25c8cf09d491ae23b9823f1901486 perf/hw_breakpoint: Annotate tsk->perf_event_mutex vs ctx->mutex
 8012243e62b5e13bded3ce8a3b69d28f8ea694fe perf inject: Add a command line option to specify build ids.
 709533e51b166d5a520589a03f0044ed304b33bd tools build: Fix feature detection output due to eval expansion
 74da7697a2ab988e3889ba4db78992a0944ea83d tools build: Increment room for feature name in feature detection output
@@ -1044,11 +1035,20 @@ dea2df3cc72555633cc7858ce1daa4b757f843ad LoongArch: Add SysRq-x (TLB Dump) suppo
 d3cf40513330752238ae585fdb0e46ec6baa588b Merge tag 'vfio-v6.1-rc1' of https://github.com/awilliam/linux-vfio
 661e00960f072a63bb956836e65f2ce3a1ca8793 Merge tag 'linux-kselftest-next-6.1-rc1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
 a185a0995518a3355c8623c95c36aaaae489de10 Merge tag 'linux-kselftest-kunit-6.1-rc1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
-f570daf3ac5beb6c0bfa4c3acd2a2d5fb868ba95 perf: Fix missing SIGTRAPs
-6ac17d0e310dcd2dfcabd6e546e81af9325f7e5a selftests/perf_events: Add a SIGTRAP stress test with disables
-19e4458f683ab4f66dcd94a6f3e2d49b168058f4 bpf: fix sample_flags for bpf_perf_event_output
-d951cbbff6f14d1472342d59ea051d15bd232044 x86/perf: Fixed kernel panic during boot on Nano processor.
-aab8cdf010eb30b0214da37cb770b4f965637a97 perf: Rewrite core context handling
-a7560340a5a83514ad5117aec2c770956e1813f3 perf: Optimize perf_tp_event()
+bc10b830921c24900af8f5168c3acfc51f75a8a7 sched/uclamp: Fix relationship between uclamp and migration margin
+36dbac97d4aecc216122a4aeb0dd7dc2b269a963 sched/uclamp: Make task_fits_capacity() use util_fits_cpu()
+e32b44372870b7bc1fa620f42ac63ded7c4b32cd sched/uclamp: Fix fits_capacity() check in feec()
+c641dbb9ebae85ec83ad1c1ccfef9b5133e3d43c sched/uclamp: Make select_idle_capacity() use util_fits_cpu()
+c6539044f98402d9f9896b31621ec7dfc4cebf03 sched/uclamp: Make asym_fits_capacity() use util_fits_cpu()
+6d190368398c78fe45765db9d82f4250de85a0da sched/uclamp: Make cpu_overutilized() use util_fits_cpu()
+64f486e63abacb4dafe149316f5b07b2fac91f1f sched/uclamp: Cater for uclamp in find_energy_efficient_cpu()'s early exit condition
+7a85e38e931926f9e427f2a6e0bcc74aa91f57a4 sched/fair: Detect capacity inversion
+ad8acacce27cd62641c6d8227fb252927775d597 sched/fair: Consider capacity inversion in util_fits_cpu()
+9d387fbee9b55ecbe04265e0603a9645b80eff97 sched/fair: Check if prev_cpu has highest spare cap in feec()
+7aea41aa014739b1376bdd448a0e54ae080e73ab sched: Add __releases annotations to affine_move_task()
+132f1018fd25848c95f1118732002f8c5af74d99 sched: Introduce affinity_context
+2ea4918e4eb72b178a415b6ad38eb068b7f22290 sched: Always preserve the user requested cpumask
+ecf44ad8a0325439035003643fd11725147fae18 sched: Enforce user requested affinity
+e7c69e86e29590d8bacd63595f3a687d97288ccc sched: Always clear user_cpus_ptr in do_set_cpus_allowed()
 
---===============1415387253891190253==--
+--===============8658788009456597819==--
