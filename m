@@ -1,57 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============4590048172997504836=="
+Content-Type: multipart/mixed; boundary="===============5310171223298935758=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Thu, 13 Oct 2022 06:37:15 -0000
-Message-Id: <166564303538.11448.3638130390670268176@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
+Date: Thu, 13 Oct 2022 06:37:18 -0000
+Message-Id: <166564303836.11552.4171441420311005788@gitolite.kernel.org>
 
---===============4590048172997504836==
+--===============5310171223298935758==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/driver-core
+repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-testing
+  - ref: refs/heads/staging-testing
     old: 49da070062390094112b423ba443ea193527b2e4
     new: a185a0995518a3355c8623c95c36aaaae489de10
     log: revlist-49da07006239-a185a0995518.txt
 
---===============4590048172997504836==
+--===============5310171223298935758==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1665643081 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1665643034-b6171a8cb3114302648153d29effedb21bbc57ed
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1665643084 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
+nonce 1665643037-a220da668e97cc8d3a0f01284802e30cbf0efff3
 
-49da070062390094112b423ba443ea193527b2e4 a185a0995518a3355c8623c95c36aaaae489de10 refs/heads/driver-core-testing
+49da070062390094112b423ba443ea193527b2e4 a185a0995518a3355c8623c95c36aaaae489de10 refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmNHskkbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+C+EQALzPTXd9TkP/EeA9X7fD
-0ONEw2c3d2/BUxqoEinY1WKt5e1Qni0QktLJeFgKvyEQ28eRMOA/cmIa+8NRXtcp
-qqdg4VKoR7fPEwmIfFCbGrN9slHUloh0HQlrZMMmDxPUHFhyu+OIg4K1hTZX/UDb
-GxIlNthaaYaRTsmZqVunA7fiVkq0cQJuBmo+GQcLeuyE46ekntalaxlBIXAiFjV5
-/h3nMR6WvNdV82zxSxTJ8k05jPoxnUpLLmYiaOWr7Stayn2QWTtgCVIVIIgg1kcV
-zX8qpPoZDZCg+Ns9ak6sEeAKMtIWR7RMlW954ip8Um+2SBbzGX8vfWkSauQN91Tl
-SVb8eMar+3IujT9FY2ahOzy8+mj14Gqx430ceLhg9iVBnbM6tWOjtTTCJ+SeOn8O
-i/vTjeHXVaYuXPW7rX6YAIxJeORDGzMwSpAcHWrMBcI3Iy859VeRw3L2uoFy1/cr
-RtteSi4tRWkXhvaxTG/A1uTxlx4xwJ5rvXLhv5auR51HkUos+QIXn+sE9wub02SJ
-Nlq23dhNHLnVc2rtw5R+rwugubPGEgM5Xj3bM/l7TZi/BOD7nbi2CZLOY/upKxsv
-BmBgEe+z3PAe9+MKiXepNpZm8E86OlCrgz2+MzyLE3AyUdEvU6QpNXqIV/X1uDdx
-9dIxBFWF+4y68oOD7KXOcBK8
-=TAWY
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmNHskwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+/I8QAKHTGJEYd/devatzH9aZ
+fogHR83xoyfXH31YVLq4cTYfjPmV8fAKbUtpqWKJeH3G54vpxYrn42XwTQnA/8Ks
+E1f1deNq5CxOljb9dePWJ1OAueUd4eog1At170CbHmDu6FkYDKE7BHHXr/94ij+K
+/vjOqvfLW7zt+psRhziRsulIWTHJMryY1zJZ8GuRRirfe9b7qa0bwYJ/PUfiAABP
+8DXIEFS5eZwLfKTLpCIp+XhAuXwlWQvenu0vO0htvNpvsDLOLlTq6x8NUJCvEluP
+DqcKLklXInGo2AI6Zi+T067nvQ+JPLDZSd0AOX2BJa++pcdKjqoCApGlO4FsOc0B
+fYvzShpIypThJBv+Km95ROPECrc5RoY55V3Jq/MrLs7fiy1wnUH08k0LgW62lE3/
+FLxXbpiM9qEkF8ukFEWFZKnwv2iwtx2cH5TOG2tDrEm1N9gaSAgRmaUcyYUmaJaG
+uHdrHtmqfa/LGnSp/ghjIutWPpEn/8ZM6SeCssJ1E8rnSDXEBULdbsidE7Rl65BD
++q5a9fkSDHL4QAzuSLhTQPZbOXe5NcyP8QhK2ApvVd8eH9BZuttrjrheN3Xf2ikR
+xQ+UCX0LimSRMu8F0mIWP6JvELrrzlQ4xYtbcsmUh8oCs8GJPDb+xF25VfKtQd/x
+KMrAwKk3ZXZM/fzoHDk1ukZP
+=lGYE
 -----END PGP SIGNATURE-----
 
---===============4590048172997504836==
+--===============5310171223298935758==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -302,4 +302,4 @@ d3cf40513330752238ae585fdb0e46ec6baa588b Merge tag 'vfio-v6.1-rc1' of https://gi
 661e00960f072a63bb956836e65f2ce3a1ca8793 Merge tag 'linux-kselftest-next-6.1-rc1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
 a185a0995518a3355c8623c95c36aaaae489de10 Merge tag 'linux-kselftest-kunit-6.1-rc1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
 
---===============4590048172997504836==--
+--===============5310171223298935758==--
