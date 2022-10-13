@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Thu, 13 Oct 2022 22:47:56 -0000
-Message-Id: <166570127625.7423.17592669692980972060@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
+Date: Thu, 13 Oct 2022 23:03:12 -0000
+Message-Id: <166570219206.18793.2908844175107172835@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damon-hack
+repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/master
-    old: 0000000000000000000000000000000000000000
-    new: e7735fac864199d3197c4c32c95d2c7abe8344f2
+  - ref: refs/heads/damon/hack
+    old: 0a37d218846652fff614e3f6132d50507b5535d8
+    new: 0000000000000000000000000000000000000000
