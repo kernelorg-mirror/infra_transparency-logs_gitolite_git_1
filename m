@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0997169464174056852=="
+Content-Type: multipart/mixed; boundary="===============1017755028987891232=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Thu, 13 Oct 2022 15:09:54 -0000
-Message-Id: <166567379410.31808.594781887936897644@gitolite.kernel.org>
+Date: Thu, 13 Oct 2022 15:10:05 -0000
+Message-Id: <166567380592.1051.3952270697429489670@gitolite.kernel.org>
 
---===============0997169464174056852==
+--===============1017755028987891232==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,18 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/perf/urgent
-    old: 6b959ba22d34ca793ffdb15b5715457c78e38b1a
-    new: 6cb471cb508774d232ac20b08d28e07c2b00464d
-    log: revlist-6b959ba22d34-6cb471cb5087.txt
+  - ref: refs/heads/perf/core
+    old: 82aad7ff7ac25c8cf09d491ae23b9823f1901486
+    new: 58e0ce2b4cb044dc4264013ea76488ceaa6fe562
+    log: revlist-82aad7ff7ac2-58e0ce2b4cb0.txt
 
---===============0997169464174056852==
+--===============1017755028987891232==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-6b959ba22d34-6cb471cb5087.txt
+Content-Disposition: attachment; filename=revlist-82aad7ff7ac2-58e0ce2b4cb0.txt
 
+5a423081b2465d38baf2fcbbc19f77d211507061 mm: convert do_swap_page() to use swap_cache_get_folio()
 cb691e2f28bc63b1a872aa593dd542ee796e8364 mm: remove lookup_swap_cache()
 aedd74d4397a2b1a4882215b6169b47d139c0319 swap_state: convert free_swap_cache() to use a folio
 71fa1a533d2e027a3df98fd065605bebab42d7bf swap: convert swap_writepage() to use a folio
@@ -380,9 +381,6 @@ e19d4ebc536dadb607fe305fdaf48218d3e32d7c alpha: add full ioread64/iowrite64 impl
 823f606ab6b4759a1faf0388abcf4fb0776710d2 ARM: 9242/1: kasan: Only map modules if CONFIG_KASAN_VMALLOC=n
 afd1efa1d80162cd48bacb3b848136249df28c62 ARM: 9245/1: dump: show FDT region
 e66372ecb80dc5179c7abb880229c7452e813d15 ARM: 9246/1: dump: show page table level name
-0ce38047e82a02017839b6cae837f13a1383a3a0 perf: Fix lockdep_assert_event_ctx()
-7be51cc1c68dfa180ef84e71bcb4204237bb5620 perf: Fix pmu_filter_match()
-82aad7ff7ac25c8cf09d491ae23b9823f1901486 perf/hw_breakpoint: Annotate tsk->perf_event_mutex vs ctx->mutex
 8012243e62b5e13bded3ce8a3b69d28f8ea694fe perf inject: Add a command line option to specify build ids.
 709533e51b166d5a520589a03f0044ed304b33bd tools build: Fix feature detection output due to eval expansion
 74da7697a2ab988e3889ba4db78992a0944ea83d tools build: Increment room for feature name in feature detection output
@@ -1050,5 +1048,7 @@ a185a0995518a3355c8623c95c36aaaae489de10 Merge tag 'linux-kselftest-kunit-6.1-rc
 8d4e55f749734867da9e5a35e6a53240e27fab08 perf: Fix missing SIGTRAPs
 29bf37bbe39b66801ebac3dc51170d1d86d58825 selftests/perf_events: Add a SIGTRAP stress test with disables
 6cb471cb508774d232ac20b08d28e07c2b00464d bpf: fix sample_flags for bpf_perf_event_output
+894f9b3252186ae6b75cca50803b2779faca2da4 perf: Rewrite core context handling
+58e0ce2b4cb044dc4264013ea76488ceaa6fe562 perf: Optimize perf_tp_event()
 
---===============0997169464174056852==--
+--===============1017755028987891232==--
