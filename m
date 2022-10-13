@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6581697086908070871=="
+Content-Type: multipart/mixed; boundary="===============7448844576508065366=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Thu, 13 Oct 2022 16:32:24 -0000
-Message-Id: <166567874465.28904.7410198729808566933@gitolite.kernel.org>
+Date: Thu, 13 Oct 2022 16:35:16 -0000
+Message-Id: <166567891659.31585.5295047566505187206@gitolite.kernel.org>
 
---===============6581697086908070871==
+--===============7448844576508065366==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,324 +16,327 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: bot-stable-queue
 changes:
   - ref: refs/heads/queue/4.14
-    old: 8c344ed0acebfac260e6787a6a255e7cb168174d
-    new: 28cb4d7acdb4255fb247fc435aa95fd29a76e58e
-    log: revlist-8c344ed0aceb-28cb4d7acdb4.txt
+    old: 28cb4d7acdb4255fb247fc435aa95fd29a76e58e
+    new: 8018f335213682511b9ad047671430637e6c5377
+    log: revlist-28cb4d7acdb4-8018f3352136.txt
   - ref: refs/heads/queue/4.19
-    old: c90d2890eaac3f480cf1d36b2d0c7c1c37e0ab87
-    new: e3f8c4976f195061473e8bf86fa4a80f57a42f47
-    log: revlist-c90d2890eaac-e3f8c4976f19.txt
+    old: e3f8c4976f195061473e8bf86fa4a80f57a42f47
+    new: 4704fa4f92cf784b8eea6ab00c0ab3942d760829
+    log: revlist-e3f8c4976f19-4704fa4f92cf.txt
   - ref: refs/heads/queue/4.9
-    old: 48b7d38a1a22bce3d2a26ccd6f00c8fab3da2877
-    new: 0f782f2fdfe4cc01106ed3aa7323099370d78b70
-    log: revlist-48b7d38a1a22-0f782f2fdfe4.txt
+    old: 0f782f2fdfe4cc01106ed3aa7323099370d78b70
+    new: c10935bbba7d672435972802d57f0ff66c47982e
+    log: revlist-0f782f2fdfe4-c10935bbba7d.txt
   - ref: refs/heads/queue/5.10
-    old: f19875a351fd1b25119d6f38ec12332f85549805
-    new: 3eb53a15b771b8e551045942b66981ddeac2bf93
-    log: revlist-f19875a351fd-3eb53a15b771.txt
+    old: 3eb53a15b771b8e551045942b66981ddeac2bf93
+    new: bc5872956b4934f135447a21e2cda396df04f3a1
+    log: revlist-3eb53a15b771-bc5872956b49.txt
   - ref: refs/heads/queue/5.15
-    old: 624e7891af08a5b5ad16cf6dcd44fde88217e901
-    new: 147d2503ded132efe7172c4e6a51705389581cac
-    log: revlist-624e7891af08-147d2503ded1.txt
+    old: 147d2503ded132efe7172c4e6a51705389581cac
+    new: 5d618b6bc5437d822e6004bca32766df4e39f409
+    log: revlist-147d2503ded1-5d618b6bc543.txt
   - ref: refs/heads/queue/5.19
-    old: 32bdd664763dfa94b942e50d148d6c75bd5a3131
-    new: 1347231f47ea63273ad21ad811baf50cfff3e233
-    log: revlist-32bdd664763d-1347231f47ea.txt
+    old: 1347231f47ea63273ad21ad811baf50cfff3e233
+    new: d04433f8b04c022ad6590286e568b97c10e65e6c
+    log: revlist-1347231f47ea-d04433f8b04c.txt
   - ref: refs/heads/queue/5.4
-    old: 022975c6e23e61d08b9b27aba329ea217f328552
-    new: caa2ade3b2bf0d94d18b457530b66f4bfe9205cd
-    log: revlist-022975c6e23e-caa2ade3b2bf.txt
+    old: caa2ade3b2bf0d94d18b457530b66f4bfe9205cd
+    new: ad5c8b0b2ec7b28a82d9ad785874c3537f9a7700
+    log: revlist-caa2ade3b2bf-ad5c8b0b2ec7.txt
   - ref: refs/heads/queue/6.0
-    old: 5a0a98fe77e4fe3361d63e04e9acd6e9942ee3d7
-    new: 1f020b0ffd08f9e414242caff3b671c15ed5c6d9
-    log: revlist-5a0a98fe77e4-1f020b0ffd08.txt
+    old: 1f020b0ffd08f9e414242caff3b671c15ed5c6d9
+    new: 644568c044bb907aab873e1a2cb6b58e8838fa69
+    log: revlist-1f020b0ffd08-644568c044bb.txt
 
---===============6581697086908070871==
+--===============7448844576508065366==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8c344ed0aceb-28cb4d7acdb4.txt
+Content-Disposition: attachment; filename=revlist-28cb4d7acdb4-8018f3352136.txt
 
-73cdb6d0b5d293c3dc9f4028685022c539b1ec46 uas: add no-uas quirk for Hiksemi usb_disk
-f0c210deb3e9702d44fa1e23fa0b8b402ef820df usb-storage: Add Hiksemi USB3-FW to IGNORE_UAS
-09aaf32fc4ccfe8837e8e58dcb10b7c1a292ec41 uas: ignore UAS for Thinkplus chips
-2155d087d53996226ed50e7f97691f09e8972b95 net: usb: qmi_wwan: Add new usb-id for Dell branded EM7455
-d579796863db05a61fe6ffaca6d602d68359fdeb ntfs: fix BUG_ON in ntfs_lookup_inode_by_name()
-9de9e56e8f1af0040738a32a57e528a72d6f7eb4 mmc: moxart: fix 4-bit bus width and remove 8-bit bus width
-5b3d9fe2a076a9f45f1c06ea6d8357e4b248ece8 mm/page_alloc: fix race condition between build_all_zonelists and page allocation
-0a6de1af95f09f1687fcec13b6a19d90064a8c2e mm: prevent page_frag_alloc() from corrupting the memory
-d2bd3f6e81cd52ce13e91b048430681720a2e34d mm/migrate_device.c: flush TLB while holding PTL
-deabf6e516e59160d22fff07ed09819aa943be66 soc: sunxi: sram: Actually claim SRAM regions
-997c532e416b0eae41545260fcf0909b6f2e80d8 soc: sunxi: sram: Fix debugfs info for A64 SRAM C
-fc557ec90752084d4bc9fbe7cff44eb19561468c Revert "drm: bridge: analogix/dp: add panel prepare/unprepare in suspend/resume time"
-e71d64e43ed788880b860aaef03383c0f1a8d302 Input: melfas_mip4 - fix return value check in mip4_probe()
-42de06065488d1b48c91661c35c71097389c8e20 usbnet: Fix memory leak in usbnet_disconnect()
-5db664f5fc085bbecfda82ed8915c899ac3ca308 nvme: add new line after variable declatation
-c84c1c051f12a6c8281bf7788acde130668e3c28 nvme: Fix IOC_PR_CLEAR and IOC_PR_RELEASE ioctls for nvme devices
-a8f3ad14fc07a8720f5a14333fe565b35de7cf1a selftests: Fix the if conditions of in test_extra_filter()
-18521078502ecfa7517fcddc7764e3b64bc4be8f clk: iproc: Minor tidy up of iproc pll data structures
-a21dabe6fc30fb45838ebae4a298276b6883cc70 clk: iproc: Do not rely on node name for correct PLL setup
-45f197bdbe0ba8ab5a9a1d99de706058bd2cfed9 Makefile.extrawarn: Move -Wcast-function-type-strict to W=1
-c427cfdf3b3ef0fcb59337e1cef5716c6fce1a1f i2c: dev: prevent ZERO_SIZE_PTR deref in i2cdev_ioctl_rdwr()
-e76f20eb0ce8973d89c7519a895d47706e4584b6 ARM: fix function graph tracer and unwinder dependencies
-d6d8d46b6e46087da97d9aef68553c1864531d79 fs: fix UAF/GPF bug in nilfs_mdt_destroy
-c886984a4ea78ea1fb537fd06a50d56eedf93a1e dmaengine: xilinx_dma: cleanup for fetching xlnx,num-fstores property
-b67c0f9beb3e4dacd34318a5ef52c2bbaffc706b dmaengine: xilinx_dma: Report error in case of dma_set_mask_and_coherent API failure
-053204ce2da40e7f4ca6a7d7976652cbfa52dd8a ARM: dts: fix Moxa SDIO 'compatible', remove 'sdhci' misnomer
-01779484b8b23f0aac559a95ad64ec59a14e1133 net/ieee802154: fix uninit value bug in dgram_sendmsg
-91c2289989d9c1f7a81874656a2269be93893e58 um: Cleanup syscall_handler_t cast in syscalls_32.h
-8349f2e89cbd7370c1717bfeb6f31e7bd350dab6 um: Cleanup compiler warning in arch/x86/um/tls_32.c
-b157d903230c66289241b00ad3e370a633ba0f48 usb: mon: make mmapped memory read only
-939e1c77499c3a2251ca041ee33d59dc1db51a9f USB: serial: ftdi_sio: fix 300 bps rate for SIO
-e4a0b18160f231ef087e26e3d202649417517f12 mmc: core: Replace with already defined values for readability
-9272603c6f49dbc75cff9dc2362ed574aba6306d mmc: core: Terminate infinite loop in SD-UHS voltage switch
-7e0bb7a5b3a656ce91de576154983f57c65404cc rpmsg: qcom: glink: replace strncpy() with strscpy_pad()
-e6e1ff12d6da1fe048a9cccf78463e7e40427bb2 netfilter: nf_queue: fix socket leak
-1968eeb3ac4b7caf5d259415c2aa19f83c0a72ed nilfs2: fix NULL pointer dereference at nilfs_bmap_lookup_at_level()
-8504923ebcc2440ecd56418bc675a6f697662e1d nilfs2: fix leak of nilfs_root in case of writer thread creation failure
-8bd6e709a787aa594d743613072cb705300a1144 nilfs2: replace WARN_ONs by nilfs_error for checkpoint acquisition failure
-0ba6f9d3765f434c44d56235376f193c58798819 ceph: don't truncate file in atomic_open
-192acd3ea425d87a10a02c7da868c3dddaf80a77 random: clamp credited irq bits to maximum mixed
-33f92b93fdc56a0a06f49d7a4ee296270016049d ALSA: hda: Fix position reporting on Poulsbo
-564484a4140acda4f3b5274325fb12935b53609c scsi: stex: Properly zero out the passthrough command structure
-721ceea4af1013e90b763ebc44ae9e607aa4028a USB: serial: qcserial: add new usb-id for Dell branded EM7455
-291f7450361111842f007d673ef1245e0f420bcd random: restore O_NONBLOCK support
-28cb4d7acdb4255fb247fc435aa95fd29a76e58e random: avoid reading two cache lines on irq randomness
+bdd29d020a42ddaad8989635220d2f578ce32576 uas: add no-uas quirk for Hiksemi usb_disk
+704b31eefca8bb95a00a8f785dcd5eb1b7b11532 usb-storage: Add Hiksemi USB3-FW to IGNORE_UAS
+51acd752ca61846d6f17fc21a0f3861ba277f899 uas: ignore UAS for Thinkplus chips
+99bdeb43995e4a2b88a44d292f453bc1f9cca82a net: usb: qmi_wwan: Add new usb-id for Dell branded EM7455
+980ab12a722aa60221280d60ecbdc1882b29a0de ntfs: fix BUG_ON in ntfs_lookup_inode_by_name()
+ba3f5111a41eafd988c216a3a9d6a3f4d687b2fe mmc: moxart: fix 4-bit bus width and remove 8-bit bus width
+bb1afa74d3a1ea57ebcc122927ee30386478e004 mm/page_alloc: fix race condition between build_all_zonelists and page allocation
+445f36e2fedfdb35544619f4a92f79109bb7788c mm: prevent page_frag_alloc() from corrupting the memory
+73dfe94c9db6396a784381ac65e183fe81c1ffe6 mm/migrate_device.c: flush TLB while holding PTL
+c74f6f3b29807add082c40a97fcef1686a9416ec soc: sunxi: sram: Actually claim SRAM regions
+052fa8e0b24bd99d350fb4b61f65a5a5e0ed0de1 soc: sunxi: sram: Fix debugfs info for A64 SRAM C
+6f5d56af5cf14165e4e4ed8354378fcc1d51bffd Revert "drm: bridge: analogix/dp: add panel prepare/unprepare in suspend/resume time"
+408212cf0ecebb3011f6542f34fa411a85ad4c50 Input: melfas_mip4 - fix return value check in mip4_probe()
+f9f25198e6db0763ad3c5e78f6f70a0335677017 usbnet: Fix memory leak in usbnet_disconnect()
+ddd89b80f661d3567cc87f8559bc2e89124e61cb nvme: add new line after variable declatation
+068da7dd150a8dcb283fec538e34af1ccc4295f0 nvme: Fix IOC_PR_CLEAR and IOC_PR_RELEASE ioctls for nvme devices
+8c192da798d498fd16a53e78d9f284452d9cbc8c selftests: Fix the if conditions of in test_extra_filter()
+09615b25372db203cccfb0c9766f292c3f948c37 clk: iproc: Minor tidy up of iproc pll data structures
+ef262f4fa1439064268fae0a3e969bf721b32bb3 clk: iproc: Do not rely on node name for correct PLL setup
+17d95a739ce48e42d9b8c3c4e302faedecea7fb6 Makefile.extrawarn: Move -Wcast-function-type-strict to W=1
+4c10fc1873bac63601ccaecbeda00378268a6e61 i2c: dev: prevent ZERO_SIZE_PTR deref in i2cdev_ioctl_rdwr()
+1b44424b1215d46978507ec0873843c18defb276 ARM: fix function graph tracer and unwinder dependencies
+665778ce47862c77748a50e9258d2df3aed2df7c fs: fix UAF/GPF bug in nilfs_mdt_destroy
+1ab5b469058401218eaa493e81ff411ac8c49c66 dmaengine: xilinx_dma: cleanup for fetching xlnx,num-fstores property
+97fa36fc5ce1f8e54cb38cb707775db5ef03f441 dmaengine: xilinx_dma: Report error in case of dma_set_mask_and_coherent API failure
+5bdaf18f8c9012c36ff8cbafa72577ccaa907d64 ARM: dts: fix Moxa SDIO 'compatible', remove 'sdhci' misnomer
+f27eea44ab3cdcf383e98ffc228bf4abeed2607d net/ieee802154: fix uninit value bug in dgram_sendmsg
+63c5caf72d04dd9cae3cfd78bd11b5f6406ef545 um: Cleanup syscall_handler_t cast in syscalls_32.h
+2d9cf945af9a24daedcc4ba271146d4b08f8dbe7 um: Cleanup compiler warning in arch/x86/um/tls_32.c
+4f56f34e93f92ef3605bbe2b39f4d57cb16c0eb5 usb: mon: make mmapped memory read only
+b1ffe5871362f684c5619cfdf36bbe8ee6acbe66 USB: serial: ftdi_sio: fix 300 bps rate for SIO
+a716a245de11e068e721b6f55b8b925181bb6a41 mmc: core: Replace with already defined values for readability
+811bf4189d35a50371b1e3567ba3a5ebbd56baec mmc: core: Terminate infinite loop in SD-UHS voltage switch
+16233ea6884e0963207a6ef3e1bcc2c62a00f66d rpmsg: qcom: glink: replace strncpy() with strscpy_pad()
+8b016a085f728bad5c2c9f807f2f69266f370cf3 netfilter: nf_queue: fix socket leak
+5aab9c0d991fdabe48e513877a63b45a853facae nilfs2: fix NULL pointer dereference at nilfs_bmap_lookup_at_level()
+c4fe8052f661a30caf465d5926331522c5205464 nilfs2: fix leak of nilfs_root in case of writer thread creation failure
+48b914054ef43c24f8d5a17907fb9e1d4aedfbc3 nilfs2: replace WARN_ONs by nilfs_error for checkpoint acquisition failure
+92c92a077abff7dee9140ddb48a207aee40281ae ceph: don't truncate file in atomic_open
+382641f0de9653e5debb77afc3086b8af3bbe062 random: clamp credited irq bits to maximum mixed
+4669df34fffca8bc138181f770068fcf39959ad2 ALSA: hda: Fix position reporting on Poulsbo
+bea81e710fd793727d5b65d84068c25b560b85cf scsi: stex: Properly zero out the passthrough command structure
+34e7ada55d179abc5c724702cdbb0b10e1e3e851 USB: serial: qcserial: add new usb-id for Dell branded EM7455
+249b4507a8c2bc04df35ca2ee0ae5de6940e9059 random: restore O_NONBLOCK support
+5ba378ebbb0fccb9fcfa56bbfeaaf2823103600d random: avoid reading two cache lines on irq randomness
+8018f335213682511b9ad047671430637e6c5377 random: use expired timer rather than wq for mixing fast pool
 
---===============6581697086908070871==
+--===============7448844576508065366==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c90d2890eaac-e3f8c4976f19.txt
+Content-Disposition: attachment; filename=revlist-e3f8c4976f19-4704fa4f92cf.txt
 
-01d2b6f34c7384b29efb646e858cd2101ff00e85 Makefile.extrawarn: Move -Wcast-function-type-strict to W=1
-203276c998528d2215de5a754bb19a9d32f20b2a docs: update mediator information in CoC docs
-ba53470ffe821116b5dfacc853fecfc75df4600d ARM: fix function graph tracer and unwinder dependencies
-120d419873b507ad0057cc927ccdb18093367386 fs: fix UAF/GPF bug in nilfs_mdt_destroy
-50edf62918807e700b1b3c3898ad868c422ca266 firmware: arm_scmi: Add SCMI PM driver remove routine
-ebfb65e31132285a424f443015265f1e0ae346cf dmaengine: xilinx_dma: cleanup for fetching xlnx,num-fstores property
-90505974efb0120159a7c85bd18f5685cf0ea7a3 dmaengine: xilinx_dma: Report error in case of dma_set_mask_and_coherent API failure
-662f124f170d1e52a1721dc4dc8e09ccf5f1d97d ARM: dts: fix Moxa SDIO 'compatible', remove 'sdhci' misnomer
-72358e32247e29bfd1e3ff766faa19037ad88e42 scsi: qedf: Fix a UAF bug in __qedf_probe()
-b113bfefceed1e4e9a63387fc878716269d8fb14 net/ieee802154: fix uninit value bug in dgram_sendmsg
-95dde62eb488ce171d96c1c6a1ef56e5a82ca8e7 um: Cleanup syscall_handler_t cast in syscalls_32.h
-407ecc852d777e9e9ba1135eda93e7caaec1e670 um: Cleanup compiler warning in arch/x86/um/tls_32.c
-996bc1d5e789887d1e8371611d9376ee5198e521 usb: mon: make mmapped memory read only
-32fc6b8c32318bc028ac2870d8f601040638cb09 USB: serial: ftdi_sio: fix 300 bps rate for SIO
-4cdca1bdbaf18f51edb153666c4c059bf0ce5c8f mmc: core: Replace with already defined values for readability
-a82623f3d4abae8b7015eb51e72dc9affcc7271c mmc: core: Terminate infinite loop in SD-UHS voltage switch
-13164755e7494418abf1eafa2a241696ce5d6555 rpmsg: qcom: glink: replace strncpy() with strscpy_pad()
-a32afa9f15e71dd6b9aae96b5741500d2b6f7988 nilfs2: fix NULL pointer dereference at nilfs_bmap_lookup_at_level()
-5880e60bc43b68dba94f421be0be77ee175e94a7 nilfs2: fix leak of nilfs_root in case of writer thread creation failure
-48b3f6732c1201675252b01492995a43dc21db7d nilfs2: replace WARN_ONs by nilfs_error for checkpoint acquisition failure
-6935cde8fee93ac3b8778e5a9bbabde066065e40 ceph: don't truncate file in atomic_open
-b4f96381f7ab37ca1cdf7929df4c31f3ffbed39b random: clamp credited irq bits to maximum mixed
-deec6a0a2aa4decac1a001cf4a24efe0f65a0b00 ALSA: hda: Fix position reporting on Poulsbo
-cf4bd665a6da6c46effebf7199d77945fba72c2c scsi: stex: Properly zero out the passthrough command structure
-b4e4eae2fa3edad8745851ba858f113f889af217 USB: serial: qcserial: add new usb-id for Dell branded EM7455
-0515640359d855762dbc8703b8d71bb761dadb74 random: restore O_NONBLOCK support
-e3f8c4976f195061473e8bf86fa4a80f57a42f47 random: avoid reading two cache lines on irq randomness
+61208ab777e89ef1878bfef7d6975c8daef49f4f Makefile.extrawarn: Move -Wcast-function-type-strict to W=1
+faa99750d8d4120d306bb4cf463bb2c7928c7767 docs: update mediator information in CoC docs
+a5bb6a80a073997f7e6f63d4e89a330561680a2a ARM: fix function graph tracer and unwinder dependencies
+e63e338f1c782b4b199e03f8ffc03b8afcf001a2 fs: fix UAF/GPF bug in nilfs_mdt_destroy
+4a29bd16ccf41c24a99297cfb813e0fdfa8317fd firmware: arm_scmi: Add SCMI PM driver remove routine
+8a84f5a896c97b5c4a27a63b308535e35a9a56c5 dmaengine: xilinx_dma: cleanup for fetching xlnx,num-fstores property
+ad94777b0b19e573f7a89ee870ed09a3dbe48a81 dmaengine: xilinx_dma: Report error in case of dma_set_mask_and_coherent API failure
+425023d627116e661ee9d1c50541a0fe9ddfee7b ARM: dts: fix Moxa SDIO 'compatible', remove 'sdhci' misnomer
+5826caff553ef0136856040b966978f92cfa6dda scsi: qedf: Fix a UAF bug in __qedf_probe()
+f60c0283c5e6aa07c20c440e25529da2caae1dff net/ieee802154: fix uninit value bug in dgram_sendmsg
+75ce3dbab71b6b725a1f5a21d8388a88aa840552 um: Cleanup syscall_handler_t cast in syscalls_32.h
+09cdce2004951aaf64cc6f3fca2a440aaade2eb5 um: Cleanup compiler warning in arch/x86/um/tls_32.c
+0bfca5ef3d6708c8ec3a34e23f65047a9ca984c2 usb: mon: make mmapped memory read only
+c61ee880c2632f458eec65c10f5a8dfaf2759968 USB: serial: ftdi_sio: fix 300 bps rate for SIO
+2a7fc9f8dfec2ee960358e6ed68ee88d446d3adb mmc: core: Replace with already defined values for readability
+503fbd04234608d569eda8cfae31fecdc12f4de4 mmc: core: Terminate infinite loop in SD-UHS voltage switch
+2555f127e573e9d156719ee869c4856f6b67df3b rpmsg: qcom: glink: replace strncpy() with strscpy_pad()
+6a6290eb2c235874c0a4c2113926f60309a05102 nilfs2: fix NULL pointer dereference at nilfs_bmap_lookup_at_level()
+407fcfe2faca801108eda40cf43fb8cccb03cba7 nilfs2: fix leak of nilfs_root in case of writer thread creation failure
+a5f5165190c0d3497e6f858b8397d6cd264dd27e nilfs2: replace WARN_ONs by nilfs_error for checkpoint acquisition failure
+4d4bf1242f07331e3af709464bdc65c4b4f791c3 ceph: don't truncate file in atomic_open
+71f19e5499bd096bccc16224261cc112564ea7ef random: clamp credited irq bits to maximum mixed
+1426be73a42c7262b625b57a4899cddf3bffdb58 ALSA: hda: Fix position reporting on Poulsbo
+34c4a3dd1bd367fc5d7db7c1118befca60242eac scsi: stex: Properly zero out the passthrough command structure
+a2a9a53afee62ea9aeea0d8ed6c14e0c3a07eaa4 USB: serial: qcserial: add new usb-id for Dell branded EM7455
+f6fea044650875bb08cd91f9e4ce42e6fe2da0d8 random: restore O_NONBLOCK support
+f90b3bf6519e90912809308713521eaa0efc0fdd random: avoid reading two cache lines on irq randomness
+4704fa4f92cf784b8eea6ab00c0ab3942d760829 random: use expired timer rather than wq for mixing fast pool
 
---===============6581697086908070871==
+--===============7448844576508065366==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-48b7d38a1a22-0f782f2fdfe4.txt
+Content-Disposition: attachment; filename=revlist-0f782f2fdfe4-c10935bbba7d.txt
 
-66c1b2c3626078728f00241830e19eb83691c704 uas: add no-uas quirk for Hiksemi usb_disk
-a7d63607f7c03f1731aa956c9257aaa2693e09fd usb-storage: Add Hiksemi USB3-FW to IGNORE_UAS
-a69876725fe4618a201aff83baf8f8fc2193d0e9 uas: ignore UAS for Thinkplus chips
-d30d4c218472ee77c036fc3ea27df62ea4cf5263 net: usb: qmi_wwan: Add new usb-id for Dell branded EM7455
-c58cacf89e54a0d9b1b7327084d55a99a3663a8e ntfs: fix BUG_ON in ntfs_lookup_inode_by_name()
-33af52fb1c9f13e1ced0d0d6b13b5ec7cd414a30 mmc: moxart: fix 4-bit bus width and remove 8-bit bus width
-fa9153eb0ddf090e618f955ea1ee2457283caf68 mm: prevent page_frag_alloc() from corrupting the memory
-e6bb397aa801a54ec873d8164c1fc091991a53a1 Revert "drm: bridge: analogix/dp: add panel prepare/unprepare in suspend/resume time"
-156fecffe51a54eee6d4f910f86e1d710270e9b5 Input: melfas_mip4 - fix return value check in mip4_probe()
-e8fe123eca9198154d820399fd21e048122383a8 usbnet: Fix memory leak in usbnet_disconnect()
-925cb16d4849dd725f17888845d1131f97920548 nvme: add new line after variable declatation
-8f97d2d65c4a6b0f05b20aa000c83a3f41d65f6e nvme: Fix IOC_PR_CLEAR and IOC_PR_RELEASE ioctls for nvme devices
-897dcbe119893321c3729f0937490f5b0eab1b5b selftests: Fix the if conditions of in test_extra_filter()
-c1b7509205e71dde81f8045615a413108044ae73 clk: iproc: Minor tidy up of iproc pll data structures
-ec7283d104a74e1eb8b1f85e3b2b1e559cce7027 clk: iproc: Do not rely on node name for correct PLL setup
-3ef0fc9b1ba3055342c4d77f31ca7bc4dbae92b6 Makefile.extrawarn: Move -Wcast-function-type-strict to W=1
-dcd949e862d413a3ade66c76a0a710af2d7b09f4 ARM: fix function graph tracer and unwinder dependencies
-78d2d2feee395a887a18d297050fc57f6d3d6e1d fs: fix UAF/GPF bug in nilfs_mdt_destroy
-033171659dc5a5d2f6de6d01844ce21dca28611e dmaengine: xilinx_dma: cleanup for fetching xlnx,num-fstores property
-743da23901c1e3283f2fbf4ed47a59d7eb002b31 dmaengine: xilinx_dma: Report error in case of dma_set_mask_and_coherent API failure
-92ac1f25011fae57f0f7951c5b3cce5e9824d5c7 ARM: dts: fix Moxa SDIO 'compatible', remove 'sdhci' misnomer
-49d15a2a5419e25b25c9a78244b7a289691027d3 net/ieee802154: fix uninit value bug in dgram_sendmsg
-901374a60ba58f02c00d3b9217ab7ceb7cc43bc8 um: Cleanup syscall_handler_t cast in syscalls_32.h
-7b1dca36b9ccdf0a04a1b01fb69abe6275a47a9e um: Cleanup compiler warning in arch/x86/um/tls_32.c
-0086014387c8339f3e2ea9a1a3a62fdffaed30b7 usb: mon: make mmapped memory read only
-94c7b1f371b44466cd7c9e55a9933872ef8683e3 USB: serial: ftdi_sio: fix 300 bps rate for SIO
-6505d07aa332c4426467bb5c61a01af7b80c5378 nilfs2: fix NULL pointer dereference at nilfs_bmap_lookup_at_level()
-8dfa8dcbe8aa890d2da671d856ae37291e2594ce nilfs2: fix leak of nilfs_root in case of writer thread creation failure
-eba11fa419e00c9060e1ada3472374b3a36f237d nilfs2: replace WARN_ONs by nilfs_error for checkpoint acquisition failure
-02293916d9b96a5e99dacf84e398a0ee10170fa8 ceph: don't truncate file in atomic_open
-fcf9ce215b1a824ca2892dc12721ecac00f2a799 random: clamp credited irq bits to maximum mixed
-52fa49b5823471244293f1b2b78eb4c92f9b4a17 ALSA: hda: Fix position reporting on Poulsbo
-492aa320a3d5d2095d3b3495999306f793183aab scsi: stex: Properly zero out the passthrough command structure
-bc58b6e184e982e774165c80efb981bd7a99480f USB: serial: qcserial: add new usb-id for Dell branded EM7455
-0cddbe7aabc745ba07e52bf102f710fe5dc6201f random: avoid reading two cache lines on irq randomness
-0f782f2fdfe4cc01106ed3aa7323099370d78b70 random: use expired timer rather than wq for mixing fast pool
+e229f2c914c9093b7ab8ad662478e8292d832d12 uas: add no-uas quirk for Hiksemi usb_disk
+8453c99c73f3be721e4c28f0c432bb10c95afdcb usb-storage: Add Hiksemi USB3-FW to IGNORE_UAS
+fbc816b689e7262220a5bce121300d5653f2897e uas: ignore UAS for Thinkplus chips
+e0783212d380f7991b239662ba80cd61c7142d4b net: usb: qmi_wwan: Add new usb-id for Dell branded EM7455
+c5ffa36cfe3201ca47504c4d26c7ab4dfebfbc8e ntfs: fix BUG_ON in ntfs_lookup_inode_by_name()
+499f2003e0921167f5f81120f4a953b8ec28ce07 mmc: moxart: fix 4-bit bus width and remove 8-bit bus width
+8ebde913220cb9e0961c5eaeb3a91bb8310f32e9 mm: prevent page_frag_alloc() from corrupting the memory
+a7f05307d6b3c61af9899a70a66da7ce0c9bef89 Revert "drm: bridge: analogix/dp: add panel prepare/unprepare in suspend/resume time"
+5a597c94113ea9a51eb461a0e2d733edc8abd652 Input: melfas_mip4 - fix return value check in mip4_probe()
+78d233417f64784ee91a4840155cfd9cda594536 usbnet: Fix memory leak in usbnet_disconnect()
+ece4b5dfba20b7a8ba3d344eec2303bd7df886ee nvme: add new line after variable declatation
+03f6bb5779878f8b9c42a06ea23e897fbb1145bc nvme: Fix IOC_PR_CLEAR and IOC_PR_RELEASE ioctls for nvme devices
+b82e201d2ef9e8a3688fbad05532dfcedceb8dbb selftests: Fix the if conditions of in test_extra_filter()
+2797e0ab0079a0a26fc9c59409b8d216c34717ae clk: iproc: Minor tidy up of iproc pll data structures
+0ab6324ead40499653d37357c7021c45fd08bf4c clk: iproc: Do not rely on node name for correct PLL setup
+878fd2e8ee579213a5c007a9bf273a3fd94fa911 Makefile.extrawarn: Move -Wcast-function-type-strict to W=1
+8824aa813d3d0a3d4ad2bd4983d5273cf9d62f4d ARM: fix function graph tracer and unwinder dependencies
+f25e39edbad5be9f1943e03bbfd7a7535a9dcd27 fs: fix UAF/GPF bug in nilfs_mdt_destroy
+8008f561ca748d0294e56a3e27255c89027f9b10 dmaengine: xilinx_dma: cleanup for fetching xlnx,num-fstores property
+c6a0f558f4727bd73e40d5fc3de96565a074cd6d dmaengine: xilinx_dma: Report error in case of dma_set_mask_and_coherent API failure
+03fe6cd60ff2bff52eb63b11024903b38af1f818 ARM: dts: fix Moxa SDIO 'compatible', remove 'sdhci' misnomer
+964d3bbff1679b08ae834cb45439af763283b9af net/ieee802154: fix uninit value bug in dgram_sendmsg
+4d705b7bacc7a631104d95c9df2fa52f5e08f993 um: Cleanup syscall_handler_t cast in syscalls_32.h
+2def47f1071807bfa7bca2a3268fe4c8269a4050 um: Cleanup compiler warning in arch/x86/um/tls_32.c
+330251597d21995465795064c6856c858cb6beae usb: mon: make mmapped memory read only
+10876a57b0453bf39d7ea93e5116df66eb160f5a USB: serial: ftdi_sio: fix 300 bps rate for SIO
+c025f8b8e3018b6bf511de16f0b4cb5516809264 nilfs2: fix NULL pointer dereference at nilfs_bmap_lookup_at_level()
+922c4b5f0af66f4fad52263423564dd4e83d6219 nilfs2: fix leak of nilfs_root in case of writer thread creation failure
+fad41e4f585fc695bb174bef6f846653e9074005 nilfs2: replace WARN_ONs by nilfs_error for checkpoint acquisition failure
+70ac75facd8300ffd55f2e0ac695af78e1408473 ceph: don't truncate file in atomic_open
+80ba6c424b82789b9d1840353f97fc14eedfd79e random: clamp credited irq bits to maximum mixed
+e123043906e4a47732362db0af0df9fda307b34a ALSA: hda: Fix position reporting on Poulsbo
+ea937970d5413c3943f243a5901d35bc5a5b4376 scsi: stex: Properly zero out the passthrough command structure
+29eb20c66759ad85de58441873e64a2f2109ab79 USB: serial: qcserial: add new usb-id for Dell branded EM7455
+c1d928ae7a39133e7b3581342c0461710e6442c5 random: avoid reading two cache lines on irq randomness
+c10935bbba7d672435972802d57f0ff66c47982e random: use expired timer rather than wq for mixing fast pool
 
---===============6581697086908070871==
+--===============7448844576508065366==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f19875a351fd-3eb53a15b771.txt
+Content-Disposition: attachment; filename=revlist-3eb53a15b771-bc5872956b49.txt
 
-c01148409ede8ba0a17660b0ef8b4dc76406f942 nilfs2: fix NULL pointer dereference at nilfs_bmap_lookup_at_level()
-efe05f18596f0d1fc7b95bbde6802bbd2af1e347 nilfs2: fix use-after-free bug of struct nilfs_root
-e6e3a33f1bb1149a864a3a591829c1e106714258 nilfs2: fix leak of nilfs_root in case of writer thread creation failure
-7555c37f0f3af3cc78c5ead6ca6ef025593f0711 nilfs2: replace WARN_ONs by nilfs_error for checkpoint acquisition failure
-eb6c3a399db10419dd19331aed993a4d2efe2159 ceph: don't truncate file in atomic_open
-f473703247d58d2e6d167c87a7dcf5b63c721a5f Makefile.extrawarn: Move -Wcast-function-type-strict to W=1
-4b6ab6e3271d9171bf851e531dba242f42749ccd docs: update mediator information in CoC docs
-bef16b8009a8b8dfa8b3d3ee8600c7a15837092e perf tools: Fixup get_current_dir_name() compilation
-ad62e34f6bb633c689c5c07ccccbb053fc44d999 xsk: Inherit need_wakeup flag for shared sockets
-311d4ebb27db8476b2e3ebd1494b8f42a1e15e05 ALSA: pcm: oss: Fix race at SNDCTL_DSP_SYNC
-319fce73cf95362b816047a24a28c585fac38707 mm: gup: fix the fast GUP race against THP collapse
-16c225399fecb2664ba5cb2aadc558f9abc5e9f1 powerpc/64s/radix: don't need to broadcast IPI for radix pmd collapse flush
-045936fc0bcff5a73f49b21af35e16a710ad0832 fs: fix UAF/GPF bug in nilfs_mdt_destroy
-7b2ebc72d68a70c73feda5bc10583d6405f3baba compiler_attributes.h: move __compiletime_{error|warning}
-eea354adde4e0f6ceaf776492cfb94fb58dd366d firmware: arm_scmi: Add SCMI PM driver remove routine
-8a5d31a5f1e513268b9f640e8e920bf269e2671b dmaengine: xilinx_dma: Fix devm_platform_ioremap_resource error handling
-0551c265abd0db30da80a30816632fd4c588e429 dmaengine: xilinx_dma: cleanup for fetching xlnx,num-fstores property
-7a502b17df7690ce759533d94e89ce36f83cd5d2 dmaengine: xilinx_dma: Report error in case of dma_set_mask_and_coherent API failure
-444b352c0b38c3881bf585e740bef59221320164 ARM: dts: fix Moxa SDIO 'compatible', remove 'sdhci' misnomer
-7d50fe475cacf43f184c50124d0e0c96bf1a4408 scsi: qedf: Fix a UAF bug in __qedf_probe()
-8a0bd7ad220cc994b37d1f8b5395a7179eec1a5b net/ieee802154: fix uninit value bug in dgram_sendmsg
-42edba0fd9b493fc4b7e323bcbfb8102b692bc98 ALSA: hda/hdmi: Fix the converter reuse for the silent stream
-37f73f573bf2ede252655e63779fd635cb060ed6 um: Cleanup syscall_handler_t cast in syscalls_32.h
-06c3bb4633dbfd9f7e1c786c32dc01bb0ae4da13 um: Cleanup compiler warning in arch/x86/um/tls_32.c
-95acdd431b9e8a5599ddf60e1be78f8103494f21 arch: um: Mark the stack non-executable to fix a binutils warning
-949f6f08b9fb10500adba996d0606030c8db5e12 net: atlantic: fix potential memory leak in aq_ndev_close()
-34af4f6fe53ae730f775835a250172bdc9e36360 drm/amd/display: update gamut remap if plane has changed
-f33b3350cb66382ef9c35cb63fe8e3422063eccc drm/amd/display: skip audio setup when audio stream is enabled
-ece994b24395b76a2838a2779f39155182571639 mmc: core: Replace with already defined values for readability
-8eeaedcfbc2f02c98cb8bfcb2b1f90cfcdd3137f mmc: core: Terminate infinite loop in SD-UHS voltage switch
-43f00c8e0caf9e8b13355641dfb8823dfab056af usb: mon: make mmapped memory read only
-f0ef1e22b89d4d65a8b20e57ccc2c58dbc6e5bcd USB: serial: ftdi_sio: fix 300 bps rate for SIO
-b079303994e83c401d80e4d2ce7b9a1c865b5662 rpmsg: qcom: glink: replace strncpy() with strscpy_pad()
-5ae1ee59506f87ba6eab69f91ffe92d74af7266b Revert "clk: ti: Stop using legacy clkctrl names for omap4 and 5"
-077a1feedf5caccf5f7f8a2fcd6bfc14dbd2e7c0 random: restore O_NONBLOCK support
-dbea9c1ae248b68f3c6476e5107dc174fe7205c2 random: clamp credited irq bits to maximum mixed
-a5ac7c0689f1388ee211ec5bad67da5b403e3a2d ALSA: hda: Fix position reporting on Poulsbo
-d40dbef443589fc3900746ffedd77a9732611caa efi: Correct Macmini DMI match in uefi cert quirk
-878b340016755e137030886463a59edcfc91c1d7 scsi: stex: Properly zero out the passthrough command structure
-8d66b55d713bd555ae958086c447725eca18d49e USB: serial: qcserial: add new usb-id for Dell branded EM7455
-6d06f23c12af70e47d6210097d7a2cfc4fec4bc6 random: avoid reading two cache lines on irq randomness
-3eb53a15b771b8e551045942b66981ddeac2bf93 random: use expired timer rather than wq for mixing fast pool
+5ee28c8df59aede2a61c4270073b4b3894bee2e6 nilfs2: fix NULL pointer dereference at nilfs_bmap_lookup_at_level()
+d982b27365fb204ae93c71f5c7e7e6e3e2b972e0 nilfs2: fix use-after-free bug of struct nilfs_root
+9df45edcf0f17c400dcbaa64ba1d9a823e209832 nilfs2: fix leak of nilfs_root in case of writer thread creation failure
+ac9dd7142a5653067d76b8de6358634f0ae774df nilfs2: replace WARN_ONs by nilfs_error for checkpoint acquisition failure
+97e69172f95c8a1bf700a849394fe1ddbd6a0918 ceph: don't truncate file in atomic_open
+a9be4e71761f1517b4c120160e9e0cac478008e0 Makefile.extrawarn: Move -Wcast-function-type-strict to W=1
+f35a6d287a3370d31626d68970b0ed56da0c0d8a docs: update mediator information in CoC docs
+0481c37395ffa9b65ab256b901de4755c56b8a58 perf tools: Fixup get_current_dir_name() compilation
+89fc2aa1b93d7edfa0a02f934e3704870374a919 xsk: Inherit need_wakeup flag for shared sockets
+88d8c63418e4a6cd4ec1bfc1f73d4fdb5f9a3334 ALSA: pcm: oss: Fix race at SNDCTL_DSP_SYNC
+3a6e39d327b199aeff02abe9e37397b405ff8566 mm: gup: fix the fast GUP race against THP collapse
+2452b58decdbd748f6a207d15ad51e98f04e6230 powerpc/64s/radix: don't need to broadcast IPI for radix pmd collapse flush
+f34bcd159e52062942ab1fe772965b085c939aa7 fs: fix UAF/GPF bug in nilfs_mdt_destroy
+83c3e8a02be8e9f405940945e0b066c58092a8e2 compiler_attributes.h: move __compiletime_{error|warning}
+9cd80fd0811d4e92757f539a5b078c5b455d1357 firmware: arm_scmi: Add SCMI PM driver remove routine
+e3fb6c242762d6adf20abca5c6dbd58646329da8 dmaengine: xilinx_dma: Fix devm_platform_ioremap_resource error handling
+1da0f86a44d56a31d265c4275b7b978ac5b24294 dmaengine: xilinx_dma: cleanup for fetching xlnx,num-fstores property
+9f5a921dcd78bd0bcdcfeb78c58ede574745f0cb dmaengine: xilinx_dma: Report error in case of dma_set_mask_and_coherent API failure
+ba2c0d938ba26b9f20a76bf537666056e6c1530a ARM: dts: fix Moxa SDIO 'compatible', remove 'sdhci' misnomer
+e2bcc31df0473e6d95ed537785ab710349d46008 scsi: qedf: Fix a UAF bug in __qedf_probe()
+c79c075fde2b282792d237a2effbe510e938b102 net/ieee802154: fix uninit value bug in dgram_sendmsg
+85061cedb9e623a9de021c4bb81c6e9c74c27d90 ALSA: hda/hdmi: Fix the converter reuse for the silent stream
+299be287d0a191c106c161b9af263dbb2c33f54e um: Cleanup syscall_handler_t cast in syscalls_32.h
+2efc2a13fb2403a82cc5379a52f8092ccf0408b7 um: Cleanup compiler warning in arch/x86/um/tls_32.c
+47523dc8fbcbe58fa470ba081e3954d1b1034253 arch: um: Mark the stack non-executable to fix a binutils warning
+c576070653c1272b67d411d9f1bc66d9f9196370 net: atlantic: fix potential memory leak in aq_ndev_close()
+45ac90c92f2f4b2f719cc882d4173ade06dc0783 drm/amd/display: update gamut remap if plane has changed
+3319da78bd65b32d30014c1320912a97a27766ab drm/amd/display: skip audio setup when audio stream is enabled
+2f761973fc19aa969fab93836a2ac1fe984ccf27 mmc: core: Replace with already defined values for readability
+e4b5381d98bf41f6283aca71cf0d747b0a7b9b3b mmc: core: Terminate infinite loop in SD-UHS voltage switch
+fa432477349216e7da1d0b081776763f5d4dcc72 usb: mon: make mmapped memory read only
+a6cc944b94d58658d36f75612069ffd9b7dffe1b USB: serial: ftdi_sio: fix 300 bps rate for SIO
+f5727deb2ae89b42456002676a4153368982ffc3 rpmsg: qcom: glink: replace strncpy() with strscpy_pad()
+f8f5443726fbb8e1af035586ddc88dfd3cbf5583 Revert "clk: ti: Stop using legacy clkctrl names for omap4 and 5"
+95ab37f193e998a7591005a0da62d7882489361b random: restore O_NONBLOCK support
+e183449452fdab76ceec80308e7af3cc8194d178 random: clamp credited irq bits to maximum mixed
+a99e2ad420705050dbbf9975b77ee18850b56564 ALSA: hda: Fix position reporting on Poulsbo
+061b59d0870308dd82d5ba5ba310441c2229c101 efi: Correct Macmini DMI match in uefi cert quirk
+a9ebf94a7b2f25ab6f8d7415b86b436a54b4d6e2 scsi: stex: Properly zero out the passthrough command structure
+7904b1850a33886ab35cef70142d2be6b6bde179 USB: serial: qcserial: add new usb-id for Dell branded EM7455
+a7c5da6c924f7fb93313faffd5fdffe3f79704b3 random: avoid reading two cache lines on irq randomness
+bc5872956b4934f135447a21e2cda396df04f3a1 random: use expired timer rather than wq for mixing fast pool
 
---===============6581697086908070871==
+--===============7448844576508065366==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-624e7891af08-147d2503ded1.txt
+Content-Disposition: attachment; filename=revlist-147d2503ded1-5d618b6bc543.txt
 
-e2f714f26a5b7089b05f0d61e807054f1104d294 nilfs2: fix NULL pointer dereference at nilfs_bmap_lookup_at_level()
-e0248bf7dbe4f3e6c041afc1bc5bd4f0443be446 nilfs2: fix use-after-free bug of struct nilfs_root
-9036e67ed5f570b9b874e3f6f34f9002cdbba99d nilfs2: fix leak of nilfs_root in case of writer thread creation failure
-1de9d09afab7820ba30811b42d165eae5b9371f7 nilfs2: replace WARN_ONs by nilfs_error for checkpoint acquisition failure
-fc77e2e75a1095a2ea07b83a861c08068e4b3748 ceph: don't truncate file in atomic_open
-9b3d44de57b78d5c0dad791c013b33abdc0d3bdc random: restore O_NONBLOCK support
-e015cdc0925eec30e59aaa629a5cb07042688ed4 random: clamp credited irq bits to maximum mixed
-af3abda9e5c545097f38ba0f6e812f729d7c7aee ALSA: hda: Fix position reporting on Poulsbo
-920c5704d838abf164327adf25a0ceb7c464d8b2 efi: Correct Macmini DMI match in uefi cert quirk
-e7f94a73fe1fe5ca2dd24b01cf05c5a60dfcb64c scsi: stex: Properly zero out the passthrough command structure
-bbc78819bd8225d187355a1f26b207e293f3616c USB: serial: qcserial: add new usb-id for Dell branded EM7455
-70bd10fccc884b1f356520f7197dc1eab5397186 Revert "powerpc/rtas: Implement reentrant rtas call"
-0103fb043b27b677700dc3a526a82460b824ad07 Revert "crypto: qat - reduce size of mapped region"
-d0fb6e9fb987f9188efd27f313147ceef60dc1f5 random: avoid reading two cache lines on irq randomness
-147d2503ded132efe7172c4e6a51705389581cac random: use expired timer rather than wq for mixing fast pool
+08544fab67f96812ec865c168925d8a9193a2bfa nilfs2: fix NULL pointer dereference at nilfs_bmap_lookup_at_level()
+6e822e8e8324b4629635780d7f93a17581cdb93f nilfs2: fix use-after-free bug of struct nilfs_root
+1ce38a654f820b06d0464338dff26e3c2fc5d0b1 nilfs2: fix leak of nilfs_root in case of writer thread creation failure
+9b2e07c26be71e4668be7c6d074320a5bb77e1a2 nilfs2: replace WARN_ONs by nilfs_error for checkpoint acquisition failure
+8df83e627ba79e9a4f380bae24614663169b3845 ceph: don't truncate file in atomic_open
+a75cea7655bfecf2c7ff306337486cd47c41c92e random: restore O_NONBLOCK support
+e7622ac920eecd170b38a3eca5298ef8c00f18f7 random: clamp credited irq bits to maximum mixed
+19c5fbd88dfdedccd5b7745014bc8a556368287e ALSA: hda: Fix position reporting on Poulsbo
+8b3ae01d408057e59ebbb259ce15424a4125e3a6 efi: Correct Macmini DMI match in uefi cert quirk
+1fe53145f9184ac89d5b797b5274a8618fefb830 scsi: stex: Properly zero out the passthrough command structure
+51f22e937ec2ba09259f0a0fffc3bce44542ed60 USB: serial: qcserial: add new usb-id for Dell branded EM7455
+1a7141d33b3bf7eaeb8dc96ae1e410bcd15102db Revert "powerpc/rtas: Implement reentrant rtas call"
+06cc55664fc3905eaee22a853b0cbace0c10afc6 Revert "crypto: qat - reduce size of mapped region"
+2f51150946c83d016e9fb25fb3cefabd00d66204 random: avoid reading two cache lines on irq randomness
+5d618b6bc5437d822e6004bca32766df4e39f409 random: use expired timer rather than wq for mixing fast pool
 
---===============6581697086908070871==
+--===============7448844576508065366==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-32bdd664763d-1347231f47ea.txt
+Content-Disposition: attachment; filename=revlist-1347231f47ea-d04433f8b04c.txt
 
-4d72decd5220f7ea0f9f6d7788517fea3c072ca8 nilfs2: fix NULL pointer dereference at nilfs_bmap_lookup_at_level()
-419dc7536fc83d040dc3c050d07e2d98b377fc37 nilfs2: fix use-after-free bug of struct nilfs_root
-43cfd9475581c317a6f7d079ecf95d6fe2f3d5ec nilfs2: fix leak of nilfs_root in case of writer thread creation failure
-cd1497e539bf8c263fe811342849e3f3cc00dc44 nilfs2: replace WARN_ONs by nilfs_error for checkpoint acquisition failure
-4beab36ce024132b431073d56aaebc7842fe4698 ceph: don't truncate file in atomic_open
-2c15497e50f219c21c9ddcc882cf9c587673be85 nvme-pci: set min_align_mask before calculating max_hw_sectors
-0884fb59735ff8536da13e51f4dab0bf72ad08cd random: restore O_NONBLOCK support
-9527371fa715713f37af5cc438f1d7fcee7cb2b4 random: clamp credited irq bits to maximum mixed
-6c57d3ebdc8c4e551d87bd0bc4859310e13f921e ALSA: hda: Fix position reporting on Poulsbo
-3adb9400d6fa9316b3d385542787d5edb54b6c21 ALSA: hda/realtek: Add quirk for HP Zbook Firefly 14 G9 model
-171c5656540b8a6f5cc631e42266cd6334c33736 efi: Correct Macmini DMI match in uefi cert quirk
-2441a6a5a08fc8b9d14209942ff4bb8a395a78c5 scsi: stex: Properly zero out the passthrough command structure
-42fdce09d492a70678932a9f5f371e0b59b9be21 USB: serial: qcserial: add new usb-id for Dell branded EM7455
-68205aa9561358588cef178ee9c157dc25d1c026 Revert "USB: fixup for merge issue with "usb: dwc3: Don't switch OTG -> peripheral if extcon is present""
-41d0fe1fc1f6efaac495a9b4f5abf56c6d252cbc Revert "usb: dwc3: Don't switch OTG -> peripheral if extcon is present"
-f25f206314b544a69f5712367e322d405608761e Revert "powerpc/rtas: Implement reentrant rtas call"
-6849a500f95508c232d4db73678cc40440c8d709 Revert "crypto: qat - reduce size of mapped region"
-20b540c203dab152fcf869f5c1371451cd18d9aa random: avoid reading two cache lines on irq randomness
-1347231f47ea63273ad21ad811baf50cfff3e233 random: use expired timer rather than wq for mixing fast pool
+da8eade618324bd3fbe883289232f666dbad8655 nilfs2: fix NULL pointer dereference at nilfs_bmap_lookup_at_level()
+e7537d8cdf8f536c03d3bc7d2d64e2802b6a49d4 nilfs2: fix use-after-free bug of struct nilfs_root
+a4b7a4ff620efd92067d34082b2b75ecd16203b6 nilfs2: fix leak of nilfs_root in case of writer thread creation failure
+b56970fdf2dde06005b91de31c3589344af9f346 nilfs2: replace WARN_ONs by nilfs_error for checkpoint acquisition failure
+9039aaf5f0382db010c3b27aa6122ad1a97cc454 ceph: don't truncate file in atomic_open
+7f67156f3a33f0e0e38fd965118af39428acb96d nvme-pci: set min_align_mask before calculating max_hw_sectors
+2217bd6e797c243e6758c013657321696d8668d6 random: restore O_NONBLOCK support
+225c458b8f46e59d859292616d34a5b8f61a5f83 random: clamp credited irq bits to maximum mixed
+19215594c8ffee4b0965c310d794fe822e3a3966 ALSA: hda: Fix position reporting on Poulsbo
+2cc0477ad8fbb518d73a7b82f6fe1aea19ad4444 ALSA: hda/realtek: Add quirk for HP Zbook Firefly 14 G9 model
+0f9451139e24f02691ddd21fcd6c9ec67a6cc0f4 efi: Correct Macmini DMI match in uefi cert quirk
+66752af2be185d1416c6fee012278f4c0ce17978 scsi: stex: Properly zero out the passthrough command structure
+21f4b2a54880caa730625a7ea0206e22e01bfc9c USB: serial: qcserial: add new usb-id for Dell branded EM7455
+36d520f615ac3332cb9a55235b1337e3fcc87410 Revert "USB: fixup for merge issue with "usb: dwc3: Don't switch OTG -> peripheral if extcon is present""
+019f2d321149042e8e96c79dd8711a969e4072e8 Revert "usb: dwc3: Don't switch OTG -> peripheral if extcon is present"
+360afcf00cc5373e35d8896bcb37ad4a51a87841 Revert "powerpc/rtas: Implement reentrant rtas call"
+ad8a6ac704d8b4e676db84f906e116ac54582599 Revert "crypto: qat - reduce size of mapped region"
+95c5b4a818e5e54ca783b440c97f5377ee3abcf7 random: avoid reading two cache lines on irq randomness
+d04433f8b04c022ad6590286e568b97c10e65e6c random: use expired timer rather than wq for mixing fast pool
 
---===============6581697086908070871==
+--===============7448844576508065366==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-022975c6e23e-caa2ade3b2bf.txt
+Content-Disposition: attachment; filename=revlist-caa2ade3b2bf-ad5c8b0b2ec7.txt
 
-83e0ea891bea29628d60b011cb90a888e1146511 mm: pagewalk: Fix race between unmap and page walker
-c6fb937948c1db7ef3bf04e01b8a8a7ae3138826 perf tools: Fixup get_current_dir_name() compilation
-282488d58f644b88838f1ebd0efca6999ce96857 fs: fix UAF/GPF bug in nilfs_mdt_destroy
-7eb4be5442b9650a4df27f7c27fb76cd12097110 firmware: arm_scmi: Add SCMI PM driver remove routine
-cbd61d5624b4c299138f9d40e2282f7b5cd1f950 dmaengine: xilinx_dma: cleanup for fetching xlnx,num-fstores property
-58e1b8c7df7e73b9629c8654da7cd8e9904dbbc4 dmaengine: xilinx_dma: Report error in case of dma_set_mask_and_coherent API failure
-021819e91a61950df0ad519acac81853b81052e1 ARM: dts: fix Moxa SDIO 'compatible', remove 'sdhci' misnomer
-c2a3e9a0d1519aa057c431905c96c1f340563818 scsi: qedf: Fix a UAF bug in __qedf_probe()
-0102001c02a8ac9ecfad5ce1a94507b24e668c04 net/ieee802154: fix uninit value bug in dgram_sendmsg
-ca1ae8ce9c788867d289c9f3b59ba0bce331c8fa um: Cleanup syscall_handler_t cast in syscalls_32.h
-5eee98be42725525cafbf9e6d7aa6a16c86f9b03 um: Cleanup compiler warning in arch/x86/um/tls_32.c
-92879519564fdb5b682fbc4eef8276f49e494e54 arch: um: Mark the stack non-executable to fix a binutils warning
-dde955a215417e55b12f81fb2e24522b480bd6ad usb: mon: make mmapped memory read only
-00c26966a205149750d319568fcdcbcc2acd8049 USB: serial: ftdi_sio: fix 300 bps rate for SIO
-2f2e990207855461cdf9df33ee4b9e71823047c3 mmc: core: Replace with already defined values for readability
-2c3e4d5d75f157fa27ecaff8fe9ae0aedbcae3d2 mmc: core: Terminate infinite loop in SD-UHS voltage switch
-c0c1f242a95c503df512a5bc457285458f75b0f0 rpmsg: qcom: glink: replace strncpy() with strscpy_pad()
-75d54e8a02c3096d2be76718132480409d9a6aa5 nilfs2: fix NULL pointer dereference at nilfs_bmap_lookup_at_level()
-200b3eb9f4e05ac4018bd3e74be32d32ec88653e nilfs2: fix leak of nilfs_root in case of writer thread creation failure
-4fcf97b348494eaaa2f5ed2a7ed1aa11e7b8cdab nilfs2: replace WARN_ONs by nilfs_error for checkpoint acquisition failure
-a5371b7248b65d08d1eceb9e13f3fa373753b5ff ceph: don't truncate file in atomic_open
-5c8ce045f7d9091bb861d477b3dfea7e9b227178 random: clamp credited irq bits to maximum mixed
-aa8021d9f55bdbe6dc1a5be7d0c2372c43832e85 ALSA: hda: Fix position reporting on Poulsbo
-d48fc6908d53941f70272656cb85ccd522d4cbba efi: Correct Macmini DMI match in uefi cert quirk
-51b0c0f78290ade79439c91f4e1e9de809ab6801 scsi: stex: Properly zero out the passthrough command structure
-224c99c9de94f2b49d537fca6d1538bca2a91a34 USB: serial: qcserial: add new usb-id for Dell branded EM7455
-f204d149cc18cd12d67be7b5e56f7d69301cb97d random: restore O_NONBLOCK support
-caa2ade3b2bf0d94d18b457530b66f4bfe9205cd random: avoid reading two cache lines on irq randomness
+ca8764393d775757986679c6e38a3eeb8e326a7e mm: pagewalk: Fix race between unmap and page walker
+66ff391a0fc210137bd3fbdd8b27132409a0434b perf tools: Fixup get_current_dir_name() compilation
+c85e9d5eb18c4a3da84109f0d097c58b95fa6122 fs: fix UAF/GPF bug in nilfs_mdt_destroy
+09f2e38d75e0bcb6b1157217603e0eb311ff3f8c firmware: arm_scmi: Add SCMI PM driver remove routine
+190555687bdc9902e92825beff9ec90322292c1f dmaengine: xilinx_dma: cleanup for fetching xlnx,num-fstores property
+6695381d85343c6ef9b4832c049d3e81b21372b9 dmaengine: xilinx_dma: Report error in case of dma_set_mask_and_coherent API failure
+3509df1ecf790be86a962663b62e5b28e1d68ed3 ARM: dts: fix Moxa SDIO 'compatible', remove 'sdhci' misnomer
+444a7c9d125c9074ee34e5faeb2eb2be6b801d9a scsi: qedf: Fix a UAF bug in __qedf_probe()
+80150e02016a6adbc94e539f5793411d90b9b62f net/ieee802154: fix uninit value bug in dgram_sendmsg
+2f81709c6444b37ca120bc2b5ff4005acba50f1f um: Cleanup syscall_handler_t cast in syscalls_32.h
+7355e31c9706bcda5f75a81670e6a1d256604953 um: Cleanup compiler warning in arch/x86/um/tls_32.c
+585fb4a22c2a9208367bf1481eaca0fb133e1718 arch: um: Mark the stack non-executable to fix a binutils warning
+d15ccda3dfbf6eee9f578827503e432b1a88593c usb: mon: make mmapped memory read only
+e73cf3e4c3a1dba2217207fdb4770ac5d3286420 USB: serial: ftdi_sio: fix 300 bps rate for SIO
+25c6f0698a8286ae2e3b8b3a88818da77d0e94d8 mmc: core: Replace with already defined values for readability
+dccebc75e2a077d7a155572aa3689cb24aa52b9f mmc: core: Terminate infinite loop in SD-UHS voltage switch
+dfb6afc52dab615c955130ba28233c09ec6597d1 rpmsg: qcom: glink: replace strncpy() with strscpy_pad()
+a1502d59ee67b29a4b97fa410c9cfc25985aae5c nilfs2: fix NULL pointer dereference at nilfs_bmap_lookup_at_level()
+fdb785abf2886e7fde6315be51122c1a68ed0dad nilfs2: fix leak of nilfs_root in case of writer thread creation failure
+75a91b9b4fb0033492de3cd0f14922924b0357ac nilfs2: replace WARN_ONs by nilfs_error for checkpoint acquisition failure
+3614c81091e930b6015e728f4c0256409ca4ba4a ceph: don't truncate file in atomic_open
+6f20b296cce251f5078daad7b8f65e80acb9770e random: clamp credited irq bits to maximum mixed
+423b4d4eeefa798d237a53b21fdd9712d99a9144 ALSA: hda: Fix position reporting on Poulsbo
+523bb750a706b5c637f650476d1a52c27e955039 efi: Correct Macmini DMI match in uefi cert quirk
+e6f3241325de8ea2d8740507d36071b6a7b6cb52 scsi: stex: Properly zero out the passthrough command structure
+3149136e9440608f4e1c722a226fa1ab4f8f6153 USB: serial: qcserial: add new usb-id for Dell branded EM7455
+63ef304d7f392fcb01729930720df1c3b5cefad5 random: restore O_NONBLOCK support
+d87911776f92cce237a6a37438e1865583410399 random: avoid reading two cache lines on irq randomness
+ad5c8b0b2ec7b28a82d9ad785874c3537f9a7700 random: use expired timer rather than wq for mixing fast pool
 
---===============6581697086908070871==
+--===============7448844576508065366==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5a0a98fe77e4-1f020b0ffd08.txt
+Content-Disposition: attachment; filename=revlist-1f020b0ffd08-644568c044bb.txt
 
-cba84a2fd2d92e6dd14083c989657480a6e690a4 nilfs2: fix NULL pointer dereference at nilfs_bmap_lookup_at_level()
-46a0db2b55ab63b4387ad2aca1e7a743eb7fc5fd nilfs2: fix use-after-free bug of struct nilfs_root
-97fa658d4757d1f7004f5527db27f46c737fbf09 nilfs2: fix leak of nilfs_root in case of writer thread creation failure
-3c315f8e51c991778d2e878449fc40435db5e0ce nilfs2: replace WARN_ONs by nilfs_error for checkpoint acquisition failure
-90c5f56eb0d95d1d53297d3f5a0ed17cc81a6264 nvme-pci: set min_align_mask before calculating max_hw_sectors
-7031ec71aee2aabe6e7c4a5c310342d6f43403fb random: restore O_NONBLOCK support
-061c963ab67c87bf573fa0546145b15b0d1fbac7 random: clamp credited irq bits to maximum mixed
-46836839e2111ee350cb0f08f4ebe9abbf421995 ALSA: hda: Fix position reporting on Poulsbo
-e1c9f9c0eba0c5fec04aad2838cf98adff756829 ALSA: hda/realtek: Add quirk for HP Zbook Firefly 14 G9 model
-84ec828c6bf911645e1005d49a8ff2927ed24afe efi: Correct Macmini DMI match in uefi cert quirk
-9bf4e420634b8d8728ce9b364de13bcba7c048ea scsi: qla2xxx: Revert "scsi: qla2xxx: Fix response queue handler reading stale packets"
-673573a16e98396c08d769b8b596455c1bb291a6 scsi: qla2xxx: Fix response queue handler reading stale packets
-e767b3b331a98a7ff90fd94cfaafc4db44c780d8 scsi: stex: Properly zero out the passthrough command structure
-a1113bd7c89b9eae5b135ccfc2fbeec44bacb135 USB: serial: qcserial: add new usb-id for Dell branded EM7455
-0b951d430055bd4e384ca4e97da08a39fb59a889 Revert "USB: fixup for merge issue with "usb: dwc3: Don't switch OTG -> peripheral if extcon is present""
-3a846a8f448b60da8116528e569e7a6cd6c1df8c Revert "usb: dwc3: Don't switch OTG -> peripheral if extcon is present"
-2b067b3937a6c8177126fd31c2e8e365d48a8ef1 Revert "powerpc/rtas: Implement reentrant rtas call"
-92c48c7838fc1c77b47bfc13f35810feed9d9cd2 Revert "crypto: qat - reduce size of mapped region"
-574079d6d099dab71b85cebd801b304b8f7a1008 random: avoid reading two cache lines on irq randomness
-1f020b0ffd08f9e414242caff3b671c15ed5c6d9 random: use expired timer rather than wq for mixing fast pool
+473ce7a55528a26b388f6e57fa39303be94aee44 nilfs2: fix NULL pointer dereference at nilfs_bmap_lookup_at_level()
+3cdbe2c1935c0b806ad6d789e33280f639fae3d3 nilfs2: fix use-after-free bug of struct nilfs_root
+c8766ccbeda5e45125ffa335b710ea7ce4db1f8d nilfs2: fix leak of nilfs_root in case of writer thread creation failure
+ee5f7ac5285aec82aa10363966a4575f36d56f1b nilfs2: replace WARN_ONs by nilfs_error for checkpoint acquisition failure
+c099b2720235f9968b812ce6d612068d4b7021d5 nvme-pci: set min_align_mask before calculating max_hw_sectors
+fc20405b10df06a66f26e8b1bf992f9cd1b2c0f4 random: restore O_NONBLOCK support
+829e7b0846406cc84c0c233f04f584a0afd58f87 random: clamp credited irq bits to maximum mixed
+6e9f6d0dbdac29e715fafa452c91b43cb2a6c1be ALSA: hda: Fix position reporting on Poulsbo
+bf736daeba8e3440fba1e37ede4e5b0231b66c79 ALSA: hda/realtek: Add quirk for HP Zbook Firefly 14 G9 model
+734bf331243d1f6c186519b726f5206d72425753 efi: Correct Macmini DMI match in uefi cert quirk
+d21d8f6e07c613a9a21e07e30fa73de3e0842df0 scsi: qla2xxx: Revert "scsi: qla2xxx: Fix response queue handler reading stale packets"
+3767350ee112127a9e2b653247e5a99eb6bc12e2 scsi: qla2xxx: Fix response queue handler reading stale packets
+76925436709f04fc96023a42c3ea785203ef32e9 scsi: stex: Properly zero out the passthrough command structure
+234f79a13313f7cbc79f3332279da3f79bd466cb USB: serial: qcserial: add new usb-id for Dell branded EM7455
+08262b04c450c7a784890cef53c07879e5161420 Revert "USB: fixup for merge issue with "usb: dwc3: Don't switch OTG -> peripheral if extcon is present""
+3a4aa89564f118a1a60500a551217aa797b3e071 Revert "usb: dwc3: Don't switch OTG -> peripheral if extcon is present"
+3740fa37d5460c2015007515b4cca9dd54969296 Revert "powerpc/rtas: Implement reentrant rtas call"
+5859eec95961e03fb7a03f7b70e14c0196ac44c8 Revert "crypto: qat - reduce size of mapped region"
+133c3698d6b4993e4a158874601298d719d6d6d0 random: avoid reading two cache lines on irq randomness
+644568c044bb907aab873e1a2cb6b58e8838fa69 random: use expired timer rather than wq for mixing fast pool
 
---===============6581697086908070871==--
+--===============7448844576508065366==--
