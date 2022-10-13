@@ -1,19 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
-Date: Thu, 13 Oct 2022 15:40:42 -0000
-Message-Id: <166567564222.23035.2983331247282654956@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
+Date: Thu, 13 Oct 2022 15:47:42 -0000
+Message-Id: <166567606298.27032.12789554861461864728@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/riscv/linux
+repo: pub/scm/linux/kernel/git/palmer/linux
 user: palmer
 changes:
   - ref: refs/heads/for-next
-    old: f2913d006fcdb61719635e093d1b5dd0dafecac7
-    new: 3cebf80e9a0d3adcb174053be32c88a640b3344b
+    old: 3cebf80e9a0d3adcb174053be32c88a640b3344b
+    new: 6224db7881936c8e1c3b352b5debbbbd8856911a
     log: |
-         3cebf80e9a0d3adcb174053be32c88a640b3344b riscv: Pass -mno-relax only on lld < 15.0.0
+         e47bddcb2ec531022a915f896f13586470b593d0 riscv: cleanup svpbmt cpufeature probing
+         f055268e3946555deb9bb80b2c8c9798c64dbc47 riscv: drop some idefs from CMO initialization
+         499590c084f13b6aca225e5766edeebd48437ee8 riscv: use BIT() macros in t-head errata init
+         e283187c034cd80c1dd98ad732c73ce930a5efa4 riscv: use BIT() marco for cpufeature probing
+         14057733109dcc83c35a6730f3b7112aac4d2b82 riscv: check for kernel config option in t-head memory types errata
+         6224db7881936c8e1c3b352b5debbbbd8856911a Merge patch series "Some style cleanups for recent extension additions"
          
