@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3934940804871891470=="
+Content-Type: multipart/mixed; boundary="===============8772172914458008092=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Thu, 13 Oct 2022 15:07:30 -0000
-Message-Id: <166567365069.30341.11258792159114437314@gitolite.kernel.org>
+Date: Thu, 13 Oct 2022 15:07:42 -0000
+Message-Id: <166567366250.30492.3406702184558900061@gitolite.kernel.org>
 
---===============3934940804871891470==
+--===============8772172914458008092==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/sched/urgent
-    old: dcf8e5633e2e69ad60b730ab5905608b756a032f
-    new: 639eab2e22c56ddd9c40ee8c6753511f804a4436
-    log: revlist-dcf8e5633e2e-639eab2e22c5.txt
+  - ref: refs/heads/perf/urgent
+    old: 6b959ba22d34ca793ffdb15b5715457c78e38b1a
+    new: bf7284dfb1e447b0f48d2b69a64cb6d0e9da83f7
+    log: revlist-6b959ba22d34-bf7284dfb1e4.txt
 
---===============3934940804871891470==
+--===============8772172914458008092==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-dcf8e5633e2e-639eab2e22c5.txt
+Content-Disposition: attachment; filename=revlist-6b959ba22d34-bf7284dfb1e4.txt
 
-5a423081b2465d38baf2fcbbc19f77d211507061 mm: convert do_swap_page() to use swap_cache_get_folio()
-cb691e2f28bc63b1a872aa593dd542ee796e8364 mm: remove lookup_swap_cache()
 aedd74d4397a2b1a4882215b6169b47d139c0319 swap_state: convert free_swap_cache() to use a folio
 71fa1a533d2e027a3df98fd065605bebab42d7bf swap: convert swap_writepage() to use a folio
 e4a2ed94908cc0104b8826ed8d831661ed1c3ea1 mm: convert do_wp_page() to use a folio
@@ -1048,7 +1046,9 @@ dea2df3cc72555633cc7858ce1daa4b757f843ad LoongArch: Add SysRq-x (TLB Dump) suppo
 d3cf40513330752238ae585fdb0e46ec6baa588b Merge tag 'vfio-v6.1-rc1' of https://github.com/awilliam/linux-vfio
 661e00960f072a63bb956836e65f2ce3a1ca8793 Merge tag 'linux-kselftest-next-6.1-rc1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
 a185a0995518a3355c8623c95c36aaaae489de10 Merge tag 'linux-kselftest-kunit-6.1-rc1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
-8c42bbeddea3d647ce210febf992a6c292136205 sched/core: Fix the bug that traversal in sched_group_cookie_match is wrong
-639eab2e22c56ddd9c40ee8c6753511f804a4436 sched: Introduce struct balance_callback to avoid CFI mismatches
+b6509735239b9a42451e7ad2975a350ccb0a7a13 perf: Fix missing SIGTRAPs
+f354f595cde2bb92a0b9de837cd43f2101c5f199 selftests/perf_events: Add a SIGTRAP stress test with disables
+5dd979af34d36b413b4a11fe952b7612e72514a5 bpf: fix sample_flags for bpf_perf_event_output
+bf7284dfb1e447b0f48d2b69a64cb6d0e9da83f7 x86/perf: Fixed kernel panic during boot on Nano processor.
 
---===============3934940804871891470==--
+--===============8772172914458008092==--
