@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Thu, 13 Oct 2022 19:07:37 -0000
-Message-Id: <166568805744.12933.2051431333294271953@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Thu, 13 Oct 2022 19:10:54 -0000
+Message-Id: <166568825439.15908.815899544503436770@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: andrii
 changes:
-  - ref: refs/heads/dev
-    old: f965c827ea36521a2145b538660fe64237ab4a96
-    new: 2eac2f7a9a6d8921e8084a6acdffa595e99dbd17
+  - ref: refs/heads/master
+    old: e94e0a2d3730cd718a3a67682b038b05fa40d2a7
+    new: 62c69e89e81bfbdb9a87ae3e0599dcc6aacf786b
     log: |
-         2eac2f7a9a6d8921e8084a6acdffa595e99dbd17 rcu-tasks: Provide rcu_trace_implies_rcu_gp()
+         62c69e89e81bfbdb9a87ae3e0599dcc6aacf786b selftests/bpf: Use sys_pidfd_open() helper when possible
          
