@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2945091551432322611=="
+Content-Type: multipart/mixed; boundary="===============8778083553775129983=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/wbg/counter
-Date: Thu, 13 Oct 2022 14:40:09 -0000
-Message-Id: <166567200919.11617.5256709535018491870@gitolite.kernel.org>
+Date: Thu, 13 Oct 2022 14:42:30 -0000
+Message-Id: <166567215049.12528.15029172390040812292@gitolite.kernel.org>
 
---===============2945091551432322611==
+--===============8778083553775129983==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/wbg/counter
 user: wbg
 changes:
-  - ref: refs/heads/counter-next
-    old: bb980cb69381c570b72701398991100ac91079ec
-    new: 8ddf5c2d1fb0f36d97c466e4a5215c74583925f2
-    log: revlist-bb980cb69381-8ddf5c2d1fb0.txt
+  - ref: refs/heads/counter-fixes
+    old: 179eed11eaf225dbd908993b510df0c8f67b1230
+    new: 5273af48821a2d275562a534cae71dc085a412be
+    log: revlist-179eed11eaf2-5273af48821a.txt
 
---===============2945091551432322611==
+--===============8778083553775129983==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bb980cb69381-8ddf5c2d1fb0.txt
+Content-Disposition: attachment; filename=revlist-179eed11eaf2-5273af48821a.txt
 
-814816d71e29934d0a76ee259b54c0b80c3b0e4a powerpc: Fix hard_irq_disable() with sanitizer
-8e83622ae7ca481c76c8fd9579877f6abae64ca2 USB: serial: ch341: fix lost character on LCR updates
 41ca302a697b64a3dab4676e01d0d11bb184737d USB: serial: ch341: fix disabled rx timer on older devices
 ec1bd37123c607ca6485beb4542a792a4db765aa fscache: fix misdocumented parameter
 873aefb376bbc0ed1dd2381ea1d6ec88106fdbd4 vfio/type1: Unpin zero pages
@@ -1050,5 +1048,7 @@ c835de6a0d1282dbfaa73b296f32fae1bd41a015 counter: Introduce the COUNTER_COMP_ARR
 5ab4e29e31359fab9181c92b71601060bc7b28d5 Documentation: ABI: sysfs-bus-counter: add frequency & num_overflows items
 f6d389d28bd561fa66fda6d3a9e86d4125603fe8 counter: ti-ecap-capture: capture driver support for ECAP
 8ddf5c2d1fb0f36d97c466e4a5215c74583925f2 MAINTAINERS: add TI ECAP driver info
+223a1954219d91329366e41e483d41f28ba59b4c counter: Reduce DEFINE_COUNTER_ARRAY_POLARITY() to defining counter_array
+5273af48821a2d275562a534cae71dc085a412be counter: ti-ecap-capture: fix IS_ERR() vs NULL check
 
---===============2945091551432322611==--
+--===============8778083553775129983==--
