@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4728773568331398534=="
+Content-Type: multipart/mixed; boundary="===============1008324269680878679=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Thu, 13 Oct 2022 06:41:56 -0000
-Message-Id: <166564331670.15414.17498121237713745044@gitolite.kernel.org>
+Date: Thu, 13 Oct 2022 06:42:00 -0000
+Message-Id: <166564332013.15489.2905571410387840903@gitolite.kernel.org>
 
---===============4728773568331398534==
+--===============1008324269680878679==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-next
+  - ref: refs/heads/usb-testing
     old: 49da070062390094112b423ba443ea193527b2e4
     new: a185a0995518a3355c8623c95c36aaaae489de10
     log: revlist-49da07006239-a185a0995518.txt
 
---===============4728773568331398534==
+--===============1008324269680878679==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1665643363 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1665643366 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1665643315-e5a7cf0adce06453f18d054b18da5178e032e2d5
+nonce 1665643319-8fc362b66d419b707f2342658414927da4364945
 
-49da070062390094112b423ba443ea193527b2e4 a185a0995518a3355c8623c95c36aaaae489de10 refs/heads/usb-next
+49da070062390094112b423ba443ea193527b2e4 a185a0995518a3355c8623c95c36aaaae489de10 refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmNHs2MbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+GPgP/29Z9j77BQ233q7RC0Xe
-M2Zx2CdHAngnIiGuESXErXa+xV3k+FJhiNScAcCsnLc7UjDD9qJ+FYkyKigs3id6
-le4mnQl7j20b/Hp1EqpiO2M+ffSka3tFXwTZZ1sKFnw6B+nqYJSHLT4hvgVe3zI4
-By6x/BWJnjZfO7VcItOPrSOSDmJA90OTLVvdU/lWtbxlhFBbOdKmHaYfNXVG+UXU
-cp2niwkhX1CxvDC4sxOeOBCsWrdUsmUyQt0Aj7jkCM+Rz8PfobcFI/Bk0TrlC2tP
-VLaC6PiY4Swzy47hiH3OyulZxWh6Kj1pM27/5E0sAtvxCpbjpsWdJPAnJmTb1mhW
-KP8nUqp4V8CYy2GCDZP3OasoIMSfuGUr36pKXnCwzDPPx8kJaKQ5BM9L74SuLrpe
-DsHxZYN8uAInoVnFivUrbvjlfLN8+BJEuJ6h7a373OtndP+2Rg8qfsyDTgX9dnTa
-h/3TAk+0MqfkQ29iC3wPY2vKpKUAk79aN3gQ+GvE4LQc8hyQB46E0zm7Apl16LFZ
-2nSpHpe2+SNGg7WTTIyezTqMjx+NMIicmUv1/B0EwiBSKWZuABEahsrmefglUWO7
-H7MiMDCcrRjk/6ZmbWLbCXzQMTHmDW1AdrZnwMql131/RIQLyQdsZRN+S5pEy88s
-Upb7d8MBPzCkaMdfYVa4A9tm
-=Z2JM
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmNHs2YbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+BzgQAKopalCjDwz4v1dAPnne
+DhvpmPdaqI9lnW+K+AD1h/bdtin7ZYrAfLGekJM7oMS/bADVxfwL55+XAKyz2CeE
+OeLmezS3+sm331HqDDNEpJ05l6hbVseVXZ7RBOXZAYK7sICAqz1a2gMEHYz0ffO6
+qdO3MG6v5Hpf2oYIswBYW3Rx6z71eIKxyNxd+AXUs87A1dCPYCCNN6knccbp4HB/
+gmIw1G6qvc3tXnRQUo3ej3GuY/FBr+ika3ivIlTZd59khIirzJx9WMxx5MOo2kN7
+R/qct8v65lZa8fic9JiWNQQoltW/e16c3rE4S5qVoNfROhuG5R9QnJySeOQNsZ+x
+dOJdiEM7NIZY4orAJ8mk1OzwxWO+6vY85K7W+pkQm5D8t64pLOt4wz/O2V1TmGEe
+uwXJ988Y8yozX7gkvC88LmkxVmRHNp58ZlhXIMV4JaNfXMn2t4jBFuES5FVrARWP
+YLX0vuGhg3g9LgPCqg7Pxlow+ZNc8LGyaJjejPnGjo3OCMYSTM1EpauRkd/neB5x
+zHiSDObWc9P36VqLHlBkFUzQ5QMCQACJzTFe5wRnC8FNPlnciKsnr5XAS+7pO4BQ
+WHUopTRO7oN7aTUhx6H2paCvu+dqImawr6vnAHn4qaJ3Acoo3qMRSpmZttTB0pZZ
+goxe7DI72uqZ/2J/ImULTvJr
+=PRtm
 -----END PGP SIGNATURE-----
 
---===============4728773568331398534==
+--===============1008324269680878679==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -302,4 +302,4 @@ d3cf40513330752238ae585fdb0e46ec6baa588b Merge tag 'vfio-v6.1-rc1' of https://gi
 661e00960f072a63bb956836e65f2ce3a1ca8793 Merge tag 'linux-kselftest-next-6.1-rc1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
 a185a0995518a3355c8623c95c36aaaae489de10 Merge tag 'linux-kselftest-kunit-6.1-rc1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
 
---===============4728773568331398534==--
+--===============1008324269680878679==--
