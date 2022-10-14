@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec
-Date: Fri, 14 Oct 2022 13:36:21 -0000
-Message-Id: <166575458115.3586.12511529681729367343@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ulfh/mmc
+Date: Fri, 14 Oct 2022 14:03:46 -0000
+Message-Id: <166575622618.21880.16682389302435424312@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/klassert/ipsec
-user: klassert
+repo: pub/scm/linux/kernel/git/ulfh/mmc
+user: ulfh
 changes:
-  - ref: refs/heads/master
-    old: 1d22f78d05737ce21bff7b88b6e58873f35e65ba
-    new: d83f7040e18489265b4b121f33f99b02e52dabda
+  - ref: refs/heads/fixes
+    old: 1702591f069c0b7461105d12eea3f5427ae99f29
+    new: b5c1fbc57a5e74e7618a75eb08ed3a9a3f8dcb95
     log: |
-         3a5913183aa1b14148c723bda030e6102ad73008 xfrm: fix "disable_policy" on ipv4 early demux
-         d83f7040e18489265b4b121f33f99b02e52dabda xfrm: lwtunnel: squelch kernel warning in case XFRM encap type is not available
+         3f40b9360181ecb90833c21073c60f30228fa039 mmc: sdhci-esdhc-imx: Propagate ESDHC_FLAG_HS400* only on 8bit bus
+         188b4cbf02acbec85a21b865f7a5bdeffaf146de mmc: sdhci-pci-core: Disable ES for ASUS BIOS on Jasper Lake
+         b5c1fbc57a5e74e7618a75eb08ed3a9a3f8dcb95 mmc: core: Fix kernel panic when remove non-standard SDIO card
          
