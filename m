@@ -1,47 +1,19 @@
-Content-Type: multipart/mixed; boundary="===============2226687788492560072=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vbabka/slab
-Date: Fri, 14 Oct 2022 08:14:55 -0000
-Message-Id: <166573529564.21437.12527082959694201275@gitolite.kernel.org>
-
---===============2226687788492560072==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Fri, 14 Oct 2022 08:15:02 -0000
+Message-Id: <166573530254.22654.6928499761957084955@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vbabka/slab
-user: vbabka
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/netdev/net
+user: davem
 changes:
-  - ref: refs/heads/for-6.2/slub-sysfs
-    old: 0000000000000000000000000000000000000000
-    new: e2577c7252efcf196ad870a519f31ddcef4d6233
-
---===============2226687788492560072==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1665735292 +0200
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/slab.git
-nonce 1665735292-e8b907e00e244668b8cd404fdbfd3e635567bd22
-
-0000000000000000000000000000000000000000 e2577c7252efcf196ad870a519f31ddcef4d6233 refs/heads/for-6.2/slub-sysfs
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCAAdFiEEjUuTAak14xi+SF7M4CHKc/GJqRAFAmNJGn0ACgkQ4CHKc/GJ
-qRDLTgf/YJU1EhngeO1cHmNGqVi6AsM7HeXQYZpdGuHSTvvy70QdPwk1pN+w4qX4
-8Dp0mDtfi6KA0MpoYSJlnzaveCHpi61vznKlid0UX1BjWJqGnGVXldT4CP4HTm9w
-hhaLyq+GSkwei+EIgSO7anAlAZo3A4oDKIun90wH6AbDvv9yZ6a8KeecjXRvKk6k
-qCyIZOzzlhGun3t92bypetCyG9olzTMuGHtfTLwWfrtPFX0p0M8hm7TAHYFCBAZs
-IfrsyxBoKzlZ+gF8hmsiyFMo0JV5DeOwNf7pZsSFt/eik7lFSV8XVcvVp6c5yTHi
-pciTpg8aBNmHH+WcM+RJ2nxsfEPURg==
-=LcMX
------END PGP SIGNATURE-----
-
---===============2226687788492560072==--
+  - ref: refs/heads/master
+    old: 9a9a5d80ec9887814042c69768c2fee7961db7f4
+    new: 0c93411795513a0e8dfcb5bcc7bab756b98bfc73
+    log: |
+         0c93411795513a0e8dfcb5bcc7bab756b98bfc73 MAINTAINERS: nfc: s3fwrn5: Drop Krzysztof Opasiak
+         
