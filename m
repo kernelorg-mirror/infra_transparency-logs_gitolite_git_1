@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Fri, 14 Oct 2022 00:16:48 -0000
-Message-Id: <166570660880.6292.7396932255153056305@gitolite.kernel.org>
+Date: Fri, 14 Oct 2022 00:28:31 -0000
+Message-Id: <166570731129.14769.12100196695815534385@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,10 +12,10 @@ repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
   - ref: refs/heads/damon/next
-    old: 2d060a5eccd316a1109dce522cee2e1ad79a67e9
-    new: 45cc4c0ca89e0cb2a3834f13362d53d3f82475aa
+    old: 45cc4c0ca89e0cb2a3834f13362d53d3f82475aa
+    new: fffeefc2681e3e98ea610ec1f7f98acf338139de
     log: |
-         b4441e6e99f2087e09848811d5f9c078b4505c2a mm/damon/sysfs-schemes: implement schemes region directory
-         3760a3ac8df38ae5512653b9bae9f377ad98f228 mm/damon/sysfs-schemes: implement scheme regions directory
-         45cc4c0ca89e0cb2a3834f13362d53d3f82475aa mm/damon/sysfs-schemes: link tried_regions directory in scheme directory
+         789b094c646d84d4cfef5708a75fba92c4471520 mm/damon/sysfs-schemes: implement scheme regions directory
+         5705a01bc17ae11732bac035bdbf867c944423b8 mm/damon/sysfs-schemes: link tried_regions directory in scheme directory
+         fffeefc2681e3e98ea610ec1f7f98acf338139de mm/damon/sysfs-schemes: implement scheme region directory
          
