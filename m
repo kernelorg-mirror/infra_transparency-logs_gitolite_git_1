@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Fri, 14 Oct 2022 13:34:06 -0000
-Message-Id: <166575444609.1153.17729017844001326350@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec
+Date: Fri, 14 Oct 2022 13:36:21 -0000
+Message-Id: <166575458115.3586.12511529681729367343@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-user: masahiroy
+repo: pub/scm/linux/kernel/git/klassert/ipsec
+user: klassert
 changes:
-  - ref: refs/heads/for-next
-    old: 0a7606a9832ab375a38425a659bda13712ca89ae
-    new: 65d0a0ecbb64a7ef368845afa97620114e815ec1
+  - ref: refs/heads/master
+    old: 1d22f78d05737ce21bff7b88b6e58873f35e65ba
+    new: d83f7040e18489265b4b121f33f99b02e52dabda
     log: |
-         11df33c36c4b7a04d2674531f2c6178ad8d61572 modpost: put modpost options before argument
-         04518e4c2edc78bc90b4651d50c4aad48d09ac23 scripts/clang-tools: Convert clang-tidy args to list
-         65d0a0ecbb64a7ef368845afa97620114e815ec1 kbuild: move -Werror from KBUILD_CFLAGS to KBUILD_CPPFLAGS
+         3a5913183aa1b14148c723bda030e6102ad73008 xfrm: fix "disable_policy" on ipv4 early demux
+         d83f7040e18489265b4b121f33f99b02e52dabda xfrm: lwtunnel: squelch kernel warning in case XFRM encap type is not available
          
