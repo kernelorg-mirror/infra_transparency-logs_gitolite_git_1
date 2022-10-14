@@ -1,104 +1,93 @@
-Content-Type: multipart/mixed; boundary="===============8397216291555593570=="
+Content-Type: multipart/mixed; boundary="===============7981223230988285989=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/git/git
-Date: Fri, 14 Oct 2022 19:10:24 -0000
-Message-Id: <166577462400.8808.1144079240184464096@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Fri, 14 Oct 2022 19:12:21 -0000
+Message-Id: <166577474153.9610.7108397698342693648@gitolite.kernel.org>
 
---===============8397216291555593570==
+--===============7981223230988285989==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/git/git
-user: junio
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/next
-    old: 393abc30195515fefd2e70a2fbd78e5239ae85ed
-    new: 90850a2211376fe259fd2fcc825df72019d35a3c
-    log: |
-         413bc6d20ad4d686f68afcf3c012b77840c1243b git.c: improve code readability in cmd_main()
-         0dc4e5c57498cc142cbcc9e8a5f0667368d7c860 branch: support for shortcuts like @{-1}, completed
-         d7f07dbecf266bbaa917f1223e46e67d29fe11d4 Merge branch 'ds/cmd-main-reorder' into next
-         90850a2211376fe259fd2fcc825df72019d35a3c Merge branch 'rj/branch-edit-description-with-nth-checkout' into next
-         
-  - ref: refs/heads/seen
-    old: 192ff102ae13b1760c47ec3c2d41b5a58ebabb6a
-    new: c4e284c6d6cdbdbf17b15dee8f223f884ea7032d
-    log: revlist-192ff102ae13-c4e284c6d6cd.txt
+  - ref: refs/heads/master
+    old: 9c9155a3509a2ebdb06d77c7a621e9685c802eac
+    new: f2e44139f3e0edb8be8821fe4dc93afd7b034182
+    log: revlist-9c9155a3509a-f2e44139f3e0.txt
 
---===============8397216291555593570==
+--===============7981223230988285989==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-192ff102ae13-c4e284c6d6cd.txt
+Content-Disposition: attachment; filename=revlist-9c9155a3509a-f2e44139f3e0.txt
 
-8d2863e4ed7f35baeb2604ee8ed39fe6aa5e62c7 t1002: modernize outdated conditional
-4671e49c3576afb7e2885521750e4eabeb769719 patch-id: fix stable patch id for binary / header-only
-f35fd78361d0597006edc00b30cdf25ceba02bef patch-id: use stable patch-id for rebases
-e2ca1bd7adacd4d49727bf67190409389ac3ca2d builtin: patch-id: fix patch-id with binary diffs
-d34ddba963f7ca5ac16e0da6ae90f3b1ae07db71 patch-id: fix patch-id for mode changes
-f8685a6beb338c25d727c9df7f2ce72b0f4cfe7a builtin: patch-id: add --include-whitespace as a command mode
-5168f3b1ef6f4a1851866c7f093ce94467aabbc7 builtin: patch-id: remove unused diff-tree prefix
-9d82679db534f3b7f9d4940e504b345365d86734 documentation: format-patch: clarify requirements for patch-ids to match
-4037c4a889c736bc82dcf9118a64cee261c4fa30 Makefile + shared.mak: rename and indent $(QUIET_SPATCH_T)
-663708257aa1fff9971843c1ccca63776c7eb653 cocci rules: remove unused "F" metavariable from pending rule
-470a84cde6eade479f58e31811e2f031e600e38f Makefile: add ability to TAB-complete cocci *.patch rules
-2df44642dc24d0bf7196bb5c60ca1d4515f821fa Makefile: have "coccicheck" re-run if flags change
-36a2cfb6920fdcaf090f369fea149856c6f17087 Makefile: split off SPATCH_BATCH_SIZE comment from "cocci" heading
-b8d0784a13a0ff858b933e77018613e24bfc119f cocci: split off include-less "tests" from SPATCH_FLAGS
-52ce1f85dbaeb4bbe8be0793e1ef4b0420772a14 cocci: split off "--all-includes" from SPATCH_FLAGS
-a88ba63cb31970a5f5df973849d84ff62d0fcb36 cocci: make "coccicheck" rule incremental
-9d1104e1399834db061cc87c7bee958f6ba8d105 cocci: optimistically use COMPUTE_HEADER_DEPENDENCIES
-aab66f60c6d834c91054639580e6a01e2558b9fe cocci: run against a generated ALL.cocci
-8224fa8b8dc4ef62bf773925df83c49066cf8109 spatchcache: add a ccache-alike for "spatch"
-eef2742930676b7dbf1334be9769c6750afe333a Merge branch 'ed/fsmonitor-on-networked-macos' into jch
-53d7f62c68234475c29184032e9e792ec0c351d4 Merge branch 'rs/bisect-start-leakfix' into jch
-f0223c75fba9752abf2c122a1c796b5c0bcdd8ce Merge branch 'jk/cleanup-callback-parameters' into jch
-b5090be0534e536b9fbf228eaec9d09ae3b7fabe Merge branch 'jc/branch-description-unset' into jch
-ec025002b6902eba4948d5f22723b46e1c264c81 Merge branch 'jc/tmp-objdir' into jch
-a70f53c048091d075087c29999ab5c48ebb7743f Merge branch 'ab/unused-annotation' into jch
-85f44c08d76aacc7588ac4cf4445b7dbb717c525 Merge branch 'dd/document-runtime-prefix-better' into jch
-b462c2bc2e5dd679316c65e0f7bf6ae65af3b9db Merge branch 'jc/use-of-uc-in-log-messages' into jch
-e09e15bf9380bad9c633b12d0a8544a9df00a26e Merge branch 'rs/use-fspathncmp' into jch
-ad42e84375c693acb0cf7681e2501b80954f6021 Merge branch 'jt/promisor-remote-fetch-tweak' into jch
-10fa852f1fc6c6e16b3c52923ea4c7e9fa60e161 Merge branch 'rj/branch-edit-desc-unborn' into jch
-0091d588a42e3c2bc679ee8c88342ae02870a131 Merge branch 'pw/remove-rebase-p-test' into jch
-eedbee65088c63c0c6ce721eb53d745bb6fefe4b Merge branch 'jc/symbolic-ref-no-recurse' into jch
-66c35021573c8214e3acafa1a1bfe4658630aa8b Merge branch 'ab/coding-guidelines-c99' into jch
-ba8c8cc286111cd2cb5c9ea4ff600311a8a5472c Merge branch 'ab/grep-simplify-extended-expression' into jch
-25a7860365666e4d566a667ddfe98e4f372d878a Merge branch 'rs/archive-dedup-printf' into jch
-e626b70da22f532bd565de1450466d2b4faf8b6e Merge branch 'jh/struct-zero-init-with-older-clang' into jch
-deb15df7f2eee557c3ab5748772a971280617f9c Merge branch 'ds/cmd-main-reorder' into jch
-85ca1e9970a036dd34d00deb7ee5624e6cbed298 Merge branch 'rj/branch-edit-description-with-nth-checkout' into jch
-b4f7302d4426601a613a23c9076b6ca4bea7c4f6 ### match next
-60b3826f333e65f52f1196bc3ecc73276dc011ca Merge branch 'rs/diff-caret-bang-with-parents' into jch
-11521395a6f6654afadbb4cecdb6ced79ad9f852 Merge branch 'tb/diffstat-with-utf8-strwidth' into jch
-706903a216e164bd957f09c0f6e3cc0ccff29cc2 Merge branch 'ag/merge-strategies-in-c' into jch
-73b8b9e8ed584cb953f6f90df5f15887c94d87ad Merge branch 'en/sparse-checkout-design' into jch
-077d1cbae6188c000dcb805c24b519e3415d5ea7 Merge branch 'ds/bundle-uri-3' into jch
-7554c198a490a2ab84c3f357f1db7ab55d38a784 Merge branch 'sd/doc-smtp-encryption' into jch
-10d03fe23bf867b9c36f6ce3b2f77a512221c924 Merge branch 'gc/bare-repo-discovery' into jch
-a70a83830533bbe1ce739b70389f3179c33f5528 Merge branch 'pw/test-todo' into seen
-39d40cef88b22b0d3c8a3b96c6e89b1701cbb012 Merge branch 'ab/run-hook-api-cleanup' into seen
-0e4a000428efdeffcc0ffb493735dd96b761aace Merge branch 'js/bisect-in-c' into seen
-47464e034e66fdcbeec84e153bed939b0959cb09 Merge branch 'ab/coccicheck-incremental' into seen
-7e56ce7c72b341e44e4328c43bec58bc07bd5a96 Merge branch 'ab/doc-synopsis-and-cmd-usage' into seen
-0176a222bb0b01f322612915aa4b16cf8c08a64f ### stalled
-784ebbd511cf3a126d07b0d5a7ec96481ace77df Merge branch 'po/glossary-around-traversal' into seen
-8d1211ed7bad5b9b2753b6bd4f2a5f21dc7ae2bd Merge branch 'es/mark-gc-cruft-as-experimental' into seen
-860f55dc017131f4ce48284777890df4c5f22da8 Merge branch 'js/cmake-updates' into seen
-644a367efad57d08cbcc8329348dd49647722265 Merge branch 'gc/submodule-clone-update-with-branches' into seen
-1de1544aadff3dd46e8407e0bc02d145d594c120 Merge branch 'pw/rebase-keep-base-fixes' into seen
-849090302b09de8dda461d4e1b217f73cc4ab5e7 Merge branch 'mj/credential-helper-auth-headers' into seen
-1ee460d6070caac6758444386944a2d1cd7e31c5 Merge branch 'es/doc-creation-factor-fix' into seen
-1a25e0361be919a8bcbb55d924971cf14f82d0e3 Merge branch 'pw/rebase-reflog-fixes' into seen
-39e670d18ffa07c9c12742421fe036e31c123763 Merge branch 'tb/midx-bitmap-selection-fix' into seen
-50d31737fed064fde038a0af436ee05ade753edd Merge branch 'jh/trace2-timers-and-counters' into seen
-618b71355291377e48943f5f42588e7787c1535e Merge branch 'tb/remove-unused-pack-bitmap' into seen
-21e3cd4506deafd187bfce9da3a5d264a7d85cdd Merge branch 'nw/t1002-cleanup' into seen
-c4e284c6d6cdbdbf17b15dee8f223f884ea7032d Merge branch 'zh/patch-id' into seen
+7eac0081a8e958106ed3aea402c8105f30fad6d9 riscv: dts: microchip: add qspi compatible fallback
+7ab72c597356be1e7f0f3d856e54ce78527f43c8 riscv: Make VM_WRITE imply VM_READ
+9e2e6042a7ec6504fe8e366717afa2f40cf16488 riscv: Allow PROT_WRITE-only mmap()
+a0d49a8f77f26609036a05e7832393b6279554db dt-bindings: riscv: microchip: document icicle reference design
+0ebdc51787dbb8ef8d259daa98b8fd35babf8970 dt-bindings: riscv: microchip: document the aries m100pfsevp
+db3d481698efe8a7a943ecbba9491648c5a49ef3 dt-bindings: riscv: microchip: document the sev kit
+f890e67f292db46c9bd5b5c004ba0f98761d1a33 riscv: dts: microchip: add pci dma ranges for the icicle kit
+99d451a7db1624308bc9eb94b7befb3722f67b10 riscv: dts: microchip: move the mpfs' pci node to -fabric.dtsi
+6fc655ed4986f88b91e3f7b339222fc1c4ffba08 riscv: dts: microchip: icicle: update pci address properties
+ab291621a8b85269496ae9a964b6d49cd1e030c8 riscv: dts: microchip: icicle: re-jig fabric peripheral addresses
+fa52935abef422d119dda3c10c02787a86e6289d riscv: dts: microchip: reduce the fic3 clock rate
+978a17d1a688db025275d282665ab3f39407191d riscv: dts: microchip: add sevkit device tree
+d49166646e44064b694a2e631fcdba4f814746d9 riscv: dts: microchip: add a devicetree for aries' m100pfsevp
+6c1193301791d3fcc0ad9ff3b861a8216e00773b riscv: dts: microchip: update memory configuration for v2022.10
+3baca1a4d490484fcd555413f1fec85b2e071912 RISC-V: Add mvendorid, marchid, and mimpid to /proc/cpuinfo output
+c210b91818e81068ca2573c20684644b8e110a07 riscv: dts: microchip: fix fabric i2c reg size
+f3e59ff348c077a6afd4edb23d7e69e9cba62fdc s390/vmur: remove unnecessary BUG statement
+bf18140d30541c2c1e5c0f57879634f3d0d04912 s390/vmur: generate uevent on unsolicited device end
+b148766e2b8b7b61c9aef53aefedae33f637a1e7 parisc: Reduce kernel size by packing alternative tables
+027c3d345e2a1ea61d6e4506a250eb392e6e7b18 parisc: Convert PDC console to an early console
+71c8517e004b950a148581ea2d2abe10aa46e02d MAINTAINERS: update polarfire soc clock binding
+abbb388d335f8c400d1baecb15d360fa0062de77 dt-bindings: riscv: update microchip.yaml's maintainership
+10f6913c548b32ecb73801a16b120e761c6957ea riscv: always honor the CONFIG_CMDLINE_FORCE when parsing dtb
+e237506238352f3bfa9cf3983cdab873e35651eb powerpc/32: fix syscall wrappers with 64-bit arguments of unaligned register-pairs
+06267eb2decaa6baac81bbd882265a8e7782dba4 doc: RISC-V: Document that misaligned accesses are supported
+90e0d94d369d342e735a75174439482119b6c393 Merge tag 'dt-for-palmer-v6.1-mw1' of git://git.kernel.org/pub/scm/linux/kernel/git/conor/linux into for-next
+826249942679a110353e71a1d92764fcf43e7cf7 dt-bindings: timer: sifive,clint: add legacy riscv compatible
+6e965c9bd7388762b302dca5852eb25cbe9cc085 dt-bindings: interrupt-controller: sifive,plic: add legacy riscv compatible
+299824e68bd0fac60f8352c940fd731fde609de1 dt-bindings: riscv: add new riscv,isa strings for emulators
+1b5964b2f9f67ded7ce522870698ffdd4c889255 Merge patch series "Fix dt-validate issues on qemu dtbdumps due to dt-bindings"
+f2913d006fcdb61719635e093d1b5dd0dafecac7 RISC-V: Avoid dereferening NULL regs in die()
+a4cb3651a174366cc85a677da9e3681fbe97fdae powerpc/64s/interrupt: Fix lost interrupts when returning to soft-masked context
+90d5ce82e143b42b2fdfb95401a89f86b71cedb7 powerpc/pseries: Fix CONFIG_DTL=n build
+3cebf80e9a0d3adcb174053be32c88a640b3344b riscv: Pass -mno-relax only on lld < 15.0.0
+e47bddcb2ec531022a915f896f13586470b593d0 riscv: cleanup svpbmt cpufeature probing
+f055268e3946555deb9bb80b2c8c9798c64dbc47 riscv: drop some idefs from CMO initialization
+499590c084f13b6aca225e5766edeebd48437ee8 riscv: use BIT() macros in t-head errata init
+e283187c034cd80c1dd98ad732c73ce930a5efa4 riscv: use BIT() marco for cpufeature probing
+14057733109dcc83c35a6730f3b7112aac4d2b82 riscv: check for kernel config option in t-head memory types errata
+6224db7881936c8e1c3b352b5debbbbd8856911a Merge patch series "Some style cleanups for recent extension additions"
+44dce4b084f83f41922ed8c2a2c7d148254848bb dt-bindings: sifive-ccache: change Sifive L2 cache to Composable cache
+ca120a79cf5a3323172c82e77efd70ae10d120ef soc: sifive: ccache: Rename SiFive L2 cache to Composable cache.
+95f196f3212bbc258611c22865aef12b98304e1d soc: sifive: ccache: determine the cache level from dts
+3fb787e5bad50687a65ded7f3bb805cab70dff59 soc: sifive: ccache: reduce printing on init
+696ab9bda22a770d079dc3a23bac9aaa553d98f4 soc: sifive: ccache: use pr_fmt() to remove CCACHE: prefixes
+afc7a5834f0de13aee46df62f09e479c1bbf7b9d soc: sifive: ccache: define the macro for the register shifts
+da29dbcda49d60f34055df19bd4783b889fc7dfc riscv: Add cache information in AUX vector
+1a5a2cbd21e58a824688ae2120a3e47b3cd0f876 Merge patch series "Use composable cache instead of L2 cache"
+a8616d2dc193b6becc36b5f3cfeaa9ac7a5762f9 riscv: vdso: fix NULL deference in vdso_join_timens() when vfork
+5a5294fbe0200d1327f0e089135dad77b45aa2ee RISC-V: Re-enable counter access from userspace
+c45fc916c2b2cc2a0587659c18d6ceef9b7299be riscv: enable software resend of irqs
+8aeb7b17f04ef40f620c763502e2b644c5c73efd RISC-V: Make mmap() with PROT_WRITE imply PROT_READ
+4c540c92b46497dcda59203eea78e4620bc96f47 RISC-V: Add mvendorid, marchid, and mimpid to /proc/cpuinfo output
+9cc205e3c17d5716da7ebb7fa0c985555e95d009 RISC-V: Make port I/O string accessors actually work
+ab0c23b535f3f9d8345d8ad4c18c0a8594459d55 MAINTAINERS: add RISC-V's patchwork
+aca7c13d3bee81a968337a5515411409ae9d095d parisc: fbdev/stifb: Align graphics memory size to 4MB
+70be49f2f6223ddd2fcddb0089a40864c37e1494 parisc: Fix userspace graphics card breakage due to pgtable special bit
+34314cd615af5036e582fad14f2bb13e4383bfe1 parisc: Fix spelling mistake "mis-match" -> "mismatch" in eisa driver
+2130b87b2273389cafe6765bf09ef564cda01407 drm/amd/display: Fix build breakage with CONFIG_DEBUG_FS=n
+70609c1495ae64e6534d8db7d6280dd7c79de815 Merge tag 'powerpc-6.1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
+498574970fc968ee17cfea9e6959b78c094c00a5 Merge tag 'riscv-for-linus-6.1-mw2' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
+ebdca8ecc31b07385cd83200532522bd5d95f02c Merge tag 's390-6.1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
+f2e44139f3e0edb8be8821fe4dc93afd7b034182 Merge tag 'parisc-for-6.1-1' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
 
---===============8397216291555593570==--
+--===============7981223230988285989==--
