@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============5541538041633338448=="
+Content-Type: multipart/mixed; boundary="===============2611039717251480400=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Fri, 14 Oct 2022 17:41:37 -0000
-Message-Id: <166576929712.10378.5737724062122554152@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Fri, 14 Oct 2022 17:41:43 -0000
+Message-Id: <166576930391.10516.14474061808135356192@gitolite.kernel.org>
 
---===============5541538041633338448==
+--===============2611039717251480400==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
   - ref: refs/heads/arm64-sme2
@@ -20,7 +20,7 @@ changes:
     new: fa6e7be0d0afaa4895b95ffe3b80cf4a5deb42ac
     log: revlist-4af89bfdb28d-fa6e7be0d0af.txt
 
---===============5541538041633338448==
+--===============2611039717251480400==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -39,4 +39,4 @@ d359a70946552e544cd51d069deaa9fe46b54523 kselftest/arm64: Teach the generic sign
 034bb08f2cca15f91621e9b12486dda939395fc2 kselftest/arm64: Add coverage of the ZT ptrace regset
 fa6e7be0d0afaa4895b95ffe3b80cf4a5deb42ac kselftest/arm64: Add coverage of SME 2 and 2.1 hwcaps
 
---===============5541538041633338448==--
+--===============2611039717251480400==--
