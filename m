@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7652464316195225920=="
+Content-Type: multipart/mixed; boundary="===============8957973128439651394=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs-stable
-Date: Fri, 14 Oct 2022 21:52:57 -0000
-Message-Id: <166578437777.27520.12096756177109871628@gitolite.kernel.org>
+Date: Fri, 14 Oct 2022 21:53:14 -0000
+Message-Id: <166578439467.27699.12480890077887444248@gitolite.kernel.org>
 
---===============7652464316195225920==
+--===============8957973128439651394==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,52 +15,54 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jaegeuk/f2fs-stable
 user: jaegeuk
 changes:
-  - ref: refs/heads/linux-5.10.y
-    old: f2e7caa837fcf91b1e1234468a931f15d6ab2a0a
-    new: d70a8ac94a878afeaa8d64f1c86d20a77a8e1986
-    log: revlist-f2e7caa837fc-d70a8ac94a87.txt
+  - ref: refs/heads/linux-5.15.y
+    old: 16df8aefc491498bbb8159e7d9534d4ba26d8e72
+    new: 09e40cc284576f2865baa1da8955a861598272f1
+    log: revlist-16df8aefc491-09e40cc28457.txt
 
---===============7652464316195225920==
+--===============8957973128439651394==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f2e7caa837fc-d70a8ac94a87.txt
+Content-Disposition: attachment; filename=revlist-16df8aefc491-09e40cc28457.txt
 
-aa368f12062246a0eed2b785b793ffbea908732b f2fs: LFS mode does not support ATGC
-2deda5dde30774bc753d4e15bb6d0a8cbbae759d f2fs: fix wrong continue condition in GC
-2e9db99f728cf579a7c5c5c172d7808d44a2473d f2fs: iostat: support accounting compressed IO
-60d0fdde91cc11d916898c4a30b90818b8714007 f2fs: remove gc_urgent_high_limited for cleanup
-f7ef6d17020a6c621408daac8ba277f0417f6393 f2fs: flush pending checkpoints when freezing super
-ddeede5a96b9bef3e8b50472ac3436bbdbc48de2 f2fs: complete checkpoints during remount
-4ed0bd1f4274046b2003b71df9dd7659c841d856 f2fs: increase the limit for reserve_root
-7ac1637ac211180cce7dc2d6efc2782d2246d894 f2fs: replace logical value "true" with a int number
-033650e10688cb5b2f4ca54f7690f453d20149f7 f2fs: simplify code in f2fs_prepare_decomp_mem
-bf3aa78b8fb6d9e09d5c007760d50ed8a4c3bc2e f2fs: return the tmp_ptr directly in __bitmap_ptr
-4278baefa0e609d5b08ebb8b62bf062ffdca52bc f2fs: use COMPRESS_MAPPING to get compress cache mapping
-04967a0df8c34707b7b0acf0df775df6494d78e1 f2fs: fix wrong dirty page count when race between mmap and fallocate.
-752071ecd085fda6013fa18f6e78741cec3a2922 f2fs: fix typo
-1326beb208bff2bdb97f13fbb2847770876c5788 f2fs: add static init_idisk_time function to reduce the code
-ec74e7d3efbe308f9bc5db7b5c4c6ea703fa7a5d f2fs: remove redundant check in f2fs_sanity_check_cluster
-a597af3b5a967e810cc8155abaa49abf10d6c417 f2fs: fix race condition on setting FI_NO_EXTENT flag
-27fa0e36c6bf81fda10d596fd072c3f2d0049ea0 f2fs: let FI_OPU_WRITE override FADVISE_COLD_BIT
-65db9f56f19f50cbbddda3f0aebd9e4d5ee5d35b f2fs: fix to do sanity check on destination blkaddr during recovery
-598a14c53dfaafc84aec515c91b85cd143ed3a74 f2fs: fix to do sanity check on summary info
-a95694e33ce998e808b3a72164e8df3b5e0faf87 f2fs: add "c_len" into trace_f2fs_update_extent_tree_range for compressed file
-e3d36e488c5b2afdd11258859fea10b7b90e1da1 f2fs: code clean and fix a type error
-667cdec0ce22b5fef0709c6fbdd30d7f739ea6a0 f2fs: fix to account FS_CP_DATA_IO correctly
-dc2f7fb9079ac8d4488b258cbac298a0c5f19046 f2fs: fix to detect corrupted meta ino
-7c82d21f6632d698f0af80b9953807704edacbf0 f2fs: introduce cp_status sysfs entry
-891b901f8870d52a669cb278cc0f8e91b332d2cc f2fs: remove the unnecessary check in f2fs_xattr_fiemap
-9a33c7005099f34907bf1a4a1505a9e4f01d88b4 f2fs: support recording stop_checkpoint reason into super_block
-90d695d8df62a13d8caff2f4321b51e646f2a7bb f2fs: support recording errors into superblock
-8038ebb0a2677bad74a9318b144f86c6e55204fd f2fs: allow direct read for zoned device
-ada6f91939f8b9997a3d82bb94852f86feaacc05 f2fs: account swapfile inodes
-eedcce5d3ac98defee84785c0a247ad3c04c8e68 f2fs: change to use atomic_t type form sbi.atomic_files
-31453124d8b4973d07608eba79a2fa697df1b98c fscrypt: stop using PG_error to track error status
-ab73a066b0ee3c1497148bc294a2027750acf9f4 fscrypt: stop using keyrings subsystem for fscrypt_master_key
-e75182ce772e4a8e0ab7114b3e73dc4a602d4455 fscrypt: stop holding extra request_queue references
-07e48260618924dee79029b20ba7367c81e87155 fscrypt: change fscrypt_dio_supported() to prepare for STATX_DIOALIGN
-5fdefa95b090d35d317eb6ae0316c68c314976e9 f2fs: move f2fs_force_buffered_io() into file.c
-d70a8ac94a878afeaa8d64f1c86d20a77a8e1986 f2fs: simplify f2fs_force_buffered_io()
+d9b4db6fba52bf63438f5af49f8abd7b55eeb59b f2fs: LFS mode does not support ATGC
+d45759e2afa4103dc285392895f8bb05286108cc f2fs: fix wrong continue condition in GC
+49b93713f570041994763fbfdb8cd3d4f41a7a74 f2fs: use memcpy_{to,from}_page() where possible
+55628346b953a112d7248473693b3ef0e28a29ad f2fs: iostat: support accounting compressed IO
+ddaf61bd5ba09631918304ebf8116a4df064b0a3 f2fs: remove gc_urgent_high_limited for cleanup
+8f96e3dddcc400851751f682769682a64e89dd9b f2fs: flush pending checkpoints when freezing super
+4f8569ed82d3acedcb4bce50e38e81f2f184da7d f2fs: complete checkpoints during remount
+5d8bb91a9f317f9f266244630133e526abb6c444 f2fs: increase the limit for reserve_root
+9b9dc5cd34cbe67b841452fb382351cff68728c4 f2fs: replace logical value "true" with a int number
+5f9f193e7b711fc907643bbf9f41ee715d67b5af f2fs: simplify code in f2fs_prepare_decomp_mem
+d3bcab141f8ad1697afc75dec59672e1c98b35ba f2fs: return the tmp_ptr directly in __bitmap_ptr
+f4e3b244fe14f75691f428069894bbc4cadd3882 f2fs: use COMPRESS_MAPPING to get compress cache mapping
+9a3a6e3ce2763c992c1a45a833f97c2c8c978807 f2fs: fix wrong dirty page count when race between mmap and fallocate.
+fb6ae58bca7d66db741f84ef11f0c5a8c74bf3d6 f2fs: fix typo
+1bca945fe83a28e8989d6b33822a3bcc514049e4 f2fs: add static init_idisk_time function to reduce the code
+63bd45d8d7090a8c4209fcd3f2af33d5d254fcfb f2fs: remove redundant check in f2fs_sanity_check_cluster
+8a58963e3f0a6006b495da58e82923ce38287210 f2fs: fix race condition on setting FI_NO_EXTENT flag
+a1eb4aeda65ba72cee0fc9dc5e2e872de476f5fa f2fs: let FI_OPU_WRITE override FADVISE_COLD_BIT
+1416972f66cb53855e591dd80603a71a6c271529 f2fs: fix to do sanity check on destination blkaddr during recovery
+b433c184a905aedfddb079d6bb9a837a66815fcf f2fs: fix to do sanity check on summary info
+d59932fd0a3027da72bec8fe6308d671eaca2654 f2fs: add "c_len" into trace_f2fs_update_extent_tree_range for compressed file
+d9b6071528061e216edddf00c53e3b115c6767a2 f2fs: code clean and fix a type error
+03d4906fecc4a643244165e464e58c0cf416c4fb f2fs: fix to account FS_CP_DATA_IO correctly
+b6bcacf440adf9069b77cd85dfdcc747e8d10375 f2fs: fix to detect corrupted meta ino
+3584e2675602de1f6a37c43e24d4ca2d87f25c2b f2fs: introduce cp_status sysfs entry
+880094a9a4b35f7a60c4e17a9ed3263a5cdb11c4 f2fs: remove the unnecessary check in f2fs_xattr_fiemap
+b406280ae10425b5449cdfcda3f1a7ed19967a36 f2fs: support recording stop_checkpoint reason into super_block
+5c2fb59337211cfd4db9e507ee68669dc2d2df20 f2fs: support recording errors into superblock
+cd7dc86b86e8de4709a049d1b20019117dc2c454 f2fs: allow direct read for zoned device
+ae88b38782a2a63cae9f2d442190ae0effaf19d0 f2fs: account swapfile inodes
+9ed8c73363699fcafa0dc0e405ad51d0c2e6219b f2fs: change to use atomic_t type form sbi.atomic_files
+e88e47278fb108c86b6dd30dff52ba051dd147ce fscrypt: stop using PG_error to track error status
+69654ecfc70632a52a69449f351168d77a06c7c4 fscrypt: stop using keyrings subsystem for fscrypt_master_key
+f05e7fb0d90918a5b7745f3fc622892b058dc52d fscrypt: stop holding extra request_queue references
+3005fab72c375724de6d0caed2cdfa040a51979e fscrypt: work on block_devices instead of request_queues
+8b96868a8cba7c8b61261c0d6a05e234ad1dc15a fscrypt: change fscrypt_dio_supported() to prepare for STATX_DIOALIGN
+aa5fd3b98f0f497db47bdf51483b2be964f48a5d f2fs: move f2fs_force_buffered_io() into file.c
+09e40cc284576f2865baa1da8955a861598272f1 f2fs: simplify f2fs_force_buffered_io()
 
---===============7652464316195225920==--
+--===============8957973128439651394==--
