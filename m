@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3627764750251957009=="
+Content-Type: multipart/mixed; boundary="===============5987800005220402415=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Fri, 14 Oct 2022 21:52:00 -0000
-Message-Id: <166578432002.26952.16705184772643881516@gitolite.kernel.org>
+Date: Fri, 14 Oct 2022 21:52:09 -0000
+Message-Id: <166578432905.27065.13503581859647512964@gitolite.kernel.org>
 
---===============3627764750251957009==
+--===============5987800005220402415==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,21 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: 0cf3cae9697bddeeab3eb84b8cabae13c656fbb6
-    new: 0c93411795513a0e8dfcb5bcc7bab756b98bfc73
-    log: revlist-0cf3cae9697b-0c9341179551.txt
+  - ref: refs/heads/dev-queue
+    old: 3b86549f761b155e3c1acb8fdddcf8678606a7c7
+    new: 1934df3b382728194cda79c510f74f085919e32c
+    log: revlist-3b86549f761b-1934df3b3827.txt
 
---===============3627764750251957009==
+--===============5987800005220402415==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-0cf3cae9697b-0c9341179551.txt
+Content-Disposition: attachment; filename=revlist-3b86549f761b-1934df3b3827.txt
 
-0c826c0b6a176b9ed5ace7106fd1770bb48f1898 rmap: remove page_unlock_anon_vma_read()
-82e66bf76173a1525db9866455a7fdbc07b57297 uprobes: use new_folio in __replace_page()
-19672a9e4a75252871cba319f4e3b859b8fdf671 mm: convert lock_page_or_retry() to folio_lock_or_retry()
-8eeda55fe08944421cf57f6185fe37b069829e7b mm/hugetlb.c: remove unnecessary initialization of local `err'
 c274cd5c9bf5ded4b3f2a4e99f76223c8f006051 mm/damon/sysfs: simplify the judgement whether kdamonds are busy
 710bb68c2e3a24512e2d2bae470960d7488e97b1 hugetlb_encode.h: fix undefined behaviour (34 << 26)
 b05f41a1aa56fd646f2aa048ee446b6a2edb80d3 filemap: convert filemap_range_has_writeback() to use folios
@@ -1050,5 +1046,9 @@ aae425efdfd1b1d8452260a3cb49344ebf20b1f5 i40e: Fix DMA mappings leak
 3d6642eac74d9442fde232181aa52d26d47991df net: macvlan: change schedule system_wq to system_unbound_wq
 9a9a5d80ec9887814042c69768c2fee7961db7f4 MAINTAINERS: git://github -> https://github.com for petkan
 0c93411795513a0e8dfcb5bcc7bab756b98bfc73 MAINTAINERS: nfc: s3fwrn5: Drop Krzysztof Opasiak
+f6f23dd1f68e91eea7d2a5c89566232b01659b58 i40e: Fix ethtool rx-flow-hash setting for X722
+b66d147f5860dc53055053bc94597463cf53056b i40e: Fix VF hang when reset is triggered on another VF
+97fac4340534a481f91a98b848b4d4d7455fe149 i40e: Fix flow-type by setting GL_HASH_INSET registers
+1934df3b382728194cda79c510f74f085919e32c ice: Fix spurious interrupt during removal of trusted VF
 
---===============3627764750251957009==--
+--===============5987800005220402415==--
