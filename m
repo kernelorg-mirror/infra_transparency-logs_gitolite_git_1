@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5380549442211655088=="
+Content-Type: multipart/mixed; boundary="===============5736873673811238249=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
-Date: Sun, 16 Oct 2022 22:56:43 -0000
-Message-Id: <166596100398.6238.14057847434503399705@gitolite.kernel.org>
+Date: Sun, 16 Oct 2022 22:57:47 -0000
+Message-Id: <166596106723.6678.3678478486120517142@gitolite.kernel.org>
 
---===============5380549442211655088==
+--===============5736873673811238249==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/xiang/erofs
 user: xiang
 changes:
-  - ref: refs/heads/dev-test
+  - ref: refs/heads/fixes
     old: 8436c4a57bd147b0bd2943ab499bb8368981b9e1
     new: e7933278b442f97809b1ea84264586302bd08a03
     log: revlist-8436c4a57bd1-e7933278b442.txt
 
---===============5380549442211655088==
+--===============5736873673811238249==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ f1947d7c8a61db1cb0ef909a6512ede0b1f2115b Merge tag 'random-6.1-rc1-for-linus' of
 63bbb85658ea43dd35dbfde6d4150b47c407fc87 erofs: shouldn't churn the mapping page for duplicated copies
 e7933278b442f97809b1ea84264586302bd08a03 erofs: fix up inplace decompression success rate
 
---===============5380549442211655088==--
+--===============5736873673811238249==--
