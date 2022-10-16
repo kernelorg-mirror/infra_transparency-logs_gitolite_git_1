@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============2684051433482577259=="
+Content-Type: multipart/mixed; boundary="===============8448968969471439495=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Sun, 16 Oct 2022 18:18:08 -0000
-Message-Id: <166594428833.3768.11588754790231583894@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
+Date: Sun, 16 Oct 2022 18:31:31 -0000
+Message-Id: <166594509160.14314.2367956072347178718@gitolite.kernel.org>
 
---===============2684051433482577259==
+--===============8448968969471439495==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/groeck/linux-staging
+user: groeck
 changes:
   - ref: refs/heads/master
-    old: 1501278bb7ba0728b869d3399ea94b67853256a2
+    old: 19d17ab7c68b62180e0537f92400a6f798019775
     new: 2df76606db9de579bc96725981db4e8daa281993
-    log: revlist-1501278bb7ba-2df76606db9d.txt
+    log: revlist-19d17ab7c68b-2df76606db9d.txt
 
---===============2684051433482577259==
+--===============8448968969471439495==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1501278bb7ba-2df76606db9d.txt
+Content-Disposition: attachment; filename=revlist-19d17ab7c68b-2df76606db9d.txt
 
 aac00c7fa1149fd5b5a5110096ffa78dcb120b79 clk: test: Switch to clk_hw_get_clk
 d77388223240884b918b8d85f88f132916afbf06 clk: Drop the rate range on clk_put()
@@ -51,6 +51,7 @@ b46fd8dbe8ad3fe6dcd44dcdf01a736c50d90a68 clk: Zero the clk_rate_request structur
 253993253466ba7187730b196174146d5247e97b clk: Introduce the clk_hw_get_rate_range function
 af1e62f2ffe2b7fa90653f273efced0e0eabf7cc clk: qcom: clk-rcg2: Take clock boundaries into consideration for gfx3d
 433fb8a611ca2a32112668225beabda2302c9634 clk: tests: Add missing test case for ranges
+28148a17c988b614534f457da86893f83664ad43 openrisc: Fix pagewalk usage in arch_dma_{clear, set}_uncached
 096f2a0c6469c8a8e70cfbb83345b7ada2929f13 clk: Update req_rate on __clk_recalc_rates()
 589a2004881f0941ca46146a5de68b3666d1d54a clk: tests: Add tests for notifiers
 780614ce1988f9d8ab05a58b49d5506bca60b935 cifs: fix skipping to incorrect offset in emit_cached_dirents
@@ -68,6 +69,7 @@ d7173623bf0b1503bc4e6f13cd0fccab5e98c6ce cifs: use ALIGN() and round_up() macros
 11df33c36c4b7a04d2674531f2c6178ad8d61572 modpost: put modpost options before argument
 04518e4c2edc78bc90b4651d50c4aad48d09ac23 scripts/clang-tools: Convert clang-tidy args to list
 a9e17d3d74d14e5fd10d54f0a07e0fce4e5f80dd cifs: fix static checker warning
+5632e2beaf9d5dda694c0572684dea783d8a9492 Revert "PCI: Distribute available resources for root buses, too"
 c67a85bee78db74c6889a5ca645c3763ad23d863 kbuild: add -fno-discard-value-names to cmd_cc_ll_c
 b05ea3314390e9cb3c27cf2928d48e38fef97050 clk: mediatek: clk-mux: Add .determine_rate() callback
 8c7bc6ca3740959edc6abe5d8214e5c84aa8a853 clk: qcom: gcc-msm8660: Drop hardcoded fixed board clocks
@@ -79,6 +81,11 @@ f09bd695af3b8ab46fc24e5d6954a24104c38387 smb3: must initialize two ACL struct fi
 625b60d4f9517903ad499633776825e67fdb0c16 cifs: lease key is uninitialized in smb1 paths
 2bff0659338e58a3a24698a35e7dcb2b62199ba4 cifs: lease key is uninitialized in two additional functions when smb1
 e3e9463414f610e91528f2b920b8cb655f4bae33 smb3: improve SMB3 change notification support
+34a0bac084e49324c29e6d0984d24096e02c6314 MAINTAINERS: git://github -> https://github.com for openrisc
+e36ce448a08d43de69e7449eb225805a7a8addf8 mm/slab: use kmalloc_node() for off slab freelist_idx_t array allocation
+41410965c3629367cbd0889dc0c8bddfb9e8a2d5 Merge tag 'pci-v6.1-fixes-1' of git://git.kernel.org/pub/scm/linux/kernel/git/helgaas/pci
+36d8a3edf8bd504320fca970f8b0633b8226cb58 Merge tag 'for-linus' of https://github.com/openrisc/linux
+1501278bb7ba0728b869d3399ea94b67853256a2 Merge tag 'slab-for-6.1-rc1-hotfix' of git://git.kernel.org/pub/scm/linux/kernel/git/vbabka/slab
 3753af778dd9d0d5199d6a7d01b0ead33135d095 kbuild: fix single directory build
 0a6de78cff600cb991f2a1b7ed376935871796a0 lib/Kconfig.debug: Add check for non-constant .{s,u}leb128 support to DWARF5
 80493877d7d0ae0cbe62921d748682811c58026f Revert "cpumask: fix checking valid cpu range".
@@ -86,4 +93,4 @@ b08cd74448fafaa302ce2bc11beab5e5a55d0065 Merge tag '6.1-rc-smb3-client-fixes-par
 2fcd8f108f25ef0cbbfcb57acf1c42934c238ed5 Merge tag 'clk-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 2df76606db9de579bc96725981db4e8daa281993 Merge tag 'kbuild-fixes-v6.1' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 
---===============2684051433482577259==--
+--===============8448968969471439495==--
