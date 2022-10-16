@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7329940823006595819=="
+Content-Type: multipart/mixed; boundary="===============4998708943830632289=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Sun, 16 Oct 2022 07:24:17 -0000
-Message-Id: <166590505761.5540.12579647722066569987@gitolite.kernel.org>
+Date: Sun, 16 Oct 2022 07:27:08 -0000
+Message-Id: <166590522832.9508.1543736443833785393@gitolite.kernel.org>
 
---===============7329940823006595819==
+--===============4998708943830632289==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,304 +16,323 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: bot-stable-queue
 changes:
   - ref: refs/heads/queue/4.14
-    old: 4a5994a60ac60653dc1431077e17cf09e497789c
-    new: 7d66de3de6278a609e8ac3617fe1ea3e0388be8a
-    log: revlist-4a5994a60ac6-7d66de3de627.txt
+    old: 7d66de3de6278a609e8ac3617fe1ea3e0388be8a
+    new: 7d8ad32686ecd4a1f3a471afb233cb4327ee3a0f
+    log: revlist-7d66de3de627-7d8ad32686ec.txt
   - ref: refs/heads/queue/4.19
-    old: b76f313031bd3eabcb3e23f222a621f00781c089
-    new: 26eb5c5d97de2fbce462a90a1ea89909619fb908
-    log: revlist-b76f313031bd-26eb5c5d97de.txt
+    old: 26eb5c5d97de2fbce462a90a1ea89909619fb908
+    new: 9ad82bb3cc07989b5c2a5c01f89f302b31c434d9
+    log: revlist-26eb5c5d97de-9ad82bb3cc07.txt
   - ref: refs/heads/queue/4.9
-    old: 04f35c65874844d33eb9c1cef4d320f68312edc4
-    new: 3f0cc6018f60e2b2f21e6493d6349bcbd6aecb21
-    log: revlist-04f35c658748-3f0cc6018f60.txt
+    old: 3f0cc6018f60e2b2f21e6493d6349bcbd6aecb21
+    new: c8bb35ea3a415d27de1b778afb64034d68b77743
+    log: revlist-3f0cc6018f60-c8bb35ea3a41.txt
   - ref: refs/heads/queue/5.10
-    old: 64bd4959ca4556d60b8f110b5bfd4b0da5260764
-    new: 49e045b5164c06fb1cc00af486b35cd52c8586e0
+    old: 49e045b5164c06fb1cc00af486b35cd52c8586e0
+    new: 8ab291303d409eef9e5e29428e06d8eac7862012
     log: |
-         d31e0e3bac8026d93e7cdc8597e64e66c508c049 ALSA: oss: Fix potential deadlock at unregistration
-         c919c4b6d4e0c975c825ca3e552d544c3d795162 ALSA: rawmidi: Drop register_mutex in snd_rawmidi_free()
-         61d1ea3c908991a1265da1d366cb685f645dd83a ALSA: usb-audio: Fix potential memory leaks
-         9ac379c402f2339f6cb08513f22affc697dcbe28 ALSA: usb-audio: Fix NULL dererence at error path
-         610dce749de85ee72374d03d698cf3b246074b5f ALSA: hda/realtek: remove ALC289_FIXUP_DUAL_SPK for Dell 5530
-         8cc92376b9a0bed5deb5ea1eb6cc32d9f4891c87 ALSA: hda/realtek: Correct pin configs for ASUS G533Z
-         4ba013e20487db903cfee429b5d5214467419cb0 ALSA: hda/realtek: Add quirk for ASUS GV601R laptop
-         ef7c944399f6bdfdbc69de6fe8b678e8fa0b0528 ALSA: hda/realtek: Add Intel Reference SSID to support headset keys
-         c7910577a1ecc82e01f851c355a6c22668587529 mtd: rawnand: atmel: Unmap streaming DMA mappings
-         49e045b5164c06fb1cc00af486b35cd52c8586e0 io_uring/rw: fix unexpected link breakage
+         868a36f9b08e025aae00b9645192a7408a827cea ALSA: oss: Fix potential deadlock at unregistration
+         e887d74f248327f1f271197e682375c6a2dc0c72 ALSA: rawmidi: Drop register_mutex in snd_rawmidi_free()
+         64e0c11bd79133ef3984baec968d492a0c2c8393 ALSA: usb-audio: Fix potential memory leaks
+         8c1ae8bd70096ef5e7f1259818967a8ac2c5f769 ALSA: usb-audio: Fix NULL dererence at error path
+         36cd5c819bd1e90b9bd2c34fff8539ef59a147e0 ALSA: hda/realtek: remove ALC289_FIXUP_DUAL_SPK for Dell 5530
+         8cad9f0f9c5ca56e3fb065291a36ab12cda47f72 ALSA: hda/realtek: Correct pin configs for ASUS G533Z
+         19331570338f436ef212fa9eff40e93187a09be6 ALSA: hda/realtek: Add quirk for ASUS GV601R laptop
+         e70424b690006ee1bfdd28d1d738a4c1f8087156 ALSA: hda/realtek: Add Intel Reference SSID to support headset keys
+         85624c7d74d50506ae86609aedf3399272fcf414 mtd: rawnand: atmel: Unmap streaming DMA mappings
+         8ab291303d409eef9e5e29428e06d8eac7862012 io_uring/rw: fix unexpected link breakage
          
   - ref: refs/heads/queue/5.15
-    old: 526b2afbbefb19fa5f00fea07763bfc03d494f9a
-    new: a89143f3a425ea02707b988b4be8f5deb4b8e7c8
-    log: revlist-526b2afbbefb-a89143f3a425.txt
+    old: a89143f3a425ea02707b988b4be8f5deb4b8e7c8
+    new: 94321d81f07024bf9d978cd862e576b0e6dc9d8c
+    log: revlist-a89143f3a425-94321d81f070.txt
   - ref: refs/heads/queue/5.19
-    old: b070c1fa34204c487c91e06231afdb796c865804
-    new: f3823bd2f8fe6fafb659ec411d4406676acde6b2
-    log: revlist-b070c1fa3420-f3823bd2f8fe.txt
+    old: f3823bd2f8fe6fafb659ec411d4406676acde6b2
+    new: 2c59b775507b28bf2bae72a28d488bff461fdbdc
+    log: revlist-f3823bd2f8fe-2c59b775507b.txt
   - ref: refs/heads/queue/5.4
-    old: ad034fe59d0ca55824ab0e39f41e5c2ea7242d69
-    new: 5db40d7372ba33337376be16334cd4d13bfebf26
+    old: 5db40d7372ba33337376be16334cd4d13bfebf26
+    new: 7b564c81a9d592ea0e1262c1cf3a04816c6a7255
     log: |
-         3aa530f2ca32f50daedc911e463ba227d0327750 ALSA: oss: Fix potential deadlock at unregistration
-         23ca739a4bf8cf6404e82295d75b04eabce46b8d ALSA: rawmidi: Drop register_mutex in snd_rawmidi_free()
-         b87e8bfef564cc6caf4e64fb591cff63d4571243 ALSA: usb-audio: Fix potential memory leaks
-         8a429d64672169a4282ae32ab64c29aba2399900 ALSA: usb-audio: Fix NULL dererence at error path
-         833cd9d08c44ceefe8ef0d9ad9c039106f27d75c ALSA: hda/realtek: remove ALC289_FIXUP_DUAL_SPK for Dell 5530
-         245c69732820929545598ed5dca552a24024879e ALSA: hda/realtek: Correct pin configs for ASUS G533Z
-         d87499add8764de946d0a0fa8aa944421441a508 ALSA: hda/realtek: Add quirk for ASUS GV601R laptop
-         32feeb9fae962034dfff498ee9d34450eb0ef926 ALSA: hda/realtek: Add Intel Reference SSID to support headset keys
-         81e49fe3af196600ff6af26e83a8752a09b93919 mtd: rawnand: atmel: Unmap streaming DMA mappings
-         5db40d7372ba33337376be16334cd4d13bfebf26 io_uring/rw: fix unexpected link breakage
+         620e0fae048967ccd9de0bed56965957aa3d721d ALSA: oss: Fix potential deadlock at unregistration
+         dac37feb87228357384eadcf537dd03e76fbc3de ALSA: rawmidi: Drop register_mutex in snd_rawmidi_free()
+         7174695b75fdf738bf9b88862f216b9a9c773891 ALSA: usb-audio: Fix potential memory leaks
+         71225fe644030ff229e8b0b68d4617d13378d6e2 ALSA: usb-audio: Fix NULL dererence at error path
+         d4377c4c58296302739294ff6c2db3b15849bc78 ALSA: hda/realtek: remove ALC289_FIXUP_DUAL_SPK for Dell 5530
+         0bc8dc8a22bbc89b76dfc176b8d0162424f59aee ALSA: hda/realtek: Correct pin configs for ASUS G533Z
+         58b288fe2a2044dbf9f5b0b0bea887989ecc72cb ALSA: hda/realtek: Add quirk for ASUS GV601R laptop
+         e21dfce3b1655e19af4b5a2ea3e660297dced0ab ALSA: hda/realtek: Add Intel Reference SSID to support headset keys
+         e651bfd4e92049e4eceb45586fbb5c8e15cb3749 mtd: rawnand: atmel: Unmap streaming DMA mappings
+         7b564c81a9d592ea0e1262c1cf3a04816c6a7255 io_uring/rw: fix unexpected link breakage
          
   - ref: refs/heads/queue/6.0
-    old: 85b6567b79d171b78e8f873cd84c4e885c5c7664
-    new: 4ee466881dbfb213617e8276fb718695e88cbbff
-    log: revlist-85b6567b79d1-4ee466881dbf.txt
+    old: 4ee466881dbfb213617e8276fb718695e88cbbff
+    new: 3fe36a71e6a3ac45046533b15b5a8994dec15581
+    log: revlist-4ee466881dbf-3fe36a71e6a3.txt
 
---===============7329940823006595819==
+--===============4998708943830632289==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4a5994a60ac6-7d66de3de627.txt
+Content-Disposition: attachment; filename=revlist-7d66de3de627-7d8ad32686ec.txt
 
-441a6f2108950930cbae765a735d40ddb8718206 uas: add no-uas quirk for Hiksemi usb_disk
-fe8c1a510b8de2c18645fb13d5bc73689ab03c0d usb-storage: Add Hiksemi USB3-FW to IGNORE_UAS
-fb9ffb3b1146051ab4e56211176ab17890367d47 uas: ignore UAS for Thinkplus chips
-b9ac3d59a350e39b76c2df0d9bcd92ac8cbec1ce net: usb: qmi_wwan: Add new usb-id for Dell branded EM7455
-663069a6427306cd35b32e212a6ae40cbf7f36d5 ntfs: fix BUG_ON in ntfs_lookup_inode_by_name()
-8ec50115d74a5ca1cb9f8373830484be759c2358 mmc: moxart: fix 4-bit bus width and remove 8-bit bus width
-7277f9fb49626c11117c0c2ce8b444b28d00715a mm/page_alloc: fix race condition between build_all_zonelists and page allocation
-509246dd6de4ced7204585d61e0510e46bc6d575 mm: prevent page_frag_alloc() from corrupting the memory
-410be20b623d00c62a6c04231ad0abe1ad3d50fa mm/migrate_device.c: flush TLB while holding PTL
-e4667e4e8b1209d45229a511250c3c12bf0a2673 soc: sunxi: sram: Actually claim SRAM regions
-fb46d6fa04842c025841887312736e32c2b3916e soc: sunxi: sram: Fix debugfs info for A64 SRAM C
-bb0b84713f98967cbba83208109e9046e0837175 Revert "drm: bridge: analogix/dp: add panel prepare/unprepare in suspend/resume time"
-74dd3a7cdd88d3a3580394d289559104927be2cc Input: melfas_mip4 - fix return value check in mip4_probe()
-00a67ea087ff788fc11eccb4bc6725b65f726c78 usbnet: Fix memory leak in usbnet_disconnect()
-5aba3cc3f581875005a8c5c8e6a6f9f1d7740b93 nvme: add new line after variable declatation
-69e8b7af470c49589528f85a9db1dab865cb676f nvme: Fix IOC_PR_CLEAR and IOC_PR_RELEASE ioctls for nvme devices
-a920fde4ef90efc7b8367e54a9ee77a95494eb09 selftests: Fix the if conditions of in test_extra_filter()
-c62ab6ff22f66934569fd89fedb5a221eb711112 clk: iproc: Minor tidy up of iproc pll data structures
-281db7bd85a387ebb514ed8a35070725c1e7eb2c clk: iproc: Do not rely on node name for correct PLL setup
-016af9d053ebaf35b5073608e9d64df5d52525c0 Makefile.extrawarn: Move -Wcast-function-type-strict to W=1
-8eadde2f293aa7785ea286e4ebb5031bebb182ca i2c: dev: prevent ZERO_SIZE_PTR deref in i2cdev_ioctl_rdwr()
-0d5c3236165eb938b6deab85118735c803ec5400 ARM: fix function graph tracer and unwinder dependencies
-29e802ecce0b6e38256e0e6f65ed75dc9f9c7b77 fs: fix UAF/GPF bug in nilfs_mdt_destroy
-0410101617ca8e1d5b883cb10dec656ab268d083 dmaengine: xilinx_dma: cleanup for fetching xlnx,num-fstores property
-6021487819d16569c949fd7f9e0d6342e50698fd dmaengine: xilinx_dma: Report error in case of dma_set_mask_and_coherent API failure
-52f40c1f0ee149766812604f807c6fcce223d221 ARM: dts: fix Moxa SDIO 'compatible', remove 'sdhci' misnomer
-f1b6da2cbf39b963019b7b5f061ab525ff05bb51 net/ieee802154: fix uninit value bug in dgram_sendmsg
-82e1e443c8312c2a173cc268ac2e58e018d7ffb9 um: Cleanup syscall_handler_t cast in syscalls_32.h
-3e607d32fd16e2b0bbd875ba583f8ff4e2c46fe2 um: Cleanup compiler warning in arch/x86/um/tls_32.c
-1d8bc5fa457529ba05a867e37fec4eba548b7ae8 usb: mon: make mmapped memory read only
-72f9733b31e93cfa30b8e997bb5a308f5ea3af98 USB: serial: ftdi_sio: fix 300 bps rate for SIO
-7b3a82276e279bc0a1f406b0f512931ebd0a9752 mmc: core: Replace with already defined values for readability
-adb9cda42f3a10bc77e7bff801b61add08e562cf mmc: core: Terminate infinite loop in SD-UHS voltage switch
-4619a44db3924f1633db6791c328ad1c9fc284e0 rpmsg: qcom: glink: replace strncpy() with strscpy_pad()
-c096313d8b3b0f7f59d20087cec2b0c425d3f038 netfilter: nf_queue: fix socket leak
-d253a78a8c041e03555d66664072ed8b17d0a96b nilfs2: fix NULL pointer dereference at nilfs_bmap_lookup_at_level()
-63e93569143341c4fa73aebbc8f79b6b60eed475 nilfs2: fix leak of nilfs_root in case of writer thread creation failure
-b8a706e69dfbd3faa6c7d884f7b5282af44b520d nilfs2: replace WARN_ONs by nilfs_error for checkpoint acquisition failure
-6dbbd399d7b9a694f9760f77dc87dc3d2231e002 ceph: don't truncate file in atomic_open
-394b12304c1a3102ae709fb0f34c822d05299c2d random: clamp credited irq bits to maximum mixed
-bc5d3c9cf625bd27f330946c35a3e791a1da8ab8 ALSA: hda: Fix position reporting on Poulsbo
-6ccfe08fd9a9ad2895595e06ae2562de08123016 scsi: stex: Properly zero out the passthrough command structure
-518a24256d1cd2cdfd27423adfe4297a6647dabb USB: serial: qcserial: add new usb-id for Dell branded EM7455
-edcb169087d61fe68d449d4403170d035657204d random: restore O_NONBLOCK support
-90f73d59e7afc345d0e62b766c7aa8d479356d7a random: avoid reading two cache lines on irq randomness
-03f95a16e0f3b803e5b050951f0f1c33f684e3ae wifi: mac80211_hwsim: avoid mac80211 warning on bad rate
-c1efa5e86b9b641059eced710b57eb6d835e3641 Input: xpad - add supported devices as contributed on github
-eb4e06d3132a17ac4d7bb623a826ed993c8c028e Input: xpad - fix wireless 360 controller breaking after suspend
-f469b976e8026dfa22cc7e15bedfdf682f3cae62 random: use expired timer rather than wq for mixing fast pool
-9707de6426c6d4932be2e9af466f797ed1563120 ALSA: oss: Fix potential deadlock at unregistration
-70a922d02eaec790ec0717c2d260810a6d1daf37 ALSA: rawmidi: Drop register_mutex in snd_rawmidi_free()
-0790f1402a796f7a08ccd4f8ff5fded791b11755 ALSA: usb-audio: Fix potential memory leaks
-58bbd2f9082de6faffa8971c60e4165998a5bb6d ALSA: usb-audio: Fix NULL dererence at error path
-7d66de3de6278a609e8ac3617fe1ea3e0388be8a Revert "fs: check FMODE_LSEEK to control internal pipe splicing"
+894922dbcdd96f9e902eb1e4987a2a69aa2af94e uas: add no-uas quirk for Hiksemi usb_disk
+b0f97ac6f8b6d5d155a030a3485182d061ee48c2 usb-storage: Add Hiksemi USB3-FW to IGNORE_UAS
+797bedac95534e71646d52f89f90fe1027270a72 uas: ignore UAS for Thinkplus chips
+0ad1c9aa5e5e554862650ab95f72fe597e9241ca net: usb: qmi_wwan: Add new usb-id for Dell branded EM7455
+e44626c976c78c023447f1ccf310633fa7e2996f ntfs: fix BUG_ON in ntfs_lookup_inode_by_name()
+b11ae210e405fe690dba6731a08f5765c3869da4 mmc: moxart: fix 4-bit bus width and remove 8-bit bus width
+1ab0ded7b3d2ea368c4304af9954b2973d76ee72 mm/page_alloc: fix race condition between build_all_zonelists and page allocation
+0527b5b9b251f98b5a13193ad53c1e10dc022864 mm: prevent page_frag_alloc() from corrupting the memory
+5ebc823a9f3a48796f728998e8392ef744801f3f mm/migrate_device.c: flush TLB while holding PTL
+d5b3d4d49732d59371f24df86d422eeaad2b8dc2 soc: sunxi: sram: Actually claim SRAM regions
+181e9eddbe285a6fbb85c345f6985275543887ca soc: sunxi: sram: Fix debugfs info for A64 SRAM C
+411cf2f5d72d16b10b9487d2ce6844dd03982773 Revert "drm: bridge: analogix/dp: add panel prepare/unprepare in suspend/resume time"
+a36346cf286bfdee39960663ed5a742e6f5bb7d8 Input: melfas_mip4 - fix return value check in mip4_probe()
+a914ad76c71e587ac80a986c16261c5ba670e1dd usbnet: Fix memory leak in usbnet_disconnect()
+aa717ed068e563603b4496b00e0d6172070c08da nvme: add new line after variable declatation
+43514d6bd64524ae4a83a4951c9e08a3c61ad00c nvme: Fix IOC_PR_CLEAR and IOC_PR_RELEASE ioctls for nvme devices
+3d8a449cc00f100ecdf0943aba9431f11659972d selftests: Fix the if conditions of in test_extra_filter()
+b2cc0ea9677a169fb24d53b18268a3cb7f9e4fdf clk: iproc: Minor tidy up of iproc pll data structures
+1014a37a924d3b244c0d3c8c5947756d0d0a65ee clk: iproc: Do not rely on node name for correct PLL setup
+c0570de285bffd4bd51a41a99b291fedbe9bbe08 Makefile.extrawarn: Move -Wcast-function-type-strict to W=1
+81c3b016344a95a331e1a4b5ded460c52f5d51f8 i2c: dev: prevent ZERO_SIZE_PTR deref in i2cdev_ioctl_rdwr()
+5fc1d6ed74100c040d6a822ad184b78546a22633 ARM: fix function graph tracer and unwinder dependencies
+7cd10d80ef7926b21f5ddc7abbf63fcb1db6517d fs: fix UAF/GPF bug in nilfs_mdt_destroy
+d44fa0cd4c1868452bd8552ed174cd34f91ae9cc dmaengine: xilinx_dma: cleanup for fetching xlnx,num-fstores property
+8b8ca124d37ede08949f8784ab34079d2fbcd09b dmaengine: xilinx_dma: Report error in case of dma_set_mask_and_coherent API failure
+7dffd907334f5feb4d3f58536ed537e820541f50 ARM: dts: fix Moxa SDIO 'compatible', remove 'sdhci' misnomer
+0b53680201346909bc9fdb604ad2c388a875cdad net/ieee802154: fix uninit value bug in dgram_sendmsg
+33dadcea56830eb71fa7244323c107dd3dcb89b8 um: Cleanup syscall_handler_t cast in syscalls_32.h
+5ed5ab45de0bec66a638a60eb8166ab978c72319 um: Cleanup compiler warning in arch/x86/um/tls_32.c
+b46c691873a0e02208cb969b8bc39ea60c016f20 usb: mon: make mmapped memory read only
+736a88c185cd0ff068c61362e863db7cd26db3e1 USB: serial: ftdi_sio: fix 300 bps rate for SIO
+31e7c49a44325208366401e1e41f65521667a8a0 mmc: core: Replace with already defined values for readability
+03c2c2c34a9b9c4372ed1edae10050a15fbb5b29 mmc: core: Terminate infinite loop in SD-UHS voltage switch
+076413b1d2a583d032f6a09e71652666d934db96 rpmsg: qcom: glink: replace strncpy() with strscpy_pad()
+9a0b8a44bbe61041d2c2ad7f1e12549ddf9bc316 netfilter: nf_queue: fix socket leak
+82902825f854120d444ef598a589dd4d863a8a00 nilfs2: fix NULL pointer dereference at nilfs_bmap_lookup_at_level()
+f5b63339baee3a6ff5bb22406d2b854a8e7b2683 nilfs2: fix leak of nilfs_root in case of writer thread creation failure
+1fd789a0ad25ccea142b4368ed3cc796e2f2065e nilfs2: replace WARN_ONs by nilfs_error for checkpoint acquisition failure
+2ca3922e754d05884a03e36649ea429c7293d7c6 ceph: don't truncate file in atomic_open
+7dc386cf52dd3bb1dd9369d04756f7081766fc30 random: clamp credited irq bits to maximum mixed
+fb14b66459c6b90da210978751cfb243139e0299 ALSA: hda: Fix position reporting on Poulsbo
+fb7770489e7bc0af280c6a9d372823c5af6c0ce8 scsi: stex: Properly zero out the passthrough command structure
+d65fb3d3f0c0dc4e85357d86e13831e6aeb5b76b USB: serial: qcserial: add new usb-id for Dell branded EM7455
+e3d66a10defebc7e3d6fd2dc7086104b37ff2e9d random: restore O_NONBLOCK support
+0bed0ba6de7befa604e012b99fff2508f7a3b541 random: avoid reading two cache lines on irq randomness
+56ec77cb50ffb127ab3eac8a46e73c018b1900e1 wifi: mac80211_hwsim: avoid mac80211 warning on bad rate
+644af7d1b22cd9a4721e170e61a32a9209b3ca29 Input: xpad - add supported devices as contributed on github
+86e852c30d223539be09605d89724ec9dfe4fd2e Input: xpad - fix wireless 360 controller breaking after suspend
+6cea55739f185b0424f48e4831a2798b4e2f3a03 random: use expired timer rather than wq for mixing fast pool
+385ef974bf24d6f5eede0aa0698bd0c424dafb7c ALSA: oss: Fix potential deadlock at unregistration
+a607f624d291d4c65077d11ca89080b1033417cd ALSA: rawmidi: Drop register_mutex in snd_rawmidi_free()
+52a1ede6a99bedeca6b28b5b92683facdc1e1462 ALSA: usb-audio: Fix potential memory leaks
+5a8364f70184d923a99927d8bea11ccd3bb39d46 ALSA: usb-audio: Fix NULL dererence at error path
+7d8ad32686ecd4a1f3a471afb233cb4327ee3a0f Revert "fs: check FMODE_LSEEK to control internal pipe splicing"
 
---===============7329940823006595819==
+--===============4998708943830632289==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b76f313031bd-26eb5c5d97de.txt
+Content-Disposition: attachment; filename=revlist-26eb5c5d97de-9ad82bb3cc07.txt
 
-e77e1440e1ece3cace34572a40545ae9e81553f1 Makefile.extrawarn: Move -Wcast-function-type-strict to W=1
-605a735b97cd83b6c71d2b2577aeaae21ea24d0a docs: update mediator information in CoC docs
-19b000598c0b1b692fd2a9bc3147d989010e644b ARM: fix function graph tracer and unwinder dependencies
-b1940f9f0b6d246ad2db978bcec749591259c72e fs: fix UAF/GPF bug in nilfs_mdt_destroy
-7c6fd297427fe03d966cc883ddfb2b5c17b27f8c firmware: arm_scmi: Add SCMI PM driver remove routine
-6a2859114f2b79938cc5d941ac2eca3cc85a5988 dmaengine: xilinx_dma: cleanup for fetching xlnx,num-fstores property
-5c59de1b41a9d377aa5376e67f2073818d7958d3 dmaengine: xilinx_dma: Report error in case of dma_set_mask_and_coherent API failure
-0a68a35b21d9c56d47a678cf387234d45e46e045 ARM: dts: fix Moxa SDIO 'compatible', remove 'sdhci' misnomer
-bec89ae9df54ef3327bd96f235df23199d3fde6c scsi: qedf: Fix a UAF bug in __qedf_probe()
-d59e9b810edbdab7e33846965d02b0d375c99f4f net/ieee802154: fix uninit value bug in dgram_sendmsg
-ab76431a2a581d6bd412eae38e65dd3a65b39fd1 um: Cleanup syscall_handler_t cast in syscalls_32.h
-55ae5bb0070d5d5fddadf09d85d4f45f06bca600 um: Cleanup compiler warning in arch/x86/um/tls_32.c
-e4998483c9488766e380cdb8f2c1e20e4e2ed6da usb: mon: make mmapped memory read only
-d60625d526b53173f6d9d369fcde32136c39ae69 USB: serial: ftdi_sio: fix 300 bps rate for SIO
-5fb3221e856bb63d1fe0f840b2f02d2f5b9ade43 mmc: core: Replace with already defined values for readability
-76e0a2cdfa167b395e5eefe4e75d1a0becb9d88b mmc: core: Terminate infinite loop in SD-UHS voltage switch
-f443f6fe12882af13f7f76439c8a91c767e5fc30 rpmsg: qcom: glink: replace strncpy() with strscpy_pad()
-776c38df09a66a17b01945943dc08c5899ec1f42 nilfs2: fix NULL pointer dereference at nilfs_bmap_lookup_at_level()
-e7c138b24cc8d2d90d46b4f5410885d9b02cf05a nilfs2: fix leak of nilfs_root in case of writer thread creation failure
-51134e793f6c992d16d8fa003f0e35d5ad815cb0 nilfs2: replace WARN_ONs by nilfs_error for checkpoint acquisition failure
-a92b27197bc555dcb3898dc7ca2ea250a18bc49b ceph: don't truncate file in atomic_open
-11441c2046373ef25a1ac96ad66b433f17598a67 random: clamp credited irq bits to maximum mixed
-6e6a52341f56f782c7ac411e06ff23aaba972adb ALSA: hda: Fix position reporting on Poulsbo
-4fa36757af7259c6597b56db7464bdc0d62a8b9f scsi: stex: Properly zero out the passthrough command structure
-54caeb40b71cbe135b20d825e3bea20d28182690 USB: serial: qcserial: add new usb-id for Dell branded EM7455
-6c9ee8c53bb0d142f7e8aa15b2b536716236eee3 random: restore O_NONBLOCK support
-a906572a931f82fc60a734d509930fe3f24c9d5e random: avoid reading two cache lines on irq randomness
-7a7c78c87c9f5c4d083efdcdabb021b53a692d34 random: use expired timer rather than wq for mixing fast pool
-4d5c31f6daae18b4a64ee1b8efcfc7a8258bd8e1 wifi: mac80211_hwsim: avoid mac80211 warning on bad rate
-2f7fc0d30e335eae62839abdfc9da2f72e084a6a Input: xpad - add supported devices as contributed on github
-37a78aacb509cadeb65b2249fd255a71eb2d5e4b Input: xpad - fix wireless 360 controller breaking after suspend
-defd83c5514a18164d162e0d63164569d6d6bb3e ALSA: oss: Fix potential deadlock at unregistration
-8230bab3eff9a7eeac717d4bd562b41b236a8f1b ALSA: rawmidi: Drop register_mutex in snd_rawmidi_free()
-19c55943d556611f2e347bac43644ddca4b008a3 ALSA: usb-audio: Fix potential memory leaks
-398281adf5067068027adf24d7e076a48b784e97 ALSA: usb-audio: Fix NULL dererence at error path
-6923b250798ff45944b6c8ca7bd5ce5c5eb70431 ALSA: hda/realtek: remove ALC289_FIXUP_DUAL_SPK for Dell 5530
-e5041acac8544cf3fb8db07455ea3403f2785b2c mtd: rawnand: atmel: Unmap streaming DMA mappings
-26eb5c5d97de2fbce462a90a1ea89909619fb908 Revert "fs: check FMODE_LSEEK to control internal pipe splicing"
+5e2f5309012dedfd421b36461175f57fe20db773 Makefile.extrawarn: Move -Wcast-function-type-strict to W=1
+373de1e50a9a35131c48d6ce5471a4f17fd08990 docs: update mediator information in CoC docs
+7287a76be911c0ef9d85cca6c147eebce531186c ARM: fix function graph tracer and unwinder dependencies
+8fd44d45f73aa14a499c7d839c16dcccd1418793 fs: fix UAF/GPF bug in nilfs_mdt_destroy
+da8463e362979cfa7eee142b3ad2fd4a0eccc08d firmware: arm_scmi: Add SCMI PM driver remove routine
+c553fadea5f8f467a0bbbaf127c925ff8fdf277d dmaengine: xilinx_dma: cleanup for fetching xlnx,num-fstores property
+fce147750f0939dacd80106fbad2d225b7fe07f0 dmaengine: xilinx_dma: Report error in case of dma_set_mask_and_coherent API failure
+b9758b8412bd016c134004ffb02fd73383724640 ARM: dts: fix Moxa SDIO 'compatible', remove 'sdhci' misnomer
+553336d843b5c9c3b31b958d040b79edec021323 scsi: qedf: Fix a UAF bug in __qedf_probe()
+b746853cc565ff4ba56d90448f82b14335ed2bb1 net/ieee802154: fix uninit value bug in dgram_sendmsg
+b3a63eebd3ab6139c15f5292a6d97ab2549c96ba um: Cleanup syscall_handler_t cast in syscalls_32.h
+69c7c89d9e5a19fa4b7e2e4465a3479714844ad5 um: Cleanup compiler warning in arch/x86/um/tls_32.c
+8e8465260fa4ae4d8871f97d23ee52faad070f49 usb: mon: make mmapped memory read only
+8836dca2827da40cd2e96c87f32972e1fb3ff0ee USB: serial: ftdi_sio: fix 300 bps rate for SIO
+e940c860529c6fb378d46fb79b57942f9e5ad031 mmc: core: Replace with already defined values for readability
+6df2b2fcb87d319184d41b9ce41950ecc0e5b069 mmc: core: Terminate infinite loop in SD-UHS voltage switch
+b7cffcc45320c3bdf2b76566704a87061e282629 rpmsg: qcom: glink: replace strncpy() with strscpy_pad()
+e9f8071abab470d4b392530bffae040f6aa28a41 nilfs2: fix NULL pointer dereference at nilfs_bmap_lookup_at_level()
+2ece42a0418268dc5d80df9e2a13650aeff6bb31 nilfs2: fix leak of nilfs_root in case of writer thread creation failure
+72f563a59ee32234564428fc0d6e6320869ca66d nilfs2: replace WARN_ONs by nilfs_error for checkpoint acquisition failure
+d41fd7760e20b5a1eba185b74acce5fef08d4e56 ceph: don't truncate file in atomic_open
+029bb4d2f00bbb4ceab93f7614ab9fe73da0463a random: clamp credited irq bits to maximum mixed
+3bb5dab00a047d437908ce8c65f1a3fdd387ce88 ALSA: hda: Fix position reporting on Poulsbo
+4cecdde3ccc7d0c9e07a8589297afb38ebc527e2 scsi: stex: Properly zero out the passthrough command structure
+4c490d54a6d32d0ba83f82ac9928185ecae97e3d USB: serial: qcserial: add new usb-id for Dell branded EM7455
+a3c212ef8d6f8c8a20c629f48df3756c1168e4f9 random: restore O_NONBLOCK support
+ff2cb88d36bd90e7e2fd49eff275f0d34c6f4a2a random: avoid reading two cache lines on irq randomness
+cc7d7b21749f1a11706680eaf0159e44bb930597 random: use expired timer rather than wq for mixing fast pool
+0ed9069d6b3f238ed07295ac8899ec7280bf0131 wifi: mac80211_hwsim: avoid mac80211 warning on bad rate
+b834ce7068f37f338b62dab3c0c9a11e678fe40b Input: xpad - add supported devices as contributed on github
+956d43c05b473e502c22448f7035ccb64429b899 Input: xpad - fix wireless 360 controller breaking after suspend
+037844c5555f98f77928517e5edb817c4bb1c9e5 ALSA: oss: Fix potential deadlock at unregistration
+967b1159c08651da07e4813909d4056529a4088a ALSA: rawmidi: Drop register_mutex in snd_rawmidi_free()
+8b5d93a4c2bee72d1a8f17793216d925fbc06fa2 ALSA: usb-audio: Fix potential memory leaks
+6e86715ac598854ea7a2af06493584bc772ae4fd ALSA: usb-audio: Fix NULL dererence at error path
+e392f57cfca4985460514c1da0b59831b12e9f30 ALSA: hda/realtek: remove ALC289_FIXUP_DUAL_SPK for Dell 5530
+bfd7f3844d0c665c8aa7aa94635b028bf9d50f07 mtd: rawnand: atmel: Unmap streaming DMA mappings
+9ad82bb3cc07989b5c2a5c01f89f302b31c434d9 Revert "fs: check FMODE_LSEEK to control internal pipe splicing"
 
---===============7329940823006595819==
+--===============4998708943830632289==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-04f35c658748-3f0cc6018f60.txt
+Content-Disposition: attachment; filename=revlist-3f0cc6018f60-c8bb35ea3a41.txt
 
-73eb86bbaf50b8899a89a1d4574279ecd6e30dd9 uas: add no-uas quirk for Hiksemi usb_disk
-f2170492644129194ef21968daa91b5cc8db067d usb-storage: Add Hiksemi USB3-FW to IGNORE_UAS
-53fdfcd7e2d84110ed82318b15968486312e7079 uas: ignore UAS for Thinkplus chips
-04c9f612609b2eb6bdd1cea212fcb3ab55487458 net: usb: qmi_wwan: Add new usb-id for Dell branded EM7455
-b089cbd9b6401bb1ca8fdc292693651552b5d94d ntfs: fix BUG_ON in ntfs_lookup_inode_by_name()
-c4cb9220f4efaca64c5dae08e98396b6fdee2c69 mmc: moxart: fix 4-bit bus width and remove 8-bit bus width
-f57e55277d29031e91e520b7ce46e39a71f12df4 mm: prevent page_frag_alloc() from corrupting the memory
-4d84440f4232053a8e7d54a04a4c1d6962f589a0 Revert "drm: bridge: analogix/dp: add panel prepare/unprepare in suspend/resume time"
-2248ccd4f9ed3bad638e4ad6e1f8f537d6c61073 Input: melfas_mip4 - fix return value check in mip4_probe()
-051b239380324a62f14f80b4e3f82ccfaa18a8af usbnet: Fix memory leak in usbnet_disconnect()
-fd1d154219d471833ae2f950ba655f08cd475fa7 nvme: add new line after variable declatation
-80ba8a21634c32fdfc848322480947257e3b1e64 nvme: Fix IOC_PR_CLEAR and IOC_PR_RELEASE ioctls for nvme devices
-de06631910b1a77ab2e51424387011aee4a270e8 selftests: Fix the if conditions of in test_extra_filter()
-40a410d363a99c9ebb5d6c9cf2553db750954bec clk: iproc: Minor tidy up of iproc pll data structures
-c747c01c5bb6dab71366d0e8268f656f578558a7 clk: iproc: Do not rely on node name for correct PLL setup
-93a74a85d970da4ff9d9d11d6ec2fb96910a6e9e Makefile.extrawarn: Move -Wcast-function-type-strict to W=1
-341ef8c91f3d0b97f292466a3d79fc87811a4ab7 ARM: fix function graph tracer and unwinder dependencies
-351c69807628006c00c75aaa4c4bb7753ad93cc6 fs: fix UAF/GPF bug in nilfs_mdt_destroy
-50bb9d3cab97aade3a601748963597072a622138 dmaengine: xilinx_dma: cleanup for fetching xlnx,num-fstores property
-191e872244fe6faae234f9f70e8c9f6131cba1cf dmaengine: xilinx_dma: Report error in case of dma_set_mask_and_coherent API failure
-93f02ee8b189b92044847a864e9a51e129ce14ce ARM: dts: fix Moxa SDIO 'compatible', remove 'sdhci' misnomer
-b47e232efba7ff1450b656a441e48f88dbb440db net/ieee802154: fix uninit value bug in dgram_sendmsg
-158789c5f9e85a5f6e8b1dbd6dd5b7cc58d397cb um: Cleanup syscall_handler_t cast in syscalls_32.h
-9b7e2846e2d189093eacf591d4607918ba8f769d um: Cleanup compiler warning in arch/x86/um/tls_32.c
-c83e6215f22b68d483d66e590c35183e9206a18d usb: mon: make mmapped memory read only
-a0d4872fc186963ee3de5dfce14d300271ee56d5 USB: serial: ftdi_sio: fix 300 bps rate for SIO
-ff3b05c1cca86b1906b72f37388a4f9df998e729 nilfs2: fix NULL pointer dereference at nilfs_bmap_lookup_at_level()
-f769b55bb0acb075c24aec99dd8f1a2cc34e9788 nilfs2: fix leak of nilfs_root in case of writer thread creation failure
-6d5763416fd3e9da6d79d6ac53b4f924c54cc486 nilfs2: replace WARN_ONs by nilfs_error for checkpoint acquisition failure
-42208ec0103147e6b9c2fbbedcea820204f3d27b ceph: don't truncate file in atomic_open
-a3e000acff0ef55d111d8fee00305c5ec5ef2ab9 random: clamp credited irq bits to maximum mixed
-033d45f8c315e3bfe704c44a2282cdefc637d07f ALSA: hda: Fix position reporting on Poulsbo
-dc9b2ac38f18743a7a4795dc804bb1dcd72d7b65 scsi: stex: Properly zero out the passthrough command structure
-439330ff1efcb2d9eb71c4fedf53f9392b18c5e2 USB: serial: qcserial: add new usb-id for Dell branded EM7455
-a28999374cac51eeeb282e4e8d0438fc7e606e74 random: avoid reading two cache lines on irq randomness
-261fde7e94831c879f8bd1251f2504bf43d61b88 wifi: mac80211_hwsim: avoid mac80211 warning on bad rate
-4490b2121efe9e169092dbb24534e712c83cb73a random: restore O_NONBLOCK support
-7530f0d67fd115943a228a608533ce730449bec7 Input: xpad - add supported devices as contributed on github
-5eabb12bce14778acbdf4636b3e314c9e5a87039 Input: xpad - fix wireless 360 controller breaking after suspend
-661f029527eda20ebbd6be15ecee53afb2084af8 random: use expired timer rather than wq for mixing fast pool
-e74f0337cddb27e3cf445e4e1eb7ff7dd86ff3b8 ALSA: oss: Fix potential deadlock at unregistration
-7160f48be4a4421c36c5f302c5e0a56f43f87577 ALSA: rawmidi: Drop register_mutex in snd_rawmidi_free()
-f5fc162bc530702d403b5e523294fa655b49f0e8 ALSA: usb-audio: Fix potential memory leaks
-3f0cc6018f60e2b2f21e6493d6349bcbd6aecb21 ALSA: usb-audio: Fix NULL dererence at error path
+cb4a183031cf1f5a3db805fe041be098e1514210 uas: add no-uas quirk for Hiksemi usb_disk
+a9f234f0f880553eae806df81425436c3320ded5 usb-storage: Add Hiksemi USB3-FW to IGNORE_UAS
+caf9bab616a7722d715876dcad4a3bd9e2fb2301 uas: ignore UAS for Thinkplus chips
+46cc187f1164ba483b8f209d16ac64ff5051b400 net: usb: qmi_wwan: Add new usb-id for Dell branded EM7455
+c2626fcab9be8680dd6af792dc83ad4d1e2ef652 ntfs: fix BUG_ON in ntfs_lookup_inode_by_name()
+802fd2254bc050df3242b297c31390047b817619 mmc: moxart: fix 4-bit bus width and remove 8-bit bus width
+b38be26a733fb8233b103489539dda2b07b5632d mm: prevent page_frag_alloc() from corrupting the memory
+e255b3eb774b23938b0e10d64ab3806f0f40f26e Revert "drm: bridge: analogix/dp: add panel prepare/unprepare in suspend/resume time"
+b0c9894658c0460d4ba35e8a21497174c567d312 Input: melfas_mip4 - fix return value check in mip4_probe()
+79373e516c8c0372a65e474df5e7392ac5085658 usbnet: Fix memory leak in usbnet_disconnect()
+517741285d1a939a12f277cb6863dde684d52589 nvme: add new line after variable declatation
+408b3c0629bdf4c3392f0b2c0f40a8a6857837a1 nvme: Fix IOC_PR_CLEAR and IOC_PR_RELEASE ioctls for nvme devices
+188721658ee76d623bc978b71914c5acebf0eedd selftests: Fix the if conditions of in test_extra_filter()
+456f7cbdd8677c94bba1369278dfb685662efa24 clk: iproc: Minor tidy up of iproc pll data structures
+8b16d9eed5a7793974220e355d2ace40f78c4e8c clk: iproc: Do not rely on node name for correct PLL setup
+ca8581838fa5d496e8ee4d862818fc53cab19649 Makefile.extrawarn: Move -Wcast-function-type-strict to W=1
+d7a61b570382113f13533d2302a7b5494f54fefa ARM: fix function graph tracer and unwinder dependencies
+ce65c327834f841bb45d478a92060a2c0c1b394d fs: fix UAF/GPF bug in nilfs_mdt_destroy
+078eeaf14756ef29e9c7fa9c3f0e12f99e577ed5 dmaengine: xilinx_dma: cleanup for fetching xlnx,num-fstores property
+7948bc50ce862970af429436b4e594943202b076 dmaengine: xilinx_dma: Report error in case of dma_set_mask_and_coherent API failure
+ae0bafb0cd788429ea84d6ca3928af8a411aa67d ARM: dts: fix Moxa SDIO 'compatible', remove 'sdhci' misnomer
+a5d11cd0a26c49ffd32c0f93d25d24d21835efef net/ieee802154: fix uninit value bug in dgram_sendmsg
+4a3f73e0381dde63e59c89a308eaed5da7359223 um: Cleanup syscall_handler_t cast in syscalls_32.h
+065313d46268d791695f42ee155b4a888c5aa12c um: Cleanup compiler warning in arch/x86/um/tls_32.c
+512ba03486ec9bb088cc3323ee399502932f2603 usb: mon: make mmapped memory read only
+6893b169529bc86dc520818bf79ac90cdd0ea89b USB: serial: ftdi_sio: fix 300 bps rate for SIO
+9d08fdf5f573e5602346878673fb7647851468ea nilfs2: fix NULL pointer dereference at nilfs_bmap_lookup_at_level()
+03462b54cf851047ea5f6725e773b46b9dace726 nilfs2: fix leak of nilfs_root in case of writer thread creation failure
+8ad24f02e74045b5dd7eb0f9ef670e38bf4c3ab4 nilfs2: replace WARN_ONs by nilfs_error for checkpoint acquisition failure
+7791217d8af1219d0bcd02ff7319ded456a19188 ceph: don't truncate file in atomic_open
+ca6e0d7ad0b448cf29766fd8bfb2dca6c3015a84 random: clamp credited irq bits to maximum mixed
+e4ec4d0efa8e6e127f34dd7360d4e53b18aa2525 ALSA: hda: Fix position reporting on Poulsbo
+11ea416c078cc51b5ed76cbe3230568d78cd7a24 scsi: stex: Properly zero out the passthrough command structure
+d1fcf787dcd80226ef5925e94375b8fb0ba1c5a9 USB: serial: qcserial: add new usb-id for Dell branded EM7455
+67ebf0a7363cbaf12e2bf59b2d61a37a1364e0f6 random: avoid reading two cache lines on irq randomness
+087619c7999bbb093df88efd2f9f09b93d03dcf3 wifi: mac80211_hwsim: avoid mac80211 warning on bad rate
+195eb2079e43d1088487e2dfc22559fba515bd7f random: restore O_NONBLOCK support
+41bd285aaa9b7394e04a913a7037877cccdf7465 Input: xpad - add supported devices as contributed on github
+7ddfa06a6f0b0253f8f4024e883f874ee3270a17 Input: xpad - fix wireless 360 controller breaking after suspend
+8fb5b1c79acc30092ec98693f9b02881fb068dcd random: use expired timer rather than wq for mixing fast pool
+0a8ed16b476e6d68ca73658e0ccb82c3435bd8c6 ALSA: oss: Fix potential deadlock at unregistration
+012a883931e67c9448f7e894b1ac51098ced6cab ALSA: rawmidi: Drop register_mutex in snd_rawmidi_free()
+84fa0fa3461a2a1db446a85947a3a23bfb6696d7 ALSA: usb-audio: Fix potential memory leaks
+c8bb35ea3a415d27de1b778afb64034d68b77743 ALSA: usb-audio: Fix NULL dererence at error path
 
---===============7329940823006595819==
+--===============4998708943830632289==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-526b2afbbefb-a89143f3a425.txt
+Content-Disposition: attachment; filename=revlist-a89143f3a425-94321d81f070.txt
 
-a11e131cbef408e27c3c0452afa0c4ffe613406b Revert "fs: check FMODE_LSEEK to control internal pipe splicing"
-a92af4f87ddaa6f05c85d991ad9a6b96ebe898c3 ALSA: oss: Fix potential deadlock at unregistration
-c2b77ad73538dbb2821e3be7a41f298363d76a36 ALSA: rawmidi: Drop register_mutex in snd_rawmidi_free()
-d8b314fb251db908164173bbf0ad3982ea86befc ALSA: usb-audio: Fix potential memory leaks
-b09cb3528c9834e4aee0ea5560f46b0cb9b68c05 ALSA: usb-audio: Fix NULL dererence at error path
-77e2c7e6a4210d39fa44b2794f6f8ee8824ecce4 ALSA: hda/realtek: remove ALC289_FIXUP_DUAL_SPK for Dell 5530
-1758f62f42f36ed02825c06f0358570193adf905 ALSA: hda/realtek: Correct pin configs for ASUS G533Z
-2be1230f5dc6b96af8973b70137653439f701545 ALSA: hda/realtek: Add quirk for ASUS GV601R laptop
-6a5eb756920196b7b752dc4f737e17f1b95fe490 ALSA: hda/realtek: Add Intel Reference SSID to support headset keys
-d0dd97a43616549c6fa6be5f85c4e06295033601 mtd: rawnand: atmel: Unmap streaming DMA mappings
-825ff2e43360436be92c6a5bff82ef137a5d0788 io_uring/rw: fix unexpected link breakage
-a89143f3a425ea02707b988b4be8f5deb4b8e7c8 io_uring/net: don't update msg_name if not provided
+5428026b749a08f1a0d83e49e1eb3edabc651530 Revert "fs: check FMODE_LSEEK to control internal pipe splicing"
+5b3f085a9eeeda6e66ba833ef67d439fe137f3fb ALSA: oss: Fix potential deadlock at unregistration
+1adc7c352f267f6dbeef4f0a97b6137ae7c84567 ALSA: rawmidi: Drop register_mutex in snd_rawmidi_free()
+2fbfdaa748f10d2a5a35b66626ef3fef61576119 ALSA: usb-audio: Fix potential memory leaks
+3673931a3f248685d19da5c29fa0c0ad932e34e8 ALSA: usb-audio: Fix NULL dererence at error path
+0c2deb9374465bc6ac630b6e3a5e37b817052f98 ALSA: hda/realtek: remove ALC289_FIXUP_DUAL_SPK for Dell 5530
+26c870ade34b869a0bbba97524efdf5997d870e1 ALSA: hda/realtek: Correct pin configs for ASUS G533Z
+53e4733d2e81d9170317d2936703f7255f09bf1d ALSA: hda/realtek: Add quirk for ASUS GV601R laptop
+96418ecfca6fd05bd5cd1a0f768c349bedeaa449 ALSA: hda/realtek: Add Intel Reference SSID to support headset keys
+2a185e80139cf32ff8ac10147f4d77bb09f33f5e mtd: rawnand: atmel: Unmap streaming DMA mappings
+78d52cb3fcaecf9463301be85f81f5afd08b2f34 io_uring/rw: fix unexpected link breakage
+94321d81f07024bf9d978cd862e576b0e6dc9d8c io_uring/net: don't update msg_name if not provided
 
---===============7329940823006595819==
+--===============4998708943830632289==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b070c1fa3420-f3823bd2f8fe.txt
+Content-Disposition: attachment; filename=revlist-f3823bd2f8fe-2c59b775507b.txt
 
-256135bf529c288ac2ba4a753d69cb29160e87a9 Revert "fs: check FMODE_LSEEK to control internal pipe splicing"
-2f89e875f16f71029f91f3a9b4d3c4d16c499241 ALSA: oss: Fix potential deadlock at unregistration
-842c34d891532aef4972ecbf867e5bf089fb0b97 ALSA: rawmidi: Drop register_mutex in snd_rawmidi_free()
-6077e3e0b7b963ec21b7f26d6c48a4e0f419df86 ALSA: usb-audio: Fix potential memory leaks
-c351f8f90a83a9dbc17dba23569e82e59b6fa2ee ALSA: usb-audio: Fix NULL dererence at error path
-1e53c1227fe31165069d77c5e8b03fb2e6584427 ALSA: hda/realtek: remove ALC289_FIXUP_DUAL_SPK for Dell 5530
-90d2f89985ca9ad12f084c31a83f0ef85c08d3f9 ALSA: hda/realtek: Correct pin configs for ASUS G533Z
-4f7560e7f95b2905295963ffc6f2e1954b984626 ALSA: hda/realtek: Add quirk for ASUS GV601R laptop
-1ae76bfafd42ffb0a28edc66ad308124777ce987 ALSA: hda/realtek: Add Intel Reference SSID to support headset keys
-ea88d720b22ede7573608da9f0678fd783e4109d mtd: rawnand: atmel: Unmap streaming DMA mappings
-491d7292f45184512b2923d3ab710d26d8aebf15 io_uring/rw: fix unexpected link breakage
-5ac4017254ac30d321a7110fb8bc5d2f437d7c57 io_uring/net: fix fast_iov assignment in io_setup_async_msg()
-de87136ba8f27334ac2a9c858b600d4cdc9296f0 io_uring/net: don't update msg_name if not provided
-1f5ec934f32b5226e45871e9ef6ed683ef78de53 io_uring/net: handle -EINPROGRESS correct for IORING_OP_CONNECT
-454b346f056c3863af77cf97c9632791b6585740 io_uring/af_unix: defer registered files gc to io_uring release
-f3823bd2f8fe6fafb659ec411d4406676acde6b2 io_uring: correct pinned_vm accounting
+19a8fd53b358d8f68de489db0408b3138d4f9af8 Revert "fs: check FMODE_LSEEK to control internal pipe splicing"
+8e98b806a69df649cfbca34d6d426e3200ff4502 ALSA: oss: Fix potential deadlock at unregistration
+977020b7f841d99f46756a73316c9f8a5238d82f ALSA: rawmidi: Drop register_mutex in snd_rawmidi_free()
+a5caa89051f2b734fd5fcde56e8cbf78f6a96110 ALSA: usb-audio: Fix potential memory leaks
+5c2237c2f293fda8c761d31c06b16cac0cef2f94 ALSA: usb-audio: Fix NULL dererence at error path
+5c4a653dfa9574d676351cea31c19359116730b4 ALSA: hda/realtek: remove ALC289_FIXUP_DUAL_SPK for Dell 5530
+2551ab66e59836994d0d4055ef6a1c550129832c ALSA: hda/realtek: Correct pin configs for ASUS G533Z
+9aa4b769ed300af9f45f855be6a1c6dfd4d8a567 ALSA: hda/realtek: Add quirk for ASUS GV601R laptop
+42ae5451d88b927705e5422febc60f02fafc0174 ALSA: hda/realtek: Add Intel Reference SSID to support headset keys
+84fbbd7bd26a6f067acdfe3692af9d836cc78cca mtd: rawnand: atmel: Unmap streaming DMA mappings
+1ba119782648158df2b41b3830e83ecb74171d7d io_uring/rw: fix unexpected link breakage
+133d453b1e0a091906617b7bcdcdd42bbc57938d io_uring/net: fix fast_iov assignment in io_setup_async_msg()
+103f6e6c0eb55e11da02d3a9fa9c7a2377633c8b io_uring/net: don't update msg_name if not provided
+e60a31004c0f672f4317336d6acf60b84a7ee77a io_uring/af_unix: defer registered files gc to io_uring release
+86a194eda67970ad475e4811676707fca0f88bea io_uring: correct pinned_vm accounting
+b6d39d8871952251225206be7a54a414831f199b hv_netvsc: Fix race between VF offering and VF association message from host
+6725a511802e3f531f3956d25f1f902a4a9f4fcb cifs: destage dirty pages before re-reading them for cache=none
+9e22c1168a5dfa10363cefe67508cfc2c4f8fbc7 cifs: Fix the error length of VALIDATE_NEGOTIATE_INFO message
+5da19ef05b87bc93187063b81ba0a827e8936a0f iio: dac: ad5593r: Fix i2c read protocol requirements
+08e1043a23d1de133d9cbb553cd853ba723cf8a3 iio: ltc2497: Fix reading conversion results
+3efb2c73d915825672cd044c4d86ec94a1970874 iio: adc: ad7923: fix channel readings for some variants
+c900b4d7952b8b4f8729964c44a1f0ceda1f49ae iio: pressure: dps310: Refactor startup procedure
+b6cfb33ccb3e45d6c35007d89e89218863885ad9 iio: pressure: dps310: Reset chip after timeout
+cef7ef1dd8a5d594502ad37e0474b103baa3e7c6 xhci: dbc: Fix memory leak in xhci_alloc_dbc()
+1a17340036c47956d54292d30bdf81d6029fe0a7 usb: gadget: uvc: Fix argument to sizeof() in uvc_register_video()
+0a0743e9fbd9110a37c81dc42a4bf433bb6b1f6e usb: add quirks for Lenovo OneLink+ Dock
+96d0aefb1f2af8c82d7ec9c6edb9b8ed371edb29 mmc: core: Add SD card quirk for broken discard
+a4e68bc2911f4ff8b481fdfe249f04d8c3f52765 can: kvaser_usb: Fix use of uninitialized completion
+d5f5a4e4cbc0174f8074f40c8a165b260a69b2a1 can: kvaser_usb_leaf: Fix overread with an invalid command
+509a12c4321f04d53f0f37877579dbd7e03e48cb can: kvaser_usb_leaf: Fix TX queue out of sync after restart
+6bebeac34e8cee23a601f7603922e9f751f3ca6a can: kvaser_usb_leaf: Fix CAN state after restart
+e8485abf5b6ac349015d310ad4d54a2bb2e28255 mmc: renesas_sdhi: Fix rounding errors
+7cead60ad8d00dd3db461d4a710a7066e631a52e mmc: sdhci-tegra: Use actual clock rate for SW tuning correction
+c90a6477c55e23c45d68c2a953ac7bbe95480a7d mmc: sdhci-sprd: Fix minimum clock limit
+2c59b775507b28bf2bae72a28d488bff461fdbdc i2c: designware: Fix handling of real but unexpected device interrupts
 
---===============7329940823006595819==
+--===============4998708943830632289==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-85b6567b79d1-4ee466881dbf.txt
+Content-Disposition: attachment; filename=revlist-4ee466881dbf-3fe36a71e6a3.txt
 
-14e717b5572bcf4b07876d707e5a424f90916d99 ALSA: oss: Fix potential deadlock at unregistration
-71008d11660406baef195bf507315e41e9791708 ALSA: rawmidi: Drop register_mutex in snd_rawmidi_free()
-f2604727ff71394be4afb01ff4af3a7af6a39687 ALSA: usb-audio: Fix potential memory leaks
-11321cb857fbedce7ada767184739fb403c5dd6e ALSA: usb-audio: Fix NULL dererence at error path
-e8f2be3c070fa6227f5021981e21e950eed0c9a4 ALSA: hda/realtek: remove ALC289_FIXUP_DUAL_SPK for Dell 5530
-98df85aa5e56be4cf6223318e9a1ed23a334f767 ALSA: hda/realtek: Correct pin configs for ASUS G533Z
-1ba737e4c51459a95b6872af83fd945d68179a70 ALSA: hda/realtek: Add quirk for ASUS GV601R laptop
-22f9167aa87479d16e7b4fcfc6af77b9ecd10209 ALSA: hda/realtek: Add Intel Reference SSID to support headset keys
-d96e04f3ea7ca0a727a3cdf6e72b4b9a6867cdc2 mtd: rawnand: atmel: Unmap streaming DMA mappings
-3788e7ac12937a3f8b86afb97418e29de05b48df io_uring: add custom opcode hooks on fail
-f633ad9884d03900e0b9adeb5165f0b1e23ac816 io_uring/rw: don't lose partial IO result on fail
-51e2953e346353c039920cb890a88b40eaf80545 io_uring/net: don't lose partial send/recv on fail
-de5ca670029eb9519a11a71a22d637d6064a7382 io_uring/rw: fix unexpected link breakage
-4b312dab08332fd276c14bdd142593b90be50f9a io_uring/rw: don't lose short results on io_setup_async_rw()
-599b811b8be9c3cb258f464e52d213a6860569c5 io_uring/net: fix fast_iov assignment in io_setup_async_msg()
-eadffedfa4d47931258ca86c296dcf91d1221c7d io_uring/net: don't update msg_name if not provided
-87e2f747a450ab3aef47dd817a8046753c05ff6e io_uring: limit registration w/ SINGLE_ISSUER
-97c6a272b527fbe5a3bc3797a52ad3b8303de075 io_uring/net: handle -EINPROGRESS correct for IORING_OP_CONNECT
-b2928196e144231f5abbbc5e1fe62066e8a957a2 io_uring/af_unix: defer registered files gc to io_uring release
-4df75cfe5843d28ac458af285868127b2122f68b io_uring: correct pinned_vm accounting
-eb058d872c8c933bd8befaae039ccc43f4b18463 hv_netvsc: Fix race between VF offering and VF association message from host
-1630d0e23004f6197d2504bb6f59cef13de4ce84 cifs: destage dirty pages before re-reading them for cache=none
-353c213e48b85a5183f3d03f8e4614955401f233 cifs: Fix the error length of VALIDATE_NEGOTIATE_INFO message
-a8883ae3281fc9b3f9072ca400d45032b2595586 iio: dac: ad5593r: Fix i2c read protocol requirements
-be417459ce6103c36de3cd6ed4fe5bf0cab364c2 iio: ltc2497: Fix reading conversion results
-ae9ad3ec97993fcdfbc2d67f3f5dc9ef6f10d842 iio: adc: ad7923: fix channel readings for some variants
-f43c478ce9b17f0c9ae26be4fa5266e4f7614ced iio: pressure: dps310: Refactor startup procedure
-a0f9976dcd4305c705806fd4b7349a979b58d2cf iio: pressure: dps310: Reset chip after timeout
-da3d1fbbc6c6efc8ecc039d7019428aaac38dd9c xhci: dbc: Fix memory leak in xhci_alloc_dbc()
-25118da0a1343ca755be3d48feed7bc0c6d0cdd6 usb: gadget: uvc: Fix argument to sizeof() in uvc_register_video()
-e039f4dd3d239caf9af283911e12e9be80cec534 usb: add quirks for Lenovo OneLink+ Dock
-8446a83e3f4f913e5a86ab3ca4e6d668ebf894fb mmc: core: Add SD card quirk for broken discard
-66ecc87bfc331e0632005afd5f0a841211013785 can: kvaser_usb: Fix use of uninitialized completion
-7f7b01742d49469f31b996c1978096ab5b3c27f3 can: kvaser_usb_leaf: Fix overread with an invalid command
-34e7e4e97aa919d93fc40c84115fc3443702b354 can: kvaser_usb_leaf: Fix TX queue out of sync after restart
-c055732a675979481bda6c82484ae43add68ce06 can: kvaser_usb_leaf: Fix CAN state after restart
-8ad6bde62241366a29901e40226846b7639e442a mmc: renesas_sdhi: Fix rounding errors
-1d6fca3e3cf063c735cf252a7be60369d62c1bc1 mmc: sdhci-tegra: Use actual clock rate for SW tuning correction
-b806ffbaad7243752e88099e929253dfb75fb83b mmc: sdhci-sprd: Fix minimum clock limit
-4ee466881dbfb213617e8276fb718695e88cbbff i2c: designware: Fix handling of real but unexpected device interrupts
+646bb36d48cc22f0d75dc1c788437a32eb5edeb2 ALSA: oss: Fix potential deadlock at unregistration
+c1b1a57bd41010699a5b1d20c1e7046eb7b86e5a ALSA: rawmidi: Drop register_mutex in snd_rawmidi_free()
+5ee20dbb5e0c7a906e88cf90e8740065458a5b1c ALSA: usb-audio: Fix potential memory leaks
+7edaa80a543d9fd3cfd73f8dd79915eb7a5d41b6 ALSA: usb-audio: Fix NULL dererence at error path
+b013474aebcbce0e9aee224a6f54c89439c48e7c ALSA: hda/realtek: remove ALC289_FIXUP_DUAL_SPK for Dell 5530
+e2a70e062839a45928cb578d4aeb3b0495ef7409 ALSA: hda/realtek: Correct pin configs for ASUS G533Z
+e73e9921fcf93de651f60e166d25db1503b9043d ALSA: hda/realtek: Add quirk for ASUS GV601R laptop
+3fc6c3329c01834418f5c1d699410bb8df9f7497 ALSA: hda/realtek: Add Intel Reference SSID to support headset keys
+4803b6be97b73c2d32fd60c834f74b62a553510d mtd: rawnand: atmel: Unmap streaming DMA mappings
+3b85b89503d71d2a4b007700584a9a55774d17ef io_uring: add custom opcode hooks on fail
+2179ae48f25ad567d00b1bdd84e7ebb58ced6f29 io_uring/rw: don't lose partial IO result on fail
+7da000eb85641fff9006af8c9161ad7e5d5c43ba io_uring/net: don't lose partial send/recv on fail
+94596df55ca4070471f2c1e834a8efdf356d1e3c io_uring/rw: fix unexpected link breakage
+f36201d1694cd341c7ca110c655560e91cab769b io_uring/rw: don't lose short results on io_setup_async_rw()
+91dda411f95775d86dc149315d1a9504eff2be42 io_uring/net: fix fast_iov assignment in io_setup_async_msg()
+0dd6bfd885b4f48876d5940de8438a007cf7c67e io_uring/net: don't update msg_name if not provided
+0c4dd313be0f6b7593bfd4a1e5b5a62276ddbc7b io_uring: limit registration w/ SINGLE_ISSUER
+c52039b786a847857bbf24ce33abfd4e82ea9ea0 io_uring/net: handle -EINPROGRESS correct for IORING_OP_CONNECT
+3d89d7788e66d18f5de5983644af6e71c0c4853b io_uring/af_unix: defer registered files gc to io_uring release
+c9059e99ab534860055ddf72ccb3c77ab8b729cd io_uring: correct pinned_vm accounting
+500197f63d8e3d63e01a9799d14bd6267b1f4b71 hv_netvsc: Fix race between VF offering and VF association message from host
+47d2545097f2a864c10d246e062da4802adb5ca0 cifs: destage dirty pages before re-reading them for cache=none
+e88c16c990155edb194b19bc1085a735c985d410 cifs: Fix the error length of VALIDATE_NEGOTIATE_INFO message
+90437614bcecaa34c2f3c26a2e579c03e31b2b6c iio: dac: ad5593r: Fix i2c read protocol requirements
+6b2bcc9037f03e87852c43a97da6799a8c9ba050 iio: ltc2497: Fix reading conversion results
+c33cbafdfe59168f9036ef5c05cb6da86661f4eb iio: adc: ad7923: fix channel readings for some variants
+80dcae815765e6a5e6a94e9a55a2ec6da43ae14a iio: pressure: dps310: Refactor startup procedure
+20453565aa118a334c246d2bd089ab6bcfda4375 iio: pressure: dps310: Reset chip after timeout
+25b0d13f8b65ab08c94c71ce6a6b5220a0573750 xhci: dbc: Fix memory leak in xhci_alloc_dbc()
+6615bb3a28f4c1495e3cc6370ade9d04b66bf9ff usb: gadget: uvc: Fix argument to sizeof() in uvc_register_video()
+f93a2119040ce813a647aa30bc2b23ede78a13c5 usb: add quirks for Lenovo OneLink+ Dock
+c10d42a205432ac126a13e5ed83ed1beab6e9ac7 mmc: core: Add SD card quirk for broken discard
+0e2e18fbda4be74362bbbb4e7ced988a8f30bb1c can: kvaser_usb: Fix use of uninitialized completion
+741dd21789a7894b71a3731db8a1742c10452bed can: kvaser_usb_leaf: Fix overread with an invalid command
+b780abfc5d514d6e4359c6c5c6c6bbda0b4d1255 can: kvaser_usb_leaf: Fix TX queue out of sync after restart
+7c9fd7d6be4493a3a56cd3bc37b70462db94b790 can: kvaser_usb_leaf: Fix CAN state after restart
+03fd1db1f11c14aabbc03dc0f80c17639f0da020 mmc: renesas_sdhi: Fix rounding errors
+cfa19603fddade30d9e9c9d12eefe44ac7c3c566 mmc: sdhci-tegra: Use actual clock rate for SW tuning correction
+142616f588d09294a3ce7c9496fb48bb6098c985 mmc: sdhci-sprd: Fix minimum clock limit
+3fe36a71e6a3ac45046533b15b5a8994dec15581 i2c: designware: Fix handling of real but unexpected device interrupts
 
---===============7329940823006595819==--
+--===============4998708943830632289==--
