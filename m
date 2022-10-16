@@ -1,46 +1,41 @@
-Content-Type: multipart/mixed; boundary="===============4308034408910688273=="
+Content-Type: multipart/mixed; boundary="===============0707410757319470664=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Sun, 16 Oct 2022 11:56:49 -0000
-Message-Id: <166592140998.23223.195861183670553881@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/xfs/xfstests-dev
+Date: Sun, 16 Oct 2022 12:00:43 -0000
+Message-Id: <166592164397.26244.9968661176855324608@gitolite.kernel.org>
 
---===============4308034408910688273==
+--===============0707410757319470664==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
-user: acme
+repo: pub/scm/fs/xfs/xfstests-dev
+user: zlang
 changes:
-  - ref: refs/heads/tmp.perf/core
-    old: 7cb33524c92032ab78ee427cf5fd02c622776d9d
-    new: a3a365655a28f12f07eddf4f3fd596987b175e1d
-    log: revlist-7cb33524c920-a3a365655a28.txt
+  - ref: refs/heads/master
+    old: e5555e75ba199d153f4dfb81496a891263ec9bdd
+    new: 3b5cb74c03312b5ac3349a0759c8d32bb9d0dada
+    log: revlist-e5555e75ba19-3b5cb74c0331.txt
 
---===============4308034408910688273==
+--===============0707410757319470664==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7cb33524c920-a3a365655a28.txt
+Content-Disposition: attachment; filename=revlist-e5555e75ba19-3b5cb74c0331.txt
 
-e4080492877d3125ffd0c6dd3e3c997fbe0ebe6d perf test: test_intel_pt.sh: Fix return checking again
-5021d82bca4f5335b29de71f0533b93c6c15007e perf test: test_intel_pt.sh: Tidy some perf record options
-9637bf8ff0f050cfb9fe84f5734af633e7902796 perf test: test_intel_pt.sh: Print a message when skipping kernel tracing
-40053a4b7ebd227e923eb996f5e3e328a647db93 perf test: test_intel_pt.sh: Tidy some alignment
-973db24079fc6b292e896b3b9c057a0a6c0d8e93 perf test: test_intel_pt.sh: Add jitdump test
-89b15d00527b7825ff19130ed83478e80e3fae99 perf inject: Fix GEN_ELF_TEXT_OFFSET for jit
-f77811a0f62577d2d51e57c5740a4fbd53dd3331 perf test: test_intel_pt.sh: Add 9 tests
-e28039667cea2cbea72aeb19665a1c57c6756253 perf test: Fix attr tests for PERF_FORMAT_LOST
-5a3d47071f0ced0431ef82a5fb6bd077ed9493db perf intel-pt: Fix segfault in intel_pt_print_info() with uClibc
-6cef7dab3e2e5cb23a13569c3880c0532326748c perf intel-pt: Fix system_wide dummy event for hybrid
-cd400f6f18421b75e64e4aa7bc359d2606033412 perf tests stat+csv_output: Include sanity check for topology
-58d4802a5eaab55e174f4d31262daada6665aa22 perf tests stat+json_output: Include sanity check for topology
-45a3975f8e4c56829ada20f7a6a29095ca05e375 perf auxtrace arm: Refactor event list iteration in auxtrace_record__init()
-057381a7ece1b2726509ce47cdb9c1a111acfce9 perf auxtrace arm64: Add support for HiSilicon PCIe Tune and Trace device driver
-5e91e57e68090c0e8ab0acecdbb309af8417d415 perf auxtrace arm64: Add support for parsing HiSilicon PCIe Trace packet
-a3a365655a28f12f07eddf4f3fd596987b175e1d tools arch x86: Sync the msr-index.h copy with the kernel sources
+ce018e24f0a5b30ca8bc624494f1fd4d509bba8a cleanup: remove left files after test finishes
+b57788fbe2cd10193318941f502bb3e5c4bc087f generic/299: skip test early if falloc is not supported
+18b44df21afcac7fd27b6c0f44923de3eadda852 common: introduce zone_capacity() to return a zone capacity
+dcf2ada66e2dcaf9d3724fb5456d0257eb01a555 btrfs: test active zone tracking
+8088eb0a46cc6261cd1176e6c488760acc2fce78 btrfs: test fiemap on large file with extents shared through a snapshot
+41914271ff1163cb286cfa06e30323f32bdaad70 generic/092: skip test if file allocation unit isn't aligned
+7bac64cc78ddf0c6e190c58929d899078b56c429 xfs/114: fix missing reflink requires
+62d628f7bb7152875f6e748feb11ac27f753d97f xfs/229: do not _xfs_force_bdev on TEST_DIR
+a2d5043aca5948e98a8d44e2c4e8295befa189a8 xfs/128: try to force file allocation behavior
+796546224dee718d76d08db91f079e7f551dd8f8 common/populate: don't metadump xfs filesystems twice
+3b5cb74c03312b5ac3349a0759c8d32bb9d0dada common/populate: fix _xfs_metadump usage in _scratch_populate_cached
 
---===============4308034408910688273==--
+--===============0707410757319470664==--
