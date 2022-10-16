@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2607751937228115402=="
+Content-Type: multipart/mixed; boundary="===============9038025923656791803=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Sun, 16 Oct 2022 22:59:10 -0000
-Message-Id: <166596115035.7230.6147590492184558086@gitolite.kernel.org>
+Date: Sun, 16 Oct 2022 22:59:14 -0000
+Message-Id: <166596115409.7344.14662838696073278422@gitolite.kernel.org>
 
---===============2607751937228115402==
+--===============9038025923656791803==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,28 +15,21 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/robh/linux
 user: robh
 changes:
-  - ref: refs/heads/master
-    old: f3dfe925f9548a4337883926db542ccf4ca55fe1
-    new: 9abf2313adc1ca1b6180c508c25f22f9395cc780
-    log: revlist-f3dfe925f954-9abf2313adc1.txt
-  - ref: refs/tags/v6.1-rc1
-    old: 0000000000000000000000000000000000000000
-    new: e0e492cebef25c13fc29b174f01b5178662f1652
+  - ref: refs/heads/dt/next
+    old: 7a7f58575483a74db4cc2c1e37f21ddda057083d
+    new: 46fe5a23767abe3d244b715e3e7af29518a0c558
+    log: revlist-7a7f58575483-46fe5a23767a.txt
+  - ref: refs/heads/for-next
+    old: 7a7f58575483a74db4cc2c1e37f21ddda057083d
+    new: 46fe5a23767abe3d244b715e3e7af29518a0c558
+    log: revlist-7a7f58575483-46fe5a23767a.txt
 
---===============2607751937228115402==
+--===============9038025923656791803==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-f3dfe925f954-9abf2313adc1.txt
+Content-Disposition: attachment; filename=revlist-7a7f58575483-46fe5a23767a.txt
 
-bb1f11546eb3cd1e2b8ea45653eb0f530e42b035 Merge tag 'x86_asm_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-901735e51e4dea1eee816b0b57d1d6abbd94b3d5 Merge tag 'x86_misc_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-9bf445b65dd7d4c7d0e4efaecf38525abbbe74e3 Merge tag 'x86_paravirt_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-b5f0b11353a6a33a1accd0b742c80ed6b2f35ac0 Merge tag 'x86_microcode_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-193e2268a3bb1404b42f8edcc037a3eafd165aa9 Merge tag 'x86_cache_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-da4ab869e37cf81f93333ba74b16e0ea6d322e15 libceph: drop last_piece flag from ceph_msg_data_cursor
-f791357330b0043ec953ce122ab7519af4b9d24a ceph: wake up the waiters if any new caps comes
-6eb06c46214d33c71ae86d60b3fc9cb17c20beca ceph: fail the request if the peer MDS doesn't support getvxattr op
 7c3ea9870e09e193981695dd67c37a1a2b6d600b ceph: no need to wait for transition RDCACHE|RD -> RD
 aa1d627207cace003163dee24d1c06fa4e910c6b ceph: Use kcalloc for allocating multiple elements
 b4b924c7a16e857b0715603456045251a49f2ea6 ceph: increment i_version when doing a setattr with caps
@@ -1053,5 +1046,13 @@ b08cd74448fafaa302ce2bc11beab5e5a55d0065 Merge tag '6.1-rc-smb3-client-fixes-par
 8636df94ec917019c4cb744ba0a1f94cf9057790 Merge tag 'perf-tools-for-v6.1-2-2022-10-16' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 f1947d7c8a61db1cb0ef909a6512ede0b1f2115b Merge tag 'random-6.1-rc1-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/crng/random
 9abf2313adc1ca1b6180c508c25f22f9395cc780 Linux 6.1-rc1
+16988c742968d5ceb2e832a57bd277f51f0a59d7 of/address: introduce of_address_count() helper
+32e8f9b3144496c76ad659c255246ecee7b47669 of/platform: use of_address_count() helper
+91924d9bb1df2a234a0e055c550abdbd49412071 of: declare string literals const
+c34f9f5499278607403f667ba77dc15125c24b27 dt-bindings: nvmem: u-boot,env: add Broadcom's variant binding
+50d898442f22afb48eb34f5e11fde29c6e1351e4 dt-bindings: display: panel: use spi-peripheral-props.yaml
+43ef6ea539d8eb9b4bce475dea8f4e1534600e69 dt-bindings: ufs: cdns,ufshc: add missing dma-coherent field
+d5a6e0fe2a70abc7865015e4ab3a4f5bcce6f0e6 dt-bindings: misc: Convert IDT 89HPESx to DT schema
+46fe5a23767abe3d244b715e3e7af29518a0c558 dt-bindings: clock: Convert pwm-clock to DT schema
 
---===============2607751937228115402==--
+--===============9038025923656791803==--
