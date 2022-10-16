@@ -1,31 +1,38 @@
-Content-Type: multipart/mixed; boundary="===============1223140121966268510=="
+Content-Type: multipart/mixed; boundary="===============4803325907460105662=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Sun, 16 Oct 2022 22:54:34 -0000
-Message-Id: <166596087425.2521.4531641629865393816@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
+Date: Sun, 16 Oct 2022 22:56:31 -0000
+Message-Id: <166596099178.6086.5279428048232945039@gitolite.kernel.org>
 
---===============1223140121966268510==
+--===============4803325907460105662==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/groeck/linux-staging
-user: groeck
+repo: pub/scm/linux/kernel/git/xiang/erofs
+user: xiang
 changes:
-  - ref: refs/heads/watchdog-next
-    old: 6b744a0170dfaafd4df711527cef3bc1eff8c9e7
-    new: 7208127c690c7575460b70128a06d5dc7eb555bf
-    log: revlist-6b744a0170df-7208127c690c.txt
+  - ref: refs/heads/master
+    old: 725737e7c21d2d25a4312c2aaa82a52bd03e3126
+    new: 9abf2313adc1ca1b6180c508c25f22f9395cc780
+    log: revlist-725737e7c21d-9abf2313adc1.txt
+  - ref: refs/tags/v6.1-rc1
+    old: 0000000000000000000000000000000000000000
+    new: e0e492cebef25c13fc29b174f01b5178662f1652
 
---===============1223140121966268510==
+--===============4803325907460105662==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-6b744a0170df-7208127c690c.txt
+Content-Disposition: attachment; filename=revlist-725737e7c21d-9abf2313adc1.txt
 
+bb1f11546eb3cd1e2b8ea45653eb0f530e42b035 Merge tag 'x86_asm_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+901735e51e4dea1eee816b0b57d1d6abbd94b3d5 Merge tag 'x86_misc_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+9bf445b65dd7d4c7d0e4efaecf38525abbbe74e3 Merge tag 'x86_paravirt_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+b5f0b11353a6a33a1accd0b742c80ed6b2f35ac0 Merge tag 'x86_microcode_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 193e2268a3bb1404b42f8edcc037a3eafd165aa9 Merge tag 'x86_cache_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 da4ab869e37cf81f93333ba74b16e0ea6d322e15 libceph: drop last_piece flag from ceph_msg_data_cursor
 f791357330b0043ec953ce122ab7519af4b9d24a ceph: wake up the waiters if any new caps comes
@@ -1046,9 +1053,5 @@ b08cd74448fafaa302ce2bc11beab5e5a55d0065 Merge tag '6.1-rc-smb3-client-fixes-par
 8636df94ec917019c4cb744ba0a1f94cf9057790 Merge tag 'perf-tools-for-v6.1-2-2022-10-16' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 f1947d7c8a61db1cb0ef909a6512ede0b1f2115b Merge tag 'random-6.1-rc1-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/crng/random
 9abf2313adc1ca1b6180c508c25f22f9395cc780 Linux 6.1-rc1
-9e8dea197092c536911a473db0796f99bf5cbfc9 watchdog: Add tracing events for the most usual watchdog events
-0974c4221ce6e0004eebda0715675195021fd7f0 watchdog: exar_wdt: fix use after free
-f9eb9d94b00d82d8416966ea50e0f64e7d30cfd7 watchdog: mtk_wdt: Add support for MT6795 Helio X10 watchdog and toprgu
-7208127c690c7575460b70128a06d5dc7eb555bf watchdog: sp805_wdt: fix spelling typo in comment
 
---===============1223140121966268510==--
+--===============4803325907460105662==--
