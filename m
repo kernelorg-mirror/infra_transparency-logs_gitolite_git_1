@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2190076885457570633=="
+Content-Type: multipart/mixed; boundary="===============3635520836106621589=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
 Date: Sun, 16 Oct 2022 06:44:08 -0000
-Message-Id: <166590264858.9926.18009462978310817614@gitolite.kernel.org>
+Message-Id: <166590264880.9955.9810764863756503524@gitolite.kernel.org>
 
---===============2190076885457570633==
+--===============3635520836106621589==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,18 +16,15 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.4.y
-    old: bda467b55e8cfabb0079c4990b805ed2acbc1e75
-    new: 5a1de46f7e7462992a5dd980fe8d06ea57b4ad17
+  - ref: refs/heads/linux-5.19.y
+    old: acb89217f2e04f11cffd12e0a9f927a473eb468c
+    new: 6f2c61ac925e10afde005c940ef83891cd3792ec
     log: |
-         16b980617cb631eed2b8f9629a3cb8c187a772dc Revert "fs: check FMODE_LSEEK to control internal pipe splicing"
-         4191c3002c1ebfed473a7a2960ab0486cac64d89 mac80211: mlme: find auth challenge directly
-         b0e9ea8a40571ca0f5513adbb1c61bc95ddfbb7a wifi: mac80211: don't parse mbssid in assoc response
-         2be60da73b3f5ce25d5c4e53cb8a020727acde8c wifi: mac80211: fix MBSSID parsing use-after-free
-         5a1de46f7e7462992a5dd980fe8d06ea57b4ad17 Linux 5.4.219-rc1
+         b5fea4275785b97599b1f4c3e3a0ac4c99bfce3d Revert "fs: check FMODE_LSEEK to control internal pipe splicing"
+         6f2c61ac925e10afde005c940ef83891cd3792ec Linux 5.19.17-rc1
          
 
---===============2190076885457570633==
+--===============3635520836106621589==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -36,25 +33,25 @@ Content-Disposition: attachment; filename=git-push-certificate.txt
 certificate version 0.1
 pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1665902696 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1665902646-83e715bc854e9eb52c0739cd0ae0dc984cf21a50
+nonce 1665902647-67bb640958739b293024bf91987231d83d6a4caa
 
-bda467b55e8cfabb0079c4990b805ed2acbc1e75 5a1de46f7e7462992a5dd980fe8d06ea57b4ad17 refs/heads/linux-5.4.y
+acb89217f2e04f11cffd12e0a9f927a473eb468c 6f2c61ac925e10afde005c940ef83891cd3792ec refs/heads/linux-5.19.y
 -----BEGIN PGP SIGNATURE-----
 
 iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmNLqGgbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+DWcQAJgOebsnW5DUye+cX6Sk
-PHclSQE+5Xbyj8l4l+hF0BKCO6cTQMo0NOCyrQ+MX7yMzO0Qt1s2x++3NodtRwVR
-A81VaKyFgm+/QztE+chnp841CseAe09iMiDakNbl1RPiv/uJlbOpAqKZN2T/Zg36
-c1z82qaCA4huC69/Tt4PcIc8XYHYsbsCUWbNLS8q5nxUgmYgaFkwnOenWeFHc0jb
-VG/9/qxKq+uYQPsK5j2dP7mfIKOru7qOFsvWeYUvdmAUH4ysnFtCejnNnZt9A3N4
-ZkQ+90jzIJ2SuuT02PiNSqhktw62xD3kGBKbHUUyv4I9wKXDUo5YPngrxNvUZxcH
-Ig64WXJxpmXZ1eFP7j5SUwYuKnFkkUy5TN9sLy+5K6YUoBjDNoxuNZnE7mYsLKmm
-gK3GB5rfMSceVs0IdGIqcn00Q8axruktSt2V7zp4wosfvqk9YIwNsA/5Gu9zpMKx
-IEaNyjSR/4LGaNviUurNE3yFfhw5FjNW6EuiQtUyhLTL5yVDtt9aPmU7lQ6csGCc
-hYxQ72zR3+IEDyp1l28apwY5Q5unFnMovO4dQqdw9JxTHVVp4U7U/k7+KnITzqMW
-7JWZaGjPem8bOgxa1NIee4qlpfpEjlrQ2dE21QXJ7vpya/yussqPQQe08g6n+Wid
-xRxBOyGAyythh+l1CuAk7dCg
-=EBu0
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Y3kQAMQFEhfp9iUw2rEP/BcA
+aljgaf1DqOWf7o2USXnFtu/g8bUfvTtwOtCd4Ch1fZMQlR5kkkwFG2DeBLRSx4Nr
+I4xtbFs+VHEh4dQA5+MzmPXPrYJWRH/eaKokyk1PMgUuxkknogdXzFyvGx2ppSsk
++uqbsDBBVtlDanouj4zunI3uWfcpTcq0qyE2+jc1HhSqONP9lHnEO9tt2xg8a2Ea
+u917oQu8/rDAQ+qdctstW3yzF9LHWfNC+jFn32KnnqFGFr9/+JMhyaT8GmDZ4OL3
+UQ/yNTPKKZsWOKn67MmGbkPDa94EPgA4MjCNXG+zXTgsirxzUGgV2MVFSI+AB4FD
+3EobK9IHV9WNXME6Z3xthZqRFLy0BujwI3FdDmorBXWhHRxm4WV1WK6z0cYthD4d
+lJBP9YEtyCBmBWw1I+sfV2oD2opW1G20BTy6USP5lEInd9Ef/0p5KnvLiIdVT+eE
+CASL6nC3bxqxC/K4mpuiVJq689wVZrjVzte2qGWKoHEbsmiwec1W6+KeXRQypXkg
+PnKb2ykUixDyrhJVXwOpl5GgpAg4SAp8lQPFFjN9Qh2wcBtgBHrbqXzxG7TZ3TNd
+HwydlP1L8u4E8Lmv5PSg1xZdF2vhkly0lbJg1fovvZ3+XggEPUC7mpool9W2vnf2
+iBoUO9PR2iNQfX8J2i6AQ6Um
+=hmci
 -----END PGP SIGNATURE-----
 
---===============2190076885457570633==--
+--===============3635520836106621589==--
