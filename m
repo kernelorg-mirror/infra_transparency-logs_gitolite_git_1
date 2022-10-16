@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3213603717623157850=="
+Content-Type: multipart/mixed; boundary="===============1035994959545710076=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Sun, 16 Oct 2022 21:11:16 -0000
-Message-Id: <166595467684.29257.9114794852949157981@gitolite.kernel.org>
+Date: Sun, 16 Oct 2022 21:11:26 -0000
+Message-Id: <166595468625.29361.15466665856574837042@gitolite.kernel.org>
 
---===============3213603717623157850==
+--===============1035994959545710076==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/kbuild
+  - ref: refs/heads/for-next
     old: 0a6de78cff600cb991f2a1b7ed376935871796a0
     new: 2df76606db9de579bc96725981db4e8daa281993
     log: revlist-0a6de78cff60-2df76606db9d.txt
 
---===============3213603717623157850==
+--===============1035994959545710076==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ b08cd74448fafaa302ce2bc11beab5e5a55d0065 Merge tag '6.1-rc-smb3-client-fixes-par
 2fcd8f108f25ef0cbbfcb57acf1c42934c238ed5 Merge tag 'clk-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 2df76606db9de579bc96725981db4e8daa281993 Merge tag 'kbuild-fixes-v6.1' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 
---===============3213603717623157850==--
+--===============1035994959545710076==--
