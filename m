@@ -1,19 +1,19 @@
-Content-Type: multipart/mixed; boundary="===============0152890936494142449=="
+Content-Type: multipart/mixed; boundary="===============3480487638503030521=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Sun, 16 Oct 2022 22:40:02 -0000
-Message-Id: <166596000288.25322.10530408522259733367@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
+Date: Sun, 16 Oct 2022 22:52:51 -0000
+Message-Id: <166596077158.1751.13433062479906198453@gitolite.kernel.org>
 
---===============0152890936494142449==
+--===============3480487638503030521==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/groeck/linux-staging
+user: groeck
 changes:
   - ref: refs/heads/master
     old: 2df76606db9de579bc96725981db4e8daa281993
@@ -23,7 +23,7 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: e0e492cebef25c13fc29b174f01b5178662f1652
 
---===============0152890936494142449==
+--===============3480487638503030521==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -63,4 +63,4 @@ a3a365655a28f12f07eddf4f3fd596987b175e1d tools arch x86: Sync the msr-index.h co
 f1947d7c8a61db1cb0ef909a6512ede0b1f2115b Merge tag 'random-6.1-rc1-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/crng/random
 9abf2313adc1ca1b6180c508c25f22f9395cc780 Linux 6.1-rc1
 
---===============0152890936494142449==--
+--===============3480487638503030521==--
