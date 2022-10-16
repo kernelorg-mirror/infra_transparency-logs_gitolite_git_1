@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0548650904714144870=="
+Content-Type: multipart/mixed; boundary="===============6193694397274612601=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Sun, 16 Oct 2022 11:55:21 -0000
-Message-Id: <166592132102.22368.8385410602846574127@gitolite.kernel.org>
+Date: Sun, 16 Oct 2022 11:55:45 -0000
+Message-Id: <166592134563.22701.17361013898690591411@gitolite.kernel.org>
 
---===============0548650904714144870==
+--===============6193694397274612601==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
-  - ref: refs/heads/perf/urgent
+  - ref: refs/heads/tmp.perf/urgent
     old: 8e8bf60a675473a034ecfcb7a842b98868ed74a3
     new: 1501278bb7ba0728b869d3399ea94b67853256a2
     log: revlist-8e8bf60a6754-1501278bb7ba.txt
 
---===============0548650904714144870==
+--===============6193694397274612601==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ e36ce448a08d43de69e7449eb225805a7a8addf8 mm/slab: use kmalloc_node() for off sla
 36d8a3edf8bd504320fca970f8b0633b8226cb58 Merge tag 'for-linus' of https://github.com/openrisc/linux
 1501278bb7ba0728b869d3399ea94b67853256a2 Merge tag 'slab-for-6.1-rc1-hotfix' of git://git.kernel.org/pub/scm/linux/kernel/git/vbabka/slab
 
---===============0548650904714144870==--
+--===============6193694397274612601==--
