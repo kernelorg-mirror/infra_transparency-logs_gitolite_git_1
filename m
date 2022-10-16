@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4803325907460105662=="
+Content-Type: multipart/mixed; boundary="===============5380549442211655088=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
-Date: Sun, 16 Oct 2022 22:56:31 -0000
-Message-Id: <166596099178.6086.5279428048232945039@gitolite.kernel.org>
+Date: Sun, 16 Oct 2022 22:56:43 -0000
+Message-Id: <166596100398.6238.14057847434503399705@gitolite.kernel.org>
 
---===============4803325907460105662==
+--===============5380549442211655088==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,23 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/xiang/erofs
 user: xiang
 changes:
-  - ref: refs/heads/master
-    old: 725737e7c21d2d25a4312c2aaa82a52bd03e3126
-    new: 9abf2313adc1ca1b6180c508c25f22f9395cc780
-    log: revlist-725737e7c21d-9abf2313adc1.txt
-  - ref: refs/tags/v6.1-rc1
-    old: 0000000000000000000000000000000000000000
-    new: e0e492cebef25c13fc29b174f01b5178662f1652
+  - ref: refs/heads/dev-test
+    old: 8436c4a57bd147b0bd2943ab499bb8368981b9e1
+    new: e7933278b442f97809b1ea84264586302bd08a03
+    log: revlist-8436c4a57bd1-e7933278b442.txt
 
---===============4803325907460105662==
+--===============5380549442211655088==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-725737e7c21d-9abf2313adc1.txt
+Content-Disposition: attachment; filename=revlist-8436c4a57bd1-e7933278b442.txt
 
-bb1f11546eb3cd1e2b8ea45653eb0f530e42b035 Merge tag 'x86_asm_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-901735e51e4dea1eee816b0b57d1d6abbd94b3d5 Merge tag 'x86_misc_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-9bf445b65dd7d4c7d0e4efaecf38525abbbe74e3 Merge tag 'x86_paravirt_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 b5f0b11353a6a33a1accd0b742c80ed6b2f35ac0 Merge tag 'x86_microcode_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 193e2268a3bb1404b42f8edcc037a3eafd165aa9 Merge tag 'x86_cache_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 da4ab869e37cf81f93333ba74b16e0ea6d322e15 libceph: drop last_piece flag from ceph_msg_data_cursor
@@ -1053,5 +1047,8 @@ b08cd74448fafaa302ce2bc11beab5e5a55d0065 Merge tag '6.1-rc-smb3-client-fixes-par
 8636df94ec917019c4cb744ba0a1f94cf9057790 Merge tag 'perf-tools-for-v6.1-2-2022-10-16' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 f1947d7c8a61db1cb0ef909a6512ede0b1f2115b Merge tag 'random-6.1-rc1-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/crng/random
 9abf2313adc1ca1b6180c508c25f22f9395cc780 Linux 6.1-rc1
+664609e49f1c84fc97987b2bf64544e586b8849c erofs: fix illegal unmapped accesses in z_erofs_fill_inode_lazy()
+63bbb85658ea43dd35dbfde6d4150b47c407fc87 erofs: shouldn't churn the mapping page for duplicated copies
+e7933278b442f97809b1ea84264586302bd08a03 erofs: fix up inplace decompression success rate
 
---===============4803325907460105662==--
+--===============5380549442211655088==--
