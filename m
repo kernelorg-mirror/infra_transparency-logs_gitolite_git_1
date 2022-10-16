@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2556675621211775052=="
+Content-Type: multipart/mixed; boundary="===============6302352774823174488=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Sun, 16 Oct 2022 06:34:29 -0000
-Message-Id: <166590206937.3292.14958031611336801664@gitolite.kernel.org>
+Date: Sun, 16 Oct 2022 06:34:30 -0000
+Message-Id: <166590207024.3372.9531625593904763750@gitolite.kernel.org>
 
---===============2556675621211775052==
+--===============6302352774823174488==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,82 +16,87 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.19.y
-    old: 72d24eaf389a3b283cecc3b515cbddf4fceb6634
-    new: acb89217f2e04f11cffd12e0a9f927a473eb468c
-    log: revlist-72d24eaf389a-acb89217f2e0.txt
+  - ref: refs/heads/linux-4.9.y
+    old: 0d023543ae99373ebe55e05eae67f431423a5781
+    new: 4919717a836ea0842147213b0714495c52f75459
+    log: revlist-0d023543ae99-4919717a836e.txt
 
---===============2556675621211775052==
+--===============6302352774823174488==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1665902117 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1665902118 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1665902067-49ab5ae74cf3b6d351c6cb1acb7649184e211519
+nonce 1665902069-b17795f37ed884e07b11bc2625fc89f56183ffab
 
-72d24eaf389a3b283cecc3b515cbddf4fceb6634 acb89217f2e04f11cffd12e0a9f927a473eb468c refs/heads/linux-5.19.y
+0d023543ae99373ebe55e05eae67f431423a5781 4919717a836ea0842147213b0714495c52f75459 refs/heads/linux-4.9.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmNLpiUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+RAwQAJfpQ6W9QqMlmZydsmAv
-Yp5lyI7kQypUSF+naXXjqpBR6Ozsfx2sa9sJA8qumh+lMb0nU3+Cy022+FbcXrNP
-2ZNKZLF/mhaefLNTeDFvkt2tPiOwtS1/0Em+FKNUBIQIQ05U7+ZfqITNulQR1jBI
-JV9QLAHZHvjnJ2nbyxX3QNIcopvMs3hAFOaMs9L9H3QPz9DSkOw5NYgqWYwxsKxz
-kNUAwe5KxcqTAbWTEX8tMfh9b3Ub88ZAKY1crJudmvNSLduprj5UY2V0vmkH/xz6
-h/7dUYPyJ8DUghnXZ3KvmQiO8vl/rMor1MRRGYAt/0bWW1ccs3dl28R4j7Cfxwcy
-7S3KTJlHS2IzxxzsMNvE4q2phoC3n7Ydj334whesIWX5wJE746g61/s2R8Dpju8n
-WN8qxxvtf3x0Hm9V6juS32DdeSwRNtsuhI4DyHwGogILW1p2VVV7UC1+bv3McoNg
-nqoesjhrYTBhCBYFCR8UWjRg9tcqmSST50MNnmn4UWe8HCYY4k1k3wenvpHmuT79
-XTNbJIhYJ1ehm97JVtwXgpN09dteCfiORVdzIG5tjGLGJzLwwDIZDj8xDqAI/DWw
-gPJNT7jacCSbD2XtdQzMkz4xiBsRSUrdg/xkINL3I68Mgn8uCF9evKJxL/TBP1wQ
-tRXFZh+/3gvg262bhJGPZ0Ga
-=4jXH
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmNLpiYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+z7EQANVlGMB/iDOiYaRAXUgl
+MTswixR+r/7n9tb3VmjsAEx8HULLPWd5TbuZZRdtiVMHkgE/ZpwQX6q0drTtp4+y
+zIUIUMMZHpMLD+GofrKEzFHIZL3A4H++gvTwpD3IKsj2phFDHXAkAId4ZPvFurc9
++y3BK9c2hNAfJNcZuqU8iqq3aoxi0IsTxkYisLoyJJDQlq85QSb/ewQpqDDpCRb8
+jLEHEddKoyxZ16eT9W7B60VWBhW4d+hv9+1vW/wXCBXin2RgERTxKpmfaRAiST0y
+jm207scJz7IlEmEPZ27/Dv+udq5hFMoVZLbMwDYZt2j4fUNkBQr3kRC0gHLrevXi
+xyRK6yoBVgUBNWayBLllBYODHj1lp2Zh4a+fvQ2Hj+fy3GltxQrwsQ3ykFVv7fIq
+EKPS7qeYBwRMNfJwYoLEl7mEW7O8ppo57SbClnGwkxE+7YqJzdqFJLqDCLam5aWu
+HuyoiJX4y0zsyFf5CptwTSh7eeJ4O6WPm1Rz3Wvkhby84PQ47LQ4FExIG+SBSWE0
+MAGH78pn2ktMZxngr7kUo5YWwiu/+WrBjiIzNSkwJWba8mcYJZQkyOBoBbNEKEKv
+4t7htcPynsYeZ45qO8KMh41fSIT21in+ipgPkVd1fPQ4UGqcnoq0tmCnnx5m4o93
+6SAPkS8DWK0jpt5961i0Ll0y
+=5g7o
 -----END PGP SIGNATURE-----
 
---===============2556675621211775052==
+--===============6302352774823174488==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-72d24eaf389a-acb89217f2e0.txt
+Content-Disposition: attachment; filename=revlist-0d023543ae99-4919717a836e.txt
 
-caf2c6b580433b3d3e413a3d54b8414a94725dcd nilfs2: fix NULL pointer dereference at nilfs_bmap_lookup_at_level()
-394b2571e9a74ddaed55aa9c4d0f5772f81c21e4 nilfs2: fix use-after-free bug of struct nilfs_root
-4755fcd844240857b525f6e8d8b65ee140fe9570 nilfs2: fix leak of nilfs_root in case of writer thread creation failure
-090fcfb6edeb9367a915b2749e2bd1f8b48d8898 nilfs2: replace WARN_ONs by nilfs_error for checkpoint acquisition failure
-6c58865f1acdbe460798ea78931fc868632eef88 ceph: don't truncate file in atomic_open
-ae2e80078145c943ae5f22ada001d76864c13283 nvme-pci: set min_align_mask before calculating max_hw_sectors
-e1f8820bf83f2bd0ad490a5bf4a81297551d464f random: restore O_NONBLOCK support
-b42a64428abe1e3e5fe323e941e5c60399a27e1e random: clamp credited irq bits to maximum mixed
-59ac9fa0e33f9b3381665a8b17c6dd4c59d0f029 ALSA: hda: Fix position reporting on Poulsbo
-a0d53923bf91f0d787a062b6c8c7c9c4349e5ebc ALSA: hda/realtek: Add quirk for HP Zbook Firefly 14 G9 model
-55e19a4c111e986cbff49431efc15201d126dca0 efi: Correct Macmini DMI match in uefi cert quirk
-6ae8aa5dcf0d7ada07964c8638e55d3af5896a86 scsi: stex: Properly zero out the passthrough command structure
-5857b9cd9b9172700d6322e66ab57815daa97d2d USB: serial: qcserial: add new usb-id for Dell branded EM7455
-d42228fc2cad15a3f1e18abba15b7a3bf7b24e75 Revert "USB: fixup for merge issue with "usb: dwc3: Don't switch OTG -> peripheral if extcon is present""
-bd9c917efcf88b21aec640de8f0717beb20c7987 Revert "usb: dwc3: Don't switch OTG -> peripheral if extcon is present"
-3a8f93f3779e831ce74ce3fd3cf488066ca1c488 Revert "powerpc/rtas: Implement reentrant rtas call"
-ee42204c1cd543ce48dfd93fee2751c037a7d053 Revert "crypto: qat - reduce size of mapped region"
-111824744645736c4dd6b2100c530e6375a0f542 random: avoid reading two cache lines on irq randomness
-848bb8517e41a7655e6a840f8adca7ec5e4b9959 random: use expired timer rather than wq for mixing fast pool
-42ea11a81ac853c3e870c70d61ab435d0b09b851 wifi: cfg80211: fix u8 overflow in cfg80211_update_notlisted_nontrans()
-74abb1952a03ba935602c38ce9fa0c33adbfbb55 wifi: cfg80211/mac80211: reject bad MBSSID elements
-e6d77ac0132da7e73fdcc4a38dd4c40ac0226466 wifi: mac80211: fix MBSSID parsing use-after-free
-867184200c057a9efdd815dfacefe85e5f2586a7 wifi: cfg80211: ensure length byte is present before access
-46b23a9559580a72d8cc5811b1bce8db099806d6 wifi: cfg80211: fix BSS refcounting bugs
-1d73c990e9bafc2754b1ced71345f73f5beb1781 wifi: cfg80211: avoid nontransmitted BSS list corruption
-2bee6f75e3c64097d1d11bc36f1e54a500060acc wifi: mac80211_hwsim: avoid mac80211 warning on bad rate
-fa63b5f6f8853ace755d9a23fb75817d5ba20df5 wifi: mac80211: fix crash in beacon protection for P2P-device
-3aecb0895aacdda81c520a4dc43d1216dbf38dfa wifi: cfg80211: update hidden BSSes to avoid WARN_ON
-ac719db96b23279deb64df9bdacd660d55ed40ce mctp: prevent double key removal and unref
-d1a1dbe71f73b98a4c89af13ec716e5630a8ca80 Input: xpad - add supported devices as contributed on github
-d0ecbd70f08072d545982d4cc9d42b376171a999 Input: xpad - fix wireless 360 controller breaking after suspend
-d472808756b305213ec7e4559a51eea4f08e24ca misc: pci_endpoint_test: Aggregate params checking for xfer
-279116cb0bc5cd8af65d6a00ffe074bd09842f88 misc: pci_endpoint_test: Fix pci_endpoint_test_{copy,write,read}() panic
-d235c2b1f470f012bda26844aabf26321b1c446a Linux 5.19.16
-78a8f3c6ca93425f2425e70cff18055d40c72631 Revert "fs: check FMODE_LSEEK to control internal pipe splicing"
-acb89217f2e04f11cffd12e0a9f927a473eb468c Linux 5.19.17-rc1
+86893211f2ffa2bc48fec43e9640fde040d13a43 uas: add no-uas quirk for Hiksemi usb_disk
+d1031a0ba43b4e68300d75f66deb362777fb48ad usb-storage: Add Hiksemi USB3-FW to IGNORE_UAS
+99deadfbfdbac8ceb1cd535c4efd28805564b066 uas: ignore UAS for Thinkplus chips
+20a5346fe03ef1e4fe341d28a5e8e11aee498010 net: usb: qmi_wwan: Add new usb-id for Dell branded EM7455
+493694fc07a2f602d8c83e720df7e1aab79acb7e ntfs: fix BUG_ON in ntfs_lookup_inode_by_name()
+22b4e1bb07f8974ce0f7fe86ac15ef7d325d9f98 mmc: moxart: fix 4-bit bus width and remove 8-bit bus width
+46538578b06bf9ec7d284fb8aca409a0cd62633d mm: prevent page_frag_alloc() from corrupting the memory
+2b9f041faed47dee9d1b8007e550a6af51ef2159 Revert "drm: bridge: analogix/dp: add panel prepare/unprepare in suspend/resume time"
+f28011860077eb41e604d4e85d54eff2c05e1a59 Input: melfas_mip4 - fix return value check in mip4_probe()
+4d0cd3c36d211a1cd784195cbe295ae08003349a usbnet: Fix memory leak in usbnet_disconnect()
+f75249774c22d41deca494c8ac038034fb2f08e2 nvme: add new line after variable declatation
+7cc2af524ba3699bfafeb6ceafed4977f3cb4323 nvme: Fix IOC_PR_CLEAR and IOC_PR_RELEASE ioctls for nvme devices
+9fe63e677512863cbc597092759d4b069342fb4c selftests: Fix the if conditions of in test_extra_filter()
+ee025fc7cd7b3183ceac6e82b8cc42d8c7a6ea7c clk: iproc: Minor tidy up of iproc pll data structures
+883795118307dca902aa5cf54e28fd159574e66f clk: iproc: Do not rely on node name for correct PLL setup
+c621a23cb0ae2aa814630447ecc05251ca9f2459 Makefile.extrawarn: Move -Wcast-function-type-strict to W=1
+c5aa7d601f0bb9343a55234baab329c0dec2d7f5 ARM: fix function graph tracer and unwinder dependencies
+5da8bb202f082ee6ed1a54828f26d47ae11e5faf fs: fix UAF/GPF bug in nilfs_mdt_destroy
+793cea00cfc43b19036716e20fa4f785d98aaba7 dmaengine: xilinx_dma: cleanup for fetching xlnx,num-fstores property
+b2886933d05ba3e1f5f9a5534e8f8e3fce9a831f dmaengine: xilinx_dma: Report error in case of dma_set_mask_and_coherent API failure
+69908ec3553cda1b4b8b55b912b46f0089275f1d ARM: dts: fix Moxa SDIO 'compatible', remove 'sdhci' misnomer
+a2414df6a2583854578e0bbe8bd3bcaa1dd9c6eb net/ieee802154: fix uninit value bug in dgram_sendmsg
+1d50e93455b629f32e8c8c3eb0e7a74c4ea24eef um: Cleanup syscall_handler_t cast in syscalls_32.h
+d9bb26518a217d1f963b5652f23f927761fc84cd um: Cleanup compiler warning in arch/x86/um/tls_32.c
+cd6cb45e4619b6e3ca9813a7060585f52628e110 usb: mon: make mmapped memory read only
+2bee4d152cd4a75dc445ce26dd6c2ef727b58b99 USB: serial: ftdi_sio: fix 300 bps rate for SIO
+05b6ebe125319916ed869818dc1d5b121988b5e2 nilfs2: fix NULL pointer dereference at nilfs_bmap_lookup_at_level()
+2b35cd78d534a5ab6191c6f618412a49f2cf20dc nilfs2: fix leak of nilfs_root in case of writer thread creation failure
+19ef716241d8745348f8be6bfa4f04b8b131b125 nilfs2: replace WARN_ONs by nilfs_error for checkpoint acquisition failure
+4e542c5ea4cb6795a5438690ed19ced955ebd621 ceph: don't truncate file in atomic_open
+28e7a9527902985f65d3d4707e5065e5a098414d random: clamp credited irq bits to maximum mixed
+0850678cab15eb124c0d7da5ec258badc8a70d5c ALSA: hda: Fix position reporting on Poulsbo
+8dbea4e48a5ad2f580d52423ee17099b004b1bf2 scsi: stex: Properly zero out the passthrough command structure
+9e9f9bebcc7dcb8878ddf1296b4bafddf7fdf103 USB: serial: qcserial: add new usb-id for Dell branded EM7455
+97da0a36e912779a4a9e7e5bd8cce30f37d60ef1 random: avoid reading two cache lines on irq randomness
+0f3b139f92b4298de6f26538dc3168016f16a57e wifi: mac80211_hwsim: avoid mac80211 warning on bad rate
+f0e91498fcd01fbd16ab8a1599ef4f9cd75e9cec random: restore O_NONBLOCK support
+5300fc56cf060306a1f7c79a59b710bc1f05d7d1 Input: xpad - add supported devices as contributed on github
+94f8ea079425ea76f9d89e0a88f25027b815be38 Input: xpad - fix wireless 360 controller breaking after suspend
+b60de6f617afe9b861a831770fb0111ecf75674d random: use expired timer rather than wq for mixing fast pool
+4919717a836ea0842147213b0714495c52f75459 Linux 4.9.331-rc1
 
---===============2556675621211775052==--
+--===============6302352774823174488==--
