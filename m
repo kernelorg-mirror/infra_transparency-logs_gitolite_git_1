@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7752265999150833387=="
+Content-Type: multipart/mixed; boundary="===============3423316881524270990=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
-Date: Mon, 17 Oct 2022 14:22:29 -0000
-Message-Id: <166601654958.10552.13406766146486619009@gitolite.kernel.org>
+Date: Mon, 17 Oct 2022 14:23:01 -0000
+Message-Id: <166601658142.10797.11027439725206328309@gitolite.kernel.org>
 
---===============7752265999150833387==
+--===============3423316881524270990==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
 user: shuah
 changes:
-  - ref: refs/heads/test
-    old: 568035b01cfb107af8d2e4bd2fb9aea22cf5b868
+  - ref: refs/heads/fixes
+    old: bdbf0617bbc3641af158d1aeffeebb1505f76263
     new: 9abf2313adc1ca1b6180c508c25f22f9395cc780
-    log: revlist-568035b01cfb-9abf2313adc1.txt
+    log: revlist-bdbf0617bbc3-9abf2313adc1.txt
 
---===============7752265999150833387==
+--===============3423316881524270990==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-568035b01cfb-9abf2313adc1.txt
+Content-Disposition: attachment; filename=revlist-bdbf0617bbc3-9abf2313adc1.txt
 
 bb1f11546eb3cd1e2b8ea45653eb0f530e42b035 Merge tag 'x86_asm_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 901735e51e4dea1eee816b0b57d1d6abbd94b3d5 Merge tag 'x86_misc_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
@@ -1051,4 +1051,4 @@ b08cd74448fafaa302ce2bc11beab5e5a55d0065 Merge tag '6.1-rc-smb3-client-fixes-par
 f1947d7c8a61db1cb0ef909a6512ede0b1f2115b Merge tag 'random-6.1-rc1-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/crng/random
 9abf2313adc1ca1b6180c508c25f22f9395cc780 Linux 6.1-rc1
 
---===============7752265999150833387==--
+--===============3423316881524270990==--
