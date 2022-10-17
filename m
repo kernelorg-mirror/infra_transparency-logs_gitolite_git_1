@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jpoimboe/linux
-Date: Mon, 17 Oct 2022 20:36:04 -0000
-Message-Id: <166603896432.20731.13114827072680507999@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ogabbay/linux
+Date: Mon, 17 Oct 2022 20:58:53 -0000
+Message-Id: <166604033368.3578.12386758133091905765@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jpoimboe/linux
-user: jpoimboe
+repo: pub/scm/linux/kernel/git/ogabbay/linux
+user: ogabbay
 changes:
-  - ref: refs/heads/objtool-powerpc
-    old: aa9fec0238a81893420ee63c2e45b45675cc0464
-    new: a4f5965d1f7bd3ac3d2dfcc3c005e4a0ed3adc5e
+  - ref: refs/heads/accel
+    old: fc3523a833c9c109e68209f1ecdd15864373e66a
+    new: 92159eb32a72489d610ec84beff87506cca2a722
     log: |
-         a4f5965d1f7bd3ac3d2dfcc3c005e4a0ed3adc5e todo
+         92159eb32a72489d610ec84beff87506cca2a722 drm: add support for compute acceleration minor
          
