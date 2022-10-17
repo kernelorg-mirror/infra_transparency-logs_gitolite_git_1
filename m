@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7417321797722722914=="
+Content-Type: multipart/mixed; boundary="===============5478379912226923515=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jirislaby/linux
-Date: Mon, 17 Oct 2022 10:21:17 -0000
-Message-Id: <166600207770.28233.9602249618193501147@gitolite.kernel.org>
+Date: Mon, 17 Oct 2022 10:21:44 -0000
+Message-Id: <166600210450.28482.3361837764762498217@gitolite.kernel.org>
 
---===============7417321797722722914==
+--===============5478379912226923515==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,63 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jirislaby/linux
 user: jirislaby
 changes:
-  - ref: refs/heads/lto-base
-    old: 521a547ced6477c54b4b0cc206000406c221b4d6
-    new: 9abf2313adc1ca1b6180c508c25f22f9395cc780
-    log: revlist-521a547ced64-9abf2313adc1.txt
+  - ref: refs/heads/lto
+    old: 087fd38376a7259a0dd34eca4f1d0ec7b1b88fa9
+    new: 910bfec9cfadc6c3a897b4f42ae20bff75bf8d9f
+    log: revlist-087fd38376a7-910bfec9cfad.txt
 
---===============7417321797722722914==
+--===============5478379912226923515==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-521a547ced64-9abf2313adc1.txt
+Content-Disposition: attachment; filename=revlist-087fd38376a7-910bfec9cfad.txt
 
-bb1f11546eb3cd1e2b8ea45653eb0f530e42b035 Merge tag 'x86_asm_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-901735e51e4dea1eee816b0b57d1d6abbd94b3d5 Merge tag 'x86_misc_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-9bf445b65dd7d4c7d0e4efaecf38525abbbe74e3 Merge tag 'x86_paravirt_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-b5f0b11353a6a33a1accd0b742c80ed6b2f35ac0 Merge tag 'x86_microcode_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-193e2268a3bb1404b42f8edcc037a3eafd165aa9 Merge tag 'x86_cache_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-da4ab869e37cf81f93333ba74b16e0ea6d322e15 libceph: drop last_piece flag from ceph_msg_data_cursor
-f791357330b0043ec953ce122ab7519af4b9d24a ceph: wake up the waiters if any new caps comes
-6eb06c46214d33c71ae86d60b3fc9cb17c20beca ceph: fail the request if the peer MDS doesn't support getvxattr op
-7c3ea9870e09e193981695dd67c37a1a2b6d600b ceph: no need to wait for transition RDCACHE|RD -> RD
-aa1d627207cace003163dee24d1c06fa4e910c6b ceph: Use kcalloc for allocating multiple elements
-b4b924c7a16e857b0715603456045251a49f2ea6 ceph: increment i_version when doing a setattr with caps
-bd04b9192e1ff6859d6b3906e91cfd5c9b0ad55b ceph: fail the open_by_handle_at() if the dentry is being unlinked
-aa87052dd965a6094355fcc13d5abc3f5bebfbe4 ceph: fix incorrectly showing the .snap size for stat
-71cf0c1c4f9f8e42c84ca53a5ca7091e4eea7f6a ceph: remove Sage's git tree from documentation
-a76d550f761d4f1b0a0e2faa27af122e51904b86 clk: qcom: gcc-sm6375: Remove unused variables
-3eba620e7bd772a0c7dc91966cb107872b54a910 Merge tag 'x86_cleanups_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-39bc9b589ea3d2750a6fec6409cd7fc687bc99fe clk: qcom: gcc-sm6375: Ensure unsigned long type
-49f4c2d101bbf93c62e3fa58e666f71352c54121 Merge branches 'clk-ofnode', 'clk-bindings', 'clk-cleanup', 'clk-zynq' and 'clk-xilinx' into clk-next
-a64b79c01c2836ddd8e1eb7c8173b44c3e66f999 Merge branches 'clk-samsung', 'clk-mtk', 'clk-rm', 'clk-ast' and 'clk-qcom' into clk-next
-26bebbfed5bd06fd7202fd1befa6c2c935a593e8 Merge branches 'clk-rockchip', 'clk-renesas', 'clk-microchip', 'clk-allwinner' and 'clk-imx' into clk-next
-b7f257ceb3c88ee3e2c6b0d1db703c818d3971f1 Merge branches 'clk-fixed-rate', 'clk-spreadtrum', 'clk-pxa' and 'clk-ti' into clk-next
-f9efefdba95a5110a1346bb03acdd8ff3cdf557f Merge branches 'clk-baikal', 'clk-broadcom', 'clk-vc5' and 'clk-versaclock' into clk-next
-c645c11a2dba116bad3ee43e08e330db8f03ede6 Merge tag 'audit-pr-20221003' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/audit
-98828955971363e838149105c268b1fad905f15b drm/i915/gvt: fix a memory leak in intel_gvt_init_vgpu_types
-1aa3834f510c9d9206ce4d40aff4903b0c016761 drm/i915/gvt: simplify vgpu configuration management
-bdef2b7896df293736330eb6eb0f43947049b828 vfio/mdev: make mdev.h standalone includable
-89345d5177aa0f6d678251e1e0870b0eeb1ab510 vfio/mdev: embedd struct mdev_parent in the parent data structure
-da44c340c4fe9d9653ae84fa6a60f406bafcffce vfio/mdev: simplify mdev_type handling
-cbf3bb28aaeaee425ca7b9c537a3efff1f8c98ae vfio/mdev: remove mdev_from_dev
-2815fe149ffa8e1a022b2830ab62999135c00a4e vfio/mdev: unexport mdev_bus_type
-062e720cd209d8091c4f3d118d93973f02209aca vfio/mdev: remove mdev_parent_dev
-c7c1f38f6cba7e3249866c06639ea62755f0a24e vfio/mdev: remove mtype_get_parent_dev
-290aac5df88a83e264b3a73ec146e5e5b3c45793 vfio/mdev: consolidate all the device_api sysfs into the core code
-0bc79069ccbdbe26492493dd0c4e38b7cadf8ad5 vfio/mdev: consolidate all the name sysfs into the core code
-f2fbc72e6da4f8e01fe5fe3d6871a791e76271c3 vfio/mdev: consolidate all the available_instance sysfs into the core code
-685a1537f4c603cfcaf4b9be56ff6a571f7ddd08 vfio/mdev: consolidate all the description sysfs into the core code
-9c799c224d6ebc5be51065bd3217a2d7eea23b8f vfio/mdev: add mdev available instance checking to the core
-912b74d26c7df2da1e261f3dac8942c8cbb76a49 vfio: Remove the vfio_group->users and users_comp
-c82e81ab2569559ad873b3061217c2f37560682b vfio: Change vfio_group->group_rwsem to a mutex
-522667b24f08009591c90e75bfe2ffb67f555498 Merge tag 'landlock-6.1-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/mic/linux
-34e1ed189fab1b7533befb266b96051104c1deb6 PM: Improve EXPORT_*_DEV_PM_OPS macros
-c5129ecc12a3101555d8922b1e0aa90f91247ab6 x86/mm: Ease W^X enforcement back to just a warning
-e623715f3d67ad10985b2c10cf7edd9ad85db372 RISC-V: Increase range and default value of NR_CPUS
-280dfeae56e6fbfff21cfece356379e318ae10fe f2fs: return the tmp_ptr directly in __bitmap_ptr
-173cdf2c32b4b02474006d87648383244c0a6db9 f2fs: use COMPRESS_MAPPING to get compress cache mapping
-9b7eadd9bd3a0cc24533a23d83c46430a0ea60ff f2fs: fix wrong dirty page count when race between mmap and fallocate.
 d382e36970ecf8242921400db2afde15fb6ed49e f2fs: fix typo
 049ea86cb5c7212a6e7e617a67fe686f9b0b0669 f2fs: add static init_idisk_time function to reduce the code
 9df6d6f9be4754da96d3c91ec518ed974e6b81e7 f2fs: remove redundant check in f2fs_sanity_check_cluster
@@ -1050,5 +1004,51 @@ b08cd74448fafaa302ce2bc11beab5e5a55d0065 Merge tag '6.1-rc-smb3-client-fixes-par
 8636df94ec917019c4cb744ba0a1f94cf9057790 Merge tag 'perf-tools-for-v6.1-2-2022-10-16' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 f1947d7c8a61db1cb0ef909a6512ede0b1f2115b Merge tag 'random-6.1-rc1-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/crng/random
 9abf2313adc1ca1b6180c508c25f22f9395cc780 Linux 6.1-rc1
+ce7e199959b08ea65ba44241b2afda9b8c3dde97 MAINTAINERS: add static_call_inline.c to STATIC BRANCH/CALL
+f99668553ffbfa6e5d2ecdd0218e84bc112fa03f kbuild: pass jobserver to cmd_ld_vmlinux.o
+670627b960eaf109a15eb2c37ecdf302cb58fc74 kbuild: lto: preserve MAKEFLAGS for module linking
+d0e4b742929e46fe6e049ecb168f00aa5660e24e compiler.h: introduce __visible_on_lto
+75be6ea29e2a597a01669939f405dc77353a2001 compiler.h: introduce __global_on_lto
+a6f17a8d20ccccb2d987a6c9258e2ac35f2075f1 Compiler Attributes, lto: introduce __noreorder
+ad56df103021e723ed646c3c6326dd3e25e88b1b tracepoint, lto: Mark static call functions as __visible
+18e1553263acdc4e775a8d68e3c3b3b6c811ebb7 static_call, lto: Mark static keys as __visible
+b62b5027d9abf9f72b8d7b70190d7ac1fd4ba8d2 static_call, lto: Mark static_call_return0() as __visible
+66d284165abf46f23ad60557394227b384aaec58 static_call, lto: Mark func_a() as __visible_on_lto
+12c22fc2314dae962f67a65b7bef0228de7492e0 x86/alternative, lto: Mark int3_*() as global and __visible
+3904263e3229febf68d17d2c75a6f81d381acbaf x86/paravirt, lto: Mark native_steal_clock() as __visible_on_lto
+bf9b354e9b43b94aae1d70a83ed4ebe5382d5c23 x86/preempt, lto: Mark preempt_schedule_*thunk() as __visible
+3941468fd53a94ef7673e38bc5d10f07ed7045ed x86/sev, lto: Mark cpuid_table_copy as __visible_on_lto
+c9fd57d5bf314751d74853f1437a72090d04b9d1 x86/xen, lto: Mark xen_vcpu_stolen() as __visible
+b3c6b741994e210de3a2ac5c33d260ac705ba089 x86, lto: Mark gdt_page and native_sched_clock() as __visible
+69b6ecd2eba4175ddf574b388376d40b44070c30 amd, lto: Mark amd pmu and pstate functions as __visible_on_lto
+995c3da9ceaa14aa0327466cef55657be935185a entry, lto: Mark raw_irqentry_exit_cond_resched() as __visible
+085ef58c1069073ea11e4c94c435546806f47da5 export, lto: Mark __kstrtab* in EXPORT_SYMBOL() as global and __visible
+c9d365ae8594efec27d3ce9b90a8b102bc6670ca softirq, lto: Mark irq_enter/exit_rcu() as __visible
+41c1bece0cfd7db0930185b7491b5a493eb42cc8 btf, lto: pass scope as strings
+fc3d49cf366af796ff8ba3e786cab8662ef63ec3 btf, lto: Make all BTF IDs global on LTO
+6723a5b92c9160f37b90c729658797770db75811 init.h, lto: mark initcalls as __noreorder
+118d1df8a0cc2fa8b65f884495bcf324a55e8e89 bpf, lto: mark interpreter jump table as __noreorder
+1d654377740ae72ce684f9c19427ca5e0692c53d sched, lto: mark sched classes as __noreorder
+fc1c10e6ac3b5a8fdb26bee1b4f581fe64ed68d4 x86/apic, lto: Mark apic_driver*() as __noreorder
+088d326951aa790c35f1f009be5997088fe8f4bb linkage, lto: use C version for SYSCALL_ALIAS() / cond_syscall()
+a5e80f25e6e57d673cf076764eddb5e9cb4dd96f scripts, lto: re-add gcc-ld
+9139b48e333fbd9745a527cd7a1e3e2decb27f35 scripts, lto: use CONFIG_LTO for many LTO specific actions
+f2c07e0d5820227f5240cec0ebc5305147c2f1b0 Kbuild, lto: Add Link Time Optimization support
+022a0ee9a9558617afd7fd2e3fbc00bb0166d658 x86/purgatory, lto: Disable gcc LTO for purgatory
+63fc55d632790c1da4a141c04d73b11f06aff2ef x86/realmode, lto: Disable gcc LTO for real mode code
+373c085381fda72333789c2a2dce4193c3d5f3e0 x86/vdso, lto: Disable gcc LTO for the vdso
+a1e788b8c9329338be45b43724bad6ef79be2635 scripts, lto: disable gcc LTO for some mod sources
+e3171e911de13dad0884b1f44cd6ef0d4811c616 Kbuild, lto: disable gcc LTO for bounds+asm-offsets
+31a958177fa6113bc514d5650b73045ccd951e87 lib/string, lto: disable gcc LTO for string.o
+a20b2d824d80daea320e8279579ac1a8df653d2d Compiler attributes, lto: disable __flatten with LTO
+64673ef45b6ad1048bb505a8450e9d44b4bfafb2 Kbuild, lto: don't include weak source file symbols in System.map
+ed53c71a9b61a89d13bca6606c27e67fcff3950d x86, lto: Disable relative init pointers with gcc LTO
+f86ad646d3cd12bc8cfcfc77c2b5ef23e824a3b6 x86/livepatch, lto: Disable live patching with gcc LTO
+f4cc6197c98a381b3ca9f98efec903ff26dca3f2 x86/lib, lto: Mark 32bit mem{cpy,move,set} as __used
+0d3f06eb9b0085d0ffdf31075cd72b5177444bff mm/kasan, lto: Mark kasan mem{cpy,move,set} as __used
+c5f04ff30f3df488a73a02790fb3be2039fb32a4 scripts, lto: check C symbols for modversions
+cb8680a72bc2621c83e1530645189577236d7577 scripts/bloat-o-meter, lto: handle gcc LTO
+dd67b65b81490edcef6b2dbf950ef61adb89ff78 kasan: remove extra BUILD_BUG() in memory_is_poisoned
+910bfec9cfadc6c3a897b4f42ae20bff75bf8d9f x86, lto: Finally enable gcc LTO for x86
 
---===============7417321797722722914==--
+--===============5478379912226923515==--
