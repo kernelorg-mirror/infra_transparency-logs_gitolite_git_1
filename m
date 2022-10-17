@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8669496875665947034=="
+Content-Type: multipart/mixed; boundary="===============2425068207066550792=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux
-Date: Mon, 17 Oct 2022 15:37:35 -0000
-Message-Id: <166602105574.2769.6889656149923691609@gitolite.kernel.org>
+Date: Mon, 17 Oct 2022 15:38:17 -0000
+Message-Id: <166602109708.3095.9616311965972497908@gitolite.kernel.org>
 
---===============8669496875665947034==
+--===============2425068207066550792==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/shuah/linux
 user: shuah
 changes:
-  - ref: refs/heads/linux-safety
+  - ref: refs/heads/master
     old: 568035b01cfb107af8d2e4bd2fb9aea22cf5b868
     new: 9abf2313adc1ca1b6180c508c25f22f9395cc780
     log: revlist-568035b01cfb-9abf2313adc1.txt
 
---===============8669496875665947034==
+--===============2425068207066550792==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ b08cd74448fafaa302ce2bc11beab5e5a55d0065 Merge tag '6.1-rc-smb3-client-fixes-par
 f1947d7c8a61db1cb0ef909a6512ede0b1f2115b Merge tag 'random-6.1-rc1-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/crng/random
 9abf2313adc1ca1b6180c508c25f22f9395cc780 Linux 6.1-rc1
 
---===============8669496875665947034==--
+--===============2425068207066550792==--
