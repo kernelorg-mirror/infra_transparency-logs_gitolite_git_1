@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2776026562613768716=="
+Content-Type: multipart/mixed; boundary="===============9062655166823068727=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/remoteproc/linux
-Date: Mon, 17 Oct 2022 22:10:13 -0000
-Message-Id: <166604461347.23172.18045246584152548927@gitolite.kernel.org>
+Date: Mon, 17 Oct 2022 22:10:15 -0000
+Message-Id: <166604461525.23230.17525998577353511134@gitolite.kernel.org>
 
---===============2776026562613768716==
+--===============9062655166823068727==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,18 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/remoteproc/linux
 user: andersson
 changes:
-  - ref: refs/heads/rpmsg-next
-    old: 467233a4ac29b215d492843d067a9f091e6bf0c5
+  - ref: refs/heads/rproc-next
+    old: ccf22a48cc8789a35befea783448c259463a5eef
     new: 9abf2313adc1ca1b6180c508c25f22f9395cc780
-    log: revlist-467233a4ac29-9abf2313adc1.txt
+    log: revlist-ccf22a48cc87-9abf2313adc1.txt
 
---===============2776026562613768716==
+--===============9062655166823068727==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-467233a4ac29-9abf2313adc1.txt
+Content-Disposition: attachment; filename=revlist-ccf22a48cc87-9abf2313adc1.txt
 
+8cded8fb1299eb20fc2f7a89dc9328cdf1baf9e5 Merge tag 'x86_core_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 bb1f11546eb3cd1e2b8ea45653eb0f530e42b035 Merge tag 'x86_asm_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 901735e51e4dea1eee816b0b57d1d6abbd94b3d5 Merge tag 'x86_misc_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 9bf445b65dd7d4c7d0e4efaecf38525abbbe74e3 Merge tag 'x86_paravirt_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
@@ -171,7 +172,6 @@ c457ac029e443faa5886f59f849e94701375b80f PCI: qcom-ep: Gate Master AXI clock to 
 8d0d254b15cc5b7d46d85fb7ab8ecede9575e672 nfsd: fix nfsd_file_unhash_and_dispose
 243a5263014a30436c93ed3f1f864c1da845455e nfsd: rework hashtable handling in nfsd_do_file_acquire
 cf4e0f8a396e42144d4b984ade8735621db5c20e Merge branch 'turbostat' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
-ccf22a48cc8789a35befea783448c259463a5eef remoteproc: virtio: Fix warning on bindings by removing the of_match_table
 52ce50498c6f432fad13315f0387bfc100e2d18b ACPI: thermal: Use white space more consistently
 9e8bc16626a007108f2c3496cd48f0eda4d09045 ACPI: thermal: Drop redundant parens from expressions
 36f554046bd6da91b7e71bddeb38952c6d92cd98 ACPI: thermal: Drop some redundant code
@@ -1051,4 +1051,4 @@ b08cd74448fafaa302ce2bc11beab5e5a55d0065 Merge tag '6.1-rc-smb3-client-fixes-par
 f1947d7c8a61db1cb0ef909a6512ede0b1f2115b Merge tag 'random-6.1-rc1-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/crng/random
 9abf2313adc1ca1b6180c508c25f22f9395cc780 Linux 6.1-rc1
 
---===============2776026562613768716==--
+--===============9062655166823068727==--
