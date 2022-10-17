@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2739178025398628169=="
+Content-Type: multipart/mixed; boundary="===============2287168769859692291=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Mon, 17 Oct 2022 05:08:40 -0000
-Message-Id: <166598332040.14263.14814765537495825371@gitolite.kernel.org>
+Date: Mon, 17 Oct 2022 05:09:03 -0000
+Message-Id: <166598334329.14789.7986114891218533788@gitolite.kernel.org>
 
---===============2739178025398628169==
+--===============2287168769859692291==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/debugfs_cleanup
-    old: 93d23ddd9df2ad5492260ca7345ce37358c520c6
-    new: 19c9dae9c0559971bab1744d3ed6a925d6829795
-    log: revlist-93d23ddd9df2-19c9dae9c055.txt
+  - ref: refs/heads/debugfs_lookup_fix
+    old: 44c0556c9f228e0490349a3bd1e4c04ec5074e4c
+    new: 97108ade879e39d1244b5b6a79a13f4d324bad1e
+    log: revlist-44c0556c9f22-97108ade879e.txt
 
---===============2739178025398628169==
+--===============2287168769859692291==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1665983365 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1665983388 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1665983313-ec3145d83c41c2360140aa4ff19ff87e7d3225c1
+nonce 1665983336-187939e2d8371ee0d26b2de6a85bcb1e41dc37d5
 
-93d23ddd9df2ad5492260ca7345ce37358c520c6 19c9dae9c0559971bab1744d3ed6a925d6829795 refs/heads/debugfs_cleanup
+44c0556c9f228e0490349a3bd1e4c04ec5074e4c 97108ade879e39d1244b5b6a79a13f4d324bad1e refs/heads/debugfs_lookup_fix
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmNM44UbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+rpwP/06pY3ASiQ4kjVYjCpfI
-coLiM97Ow3FrrxSZ7KVwcnzo+D11UGtcGws0xxGR7RX+WJUJhrlq460AP9P6HiwX
-yfohcmoel03DmNMbgAoo5s3K2EYrtBCl6MdeiHpbS6IKrGT1AciLX+cur6BDX9kC
-mK1Hado7QL+bsOXmDmaA7MgItVU6oTjzgulwtzqi0S0WlViFrqz2wAkd1jtOy66w
-YTxAYXCBYPFmsSp1b9sUAmwrrwVMcwCgYTIjjPIQzI6Bz+pUTO8vIDjVh53HDJAA
-A979qSDs9l6Kg2Rov/LNEk6gaKTqNOTwbInwgKZvQH6nb0aH4/ujW1cUcDKcPbz2
-x78Gqfcw1Ncpfvp230Ua64W1ED+1D3VO47UTDEh0f9hrkXM66EsBw1ez1O9vicsY
-wBAkXrQh09Six2KPDYayacHmuwGRDQpDXCdvQY3jHssS03LR13vfyzccZ6ig3xwo
-W+L2g3i/VE2UOSE5xsLVBCxrWxHE9JdIEVf7DP5DCMnqFk9PhkMhpl2LPjltxDrk
-aG9qYnwmsjckoYird//Fhzu/HSRg9Td0o/kqgQ1wowjzAo6Wf0Hby40GmToSSG4w
-MsVfBNn76DjUZxfkRJoeSu256kfFo/PPqdnKPV8xPGuw8lECgkUOSgKgAXSp5CXN
-Rkshs74RcN/ydpwU3whSiDs/
-=gI9u
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmNM45wbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+yM4P/R79K/hXUtCIa59ntfuq
+FLuL5djIo7HdHQwTnYcQYvg9FRGZisXvrrbI2GAaDyRqZrI6bTgRhZfFZoUIsJY1
+Qe6om939MVY5m8sYTuvDwU8VeOhQQHJ28TXy/L5Ga+FOIA+wKxZPYFZZ/YzOJrVn
+xpxkr0MeRn8oTQYMj4fxlB/XKdhgsIBQYEOcVDb76VcLrXy8CAr+gOdT1n870BIr
+sAKKmAUgc0mTkuzmS3+aG5cKWEIEDc6ZlpxcTlB4/CwzUv515nLN3cdMHOtf/fHO
+FHAILc+8XAE0N/wGaunIt+SkdkOBvN8XKA6ZbMwhRlYz30sEak9nptmQY7p2A6hs
+Q8Nh4aB9fYMf3L/7tnv1GaYTNowsQYad3L8KbUHvN05Lq8xUC7uRXYTsmG8VTWRs
+cCCJo+yYd9AWt64l+rajijH0bQrt50SRWxm/kQy3RWVqKV54vOO9oRZhMLNYpeWZ
+z6t5PnbYQEfP2Ake7C9RCgBx0MOQCYnVcb/jz2A98O/QoaLtTmYA1KqXXiugkrkt
+H84MeA4NyMf25Sh+AcYMtw1CjqEg6TFMzmtYIpHOSUA3futJmovJDhOtzkz+sQ+q
+qqmRMOWSeFTEryFL0dChTlVLR5LcxEqn+feQXjJ77GdSsVNtQQiXfYAah1Pk35q1
+YACYbioOU4yhdo0kKsjuS4Rz
+=3W8k
 -----END PGP SIGNATURE-----
 
---===============2739178025398628169==
+--===============2287168769859692291==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-93d23ddd9df2-19c9dae9c055.txt
+Content-Disposition: attachment; filename=revlist-44c0556c9f22-97108ade879e.txt
 
 aac00c7fa1149fd5b5a5110096ffa78dcb120b79 clk: test: Switch to clk_hw_get_clk
 d77388223240884b918b8d85f88f132916afbf06 clk: Drop the rate range on clk_put()
@@ -149,12 +149,39 @@ b08cd74448fafaa302ce2bc11beab5e5a55d0065 Merge tag '6.1-rc-smb3-client-fixes-par
 8636df94ec917019c4cb744ba0a1f94cf9057790 Merge tag 'perf-tools-for-v6.1-2-2022-10-16' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 f1947d7c8a61db1cb0ef909a6512ede0b1f2115b Merge tag 'random-6.1-rc1-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/crng/random
 9abf2313adc1ca1b6180c508c25f22f9395cc780 Linux 6.1-rc1
-701780b74e0fe4b23066041686a9afe28caee0ef driver core: remove devm_device_add_groups() and devm_device_remove_groups()
-79a9c6051fecdb463164b77776970ebc1ebf6a4f sysfs: do not create empty directories if no attributes are present
-04da287a87be9ecf04f18dee7ffa29f666a53f44 soundwire: sysfs: move sdw_slave_dev_attr_group into the existing list of groups
-591f9c8318ab51be1f7230e17dc2b903e856ec50 soundwire: sysfs: cleanup the logic for creating the dp0 sysfs attributes
-da66f47e690be51c63b39fcbff7712eafd768822 soundwire: sysfs: have the driver core handle the creation of the device groups
-5b64eebe73f6bc6102adc5e6bd666494560e7fe7 soundwire: sysfs: remove sdw_slave_sysfs_init()
-19c9dae9c0559971bab1744d3ed6a925d6829795 soundwire: sysfs: remove unneeded ATTRIBUTE_GROUPS() comments
+cefc97836623680d3903852620886fde182a9e86 mm/damon/dbgfs: fix memory leak when using debugfs_lookup()
+119b647396a4006375065fb0fc605b1cf05d0e90 mtd: spi-nor: fix memory leak when using debugfs_lookup()
+f53abe0f41ad472408f20b5ec3d9f73dec7010f1 USB: debugfs_lookup() fixup
+01187f0373100ea7677920c143f7920ae688295e USB: chipidea: debugfs_lookup() fix
+bacd94bcca48eebabfd85f3a443e55a1312986c7 USB: ULPI: debugfs_lookup() fix
+49b893792579af1bea46c5004759cb35475c4fca USB: dwc3: debugfs_lookup() fix
+877045ca7bcfe780d612cf8fb601ca918bd50ac4 USB: uhci: debugfs_lookup() fix
+9bda959a023bfeb0913048ca1b5ece6a9e6a7a0c USB: sl811: debugfs_lookup() fix
+f213193eca98d1214ee16c5b83d03dc1dd3feec3 USB: fotg210: debugfs_lookup() fix
+5485ed7ceda07d82ca7ea8be7db4da8298dce30e USB: isp116x: debugfs_lookup() fix
+80414dfc35d3e04d4752828836a5a0cfd0e1d2c8 USB: isp1362: debugfs_lookup() fix
+0ffd6d323698630f6b8fe9e430af2308f1317ce1 USB: gadget: gr_udc: debugfs_lookup() fix
+6316debdf3725becde881d009e5caefed42307af USB: gadget: bcm63xx_udc: debugfs_lookup() fix
+870abbf5cc25ec5f5b1512fdd6aac889e58bb446 USB: gadget: lpc32xx_udc: debugfs_lookup() fix
+e2096a97031df270f27546f08f3cce86e61fd21b USB: gadget: pxa25x_udc: debugfs_lookup() fix
+5e71809488507f9de78517b6ea0e10c4fb390486 USB: gadget: pxa27x_udc: debugfs_lookup() fix
+c4c596a6419a31723233f43edc5bd410ba92c894 USB: gadget: s3c2410_udc: debugfs_lookup() fix
+44b3803edc62806c186650edebcdf8c0ac08f54f HV: hv_balloon: debugfs_lookup() fix
+1762a1783f9af187ad787ea0d385863f8ff09be9 i915: debugfs_lookup() fix
+28b82f5b3ef6cbca3f1a8d658a13c1422479dbdf tty: pcn_uart: debugfs_lookup() fix
+e4759a4e428a3fbfce2b66d82140a27a6fa22a93 staging: pi433: debugfs_lookup() fix
+c414816e4e47c1be54c267a8e5422f363d680811 misc: vmw_balloon: debugfs_lookup() fix
+5b37ea03ee115036dd9ba93ed0efa993bcb34255 scsi: snic: debugfs_lookup() fix
+bb47ea402c12f26dd4c02c3793200ff3ed1518b5 drivers: base: component:: debugfs_lookup() fix
+060357c2baee478f1f1c78d675679ac0bcb62039 drivers: base: dd: debugfs_lookup() fix
+8ce3cfaba6644868d22f6987310f5086ce02e071 drivers: base: power debugfs_lookup() fix
+e1b632a920ccd6555f5fa4d9fd94c831cc54f183 mm/slub: debugfs_lookup() fix
+c90ae8c04f080220c6c16168a109939d45b1b650 trace/blktrace: debugfs_lookup() fix
+85aaa351a11147a347f9f7fd27e7a6cdc94ce9a5 ppc: iommu: debugfs_lookup() fix
+9bd422f8e8770b3fca25f0c1cc8a8a7b1fa045c7 kernel/fail_function: debugfs_lookup() fix
+9bcd3ae741b25b15cf950b9d38faa05eaaf602e0 kernel/irq/irqdomain.c: debugfs_lookup() fix
+3049a6588be3a34001a2e6c9f329f9662a6fc84a kernel/power/energy_model.c: debugfs_lookup() fix
+4de44efdcd2d2f6f0df390755a50d9025db3d545 kernel/printk/index.c: debugfs_lookup() fix
+97108ade879e39d1244b5b6a79a13f4d324bad1e kernel/time/test_udelay.c: debugfs_lookup() fix
 
---===============2739178025398628169==--
+--===============2287168769859692291==--
