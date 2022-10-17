@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9062655166823068727=="
+Content-Type: multipart/mixed; boundary="===============0378061496625198888=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/remoteproc/linux
-Date: Mon, 17 Oct 2022 22:10:15 -0000
-Message-Id: <166604461525.23230.17525998577353511134@gitolite.kernel.org>
+Date: Mon, 17 Oct 2022 22:10:17 -0000
+Message-Id: <166604461704.23292.7696582537408118171@gitolite.kernel.org>
 
---===============9062655166823068727==
+--===============0378061496625198888==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/remoteproc/linux
 user: andersson
 changes:
-  - ref: refs/heads/rproc-next
-    old: ccf22a48cc8789a35befea783448c259463a5eef
+  - ref: refs/heads/for-next
+    old: abac55caaeaaabd31763a7c8a79c4cc096b415ae
     new: 9abf2313adc1ca1b6180c508c25f22f9395cc780
-    log: revlist-ccf22a48cc87-9abf2313adc1.txt
+    log: revlist-abac55caaeaa-9abf2313adc1.txt
 
---===============9062655166823068727==
+--===============0378061496625198888==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-ccf22a48cc87-9abf2313adc1.txt
+Content-Disposition: attachment; filename=revlist-abac55caaeaa-9abf2313adc1.txt
 
 8cded8fb1299eb20fc2f7a89dc9328cdf1baf9e5 Merge tag 'x86_core_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 bb1f11546eb3cd1e2b8ea45653eb0f530e42b035 Merge tag 'x86_asm_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
@@ -1051,4 +1051,4 @@ b08cd74448fafaa302ce2bc11beab5e5a55d0065 Merge tag '6.1-rc-smb3-client-fixes-par
 f1947d7c8a61db1cb0ef909a6512ede0b1f2115b Merge tag 'random-6.1-rc1-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/crng/random
 9abf2313adc1ca1b6180c508c25f22f9395cc780 Linux 6.1-rc1
 
---===============9062655166823068727==--
+--===============0378061496625198888==--
