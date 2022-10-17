@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0767803777285197021=="
+Content-Type: multipart/mixed; boundary="===============3267053699487846297=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Mon, 17 Oct 2022 08:50:16 -0000
-Message-Id: <166599661619.10537.15332281811948706030@gitolite.kernel.org>
+Date: Mon, 17 Oct 2022 08:50:28 -0000
+Message-Id: <166599662889.10692.13244223097606981326@gitolite.kernel.org>
 
---===============0767803777285197021==
+--===============3267053699487846297==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/perf/urgent
-    old: 6b959ba22d34ca793ffdb15b5715457c78e38b1a
-    new: fa336e7cde246d24066f43d09d2fa981ab6ea397
-    log: revlist-6b959ba22d34-fa336e7cde24.txt
+  - ref: refs/heads/perf/core
+    old: 82aad7ff7ac25c8cf09d491ae23b9823f1901486
+    new: 5f52eb0b1b1f776e9542106ea2935e7ffb29f746
+    log: revlist-82aad7ff7ac2-5f52eb0b1b1f.txt
 
---===============0767803777285197021==
+--===============3267053699487846297==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-6b959ba22d34-fa336e7cde24.txt
+Content-Disposition: attachment; filename=revlist-82aad7ff7ac2-5f52eb0b1b1f.txt
 
-b5f0b11353a6a33a1accd0b742c80ed6b2f35ac0 Merge tag 'x86_microcode_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-193e2268a3bb1404b42f8edcc037a3eafd165aa9 Merge tag 'x86_cache_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 da4ab869e37cf81f93333ba74b16e0ea6d322e15 libceph: drop last_piece flag from ceph_msg_data_cursor
 f791357330b0043ec953ce122ab7519af4b9d24a ceph: wake up the waiters if any new caps comes
 6eb06c46214d33c71ae86d60b3fc9cb17c20beca ceph: fail the request if the peer MDS doesn't support getvxattr op
@@ -1050,5 +1048,7 @@ f1947d7c8a61db1cb0ef909a6512ede0b1f2115b Merge tag 'random-6.1-rc1-for-linus' of
 5fbf1407c2d72386195e8f033ffd1e1e9e43cf8a perf: Fix missing SIGTRAPs
 56d186a4262d14748275e577648836a79274bedc selftests/perf_events: Add a SIGTRAP stress test with disables
 fa336e7cde246d24066f43d09d2fa981ab6ea397 bpf: fix sample_flags for bpf_perf_event_output
+87a416c469a13ebb3d1bf78918a362bd4c268c4c perf: Rewrite core context handling
+5f52eb0b1b1f776e9542106ea2935e7ffb29f746 perf: Optimize perf_tp_event()
 
---===============0767803777285197021==--
+--===============3267053699487846297==--
