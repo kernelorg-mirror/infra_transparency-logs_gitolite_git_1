@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0403341348229597716=="
+Content-Type: multipart/mixed; boundary="===============2635815738221420292=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Mon, 17 Oct 2022 20:13:12 -0000
-Message-Id: <166603759220.3533.17115399057303578552@gitolite.kernel.org>
+Date: Mon, 17 Oct 2022 20:13:17 -0000
+Message-Id: <166603759718.3611.6690836702498435363@gitolite.kernel.org>
 
---===============0403341348229597716==
+--===============2635815738221420292==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: 0c93411795513a0e8dfcb5bcc7bab756b98bfc73
-    new: 402fe7a5728789f3a3998d2823b7a110f4cd924e
-    log: revlist-0c9341179551-402fe7a57287.txt
+  - ref: refs/heads/dev-queue
+    old: 1934df3b382728194cda79c510f74f085919e32c
+    new: f33571c9e00dfab71211dbdff26e148555c47e09
+    log: revlist-1934df3b3827-f33571c9e00d.txt
 
---===============0403341348229597716==
+--===============2635815738221420292==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0c9341179551-402fe7a57287.txt
+Content-Disposition: attachment; filename=revlist-1934df3b3827-f33571c9e00d.txt
 
 a8aed7b35becfd21f22a77c7014029ea837b018f sfc: Change VF mac via PF as first preference if available.
 d8bde3bf7f82dac5fc68a62c2816793a12cafa2a net/atm: fix proc_mpc_write incorrect return value
@@ -43,5 +43,9 @@ b3d0d98179d62f9d55635a600679c4fa362baf8d net: ethernet: mtk_eth_soc: fix possibl
 e0bb4659e235770e6f53b3692e958591f49448f5 net: ethernet: mtk_eth_wed: add missing of_node_put()
 a887b59f6a168e13a7608c64b61e6d5b769f80ee Merge branch 'mtk_eth_wed-leak-fixes'
 402fe7a5728789f3a3998d2823b7a110f4cd924e net: ethernet: mediatek: ppe: Remove the unused function mtk_foe_entry_usable()
+cf720db1b35011c639044991f81ecb2d0028fa79 i40e: Fix ethtool rx-flow-hash setting for X722
+fd1e0ef68571779557c9026622e153dde3213152 i40e: Fix VF hang when reset is triggered on another VF
+b8d2166d5bab08cb419938a1f2c8de3a5b512f25 i40e: Fix flow-type by setting GL_HASH_INSET registers
+f33571c9e00dfab71211dbdff26e148555c47e09 ice: Fix spurious interrupt during removal of trusted VF
 
---===============0403341348229597716==--
+--===============2635815738221420292==--
