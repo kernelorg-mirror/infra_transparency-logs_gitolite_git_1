@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8886505682830466286=="
+Content-Type: multipart/mixed; boundary="===============3632101130908683587=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Mon, 17 Oct 2022 15:25:39 -0000
-Message-Id: <166602033947.29472.15428871655214692033@gitolite.kernel.org>
+Date: Mon, 17 Oct 2022 15:25:43 -0000
+Message-Id: <166602034376.29584.17667586876366254102@gitolite.kernel.org>
 
---===============8886505682830466286==
+--===============3632101130908683587==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,38 @@ repo: pub/scm/linux/kernel/git/stable/linux
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.4.y
-    old: 1d0da8674c23e8d65398c33a4d5018eaf02e1c64
-    new: fd92cfed8bc6668d314acd1e6da708a80826f768
-    log: |
-         c248c3330d5f09cbf08fb0d2025bcd075b0f8672 Revert "fs: check FMODE_LSEEK to control internal pipe splicing"
-         7f441a6c90fe165b57b8514a5ae360344edc6d6d mac80211: mlme: find auth challenge directly
-         9478c5f9c007b51e173a723ced44971c1a81ef42 wifi: mac80211: don't parse mbssid in assoc response
-         0cb5be43dc4b79da010522f79a06fa56f944d3cd wifi: mac80211: fix MBSSID parsing use-after-free
-         fd92cfed8bc6668d314acd1e6da708a80826f768 Linux 5.4.219
-         
+  - ref: refs/tags/v5.4.219
+    old: 0000000000000000000000000000000000000000
+    new: cb111daa19752473ab9f62d29b148edcb4a4f881
 
---===============8886505682830466286==
+--===============3632101130908683587==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1666020338 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1666020343 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1666020335-08793b5ef1a514d8df2ff001e737119cb432b133
+nonce 1666020340-acd40edf5205c3042c705ff747fe3ef2721bd739
 
-1d0da8674c23e8d65398c33a4d5018eaf02e1c64 fd92cfed8bc6668d314acd1e6da708a80826f768 refs/heads/linux-5.4.y
+0000000000000000000000000000000000000000 cb111daa19752473ab9f62d29b148edcb4a4f881 refs/tags/v5.4.219
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmNNc/IbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+vg0P/AuiEmiNlJYroApXfX2w
-BgqYi5N+3Jgec5cmr9iQGRoCkqENQE6T8IZH1sWxqbgyThLl4YjAvu5bsLmZdngg
-R4iemCr8sz+aB/+XZ/2RwSTIHmNXQsEvmtUfdTUpr56uGtv1vR9wRn4CEfaElqvG
-9/lwxz6eYVLApyRbt5nDMGEknrKJ3V3OLh7btgkZmNaTN4BZIVk9zhTKqz9vM3oJ
-1lhMzIxKOOyvzBcMIPqZDB7x4Acy8j7ep58o/OUe7tNRej5WV6TYNHgrS+QiGvNe
-ywby08EadzLkjAif0A/Qdz5jvYA92H9B9lnH3NECWzbX2LeitCX73aQINzBKDNJn
-vX/P+9HMa7GXCO9hlIViiQY5uEkuWAMtCryiazr0ocMzvlTrlB3Q/iONayRI/TaB
-Sz8CEDAJJnhIlZ5Vx46t79oKJkVG4KO2x3tEdw9Kr4CQ7jjeevfGsX+JwstWp2Ny
-cTkA6EHVoqya0fsh/s4tnGHT+0gy6F8XBqyrmMnKRRqOxXhRhzqgQbRkQiMLmNIP
-aTIlvqxnSQiI8Jg6pT/DgNtY8VF/VzLcG6U0lBvg8q+H37zLiy2PCJ8IURkYk8Gj
-VhwtcAFL26mLPJCCLXxqQAnY7bggguQxl73xDvO28x7vbDN/t0BfI9VCOeubTfbr
-HsI/wa9CxxH+87uszALzFbYc
-=VhoV
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmNNc/cbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+18oP/REwLKH58thhYtOmlhft
+DVt4+711BWOeEb8U6D5Fg5+HpfQzSWnlbz+bFKrWda+UfYJrgVglXlV6YefkmYub
+f5sOiNGGj3t7mBQ9af4RBJxJw3fS9vUnN+SDTAcUgPcxSZSuXpxIX0qojGYcg9I5
+0vhwrGcu4D04c9yYbhb8QQ77MPVTxb4bwlCWNf38PKCoL8wKaj4pro9Ex/6x5cOy
+KOjDPKP+4lGhG1OmwU8Zh5JpsRWql8iVW8YuYoNEkNDv2aL8zP08Nw2bmraK9O1y
+MK3duUGhltsWDQFZB4Bg80ozq9ToES4Okm1V5HWbSmhReJMiOc0qVibkhXSYQnIC
+ZhrZd808tnrehFh/iWzYOz8cohDs0uQiWbtDa7FzGGMa/CmIIYChRy/x2HNvFNuw
+xRBCuCfn4tGEfy2K5zRGUaC4pamamET+S1AFwQJR3V/O4LaO+hDPHbP+YBdBIfbS
+tN7hjZ2PKP4p3/ntM2O4iNyJ97rTL8nnZCBanqWPsgNPAnl60la5uVHZtYO37HOk
+g6cQuG3T0ztLUBSSPUT9LKWbBS/yoee9sY/gCuJsw0Cg7gtarjFw4blEqlLDFp1p
+waoV81IAJh3L38ouDeIIFEmCemtZgF0o08UaY+MONjqjq/4mOs780h76WRQWtcRn
+x5J5qd7jaR9drW62WrEDfN3O
+=zn4N
 -----END PGP SIGNATURE-----
 
---===============8886505682830466286==--
+--===============3632101130908683587==--
