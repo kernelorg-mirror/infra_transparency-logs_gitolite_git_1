@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7752768105688825656=="
+Content-Type: multipart/mixed; boundary="===============4822825397832309160=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tzungbi/chrome-platform
-Date: Mon, 17 Oct 2022 04:05:54 -0000
-Message-Id: <166597955454.2864.10407158001594921167@gitolite.kernel.org>
+Date: Mon, 17 Oct 2022 04:06:18 -0000
+Message-Id: <166597957832.3072.3709386125694213209@gitolite.kernel.org>
 
---===============7752768105688825656==
+--===============4822825397832309160==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tzungbi/chrome-platform
 user: tzungbi
 changes:
-  - ref: refs/heads/for-next
-    old: e539e858e15b458613011629267f58fb33e03e94
+  - ref: refs/heads/dev
+    old: af4ac592f87f0ac39d1c27fcbe880d37f725b907
     new: 9abf2313adc1ca1b6180c508c25f22f9395cc780
-    log: revlist-e539e858e15b-9abf2313adc1.txt
+    log: revlist-af4ac592f87f-9abf2313adc1.txt
 
---===============7752768105688825656==
+--===============4822825397832309160==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-e539e858e15b-9abf2313adc1.txt
+Content-Disposition: attachment; filename=revlist-af4ac592f87f-9abf2313adc1.txt
 
 bb1f11546eb3cd1e2b8ea45653eb0f530e42b035 Merge tag 'x86_asm_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 901735e51e4dea1eee816b0b57d1d6abbd94b3d5 Merge tag 'x86_misc_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
@@ -1051,4 +1051,4 @@ b08cd74448fafaa302ce2bc11beab5e5a55d0065 Merge tag '6.1-rc-smb3-client-fixes-par
 f1947d7c8a61db1cb0ef909a6512ede0b1f2115b Merge tag 'random-6.1-rc1-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/crng/random
 9abf2313adc1ca1b6180c508c25f22f9395cc780 Linux 6.1-rc1
 
---===============7752768105688825656==--
+--===============4822825397832309160==--
