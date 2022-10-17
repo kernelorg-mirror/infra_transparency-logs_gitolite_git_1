@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7429405194516137703=="
+Content-Type: multipart/mixed; boundary="===============5072559168263627272=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-drivers
-Date: Mon, 17 Oct 2022 14:18:52 -0000
-Message-Id: <166601633231.7198.8256852577273235387@gitolite.kernel.org>
+Date: Mon, 17 Oct 2022 14:19:08 -0000
+Message-Id: <166601634835.7365.11202408029150846782@gitolite.kernel.org>
 
---===============7429405194516137703==
+--===============5072559168263627272==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/renesas-drivers
 user: geert
 changes:
-  - ref: refs/heads/renesas-clk
-    old: e46a1a9943c0e84f439b971d6ce03f87e3d67441
+  - ref: refs/heads/renesas-clk-for-v6.2
+    old: ba4bf53c3f48e2634500864076a79edbce8289ae
     new: adac754ab16fb5085ae1bd17d38f5353a19ea99a
-    log: revlist-e46a1a9943c0-adac754ab16f.txt
+    log: revlist-ba4bf53c3f48-adac754ab16f.txt
 
---===============7429405194516137703==
+--===============5072559168263627272==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-e46a1a9943c0-adac754ab16f.txt
+Content-Disposition: attachment; filename=revlist-ba4bf53c3f48-adac754ab16f.txt
 
 a64b79c01c2836ddd8e1eb7c8173b44c3e66f999 Merge branches 'clk-samsung', 'clk-mtk', 'clk-rm', 'clk-ast' and 'clk-qcom' into clk-next
 26bebbfed5bd06fd7202fd1befa6c2c935a593e8 Merge branches 'clk-rockchip', 'clk-renesas', 'clk-microchip', 'clk-allwinner' and 'clk-imx' into clk-next
@@ -1051,4 +1051,4 @@ b8d131f3d7a84eca6d6ad376d0d23ed1f26574b8 clk: renesas: r8a779g0: Add SDHI clocks
 182fbc7bb7994603b15493900621c3c05adc2020 clk: renesas: r8a779g0: Add RPC-IF clock
 adac754ab16fb5085ae1bd17d38f5353a19ea99a clk: renesas: r8a779a0: Fix SD0H clock name
 
---===============7429405194516137703==--
+--===============5072559168263627272==--
