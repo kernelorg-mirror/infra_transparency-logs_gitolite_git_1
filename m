@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9114334898186910799=="
+Content-Type: multipart/mixed; boundary="===============5848576282991956443=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chrome-platform/linux
-Date: Mon, 17 Oct 2022 04:15:35 -0000
-Message-Id: <166598013585.10507.853786330419675727@gitolite.kernel.org>
+Date: Mon, 17 Oct 2022 04:15:47 -0000
+Message-Id: <166598014752.10646.15376199981927744897@gitolite.kernel.org>
 
---===============9114334898186910799==
+--===============5848576282991956443==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,18 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/chrome-platform/linux
 user: tzungbi
 changes:
-  - ref: refs/heads/for-next
-    old: 8edd2752b0aa498b3a61f3caee8f79f7e0567fad
-    new: 9abf2313adc1ca1b6180c508c25f22f9395cc780
-    log: revlist-8edd2752b0aa-9abf2313adc1.txt
+  - ref: refs/heads/for-kernelci
+    old: 95a789b97c72e00d7be6951ebc3fe537803003a6
+    new: 8b78c14e29f199c8265829ce00f7b224e343b348
+    log: revlist-95a789b97c72-8b78c14e29f1.txt
 
---===============9114334898186910799==
+--===============5848576282991956443==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-8edd2752b0aa-9abf2313adc1.txt
+Content-Disposition: attachment; filename=revlist-95a789b97c72-8b78c14e29f1.txt
 
-bb1f11546eb3cd1e2b8ea45653eb0f530e42b035 Merge tag 'x86_asm_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 901735e51e4dea1eee816b0b57d1d6abbd94b3d5 Merge tag 'x86_misc_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 9bf445b65dd7d4c7d0e4efaecf38525abbbe74e3 Merge tag 'x86_paravirt_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 b5f0b11353a6a33a1accd0b742c80ed6b2f35ac0 Merge tag 'x86_microcode_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
@@ -1050,5 +1049,6 @@ b08cd74448fafaa302ce2bc11beab5e5a55d0065 Merge tag '6.1-rc-smb3-client-fixes-par
 8636df94ec917019c4cb744ba0a1f94cf9057790 Merge tag 'perf-tools-for-v6.1-2-2022-10-16' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 f1947d7c8a61db1cb0ef909a6512ede0b1f2115b Merge tag 'random-6.1-rc1-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/crng/random
 9abf2313adc1ca1b6180c508c25f22f9395cc780 Linux 6.1-rc1
+8b78c14e29f199c8265829ce00f7b224e343b348 KERNELCI: x86_64_defconfig: Enable support for Chromebooks devices
 
---===============9114334898186910799==--
+--===============5848576282991956443==--
