@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2137429936127538602=="
+Content-Type: multipart/mixed; boundary="===============0095700563875832716=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/wbg/counter
-Date: Mon, 17 Oct 2022 13:52:58 -0000
-Message-Id: <166601477898.19855.12272909683512770503@gitolite.kernel.org>
+Date: Mon, 17 Oct 2022 13:53:06 -0000
+Message-Id: <166601478644.19958.15347435855162091471@gitolite.kernel.org>
 
---===============2137429936127538602==
+--===============0095700563875832716==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/wbg/counter
 user: wbg
 changes:
-  - ref: refs/heads/master
-    old: 4fe89d07dcc2804c8b562f6c7896a45643d34b2f
+  - ref: refs/heads/counter-next
+    old: 8ddf5c2d1fb0f36d97c466e4a5215c74583925f2
     new: 9abf2313adc1ca1b6180c508c25f22f9395cc780
-    log: revlist-4fe89d07dcc2-9abf2313adc1.txt
+    log: revlist-8ddf5c2d1fb0-9abf2313adc1.txt
 
---===============2137429936127538602==
+--===============0095700563875832716==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-4fe89d07dcc2-9abf2313adc1.txt
+Content-Disposition: attachment; filename=revlist-8ddf5c2d1fb0-9abf2313adc1.txt
 
 bb1f11546eb3cd1e2b8ea45653eb0f530e42b035 Merge tag 'x86_asm_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 901735e51e4dea1eee816b0b57d1d6abbd94b3d5 Merge tag 'x86_misc_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
@@ -1051,4 +1051,4 @@ b08cd74448fafaa302ce2bc11beab5e5a55d0065 Merge tag '6.1-rc-smb3-client-fixes-par
 f1947d7c8a61db1cb0ef909a6512ede0b1f2115b Merge tag 'random-6.1-rc1-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/crng/random
 9abf2313adc1ca1b6180c508c25f22f9395cc780 Linux 6.1-rc1
 
---===============2137429936127538602==--
+--===============0095700563875832716==--
