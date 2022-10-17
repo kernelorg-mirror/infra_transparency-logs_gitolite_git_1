@@ -1,31 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============2176429242109682454=="
+Content-Type: multipart/mixed; boundary="===============1093551844354686132=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Mon, 17 Oct 2022 18:02:35 -0000
-Message-Id: <166602975596.8339.3641713461908007948@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/audit
+Date: Mon, 17 Oct 2022 18:03:56 -0000
+Message-Id: <166602983670.8898.17839506201109125611@gitolite.kernel.org>
 
---===============2176429242109682454==
+--===============1093551844354686132==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
-user: broonie
+repo: pub/scm/linux/kernel/git/pcmoore/audit
+user: pcmoore
 changes:
-  - ref: refs/heads/arm64-sme2
-    old: fa6e7be0d0afaa4895b95ffe3b80cf4a5deb42ac
-    new: f639cfbebbc0a4778a044d67f682da2a20fb18d9
-    log: revlist-fa6e7be0d0af-f639cfbebbc0.txt
+  - ref: refs/heads/stable-6.1
+    old: 934f70d9d498a7fffd611edf48356698f1d72e91
+    new: 9abf2313adc1ca1b6180c508c25f22f9395cc780
+    log: revlist-934f70d9d498-9abf2313adc1.txt
 
---===============2176429242109682454==
+--===============1093551844354686132==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-fa6e7be0d0af-f639cfbebbc0.txt
+Content-Disposition: attachment; filename=revlist-934f70d9d498-9abf2313adc1.txt
 
+bb1f11546eb3cd1e2b8ea45653eb0f530e42b035 Merge tag 'x86_asm_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+901735e51e4dea1eee816b0b57d1d6abbd94b3d5 Merge tag 'x86_misc_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+9bf445b65dd7d4c7d0e4efaecf38525abbbe74e3 Merge tag 'x86_paravirt_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+b5f0b11353a6a33a1accd0b742c80ed6b2f35ac0 Merge tag 'x86_microcode_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+193e2268a3bb1404b42f8edcc037a3eafd165aa9 Merge tag 'x86_cache_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+da4ab869e37cf81f93333ba74b16e0ea6d322e15 libceph: drop last_piece flag from ceph_msg_data_cursor
+f791357330b0043ec953ce122ab7519af4b9d24a ceph: wake up the waiters if any new caps comes
+6eb06c46214d33c71ae86d60b3fc9cb17c20beca ceph: fail the request if the peer MDS doesn't support getvxattr op
+7c3ea9870e09e193981695dd67c37a1a2b6d600b ceph: no need to wait for transition RDCACHE|RD -> RD
+aa1d627207cace003163dee24d1c06fa4e910c6b ceph: Use kcalloc for allocating multiple elements
+b4b924c7a16e857b0715603456045251a49f2ea6 ceph: increment i_version when doing a setattr with caps
+bd04b9192e1ff6859d6b3906e91cfd5c9b0ad55b ceph: fail the open_by_handle_at() if the dentry is being unlinked
+aa87052dd965a6094355fcc13d5abc3f5bebfbe4 ceph: fix incorrectly showing the .snap size for stat
+71cf0c1c4f9f8e42c84ca53a5ca7091e4eea7f6a ceph: remove Sage's git tree from documentation
+a76d550f761d4f1b0a0e2faa27af122e51904b86 clk: qcom: gcc-sm6375: Remove unused variables
+3eba620e7bd772a0c7dc91966cb107872b54a910 Merge tag 'x86_cleanups_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+39bc9b589ea3d2750a6fec6409cd7fc687bc99fe clk: qcom: gcc-sm6375: Ensure unsigned long type
+49f4c2d101bbf93c62e3fa58e666f71352c54121 Merge branches 'clk-ofnode', 'clk-bindings', 'clk-cleanup', 'clk-zynq' and 'clk-xilinx' into clk-next
+a64b79c01c2836ddd8e1eb7c8173b44c3e66f999 Merge branches 'clk-samsung', 'clk-mtk', 'clk-rm', 'clk-ast' and 'clk-qcom' into clk-next
+26bebbfed5bd06fd7202fd1befa6c2c935a593e8 Merge branches 'clk-rockchip', 'clk-renesas', 'clk-microchip', 'clk-allwinner' and 'clk-imx' into clk-next
+b7f257ceb3c88ee3e2c6b0d1db703c818d3971f1 Merge branches 'clk-fixed-rate', 'clk-spreadtrum', 'clk-pxa' and 'clk-ti' into clk-next
+f9efefdba95a5110a1346bb03acdd8ff3cdf557f Merge branches 'clk-baikal', 'clk-broadcom', 'clk-vc5' and 'clk-versaclock' into clk-next
+c645c11a2dba116bad3ee43e08e330db8f03ede6 Merge tag 'audit-pr-20221003' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/audit
+98828955971363e838149105c268b1fad905f15b drm/i915/gvt: fix a memory leak in intel_gvt_init_vgpu_types
+1aa3834f510c9d9206ce4d40aff4903b0c016761 drm/i915/gvt: simplify vgpu configuration management
+bdef2b7896df293736330eb6eb0f43947049b828 vfio/mdev: make mdev.h standalone includable
+89345d5177aa0f6d678251e1e0870b0eeb1ab510 vfio/mdev: embedd struct mdev_parent in the parent data structure
 da44c340c4fe9d9653ae84fa6a60f406bafcffce vfio/mdev: simplify mdev_type handling
 cbf3bb28aaeaee425ca7b9c537a3efff1f8c98ae vfio/mdev: remove mdev_from_dev
 2815fe149ffa8e1a022b2830ab62999135c00a4e vfio/mdev: unexport mdev_bus_type
@@ -1023,32 +1050,5 @@ b08cd74448fafaa302ce2bc11beab5e5a55d0065 Merge tag '6.1-rc-smb3-client-fixes-par
 8636df94ec917019c4cb744ba0a1f94cf9057790 Merge tag 'perf-tools-for-v6.1-2-2022-10-16' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 f1947d7c8a61db1cb0ef909a6512ede0b1f2115b Merge tag 'random-6.1-rc1-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/crng/random
 9abf2313adc1ca1b6180c508c25f22f9395cc780 Linux 6.1-rc1
-5b738ce957ebe68b8fa450f2fae1b00e07af30af arm64/hwcap: Add support for FEAT_CSSC
-15a337dff5d97ecf7adfc5f755174da5fe22b02e kselftest/arm64: Add FEAT_CSSC to the hwcap selftest
-59b7b6660cd75993b631649b8a94da28faa64c71 arm64/hwcap: Add support for FEAT_RPRFM
-41745290cbc51ecb68ef30506563e9c2695bc2b1 kselftest/arm64: Add FEAT_RPRFM to the hwcap test
-94ddd1d9d71dece594e889ee41e09a7203a37e6e arm64/hwcap: Add support for SVE 2.1
-ab0aff0601c29dc7b5cb2ecf42135dccbed6750a kselftest/arm64: Add SVE 2.1 to hwcap test
-7b38fa1883aacf440ed6be3c616a6f42803e062e arm64/sme: Rename za_state to sme_state
-6a4ebe8831717a26b8932cfc7cdb047e48942244 arm64: Document boot requirements for SME 2
-aff8c7efdf06c0b4110850b4fb84c0a5199f9f99 arm64/sysreg: Update system registers for SME 2 and 2.1
-2fb244ccf604bb5d0ce4b8ae57bf235487f6902e arm64/sme: Document SME 2 and SME 2.1 ABI
-534a76ce0d87476c317f2c2d45cb1160fbc65bbf arm64/esr: Document ISS for ZT0 being disabled
-dd927f4c67af2cb5587bdc0f1dacb166abcfa2be arm64/sme: Manually encode ZT0 load and store instructions
-f0bfe66a76d4feefbca7451a8945833da054967b arm64/sme: Enable host kernel to access ZT0
-87dbed85340206b57b016a2585f9e3c9ea52426d arm64/sme: Add basic enumeration for SME2
-9116441ff9412a9b3800c1dbf9a8ada37cec8079 arm64/sme: Provide storage for ZT0
-cd8e6b61684a4baa495c196a7659060ae28d1062 arm64/sme: Implement context switching for ZT0
-6be56ecf117ca64aa0ad3aca38a5603095e2c610 arm64/sme: Implement signal handling for ZT
-78571c55096ed4efd5bd5596ca0f44862c7d2c54 arm64/sme: Implement ZT0 ptrace support
-5c872f6b377eb33bd00bb557fa5a14c9a05590f1 arm64/sme: Add hwcaps for SME 2 and 2.1 features
-eef1f37eccac8aebed9e27dc4ef83177a46af4ab kselftest/arm64: Add a stress test program for ZT0
-256600d2e7871dedec2af7d755a6daf864073d15 kselftest/arm64: Cover ZT in the FP stress test
-5f6e5d8b05ade495f6d21e4fbb1e74e6cd42159f kselftest/arm64: Enumerate SME2 in the signal test utility code
-81ab67db3af852a2751aeb081ef483cf4dc48776 kselftest/arm64: Teach the generic signal context validation about ZT
-32c6dec63ba362d2f25197372a59417922263438 kselftest/arm64: Add test coverage for ZT register signal frames
-618aded6c1683aacc65984624ec70055891d4752 kselftest/arm64: Add SME2 coverage to syscall-abi
-70cc1a9229605cb8a97ced55715eb67e3e30786a kselftest/arm64: Add coverage of the ZT ptrace regset
-f639cfbebbc0a4778a044d67f682da2a20fb18d9 kselftest/arm64: Add coverage of SME 2 and 2.1 hwcaps
 
---===============2176429242109682454==--
+--===============1093551844354686132==--
