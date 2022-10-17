@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============2578689672909982747=="
+Content-Type: multipart/mixed; boundary="===============4313093893987526835=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vkoul/soundwire
-Date: Mon, 17 Oct 2022 05:10:41 -0000
-Message-Id: <166598344198.17092.2446066967036986939@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vkoul/dmaengine
+Date: Mon, 17 Oct 2022 05:11:00 -0000
+Message-Id: <166598346021.17265.17431033911196862795@gitolite.kernel.org>
 
---===============2578689672909982747==
+--===============4313093893987526835==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vkoul/soundwire
+repo: pub/scm/linux/kernel/git/vkoul/dmaengine
 user: vkoul
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: 9abf2313adc1ca1b6180c508c25f22f9395cc780
     log: revlist-568035b01cfb-9abf2313adc1.txt
 
---===============2578689672909982747==
+--===============4313093893987526835==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ b08cd74448fafaa302ce2bc11beab5e5a55d0065 Merge tag '6.1-rc-smb3-client-fixes-par
 f1947d7c8a61db1cb0ef909a6512ede0b1f2115b Merge tag 'random-6.1-rc1-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/crng/random
 9abf2313adc1ca1b6180c508c25f22f9395cc780 Linux 6.1-rc1
 
---===============2578689672909982747==--
+--===============4313093893987526835==--
