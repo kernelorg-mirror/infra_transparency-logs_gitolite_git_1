@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0204912051519998001=="
+Content-Type: multipart/mixed; boundary="===============5486541310261189668=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Mon, 17 Oct 2022 19:28:37 -0000
-Message-Id: <166603491766.3954.16998284355959226276@gitolite.kernel.org>
+Date: Mon, 17 Oct 2022 19:28:51 -0000
+Message-Id: <166603493162.4140.9339601733101132637@gitolite.kernel.org>
 
---===============0204912051519998001==
+--===============5486541310261189668==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,15 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
 user: jaegeuk
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/dev
     old: 49da070062390094112b423ba443ea193527b2e4
     new: bbb8ceb5e2421184db9560e9d2cfaf858e1db616
     log: revlist-49da07006239-bbb8ceb5e242.txt
-  - ref: refs/tags/v6.1-rc1
-    old: 0000000000000000000000000000000000000000
-    new: e0e492cebef25c13fc29b174f01b5178662f1652
 
---===============0204912051519998001==
+--===============5486541310261189668==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -906,4 +903,4 @@ f1947d7c8a61db1cb0ef909a6512ede0b1f2115b Merge tag 'random-6.1-rc1-for-linus' of
 9abf2313adc1ca1b6180c508c25f22f9395cc780 Linux 6.1-rc1
 bbb8ceb5e2421184db9560e9d2cfaf858e1db616 Merge tag 'v6.1-p2' of git://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6
 
---===============0204912051519998001==--
+--===============5486541310261189668==--
