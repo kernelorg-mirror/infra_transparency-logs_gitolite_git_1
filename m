@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0095700563875832716=="
+Content-Type: multipart/mixed; boundary="===============7970327182705785354=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/wbg/counter
-Date: Mon, 17 Oct 2022 13:53:06 -0000
-Message-Id: <166601478644.19958.15347435855162091471@gitolite.kernel.org>
+Date: Mon, 17 Oct 2022 13:53:11 -0000
+Message-Id: <166601479142.20069.14186199834391005493@gitolite.kernel.org>
 
---===============0095700563875832716==
+--===============7970327182705785354==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/wbg/counter
 user: wbg
 changes:
-  - ref: refs/heads/counter-next
-    old: 8ddf5c2d1fb0f36d97c466e4a5215c74583925f2
-    new: 9abf2313adc1ca1b6180c508c25f22f9395cc780
-    log: revlist-8ddf5c2d1fb0-9abf2313adc1.txt
+  - ref: refs/heads/counter-fixes
+    old: 5273af48821a2d275562a534cae71dc085a412be
+    new: ec0286dce78c3bb0e6a665c0baade2f2db56ce00
+    log: revlist-5273af48821a-ec0286dce78c.txt
 
---===============0095700563875832716==
+--===============7970327182705785354==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-8ddf5c2d1fb0-9abf2313adc1.txt
+Content-Disposition: attachment; filename=revlist-5273af48821a-ec0286dce78c.txt
 
-bb1f11546eb3cd1e2b8ea45653eb0f530e42b035 Merge tag 'x86_asm_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-901735e51e4dea1eee816b0b57d1d6abbd94b3d5 Merge tag 'x86_misc_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 9bf445b65dd7d4c7d0e4efaecf38525abbbe74e3 Merge tag 'x86_paravirt_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 b5f0b11353a6a33a1accd0b742c80ed6b2f35ac0 Merge tag 'x86_microcode_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 193e2268a3bb1404b42f8edcc037a3eafd165aa9 Merge tag 'x86_cache_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
@@ -1050,5 +1048,7 @@ b08cd74448fafaa302ce2bc11beab5e5a55d0065 Merge tag '6.1-rc-smb3-client-fixes-par
 8636df94ec917019c4cb744ba0a1f94cf9057790 Merge tag 'perf-tools-for-v6.1-2-2022-10-16' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 f1947d7c8a61db1cb0ef909a6512ede0b1f2115b Merge tag 'random-6.1-rc1-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/crng/random
 9abf2313adc1ca1b6180c508c25f22f9395cc780 Linux 6.1-rc1
+472a1482325b3a285e0bcf82c0b0edc689b7e8cd counter: Reduce DEFINE_COUNTER_ARRAY_POLARITY() to defining counter_array
+ec0286dce78c3bb0e6a665c0baade2f2db56ce00 counter: ti-ecap-capture: fix IS_ERR() vs NULL check
 
---===============0095700563875832716==--
+--===============7970327182705785354==--
