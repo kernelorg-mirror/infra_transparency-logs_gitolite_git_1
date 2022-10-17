@@ -1,56 +1,40 @@
-Content-Type: multipart/mixed; boundary="===============6247046654296714093=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Mon, 17 Oct 2022 11:51:09 -0000
-Message-Id: <166600746974.29651.10547982562952191501@gitolite.kernel.org>
-
---===============6247046654296714093==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Mon, 17 Oct 2022 11:51:56 -0000
+Message-Id: <166600751681.30068.565770957197008120@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/master
-    old: c1c2d1f9078926ec2376629b6cb18630635ea020
-    new: 199733c21d38c8b43cdad7b9e23a4844798ca50d
-    log: |
-         199733c21d38c8b43cdad7b9e23a4844798ca50d 5.19-stable patches
-         
-
---===============6247046654296714093==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1666007468 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1666007466-8d900c26bc5cb8b9e74566240f98208b073e647a
-
-c1c2d1f9078926ec2376629b6cb18630635ea020 199733c21d38c8b43cdad7b9e23a4844798ca50d refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmNNQawbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+tqQP/3Ne7ZJMqO2vaxzprnAM
-8RnG8tZ2sR+DzdX3Twurac67w8ddeT8mFU8AVYTFRSQyG4hOfJU/K4dRodn8v/WI
-PcHZTJ8d1Ee/gDdjQY1WwvWWcvUmeQ3hRB4xdSQQTdSyj7mxv9CloAdBAC6PdXQm
-LOvuWZBRGENZ/a97vXPZeVHHkyvFHgV87KWbVGRPPuYk1/XvjAToQPIF78TesnwQ
-73sveeOJtiGXaYCobpxrlyPcsLfZjNhAN9biWHHc8gOuD4RzG8nVftXpf0LUItWj
-qx0lDVVvV3bjWzFdsXXy1RfDC2bUbDDKvOVnGNWotJ5rId4k6mHzfJXvGC/XW9Sj
-622ppNwHocZnLD08c4is0iwZMcmpfLXqWkm6JTeHkc0vcCDMaltY2kQfz8B1qd5h
-uI1/HKNQ3gNVE7tRSPz+tv3IhdM+8wfCOwZ8W7U/lthLthyeOdJOmgPcNOCm3DiB
-TCYbFJTCKBWaAMjfA7IxE+A+96Zes/IbUAWBKH8EocHmE80BYQ+DZp0L1PaOtQ+Y
-TY9CB8oFUR6SZqJY5Aa0TnWgX0nLAwfhqzB22qtMVnmMe0/jyd3/k4AnMOZ8Czdd
-2J1fhmX/aQZoGL+4KkwcTG874hIOA54U5IV0z9Bu6OEsukCKbQaCiVc6q6+TxGu1
-UcRk/sV7q9omPGKa2dYt0m8s
-=fz2D
------END PGP SIGNATURE-----
-
---===============6247046654296714093==--
+  - ref: refs/heads/20220927_shangxiaojing_asoc_use_div_round_up_instead_of_open_coding_it
+    old: 0000000000000000000000000000000000000000
+    new: 98059ddfd1ada95fc9f535ea9c08618aa44ad5d3
+  - ref: refs/heads/20220930_amadeuszx_slawinski_asoc_intel_avs_add_support_for_max98927_codec
+    old: 0000000000000000000000000000000000000000
+    new: 999ce9967a2f5a64c4bd04ae1edf0a979cf68833
+  - ref: refs/heads/file4HRjwB
+    old: 0000000000000000000000000000000000000000
+    new: 9f879fb1a7b6c964dcde96c4cca8eb4444318560
+  - ref: refs/heads/fileCaUvXr
+    old: 0000000000000000000000000000000000000000
+    new: b40af6183b685b0cf7870987b858de0d48db9ea0
+  - ref: refs/heads/fileDKTRB2
+    old: 0000000000000000000000000000000000000000
+    new: 4e12ef2b2e3f65c4fba895262363c499476848a1
+  - ref: refs/heads/v2_20221002_doug_asoc_add_devicetree_support_for_wm8961_codec
+    old: 0000000000000000000000000000000000000000
+    new: 74a6a948c8fc28c8937e24178739979b3cd2ce14
+  - ref: refs/heads/v2_20221010_cezary_rojewski_asoc_intel_avs_fixes_and_new_boards_support
+    old: 0000000000000000000000000000000000000000
+    new: 62d0cee4e6f592a8c6da9e969f404e907ae65d88
+  - ref: refs/heads/v3_20220930_chancel_liu_create_a_new_sound_card_to_access_micfil_based_on_rpmsg_channel
+    old: 0000000000000000000000000000000000000000
+    new: 4b48440ea390bada41928920446928beb3652a76
+  - ref: refs/heads/v3_20221016_lis8215_asoc_codecs_jz4725b_various_improvements_and_fixes
+    old: 0000000000000000000000000000000000000000
+    new: 4b192aa09b3c3615c79f8c60704a2efd15e500d0
