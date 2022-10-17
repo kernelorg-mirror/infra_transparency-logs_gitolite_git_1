@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9215834323384153102=="
+Content-Type: multipart/mixed; boundary="===============6200295890566833146=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
-Date: Mon, 17 Oct 2022 21:52:21 -0000
-Message-Id: <166604354178.8814.7353871560840904717@gitolite.kernel.org>
+Date: Mon, 17 Oct 2022 21:52:31 -0000
+Message-Id: <166604355161.8932.2071365082733056843@gitolite.kernel.org>
 
---===============9215834323384153102==
+--===============6200295890566833146==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/krzk/linux
 user: krzk
 changes:
-  - ref: refs/heads/next/clk
-    old: ef96c458888fa2a329b14efc7991530f645fbddb
+  - ref: refs/heads/next/defconfig
+    old: 568035b01cfb107af8d2e4bd2fb9aea22cf5b868
     new: 9abf2313adc1ca1b6180c508c25f22f9395cc780
-    log: revlist-ef96c458888f-9abf2313adc1.txt
+    log: revlist-568035b01cfb-9abf2313adc1.txt
 
---===============9215834323384153102==
+--===============6200295890566833146==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-ef96c458888f-9abf2313adc1.txt
+Content-Disposition: attachment; filename=revlist-568035b01cfb-9abf2313adc1.txt
 
 bb1f11546eb3cd1e2b8ea45653eb0f530e42b035 Merge tag 'x86_asm_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 901735e51e4dea1eee816b0b57d1d6abbd94b3d5 Merge tag 'x86_misc_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
@@ -1051,4 +1051,4 @@ b08cd74448fafaa302ce2bc11beab5e5a55d0065 Merge tag '6.1-rc-smb3-client-fixes-par
 f1947d7c8a61db1cb0ef909a6512ede0b1f2115b Merge tag 'random-6.1-rc1-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/crng/random
 9abf2313adc1ca1b6180c508c25f22f9395cc780 Linux 6.1-rc1
 
---===============9215834323384153102==--
+--===============6200295890566833146==--
