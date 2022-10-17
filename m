@@ -1,31 +1,38 @@
-Content-Type: multipart/mixed; boundary="===============8104698760338229822=="
+Content-Type: multipart/mixed; boundary="===============2142432148636680758=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Mon, 17 Oct 2022 14:09:07 -0000
-Message-Id: <166601574773.32126.15132760026654996715@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/andy/linux-gpio-intel
+Date: Mon, 17 Oct 2022 14:09:12 -0000
+Message-Id: <166601575276.32246.10623775052149310647@gitolite.kernel.org>
 
---===============8104698760338229822==
+--===============2142432148636680758==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/andy/linux-gpio-intel
+user: andy
 changes:
-  - ref: refs/heads/arm64-sve-syscall-kvm
-    old: f3c3f7c9d06e1136a61faf1522511a445f9b329a
-    new: 9e6937ba6a159976420f7c82a432b1659e4c8277
-    log: revlist-f3c3f7c9d06e-9e6937ba6a15.txt
+  - ref: refs/heads/for-next
+    old: 0ea76c401f9245ac209f1b1ce03a7e1fb9de36e5
+    new: 9abf2313adc1ca1b6180c508c25f22f9395cc780
+    log: revlist-0ea76c401f92-9abf2313adc1.txt
 
---===============8104698760338229822==
+--===============2142432148636680758==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-f3c3f7c9d06e-9e6937ba6a15.txt
+Content-Disposition: attachment; filename=revlist-0ea76c401f92-9abf2313adc1.txt
 
+bb1f11546eb3cd1e2b8ea45653eb0f530e42b035 Merge tag 'x86_asm_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+901735e51e4dea1eee816b0b57d1d6abbd94b3d5 Merge tag 'x86_misc_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+9bf445b65dd7d4c7d0e4efaecf38525abbbe74e3 Merge tag 'x86_paravirt_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+b5f0b11353a6a33a1accd0b742c80ed6b2f35ac0 Merge tag 'x86_microcode_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+193e2268a3bb1404b42f8edcc037a3eafd165aa9 Merge tag 'x86_cache_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+da4ab869e37cf81f93333ba74b16e0ea6d322e15 libceph: drop last_piece flag from ceph_msg_data_cursor
+f791357330b0043ec953ce122ab7519af4b9d24a ceph: wake up the waiters if any new caps comes
 6eb06c46214d33c71ae86d60b3fc9cb17c20beca ceph: fail the request if the peer MDS doesn't support getvxattr op
 7c3ea9870e09e193981695dd67c37a1a2b6d600b ceph: no need to wait for transition RDCACHE|RD -> RD
 aa1d627207cace003163dee24d1c06fa4e910c6b ceph: Use kcalloc for allocating multiple elements
@@ -1043,12 +1050,5 @@ b08cd74448fafaa302ce2bc11beab5e5a55d0065 Merge tag '6.1-rc-smb3-client-fixes-par
 8636df94ec917019c4cb744ba0a1f94cf9057790 Merge tag 'perf-tools-for-v6.1-2-2022-10-16' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 f1947d7c8a61db1cb0ef909a6512ede0b1f2115b Merge tag 'random-6.1-rc1-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/crng/random
 9abf2313adc1ca1b6180c508c25f22f9395cc780 Linux 6.1-rc1
-b7e45de64e9aa0f4ead78741773346e14b25301c KVM: arm64: Discard any SVE state when entering KVM guests
-19a52abc2e9b02dda3dbcede957dc1ce752dcfe6 arm64/fpsimd: Track the saved FPSIMD state type separately to TIF_SVE
-fca2594cc612c4917751b6490a60e28adb26feca arm64/fpsimd: Have KVM explicitly say which FP registers to save
-77d73765e6229a79435fc3f2c4a3247bce596d31 arm64/fpsimd: Stop using TIF_SVE to manage register saving in KVM
-2ddc0f17314dcf622a26903a0238a4415b575c55 arm64/fpsimd: Load FP state based on recorded data type
-f25656ed57f1b4fe6bd6465c86beb04a5ef4110f arm64/fpsimd: SME no longer requires SVE register state
-9e6937ba6a159976420f7c82a432b1659e4c8277 arm64/sve: Leave SVE enabled on syscall if we don't context switch
 
---===============8104698760338229822==--
+--===============2142432148636680758==--
