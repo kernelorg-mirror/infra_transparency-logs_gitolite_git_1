@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6108604075708022894=="
+Content-Type: multipart/mixed; boundary="===============7002701030677192710=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/intel
-Date: Mon, 17 Oct 2022 17:02:55 -0000
-Message-Id: <166602617581.30618.2027315692112446516@gitolite.kernel.org>
+Date: Mon, 17 Oct 2022 17:04:46 -0000
+Message-Id: <166602628614.31360.4873257237879789923@gitolite.kernel.org>
 
---===============6108604075708022894==
+--===============7002701030677192710==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,23 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/pinctrl/intel
 user: andy
 changes:
-  - ref: refs/heads/review-andy
-    old: 2ba2e3ea788235f78bb210a6715a4d802dba0bf2
+  - ref: refs/heads/for-next
+    old: 9abf2313adc1ca1b6180c508c25f22f9395cc780
     new: e6b665a1c9ae275fb8d5eeef8221df51b0065a8c
-    log: revlist-2ba2e3ea7882-e6b665a1c9ae.txt
+    log: revlist-9abf2313adc1-e6b665a1c9ae.txt
 
---===============6108604075708022894==
+--===============7002701030677192710==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2ba2e3ea7882-e6b665a1c9ae.txt
+Content-Disposition: attachment; filename=revlist-9abf2313adc1-e6b665a1c9ae.txt
 
+7084ffcb04094a134b99a6862ee173a9ea5806e9 gpio: arizona: Remove unused header(s)
+fb5088845c4997ec84825ed369026ec77e07c3e4 gpio: da9052: Remove unused header(s)
+a89c1aaee4de6236dab18032ecc9f56403ba6815 gpio: mockup: Add missing header(s)
+a62b835af200099964ceef5c8baa655933313412 gpio: pca953x: Add missing header(s)
+66f220b39b841d962c5ff34e5acadf39206bc9ee gpio: pl061: Add missing header(s)
+17ad6ebde5d0dc62e62db7ccd31fd43f8322dc21 gpio: wm8350: Remove unused header(s)
 1bc1afbacdf22b4f8782efbf11e69a5be1a0c185 gpio: tegra186: Add missing header(s)
 87d1e8523b8337b43682dae101904e442ca27f0c gpiolib: cdev: Add missing header(s)
 b540f10a7317c4c5437a1e6dc1baac6ec4510e30 gpiolib: Clean up headers
@@ -68,4 +74,4 @@ ef10e184e001578910284f225e60a78e1e059a6f pinctrl: cherryview: Add missing header
 0288f6ca95106d4f0de373a05488318b8c76017f pinctrl: intel: Add missing header(s)
 e6b665a1c9ae275fb8d5eeef8221df51b0065a8c pinctrl: Clean up headers
 
---===============6108604075708022894==--
+--===============7002701030677192710==--
