@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3147495492603506428=="
+Content-Type: multipart/mixed; boundary="===============5025883000911586240=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mnyman/xhci
-Date: Mon, 17 Oct 2022 07:10:15 -0000
-Message-Id: <166599061558.4591.15190115131722694522@gitolite.kernel.org>
+Date: Mon, 17 Oct 2022 07:12:37 -0000
+Message-Id: <166599075771.5477.17046388023326131313@gitolite.kernel.org>
 
---===============3147495492603506428==
+--===============5025883000911586240==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,18 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mnyman/xhci
 user: mnyman
 changes:
-  - ref: refs/heads/for-usb-linus
-    old: 32449d67c05f84220830b346573378f18d36e7df
-    new: cd23030ec737f4b45f2ac5aae1fc9fcd392e6f00
-    log: revlist-32449d67c05f-cd23030ec737.txt
+  - ref: refs/heads/for-usb-next
+    old: 1621b10edc82328c5dd46e91f976620eb22eecfc
+    new: f7f9e531e34c1abe49ec3bba96c66532f56d5c7a
+    log: revlist-1621b10edc82-f7f9e531e34c.txt
 
---===============3147495492603506428==
+--===============5025883000911586240==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-32449d67c05f-cd23030ec737.txt
+Content-Disposition: attachment; filename=revlist-1621b10edc82-f7f9e531e34c.txt
 
+9bf445b65dd7d4c7d0e4efaecf38525abbbe74e3 Merge tag 'x86_paravirt_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 b5f0b11353a6a33a1accd0b742c80ed6b2f35ac0 Merge tag 'x86_microcode_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 193e2268a3bb1404b42f8edcc037a3eafd165aa9 Merge tag 'x86_cache_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 da4ab869e37cf81f93333ba74b16e0ea6d322e15 libceph: drop last_piece flag from ceph_msg_data_cursor
@@ -1047,8 +1048,7 @@ b08cd74448fafaa302ce2bc11beab5e5a55d0065 Merge tag '6.1-rc-smb3-client-fixes-par
 8636df94ec917019c4cb744ba0a1f94cf9057790 Merge tag 'perf-tools-for-v6.1-2-2022-10-16' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 f1947d7c8a61db1cb0ef909a6512ede0b1f2115b Merge tag 'random-6.1-rc1-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/crng/random
 9abf2313adc1ca1b6180c508c25f22f9395cc780 Linux 6.1-rc1
-4f0feeb24b7f937f9a60723754154dc279ee91cb usb: xhci: add XHCI_SPURIOUS_SUCCESS to ASM1042 despite being a V0.96 controller
-feb0b04b09c82589af65c84398b7d3fefaa7b7ac xhci: Add quirk to reset host back to default state at shutdown
-cd23030ec737f4b45f2ac5aae1fc9fcd392e6f00 xhci-pci: Set runtime PM as default policy on all xHC 1.2 or later devices
+7480befd500ab68f45da6f77fad1f26d61ae52d0 xhci: print warning when HCE was set
+f7f9e531e34c1abe49ec3bba96c66532f56d5c7a xhci: remove unused stream_id parameter from xhci_handle_halted_endpoint()
 
---===============3147495492603506428==--
+--===============5025883000911586240==--
