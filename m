@@ -1,40 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============4116606666702264945=="
+Content-Type: multipart/mixed; boundary="===============1350790508270002003=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux
-Date: Mon, 17 Oct 2022 15:33:14 -0000
-Message-Id: <166602079411.32695.11803274808677863518@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mark/linux
+Date: Mon, 17 Oct 2022 15:33:40 -0000
+Message-Id: <166602082014.445.4596543985952841167@gitolite.kernel.org>
 
---===============4116606666702264945==
+--===============1350790508270002003==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/shuah/linux
-user: shuah
+repo: pub/scm/linux/kernel/git/mark/linux
+user: mark
 changes:
-  - ref: refs/heads/cpupower
-    old: 568035b01cfb107af8d2e4bd2fb9aea22cf5b868
-    new: 9abf2313adc1ca1b6180c508c25f22f9395cc780
-    log: revlist-568035b01cfb-9abf2313adc1.txt
+  - ref: refs/heads/arm64/undef/rework
+    old: a1124f3fa00ca3f19d288a978bff4c0002781bf4
+    new: 90db3cde7bd9808a1744681459f85593f272c6ad
+    log: revlist-a1124f3fa00c-90db3cde7bd9.txt
 
---===============4116606666702264945==
+--===============1350790508270002003==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-568035b01cfb-9abf2313adc1.txt
+Content-Disposition: attachment; filename=revlist-a1124f3fa00c-90db3cde7bd9.txt
 
-bb1f11546eb3cd1e2b8ea45653eb0f530e42b035 Merge tag 'x86_asm_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-901735e51e4dea1eee816b0b57d1d6abbd94b3d5 Merge tag 'x86_misc_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-9bf445b65dd7d4c7d0e4efaecf38525abbbe74e3 Merge tag 'x86_paravirt_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-b5f0b11353a6a33a1accd0b742c80ed6b2f35ac0 Merge tag 'x86_microcode_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-193e2268a3bb1404b42f8edcc037a3eafd165aa9 Merge tag 'x86_cache_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-da4ab869e37cf81f93333ba74b16e0ea6d322e15 libceph: drop last_piece flag from ceph_msg_data_cursor
-f791357330b0043ec953ce122ab7519af4b9d24a ceph: wake up the waiters if any new caps comes
-6eb06c46214d33c71ae86d60b3fc9cb17c20beca ceph: fail the request if the peer MDS doesn't support getvxattr op
-7c3ea9870e09e193981695dd67c37a1a2b6d600b ceph: no need to wait for transition RDCACHE|RD -> RD
 aa1d627207cace003163dee24d1c06fa4e910c6b ceph: Use kcalloc for allocating multiple elements
 b4b924c7a16e857b0715603456045251a49f2ea6 ceph: increment i_version when doing a setattr with caps
 bd04b9192e1ff6859d6b3906e91cfd5c9b0ad55b ceph: fail the open_by_handle_at() if the dentry is being unlinked
@@ -1050,5 +1041,14 @@ b08cd74448fafaa302ce2bc11beab5e5a55d0065 Merge tag '6.1-rc-smb3-client-fixes-par
 8636df94ec917019c4cb744ba0a1f94cf9057790 Merge tag 'perf-tools-for-v6.1-2-2022-10-16' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 f1947d7c8a61db1cb0ef909a6512ede0b1f2115b Merge tag 'random-6.1-rc1-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/crng/random
 9abf2313adc1ca1b6180c508c25f22f9395cc780 Linux 6.1-rc1
+218c748b5249cd8dbdc7e7d4a0d59a80da650c4e arm64: allow kprobes on EL0 handlers
+8b0dea3ea73bfdcf8e1b33a5a08952d3d1bfef08 arm64: split EL0/EL1 UNDEF handlers
+2e7fec595b937458ad4edec0e0b72ec53f98e623 arm64: factor out EL1 SSBS emulation hook
+773ee448387a344f696d50c0e8e5d22f1de52e80 arm64: factor insn read out of call_undef_hook()
+cc86befe0dba79092e1a591b611eedd1cc10680c arm64: rework EL0 MRS emulation
+3f31544695c3f387fa625f5481d09bba693f1502 arm64: armv8_deprecated: fold ops into insn_emulation
+55b767cbed0d6e482ef86ec6b1c485f66c802fcf arm64: armv8_deprecated move emulation functions
+09aef3479e4cb73a261a4d0ae972b1c451d1e49c arm64: armv8_deprecated: move aarch32 helper earlier
+90db3cde7bd9808a1744681459f85593f272c6ad arm64: armv8_deprecated: rework deprected instruction handling
 
---===============4116606666702264945==--
+--===============1350790508270002003==--
