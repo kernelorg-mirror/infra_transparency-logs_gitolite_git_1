@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9123402001182360915=="
+Content-Type: multipart/mixed; boundary="===============1896262365370320668=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Mon, 17 Oct 2022 20:14:40 -0000
-Message-Id: <166603768047.4156.10368113305865849466@gitolite.kernel.org>
+Date: Mon, 17 Oct 2022 20:14:54 -0000
+Message-Id: <166603769421.4317.15415500495471098063@gitolite.kernel.org>
 
---===============9123402001182360915==
+--===============1896262365370320668==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,47 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: 0326074ff4652329f2a1a9c8685104576bd8d131
-    new: 66ae04368efbe20eb8951c9a76158f99ce672f25
-    log: revlist-0326074ff465-66ae04368efb.txt
+  - ref: refs/heads/dev-queue
+    old: 7571a540af1e9970d87cc193bc9bb20494339a05
+    new: f6337483784734a65b6d4fe0bca8cf4cc151446a
+    log: revlist-7571a540af1e-f63374837847.txt
 
---===============9123402001182360915==
+--===============1896262365370320668==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-0326074ff465-66ae04368efb.txt
+Content-Disposition: attachment; filename=revlist-7571a540af1e-f63374837847.txt
 
-682ed08924407b719fa0b1123a26971748d76ace kasan: only define kasan_cache_create for Generic mode
-6b07434980a1926780cb5c5644fb198fb9c3997b kasan: pass tagged pointers to kasan_save_alloc/free_info
-b89933e9a54d3e7c4da081bc0b986341b62cdab6 kasan: move kasan_get_alloc/free_track definitions
-9ef08d265e3f02b3266a46f684de5741724bd7f8 kasan: cosmetic changes in report.c
-2c9fb1fd1dd0b17cf8f48935a9c3ecea066f10e8 kasan: use virt_addr_valid in kasan_addr_to_page/slab
-0f282f15dcc479b1f70ef4c2324db8a6df670fcb kasan: use kasan_addr_to_slab in print_address_description
-559756e8a2e153f0f2ddf29c0ed9ac7b88345fb6 kasan: make kasan_addr_to_page static
-a794898a0e17c1c563fcce614efbd3644d48fa2e kasan: simplify print_report
-015b109f1f7a799a51def6be37a53b650c4a8fda kasan: introduce complete_report_info
-7fae3dd08e3e88491f06e22e648913e3f8cf30f0 kasan: fill in cache and object in complete_report_info
-92a38eacd6412bb09f98245ba5b3aa89e3dd6656 kasan: rework function arguments in report.c
-59e6e098d1c156f7c449af903c3b48a5470f6120 kasan: introduce kasan_complete_mode_report_info
-7bc0584e5d2a687c0855a1b3dec9a6d6857d757b kasan: implement stack ring for tag-based modes
-7ebfce33125100e3f0c5e059845a019a1401433d kasan: support kasan.stacktrace for SW_TAGS
-80b92bfe3bb75aa6688f58af9df356757a46f659 kasan: dynamically allocate stack ring entries
-1f538e1f2d294cf8a9486fb1a7d4d4f0d16e2b01 kasan: better identify bug types for tag-based modes
-34b592ce5cc2dbd7d94812bff12ec32d3ec6f65c kasan: add another use-after-free test
-f7e01ab828fd4bf6d25b1f143a3994241e8572bf kasan: move tests to mm/kasan/
-dcc579663f607392ade99a2301278239e819f57e kasan: better invalid/double-free report header
-6a760f58c792b6f7411f886271bb03f697464433 mm/hmm/test: use char dev with struct device to get device node
-36001cba4f728e7fa2a58bc69fece22eaeef5cca mm/damon/core: iterate the regions list from current point in damon_set_regions()
-61768a1b37c664faf028d925e6b7825768afcc00 mm/damon: simplify damon_ctx check in damon_sysfs_before_terminate
-0bba9af03d55d2cc1aa7616a8b9e522ceb49d180 mm/page_owner.c: remove redundant drain_all_pages
-4f9bc69ac5ce34071a9a51343bc81ca76cb2e3f1 mm: reuse pageblock_start/end_pfn() macro
-5f7fa13fa858c17580ed513bd5e0a4b36d68fdd6 mm: add pageblock_align() macro
-ee0913c4719610204315a0d8a35122c6233249e0 mm: add pageblock_aligned() macro
-fc5dfebc8055426299739dd1a7828af9638c94fb memblock tests: add new pageblock related macro
-410f8e82689e1e66044fea51ef852054a09502b7 memcg: extract memcg_vmstats from struct mem_cgroup
-d396def5d86dbeb4ceb4a9dca92611ce206dc66a memcg: rearrange code
-8278f1c7b4920105f2f30a8df9b8212b378101d2 memcg: reduce size of memcg vmstats structures
 4e07acdda7fc23f5c4666e54961ef972a1195ffd mm/hwpoison: add __init/__exit annotations to module init/exit funcs
 679d7f69d60bbd124542e620b745c17643cdf680 mm/rodata_test: use PAGE_ALIGNED() helper
 f5a79d7c0c87c8d88bb5e3f3c898258fdf1b3b05 mm/damon: introduce struct damos_access_pattern
@@ -1050,5 +1020,35 @@ ec7eede369fe5b0d085ac51fdbb95184f87bfc6c kcm: avoid potential race in kcm_tx_wor
 aa41478a576238995c8d414ab9e0d35d1200c9fb Merge tag 'trace-v6.1-1' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 d6f04f26e25242898959b1758432e4076fabc0c0 Merge tag 'for_linus' of git://git.kernel.org/pub/scm/linux/kernel/git/mst/vhost
 66ae04368efbe20eb8951c9a76158f99ce672f25 Merge tag 'net-6.1-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
+410ca0fcb37ee318b3c9c355668e91400a693555 e1000e: Separate MTP board type from ADP
+500f8e779df60a5a1dfcc8c2cb54299222c7a5d4 ice: Add 'Execute Pending LLDP MIB' Admin Queue command
+22d6e6f7801ede26c032a36a1cc1395ec0a4ee33 ice: Handle LLDP MIB Pending change
+08bb5d8dde47f0e79a27574ae7d1e2b6150866d6 i40e: Fix ethtool rx-flow-hash setting for X722
+c0835918245a6e95f5226cd646ff009f65a94d51 ice: Support 5 layer topology
+e98913f532be7a3196730dfa3bc8728eb7f039ae ice: Adjust the VSI/Aggregator layers
+1feb9a5d6034e77bfef41fe09e8e750b0c0e2e6e ice: Enable switching default tx scheduler topology
+ac15c3e15a258a385653c14cbfd290f49a31cf28 ice: Add txbalancing devlink param
+dd77e8d21734bd16e3485a6e630245aa148a87b9 ice: Document txbalancing parameter
+f60fd4a02263b5e912e59d9b859bc86f8899dd3d i40e: Add appropriate error message logged for incorrect duplex setting
+e06fcaff2eb6a7abd4d301fea12fec43199cd2b5 ice: Add GPIO pin support for E823 products
+b729c78a3a0230942e2d29c120adbb721f94dc4d e1000: Remove unnecessary use of kmap_atomic()
+80d67fe02f6f0f0089c5695cfc946344dcbd694f e1000e: Add e1000e trace module
+aa8f816d3bdfd6616dc75ac0ae4740e4ee4fd1c6 ice: Add crosstimestamping on E823 devices
+89f3531047122d7fbea11842ffb1d42669eb4091 ixgbe: Remove local variable
+e78a6cdf43b0636e991278aead53b1bccfc76279 e1000e: Add support for the next LOM generation
+201afe7fbce064033c3ed0be1068a08320fb4655 ice: use GNSS subsystem instead of TTY
+92f65e47308aa3da883e1e85779b46faa0ff5c8e e1000e: Remove unnecessary use of kmap_atomic()
+6bce24271df57e20dbc493fb5fab373ff9c55011 i40e: Fix VF hang when reset is triggered on another VF
+1b62981bba1424f11364acb7b94dcea229e58f45 i40e: Fix flow-type by setting GL_HASH_INSET registers
+e2ab4620bd93047e6570f909214a0732e2e78667 igc: Correct the launchtime offset
+f2c831b69ff63320e7bd5fda40c8f1bb99d081b2 ixgbevf: Add error messages on vlan error
+3da630393805f65f9c6abf5a8c9426714315cef8 ice: Fix spurious interrupt during removal of trusted VF
+468fc3fb4b18bd0e28428b5591061c71d959e93c i40e: Fix DMA mappings leak
+24823910b24cdfcc4874dad286cf9846eb6d4984 i40e: Store the irq number in i40e_q_vector
+b364b35d9238754fe7088d52f285e3b07781c6fe i40e: Record number TXes cleaned during NAPI
+4ad7c99f998208c681f0f1df4fefb5597e56c9bf i40e: Record number of RXes cleaned during NAPI
+67dabd024b22e4ddf42278c127c435c25c6d585d i40e: Add i40e_napi_poll tracepoint
+ff44759921593b9a0178e534eb39a5b7dd8eab7b ice: Accumulate HW and Netdev statistics over reset
+f6337483784734a65b6d4fe0bca8cf4cc151446a ice: Accumulate ring statistics over reset
 
---===============9123402001182360915==--
+--===============1896262365370320668==--
