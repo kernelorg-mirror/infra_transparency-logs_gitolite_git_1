@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4151574996628548919=="
+Content-Type: multipart/mixed; boundary="===============7231944676311237202=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andy/linux-gpio-intel
-Date: Mon, 17 Oct 2022 14:09:19 -0000
-Message-Id: <166601575939.32349.16668857205110949201@gitolite.kernel.org>
+Date: Mon, 17 Oct 2022 14:09:25 -0000
+Message-Id: <166601576557.32430.2366770156638059086@gitolite.kernel.org>
 
---===============4151574996628548919==
+--===============7231944676311237202==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andy/linux-gpio-intel
 user: andy
 changes:
-  - ref: refs/heads/fixes
-    old: 568035b01cfb107af8d2e4bd2fb9aea22cf5b868
+  - ref: refs/heads/review-andy
+    old: 0ea76c401f9245ac209f1b1ce03a7e1fb9de36e5
     new: 9abf2313adc1ca1b6180c508c25f22f9395cc780
-    log: revlist-568035b01cfb-9abf2313adc1.txt
+    log: revlist-0ea76c401f92-9abf2313adc1.txt
 
---===============4151574996628548919==
+--===============7231944676311237202==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-568035b01cfb-9abf2313adc1.txt
+Content-Disposition: attachment; filename=revlist-0ea76c401f92-9abf2313adc1.txt
 
 bb1f11546eb3cd1e2b8ea45653eb0f530e42b035 Merge tag 'x86_asm_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 901735e51e4dea1eee816b0b57d1d6abbd94b3d5 Merge tag 'x86_misc_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
@@ -1051,4 +1051,4 @@ b08cd74448fafaa302ce2bc11beab5e5a55d0065 Merge tag '6.1-rc-smb3-client-fixes-par
 f1947d7c8a61db1cb0ef909a6512ede0b1f2115b Merge tag 'random-6.1-rc1-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/crng/random
 9abf2313adc1ca1b6180c508c25f22f9395cc780 Linux 6.1-rc1
 
---===============4151574996628548919==--
+--===============7231944676311237202==--
