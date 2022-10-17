@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1136883125421741516=="
+Content-Type: multipart/mixed; boundary="===============4973208124094420127=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Mon, 17 Oct 2022 08:49:50 -0000
-Message-Id: <166599659098.8727.3501045534900757442@gitolite.kernel.org>
+Date: Mon, 17 Oct 2022 08:50:03 -0000
+Message-Id: <166599660399.10300.8185460044023013180@gitolite.kernel.org>
 
---===============1136883125421741516==
+--===============4973208124094420127==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,75 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/x86/core
-    old: 8c03af3e090e9d57d90f482d344563dd4bae1e66
-    new: 5ef5ecc457b1919286562b0ebd2d699fcc51402b
-    log: revlist-8c03af3e090e-5ef5ecc457b1.txt
+  - ref: refs/heads/sched/urgent
+    old: dcf8e5633e2e69ad60b730ab5905608b756a032f
+    new: 5b137dcfeb9697831a4d24ece0c4a0d886adf0a0
+    log: revlist-dcf8e5633e2e-5b137dcfeb96.txt
 
---===============1136883125421741516==
+--===============4973208124094420127==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-8c03af3e090e-5ef5ecc457b1.txt
+Content-Disposition: attachment; filename=revlist-dcf8e5633e2e-5b137dcfeb96.txt
 
+9bf445b65dd7d4c7d0e4efaecf38525abbbe74e3 Merge tag 'x86_paravirt_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+b5f0b11353a6a33a1accd0b742c80ed6b2f35ac0 Merge tag 'x86_microcode_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+193e2268a3bb1404b42f8edcc037a3eafd165aa9 Merge tag 'x86_cache_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+da4ab869e37cf81f93333ba74b16e0ea6d322e15 libceph: drop last_piece flag from ceph_msg_data_cursor
+f791357330b0043ec953ce122ab7519af4b9d24a ceph: wake up the waiters if any new caps comes
+6eb06c46214d33c71ae86d60b3fc9cb17c20beca ceph: fail the request if the peer MDS doesn't support getvxattr op
+7c3ea9870e09e193981695dd67c37a1a2b6d600b ceph: no need to wait for transition RDCACHE|RD -> RD
+aa1d627207cace003163dee24d1c06fa4e910c6b ceph: Use kcalloc for allocating multiple elements
+b4b924c7a16e857b0715603456045251a49f2ea6 ceph: increment i_version when doing a setattr with caps
+bd04b9192e1ff6859d6b3906e91cfd5c9b0ad55b ceph: fail the open_by_handle_at() if the dentry is being unlinked
+aa87052dd965a6094355fcc13d5abc3f5bebfbe4 ceph: fix incorrectly showing the .snap size for stat
+71cf0c1c4f9f8e42c84ca53a5ca7091e4eea7f6a ceph: remove Sage's git tree from documentation
+a76d550f761d4f1b0a0e2faa27af122e51904b86 clk: qcom: gcc-sm6375: Remove unused variables
+3eba620e7bd772a0c7dc91966cb107872b54a910 Merge tag 'x86_cleanups_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+39bc9b589ea3d2750a6fec6409cd7fc687bc99fe clk: qcom: gcc-sm6375: Ensure unsigned long type
+49f4c2d101bbf93c62e3fa58e666f71352c54121 Merge branches 'clk-ofnode', 'clk-bindings', 'clk-cleanup', 'clk-zynq' and 'clk-xilinx' into clk-next
+a64b79c01c2836ddd8e1eb7c8173b44c3e66f999 Merge branches 'clk-samsung', 'clk-mtk', 'clk-rm', 'clk-ast' and 'clk-qcom' into clk-next
+26bebbfed5bd06fd7202fd1befa6c2c935a593e8 Merge branches 'clk-rockchip', 'clk-renesas', 'clk-microchip', 'clk-allwinner' and 'clk-imx' into clk-next
+b7f257ceb3c88ee3e2c6b0d1db703c818d3971f1 Merge branches 'clk-fixed-rate', 'clk-spreadtrum', 'clk-pxa' and 'clk-ti' into clk-next
+f9efefdba95a5110a1346bb03acdd8ff3cdf557f Merge branches 'clk-baikal', 'clk-broadcom', 'clk-vc5' and 'clk-versaclock' into clk-next
+c645c11a2dba116bad3ee43e08e330db8f03ede6 Merge tag 'audit-pr-20221003' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/audit
+98828955971363e838149105c268b1fad905f15b drm/i915/gvt: fix a memory leak in intel_gvt_init_vgpu_types
+1aa3834f510c9d9206ce4d40aff4903b0c016761 drm/i915/gvt: simplify vgpu configuration management
+bdef2b7896df293736330eb6eb0f43947049b828 vfio/mdev: make mdev.h standalone includable
+89345d5177aa0f6d678251e1e0870b0eeb1ab510 vfio/mdev: embedd struct mdev_parent in the parent data structure
+da44c340c4fe9d9653ae84fa6a60f406bafcffce vfio/mdev: simplify mdev_type handling
+cbf3bb28aaeaee425ca7b9c537a3efff1f8c98ae vfio/mdev: remove mdev_from_dev
+2815fe149ffa8e1a022b2830ab62999135c00a4e vfio/mdev: unexport mdev_bus_type
+062e720cd209d8091c4f3d118d93973f02209aca vfio/mdev: remove mdev_parent_dev
+c7c1f38f6cba7e3249866c06639ea62755f0a24e vfio/mdev: remove mtype_get_parent_dev
+290aac5df88a83e264b3a73ec146e5e5b3c45793 vfio/mdev: consolidate all the device_api sysfs into the core code
+0bc79069ccbdbe26492493dd0c4e38b7cadf8ad5 vfio/mdev: consolidate all the name sysfs into the core code
+f2fbc72e6da4f8e01fe5fe3d6871a791e76271c3 vfio/mdev: consolidate all the available_instance sysfs into the core code
+685a1537f4c603cfcaf4b9be56ff6a571f7ddd08 vfio/mdev: consolidate all the description sysfs into the core code
+9c799c224d6ebc5be51065bd3217a2d7eea23b8f vfio/mdev: add mdev available instance checking to the core
+912b74d26c7df2da1e261f3dac8942c8cbb76a49 vfio: Remove the vfio_group->users and users_comp
+c82e81ab2569559ad873b3061217c2f37560682b vfio: Change vfio_group->group_rwsem to a mutex
+522667b24f08009591c90e75bfe2ffb67f555498 Merge tag 'landlock-6.1-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/mic/linux
+34e1ed189fab1b7533befb266b96051104c1deb6 PM: Improve EXPORT_*_DEV_PM_OPS macros
+c5129ecc12a3101555d8922b1e0aa90f91247ab6 x86/mm: Ease W^X enforcement back to just a warning
+e623715f3d67ad10985b2c10cf7edd9ad85db372 RISC-V: Increase range and default value of NR_CPUS
+280dfeae56e6fbfff21cfece356379e318ae10fe f2fs: return the tmp_ptr directly in __bitmap_ptr
+173cdf2c32b4b02474006d87648383244c0a6db9 f2fs: use COMPRESS_MAPPING to get compress cache mapping
+9b7eadd9bd3a0cc24533a23d83c46430a0ea60ff f2fs: fix wrong dirty page count when race between mmap and fallocate.
+d382e36970ecf8242921400db2afde15fb6ed49e f2fs: fix typo
+049ea86cb5c7212a6e7e617a67fe686f9b0b0669 f2fs: add static init_idisk_time function to reduce the code
+9df6d6f9be4754da96d3c91ec518ed974e6b81e7 f2fs: remove redundant check in f2fs_sanity_check_cluster
+07725adc55c0a414c10acb5c8c86cea34b95ddef f2fs: fix race condition on setting FI_NO_EXTENT flag
+f3b23c785aa5d1920f479533f1d7361c2feceea5 f2fs: let FI_OPU_WRITE override FADVISE_COLD_BIT
+0ef4ca04a3f9223ff8bc440041c524b2123e09a3 f2fs: fix to do sanity check on destination blkaddr during recovery
+1e8a9191ccc286bbbfc1f9dccd31ac3bc9ec8a3f f2fs: port to vfs{g,u}id_t and associated helpers
+c6ad7fd16657ebd34a87a97d9588195aae87597d f2fs: fix to do sanity check on summary info
+a834aa3ec95b0d1a465854b27016eec1af2f0e1f f2fs: add "c_len" into trace_f2fs_update_extent_tree_range for compressed file
+544b53dadc208278fd0796f2c22ea24a3fe16564 f2fs: code clean and fix a type error
+d80afefb17e01aa0c46a8eebc01882e0ebd8b0f6 f2fs: fix to account FS_CP_DATA_IO correctly
+fcc2d8cc96b2f6141bbbe5b1e8953db990794b44 f2fs: fix to detect corrupted meta ino
+718693c84d8f4b235d030c377258f12f38a71c67 f2fs: introduce cp_status sysfs entry
+ca7efd71c3dffd5442b448dd553a903425222597 f2fs: remove the unnecessary check in f2fs_xattr_fiemap
 a9cfee0ef98e99c8b1951dfd1d57a88580354d0d f2fs: support recording stop_checkpoint reason into super_block
 95fa90c9e5a7f14c2497d5b032544478c9377c3a f2fs: support recording errors into superblock
 0326074ff4652329f2a1a9c8685104576bd8d131 Merge tag 'net-next-6.1' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net-next
@@ -990,65 +1048,7 @@ b08cd74448fafaa302ce2bc11beab5e5a55d0065 Merge tag '6.1-rc-smb3-client-fixes-par
 8636df94ec917019c4cb744ba0a1f94cf9057790 Merge tag 'perf-tools-for-v6.1-2-2022-10-16' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 f1947d7c8a61db1cb0ef909a6512ede0b1f2115b Merge tag 'random-6.1-rc1-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/crng/random
 9abf2313adc1ca1b6180c508c25f22f9395cc780 Linux 6.1-rc1
-29268eb6090b920f1e1012bd1dd45b95f0d96197 x86/cpu: Remove segment load from switch_to_new_gdt()
-ded300174532b64779f5445a4a41efc010ab40ca x86/cpu: Get rid of redundant switch_to_new_gdt() invocations
-87298eeaafbcc90c1fb74baf61a8ff6dcd79d8b1 x86/cpu: Re-enable stackprotector
-f0f4ac9f36c285c4201d6b11e336cef930c2a32a x86/modules: Set VM_FLUSH_RESET_PERMS in module_alloc()
-9753f07d4312338a544cbd5f9afc625edd235d35 x86/vdso: Ensure all kernel code is seen by objtool
-5d37a4c31d610906a7cb6ceb72c02722b65d79f8 x86: Sanitize linker script
-be2eac3a6ce6f263570dd72bf75635bb99a98c43 arch: Introduce CONFIG_FUNCTION_ALIGNMENT
-0e5ed5446e2de1d4a0543abdbaa1a842261ccfd9 x86/asm: Differentiate between code and function alignment
-8ea7fe0b8bc818b3a9657531864177a000c2f046 x86/error_inject: Align function properly
-a7c90f2c982fbb84c16975484acc0cc5aa8dd24f x86/paravirt: Properly align PV functions
-bff5c04d07e77649d4d9eb74f6eaa9ac64921608 x86/entry: Align SYM_CODE_START() variants
-d9378662bf3d367fc53afeafcdc5df54bd40caa4 crypto: x86/camellia: Remove redundant alignments
-ae54303cbbfde8aa1b82ef83f5096252f2a4600c crypto: x86/cast5: Remove redundant alignments
-11779ba2f4b53ab62212e942bfbaebb9233d0223 crypto: x86/crct10dif-pcl: Remove redundant alignments
-3736c49e239921c409fec59ab4e4b95794394181 crypto: x86/serpent: Remove redundant alignments
-385bb8eb0bfeafac084a232c30e0d8efd9bb7700 crypto: x86/sha1: Remove custom alignments
-38c65ca5449ce9f43bf09f8264c054c647eadbb5 crypto: x86/sha256: Remove custom alignments
-f9894a755bfe91b6bdbb26e4d830e0595cdc9e8e crypto: x86/sm[34]: Remove redundant alignments
-3e86b4ff0eaad390510b847afdeeffda40e29ab7 crypto: twofish: Remove redundant alignments
-4483564c87a4dec504df3255408ab64b86b7b762 crypto: x86/poly1305: Remove custom function alignment
-87eaefa67267a7f6f3392edb31ad4b716dafaaee x86: Put hot per CPU variables into a struct
-06e9254e19e169633479d14f2c58bb54ed646147 x86/percpu: Move preempt_count next to current_task
-8dec26ee6b8180155b2c890b7dbaf6d4c4509a64 x86/percpu: Move cpu_number next to current_task
-d6b506f5f31b08e7459955b6b5ec9debcb888d07 x86/percpu: Move current_top_of_stack next to current_task
-25ece3818f9fd48dc06202efbbd3543dc216bf49 x86/percpu: Move irq_stack variables next to current_task
-6fdc29f9b76bf771df4f1422158b6d396d534375 x86/softirq: Move softirq pending next to current task
-5c4d92ef9a926f50fac0658a19d71b9cdb0867cd x86: Fixup asm-offsets duplicate
-0ebe227362e67d797299509bdb67ebf4cf9e288c objtool: Allow !PC relative relocations
-b0b6a8bf4d930b1bb18a3272c88ac688b7ad90ac objtool: Track init section
-d6458fffa5837a5285d29d507de293a4e85d57d8 objtool: Add .call_sites section
-9334191024576f305579349fe5bb912256aec105 objtool: Add --hacks=skylake
-c531079cf41c5063a322fe138e53b02f62f21b70 objtool: Fix find_{symbol,func}_containing()
-7c60ea2f19ac624e680b958552987c610d20206e objtool: Allow symbol range comparisons for IBT/ENDBR
-8314696d63014a8e3c4be62b5c991eb35f7efdc9 objtool: Rework instruction -> symbol mapping
-a78c9c5f137e643950e08daa943fd5e71c31ba0e objtool: Allow STT_NOTYPE -> STT_FUNC+0 sibling-calls
-c63722c6aa834fbdda766d1e36550a1d6ddd83c1 x86/entry: Make sync_regs() invocation a tail call
-6b5878f050f84ee1efd3ed5fa8833b3574e43843 x86/putuser: Provide room for padding
-fc140c04ae1918443f62b6bc36c9bc1b18afb807 x86/Kconfig: Add CONFIG_CALL_THUNKS
-457116d93398d1d8d54f81ec18f3d8e8038357c1 x86/Kconfig: Introduce function padding
-cbb1838af5b46f144898ee85307ce737461b7942 x86/retbleed: Add X86_FEATURE_CALL_DEPTH
-063109240f64ff2f34132ba5dc230c3d52eaaf95 x86/alternatives: Provide text_poke_copy_locked()
-62f9bcd0918f7e361a51930c37a645845b86921a x86/entry: Make some entry symbols global
-59f7f9dbbc9d3f9c53efa52e23132f475e528987 x86/paravirt: Make struct paravirt_call_site unconditionally available
-8fa822000d0beae6a85955d2c73454c70b6f2ca4 x86/callthunks: Add call patching for call depth tracking
-050cae3e603ccf11984fe5bc627a6819c34670d7 x86/modules: Add call patching
-e9cca08db8b9ca85a059da768cfad045e688fcd7 x86/returnthunk: Allow different return thunks
-543209a5149e584e418d9e32c083702ad690d030 x86/asm: Provide ALTERNATIVE_3
-bd513d4ed301250b2a40c0841bfa8a982b15af8b x86/retbleed: Add SKL return thunk
-ab32ef562910da97907f146e6c500e0f3607f9f5 x86/retpoline: Add SKL retthunk retpolines
-8b9b9d509890c511ba42f457606bc5abf1f63ad3 x86/retbleed: Add SKL call thunk
-e34da24141ffd2ac860eeb8cbf51fb831567ee7d x86/calldepth: Add ret/call counting for debug
-823b69414c9e1bf54abe34e270391cdb0315716b static_call: Add call depth tracking support
-f1b8f63a76e1f6d3ff0305319dfee2f7202ebe73 kallsyms: Take callthunks into account
-6faea3c8eec02972a581b4cfb393ee4d38ad3924 x86/orc: Make it callthunk aware
-848eedaa044b6bc6a5e9c22de5cb370035704750 x86/bpf: Emit call depth accounting if required
-93e3789c45a3e26d90a6c97963de6768832f137d x86/ftrace: Remove ftrace_epilogue()
-f22aa7f4461f7fafbd3062175cc445b45cbd9317 x86/ftrace: Rebalance RSB
-ff2608eb081adba65e719b9191fba4c2ab184dfc x86/ftrace: Make it call depth tracking aware
-67e73ed3a58087b93b4f9373548b5baf26dff06a x86/retbleed: Add call depth tracking mitigation
-5ef5ecc457b1919286562b0ebd2d699fcc51402b x86/bugs: Add retbleed=force
+2a69264d0cace7544566797eecb2399e2efa78d3 sched/core: Fix the bug that traversal in sched_group_cookie_match is wrong
+5b137dcfeb9697831a4d24ece0c4a0d886adf0a0 sched: Introduce struct balance_callback to avoid CFI mismatches
 
---===============1136883125421741516==--
+--===============4973208124094420127==--
