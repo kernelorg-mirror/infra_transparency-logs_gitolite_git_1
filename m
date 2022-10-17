@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4973208124094420127=="
+Content-Type: multipart/mixed; boundary="===============0767803777285197021=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Mon, 17 Oct 2022 08:50:03 -0000
-Message-Id: <166599660399.10300.8185460044023013180@gitolite.kernel.org>
+Date: Mon, 17 Oct 2022 08:50:16 -0000
+Message-Id: <166599661619.10537.15332281811948706030@gitolite.kernel.org>
 
---===============4973208124094420127==
+--===============0767803777285197021==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,18 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/sched/urgent
-    old: dcf8e5633e2e69ad60b730ab5905608b756a032f
-    new: 5b137dcfeb9697831a4d24ece0c4a0d886adf0a0
-    log: revlist-dcf8e5633e2e-5b137dcfeb96.txt
+  - ref: refs/heads/perf/urgent
+    old: 6b959ba22d34ca793ffdb15b5715457c78e38b1a
+    new: fa336e7cde246d24066f43d09d2fa981ab6ea397
+    log: revlist-6b959ba22d34-fa336e7cde24.txt
 
---===============4973208124094420127==
+--===============0767803777285197021==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-dcf8e5633e2e-5b137dcfeb96.txt
+Content-Disposition: attachment; filename=revlist-6b959ba22d34-fa336e7cde24.txt
 
-9bf445b65dd7d4c7d0e4efaecf38525abbbe74e3 Merge tag 'x86_paravirt_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 b5f0b11353a6a33a1accd0b742c80ed6b2f35ac0 Merge tag 'x86_microcode_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 193e2268a3bb1404b42f8edcc037a3eafd165aa9 Merge tag 'x86_cache_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 da4ab869e37cf81f93333ba74b16e0ea6d322e15 libceph: drop last_piece flag from ceph_msg_data_cursor
@@ -1048,7 +1047,8 @@ b08cd74448fafaa302ce2bc11beab5e5a55d0065 Merge tag '6.1-rc-smb3-client-fixes-par
 8636df94ec917019c4cb744ba0a1f94cf9057790 Merge tag 'perf-tools-for-v6.1-2-2022-10-16' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 f1947d7c8a61db1cb0ef909a6512ede0b1f2115b Merge tag 'random-6.1-rc1-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/crng/random
 9abf2313adc1ca1b6180c508c25f22f9395cc780 Linux 6.1-rc1
-2a69264d0cace7544566797eecb2399e2efa78d3 sched/core: Fix the bug that traversal in sched_group_cookie_match is wrong
-5b137dcfeb9697831a4d24ece0c4a0d886adf0a0 sched: Introduce struct balance_callback to avoid CFI mismatches
+5fbf1407c2d72386195e8f033ffd1e1e9e43cf8a perf: Fix missing SIGTRAPs
+56d186a4262d14748275e577648836a79274bedc selftests/perf_events: Add a SIGTRAP stress test with disables
+fa336e7cde246d24066f43d09d2fa981ab6ea397 bpf: fix sample_flags for bpf_perf_event_output
 
---===============4973208124094420127==--
+--===============0767803777285197021==--
