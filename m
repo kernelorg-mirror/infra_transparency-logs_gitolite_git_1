@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============1093551844354686132=="
+Content-Type: multipart/mixed; boundary="===============0200308079930298408=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/audit
-Date: Mon, 17 Oct 2022 18:03:56 -0000
-Message-Id: <166602983670.8898.17839506201109125611@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/selinux
+Date: Mon, 17 Oct 2022 18:04:03 -0000
+Message-Id: <166602984361.8992.10616025303017718219@gitolite.kernel.org>
 
---===============1093551844354686132==
+--===============0200308079930298408==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pcmoore/audit
+repo: pub/scm/linux/kernel/git/pcmoore/selinux
 user: pcmoore
 changes:
   - ref: refs/heads/stable-6.1
-    old: 934f70d9d498a7fffd611edf48356698f1d72e91
+    old: 2fe2fb4ce60be9005d7bfdd5665be03b8efb5b13
     new: 9abf2313adc1ca1b6180c508c25f22f9395cc780
-    log: revlist-934f70d9d498-9abf2313adc1.txt
+    log: revlist-2fe2fb4ce60b-9abf2313adc1.txt
 
---===============1093551844354686132==
+--===============0200308079930298408==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-934f70d9d498-9abf2313adc1.txt
+Content-Disposition: attachment; filename=revlist-2fe2fb4ce60b-9abf2313adc1.txt
 
 bb1f11546eb3cd1e2b8ea45653eb0f530e42b035 Merge tag 'x86_asm_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 901735e51e4dea1eee816b0b57d1d6abbd94b3d5 Merge tag 'x86_misc_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
@@ -1051,4 +1051,4 @@ b08cd74448fafaa302ce2bc11beab5e5a55d0065 Merge tag '6.1-rc-smb3-client-fixes-par
 f1947d7c8a61db1cb0ef909a6512ede0b1f2115b Merge tag 'random-6.1-rc1-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/crng/random
 9abf2313adc1ca1b6180c508c25f22f9395cc780 Linux 6.1-rc1
 
---===============1093551844354686132==--
+--===============0200308079930298408==--
