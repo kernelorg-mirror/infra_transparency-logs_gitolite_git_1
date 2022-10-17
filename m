@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============4756880316216780314=="
+Content-Type: multipart/mixed; boundary="===============8635240813741413294=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
-Date: Mon, 17 Oct 2022 21:52:41 -0000
-Message-Id: <166604356134.9113.9730877225313932590@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/samsung
+Date: Mon, 17 Oct 2022 21:52:43 -0000
+Message-Id: <166604356312.9225.2799637090125602191@gitolite.kernel.org>
 
---===============4756880316216780314==
+--===============8635240813741413294==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux
+repo: pub/scm/linux/kernel/git/pinctrl/samsung
 user: krzk
 changes:
-  - ref: refs/heads/next/dt64
-    old: dfce69c8520592f1a20619050e6ded6275e9f25f
+  - ref: refs/heads/fixes
+    old: 568035b01cfb107af8d2e4bd2fb9aea22cf5b868
     new: 9abf2313adc1ca1b6180c508c25f22f9395cc780
-    log: revlist-dfce69c85205-9abf2313adc1.txt
+    log: revlist-568035b01cfb-9abf2313adc1.txt
 
---===============4756880316216780314==
+--===============8635240813741413294==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-dfce69c85205-9abf2313adc1.txt
+Content-Disposition: attachment; filename=revlist-568035b01cfb-9abf2313adc1.txt
 
 bb1f11546eb3cd1e2b8ea45653eb0f530e42b035 Merge tag 'x86_asm_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 901735e51e4dea1eee816b0b57d1d6abbd94b3d5 Merge tag 'x86_misc_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
@@ -1051,4 +1051,4 @@ b08cd74448fafaa302ce2bc11beab5e5a55d0065 Merge tag '6.1-rc-smb3-client-fixes-par
 f1947d7c8a61db1cb0ef909a6512ede0b1f2115b Merge tag 'random-6.1-rc1-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/crng/random
 9abf2313adc1ca1b6180c508c25f22f9395cc780 Linux 6.1-rc1
 
---===============4756880316216780314==--
+--===============8635240813741413294==--
