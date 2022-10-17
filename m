@@ -1,35 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============7281974316433297327=="
+Content-Type: multipart/mixed; boundary="===============4142895991468979160=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
-Date: Mon, 17 Oct 2022 15:17:40 -0000
-Message-Id: <166601986002.21901.14999229928586789109@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ras/ras
+Date: Mon, 17 Oct 2022 15:17:51 -0000
+Message-Id: <166601987144.22058.11783563898971471070@gitolite.kernel.org>
 
---===============7281974316433297327==
+--===============4142895991468979160==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/amlogic/linux
-user: narmstrong
+repo: pub/scm/linux/kernel/git/ras/ras
+user: bp
 changes:
-  - ref: refs/heads/master
-    old: 4fe89d07dcc2804c8b562f6c7896a45643d34b2f
-    new: 9abf2313adc1ca1b6180c508c25f22f9395cc780
-    log: revlist-4fe89d07dcc2-9abf2313adc1.txt
-  - ref: refs/tags/v6.1-rc1
-    old: 0000000000000000000000000000000000000000
-    new: e0e492cebef25c13fc29b174f01b5178662f1652
+  - ref: refs/heads/edac-for-next
+    old: 2918a251f847720edb4ed89233ae66fec6b6ff4c
+    new: 7556419180a304b9999c2c33162aec3da2d0deb9
+    log: revlist-2918a251f847-7556419180a3.txt
 
---===============7281974316433297327==
+--===============4142895991468979160==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-4fe89d07dcc2-9abf2313adc1.txt
+Content-Disposition: attachment; filename=revlist-2918a251f847-7556419180a3.txt
 
-bb1f11546eb3cd1e2b8ea45653eb0f530e42b035 Merge tag 'x86_asm_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 901735e51e4dea1eee816b0b57d1d6abbd94b3d5 Merge tag 'x86_misc_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 9bf445b65dd7d4c7d0e4efaecf38525abbbe74e3 Merge tag 'x86_paravirt_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 b5f0b11353a6a33a1accd0b742c80ed6b2f35ac0 Merge tag 'x86_microcode_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
@@ -1053,5 +1049,6 @@ b08cd74448fafaa302ce2bc11beab5e5a55d0065 Merge tag '6.1-rc-smb3-client-fixes-par
 8636df94ec917019c4cb744ba0a1f94cf9057790 Merge tag 'perf-tools-for-v6.1-2-2022-10-16' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 f1947d7c8a61db1cb0ef909a6512ede0b1f2115b Merge tag 'random-6.1-rc1-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/crng/random
 9abf2313adc1ca1b6180c508c25f22f9395cc780 Linux 6.1-rc1
+7556419180a304b9999c2c33162aec3da2d0deb9 EDAC/i5000: Mark as BROKEN
 
---===============7281974316433297327==--
+--===============4142895991468979160==--
