@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============2431348566812451335=="
+Content-Type: multipart/mixed; boundary="===============3689762030276204096=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/samsung
-Date: Mon, 17 Oct 2022 16:42:41 -0000
-Message-Id: <166602496188.15734.5763324932141148868@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
+Date: Mon, 17 Oct 2022 16:42:51 -0000
+Message-Id: <166602497127.15841.10080526039396199488@gitolite.kernel.org>
 
---===============2431348566812451335==
+--===============3689762030276204096==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pinctrl/samsung
+repo: pub/scm/linux/kernel/git/krzk/linux
 user: krzk
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: 9abf2313adc1ca1b6180c508c25f22f9395cc780
     log: revlist-4fe89d07dcc2-9abf2313adc1.txt
 
---===============2431348566812451335==
+--===============3689762030276204096==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ b08cd74448fafaa302ce2bc11beab5e5a55d0065 Merge tag '6.1-rc-smb3-client-fixes-par
 f1947d7c8a61db1cb0ef909a6512ede0b1f2115b Merge tag 'random-6.1-rc1-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/crng/random
 9abf2313adc1ca1b6180c508c25f22f9395cc780 Linux 6.1-rc1
 
---===============2431348566812451335==--
+--===============3689762030276204096==--
