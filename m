@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4977133889336318471=="
+Content-Type: multipart/mixed; boundary="===============3519531275268096192=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Mon, 17 Oct 2022 07:45:12 -0000
-Message-Id: <166599271233.29108.17565217908612408390@gitolite.kernel.org>
+Date: Mon, 17 Oct 2022 07:47:37 -0000
+Message-Id: <166599285766.29983.14571422804296240381@gitolite.kernel.org>
 
---===============4977133889336318471==
+--===============3519531275268096192==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/brgl/linux
 user: brgl
 changes:
-  - ref: refs/heads/master
-    old: 568035b01cfb107af8d2e4bd2fb9aea22cf5b868
-    new: 9abf2313adc1ca1b6180c508c25f22f9395cc780
-    log: revlist-568035b01cfb-9abf2313adc1.txt
+  - ref: refs/heads/davinci/for-next
+    old: ed61629e4a165adac7a68f8ee5f717f4f1fefe5b
+    new: 53ad523ac43500bc1ab3f8c4d757715a29885a13
+    log: revlist-ed61629e4a16-53ad523ac435.txt
 
---===============4977133889336318471==
+--===============3519531275268096192==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-568035b01cfb-9abf2313adc1.txt
+Content-Disposition: attachment; filename=revlist-ed61629e4a16-53ad523ac435.txt
 
-bb1f11546eb3cd1e2b8ea45653eb0f530e42b035 Merge tag 'x86_asm_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-901735e51e4dea1eee816b0b57d1d6abbd94b3d5 Merge tag 'x86_misc_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 9bf445b65dd7d4c7d0e4efaecf38525abbbe74e3 Merge tag 'x86_paravirt_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 b5f0b11353a6a33a1accd0b742c80ed6b2f35ac0 Merge tag 'x86_microcode_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 193e2268a3bb1404b42f8edcc037a3eafd165aa9 Merge tag 'x86_cache_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
@@ -1050,5 +1048,7 @@ b08cd74448fafaa302ce2bc11beab5e5a55d0065 Merge tag '6.1-rc-smb3-client-fixes-par
 8636df94ec917019c4cb744ba0a1f94cf9057790 Merge tag 'perf-tools-for-v6.1-2-2022-10-16' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 f1947d7c8a61db1cb0ef909a6512ede0b1f2115b Merge tag 'random-6.1-rc1-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/crng/random
 9abf2313adc1ca1b6180c508c25f22f9395cc780 Linux 6.1-rc1
+5c901bc36a71cac5b32f9b13ba517918241de37e MAINTAINERS: make me the maintainer of DaVinci platforms
+53ad523ac43500bc1ab3f8c4d757715a29885a13 ARM: davinci: fix repeated words in comments
 
---===============4977133889336318471==--
+--===============3519531275268096192==--
