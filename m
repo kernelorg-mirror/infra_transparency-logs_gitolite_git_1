@@ -1,31 +1,59 @@
-Content-Type: multipart/mixed; boundary="===============5072559168263627272=="
+Content-Type: multipart/mixed; boundary="===============8692702957090525633=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-drivers
-Date: Mon, 17 Oct 2022 14:19:08 -0000
-Message-Id: <166601634835.7365.11202408029150846782@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
+Date: Mon, 17 Oct 2022 14:20:49 -0000
+Message-Id: <166601644995.9574.2131515787093611222@gitolite.kernel.org>
 
---===============5072559168263627272==
+--===============8692702957090525633==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/geert/renesas-drivers
-user: geert
+repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
+user: shuah
 changes:
-  - ref: refs/heads/renesas-clk-for-v6.2
-    old: ba4bf53c3f48e2634500864076a79edbce8289ae
-    new: adac754ab16fb5085ae1bd17d38f5353a19ea99a
-    log: revlist-ba4bf53c3f48-adac754ab16f.txt
+  - ref: refs/heads/kunit
+    old: e98c4f6afc5e21507737066433699f225a180db7
+    new: 9abf2313adc1ca1b6180c508c25f22f9395cc780
+    log: revlist-e98c4f6afc5e-9abf2313adc1.txt
 
---===============5072559168263627272==
+--===============8692702957090525633==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-ba4bf53c3f48-adac754ab16f.txt
+Content-Disposition: attachment; filename=revlist-e98c4f6afc5e-9abf2313adc1.txt
 
+728c2edfcf14b3b61bd0ff82894f03455ca0e7d7 xen-pcifront: Handle missed Connected state
+bf7676251b49cc4a97572da7e10f52b97cf65c75 Merge tag 'edac_updates_for_v6.1' of git://git.kernel.org/pub/scm/linux/kernel/git/ras/ras
+3339914a5832cffdecd578931b3db20d3deba5f6 Merge tag 'x86_platform_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+f8475a6749ae9727878c189bbff073a257e43cba Merge tag 'x86_timers_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+ba94a7a90008fd55c7ff1c5b4ca1853e6277dc37 Merge tag 'x86_sgx_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+7db99f01d1879f30af95f14dfd5cbcf009d15166 Merge tag 'x86_cpu_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+51eaa866a50f3e5f006b0c4876ddfa0e5c72c5f0 Merge tag 'ras_core_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+5bb3a16dbea8ac40a36056e8ca79d37d47198a67 Merge tag 'x86_apic_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+1d800f32b2574c1d055984ad17223198caddbb54 MAINTAINERS: Update SED-Opal Maintainers
+8cded8fb1299eb20fc2f7a89dc9328cdf1baf9e5 Merge tag 'x86_core_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+bb1f11546eb3cd1e2b8ea45653eb0f530e42b035 Merge tag 'x86_asm_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+901735e51e4dea1eee816b0b57d1d6abbd94b3d5 Merge tag 'x86_misc_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+9bf445b65dd7d4c7d0e4efaecf38525abbbe74e3 Merge tag 'x86_paravirt_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+b5f0b11353a6a33a1accd0b742c80ed6b2f35ac0 Merge tag 'x86_microcode_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+193e2268a3bb1404b42f8edcc037a3eafd165aa9 Merge tag 'x86_cache_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+da4ab869e37cf81f93333ba74b16e0ea6d322e15 libceph: drop last_piece flag from ceph_msg_data_cursor
+f791357330b0043ec953ce122ab7519af4b9d24a ceph: wake up the waiters if any new caps comes
+6eb06c46214d33c71ae86d60b3fc9cb17c20beca ceph: fail the request if the peer MDS doesn't support getvxattr op
+7c3ea9870e09e193981695dd67c37a1a2b6d600b ceph: no need to wait for transition RDCACHE|RD -> RD
+aa1d627207cace003163dee24d1c06fa4e910c6b ceph: Use kcalloc for allocating multiple elements
+b4b924c7a16e857b0715603456045251a49f2ea6 ceph: increment i_version when doing a setattr with caps
+bd04b9192e1ff6859d6b3906e91cfd5c9b0ad55b ceph: fail the open_by_handle_at() if the dentry is being unlinked
+aa87052dd965a6094355fcc13d5abc3f5bebfbe4 ceph: fix incorrectly showing the .snap size for stat
+71cf0c1c4f9f8e42c84ca53a5ca7091e4eea7f6a ceph: remove Sage's git tree from documentation
+a76d550f761d4f1b0a0e2faa27af122e51904b86 clk: qcom: gcc-sm6375: Remove unused variables
+3eba620e7bd772a0c7dc91966cb107872b54a910 Merge tag 'x86_cleanups_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+39bc9b589ea3d2750a6fec6409cd7fc687bc99fe clk: qcom: gcc-sm6375: Ensure unsigned long type
+49f4c2d101bbf93c62e3fa58e666f71352c54121 Merge branches 'clk-ofnode', 'clk-bindings', 'clk-cleanup', 'clk-zynq' and 'clk-xilinx' into clk-next
 a64b79c01c2836ddd8e1eb7c8173b44c3e66f999 Merge branches 'clk-samsung', 'clk-mtk', 'clk-rm', 'clk-ast' and 'clk-qcom' into clk-next
 26bebbfed5bd06fd7202fd1befa6c2c935a593e8 Merge branches 'clk-rockchip', 'clk-renesas', 'clk-microchip', 'clk-allwinner' and 'clk-imx' into clk-next
 b7f257ceb3c88ee3e2c6b0d1db703c818d3971f1 Merge branches 'clk-fixed-rate', 'clk-spreadtrum', 'clk-pxa' and 'clk-ti' into clk-next
@@ -471,17 +499,7 @@ c9133112f347907774055bbf73179a7ff8504689 xen/virtio: restructure xen grant dma s
 abf625dc8c1db167150c844028a2f9f4c329fe68 Merge tag 'fsnotify-for_v6.1-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/jack/linux-fs
 188943a15638ceb91f960e072ed7609b2d7f2a55 Merge tag 'fs-for_v6.1-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/jack/linux-fs
 0a78a376ef3c2f3d397df48909f00cd75f92137a Merge tag 'for-6.1/io_uring-2022-10-03' of git://git.kernel.dk/linux
-78b1c6584fcedcf2d9687a4455c461859094cf04 kunit: string-stream: Simplify resource use
-4db4598b5ed8fc26f5fd9312623a9ec5cebbe74a kunit: drop test pointer in string_stream_fragment
-047a8a0a2da716fecfd325d21ccf509c431992d9 kunit: make kunit_kfree() only work on pointers from kunit_malloc() and friends
-e562e309d1d4ac05457c1454b6007071f13b5684 kunit: make kunit_kfree() not segfault on invalid inputs
-185d57797c5ea82e941befc2489dba0cf162b9c4 kunit: make kunit_kfree(NULL) a no-op to match kfree()
-3c4fc7bf4c9e66fe71abcbf93f62f4ddb89b7f15 kunit: tool: Don't download risc-v opensbi firmware with wget
-a8495ad8e973cb6aabbe855d3dfb66ec4c9b281a kunit: remove format func from struct kunit_assert, get it to 0 bytes
-97d453bc4007d4ac148c2ba89904026612b91ec9 kunit: rename base KUNIT_ASSERTION macro to _KUNIT_FAILED
 513389809e138ae903b6ef43c1d5d2ffaf4dca17 Merge tag 'for-6.1/block-2022-10-03' of git://git.kernel.dk/linux
-c1144e01063e67f807517a393b91fae054929dc8 kunit: declare kunit_assert structs as const
-e98c4f6afc5e21507737066433699f225a180db7 Documentation: kunit: Update description of --alltests option
 cadf306460c8f1281fc8bdd270514944ed75d3d0 selftests/ftrace: func_event_triggers: fix typo in user message
 13023c33c962730a38d6b43995910c8805637a9a selftests/memory-hotplug: Add checking after online or offline
 3e77a49aa78a65c7cfc4a2662366442ea1498fbb selftests/memory-hotplug: Restore memory before exit
@@ -1032,23 +1050,5 @@ b08cd74448fafaa302ce2bc11beab5e5a55d0065 Merge tag '6.1-rc-smb3-client-fixes-par
 8636df94ec917019c4cb744ba0a1f94cf9057790 Merge tag 'perf-tools-for-v6.1-2-2022-10-16' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 f1947d7c8a61db1cb0ef909a6512ede0b1f2115b Merge tag 'random-6.1-rc1-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/crng/random
 9abf2313adc1ca1b6180c508c25f22f9395cc780 Linux 6.1-rc1
-1625fbc1f73f1fa8f77c38ea554cc0b2327b156b clk: renesas: rzg2l: Support sd clk mux round operation
-c516ad419568450dea3a89011bb6e5db4f22d653 clk: renesas: rzg2l: Fix typo in function name
-a3b4137a4d4023e6662a2e35579516c7a44bc1cb clk: renesas: r8a779f0: Add Ethernet Switch clocks
-81e8dd07445eb330855d340a90918b872afa9232 clk: renesas: r8a779g0: Add SYS-DMAC clocks
-e0b07ff0371da45cf85e5291997d8b209aa112f1 clk: renesas: r8a779g0: Add MSIOF clocks
-864010561d8ce63506cb34063bb5db6e96bfefc3 clk: renesas: r8a779g0: Add INTC-EX clock
-576d6b40dcceade7d77e88f63e621349c6937bc3 clk: renesas: r9a07g044: Add MTU3a clock and reset entry
-557ab9c9c1107cb93f33f1b3f2dd40bc1efca356 clk: renesas: r8a779g0: Add SASYNCPER clocks
-f3698170248b1b59afed130f1bae7c774a004965 clk: renesas: r8a779g0: Add SCIF clocks
-76cc57ad495be6d52d8e010f6d897cf79b5d4468 clk: renesas: r8a779g0: Add PWM clock
-9e93b7c30d19f90030dd7dde8917b9a4e8aa31eb clk: renesas: r8a779g0: Add TPU clock
-b4f127396ebabee0bed4d2a1f6c6d3b2e56ffcd8 clk: renesas: r9a07g044: Drop WDT2 clock and reset entry
-42a366b85bc752c558df1ca8f9a9d698bd061b66 clk: renesas: r9a07g043: Drop WDT2 clock and reset entry
-a28735d8ade4cff33a88cf88ae846c2c82adc1e4 clk: renesas: r8a779f0: Fix SD0H clock name
-35c2577dd5b58291dfb2086841720e41aa7b30da clk: renesas: r8a779f0: Add SASYNCPER internal clock
-b8d131f3d7a84eca6d6ad376d0d23ed1f26574b8 clk: renesas: r8a779g0: Add SDHI clocks
-182fbc7bb7994603b15493900621c3c05adc2020 clk: renesas: r8a779g0: Add RPC-IF clock
-adac754ab16fb5085ae1bd17d38f5353a19ea99a clk: renesas: r8a779a0: Fix SD0H clock name
 
---===============5072559168263627272==--
+--===============8692702957090525633==--
