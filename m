@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3095995913788634045=="
+Content-Type: multipart/mixed; boundary="===============7719791305837118089=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ulfh/mmc
-Date: Mon, 17 Oct 2022 10:10:20 -0000
-Message-Id: <166600142030.20124.2726017813283037075@gitolite.kernel.org>
+Date: Mon, 17 Oct 2022 10:10:40 -0000
+Message-Id: <166600144049.20297.17281741925938839168@gitolite.kernel.org>
 
---===============3095995913788634045==
+--===============7719791305837118089==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,23 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ulfh/mmc
 user: ulfh
 changes:
-  - ref: refs/heads/next
+  - ref: refs/heads/fixes
     old: b5c1fbc57a5e74e7618a75eb08ed3a9a3f8dcb95
-    new: 586c0989ac664be03f8ab4dafc45054444cc510c
-    log: revlist-b5c1fbc57a5e-586c0989ac66.txt
+    new: 9972e6b404884adae9eec7463e30d9b3c9a70b18
+    log: revlist-b5c1fbc57a5e-9972e6b40488.txt
 
---===============3095995913788634045==
+--===============7719791305837118089==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-b5c1fbc57a5e-586c0989ac66.txt
+Content-Disposition: attachment; filename=revlist-b5c1fbc57a5e-9972e6b40488.txt
 
+96b731412d51c6d19c5269f8e6bf2b6621d3b994 perf trace: Fix incorrectly parsed hexadecimal value for flags in filter
+058443934524590d5537a80f490267cc95a61c05 perf subcmd: Set environment variable "PREFIX"
+1dc86fc731addf783d076cb6182ebc84e2624cc0 perf test: Introduce script for java symbol testing
+8154850b28bd57a35ea73a7518ffcb9ccd5e43bc powerpc/64s/interrupt: Change must-hard-mask interrupt check from BUG to WARN
+0fa6831811f62cfc10415d731bcf9fde2647ad81 powerpc/64: Fix msr_check_and_set/clear MSR[EE] race
+4c99256013fa4e0fe9733ca1bab2b5684ccc02a1 gpiolib: acpi: Add wake_capable variants of acpi_dev_gpio_irq_get
 5ff811604f93bdd2650beed80b48c2ca16c6fba6 ACPI: resources: Add wake_capable parameter to acpi_dev_irq_flags
 b38f2d5d9615cf991fb68626e70b042cb8b6dc3e i2c: acpi: Use ACPI wake capability bit to set wake_irq
 a6c05e1223c9f32836ee8df3d66208b869e5b5d7 ACPI: PM: Take wake IRQ into consideration when entering suspend-to-idle
@@ -1044,11 +1050,5 @@ f1947d7c8a61db1cb0ef909a6512ede0b1f2115b Merge tag 'random-6.1-rc1-for-linus' of
 1ed5c3b22fc78735c539e4767832aea58db6761c mmc: sdhci-esdhc-imx: Propagate ESDHC_FLAG_HS400* only on 8bit bus
 9dc0033e4658d6f9d9952c3c0c6be3ec25bc2985 mmc: sdhci-pci-core: Disable ES for ASUS BIOS on Jasper Lake
 9972e6b404884adae9eec7463e30d9b3c9a70b18 mmc: core: Fix kernel panic when remove non-standard SDIO card
-7859fde01a029b98af89de03bd53173da884ab5e dt-bindings: mmc: Add compatible for Mediatek MT7986
-3e0dca9f985a951e54409a6b79b671bbafdcaf28 mmc: mtk-sd: Add support for MT7986 SoC
-94ff245d46cc723d143a51e537b9dfec24185d00 dt-bindings: mmc: fsl-imx-esdhc: update i.MX8DXL compatible
-4f9378d5bdd7b1ef8eb01bfd65c74b13c55d3525 dt-bindings: mmc: renesas,sdhi: Document R-Car V4H support
-80e379aedfba8541d405e745f61946caa7af2f09 dt-bindings: mmc: sdhci-am654: add ti,itap-del-sel-ddr50 to schema
-586c0989ac664be03f8ab4dafc45054444cc510c dt-bindings: mmc: arm,pl18x: Document interrupt-names is ignored
 
---===============3095995913788634045==--
+--===============7719791305837118089==--
