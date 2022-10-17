@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Mon, 17 Oct 2022 19:45:20 -0000
-Message-Id: <166603592014.16276.15129932416671034335@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
+Date: Mon, 17 Oct 2022 19:51:07 -0000
+Message-Id: <166603626756.19857.13653182113995982231@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/linux
-user: sj
+repo: pub/scm/linux/kernel/git/axboe/liburing
+user: axboe
 changes:
-  - ref: refs/tags/damon/next-2022-10-17-19-45-on-v6.1.0-rc1-mm-unstable
-    old: 0000000000000000000000000000000000000000
-    new: 413749505a4d9cadd8b7666e77d7e883717787b7
+  - ref: refs/heads/master
+    old: e14acabaec349498fc014a4afdbaf787ee0c817e
+    new: 6bce6110e3a0de3e37342e780cfbf62e291c5672
+    log: |
+         6bce6110e3a0de3e37342e780cfbf62e291c5672 man: fixup missing entry annotations
+         
