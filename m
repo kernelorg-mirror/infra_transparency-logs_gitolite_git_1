@@ -1,61 +1,61 @@
-Content-Type: multipart/mixed; boundary="===============8074483822274999964=="
+Content-Type: multipart/mixed; boundary="===============3983780366809548636=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Mon, 17 Oct 2022 05:04:13 -0000
-Message-Id: <166598305391.13254.4026555006133989945@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Mon, 17 Oct 2022 05:04:14 -0000
+Message-Id: <166598305452.13300.7110860536222777173@gitolite.kernel.org>
 
---===============8074483822274999964==
+--===============3983780366809548636==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/tty
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-testing
-    old: 1501278bb7ba0728b869d3399ea94b67853256a2
-    new: 9abf2313adc1ca1b6180c508c25f22f9395cc780
-    log: revlist-1501278bb7ba-9abf2313adc1.txt
+  - ref: refs/heads/readfile
+    old: 0ebad2f3965a9ebf61bef0a8c41142349aad5de5
+    new: b6a3eaafbed4c0129bdb554ce57a654ec54e6ed6
+    log: revlist-0ebad2f3965a-b6a3eaafbed4.txt
 
---===============8074483822274999964==
+--===============3983780366809548636==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1665983102 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1665983052-03c37f3ce82559169e9646404af2339a4445b5a5
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1665983101 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1665983049-d73661505bc80f226b5da5b6f5e3bfdcb4f05b7e
 
-1501278bb7ba0728b869d3399ea94b67853256a2 9abf2313adc1ca1b6180c508c25f22f9395cc780 refs/heads/tty-testing
+0ebad2f3965a9ebf61bef0a8c41142349aad5de5 b6a3eaafbed4c0129bdb554ce57a654ec54e6ed6 refs/heads/readfile
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmNM4n4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+tNAQAIL8Pjanj+9NCO3+4Uqk
-Ix8nvL4yCpUaVxtD8cmzehroIXp+qk7U8UvBOQngDkiYc6GUBpBs2IVm4O6F60lc
-L18AC3WuVacRd5dOgPprwEkdMhi/XvNnPGDwW29bsY+wZgddMDfOlAF+en875G1x
-LDRqOD4TLYc1yl7Q8PBJP+HbT/TSRBvdMRf5YAuPjE84wHz00dgQXU6xE7cr5IWU
-Tjt7Zx8TwjFVlK2cL2NX71j38XmMWIkQ/rtDODLzS/r3dyOb3G8VmEQIJoS7MQFO
-nRkSO05+gz+lP4ngxl8N9nkg0oBg0uikicTuZPZhJ4Vh2dSi4IB43e9dr+3YWvdk
-N3ug7uqIWixZsjBpCeKv0Ug+MsRkVHR1M4U3LtaEMCGeyrFh4BDIgITVh11wn218
-56S0Qj5oPmGQKrp6oyMI27Otdbo1cl3Ho6t/mXj4u+vNqnR3ul1UAOmvdZRS2pbO
-hsEHkOfcvxQv+6F8qD+q1+0PXrcGvo+aKn4iSGy9cwglFxdNq8lGgJk6YXJJm8zD
-dogPB97SdfKMcJqIa1nFerYkFP4bmlcPliZ9fg9yHdYTdQxskPAMZ2uPbQ878K48
-Ge6izG0mkMd6j0WORjiZApBgIaPzJz3L3nEUZqrjj7KXubjYd5iPTgYd43cqeocQ
-AHjO1eRFhTbbIwoj4vdUsyJe
-=QNc7
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmNM4n0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+WukP/0wk3IKfCUyS7Cizrp2o
+aRy5qZzKZQ6qUpoyaVl47VmqaFHEZUC8qsE/4r3gDPRkec3cXNORdTrc88VDRX6X
+gGD/7DEfZhxeEIswyWqAYrQasoSfxTRmKjOPkzJtGjU+ltHul142F4A151/EjpkV
+Yedcs3Z7CBREYuJpmhCR6ZE/7NgRsV/pWMr2dy1hUUAVSzJnTAkMNW9y879yx1Dr
+hIYPxb0JSOg8MCyfDapw+3VPqePvzuLUHbYHnhoyGlPGbQ/gRFlUUTJJqJBEQWyH
+5osdrtLbBd4B5/l/sINGysHIAN8hIhG1IyRWQLO+LdF5I7o04RW1XQD/44JjakoX
+ctVHECqDrckz76VG+L9RKTWT43ypCzjFM07L8rVBSWhyAsI41J6A89XhF+MnovSG
+SkH2eiPOSpXcW6lOEROjKHSBczj2R004wKxB8TIc1YVBFATcM6qmjfn2HBKnVy+/
+mLd2X6cS53sM7PsyeIz/nPM1sNieoPyyBQ3BIByGDo5SL8/ozNtgbOmA7yW40G8o
+hL0rU8H7TPWuA8wjVjG+LE2CztFfBUiwpW/pMGxzcfTre/yHbuoTDovp4wjukhk+
+b9OhGHXNEmCW1JxT6+9gjss/H/2fs27j5tbfO42xS5Zr2J1g0Z99pu+CjDz7gLRD
+5qlX3YMU9bC5HFLkxXMt1TB+
+=fV71
 -----END PGP SIGNATURE-----
 
---===============8074483822274999964==
+--===============3983780366809548636==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1501278bb7ba-9abf2313adc1.txt
+Content-Disposition: attachment; filename=revlist-0ebad2f3965a-b6a3eaafbed4.txt
 
 aac00c7fa1149fd5b5a5110096ffa78dcb120b79 clk: test: Switch to clk_hw_get_clk
 d77388223240884b918b8d85f88f132916afbf06 clk: Drop the rate range on clk_put()
@@ -149,5 +149,9 @@ b08cd74448fafaa302ce2bc11beab5e5a55d0065 Merge tag '6.1-rc-smb3-client-fixes-par
 8636df94ec917019c4cb744ba0a1f94cf9057790 Merge tag 'perf-tools-for-v6.1-2-2022-10-16' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 f1947d7c8a61db1cb0ef909a6512ede0b1f2115b Merge tag 'random-6.1-rc1-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/crng/random
 9abf2313adc1ca1b6180c508c25f22f9395cc780 Linux 6.1-rc1
+e6a8cc8930f0ccbe17446c7660f3670ef5a1e6e1 readfile: implement readfile syscall
+4cbe282128989a37387df3750a3f9628c8b653e6 arch: wire up the readfile syscall
+1d7d97b6ac31a90283d47623b24f43ac4a4c32ea selftests: add readfile(2) selftests
+b6a3eaafbed4c0129bdb554ce57a654ec54e6ed6 readfile.2: new page describing readfile(2)
 
---===============8074483822274999964==--
+--===============3983780366809548636==--
