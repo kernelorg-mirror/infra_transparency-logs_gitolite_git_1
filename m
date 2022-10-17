@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1886000291036209296=="
+Content-Type: multipart/mixed; boundary="===============2739178025398628169=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Mon, 17 Oct 2022 05:08:19 -0000
-Message-Id: <166598329987.14087.11092133822310574147@gitolite.kernel.org>
+Date: Mon, 17 Oct 2022 05:08:40 -0000
+Message-Id: <166598332040.14263.14814765537495825371@gitolite.kernel.org>
 
---===============1886000291036209296==
+--===============2739178025398628169==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/kobject-const2
-    old: 152d9b3aae10fc36b198a10e1a059c8c66a4717a
-    new: c3295bf76173c5315b059096eedb8519041c2234
-    log: revlist-152d9b3aae10-c3295bf76173.txt
+  - ref: refs/heads/debugfs_cleanup
+    old: 93d23ddd9df2ad5492260ca7345ce37358c520c6
+    new: 19c9dae9c0559971bab1744d3ed6a925d6829795
+    log: revlist-93d23ddd9df2-19c9dae9c055.txt
 
---===============1886000291036209296==
+--===============2739178025398628169==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1665983345 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1665983365 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1665983293-51299364c20c48acc0a6672c9a60a7a744146cb3
+nonce 1665983313-ec3145d83c41c2360140aa4ff19ff87e7d3225c1
 
-152d9b3aae10fc36b198a10e1a059c8c66a4717a c3295bf76173c5315b059096eedb8519041c2234 refs/heads/kobject-const2
+93d23ddd9df2ad5492260ca7345ce37358c520c6 19c9dae9c0559971bab1744d3ed6a925d6829795 refs/heads/debugfs_cleanup
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmNM43EbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+UiMQANik2DJeMk4n1DH69hfN
-QXt3g4IHdQiEUkHNKjJRrnQBx32K53tnVaC+1E7ngiwR5j+USz579yHqyXUijNLD
-+HXDygfSDteAs/kmfCQ9X5sUjghei/glUklOrGziVNmHQriTuafaBwD8Iyg2EoTT
-IyDC/lvja+NPQNwuKbSGrkn6IeE4hu/bKi5FFUrCez/Ftg+0TaFSrnrVuq5tFQe0
-cEI4fqJJ88Xa2qQWhKOj5RBEs0DbMGKy+rOJWezcuuDVQvrugrY3pOSsG0Fngs+2
-xkAequYXcVbBWI6Fd6pygeiwtDWIOF7qn2PE6/3Cf+JxwmSvr7NVz643I1UqG4Sm
-A4UsCzEgvcEPyB67clyR56hOiHsLnhRVcVFGHair7doTkppL9NyA8IYC9mXtaxch
-ZlY4GV+Xhp+dWQV+yCFONx4hg9lHSG0XUo1NH6qlMerrhzp6Muc5+AB2ubNjrmRV
-j6J69tP72dUX/C1b47+QLWUvJlDSEs5zZlHRA1U79EdeyV/xNBC7scpOVMRWUibk
-tOPv9A0LzErKQvLpnvvhR+ouYZ1egGiZjGW0pTNh34ag1U9YtkGuXUCI5PR6wDqT
-08Bap7W58RZYg14nzp8rD/Yju8v3c+ATB0U3hfW5vp1EjX+z2xCgcsaclGxmujgi
-6IE8dIl3CKLOGMvFVnD634YE
-=6rqc
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmNM44UbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+rpwP/06pY3ASiQ4kjVYjCpfI
+coLiM97Ow3FrrxSZ7KVwcnzo+D11UGtcGws0xxGR7RX+WJUJhrlq460AP9P6HiwX
+yfohcmoel03DmNMbgAoo5s3K2EYrtBCl6MdeiHpbS6IKrGT1AciLX+cur6BDX9kC
+mK1Hado7QL+bsOXmDmaA7MgItVU6oTjzgulwtzqi0S0WlViFrqz2wAkd1jtOy66w
+YTxAYXCBYPFmsSp1b9sUAmwrrwVMcwCgYTIjjPIQzI6Bz+pUTO8vIDjVh53HDJAA
+A979qSDs9l6Kg2Rov/LNEk6gaKTqNOTwbInwgKZvQH6nb0aH4/ujW1cUcDKcPbz2
+x78Gqfcw1Ncpfvp230Ua64W1ED+1D3VO47UTDEh0f9hrkXM66EsBw1ez1O9vicsY
+wBAkXrQh09Six2KPDYayacHmuwGRDQpDXCdvQY3jHssS03LR13vfyzccZ6ig3xwo
+W+L2g3i/VE2UOSE5xsLVBCxrWxHE9JdIEVf7DP5DCMnqFk9PhkMhpl2LPjltxDrk
+aG9qYnwmsjckoYird//Fhzu/HSRg9Td0o/kqgQ1wowjzAo6Wf0Hby40GmToSSG4w
+MsVfBNn76DjUZxfkRJoeSu256kfFo/PPqdnKPV8xPGuw8lECgkUOSgKgAXSp5CXN
+Rkshs74RcN/ydpwU3whSiDs/
+=gI9u
 -----END PGP SIGNATURE-----
 
---===============1886000291036209296==
+--===============2739178025398628169==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-152d9b3aae10-c3295bf76173.txt
+Content-Disposition: attachment; filename=revlist-93d23ddd9df2-19c9dae9c055.txt
 
 aac00c7fa1149fd5b5a5110096ffa78dcb120b79 clk: test: Switch to clk_hw_get_clk
 d77388223240884b918b8d85f88f132916afbf06 clk: Drop the rate range on clk_put()
@@ -149,7 +149,12 @@ b08cd74448fafaa302ce2bc11beab5e5a55d0065 Merge tag '6.1-rc-smb3-client-fixes-par
 8636df94ec917019c4cb744ba0a1f94cf9057790 Merge tag 'perf-tools-for-v6.1-2-2022-10-16' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 f1947d7c8a61db1cb0ef909a6512ede0b1f2115b Merge tag 'random-6.1-rc1-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/crng/random
 9abf2313adc1ca1b6180c508c25f22f9395cc780 Linux 6.1-rc1
-b8af9ebaaa3e3531b7b40a2c8792d099fd89176c driver core: allow kobj_to_dev() to take a const pointer
-c3295bf76173c5315b059096eedb8519041c2234 USB: allow some usb functions to take a const pointer.
+701780b74e0fe4b23066041686a9afe28caee0ef driver core: remove devm_device_add_groups() and devm_device_remove_groups()
+79a9c6051fecdb463164b77776970ebc1ebf6a4f sysfs: do not create empty directories if no attributes are present
+04da287a87be9ecf04f18dee7ffa29f666a53f44 soundwire: sysfs: move sdw_slave_dev_attr_group into the existing list of groups
+591f9c8318ab51be1f7230e17dc2b903e856ec50 soundwire: sysfs: cleanup the logic for creating the dp0 sysfs attributes
+da66f47e690be51c63b39fcbff7712eafd768822 soundwire: sysfs: have the driver core handle the creation of the device groups
+5b64eebe73f6bc6102adc5e6bd666494560e7fe7 soundwire: sysfs: remove sdw_slave_sysfs_init()
+19c9dae9c0559971bab1744d3ed6a925d6829795 soundwire: sysfs: remove unneeded ATTRIBUTE_GROUPS() comments
 
---===============1886000291036209296==--
+--===============2739178025398628169==--
