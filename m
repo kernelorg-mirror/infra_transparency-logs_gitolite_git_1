@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1455263842465925178=="
+Content-Type: multipart/mixed; boundary="===============5162293051950489091=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mmind/linux-rockchip
-Date: Mon, 17 Oct 2022 12:33:00 -0000
-Message-Id: <166600998063.27301.17563940082489551902@gitolite.kernel.org>
+Date: Mon, 17 Oct 2022 12:33:13 -0000
+Message-Id: <166600999320.27467.822141190002622059@gitolite.kernel.org>
 
---===============1455263842465925178==
+--===============5162293051950489091==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,62 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mmind/linux-rockchip
 user: mmind
 changes:
-  - ref: refs/heads/master
-    old: 1c23f9e627a7b412978b4e852793c5e3c3efc555
-    new: 9abf2313adc1ca1b6180c508c25f22f9395cc780
-    log: revlist-1c23f9e627a7-9abf2313adc1.txt
-  - ref: refs/tags/v6.1-rc1
-    old: 0000000000000000000000000000000000000000
-    new: e0e492cebef25c13fc29b174f01b5178662f1652
-  - ref: refs/tags/v6.0
-    old: 0000000000000000000000000000000000000000
-    new: 45eb8ae5370d5df1ee8236f45df3f29103ba6e12
-  - ref: refs/heads/v6.1-armsoc/dtsfixes
-    old: 0000000000000000000000000000000000000000
-    new: 849c19d14940b87332d5d59c7fc581d73f2099fd
-  - ref: refs/heads/v6.2-armsoc/dts32
-    old: 0000000000000000000000000000000000000000
-    new: 9abf2313adc1ca1b6180c508c25f22f9395cc780
-  - ref: refs/heads/v6.2-armsoc/dts64
-    old: 0000000000000000000000000000000000000000
-    new: a7e6dbd6ac034480d7fde95ecf2259d27e5655b1
-  - ref: refs/heads/v6.2-clock/next
-    old: 0000000000000000000000000000000000000000
-    new: 9abf2313adc1ca1b6180c508c25f22f9395cc780
+  - ref: refs/heads/for-next
+    old: b985063870727be3e94747b1c929219d04e77665
+    new: fd72e0cdcd34f024b42f79b51ef7c73ecb417b75
+    log: revlist-b98506387072-fd72e0cdcd34.txt
 
---===============1455263842465925178==
+--===============5162293051950489091==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-1c23f9e627a7-9abf2313adc1.txt
+Content-Disposition: attachment; filename=revlist-b98506387072-fd72e0cdcd34.txt
 
-bb1f11546eb3cd1e2b8ea45653eb0f530e42b035 Merge tag 'x86_asm_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-901735e51e4dea1eee816b0b57d1d6abbd94b3d5 Merge tag 'x86_misc_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-9bf445b65dd7d4c7d0e4efaecf38525abbbe74e3 Merge tag 'x86_paravirt_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-b5f0b11353a6a33a1accd0b742c80ed6b2f35ac0 Merge tag 'x86_microcode_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-193e2268a3bb1404b42f8edcc037a3eafd165aa9 Merge tag 'x86_cache_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-da4ab869e37cf81f93333ba74b16e0ea6d322e15 libceph: drop last_piece flag from ceph_msg_data_cursor
-f791357330b0043ec953ce122ab7519af4b9d24a ceph: wake up the waiters if any new caps comes
-6eb06c46214d33c71ae86d60b3fc9cb17c20beca ceph: fail the request if the peer MDS doesn't support getvxattr op
-7c3ea9870e09e193981695dd67c37a1a2b6d600b ceph: no need to wait for transition RDCACHE|RD -> RD
-aa1d627207cace003163dee24d1c06fa4e910c6b ceph: Use kcalloc for allocating multiple elements
-b4b924c7a16e857b0715603456045251a49f2ea6 ceph: increment i_version when doing a setattr with caps
-bd04b9192e1ff6859d6b3906e91cfd5c9b0ad55b ceph: fail the open_by_handle_at() if the dentry is being unlinked
-aa87052dd965a6094355fcc13d5abc3f5bebfbe4 ceph: fix incorrectly showing the .snap size for stat
-71cf0c1c4f9f8e42c84ca53a5ca7091e4eea7f6a ceph: remove Sage's git tree from documentation
-a76d550f761d4f1b0a0e2faa27af122e51904b86 clk: qcom: gcc-sm6375: Remove unused variables
-3eba620e7bd772a0c7dc91966cb107872b54a910 Merge tag 'x86_cleanups_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-39bc9b589ea3d2750a6fec6409cd7fc687bc99fe clk: qcom: gcc-sm6375: Ensure unsigned long type
-49f4c2d101bbf93c62e3fa58e666f71352c54121 Merge branches 'clk-ofnode', 'clk-bindings', 'clk-cleanup', 'clk-zynq' and 'clk-xilinx' into clk-next
-a64b79c01c2836ddd8e1eb7c8173b44c3e66f999 Merge branches 'clk-samsung', 'clk-mtk', 'clk-rm', 'clk-ast' and 'clk-qcom' into clk-next
-26bebbfed5bd06fd7202fd1befa6c2c935a593e8 Merge branches 'clk-rockchip', 'clk-renesas', 'clk-microchip', 'clk-allwinner' and 'clk-imx' into clk-next
-b7f257ceb3c88ee3e2c6b0d1db703c818d3971f1 Merge branches 'clk-fixed-rate', 'clk-spreadtrum', 'clk-pxa' and 'clk-ti' into clk-next
-f9efefdba95a5110a1346bb03acdd8ff3cdf557f Merge branches 'clk-baikal', 'clk-broadcom', 'clk-vc5' and 'clk-versaclock' into clk-next
-c645c11a2dba116bad3ee43e08e330db8f03ede6 Merge tag 'audit-pr-20221003' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/audit
-98828955971363e838149105c268b1fad905f15b drm/i915/gvt: fix a memory leak in intel_gvt_init_vgpu_types
-1aa3834f510c9d9206ce4d40aff4903b0c016761 drm/i915/gvt: simplify vgpu configuration management
-bdef2b7896df293736330eb6eb0f43947049b828 vfio/mdev: make mdev.h standalone includable
-89345d5177aa0f6d678251e1e0870b0eeb1ab510 vfio/mdev: embedd struct mdev_parent in the parent data structure
 da44c340c4fe9d9653ae84fa6a60f406bafcffce vfio/mdev: simplify mdev_type handling
 cbf3bb28aaeaee425ca7b9c537a3efff1f8c98ae vfio/mdev: remove mdev_from_dev
 2815fe149ffa8e1a022b2830ab62999135c00a4e vfio/mdev: unexport mdev_bus_type
@@ -1068,5 +1023,32 @@ b08cd74448fafaa302ce2bc11beab5e5a55d0065 Merge tag '6.1-rc-smb3-client-fixes-par
 8636df94ec917019c4cb744ba0a1f94cf9057790 Merge tag 'perf-tools-for-v6.1-2-2022-10-16' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 f1947d7c8a61db1cb0ef909a6512ede0b1f2115b Merge tag 'random-6.1-rc1-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/crng/random
 9abf2313adc1ca1b6180c508c25f22f9395cc780 Linux 6.1-rc1
+c484cf93f61b4b982f88e9e86dccb7047e1f2b3d arm64: dts: rockchip: add PX30-µQ7 (Ringneck) SoM with Haikou baseboard
+f3ff1d12bb2f6ebdbd12f0cafc02fe170bad6e7f dt-bindings: arm: rockchip: add Theobroma Systems PX30-µQ7 (Ringneck) with Haikou
+19cc53eb2ce63c0e5adc2fd89494fb16f383ac10 dt-bindings: rockchip: Add Hardkernel ODROID-M1 board
+fd35832677032980df230f02509d6c016664cc89 arm64: dts: rockchip: Add Hardkernel ODROID-M1 board
+f5511bd8498da222b6455038a0cf3e7d2b2dfc7e arm64: dts: rockchip: add thermal support to ODROID-M1
+9f96204b7dcf94d03cad41194447c665d10675b7 arm64: dts: rockchip: Add NOR flash to ODROID-M1
+78f858447cb78cac7259093d095fb783328b835c arm64: dts: rockchip: Add analog audio on ODROID-M1
+913404aa2e60610f9cae375069dae97e11d726ed arm64: dts: rockchip: Enable vop2 and hdmi tx on ODROID-M1
+1ca7ddddf36494f0f6afd4f35d37827323271f39 arm64: dts: rockchip: Enable HDMI audio on ODROID-M1.
+cb80b3455c7cadc4c1157879930e919f607d557c arm64: dts: rockchip: Enable the GPU on ODROID-M1
+4685d7b68aaac199ab0d950d2047405bf551f964 arm64: dts: rockchip: Enable the USB 2.0 ports on ODROID-M1
+9984ef562653c8d0beb51021fc286706b6ec4802 arm64: dts: rockchip: Enable the USB 3.0 ports on ODROID-M1
+6a5a04d52ccc42e0e59ff69fca9c1db7e08ba44b arm64: dts: rockchip: Add SATA support to ODROID-M1
+35b28582aa3dfd7b6861b7ebc72798b0ff50ed41 arm64: dts: rockchip: Add PCIEe v3 nodes to ODROID-M1
+d6882992fe8182e3122be34af3f491948a8b9069 arm64: dts: rockchip: Add IR receiver node to ODROID-M1
+ef40e88d1be172ca05e6e8cef00284a1cf4f43d8 arm64: dts: rockchip: Drop RK3399-Scarlet's repeated ec_ap_int_l definition
+adbab347ec8861aa80d850693df3cd005ec65a99 arm64: dts: rockchip: Fix gmac failure of rgmii-id from rk3566-roc-pc
+2440ad0d851e404adcd1b9ad758f28bd59365bae arm64: dts: rockchip: Fix i2c3 pinctrl on rk3566-roc-pc
+b44bc59d0d279fa4f3dc11b895f2c8f77719885d arm64: dts: rockchip: remove i2c5 from rk3566-roc-pc
+49665ab0ed5eed4fa7b8a6b236ff2df681c89673 arm64: dts: rockchip: Add regulator suffix to rock-3a
+0522cd8112204d124d714eee7e9f0cac6de999d9 arm64: dts: rockchip: Add PCIe v3 nodes to rock-3a
+a7e6dbd6ac034480d7fde95ecf2259d27e5655b1 arm64: dts: rockchip: add BT/wifi nodes to Pinephone Pro
+463be3cb357dab7d7e4d8dcc7c15c642e10c5bef arm64: dts: rockchip: add enable-strobe-pulldown to emmc phy on nanopi4
+2dcd7e0c821fe9b663f7d3382b6d2faa8edf2129 arm64: dts: rockchip: fix quartz64-a bluetooth configuration
+849c19d14940b87332d5d59c7fc581d73f2099fd arm64: dts: rockchip: keep I2S1 disabled for GPIO function on ROCK Pi 4 series
+33475c155306794c018aa595a08a8a147aa82421 Merge branch 'v6.1-armsoc/dtsfixes' into for-next
+fd72e0cdcd34f024b42f79b51ef7c73ecb417b75 Merge branch 'v6.2-armsoc/dts64' into for-next
 
---===============1455263842465925178==--
+--===============5162293051950489091==--
