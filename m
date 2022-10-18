@@ -1,37 +1,64 @@
-Content-Type: multipart/mixed; boundary="===============1175851258951914866=="
+Content-Type: multipart/mixed; boundary="===============7585819837741115464=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Tue, 18 Oct 2022 11:00:37 -0000
-Message-Id: <166609083726.7811.389812622818290892@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regmap
+Date: Tue, 18 Oct 2022 11:00:55 -0000
+Message-Id: <166609085591.7977.10541772803891650443@gitolite.kernel.org>
 
---===============1175851258951914866==
+--===============7585819837741115464==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/regmap
 user: broonie
 changes:
   - ref: refs/heads/for-linus
-    old: d1968e740cd1401ae9d7ab12b331bdf56a24aa51
-    new: 406770601668ff2885a02908dc1627d383eee075
-    log: |
-         406770601668ff2885a02908dc1627d383eee075 Merge remote-tracking branch 'asoc/for-6.0' into asoc-linus
-         
+    old: 80e78fcce86de0288793a0ef0f6acf37656ee4cf
+    new: 157209ecce2bb83230222f7ce857406beadcb96c
+    log: revlist-80e78fcce86d-157209ecce2b.txt
   - ref: refs/heads/for-next
-    old: d1968e740cd1401ae9d7ab12b331bdf56a24aa51
-    new: ba5612d11a2b917e48de86dca31aff11f67ad8e4
-    log: revlist-d1968e740cd1-ba5612d11a2b.txt
+    old: 83eb8f73e86bea584f621aeaf8d1a9c3aea1ba42
+    new: 7c7aa42243cb4059ad5f1f11031eb578ceb6385c
+    log: revlist-83eb8f73e86b-7c7aa42243cb.txt
 
---===============1175851258951914866==
+--===============7585819837741115464==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-80e78fcce86d-157209ecce2b.txt
+
+ada79bca380009a85d1e643e5a4da0c079f28225 regmap: mmio: Remove mmio_relaxed member from context
+159dfabd207628c983e0c3c5ef607f496ff5e6a5 regmap: mmio: Get rid of broken 64-bit IO
+93ce557679e1cf7742ad327d40a1499e7d8535b7 regmap: mmio: Introduce IO accessors that can talk to IO port
+7e7ba58c94127efa97c249e38cc2d1c0ed78b58f regmap: mmio: Fix MMIO accessors to avoid talking to IO port
+060004431df4958a326d6a45107b2fe3406d10f2 regmap: Make use of get_unaligned_be24(), put_unaligned_be24()
+77672e0387f90153e3c7ee89456d16dcacfef6d2 regmap: mmio: Extending to support IO ports
+c20cc099b30abd50f563e422aa72edcd7f92da55 regmap: Support accelerated noinc operations
+81c0386c1376da54f05d6916936db5220df9f97d regmap: mmio: Support accelerared noinc operations
+f8f60615379c1b36d9220f3886fb9b229e95d8cd regmap/hexagon: Properly fix the generic IO helpers
+026c99b508f060d3c85fda06b21e010683ef5590 regmap: introduce value tracing for regmap bulk operations
+b7059927c3e32c96d2ff50c206549d8fac0ba69e regmap: check right noinc bounds in debug print
+d57f2035c0455dfd5e4d29caa0266fad6febe6d6 regmap: mmio: Fix rebase error
+f78d5e1168e08429bc948d09b6dc11fec5e019f7 regmap: trace: Remove useless check for NULL for bulk ops
+d10268a50bdbc03ebb6d340d63bf78c44d7c66a8 regmap: trace: Remove explicit castings
+6ed406ef9f74372282c3b515e64986120823f769 regmap: trace: Remove unneeded blank lines
+2d4697375dea514be202abf563a9419e74489c25 swab: Add array operations
+400dceb6f8b56472b36c5c2c8c3e0cbb7557d019 regmap: mmio: Use swabXX_array() helpers
+26cc2a788a1903da3ccff97061099f091255ecaf regmap: spi-avmm: Use swabXX_array() helpers
+01ed230761e51f0403b3f3845c11cb67014487e2 regmap: mmio: replace return 0 with break in switch statement
+157209ecce2bb83230222f7ce857406beadcb96c Merge remote-tracking branch 'regmap/for-6.0' into regmap-linus
+
+--===============7585819837741115464==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-d1968e740cd1-ba5612d11a2b.txt
+Content-Disposition: attachment; filename=revlist-83eb8f73e86b-7c7aa42243cb.txt
 
+9bf445b65dd7d4c7d0e4efaecf38525abbbe74e3 Merge tag 'x86_paravirt_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+b5f0b11353a6a33a1accd0b742c80ed6b2f35ac0 Merge tag 'x86_microcode_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 193e2268a3bb1404b42f8edcc037a3eafd165aa9 Merge tag 'x86_cache_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 da4ab869e37cf81f93333ba74b16e0ea6d322e15 libceph: drop last_piece flag from ceph_msg_data_cursor
 f791357330b0043ec953ce122ab7519af4b9d24a ceph: wake up the waiters if any new caps comes
@@ -1052,9 +1079,7 @@ b08cd74448fafaa302ce2bc11beab5e5a55d0065 Merge tag '6.1-rc-smb3-client-fixes-par
 8636df94ec917019c4cb744ba0a1f94cf9057790 Merge tag 'perf-tools-for-v6.1-2-2022-10-16' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 f1947d7c8a61db1cb0ef909a6512ede0b1f2115b Merge tag 'random-6.1-rc1-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/crng/random
 9abf2313adc1ca1b6180c508c25f22f9395cc780 Linux 6.1-rc1
-2a9ad0cc15d6b3f2475acdcd091bd0f6757ba7d8 Merge existing fixes from asoc/for-6.1 into new branch
-406770601668ff2885a02908dc1627d383eee075 Merge remote-tracking branch 'asoc/for-6.0' into asoc-linus
-b685cb2882832db7f20c55c65d54d7a9ea1922cb Merge branch 'asoc-linus' into asoc-next
-ba5612d11a2b917e48de86dca31aff11f67ad8e4 Merge remote-tracking branch 'asoc/for-6.2' into asoc-next
+157209ecce2bb83230222f7ce857406beadcb96c Merge remote-tracking branch 'regmap/for-6.0' into regmap-linus
+7c7aa42243cb4059ad5f1f11031eb578ceb6385c Merge branch 'regmap-linus' into regmap-next
 
---===============1175851258951914866==--
+--===============7585819837741115464==--
