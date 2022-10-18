@@ -1,31 +1,36 @@
-Content-Type: multipart/mixed; boundary="===============2366772091873805494=="
+Content-Type: multipart/mixed; boundary="===============7093368026869742422=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vfs/idmapping
-Date: Tue, 18 Oct 2022 08:14:39 -0000
-Message-Id: <166608087968.4112.17758494182757598598@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mtd/linux
+Date: Tue, 18 Oct 2022 08:18:23 -0000
+Message-Id: <166608110302.7028.16911368457319228866@gitolite.kernel.org>
 
---===============2366772091873805494==
+--===============7093368026869742422==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vfs/idmapping
-user: brauner
+repo: pub/scm/linux/kernel/git/mtd/linux
+user: mraynal
 changes:
-  - ref: refs/heads/for-next
-    old: 2b00707e97375fc1015ef844d6d71132d4e7e0da
-    new: b4dd412d4a6231de100ae8ce2a9e1ed649f9e748
-    log: revlist-2b00707e9737-b4dd412d4a62.txt
+  - ref: refs/heads/mtd/fixes
+    old: 568035b01cfb107af8d2e4bd2fb9aea22cf5b868
+    new: 12b58961de0bd88b3c7dfa5d21f6d67f4678b780
+    log: revlist-568035b01cfb-12b58961de0b.txt
 
---===============2366772091873805494==
+--===============7093368026869742422==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-2b00707e9737-b4dd412d4a62.txt
+Content-Disposition: attachment; filename=revlist-568035b01cfb-12b58961de0b.txt
 
+9bf445b65dd7d4c7d0e4efaecf38525abbbe74e3 Merge tag 'x86_paravirt_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+b5f0b11353a6a33a1accd0b742c80ed6b2f35ac0 Merge tag 'x86_microcode_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+193e2268a3bb1404b42f8edcc037a3eafd165aa9 Merge tag 'x86_cache_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+da4ab869e37cf81f93333ba74b16e0ea6d322e15 libceph: drop last_piece flag from ceph_msg_data_cursor
+f791357330b0043ec953ce122ab7519af4b9d24a ceph: wake up the waiters if any new caps comes
 6eb06c46214d33c71ae86d60b3fc9cb17c20beca ceph: fail the request if the peer MDS doesn't support getvxattr op
 7c3ea9870e09e193981695dd67c37a1a2b6d600b ceph: no need to wait for transition RDCACHE|RD -> RD
 aa1d627207cace003163dee24d1c06fa4e910c6b ceph: Use kcalloc for allocating multiple elements
@@ -1043,12 +1048,7 @@ b08cd74448fafaa302ce2bc11beab5e5a55d0065 Merge tag '6.1-rc-smb3-client-fixes-par
 8636df94ec917019c4cb744ba0a1f94cf9057790 Merge tag 'perf-tools-for-v6.1-2-2022-10-16' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 f1947d7c8a61db1cb0ef909a6512ede0b1f2115b Merge tag 'random-6.1-rc1-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/crng/random
 9abf2313adc1ca1b6180c508c25f22f9395cc780 Linux 6.1-rc1
-11c2a8700cdcabf9b639b7204a1e38e2a0b6798e attr: add in_group_or_capable()
-e243e3f94c804ecca9a8241b5babe28f35258ef4 fs: move should_remove_suid()
-72ae017c5451860443a16fb2a8c243bff3e396b8 attr: add setattr_should_drop_sgid()
-ed5a7047d2011cb6b2bf84ceb6680124cc6a7d95 attr: use consistent sgid stripping checks
-b306e90ffabdaa7e3b3350dbcd19b7663e71ab17 ovl: remove privs in ovl_copyfile()
-23a8ce16419a3066829ad4a8b7032a75817af65b ovl: remove privs in ovl_fallocate()
-b4dd412d4a6231de100ae8ce2a9e1ed649f9e748 Merge branch 'fs.ovl.setgid' into for-next
+69d04ca999499bccb6ca849fa2bfc5e6448f7233 mtd: spi-nor: core: Ignore -ENOTSUPP in spi_nor_init()
+12b58961de0bd88b3c7dfa5d21f6d67f4678b780 mtd: core: add missing of_node_get() in dynamic partitions code
 
---===============2366772091873805494==--
+--===============7093368026869742422==--
