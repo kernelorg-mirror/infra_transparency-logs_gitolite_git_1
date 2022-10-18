@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4088739444911695332=="
+Content-Type: multipart/mixed; boundary="===============6042825938578365599=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/intel
-Date: Tue, 18 Oct 2022 21:04:26 -0000
-Message-Id: <166612706619.31137.12679819331043163539@gitolite.kernel.org>
+Date: Tue, 18 Oct 2022 21:04:32 -0000
+Message-Id: <166612707272.31259.11669736991247174401@gitolite.kernel.org>
 
---===============4088739444911695332==
+--===============6042825938578365599==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/pinctrl/intel
 user: andy
 changes:
-  - ref: refs/heads/review-andy
+  - ref: refs/heads/for-next
     old: 5ee7001f44207e198efcf37a814f57446518257b
     new: d100056ebc710531d7be087ca4ca355d73d11395
     log: revlist-5ee7001f4420-d100056ebc71.txt
 
---===============4088739444911695332==
+--===============6042825938578365599==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -58,4 +58,4 @@ a008983e138b8192b79c13fda9dac2a05425de54 pinctrl: merrifield: Add missing header
 27189cffbfd9de4724c7d5e3ac10b7c7bbc02986 pinctrl: intel: Add missing header(s)
 d100056ebc710531d7be087ca4ca355d73d11395 pinctrl: Clean up headers
 
---===============4088739444911695332==--
+--===============6042825938578365599==--
