@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Tue, 18 Oct 2022 19:59:58 -0000
-Message-Id: <166612319811.15628.11657536882436468254@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Tue, 18 Oct 2022 20:11:11 -0000
+Message-Id: <166612387146.24111.5903327949040269180@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: dborkman
 changes:
-  - ref: refs/heads/master
-    old: db49b7f3bf924ed535671bf6bf81b6c5621a439a
-    new: e6822578c8d0915539e3cca7cdff088d3d062f47
-    log: |
-         e6822578c8d0915539e3cca7cdff088d3d062f47 Tue Oct 18 07:59:05 PM UTC 2022
-         
+  - ref: refs/tags/for-netdev
+    old: 0000000000000000000000000000000000000000
+    new: 2271d7b10e85a59130c44e3443074f641f790ab7
