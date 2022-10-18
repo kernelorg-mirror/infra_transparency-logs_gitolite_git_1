@@ -1,23 +1,34 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Tue, 18 Oct 2022 02:39:36 -0000
-Message-Id: <166606077600.24134.12725744336381572161@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
+Date: Tue, 18 Oct 2022 03:05:31 -0000
+Message-Id: <166606233131.11370.16979036981584883596@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/qcom/linux
+user: andersson
 changes:
-  - ref: refs/heads/master
-    old: 473c8ebe011325c7271cfcb4fb3d651b81afc309
-    new: fb5c917b42f57a8e57be74b1950b8a0b7ba2a38f
-    log: |
-         5a027ec7e943ef99c4d85d734a97708e7b3850d4 foo
-         2d2e6ba021a9b7c4aae877c331aa7ab500638d21 foo
-         ee1b804e69f2eb85a7ad8f4f4aa6b4e4f852dcb0 foo
-         7378fc9ab48e62f583c80b493c17083e3398cf57 foo
-         fb5c917b42f57a8e57be74b1950b8a0b7ba2a38f foo
-         
+  - ref: refs/heads/arm64-defconfig-for-6.2
+    old: 0000000000000000000000000000000000000000
+    new: d780386cd44a2f44c90abdb41487f4cdb8be7213
+  - ref: refs/heads/arm64-for-6.2
+    old: 0000000000000000000000000000000000000000
+    new: cf6c35d1bc89e0942c379f841e1d9095fc66d642
+  - ref: refs/heads/clk-for-6.2
+    old: 0000000000000000000000000000000000000000
+    new: 7da54ced3a79ffaa687d99a4b7bfb7591202de9a
+  - ref: refs/heads/defconfig-for-6.2
+    old: 0000000000000000000000000000000000000000
+    new: cea42b8d79663fde7a7138b838dab0b931f4e128
+  - ref: refs/heads/drivers-for-6.2
+    old: 0000000000000000000000000000000000000000
+    new: c8c39c7427b7dfaf799d785ed0b5f2b631757cf4
+  - ref: refs/heads/dts-for-6.2
+    old: 0000000000000000000000000000000000000000
+    new: a42b1ee868361f1cb0492f1bdaefb43e0751e468
+  - ref: refs/heads/arm64-fixes-for-6.1
+    old: 0000000000000000000000000000000000000000
+    new: cb1d0aaa674e99957b85af570cb2730145af01df
