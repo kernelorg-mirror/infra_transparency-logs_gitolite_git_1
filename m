@@ -1,56 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============5220461046041864126=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Tue, 18 Oct 2022 18:14:56 -0000
-Message-Id: <166611689683.4909.9356654536322150877@gitolite.kernel.org>
-
---===============5220461046041864126==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Tue, 18 Oct 2022 18:19:52 -0000
+Message-Id: <166611719244.8255.15397868486229509323@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/master
-    old: a259f6504448344addeb5fc8f9f7ed342ca4c41e
-    new: 7b450c35b4bb6e14a7c124e97979c22242ee54ad
-    log: |
-         7b450c35b4bb6e14a7c124e97979c22242ee54ad drop some btrfs lockdep patches
-         
-
---===============5220461046041864126==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1666116896 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1666116894-9e290e530f2149ff81ba69aa1dd5eadb6aeb5967
-
-a259f6504448344addeb5fc8f9f7ed342ca4c41e 7b450c35b4bb6e14a7c124e97979c22242ee54ad refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmNO7SAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+WGoQAIx/8t9+yxBQsmiJl726
-uyKGUPVI0X4tO270JUBnxvFKl/Vobs/aRyUCm99obMf3xJlB9zZXgt16qLWKAnIG
-K36WykvGRMlTbVQTTLp0dHALFLwWtv+SrKIa/o5PN1pYAQFXqmJ6DrbT/JOTzQMR
-wtym6Zt2V+3nf1XMAGBrOl1xDY84sW68eJyo8sjPx1Z+dCjztiCA2Gap+WckrrFS
-txzyywfChEGxPjEH3X2Ttxmrq1iQf0Q3Y4Jp+dpd72f3EwwPzGhMoyXc3Jddq03E
-E0RyT/w3piR6ocnBYKX2kYNHftuerpwHWS+ERRkyzole6hXbqpUvTuSL0flJ5K+c
-RE7cf3byP69FIsgP7+mobxOIBbW6MgCGNQpNNLEIoT6w5cfQG3j3ogtGlT9Mf2Hu
-t2dgnfbpLsZCPk6fSd015VoreFI0H1XHBcaw5R0lRhcEJbvfJ7c85JjuC2Cv4X5a
-O1MEb8wYgtY54WSkNFju6t5zbOanzsdC8xGt8VCBpoPdkY3cisXay1vjV/gT9ep6
-6hVRPk4XVGlk//ba6qHWjxGAHDBo7f0VTrvl+TY/Jnh+aRnpCWF2ySrojgvsaW9g
-vXOBLpzsroVrQRNynqjujGvQa9v9SZ/3jrtcsaS0IX2+1NOQNv6IJUZZIawmXvLo
-b8eL+nRecGLogWBOzi9vUH3v
-=2Hr+
------END PGP SIGNATURE-----
-
---===============5220461046041864126==--
+  - ref: refs/heads/20221017_kuninori_morimoto_gx_asoc_soc_dapm_c_random_cleanups
+    old: 0000000000000000000000000000000000000000
+    new: 0135ae74b4f16fd08c9bad3b965234961d377fa7
+  - ref: refs/heads/20221017_pierre_louis_bossart_asoc_intel_sof_simplify_s3_resume_flows
+    old: 0000000000000000000000000000000000000000
+    new: 9f68d6e64f51bf62f8d2f7d82a425470e9aa3b24
+  - ref: refs/heads/20221018_peter_ujfalusi_asoc_sof_intel_harden_the_ipc4_low_level_sequencing
+    old: 0000000000000000000000000000000000000000
+    new: 010c050fe9ea263e3fc17493822117610a23f662
+  - ref: refs/heads/file5LlSky
+    old: 0000000000000000000000000000000000000000
+    new: 22627f1f349203dabfd0ec4a4d12b186b7c57280
+  - ref: refs/heads/fileBTcH1t
+    old: 0000000000000000000000000000000000000000
+    new: 67860d2a8e0db7783f680f6f1c1600ed34ed3a97
+  - ref: refs/heads/fileLMvljD
+    old: 0000000000000000000000000000000000000000
+    new: 666ea0ad932fbdc82644457f1a78f4584801f698
