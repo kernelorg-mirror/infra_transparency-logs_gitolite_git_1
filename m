@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Tue, 18 Oct 2022 19:17:51 -0000
-Message-Id: <166612067133.18238.1892126320113324527@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/zx2c4/cgit
+Date: Tue, 18 Oct 2022 19:24:43 -0000
+Message-Id: <166612108381.22345.14961068592332370375@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/man-pages/man-pages
-user: alx
+repo: pub/scm/linux/kernel/git/zx2c4/cgit
+user: zx2c4
 changes:
-  - ref: refs/heads/master
-    old: b0c4a42f8280de40d8544e9b76089138a1c55e70
-    new: 12b6045567037e783d0c3a79f276a15fd748d3a6
+  - ref: refs/heads/ch/git-2-38
+    old: 87c268d595b0a3b28dff56908f7516ca246b3e47
+    new: 2c804c649cc4d8c54ae211d21ae9971d32211e29
     log: |
-         340b15715ad2996a3c6db575abc12ca2eb17ddf9 cmd.mk, install.mk: Move command definitions to cmd.mk
-         12b6045567037e783d0c3a79f276a15fd748d3a6 cmd.mk, install.mk: Avoid modifying existing directories at 'make install'
+         2c804c649cc4d8c54ae211d21ae9971d32211e29 git: update to v2.38.1
          
