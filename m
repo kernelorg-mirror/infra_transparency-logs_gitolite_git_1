@@ -1,24 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/intel
-Date: Tue, 18 Oct 2022 13:14:41 -0000
-Message-Id: <166609888128.8444.7843128991377165358@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
+Date: Tue, 18 Oct 2022 13:14:46 -0000
+Message-Id: <166609888663.8535.7375211231145121801@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pinctrl/intel
-user: andy
+repo: pub/scm/linux/kernel/git/peterz/queue
+user: peterz
 changes:
-  - ref: refs/heads/for-next
-    old: e6b665a1c9ae275fb8d5eeef8221df51b0065a8c
-    new: 5ee7001f44207e198efcf37a814f57446518257b
+  - ref: refs/heads/x86/urgent
+    old: e7ad18d1169c62e6c78c01ff693fd362d9d65278
+    new: 586edc9c16e747ce2b2293082bfa1954d6d7f713
     log: |
-         0dd3df8645da1b33775f0d67104cdc220f0046e6 pinctrl: zynqmp: Add missing header(s)
-         3d76b9120f123e1425d514dfbd95d7698014292d pinctrl: cherryview: Add missing header(s)
-         e7ace72996126ba98d9b614e9f993cf945750b38 pinctrl: lynxpoint: Add missing header(s)
-         4fbca43b77426d0174359ee236a318f3d23ab6a2 pinctrl: merrifield: Add missing header(s)
-         4d9ca0450f645ebde2128755b2adf574c3a369e8 pinctrl: intel: Add missing header(s)
-         5ee7001f44207e198efcf37a814f57446518257b pinctrl: Clean up headers
+         b133fe98df8188ccc2d418ff9fd6cb528f8c43fc x86/ftrace: Remove ftrace_epilogue()
+         586edc9c16e747ce2b2293082bfa1954d6d7f713 ftrace,kcfi: Separate ftrace_stub() and ftrace_stub_graph()
          
