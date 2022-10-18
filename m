@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0144088771615617276=="
+Content-Type: multipart/mixed; boundary="===============3279265029179441349=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 18 Oct 2022 03:41:27 -0000
-Message-Id: <166606448724.4172.15163214280912037437@gitolite.kernel.org>
+Date: Tue, 18 Oct 2022 03:41:45 -0000
+Message-Id: <166606450553.4340.13744243233270712615@gitolite.kernel.org>
 
---===============0144088771615617276==
+--===============3279265029179441349==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,70 +16,46 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue
-    old: 67d0a917fb3f9e80c3fb6098ada2080d1b425c94
-    new: 9abf2313adc1ca1b6180c508c25f22f9395cc780
-    log: revlist-67d0a917fb3f-9abf2313adc1.txt
+  - ref: refs/tags/mkp-scsi-staging
+    old: 7f177e817aff49533d406c0207a29cda712153ee
+    new: 33e2a3c3fbc77273a959f419f98e4c87d532b670
+    log: revlist-7f177e817aff-33e2a3c3fbc7.txt
 
---===============0144088771615617276==
+--===============3279265029179441349==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1666064476 -0400
+pusher 75C5DE3D 1666064492 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1666064474-19bc1c5a1bb228102873f52e58421824bf5e669f
+nonce 1666064491-faf32d404d5049d50c2766f0d058dd175523eebb
 
-67d0a917fb3f9e80c3fb6098ada2080d1b425c94 9abf2313adc1ca1b6180c508c25f22f9395cc780 refs/heads/queue
+7f177e817aff49533d406c0207a29cda712153ee 33e2a3c3fbc77273a959f419f98e4c87d532b670 refs/tags/mkp-scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmNOIFwACgkQ7ulgGnXF
-3j3LTg/+JoExhNjOKiTILa2jXcRV4HZkhmqJ4Ips9SkDfq6xF66Hn+2tCaFCYMgy
-NYEfWKzo65vbN1Ns6CO8CXFEhAD4/oK+zFrnnVsXAOa3hTrh49X5l291mjxG3dN5
-rHN9hO3aL0GnZ67DqcfV8DdgBOIyqGz8FyAzxR4K9yJdYPgA2A5F4KGaY73Df1zF
-MQHojFafKK/B1RsmVxr+N2ifbdpDxkZWo7sTzReX4YTmgEXLjq8wfqzAOa6ANPR8
-PmNIY2wCopQ70Ww0hQM8QM7p7B6+t7x2ipDWnAW8Y+FpsDWWOHkLE4FGQKTAC2bE
-nIse+h5Xnm9xGcs/CMDeR/h6aXbAv4ZSAloXJhshIydSzV/3a1psEoJXar7FSS+W
-qxvZpJ6+hi4YXuzWWTAd7B1Vg25xK3czy/lPnKKkzOnGdx0pn0aVn1U06c+32wpW
-cJ6Rkn5D9OJe4/GqiAe/+mBs5d2TuUuCa9WS+VVI0o8OtfBQKFhOXxhdJpFGoXLn
-Ox3KJeIwhDwye71rJFnbluZ+FOe5ZZZ8AUeDb6yqTq1ZzKCcsiTXweXdOkQvNN+y
-Bix4A3iUfYX4hZIBq1WTGsC3EWhaLFu3q6I/lr/2vplG5TLpYNTZrgL9hsjkblxt
-dqS+MwctvenhSgvqkU9VSagO1QG+tsPBPBeBoipZ2rc+4F0qVwQ=
-=65rJ
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmNOIGwACgkQ7ulgGnXF
+3j3siw//czN68YcDymy4Pq37MLCriNuUUzYrMpnKS2JKAyfa924NmHK2lDu9motX
+svor+VAkKWnodWqx1XyR5PSEo+FeYEJPPwQmA6Qf1526I4/L0tvXCBzMUySL5bBb
+Yw4Ess6kAP3YW+j5bF3CjPYyIeXzfxu0iQ4RWC7NxJQhRhe1fP0laLMYbusbBWn6
+tsIYFyh0Z5deeimN3iGaRHxmX1Epb66KYgT/5oDsTAUMzKArSTSJBRf3Td+zW3W1
+QS+RtX190DZ+flzOWcfP9a5zh6U5gfLVdopASrT8rX927lScfmrFExa2gVR75dWe
+jprjO9wYGkf89YJmZPzwZPa75ytRRmEN1f2O+3zvxKNqRSJP3Jo34bJ+ulyJCMv9
+MIdMC2TYJVrgNqRjCoX+S93oCOjo/vsOcZapc+A1jYRRinglKR4NslYS/HyXUa8J
+LXkQHvhMuGtA+8tI2uLc1Ge2ZM+OmvvMGHFhObZEUXw4faFxZPSZNM68p2KWSD4Z
+FX5W/KnN19KMqGCBMCCNK6pj4M6FW/GjzPJS/ji11/NLuO/5avBiw/aMRWjxniSl
+ba9oD741oaIcivR2aDYkPR6ZaphjZoJyhgsdYdnnfweKXGbUDFJUpez7BcP0rgWM
+ERg4n4eqwgmB0VlOO5vw+/vfHTUw6UfTg1ZQ40KeC6KiAR05U6w=
+=qHof
 -----END PGP SIGNATURE-----
 
---===============0144088771615617276==
+--===============3279265029179441349==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-67d0a917fb3f-9abf2313adc1.txt
+Content-Disposition: attachment; filename=revlist-7f177e817aff-33e2a3c3fbc7.txt
 
-bb1f11546eb3cd1e2b8ea45653eb0f530e42b035 Merge tag 'x86_asm_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-901735e51e4dea1eee816b0b57d1d6abbd94b3d5 Merge tag 'x86_misc_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-9bf445b65dd7d4c7d0e4efaecf38525abbbe74e3 Merge tag 'x86_paravirt_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-b5f0b11353a6a33a1accd0b742c80ed6b2f35ac0 Merge tag 'x86_microcode_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-193e2268a3bb1404b42f8edcc037a3eafd165aa9 Merge tag 'x86_cache_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-da4ab869e37cf81f93333ba74b16e0ea6d322e15 libceph: drop last_piece flag from ceph_msg_data_cursor
-f791357330b0043ec953ce122ab7519af4b9d24a ceph: wake up the waiters if any new caps comes
-6eb06c46214d33c71ae86d60b3fc9cb17c20beca ceph: fail the request if the peer MDS doesn't support getvxattr op
-7c3ea9870e09e193981695dd67c37a1a2b6d600b ceph: no need to wait for transition RDCACHE|RD -> RD
-aa1d627207cace003163dee24d1c06fa4e910c6b ceph: Use kcalloc for allocating multiple elements
-b4b924c7a16e857b0715603456045251a49f2ea6 ceph: increment i_version when doing a setattr with caps
-bd04b9192e1ff6859d6b3906e91cfd5c9b0ad55b ceph: fail the open_by_handle_at() if the dentry is being unlinked
-aa87052dd965a6094355fcc13d5abc3f5bebfbe4 ceph: fix incorrectly showing the .snap size for stat
-71cf0c1c4f9f8e42c84ca53a5ca7091e4eea7f6a ceph: remove Sage's git tree from documentation
-a76d550f761d4f1b0a0e2faa27af122e51904b86 clk: qcom: gcc-sm6375: Remove unused variables
-3eba620e7bd772a0c7dc91966cb107872b54a910 Merge tag 'x86_cleanups_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-39bc9b589ea3d2750a6fec6409cd7fc687bc99fe clk: qcom: gcc-sm6375: Ensure unsigned long type
-49f4c2d101bbf93c62e3fa58e666f71352c54121 Merge branches 'clk-ofnode', 'clk-bindings', 'clk-cleanup', 'clk-zynq' and 'clk-xilinx' into clk-next
-a64b79c01c2836ddd8e1eb7c8173b44c3e66f999 Merge branches 'clk-samsung', 'clk-mtk', 'clk-rm', 'clk-ast' and 'clk-qcom' into clk-next
-26bebbfed5bd06fd7202fd1befa6c2c935a593e8 Merge branches 'clk-rockchip', 'clk-renesas', 'clk-microchip', 'clk-allwinner' and 'clk-imx' into clk-next
-b7f257ceb3c88ee3e2c6b0d1db703c818d3971f1 Merge branches 'clk-fixed-rate', 'clk-spreadtrum', 'clk-pxa' and 'clk-ti' into clk-next
-f9efefdba95a5110a1346bb03acdd8ff3cdf557f Merge branches 'clk-baikal', 'clk-broadcom', 'clk-vc5' and 'clk-versaclock' into clk-next
-c645c11a2dba116bad3ee43e08e330db8f03ede6 Merge tag 'audit-pr-20221003' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/audit
-98828955971363e838149105c268b1fad905f15b drm/i915/gvt: fix a memory leak in intel_gvt_init_vgpu_types
 1aa3834f510c9d9206ce4d40aff4903b0c016761 drm/i915/gvt: simplify vgpu configuration management
 bdef2b7896df293736330eb6eb0f43947049b828 vfio/mdev: make mdev.h standalone includable
 89345d5177aa0f6d678251e1e0870b0eeb1ab510 vfio/mdev: embedd struct mdev_parent in the parent data structure
@@ -1080,5 +1056,29 @@ b08cd74448fafaa302ce2bc11beab5e5a55d0065 Merge tag '6.1-rc-smb3-client-fixes-par
 8636df94ec917019c4cb744ba0a1f94cf9057790 Merge tag 'perf-tools-for-v6.1-2-2022-10-16' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 f1947d7c8a61db1cb0ef909a6512ede0b1f2115b Merge tag 'random-6.1-rc1-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/crng/random
 9abf2313adc1ca1b6180c508c25f22f9395cc780 Linux 6.1-rc1
+44112922674b94a7d699dfff6307fc830018df7c scsi: libsas: Add sas_ata_device_link_abort()
+4b329abc91800d23941ac773e69b322a13981ecb scsi: hisi_sas: Move slot variable definition in hisi_sas_abort_task()
+930d97dabdd56681aef752a35475f0212a171741 scsi: hisi_sas: Add SATA_DISK_ERR bit handling for v3 hw
+4ef4f1a6155571d3d53583a4e8e7ccbbec220b8a scsi: hisi_sas: Modify v3 HW SATA disk error state completion processing
+0b639decf65160b1afd9993019be37d7869c0340 scsi: pm8001: Modify task abort handling for SATA task
+811be570a9a8df96b4fd43ff00837b947bbaf49b scsi: pm8001: Use sas_ata_device_link_abort() to handle NCQ errors
+8e8d43642f2f9bbed9e7823c6e5b6fd7c7fbc3dc scsi: libsas: Make sas_{alloc, alloc_slow, free}_task() private
+cc22efbec0110181725b1f5f6778155a2e352522 scsi: libsas: Update SATA dev FIS in sas_ata_task_done()
+b6da92356cd6106dd9e7e8e168e3b7df4fe37d5d scsi: esas2r: Initialize two host template members implicitly
+77916da7e4a0975bd2b93e5214295e3318886cdb scsi: esas2r: Introduce scsi_template_proc_dir()
+ecca3f9b16366e601a6748bf31e9fe227812248f scsi: core: Fail host creation if creating the proc directory fails
+036abd6140078b4125f60e731f28e15de708f87d scsi: core: Introduce a new list for SCSI proc directory entries
+d460f624059266c2e7f0280bdd3ae806d4b75211 scsi: core: Rework scsi_single_lun_run()
+6d1aa3b0589bdd17a46ed74fbd2c2d0fc59038ff scsi: ufs: Simplify ufshcd_set_dev_pwr_mode()
+195fae206ef20a29b09f281b6db8ea30fafaa908 scsi: core: Remove the put_device() call from scsi_device_get()
+f93ed747e2c7e6bfbf309291879b33b0d0231a7d scsi: core: Release SCSI devices synchronously
+773792e4e704ca1c47e3d9bc6ed5be2a00a22ad5 scsi: libsas: Introduce SAS address comparison helpers
+2d08f329a4f2eace6b041d60132f441fc8e0b616 scsi: libsas: Introduce sas_find_attached_phy_id() helper
+ec64858657a8c393e2ae956d37c23bf94aee8200 scsi: pm8001: Use sas_find_attached_phy_id() instead of open coding it
+178c39d94ac2cf9524ff797d90dcdf96b110fb27 scsi: mvsas: Use sas_find_attached_phy_id() instead of open coding it
+f0ed7bd5d9137b8e736e44ce353620ec19ee6242 scsi: hisi_sas: Use sas_find_attathed_phy_id() instead of open coding it
+ad74d1dadbe9fc5ff7f80796f7cac0f126a5ea74 scsi: libsas: Use sas_phy_match_dev_addr() instead of open coding it
+bfa22905f3865469479f028770a352126ad0d2e8 scsi: libsas: Use sas_phy_addr_match() instead of open coding it
+868a8824838f1f0d781e838fa36dbb2de6bc7fdd scsi: libsas: Use sas_phy_match_port_addr() instead of open coding it
 
---===============0144088771615617276==--
+--===============3279265029179441349==--
