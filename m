@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7927890775063052820=="
+Content-Type: multipart/mixed; boundary="===============4397099528071515109=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 18 Oct 2022 03:40:41 -0000
-Message-Id: <166606444137.3655.11058490652213164619@gitolite.kernel.org>
+Date: Tue, 18 Oct 2022 03:40:56 -0000
+Message-Id: <166606445696.3853.7670295215919085472@gitolite.kernel.org>
 
---===============7927890775063052820==
+--===============4397099528071515109==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,48 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/fixes
-    old: e0e0747de0ea3dd87cdbb0393311e17471a9baf1
-    new: dc8e483f684a24cc06e1d5fa958b54db58855093
-    log: revlist-e0e0747de0ea-dc8e483f684a.txt
+  - ref: refs/tags/mkp-scsi-queue
+    old: f79e7cc1df6e097bf926fcedc883d4683110d734
+    new: eda5821005f88d9da94497fc8b6a2f49ffccecac
+    log: revlist-f79e7cc1df6e-eda5821005f8.txt
 
---===============7927890775063052820==
+--===============4397099528071515109==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1666064430 -0400
+pusher 75C5DE3D 1666064446 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1666064427-7d647b85be7cfb82bca82fe31e058a86cafa2d96
+nonce 1666064445-598c0ee0cf9c3510822ba5ec6aa118d892b54840
 
-e0e0747de0ea3dd87cdbb0393311e17471a9baf1 dc8e483f684a24cc06e1d5fa958b54db58855093 refs/heads/fixes
+f79e7cc1df6e097bf926fcedc883d4683110d734 eda5821005f88d9da94497fc8b6a2f49ffccecac refs/tags/mkp-scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmNOIC4ACgkQ7ulgGnXF
-3j3duA/9EeIAX2xx6/gA6QmtHtl7mtYzL+fbJfoBCEd/+RzmboTSzlSe898m0LRT
-i9TT0Y2utM3Lwn1XoYlWNqSeLZFdMLP7KkrkTcai66H6cwSOpL0499MjOSIFfZWb
-pzX9MJ8lOp6JkwFTUPfnRmCj4oUDYkTBWvRXhezkEt3wTLT36luCSE+G98/S9kcc
-b6kZg+V2nlMOWLBzq+ee5ENXHC3SdE+WTM483Iz7t63iYxbZZxzGGf5S0qwFnxcR
-Nms0yxa9CoMbnfBzoOqX2J6AlOJv1vqzF3WL85Y7/u/iYJ90T4C8kaG8cqAErjas
-poWWz4NCrhs6doKUNsRrf85GTG2FjlthHIMbDX232At/XjKiEkWJfd8ywei+OA04
-hVTmKejKQztL8AMmzJZMVkpjuRmHsjAywFkRxpmJbagRfMLgfS6sPIXRxP0R6ZJ2
-mbUxDyov0sYEK0YZ/pjECK5AbfqUUcOg0og31xMtRsCjRJS89IzHCZE0hBCTUzp+
-3z2oKOqO3Zz4UD1/SeNTSjmzmQxQhQb7Ga3jzUEuAzEBAcwOLDex6VT3RoEOu5Yv
-KUpY6TYMqcnomi0uTl2CaSNymGQSx1IwiiYCK0VzpMqVN5SPaTi50jKrO4lICRpT
-xADjjyi4LNsfdred/Fyn2Bvfj4HNFS6isLbfTnAgO8Oh8nmStJo=
-=tidQ
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmNOID4ACgkQ7ulgGnXF
+3j2AVQ//agjQafjKjD8js9LKa4M283vWw7Ig1VUgSK3clizBJngRH/gtRhu0MIqX
+/SYXCDAvISGl+MiMljwaRIcMytZi1eb8iE1ZJMzLAneaYDurIK5B0WEcUmqo1LZ4
+oRct5Cc6ovHF3zlpAQ/qe10YeMBMoiTMUtGnZhxXu/5wMC9tRRZSGJ3HSwrpqHSh
+b/81z3q5gL6MTnv6rSdI32IAsjmRVKnfc0whDw7j2oIJ6jb0X4RcWx8Uw86wZxKg
+N8GnY/e0Y4Aqkq7hHPcyccN04kFF34Cxek+wYLChY1rv9moiAu7uSjVuLHlRyvr8
+MT4OP7Fh6IXEnjnYbxY/sQebiu3YdvgZltBvmr7wlfnAW4D34S+byOKah6L66bfg
+55yMMtz9lZhsDJwR1fcY9fQLZQBapUc1FM/Ur4L6ZYP8U30h8l2KC40sxxiwL6AH
+48N73VqtZljabmShgX+nJYPH2bOlbyeDFWSL3t0kLipYJfvQxqpESAKDS2IjIHFT
+yFFsYtKG81lZyVRAMh13bp7uE0MptbizQqUGbl/AqXA1vlGhGzP4xUBjeh9gyAKP
+A95E6mnn6c5PFX+hBCP/eM+DO8+0AZ8/5bvFKd+q1gWSOkOo/bsrp1jXTtvDEJlT
+Z6otjqXyoTBmfSBEyZV18cXymLKX3bv/Ane0lMAdVuCzaevitq4=
+=+ARJ
 -----END PGP SIGNATURE-----
 
---===============7927890775063052820==
+--===============4397099528071515109==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-e0e0747de0ea-dc8e483f684a.txt
+Content-Disposition: attachment; filename=revlist-f79e7cc1df6e-eda5821005f8.txt
 
+bb1f11546eb3cd1e2b8ea45653eb0f530e42b035 Merge tag 'x86_asm_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+901735e51e4dea1eee816b0b57d1d6abbd94b3d5 Merge tag 'x86_misc_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 9bf445b65dd7d4c7d0e4efaecf38525abbbe74e3 Merge tag 'x86_paravirt_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 b5f0b11353a6a33a1accd0b742c80ed6b2f35ac0 Merge tag 'x86_microcode_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 193e2268a3bb1404b42f8edcc037a3eafd165aa9 Merge tag 'x86_cache_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
@@ -1078,7 +1080,5 @@ b08cd74448fafaa302ce2bc11beab5e5a55d0065 Merge tag '6.1-rc-smb3-client-fixes-par
 8636df94ec917019c4cb744ba0a1f94cf9057790 Merge tag 'perf-tools-for-v6.1-2-2022-10-16' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 f1947d7c8a61db1cb0ef909a6512ede0b1f2115b Merge tag 'random-6.1-rc1-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/crng/random
 9abf2313adc1ca1b6180c508c25f22f9395cc780 Linux 6.1-rc1
-2331ce6126be8864b39490e705286b66e2344aac scsi: core: Restrict legal sdev_state transitions via sysfs
-dc8e483f684a24cc06e1d5fa958b54db58855093 scsi: lpfc: Fix memory leak in lpfc_create_port()
 
---===============7927890775063052820==--
+--===============4397099528071515109==--
