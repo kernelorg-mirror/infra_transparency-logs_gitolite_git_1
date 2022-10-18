@@ -1,31 +1,39 @@
-Content-Type: multipart/mixed; boundary="===============8834453120043336117=="
+Content-Type: multipart/mixed; boundary="===============3732892601476870997=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
-Date: Tue, 18 Oct 2022 08:45:45 -0000
-Message-Id: <166608274527.27265.15748588565326932112@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/shawnguo/linux
+Date: Tue, 18 Oct 2022 08:45:53 -0000
+Message-Id: <166608275378.27371.1793460159906607249@gitolite.kernel.org>
 
---===============8834453120043336117==
+--===============3732892601476870997==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kees/linux
-user: kees
+repo: pub/scm/linux/kernel/git/shawnguo/linux
+user: shawnguo
 changes:
-  - ref: refs/heads/for-next/hardening
-    old: 3d44c277d00f7ae8c30b15f652023edda89f82a6
-    new: 7c2c416bb9d7b5bcf329d9968e13d7316493b74c
-    log: revlist-3d44c277d00f-7c2c416bb9d7.txt
+  - ref: refs/heads/master
+    old: 568035b01cfb107af8d2e4bd2fb9aea22cf5b868
+    new: 9abf2313adc1ca1b6180c508c25f22f9395cc780
+    log: revlist-568035b01cfb-9abf2313adc1.txt
 
---===============8834453120043336117==
+--===============3732892601476870997==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-3d44c277d00f-7c2c416bb9d7.txt
+Content-Disposition: attachment; filename=revlist-568035b01cfb-9abf2313adc1.txt
 
+bb1f11546eb3cd1e2b8ea45653eb0f530e42b035 Merge tag 'x86_asm_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+901735e51e4dea1eee816b0b57d1d6abbd94b3d5 Merge tag 'x86_misc_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+9bf445b65dd7d4c7d0e4efaecf38525abbbe74e3 Merge tag 'x86_paravirt_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+b5f0b11353a6a33a1accd0b742c80ed6b2f35ac0 Merge tag 'x86_microcode_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+193e2268a3bb1404b42f8edcc037a3eafd165aa9 Merge tag 'x86_cache_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+da4ab869e37cf81f93333ba74b16e0ea6d322e15 libceph: drop last_piece flag from ceph_msg_data_cursor
+f791357330b0043ec953ce122ab7519af4b9d24a ceph: wake up the waiters if any new caps comes
+6eb06c46214d33c71ae86d60b3fc9cb17c20beca ceph: fail the request if the peer MDS doesn't support getvxattr op
 7c3ea9870e09e193981695dd67c37a1a2b6d600b ceph: no need to wait for transition RDCACHE|RD -> RD
 aa1d627207cace003163dee24d1c06fa4e910c6b ceph: Use kcalloc for allocating multiple elements
 b4b924c7a16e857b0715603456045251a49f2ea6 ceph: increment i_version when doing a setattr with caps
@@ -1042,13 +1050,5 @@ b08cd74448fafaa302ce2bc11beab5e5a55d0065 Merge tag '6.1-rc-smb3-client-fixes-par
 8636df94ec917019c4cb744ba0a1f94cf9057790 Merge tag 'perf-tools-for-v6.1-2-2022-10-16' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 f1947d7c8a61db1cb0ef909a6512ede0b1f2115b Merge tag 'random-6.1-rc1-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/crng/random
 9abf2313adc1ca1b6180c508c25f22f9395cc780 Linux 6.1-rc1
-6337ae90b4572c073d906f545c253568244d35a5 string: Rewrite and add more kern-doc for the str*() functions
-95d10c66f48a0bb91399eb1edd76a4e2dbbebfe1 overflow: Fix kern-doc markup for functions
-bb15be9ed0e0b674363d2f3dc40ad97263816eb2 overflow: disable failing tests for older clang versions
-5155a34c3b9371db5569620ae523879aea3c2f2e overflow: Refactor test skips for Clang-specific issues
-19836fd9ace6c9fdc2a4e14629319a5448c34378 kunit/memcpy: Adding dynamic size and window tests
-d8e10fa2ff5c7aa6731307282fca693815cecc6d string: Add __alloc_size hint to kmemdup()
-c9784d67b292a74711b4812b266bcb1a1eadfe57 string: Convert strscpy() self-test to KUnit
-7c2c416bb9d7b5bcf329d9968e13d7316493b74c fortify: Short-circuit known-safe calls to strscpy()
 
---===============8834453120043336117==--
+--===============3732892601476870997==--
