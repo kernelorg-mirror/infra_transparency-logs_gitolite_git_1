@@ -1,46 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============6736685637628040809=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/kernel/pgpkeys
-Date: Tue, 18 Oct 2022 15:02:53 -0000
-Message-Id: <166610537373.23752.8306950095828693828@gitolite.kernel.org>
-
---===============6736685637628040809==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
+Date: Tue, 18 Oct 2022 15:03:57 -0000
+Message-Id: <166610543737.24231.6757166410218191107@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/kernel/pgpkeys
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/robh/linux
+user: robh
 changes:
-  - ref: refs/heads/master
-    old: fbd95b47274555da547da462f5254a949f8ce4e4
-    new: 314535bd5ca23260b04b81f930fd1924aa0269ad
+  - ref: refs/heads/dt/next
+    old: 7f3ab3785effcdcc6377c7f5f9260535e4f7fbf7
+    new: 6a1cb5b7f7f15816e5ec4454adc43633ff299614
     log: |
-         314535bd5ca23260b04b81f930fd1924aa0269ad Periodic update from keys.openpgp.org
+         5b4248bfee04ba577e0d8ca8ddd30f1cb03ce5e5 dt-bindings: display: panel: use spi-peripheral-props.yaml
+         3eecdba4c01c8fcc3de69278a1da6e596280c582 dt-bindings: ufs: cdns,ufshc: add missing dma-coherent field
+         63deeba64f4cc59d6fc7ae4094ffd208561992e8 dt-bindings: misc: Convert IDT 89HPESx to DT schema
+         6a1cb5b7f7f15816e5ec4454adc43633ff299614 dt-bindings: clock: Convert pwm-clock to DT schema
          
-
---===============6736685637628040809==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher B6C41CE35664996C! 1666105373 -0400
-pushee gitolite.kernel.org:pub/scm/docs/kernel/pgpkeys
-nonce 1666105373-3405a499d0f90c8968b26d81964b2faf91552c8e
-
-fbd95b47274555da547da462f5254a949f8ce4e4 314535bd5ca23260b04b81f930fd1924aa0269ad refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCY07AHQAKCRC2xBzjVmSZ
-bFxPAP4oTkNb7gEOPc2Jt6rtSJN13fjjKKSih87CueiDZARj9AD+OpsNoU34Indu
-lcsPOA7tqPMr6h7EleuBfsFikSOtOgo=
-=2zoK
------END PGP SIGNATURE-----
-
---===============6736685637628040809==--
