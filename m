@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1830299277318400260=="
+Content-Type: multipart/mixed; boundary="===============7400588463597555667=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/livepatching/livepatching
-Date: Tue, 18 Oct 2022 13:47:46 -0000
-Message-Id: <166610086625.1866.1482207871240205800@gitolite.kernel.org>
+Date: Tue, 18 Oct 2022 13:51:14 -0000
+Message-Id: <166610107449.4671.17606131491397899725@gitolite.kernel.org>
 
---===============1830299277318400260==
+--===============7400588463597555667==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,20 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/livepatching/livepatching
 user: jikos
 changes:
-  - ref: refs/heads/master
-    old: 033a94412b6065a21c2ede2f37867e747a84563f
-    new: 4de65c5830233e7a4adf2e679510089ec4e210c7
-    log: revlist-033a94412b60-4de65c583023.txt
+  - ref: refs/heads/for-next
+    old: 65d22130f2c481d41138adca3250a702d6d71e4d
+    new: cad81ab739979d3d628250e763eace86ad2514e5
+    log: revlist-65d22130f2c4-cad81ab73997.txt
+  - ref: refs/heads/for-6.2/core
+    old: 0000000000000000000000000000000000000000
+    new: 53910ef7ba04fbf1ea74037fa997d3aa1ae3e0bd
 
---===============1830299277318400260==
+--===============7400588463597555667==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-033a94412b60-4de65c583023.txt
+Content-Disposition: attachment; filename=revlist-65d22130f2c4-cad81ab73997.txt
 
-0bdcef54a25b1990ab43cb58817731290b07dc50 Merge branch 'slab/for-6.1/trivial' into slab/for-next
-af961f8059a42d1b9941dd8aa83420b25fd17e91 Merge branch 'slab/for-6.1/slub_debug_waste' into slab/for-next
 445d41d7a7c15793933f47c0c23fae3a1d09a8c1 Merge branch 'slab/for-6.1/kmalloc_size_roundup' into slab/for-next
 8ad891ed435ba24465e0650942267e90a060675f RDMA/rxe: Remove error/warning messages from packet receiver path
 a1ebcd59430236b336428bbf8e1da16fb87d56e4 Merge branch 'v6.0-rc7'
@@ -1050,5 +1051,7 @@ e572410e47a4e9647d5d7a49ca699a1497378707 Merge tag 'signal-for-v5.20' of git://g
 adf4bfc4a9ab86be0b72fa9cadc9e7ab6ad15dfe Merge tag 'cgroup-for-6.1' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/cgroup
 b520410654103086ccc0d339c0ff645d4c4dd697 Merge tag 'printk-for-6.1' of git://git.kernel.org/pub/scm/linux/kernel/git/printk/linux
 4de65c5830233e7a4adf2e679510089ec4e210c7 Merge tag 'livepatching-for-6.1' of git://git.kernel.org/pub/scm/linux/kernel/git/livepatching/livepatching
+53910ef7ba04fbf1ea74037fa997d3aa1ae3e0bd livepatch: Move the result-invariant calculation out of the loop
+cad81ab739979d3d628250e763eace86ad2514e5 Merge branch 'for-6.2/core' into for-next
 
---===============1830299277318400260==--
+--===============7400588463597555667==--
