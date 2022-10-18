@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6971035356914731650=="
+Content-Type: multipart/mixed; boundary="===============3335718979935086754=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/xfstests-dev
-Date: Tue, 18 Oct 2022 17:56:43 -0000
-Message-Id: <166611580352.26004.5665031773710323789@gitolite.kernel.org>
+Date: Tue, 18 Oct 2022 18:00:27 -0000
+Message-Id: <166611602789.28942.13871887696514411005@gitolite.kernel.org>
 
---===============6971035356914731650==
+--===============3335718979935086754==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,27 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ebiggers/xfstests-dev
 user: ebiggers
 changes:
-  - ref: refs/heads/master
-    old: b91889d79e1d92e22860504e40108a2e4d054c33
-    new: 3b5cb74c03312b5ac3349a0759c8d32bb9d0dada
-    log: revlist-b91889d79e1d-3b5cb74c0331.txt
+  - ref: refs/heads/wip-wrapped-keys
+    old: a37c4ea3d067a8e1cac1bb15698440d072f503cd
+    new: 4cc971bee1192f3eae6dd0056b0f53a3e76ac9e6
+    log: revlist-a37c4ea3d067-4cc971bee119.txt
 
---===============6971035356914731650==
+--===============3335718979935086754==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b91889d79e1d-3b5cb74c0331.txt
+Content-Disposition: attachment; filename=revlist-a37c4ea3d067-4cc971bee119.txt
 
-378cf1c48143fed4ada0ce65ee700509040d1e20 fstests: add more dmerror related test cases into eio group
-437f7742b8f1a71bd12c7b778d5d590166e9f800 xfs/432: fix this test when external devices are in use
-bbfa39e7a5cf1e11b1e0f3448f690ae16e9e5477 xfs/291: convert open-coded _scratch_xfs_repair usage
-b41bf16361fee250d0698ffebf2fe141e47bde88 xfs/533: fix false negatives for this test
-78a3ce021ba8a74b48b633b678326219351aa44f xfs/018: fix LARP testing for small block sizes
-f57ffcf43811bfb990a2d264fa77b46b5d594079 fscrypt-crypt-util: add HCTR2 implementation
-94e0bda55b36c899854b056812f72597b9939ac0 generic: add tests for fscrypt policies with HCTR2
-2eaabb1d38cf042d3e8b4134e6a3208c0e9516a7 xfs: add memory failure test for dax mode
-545d6b783773484dd0101b0bc60523a2a8c16251 xfs: add memory failure test for dax&reflink mode
-16ddbd1aee295f64695916cf3621aef57f1163ba xfs: add memory failure test for partly-reflinked&dax file
 04307f499d13020194dc27f5dc17d4197dbb32c3 xfs/{015,042,076}: fix mkfs failures with nrext64=1
 67afd5c742464607994316acb2c6e8303b8af4c5 common/rc: move ext4-specific helpers into a separate common/ext4 file
 e88c0d38eedaa541dd1b3f0c4b1ae65c96cc5c43 common/rc: move XFS-specific parts of _scratch_options into common/xfs
@@ -82,5 +72,8 @@ dcf2ada66e2dcaf9d3724fb5456d0257eb01a555 btrfs: test active zone tracking
 a2d5043aca5948e98a8d44e2c4e8295befa189a8 xfs/128: try to force file allocation behavior
 796546224dee718d76d08db91f079e7f551dd8f8 common/populate: don't metadump xfs filesystems twice
 3b5cb74c03312b5ac3349a0759c8d32bb9d0dada common/populate: fix _xfs_metadump usage in _scratch_populate_cached
+05881d03f9ca43b20598539fed403f67ac58e597 fscrypt-crypt-util: add hardware KDF support
+4e7699eb24f2bc26c3f25a2f0a2e844ddc47c2b5 common/encrypt: support hardware-wrapped key testing
+4cc971bee1192f3eae6dd0056b0f53a3e76ac9e6 generic: verify ciphertext with hardware-wrapped keys
 
---===============6971035356914731650==--
+--===============3335718979935086754==--
