@@ -1,26 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Tue, 18 Oct 2022 17:43:55 -0000
-Message-Id: <166611503579.14886.8263516911690245413@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============0415359604790298188=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Tue, 18 Oct 2022 17:43:59 -0000
+Message-Id: <166611503947.14998.14658313264345331088@gitolite.kernel.org>
+
+--===============0415359604790298188==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damon-hack
-user: sj
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 6ca8b2a2e6dade552f948a279c0835f6f920a240
-    new: 721ba248f9d59f8e2b7b47be2689d5ce55caf4c0
+    old: c5968304fe744399e52373c7e19dd5b2a11c4696
+    new: 736d1d90e704faff08b5027f4ff68c3496b99ae1
     log: |
-         3f4bba684bd562b3c6997ab15b85485c90af7195 build_damon_kernel: do not assume source is parent of this directory
-         ac6e9a53c732dd4c381e3520305ebe7fef9d83a0 config_damon_kernel: do not assume source is parent of this directory
-         fc31f64ddb31fcb783345466b2707d4be2d231bb add yet another script for further installing the kernel
-         7090a3323db39591d5431d517a48c976cc81a1a3 build_install_damon_kernel: Exit for any failure
-         dd057635bbcd00452506260a926a97d4bab54332 Add a file for listing damon source files
-         1d9fd0384f2ae22f88c7758baf01be40b432f8fd stat_damon_commits: Reuse damon_source_files
-         e8223d85fa22d5eee8d3200a0e6726a8459c4570 damon_source_files: Add DAMON tracepoint header file
-         721ba248f9d59f8e2b7b47be2689d5ce55caf4c0 damon_commits: Reuse damon_source_files
+         736d1d90e704faff08b5027f4ff68c3496b99ae1 drop rv-monitor-add-__init-__exit-annotations-to-module-i.patch
          
+
+--===============0415359604790298188==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1666115038 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1666115036-05f4794d098f73d4175c405d43f5b693ac995dcf
+
+c5968304fe744399e52373c7e19dd5b2a11c4696 736d1d90e704faff08b5027f4ff68c3496b99ae1 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmNO5d4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+5k0P/RykCinfePYEuuAqZcKy
+iEuL6aYKq7L112Fu7lSuwHYc16RJyvhESpV2h2C0bRS1VSlcXVfR3YYne3YKd2PL
+K9vbsDrjWEk8BiQAcgkjG1WyI8zh+Tx/BIyAZSTiRmTcBsmhtfR2wFvi5fWp2atW
+7Ldh+5EUzxdq2fMMNVZBZAoQNzbEbIoOaUdsZo8fLNLxlBlht4qyAOZycoaBRiL0
+GaI00zpt5mKnTfCsN1QAYIbxUPC2rS7tVAGkJYhG7GTk4p8T6LeT+BHszlY78NOh
+qzA5fXHODnBNygYIR75wBytDVPdzFvVr02xPBiiEvc305rQ1aqEPytWyclcODNuC
+ZiMKBI3aH2FAGF6hKhVsGw7UDJyQ0v729bdqQgyRTWFH3HxuRxPee+nFSRme++cQ
+XZidPri6AGoyY4M9/JBKIzjyiMdKf+zgfuV85aDgwE8Yxo5B0S+C6JZec5+oo7pK
+d1Q2MxkpndP+WECeJB+tkzf9Jgl71AkEpjtJ25rtZD8yLN8oFBRqa7Wj/69xGdHM
+sU5Aj1GCRFFjG+8tP3w7U7Ve2Krj7i6LjUmfRHS20J553ZNJMoYFEsmX6rIjNQJn
+JHsvlxFaB8KQLZAy8rK1fnASJMRBvdHVv55UVcYDpSW0b1NkwxPmBlXGsCNnrhJh
+nfiuuMi3PNLPTz9Qkru1I8Iq
+=hcrd
+-----END PGP SIGNATURE-----
+
+--===============0415359604790298188==--
