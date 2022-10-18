@@ -1,34 +1,42 @@
-Content-Type: multipart/mixed; boundary="===============5949182140631181552=="
+Content-Type: multipart/mixed; boundary="===============3622144821018259719=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Tue, 18 Oct 2022 20:50:27 -0000
-Message-Id: <166612622723.21794.9487398842141146559@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 18 Oct 2022 20:59:29 -0000
+Message-Id: <166612676962.27802.6986924253013251121@gitolite.kernel.org>
 
---===============5949182140631181552==
+--===============3622144821018259719==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cel/linux
-user: cel
+repo: pub/scm/linux/kernel/git/broonie/misc
+user: broonie
 changes:
-  - ref: refs/heads/for-next
-    old: 4fe89d07dcc2804c8b562f6c7896a45643d34b2f
-    new: ca822c980053907a7af48bfae6a396526edc6ebf
-    log: revlist-4fe89d07dcc2-ca822c980053.txt
-  - ref: refs/tags/v6.1-rc1
-    old: 0000000000000000000000000000000000000000
-    new: e0e492cebef25c13fc29b174f01b5178662f1652
+  - ref: refs/heads/arm64-nmi
+    old: 422a4794b33f187a9feb6b33aef8a1d042cef518
+    new: 3b08e6fc0d06fbbf7368094ca7d6c4e20d63b2f6
+    log: revlist-422a4794b33f-3b08e6fc0d06.txt
 
---===============5949182140631181552==
+--===============3622144821018259719==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-4fe89d07dcc2-ca822c980053.txt
+Content-Disposition: attachment; filename=revlist-422a4794b33f-3b08e6fc0d06.txt
 
+193e2268a3bb1404b42f8edcc037a3eafd165aa9 Merge tag 'x86_cache_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+da4ab869e37cf81f93333ba74b16e0ea6d322e15 libceph: drop last_piece flag from ceph_msg_data_cursor
+f791357330b0043ec953ce122ab7519af4b9d24a ceph: wake up the waiters if any new caps comes
+6eb06c46214d33c71ae86d60b3fc9cb17c20beca ceph: fail the request if the peer MDS doesn't support getvxattr op
+7c3ea9870e09e193981695dd67c37a1a2b6d600b ceph: no need to wait for transition RDCACHE|RD -> RD
+aa1d627207cace003163dee24d1c06fa4e910c6b ceph: Use kcalloc for allocating multiple elements
+b4b924c7a16e857b0715603456045251a49f2ea6 ceph: increment i_version when doing a setattr with caps
+bd04b9192e1ff6859d6b3906e91cfd5c9b0ad55b ceph: fail the open_by_handle_at() if the dentry is being unlinked
+aa87052dd965a6094355fcc13d5abc3f5bebfbe4 ceph: fix incorrectly showing the .snap size for stat
+71cf0c1c4f9f8e42c84ca53a5ca7091e4eea7f6a ceph: remove Sage's git tree from documentation
+a76d550f761d4f1b0a0e2faa27af122e51904b86 clk: qcom: gcc-sm6375: Remove unused variables
 3eba620e7bd772a0c7dc91966cb107872b54a910 Merge tag 'x86_cleanups_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 39bc9b589ea3d2750a6fec6409cd7fc687bc99fe clk: qcom: gcc-sm6375: Ensure unsigned long type
 49f4c2d101bbf93c62e3fa58e666f71352c54121 Merge branches 'clk-ofnode', 'clk-bindings', 'clk-cleanup', 'clk-zynq' and 'clk-xilinx' into clk-next
@@ -148,7 +156,6 @@ d7ae8ff97e6243c09ac4ab8d737504224bd3475c Merge branch 'for-6.1/rc-controllers' i
 1af52d6b35bb7faaabb1f0b34fbcae7c619e54e7 Merge branch 'for-6.1/wacom' into for-linus
 1145c3d5e7028e95741fb86693ddce00202decf6 Merge branch 'for-6.1/rmi' into for-linus
 cb7c02e91c31f55d08760f04a09bf9334d809426 Merge branch 'for-6.1/google' into for-linus
-d2995249a2f72333a4ab4922ff3c42a76c023791 arm64: alternatives: Use vdso/bits.h instead of linux/bits.h
 2eb2756f6c9e9621e022d78321ce40a62c4520b5 Revert "net/ieee802154: reject zero-sized raw_sendmsg()"
 b12e924a2f5b960373459c8f8a514f887adf5cac net/ieee802154: don't warn zero-sized raw_sendmsg()
 59b2a38c6afdc9341ac4fcff455bfdf77113ed37 Merge branch 'for-6.1/sysfs-patched-object' into for-linus
@@ -452,7 +459,6 @@ c95014e1d05b5acfd9e6fbe5d1f048b07c6902ff wifi: mac80211: netdev compatible TX st
 d9e249704084982ac7581a560ffa284e11621d43 wifi: cfg80211: fix ieee80211_data_to_8023_exthdr handling of small packets
 e3e6e1d16a4cf7b63159ec71774e822194071954 wifi: wext: use flex array destination for memcpy()
 10d5ea5a436da8d60cdb5845f454d595accdbce0 wifi: nl80211: Split memcpy() of struct nl80211_wowlan_tcp_data_token flexible array
-e1567b4f0eec779af99b372773ddeb5be9b6208b arm64/sysreg: Fix typo in SCTR_EL1.SPINTMASK
 078adb3bf43388d4e1c8f1a63b14f2629f2ad995 vhost: add __init/__exit annotations to module init/exit funcs
 bdeb2f9836c4fd323d87fad4d7a8abd00746c359 virtio_ring: split: Operators use unified style
 f7adf38928301576193910c94ab575804b81cf73 virtio_ring: make vring_alloc_queue_packed prettier
@@ -463,10 +469,6 @@ cdbd952bb7b5fca36676b3d318796b196b127397 virtio: drop vp_legacy_set_queue_size
 477f71971422fb225337b30f7b79363387b1d78c vdpa_sim_net: support feature provisioning
 c1ca352d371f724f7fb40f016abdb563aa85fe55 vp_vdpa: support feature provisioning
 e60d64074214db7207fc13c25ee39d8d47cb4a34 virtio_blk: add SECURE ERASE command support
-171df58028bf4649460fb146a56a58dcb0c8f75a arm64: errata: Add Cortex-A55 to the repeat tlbi list
-ad0112f2d54cafee839e2ee99ec0b5fb9ce5c4b8 drivers/perf: fix return value check in ali_drw_pmu_probe()
-e08d07dd9f80e997ad36a088eb276509ca484e97 drivers/perf: ALIBABA_UNCORE_DRW_PMU should depend on ACPI
-5f4853e810943af5e45fcc040cbbcbba07d8fc25 MAINTAINERS: rectify file entry in ALIBABA PMU DRIVER
 4b22ef042d6f54a6e5899555f2db71749133eca8 vfio: Add vfio_file_is_group()
 819da99a7360f7e197038d12f0eba626bde11856 vfio: Hold a reference to the iommu_group in kvm for SPAPR
 3dd59a7dcb97e6e40d6385a1a3faa9392b6d184a vfio: Make the group FD disassociate from the iommu_group
@@ -805,7 +807,6 @@ dea2df3cc72555633cc7858ce1daa4b757f843ad LoongArch: Add SysRq-x (TLB Dump) suppo
 5dc615520c4dfb358245680f1904bad61116648e LoongArch: Add BPF JIT support
 6246ed09111fbb17168619006b4380103c6673c3 LoongArch: Add ACPI-based generic laptop driver
 2c8577f5e455b149f3ecb24e9a9f48f372a5d71a LoongArch: Update Loongson-3 default config file
-a8e5e5146ad08d794c58252bab00b261045ef16d arm64: mte: Avoid setting PG_mte_tagged if no tags cleared or restored
 a1ae8d4d9be0178132df7c4931a1ba77d0e76039 nvme-rdma: fix possible hang caused during ctrl deletion
 c4abd8757189c7ca5803828f9c892328d7d94943 nvme-tcp: fix possible hang caused during ctrl deletion
 80b2624094c8d369a3c6eab515e8f1564d2e5db2 nvme-pci: add NVME_QUIRK_BOGUS_NID for Lexar NM760
@@ -824,7 +825,6 @@ e237506238352f3bfa9cf3983cdab873e35651eb powerpc/32: fix syscall wrappers with 6
 6127dab7a126387744290101514d31b79bb62b8e dt-bindings: mfd: mt6370: fix the interrupt order of the charger in the example
 0811b9e4530d7c46542a8993ce6b725d042c6154 drm/amd/display: Add HUBP surface flip interrupt handler
 06267eb2decaa6baac81bbd882265a8e7782dba4 doc: RISC-V: Document that misaligned accesses are supported
-0e5d5ae837c8ce04d2ddb874ec5f920118bd9d31 arm64: Add AMPERE1 to the Spectre-BHB affected list
 4f001a21080ff2e2f0e1c3692f5e119aedbb3bc1 Kconfig.debug: simplify the dependency of DEBUG_INFO_DWARF4/5
 bb1435f3f575b5213eaf27434efa3971f51c01de Kconfig.debug: add toolchain checks for DEBUG_INFO_DWARF_TOOLCHAIN_DEFAULT
 fc8c2d8ff20651f887e574767533d1176e3a479c kbuild: Stop including vmlinux.bz2 in the rpm's
@@ -1038,20 +1038,17 @@ b08cd74448fafaa302ce2bc11beab5e5a55d0065 Merge tag '6.1-rc-smb3-client-fixes-par
 8636df94ec917019c4cb744ba0a1f94cf9057790 Merge tag 'perf-tools-for-v6.1-2-2022-10-16' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 f1947d7c8a61db1cb0ef909a6512ede0b1f2115b Merge tag 'random-6.1-rc1-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/crng/random
 9abf2313adc1ca1b6180c508c25f22f9395cc780 Linux 6.1-rc1
-8e036f56c2b93e6e0cfca5f3ad80e94e10b624c8 NFSD: Simplify READ_PLUS
-4d496a3658e58d91c9035b240ab34a57ad13d3ac NFSD: Remove redundant assignment to variable host_err
-9571af863fb4fc5cc7a2009bd817a666edeadde9 SUNRPC: Remove unused svc_rqst::rq_lock field
-8ef4c35950de0855258f7d3495476de551b8697d NFSD: Finish converting the NFSv2 GETACL result encoder
-4b8c7d34cdd1d607ccd408595e294374bd290b7b NFSD: Finish converting the NFSv3 GETACL result encoder
-244465f404e2a5bb379c89bf67e6a708d0736d82 nfsd: ignore requests to disable unsupported versions
-2bb9a7f15e7e9a446245786b89c4c65e7782d797 nfsd: move nfserrno() to vfs.c
-108d026610382894065fe99507d4c7c04bf3fcd3 nfsd: allow disabling NFSv2 at compile time
-55f547ec97ba9321b94be5d2fa10b82f5401dcb9 NFSD: Pass the target nfsd_file to nfsd_commit()
-835d24bfccc80c63cea90309bfff7f37f25f4869 NFSD: Revert "NFSD: NFSv4 CLOSE should release an nfsd_file immediately"
-3c7f33c60291e41555705f287932d308edb163c3 NFSD: Add an NFSD_FILE_GC flag to enable nfsd_file garbage collection
-d668dc77f15d16b2cc16ef0d94ed59db9e4e60f5 NFSD: Use const pointers as parameters to fh_ helpers
-4c21b56aa1ead83f2ce38484f1f47bf7ad9d8f9b NFSD: Use rhashtable for managing nfs4_file objects
-dce0d34aef5411c63abdf81a58edd6785599e4c8 NFSD: Clean up nfs4_preprocess_stateid_op() call sites
-ca822c980053907a7af48bfae6a396526edc6ebf NFSD: Trace delegation revocations
+29ab883fe3d8d63602a0d90540b00784ad71cb6b arm64/booting: Document boot requirements for FEAT_NMI
+ac7666a9707700f2f0f5f9e9408da1aab1b4d4cb arm64/sysreg: Add definition for ICC_NMIAR1_EL1
+db41f3d59aafb5565ca0d56a23193e6351c92ef2 arm64/sysreg: Add definition of ISR_EL1
+c306987f42cbb4b1bead09de0d8dd9ece9f196cf arm64/sysreg: Add definitions for immediate versions of MSR ALLINT
+7910337c85771c3c69e192a1367c46ddc4b9e258 arm64/asm: Introduce assembly macros for managing ALLINT
+5ef73e4ae1e5d88730b7e8532339a6a060b3748a arm64/hyp-stub: Enable access to ALLINT
+da845351579b27ffdc79c67cadd9803de36a61e4 arm64/cpufeature: Detect PE support for NMIs
+9cc621908d6cf77bbf234f717d1affe961b92035 arm64/entry: Manage ALLINT.ALLINT when FEAT_NMI is active
+0c21479fca902ab482801cddcc1883f132ba2179 arm64/mm: Disable all interrupts while replacing TTBR1
+34e2dbb57849669387fe58757080ba541e51a222 arm64/kexec: Mask NMIs before starting new kernel
+c8b3376aa74e1e65ca465b98d624e4038e7fd65b arm64/nmi: Add handling of superpriority interrupts as NMIs
+3b08e6fc0d06fbbf7368094ca7d6c4e20d63b2f6 arm64/nmi: Add Kconfig for NMI
 
---===============5949182140631181552==--
+--===============3622144821018259719==--
