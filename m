@@ -1,97 +1,38 @@
-Content-Type: multipart/mixed; boundary="===============6869824737145285446=="
+Content-Type: multipart/mixed; boundary="===============0925546827702315880=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Tue, 18 Oct 2022 11:01:13 -0000
-Message-Id: <166609087371.8199.8049377596015992359@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Tue, 18 Oct 2022 11:01:34 -0000
+Message-Id: <166609089403.8396.2646191038126070251@gitolite.kernel.org>
 
---===============6869824737145285446==
+--===============0925546827702315880==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 changes:
   - ref: refs/heads/for-linus
-    old: 80e78fcce86de0288793a0ef0f6acf37656ee4cf
-    new: dadd3e7cdcd182ca4dbc74206e4539dd04eb73ea
-    log: revlist-80e78fcce86d-dadd3e7cdcd1.txt
+    old: 24d1be1636256ada980cb8cf0573b0a868fae3a9
+    new: 05f1d6d0facff0df97e55ffb71249f4fd3ac7e47
+    log: |
+         b40af6183b685b0cf7870987b858de0d48db9ea0 spi: qup: support using GPIO as chip select line
+         05f1d6d0facff0df97e55ffb71249f4fd3ac7e47 Merge remote-tracking branch 'spi/for-6.0' into spi-linus
+         
   - ref: refs/heads/for-next
-    old: e5dcd639f97e4c9104e4da80e86536836aabc8f4
-    new: 98e2892aebdf1c6d4cfaf05d78ee1ab757f22856
-    log: revlist-e5dcd639f97e-98e2892aebdf.txt
+    old: 24d1be1636256ada980cb8cf0573b0a868fae3a9
+    new: 3f31f1ead255a8d0a5b8e4aff9543d8006cf9c54
+    log: revlist-24d1be163625-3f31f1ead255.txt
 
---===============6869824737145285446==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-80e78fcce86d-dadd3e7cdcd1.txt
-
-ac5d2f049c4b9b466f9757415007f65db949fe24 Merge remote-tracking branch 'regulator/for-5.20' into regulator-6.0
-efb0cb50c42734f868908a97f0d93e9208da1f0e regulator: qcom-rpmh: Implement get_optimum_mode(), not set_load()
-9b6744f60b6b47bc0757a1955adb4d2c3ab22e13 regulator: Add missing devm_* functions to devres.rst
-da279e6965b3838e99e5c0ab8f76b87bf86b31a5 regulator: Add devm helpers for get and enable
-ee94aff2628b18afdb0b6b175e568657bdaead59 Devm helpers for regulator get and enable
-8a866d527ac0441c0eb14a991fa11358b476b11d regulator: core: Resolve supply name earlier to prevent double-init
-0739ce4c1213a040301bb185cb7a0569417aef87 regulator: core: Remove "ramp_delay not set" debug message
-9048b9912f767ea9609e520678def446af804771 docs: devres: regulator: Add new get_enable functions to devres.rst
-de6fbef10c4b9c589f3b84bd926e56ba742263ea regulator: dt-bindings: Add missing (unevaluated|additional)Properties on child nodes
-ac71792707226d1210127611bb622c0362cbff25 regulator: qcom_spmi: Improve formatting of if-then blocks
-5b2a085baaa15d04396889228f1e11d2cb86b916 regulator: qcom_spmi: Document PM6125 PMIC
-901421765ee1e5501c15a3b76ce926e0cc4967d4 regulator: qcom_smd: Sort compatibles alphabetically
-d95fe1788438cceab40af5f3f9e9fe15d8c07101 regulator: qcom_smd: Document PM6125 PMIC
-2785025495b6bd630648f8304f8d932b0d0a9f2a regulator: qcom_spmi: Add support for HFSMPS regulator type
-0d1cf568b4e0c65cb533fef2c116fb2883803c53 regulator: qcom_spmi: Add support for LDO_510 and FTSMPS
-046d7e3246ac028bfe583b4c3bed9530a80004c4 regulator: qcom_spmi: Sort pmics alphabetically (part 1)
-9a2da0749ce37d4a74f7becf3b09bf2e0169145a regulator: qcom_spmi: Sort pmics alphabetically (part 2)
-e62ef4a9f936326e702ef08ea3f65b62bd7d108b regulator: qcom_spmi: Add PM6125 PMIC support
-8e584e84ae65ecc9ee90b187d4b7782dc881e4ad regulator: qcom_smd: Sort pmics alphabetically (part 1)
-13b3d00590243888563cb63b88538a4c60bce57b regulator: qcom_smd: Sort pmics alphabetically (part 2)
-a39d0100572e188f00ff4d224af9694c7eb3eeb5 regulator: qcom_smd: Sort pmics alphabetically (part 3)
-95b5f3ef4c0cf553a97dd7ce7d6ef85415388011 regulator: qcom_smd: Add PM6125 RPM regulators
-4d2aed6ee306ccdcae51f550309bfb82ebf31b01 regulator: dt-bindings: Add TI TPS65219 PMIC bindings
-c12ac5fc3e0af29851785e557e243663b4fc7f4b regulator: drivers: Add TI TPS65219 PMIC regulators support
-a2740378834a3b19dbf6f667e7297c0161e93532 Use devm helpers for regulator get and enable
-8622817ccb3f545d9440ee8aae46410be0f2b625 Add support for TI TPS65219 PMIC.
-d9270292e6174551d3b02a49b310ddf56c0225fe PM6125 regulator support
-48aa47308de609e687dc187b72de92e3346c4187 regulator: max597x: Remove the unneeded result variable
-d46f737208a45ddff2aef4b57218caa0476af2b6 regulator: drivers: Remove unnecessary print function dev_err()
-55841199050d0c6c44eb7f24717816e6e372599f regulator: core: Require regulator drivers to check uV for get_optimum_mode()
-57919f4a2ea47f75ac6117f7d99831f7fbd89bc7 regulator: core: Don't err if allow-set-load but no allowed-modes
-b662748ff2e8ff99daabdfbd928270f25f29a9fd regulator: tps65219: change tps65219_regulator_irq_types to static
-520fb178212d1dd545ed0ed231df09111b30ab7e regulator: core: Fix regulator supply registration with sysfs
-97c9278ec624a0d5d7c56aa20e16afc8aaa96557 regulator: bd71815: switch to using devm_fwnode_gpiod_get()
-587bfe3f7a270f0a4076e624d318292324bdead8 regulator: bd9576: switch to using devm_fwnode_gpiod_get()
-08865c2150392f67769a9d6e0b02800be226a990 regulator: dt-bindings: qcom,rpmh: Indicate regulator-allow-set-load dependencies
-8d8e16592022c9650df8aedfe6552ed478d7135b regulator: core: Prevent integer underflow
-8478ed5844588703a1a4c96a004b1525fbdbdd5e regulator: qcom_rpm: Fix circular deferral regression
-69a673c9e54d952cf404f80169d3100b7a9645bb regulator: tps65219: Fix .bypass_val_on setting
-6385e21692bbb0b35eca8120d576b3c1ba1ad9d3 regulator: Add bindings for MT6331 regulator
-6f7a71f804287a7566314ab1a73d8ca2c18ca0d7 regulator: Add driver for MT6331 PMIC regulators
-e22943e32e1fc314b8e2b095ae3495d1bfa9aca5 regulator: Add bindings for MT6332 regulator
-1cc5a52e873a4f9725eafe5aa9cd213b7b58e29e regulator: Add driver for MT6332 PMIC regulators
-ca9b8f0486b577ab179664d4a279090645e9244f MediaTek Helio X10 MT6795 - MT6331/6332 Regulators
-a8c31d3507fbf4e5e6d4a47225294a4d2f09d0b2 regulator: of: Fix kernel-doc
-7ec12d153998616d9f9fd0e603d56b5e122fc768 regulator: of: Fix kernel-doc
-911ce7cf72d9c1066a52928bffedaa103290db9e regulator: qcom-rpmh: add pm660 and pm660l pmics
-21c93a95553d0a07091ff9894f09f5bffbfd8c8a regulator: qcom,rpmh: add pm660 and pm660l pmics
-947934e389f716d505a656d04388b2ecbe43281d regulator: tps65219: Fix is_enabled checking in tps65219_set_bypass
-adfdfcbdbd32b356323a3db6d3a683270051a7e6 regulator: gpio: Add input_supply support in gpio_regulator_config
-392cc0a4a0c4b25534f3148b192f18be468f67bd dt-bindings: gpio-regulator: add vin-supply property support
-dadd3e7cdcd182ca4dbc74206e4539dd04eb73ea Merge remote-tracking branch 'regulator/for-6.0' into regulator-linus
-
---===============6869824737145285446==
+--===============0925546827702315880==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-e5dcd639f97e-98e2892aebdf.txt
+Content-Disposition: attachment; filename=revlist-24d1be163625-3f31f1ead255.txt
 
-9bf445b65dd7d4c7d0e4efaecf38525abbbe74e3 Merge tag 'x86_paravirt_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-b5f0b11353a6a33a1accd0b742c80ed6b2f35ac0 Merge tag 'x86_microcode_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-193e2268a3bb1404b42f8edcc037a3eafd165aa9 Merge tag 'x86_cache_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 da4ab869e37cf81f93333ba74b16e0ea6d322e15 libceph: drop last_piece flag from ceph_msg_data_cursor
 f791357330b0043ec953ce122ab7519af4b9d24a ceph: wake up the waiters if any new caps comes
 6eb06c46214d33c71ae86d60b3fc9cb17c20beca ceph: fail the request if the peer MDS doesn't support getvxattr op
@@ -1111,7 +1052,10 @@ b08cd74448fafaa302ce2bc11beab5e5a55d0065 Merge tag '6.1-rc-smb3-client-fixes-par
 8636df94ec917019c4cb744ba0a1f94cf9057790 Merge tag 'perf-tools-for-v6.1-2-2022-10-16' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 f1947d7c8a61db1cb0ef909a6512ede0b1f2115b Merge tag 'random-6.1-rc1-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/crng/random
 9abf2313adc1ca1b6180c508c25f22f9395cc780 Linux 6.1-rc1
-dadd3e7cdcd182ca4dbc74206e4539dd04eb73ea Merge remote-tracking branch 'regulator/for-6.0' into regulator-linus
-98e2892aebdf1c6d4cfaf05d78ee1ab757f22856 Merge branch 'regulator-linus' into regulator-next
+b40af6183b685b0cf7870987b858de0d48db9ea0 spi: qup: support using GPIO as chip select line
+77cda4b9710fd88769997859eb3b7033bfe37e40 Merge existing fixes from spi/for-6.1 into new branch
+05f1d6d0facff0df97e55ffb71249f4fd3ac7e47 Merge remote-tracking branch 'spi/for-6.0' into spi-linus
+95bb5a724a27ef0c1203d9d338ad92154fe52b83 Merge branch 'spi-linus' into spi-next
+3f31f1ead255a8d0a5b8e4aff9543d8006cf9c54 Merge remote-tracking branch 'spi/for-6.2' into spi-next
 
---===============6869824737145285446==--
+--===============0925546827702315880==--
