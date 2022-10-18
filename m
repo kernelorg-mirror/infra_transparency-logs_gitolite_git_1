@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Tue, 18 Oct 2022 20:26:02 -0000
-Message-Id: <166612476242.4927.11651452870611374184@gitolite.kernel.org>
+Date: Tue, 18 Oct 2022 20:26:13 -0000
+Message-Id: <166612477353.5070.5074966941756293437@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/sched/idle
+  - ref: refs/heads/objtool/wip
     old: 0000000000000000000000000000000000000000
-    new: 479400f448a5f677d44a3b66b503ada0047c7284
+    new: f748afcbc044c6b21bd111dd05eb2f15d0915357
