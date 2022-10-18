@@ -1,60 +1,28 @@
-Content-Type: multipart/mixed; boundary="===============3223691183868150665=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Tue, 18 Oct 2022 11:00:14 -0000
-Message-Id: <166609081438.7538.12641558585165567205@gitolite.kernel.org>
-
---===============3223691183868150665==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
+Date: Tue, 18 Oct 2022 11:00:32 -0000
+Message-Id: <166609083236.7710.8792794825422015748@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
-user: broonie
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/kdave/linux
+user: kdave
 changes:
-  - ref: refs/heads/spi-6.1
-    old: 8e9204cddcc3fea9affcfa411715ba4f66e97587
-    new: b40af6183b685b0cf7870987b858de0d48db9ea0
+  - ref: refs/heads/master
+    old: 9abf2313adc1ca1b6180c508c25f22f9395cc780
+    new: bb1a1146467ad812bb65440696df0782e2bc63c8
     log: |
-         8777dd9dff4020bba66654ec92e4b0ab6367ad30 spi: tegra210-quad: Fix combined sequence
-         033d2d13a25113b6ffd24d72490f0e363dd3eb4c spi: spi-gxp: fix typo in SPDX identifier line
-         b994d8f0773cf3b01129c094d00050710f2c422b spi: spi-mem: Fix typo (of -> or)
-         b25fe93ff705cdd8e98ad8d0435c621ea5462c82 spi: mpc52xx: Replace NO_IRQ by 0
-         5302e1ff315b40dfc9bb3f08911f5a788cc1de01 spi: aspeed: Fix typo in mode_bits field for AST2600 platform
-         6a43cd02ddbc597dc9a1f82c1e433f871a2f6f06 spi: intel: Fix the offset to get the 64K erase opcode
-         b40af6183b685b0cf7870987b858de0d48db9ea0 spi: qup: support using GPIO as chip select line
+         46307fd6e27a3f678a1678b02e667678c22aa8cc cgroup: Reorganize css_set_lock and kernfs path processing
+         03db7716159477b595e9af01be8003b7e994cc79 Revert "cgroup: enable cgroup_get_from_file() on cgroup1"
+         a6d1ce5951185ee91bbe6909fe2758f3625561b0 cgroup: add cgroup_v1v2_get_from_[fd/file]()
+         35256d673a9cf723d9e2edb5d51e1b1b6b197ba3 bpf: cgroup_iter: support cgroup1 using cgroup fd
+         8248fe413216732f98563e8882b6c6ae617c327b perf stat: Support old kernels for bperf cgroup counting
+         b675d4bdfefac2fd46838383ecb3c06ad0f4c94d mm: cgroup: fix comments for get from fd/file helpers
+         96cb9d0554457086664d3bd10630b11193d863f1 hwrng: bcm2835 - use hwrng_msleep() instead of cpu_relax()
+         bbb8ceb5e2421184db9560e9d2cfaf858e1db616 Merge tag 'v6.1-p2' of git://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6
+         79a818b5087393d5a4cb356d4545d02f55bf1a2f blkcg: Update MAINTAINERS entry
+         bb1a1146467ad812bb65440696df0782e2bc63c8 Merge tag 'cgroup-for-6.1-rc1-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/cgroup
          
-  - ref: refs/heads/spi-6.2
-    old: 0000000000000000000000000000000000000000
-    new: 77cda4b9710fd88769997859eb3b7033bfe37e40
-
---===============3223691183868150665==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1666090812 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1666090811-f9da26c815e5eb5ecabedb14f0708173a1eb494f
-
-8e9204cddcc3fea9affcfa411715ba4f66e97587 b40af6183b685b0cf7870987b858de0d48db9ea0 refs/heads/spi-6.1
-0000000000000000000000000000000000000000 77cda4b9710fd88769997859eb3b7033bfe37e40 refs/heads/spi-6.2
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmNOhzwACgkQJNaLcl1U
-h9CERAf/WyS5YZbwEBT4PJ7z05+IuhLsurfk+5j6WW/3zu0uutFN/0eErBJF4DM3
-x1uHeYz+qP2zPb4LB+iXnbyX1dRLz3IDCgAyB9O+XCIb0xyQ2HjJeGkOVSHBhNFt
-G0Nj8bVVORur8+B7qmmOVc8v5gpGsMkXgHLMBuW3JAx1PbQ0cKIOGjcnsrC152ip
-5KKRhxusRBac3GZhCZdUx/1GM730t2LEdD3kmeTmVz9GFvuuSQoWpK7p5i3MQeZV
-CSjLFu6Rg6Jlw7MCPKGXPF348Dactxm1yIY7PMEzNQkBYgjNsTISOASXwzPa0Uj0
-wkEfEdESznLS9plNM2ZKaqTAYiPreg==
-=E/SL
------END PGP SIGNATURE-----
-
---===============3223691183868150665==--
