@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/printk/linux
-Date: Tue, 18 Oct 2022 13:02:04 -0000
-Message-Id: <166609812431.32532.15364090384793853329@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
+Date: Tue, 18 Oct 2022 13:02:08 -0000
+Message-Id: <166609812807.32598.16216272093122040012@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/printk/linux
-user: pmladek
+repo: pub/scm/linux/kernel/git/peterz/queue
+user: peterz
 changes:
-  - ref: refs/heads/for-6.2
+  - ref: refs/heads/sched/wip
     old: 0000000000000000000000000000000000000000
-    new: b520410654103086ccc0d339c0ff645d4c4dd697
+    new: a043fa422f640dceedbcea4852e451d2f87e8926
