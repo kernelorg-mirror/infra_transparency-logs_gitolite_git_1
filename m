@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Wed, 19 Oct 2022 23:38:18 -0000
-Message-Id: <166622269801.18157.712241024300386234@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-power-supply
+Date: Wed, 19 Oct 2022 23:42:51 -0000
+Message-Id: <166622297187.21343.5354478697140123979@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/linux/kernel/git/sre/linux-power-supply
+user: sre
 changes:
-  - ref: refs/heads/dev
-    old: 00c153b7b88dcb7d2c24877c1b73a400d40cdbed
-    new: fa70e60d67690bd8ffc8356c6df5ea7b31e031d1
+  - ref: refs/heads/fixes
+    old: 9abf2313adc1ca1b6180c508c25f22f9395cc780
+    new: 883babd43dcf8b44db36d015a08cbf0066a5270d
     log: |
-         fa70e60d67690bd8ffc8356c6df5ea7b31e031d1 fixup! rcutorture: Avoid torture.sh compressing identical files
+         172c65e673cc3998059c9dfb3faf48e72e6fc236 power: supply: rk817: check correct variable
+         883babd43dcf8b44db36d015a08cbf0066a5270d power: supply: rk817: Change rk817_chg_cur_to_reg to int
          
