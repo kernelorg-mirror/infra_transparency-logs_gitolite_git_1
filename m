@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5353164631352217663=="
+Content-Type: multipart/mixed; boundary="===============6957772852258321453=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/zohar/linux-integrity
-Date: Wed, 19 Oct 2022 21:24:02 -0000
-Message-Id: <166621464217.19757.15088634718787405647@gitolite.kernel.org>
+Date: Wed, 19 Oct 2022 21:24:46 -0000
+Message-Id: <166621468663.20261.15279660462745064838@gitolite.kernel.org>
 
---===============5353164631352217663==
+--===============6957772852258321453==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,19 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/zohar/linux-integrity
 user: zohar
 changes:
-  - ref: refs/heads/next-integrity-testing
-    old: a9a6baa5acef8f0b6c6a17a13ffb35bc92dd469f
-    new: aaf878fd54bca5b50740ad48ee09822314de9fa1
-    log: revlist-a9a6baa5acef-aaf878fd54bc.txt
+  - ref: refs/heads/next-integrity
+    old: bab715bdaa9ebf28d99a6d1efb2704a30125e96d
+    new: 5adedd42245af0860ebda8fe0949f24f5204c1b1
+    log: revlist-bab715bdaa9e-5adedd42245a.txt
 
---===============5353164631352217663==
+--===============6957772852258321453==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-a9a6baa5acef-aaf878fd54bc.txt
+Content-Disposition: attachment; filename=revlist-bab715bdaa9e-5adedd42245a.txt
 
+901735e51e4dea1eee816b0b57d1d6abbd94b3d5 Merge tag 'x86_misc_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+9bf445b65dd7d4c7d0e4efaecf38525abbbe74e3 Merge tag 'x86_paravirt_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 b5f0b11353a6a33a1accd0b742c80ed6b2f35ac0 Merge tag 'x86_microcode_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 193e2268a3bb1404b42f8edcc037a3eafd165aa9 Merge tag 'x86_cache_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 da4ab869e37cf81f93333ba74b16e0ea6d322e15 libceph: drop last_piece flag from ceph_msg_data_cursor
@@ -1048,7 +1050,5 @@ b08cd74448fafaa302ce2bc11beab5e5a55d0065 Merge tag '6.1-rc-smb3-client-fixes-par
 f1947d7c8a61db1cb0ef909a6512ede0b1f2115b Merge tag 'random-6.1-rc1-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/crng/random
 9abf2313adc1ca1b6180c508c25f22f9395cc780 Linux 6.1-rc1
 5adedd42245af0860ebda8fe0949f24f5204c1b1 KEYS: encrypted: fix key instantiation with user-provided data
-aa97e30537bf8d841c70ca1e3ce951879504ea4f ima: Simplify ima_lsm_copy_rule
-aaf878fd54bca5b50740ad48ee09822314de9fa1 ima: Handle -ESTALE returned by ima_filter_rule_match()
 
---===============5353164631352217663==--
+--===============6957772852258321453==--
