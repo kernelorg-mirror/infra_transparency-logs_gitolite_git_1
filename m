@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============6251372669046693344=="
+Content-Type: multipart/mixed; boundary="===============7897150036865569947=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/srini/slimbus
-Date: Wed, 19 Oct 2022 10:44:01 -0000
-Message-Id: <166617624139.13277.10846008297605747586@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/srini/nvmem
+Date: Wed, 19 Oct 2022 10:44:15 -0000
+Message-Id: <166617625585.13431.13812352981204344666@gitolite.kernel.org>
 
---===============6251372669046693344==
+--===============7897150036865569947==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/srini/slimbus
+repo: pub/scm/linux/kernel/git/srini/nvmem
 user: srini
 changes:
   - ref: refs/heads/for-next
-    old: 3f9400e61107f88f6b89b6cf4bd08963ff18b625
+    old: 60bbaad38109684b156e21112322e0a922f92cde
     new: 9abf2313adc1ca1b6180c508c25f22f9395cc780
-    log: revlist-3f9400e61107-9abf2313adc1.txt
+    log: revlist-60bbaad38109-9abf2313adc1.txt
 
---===============6251372669046693344==
+--===============7897150036865569947==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-3f9400e61107-9abf2313adc1.txt
+Content-Disposition: attachment; filename=revlist-60bbaad38109-9abf2313adc1.txt
 
 bb1f11546eb3cd1e2b8ea45653eb0f530e42b035 Merge tag 'x86_asm_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 901735e51e4dea1eee816b0b57d1d6abbd94b3d5 Merge tag 'x86_misc_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
@@ -1051,4 +1051,4 @@ b08cd74448fafaa302ce2bc11beab5e5a55d0065 Merge tag '6.1-rc-smb3-client-fixes-par
 f1947d7c8a61db1cb0ef909a6512ede0b1f2115b Merge tag 'random-6.1-rc1-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/crng/random
 9abf2313adc1ca1b6180c508c25f22f9395cc780 Linux 6.1-rc1
 
---===============6251372669046693344==--
+--===============7897150036865569947==--
