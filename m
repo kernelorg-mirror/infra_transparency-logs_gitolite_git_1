@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============6033494498171418122=="
+Content-Type: multipart/mixed; boundary="===============1409249075835587457=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Wed, 19 Oct 2022 11:03:53 -0000
-Message-Id: <166617743375.28380.8999866032368456884@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Wed, 19 Oct 2022 11:04:00 -0000
+Message-Id: <166617744024.28501.8559734021114317624@gitolite.kernel.org>
 
---===============6033494498171418122==
+--===============1409249075835587457==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.2
+  - ref: refs/heads/asoc-6.2
     old: a474dce8aa95752eed03436515e80425f630a9da
     new: af7b5657e3b535c871a32a2e5c872a0985eaadb7
     log: revlist-a474dce8aa95-af7b5657e3b5.txt
 
---===============6033494498171418122==
+--===============1409249075835587457==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1666177431 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1666177430-d31f3211c8dc6953606c42ada435bad3e5b123d5
+pusher C3F436CA30F5D8EB 1666177438 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1666177437-d19c471845d734dc4e7507ac1a165751ed0e9010
 
-a474dce8aa95752eed03436515e80425f630a9da af7b5657e3b535c871a32a2e5c872a0985eaadb7 refs/heads/for-6.2
+a474dce8aa95752eed03436515e80425f630a9da af7b5657e3b535c871a32a2e5c872a0985eaadb7 refs/heads/asoc-6.2
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmNP2ZcACgkQJNaLcl1U
-h9Ccxgf+L+7W38VhIoxRWT0IhyS1HU4R+9brsfV/XstbL80BqeiMGi1zbG74SMOm
-TO+TEX/uCOmSpIpumT449uNmF0fcdp0WZWcA+bzNeZRI2MOIy29x89Kykr4YtUg8
-uxCg0A2SsJnPrxEex/o6ZMZQ8QPRPrHmTiPKnz5P6WVWTQVrlYhFTohJ6ALVDlDX
-S/lm4b0R8mKm5OMP6YTxJY26QA+V3GM9z8wMbP55UG7XHWbo3px4b0XcuCVlstyw
-NEve120WbtkVLsfWAM3t3ikccJbkgABflJzqd70BGtzfRswxDLlLVEebGPUycFeU
-eV4LFglxiO+osldR/3Z+7+ggojO00g==
-=pcQJ
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmNP2Z4ACgkQJNaLcl1U
+h9DsBQf/ep6zGX/2XqluBXFMiCDaiQiPu8UmGBsac7V607UR/9uyKANkRreb44a4
+IWQ3YfjZuzF1MILgj/2F4jBzXz9T4OPCzT2BewoNyMS1VIsoNTy67mrLeB09SCiP
+jSMjVm7sYGoWQC1Xj5YzqvPPozNVwlawJ2RkeMQAaCP/BEVPXMVt6oNEEmDqp5q9
+9MvmkfAt1qLGPF9LgvMoHhGIUSAhKeLD9ip/nPDAV3Iia7/1x/4UBc9V+wWWxh85
+lzjQq3CliOk+D97PiiADcZuhyRQX3RriNVWBxuiGo5TNAMhC4V9CB0PwSzhYZqDR
+NHMfoWt7ejmH67miZxQ5EW+h5EgJvg==
+=NdOe
 -----END PGP SIGNATURE-----
 
---===============6033494498171418122==
+--===============1409249075835587457==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -65,4 +65,4 @@ bdde278a77d3220ba7991e6ff5e992716981ae30 ASoC: amd: acp: Add TDM slots setting s
 fd65e099235f99415178484b328cc230ad021d18 ASoC: Intel/SOF: simplify S3 resume flows
 af7b5657e3b535c871a32a2e5c872a0985eaadb7 ASoC: soc-dapm.c random cleanups
 
---===============6033494498171418122==--
+--===============1409249075835587457==--
