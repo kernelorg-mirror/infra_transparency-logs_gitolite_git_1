@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============0691858624688006735=="
+Content-Type: multipart/mixed; boundary="===============5624105449482121377=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Wed, 19 Oct 2022 17:12:46 -0000
-Message-Id: <166619956603.1814.16358646399680651236@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Wed, 19 Oct 2022 17:12:52 -0000
+Message-Id: <166619957221.1922.4675695004147526562@gitolite.kernel.org>
 
---===============0691858624688006735==
+--===============5624105449482121377==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.2
+  - ref: refs/heads/spi-6.2
     old: a977c3a93fa9ed75fcd77b770c7e557d7b4f7bab
     new: f74d21829bdcf2f27256f6a8adb1492766f748c7
     log: |
@@ -30,28 +30,28 @@ changes:
          f74d21829bdcf2f27256f6a8adb1492766f748c7 spi: spi-zyqnmp-gqspi: Add tap delay and Versal platform support
          
 
---===============0691858624688006735==
+--===============5624105449482121377==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1666199564 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1666199563-e9d1629834abe97646f440d588d5e72c0eb760c4
+pusher C3F436CA30F5D8EB 1666199570 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1666199570-f257b2b77a851c63974544ad4567d6dd75d6a476
 
-a977c3a93fa9ed75fcd77b770c7e557d7b4f7bab f74d21829bdcf2f27256f6a8adb1492766f748c7 refs/heads/for-6.2
+a977c3a93fa9ed75fcd77b770c7e557d7b4f7bab f74d21829bdcf2f27256f6a8adb1492766f748c7 refs/heads/spi-6.2
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmNQMAwACgkQJNaLcl1U
-h9COuAf/VfJS7y/tvtxXQycI1KmE3lc7lEuYWOqJXUeXV26rFuH8c9kqdfMnysRF
-nodosI7gIfU6HLNUk+2jutE0cbVDq63fjFiCC90SJr6/rtSKlrWMx8Tk0ToKHdEA
-6xTwsw2v2F2wfMp+UkzQ8eMZPlNQAFwMY6T81z2ptQRaDMnBXy5ajZ8C4rBDBDHY
-CW8NjZ/zkuLe3Td+GoCqb1tM8Ah+76AHyA7s68r6r4iSr85VCb6eCukf+777lthA
-i29UxDpaxteoik4AOPrtkHLQFAWqXiOORR3SiHBU3ImLkGtfzJ9dnadERJ+bXa3D
-QO+pvHHPje1l4L7EO/XnC3bbpbCASw==
-=MvfZ
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmNQMBIACgkQJNaLcl1U
+h9BEfwf+KvR/PpDtqa9PMLlATVmqX2XRSARaCCnsPQKj9FX+0SZeVjGtsg0QXt7T
+czcPj8CSLGXpANr2ZBS0GBhmRGadGtLQiehKXOPns+ejStjbXoaCjCQfxC3APlDL
+aLmgSyluQzMF+Nyxa6gdavNQqwNYB0zIVtcuTFYjrgNiNsEglZvc94xHKBvm3jiW
+qNtgMEZKIkzgBwIdreOEFupCqwhLiFXPAlEmmj8hgPhNxs/1UQH2F81kRSpXLX9I
+ZP/9XroL9oipmUUsC+3EdnyATk7kGr53YJrarb8Em/Az4Qb+qwSsIncUOEQp2gMD
+yMuZQQ7fxg+9JHWtQNBybs+iFRuNIQ==
+=SDS4
 -----END PGP SIGNATURE-----
 
---===============0691858624688006735==--
+--===============5624105449482121377==--
