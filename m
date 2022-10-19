@@ -1,31 +1,47 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wsa/linux
-Date: Wed, 19 Oct 2022 19:54:19 -0000
-Message-Id: <166620925907.20547.7830730336095659994@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============4048567121353459261=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mic/linux
+Date: Wed, 19 Oct 2022 20:12:07 -0000
+Message-Id: <166621032789.1707.11328489299461830847@gitolite.kernel.org>
+
+--===============4048567121353459261==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wsa/linux
-user: wsa
+repo: pub/scm/linux/kernel/git/mic/linux
+user: mic
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/i2c/for-current
-    old: 9abf2313adc1ca1b6180c508c25f22f9395cc780
-    new: 8c524a55a883c21d1ba9e85f6dcdaf5d49673ea3
+  - ref: refs/heads/next
+    old: ede2a34363a5dddd5e6b37b8e52c5041d1e78209
+    new: 4bc90a766ea5af69c12ca1ea00b7fc5fe1d68831
     log: |
-         b8caf0a0e04583fb71e21495bef84509182227ea i2c: xiic: Add platform module alias
-         61775d54d674ff8ec3658495e0dbc537227dc5c1 i2c: qcom-cci: Fix ordering of pm_runtime_xx and i2c_add_adapter
-         714eeb9b63595fe4765c5db25025d1eafa900e43 i2c: mlxbf: Fix unused-variable warning
-         8c524a55a883c21d1ba9e85f6dcdaf5d49673ea3 i2c: fix spelling typos in comments
+         091873e47ef700e935aa80079b63929af599a0b2 selftests/landlock: Build without static libraries
+         4bc90a766ea5af69c12ca1ea00b7fc5fe1d68831 Merge branch 'landlock-test-build-fix' into landlock-next
          
-  - ref: refs/heads/i2c/for-next
-    old: 9abf2313adc1ca1b6180c508c25f22f9395cc780
-    new: 8c524a55a883c21d1ba9e85f6dcdaf5d49673ea3
-    log: |
-         b8caf0a0e04583fb71e21495bef84509182227ea i2c: xiic: Add platform module alias
-         61775d54d674ff8ec3658495e0dbc537227dc5c1 i2c: qcom-cci: Fix ordering of pm_runtime_xx and i2c_add_adapter
-         714eeb9b63595fe4765c5db25025d1eafa900e43 i2c: mlxbf: Fix unused-variable warning
-         8c524a55a883c21d1ba9e85f6dcdaf5d49673ea3 i2c: fix spelling typos in comments
-         
+
+--===============4048567121353459261==
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 8bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Mickaël Salaün <mic@digikod.net> 1666210325 +0200
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mic/linux.git
+nonce 1666210325-c84e296d20faed35c7614bfe84e93a334ff8b923
+
+ede2a34363a5dddd5e6b37b8e52c5041d1e78209 4bc90a766ea5af69c12ca1ea00b7fc5fe1d68831 refs/heads/next
+-----BEGIN PGP SIGNATURE-----
+
+iIYEABYIAC4WIQSVyBthFV4iTW/VU1/l49DojIL20gUCY1BaFRAcbWljQGRpZ2lr
+b2QubmV0AAoJEOXj0OiMgvbSObsBAMV6br/hcLKZqTVDG009Co5h8IVY0qP6ObPz
+abOz4/iVAP91piph5+NAjiKMwyWM3BNIP4WzTWH7Q2M89TvAcSENDg==
+=xvs4
+-----END PGP SIGNATURE-----
+
+--===============4048567121353459261==--
