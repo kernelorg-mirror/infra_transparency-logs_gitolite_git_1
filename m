@@ -1,40 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============8545473633548162888=="
+Content-Type: multipart/mixed; boundary="===============4598477701901431696=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Wed, 19 Oct 2022 02:24:34 -0000
-Message-Id: <166614627493.838.18302476520250726953@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Wed, 19 Oct 2022 02:24:45 -0000
+Message-Id: <166614628560.1168.13119862096871787098@gitolite.kernel.org>
 
---===============8545473633548162888==
+--===============4598477701901431696==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
   - ref: refs/heads/master
     old: 4ca786ae6681b90b0ec3f4c55c89d12f835f8944
     new: a72b55bc981b62f7186600d06d1824f1d0612b27
     log: revlist-4ca786ae6681-a72b55bc981b.txt
-  - ref: refs/heads/pending-fixes
-    old: 3519e84626cf86fd1a4675e14682e2093f049c45
-    new: dfe701541ba92be904b8cb7a70f7700363593430
-    log: revlist-3519e84626cf-dfe701541ba9.txt
-  - ref: refs/heads/stable
-    old: bbb8ceb5e2421184db9560e9d2cfaf858e1db616
-    new: aae703b02f92bde9264366c545e87cec451de471
-    log: revlist-bbb8ceb5e242-aae703b02f92.txt
-  - ref: refs/tags/next-20220719
-    old: 5a853f058bdebe00aab195c539690d7940ec4b22
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20221019
     old: 0000000000000000000000000000000000000000
     new: 9d1952fa640929d0d03b6e8468f430e34a2bd78c
 
---===============8545473633548162888==
+--===============4598477701901431696==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1065,129 +1054,4 @@ c184b92cad9090f6e87cd56f88e2f831bfc2096d Merge branch 'mm-nonmm-unstable' into m
 3d8f7138ae71cf407a57e3c5e3771572a0ec956e Merge branch 'mm-everything' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 a72b55bc981b62f7186600d06d1824f1d0612b27 Add linux-next specific files for 20221019
 
---===============8545473633548162888==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3519e84626cf-dfe701541ba9.txt
-
-96dbcc0072acf4f9565a16e8da96e57e5cee1068 btrfs: add missing path cache update during fiemap
-46307fd6e27a3f678a1678b02e667678c22aa8cc cgroup: Reorganize css_set_lock and kernfs path processing
-03db7716159477b595e9af01be8003b7e994cc79 Revert "cgroup: enable cgroup_get_from_file() on cgroup1"
-9971a741c5f44fd72e664c35be9bc6fedb8a3498 btrfs: send: allow protocol version 3 with CONFIG_BTRFS_DEBUG
-c86eab81a23f368d08efd3df96a95f3d0b471f85 btrfs: send: update command for protocol version check
-9e769bd7e5db5e3bd76e7c67004c261f7fcaa8f1 btrfs: unlock locked extent area if we have contention
-295a53ccc4ca8383f6d107534b466b91aa013f79 btrfs: delete stale comments after merge conflict resolution
-4fc7b57228243d09c0d878873bf24fa64a90fa01 btrfs: fix processing of delayed data refs during backref walking
-943553ef9b51db303ab2b955c1025261abfdf6fb btrfs: fix processing of delayed tree block refs during backref walking
-63c84b46b3b75798f1ad63527b6250de00331907 btrfs: ignore fiemap path cache if we have multiple leaves for a data extent
-a6d1ce5951185ee91bbe6909fe2758f3625561b0 cgroup: add cgroup_v1v2_get_from_[fd/file]()
-35256d673a9cf723d9e2edb5d51e1b1b6b197ba3 bpf: cgroup_iter: support cgroup1 using cgroup fd
-8248fe413216732f98563e8882b6c6ae617c327b perf stat: Support old kernels for bperf cgroup counting
-b675d4bdfefac2fd46838383ecb3c06ad0f4c94d mm: cgroup: fix comments for get from fd/file helpers
-4efb365a3f04d0bee7833f168b0b00a15edefeac MAINTAINERS: update btrfs website links and files
-b40af6183b685b0cf7870987b858de0d48db9ea0 spi: qup: support using GPIO as chip select line
-79a818b5087393d5a4cb356d4545d02f55bf1a2f blkcg: Update MAINTAINERS entry
-63d1dfd067f07c11eafe05ebadc5896491416f86 ARC: Fix comment typo
-6e32c89c0f67b481ec17de69e556907d6445f91e ARC: Fix comment typo
-a1db7ad3120e787350c83712c6b1087c7894c6a4 ARC: bitops: Change __fls to return unsigned long
-c8f878582838f57bc0984f47da2a8d275731240f arc: dts: Harmonize EHCI/OHCI DT nodes name
-c44f15c1c09481d50fd33478ebb5b8284f8f5edb arc: iounmap() arg is volatile
-2df1f4a77bc0e94e1a0cc7485d09a26855461dd6 arc: update config files
-4fd9df10cb7a9289fbd22d669f9f98164d95a1ce ARC: mm: fix leakage of memory allocated for PTE
-6fe987a2689d31a4eb0dba8cbcf193dd4085e3ce fscrypt: fix keyring memory leak on mount failure
-bb1a1146467ad812bb65440696df0782e2bc63c8 Merge tag 'cgroup-for-6.1-rc1-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/cgroup
-2331ce6126be8864b39490e705286b66e2344aac scsi: core: Restrict legal sdev_state transitions via sysfs
-baf49ed1d85313044adadf8a247a3379dcfabf53 mailmap: update Dan Carpenter's email address
-10d1d18c83915a42c42eecb13912f880a8293361 mailmap: update email for Qais Yousef
-7ddc206e5481117fdf7508a07c025fe2e623f2f1 mm/mempolicy: fix mbind_range() arguments to vma_merge()
-57454cfe851fdd3f5238e151dc005349e383ad3b zsmalloc: zs_destroy_pool: add size_class NULL check
-bed4299ab0086f4577cc07757d276d705f0a7a43 gcov: support GCC 12.1 and newer compilers
-4c59d4c394eb48c9f8ea846e2d3391e820df9104 ocfs2: fix BUG when iput after ocfs2_mknod fails
-eda4970da82be7d49294e5f1020f0150ed6d7136 ocfs2: clear dinode links count in case of error
-a7fcbabdd340e9233162863aaa6a792724071ea0 init: Kconfig: fix spelling mistake "satify" -> "satisfy"
-dc8e483f684a24cc06e1d5fa958b54db58855093 scsi: lpfc: Fix memory leak in lpfc_create_port()
-69d04ca999499bccb6ca849fa2bfc5e6448f7233 mtd: spi-nor: core: Ignore -ENOTSUPP in spi_nor_init()
-12b58961de0bd88b3c7dfa5d21f6d67f4678b780 mtd: core: add missing of_node_get() in dynamic partitions code
-69421bf98482d089e50799f45e48b25ce4a8d154 udp: Update reuse->has_conns under reuseport_lock.
-1f3b494d1fc18ebb37aaa47107e9b84bf5b54ff7 mtd: rawnand: intel: Add missing of_node_put() in ebu_nand_probe()
-3ada71310d2c68eebb57772df6bb1f5f033ae802 mtd: rawnand: tegra: Fix PM disable depth imbalance in probe
-ce107713b722af57c4b7f2477594d445b496420e mtd: rawnand: marvell: Use correct logic for nand-keep-config
-1ca695207ed2271ecbf8ee6c641970f621c157cc ip6mr: fix UAF issue in ip6mr_sk_done() when addrconf_init_net() failed
-05e258c6ec669d6d18c494ea03d35962d6f5b545 mtd: parsers: bcm47xxpart: Fix halfblock reads
-157209ecce2bb83230222f7ce857406beadcb96c Merge remote-tracking branch 'regmap/for-6.0' into regmap-linus
-dadd3e7cdcd182ca4dbc74206e4539dd04eb73ea Merge remote-tracking branch 'regulator/for-6.0' into regulator-linus
-4e8ff35878685291978b93543d6b9e9290be770a ASoC: codecs: tlv320adc3xxx: Wrap adc3xxx_i2c_remove() in __exit_p()
-9a7f2c9e7a19b16b4409f372cf2e16e4334cdca2 ASoC: qcom: SND_SOC_SC7180 optionally depends on SOUNDWIRE
-89ed0b769d6adf30364f60e6b1566961821a9893 powerpc/pseries/vas: Add VAS IRQ primary handler
-2147783d6bf0b7ca14c72a25527dc5135bd17f65 powerpc/pseries: Use lparcfg to reconfig VAS windows for DLPAR CPU
-a921ff0cf8b5ea374ef047db098e792d0205860b Merge remote-tracking branch 'asoc/for-6.0' into asoc-linus
-9d13c86c3c44ee4f0bf8f611a4db1ec6c82f8b91 Merge remote-tracking branch 'spi/for-6.0' into spi-linus
-491a4ccd8a0258392900c80c6b2b622c7115fc23 ALSA: hda/realtek: Add quirk for ASUS Zenbook using CS35L41
-0782b66ed2fbb035dda76111df0954515e417b24 rtc: cmos: Fix wake alarm breakage
-7ae460973d3455371a1182297357eeb9fafb0227 Merge tag 'erofs-for-6.1-rc2-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/xiang/erofs
-aae703b02f92bde9264366c545e87cec451de471 Merge tag 'for-6.1-rc1-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
-db4e955ae333567dea02822624106c0b96a2f84f rtc: cmos: fix build on non-ACPI platforms
-eaef8e9f6136baafb1fba5c93ae538bfc9f8ad13 Merge branch 'mm-hotfixes-unstable' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
-9f6c1f471001d359bc1acbaa5eb4b51e1f1a5822 Merge branch 'for-curr' of git://git.kernel.org/pub/scm/linux/kernel/git/vgupta/arc.git
-d0b3bb2fe5fef7b31a2a61ae61ed205da40a76a3 Merge branch 'fixes' of https://git.linaro.org/people/jens.wiklander/linux-tee.git
-d2b2567628163db4fe86ca1ef680714b0ae8da48 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux.git
-65a2fd7d22b548ec870d19a7a58464ac05aeed26 Merge branch 'master' of git://git.kernel.org/pub/scm/linux/kernel/git/davem/sparc.git
-424e0b3ede69da85d610f7eee5a9a0ff764c226e Merge branch 'for-stable' of git://git.kernel.org/pub/scm/fs/fscrypt/fscrypt.git
-3c8077a49da06406d913dd4d00578fcc45721e3d Merge branch 'master' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net.git
-a78dc554e6748d58d99da263001bf52fdadfe464 Merge branch 'master' of git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf.git
-430574da9587a4d8f2f8ee2232413f0112b245e6 Merge branch 'master' of git://git.kernel.org/pub/scm/linux/kernel/git/klassert/ipsec.git
-6ef219216bb6534c78dc0cbf5341c149536a026d Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound.git
-c5be6b8c194d183a25a45f60de72d5e438ef033d Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-a1f0d2ebfbac4c2cc3cdc633603c04ad6529c2ed Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regmap.git
-ea798c7b8d68a0beca06ea9806f9e034b8f02ef2 Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
-fad0cedb5a43a8a7bf23965f3215d2a3ac3a1dc6 Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-242ff4fe690cd11c451e895d0a2cedf26f4a9e05 Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/helgaas/pci.git
-88ab7cf429c6cbd2760c185c4b2b940191872dec Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/phy/linux-phy.git
-b9a5222f1b599f27171eef37c4eb8e11f7e60730 Merge branch 'fixes-togreg' of git://git.kernel.org/pub/scm/linux/kernel/git/jic23/iio.git
-c052e8ed35f2fb1cb39a6a0befd398c64f7f336f Merge branch 'counter-current' of git://git.kernel.org/pub/scm/linux/kernel/git/wbg/counter.git
-873f8a7a068dc4029351cb2c6ff39132896012a9 Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input.git
-2914b108506877cc8dd164261d0a0777385320bf Merge branch 'mtd/fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/mtd/linux.git
-84be19a15052e742b95f4f44d958c079ed149305 Merge branch 'hwmon' of git://git.kernel.org/pub/scm/linux/kernel/git/groeck/linux-staging.git
-2bc16aa32483674e41a7eb0e212bf68aa63485df Merge branch 'next-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux.git
-6f8922b2dee14545c7f956b4e9a0450533e5dde8 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/mkp/scsi.git
-47b062111e5b617d79893b5b0058dcaeffc1eb8a Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/mmc.git
-f7ca48e3d50f188c25d6d22beb961417cedccf07 Merge branch 'rtc-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/abelloni/linux.git
-3377203f277ed765150cd544c271c77ba93eca86 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux.git
-9e445cd95ae4b4c4c20115a8f61ab12def52ab66 Merge branch 'for-rc' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
-3f459d8220215217cdfc124979ac466ffcf5f1f7 Merge branch 'urgent' of git://git.kernel.org/pub/scm/linux/kernel/git/efi/efi.git
-6432cd161ee0f4fe2d263ec33fd37ada0e0c789d Merge branch 'zstd-linus' of https://github.com/terrelln/linux.git
-ce5e7d24bc8eae0874ddd12d99394ab07c5af09c Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/sre/linux-power-supply.git
-dfe701541ba92be904b8cb7a70f7700363593430 Merge branch 'for-linux-next-fixes' of git://anongit.freedesktop.org/drm/drm-misc
-
---===============8545473633548162888==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bbb8ceb5e242-aae703b02f92.txt
-
-96dbcc0072acf4f9565a16e8da96e57e5cee1068 btrfs: add missing path cache update during fiemap
-46307fd6e27a3f678a1678b02e667678c22aa8cc cgroup: Reorganize css_set_lock and kernfs path processing
-03db7716159477b595e9af01be8003b7e994cc79 Revert "cgroup: enable cgroup_get_from_file() on cgroup1"
-9971a741c5f44fd72e664c35be9bc6fedb8a3498 btrfs: send: allow protocol version 3 with CONFIG_BTRFS_DEBUG
-c86eab81a23f368d08efd3df96a95f3d0b471f85 btrfs: send: update command for protocol version check
-9e769bd7e5db5e3bd76e7c67004c261f7fcaa8f1 btrfs: unlock locked extent area if we have contention
-295a53ccc4ca8383f6d107534b466b91aa013f79 btrfs: delete stale comments after merge conflict resolution
-4fc7b57228243d09c0d878873bf24fa64a90fa01 btrfs: fix processing of delayed data refs during backref walking
-943553ef9b51db303ab2b955c1025261abfdf6fb btrfs: fix processing of delayed tree block refs during backref walking
-63c84b46b3b75798f1ad63527b6250de00331907 btrfs: ignore fiemap path cache if we have multiple leaves for a data extent
-a6d1ce5951185ee91bbe6909fe2758f3625561b0 cgroup: add cgroup_v1v2_get_from_[fd/file]()
-35256d673a9cf723d9e2edb5d51e1b1b6b197ba3 bpf: cgroup_iter: support cgroup1 using cgroup fd
-8248fe413216732f98563e8882b6c6ae617c327b perf stat: Support old kernels for bperf cgroup counting
-b675d4bdfefac2fd46838383ecb3c06ad0f4c94d mm: cgroup: fix comments for get from fd/file helpers
-4efb365a3f04d0bee7833f168b0b00a15edefeac MAINTAINERS: update btrfs website links and files
-664609e49f1c84fc97987b2bf64544e586b8849c erofs: fix illegal unmapped accesses in z_erofs_fill_inode_lazy()
-63bbb85658ea43dd35dbfde6d4150b47c407fc87 erofs: shouldn't churn the mapping page for duplicated copies
-e7933278b442f97809b1ea84264586302bd08a03 erofs: fix up inplace decompression success rate
-ce4b815686573bef82d5ee53bf6f509bf20904dc erofs: protect s_inodes with s_inode_list_lock for fscache
-79a818b5087393d5a4cb356d4545d02f55bf1a2f blkcg: Update MAINTAINERS entry
-bb1a1146467ad812bb65440696df0782e2bc63c8 Merge tag 'cgroup-for-6.1-rc1-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/cgroup
-7ae460973d3455371a1182297357eeb9fafb0227 Merge tag 'erofs-for-6.1-rc2-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/xiang/erofs
-aae703b02f92bde9264366c545e87cec451de471 Merge tag 'for-6.1-rc1-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
-
---===============8545473633548162888==--
+--===============4598477701901431696==--
