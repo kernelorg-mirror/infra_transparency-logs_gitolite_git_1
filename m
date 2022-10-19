@@ -1,70 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============6756273651918197455=="
+Content-Type: multipart/mixed; boundary="===============7938326522825279166=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/intel
-Date: Wed, 19 Oct 2022 15:14:25 -0000
-Message-Id: <166619246599.12638.12160781332113737718@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
+Date: Wed, 19 Oct 2022 15:34:33 -0000
+Message-Id: <166619367320.26993.6778327302876495630@gitolite.kernel.org>
 
---===============6756273651918197455==
+--===============7938326522825279166==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pinctrl/intel
-user: andy
+repo: pub/scm/linux/kernel/git/saeed/linux
+user: saeed
 changes:
-  - ref: refs/heads/for-next
-    old: 1f747520415f568c27849613a47c6ca670c7e40e
-    new: 1053f6a58766ac8eadcb72630262a5a454048479
-    log: revlist-1f747520415f-1053f6a58766.txt
+  - ref: refs/heads/net-next-mlx5
+    old: e2ac2a00dae10997b71870ecf26ca69f4d726537
+    new: a526a3cc9c8d426713f8bebc18ebbe39a8495d82
+    log: revlist-e2ac2a00dae1-a526a3cc9c8d.txt
 
---===============6756273651918197455==
+--===============7938326522825279166==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1f747520415f-1053f6a58766.txt
+Content-Disposition: attachment; filename=revlist-e2ac2a00dae1-a526a3cc9c8d.txt
 
-d22dcc901ff2ec56379492e30b2ccadb33c54e14 gpiolib: Clean up headers
-a026c05da4702d255942347676350a81e0b594d9 media: c8sectpfe: Add missing header(s)
-530e7e5750e99bd79ebf8800836454dd2225ab98 pinctrl: actions: Add missing header(s)
-abb4c51abcb19e0c751496c119c93f86ac203da8 pinctrl: aspeed: Add missing header(s)
-f5de9ee88f326830da225ddafd7c3b7d29e01743 pinctrl: at91: Add missing header(s)
-9a64331228bec107645594d8acd4deefb3a6fe02 pinctrl: axp209: Add missing header(s)
-0dad8d4cc09aa329b5685f97e570440a65ea7779 pinctrl: bcm: Add missing header(s)
-f9849b9ab727d1901ff396ae47154b6f3f85f8cf pinctrl: bm1880: Add missing header(s)
-15aed65e2eb3bfc6d099e0cdd321136501de7df5 pinctrl: cygnus-mux: Add missing header(s)
-a2bc11b7d6c14914ad71592a8ba07098d3f12483 pinctrl: gemini: Add missing header(s)
-5aacd69c4aa912da3a1b81da674ee498805f25d7 pinctrl: imx: Add missing header(s)
-fc7656f35798c9748ac7f70a0e2d6aeff9692053 pinctrl: ingenic: Add missing header(s)
-e5fc331b7535baf2db3105ce9fbe375b49a3be6d pinctrl: k210: Add missing header(s)
-d2030cdf7c30d24636c25053ce07c1c056b52307 pinctrl: lochnagar: Add missing header(s)
-c58207704660f5af7cffc7dcb1b797c76c9ec0d5 pinctrl: lpc18xx: Add missing header(s)
-cb6d7a6cb2851ab4748349fa00525e78d7fda5aa pinctrl: mediatek: Add missing header(s)
-cfef8318fc454f3f56a1ade9c6aa1156ac47b0f7 pinctrl: microchip-sgpio: Add missing header(s)
-b7d4bba75ed2a180a5c6e9e658c8ff2aab7f4472 pinctrl: mvebu: Add missing header(s)
-4c03847b0d92e6e4a6b72ca8392959fb7f857410 pinctrl: npcm7xx: Add missing header(s)
-15293ae280c59240de968ef6f22b4a9d59998fd1 pinctrl: ocelot: Add missing header(s)
-ada252626d02a538cdfcd62311f6aec20c806562 pinctrl: qcom: Add missing header(s)
-c319a0a090c8ea8552cd77559408d9eb39f3260f pinctrl: renesas: Add missing header(s)
-31d4f8bfeecdca1b9a4294864ee7c84bb8dd3882 pinctrl: samsung: Add missing header(s)
-b44a48b3bd660d8c141e2aac532ed2549e5ffd3e pinctrl: single: Add missing header(s)
-d2a4300e76774bc698355e7431ff37660767348b pinctrl: spear: Add missing header(s)
-df2b678c80d61763dfbbd24cc8ce23677b754fa5 pinctrl: sprd: Add missing header(s)
-101b96d46c3bd15ba1357e952fb2668c75ae1df2 pinctrl: st: Add missing header(s)
-51cbf834daf52e05c2463cf11442a8a9d22b3f3d pinctrl: starfive: Add missing header(s)
-d5f9a7cc15486eb1785b8b120f7320e3e8f45c9a pinctrl: stm32: Add missing header(s)
-8b4da3849cab025fe519d17deee959eefdbc9640 pinctrl: stmfx: Add missing header(s)
-e2e1ed099da01e6a9427b328aac02b5c0598319e pinctrl: sunxi: Add missing header(s)
-efbc4d0d395785163e60bb91c191a5e3d6a6544c pinctrl: tegra: Add missing header(s)
-233b152b7982056af8e5d0d78a448ff800644373 pinctrl: ti-iodelay: Add missing header(s)
-123567b60ab5d89c180133e1cd72a26d114e000e pinctrl: uniphier: Add missing header(s)
-7cf291f44d640c9168d66bed75f50df547b67771 pinctrl: zynqmp: Add missing header(s)
-47067ea452c9fe395af85fe1e3937b2c683fbb82 pinctrl: cherryview: Add missing header(s)
-54ac6c83853675ed758b04e353bd120be5f738fd pinctrl: lynxpoint: Add missing header(s)
-5254eaaf9b6a4177039e346fc053a1dc15c924e4 pinctrl: merrifield: Add missing header(s)
-3b7af88b17d000be8291d5a5e65bfd55dcd34856 pinctrl: intel: Add missing header(s)
-1053f6a58766ac8eadcb72630262a5a454048479 pinctrl: Clean up headers
+c4d175c323e3751badf77766c79cb130b4a3eb5f dt-bindings: net: marvell,pp2: convert to json-schema
+2994bf7705b4dca2b0e4634d79d3474868562216 arm64: dts: marvell: Update network description to match schema
+844e44988fa8f747f1a730b1e1586a9f3ca23c0e ARM: dts: armada-375: Update network description to match schema
+88a2b3cbb7b9c2d073697b3f0328326cb28312b4 Merge branch 'net-marvell-yaml'
+76025ee53b7dc8dd9633231829b996d181bbcef2 dt-bindings: net: Expand pcs-handle to an array
+00af103d06b35e0acb2213a8479fe7ef5dad1115 dt-bindings: net: Add Lynx PCS binding
+045d05018a2da6cb0944a40f3811fbecce6401c1 dt-bindings: net: fman: Add additional interface properties
+f392a1846489720fc2e063d1210633b6cf4ec5a4 net: phylink: provide phylink_validate_mask_caps() helper
+0fc83bd79589b3e354535a4761a4b2a483f2f14c net: fman: memac: Add serdes support
+a7c2a32e7f22cf5648c52e05a21725a9d0675649 net: fman: memac: Use lynx pcs driver
+5d93cfcf7360eac9903774fe94f626c9ead2049d net: dpaa: Convert to phylink
+36926a7d70c2d462fca1ed85bfee000d17fd8662 powerpc: dts: t208x: Mark MAC1 and MAC2 as 10G
+4e31b808fad1f7c505f916e844000aa9dcbd2ccf powerpc: dts: qoriq: Add nodes for QSGMII PCSs
+4e748b1bd7c06c9f744b873939aef8982d81dcaf arm64: dts: layerscape: Add nodes for QSGMII PCSs
+5cacb2c7c9a4035238cbd7cbd3cf751f825d9f90 Merge branch 'dpaa-phylink'
+6fb1faa1b92b19e3b1fad70a800c87bee934d67b selftests: bridge_vlan_mcast: Delete qdiscs during cleanup
+b526b2ea1454d03b294cd10aa35695d5232b1106 selftests: bridge_igmp: Remove unnecessary address deletion
+262985fad1bd819d1323c6dbd72a8d9ed1c6090c bridge: mcast: Use spin_lock() instead of spin_lock_bh()
+d1942cd47dbdfb5a6187f660418a4e1be38d1312 bridge: mcast: Simplify MDB entry creation
+ac3208fbac43a41e2aec94ca382dff43c7ee7323 Merge branch 'net-bridge-mc-cleanups'
+a526a3cc9c8d426713f8bebc18ebbe39a8495d82 net: ethernet: adi: adin1110: Fix SPI transfers
 
---===============6756273651918197455==--
+--===============7938326522825279166==--
