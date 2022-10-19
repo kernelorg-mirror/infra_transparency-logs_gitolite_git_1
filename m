@@ -1,50 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============7679221588828642316=="
+Content-Type: multipart/mixed; boundary="===============2391264880335656086=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Wed, 19 Oct 2022 14:56:05 -0000
-Message-Id: <166619136533.1084.14297296574090705973@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Wed, 19 Oct 2022 14:56:11 -0000
+Message-Id: <166619137105.1174.14803239361016609976@gitolite.kernel.org>
 
---===============7679221588828642316==
+--===============2391264880335656086==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.2
+  - ref: refs/heads/spi-6.2
     old: 666ea0ad932fbdc82644457f1a78f4584801f698
     new: 3be6acda8241352c57d47b4d7d9968cadcb954ea
     log: |
          3be6acda8241352c57d47b4d7d9968cadcb954ea spi: fsl-cpm: substitute empty_zero_page with helper ZERO_PAGE(0)
          
 
---===============7679221588828642316==
+--===============2391264880335656086==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1666191363 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1666191363-761f35dae0c84e6b2175bf38730a301f669fa464
+pusher C3F436CA30F5D8EB 1666191369 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1666191369-dba8fda1a625cf0550ac5106a4715be9a275ed23
 
-666ea0ad932fbdc82644457f1a78f4584801f698 3be6acda8241352c57d47b4d7d9968cadcb954ea refs/heads/for-6.2
+666ea0ad932fbdc82644457f1a78f4584801f698 3be6acda8241352c57d47b4d7d9968cadcb954ea refs/heads/spi-6.2
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmNQEAMACgkQJNaLcl1U
-h9BBagf+L98gXScw9WT/CvFA1VPxZkPqvJp6U6Kk0Yj9aFy0WexrvPb3rRd20eN3
-JXlT90KE6x208vTFzSJexDc9gZDopJuSNjOpIs6ioxrPI1+CiqfTOy4+JA67WZr8
-wPeLf6YgK05xf0nT/FUa9GYq+x8ZB+7wPiUy5PrbiJA9lNHiCvFHXJpOHaQQBN/A
-IQwNbupTa8Jmxi7tdwnyowx33gXMtW+fTW7H45QJedVEyZW5+USAp4UgdREBOGbH
-LOje9LVP0G5Xn9lb2RrzlE97HEJz8j7f3iwvbTkMvHCaVRBKyNDytxca/V95MCgY
-WpJoLBJNok8UjwPT/GTUXVX2d2mpYg==
-=UY14
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmNQEAkACgkQJNaLcl1U
+h9CnzQgAg8Rf3goF4tSNM+LuwOHZlSgMaUTt0tvou7RIbCJFJNX1iUGl+m6fm/HB
+Anx9uXUCH+uG5WWW7MEp6eV4EOtMFhLRMj50DCNUMpqDgeVigep5gv9OB2uPWCvw
+UCmBLtuwgczsLvDdXou1zK/PCWE9yP5giTosTLkvUaQ7kid/o+5kYO/KmTI8ey/m
+rY2y1nRMFhCIVEuq5SNLOS+MpVs061Ra4NUJM6ozgVuqOCydV635Cxc1SHtsQO0M
+0sFho8Z8JAJHjGU69Vi6lVkrAq0S4ges8pRuzMT3Z0xz/wfD3JhRTWChRZSjd+YE
+4d4uH9zoycCC9bWcjL1KaBMBlTONhQ==
+=hXZp
 -----END PGP SIGNATURE-----
 
---===============7679221588828642316==--
+--===============2391264880335656086==--
