@@ -1,47 +1,28 @@
-Content-Type: multipart/mixed; boundary="===============4048567121353459261=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mic/linux
-Date: Wed, 19 Oct 2022 20:12:07 -0000
-Message-Id: <166621032789.1707.11328489299461830847@gitolite.kernel.org>
-
---===============4048567121353459261==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/kas/linux
+Date: Wed, 19 Oct 2022 20:22:45 -0000
+Message-Id: <166621096522.8464.16170988416789374494@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mic/linux
-user: mic
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/kas/linux
+user: kas
 changes:
-  - ref: refs/heads/next
-    old: ede2a34363a5dddd5e6b37b8e52c5041d1e78209
-    new: 4bc90a766ea5af69c12ca1ea00b7fc5fe1d68831
+  - ref: refs/heads/lam
+    old: 10b0011871ea243b6009978660332a5f3d7bf4bd
+    new: 01819ca3dcb30fc9114025c8c5da8bcee0cabcee
     log: |
-         091873e47ef700e935aa80079b63929af599a0b2 selftests/landlock: Build without static libraries
-         4bc90a766ea5af69c12ca1ea00b7fc5fe1d68831 Merge branch 'landlock-test-build-fix' into landlock-next
+         9164f00d833a1f9f05be5db7c17c32cd0eb6b79d mm: Expose untagging mask in /proc/$PID/status
+         b6640654e647a412919e2b4b7f449f631201b08a mm_valid_pasid
+         72e630b6778b9b37cfbc9b1b2ba5526bbf319950 x86/mm, iommu/sva: Make LAM and SVA mutually exclusive
+         1f7dd9bce612ff2ae30c861a9258eef9ab90e9ea selftests/x86/lam: Add malloc and tag-bits test cases for linear-address masking
+         e2976d1d7901298f4aae51aaa65391825e77c57b selftests/x86/lam: Add mmap and SYSCALL test cases for linear-address masking
+         0f1d27a9596fad8677c487ac86e843bd7cf391f0 selftests/x86/lam: Add io_uring test cases for linear-address masking
+         55ffc4f315e79810af819e2b1b2f6f4998a0ca36 selftests/x86/lam: Add inherit test cases for linear-address masking
+         ed45c7f33782d6afe18bbcc229884bf7c32b2c7b selftests/x86/lam: Add ARCH_FORCE_TAGGED_SVA test cases for linear-address masking
+         00766e78db5e412bc39f4b1c9ad462cdf05dae10 x86/mm: Extend LAM to support to LAM_U48
+         01819ca3dcb30fc9114025c8c5da8bcee0cabcee selftests/x86/lam: Add tests cases for LAM_U48
          
-
---===============4048567121353459261==
-Content-Type: text/plain; charset="utf-8"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Mickaël Salaün <mic@digikod.net> 1666210325 +0200
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mic/linux.git
-nonce 1666210325-c84e296d20faed35c7614bfe84e93a334ff8b923
-
-ede2a34363a5dddd5e6b37b8e52c5041d1e78209 4bc90a766ea5af69c12ca1ea00b7fc5fe1d68831 refs/heads/next
------BEGIN PGP SIGNATURE-----
-
-iIYEABYIAC4WIQSVyBthFV4iTW/VU1/l49DojIL20gUCY1BaFRAcbWljQGRpZ2lr
-b2QubmV0AAoJEOXj0OiMgvbSObsBAMV6br/hcLKZqTVDG009Co5h8IVY0qP6ObPz
-abOz4/iVAP91piph5+NAjiKMwyWM3BNIP4WzTWH7Q2M89TvAcSENDg==
-=xvs4
------END PGP SIGNATURE-----
-
---===============4048567121353459261==--
