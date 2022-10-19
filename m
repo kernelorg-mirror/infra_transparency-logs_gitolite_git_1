@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gustavoars/linux
-Date: Wed, 19 Oct 2022 04:11:03 -0000
-Message-Id: <166615266311.12847.5751380228302279030@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dlemoal/libata
+Date: Wed, 19 Oct 2022 04:46:27 -0000
+Message-Id: <166615478755.5810.6031431254001471134@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gustavoars/linux
-user: gustavoars
+repo: pub/scm/linux/kernel/git/dlemoal/libata
+user: dlemoal
 changes:
-  - ref: refs/heads/6.1-rc1-Wcast-function-type-strict
-    old: 973dea1fc38ee4df0a6ff6d07b3a3966be781316
-    new: f125e61a737480c6e11005ea08684baea11e1b97
+  - ref: refs/heads/for-6.2
+    old: 0b8b8b54a2929a19570edee108229511d757ff85
+    new: 5122e53ee784b9a2a2f40d34222751b6b4ab076c
     log: |
-         f125e61a737480c6e11005ea08684baea11e1b97 airo: Avoid clashing function prototypes
+         7834589e81bcf5fe4e7ab60430670c9245183de0 scsi: libsas: make use of ata_port_is_frozen() helper
+         5122e53ee784b9a2a2f40d34222751b6b4ab076c ata: libata-core: do not retry reading the log on timeout
          
