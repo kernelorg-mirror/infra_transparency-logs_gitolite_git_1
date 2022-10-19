@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Wed, 19 Oct 2022 12:05:43 -0000
-Message-Id: <166618114366.9080.18086931645523378417@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Wed, 19 Oct 2022 12:09:25 -0000
+Message-Id: <166618136500.10440.3090166918579407629@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 changes:
-  - ref: refs/heads/fileH3l3jc
+  - ref: refs/tags/arm64-enable-da-v1
     old: 0000000000000000000000000000000000000000
-    new: 3be6acda8241352c57d47b4d7d9968cadcb954ea
-  - ref: refs/heads/v2_20221019_kuninori_morimoto_gx_asoc_soc_dapm_c_random_cleanups
-    old: 0000000000000000000000000000000000000000
-    new: 25106550f1366bec8a9adefeada5e8ff5205c828
+    new: ce33ad682d1170f403b66aec8a67ae125da28f6c
