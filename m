@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/fpga/linux-fpga
-Date: Wed, 19 Oct 2022 02:45:27 -0000
-Message-Id: <166614752767.17254.3190513424383353545@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gustavoars/linux
+Date: Wed, 19 Oct 2022 02:47:47 -0000
+Message-Id: <166614766715.18095.3635453883553776317@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/fpga/linux-fpga
-user: yilunxu
+repo: pub/scm/linux/kernel/git/gustavoars/linux
+user: gustavoars
 changes:
-  - ref: refs/heads/for-6.1
+  - ref: refs/heads/6.1-rc1-Wcast-function-type-strict
     old: 0000000000000000000000000000000000000000
-    new: 9abf2313adc1ca1b6180c508c25f22f9395cc780
+    new: c8239f5813dec6e5cfb554ca92b1783a18ac5537
