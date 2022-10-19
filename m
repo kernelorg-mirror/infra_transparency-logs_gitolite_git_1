@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Wed, 19 Oct 2022 18:35:15 -0000
-Message-Id: <166620451521.28650.15303922230129985535@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Wed, 19 Oct 2022 18:38:33 -0000
+Message-Id: <166620471301.31773.8432598910509652007@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: martin.lau
+repo: pub/scm/linux/kernel/git/tip/tip
+user: bp
 changes:
-  - ref: refs/heads/for-next
-    old: 01dea9548f6c88dc23dc5916eecd3555b82c8fec
-    new: 2c4d72d66b548f1404ff43c01b7b81f4c4c6fafd
+  - ref: refs/heads/x86/cpu
+    old: 1d30800c0c0ae1d086ffad2bdf0ba4403370f132
+    new: 01c97c7303580682751b5aaae043b639bdcbacb3
     log: |
-         2c4d72d66b548f1404ff43c01b7b81f4c4c6fafd samples/bpf: Fix typos in README
+         01c97c7303580682751b5aaae043b639bdcbacb3 x86/mtrr: Add comment for set_mtrr_state() serialization
          
