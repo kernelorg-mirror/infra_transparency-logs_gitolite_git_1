@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless-testing
-Date: Wed, 19 Oct 2022 12:43:11 -0000
-Message-Id: <166618339192.2232.4055226975303223136@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Wed, 19 Oct 2022 12:43:57 -0000
+Message-Id: <166618343773.2585.982727245191523730@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wireless/wireless-testing
-user: bcopeland
+repo: pub/scm/linux/kernel/git/netdev/net
+user: davem
 changes:
-  - ref: refs/tags/v6.1-rc1
-    old: 0000000000000000000000000000000000000000
-    new: e0e492cebef25c13fc29b174f01b5178662f1652
+  - ref: refs/heads/master
+    old: aa1d7e1267c12e07d979aa34c613716a89029db2
+    new: 7b55c2ed2ba061b65fc51d7a18d37e017085997f
+    log: |
+         7b55c2ed2ba061b65fc51d7a18d37e017085997f ethernet: marvell: octeontx2 Fix resource not freed after malloc
+         
