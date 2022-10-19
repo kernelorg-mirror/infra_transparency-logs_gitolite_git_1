@@ -1,35 +1,29 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvalo/ath
-Date: Wed, 19 Oct 2022 05:53:48 -0000
-Message-Id: <166615882854.19244.8346543417524271991@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless-next
+Date: Wed, 19 Oct 2022 06:03:06 -0000
+Message-Id: <166615938627.26843.16539713860528966314@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvalo/ath
+repo: pub/scm/linux/kernel/git/wireless/wireless-next
 user: kvalo
 changes:
-  - ref: refs/heads/master-pending
-    old: 596157454b2e1846fde65eb4e10f16a781931ff8
-    new: 6caf10fb95580c8d683a608b6b6f838349470906
+  - ref: refs/heads/main
+    old: b8fe87b816851d08a31c7c9589855c8535672299
+    new: 55549d6a3052990e65727bfec158e1b0e7cec4e4
     log: |
-         acd4324e5f1f11351630234297f95076f0ac9a2f wifi: ath10k: Delay the unmapping of the buffer
-         3b49007db58159960e81c5799f11aeafc130c817 Merge branch 'ath-next'
-         5932491bee6990ccf0d17568cb534b994b02db85 Merge remote-tracking branch 'mhi/mhi-next'
-         087c436cbc8b1bf3d3bc7ea94d6757d74ea2f470 Add localversion-wireless-testing-ath
-         633e15f6407e0a0c62fea984a1fe833c17c5ac2c wifi: ath11k: change to set 11d state instead of start 11d scan while disconnect
-         644726bff51a190f3de50546dd061e0d16bacedd wifi: ath11k: reduce the timeout value back for hw scan from 10 seconds to 1 second
-         0fa9b035dd0a4ffcbce479ed0493dea6dc0b346c wifi: ath11k: fix monitor vdev creation with firmware recovery
-         6caf10fb95580c8d683a608b6b6f838349470906 Merge branch 'pending' into master-pending
-         
-  - ref: refs/heads/pending
-    old: 4fc14af45b8ea0a17a491b50c85d355b8c1a48d2
-    new: 0fa9b035dd0a4ffcbce479ed0493dea6dc0b346c
-    log: |
-         acd4324e5f1f11351630234297f95076f0ac9a2f wifi: ath10k: Delay the unmapping of the buffer
-         633e15f6407e0a0c62fea984a1fe833c17c5ac2c wifi: ath11k: change to set 11d state instead of start 11d scan while disconnect
-         644726bff51a190f3de50546dd061e0d16bacedd wifi: ath11k: reduce the timeout value back for hw scan from 10 seconds to 1 second
-         0fa9b035dd0a4ffcbce479ed0493dea6dc0b346c wifi: ath11k: fix monitor vdev creation with firmware recovery
+         16be5e3be0e5794b5e7227c63b440f3fdb9c22ce wifi: rtw89: 8852b: rfk: add DACK
+         10298b53bff642e586e5b82616914c9fa3d9a906 wifi: rtw89: 8852b: rfk: add RCK
+         212671074ab2f3e33fd5e95392c7356410ad7f8d wifi: rtw89: 8852b: rfk: add RX DCK
+         f2abe804e8230ff20a834e204bde529935df5467 wifi: rtw89: 8852b: rfk: add IQK
+         7f18a70d7b4d2a0e54ce542c222aeffc464ed9f3 wifi: rtw89: 8852b: rfk: add TSSI
+         5b8471ace5b1247b2eb6a824341e11a8e871080f wifi: rtw89: 8852b: rfk: add DPK
+         ef8acbcac6816e4caf20934932b4881d775c6f37 wifi: rtw89: 8852b: add chip_ops related to RF calibration
+         3b66519b023b9de3239576b938bbdf43f95bc862 wifi: rtw89: phy: add dummy C2H handler to avoid warning message
+         b5db4ef38e21dd9b6b95ae96cea5032b00e04f24 wifi: rtw89: 8852b: add 8852be to Makefile and Kconfig
+         80bc5ae9733c2ae71a13db819f9368191cc19d6f bcma: support SPROM rev 11
+         55549d6a3052990e65727bfec158e1b0e7cec4e4 bcma: gpio: Convert to immutable gpio irqchip
          
