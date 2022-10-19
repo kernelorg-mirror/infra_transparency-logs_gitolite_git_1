@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vkoul/soundwire
-Date: Wed, 19 Oct 2022 12:44:41 -0000
-Message-Id: <166618348112.2870.856110368917957237@gitolite.kernel.org>
+Subject: post-receive: pub/scm/docs/man-pages/man-pages
+Date: Wed, 19 Oct 2022 12:45:51 -0000
+Message-Id: <166618355125.4946.11158821735452810778@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vkoul/soundwire
-user: vkoul
+repo: pub/scm/docs/man-pages/man-pages
+user: alx
 changes:
-  - ref: refs/heads/next
-    old: 9abf2313adc1ca1b6180c508c25f22f9395cc780
-    new: f74495761df10c25a98256d16ea7465191b6e2cd
+  - ref: refs/heads/master
+    old: cd78e9c02d5c0e0c67b1225083c858342581c6a3
+    new: 8a60be331afc826a632bfe501ddc05992f5237bd
     log: |
-         f74495761df10c25a98256d16ea7465191b6e2cd soundwire: dmi-quirks: add quirk variant for LAPBC710 NUC15
+         8a60be331afc826a632bfe501ddc05992f5237bd INSTALL, RELEASE: Add RELEASE file with instructions for releasing
          
