@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8076368474184644136=="
+Content-Type: multipart/mixed; boundary="===============5697185106485555146=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Wed, 19 Oct 2022 14:06:56 -0000
-Message-Id: <166618841634.30269.14819625720095083496@gitolite.kernel.org>
+Date: Wed, 19 Oct 2022 14:07:22 -0000
+Message-Id: <166618844290.30446.145026183875039029@gitolite.kernel.org>
 
---===============8076368474184644136==
+--===============5697185106485555146==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: dborkman
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: e2ac2a00dae10997b71870ecf26ca69f4d726537
     new: a526a3cc9c8d426713f8bebc18ebbe39a8495d82
     log: revlist-e2ac2a00dae1-a526a3cc9c8d.txt
 
---===============8076368474184644136==
+--===============5697185106485555146==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -48,4 +48,4 @@ d1942cd47dbdfb5a6187f660418a4e1be38d1312 bridge: mcast: Simplify MDB entry creat
 ac3208fbac43a41e2aec94ca382dff43c7ee7323 Merge branch 'net-bridge-mc-cleanups'
 a526a3cc9c8d426713f8bebc18ebbe39a8495d82 net: ethernet: adi: adin1110: Fix SPI transfers
 
---===============8076368474184644136==--
+--===============5697185106485555146==--
