@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/selinux
-Date: Wed, 19 Oct 2022 14:04:59 -0000
-Message-Id: <166618829930.27907.10841691149369061058@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Wed, 19 Oct 2022 14:06:02 -0000
+Message-Id: <166618836228.29846.1055137619481571458@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pcmoore/selinux
-user: pcmoore
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: dborkman
 changes:
-  - ref: refs/heads/stable-6.1
-    old: 9abf2313adc1ca1b6180c508c25f22f9395cc780
-    new: abe3c631447dcd1ba7af972fe6f054bee6f136fa
-    log: |
-         abe3c631447dcd1ba7af972fe6f054bee6f136fa selinux: enable use of both GFP_KERNEL and GFP_ATOMIC in convert_context()
-         
+  - ref: refs/tags/for-netdev
+    old: fbb33d4cd04723f934b43e13e9dce03b1695d2c3
+    new: 0000000000000000000000000000000000000000
