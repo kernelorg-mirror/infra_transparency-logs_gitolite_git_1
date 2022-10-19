@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7013850249541096550=="
+Content-Type: multipart/mixed; boundary="===============2165373091773575484=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec-next
-Date: Wed, 19 Oct 2022 07:03:32 -0000
-Message-Id: <166616301246.5528.12288617594340406657@gitolite.kernel.org>
+Date: Wed, 19 Oct 2022 07:04:06 -0000
+Message-Id: <166616304666.5823.16854253018109268907@gitolite.kernel.org>
 
---===============7013850249541096550==
+--===============2165373091773575484==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/klassert/ipsec-next
 user: klassert
 changes:
-  - ref: refs/heads/testing
+  - ref: refs/heads/master
     old: c39596f6ad1bfe65fc2d926e0703cf26e3fae90a
     new: e2ac2a00dae10997b71870ecf26ca69f4d726537
     log: revlist-c39596f6ad1b-e2ac2a00dae1.txt
 
---===============7013850249541096550==
+--===============2165373091773575484==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ a2fd08448f2b7591fc7ec8dec2e5e025a43f0cee net: remove smc911x driver
 f3d27ae079fa0da298f6786b0b2cc4d2a59b3539 net: fec: remove the unused functions
 e2ac2a00dae10997b71870ecf26ca69f4d726537 enic: define constants for legacy interrupts offset
 
---===============7013850249541096550==--
+--===============2165373091773575484==--
