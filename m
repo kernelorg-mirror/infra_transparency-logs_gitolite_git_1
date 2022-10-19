@@ -1,28 +1,47 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kas/linux
-Date: Wed, 19 Oct 2022 20:22:45 -0000
-Message-Id: <166621096522.8464.16170988416789374494@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============5654076203553748601=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/utils/b4/b4
+Date: Wed, 19 Oct 2022 20:26:38 -0000
+Message-Id: <166621119897.12680.18177745216738248941@gitolite.kernel.org>
+
+--===============5654076203553748601==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kas/linux
-user: kas
+repo: pub/scm/utils/b4/b4
+user: mricon
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/lam
-    old: 10b0011871ea243b6009978660332a5f3d7bf4bd
-    new: 01819ca3dcb30fc9114025c8c5da8bcee0cabcee
+  - ref: refs/heads/master
+    old: ce3c3dfae4bae26175a92e1723e63cda0fcc5154
+    new: eda6691617b291f7605511c251c129c59808f803
     log: |
-         9164f00d833a1f9f05be5db7c17c32cd0eb6b79d mm: Expose untagging mask in /proc/$PID/status
-         b6640654e647a412919e2b4b7f449f631201b08a mm_valid_pasid
-         72e630b6778b9b37cfbc9b1b2ba5526bbf319950 x86/mm, iommu/sva: Make LAM and SVA mutually exclusive
-         1f7dd9bce612ff2ae30c861a9258eef9ab90e9ea selftests/x86/lam: Add malloc and tag-bits test cases for linear-address masking
-         e2976d1d7901298f4aae51aaa65391825e77c57b selftests/x86/lam: Add mmap and SYSCALL test cases for linear-address masking
-         0f1d27a9596fad8677c487ac86e843bd7cf391f0 selftests/x86/lam: Add io_uring test cases for linear-address masking
-         55ffc4f315e79810af819e2b1b2f6f4998a0ca36 selftests/x86/lam: Add inherit test cases for linear-address masking
-         ed45c7f33782d6afe18bbcc229884bf7c32b2c7b selftests/x86/lam: Add ARCH_FORCE_TAGGED_SVA test cases for linear-address masking
-         00766e78db5e412bc39f4b1c9ad462cdf05dae10 x86/mm: Extend LAM to support to LAM_U48
-         01819ca3dcb30fc9114025c8c5da8bcee0cabcee selftests/x86/lam: Add tests cases for LAM_U48
+         9c4c7895b6e06074e01f7d11ce8167409751cdbd ez: do not crash on empty cover letter
+         eda6691617b291f7605511c251c129c59808f803 Do not treat trailers containing :// as person-trailers
          
+
+--===============5654076203553748601==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher B6C41CE35664996C! 1666211198 -0400
+pushee gitolite.kernel.org:pub/scm/utils/b4/b4
+nonce 1666211198-cb322180faddcac4d44c0d736930f8deec26c6c5
+
+ce3c3dfae4bae26175a92e1723e63cda0fcc5154 eda6691617b291f7605511c251c129c59808f803 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCY1BdfgAKCRC2xBzjVmSZ
+bHFQAP0cQ6YHSHgc0wUM3+HJtSSR3Gv5yowoZCWuUouOGx1pMQEAr1K7Oz8hcSNm
+ppUNfRWsM4HLFUeW6k3ylUSzrPsDfA0=
+=cFmz
+-----END PGP SIGNATURE-----
+
+--===============5654076203553748601==--
