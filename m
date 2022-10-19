@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Wed, 19 Oct 2022 13:06:36 -0000
-Message-Id: <166618479636.20128.1270577134213617204@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Wed, 19 Oct 2022 13:23:38 -0000
+Message-Id: <166618581847.30787.8952063988930279402@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/man-pages/man-pages
-user: alx
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: davem
 changes:
   - ref: refs/heads/master
-    old: dbaa5170be38698532855c5f698fe5f966bf3e12
-    new: 2788d24fa03af07065cda7c14c17cf6b55e33ed1
+    old: ac3208fbac43a41e2aec94ca382dff43c7ee7323
+    new: a526a3cc9c8d426713f8bebc18ebbe39a8495d82
     log: |
-         2788d24fa03af07065cda7c14c17cf6b55e33ed1 RELEASE: Remind to push the git tag
+         a526a3cc9c8d426713f8bebc18ebbe39a8495d82 net: ethernet: adi: adin1110: Fix SPI transfers
          
