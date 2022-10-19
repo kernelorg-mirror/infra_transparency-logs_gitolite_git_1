@@ -1,55 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============8640592352477008892=="
+Content-Type: multipart/mixed; boundary="===============6491834104043397682=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Wed, 19 Oct 2022 16:40:06 -0000
-Message-Id: <166619760618.11274.9181352451679113579@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Wed, 19 Oct 2022 16:40:20 -0000
+Message-Id: <166619762089.11448.7351807795922576362@gitolite.kernel.org>
 
---===============8640592352477008892==
+--===============6491834104043397682==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.2
-    old: 9e693e81745f03845788ef409f03a39e92f8dd48
-    new: 625d2753723bd4395082e569f3528f8e30d335ae
-    log: revlist-9e693e81745f-625d2753723b.txt
+  - ref: refs/heads/for-next
+    old: fdc8a6c4b01af092b9808f37f19ae3247066c153
+    new: dc74b4b4cc8d505438da43ab5c5b7452a1968bae
+    log: revlist-fdc8a6c4b01a-dc74b4b4cc8d.txt
 
---===============8640592352477008892==
+--===============6491834104043397682==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1666197604 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1666197603-6997790680579df4562b30d0a25b470a81fce31d
-
-9e693e81745f03845788ef409f03a39e92f8dd48 625d2753723bd4395082e569f3528f8e30d335ae refs/heads/asoc-6.2
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmNQKGQACgkQJNaLcl1U
-h9AlGAf/U0quWqnY+Rdp8g9QgW5WO6LPqUncz82/FvvzdpKwDtH+Xim+B0bkO/LW
-rnsqMmzs5shleWeBsAeb3U2rzrEer/cbf7FV44G326WFx9HQls36G8v2zppuZU6Y
-hAjQizXujEKDusf1EnQpqCQf+vxjN9LEUW8+ZV8Ws40rQTZlOSgzIphM8hxdk0u/
-qpbNhv+cAA2OqCvdgcjWRJUK5INsEsUPZbJSHsblxpdGkiwxDAm/LcKG1UniA/Vx
-jvEf7L8kgwjzYNoanoSqsXRW8k9tw502Q75bdVzIuDZENHApJdCE96PL93D1wBZ/
-mtn7qTJSYYpn5V75gxCTL8QUSOk17Q==
-=tI8f
------END PGP SIGNATURE-----
-
---===============8640592352477008892==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9e693e81745f-625d2753723b.txt
+Content-Disposition: attachment; filename=revlist-fdc8a6c4b01a-dc74b4b4cc8d.txt
 
 86b94c396bb25459affbf1160ee1efaa61e38be2 ASoC: soc-dapm.c: replace snd_soc_dapm_wcache to snd_soc_dapm_widget
 f19a2ec7a303c22e22437fb93ff4f6d4337c096e ASoC: soc-dapm.c: tidyup error handling on snd_soc_dapm_add_route()
@@ -63,5 +38,6 @@ f3779b161938182fa3c67f8daebfe82ef65bf1ab ASoC: soc-dapm.h: cleanup white space
 c670a224d1367f5bb3cc40c6b6b1ba0591b26df9 ASoC: soc-dapm.h: fixup comment for snd_soc_dapm_widget_for_each_path()
 25106550f1366bec8a9adefeada5e8ff5205c828 ASoC: soc-dpcm.h: remove snd_soc_dpcm::hw_param
 625d2753723bd4395082e569f3528f8e30d335ae ASoC: soc-dapm.c random cleanups
+dc74b4b4cc8d505438da43ab5c5b7452a1968bae Merge remote-tracking branch 'asoc/for-6.2' into asoc-next
 
---===============8640592352477008892==--
+--===============6491834104043397682==--
