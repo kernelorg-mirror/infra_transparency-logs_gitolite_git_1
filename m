@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dlemoal/libata
-Date: Wed, 19 Oct 2022 04:46:42 -0000
-Message-Id: <166615480219.5968.11801807002829907699@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Wed, 19 Oct 2022 05:04:39 -0000
+Message-Id: <166615587993.17995.1415943209122703505@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dlemoal/libata
-user: dlemoal
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
-  - ref: refs/heads/for-next
-    old: 0b8b8b54a2929a19570edee108229511d757ff85
-    new: 5122e53ee784b9a2a2f40d34222751b6b4ab076c
+  - ref: refs/heads/master
+    old: 46e9d904b49add3cc905f572eaeeb443c52c25b4
+    new: 47a349880a27f398fb772db3a42213879fda90ff
     log: |
-         7834589e81bcf5fe4e7ab60430670c9245183de0 scsi: libsas: make use of ata_port_is_frozen() helper
-         5122e53ee784b9a2a2f40d34222751b6b4ab076c ata: libata-core: do not retry reading the log on timeout
+         47a349880a27f398fb772db3a42213879fda90ff foo
          
