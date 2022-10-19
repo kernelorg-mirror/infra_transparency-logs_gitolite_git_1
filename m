@@ -1,51 +1,34 @@
-Content-Type: multipart/mixed; boundary="===============7540732794334580555=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Wed, 19 Oct 2022 12:04:16 -0000
-Message-Id: <166618105618.6816.1530542564733123017@gitolite.kernel.org>
-
---===============7540732794334580555==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Wed, 19 Oct 2022 12:04:37 -0000
+Message-Id: <166618107760.7001.18179497501781080317@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/spi-6.2
-    old: 4e12ef2b2e3f65c4fba895262363c499476848a1
-    new: 666ea0ad932fbdc82644457f1a78f4584801f698
+  - ref: refs/heads/for-linus
+    old: a921ff0cf8b5ea374ef047db098e792d0205860b
+    new: e94664709bca2155fa56217af7e3a42670605ecb
     log: |
-         e3b7fca31185813297bb995d7b21a6305bb62c84 spi: pxa2xx: Simplify with devm_platform_get_and_ioremap_resource()
-         666ea0ad932fbdc82644457f1a78f4584801f698 spi: bcm-qspi: Make bcm_qspi_remove() return void
+         e94664709bca2155fa56217af7e3a42670605ecb Merge remote-tracking branch 'asoc/for-6.0' into asoc-linus
          
-
---===============7540732794334580555==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1666181054 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1666181054-5f378b70c19053e648f8556b7e5cf9b1822d2170
-
-4e12ef2b2e3f65c4fba895262363c499476848a1 666ea0ad932fbdc82644457f1a78f4584801f698 refs/heads/spi-6.2
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmNP574ACgkQJNaLcl1U
-h9BnqQf+K4814tLSHdkH5GRwC1D28e4EjGuwQYGnimhRKKwgpEuJo6dlpjdptaFO
-daPzrmIdQAJ4FrKByuSw0T9mZVkVKOZvcQ9RhfiEsSJqge9pTflPnBrOe3O8RZwv
-WO1+wyYb4/3yJcxz6BG9HcXxlTQRY7fPIfFX2jMYXLemO5r7G8d8aLeMaBh8hZ1r
-nJPA3ZnabJJK7RuHJYQuePYYoeZ32IwcUCVnpmRThwm+D0enEpL8GYbiCaohilK8
-4VyZJuvofiDR7BfhdogIUeFYYGPde4EVJ8gMOFUOeXUXqDeUVcTVJUsk5Sako9IT
-gfeLc+LDV4YPtk7tdLlqWvfhWmpyuw==
-=LY6V
------END PGP SIGNATURE-----
-
---===============7540732794334580555==--
+  - ref: refs/heads/for-next
+    old: 2205cb09422ac9ff9865ec7a41af42904818d760
+    new: 769027c0a3fbfb93e5fa86601fbdb31eb1de0864
+    log: |
+         fac33cb5c12c58e031a5e2f8e3e8c7de8604a764 ASoC: Intel: Skylake: simplify S3 resume flows
+         8e1ae6f62c7e8f904949e9c60a4a38715c8c0aff ASoC: Intel: avs: simplify S3 resume flows
+         9f68d6e64f51bf62f8d2f7d82a425470e9aa3b24 ASoC: SOF: Intel: hda-dsp: simplify S3 resume flows
+         73e4981f12325d9d128af68faedc3e36b6ff7c37 ASoC: SOF: ipc3: Log the tx message before sending it
+         bdde278a77d3220ba7991e6ff5e992716981ae30 ASoC: amd: acp: Add TDM slots setting support for ACP I2S controller
+         67860d2a8e0db7783f680f6f1c1600ed34ed3a97 ASoC: twl4030: make read-only array ramp_base static const
+         fd65e099235f99415178484b328cc230ad021d18 ASoC: Intel/SOF: simplify S3 resume flows
+         e94664709bca2155fa56217af7e3a42670605ecb Merge remote-tracking branch 'asoc/for-6.0' into asoc-linus
+         310e0b67fd04556dec17b9adb2af8ab96265f2d4 Merge branch 'asoc-linus' into asoc-next
+         769027c0a3fbfb93e5fa86601fbdb31eb1de0864 Merge remote-tracking branch 'asoc/for-6.2' into asoc-next
+         
