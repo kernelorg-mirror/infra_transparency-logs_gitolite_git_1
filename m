@@ -1,58 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============1659193699114429477=="
+Content-Type: multipart/mixed; boundary="===============8482096478570052004=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Wed, 19 Oct 2022 15:37:28 -0000
-Message-Id: <166619384867.29742.3291210359594566049@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Wed, 19 Oct 2022 15:37:34 -0000
+Message-Id: <166619385494.29841.4619093878469968507@gitolite.kernel.org>
 
---===============1659193699114429477==
+--===============8482096478570052004==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.1
+  - ref: refs/heads/asoc-6.1
     old: af6514f2f3828dc39c96cd4686ef5c9d8368626f
     new: 008f05a72d32dcc14038801649ec67af765fcc3c
     log: revlist-af6514f2f382-008f05a72d32.txt
-  - ref: refs/heads/for-6.2
+  - ref: refs/heads/asoc-6.2
     old: 3109bfda27561fece1cbf8cd367cf655d02c21dd
     new: 9e693e81745f03845788ef409f03a39e92f8dd48
     log: |
          9e693e81745f03845788ef409f03a39e92f8dd48 ASoC: amd: acp: Add setbias level for rt5682s codec in machine driver
          
 
---===============1659193699114429477==
+--===============8482096478570052004==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1666193846 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1666193846-ec04474f8c6b1da992da157fe27711386d5e8187
+pusher C3F436CA30F5D8EB 1666193853 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1666193852-c00e91db028403775c39af4a3de90750de5a9df9
 
-af6514f2f3828dc39c96cd4686ef5c9d8368626f 008f05a72d32dcc14038801649ec67af765fcc3c refs/heads/for-6.1
-3109bfda27561fece1cbf8cd367cf655d02c21dd 9e693e81745f03845788ef409f03a39e92f8dd48 refs/heads/for-6.2
+af6514f2f3828dc39c96cd4686ef5c9d8368626f 008f05a72d32dcc14038801649ec67af765fcc3c refs/heads/asoc-6.1
+3109bfda27561fece1cbf8cd367cf655d02c21dd 9e693e81745f03845788ef409f03a39e92f8dd48 refs/heads/asoc-6.2
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmNQGbYACgkQJNaLcl1U
-h9CQ7gf9EpPQikBCNyXGhHHLnrom1JGNNcF7f2rJLEkjCwXTOLcBSjRXPN+PIg7q
-BcdYA6S/JXhBNaRC45d9AofU5QsbvILK+azVpRZsY1TWpp0H2rdOXekp/4r6D9U9
-Ug8VIzlpqwuEhFVv+08a2TZMko7/O6eaJx2kFj3WV4+vzm7UT5oUcnePrd2/WpQH
-JL0IpeekVeBSeAudZhTEn4V0Xp6iYFm+Xo6tdGpWuhsuxW/Ybo41fbeTkCZ3+vC+
-rltbIiUKcxAmdhmRCtx4eQ1BR+o5gRMdspmJPcwnJ48f6Dc24bqDIPIvXTsQH4h2
-J/5dFD2QyRi2FbmG5IJDbRWKT/oZrQ==
-=pKbr
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmNQGb0ACgkQJNaLcl1U
+h9Ax0Qf+PIo3ijA/dTnw/NDyTfZQPufcnBmjZRldi79Iq9XzUofGLTmLGPR290Wb
+u4tD1Z0FSafB7mWSP3EZyKAn6Mt13SE8YJT2u7CKpgQgcqe/83SS2asnTgle6JBU
+mJz4QXbE8T/1NiHJZAY0mG1HI+ZBd1yg/HDkLaLB9qz3gX7PruuVudqQwrfLVZqG
+80G+4YXhjRh5iArfazGigWY1zjUPVL+z7pPTPwI2pPE4U9DNMwzzDLVGfu4aPZH0
+wKleEl6tjqqYPaARo/YYAGhsCINBhuSN+uB7slEqiUTMl/cVx54X434toak3dHeV
+H8GBVNwouceXDUP43qvW/qdaCh5LkA==
+=DaOa
 -----END PGP SIGNATURE-----
 
---===============1659193699114429477==
+--===============8482096478570052004==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1083,4 +1083,4 @@ f1947d7c8a61db1cb0ef909a6512ede0b1f2115b Merge tag 'random-6.1-rc1-for-linus' of
 df496157a5afa1b6d1f4c46ad6549c2c346d1e59 ASoC: codecs: jz4725b: Fix spelling mistake "Sourc" -> "Source", "Routee" -> "Route"
 008f05a72d32dcc14038801649ec67af765fcc3c ASoC: jz4752b: Capture fixes
 
---===============1659193699114429477==--
+--===============8482096478570052004==--
