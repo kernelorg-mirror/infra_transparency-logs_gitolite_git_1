@@ -1,26 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
-Date: Wed, 19 Oct 2022 08:17:50 -0000
-Message-Id: <166616747010.26280.9148712917276226809@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============5728965253522049977=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Wed, 19 Oct 2022 08:23:47 -0000
+Message-Id: <166616782779.29917.8904552277900591250@gitolite.kernel.org>
+
+--===============5728965253522049977==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ardb/linux
-user: ardb
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/efi-zboot-direct-mmu-off-v2
-    old: ff82e3d211c59a97e583f6110bbfa5d4c7c8575c
-    new: 4089e4934e0a9a1997c74b71737b4dc2f547eb5f
+  - ref: refs/heads/master
+    old: 471268ced0e2f6c94cf1471f92558a267ad7a07b
+    new: 1c3a0fab4cae8c6455bcea503863710006eb0420
     log: |
-         c5f05ee806b8edc200c4c09cd275f9d0b5390ae3 efi: libstub: Factor out EFI stub entrypoint into separate file
-         6f80893a002f852df40dfe16c5214a5223c9370b efi: libstub: Add image code and data size to the zimage metadata
-         f97be5c88c8767a41a2278cb19c3b14530a21b86 efi: libstub: Factor out min alignment and preferred kernel load address
-         4b04bf276935b64e59714bdbc1b6a25d7e3f81b8 efi/riscv: libstub: Split off kernel image relocation for builtin stub
-         1a9fc9b799670d3c40b18ec45de29fed858b4279 efi/arm64: libstub: Split off kernel image relocation for builtin stub
-         a38fa70cc5367ebbaf209812a2f16d647231ce85 efi/loongarch: Don't jump to kernel entry via the old image
-         1bc5bb8e830864b0d28682d20a1b9efd2cf7ae08 efi/loongarch: libstub: Split off kernel image relocation for builtin stub
-         4089e4934e0a9a1997c74b71737b4dc2f547eb5f efi: libstub: Merge zboot decompressor with the ordinary stub
+         1c3a0fab4cae8c6455bcea503863710006eb0420 move some kvm patches out of 6.0 queue
          
+
+--===============5728965253522049977==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1666167826 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1666167825-9da5bd7b3f3ec8325669a5315ac4c1de6a4209de
+
+471268ced0e2f6c94cf1471f92558a267ad7a07b 1c3a0fab4cae8c6455bcea503863710006eb0420 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmNPtBMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+AX4P/RverrQQXMLa8uf/2H6u
+uvhOO8/3xR6sfoSMBUJmvYeGPawHIOX3pkKTbBgmm4pC1jpXizNnpRpos8F8VhC0
+WP6Jrl9QjWb0Jyhxpf7W6Zp2/a7VY/GFok1Yv2xNxQImF5UzOrhBWlUU+tR4qU0k
+MnLK9NLMdDcgttVVteKt4nkuOvORNIqFwpog8Y9sCJKzGSoufF1yP/mPLmIhzLaD
+gohf6H+H1cw3zUymfy3mEaGjS10Ugj2WRJkb30wpgNfpJgBG37Kb6Kosxv63l7pN
+kmk6zqlcpUswghPPaUXI/75Es53JUcqMERyKHB+67b1JxT7thqmS6knbN7+waBm/
+cWD1IK5MTQRJ4RRSlGnKSK1+559o50WC+4Q3estIGI8VDEWoCoB9Bjdv57C9cOVN
+GqooARfuAvsz8qTVMlY6pmsqZrLhCEeOhtZjusA83ghR8+5m7nJViyAL7reCqXgs
+FAq7l0czWReB2h9+LxV6T0dQQ42K0VQtVX1/m1B0KlFXLjL77kR5EAk1ENcnh8KW
+POFBz3EwFR+7HT2SKYJfjvszu3JxVMP+MO42JH6GHEf69P7C6U63r6PcGOrlUL+E
+eKZnwjmVU6vjmNTHKsE8Vj3DZEWaiJ/LpQVZWm0nWQv11qEbHKVBL2czIseJz0Lt
+qMWzitDPSirEo9gt2tXVA67l
+=kN7S
+-----END PGP SIGNATURE-----
+
+--===============5728965253522049977==--
