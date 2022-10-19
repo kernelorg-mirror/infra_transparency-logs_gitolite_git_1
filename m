@@ -1,31 +1,37 @@
-Content-Type: multipart/mixed; boundary="===============3180845648606059078=="
+Content-Type: multipart/mixed; boundary="===============7848535897102702758=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dinguyen/linux
-Date: Wed, 19 Oct 2022 16:27:27 -0000
-Message-Id: <166619684787.2060.5503388880975518135@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
+Date: Wed, 19 Oct 2022 16:34:31 -0000
+Message-Id: <166619727182.6080.12979528410567451337@gitolite.kernel.org>
 
---===============3180845648606059078==
+--===============7848535897102702758==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dinguyen/linux
-user: dinguyen
+repo: pub/scm/linux/kernel/git/conor/linux
+user: conor
 changes:
-  - ref: refs/heads/upstream_arm64_mmc_drvsel_smpsel_v5
-    old: 6695018975a47abf6084e7be6430f0b7016bd83b
-    new: 1a0e5f3a1c41657f0720185340b22464407f9bcf
-    log: revlist-6695018975a4-1a0e5f3a1c41.txt
+  - ref: refs/heads/dt-for-next
+    old: c210b91818e81068ca2573c20684644b8e110a07
+    new: 6863aaa88516292b885fdce5dd91925a00c3a3de
+    log: revlist-c210b91818e8-6863aaa88516.txt
 
---===============3180845648606059078==
+--===============7848535897102702758==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-6695018975a4-1a0e5f3a1c41.txt
+Content-Disposition: attachment; filename=revlist-c210b91818e8-6863aaa88516.txt
 
+bb1f11546eb3cd1e2b8ea45653eb0f530e42b035 Merge tag 'x86_asm_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+901735e51e4dea1eee816b0b57d1d6abbd94b3d5 Merge tag 'x86_misc_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+9bf445b65dd7d4c7d0e4efaecf38525abbbe74e3 Merge tag 'x86_paravirt_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+b5f0b11353a6a33a1accd0b742c80ed6b2f35ac0 Merge tag 'x86_microcode_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+193e2268a3bb1404b42f8edcc037a3eafd165aa9 Merge tag 'x86_cache_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+da4ab869e37cf81f93333ba74b16e0ea6d322e15 libceph: drop last_piece flag from ceph_msg_data_cursor
 f791357330b0043ec953ce122ab7519af4b9d24a ceph: wake up the waiters if any new caps comes
 6eb06c46214d33c71ae86d60b3fc9cb17c20beca ceph: fail the request if the peer MDS doesn't support getvxattr op
 7c3ea9870e09e193981695dd67c37a1a2b6d600b ceph: no need to wait for transition RDCACHE|RD -> RD
@@ -453,7 +459,6 @@ b650009fcb701ea99aa133bbe18dbfc5305ddf1a wifi: mac80211: fix probe req HE capabi
 092197f1f47f8359b46ea62445d87561949b577d wifi: mac80211: remove/avoid misleading prints
 ceb3d688f92231e9d9e663c56a1c8bee90140bad wifi: mac80211: unlock on error in ieee80211_can_powered_addr_change()
 3bf9e30e493356912f9cb600f59b51133680639e wifi: mac80211: fix decap offload for stations on AP_VLAN interfaces
-c210b91818e81068ca2573c20684644b8e110a07 riscv: dts: microchip: fix fabric i2c reg size
 c95014e1d05b5acfd9e6fbe5d1f048b07c6902ff wifi: mac80211: netdev compatible TX stop for iTXQ drivers
 d9e249704084982ac7581a560ffa284e11621d43 wifi: cfg80211: fix ieee80211_data_to_8023_exthdr handling of small packets
 e3e6e1d16a4cf7b63159ec71774e822194071954 wifi: wext: use flex array destination for memcpy()
@@ -1044,11 +1049,6 @@ b08cd74448fafaa302ce2bc11beab5e5a55d0065 Merge tag '6.1-rc-smb3-client-fixes-par
 8636df94ec917019c4cb744ba0a1f94cf9057790 Merge tag 'perf-tools-for-v6.1-2-2022-10-16' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 f1947d7c8a61db1cb0ef909a6512ede0b1f2115b Merge tag 'random-6.1-rc1-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/crng/random
 9abf2313adc1ca1b6180c508c25f22f9395cc780 Linux 6.1-rc1
-e0e3bbd0f5682a246f593e76290705696c4f05a2 dt-bindings: mmc: synopsys-dw-mshc: document "altr,sysmgr-syscon"
-580c3e79e41e990005c9318cb95b9a25b4ec9750 arm64: dts: socfpga: Add clk-phase-sd-hs property to the sdmmc node
-3a5dde9b5d762be5b409d730823c3f5adb7b7c25 arm: dts: socfpga: Add clk-phase-sd-hs property to the sdmmc node
-296c9444e2d830413b05c4d858d2f89105ff5300 mmc: dw_mmc-pltfm: socfpga: add method to configure clk-phase
-d65ae6525d575bd9c449cab4b7e9c7591d020a3d clk: socfpga: remove the setting of clk-phase for sdmmc_clk
-1a0e5f3a1c41657f0720185340b22464407f9bcf arm: dts: socfpga: remove "clk-phase" in sdmmc_clk
+6863aaa88516292b885fdce5dd91925a00c3a3de riscv: dts: microchip: add the mpfs' fabric clock control
 
---===============3180845648606059078==--
+--===============7848535897102702758==--
