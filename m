@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8334786457625905015=="
+Content-Type: multipart/mixed; boundary="===============1945592229599148333=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Wed, 19 Oct 2022 11:00:24 -0000
-Message-Id: <166617722404.26807.5949592018801414018@gitolite.kernel.org>
+Date: Wed, 19 Oct 2022 11:03:00 -0000
+Message-Id: <166617738098.27818.13141215281071696390@gitolite.kernel.org>
 
---===============8334786457625905015==
+--===============1945592229599148333==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: cd166c29e578536ff8c3897d8935bb571ea1dd67
-    new: a5026b11462bd32a49bb3c8f55d2aa391f1cb79d
+    old: a5026b11462bd32a49bb3c8f55d2aa391f1cb79d
+    new: 054b818654b52718c9ae49eec40864109bc457ca
     log: |
-         a5026b11462bd32a49bb3c8f55d2aa391f1cb79d drop some phy-qcom-qmp patches
+         054b818654b52718c9ae49eec40864109bc457ca drop phy-qcom-qmp patches from 5.10 and 5.15
          
 
---===============8334786457625905015==
+--===============1945592229599148333==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1666177223 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1666177380 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1666177221-990be79b0e95b8429c39e565b928e4042d34ac16
+nonce 1666177378-9c90bb9e69377fb37a15742a05b88e78d4efebb0
 
-cd166c29e578536ff8c3897d8935bb571ea1dd67 a5026b11462bd32a49bb3c8f55d2aa391f1cb79d refs/heads/master
+a5026b11462bd32a49bb3c8f55d2aa391f1cb79d 054b818654b52718c9ae49eec40864109bc457ca refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmNP2McbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+M6wP/3jqHqdHYwh1EgfzX/L6
-DeJ7BhJZoVnrdBxAfhXg9dfczmUFJWHHmjG3MAyvIXYkvhU7qhUyhskIqf2t7wtt
-1su78XwVpVK0PPwdnrdsiH9mIYmWq3KVJd85RIhM7GPrEcsQ+PR7zJtrJq7ExxSy
-G6Q+4VOAvBglYC49ZDIldz9wwxLFPz9xEnNTNPWHq/1sLAomZ5c8l3ysd9CANcf2
-0xWKuQS2Tm+V1PXSJtM4bMz+e9izMpzxibbi7igA6uwB8SumoNb15AIt2BViky5s
-rJS+A4IgbN7sA6gfx7hzp6g6kDORTbsTMpDOwx7LKJngKiN8Xve291F8g2Lg2mE0
-KkEN5FFkdacoKJvQnbJgR1rRdoX2/o7yu6aSt9HOkudYZcLRDYN8E/PsTFotLapN
-lHWLxJ/4LB9vR6Ez2BFa+zOCdFDRbiixtuJX1k1VQwBkbgdziGG+2nvNtCBA3IVi
-mJPbyWlBl/J4EtH+Ekn+gccZ5Gx3hxxY+SeJWxkYy4gb4DKOfwEIbDqA3Sknj9ES
-kYMa9xrmJk2pM47blJxRPxCvmPyIWnpcJkX6ks79AqB0WnsQpjIh+lexHq7Y/pHg
-6CPQHZJUO2ybVA9i3V2zpuBduoXsTI1iEtzn10S4gyWYPWPzHxqLjl8YXMfUGHRz
-ihpi957uAOxYTcCepE6UEtFH
-=TDNx
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmNP2WQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+cZgQAJn8nh5MACb6fHUr9hy0
+7zOZ7UquOSHjOhqdiVv6C+pYKsDTg2CxFy//4Ur7QK37GxQqkz99iP1zgPYEsjg/
+EBxkR+zTZbYtsnK6bk2I7ll7q0qAAQJZ9hSdeoJ5Isj5fkna80/1sGrgLrDLtiAv
+zF4Z1i0kmPoQTFJqrIqY/55qhWGQK9lnl8HsUzr2k0Z7GbMhQB4sTMaGrM7ZHrvF
+FVQKCagGzJkawDCpU8Lduii5ancmxtj3goqL/IF83prgWX+UsTVIYUzxUjYZQRBh
+Lz3RNzTNnMrTR3fV/uoZQvXbI3mL1EEcTSDfhYecfgwZ6XWrsUY19t4mLTu2tQU6
+Qob2Oovvdfeq0ZYn2ykcKOnpWe87f+Yi7LTr571eIXfkauzeuxAABmvX00NSGYAR
+nB/Ld+7oKRvoQxJ+fE017neCABlo9WnzpKrE6CPvODKa/og8TzHWRDug8D9HidZ8
+E+922moYBbSxoxA0qmXej055/eAegbegIup/IkiuK+ACUvIFxaKJJKKj9jMriVJD
+l1MmEBsVmMvnOb+b5cY3SkYvmRqTHXAGhBUz50R/wzfsF9RNicABbdGrGBExmTr8
+DZA1IWhGLGZ7fnDuwsBP0F/dMKnkfLptRlqTgiryB6K90s5J86Y47J8JfeWKhWFT
+2hjKfwW4GFdBOqvgWstOsit6
+=pF1Q
 -----END PGP SIGNATURE-----
 
---===============8334786457625905015==--
+--===============1945592229599148333==--
