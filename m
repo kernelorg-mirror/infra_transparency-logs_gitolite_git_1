@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0194573197561366045=="
+Content-Type: multipart/mixed; boundary="===============2641049884360079346=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Wed, 19 Oct 2022 03:31:54 -0000
-Message-Id: <166615031460.18199.4579020106026616288@gitolite.kernel.org>
+Date: Wed, 19 Oct 2022 03:32:03 -0000
+Message-Id: <166615032345.18336.10771354568112479001@gitolite.kernel.org>
 
---===============0194573197561366045==
+--===============2641049884360079346==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: 6c4e777fbba6e7dd6a0757c0e7bba66cdbe611cd
     new: e2ac2a00dae10997b71870ecf26ca69f4d726537
     log: revlist-6c4e777fbba6-e2ac2a00dae1.txt
 
---===============0194573197561366045==
+--===============2641049884360079346==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ a2fd08448f2b7591fc7ec8dec2e5e025a43f0cee net: remove smc911x driver
 f3d27ae079fa0da298f6786b0b2cc4d2a59b3539 net: fec: remove the unused functions
 e2ac2a00dae10997b71870ecf26ca69f4d726537 enic: define constants for legacy interrupts offset
 
---===============0194573197561366045==--
+--===============2641049884360079346==--
