@@ -1,53 +1,35 @@
-Content-Type: multipart/mixed; boundary="===============5591805832504530752=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Wed, 19 Oct 2022 12:31:51 -0000
-Message-Id: <166618271188.27387.9814959878595465371@gitolite.kernel.org>
-
---===============5591805832504530752==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Wed, 19 Oct 2022 12:32:12 -0000
+Message-Id: <166618273227.27596.12041891295356668656@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.1
-    old: 9a7f2c9e7a19b16b4409f372cf2e16e4334cdca2
-    new: af6514f2f3828dc39c96cd4686ef5c9d8368626f
+  - ref: refs/heads/for-linus
+    old: e94664709bca2155fa56217af7e3a42670605ecb
+    new: 7b9094c19881efe5c881a2f5c8c077554927d3e2
     log: |
          41deb2db64997d01110faaf763bd911d490dfde7 ASoC: Intel: sof_sdw: add quirk variant for LAPBC710 NUC15
          73189c064e11137c8b78a825800a374924ebb7b7 ASoC: SOF: Intel: pci-mtl: fix firmware name
          b4dd2e3758709aa8a2abd1ac34c56bd09b980039 ASoC: Intel: sof_rt5682: Add quirk for Rex board
          af6514f2f3828dc39c96cd4686ef5c9d8368626f ASoC: SOF: ipc4-mtrace: protect per-core nodes against multiple open
+         7b9094c19881efe5c881a2f5c8c077554927d3e2 Merge remote-tracking branch 'asoc/for-6.0' into asoc-linus
          
-
---===============5591805832504530752==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1666182710 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1666182710-4091fbafaa15f6feb696f91f66c19aafec974314
-
-9a7f2c9e7a19b16b4409f372cf2e16e4334cdca2 af6514f2f3828dc39c96cd4686ef5c9d8368626f refs/heads/asoc-6.1
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmNP7jYACgkQJNaLcl1U
-h9DB2gf/YjXkz2YtmAul6XJKOQjfAr15LhDWMeo7F89VVgbDuMG13+owztL5hcYt
-vIMbmIWZSi5BdVetSW7CxSeKRV7Ju9RBw1PXd/H10ltpDRiB06ckyCl0ccsCmha6
-Iczb109VUxtPDkzyz13MN+2LnFUA/uK2tD0F95eqU20jm6frblQrkSDVvIgsWV8l
-NE34mywVEkZhumN+3+NidtLVPEDH3ij3HY8SbMUs8n8nww5LLfIusRVRyEIwDMbo
-Yr/Cuz1mTSSlXovYvEruYCCcAml1RYRAxx8w/JrxZv1RyNIic3CTkDnvykAsIEhb
-7CcOxhaB0IvLxysLxRGye0+CUeYKfA==
-=jg4h
------END PGP SIGNATURE-----
-
---===============5591805832504530752==--
+  - ref: refs/heads/for-next
+    old: 769027c0a3fbfb93e5fa86601fbdb31eb1de0864
+    new: 47ad7962706aff91335ed045f26a93c69d328091
+    log: |
+         41deb2db64997d01110faaf763bd911d490dfde7 ASoC: Intel: sof_sdw: add quirk variant for LAPBC710 NUC15
+         73189c064e11137c8b78a825800a374924ebb7b7 ASoC: SOF: Intel: pci-mtl: fix firmware name
+         b4dd2e3758709aa8a2abd1ac34c56bd09b980039 ASoC: Intel: sof_rt5682: Add quirk for Rex board
+         af6514f2f3828dc39c96cd4686ef5c9d8368626f ASoC: SOF: ipc4-mtrace: protect per-core nodes against multiple open
+         7b9094c19881efe5c881a2f5c8c077554927d3e2 Merge remote-tracking branch 'asoc/for-6.0' into asoc-linus
+         755b1532c04a0ebd01dedd89d9f6ec387d4a7a75 Merge branch 'asoc-linus' into asoc-next
+         47ad7962706aff91335ed045f26a93c69d328091 Merge remote-tracking branch 'asoc/for-6.2' into asoc-next
+         
