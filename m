@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
-Date: Thu, 20 Oct 2022 02:25:30 -0000
-Message-Id: <166623273069.12945.1641328809929818294@gitolite.kernel.org>
+Date: Thu, 20 Oct 2022 02:39:37 -0000
+Message-Id: <166623357780.20963.4473939964672173823@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,10 +12,9 @@ repo: pub/scm/linux/kernel/git/axboe/liburing
 user: axboe
 changes:
   - ref: refs/heads/master
-    old: ce91d44795cad6d06f6077f6ed58abc4c18c91b1
-    new: 8a874ba3d4cccef3acc68d8e860e83b08ead83dd
+    old: 8a874ba3d4cccef3acc68d8e860e83b08ead83dd
+    new: 2950c0c1b23ef6bc3cfa3646adbfeffc23fc59cf
     log: |
-         9598994334f58a03ac6769687b3ce935c496f3c3 Fix typo in io_uring_get_sqe man page
-         11251f3fb161f6123059de39ce04a667d970e4e5 Add man page for `io_uring_prep_nop`
-         8a874ba3d4cccef3acc68d8e860e83b08ead83dd Merge branch 'documentation-io_uring_sqe_set_data' of https://github.com/ioquatix/liburing
+         f6cb7413c3506d88d1093051768e6199eb5719b4 Clarify that user_data is neither set nor cleared
+         2950c0c1b23ef6bc3cfa3646adbfeffc23fc59cf Merge branch 'documentation-io_uring_get_sqe' of https://github.com/ioquatix/liburing
          
