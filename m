@@ -1,56 +1,40 @@
-Content-Type: multipart/mixed; boundary="===============7931705817022805037=="
+Content-Type: multipart/mixed; boundary="===============8090894702058983131=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Thu, 20 Oct 2022 11:58:05 -0000
-Message-Id: <166626708511.7547.5670079883131127899@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
+Date: Thu, 20 Oct 2022 11:58:11 -0000
+Message-Id: <166626709171.7674.13210577578110679277@gitolite.kernel.org>
 
---===============7931705817022805037==
+--===============8090894702058983131==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/brgl/linux
+user: brgl
 changes:
-  - ref: refs/heads/master
-    old: 6c218e870ed9e8af4334e6a538c104ed39d06314
-    new: 3ee66298351c5a7a7eef7a9b9fd230b2873b13db
-    log: |
-         3ee66298351c5a7a7eef7a9b9fd230b2873b13db drop hid-topre-add-driver-fixing-report-descriptor.patch from everywhere except 6.0
-         
+  - ref: refs/heads/gpio/for-next
+    old: f5a681d238885f238a5f06fcfda625a90d87a327
+    new: 99d18d42c942854a073191714a311dc2420ec7d3
+    log: revlist-f5a681d23888-99d18d42c942.txt
 
---===============7931705817022805037==
+--===============8090894702058983131==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-f5a681d23888-99d18d42c942.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1666267084 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1666267082-2b1dbc1779ed48384d7cdfad6e25c988816e539a
+326c3753a6358ffab607749ea0aa95d1d0ad79b0 gpiolib: of: add a quirk for legacy names in Mediatek mt2701-cs42448
+b311c5cba779a87e85525d351965bbd2c18111de gpiolib: of: consolidate simple renames into a single quirk
+307c593ba5f915e308fd23a2daae7e9a5209b604 gpiolib: of: tighten selection of gpio renaming quirks
+fbbbcd177a27508a47c5136b31de5cf4c8d0ab1c gpiolib: of: add quirk for locating reset lines with legacy bindings
+9c2cc7171e08eef52110d272fdf2225d6dcd81b6 gpiolib: of: add a quirk for reset line for Marvell NFC controller
+944004eb56dc977ad5f882ca4338f45396052317 gpiolib: of: add a quirk for reset line for Cirrus CS42L56 codec
+eaf1a29665cda1c767cac0d523828892bd77a842 gpiolib: of: add a quirk for legacy names in MOXA ART RTC
+e3186e36925fc18384492491ebcf3da749780a30 gpiolib: of: factor out code overriding gpio line polarity
+b02c85c9458cdd15e2c43413d7d2541a468cde57 gpiolib: of: add quirk for phy reset polarity for Freescale Ethernet
+99d18d42c942854a073191714a311dc2420ec7d3 gpiolib: of: add a quirk for reset line polarity for Himax LCDs
 
-6c218e870ed9e8af4334e6a538c104ed39d06314 3ee66298351c5a7a7eef7a9b9fd230b2873b13db refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmNRN8wbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+9dcQANHGovk3qwV4m6PCZKAJ
-qdxjLqA/UZxJeYEEhsSpeBv3MmiiOE0NrpsI6SRmSNBmqrKk2D95zeB7htmwLMfL
-va5qO5Ygrs3cHxIIOf+ObP3snLF/+rrk+u98422z2YEZ662tIYHE+ycZGzKrf7pq
-9ht3eRIKNPz9cRMH43e6i1iOpeK5eEcYGa23MJrPFu5cKKI5Yj5nU4kZCQ8F+Ksd
-IdwEvARTipDNThTNUU8e50C8+GQuveDs7bQxUc5uMpcC0Cu9ACtF6wBEd8dyqLYU
-JHairybeXEZOxreAeawfN3G/AENAvdoxLZH0WAMNSq8DhHqiWZ0F1Yw9p7By1gyS
-tCOCxyg9AeTWlaQtYZRcMc/417CoZTlhkQMGlgfNSjPcDMHifxOc9KfBsdqcZbRx
-+aeZYV3Wusg1oZpnqa29MXdgCW/VTEUMyyvsNRbb0hXKdzbUJbJ3jaretOv/UTlb
-3FSIpenEYrJfl1VfE/aZm+vHN7U0qgWkHp81rThxFA9aTZE5/j8fZdhD45rYQ6qZ
-lkmxCCBzlaIdxEn4Vfa3o1ShHiHtmO8Bb4B0VTfAJ3QTWkC7tV+DkFjhj9uRWT+V
-QNGCpFwL5sQ+meS3ynR2V4FXcpSvfnDHW6YeHdyZqQc+J7GEcubnjpwI0Iy9vQqN
-oaxOYqt9apxAQAx/VY1YIbDZ
-=gYhW
------END PGP SIGNATURE-----
-
---===============7931705817022805037==--
+--===============8090894702058983131==--
