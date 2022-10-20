@@ -1,36 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============6035509324634325297=="
+Content-Type: multipart/mixed; boundary="===============3898564387910959524=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Thu, 20 Oct 2022 03:22:28 -0000
-Message-Id: <166623614818.18868.16190736973137422120@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Thu, 20 Oct 2022 03:22:36 -0000
+Message-Id: <166623615683.18974.956389020070052116@gitolite.kernel.org>
 
---===============6035509324634325297==
+--===============3898564387910959524==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
   - ref: refs/heads/master
     old: a72b55bc981b62f7186600d06d1824f1d0612b27
     new: acee3e83b493505058d1e48fce167f623dac1a05
     log: revlist-a72b55bc981b-acee3e83b493.txt
-  - ref: refs/heads/pending-fixes
-    old: dfe701541ba92be904b8cb7a70f7700363593430
-    new: 2cf0df170b5f1231e49c5124d173c69ced59acbf
-    log: revlist-dfe701541ba9-2cf0df170b5f.txt
-  - ref: refs/tags/next-20220720
-    old: e85a570a86d3fc5734a0c3525139ed6f2ba14df1
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20221020
     old: 0000000000000000000000000000000000000000
     new: 03f611f9c9e604a7e6841815805a248275b29c77
 
---===============6035509324634325297==
+--===============3898564387910959524==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -805,102 +798,4 @@ ca9865f2f673f743673d2d143e55aa2c17f4980b Merge branch 'rust-next' of https://git
 0bf02e9f6ea69bf927e3860d53a03594cba6dee6 Merge branch 'mm-everything' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 acee3e83b493505058d1e48fce167f623dac1a05 Add linux-next specific files for 20221020
 
---===============6035509324634325297==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-dfe701541ba9-2cf0df170b5f.txt
-
-1013999b431b4bcdc1f5ae47dd3338122751db31 ASoC: codecs: jz4725b: add missed Line In power control bit
-088777bf65b98cfa4b5378119d0a7d49a58ece44 ASoC: codecs: jz4725b: fix reported volume for Master ctl
-1538e2c8c9b7e7a656effcc6e4e7cfe8c1b405fd ASoC: codecs: jz4725b: use right control for Capture Volume
-80852f8268769715db335a22305e81a0c4a38a84 ASoC: codecs: jz4725b: fix capture selector naming
-41deb2db64997d01110faaf763bd911d490dfde7 ASoC: Intel: sof_sdw: add quirk variant for LAPBC710 NUC15
-73189c064e11137c8b78a825800a374924ebb7b7 ASoC: SOF: Intel: pci-mtl: fix firmware name
-03cab65a07e083b6c1010fbc8f9b817e9aca75d9 selftests/futex: fix build for clang
-beb7d862ed4ac6aa14625418970f22a7d55b8615 selftests/intel_pstate: fix build for ARCH=x86_64
-2a8e366b23fea29a5308f71ba49555e3c8c664f1 selftests/kexec: fix build for ARCH=x86_64
-b4dd2e3758709aa8a2abd1ac34c56bd09b980039 ASoC: Intel: sof_rt5682: Add quirk for Rex board
-af6514f2f3828dc39c96cd4686ef5c9d8368626f ASoC: SOF: ipc4-mtrace: protect per-core nodes against multiple open
-eb6789b0c3424f84e8441c4796083db2f095c391 selftests/memory-hotplug: Remove the redundant warning information
-cb05c81ada76a30a25a5f79b249375e33473af33 selftests/ftrace: fix dynamic_events dependency check
-618887768bb71f0a475334fa5a4fba7dc98d7ab5 kunit: update NULL vs IS_ERR() tests
-b2067d724fc29be7ce9b4a38b5fe681d4d6a38f6 mailmap: update Dan Carpenter's email address
-77054e14f9a4debf9aca610d2bda74afb2df7a56 mailmap: update email for Qais Yousef
-dd49585f721febbca546adfc9333baa499e88eac mm/mempolicy: fix mbind_range() arguments to vma_merge()
-55a8ee7334252640f0446dd208ace4f61d761b7d zsmalloc: zs_destroy_pool: add size_class NULL check
-824dad928a24a54a7df2ed7872175822e8519173 gcov: support GCC 12.1 and newer compilers
-57747da881db3291520bda538dd03baa764faa69 ocfs2: fix BUG when iput after ocfs2_mknod fails
-d9dc47e1dc58e0b54587bec931a1e855f57ab2b7 ocfs2: clear dinode links count in case of error
-2825cc26235c2b7e1eb4ff3637fd1a78314c90d5 init: Kconfig: fix spelling mistake "satify" -> "satisfy"
-e21f522dfae7596446aa096368964448bf5b9b48 mm/mmap: undo ->mmap() when mas_preallocate() fails
-6bfd13be625825d8c9dfa92ad82e500b0404e2fd mm/mmap.c: __vma_adjust(): suppress uninitialized var warning
-d6e1cda09c5045c9c45a37ae3bf6d6af3de9773e mm/mmap: fix MAP_FIXED address return on VMA merge
-9c59e6b47d954cfaa84f85ccedc3eba7650ca38a mm,hugetlb: take hugetlb_lock before decrementing h->resv_huge_pages
-ba077d683d45190afc993c1ce45bcdbfda741a40 bnxt_en: fix memory leak in bnxt_nvm_test()
-d8b57135fd9ffe9a5b445350a686442a531c5339 net: hsr: avoid possible NULL deref in skb_clone()
-aa1d7e1267c12e07d979aa34c613716a89029db2 ionic: catch NULL pointer issue on reconfig
-7b476affcccfc7e644541a0a719f53fc7bd34c53 drm/sched: add DRM_SCHED_FENCE_DONT_PIPELINE flag
-01f2cf53844b01e691516b465df1b6ab01b03230 drm/amdgpu: use DRM_SCHED_FENCE_DONT_PIPELINE for VM updates
-00aaf8bfe0ee2b807b452df806d725e080d85404 ASoC: rt1308-sdw: update the preset settings
-75d8b1662ca5c20cf8365575222abaef18ff1f50 ASoC: rt1308-sdw: add the default value of some registers
-32def55d237e8507d4eb8442628fc2e59a899ea0 ASoC: simple-card: Fix up checks for HW param fixups
-7b55c2ed2ba061b65fc51d7a18d37e017085997f ethernet: marvell: octeontx2 Fix resource not freed after malloc
-51f9a8921ceacd7bf0d3f47fa867a64988ba1dcb net: sched: cake: fix null pointer access issue when cake_init() fails
-f5ffa3b1197395501b72c10b35518bf58ef24475 Revert "net: sched: fq_codel: remove redundant resource cleanup in fq_codel_init()"
-2a3fc78210b9f0e85372a2435368962009f480fc net: sched: sfb: fix null pointer access issue when sfb_init() fails
-e38cf36695c9473f3d0a08bb9f27e33a8dc0ff53 Merge branch 'qdisc-null-deref'
-df496157a5afa1b6d1f4c46ad6549c2c346d1e59 ASoC: codecs: jz4725b: Fix spelling mistake "Sourc" -> "Source", "Routee" -> "Route"
-672e97ef689a38cb20c2cc6a1814298fea34461e net: Fix return value of qdisc ingress handling on success
-fd602f5cb52e336d8c06f8da2d80c76ce2905030 selftests: add selftest for chaining of tc ingress handling to egress
-6109ecbfd10475309d3e5a1a39bf167547da878e Merge branch 'qdisc-ingress-success'
-5a637f83d96fc9f27e93385924e7253a5f5187bc dmaengine: stm32-mdma: memset stm32_mdma_chan_config struct before using it
-0ec8ce07394442d722806fe61b901a5b2b17249d dmaengine: idxd: Do not enable user type Work Queue without Shared Virtual Addressing
-f8aa6c895d482847c9b799dcdac8bbdb56cb8e04 spi: aspeed: Fix window offset of CE1
-639d91b2d4c80d4e4fb278d8dadbd09b828aa8d8 dmaengine: pxa_dma: use platform_get_irq_optional
-008f05a72d32dcc14038801649ec67af765fcc3c ASoC: jz4752b: Capture fixes
-a450b5c8739248069e11f72129fca61a56125577 ASoC: amd: yc: Adding Lenovo ThinkBook 14 Gen 4+ ARA and Lenovo ThinkBook 16 Gen 4+ ARA to the Quirks List
-1dd5166102e7ca91e8c5d833110333835e147ddb ASoC: qcom: lpass-cpu: Mark HDMI TX parity register as volatile
-ca496534d6d143033d4d94e77011c4879ad3ec6c dmaengine: idxd: Fix max batch size for Intel IAA
-8ca8315f178b1f90a1f7d322ffa381614202cab0 dmaengine: idxd: fix RO device state error after been disabled/reset
-d1ae5c45f654ccedbe5abb2fa5417705fd8b29dd dmaengine: apple-admac: Fix grabbing of channels in of_xlate
-aa23d45eeb3497bb89f112b407fcc6d21210010f MAINTAINERS: Add Vignesh Raghavendra as maintainer of TI DRA7XX/J721E PCI driver
-22286757d2f51001bd7f5ade917cb95ca6b4ae2e MAINTAINERS: Update Kishon's email address in PCI endpoint subsystem
-f98dc31c95a215417ef55f241ffc4473b122fcbe Merge remote-tracking branch 'spi/for-6.0' into spi-linus
-05de5cf6fb7d73d2bf0a0c882433f31db5c93f63 ASoC: SOF: Intel: pci-tgl: fix ADL-N descriptor
-46e8d917b504b2f6c50073241ff2e0739941f9e8 Merge branch 'mm-hotfixes-unstable' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
-8c3a254b79703617356cc720c3404a7f6c5524cf Merge branch 'for-curr' of git://git.kernel.org/pub/scm/linux/kernel/git/vgupta/arc.git
-3fe9e65307530bc68566a479cdd320c400c5d88b Merge branch 'fixes' of https://git.linaro.org/people/jens.wiklander/linux-tee.git
-3de1701db155d0ab16639c15f8da9a9039e7f776 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux.git
-32810b83f191d667e17fa0877fae63bb9d01af7f Merge branch 'master' of git://git.kernel.org/pub/scm/linux/kernel/git/davem/sparc.git
-3f2358a063e148ece3ed66ce7ce76a04cd8c00a7 Merge branch 'for-stable' of git://git.kernel.org/pub/scm/fs/fscrypt/fscrypt.git
-9b8357f6bca7e5d8225453a564210f994f346160 Merge branch 'master' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net.git
-a9e36d359a9bb2490be0b39d89e0979f65281a45 Merge branch 'master' of git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf.git
-111c3fe71bd6399cdf8fbecef0b309a9fbba1eb0 Merge branch 'master' of git://git.kernel.org/pub/scm/linux/kernel/git/klassert/ipsec.git
-c54e8db1c23a0985f9afbffe8b8c7eb059f9795d Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound.git
-fd8e9f71a2c9af836f883624fcbb770e421c7cb0 Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-4fedb7efa7bb4f135e7d3d76e33ca3374addb712 Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regmap.git
-899103897cdc0ed483cc8219da2b48a83de898d6 Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
-2595852a3d782e18cdc9dabeee570133fa9ff928 Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-37ddf3fbb4976d0c30831317bcf57e8a7ce3bbad Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/helgaas/pci.git
-6e8c9445f85828d3b7aace4f53ae7815f1c016f8 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/phy/linux-phy.git
-a421e2450c177f04d6a46d0f433a37b6d25456f6 Merge branch 'fixes-togreg' of git://git.kernel.org/pub/scm/linux/kernel/git/jic23/iio.git
-7fbd6330b581bfd269472e29080851aef52e7952 Merge branch 'counter-current' of git://git.kernel.org/pub/scm/linux/kernel/git/wbg/counter.git
-4899d53c961a0fa58b15ca2fb669f81fbebefa20 Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input.git
-bad4a0491b268d30934a292970334d000c815b56 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest.git
-95064e89082b49a17f55e8435362487d24d7a7af Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vkoul/dmaengine.git
-a1ff4ac5282afcd958dfce988d690fab3c158479 Merge branch 'mtd/fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/mtd/linux.git
-83f599e19a3e87228d764d127c201c889939b3ef Merge branch 'hwmon' of git://git.kernel.org/pub/scm/linux/kernel/git/groeck/linux-staging.git
-3e5b58b75f7bcbf42f0a41267fb9900c1af7febe Merge branch 'next-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux.git
-09bdc3349a812228c1c8a0f2af1bf22ae4a4e33a Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/mkp/scsi.git
-ecfbef1eedb329cf43cad738adcceb76528611c8 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/mmc.git
-17d2b3ede76aa8f6a820ee9a00fedc35d19b2308 Merge branch 'rtc-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/abelloni/linux.git
-9b76dac3c97cbe7709495cf877f74cb9e1ef9353 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux.git
-9a5d094f065159758f16b2cbe820cd6c3fc3fde6 Merge branch 'kunit-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest.git
-47e3884a26c5fd17e159660ed6ca2a89d65a64f6 Merge branch 'for-rc' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
-4f46061a11410482e5ad88667fd23a460c01df20 Merge branch 'urgent' of git://git.kernel.org/pub/scm/linux/kernel/git/efi/efi.git
-8019ba7d6fc616fe8060559b8a8c1b64e99007c0 Merge branch 'zstd-linus' of https://github.com/terrelln/linux.git
-6897ba57f86dae2b5132396af42aa9f0a0767e9a Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/sre/linux-power-supply.git
-2cf0df170b5f1231e49c5124d173c69ced59acbf Merge branch 'for-linux-next-fixes' of git://anongit.freedesktop.org/drm/drm-misc
-
---===============6035509324634325297==--
+--===============3898564387910959524==--
