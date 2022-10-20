@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Thu, 20 Oct 2022 01:50:03 -0000
-Message-Id: <166623060368.19502.17980212133728105269@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/libcap/libcap
+Date: Thu, 20 Oct 2022 02:10:27 -0000
+Message-Id: <166623182768.1864.850585118315432491@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/libs/libcap/libcap
+user: morgan
 changes:
-  - ref: refs/heads/block-6.1
-    old: e0539ae012ba5d618eb19665ff990b87b960c643
-    new: 72495b5ab456ec9f05d587238d1e2fa8e9ea63ec
+  - ref: refs/heads/master
+    old: 10041371f4175ec175e841c48100c7567d42eba5
+    new: 70998415a87587f31063a26a1e52c6f7806b7834
     log: |
-         72495b5ab456ec9f05d587238d1e2fa8e9ea63ec ublk_drv: use flexible-array member instead of zero-length array
+         70998415a87587f31063a26a1e52c6f7806b7834 Reviewed license information and adde SPDX ids.
          
