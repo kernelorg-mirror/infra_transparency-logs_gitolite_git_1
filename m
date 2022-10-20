@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Thu, 20 Oct 2022 00:43:52 -0000
-Message-Id: <166622663262.31611.3660817954521996441@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/daeinki/drm-exynos
+Date: Thu, 20 Oct 2022 01:20:14 -0000
+Message-Id: <166622881431.30749.13463427840589595496@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/daeinki/drm-exynos
+user: daeinki
 changes:
-  - ref: refs/heads/master
-    old: 47a349880a27f398fb772db3a42213879fda90ff
-    new: 56e57714e6a73a0c9ea37b26d1d225b906c2239c
-    log: |
-         e320b901b0fe3c58a000d1ca0940f3fee779399f foo
-         56e57714e6a73a0c9ea37b26d1d225b906c2239c foo
-         
+  - ref: refs/heads/next/exynos-drm-next-for-v6.1
+    old: 0000000000000000000000000000000000000000
+    new: c95859b4293b3c8e67d7cab2c9c16513f95dd2cb
