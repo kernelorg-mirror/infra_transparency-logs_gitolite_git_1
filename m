@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0172392267220101800=="
+Content-Type: multipart/mixed; boundary="===============8040905952085577628=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mips/linux
-Date: Thu, 20 Oct 2022 10:04:38 -0000
-Message-Id: <166626027840.22212.3241368289860560652@gitolite.kernel.org>
+Date: Thu, 20 Oct 2022 10:05:02 -0000
+Message-Id: <166626030290.22897.743377914971636758@gitolite.kernel.org>
 
---===============0172392267220101800==
+--===============8040905952085577628==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mips/linux
 user: tsbogend
 changes:
-  - ref: refs/heads/mips-next
-    old: 90c2d2eb7ab5848c4f853751f12b96bdc460ad1b
+  - ref: refs/heads/mips-fixes
+    old: e9f3f8f488005f6da3cfb66070706770ecaef747
     new: 9abf2313adc1ca1b6180c508c25f22f9395cc780
-    log: revlist-90c2d2eb7ab5-9abf2313adc1.txt
+    log: revlist-e9f3f8f48800-9abf2313adc1.txt
 
---===============0172392267220101800==
+--===============8040905952085577628==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-90c2d2eb7ab5-9abf2313adc1.txt
+Content-Disposition: attachment; filename=revlist-e9f3f8f48800-9abf2313adc1.txt
 
 bb1f11546eb3cd1e2b8ea45653eb0f530e42b035 Merge tag 'x86_asm_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 901735e51e4dea1eee816b0b57d1d6abbd94b3d5 Merge tag 'x86_misc_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
@@ -1051,4 +1051,4 @@ b08cd74448fafaa302ce2bc11beab5e5a55d0065 Merge tag '6.1-rc-smb3-client-fixes-par
 f1947d7c8a61db1cb0ef909a6512ede0b1f2115b Merge tag 'random-6.1-rc1-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/crng/random
 9abf2313adc1ca1b6180c508c25f22f9395cc780 Linux 6.1-rc1
 
---===============0172392267220101800==--
+--===============8040905952085577628==--
