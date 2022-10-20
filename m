@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3898316002062169041=="
+Content-Type: multipart/mixed; boundary="===============7469786960751796212=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/docs/kernel/website
-Date: Thu, 20 Oct 2022 13:29:39 -0000
-Message-Id: <166627257907.6994.67929376337120852@gitolite.kernel.org>
+Date: Thu, 20 Oct 2022 13:29:56 -0000
+Message-Id: <166627259676.7207.15342829435820838403@gitolite.kernel.org>
 
---===============3898316002062169041==
+--===============7469786960751796212==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,31 +16,28 @@ repo: pub/scm/docs/kernel/website
 user: mricon
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: 82b1254da70b198f5cf26d7ea53699ec9819127e
+  - ref: refs/tags/v2022-10-20-01
+    old: 0000000000000000000000000000000000000000
     new: c5537cdf8a3f85b14b0dc1dd73a8029540ad1b99
-    log: |
-         c5537cdf8a3f85b14b0dc1dd73a8029540ad1b99 Add keys for gregkh and torvalds into files
-         
 
---===============3898316002062169041==
+--===============7469786960751796212==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher B6C41CE35664996C! 1666272578 -0400
+pusher B6C41CE35664996C! 1666272596 -0400
 pushee gitolite.kernel.org:pub/scm/docs/kernel/website
-nonce 1666272578-6a7542cf84e4fcb0727fdcadcc5d463df38297d0
+nonce 1666272596-5fd8c68ec37f60a448a0c2e997d81ccf9ed588a1
 
-82b1254da70b198f5cf26d7ea53699ec9819127e c5537cdf8a3f85b14b0dc1dd73a8029540ad1b99 refs/heads/master
+0000000000000000000000000000000000000000 c5537cdf8a3f85b14b0dc1dd73a8029540ad1b99 refs/tags/v2022-10-20-01
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCY1FNQgAKCRC2xBzjVmSZ
-bLhrAP9YZsFfNRNvh//vo65uYazg+6aJXZIsDPaHQdQf+uFjmwEAgUachH2hrPJD
-P621B3MQf8rVzI9ui0y23G4LF9GYvwg=
-=BGVa
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCY1FNVAAKCRC2xBzjVmSZ
+bFcaAP9zbafxy9F4O2LYLjsd3v0nHSDsAVO2FRd2HtUBXv/oewD/Vk2GaaW5KL1t
+YCIdaEmiA8dtwDMAp3Nu0Zf5eji60wY=
+=l/wp
 -----END PGP SIGNATURE-----
 
---===============3898316002062169041==--
+--===============7469786960751796212==--
