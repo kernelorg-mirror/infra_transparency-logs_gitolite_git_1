@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lpieralisi/linux
-Date: Thu, 20 Oct 2022 14:51:30 -0000
-Message-Id: <166627749081.32639.13830938915427467137@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
+Date: Thu, 20 Oct 2022 14:56:29 -0000
+Message-Id: <166627778925.5035.14228775421140425525@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lpieralisi/linux
-user: lpieralisi
+repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
+user: shuah
 changes:
-  - ref: refs/heads/irqchip/gic-v3-nmi
-    old: 15c6916cbc400107ae2eaff41a9a27fa8cdf9907
-    new: b531dd554c6408e57a81d81b041e8becbf16b06d
+  - ref: refs/heads/next
+    old: 9abf2313adc1ca1b6180c508c25f22f9395cc780
+    new: de3ee3f63400a23954e7c1ad1cb8c20f29ab6fe3
     log: |
-         32b9d68196688d141b003cc6b4cb937b9838c5b4 irqchip/gic-v3: Initial GIC FEAT_GICv3_NMI support
-         b531dd554c6408e57a81d81b041e8becbf16b06d irqchip/gic-v3: Enable support for SGIs to act as NMIs
+         de3ee3f63400a23954e7c1ad1cb8c20f29ab6fe3 selftests: Use optional USERCFLAGS and USERLDFLAGS
          
