@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4004404444010512228=="
+Content-Type: multipart/mixed; boundary="===============5403222861476617873=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Thu, 20 Oct 2022 22:02:14 -0000
-Message-Id: <166630333475.14596.4753482078342629023@gitolite.kernel.org>
+Date: Thu, 20 Oct 2022 22:02:24 -0000
+Message-Id: <166630334420.14701.7245997940332451592@gitolite.kernel.org>
 
---===============4004404444010512228==
+--===============5403222861476617873==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: 66ae04368efbe20eb8951c9a76158f99ce672f25
-    new: 36875a063b5e3618b42f7bace850473bb88a7c24
-    log: revlist-66ae04368efb-36875a063b5e.txt
+  - ref: refs/heads/dev-queue
+    old: 03e4570a68fb21790b34628f04377e50819ccd26
+    new: 7b0906625048a016a865fbca9f93a3f21e29d22b
+    log: revlist-03e4570a68fb-7b0906625048.txt
 
---===============4004404444010512228==
+--===============5403222861476617873==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-66ae04368efb-36875a063b5e.txt
+Content-Disposition: attachment; filename=revlist-03e4570a68fb-7b0906625048.txt
 
 44a726c3f23cf762ef4ce3c1709aefbcbe97f62c bpftool: Print newline before '}' for struct with padding only fields
 d503f1176b14f722a40ea5110312614982f9a80b selftests/bpf: Test btf dump for struct with padding only fields
@@ -95,5 +95,44 @@ b799f052a987c3fdd315cbac665b9202dd96382b sfc: remove 'log-tc-errors' ethtool pri
 5c624a1d77d3eb2e314b59282b1213fa760d192c Merge branch 'netlink-formatted-extacks'
 ab3f7828c9793a5dfa99a54dc19ae3491c38bfa3 openvswitch: Use kmalloc_size_roundup() to match ksize() usage
 36875a063b5e3618b42f7bace850473bb88a7c24 net: ipa: Proactively round up to kmalloc bucket size
+151a8669c454a7b9ecbc1f6f20c0e1ce9bdfad07 drm/amd/display: fix array-bounds error in dc_stream_remove_writeback() [take 2]
+e896667ce597acd97ad17587ef587184cb0d6b91 e1000e: Separate MTP board type from ADP
+fe8fcac793eee9c6e34656736365a8b91d2b0609 ice: Add 'Execute Pending LLDP MIB' Admin Queue command
+dcf50b71455a04378c75973ef7adeba120752309 ice: Handle LLDP MIB Pending change
+86b9eac4e196b8bc88175c7d325f70d88b9d57ba i40e: Fix ethtool rx-flow-hash setting for X722
+59337f6b7986509b1b494f23376baa237d7823f8 ice: Support 5 layer topology
+1df0489a0f22b9431e5be82f64637834b5a960fb ice: Adjust the VSI/Aggregator layers
+0118bf4007b13f41b44468819ff6bd176398a3a8 ice: Enable switching default tx scheduler topology
+cb5fbc44fb176b27ac98a69290f0f5a766131bae ice: Add txbalancing devlink param
+3e60c01680527c4e0219edda6f8243d3b531fc9d ice: Document txbalancing parameter
+dbdbf631c520c5d13f248a6974881b795532a539 i40e: Add appropriate error message logged for incorrect duplex setting
+7d59e90ec2603babffa0156c05a8db84c7d4c3a1 ice: Add GPIO pin support for E823 products
+b960155385df45ca00c6e4a6e7c34b4772240492 e1000: Remove unnecessary use of kmap_atomic()
+3e2ac7fe1b4090b74982e3e85b7845f250966754 e1000e: Add e1000e trace module
+95fa7c4792cc8e84efcff2c41b9f4224004cf9ac ice: Add crosstimestamping on E823 devices
+459b96dcccfa2f08b18e2c644a6a80f464e9c6c3 ixgbe: Remove local variable
+16f0f610057150b36913e0b0e9c585158ad864d7 e1000e: Add support for the next LOM generation
+beed3676eb4be6adfa5a4546728cc6ba9c3444e0 e1000e: Remove unnecessary use of kmap_atomic()
+f6b80fa9f15fe7522c269c95aac74d6d90c1cb68 i40e: Fix VF hang when reset is triggered on another VF
+0de688149b48403334298f17f63b1e54a3c4fec0 i40e: Fix flow-type by setting GL_HASH_INSET registers
+e63c4fca3faee3d31890a2aacc949934feca782e igc: Correct the launchtime offset
+4d542381c0913d7a1f0e08a76d9939d2eca7477c ixgbevf: Add error messages on vlan error
+fe92aa979ec6fa4171d527f889c7bd0b54843fd3 ice: Fix spurious interrupt during removal of trusted VF
+7c56ca086396c80fcbce7e849fe474f2c824c53f i40e: Fix DMA mappings leak
+6b5a1b9b3cc7baee92d9653e931658c7bfcc4471 i40e: Store the irq number in i40e_q_vector
+e146796ef78f01ad10a015c8af581c2374a61f1a i40e: Record number TXes cleaned during NAPI
+52403ff512ff92af908f98592d8c87598e8c95da i40e: Record number of RXes cleaned during NAPI
+f9c2e9cdf45c3a479c6b29601a77e1ebe2dac30b i40e: Add i40e_napi_poll tracepoint
+c2ce1f4b8d4de8744b795bb1eda2a3d437017b51 ice: Accumulate HW and Netdev statistics over reset
+3dd1f5a8f8081e94ec91961a970a754e23bb2835 ice: Accumulate ring statistics over reset
+dd09d7d467c6666635d086e3ef7e01269f1aea60 i40e: Fix failure message when XDP is configured in TX only mode
+9c7951991714da5200a3399a1fba790176bb6f31 e1000e: Fix TX dispatch condition
+8b08db37447f0ce814c6de31c750f8577616edae i40e: fix xdp_redirect logs error message when testing with MTU=1500
+4681b6c3b89b20a6d718f1264d6d53790f3b8ef3 iavf: Fix VF driver counting VLAN 0 filters
+41f896e71f5a7dad4e35764a1529610ca90accb5 ice: Check for PTP HW lock more frequently
+009d218300425fd2110ba2fd0cc6060c59e3735a ice: Remove gettime HW semaphore
+3a51e8b61c3ee61443a15011764a92a3f61e3ae3 ice: Add additional CSR registers
+f37595a909297394a1ee0aedecd78c2a00a5c9e8 ice: Add support Flex RXD
+7b0906625048a016a865fbca9f93a3f21e29d22b ice: use GNSS subsystem instead of TTY
 
---===============4004404444010512228==--
+--===============5403222861476617873==--
