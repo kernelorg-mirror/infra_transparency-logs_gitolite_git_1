@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-integrator
-Date: Thu, 20 Oct 2022 21:22:30 -0000
-Message-Id: <166630095037.18240.8291764249811304183@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/coresight/linux
+Date: Thu, 20 Oct 2022 21:35:56 -0000
+Message-Id: <166630175677.28756.9194493687023398544@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/linusw/linux-integrator
-user: linusw
+repo: pub/scm/linux/kernel/git/coresight/linux
+user: suzukikp
 changes:
-  - ref: refs/heads/mips-zyxel
-    old: 0000000000000000000000000000000000000000
-    new: 8298701722fe7a0590d75264839c4012daa51445
+  - ref: refs/heads/fixes
+    old: 262068519b562dcf73297b2a75fb850342ba99e5
+    new: 0000000000000000000000000000000000000000
