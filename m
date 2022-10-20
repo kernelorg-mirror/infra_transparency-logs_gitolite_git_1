@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6708918544167002936=="
+Content-Type: multipart/mixed; boundary="===============1256466730783226295=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/daeinki/drm-exynos
-Date: Thu, 20 Oct 2022 01:20:58 -0000
-Message-Id: <166622885870.31187.14884761720042009193@gitolite.kernel.org>
+Date: Thu, 20 Oct 2022 01:21:40 -0000
+Message-Id: <166622890091.31463.8835074240865425879@gitolite.kernel.org>
 
---===============6708918544167002936==
+--===============1256466730783226295==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/daeinki/drm-exynos
 user: daeinki
 changes:
-  - ref: refs/heads/exynos-drm-next
-    old: 1261255531088208daeca818e2b486030b5339e5
+  - ref: refs/heads/exynos-drm-fixes
+    old: 8288206c27856f6f56d35aacf3a48ee923e1d3e2
     new: 9abf2313adc1ca1b6180c508c25f22f9395cc780
-    log: revlist-126125553108-9abf2313adc1.txt
+    log: revlist-8288206c2785-9abf2313adc1.txt
 
---===============6708918544167002936==
+--===============1256466730783226295==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-126125553108-9abf2313adc1.txt
+Content-Disposition: attachment; filename=revlist-8288206c2785-9abf2313adc1.txt
 
 bb1f11546eb3cd1e2b8ea45653eb0f530e42b035 Merge tag 'x86_asm_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 901735e51e4dea1eee816b0b57d1d6abbd94b3d5 Merge tag 'x86_misc_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
@@ -1051,4 +1051,4 @@ b08cd74448fafaa302ce2bc11beab5e5a55d0065 Merge tag '6.1-rc-smb3-client-fixes-par
 f1947d7c8a61db1cb0ef909a6512ede0b1f2115b Merge tag 'random-6.1-rc1-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/crng/random
 9abf2313adc1ca1b6180c508c25f22f9395cc780 Linux 6.1-rc1
 
---===============6708918544167002936==--
+--===============1256466730783226295==--
