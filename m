@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Thu, 20 Oct 2022 02:50:03 -0000
-Message-Id: <166623420301.28576.16759698402292563954@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/crng/random
+Date: Thu, 20 Oct 2022 02:52:30 -0000
+Message-Id: <166623435062.30081.9058055494820642791@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/crng/random
+user: zx2c4
 changes:
-  - ref: refs/heads/io_uring-6.1
-    old: 16bbdfe5fb0e78e0acb13e45fc127e9a296913f2
-    new: 839a0c962971a5a95515c1637aede8a4fbc6547f
+  - ref: refs/heads/master
+    old: 4aec5d612e539b832fcf5b6d0fa96b29c141ed24
+    new: d81de644ebf892efe36dd2c58e0266eaf020052e
     log: |
-         cf6d01d79d3ea2274891c79cb51fa80dfde39acd io_uring/net: fail zc send for unsupported protocols
-         9f92d171efe73abc3d026ed9e21f08b482075782 io_uring/net: fail zc sendmsg for unsupported protocols
-         839a0c962971a5a95515c1637aede8a4fbc6547f io-wq: Fix memory leak in worker creation
+         d81de644ebf892efe36dd2c58e0266eaf020052e kbuild: treat char as always unsigned
          
