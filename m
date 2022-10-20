@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/fpga/linux-fpga
-Date: Thu, 20 Oct 2022 01:36:46 -0000
-Message-Id: <166622980604.10484.1690376025018885914@gitolite.kernel.org>
+Date: Thu, 20 Oct 2022 01:37:50 -0000
+Message-Id: <166622987091.10928.7485018357477645391@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,5 +12,5 @@ repo: pub/scm/linux/kernel/git/fpga/linux-fpga
 user: yilunxu
 changes:
   - ref: refs/heads/for-next
-    old: 41d26c020cb24af61206d01d22a3d449d8c91988
-    new: 0000000000000000000000000000000000000000
+    old: 0000000000000000000000000000000000000000
+    new: 9abf2313adc1ca1b6180c508c25f22f9395cc780
