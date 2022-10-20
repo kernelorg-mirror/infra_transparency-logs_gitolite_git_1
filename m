@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/zx2c4/linux
-Date: Thu, 20 Oct 2022 17:26:27 -0000
-Message-Id: <166628678784.14726.11907088954933312119@gitolite.kernel.org>
+Date: Thu, 20 Oct 2022 17:26:36 -0000
+Message-Id: <166628679614.14823.12396005327440141851@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/zx2c4/linux
 user: zx2c4
 changes:
-  - ref: refs/heads/jd/unsigned-char
-    old: 0000000000000000000000000000000000000000
-    new: d2f6725b6c3153d19dde94b4d6e8d84ea8000918
+  - ref: refs/heads/minmax
+    old: bd7a3b5022d3c8fe4daa039bccd8687923f94508
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/remove-sha1
+    old: cdddbb87820d9aef9c2df4517bcfa91b48b6dd97
+    new: 0000000000000000000000000000000000000000
