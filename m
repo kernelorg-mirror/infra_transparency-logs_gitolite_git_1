@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/trace/linux-trace
-Date: Thu, 20 Oct 2022 21:00:45 -0000
-Message-Id: <166629964507.4078.5692709260231205299@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+Date: Thu, 20 Oct 2022 21:08:50 -0000
+Message-Id: <166630013010.8714.10501806123937534417@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/trace/linux-trace
-user: rostedt
+repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+user: vudentz
 changes:
-  - ref: refs/tags/trace-tools-6.1-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 1ee5bf9e2eff62eb25ac0e904c1a48f7c55d26ff
+  - ref: refs/heads/master
+    old: b0a19a2c4c5396bef7b124eb67ccd9a34b3dada8
+    new: f334dabe7dae4b890926601d743d2ce337883880
+    log: |
+         f334dabe7dae4b890926601d743d2ce337883880 Bluetooth: hci_core: fix error handling in hci_register_dev()
+         
