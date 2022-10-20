@@ -1,46 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============6426230369811042869=="
+Content-Type: multipart/mixed; boundary="===============5862096499949874373=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Thu, 20 Oct 2022 07:53:48 -0000
-Message-Id: <166625242810.13610.9827142485485061403@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vfs/idmapping
+Date: Thu, 20 Oct 2022 08:15:28 -0000
+Message-Id: <166625372888.30027.6786268778202605639@gitolite.kernel.org>
 
---===============6426230369811042869==
+--===============5862096499949874373==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
-user: maz
+repo: pub/scm/linux/kernel/git/vfs/idmapping
+user: brauner
 changes:
-  - ref: refs/heads/kvm-arm64/hvhe
-    old: 2661b5450920a3e1f38f8043cfa12af460c44b58
-    new: f8158b21104b40aa602703fe27d8cf24c868d90e
-    log: revlist-2661b5450920-f8158b21104b.txt
+  - ref: refs/heads/fs.acl.rework
+    old: a9a51091799f2b5739c4803406a4950c877a685f
+    new: 0a26bde2c9db9817e2b4c0f890236f78d4d8ed7c
+    log: revlist-a9a51091799f-0a26bde2c9db.txt
 
---===============6426230369811042869==
+--===============5862096499949874373==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2661b5450920-f8158b21104b.txt
+Content-Disposition: attachment; filename=revlist-a9a51091799f-0a26bde2c9db.txt
 
-c30ee0145ff81d98e8e7b11bf7a2e3f3c74f64ae arm64: Add KVM_HVHE capability and has_hvhe() predicate
-18b4b56f52ad76f9547bbd0ade474b4b41b9a86f arm64: Don't enable VHE for the kernel if OVERRIDE_HVHE is set
-c304bb1162bbb40095a42acbac090a44c60fff9e arm64: Prevent the use of is_kernel_in_hyp_mode() in hypervisor code
-9032c877d59101e6d540881b55a9229638eeb6ad arm64: Allow EL1 physical timer access when running VHE
-6998f5240ecc75cc068d3fea72071883a06fa6e3 arm64: Use CPACR_EL1 format to set CPTR_EL2 when E2H is set
-4eff90d0c7d5e94700485c8664e9074600e8e189 KVM: arm64: Elide kern_hyp_va() in VHE-specific parts of the hypervisor
-9fd47a0b42b5598eeacf30077a530eed85bdfc1f KVM: arm64: Remove alternatives from sysreg accessors in VHE hypervisor context
-6c8aaed0de079f6f5df430840974d4ceda3b4716 KVM: arm64: Key use of VHE instructions in nVHE code off ARM64_KVM_HVHE
-52e428c30a6a210c6cf4e7d88f10578c2caa6a7b KVM: arm64: Force HCR_EL2.E2H when ARM64_KVM_HVHE is set
-731ab9e43197f2619c0f313cf756dfda3826fae8 KVM: arm64: Disable TTBR1_EL2 when using ARM64_KVM_HVHE
-bc03982769ed9800016110c9180d3113c5716745 KVM: arm64: Adjust EL2 stage-1 leaf AP bits when ARM64_KVM_HVHE is set
-9081bcc5974e06cfd4d5d5eb1886e0adb15d13ef KVM: arm64: Rework CPTR_EL2 programming for HVHE configuration
-c17ad25f6f89c1dd9bf54bb5d9733e14c4e3fdaf KVM: arm64: Program the timer traps with VHE layout in hVHE mode
-d4e990dfc5197a5d7a5f1d7fd679c1b2520f77cb KVM: arm64: Force HCR_E2H in guest context when ARM64_KVM_HVHE is set
-79b7c6f91e2c69fdb37c079705a144ca37f30f65 arm64: Allow arm64_sw.hvhe on command line
-f8158b21104b40aa602703fe27d8cf24c868d90e KVM: arm64: Terrible timer hack for M1 with hVHE
+cac2f8b8d8b50ef32b3e34f6dcbbf08937e4f616 fs: rename current get acl method
+7420332a6ff407ba2d3d25f5e8430bf426131d1d fs: add new get acl method
+bd9684b042dcbb400ecb4d169b74c9adc84aa088 cifs: implement get acl method
+dc1af4c4b4721abfa07b351063825acc7e69cc66 cifs: implement set acl method
+6cd4d4e8b6e1495eb0cafa3a59d1fde137a98d22 9p: implement get acl method
+079da629383ea960dfa0615e18d51d8bd121bd0c 9p: implement set acl method
+72b3897e78107c54e3e5a98bdb316dafcd818f97 security: add get, remove and set acl hook
+1bdeb21862299c79fc80e7f44eb1b611c4c9c0b2 selinux: implement get, set and remove acl hook
+44faac01cd0afbf6d3f1e41918fb85daecfcb8a6 smack: implement get, set and remove acl hook
+e61b135f7bfe47f547fb566328a97ca8baa3548c integrity: implement get and set acl hook
+a56df5d5b7ca6d79c3cdef32401380e60c0928b1 evm: add post set acl hook
+56851bc9b9f072dd738f25ed29c0d5abe9f2908b internal: add may_write_xattr()
+e4cc9163032fed6ff27dd03325ddc54f88863a24 acl: add vfs_set_acl()
+4f353ba4a9f42ad283dc6afdd84dae0b1d294842 acl: add vfs_get_acl()
+aeb7f00542af48ac63e448de46d672cfd79a7069 acl: add vfs_remove_acl()
+b82784a2f52a7a2a5491d36f0c257cf64d87abb5 ksmbd: use vfs_remove_acl()
+af84016f1cfe78b23c8efbf6ba5c3c660d52a9ee ecryptfs: implement get acl method
+86c261b9eb4ce0a4ae189c0317cd8eddb8302d5a ecryptfs: implement set acl method
+6c0a8bfb84af8f3d1960e6905eace59d6488d270 ovl: implement get acl method
+0e641857322f4d0a99aec3f49b21b732f3bb5ef9 ovl: implement set acl method
+31acceb97500dd6e9105526301d76488cd6ca21c ovl: use posix acl api
+318e66856ddec05384f32d60b5598128289f4e7b xattr: use posix acl api
+e10796b87e1d1bad593c89c5e8cc2e0992bd1335 evm: remove evm_xattr_acl_change()
+04af28faae6760514f0302aa9db561e60ee53a20 ecryptfs: use stub posix acl handlers
+200afb77cde7e51364d4a8b3e176f4797a3b5ec7 ovl: use stub posix acl handlers
+c39c07fce78439dfb0665b294753716297389179 cifs: use stub posix acl handlers
+39a6497a9bbb760c3c26a1bef7a0ab0b9fdefd9f 9p: use stub posix acl handlers
+0a26bde2c9db9817e2b4c0f890236f78d4d8ed7c acl: remove a slew of now unused helpers
 
---===============6426230369811042869==--
+--===============5862096499949874373==--
