@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/efi/efi
-Date: Thu, 20 Oct 2022 06:32:39 -0000
-Message-Id: <166624755903.23025.9149743815629219171@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/deller/linux-fbdev
+Date: Thu, 20 Oct 2022 06:36:56 -0000
+Message-Id: <166624781641.26126.9042887763453253146@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/efi/efi
-user: ardb
+repo: pub/scm/linux/kernel/git/deller/linux-fbdev
+user: deller
 changes:
-  - ref: refs/heads/urgent
-    old: 5e35793302d44575253d9a45d96162636e2a9d81
-    new: 39d19a4a14dac4507a568c4a39c3b812d7b8a53a
+  - ref: refs/heads/for-next
+    old: 0a974e6ae43b3a6aac63dfdfdf171be205fa370c
+    new: 70281592bf3fb7a2a193dced4d4e58a9ee96aa6c
     log: |
-         39d19a4a14dac4507a568c4a39c3b812d7b8a53a efi: libstub: Remove zboot signing from build options
+         a4f7fcd7023ba63bdfe82a054c4ceb636a55d155 fbdev: sisfb: fix repeated word in comment
+         70281592bf3fb7a2a193dced4d4e58a9ee96aa6c fbdev: xilinxfb: Make xilinxfb_release() return void
          
