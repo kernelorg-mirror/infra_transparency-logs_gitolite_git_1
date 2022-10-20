@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/atorgue/stm32
-Date: Thu, 20 Oct 2022 16:25:31 -0000
-Message-Id: <166628313196.3977.14090181740049354047@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
+Date: Thu, 20 Oct 2022 16:31:13 -0000
+Message-Id: <166628347321.7746.7877402394550465765@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/atorgue/stm32
-user: atorgue
+repo: pub/scm/linux/kernel/git/cel/linux
+user: cel
 changes:
-  - ref: refs/heads/stm32-next
-    old: 6e50c1390f9c72f6f74fdf14cd906062b91329a6
-    new: 92d66b190488698b15fa18e9af4294671f5c554a
+  - ref: refs/heads/for-next
+    old: ca822c980053907a7af48bfae6a396526edc6ebf
+    new: 77c42cc7f56fb1d65cca05b2ac364b4e0331d8e5
     log: |
-         53e4aee98c58dabcd63e4494ee78bcdfe4291db4 dt-bindings: arm: stm32: Add compatible string for DH electronics DHCOR Testbench board
-         92d66b190488698b15fa18e9af4294671f5c554a ARM: dts: stm32: Add DHCOR based Testbench board
+         ff9fdd9a619759305eb948e74b0c31af08e15724 nfsd: ignore requests to disable unsupported versions
+         8c631bee8eff2384797d12c0ea1417e2e1be7498 nfsd: move nfserrno() to vfs.c
+         77c42cc7f56fb1d65cca05b2ac364b4e0331d8e5 nfsd: allow disabling NFSv2 at compile time
          
