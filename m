@@ -1,57 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============3746859527808004670=="
+Content-Type: multipart/mixed; boundary="===============7931705817022805037=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Thu, 20 Oct 2022 11:55:02 -0000
-Message-Id: <166626690247.3943.4320334952427392457@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Thu, 20 Oct 2022 11:58:05 -0000
+Message-Id: <166626708511.7547.5670079883131127899@gitolite.kernel.org>
 
---===============3746859527808004670==
+--===============7931705817022805037==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/driver-core
+repo: pub/scm/linux/kernel/git/stable/stable-queue
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-testing
-    old: 5033ac5c580cb22245a0c2b9e53d508e8fdd50d8
-    new: 92b57842f43014e6ca81ddf6d5d59e9ddf762e12
+  - ref: refs/heads/master
+    old: 6c218e870ed9e8af4334e6a538c104ed39d06314
+    new: 3ee66298351c5a7a7eef7a9b9fd230b2873b13db
     log: |
-         aa1d058d48f292aa138e33ad12b7b4d18b5407cd kernfs: dont take i_lock on inode attr read
-         92b57842f43014e6ca81ddf6d5d59e9ddf762e12 kernfs: dont take i_lock on revalidate
+         3ee66298351c5a7a7eef7a9b9fd230b2873b13db drop hid-topre-add-driver-fixing-report-descriptor.patch from everywhere except 6.0
          
 
---===============3746859527808004670==
+--===============7931705817022805037==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1666266899 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1666266899-10a570b815f1837a2ecad735530e602abb5eb622
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1666267084 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1666267082-2b1dbc1779ed48384d7cdfad6e25c988816e539a
 
-5033ac5c580cb22245a0c2b9e53d508e8fdd50d8 92b57842f43014e6ca81ddf6d5d59e9ddf762e12 refs/heads/driver-core-testing
+6c218e870ed9e8af4334e6a538c104ed39d06314 3ee66298351c5a7a7eef7a9b9fd230b2873b13db refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmNRNxMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+MU4P/i/NBxc/YVi/0gp70CRh
-WeToxJW9929sZUwjQmgQ5CXxs3HEJVfSS2YkzmVVNFh/T10hp/MAQd4RH0GLmbz9
-k5BJlwKGuyhJWUlN3ULMuQVliIWD6O529KuCCBEuM+jq/aGUYb8FXO4AxQTkULKJ
-oRHUrP/1o3qpJ3eoPiDo9MGzAvbIqs7omHXIlnm4IkhsUvXE049XTi9H8X5DbzyQ
-zQobBZ1oBqmz+kZ8jtMiIWb7jRjRgmYHqscdXQ8C7QFZb4yYNTFbXEB4WScxFQft
-/deJyFE5qvJSKsAtK8IIvOHt5l4+brRsXfCim+3kXUHt8agQQOOz7ek/4GgbYN9J
-6bRPSQXxoYjMF6gi5VSD+Mn7KKJ6C3Y8kVcq4dcJDxoeJXU6ATW9hZVRxM8lySui
-NCZJR9cvHP4CufZtMCRXMhfyJcd35brA0JxRPLVV4PQ9Jfa0ph2cLTQ7QTGQjhQp
-h/GLUBTTiuhtDcF30M3LuSwBS22RqpfzGIee7VxNWTHEiW4fLUkJ+l0C0oCukYxW
-0QbVTHq6k1+RpUtHogD+tv0L3c7UlE+YZvDDASPji6pW0cF5Dt1pTOM+3Wu7FTGD
-yvLffWaIqh7NWEIti3EdFZfCYOnQ8CWD2EQdo5UEC2+AfG1Wf7nKgIzVJyIL1kEU
-4ON8QZqxTRqg5aJmz+qte9x/
-=Niyh
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmNRN8wbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+9dcQANHGovk3qwV4m6PCZKAJ
+qdxjLqA/UZxJeYEEhsSpeBv3MmiiOE0NrpsI6SRmSNBmqrKk2D95zeB7htmwLMfL
+va5qO5Ygrs3cHxIIOf+ObP3snLF/+rrk+u98422z2YEZ662tIYHE+ycZGzKrf7pq
+9ht3eRIKNPz9cRMH43e6i1iOpeK5eEcYGa23MJrPFu5cKKI5Yj5nU4kZCQ8F+Ksd
+IdwEvARTipDNThTNUU8e50C8+GQuveDs7bQxUc5uMpcC0Cu9ACtF6wBEd8dyqLYU
+JHairybeXEZOxreAeawfN3G/AENAvdoxLZH0WAMNSq8DhHqiWZ0F1Yw9p7By1gyS
+tCOCxyg9AeTWlaQtYZRcMc/417CoZTlhkQMGlgfNSjPcDMHifxOc9KfBsdqcZbRx
++aeZYV3Wusg1oZpnqa29MXdgCW/VTEUMyyvsNRbb0hXKdzbUJbJ3jaretOv/UTlb
+3FSIpenEYrJfl1VfE/aZm+vHN7U0qgWkHp81rThxFA9aTZE5/j8fZdhD45rYQ6qZ
+lkmxCCBzlaIdxEn4Vfa3o1ShHiHtmO8Bb4B0VTfAJ3QTWkC7tV+DkFjhj9uRWT+V
+QNGCpFwL5sQ+meS3ynR2V4FXcpSvfnDHW6YeHdyZqQc+J7GEcubnjpwI0Iy9vQqN
+oaxOYqt9apxAQAx/VY1YIbDZ
+=gYhW
 -----END PGP SIGNATURE-----
 
---===============3746859527808004670==--
+--===============7931705817022805037==--
