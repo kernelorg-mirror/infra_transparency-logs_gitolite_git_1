@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/coresight/linux
-Date: Thu, 20 Oct 2022 21:35:56 -0000
-Message-Id: <166630175677.28756.9194493687023398544@gitolite.kernel.org>
+Date: Thu, 20 Oct 2022 21:36:04 -0000
+Message-Id: <166630176460.28849.8081253326649915483@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,5 +12,5 @@ repo: pub/scm/linux/kernel/git/coresight/linux
 user: suzukikp
 changes:
   - ref: refs/heads/fixes
-    old: 262068519b562dcf73297b2a75fb850342ba99e5
-    new: 0000000000000000000000000000000000000000
+    old: 0000000000000000000000000000000000000000
+    new: 665c157e0204176023860b51a46528ba0ba62c33
