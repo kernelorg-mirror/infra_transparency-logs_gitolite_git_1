@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Thu, 20 Oct 2022 08:44:49 -0000
-Message-Id: <166625548908.16749.10325910697414831374@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/efi/efi
+Date: Thu, 20 Oct 2022 09:30:14 -0000
+Message-Id: <166625821447.18372.6522718253240752244@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: pabeni
+repo: pub/scm/linux/kernel/git/efi/efi
+user: ardb
 changes:
-  - ref: refs/heads/master
-    old: ab3f7828c9793a5dfa99a54dc19ae3491c38bfa3
-    new: 36875a063b5e3618b42f7bace850473bb88a7c24
+  - ref: refs/heads/urgent
+    old: 39d19a4a14dac4507a568c4a39c3b812d7b8a53a
+    new: 2937e2a9f338bd47e4b03a4eb269a0b1de52452d
     log: |
-         36875a063b5e3618b42f7bace850473bb88a7c24 net: ipa: Proactively round up to kmalloc bucket size
+         2937e2a9f338bd47e4b03a4eb269a0b1de52452d efi: libstub: Fix incorrect payload size in zboot header
          
