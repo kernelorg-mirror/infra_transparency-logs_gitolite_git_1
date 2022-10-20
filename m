@@ -1,22 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Thu, 20 Oct 2022 22:50:01 -0000
-Message-Id: <166630620179.15208.18013578730026719426@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Thu, 20 Oct 2022 22:56:55 -0000
+Message-Id: <166630661519.21878.10564096804056550499@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/man-pages/man-pages
-user: alx
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/master
-    old: c8c574860c22b2982ecabcb93337d12aa41865ca
-    new: 5847b14b84fe098bc234b5c5a38402f0f831ed43
+  - ref: refs/heads/dev
+    old: 20dd640b4424e55ac32ffe24256e1b13fde4aee0
+    new: 662d24c6a44f6c7a5d1bce983f991f653224a98d
     log: |
-         92016b11b6f8b2f9e507ff88f298fe754b5d413f Makefile: Remove installdirs* and builddirs* targets
-         2ad4c6aea8faa58b45431fe74f0d2f41055cee70 Makefile: Remove unnecessary include
-         7d7ccf8edabb02dfb772d3e0fecd4d174af40d95 RELEASE: tfix
-         5847b14b84fe098bc234b5c5a38402f0f831ed43 dist.mk: Force adding version to tarball man pagesat 'make dist'
+         e7030183aa63a09176b4ffd5afa04e94025d6367 tools/nolibc: Fix missing strlen() definition and infinite loop with gcc-12
+         e900cc5c86e15adea482cfecc306936e1bd4db6f sched: Add helper kstat_cpu_softirqs_sum()
+         801f90677d43f175f271df91a09d36dc7288ccf8 sched: Add helper nr_context_switches_cpu()
+         662d24c6a44f6c7a5d1bce983f991f653224a98d rcu: Add RCU stall diagnosis information
          
