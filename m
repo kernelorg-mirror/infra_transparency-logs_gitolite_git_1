@@ -1,36 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============3934846198758909641=="
+Content-Type: multipart/mixed; boundary="===============6561571036555718874=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Fri, 21 Oct 2022 04:19:48 -0000
-Message-Id: <166632598841.26882.5514851613636314154@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Fri, 21 Oct 2022 04:19:58 -0000
+Message-Id: <166632599827.27040.3039971797251997324@gitolite.kernel.org>
 
---===============3934846198758909641==
+--===============6561571036555718874==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
   - ref: refs/heads/master
     old: acee3e83b493505058d1e48fce167f623dac1a05
     new: 4d48f589d294ddc5e01d3b0dc7cecc55324c05ca
     log: revlist-acee3e83b493-4d48f589d294.txt
-  - ref: refs/heads/pending-fixes
-    old: 2cf0df170b5f1231e49c5124d173c69ced59acbf
-    new: 850279f2b0067b6de4a949ba79f2b7704c834eb7
-    log: revlist-2cf0df170b5f-850279f2b006.txt
-  - ref: refs/tags/next-20220721
-    old: 3797f840616fb6da936c15535abb80184e75d277
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20221021
     old: 0000000000000000000000000000000000000000
     new: f19ae5eadf941bd5f33e944d8d1ab178082846f5
 
---===============3934846198758909641==
+--===============6561571036555718874==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -501,89 +494,4 @@ b0f9dbc317affd078acea36901b618fbc31acab5 cpumask: limit visibility of FORCE_NR_C
 fb230c824b808786a99bc43f02842a4a0cde737b Merge branch 'mm-everything' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 4d48f589d294ddc5e01d3b0dc7cecc55324c05ca Add linux-next specific files for 20221021
 
---===============3934846198758909641==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2cf0df170b5f-850279f2b006.txt
-
-1fcc064b305a1aadeff0d4bff961094d27660acd netfilter: rpfilter/fib: Set ->flowic_uid correctly for user namespaces.
-96df8360dbb435cc69f7c3c8db44bf8b1c24cd7b netfilter: nf_tables: relax NFTA_SET_ELEM_KEY_END set flags requirements
-a1a824f448ba96c610b85288d844adc9f781828e genetlink: fix kdoc warnings
-e6aa4edd2f5b07fdc41de287876dd98c6e44322b MAINTAINERS: Update Kishon's email address in PCI endpoint subsystem
-d753a0501996600e06e7df5f53959670835e91f2 Merge git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
-172c65e673cc3998059c9dfb3faf48e72e6fc236 power: supply: rk817: check correct variable
-883babd43dcf8b44db36d015a08cbf0066a5270d power: supply: rk817: Change rk817_chg_cur_to_reg to int
-c2bf23e4a5af37a4d77901d9ff14c50a269f143d sfc: include vport_id in filter spec hash and equal()
-258ad2fe5ede773625adfda88b173f4123e59f45 wwan_hwsim: fix possible memory leak in wwan_hwsim_dev_new()
-ff2f5ec5d009844ec28f171123f9e58750cef4bf net: hns: fix possible memory leak in hnae_ae_register()
-ebda44da44f6f309d302522b049f43d6f829f7aa net: sched: fix race condition in qdisc_graft()
-cd2e9d845dbb554fd9ab30719cf025137c5a6c3b mailmap: update Dan Carpenter's email address
-ae6fdfed6167884e52135153ced0d7ba8148c75d mailmap: update email for Qais Yousef
-5300862210ba1b1ab16967e1fe54cfa4ad03b327 mm/mempolicy: fix mbind_range() arguments to vma_merge()
-c560e134dc8eab407cce80ea536d5f2c0fa9f467 zsmalloc: zs_destroy_pool: add size_class NULL check
-872873907ef7f3ae84da67e16bded6295e449de8 gcov: support GCC 12.1 and newer compilers
-695682c2b182def094157ce91fdc92b6f2978af7 ocfs2: fix BUG when iput after ocfs2_mknod fails
-df4747909a5b7b8cdeafc5971bf6a3b5220feb5d ocfs2: clear dinode links count in case of error
-42dd6d103defdbd7596828ad6c3370001095dfc2 init: Kconfig: fix spelling mistake "satify" -> "satisfy"
-c34fe45a9e1c348028cf8542dc6580a1b8e27974 mm/mmap: undo ->mmap() when mas_preallocate() fails
-7bdf8577077c7cdf14ac860d53583b73cc2ff3d7 mm/mmap.c: __vma_adjust(): suppress uninitialized var warning
-34baf1e2aaef2d686d40ee3d1c2f8a54e0b91391 mm/mmap: fix MAP_FIXED address return on VMA merge
-286271f0258c6b08fdfc2fd58e920c74efb6a82a mm,hugetlb: take hugetlb_lock before decrementing h->resv_huge_pages
-2730910e15465949c6aef32f72c3dbcd53b87b1f mm: /proc/pid/smaps_rollup: fix maple tree search
-c79eb1a7a559ede502056f9eb7e35d0614361d8b mm/page_alloc: reduce potential fragmentation in make_alloc_exact()
-f3403a77178c58d6be7082d18d217eee68e419f0 hugetlb: fix memory leak associated with vma_lock structure
-1b9434412a67872095b08b6f1cc763384853569a mm/huge_memory: do not clobber swp_entry_t during THP split
-82815769481b6b04cc03e76c0cd98159c646dd5b nouveau: fix migrate_to_ram() for faulting page
-7f378c03aa4952507521174fb0da7b24a9ad0be6 net: phy: dp83822: disable MDI crossover status change interrupt
-ccd30a476f8e864732de220bd50e6f372f5ebcab fscrypt: fix keyring memory leak on mount failure
-62348c94856d558472bb05ec38d63ecd768279ce efi: ssdt: Don't free memory if ACPI table was loaded successfully
-e0a23f8c051844e36b106f89c5f20c6c8289a663 efi: libstub: Give efi_main() asmlinkage qualification
-5e35793302d44575253d9a45d96162636e2a9d81 efi: efivars: Fix variable writes without query_variable_store()
-39d19a4a14dac4507a568c4a39c3b812d7b8a53a efi: libstub: Remove zboot signing from build options
-1aca5ce036e3499336d1a2ace3070f908381c055 Merge drm/drm-fixes into drm-misc-fixes
-7089003304c67658caead22f841840fc4a26b198 drm: tests: Fix a buffer overflow in format_helper_test
-a91e5e3e2216354e27ee6adf9cb2d5d9548cad8c drm/connector: Set DDC pointer in drmm_connector_init
-2937e2a9f338bd47e4b03a4eb269a0b1de52452d efi: libstub: Fix incorrect payload size in zboot header
-7228d9d79248bd0c8af56a7667a88a875c674e0c drm/panfrost: Remove type name from internal structs
-72655fb942c1e3d9e71e48e87ee439abe52f3a90 drm/panfrost: replace endian-specific types with native ones
-7d1aa08aff0621a595c1b42efb493c475eefeeb3 gpio: tegra: Convert to immutable irq chip
-4881bda5ea05c8c240fc8afeaa928e2bc43f61fa ALSA: ac97: fix possible memory leak in snd_ac97_dev_register()
-83f923d99cdf079f66fc5fac7d1634a03f229036 efi: runtime: Don't assume virtual mappings are missing if VA == PA == 0
-39f965299bcc5b679e335f49aab3f468070f57c0 Merge branch 'mm-hotfixes-unstable' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
-09a10c7fcdb6503d17e4fff4252ba08cb6dd4c18 Merge branch 'for-curr' of git://git.kernel.org/pub/scm/linux/kernel/git/vgupta/arc.git
-d84e0cebca95857d15f3ff90388856342dba74e8 Merge branch 'fixes' of https://git.linaro.org/people/jens.wiklander/linux-tee.git
-cf7410e231aba542a6a58b3aed071f1b95f69c0e Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux.git
-6281c990a8f5be451c090e13907ea3fc698c4303 Merge branch 'master' of git://git.kernel.org/pub/scm/linux/kernel/git/davem/sparc.git
-e6376fa652a531a9b1d192f10e398e4a8af65825 Merge branch 'for-stable' of git://git.kernel.org/pub/scm/fs/fscrypt/fscrypt.git
-464db2eb0e09b235ede5bcb707011b0d61f4a1a0 Merge branch 'master' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net.git
-9aec77550eb42fed9904c8c8aafe548286360958 Merge branch 'master' of git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf.git
-bd8c6880aae8e9038421a28e458b0f21d9365d9f Merge branch 'master' of git://git.kernel.org/pub/scm/linux/kernel/git/klassert/ipsec.git
-3a5ccdd83ea5ff9df1e1c5ea6f6c0a508839ad58 Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound.git
-575caec2e9fd04e68864d1da3af0c4f25d960998 Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-0cc931aee77c9ba102398cc5b6b72240fd644662 Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regmap.git
-4e33f0d0a998190031417229af9f856b299eae0e Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
-87e7471831bfc45643bbef21ede670b04e347e33 Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-9418dc524bde98d759a05d3c8d0a696a6a290f52 Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/helgaas/pci.git
-2b346d9078110515cb6f3313b137172cf3fd89b9 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/phy/linux-phy.git
-6c431d5c0de6c265d97d0fa17719247584e1ec1d Merge branch 'fixes-togreg' of git://git.kernel.org/pub/scm/linux/kernel/git/jic23/iio.git
-73f3b3f1cd347162018370967a3c504ae34e46b0 Merge branch 'counter-current' of git://git.kernel.org/pub/scm/linux/kernel/git/wbg/counter.git
-e2d8d03d62ae4cc00559c744b065ee63f0f88847 Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input.git
-4f5623f416b1dc418a7ece92b0e48017c8438626 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest.git
-3bfb629fed53dc3f612659f8dd0aae803d99af22 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vkoul/dmaengine.git
-d7e6bd00000f8e8ed8d20d03f511ffcc60f1a03a Merge branch 'mtd/fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/mtd/linux.git
-eab202d137f8bba0d8c39833734521e122d9193a Merge branch 'hwmon' of git://git.kernel.org/pub/scm/linux/kernel/git/groeck/linux-staging.git
-63e28f3988b972b4ac6857113e8909d5ae3128b4 Merge branch 'next-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux.git
-4343ce0dc6ff9c9b8b16cb0a1dae09ea5717f9e4 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/mkp/scsi.git
-75d676623b2473f80e5207dcd924f80e3433fe94 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/mmc.git
-a50de7eb399c4064d997a37edd9ccef492454650 Merge branch 'rtc-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/abelloni/linux.git
-81bce4e51a15a0f85b86165e049f67b5a0fb5331 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux.git
-cc6a9746fdab160683ed2e32a67147c2ef26eefe Merge branch 'gpio/for-current' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux.git
-1f42bdd366ac33c4f751160918a42c59c70902cb Merge branch 'kunit-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest.git
-ec7703d3f78e6a23138e6fff898a9f3e207f2dd1 Merge branch 'for-rc' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
-22dc5cad9d1df6fe7e5046e45f4948f5c2453656 Merge branch 'urgent' of git://git.kernel.org/pub/scm/linux/kernel/git/efi/efi.git
-0ac8cfec242869632fdc8072b8b10a28b9609c95 Merge branch 'zstd-linus' of https://github.com/terrelln/linux.git
-099e01eea1cfca9201594069c7c85c4dd4480885 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/sre/linux-power-supply.git
-850279f2b0067b6de4a949ba79f2b7704c834eb7 Merge branch 'for-linux-next-fixes' of git://anongit.freedesktop.org/drm/drm-misc
-
---===============3934846198758909641==--
+--===============6561571036555718874==--
