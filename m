@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Fri, 21 Oct 2022 21:38:07 -0000
-Message-Id: <166638828722.31709.17394641800802124008@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Fri, 21 Oct 2022 21:39:13 -0000
+Message-Id: <166638835394.32200.8929043790723833476@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: andrii
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
-  - ref: refs/heads/for-next
-    old: d9740535b857650bd6211a67ac0c0d574cba1dce
-    new: 7e5eb725cf0a0a8f85e6b96e062bbd0d5d90c94e
+  - ref: refs/heads/master
+    old: 49df3d4e280c7829fefc4ba38b429c9f50182922
+    new: 197472749f5f37e9d3f989d8be7e0984c948d21b
     log: |
-         7e5eb725cf0a0a8f85e6b96e062bbd0d5d90c94e bpftool: Set binary name to "bpftool" in help and version output
+         197472749f5f37e9d3f989d8be7e0984c948d21b foo
          
