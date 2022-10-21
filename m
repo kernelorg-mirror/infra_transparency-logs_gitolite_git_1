@@ -1,25 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Fri, 21 Oct 2022 12:18:02 -0000
-Message-Id: <166635468218.20623.8418355742756675409@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Fri, 21 Oct 2022 12:23:58 -0000
+Message-Id: <166635503876.24272.5962287825190051637@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/netdev/net
+user: davem
 changes:
-  - ref: refs/heads/fileiUfglF
-    old: 0000000000000000000000000000000000000000
-    new: aea672d054a21782ed8450c75febb6ba3c208ca4
-  - ref: refs/heads/fileov2Uag
-    old: 0000000000000000000000000000000000000000
-    new: e9441675edc1bb8dbfadacf68aafacca60d65a25
-  - ref: refs/heads/v2_20221020_peter_ujfalusi_asoc_sof_intel_ipc4_support_for_external_firmware_libraries
-    old: 0000000000000000000000000000000000000000
-    new: 73c091a2fe96fac2b893ba166fa7cd11eff45947
-  - ref: refs/heads/v4_20221020_andriy_shevchenko_spi_pxa2xx_pass_the_ssp_type_via_device_property
-    old: 0000000000000000000000000000000000000000
-    new: 6c3c438c085b2cd79b3291b67f8f7ece62371947
+  - ref: refs/heads/master
+    old: e840d8f4a1b323973052a1af5ad4edafcde8ae3d
+    new: 4d814b329a4d54cd10eee4bd2ce5a8175646cc16
+    log: |
+         46cdedf2a0fa20a99ca8be40bccde7487e13b77a ethtool: pse-pd: fix null-deref on genl_info in dump
+         4d814b329a4d54cd10eee4bd2ce5a8175646cc16 MAINTAINERS: add keyword match on PTP
+         
