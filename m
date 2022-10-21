@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2513254943279191580=="
+Content-Type: multipart/mixed; boundary="===============4203509646395748349=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mark/linux
-Date: Fri, 21 Oct 2022 14:41:52 -0000
-Message-Id: <166636331223.28844.10295409630395776745@gitolite.kernel.org>
+Date: Fri, 21 Oct 2022 14:42:09 -0000
+Message-Id: <166636332974.29010.4746230848534452976@gitolite.kernel.org>
 
---===============2513254943279191580==
+--===============4203509646395748349==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mark/linux
 user: mark
 changes:
-  - ref: refs/heads/arm64/ftrace/minimal-regs
-    old: 687749c506db743d4d3ba90f7b40d4599eb2f364
-    new: 886ed2bb9b975ec14527668d93a0fd5d4f88545d
-    log: revlist-687749c506db-886ed2bb9b97.txt
+  - ref: refs/heads/arm64/ftrace/per-callsite-ops
+    old: 6f1081e05f384a1a27dfe00afd807546e97cf1c0
+    new: d0ae0c8983e2bf602a151b421652005bc5477727
+    log: revlist-6f1081e05f38-d0ae0c8983e2.txt
 
---===============2513254943279191580==
+--===============4203509646395748349==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-687749c506db-886ed2bb9b97.txt
+Content-Disposition: attachment; filename=revlist-6f1081e05f38-d0ae0c8983e2.txt
 
 b5636d45aae42aa345b4c7918bdef245ed63da68 x86/cpu: Remove segment load from switch_to_new_gdt()
 1f19e2d50baf6515991844eaa8a84a0b0037da70 x86/cpu: Get rid of redundant switch_to_new_gdt() invocations
@@ -91,5 +91,13 @@ dbf53a29b28b277fa952a000245b558536c6bdd7 x86/paravirt: Fix a !PARAVIRT build war
 43f196e7b54aa2b1d2d8813f471975005d36f746 ftrace: rename ftrace_instruction_pointer_set() -> ftrace_regs_set_instruction_pointer()
 d98c0a4c0abfb37d72c140d13aa4f54e84c96f4f ftrace: abstract DYNAMIC_FTRACE_WITH_ARGS accesses
 886ed2bb9b975ec14527668d93a0fd5d4f88545d arm64: ftrace: move from REGS to ARGS
+ca7f736e799f9a547cf1642c719e9842460ab586 WIP: Compiler attributes: disable __cold with function alignment
+32b0c1b513594d2f34dfee309b3a8d982d10704c WIP: Compiler attributes: add __function_aligned
+2eb92c0e5e1c1506f9cc4142627baab61d446deb WIP: arm64: add support for CONFIG_FUNCTION_ALIGNMENT
+f8d56bfa72757413ffa0bd3512dab9c999f35508 WIP: ACPI: don't build ACPICA with '-Os'
+4aabb129065de4af4a0409570128893ca3413889 WIP: ftrace: add DYNAMIC_FTRACE_WITH_CALL_OPS
+731fef25189ee036fcb8b1035667b448207c3549 arm64: insn: add helpers for BTI
+272a580fd5b7acc31747505d71530cee7cc2837d WIP: arm64: ftrace: use pre-function NOPs
+d0ae0c8983e2bf602a151b421652005bc5477727 WIP: arm64: implement HAVE_DYNAMIC_FTRACE_WITH_CALL_OPS
 
---===============2513254943279191580==--
+--===============4203509646395748349==--
