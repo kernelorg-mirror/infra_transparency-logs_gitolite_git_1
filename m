@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3701966697298915484=="
+Content-Type: multipart/mixed; boundary="===============1990393443237296571=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Fri, 21 Oct 2022 12:59:29 -0000
-Message-Id: <166635716909.18630.8022602290914494649@gitolite.kernel.org>
+Date: Fri, 21 Oct 2022 12:59:41 -0000
+Message-Id: <166635718163.18774.16006114978504748346@gitolite.kernel.org>
 
---===============3701966697298915484==
+--===============1990393443237296571==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,27 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/perf/core
-    old: 82aad7ff7ac25c8cf09d491ae23b9823f1901486
-    new: b1d05a91f11f26e05ae2a42d879e72cf8857cdfc
-    log: revlist-82aad7ff7ac2-b1d05a91f11f.txt
+  - ref: refs/heads/sched/core
+    old: fdf756f7127185eeffe00e918e66dfee797f3625
+    new: 0083fbe7953602c341454889af01ada601ffac3b
+    log: revlist-fdf756f71271-0083fbe79536.txt
 
---===============3701966697298915484==
+--===============1990393443237296571==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-82aad7ff7ac2-b1d05a91f11f.txt
+Content-Disposition: attachment; filename=revlist-fdf756f71271-0083fbe79536.txt
 
-da4ab869e37cf81f93333ba74b16e0ea6d322e15 libceph: drop last_piece flag from ceph_msg_data_cursor
-f791357330b0043ec953ce122ab7519af4b9d24a ceph: wake up the waiters if any new caps comes
-6eb06c46214d33c71ae86d60b3fc9cb17c20beca ceph: fail the request if the peer MDS doesn't support getvxattr op
-7c3ea9870e09e193981695dd67c37a1a2b6d600b ceph: no need to wait for transition RDCACHE|RD -> RD
-aa1d627207cace003163dee24d1c06fa4e910c6b ceph: Use kcalloc for allocating multiple elements
-b4b924c7a16e857b0715603456045251a49f2ea6 ceph: increment i_version when doing a setattr with caps
-bd04b9192e1ff6859d6b3906e91cfd5c9b0ad55b ceph: fail the open_by_handle_at() if the dentry is being unlinked
-aa87052dd965a6094355fcc13d5abc3f5bebfbe4 ceph: fix incorrectly showing the .snap size for stat
-71cf0c1c4f9f8e42c84ca53a5ca7091e4eea7f6a ceph: remove Sage's git tree from documentation
-a76d550f761d4f1b0a0e2faa27af122e51904b86 clk: qcom: gcc-sm6375: Remove unused variables
 3eba620e7bd772a0c7dc91966cb107872b54a910 Merge tag 'x86_cleanups_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 39bc9b589ea3d2750a6fec6409cd7fc687bc99fe clk: qcom: gcc-sm6375: Ensure unsigned long type
 49f4c2d101bbf93c62e3fa58e666f71352c54121 Merge branches 'clk-ofnode', 'clk-bindings', 'clk-cleanup', 'clk-zynq' and 'clk-xilinx' into clk-next
@@ -1045,10 +1035,20 @@ b08cd74448fafaa302ce2bc11beab5e5a55d0065 Merge tag '6.1-rc-smb3-client-fixes-par
 8636df94ec917019c4cb744ba0a1f94cf9057790 Merge tag 'perf-tools-for-v6.1-2-2022-10-16' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 f1947d7c8a61db1cb0ef909a6512ede0b1f2115b Merge tag 'random-6.1-rc1-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/crng/random
 9abf2313adc1ca1b6180c508c25f22f9395cc780 Linux 6.1-rc1
-ca6c21327c6af02b7eec31ce4b9a740a18c6c13f perf: Fix missing SIGTRAPs
-23488ec66867f7e673b694623a951fb583e464a7 selftests/perf_events: Add a SIGTRAP stress test with disables
-21da7472a040420f2dc624ffec70291a72c5d6a6 bpf: Fix sample_flags for bpf_perf_event_output
-29b8f1d8bfba645992c6434d03c2ce05aaaded05 perf: Rewrite core context handling
-b1d05a91f11f26e05ae2a42d879e72cf8857cdfc perf: Optimize perf_tp_event()
+fa9241e138e2ffacc5ba220c69954055299dedc2 sched/uclamp: Fix relationship between uclamp and migration margin
+8eac070602b318c6dbe2c1bcfc455fc0d36aa6e9 sched/uclamp: Make task_fits_capacity() use util_fits_cpu()
+12b0bf1867d70f83f7b1aa231f06a5c3e35cb574 sched/uclamp: Fix fits_capacity() check in feec()
+e87535de9ad34ec9b4cf645c451e81de9fff940b sched/uclamp: Make select_idle_capacity() use util_fits_cpu()
+79fc6df3b3c729d780ba6d95e7f16d430b6b8cf8 sched/uclamp: Make asym_fits_capacity() use util_fits_cpu()
+f46e953edc1b94e506cfcb1a60d7a705ed332be4 sched/uclamp: Make cpu_overutilized() use util_fits_cpu()
+e142d2ba8bf9c42c3d0eefb40457e1f5d5fc72c1 sched/uclamp: Cater for uclamp in find_energy_efficient_cpu()'s early exit condition
+d95c7e4f0b3f1b16baec996d1e7f6ff8104003c4 sched/fair: Detect capacity inversion
+da4b3d65a771a41d0b8dc97094e10fcac22e9443 sched/fair: Consider capacity inversion in util_fits_cpu()
+c2859bcd3f2b512ab08c39cc625b30e4cf1f9cf4 sched/fair: Check if prev_cpu has highest spare cap in feec()
+9722bb2bbcb7ff70c9f7fdbe71a39b5f1f6aa428 sched: Add __releases annotations to affine_move_task()
+7ecbcde6e527c3828adee88b1e7edeb01e7895fb sched: Introduce affinity_context
+c2a8c7b835ad6c72a1ff29d211f3aed454b29183 sched: Always preserve the user requested cpumask
+02a73f8239de47caa07c8a5f93cb3700ee30f3dc sched: Enforce user requested affinity
+0083fbe7953602c341454889af01ada601ffac3b sched: Always clear user_cpus_ptr in do_set_cpus_allowed()
 
---===============3701966697298915484==--
+--===============1990393443237296571==--
