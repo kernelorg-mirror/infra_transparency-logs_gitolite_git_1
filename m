@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gfs2/linux-gfs2
-Date: Fri, 21 Oct 2022 14:59:16 -0000
-Message-Id: <166636435688.7596.5541180424342902170@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/efi/efi
+Date: Fri, 21 Oct 2022 15:00:39 -0000
+Message-Id: <166636443937.9723.12455249696177482857@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gfs2/linux-gfs2
-user: agruen
+repo: pub/scm/linux/kernel/git/efi/efi
+user: ardb
 changes:
-  - ref: refs/heads/create-evict
-    old: e464e005dbfebc03d3f9fb5b1b3d16406f6066b1
-    new: 5f339ff217912da9cefdcccee3e25f9fdd7578bf
-    log: |
-         5f339ff217912da9cefdcccee3e25f9fdd7578bf gfs2: gfs2_create_inode error injection
-         
+  - ref: refs/tags/efi-fixes-for-v6.1-1
+    old: 0000000000000000000000000000000000000000
+    new: a337df42ce321e7d76f250326a6f4e84928bbcc2
