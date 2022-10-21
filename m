@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xen/tip
-Date: Fri, 21 Oct 2022 09:08:03 -0000
-Message-Id: <166634328322.4823.8472116176566817579@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec
+Date: Fri, 21 Oct 2022 09:09:16 -0000
+Message-Id: <166634335672.5621.4652621462779896115@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xen/tip
-user: jgross
+repo: pub/scm/linux/kernel/git/klassert/ipsec
+user: klassert
 changes:
-  - ref: refs/tags/for-linus-6.1-rc2-tag
-    old: 0000000000000000000000000000000000000000
-    new: b1fed945a46faa9fb933f8dde839c785d890272d
+  - ref: refs/heads/master
+    old: d83f7040e18489265b4b121f33f99b02e52dabda
+    new: 4b549ccce941798703f159b227aa28c716aa78fa
+    log: |
+         4b549ccce941798703f159b227aa28c716aa78fa xfrm: replay: Fix ESN wrap around for GSO
+         
