@@ -1,67 +1,60 @@
-Content-Type: multipart/mixed; boundary="===============0323395316841874538=="
+Content-Type: multipart/mixed; boundary="===============0269924264803931038=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/git/git
-Date: Fri, 21 Oct 2022 22:43:41 -0000
-Message-Id: <166639222176.13033.310976668476986282@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Fri, 21 Oct 2022 22:49:53 -0000
+Message-Id: <166639259321.16795.4732719446254216176@gitolite.kernel.org>
 
---===============0323395316841874538==
+--===============0269924264803931038==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/git/git
-user: junio
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/seen
-    old: c36fb7e6b9d325115e4d295a9e0035824e95e4a3
-    new: 4d073206ae92f36db504217a463be19d5fa0194e
-    log: revlist-c36fb7e6b9d3-4d073206ae92.txt
+  - ref: refs/heads/master
+    old: 1d61754caa8c69f566504e63c8b3f3a2df0954c8
+    new: ed5377958cfd43a2291f25f5e88845b90b9aee3f
+    log: revlist-1d61754caa8c-ed5377958cfd.txt
 
---===============0323395316841874538==
+--===============0269924264803931038==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c36fb7e6b9d3-4d073206ae92.txt
+Content-Disposition: attachment; filename=revlist-1d61754caa8c-ed5377958cfd.txt
 
-ce8529b2bbabcb5240bdcc73bccaafa1116c5d7a diff: leave NEEDWORK notes in show_stats() function
-2638e24def12079642ff5a18e61385cf8719a735 Merge branch 'tb/diffstat-with-utf8-strwidth' into jch
-0f4d75349093a842797dc473f018a13c7004fa55 Merge branch 'ag/merge-strategies-in-c' into jch
-dbb7c229ee1e82caa35c3a736786286fb07f9d3f Merge branch 'en/sparse-checkout-design' into jch
-273e05bbf5cfb2856b80f7a3a8f2782ae5b6c105 Merge branch 'ds/bundle-uri-3' into jch
-1205bf56f56615f37f64253a68c88e1dcfa60eea Merge branch 'sd/doc-smtp-encryption' into jch
-739025797168c28c24a7b3d3c83ad1a028619b07 Merge branch 'jr/embargoed-releases-doc' into jch
-0a0af7f9273573dfba03696ce01304decddf8bfa Merge branch 'ab/coccicheck-incremental' into jch
-6ed146fdbfa2c1eef5a674f4ba67e10380e7d721 Merge branch 'pw/rebase-keep-base-fixes' into jch
-627d11e08be8ac0517588ef2c0b09b40cf16c1d9 Merge branch 'pw/rebase-reflog-fixes' into jch
-20984716428009b1bdf6f969c524ce61e9bff99e Merge branch 'jz/patch-id' into jch
-ee58f2ca3220aac350801cec26dcaf0d04bf0739 repack: convert "names" util bitfield to array
-4eeeba01af19f03c8a12064e411d3cba3ef43bc2 repack: populate extension bits incrementally
-9f8645cf16ffaf1e3b0e0105bc9d6ec8df109c37 repack: use tempfiles for signal cleanup
-832a36c9d26a3ffc3b6a5d103ab365f0b6fa2930 repack: drop remove_temporary_files()
-05aec119991aa24d233e7b467c5859877248c976 shortlog: accept `--date`-related options
-ff8ac014f54baf2911000d2eb5addb09a4cbf0a4 shortlog: make trailer insertion a noop when appropriate
-bfaef6ab93f7ff95ec7c63d826cdc28edc2f7a8d shortlog: extract `--group` fragment for translation
-d7296506f2018ae43ba258973e8024505c3e71f4 shortlog: support arbitrary commit format `--group`s
-959a000ee26483a67b9476cf05ea651dfa276812 shortlog: extract `shortlog_finish_setup()`
-c4c53b8051593e48d53c51786deda137eab1618c shortlog: implement `--group=author` in terms of `--group=<format>`
-eb21f055e246bd8ecb1c441959cd26f703b6958d shortlog: implement `--group=committer` in terms of `--group=<format>`
-776c660e5ca12c472886303d7edbcada50a493d0 Merge branch 'tb/shortlog-group' into jch
-21ca3163803f4e12b57888bf552b7874e5d81d2b Merge branch 'jk/repack-tempfile-cleanup' into jch
-3abd811c17b5e37aa294a0e3673f2dd1b25990cf Merge branch 'pw/test-todo' into seen
-2fa9637e4ca9080d4de18c62a2f95c04f48869d8 Merge branch 'js/bisect-in-c' into seen
-b29da73b07bb070449286d40cee4eb768f5faa15 Merge branch 'jh/trace2-timers-and-counters' into seen
-722f605d504e2e97c88326cd81a5bf93495c1867 Merge branch 'gc/submodule-clone-update-with-branches' into seen
-cccd24fd4c7576a3769008db63a3d4331f04b70c ### stalled
-a63b811681f24903c4265b8175e83b6ebba3ed6a Merge branch 'po/glossary-around-traversal' into seen
-a1d1d57c435bd43f490377eda3af4f2bf8989725 Merge branch 'es/mark-gc-cruft-as-experimental' into seen
-8cbf6613bc8ebf0a4651da554f0cf20cf074109d Merge branch 'mj/credential-helper-auth-headers' into seen
-efde8e0da852f39121f694e800a2fcceef12eb30 Merge branch 'es/doc-creation-factor-fix' into seen
-f46dc2ca1b6ca8851cc778e35aca63552fba4192 Merge branch 'pw/config-int-parse-fixes' into seen
-31c8de27ebfee6033055a0d67e80f2359513f30d Merge branch 'sa/cat-file-mailmap' into seen
-9d5825a96e16cb55e99cb2c3f2eb32c6b032228f Merge branch 'sg/stable-docdep' into seen
-4d073206ae92f36db504217a463be19d5fa0194e Merge branch 'pb/subtree-split-and-merge-after-squashing-tag-fix' into seen
+38eddb2c75fb99b9cd78445094ca0e1bda08d102 io_uring: remove FFS_SCM
+4d5059512d283dab7372d282c2fbd43c7f5a2456 io_uring: kill hot path fixed file bitmap debug checks
+34f0bc427e94065e7f828e70690f8fe1e01b3a9d io_uring: reuse io_alloc_req()
+02bac94bd8efd75f615ac7515dd2def75b43e5b9 io_uring: don't iopoll from io_ring_ctx_wait_and_kill()
+76dd298094f484c6250ebd076fa53287477b2328 blk-mq: fix null pointer dereference in blk_mq_clear_rq_mapping()
+5c61795ea97c170347c5c4af0c159bd877b8af71 io_uring/rw: remove leftover debug statement
+2331ce6126be8864b39490e705286b66e2344aac scsi: core: Restrict legal sdev_state transitions via sysfs
+dc8e483f684a24cc06e1d5fa958b54db58855093 scsi: lpfc: Fix memory leak in lpfc_create_port()
+e0539ae012ba5d618eb19665ff990b87b960c643 Documentation: document ublk user recovery feature
+4739824e2d7878dcea88397a6758e31e3c5c124e nvme: fix error pointer dereference in error handling
+ac9b57d4e1e3ecf0122e915bbba1bd4c90ec3031 nvme-pci: disable write zeroes on various Kingston SSD
+d622f8477a8018974f8df961440dca58224f9c6b nvme-apple: don't limit DMA segement size
+6ff5ba97960821fb872ad981eb30374f5cee1fd9 nvme: add Guenther as nvme-hwmon maintainer
+6b8cf94005187952f794c0c4ed3920a1e8accfa3 nvme-hwmon: consistently ignore errors from nvme_hwmon_init
+c94b7f9bab22ac504f9153767676e659988575ad nvme-hwmon: kmalloc the NVME SMART log buffer
+ddd2b8de9f85b388925e7dc46b3890fc1a0d8d24 nvmet: fix workqueue MEM_RECLAIM flushing dependency
+94f5a06884074dcd99606d7b329e133ee65ea6ad nvmet: fix invalid memory reference in nvmet_subsys_attr_qid_max_show
+16bbdfe5fb0e78e0acb13e45fc127e9a296913f2 io_uring/msg_ring: Fix NULL pointer dereference in io_msg_send_fd()
+72495b5ab456ec9f05d587238d1e2fa8e9ea63ec ublk_drv: use flexible-array member instead of zero-length array
+70ee4a4c97d7332519b2072ead0ef9f65ea43662 Merge tag 'nvme-6.1-2022-10-22' of git://git.infradead.org/nvme into block-6.1
+6d42ddf7f27b6723549ee6d4c8b1b418b59bf6b5 drbd: only clone bio if we have a backing device
+33566f92cd5f1c1d462920978f6dc102c744270d block, bfq: remove unused variable for bfq_queue
+996d3efeb091c503afd3ee6b5e20eabf446fd955 io-wq: Fix memory leak in worker creation
+d4347d50407daea6237872281ece64c4bdf1ec99 bio: safeguard REQ_ALLOC_CACHE bio put
+60a9bb9048f9e95029df10a9bc346f6b066c593c blktrace: introduce 'blk_trace_{start,stop}' helper
+dcd1a59c62dc49da75539213611156d6db50ab5d blktrace: fix possible memleak in '__blk_trace_remove'
+2db96217e7e515071726ca4ec791742c4202a1b2 blktrace: remove unnessary stop block trace in 'blk_trace_shutdown'
+294e73ffb0efac4c8bac2d9e6a896225098bd419 Merge tag 'io_uring-6.1-2022-10-20' of git://git.kernel.dk/linux
+d4b7332eef46ed403061e27b03c71ad26b2f5353 Merge tag 'block-6.1-2022-10-20' of git://git.kernel.dk/linux
+ed5377958cfd43a2291f25f5e88845b90b9aee3f Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 
---===============0323395316841874538==--
+--===============0269924264803931038==--
