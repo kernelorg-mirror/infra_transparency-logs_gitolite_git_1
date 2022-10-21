@@ -1,70 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============1131642275001606129=="
+Content-Type: multipart/mixed; boundary="===============5399894664753811368=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Fri, 21 Oct 2022 19:04:39 -0000
-Message-Id: <166637907912.19233.15811761401215648672@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Fri, 21 Oct 2022 19:04:49 -0000
+Message-Id: <166637908964.19400.8049438349558963559@gitolite.kernel.org>
 
---===============1131642275001606129==
+--===============5399894664753811368==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.2
-    old: d41a7d878790594d7992e7a983037f5907c8754c
-    new: b700672e22500a41d8e43e54dda879811e418b6e
-    log: revlist-d41a7d878790-b700672e2250.txt
+  - ref: refs/heads/for-next
+    old: 9f647d4b69077d9b515abf577607af1e798c44a4
+    new: f39cd819877ac8e2081183c3710029a3d782097b
+    log: revlist-9f647d4b6907-f39cd819877a.txt
 
---===============1131642275001606129==
+--===============5399894664753811368==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-9f647d4b6907-f39cd819877a.txt
 
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1666379077 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1666379076-9f72ecadf15349af368529aa0fb361a5b204b867
-
-d41a7d878790594d7992e7a983037f5907c8754c b700672e22500a41d8e43e54dda879811e418b6e refs/heads/asoc-6.2
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmNS7UUACgkQJNaLcl1U
-h9BceQf/fPDi3xiSJPZuQx4olJ0BtjXKHgCNXXcgeIZRkkgfxyTCV3L9DXcnDP2N
-D5DHMyoVFv+u8ILZ7igKozkbyg0VCWLMK4K6lPG+6IQN69Q+44EEyZGJsi24Us6d
-ilNq63HuNavWD1DR18XA+xXoyDXlpf2tr1sxKd4WOV+CH8/apoUiykyiEaLGzUzj
-Uc6QOvE2srNfOwqgFLg5X6wo8m0rW8V9gEr/QW+byPtgeo7giSu7hKYucDgbH6wL
-WFcGz+hEJ9+c3aSrmoPxHlBEoqh+Bhin3fwg43F2GJM/8xa9hWj9QVBZ5+rnh8Z9
-34qaNg8ASEgEO8mYlgv8+mHvx8NR3A==
-=LMrH
------END PGP SIGNATURE-----
-
---===============1131642275001606129==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d41a7d878790-b700672e2250.txt
-
-4e8ff35878685291978b93543d6b9e9290be770a ASoC: codecs: tlv320adc3xxx: Wrap adc3xxx_i2c_remove() in __exit_p()
-9a7f2c9e7a19b16b4409f372cf2e16e4334cdca2 ASoC: qcom: SND_SOC_SC7180 optionally depends on SOUNDWIRE
-41deb2db64997d01110faaf763bd911d490dfde7 ASoC: Intel: sof_sdw: add quirk variant for LAPBC710 NUC15
-73189c064e11137c8b78a825800a374924ebb7b7 ASoC: SOF: Intel: pci-mtl: fix firmware name
-b4dd2e3758709aa8a2abd1ac34c56bd09b980039 ASoC: Intel: sof_rt5682: Add quirk for Rex board
-af6514f2f3828dc39c96cd4686ef5c9d8368626f ASoC: SOF: ipc4-mtrace: protect per-core nodes against multiple open
-00aaf8bfe0ee2b807b452df806d725e080d85404 ASoC: rt1308-sdw: update the preset settings
-75d8b1662ca5c20cf8365575222abaef18ff1f50 ASoC: rt1308-sdw: add the default value of some registers
-32def55d237e8507d4eb8442628fc2e59a899ea0 ASoC: simple-card: Fix up checks for HW param fixups
-df496157a5afa1b6d1f4c46ad6549c2c346d1e59 ASoC: codecs: jz4725b: Fix spelling mistake "Sourc" -> "Source", "Routee" -> "Route"
-008f05a72d32dcc14038801649ec67af765fcc3c ASoC: jz4752b: Capture fixes
-a450b5c8739248069e11f72129fca61a56125577 ASoC: amd: yc: Adding Lenovo ThinkBook 14 Gen 4+ ARA and Lenovo ThinkBook 16 Gen 4+ ARA to the Quirks List
-1dd5166102e7ca91e8c5d833110333835e147ddb ASoC: qcom: lpass-cpu: Mark HDMI TX parity register as volatile
-05de5cf6fb7d73d2bf0a0c882433f31db5c93f63 ASoC: SOF: Intel: pci-tgl: fix ADL-N descriptor
 9b9db0d69bc16072a1d549ed4f343fd55ddfc48c ASoC: SOF: loader: Set complete state before post_fw_run op
 4f373ccf226e37a20fdc15a3df8034517a6045fd ASoC: SOF: Introduce container struct for SOF firmware
 b9bed09aa97f90a40695eb472b1baba81242e3ed ASoC: SOF: amd: Use the basefw firmware container directly
@@ -85,5 +46,6 @@ e68513106eec04eba9da30d761ba0d22a4cf9e93 ASoC: SOF: ipc4: Stop using the query_f
 ba42b8bac3fd10b90eefbe42d8d0839d71bf7638 ASoC: SOF: loader: Remove the query_fw_configuration ops
 73c091a2fe96fac2b893ba166fa7cd11eff45947 ASoC: SOF: ipc4-loader: Support for loading external libraries
 b700672e22500a41d8e43e54dda879811e418b6e ASoC: SOF: Intel/IPC4: Support for external firmware libraries
+f39cd819877ac8e2081183c3710029a3d782097b Merge remote-tracking branch 'asoc/for-6.2' into asoc-next
 
---===============1131642275001606129==--
+--===============5399894664753811368==--
