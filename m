@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============4127598113853134227=="
+Content-Type: multipart/mixed; boundary="===============4791500509247081575=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Fri, 21 Oct 2022 14:43:02 -0000
-Message-Id: <166636338279.29507.14427557628918473472@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Fri, 21 Oct 2022 14:43:10 -0000
+Message-Id: <166636339041.29621.14724137007657203378@gitolite.kernel.org>
 
---===============4127598113853134227==
+--===============4791500509247081575==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.1
+  - ref: refs/heads/asoc-6.1
     old: 05de5cf6fb7d73d2bf0a0c882433f31db5c93f63
     new: e9441675edc1bb8dbfadacf68aafacca60d65a25
     log: |
@@ -24,37 +24,37 @@ changes:
          a75481fa00cc06a8763e1795b93140407948c03a ASoC: amd: yc: Add Lenovo Thinkbook 14+ 2022 21D0 to quirks table
          e9441675edc1bb8dbfadacf68aafacca60d65a25 ASoC: SOF: Intel: hda-codec: fix possible memory leak in hda_codec_device_init()
          
-  - ref: refs/heads/for-6.2
+  - ref: refs/heads/asoc-6.2
     old: 625d2753723bd4395082e569f3528f8e30d335ae
     new: d41a7d878790594d7992e7a983037f5907c8754c
     log: revlist-625d2753723b-d41a7d878790.txt
 
---===============4127598113853134227==
+--===============4791500509247081575==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1666363380 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1666363378-1195c41c81b02fd6903e06d9eed1641bf1694834
+pusher C3F436CA30F5D8EB 1666363388 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1666363387-29889462cf13b98eab79db7904bd0efbc0b30a1f
 
-05de5cf6fb7d73d2bf0a0c882433f31db5c93f63 e9441675edc1bb8dbfadacf68aafacca60d65a25 refs/heads/for-6.1
-625d2753723bd4395082e569f3528f8e30d335ae d41a7d878790594d7992e7a983037f5907c8754c refs/heads/for-6.2
+05de5cf6fb7d73d2bf0a0c882433f31db5c93f63 e9441675edc1bb8dbfadacf68aafacca60d65a25 refs/heads/asoc-6.1
+625d2753723bd4395082e569f3528f8e30d335ae d41a7d878790594d7992e7a983037f5907c8754c refs/heads/asoc-6.2
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmNSr/QACgkQJNaLcl1U
-h9BvoQf/bb+WyiDu7GiwK7qQ+XBpugEHwiUoRcpvPdv/UaGxVKy5OJgvcHCTWiCR
-WqtwEJfgjR1CcFITj4J9lHxLb+a7W4jtkKxw1Ifx6rsSY/W6jqxPDFHK/0QCoq0E
-+OLQ4CK2cMSaRabUt20TKQiwp0VC5uKKWb523Jhu3mhQlemed+H+711ZJJczbibY
-w/uvLsphhwoIir9PyUhycT35N0RJMbo3PYQPTIdC00bz74teNG7nxezuBlrREuTv
-XtbRn7ia+tmk6jx6wIefCkZ3w1Jwr+Lwr7hVc9Z98vzAij62+A8t6U5FVjlsb6Bt
-Wr8l0Q1yFLU8WEDtYCB1+v14bkoPNg==
-=dtCK
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmNSr/wACgkQJNaLcl1U
+h9CeXwf/f0EdhDxOwR/BjiCy2uCUjrfEwUqUqUXB9gIA9R7otlVjC4TKtU9VmNFk
+EbKUPdrTwg/vpNP4pikS3f7k4/5zOg3856Bq1hckiH37clFBrs2UjQNUYJYwbkJe
+mzQVGB10WHkVMXM2hJFdO3cKn1HRiuNpRsxwEUf+wC6z4E9CbOZhD6MN2aK7bZn4
+lEtSbLmQ0f1Yb8itf1CmQFyJP11VYHyRGxGMrUOjcFU7qsEKXYHgUCpgOm/7qAu+
+DoutlyDVC4CuYOyeYCJRssDh3323pHJbNl8AcvOJENMuaIBoJlhQQLQ9Hz8PmvVx
+a3yj9uDDmEfcFoY0JCARdEgQKTwjZQ==
+=j2qU
 -----END PGP SIGNATURE-----
 
---===============4127598113853134227==
+--===============4791500509247081575==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -72,4 +72,4 @@ f90025100fb50552a8281becd8f26aab065d4c31 ALSA: hda: hdac_ext_controller: remove 
 6258234129b013c534fa10abaf08751b2401b22b ALSA/ASoC: hda: move SPIB/DRMS functionality from ext layer
 d41a7d878790594d7992e7a983037f5907c8754c ASoC: Merge HDA/ext cleanup
 
---===============4127598113853134227==--
+--===============4791500509247081575==--
