@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1131205058865456417=="
+Content-Type: multipart/mixed; boundary="===============4169761050946060362=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Fri, 21 Oct 2022 20:11:31 -0000
-Message-Id: <166638309155.2310.3462752787207825480@gitolite.kernel.org>
+Date: Fri, 21 Oct 2022 20:11:49 -0000
+Message-Id: <166638310972.2517.11413118856244454994@gitolite.kernel.org>
 
---===============1131205058865456417==
+--===============4169761050946060362==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jejb/scsi
 user: jejb
 changes:
-  - ref: refs/heads/fixes
+  - ref: refs/heads/for-next
     old: dc8e483f684a24cc06e1d5fa958b54db58855093
     new: 47eee861fa91b308800968d988975f4b9de54458
     log: revlist-dc8e483f684a-47eee861fa91.txt
 
---===============1131205058865456417==
+--===============4169761050946060362==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -44,4 +44,4 @@ f915f58e382e907e2be0b2f5472617dc13f2c390 scsi: target: iblock: Fold iblock_emula
 67d0a917fb3f9e80c3fb6098ada2080d1b425c94 scsi: ufs: core: Remove unneeded casts from void *
 47eee861fa91b308800968d988975f4b9de54458 Merge branch '6.1/scsi-queue' into 6.1/scsi-fixes
 
---===============1131205058865456417==--
+--===============4169761050946060362==--
