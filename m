@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/efi/efi
-Date: Fri, 21 Oct 2022 08:03:06 -0000
-Message-Id: <166633938658.23652.17399139613218838116@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/deller/parisc-linux
+Date: Fri, 21 Oct 2022 08:05:39 -0000
+Message-Id: <166633953921.26082.15100887911578587977@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/efi/efi
-user: ardb
+repo: pub/scm/linux/kernel/git/deller/parisc-linux
+user: deller
 changes:
-  - ref: refs/heads/urgent
-    old: 83f923d99cdf079f66fc5fac7d1634a03f229036
-    new: 4de1c8273740d1c83b4eaeede9305aaa4324aa5d
+  - ref: refs/heads/for-next
+    old: 50f19697dd768d8b072cf7f12c0c99c7d31b67d8
+    new: 0907acbec94765dae7b8f114e0698ad4b0e521bc
     log: |
-         4de1c8273740d1c83b4eaeede9305aaa4324aa5d efi: runtime: Don't assume virtual mappings are missing if VA == PA == 0
+         0907acbec94765dae7b8f114e0698ad4b0e521bc parisc: Show MPE model string at bootup
          
