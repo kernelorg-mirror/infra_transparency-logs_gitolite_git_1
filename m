@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Fri, 21 Oct 2022 12:23:58 -0000
-Message-Id: <166635503876.24272.5962287825190051637@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Fri, 21 Oct 2022 12:26:06 -0000
+Message-Id: <166635516685.27902.17707847348192639498@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: davem
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
   - ref: refs/heads/master
-    old: e840d8f4a1b323973052a1af5ad4edafcde8ae3d
-    new: 4d814b329a4d54cd10eee4bd2ce5a8175646cc16
+    old: 5a2f1a82fa0816aac76f82cbbf246f80051e859a
+    new: 15ce5b753b6111838b12f80009b77b9ff29f11ba
     log: |
-         46cdedf2a0fa20a99ca8be40bccde7487e13b77a ethtool: pse-pd: fix null-deref on genl_info in dump
-         4d814b329a4d54cd10eee4bd2ce5a8175646cc16 MAINTAINERS: add keyword match on PTP
+         15ce5b753b6111838b12f80009b77b9ff29f11ba lsfd: fix compiler warning [-Werror,-Wextra-semi]
          
