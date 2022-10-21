@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7508597245330040849=="
+Content-Type: multipart/mixed; boundary="===============1041784944423709765=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Fri, 21 Oct 2022 12:58:30 -0000
-Message-Id: <166635711054.17976.9995658626436906076@gitolite.kernel.org>
+Date: Fri, 21 Oct 2022 12:58:42 -0000
+Message-Id: <166635712296.18116.17857569568897321333@gitolite.kernel.org>
 
---===============7508597245330040849==
+--===============1041784944423709765==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/objtool/urgent
-    old: 7b6c7a877cc616bc7dc9cd39646fe454acbed48b
-    new: 230db82413c091bc16acee72650f48d419cebe49
-    log: revlist-7b6c7a877cc6-230db82413c0.txt
+  - ref: refs/heads/locking/core
+    old: 76e64c73db9542ff4bae8a60f4f32e38f3799b95
+    new: ff14c64b1503754ec0579026ceddf00ef5165b01
+    log: revlist-76e64c73db95-ff14c64b1503.txt
 
---===============7508597245330040849==
+--===============1041784944423709765==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-7b6c7a877cc6-230db82413c0.txt
+Content-Disposition: attachment; filename=revlist-76e64c73db95-ff14c64b1503.txt
 
 901735e51e4dea1eee816b0b57d1d6abbd94b3d5 Merge tag 'x86_misc_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 9bf445b65dd7d4c7d0e4efaecf38525abbbe74e3 Merge tag 'x86_paravirt_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
@@ -1049,6 +1049,6 @@ b08cd74448fafaa302ce2bc11beab5e5a55d0065 Merge tag '6.1-rc-smb3-client-fixes-par
 8636df94ec917019c4cb744ba0a1f94cf9057790 Merge tag 'perf-tools-for-v6.1-2-2022-10-16' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 f1947d7c8a61db1cb0ef909a6512ede0b1f2115b Merge tag 'random-6.1-rc1-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/crng/random
 9abf2313adc1ca1b6180c508c25f22f9395cc780 Linux 6.1-rc1
-230db82413c091bc16acee72650f48d419cebe49 x86/unwind/orc: Fix unreliable stack dump with gcov
+ff14c64b1503754ec0579026ceddf00ef5165b01 jump_label: use atomic_try_cmpxchg in static_key_slow_inc_cpuslocked
 
---===============7508597245330040849==--
+--===============1041784944423709765==--
