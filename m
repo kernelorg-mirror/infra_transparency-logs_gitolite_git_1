@@ -1,43 +1,60 @@
-Content-Type: multipart/mixed; boundary="===============8729003797101125349=="
+Content-Type: multipart/mixed; boundary="===============5967068591015824626=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Fri, 21 Oct 2022 05:06:53 -0000
-Message-Id: <166632881324.29219.13687694154853996104@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Fri, 21 Oct 2022 05:21:14 -0000
+Message-Id: <166632967423.6821.17193709378968085654@gitolite.kernel.org>
 
---===============8729003797101125349==
+--===============5967068591015824626==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: 6d36c728bc2e2d632f4b0dea00df5532e20dfdab
-    new: e840d8f4a1b323973052a1af5ad4edafcde8ae3d
-    log: revlist-6d36c728bc2e-e840d8f4a1b3.txt
+  - ref: refs/heads/driver-core-next
+    old: 9abf2313adc1ca1b6180c508c25f22f9395cc780
+    new: 92b57842f43014e6ca81ddf6d5d59e9ddf762e12
+    log: |
+         7ebe49b76a001b10b007193b1771f33e6cbc4f3f driver core: allow kobj_to_dev() to take a const pointer
+         593efa4091f5f05c224f8b7fd204d18dbff97e31 USB: allow some usb functions to take a const pointer.
+         5033ac5c580cb22245a0c2b9e53d508e8fdd50d8 USB: make devnode() callback in usb_class_driver take a const *
+         aa1d058d48f292aa138e33ad12b7b4d18b5407cd kernfs: dont take i_lock on inode attr read
+         92b57842f43014e6ca81ddf6d5d59e9ddf762e12 kernfs: dont take i_lock on revalidate
+         
 
---===============8729003797101125349==
+--===============5967068591015824626==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6d36c728bc2e-e840d8f4a1b3.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-82cb4e4612c633a9ce320e1773114875604a3cce tipc: fix a null-ptr-deref in tipc_topsrv_accept
-94423589689124e8cd145b38a1034be7f25835b2 net: netsec: fix error handling in netsec_register_mdio()
-f8c1c66b99a570c08b9d26e4347276f00e49bba7 net: lan966x: Fix the rx drop counter
-ae108c48b5d2b34bcef3c4fb5076f42c922c426a selftests: net: Fix cross-tree inclusion of scripts
-b2c0921b926ca69cc399eb356162f35340598112 selftests: net: Fix netdev name mismatch in cleanup
-4a7a83044fd975c43dad5ac1b9e951dec211c3a1 Merge branch 'selftests-net-fix-problems-in-some-drivers-net-tests'
-c0605cd6750f2db9890c43a91ea4d77be8fb4908 net: hinic: fix incorrect assignment issue in hinic_set_interrupt_cfg()
-4c1f602df8956bc0decdafd7e4fc7eef50c550b1 net: hinic: fix memory leak when reading function table
-363cc87767f6ddcfb9158ad2e2afa2f8d5c4b94e net: hinic: fix the issue of CMDQ memory leaks
-8ec2f4c6b2e11a4249bba77460f0cfe6d95a82f8 net: hinic: fix the issue of double release MBOX callback of VF
-d1cb84948c4f6ec14b24ef26c7b458fc30715f70 Merge branch 'fix-some-issues-in-huawei-hinic-driver'
-15a9dbec631cd69dfbbfc4e2cbf90c9dd8432a8f net: macb: Specify PHY PM management done by MAC
-e840d8f4a1b323973052a1af5ad4edafcde8ae3d nfc: virtual_ncidev: Fix memory leak in virtual_nci_send()
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1666329725 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1666329673-cb0add41aa633864f6ffe7799406eb3485e09a80
 
---===============8729003797101125349==--
+9abf2313adc1ca1b6180c508c25f22f9395cc780 92b57842f43014e6ca81ddf6d5d59e9ddf762e12 refs/heads/driver-core-next
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmNSLH0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+vJsQAKDFGWBq7HneCuNi/c6N
+WeNAvSvrlrE8s1sDKxxB6xsmBwxDJmHYsJJXmjJJd2uSRuXiHulJDG+OTnCkPpjp
+MvlmNtPr1bCN9h44JqLsqZyenIBWC5UxMeA2+mmOZKDfKqjSx8iMPElIxZhP/acK
+8lpYb1yU1ab8e9XUl0ag/zz1OR+P2VQIAzmG0QXrKcLycBuuvpM1gEHqw5Eu6LuE
+JAcpXd82/k8SVb+isOheeBjUXMNcRMdZJT8AiVWUdpDyx9dqHhu7qmDSi06sP/pD
+exNXC9wENJl5NrFf/xyUQcwJtjt93vrIOZhrz5AyAqmO49Xi4qsS9vuLqOUsUoqX
+2A+anUx/2ter5ch6FEMeD47+GgKBBnw+SD71caLXXChAB66008x9fvM9/tvXmvGV
+5afI2kzwNPBt2dwRnivsw19dUQ3I2a63zSi+dgrmGGjWTu2Bb+eAMtdTdWLauyKo
+5aL6QgVJvvjzDOFdOc629yZ7IdZ2OvCz/BXZlUnF583uKcYqH4IuYsG3uosEG5Ku
+AF6aGWoarJKpHIsS46AcOQQxJfxYUtcj2G7XYqgq1ATR2/ZAxLRxJXP2gTjLlQcv
+Sb6TkPsJeUZWjzzvWuUu2vfW0OVAMJ47riUf5CdG9BgxgVWGBEGWlT5SMcvBh2iB
+M+UIDTocwRsXJN0qCZSWscSD
+=jNCx
+-----END PGP SIGNATURE-----
+
+--===============5967068591015824626==--
