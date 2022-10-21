@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 21 Oct 2022 23:34:21 -0000
-Message-Id: <166639526166.16770.2402643840232583552@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Fri, 21 Oct 2022 23:37:12 -0000
+Message-Id: <166639543229.19337.18271296845946902509@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/next-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
-  - ref: refs/heads/dev-queue
-    old: e142d9de50c6e27e89a11f71ae2d0799df766c58
-    new: d9e5facc62ac6f7465142b764be5f25ec6ae9350
+  - ref: refs/heads/master
+    old: 7dea93f399e3c8cad7c0290a1ad1d983eae1770e
+    new: 5fb64b649cdb3e3b3aa080e88e1e80dc15660ab8
     log: |
-         2dd6e0b76b187924757bbe6bdf024bf264032fef igb: Do not free q_vector unless new one was allocated
-         e25798334db80ad8a3a9121c9fe5d7942524c337 igb: Proactively round up to kmalloc bucket size
-         d9e5facc62ac6f7465142b764be5f25ec6ae9350 ixgbe: change MAX_RXD/MAX_TXD based on adapter type
+         5fb64b649cdb3e3b3aa080e88e1e80dc15660ab8 Fri Oct 21 11:36:08 PM UTC 2022
          
