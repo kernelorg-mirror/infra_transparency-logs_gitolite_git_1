@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7462305992993669619=="
+Content-Type: multipart/mixed; boundary="===============3974980050451268673=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Fri, 21 Oct 2022 01:15:02 -0000
-Message-Id: <166631490256.26477.13507565983308780983@gitolite.kernel.org>
+Date: Fri, 21 Oct 2022 01:15:21 -0000
+Message-Id: <166631492148.27663.11732806614425011892@gitolite.kernel.org>
 
---===============7462305992993669619==
+--===============3974980050451268673==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-fixes
-    old: da842dfa13593760743bc341ae81c32b3e8903e0
-    new: 5a3868b7ce60f71796496e2fc1f661c383d58a49
-    log: revlist-da842dfa1359-5a3868b7ce60.txt
+  - ref: refs/heads/6.1/scsi-fixes
+    old: dc8e483f684a24cc06e1d5fa958b54db58855093
+    new: 47eee861fa91b308800968d988975f4b9de54458
+    log: revlist-dc8e483f684a-47eee861fa91.txt
 
---===============7462305992993669619==
+--===============3974980050451268673==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1666314890 -0400
+pusher 75C5DE3D 1666314911 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1666314889-df329292e75be667056682a33c7ba7173b9ba20d
+nonce 1666314907-2db02f03564332281d629e9bfd908797d260d306
 
-da842dfa13593760743bc341ae81c32b3e8903e0 5a3868b7ce60f71796496e2fc1f661c383d58a49 refs/tags/mkp-scsi-fixes
+dc8e483f684a24cc06e1d5fa958b54db58855093 47eee861fa91b308800968d988975f4b9de54458 refs/heads/6.1/scsi-fixes
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmNR8ooACgkQ7ulgGnXF
-3j3gYQ//WmanCziD0bQnSi9oEqHc0UzCPff8CRU6D/wwmAc2kc9BnUGVZ09o5l/i
-9N2Rn847nFETPT5ZzPnVlcYRW++xBE3BfgjysJwXNDv4D7nmbmNB4pWKLTKbePLX
-VeVZI5Iay9VSodhZg0TtsK1DGw1/RgKTlf6Xut+UwlBJTz02xpK3SZlGBZxeCQFg
-6kdfYFrjydY83PrlFQ0YkrebE2xLRVS3LSp6d9wT9IM7EDiGIjg1l3iMvT0BzZDJ
-ZsYE1Z4+Nw3JgkcjHJI+QorujelOBQ/Z6HkN/807SrgieNZr34MS1GNATcGsrKyE
-oFLXNrkhFNNzP4OZt+Uck08RSXPhqfehQpc8+JdvzBC4JfQpm62a6gVkl4JfNF75
-ht/tU+tnMUKOdpKm+NQlfjZHWFpKzlZXhPiDY6/NjZysmXFUhlNWyAhTcxy8zAj/
-YmsvS/swxQzq77Hf6UehYwA1L8HbkP8RgTR8vpV4wE4vHojolhs5Iwfpwj6Obktr
-GWYdh9tW0259o9GhwHLGDZJCgfzuTXcs2aST+0KI2TPO6ReuCwCCn63UjKXCESUG
-C/0k5bD2yF3uDUKy9fEnpIR37fAyHED2/Py6XD6dLBbZp+hXqJI520DsuBl1OWl6
-9ZXYBeEQ4aZJfXrccyK6Qt8vUoGGUFtzjvTeOPq1D9RNxRiXD+s=
-=6fOh
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmNR8p8ACgkQ7ulgGnXF
+3j3xjg/+I2Wy8e1bIjGqM6if5TVAhl7mpGTgHBBmAXShqHt+jf9JEQehMgyH+C2n
+PGz2pR/t7EVrsKvVaLrbJsLSSVKSeM5veXel17hPBLUpLoe7puyPU/kJiRlTgPGH
+IOqfG/0bxfOwCvNCCEN3uiW/f06eyXXmFsir6XnVx+YfE6NJQ7+/8LI8TeVwsBR/
+O2B0LBHqXmnMhzxnG5IKqV97KILPGQlZ3Zs3Cbm2KzBA630JlIOifK5uucxzSSV6
+2E8jK6mU28ag92YtpWMTb6sCadRU808dtbdlyDxBDUf3WGXygn5ujdFaAK2mLkaC
+Lf5C193/ZhSx1FwPH8kUktq/+n93//4WXGkHjIOTU1iWKZ/aC+sDfggTqA42v3vy
+cWQ6hzwoZgW0C1+5lgvIMaadCnwU5ea/TQH4+20Ytg4nLfOBBGpYpp8FCenQnzNx
+aWDx/tibiM7oMZky+X5v5axu0+20BFGb6GmOLq2tgE40hhnEtlAL+tGGaj44/0WF
+5fbaBCMzrYn66G3M74ZXYZ/NotzIGUBMnIj/a5U6mDbH1B7Twb8MjCIcxCzbgBsj
+aWkoZuefdwqHPBfyyPhWOzRcbF6tW0CviX9FgC04ZPyKdz+uTw7BE6pszr6enr3Z
+jUpK/VnftMUZwC5GF+VQiGDevFhE/V4ba9vi+rty3NMQranWzdY=
+=pThC
 -----END PGP SIGNATURE-----
 
---===============7462305992993669619==
+--===============3974980050451268673==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-da842dfa1359-5a3868b7ce60.txt
+Content-Disposition: attachment; filename=revlist-dc8e483f684a-47eee861fa91.txt
 
 1f1009ea8ca5a0271ad69afe8a86c887d530b5c8 scsi: target: core: Fix preempt and abort for allreg res
 f050a7c66ca56aa2f49ab9b53e01d04b3e7e94c5 scsi: target: core: Fix memory leak in preempt_and_abort
@@ -74,4 +74,4 @@ f915f58e382e907e2be0b2f5472617dc13f2c390 scsi: target: iblock: Fold iblock_emula
 67d0a917fb3f9e80c3fb6098ada2080d1b425c94 scsi: ufs: core: Remove unneeded casts from void *
 47eee861fa91b308800968d988975f4b9de54458 Merge branch '6.1/scsi-queue' into 6.1/scsi-fixes
 
---===============7462305992993669619==--
+--===============3974980050451268673==--
