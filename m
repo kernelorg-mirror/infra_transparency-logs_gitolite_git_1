@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6791505049614271968=="
+Content-Type: multipart/mixed; boundary="===============4369023333293567804=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Fri, 21 Oct 2022 17:56:49 -0000
-Message-Id: <166637500932.6551.13716882696573998135@gitolite.kernel.org>
+Date: Fri, 21 Oct 2022 17:58:34 -0000
+Message-Id: <166637511485.7237.9231984541164873521@gitolite.kernel.org>
 
---===============6791505049614271968==
+--===============4369023333293567804==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-mlx5
-    old: d085a8d938f8b4c55032e70c4e93b51d2a8e68d1
-    new: 5193adde561d780e48298d6097b8bd7a35daa3ed
-    log: revlist-d085a8d938f8-5193adde561d.txt
+  - ref: refs/heads/net-mlx4
+    old: 7f378c03aa4952507521174fb0da7b24a9ad0be6
+    new: 4d814b329a4d54cd10eee4bd2ce5a8175646cc16
+    log: revlist-7f378c03aa49-4d814b329a4d.txt
 
---===============6791505049614271968==
+--===============4369023333293567804==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d085a8d938f8-5193adde561d.txt
+Content-Disposition: attachment; filename=revlist-7f378c03aa49-4d814b329a4d.txt
 
 36a40c37389c7a1bef3f1024c55c056304acf439 nvdimm/namespace: return uuid_null only once in nd_dev_to_uuid()
 53fc59511fc4c567342b2ef3f7b99a086430e0b4 nvdimm/namespace: drop unneeded temporary variable in size_store()
@@ -547,6 +547,5 @@ d1cb84948c4f6ec14b24ef26c7b458fc30715f70 Merge branch 'fix-some-issues-in-huawei
 e840d8f4a1b323973052a1af5ad4edafcde8ae3d nfc: virtual_ncidev: Fix memory leak in virtual_nci_send()
 46cdedf2a0fa20a99ca8be40bccde7487e13b77a ethtool: pse-pd: fix null-deref on genl_info in dump
 4d814b329a4d54cd10eee4bd2ce5a8175646cc16 MAINTAINERS: add keyword match on PTP
-5193adde561d780e48298d6097b8bd7a35daa3ed net/mlx5e: Do not increment ESN when updating IPsec ESN state
 
---===============6791505049614271968==--
+--===============4369023333293567804==--
