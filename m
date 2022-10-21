@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============8023711311740150679=="
+Content-Type: multipart/mixed; boundary="===============4258255561072658550=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Fri, 21 Oct 2022 15:30:53 -0000
-Message-Id: <166636625317.32225.5204099769392525927@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Fri, 21 Oct 2022 15:30:59 -0000
+Message-Id: <166636625927.32358.17087646962661933355@gitolite.kernel.org>
 
---===============8023711311740150679==
+--===============4258255561072658550==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.2
+  - ref: refs/heads/spi-6.2
     old: aea672d054a21782ed8450c75febb6ba3c208ca4
     new: b872e8b1c8db9e657f976ab12b54004f4937cfcf
     log: |
@@ -26,28 +26,28 @@ changes:
          b872e8b1c8db9e657f976ab12b54004f4937cfcf spi: pxa2xx: Minor cleanups
          
 
---===============8023711311740150679==
+--===============4258255561072658550==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1666366251 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1666366250-c8d52c876a3ed91fbc2c9c3c2f17de6edb2bbea5
+pusher C3F436CA30F5D8EB 1666366257 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1666366257-387416da38019617af8048bb07669b8d5ce600fa
 
-aea672d054a21782ed8450c75febb6ba3c208ca4 b872e8b1c8db9e657f976ab12b54004f4937cfcf refs/heads/for-6.2
+aea672d054a21782ed8450c75febb6ba3c208ca4 b872e8b1c8db9e657f976ab12b54004f4937cfcf refs/heads/spi-6.2
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmNSuysACgkQJNaLcl1U
-h9AFpwf9GLO8jLhK84ObRJMqBaXDmruce7w/Atzo3LDmQ6QcLkt+2qjelVDyKc7N
-EmHUmp9r48kZqMOGfCDAsRvC9DCn2Ze7CttSuBNHhvdp3WzYq7BjJkNbePyONZ8g
-nqn7j7FFEIB1M1iZNX4NZKEe4FPCfucQf/HDCDTw8X3txEtOHw2Nw2DDK6RKvPSN
-Wr3KNyB4fEwBlG2RUjDokELsbj2YqTPfQBIxc6NM5lvLH4G0OhppgslizHhLs61T
-XHEm7qpWM8Xawq1lu/CoAhHBzytEG933V3BepJHvjpWaVkyGEQsyiukCp43dlLoo
-SYWqLL/X6Zyxr/khSop9WaOGZsJylA==
-=1Dih
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmNSuzEACgkQJNaLcl1U
+h9D/kwf/TJUvZ9c7JxBRzeXHeZEcGJGxhg1tgEbSTGbvD27eEnXQI5KzxGeW9aFP
+Xf9XbzluTecSjIcx+x+pnsNbtcnYFqrSc0jRl4Whef3HFXA9ZcNFjPe+wK8oBWgc
+XAN2/pIjvMQKjayjFvRKr+wm8g3H+IWFDE1cP9pbNKEjjqk/yQ7PvPxQKlhazoSX
+1MPtQXHvq9kjqKBUS79rXm3U43RJfJoXgkEINv9vDv9XhZXNbLR05DvO3cxflWpI
+wEpe9V22z62ghou2mEBr/fnNhFQqwxXN2BU8WDqi0an95LLKREbhiX3N9vYpIdbC
+LjCNehkdLrBBTpdxInEQxsJVuaGB5g==
+=NoiD
 -----END PGP SIGNATURE-----
 
---===============8023711311740150679==--
+--===============4258255561072658550==--
