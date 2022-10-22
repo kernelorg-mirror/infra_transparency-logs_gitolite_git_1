@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6172796652211636298=="
+Content-Type: multipart/mixed; boundary="===============4354952458567175697=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Sat, 22 Oct 2022 10:30:53 -0000
-Message-Id: <166643465324.5597.16010628962869158387@gitolite.kernel.org>
+Date: Sat, 22 Oct 2022 10:38:54 -0000
+Message-Id: <166643513482.9922.15995170728062626482@gitolite.kernel.org>
 
---===============6172796652211636298==
+--===============4354952458567175697==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,42 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-linus
-    old: 4db0fbb601361767144e712beb96704b966339f5
-    new: b57b08e6f431348363adffa5b6643fe3ec9dc7fe
+    old: b57b08e6f431348363adffa5b6643fe3ec9dc7fe
+    new: 48ed32482c4100069d0c0eebdc6b198c6ae5f71f
     log: |
-         8e8e923a49967b798e7d69f1ce9eff1dd2533547 usb: gadget: uvc: fix dropped frame after missed isoc
-         0a0a2760b04814428800d48281a447a7522470ad usb: gadget: uvc: fix sg handling in error case
-         b57b08e6f431348363adffa5b6643fe3ec9dc7fe usb: gadget: uvc: fix sg handling during video encode
+         48ed32482c4100069d0c0eebdc6b198c6ae5f71f usb: gadget: aspeed: Fix probe regression
          
 
---===============6172796652211636298==
+--===============4354952458567175697==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1666434651 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1666435132 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1666434650-f538a215c63d7553af36f5daa473e8e6efbb4010
+nonce 1666435131-5400328651fc31d2391f9208fd0cae425658030f
 
-4db0fbb601361767144e712beb96704b966339f5 b57b08e6f431348363adffa5b6643fe3ec9dc7fe refs/heads/usb-linus
+b57b08e6f431348363adffa5b6643fe3ec9dc7fe 48ed32482c4100069d0c0eebdc6b198c6ae5f71f refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmNTxlsbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+/WoP/1L0kkInzSSEf6E7C77B
-V4yM/feiKDMcfas+fsK+W+gN1BkIj5pL56eoK+sjPCkt7mQXPxEqFMBUamP0rwzF
-FZmHB2PEXKA8j/ncLCUhI73bRjsskqI2PkAp6+ztHAFidICXlT8+SU/moo648eaX
-wALFWz0hqm7BrMMMVamxoWdhG8J4zLALhr0vpJXCosiFitQ2Dvf/C++Ii23PdzXf
-Aizwo0wcCbYnUjzTHaXgbenVVAOJncUIuoTdNBDHZdGU9atn7iKZVHpRAinUPHNc
-smE9V1Zo81C18V7vAhORHZ6YYJoTIa3KlRdN284azDSwl1hMgB1aWoKCQZ09GJC6
-deTPZAX4t7AyuiFUxkcFd6jkNXZkO0crTJq2SWpcXMZAXqsP8raaO5dF/HN7EHyn
-dPLUBqlKa5YNITPGBF7UKr7hZ55CoRw2Dz6n8oAa1gk2iPoJdw/uz0Bf3A5A+sc2
-vupSvXhEs868gGDclYz+gkGn1Emrn2gzcR3hkAEtLXGh8JclnRjNU5CqWY3Ht2La
-sM+/OS4b8kg6lgOpe3VzXUMmuqW3ubWHMlv/EJ4THTFXU1Pv4V6Z8I06cMECDrwh
-O6jcWrBJxR0MR8A526LK+bR0UtOPrGBpVV/ZeCLl8AocPEewcVCZp5TXdxHloO9T
-n+EJITHVRdv55K5nWSJSuUIw
-=Wgu9
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmNTyDwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+wREQAJwV40GxY3wRPYrm+Akk
+E+EH6JK1NBslKxJQFdUOgFMUMXuKHsRUe0CfeEPoL8DqaC5KlCySh12x5QzcAlez
+f24ebGzB24cs2J4gjKpqne9toy8l2Sfy55LC2MxiFaeesjk0OTH4Ey4Bygbtr1FA
+dBUxal5s1eXFg1JhlZwrMrePffPrz2BMVYUJY/fuEgSAaSBsJBcGd+01Rs3OBdxY
+IUNaiCyuWZvzwjsSJRv7fgV9sAW452TrRD1p8flbbD3EPPadAH73aUcyoFFApOgn
+5/0IBNceWufaaYDfFkADkHyqh/3t30UyoGtC53TxS8BcwlhjY8zStesVtxY1EikM
+BWnJcfxYgurN8wG+w3+EegcrrEp9xFWMF4njXU7hC6bDRd0qGZxJqHBxgG68jg5F
+2g3aHXOp0dF91GVjz4fkEOk/ArGH/XYB2wpunytURZXUPxk2d3oXtaiwbOw3i/zv
+3D+zJPCEHHhlAMgODSHAGY12Vh58veimWD83pSboS6AuSGBk0kM0Nl9AT3AiUCpL
+YjTyrGHcWit5VWtfSS6qDOcFr2/TwJNo3iCnd/nhSvYKR29QpU5U7rn1cqRVW+ee
+HzyYuh0swovnChOvU5nuSh+fh3tLQ55W8Ph/t+Rr/Bta/GUoffS7+9MEdToqCXZ9
+ErEigc3u1xMOhW61VNh3SO4V
+=0JYr
 -----END PGP SIGNATURE-----
 
---===============6172796652211636298==--
+--===============4354952458567175697==--
