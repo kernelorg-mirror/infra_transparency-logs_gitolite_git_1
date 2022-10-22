@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Sat, 22 Oct 2022 14:50:04 -0000
-Message-Id: <166645020408.25518.3743195544277971463@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wbg/counter
+Date: Sat, 22 Oct 2022 15:12:53 -0000
+Message-Id: <166645157314.8717.17899318238383812773@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/wbg/counter
+user: wbg
 changes:
-  - ref: refs/heads/io_uring-6.1
-    old: 996d3efeb091c503afd3ee6b5e20eabf446fd955
-    new: cc767e7c6913f770741d9fad1efa4957c2623744
+  - ref: refs/heads/counter-fixes
+    old: ec0286dce78c3bb0e6a665c0baade2f2db56ce00
+    new: b098eb99aa1bcfa1f27d7ddb8abce3f1f91ffc70
     log: |
-         e993ffe3da4bcddea0536b03be1031bf35cd8d85 net: flag sockets supporting msghdr originated zerocopy
-         edf81438799ccead7122948446d7e44b083e788d io_uring/net: fail zc send when unsupported by socket
-         cc767e7c6913f770741d9fad1efa4957c2623744 io_uring/net: fail zc sendmsg when unsupported by socket
+         69eb00849d6710bc801f2c44037d0c41be5ef2af counter: microchip-tcb-capture: Handle Signal1 read and Synapse
+         b098eb99aa1bcfa1f27d7ddb8abce3f1f91ffc70 counter: 104-quad-8: Fix race getting function mode and direction
          
