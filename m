@@ -1,24 +1,49 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/crng/random
-Date: Sat, 22 Oct 2022 05:07:22 -0000
-Message-Id: <166641524272.24019.18287627025420262902@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============2305026729777930305=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/git/git
+Date: Sat, 22 Oct 2022 05:35:06 -0000
+Message-Id: <166641690688.11921.8074536727797570799@gitolite.kernel.org>
+
+--===============2305026729777930305==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/crng/random
-user: zx2c4
+repo: pub/scm/git/git
+user: junio
 changes:
-  - ref: refs/heads/master
-    old: fb32f7dbcf2d9a23266176b5b94c8751513a5306
-    new: 6ab256478c4e33f3d918b2e4f5c4512e0f7e54a6
-    log: |
-         6b326c76721d2f269c48da579e477954d4c110b1 rhashtable: make test actually random
-         637c7f1393c2648a63f477e59f6eb7752c013e43 treewide: use get_random_u32_below() instead of deprecated function
-         3e2e6799169fe9dc94067daa781302691d21d802 prandom: remove prandom_u32_max()
-         500734369a59d7c47d8f06824feeeffe04cee1fb random: add helpers for random numbers with given floor or range
-         057f242746d8decb017ff2531b9aef1e153d05cc treewide: use get_random_u32_{above,below}() instead of manual loop
-         6ab256478c4e33f3d918b2e4f5c4512e0f7e54a6 treewide: use get_random_u32_between() when possible
-         
+  - ref: refs/heads/seen
+    old: f0c4842f00f39687d5da32e3b53173e4d188d59f
+    new: 0e70bd5f8cef6581209d2907fccf5e6dd019a3f1
+    log: revlist-f0c4842f00f3-0e70bd5f8cef.txt
+
+--===============2305026729777930305==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-f0c4842f00f3-0e70bd5f8cef.txt
+
+d3d9c51973bf3187d8767969a0aa33abe79d6240 repack: convert "names" util bitfield to array
+b639606fd0e20584edd2515236fcc69ada24e430 repack: populate extension bits incrementally
+a4880b20cc9e56518f6aef96c31b256124731ea6 repack: expand error message for missing pack files
+9cf10d8786c47c18ced6cb00e140cc18db8a7509 repack: use tempfiles for signal cleanup
+193430717a4056579201f98873bfdd152b5fdd25 repack: drop remove_temporary_files()
+b73bbd4b8aa9c93b9f6ab5500905fb99b8b63860 Merge branch 'jk/repack-tempfile-cleanup' into jch
+24442c605352732c91c000cf47bb7412c486b5e5 Merge branch 'pw/test-todo' into seen
+6b844b81792df6b1e4ecd3843b017a07e46ab604 Merge branch 'js/bisect-in-c' into seen
+e913196982cefa1005eb5dd3a6734a35cf3cfc8b Merge branch 'jh/trace2-timers-and-counters' into seen
+4475785aa85cf1e7c27f24532d854cba93bd6c2d Merge branch 'gc/submodule-clone-update-with-branches' into seen
+5ce96b2390785c5ec8896d938c9d4651a90d247f ### stalled
+9984b65e0596eaf71ab2001ac7daef75d76acbb4 Merge branch 'po/glossary-around-traversal' into seen
+79faf6b5b452d30d11dc0a2247484fec94562bab Merge branch 'es/mark-gc-cruft-as-experimental' into seen
+2ca5c3a3712dfd93fb79f37a4bbe64464f47a745 Merge branch 'es/doc-creation-factor-fix' into seen
+d0a60a90fbf3bfed9335ac056101b98fd13b3bd9 Merge branch 'pw/config-int-parse-fixes' into seen
+b084e5dfa8889d706c2857cb199d1bed9d8c77f5 Merge branch 'sa/cat-file-mailmap' into seen
+1da900217d615217b44c316a3c4d78e073ddcb3f Merge branch 'sg/stable-docdep' into seen
+de32847a0128fbb86b039234d6c2dc07efd0a6a0 Merge branch 'pb/subtree-split-and-merge-after-squashing-tag-fix' into seen
+0e70bd5f8cef6581209d2907fccf5e6dd019a3f1 Merge branch 'mc/credential-helper-auth-headers' into seen
+
+--===============2305026729777930305==--
