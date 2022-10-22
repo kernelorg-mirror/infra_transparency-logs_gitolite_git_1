@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0386332260405503017=="
+Content-Type: multipart/mixed; boundary="===============2654993918101653476=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sat, 22 Oct 2022 08:41:28 -0000
-Message-Id: <166642808828.11874.1457634040343925463@gitolite.kernel.org>
+Date: Sat, 22 Oct 2022 08:41:54 -0000
+Message-Id: <166642811413.12078.5713008656891843377@gitolite.kernel.org>
 
---===============0386332260405503017==
+--===============2654993918101653476==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,32 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/auto-latest
     old: 7d82d56f6a557f7493d83cf8453b48c64e4bd258
-    new: 8bc8b2534bc402843059cae017fef3eca4337d90
-    log: revlist-7d82d56f6a55-8bc8b2534bc4.txt
+    new: df0819e9f275a1110d7be26ac4d57be52b7f4824
+    log: revlist-7d82d56f6a55-df0819e9f275.txt
+  - ref: refs/heads/master
+    old: 8bc8b2534bc402843059cae017fef3eca4337d90
+    new: df0819e9f275a1110d7be26ac4d57be52b7f4824
+    log: |
+         ee024dcde3c0d7a600a4c4a66771e74a04bf482e Merge branch into tip/master: 'objtool/urgent'
+         acf789ebc376e32a4ff3f5bfd77a6510bf8cdb59 Merge branch into tip/master: 'perf/urgent'
+         ff26109863d9f39f16e8e4430c8b75a3206a15fa Merge branch into tip/master: 'sched/urgent'
+         4673982bc5378c33cf38c6f748612e28fbefe0d7 Merge branch into tip/master: 'x86/urgent'
+         f5ff9f3e909a387d8f6e299219f86f91a40ae627 Merge branch into tip/master: 'timers/core'
+         b5d1a034f45120c1101c7cc712a2cf2fe5f2938b Merge branch into tip/master: 'x86/cleanups'
+         98231c2b61ccdb510f5ab910cae7ade8310ba41a Merge branch into tip/master: 'x86/core'
+         907900301dafa199fe37e5c15c03af50e8a18eea Merge branch into tip/master: 'x86/cpu'
+         f150eecc48a7a4a744144fdcee5665b1089af9f6 Merge branch into tip/master: 'x86/misc'
+         7324e1178aecfda918a610d1a99efdede08a3af8 Merge branch into tip/master: 'x86/mm'
+         df0819e9f275a1110d7be26ac4d57be52b7f4824 Merge branch into tip/master: 'x86/paravirt'
+         
 
---===============0386332260405503017==
+--===============2654993918101653476==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7d82d56f6a55-8bc8b2534bc4.txt
+Content-Disposition: attachment; filename=revlist-7d82d56f6a55-df0819e9f275.txt
 
 bd86c69dae65de30f6d47249418ba7889809e31a NFSD: unregister shrinker when nfsd_init_net() fails
 e25b091bed4946078c0998e4be77bc56824a9adf watchdog: Add tracing events for the most usual watchdog events
@@ -141,6 +157,16 @@ ec4cf5dbb1887adadba2f7cbe8131facbd27a5d5 Merge tag 'efi-fixes-for-v6.1-1' of git
 9d6e681d33943e7e5b26b945e680a71311683795 Merge tag 'acpi-6.1-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 20df09614775475fecc37a786a382755ba3d7d2b Merge tag 'pm-6.1-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 4da34b7d175dc99b8befebd69e96546c960d526c Merge tag 'thermal-6.1-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
-8bc8b2534bc402843059cae017fef3eca4337d90 Merge branch 'linus'
+ee024dcde3c0d7a600a4c4a66771e74a04bf482e Merge branch into tip/master: 'objtool/urgent'
+acf789ebc376e32a4ff3f5bfd77a6510bf8cdb59 Merge branch into tip/master: 'perf/urgent'
+ff26109863d9f39f16e8e4430c8b75a3206a15fa Merge branch into tip/master: 'sched/urgent'
+4673982bc5378c33cf38c6f748612e28fbefe0d7 Merge branch into tip/master: 'x86/urgent'
+f5ff9f3e909a387d8f6e299219f86f91a40ae627 Merge branch into tip/master: 'timers/core'
+b5d1a034f45120c1101c7cc712a2cf2fe5f2938b Merge branch into tip/master: 'x86/cleanups'
+98231c2b61ccdb510f5ab910cae7ade8310ba41a Merge branch into tip/master: 'x86/core'
+907900301dafa199fe37e5c15c03af50e8a18eea Merge branch into tip/master: 'x86/cpu'
+f150eecc48a7a4a744144fdcee5665b1089af9f6 Merge branch into tip/master: 'x86/misc'
+7324e1178aecfda918a610d1a99efdede08a3af8 Merge branch into tip/master: 'x86/mm'
+df0819e9f275a1110d7be26ac4d57be52b7f4824 Merge branch into tip/master: 'x86/paravirt'
 
---===============0386332260405503017==--
+--===============2654993918101653476==--
