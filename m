@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ogabbay/accel
-Date: Sat, 22 Oct 2022 12:11:28 -0000
-Message-Id: <166644068823.12494.6529296221002436977@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
+Date: Sat, 22 Oct 2022 12:19:44 -0000
+Message-Id: <166644118419.16978.2687549856055593821@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ogabbay/accel
-user: ogabbay
+repo: pub/scm/linux/kernel/git/conor/linux
+user: conor
 changes:
-  - ref: refs/heads/accel
-    old: 04ca7c7bfa2c9872c124c35741ba1c56ff0e128b
-    new: ea8a695b9b658efce3335bc1e2c2e8d7f6078f7b
+  - ref: refs/heads/dt-for-next
+    old: 6863aaa88516292b885fdce5dd91925a00c3a3de
+    new: 0d814000ad3589bf4f69c9cb25a3b77bbd55ffec
     log: |
-         00056fd9ff4e62fd135e86324b018497c569020f drm: add support for compute acceleration framework
-         ea8a695b9b658efce3335bc1e2c2e8d7f6078f7b Add accel dummy driver
+         0d814000ad3589bf4f69c9cb25a3b77bbd55ffec riscv: dts: microchip: icicle: Add GPIO controlled LEDs
          
