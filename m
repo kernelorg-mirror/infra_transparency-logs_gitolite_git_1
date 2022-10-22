@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Sat, 22 Oct 2022 00:13:58 -0000
-Message-Id: <166639763857.11830.270774681985784597@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/libtrace/libtracefs
+Date: Sat, 22 Oct 2022 00:48:01 -0000
+Message-Id: <166639968110.3160.15804590560130321284@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/libs/libtrace/libtracefs
+user: rostedt
 changes:
-  - ref: refs/heads/master
-    old: 5fb64b649cdb3e3b3aa080e88e1e80dc15660ab8
-    new: 21c8df5328767c1cf767c8b396ee39c0740458e0
+  - ref: refs/heads/libtracefs
+    old: faa0ba7f81b6dcaf6f9e3d27fae28b73ed5da5a0
+    new: e1f9116f7670b87f76ef602b6bc0f82950527565
     log: |
-         21c8df5328767c1cf767c8b396ee39c0740458e0 Sat Oct 22 12:13:04 AM UTC 2022
+         e1f9116f7670b87f76ef602b6bc0f82950527565 libtracefs: Start the new development on 1.6
          
