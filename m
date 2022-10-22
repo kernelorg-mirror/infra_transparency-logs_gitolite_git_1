@@ -1,22 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ogabbay/accel
-Date: Sat, 22 Oct 2022 21:20:35 -0000
-Message-Id: <166647363528.7447.8196203067308009898@gitolite.kernel.org>
+Subject: post-receive: pub/scm/docs/man-pages/man-pages
+Date: Sat, 22 Oct 2022 21:45:18 -0000
+Message-Id: <166647511822.24916.14750724155280117897@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ogabbay/accel
-user: ogabbay
+repo: pub/scm/docs/man-pages/man-pages
+user: alx
 changes:
-  - ref: refs/heads/accel
-    old: 4023da021cb89951cf15de31f704797d549562fd
-    new: f4a187dadf362d6ca0c4c40fda666c9d0990736e
+  - ref: refs/heads/master
+    old: c93e2eec26128561c9d03ee3f629c14ffeb44673
+    new: f08b9d80722a616a9885293a8d511b2863ac8a94
     log: |
-         25854f0004635d96ca412a5a80005b98ce0e55e3 drivers/accel: add new kconfig and update MAINTAINERS
-         4c5477c18d9441478c27b8d31b6c05de5a7cbd25 drm: define new accel major and register it
-         f699c08373be87e3427af811556367585b5c012f drm: add dedicated minor for accelerator devices
-         f4a187dadf362d6ca0c4c40fda666c9d0990736e accel: add accel dummy driver
+         71f5ed970bf8bf62b4b6645ba9201f7b3062b0d9 man-pages.7: Add missing . before macro
+         f08b9d80722a616a9885293a8d511b2863ac8a94 man-pages.7: Use . consistently in bulleted list
          
