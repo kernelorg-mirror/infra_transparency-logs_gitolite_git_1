@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3423550778791330388=="
+Content-Type: multipart/mixed; boundary="===============6702435119728629992=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Sat, 22 Oct 2022 03:48:44 -0000
-Message-Id: <166641052481.31873.2597368970564889355@gitolite.kernel.org>
+Date: Sat, 22 Oct 2022 03:49:00 -0000
+Message-Id: <166641054010.32038.3121570119932497225@gitolite.kernel.org>
 
---===============3423550778791330388==
+--===============6702435119728629992==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-queue
-    old: eda5821005f88d9da94497fc8b6a2f49ffccecac
-    new: 5f052ab42a6df977e07eb5f1796865e695425b81
-    log: revlist-eda5821005f8-5f052ab42a6d.txt
+  - ref: refs/heads/6.2/scsi-queue
+    old: 9abf2313adc1ca1b6180c508c25f22f9395cc780
+    new: 868a8824838f1f0d781e838fa36dbb2de6bc7fdd
+    log: revlist-9abf2313adc1-868a8824838f.txt
 
---===============3423550778791330388==
+--===============6702435119728629992==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1666410514 -0400
+pusher 75C5DE3D 1666410528 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1666410513-0d7f6a95d2f6f719c717983a7cf6a9b43c63c6e1
+nonce 1666410528-57ab668ef26dddb89c0997550528eb0c1d3a4ff8
 
-eda5821005f88d9da94497fc8b6a2f49ffccecac 5f052ab42a6df977e07eb5f1796865e695425b81 refs/tags/mkp-scsi-queue
+9abf2313adc1ca1b6180c508c25f22f9395cc780 868a8824838f1f0d781e838fa36dbb2de6bc7fdd refs/heads/6.2/scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmNTaBIACgkQ7ulgGnXF
-3j1zFRAAoIAX5wI7MFyD032MRaO7aehSfgwl64LYMb2o9sJVKeYOGvWqgRtM3poe
-LfLOQ9BX35uJoWrsEvHzsHXEq/gSsbOe9pEvm4TMcb1kgaKJMqaVk8JbhjOrmIao
-ciEmL/NCBRJ6b2vG7Yq0HDMyVMw8lsrLTKCLPZB5DzW9D/L3n0NMim5+ycDSQdqi
-lWrAr0xfBcOMnq8qwzHe1sYSr8wEvAKN2lKuSGNcobio3G2FNw7DL4M2udA8w8wC
-Jp2EHTzaeCEQvSZDkrVsDfeJDAYb16hip9ADb+4xGcv4g+txFhSx1Z4nT62HGWZ6
-RWjjlWLywkN7W8XcTSlW8dQzVzsyJ7kFB7ErUaehVh7FtpKWj1brUyIEasy/4LP8
-xjVp2Oyv0v3+TDQ6HPpYRkDJPWHi3TTKe+TlpjljHM/j6JmH6OGHoI0CYqwq+mdi
-lPQNuKKMJzaizXguac8Pm8Xtb8a7hMgQGSOGTN9iJkqCX/iyVaYnOYdGXNPVnkhB
-UBwBfTUwNFCiuwmCGPbFF0CMSl9ZFcExEu764+wXc30KgSVaTOJGO+2QTMUtojzV
-lq7FqyfauUuezGaaygHeysG1CRgKF4a9nRfU3GQOFvKSPAT7xcsVF0zek1+7HxwD
-/8VSFMrv9fNNiaC0gbiv5TcDee2TmIfJuJqCr2hHMVjyq+aZgFg=
-=4oUB
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmNTaCAACgkQ7ulgGnXF
+3j2Lug/9GK1wbrqFEVQji8EpMXSfe0iLHKUS7xcjGY1rDEp3gtMffnuB8d85DRn/
+6K4Je5s1eyduc4bllHp1KzpW4x2tOA3Pwp1d72yIyRTyVFqBj5A1EeIwwiqxLobh
+i+MbG8qj1TjC7tVL70UmIHbqiHrvLn+3HG9h9UGYHZfbP9urkY36tVLoQrkJjjns
+5TU+bJcgjcvBN3PtAEFU64r25irq9hr+0OQcwzM4WfdlRaJZ05SO3O/1tDG2LjFV
+LVrnYuQ4B/fL+GPwTtDZJHhGBVRj9p3aQRYH3NjdAiRjyXoITx49RWjRym6F/Up6
+psTK6uXouXWdwdGqfcL/4BfxTgBdwg796/9GXQPrrdMo4Tq+wP/LH79PSTKCjH6W
+2plSlip/mUVyHEiG3ogpnhliNgPX5olY9XHE2l7Stx+5X/oOmWLdTDZRByMx7bL5
+PJRkAdQSs2wBk38ibmISbUGcx96vYnpebzvE/ToJzEjtu1gY0xtlqUcfCHiqIfql
+7rK7Wzn5Vn4b+GsnrDUgEesSt8yRLm5EuzqvealNpHNPoVahc90zmMiq+GhwufCM
+9BYYL9of1s48O1tdBJbBOubaTTKoR6UfjaMVQYz/7NSC/IFjdbLjSpXD+hinv1gv
+IPLTfD3+dqC3dDxs6DBGecs5NbYS68VQRmET4TBewZj9aoCP66I=
+=XsmD
 -----END PGP SIGNATURE-----
 
---===============3423550778791330388==
+--===============6702435119728629992==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-eda5821005f8-5f052ab42a6d.txt
+Content-Disposition: attachment; filename=revlist-9abf2313adc1-868a8824838f.txt
 
 44112922674b94a7d699dfff6307fc830018df7c scsi: libsas: Add sas_ata_device_link_abort()
 4b329abc91800d23941ac773e69b322a13981ecb scsi: hisi_sas: Move slot variable definition in hisi_sas_abort_task()
@@ -81,4 +81,4 @@ ad74d1dadbe9fc5ff7f80796f7cac0f126a5ea74 scsi: libsas: Use sas_phy_match_dev_add
 bfa22905f3865469479f028770a352126ad0d2e8 scsi: libsas: Use sas_phy_addr_match() instead of open coding it
 868a8824838f1f0d781e838fa36dbb2de6bc7fdd scsi: libsas: Use sas_phy_match_port_addr() instead of open coding it
 
---===============3423550778791330388==--
+--===============6702435119728629992==--
