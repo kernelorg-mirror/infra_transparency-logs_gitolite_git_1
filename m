@@ -1,24 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
-Date: Sat, 22 Oct 2022 21:13:45 -0000
-Message-Id: <166647322583.1985.2795811225884161947@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ogabbay/accel
+Date: Sat, 22 Oct 2022 21:20:35 -0000
+Message-Id: <166647363528.7447.8196203067308009898@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/liburing
-user: axboe
+repo: pub/scm/linux/kernel/git/ogabbay/accel
+user: ogabbay
 changes:
-  - ref: refs/heads/master
-    old: d58ed20359d6f58cf9e3046f51ad821236975edf
-    new: d8416f5732e03cfaf0d5bdfd2b64ccd8db9e83d4
+  - ref: refs/heads/accel
+    old: 4023da021cb89951cf15de31f704797d549562fd
+    new: f4a187dadf362d6ca0c4c40fda666c9d0990736e
     log: |
-         5d021db4f41744261467a09e0e06a695cd190e2d test/recv-multishot.c: check for error specifically when submitting
-         2f61e8491afefdd20d509536487f18febded88b5 src/queue: don't wait twice if looping in _io_uring_get_cqe()
-         ad2c4eb2d301a6117a4b0d219f8a9039dd23a315 Revert "man/io_uring_submit_and_wait_timeout.3: fix return value description"
-         31f93cb4680b24f66f0b072f55ce3bc7c765375a Add io_uring_submit_and_wait_timeout() test
-         f1a44d0ba847a6df2c4fb8e148162e9c8b2fa7dd man: io_uring_submit_and_wait(_timeout) updates
-         d8416f5732e03cfaf0d5bdfd2b64ccd8db9e83d4 Merge branch 'submit-and-wait-ts'
+         25854f0004635d96ca412a5a80005b98ce0e55e3 drivers/accel: add new kconfig and update MAINTAINERS
+         4c5477c18d9441478c27b8d31b6c05de5a7cbd25 drm: define new accel major and register it
+         f699c08373be87e3427af811556367585b5c012f drm: add dedicated minor for accelerator devices
+         f4a187dadf362d6ca0c4c40fda666c9d0990736e accel: add accel dummy driver
          
