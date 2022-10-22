@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9108506829459300465=="
+Content-Type: multipart/mixed; boundary="===============3755048993803055593=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/extcon
-Date: Sat, 22 Oct 2022 10:51:27 -0000
-Message-Id: <166643588766.19179.17574356679706981631@gitolite.kernel.org>
+Date: Sat, 22 Oct 2022 10:51:47 -0000
+Message-Id: <166643590755.19337.13028188777041183236@gitolite.kernel.org>
 
---===============9108506829459300465==
+--===============3755048993803055593==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/chanwoo/extcon
 user: chanwoo
 changes:
-  - ref: refs/heads/extcon-next
-    old: 08099ecd9216219f51cc82637f06797cf81890b6
+  - ref: refs/heads/extcon-fixes
+    old: 568035b01cfb107af8d2e4bd2fb9aea22cf5b868
     new: 9abf2313adc1ca1b6180c508c25f22f9395cc780
-    log: revlist-08099ecd9216-9abf2313adc1.txt
+    log: revlist-568035b01cfb-9abf2313adc1.txt
 
---===============9108506829459300465==
+--===============3755048993803055593==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-08099ecd9216-9abf2313adc1.txt
+Content-Disposition: attachment; filename=revlist-568035b01cfb-9abf2313adc1.txt
 
 bb1f11546eb3cd1e2b8ea45653eb0f530e42b035 Merge tag 'x86_asm_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 901735e51e4dea1eee816b0b57d1d6abbd94b3d5 Merge tag 'x86_misc_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
@@ -1051,4 +1051,4 @@ b08cd74448fafaa302ce2bc11beab5e5a55d0065 Merge tag '6.1-rc-smb3-client-fixes-par
 f1947d7c8a61db1cb0ef909a6512ede0b1f2115b Merge tag 'random-6.1-rc1-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/crng/random
 9abf2313adc1ca1b6180c508c25f22f9395cc780 Linux 6.1-rc1
 
---===============9108506829459300465==--
+--===============3755048993803055593==--
