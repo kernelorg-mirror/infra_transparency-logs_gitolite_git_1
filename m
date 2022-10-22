@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/libtrace/libtracefs
-Date: Sat, 22 Oct 2022 00:48:01 -0000
-Message-Id: <166639968110.3160.15804590560130321284@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Sat, 22 Oct 2022 00:53:46 -0000
+Message-Id: <166640002630.6740.10649977589392019825@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/libtrace/libtracefs
-user: rostedt
+repo: pub/scm/linux/kernel/git/tip/tip
+user: daveh
 changes:
-  - ref: refs/heads/libtracefs
-    old: faa0ba7f81b6dcaf6f9e3d27fae28b73ed5da5a0
-    new: e1f9116f7670b87f76ef602b6bc0f82950527565
+  - ref: refs/heads/x86/mm
+    old: 11a4f78908cb8a6cccbb49dd7d0455a94741e959
+    new: 1248fb6a8201ddac1c86a202f05a0a1765efbfce
     log: |
-         e1f9116f7670b87f76ef602b6bc0f82950527565 libtracefs: Start the new development on 1.6
+         1248fb6a8201ddac1c86a202f05a0a1765efbfce x86/mm: Randomize per-cpu entry area
          
