@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5233439269475598885=="
+Content-Type: multipart/mixed; boundary="===============9147704279816682282=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Sat, 22 Oct 2022 03:49:14 -0000
-Message-Id: <166641055499.32188.8183129068624035673@gitolite.kernel.org>
+Date: Sat, 22 Oct 2022 03:49:30 -0000
+Message-Id: <166641057084.32363.4891454409260677653@gitolite.kernel.org>
 
---===============5233439269475598885==
+--===============9147704279816682282==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,69 +16,70 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue
-    old: 9abf2313adc1ca1b6180c508c25f22f9395cc780
-    new: 868a8824838f1f0d781e838fa36dbb2de6bc7fdd
-    log: revlist-9abf2313adc1-868a8824838f.txt
+  - ref: refs/tags/mkp-scsi-staging
+    old: 33e2a3c3fbc77273a959f419f98e4c87d532b670
+    new: 5886893d581e5ddf36ac6ca7133aaa3a0ffd6517
+    log: revlist-33e2a3c3fbc7-5886893d581e.txt
 
---===============5233439269475598885==
+--===============9147704279816682282==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1666410544 -0400
+pusher 75C5DE3D 1666410559 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1666410543-dd22a5cfd838208ab0e86167e18cb03061729ffd
+nonce 1666410559-483b9cfcb27df547edd9b2a683eb9e7c5db0e02e
 
-9abf2313adc1ca1b6180c508c25f22f9395cc780 868a8824838f1f0d781e838fa36dbb2de6bc7fdd refs/heads/queue
+33e2a3c3fbc77273a959f419f98e4c87d532b670 5886893d581e5ddf36ac6ca7133aaa3a0ffd6517 refs/tags/mkp-scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmNTaDAACgkQ7ulgGnXF
-3j35tw//fiTlxObOIIDupgga1DbxvilU1QdeMOEMJsdMTPXy6+sAuzQA/DG58zJH
-rv44G667QB3oibQaOEVVSynQSqzTzX0QxIdBttv1z64a007POEF+8oFGWhmNzb8t
-l4i7S0e3OQW1TYZEO7D564rfLN6C4MK4ZkxojKo/jHGVvzlhQGQe8hJyD/RDyugr
-MjlrTYlPp92H9aj1bwxvREaBIzmowhL8fVpz68OGL/gjN2VROutcp8+OwI74HTUC
-DarmxvyhvE7DIs+ngpsqGFRtsBzlLkyIPf7mLrrnD7vFd0ESa4NJteWfUY70kdg4
-E/GtK3xMIa+qpWimY9c0vlszsCm3WoRC587NVpRmTOOyWOCYiQSuFlTpClLyh++f
-gH+bVU4CMeB6sifADCJ8oUiCJQ2x3acAWgf6BHzdqZcni7PvdpIVrSlSSiTpMR/G
-VD442lyEJRs1PpSAHyFX7f0vyjjFAbspXATv7SVFjy77mRRPKpf+aBIpMEqWZSJl
-vxTl6aii2KamMDPTQiQbhKlLrCDIUAPAjNHNyrXGU07bMkMyyFtm2dJOWtbKn0Co
-FWBAKgqFWbG9eEKH1eDpY+RW5jKIy5Er6ZjgS3KibXypEXHmhdOSsnGCPtvYRPMD
-sVKqsu0GQWXpQl2CrJwOZrUOzLG/DMpPLXik25BMuBCaBsf1MtI=
-=9iex
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmNTaD8ACgkQ7ulgGnXF
+3j3y4BAAhfJSjsDEGz9AIO1GNbBLGmwEvToby2kKzj+Ccg8b4NqVPNSPFhbiCRQn
+lX5e+Pqn/NozPtnQBWxrVhkgvhTfVlLfz+bBlI7GvIf8j0sgtby5SXpLZpfA2UIY
+alZRkAj1FOterOvzaOj9vls+DFaxQTncQqsEHxzxmXZgR2PDx1o5NpHMifaBUpEX
+iODQLVYX2m9HrUS6leykzMk7SRC6u36wG0TANj8xZuggnXQYYHebBB0chpn7LmCC
++QXMZLzwkhX0cwGlMZYL+R7JfOpA8vreBy3TVyrT9DLHKNVoSQ4K9b4qw1bw61Py
+oCZXuCJsrVkcP2TCRSM+58xmFpdBDcMBOPZ0H3P4fGISR7sZH9i7FCadgJom7Zux
+XQOCvSnZHMZrSI4gZmAo4DZiC62GXL2PExpT0YE0RZLrS+jTV+HKcZteVv1cg8KF
+U7tbs5Y3A/RonYNOXt66oBnGN5BgfHbpb3V1PAeU/o7YAvdm48bLk6w41bcaoxwF
+h7ygKZ6XWJGWisw8AnuwDWtzI3ISmT+ICqkDgp0V6IIvR/eW0tAYbT7vF3Tb8gSL
+ZTabiCbmTxFCSM5ig2Ug2n/QpPCDYqxUQGkT93fDglkL4aSQS7JOBWeQ/u0O9sJO
+EbRthEnG34imzROKBoq+T3QnThNt3y5vC2kYBbmy9V7zkLIWlWI=
+=oM3u
 -----END PGP SIGNATURE-----
 
---===============5233439269475598885==
+--===============9147704279816682282==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9abf2313adc1-868a8824838f.txt
+Content-Disposition: attachment; filename=revlist-33e2a3c3fbc7-5886893d581e.txt
 
-44112922674b94a7d699dfff6307fc830018df7c scsi: libsas: Add sas_ata_device_link_abort()
-4b329abc91800d23941ac773e69b322a13981ecb scsi: hisi_sas: Move slot variable definition in hisi_sas_abort_task()
-930d97dabdd56681aef752a35475f0212a171741 scsi: hisi_sas: Add SATA_DISK_ERR bit handling for v3 hw
-4ef4f1a6155571d3d53583a4e8e7ccbbec220b8a scsi: hisi_sas: Modify v3 HW SATA disk error state completion processing
-0b639decf65160b1afd9993019be37d7869c0340 scsi: pm8001: Modify task abort handling for SATA task
-811be570a9a8df96b4fd43ff00837b947bbaf49b scsi: pm8001: Use sas_ata_device_link_abort() to handle NCQ errors
-8e8d43642f2f9bbed9e7823c6e5b6fd7c7fbc3dc scsi: libsas: Make sas_{alloc, alloc_slow, free}_task() private
-cc22efbec0110181725b1f5f6778155a2e352522 scsi: libsas: Update SATA dev FIS in sas_ata_task_done()
-b6da92356cd6106dd9e7e8e168e3b7df4fe37d5d scsi: esas2r: Initialize two host template members implicitly
-77916da7e4a0975bd2b93e5214295e3318886cdb scsi: esas2r: Introduce scsi_template_proc_dir()
-ecca3f9b16366e601a6748bf31e9fe227812248f scsi: core: Fail host creation if creating the proc directory fails
-036abd6140078b4125f60e731f28e15de708f87d scsi: core: Introduce a new list for SCSI proc directory entries
-d460f624059266c2e7f0280bdd3ae806d4b75211 scsi: core: Rework scsi_single_lun_run()
-6d1aa3b0589bdd17a46ed74fbd2c2d0fc59038ff scsi: ufs: Simplify ufshcd_set_dev_pwr_mode()
-195fae206ef20a29b09f281b6db8ea30fafaa908 scsi: core: Remove the put_device() call from scsi_device_get()
-f93ed747e2c7e6bfbf309291879b33b0d0231a7d scsi: core: Release SCSI devices synchronously
-773792e4e704ca1c47e3d9bc6ed5be2a00a22ad5 scsi: libsas: Introduce SAS address comparison helpers
-2d08f329a4f2eace6b041d60132f441fc8e0b616 scsi: libsas: Introduce sas_find_attached_phy_id() helper
-ec64858657a8c393e2ae956d37c23bf94aee8200 scsi: pm8001: Use sas_find_attached_phy_id() instead of open coding it
-178c39d94ac2cf9524ff797d90dcdf96b110fb27 scsi: mvsas: Use sas_find_attached_phy_id() instead of open coding it
-f0ed7bd5d9137b8e736e44ce353620ec19ee6242 scsi: hisi_sas: Use sas_find_attathed_phy_id() instead of open coding it
-ad74d1dadbe9fc5ff7f80796f7cac0f126a5ea74 scsi: libsas: Use sas_phy_match_dev_addr() instead of open coding it
-bfa22905f3865469479f028770a352126ad0d2e8 scsi: libsas: Use sas_phy_addr_match() instead of open coding it
-868a8824838f1f0d781e838fa36dbb2de6bc7fdd scsi: libsas: Use sas_phy_match_port_addr() instead of open coding it
+621a323c3a7e23b364deaddf769e731f2da6ff03 scsi: target: Remove the unused function transport_lba_64_ext()
+a9ee3f840646e2ec419c734e592ffe997195435e scsi: libsas: Add sas_task_find_rq()
+295fd2330a91f295522ad2b7fe2109833ae32e33 scsi: hisi_sas: Use sas_task_find_rq()
+f7d190a94e35a2784af8871e275b86e68ff8034a scsi: hisi_sas: Put reserved tags in lower region of tagset
+1baa70d36403aa572453eee9fdd4f637455ecaaf scsi: pm8001: Remove pm8001_tag_init()
+6472cfb418a0ba783a469deeb6586fb2f133c268 scsi: pm8001: Use sas_task_find_rq() for tagging
+ffc9f9bf3f14876d019f67ef17d41138802529a8 scsi: mvsas: Delete mvs_tag_init()
+2acf97f199f9eba8321390325519e9b6bff60108 scsi: mvsas: Use sas_task_find_rq() for tagging
+5f62639dc2b668d8fa3bd3d4a92cf6e51b7574c6 scsi: pm80xx: Remove unused reset_in_progress flag logic
+e6f8a22ff4a14aeada44c8f78dfb7503f2ca318f scsi: qedf: Remove set but unused variable 'page'
+4fc66e7b16adf054e8dc7a5cd189085b8f545091 scsi: lpfc: Set sli4_param's cmf option to zero when CMF is turned off
+c44e50f4a0ec00c2298f31f91bc2c3e9bbd81c7e scsi: lpfc: Fix hard lockup when reading the rx_monitor from debugfs
+eaf660e4282ba11239704b2b89ae94feae2010e0 scsi: lpfc: Log when congestion management limits are in effect
+479b0917e4477f49df2e3be454aac3cfa5dec171 scsi: lpfc: Create a sysfs entry called lpfc_xcvr_data for transceiver info
+24b3e45ca9c53185baec34488efcb75bbe162f7a scsi: lpfc: Update lpfc version to 14.2.0.8
+978b7922d3dca672b41bb4b8ce6c06ab77112741 scsi: core: Fix a race between scsi_done() and scsi_timeout()
+dee7121e8c0a3ce41af2b02d516f54eaec32abcd scsi: core: Change the return type of .eh_timed_out()
+310bcaef6d7ed1626bba95dd9b5c5acd189c0e35 scsi: core: Support failing requests while recovering
+1626c7bba1c42499d6753bd919803158e5792f08 scsi: ufs: Remove an outdated comment
+836d322d73cb08486ecc50787695175a135e62ba scsi: ufs: Use 'else' in ufshcd_set_dev_pwr_mode()
+dcd5b7637c6d442d957f73780a03047413ed3a10 scsi: ufs: Reduce the START STOP UNIT timeout
+579a4e9dbd53978cad8df88dc612837cdd210ce0 scsi: ufs: Try harder to change the power mode
+1a547cbc6fdd07992f915a614a3f7ba3fccef8fb scsi: ufs: Track system suspend / resume activity
+6a354a7e740ee779d8595bb3c555d415433f2b19 scsi: ufs: Introduce the function ufshcd_execute_start_stop()
+7029e2151a7c6a5c60b35996d026528e7d51aae3 scsi: ufs: Fix a deadlock between PM and the SCSI error handler
 
---===============5233439269475598885==--
+--===============9147704279816682282==--
