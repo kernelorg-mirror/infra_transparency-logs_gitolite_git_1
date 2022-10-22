@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7733102964963994863=="
+Content-Type: multipart/mixed; boundary="===============8531302505205179733=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cxl/cxl
-Date: Sat, 22 Oct 2022 21:51:10 -0000
-Message-Id: <166647547080.28580.14510297297901951003@gitolite.kernel.org>
+Date: Sat, 22 Oct 2022 21:51:24 -0000
+Message-Id: <166647548401.28737.1269412465353290339@gitolite.kernel.org>
 
---===============7733102964963994863==
+--===============8531302505205179733==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cxl/cxl
 user: djbw
 changes:
-  - ref: refs/heads/next
+  - ref: refs/heads/preview
     old: 1cd8a2537eb07751d405ab7e2223f20338a90506
     new: 9abf2313adc1ca1b6180c508c25f22f9395cc780
     log: revlist-1cd8a2537eb0-9abf2313adc1.txt
 
---===============7733102964963994863==
+--===============8531302505205179733==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ b08cd74448fafaa302ce2bc11beab5e5a55d0065 Merge tag '6.1-rc-smb3-client-fixes-par
 f1947d7c8a61db1cb0ef909a6512ede0b1f2115b Merge tag 'random-6.1-rc1-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/crng/random
 9abf2313adc1ca1b6180c508c25f22f9395cc780 Linux 6.1-rc1
 
---===============7733102964963994863==--
+--===============8531302505205179733==--
