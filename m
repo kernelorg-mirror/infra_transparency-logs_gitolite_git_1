@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ogabbay/accel
-Date: Sat, 22 Oct 2022 20:19:14 -0000
-Message-Id: <166646995409.27672.17043492893186225201@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
+Date: Sat, 22 Oct 2022 20:27:52 -0000
+Message-Id: <166647047275.2795.12042296812065631710@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ogabbay/accel
-user: ogabbay
+repo: pub/scm/linux/kernel/git/sj/linux
+user: sj
 changes:
-  - ref: refs/heads/accel
-    old: 2012442631b4937d53143b4d736914ab59783a30
-    new: 9d57058ef98f58e7dcd806eeb39feedd4a5eb21f
+  - ref: refs/heads/damon/next
+    old: ad1fd7dbeb187cec9fe9de06005129b3994f3b35
+    new: faf78d202e89d34f8e85ba927142a4903661fe3e
     log: |
-         ae158904fe2eacf5c0504ef9aaccb44914f7023a drm/accel: define new major and register it
-         7163123afabd53ebe0b35f7c5fd78b33ee221e9e drm/accel: add dedicated minor for accelertor device
-         9d57058ef98f58e7dcd806eeb39feedd4a5eb21f accel: add accel dummy driver
+         faf78d202e89d34f8e85ba927142a4903661fe3e mm/damon/sysfs-schemes: cleanup tried_regions/ before updating
          
