@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/wireless/iwd
-Date: Mon, 24 Oct 2022 16:07:25 -0000
-Message-Id: <166662764564.31931.11863522650111410328@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
+Date: Mon, 24 Oct 2022 16:08:04 -0000
+Message-Id: <166662768469.32254.2596979159132341047@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/wireless/iwd
-user: denkenz
+repo: pub/scm/linux/kernel/git/firmware/linux-firmware
+user: jwboyer
 changes:
-  - ref: refs/heads/master
-    old: 72d35fc4910a45f0c3e162e605cf9014234485c8
-    new: 7f2aa40bba6c0e65660b6658aebe2634f03d45c1
+  - ref: refs/heads/main
+    old: 271b5ce72521fee920ecf3c78971330206b48b4d
+    new: 0cac82d36af9f9b1d3e532dccf0c690408ccb454
     log: |
-         7f2aa40bba6c0e65660b6658aebe2634f03d45c1 ap: Fix spurious warning message
+         1d18cb9ce4e0c892d605750266dc09c75c57bd16 linux-firmware: Add firmware for Cirrus CS35L41 on HP Laptops
+         6f9620efe9780f444eca44e47340d5bc5e607280 linux-firmware: Add firmware for Cirrus CS35L41 on Lenovo Laptops
+         771968c6819101b078f41293f80415efa17d3b51 linux-firmware: Add firmware for Cirrus CS35L41 on ASUS Laptops
+         0cac82d36af9f9b1d3e532dccf0c690408ccb454 Merge branch 'for-upstream' of https://github.com/CirrusLogic/linux-firmware
          
