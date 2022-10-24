@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4488712844818567572=="
+Content-Type: multipart/mixed; boundary="===============5510361878588699144=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/at91/linux
-Date: Mon, 24 Oct 2022 16:05:54 -0000
-Message-Id: <166662755407.31016.1514279903748850445@gitolite.kernel.org>
+Date: Mon, 24 Oct 2022 16:06:00 -0000
+Message-Id: <166662756022.31121.1369507220906925331@gitolite.kernel.org>
 
---===============4488712844818567572==
+--===============5510361878588699144==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/at91/linux
 user: claudiu.beznea
 changes:
-  - ref: refs/heads/at91-fixes
-    old: f5fc22cbbdcd349402faaddf1a07eb8403658ae8
+  - ref: refs/heads/at91-next
+    old: a3e83ce7ece6b0e42a1637639802ea0d40b5b3bc
     new: 9abf2313adc1ca1b6180c508c25f22f9395cc780
-    log: revlist-f5fc22cbbdcd-9abf2313adc1.txt
+    log: revlist-a3e83ce7ece6-9abf2313adc1.txt
 
---===============4488712844818567572==
+--===============5510361878588699144==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-f5fc22cbbdcd-9abf2313adc1.txt
+Content-Disposition: attachment; filename=revlist-a3e83ce7ece6-9abf2313adc1.txt
 
 bb1f11546eb3cd1e2b8ea45653eb0f530e42b035 Merge tag 'x86_asm_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 901735e51e4dea1eee816b0b57d1d6abbd94b3d5 Merge tag 'x86_misc_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
@@ -1051,4 +1051,4 @@ b08cd74448fafaa302ce2bc11beab5e5a55d0065 Merge tag '6.1-rc-smb3-client-fixes-par
 f1947d7c8a61db1cb0ef909a6512ede0b1f2115b Merge tag 'random-6.1-rc1-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/crng/random
 9abf2313adc1ca1b6180c508c25f22f9395cc780 Linux 6.1-rc1
 
---===============4488712844818567572==--
+--===============5510361878588699144==--
