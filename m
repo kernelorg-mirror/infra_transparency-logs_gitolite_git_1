@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0177139201318573073=="
+Content-Type: multipart/mixed; boundary="===============1028922340997864958=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 24 Oct 2022 09:08:07 -0000
-Message-Id: <166660248746.2820.14921939990953462910@gitolite.kernel.org>
+Date: Mon, 24 Oct 2022 09:08:20 -0000
+Message-Id: <166660250056.2979.16959322491270241015@gitolite.kernel.org>
 
---===============0177139201318573073==
+--===============1028922340997864958==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: 4397b755b31b878449aa00da1afe8c127b189cf1
-    new: fb4fd5e8604286d437907b6e9903741a5e76df65
-    log: revlist-4397b755b31b-fb4fd5e86042.txt
+  - ref: refs/heads/m68k-queue
+    old: 28a5fb045a982d8ee121d707e446cdd63868e217
+    new: 4dc32e44e9f9f34bddd3c0ae14ae6e7db0c64eeb
+    log: revlist-28a5fb045a98-4dc32e44e9f9.txt
 
---===============0177139201318573073==
+--===============1028922340997864958==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4397b755b31b-fb4fd5e86042.txt
+Content-Disposition: attachment; filename=revlist-28a5fb045a98-4dc32e44e9f9.txt
 
 f7ec3f62d7736ed14050716943a9562879155fcc media: remove reference to CONFIG_EMBEDDED in MEDIA_SUPPORT_FILTER
 41fd1cb6151439b205ac7611883d85ae14250172 media: mceusb: Use new usb_control_msg_*() routines
@@ -500,6 +500,8 @@ a70385240892bcbc6442b054e847c74100e72f1a Merge tag 'perf_urgent_for_v6.1_rc2' of
 ca4582c286aa4465f9d1a72bef34b04ee907d42e Revert "mfd: syscon: Remove repetition of the regmap_get_val_endian()"
 05b4ebd2c7cbb3671c376754b37b4963dd08a3a2 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 247f34f7b80357943234f93f247a1ae6b6c3a740 Linux 6.1-rc2
-fb4fd5e8604286d437907b6e9903741a5e76df65 Merge tag 'v6.1-rc2'
+0558c222347b949a3f7ea80f9d6a2fd5185b9826 m68k: atari: usb: Add ISP1160 USB host controller support
+54243d960361a50995263efc570c482a8d5e9e36 m68k: atari: Update Kconfig.bus help text
+4dc32e44e9f9f34bddd3c0ae14ae6e7db0c64eeb m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============0177139201318573073==--
+--===============1028922340997864958==--
