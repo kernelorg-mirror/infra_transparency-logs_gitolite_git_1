@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Mon, 24 Oct 2022 09:32:59 -0000
-Message-Id: <166660397918.21448.2449637587678843286@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Mon, 24 Oct 2022 09:47:50 -0000
+Message-Id: <166660487075.12545.11732183909483165512@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: davem
 changes:
   - ref: refs/heads/master
-    old: 04d63e62efa4d33b340570d10a59f9c20e58c81a
-    new: abc210952af71f4eb88bf8074c9982c17779c00f
+    old: f8127476930b98fc9e9aa5de0bbf9eeaf45db219
+    new: c99f0f7e68376dda5df8db7950cd6b67e73c6d3c
     log: |
-         abc210952af71f4eb88bf8074c9982c17779c00f nfp: flower: tunnel neigh support bond offload
+         c99f0f7e68376dda5df8db7950cd6b67e73c6d3c net: fman: Use physical address for userspace interfaces
          
