@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4571402839463665862=="
+Content-Type: multipart/mixed; boundary="===============6194886901232679623=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/shawnguo/linux
-Date: Mon, 24 Oct 2022 02:27:54 -0000
-Message-Id: <166657847402.14990.9836431543547568042@gitolite.kernel.org>
+Date: Mon, 24 Oct 2022 02:29:33 -0000
+Message-Id: <166657857354.15657.3723888648010892133@gitolite.kernel.org>
 
---===============4571402839463665862==
+--===============6194886901232679623==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,57 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/shawnguo/linux
 user: shawnguo
 changes:
-  - ref: refs/heads/imx/drivers
-    old: a0849379a6f2f526a8bc0713916ffadb352380d2
-    new: d9b98063c3cd475cd259c6a69166215e068f4952
-    log: revlist-a0849379a6f2-d9b98063c3cd.txt
+  - ref: refs/heads/for-next
+    old: 26f60c42dc9d5e1cb01fc25497a243055ddeb2be
+    new: 34038d42e66438b8fc27d7672d021539defcb599
+    log: revlist-26f60c42dc9d-34038d42e664.txt
 
---===============4571402839463665862==
+--===============6194886901232679623==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-a0849379a6f2-d9b98063c3cd.txt
+Content-Disposition: attachment; filename=revlist-26f60c42dc9d-34038d42e664.txt
 
-9bf445b65dd7d4c7d0e4efaecf38525abbbe74e3 Merge tag 'x86_paravirt_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-b5f0b11353a6a33a1accd0b742c80ed6b2f35ac0 Merge tag 'x86_microcode_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-193e2268a3bb1404b42f8edcc037a3eafd165aa9 Merge tag 'x86_cache_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-da4ab869e37cf81f93333ba74b16e0ea6d322e15 libceph: drop last_piece flag from ceph_msg_data_cursor
-f791357330b0043ec953ce122ab7519af4b9d24a ceph: wake up the waiters if any new caps comes
-6eb06c46214d33c71ae86d60b3fc9cb17c20beca ceph: fail the request if the peer MDS doesn't support getvxattr op
-7c3ea9870e09e193981695dd67c37a1a2b6d600b ceph: no need to wait for transition RDCACHE|RD -> RD
-aa1d627207cace003163dee24d1c06fa4e910c6b ceph: Use kcalloc for allocating multiple elements
-b4b924c7a16e857b0715603456045251a49f2ea6 ceph: increment i_version when doing a setattr with caps
-bd04b9192e1ff6859d6b3906e91cfd5c9b0ad55b ceph: fail the open_by_handle_at() if the dentry is being unlinked
-aa87052dd965a6094355fcc13d5abc3f5bebfbe4 ceph: fix incorrectly showing the .snap size for stat
-71cf0c1c4f9f8e42c84ca53a5ca7091e4eea7f6a ceph: remove Sage's git tree from documentation
-a76d550f761d4f1b0a0e2faa27af122e51904b86 clk: qcom: gcc-sm6375: Remove unused variables
-3eba620e7bd772a0c7dc91966cb107872b54a910 Merge tag 'x86_cleanups_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-39bc9b589ea3d2750a6fec6409cd7fc687bc99fe clk: qcom: gcc-sm6375: Ensure unsigned long type
-49f4c2d101bbf93c62e3fa58e666f71352c54121 Merge branches 'clk-ofnode', 'clk-bindings', 'clk-cleanup', 'clk-zynq' and 'clk-xilinx' into clk-next
-a64b79c01c2836ddd8e1eb7c8173b44c3e66f999 Merge branches 'clk-samsung', 'clk-mtk', 'clk-rm', 'clk-ast' and 'clk-qcom' into clk-next
-26bebbfed5bd06fd7202fd1befa6c2c935a593e8 Merge branches 'clk-rockchip', 'clk-renesas', 'clk-microchip', 'clk-allwinner' and 'clk-imx' into clk-next
-b7f257ceb3c88ee3e2c6b0d1db703c818d3971f1 Merge branches 'clk-fixed-rate', 'clk-spreadtrum', 'clk-pxa' and 'clk-ti' into clk-next
-f9efefdba95a5110a1346bb03acdd8ff3cdf557f Merge branches 'clk-baikal', 'clk-broadcom', 'clk-vc5' and 'clk-versaclock' into clk-next
-c645c11a2dba116bad3ee43e08e330db8f03ede6 Merge tag 'audit-pr-20221003' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/audit
-98828955971363e838149105c268b1fad905f15b drm/i915/gvt: fix a memory leak in intel_gvt_init_vgpu_types
-1aa3834f510c9d9206ce4d40aff4903b0c016761 drm/i915/gvt: simplify vgpu configuration management
-bdef2b7896df293736330eb6eb0f43947049b828 vfio/mdev: make mdev.h standalone includable
-89345d5177aa0f6d678251e1e0870b0eeb1ab510 vfio/mdev: embedd struct mdev_parent in the parent data structure
-da44c340c4fe9d9653ae84fa6a60f406bafcffce vfio/mdev: simplify mdev_type handling
-cbf3bb28aaeaee425ca7b9c537a3efff1f8c98ae vfio/mdev: remove mdev_from_dev
-2815fe149ffa8e1a022b2830ab62999135c00a4e vfio/mdev: unexport mdev_bus_type
-062e720cd209d8091c4f3d118d93973f02209aca vfio/mdev: remove mdev_parent_dev
-c7c1f38f6cba7e3249866c06639ea62755f0a24e vfio/mdev: remove mtype_get_parent_dev
-290aac5df88a83e264b3a73ec146e5e5b3c45793 vfio/mdev: consolidate all the device_api sysfs into the core code
-0bc79069ccbdbe26492493dd0c4e38b7cadf8ad5 vfio/mdev: consolidate all the name sysfs into the core code
-f2fbc72e6da4f8e01fe5fe3d6871a791e76271c3 vfio/mdev: consolidate all the available_instance sysfs into the core code
-685a1537f4c603cfcaf4b9be56ff6a571f7ddd08 vfio/mdev: consolidate all the description sysfs into the core code
-9c799c224d6ebc5be51065bd3217a2d7eea23b8f vfio/mdev: add mdev available instance checking to the core
-912b74d26c7df2da1e261f3dac8942c8cbb76a49 vfio: Remove the vfio_group->users and users_comp
-c82e81ab2569559ad873b3061217c2f37560682b vfio: Change vfio_group->group_rwsem to a mutex
-522667b24f08009591c90e75bfe2ffb67f555498 Merge tag 'landlock-6.1-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/mic/linux
-34e1ed189fab1b7533befb266b96051104c1deb6 PM: Improve EXPORT_*_DEV_PM_OPS macros
-c5129ecc12a3101555d8922b1e0aa90f91247ab6 x86/mm: Ease W^X enforcement back to just a warning
 e623715f3d67ad10985b2c10cf7edd9ad85db372 RISC-V: Increase range and default value of NR_CPUS
 280dfeae56e6fbfff21cfece356379e318ae10fe f2fs: return the tmp_ptr directly in __bitmap_ptr
 173cdf2c32b4b02474006d87648383244c0a6db9 f2fs: use COMPRESS_MAPPING to get compress cache mapping
@@ -1048,7 +1008,47 @@ b08cd74448fafaa302ce2bc11beab5e5a55d0065 Merge tag '6.1-rc-smb3-client-fixes-par
 8636df94ec917019c4cb744ba0a1f94cf9057790 Merge tag 'perf-tools-for-v6.1-2-2022-10-16' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 f1947d7c8a61db1cb0ef909a6512ede0b1f2115b Merge tag 'random-6.1-rc1-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/crng/random
 9abf2313adc1ca1b6180c508c25f22f9395cc780 Linux 6.1-rc1
+ca69b6c78d5d6cd9a4417d279eda1d2cd2fb3829 arm64: dts: tqma8mpql: add support for 2nd USB (host) interface
 1a1da28544fd869824d2ffe1b7b2b03689d69dc1 soc: imx: imx8m-blk-ctrl: Defer probe if 'bus' genpd is not yet ready
+f23f1a1e8437e38014fe34a2f12e37e861e5bcc7 arm64: dts: imx8mm: Enable CPLD_Dn pull down resistor on MX8Menlo
+3fff54653ac2d6fd11fcbb3a303abb2e050c799b arm64: dts: tqma8mq-mba8mx: Add vcc supply to i2c eeproms
+f5798ced419627ee53f4019e4a9a652bc73cafc4 dt-bindings: firmware: imx: sync with SCFW kit v1.13.0
+19d0fc9e973406b32573ff683eda1b70b6d72c26 arm64: dts: imx8m*-venice: add I2C GPIO bus recovery support
+95b9fc4031f37bb7424ed254b7b9cb3ddde9f027 dt-bindings: vendor-prefixes: Add prefix for InnoComm
+248a180c371a732e66dcb0b6e8c08bbd81e32c50 dt-bindings: arm: fsl: Add InnoComm WB15 EVK
+c47d7b73c75a181cbfd4d680ea49bebbcde6507a arm64: dts: freescale: Add InnoComm i.MX8MM based WB15 SoM and EVK
+c9545754e9a75647e9971a8ed550f1d8873cfc73 arm64: dts: verdin-imx8mp: fix ctrl_sleep_moci
+94bbd9d3f52a3c79e41a75f2f7706034c95b5ae8 arm64: dts: verdin-imx8mm: verdin-imx8mp: improve include notation
+c579c24d4a14dd600146010347e4ba62d80a6667 arm64: dts: colibri-imx8x: improve include notation
+909c3951afa69f4b820ad0b7f975900f8c3d6122 arm64: dts: verdin-imx8mm: verdin-imx8mp: rename sn65dsi83 to sn65dsi84
+8fb7256af86fcdebcefcff39b3043aa1619229a7 arm64: dts: verdin-imx8mm: improve pcie node
+cc9c607c192d893385aca43b8d955acca99f4c8f arm64: defconfig: enable snvs lpgpr support
+0cca034d02346ee0220a2968ad24984cd6307e72 arm64: defconfig: enable i.mx 8m plus specific interconnect support
+1a3e93814cdd0552db4e4d724e1824aab997b1ff dt-bindings: clock: add i.MX8M Anatop
+f98c2dfedb735b28727a15de6769c68691e58617 arm64: dts: imx8m: align anatop with bindings
+2eee1c48e52066e2c8cb01e1637e44bfd376c994 dt-bindings: arm: fsl: add compatible string for Kobo Aura 2
+21683c0d39ca81a4fc3fbb62b9c43f6ffb482372 ARM: dts: imx: Add devicetree for Kobo Aura 2
+9509593f327ac27e8cb912cfb4696feb718842d2 arm64: dts: imx8mm: Model PMIC to SNVS RTC clock path on Data Modul i.MX8M Mini eDM SBC
+375347575fb369255471e1142bd62621b85d1876 arm64: dts: imx8mm: Drop QCA clk out setup on Data Modul i.MX8M Mini eDM SBC
+da12d72c9064d1f980f9440044b97d966e3f92eb arm64: dts: imx8mm: remove otg1/2 power domain dependency on hsio
+22abf61ae5ca8a5321d2e3fd0963f4c569c3f1a8 arm64: dts: imx8mm: correct usb power domains
+41140fb61014347a6331997d97d0d712b8087833 arm64: dts: imx8mn: remove otg1 power domain dependency on hsio
+6f120a77f5a7f6e7401ab42cde9c2694d997c02f arm64: dts: imx8mn: Correct the usb power domain
+41f501d51792384d5ff76c55547f6b81278b27ca ARM: imx_v6_v7_defconfig: Enable USB GPIO extcon support
+fecd4624dee10f5cf0519e97d95e2980e4838dff ARM: dts: colibri-imx6: usb dual-role switching
+3904b814e66f986dda5517de7c0a03f81e4aa145 ARM: dts: colibri-imx6: move vbus-supply to module level device tree
+63d217e9da25ba7b0d2954719a5e59793b8ad3e6 ARM: dts: colibri-imx6: specify usbh_pen gpio being active-low
+49f8992cc1812e456c1a41578fef3e05b468a1fc ARM: dts: imx7-colibri: remove spurious debounce property
+53ae643051560f7214b4dd11452e6d8775bca08f ARM: dts: imx6qdl-gw59{10,13}: fix user pushbutton GPIO offset
+3c713925fd4c389c7c9a02431152fb332a4d0eed ARM: dts: vf610-zii-dev-rev-c: fix polarity of at86rf233 reset line
 d9b98063c3cd475cd259c6a69166215e068f4952 firmware: imx: scu-pd: add missed USB_1_PHY pd
+8065fc937f0f147f0a6efdf14f3cbcb821ea18db arm64: dts: imx8dxl: add usb1 and usb2 support
+7b76547835242c211127ba35dab9c0f91194d98e ARM: dts: ls1021: correct indentation
+9fc12ca4b90250109a6a83a260c39521dc91f7a6 ARM: dts: imx6dl-yapp4: Do not allow PM to switch PU regulator off on Q/QP
+b5f0f9744057d47e975d9badce0c5e3302781c53 Merge branch 'imx/drivers' into for-next
+0802997dc4a6887deb5e5844a97bf488a420b5f8 Merge branch 'imx/bindings' into for-next
+bb5fd6790ecf23d4323f23596a9956f7cd3d9d3a Merge branch 'imx/dt' into for-next
+d110a121da21d4f068678569fb7c1110837e4463 Merge branch 'imx/dt64' into for-next
+34038d42e66438b8fc27d7672d021539defcb599 Merge branch 'imx/defconfig' into for-next
 
---===============4571402839463665862==--
+--===============6194886901232679623==--
