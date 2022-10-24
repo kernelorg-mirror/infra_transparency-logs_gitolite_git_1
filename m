@@ -1,56 +1,27 @@
-Content-Type: multipart/mixed; boundary="===============5631081851332423641=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Mon, 24 Oct 2022 10:41:28 -0000
-Message-Id: <166660808882.19607.11160295228985559879@gitolite.kernel.org>
-
---===============5631081851332423641==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/rt/linux-stable-rt
+Date: Mon, 24 Oct 2022 10:45:00 -0000
+Message-Id: <166660830000.20902.9969079863707839415@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/rt/linux-stable-rt
+user: wagi
 changes:
-  - ref: refs/heads/master
-    old: 082c4c73fe44ce7b5874f7802e4401e8ae542125
-    new: a69fa8e71cced0f60dc864cdc2084da4df4241e0
+  - ref: refs/heads/v4.19-rt-next
+    old: 3f10b93e91ead8aefa01758391b230b8a306e389
+    new: af9fb812c7fb8cfd5537a2d3fe297ef6fbfe227f
     log: |
-         a69fa8e71cced0f60dc864cdc2084da4df4241e0 drop a bunch of unneeded patches
+         771e65dab57cfa7f80dda459d0ebd16089ae89f1 Revert "random: Use local locks for crng context access"
+         7c2e94d4827c29ff0f33caab5baefbce78c8d6cd random: Bring back the local_locks
+         0c0133e072e9fc3001f869f634b6eb6974c229cb local_lock: Provide INIT_LOCAL_LOCK().
+         b87b8803aaae4b697224ce0b51d9b78811dfa8a6 Revert "workqueue: Use local irq lock instead of irq disable regions"
+         645b183a85ab53d95263806d2e299ced584193fb timers: Keep interrupts disabled for TIMER_IRQSAFE timer.
+         6dda661f070495de484227a32392ddf7bfc4c54c timers: Don't block on ->expiry_lock for TIMER_IRQSAFE timers
+         af4355f4bbc813bdf424b72f54390c6e2cf9fe9e rcu: Update rcuwait
+         7fcfa8b616d360ab9ea1da94c2200f0708e0188b workqueue: Use rcuwait for wq_manager_wait
+         af9fb812c7fb8cfd5537a2d3fe297ef6fbfe227f Linux 4.19.255-rt114-rc1
          
-
---===============5631081851332423641==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1666608085 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1666608084-b8b3157032d715c00b2e6c9d2e78f8bfc6415deb
-
-082c4c73fe44ce7b5874f7802e4401e8ae542125 a69fa8e71cced0f60dc864cdc2084da4df4241e0 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmNWa9UbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+4v0QAKro3IsFAjfFSw4hirVS
-N38kiF483pqfIJSZPYGsc2y4lAwhZ1bNZb8oknVBn6bfF9hf4KLFGm+aYplfCo+C
-Jqz476PTlysnS9fklk3tvPJ0JTdKl+SuCLF7Ks0VwvVA6BV3nzm+k2qktgrpf4R6
-cQF2Xgeq5Vzqev0BagonOC9hoZaXAWFr2C8Kwg+KrroF2o0WYAsTMAzeqyIyFKDo
-OwvA6IzCot7oJcPsjV0Bv6kFryuacFqexe47MV3BwlmWY5u+OqpEunEtwWsNOSLF
-V4ph+Ltbhee6YdsrzWJ90PZPsh1Ta0T8KAjtzrJ7M23h8fWRRV7AyoXb0GfBY/yF
-Gob9G8NKMln+vyCFSg9wSn/57Cgdu0pSosdl67U/3GIoTCD96VfDTYrkAADSEGV6
-/SX0mpS9vdoZsIaJPbukKNS6LF36bBPehs170qzoRnIFnMtI86sqS88htAwGfPiZ
-LWhr06/f2nT97J0PPSSGMbO5+ev782ZDytQmdNuKvj6tx/iOWD06NUvEHAeBt9gw
-9HehJPz4Ne14cHr9axBGNjEAa3SfGI+zMD8z3epZVrpVFigr6ApsStw5ZYmBALFN
-/Q5JMBs4sXtbkbaJTQOkRky7GgdIuQVFooVh/KmHnsNbIOHxl57IodZVZXtGCKuV
-PjmMJ4bi7JXW1s0cMFzhMh/H
-=Ehge
------END PGP SIGNATURE-----
-
---===============5631081851332423641==--
