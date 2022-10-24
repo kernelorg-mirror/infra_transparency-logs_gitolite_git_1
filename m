@@ -1,46 +1,19 @@
-Content-Type: multipart/mixed; boundary="===============8430491395337493668=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/infra/subspace/site
-Date: Mon, 24 Oct 2022 19:24:03 -0000
-Message-Id: <166663944389.9799.177048459015776207@gitolite.kernel.org>
-
---===============8430491395337493668==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+Date: Mon, 24 Oct 2022 19:29:01 -0000
+Message-Id: <166663974154.14408.18260127282240582260@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/infra/subspace/site
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+user: vudentz
 changes:
   - ref: refs/heads/master
-    old: 8c2cc734bc96d1723bb4327789ccf0de9bbf9eec
-    new: f525a8c30f8a8c7db1d358a3d922f03bdcef35b4
+    old: f334dabe7dae4b890926601d743d2ce337883880
+    new: 28fd83db215ebc49ebfe4f87b55b40b859b45bfe
     log: |
-         f525a8c30f8a8c7db1d358a3d922f03bdcef35b4 Add lists.linuxfoundation.org stub
+         28fd83db215ebc49ebfe4f87b55b40b859b45bfe Bluetooth: MGMT: Fix error report for ADD_EXT_ADV_PARAMS
          
-
---===============8430491395337493668==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher B6C41CE35664996C! 1666639443 -0400
-pushee gitolite.kernel.org:pub/scm/infra/subspace/site
-nonce 1666639443-68b03021415b959012f48faab8da2ea8197bc422
-
-8c2cc734bc96d1723bb4327789ccf0de9bbf9eec f525a8c30f8a8c7db1d358a3d922f03bdcef35b4 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCY1bmUwAKCRC2xBzjVmSZ
-bNLOAQCQtVuTBstc0tlM1mwyCW/5RSGyMz4azlCrD/gOpw5LHwD/Ux1qkaV+is2X
-47uWvHpZFYQ1DlTyuaFoJBxcDczUggs=
-=VDie
------END PGP SIGNATURE-----
-
---===============8430491395337493668==--
