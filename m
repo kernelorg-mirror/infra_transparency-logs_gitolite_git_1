@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6737310877754431858=="
+Content-Type: multipart/mixed; boundary="===============3689923330133518275=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Mon, 24 Oct 2022 09:23:50 -0000
-Message-Id: <166660343016.13620.7099341861365901830@gitolite.kernel.org>
+Date: Mon, 24 Oct 2022 09:24:19 -0000
+Message-Id: <166660345901.13853.8994878494586173044@gitolite.kernel.org>
 
---===============6737310877754431858==
+--===============3689923330133518275==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 user: hansg
 changes:
-  - ref: refs/heads/for-next
+  - ref: refs/heads/review-hans
     old: 8d05fc039456517d2c246c7b202891188ba40c4d
-    new: 9abf2313adc1ca1b6180c508c25f22f9395cc780
-    log: revlist-8d05fc039456-9abf2313adc1.txt
+    new: a10d50983f7befe85acf95ea7dbf6ba9187c2d70
+    log: revlist-8d05fc039456-a10d50983f7b.txt
 
---===============6737310877754431858==
+--===============3689923330133518275==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-8d05fc039456-9abf2313adc1.txt
+Content-Disposition: attachment; filename=revlist-8d05fc039456-a10d50983f7b.txt
 
-bb1f11546eb3cd1e2b8ea45653eb0f530e42b035 Merge tag 'x86_asm_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-901735e51e4dea1eee816b0b57d1d6abbd94b3d5 Merge tag 'x86_misc_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 9bf445b65dd7d4c7d0e4efaecf38525abbbe74e3 Merge tag 'x86_paravirt_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 b5f0b11353a6a33a1accd0b742c80ed6b2f35ac0 Merge tag 'x86_microcode_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 193e2268a3bb1404b42f8edcc037a3eafd165aa9 Merge tag 'x86_cache_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
@@ -1050,5 +1048,7 @@ b08cd74448fafaa302ce2bc11beab5e5a55d0065 Merge tag '6.1-rc-smb3-client-fixes-par
 8636df94ec917019c4cb744ba0a1f94cf9057790 Merge tag 'perf-tools-for-v6.1-2-2022-10-16' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 f1947d7c8a61db1cb0ef909a6512ede0b1f2115b Merge tag 'random-6.1-rc1-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/crng/random
 9abf2313adc1ca1b6180c508c25f22f9395cc780 Linux 6.1-rc1
+36abde8d24ad740371422a7678ca92b06cc8a3d5 platform/x86: asus-wmi: Add support for ROG X16 tablet mode
+a10d50983f7befe85acf95ea7dbf6ba9187c2d70 platform/x86: thinkpad_acpi: Fix reporting a non present second fan on some models
 
---===============6737310877754431858==--
+--===============3689923330133518275==--
