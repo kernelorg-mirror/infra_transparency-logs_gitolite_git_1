@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2538065339391467977=="
+Content-Type: multipart/mixed; boundary="===============1651850060938769854=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/djakov/icc
-Date: Mon, 24 Oct 2022 12:46:42 -0000
-Message-Id: <166661560287.15830.10677366715761174372@gitolite.kernel.org>
+Date: Mon, 24 Oct 2022 12:47:00 -0000
+Message-Id: <166661562013.15996.9642024167960907483@gitolite.kernel.org>
 
---===============2538065339391467977==
+--===============1651850060938769854==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/djakov/icc
 user: djakov
 changes:
-  - ref: refs/heads/icc-fixes
-    old: 491aef7caeb345ccfd658a7fc8a42944a7f82494
+  - ref: refs/heads/icc-next
+    old: 7360d55ba1993cb59267507d04b7e62c40bad424
     new: 1498a5a79980fb86458297df2b4aaa9cc56503b3
-    log: revlist-491aef7caeb3-1498a5a79980.txt
+    log: revlist-7360d55ba199-1498a5a79980.txt
 
---===============2538065339391467977==
+--===============1651850060938769854==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-491aef7caeb3-1498a5a79980.txt
+Content-Disposition: attachment; filename=revlist-7360d55ba199-1498a5a79980.txt
 
 901735e51e4dea1eee816b0b57d1d6abbd94b3d5 Merge tag 'x86_misc_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 9bf445b65dd7d4c7d0e4efaecf38525abbbe74e3 Merge tag 'x86_paravirt_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
@@ -1051,4 +1051,4 @@ f1947d7c8a61db1cb0ef909a6512ede0b1f2115b Merge tag 'random-6.1-rc1-for-linus' of
 9abf2313adc1ca1b6180c508c25f22f9395cc780 Linux 6.1-rc1
 1498a5a79980fb86458297df2b4aaa9cc56503b3 dt-bindings: interconnect: qcom,msm8998-bwmon: Correct SC7280 CPU compatible
 
---===============2538065339391467977==--
+--===============1651850060938769854==--
