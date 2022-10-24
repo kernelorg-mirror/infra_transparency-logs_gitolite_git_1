@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0246244866459626829=="
+Content-Type: multipart/mixed; boundary="===============8963089616984562901=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/remoteproc/linux
-Date: Mon, 24 Oct 2022 17:01:52 -0000
-Message-Id: <166663091261.6996.10046045856227215789@gitolite.kernel.org>
+Date: Mon, 24 Oct 2022 17:05:11 -0000
+Message-Id: <166663111196.9736.4613395318670843879@gitolite.kernel.org>
 
---===============0246244866459626829==
+--===============8963089616984562901==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/remoteproc/linux
 user: mjp
 changes:
-  - ref: refs/heads/rproc-next
+  - ref: refs/heads/rpmsg-next
     old: 9abf2313adc1ca1b6180c508c25f22f9395cc780
-    new: 6eed169c7fefd9cdbbccb5ba7a98470cc0c09c63
-    log: revlist-9abf2313adc1-6eed169c7fef.txt
+    new: 247f34f7b80357943234f93f247a1ae6b6c3a740
+    log: revlist-9abf2313adc1-247f34f7b803.txt
 
---===============0246244866459626829==
+--===============8963089616984562901==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9abf2313adc1-6eed169c7fef.txt
+Content-Disposition: attachment; filename=revlist-9abf2313adc1-247f34f7b803.txt
 
 f7ec3f62d7736ed14050716943a9562879155fcc media: remove reference to CONFIG_EMBEDDED in MEDIA_SUPPORT_FILTER
 41fd1cb6151439b205ac7611883d85ae14250172 media: mceusb: Use new usb_control_msg_*() routines
@@ -500,14 +500,5 @@ a70385240892bcbc6442b054e847c74100e72f1a Merge tag 'perf_urgent_for_v6.1_rc2' of
 ca4582c286aa4465f9d1a72bef34b04ee907d42e Revert "mfd: syscon: Remove repetition of the regmap_get_val_endian()"
 05b4ebd2c7cbb3671c376754b37b4963dd08a3a2 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 247f34f7b80357943234f93f247a1ae6b6c3a740 Linux 6.1-rc2
-65fcf3872f83d63fb7268e05d4b02640df14126e remoteproc: core: Auto select rproc-virtio device id
-47e6ab07018edebf94ce873cf50a05ec76ff2dde remoteproc: imx_dsp_rproc: Add mutex protection for workqueue
-190362e03bed3f7bde7635f14c955fc9ed96eb78 dt-bindings: remoteproc: imx_rproc: Support i.MX8QXP
-505066645f3f14c15abd0875654fbc7b0610ca2e dt-bindings: remoteproc: imx_rproc: Support i.MX8QM
-5e50aef2632e74db58d61c8e86bd767dc28a7970 remoteproc: imx_rproc: Support attaching to i.MX8QXP M4
-c94ea666dc81e8164de1ee4b3b564af0e7cd942b remoteproc: imx_rproc: Support kicking Mcore from Linux for i.MX8QXP
-fcd382b23dcf16732964aca491660da676c3c44f remoteproc: imx_rproc: Support i.MX8QM
-99b142cf7191b08adcd23f700ea0a3d7dffdd0c1 remoteproc: imx_rproc: Request mbox channel later
-6eed169c7fefd9cdbbccb5ba7a98470cc0c09c63 remoteproc: imx_rproc: Enable attach recovery for i.MX8QM/QXP
 
---===============0246244866459626829==--
+--===============8963089616984562901==--
