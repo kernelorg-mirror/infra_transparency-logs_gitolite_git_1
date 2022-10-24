@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/balbi/usb
-Date: Mon, 24 Oct 2022 09:16:10 -0000
-Message-Id: <166660297021.9228.9543883312059254468@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/atorgue/stm32
+Date: Mon, 24 Oct 2022 09:21:50 -0000
+Message-Id: <166660331081.12763.11280648590432909374@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/balbi/usb
-user: balbi
+repo: pub/scm/linux/kernel/git/atorgue/stm32
+user: atorgue
 changes:
-  - ref: refs/tags/v6.1-rc1
-    old: 0000000000000000000000000000000000000000
-    new: e0e492cebef25c13fc29b174f01b5178662f1652
-  - ref: refs/tags/v6.1-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 0d8d9e948ba8d5e1a826935d8d1c4aace65dd185
+  - ref: refs/heads/stm32-next
+    old: e46a180c060f5a025aee783ef10bcb95b767f6f8
+    new: d5d577e3d50713ad11d98dbdaa48bb494346c26d
+    log: |
+         d5d577e3d50713ad11d98dbdaa48bb494346c26d ARM: dts: stm32: Fix AV96 WLAN regulator gpio property
+         
