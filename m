@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7185134661320050327=="
+Content-Type: multipart/mixed; boundary="===============6737310877754431858=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Mon, 24 Oct 2022 09:22:55 -0000
-Message-Id: <166660337551.13205.3923904943738809779@gitolite.kernel.org>
+Date: Mon, 24 Oct 2022 09:23:50 -0000
+Message-Id: <166660343016.13620.7099341861365901830@gitolite.kernel.org>
 
---===============7185134661320050327==
+--===============6737310877754431858==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 user: hansg
 changes:
-  - ref: refs/heads/master
-    old: 917bbdb107f8767cb78f24e7d6725a2f93b9effe
+  - ref: refs/heads/for-next
+    old: 8d05fc039456517d2c246c7b202891188ba40c4d
     new: 9abf2313adc1ca1b6180c508c25f22f9395cc780
-    log: revlist-917bbdb107f8-9abf2313adc1.txt
+    log: revlist-8d05fc039456-9abf2313adc1.txt
 
---===============7185134661320050327==
+--===============6737310877754431858==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-917bbdb107f8-9abf2313adc1.txt
+Content-Disposition: attachment; filename=revlist-8d05fc039456-9abf2313adc1.txt
 
 bb1f11546eb3cd1e2b8ea45653eb0f530e42b035 Merge tag 'x86_asm_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 901735e51e4dea1eee816b0b57d1d6abbd94b3d5 Merge tag 'x86_misc_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
@@ -1051,4 +1051,4 @@ b08cd74448fafaa302ce2bc11beab5e5a55d0065 Merge tag '6.1-rc-smb3-client-fixes-par
 f1947d7c8a61db1cb0ef909a6512ede0b1f2115b Merge tag 'random-6.1-rc1-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/crng/random
 9abf2313adc1ca1b6180c508c25f22f9395cc780 Linux 6.1-rc1
 
---===============7185134661320050327==--
+--===============6737310877754431858==--
