@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5516246917037189215=="
+Content-Type: multipart/mixed; boundary="===============6303135311773525162=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/intel
-Date: Mon, 24 Oct 2022 14:11:06 -0000
-Message-Id: <166662066641.13384.2563064633567331442@gitolite.kernel.org>
+Date: Mon, 24 Oct 2022 14:11:12 -0000
+Message-Id: <166662067237.13502.9646123949912340219@gitolite.kernel.org>
 
---===============5516246917037189215==
+--===============6303135311773525162==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,20 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/pinctrl/intel
 user: andy
 changes:
-  - ref: refs/heads/review-andy
-    old: da0a173092a5e285facdc76d36063a28ec8bb229
+  - ref: refs/heads/fixes
+    old: 9abf2313adc1ca1b6180c508c25f22f9395cc780
     new: e5530adc17a79f2a93e8b35e0ce673fc33f5f663
-    log: revlist-da0a173092a5-e5530adc17a7.txt
+    log: revlist-9abf2313adc1-e5530adc17a7.txt
 
---===============5516246917037189215==
+--===============6303135311773525162==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-da0a173092a5-e5530adc17a7.txt
+Content-Disposition: attachment; filename=revlist-9abf2313adc1-e5530adc17a7.txt
 
+9ceb338ab1769fd04c7d347f086c3b5ee01128e1 gpio: aspeed: Add missing header(s)
+c59ce98347c9e746be4bfcd9c8c48da1acb5cecc gpio: arizona: Remove unused header(s)
+c4168c44d53160eb6ae273f58f133c3ce633bdad gpio: da9052: Remove unused header(s)
 5cedd3c25fcb2799dc35ddcd85166c2962501c43 gpio: mockup: Add missing header(s)
 c20a395f9bf939ef0587ce5fa14316ac26252e9b gpio: pca953x: Add missing header(s)
 5b937a837c0d4c649fcbd9def10570b5d337898c gpio: pl061: Add missing header(s)
@@ -77,4 +80,4 @@ cc994a0a76a87108ec3fac10bb906ff9d934c3c9 pinctrl: merrifield: Add missing header
 de23ccb1edc84f0f59f09b157b082110fb40789c pinctrl: intel: Add missing header(s)
 e5530adc17a79f2a93e8b35e0ce673fc33f5f663 pinctrl: Clean up headers
 
---===============5516246917037189215==--
+--===============6303135311773525162==--
