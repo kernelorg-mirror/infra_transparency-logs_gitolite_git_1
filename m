@@ -1,50 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============4229735208082608648=="
+Content-Type: multipart/mixed; boundary="===============1169701901495853971=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Mon, 24 Oct 2022 12:53:31 -0000
-Message-Id: <166661601149.20011.6197662401069135469@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Mon, 24 Oct 2022 12:53:37 -0000
+Message-Id: <166661601773.20114.15265567658389876026@gitolite.kernel.org>
 
---===============4229735208082608648==
+--===============1169701901495853971==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.2
-    old: b700672e22500a41d8e43e54dda879811e418b6e
-    new: 8da313ad1bd020859e2ee8a3e8e97e52425e539c
+  - ref: refs/heads/for-6.1
+    old: f8aa6c895d482847c9b799dcdac8bbdb56cb8e04
+    new: 195583504be28df5d608a4677dd796117aea875f
     log: |
-         8da313ad1bd020859e2ee8a3e8e97e52425e539c ASoC: dt-bindings: Convert dmic-codec to DT schema
+         195583504be28df5d608a4677dd796117aea875f spi: stm32: Print summary 'callbacks suppressed' message
          
 
---===============4229735208082608648==
+--===============1169701901495853971==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1666616010 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1666616009-da7e41f119069fb13512a63ed1c238b23ccc82f5
+pusher C3F436CA30F5D8EB 1666616016 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1666616015-5881723bf42a38aa06c7305dc4d806e09b902014
 
-b700672e22500a41d8e43e54dda879811e418b6e 8da313ad1bd020859e2ee8a3e8e97e52425e539c refs/heads/asoc-6.2
+f8aa6c895d482847c9b799dcdac8bbdb56cb8e04 195583504be28df5d608a4677dd796117aea875f refs/heads/for-6.1
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmNWisoACgkQJNaLcl1U
-h9ClXgf+N5cnc7Ozch7h+QWc7rE70Esfq8QEQWXcYP3Mas7GQHWPG7MRO8OpNB34
-ZwTUPwwCfAFOjzyjfFpRf50quHlHW2VjwjeMJnnPQUU6rAhTkX75plRhsJciwbtr
-AEiaGOwUb+MuNCVS9Bv7T/3KXKen+9J/96NQzAKtqYzR91UtMfj5oguIGAnafsqi
-6yV/3C8MTKorlKs2cY0PwDRiZIQTZTUECbmg77dG5aTvdIISLQ8uZtnBDV1VMLvK
-Xb0kI5+mrUkDoeWbHBB5QQFCVhiI/o04xm2kmvT92VXEUHazhIFYUpIhggc9ihT8
-94NYtN8hcn3Bv6gJstMgf8ntKS1Ocw==
-=Eo0P
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmNWitAACgkQJNaLcl1U
+h9DVRwf/fwBDz3OkSQlrOFbfXT6twTFrMUsE27Ipb8skDd6nUyBGEI2vvVKw11qA
+kKMPljXMQOS/0YnHaqnTsz212bivpxjF1tdqbZ69WGWBLJxnEdsLRe8Tpac/kfIP
+N9xDgS5hpGTrbFk9ajZrVhGuS2MNOaX5ZsVA7MmAZcIwCOuzeFuEvGq4MiE/Pfs7
+YwAz0fCeHiIYafk2zlYUD2OIbWpw5dzbz6d+JtcefHJ7KLgymOtFGlslqXe7i7xP
+NCegihLOB3741mLUF1IuwuPrlLkMWHdGAPFBh9XFr8CXh7NZ48mwj7Pd1ahoW5FL
+UZEcwt8lD8KmHXwQ9Q++093NmgU8iA==
+=X9NO
 -----END PGP SIGNATURE-----
 
---===============4229735208082608648==--
+--===============1169701901495853971==--
