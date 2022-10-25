@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/bluetooth/bluez
-Date: Tue, 25 Oct 2022 23:36:20 -0000
-Message-Id: <166674098040.26185.2531292710965344318@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
+Date: Tue, 25 Oct 2022 23:41:36 -0000
+Message-Id: <166674129684.29568.16443690097168517301@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/bluetooth/bluez
-user: vudentz
+repo: pub/scm/linux/kernel/git/sj/linux
+user: sj
 changes:
-  - ref: refs/heads/master
-    old: 6899322b68e546b545ce3f6db1c569c64a90fdd7
-    new: f65b4d5fc77f6ed23f79eebe37a3db6ef9f6cc7a
+  - ref: refs/heads/damon/next
+    old: 016bc1a2c9d57972707bd47d6d5e15ae6e87b264
+    new: afdba601c3c554c0d6d77a648dd73215b04a3879
     log: |
-         f65b4d5fc77f6ed23f79eebe37a3db6ef9f6cc7a doc/ci.config: Add configuration for CI test
+         afdba601c3c554c0d6d77a648dd73215b04a3879 mm/damon: Implement DAMOS filter for memcg
          
