@@ -1,20 +1,73 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Tue, 25 Oct 2022 09:39:08 -0000
-Message-Id: <166669074854.11370.12908877598856046260@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sschmidt/wpan-next
+Date: Tue, 25 Oct 2022 09:46:01 -0000
+Message-Id: <166669116129.21561.6121960251570677546@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/brgl/linux
-user: brgl
+repo: pub/scm/linux/kernel/git/sschmidt/wpan-next
+user: sschmidt
 changes:
-  - ref: refs/heads/gpio/for-next
-    old: 6a0411dc1f8694cea7cb9be7c4586127241edfaf
-    new: b85faa8a0ee794d277dc98c5e17dc3de0b879c99
-    log: |
-         692ac899dfdbc59eb75dd9fac2f0b4fb65cbe5bf dt-bindings: gpio: Add gpio-latch binding document
-         b85faa8a0ee794d277dc98c5e17dc3de0b879c99 gpio: Add gpio latch driver
-         
+  - ref: refs/tags/ieee802154-for-net-next-2022-10-25
+    old: 0000000000000000000000000000000000000000
+    new: 4161634bce9537ed173b3c8fd0bf9f0218bcf41c
+  - ref: refs/tags/v5.19
+    old: 0000000000000000000000000000000000000000
+    new: 2c1ad8d25ec27ecee5910b62b26b93074091a3e4
+  - ref: refs/tags/v5.19-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 15fd1bd1e8b4c33f1f249d02d15aa043df52271c
+  - ref: refs/tags/v5.19-rc2
+    old: 0000000000000000000000000000000000000000
+    new: 91f5f37f5ce4ff7e0ba802f89cadd48b4040514a
+  - ref: refs/tags/v5.19-rc3
+    old: 0000000000000000000000000000000000000000
+    new: afdb472867d4677930236a864496939f496de1b9
+  - ref: refs/tags/v5.19-rc4
+    old: 0000000000000000000000000000000000000000
+    new: b9442c86eac959e20abb900442e6cc31d2d775d4
+  - ref: refs/tags/v5.19-rc5
+    old: 0000000000000000000000000000000000000000
+    new: 2235bc49f8edfaafc6269344aa80e6400931a4af
+  - ref: refs/tags/v5.19-rc6
+    old: 0000000000000000000000000000000000000000
+    new: 8fcdc0ea4cc7ea79a1837f5040f5656f9be98f9f
+  - ref: refs/tags/v5.19-rc7
+    old: 0000000000000000000000000000000000000000
+    new: 99023ab67a130976ddcfb7cfb5ca01358045768f
+  - ref: refs/tags/v5.19-rc8
+    old: 0000000000000000000000000000000000000000
+    new: cb84a9aae2260636f12f10c7f60779eb69e82849
+  - ref: refs/tags/v6.0
+    old: 0000000000000000000000000000000000000000
+    new: 45eb8ae5370d5df1ee8236f45df3f29103ba6e12
+  - ref: refs/tags/v6.0-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 09e4144cab94d10fec58b9296d6fc22a8b42b30a
+  - ref: refs/tags/v6.0-rc2
+    old: 0000000000000000000000000000000000000000
+    new: 59226d37effcc06e431f8d0ab609ddd3003666fe
+  - ref: refs/tags/v6.0-rc3
+    old: 0000000000000000000000000000000000000000
+    new: 035064d655edeefd7ea1aa65dd12bac26ab1b3c3
+  - ref: refs/tags/v6.0-rc4
+    old: 0000000000000000000000000000000000000000
+    new: 96e1a1037aedb9f9596e2af5a6fcaa8053dafe4f
+  - ref: refs/tags/v6.0-rc5
+    old: 0000000000000000000000000000000000000000
+    new: 52868a8b445605ea56831f92b5607ae3183f09bd
+  - ref: refs/tags/v6.0-rc6
+    old: 0000000000000000000000000000000000000000
+    new: 3447cb6c198e59b5b4275ecc6d4400a49b9dbaba
+  - ref: refs/tags/v6.0-rc7
+    old: 0000000000000000000000000000000000000000
+    new: b81e85a3efdc3d610f733fffc6f821f03d8fd490
+  - ref: refs/tags/v6.1-rc1
+    old: 0000000000000000000000000000000000000000
+    new: e0e492cebef25c13fc29b174f01b5178662f1652
+  - ref: refs/tags/v6.1-rc2
+    old: 0000000000000000000000000000000000000000
+    new: 0d8d9e948ba8d5e1a826935d8d1c4aace65dd185
