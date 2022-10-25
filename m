@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/helgaas/pci
-Date: Tue, 25 Oct 2022 18:56:19 -0000
-Message-Id: <166672417922.22436.11613948767467106779@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
+Date: Tue, 25 Oct 2022 19:04:21 -0000
+Message-Id: <166672466136.26807.17638230053455776472@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/helgaas/pci
-user: helgaas
+repo: pub/scm/linux/kernel/git/axboe/liburing
+user: axboe
 changes:
-  - ref: refs/heads/wip/bjorn-config-of
-    old: be531082fd9461f6d0fbe4e2f5f46313b4a62246
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/wip/bjorn-pm-v4
-    old: 1495e5bcd9f11e1ff8f07994e0a4458e3f17c81b
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/master
+    old: ba6846d5d3af166644ae80ebbad37302bd1cf2f4
+    new: 7588166107d0121150b6cda7d34aac1ce2aad7f9
+    log: |
+         7588166107d0121150b6cda7d34aac1ce2aad7f9 Roughly fill in CHANGELOG for the 2.3 release
+         
