@@ -1,42 +1,73 @@
-Content-Type: multipart/mixed; boundary="===============6043717987449171699=="
+Content-Type: multipart/mixed; boundary="===============5302236479192127359=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
-Date: Tue, 25 Oct 2022 17:25:53 -0000
-Message-Id: <166671875392.23465.7292545166751345850@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
+Date: Tue, 25 Oct 2022 17:26:03 -0000
+Message-Id: <166671876374.23608.5005144523073346709@gitolite.kernel.org>
 
---===============6043717987449171699==
+--===============5302236479192127359==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf
-user: ast
+repo: pub/scm/linux/kernel/git/gregkh/staging
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: 337a0a0b63f1c30195733eaacf39e4310a592a68
-    new: 88619e77b33d5718fae3c13d29f94b2646facfcd
-    log: revlist-337a0a0b63f1-88619e77b33d.txt
+  - ref: refs/heads/staging-testing
+    old: 8d5c6a1df1204280354bfb59316fd056e978a864
+    new: 5f803b22bd2befdb43dfbee69d90932edd3cc1d0
+    log: revlist-8d5c6a1df120-5f803b22bd2b.txt
 
---===============6043717987449171699==
+--===============5302236479192127359==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-337a0a0b63f1-88619e77b33d.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-68fe1db04443cee58ddbeae9c506f7262b256168 net: ieee802154: return -EINVAL for unknown addr type
-444d8ad4916edec8a9fc684e841287db9b1e999f net: ieee802154: fix error return code in dgram_bind()
-5a5c4e06fd03b595542d5590f2bc05a6b7fc5c2b mac802154: Fix LQI recording
-9d9effca9d7d7cf6341182a7c5cabcbd6fa28063 ethtool: eeprom: fix null-deref on genl_info in dump
-4fa86555d1cd338afc6e6308cc1ff890a014ec8c genetlink: piggy back on resv_op to default to a reject policy
-4a4b6848d1e932b977e6a00cda393adf7e839ff8 net: lan966x: Stop replacing tx dcbs and dcbs_buf when changing MTU
-e72e4032637f4646554794ac28a3abecc6c2416d mptcp: set msk local address earlier
-54f1944ed6d2554475f39a4921dc5422fa692c4f mptcp: factor out mptcp_connect()
-fa9e57468aa10e91deca6d82ccd17c73ffdd1e40 mptcp: fix abba deadlock on fastopen
-fe1fd0ccd8b2c9861f79c26a926b5fc1f38cf9ba Merge branch 'mptcp-fixes-for-6-1'
-baee5a14ab2c9a8f8df09d021885c8f5de458a38 Merge tag 'ieee802154-for-net-2022-10-24' of git://git.kernel.org/pub/scm/linux/kernel/git/sschmidt/wpan
-88619e77b33d5718fae3c13d29f94b2646facfcd net: stmmac: rk3588: Allow multiple gmac controller
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1666718760 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
+nonce 1666718760-47eb840f639b29829a481e319592db746a3ab799
 
---===============6043717987449171699==--
+8d5c6a1df1204280354bfb59316fd056e978a864 5f803b22bd2befdb43dfbee69d90932edd3cc1d0 refs/heads/staging-testing
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmNYHCgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+9B4P/jEmVCM6QcOeCpeLsFcI
+mLRbhvoKmE7+BpVnIeA5WsyXtg10qo0rRYur7XUg3sbC35qtMRYyx1SXEjyyhyWI
+qupiT8no5bSwVaqpkqNWOPDsZ5pRnghnR7Er1UoSvy0hd0iUJfdHF3pWqiQPa3zY
+2KJO2UddH3sffHCYJCAiV4AzLbQmAch7jAV6Fgzew9J8gTD2kaHsGM2mUZs5vKot
+QXON5Hc2mPDDpz20yXkEGGoDJMe4CT/VwZo/f62PbU9gPIarucJeAyaw2K+GAeZv
+2rk4rP4LcmmKfw5YhIMkzn45/IxJaMZSXJ8CpQ38RPDvvZEMIGnI6RXpI3qXKsHc
+tVtDlQiQLoiSpYbK287kLYRrHyErVfG7ZZhWqkBvAGFDpoAi/f4CoR0Jr2dburXH
+zC3vWmQ1JyWhaQI2BirdPJp0Dgkg0f0fL5qpchaRsn+BfTZSTxOBGng2EiBCqdSq
+mIFlYjxcseeMIpsH5c0TJz5JDnJQTM1BmFAWmBG5bJ4O+rjg1YSWBVkcsGp/tqTi
+0WL8Gz3XU43+plZwokvU/WU/H9i490ER88QnXRqCHlXulK1ehmurSpt+oSSSg3ys
+d6CDiPdCRAaqf9+GpN7MwCSjYLy5j1pThyXhG+2z2bqdoSabRsp3AIqAdtU2piBC
+JeOrZ4eN+nQhKZA9sd4OQyDZ
+=lTps
+-----END PGP SIGNATURE-----
+
+--===============5302236479192127359==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-8d5c6a1df120-5f803b22bd2b.txt
+
+ec6d91016437fe8e5fdcb8cc60c14887e588998f staging: r8188eu: use standard multicast addr check
+2ce164e9b363ee845287b7e693a1f9e7429ecc08 staging: r8188eu: don't set pcmd_obj components to 0
+9e9e26190ee651ba868281ae16eab5dc1bcecf0e staging: r8188eu: NetworkTypeInUse is not in use
+e329c18341b72c8386a1a25f8176ec541e66bf2b staging: r8188eu: remove wait_ack param from _issue_probereq_p2p
+5229004f800219e849969eaa8197dff3b55f4b02 staging: r8188eu: bCardDisableWOHSM is write-only
+db213ea614e0b65d4be9c1cb78d14465a2c5b146 Staging: rtl8192e: rtllib_tx: fixed multiple blank lines
+2de698578ff331f98021d53e626e46acc4a91b46 Staging: rtl8192e: rtllib_tx: fixed alignment matching open parenthesis
+5b773c5504205398ce7ebcf42c5092a7759b556a Staging: rtl8192e: rtllib_tx: added spaces around operators
+73fb5660fc300ecd9a611e1997c68bc81c8098db Staging: rtl8192e: rtllib_tx: fixed lines ending with an open parenthesis
+438b4ade12582c358a6e6ab762408923f1af2d44 Staging: rtl8192e: rtllib_tx: removed unnecessary blank line before a close brace
+6e006508f6e20a0f09dd9e64bc23c0592d92cc2d staging: rtl8723bs: Fix indentation in conditional statements
+5f803b22bd2befdb43dfbee69d90932edd3cc1d0 staging: rtl8192e: rtllib_crypt_wep: multiple blank lines removal
+
+--===============5302236479192127359==--
