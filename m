@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8434684035342924895=="
+Content-Type: multipart/mixed; boundary="===============6561001507773525862=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Tue, 25 Oct 2022 17:08:32 -0000
-Message-Id: <166671771242.9128.4191970605851589305@gitolite.kernel.org>
+Date: Tue, 25 Oct 2022 17:09:38 -0000
+Message-Id: <166671777820.9867.15777585903067238550@gitolite.kernel.org>
 
---===============8434684035342924895==
+--===============6561001507773525862==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,44 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/char-misc-linus
-    old: d76308f03ee1574b0deffde45604252a51c77f6d
-    new: 6746eae4bbaddcc16b40efb33dab79210828b3ce
+    old: 6746eae4bbaddcc16b40efb33dab79210828b3ce
+    new: 1deac35b2dbc27dd53665a4db9c6d05b323deea3
     log: |
-         6746eae4bbaddcc16b40efb33dab79210828b3ce coresight: cti: Fix hang in cti_disable_hw()
+         472a1482325b3a285e0bcf82c0b0edc689b7e8cd counter: Reduce DEFINE_COUNTER_ARRAY_POLARITY() to defining counter_array
+         ec0286dce78c3bb0e6a665c0baade2f2db56ce00 counter: ti-ecap-capture: fix IS_ERR() vs NULL check
+         d917a62af81b133f35f627e7936e193c842a7947 counter: microchip-tcb-capture: Handle Signal1 read and Synapse
+         d501d37841d3b7f18402d71a9ef057eb9dde127e counter: 104-quad-8: Fix race getting function mode and direction
+         1deac35b2dbc27dd53665a4db9c6d05b323deea3 Merge tag 'counter-fixes-for-6.1a' of git://git.kernel.org/pub/scm/linux/kernel/git/wbg/counter into char-misc-linus
          
 
---===============8434684035342924895==
+--===============6561001507773525862==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1666717710 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1666717775 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1666717709-a56fdd4add0a42c1b84e6da4c6df05d49287cea6
+nonce 1666717774-4ca8e34168a5e2c9e0588662d5978c76c968599e
 
-d76308f03ee1574b0deffde45604252a51c77f6d 6746eae4bbaddcc16b40efb33dab79210828b3ce refs/heads/char-misc-linus
+6746eae4bbaddcc16b40efb33dab79210828b3ce 1deac35b2dbc27dd53665a4db9c6d05b323deea3 refs/heads/char-misc-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmNYGA4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+G70P/2/IrBjQwwdEi4alDPcf
-xcqcDMHaHyZSjI10DfXD5SZAq1QY8y9ABC2JuShAzxatGW7ERUbpBBc0sq381DSV
-innhK60FLjP6AhsbOHMh7Z6XA/1j07+Kon1aqLYySDkB0VtIisod6Lhnmq30d9oc
-MCHz3Iz0/wGGDLEWOb12OpyTV3rKDYji1HAZDj0913UnOc6LcpUOdjtZ+ztTqMdQ
-UlMP64jHfAvZnAZF+uvX/jQoiaXU92Te9CgJSb3hjthP1sep0kwWXCcEnQGPC0Vt
-EalNAlzYmtWQGdJj4lynrWrLDWO6QCTeC2yFN/gSH9572uIZYPIWeJINkpjUGmAN
-RdqU2JQ1kUQGUA5lusRPE2eWwQre8QJ8O/akEbzgzLSORQA2Uro4V3h961MhYOje
-4GrHaHewP+bHpWhwT2K1tIRkusw2Wa2BzYaT0JBwcxuRDuVm9rcANGvG1rFPiKGR
-1Ub4Qih8qYIeFOHPeN6Jo5M8xJvNL08SvMt7c/6Cr6ApfgMU83+z7cW3y8ePyT6H
-p1nsaTCJSyMB3NXLejiYT/x5ZTZ9481Re2f/DvXuM1oO0BGMe/WFTeA4maJ1D9nT
-2aM9Snd21CgbwV2mGdSbOds9Fl7P+/BYqqb9D7BrpuEiOqHgwCkzp4hB0DgWmjLr
-N4cxRGp9q21R+1fDo4zM5M4L
-=F9te
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmNYGE8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+TR8P/Asx9yMTZYCT/WXU6Wzv
+HAgGE+gmZBJmVxyCp6LfD+026Kh8lZU1iknKgxTiQkaFSsiCgO8vCAxsmoDllDhF
+2TJ/mQ0MpsfPounzongge7qHMVpxcmIk2Dj3PT2h8WaLzXeIh7vKC4r12VQDpwFJ
+6gmxFRR7pXCw1qPIjiAQm8koxshGJuAKZwZ5YlCs0y74tfmJcWaJw0Ccwd0RkxDD
+/LJfkufE4itiUZM7b34kkKH7pQb2+nmytXyR34lp2OcConW232n1JJx+bZP0qyC7
+YKjd5LFouMepmelO9f2CzDWu15JYLpsLZQAwALskVTw+1SBiO1dmqUQKfC8XObIT
+KTSGi6Wk6k534wBAbTqTLkpvMpAgriyQfzS3zRVNVerw2b4q4JWehalXdJizwrBo
+548CgEwpEOpAiO6KstSSvMrBFtCB1G1lXdCJf2l7M1qQ9ovmwBvMyRvSHpt0ucFI
+717UD+JbhziDRGCAZVMUc3DXIpYybFL50z3ojmx+Q5IsL1A3fM/yUcweYNhOdxQ/
+vFajYqr7BMVY0Q4/nYwBTNKDcc50qFIfiX1MmF0GuMYpGPKl0qfOFfPuODaH2iHm
+F6dCpGQ3l8uCY7jAL9D1W2fv3kWgic84OrFkKgf/KJPn2Zd5g2TlWQEV87GkFew5
+r90jm8grvAgYI4FZa6Cjy7J3
+=z44W
 -----END PGP SIGNATURE-----
 
---===============8434684035342924895==--
+--===============6561001507773525862==--
