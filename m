@@ -1,28 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jkirsher/firmware
-Date: Tue, 25 Oct 2022 03:23:10 -0000
-Message-Id: <166666819072.27917.6828955491850609777@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jkirsher/iproute2
+Date: Tue, 25 Oct 2022 03:23:13 -0000
+Message-Id: <166666819375.28032.11481298745030785631@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jkirsher/firmware
+repo: pub/scm/linux/kernel/git/jkirsher/iproute2
 user: jkirsher
 changes:
-  - ref: refs/heads/master
-    old: 98b55774bcc6c901cc985e8fab1404219a4ef196
-    new: c5d925efd591f4f2e4842eca79ae3a8d874902e2
+  - ref: refs/heads/main
+    old: cb2c7ff0075901c54627a310f7c27d664ac289cc
+    new: 9b1e0201c64bafba836a0f6785f295d3e829e882
     log: |
-         171f9c702d9ca2e02b17aaee1b58bebb299d5a38 rtw89: 8852b: add initial fw v0.27.32.0
-         2f4e211e9218f58238cddee8f855adf2d25f230b brcm: add symlink for Pi Zero 2 W NVRAM file
-         38cdfd9451bca8c83f15cfbec880b0666a12db37 cnm: update chips&media wave521c firmware.
-         8752f7a647662bf88916152450c21d763dafb443 i915: Add HuC 7.10.3 for DG2
-         cff791f17356ffb5c6b3cacb331a9769f197005c rtlwifi: Add firmware v4.0 for RTL8188FU
-         218ec736ad8bfb087e5b061eeb5c57b342581d55 rtlwifi: update firmware for rtl8192eu to v35.7
-         f47b9cf24c78d1bf5230295e62bd9eae619cf3f2 rtw89: 8852b: update fw to v0.27.32.1
-         ad858a99e4fc15d3296a912848b3756a0cbe02aa linux-firmware: Add firmware for Cirrus CS35L41 on HP Laptops
-         9175c5cd61db96945d7d54a2e744f8306b0f280c linux-firmware: Add firmware for Cirrus CS35L41 on Lenovo Laptops
-         c5d925efd591f4f2e4842eca79ae3a8d874902e2 linux-firmware: Add firmware for Cirrus CS35L41 on ASUS Laptops
+         1ff227545ce1e0e9daf7ecb3eec52ddafff57eb5 u32: fix json formatting of flowid
+         3ab6d5d02f34c75c2547f470c8fe83a59cc9fdeb iplink_can: add missing `]' of the bitrate, dbitrate and termination arrays
+         84c036972659ae9a98aac3cef983cc7dd8e14c53 dcb: unblock mnl_socket_recvfrom if not message received
+         6e42ee99007440e69fa134589e45401f3ebd9f71 ss: man: add missing entries for MPTCP
+         75ac5c15883c1aa8e21e6e8f80dab8bb29293ace ss: man: add missing entries for TIPC
+         213af7b56b082c79918f4be3149b936542c6dab4 ss: usage: add missing parameters
+         9b1e0201c64bafba836a0f6785f295d3e829e882 ss: re-add TIPC query support
          
