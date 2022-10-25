@@ -1,21 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Tue, 25 Oct 2022 18:34:21 -0000
-Message-Id: <166672286166.5668.16823490455908633779@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Tue, 25 Oct 2022 18:50:03 -0000
+Message-Id: <166672380312.16517.13785929621742242426@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/linux
-user: sj
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/damon/next
-    old: 4324d6cd194d81dc2cf04b6959406065bc3caecc
-    new: 016bc1a2c9d57972707bd47d6d5e15ae6e87b264
+  - ref: refs/heads/for-6.2/block
+    old: 941f7298c70c7668416e7845fa76eb72c07d966b
+    new: a55b70f1273a54b33482db8b2568da435fefd6c2
     log: |
-         48d32506dbce5750c8d2c8b03117e08399c20f7a damon/core: implement DAMOS filter
-         8f995bafc7b80fd63bc3668be40516aba71255e0 mm/damon/paddr/pageout: support anonymous pages filter
-         016bc1a2c9d57972707bd47d6d5e15ae6e87b264 mm/damon/padr/lru_(de)prio: support DAMOS anonymout pages filter
+         a55b70f1273a54b33482db8b2568da435fefd6c2 block: remove bio_start_io_acct_time
+         
+  - ref: refs/heads/for-next
+    old: 19c475a75bf2c6c218d985093af35bef8d49415e
+    new: 12c4acb7462b01de61b139f58acfa7875d2cd63b
+    log: |
+         a55b70f1273a54b33482db8b2568da435fefd6c2 block: remove bio_start_io_acct_time
+         12c4acb7462b01de61b139f58acfa7875d2cd63b Merge branch 'for-6.2/block' into for-next
          
