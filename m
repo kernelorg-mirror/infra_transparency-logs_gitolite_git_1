@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Tue, 25 Oct 2022 23:27:58 -0000
-Message-Id: <166674047803.20220.7587235209764636687@gitolite.kernel.org>
+Subject: post-receive: pub/scm/bluetooth/bluez
+Date: Tue, 25 Oct 2022 23:36:20 -0000
+Message-Id: <166674098040.26185.2531292710965344318@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: andrii
+repo: pub/scm/bluetooth/bluez
+user: vudentz
 changes:
-  - ref: refs/heads/for-next
-    old: 31af1aa09fb9b31694a4bad7e49204c75fb6f7dc
-    new: f3c51fe02c55bd944662714e5b91b96dc271ad9f
+  - ref: refs/heads/master
+    old: 6899322b68e546b545ce3f6db1c569c64a90fdd7
+    new: f65b4d5fc77f6ed23f79eebe37a3db6ef9f6cc7a
     log: |
-         f3c51fe02c55bd944662714e5b91b96dc271ad9f libbpf: Btf dedup identical struct test needs check for nested structs/arrays
+         f65b4d5fc77f6ed23f79eebe37a3db6ef9f6cc7a doc/ci.config: Add configuration for CI test
          
