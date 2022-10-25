@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Tue, 25 Oct 2022 18:32:02 -0000
-Message-Id: <166672272279.4699.15199891105021122672@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Tue, 25 Oct 2022 18:34:07 -0000
+Message-Id: <166672284776.5491.2991037644604915426@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/linux
-user: sj
+repo: pub/scm/linux/kernel/git/tip/tip
+user: daveh
 changes:
-  - ref: refs/heads/damon/next
-    old: 287abc2e5c3fbe9fddf2cce6bf571177bfc43c29
-    new: 4324d6cd194d81dc2cf04b6959406065bc3caecc
+  - ref: refs/heads/x86/core
+    old: bd194611444caf7f30e9198b7e2b89522b257462
+    new: 98dcf58159365d753b54d07f85a89d61ee15e036
     log: |
-         4324d6cd194d81dc2cf04b6959406065bc3caecc mm/damon/core: Fix build error
+         98dcf58159365d753b54d07f85a89d61ee15e036 x86/retpoline: Fix crash printing warning
          
