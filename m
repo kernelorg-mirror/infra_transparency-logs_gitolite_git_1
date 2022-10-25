@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/helgaas/pci
-Date: Tue, 25 Oct 2022 21:14:08 -0000
-Message-Id: <166673244879.21650.14593191280601471669@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 25 Oct 2022 21:29:24 -0000
+Message-Id: <166673336455.304.3341296260840111228@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/helgaas/pci
-user: helgaas
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/wip/bjorn-22-10-config-of
-    old: f9864e8f2ce05244bc0e15e6593972f07dfcea8c
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/wip/bjorn-22-10-slow-down-io
-    old: ea4e0099789879f18a195997a13b9c510f097c39
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/master
+    old: d6dd508080a3cdc0ab34ebf66c3734f2dff907ad
+    new: b5f0de6df6dce8d641ef58ef7012f3304dffb9a1
+    log: |
+         b5f0de6df6dce8d641ef58ef7012f3304dffb9a1 net: dev: Convert sa_data to flexible array in struct sockaddr
+         
