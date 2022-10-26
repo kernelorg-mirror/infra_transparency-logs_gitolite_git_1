@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/wireless/iwd
-Date: Wed, 26 Oct 2022 19:58:45 -0000
-Message-Id: <166681432557.20640.5334475578435930373@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Wed, 26 Oct 2022 20:03:48 -0000
+Message-Id: <166681462838.24035.12501581302471516426@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/wireless/iwd
-user: denkenz
+repo: pub/scm/linux/kernel/git/broonie/sound
+user: broonie
 changes:
-  - ref: refs/heads/master
-    old: 8f8378a51f0bf2997e7b39ebaeccf4c1b1bfc286
-    new: 5d8b86ff7c4bb27d071613ed15f56f5e1a768e62
+  - ref: refs/tags/asoc-fix-v6.1-rc2
+    old: 0000000000000000000000000000000000000000
+    new: 87b8659d6df4c26d0d243b6bb15ccb60a6b651ec
