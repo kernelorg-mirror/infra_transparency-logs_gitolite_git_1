@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0185842952168298982=="
+Content-Type: multipart/mixed; boundary="===============6284269555138280863=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Wed, 26 Oct 2022 10:57:59 -0000
-Message-Id: <166678187911.29951.12840769840380369869@gitolite.kernel.org>
+Date: Wed, 26 Oct 2022 10:58:02 -0000
+Message-Id: <166678188293.30028.6769823640730929790@gitolite.kernel.org>
 
---===============0185842952168298982==
+--===============6284269555138280863==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,43 +16,38 @@ repo: pub/scm/linux/kernel/git/stable/linux
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-6.0.y
-    old: 9fbc6bfb7e30d27a0f44229b462b8d1167a0f95f
-    new: 3829606fc5dffeccdf80aebeed3aa75255257f35
-    log: |
-         c86103faa9db320cc31cc3e878195f9b80fa8a58 clk: tegra: Fix Tegra PWM parent clock
-         217fd7557896d990c3dd8beea83a6feeb504f235 Revert "btrfs: call __btrfs_remove_free_space_cache_locked on cache load failure"
-         3829606fc5dffeccdf80aebeed3aa75255257f35 Linux 6.0.5
-         
+  - ref: refs/tags/v6.0.5
+    old: 0000000000000000000000000000000000000000
+    new: b0a5c296d896606b260b781814cdfd887b42bec2
 
---===============0185842952168298982==
+--===============6284269555138280863==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1666781878 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1666781882 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1666781876-422428844c3b24549c251036360643d837980d36
+nonce 1666781880-296e8826cdecb4fe42a497f9f0e80ae041bdb884
 
-9fbc6bfb7e30d27a0f44229b462b8d1167a0f95f 3829606fc5dffeccdf80aebeed3aa75255257f35 refs/heads/linux-6.0.y
+0000000000000000000000000000000000000000 b0a5c296d896606b260b781814cdfd887b42bec2 refs/tags/v6.0.5
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmNZErYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+lhwP/A2jTpXfDN0sg2RwPPOM
-d0Snbu9DO0Ldo8NxL3W0AJ2ANwxFwbZOovmuwjVPugcl2Hk+BG8u/FmHMiewFR7U
-3o2tJ81UZMssflEqpnGQHg/jxNYdpwe50oYe9sSAjOD8dYWwF2Yuz9d2Wyn7xA7F
-PnkfM5Cli+mUvgsL24a3kToTpkXngV3zwctj4tSiPJtL0zT0BEYHJqD38gibR4N9
-NHbsLMnUg6pIU59mI7Bi7Aw4Iltq8Z54rnMUPZg4bK2GMGqQhO/m1HjLKolcYPCe
-NV9v4eBNEKYQ62vbb1s0orr6unydzpamcBRMWmIX+XkhVPy43ykHJBUb0tRVymXx
-QIltKYVRu7ZbJg1WN4mjqfKgMn0kP8BrVFUnif+5DlBEmnOmyOuRrLJR7pwU2UIq
-sSQ5ThSIFeA9RbhDj5ybX8iFTgL0N4CSnMv76icMo+9KSaQi61sZQULWt+EUm4Eo
-2BnZ26AmXF+YtOanVXLqJA5BchEuFcLoNWLhdEig7zflZMhkN1rykUUnrbW24S5d
-RtPNJXGyvNeA21+5q8Q0GQFN8obvy7SWT89Mm3xdGYYzF2PX8uVpv8OflhigSLoQ
-eBvP0ZQrlHOlTClde+/KJWbRRxy93HmzFBI7EtiB9EvVc9/fnVx5MYT0st+PV/CC
-BuwyZVYD3kWOaVRnH8dbWNxX
-=XKP+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmNZErobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+IegP/jDSoF2Yu1cwkshxG8hq
+qIWI+GAxnEQJpbRqI/TEPpvd2wmLfqL9ICkDRt3huUfylele8KaZjmQ5EBC++DjU
+NDsKlhenmrSMu9/h0jF7fYzCNjPpt0RwRRJJWHDX5oyy7PYrY8oUO6UQLW8t1E6V
+YECnywvKcTYkt51FXW2CcSrtOX91baUzaA61QZIDm9wrjKMogFQIQkQpLubK5D3c
+THyx8Cc9iJrTY8VY3jtNAHTX9KQEFDH38m6XHT891UmImfWQE1DjbfY9kj7TrHgb
++TSvEZopAOx6o6WAA36c9LcEeo4RsP9yLG9pR83w3BlYt64vXBSfaIHyHViB6K6H
++Kpa8CS6Z3hJjRpsamoe11I91zyEjvBuyNLDQ+Frr5/rboD97JGsaLBpwbtr4aX0
+QuPwwa9Qb736YXXLEj0Nmjpvxj9HI6gTh9XYB95Z0NPrzAJvZYZa5fWSeVCZUIzr
+fiRRDofpY0tqyKdd//r9Ll3bAM+ineFkk1eQHho78S0EfM/nI60QtHQCN2pmzktb
+8Dh+bZxn7KiR3CH6zVqaqlwAJxP60gRzxJ2AcgC0CRq+N5z3H+7HwGmcBfIf9rDX
+2gkBxLbMNyFzEvjH1tZm8r4aDkytGM4Tp6Pn0gLONwPtfOWUElmObZofKURRV78j
+kbDCNL31aAOWeY2/qGba0Ufh
+=Oa9x
 -----END PGP SIGNATURE-----
 
---===============0185842952168298982==--
+--===============6284269555138280863==--
