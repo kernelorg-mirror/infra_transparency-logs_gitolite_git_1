@@ -1,24 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/intel
-Date: Wed, 26 Oct 2022 13:45:45 -0000
-Message-Id: <166679194581.10245.10872344845248003170@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
+Date: Wed, 26 Oct 2022 14:06:36 -0000
+Message-Id: <166679319687.24918.1599495308568183491@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pinctrl/intel
-user: andy
+repo: pub/scm/linux/kernel/git/s390/linux
+user: gor
 changes:
-  - ref: refs/heads/for-next
-    old: e5530adc17a79f2a93e8b35e0ce673fc33f5f663
-    new: 98e63c1140a458d6795018ff30e1b259c0e1131c
-    log: |
-         de1fabef28e09dedfc1fb6b75a23f5851ce78658 pinctrl: alderlake: Deduplicate COMMUNITY macro code
-         b62241545ba12735438342874aa2aa67c68bfd22 pinctrl: cannonlake: Deduplicate COMMUNITY macro code
-         ac51b59dff2c8f92292347126cd6d24201e73b89 pinctrl: icelake: Deduplicate COMMUNITY macro code
-         2d145b8bd3eb72ed577550355430930ec1057d15 pinctrl: sunrisepoint: Deduplicate COMMUNITY macro code
-         1177ca3a0b53bdfb1438e33a5546527de728ec10 pinctrl: tigerlake: Deduplicate COMMUNITY macro code
-         98e63c1140a458d6795018ff30e1b259c0e1131c pinctrl: intel: Use str_enable_disable() helper
-         
+  - ref: refs/tags/v6.1-rc1
+    old: 0000000000000000000000000000000000000000
+    new: e0e492cebef25c13fc29b174f01b5178662f1652
+  - ref: refs/tags/v6.1-rc2
+    old: 0000000000000000000000000000000000000000
+    new: 0d8d9e948ba8d5e1a826935d8d1c4aace65dd185
