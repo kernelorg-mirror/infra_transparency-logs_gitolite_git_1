@@ -1,42 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============8663493184111491968=="
+Content-Type: multipart/mixed; boundary="===============3239439322132112280=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ribalda/linux
-Date: Wed, 26 Oct 2022 12:07:33 -0000
-Message-Id: <166678605304.5322.17149150410591659415@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Wed, 26 Oct 2022 12:09:19 -0000
+Message-Id: <166678615936.6027.7207221783298965280@gitolite.kernel.org>
 
---===============8663493184111491968==
+--===============3239439322132112280==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ribalda/linux
-user: ribalda
+repo: pub/scm/linux/kernel/git/gregkh/usb
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/b4/resend-powersave
-    old: dc91ef4f36b316e8857b5142a7fb370a8d25955d
-    new: adaf1ce145ad7c4618d40b34ae1b0dc47a1d7bf2
-    log: revlist-dc91ef4f36b3-adaf1ce145ad.txt
+  - ref: refs/heads/usb-linus
+    old: 5aed5b7c2430ce318a8e62f752f181e66f0d1053
+    new: 88c8e05ed5c0f05a637e654bbe4e49a1ebe7013c
+    log: |
+         88c8e05ed5c0f05a637e654bbe4e49a1ebe7013c Revert "usb: gadget: uvc: limit isoc_sg to super speed gadgets"
+         
 
---===============8663493184111491968==
+--===============3239439322132112280==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-dc91ef4f36b3-adaf1ce145ad.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-9efff4b3921a5e02c867f8277d96695ed5cb3ba6 media: uvcvideo: Handle cameras with invalid descriptors
-98123990120d779085998fb7f3b06ccde2fbbff0 media: uvcvideo: Fix return value check in uvc_gpio_parse()
-9d9e3825e8f7395bd24d4ea7d87b57f65f89e2c1 media: uvcvideo: Only create input devs if hw supports it
-58540610e464d8b2ba46a11b81c3e6fcc4118fae media: uvcvideo: Handle errors from calls to usb_string
-96c267c5c9d71a7cb367d83fb9b6b6acb4b90c3f [RESEND] media: uvcvideo: Implement granular power management
-e7a2026b9d1933e16b4ab6cf6b6946c1600c00da media: uvcvideo: Refactor streamon/streamoff
-f134e57d32bc3660f14c274e4188e5cd32712c58 media: uvcvideo: Do power management granularly
-06c265f71894ee82b8a3673dd90de97aea59fcd7 media: uvcvideo: Only call status ep if hw supports it
-3f727f4fc391f9fcd08af63d51f7d2d164ab2930 media: uvcvideo: Cancel async worker earlier
-3c0deed282122c4001d7583c76d552466e0a7130 media: uvcvideo: Release stream queue when unregistering video device
-2c98e667efc2f6742a659762f2b61fb787da3bc8 media: uvcvideo: Lock video streams and queues while unregistering
-adaf1ce145ad7c4618d40b34ae1b0dc47a1d7bf2 media: uvcvideo: Protect uvc queue file operations against disconnect
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1666786213 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1666786157-afcb6cdbbbe840585f4a3d0165e57c8ea1830d1d
 
---===============8663493184111491968==--
+5aed5b7c2430ce318a8e62f752f181e66f0d1053 88c8e05ed5c0f05a637e654bbe4e49a1ebe7013c refs/heads/usb-linus
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmNZI6UbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+uLoQALoRCg4U5fhxfQ4VH6Rw
+QqI6cRcnaToY+ywQ9KDU4hTgRCAf7ZRyk6myEoa+89C0uQJyW+Fct4Sdwa17S8Xe
+/K1ZiSvfX5u/RZNdU1mewyz/baCYN0/vp1HjrYn31SMYHx8easU8lsYYmVLdHDGy
+f/eM/Do0ZAKhRrNSLOHmHH213YBBm/RMkveb4SlRBpHSBt6+J+b2ncsULwRqDuRJ
+h8lZZJQ0TkE/6IRRlo4WZq6T2cwmgXp1sKUGPPideQazBqO4CV7GaKs533QKrlDW
+X6jgIKK2T0CnRjNXSmJhGXtphsoSuDMzNXJbUlp2H3bNSgb+K1d1UjeO71tKWVu6
+uRp8pYiqC1B4QzFVuKhjJLBXDrTcA7gXNnS9KZt0xXbzqSJzKNn3ucg5TvcMK2Oy
+sNekm8X/51PpzjihSnH7ZiLjTCwI7iWS8diBCqza1S5J4ZVWMB8zt+k5Ec+Ylesq
+uyCt5JUAqJ/WAEcZvbNJaTQher9GTMO135HM3WCigN5cUFTbP3G8zMiHtRjjkqR9
+OcBdfWv4KsgV/Q4uCVn7yZyIYltoDlqjdVvDrjq1HLwbSGvw2HR1EL14Kb8e2geu
+yj0nweYz9mLKETN6pIz4bCwxQTpUJXZ3Bn3dKjGDhdXjitnN9sxGo5Rgd2W/zmXf
+ovcmApDHFoOGosHX7G7UmY1N
+=AXf4
+-----END PGP SIGNATURE-----
+
+--===============3239439322132112280==--
