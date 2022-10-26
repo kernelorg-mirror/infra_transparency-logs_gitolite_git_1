@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
-Date: Wed, 26 Oct 2022 06:52:31 -0000
-Message-Id: <166676715121.12457.15754915408496988994@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Wed, 26 Oct 2022 07:33:04 -0000
+Message-Id: <166676958435.9124.13494551129923823939@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/palmer/linux
-user: palmer
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
-  - ref: refs/heads/fixes
-    old: 89fd4a1df829187d4d35f6a520cc531de622e6f0
-    new: 389ec68c83ee142f2edde954751fb67dafb5be32
+  - ref: refs/heads/master
+    old: fb34edff70665f6c2fde319fd7a71d7953ce74e3
+    new: 4b9e3937966f7ddf90e6013c87f73c260963b0ea
     log: |
-         389ec68c83ee142f2edde954751fb67dafb5be32 MAINTAINERS: git://github.com -> https://github.com for sifive
+         4b9e3937966f7ddf90e6013c87f73c260963b0ea tests: don't print mount hins on terminal
          
