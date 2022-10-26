@@ -1,28 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netfilter/nf-next
-Date: Wed, 26 Oct 2022 10:55:17 -0000
-Message-Id: <166678171771.28669.398425194759650844@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============5958453059075141336=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Wed, 26 Oct 2022 10:57:44 -0000
+Message-Id: <166678186400.29734.4094666602363151071@gitolite.kernel.org>
+
+--===============5958453059075141336==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netfilter/nf-next
-user: pablo
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: d6dd508080a3cdc0ab34ebf66c3734f2dff907ad
-    new: 91619eb60aeccd3181d9b88975add706a9b763c1
+    old: 8fb00a521c7f23f6d0f2687e8b521db8ac7dc49e
+    new: 44e1828725cd7c89d51694ab3fde7d9a5dcaf10a
     log: |
-         ac1f8c049319847b1b4c6b387fdb2e3f7fb84ffc netfilter: nft_payload: move struct nft_payload_set definition where it belongs
-         e7a1caa67ce62765fe174cae08e537d542bb44f8 netfilter: nf_tables: reduce nft_pktinfo by 8 bytes
-         d037abc2414b4539401e0e6aa278bedc4628ad69 netfilter: nft_objref: make it builtin
-         c247897d7c194e6fb4a7c8314af2226bec017a59 netfilter: nft_payload: access GRE payload via inner offset
-         3927ce8850cacc1790cd4c5d02ca42e24df9fa6b netfilter: nft_payload: access ipip payload for inner offset
-         3a07327d10a09379315c844c63f27941f5081e0a netfilter: nft_inner: support for inner tunnel header matching
-         0e795b37ba044893107f887b037594645a6fc584 netfilter: nft_inner: add percpu inner context
-         a150d122b6bdb84df532057aa3b2faf8c6485792 netfilter: nft_meta: add inner match support
-         0db14b95660b63dceeb7e89f2e3ffa97d331fce0 netfilter: nft_inner: add geneve support
-         91619eb60aeccd3181d9b88975add706a9b763c1 netfilter: nft_inner: set tunnel offset to GRE header offset
+         44e1828725cd7c89d51694ab3fde7d9a5dcaf10a Linux 6.0.5
          
+
+--===============5958453059075141336==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1666781863 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1666781860-76fac41b85c7312a5ce931e844b48de2e0cf3444
+
+8fb00a521c7f23f6d0f2687e8b521db8ac7dc49e 44e1828725cd7c89d51694ab3fde7d9a5dcaf10a refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmNZEqcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+jPIQANVagbFL3OFLldADtrsK
+DQm4f6ueAbmCE/GW1wvRPcHmB9+0clNMTD4/Y7D+OFwcedhR1bmzOJK295s9sFF+
+qI6hQyXBpShmyQoJlcP6pkql/KIVV1Jb9BWBH5iIDhXA2QOLPUfSt+5/Aiz1Z6C+
+l7I8rS5HfWoXbOY+rKTwe3nLVsHQIIsr1w68Zp0JgdcXFZGhq+nC7fzCe7aYdrXc
+Jrp01k6Fi0W/k7JzSmfNYNtGNG86mYy7BSgktSLjPeK8v4QghOemcO9exNCJWbpy
+7jLbNp1juWU4vAAzy7dP7nrlhWqMAlFGDfvmb7+hke1c1TYCHAjM911dLsuED7Jz
+lxD9th21bk2RfpyiptbuPrjMlI0MNajK9rAAvRjckcLw6XAm7pG+sWfJL8Jkm6gl
+SDWioScq9VK02I2opXlN8OaDML7064weCnH+H//k8J2AV5JBRTZ9cDn6Wi82GUMH
+KqOaRKeD6bmHPpbca0yXbpOK30CN+bBB7TLAYrJFKch3sbrMjIxzP+PUDafLykOK
+uKMrXKQAUs2ENQqYZy46J4RYJb8zmClPST08KN8qa5/2hzZVO+5GxdRzzeVCTdwK
+70YIM+yd8+5T3YttBMaGRu3qeQqNVdkf8TEESFdPCIH9BATBJXB7Tf27fSTYBjLJ
+8QL75pmCsC7HbLFvH+KThkrh
+=ranA
+-----END PGP SIGNATURE-----
+
+--===============5958453059075141336==--
