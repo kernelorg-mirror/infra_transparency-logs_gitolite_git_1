@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============1310824990100785792=="
+Content-Type: multipart/mixed; boundary="===============8039885397197925606=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
-Date: Wed, 26 Oct 2022 14:28:59 -0000
-Message-Id: <166679453995.8374.3357769309994928409@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/johan/gnss
+Date: Wed, 26 Oct 2022 14:29:11 -0000
+Message-Id: <166679455140.8479.14183283502215464360@gitolite.kernel.org>
 
---===============1310824990100785792==
+--===============8039885397197925606==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/johan/usb-serial
+repo: pub/scm/linux/kernel/git/johan/gnss
 user: johan
 changes:
   - ref: refs/heads/master
-    old: 7e18e42e4b280c85b76967a9106a13ca61c16179
+    old: a111daf0c53ae91e71fd2bfe7497862d14132e3e
     new: 247f34f7b80357943234f93f247a1ae6b6c3a740
-    log: revlist-7e18e42e4b28-247f34f7b803.txt
+    log: revlist-a111daf0c53a-247f34f7b803.txt
 
---===============1310824990100785792==
+--===============8039885397197925606==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7e18e42e4b28-247f34f7b803.txt
+Content-Disposition: attachment; filename=revlist-a111daf0c53a-247f34f7b803.txt
 
 a890d1c657ecba73a7b28591c92587aef1be1888 random: clear new batches when bringing new CPUs online
 91954c6c904b515baafaee6a1f35c94409a3bb68 drm/amd/display: Fix mutex lock in dcn10
@@ -1051,4 +1051,4 @@ ca4582c286aa4465f9d1a72bef34b04ee907d42e Revert "mfd: syscon: Remove repetition 
 05b4ebd2c7cbb3671c376754b37b4963dd08a3a2 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 247f34f7b80357943234f93f247a1ae6b6c3a740 Linux 6.1-rc2
 
---===============1310824990100785792==--
+--===============8039885397197925606==--
