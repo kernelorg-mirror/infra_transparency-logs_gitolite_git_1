@@ -1,57 +1,41 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Wed, 26 Oct 2022 12:12:05 -0000
-Message-Id: <166678632516.8586.11075049256387260658@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============1206336143513993798=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
+Date: Wed, 26 Oct 2022 12:19:27 -0000
+Message-Id: <166678676703.12758.3863968938647881538@gitolite.kernel.org>
+
+--===============1206336143513993798==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rafael/linux-pm
-user: rafael
+repo: pub/scm/linux/kernel/git/kdave/linux
+user: kdave
 changes:
-  - ref: refs/heads/bleeding-edge
-    old: 4731015a0f0468e1ab6c2c0b417eac166f1a6d24
-    new: 1de66fcb380ec2ea6ad56911061c65ba1928a94c
-    log: |
-         e0c57a5c70c13317238cb19a7ded0eab4a5f7de5 PM: domains: Fix handling of unavailable/disabled idle states
-         3ee1e85cf5016b0651b98b86d22ae2ab6cb73cde Merge branches 'pm-sleep', 'pm-tools' and 'powercap' into linux-next
-         379aa22a1c60799c5cf2773ca038a153a3cba5ed Merge branch 'devprop' into linux-next
-         77db830e1d3a3b7ae46801b25de69104aff9ed7a Merge branch 'thermal-core' into linux-next
-         33c18bdb188b52127d4d134df0dfc848be2ba2cc Merge branch 'pm-domains' into bleeding-edge
-         8338b74a750c534c223e8943cc0ed0e198ece261 ACPI: PCC: Fix unintentional integer overflow
-         debf491dc241a604000b34a5d1fffc6a74c367c4 Merge branch 'acpi-pcc' into bleeding-edge
-         b5f9223a105d9b56954ad1ca3eace4eaf26c99ed ACPI: resource: Skip IRQ override on Asus Vivobook S5602ZA
-         a6c8d1a50278c326a4f4f20d9d0507dfb7adc8c9 Merge branch 'acpi-resource' into bleeding-edge
-         fa153b7cddce795662d38f78a87612c166c0f692 ACPI: scan: Add LATT2021 to acpi_ignore_dep_ids[]
-         1de66fcb380ec2ea6ad56911061c65ba1928a94c Merge branch 'acpi-scan' into bleeding-edge
-         
-  - ref: refs/heads/linux-next
-    old: 49c6629f06a33addd2d77936d3069e58dc31c5d2
-    new: 77db830e1d3a3b7ae46801b25de69104aff9ed7a
-    log: |
-         85850af4fc47132f3f2f0dd698b90f67906600b4 PM: hibernate: Allow hybrid sleep to work with s2idle
-         9bfb09774ea40937b6c6d6e07858e0f7ad1991ec pm-graph v5.10
-         b55eef5226b71edf5422de246bc189da1fdc9000 powercap: arm_scmi: Add SCMI Powercap based driver
-         c408b3d1d9bbc7de5fb0304fea424ef2539da616 thermal: Validate new state in cur_state_store()
-         a365105c685cad63e3c185c294373a7b81d3ea63 thermal: sysfs: Reuse cdev->max_state
-         92e10465acaffcf65e803f40e884ffa86fd3ff2f device property: Fix documentation for *_match_string() APIs
-         3ee1e85cf5016b0651b98b86d22ae2ab6cb73cde Merge branches 'pm-sleep', 'pm-tools' and 'powercap' into linux-next
-         379aa22a1c60799c5cf2773ca038a153a3cba5ed Merge branch 'devprop' into linux-next
-         77db830e1d3a3b7ae46801b25de69104aff9ed7a Merge branch 'thermal-core' into linux-next
-         
-  - ref: refs/heads/testing
-    old: 49c6629f06a33addd2d77936d3069e58dc31c5d2
-    new: 77db830e1d3a3b7ae46801b25de69104aff9ed7a
-    log: |
-         85850af4fc47132f3f2f0dd698b90f67906600b4 PM: hibernate: Allow hybrid sleep to work with s2idle
-         9bfb09774ea40937b6c6d6e07858e0f7ad1991ec pm-graph v5.10
-         b55eef5226b71edf5422de246bc189da1fdc9000 powercap: arm_scmi: Add SCMI Powercap based driver
-         c408b3d1d9bbc7de5fb0304fea424ef2539da616 thermal: Validate new state in cur_state_store()
-         a365105c685cad63e3c185c294373a7b81d3ea63 thermal: sysfs: Reuse cdev->max_state
-         92e10465acaffcf65e803f40e884ffa86fd3ff2f device property: Fix documentation for *_match_string() APIs
-         3ee1e85cf5016b0651b98b86d22ae2ab6cb73cde Merge branches 'pm-sleep', 'pm-tools' and 'powercap' into linux-next
-         379aa22a1c60799c5cf2773ca038a153a3cba5ed Merge branch 'devprop' into linux-next
-         77db830e1d3a3b7ae46801b25de69104aff9ed7a Merge branch 'thermal-core' into linux-next
-         
+  - ref: refs/heads/for-next
+    old: f4bfb6f93d0947d386f05d93ad34ef4cf43a9c5d
+    new: e0d6563f220f5cffb3234dc7d619132ba2b23ddb
+    log: revlist-f4bfb6f93d09-e0d6563f220f.txt
+
+--===============1206336143513993798==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-f4bfb6f93d09-e0d6563f220f.txt
+
+89ce3cc9b8e52e8707be6df1f73a87f47f4f3f1d btrfs: remove unused btrfs_cond_migrate_bytes
+2c3cab758889045faf81ce8960ffe7f1003dd632 btrfs: selftests: remove impossible inline extent at non-zero file offset
+99a03b6f505622a440582976ab80399cc3f50223 btrfs: make inline extent read calculation much simpler
+3ba79739c351eedb90c9acd0a0fbc5fcb58273d3 btrfs: do not reset extent map members for inline extents read
+16d149925e42da69436cfb7abedf9804e33656b4 btrfs: remove the @new_inline argument from btrfs_extent_item_to_extent_map()
+5c7dbb765c61327e405c67086d06ab780e4a5e6b btrfs: extract the inline extent read code into its own function
+4879e4509ef68a3efdfc3441432932108b887504 Merge branch 'misc-6.1' into for-next-current-v6.0-20221026
+763e09cac8e79fa40734665e0fec2d6cc551929f Merge branch 'misc-next' into for-next-next-v6.1-20221026
+ced31e4d03c826a1606c6d6022e351019c6c34cc Merge branch 'ext/qu/inline-cleanup-v2' into for-next-next-v6.1-20221026
+f5e0f99bed0eb4ca518ca9eab75884d11df7b9c1 Merge branch 'for-next-current-v6.0-20221026' into for-next-20221026
+e0d6563f220f5cffb3234dc7d619132ba2b23ddb Merge branch 'for-next-next-v6.1-20221026' into for-next-20221026
+
+--===============1206336143513993798==--
