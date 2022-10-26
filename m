@@ -1,29 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Wed, 26 Oct 2022 14:48:13 -0000
-Message-Id: <166679569326.21618.9603234220871600411@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============4874083546092053854=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Wed, 26 Oct 2022 14:52:19 -0000
+Message-Id: <166679593906.24610.1647160017261549392@gitolite.kernel.org>
+
+--===============4874083546092053854==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue/5.15
-    old: 5f28452c5875ebde8ee6e79ce960ddebabc1cf87
-    new: b3671852b52c346aca395c40cf874997bf208ae7
+  - ref: refs/heads/master
+    old: a94157b761a943d1a88352d11c4578e791ed894d
+    new: 7e875dce2ea5aa1135d4a48f8a12773bf732f1cd
     log: |
-         6e1ea5093837508fb514687db04589c656bbe628 r8152: add PID for the Lenovo OneLink+ Dock
-         b3671852b52c346aca395c40cf874997bf208ae7 arm64/mm: Consolidate TCR_EL1 fields
+         7e875dce2ea5aa1135d4a48f8a12773bf732f1cd 5.4-stable patches
          
-  - ref: refs/heads/queue/6.0
-    old: ffa8d9bc3c9c9970264b6eb89e1cdb24b4033429
-    new: a8d24a6b0d79cc23b1eb96e5c8a4e011affc0469
-    log: |
-         c86103faa9db320cc31cc3e878195f9b80fa8a58 clk: tegra: Fix Tegra PWM parent clock
-         217fd7557896d990c3dd8beea83a6feeb504f235 Revert "btrfs: call __btrfs_remove_free_space_cache_locked on cache load failure"
-         3829606fc5dffeccdf80aebeed3aa75255257f35 Linux 6.0.5
-         a8d24a6b0d79cc23b1eb96e5c8a4e011affc0469 video/aperture: Call sysfb_disable() before removing PCI devices
-         
+
+--===============4874083546092053854==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1666795938 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1666795937-aed3418f40552d96336b126fca00162bd80250f9
+
+a94157b761a943d1a88352d11c4578e791ed894d 7e875dce2ea5aa1135d4a48f8a12773bf732f1cd refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmNZSaIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+4xUP/i2g5Vay4LwM9t3FFLqz
+EHIQuoqyTwe4NqsZGVouydzlIkdmi7dsVygKBtb06vU6sTod9/3zwotNXA838NgV
+rjA/WZt4OunwTOX9NAWvJtaDv8K1j4FB+69hlYW5Gob7IIFLn/NW1QkKUQtZRwXF
+UVOIHO9X6yTu7mieYqDkIGA7Yup+SeWu8uzUYM5AuBq3CzuHeHIN15dc+UvwG/UR
+YpcMfW5XsHqp4Fn6975sPtmTbZFFP+UNr4Xye7m+zkwWxIlXEGbhD1mOZl9whdB5
+WY8cGaOKcQYuQ2QEZv7yKmIdGVPBSKlo4ufxh1qJYNFjChYOQ1e2EpKI6BCbKd0A
+972Ohi+63t+P/c5IBJ9NxbNyKyknxRsyHOEAWF1WzoJnCt/zSDVUnYduG3iyOONJ
+GP6sYxdXPaatOg2aFK08L0AycNpY/VIDH3NiDYDmjInb0Ig7I8Ffb7e28iv0clCa
+pNHax8DwOYVLu6QQHdiPKIFuGZn2D3HhK9jz3fnutI9SAPTql/9NbnNxQBoKHipr
+RVZPCoTRnG/cCd3Ha1AEh4leB04YI6v90/ZiSVP1iSfVo8eT6lNEtHaa9G97FMRC
+4n1YQSGlf47F/UjI93nvCPCiuMFnm5VcFDWzMekZSjvmUaqt6atEd2hXPHk1S4fk
+bud/RYcLZEgNvvkSMuVqIG11
+=jEMj
+-----END PGP SIGNATURE-----
+
+--===============4874083546092053854==--
