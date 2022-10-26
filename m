@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 26 Oct 2022 02:54:28 -0000
-Message-Id: <166675286807.5522.9259330159742732026@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Wed, 26 Oct 2022 03:32:17 -0000
+Message-Id: <166675513713.1184.9545258260275849098@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
   - ref: refs/heads/master
-    old: 022f19cf361bdbc72b51e684573c847c4f37478d
-    new: d0217284cea7d470e4140e98b806cb3cdf8257d6
+    old: a62f5b03d3e1f9fa8bb475082584e5bc88b4e781
+    new: 1b50198e10de83015a69c67624d6298fc4a4ea2b
     log: |
-         bb214ac47e0a6d58940cb89d3b036ba042387418 bna: remove variable num_entries
-         d0217284cea7d470e4140e98b806cb3cdf8257d6 net: dl2k: remove variable tx_use
+         4f4fe8ef12a375be9e96f336d8a5624db90599fa foo
+         bddeb169d51390be8577153af3749e6855a7ba41 foo
+         1b50198e10de83015a69c67624d6298fc4a4ea2b foo
          
