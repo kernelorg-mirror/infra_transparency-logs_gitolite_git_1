@@ -1,31 +1,32 @@
-Content-Type: multipart/mixed; boundary="===============6760948264448678275=="
+Content-Type: multipart/mixed; boundary="===============0534243072271496968=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
-Date: Wed, 26 Oct 2022 06:09:57 -0000
-Message-Id: <166676459758.14275.200783949639093333@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
+Date: Wed, 26 Oct 2022 06:10:26 -0000
+Message-Id: <166676462646.16019.14469388348052901388@gitolite.kernel.org>
 
---===============6760948264448678275==
+--===============0534243072271496968==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/palmer/linux
+repo: pub/scm/linux/kernel/git/riscv/linux
 user: palmer
 changes:
-  - ref: refs/heads/fixes
-    old: 9195df44748b8687a8b779aa1d3cadc9685b4550
-    new: 89fd4a1df829187d4d35f6a520cc531de622e6f0
-    log: revlist-9195df44748b-89fd4a1df829.txt
+  - ref: refs/heads/master
+    old: 568035b01cfb107af8d2e4bd2fb9aea22cf5b868
+    new: 9abf2313adc1ca1b6180c508c25f22f9395cc780
+    log: revlist-568035b01cfb-9abf2313adc1.txt
 
---===============6760948264448678275==
+--===============0534243072271496968==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-9195df44748b-89fd4a1df829.txt
+Content-Disposition: attachment; filename=revlist-568035b01cfb-9abf2313adc1.txt
 
+bb1f11546eb3cd1e2b8ea45653eb0f530e42b035 Merge tag 'x86_asm_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 901735e51e4dea1eee816b0b57d1d6abbd94b3d5 Merge tag 'x86_misc_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 9bf445b65dd7d4c7d0e4efaecf38525abbbe74e3 Merge tag 'x86_paravirt_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 b5f0b11353a6a33a1accd0b742c80ed6b2f35ac0 Merge tag 'x86_microcode_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
@@ -1049,6 +1050,5 @@ b08cd74448fafaa302ce2bc11beab5e5a55d0065 Merge tag '6.1-rc-smb3-client-fixes-par
 8636df94ec917019c4cb744ba0a1f94cf9057790 Merge tag 'perf-tools-for-v6.1-2-2022-10-16' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 f1947d7c8a61db1cb0ef909a6512ede0b1f2115b Merge tag 'random-6.1-rc1-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/crng/random
 9abf2313adc1ca1b6180c508c25f22f9395cc780 Linux 6.1-rc1
-89fd4a1df829187d4d35f6a520cc531de622e6f0 riscv: jump_label: mark arguments as const to satisfy asm constraints
 
---===============6760948264448678275==--
+--===============0534243072271496968==--
