@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============6190561036480665754=="
+Content-Type: multipart/mixed; boundary="===============3003217677815686788=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
-Date: Wed, 26 Oct 2022 06:12:07 -0000
-Message-Id: <166676472749.16703.10192475298282405853@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
+Date: Wed, 26 Oct 2022 06:12:13 -0000
+Message-Id: <166676473392.16824.8168073897232184745@gitolite.kernel.org>
 
---===============6190561036480665754==
+--===============3003217677815686788==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/riscv/linux
+repo: pub/scm/linux/kernel/git/palmer/linux
 user: palmer
 changes:
   - ref: refs/heads/for-next
@@ -20,7 +20,7 @@ changes:
     new: 9abf2313adc1ca1b6180c508c25f22f9395cc780
     log: revlist-ab0c23b535f3-9abf2313adc1.txt
 
---===============6190561036480665754==
+--===============3003217677815686788==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ b08cd74448fafaa302ce2bc11beab5e5a55d0065 Merge tag '6.1-rc-smb3-client-fixes-par
 f1947d7c8a61db1cb0ef909a6512ede0b1f2115b Merge tag 'random-6.1-rc1-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/crng/random
 9abf2313adc1ca1b6180c508c25f22f9395cc780 Linux 6.1-rc1
 
---===============6190561036480665754==--
+--===============3003217677815686788==--
