@@ -1,56 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============1381837767803757280=="
+Content-Type: multipart/mixed; boundary="===============7058663471434959807=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Wed, 26 Oct 2022 16:30:43 -0000
-Message-Id: <166680184345.817.7799716249172535097@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Wed, 26 Oct 2022 16:32:39 -0000
+Message-Id: <166680195963.1687.14815079629999774226@gitolite.kernel.org>
 
---===============1381837767803757280==
+--===============7058663471434959807==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
+repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: 26c96ba8caf851bebb80bf397fb5b3fdb890078e
-    new: 0857ae21cef341cfbf639273fab7733586655a4e
+  - ref: refs/heads/usb-linus
+    old: 88c8e05ed5c0f05a637e654bbe4e49a1ebe7013c
+    new: 308c316d16cbad99bb834767382baa693ac42169
     log: |
-         0857ae21cef341cfbf639273fab7733586655a4e 5.10-stable patches
+         f78961f8380b940e0cfc7e549336c21a2ad44f4d usb: dwc3: gadget: Stop processing more requests on IMI
+         308c316d16cbad99bb834767382baa693ac42169 usb: dwc3: gadget: Don't set IMI for no_interrupt
          
 
---===============1381837767803757280==
+--===============7058663471434959807==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1666801842 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1666801841-2453b468b46ca02636c79dd468f675ec2415942f
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1666801956 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1666801955-23408a0eeb6da4cfe31cd131248a74f57d45dd2b
 
-26c96ba8caf851bebb80bf397fb5b3fdb890078e 0857ae21cef341cfbf639273fab7733586655a4e refs/heads/master
+88c8e05ed5c0f05a637e654bbe4e49a1ebe7013c 308c316d16cbad99bb834767382baa693ac42169 refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmNZYLIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+jBYQAMe8Zcv4YMrOH8FTU6Cp
-vK8hJ8lbzrGTmPkWXEeh9oAiPnAkUl80sM3dHuhIyz//QPeux/OMynh0qfqzCHc1
-wjSA6OfUZXN3AQZdMZ9JVeW8xyi6jbA3lR0F34XS+p+ZipvOGhOLfilaYp6Y8nMJ
-Huf/79r0WK3MAWWdCOdh7pk2uuop0HFSbkhEesJU81N0/hS65XcDbXcOeNo3bA7/
-Q3eLhWI1ZOD2VuE4EtRI6TvdWnVrNH/Ivb9Ww3n/DNImBVn9LR7Zpm6d2PJR78dZ
-7fQsImKSvdCWSt6zpKzbo1bNVgTkvn/q/ZpViewPOXVHi/ocv2hYLTZ4qdNcQZLP
-MmzRe0AmO6YHi+ME7VBUlXgG+M13bUpXxDOFRm9rMCgu4SSgCkSjAEsseHdGDx7k
-c8l1T+40mOHHsKzbF7BR69iURDD9pXVXZD9zM2NIFdg8QLmjUxFaunKg+vMh5XdN
-kd6te2h6Kicq8c8df2ELVcRz0Z0qU/bMYSQ0aDhH7ZoeUSORZxV+txkOy8f/m5V3
-+Z6uQ+B1+728Hob7xgFwAjy7WbmzLnnbBuifiHL4rxCp+NQxKFVwfwb+9Uvxvo2A
-u4KL+ykDhDK8t9wQRzsKcBbKcbFqV5/DepbxvCEH2pDfDB5KCrBk/a7DUdiJi+rt
-JMru6CGp5HpyeIpEDudTRfuO
-=AYT1
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmNZYSQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+2xkQAIPevvM+dkcuUWJx03/b
+qdtsCmdyXT5Tz+7lKI6LcYmBTQVQWbKLHostEMRB7RYCMwyRl2GJ+wEt8tlQg/Eh
+MZFtCFRRU0A2efgcnhvBNxfdx4DF2hMyv1iY6j5q+4sv/0VM93s091wmoqz2lXa2
+dypHChryYVQn1tj7nGWSqNruSCn/Tt33SvgQEVXNSlr4Iad3Xbm9L+2vGPFKUawf
+SrwkYp14C/uxvnQ+k7ycFxhnNvxHXRqLYdQb9PA1CrzQamgcihY5KdxbNIzkE2GI
+yNV7stZC8hZdU22tFCicGG/LXP9OasML/1PeOkRM/+obkFmHKV8Roc6tD0JVTKmG
+eATyuq6ItcJ8JdNvC4jppjM5Q+lVNO/TrHYT8ZLqr43ElRruQE21s48XpbalOtOd
+IwBA9VshMDbw8lWRjyMuQ+p9rnphny/cCqSI5K2AjYqg3/wbHS0JL2FtmdENH/sd
+MqTQ7DJWIuVKzyRpa6dZi4Sivk8YBjhwwCRuKHZSNYH91GDAnXhakoPFniZhAJnX
+IQTN9RFGONxuEqmZmm7LgRwUmk8AZMHqk2fDc4qHGyoC5qYMlmlDn39rNsMb1GJz
+fREHDvBqbY1E++w6t3HhuED7eyUkTEtLB9nFEn3B6Mlq+d5q6A58gjGz7J9vSdqL
+ScHFhiKU42evmRk67fpAfvTU
+=N7Zy
 -----END PGP SIGNATURE-----
 
---===============1381837767803757280==--
+--===============7058663471434959807==--
