@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gustavoars/linux
-Date: Wed, 26 Oct 2022 05:21:38 -0000
-Message-Id: <166676169879.13528.12880920634609108879@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
+Date: Wed, 26 Oct 2022 06:09:07 -0000
+Message-Id: <166676454790.13857.7414152417007473820@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gustavoars/linux
-user: gustavoars
+repo: pub/scm/linux/kernel/git/palmer/linux
+user: palmer
 changes:
-  - ref: refs/heads/6.1-rc1-Wcast-function-type-strict
-    old: 2812afc0de278b97413a142d39d939a08ac74025
-    new: 72608236b640b516c8dec0d0332aa1c6254ecbaa
+  - ref: refs/heads/fixes
+    old: 145f88818d44def3734a102b636816890ee17d6e
+    new: 9195df44748b8687a8b779aa1d3cadc9685b4550
     log: |
-         72608236b640b516c8dec0d0332aa1c6254ecbaa staging: ks7010: Avoid clashing function prototypes
+         9195df44748b8687a8b779aa1d3cadc9685b4550 riscv: jump_label: mark arguments as const to satisfy asm constraints
          
