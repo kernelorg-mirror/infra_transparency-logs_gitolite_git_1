@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2362586850583536830=="
+Content-Type: multipart/mixed; boundary="===============7695916965030946060=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Wed, 26 Oct 2022 10:20:16 -0000
-Message-Id: <166677961622.9557.12004123926882399171@gitolite.kernel.org>
+Date: Wed, 26 Oct 2022 10:20:28 -0000
+Message-Id: <166677962881.9717.13267725897595343872@gitolite.kernel.org>
 
---===============2362586850583536830==
+--===============7695916965030946060==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,32 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/perf/core
-    old: 82aad7ff7ac25c8cf09d491ae23b9823f1901486
-    new: 000dc32fb0e088cb134da55065df73379cb10b3c
-    log: revlist-82aad7ff7ac2-000dc32fb0e0.txt
+  - ref: refs/heads/sched/core
+    old: fdf756f7127185eeffe00e918e66dfee797f3625
+    new: 19d61d2f894a012a8b751ae26b9fb64303812989
+    log: revlist-fdf756f71271-19d61d2f894a.txt
 
---===============2362586850583536830==
+--===============7695916965030946060==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-82aad7ff7ac2-000dc32fb0e0.txt
+Content-Disposition: attachment; filename=revlist-fdf756f71271-19d61d2f894a.txt
 
-8ab1d7a27eff87001ebd0977db600e4187f63f78 drm/amd/display: Only commit SubVP state after pipe programming
-d37f379ad04dcc21ebd1d2380c3bc979d54f7c46 drm/amd/display: change to enc314_stream_encoder_dp_blank static
-8abbc4f768ddc5c2190ab8966e529cec42b4b2d4 drivers/amd/pm: check the return value of amdgpu_bo_kmap
-f7367b5fe0e38af02d6915a355f2ee63b172c9ac drm/amd/display: Program SubVP in dc_commit_state_no_check
-c1969fbaa57d88ddef626bb8ae313d38478d8631 drm/amd/display: Reorder FCLK P-state switch sequence for DCN32
-ab5220bb5a910246c61512a9e29a4e2406cb1ecd drm/amd/display: fix dcn315 dml detile overestimation
-d35e8b7ae01430b1e722547b2ef40f42dc30520f drm/amd/display: Block SubVP if rotation being used
-96ab3cb3b0f862308a03046d01d66c7b4154846b Revert "drm/amd/display: correct hostvm flag"
-dfb3367bd082ccf52d3c13ff62257f08407dffcf drm/amd/display: prevent S4 test from failing
-40169e2f37127b7fe60736045b1f9fc04f76b471 drm/amd/display: Disable GSL when enabling phantom pipe
-283e0a673cdf59fe103707ac0466492b315c81a2 drm/amd/display: fix integer overflow during MSA V_Freq calculation
-749b6c2ac9d9a7a4d8f4c2e4dc6fa830fd6c6ac7 drm/amd/display: AUX tracing cleanup
-7aeb2e47e43d5acd4638c64b4c0c01ad90feea51 drm/amd/display: Allow PSR exit when panel is disconnected
-1178ac68dc2869a2f4192600b701de3d853272d2 drm/amd/display: Refactor edp ILR caps codes
-380202c84454e89d29a9abc670f09b9145617d58 drm/amd/display: For SubVP pipe split case use min transition into MPO
 345d6493476615494bd79a8fe77661918ea7c61a drm/amd/display: Add log for LTTPR
 e4e481e4d838f30985dd46d43ed195110ed265f5 drm/amd/display: skip commit minimal transition state
 4931ce22eca6ed5f8a3a3820fd13e586011ac219 drm/amd/display: add dummy pstate workaround to dcn315
@@ -1048,7 +1033,22 @@ a70385240892bcbc6442b054e847c74100e72f1a Merge tag 'perf_urgent_for_v6.1_rc2' of
 ca4582c286aa4465f9d1a72bef34b04ee907d42e Revert "mfd: syscon: Remove repetition of the regmap_get_val_endian()"
 05b4ebd2c7cbb3671c376754b37b4963dd08a3a2 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 247f34f7b80357943234f93f247a1ae6b6c3a740 Linux 6.1-rc2
-4df14ba09302ee66a58bcf8c663ebe85ea84a8c0 perf: Rewrite core context handling
-000dc32fb0e088cb134da55065df73379cb10b3c perf: Optimize perf_tp_event()
+662ce232ce0c92de4f84dd6de59b6a3f22202c28 sched/uclamp: Fix relationship between uclamp and migration margin
+61e1eabf5860ab885262f20c8df2ea0e6acc8b46 sched/uclamp: Make task_fits_capacity() use util_fits_cpu()
+1708b199fcf5b7c16fd769ba562817398a9a3d1b sched/uclamp: Fix fits_capacity() check in feec()
+51fed3a211842d84613dc0eff38e33b048807e43 sched/uclamp: Make select_idle_capacity() use util_fits_cpu()
+45cf688c4c641a4c7d10a938963eb38553ecf46d sched/uclamp: Make asym_fits_capacity() use util_fits_cpu()
+42926e14e8b210faa5805c18567b74fc83e28df2 sched/uclamp: Make cpu_overutilized() use util_fits_cpu()
+a36a552a33605b2bb4e35fbf16dbd280bb5c9a0e sched/uclamp: Cater for uclamp in find_energy_efficient_cpu()'s early exit condition
+7e655d38e7528a0482d12bb3461bcf0d4b437641 sched/fair: Detect capacity inversion
+84316567dcb21bac3882a4ad27104eb5a5b0efa6 sched/fair: Consider capacity inversion in util_fits_cpu()
+1b27e383b64867e49d18f686cf8407d4eb8de30d sched/fair: Check if prev_cpu has highest spare cap in feec()
+76e4a483f196f99fd71e904bd89869e79a3ce27e sched: Add __releases annotations to affine_move_task()
+5d26c13aaa0f1e592a2c426a0b1db4672cb7c9c2 sched: Introduce affinity_context
+89c8ac4574ace36aafe0101b389e81dde5ef15c4 sched: Always preserve the user requested cpumask
+913c616fb0ba4e1c0e7af94ef050d6a6d9e3ebb5 sched: Enforce user requested affinity
+d1d667cb9e9ccd25b3bb6013ff3970d424528f56 sched: Always clear user_cpus_ptr in do_set_cpus_allowed()
+13c4da5372a9bcf49d26639f9c50b3a32dd5c7fa sched/psi: Fix avgs_work re-arm in psi_avgs_work()
+19d61d2f894a012a8b751ae26b9fb64303812989 psi: Fix possible missing or delayed pending event
 
---===============2362586850583536830==--
+--===============7695916965030946060==--
