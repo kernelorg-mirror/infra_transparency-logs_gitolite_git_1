@@ -1,41 +1,28 @@
-Content-Type: multipart/mixed; boundary="===============0044151734901411920=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Wed, 26 Oct 2022 22:55:12 -0000
-Message-Id: <166682491276.17542.734658750926879265@gitolite.kernel.org>
-
---===============0044151734901411920==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/git/git
+Date: Wed, 26 Oct 2022 22:55:36 -0000
+Message-Id: <166682493606.17827.758639886578645110@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/git/git
+user: junio
 changes:
-  - ref: refs/heads/rcu/next
-    old: 2b0718d00af148c3cc4a392442d47785c0d7f2cc
-    new: 1c382012d3fc642907b0dd1c729e0f38d6f8fb21
-    log: revlist-2b0718d00af1-1c382012d3fc.txt
-
---===============0044151734901411920==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2b0718d00af1-1c382012d3fc.txt
-
-31d8aaa87fcef1be5932f3813ea369e21bd3b11d rcu: Keep synchronize_rcu() from enabling irqs in early boot
-cf6ed13b0140935da9ec0e66823e871e530ac508 Merge branch 'urgent.2022.10.20a' into HEAD
-0f248528e3f6f8894d694fbc57343d886ababcff Merge branch 'lkmm-dev.2022.10.18c' into HEAD
-e6ef1041deacdbd4c194a8a3b8a09bb884d9e8d6 memory-model: Prohibit nested SRCU read-side critical sections
-76902403e33d9da6379dbae09373a17087bbd70e rcu: Let non-offloaded idle CPUs with callbacks defer tick
-7ed63cdf9ae05c8d08914226217743653383f7a6 rcu: Use hlist_nulls_next_rcu() in hlist_nulls_add_tail_rcu()
-2318a710bffbda1057df4c9e2c4e15ff7ac7363d tools/nolibc: Fix missing strlen() definition and infinite loop with gcc-12
-6937b8de8f1c3d3cfe08f30492f89858e4829263 tools/nolibc/string: Fix memcmp() implementation
-e1bbfe393c9007d025cc8e78adcff5dc3f6d419a selftests/nolibc: Add 7 tests for memcmp()
-3f2c1c45a3a9ad4e298ae58d37809aaa48e98ea9 selftests/nolibc: Always rebuild the sysroot when running a test
-1c382012d3fc642907b0dd1c729e0f38d6f8fb21 rcu: Refactor kvfree_call_rcu() and high-level helpers
-
---===============0044151734901411920==--
+  - ref: refs/heads/seen
+    old: baca4e6b1411ca8f99b924d651fe96324e2fdaab
+    new: 52db74cb4049ae5e0227f49d5d713467f6fa6d44
+    log: |
+         83bfea7a3045a20a146a051d0a0f86d20076ec2a Makefile: always (re)set DC_SHA1 on fallback
+         38ad1cd11f54114381e5ab4d7532653ae183077a INSTALL: remove discussion of SHA-1 backends
+         1c423ce1c45526bc5f4bfaedcb4b89be9e5a250d Makefile: correct DC_SHA1 documentation
+         030bb260573f7124608476854baa72ca8afa93a6 Makefile: create and use sections for "define" flag listing
+         f2a01dc2844dc00e267e26bffc86102257cc2912 Makefile: rephrase the discussion of *_SHA1 knobs
+         c882329d425f025139febb1b0d2096a7b7815414 Makefile: document default SHA-256 backend
+         da8b3a19ef3767cd61ce341c713e8bee7a71a99c Makefile: document SHA-1 and SHA-256 default and selection order
+         e42fcc949d0ffa8204cba71dc0407ef4a5f44896 Makefile: document default SHA-1 backend on OSX
+         cf7db6ab0863b825310a8a83ce2065ba51e84d47 Makefile: discuss SHAttered in *_SHA{1,256} discussion
+         52db74cb4049ae5e0227f49d5d713467f6fa6d44 Merge branch 'ab/sha-makefile-doc' into seen
+         
