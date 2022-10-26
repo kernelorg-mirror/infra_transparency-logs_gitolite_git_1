@@ -1,50 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============8269372099591821733=="
+Content-Type: multipart/mixed; boundary="===============4065156431209982310=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Wed, 26 Oct 2022 03:54:57 -0000
-Message-Id: <166675649731.15550.8727044946589337519@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Wed, 26 Oct 2022 03:55:07 -0000
+Message-Id: <166675650742.17455.14814046841636194536@gitolite.kernel.org>
 
---===============8269372099591821733==
+--===============4065156431209982310==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
   - ref: refs/heads/master
     old: 89bf6e28373beef9577fa71f996a5f73a569617c
     new: 60eac8672b5b6061ec07499c0f1b79f6d94311ce
     log: revlist-89bf6e28373b-60eac8672b5b.txt
-  - ref: refs/heads/pending-fixes
-    old: 2aab6955266bf065922234605288120c36ae7fbc
-    new: c1dbfef21dfb3632d4843f5fe2ec3c688c56c85c
-    log: revlist-2aab6955266b-c1dbfef21dfb.txt
-  - ref: refs/heads/stable
-    old: 337a0a0b63f1c30195733eaacf39e4310a592a68
-    new: 4dc12f37a8e98e1dca5521c14625c869537b50b6
-    log: |
-         36abde8d24ad740371422a7678ca92b06cc8a3d5 platform/x86: asus-wmi: Add support for ROG X16 tablet mode
-         a10d50983f7befe85acf95ea7dbf6ba9187c2d70 platform/x86: thinkpad_acpi: Fix reporting a non present second fan on some models
-         0b6e6e149c136677f1cc859d4185b5a2db50ffbf platform/x86/amd: pmc: Read SMU version during suspend on Cezanne systems
-         ee24395f91b9cddccae5f6c11c37ee4ed78ff354 leds: simatic-ipc-leds-gpio: fix incorrect LED to GPIO mapping
-         555a68dd681b7437a2708001d465c85f6dfa6955 platform/x86/intel: pmc/core: Add Raptor Lake support to pmc core driver
-         e9cf4d9b9a6fdb1df6401a59f5ac5d24006bfeae ACPI: video: Fix missing native backlight on Chromebooks
-         a970174d7a1010cb29a5b0c9fa0626abdefcfcbe x86/mm: Do not verify W^X at boot up
-         1a2dcbdde82e3a5f1db9b2f4c48aa1aeba534fb2 scsi: mpt3sas: re-do lost mpt3sas DMA mask fix
-         4dc12f37a8e98e1dca5521c14625c869537b50b6 Merge tag 'platform-drivers-x86-v6.1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-         
-  - ref: refs/tags/next-20220726
-    old: 1b7b4c829e89e6be5e0892cdc5b8c8cab1dc42ed
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20221026
     old: 0000000000000000000000000000000000000000
     new: d7813a56d69df9d1b199f5c97bd3e8cc898e8aac
 
---===============8269372099591821733==
+--===============4065156431209982310==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -612,112 +591,4 @@ b6405bcfba41553195468cb60484af4879a0a096 Merge branch 'for-next/kspp' of git://g
 46500701b3c939b879e12e48c151c3773cb83841 Merge branch 'mm-everything' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 60eac8672b5b6061ec07499c0f1b79f6d94311ce Add linux-next specific files for 20221026
 
---===============8269372099591821733==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2aab6955266b-c1dbfef21dfb.txt
-
-68fe1db04443cee58ddbeae9c506f7262b256168 net: ieee802154: return -EINVAL for unknown addr type
-444d8ad4916edec8a9fc684e841287db9b1e999f net: ieee802154: fix error return code in dgram_bind()
-5a5c4e06fd03b595542d5590f2bc05a6b7fc5c2b mac802154: Fix LQI recording
-c1e427903380201a4e0c4083192fde83825d80b0 RDMA/efa: Add EFA 0xefa2 PCI ID
-f164c01b38eb40f388434711ff70f6ed8b4f33a1 RDMA/hns: Disable local invalidate operation
-45b2d30f06949863b41de5ef1859023f9749d87b RDMA/hns: Fix null pointer problem in free_mr_init
-54e90d1f9a19172db6929f58f13065113f0f8bbb squashfs: fix read regression introduced in readahead code
-05899c05c1c81617d66e4f93327da1947f023d65 squashfs: fix extending readahead beyond end of file
-e8ff5354bfe99834105bca39a0b858d210af3b2d squashfs: fix buffer release race condition in readahead code
-8efbbe22fe461a2523084a93645bf57f5453e371 mm/kmemleak: prevent soft lockup in kmemleak_scan()'s object iteration loops
-f8bb9d1e0a29c1a8f3f15ad9f6a1e902ae2d2772 MAINTAINERS: git://github.com -> https://github.com for nilfs2
-5136cb79071c57472e8d71842bd8a35e7794e904 memory tier, sysfs: rename attribute "nodes" to "nodelist"
-2982d840a6ab385d2cf085b080a9ca3bc609c71c ipc/msg.c: fix percpu_counter use after free
-222906aa029abd8bc5eb39be0e5979e6b49dce4b fs/ext4/super.c: remove unused `deprecated_msg'
-0eff7103926221effd1bcdd511036b55864495f2 mm/page_isolation: fix clang deadcode warning
-93464feb6cd95b3a482d64f0d6b4b6734a74bce6 mm,madvise,hugetlb: fix unexpected data loss with MADV_DONTNEED on hugetlbfs
-45ba9c269874cd03e0822bb544c4c3a3283d5ff5 mm: prep_compound_tail() clear page->private
-54762d9c067899a9f0bc03b652f5fa8e8f91aeda mm/uffd: fix vma check on userfault for wp
-2a477d29d89a5b1cff4439fe227f51094eedf2b4 mm: migrate: fix return value if all subpages of THPs are migrated successfully
-dc1156e37db6d33a395b395f43ca67d5cc3be556 mm: kmsan: export kmsan_copy_page_meta()
-1346915c746ec647df8023316f6833cc86be980c x86/purgatory: disable KMSAN instrumentation
-82ff37682b772351d65c2af3acb438360b46edb1 Kconfig.debug: disable CONFIG_FRAME_WARN for KMSAN by default
-d87b86d9d169486b076ce76b5927e17f22024abb x86: asm: make sure __put_user_size() evaluates pointer once
-835da14aaecac0ee91d4f33f2ca641f6f5032710 x86: fortify: kmsan: fix KMSAN fortify builds
-c9eaac4fcbe91c482d33b19c0d6d4d48bbe04a97 mm/userfaultfd: replace kmap/kmap_atomic() with kmap_local_page()
-f635d0184d028447673c9d00dfc2b65703631c0f hugetlb: don't delete vma_lock in hugetlb MADV_DONTNEED processing
-a970174d7a1010cb29a5b0c9fa0626abdefcfcbe x86/mm: Do not verify W^X at boot up
-9d9effca9d7d7cf6341182a7c5cabcbd6fa28063 ethtool: eeprom: fix null-deref on genl_info in dump
-4fa86555d1cd338afc6e6308cc1ff890a014ec8c genetlink: piggy back on resv_op to default to a reject policy
-4a4b6848d1e932b977e6a00cda393adf7e839ff8 net: lan966x: Stop replacing tx dcbs and dcbs_buf when changing MTU
-e72e4032637f4646554794ac28a3abecc6c2416d mptcp: set msk local address earlier
-54f1944ed6d2554475f39a4921dc5422fa692c4f mptcp: factor out mptcp_connect()
-fa9e57468aa10e91deca6d82ccd17c73ffdd1e40 mptcp: fix abba deadlock on fastopen
-fe1fd0ccd8b2c9861f79c26a926b5fc1f38cf9ba Merge branch 'mptcp-fixes-for-6-1'
-baee5a14ab2c9a8f8df09d021885c8f5de458a38 Merge tag 'ieee802154-for-net-2022-10-24' of git://git.kernel.org/pub/scm/linux/kernel/git/sschmidt/wpan
-1a2dcbdde82e3a5f1db9b2f4c48aa1aeba534fb2 scsi: mpt3sas: re-do lost mpt3sas DMA mask fix
-76a66ba101329316a5d7f4275070be22eb85fdf2 btrfs: don't use btrfs_chunk::sub_stripes from disk
-3b3aca49fa7bb91a9e0bfa70fc34bc51be703881 Merge branch 'misc-6.1' into next-fixes
-88619e77b33d5718fae3c13d29f94b2646facfcd net: stmmac: rk3588: Allow multiple gmac controller
-b3af84383e7abdc5e63435817bb73a268e7c3637 drm/scheduler: fix fence ref counting
-ee03c0f200eb0d9f22dd8732d9fb7956d91019c2 ALSA: au88x0: use explicitly signed char
-50895a55bcfde8ac6f22a37c6bc8cff506b3c7c6 ALSA: rme9652: use explicitly signed char
-f8bcaf714abfc94818dff8c0db84d750433984f4 media: vivid: s_fbuf: add more sanity checks
-1f65ea411cc7b6ff128d82a3493d7b5648054e6f media: vivid: dev->bitmap_cap wasn't freed in all cases
-4b6d66a45ed34a15721cb9e11492fa1a24bc83df media: v4l2-dv-timings: add sanity checks for blanking values
-8da7f0976b9071b528c545008de9d10cc81883b1 media: videodev2.h: V4L2_DV_BT_BLANKING_HEIGHT should check 'interlaced'
-eb1d969203eb8212741751f88dcf5cb56bb11830 media: vivid: fix control handler mutex deadlock
-957148e22870e4021082dddd12f8619a49d9bb50 media: vivid: drop GFP_DMA32
-69d78a80da4ef12faf2a6f9cfa2097ab4ac43983 media: vivid: set num_in/outputs to 0 if not supported
-de547896aac606a00435a219757a940ece142bf0 media: vivid.rst: loop_video is set on the capture devnode
-19905240aef0181d1e6944070eb85fce75f75bcd usb: gadget: uvc: limit isoc_sg to super speed gadgets
-3f53c329b31d53b2a2e7992819242fc0d4f883e0 usb: dwc3: st: Rely on child's compatible instead of name
-6746eae4bbaddcc16b40efb33dab79210828b3ce coresight: cti: Fix hang in cti_disable_hw()
-1deac35b2dbc27dd53665a4db9c6d05b323deea3 Merge tag 'counter-fixes-for-6.1a' of git://git.kernel.org/pub/scm/linux/kernel/git/wbg/counter into char-misc-linus
-677047383296ea25fdfc001be3cdcdf5cc874be2 misc: sgi-gru: use explicitly signed char
-937ec9f7d5f2625d60077bb7824fee35dc447c6e staging: rtl8192e: remove bogus ssid character sign test
-4f547472380136718b56064ea5689a61e135f904 usb: xhci: add XHCI_SPURIOUS_SUCCESS to ASM1042 despite being a V0.96 controller
-34cd2db408d591bc15771cbcc90939ade0a99a21 xhci: Add quirk to reset host back to default state at shutdown
-a611bf473d1f77b70f7188b5577542cb39b4701b xhci-pci: Set runtime PM as default policy on all xHC 1.2 or later devices
-5aed5b7c2430ce318a8e62f752f181e66f0d1053 xhci: Remove device endpoints from bandwidth list when freeing the device
-4dc12f37a8e98e1dca5521c14625c869537b50b6 Merge tag 'platform-drivers-x86-v6.1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-950697e3e40ec170d51ec18d3b36a92b39ce2034 Merge branch 'mm-hotfixes-unstable' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
-e0b2c6051bdbae3638c970f9dde4c16e770dac43 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild.git
-a73d49069eb7c7a609e0224751e1fcfb06416a07 Merge branch 'for-curr' of git://git.kernel.org/pub/scm/linux/kernel/git/vgupta/arc.git
-9cb31acdde5c280de854659508fc663eee8708ab Merge branch 'fixes' of https://git.linaro.org/people/jens.wiklander/linux-tee.git
-bfb5977776db8de1ca127ff7d8cc7cb5815e8011 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux.git
-6fa82f00d140557c3d854392d95b57fac7ebfc1b Merge branch 'master' of git://git.kernel.org/pub/scm/linux/kernel/git/davem/sparc.git
-11d0f0dcb548f7397efc0b0ad5c00cac19c5001b Merge branch 'for-stable' of git://git.kernel.org/pub/scm/fs/fscrypt/fscrypt.git
-127f2f5c2cec2fbd7a799a6c504f5df62a8fddcf Merge branch 'master' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net.git
-e751edde15031427c867ede1efcb20c82c626743 Merge branch 'master' of git://git.kernel.org/pub/scm/linux/kernel/git/klassert/ipsec.git
-2b978b2e7155acabb4dfcca40a15434601077219 Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless.git
-608a88fcba8a667fef66acc6dfa332a6fd94bf99 Merge branch 'for-rc' of git://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma.git
-3dde999ee6150dd955c8afd384a340d5f726360c Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound.git
-a246e142673b91ad70b4a23ce346159fc1e8f4b8 Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-7a595e0b7710d355ad6bc09482eba2160057fc2a Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regmap.git
-a95d6c405072673db4baffde9c574a6f0c8723f1 Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
-773889e0e4f5052fcf02bacbc62575a2fc6c7612 Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-dce4eb12191d80f866f984cba6488d2128a0328a Merge branch 'driver-core-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/driver-core.git
-255a190ef71d078691606ca072520061b633f2a1 Merge branch 'usb-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb.git
-af33af7e3102466f699832e66395e472713e8f86 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/phy/linux-phy.git
-1fbedfea3ae1e7ecad6a790f8500b83c5be86ee4 Merge branch 'staging-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/staging.git
-874b955d11abfe30b41d4a78e6edd232e0d790cc Merge branch 'fixes-togreg' of git://git.kernel.org/pub/scm/linux/kernel/git/jic23/iio.git
-6308c154c82ee21e01fccf2dfe632f98278ca64f Merge branch 'counter-current' of git://git.kernel.org/pub/scm/linux/kernel/git/wbg/counter.git
-20edea412e910bc88162526d8d2caf2bec152892 Merge branch 'char-misc-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc.git
-743d5de323e614b0c837f8d8dcb649298c4379a6 Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input.git
-98b8ae85907c2e6ece97a0f0219131fa1b45290f Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vkoul/dmaengine.git
-207b861857f1abf85e7c03b24bbe2038c8195b51 Merge branch 'mtd/fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/mtd/linux.git
-76bc4cf9ba94036dd38094b9ea26b9d261e875c5 Merge branch 'fixes' of git://linuxtv.org/mchehab/media-next.git
-3fd40ab9dbfd6cedc2b3c03d86fd4671c848bae8 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/cxl/cxl.git
-25f0f4f9b521be3711ed22772c57a2b3b7a2adea Merge branch 'next-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux.git
-b3a19357c44549cdeb4efe84f905d7811dfab15a Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/mkp/scsi.git
-336450615f8ab43aede9bdc8aea97294dac3c66f Merge branch 'for-linux-next-fixes' of git://anongit.freedesktop.org/drm-intel
-7471bae1979fe1e1ec147b2f4b301eea8a1fb666 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/mmc.git
-b98a86d2df67de39df448a4482ff9f410f3de85b Merge branch 'rtc-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/abelloni/linux.git
-8737a9fe317f0446a542255b5245bb032974f3f7 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux.git
-e33bc673dff1e4e7474f5f444af1e4559f794c38 Merge branch 'gpio/for-current' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux.git
-8f62c5df4fb874b1099c85a38302227bfeeeac1a Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/rw/ubifs.git
-8d64272aa0e26ae15e4613a529df07908e96bc48 Merge branch 'urgent' of git://git.kernel.org/pub/scm/linux/kernel/git/efi/efi.git
-4c82483c26dc7b3f091d985104ebfb7113893764 Merge branch 'zstd-linus' of https://github.com/terrelln/linux.git
-98efebb38ae2ebcc2ad0a0e23edd65e17f119c18 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/sre/linux-power-supply.git
-c1dbfef21dfb3632d4843f5fe2ec3c688c56c85c Merge branch 'for-linux-next-fixes' of git://anongit.freedesktop.org/drm/drm-misc
-
---===============8269372099591821733==--
+--===============4065156431209982310==--
