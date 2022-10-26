@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7858372304007877624=="
+Content-Type: multipart/mixed; boundary="===============0900847853236209619=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Wed, 26 Oct 2022 06:17:59 -0000
-Message-Id: <166676507949.20517.9856209714261488261@gitolite.kernel.org>
+Date: Wed, 26 Oct 2022 06:18:05 -0000
+Message-Id: <166676508550.20614.9856636131043923929@gitolite.kernel.org>
 
---===============7858372304007877624==
+--===============0900847853236209619==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: f3c51fe02c55bd944662714e5b91b96dc271ad9f
     new: fdf457871e7c070416403efd1533ba49adc20a87
     log: revlist-f3c51fe02c55-fdf457871e7c.txt
 
---===============7858372304007877624==
+--===============0900847853236209619==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -37,4 +37,4 @@ fda64ae0bb3e37b5a4292625c6931cb156224d0f bpf: bpf_task_storage_delete_recur does
 387b532138eed5b12e1afa68cafb6a389507310f selftests/bpf: Tracing prog can still do lookup under busy lock
 fdf457871e7c070416403efd1533ba49adc20a87 Merge branch 'bpf: Avoid unnecessary deadlock detection and failure in task storage'
 
---===============7858372304007877624==--
+--===============0900847853236209619==--
