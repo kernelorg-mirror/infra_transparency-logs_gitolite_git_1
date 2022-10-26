@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0217133605039774204=="
+Content-Type: multipart/mixed; boundary="===============8543120332352628180=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
-Date: Wed, 26 Oct 2022 14:06:56 -0000
-Message-Id: <166679321657.25225.14431294474758240499@gitolite.kernel.org>
+Date: Wed, 26 Oct 2022 14:07:04 -0000
+Message-Id: <166679322428.25325.10564857960788024667@gitolite.kernel.org>
 
---===============0217133605039774204==
+--===============8543120332352628180==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,27 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/s390/linux
 user: gor
 changes:
-  - ref: refs/heads/features
+  - ref: refs/heads/for-next
     old: bf18140d30541c2c1e5c0f57879634f3d0d04912
-    new: 42deddf3ef5c23358e28758db7726fcc8d9c31ec
-    log: revlist-bf18140d3054-42deddf3ef5c.txt
+    new: c9c4220a9132c8b71e459bb09c43e080b2cdec57
+    log: revlist-bf18140d3054-c9c4220a9132.txt
 
---===============0217133605039774204==
+--===============8543120332352628180==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-bf18140d3054-42deddf3ef5c.txt
+Content-Disposition: attachment; filename=revlist-bf18140d3054-c9c4220a9132.txt
 
-4b65fc7bca1299de12ceeed1de31f252a185ed47 perf expr: Allow a double if expression
-0e4079154ea2ed4434c960df74551cb14de32324 perf test: Adjust case of test metrics
-715b824f4a1f21e3eeb78076efa6215421bb8f98 perf expr: Remove jevents case workaround
-8cff7490fc05333f163c0130ec6c64e7a433a4a0 perf metrics: Don't scale counts going into metrics
-313b2f384be160b83a72328cbeab8a53902aaef4 perf vendor events: Update Intel skylakex
-a80de06698a7c7dc4f875bd3118bc9e650c18c14 perf vendor events: Update Intel alderlake
-eb4f8d7787f115a724e4ffcb8d1d659249b04f9b perf vendor events: Update Intel broadwell
-5bc4e39eecb069d49060ebcebf07dada088de026 perf vendor events: Update Intel broadwellx
-55b201a833664bf6bd4dc17ac3e75882a34daacf perf vendor events: Update Intel cascadelakex
-5ed4fc264c2becdae2d2fed4db94eb2dc45668fe perf vendor events: Update elkhartlake cpuids
 dd7aae2c2d651c34f3a006313fa1f46ce9bf48a0 perf vendor events: Update Intel haswell
 08ce57dd1b89f0e125c8d0cb03c9578ecae348c1 perf vendor events: Update Intel haswellx
 8fb4ddf499ebbdeaa1bafb16f2c0b6818325d981 perf vendor events: Update Intel icelake
@@ -1050,5 +1040,15 @@ d3db4ac3c761def3d3a8e5ea6d05d1636c44c2ba s390/pai: rework pai_crypto mapped buff
 58354c7d35d35dd119ada18ff84a6686ccc8743f s390/pai: rename structure member users to active_events
 2ce7a18211b08d05947cb5eebb768d14c0c478de s390/mm: fix virtual-physical address confusion for swiotlb
 42deddf3ef5c23358e28758db7726fcc8d9c31ec s390: select ARCH_WANT_HUGETLB_PAGE_OPTIMIZE_VMEMMAP
+d6d9875e22cb760b433cade5cf19d8f105ad4621 MAINTAINERS: remove outdated linux390 link
+4e1b5a86a5edfbefc9396d41b0fc1a2ebd0101b6 s390/uaccess: add missing EX_TABLE entries to __clear_user()
+a262d3ad6a433e4080cecd0a8841104a5906355e s390/futex: add missing EX_TABLE entry to __futex_atomic_op()
+6ec803025cf3173a57222e4411097166bd06fa98 s390/pci: add missing EX_TABLE entries to __pcistg_mio_inuser()/__pcilg_mio_inuser()
+aa127a069ef312aca02b730d5137e1778d0c3ba7 s390/boot: add secure boot trailer
+8b1e6a3fb3feecdce8521154bfe30f9d1ebb70e6 s390/pai: fix raw data collection for PMU pai_ext
+1b6074112742f65ece71b0f299ca5a6a887d2db6 s390/cio: fix out-of-bounds access on cio_ignore free
+e38de4804421b064a9c73c5a9b7f3df96b863e4b s390/vfio-ap: Fix memory allocation for mdev_types array
+3dd3b9aa4d7d51241a26842bc7fec071dac52647 Merge branch 'fixes' into for-next
+c9c4220a9132c8b71e459bb09c43e080b2cdec57 Merge branch 'features' into for-next
 
---===============0217133605039774204==--
+--===============8543120332352628180==--
