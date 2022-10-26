@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/lsm
-Date: Wed, 26 Oct 2022 00:01:04 -0000
-Message-Id: <166674246441.11547.3702759732134097694@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
+Date: Wed, 26 Oct 2022 00:03:17 -0000
+Message-Id: <166674259764.12382.3703515053864322645@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pcmoore/lsm
-user: pcmoore
+repo: pub/scm/linux/kernel/git/sj/linux
+user: sj
 changes:
-  - ref: refs/heads/next
-    old: 3b87d9f436b6893503f43f487d3bc6091d9db178
-    new: 3437d67a8d92a87aaba9107ceff6b4cc33b7cb94
+  - ref: refs/heads/damon/next
+    old: afdba601c3c554c0d6d77a648dd73215b04a3879
+    new: da0d35b5d7375be45f8b9998c1698a176eae9ddb
     log: |
-         3437d67a8d92a87aaba9107ceff6b4cc33b7cb94 lsm: remove obsoleted comments for security hooks
+         da0d35b5d7375be45f8b9998c1698a176eae9ddb mm/damon: Implement DAMOS filter for memcg
          
