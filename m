@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Wed, 26 Oct 2022 00:03:17 -0000
-Message-Id: <166674259764.12382.3703515053864322645@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gustavoars/linux
+Date: Wed, 26 Oct 2022 01:46:34 -0000
+Message-Id: <166674879460.24384.4094593603237577520@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/linux
-user: sj
+repo: pub/scm/linux/kernel/git/gustavoars/linux
+user: gustavoars
 changes:
-  - ref: refs/heads/damon/next
-    old: afdba601c3c554c0d6d77a648dd73215b04a3879
-    new: da0d35b5d7375be45f8b9998c1698a176eae9ddb
+  - ref: refs/heads/6.1-rc1-Wcast-function-type-strict
+    old: f125e61a737480c6e11005ea08684baea11e1b97
+    new: 2812afc0de278b97413a142d39d939a08ac74025
     log: |
-         da0d35b5d7375be45f8b9998c1698a176eae9ddb mm/damon: Implement DAMOS filter for memcg
+         2812afc0de278b97413a142d39d939a08ac74025 bna: Avoid clashing function prototypes
          
