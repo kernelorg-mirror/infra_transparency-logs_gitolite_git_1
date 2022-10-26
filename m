@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1402525439841580229=="
+Content-Type: multipart/mixed; boundary="===============4303318527642111587=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/rt/linux-rt-devel
-Date: Wed, 26 Oct 2022 15:14:48 -0000
-Message-Id: <166679728878.8944.3945637907307923590@gitolite.kernel.org>
+Date: Wed, 26 Oct 2022 15:14:53 -0000
+Message-Id: <166679729340.9030.12621030128554793119@gitolite.kernel.org>
 
---===============1402525439841580229==
+--===============4303318527642111587==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,127 +16,53 @@ repo: pub/scm/linux/kernel/git/rt/linux-rt-devel
 user: bigeasy
 git_push_cert_status: Y
 changes:
-  - ref: refs/heads/master
-    old: 4fe89d07dcc2804c8b562f6c7896a45643d34b2f
-    new: 247f34f7b80357943234f93f247a1ae6b6c3a740
-    log: revlist-4fe89d07dcc2-247f34f7b803.txt
-  - ref: refs/heads/linux-6.1.y
-    old: 0000000000000000000000000000000000000000
-    new: 247f34f7b80357943234f93f247a1ae6b6c3a740
-  - ref: refs/heads/linux-6.1.y-rt
+  - ref: refs/heads/for-kbuild-bot/current-stable
+    old: 777b3b3e9ff3f3769e5fbba07e3095f302b6caaa
+    new: b40fb286ddee513fc0f105bf5b403ca3c25c6389
+    log: revlist-777b3b3e9ff3-b40fb286ddee.txt
+  - ref: refs/heads/for-kbuild-bot/prepare-release
+    old: 777b3b3e9ff3f3769e5fbba07e3095f302b6caaa
+    new: b40fb286ddee513fc0f105bf5b403ca3c25c6389
+    log: revlist-777b3b3e9ff3-b40fb286ddee.txt
+  - ref: refs/heads/linux-6.1.y-rt-rebase
     old: 0000000000000000000000000000000000000000
     new: b40fb286ddee513fc0f105bf5b403ca3c25c6389
-  - ref: refs/heads/linux-6.1.y-rt-patches
-    old: 0000000000000000000000000000000000000000
-    new: ca7b7a61efc51e861c7a829e09896d9fba4ca39a
-  - ref: refs/tags/v6.1-rc1
-    old: 0000000000000000000000000000000000000000
-    new: e0e492cebef25c13fc29b174f01b5178662f1652
-  - ref: refs/tags/v6.1-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 0d8d9e948ba8d5e1a826935d8d1c4aace65dd185
-  - ref: refs/tags/v6.1-rc2-rt1
-    old: 0000000000000000000000000000000000000000
-    new: d9a09dc570fbb66017b8197b219489ad85cc6b32
-  - ref: refs/tags/v6.1-rc2-rt1-patches
-    old: 0000000000000000000000000000000000000000
-    new: b33a5f0d188166169c3b029f67ddc85625b49bac
-  - ref: refs/tags/v6.1-rc2-rt1-rebase
-    old: 0000000000000000000000000000000000000000
-    new: 5184316f633622e6682c6eb83971badc5db69faa
 
---===============1402525439841580229==
+--===============4303318527642111587==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Sebastian Andrzej Siewior <bigeasy@linutronix.de> 1666797262 +0200
+pusher Sebastian Andrzej Siewior <bigeasy@linutronix.de> 1666797290 +0200
 pushee ssh://ko-g/pub/scm/linux/kernel/git/rt/linux-rt-devel.git
-nonce 1666797261-c60ee2831d1aafa8189a0f5b39816493af1c194a
+nonce 1666797290-691bf2e786c640a3578af997730923633f73aca0
 
-4fe89d07dcc2804c8b562f6c7896a45643d34b2f 247f34f7b80357943234f93f247a1ae6b6c3a740 refs/heads/master
-0000000000000000000000000000000000000000 247f34f7b80357943234f93f247a1ae6b6c3a740 refs/heads/linux-6.1.y
-0000000000000000000000000000000000000000 b40fb286ddee513fc0f105bf5b403ca3c25c6389 refs/heads/linux-6.1.y-rt
-0000000000000000000000000000000000000000 ca7b7a61efc51e861c7a829e09896d9fba4ca39a refs/heads/linux-6.1.y-rt-patches
-0000000000000000000000000000000000000000 e0e492cebef25c13fc29b174f01b5178662f1652 refs/tags/v6.1-rc1
-0000000000000000000000000000000000000000 0d8d9e948ba8d5e1a826935d8d1c4aace65dd185 refs/tags/v6.1-rc2
-0000000000000000000000000000000000000000 d9a09dc570fbb66017b8197b219489ad85cc6b32 refs/tags/v6.1-rc2-rt1
-0000000000000000000000000000000000000000 b33a5f0d188166169c3b029f67ddc85625b49bac refs/tags/v6.1-rc2-rt1-patches
-0000000000000000000000000000000000000000 5184316f633622e6682c6eb83971badc5db69faa refs/tags/v6.1-rc2-rt1-rebase
+777b3b3e9ff3f3769e5fbba07e3095f302b6caaa b40fb286ddee513fc0f105bf5b403ca3c25c6389 refs/heads/for-kbuild-bot/current-stable
+777b3b3e9ff3f3769e5fbba07e3095f302b6caaa b40fb286ddee513fc0f105bf5b403ca3c25c6389 refs/heads/for-kbuild-bot/prepare-release
+0000000000000000000000000000000000000000 b40fb286ddee513fc0f105bf5b403ca3c25c6389 refs/heads/linux-6.1.y-rt-rebase
 -----BEGIN PGP SIGNATURE-----
 
-iQHKBAABCgA0FiEEV4kucFIzBRM39v3RBWQfF1cS+lsFAmNZTs4WHGJpZ2Vhc3lA
-bGludXRyb25peC5kZQAKCRAFZB8XVxL6W7QeDACdOTSQQY9GRYl6PX0pkD973E4/
-VqQBMpIfD+3/70MG0GyrI46IKXV1OCUMpR5ulDls8zGOGUuM7kLvqHxLN9RnpJYF
-DpUhe3nBbvAjQAgmEhF4O3TPEx5pSx8kuEAUycaYM7dmIER5Ss14qwXrn2pEBvcw
-bCKKjCpNzM4NKOv1tybcLRjNNMC/c+ISmIfNp7JmkimUKA5b2woAzje1Ng7Wle9d
-wMIQjMEYW0r5VEBqVu7xcO/bueB1udwZybbj+e4i/iTnjC2tswmCKBuC7UhbDezI
-hwsiNtIwcHamqIA+OwepS3P56M9/n+Pq8MkGt0c1N6f/nyKtZiGwhVzld0UC01Re
-MjMve78QGbA28FaUXNlt4mHkTVOmaBhAYZc83seNCOEELfWIU6xNsgK5SmzX4I5I
-eyZLj5nX4Hv21QWq7r1EvkBVA3FPo3u5M1IspUZYRqygCqby8aJbHcbYKktc0M2C
-XlRjG9GZGJ2Q9i6Ke8IL6caSrprCHk28cUpvVMw=
-=nsEH
+iQHKBAABCgA0FiEEV4kucFIzBRM39v3RBWQfF1cS+lsFAmNZTuoWHGJpZ2Vhc3lA
+bGludXRyb25peC5kZQAKCRAFZB8XVxL6W31gDACiNs5UFvXOI4eBDiQYKA4pfzTw
+fk/V66Af3Hl0mmIJAqo6vKjQNXzXcQBQ4WvHHCRGF0MvQmaJcO+1m0mxMrZAIHWh
+ZGGZEpTwFJzl4sFYr+gRjX9d0o/6bP7R7oW+TBicDkEjTvZHDqZDjQvhNH4wLRkN
+R/qoslAf8mcFl4Uu/WF+NBsuW5nteNM9Pig8995ctQJktjlZMT2DJMbT5UYV7FCV
+GBclDO3p8b1OUpmFH1/Jc/c1axe7XFvGuGHczMtylg2eGs8NMp128/drjHmCtRh/
+BHHNmuQrCByMiApKlcgp4nzmqHqv+gx9sCsqKSXfZvEfLu5LGXJx61+RnS/r1XsE
+jsbi95rBDHGGh9BSSJz0PVBjnSwEsDqVTqvEIhMBD3htRpKYL6ahfray7eCCOBAd
+TcGGl4hsQIH0XZu8D3z0QS7dgN1hwvQ2XXHpP5SJTnqNInuP3XRtnVO4JIqtVTtL
+K1gaVeZuWjVh1u9dD2cGkKmk0idKNXfyCSbEOiY=
+=DUlu
 -----END PGP SIGNATURE-----
 
---===============1402525439841580229==
+--===============4303318527642111587==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4fe89d07dcc2-247f34f7b803.txt
+Content-Disposition: attachment; filename=revlist-777b3b3e9ff3-b40fb286ddee.txt
 
-a890d1c657ecba73a7b28591c92587aef1be1888 random: clear new batches when bringing new CPUs online
-91954c6c904b515baafaee6a1f35c94409a3bb68 drm/amd/display: Fix mutex lock in dcn10
-8ab1d7a27eff87001ebd0977db600e4187f63f78 drm/amd/display: Only commit SubVP state after pipe programming
-d37f379ad04dcc21ebd1d2380c3bc979d54f7c46 drm/amd/display: change to enc314_stream_encoder_dp_blank static
-8abbc4f768ddc5c2190ab8966e529cec42b4b2d4 drivers/amd/pm: check the return value of amdgpu_bo_kmap
-f7367b5fe0e38af02d6915a355f2ee63b172c9ac drm/amd/display: Program SubVP in dc_commit_state_no_check
-c1969fbaa57d88ddef626bb8ae313d38478d8631 drm/amd/display: Reorder FCLK P-state switch sequence for DCN32
-ab5220bb5a910246c61512a9e29a4e2406cb1ecd drm/amd/display: fix dcn315 dml detile overestimation
-d35e8b7ae01430b1e722547b2ef40f42dc30520f drm/amd/display: Block SubVP if rotation being used
-96ab3cb3b0f862308a03046d01d66c7b4154846b Revert "drm/amd/display: correct hostvm flag"
-dfb3367bd082ccf52d3c13ff62257f08407dffcf drm/amd/display: prevent S4 test from failing
-40169e2f37127b7fe60736045b1f9fc04f76b471 drm/amd/display: Disable GSL when enabling phantom pipe
-283e0a673cdf59fe103707ac0466492b315c81a2 drm/amd/display: fix integer overflow during MSA V_Freq calculation
-749b6c2ac9d9a7a4d8f4c2e4dc6fa830fd6c6ac7 drm/amd/display: AUX tracing cleanup
-7aeb2e47e43d5acd4638c64b4c0c01ad90feea51 drm/amd/display: Allow PSR exit when panel is disconnected
-1178ac68dc2869a2f4192600b701de3d853272d2 drm/amd/display: Refactor edp ILR caps codes
-380202c84454e89d29a9abc670f09b9145617d58 drm/amd/display: For SubVP pipe split case use min transition into MPO
-345d6493476615494bd79a8fe77661918ea7c61a drm/amd/display: Add log for LTTPR
-e4e481e4d838f30985dd46d43ed195110ed265f5 drm/amd/display: skip commit minimal transition state
-4931ce22eca6ed5f8a3a3820fd13e586011ac219 drm/amd/display: add dummy pstate workaround to dcn315
-8cab4ef0ad9521030e1ae4bd294a1e2e6a04659f drm/amd/display: Keep OTG on when Z10 is disable
-b808a7eb30b02e05023b505fe6db590ba799683f drm/amd/display: Increase compbuf size prior to updating clocks
-baec651f4160f4c3f029edf84bbc18b4fcba9cf5 drm/amd/display: write all 4 bytes of FFE_PRESET dpcd value
-51619c671316e96d7adaf2b6ea94ce245b81b6dd drm/amd/display: Fix vupdate and vline position calculation
-2d550a159c55ac836a554fd605545b0feb5f7266 drm/amd/display: block odd h_total timings from halving pixel rate
-a2909ff460a8e02168b3658372ebc897f7ab2315 drm/amd/display: Drop unused code for DCN32/321
-47b7dd9f68c12e7d33a0dfd3d9a5bed755097de0 drm/amd/display: Update DCN321 hook that deals with pipe aquire
-9114b55fabae5522b7124af4f16ea6ce6378aa19 drm/amd/display: Fix SubVP control flow in the MPO context
-b33cd65df18f1cf60b066a02c09df92b4763bb31 drm/amd/display: Remove OPTC lock check
-f1b47f0004cfff051441aa93b7115d756d5eebb7 drm/amd/display: Adding missing HDMI ACP SEND register
-3f4dee59253a6882acde98a2a027e55f1330ae86 drm/amd/display: Fix merging dynamic ODM+MPO configs on DCN32
-fe674c0b6f5382b7c377ca2c418c26dd78b428b4 drm/amd/display: Fix disable DSC logic in the DIO code
-f638fe27b817c755e017b8a6ae4b9b4224461941 drm/amd/display: Add missing SDP registers to DCN32 reglist
-46c87432e3d4cea8e1a7ac6e9e3ebd2462f47617 drm/amd/display: Add missing mask sh for SYM32_TP_SQ_PULSE register
-e626d9b9c6e038a6918aad1b5affd38f6b9deaed drm/amdgpu: Enable VCN PG on GC11_0_1
-11895d32ffddb50152f0a1e671d36b7f60e4daba drm/amd/display: Add PState change high hook for DCN32
-54fae65ff469a79fc0ca46f480c4e7fce50f3963 drm/amd/display: Enable 2 to 1 ODM policy if supported
-36939c94689ae7e6aaa9a0fa37e5c41616f76665 drm/amd/display: 3.2.206
-9691a7a776302c85c10294f1a92c15c7f57a5947 drm/amd/display: unblock mcm_luts
-07ebc18c047adcd72905619e72ae7c48db28ab48 drm/amd/display: Disconnect DSC for unused pipes during ODM transition
-a3daede47576037ff7bbbe9cbd36e52a71d92bc8 drm/amd/display: update DSC for DCN32
-7e6d5cf8e3e3f8050de52a28236d5a172caf2da9 drm/amd/display: Minor code style change
-95c985ffc63e2a7d8f6aa18f9351f5010a8d1adb drm/amd/display: clean up one inconsistent indenting
-8c39634d28fa460869702b9801d2efe06671b342 drm/amd/display: clean up one inconsistent indenting
-525530ad9a7ec9aa34266e1429cc5ef9acb58e6c drm/amdgpu/sdma: add missing release_firmware() in amdgpu_sdma_init_microcode()
-21a550de5faf9f54013334c9a6a7643b8fd80b36 drm/amdgpu: Enable F32_WPTR_POLL_ENABLE in mqd
-f6aa84b83aee629fbbbc4ea16c2c142caf920d5a drm/amd/display: Enable dpia support for dcn314
-8799c0be89ebb99a16098bdf618f49f817bef76a drm/amd/display: Fix vblank refcount in vrr transition
-7d30ccc7761cfcd6756aa0b760c5f5493038d30a drm/amd/display: clean up dcn32_fpu.c kernel-doc
-5e69732d4a89928b7daaa651ad869cebee28bfff drm/amd/display: Removed unused variable 'sdp_stream_enable'
-7e4ab9fb2b9449ef01977e79157d06c8900f73fd drm/amd/display: Remove unused struct i2c_id_config_access
 312b4dc11d4f74bfe03ea25ffe04c1f2fdd13cb9 drm/amdgpu: Fix VRAM BO swap issue
 9a3c6067bd2ee2ca2652fbb0679f422f3c9109f9 drm/amdgpu: Set vmbo destroy after pt bo is created
 2302d507149f0ae7cc697089ab5675a2d4cf9d2a drm/amdgpu: Correct amdgpu_amdkfd_total_mem_size calculation
@@ -1110,5 +1036,56 @@ a70385240892bcbc6442b054e847c74100e72f1a Merge tag 'perf_urgent_for_v6.1_rc2' of
 ca4582c286aa4465f9d1a72bef34b04ee907d42e Revert "mfd: syscon: Remove repetition of the regmap_get_val_endian()"
 05b4ebd2c7cbb3671c376754b37b4963dd08a3a2 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 247f34f7b80357943234f93f247a1ae6b6c3a740 Linux 6.1-rc2
+78b5dae45f6e6e109a62bc02bbacd03a7fbe0824 vduse: Remove include of rwlock.h
+3fc9d77125e8d60a960cad423c6dd1acc6877d3a mm: multi-gen LRU: Move lru_gen_add_mm() out of IRQ-off region.
+4de3bf13f2e85c97f809e60a8e06ef3b98dfd53c signal: Don't disable preemption in ptrace_stop() on PREEMPT_RT.
+d8abebe60257b595e1aada56fc3c0e126616778b sched: Consider task_struct::saved_state in wait_task_inactive().
+cdb4c46e010af3eb61ad9dcda4558aab376d63fa spi: Remove the obsolte u64_stats_fetch_*_irq() users.
+962b5e51759cddae7a203fd035cb70f035bf74de net: Remove the obsolte u64_stats_fetch_*_irq() users (drivers).
+e0d4f814becea1368b122cf2bd52697576da0d9d net: Remove the obsolte u64_stats_fetch_*_irq() users (net).
+716f997040448fc39c943146fe1485be560ba86b bpf: Remove the obsolte u64_stats_fetch_*_irq() users.
+4cc87ce7347a3dcf87c5dc7984d1e64058013454 u64_stat: Remove the obsolete fetch_irq() variants.
+8d152d22d9f056f87875f97aec016a65622abbf0 net: Avoid the IPI to free the
+4f334c6ed61305826ccc33c2281cf2a43146e4fc x86: Allow to enable RT
+f328c9895810f3d5a3d7413ef265560d3680cc28 x86: Enable RT also on 32bit
+c1d68f0da44981e880e65350186712e4ea3487f4 softirq: Use a dedicated thread for timer wakeups.
+0ce79f16ca5b9e133e39cec638735d1fbaef8228 rcutorture: Also force sched priority to timersd on boosting test.
+d6f51cd2f387d339e20deb0c9d0e059bd8a176e0 tick: Fix timer storm since introduction of timersd
+3a11494f4a579f414ef4a11652b4bb6d422ee405 tpm_tis: fix stall after iowrite*()s
+db77c8ce56a993bc61a29b1eb3dc1e54a3604f48 zram: Replace bit spinlocks with spinlock_t for PREEMPT_RT.
+e9ffa43d161f90e032ceb00f04dcb23e34f851de locking/lockdep: Remove lockdep_init_map_crosslock.
+0222549514eb1926979338f5716fdcaa0ce23e47 printk: Bring back the RT bits.
+09cbc4e64a7546900af52b0007997930b37bfeb4 printk: add infrastucture for atomic consoles
+cf8dd889ea20ae7091d3b27029b07bef13298291 serial: 8250: implement write_atomic
+cbd3315d1c8b94de744d1c1596181a2368018f57 printk: avoid preempt_disable() for PREEMPT_RT
+d2118302b9b9e3d78e34cf2f7f7cce3570264072 drm/i915: Use preempt_disable/enable_rt() where recommended
+3716fef812d0187210d3b33a88ebc8afac93447f drm/i915: Don't disable interrupts on PREEMPT_RT during atomic updates
+2bfe5defb103b0a9eaf20a77eaadfc978c00e2d7 drm/i915: Don't check for atomic context on PREEMPT_RT
+483318045b6a933174e91d3f0816392a5d283af0 drm/i915: Disable tracing points on PREEMPT_RT
+1ef95197db2c2e80dbd5d93046d8cfec98be2095 drm/i915: skip DRM_I915_LOW_LEVEL_TRACEPOINTS with NOTRACE
+368b04bb30215327a92eb79a69ebeb52636861d7 drm/i915/gt: Queue and wait for the irq_work item.
+e9a4f9961ed3012e77bc7374dbc3d73392f4d17f drm/i915/gt: Use spin_lock_irq() instead of local_irq_disable() + spin_lock()
+cb894994e63526f36f0f19ff7ec3dbd4eb442412 drm/i915: Drop the irqs_disabled() check
+f532acfe5c63d53756c86e3d3fb1a51b02d29762 Revert "drm/i915: Depend on !PREEMPT_RT."
+7707fc9d0d972426584f7bbba712d1574f33740a sched: Add support for lazy preemption
+f52bf57eafefc7f504943a3063c1391733c1afd0 x86/entry: Use should_resched() in idtentry_exit_cond_resched()
+8cc58b11b7868a3bb1b7bc3f1c3097426ce20895 x86: Support for lazy preemption
+ea00df94e5689ad642821ce24b0fe68e60d62f48 entry: Fix the preempt lazy fallout
+c84562d9c35ad7326923b187da6e33db170c454c arm: Add support for lazy preemption
+cfbea4a9787d2ac4033d4c2780a1dca4a720b044 powerpc: Add support for lazy preemption
+6704079f606f0bf49fd2223ae3ee7e160f0dcbd7 arch/arm64: Add lazy preempt support
+a42e786ae55800e03a0f2f198eeb5780fb109131 arm: Disable jump-label on PREEMPT_RT.
+2f88a1726999be1fe64a3a3142d97bdda235c534 ARM: enable irq in translation/section permission fault handlers
+86ddf55cb51bd68e129bba32904f0cbca8516f8e tty/serial/omap: Make the locking RT aware
+f3adc6078a0f35c2a17f4e294e19d2b5f8413c0e tty/serial/pl011: Make the locking work on RT
+f404ac8a6ef4a8bd45eb30b99e4a625f597a1f3c ARM: Allow to enable RT
+35e107629b778e79e4715f0a2dcb4fb80d2da770 ARM64: Allow to enable RT
+ba8ae2ff7f5f97ef61fee9bc614758af6c4a96f9 powerpc: traps: Use PREEMPT_RT
+d7fd26d29dcbcaf68b29a843a8ec296d5b567624 powerpc/pseries/iommu: Use a locallock instead local_irq_save()
+429c0407d8d941814b6865ebc1de3737dc9ddc38 powerpc/kvm: Disable in-kernel MPIC emulation for PREEMPT_RT
+4243608c9c8a284faf9e9a02b9031dfbca7962b9 powerpc/stackprotector: work around stack-guard init from atomic
+f46884317b56a2361c8b208b4092381b78292dc9 POWERPC: Allow to enable RT
+188fad0d41a8b4093153ac3bde21eca8bfdecf24 sysfs: Add /sys/kernel/realtime entry
+b40fb286ddee513fc0f105bf5b403ca3c25c6389 Add localversion for -RT release
 
---===============1402525439841580229==--
+--===============4303318527642111587==--
