@@ -1,53 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============6435263059702151496=="
+Content-Type: multipart/mixed; boundary="===============2579972982566258845=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Wed, 26 Oct 2022 18:06:38 -0000
-Message-Id: <166680759864.5666.9001997152326577015@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Wed, 26 Oct 2022 18:06:45 -0000
+Message-Id: <166680760516.5807.10588461319575616175@gitolite.kernel.org>
 
---===============6435263059702151496==
+--===============2579972982566258845==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.1
-    old: e9441675edc1bb8dbfadacf68aafacca60d65a25
-    new: 69d1abc0214e944dff1d30e201f8fc332a1adf1a
+  - ref: refs/heads/for-6.2
+    old: 55201afd6e8ad6b5e349bff32331806e17c5d57e
+    new: 93cc2559d3fdcd28b1a7972ab519a6cd8ba20f9d
     log: |
-         1683d3282f240336a2b4b6b541d435facfe8bbb6 ASoC: dapm: Don't use prefix for regulator name
-         d40b6529c6269cd5afddb1116a383cab9f126694 ASoC: amd: yc: Add Alienware m17 R5 AMD into DMI table
-         8bb0ac0e6f64ebdf15d963c26b028de391c9bcf9 ASoC: Intel: bytcht_es8316: Add quirk for the Nanote UMPC-01
-         69d1abc0214e944dff1d30e201f8fc332a1adf1a MAINTAINERS: update Tzung-Bi's email address
+         93cc2559d3fdcd28b1a7972ab519a6cd8ba20f9d spi: Remove the obsolte u64_stats_fetch_*_irq() users.
          
 
---===============6435263059702151496==
+--===============2579972982566258845==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1666807597 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1666807596-e13be3f1b013b67d550229500064ba5f095c3dad
+pusher C3F436CA30F5D8EB 1666807603 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1666807602-a18eb64a471356e5232b7145bd875aeb6c37d2a0
 
-e9441675edc1bb8dbfadacf68aafacca60d65a25 69d1abc0214e944dff1d30e201f8fc332a1adf1a refs/heads/asoc-6.1
+55201afd6e8ad6b5e349bff32331806e17c5d57e 93cc2559d3fdcd28b1a7972ab519a6cd8ba20f9d refs/heads/for-6.2
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmNZdy0ACgkQJNaLcl1U
-h9BCAAf+KS5KXxo+tPxpuCBV+WBysiLvDYZYPATWbJmw+wQeEG4A69ipodm4Z7dZ
-6YFU8r/eq8zqQa8oRWl52F0OcZA5EmCJI6shGIaVuKicezFS5fqjC6QaEpeYVdU2
-WoAueyd2CoMUxjF5Dodgt5FZ1hqCwO0S6E50TQeBRbZwTLC9rAy0P+4SibXsu/VG
-+TZ8AQhgT34ChkmLgThVPDlr8NSFWSGNd7/TOhttJ9oNIEatNZsEuq0aLnhFPWdY
-+887amOHUNR493JlpfX16Hrj+TpajYrRech/3roOK6DE+eGGhZySAo6jsuPTki4X
-6rFsZ7LIwoOdevynWRCyVYaskJY9+A==
-=MAU7
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmNZdzMACgkQJNaLcl1U
+h9DZzwf+KYLFydOprMGGz5xuwOm5hb6I2W5pj95BynN9A27IOmWDL9wV/K1Eq2s1
+nwtfecXA1naSqVW7XTzwVKLFhDJoTRM8HMRAZVsapzf2p15Tkrq7h9g5dLPaO2f3
+NP8oUWPUMqlO8c2Eok6IFYqWqMwSY5F9e2OAaNfDXkyLPpSKwttEvz5iW1MCLKAh
+ntPddVCtxZnFTGtyUTVldYpOX2zxoRyO7Dt0jyPCK7zDRDZP7FcbW2hMoyex04Hm
+RAiS91zLaQtBulhfLTWO3Zwdx58cDqUpIyVFR69Fl7vvQVe/k94ftIRpY/JIxz0l
+rRhPFgaZ+/G3DZ6X+HddObgoYOKy1Q==
+=JfLc
 -----END PGP SIGNATURE-----
 
---===============6435263059702151496==--
+--===============2579972982566258845==--
