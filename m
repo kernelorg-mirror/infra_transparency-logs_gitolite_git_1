@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
-Date: Wed, 26 Oct 2022 06:29:44 -0000
-Message-Id: <166676578465.29152.17201349899695565122@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Wed, 26 Oct 2022 06:42:13 -0000
+Message-Id: <166676653340.5750.8505513563265337211@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/palmer/linux
-user: palmer
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: ast
 changes:
-  - ref: refs/heads/for-next
-    old: 9abf2313adc1ca1b6180c508c25f22f9395cc780
-    new: d233ab3c5c5ed4b3d2201bddb71dab5a2946c31b
+  - ref: refs/heads/master
+    old: a48b4bf994296a380f9c79620ad4ee7bad4511e1
+    new: 5ed88f81511ce695692f0510ab3ca17eee68eff6
     log: |
-         d233ab3c5c5ed4b3d2201bddb71dab5a2946c31b riscv/vdso: typo therefor
+         5ed88f81511ce695692f0510ab3ca17eee68eff6 selftests/bpf: Panic on hard/soft lockup
          
