@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8021959784879882603=="
+Content-Type: multipart/mixed; boundary="===============1227759927656637038=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
-Date: Wed, 26 Oct 2022 14:28:33 -0000
-Message-Id: <166679451392.8088.2716856962834636985@gitolite.kernel.org>
+Date: Wed, 26 Oct 2022 14:28:46 -0000
+Message-Id: <166679452688.8220.5632321828273329920@gitolite.kernel.org>
 
---===============8021959784879882603==
+--===============1227759927656637038==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/johan/usb-serial
 user: johan
 changes:
-  - ref: refs/heads/usb-linus
-    old: eee48781ea199e32c1d0c4732641c494833788ca
+  - ref: refs/heads/usb-next
+    old: 6b2fe3df7c0ca3cf9ee9cea4470462fa708baf87
     new: 247f34f7b80357943234f93f247a1ae6b6c3a740
-    log: revlist-eee48781ea19-247f34f7b803.txt
+    log: revlist-6b2fe3df7c0c-247f34f7b803.txt
 
---===============8021959784879882603==
+--===============1227759927656637038==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-eee48781ea19-247f34f7b803.txt
+Content-Disposition: attachment; filename=revlist-6b2fe3df7c0c-247f34f7b803.txt
 
 a890d1c657ecba73a7b28591c92587aef1be1888 random: clear new batches when bringing new CPUs online
 91954c6c904b515baafaee6a1f35c94409a3bb68 drm/amd/display: Fix mutex lock in dcn10
@@ -1051,4 +1051,4 @@ ca4582c286aa4465f9d1a72bef34b04ee907d42e Revert "mfd: syscon: Remove repetition 
 05b4ebd2c7cbb3671c376754b37b4963dd08a3a2 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 247f34f7b80357943234f93f247a1ae6b6c3a740 Linux 6.1-rc2
 
---===============8021959784879882603==--
+--===============1227759927656637038==--
