@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 27 Oct 2022 13:59:16 -0000
-Message-Id: <166687915651.28447.13540322206351985566@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/lpieralisi/pci
+Date: Thu, 27 Oct 2022 14:01:34 -0000
+Message-Id: <166687929470.30910.12123121902211973563@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: pabeni
+repo: pub/scm/linux/kernel/git/lpieralisi/pci
+user: lpieralisi
 changes:
-  - ref: refs/heads/master
-    old: 0e7ce23a917a9cc83ca3c779fbba836bca3bcf1e
-    new: 9f172134dde7e4f5bf4b9139f23a1e741ec1c36e
-    log: |
-         9f172134dde7e4f5bf4b9139f23a1e741ec1c36e net: bcmsysport: Indicate MAC is in charge of PHY PM
-         
+  - ref: refs/heads/pci/misc
+    old: 0000000000000000000000000000000000000000
+    new: 6acd25cc98ce0c9ee4fefdaf44fc8bca534b26e5
