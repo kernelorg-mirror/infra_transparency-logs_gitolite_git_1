@@ -1,46 +1,20 @@
-Content-Type: multipart/mixed; boundary="===============4037569976784217032=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/b4/b4
-Date: Thu, 27 Oct 2022 16:56:00 -0000
-Message-Id: <166688976039.28534.18181614081706559592@gitolite.kernel.org>
-
---===============4037569976784217032==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Thu, 27 Oct 2022 16:58:45 -0000
+Message-Id: <166688992519.29580.11939586773869928067@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/b4/b4
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/heads/master
-    old: a2783ab79e0079e3b9b40941d340a11721520d09
-    new: 4220e66e70a7ce66f26b3903258c9fa60c2ef4c4
+  - ref: refs/heads/nfsd-next
+    old: 186a69654a5cb7f59edb747de85e998de908beda
+    new: 4468f14c64a6044551b99f81db5a72713cae9e42
     log: |
-         4220e66e70a7ce66f26b3903258c9fa60c2ef4c4 Improve --offline-mode and add --no-stdin
+         34e4476b8a9acca406ab8e6f47fcd8144ef1a5b1 nfsd: rework refcounting in filecache
+         4468f14c64a6044551b99f81db5a72713cae9e42 nfsd: only keep unused entries on the LRU
          
-
---===============4037569976784217032==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher B6C41CE35664996C! 1666889760 -0400
-pushee gitolite.kernel.org:pub/scm/utils/b4/b4
-nonce 1666889759-eb743947b16351e6699cd1240408d542de872b8c
-
-a2783ab79e0079e3b9b40941d340a11721520d09 4220e66e70a7ce66f26b3903258c9fa60c2ef4c4 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCY1q4IAAKCRC2xBzjVmSZ
-bBq7AQC1wVhjOWYo3/6H+k1bBO+xRTP3zZPYmbUEl48JoNhSXQD+JsxUqF9zI3WO
-GujRrs9BPOziARKQujrlymqUGxjyKAo=
-=htf5
------END PGP SIGNATURE-----
-
---===============4037569976784217032==--
