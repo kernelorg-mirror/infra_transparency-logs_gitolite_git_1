@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4665630659042099709=="
+Content-Type: multipart/mixed; boundary="===============2520618277830327321=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/niks/linux
-Date: Thu, 27 Oct 2022 12:48:35 -0000
-Message-Id: <166687491505.9925.16857961016989573010@gitolite.kernel.org>
+Date: Thu, 27 Oct 2022 12:50:32 -0000
+Message-Id: <166687503242.12213.2037621065386744620@gitolite.kernel.org>
 
---===============4665630659042099709==
+--===============2520618277830327321==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/niks/linux
 user: niks
 changes:
-  - ref: refs/heads/iommu_improve_v2
-    old: c17b7cb914544140ea0bb8afef208937a90a5642
-    new: da60e06697ab5a5143b8d4ea07fab55c4e265323
-    log: revlist-c17b7cb91454-da60e06697ab.txt
+  - ref: refs/heads/dma_iommu_v2
+    old: 7b0715a7c0e556b4ad8d93a822093eb123ed4812
+    new: 4a6b446e0f4a212827d07c9d8bb910a2df576660
+    log: revlist-7b0715a7c0e5-4a6b446e0f4a.txt
 
---===============4665630659042099709==
+--===============2520618277830327321==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c17b7cb91454-da60e06697ab.txt
+Content-Disposition: attachment; filename=revlist-7b0715a7c0e5-4a6b446e0f4a.txt
 
 f7ec3f62d7736ed14050716943a9562879155fcc media: remove reference to CONFIG_EMBEDDED in MEDIA_SUPPORT_FILTER
 41fd1cb6151439b205ac7611883d85ae14250172 media: mceusb: Use new usb_control_msg_*() routines
@@ -511,5 +511,11 @@ b7a6a6954eb556e64b91f3308e17e37b56fddb65 iommu/s390: Implement map_pages()/unmap
 29525342013e5e985ea3fe34b9f3f149acdbc3c6 iommu/s390: Use RCU to allow concurrent domain_list iteration
 f75ebe95df9c6579953427fe59ac290293c893bd iommu/s390: Optimize IOMMU table walking
 da60e06697ab5a5143b8d4ea07fab55c4e265323 s390/pci: use lock-free I/O translation updates
+3314ba54ac98e2ab2866d5e1b951fa96e593b8f4 s390/ism: Set DMA coherent mask
+d8e3e2b7a4a4f6b2178d4bb4687f127932064af7 s390/pci: prepare is_passed_through() for dma-iommu
+edc143e41096e0c28ffbc0de7565c14d4aab26c1 s390/pci: Use dma-iommu layer
+c90d3934b4d495e5b3c1b78e874e2744c6601147 iommu/dma: Prepare for multiple flush queue implementations
+01cf8c611b900fed4e4969a894615ed9dc62153c iommu/dma: Add simple batching flush queue implementation
+4a6b446e0f4a212827d07c9d8bb910a2df576660 iommu/s390: flush queued IOVAs on RPCIT out of resource indication
 
---===============4665630659042099709==--
+--===============2520618277830327321==--
