@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2091452356900724461=="
+Content-Type: multipart/mixed; boundary="===============8989744214991417111=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Thu, 27 Oct 2022 15:17:56 -0000
-Message-Id: <166688387679.21659.10934353752980607449@gitolite.kernel.org>
+Date: Thu, 27 Oct 2022 15:17:58 -0000
+Message-Id: <166688387801.21721.1183758498542927241@gitolite.kernel.org>
 
---===============2091452356900724461==
+--===============8989744214991417111==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,63 +16,71 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.14.y
-    old: dfeb8489395aef640fc77eb6aa1a47dd23d83fd8
-    new: d0122c75c75a66fd760db2e242f91e72630c93c0
-    log: revlist-dfeb8489395a-d0122c75c75a.txt
+  - ref: refs/heads/linux-4.19.y
+    old: 365fb0ef4a0b39394ad87a21ad4b06779799f03d
+    new: 995b2086bcd75db311855c8bfa4cd082db5ef65c
+    log: revlist-365fb0ef4a0b-995b2086bcd7.txt
 
---===============2091452356900724461==
+--===============8989744214991417111==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1666883875 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1666883876 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1666883875-325994f28f2035036937f87de6275b6ed9806f39
+nonce 1666883876-db65f62d2d58692af4588b1165d8652cd696d08a
 
-dfeb8489395aef640fc77eb6aa1a47dd23d83fd8 d0122c75c75a66fd760db2e242f91e72630c93c0 refs/heads/linux-4.14.y
+365fb0ef4a0b39394ad87a21ad4b06779799f03d 995b2086bcd75db311855c8bfa4cd082db5ef65c refs/heads/linux-4.19.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmNaoSMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+EmYQAIK0DCmMZbUv+6W3cLPD
-IQ3ajbVRlS6dAjOzwXJ2lAyKMLGdQXRf3qCXWdoeIxLqaO6uWAwtsoQcRAuOlMQy
-nRGdea3Fd+80JPNbL2EpBOsr/chLyA/rxPysNEJZAobrBOEVorHu5fUO82xT3hrV
-8WXD3X2B1QO+GvElrWrPjNuKi9DynkuZGEhaBObJnz/7/y4oQS1Grih9lENyddUs
-MMWfcb9CfnJ6Ymy/JYMOMtLJEcEQ/FV7eW3PdmpwkEW5WyAJ45YAl3Xvk8F8Cf2A
-7qGa8pcTBL8DAZLisOnD2Jx+ptJmHJdDnxE5ZrW0RTqP4AOd/bsZTQmVMsr1K8d/
-a3QrI0za2AYA0SZpoxC/0YXuHikSPcRBKGobQ4XdXkJsR2LM3y6DZS3Ii62oSgqp
-0tX8G0Mn2E8kcNBAzmA1dub6fZFdqxt0kjAxI+euRgxV8/eDnN/50hrM/C/1xY+j
-OAv8yUzCDVQzAIzxPM8573NSxS0u2BpCRNWOz6v6DEKlYzs8CRAT66282XyrOm5L
-VU8kte3nFLU/oRacSiMkPla3pHlsdIq3+hv4RJkIgFiBYzyImhFBJX4SZc1Hzq8V
-uDptTIsqM5i1uVTiRMbczcr1RhDLwp39UnoYFkvK7lP9dhCGReUsNsYCnGzPutg4
-R569MwapFsJnzh70A723Ghgv
-=NCcv
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmNaoSQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+vq8P+gM0XIZhRfasvGqyxVGb
+LPXvpMxVzcBamTsgKoPUwVT0WmPMktAXq3IeLhGmUUuImg+yiUL0rgcF8Kct5CHU
+NCewuD5pXDwcSEgK+d+yZXmWwu3uGK9XDEJ00r4cxjftnJduAYDRh+94f1/C3p3b
+JCvONKf5nkSf8I1vcLUIRX89jAm3JYYxq+zD3zaar4j46pfWM/eHzNU4bQUNVULh
++18ONmrNLZdXaED/M2HbJaPpYOiNI8bNxl3nXz90m472H5BxjUrHM7CZbUk10Cli
+l6K7S8S3PwHF6m12iZ75uy2FTQISRYRT8D2xp5+C9PqUkX26wULy/z2lvAf5lCQU
+R3TCWUIl9WfMQCDqBpMZFOz2OmeS6TANAs3e5uAlKCQYkZVWTgNW092ozs9ZolVQ
+1w5HkZwvfDs+5Am8gd0pSxm9zKz344/bAsJTEO/Cz+R4TVFWuDTeS7a73cJ6J3NJ
+jKptir0Ty++Rcz/Cyjt0kHaGRHCxqIi/t+p9LOQNFpjdJNmLqO+f1g2VdxHLs6vx
+sQPSUcg2OUjuR9jqPwj5RjFr0GGHejPF5BP0Ywp00LXbw4LG5tjTXA9QKQkfpXG1
+O8dnkdGSL39sg93lw1Im24zr9qi4UpWrJ4JMwBabzPB5poIa1O7wnKcgHxJS5FCC
+n4noxWWGcNW33ymYgDGbLVkD
+=Erd0
 -----END PGP SIGNATURE-----
 
---===============2091452356900724461==
+--===============8989744214991417111==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-dfeb8489395a-d0122c75c75a.txt
+Content-Disposition: attachment; filename=revlist-365fb0ef4a0b-995b2086bcd7.txt
 
-8159570dd6477a0c2a0d192397dca5e8f6815363 ocfs2: clear dinode links count in case of error
-c103af6197ee4505b27b0dd3fa9ae75e006dfb87 ocfs2: fix BUG when iput after ocfs2_mknod fails
-6421fd2a21bbde3c91379022e7d6f2ec062bc456 x86/microcode/AMD: Apply the patch early on every logical thread
-d54cfbe50f132a11762a6a2c5df64916078ea6e2 ata: ahci-imx: Fix MODULE_ALIAS
-cf0a3bbb0d0e0cf91027da68964428a062fe438a ata: ahci: Match EM_MAX_SLOTS with SATA_PMP_MAX_PORTS
-9ffce5c65c2181eafbdb2750d457ec645eea238a KVM: arm64: vgic: Fix exit condition in scan_its_table()
-2b54e8e5202dcd0da01b04eb1db7c9ab8f5fa3e8 arm64: errata: Remove AES hwcap for COMPAT tasks
-05a2de9bcf03faa12b6e66c06d46f40af0557d38 r8152: add PID for the Lenovo OneLink+ Dock
-b565e54614cc0a9add053b01d528c0f5f60892e2 btrfs: fix processing of delayed data refs during backref walking
-ba1fdcb3d298926ab8be622007746724791a4978 ACPI: extlog: Handle multiple records
-6ed41ef49441c1eaae6697156ebe5206cac090ab HID: magicmouse: Do not set BTN_MOUSE on double report
-a5c2113f8e8ae307d69b80d3b437a29b851394eb net/atm: fix proc_mpc_write incorrect return value
-776d875f3d1896eabf1f0af80bf22796690d585a net: hns: fix possible memory leak in hnae_ae_register()
-0f3fd9f3671b209d4f8ee1d6919455a9b17aac3b iommu/vt-d: Clean up si_domain in the init_dmars() error path
-0b47552a29316ab943fe2bf9eb9247b12f7de73f media: v4l2-mem2mem: Apply DST_QUEUE_OFF_BASE on MMAP buffers across ioctls
-16d062669de40d157866906ba760bafa1602e151 ACPI: video: Force backlight native for more TongFang devices
-d0122c75c75a66fd760db2e242f91e72630c93c0 Linux 4.14.297-rc1
+f92492f81ebba97da39dfac08633b475f76254f8 ocfs2: clear dinode links count in case of error
+bf92429b6f1de1130e743c77a2d0b410c0c8b5be ocfs2: fix BUG when iput after ocfs2_mknod fails
+2e179f5676b2ed78dd825982aa5d750df96ad15c x86/microcode/AMD: Apply the patch early on every logical thread
+c6b8530a21fa1f072985c98668aed46f670b40a3 hwmon/coretemp: Handle large core ID value
+6bf9e1000844b90b1d1609e0af00eb9335c019a5 ata: ahci-imx: Fix MODULE_ALIAS
+ebd7e2fd7d4632f257799233b9c665db8281b13b ata: ahci: Match EM_MAX_SLOTS with SATA_PMP_MAX_PORTS
+ac00e97c5d1f1fba7156ad30c9aed90e36dc0e86 KVM: arm64: vgic: Fix exit condition in scan_its_table()
+8102d49988b2b49f54ed9fab0a5ee68ae1dc2816 media: venus: dec: Handle the case where find_format fails
+a5d4fe3cab7842cb0c9ebf128cf2d74e0c5b87cf arm64: errata: Remove AES hwcap for COMPAT tasks
+a7a0f356e795b22720107fc82597078770375ad7 r8152: add PID for the Lenovo OneLink+ Dock
+7de7b1d8b5eac5d594c03c8ab9e724246ee5cd82 btrfs: fix processing of delayed data refs during backref walking
+ecb51eb8ed612ac2b5580d93e33039c4c9abaaf7 btrfs: fix processing of delayed tree block refs during backref walking
+e2de0239655c18e9c3666bd692e87c9dfacd4819 ACPI: extlog: Handle multiple records
+dc5a38e4ad0d28e29a07d10d599a6fd7a232016a tipc: Fix recognition of trial period
+10825ce263308812e4533d7b3ee9a7d4c5b18f5a tipc: fix an information leak in tipc_topsrv_kern_subscr
+9fee9960bdded422ee8e8b4ad536a62c2862c14a HID: magicmouse: Do not set BTN_MOUSE on double report
+1ef2299d3a3774bf7e31e674906979a7a926064e net/atm: fix proc_mpc_write incorrect return value
+89597a4e011e20e56ad1a2381e61b1642280ec96 net: sched: cake: fix null pointer access issue when cake_init() fails
+2755d38d60b19ba88ae3d1593d12940fa75c51f9 net: hns: fix possible memory leak in hnae_ae_register()
+0e66f61e44dad89365cbd7619717a59112665ace iommu/vt-d: Clean up si_domain in the init_dmars() error path
+b6956e309eb74cbce9d191972bc3783b1fd55459 media: v4l2-mem2mem: Apply DST_QUEUE_OFF_BASE on MMAP buffers across ioctls
+1d9687a4c606ff971e04263f3bf991a770dbfab6 ACPI: video: Force backlight native for more TongFang devices
+433dccb782be5c1181ace6dc315d2db2ed3b6aad Makefile.debug: re-enable debug info for .S files
+e223ae6c2821d4ab06ed8995db40130cd0f4e989 hv_netvsc: Fix race between VF offering and VF association message from host
+995b2086bcd75db311855c8bfa4cd082db5ef65c Linux 4.19.263-rc1
 
---===============2091452356900724461==--
+--===============8989744214991417111==--
