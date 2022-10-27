@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lpieralisi/pci
-Date: Thu, 27 Oct 2022 14:01:34 -0000
-Message-Id: <166687929470.30910.12123121902211973563@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-integrator
+Date: Thu, 27 Oct 2022 14:02:47 -0000
+Message-Id: <166687936794.31407.175025068540690338@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lpieralisi/pci
-user: lpieralisi
+repo: pub/scm/linux/kernel/git/linusw/linux-integrator
+user: linusw
 changes:
-  - ref: refs/heads/pci/misc
-    old: 0000000000000000000000000000000000000000
-    new: 6acd25cc98ce0c9ee4fefdaf44fc8bca534b26e5
+  - ref: refs/heads/kernel-in-vmalloc-v6.1-rc1-just-ttbr0-split
+    old: fe7b413bac576c061d1e9c85ef7f2f912d09e1e9
+    new: 8a91d11f9adbeb4d1b408837ae134e5b0a371050
+    log: |
+         8a91d11f9adbeb4d1b408837ae134e5b0a371050 switch PGD/TTBR0 in <asm/uaccess-asm.h>
+         
