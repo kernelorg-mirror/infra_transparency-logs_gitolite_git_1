@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7095855881060637574=="
+Content-Type: multipart/mixed; boundary="===============5715871531863980843=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Thu, 27 Oct 2022 11:31:11 -0000
-Message-Id: <166687027125.21432.3536618364563605907@gitolite.kernel.org>
+Date: Thu, 27 Oct 2022 11:31:32 -0000
+Message-Id: <166687029246.21668.13764542496013933341@gitolite.kernel.org>
 
---===============7095855881060637574==
+--===============5715871531863980843==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jejb/scsi
 user: jejb
 changes:
-  - ref: refs/heads/misc
-    old: 868a8824838f1f0d781e838fa36dbb2de6bc7fdd
-    new: 7029e2151a7c6a5c60b35996d026528e7d51aae3
-    log: revlist-868a8824838f-7029e2151a7c.txt
+  - ref: refs/heads/for-next
+    old: 031a4e28a29db6b13c3e7a1b154c45df5b7e24fa
+    new: c8d0d0a1110f6248c4d8a445994f47679b2b3795
+    log: revlist-031a4e28a29d-c8d0d0a1110f.txt
 
---===============7095855881060637574==
+--===============5715871531863980843==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-868a8824838f-7029e2151a7c.txt
+Content-Disposition: attachment; filename=revlist-031a4e28a29d-c8d0d0a1110f.txt
 
 621a323c3a7e23b364deaddf769e731f2da6ff03 scsi: target: Remove the unused function transport_lba_64_ext()
 a9ee3f840646e2ec419c734e592ffe997195435e scsi: libsas: Add sas_task_find_rq()
@@ -51,5 +51,6 @@ dcd5b7637c6d442d957f73780a03047413ed3a10 scsi: ufs: Reduce the START STOP UNIT t
 1a547cbc6fdd07992f915a614a3f7ba3fccef8fb scsi: ufs: Track system suspend / resume activity
 6a354a7e740ee779d8595bb3c555d415433f2b19 scsi: ufs: Introduce the function ufshcd_execute_start_stop()
 7029e2151a7c6a5c60b35996d026528e7d51aae3 scsi: ufs: Fix a deadlock between PM and the SCSI error handler
+c8d0d0a1110f6248c4d8a445994f47679b2b3795 Merge branch 'misc' into for-next
 
---===============7095855881060637574==--
+--===============5715871531863980843==--
