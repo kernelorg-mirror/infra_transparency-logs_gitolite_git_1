@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/legion/kbd
-Date: Thu, 27 Oct 2022 18:26:41 -0000
-Message-Id: <166689520118.28605.9016011542902272919@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/deller/linux-fbdev
+Date: Thu, 27 Oct 2022 18:30:43 -0000
+Message-Id: <166689544334.31672.12396832558205153667@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/legion/kbd
-user: legion
+repo: pub/scm/linux/kernel/git/deller/linux-fbdev
+user: deller
 changes:
-  - ref: refs/heads/master
-    old: e340fe0a04618f66409fd92f127838887bbb5519
-    new: e589adb3d0732864eb63e8e8043f3e7654d4ab46
+  - ref: refs/heads/for-next
+    old: 835bed1b83952bdbbe874f8ee41d665d52e991de
+    new: 3c6bf6bddc84888c0ce163b09dee0ddd23b5172a
     log: |
-         e589adb3d0732864eb63e8e8043f3e7654d4ab46 keymaps: Add dvorak-de.map from console-data
+         3c6bf6bddc84888c0ce163b09dee0ddd23b5172a fbdev: cyber2000fb: fix missing pci_disable_device()
          
