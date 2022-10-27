@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 27 Oct 2022 22:10:56 -0000
-Message-Id: <166690865675.28869.14305628102910787939@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
+Date: Thu, 27 Oct 2022 22:13:16 -0000
+Message-Id: <166690879696.29736.8207964243162373517@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: peterz
+repo: pub/scm/linux/kernel/git/palmer/linux
+user: palmer
 changes:
-  - ref: refs/heads/perf/core
-    old: dc39beffcfc19a8dd2a09c5818dcd1a4e9099033
-    new: 571f97f7d51fa81e6cc0e00f0f6314792ce533a3
+  - ref: refs/heads/fixes
+    old: 9f2ac64d6ca60db99132e08628ac2899f956a0ec
+    new: c7cff90e37f7d9f39aaca15bb6e1ce95a9416cd3
     log: |
-         bd27568117664b8b3e259721393df420ed51f57b perf: Rewrite core context handling
-         571f97f7d51fa81e6cc0e00f0f6314792ce533a3 perf: Optimize perf_tp_event()
+         b8c86872d1dc171d8f1c137917d6913cae2fa4f2 riscv: fix detection of toolchain Zicbom support
+         aae538cd03bc8fc35979653d9180922d146da0ca riscv: fix detection of toolchain Zihintpause support
+         c7cff90e37f7d9f39aaca15bb6e1ce95a9416cd3 Merge patch series "(attempt to) Fix RISC-V toolchain extension support detection"
          
