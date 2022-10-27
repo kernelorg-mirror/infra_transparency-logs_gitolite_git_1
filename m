@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Thu, 27 Oct 2022 15:02:57 -0000
-Message-Id: <166688297793.10281.11637886122698680542@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/wireless/iwd
+Date: Thu, 27 Oct 2022 15:03:22 -0000
+Message-Id: <166688300258.10482.14157392346775383697@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-user: masahiroy
+repo: pub/scm/network/wireless/iwd
+user: holtmann
 changes:
-  - ref: refs/heads/fixes
-    old: 9a21115ca50ea184b5099093d813c078597aa9b7
-    new: e6402fdc27e0e3eac51e1ff937740e28a6b4cf34
+  - ref: refs/heads/master
+    old: 4af66b8cac47cab5e8318ac4b731f216e8c627ff
+    new: 342acc9a67b038c9e4e0e0a7852dc69a1d7ccd9f
     log: |
-         e6402fdc27e0e3eac51e1ff937740e28a6b4cf34 Documentation: kbuild: Add description of git for reproducible builds
+         342acc9a67b038c9e4e0e0a7852dc69a1d7ccd9f README: Update links to mailing list and its archive
          
