@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Thu, 27 Oct 2022 01:24:00 -0000
-Message-Id: <166683384015.27464.15684194267441869967@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Thu, 27 Oct 2022 01:31:39 -0000
+Message-Id: <166683429975.2206.8656959073439266104@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: martin.lau
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
-  - ref: refs/heads/for-next
-    old: d96d4276eaeb09b07e0949d432622691ea5c96f5
-    new: 96f341a4751d1939a303c5c526b2ca79ebda075f
+  - ref: refs/heads/master
+    old: bac29bb1f63a54bed50b303022c36863a74c754f
+    new: 3426105050a2ccdf7ef0dd85978eb5f30b7c447a
     log: |
-         96f341a4751d1939a303c5c526b2ca79ebda075f bpftool: Fix spelling mistake "disasembler" -> "disassembler"
+         3426105050a2ccdf7ef0dd85978eb5f30b7c447a Thu Oct 27 01:30:36 AM UTC 2022
          
