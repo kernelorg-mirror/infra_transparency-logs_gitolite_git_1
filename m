@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec
-Date: Thu, 27 Oct 2022 14:39:50 -0000
-Message-Id: <166688159008.24113.2975302394651257054@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/wireless/iwd
+Date: Thu, 27 Oct 2022 14:40:55 -0000
+Message-Id: <166688165546.26052.6559390910896497953@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/klassert/ipsec
-user: klassert
+repo: pub/scm/network/wireless/iwd
+user: denkenz
 changes:
-  - ref: refs/heads/testing
-    old: 4b549ccce941798703f159b227aa28c716aa78fa
-    new: 7f57f8165cb6d2c206e2b9ada53b9e2d6d8af42f
+  - ref: refs/heads/master
+    old: 13bdb5ee80384f0dc2cf5490b3596c1af0e6060d
+    new: 4af66b8cac47cab5e8318ac4b731f216e8c627ff
     log: |
-         7f57f8165cb6d2c206e2b9ada53b9e2d6d8af42f af_key: Fix send_acquire race with pfkey_register
+         81e48eaba5010fd7700224ad51fbbecd558c081d hwsim: add additional ciphers to disable list
+         4af66b8cac47cab5e8318ac4b731f216e8c627ff auto-t: test AP mode using TKIP
          
