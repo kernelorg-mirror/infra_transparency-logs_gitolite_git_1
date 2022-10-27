@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1610676102300933427=="
+Content-Type: multipart/mixed; boundary="===============8027300555739765029=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 27 Oct 2022 08:46:02 -0000
-Message-Id: <166686036235.19381.7487575472191092556@gitolite.kernel.org>
+Date: Thu, 27 Oct 2022 08:47:08 -0000
+Message-Id: <166686042818.19866.9090926997420145777@gitolite.kernel.org>
 
---===============1610676102300933427==
+--===============8027300555739765029==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,18 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: peterz
 changes:
-  - ref: refs/heads/perf/core
-    old: 82aad7ff7ac25c8cf09d491ae23b9823f1901486
-    new: dc39beffcfc19a8dd2a09c5818dcd1a4e9099033
-    log: revlist-82aad7ff7ac2-dc39beffcfc1.txt
+  - ref: refs/heads/locking/core
+    old: 76e64c73db9542ff4bae8a60f4f32e38f3799b95
+    new: d0c006402e7941558e5283ae434e2847c7999378
+    log: revlist-76e64c73db95-d0c006402e79.txt
 
---===============1610676102300933427==
+--===============8027300555739765029==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-82aad7ff7ac2-dc39beffcfc1.txt
+Content-Disposition: attachment; filename=revlist-76e64c73db95-d0c006402e79.txt
 
+91954c6c904b515baafaee6a1f35c94409a3bb68 drm/amd/display: Fix mutex lock in dcn10
 8ab1d7a27eff87001ebd0977db600e4187f63f78 drm/amd/display: Only commit SubVP state after pipe programming
 d37f379ad04dcc21ebd1d2380c3bc979d54f7c46 drm/amd/display: change to enc314_stream_encoder_dp_blank static
 8abbc4f768ddc5c2190ab8966e529cec42b4b2d4 drivers/amd/pm: check the return value of amdgpu_bo_kmap
@@ -1048,7 +1049,6 @@ a70385240892bcbc6442b054e847c74100e72f1a Merge tag 'perf_urgent_for_v6.1_rc2' of
 ca4582c286aa4465f9d1a72bef34b04ee907d42e Revert "mfd: syscon: Remove repetition of the regmap_get_val_endian()"
 05b4ebd2c7cbb3671c376754b37b4963dd08a3a2 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 247f34f7b80357943234f93f247a1ae6b6c3a740 Linux 6.1-rc2
-983bd8543b5ab8e9a2870ae258bccd4ce7a22c7c perf: Rewrite core context handling
-dc39beffcfc19a8dd2a09c5818dcd1a4e9099033 perf: Optimize perf_tp_event()
+d0c006402e7941558e5283ae434e2847c7999378 jump_label: Use atomic_try_cmpxchg() in static_key_slow_inc_cpuslocked()
 
---===============1610676102300933427==--
+--===============8027300555739765029==--
