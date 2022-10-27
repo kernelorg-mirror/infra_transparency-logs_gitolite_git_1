@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/efi/efi
-Date: Thu, 27 Oct 2022 15:02:03 -0000
-Message-Id: <166688292348.9878.11951740640155922882@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+Date: Thu, 27 Oct 2022 15:02:57 -0000
+Message-Id: <166688297793.10281.11637886122698680542@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/efi/efi
-user: ardb
+repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+user: masahiroy
 changes:
-  - ref: refs/heads/urgent
-    old: 7d866e38c7e9ece8a096d0d098fa9d92b9d4f97e
-    new: 4f50f041554c78aaa821585ce583946ecdae91b3
+  - ref: refs/heads/fixes
+    old: 9a21115ca50ea184b5099093d813c078597aa9b7
+    new: e6402fdc27e0e3eac51e1ff937740e28a6b4cf34
     log: |
-         4f50f041554c78aaa821585ce583946ecdae91b3 efi: efivars: Fix variable writes with unsupported query_variable_store()
+         e6402fdc27e0e3eac51e1ff937740e28a6b4cf34 Documentation: kbuild: Add description of git for reproducible builds
          
