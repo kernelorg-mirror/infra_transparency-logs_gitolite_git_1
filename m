@@ -1,45 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============1707780702706769343=="
+Content-Type: multipart/mixed; boundary="===============6435734605998462444=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Thu, 27 Oct 2022 03:25:57 -0000
-Message-Id: <166684115726.18403.4059921468610463482@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Thu, 27 Oct 2022 03:26:13 -0000
+Message-Id: <166684117341.18622.11038479379191996796@gitolite.kernel.org>
 
---===============1707780702706769343==
+--===============6435734605998462444==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
   - ref: refs/heads/master
     old: 60eac8672b5b6061ec07499c0f1b79f6d94311ce
     new: ecc4eeb2208ab537a3f3744984cd7f30ac971db8
     log: revlist-60eac8672b5b-ecc4eeb2208a.txt
-  - ref: refs/heads/stable
-    old: 4dc12f37a8e98e1dca5521c14625c869537b50b6
-    new: 98555239e4c3aab1810d84073166eef6d54eeb3d
-    log: |
-         63d1dfd067f07c11eafe05ebadc5896491416f86 ARC: Fix comment typo
-         6e32c89c0f67b481ec17de69e556907d6445f91e ARC: Fix comment typo
-         a1db7ad3120e787350c83712c6b1087c7894c6a4 ARC: bitops: Change __fls to return unsigned long
-         c8f878582838f57bc0984f47da2a8d275731240f arc: dts: Harmonize EHCI/OHCI DT nodes name
-         c44f15c1c09481d50fd33478ebb5b8284f8f5edb arc: iounmap() arg is volatile
-         2df1f4a77bc0e94e1a0cc7485d09a26855461dd6 arc: update config files
-         4fd9df10cb7a9289fbd22d669f9f98164d95a1ce ARC: mm: fix leakage of memory allocated for PTE
-         98555239e4c3aab1810d84073166eef6d54eeb3d Merge tag 'arc-6.1-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vgupta/arc
-         
-  - ref: refs/tags/next-20220727
-    old: d3de9adc139e764586f1f30b7cc580df908e96aa
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20221027
     old: 0000000000000000000000000000000000000000
     new: 8991b8569b45c1c6afc7ef439825c83d2d8e1155
 
---===============1707780702706769343==
+--===============6435734605998462444==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -857,4 +841,4 @@ bd945619d44dee3205e3fb2e3707c642943b4707 Merge branch 'for-next/kspp' of git://g
 59855347bb4443814a886525983a7d092ea98bce Merge branch 'mm-everything' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 ecc4eeb2208ab537a3f3744984cd7f30ac971db8 Add linux-next specific files for 20221027
 
---===============1707780702706769343==--
+--===============6435734605998462444==--
