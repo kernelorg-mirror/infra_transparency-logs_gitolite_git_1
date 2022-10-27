@@ -1,84 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============0166806461736101712=="
+Content-Type: multipart/mixed; boundary="===============7931086601524556746=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Wed, 26 Oct 2022 23:19:20 -0000
-Message-Id: <166682636030.32361.2913851521071913084@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Thu, 27 Oct 2022 00:47:50 -0000
+Message-Id: <166683167096.29082.13109478635865697277@gitolite.kernel.org>
 
---===============0166806461736101712==
+--===============7931086601524556746==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/linux
-user: sj
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/damon/next
-    old: 8f44fdd604e95b4da2ae0912d5246bb48819f568
-    new: 485f6f770c2570253251078bc1275b226afcce5c
-    log: revlist-8f44fdd604e9-485f6f770c25.txt
+  - ref: refs/heads/master
+    old: 98555239e4c3aab1810d84073166eef6d54eeb3d
+    new: b229b6ca5abbd63ff40c1396095b1b36b18139c3
+    log: revlist-98555239e4c3-b229b6ca5abb.txt
 
---===============0166806461736101712==
+--===============7931086601524556746==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8f44fdd604e9-485f6f770c25.txt
+Content-Disposition: attachment; filename=revlist-98555239e4c3-b229b6ca5abb.txt
 
-5331d9b44bc0933238c51ff8976be6d0c5c51b27 mm/damon/modules: deduplicate init steps for DAMON context setup
-b281fb8bcea0bc2761e09225419272ec2dce96bb mm/damon/{reclaim,lru_sort}: remove unnecessarily included headers
-466d492f6b6e5512fdaf5d049da8417cbb687a38 swap: add a limit for readahead page-cluster value
-80162d233d68a4deaedc44e114f6789da83f7ce4 maple_tree: fix mas_find_rev() comment
-0bc13ba7d77a5124b471dfa510717d2228711fd9 maple_tree: update copyright dates for test code
-8ab437010041034a9680d77cc6427fcd60d77ec4 mm/damon/reclaim: enable and disable synchronously
-a52083b496d45d4f12bb214452238a00257546f7 selftests/damon: add tests for DAMON_RECLAIM's enabled parameter
-0b93dd13f951adfa4aa6ba6fb0bcb7314a481a34 mm/damon/lru_sort: enable and disable synchronously
-4b243c904e4bde9edc492907fb638654cac21b65 selftests/damon: add tests for DAMON_LRU_SORT's enabled parameter
-a82ff006db697ab9594ba99cdbb59e01c498aba8 mm: convert mm's rss stats into percpu_counter
-c4b24a4002a397993f1f65542486e1ddef7bf04b mm, hwpoison: try to recover from copy-on write faults
-1b5dedbf0df848fc93a2f31c0dba6c7bf37f083d mm, hwpoison: when copy-on-write hits poison, take page offline
-acb84db07ff1b4f88005697d1326312299b772c3 mm: discard __GFP_ATOMIC
-4ccf34f28311b0f5e78e6e1015df16140a4d10ed mm: vmscan: fix extreme overreclaim and swap floods
-a1a7616bd8540de4a8f2e04734223dd8b73175f9 === Mark start of DAMON hack tree ===
-1dc391a58d2bd54256d26a636ed30701558a025f Add -damon suffix to the version name
-f2b44cd532669cf63efbed3e39be0a26d169b3ce === fixes from other subsystems ===
-d52d3ed13afc5fdc4788cad33ce5ca27c1ecfb4d perf: Fix missing raw data on tracepoint events
-471a85ba224e710145eaf8fa8910b53fb4acf298 === Patches in mm-unstable but not yet pushed ===
-e3aca8a141fb29d302bf2c081fd0c375a32e48ea === Patches written or reviewed by SJ but not merged in -mm ===
-467f1a8dea4f9b4a57b98b6e4a4af3fd78ed585f mm/damon/sysfs: split out schemes directory implementation to separate file
-7e05dde70a3b0a9561ff9ea25ecb764552e42fb8 ==== minor fixes ====
-9e9ced21a0221613f844b1a0143b9172b92b2ae1 Docs/admin-guide/mm/damon/usage: describe the rules of sysfs region directories
-b8e0b371128e0a98e651b13650de6ba771bb8839 Docs/admin-guide/mm/damon/usage: Fix wrong usage example of init_regions file
-edc1324a2bdb7234a826419bc68d80533aed0a21 ==== sysfs: DAMOS tried regions implementation ====
-2a8b8710f65ee113a1f7c4fa5761660b626e2d12 mm/damon/core: add a DAMON callback for scheme target regions check
-4cb48f74695ec0578245e3251e92334ed826d8fc mm/damon/sysfs-schemes: implement schemes/tried_regions directory
-642b2fa9d3535279400cab0864b7bf6ce430acaa mm/damon/sysfs-schemes: implement scheme region directory
-79ba5ef2903433101649f3cdebe9d8b3e97ad28d mm/damon/sysfs: implement DAMOS-tried regions update command
-aee555f8a47ceee69f4ea358471a72bb7b1fbe27 mm/damon/sysfs-schemes: implement DAMOS tried regions clear command
-f9cc1fcd2dc506553627c8cfba466b0e7f49b83b Docs/admin-guide/mm/damon/usage: document schemes/<s>/tried_regions directory
-2f415a2d7351c24b75a198c05489564036dfe3ae Docs/ABI/damon: document 'schemes/<s>/tried_regions' directory
-2980060c2ed59c1bce103dff0afa987b04247bde tools/selftets/damon/sysfs: test tried_regions directory existence
-99f27f1bf30a3db25ec2e274daef48ea56d044dc ==== YuanChu's DAMON kselftest fix ====
-b713011055842e009654acd9c5514f70c2933724 selftests/damon: suppress compiler warnings for huge_count_read_write
-89373a478259b176a573e00dd51cd8825da5d51b === commits having no plan to post for now ===
-17a2aeccf4bb9fb331e73fdc000dcd50548e53ba tools/perf: Integrate DAMON in perf
-032e7c8ff916712d24f9d973e10467d3f703e684 selftests/damon: Test race between target_ids_read() and dbgfs_before_terminate()
-f1361dc07a9a0bd6718d68cc94bd3f0d98743ec8 selftests/damon: Test target_ids_write()'s pids leaks
-bfb2221b9a1cdd19c1b793dfaaba2dda69fb80a6 selftests/damon: add auto-generated files in .gitignore
-f3bbec3f2fc1a119ba0418a276c9264401e243b3 === Commits aiming not to be posted ===
-328711e8a8dcc0dbf0bf3e3c82cbead8ceb7aa16 mm/damon: Add debug code
-0e9be1c0233bde272c1c43416e00b1bf81571e5b Docs/DAMON: Add more DAMON docs for external DAMON-only html documents
-37a6763413204d11d760e7b292793eda7d391d51 === Hacks in progress (aim to be posted) ===
-99fd1ff443cd7ebeb419f029bd8a182553aade51 ==== available state input (would not post upstream) ====
-7e54aabe64414e1bcf5698cdd4e026cb246ccceb mm/damon/sysfs: implement kdamonds/<k>/avail_state_inputs file
-4aa153c1dc818b1474d1cdf481983c9b030133b8 Docs/admin-guide/mm/damon/usage: document 'avail_state_input' file
-db5962e2729d3dee693f4207e279a3c2bb12f7b6 Docs/ABI/damon: document 'avail_state_inputs' file
-bf67a3360f158069a253c1897eb8a38145adac08 ==== DAMOS filters ====
-e1ba5f0edaeab48bfef3d5f7697c5607786fc395 Docs/admin-guide/mm/damon/usage: document DAMOS filters of sysfs
-c6265725a74cf5a4adc18a854058f62525e23c5c damon/core: implement DAMOS filter
-b8c5dc770f17e10968782169b3eba954e0007f03 mm/damon/paddr/pageout: support anonymous pages filter
-0d6ffc104c296d85b21ca5a3bb6834d699ec6924 mm/damon/padr/lru_(de)prio: support DAMOS anonymout pages filter
-485f6f770c2570253251078bc1275b226afcce5c mm/damon: Implement DAMOS filter for memcg
+8777dd9dff4020bba66654ec92e4b0ab6367ad30 spi: tegra210-quad: Fix combined sequence
+033d2d13a25113b6ffd24d72490f0e363dd3eb4c spi: spi-gxp: fix typo in SPDX identifier line
+b994d8f0773cf3b01129c094d00050710f2c422b spi: spi-mem: Fix typo (of -> or)
+b25fe93ff705cdd8e98ad8d0435c621ea5462c82 spi: mpc52xx: Replace NO_IRQ by 0
+5302e1ff315b40dfc9bb3f08911f5a788cc1de01 spi: aspeed: Fix typo in mode_bits field for AST2600 platform
+6a43cd02ddbc597dc9a1f82c1e433f871a2f6f06 spi: intel: Fix the offset to get the 64K erase opcode
+b40af6183b685b0cf7870987b858de0d48db9ea0 spi: qup: support using GPIO as chip select line
+f8aa6c895d482847c9b799dcdac8bbdb56cb8e04 spi: aspeed: Fix window offset of CE1
+88864611940ae7dd5a9d40667287c4c9fa455140 tools headers UAPI: Sync powerpc syscall tables with the kernel sources
+231e61bc2e87486270686f7bc3c43c4fb3b0e0b9 perf docs: Fix man page build wrt perf-arm-coresight.txt
+b92dd11725a7c57f55e148c7d3ce58a86f480575 perf vendor events power10: Fix hv-24x7 metric events
+409fb6bdd6eaf64c2da174b48b30ae032a9d7554 perf bpf: Fix build with libbpf 0.7.0 by adding prototype for bpf_load_program()
+f1bdebbb67bd21d7c5dfc42f313f2f54002440b8 perf bpf: Fix build with libbpf 0.7.0 by checking if bpf_program__set_insns() is available
+304f0a2f6a6d9336fb5e474d7f62b8677d5ee167 perf record: Fix event fd races
+5a6c184a72a375072cffe788d93ad6052c48f16b perf list: Fix PMU name pai_crypto in perf list on s390
+246122a856faddd87df3063c0dd38a62b40ceeab perf test: Do not fail Intel-PT misc test w/o libpython
+ffc1df3dc97ee2aad6d2a94e4615c2a96cf291ad tools headers arm64: Sync arm64's cputype.h with the kernel sources
+4402e360d0f833c8c67b2fda0d3f612f4fd8b2cc tools headers: Update the copy of x86's memcpy_64.S used in 'perf bench'
+036b8f5b8970e387eb3224eda45348de39135177 tools headers uapi: Update linux/in.h copy
+82c50d8937f32f911a41739f7a51934a9ea8b92a tools include UAPI: Sync sound/asound.h copy with the kernel sources
+49c75d30b0078d304bc0ae41026e629b23f6711e tools headers uapi: Sync linux/stat.h with the kernel sources
+74455fd7e459566198c8f1b2b33ca43a0c3ee8cb tools headers cpufeatures: Sync with the kernel sources
+831c05a7621b96944b0b4dbede57ed7cf0578f1c tools headers UAPI: Sync linux/perf_event.h with the kernel sources
+cba04f3136b658583adb191556f99d087589c1cc perf auxtrace: Fix address filter symbol name match for modules
+e9229d5b6254a75291536f582652c599957344d2 perf vendor events arm64: Fix incorrect Hisi hip08 L3 metrics
+a2718383ef9d9dcba90212531909aa4c8ab31c0c Merge tag 'spi-fix-v6.1-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
+b229b6ca5abbd63ff40c1396095b1b36b18139c3 Merge tag 'perf-tools-fixes-for-v6.1-2022-10-26' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 
---===============0166806461736101712==--
+--===============7931086601524556746==--
