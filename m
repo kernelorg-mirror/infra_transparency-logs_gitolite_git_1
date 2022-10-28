@@ -1,55 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============6776291062588038677=="
+Content-Type: multipart/mixed; boundary="===============8452215665595753432=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Fri, 28 Oct 2022 18:52:38 -0000
-Message-Id: <166698315839.15404.9604772691976886529@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Fri, 28 Oct 2022 18:52:49 -0000
+Message-Id: <166698316949.15564.12378140244556717221@gitolite.kernel.org>
 
---===============6776291062588038677==
+--===============8452215665595753432==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.2
-    old: 3bcca3787bfc4859414d43bc0ffb754b9075eca6
-    new: ad850421cabdc558ebbf68aa62f0d6781e70a879
-    log: revlist-3bcca3787bfc-ad850421cabd.txt
+  - ref: refs/heads/for-next
+    old: 8b956f9f3ded425a7841cb8ef1d26def339886af
+    new: e74355ea8baa3d0ac63b2258f5d7193eb70990fa
+    log: revlist-8b956f9f3ded-e74355ea8baa.txt
 
---===============6776291062588038677==
+--===============8452215665595753432==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1666983156 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1666983156-c13ce6bff38edfcc88881bf0cba2c9937ca4bd7d
-
-3bcca3787bfc4859414d43bc0ffb754b9075eca6 ad850421cabdc558ebbf68aa62f0d6781e70a879 refs/heads/asoc-6.2
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmNcJPQACgkQJNaLcl1U
-h9COSAf+J5FQ5J+v9HEbtMGnXr+vofcRUaZNv304mW3MQNjN0S5K6l578bG+OJ/s
-JOrgp0QyhziWFZkqcHgS7tMOBkZxKQ/ucVL1CJt8+csfmDNUYOUia2N7MfoPtkSa
-WcjVuLs4pDblSe0cdjhckFpVe+dfcersiwA4xdMiJtUdBQgTpZy3GWk0yXBYZMMh
-vnBpSEsWdIVwxNQpX9pkfAd45ns/kGQLVJKvMHzlzuGvgA7nUA5wnwRY7lgBDyN1
-W4DpuzbKwKwQAmqB2iKFTj+OHCTaea+s6xqd8XOhAAgJMFHUkmMqAimkMMxtqMUR
-2aylqC557/9Yg5J8OZbFO8KHBIR86g==
-=UBBH
------END PGP SIGNATURE-----
-
---===============6776291062588038677==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3bcca3787bfc-ad850421cabd.txt
+Content-Disposition: attachment; filename=revlist-8b956f9f3ded-e74355ea8baa.txt
 
 834c69d3b849625d5c5bb81a3425fc8deef5f16d ASoC: SOF: Intel: remove option to disable the common_hdmi handling
 2c6c809cc00b71b3195d76a69d603cc761716ab7 ASoC: SOF: Intel: remove all dependencies on SND_SOC_HDAC_HDMI
@@ -73,5 +48,6 @@ a4203256e46932e74984c6554d0c502c8994e0b8 ASoC: SOF: Intel: hda: clarify Kconfig 
 e8b7479d06d565432f87d684d2876d0b0d1f0210 ASoC: SOF: Intel: hda-codec: use GPL-2.0-only license
 4bd1adb85a09c249ddb4610e8412bf0f4484a371 ASoC: SOF: introduce new DEBUG_NOCODEC mode
 ad850421cabdc558ebbf68aa62f0d6781e70a879 ASoC: SOF: Intel: HDA: refactor codec and multi-link suport
+e74355ea8baa3d0ac63b2258f5d7193eb70990fa Merge remote-tracking branch 'asoc/for-6.2' into asoc-next
 
---===============6776291062588038677==--
+--===============8452215665595753432==--
