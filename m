@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-Date: Fri, 28 Oct 2022 23:43:13 -0000
-Message-Id: <166700059355.29405.8923262980816117320@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/crng/random
+Date: Fri, 28 Oct 2022 23:44:24 -0000
+Message-Id: <166700066482.29901.14257952335855950793@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-user: vudentz
+repo: pub/scm/linux/kernel/git/crng/random
+user: zx2c4
 changes:
   - ref: refs/heads/master
-    old: aa02d16d9c085f348ce56b51b58039101746c4aa
-    new: 98f18bb78b7def72f9c4038ba3944cd53f2009c9
+    old: eaaf5c3db21e96c70dc927dfb24017dbf84fe5ab
+    new: 1ea93f46fe096028f5188c5163547a8ff3aa1ffa
     log: |
-         98f18bb78b7def72f9c4038ba3944cd53f2009c9 Bluetooth: Add CONFIG_BT_LE_L2CAP_ECRED
+         efff34a3d7ebfcec1ba5d6c2dc36f68bab83f477 random: remove early archrandom abstraction
+         1ea93f46fe096028f5188c5163547a8ff3aa1ffa random: do not include <asm/archrandom.h> from random.h
          
