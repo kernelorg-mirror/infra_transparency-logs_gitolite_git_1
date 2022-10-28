@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3952273908585300979=="
+Content-Type: multipart/mixed; boundary="===============1230676454181644589=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Fri, 28 Oct 2022 11:04:14 -0000
-Message-Id: <166695505490.5745.10362209470403144977@gitolite.kernel.org>
+Date: Fri, 28 Oct 2022 11:04:17 -0000
+Message-Id: <166695505763.5810.7930809784106017908@gitolite.kernel.org>
 
---===============3952273908585300979==
+--===============1230676454181644589==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,38 @@ repo: pub/scm/linux/kernel/git/stable/linux
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.10.y
-    old: a10a57a224f32035b58ef68b069f5b7491dd13e2
-    new: c34d1b22fef329d5cecd003d7be249937ec70a3c
-    log: |
-         bbaea0f1cd33d702d053d5bdaf6d6dec3932894c bpf: Generate BTF_KIND_FLOAT when linking vmlinux
-         06481cd9f7f692088bce03244f8cf132018f2fc6 kbuild: Quote OBJCOPY var to avoid a pahole call break the build
-         f5f413cb3e8af235c5d310bea9942424fb242c2c kbuild: skip per-CPU BTF generation for pahole v1.18-v1.21
-         c5006abb80e276896ff7237300a6d447708c7924 kbuild: Unify options for BTF generation for vmlinux and modules
-         ecad3312111798d84dac1ce6a853e0ac9de8d505 kbuild: Add skip_encoding_btf_enum64 option to pahole
-         c34d1b22fef329d5cecd003d7be249937ec70a3c Linux 5.10.151
-         
+  - ref: refs/tags/v5.10.151
+    old: 0000000000000000000000000000000000000000
+    new: 7b917614dc899d3c51ca08cd9bfd4bfdf2e28e02
 
---===============3952273908585300979==
+--===============1230676454181644589==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1666955054 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1666955056 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1666955053-bda48a263e4877d4e2c219cf57525148a27ddf23
+nonce 1666955056-23a2b57a434063597ed7f231b2e1c7cd8afde73a
 
-a10a57a224f32035b58ef68b069f5b7491dd13e2 c34d1b22fef329d5cecd003d7be249937ec70a3c refs/heads/linux-5.10.y
+0000000000000000000000000000000000000000 7b917614dc899d3c51ca08cd9bfd4bfdf2e28e02 refs/tags/v5.10.151
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmNbty4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+QLMP/1A7reNiFdgSSvA9bnrV
-dHznpYvpY8Y6rAuGmlPmzsOrZ6gx+Kq/UfCBGhTPeH1Hs0AIXYziPvHpIFsixETR
-tdnXWZmEugufXAOTaiCvWIQTsDJJc3lbOTrH2NgSHwinVvQf5SzvsP5EBECxX8/e
-+NcSPt4CH7PgJJ6RbYpv4RjMLFKpiaUIar++G0x/jBdVaPZlur6p7iAvdzxilC2k
-ew5bkUmNtZdSNFlwWjM3UJFEv4NiWbeqUrr5BmAE2leh7jTXhUXJig3M3C6hrBWt
-MMfRtiKkt14hFQL+jwPo7Uf8L0CwTAdOH0zPhMGznFlBJfbH+ePmf2Pl5j9+FXg3
-6wCWOSh1cj+Nu3NS0l5ZfIaXyYhMCuDmSjc1WHa4yjESYNUqRCMyRFclvFjbj3mi
-rhgRC45g6PTR4vQ8i5Xk+rZ9bZHn5B8UnB3YJ5mL0W98m23EBAQRM0RGfyqppoJj
-O/ZWwnr04URSBeCCLkzAMB83cfaM0W6r/mUKed9CH928Nr3yc5X7fQ7oGUbpVOuC
-1F05Qq2R0EA0n293Yuz0WHbGF5N9inoUrxV03HhBlqLALAQELIxnmCBWAxXztlBP
-qTuCXM4lX/B0xBie9E9p9fLtr3p7Rf6WdE7YBt0DAooSNLFRDURZlUGkr9RxcH79
-g3fQJJmi4g4/GWFc6P1ob78b
-=NU7/
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmNbtzAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Vp8P/0vN8Mrex2xhypC/3SSO
+/NkFerx7ABS7JSygIH8HeINwM+aAVxsZ/iPw01M9d5ytv8ZgmvWj42VVLyK8iWRl
+qy48N5GxeRcqchckaaieTHzYQe5KCj5qXXAGT8fJNasnIYhbX5sgyX14FMZ4aA1/
+yt8rA4L8U+5awM6Y0RBg1RZ2qG0Q+WMGVKjxz5AjgLE6LLqWSLkR6r5dF+Ztauuc
+No7ri16hK3shRWfDlAFBpzRfc8KLBlU9ASWAhpYY6hkiMm6kq2DrcqhjUoIKeReG
+1/8+UesaW7z0usCUWUu2ZvYR/voIp6r/kZup1tgKbFfrVQz1jfMmY9iwGVpjUF+k
+b1YaFRILJkkLxCYeYXAM7OC3LV9hSfmBcGb/3u5WsB+UCdF35UjYyEQe9Sn1z8ku
+ocIPCzTra23WxFsPls8gDW9ijiOHby91swbZMKqcnecZ8ZWDQUtRLm8JRBjHndTp
+t/lWXLokKMmtFT1CtGgYk8ZAcgrPjEbetCj25ccn6+/I/CnJzUXYBuMfBuzZ0LVN
+bftbJZnbV4rBdLU/5gBEwclyKRQpcpjQvfueCoJNk6iFGUCeLoRY1N6DlYTEI0OH
+VwVA+LcY/HITbR46bX1wRWhCNzMWFZGSnVH4GqIZ8EyrOzUf/LvCB++2CdbttTsk
+z/1qKd5wx9MbfmdgO6CC1SbB
+=CxD5
 -----END PGP SIGNATURE-----
 
---===============3952273908585300979==--
+--===============1230676454181644589==--
