@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Fri, 28 Oct 2022 16:06:48 -0000
-Message-Id: <166697320855.25261.5489365288837621237@gitolite.kernel.org>
+Date: Fri, 28 Oct 2022 16:07:07 -0000
+Message-Id: <166697322781.25430.254762720216569267@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,8 +11,8 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/rdma/rdma
 user: jgg
 changes:
-  - ref: refs/heads/for-rc
-    old: ad9394a3da33995dff828dbfd4540421e535bec9
+  - ref: refs/heads/wip/jgg-for-rc
+    old: ab9a924e54d9b10c3c7399a8342e4ce4452a1b00
     new: 7a47e077e503feb73d56e491ce89aa73b67a3972
     log: |
          eb83f502adb036cd56c27e13b9ca3b2aabfa790b RDMA/cma: Use output interface for net_dev check
