@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5291712965733312335=="
+Content-Type: multipart/mixed; boundary="===============3407591253752180842=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/abelvesa/linux
-Date: Fri, 28 Oct 2022 09:21:57 -0000
-Message-Id: <166694891759.16541.3989178830467708394@gitolite.kernel.org>
+Date: Fri, 28 Oct 2022 09:22:33 -0000
+Message-Id: <166694895378.16817.13701297333736952002@gitolite.kernel.org>
 
---===============5291712965733312335==
+--===============3407591253752180842==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/abelvesa/linux
 user: abelvesa
 changes:
-  - ref: refs/heads/for-next
+  - ref: refs/heads/clk/imx
     old: 568035b01cfb107af8d2e4bd2fb9aea22cf5b868
     new: 9abf2313adc1ca1b6180c508c25f22f9395cc780
     log: revlist-568035b01cfb-9abf2313adc1.txt
 
---===============5291712965733312335==
+--===============3407591253752180842==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ b08cd74448fafaa302ce2bc11beab5e5a55d0065 Merge tag '6.1-rc-smb3-client-fixes-par
 f1947d7c8a61db1cb0ef909a6512ede0b1f2115b Merge tag 'random-6.1-rc1-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/crng/random
 9abf2313adc1ca1b6180c508c25f22f9395cc780 Linux 6.1-rc1
 
---===============5291712965733312335==--
+--===============3407591253752180842==--
