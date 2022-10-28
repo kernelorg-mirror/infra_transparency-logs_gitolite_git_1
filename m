@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/zx2c4/linux
-Date: Fri, 28 Oct 2022 14:27:57 -0000
-Message-Id: <166696727756.19617.9368446204712346473@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ras/ras
+Date: Fri, 28 Oct 2022 14:32:05 -0000
+Message-Id: <166696752551.22695.775812764474309@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/zx2c4/linux
-user: zx2c4
+repo: pub/scm/linux/kernel/git/ras/ras
+user: bp
 changes:
-  - ref: refs/heads/unsigned-char
-    old: 3f45331190d328a9a1519cae26b41f63d3801127
-    new: 65ab66c95ed9f681227ee4ba56470914286023ef
+  - ref: refs/heads/edac-for-next
+    old: 4694f4ef63fd5bcdbe983add89a018bd817bdf23
+    new: f8c843f6693bf74bc0b0667d17f5c8a49fb5018f
     log: |
-         65ab66c95ed9f681227ee4ba56470914286023ef sparc: sbus: treat CPU index as integer
+         d1f3c58d792b08e29d71194a81a284db7ded4c83 MAINTAINERS: Make Mauro EDAC reviewer
+         f8c843f6693bf74bc0b0667d17f5c8a49fb5018f Merge edac-misc into for-next
          
