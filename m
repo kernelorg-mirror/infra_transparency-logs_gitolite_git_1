@@ -1,19 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Fri, 28 Oct 2022 09:33:25 -0000
-Message-Id: <166694960583.25090.8090114028294343125@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/kernel/kexec/kexec-tools
+Date: Fri, 28 Oct 2022 09:56:47 -0000
+Message-Id: <166695100700.23387.9776799697817768989@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: davem
+repo: pub/scm/utils/kernel/kexec/kexec-tools
+user: horms
 changes:
-  - ref: refs/heads/master
-    old: 23758867219c8d84c8363316e6dd2f9fd7ae3049
-    new: 633efc8b3dc96f56f5a57f2a49764853a2fa3f50
+  - ref: refs/heads/main
+    old: 834be38cc0444799dff4809f69d3eac5eeac9a63
+    new: b0381b817910fcf1cd61c74458610d3ae6b153e5
     log: |
-         633efc8b3dc96f56f5a57f2a49764853a2fa3f50 net: dsa: Fix possible memory leaks in dsa_loop_init()
+         b0381b817910fcf1cd61c74458610d3ae6b153e5 workflow: update to checkout@v3
+         
+  - ref: refs/heads/master
+    old: 834be38cc0444799dff4809f69d3eac5eeac9a63
+    new: b0381b817910fcf1cd61c74458610d3ae6b153e5
+    log: |
+         b0381b817910fcf1cd61c74458610d3ae6b153e5 workflow: update to checkout@v3
          
