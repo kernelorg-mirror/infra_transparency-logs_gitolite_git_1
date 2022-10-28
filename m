@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5919184860671697079=="
+Content-Type: multipart/mixed; boundary="===============8524208137164499669=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ti/linux
-Date: Fri, 28 Oct 2022 13:23:21 -0000
-Message-Id: <166696340171.5279.10775219431774799807@gitolite.kernel.org>
+Date: Fri, 28 Oct 2022 13:23:31 -0000
+Message-Id: <166696341159.5415.7844134437183888962@gitolite.kernel.org>
 
---===============5919184860671697079==
+--===============8524208137164499669==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,32 +15,18 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ti/linux
 user: nmenon
 changes:
-  - ref: refs/heads/ti-drivers-soc-next
+  - ref: refs/heads/ti-next
     old: 9abf2313adc1ca1b6180c508c25f22f9395cc780
-    new: b13b2c3e0e4d0854228b5217fa34e145f3ace8ac
-    log: |
-         adf85adc2a7199b41e7a4da083bd17274a3d6969 drivers: soc: ti: knav_qmss_queue: Mark knav_acc_firmwares as static
-         2f9b0402755c1320420825ea8cda27a5f18e0ac4 firmware: ti_sci: Use the bitmap API to allocate bitmaps
-         4dc3883203736dcd979672ac8d9f086dbd4d2140 firmware: ti_sci: Use the non-atomic bitmap API when applicable
-         b13b2c3e0e4d0854228b5217fa34e145f3ace8ac firmware: ti_sci: Fix polled mode during system suspend
-         
-  - ref: refs/heads/ti-k3-dts-next
-    old: 9abf2313adc1ca1b6180c508c25f22f9395cc780
-    new: 0aef5131380628e2a9bfcbbcfed5d6477c8f9651
-    log: revlist-9abf2313adc1-0aef51313806.txt
-  - ref: refs/heads/ti-keystone-next
-    old: 9abf2313adc1ca1b6180c508c25f22f9395cc780
-    new: 7e8edf55cf729367afdb5e9a8b182f1d47897800
-    log: |
-         7e8edf55cf729367afdb5e9a8b182f1d47897800 ARM: keystone: Replace platform SMP with PSCI
-         
+    new: f1ffcc9579f682e8a990aa91df2741256ddb3f0c
+    log: revlist-9abf2313adc1-f1ffcc9579f6.txt
 
---===============5919184860671697079==
+--===============8524208137164499669==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9abf2313adc1-0aef51313806.txt
+Content-Disposition: attachment; filename=revlist-9abf2313adc1-f1ffcc9579f6.txt
 
+7e8edf55cf729367afdb5e9a8b182f1d47897800 ARM: keystone: Replace platform SMP with PSCI
 dacf4705cee54eef4406a886a0a50a6f445969f8 arm64: dts: ti: k3-am64: Enable UART nodes at the board level
 b80f75d8f68cad4efa250e4a3152932f59c756cc arm64: dts: ti: k3-am64: Enable I2C nodes at the board level
 79d4aa623f6c9d47aa29b6b4a3fa46c09f74bfae arm64: dts: ti: k3-am64: Enable SPI nodes at the board level
@@ -73,5 +59,10 @@ a9ed915cd55c883fed72e50b45988fa4305496a7 arm64: dts: ti: k3-j7200: Enable I2C no
 3fb0402f65959edc9a14842dc36828d2c7109ae2 arm64: dts: ti: k3-j721s2: Enable Mailbox nodes at the board level
 06639b8ae0e9be0cf0195209e6b69f4e254687b0 arm64: dts: ti: k3-j721s2: Enable MCAN nodes at the board level
 0aef5131380628e2a9bfcbbcfed5d6477c8f9651 arm64: dts: ti: k3-j721s2: Enable I2C nodes at the board level
+adf85adc2a7199b41e7a4da083bd17274a3d6969 drivers: soc: ti: knav_qmss_queue: Mark knav_acc_firmwares as static
+2f9b0402755c1320420825ea8cda27a5f18e0ac4 firmware: ti_sci: Use the bitmap API to allocate bitmaps
+4dc3883203736dcd979672ac8d9f086dbd4d2140 firmware: ti_sci: Use the non-atomic bitmap API when applicable
+b13b2c3e0e4d0854228b5217fa34e145f3ace8ac firmware: ti_sci: Fix polled mode during system suspend
+f1ffcc9579f682e8a990aa91df2741256ddb3f0c Merge branches 'ti-keystone-next', 'ti-k3-dts-next' and 'ti-drivers-soc-next' into ti-next
 
---===============5919184860671697079==--
+--===============8524208137164499669==--
