@@ -1,50 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============6636104672856929308=="
+Content-Type: multipart/mixed; boundary="===============2663494952490398520=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Fri, 28 Oct 2022 18:40:04 -0000
-Message-Id: <166698240419.7256.5134947709156651078@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Fri, 28 Oct 2022 18:40:11 -0000
+Message-Id: <166698241109.7358.17111682208552518812@gitolite.kernel.org>
 
---===============6636104672856929308==
+--===============2663494952490398520==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.1
-    old: 6ec27c53886c8963729885bcf2dd996eba2767a7
-    new: 6a564338a23cefcfc29c4a535b98402d13efdda6
+  - ref: refs/heads/for-6.1
+    old: c1de355e04e6ae8da21cb6bfbd5bbfd8deee0fe5
+    new: ae4b3c1252f0fd0951d2f072a02ba46cac8d6c92
     log: |
-         6a564338a23cefcfc29c4a535b98402d13efdda6 ASoC: fsl_asrc fsl_esai fsl_sai: allow CONFIG_PM=N
+         ae4b3c1252f0fd0951d2f072a02ba46cac8d6c92 spi: tegra210-quad: Don't initialise DMA if not supported
          
 
---===============6636104672856929308==
+--===============2663494952490398520==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1666982402 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1666982402-26a946518434692702bf0c321f670784a5949f7a
+pusher C3F436CA30F5D8EB 1666982409 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1666982408-145a7123e0b8d037c4564c78a8117fad23a56033
 
-6ec27c53886c8963729885bcf2dd996eba2767a7 6a564338a23cefcfc29c4a535b98402d13efdda6 refs/heads/asoc-6.1
+c1de355e04e6ae8da21cb6bfbd5bbfd8deee0fe5 ae4b3c1252f0fd0951d2f072a02ba46cac8d6c92 refs/heads/for-6.1
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmNcIgIACgkQJNaLcl1U
-h9C0XQf/Seg6SwHEaVL1rKKfHWA3mFG2cSGxJV/RzmLcovgV2y4v9xqKySdWgkGk
-mH4RAWWPXJmI0T69NmPkcS7QCqBpsg40vzQray/K2vriKFSeqA8QnElUHUW4YvkQ
-hR0UeBx9qb8h5DLU2CPq7D5pxuQstO95FkupYLHJWZADWPjJ9G6Q43MsHRn3F43C
-c3kIH6nhywHm5/gYToM3qLO+gHY16H3E6JnEONKJNALEvXouaDXf/B7QkzU8deU1
-k8g26AfBS4yfZXm4yLYUePSqbbXS346nSSvmvZhQshgI3AwabwameeF7Hz8XX710
-I60yoLBomgLdxSPRRbMyv3ff6sFn2w==
-=kMuK
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmNcIgkACgkQJNaLcl1U
+h9BSdwf9Gy6POTfcK+3OyDMWw55VNSze4RInItPxqkBUAeWgksP0CKyrarUv7ctF
+hXhkgZSla68MEC3I5T0FeKTJ5TK1CwG5RNdg9CRMveIIZt/AXNtf6Zxov5BiV4ww
+v+l06tc4fFe7ubpGJ0G50kAVi4msobOENo7ThPu92T3hpAlHHdQaF8QKkrbJyoV0
+sB16lEaUixfzU3yrz96L95fwGfX7PYuyRiAE1KaEWsZW5zWZRRAuPXQXaInxOLar
+gVxcmoJ/O9QZJBkG6aNAs+DOLYPz8OXoMxtpZbbUERJ1BrjmWbqzLPGgnecFi4dv
+I4tMNrP128NqwXYPQHqjODSs4KTfQQ==
+=u/mS
 -----END PGP SIGNATURE-----
 
---===============6636104672856929308==--
+--===============2663494952490398520==--
