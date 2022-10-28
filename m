@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Fri, 28 Oct 2022 14:50:04 -0000
-Message-Id: <166696860418.2811.6264221189573025065@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
+Date: Fri, 28 Oct 2022 14:50:22 -0000
+Message-Id: <166696862250.3009.2695544562244865286@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/brgl/linux
+user: brgl
 changes:
-  - ref: refs/heads/block-6.1
-    old: dea31328d424b5c11c65a3cf9936656abafe94ba
-    new: e3c5a78cdb6237bfb9641b63cccf366325229eec
+  - ref: refs/heads/gpio/for-current
+    old: 7d1aa08aff0621a595c1b42efb493c475eefeeb3
+    new: 9ed88fcfb1b08c41bde0381dece84d152d53774c
     log: |
-         e3c5a78cdb6237bfb9641b63cccf366325229eec blk-mq: Properly init requests from blk_mq_alloc_request_hctx()
+         9ed88fcfb1b08c41bde0381dece84d152d53774c MAINTAINERS: Change myself to a maintainer
          
