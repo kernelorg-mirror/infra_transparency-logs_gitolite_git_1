@@ -1,20 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec-next
-Date: Fri, 28 Oct 2022 11:28:10 -0000
-Message-Id: <166695649009.22319.14730883746983323405@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vkoul/soundwire
+Date: Fri, 28 Oct 2022 11:32:13 -0000
+Message-Id: <166695673398.25394.744654252295159327@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/klassert/ipsec-next
-user: klassert
+repo: pub/scm/linux/kernel/git/vkoul/soundwire
+user: vkoul
 changes:
-  - ref: refs/heads/master
-    old: e91001bae0d1725d9a49b5bfb5f46f6d1ca6bf1d
-    new: cc2bbbfd9a5064cb8fc2996962d90b782f906223
+  - ref: refs/heads/next
+    old: f74495761df10c25a98256d16ea7465191b6e2cd
+    new: cf43cd33b67a291fadcd16b1ad2f435bd2e60749
     log: |
-         f7fe25a6f00522791cce38bac552d295339d0c79 xfrm: update x->lastused for every packet
-         cc2bbbfd9a5064cb8fc2996962d90b782f906223 xfrm: Remove not-used total variable
+         b39301ee1f268c89bd2a8eae257b7d2f50308598 soundwire: qcom: remove unused SWRM_SPECIAL_CMD_ID
+         1cdbfd4c9dc95d9b1e6bcbeba71cfdc70732b50e soundwire: qcom: make reset optional for v1.6 controller
+         df73f66c7dd4474a05e07f911427043bc32cff31 dt-bindings: soundwire: qcom: add v1.7.0 support
+         cf43cd33b67a291fadcd16b1ad2f435bd2e60749 soundwire: qcom: add support for v1.7 Soundwire Controller
          
