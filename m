@@ -1,45 +1,43 @@
-Content-Type: multipart/mixed; boundary="===============8019338130248905731=="
+Content-Type: multipart/mixed; boundary="===============8868600237312922063=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Fri, 28 Oct 2022 15:06:13 -0000
-Message-Id: <166696957361.14904.11455269274914051329@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Fri, 28 Oct 2022 15:30:00 -0000
+Message-Id: <166697100067.30663.10715276338159143791@gitolite.kernel.org>
 
---===============8019338130248905731==
+--===============8868600237312922063==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cel/linux
-user: cel
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/heads/for-next
-    old: be9de4805452b174bfeeb991b53c96c934d21e30
-    new: 2dd140804b23451f8a93c8a0dedf0f4be9d08f0f
-    log: revlist-be9de4805452-2dd140804b23.txt
+  - ref: refs/heads/bleeding-edge
+    old: 111ae903a8e6222057b042648ac9b64ffd4adb63
+    new: 1e412fdb7a98ff7389bda55518cbc81a0189564d
+    log: revlist-111ae903a8e6-1e412fdb7a98.txt
 
---===============8019338130248905731==
+--===============8868600237312922063==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-be9de4805452-2dd140804b23.txt
+Content-Disposition: attachment; filename=revlist-111ae903a8e6-1e412fdb7a98.txt
 
-074146d40e723ed90b5774a77c948264b7438159 nfsd: don't call nfsd_file_put from client states seqfile display
-7ae8ec2f1d1d319bd960b9ae310a04ab9a616c0e NFSD: Pass the target nfsd_file to nfsd_commit()
-e75cc0096e6bff0c3064d70d580cdb1e07f0e9c8 NFSD: Revert "NFSD: NFSv4 CLOSE should release an nfsd_file immediately"
-dfc7f722cdb7925707fe5a7c24d06e495451e46c NFSD: Add an NFSD_FILE_GC flag to enable nfsd_file garbage collection
-0cc0ec2b5482d4ba293e3a764738b35d8bb90353 NFSD: Clean up nfs4_preprocess_stateid_op() call sites
-839b409c6e3230462d4b868201b6b1aaea9b2c3e NFSD: Trace stateids returned via DELEGRETURN
-86919f9878e980e5e50191cad73f9e987736c800 NFSD: Trace delegation revocations
-9e91b77f1a6301ef3e3fef40296698a0bc211131 NFSD: Use const pointers as parameters to fh_ helpers
-4a9773df0c297e0298e2f9cb67c73b2a0d0ef605 NFSD: Update file_hashtbl() helpers
-090a5bcadea4c3d840995f94b5a1f5b51f6dd8c8 NFSD: Clean up nfsd4_init_file()
-6d82ff1ae99b1c5e842a92f0b93913f0456da965 NFSD: Add a nfsd4_file_hash_remove() helper
-68c0b2dc83eb8dbecb7d80896b9d26bfd2a02da3 NFSD: Clean up find_or_add_file()
-c4a7f8d0e1b04702cb21f218137063c9d0758843 NFSD: Refactor find_file()
-bd64038023e34b80b161182f9623aa843cec5fcf NFSD: Allocate an rhashtable for nfs4_file objects
-2dd140804b23451f8a93c8a0dedf0f4be9d08f0f NFSD: Use rhashtable for managing nfs4_file objects
+5620fe641620a790117be5b671c0a48d6dcd3fda ACPICA: Make acpi_ex_load_op() match upstream
+60f2096b59bcd6827aa53d771505f939317b254c ACPICA: MADT: Add loong_arch-specific APICs support
+5c62d5aab8752e5ee7bfbe75ed6060db1c787f98 ACPICA: Events: Support fixed PCIe wake event
+4fe54f509304ea6cc80a40620cac860c57edf7f3 ACPICA: Check that EBDA pointer is in valid memory
+8ff2906513f5ad2f6665b94d1763a26e30bfa47b ACPICA: Do not touch VGA memory when EBDA < 1ki_b
+407144ebd445a784262217b6729c7b20987574d1 ACPICA: iASL: Add CCEL table to both compiler/disassembler
+e92e4a451c0c08b7580b505c935070d982ad029a ACPICA: Add a couple of new UUIDs to the known UUID list
+ee64b827a9af7905cb8b84d882320ecc91640192 ACPICA: Add support for FFH Opregion special context data
+183f0a09d32cf4f007f52718becf1b963549cb54 ACPICA: Improve warning message for "invalid ACPI name"
+f350c68e3cd5ce605e44c7830029cd936a223f66 ACPICA: Add CXL 3.0 structures (CXIMS & RDPAS) to the CEDT table
+3f062a516a6327d64c45af10fec04cb1475912f3 ACPICA: IORT: Update for revision E.e
+51aad1a6723b3ed564d243031c4f284298b4329c ACPICA: Finish support for the CDAT table
+1e412fdb7a98ff7389bda55518cbc81a0189564d Merge branch 'acpica' into bleeding-edge
 
---===============8019338130248905731==--
+--===============8868600237312922063==--
