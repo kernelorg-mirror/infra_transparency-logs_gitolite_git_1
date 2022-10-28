@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============2999589481575543770=="
+Content-Type: multipart/mixed; boundary="===============1986977874311639576=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Fri, 28 Oct 2022 15:50:47 -0000
-Message-Id: <166697224731.13489.2977203330601021140@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Fri, 28 Oct 2022 15:50:53 -0000
+Message-Id: <166697225335.13579.3575248154487270111@gitolite.kernel.org>
 
---===============2999589481575543770==
+--===============1986977874311639576==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.2
+  - ref: refs/heads/asoc-6.2
     old: ce992ff38e1ed495be202c22d065b42c942e0475
     new: 5e01ff7d496d92bf435e6531b808f7883320c650
     log: |
@@ -27,28 +27,28 @@ changes:
          5e01ff7d496d92bf435e6531b808f7883320c650 Add support for SAI on i.MX93 platform
          
 
---===============2999589481575543770==
+--===============1986977874311639576==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1666972245 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1666972245-ab22255ba6169508f18bcfefad7dab0c4d85be7b
+pusher C3F436CA30F5D8EB 1666972251 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1666972251-9f39f2ba2ba010d8ff9986d96febe8d4fb6c0bd6
 
-ce992ff38e1ed495be202c22d065b42c942e0475 5e01ff7d496d92bf435e6531b808f7883320c650 refs/heads/for-6.2
+ce992ff38e1ed495be202c22d065b42c942e0475 5e01ff7d496d92bf435e6531b808f7883320c650 refs/heads/asoc-6.2
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmNb+lUACgkQJNaLcl1U
-h9AKYAf8C3sk36yLRmqKXihOum4zRTPUlIIlIuZ4wReH1JwCncviCX1ZPPPQ4Gqe
-/2nrGEWRr6R1VjNsWfmb8eNui6u78DwVsIGkRgjv6LJof1IjSbQiwE6riuYTJyXq
-KoTxqotwDIVYc3c9CRZibvDUzbLqh4jMzL1N9gFu/jsc6KeP+qsM/BsUcwG/pjAs
-5vR084zp3oPGEm0xjGgUzh/DxUe4Ktff0M+mGHkvBRsTkipQ0DbyjgHFWyb/3lHw
-7UDzCHMn4fqhjXEaTZ0E3qUw360pA5ZCgN1og/2rNxr1OxC6cVi66KyXm/uS/ycY
-tkMBiwapYkqzMCPzurW74tTeCIBvSg==
-=DIiQ
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmNb+lwACgkQJNaLcl1U
+h9Dwdgf/bcuzOzNZYAygovlWw3+NSGQXwLmb93ExEVzN4vbj7yCcSMt5b1GL58DO
+Bd228VyN5+FcaHPA46rQz+jX+s+ozdi5NnKu6RqMuRev6XMw2sflCfHey61Ev3N0
+kgj9DIyEhOKiGiBEEi7wabCt8jUi1lndMwZi549JZI173sZGJONuF6STBDX1zx2b
+DQf4qAAGJzbY6+BQJQOp4NxONabD8j07viGbBVVBcXhcz3fplKhQGNv4xblanKdF
+hBbA+Hqe73pN+JSAvs51aq0oL9jvdEiCiD7GIk/fmpTV+3HU9WuuYvifaiBgEhiu
+ZQgmzusw6yZuqvsvh46e4TlLBT9ajw==
+=fSAj
 -----END PGP SIGNATURE-----
 
---===============2999589481575543770==--
+--===============1986977874311639576==--
