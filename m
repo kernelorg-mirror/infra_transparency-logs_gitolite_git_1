@@ -1,31 +1,92 @@
-Content-Type: multipart/mixed; boundary="===============0893482114109794675=="
+Content-Type: multipart/mixed; boundary="===============6273560011516674546=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/herbert/cryptodev-2.6
-Date: Fri, 28 Oct 2022 05:00:08 -0000
-Message-Id: <166693320899.30605.15832308978768738784@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/herbert/crypto-2.6
+Date: Fri, 28 Oct 2022 05:01:06 -0000
+Message-Id: <166693326670.31061.15638795321280738230@gitolite.kernel.org>
 
---===============0893482114109794675==
+--===============6273560011516674546==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/herbert/cryptodev-2.6
+repo: pub/scm/linux/kernel/git/herbert/crypto-2.6
 user: herbert
 changes:
   - ref: refs/heads/master
-    old: 96cb9d0554457086664d3bd10630b11193d863f1
-    new: d6e9aa6e1ea872d1bbdf08ac78245cf8efeda19c
-    log: revlist-96cb9d055445-d6e9aa6e1ea8.txt
+    old: 874b301985ef2f89b8b592ad255e03fb6fbfe605
+    new: 9f6035af06b526e678808d492fc0830aef6cfbd8
+    log: revlist-874b301985ef-9f6035af06b5.txt
 
---===============0893482114109794675==
+--===============6273560011516674546==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-96cb9d055445-d6e9aa6e1ea8.txt
+Content-Disposition: attachment; filename=revlist-874b301985ef-9f6035af06b5.txt
 
+901735e51e4dea1eee816b0b57d1d6abbd94b3d5 Merge tag 'x86_misc_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+9bf445b65dd7d4c7d0e4efaecf38525abbbe74e3 Merge tag 'x86_paravirt_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+b5f0b11353a6a33a1accd0b742c80ed6b2f35ac0 Merge tag 'x86_microcode_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+193e2268a3bb1404b42f8edcc037a3eafd165aa9 Merge tag 'x86_cache_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+da4ab869e37cf81f93333ba74b16e0ea6d322e15 libceph: drop last_piece flag from ceph_msg_data_cursor
+f791357330b0043ec953ce122ab7519af4b9d24a ceph: wake up the waiters if any new caps comes
+6eb06c46214d33c71ae86d60b3fc9cb17c20beca ceph: fail the request if the peer MDS doesn't support getvxattr op
+7c3ea9870e09e193981695dd67c37a1a2b6d600b ceph: no need to wait for transition RDCACHE|RD -> RD
+aa1d627207cace003163dee24d1c06fa4e910c6b ceph: Use kcalloc for allocating multiple elements
+b4b924c7a16e857b0715603456045251a49f2ea6 ceph: increment i_version when doing a setattr with caps
+bd04b9192e1ff6859d6b3906e91cfd5c9b0ad55b ceph: fail the open_by_handle_at() if the dentry is being unlinked
+aa87052dd965a6094355fcc13d5abc3f5bebfbe4 ceph: fix incorrectly showing the .snap size for stat
+71cf0c1c4f9f8e42c84ca53a5ca7091e4eea7f6a ceph: remove Sage's git tree from documentation
+a76d550f761d4f1b0a0e2faa27af122e51904b86 clk: qcom: gcc-sm6375: Remove unused variables
+3eba620e7bd772a0c7dc91966cb107872b54a910 Merge tag 'x86_cleanups_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+39bc9b589ea3d2750a6fec6409cd7fc687bc99fe clk: qcom: gcc-sm6375: Ensure unsigned long type
+49f4c2d101bbf93c62e3fa58e666f71352c54121 Merge branches 'clk-ofnode', 'clk-bindings', 'clk-cleanup', 'clk-zynq' and 'clk-xilinx' into clk-next
+a64b79c01c2836ddd8e1eb7c8173b44c3e66f999 Merge branches 'clk-samsung', 'clk-mtk', 'clk-rm', 'clk-ast' and 'clk-qcom' into clk-next
+26bebbfed5bd06fd7202fd1befa6c2c935a593e8 Merge branches 'clk-rockchip', 'clk-renesas', 'clk-microchip', 'clk-allwinner' and 'clk-imx' into clk-next
+b7f257ceb3c88ee3e2c6b0d1db703c818d3971f1 Merge branches 'clk-fixed-rate', 'clk-spreadtrum', 'clk-pxa' and 'clk-ti' into clk-next
+f9efefdba95a5110a1346bb03acdd8ff3cdf557f Merge branches 'clk-baikal', 'clk-broadcom', 'clk-vc5' and 'clk-versaclock' into clk-next
+c645c11a2dba116bad3ee43e08e330db8f03ede6 Merge tag 'audit-pr-20221003' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/audit
+98828955971363e838149105c268b1fad905f15b drm/i915/gvt: fix a memory leak in intel_gvt_init_vgpu_types
+1aa3834f510c9d9206ce4d40aff4903b0c016761 drm/i915/gvt: simplify vgpu configuration management
+bdef2b7896df293736330eb6eb0f43947049b828 vfio/mdev: make mdev.h standalone includable
+89345d5177aa0f6d678251e1e0870b0eeb1ab510 vfio/mdev: embedd struct mdev_parent in the parent data structure
+da44c340c4fe9d9653ae84fa6a60f406bafcffce vfio/mdev: simplify mdev_type handling
+cbf3bb28aaeaee425ca7b9c537a3efff1f8c98ae vfio/mdev: remove mdev_from_dev
+2815fe149ffa8e1a022b2830ab62999135c00a4e vfio/mdev: unexport mdev_bus_type
+062e720cd209d8091c4f3d118d93973f02209aca vfio/mdev: remove mdev_parent_dev
+c7c1f38f6cba7e3249866c06639ea62755f0a24e vfio/mdev: remove mtype_get_parent_dev
+290aac5df88a83e264b3a73ec146e5e5b3c45793 vfio/mdev: consolidate all the device_api sysfs into the core code
+0bc79069ccbdbe26492493dd0c4e38b7cadf8ad5 vfio/mdev: consolidate all the name sysfs into the core code
+f2fbc72e6da4f8e01fe5fe3d6871a791e76271c3 vfio/mdev: consolidate all the available_instance sysfs into the core code
+685a1537f4c603cfcaf4b9be56ff6a571f7ddd08 vfio/mdev: consolidate all the description sysfs into the core code
+9c799c224d6ebc5be51065bd3217a2d7eea23b8f vfio/mdev: add mdev available instance checking to the core
+912b74d26c7df2da1e261f3dac8942c8cbb76a49 vfio: Remove the vfio_group->users and users_comp
+c82e81ab2569559ad873b3061217c2f37560682b vfio: Change vfio_group->group_rwsem to a mutex
+522667b24f08009591c90e75bfe2ffb67f555498 Merge tag 'landlock-6.1-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/mic/linux
+34e1ed189fab1b7533befb266b96051104c1deb6 PM: Improve EXPORT_*_DEV_PM_OPS macros
+c5129ecc12a3101555d8922b1e0aa90f91247ab6 x86/mm: Ease W^X enforcement back to just a warning
+e623715f3d67ad10985b2c10cf7edd9ad85db372 RISC-V: Increase range and default value of NR_CPUS
+280dfeae56e6fbfff21cfece356379e318ae10fe f2fs: return the tmp_ptr directly in __bitmap_ptr
+173cdf2c32b4b02474006d87648383244c0a6db9 f2fs: use COMPRESS_MAPPING to get compress cache mapping
+9b7eadd9bd3a0cc24533a23d83c46430a0ea60ff f2fs: fix wrong dirty page count when race between mmap and fallocate.
+d382e36970ecf8242921400db2afde15fb6ed49e f2fs: fix typo
+049ea86cb5c7212a6e7e617a67fe686f9b0b0669 f2fs: add static init_idisk_time function to reduce the code
+9df6d6f9be4754da96d3c91ec518ed974e6b81e7 f2fs: remove redundant check in f2fs_sanity_check_cluster
+07725adc55c0a414c10acb5c8c86cea34b95ddef f2fs: fix race condition on setting FI_NO_EXTENT flag
+f3b23c785aa5d1920f479533f1d7361c2feceea5 f2fs: let FI_OPU_WRITE override FADVISE_COLD_BIT
+0ef4ca04a3f9223ff8bc440041c524b2123e09a3 f2fs: fix to do sanity check on destination blkaddr during recovery
+1e8a9191ccc286bbbfc1f9dccd31ac3bc9ec8a3f f2fs: port to vfs{g,u}id_t and associated helpers
+c6ad7fd16657ebd34a87a97d9588195aae87597d f2fs: fix to do sanity check on summary info
+a834aa3ec95b0d1a465854b27016eec1af2f0e1f f2fs: add "c_len" into trace_f2fs_update_extent_tree_range for compressed file
+544b53dadc208278fd0796f2c22ea24a3fe16564 f2fs: code clean and fix a type error
+d80afefb17e01aa0c46a8eebc01882e0ebd8b0f6 f2fs: fix to account FS_CP_DATA_IO correctly
+fcc2d8cc96b2f6141bbbe5b1e8953db990794b44 f2fs: fix to detect corrupted meta ino
+718693c84d8f4b235d030c377258f12f38a71c67 f2fs: introduce cp_status sysfs entry
+ca7efd71c3dffd5442b448dd553a903425222597 f2fs: remove the unnecessary check in f2fs_xattr_fiemap
+a9cfee0ef98e99c8b1951dfd1d57a88580354d0d f2fs: support recording stop_checkpoint reason into super_block
+95fa90c9e5a7f14c2497d5b032544478c9377c3a f2fs: support recording errors into superblock
 0326074ff4652329f2a1a9c8685104576bd8d131 Merge tag 'net-next-6.1' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net-next
 40a5af128af54dc0fbd06e11ef2d8a693e25d33f Merge tag 'samsung-dt-dt64-6.1-2' of https://git.kernel.org/pub/scm/linux/kernel/git/krzk/linux into arm/dt
 9b1c2ecfa02bc2645e6e9d55f0f39bc191991270 tools/power turbostat: Add support for RPL-S
@@ -989,66 +1050,5 @@ b08cd74448fafaa302ce2bc11beab5e5a55d0065 Merge tag '6.1-rc-smb3-client-fixes-par
 f1947d7c8a61db1cb0ef909a6512ede0b1f2115b Merge tag 'random-6.1-rc1-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/crng/random
 9abf2313adc1ca1b6180c508c25f22f9395cc780 Linux 6.1-rc1
 9f6035af06b526e678808d492fc0830aef6cfbd8 crypto: x86/polyval - Fix crashes when keys are not 16-byte aligned
-45e6319bd5f2154d8b8c9f1eaa4ac030ba0d330c crypto: hisilicon/hpre - fix resource leak in remove process
-7001141d34e550854425afa76e960513cf150a62 crypto: hisilicon/qm - drop unnecessary IS_ENABLE(CONFIG_NUMA) check
-f57e292897cac13b6ddee078aea21173b234ecb7 crypto: hisilicon/qm - fix incorrect parameters usage
-94adb03fd58bbe355e3d7a9d0f701889313e4a51 crypto: hisilicon/sec - enabling clock gating of the address prefetch module
-ee1537fe3dd89860d0336563891f6cac707d0cb5 crypto: hisilicon/qm - re-enable communicate interrupt before notifying PF
-ad981647dbe1ea91071b9783dd62d74e22c6d955 crypto: ccm - use local variables instead of indirect references
-f30fe6314698d107edbb9db50bc3c3443a30ec80 crypto: scatterwalk - remove duplicate function declarations
-237f9eceb2f3c888c1a26a4209243607d3cc0c7c crypto: ccp - Add __init/__exit annotations to module init/exit funcs
-224f3a050e495a7c3c1bcee2c613d0996bc661dc crypto: talitos - Replace zero-length arrays with DECLARE_FLEX_ARRAY() helper
-22044d9b04b593831d8e16ba7aafabf4e75964f5 crypto: inside-secure - Expand soc data structure
-594ed3d245d3e2d0760f30724e02ecf1604b2c01 crypto: inside-secure - Add fw_little_endian option
-36dd88b1c09c78f993cb11dcc5f4211d78a10e5f crypto: inside-secure - Add MaxLinear platform
-839b8ae2fc10f205317bcc32c9de18456756e1f5 crypto: sun8i-ss - use dma_addr instead u32
-375de984a3cb691a0bbaf9756e8595e0b54e27e0 crypto: ccp - Remove unused struct ccp_crypto_cpu
-094528b6a5a755b1195a01e10b13597d67d1a0e6 crypto: nitrox - avoid double free on error path in nitrox_sriov_init()
-10da230a4df1dfe32a58eb09246f5ffe82346f27 crypto: ccp - Add support for TEE for PCI ID 0x14CA
-be7f5ef9ff4bbe99e4fcdf63057a993be178af46 crypto: stm32 - Fix spelling mistake "wite" -> "write"
-518a198f41d6539dc025f0e4fe2785f9031fa1eb dt-bindings: rng: nuvoton,npcm-rng: Add npcm845 compatible string
-f07b3e87fe62984db66fd4179ae7e960e4fc43e8 hwrng: npcm - Add NPCM8XX support
-46beeade05c6a7673873ba0a7b6396cd3a3b3473 crypto: ixp4xx - Fix sparse warnings
-65c92cbb3f2365627a10cf97560d51e88fb4e588 crypto: tcrypt - fix return value for multiple subtests
-76a4e874593543a2dff91d249c95bac728df2774 crypto: n2 - add missing hash statesize
-f1da27b7c4191f78ed81d3dabf64c769f896296c hwrng: mtk - add mt7986 support
-854e25a6d653b76007c142b7edbaba81a8789a7f crypto: talitos - Use the defined variable to clean code
-7e11a4fc84dcc9746936c46d9a88489a365fea45 hwrng: stm32 - fix number of returned bytes on read
-e64f57e8cd5abe167cdf453869d6274608480519 hwrng: stm32 - fix read of the last word
-299c481fa5c121f892420d97f1123a853b7f1079 crypto: rockchip - use dev_err for error message about interrupt
-8ccd9c8cd1d1618f5e073c86ffcfe15f292eefe6 crypto: rockchip - do not use uninitialized variable
-c50ef1411c8cbad0c7db100c477126076b6e3348 crypto: rockchip - do not do custom power management
-6d11c9387865723fd779be00ae37a4588e60133d crypto: rockchip - fix privete/private typo
-87e356c4966444866186f68f05832fdcc0f351a3 crypto: rockchip - do not store mode globally
-68ef8af09a1a912a5ed2cfaa4cca7606f52cef90 crypto: rockchip - add fallback for cipher
-816600485cb597b3ff7d6806a95a78512839f775 crypto: rockchip - add fallback for ahash
-d6b23ccef82816050c2fd458c9dabfa0e0af09b9 crypto: rockchip - better handle cipher key
-bb3c7b73363c9a149b12b74c44ae94b73a8fddf8 crypto: rockchip - remove non-aligned handling
-57d67c6e8219b2a034c16d6149e30fb40fd39935 crypto: rockchip - rework by using crypto_engine
-6d55c4a206d29006c733b5083ba5da8391abbdbd crypto: rockchip - rewrite type
-48d904d428b68080abd9161148ca2ab1331124a4 crypto: rockchip - add debugfs
-a216be3964c15661579005012b1f0d7d20a1f265 crypto: rockchip - introduce PM
-6f61192549d0214f8d9d1e1d3152e450658ed1e9 crypto: rockchip - handle reset also in PM
-3a6fd464f48ad35d8cf15d81fd92094132dc862a crypto: rockchip - use clk_bulk to simplify clock management
-e803188400d32d28ecfbef0878c289e3c7026723 crypto: rockchip - add myself as maintainer
-37bc22159c456ad43fb852fc6ed60f4081df25df crypto: rockchip - use read_poll_timeout
-456698746b40008eb0924eb7e9ec908330948b2d crypto: rockchip - fix style issue
-e65e90101329de0fe304e2df057f68c5f0fa4748 crypto: rockchip - add support for rk3328
-a7fa0644dd0b91fab97398de7ea4672a6526261f crypto: rockchip - rename ablk functions to cipher
-2e3b149578c30275db9c3501c1d9dec36d16622a crypto: rockchip - rework rk_handle_req function
-c018c7a9dd198ce965ca4d10c7b083849bc533be crypto: rockchip - use a rk_crypto_info variable instead of lot of indirection
-ea389be9857721252367fd2cf81bc8068e060693 crypto: rockchip - use the rk_crypto_info given as parameter
-81aaf680e85207d6521b250b2a80ba7c91cc9cbe dt-bindings: crypto: convert rockchip-crypto to YAML
-d1b5749687618d969c0be6428174a18a7e94ebd2 dt-bindings: crypto: rockchip: add new compatible
-2d3c756adcd7a7ee15b6a55cf01b363e3f134e79 crypto: rockchip - store crypto_info in request context
-e220e6719438f7a99fe0a73e6e126481380202fa crypto: rockchip - Check for clocks numbers and their frequencies
-0d31b14c9e4178a129a1aa5e491e4da1489c07de crypto: rockchip - rk_ahash_reg_init use crypto_info from parameter
-c5a1e104c35e5134b6048f1e03960a6ac9c42935 crypto: rockchip - permit to have more than one reset
-9dcd71c863a6f6476378d076d3e9189c854d49fd crypto: rockchip - Add support for RK3399
-7984ceb134bf31aa9a597f10ed52d831d5aede14 crypto: af_alg - Support symmetric encryption via keyring keys
-3efe90af4c0c46c58dba1b306de142827153d9c0 crypto: hisilicon/qm - increase the memory of local variables
-22d7a6c39cabab811f42cb2daed2343c87b0aca5 crypto: hisilicon/qm - add pci bdf number check
-8f82f4ae8946d665f1e38da8e2b39b929d2435b1 crypto: hisilicon/qm - delete redundancy check
-d6e9aa6e1ea872d1bbdf08ac78245cf8efeda19c crypto: octeontx - fix repeated words in comments
 
---===============0893482114109794675==--
+--===============6273560011516674546==--
