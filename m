@@ -1,23 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Fri, 28 Oct 2022 17:00:23 -0000
-Message-Id: <166697642357.1031.16838555120962167985@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Fri, 28 Oct 2022 17:01:44 -0000
+Message-Id: <166697650481.1700.9176718428742521091@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rafael/linux-pm
-user: rafael
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/bleeding-edge
-    old: c11eea820b52cdfaba4b54556170976628053d62
-    new: c1cd20d481253d5af8749df07f46c91e0132b154
+  - ref: refs/heads/master
+    old: 23758867219c8d84c8363316e6dd2f9fd7ae3049
+    new: 05c31d25cc9678cc173cf12e259d638e8a641f66
     log: |
-         539663bb068fcff446b1d66ccb0e44c927d296e5 ACPICA: Fix use-after-free in acpi_ps_parse_aml()
-         5dc079d9dc8c81c26e79812f6b808c649e7c199c Merge branch 'acpica-fixes' into bleeding-edge
-         36006ccb6bc7d8c7937277f985efddf658d7a1f9 ACPI: APEI: Drop unsetting driver data on remove
-         dd3fa54b2eeed20df7ecffdb3333026ba96668e1 apei/ghes: Use xchg_release() for updating new cache slot instead of cmpxchg()
-         c1cd20d481253d5af8749df07f46c91e0132b154 Merge branch 'acpi-apei' into bleeding-edge
+         9f6035af06b526e678808d492fc0830aef6cfbd8 crypto: x86/polyval - Fix crashes when keys are not 16-byte aligned
+         05c31d25cc9678cc173cf12e259d638e8a641f66 Merge tag 'v6.1-p3' of git://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6
          
