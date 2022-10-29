@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5429761822109831234=="
+Content-Type: multipart/mixed; boundary="===============3285413230737341284=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
-Date: Sat, 29 Oct 2022 08:32:06 -0000
-Message-Id: <166703232657.7698.10631230205832109578@gitolite.kernel.org>
+Date: Sat, 29 Oct 2022 08:33:06 -0000
+Message-Id: <166703238644.8133.9616768864755960763@gitolite.kernel.org>
 
---===============5429761822109831234==
+--===============3285413230737341284==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
 user: chenhuacai
 changes:
-  - ref: refs/heads/loongarch-fixes
+  - ref: refs/heads/loongarch-next
     old: 9abf2313adc1ca1b6180c508c25f22f9395cc780
-    new: d81916910f7498fe7a768697e0101d488f9fe665
-    log: revlist-9abf2313adc1-d81916910f74.txt
+    new: 247f34f7b80357943234f93f247a1ae6b6c3a740
+    log: revlist-9abf2313adc1-247f34f7b803.txt
 
---===============5429761822109831234==
+--===============3285413230737341284==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9abf2313adc1-d81916910f74.txt
+Content-Disposition: attachment; filename=revlist-9abf2313adc1-247f34f7b803.txt
 
 f7ec3f62d7736ed14050716943a9562879155fcc media: remove reference to CONFIG_EMBEDDED in MEDIA_SUPPORT_FILTER
 41fd1cb6151439b205ac7611883d85ae14250172 media: mceusb: Use new usb_control_msg_*() routines
@@ -500,10 +500,5 @@ a70385240892bcbc6442b054e847c74100e72f1a Merge tag 'perf_urgent_for_v6.1_rc2' of
 ca4582c286aa4465f9d1a72bef34b04ee907d42e Revert "mfd: syscon: Remove repetition of the regmap_get_val_endian()"
 05b4ebd2c7cbb3671c376754b37b4963dd08a3a2 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 247f34f7b80357943234f93f247a1ae6b6c3a740 Linux 6.1-rc2
-b40fa75e1542e069a4eb9b33d62061d4ae734537 LoongArch: Remove unused kernel stack padding
-4805a13d54be3f5e06436d41fdb13f24012a3c6c LoongArch: Use flexible-array member instead of zero-length array
-bbfddb904df6f82a5948687a2d57766216b9bc0f LoongArch: BPF: Avoid declare variables in switch-case
-fbe605ab157b174385b3f19ce33928d3548a9b09 platform/loongarch: laptop: Adjust resume order for loongson_hotkey_resume()
-d81916910f7498fe7a768697e0101d488f9fe665 platform/loongarch: laptop: Fix possible UAF and simplify generic_acpi_laptop_init()
 
---===============5429761822109831234==--
+--===============3285413230737341284==--
