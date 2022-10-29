@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Sat, 29 Oct 2022 11:54:38 -0000
-Message-Id: <166704447832.30276.5447020334259888464@gitolite.kernel.org>
+Date: Sat, 29 Oct 2022 11:54:49 -0000
+Message-Id: <166704448955.30415.9018811902498024620@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,12 +11,11 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/perf/core
-    old: 571f97f7d51fa81e6cc0e00f0f6314792ce533a3
-    new: 345f8ee2c81a89cb22d12fd6c80ecb98d96e6593
+  - ref: refs/heads/sched/core
+    old: c36eae5a86d15a694968be35d7ff056854997a72
+    new: 62a7eefbb654431be93e39bfde33410f12311b4a
     log: |
-         983bd8543b5ab8e9a2870ae258bccd4ce7a22c7c perf: Rewrite core context handling
-         dc39beffcfc19a8dd2a09c5818dcd1a4e9099033 perf: Optimize perf_tp_event()
-         ef7410315e8a67bd5c6f3d2167ff5aa1540d7128 perf/x86: Remove unused variable 'cpu_type'
-         345f8ee2c81a89cb22d12fd6c80ecb98d96e6593 perf: Remove unused pointer task_ctx
+         820577e95e737e4f511f94c3fab6173a50726101 sched/psi: Fix possible missing or delayed pending event
+         4ac66711c0a129bbef3ff000241a439d330bb3ee sched/psi: Fix avgs_work re-arm in psi_avgs_work()
+         62a7eefbb654431be93e39bfde33410f12311b4a sched/psi: Stop relying on timer_pending() for poll_work rescheduling
          
