@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Sat, 29 Oct 2022 11:13:14 -0000
-Message-Id: <166704199409.1888.10496055640480495073@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vfs/idmapping
+Date: Sat, 29 Oct 2022 11:19:16 -0000
+Message-Id: <166704235647.5570.11754953597047639983@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jic23/iio
-user: jic23
+repo: pub/scm/linux/kernel/git/vfs/idmapping
+user: brauner
 changes:
-  - ref: refs/heads/fixes-togreg
-    old: 207777dc306a732cff76ab63bf19a7e0851410b3
-    new: 57572cacd36e6d4be7722d7770d23f4430219827
+  - ref: refs/heads/fs.idmapped.mnt_idmap
+    old: c50a7dfccbac8ae6a6150bc0a0b2c7d8f6304f34
+    new: 3940888890ecdecbd0a20c497dc2dfcd516cdba8
     log: |
-         57572cacd36e6d4be7722d7770d23f4430219827 iio: accel: bma400: Ensure VDDIO is enable defore reading the chip ID.
+         390306871dc6a573c455b4d25f4e489f71656a9b fs: introduce dedicated idmap type for mounts
+         3940888890ecdecbd0a20c497dc2dfcd516cdba8 acl: conver higher-level helpers to rely on mnt_idmap
          
