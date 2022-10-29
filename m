@@ -1,26 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Sat, 29 Oct 2022 09:20:23 -0000
-Message-Id: <166703522336.6904.13537613583946797137@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vfs/idmapping
+Date: Sat, 29 Oct 2022 10:13:01 -0000
+Message-Id: <166703838141.24258.13284256284659544705@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/vfs/idmapping
+user: brauner
 changes:
-  - ref: refs/heads/for-linus
-    old: 8d06679b25fc6813eb2438fac7fa13f4f3c2ef37
-    new: 46cf1954de3f324dc7f9472c12c3bd03b268a11b
+  - ref: refs/heads/fs.idmapped.mnt_idmap
+    old: 31b79c07c07547f5677f953b8156b4460eab105f
+    new: d669d8e5ad410b1f56a61593a797c46f92ee6c70
     log: |
-         46cf1954de3f324dc7f9472c12c3bd03b268a11b ALSA: arm: pxa: pxa2xx-ac97-lib: fix return value check of platform_get_irq()
-         
-  - ref: refs/heads/master
-    old: e57f7c8016cc3e965f8105414d2ae1c340fb9c73
-    new: 34656bf97ab930a2da0b262c6db9a04c4ff28091
-    log: |
-         46cf1954de3f324dc7f9472c12c3bd03b268a11b ALSA: arm: pxa: pxa2xx-ac97-lib: fix return value check of platform_get_irq()
-         34656bf97ab930a2da0b262c6db9a04c4ff28091 Merge branch 'for-linus'
+         28369e69cfdf8c64e8a2b39414ba25cbc1a8285d fs: introduce dedicated idmap type for mounts
+         e16989ec3a9013b4a339bc05a801db30f9183bbb SAVE
+         d669d8e5ad410b1f56a61593a797c46f92ee6c70 acl: conver higher-level helpers to rely on mnt_idmap
          
