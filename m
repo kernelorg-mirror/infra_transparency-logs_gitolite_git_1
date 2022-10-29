@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Sat, 29 Oct 2022 00:55:18 -0000
-Message-Id: <166700491808.17173.12368754260820741654@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/crng/random
+Date: Sat, 29 Oct 2022 01:08:02 -0000
+Message-Id: <166700568267.24782.9355132277199864667@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/crng/random
+user: zx2c4
 changes:
   - ref: refs/heads/master
-    old: 9a4f173e96661a7c26468ec127533532014ce92f
-    new: 90cf78bafb1909715ab2921cbc1b7341bda441e5
+    old: 385acfa7698f49a41226b8f86f39c5580392573d
+    new: 5cc787799dc1b3ca7c3c45186868906bc4a04d6b
     log: |
-         90cf78bafb1909715ab2921cbc1b7341bda441e5 Sat Oct 29 12:54:24 AM UTC 2022
+         5cc787799dc1b3ca7c3c45186868906bc4a04d6b random: do not include <asm/archrandom.h> from random.h
          
