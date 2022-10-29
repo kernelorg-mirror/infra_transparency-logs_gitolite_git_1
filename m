@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
-Date: Sat, 29 Oct 2022 03:08:49 -0000
-Message-Id: <166701292907.11376.18371043430784681798@gitolite.kernel.org>
+Date: Sat, 29 Oct 2022 03:32:16 -0000
+Message-Id: <166701433618.28385.5073740029305921293@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,10 +11,10 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/kees/linux
 user: kees
 changes:
-  - ref: refs/heads/for-next/kspp
-    old: 7bd4a880bdead3050e867ca39c3f6cbe8bfc4b4c
-    new: b69f37b6ce2602b6250b0e69e6c2a967d4ae51f3
+  - ref: refs/heads/for-next/hardening
+    old: b69f37b6ce2602b6250b0e69e6c2a967d4ae51f3
+    new: 82d6af9273aa7732c28f8babd4f540bb3872035b
     log: |
-         c7f45020c2bf5fadcfbb0c02e45ab7a66984fd04 dma-buf: Proactively round up to kmalloc bucket size
-         b69f37b6ce2602b6250b0e69e6c2a967d4ae51f3 coredump: Proactively round up to kmalloc bucket size
+         edf01791746238b984d0ce3ed7434c200c9a8427 btrfs: send: Proactively round up to kmalloc bucket size
+         82d6af9273aa7732c28f8babd4f540bb3872035b coredump: Proactively round up to kmalloc bucket size
          
