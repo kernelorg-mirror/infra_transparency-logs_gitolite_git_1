@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/crng/random
-Date: Sat, 29 Oct 2022 01:08:02 -0000
-Message-Id: <166700568267.24782.9355132277199864667@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/zx2c4/wireguard-tools
+Date: Sat, 29 Oct 2022 01:52:06 -0000
+Message-Id: <166700832602.22774.8901499885998730241@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/crng/random
+repo: pub/scm/linux/kernel/git/zx2c4/wireguard-tools
 user: zx2c4
 changes:
   - ref: refs/heads/master
-    old: 385acfa7698f49a41226b8f86f39c5580392573d
-    new: 5cc787799dc1b3ca7c3c45186868906bc4a04d6b
+    old: 71799a8f6d1450b63071a21cad6ed434b348d3d5
+    new: 7b2ae7aa2f52fbac65874a641cbfbb0182d0ba46
     log: |
-         5cc787799dc1b3ca7c3c45186868906bc4a04d6b random: do not include <asm/archrandom.h> from random.h
+         7b2ae7aa2f52fbac65874a641cbfbb0182d0ba46 ipc: freebsd: move if_wg path to reflect new in-tree location
          
