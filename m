@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/crng/random
-Date: Sat, 29 Oct 2022 23:17:59 -0000
-Message-Id: <166708547988.20687.7515395581794069520@gitolite.kernel.org>
+Date: Sat, 29 Oct 2022 23:41:23 -0000
+Message-Id: <166708688392.5269.15756506714877080838@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/crng/random
 user: zx2c4
 changes:
-  - ref: refs/heads/master
-    old: 1b8c6353bcb337cdf164ebc19d21402af3d17552
-    new: c974086f0335a6608898f57103385893bf88bb01
-    log: |
-         c974086f0335a6608898f57103385893bf88bb01 random: do not include <asm/archrandom.h> from random.h
-         
+  - ref: refs/tags/random-6.1-rc3-for-linus
+    old: 0000000000000000000000000000000000000000
+    new: d27f1862fd1f7172f0b2f4803339e8fe48fff7b6
