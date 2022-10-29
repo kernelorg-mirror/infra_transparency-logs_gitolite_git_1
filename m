@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Sat, 29 Oct 2022 22:17:00 -0000
-Message-Id: <166708182098.10738.15008832283727814310@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
+Date: Sat, 29 Oct 2022 22:49:05 -0000
+Message-Id: <166708374588.32085.8277053930722417272@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/man-pages/man-pages
-user: alx
+repo: pub/scm/linux/kernel/git/viro/vfs
+user: viro
 changes:
-  - ref: refs/heads/master
-    old: 386f80c56a3995b031b153b1b719f89fd68870c6
-    new: 85d555d758f872ad35d25f0fb53cd5cce6e41678
+  - ref: refs/heads/work.iov_iter
+    old: 8266f00c43c6abe2072307c79ec1ded86dd3417c
+    new: 74fd2acf3a7090c83fd4ec92d4ea62ee1ca904ff
     log: |
-         cb0f97b25ec587de7f923e6ccdadaf2b3059ef11 Change alx's email address
-         85d555d758f872ad35d25f0fb53cd5cce6e41678 FILE.3type: Move page to correct subsection
+         88e18ea755ec40fea69ae62b380221d4d5daeb62 iov_iter: saner checks for attempt to copy to/from iterator
+         74fd2acf3a7090c83fd4ec92d4ea62ee1ca904ff use less confusing names for iov_iter direction initializers
          
