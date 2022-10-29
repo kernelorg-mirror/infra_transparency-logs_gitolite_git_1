@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/deller/parisc-linux
-Date: Sat, 29 Oct 2022 14:22:53 -0000
-Message-Id: <166705337354.5184.3074134954600098643@gitolite.kernel.org>
+Date: Sat, 29 Oct 2022 14:23:01 -0000
+Message-Id: <166705338103.5307.13504899167284391075@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,5 +12,5 @@ repo: pub/scm/linux/kernel/git/deller/parisc-linux
 user: deller
 changes:
   - ref: refs/heads/for-next
-    old: 7de677213b2c26b90174a68e54a0ea4a5e1138ae
-    new: 0000000000000000000000000000000000000000
+    old: 0000000000000000000000000000000000000000
+    new: 88e8f649b4a25b616d105285b84f1ccefc6ce62c
