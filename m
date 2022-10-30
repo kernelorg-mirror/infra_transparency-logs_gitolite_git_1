@@ -1,16 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Sun, 30 Oct 2022 08:03:28 -0000
-Message-Id: <166711700800.28002.14771554610317916901@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
+Date: Sun, 30 Oct 2022 08:25:52 -0000
+Message-Id: <166711835236.12239.11924308285415660744@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/brgl/linux
-user: brgl
+repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
+user: shuah
 changes:
-  - ref: refs/tags/gpio-fixes-for-v6.1-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 869a12e2fcfb0a74aab76de65587ad8017941615
+  - ref: refs/heads/fixes
+    old: cb05c81ada76a30a25a5f79b249375e33473af33
+    new: 3d982441308ebdf713771c8a85c23d9b8b66b4d4
+    log: |
+         88e1f16ba58665e9edfce437ea487da2fa759af9 ksefltests: pidfd: Fix wait_states: Test terminated by timeout
+         3d982441308ebdf713771c8a85c23d9b8b66b4d4 selftests: pidfd: Fix compling warnings
+         
