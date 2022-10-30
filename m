@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/utils/pciutils/pciutils
-Date: Sun, 30 Oct 2022 12:25:35 -0000
-Message-Id: <166713273522.30132.8183339447960238256@gitolite.kernel.org>
+Date: Sun, 30 Oct 2022 12:35:18 -0000
+Message-Id: <166713331812.4270.14978279095148650011@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,18 +12,15 @@ repo: pub/scm/utils/pciutils/pciutils
 user: mj
 changes:
   - ref: refs/heads/master
-    old: 7d4345b1942d013584316cbd042dc983a94c8b14
-    new: 2849db6749c75b465b38efbc603a4cf33076d05a
+    old: 2849db6749c75b465b38efbc603a4cf33076d05a
+    new: a165591213039657f65a466ba1762e02a1c6e310
     log: |
-         ccf5ff415fac5f978a4cd5d6ada1ca1846cf201b cxl: Rename variable to match other code
-         6c1382049899e6b77720bc1b0209588a51a5cca2 cxl: Make id check more explicit
-         9535c7aa0f64591428e8c436b9dc4dffebb27665 cxl: Collect all DVSEC Device fields
-         0d4491cb4520e11eca129c44d3fe9d27109187dc cxl: Rework caps to new function
-         4c2b4b1bfa348ea22a22f4ca271bc13096ab3e78 cxl: Rename caps to be device caps
-         52097446c2dcac123f4ff040a15a07acdbe2b11f cxl: Implement more device DVSEC decoding
-         c8b83c6cd0bc84d1c0a8a0db39c24aee018d9a37 cxl: Add support for DVSEC port cap
-         0dfa1050264bbaf349373124842097c41b5f443e cxl: Add DVSEC Register Locator
-         fe0df5d38149ae4303300eb429dd501a8bd7da3b cxl: Add placeholder for undecoded DVSECs
-         e5eb34c946017291e9c659c224bf0a1646270dad Merge remote-tracking branch 'jphaws/cxl'
-         2849db6749c75b465b38efbc603a4cf33076d05a CXL: Code clean-up
+         2d0af6fc3abc1e9bde968668eb27ebf18061d0da libpci: Add new windows NT sysdbg implementation
+         963d7cb7cd7133ba8e4662e69c50177654311cf1 pcilib.man: Include information about win32-sysdbg
+         4bb972945cd7076d0b7b128fdf31015329ef9d52 hurd: fix filling information
+         8683ca3b20878a24ae1166111a635ee1c0c7b16e Merge remote-tracking branch 'sthibaul/master'
+         224b552fa67cf841cb913e618ece94ab4cdb3932 lib: Fix PCI_HT_SEC_CMD_DN
+         c84f53521902a63b98cb08555c28d576707f0224 lib: Fix PCI_L1PM_SUBSTAT_CAP_L1PM_SUPP
+         3711e86f10643442d13f5e49d0c8ae73d380ab6a lspci: Fix Virtual Channel VC# Caps: MaxTimeSlots
+         a165591213039657f65a466ba1762e02a1c6e310 Merge remote-tracking branch 'pali/win32-sysdbg'
          
