@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/utils/pciutils/pciutils
-Date: Sun, 30 Oct 2022 12:57:09 -0000
-Message-Id: <166713462904.19237.16071371680334958500@gitolite.kernel.org>
+Date: Sun, 30 Oct 2022 13:00:44 -0000
+Message-Id: <166713484406.22126.14871290295998661851@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,10 +12,9 @@ repo: pub/scm/utils/pciutils/pciutils
 user: mj
 changes:
   - ref: refs/heads/master
-    old: 9423a811ab7324cdee22208d95079e8a59f266fb
-    new: db933955057af7e3a7f19a8a488ac4f4a9ab2593
+    old: db933955057af7e3a7f19a8a488ac4f4a9ab2593
+    new: 637ad022fcc53da9ef84d11f9772bcb02c0d02ea
     log: |
-         13b4913199b513b9cdce1ac05c7237e9cb31b8e2 setpci: Define CAPABILITIES register
-         94a53fc6ec2ee74ff36e4a13ec8081d6697f630f setpci: Check if standard register on device exist
-         db933955057af7e3a7f19a8a488ac4f4a9ab2593 Merge remote-tracking branch 'pali/setpci-register-checks'
+         01ecaf9e3a515895d9eec85bc954412a6d0d7d97 libpci: i386-io-windows.h: Do not define __readeflags() for GCC 4.9+
+         637ad022fcc53da9ef84d11f9772bcb02c0d02ea Merge remote-tracking branch 'pali/win32-readeflags'
          
