@@ -1,22 +1,43 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/melver/linux
-Date: Sun, 30 Oct 2022 10:03:45 -0000
-Message-Id: <166712422578.26991.679243126806170799@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============8312939944659704654=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/fs/xfs/xfstests-dev
+Date: Sun, 30 Oct 2022 10:43:40 -0000
+Message-Id: <166712662015.21690.11309228233140523094@gitolite.kernel.org>
+
+--===============8312939944659704654==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/melver/linux
-user: melver
+repo: pub/scm/fs/xfs/xfstests-dev
+user: zlang
 changes:
-  - ref: refs/tags/v6.0
-    old: 0000000000000000000000000000000000000000
-    new: 45eb8ae5370d5df1ee8236f45df3f29103ba6e12
-  - ref: refs/tags/v6.1-rc1
-    old: 0000000000000000000000000000000000000000
-    new: e0e492cebef25c13fc29b174f01b5178662f1652
-  - ref: refs/tags/v6.1-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 0d8d9e948ba8d5e1a826935d8d1c4aace65dd185
+  - ref: refs/heads/master
+    old: 3b5cb74c03312b5ac3349a0759c8d32bb9d0dada
+    new: a75c5f50584e03ca7862ad51f48efd2d524d1dc5
+    log: revlist-3b5cb74c0331-a75c5f50584e.txt
+
+--===============8312939944659704654==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-3b5cb74c0331-a75c5f50584e.txt
+
+c21c99b4d30ed3731d0b5572891cedd27da13606 fstests: add missing require of xfs_io fiemap command to some tests
+31a16db46b73a974f96523ac71d5e1100fbfa753 fstests: add fiemap group
+fa7644ccaa149b0209b349c5940460bb119c1f9c generic: test fiemap reports extent as shared after cloning it
+436cb87154a45fab2fccc9aac5fcc9c81d6245aa lsqa.pl: fix --header output
+bd19653e345f9d7a30a2a95a2b70314386979038 seek_sanity_test: drop unused pagesz
+81a2acdc6d3aa06b1b5111739c0f9f94593d7779 check: detect and preserve all coredumps made by a test
+ff4e41531f71d35d0682cb0ef2002bd25b156a05 check: optionally compress core dumps
+317d1c6cd84b8f3bf61b9e2debd0d159c283388c ext4/053: remove test for i_version mount option
+3436c281c43b141af62a43e0ba766cb55087c277 populate: wipe external xfs log devices when restoring a cached image
+fe535b38337f378e27d62a840b6c4c38992c1997 populate: reformat external ext[34] journal devices when restoring a cached image
+fbeba9696c4732eb72aaa2de9e26f15cf51dbefe populate: require e2image before populating
+e9483160803966faa62e039128a2c33ea3e7922d fstests: refactor xfs_mdrestore calls
+a75c5f50584e03ca7862ad51f48efd2d524d1dc5 fstests: get section config after RUN_SECTION checks
+
+--===============8312939944659704654==--
