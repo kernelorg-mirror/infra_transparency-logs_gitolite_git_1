@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/utils/pciutils/pciutils
-Date: Sun, 30 Oct 2022 12:35:18 -0000
-Message-Id: <166713331812.4270.14978279095148650011@gitolite.kernel.org>
+Date: Sun, 30 Oct 2022 12:42:25 -0000
+Message-Id: <166713374522.8269.2010099600511533804@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,15 +12,10 @@ repo: pub/scm/utils/pciutils/pciutils
 user: mj
 changes:
   - ref: refs/heads/master
-    old: 2849db6749c75b465b38efbc603a4cf33076d05a
-    new: a165591213039657f65a466ba1762e02a1c6e310
+    old: a165591213039657f65a466ba1762e02a1c6e310
+    new: 9423a811ab7324cdee22208d95079e8a59f266fb
     log: |
-         2d0af6fc3abc1e9bde968668eb27ebf18061d0da libpci: Add new windows NT sysdbg implementation
-         963d7cb7cd7133ba8e4662e69c50177654311cf1 pcilib.man: Include information about win32-sysdbg
-         4bb972945cd7076d0b7b128fdf31015329ef9d52 hurd: fix filling information
-         8683ca3b20878a24ae1166111a635ee1c0c7b16e Merge remote-tracking branch 'sthibaul/master'
-         224b552fa67cf841cb913e618ece94ab4cdb3932 lib: Fix PCI_HT_SEC_CMD_DN
-         c84f53521902a63b98cb08555c28d576707f0224 lib: Fix PCI_L1PM_SUBSTAT_CAP_L1PM_SUPP
-         3711e86f10643442d13f5e49d0c8ae73d380ab6a lspci: Fix Virtual Channel VC# Caps: MaxTimeSlots
-         a165591213039657f65a466ba1762e02a1c6e310 Merge remote-tracking branch 'pali/win32-sysdbg'
+         91bf24dd3c91f826377548b7e164b49cfed56f9a lib/configure: drop usage of which
+         a74832198ab36683a867c79b3d6ef2cac9baad55 lib/configure: respect $PKG_CONFIG completely
+         9423a811ab7324cdee22208d95079e8a59f266fb Merge remote-tracking branch 'thesamesam/which-hunt'
          
