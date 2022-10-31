@@ -1,19 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/zx2c4/wireguard-linux
-Date: Mon, 31 Oct 2022 13:10:36 -0000
-Message-Id: <166722183604.357.2627724995606504127@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/iproute2/iproute2-next
+Date: Mon, 31 Oct 2022 13:14:48 -0000
+Message-Id: <166722208855.2073.4280436140587894881@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/zx2c4/wireguard-linux
-user: zx2c4
+repo: pub/scm/network/iproute2/iproute2-next
+user: dsahern
 changes:
-  - ref: refs/heads/stable
-    old: 8bdc2acd420c6f3dd1f1c78750ec989f02a1e2b9
-    new: 3d9d8bba03db21f3276324cdba43c82be5d60729
+  - ref: refs/heads/main
+    old: 9313ba541f793dd1600ea4bb7c4f739accac3e84
+    new: b10a6509c1959d1109692d667f32b815ddcaa4fc
     log: |
-         3d9d8bba03db21f3276324cdba43c82be5d60729 wireguard: timers: cast enum limits members to int in prints
+         b10a6509c1959d1109692d667f32b815ddcaa4fc taprio: support dumping and setting per-tc max SDU
+         
+  - ref: refs/heads/master
+    old: 9313ba541f793dd1600ea4bb7c4f739accac3e84
+    new: b10a6509c1959d1109692d667f32b815ddcaa4fc
+    log: |
+         b10a6509c1959d1109692d667f32b815ddcaa4fc taprio: support dumping and setting per-tc max SDU
          
