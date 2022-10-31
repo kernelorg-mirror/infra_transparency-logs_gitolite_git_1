@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1741294781016402706=="
+Content-Type: multipart/mixed; boundary="===============7791128696638271312=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/utils/b4/b4
-Date: Mon, 31 Oct 2022 20:57:33 -0000
-Message-Id: <166724985332.15151.13573016795575058304@gitolite.kernel.org>
+Date: Mon, 31 Oct 2022 21:04:14 -0000
+Message-Id: <166725025406.19601.6448538809553760550@gitolite.kernel.org>
 
---===============1741294781016402706==
+--===============7791128696638271312==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,31 +16,31 @@ repo: pub/scm/utils/b4/b4
 user: mricon
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: 6aa382f56d7176277643b98bb492f1a1cd22a8cd
-    new: d710fad65a0e7da926d177b193ee97ffb360d4dc
+  - ref: refs/heads/stable-0.10.y
+    old: 5ea3702c80bcaab53a8c94fdd9f740e44b567f1c
+    new: 534dc535694d6597fcb2842c55198090be6e1d72
     log: |
-         d710fad65a0e7da926d177b193ee97ffb360d4dc ez: set proper from address when sendemail.from is present
+         534dc535694d6597fcb2842c55198090be6e1d72 ez: set proper from address when sendemail.from is present
          
 
---===============1741294781016402706==
+--===============7791128696638271312==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher B6C41CE35664996C! 1667249853 -0400
+pusher B6C41CE35664996C! 1667250253 -0400
 pushee gitolite.kernel.org:pub/scm/utils/b4/b4
-nonce 1667249852-517e3146285866c533d885453acb41bed32156e7
+nonce 1667250253-00ebb06c8430206801548a2bd41c6f9a8bee8c46
 
-6aa382f56d7176277643b98bb492f1a1cd22a8cd d710fad65a0e7da926d177b193ee97ffb360d4dc refs/heads/master
+5ea3702c80bcaab53a8c94fdd9f740e44b567f1c 534dc535694d6597fcb2842c55198090be6e1d72 refs/heads/stable-0.10.y
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCY2A2vQAKCRC2xBzjVmSZ
-bCkoAPsESorUBNXfr39ymx3OuPWwuPDTl1P62v590XpV6U1IPwEA2Hp5g3qsdrmq
-aBgOIoT3CcNwYZoCDk2tB/RoQGpUUAI=
-=zLCq
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCY2A4TQAKCRC2xBzjVmSZ
+bJctAP95/W0r8jGFcBDLOtRuYhEmjFhhEBiavUxrzCQqS7t/SQEAn3nIjjX6Rlc1
+bmJDuqZu8pbEA2nuyQql+39t8Kk/gwk=
+=nyk8
 -----END PGP SIGNATURE-----
 
---===============1741294781016402706==--
+--===============7791128696638271312==--
