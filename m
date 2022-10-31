@@ -1,19 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/librseq/librseq
-Date: Mon, 31 Oct 2022 14:45:53 -0000
-Message-Id: <166722755321.4113.3880182149484996105@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Mon, 31 Oct 2022 14:50:03 -0000
+Message-Id: <166722780390.7122.11804923942814919525@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/librseq/librseq
-user: mdesnoyers
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/master
-    old: 074b1077c006b69c68c1d225e3003f21e44c2b25
-    new: 8b34114a1ed53dcebe899729e9ac55cc72e14b2f
+  - ref: refs/heads/block-6.1
+    old: fa81cbafbf5764ad5053512152345fab37a1fe18
+    new: 943f45b9399ed8b2b5190cbc797995edaa97f58f
     log: |
-         8b34114a1ed53dcebe899729e9ac55cc72e14b2f Allowing querying whether libc support rseq
+         943f45b9399ed8b2b5190cbc797995edaa97f58f blk-mq: Fix kmemleak in blk_mq_init_allocated_queue
+         
+  - ref: refs/heads/master
+    old: b72018ab8236c3ae427068adeb94bdd3f20454ec
+    new: 30a0b95b1335e12efef89dd78518ed3e4a71a763
+    log: |
+         30a0b95b1335e12efef89dd78518ed3e4a71a763 Linux 6.1-rc3
          
