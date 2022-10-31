@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============2912948280415238418=="
+Content-Type: multipart/mixed; boundary="===============1021287983062457269=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux
-Date: Mon, 31 Oct 2022 21:31:01 -0000
-Message-Id: <166725186133.8109.2459030163220474453@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
+Date: Mon, 31 Oct 2022 21:31:08 -0000
+Message-Id: <166725186861.8207.14454766491719457392@gitolite.kernel.org>
 
---===============2912948280415238418==
+--===============1021287983062457269==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux
+repo: pub/scm/linux/kernel/git/amlogic/linux
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: 5aaef24b5c6d4246b2cac1be949869fa36577737
     log: revlist-30a0b95b1335-5aaef24b5c6d.txt
 
---===============2912948280415238418==
+--===============1021287983062457269==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -38,4 +38,4 @@ ae0e5df4d1a4a2694c9c203cc25334aaaf9f2dfa btrfs: reorder btrfs_bio for better pac
 78a089d033bf71d68d978ac4cc73070f3e71c736 Merge tag 'lsm-pr-20221031' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/lsm
 5aaef24b5c6d4246b2cac1be949869fa36577737 Merge tag 'for-6.1-rc3-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
 
---===============2912948280415238418==--
+--===============1021287983062457269==--
