@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7923720234974280341=="
+Content-Type: multipart/mixed; boundary="===============4640038020419569504=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Mon, 31 Oct 2022 04:44:13 -0000
-Message-Id: <166719145383.6432.10897754577278334497@gitolite.kernel.org>
+Date: Mon, 31 Oct 2022 04:44:17 -0000
+Message-Id: <166719145792.6502.2374562607107221598@gitolite.kernel.org>
 
---===============7923720234974280341==
+--===============4640038020419569504==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 9abf2313adc1ca1b6180c508c25f22f9395cc780
+  - ref: refs/heads/char-misc-linus
+    old: 677047383296ea25fdfc001be3cdcdf5cc874be2
     new: 30a0b95b1335e12efef89dd78518ed3e4a71a763
-    log: revlist-9abf2313adc1-30a0b95b1335.txt
+    log: revlist-677047383296-30a0b95b1335.txt
 
---===============7923720234974280341==
+--===============4640038020419569504==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1667191511 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1667191515 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1667191452-e32656df9a494efeef2b006a601b5b8fcc00fc5d
+nonce 1667191456-0a6788d6b0c23cf3e29f6e8cc1b9fcb9015948ff
 
-9abf2313adc1ca1b6180c508c25f22f9395cc780 30a0b95b1335e12efef89dd78518ed3e4a71a763 refs/heads/main
+677047383296ea25fdfc001be3cdcdf5cc874be2 30a0b95b1335e12efef89dd78518ed3e4a71a763 refs/heads/char-misc-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmNfUtcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+4BsQAIZ4Y3TSUfWC3jbnNvc3
-fW8KHnhqFvN0qq80iWwIgyJoWr22MHtqS2yoLpNuLYyzDaIWL/aQrXlbipAGULO2
-6AhxpqgGvjK1wwLO4UFimYSQCPItf5Tq7KjMlWX0PIwknN0wq08xD/97wIL3yL22
-/GeMzVNSsxBLEc0E8b9dPdypSx81PW+CMtUj6V3rvl3tulOOXIfXOu2FFbWz/sQF
-UszGCVaK6yw0oEscpLM2IV0/Fv60fdy2jZaoQZWJV3+3eBG7f/ZpOP2BS9lw98WS
-qfGBhOzW+cgI1h9n7M7uZC8ksUrs1lUGz9/2tJ8QnSMDRm9Dl+h+hwe4xOE3b6mJ
-0Nr4/rnGA1WA2P/OSXCQ3+UDpz0C8YV+rJxtsZNoMV+CNe9mMkhkqn8gzDVHjaim
-cccGFv+lJf+wV2aGokQ2kfxbfdWgZPg4zuEjxN8oONbYkgAr6Kk4b2kRgA+oDmbx
-DbqCScpifbtNZsQjGKNu9e3idHFiMfOxacnT607nrs4MUMXsh9XQAAw3QhSB2NRt
-yPh3iye8LiP+UgZ72sSoMQIN8ncMToETR0BUXsz3fv11l4IcHqnUzoTMgtSA6/5f
-GscZUA7Pr8S12rrv9QybuAH9vzlECy9QiN/CisyxdL9eHHKa5LG8rCo4G+knqRzV
-q5iCQqILBeKj65rKjeLg+uI1
-=g7SX
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmNfUtwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk++hoP/0CbwQh/h5CHpWiZPMKl
+WNz6ZDaHJnq9e29ibsGMSKQ4B2OB1Rr533EOSGK6+dpT03FAGyH1dti/z63PZwHe
+fA5VUerl8mfBSwrKACSBA8CpXvyCRLz7/2bKUjMD/bQ7jbwuw/9Qnbmzo5ZRkOxq
+KcO0g/x1dbkUiLJ+LVx1fIbMNvAUzWp1wjgIN3dHTzGO1NcFtBDYLK3v5OAXWWx/
+c5RdresdgwoaXQvFV7/LtXpuInYHksjA4jnxOXaqoUEnw6S8otWWyQmRV1MXSDuP
+mR7opXvUi7M/BAEeDVh26nFMMFq8uJWa3jU2wN8aEhRfCCN1fgeNb8YWYDGx6D5Q
+DpxkgaLxS9q7Lvb28zDkVaOcxKRYO9nfyINT+Wor3ubRWdQxn97lQRAxUMsyJ5jU
+tHd1gUPZ9NejhwlodQsX2DMvE07Uehez+/ENbTNMT+thQ9idv/80DR/r6uLju9Aa
+9w9UuGLInwFdnYLgh6Le4AdvchD00zwLCQ8tymxTqPxinOuaBPu7tC4qSmhzeG6o
+bQKgZPoYBKoXWO/Da7kgOuv/akUO1eqP3+beVHqnrifgbIqIgcpOpxYmsHNGwmEI
+4CPmMCSe0vsQnEUr6AbFhiT1MyGBCsavqKzg8uHU9FpCv4ghT19kN+LO6E/R6xHC
+t6SZ+wAp3snaz122r/hshA4p
+=ZdnF
 -----END PGP SIGNATURE-----
 
---===============7923720234974280341==
+--===============4640038020419569504==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9abf2313adc1-30a0b95b1335.txt
+Content-Disposition: attachment; filename=revlist-677047383296-30a0b95b1335.txt
 
 f7ec3f62d7736ed14050716943a9562879155fcc media: remove reference to CONFIG_EMBEDDED in MEDIA_SUPPORT_FILTER
 41fd1cb6151439b205ac7611883d85ae14250172 media: mceusb: Use new usb_control_msg_*() routines
@@ -360,18 +360,6 @@ e7933278b442f97809b1ea84264586302bd08a03 erofs: fix up inplace decompression suc
 979556f1521a835a059de3b117b9c6c6642c7d58 ata: ahci-imx: Fix MODULE_ALIAS
 1e41e693f458eef2d5728207dbd327cd3b16580a ata: ahci: Match EM_MAX_SLOTS with SATA_PMP_MAX_PORTS
 ce4b815686573bef82d5ee53bf6f509bf20904dc erofs: protect s_inodes with s_inode_list_lock for fscache
-0dec4d2f2636b9e54d9d29f17afc7687c5407f78 iio: light: tsl2583: Fix module unloading
-7578847b5949db3a75163908bd99c46d27e8b19f iio: adc: mcp3911: fix sizeof() vs ARRAY_SIZE() bug
-a83695a666eb3541873c3c9734ec4e1d10ca2d7f iio: adc: mcp3911: return proper error code on failure to allocate trigger
-815f1647a603a822d66630bbe22cab4bc097c8c3 iio: adc: mcp3911: use correct id bits
-aa6c77d05eb1c57ee5b95a7b83a39384c37df4d9 iio: adc: mcp3911: mask out device ID in debug prints
-174dac5dc800e4e2e4552baf6340846a344d01a3 iio: adc: stm32-adc: fix channel sampling time init
-72b2aa38191bcba28389b0e20bf6b4f15017ff2b tools: iio: iio_utils: fix digit calculation
-4132f19173211856d35180958d2754f5c56d520a iio: temperature: ltc2983: allocate iio channels once
-54246b9034da08087ceb2083478c0d13403e12b4 iio: at91-sama5d2_adc: Fix unsafe buffer attributes
-ab0ee36e90f611f32c3a53afe9dc743de48138e2 iio: adxl372: Fix unsafe buffer attributes
-5e23b33d1e84f04c80da6f1d89cbb3d3a3f81e01 iio: adxl367: Fix unsafe buffer attributes
-a10a0f385ab8af08ddb762ac3eca11e1b6d1fe69 iio: bmc150-accel-core: Fix unsafe buffer attributes
 b3d0d98179d62f9d55635a600679c4fa362baf8d net: ethernet: mtk_eth_soc: fix possible memory leak in mtk_probe()
 9d4f20a476ca57e4c9246eb1fa2a61bea2354720 net: ethernet: mtk_eth_wed: add missing put_device() in mtk_wed_add_hw()
 e0bb4659e235770e6f53b3692e958591f49448f5 net: ethernet: mtk_eth_wed: add missing of_node_put()
@@ -395,8 +383,6 @@ b40af6183b685b0cf7870987b858de0d48db9ea0 spi: qup: support using GPIO as chip se
 c32d7cab57e3a77af8ecc17cde7a5761a26483b8 x86/fpu: Configure init_fpstate attributes orderly
 d3e021adac7c51a26d9ede167c789fcc1b878467 x86/fpu: Fix the init_fpstate size check with the actual size
 a401f45e38754953c9d402f8b3bc965707eecc91 x86/fpu: Exclude dynamic states from init_fpstate
-472a1482325b3a285e0bcf82c0b0edc689b7e8cd counter: Reduce DEFINE_COUNTER_ARRAY_POLARITY() to defining counter_array
-ec0286dce78c3bb0e6a665c0baade2f2db56ce00 counter: ti-ecap-capture: fix IS_ERR() vs NULL check
 ca6c21327c6af02b7eec31ce4b9a740a18c6c13f perf: Fix missing SIGTRAPs
 23488ec66867f7e673b694623a951fb583e464a7 selftests/perf_events: Add a SIGTRAP stress test with disables
 21da7472a040420f2dc624ffec70291a72c5d6a6 bpf: Fix sample_flags for bpf_perf_event_output
@@ -601,8 +587,6 @@ b5f1fc3184405ab955db1b86d41d8b744d07c12d x86/ftrace: Remove ftrace_epilogue()
 b329f5ddc9ce4b622d9c7aaf5c6df4de52caf91a perf/x86/intel/lbr: Use setup_clear_cpu_cap() instead of clear_cpu_cap()
 21a1994b6492b12e55dbf39d15271430ef6839f0 rv/dot2c: Make automaton definition static
 fdf23c62d98cda1d8935259dc7da3cc830a4bc6c i2c: fix spelling typos in comments
-23722fb46725da42b80bc55a91a9bac69e35188a coresight: Fix possible deadlock with lock dependency
-665c157e0204176023860b51a46528ba0ba62c33 coresight: cti: Fix hang in cti_disable_hw()
 8865dd756f92e6745cac64f4dd50e4dc3b9864cc Merge tag 'drm-misc-fixes-2022-10-13' of git://anongit.freedesktop.org/drm/drm-misc into drm-fixes
 f046ca4a18a071517baf581952c41e7c41a0038e Merge tag 'amd-drm-fixes-6.1-2022-10-19' of https://gitlab.freedesktop.org/agd5f/linux into drm-fixes
 a4294d5c77152ba38bd6b3167a5fd1eb8a325c49 Merge tag 'amd-drm-fixes-6.1-2022-10-20' of https://gitlab.freedesktop.org/agd5f/linux into drm-fixes
@@ -718,7 +702,6 @@ ebccb53e939d9ee211cd304e659498496c2e29c9 Merge tag 'kvmarm-fixes-6.1-2' of git:/
 ed51862f2f57cbce6fed2d4278cfe70a490899fd kvm: Add support for arch compat vm ioctls
 2e3272bc1790825c43d2c39690bf2836b81c6d36 KVM: x86: Copy filter arg outside kvm_vm_ioctl_set_msr_filter()
 1739c7017fb1d759965dcbab925ff5980a5318cb KVM: x86: Add compat handler for KVM_X86_SET_MSR_FILTER
-da95cf6655e45fb12b101196b6a303fdf984a0c3 Merge tag 'coresight-fixes-v6.1-1' of git://git.kernel.org/pub/scm/linux/kernel/git/coresight/linux into char-misc-next
 d182c2e1bc92084c038b44c618f29589a4de9f66 usb: dwc3: Don't switch OTG -> peripheral if extcon is present
 4db0fbb601361767144e712beb96704b966339f5 usb: dwc3: gadget: Don't delay End Transfer on delayed_status
 8e8e923a49967b798e7d69f1ce9eff1dd2533547 usb: gadget: uvc: fix dropped frame after missed isoc
@@ -738,7 +721,6 @@ cc767e7c6913f770741d9fad1efa4957c2623744 io_uring/net: fail zc sendmsg when unsu
 fd79882ff281776260849b658d41fc06553e7fea Merge tag 'pci-v6.1-fixes-2' of git://git.kernel.org/pub/scm/linux/kernel/git/helgaas/pci
 cda5d920545c0f81554bfd241b190d3cb5c5da14 Merge tag 'i2c-for-6.1-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 d47136c2801540e80f41ec7e063d8d592568ad76 Merge tag 'hwmon-for-v6.1-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/groeck/linux-staging
-39114b881c94417a11114164c5cb2f463034b60e Merge tag 'iio-fixes-for-6.1a' of https://git.kernel.org/pub/scm/linux/kernel/git/jic23/iio into char-misc-linus
 942e01ab90151a16b79b5c0cb8e77530d1ee3dbb Merge tag 'io_uring-6.1-2022-10-22' of git://git.kernel.dk/linux
 295dad10bfb5bc35ef0d051aec61299ebeb88855 Merge tag 'x86_urgent_for_v6.0_rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 6204a81aa3f489e4fb43288d95d27c069bad4e1e Merge tag 'objtool_urgent_for_v6.1_rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
@@ -750,9 +732,6 @@ ca4582c286aa4465f9d1a72bef34b04ee907d42e Revert "mfd: syscon: Remove repetition 
 247f34f7b80357943234f93f247a1ae6b6c3a740 Linux 6.1-rc2
 4153d789e299b29cbc57276d687c92f3a098e59b cifs: Fix pages array leak when writedata alloc failed in cifs_writedata_alloc()
 f950c85e782f90702468bba8243cc97a8d0d04b0 cifs: Fix pages leak when writedata alloc failed in cifs_write_from_iter()
-d917a62af81b133f35f627e7936e193c842a7947 counter: microchip-tcb-capture: Handle Signal1 read and Synapse
-d501d37841d3b7f18402d71a9ef057eb9dde127e counter: 104-quad-8: Fix race getting function mode and direction
-d76308f03ee1574b0deffde45604252a51c77f6d Revert "coresight: cti: Fix hang in cti_disable_hw()"
 5a5c4e06fd03b595542d5590f2bc05a6b7fc5c2b mac802154: Fix LQI recording
 1a3abd12a394f5c66943fee75cef533069e831fb drm/i915: Extend Wa_1607297627 to Alderlake-P
 62c52eac1ad680fc68ef6d75955127dca46e2740 drm/i915/dgfx: Keep PCI autosuspend control 'on' by default on all dGPU
@@ -827,9 +806,6 @@ de547896aac606a00435a219757a940ece142bf0 media: vivid.rst: loop_video is set on 
 9bfb09774ea40937b6c6d6e07858e0f7ad1991ec pm-graph v5.10
 19905240aef0181d1e6944070eb85fce75f75bcd usb: gadget: uvc: limit isoc_sg to super speed gadgets
 3f53c329b31d53b2a2e7992819242fc0d4f883e0 usb: dwc3: st: Rely on child's compatible instead of name
-6746eae4bbaddcc16b40efb33dab79210828b3ce coresight: cti: Fix hang in cti_disable_hw()
-1deac35b2dbc27dd53665a4db9c6d05b323deea3 Merge tag 'counter-fixes-for-6.1a' of git://git.kernel.org/pub/scm/linux/kernel/git/wbg/counter into char-misc-linus
-677047383296ea25fdfc001be3cdcdf5cc874be2 misc: sgi-gru: use explicitly signed char
 4f547472380136718b56064ea5689a61e135f904 usb: xhci: add XHCI_SPURIOUS_SUCCESS to ASM1042 despite being a V0.96 controller
 34cd2db408d591bc15771cbcc90939ade0a99a21 xhci: Add quirk to reset host back to default state at shutdown
 a611bf473d1f77b70f7188b5577542cb39b4701b xhci-pci: Set runtime PM as default policy on all xHC 1.2 or later devices
@@ -1020,4 +996,4 @@ c4d25ce6e9de47f6d9fb6cc1a34b47ce5f0a46ab Merge tag 'usb-6.1-rc3' of git://git.ke
 b72018ab8236c3ae427068adeb94bdd3f20454ec Merge tag 'fbdev-for-6.1-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/linux-fbdev
 30a0b95b1335e12efef89dd78518ed3e4a71a763 Linux 6.1-rc3
 
---===============7923720234974280341==--
+--===============4640038020419569504==--
