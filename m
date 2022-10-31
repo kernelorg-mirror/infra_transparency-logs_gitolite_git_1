@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
-Date: Mon, 31 Oct 2022 19:47:48 -0000
-Message-Id: <166724566816.28875.14629708533087960083@gitolite.kernel.org>
+Subject: post-receive: pub/scm/docs/man-pages/man-pages
+Date: Mon, 31 Oct 2022 20:03:28 -0000
+Message-Id: <166724660856.8223.2280255833192980185@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/conor/linux
-user: conor
+repo: pub/scm/docs/man-pages/man-pages
+user: alx
 changes:
-  - ref: refs/heads/dt-for-next
-    old: 0d814000ad3589bf4f69c9cb25a3b77bbd55ffec
-    new: d6105a8b7c160a73ae04054c8921eba80a294146
+  - ref: refs/heads/master
+    old: 3206aa60583a6702edca1423cdac2c860de59421
+    new: 9e66831814386d24f89cf5a93c2dd24324b6c9da
     log: |
-         d6105a8b7c160a73ae04054c8921eba80a294146 riscv: dts: microchip: fix memory node unit address for icicle
+         9e66831814386d24f89cf5a93c2dd24324b6c9da process_madvise.2: fix capability and ptrace requirements
          
