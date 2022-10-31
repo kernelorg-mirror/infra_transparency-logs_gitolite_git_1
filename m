@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5402686358211065186=="
+Content-Type: multipart/mixed; boundary="===============7972038894549148023=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Mon, 31 Oct 2022 14:25:50 -0000
-Message-Id: <166722635026.23119.14555459441273785437@gitolite.kernel.org>
+Date: Mon, 31 Oct 2022 14:26:04 -0000
+Message-Id: <166722636474.23288.9495761167645735147@gitolite.kernel.org>
 
---===============5402686358211065186==
+--===============7972038894549148023==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
-  - ref: refs/heads/perf/core
+  - ref: refs/heads/tmp.perf/core
     old: 78c2c767cffa6760ac814b247510a87ae4c688b5
     new: 940da138b03ecb5bca68ef51dc1141f115100eed
     log: revlist-78c2c767cffa-940da138b03e.txt
 
---===============5402686358211065186==
+--===============7972038894549148023==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -424,4 +424,4 @@ fd8d5a3b076c033f5589186ac49d76e74b39f97f perf tests: Add missing event.h include
 c940fa276b5a4210255e0cb9766f06e38443303a perf lock contention: Increase default stack skip to 4
 940da138b03ecb5bca68ef51dc1141f115100eed Merge remote-tracking branch 'torvalds/master' into perf/core
 
---===============5402686358211065186==--
+--===============7972038894549148023==--
