@@ -1,58 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============7274432249733298733=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Mon, 31 Oct 2022 18:37:12 -0000
-Message-Id: <166724143243.10780.16486264048469424830@gitolite.kernel.org>
-
---===============7274432249733298733==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Mon, 31 Oct 2022 18:37:40 -0000
+Message-Id: <166724146084.11025.14838156268424125942@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/spi-6.1
-    old: ae4b3c1252f0fd0951d2f072a02ba46cac8d6c92
-    new: cf82d0ecb84e8ef9958721193f901609b408655b
+  - ref: refs/heads/for-linus
+    old: 5b71187f3e111de874af097454a4ba3faf5a89ef
+    new: 920e7b6708adae8775bad7c21b6aa3a87ae90eed
     log: |
          cf82d0ecb84e8ef9958721193f901609b408655b spi: mediatek: Fix package division error
+         920e7b6708adae8775bad7c21b6aa3a87ae90eed Merge remote-tracking branch 'spi/for-6.0' into spi-linus
          
-  - ref: refs/heads/spi-6.2
-    old: 93cc2559d3fdcd28b1a7972ab519a6cd8ba20f9d
-    new: 347ad8f295c66f3193d57cc5b69b6138f2e24231
+  - ref: refs/heads/for-next
+    old: a288c52fb3ea8255687542623516ca368c4c0cbd
+    new: c03c8295439c233274fdd0eb4aaf3f389fdfcfa0
     log: |
+         cf82d0ecb84e8ef9958721193f901609b408655b spi: mediatek: Fix package division error
          1793d36672eb8d86fb319cd28e056a154945506f spi: npcm-fiu: Use devm_platform_ioremap_resource_byname()
          347ad8f295c66f3193d57cc5b69b6138f2e24231 spi: mxic: Use devm_platform_ioremap_resource_byname()
+         920e7b6708adae8775bad7c21b6aa3a87ae90eed Merge remote-tracking branch 'spi/for-6.0' into spi-linus
+         37845ba47e81b53fa68dfc6e509eb3cc9f99aa44 Merge branch 'spi-linus' into spi-next
+         c03c8295439c233274fdd0eb4aaf3f389fdfcfa0 Merge remote-tracking branch 'spi/for-6.2' into spi-next
          
-
---===============7274432249733298733==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1667241430 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1667241430-acf21157700461447ab2f985e6dc7bede586810b
-
-ae4b3c1252f0fd0951d2f072a02ba46cac8d6c92 cf82d0ecb84e8ef9958721193f901609b408655b refs/heads/spi-6.1
-93cc2559d3fdcd28b1a7972ab519a6cd8ba20f9d 347ad8f295c66f3193d57cc5b69b6138f2e24231 refs/heads/spi-6.2
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmNgFdYACgkQJNaLcl1U
-h9DtoQf/eMcyrJPDQY0ju7CRTyWdA2YnlLVA2B9ydG2z07RwEPwNPGr45bzd+9iB
-QuojQn6wRCEoBjsO+XUIuJvmizZX23ek5qsSN2Vw2amtuUrJiE70zw77c1Ztc2SL
-t/3wjb9MjzEkHXjc5SQ5rG/0RNPZhhAvUoPnok+krPHnk4xm5aaT3imzh8tv4N7C
-y9ZTlBMhwtgFjowAxqT9qWVowh+VL2/C/Sx21xsAt8a+tma26BBlR4ojwj7ZxZTv
-jTfc7dVnlS3A0rIEolAqCqrQ5ZHkj2DQnqFycRzj0pyoc/RVhe+FwUg45plAs6s9
-kZ4AaWDmTQBaaW245oa6+cO6jjR7pQ==
-=w8z+
------END PGP SIGNATURE-----
-
---===============7274432249733298733==--
