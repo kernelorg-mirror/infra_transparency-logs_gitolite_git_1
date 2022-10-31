@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Mon, 31 Oct 2022 11:55:27 -0000
-Message-Id: <166721732739.11753.2191786999712291021@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Mon, 31 Oct 2022 11:55:53 -0000
+Message-Id: <166721735314.12031.10361011558050123899@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: davem
 changes:
   - ref: refs/heads/master
-    old: 5565dbd01ec13799c49b7e25192ea7587b1f428c
-    new: 0cf9deb3005f552a3d125436fc8ccedd31a925a9
+    old: 06a4df5863f73af193a4ff7abf7cb04058584f06
+    new: 8bdc2acd420c6f3dd1f1c78750ec989f02a1e2b9
     log: |
-         0cf9deb3005f552a3d125436fc8ccedd31a925a9 net: mvneta: Remove unused variable i
+         8bdc2acd420c6f3dd1f1c78750ec989f02a1e2b9 net: sched: Fix use after free in red_enqueue()
          
