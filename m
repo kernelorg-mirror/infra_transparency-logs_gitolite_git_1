@@ -1,23 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Mon, 31 Oct 2022 10:24:18 -0000
-Message-Id: <166721185857.8073.3974474620348637527@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ras/ras
+Date: Mon, 31 Oct 2022 10:25:05 -0000
+Message-Id: <166721190501.10287.13819825109666588584@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: sashal
+repo: pub/scm/linux/kernel/git/ras/ras
+user: bp
 changes:
-  - ref: refs/heads/master
-    old: ebe8af14d290d78987db8f46050bb99601a6c710
-    new: 524ad58c065e08b938b923f7ced5c8de78fb4bf4
+  - ref: refs/heads/edac-misc
+    old: 75aa7915d103ac2cf8c1cf16392673a81f8afc35
+    new: 25836ce1df827cb4830291cb2325067efb46753a
     log: |
-         de2c43bc5c91321b5528e850dc3f22b3f2232b5d Fixes for 6.0
-         6e47d87d6be5af3d65587b2f296aee7c6cf1873d Fixes for 5.15
-         c50202266ebab1d2cebfc83540e663c6107530cc Fixes for 5.10
-         8e57f8e0311cab1613bb7096306928e6398e9417 Fixes for 5.4
-         524ad58c065e08b938b923f7ced5c8de78fb4bf4 Fixes for 4.19
+         7e5f430eb20108bfb0f255e27304de2e28505a8e MAINTAINERS: Make Mauro EDAC reviewer
+         25836ce1df827cb4830291cb2325067efb46753a EDAC/mc_sysfs: Increase legacy channel support to 12
          
