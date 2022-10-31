@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0779479798905224316=="
+Content-Type: multipart/mixed; boundary="===============5352956752001617194=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Mon, 31 Oct 2022 20:07:19 -0000
-Message-Id: <166724683950.11178.14575058303806073026@gitolite.kernel.org>
+Date: Mon, 31 Oct 2022 20:07:28 -0000
+Message-Id: <166724684891.11308.18380923955170564259@gitolite.kernel.org>
 
---===============0779479798905224316==
+--===============5352956752001617194==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
-  - ref: refs/heads/perf/urgent
+  - ref: refs/heads/tmp.perf/urgent
     old: b229b6ca5abbd63ff40c1396095b1b36b18139c3
     new: 5aaef24b5c6d4246b2cac1be949869fa36577737
     log: revlist-b229b6ca5abb-5aaef24b5c6d.txt
 
---===============0779479798905224316==
+--===============5352956752001617194==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -421,4 +421,4 @@ b72018ab8236c3ae427068adeb94bdd3f20454ec Merge tag 'fbdev-for-6.1-rc3' of git://
 78a089d033bf71d68d978ac4cc73070f3e71c736 Merge tag 'lsm-pr-20221031' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/lsm
 5aaef24b5c6d4246b2cac1be949869fa36577737 Merge tag 'for-6.1-rc3-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
 
---===============0779479798905224316==--
+--===============5352956752001617194==--
