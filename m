@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2876626220991765768=="
+Content-Type: multipart/mixed; boundary="===============2895386682310388150=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Mon, 31 Oct 2022 04:47:06 -0000
-Message-Id: <166719162667.9621.533210996753578808@gitolite.kernel.org>
+Date: Mon, 31 Oct 2022 04:47:10 -0000
+Message-Id: <166719163049.9684.3596048938728266634@gitolite.kernel.org>
 
---===============2876626220991765768==
+--===============2895386682310388150==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 9abf2313adc1ca1b6180c508c25f22f9395cc780
+  - ref: refs/heads/usb-linus
+    old: 308c316d16cbad99bb834767382baa693ac42169
     new: 30a0b95b1335e12efef89dd78518ed3e4a71a763
-    log: revlist-9abf2313adc1-30a0b95b1335.txt
+    log: revlist-308c316d16cb-30a0b95b1335.txt
 
---===============2876626220991765768==
+--===============2895386682310388150==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1667191684 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1667191688 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1667191625-2292264b1d6699f9391e285054b72ba16279522f
+nonce 1667191629-2c8b12528c7504b440e5d961295095d784c27392
 
-9abf2313adc1ca1b6180c508c25f22f9395cc780 30a0b95b1335e12efef89dd78518ed3e4a71a763 refs/heads/main
+308c316d16cbad99bb834767382baa693ac42169 30a0b95b1335e12efef89dd78518ed3e4a71a763 refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmNfU4QbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+QdUQAMSbqjXwJ/dk/1p+HK4Y
-oZWBqNh84RcYA8TCjK2162/zEokKcIaZ2sOL4ymZyLpx2pvUIzu3HKsHySHwPNEr
-QYUgxXLKBl/FBQschepHlETAIJ8KDnbR21MXKa3pAodomgCVygeoIMatcFzX+juj
-/I1LWEC/oHFzajj2NUyR3/BUs9A+PDSnIptmBqlj7NlNs4Q/szcBGjDjoYuyTeNf
-h4PW59ffaPaIvHI/oUCyIl854dti5+S1+KwW5cI69vGogI/JGnsM3+YxOmMn8sZu
-MxPFIuS7c/FbPpn0p7G1hQVUMbIg0mVRDPhzARRNxWPEhIysKl/fBiF/rpBIsNz0
-kqGI/asMJdmBs6hqexGjmyXnRCxQJnQD4KE0cwEaWBTdauYxdbzxub3px5so9pm/
-uN05zRVxdJaqMlks3T7zfug0W9bKnI+NYifhyVtyQQbD0Rx1TrFY6oeRySzLHfa6
-hjeWIgyr7EAzH+NdK0sf5FZeGCZqMCybf346UTGqDYytaAN6WgAY7L/IyE5qiS9c
-IGX67kyN5dn3T0e0A533md1jbJnwihSvGZts17xJl9UzR7cmb+XqGkTmFTytpXQm
-NlIiUXxoEzw3BgM2dzRXoWceD3VgrCLSPEw6NrdBDe6uWCiVey5MA8MkSmGTKDG0
-hzVhiuWJTJm1fteApUXtExmF
-=wnpE
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmNfU4gbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+J8QQALco7VAHdH6Ysgy26ps4
+Ev+GLWDsm8MtPRB4CWaVzkVJ6VzOFZTjUcFnCgcBvWFnQPkNud7opL7xsp1y7qFj
+uYxiTkjcWGs5ZPDx/W/kz/Si/vVf1XvLJNWk0qAuDnVBEWPra2xvt6dOv97A5JbM
+4tDKqzUyrSaxbNdHXECgMvM+ABoK/KFOB8kI8+H0/sInSf9s7hgDAwxKs9t1r0+S
+pf2WcxZtCac0W6o4+u4fzwgHVS5/B7t5yB+ww/UGq2uam3/FdibNdAjz0ZNek7Q+
+OOIUVcZIDxBjn7L3xKSE+fCdP9y3sDvSqHZHNDVcn/y6qgAKRDHQQUwtUEWleoBd
+UIGFOIKW/MuVOnfeTjz+Bdj6ZWzDuFMEPw3ECb27yyxXBbpCG2fkw+81CI9ZicXQ
+P7gpGKs4w87JcqfM3Dq2VlxkD2y3Co/EybWWblu+HZEMkj+e6MAEGEUk1qFtI95q
+sZK8UMBgSn+TLQKFiB2tBQeyhtH1ZlwIMvu/NbRvp4rQ6x4ZRBzTP6CxzjtNk2Q1
++gOHkd0mgWm2OdiRnYFA9EMkzV9quLld8k0a+PVh2V3V3dXTX3wzxzNmx90xciLo
+8Yruo+SChHCi+RRkwmqtpKi6qiKxNinSXTdfDCqh7oWysW+MVZ0GCK/BAekhxD5I
+NcA2T+zQxRJTLyPTkqCM/MMA
+=vCD6
 -----END PGP SIGNATURE-----
 
---===============2876626220991765768==
+--===============2895386682310388150==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9abf2313adc1-30a0b95b1335.txt
+Content-Disposition: attachment; filename=revlist-308c316d16cb-30a0b95b1335.txt
 
 f7ec3f62d7736ed14050716943a9562879155fcc media: remove reference to CONFIG_EMBEDDED in MEDIA_SUPPORT_FILTER
 41fd1cb6151439b205ac7611883d85ae14250172 media: mceusb: Use new usb_control_msg_*() routines
@@ -713,21 +713,10 @@ f86bfeb689f2c4ebe12782ef0578ef778fb1a050 ALSA: hda/realtek: Add another HP ZBook
 5834816829e6b80871d8ee1c3d173e0259a02d1f Merge tag 'kvmarm-fixes-6.1-1' of git://git.kernel.org/pub/scm/linux/kernel/git/kvmarm/kvmarm into HEAD
 ebccb53e939d9ee211cd304e659498496c2e29c9 Merge tag 'kvmarm-fixes-6.1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/kvmarm/kvmarm into HEAD
 21e6075974c82808fc46ffc72384f2cc8074777f Merge tag 'kvm-riscv-fixes-6.1-1' of https://github.com/kvm-riscv/linux into HEAD
-0eafdcfea6bc82f7f8c9a9af2d4add6745beefc5 MAINTAINERS: move USB gadget and phy entries under the main USB entry
-593c5ba288e118ad80b41e8339f0d0dcad65eb04 MAINTAINERS: Update maintainers for broadcom USB
 ed51862f2f57cbce6fed2d4278cfe70a490899fd kvm: Add support for arch compat vm ioctls
 2e3272bc1790825c43d2c39690bf2836b81c6d36 KVM: x86: Copy filter arg outside kvm_vm_ioctl_set_msr_filter()
 1739c7017fb1d759965dcbab925ff5980a5318cb KVM: x86: Add compat handler for KVM_X86_SET_MSR_FILTER
 da95cf6655e45fb12b101196b6a303fdf984a0c3 Merge tag 'coresight-fixes-v6.1-1' of git://git.kernel.org/pub/scm/linux/kernel/git/coresight/linux into char-misc-next
-d182c2e1bc92084c038b44c618f29589a4de9f66 usb: dwc3: Don't switch OTG -> peripheral if extcon is present
-4db0fbb601361767144e712beb96704b966339f5 usb: dwc3: gadget: Don't delay End Transfer on delayed_status
-8e8e923a49967b798e7d69f1ce9eff1dd2533547 usb: gadget: uvc: fix dropped frame after missed isoc
-0a0a2760b04814428800d48281a447a7522470ad usb: gadget: uvc: fix sg handling in error case
-b57b08e6f431348363adffa5b6643fe3ec9dc7fe usb: gadget: uvc: fix sg handling during video encode
-48ed32482c4100069d0c0eebdc6b198c6ae5f71f usb: gadget: aspeed: Fix probe regression
-99f6d43611135bd6f211dec9e88bb41e4167e304 usb: typec: ucsi: Check the connection on resume
-4e3a50293c2b21961f02e1afa2f17d3a1a90c7c8 usb: typec: ucsi: acpi: Implement resume callback
-fb8f60dd1b67520e0e0d7978ef17d015690acfc1 usb: bdc: change state when port disconnected
 9aec606c1609a5da177b579475a73f6c948e034a tools: include: sync include/api/linux/kvm.h
 5619c6609130bce910736a61724a5ee033a0822c hwmon: (corsair-psu) Add USB id of the new HX1500i psu
 e993ffe3da4bcddea0536b03be1031bf35cd8d85 net: flag sockets supporting msghdr originated zerocopy
@@ -825,15 +814,9 @@ eb1d969203eb8212741751f88dcf5cb56bb11830 media: vivid: fix control handler mutex
 69d78a80da4ef12faf2a6f9cfa2097ab4ac43983 media: vivid: set num_in/outputs to 0 if not supported
 de547896aac606a00435a219757a940ece142bf0 media: vivid.rst: loop_video is set on the capture devnode
 9bfb09774ea40937b6c6d6e07858e0f7ad1991ec pm-graph v5.10
-19905240aef0181d1e6944070eb85fce75f75bcd usb: gadget: uvc: limit isoc_sg to super speed gadgets
-3f53c329b31d53b2a2e7992819242fc0d4f883e0 usb: dwc3: st: Rely on child's compatible instead of name
 6746eae4bbaddcc16b40efb33dab79210828b3ce coresight: cti: Fix hang in cti_disable_hw()
 1deac35b2dbc27dd53665a4db9c6d05b323deea3 Merge tag 'counter-fixes-for-6.1a' of git://git.kernel.org/pub/scm/linux/kernel/git/wbg/counter into char-misc-linus
 677047383296ea25fdfc001be3cdcdf5cc874be2 misc: sgi-gru: use explicitly signed char
-4f547472380136718b56064ea5689a61e135f904 usb: xhci: add XHCI_SPURIOUS_SUCCESS to ASM1042 despite being a V0.96 controller
-34cd2db408d591bc15771cbcc90939ade0a99a21 xhci: Add quirk to reset host back to default state at shutdown
-a611bf473d1f77b70f7188b5577542cb39b4701b xhci-pci: Set runtime PM as default policy on all xHC 1.2 or later devices
-5aed5b7c2430ce318a8e62f752f181e66f0d1053 xhci: Remove device endpoints from bandwidth list when freeing the device
 92e10465acaffcf65e803f40e884ffa86fd3ff2f device property: Fix documentation for *_match_string() APIs
 4dc12f37a8e98e1dca5521c14625c869537b50b6 Merge tag 'platform-drivers-x86-v6.1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 88864611940ae7dd5a9d40667287c4c9fa455140 tools headers UAPI: Sync powerpc syscall tables with the kernel sources
@@ -870,7 +853,6 @@ e0c57a5c70c13317238cb19a7ded0eab4a5f7de5 PM: domains: Fix handling of unavailabl
 8338b74a750c534c223e8943cc0ed0e198ece261 ACPI: PCC: Fix unintentional integer overflow
 b5f9223a105d9b56954ad1ca3eace4eaf26c99ed ACPI: resource: Skip IRQ override on Asus Vivobook S5602ZA
 fa153b7cddce795662d38f78a87612c166c0f692 ACPI: scan: Add LATT2021 to acpi_ignore_dep_ids[]
-88c8e05ed5c0f05a637e654bbe4e49a1ebe7013c Revert "usb: gadget: uvc: limit isoc_sg to super speed gadgets"
 c5f0a17288740573f4de72965c5294a60244c5fc rhashtable: make test actually random
 d6d9875e22cb760b433cade5cf19d8f105ad4621 MAINTAINERS: remove outdated linux390 link
 4e1b5a86a5edfbefc9396d41b0fc1a2ebd0101b6 s390/uaccess: add missing EX_TABLE entries to __clear_user()
@@ -884,8 +866,6 @@ e38de4804421b064a9c73c5a9b7f3df96b863e4b s390/vfio-ap: Fix memory allocation for
 831c05a7621b96944b0b4dbede57ed7cf0578f1c tools headers UAPI: Sync linux/perf_event.h with the kernel sources
 cba04f3136b658583adb191556f99d087589c1cc perf auxtrace: Fix address filter symbol name match for modules
 e9229d5b6254a75291536f582652c599957344d2 perf vendor events arm64: Fix incorrect Hisi hip08 L3 metrics
-f78961f8380b940e0cfc7e549336c21a2ad44f4d usb: dwc3: gadget: Stop processing more requests on IMI
-308c316d16cbad99bb834767382baa693ac42169 usb: dwc3: gadget: Don't set IMI for no_interrupt
 98555239e4c3aab1810d84073166eef6d54eeb3d Merge tag 'arc-6.1-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vgupta/arc
 d61e1d1d5225a9baeb995bcbdb904f66f70ed87e drm/amdgpu: disallow gfxoff until GC IP blocks complete s2idle resume
 a2718383ef9d9dcba90212531909aa4c8ab31c0c Merge tag 'spi-fix-v6.1-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
@@ -1020,4 +1000,4 @@ c4d25ce6e9de47f6d9fb6cc1a34b47ce5f0a46ab Merge tag 'usb-6.1-rc3' of git://git.ke
 b72018ab8236c3ae427068adeb94bdd3f20454ec Merge tag 'fbdev-for-6.1-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/linux-fbdev
 30a0b95b1335e12efef89dd78518ed3e4a71a763 Linux 6.1-rc3
 
---===============2876626220991765768==--
+--===============2895386682310388150==--
