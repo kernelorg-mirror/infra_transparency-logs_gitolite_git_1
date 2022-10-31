@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============2429662083115443228=="
+Content-Type: multipart/mixed; boundary="===============7414369924277052357=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux
-Date: Mon, 31 Oct 2022 16:09:42 -0000
-Message-Id: <166723258238.704.11650882697400292275@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
+Date: Mon, 31 Oct 2022 16:09:48 -0000
+Message-Id: <166723258860.815.12521756268175872525@gitolite.kernel.org>
 
---===============2429662083115443228==
+--===============7414369924277052357==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux
+repo: pub/scm/linux/kernel/git/amlogic/linux
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -23,7 +23,7 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: 0083e89728f57eae559c1ed1ac1e44487565feb1
 
---===============2429662083115443228==
+--===============7414369924277052357==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -448,4 +448,4 @@ c4d25ce6e9de47f6d9fb6cc1a34b47ce5f0a46ab Merge tag 'usb-6.1-rc3' of git://git.ke
 b72018ab8236c3ae427068adeb94bdd3f20454ec Merge tag 'fbdev-for-6.1-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/linux-fbdev
 30a0b95b1335e12efef89dd78518ed3e4a71a763 Linux 6.1-rc3
 
---===============2429662083115443228==--
+--===============7414369924277052357==--
