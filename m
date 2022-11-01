@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sschmidt/wpan-next
-Date: Tue, 01 Nov 2022 10:26:52 -0000
-Message-Id: <166729841293.26573.3499661852807193487@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/zx2c4/linux
+Date: Tue, 01 Nov 2022 10:27:59 -0000
+Message-Id: <166729847943.27065.11352742438401454151@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sschmidt/wpan-next
-user: sschmidt
+repo: pub/scm/linux/kernel/git/zx2c4/linux
+user: zx2c4
 changes:
-  - ref: refs/heads/master
-    old: 95d9a3dab109f2806980d55634972120824a5a5a
-    new: 2622e785f7579e8c92d0fcf55e9d6b3955e4f1a6
+  - ref: refs/heads/unsigned-char
+    old: 60881f525a34e28a36d92f76dd9a3b86745decf7
+    new: 38eda2df7936d7b80ff6765711e6b9b7b438cd79
     log: |
-         4d1c7d87030be2a0043620b240cdb88199396366 mac802154: Move an skb free within the rx path
-         eb30a7a5c88f65d06c35c2268af0075c0d6d803e mac802154: Clarify an expression
-         2622e785f7579e8c92d0fcf55e9d6b3955e4f1a6 mac802154: Allow the creation of coordinator interfaces
+         71c1c823c5a7cb309c288e216a479f4c272d8506 staging: rtl8192e: remove bogus ssid character sign test
+         38eda2df7936d7b80ff6765711e6b9b7b438cd79 ipvs: use explicitly signed chars
          
