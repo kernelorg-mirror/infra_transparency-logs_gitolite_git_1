@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Tue, 01 Nov 2022 12:53:35 -0000
-Message-Id: <166730721555.2364.7875728311523575302@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Tue, 01 Nov 2022 12:53:53 -0000
+Message-Id: <166730723321.2556.17250104441636400567@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/for-next
-    old: 28855df87abbd4eeaefe53427e0c9d795ebf230d
-    new: 189e3a8fd10bc592541e422ece589bb87566080a
-    log: |
-         e5afc8677c0d9be4bea5ef5ab01719e190450943 ASoC: cs42xx8-i2c.c: add module device table for of
-         189e3a8fd10bc592541e422ece589bb87566080a Merge remote-tracking branch 'asoc/for-6.2' into asoc-next
-         
+  - ref: refs/heads/20221028_chancel_liu_add_support_for_micfil_on_i_mx93_platform
+    old: 0000000000000000000000000000000000000000
+    new: 77a7a6e9a94df0ac7ba46677b5ce4a743a931fce
+  - ref: refs/heads/filercEMdx
+    old: 0000000000000000000000000000000000000000
+    new: e8d6e1dd609696128e646a8c747b0f3fb1e02545
