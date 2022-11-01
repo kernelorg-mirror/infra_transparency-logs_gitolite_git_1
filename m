@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5335850776206390345=="
+Content-Type: multipart/mixed; boundary="===============5639136745160066720=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 01 Nov 2022 18:39:27 -0000
-Message-Id: <166732796724.22029.3169332449832080916@gitolite.kernel.org>
+Date: Tue, 01 Nov 2022 18:39:37 -0000
+Message-Id: <166732797735.22132.10201756512934453530@gitolite.kernel.org>
 
---===============5335850776206390345==
+--===============5639136745160066720==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: f8f797f35a9ababcf763b7a3984aff41fdd3f064
-    new: 6f1a298b2e24c703bfcc643e41bc7c0604fe4830
-    log: revlist-f8f797f35a9a-6f1a298b2e24.txt
+  - ref: refs/heads/dev-queue
+    old: ab65de6b1a52ee174c575e06759a4e29c80346ae
+    new: 1516071e3b9d1f2ba59eabaa4ef49e077c5348d2
+    log: revlist-ab65de6b1a52-1516071e3b9d.txt
 
---===============5335850776206390345==
+--===============5639136745160066720==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f8f797f35a9a-6f1a298b2e24.txt
+Content-Disposition: attachment; filename=revlist-ab65de6b1a52-1516071e3b9d.txt
 
 c8b5fc2e1d2f6a11fe2ba82da8b0c39bb379b529 wifi: rtw89: 8852b: add BB and RF tables (1 of 2)
 3e65a0ae142a97bb9b2e0a988e1ddf55fe289cf0 wifi: rtw89: 8852b: add BB and RF tables (2 of 2)
@@ -201,5 +201,44 @@ b98deb2f9803849fd0db714ea9f27aa18f3d9103 net: systemport: Add support for RDMA o
 77adfd3a1d44c4730fd2af99b497e04ddc2b5837 net: dropreason: add SKB_DROP_REASON_FRAG_REASM_TIMEOUT
 3bdfb04f13ebdd4ae50fc5dc595663874781e48c net: dropreason: add SKB_DROP_REASON_FRAG_TOO_FAR
 6f1a298b2e24c703bfcc643e41bc7c0604fe4830 Merge branch 'inet-add-drop-monitor-support'
+95c360b1cffaa497926163e3b938bd3b751ea706 e1000e: Separate MTP board type from ADP
+05d55f5315cb98327bebc2715a24426a02e35f23 ice: Add 'Execute Pending LLDP MIB' Admin Queue command
+028966f33b05ae8449d7cd0d2b18f0ed6942783e ice: Handle LLDP MIB Pending change
+d3b326893356aa78f123f3a0b6e63bc78a3ecf54 ice: Support 5 layer topology
+2ed85ce0566c480942c7892a853fae9462cc10c9 ice: Adjust the VSI/Aggregator layers
+5cfa34ec8e94ca28b3d749f3a36f590db7707c6f ice: Enable switching default tx scheduler topology
+7d178497ce61508b8739886a0f4615179709adf9 ice: Add txbalancing devlink param
+b02a5e6b662d8712a50ffd2696d720b2827dc176 ice: Document txbalancing parameter
+326b2ee6d6f2f6a42be0703975d125ae571efdef i40e: Add appropriate error message logged for incorrect duplex setting
+d84d3b2533aa6ba3c0849064b1b3f185358ce93f ice: Add GPIO pin support for E823 products
+574c5d48a31c67eaf50e1859557abb3fbfc6fb1a e1000: Remove unnecessary use of kmap_atomic()
+d9851706cfc4d00f76ee2bd5add4d410c414819b e1000e: Add e1000e trace module
+8a274a7f9daff59272ec841d8b56e7bbae0760c9 ice: Add crosstimestamping on E823 devices
+0372caba1f29aae78096939652548591f7f6042c ixgbe: Remove local variable
+56624b42d40dd902e93dcdf117bf4acd8d486537 e1000e: Add support for the next LOM generation
+5adf9ac796d1a7c1f46ae3d223ca50bb100a9256 e1000e: Remove unnecessary use of kmap_atomic()
+4b6b8e8a3febbbcfffc3f1df8f7624f91298b3f1 igc: Correct the launchtime offset
+26e950444112abc9658f40f8589eae6bbd403093 ixgbevf: Add error messages on vlan error
+88b40595a9c4b907bd482ecf117fd1b2ed4a8b33 ice: Fix spurious interrupt during removal of trusted VF
+05e21bbcbb191fbd12279584df958c0b41712e8b i40e: Store the irq number in i40e_q_vector
+2da5241c6363bf582961b2a4ff88dc43e77061b5 i40e: Record number TXes cleaned during NAPI
+a1c712dd16e8e22a10fa543178e89719083db0f6 i40e: Record number of RXes cleaned during NAPI
+c316107cf3ed37cc2f546c5b0310222544ff0e69 i40e: Add i40e_napi_poll tracepoint
+77d5b442c3ec9958a6dfa358442d75d4d4b473e4 i40e: Fix failure message when XDP is configured in TX only mode
+e9df172bbed49a64fd92b80c85743b2d6b1d98aa i40e: fix xdp_redirect logs error message when testing with MTU=1500
+09be6a20c2a4465903817c134ea6572c195084ec iavf: Fix VF driver counting VLAN 0 filters
+8b3d5bceaf914ba465e193b56b00f881effac443 ice: Check for PTP HW lock more frequently
+0b10d1385772b3347c4d3712f750526421d74368 ice: Remove gettime HW semaphore
+738d1613330b4877989f1b31fa9d57e6eca0043c iavf: Replace __FUNCTION__ with __func__
+1091a48b238c8ca1f89f2307325ad6ee1e19d5ce ice: use GNSS subsystem instead of TTY
+1a2df90ba0efcf2a18a29cf1a4e3800702a6c2dc igb: Do not free q_vector unless new one was allocated
+4f62ab975fdf7b40752678eb8023bb6476357155 igb: Proactively round up to kmalloc bucket size
+7a296efcbe2a4aac7c2a790bcc488e275e47cb65 ixgbe: change MAX_RXD/MAX_TXD based on adapter type
+539eed398e5f0b5f6fe7831f19e41dd99275dfb7 i40e: Fix not setting default xps_cpus after reset
+1adf5b5eb8dba7a9f50fdaec077042fdb1b54bca e1000e: Fix TX dispatch condition
+8cd6a2c5bde4b1d55086e86e886a197f1e58b672 ice: Accumulate HW and Netdev statistics over reset
+530d127ce2261f114732e32aa796a83d0c386166 ice: Accumulate ring statistics over reset
+55571e438681c0d11ba93803dfd53dbd2081c981 iavf: Change information about device removal in dmesg
+1516071e3b9d1f2ba59eabaa4ef49e077c5348d2 iavf: check that state transitions happen under lock
 
---===============5335850776206390345==--
+--===============5639136745160066720==--
