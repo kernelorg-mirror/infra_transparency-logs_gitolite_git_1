@@ -1,27 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dtor/input
-Date: Tue, 01 Nov 2022 14:59:48 -0000
-Message-Id: <166731478836.29423.10393962694998634979@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/at91/linux
+Date: Tue, 01 Nov 2022 15:02:26 -0000
+Message-Id: <166731494617.32000.540512824518635203@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dtor/input
-user: dtor
+repo: pub/scm/linux/kernel/git/at91/linux
+user: claudiu.beznea
 changes:
-  - ref: refs/heads/master
-    old: d444b9e06e01ca73f1e85d30f636137267f8a5a9
-    new: 5b0c03e24a061f9c9e8b28fa157b80990c559a37
+  - ref: refs/heads/at91-fixes
+    old: 0873509ea64739a9be02e8ee7b4ff573e503ab8e
+    new: cef8cdc0d0e7c701fe4dcfba4ed3fd25d28a6020
     log: |
-         cdb51323360c9d3cc33831a2eb3ea75b967985af dt-bindings: input: Add Cypress TT21000 touchscreen controller
-         5b0c03e24a061f9c9e8b28fa157b80990c559a37 Input: Add driver for Cypress Generation 5 touchscreen
-         
-  - ref: refs/heads/next
-    old: d444b9e06e01ca73f1e85d30f636137267f8a5a9
-    new: 5b0c03e24a061f9c9e8b28fa157b80990c559a37
-    log: |
-         cdb51323360c9d3cc33831a2eb3ea75b967985af dt-bindings: input: Add Cypress TT21000 touchscreen controller
-         5b0c03e24a061f9c9e8b28fa157b80990c559a37 Input: Add driver for Cypress Generation 5 touchscreen
+         cef8cdc0d0e7c701fe4dcfba4ed3fd25d28a6020 ARM: at91: pm: avoid soft resetting AC DLL
          
