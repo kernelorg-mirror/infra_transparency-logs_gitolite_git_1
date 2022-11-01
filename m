@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Tue, 01 Nov 2022 14:24:56 -0000
-Message-Id: <166731269687.2732.7288731528133352745@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Tue, 01 Nov 2022 14:25:36 -0000
+Message-Id: <166731273636.5665.10083883654984482563@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/groeck/linux-staging
-user: groeck
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: dborkman
 changes:
-  - ref: refs/heads/hwmon-next
-    old: 6b780408be034213edfb5946889882cb29f8f159
-    new: d9a6e10e51ac6b774bab68836cb2eae005a47bfc
+  - ref: refs/heads/master
+    old: 97c4090badca743451c3798f1c1846e9f3f252de
+    new: 3a07dcf8f57b9a90b1c07df3e9091fd04baa3036
     log: |
-         d9a6e10e51ac6b774bab68836cb2eae005a47bfc hwmon: (jc42) Consistently use bit and bitfield macros in the driver
+         3a07dcf8f57b9a90b1c07df3e9091fd04baa3036 samples/bpf: Fix typo in README
          
