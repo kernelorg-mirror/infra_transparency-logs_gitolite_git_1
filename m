@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Tue, 01 Nov 2022 19:22:48 -0000
-Message-Id: <166733056891.20926.11241599688465631548@gitolite.kernel.org>
+Date: Tue, 01 Nov 2022 19:25:16 -0000
+Message-Id: <166733071614.24610.6649357524025560223@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,14 +12,12 @@ repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
 user: paulmck
 changes:
   - ref: refs/heads/dev
-    old: ffb4efcd9d6187049fecba6be749bf17a74aee98
-    new: eaee921daa7091f0eb731c9217ccc638ed5f8baf
+    old: eaee921daa7091f0eb731c9217ccc638ed5f8baf
+    new: 9399f613f2fe4ef95fd86c54b6efd98076dcfe12
     log: |
-         eaee921daa7091f0eb731c9217ccc638ed5f8baf squash! clocksource: Exponential backoff for load-induced bogus watchdog reads
+         4543a92aaf556bf4377519ec309603b44cd7b1d8 rcu: Use hlist_nulls_next_rcu() in hlist_nulls_add_tail_rcu()
+         3487e36bc1a5d688018766e8dcc3c5391ce77fe4 rcu: Refactor kvfree_call_rcu() and high-level helpers
+         54e9148b4f492c184db708023d8ba1b8f0fd4a95 clocksource: Add comments to classify bogus measurements
+         9d73ab1d117fbfade242691ed073b38e1373c9df clocksource: Exponential backoff for load-induced bogus watchdog reads
+         9399f613f2fe4ef95fd86c54b6efd98076dcfe12 locking/memory-barriers.txt: Improve documentation for writel() example
          
-  - ref: refs/tags/perf_urgent_for_v6.1_rc3
-    old: 0000000000000000000000000000000000000000
-    new: 4b4a1791621bd8cc798421056b25a8bb49a55103
-  - ref: refs/tags/v6.1-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 0083e89728f57eae559c1ed1ac1e44487565feb1
