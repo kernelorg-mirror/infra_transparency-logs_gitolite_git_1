@@ -1,28 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Tue, 01 Nov 2022 14:01:09 -0000
-Message-Id: <166731126987.20194.9483465832100354171@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mark/linux
+Date: Tue, 01 Nov 2022 14:03:04 -0000
+Message-Id: <166731138445.21004.4935994267508153282@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
-user: broonie
+repo: pub/scm/linux/kernel/git/mark/linux
+user: mark
 changes:
-  - ref: refs/heads/for-linus
-    old: 920e7b6708adae8775bad7c21b6aa3a87ae90eed
-    new: ef463f5fa0965913dbe5401396c32b12d9c7a9f1
+  - ref: refs/heads/arm64/ftrace/minimal-regs
+    old: 8e2793128b63eaf660faf60ebcbaf27376c69fc9
+    new: a5721b10548d9b4def977f56e02e9da79fe8b3d9
     log: |
-         ef463f5fa0965913dbe5401396c32b12d9c7a9f1 Merge remote-tracking branch 'spi/for-6.0' into spi-linus
-         
-  - ref: refs/heads/for-next
-    old: c03c8295439c233274fdd0eb4aaf3f389fdfcfa0
-    new: 23bfeb3f94fbc05795a4ef5fc180ebe28f9363c8
-    log: |
-         e8d6e1dd609696128e646a8c747b0f3fb1e02545 spi: nuvoton,npcm-fiu: Change spi-nor@0 name to flash@0
-         ef463f5fa0965913dbe5401396c32b12d9c7a9f1 Merge remote-tracking branch 'spi/for-6.0' into spi-linus
-         70cfc99cf4ef038f965deae485ce77876b6b724c Merge branch 'spi-linus' into spi-next
-         23bfeb3f94fbc05795a4ef5fc180ebe28f9363c8 Merge remote-tracking branch 'spi/for-6.2' into spi-next
+         ac815c7e6b5a2618197c9b5a30cf96af2a194fa5 ftrace: pass fregs to arch_ftrace_set_direct_caller()
+         18ac36346c10d549d20a87773e6992931553979c ftrace: rename ftrace_instruction_pointer_set() -> ftrace_regs_set_instruction_pointer()
+         36fdbf0221bfe251962ebeff80d95e096dbd9ecd ftrace: abstract DYNAMIC_FTRACE_WITH_ARGS accesses
+         a5721b10548d9b4def977f56e02e9da79fe8b3d9 ftrace: arm64: move from REGS to ARGS
          
