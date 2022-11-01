@@ -1,46 +1,20 @@
-Content-Type: multipart/mixed; boundary="===============0939729916157307655=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/b4/b4
-Date: Tue, 01 Nov 2022 15:12:54 -0000
-Message-Id: <166731557487.7214.2564339921642668831@gitolite.kernel.org>
-
---===============0939729916157307655==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-drivers
+Date: Tue, 01 Nov 2022 15:13:15 -0000
+Message-Id: <166731559567.7433.8055920799435648639@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/b4/b4
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/geert/renesas-drivers
+user: geert
 changes:
-  - ref: refs/heads/master
-    old: d710fad65a0e7da926d177b193ee97ffb360d4dc
-    new: 287477e9e0149b42e444471da9dca629ebacf2e1
+  - ref: refs/heads/renesas-clk-for-v6.2
+    old: c82009584edb36dade0598dce840bed725cfcd56
+    new: 02693e11611e082e3c4d8653e8af028e43d31164
     log: |
-         287477e9e0149b42e444471da9dca629ebacf2e1 trailers: recognize a follow-up trailer even if missing Re: in subject
+         3702cff6d9385565b1ea2670a5623f9695412019 clk: renesas: rzg2l: Don't assume all CPG_MOD clocks support PM
+         02693e11611e082e3c4d8653e8af028e43d31164 clk: renesas: r9a06g032: Repair grave increment error
          
-
---===============0939729916157307655==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher B6C41CE35664996C! 1667315574 -0400
-pushee gitolite.kernel.org:pub/scm/utils/b4/b4
-nonce 1667315574-b790234ed3e5611eaa644df6ef6cf1bcad9f6c93
-
-d710fad65a0e7da926d177b193ee97ffb360d4dc 287477e9e0149b42e444471da9dca629ebacf2e1 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCY2E3dgAKCRC2xBzjVmSZ
-bKOWAQD+YEnWX9reZ8TdkLB475egGMpnKfKc69avEdLHQDdmqgEA+tC9lfq+Cmmg
-9m/lzF9GszHlTjsLPsz+At4Vzc6Dkww=
-=ka7r
------END PGP SIGNATURE-----
-
---===============0939729916157307655==--
