@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3463391872127412852=="
+Content-Type: multipart/mixed; boundary="===============0848886618425029912=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Tue, 01 Nov 2022 18:06:49 -0000
-Message-Id: <166732600929.3242.6999744250413881115@gitolite.kernel.org>
+Date: Tue, 01 Nov 2022 18:06:53 -0000
+Message-Id: <166732601346.3316.6783527323750715048@gitolite.kernel.org>
 
---===============3463391872127412852==
+--===============0848886618425029912==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,38 @@ repo: pub/scm/linux/kernel/git/stable/linux
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.4.y
-    old: b70bfeb98635040588883503d2760e0f46231491
-    new: 5282d4de783b727f9e5e6e90d90a3eff53ef5c31
-    log: |
-         59f89518f51004bcdb05a92e462e2298989294f9 once: fix section mismatch on clang builds
-         5282d4de783b727f9e5e6e90d90a3eff53ef5c31 Linux 5.4.222
-         
+  - ref: refs/tags/v5.4.222
+    old: 0000000000000000000000000000000000000000
+    new: 3d78e6507c1005b0d1ce6641a3094b3c662ee93d
 
---===============3463391872127412852==
+--===============0848886618425029912==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1667326067 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1667326071 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1667326006-569e7367de69c311869a0356833e6fb547bcdf05
+nonce 1667326011-8848ec7dc0aed829e4cd98f3c573b9e09378b981
 
-b70bfeb98635040588883503d2760e0f46231491 5282d4de783b727f9e5e6e90d90a3eff53ef5c31 refs/heads/linux-5.4.y
+0000000000000000000000000000000000000000 3d78e6507c1005b0d1ce6641a3094b3c662ee93d refs/tags/v5.4.222
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmNhYHMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+n9AQAMCJo5tFULUwJ/pRg7to
-bJcbBBzqOYH3bUh+dEQLzgSujtsDQFfa1wKtWsv9cAsrx8yRRwfHAAXEXElLH0UM
-Gd3LdqWHHE64daMFW6BdR9DoVYD7FOetKZiJ36+TMJmaip3WqiGV/tgQhV8y4zfD
-EQAVPSHAjrOB/FTKX0Hnc/ZhY+pxrU3x3sM18dKy7+9ZRCjkNReccP9B0W6E2ry1
-ip/rJmtp4ERB1O4lhxOb7M/iYCv51WWhE4dNa8OZXuC4k5PyXkJ1iZbpDD+KYSr0
-KWnkrM0tQb8b79KxjvhlG/ESOnUKsQ1geafzLzL+cl4ZOkc5L9zI0c2CaLxT6W5o
-cOgdzSPXP7+Q+kH0rE94fZowr9QX2K8+44cxEXR8NXt3sfv35DsdSGiJ1YjFbhVX
-W1esCnCjP4fGupTEFcbZ8q6AKeMDnjxx22rejO5LeBk//2HQrD2ASySkIahf1CHP
-aeBenHulbZrrD9DUbw0Ho0GVeLN7Rena6XS3bvGXsvuvfIzt1gSXecJ7ENIiKcHW
-HfOWetEb3v2OYUiGIe5fzrzcOTK+JfWoHkKADsqdoqE6d0QP41Em4g7aEvtiXGjU
-Rb6UxaMXwjzVWaE8ssa6c7z2p41yJYDpm7HdYaXEBbm7NHbPnMFhKkO6JseY0Jb6
-pMdAH6SwclcUgYOI8DqgS5Yi
-=Nn0k
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmNhYHcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+gcQQAKiZekq7OA747EWiKy8F
+NPzSidiH3d2cVlwO0thahGRaMvZ5ns9AQ8xn9eaR0fDqyPtPUpJo5B9U9iIwKZkp
+jlss5xPCzo3UCG95uG6JonIHaQUoZkPZlRFTbzyOrWcfolk8emWVLq7MOcz/E2nU
+6gfMkZqr9Um1jnhC6z+hV7xnwoec5S6VLS5jRj2ZV36iZHe/9gH1PqiZA8yJt7nM
+hdq655fs8QjJ62KcDBr2e4yWEwX5GmKiOsLsHPhWxlMJJVYrSmnNik5GYPsuyAex
+Z9uAaWXjwVD4kILDwlvwMEvrNCPVhWAzv6Zx83lCk3HrE47FuPnDl5r/N2J2CGwH
+FUMoaOTtBrmni3TYwzievZUcREzmUq+lN9Ytrd4uWS7L677fDCsWqQ41PXotMeL9
+YFcRZo64Hs/YPjBZj2AJcGlnpacTIaWtcNTO7drfffb0Ef/n1ontodab9zd0/zHu
+hubjq7KxJ2Pw6MktOpFIG1c6nfiDZj38eN8pWZSW6H9Zr2QnQjaoN3HFystXPeTA
+404jYKWya45Ce3hZzTH2U+cg6ESKUKxt9qlG7hmdXG6jxHWetfkeL0JdmaSQExgF
+Y/09ZWA102U49ZEOsvztsPgtiikocO4kQ6ufrPwIq6QntOcFCNC9TLk35X8c1SX+
+whwIEHEsQ4tKIqZOFprb2Nle
+=0PM7
 -----END PGP SIGNATURE-----
 
---===============3463391872127412852==--
+--===============0848886618425029912==--
