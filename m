@@ -1,21 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-Date: Tue, 01 Nov 2022 20:49:22 -0000
-Message-Id: <166733576210.17847.2167813684826853938@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/wireless/iwd
+Date: Tue, 01 Nov 2022 20:49:49 -0000
+Message-Id: <166733578938.18111.16030812545088693330@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-user: vudentz
+repo: pub/scm/network/wireless/iwd
+user: denkenz
 changes:
   - ref: refs/heads/master
-    old: 214c507d87cca7098f470c6c59aa77ef8d55826f
-    new: 34f07dd531a4cf92afb3dbd7057c35702d0870e3
+    old: 99c0cdfab4a1b5a8d127828e239c78fa375f1fef
+    new: 47b6da81b4533ad505356c4125526c732576f7d5
     log: |
-         a0978378c1520025f5e49eec62ffa3c0c99197ad Bluetooth: L2CAP: Fix accepting connection request for invalid SPSM
-         6bdbca3c41e489799df3ec46a63267f99577223b Bluetooth: L2CAP: Fix l2cap_global_chan_by_psm
-         34f07dd531a4cf92afb3dbd7057c35702d0870e3 Bluetooth: L2CAP: Fix attempting to access uninitialized memory
+         d129c543643dec1f8766c99424186d7d44dd81fd doc: Add Frequency property to Access Point
+         0f95c97649346e888e275d6ce9d96cfdb1166562 ap: add frequency to AP interface
+         47b6da81b4533ad505356c4125526c732576f7d5 client: show frequency with ap show
          
