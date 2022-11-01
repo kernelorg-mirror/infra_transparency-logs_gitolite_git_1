@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3702418093098813941=="
+Content-Type: multipart/mixed; boundary="===============3832318433551584670=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/arm64/linux
-Date: Tue, 01 Nov 2022 19:04:57 -0000
-Message-Id: <166732949733.8110.1741108888996177073@gitolite.kernel.org>
+Date: Tue, 01 Nov 2022 19:05:50 -0000
+Message-Id: <166732955074.9969.7245071496931239434@gitolite.kernel.org>
 
---===============3702418093098813941==
+--===============3832318433551584670==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,25 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/arm64/linux
 user: cmarinas
 changes:
-  - ref: refs/heads/devel/kmalloc-minalign-v2-wip
-    old: 592bf2436e7af533e8047f812e2721a311d8c49d
-    new: e0c19cef56de1be4f1d7ecd0dc52faeb81247dd2
-    log: revlist-592bf2436e7a-e0c19cef56de.txt
+  - ref: refs/heads/for-next/fixes
+    old: 13b0566962914e167cb3238fbe29ced618f07a27
+    new: 024f4b2e1f874934943eb2d3d288ebc52c79f55c
+    log: revlist-13b056696291-024f4b2e1f87.txt
 
---===============3702418093098813941==
+--===============3832318433551584670==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-592bf2436e7a-e0c19cef56de.txt
+Content-Disposition: attachment; filename=revlist-13b056696291-024f4b2e1f87.txt
 
+901735e51e4dea1eee816b0b57d1d6abbd94b3d5 Merge tag 'x86_misc_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+9bf445b65dd7d4c7d0e4efaecf38525abbbe74e3 Merge tag 'x86_paravirt_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+b5f0b11353a6a33a1accd0b742c80ed6b2f35ac0 Merge tag 'x86_microcode_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+193e2268a3bb1404b42f8edcc037a3eafd165aa9 Merge tag 'x86_cache_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+da4ab869e37cf81f93333ba74b16e0ea6d322e15 libceph: drop last_piece flag from ceph_msg_data_cursor
+f791357330b0043ec953ce122ab7519af4b9d24a ceph: wake up the waiters if any new caps comes
+6eb06c46214d33c71ae86d60b3fc9cb17c20beca ceph: fail the request if the peer MDS doesn't support getvxattr op
+7c3ea9870e09e193981695dd67c37a1a2b6d600b ceph: no need to wait for transition RDCACHE|RD -> RD
 aa1d627207cace003163dee24d1c06fa4e910c6b ceph: Use kcalloc for allocating multiple elements
 b4b924c7a16e857b0715603456045251a49f2ea6 ceph: increment i_version when doing a setattr with caps
 bd04b9192e1ff6859d6b3906e91cfd5c9b0ad55b ceph: fail the open_by_handle_at() if the dentry is being unlinked
@@ -1041,14 +1049,6 @@ b08cd74448fafaa302ce2bc11beab5e5a55d0065 Merge tag '6.1-rc-smb3-client-fixes-par
 8636df94ec917019c4cb744ba0a1f94cf9057790 Merge tag 'perf-tools-for-v6.1-2-2022-10-16' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 f1947d7c8a61db1cb0ef909a6512ede0b1f2115b Merge tag 'random-6.1-rc1-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/crng/random
 9abf2313adc1ca1b6180c508c25f22f9395cc780 Linux 6.1-rc1
-a04a2a9527bb6880156fa81c8c760e196011ed5a mm/slab: Decouple ARCH_KMALLOC_MINALIGN from ARCH_DMA_MINALIGN
-e07e3b54816f388a8cb302d2c618ce772c21077e drivers/base: Use ARCH_DMA_MINALIGN instead of ARCH_KMALLOC_MINALIGN
-289b7297ac58099da8bd9c3f9d64dfb3b5e6bda5 drivers/gpu: Use ARCH_DMA_MINALIGN instead of ARCH_KMALLOC_MINALIGN
-09d8039d2405aefe2118a87afa580b8d797081e6 drivers/md: Use ARCH_DMA_MINALIGN instead of ARCH_KMALLOC_MINALIGN
-13ed7fa9f221536a9c3b79436d81355e5d293334 drivers/spi: Use ARCH_DMA_MINALIGN instead of ARCH_KMALLOC_MINALIGN
-91e1ea1565f9ac5f082df220636fe7d28dbb53bc drivers/usb: Use ARCH_DMA_MINALIGN instead of ARCH_KMALLOC_MINALIGN
-3f6d61a6107dff7fabdea6c1b02343c5cdb16081 crypto: Use ARCH_DMA_MINALIGN instead of ARCH_KMALLOC_MINALIGN
-857e87d91d0cc234bc442c8ec7bf2722e4c14415 dma-mapping: Force bouncing if the size is not cacheline-aligned
-e0c19cef56de1be4f1d7ecd0dc52faeb81247dd2 arm64: Reduce ARCH_KMALLOC_MINALIGN to 8
+024f4b2e1f874934943eb2d3d288ebc52c79f55c arm64: entry: avoid kprobe recursion
 
---===============3702418093098813941==--
+--===============3832318433551584670==--
