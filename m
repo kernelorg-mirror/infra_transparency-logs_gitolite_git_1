@@ -1,56 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============6197064065442623083=="
+Content-Type: multipart/mixed; boundary="===============6979589922760995613=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Tue, 01 Nov 2022 18:09:42 -0000
-Message-Id: <166732618209.4686.4780990954150671195@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
+Date: Tue, 01 Nov 2022 18:10:52 -0000
+Message-Id: <166732625227.4314.8360136142689262670@gitolite.kernel.org>
 
---===============6197064065442623083==
+--===============6979589922760995613==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/net-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/stable/linux
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/dev-queue
-    old: 6eb29c682b368d9a0a4c8fec0667eb11b3293da4
-    new: d5d31354e533ad9bc5e8cf388eb54b6693a24189
-    log: revlist-6eb29c682b36-d5d31354e533.txt
+  - ref: refs/notes/signatures/tar
+    old: 6d86032458eeb4cc26b6996704839f9844eb3049
+    new: ccb80b3c9a11b30db27a54c950454a0e3c74732a
+    log: |
+         ccb80b3c9a11b30db27a54c950454a0e3c74732a Notes added by 'git notes add'
+         
 
---===============6197064065442623083==
+--===============6979589922760995613==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6eb29c682b36-d5d31354e533.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-7354c9024f2835f6122ed9612e21ab379df050f9 netlink: hide validation union fields from kdoc
-e4ba4554209f626c52e2e57f26cba49a62663c8b net: openvswitch: add missing .resv_start_op
-1208b93dd901bafe2526fa9db005bbc30e7ae83a enic: MAINTAINERS: Update enic maintainers
-8f279fb00bb29def9ac79e28c5d6d8e07d21f3fb udp: advertise ipv6 udp support for msghdr::ubuf_info
-fee9ac06647e59a69fb7aec58f25267c134264b4 net: remove SOCK_SUPPORT_ZC from sockmap
-e276d62dcfdee6582486e8b8344dd869518e14be net/ulp: remove SOCK_SUPPORT_ZC from tls sockets
-71b7786ea478f3c4611deff4d2b9676b0c17c56b net: also flag accepted sockets supporting msghdr originated zerocopy
-9201f60a1983c049319eff89081453ad32571a39 Merge branch 'a-few-corrections-for-sock_support_zc'
-21ce2c121fa07b00b0906bd781590ea362e82ea2 net: ethernet: adi: adin1110: Fix notifiers
-a2c65a9d0568b6737c02b54f00b80716a53fac61 net: dsa: fall back to default tagger if we can't load the one from DT
-8e4aae6b8ca76afb1fb64dcb24be44ba814e7f8a nfc: fdp: Fix potential memory leak in fdp_nci_send()
-7bf1ed6aff0f70434bd0cdd45495e83f1dffb551 nfc: nxp-nci: Fix potential memory leak in nxp_nci_send()
-3a146b7e3099dc7cf3114f627d9b79291e2d2203 nfc: s3fwrn5: Fix potential memory leak in s3fwrn5_nci_send()
-93d904a734a74c54d945a9884b4962977f1176cd nfc: nfcmrvl: Fix potential memory leak in nfcmrvl_i2c_nci_send()
-5715a502447b07f067ee5af36465c7c2b813ff38 Merge branch 'nfc-skb-leaks'
-06a4df5863f73af193a4ff7abf7cb04058584f06 net: fec: fix improper use of NETDEV_TX_BUSY
-8bdc2acd420c6f3dd1f1c78750ec989f02a1e2b9 net: sched: Fix use after free in red_enqueue()
-e230d36f7d4cf1b89614e2bb4c2f0c55a16d3259 ibmvnic: change maintainers for vnic driver
-363a5328f4b0517e59572118ccfb7c626d81dca9 net: tun: fix bugs for oversize packet when napi frags enabled
-6c412da54c80a54b1a8b7f89677f6e82f0fabec4 sfc: Fix an error handling path in efx_pci_probe()
-5ad813d68c61a1345ec7ec5a92f5640d09c30fc3 ice: Fix spurious interrupt during removal of trusted VF
-fb6d35e037aafcb3e7f6df729b9b5c488b2376c2 i40e: Fix failure message when XDP is configured in TX only mode
-cb0a6a9123796f43822edeb2e1d082df5f1db04f i40e: fix xdp_redirect logs error message when testing with MTU=1500
-1a6d22c9fc9790703aaf1c5aea7dd254d007a1f0 iavf: Fix VF driver counting VLAN 0 filters
-599cd8b87e18fab4a2b1613c1fdef64d90cb9ea0 i40e: Fix not setting default xps_cpus after reset
-d5d31354e533ad9bc5e8cf388eb54b6693a24189 e1000e: Fix TX dispatch condition
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1667326309 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
+nonce 1667326248-ed6e3a210c9c64c43d9a9203187c7ab19668e4f2
 
---===============6197064065442623083==--
+6d86032458eeb4cc26b6996704839f9844eb3049 ccb80b3c9a11b30db27a54c950454a0e3c74732a refs/notes/signatures/tar
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmNhYWUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+g9gP/jdc1irPT+5jQLjhApLM
+o0ZeBiM6BybYG51Ft6yls1dxI9bV26TcbO/sIvx00G4XNMwF5WF07dWJ4ALMmUhr
+axar3xYUXA1TKNzh8wuZ5Gy5jid2dCh7p9o7YA8UXqB+bSHaz4edjLLwUqPzwqDU
+BU3th/OZ0PVZcLJPi7uPpdMEc+lmCAYmP20Gz9EdxVBspsi1DXLZNIGHgMYS7OEc
+xWeZ4OQsu9rDieY2HCEFdrM1J1lY6ldzK+3pZSBx852mzoKK7wrDsF2OT2GUL8ce
+sYwtVW7yfHMtUK6Piw+lpOW2eGSA/cuRDig9JHeLrYLUUA64AsDmIhog4hdPRBte
+XLorRVos4hXUty533F/rHTSnlrhqm7AUgzEIGGCNXgZnen4iQ5ZYAo1CNSbSZ0G9
+5zK95qFEaeGFUWmOoVR1mgo9t9Xx9gMPU3hKtxCThezNqDFsaoWeI3rx7RcvcChP
+xWsRn+EOHPp1X41L8YJsAY3ySoeEnIaJmhj/X5AQL3lyOfN4d6343ub/t+2WT1oJ
+UJDSwB4ChqpVcKJdK5kmP2wef+qt1VyJMvVoG5lBWG+Uf+KAf2oAF38yrHH8GGia
+Ym/AGipAewtngcajX6KWzbyFhL3WTmyNyLjqxXmROPe3+goD9t+RUBNRQ3PBIkWa
+ZpRi298fau0b5Fihw0g1GnN7
+=NP2r
+-----END PGP SIGNATURE-----
+
+--===============6979589922760995613==--
