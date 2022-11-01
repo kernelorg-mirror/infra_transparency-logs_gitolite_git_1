@@ -1,21 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
-Date: Tue, 01 Nov 2022 13:29:51 -0000
-Message-Id: <166730939122.29188.7813140587233499577@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jj/linux-apparmor
+Date: Tue, 01 Nov 2022 13:50:58 -0000
+Message-Id: <166731065835.11928.10447292373727417128@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf
-user: dborkman
+repo: pub/scm/linux/kernel/git/jj/linux-apparmor
+user: jj
 changes:
-  - ref: refs/heads/master
-    old: 8bdc2acd420c6f3dd1f1c78750ec989f02a1e2b9
-    new: 42378a9ca55347102bbf86708776061d8fe3ece2
+  - ref: refs/heads/apparmor-next
+    old: 3265949f7cd36a724a35020202c618094be1cf28
+    new: 63bfd1c409f249c493aed7ba5ccf072fa6290448
     log: |
-         e230d36f7d4cf1b89614e2bb4c2f0c55a16d3259 ibmvnic: change maintainers for vnic driver
-         363a5328f4b0517e59572118ccfb7c626d81dca9 net: tun: fix bugs for oversize packet when napi frags enabled
-         42378a9ca55347102bbf86708776061d8fe3ece2 bpf, verifier: Fix memory leak in array reallocation for stack state
+         e9e6fa49dbab6d84c676666f3fe7d360497fd65b apparmor: Fix memleak in alloc_ns()
+         0fc0401eb24ce747c5c0768d68f5c0abfb9fae2b apparmor: Add __init annotation to aa_{setup/teardown}_dfa_engine()
+         63bfd1c409f249c493aed7ba5ccf072fa6290448 apparmor: Fix uninitialized symbol 'array_size' in policy_unpack_test.c
          
