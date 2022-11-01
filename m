@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7047877130853604213=="
+Content-Type: multipart/mixed; boundary="===============6197064065442623083=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Tue, 01 Nov 2022 18:09:37 -0000
-Message-Id: <166732617733.4568.6449097680239831961@gitolite.kernel.org>
+Date: Tue, 01 Nov 2022 18:09:42 -0000
+Message-Id: <166732618209.4686.4780990954150671195@gitolite.kernel.org>
 
---===============7047877130853604213==
+--===============6197064065442623083==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: 8fdf3f6aba7cfa0c0e2bf66ecca7bb5783acd0d6
-    new: 6c412da54c80a54b1a8b7f89677f6e82f0fabec4
-    log: revlist-8fdf3f6aba7c-6c412da54c80.txt
+  - ref: refs/heads/dev-queue
+    old: 6eb29c682b368d9a0a4c8fec0667eb11b3293da4
+    new: d5d31354e533ad9bc5e8cf388eb54b6693a24189
+    log: revlist-6eb29c682b36-d5d31354e533.txt
 
---===============7047877130853604213==
+--===============6197064065442623083==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8fdf3f6aba7c-6c412da54c80.txt
+Content-Disposition: attachment; filename=revlist-6eb29c682b36-d5d31354e533.txt
 
 7354c9024f2835f6122ed9612e21ab379df050f9 netlink: hide validation union fields from kdoc
 e4ba4554209f626c52e2e57f26cba49a62663c8b net: openvswitch: add missing .resv_start_op
@@ -46,5 +46,11 @@ a2c65a9d0568b6737c02b54f00b80716a53fac61 net: dsa: fall back to default tagger i
 e230d36f7d4cf1b89614e2bb4c2f0c55a16d3259 ibmvnic: change maintainers for vnic driver
 363a5328f4b0517e59572118ccfb7c626d81dca9 net: tun: fix bugs for oversize packet when napi frags enabled
 6c412da54c80a54b1a8b7f89677f6e82f0fabec4 sfc: Fix an error handling path in efx_pci_probe()
+5ad813d68c61a1345ec7ec5a92f5640d09c30fc3 ice: Fix spurious interrupt during removal of trusted VF
+fb6d35e037aafcb3e7f6df729b9b5c488b2376c2 i40e: Fix failure message when XDP is configured in TX only mode
+cb0a6a9123796f43822edeb2e1d082df5f1db04f i40e: fix xdp_redirect logs error message when testing with MTU=1500
+1a6d22c9fc9790703aaf1c5aea7dd254d007a1f0 iavf: Fix VF driver counting VLAN 0 filters
+599cd8b87e18fab4a2b1613c1fdef64d90cb9ea0 i40e: Fix not setting default xps_cpus after reset
+d5d31354e533ad9bc5e8cf388eb54b6693a24189 e1000e: Fix TX dispatch condition
 
---===============7047877130853604213==--
+--===============6197064065442623083==--
