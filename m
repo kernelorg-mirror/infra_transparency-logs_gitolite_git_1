@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/hyperv/linux
-Date: Tue, 01 Nov 2022 10:52:39 -0000
-Message-Id: <166729995918.11416.10458431041793948271@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Tue, 01 Nov 2022 11:01:44 -0000
+Message-Id: <166730050468.19114.16843570146855542912@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/hyperv/linux
-user: wei.liu
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/hyperv-next
-    old: 434243e8e73903f05305a783128d928fc1b94f7f
-    new: c6984010648369c97173572b63abfb38794ffd2d
+  - ref: refs/heads/filebnqh0t
+    old: 5da39a9379d8e207a0b23fa8cf16eff2bddd8950
+    new: 5d73263f9e7c54ccb20814dc50809b9deb9e2bc7
     log: |
-         b58075cbac5bc044395eb3608a18bd8f6346a349 mm/page_reporting: Add checks for page_reporting_order param
-         c6984010648369c97173572b63abfb38794ffd2d hv_balloon: Add support for configurable order free page reporting
+         5d73263f9e7c54ccb20814dc50809b9deb9e2bc7 ASoC: hda: intel-dsp-config: add ES83x6 quirk for IceLake
          
