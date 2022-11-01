@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Tue, 01 Nov 2022 22:53:50 -0000
-Message-Id: <166734323053.10729.755422398268108567@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Tue, 01 Nov 2022 22:56:01 -0000
+Message-Id: <166734336199.14424.11166581629835518666@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/net-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/tip/tip
+user: daveh
 changes:
-  - ref: refs/heads/dev-queue
-    old: d5d31354e533ad9bc5e8cf388eb54b6693a24189
-    new: c70e8985365ba84d8d668a27a45c21d1fc26f818
+  - ref: refs/heads/x86/asm
+    old: 30a0b95b1335e12efef89dd78518ed3e4a71a763
+    new: bce5a1e8a34006a5e80213ede5e5c465d53f1dce
     log: |
-         73a11092689e7db81742142e7d97ccf69c7e4068 ice: move devlink port creation/deletion
-         c70e8985365ba84d8d668a27a45c21d1fc26f818 i40e: Fix for VF MAC address 0
+         bce5a1e8a34006a5e80213ede5e5c465d53f1dce x86/mem: Move memmove to out of line assembler
          
