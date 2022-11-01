@@ -1,19 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
-Date: Tue, 01 Nov 2022 23:06:35 -0000
-Message-Id: <166734399512.21599.18077331642707367843@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Tue, 01 Nov 2022 23:09:28 -0000
+Message-Id: <166734416843.22996.4834127660553012373@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kees/linux
-user: kees
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
+user: tnguy
 changes:
-  - ref: refs/heads/for-next/kspp
-    old: 6dd142d9013ca82155d0c069434c60a0d5755ec0
-    new: 5904fcb776d0b518be96bca43f258db90f26ba9a
+  - ref: refs/heads/dev-queue
+    old: 1516071e3b9d1f2ba59eabaa4ef49e077c5348d2
+    new: 40a071cf7985cd785bd51488662e26203e5b83c0
     log: |
-         5904fcb776d0b518be96bca43f258db90f26ba9a overflow: Introduce overflows_type() and castable_to_type()
+         be93ced9df8b2c322257f312cefa288fc3487e0b ice: Fix off by one in ice_tc_forward_to_queue()
+         2ab2249930df022c0a4d6eaaf1046fcf62220b88 i40e: Fix for VF MAC address 0
+         8f4658bec01fb827df739a4baec0c199926cf78b ice: Remove and replace ice speed defines with ethtool.h versions
+         72e39fc287be502ee6ac865794e6d938eda19a79 ice: move devlink port creation/deletion
+         40a071cf7985cd785bd51488662e26203e5b83c0 i40e (gcc13): synchronize allocate/free functions return type & values
          
