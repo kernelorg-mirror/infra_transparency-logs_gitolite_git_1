@@ -1,32 +1,24 @@
-Content-Type: multipart/mixed; boundary="===============1269404825521395286=="
+Content-Type: multipart/mixed; boundary="===============7683149388025666279=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Tue, 01 Nov 2022 05:22:21 -0000
-Message-Id: <166728014121.23779.10675392654959975152@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Tue, 01 Nov 2022 05:22:30 -0000
+Message-Id: <166728015031.23941.13215855954089660025@gitolite.kernel.org>
 
---===============1269404825521395286==
+--===============7683149388025666279==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
   - ref: refs/heads/master
     old: 6fbda10ec6f8d70d0f4446f861f7db726c2f2e7c
     new: e9d267f752f8ff62f0111cea90e3ced4fc595b4f
     log: revlist-6fbda10ec6f8-e9d267f752f8.txt
-  - ref: refs/heads/pending-fixes
-    old: f9c598794537110a1447b695a5af5d6be8f54104
-    new: dc45a98439c6b2303e1b2159804c5d5a8600da68
-    log: revlist-f9c598794537-dc45a98439c6.txt
-  - ref: refs/heads/stable
-    old: b72018ab8236c3ae427068adeb94bdd3f20454ec
-    new: 5aaef24b5c6d4246b2cac1be949869fa36577737
-    log: revlist-b72018ab8236-5aaef24b5c6d.txt
   - ref: refs/tags/next-20221101
     old: 0000000000000000000000000000000000000000
     new: de35a90b03bcb3fd85b3982bdd07b1fdff2ca522
@@ -34,7 +26,7 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: 0083e89728f57eae559c1ed1ac1e44487565feb1
 
---===============1269404825521395286==
+--===============7683149388025666279==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -752,100 +744,4 @@ f9748079dc05cdcc03c52454ff5a082da13b3461 Merge branch 'for-next' of git://git.in
 c0edcac635e65a93236b718409170e5aabe2e27f Merge branch 'mm-everything' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 e9d267f752f8ff62f0111cea90e3ced4fc595b4f Add linux-next specific files for 20221101
 
---===============1269404825521395286==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f9c598794537-dc45a98439c6.txt
-
-8cf0a1bc12870d148ae830a4ba88cfdf0e879cee capabilities: fix potential memleak on error path from vfs_getxattr_alloc()
-8e4aae6b8ca76afb1fb64dcb24be44ba814e7f8a nfc: fdp: Fix potential memory leak in fdp_nci_send()
-7bf1ed6aff0f70434bd0cdd45495e83f1dffb551 nfc: nxp-nci: Fix potential memory leak in nxp_nci_send()
-3a146b7e3099dc7cf3114f627d9b79291e2d2203 nfc: s3fwrn5: Fix potential memory leak in s3fwrn5_nci_send()
-93d904a734a74c54d945a9884b4962977f1176cd nfc: nfcmrvl: Fix potential memory leak in nfcmrvl_i2c_nci_send()
-5715a502447b07f067ee5af36465c7c2b813ff38 Merge branch 'nfc-skb-leaks'
-30a0b95b1335e12efef89dd78518ed3e4a71a763 Linux 6.1-rc3
-0873509ea64739a9be02e8ee7b4ff573e503ab8e ARM: dts: lan966x: Enable sgpio on pcb8291
-6fdaed8c79887680bc46cb0a51775bd7c8645528 drm/format-helper: Only advertise supported formats for conversion
-06a4df5863f73af193a4ff7abf7cb04058584f06 net: fec: fix improper use of NETDEV_TX_BUSY
-8bdc2acd420c6f3dd1f1c78750ec989f02a1e2b9 net: sched: Fix use after free in red_enqueue()
-6c6ae64506829562f800f43b4fea780a0426150d MAINTAINERS: remove sthemmin
-d7164a5048e8a6afe2cc4aaf7f12643c14e7f241 drm/i915/tgl+: Add locking around DKL PHY register accesses
-d3f6bacfca86f6cf6bf85be1e8b54083d68d8195 drm/i915: stop abusing swiotlb_max_segment
-3e206b6aa6df7eed4297577e0cf8403169b800a2 drm/i915/sdvo: Filter out invalid outputs more sensibly
-e79762512120f11c51317570519a1553c70805d8 drm/i915/sdvo: Setup DDC fully before output init
-e59bf547a7dd366f93bfebb7487959580ca6c0ec ASoC: tas2770: Fix set_tdm_slot in case of single slot
-faac764ea1ea6898d93e46c403271fb105c0906e ASoC: tas2764: Fix set_tdm_slot in case of single slot
-6f934afa6a980bb8d3ce73836b1a9922685e50d7 ASoC: tas2780: Fix set_tdm_slot in case of single slot
-cf82d0ecb84e8ef9958721193f901609b408655b spi: mediatek: Fix package division error
-e18a9e894913b626396e2a8b864d980d28c66429 hwmon: (scmi) Register explicitly with Thermal Framework
-d372ec94a018c3a19dad71e2ee3478126394d9fc drm/i915: Simplify intel_panel_add_edid_alt_fixed_modes()
-12caf46cf4fc92b1c3884cb363ace2e12732fd2f drm/i915/sdvo: Grab mode_config.mutex during LVDS init to avoid WARNs
-063b1f21cc9be07291a1f5e227436f353c6d1695 btrfs: fix a memory allocation failure test in btrfs_submit_direct
-8184620ae21213d51eaf2e0bd4186baacb928172 btrfs: fix lost file sync on direct IO write with nowait and dsync iocb
-738f7a2d84ed3de6e8d829b194ce257ab5bb1e74 Merge branch 'misc-6.1' into next-fixes
-920e7b6708adae8775bad7c21b6aa3a87ae90eed Merge remote-tracking branch 'spi/for-6.0' into spi-linus
-30bf340ba9d7c8059af7135e5c73f8e9d3240b29 nfsd: fix net-namespace logic in __nfsd_file_cache_purge
-78a089d033bf71d68d978ac4cc73070f3e71c736 Merge tag 'lsm-pr-20221031' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/lsm
-5aaef24b5c6d4246b2cac1be949869fa36577737 Merge tag 'for-6.1-rc3-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
-7ee47dcfff1835ff75a794d1075b6b5f5462cfed fs: use acquire ordering in __fget_light()
-2fb2e0c491e14dc7eb04450c950cd72f0d41843e Merge branch 'mm-hotfixes-unstable' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
-beca51d547b2f98c385e9fd087876127ce1b5c60 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild.git
-8692c8138968d2c40fd570688007df7f4276c7f1 Merge branch 'fixes' of https://git.linaro.org/people/jens.wiklander/linux-tee.git
-a236cc0cb280c519e43a209226b2dbe0e15a1f41 Merge branch 'master' of git://git.kernel.org/pub/scm/linux/kernel/git/davem/sparc.git
-658f1c50d9aa101c6804019b43382b8eb669fe34 Merge branch 'master' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net.git
-81acc706fea889249b971105c082f5cecab30937 Merge branch 'master' of git://git.kernel.org/pub/scm/linux/kernel/git/klassert/ipsec.git
-8c97e32889fe18ae6a4124d4289da8cfe2a1ff61 Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless.git
-d30e9553e9528e0c9b2270e2131e0db81ca657d6 Merge branch 'for-rc' of git://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma.git
-b87e4299a06321161e6fae4c690b57004a861121 Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound.git
-2429a6b66aa22fd21460cfe61bd5107e49127d61 Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-080f314fa04a1472ffd6b77dd7086111a1a5377e Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regmap.git
-bebe40142d0602d612754421a7a58afa7998403e Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
-c16b184f2be0cd197a55198dd0dfc67ecccface7 Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-2c54c05967a3d83bfde4b9e173a5052a3b05cda6 Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/helgaas/pci.git
-de99fe1c854f4fdf1ae451dae88dd95c6d2ee865 Merge branch 'driver-core-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/driver-core.git
-726fde5a6528d503d350103c48840ba83c3d46ef Merge branch 'usb-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/johan/usb-serial.git
-48aff3ed53f9f880f59d0773014d8996071fb86a Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/phy/linux-phy.git
-f93bc1c74d89f42f80ab0d29ff80e17441316780 Merge branch 'staging-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/staging.git
-d6673a9e70e874272f0c081e356c5f0f10318fba Merge branch 'fixes-togreg' of git://git.kernel.org/pub/scm/linux/kernel/git/jic23/iio.git
-1a421ec46597775960b3713f31be3a70bdaf9185 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vkoul/soundwire.git
-a2240b734793634c0ef1407908bc7d79929f73a4 Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input.git
-7d3a2d738c2468ecf34d99db26ac901113b33cfb Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest.git
-7d8dab3fee148826d2fde5ababc0dd60583aced4 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vkoul/dmaengine.git
-935a86b231419e97a619216e6dfdfc0c66c9e12e Merge branch 'at91-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/at91/linux.git
-11d47a3ac19530aacdf48abae9fdc2cb6a2dcefe Merge branch 'master' of git://git.kernel.org/pub/scm/virt/kvm/kvm.git
-a39b7cd161ac8f1ca97d6a9e5fb30c370086ece0 Merge branch 'master' of git://git.kernel.org/pub/scm/linux/kernel/git/kvms390/linux.git
-4dc764d182bee025be855750c0448a80e2fa5603 Merge branch 'hwmon' of git://git.kernel.org/pub/scm/linux/kernel/git/groeck/linux-staging.git
-c39934de9cf26f8a81b76f64e58dde2334768062 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/cxl/cxl.git
-9c17a042f3ca403e05ac530e94d8a3f121304b7d Merge branch 'next-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux.git
-a5c0c5d90880faa75c1933147428e3da1e7ec119 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs.git
-e091edf153809fcbe966f4ba8564d9febd070346 Merge branch 'for-linux-next-fixes' of git://anongit.freedesktop.org/drm-intel
-d67fef363790233107a8fc47ffd33bcdaec7cc54 Merge branch 'hyperv-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/hyperv/linux.git
-6074b8ba4dcd8c7b19eb7b894a52fcd46952fb64 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux.git
-354c2a3a924679ed837c20388b2818f3217a8a1e Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/rw/ubifs.git
-ce4dc3ff441a49e0ad8bb3e487376bcdeb488920 Merge branch 'for-rc' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
-110f884463ac2d70d1d918298450237e40ac520c Merge branch 'urgent' of git://git.kernel.org/pub/scm/linux/kernel/git/efi/efi.git
-f2c15e0f098cb6716926de745bd96b3608a0a3bc Merge branch 'zstd-linus' of https://github.com/terrelln/linux.git
-52db77c55b1cae5c6dcbc9758944146dd3c153f4 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/sre/linux-power-supply.git
-dc45a98439c6b2303e1b2159804c5d5a8600da68 Merge branch 'for-linux-next-fixes' of git://anongit.freedesktop.org/drm/drm-misc
-
---===============1269404825521395286==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b72018ab8236-5aaef24b5c6d.txt
-
-f15fb2cd979a07fbfc666e2f04b8b30ec9233b2a btrfs: raid56: properly handle the error when unable to find the missing stripe
-ab4c54c643a01067669df8332b64e3f31b69e071 btrfs: raid56: avoid double freeing for rbio if full_stripe_write() failed
-ae0e5df4d1a4a2694c9c203cc25334aaaf9f2dfa btrfs: reorder btrfs_bio for better packing
-968b71583130b6104c9f33ba60446d598e327a8b btrfs: fix tree mod log mishandling of reallocated nodes
-3d17adea74a56a4965f7a603d8ed8c66bb9356d9 btrfs: make thaw time super block check to also verify checksum
-9b8be45f1ef29081c4b614aa559f934526e70d16 btrfs: send: fix send failure of a subcase of orphan inodes
-2398091f9c2c8e0040f4f9928666787a3e8108a7 btrfs: fix type of parameter generation in btrfs_get_dentry
-76a66ba101329316a5d7f4275070be22eb85fdf2 btrfs: don't use btrfs_chunk::sub_stripes from disk
-8cf0a1bc12870d148ae830a4ba88cfdf0e879cee capabilities: fix potential memleak on error path from vfs_getxattr_alloc()
-30a0b95b1335e12efef89dd78518ed3e4a71a763 Linux 6.1-rc3
-78a089d033bf71d68d978ac4cc73070f3e71c736 Merge tag 'lsm-pr-20221031' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/lsm
-5aaef24b5c6d4246b2cac1be949869fa36577737 Merge tag 'for-6.1-rc3-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
-
---===============1269404825521395286==--
+--===============7683149388025666279==--
