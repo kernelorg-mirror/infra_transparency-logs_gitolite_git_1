@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ribalda/linux
-Date: Tue, 01 Nov 2022 05:24:08 -0000
-Message-Id: <166728024878.24650.13854976654962118398@gitolite.kernel.org>
+Date: Tue, 01 Nov 2022 05:29:16 -0000
+Message-Id: <166728055631.29391.14003109584886269711@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,9 @@ repo: pub/scm/linux/kernel/git/ribalda/linux
 user: ribalda
 changes:
   - ref: refs/heads/b4/easycam
-    old: 0000000000000000000000000000000000000000
-    new: cbf785fb7b33d3c28815df60c9a23183e2ef6818
-  - ref: refs/tags/sent/easycam-v1
-    old: 0000000000000000000000000000000000000000
-    new: 558105628634a68a3acd26bfce5e35ef2289367e
+    old: cbf785fb7b33d3c28815df60c9a23183e2ef6818
+    new: 9adc831d88d33131b981dfa3df513d6ec3d772ce
+    log: |
+         bdf4f20716fa63699402909820c2b2cdb411406b media: uvcvideo: Limit PLC for Acer Easycam
+         9adc831d88d33131b981dfa3df513d6ec3d772ce media: uvcvideo: Limit power line control for Acer EasyCamera
+         
