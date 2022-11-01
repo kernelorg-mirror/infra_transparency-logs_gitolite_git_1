@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1451032344797576922=="
+Content-Type: multipart/mixed; boundary="===============6492271476438729267=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 01 Nov 2022 10:42:36 -0000
-Message-Id: <166729935674.4552.9835873420722857338@gitolite.kernel.org>
+Date: Tue, 01 Nov 2022 10:44:55 -0000
+Message-Id: <166729949503.5441.4857841318410694616@gitolite.kernel.org>
 
---===============1451032344797576922==
+--===============6492271476438729267==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,15 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/auto-latest
     old: b8cc3fc136191e47d864916609865a4fdbbbecf6
     new: 74f2af2d5393451ff1a104f0187826e44f45fc84
     log: revlist-b8cc3fc13619-74f2af2d5393.txt
-  - ref: refs/tags/v6.1-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 0083e89728f57eae559c1ed1ac1e44487565feb1
 
---===============1451032344797576922==
+--===============6492271476438729267==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -137,4 +134,4 @@ ed88f31d61443d9b5c65983c9a9a14d98b15b547 Merge branch into tip/master: 'x86/mm'
 f59c1df761241183c9ff838421e70568452cceb5 Merge branch into tip/master: 'x86/sev'
 74f2af2d5393451ff1a104f0187826e44f45fc84 Merge branch into tip/master: 'x86/sgx'
 
---===============1451032344797576922==--
+--===============6492271476438729267==--
