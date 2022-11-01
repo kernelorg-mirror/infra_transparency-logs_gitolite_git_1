@@ -1,50 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============7514128179839792144=="
+Content-Type: multipart/mixed; boundary="===============6284521256629221759=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Tue, 01 Nov 2022 14:00:32 -0000
-Message-Id: <166731123265.19815.17229268626976893748@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 01 Nov 2022 14:00:38 -0000
+Message-Id: <166731123877.19913.17593071736794946738@gitolite.kernel.org>
 
---===============7514128179839792144==
+--===============6284521256629221759==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.2
+  - ref: refs/heads/spi-6.2
     old: 347ad8f295c66f3193d57cc5b69b6138f2e24231
     new: e8d6e1dd609696128e646a8c747b0f3fb1e02545
     log: |
          e8d6e1dd609696128e646a8c747b0f3fb1e02545 spi: nuvoton,npcm-fiu: Change spi-nor@0 name to flash@0
          
 
---===============7514128179839792144==
+--===============6284521256629221759==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1667311231 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1667311230-d29a7057101347868779b284426edf397db10a05
+pusher C3F436CA30F5D8EB 1667311237 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1667311236-bd8c6c5a073765ecaa71d016fad9bd0d1a902209
 
-347ad8f295c66f3193d57cc5b69b6138f2e24231 e8d6e1dd609696128e646a8c747b0f3fb1e02545 refs/heads/for-6.2
+347ad8f295c66f3193d57cc5b69b6138f2e24231 e8d6e1dd609696128e646a8c747b0f3fb1e02545 refs/heads/spi-6.2
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmNhJn8ACgkQJNaLcl1U
-h9Dn2Qf/fxZETsZ+FSB3XaPuO18SF+pYxDDD5MUhrX2Xs8xA2ds14FI+KJghjpuN
-zl0MrJWID0aQlmWHVXeiFtsEhYCgxKatKZy8KMJL4OaRIF0VUHSk/wdRTlNAfknP
-1P5ty0HMU6MYljmWcOSGGbZ74HO+xqgFkwQnIoKqFjQL8KTKJg+2DjimOAT2zGVB
-f0iJXropHTWDMGczOuDfzC7jviOjnN32j2k9eQpxZ2VSJ4Ae8u8Ee+qbJtrpRSlq
-d95SpKd/OmBRmX5jhM4d47GfZb+7fAA9LPRBuZviDk8oKAlUvWspd4zZu38Xg7yY
-px3OYtAoXw/mDWxCLp10y6T9RQxy5Q==
-=R5ga
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmNhJoUACgkQJNaLcl1U
+h9Aelgf/Z3X9EO2ExyCjrF6YIh5lH2ZKqzygciilh00rumxJTQkl92BtCS7tNtae
+3L3ZMSy5XR2r9SMeZPbH5SlOCpQp5G2xdXhz26oADqsIsRQetiJIOaqYXbBDBknz
+mHcrfWsxtoCFPkqGc8orudpr4gz220oTIaF/NceWhW+QCAixFfv2b6YG+cqkx85n
+qZe2Ea1RoOJ0ufAAuukZp3f1zcS0UFeGAi5tGvfvst3oH4T1rvgQQ8oGaVfFGaUa
+H8Lh0Fd7v+0APaT1ixDHFcAJP8bnnKfkxHmR/E0b3LHhenuv6WrCs7iy3aE7+9NE
+FhcNlYH3pTExNzYvdp4qzJddR/bLOA==
+=+VcA
 -----END PGP SIGNATURE-----
 
---===============7514128179839792144==--
+--===============6284521256629221759==--
