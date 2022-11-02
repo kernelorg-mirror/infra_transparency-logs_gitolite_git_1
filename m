@@ -1,58 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============5543466157531435608=="
+Content-Type: multipart/mixed; boundary="===============2833533563635729646=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Wed, 02 Nov 2022 07:14:58 -0000
-Message-Id: <166737329889.18091.8792503478791507130@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
+Date: Wed, 02 Nov 2022 07:16:13 -0000
+Message-Id: <166737337357.20164.15155934061312513326@gitolite.kernel.org>
 
---===============5543466157531435608==
+--===============2833533563635729646==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/tty
+repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-testing
-    old: 30a0b95b1335e12efef89dd78518ed3e4a71a763
-    new: 72da688b457d738b943016dabc603efb1be5f4e1
+  - ref: refs/heads/staging-testing
+    old: ae85931f8f483ed58f7c90c99c75afd8482e0399
+    new: aa69ca7d6d6cd2ed2209b4b6c102f2fec3e97012
     log: |
-         d780a47c2de9a761bb3d754a24e76495b3f0d55f serial: sifive: select by default if SOC_SIFIVE
-         f58a16043a2154661aafe8287cea24e6ae51a9d9 serial: sifive: select by default if SOC_CANAAN
-         72da688b457d738b943016dabc603efb1be5f4e1 tty: evh_bytechan: Replace NO_IRQ by 0
+         e5c3ddd394a409021377b5454a5bd1efa1ba8447 staging: r8188eu: use ether_addr_equal for address comparison
+         97cc476fc6fbfabb989d508df09208c4a598e149 staging: r8188eu: use hdr->frame_control instead of fc
+         aa69ca7d6d6cd2ed2209b4b6c102f2fec3e97012 staging: r8188eu: use ieee80211_get_SA
          
 
---===============5543466157531435608==
+--===============2833533563635729646==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1667373355 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1667373295-8e7e322d5dfa4abc12a0eb9284aaa638666c6422
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1667373430 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
+nonce 1667373370-c8ed50ed4ae6471ec7b3c5af53f7a90b0dd79548
 
-30a0b95b1335e12efef89dd78518ed3e4a71a763 72da688b457d738b943016dabc603efb1be5f4e1 refs/heads/tty-testing
+ae85931f8f483ed58f7c90c99c75afd8482e0399 aa69ca7d6d6cd2ed2209b4b6c102f2fec3e97012 refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmNiGSsbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+SeAP/2OkRvL6MclLIg3Gz9EE
-DzJceHn6FqLFrLe9jqc4e+HQxBhPllXapGqBz3PTu21i+EQNoRO7cHy9pWzFS/30
-EMjabFegL0PwiUYunqU/Gey7gySXRuf6Iypk+E7H7IMs9KFHbTvIX0nc5UPSJVeg
-6kguSS4WmxP/srsIXfhx/nyuv5Kw2pZvCZtSHCOZ82rHesJNwr6EjqidB/eIvxVW
-A5cZh+cx5Mp0t/jGoTxpuLf+5E+N/DUcq9N8pvMqQEcfVlcBE+gFAKz3X8JRu33o
-XXvvgUNgFDn7D328WrvOR+7asiFOsx8hRe+iDEtRZptd/96L6eueNZCU58OZYXWB
-rKwzxX/K84+2OYCTMM3EXdn1K5T35Ayt5QHiMwnyjpKnS9EH1mATNCLO2ypOlgZ4
-L4EPIJeefkn54k203E6E4fenpgjKHF/Tg1yihc0FsY/3vclo70iSVF79cHRCgULD
-v/aq27ksMs7tZcg0McEWMq3K1N7XvitjHwnwUSqGXuxm1RBES+62lG75S0p7Yxeq
-nGNLZFF1EHInKwDFKnnQfy7mgApH+vj9R5oDMud71n/11d21kloII8mvAU85Kw1G
-MSdPDS6a1urbBmXDZSGjB2mPT3qfERoi4RxP/oMvESjZLdaJnI6DERhs5WjOa+iP
-fNNZ7IRJyfIC7bJB7Cwbp9+X
-=sukR
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmNiGXYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk++yAQAImwOhjBH5NQOvVhoHz3
+wH2E3xMV4OFb9pluW3xX4aaho1HyGWOxllVjeaYwl1z4CShF0mjrcrO9+keTWfOI
+LtYdbbKgq7pbgnRGqqzCsrpO67/fhoWefYryfqOYpuEIxutDXJFy7M8UOFY2QsTy
+E96yhnEXs3dGGY69OyP27EZH8po9yT7MKZqysRL0GJS5vS8yRVQvbijbGGWt1PUJ
+/l/u52wfXfRFWI2LLddtkO8FwbUTR3IqWYg/afQX9/BuY+r7cz9TYI+HRpAXxFbX
+Gcm4JqRkNZOsaZWTMCCDuVyHqKwe+Cu3YZdREq52GquW/IcZlNJxByI92c7lhFaw
+GovBqzDY2h5Xufv20k7RhGV6B1WNDAb5e0Sw5N/rnBlbu6Kgrxx3+d1+XcK+JbmC
+QH2eEgy+ycoDS4sn0fG5WKHYqUNq/r+CdsVBhA0DXjHNtjR5D5/sa50lhwo9VGsz
+LlXv4xrKchOOwEvFRv55ldLq7xx0uaH+X5dqY85uAx/n+pKeCmMMeg7rfg4CfbUp
+a7pdSbAnDjIyeejTfkQe/3c8QQVWwOW43haDWJe96khXvzm/A9hs5+o892cGD4Na
+TyEBH70PLoYgE/O5zGkTkdG5pRZOYLaGO0VJjwQ8/c5vhZdtvC/rfH+rUrUXNRjP
+Zesqj+ytUYpdfGcclxwGewHs
+=CsV/
 -----END PGP SIGNATURE-----
 
---===============5543466157531435608==--
+--===============2833533563635729646==--
