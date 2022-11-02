@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0694868044694948820=="
+Content-Type: multipart/mixed; boundary="===============4355993374226462464=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Wed, 02 Nov 2022 22:30:58 -0000
-Message-Id: <166742825882.13426.7724393202674131997@gitolite.kernel.org>
+Date: Wed, 02 Nov 2022 22:31:15 -0000
+Message-Id: <166742827564.13588.2139374143798885211@gitolite.kernel.org>
 
---===============0694868044694948820==
+--===============4355993374226462464==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: dborkman
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: 3a07dcf8f57b9a90b1c07df3e9091fd04baa3036
     new: b54a0d4094f5c94eda1cafad44323306afe8f807
     log: revlist-3a07dcf8f57b-b54a0d4094f5.txt
 
---===============0694868044694948820==
+--===============4355993374226462464==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ f9edd82774c0c8dde1ce26637a9e29f9bba92fef dt-bindings: net: renesas: Document Ren
 ef2dd61af7366e5a42e828fff04932e32eb0eacc Merge branch 'renesas-eswitch'
 b54a0d4094f5c94eda1cafad44323306afe8f807 Merge tag 'for-netdev' of https://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf-next
 
---===============0694868044694948820==--
+--===============4355993374226462464==--
