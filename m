@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ogabbay/accel
-Date: Wed, 02 Nov 2022 20:08:12 -0000
-Message-Id: <166741969285.7390.16936743027817198735@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/tuna/tuna
+Date: Wed, 02 Nov 2022 20:18:39 -0000
+Message-Id: <166742031930.14120.18208902387553819396@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ogabbay/accel
-user: ogabbay
+repo: pub/scm/utils/tuna/tuna
+user: jkacur
 changes:
-  - ref: refs/heads/accel_v2
-    old: 0f16e827e91da17a750013692ed1ccab900ab6fd
-    new: 7a37425bbba700d5e51d60b24f7111d46f397cad
+  - ref: refs/heads/main
+    old: bef2c2009ed5151cf7ae4bf258a908c9f577ca7d
+    new: 5ae32c2f62d5dc043b4e717de9184351a924716d
     log: |
-         c1346b56d02a856a4e41e4f4c2725e6ae92ca155 drivers/accel: define kconfig and register a new major
-         8487154169febed81bffcb5634c2060cfd576abf accel: add dedicated minor for accelerator devices
-         333bd190581fe3bc8291ebe799699d593ffcfc80 drm: initialize accel framework
-         7a37425bbba700d5e51d60b24f7111d46f397cad accel: add accel dummy driver
+         5ae32c2f62d5dc043b4e717de9184351a924716d tuna: Update manpages for argparse CLI changes
          
