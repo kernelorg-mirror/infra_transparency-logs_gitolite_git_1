@@ -1,22 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 02 Nov 2022 12:33:32 -0000
-Message-Id: <166739241273.1514.5842007456874680580@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Wed, 02 Nov 2022 12:37:48 -0000
+Message-Id: <166739266834.4638.17358705950157536042@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: davem
 changes:
   - ref: refs/heads/master
-    old: 2e0de6366ac16ab4d0abb2aaddbc8a1eba216d11
-    new: d312bad437442edb736795625c1f92f99a3d6132
+    old: e97c089d7a49f67027395ddf70bf327eeac2611e
+    new: ba9169f57090efdee6b13601fced57e123db8777
     log: |
-         1efa9bfe58c595149ef1d5a7c23ad406d713b158 net: libwx: Implement interaction with firmware
-         049fe5365324c879f26842d44291a5042bbd6cbc net: txgbe: Add operations to interact with firmware
-         02338c484ab6250b81f0266ffb40d53c3efe0f47 net: ngbe: Initialize sw info and register netdev
-         d312bad437442edb736795625c1f92f99a3d6132 Merge branch 'txgbe'
+         e7d1d4d9ac0dfa40be4c2c8abd0731659869b297 mISDN: fix possible memory leak in mISDN_register_device()
+         bf00f5426074249058a106a6edbb89e4b25a4d79 isdn: mISDN: netjet: fix wrong check of device registration
+         ba9169f57090efdee6b13601fced57e123db8777 Merge branch 'misdn-fixes'
          
