@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/mm
-Date: Wed, 02 Nov 2022 00:27:31 -0000
-Message-Id: <166734885117.14404.6696472943721500207@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/joel/bmc
+Date: Wed, 02 Nov 2022 00:37:46 -0000
+Message-Id: <166734946625.21148.9838411259978406400@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/mm
-user: akpm
+repo: pub/scm/linux/kernel/git/joel/bmc
+user: joel
 changes:
-  - ref: refs/tags/mm-everything-2022-11-02-00-26
-    old: 0000000000000000000000000000000000000000
-    new: 6ecf040358ccd1cf9b4755a12f1e0cf67f3111d5
+  - ref: refs/heads/for-next
+    old: 4c47d84685886a2651529689321626f58fd708f8
+    new: c55510b16defa64eac319a6f6c5d4ab4a05a9ffd
+    log: |
+         c55510b16defa64eac319a6f6c5d4ab4a05a9ffd ARM: dts: aspeed: p10bmc: Add occ-hwmon nodes
+         
