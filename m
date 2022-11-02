@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/tuna/tuna
-Date: Wed, 02 Nov 2022 15:05:43 -0000
-Message-Id: <166740154386.17628.8147386045596861584@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/deller/parisc-linux
+Date: Wed, 02 Nov 2022 15:06:15 -0000
+Message-Id: <166740157534.17879.8935139874418786063@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/tuna/tuna
-user: jkacur
+repo: pub/scm/linux/kernel/git/deller/parisc-linux
+user: deller
 changes:
-  - ref: refs/heads/getopt
-    old: f53f77f73199f398713f8edfdfa417cf8b9e1a74
-    new: e9f60274865475c4e9081ee356ffbc61d1df2ade
-    log: |
-         e9f60274865475c4e9081ee356ffbc61d1df2ade tuna: tuna-cmd.py use fstrings
-         
+  - ref: refs/tags/parisc-for-6.1-2
+    old: 0000000000000000000000000000000000000000
+    new: 1b09476a2b91f47cd64a01b521ce2c6c5dcfae8a
