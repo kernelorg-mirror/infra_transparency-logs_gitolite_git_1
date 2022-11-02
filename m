@@ -1,16 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Tue, 01 Nov 2022 23:39:29 -0000
-Message-Id: <166734596962.11927.14951215580858411@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/joel/bmc
+Date: Wed, 02 Nov 2022 00:03:48 -0000
+Message-Id: <166734742890.29468.8710389139646097995@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: dborkman
+repo: pub/scm/linux/kernel/git/joel/bmc
+user: joel
 changes:
-  - ref: refs/tags/for-netdev
-    old: 0000000000000000000000000000000000000000
-    new: b012693541e8cadf478e00f543a0597d717c9d87
+  - ref: refs/heads/for-next
+    old: 20ebe0f420d6480b4a766a52e108512dcc19ab51
+    new: 4c47d84685886a2651529689321626f58fd708f8
+    log: |
+         bb83fb2ef668a8fbf19306bb842fbb7bcde5d409 ARM: dts: aspeed: Remove Mihawk
+         4c47d84685886a2651529689321626f58fd708f8 ARM: dts: aspeed-g6: add aliases for mdio nodes
+         
