@@ -1,175 +1,214 @@
-Content-Type: multipart/mixed; boundary="===============4298839806272157068=="
+Content-Type: multipart/mixed; boundary="===============6384337710486946150=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netfilter/nf
-Date: Wed, 02 Nov 2022 09:14:55 -0000
-Message-Id: <166738049579.6589.2493871589114180702@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ogabbay/accel
+Date: Wed, 02 Nov 2022 09:16:25 -0000
+Message-Id: <166738058510.8764.5907671356102040385@gitolite.kernel.org>
 
---===============4298839806272157068==
+--===============6384337710486946150==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netfilter/nf
-user: pablo
+repo: pub/scm/linux/kernel/git/ogabbay/accel
+user: ogabbay
 changes:
-  - ref: refs/heads/master
-    old: 88619e77b33d5718fae3c13d29f94b2646facfcd
-    new: 5663ed63adb9619c98ab7479aa4606fa9b7a548c
-    log: revlist-88619e77b33d-5663ed63adb9.txt
-  - ref: refs/heads/syzbot
-    old: 26b5934ff4194e13196bedcba373cd4915071d0e
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/accel_v2
+    old: 4c872e46323311a627463d9f2a71c476ddc4303d
+    new: edb34cf73a826bb80361959a9d1c814f301f2751
+    log: revlist-4c872e463233-edb34cf73a82.txt
 
---===============4298839806272157068==
+--===============6384337710486946150==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-88619e77b33d-5663ed63adb9.txt
+Content-Disposition: attachment; filename=revlist-4c872e463233-edb34cf73a82.txt
 
-8777dd9dff4020bba66654ec92e4b0ab6367ad30 spi: tegra210-quad: Fix combined sequence
-033d2d13a25113b6ffd24d72490f0e363dd3eb4c spi: spi-gxp: fix typo in SPDX identifier line
-b994d8f0773cf3b01129c094d00050710f2c422b spi: spi-mem: Fix typo (of -> or)
-b25fe93ff705cdd8e98ad8d0435c621ea5462c82 spi: mpc52xx: Replace NO_IRQ by 0
-5302e1ff315b40dfc9bb3f08911f5a788cc1de01 spi: aspeed: Fix typo in mode_bits field for AST2600 platform
-6a43cd02ddbc597dc9a1f82c1e433f871a2f6f06 spi: intel: Fix the offset to get the 64K erase opcode
-b40af6183b685b0cf7870987b858de0d48db9ea0 spi: qup: support using GPIO as chip select line
-63d1dfd067f07c11eafe05ebadc5896491416f86 ARC: Fix comment typo
-6e32c89c0f67b481ec17de69e556907d6445f91e ARC: Fix comment typo
-a1db7ad3120e787350c83712c6b1087c7894c6a4 ARC: bitops: Change __fls to return unsigned long
-c8f878582838f57bc0984f47da2a8d275731240f arc: dts: Harmonize EHCI/OHCI DT nodes name
-c44f15c1c09481d50fd33478ebb5b8284f8f5edb arc: iounmap() arg is volatile
-2df1f4a77bc0e94e1a0cc7485d09a26855461dd6 arc: update config files
-4fd9df10cb7a9289fbd22d669f9f98164d95a1ce ARC: mm: fix leakage of memory allocated for PTE
-f8aa6c895d482847c9b799dcdac8bbdb56cb8e04 spi: aspeed: Fix window offset of CE1
-ccd30a476f8e864732de220bd50e6f372f5ebcab fscrypt: fix keyring memory leak on mount failure
-36abde8d24ad740371422a7678ca92b06cc8a3d5 platform/x86: asus-wmi: Add support for ROG X16 tablet mode
-a10d50983f7befe85acf95ea7dbf6ba9187c2d70 platform/x86: thinkpad_acpi: Fix reporting a non present second fan on some models
-0b6e6e149c136677f1cc859d4185b5a2db50ffbf platform/x86/amd: pmc: Read SMU version during suspend on Cezanne systems
-ee24395f91b9cddccae5f6c11c37ee4ed78ff354 leds: simatic-ipc-leds-gpio: fix incorrect LED to GPIO mapping
-555a68dd681b7437a2708001d465c85f6dfa6955 platform/x86/intel: pmc/core: Add Raptor Lake support to pmc core driver
-e9cf4d9b9a6fdb1df6401a59f5ac5d24006bfeae ACPI: video: Fix missing native backlight on Chromebooks
-a970174d7a1010cb29a5b0c9fa0626abdefcfcbe x86/mm: Do not verify W^X at boot up
-3e5b3418827cefb5e1cc658806f02965791b8f07 can: mscan: mpc5xxx: mpc5xxx_can_probe(): add missing put_clock() in error path
-b1a09b63684cea56774786ca14c13b7041ffee63 can: mcp251x: mcp251x_can_probe(): add missing unregister_candev() in error path
-1a2dcbdde82e3a5f1db9b2f4c48aa1aeba534fb2 scsi: mpt3sas: re-do lost mpt3sas DMA mask fix
-f8bcaf714abfc94818dff8c0db84d750433984f4 media: vivid: s_fbuf: add more sanity checks
-1f65ea411cc7b6ff128d82a3493d7b5648054e6f media: vivid: dev->bitmap_cap wasn't freed in all cases
-4b6d66a45ed34a15721cb9e11492fa1a24bc83df media: v4l2-dv-timings: add sanity checks for blanking values
-8da7f0976b9071b528c545008de9d10cc81883b1 media: videodev2.h: V4L2_DV_BT_BLANKING_HEIGHT should check 'interlaced'
-eb1d969203eb8212741751f88dcf5cb56bb11830 media: vivid: fix control handler mutex deadlock
-957148e22870e4021082dddd12f8619a49d9bb50 media: vivid: drop GFP_DMA32
-69d78a80da4ef12faf2a6f9cfa2097ab4ac43983 media: vivid: set num_in/outputs to 0 if not supported
-de547896aac606a00435a219757a940ece142bf0 media: vivid.rst: loop_video is set on the capture devnode
-4dc12f37a8e98e1dca5521c14625c869537b50b6 Merge tag 'platform-drivers-x86-v6.1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-88864611940ae7dd5a9d40667287c4c9fa455140 tools headers UAPI: Sync powerpc syscall tables with the kernel sources
-231e61bc2e87486270686f7bc3c43c4fb3b0e0b9 perf docs: Fix man page build wrt perf-arm-coresight.txt
-b92dd11725a7c57f55e148c7d3ce58a86f480575 perf vendor events power10: Fix hv-24x7 metric events
-409fb6bdd6eaf64c2da174b48b30ae032a9d7554 perf bpf: Fix build with libbpf 0.7.0 by adding prototype for bpf_load_program()
-f1bdebbb67bd21d7c5dfc42f313f2f54002440b8 perf bpf: Fix build with libbpf 0.7.0 by checking if bpf_program__set_insns() is available
-304f0a2f6a6d9336fb5e474d7f62b8677d5ee167 perf record: Fix event fd races
-5a6c184a72a375072cffe788d93ad6052c48f16b perf list: Fix PMU name pai_crypto in perf list on s390
-246122a856faddd87df3063c0dd38a62b40ceeab perf test: Do not fail Intel-PT misc test w/o libpython
-ffc1df3dc97ee2aad6d2a94e4615c2a96cf291ad tools headers arm64: Sync arm64's cputype.h with the kernel sources
-4402e360d0f833c8c67b2fda0d3f612f4fd8b2cc tools headers: Update the copy of x86's memcpy_64.S used in 'perf bench'
-036b8f5b8970e387eb3224eda45348de39135177 tools headers uapi: Update linux/in.h copy
-82c50d8937f32f911a41739f7a51934a9ea8b92a tools include UAPI: Sync sound/asound.h copy with the kernel sources
-49c75d30b0078d304bc0ae41026e629b23f6711e tools headers uapi: Sync linux/stat.h with the kernel sources
-74455fd7e459566198c8f1b2b33ca43a0c3ee8cb tools headers cpufeatures: Sync with the kernel sources
-31970608a6d3796c3adbfbfd379fa3092de65c5d overflow: Fix kern-doc markup for functions
-0e5b9f25b27a7a92880f88f5dba3edf726ec5f61 overflow: disable failing tests for older clang versions
-72c3ebea375c39413d02113758319b74ecd790bd overflow: Refactor test skips for Clang-specific issues
-5bf2fedca8f59379025b0d52f917b9ddb9bfe17e exec: Copy oldsighand->action under spin-lock
-594d2a14f2168c09b13b114c3d457aa939403e52 fs/binfmt_elf: Fix memory leak in load_elf_binary()
-d89d7ff01235f218dad37de84457717f699dee79 ipv6: ensure sane device mtu in tunnels
-54b5af5a438076082d482cab105b1bd484ab5074 i40e: Fix ethtool rx-flow-hash setting for X722
-52424f974bc53c26ba3f00300a00e9de9afcd972 i40e: Fix VF hang when reset is triggered on another VF
-3b32c9932853e11d71f9db012d69e92e4669ba23 i40e: Fix flow-type by setting GL_HASH_INSET registers
-5da6d65590a0698199df44d095e54b0ed1708178 net: ksz884x: fix missing pci_disable_device() on error in pcidev_init()
-f23a566bbfc0896c97b1949216eb87fcdcb154bb net: ipa: fix v3.5.1 resource limit max values
-05a31b94af3226ee47dcb6802229a7a576105d47 net: ipa: fix v3.1 resource limit masks
-95a0396a0642d3c28b6cefdc76697e0b8f594825 net: ipa: don't configure IDLE_INDICATION on v3.1
-c5f0a17288740573f4de72965c5294a60244c5fc rhashtable: make test actually random
-831c05a7621b96944b0b4dbede57ed7cf0578f1c tools headers UAPI: Sync linux/perf_event.h with the kernel sources
-cba04f3136b658583adb191556f99d087589c1cc perf auxtrace: Fix address filter symbol name match for modules
-e9229d5b6254a75291536f582652c599957344d2 perf vendor events arm64: Fix incorrect Hisi hip08 L3 metrics
-98555239e4c3aab1810d84073166eef6d54eeb3d Merge tag 'arc-6.1-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vgupta/arc
-a2718383ef9d9dcba90212531909aa4c8ab31c0c Merge tag 'spi-fix-v6.1-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
-b229b6ca5abbd63ff40c1396095b1b36b18139c3 Merge tag 'perf-tools-fixes-for-v6.1-2022-10-26' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
-8b9d377afaed8ef8f4c85432e916930279ac1871 Merge tag 'linux-can-fixes-for-6.1-20221025' of git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can
-0a8b43b12dd78daa77a7dc007b92770d262a2714 net: fec: limit register access on i.MX6UL
-e2badb4bd33abe13ddc35975bd7f7f8693955a4b net: ethernet: ave: Fix MAC to be in charge of PHY PM
-2871edb32f4622c3a25ce4b3977bad9050b91974 can: kvaser_usb: Fix possible completions during init_completion
-702de2c21eed04c67cefaaedc248ef16e5f6b293 can: rcar_canfd: rcar_canfd_handle_global_receive(): fix IRQ storm on global FIFO receive
-d887087c896881715c1a82f1d4f71fbfe5344ffd can: rcar_canfd: fix channel specific IRQ handling for RZ/G2L
-fd0c3b763afd44454301c4c6cbe744dac69227ca Merge patch series "R-Car CAN-FD fixes"
-fd954cc1919e35cb92f78671cab6e42d661945a3 openvswitch: switch from WARN to pr_warn
-25f16c873fb1aa8ba870319c9614f7ff7502d35b selftests: add openvswitch selftest suite
-89049273122e7ac92de0f3abfebb5cdb9d874431 Merge branch 'openvswitch-syzbot-splat-fix-and-introduce-selftest'
-0e7ce23a917a9cc83ca3c779fbba836bca3bcf1e net: ehea: fix possible memory leak in ehea_register_port()
-c3c06c61890da80494bb196f75d89b791adda87f can: j1939: transport: j1939_session_skb_drop_old(): spin_unlock_irqrestore() before kfree_skb()
-9f172134dde7e4f5bf4b9139f23a1e741ec1c36e net: bcmsysport: Indicate MAC is in charge of PHY PM
-ce48ebdd56513fa5ad9dab683a96399e00dbf464 genetlink: limit the use of validation workarounds to old ops
-745b913a59947919454658dd44cddf5ee8d8f899 Revert "ip: fix triggering of 'icmp redirect'"
-e021c329ee198f1cd0cb3855f221137dda49256a Revert "ip: fix dflt addr selection for connected nexthop"
-bac0f937c343d651874f83b265ca8f5070ed4f06 nh: fix scope used to find saddr when adding non gw nh
-bc520f5e251e5b3ddc3a1b728f00732d720011e2 Merge branch 'ip-rework-the-fix-for-dflt-addr-selection-for-connected-nexthop'
-ef3556ee16c68735ec69bd08df41d1cd83b14ad3 net: broadcom: bcm4908_enet: update TX stats after actual transmission
-de90869a1b8bfe4326077feaef7473add95e0446 Merge tag 'linux-can-fixes-for-6.1-20221027' of git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can
-cf2010aa1c739bab067cbc90b690d28eaa0b47da netdevsim: fix memory leak in nsim_bus_dev_new()
-6b1da9f7126f05e857da6db24c6a04aa7974d644 netdevsim: fix memory leak in nsim_drv_probe() when nsim_dev_resources_register() failed
-a6aa8d0ce2cfba57ac0f23293fcb3be0b9f53fba netdevsim: remove dir in nsim_dev_debugfs_init() when creating ports dir failed
-9ddcead06de0ebec100f7c421735ac814d09a23a Merge branch 'fix-some-issues-in-netdevsim-driver'
-888be6b279b7257b5f6e4c9527675bff0a335596 net/mlx5e: Do not increment ESN when updating IPsec ESN state
-212b4d7251c169f87fa734e79bdec8dd413be5cf net/mlx5: Wait for firmware to enable CRS before pci_restore_state
-4ea9891d66410da5030dababb4b825d8e41cd7bb net/mlx5: DR, Fix matcher disconnect error flow
-19b43a432e3e47db656a8269a74b50aef826950c net/mlx5e: Extend SKB room check to include PTP-SQ
-8dc47c0527c1586e3ebe0efd323f1d8abb181c77 net/mlx5e: Update restore chain id for slow path packets
-0f3caaa2c6fbf9f892bd235c9dce9eb551f8d815 net/mlx5: ASO, Create the ASO SQ with the correct timestamp format
-bacd22df95147ed673bec4692ab2d4d585935241 net/mlx5: Fix possible use-after-free in async command interface
-f382a2413dae8c855226a72600812a4b37432c48 net/mlx5e: TC, Reject forwarding from internal port to internal port
-94d651739e17b0ee9b556e60f206fe538d06dc05 net/mlx5e: TC, Fix cloned flow attr instance dests are not zeroed
-416ef713631937cf5452476a7f1041a3ae7b06c6 net/mlx5: Update fw fatal reporter state on PCI handlers successful recover
-aefb62a9988749703435e941704624949a80a2a9 net/mlx5: Fix crash during sync firmware reset
-d3ecf037569c64490a5cae5a1ac4605f4bedc607 net/mlx5e: Fix macsec coverity issue at rx sa update
-74573e38e933a6dbb11691bea535c54d683cd06e net/mlx5e: Fix macsec rx security association (SA) update/delete
-d550956458a83cf87cb8fe24862f3340065c62c1 net/mlx5e: Fix wrong bitwise comparison usage in macsec_fs_rx_add_rule function
-12ba40ba3dc3a28ad579b7de2202ab6419da304a net/mlx5e: Fix macsec sci endianness at rx sa update
-228ebc41dfab5b5d34cd76835ddb0ca8ee12f513 net: do not sense pfmemalloc status in skb_append_pagefrags()
-ee15e1f38dc201fa7d63c13aa258b728dce27f4d kcm: do not sense pfmemalloc status in kcm_sendpage()
-84ce1ca3fe9e1249bf21176ff162200f1c4e5ed1 net: enetc: survive memory pressure without crashing
-200204f56f3b5a464c719ddb930a1a2557562dda Merge tag 'fscrypt-for-linus' of git://git.kernel.org/pub/scm/fs/fscrypt/fscrypt
-7f9a7cd690c7d59cde03027aee9bebd83b4a9dc6 Merge tag 'media/v6.1-3' of git://git.kernel.org/pub/scm/linux/kernel/git/mchehab/linux-media
-2eb72d85acf3357e6d7c88febcc0ad553805364b Merge tag 'hardening-v6.1-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
-7dd257d02eb31391c3cf06874412322c0943b67d Merge tag 'execve-v6.1-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
-23758867219c8d84c8363316e6dd2f9fd7ae3049 Merge tag 'net-6.1-rc3-2' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
-633efc8b3dc96f56f5a57f2a49764853a2fa3f50 net: dsa: Fix possible memory leaks in dsa_loop_init()
-8fdf3f6aba7cfa0c0e2bf66ecca7bb5783acd0d6 net: emaclite: update reset_lock member documentation
-7354c9024f2835f6122ed9612e21ab379df050f9 netlink: hide validation union fields from kdoc
-e4ba4554209f626c52e2e57f26cba49a62663c8b net: openvswitch: add missing .resv_start_op
-1208b93dd901bafe2526fa9db005bbc30e7ae83a enic: MAINTAINERS: Update enic maintainers
-8f279fb00bb29def9ac79e28c5d6d8e07d21f3fb udp: advertise ipv6 udp support for msghdr::ubuf_info
-fee9ac06647e59a69fb7aec58f25267c134264b4 net: remove SOCK_SUPPORT_ZC from sockmap
-e276d62dcfdee6582486e8b8344dd869518e14be net/ulp: remove SOCK_SUPPORT_ZC from tls sockets
-71b7786ea478f3c4611deff4d2b9676b0c17c56b net: also flag accepted sockets supporting msghdr originated zerocopy
-9201f60a1983c049319eff89081453ad32571a39 Merge branch 'a-few-corrections-for-sock_support_zc'
-21ce2c121fa07b00b0906bd781590ea362e82ea2 net: ethernet: adi: adin1110: Fix notifiers
-a2c65a9d0568b6737c02b54f00b80716a53fac61 net: dsa: fall back to default tagger if we can't load the one from DT
-8e4aae6b8ca76afb1fb64dcb24be44ba814e7f8a nfc: fdp: Fix potential memory leak in fdp_nci_send()
-7bf1ed6aff0f70434bd0cdd45495e83f1dffb551 nfc: nxp-nci: Fix potential memory leak in nxp_nci_send()
-3a146b7e3099dc7cf3114f627d9b79291e2d2203 nfc: s3fwrn5: Fix potential memory leak in s3fwrn5_nci_send()
-93d904a734a74c54d945a9884b4962977f1176cd nfc: nfcmrvl: Fix potential memory leak in nfcmrvl_i2c_nci_send()
-5715a502447b07f067ee5af36465c7c2b813ff38 Merge branch 'nfc-skb-leaks'
-06a4df5863f73af193a4ff7abf7cb04058584f06 net: fec: fix improper use of NETDEV_TX_BUSY
-8bdc2acd420c6f3dd1f1c78750ec989f02a1e2b9 net: sched: Fix use after free in red_enqueue()
-e230d36f7d4cf1b89614e2bb4c2f0c55a16d3259 ibmvnic: change maintainers for vnic driver
-363a5328f4b0517e59572118ccfb7c626d81dca9 net: tun: fix bugs for oversize packet when napi frags enabled
-d4bc8271db21ea9f1c86a1ca4d64999f184d4aae netfilter: nf_tables: netlink notifier might race to release objects
-26b5934ff4194e13196bedcba373cd4915071d0e netfilter: nf_tables: release flow rule object from commit path
-5c26159c97b324dc5174a5713eafb8c855cf8106 ipvs: use explicitly signed chars
-3d00c6a0da8ddcf75213e004765e4a42acc71d5d ipvs: fix WARNING in __ip_vs_cleanup_batch()
-5663ed63adb9619c98ab7479aa4606fa9b7a548c ipvs: fix WARNING in ip_vs_app_net_cleanup()
+1bed8b07342069ebfbab6794e5ce3084c3eb9bc8 drm/i915/hotplug: move hotplug storm debugfs to intel_hotplug.c
+dd890d428fe157f661e19e17c12349c785a97d4b drm/i915/hotplug: refactor hotplug init slightly
+48176104003058e2ba540fd815ec46c350d65926 drm/i915/display: remove ipc_enabled from struct drm_i915_private
+429a09553559297cc4e021fff2253f4035d3be2e drm/i915: WARN if a port should use VBT provided vswing tables
+bff0d857053bdacbde1e0deea3b468de3a2b7234 drm/i915/fbc: Move flip_pending assignmnt
+9045c0529c40c1a9227d58cfb494033c82274a7d drm/i915/fbc: Use lockdep_assert_held()
+559f701db082a26f057463e14480cdf3306b1d91 drm/i915: Nuke stale plane cdclk ratio FIXMEs
+958349ff710b79d85f35be73d1b09991f67b3423 drm/i915/fbc: Remove stale FIXME
+c2c7075225ef7366a1ccc1cf4b7205c391ec7c9b drm/i915: Read graphics/media/display arch version from hw
+944ca7d8b12f9ed4abaa4e63223b62bd9b653b5c drm/i915: Parse and set stepping for platforms with GMD
+8146d588bfc822b5377dfc0a227af77a57f7177f drm/i915: Remove unused function parameter
+71690148dbcf2331a54e40da26970402bd07a527 drm/i915: Move hotplug inversion logic into separate helper
+60c0df33da03c5aebcc5fb46363a1b58c784570e drm/i915: Drop pointless middle man variable
+6a08cbda458e824ac824dddc6a07ed50efd0af70 drm/i915: Clean up transcoder_to_stream_enc_status()
+10c8cbeebd81d2e01437d59a4e47dc3de5925113 drm/i915: Drop pointless 'budget' variable
+49fd54034a523a9241cd73cda6da485112bf4414 drm/i915: Use BIT() when dealing with output types
+5e800d92313497a5a9fc7053890e870888181192 drm/i915: Pass intel_encoder to to_lvds_encoder()
+6f7dd8e7d9f6039aa5c286726a941cf5344a784d drm/i915: Extract intel_edp_backlight_setup()
+d7e4a2574520950613d29370ddd41c54a041589a drm/i915: Extract intel_tv_add_properties()
+9c7183a326521769bbddf155ea8f16aa9473de0c drm/i915: Extract intel_dp_mst_add_properties()
+2f0f603a377237c9359d96184e2a6d8ae8299c9f drm/i915: Extract intel_lvds_add_properties()
+ab6214f3c3dbabdb4409e84fe7c1c43cb79c6c56 drm/i915: Move eDP scaling_mode prop setup to the proper place
+6ac2f04ba1c4a81ff1e205625eaeae1ead152720 drm/i915: Extract intel_attach_scaling_mode_property()
+8648c6048d4dc4d9294b7e7617c220bf446be0e7 drm/i915: Clean up connector->*_allowed setup
+bde544e1d7017f3169b4d97b2e19c2d28066d87c drm/i915: Don't init eDP if we can't find a fixed mode
+543ba9d6873b47982aa32c88a18177427e51ae25 drm/i915: Split g4x_compute_pipe_wm() into two
+ed57cfd9d54a772a1b60de6dd9f4e90fdba72a4a drm/i915: Split vlv_compute_pipe_wm() into two
+6340120014e8a82263f38c724ea8f3611cc0d074 drm/i915: Simplify up g4x watermark sanitation
+59f13af3b645e647247de14cc06f0d04c5cc24ae drm/i915: Simplify up vlv watermark sanitation
+2d28094b26be804369fcf92315123ff07f3d4e0e drm/i915: Add missing invalidate to g4x wm readout
+86570b7b126bd516aba770d1fc4c971c55c66dca drm/i915: fix device info for devices without display
+eddb4afcb6c533d3f75f5f1a77e292fece27570e drm/i915: Force DPLL calculation for TC ports after readout
+fea1beb60db55abc05b2def917bff8e40825d3ed drm/i915: Don't bail early from intel_dp_initial_fastset_check()
+aa07d34d9f2fba6cad41c85ead441dde27882fd5 drm/i915: Pimp DPLL ref/unref debugs
+073a12f45fb8e3b21c9e08c36a2528d9f9e38d83 drm/i915: WARN if PLL ref/unref got messed up
+8a549e8d19f401a717f72cc035f5df6b4d128564 drm/i915: Always initialize dpll.lock
+e731a2d2fa13eaa584f4730d619e8e89061e4f6e drm/i915: Nuke intel_get_shared_dpll_id()
+a82796a2e332d108b2d3aff38509caad370f69b5 drm/i915: Fix TypeC mode initialization during system resume
+86b972ef1091882d66672399c6f8ebdd12a3b707 drm/i915: Round to closest in g4x+ HDMI clock readout
+abf46db341bd87261d0b3128bac9bdc204570284 drm/i915/pxp: Add firmware status when ARB session fails
+eb89e83c152b122a94e79527d63cb7c79823c37e drm/i915: Simplify intel_panel_add_edid_alt_fixed_modes()
+55cfeecc2197de68e9cc30f77c711dcbcdf27510 drm/i915: Allow alternate fixed modes always for eDP
+3dbf20e483cf3f31e287ad3152ffadd15a482e4f drm/i915: Allow alternate fixed modes always for LVDS
+319b0869f51c16034c48627d77ec62fc3b9dccfe drm/i915: Remove PLL asserts from .load_luts()
+064751a6c5dc719d28a490268f140d4d9cf379d4 drm/i915: Split up intel_color_init()
+2a40e5848a9526c3ad5d35e1aab4c04df117693b drm/i915: Simplify the intel_color_init_hooks() if ladder
+7671fc6265266abcbefcef4527ded35b48ba07ea drm/i915: Clean up intel_color_init_hooks()
+296cd8ecfd305dae76722bb683943cdfefe7f4d3 drm/i915: Change glk_load_degamma_lut() calling convention
+0c31611437b7155f115919a24f31673ffe94deee drm/i915: Add some debug prints for intel_modeset_all_pipes()
+8da8e32e0b095613af2c2ce4b322240269164a8e drm/i915/psr: Fix PSR_IMR/IIR field handling
+a89a96a586114f67598c6391c75678b4dba5c2da drm/i915: Fix watermark calculations for gen12+ RC CCS modifier
+91c9651425fe955b1387f3637607dda005f3f710 drm/i915: Fix watermark calculations for gen12+ MC CCS modifier
+a627455bbe50a111475d7a42beb58fa64bd96c83 drm/i915: Fix watermark calculations for gen12+ CCS+CC modifier
+f25d9f81a8e09ace4f04106995550bae1f522143 drm/i915: Fix watermark calculations for DG2 CCS modifiers
+334810f82024815283a6e7febd3d2de1fed6c232 drm/i915: Fix watermark calculations for DG2 CCS+CC modifier
+d5c45330c8986aff945de997383e19b5b7a85b9a drm/i915: Simplify modifier lookup in watermark code
+df2f59c5857b56a5cc40b6562b032c5d8d50cdfc drm/i915: Reject excessive dotclocks early
+61564e6c5a4addf170b75415c4ac86282784a072 drm/i915: Move DRRS debugfs next to the implementation
+2e25c1fba7145f610c7e4744f3ed99ffff559152 drm/i915: Make the DRRS debugfs contents more consistent
+adc831bfc8852034d0834a5a8bf7e35e2faeb8b2 drm/i915: Make DRRS debugfs per-crtc/connector
+9519c86523ea136e981ceff30489cdb7b2ecae08 drm/i915: Fix locking in DRRS debugfs
+d1af925ba062d78580a98ed8b1a013c0ac2b54ae drm/i915: Tighten DRRS capability reporting
+22d9a2554dfa41301071c7ebb7002efa306a9290 drm/i915: Setup final panel drrs_type already during init
+47d4ae2192cb44ccf845c5cca79f9cb6d8394f09 drm/i915/mtl: Extend PSR support
+cf867d6a746c942c8ebf4aed0a28cc13ad796caa drm/i915/mtl: Add MTP ddc pin configuration
+a2b1d9ecaa755c4795a84a046b075bbf351cd6af drm/i915: Clean up some namespacing
+8c45f31c320d0a49e5cd8621db07e4b3701c52a7 drm/i915: Fix g4x/vlv/chv CxSR vs. format/tiling/rotation changes
+eadbd867177e1d72b2ff71b7ba0dffcae4dabc64 drm/i915: Fix pipe gamma enable/disable vs. CxSR on gmch platforms
+599cc77efae7e4dc5700be2f422dac331e7b4d06 drm/i915: Write watermarks for disabled pipes on gmch platforms
+f38f614fa995f9555d7238df50253d550a7b5607 drm/i915: Do the DRIVER_ATOMIC feature disable later
+bfc82b2277db8e2210aa31492998d6e806eae9e4 drm/i915: Enable atomic by default on ctg/elk
+3703060d17b0c35d8eece6c12550dba759e52c6a drm/i915/display: remove drm_device aliases
+e58c2cac2c21f2785d4ab9f4ddf6d9e7a92dd8e7 drm/i915/display: Use intel_uncore alias if defined
+06b975d58fd6105e3fad8b3a1122749f79dd7df3 drm/i915: make intel_uncore_rmw() write unconditionally
+8cee664d3eb6f80eb7ecc46b9a32214f0fe629d3 drm/i915: use proper helper for register updates
+636123a8357f465ba453480ed55fb206d9c961e7 drm/i915/display: Add DC5 counter and DMC debugfs entries for MTL
+e8162192636577dcfd87a530b7e6ab10559d6089 drm/i915: Fix simulated GPU reset wrt. encoder HW readout
+847eec69f01a28ca44f5ac7e1d71d3a60263d680 drm/i915: Extend Wa_1607297627 to Alderlake-P
+ef7e222cd68f7b7c654f23fce51e8be888a3d7ee drm/i915: Add intel_ prefix to struct ip_version
+80c1fb2ee7b88e1e03bbbd5b3e19cbae28b95dcf drm/i915: Use graphics ver, rel info for media on old platforms
+f74354670fc6dfc2ac3fcf2ec2c4e5ae9155433c drm/i915: fix clear mask in GEN7_MISCCPCTL update
+66eb93e71a7a6695b7c5eb682e3ca1c980cf9d58 drm/i915/dgfx: Keep PCI autosuspend control 'on' by default on all dGPU
+20c68127e8e9d7899001c47465d0b79581f5fdc1 drm/i915: Print return value on error
+d74c1b461f3d02fe1c3816dec7642caba2581c35 drm/plane_helper: Print actual/expected values on failure
+e9f696f88b8de4cfea8e284be91fa3ea2a631731 drm/plane_helper: Split into parameterized test cases
+47e1a59e60c688c5f95b67277202f05b7e84c189 drm/i915/dp: Reset frl trained flag before restarting FRL training
+1e3d21a5b3a4e7af3ed5fa3772c221cb8c284df5 drm/i915/dp: Remove whitespace at the end of function.
+5988a0acad32823743b1a078b60392047aae4118 drm/i915: Remove one use macro
+2bd0db4b3f0bd529f75b32538fc5a3775e3591c0 drm/i915: Allow panel fixed modes to have differing sync polarities
+4ab5953f0af77fd27895ca2e5cba7078a0f63583 drm/panel-edp: Add INX N116BGE-EA2 (HW: C2)
+3facae0649648da1da6b1c36babc9b92998face0 drm/panel-edp: Add INX N116BGE-EA2 (HW: C4)
+1beca7f1471e14802f7f6730ac9ac0a3de7c8f8b nouveau: Fix migrate_to_ram() for faulting page
+ad50295ba8ca1f3a8d24bfa72414d8402c1992ca drm/nouveau: Remove unused variable
+16d2a3f2ad1d2b95bf9122c910c63b0efe74179d nouveau/dmem: Remove duplicated include in nouveau_dmem.c
+4c35e5d1190058be31236876ae1f12681ddba137 drm/i915: Activate DRRS after state readout
+52a90349f2edb6bd7e56462a8c3416e15b8ded60 drm/i915: Introduce intel_crtc_needs_fastset()
+925ac8bc33bfe05e0bf3df3a0ff5183b00654aa0 drm/i915: Remove some local 'mode_changed' bools
+7de5b6b54630c670af6822bebe70ff7b4281dc23 drm/i915: Don't flag both full modeset and fastset at the same time
+f5e674e92e9526430e01ef996bef5b50723f59bc drm/i915: Introduce intel_crtc_needs_color_update()
+a7af4d67cf0ffd882007a16c68378ab742e9cba8 drm/vc4: Fix spelling mistake "mmaping" -> "mmapping"
+7e160d9c660f15aa3fbea160dd02c3946d356509 gpu/drm: fix repeated words in comments
+2556e1a83574f6248b70534c5d50e3ef9eaa4eb5 gpu/drm: fix repeated words in comments
+e577d4b13064c337b83fe7edecb3f34e87144821 drm/bridge: it6505: Initialize AUX channel in it6505_i2c_probe
+5827b1e1c20514fe36b2bb92fab28df088cc2499 drm/bridge: it6505: Setup links in it6505_irq_hpd
+ab28896f1a831581b0b59ef1f7e6fa64066c2546 drm/bridge: it6505: Improve synchronization between extcon subsystem
+27b2ae654370e1a8e446b0e48c4e406abed12ca1 drm/client: Switch drm_client_buffer_delete() to unlocked drm_gem_vunmap
+754c2a528fb974d0a6b310b51e2b3e64a1cf4ab0 Revert "drm: hide unregistered connectors from GETCONNECTOR IOCTL"
+6fdc2d490ea1369d17afd7e6eb66fecc5b7209bc drm/connector: send hotplug uevent on connector cleanup
+977d97f18b5b8efb7a94da84724113f15ae6cc2d drm/scheduler: Set the FIFO scheduling policy as the default
+7f4c33778686cc2d34cb4ef65b4265eea874c159 drm/vmwgfx: Write the driver id registers
+3280706369f636cc6fc959a9842df5707c7fd85f drm/vmwgfx: Fix frame-size warning in vmw_mksstat_add_ioctl
+43531dc661b7fb6be249c023bf25847b38215545 drm/vmwgfx: Refactor resource manager's hashtable to use linux/hashtable implementation.
+931e09d8d5b4aa19bdae0234f2727049f1cd13d9 drm/vmwgfx: Remove ttm object hashtable
+9e931f2e09701e25744f3d186a4ba13b5342b136 drm/vmwgfx: Refactor resource validation hashtable to use linux/hashtable implementation.
+53bc3f6fb6b3d401230bb2f8d3b6fe877c137b87 drm/vmwgfx: Clean up cursor mobs
+40f9e40b20491e54ea1006faecd31b6b72caf052 drm/vmwgfx: Start diffing new mob cursors against old ones
+92f59ac41c88cddd79591993d0066a19c932f8e7 drm/vmwgfx: Support cursor surfaces with mob cursor
+bb6780aa5a1d99e86757c0c96bfae65a46cf839e drm/vmwgfx: Diff cursors when using cmds
+76a9e07f270cf5fb556ac237dbf11f5dacd61fef drm/vmwgfx: Refactor ttm reference object hashtable to use linux/hashtable.
+9da30cdd6a318595199319708c143ae318f804ef drm/vmwgfx: Remove vmwgfx_hashtab
+1c8d537bbcc9708d667d81ddc2caf43ec753cf05 drm/vmwgfx: Do not allow invalid bpp's for dumb buffers
+df42523c12f8d58a41f547f471b46deffd18c203 drm/vmwgfx: Port the framebuffer code to drm fb helpers
+2e10cdc6e85de5998b0b140deff01765ceb92f64 drm/vmwgfx: Remove explicit and broken vblank handling
+4bb50606cba221028f3b03e6a90f555d5d658cfc drm/vmwgfx: Add a mksstat counter for cotable resizes
+148e5f5529ac19c8a1aeabe6e11c92a39e44cc6a drm/vmwgfx: Optimize initial sizes of cotables
+71bb70f87d636c875212d75ecdde048588914e19 drm/vmwgfx: Fix a sparse warning in kernel docs
+5ca1493e252a8b9cdb573b45bea200735dfbddb9 drm/i915: Make ilk_load_luts() deal with degamma
+18f1b5ae7ecab0a3009e49ac7d183c59bb11c284 drm/i915: Introduce crtc_state->{pre,post}_csc_lut
+b1d9092240b74dbc925a51b93a193ca23055169f drm/i915: Assert {pre,post}_csc_lut were assigned sensibly
+48205f42ae9bad5783e3cee780ce1a670f5b0f83 drm/i915: Get rid of glk_load_degamma_lut_linear()
+0701c285087d79b44546e04dd13b9056443571a3 drm/i915: Stop loading linear degamma LUT on glk needlessly
+6e0fff462eccaeed9f499c3d5e661aed688ef4e4 drm/i915/hdmi: do dual mode detect only if connected
+0281af2ade1fda50409afc62ebe9dd71194c6ed8 drm/i915/hdmi: stop using connector->override_edid
+2db98059ff67e205be8a820f4e99c15f765e3c5a drm/amd/display: stop using connector->override_edid
+2c9332de05612a766dfd956f79430c02702cad0c drm/edid: debug log EDID override set/reset
+91ec9ab4a6e3fff7b33f145c6b08f1e3c27d1c46 drm/edid: abstract debugfs override EDID show better
+019b93874834e7810499b65f4bfc990d16363581 drm/edid: rename drm_add_override_edid_modes() to drm_edid_override_connector_update()
+b16c9e6c7d91c91e97a30f69b408388726e0376d drm/edid: split drm_edid block count helper
+6c9b3db70aad556152cba7291e93ae9e4bb1a6b0 drm/edid: add function for checking drm_edid validity
+90b575f52c6ab35979968e2e4d9cbd9f1eb3901c drm/edid: detach debugfs EDID override from EDID property update
+8319d26a292ed1f76b793da5e9b48d4820c7a5e6 drm/edid/firmware: drop redundant connector_name variable/parameter
+a05992d5ea779da174246186d88bfeaf2d2754f2 drm/edid/firmware: rename drm_load_edid_firmware() to drm_edid_load_firmware()
+794aca0ec214bb23ff4fcb28c053ac6fdfa3ce07 drm/edid: use struct drm_edid for override/firmware EDID
+5f2d0ed49036a0218685e7d9d03539bdbdc66f78 drm/edid: move edid load declarations to internal header
+2ab6590cd96ff2d3005e9011577b08b0aed8388a drm/edid/firmware: convert to drm device specific logging
+66d17ecde7cae2b0e526473217c4178a4059181e drm/edid: add [CONNECTOR:%d:%s] to debug logging
+e1e7bc481d49c3e3ada11029ce0d9b85a0a539d7 drm/edid: convert to device specific logging
+89cb0ba4ceee6bed1059904859c5723b3f39da68 drm/i915/tgl+: Add locking around DKL PHY register accesses
+589ebefd7a892f3f8b550066524643f1ea66f858 drm/i915: Rename intel_tc_phy_regs.h to intel_mg_phy_regs.h
+d69813c7640fdfd03360a300d24b08149bdc4c97 drm/i915/tgl+: Move DKL PHY register definitions to intel_dkl_phy_regs.h
+b8ed55335ed86ab0a2b904ec1ee7bd121587dbe8 drm/i915/tgl+: Sanitize DKL PHY register definitions
+c74b644f26e9c0600573521aefd486d9c9dfc566 drm/i915/display: Change terminology for cdclk actions
+1d32f5d6e416768fdfc0d6f9b8659f57c0f779f3 drm/i915/display: Introduce HAS_CDCLK_SQUASH macro
+6688b6b100cc573b83f6e00cf329b69cc7c46272 drm/i915/display: Move chunks of code out of bxt_set_cdclk()
+fcfe55f214f5d1ae18332a055e83ddd840eef2f2 drm/i915/display: Move squash_ctl register programming to its own function
+46e61ee4e01e4a8a7e4e13a249d46c4cbc99ed88 drm/i915/audio: s/dev_priv/i915/
+0ff6b8eafd1800b245b2601688d8e202649167cf drm/i915/audio: Nuke leftover ROUNDING_FACTOR
+b87a9a128bf00e496376c038f51c638b12782833 drm/i915/audio: Remove CL/BLC audio stuff
+669d7fd64099b400759a9b0ca54d92da8330d1a1 drm/i915/audio: Extract struct ilk_audio_regs
+011aa42ef6ae7809249eaacca78081d357ffc95a drm/i915/audio: Use REG_BIT() & co.
+985a74d8ecc675e7e0535de1ad5812076d040569 drm/i915/audio: Unify register bit naming
+9f4a51256f439265f28d729a8866692337d58505 drm/i915/audio: Protect singleton register with a lock
+6e22c35ddaa19dcaa57bf9bfb4ca747ee7ce98a6 drm/i915/audio: Nuke intel_eld_uptodate()
+1c0ab71acc83091f55f9c9091f9959d5be565dff drm/i915/audio: Read ELD buffer size from hardware
+0234cda2ceb9b90da55e3bc43dfda451b152acb1 drm/i915/audio: Make sure we write the whole ELD buffer
+50a4a926e65021b9f1b15e48d9439b3726ba3546 drm/i915/audio: Use u32* for ELD
+7c8d74e8131217e928fb92904cac5362e348744f drm/i915/audio: Use intel_de_rmw() for most audio registers
+cbbda2ffbb6533fba01b9c40b12c8532a115da46 drm/i915/audio: Split "ELD valid" vs. audio PD on hsw+
+c3c5dc1d9224fb3e0c6a104527567090fbbae13c drm/i915/audio: Do the vblank waits
+8388eb067cd6db7ea514235d84798dd73872208a drm/i915/sdvo: Extract intel_sdvo_has_audio()
+2b1966c65b6d5afd9e86fcd63ca64b69c1e2e633 Merge tag 'drm-misc-next-2022-10-27' of git://anongit.freedesktop.org/drm/drm-misc into drm-next
+cc1e66394daaa7e9f005e2487a84e34a39f9308b drm/i915/sdvo: Filter out invalid outputs more sensibly
+64b7b557dc8a96d9cfed6aedbf81de2df80c025d drm/i915/sdvo: Setup DDC fully before output init
+a3cd4f447281c56377de2ee109327400eb00668d drm/i915/sdvo: Grab mode_config.mutex during LVDS init to avoid WARNs
+aa7d827b0c9781d7dc73dc1f793734716b75395b drm/i915/sdvo: Simplify output setup debugs
+5e52622efb916f3185045283a0203e9b00f8175b drm/i915/sdvo: Don't add DDC modes for LVDS
+739f8dbccf530277e3781a6a352018e972208522 drm/i915/sdvo: Get rid of the output type<->device index stuff
+79708d142e65c59656aa231aa98e00334ced89a5 drm/i915/sdvo: Reduce copy-pasta in output setup
+a6ebd538364b1e9e6048faaafbc0188172ed50c3 drm/i915/sdvo: Fix debug print
+f80c71f7a868958f0547240c9e5e82b19623783f Merge tag 'drm-intel-next-2022-10-28' of git://anongit.freedesktop.org/drm/drm-intel into drm-next
+303960a781ae0ee5140bc4addc557a5d4cd5bb5f drivers/accel: define kconfig and register a new major
+734216b982be14e2179ed25ca32d51bd3bea7113 accel: minor
+87e41fd8c2ad237a0dc4cd75da5b946b5f8aa276 drm: initialize accel framework
+edb34cf73a826bb80361959a9d1c814f301f2751 accel: add accel dummy driver
 
---===============4298839806272157068==--
+--===============6384337710486946150==--
