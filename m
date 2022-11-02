@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============3134560799826293294=="
+Content-Type: multipart/mixed; boundary="===============2347745304000347896=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Wed, 02 Nov 2022 16:25:14 -0000
-Message-Id: <166740631497.10633.1530966961881729854@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Wed, 02 Nov 2022 16:25:20 -0000
+Message-Id: <166740632084.10743.1767871329161665219@gitolite.kernel.org>
 
---===============3134560799826293294==
+--===============2347745304000347896==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.2
+  - ref: refs/heads/regulator-6.2
     old: 692fab0820520f5a400446ab3016a237dca32109
     new: be847537e3cd951411892072639b1f98d7b96028
     log: |
@@ -25,28 +25,28 @@ changes:
          be847537e3cd951411892072639b1f98d7b96028 Add support for Richtek RT6190 36V 4-wwtich regulator
          
 
---===============3134560799826293294==
+--===============2347745304000347896==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1667406313 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
-nonce 1667406313-a8d52f767bd2a1529ddd38c6d93e32baf650bba6
+pusher C3F436CA30F5D8EB 1667406319 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1667406319-b2b76e396b532dcc9c2c0df4b5139d75cd98805a
 
-692fab0820520f5a400446ab3016a237dca32109 be847537e3cd951411892072639b1f98d7b96028 refs/heads/for-6.2
+692fab0820520f5a400446ab3016a237dca32109 be847537e3cd951411892072639b1f98d7b96028 refs/heads/regulator-6.2
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmNimekACgkQJNaLcl1U
-h9CVEQf+OevQ1mngPcSg8JaA0KQOLMnSIvetwd9NNEPxz7LZpfKMjPA2sDCOPIGS
-IjrLiHbhmmv0GXBuOAmFpstyV34xJzOUfWCBpbKDp6e7FiYMdop4nKtCtUvnlTP9
-8ikTFAxyfeCo6ybJKvH18nOPgbb3JDxhHnftsYwfk8YrjCBkiaVMTNGzIJ7RasM2
-mfnP2uUxkw8xQm+Pz3ncfURfVhO4Cp59cETtLRzO2HtCJ4/XfhVw1K71CvXABlqr
-cJ3EUsMGbsiQ7uXAkjj1XyDaXdnOvn4x01VjFCClNynaT8rwVhZYIfM8wMddU6Cy
-wqncEFrMhK2D2zZyXJI7ubqOn2bdxw==
-=hi0N
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmNime8ACgkQJNaLcl1U
+h9BXOAf/fTRioeIc5T88pfG4KGVLFzlxkfgvZV6RT/bwLMD+qkFUtJi4H1Ttso2C
+/cfvUnnkJmEIEdJhtfebKD5nVLfY+JWSxyBvi1s96tyrcGNRMOcchOS+AiFPDyO/
+/LmCwI8cr+EOlWd1KlAXq8B/ikOyvrvRGMxovArmAajPzL3Y6SS0eHUEMOWd11eu
+YPVIaCVokavMQAx7ZQImF8nvbl3Em57R4UbDUGQMkihVDO2DCfWEBmnFEFRmJ+E+
+lp1GMkI+UDZ8hCct/+g3lhUunaz7mIMTPtiznK0sQNA4aMy7p3UCpj68D7mCTZ2n
+DoDQHG/93+4fCl/WZnBmTBWD014E/Q==
+=b2nf
 -----END PGP SIGNATURE-----
 
---===============3134560799826293294==--
+--===============2347745304000347896==--
