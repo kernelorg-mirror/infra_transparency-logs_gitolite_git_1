@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3624673034949436682=="
+Content-Type: multipart/mixed; boundary="===============4946139462359648874=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Wed, 02 Nov 2022 20:35:21 -0000
-Message-Id: <166742132158.27580.8464502597924353596@gitolite.kernel.org>
+Date: Wed, 02 Nov 2022 20:43:48 -0000
+Message-Id: <166742182803.32139.682009657655334612@gitolite.kernel.org>
 
---===============3624673034949436682==
+--===============4946139462359648874==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,18 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
-    old: 2c5e5abf1c4278d5768a79b6bfc7d54cdc96e8df
-    new: 790835fcc0cb9992349ae3c9010dbc7321aaa24d
-    log: revlist-2c5e5abf1c42-790835fcc0cb.txt
+  - ref: refs/heads/40GbE
+    old: 11c12adcbc1598d91e73ab6ddfa41d25a01478ed
+    new: 69b957440a6379b4ae4bc6eef07bbf5efdeb4233
+    log: revlist-11c12adcbc15-69b957440a63.txt
 
---===============3624673034949436682==
+--===============4946139462359648874==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2c5e5abf1c42-790835fcc0cb.txt
+Content-Disposition: attachment; filename=revlist-11c12adcbc15-69b957440a63.txt
 
-778ce723e93ee803ef5883619fe2391e00dbc209 Merge tag 'for-linus-6.1-rc1-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/xen/tip
 d4fa7d772adc02451076b3ad1f990d8b822909fc i3c: master: Free the old_dyn_addr when reattach.
 90f4a09a15239f4a819b2e90a7a0b92a75060655 i3c: master: Remove the wrong place of reattach.
 d3cf40513330752238ae585fdb0e46ec6baa588b Merge tag 'vfio-v6.1-rc1' of https://github.com/awilliam/linux-vfio
@@ -1044,11 +1043,12 @@ f9edd82774c0c8dde1ce26637a9e29f9bba92fef dt-bindings: net: renesas: Document Ren
 3590918b5d07aa5e4702f753c375adb4868d3abd net: ethernet: renesas: Add support for "Ethernet Switch"
 6c6fa1a00ad3df994c96af9468cc83f225df9df4 net: ethernet: renesas: rswitch: Add R-Car Gen4 gPTP support
 ef2dd61af7366e5a42e828fff04932e32eb0eacc Merge branch 'renesas-eswitch'
-db2d737d63c5b501eb103d5e5c96499cc792c420 e1000e: Separate MTP board type from ADP
-0c9183ce61bc5e546fc06d1f3237120778a81192 e1000e: Add support for the next LOM generation
-7bab8828e1ec33e579a664c4262053e16e9cc936 e1000e: Add e1000e trace module
-ab400b0dd4ec186e483abc667358b4135ab94f1a e1000e: Remove unnecessary use of kmap_atomic()
-3e7b52e0eb9ef7e67c26072cb1c7a49a5cc356f5 e1000: Remove unnecessary use of kmap_atomic()
-790835fcc0cb9992349ae3c9010dbc7321aaa24d igc: Correct the launchtime offset
+6b85a4f39ff7177b2428d4deab1151a31754e391 i40e: Store the irq number in i40e_q_vector
+8c1a595cc63ed55efcfec207ce0e35b2ca11401e i40e: Record number TXes cleaned during NAPI
+717b5bc43c1fe7a19f8305123cf2c87ee562aba5 i40e: Record number of RXes cleaned during NAPI
+6d4d584a7ea8fc8d2be77545cb503118c193738a i40e: Add i40e_napi_poll tracepoint
+30872d834bdbf20e12e3277394f85f1f4d7a9b3f i40e: Add appropriate error message logged for incorrect duplex setting
+619058eca5099a29d717202b3a0adcfc87b77445 iavf: Replace __FUNCTION__ with __func__
+69b957440a6379b4ae4bc6eef07bbf5efdeb4233 iavf: Change information about device removal in dmesg
 
---===============3624673034949436682==--
+--===============4946139462359648874==--
