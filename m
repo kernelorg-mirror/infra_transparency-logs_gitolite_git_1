@@ -1,26 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============4514457856248321190=="
+Content-Type: multipart/mixed; boundary="===============4165324903975419938=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Wed, 02 Nov 2022 18:37:56 -0000
-Message-Id: <166741427607.7714.17492607822040174974@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/deller/parisc-linux
+Date: Wed, 02 Nov 2022 18:46:31 -0000
+Message-Id: <166741479138.13901.5502724810294685292@gitolite.kernel.org>
 
---===============4514457856248321190==
+--===============4165324903975419938==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/deller/parisc-linux
+user: deller
 changes:
   - ref: refs/heads/master
     old: 8f71a2b3f435f29b787537d1abedaa7d8ebe6647
     new: 8e5423e991e8cd0988d0c4a3f4ac4ca1af7d148a
     log: revlist-8f71a2b3f435-8e5423e991e8.txt
 
---===============4514457856248321190==
+--===============4165324903975419938==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -54,4 +54,4 @@ ae13366b177b062b420288c8affe6a513aae56f9 Merge tag 'for-linus' of git://git.kern
 31fc92fc93d54d8bedf0d06c1da0510a89867978 Merge tag 'nfs-for-6.1-2' of git://git.linux-nfs.org/projects/anna/linux-nfs
 8e5423e991e8cd0988d0c4a3f4ac4ca1af7d148a Merge tag 'parisc-for-6.1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
 
---===============4514457856248321190==--
+--===============4165324903975419938==--
