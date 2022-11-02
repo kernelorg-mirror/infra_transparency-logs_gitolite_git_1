@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/tuna/tuna
-Date: Wed, 02 Nov 2022 14:23:19 -0000
-Message-Id: <166739899929.17707.15633771511849509612@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Wed, 02 Nov 2022 14:38:45 -0000
+Message-Id: <166739992576.29059.14275290327886348644@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/tuna/tuna
-user: jkacur
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/getopt
-    old: 4892096d8c54163acb3d7ee2efbde01cfd837d5d
-    new: f53f77f73199f398713f8edfdfa417cf8b9e1a74
-    log: |
-         5f90d8b80a259884d3ca2a647fdf9471b7d7091c tuna: tuna.py use fstrings
-         f53f77f73199f398713f8edfdfa417cf8b9e1a74 tuna: tuna_gui.py use fstrings
-         
+  - ref: refs/heads/v3_20221031_u0084500_add_support_for_richtek_rt6190_36v_4_wwtich_regulator
+    old: 0000000000000000000000000000000000000000
+    new: e6999e7cca7eecd64c27dc72c51d11cb33079a0c
