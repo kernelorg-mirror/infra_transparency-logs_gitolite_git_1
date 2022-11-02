@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3227574762868899833=="
+Content-Type: multipart/mixed; boundary="===============1060044836091765225=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Wed, 02 Nov 2022 07:29:52 -0000
-Message-Id: <166737419257.29484.508785532936779644@gitolite.kernel.org>
+Date: Wed, 02 Nov 2022 07:31:12 -0000
+Message-Id: <166737427217.31500.9719413574833999434@gitolite.kernel.org>
 
---===============3227574762868899833==
+--===============1060044836091765225==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,46 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/staging-testing
-    old: 29626f3c07d09b79d6510d1915c106e51ba85022
-    new: d911a624cfb40e356b98f135d52914b30214fd7f
+    old: d911a624cfb40e356b98f135d52914b30214fd7f
+    new: a37068715956111af1d49105d9e41b4cc8f69ea0
     log: |
-         72cdc5aec2913bef5dd62eb75cadad8bff27fd8e staging: wlan-ng: Remove unused struct wlan_ie_ssid references
-         2a899064b60ad1ede8a3990bd512e859b15896d5 staging: wlan-ng: Remove unused struct wlan_ie_supp_rates references
-         a5f994fc062971aa801eda9e8af214e785e32aff staging: wlan-ng: Remove unused struct wlan_ie_tim references
-         a2c896ab66f2c65cf6eeba140b97200a47d0450e staging: wlan-ng: Remove unused struct wlan_ie_ibss_parms references
-         5d2366684f9331dc91449b7b866f172d7641ecf3 staging: wlan-ng: Remove unused struct p80211macarray definition
-         49af5dd7209ea2242a3c55e0b180f7ff7913fa3b staging: wlan-ng: Remove unused function declarations
-         d911a624cfb40e356b98f135d52914b30214fd7f staging: wlan-ng: Remove unused structure definitions
+         a37068715956111af1d49105d9e41b4cc8f69ea0 staging: r8188eu: convert rtw_setdatarate_cmd to correct error semantics
          
 
---===============3227574762868899833==
+--===============1060044836091765225==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1667374249 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1667374328 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1667374188-5f6cf70c30538ec8317bd1167da5f32dd3249213
+nonce 1667374268-1036073c2c158c0d825c877c39de8d9531eb5644
 
-29626f3c07d09b79d6510d1915c106e51ba85022 d911a624cfb40e356b98f135d52914b30214fd7f refs/heads/staging-testing
+d911a624cfb40e356b98f135d52914b30214fd7f a37068715956111af1d49105d9e41b4cc8f69ea0 refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmNiHKkbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+OJ8QAKv8X6/CDrKgQUi73xtf
-OkOdAbMW6EdBuTZvElJJo90BWHWhbNQmW7jDfOB2KqBykbWXDVecmwhQZtDpbM7I
-a7Cy+GlEIjv13WN1Rru6y0n0H2nte7iPufM08bkMyyRPr0xiShJVLys6OvbqrWTY
-XbLPgrlbq6HfiKwszCKLE9ir1fSPEOyl8NENeeFRFvu72/pE5caLTP0uYCAvJVmH
-BI73MbBmpjM2iei5yPX3Z2BxlX3XYGL+rfuhcAu1Jr6czsb6CXhZxXzsQrcw1Gzl
-vhNHr6duzfEBiEzjiPgp9p70/BUao1IQXP3CQV9guhX180x3KU+dp9XMvRXeTdSm
-dJcPmkWIbYQ19IGFJ5f27BVGJLd3rSYnjnzsn/aG0VSB7P3JOWUmpXhtfRcXOCV+
-WydLs3S6pRRyvpGwlx6n2dvHkg7IL7enlfjZ7KCrcFnBZnxaJpxyOQUto8aiD1Yq
-4LEJUVtM+KKr5CJMUcXtp3E5A7pMX5FauAYDbmGjP+YD1d/JE/b5ofwhyxufz0iu
-0/uSNayVWxzug1xhv1fxNfIjqFjkat8GCuvCPS2ZUKl8JAM0QmpISzRogJjrP/LH
-ifH2j2iTWEyY6f1iwrbQogm9wVbDW7/iunCD9mgnJwIWN75VkKvcjSKG0ELNOzcR
-J37W3Kmc5XHfdZn+2W38xjAa
-=4LId
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmNiHPgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk++fIP/0ceKsyskxM92hY6D5e3
+gXRyawzm0zr4N7BDTE2Hm0dfihFpmgS1nxB0XvxainaEo90MW2rdgOHvUNTCrbWE
+Jz73ZEUgZGGzmSXzsemcRfXa8Ya09WkHdJw2/M9XuzAz+qdzGiiMWXPEZjkdRQ99
+4p6QG349zf5pefZwA09wk73Dw2+61zuB8GwkBAjOE6mdwiqEVNGFWdYmI93u/3je
+8y09SkMc+Hrp2kNnuyrdtzr/jsjHKFP0bWChAoCozelulS3RB7rv+kfLpDrOwcak
+bUq6sbYJLpd5bvvA8UH3PgSk72HkmsvANGCvkLV2zLeJH+fgqYtTLSTgnL4mo8S1
+PuUPQUUVSeh15Fwxyo6g7ppN7GevNzxpAJm4/dVlr0x9hvBG2aICqEBPPgVTvX4M
+UMYWyzUk47MewfQmiBFRkDnyjHcmURZD7qmbqgEntDgywT8GD3nTVqpZzgPH+ZxG
+cRrzNI0uRnswGBSDh67EW1cE3HcSadi0KyHRMK9/2Ys5cwN6su0ctdw/pM3QkzT8
+jHx1xtRua14V2+rG4zrdOrCkFZfHahRafojjuK8MLvF7Iwp4BtqWChaovsf1F9AV
+fYiZbrM/awAiQf8BJ9UicLmsz0U6rg+y0DTL2uQ26sakAPpakqPzOFWtC8Mmp6Qj
+tiNO5gVBuB5do+WvJlWGzief
+=Ysas
 -----END PGP SIGNATURE-----
 
---===============3227574762868899833==--
+--===============1060044836091765225==--
