@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless
-Date: Wed, 02 Nov 2022 17:25:51 -0000
-Message-Id: <166740995131.21847.7918596370335468782@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
+Date: Wed, 02 Nov 2022 17:33:13 -0000
+Message-Id: <166741039390.26101.6973508608316962118@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wireless/wireless
-user: kvalo
+repo: pub/scm/linux/kernel/git/saeed/linux
+user: saeed
 changes:
-  - ref: refs/heads/main
-    old: 30ac96f7cc973bb850c718c9bbe1fdcedfbe826b
-    new: f45cb6b29cd36514e13f7519770873d8c0457008
+  - ref: refs/heads/net-next-mlx5
+    old: 0cafd77dcd032d1687efaba5598cf07bce85997f
+    new: ca26da2cb349905bc17859d46c94c38631b917e5
     log: |
-         3a89b6dec9920026eaa90fe8457f4348d3388a98 wifi: ath11k: Fix QCN9074 firmware boot on x86
-         f45cb6b29cd36514e13f7519770873d8c0457008 wifi: ath11k: avoid deadlock during regulatory update in ath11k_regd_update()
+         ca26da2cb349905bc17859d46c94c38631b917e5 net: openvswitch: add missing .resv_start_op
          
