@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1756517909907477415=="
+Content-Type: multipart/mixed; boundary="===============2332712392965383099=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Wed, 02 Nov 2022 07:21:47 -0000
-Message-Id: <166737370755.23740.15237115309033348999@gitolite.kernel.org>
+Date: Wed, 02 Nov 2022 07:27:18 -0000
+Message-Id: <166737403882.28245.13520001945077356071@gitolite.kernel.org>
 
---===============1756517909907477415==
+--===============2332712392965383099==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,41 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/staging-testing
-    old: 3b45e2e139c1e71b17a97ae887ba1caadd8e8ad2
-    new: dba2628c8ec5c2821103090a6ba946eab9da0c1f
+    old: dba2628c8ec5c2821103090a6ba946eab9da0c1f
+    new: 8b550eb637b483866f8d4662fffc9518ad9e7eca
     log: |
-         3cbb8d0d6d42958c146624a102d1a0e59a820b65 staging: octeon: cvmx_ptr_to_phys() should return physaddr_t
-         dba2628c8ec5c2821103090a6ba946eab9da0c1f staging: rtl8192e: Remove line breaks to match coding style
+         8b550eb637b483866f8d4662fffc9518ad9e7eca staging: rtl8192u: remove unnecessary function implementation
          
 
---===============1756517909907477415==
+--===============2332712392965383099==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1667373763 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1667374095 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1667373703-b2f1f2ecdd1b1565a05a032d0a1dfd45ad9d6e14
+nonce 1667374034-341de92e8390167f6c350c591c7cdfd62c5977d7
 
-3b45e2e139c1e71b17a97ae887ba1caadd8e8ad2 dba2628c8ec5c2821103090a6ba946eab9da0c1f refs/heads/staging-testing
+dba2628c8ec5c2821103090a6ba946eab9da0c1f 8b550eb637b483866f8d4662fffc9518ad9e7eca refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmNiGsMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+fZMQANAqMsJ3q0vLiwfGXS8g
-OayC6uOk4ticjESFsqcuL1+SULkOOHaWbhcLcs08tTRoCgmSIFWxws4c5+Sg3H1U
-ecpLfO9mZQHFpvtQzaDukTtAYbNwkbgVzTtvZkmUAfatxSVDpA8kk84yJUZqKYvv
-6yvnSC76jDo0dCM3FNntNBrOX0V5VqQcz0l4ToOtcSIn4Z5ugxcNlEZC0/ORzEoE
-6F2Bs2QnRPyoOyeKC288iPapsB0VyxVuJWCvl8askTi1v1kynH1/9aIUINeAVC1u
-RXzeys3Na+MYBZfZO14N2QL0pcgBFHIFMk5PD2NbmMRYZJ+FMaUaYG6PfmjU0+Xw
-Q9sulAt+Ga2YblXZRvf5HLlC9cuY456bvjCCe1QqIU57vezf0vU5Xk/A5LY1jl49
-kSgACY4Og+rnHwWBaOIPzYpFRdnaFHR6gTUiCB7Ywj/aRUgfJmhUvkDVCICj/kF6
-II6VdZzlb9+XGXcUhtOds11dVXwXiCZpYyQvm7pibn6c/XSKwA06iO0Fn+j7bs8g
-q92mKk7u9JSCxYTC7dTDYaeTGHjW8YrxRw7yj4EKLML9gx6bXzOzNzVlnyjIXSyr
-3RPBOrm3sN+4bffEYXfvWM8knEZmrPtmW5j4kN1hfSoPKGWXy82KceCjUt+5W+kA
-NCgT6kviCAVXLJc6VaNahoSK
-=ql4u
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmNiHA8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+eJ4QANU6kIELOcztWIUq8QM+
+xt7SnsoJ7jF3qEf8g4MHB1LMHU9Aszx+zqCv4rVKs6CUVzpDLya0Y64S6qGmV34/
+ny3iFdpnUv5J0bXodgGolyOaDXAjo4arafCnBPVkOaoM1KSkMKubAryqtoNJdUpK
+8S/FIHLnrlMULndu83oiOtNwHQ7WgZO2AZvTemEmfMC1bKU0O4b4YNibHWBIDiPu
+g8D7H46gsLSGGPtsN2/D/iAllWv9qtcLrRAujiJq7SKQY2hI+cU1sdPX3aOV8iKH
+QqYgx62+RZAuY1cy2Lb3lDgLBlXieSsTLE5cA6gqWwwlqJp+2IAfoujdQfTtJR/g
+6Zax6MbKMh0MVBjx4xPs2XBK3qDv/6Km6rijpc1AdvC/nja+aiMJyC1iO5hZgh+E
+vaYyhGOi000DQQzJk5IdDQXzexz+Tgo5T6Kf6YnxTns1QTZRClu2h1Iju/0PkGKI
+mI/3Mu/r7c3KrLNQ6Oec8wTQMF3a768P6OKjoHqs/RVYdNESi/kvIYqsCFS9XZHF
+pWDYwLO9SZdbYgwPIVMh+pNoOPHSoctWd/Jwysn9KTkPmY5L9SMOMqrGz3BKbV1n
+1Eu23zNfUxHZO6gclxwYC4fkSTBDbBdMCUZd4Hy0XcfrLYyCqOhpcuJiEGJukq9z
+oiP62NIMUkBjKohhhi7WTpHK
+=AQDI
 -----END PGP SIGNATURE-----
 
---===============1756517909907477415==--
+--===============2332712392965383099==--
