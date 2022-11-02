@@ -1,47 +1,28 @@
-Content-Type: multipart/mixed; boundary="===============2160277101044234992=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Wed, 02 Nov 2022 13:48:59 -0000
-Message-Id: <166739693995.25087.10215653881994763297@gitolite.kernel.org>
-
---===============2160277101044234992==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Wed, 02 Nov 2022 13:49:27 -0000
+Message-Id: <166739696735.25339.11093160421921684434@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/regulator
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/regulator-6.2
-    old: 0000000000000000000000000000000000000000
-    new: 692fab0820520f5a400446ab3016a237dca32109
-
---===============2160277101044234992==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1667396938 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1667396938-dc1d11f7902f78575f2a9334c7268460731de9ff
-
-0000000000000000000000000000000000000000 692fab0820520f5a400446ab3016a237dca32109 refs/heads/regulator-6.2
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmNidUoACgkQJNaLcl1U
-h9Clmwf+K0Jf+scXsjjiS6nbZgiAqUre5Xh/hRxBG4Ty2VJiXoerLqhd8vAgZtyP
-jd6b4kIRoXgqDQ22oA37BDzQAzbhDElBGcUfxpFedrdldmymiXUR8z4FMMCGUxvb
-bYAstg41qLrNh0pdNkzJb6iDmsjQk78BH/my4d9RbS+jDp81xQHkcANUhHQGTlCU
-1TUzk3/oswLmAehivfHB1Gdh+XKeZKj3sPxHINevjLXuRQ1kme4kYE1l0ME3HlK6
-aSwt2o+E2KIRYcQmge2NflJXAgdPjvSqhr7MUenuiR3s+w+Y7HF6/orxcVaaPd3C
-rMZSOe9sBnttlM1b3RJWZY+Rw8BU3g==
-=Bl+k
------END PGP SIGNATURE-----
-
---===============2160277101044234992==--
+  - ref: refs/heads/for-linus
+    old: dadd3e7cdcd182ca4dbc74206e4539dd04eb73ea
+    new: 978733c800d26ce422c65fcc2047d806254ec305
+    log: |
+         978733c800d26ce422c65fcc2047d806254ec305 Merge remote-tracking branch 'regulator/for-6.0' into regulator-linus
+         
+  - ref: refs/heads/for-next
+    old: 98e2892aebdf1c6d4cfaf05d78ee1ab757f22856
+    new: 5d545020337abf4c953d616fcb663cb9869b2948
+    log: |
+         692fab0820520f5a400446ab3016a237dca32109 regulator: docs: add missing helper
+         978733c800d26ce422c65fcc2047d806254ec305 Merge remote-tracking branch 'regulator/for-6.0' into regulator-linus
+         6a987e7ea8005267122b916c1a1569291a2ae4f2 Merge branch 'regulator-linus' into regulator-next
+         5d545020337abf4c953d616fcb663cb9869b2948 Merge remote-tracking branch 'regulator/for-6.2' into regulator-next
+         
