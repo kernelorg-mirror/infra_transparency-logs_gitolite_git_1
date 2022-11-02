@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0678016756712360672=="
+Content-Type: multipart/mixed; boundary="===============0095129561482435860=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jirislaby/linux
-Date: Wed, 02 Nov 2022 06:46:34 -0000
-Message-Id: <166737159422.30992.3545880048906128174@gitolite.kernel.org>
+Date: Wed, 02 Nov 2022 06:47:01 -0000
+Message-Id: <166737162153.31228.4224083104795617057@gitolite.kernel.org>
 
---===============0678016756712360672==
+--===============0095129561482435860==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jirislaby/linux
 user: jirislaby
 changes:
-  - ref: refs/heads/lto
-    old: 8565e13d5d29eb32bed9674240593315f3bdd7f5
-    new: fe60d396baceb93625fa2981a9d83b782bbaca1f
-    log: revlist-8565e13d5d29-fe60d396bace.txt
+  - ref: refs/heads/lto-base
+    old: 9abf2313adc1ca1b6180c508c25f22f9395cc780
+    new: 30a0b95b1335e12efef89dd78518ed3e4a71a763
+    log: revlist-9abf2313adc1-30a0b95b1335.txt
 
---===============0678016756712360672==
+--===============0095129561482435860==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8565e13d5d29-fe60d396bace.txt
+Content-Disposition: attachment; filename=revlist-9abf2313adc1-30a0b95b1335.txt
 
 f7ec3f62d7736ed14050716943a9562879155fcc media: remove reference to CONFIG_EMBEDDED in MEDIA_SUPPORT_FILTER
 41fd1cb6151439b205ac7611883d85ae14250172 media: mceusb: Use new usb_control_msg_*() routines
@@ -988,52 +988,5 @@ c4d25ce6e9de47f6d9fb6cc1a34b47ce5f0a46ab Merge tag 'usb-6.1-rc3' of git://git.ke
 9f127546bb4341df88a51df8e6cc7d8a70cbacd7 Merge tag 'char-misc-6.1-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc
 b72018ab8236c3ae427068adeb94bdd3f20454ec Merge tag 'fbdev-for-6.1-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/linux-fbdev
 30a0b95b1335e12efef89dd78518ed3e4a71a763 Linux 6.1-rc3
-eb3632bfee0771be54d4ef895bebc981921c0e4d MAINTAINERS: add static_call_inline.c to STATIC BRANCH/CALL
-cc8dae69e0f9f8da3618135c7fd5a990756f360d kbuild: pass jobserver to cmd_ld_vmlinux.o
-2354b8d07d6443e7c5dbe8ac35a9a24f89e95e87 kbuild: lto: preserve MAKEFLAGS for module linking
-e881590955058de5ccf02c4f5b24358bdd36a617 compiler.h: introduce __visible_on_lto
-7c19844943db3287ae164fd622f483f701f617a5 compiler.h: introduce __global_on_lto
-befa2488fc393560a3686ca091b8f72cdf01ef18 Compiler Attributes, lto: introduce __noreorder
-1efb801e0a87efd3fb7e30d3eb27150c267fd256 tracepoint, lto: Mark static call functions as __visible
-7abc1ff38221a66991c333b021c43cf0059b990e static_call, lto: Mark static keys as __visible
-8ee417dd6abea8dc06aa5811984ec21878443325 static_call, lto: Mark static_call_return0() as __visible
-53ace6c96be670c8fe4aa1f4404412f81f944b2b static_call, lto: Mark func_a() as __visible_on_lto
-9329b957b43e9820454216af7c14a7db8794e509 x86/alternative, lto: Mark int3_*() as global and __visible
-e8a38c0f19b9bb65189da8ed4abb96387e5ca79d x86/paravirt, lto: Mark native_steal_clock() as __visible_on_lto
-685eb7e3d7c8f5334bd386208edd54d9f4abc4ae x86/preempt, lto: Mark preempt_schedule_*thunk() as __visible
-e004e0ea767ac9a0966dbac7c4ea70ca3101c8a8 x86/sev, lto: Mark cpuid_table_copy as __visible_on_lto
-35526185814e0dad2f16a5b6f7f4af32253c3abd x86/xen, lto: Mark xen_vcpu_stolen() as __visible
-79691b5ca3bd8e7b95cacb7eb82bb51c551b411f x86, lto: Mark gdt_page and native_sched_clock() as __visible
-48a3bccca6e9178ddd63892158c65b5b90361896 amd, lto: Mark amd pmu and pstate functions as __visible_on_lto
-19ac62e819bc170dbef5784fd79e28914c37efff entry, lto: Mark raw_irqentry_exit_cond_resched() as __visible
-35f8b702849fa17a2a118e42dda98a07b4ade874 export, lto: Mark __kstrtab* in EXPORT_SYMBOL() as global and __visible
-b1aa1294852f1b2a124b1b1b4a386c395b63c0b5 softirq, lto: Mark irq_enter/exit_rcu() as __visible
-3caf074ecc2821a67ddda98f3f02ecd0dfdfd01f btf, lto: pass scope as strings
-8053720be3d840e97b3e0ccc0851abc65e7e9205 btf, lto: Make all BTF IDs global on LTO
-34c8d5e96320a85fceb6a1b57ba3b9bb1e95abd2 init.h, lto: mark initcalls as __noreorder
-50cbd2f1f05993eb39aced5e2ab88b20f4e7d0e1 bpf, lto: mark interpreter jump table as __noreorder
-f5650604dd0fdaffc9b7fb59d97bc4e6653dcc00 sched, lto: mark sched classes as __noreorder
-e38d3d6d0abf212ccca696224150458d13ef4d57 x86/apic, lto: Mark apic_driver*() as __noreorder
-e0cadf8319fd308a118341b3e1d07354c06800c6 linkage, lto: use C version for SYSCALL_ALIAS() / cond_syscall()
-94e76214ad1eac1be33c81ece70cc7c02963f0ec scripts, lto: re-add gcc-ld
-fc729a8eb1bbf4a66bf40455d333d59c85d646dd scripts, lto: use CONFIG_LTO for many LTO specific actions
-27797514535bd4db42d083822b1be06261bba666 Kbuild, lto: Add Link Time Optimization support
-706690cae7b3dd042da869db677c66639b82384d x86/purgatory, lto: Disable gcc LTO for purgatory
-56fe4395af8d0b836189551c0c1405e270c8f3e7 x86/realmode, lto: Disable gcc LTO for real mode code
-469b1cad505d0cd544ef1d598d1be65230d63268 x86/vdso, lto: Disable gcc LTO for the vdso
-3128255fc76a4f414631fe1117600f271600966d scripts, lto: disable gcc LTO for some mod sources
-1b539685ef282f7bc3a7d604769f3453a9f5180c Kbuild, lto: disable gcc LTO for bounds+asm-offsets
-47c59cd155bb6c330589597d17d500c08f404ea6 lib/string, lto: disable gcc LTO for string.o
-2a0acfd413716fd3faa7cf9cd5ad3d7d9057bbce Compiler attributes, lto: disable __flatten with LTO
-17af71c2315d8f51c3fa859b0ccf0ebadfdc49a4 Kbuild, lto: don't include weak source file symbols in System.map
-01a52c1916a1f1c9518cd9e8c70e6edc7b8134e3 x86, lto: Disable relative init pointers with gcc LTO
-8e8102842d32dd736ba3c67d6daa66cb5eff50d8 x86/livepatch, lto: Disable live patching with gcc LTO
-e089823a5ab126184378d8cd361b3ad8e4d67356 x86/lib, lto: Mark 32bit mem{cpy,move,set} as __used
-4d4f0997e03a7a98404707c1cdb0976c51817d20 mm/kasan, lto: Mark kasan mem{cpy,move,set} as __used
-af078c7c902484710bd8ea0896fd2b129e965f9b scripts, lto: check C symbols for modversions
-c9db1d32c05613fbe1b1f5821b53e0c67bb764e5 scripts/bloat-o-meter, lto: handle gcc LTO
-e5789a004261ab3b6de24af601e10df66504c6c6 kasan, lto: remove extra BUILD_BUG() in memory_is_poisoned
-34b3dc11a598c11008d1d2cb07292a74e3d92933 x86, lto: Finally enable gcc LTO for x86
-fe60d396baceb93625fa2981a9d83b782bbaca1f x86/boot: robustify calling startup_{32,64}() from the decompressor code
 
---===============0678016756712360672==--
+--===============0095129561482435860==--
