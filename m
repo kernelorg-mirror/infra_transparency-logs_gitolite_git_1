@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6194446947468094039=="
+Content-Type: multipart/mixed; boundary="===============1756517909907477415=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Wed, 02 Nov 2022 07:20:24 -0000
-Message-Id: <166737362400.23181.6332475891230050916@gitolite.kernel.org>
+Date: Wed, 02 Nov 2022 07:21:47 -0000
+Message-Id: <166737370755.23740.15237115309033348999@gitolite.kernel.org>
 
---===============6194446947468094039==
+--===============1756517909907477415==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,42 +17,41 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/staging-testing
-    old: aa69ca7d6d6cd2ed2209b4b6c102f2fec3e97012
-    new: 3b45e2e139c1e71b17a97ae887ba1caadd8e8ad2
+    old: 3b45e2e139c1e71b17a97ae887ba1caadd8e8ad2
+    new: dba2628c8ec5c2821103090a6ba946eab9da0c1f
     log: |
-         3032eb4690d5d5bac28d0e92cc501962a42ca4be staging: r8188eu: replace ternary operator with min, max, abs macros
-         a653e32aaddb11cc4f159558c4cf7dfa2c5a0222 staging: r8188eu: use ether_addr_equal in OnAction
-         3b45e2e139c1e71b17a97ae887ba1caadd8e8ad2 staging: vt6655: change variable name wTimeStampOff
+         3cbb8d0d6d42958c146624a102d1a0e59a820b65 staging: octeon: cvmx_ptr_to_phys() should return physaddr_t
+         dba2628c8ec5c2821103090a6ba946eab9da0c1f staging: rtl8192e: Remove line breaks to match coding style
          
 
---===============6194446947468094039==
+--===============1756517909907477415==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1667373679 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1667373763 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1667373619-f033afde7e0a390d2254008c250bd67dc58e3a22
+nonce 1667373703-b2f1f2ecdd1b1565a05a032d0a1dfd45ad9d6e14
 
-aa69ca7d6d6cd2ed2209b4b6c102f2fec3e97012 3b45e2e139c1e71b17a97ae887ba1caadd8e8ad2 refs/heads/staging-testing
+3b45e2e139c1e71b17a97ae887ba1caadd8e8ad2 dba2628c8ec5c2821103090a6ba946eab9da0c1f refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmNiGm8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ZrsQAJxjS8Wf8aTvKRUK8k1L
-uPgJEBAoXRKMozft6Et7cDUoutYhVxhD27YKDT1POm594Ws2aRxtfS+ZOu+qgwZu
-OzNzD7FZSymJBVyzmS9K2hcmq2gX0baHICTIgdkfnWY5RjPc1OyPYZYWEtAJP5DE
-oCKODTA5Xte/fAh9jetaMiCHljDzSyWRXmW+SX2g3DzBGdsbOZDdTuC5fzwQFts1
-8vaYoHxGD2fsnV67jEPG8k5y2asy5MJ9xGZYUt2ngKpbI+W04/kTIY6Qo8+xhjpd
-ZYmU7hEyxqnF3mm3De52nCRfXEhCFnboVMKUtqphwVHyw2n+9RVrK3LGCH134ovE
-xcsbxOSUMOB9YpQ9+SJkjldC6paAHO1xj9feQIgN4XYyM6f9Vunef1COT3UAgmO7
-4YNe8xA3BUkoY/TkONQGVAzsg1C4t+nmzR8Sp5xd+mpo1Z7iNY05jI+ILqvN0FXq
-4DowTc8uolLC1nolb8Tmj7WcpFT+cBTQbo1DJGBdOQjO9Zx7qdUC+/pMsQwlbq3T
-hYZN6HzvGJtth5I5r+pxhpykTF0RG9R5DVUtpw+CQlFS9g5HPH8eTCXbwyt+0Ksq
-CPrusAXKBDqr+qt0yL5eihJiUArw8zn06s3htciiUIUVK2+g3deS4TgogSgUltLg
-hxWSYSbN0ckFcMhyjMqYJbM3
-=df3O
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmNiGsMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+fZMQANAqMsJ3q0vLiwfGXS8g
+OayC6uOk4ticjESFsqcuL1+SULkOOHaWbhcLcs08tTRoCgmSIFWxws4c5+Sg3H1U
+ecpLfO9mZQHFpvtQzaDukTtAYbNwkbgVzTtvZkmUAfatxSVDpA8kk84yJUZqKYvv
+6yvnSC76jDo0dCM3FNntNBrOX0V5VqQcz0l4ToOtcSIn4Z5ugxcNlEZC0/ORzEoE
+6F2Bs2QnRPyoOyeKC288iPapsB0VyxVuJWCvl8askTi1v1kynH1/9aIUINeAVC1u
+RXzeys3Na+MYBZfZO14N2QL0pcgBFHIFMk5PD2NbmMRYZJ+FMaUaYG6PfmjU0+Xw
+Q9sulAt+Ga2YblXZRvf5HLlC9cuY456bvjCCe1QqIU57vezf0vU5Xk/A5LY1jl49
+kSgACY4Og+rnHwWBaOIPzYpFRdnaFHR6gTUiCB7Ywj/aRUgfJmhUvkDVCICj/kF6
+II6VdZzlb9+XGXcUhtOds11dVXwXiCZpYyQvm7pibn6c/XSKwA06iO0Fn+j7bs8g
+q92mKk7u9JSCxYTC7dTDYaeTGHjW8YrxRw7yj4EKLML9gx6bXzOzNzVlnyjIXSyr
+3RPBOrm3sN+4bffEYXfvWM8knEZmrPtmW5j4kN1hfSoPKGWXy82KceCjUt+5W+kA
+NCgT6kviCAVXLJc6VaNahoSK
+=ql4u
 -----END PGP SIGNATURE-----
 
---===============6194446947468094039==--
+--===============1756517909907477415==--
