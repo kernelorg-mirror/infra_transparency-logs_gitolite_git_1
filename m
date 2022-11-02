@@ -1,49 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============6605694255697220700=="
+Content-Type: multipart/mixed; boundary="===============8186193778044788950=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jkirsher/rdma
-Date: Wed, 02 Nov 2022 01:24:59 -0000
-Message-Id: <166735229908.25378.3122127202005532146@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Wed, 02 Nov 2022 01:27:44 -0000
+Message-Id: <166735246405.28969.11882308657247654176@gitolite.kernel.org>
 
---===============6605694255697220700==
+--===============8186193778044788950==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jkirsher/rdma
-user: jkirsher
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-next
-    old: c1842f34fceef47d6285e558004f8e2d6ed91b91
-    new: 692373d186205dfb1b56f35f22702412d94d9420
-    log: revlist-c1842f34fcee-692373d18620.txt
+  - ref: refs/heads/master
+    old: 581587447c1a168f0b85877fa7588603b833b671
+    new: cc6b893b86e1abaa92d398ba667b6f0eb7888050
+    log: |
+         cc6b893b86e1abaa92d398ba667b6f0eb7888050 5.10-stable patches
+         
 
---===============6605694255697220700==
+--===============8186193778044788950==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c1842f34fcee-692373d18620.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-d0b9f28f0da2808b339bb290b539518e69e48ac9 RDMA/qib: Remove not-used variable n
-5dc1b37d75e7136588480712e7173169b3d4164f RDMA/qib: Remove not-used variable freeze_cnt
-2d5206c4629dfe74a51bb9c54758095139f5d01d RDMA/qib: fix repeated words in comments
-c4bb733234b0ffd939030bb592b691ac19519455 RDMA/core: fix repeated words in comments
-65bf03427cee48258a227431577dc56bf70461f3 RDMA/qedr: fix repeated words in comments
-71d236399160ad9beaae7267b93d2d487e8f19a0 RDMA/rxe: Remove the member 'type' of struct rxe_mr
-5ebc548f4f54fe971d741d80cd108f1a45c9e88d RDMA/rxe: Make responder handle RDMA Read failures
-5ac814e02ece516761d2e244cef93843df911ae0 RDMA/rxe: Handle remote errors in the midst of a Read reply sequence
-686d348476ee8006087cfcbef591e28f4f91bd8b RDMA/rxe: Remove unnecessary mr testing
-4508d32ccced24c972bc4592104513e1ff8439b5 RDMA/core: Fix order of nldev_exit call
-05e88ebb9ecfe9631ccc6483a79b0eabf554da60 RDMA/rxe: Remove redundant header files
-98a54f170617746b5d09b18b23b295efc7a42a5e RDMA/rxe: Remove init of task locks from rxe_qp.c
-de669ae8af49ceed0eed44f5b3d51dc62affc5e4 RDMA/rxe: Removed unused name from rxe_task struct
-dccb23f6c312e4480fe32ccbc2afac1a5cac7e5e RDMA/rxe: Split rxe_run_task() into two subroutines
-dcef28528cce82a82134abd393aa0f38f2edf77e RDMA/rxe: Make rxe_do_task static
-63a18baef2653f59a7c5b990283628bd54d062fd RDMA/rxe: Rename task->state_lock to task->lock
-875ab4a8d9a7e559c4aaad28f5886d39923301b7 RDMA/rxe: Make sure requested access is a subset of {mr,mw}->access
-b071850ef62e36b2fc2ec81863f07be857151409 RDMA/rxe: Remove the duplicate assignment of mr->map_shift
-692373d186205dfb1b56f35f22702412d94d9420 RDMA/rxe: cleanup some error handling in rxe_verbs.c
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1667352521 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1667352461-bbb83931efe0b74bdcac79516eb82ab6a3c8122c
 
---===============6605694255697220700==--
+581587447c1a168f0b85877fa7588603b833b671 cc6b893b86e1abaa92d398ba667b6f0eb7888050 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmNhx8kbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk++KEP/A+H/gLY7Y2K8a/SWI49
+YdoqKRvbPeZ4dAdTNRYEPdVR6O95ScpDpEKLd3R6Kgs/tkiCIsl6TyA3WMQ552ug
+MAluAHY18ZWagaDVFJktgntdJVlVv96JiY/VqaxJ+gHP+9OrN1nGOpPJqtLMTo93
+8Kk8Tdgmr+aW/noHYkgQ8sehpg1eWnI/Pb1IwNzgNgbO09xkRr/jCmORzovgVOfJ
+r6zGjZ+cGaAaMu/pOg8rMpgTAHwdJTuKF4IeIlJZPAr5jR76JbYopZz2j5BrLGXh
+4ZbMmbL9mXp4MoOzHHdQ30Yp6NE6DVL9gdodLA5izWq2/DVZMhHKsp3w39lS5Gs3
+G3vbd9siwmL2jzMLvH46JRyhfsJvcP6gDyeGpm0ngv9r7BDlHzuRgMYCbiZQrrBV
+0RsZ6yW163OoU6DVFm2Z6vgVOD8pp4UI1TkzdnCrKHNkSNqGBv83ArVYKJw2myRH
+58erqPe8cdMXj9RPsXeseAnWZyYQIlkTTCYsBd+idbof1AU2UPCUQTT5SXs1MILC
+3uEIWgx7mjjOXm8jgMUoZBRpeXAJee7UxnIi8Rjvj+xjW+jpT3bJRyLfeyWzFjjX
+SLS5AVTvMQATQk5VLqM9Civs6kxCe7FkFSZmdHfBdrJImJv5fxEccvgMwjIya8v2
+o8udzDvO0qRCntUD9csmkMS5
+=U1V1
+-----END PGP SIGNATURE-----
+
+--===============8186193778044788950==--
