@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dlemoal/libata
-Date: Wed, 02 Nov 2022 07:33:30 -0000
-Message-Id: <166737441096.32646.1817655315270854966@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/ethtool/ethtool
+Date: Wed, 02 Nov 2022 08:01:42 -0000
+Message-Id: <166737610258.20859.13615478660579486755@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dlemoal/libata
-user: dlemoal
+repo: pub/scm/network/ethtool/ethtool
+user: mkubecek
 changes:
-  - ref: refs/heads/for-6.1-fixes
-    old: 2ce3a0bf2010b16c78b78cc35a97fa913f1be0ca
-    new: 015618c3ec19584c83ff179fa631be8cec906aaf
+  - ref: refs/heads/master
+    old: 1b7d16496cc8eae7857746f04c845282f27ea7a7
+    new: cbd784424577a6df7a7592e9904a22b5c5d599b7
     log: |
-         171a93182eccd6e6835d2c86b40787f9f832efaa ata: pata_legacy: fix pdc20230_set_piomode()
-         015618c3ec19584c83ff179fa631be8cec906aaf ata: palmld: fix return value check in palmld_pata_probe()
+         cbd784424577a6df7a7592e9904a22b5c5d599b7 fix a warning when compiling for 32-bit
          
