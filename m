@@ -1,43 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============6364451078939315881=="
+Content-Type: multipart/mixed; boundary="===============6373178515426553931=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
-Date: Wed, 02 Nov 2022 01:52:54 -0000
-Message-Id: <166735397493.14621.16735115197132967668@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Wed, 02 Nov 2022 01:53:27 -0000
+Message-Id: <166735400756.14935.6653793786739523387@gitolite.kernel.org>
 
---===============6364451078939315881==
+--===============6373178515426553931==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/liburing
-user: axboe
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 4915f2af869876d892a1f591ee2c21be21c6fc5c
-    new: 9961f57f1fe58a343b8050fa504a0dd1d4fd6425
-    log: revlist-4915f2af8698-9961f57f1fe5.txt
+    old: becb0c87551f193014a55f05b700cad4492a47b2
+    new: f20eee784c894f8dbfd9ed6fa2b2d9b39a0a5300
+    log: |
+         f20eee784c894f8dbfd9ed6fa2b2d9b39a0a5300 5.15-stable patches
+         
 
---===============6364451078939315881==
+--===============6373178515426553931==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4915f2af8698-9961f57f1fe5.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-3ee502dda3271ce320d99a2bfa628762797c7704 Add fsnotify test case
-2e754f5c0824066df84513f973a4104ec711a2f6 io_uring: add a test for missing task work
-40553c253b39bd5129e34ce637dd4ccc05cbf787 Merge branch 'pipe_bug' of https://github.com/DylanZA/liburing into next
-cef776aedb2ab123d3778aaf37443fc32b69a145 test/pipe-bug.c: remove last remaining bzero()
-12151e28740b074b0a42d3cb185cd7fb13433842 test/fsnotify: only test on regular files
-8ac13087afc1a7556720b00cb0b49e45ff2e95dc tests: improve zc cflags handling
-850da9255866e546946d9d340de8e33964177552 tests: pass params in a struct
-1149f324a81bfe4860e7234d77a661fb6b017afd tests: add non-zc tests in send-zerocopy.c
-231a6e44c8a0f965ca4b2ab56cbe80e2aa94b33f tests: add tests for retries with long iovec
-8f9c93036dae1fdee6516f58e95e632b68daf0e1 tests: test poll_first
-b6b86534b01e7b7b48039d7adbe8594df502e7cf tests: test both TCP ends in send zc tests
-0c72b4cdaf051e2d2733a57106bbc012fc9f39d5 Merge branch 'next'
-9961f57f1fe58a343b8050fa504a0dd1d4fd6425 liburing.spec: bump version to 2.4
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1667354065 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1667354004-f455c3aecab2e0c7cc70be1ad590c789f7dfa997
 
---===============6364451078939315881==--
+becb0c87551f193014a55f05b700cad4492a47b2 f20eee784c894f8dbfd9ed6fa2b2d9b39a0a5300 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmNhzdEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+/NQP/3o8qZhFx7nYnjxGSsfL
+xNdv844TExQo5N3+TrheD25aPLg1C0dzhmIZJQehY1587tjdO9Wom5/5+8xTj+Zd
+U+hEEaI1pTb1exMVyvhKNpyaNfMneTvjGNfOszBbYIqDu80rWAYckcogKEAypzJ9
+1ZDlJOfD1TLo9WEIslccEXVbf/cDoiVDK6ZPkfNPY+KRaT9tQSN7idx0nxH9h9bR
+rYl6z52RHC+nS1gbfClHhpgHzWq82jPekBROcbRh2utyxoGpdyBx4YoDyRrcIR0e
+B11qlp+9/Idf3T8DlR/T+omgbV/QJ/28fN32ftmyrBkMQKQwRmoMTF+b447td4ne
+iQe74C7hBvU70T3jumisetihRUk2miW53nainWp2dvBvTUFKXM4sRTdGszrECflg
+bPLDRnEXSGtJJbe8gGXrMMEqGciRjHJEasdP1LGQuJV2YTmBUBpn+9Cl2p2yHEC+
+QXzsRtweqgVy3Mz9itRlICoUVyQC0yxM5Ow/v++sNj0ulJJRpKPQxzQniM3zsapL
+m/8C8cwBJUPmmYiwEaxj24GDhcRWi+Pp70fhrDmRuRl2/ER6ZJ6lN+LIhWnrGqZ+
+HkwCkf3HiqLCitJaqV/SgsdkAeC0DxIy8nKL8dpj73jnOP8Zw3u3iXRWCAwiPbTX
+gmzpLcS/kYuefFYNDbrhZdvr
+=DB2i
+-----END PGP SIGNATURE-----
+
+--===============6373178515426553931==--
