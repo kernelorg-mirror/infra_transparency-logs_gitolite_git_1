@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6020993789934480395=="
+Content-Type: multipart/mixed; boundary="===============0508918082228718022=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
-Date: Wed, 02 Nov 2022 17:36:11 -0000
-Message-Id: <166741057117.28670.149007339676819744@gitolite.kernel.org>
+Date: Wed, 02 Nov 2022 17:36:44 -0000
+Message-Id: <166741060466.28961.5946295286298372483@gitolite.kernel.org>
 
---===============6020993789934480395==
+--===============0508918082228718022==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/xiang/erofs
 user: xiang
 changes:
-  - ref: refs/heads/master
-    old: 9abf2313adc1ca1b6180c508c25f22f9395cc780
+  - ref: refs/heads/dev-test
+    old: ce4b815686573bef82d5ee53bf6f509bf20904dc
     new: 30a0b95b1335e12efef89dd78518ed3e4a71a763
-    log: revlist-9abf2313adc1-30a0b95b1335.txt
-  - ref: refs/tags/v6.1-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 0083e89728f57eae559c1ed1ac1e44487565feb1
+    log: revlist-ce4b81568657-30a0b95b1335.txt
 
---===============6020993789934480395==
+--===============0508918082228718022==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9abf2313adc1-30a0b95b1335.txt
+Content-Disposition: attachment; filename=revlist-ce4b81568657-30a0b95b1335.txt
 
 f7ec3f62d7736ed14050716943a9562879155fcc media: remove reference to CONFIG_EMBEDDED in MEDIA_SUPPORT_FILTER
 41fd1cb6151439b205ac7611883d85ae14250172 media: mceusb: Use new usb_control_msg_*() routines
@@ -318,9 +315,6 @@ c000a2607145d28b06c697f968491372ea56c23a KVM: arm64: vgic: Fix exit condition in
 2d1f274b95c6e4ba6a813b3b8e7a1a38d54a0a08 skmsg: pass gfp argument to alloc_sk_msg()
 b6291023f659482fdb25f8ee5ab00c74682e658c hwmon: (corsair-psu) fix typo in USB id description
 3008d20f5445ee6f214e3b2d42114c8c923d9625 hwmon: (pwm-fan) Explicitly switch off fan power when setting pwm1_enable to 0
-664609e49f1c84fc97987b2bf64544e586b8849c erofs: fix illegal unmapped accesses in z_erofs_fill_inode_lazy()
-63bbb85658ea43dd35dbfde6d4150b47c407fc87 erofs: shouldn't churn the mapping page for duplicated copies
-e7933278b442f97809b1ea84264586302bd08a03 erofs: fix up inplace decompression success rate
 280330fac48280e16454cfa46c368af4812ad79c Merge branch 'master' into mm-hotfixes-stable
 38eddb2c75fb99b9cd78445094ca0e1bda08d102 io_uring: remove FFS_SCM
 4d5059512d283dab7372d282c2fbd43c7f5a2456 io_uring: kill hot path fixed file bitmap debug checks
@@ -331,7 +325,6 @@ e7933278b442f97809b1ea84264586302bd08a03 erofs: fix up inplace decompression suc
 5c61795ea97c170347c5c4af0c159bd877b8af71 io_uring/rw: remove leftover debug statement
 979556f1521a835a059de3b117b9c6c6642c7d58 ata: ahci-imx: Fix MODULE_ALIAS
 1e41e693f458eef2d5728207dbd327cd3b16580a ata: ahci: Match EM_MAX_SLOTS with SATA_PMP_MAX_PORTS
-ce4b815686573bef82d5ee53bf6f509bf20904dc erofs: protect s_inodes with s_inode_list_lock for fscache
 0dec4d2f2636b9e54d9d29f17afc7687c5407f78 iio: light: tsl2583: Fix module unloading
 7578847b5949db3a75163908bd99c46d27e8b19f iio: adc: mcp3911: fix sizeof() vs ARRAY_SIZE() bug
 a83695a666eb3541873c3c9734ec4e1d10ca2d7f iio: adc: mcp3911: return proper error code on failure to allocate trigger
@@ -992,4 +985,4 @@ c4d25ce6e9de47f6d9fb6cc1a34b47ce5f0a46ab Merge tag 'usb-6.1-rc3' of git://git.ke
 b72018ab8236c3ae427068adeb94bdd3f20454ec Merge tag 'fbdev-for-6.1-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/linux-fbdev
 30a0b95b1335e12efef89dd78518ed3e4a71a763 Linux 6.1-rc3
 
---===============6020993789934480395==--
+--===============0508918082228718022==--
