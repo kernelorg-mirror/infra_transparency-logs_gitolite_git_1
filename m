@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 02 Nov 2022 04:23:21 -0000
-Message-Id: <166736300131.26415.13911832344172173394@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jj/linux-apparmor
+Date: Wed, 02 Nov 2022 04:24:50 -0000
+Message-Id: <166736309036.27175.3775596846312299749@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/jj/linux-apparmor
+user: jj
 changes:
-  - ref: refs/heads/master
-    old: 6f1a298b2e24c703bfcc643e41bc7c0604fe4830
-    new: b0e01253a764faab9ecf56c0759e6b06470eb9ff
+  - ref: refs/heads/apparmor-next
+    old: 63bfd1c409f249c493aed7ba5ccf072fa6290448
+    new: 4295c60bbe9e63e35d330546eeaa1d2b62dae303
     log: |
-         44827016be44c6b2634a92ebbdb3d95610ff5268 net: core: inet[46]_pton strlen len types
-         b0e01253a764faab9ecf56c0759e6b06470eb9ff tcp: refine tcp_prune_ofo_queue() logic
+         f6c64dc32ab91b4c37fa2a255d2270f4ff0b95ba apparmor: Add __init annotation to aa_{setup/teardown}_dfa_engine()
+         4295c60bbe9e63e35d330546eeaa1d2b62dae303 apparmor: Fix uninitialized symbol 'array_size' in policy_unpack_test.c
          
