@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Wed, 02 Nov 2022 11:57:52 -0000
-Message-Id: <166739027210.8008.7901342770234690716@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Wed, 02 Nov 2022 12:07:02 -0000
+Message-Id: <166739082272.14491.6643684125756349588@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: davem
 changes:
   - ref: refs/heads/master
-    old: ecaf75ffd5f5db320d8b1da0198eef5a5ce64a3f
-    new: e97c089d7a49f67027395ddf70bf327eeac2611e
+    old: 82fd151d38d9fda714c5bb2e9e79ecd6bdc72da6
+    new: 7e8cdc97148c6ba66671e88ad9f7d434f4df3438
     log: |
-         e97c089d7a49f67027395ddf70bf327eeac2611e rose: Fix NULL pointer dereference in rose_send_frame()
+         7e8cdc97148c6ba66671e88ad9f7d434f4df3438 nfc: Add KCOV annotations
          
