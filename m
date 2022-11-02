@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8938666483024650610=="
+Content-Type: multipart/mixed; boundary="===============1605019556763324693=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Wed, 02 Nov 2022 02:19:56 -0000
-Message-Id: <166735559691.1917.7028784514088209860@gitolite.kernel.org>
+Date: Wed, 02 Nov 2022 02:19:58 -0000
+Message-Id: <166735559890.1995.12519293843445332835@gitolite.kernel.org>
 
---===============8938666483024650610==
+--===============1605019556763324693==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,91 +16,107 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.9.y
-    old: bdc8a139fb2492af5ea7ad6ecce6f64645d0aa8d
-    new: c8644fcd30082db200dd0663c60b1f5e01734ee8
-    log: revlist-bdc8a139fb24-c8644fcd3008.txt
+  - ref: refs/heads/linux-4.14.y
+    old: a85772d7ba90b1da9b96451197bae24adce1bb0b
+    new: 0ac5e522677d1a65175d4aa1681137ee4c25f534
+    log: revlist-a85772d7ba90-0ac5e522677d.txt
 
---===============8938666483024650610==
+--===============1605019556763324693==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1667355653 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1667355655 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1667355593-dbfd2583cb6c3bb3b7c1648d3343d1b6053544a8
+nonce 1667355596-f9b52252de339299793b922618b62aa85b7fe27d
 
-bdc8a139fb2492af5ea7ad6ecce6f64645d0aa8d c8644fcd30082db200dd0663c60b1f5e01734ee8 refs/heads/linux-4.9.y
+a85772d7ba90b1da9b96451197bae24adce1bb0b 0ac5e522677d1a65175d4aa1681137ee4c25f534 refs/heads/linux-4.14.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmNh1AUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+YRwP/jJm6SAAgq0d7U/Ek5ad
-zXLByzRxhMHSM/qPlGU6Exy17/E5RPuTzR43jKRIGDWHb9jVA5Y5KyeBEKO18BiE
-8alKiOZs/H9yqCTOhoIpObnSGS3G9OQgCUNiq2Qfl5hldFoVDUOyJgSfLtedAUPK
-dtYIqCBfE23A6SI9igo4icQks+TVPbksxhMSG8hdwbkqHBDztzFTEFZVBQp1CfCS
-7OToiG0ZI5c+WOsie79PxAY11y+i1V46UtineN4kqjO0nPyqozk1EJiawYF3yCtU
-xtaMJHYMivDJYzcKCV+FmDpDHZIUAjTmM+tO8bBUAORH162Vv58Ad/p9UXPvQeO+
-wrx+sxRcxdL4I72A6QxFzsOLm70p1hG9IgFXNcwGLLnAVdA6nxaVdQtQWEBrxbYE
-HZpnHD0nbQqF2hycMW0adD1MgRKoHmxD4DAdxCbBC3cLf4+++97jUn4JGllJJq8g
-rteUCxyXF9fjMNkIXwrTQ1O0dv5a9HalhnOkNkNSnLDp+gqePLCfkpYTQT8wUIbQ
-IpWZksJxVY9ZxTWPmThZxv9bhH1o0wirv3vVN24zIXUN8R6sWoCQUBQKnYonU4sU
-HPoY8VQ0Qe54Q8KY4e59zAhE8UxKMPtyT4b3zlEJG8cO8nUcEhDcBpWe53hLglrh
-SoWn8Lc+CwKuxNE1qHa/BDLF
-=RRob
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmNh1AcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+WtEP/2GIbgs2bjxi1LrST4IX
+am5OAadrAb0wTiI2YBQNDtraMSL4+rsuF16o0YwCxC7xHtm94TEJeUZDKRtdYTJy
+SG978FzYFo2PSEaZuXF7Siz7E/DhlvtP25rPlWFex59TqTnoVIfxDZJ9ALh0nOR4
+ZtSR8aeIxEuYTS4jPzjld/qZZf4OkBA67P+B/qCKZOUAS+L0u0iid9MZdSFeYIal
+p2JLcxB2oM72Lmu9uDuKvRmHRsowhMk7Txu1fh7c4vc/JhSgs9cPMW1ryP/vdAc3
+wdyAv5HYbQ6m6ZH50/OO4Jym4Wa2jILRj55EePsBGlxjxzPwMyavHwMsoTL2NNKN
+piClGgQZVe65h1hxXY+QoaqzDDB/fdGIFsFsx8ClvwfEQuGp9jjoyQwtw0IilFqS
+Rn/+IyQdOQk2KZkMe8P919W/zJYjcik0YVtOjTwkcUiOS3osHAH15nZcTc2pLWMh
+cP9wCNim9RW+iXtqikSMd87oG9IqQgJAiatJC3ZCLlvfl/7Fg5ZHsw1ZWDVIPmSP
+LFhoDbdLxQHkVlsYVpXT98cyagGupOrykc5oVuuNyYLxa+WgWb9KRRQT8NqzlLqd
+SGyV7ufvtRfYtEpWZBSp0CGVWwMGM8cifM9BkOeyhL2qPEaZWQA2T0UDdpHaGUdx
+4/hlvXyiwrunji/WgUDIx0y5
+=K99E
 -----END PGP SIGNATURE-----
 
---===============8938666483024650610==
+--===============1605019556763324693==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bdc8a139fb24-c8644fcd3008.txt
+Content-Disposition: attachment; filename=revlist-a85772d7ba90-0ac5e522677d.txt
 
-fd21f559290f590a727365787b904460a71723f5 ocfs2: clear dinode links count in case of error
-1c8da15d8fb56848fabf324473d8531388b74755 ocfs2: fix BUG when iput after ocfs2_mknod fails
-9cc42d61c77fb84e394c9070f16f1cddd47f816d ata: ahci-imx: Fix MODULE_ALIAS
-07030d70c60998f6949650ace0a3a2ec1d06bd15 ata: ahci: Match EM_MAX_SLOTS with SATA_PMP_MAX_PORTS
-cf3569758220b5082a7a5cc6dfed50e4416e0028 arm64: errata: Remove AES hwcap for COMPAT tasks
-e25fd6678bb7b647a1db1d78486bcc2b166dfaa8 HID: magicmouse: Do not set BTN_MOUSE on double report
-b51bfccc48a8eb4ab1388803aa3527382d233882 net/atm: fix proc_mpc_write incorrect return value
-2bec699d581fa64fb1b3557cee664ef56cdc4a02 net: hns: fix possible memory leak in hnae_ae_register()
-e2980c66a925e63ec7f3b262071cfe227f483426 ACPI: video: Force backlight native for more TongFang devices
-739c7ab4272172735091080a3b97d3879ffdd18e ALSA: Use del_timer_sync() before freeing timer
-f3b2e29596ccc08a0f8ba7f6516bddb91ee17629 ALSA: au88x0: use explicitly signed char
-0a8183527a3502e449dee87f444c54bef4af8d18 USB: add RESET_RESUME quirk for NVIDIA Jetson devices in RCM
-c2e74f478f13a609dce6b59d82703b899ccd3959 usb: bdc: change state when port disconnected
-8ba1e622ef533c459c5fd28d454de6544f7e049e xhci: Remove device endpoints from bandwidth list when freeing the device
-bf93775f8a9de11b52583bdd34302c20da9e7cb5 tools: iio: iio_utils: fix digit calculation
-e49373f9014b0ee197d7f952c94cbe2ff3bab847 fbdev: smscufx: Fix several use-after-free bugs
-29b7943f4b0ec95b87b9dea67f20f6e89bcb4f27 mac802154: Fix LQI recording
-18b8319574d8232123a5a5c44989697ba2394c0a drm/msm/hdmi: fix memory corruption with too many bridges
-50deae27329d595fbf965ae994aec621cc3237d5 mmc: core: Fix kernel panic when remove non-standard SDIO card
-cbc5138884587b5873a78b72571e2b0de7f7d73b kernfs: fix use-after-free in __kernfs_remove
-7704e059f56e510b77798b6fb3f2494e72fbeca3 s390/futex: add missing EX_TABLE entry to __futex_atomic_op()
-28a5b6b1f93fb2a3150c1d4a70a56ed678fb7e82 Xen/gntdev: don't ignore kernel unmapping error
-7c2b0e29144f6a37ea7be18d4dce23e2dd8b14f8 xen/gntdev: Prevent leaking grants
-1dba1166f607725d921377861769a8c576abb66b mm,hugetlb: take hugetlb_lock before decrementing h->resv_huge_pages
-eb331b03d25b34366cdb157df1d286b9d02e6454 net: ieee802154: fix error return code in dgram_bind()
-e1bf7092e538738bdca8479110efd2b4cdef64c1 drm/msm: Fix return type of mdp4_lvds_connector_mode_valid
-92e7e0d476de1282fc03de0a9daea16ca5a814fa arc: iounmap() arg is volatile
-4c5ecd4803a6303d92dfa78bae58b3055132ada7 ALSA: ac97: fix possible memory leak in snd_ac97_dev_register()
-6d77d08abad060cc37a80bb5c866ec731ad2cdf5 kcm: annotate data-races around kcm->rx_psock
-01f5957d617244e2edc4bf912a9f574c12a03f49 kcm: annotate data-races around kcm->rx_wait
-7e61f8921d84ac59daef94f6a3fda047ae8980ed net: lantiq_etop: don't free skb when returning NETDEV_TX_BUSY
-58e01da0434529cd4d1ca25e24cbbe02cbcdd385 tcp: fix indefinite deferral of RTO with SACK reneging
-776c2b3f28b712fb4286c0b42f98464072b2bb27 can: mscan: mpc5xxx: mpc5xxx_can_probe(): add missing put_clock() in error path
-c54aaf3f430c6d72ffb17dcc3fa2bfb960c30294 media: vivid: s_fbuf: add more sanity checks
-a5c0d59a5d3b05319ea91fe266780c4ab965805d media: vivid: dev->bitmap_cap wasn't freed in all cases
-cea039b9d43704dc23494f831c0d8b5c8a35388b media: v4l2-dv-timings: add sanity checks for blanking values
-b5ee4696f16477a968c3d99372e687e9d24e905b media: videodev2.h: V4L2_DV_BT_BLANKING_HEIGHT should check 'interlaced'
-b47a47e5429fa5cb5bf1e9b32cf01aae903ee910 i40e: Fix ethtool rx-flow-hash setting for X722
-f747e6c087267e510782692eaf7cb79581990146 net: ksz884x: fix missing pci_disable_device() on error in pcidev_init()
-5fed33ba83baf2f20f346fb6fa1b05dc72a2a037 ALSA: aoa: i2sbus: fix possible memory leak in i2sbus_add_dev()
-42232f3528482fd7e783e70c9fbf80906aac5a7a ALSA: aoa: Fix I2S device accounting
-6ec1c0a77a585aca0242b52826a01dbc2044d128 openvswitch: switch from WARN to pr_warn
-b1d3306ff89b342ed419fc6e8b01a2fff8b98ddf net: ehea: fix possible memory leak in ehea_register_port()
-7b4a297740ba5e811f987370d42c45c3e8d0c79e can: rcar_canfd: rcar_canfd_handle_global_receive(): fix IRQ storm on global FIFO receive
-c8644fcd30082db200dd0663c60b1f5e01734ee8 Linux 4.9.332-rc1
+b92a4bc880068acb50eec7a9bec141a5268910ea ocfs2: clear dinode links count in case of error
+d5a7f802cb8d368bd9f6106aa1e1a43dd11cb9de ocfs2: fix BUG when iput after ocfs2_mknod fails
+e560654d895032605cd219148b79a7d1d0f81113 x86/microcode/AMD: Apply the patch early on every logical thread
+2456a98419f94b8b40eb63396ecd25d7a5c67975 ata: ahci-imx: Fix MODULE_ALIAS
+853da20f955b9dbe9c0d2593cacf67dd484948a8 ata: ahci: Match EM_MAX_SLOTS with SATA_PMP_MAX_PORTS
+0a82eaa45eb4f301bfc46b1742dcf9978efc78f2 KVM: arm64: vgic: Fix exit condition in scan_its_table()
+e0c9a1f7aece345146075fa67c1da6a4381d0c9c arm64: errata: Remove AES hwcap for COMPAT tasks
+df0fa79e6713fc0842caf54bd452582c74361076 r8152: add PID for the Lenovo OneLink+ Dock
+fa540664c859d7f8df21b0fee9a0cb980b438130 btrfs: fix processing of delayed data refs during backref walking
+3289ee987f3e2c47bc7988a8a9cfede8c7be9812 ACPI: extlog: Handle multiple records
+f7bd6c296882fe3a4bdb92217f300de486f5f6a8 HID: magicmouse: Do not set BTN_MOUSE on double report
+0f6c12b8177829f4a1fe02b8204e28cae31fd00a net/atm: fix proc_mpc_write incorrect return value
+dedb0e47b657f6c9d9f06b3012db8423f088ea12 net: hns: fix possible memory leak in hnae_ae_register()
+4a3384d9846af638937a772a18027d9f712ecbb8 iommu/vt-d: Clean up si_domain in the init_dmars() error path
+9302a4b5ec9e2686e26a76b6c11d5547c7fa5fde media: v4l2-mem2mem: Apply DST_QUEUE_OFF_BASE on MMAP buffers across ioctls
+969426265c612e087dea269e7e6d992a1a7ddf08 ACPI: video: Force backlight native for more TongFang devices
+a98e0bb00f6a8c0ca71935e4423c705672ad1a26 ALSA: Use del_timer_sync() before freeing timer
+b1d9847e2a06f77b955a48dc27baa5b4275c92fe ALSA: au88x0: use explicitly signed char
+3a5c6a5c1d1912d90e0300ad4e773bd11474a2ea USB: add RESET_RESUME quirk for NVIDIA Jetson devices in RCM
+f7155397c42e30726972a9d46020ff1954830ed9 usb: dwc3: gadget: Don't set IMI for no_interrupt
+5dc3751007514e9a1e211bbaa8a92279cd141f2e usb: bdc: change state when port disconnected
+5793014556e1494b343f91d9c1fa19470af61b99 usb: xhci: add XHCI_SPURIOUS_SUCCESS to ASM1042 despite being a V0.96 controller
+7d0b78f3cb199d5a3beea9fd0a11b9113ce7f66e xhci: Remove device endpoints from bandwidth list when freeing the device
+e79321ee1462a90c1e605cc0823f31a09ea6fcc7 tools: iio: iio_utils: fix digit calculation
+989bf1cd6bb115b4618e263e92922026995f48db iio: light: tsl2583: Fix module unloading
+85e5531ec4796b8846c21d276b3260244ec46c00 fbdev: smscufx: Fix several use-after-free bugs
+478a9a06c37c1a1cf790958bc61344a700bda891 mac802154: Fix LQI recording
+77b399d65cbabf722a2a38518ffd7c491f07ca68 drm/msm/hdmi: fix memory corruption with too many bridges
+f17272d6b6bd4cbe8b628e82d22be9f732289cdc mmc: core: Fix kernel panic when remove non-standard SDIO card
+c7c95cc3dd30452a377ad77a35c40f93322723fa kernfs: fix use-after-free in __kernfs_remove
+d453113b8b5f57d6968b0fb6f83107c98a082e27 s390/futex: add missing EX_TABLE entry to __futex_atomic_op()
+a63b9f9667ab6ea863054777371c8848dd1a28b7 Xen/gntdev: don't ignore kernel unmapping error
+1e1fd2008bc8e59de68540fcf9fbbcbd38943d23 xen/gntdev: Prevent leaking grants
+004eff77fd9951c934707a3206795e0cd2eeee9c mm,hugetlb: take hugetlb_lock before decrementing h->resv_huge_pages
+cc2df840fa91efc2394581e58c3c63626b6899a7 net: ieee802154: fix error return code in dgram_bind()
+daa7335e90dad32a7a3d6e4f7d12e59ea52384bf drm/msm: Fix return type of mdp4_lvds_connector_mode_valid
+cb509cfd5b84fbc3b94fda3f3664d3b82641d241 arc: iounmap() arg is volatile
+0ae833f056070d2288727d3ddde995225ec6136c ALSA: ac97: fix possible memory leak in snd_ac97_dev_register()
+1c7226abbc5ad94a6b08a2ab88e33d0547efe075 x86/unwind/orc: Fix unreliable stack dump with gcov
+3635c15193ecfdd315c98376acc1ea3353f0608e amd-xgbe: fix the SFP compliance codes check for DAC cables
+cc5defea0d6e09688734e63cc599895486591ce1 amd-xgbe: add the bit rate quirk for Molex cables
+a4b4066eefd33c8b000ecac7e0aaa2dba0787fa6 kcm: annotate data-races around kcm->rx_psock
+79375ecb729bf1b065b384c70679d6d632275466 kcm: annotate data-races around kcm->rx_wait
+8149369801fcfe1fb1c9e5e35c9ed974e8d00d70 net: lantiq_etop: don't free skb when returning NETDEV_TX_BUSY
+a9c52628ef7e6fb719f63abe3fbc1a5726416e6c tcp: fix indefinite deferral of RTO with SACK reneging
+a966fa45f689868a7543670e4e4a7af49057d3e2 can: mscan: mpc5xxx: mpc5xxx_can_probe(): add missing put_clock() in error path
+d45c1eabfdcbf542106e5fe7683158810faffe0f PM: hibernate: Allow hybrid sleep to work with s2idle
+858c3266d017bf88b70bd160361df1999b208fd3 media: vivid: s_fbuf: add more sanity checks
+2b0804df0ae33edb3d70675cd527a2998ff2e616 media: vivid: dev->bitmap_cap wasn't freed in all cases
+4e82c73f4fa43b51841b621b02c8b105429a4b6e media: v4l2-dv-timings: add sanity checks for blanking values
+b4bcf8f11703be360dd99ea2fa721762ed4989ba media: videodev2.h: V4L2_DV_BT_BLANKING_HEIGHT should check 'interlaced'
+5d5fa3e95b22ae756978acba567645d1a1c204b9 i40e: Fix ethtool rx-flow-hash setting for X722
+4dc5a4d922fdf056931e5dafd6822326ab5457e6 i40e: Fix flow-type by setting GL_HASH_INSET registers
+5601d5974f6ff1a898b7cc047cdccbfb81b15338 net: ksz884x: fix missing pci_disable_device() on error in pcidev_init()
+9f0bb130af7755dfa804d00e8f521f18cfda031b PM: domains: Fix handling of unavailable/disabled idle states
+4584d937fbfabb1e543a4ae8f96efd5253c6ebb5 ALSA: aoa: i2sbus: fix possible memory leak in i2sbus_add_dev()
+b11aea94b04687a92a74c44475b30bd016fd3c43 ALSA: aoa: Fix I2S device accounting
+459cd16d410d7fe9e15215de0413b09e96c69e9e openvswitch: switch from WARN to pr_warn
+f4789788ef1af711d24a11e0da669709d1a3d774 net: ehea: fix possible memory leak in ehea_register_port()
+49a3477f39ed1fde31ef8d910bdccc85fe1a828b can: rcar_canfd: rcar_canfd_handle_global_receive(): fix IRQ storm on global FIFO receive
+0ac5e522677d1a65175d4aa1681137ee4c25f534 Linux 4.14.298-rc1
 
---===============8938666483024650610==--
+--===============1605019556763324693==--
