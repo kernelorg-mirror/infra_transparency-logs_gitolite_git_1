@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4807423467715884427=="
+Content-Type: multipart/mixed; boundary="===============3321064413533444155=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Wed, 02 Nov 2022 22:18:03 -0000
-Message-Id: <166742748346.2727.1843051775274179883@gitolite.kernel.org>
+Date: Wed, 02 Nov 2022 22:18:15 -0000
+Message-Id: <166742749555.2862.14149639502484691923@gitolite.kernel.org>
 
---===============4807423467715884427==
+--===============3321064413533444155==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: ef2dd61af7366e5a42e828fff04932e32eb0eacc
-    new: b54a0d4094f5c94eda1cafad44323306afe8f807
-    log: revlist-ef2dd61af736-b54a0d4094f5.txt
+  - ref: refs/heads/dev-queue
+    old: 343ef429052f0ebd067a456d8deb226ea2956810
+    new: 55f71c9f4e2ad7e15dd3506f69fe7346ee893f79
+    log: revlist-343ef429052f-55f71c9f4e2a.txt
 
---===============4807423467715884427==
+--===============3321064413533444155==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ef2dd61af736-b54a0d4094f5.txt
+Content-Disposition: attachment; filename=revlist-343ef429052f-55f71c9f4e2a.txt
 
 05ee658c654bacda03f7fecef367e62aaf8e1cfe samples/bpf: Fix map iteration in xdp1_user
 7a698edf954cb3f8b6e8dacdb77615355170420c samples/bpf: Fix MAC address swapping in xdp2_kern
@@ -105,5 +105,50 @@ e39e739ab57399f46167d453bbdb8ef8d57c6488 bpf: check max_entries before allocatin
 97c4090badca743451c3798f1c1846e9f3f252de bpf: Remove the obsolte u64_stats_fetch_*_irq() users.
 3a07dcf8f57b9a90b1c07df3e9091fd04baa3036 samples/bpf: Fix typo in README
 b54a0d4094f5c94eda1cafad44323306afe8f807 Merge tag 'for-netdev' of https://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf-next
+5a3c8dd8b0fa446e247b634c37c003e7d3d99809 e1000e: Separate MTP board type from ADP
+ea3c931dea3e16f682044d9937c7a2a27870f449 ice: Add 'Execute Pending LLDP MIB' Admin Queue command
+f164a12fa65c84b8863cdea686dab1d2c864908f ice: Handle LLDP MIB Pending change
+7c0ce5b50edeaa5c23b0160c75d1de8e7fa3a996 ice: Support 5 layer topology
+0b0fdbc44714d38b4b7c069e52ae41e2734b482e ice: Adjust the VSI/Aggregator layers
+127e69a2fe81f51ee2d115226dd41a966175415d ice: Enable switching default tx scheduler topology
+00d866d7cae557f6d5fd958d506c79d3ca8a0e04 ice: Add txbalancing devlink param
+9f3565ae8d21dc7e99346fea6523bf0f676126c3 ice: Document txbalancing parameter
+4301a3216602bc03cca6f3f3b1fd90413736887d i40e: Add appropriate error message logged for incorrect duplex setting
+a7f3b6f6fef89de932bb96b5a5a10c775ddf3e54 ice: Add GPIO pin support for E823 products
+9da94eebf1c6ea65fd17148ce1ec32607f64c1b6 e1000: Remove unnecessary use of kmap_atomic()
+0b4eb93041298988e38601aa48dac41d38e7cd70 e1000e: Add e1000e trace module
+a9e838008857c936e763d9db837ca2baac7ee4ac ice: Add crosstimestamping on E823 devices
+29a02862d892f9177ae5306e762fc9782ead3e28 ixgbe: Remove local variable
+78b100167e2ae8b8c7f0a58bae4adbfed6836096 e1000e: Add support for the next LOM generation
+b678b187c74782a4186c9eb58ce2113ca73c0c18 e1000e: Remove unnecessary use of kmap_atomic()
+48ea8ffc02bdabd4d2bf0f24f16c4e36adbda82f igc: Correct the launchtime offset
+5f1ffdc50de96bcd5c160dc52eb475ea3e6c9721 ixgbevf: Add error messages on vlan error
+0cbc1e643ad2a792891136310c95f394981085c4 ice: Fix spurious interrupt during removal of trusted VF
+d7eac8d8d0c1a8aa2efae155e2140e15d3b75799 i40e: Store the irq number in i40e_q_vector
+837e12744b2eba8d715d5d59ab92b13f512be7f5 i40e: Record number TXes cleaned during NAPI
+0502b769628598ca8001db2094af4abc9c20e2a7 i40e: Record number of RXes cleaned during NAPI
+793540616fccf7a59ec5f60f6a06405744295769 i40e: Add i40e_napi_poll tracepoint
+0320bd7f63731558fc15a23210251b187b848319 i40e: Fix failure message when XDP is configured in TX only mode
+aef32111d03b87fa0cf52100eb0ecd538018290c i40e: fix xdp_redirect logs error message when testing with MTU=1500
+44c14cda0ee231bb61f8aeb41f00536e0abeab7b iavf: Fix VF driver counting VLAN 0 filters
+8243f065a249018efb98819da9d20328ee5598be ice: Check for PTP HW lock more frequently
+33a0b1a7048489412f4263ae5e24db0eed2c7fa2 ice: Remove gettime HW semaphore
+cc323dbe4a797614372bc6e188a579c3d279df65 iavf: Replace __FUNCTION__ with __func__
+9c954758a9f4796215c5fe90676e6a69d21c35ed ice: use GNSS subsystem instead of TTY
+4785a54e3a5b9b9cf1be19be9608ed4d5e715a98 igb: Do not free q_vector unless new one was allocated
+7059965d4e9c5c07c1451cdae212f1b5c04f57d7 igb: Proactively round up to kmalloc bucket size
+d4d6c7a00cf5dfb0ae73662b3e71e564aec24c70 ixgbe: change MAX_RXD/MAX_TXD based on adapter type
+b83dd8730567807fbd8a177e712e2442f4dc84ec i40e: Fix not setting default xps_cpus after reset
+fc513561b808ce7924e427475db873df759eb58c e1000e: Fix TX dispatch condition
+490220e603af5bf9b1902d3a3fe8b19daebca470 ice: Accumulate HW and Netdev statistics over reset
+0165ae87abea63089b26f4bffac050f0afdc0c74 ice: Accumulate ring statistics over reset
+b7de443aa8ae69577507bdbfd87fc657e5c26734 iavf: Change information about device removal in dmesg
+45775f3f301a664c3d8155df4aabf63907f0ebcb iavf: check that state transitions happen under lock
+0bf43862de5d487e9ba52b63d353702e8045b0e0 ice: Fix off by one in ice_tc_forward_to_queue()
+89336b135670a0694b225b06aeb440aea275181c i40e: Fix for VF MAC address 0
+6f3645c60cd14885c7f335ae01b9591c47d58262 ice: Remove and replace ice speed defines with ethtool.h versions
+a5d6515bf891e0c41a498c51cb9fb5d091819187 ice: move devlink port creation/deletion
+d3abc15765afd32fdac44a2e415ae004fdfd8704 i40e (gcc13): synchronize allocate/free functions return type & values
+55f71c9f4e2ad7e15dd3506f69fe7346ee893f79 igc: Use strict cycles for Qbv scheduling
 
---===============4807423467715884427==--
+--===============3321064413533444155==--
