@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Thu, 03 Nov 2022 03:49:13 -0000
-Message-Id: <166744735339.15753.15060241626800344747@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 03 Nov 2022 03:52:04 -0000
+Message-Id: <166744752471.18326.13990826374825575508@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/master
-    old: 3319dbb3e755398f254c3daa04b9030197137efe
-    new: d3a4706339da26633316357efe7ab9a92ff29b2a
+    old: f8017317cb0b279b8ab98b0f3901a2e0ac880dad
+    new: 768b3c745fe5789f2430bdab02f35a9ad1148d97
     log: |
-         42e51de97cb449aa7d2aa1638cb5fcd2695b8f98 rocker: Avoid unnecessary scheduling of work item
-         386b4174827ce0c7ecc789a6c8bf98e994dc2dee rocker: Explicitly mark learned FDB entries as offloaded
-         d3a4706339da26633316357efe7ab9a92ff29b2a Merge branch 'rocker-two-small-changes'
+         628ac04a75ed5ff13647e725f40192da22ef2be8 bridge: Fix flushing of dynamic FDB entries
+         768b3c745fe5789f2430bdab02f35a9ad1148d97 ipv6: fix WARNING in ip6_route_net_exit_late()
          
