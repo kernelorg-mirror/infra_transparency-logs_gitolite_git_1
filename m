@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============6813934262273370477=="
+Content-Type: multipart/mixed; boundary="===============8999282856510287887=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Thu, 03 Nov 2022 16:23:52 -0000
-Message-Id: <166749263224.9931.7041011707013929779@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Thu, 03 Nov 2022 16:23:58 -0000
+Message-Id: <166749263838.10055.12811224768703133154@gitolite.kernel.org>
 
---===============6813934262273370477==
+--===============8999282856510287887==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.2
+  - ref: refs/heads/asoc-6.2
     old: 0d183c27ed30a3b21a8fbd6db4d1d7779faf1503
     new: a0e7636bf3746b645aadd94998f01063406d7688
     log: |
@@ -30,28 +30,28 @@ changes:
          a0e7636bf3746b645aadd94998f01063406d7688 Modify documentation and machine driver for mt8186_rt1019_rt5682s sound card
          
 
---===============6813934262273370477==
+--===============8999282856510287887==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1667492630 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1667492630-7d006303b0dcbb724b1b0624df5bfef8cdb3bac9
+pusher C3F436CA30F5D8EB 1667492636 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1667492636-4f774649699ad70d5ca33054d15778d4fd94f5c0
 
-0d183c27ed30a3b21a8fbd6db4d1d7779faf1503 a0e7636bf3746b645aadd94998f01063406d7688 refs/heads/for-6.2
+0d183c27ed30a3b21a8fbd6db4d1d7779faf1503 a0e7636bf3746b645aadd94998f01063406d7688 refs/heads/asoc-6.2
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmNj6xYACgkQJNaLcl1U
-h9DAkgf+LLZxPuZSFP5T/iVcGUF6Ok5m3FrtTYCEty4EpsgLMYAQ97C+Xzd4WS48
-3vce2x+gxa6kRWKl93p9KYM3iV8XT8UexMsqMoT+QW7ZScN+FZS2n22jqdnH2Fi/
-r4waFF6uFF7ezLdGrQpLIVLihiFfu+/wvjaBQL7303zOHKxa4dBDdbkfSzq6VGLm
-PQQ0zc5aDRkRJ0ULVt5uhhw+RGrUxd0mCuLf4915XWB7zM3rH3aZzxFloWx9Sza6
-ILCu8NRcP583hjpkBjaD7YnX5wyO1usfONQ6OYWxIv1wJIx1ZDV0KNTsfInm8wQo
-qXZAcGnXeJEMR7uKeqdJsvBee2kLSQ==
-=Seb/
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmNj6xwACgkQJNaLcl1U
+h9AfVwf/azPoLWH7TRyIGf1S9dFdKx8NqCKjr4tJBBdnUmwdQnQad9QdG4iIyqpb
+3RxwwyKJEEAvdi6Otg4NREqXnQ+djJ2YX0oiUZOCGiqqJWcSe+YxtdDvmurcf9Ds
+kKBTHli7Jy8OHTjCXfDpfRVuDLARX+twQxMrvQ8RZah4TimcTLx0TjnASxgt30WK
+8tCoDkDTW4pzwJMwtHuWWa51CBhSdzvmViGnBD9PyE1LJLFHSpYEMWS4O/5sb3sP
+9KKR8AmSzlXYezfqPoSwQWezp546q/WhNXYaSMXbHFbqm//NHVJbUT3kShr1Oze7
+z0U1a8iCswapf/vJmu0LxD49iac+bQ==
+=IcVu
 -----END PGP SIGNATURE-----
 
---===============6813934262273370477==--
+--===============8999282856510287887==--
