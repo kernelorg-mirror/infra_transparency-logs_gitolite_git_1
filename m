@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7163997517802774903=="
+Content-Type: multipart/mixed; boundary="===============7871600653877561878=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Thu, 03 Nov 2022 23:48:34 -0000
-Message-Id: <166751931401.965.4826972697623102112@gitolite.kernel.org>
+Date: Thu, 03 Nov 2022 23:48:45 -0000
+Message-Id: <166751932558.1139.15800208996490679573@gitolite.kernel.org>
 
---===============7163997517802774903==
+--===============7871600653877561878==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: 0ed041b1dd33699d1f3f3d6579dd07e65ba1ab1b
     new: 07ec7b502800ba9f7b8b15cb01dd6556bb41aaca
     log: revlist-0ed041b1dd33-07ec7b502800.txt
 
---===============7163997517802774903==
+--===============7871600653877561878==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -467,4 +467,4 @@ cf6ff0df0fd123493e57278a1bd4414a97511a34 vsock: remove the unused 'wait' in vsoc
 fbeb229a6622523c092a13c02bd0e15f69240dde Merge git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 07ec7b502800ba9f7b8b15cb01dd6556bb41aaca bpf: make sure skb->len != 0 when redirecting to a tunneling device
 
---===============7163997517802774903==--
+--===============7871600653877561878==--
