@@ -1,23 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
-Date: Thu, 03 Nov 2022 11:05:18 -0000
-Message-Id: <166747351872.15688.3921472700302490561@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Thu, 03 Nov 2022 11:23:40 -0000
+Message-Id: <166747462052.26955.14345518533883905200@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vireshk/pm
-user: vireshk
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: pabeni
 changes:
-  - ref: refs/heads/opp/linux-next
-    old: c7e31e36d8a262eb0bc2daf8f9b7481c83284386
-    new: 5acd93462bff6c108d65802fd39f6002dfadd1a0
+  - ref: refs/heads/master
+    old: 6d6b39f180b83dfe1e938382b68dd1e6cb51363c
+    new: 71fa6887eeca7b631528f9c7a39815498de8028c
     log: |
-         f7eefa76db8c7d01b4bdaafa6acc4cb84c193fe0 dt-bindings: opp: Fix usage of current in microwatt property
-         52bfa57ae698da9881e8a9302473e87f5757d5b6 dt-bindings: opp: Fix named microwatt property
-         c887e9c9b4ce79437286507d3f573c86ecd04b49 OPP: Parse named opp-microwatt property too
-         bf7e6e072ed166c11c687200df53aec8d7446182 OPP: Simplify opp_parse_supplies() by restructuring it
-         5acd93462bff6c108d65802fd39f6002dfadd1a0 OPP: decouple dt properties in opp_parse_supplies()
+         71fa6887eeca7b631528f9c7a39815498de8028c net: mana: Assign interrupts to CPUs based on NUMA nodes
          
