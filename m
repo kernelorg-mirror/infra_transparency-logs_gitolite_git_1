@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ogabbay/configs
-Date: Thu, 03 Nov 2022 12:49:54 -0000
-Message-Id: <166747979433.24575.7449530497751246433@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
+Date: Thu, 03 Nov 2022 12:51:33 -0000
+Message-Id: <166747989322.26768.8721182664880696843@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ogabbay/configs
-user: ogabbay
+repo: pub/scm/linux/kernel/git/bpf/bpf
+user: dborkman
 changes:
   - ref: refs/heads/master
-    old: 947df94796bfd5a79a05568ad473e63905d28d2e
-    new: 938011123354804f079070d420ca31a28341ec1a
+    old: a778f5d46b6287ebe26e24b48f3e8079c2db8ed2
+    new: 8bbabb3fddcd0f858be69ed5abc9b470a239d6f2
     log: |
-         5e3b8081da002e43968f66afa23d4daf3e15c930 update config to gcc11
-         938011123354804f079070d420ca31a28341ec1a add config with modules
+         8bbabb3fddcd0f858be69ed5abc9b470a239d6f2 bpf, sock_map: Move cancel_work_sync() out of sock lock
          
