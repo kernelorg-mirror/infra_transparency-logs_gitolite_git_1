@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
-Date: Thu, 03 Nov 2022 15:15:42 -0000
-Message-Id: <166748854253.26548.1387017258525101661@gitolite.kernel.org>
+Date: Thu, 03 Nov 2022 15:16:28 -0000
+Message-Id: <166748858818.26903.6307122515556596405@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/kdave/linux
 user: kdave
 changes:
-  - ref: refs/heads/for-6.1-rc3
-    old: 76a66ba101329316a5d7f4275070be22eb85fdf2
-    new: eb81b682b131642405a05c627ab08cf0967b3dd8
+  - ref: refs/tags/for-6.1-rc3-tag
+    old: 0df1efffa24a91f2887aec0dc3e8c452315fa3a2
+    new: 7bcea7a0f0eca190864a97fb8e08ee02c5f70b96
     log: |
          063b1f21cc9be07291a1f5e227436f353c6d1695 btrfs: fix a memory allocation failure test in btrfs_submit_direct
          8184620ae21213d51eaf2e0bd4186baacb928172 btrfs: fix lost file sync on direct IO write with nowait and dsync iocb
