@@ -1,20 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Thu, 03 Nov 2022 11:58:15 -0000
-Message-Id: <166747669594.21238.7469549798718119658@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/zohar/linux-integrity
+Date: Thu, 03 Nov 2022 11:58:21 -0000
+Message-Id: <166747670108.21330.6926477812429978187@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/peterz/queue
-user: peterz
+repo: pub/scm/linux/kernel/git/zohar/linux-integrity
+user: zohar
 changes:
-  - ref: refs/heads/x86/core
-    old: 0c3e806ec0f9771fa1f34c60499097d9260a8bb7
-    new: 034847e51059344aef0c3a6f6dd8cb6c5744e782
+  - ref: refs/heads/next-integrity-testing
+    old: 0aa4a465d51d0c5e80bbde7b79118f34243378a8
+    new: 8c1d6a050a0f16e0a9d32eaf53b965c77279c6f8
     log: |
-         dfd307093d2cf1151e8110333c31b14b0105b36d objtool: Optimize elf_dirty_reloc_sym()
-         034847e51059344aef0c3a6f6dd8cb6c5744e782 x86/Kconfig: Enable kernel IBT by default
+         11220db412edae8dba58853238f53258268bdb88 ima: Fix a potential NULL pointer access in ima_restore_measurement_list
+         d57378d3aa4d864d9e590482602068af1b20c0c5 ima: Simplify ima_lsm_copy_rule
+         c7423dbdbc9ecef7fff5239d144cad4b9887f4de ima: Handle -ESTALE returned by ima_filter_rule_match()
+         8c1d6a050a0f16e0a9d32eaf53b965c77279c6f8 ima: Fix memory leak in __ima_inode_hash()
          
