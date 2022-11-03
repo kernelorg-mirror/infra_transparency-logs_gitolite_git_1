@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5300849682586648293=="
+Content-Type: multipart/mixed; boundary="===============3537562602115736664=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Thu, 03 Nov 2022 15:33:09 -0000
-Message-Id: <166748958981.6825.13063746928618107793@gitolite.kernel.org>
+Date: Thu, 03 Nov 2022 15:33:20 -0000
+Message-Id: <166748960075.6974.9356963236300868662@gitolite.kernel.org>
 
---===============5300849682586648293==
+--===============3537562602115736664==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: b54a0d4094f5c94eda1cafad44323306afe8f807
     new: d9095f92950bd16745b9ec24ebebc12d14b3a3e8
     log: revlist-b54a0d4094f5-d9095f92950b.txt
 
---===============5300849682586648293==
+--===============3537562602115736664==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -45,4 +45,4 @@ ec32c0c42d0a7208571c4c77f140bffaa4e5e304 net: dcb: add new pcp selector to app o
 c58ff3ed432d0337272c0c5d06a715b3ec6a3d76 net: microchip: sparx5: add support for offloading default prio
 d9095f92950bd16745b9ec24ebebc12d14b3a3e8 Merge branch 'add-new-pcp-and-apptrust-attributes-to-dcbnl'
 
---===============5300849682586648293==--
+--===============3537562602115736664==--
