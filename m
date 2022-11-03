@@ -1,58 +1,41 @@
-Content-Type: multipart/mixed; boundary="===============4317998744055172228=="
+Content-Type: multipart/mixed; boundary="===============4195054567745984509=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Thu, 03 Nov 2022 14:46:07 -0000
-Message-Id: <166748676743.11398.8819316601161961391@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Thu, 03 Nov 2022 14:46:40 -0000
+Message-Id: <166748680044.11658.14322428747866445521@gitolite.kernel.org>
 
---===============4317998744055172228==
+--===============4195054567745984509==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/acme/linux
+user: acme
 changes:
-  - ref: refs/heads/usb-testing
-    old: bd707a4f9ebe35c234dd015715d0732b2311d8f6
-    new: a8bc8cc193c69e41df5e757d1a592346526e136d
-    log: |
-         7a09c1269702db8eccb6f718da2b00173e1e0034 USB: core: Change configuration warnings to notices
-         372488c6936f4e7734e4ff5613c504affb49ff68 usb: core: Use kstrtobool() instead of strtobool()
-         a8bc8cc193c69e41df5e757d1a592346526e136d usb: gadget: Use kstrtobool() instead of strtobool()
-         
+  - ref: refs/heads/perf/core
+    old: 940da138b03ecb5bca68ef51dc1141f115100eed
+    new: 96e6d929a6c3368ad6327a52f870294747888c77
+    log: revlist-940da138b03e-96e6d929a6c3.txt
 
---===============4317998744055172228==
+--===============4195054567745984509==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-940da138b03e-96e6d929a6c3.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1667486808 +0900
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1667486764-0a8d958dcf95fef6c3c9f2987e69bf8167449b97
+98e4c68ddcaf3721df9bef809775a8e3562cb6f9 perf probe: Fix to avoid crashing if DW_AT_decl_file is NULL
+f828929ab7f0dc3353e4a617f94f297fa8f3dec3 perf probe: Use dwarf_attr_integrate as generic DWARF attr accessor
+dc9a5d2ccd5c823cc05cafe75fcf19b682d8152c perf probe: Fix to get declared file name from clang DWARF5
+f3c9bd4e16a503cb14891963428d388a4f70ffb8 perf build: Update to C standard to gnu11
+8ed28c2b56b78442989ef1afee2b968e9d51a65c perf record: Use sig_atomic_t for signal handlers
+7f3374299f9762ba7946138bf0d5cfbd50da111b perf daemon: Use sig_atomic_t to avoid UB
+853596fb71f7c2f7ff0de7b13f09d6598d4d56cd perf ftrace: Use sig_atomic_t to avoid UB
+057929f9d083e80c9b30c324add69d2054ca6d82 perf session: Change type to avoid undefined behaviour in a signal handler
+01513fdc18f395dbcc924bc5e9962b12f86f947a perf stat: Use sig_atomic_t to avoid undefined behaviour in a signal handler
+691768968f2a13eba8d52e8475dca7feb288d4f2 perf top: Use sig_atomic_t to avoid undefined behaviour in a signal handler
+96e6d929a6c3368ad6327a52f870294747888c77 perf trace: Use sig_atomic_t to avoid undefined behaviour in a signal handler
 
-bd707a4f9ebe35c234dd015715d0732b2311d8f6 a8bc8cc193c69e41df5e757d1a592346526e136d refs/heads/usb-testing
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmNj1FgbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+xbAQAIpanr9VFaMGsyVzIAVu
-lcox9SLNt1daQTzRuYzNQwFgVshZbKUXs/wG+Hu1RatIvcE4RMHOB0KTvFA5l6uf
-CsGPrC2aSGK6Iw0LeoSN3GDxudR4g3kjCfo+qPjFJVn5bXwXjf6ZsYuc3sXSI10R
-VAWE0dQ3llAr7I96Wd8sBeeElpmH0crG0GIIVkPdQYV9EfLMRr4JOgH5Yfvjw1ZG
-MU1vzpqat7kfHhZY8bU7FL51fJPSnGR+OOZ7Fkz7E66GO5tHTRd4LpQ87r1XHS2/
-onmzXX32IonpH174LHyOXlzCyNr/EKYWt8bCJnbeZ1J10d9GnbF78g1dhYQo9cYz
-SLRRR8b+oeq7i1R7R1j+ZfKlWM6ydJrchmRNju0Cs88/cQ+N4A18xpNM0rLRJ4Gc
-N2heGQRWSph9NXve3vsgX9pl9yek00dQZky3orNoelmCul6Ao0p8BfEdWBBYxH7m
-41WD8b8aeIzN3/taw0vBuKUGWttsX6d8i2dJnv4FoMAVImdBGehMWVEPeLG3RqIJ
-gnJnuhOKbFZXMnQr1gHHKrEfcAVK3oQmIeVtbFZCCyimZBtoknBN7sDGC8i8kHor
-ozMfizIG+bXVe39//NvMDenMlu6cY8qT1yrRwb3cJ6huoivsWUDcNcIf4ckYvnl8
-NSCZSW3JvJjM5RsIl3UStjml
-=R3oY
------END PGP SIGNATURE-----
-
---===============4317998744055172228==--
+--===============4195054567745984509==--
