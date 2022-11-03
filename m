@@ -1,23 +1,34 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/zx2c4/wireguard-tools
-Date: Thu, 03 Nov 2022 18:57:49 -0000
-Message-Id: <166750186957.23264.15889903709402391507@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/linux-stable
+Date: Thu, 03 Nov 2022 19:19:36 -0000
+Message-Id: <166750317645.4854.16529798409743779231@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/zx2c4/wireguard-tools
-user: zx2c4
+repo: pub/scm/linux/kernel/git/sashal/linux-stable
+user: sashal
 changes:
-  - ref: refs/heads/ke/coverity
-    old: e0ef55248e06800bb6f6bb29d66ca9efef28a50c
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/master
-    old: ca2e89ff21794b1853f628b8d5cb0f91eb140461
-    new: 139aac59a5ab7da913d4b6dd62692fa90e2ccad4
-    log: |
-         dbf49a7d17d69b8af365ce2521df110a4710c819 ipc: freebsd: avoid leaking memory in kernel_get_device()
-         139aac59a5ab7da913d4b6dd62692fa90e2ccad4 ipc: freebsd: NULL out some freed memory in kernel_set_device()
-         
+  - ref: refs/heads/for-greg/4.14-211
+    old: 0000000000000000000000000000000000000000
+    new: c63b5d752a5a49329b5c33e9677e7ecc74cce6da
+  - ref: refs/heads/for-greg/4.19-211
+    old: 0000000000000000000000000000000000000000
+    new: 1236d88f28645b9860ca9162459435927d8a5548
+  - ref: refs/heads/for-greg/4.9-211
+    old: 0000000000000000000000000000000000000000
+    new: 4a896f8a67723eb0e035a37bc885986f8c45d2fa
+  - ref: refs/heads/for-greg/5.10-211
+    old: 0000000000000000000000000000000000000000
+    new: de3938895f9b7ac38e196a3488a0717cb507107f
+  - ref: refs/heads/for-greg/5.15-211
+    old: 0000000000000000000000000000000000000000
+    new: 90eb22a88683883f3415eef676fffa207615d5cf
+  - ref: refs/heads/for-greg/5.4-211
+    old: 0000000000000000000000000000000000000000
+    new: 2088db54a98950c57cf7922fa91fb1434a82c13e
+  - ref: refs/heads/for-greg/6.0-211
+    old: 0000000000000000000000000000000000000000
+    new: 4f0ca2894be15d3ec3e1650e723fe84a4b0566a6
