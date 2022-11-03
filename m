@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/efi/efi
-Date: Thu, 03 Nov 2022 17:03:11 -0000
-Message-Id: <166749499185.6801.4100410795204157421@gitolite.kernel.org>
+Date: Thu, 03 Nov 2022 17:05:13 -0000
+Message-Id: <166749511349.9088.14410234974513532618@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/efi/efi
 user: ardb
 changes:
-  - ref: refs/heads/urgent
-    old: 4e1c390e882d6f1d8c25221d041dfb832e460787
-    new: 23715a26c8d812912a70c6ac1ce67af649b95914
+  - ref: refs/heads/next
+    old: 53ec9ccd138f6504fd5227a73dd8c6ab7a91f80f
+    new: 1abdc82f0c773bef2f58b9f00b03e75e9d4dd28b
     log: |
-         23715a26c8d812912a70c6ac1ce67af649b95914 arm64: efi: Recover from synchronous exceptions occurring in firmware
+         1abdc82f0c773bef2f58b9f00b03e75e9d4dd28b efi: pstore: Add module parameter for setting the record size
          
