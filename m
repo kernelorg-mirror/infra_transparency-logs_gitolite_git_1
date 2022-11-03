@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/devel/pahole/pahole
-Date: Thu, 03 Nov 2022 13:02:42 -0000
-Message-Id: <166748056285.3336.7785045925624855745@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kvalo/ath
+Date: Thu, 03 Nov 2022 13:10:37 -0000
+Message-Id: <166748103787.9417.1069581156811351406@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/devel/pahole/pahole
-user: acme
+repo: pub/scm/linux/kernel/git/kvalo/ath
+user: kvalo
 changes:
-  - ref: refs/heads/tmp.master
-    old: b72f5188856df0abf45e1a707856bb4e4e86153c
-    new: 02d67c51765dfbd5893087da63744c864c7cc9e0
+  - ref: refs/heads/ath12k-bringup
+    old: 62cf1271969636bbc7fdc429d223ca03a07b254d
+    new: 392fb05441765a71064bc96fbfb2b3bacfa70094
     log: |
-         e5e24ada4f5578ae921539280e4716a41bfd95cc core: Use zalloc() to make the code more robust
-         cd4d2d251e9a7f982be660f62ff9833506dfba10 pahole: Use zalloc() to make the code more robust
-         02d67c51765dfbd5893087da63744c864c7cc9e0 pfunct: Use zalloc() to make the code more robust
+         392fb05441765a71064bc96fbfb2b3bacfa70094 wifi: ath12k: Fix invalid management rx frame length
          
