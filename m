@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lpieralisi/linux
-Date: Thu, 03 Nov 2022 09:21:26 -0000
-Message-Id: <166746728655.24759.789168919463653424@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
+Date: Thu, 03 Nov 2022 09:29:06 -0000
+Message-Id: <166746774685.30297.1736454590279237768@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lpieralisi/linux
-user: lpieralisi
+repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
+user: shuah
 changes:
-  - ref: refs/heads/irqchip/gic-v3-nmi
-    old: 08f198e7e76cc36a0f071e704f4bd960e6223a2c
-    new: d5d27ccdee43dc98d7d8d204a42f0f400c83f71b
+  - ref: refs/heads/next
+    old: 67c0b2b5291656cbcb15371f835f5152fae2f7a2
+    new: d942f231afc037490538cea67bb0c667e6d12214
+    log: |
+         d942f231afc037490538cea67bb0c667e6d12214 selftests/vDSO: Add riscv getcpu & gettimeofday test
+         
