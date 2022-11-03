@@ -1,31 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dtor/input
-Date: Thu, 03 Nov 2022 20:41:50 -0000
-Message-Id: <166750811078.31575.6552917770564756418@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
+Date: Thu, 03 Nov 2022 20:41:56 -0000
+Message-Id: <166750811656.31697.10300463743428227104@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dtor/input
-user: dtor
+repo: pub/scm/linux/kernel/git/peterz/queue
+user: peterz
 changes:
-  - ref: refs/heads/for-linus
-    old: a01aca4b05174b6dee2392ec44406f85e0f8bd46
-    new: c7e37cc6240767f794678d11704935d49cc81d59
+  - ref: refs/heads/x86/core
+    old: 0c3e806ec0f9771fa1f34c60499097d9260a8bb7
+    new: ec6310fbb77b11aa89dd77d62ca619900e92387a
     log: |
-         c7e37cc6240767f794678d11704935d49cc81d59 Input: goodix - try resetting the controller when no config is set
-         
-  - ref: refs/heads/master
-    old: 5b0c03e24a061f9c9e8b28fa157b80990c559a37
-    new: 01c84b03d80aab9f04c4e3e1f9085f4202ff7c29
-    log: |
-         01c84b03d80aab9f04c4e3e1f9085f4202ff7c29 Input: matrix_keypad - force switch rows to input mode
-         
-  - ref: refs/heads/next
-    old: 5b0c03e24a061f9c9e8b28fa157b80990c559a37
-    new: 01c84b03d80aab9f04c4e3e1f9085f4202ff7c29
-    log: |
-         01c84b03d80aab9f04c4e3e1f9085f4202ff7c29 Input: matrix_keypad - force switch rows to input mode
+         17b4bb7a515de5b7a8c0dc2764d1f5361d3c37b4 objtool: Optimize elf_dirty_reloc_sym()
+         d954bf5e32c5c5d2a27534232197d8548e8f97a6 objtool: Fix weak hole vs prefix symbol
+         7c64c145bcd1b3ddacec618f2966b277778d5543 x86,pm: Force out-of-line memcpy()
+         ec6310fbb77b11aa89dd77d62ca619900e92387a x86/Kconfig: Enable kernel IBT by default
          
