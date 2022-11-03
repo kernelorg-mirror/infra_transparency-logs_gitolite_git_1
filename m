@@ -1,24 +1,29 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ogabbay/accel
-Date: Thu, 03 Nov 2022 14:11:21 -0000
-Message-Id: <166748468117.19407.9192563436243647444@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/wireless/iwd
+Date: Thu, 03 Nov 2022 14:24:05 -0000
+Message-Id: <166748544522.26877.8713914486542181067@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ogabbay/accel
-user: ogabbay
+repo: pub/scm/network/wireless/iwd
+user: denkenz
 changes:
-  - ref: refs/heads/accel_v3
-    old: 3d79c252ffeb3dd2ca946c3079101c909b229ce0
-    new: 6b84b6a8c1a7679919cad22c43068d30caafebf9
+  - ref: refs/heads/master
+    old: b5121e28acb835022e6e533edc91eaea9c63f2bb
+    new: b9855f7d62557e12bdc3e91494d2ea8943a1694f
     log: |
-         16a952400a78a7f8c779d9e0000eb73c0911873c changes to major patch
-         14362d036582d28a5dc9f9fe9c33edc333e0acc7 accel: add dedicated minor for accelerator devices
-         96f481b146e0b57bec7ac0b9d0682c1409f0a696 export drm_open_helper
-         733f34ffbdb3e273acd3f6505d4828d71d16ba33 changes to minor patch
-         41f82285a3064777ec90a3358c877a966ac1f7e5 drm: initialize accel framework
-         6b84b6a8c1a7679919cad22c43068d30caafebf9 accel: add accel dummy driver
+         a4678949f934a0b53617b760b295fe805e9bac2e wiphy: add wiphy_get_supported_ciphers
+         5f84a786382a4ae7a87cb8ffeaeb68af1bdcc5a5 ie: add group/pairwise lists of supported ciphers
+         262685e818d6e8e6112bd67c2e5c4b8c7432cbd6 ap: add profile settings PairwiseCiphers/GroupCipher
+         7d4d868236fe0213ae5aaea1df3c3298b01efb43 p2p: limit ciphers to CCMP
+         2b64b493d062fdc049263b1bcb702831fab5d57d doc: document PairwiseCiphers/GroupCiphers AP settings
+         0363d51c5c35cfa922269ed5050a670b610fa413 ap: add PairwiseCiphers/GroupCipher to dbus interface
+         b627f99800d7a53c9c35b5e25cc12c5087709459 ap: update Frequency property on started
+         c53280062ca12601ea92ea5424743be4c570cb0d client: add ap support for PairwiseCiphers/GroupCipher
+         ba067fcf94e6698956aa390daf4ee2ef804e2c68 auto-t: add proper AccessPoint object class
+         13b7aa9715cbc031fbed27324f7aaab65811f824 auto-t: test AP fails to start with unsupported ciphers
+         b9855f7d62557e12bdc3e91494d2ea8943a1694f auto-t: add AP test for all pairwise/group cipher combos
          
