@@ -1,40 +1,59 @@
-Content-Type: multipart/mixed; boundary="===============6995482465371834119=="
+Content-Type: multipart/mixed; boundary="===============8375459441749365838=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 03 Nov 2022 02:45:41 -0000
-Message-Id: <166744354140.3696.7280474217130881810@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
+Date: Thu, 03 Nov 2022 02:49:13 -0000
+Message-Id: <166744375365.5005.7068994660412735750@gitolite.kernel.org>
 
---===============6995482465371834119==
+--===============8375459441749365838==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/gregkh/tty
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: ba9169f57090efdee6b13601fced57e123db8777
-    new: ef1fdc936cb004f25891de545b70e97958c33187
-    log: revlist-ba9169f57090-ef1fdc936cb0.txt
+  - ref: refs/heads/tty-linus
+    old: 7b4302d2ce0c386651f28237da7607a07bc9be1e
+    new: c9cfc0050283470a38a75d82cc8625f7b80a00d8
+    log: |
+         dd648a332a6c5bdb6640d5fa55f367b476ecec1c serial: imx: Add missing .thaw_noirq hook
+         68765e6adc2e281ded25bd3658318b214b32a2ac Revert "tty: n_gsm: avoid call of sleeping functions from atomic context"
+         730a687192b6019b2cac9b539364b0e844557a52 Revert "tty: n_gsm: replace kicktimer with delayed_work"
+         c9cfc0050283470a38a75d82cc8625f7b80a00d8 tty: n_gsm: fix sleep-in-atomic-context bug in gsm_control_send
+         
 
---===============6995482465371834119==
+--===============8375459441749365838==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ba9169f57090-ef1fdc936cb0.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-3aff8aaca4e36dc8b17eaa011684881a80238966 Bluetooth: L2CAP: Fix use-after-free caused by l2cap_reassemble_sdu
-b36a234dc438cb6b76fc929a8df9a0e59c8acf23 Bluetooth: hci_conn: Fix CIS connection dst_type handling
-160fbcf3bfb93c3c086427f9f4c8bc70f217e9be Bluetooth: virtio_bt: Use skb_put to set length
-0d0e2d032811280b927650ff3c15fe5020e82533 Bluetooth: L2CAP: fix use-after-free in l2cap_conn_del()
-7c9524d929648935bac2bbb4c20437df8f9c3f42 Bluetooth: L2CAP: Fix memory leak in vhci_write
-5638d9ea9c01c77fc11693d48cf719bc7e88f224 Bluetooth: hci_conn: Fix not restoring ISO buffer count on disconnect
-711f8c3fb3db61897080468586b970c87c61d9e4 Bluetooth: L2CAP: Fix accepting connection request for invalid SPSM
-f937b758a188d6fd328a81367087eddbb2fce50f Bluetooth: L2CAP: Fix l2cap_global_chan_by_psm
-b1a2cd50c0357f243b7435a732b4e62ba3157a2e Bluetooth: L2CAP: Fix attempting to access uninitialized memory
-ef1fdc936cb004f25891de545b70e97958c33187 Merge tag 'for-net-2022-10-02' of git://git.kernel.org/pub/scm/linux/kernel/git/bluetooth/bluetooth
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1667443810 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
+nonce 1667443750-a1b7de067f9589f934fc54cb2d840048809300a9
 
---===============6995482465371834119==--
+7b4302d2ce0c386651f28237da7607a07bc9be1e c9cfc0050283470a38a75d82cc8625f7b80a00d8 refs/heads/tty-linus
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmNjLGIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+qMkP+wWe0X8R8sDA0AjH7VSG
+DYqR2zNvY9piw7FF2njqttoynif/JgVK9SkzNF9wKOCZ+DAcBa7F25MxTR4Boh1G
+u9dZ5TcPtrHUnBh5utzQXdTdMn8So7GJV9N+Qod/3daWsL3LA057+Dkfyi49+zaV
+xYmS4CFFR5OEc4tcI9iztcjVs5eMCaRGZ70hd6jokdJpdMgSksect9WQjiL5BAqK
+/27gE7y4MUawuuOjfsHpT9KNL8MQ7s4cOKuIEiU/Cqw0S6/r9g/E3+nyK/9KNjJh
+Xu/bUp+qrNi4oqAk/gFWk7dJygjU0mipNOFty4DoD0laJKFlna9Us9AN2009CuFu
+DJT2v+jX0TyWNB1XE3Q9jdiGHiVkLvTC7mZfhLPcM8/FOggC7EUi5hlG+mNzu8YF
+YuZdAXzyPxutmfGeE+TKG+qsn6ly/SwqkIto73dRw4QYInzaikTMq9EmfeaSmQkZ
+c1aJLaM2ai0JjARzDqOMlfFF3xUNuPojGHbDVzvmiNI91+IFGa5In05D+xslUZjr
+esStxDUS/4q/jtG4gPW/KJD4F2y1+X9ZHIQRRMHvRsSDnh/6GjyCkQapKUeE4bya
+XJtvjhbIlpztRsBr/eXH4yaDuWzFyJutXBni5MFvzk+CiQfLDv+KC++4yOW/Ztiw
+TW0x5J1FTGU/xUxDRBHPUyWf
+=jZWj
+-----END PGP SIGNATURE-----
+
+--===============8375459441749365838==--
