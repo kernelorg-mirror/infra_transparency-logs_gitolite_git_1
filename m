@@ -1,31 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/arm64/linux
-Date: Thu, 03 Nov 2022 18:07:58 -0000
-Message-Id: <166749887891.19468.9972305285693011474@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Thu, 03 Nov 2022 18:11:28 -0000
+Message-Id: <166749908879.22268.10202294776561508681@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/arm64/linux
-user: cmarinas
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/devel/kmalloc-minalign-v2-wip
-    old: e0c19cef56de1be4f1d7ecd0dc52faeb81247dd2
-    new: d166630d567bcce1bda13dd8e1edf87dc5d8dcae
+  - ref: refs/heads/arm64-nmi
+    old: 8ce65860ba147715e06e522bb2a1858e1289481b
+    new: 0bf9beeda3f87024d3e90b63090786a6d64a9e99
     log: |
-         cf60512d48fd6b98428c618f3019cfd400ed0c83 mm/slab: Decouple ARCH_KMALLOC_MINALIGN from ARCH_DMA_MINALIGN
-         f36d9250b13168bc820203d512e00e3b84640a52 drivers/base: Use ARCH_DMA_MINALIGN instead of ARCH_KMALLOC_MINALIGN
-         5ae29dddf04411aee31ae0d58d5b1425515fbf72 drivers/gpu: Use ARCH_DMA_MINALIGN instead of ARCH_KMALLOC_MINALIGN
-         1f4aca8d6b0e0363cf552462f071344e7f572420 drivers/usb: Use ARCH_DMA_MINALIGN instead of ARCH_KMALLOC_MINALIGN
-         f213eeba8d8a9eff53b05d4f29422b8bb739da25 drivers/spi: Use ARCH_DMA_MINALIGN instead of ARCH_KMALLOC_MINALIGN
-         c705723d415e7d8f1dd5beb69bc27f4095282288 dma-mapping: Force bouncing if the size is not cacheline-aligned
-         d166630d567bcce1bda13dd8e1edf87dc5d8dcae arm64: Reduce ARCH_KMALLOC_MINALIGN to 8
-         
-  - ref: refs/heads/for-next/fixes
-    old: 024f4b2e1f874934943eb2d3d288ebc52c79f55c
-    new: 85f1506337f0c79a4955edfeee86a18628e3735f
-    log: |
-         85f1506337f0c79a4955edfeee86a18628e3735f arm64: cpufeature: Fix the visibility of compat hwcaps
+         bfa2cf6795c71f17a4684ab2f27d104d7af31c32 arm64/entry: Manage ALLINT.ALLINT when FEAT_NMI is active
+         c31c58ba7bf6d41a497f53d89a8b8a456cb670f2 arm64/mm: Disable all interrupts while replacing TTBR1
+         024088e33966f30d34c2631032f769b9c1d8e071 arm64/kexec: Mask NMIs before starting new kernel
+         73ce1e144a2ae2ec86d5e2bef258e7f19ab2a1e1 arm64/acpi: Mask NMIs while notifying SEA
+         5c0401469d5fee0875c6839ed754112ce49305ef arm64/irq: Document handling of FEAT_NMI in irqflags.h
+         2dd50577dfb8348219c84614138c8a7a42b362b3 arm64/nmi: Add handling of superpriority interrupts as NMIs
+         348796a1d7b63709c8ddc7b5283a2843e740de6c arm64/nmi: Add Kconfig for NMI
+         88553fb21eea267567f26a386e713c8aa69a788f irqchip/gic-v3: Implement FEAT_GICv3_NMI support
+         0bf9beeda3f87024d3e90b63090786a6d64a9e99 arm64/nmi: Add save/restore NMI helpers (TODO - needed?)
          
