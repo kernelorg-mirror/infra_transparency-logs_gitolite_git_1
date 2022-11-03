@@ -1,57 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============8999282856510287887=="
+Content-Type: multipart/mixed; boundary="===============9135425447849022413=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Thu, 03 Nov 2022 16:23:58 -0000
-Message-Id: <166749263838.10055.12811224768703133154@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mark/linux
+Date: Thu, 03 Nov 2022 16:24:29 -0000
+Message-Id: <166749266970.10385.15166742929177372832@gitolite.kernel.org>
 
---===============8999282856510287887==
+--===============9135425447849022413==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
-user: broonie
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/mark/linux
+user: mark
 changes:
-  - ref: refs/heads/asoc-6.2
-    old: 0d183c27ed30a3b21a8fbd6db4d1d7779faf1503
-    new: a0e7636bf3746b645aadd94998f01063406d7688
-    log: |
-         f8639c385f7e8325b73c83a6ec0865f8c036e1ad ASoC: mediatek: dt-bindings: modify machine bindings for two MICs case
-         e14657c0f0022e02c8f25fa9c56afae3d3db9e77 ASoC: mediatek: mt8186-rt5682: Modify machine driver for two DMICs case
-         faf3b5cb59f84e4056bd84f115a958bc99c61e65 ARM: omap2: n8x0: stop instantiating codec platform data
-         426c7bf45f207ac7a962e012dd482f7aaa3a3d5f ASoC: tlv320aic3x: remove support for platform data
-         a984d8332d90afd2989e10b095ffdb2875d4bac8 ASoC: tlv320aic3x: switch to using gpiod API
-         f7d97cb564a2ac5517ee7cc933de729e533d659a ASoC: simple-mux: add read function
-         b43d0c0a42b2c44da824b3de0364d73be722a8c7 ASoC: Intel: cirrus-common: Make const array uid_strings static
-         a0e7636bf3746b645aadd94998f01063406d7688 Modify documentation and machine driver for mt8186_rt1019_rt5682s sound card
-         
+  - ref: refs/heads/arm64/ftrace/per-callsite-ops
+    old: d1b1cd039447e3baaedb37332d9571193b857b48
+    new: 20b9eb0223b5d88443c032bb20cbda0f4977c167
+    log: revlist-d1b1cd039447-20b9eb0223b5.txt
 
---===============8999282856510287887==
+--===============9135425447849022413==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-d1b1cd039447-20b9eb0223b5.txt
 
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1667492636 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1667492636-4f774649699ad70d5ca33054d15778d4fd94f5c0
+b1f37ef655cf372f96015bf54abdb76a91aff27e x86: Unconfuse CONFIG_ and X86_FEATURE_ namespaces
+5ebddd7c4951c50142bcb239d4c6a82eff15759e kallsyms: Revert "Take callthunks into account"
+4c91be8e926c6b3734d59b9348e305431484d42b objtool: Slice up elf_create_section_symbol()
+13f60e80e15dd0657c90bcca372ba045630ed9de objtool: Avoid O(bloody terrible) behaviour -- an ode to libelf
+9f2899fe36a623885d8576604cb582328ad32b3c objtool: Add option to generate prefix symbols
+b341b20d648bb7e9a3307c33163e7399f0913e66 x86: Add prefix symbols for function padding
+9a479f766be1dd777e12e3e57b6ee4c3028a40a5 objtool: Add --cfi to generate the .cfi_sites section
+931ab63664f02b17d2213ef36b83e1e50190a0aa x86/ibt: Implement FineIBT
+082c4c815252ea333b0f3a51e336df60c2314fe2 x86/cfi: Boot time selection of CFI scheme
+0c3e806ec0f9771fa1f34c60499097d9260a8bb7 x86/cfi: Add boot time hash randomization
+93878542a41de9d854cdff190dc54df855ce14f2 ftrace: pass fregs to arch_ftrace_set_direct_caller()
+70d64b30a44bc9a47bdd9f90462aa29b6800165d ftrace: rename ftrace_instruction_pointer_set() -> ftrace_regs_set_instruction_pointer()
+fbd36eb18cf7cbebf35a19c32ecef999bfc71632 ftrace: abstract DYNAMIC_FTRACE_WITH_ARGS accesses
+f501325e3105ed5f859368596aab1742be85b146 ftrace: arm64: move from REGS to ARGS
+608f4324a63213351c0d5400efdbc70bf7e44a12 Compiler attributes: GCC function alignment workarounds
+8acf21a461fc4422cdde0ef048860e3884fb56af ACPI: don't build ACPICA with '-Os'
+52eaea5a19db8d202c19844164309a3d095c2ffe arm64: extend support for CONFIG_FUNCTION_ALIGNMENT
+4c27b5786e15bb2646193ede642b395add446f7b ftrace: add DYNAMIC_FTRACE_WITH_CALL_OPS
+1b0ffe6fd0fde5a5469a61ff37194279693d596d arm64: insn: add helpers for BTI
+da7f82f230bb850e6855c5c38cea62adf06c1249 WIP: arm64: ftrace: use pre-function NOPs
+20b9eb0223b5d88443c032bb20cbda0f4977c167 WIP: arm64: implement HAVE_DYNAMIC_FTRACE_WITH_CALL_OPS
 
-0d183c27ed30a3b21a8fbd6db4d1d7779faf1503 a0e7636bf3746b645aadd94998f01063406d7688 refs/heads/asoc-6.2
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmNj6xwACgkQJNaLcl1U
-h9AfVwf/azPoLWH7TRyIGf1S9dFdKx8NqCKjr4tJBBdnUmwdQnQad9QdG4iIyqpb
-3RxwwyKJEEAvdi6Otg4NREqXnQ+djJ2YX0oiUZOCGiqqJWcSe+YxtdDvmurcf9Ds
-kKBTHli7Jy8OHTjCXfDpfRVuDLARX+twQxMrvQ8RZah4TimcTLx0TjnASxgt30WK
-8tCoDkDTW4pzwJMwtHuWWa51CBhSdzvmViGnBD9PyE1LJLFHSpYEMWS4O/5sb3sP
-9KKR8AmSzlXYezfqPoSwQWezp546q/WhNXYaSMXbHFbqm//NHVJbUT3kShr1Oze7
-z0U1a8iCswapf/vJmu0LxD49iac+bQ==
-=IcVu
------END PGP SIGNATURE-----
-
---===============8999282856510287887==--
+--===============9135425447849022413==--
