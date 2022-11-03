@@ -1,59 +1,60 @@
-Content-Type: multipart/mixed; boundary="===============1049744989340620097=="
+Content-Type: multipart/mixed; boundary="===============4095920343091478386=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Thu, 03 Nov 2022 03:04:30 -0000
-Message-Id: <166744467003.16678.1240533896246557754@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
+Date: Thu, 03 Nov 2022 03:11:17 -0000
+Message-Id: <166744507760.22391.11376647055873198211@gitolite.kernel.org>
 
---===============1049744989340620097==
+--===============4095920343091478386==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
+repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-testing
-    old: 8527e94216902cab5b483e2450db93c11109ff97
-    new: bd707a4f9ebe35c234dd015715d0732b2311d8f6
+  - ref: refs/heads/tty-linus
+    old: c9cfc0050283470a38a75d82cc8625f7b80a00d8
+    new: 7b7dfe4833c70a11cdfa51b38705103bd31eddaa
     log: |
-         e7909e50b9dbeafee2b2007c057a262978632b64 usb: cdnsp: Fix wrong transmission direction of EP0
-         8b767cd38f454c2c61bb22ecccad4546c08edb2d USB: core: Change configuration warnings to notices
-         c6f7fb56aeb0fdd7ef11c91e24e28c8d500717cb usb: core: Use kstrtobool() instead of strtobool()
-         bd707a4f9ebe35c234dd015715d0732b2311d8f6 usb: gadget: Use kstrtobool() instead of strtobool()
+         76bad3f88750f8cc465c489e6846249e0bc3d8f5 tty: serial: fsl_lpuart: don't break the on-going transfer when global reset
+         4561d8008a467cb05ac632a215391d6b787f40aa serial: imx: Add missing .thaw_noirq hook
+         acdab4cb4ba7e5f94d2b422ebd7bf4bf68178fb2 Revert "tty: n_gsm: avoid call of sleeping functions from atomic context"
+         15743ae50e04aa907131e3ae8d66e9a2964ea232 Revert "tty: n_gsm: replace kicktimer with delayed_work"
+         7b7dfe4833c70a11cdfa51b38705103bd31eddaa tty: n_gsm: fix sleep-in-atomic-context bug in gsm_control_send
          
 
---===============1049744989340620097==
+--===============4095920343091478386==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1667444726 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1667444666-f41e33f91198c959b17132f5aaeaf49f3000b2fa
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1667445135 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
+nonce 1667445074-a5d8b4a6f70e122a0a2eeb566f244c8baa26b7a4
 
-8527e94216902cab5b483e2450db93c11109ff97 bd707a4f9ebe35c234dd015715d0732b2311d8f6 refs/heads/usb-testing
+c9cfc0050283470a38a75d82cc8625f7b80a00d8 7b7dfe4833c70a11cdfa51b38705103bd31eddaa refs/heads/tty-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmNjL/YbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+B6kQAJ89/FwhgJhbxi6OujjP
-yAjmbGd7z5QNhGDXTJZ/EKUFndlrqMXaCO2EzMC0aG3x0GLdNQX7M67KP4PWq95y
-hcRHDvTEmw4sX8jSjdzRb7GSeJKRHgFWwXKpBCgC8RQ/pfWSa7Ps0V27td9dmaiC
-B3hpCYbkXSIRFfevtawXSdVShUMCMYLoCGh3gPEwcdvPQCiNHg36r0mEUXuswgRT
-EUuo4kZA03N07RY4ClfBWCmr70i3PvtiNFf+neM5I9Jqxa3dSuJdCorRhuoSHeph
-MhiqoCGE/FGtc1L+Nf+K+bjvEy/10rSzpHXuCQbRERL+dlIllXnmT6QwHbXWHTYH
-84sd5LV+Ft3JA0la7T1glfsVsftJneqpooD8E0H0sNlQptBv3UaFQKMVBIu/2q9w
-o3yf3cLEL2FJkrlI6vzHp40or8CywKSLLBLNHt7+rE6n1MYNnEwNho2SIgGM+SVR
-yPHhVDYxEZZa8xzibZSeNN3hNzRk3yal232ZM07eZFMLCKTYj5F6CRMeJ8cEf13I
-8ewx1JLWACNrWWQtg1W+KjrhGAYgBYyQ0AY1OkyY8oFMeM4gbsdJmIcp58CrVOc3
-+GBkdyrswb0UPf2vU1oEBHWTBB1m4TcwoJu1d/QC5RndX76ObiiAAvoyvZl+BNjM
-V8bhJtAu/hUYshqtpnobClQY
-=G96r
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmNjMY8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+9IAQAMtwD+3EtUX0bWjZUTiz
+PO5scsTr8MvY/aZMhVz71tOxI8V8bTDFQ2fO+vD9TjRavIrsyFnH/CHUfyU9KQYk
+If8r+71wgbhUw7qJ+0DMCDXyx4OI+HUDTIIzrHncsIH+3jlvnZSm6F2oyj517sw0
+EukYZxB0GTlA2L0ZUl56fwCwrEKr18OpbuZJ/EmsTc7s96hH9w7bVKc773Qv0hv5
+Ud9hHmMfLXOcRJIe3qG+e3Fk7Jie6vDWKU3xw0/OdTJhm7qbr5Px1mo2uGx07AIr
+ghBIM/uoUjJWeVsKA+SSe+PQoj08Vzz6IVvIDR3n5Bn3YtOvxZWWF5Pm9YNEzO6T
+GdVLYk1i6WXorr2HD5tbu0qZO4diXDaPB/MhA7Nzwzeytz4hPzspbT4L4GjXENqE
+A2VVGua+P1729p8HZZczOuUkhM69066JHXN4rAidl1e23k6cBTV9tBmYdi5AgfqB
+s968frW4yXppwLTEqhQYy8XpEz6XTezWx5Z6MzUzPs6PnOY+5Ytr5ZAtjkKdq/KY
+dUBik/AJ8k+2jeJfECHGaqk9kzBIKV33T+9ItfMZXruJzFFluXQxEFK1quMBMYYe
+EzHtWm+j29CaeLPQUANQypSj9XzUQQOs+SE7GiejY/jt4DRBi8FxxunrKTk7QjgL
+Mif323k5mlN3LH5NJxVDyxIM
+=2x3k
 -----END PGP SIGNATURE-----
 
---===============1049744989340620097==--
+--===============4095920343091478386==--
