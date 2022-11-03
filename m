@@ -1,27 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Thu, 03 Nov 2022 16:34:44 -0000
-Message-Id: <166749328472.18499.17934592603058895500@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
+Date: Thu, 03 Nov 2022 16:41:18 -0000
+Message-Id: <166749367895.23838.9405839133838608303@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
-user: broonie
+repo: pub/scm/linux/kernel/git/ardb/linux
+user: ardb
 changes:
-  - ref: refs/heads/for-next
-    old: 798f5ce3dac6dda31ad4ffe74095a5709b209cfe
-    new: 54e45e9aea20dbc7759d952d9db17cf9a009b029
+  - ref: refs/heads/arm64-wxn-v8
+    old: 2563cbfcf8285cffb34698719758f600d56d90af
+    new: 963bc844e640144277f42837ed0509e8b0a0cbae
     log: |
-         f8639c385f7e8325b73c83a6ec0865f8c036e1ad ASoC: mediatek: dt-bindings: modify machine bindings for two MICs case
-         e14657c0f0022e02c8f25fa9c56afae3d3db9e77 ASoC: mediatek: mt8186-rt5682: Modify machine driver for two DMICs case
-         faf3b5cb59f84e4056bd84f115a958bc99c61e65 ARM: omap2: n8x0: stop instantiating codec platform data
-         426c7bf45f207ac7a962e012dd482f7aaa3a3d5f ASoC: tlv320aic3x: remove support for platform data
-         a984d8332d90afd2989e10b095ffdb2875d4bac8 ASoC: tlv320aic3x: switch to using gpiod API
-         f7d97cb564a2ac5517ee7cc933de729e533d659a ASoC: simple-mux: add read function
-         b43d0c0a42b2c44da824b3de0364d73be722a8c7 ASoC: Intel: cirrus-common: Make const array uid_strings static
-         a0e7636bf3746b645aadd94998f01063406d7688 Modify documentation and machine driver for mt8186_rt1019_rt5682s sound card
-         54e45e9aea20dbc7759d952d9db17cf9a009b029 Merge remote-tracking branch 'asoc/for-6.2' into asoc-next
+         dfda47fd70c1090770dc0f49d358a124a5842cf6 arm64: kaslr: drop special case for ThunderX in kaslr_requires_kpti()
+         cf8a06b26ff598c0d901a6ff441573d467d2b980 arm64: head: allocate more pages for the kernel mapping
+         c3ac7bb9e2248f5bd27a213037fa650acc35e787 arm64: head: move memstart_offset_seed handling to C code
+         9a1494cad12cb2b53f2c6a9b164100db7a760e56 arm64: head: move early kernel mapping and relocation code to C code
+         c44f50ea7c381bb241017ce3b7ef6468bdadd676 arm64: mm: avoid fixmap for early swapper_pg_dir updates
+         820efc3a7265e7a04f783b5e6f85878ff420217d arm64: mm: omit redundant remap of kernel image
+         f5795ed416813b947713de4a1e7ebcc79d09ce37 mm: add arch hook to validate mmap() prot flags
+         963bc844e640144277f42837ed0509e8b0a0cbae arm64: mm: add support for WXN memory translation attribute
          
