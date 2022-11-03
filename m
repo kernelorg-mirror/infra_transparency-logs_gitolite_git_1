@@ -1,53 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============0542124311858979619=="
+Content-Type: multipart/mixed; boundary="===============8335647239349736817=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/powerpc/linux
-Date: Thu, 03 Nov 2022 01:45:02 -0000
-Message-Id: <166743990231.24070.15620324063357488720@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
+Date: Thu, 03 Nov 2022 01:45:49 -0000
+Message-Id: <166743994961.25744.17016442658050134920@gitolite.kernel.org>
 
---===============0542124311858979619==
+--===============8335647239349736817==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/powerpc/linux
-user: mpe
+repo: pub/scm/linux/kernel/git/gregkh/tty
+user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/powerpc-6.1-4
-    old: a0506754b172f27322c35dd55a82b94e822177a3
-    new: f62bf5af7609b34a7b7e86a16a08957f5131cc1b
+  - ref: refs/heads/tty-testing
+    old: 72da688b457d738b943016dabc603efb1be5f4e1
+    new: 83efeeeb3d04b22aaed1df99bc70a48fe9d22c4d
+    log: |
+         5fd8c2d3de3dd3cc6d36a0c7a08e44cd5bf173e6 tty: Move sysctl setup into "core" tty logic
+         83efeeeb3d04b22aaed1df99bc70a48fe9d22c4d tty: Allow TIOCSTI to be disabled
+         
 
---===============0542124311858979619==
+--===============8335647239349736817==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Michael Ellerman <mpe@ellerman.id.au> 1667439893 +1100
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/powerpc/linux
-nonce 1667439893-6205d0c4126b71a2a543433b769e4163cb617822
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1667439995 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
+nonce 1667439934-3120699552a23cacd602f51fbfd4ce68daf99258
 
-a0506754b172f27322c35dd55a82b94e822177a3 f62bf5af7609b34a7b7e86a16a08957f5131cc1b refs/tags/powerpc-6.1-4
+72da688b457d738b943016dabc603efb1be5f4e1 83efeeeb3d04b22aaed1df99bc70a48fe9d22c4d refs/heads/tty-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJHBAABCAAxFiEEJFGtCPCthwEv2Y/bUevqPMjhpYAFAmNjHRUTHG1wZUBlbGxl
-cm1hbi5pZC5hdQAKCRBR6+o8yOGlgMmBD/9NN+AURlDeZ/UAMYR897lGEWQ9anyf
-XAgF5NiqiqEP+uFb0G7ewvc53bs6PelTUN1LBGbg71lPywtRx6P+ZnoeyznDp30y
-utXsPe+M+v27zD9+f0MPdy3ALjAZFCR55g49pl3G+wP3ykztbKXuUETdWuDkgo05
-OXYioJazCY6jXL3q7Dn1ykKNr2tOvIYsBT9XdjiYoJJAgbvgwcZ5eQch98CU4T/I
-k/D+RIClQbFgGSDEgJoS8qxVi+IMO+BwA/JM5JZL9uPX6lpT7+kdWPoQiZvD3SYQ
-aBR5wBE4B85NdcsGO2B5W9sMEt70kJyTvh1oY8JdNFk9sa9DDrmll/POhtzcz6AP
-QeTU4xLwh8F/sgRrAAyFguMAs2/DV+aZo/95kp7UpBzUGvvjM6hd9rYkgWf7zQCA
-UoYtH8B3A39F3H8/Q5KlJ6yGmrFGD00Szy+9N7OuDgmNPQ5+PiWRNF+QQyXzrujX
-OFtZQ4J6mimREsnb4z0mn0pbgVME79fbrvU2OKoB7U0JZNbcz/2Duh8pEcO2+ukS
-iUXIOH8kjWRU1f7Eso3rNuASHJSk5wV2K4kj4UQaNYHSNs+eOanvsjRnHdiF8vTO
-7GZAHSFLwzPpKQkkGieMcWizrMN8fNLWJ35APnZVqUDDFV2i/C9wRdRM/8zO7UaO
-Bv/RPo+5ZYC78g==
-=Yhtm
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmNjHXsbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+nNoQAIreSjWp9tvrZzf7MbJG
+PCi4axYB/3jzrohJ2PnlU01HIPwrQL3R6+tx0ffHjRMi+NPOTtITfZ4VxwE0jnPf
+6riwZiD8mirlxdyHBoJjpPUCCMkQXrIj3elZy774gyKAX+2PcvOaD9Qnp6FlaMQn
+eWgiZsRfp+eAhVuD2LZUONWJ6ijeOKVUiUSUCuF2ygSwOXiRhkfbnY7B/DnpjLKH
+pDneDpSGkkCARc/45R2mSIJEPy2rYnYxGQ0wJzjyQ5KNjFFNCEG1ZuBwveL1/sUs
+AmPE6gYLWxx8RCvOvyFiWO3HFaQ50fmSo6WejsUElmlhGHOGDGvLeS7JL5oTQa+n
+tyzC+fhH5bBNYNepogUlbouQTXSDYqQssnsVWLE5p0YPDjLuasJuf24HdX5EI9SE
+9zyQ9pMN2PEuKELqR9p+/7f/jsym2XOxgR5JIXTkaE+feDDykm3VJlTg6o1QSP1i
+tMzFCAOX8EGN0RZ8W7FHMC8wMqFgyIxH4grwKxSvGnqs2145sJY6axG8F9Ch02JY
+2M4M2AeSr5COtipRS3IuO3jd5nZtmiCPO1onLJb4GadI/NZ6x9lHhZRtNZvRZ6CG
+NQv30Al74pN9H1H1dWZWW0zjI8GvPU175uH2tEX251wYKTYJoZnlSftMSXKlw634
+o94CxTEsp61jLxWXGwod+XVV
+=1dvv
 -----END PGP SIGNATURE-----
 
---===============0542124311858979619==--
+--===============8335647239349736817==--
