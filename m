@@ -1,23 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Fri, 04 Nov 2022 13:43:44 -0000
-Message-Id: <166756942473.24709.1705807364183190645@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
+Date: Fri, 04 Nov 2022 13:46:18 -0000
+Message-Id: <166756957883.27204.7984008621000528133@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cel/linux
-user: cel
+repo: pub/scm/linux/kernel/git/maz/arm-platforms
+user: maz
 changes:
-  - ref: refs/heads/for-next
-    old: 16336b7fae21a274ed2d669d6381be3d17a52f70
-    new: 875bb88b9ce2cc4e88b68640312a764959e40c1e
+  - ref: refs/heads/kvm-arm64/pmu-unchained
+    old: 2e607ea3d7d248572435a8dda71b6198dc902b1e
+    new: 2bf5315783f8776fd1db4898673d34cb822288cb
     log: |
-         cae6018e79f8bade7c21b54acc3f92ac8dfd2436 nfsd: rework refcounting in filecache
-         10b7d46236329392d3f2aeb2002059ef5f2d5de8 nfsd: fix up the filecache laundrette scheduling
-         e09d75fe7867fd8ed84c71faced17ad4319a2b75 sunrpc: svc: Remove an unused static function svc_ungetu32()
-         4585e34c90e192db30e71bf823bd0779d223af45 NFSD: Add an nfsd_file_fsync tracepoint
-         875bb88b9ce2cc4e88b68640312a764959e40c1e NFSD: Re-arrange file_close_inode tracepoints
+         6df31e4d84c5371c9ecd412c4f7719b3c4027024 KVM: arm64: PMU: Allow ID_AA64DFR0_EL1.PMUver to be set from userspace
+         5494f24c3f0b64442d9a9b4cd967118641221b04 KVM: arm64: PMU: Allow ID_DFR0_EL1.PerfMon to be set from userspace
+         1123434f44ba0ba3a17402eaacddc6833f1ea02d KVM: arm64: PMU: Implement PMUv3p5 long counter support
+         2bf5315783f8776fd1db4898673d34cb822288cb KVM: arm64: PMU: Allow PMUv3p5 to be exposed to the guest
          
