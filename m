@@ -1,43 +1,27 @@
-Content-Type: multipart/mixed; boundary="===============5986429841896886613=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 04 Nov 2022 07:36:33 -0000
-Message-Id: <166754739302.12443.15904702877177042505@gitolite.kernel.org>
-
---===============5986429841896886613==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/ribalda/linux
+Date: Fri, 04 Nov 2022 07:56:10 -0000
+Message-Id: <166754857024.26581.6846917620870636510@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/ribalda/linux
+user: ribalda
 changes:
-  - ref: refs/heads/master
-    old: 801735aabc76157c23f5c2d4711db17abcfd26c3
-    new: 1f741723738e130d3062081107d9a8f2e6dae9d4
-    log: revlist-801735aabc76-1f741723738e.txt
-
---===============5986429841896886613==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-801735aabc76-1f741723738e.txt
-
-4b18cb3f74dcfc183c2434e17bfce09ce6302e37 perf/hw_breakpoint: test: Skip the test if dependencies unmet
-80275ca9e525c198c7efe045c4a6cdb68a2ea763 perf/x86/rapl: Use standard Energy Unit for SPR Dram RAPL domain
-acc5568b90c19ac6375508a93b9676cd18a92a35 perf/x86/intel: Fix pebs event constraints for ICL
-0916886bb978e7eae1ca3955ba07f51c020da20c perf/x86/intel: Fix pebs event constraints for SPR
-6f8faf471446844bb9c318e0340221049d5c19f4 perf/x86/intel: Add Cooper Lake stepping to isolation_ucodes[]
-7420ae3bb977b46eab082f4964641f3ddc98ebaf x86/intel_epb: Set Alder Lake N and Raptor Lake P normal EPB
-19404aeebbc18cc15ef440b4c17f9cc9f3005329 x86_64: Remove pointless set_64bit() usage
-b6e3ea033d08b368fcac28556fa27bf20e8a1ba5 x86/mm/pae: Get rid of set_64bit()
-28fec83baabe2b72fa6ebbc178e979917f97c2f6 mm: Remove pointless barrier() after pmdp_get_lockless()
-3301badde43dee7c2a013fbd6479c258366519da mm: Convert __HAVE_ARCH_P..P_GET to the new style
-870cc91c5ce92e5426498feb9545c27dfd58541f Merge branch into tip/master: 'perf/urgent'
-2984d7ceb82e04551b71d085113d3e4a8f0c76e5 Merge branch into tip/master: 'x86/cpu'
-1f741723738e130d3062081107d9a8f2e6dae9d4 Merge branch 'x86/mm'
-
---===============5986429841896886613==--
+  - ref: refs/heads/b4/resend-hwtimestamp
+    old: d96dee17468e45836cabb694d142cf463133fcfe
+    new: 98251d49db32014e3a2fb7f61ef9d778afbdfb98
+    log: |
+         da4abb5467282c15161bf7e192af001d424cb94d [RESEND] [PATCH 0/8] uvcvideo: Fixes for hw timestamping
+         7fc444df4007e6f4a4b58a28a15d352597620d13 media: uvc: Extend documentation of uvc_video_clock_decode()
+         005005e9b3e12f88a025ada4a6efd907a7405d05 media: uvc: Allow quirking by entity guid
+         d4c5a35df2452f5c5e3460f90aa7ee0898176233 media: uvc: Create UVC_QUIRK_IGNORE_EMPTY_TS quirk
+         a0ff63b991e8da72848e5f75b1b192e242bcbec5 media: uvcvideo: Quirk for invalid dev_sof in Logi C922
+         bc0a1a8ab4f3a192a00632ec2958b526efd32615 media: uvcvideo: Quirk for autosuspend in Logi C910
+         c5db8dfd2023460bf0cd4b041660c1c97db31df4 media: uvcvideo: Allow hw clock updates with buffers not full
+         5ebef45ac1d24dcbceeec8ffc06133b1919d74a6 media: uvcvideo: Refactor clock circular buffer
+         98251d49db32014e3a2fb7f61ef9d778afbdfb98 media: uvcvideo: Fix hw timestampt handling for slow FPS
+         
