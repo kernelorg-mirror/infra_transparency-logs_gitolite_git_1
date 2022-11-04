@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Fri, 04 Nov 2022 10:10:10 -0000
-Message-Id: <166755661014.4252.7989359325523091644@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Fri, 04 Nov 2022 10:11:12 -0000
+Message-Id: <166755667210.4738.7134120459144810487@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: davem
 changes:
   - ref: refs/heads/master
-    old: b3809277addbba68724ee0cd6d048a3ca33c5e4d
-    new: d28c0e73efbee95edf789f07c494592f89862606
+    old: cfdcb075048c1e886c45a9c9e681ed222f74ecb9
+    new: cdb525ca92b196f8916102b62431aa0d9a644ff2
     log: |
-         d28c0e73efbee95edf789f07c494592f89862606 rds: remove redundant variable total_payload_len
+         cdb525ca92b196f8916102b62431aa0d9a644ff2 selftests/net: give more time to udpgro bg processes to complete startup
          
