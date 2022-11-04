@@ -1,24 +1,34 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Fri, 04 Nov 2022 10:44:41 -0000
-Message-Id: <166755868141.26657.2929630467638215768@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kvalo/ath
+Date: Fri, 04 Nov 2022 10:45:27 -0000
+Message-Id: <166755872788.28546.4543802915614897607@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: davem
+repo: pub/scm/linux/kernel/git/kvalo/ath
+user: kvalo
 changes:
-  - ref: refs/heads/master
-    old: cdb525ca92b196f8916102b62431aa0d9a644ff2
-    new: f4e405f566ff57db0c59e68a1b5ff4ff09989a91
+  - ref: refs/heads/master-pending
+    old: 0da022960da575deb01323aeab254005a234f06e
+    new: 438a149ccccd36d26f237daf810a926333f2a26a
     log: |
-         8bcd560ae8784da57c610d857118c5d6576b1a8f Revert "net: macsec: report real_dev features when HW offloading is enabled"
-         93a30947821c203d08865c4e17ea181c9668ce52 macsec: delete new rxsc when offload fails
-         73a4b31c9d11f98ae3bc5286d5382930adb0e9c7 macsec: fix secy->n_rx_sc accounting
-         80df4706357a5a06bbbc70273bf2611df1ceee04 macsec: fix detection of RXSCs when toggling offloading
-         aaab73f8fba4fd38f4d2617440d541a1c334e819 macsec: clear encryption keys from the stack after setting up offload
-         f4e405f566ff57db0c59e68a1b5ff4ff09989a91 Merge branch 'macsec-offload-fixes'
+         11e1fcf2b494da810d551553c46f739e36501adc wifi: ath10k: Make QMI message rules const
+         93c1592889fca46d09d833455628bab05516cdbf wifi: ath11k: Make QMI message rules const
+         ded5218d3f238773fb85b4f430f133243c386f39 Merge branch 'ath-next'
+         0f3d0d77be825ca59c6470249484cfacd0445d74 Merge branch 'ath-current'
+         7aeec8a2aa9e4f05e7ed8f06799e5c6a908efc99 Merge remote-tracking branch 'mhi/mhi-next'
+         05f841e6bde99edaec7f6f211d2403a7b2f6530e Add localversion-wireless-testing-ath
+         d1ccdcc235931e74695d84596154641bccdf9a3d wifi: ath11k: Trigger sta disconnect on hardware restart
+         438a149ccccd36d26f237daf810a926333f2a26a Merge branch 'pending' into master-pending
+         
+  - ref: refs/heads/pending
+    old: 804d85c714094537bfb3b1dbe0607559b8a169f9
+    new: d1ccdcc235931e74695d84596154641bccdf9a3d
+    log: |
+         11e1fcf2b494da810d551553c46f739e36501adc wifi: ath10k: Make QMI message rules const
+         93c1592889fca46d09d833455628bab05516cdbf wifi: ath11k: Make QMI message rules const
+         d1ccdcc235931e74695d84596154641bccdf9a3d wifi: ath11k: Trigger sta disconnect on hardware restart
          
