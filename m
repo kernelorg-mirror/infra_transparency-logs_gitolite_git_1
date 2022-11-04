@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Fri, 04 Nov 2022 13:46:18 -0000
-Message-Id: <166756957883.27204.7984008621000528133@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vbabka/slab
+Date: Fri, 04 Nov 2022 13:59:07 -0000
+Message-Id: <166757034767.3708.11977121804570379000@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
-user: maz
+repo: pub/scm/linux/kernel/git/vbabka/slab
+user: vbabka
 changes:
-  - ref: refs/heads/kvm-arm64/pmu-unchained
-    old: 2e607ea3d7d248572435a8dda71b6198dc902b1e
-    new: 2bf5315783f8776fd1db4898673d34cb822288cb
+  - ref: refs/heads/slab/for-6.1-rc4/fixes
+    old: 8a36db3f251813ecc2c1978a5853ab998f42734e
+    new: eb4940d4adf590590a9d0c47e38d2799c2ff9670
     log: |
-         6df31e4d84c5371c9ecd412c4f7719b3c4027024 KVM: arm64: PMU: Allow ID_AA64DFR0_EL1.PMUver to be set from userspace
-         5494f24c3f0b64442d9a9b4cd967118641221b04 KVM: arm64: PMU: Allow ID_DFR0_EL1.PerfMon to be set from userspace
-         1123434f44ba0ba3a17402eaacddc6833f1ea02d KVM: arm64: PMU: Implement PMUv3p5 long counter support
-         2bf5315783f8776fd1db4898673d34cb822288cb KVM: arm64: PMU: Allow PMUv3p5 to be exposed to the guest
+         eb4940d4adf590590a9d0c47e38d2799c2ff9670 mm/slab: remove !CONFIG_TRACING variants of kmalloc_[node_]trace()
          
