@@ -1,41 +1,45 @@
-Content-Type: multipart/mixed; boundary="===============4417689461632774365=="
+Content-Type: multipart/mixed; boundary="===============4716786394550189767=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless-next
-Date: Fri, 04 Nov 2022 11:02:42 -0000
-Message-Id: <166755976280.8655.11230582438137521175@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Fri, 04 Nov 2022 11:07:57 -0000
+Message-Id: <166756007761.12029.976629289543994532@gitolite.kernel.org>
 
---===============4417689461632774365==
+--===============4716786394550189767==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wireless/wireless-next
-user: kvalo
+repo: pub/scm/linux/kernel/git/broonie/misc
+user: broonie
 changes:
-  - ref: refs/heads/main
-    old: 57d545b5a3d6ce3a8fb6b093f02bfcbb908973f3
-    new: bd954a7e4aa0739630884fc572d2d0e4dcd16e25
-    log: revlist-57d545b5a3d6-bd954a7e4aa0.txt
+  - ref: refs/heads/arm64-nmi
+    old: bbd766d4e5b9b76d2b797e63a6201666b5e79f61
+    new: ceabe3bd8c2ea489d8a66746d7a6e56eee6e5a16
+    log: revlist-bbd766d4e5b9-ceabe3bd8c2e.txt
 
---===============4417689461632774365==
+--===============4716786394550189767==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-57d545b5a3d6-bd954a7e4aa0.txt
+Content-Disposition: attachment; filename=revlist-bbd766d4e5b9-ceabe3bd8c2e.txt
 
-81d17f6f3331f03c8eafdacea68ab773426c1e3c wifi: brcmfmac: Fix potential shift-out-of-bounds in brcmf_fw_alloc_request()
-2b6c0e152868c9c5939a5c5094d5b2be61cf48e6 bcma: Use the proper gpio include
-74a473007ce54b1f42267cf13e008abfb1849ad0 bcma: Fail probe if GPIO subdriver fails
-cdeee85409526cf5a4ca6528bd4d148833a940a3 wifi: rtlwifi: rtl8192ee: remove static variable stop_report_cnt
-22ebc2640cc7b4ecf139737506629fb012e65fd5 wifi: brcmfmac: Fix a typo "unknow"
-683b9728f28895660c66da250cd31654b8fcbc6e wifi: brcmfmac: Fix potential NULL pointer dereference in 'brcmf_c_preinit_dcmds()'
-57b328bc79967a2392af6ac724d3fd36322cd7f2 wifi: rtl8xxxu: Add central frequency offset tracking
-2ad2a813b803593832fa10b2c3d6d6065aec17ad wifi: rtl8xxxu: Fix the CCK RSSI calculation
-7b0ac469e331d9f9fd77f4ebb7a6322f5562db67 wifi: rtl8xxxu: Recognise all possible chip cuts
-e952deaa95bae89663a75d855a7e61a40f534fb0 wifi: rtl8xxxu: Set IEEE80211_HW_SUPPORT_FAST_XMIT
-bd954a7e4aa0739630884fc572d2d0e4dcd16e25 wifi: rtl8xxxu: Use dev_* instead of pr_info
+59577dbd7da52243d58deb6da35e428fecb0ed2c arm64/sysreg: Add definitions for immediate versions of MSR ALLINT
+12e66209b3c14dcdf039c1f11aa44a7051e4280f arm64/asm: Introduce assembly macros for managing ALLINT
+aa2e644049a6cfa08eb034dce0d19adb2ff3cede arm64/hyp-stub: Enable access to ALLINT
+6b1ce5afe002d973097cae3db2bce7cdf478c37e arm64/cpufeature: Detect PE support for NMIs
+bfa2cf6795c71f17a4684ab2f27d104d7af31c32 arm64/entry: Manage ALLINT.ALLINT when FEAT_NMI is active
+c31c58ba7bf6d41a497f53d89a8b8a456cb670f2 arm64/mm: Disable all interrupts while replacing TTBR1
+3b203d5284a15e11dc7d703b96366101e979f70f arm64/hibernate: Disable NMIs while hibernating
+7e1e659b4eb8f635c17854a46d3d05e31062963b arm64/suspend: Disable NMIs while suspending
+b091e2fd9f150594f48c40dc7ce93c37ecf88945 arm64/kexec: Mask NMIs before starting new kernel
+9a1cd6c67ad58e1f4404ea67d1ac970054e7e717 arm64/acpi: Mask NMIs while notifying SEA
+6a68ec7b20c2e352a73bc55d17481f5338a96997 arm64/irq: Document handling of FEAT_NMI in irqflags.h
+48af9ed3617cb1af8a2ce237fe9413051a41877d arm64/nmi: Add handling of superpriority interrupts as NMIs
+64a579491ced6ab980326e03c7554e607711ce41 arm64/nmi: Add Kconfig for NMI
+95986acc3fc038cb21289059e2daeb0b8554f53a irqchip/gic-v3: Implement FEAT_GICv3_NMI support
+ceabe3bd8c2ea489d8a66746d7a6e56eee6e5a16 arm64/nmi: Add save/restore NMI helpers (TODO - needed?)
 
---===============4417689461632774365==--
+--===============4716786394550189767==--
