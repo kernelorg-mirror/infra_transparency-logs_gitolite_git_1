@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Fri, 04 Nov 2022 23:46:18 -0000
-Message-Id: <166760557887.32692.12792127703539472967@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
+Date: Fri, 04 Nov 2022 23:46:36 -0000
+Message-Id: <166760559605.408.1742670218589342622@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/groeck/linux-staging
+user: groeck
 changes:
-  - ref: refs/heads/master
-    old: 0cebe8673b53716a1eaca58cb364947721706c50
-    new: 2533debeb65449f9f230fa14876872b1c7a7f2ae
+  - ref: refs/heads/hwmon
+    old: e18a9e894913b626396e2a8b864d980d28c66429
+    new: 6ef24de43180c8c9a9e555a1e82393fb09ef4c83
     log: |
-         2533debeb65449f9f230fa14876872b1c7a7f2ae Fri Nov  4 11:44:52 PM UTC 2022
+         6ef24de43180c8c9a9e555a1e82393fb09ef4c83 Revert "hwmon: (pmbus) Add regulator supply into macro"
          
