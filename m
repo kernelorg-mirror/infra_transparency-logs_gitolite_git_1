@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
-Date: Fri, 04 Nov 2022 22:16:23 -0000
-Message-Id: <166760018375.983.10040907187149097261@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/daveh/devel
+Date: Fri, 04 Nov 2022 22:26:03 -0000
+Message-Id: <166760076334.8843.12650704007152039328@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf
-user: dborkman
+repo: pub/scm/linux/kernel/git/daveh/devel
+user: daveh
 changes:
-  - ref: refs/heads/master
-    old: d3fd203f36d46aa29600a72d57a1b61af80e4a25
-    new: c86df29d11dfba27c0a1f5039cd6fe387fbf4239
+  - ref: refs/heads/testme
+    old: bce5a1e8a34006a5e80213ede5e5c465d53f1dce
+    new: bc1637207fa4ed49f3c83e4289e4af76fd572bc3
     log: |
-         18acb7fac22ff7b36c7ea5a76b12996e7b7dbaba bpf: Revert ("Fix dispatcher patchable function entry to 5 bytes nop")
-         c86df29d11dfba27c0a1f5039cd6fe387fbf4239 bpf: Convert BPF_DISPATCHER to use static_call() (not ftrace)
+         7b72c823ddf8aaaec4e9fb28e6fbe4d511e7dad1 x86/sgx: Reduce delay and interference of enclave release
+         a605922315e29bc41c7fc43a0f71e1e2edda3ea9 x86/sgx: Allow enclaves to use Asynchrounous Exit Notification
+         bc1637207fa4ed49f3c83e4289e4af76fd572bc3 KVM/VMX: Allow exposing EDECCSSA user leaf function to KVM guest
          
