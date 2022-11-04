@@ -1,42 +1,19 @@
-Content-Type: multipart/mixed; boundary="===============7407815487810062319=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Fri, 04 Nov 2022 19:35:18 -0000
-Message-Id: <166759051815.17396.7493236085925527340@gitolite.kernel.org>
-
---===============7407815487810062319==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Fri, 04 Nov 2022 19:53:06 -0000
+Message-Id: <166759158615.28166.4012767125637163489@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/acme/linux
+user: acme
 changes:
-  - ref: refs/heads/arm64-nmi
-    old: 2f2803da564a2fb2d1ebb7dfb87d92b6eadfcaa4
-    new: 5d9490114b35acb59f727aa149d8faada2ab6dfd
-    log: revlist-2f2803da564a-5d9490114b35.txt
-
---===============7407815487810062319==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2f2803da564a-5d9490114b35.txt
-
-df79568239d494b2b999bf268bc1e0deaf6a01d9 arm64/idreg: Add an override for FEAT_NMI
-fe6e6a9c7fbb93074f2bb6974e313d5b85586c46 arm64/cpufeature: Detect PE support for NMIs
-05c9246fa98221de05837e131dc9038a4914aa07 arm64/entry: Manage ALLINT.ALLINT when FEAT_NMI is active
-be216184c7532a2c063a2f36885bf85c5c79fc4f arm64/mm: Disable all interrupts while replacing TTBR1
-29ca5bafa0403e7e9935a571c38ef47c5436a698 arm64/hibernate: Disable NMIs while hibernating
-020318ebb2c2f75b2bc50543714d61ba656f6fd8 arm64/suspend: Disable NMIs while suspending
-59522c95b588193165d69d8175ef45ba602eec5e arm64/kexec: Mask NMIs before starting new kernel
-ab8a2332b68d851e826fe214624e907116e4e721 arm64/acpi: Mask NMIs while notifying SEA
-44abee43c6239e6baadeb7c1bb968eeb43883e66 arm64/irq: Document handling of FEAT_NMI in irqflags.h
-e10d169869fbc2c4b7109f9dbe6fe516e5304c43 arm64/nmi: Add handling of superpriority interrupts as NMIs
-0f06375cd54a7f8b78925364b15368e564c7e68f arm64/nmi: Add Kconfig for NMI
-5d9490114b35acb59f727aa149d8faada2ab6dfd irqchip/gic-v3: Implement FEAT_GICv3_NMI support
-
---===============7407815487810062319==--
+  - ref: refs/heads/tmp.perf/core
+    old: b018899e620b8ee4529f43bd02e9e8e43043e33e
+    new: f704d2f8e8a4ef45c98fbc2a38744e19120d5c53
+    log: |
+         f704d2f8e8a4ef45c98fbc2a38744e19120d5c53 perf trace: Add BPF augmenter to perf_event_open()'s 'struct perf_event_attr' arg
+         
