@@ -1,9 +1,13 @@
+Content-Type: multipart/mixed; boundary="===============9035642664497999346=="
+MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Fri, 04 Nov 2022 04:52:24 -0000
-Message-Id: <166753754493.25824.2871645270916466837@gitolite.kernel.org>
+Date: Fri, 04 Nov 2022 04:59:58 -0000
+Message-Id: <166753799816.31314.14476129763618653412@gitolite.kernel.org>
+
+--===============9035642664497999346==
+Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
@@ -11,14 +15,27 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/for-next
-    old: 07ec7b502800ba9f7b8b15cb01dd6556bb41aaca
-    new: aa3496accc412b3d975e4ee5d06076d73394d8b5
-    log: |
-         9805af8d8a5b17f9ea0a16f636f3440b970049f3 bpf: Document UAPI details for special BPF types
-         23da464dd6b8935b66f4ee306ad8947fd32ccd75 bpf: Allow specifying volatile type modifier for kptrs
-         261f4664caffdeb9dff4e83ee3c0334b1c3a552f bpf: Clobber stack slot when writing over spilled PTR_TO_BTF_ID
-         f5e477a861e4a20d8a1c5f7a245f3a3c3c376b03 bpf: Fix slot type check in check_stack_write_var_off
-         a28ace782e687424d7aa2c29a4516f54d5561a14 bpf: Drop reg_type_may_be_refcounted_or_null
-         aa3496accc412b3d975e4ee5d06076d73394d8b5 bpf: Refactor kptr_off_tab into btf_record
-         
+  - ref: refs/heads/master
+    old: aa3496accc412b3d975e4ee5d06076d73394d8b5
+    new: af085f55329ca72c8c6f78a11f352ef7a7a4d1d7
+    log: revlist-aa3496accc41-af085f55329c.txt
+
+--===============9035642664497999346==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-aa3496accc41-af085f55329c.txt
+
+9b5e3536c898b23143748b8cc01c64f868ec7078 selftests/bpf: add veristat replay mode
+62d2c08bb91cc3fc26319c571000cacac0312426 selftests/bpf: shorten "Total insns/states" column names in veristat
+10b1b3f3e56a6a3586356bf8cc77d7753ba8fcc9 selftests/bpf: consolidate and improve file/prog filtering in veristat
+b9670b904a59808ef4222179a255978384bcc119 selftests/bpf: ensure we always have non-ambiguous sorting in veristat
+d68c07e2dd91c3e8bc451ecb218b77da2635cdd4 selftests/bpf: allow to define asc/desc ordering for sort specs in veristat
+1bb4ec815015609c9458d5ffeb5c8cc95b7d44d6 selftests/bpf: support simple filtering of stats in veristat
+77534401d69c2a35d2a53e599fafb5f0f604e45d selftests/bpf: make veristat emit all stats in CSV mode by default
+a5710848d824168b5f7f02aa3689e648c46b2e46 selftests/bpf: handle missing records in comparison mode better in veristat
+fa9bb590c2895b14c9da46ba1860d06efba55657 selftests/bpf: support stats ordering in comparison mode in veristat
+d5ce4b89234156d66ac8a59bddbc341667aadf86 selftests/bpf: support stat filtering in comparison mode in veristat
+af085f55329ca72c8c6f78a11f352ef7a7a4d1d7 Merge branch 'veristat: replay, filtering, sorting'
+
+--===============9035642664497999346==--
