@@ -1,50 +1,21 @@
-Content-Type: multipart/mixed; boundary="===============6691163003595097433=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Fri, 04 Nov 2022 15:49:07 -0000
-Message-Id: <166757694742.17418.3154533458246788265@gitolite.kernel.org>
-
---===============6691163003595097433==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
+Date: Fri, 04 Nov 2022 15:49:09 -0000
+Message-Id: <166757694997.17484.5147240796550933947@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
-user: broonie
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/brgl/linux
+user: brgl
 changes:
-  - ref: refs/heads/for-6.2
-    old: a0e7636bf3746b645aadd94998f01063406d7688
-    new: 4b19211435950a78af032c26ad64a5268e6012be
+  - ref: refs/heads/gpio/for-next
+    old: fbb19fe17eaef7b6ba2e68dbf0600a97060f2909
+    new: b8b80348c57b360019071e17380298619c5d8066
     log: |
-         4b19211435950a78af032c26ad64a5268e6012be ASoC: amd: fix ACP version typo mistake
+         d59fdbc7164a6b2a0ed45c13387deac8efeed5a2 gpiolib: of: Make use of device_match_of_node()
+         34cb9352b62366038fd2d5b9d9f393f35d0be1e0 gpiolib: of: factor out quirk setting polarity via separate property
+         b8b80348c57b360019071e17380298619c5d8066 gpiolib: of: add polarity quirk for Freescale PCIe controller
          
-
---===============6691163003595097433==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1667576946 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1667576945-4892a470995d51ae253dabeafac357206f19a272
-
-a0e7636bf3746b645aadd94998f01063406d7688 4b19211435950a78af032c26ad64a5268e6012be refs/heads/for-6.2
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmNlNHIACgkQJNaLcl1U
-h9ClPgf/f6gSfcZBfM6B/EtxXlotkiClQF4EmQR/gU73w9RG/ahevbgiopoZmEBA
-S5ySxtPLyWykGboucLXhH8l+cpZ4L6jTboYLg6bib0reY0So3Ln6y3wII61TpU8T
-jRQJDZBAR9qhROwg0/f82misS4tEHODq7XRM489cmvNlm/b/YdEbwgo8hwXzJKmX
-B9Bk21kkuFIdJafJYEqV/wmEqgqKH74XU0YhIU9a8fclrbnAmKRQFQb1lKQAKt5d
-lHWIiUs8eb5KWzG0bFeVrgFjsvryJDaPA8i8aGDWfaFcDKXdWjtQQ+Tv2sciNLUC
-5dCm3RUFxo54va7phxxIj+OrhRrt6A==
-=wTR/
------END PGP SIGNATURE-----
-
---===============6691163003595097433==--
