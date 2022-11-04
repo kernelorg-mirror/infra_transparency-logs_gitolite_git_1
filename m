@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 04 Nov 2022 23:10:55 -0000
-Message-Id: <166760345551.8474.10448975061936949809@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Fri, 04 Nov 2022 23:41:39 -0000
+Message-Id: <166760529925.29419.729462101922292370@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: daveh
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: hansg
 changes:
-  - ref: refs/heads/x86/sgx
-    old: 7b72c823ddf8aaaec4e9fb28e6fbe4d511e7dad1
-    new: 16a7fe3728a8b832ef0d1add66875a666b1f24fc
+  - ref: refs/heads/review-hans
+    old: 225469d4acbcb873358d7618bad6e0203b67b964
+    new: 9b5040760b32ec043d3401d0972f2aaebfdacb1f
     log: |
-         370839c241f7b98c66063c2892795a37ee3d2771 x86/sgx: Allow enclaves to use Asynchrounous Exit Notification
-         16a7fe3728a8b832ef0d1add66875a666b1f24fc KVM/VMX: Allow exposing EDECCSSA user leaf function to KVM guest
+         1913d98e5605947ca471f9ea54f4be7b49d3a493 ACPI: video: Improve Chromebook checks
+         0fdbed0296147c03c1a8ee26a4e0ecf053ea59d2 ACPI: video: Make acpi_video_backlight_use_native() always return true
+         9b5040760b32ec043d3401d0972f2aaebfdacb1f ACPI: video: Add backlight=native DMI quirk for Dell G15 5515
          
