@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9035642664497999346=="
+Content-Type: multipart/mixed; boundary="===============2735081230525986317=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Fri, 04 Nov 2022 04:59:58 -0000
-Message-Id: <166753799816.31314.14476129763618653412@gitolite.kernel.org>
+Date: Fri, 04 Nov 2022 05:00:03 -0000
+Message-Id: <166753800357.385.9534651947398608808@gitolite.kernel.org>
 
---===============9035642664497999346==
+--===============2735081230525986317==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: aa3496accc412b3d975e4ee5d06076d73394d8b5
     new: af085f55329ca72c8c6f78a11f352ef7a7a4d1d7
     log: revlist-aa3496accc41-af085f55329c.txt
 
---===============9035642664497999346==
+--===============2735081230525986317==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -38,4 +38,4 @@ fa9bb590c2895b14c9da46ba1860d06efba55657 selftests/bpf: support stats ordering i
 d5ce4b89234156d66ac8a59bddbc341667aadf86 selftests/bpf: support stat filtering in comparison mode in veristat
 af085f55329ca72c8c6f78a11f352ef7a7a4d1d7 Merge branch 'veristat: replay, filtering, sorting'
 
---===============9035642664497999346==--
+--===============2735081230525986317==--
