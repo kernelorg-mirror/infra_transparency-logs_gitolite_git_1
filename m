@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0029139668404682310=="
+Content-Type: multipart/mixed; boundary="===============8237834535529404940=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Fri, 04 Nov 2022 15:57:46 -0000
-Message-Id: <166757746637.25141.15252622037395710020@gitolite.kernel.org>
+Date: Fri, 04 Nov 2022 15:57:52 -0000
+Message-Id: <166757747202.25239.17970173560066521873@gitolite.kernel.org>
 
---===============0029139668404682310==
+--===============8237834535529404940==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: 9521c9d6a53df9c44a5f5ddbc229ceaf3cf79ef6
-    new: 1118b2049d77ca0b505775fc1a8d1909cf19a7ec
-    log: revlist-9521c9d6a53d-1118b2049d77.txt
+  - ref: refs/heads/dev-queue
+    old: 3dc9177ae14bcfb25e4a7d133b9dd8e928ed5050
+    new: fc08d3e95408de0d510be380419b44d567f0f556
+    log: revlist-3dc9177ae14b-fc08d3e95408.txt
 
---===============0029139668404682310==
+--===============8237834535529404940==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9521c9d6a53d-1118b2049d77.txt
+Content-Disposition: attachment; filename=revlist-3dc9177ae14b-fc08d3e95408.txt
 
 66063033f77e10b985258126a97573f84bb8d3b4 wifi: rt2x00: use explicitly signed or unsigned types
 03c0ad4b06c3566de624b4f4b78ac1a5d1e4c8e7 wifi: cfg80211: silence a sparse RCU warning
@@ -62,5 +62,17 @@ f4e405f566ff57db0c59e68a1b5ff4ff09989a91 Merge branch 'macsec-offload-fixes'
 1a0c016a4831ea29be09bbc8162d4a2a0690b4b8 net: ethernet: ti: am65-cpsw: Fix segmentation fault at module unload
 51afe9026d0c63263abe9840e629f118d7405b36 octeontx2-pf: NIX TX overwrites SQ_CTX_HW_S[SQ_INT]
 1118b2049d77ca0b505775fc1a8d1909cf19a7ec net: tun: Fix memory leaks of napi_get_frags
+23405442d31969b6a98abb0aaeeb380776e93a29 ice: Fix spurious interrupt during removal of trusted VF
+7ad5a6db247550f12a2dbc477c780944da0b9228 i40e: Fix failure message when XDP is configured in TX only mode
+45be4251de0e96572f82412b2573a078aa77e77c i40e: fix xdp_redirect logs error message when testing with MTU=1500
+bbe69c8e275ff01b96fd781833d6297e8aef2883 iavf: Fix VF driver counting VLAN 0 filters
+af576826c2bc50806d50c9bb6443073c7f00babd i40e: Fix not setting default xps_cpus after reset
+a3eb1afeb2a917e87088c8cce105bde1f9f39e91 e1000e: Fix TX dispatch condition
+9af3258e24213cf74f7e72e5cb099faa307adf05 ice: move devlink port creation/deletion
+7950c18ca5493168210f8f6da204d407401ace50 i40e: Fix for VF MAC address 0
+3b8b5a2622f63c042fd7933c4ac500d7c60b4229 ice: Create a separate kthread to handle ptp extts work
+2b84563bed3e2da5279f27cc10ba8a19ee352a9e ice: use int for n_per_out loop
+d73cf30370eebe1529df8565b6f4618779c4f8f2 iavf: Fix shutdown pci callback to match the remove one
+fc08d3e95408de0d510be380419b44d567f0f556 iavf: Fix race condition between iavf_shutdown and iavf_remove
 
---===============0029139668404682310==--
+--===============8237834535529404940==--
