@@ -1,40 +1,44 @@
-Content-Type: multipart/mixed; boundary="===============7780027913298901761=="
+Content-Type: multipart/mixed; boundary="===============0548761273698472493=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Fri, 04 Nov 2022 04:06:56 -0000
-Message-Id: <166753481659.26184.6665669609971574049@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rostedt/linux-trace
+Date: Fri, 04 Nov 2022 04:07:50 -0000
+Message-Id: <166753487030.26554.15123879799237574174@gitolite.kernel.org>
 
---===============7780027913298901761==
+--===============0548761273698472493==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/rostedt/linux-trace
+user: rostedt
 changes:
-  - ref: refs/heads/master
-    old: 9521c9d6a53df9c44a5f5ddbc229ceaf3cf79ef6
-    new: 9e4b7a99a03aefd37ba7bb1f022c8efab5019165
-    log: revlist-9521c9d6a53d-9e4b7a99a03a.txt
+  - ref: refs/heads/trace/timers
+    old: 5f44ad19b321ed237b4164f16a2171b259886f88
+    new: c1d1495e7e454e5add21b1be997a77b3cb142f78
+    log: revlist-5f44ad19b321-c1d1495e7e45.txt
 
---===============7780027913298901761==
+--===============0548761273698472493==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9521c9d6a53d-9e4b7a99a03a.txt
+Content-Disposition: attachment; filename=revlist-5f44ad19b321-c1d1495e7e45.txt
 
-42378a9ca55347102bbf86708776061d8fe3ece2 bpf, verifier: Fix memory leak in array reallocation for stack state
-8ec95b94716a1e4d126edc3fb2bc426a717e2dba bpf, sockmap: Fix the sk->sk_forward_alloc warning of sk_stream_kill_queues
-34de8e6e0e1f66e431abf4123934a2581cb5f133 bpftool: Fix NULL pointer dereference when pin {PROG, MAP, LINK} without FILE
-aec1dc972d27c837d1406310dab5170189eb01e5 net/ipv4: Fix linux/in.h header dependencies
-a778f5d46b6287ebe26e24b48f3e8079c2db8ed2 tools/headers: Pull in stddef.h to uapi to fix BPF selftests build in CI
-8bbabb3fddcd0f858be69ed5abc9b470a239d6f2 bpf, sock_map: Move cancel_work_sync() out of sock lock
-f1db20814af532f85e091231223e5e4818e8464b bpf: Fix wrong reg type conversion in release_reference()
-475244f5e06beeda7b557d9dde46a5f439bf3379 selftests/bpf: Add verifier test for release_reference()
-f2c24be55bb7adf66c9bb994744352b28664cfcd Merge tag 'for-netdev' of https://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
-9e4b7a99a03aefd37ba7bb1f022c8efab5019165 net: gso: fix panic on frag_list with mixed head alloc types
+d4d054155c957c00d85d09058987ad70bf6acb84 timers: usb: Use timer_shutdown_sync() before freeing timer
+27c6878600869ddf8718820f3cb178c7274c7d42 timers: cgroup: Use timer_shutdown_sync() before freeing timer
+9ce2b38e8fc903ed5b29d0ca74259e1e6da367b2 timers: workqueue: Use timer_shutdown_sync() before freeing timer
+172abd54334ad4f4f0c710faeb44f83893bc5dbe timers: nfc: pn533: Use timer_shutdown_sync() before freeing timer
+700b5646ad90ad7cdf7c59aa8d83e1e5a36e4114 timers: pcmcia: Use timer_shutdown_sync() before freeing timer
+aa3e6be591048da23f72d90f5da4d3ae9d63847b timers: scsi: Use timer_shutdown_sync() and timer_shutdown() before freeing timer
+d69b957a8a1f0c26a98c2e7b84f558a68e7df177 timers: tty: Use timer_shutdown_sync() before freeing timer
+362bb9add237dfcccc210f4922b76c424dba6990 timers: ext4: Use timer_shutdown_sync() before freeing timer
+56c194a784a17d1688da841814789c8fee72500e timers: fs/nilfs2: Use timer_shutdown_sync() before freeing timer
+884418ee55d1c2570de738d3c2726ab75aa6a35b timers: ALSA: Use timer_shutdown_sync() before freeing timer
+8d60bd66096a9560f2b8ef01a8621e6226734703 timers: jbd2: Use timer_shutdown() before freeing timer
+78cbd859d15d346b27935d676b5ac994ce6da640 timers: sched/psi: Use timer_shutdown_sync() before freeing timer
+4e59c3b148a6b6ec236481bd492ac5d2c823df72 timers: x86/mce: Use __init_timer() for resetting timers
+c1d1495e7e454e5add21b1be997a77b3cb142f78 timers: Expand DEBUG_OBJECTS_TIMER to check if it ever was used
 
---===============7780027913298901761==--
+--===============0548761273698472493==--
