@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============3746724457238435403=="
+Content-Type: multipart/mixed; boundary="===============6027664777185184550=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/crng/random
-Date: Fri, 04 Nov 2022 11:44:46 -0000
-Message-Id: <166756228631.5145.3155486165339632571@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/zx2c4/linux
+Date: Fri, 04 Nov 2022 11:45:16 -0000
+Message-Id: <166756231668.6956.1821170606303577353@gitolite.kernel.org>
 
---===============3746724457238435403==
+--===============6027664777185184550==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/crng/random
+repo: pub/scm/linux/kernel/git/zx2c4/linux
 user: zx2c4
 changes:
-  - ref: refs/heads/for-6.2-late-pull
-    old: 74da71eadae3984f97fc6395051e5f9cf636b269
-    new: c5be866f99acc3a985a455a2d8597b988118c745
-    log: revlist-74da71eadae3-c5be866f99ac.txt
+  - ref: refs/heads/unsigned-char
+    old: 1a78429fd3d6a35d206e59665ee7e1fc07506b07
+    new: 97f7ffb4116920f0b47cccafec15d2d97a6c6777
+    log: revlist-1a78429fd3d6-97f7ffb41169.txt
 
---===============3746724457238435403==
+--===============6027664777185184550==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-74da71eadae3-c5be866f99ac.txt
+Content-Disposition: attachment; filename=revlist-1a78429fd3d6-97f7ffb41169.txt
 
 a635beeacc6d56d2b71c39e6c0103f85b53d108e tracing/histogram: Update document for KEYS_MAX size
 eb83f502adb036cd56c27e13b9ca3b2aabfa790b RDMA/cma: Use output interface for net_dev check
@@ -184,19 +184,13 @@ cf6ff0df0fd123493e57278a1bd4414a97511a34 vsock: remove the unused 'wait' in vsoc
 f2f32f8af2b0ca9d619e5183eae3eed431793baf Merge tag 'for-6.1-rc3-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
 7f7bac08d9e31cd6e2c0ea1685c86ec6f1e7e03c Merge tag 'fuse-fixes-6.1-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/mszeredi/fuse
 ee6050c8af96bba2f81e8b0793a1fc2f998fcd20 Merge tag 'ata-6.1-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/dlemoal/libata
-06525b16141f830e36cb1ca953cf4ea9fcb2d46f random: use rejection sampling for uniform bounded random integers
-4e0350697ab3bd54719d564c88ecaa1777ba9e16 random: add helpers for random numbers with given floor or range
-9e5cb8bc40dd60d1f75dc3b942f12c474286a25b kcsan: remove rng selftest
-ee276fa4f314c1deb5b6a605d0ed844867e1e5bb treewide: use get_random_u32_below() instead of deprecated function
-98d5ea6df83e99cafbbdc00458ee52018896e26c treewide: use get_random_u32_{above,below}() instead of manual loop
-9f84fd8f6bf2cb66c46ce3221a99c81d67574061 treewide: use get_random_u32_between() when possible
-721a4c4c416597cd0d61a0562814fa66e400b166 stackprotector: move get_random_canary() into stackprotector.h
-09cd70c0b44edf8c34d168096f1d25f94db909ff stackprotector: actually use get_random_canary()
-dddaa603643cf27b9ef9b868c360508e74065272 random: use random.trust_{bootloader,cpu} command line option only
-274adb69191adc5140268e45532e7aa89a3db726 random: remove early archrandom abstraction
-6271c6222a255ff5d0996d441c22a9d63bd19233 random: adjust comment to account for removed function
-c81d4d7b14f3993d951c8de546a7c2e3ef347b06 prandom: remove prandom_u32_max()
-672678091371d379469cb41ec8eb2113d4a00282 x86/espfix: Use get_random_long() rather than archrandom
-c5be866f99acc3a985a455a2d8597b988118c745 random: do not include <asm/archrandom.h> from random.h
+394fa449ba270d43335e96166a0a5e84c1ed1355 perf/x86: Make struct p4_event_bind::cntr signed array
+6e64b163f344671c7620ed6be4c41c4b164362b1 MIPS: pic32: treat port as signed integer
+bb30120969ad6fbab8a7274f301b187c03956e35 sparc: sbus: treat CPU index as integer
+5f1611ce5ddc3a17f9775a835eb88575cd90e8bd media: stv0288: use explicitly signed char
+b043ba3c166cde732c5ea8fbb57ecb311c373708 staging: rtl8192e: remove bogus ssid character sign test
+e9586f849dd501d404df8906310ae02e424a6e22 media: atomisp: make hive_int8 explictly signed
+ed8a97801f2cf538eb2c4d1b80292e968cd1865f kbuild: treat char as always unsigned
+97f7ffb4116920f0b47cccafec15d2d97a6c6777 lib: assume char is unsigned
 
---===============3746724457238435403==--
+--===============6027664777185184550==--
