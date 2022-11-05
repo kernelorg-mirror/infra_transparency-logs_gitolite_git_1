@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Sat, 05 Nov 2022 16:32:02 -0000
-Message-Id: <166766592271.4607.11573349837005669212@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ogabbay/configs
+Date: Sat, 05 Nov 2022 17:07:39 -0000
+Message-Id: <166766805956.28858.3500662951352776113@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/ogabbay/configs
+user: ogabbay
 changes:
   - ref: refs/heads/master
-    old: 283e094fadeb660279d9c752b596fa3fc9f23e66
-    new: 53e87583ae67837d99dd97dd4c6a1ca1c22e6aae
+    old: e822d8733f2edc666d2d478f67858bcfdddd235a
+    new: 5c96645f22f771500196a30fa093bb2dff8c0169
     log: |
-         53e87583ae67837d99dd97dd4c6a1ca1c22e6aae Sat Nov  5 04:31:11 PM UTC 2022
+         5c96645f22f771500196a30fa093bb2dff8c0169 eliminate ubuntu errors
          
