@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Sat, 05 Nov 2022 00:42:50 -0000
-Message-Id: <166760897054.7620.7743811486522191496@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Sat, 05 Nov 2022 02:30:53 -0000
+Message-Id: <166761545379.19216.13720591014096592497@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
   - ref: refs/heads/master
-    old: 2533debeb65449f9f230fa14876872b1c7a7f2ae
-    new: 4e83c8aa848f887d2f9aad26675fd4fc07c0111c
+    old: 95ec6bce2a0bb7ec9c76fe5c2a9db3b9e62c950d
+    new: 552acbf576fb7cb7ec70e978ca148dfbdae12a0e
     log: |
-         4e83c8aa848f887d2f9aad26675fd4fc07c0111c Sat Nov  5 12:41:42 AM UTC 2022
+         552acbf576fb7cb7ec70e978ca148dfbdae12a0e net: remove redundant check in ip_metrics_convert()
          
