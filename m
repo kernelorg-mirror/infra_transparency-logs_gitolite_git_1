@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ogabbay/accel
-Date: Sat, 05 Nov 2022 21:28:05 -0000
-Message-Id: <166768368596.16823.5963422168555827078@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ogabbay/configs
+Date: Sat, 05 Nov 2022 21:58:22 -0000
+Message-Id: <166768550222.5735.2985736539793086648@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ogabbay/accel
+repo: pub/scm/linux/kernel/git/ogabbay/configs
 user: ogabbay
 changes:
-  - ref: refs/heads/accel_v3
-    old: 7819eaf1f228748b1be8bdc9a962b1a040f07bd4
-    new: 14ffc2b86a1fc7d15a41da3e549a3496eacb9ba0
+  - ref: refs/heads/master
+    old: 2de21740ab1df15d172620ea7ba8d0790e0a78ef
+    new: d358126692e3392ed17640528220d6402a312d9a
     log: |
-         14ffc2b86a1fc7d15a41da3e549a3496eacb9ba0 fix dummy driver
+         d358126692e3392ed17640528220d6402a312d9a trim down ubuntu config even more
          
