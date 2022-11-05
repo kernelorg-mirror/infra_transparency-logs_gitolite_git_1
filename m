@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Sat, 05 Nov 2022 17:52:28 -0000
-Message-Id: <166767074847.27131.15172278485776991355@gitolite.kernel.org>
+Date: Sat, 05 Nov 2022 17:58:04 -0000
+Message-Id: <166767108495.31920.1031608438738816535@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,8 @@ repo: pub/scm/linux/kernel/git/sj/damon-hack
 user: sj
 changes:
   - ref: refs/heads/master
-    old: 51040d9e6c20bde0e030e4b51552ae949e02a26d
-    new: 1daefc2f86eadce349297f2a40052526ff85d8a1
+    old: 1daefc2f86eadce349297f2a40052526ff85d8a1
+    new: cc520f59a0c72f572ca363a69a7fa869353d361b
     log: |
-         1efcf090329205daa4c5ed8aa6ce96c10b125ff5 build_install_reboot_damon_kernel: Add execute permission
-         1daefc2f86eadce349297f2a40052526ff85d8a1 build_install_reboot_damon_kernel: Fix a typo
+         cc520f59a0c72f572ca363a69a7fa869353d361b build_install_reboot_damon_kernel: Notice reboot
          
