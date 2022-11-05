@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Sat, 05 Nov 2022 19:33:18 -0000
-Message-Id: <166767679885.1144.10319679942644701035@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-power-supply
+Date: Sat, 05 Nov 2022 20:20:07 -0000
+Message-Id: <166767960731.1341.3662810403647882193@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/sre/linux-power-supply
+user: sre
 changes:
-  - ref: refs/heads/master
-    old: 53e87583ae67837d99dd97dd4c6a1ca1c22e6aae
-    new: 4f7a1b10e9fd1086c4714e19b4c517cbc8fbaa21
+  - ref: refs/heads/for-next
+    old: eae063f64714c2ab92eda900031c5e34a5597201
+    new: 70547f34deedcb039c8f92c603b70bc8d8992432
     log: |
-         4f7a1b10e9fd1086c4714e19b4c517cbc8fbaa21 Sat Nov  5 07:32:29 PM UTC 2022
+         c7d47d51663c2cbb9f07ac827f9dffa98d6cab21 dt-bindings: power: supply: define monitored-battery in common place
+         8c9e038a2a36af49526cd509dbd8a1b34284cac6 dt-bindings: power: supply: bq25890: allow power-supply fields
+         70547f34deedcb039c8f92c603b70bc8d8992432 dt-bindings: power: supply: maxim,max17042: allow power-supplies
          
