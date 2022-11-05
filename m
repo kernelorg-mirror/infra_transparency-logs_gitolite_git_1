@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
-Date: Sat, 05 Nov 2022 15:19:12 -0000
-Message-Id: <166766155214.17416.3744295264778599163@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
+Date: Sat, 05 Nov 2022 15:34:35 -0000
+Message-Id: <166766247583.28633.10573153836856317009@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/liburing
-user: axboe
+repo: pub/scm/linux/kernel/git/cel/linux
+user: cel
 changes:
-  - ref: refs/heads/master
-    old: 9961f57f1fe58a343b8050fa504a0dd1d4fd6425
-    new: 3e3f71a6eb8356c129706cb88d150fe4e01fa19e
+  - ref: refs/heads/for-rc
+    old: d3aefd2b29ff5ffdeb5c06a7d3191a027a18cdb8
+    new: bdd6b5624c62d0acd350d07564f1c82fe649235f
     log: |
-         799d6e0ed8103ac296135e8670c25cbd5c074a73 tests/zc: create a new ring for test_send_faults()
-         81ab5f3831fe8dccb3e51b3be093791ef8ad2df8 tests/zc: add control flags tests
-         3e3f71a6eb8356c129706cb88d150fe4e01fa19e tests/zc: extra verification for notif completions
+         bdd6b5624c62d0acd350d07564f1c82fe649235f nfsd: fix use-after-free in nfsd_file_do_acquire tracepoint
          
