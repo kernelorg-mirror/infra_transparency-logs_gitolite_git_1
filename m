@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sat, 05 Nov 2022 10:28:45 -0000
-Message-Id: <166764412561.9918.15552472174661665971@gitolite.kernel.org>
+Date: Sat, 05 Nov 2022 10:30:31 -0000
+Message-Id: <166764423173.12277.5357690016048583157@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -9,15 +9,14 @@ Content-Transfer-Encoding: 7bit
 ---
 service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+user: peterz
 changes:
-  - ref: refs/heads/master
-    old: 1f741723738e130d3062081107d9a8f2e6dae9d4
-    new: ff1af09af49c5fe53f38ff67baf2787025300462
+  - ref: refs/heads/x86/core
+    old: 0c3e806ec0f9771fa1f34c60499097d9260a8bb7
+    new: 4fd5f70ce14da230c6a29648c3d51a48ee0b4bfd
     log: |
-         7beade0dd41d42d797ccb7791b134a77fcebf35b x86/cpu: Add several Intel server CPU model numbers
-         370839c241f7b98c66063c2892795a37ee3d2771 x86/sgx: Allow enclaves to use Asynchrounous Exit Notification
-         16a7fe3728a8b832ef0d1add66875a666b1f24fc KVM/VMX: Allow exposing EDECCSSA user leaf function to KVM guest
-         aabc0f261e8351e9a34ebc2a7783cdcd40492e15 Merge branch into tip/master: 'x86/urgent'
-         ff1af09af49c5fe53f38ff67baf2787025300462 Merge branch into tip/master: 'x86/sgx'
+         19526717f768bf2f89ca01bd2a595728ebe57540 objtool: Optimize elf_dirty_reloc_sym()
+         023f2340f053537cce170c31c430b0886c6f07ca objtool: Fix weak hole vs prefix symbol
+         b32fd8a60f5d855758208c2b5b49cba8087f03c4 x86,pm: Force out-of-line memcpy()
+         4fd5f70ce14da230c6a29648c3d51a48ee0b4bfd x86/Kconfig: Enable kernel IBT by default
          
