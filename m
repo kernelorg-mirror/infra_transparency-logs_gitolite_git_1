@@ -1,26 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Sat, 05 Nov 2022 08:58:57 -0000
-Message-Id: <166763873758.30996.9682590140131421147@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Sat, 05 Nov 2022 10:28:45 -0000
+Message-Id: <166764412561.9918.15552472174661665971@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/heads/for-linus
-    old: 10e794bdba2734bad0d61864e7e526b13b75aa6b
-    new: 0c423e2ffa7edd3f8f9bcf17ce73fa9c7509b99e
-    log: |
-         0c423e2ffa7edd3f8f9bcf17ce73fa9c7509b99e ALSA: hda/ca0132: add quirk for EVGA Z390 DARK
-         
   - ref: refs/heads/master
-    old: 4bdee7e431c404c5a38ca51c5d4301f5beaafac5
-    new: 8e86e759c77d603e3fef5eea49a6e18f164598b3
+    old: 1f741723738e130d3062081107d9a8f2e6dae9d4
+    new: ff1af09af49c5fe53f38ff67baf2787025300462
     log: |
-         0c423e2ffa7edd3f8f9bcf17ce73fa9c7509b99e ALSA: hda/ca0132: add quirk for EVGA Z390 DARK
-         8e86e759c77d603e3fef5eea49a6e18f164598b3 Merge branch 'for-linus'
+         7beade0dd41d42d797ccb7791b134a77fcebf35b x86/cpu: Add several Intel server CPU model numbers
+         370839c241f7b98c66063c2892795a37ee3d2771 x86/sgx: Allow enclaves to use Asynchrounous Exit Notification
+         16a7fe3728a8b832ef0d1add66875a666b1f24fc KVM/VMX: Allow exposing EDECCSSA user leaf function to KVM guest
+         aabc0f261e8351e9a34ebc2a7783cdcd40492e15 Merge branch into tip/master: 'x86/urgent'
+         ff1af09af49c5fe53f38ff67baf2787025300462 Merge branch into tip/master: 'x86/sgx'
          
