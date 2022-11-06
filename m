@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ogabbay/accel
-Date: Sun, 06 Nov 2022 14:24:53 -0000
-Message-Id: <166774469378.23894.4023127537757928708@gitolite.kernel.org>
+Date: Sun, 06 Nov 2022 14:26:33 -0000
+Message-Id: <166774479334.27235.7092417321881815456@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,13 +12,16 @@ repo: pub/scm/linux/kernel/git/ogabbay/accel
 user: ogabbay
 changes:
   - ref: refs/heads/accel_v3
-    old: b07653186141225d42797e62fd679154611e8377
-    new: 95738c1101654395abb9a0a388c2dc9d195fee48
+    old: 95738c1101654395abb9a0a388c2dc9d195fee48
+    new: c5e81310427960b0711701612564cf0b7845ad77
     log: |
-         60eb6060e7745b802aeed2be07ae4b1c9f2666b1 grl to add minor
-         2142a5d63483189acf69049bb5bcf54d05c85684 grl to minor - init of debugfs per minor
-         1699ff221b2f968f6df49b2a30ff89594a64f1c4 grl to drm patch - call debugfs init
-         76fdb2e682a350e031569add023a0165310733bf add to minor - drm_accel_fops
-         678a0096d176769a6084c2a2b0b794d1768ba16f dummy: use drm_accel_fops
-         95738c1101654395abb9a0a388c2dc9d195fee48 debug
+         8cfcdee493356de821201e425797a5e092c67a75 grl to minor
+         3dd86f7489d838204bb8e71c76192ae703c64e1f grl to add minor
+         f8f1cee09ace8672b621b1ac47786a425ae42c1f grl to minor - init of debugfs per minor
+         4c8bdc23ed8688d4faaa6ab61352aaf2a77f498a add to minor - drm_accel_fops
+         e21227eecea5492823cf1bf25ba47f83eceae2a8 drm: initialize accel framework
+         78905a2b5aebd5578995bcaab0943409f748a30d grl to initialize accel frmwrk
+         bf3c57d8c3216525132d72ae57276c0f8bf09c74 grl to drm patch - call debugfs init
+         30810b5cbd11f22df88e34dcdaab36692a2eb7ed accel: add accel dummy driver
+         c5e81310427960b0711701612564cf0b7845ad77 debug
          
