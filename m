@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3575382740591050778=="
+Content-Type: multipart/mixed; boundary="===============0077620473968955882=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/vbabka/slab
-Date: Sun, 06 Nov 2022 20:54:20 -0000
-Message-Id: <166776806003.6132.11106294677886370584@gitolite.kernel.org>
+Date: Sun, 06 Nov 2022 20:55:02 -0000
+Message-Id: <166776810211.7513.571277913001595260@gitolite.kernel.org>
 
---===============3575382740591050778==
+--===============0077620473968955882==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,35 +16,36 @@ repo: pub/scm/linux/kernel/git/vbabka/slab
 user: vbabka
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/slab/for-6.2/cleanups
-    old: a8e53869995b90609a798f9830d44086ab6025c4
-    new: bce4447e77a1ff5e3c3328da4ec35536b03156c8
+  - ref: refs/heads/for-next
+    old: 618f0cd488f08d7a6c46f550ef900ded11b3ec23
+    new: e2dfb9b5b87a9a4a98b8d38e0bf0ea44c9bc5ca6
     log: |
          bce4447e77a1ff5e3c3328da4ec35536b03156c8 mm/slub, percpu: correct the calculation of early percpu allocation size
+         e2dfb9b5b87a9a4a98b8d38e0bf0ea44c9bc5ca6 Merge branch 'slab/for-6.2/cleanups' into slab/for-next
          
 
---===============3575382740591050778==
+--===============0077620473968955882==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1667768058 +0100
+pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1667768100 +0100
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/slab.git
-nonce 1667768058-61d4139c606930744692798b56d914f3ebff8df3
+nonce 1667768100-1a570b6eec3539937e802b44e721e97e47d5b28f
 
-a8e53869995b90609a798f9830d44086ab6025c4 bce4447e77a1ff5e3c3328da4ec35536b03156c8 refs/heads/slab/for-6.2/cleanups
+618f0cd488f08d7a6c46f550ef900ded11b3ec23 e2dfb9b5b87a9a4a98b8d38e0bf0ea44c9bc5ca6 refs/heads/for-next
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCAAdFiEEjUuTAak14xi+SF7M4CHKc/GJqRAFAmNoHvoACgkQ4CHKc/GJ
-qRA4SggAlU64SrDuBSqDvrmPtL8b1Dx7QIXbTX6Vwn0sbKLoihtroAAPXEW8kX75
-Lqf5bx5/v+z5m7c5DS5g3hPKMgCBEnSC7YwuRXfBcRbinyMYgoEb5GztiSNJvf9s
-7b6mYV704wq6hR3H+DWhH4Uz1hNmL64v8YWwR76k01Khz0ZwoOO5kiDrwE5sMICV
-OoEKcBLrz4dtCKzI4854aykkTlpPGXFplDTPFG4mdOdkiq7jV9SwOahoUh470dvN
-Il4AQqkrWG0aLD9vxfIQFYxuYk6wh8dwaSycoRJ4HYxSvkyDoYkbew3i3CBN6GnO
-TiulOxj8xZ0iayzx2zfcqOzUQfVRyg==
-=w2kR
+iQEzBAABCAAdFiEEjUuTAak14xi+SF7M4CHKc/GJqRAFAmNoHyQACgkQ4CHKc/GJ
+qRCN2ggAmdLcsWdvlUk8XU3rwCoT7I8N8CHkHRAp/gAIIJs5inOmpI+nVm6+plft
+JJ4XzDQnltXBBXk7rMQYqqhd+QKI9RXukBFGRKFgwPpSRH0cv+ZNYHJQ1aMW6shT
++OxDUZeL2jf3R7cn5rcH0Ta9HYj3gcCpWS/EXk9UOe19QZogL49OJBAkzjDABafQ
+57Ar0A6/3fyliROO+9/zQpIB+924u1ZMNHN5rlJ3SSGGOM+nb1oJSdC93qfUyjL+
+/yMBFLM42VmOIButMLQzuiP18mW/v4grnktB0d0GP3GDti/1vZ55v+ivgeaWjwGm
+WcDVbM6/L8B3J0F9MDoDEBhXZjCGVw==
+=YcyX
 -----END PGP SIGNATURE-----
 
---===============3575382740591050778==--
+--===============0077620473968955882==--
