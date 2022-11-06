@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ogabbay/accel
-Date: Sun, 06 Nov 2022 17:15:11 -0000
-Message-Id: <166775491158.14868.1280465391699062050@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
+Date: Sun, 06 Nov 2022 17:29:24 -0000
+Message-Id: <166775576461.24015.18401134149858079843@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ogabbay/accel
-user: ogabbay
+repo: pub/scm/linux/kernel/git/jic23/iio
+user: jic23
 changes:
-  - ref: refs/heads/accel_v3
-    old: e6baf5908fa09ac4128569d8432d61d095ae39ed
-    new: 7d3446f7c6f7d011dbb19f4b9d4df767c2375ddd
+  - ref: refs/heads/testing
+    old: e38fb57870172ed920c206e8d73e2639d83c8847
+    new: 7338e1c6a90cc3ff38374cb61b18eba92ae200db
+    log: |
+         7338e1c6a90cc3ff38374cb61b18eba92ae200db Documentation: ad4130: format list of in_voltage-voltage_filter_mode_available modes
+         
