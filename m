@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Sun, 06 Nov 2022 22:40:53 -0000
-Message-Id: <166777445324.17865.1719853705861385768@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/efi/efi
+Date: Sun, 06 Nov 2022 22:43:58 -0000
+Message-Id: <166777463894.19041.11136021843011113170@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/efi/efi
+user: ardb
 changes:
-  - ref: refs/heads/master
-    old: 60f176fb589c5c7485fed1b04a675a0c20b77e8e
-    new: f4116f48ebd160a69a473822432fdbdf31b64d59
+  - ref: refs/heads/urgent
+    old: 23715a26c8d812912a70c6ac1ce67af649b95914
+    new: 1bf039df2f63402adb365f59383fe9d34e2ef641
     log: |
-         f4116f48ebd160a69a473822432fdbdf31b64d59 Sun Nov  6 10:39:57 PM UTC 2022
+         1bf039df2f63402adb365f59383fe9d34e2ef641 arm64: efi: Fix handling of misaligned runtime regions and drop warning
          
