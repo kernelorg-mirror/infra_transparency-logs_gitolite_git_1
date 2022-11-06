@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sun, 06 Nov 2022 08:59:56 -0000
-Message-Id: <166772519623.10718.993533738664640959@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ogabbay/accel
+Date: Sun, 06 Nov 2022 09:26:25 -0000
+Message-Id: <166772678566.30431.11693816898340220482@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/ogabbay/accel
+user: ogabbay
 changes:
-  - ref: refs/heads/master
-    old: f14da6499b2c560179409adfe96931b6a8c63fb4
-    new: 01d2077d0e550dc47418d27870786bf0aed5c92c
+  - ref: refs/heads/accel_v3
+    old: 14ffc2b86a1fc7d15a41da3e549a3496eacb9ba0
+    new: bc4384da67816e06815151cd08e97324286f617a
     log: |
-         b1599915f09157e98f59556e1b2eafe473603347 x86/cpufeatures: Move X86_FEATURE_CALL_DEPTH from bit 18 to bit 19 of word 11, to leave space for WIP X86_FEATURE_SGX_EDECCSSA bit
-         01d2077d0e550dc47418d27870786bf0aed5c92c Merge branch into tip/master: 'x86/core'
+         bc4384da67816e06815151cd08e97324286f617a grl to minor
          
