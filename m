@@ -1,31 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/linux-stable
-Date: Sun, 06 Nov 2022 14:08:20 -0000
-Message-Id: <166774370007.13475.286419838154700516@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ogabbay/accel
+Date: Sun, 06 Nov 2022 14:24:53 -0000
+Message-Id: <166774469378.23894.4023127537757928708@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/linux-stable
-user: sashal
+repo: pub/scm/linux/kernel/git/ogabbay/accel
+user: ogabbay
 changes:
-  - ref: refs/heads/pending-5.10
-    old: 60b9110eb2d8146cab12bf5268911dfe6b10f4d1
-    new: 472492b314cf1cd12c994679dc6c3245f5c54bb5
+  - ref: refs/heads/accel_v3
+    old: b07653186141225d42797e62fd679154611e8377
+    new: 95738c1101654395abb9a0a388c2dc9d195fee48
     log: |
-         0824cca340d450f7cf6774cd577b4f28db3eca04 coresight: cti: Fix hang in cti_disable_hw()
-         d952847aaa72588fc21a921a58a344682542d954 xhci-pci: Set runtime PM as default policy on all xHC 1.2 or later devices
-         472492b314cf1cd12c994679dc6c3245f5c54bb5 s390/boot: add secure boot trailer
-         
-  - ref: refs/heads/pending-5.15
-    old: f96d06825c6ab63e6a44300ae673b55d8b556174
-    new: c95475b2f8c503181fc569a3b673a354bbd8baab
-    log: |
-         7285589c3ab47354fb5a0bc433a8a29d0b064225 usb: typec: ucsi: acpi: Implement resume callback
-         e8218d1eee34ad56bf24ce1146287f57b058950f s390/uaccess: add missing EX_TABLE entries to __clear_user()
-         9037440b1015fb884ba40573f2a895477041c29d s390/boot: add secure boot trailer
-         a8e2df9f05238779d0a98c4ee4e78044937e0b98 s390/cio: derive cdev information only for IO-subchannels
-         c95475b2f8c503181fc569a3b673a354bbd8baab s390/cio: fix out-of-bounds access on cio_ignore free
+         60eb6060e7745b802aeed2be07ae4b1c9f2666b1 grl to add minor
+         2142a5d63483189acf69049bb5bcf54d05c85684 grl to minor - init of debugfs per minor
+         1699ff221b2f968f6df49b2a30ff89594a64f1c4 grl to drm patch - call debugfs init
+         76fdb2e682a350e031569add023a0165310733bf add to minor - drm_accel_fops
+         678a0096d176769a6084c2a2b0b794d1768ba16f dummy: use drm_accel_fops
+         95738c1101654395abb9a0a388c2dc9d195fee48 debug
          
