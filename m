@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless-testing
-Date: Mon, 07 Nov 2022 13:19:56 -0000
-Message-Id: <166782719647.14124.15292320304060720795@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kvms390/linux
+Date: Mon, 07 Nov 2022 13:34:42 -0000
+Message-Id: <166782808216.25067.11751426695494772022@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wireless/wireless-testing
-user: bcopeland
+repo: pub/scm/linux/kernel/git/kvms390/linux
+user: frankja
 changes:
-  - ref: refs/tags/v6.1-rc4
-    old: 0000000000000000000000000000000000000000
-    new: cc17e0a6a1b0c4708af1f5d81edc87e2cb5ffbf8
+  - ref: refs/heads/next
+    old: 77b533411595668659ce5aaade4ca36c7aa2c488
+    new: 58635d6615f1e5a870548ae8999870fdfcdecec0
+    log: |
+         58635d6615f1e5a870548ae8999870fdfcdecec0 s390/mm: fix virtual-physical address confusion for swiotlb
+         
