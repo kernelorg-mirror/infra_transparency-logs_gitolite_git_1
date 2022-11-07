@@ -1,31 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/virt/kvm/mst/qemu
-Date: Mon, 07 Nov 2022 19:13:22 -0000
-Message-Id: <166784840254.10247.10841686458716134137@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sunxi/linux
+Date: Mon, 07 Nov 2022 19:26:11 -0000
+Message-Id: <166784917158.20584.10710825185942368186@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/virt/kvm/mst/qemu
-user: mst
+repo: pub/scm/linux/kernel/git/sunxi/linux
+user: jernej
 changes:
-  - ref: refs/tags/for_autotest
-    old: 40e6862b7f0a185266072eebc25f8bd520f11c6b
-    new: 6059191b66f277b8243e3712ec67bc3ce31e109e
+  - ref: refs/heads/sunxi/dt-for-6.2
+    old: 8907a276fec2fafaba432cdf7b6ec655a9f163f7
+    new: 1c50050ca1ebe46db27b016326c6c3508a161ee9
     log: |
-         259d69c00b67c02a67f3bdbeeea71c2c0af76c35 hw/virtio: introduce virtio_device_should_start
-         
-  - ref: refs/tags/for_autotest_next
-    old: 40e6862b7f0a185266072eebc25f8bd520f11c6b
-    new: 6059191b66f277b8243e3712ec67bc3ce31e109e
-    log: |
-         259d69c00b67c02a67f3bdbeeea71c2c0af76c35 hw/virtio: introduce virtio_device_should_start
-         
-  - ref: refs/tags/for_upstream
-    old: 40e6862b7f0a185266072eebc25f8bd520f11c6b
-    new: 6059191b66f277b8243e3712ec67bc3ce31e109e
-    log: |
-         259d69c00b67c02a67f3bdbeeea71c2c0af76c35 hw/virtio: introduce virtio_device_should_start
+         28a1a6474c5053bae01bd29946b4d5ede539176b dt-bindings: usb: Add H616 compatible string
+         f40cf244c3feb4e1a442f8029b691add2c65b3ab arm64: dts: allwinner: h616: Add USB nodes
+         db5f028309ede13767e2ba356c1975ac37a4fd6c arm64: dts: allwinner: h616: OrangePi Zero 2: Add USB nodes
+         3dd14f783901bb93c3f51de3fb1739fb290b1ae1 arm64: dts: allwinner: h616: X96 Mate: Add USB nodes
+         1c50050ca1ebe46db27b016326c6c3508a161ee9 arm64: dts: allwinner: a64: enable Bluetooth on Pinebook
          
