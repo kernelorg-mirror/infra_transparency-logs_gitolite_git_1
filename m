@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5583350960210462132=="
+Content-Type: multipart/mixed; boundary="===============7137233482498206712=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/arm64/linux
-Date: Mon, 07 Nov 2022 10:29:20 -0000
-Message-Id: <166781696004.21185.2568791532810187086@gitolite.kernel.org>
+Date: Mon, 07 Nov 2022 10:31:27 -0000
+Message-Id: <166781708784.23567.16971256505163963771@gitolite.kernel.org>
 
---===============5583350960210462132==
+--===============7137233482498206712==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/arm64/linux
 user: will
 changes:
-  - ref: refs/heads/for-next/core
-    old: 0e5d5ae837c8ce04d2ddb874ec5f920118bd9d31
+  - ref: refs/heads/for-kernelci
+    old: bbed346d5a96c8317b64fd7bd0716013c3c1d672
     new: f0c4d9fc9cc9462659728d168387191387e903cc
-    log: revlist-0e5d5ae837c8-f0c4d9fc9cc9.txt
+    log: revlist-bbed346d5a96-f0c4d9fc9cc9.txt
 
---===============5583350960210462132==
+--===============7137233482498206712==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0e5d5ae837c8-f0c4d9fc9cc9.txt
+Content-Disposition: attachment; filename=revlist-bbed346d5a96-f0c4d9fc9cc9.txt
 
 a83695a666eb3541873c3c9734ec4e1d10ca2d7f iio: adc: mcp3911: return proper error code on failure to allocate trigger
 815f1647a603a822d66630bbe22cab4bc097c8c3 iio: adc: mcp3911: use correct id bits
@@ -1051,4 +1051,4 @@ aa52994915dca444dbb8e6b91eb82b749ba7a1ec Merge tag 'hwmon-for-v6.1-rc4' of git:/
 16c7a368c8ba9aba3b0e0ae5ec0a64be9fb45665 Merge tag 'cxl-fixes-for-6.1-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/cxl/cxl
 f0c4d9fc9cc9462659728d168387191387e903cc Linux 6.1-rc4
 
---===============5583350960210462132==--
+--===============7137233482498206712==--
