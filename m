@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3099003529019506703=="
+Content-Type: multipart/mixed; boundary="===============8411010454095165581=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ulfh/mmc
-Date: Mon, 07 Nov 2022 20:12:13 -0000
-Message-Id: <166785193384.19820.16317354505814536062@gitolite.kernel.org>
+Date: Mon, 07 Nov 2022 20:12:40 -0000
+Message-Id: <166785196069.20024.2982603642133236503@gitolite.kernel.org>
 
---===============3099003529019506703==
+--===============8411010454095165581==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,19 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ulfh/mmc
 user: ulfh
 changes:
-  - ref: refs/heads/next
-    old: eddc1b7fc90145410c8dc7a96897a6cd600ab59c
-    new: baea11ac3def0471003c5263fec5f1d87c8bded2
-    log: revlist-eddc1b7fc901-baea11ac3def.txt
+  - ref: refs/heads/fixes
+    old: 30a0b95b1335e12efef89dd78518ed3e4a71a763
+    new: 162503fd1c3a1d4e14dbe7f399c1d1bec1c8abbc
+    log: revlist-30a0b95b1335-162503fd1c3a.txt
+  - ref: refs/tags/v6.1-rc4
+    old: 0000000000000000000000000000000000000000
+    new: cc17e0a6a1b0c4708af1f5d81edc87e2cb5ffbf8
 
---===============3099003529019506703==
+--===============8411010454095165581==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-eddc1b7fc901-baea11ac3def.txt
+Content-Disposition: attachment; filename=revlist-30a0b95b1335-162503fd1c3a.txt
 
 10f3f10f202109e3841c0c75add5a743ca197205 MAINTAINERS: git://github -> https://github.com for broadcom
 2ff4ba9e37024735f5cefc5ea2a73fc66addfe0e clk: rs9: Fix I2C accessors
@@ -393,47 +396,11 @@ f6f5204727b9b1f3c6e9c90b5b09f40c6e0102f5 Merge tag 'x86_urgent_for_v6.1_rc4' of 
 aa52994915dca444dbb8e6b91eb82b749ba7a1ec Merge tag 'hwmon-for-v6.1-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/groeck/linux-staging
 16c7a368c8ba9aba3b0e0ae5ec0a64be9fb45665 Merge tag 'cxl-fixes-for-6.1-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/cxl/cxl
 f0c4d9fc9cc9462659728d168387191387e903cc Linux 6.1-rc4
-b77aee6ccc7b0ee3b6017614257b6156f6886be3 dt-bindings: mmc: fsl-imx-esdhc: update i.MX8DXL compatible
-76b128fbd228f9ba2af9465afd6edf0ffd91fe77 dt-bindings: mmc: renesas,sdhi: Document R-Car V4H support
-4cb555c83cf4683e43446215c10d5bc4813e8bcf dt-bindings: mmc: sdhci-am654: add ti,itap-del-sel-ddr50 to schema
-0ad1cb1467980774028876169b3419dd3220f492 dt-bindings: mmc: arm,pl18x: Document interrupt-names is ignored
-b83420609d131d16910b64102ff3fc00c1b01854 mmc: sdhci: Remove local_irq_{save,restore}() around k[un]map_atomic()
-97ba59ea51d6444b5f195b43825cfa8090f746be mmc: sdhci: Remove local_irq_{save,restore}() around sg_miter_{next,stop}()
-51ef0c2a3a5ebcceb6741565537a1b665d844da4 mmc: sdhci: Replace kmap_atomic() with kmap_local_page()
-569e45580ec3b058b111228cf76822275700dac2 mmc: bcm2835: Remove local_irq_{save,restore}() around k[un]map_atomic()
-b1580a14a383f57fc5ef065c02d10a70eb5c3c04 mmc: bcm2835: Remove local_irq_{save,restore}() around sg_miter_{next,stop}()
-3dc05abc220aa31db57aac6bffab55cb2ebb18a8 mmc: bcm2835: Replace kmap_atomic() with kmap_local_page()
-2fab1455dc18e4c5e6e044646733b6932f05ef53 mmc: mmc_test: Remove local_irq_{save,restore}() around sg_copy_{from,to}_buffer()
-dfa6ca95c268b10ac6f14ecaf5884196d30be0b6 mmc: tifm_sd: Remove local_irq_{save,restore}() around tifm_sd_transfer_data()
-9dfb318f7f21bc1b53cddf8449e14ecdb4286a67 mmc: tifm_sd: Remove local_irq_{save,restore}() around tifm_sd_bounce_block()
-2edca37a93a5d5c18229e1f8576a411f380008c7 mmc: tifm_sd: Replace kmap_atomic() with kmap_local_page()
-72c871211776cce5a3649c995cc52c7fdd19a3e5 mmc: tmio_mmc_core: Remove local_irq_{save,restore}() around k[un]map_atomic()
-29823081ad7aff386088e1ed7b292eac9762e7d0 mmc: tmio_mmc_core: Replace kmap_atomic() with kmap_local_page()
-088ea57cf958b7c4778c66563e31f9e3ffb5b2e9 mmc: au1xmmc: Replace kmap_atomic() with kmap_local_page()
-476eadb06f6f0f239791d42f74ec06fdc3ea95cc mmc: wbsd: Replace kmap_atomic() with kmap_local_page()
-b4619aac26fa33f8bd85cada87fa3195336a4aeb mmc: sdhci-brcmstb: Allow building with COMPILE_TEST
-7ad4d225eb2420122c0a9173e4d48889a493e362 mmc: sdhci-esdhc-imx: improve imxrt1050 data
-b518b3ff3dff716d9b9e2391e96bdee720d043ca mmc: host: Fix repeated words in comments
-baf508ee4f4216ddec3aede1a90caafc9c57a79f dt-bindings: mmc: mtk-sd: Set clocks based on compatible
-57b3199d8efb9248ec52c601621f04141842b6b3 dt-bindings: mmc: Add support for Mediatek MT7986
-42c35f908cfc6fda6c58d657165b9ea4d6c32a6a mmc: mediatek: add support for MT7986 SoC
-468d87b85a790166360a9c4f1be6c49ca9fbe972 mmc: sdhci-of-arasan: Add support for dynamic configuration
 ebb5fd38f41132e6924cb33b647337f4a5d5360c mmc: cqhci: Provide helper for resetting both SDHCI and CQHCI
 5d249ac37fc2396e8acc1adb0650cdacae5a990d mmc: sdhci-of-arasan: Fix SDHCI_RESET_ALL for CQHCI
 56baa208f91061ff27ec2d93fbc483f624d373b4 mmc: sdhci-brcmstb: Fix SDHCI_RESET_ALL for CQHCI
 fb1dec44c6750bb414f47b929c8c175a1a127c31 mms: sdhci-esdhc-imx: Fix SDHCI_RESET_ALL for CQHCI
 836078449464e6af3b66ae6652dae79af176f21e mmc: sdhci-tegra: Fix SDHCI_RESET_ALL for CQHCI
 162503fd1c3a1d4e14dbe7f399c1d1bec1c8abbc mmc: sdhci_am654: Fix SDHCI_RESET_ALL for CQHCI
-0e4acce65045fd4c25627ca5eee7d3e3c32cd487 mmc: Merge branch fixes into next
-ebf46dec22aae5a6fd0a76a942357f38f466b862 mmc: sdhci-*: Convert drivers to new sdhci_and_cqhci_reset()
-fac4432fe5a42ac056f44da149e1c11dd327af10 mmc: core: properly select voltage range without power cycle
-c6656d2c0d305407bc0005175eaa131ea6ed2bad mmc: sdhci-esdhc-imx: reset the tuning logic before execute tuning
-41c41f2c23c6c403384c44a46fa6c87265e0562d mmc: sdhci-pci: Set PROBE_PREFER_ASYNCHRONOUS
-22f110c51d37980e1d183b57915117b555dd8583 mmc: sdhci_am654: Use dev_err_probe() for mmc_of_parse() return code
-8c830f60fea06a2065f945053c82ec0d8917b985 mmc: Remove duplicate words in comments
-4cb2f75e44e74b7f6d3181304b099c84111f69a2 mmc: sdhci-pci-o2micro: fix card detect fail issue caused by CD# debounce timeout
-0eb8acc7e836b9eea3193589d058bcab833cfacf dt-bindings: mmc: sdhci-msm: Document compatible for MSM8976
-c52f0935ef5f5ade564a8ff1c32a7df2ea279811 dt-bindings: mmc: mtk-sd: add Inline Crypto Engine clock
-baea11ac3def0471003c5263fec5f1d87c8bded2 mmc: mtk-sd: add Inline Crypto Engine clock control
 
---===============3099003529019506703==--
+--===============8411010454095165581==--
