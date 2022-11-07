@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/helgaas/pci
-Date: Mon, 07 Nov 2022 23:04:16 -0000
-Message-Id: <166786225676.10629.3135188938217112307@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/joel/bmc
+Date: Mon, 07 Nov 2022 23:10:40 -0000
+Message-Id: <166786264001.16155.1657239964893071706@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/helgaas/pci
-user: helgaas
+repo: pub/scm/linux/kernel/git/joel/bmc
+user: joel
 changes:
-  - ref: refs/heads/pci/enumeration
-    old: 44e985938e85503d0a69ec538e15fd33c1a4df05
-    new: 3702266d504e1336cc4446326881ee437eaf83dd
+  - ref: refs/heads/for-next
+    old: cb714bd0c5995c11e09a94875918cce4e8a82983
+    new: 127646b2a4a319467bb866342614935340715b84
     log: |
-         3702266d504e1336cc4446326881ee437eaf83dd PCI: Assign PCI domain IDs by ida_alloc()
+         127646b2a4a319467bb866342614935340715b84 ARM: dts: aspeed: bonnell: Update incorrect eeprom address
          
