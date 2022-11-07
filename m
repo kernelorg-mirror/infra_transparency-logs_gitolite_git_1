@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Mon, 07 Nov 2022 21:34:54 -0000
-Message-Id: <166785689439.12755.7867221011721803536@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/helgaas/pci
+Date: Mon, 07 Nov 2022 21:36:19 -0000
+Message-Id: <166785697933.14841.16862028296770633424@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/helgaas/pci
+user: helgaas
 changes:
-  - ref: refs/heads/master
-    old: 7f486816a367267338b4cf370cc8b7a3b2529038
-    new: 19f4f162f8bb3e7b3eabac2ebc1734f0ccc427b8
+  - ref: refs/heads/pci/enumeration
+    old: a009d44bb8129bbad6de73bdaceef6e63f7eca4f
+    new: 44e985938e85503d0a69ec538e15fd33c1a4df05
     log: |
-         52d6ba1ac8a48433ab549c7211912b5c2ed8138b foo
-         88a1f36fd0e52967899a0d8c0d59532f742ec41b foo
-         19f4f162f8bb3e7b3eabac2ebc1734f0ccc427b8 foo
+         503fa23614dc95f96af883a8e2e873d5c6cd53d8 PCI: Access Link 2 registers only for devices with Links
+         44e985938e85503d0a69ec538e15fd33c1a4df05 Revert "PCI: Clear PCI_STATUS when setting up device"
          
