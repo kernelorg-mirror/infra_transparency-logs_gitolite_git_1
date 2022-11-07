@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5146248612580392757=="
+Content-Type: multipart/mixed; boundary="===============7328699253892296959=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Mon, 07 Nov 2022 07:32:03 -0000
-Message-Id: <166780632373.8805.14194800936146525777@gitolite.kernel.org>
+Date: Mon, 07 Nov 2022 07:32:05 -0000
+Message-Id: <166780632547.8870.11007898561867452610@gitolite.kernel.org>
 
---===============5146248612580392757==
+--===============7328699253892296959==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,69 +16,76 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.14.y
-    old: a901bb6c7db7e6aef864ee2ba62a2a02c1421e48
-    new: be95a0c2b54990389820c0edeed786c01498242e
-    log: revlist-a901bb6c7db7-be95a0c2b549.txt
+  - ref: refs/heads/linux-4.19.y
+    old: 4ea3dcf9ab3b162ab4a5ecbb8d9c32f9fe0309ba
+    new: 61edd04ba8aaddf9e66736d63534ddbfc7ba34ff
+    log: revlist-4ea3dcf9ab3b-61edd04ba8aa.txt
 
---===============5146248612580392757==
+--===============7328699253892296959==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1667806322 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1667806324 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1667806321-e575489bea6d34eb4422fcf4ffd0c1d3e0683134
+nonce 1667806322-738bd9a9832d5b5a2b5e2c7be51df98587fda477
 
-a901bb6c7db7e6aef864ee2ba62a2a02c1421e48 be95a0c2b54990389820c0edeed786c01498242e refs/heads/linux-4.14.y
+4ea3dcf9ab3b162ab4a5ecbb8d9c32f9fe0309ba 61edd04ba8aaddf9e66736d63534ddbfc7ba34ff refs/heads/linux-4.19.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmNotHIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+DbAQAMvnGkfz1L6/OHGhlxPt
-WZKV7rRgc81jGk/Y0s+ipuxQseKHXAfiKmYV6qHqhJX+IE8Dc3zwD6QD6Hxf1uJI
-U9uolDSPO6Kao1xt1A4uWTmbMLGE9PQ0ArrxxbVhPbtL2l9qQ5euFaeoY8kZ2XR9
-OQuK292JNFwnF4+INIULZ+jXuWVkmwHKnIdVsclz/isumw5sMws5l8fdaIjcmPaq
-YXAG92LKeXNu7+8R/6IP0kky2vxHcjpoPeW4ZJN1qIfYsqzLcmjU1faBoksB7WX8
-Jy+2fwZ6UHk9Oh0OtZHTfAMMp70Sb3JQCWxkXeGHZpiTDJfIXQG7pXeR1+BSgDTK
-E01zZuOHBj4aB+v1rDXsr8zJi2QYzupt/SYRIN7tcjPnyaOlem8R8R1Rq8KPzNLy
-px6MA4GbJtBW0lAI/nFIALSLo9eJp1iaqJj6QjvCTM38YRoutcAqX4mIjy0WbzO0
-DJiBI5VBpiKUdQiS7pY7wQOy2k2gRF/8mLZAzxY/cMWGFLRiCMQwpkrHtEVfPDGm
-T0eZszQbxpGxU7ChgdtGqECDZjMQ7DnTisiE6VxsbQfBqKRujnCWpdlLhQM1q2mx
-waBk9/g4eLwR4SlDBm+zt7bDdkTbkybkseySw8eELn0w0Slfu3TUl53GYnfNd/jH
-wU/lcbLM/fHP3rGiEtgr4FEn
-=AYVM
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmNotHQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+VzIQALqfujjw1iNYJexCTFeC
+AC/MXpia2otw0dwmJsleAX/lfhbimt2Z4B1H2Qc0PeFnGVwfWu8GELAaQ4mETEkK
+FFJh+WMoZTTE4Gom+HR0vJc//e0VXq4j8TD5ZTz7zFZXxomN2FlXZjLDoU0EzHzh
+ztifGwCzyTlizAoXltUQnyrg2MrRH+DKTI4psF3oFqos0YCtvu1sUFZ26edhS2Re
+o9USypWzvY/zQAgThb4OJSZ5Sc1UZ6YXWH9V6RyGjSr2eUrcVqJDYtUz5/Unm2VP
+R+oKIeQmJvV3oZcLOwCen+4fWy9g84yeZGhQn53KelTSqvK5PQKfrh8SKAz5LQjj
+h514Z9FusO9C/pDsbP5F2b9jUHMk+L/XZdm/Cmb2LwAbL0vPZSPI/hMqiTQdQEcD
+mRf2UvZTyf6QQpnDhjEWMUIARu4Hwu6hxzRseZZa7pObatikPI7X0FndZwWrLN9c
+bDVX4K7x8KtG2WGNjEqSbl2/Y+rAqptQS019PZxHrTFn2pHQ9dGZEy7qGx8zvf5I
+ZVSuIOc3iUmwf3Tl/tqQt5aGTHVyAopRQnY6U6A0OviRIX/Kt/ShoPP/dq4w52yL
+KFarqHHGJr1j2Yg1iGU2fPoTPB01OYz11acQYdXon6Unon1bkEeK7Dsnjhnn8L9P
+Y1tJC+iAoa5aP/Llu50aIBvK
+=WfCn
 -----END PGP SIGNATURE-----
 
---===============5146248612580392757==
+--===============7328699253892296959==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a901bb6c7db7-be95a0c2b549.txt
+Content-Disposition: attachment; filename=revlist-4ea3dcf9ab3b-61edd04ba8aa.txt
 
-084d0ec84c5fd76f0107d7133aa076c2e007f28e NFSv4.1: Handle RECLAIM_COMPLETE trunking errors
-325f4f5982d2e54d251ed4513288decfc8706cd1 NFSv4.1: We must always send RECLAIM_COMPLETE after a reboot
-b182348734238b54879ef5ee5b0a3aed144fe9ce nfs4: Fix kmemleak when allocate slot failed
-de1ff7b315075363ad7768bb5dd5f0ff286f0341 net: dsa: Fix possible memory leaks in dsa_loop_init()
-f9b7dcf6d79bbeb9688485ed449a9bd7814be5da nfc: s3fwrn5: Fix potential memory leak in s3fwrn5_nci_send()
-594ef5891b8765bcb3e2858e923b333104dcf128 nfc: nfcmrvl: Fix potential memory leak in nfcmrvl_i2c_nci_send()
-f72cea5a8ec4084434260a2d1de1ec067b20760c net: fec: fix improper use of NETDEV_TX_BUSY
-79a723970bee7f9cd658ab6a9033ddfab6f8d938 ata: pata_legacy: fix pdc20230_set_piomode()
-aad4d1418406e94f236aa05f116f309abc9a6ae9 net: sched: Fix use after free in red_enqueue()
-2f48c5eaaa2a8df0312d965ab5e044e2f80d0f1c ipvs: use explicitly signed chars
-a142290f342bc03c11c4733a335e9cd761049fd7 rose: Fix NULL pointer dereference in rose_send_frame()
-0a33e85140516f97c2d4dfa90f494b17c9070750 mISDN: fix possible memory leak in mISDN_register_device()
-68973214f99859890fdc0f0875411454d4ba9dbc isdn: mISDN: netjet: fix wrong check of device registration
-b84edd935d1ffb193e1b4a51d544f20037a3942f btrfs: fix inode list leak during backref walking at resolve_indirect_refs()
-d12d57b9cf4bd73691db002e992a4865861934b4 btrfs: fix ulist leaks in error paths of qgroup self tests
-0a0d7809bb0abcb84c0fcd504b01489a20a8a3d8 Bluetooth: L2CAP: Fix use-after-free caused by l2cap_reassemble_sdu
-f9747621a30303ca55c8a1f8ad1a3d755f0a03a8 Bluetooth: L2CAP: fix use-after-free in l2cap_conn_del()
-14b3d188710dc6c4999ccdfd55fbcd9274bc2ed5 net: mdio: fix undefined behavior in bit shift for __mdiobus_register
-bbe1b4583b28d7ab06118a48eda6c48b1cbe66dd net, neigh: Fix null-ptr-deref in neigh_table_clear()
-39aeaab680e4b73ef409a926a6f982ab9e2fb46d media: s5p_cec: limit msg.len to CEC_MAX_MSG_SIZE
-b9e7e07b6732f994a672bbdb0b577d0fae09d77e media: dvb-frontends/drxk: initialize err to 0
-3883912d499ded5de5bf5a388e33c5bdba2e8c40 i2c: xiic: Add platform module alias
-be95a0c2b54990389820c0edeed786c01498242e Linux 4.14.299-rc1
+efa80074a1a71b78d0ad3103fb8439180fcfd138 NFSv4.1: Handle RECLAIM_COMPLETE trunking errors
+c460e1af79a0f337c2976831bd8ae97a23f41345 NFSv4.1: We must always send RECLAIM_COMPLETE after a reboot
+d452a089c8fe683869e0797dbc4d9b14b7a79539 nfs4: Fix kmemleak when allocate slot failed
+d5cf24e5fe140433d9152e3e5a51a853ee245232 net: dsa: Fix possible memory leaks in dsa_loop_init()
+6d5c52ae4bc987aa04d721faa6aa4d3de3759f45 RDMA/qedr: clean up work queue on failure in qedr_alloc_resources()
+bbecf1d333d389bf97a6ddbc5664431bf696f735 nfc: s3fwrn5: Fix potential memory leak in s3fwrn5_nci_send()
+52a71665e67773ede3449d415261910d1d58072d nfc: nfcmrvl: Fix potential memory leak in nfcmrvl_i2c_nci_send()
+481804d79280efc840b74f0602510c0df3158de6 net: fec: fix improper use of NETDEV_TX_BUSY
+a23152719429701bc192489dbf7a4a2bd82cb633 ata: pata_legacy: fix pdc20230_set_piomode()
+996404c6ab01ad0af00d20250917b3c85b68b165 net: sched: Fix use after free in red_enqueue()
+da6e6a674dc13e4cf92adb431ad89ce73332c6e9 net: tun: fix bugs for oversize packet when napi frags enabled
+1bd89a89f1ea699f29cd8dc9ccc519874bf5ca1c ipvs: use explicitly signed chars
+7d04bfb9ebb347a2a11e71280e8425c822d072dd ipvs: fix WARNING in __ip_vs_cleanup_batch()
+057aa03face95d70c1ff6b0b578972d933d872d1 ipvs: fix WARNING in ip_vs_app_net_cleanup()
+424e75d32e8870a537c7ad2e03c7e07cf0ea6939 rose: Fix NULL pointer dereference in rose_send_frame()
+7b50cdf4d0abf3f6e891c131ecbfb8e8dc03de50 mISDN: fix possible memory leak in mISDN_register_device()
+285cac65255b6ea11a116502256f2fd6b0fa4a3f isdn: mISDN: netjet: fix wrong check of device registration
+b0c8bee1e28c190440a6067eedf177d65e28fbde btrfs: fix inode list leak during backref walking at resolve_indirect_refs()
+83e2a4eb1def89ee06d70f8d820c7f6cad762299 btrfs: fix ulist leaks in error paths of qgroup self tests
+69654768b9f9b5c915b5c31e55de85524c483cce Bluetooth: L2CAP: Fix use-after-free caused by l2cap_reassemble_sdu
+3e5a30db2db642d472278f5fb1cb908b0302adb2 Bluetooth: L2CAP: fix use-after-free in l2cap_conn_del()
+c9f1a521d55e8690cf3b114768e7b9eec1494fdc net: mdio: fix undefined behavior in bit shift for __mdiobus_register
+2d3704616181df4207f73f01d66e7e04e173baea net, neigh: Fix null-ptr-deref in neigh_table_clear()
+d6f6e6aae5eaee442219b00edcc9de5c6fa4d071 ipv6: fix WARNING in ip6_route_net_exit_late()
+7dfcec439b71beecf38b6120fa7c75d6359469b3 media: s5p_cec: limit msg.len to CEC_MAX_MSG_SIZE
+8e2a47d23d4e18f58dda126a73786a30fd3416d4 media: cros-ec-cec: limit msg.len to CEC_MAX_MSG_SIZE
+e42a1ce998d17a28749a05d510f9fe4dd365aee9 media: dvb-frontends/drxk: initialize err to 0
+dfc0b54d00baf91d9eb0925a442cdce56063edfe HID: saitek: add madcatz variant of MMO7 mouse device ID
+a3455b9452693a320efc961f937823149f0d918c i2c: xiic: Add platform module alias
+61edd04ba8aaddf9e66736d63534ddbfc7ba34ff Linux 4.19.265-rc1
 
---===============5146248612580392757==--
+--===============7328699253892296959==--
