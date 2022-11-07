@@ -1,44 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============5753629497384428326=="
+Content-Type: multipart/mixed; boundary="===============0190216066838520259=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Mon, 07 Nov 2022 08:33:55 -0000
-Message-Id: <166781003569.19388.4301241534392735697@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Mon, 07 Nov 2022 08:34:09 -0000
+Message-Id: <166781004991.19549.6318515203003064403@gitolite.kernel.org>
 
---===============5753629497384428326==
+--===============0190216066838520259==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: leon
 changes:
   - ref: refs/heads/master
     old: 247f34f7b80357943234f93f247a1ae6b6c3a740
     new: f0c4d9fc9cc9462659728d168387191387e903cc
     log: revlist-247f34f7b803-f0c4d9fc9cc9.txt
-  - ref: refs/heads/rdma-next
-    old: d7c79b20cfb3254d871037b98b1b22e2209595f0
-    new: a08e898cdac5e28428eb749a99d9d981571b8ea7
-    log: revlist-d7c79b20cfb3-a08e898cdac5.txt
-  - ref: refs/heads/rdma-rc
-    old: 64e676774a53a406f4cde265d5a4cfd6b8e97df9
-    new: 5b7c5563e83e1abb820d81d7b6a42580bfddf115
-    log: |
-         eb83f502adb036cd56c27e13b9ca3b2aabfa790b RDMA/cma: Use output interface for net_dev check
-         1afac08b39d85437187bb2a92d89a741b1078f55 IB/hfi1: Correctly move list in sc_disable()
-         b75927cff13e0b3b652a12da7eb9a012911799e8 RDMA/efa: Add EFA 0xefa2 PCI ID
-         9e272ed69ad6f6952fafd0599d6993575512408e RDMA/hns: Disable local invalidate operation
-         12bcaf87d8b66d8cd812479c8a6349dcb245375c RDMA/hns: Fix NULL pointer problem in free_mr_init()
-         b5f9a01fae42684648c2ee3cd9985f80c67ab9f7 RDMA/rxe: Fix mr leak in RESPST_ERR_RNR
-         07c0d131cc0fe1f3981a42958fc52d573d303d89 RDMA/core: Fix null-ptr-deref in ib_core_cleanup()
-         7a47e077e503feb73d56e491ce89aa73b67a3972 RDMA/qedr: clean up work queue on failure in qedr_alloc_resources()
-         5b7c5563e83e1abb820d81d7b6a42580bfddf115 RDMA/cma: Allow UD qp_type to join multicast only
-         
 
---===============5753629497384428326==
+--===============0190216066838520259==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -900,35 +882,4 @@ aa52994915dca444dbb8e6b91eb82b749ba7a1ec Merge tag 'hwmon-for-v6.1-rc4' of git:/
 16c7a368c8ba9aba3b0e0ae5ec0a64be9fb45665 Merge tag 'cxl-fixes-for-6.1-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/cxl/cxl
 f0c4d9fc9cc9462659728d168387191387e903cc Linux 6.1-rc4
 
---===============5753629497384428326==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d7c79b20cfb3-a08e898cdac5.txt
-
-5ebc548f4f54fe971d741d80cd108f1a45c9e88d RDMA/rxe: Make responder handle RDMA Read failures
-5ac814e02ece516761d2e244cef93843df911ae0 RDMA/rxe: Handle remote errors in the midst of a Read reply sequence
-686d348476ee8006087cfcbef591e28f4f91bd8b RDMA/rxe: Remove unnecessary mr testing
-4508d32ccced24c972bc4592104513e1ff8439b5 RDMA/core: Fix order of nldev_exit call
-05e88ebb9ecfe9631ccc6483a79b0eabf554da60 RDMA/rxe: Remove redundant header files
-98a54f170617746b5d09b18b23b295efc7a42a5e RDMA/rxe: Remove init of task locks from rxe_qp.c
-de669ae8af49ceed0eed44f5b3d51dc62affc5e4 RDMA/rxe: Removed unused name from rxe_task struct
-dccb23f6c312e4480fe32ccbc2afac1a5cac7e5e RDMA/rxe: Split rxe_run_task() into two subroutines
-dcef28528cce82a82134abd393aa0f38f2edf77e RDMA/rxe: Make rxe_do_task static
-63a18baef2653f59a7c5b990283628bd54d062fd RDMA/rxe: Rename task->state_lock to task->lock
-875ab4a8d9a7e559c4aaad28f5886d39923301b7 RDMA/rxe: Make sure requested access is a subset of {mr,mw}->access
-b071850ef62e36b2fc2ec81863f07be857151409 RDMA/rxe: Remove the duplicate assignment of mr->map_shift
-692373d186205dfb1b56f35f22702412d94d9420 RDMA/rxe: cleanup some error handling in rxe_verbs.c
-abef378c434e6f5abd46fd536e9972374fb74e98 RDMA/mlx5: Change debug log level for remote access error syndromes
-4eace75e0853273755b878ffa9cce6de84df975a RDMA/irdma: Report the correct link speed
-ece43fad220ba03c529cc0f6f302d796044e8476 RDMA/erdma: Extend access right field of FRMR and REG MR to support atomic
-71c6925f280ae8cb52eafee2404ae75c176c28ba RDMA/erdma: Report atomic capacity when hardware supports atomic feature
-0ca9c2e2844aa285c3656a29d4803839cfa8bca9 RDMA/erdma: Implement atomic operations support
-c09be7f90eefa6bd4c4f381e14849ed4d28a69ef net/sched: Don't print dump stack in event of transmission timeout
-d0ea228b83e7e06ef3ef9650140101a37f799594 RDMA/core: Introduce peer memory interface
-3d8fb9edbd41f122fda680158a80bac44e55e847 RDMA/nldev: Use __nlmsg_put instead nlmsg_put
-703db18e8d4ef628691fb93980a709be673e62e3 RDMA/restrack: Release MR restrack when delete
-88867e705c42c1cd2011e45201c25eecdb9fef94 RDMA/core: Make sure "ib_port" is valid when access sysfs node
-a08e898cdac5e28428eb749a99d9d981571b8ea7 RDMA/nldev: Return "-EAGAIN" if the cm_id isn't from expected port
-
---===============5753629497384428326==--
+--===============0190216066838520259==--
