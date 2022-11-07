@@ -1,119 +1,161 @@
-Content-Type: multipart/mixed; boundary="===============1139300889282576398=="
+Content-Type: multipart/mixed; boundary="===============3910603007201465162=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tglx/devel
-Date: Mon, 07 Nov 2022 21:02:03 -0000
-Message-Id: <166785492339.23054.486983411043637355@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
+Date: Mon, 07 Nov 2022 21:24:25 -0000
+Message-Id: <166785626503.4712.1809927261091082749@gitolite.kernel.org>
 
---===============1139300889282576398==
+--===============3910603007201465162==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tglx/devel
-user: tglx
+repo: pub/scm/linux/kernel/git/next/linux-next
+user: sfr
 changes:
-  - ref: refs/heads/devmsi
-    old: f0c4d9fc9cc9462659728d168387191387e903cc
-    new: 78098b3d1f7f59d8389a818e91a742ccc5caa500
-    log: revlist-f0c4d9fc9cc9-78098b3d1f7f.txt
+  - ref: refs/heads/pending-fixes
+    old: 82d05e3975f57aee899381a7033cc1cc30f9ac64
+    new: ef5b2e74bc50799a4e8b962a34971c8a593af37a
+    log: revlist-82d05e3975f5-ef5b2e74bc50.txt
 
---===============1139300889282576398==
+--===============3910603007201465162==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f0c4d9fc9cc9-78098b3d1f7f.txt
+Content-Disposition: attachment; filename=revlist-82d05e3975f5-ef5b2e74bc50.txt
 
-a5995caeb3b1c6a7e99cf2cb2803398fde12498b s390/pci: Use irq_data_get_msi_desc()
-a2c93164d0275ffcf2fbcc3acf55be0a0b00c918 PCI/MSI: Check for MSI enabled in __pci_msix_enable()
-88472f1883c909dd5823eb8ac1d18a292174a8de iommu/vt-d: Remove bogus check for multi MSI-X
-d183312407d8c95bbebf9fc21b2800ceeacd92d6 iommu/amd: Remove bogus check for multi MSI-X
-548aa8ae26096fb94c34a9fa1a184f93050a0f08 genirq/msi: Use MSI_DESC_ALL in msi_add_simple_msi_descs()
-8a3bd592e37eff4300028b40367ee970f6151b78 genirq/msi: Remove filter from msi_free_descs_free_range()
-e5b4ab93fffa2f6dbe9ca947ccaedbc7149157aa genirq/msi: Add missing kernel doc to msi_next_desc()
-a542290d2869d2158cf4375f85f7b475dee96f9f genirq/msi: Make __msi_domain_alloc_irqs() static
-34ab2c76e0043a7a86499fbfffbdaed5bc1fdd67 genirq/msi: Provide msi_domain_ops::post_free()
-3d4ee7fda13995c6d2bfaa16d529dfc7d0f5e9f7 powerpc/pseries/msi: Use msi_domain_ops::msi_post_free()
-e492cb8f0f8f19e333ec997c92bb2b3b1fc11ab4 genirq/msi: Make __msi_domain_free_irqs() static
-33ae5fdb99bab05adf2bf28b6a8daf8f11bb139f genirq/irqdomain: Move bus token enum into a seperate header
-fc275d32897196f0e51d66b10d0c4f8343204d35 genirq/msi: Add bus token to struct msi_domain_info
-a5428c5f2b70b9aef3902256d72cb99f60b14008 PCI/MSI: Use msi_domain_info::bus_token
-fa1824005298956d54eee2f35f8fd5d2128c1f77 PCI/MSI: Let the MSI core free descriptors
-af526a54cd41323ff14082922daac4239f6e78bb PCI/MSI: Get rid of PCI_MSI_IRQ_DOMAIN
-fc74b38af10244dca90acc72fa79ed04b54e2518 genirq: Get rid of GENERIC_MSI_IRQ_DOMAIN
-4303291efe8c48ff885b0e569231db6ffd1c0d54 PCI/MSI: Get rid of externs in msi.h
-59efd5d55dddfce0272786f014527c7281590f3f PCI/MSI: Move mask and unmask helpers to msi.h
-a4dea641ae3a18e1b4a454685437424d50baef3b PCI/MSI: Move pci_disable_msi() to api.c
-83f0af08ee0d1160fd403417e8a7c433925cdb6b PCI/MSI: Move pci_enable_msi() API to api.c
-1285144d226e2095258b07952cec9afb64bca3e5 PCI/MSI: Move pci_enable_msix_range() to api.c
-6658dec9caea7fdbd07b5e87b48b8dc55e66d75c PCI/MSI: Move pci_alloc_irq_vectors() to api.c
-bf3e371dc40de8f8b3e3ce649cef0894a4bb0976 PCI/MSI: Move pci_alloc_irq_vectors_affinity() to api.c
-8bcee37376b1427251ec47c96362e081d67d7113 PCI/MSI: Move pci_irq_vector() to api.c
-ef05728863cb05c6c403ef7d5a1c6c677cb804ac PCI/MSI: Move pci_free_irq_vectors() to api.c
-789ed91acadaf6efbdbca7f9f012daa2e346a11f PCI/MSI: Move pci_msix_vec_count() to api.c
-b4f24937f54ec25b4cafca094f0b6844ced17f04 PCI/MSI: Move pci_disable_msix() to api.c
-f7f9bcbaafefcec741e8e7f46ccce71dda3f9b5a PCI/MSI: Move pci_irq_get_affinity() to api.c
-ea2107e9d57c47c53683440aef6ff0ca6ca18cbc PCI/MSI: Move pci_msi_enabled() to api.c
-de108e2be13160368866640344db47bf4bb1a462 PCI/MSI: Move pci_msi_restore_state() to api.c
-88f2a502fc9f5a2189c01793a149dc0c041691f7 Documentation: PCI: Add reference to PCI/MSI device driver APIs
-5960d67e22f0b08c139c9ebb0fbfd17784629f8a PCI/MSI: Reorder functions in msi.c
-fd0aeae8233462d38163fd291ce78a3d9ed9a1f8 PCI/MSI: Split __pci_write_msi_msg()
-cb55b37a70a895eaf942c365c1730e4005933e4e PCI/MSI: Reject multi-MSI early
-f03690085a9ad4be0cc509307772c3834d1e1dc2 PCI/MSI: Reject MSI-X early
-2a01d24f0e55cdd6ec689b801570f9947a38323d PCI/MSI: Validate MSIX contiguous restriction early
-3158051bcc52e9c37732350ff0818aba3c98a407 PCI/MSI: Remove redundant msi_check() callback
-5fbbf55ec2c6b6592cbc6402cee6b6c23228202e x86/apic: Remove X86_IRQ_ALLOC_CONTIGUOUS_VECTORS
-5f6ec4c98c16b43f4de880a57bac8bd55022b0a3 genirq/msi: Move IRQ_DOMAIN_MSI_NOMASK_QUIRK to MSI flags
-e563d6d24c65609d10136483346b6c32ed6f3b83 genirq/msi: Create msi_api.h
-4c42d6d58ba38eebad017f4fb288cab60c34220f genirq/irqdomain: Provide IRQ_DOMAIN_FLAG_MSI_PARENT
-99a5af5e8c22aa23a68897fa2a9a065f08148e6f genirq/irqdomain: Provide IRQ_DOMAIN_FLAG_MSI_DEVICE
-fc9dc039de8cd809849254130d5c00955b32261e genirq/msi: Check for invalid MSI parent domain usage
-ec382041b06c8b50a2f85439e0afc5b2b1305d5a genirq/msi: Add pointers for per device irq domains
-eaeae6aa949744729c507958ad6680ebad30fa56 genirq/msi: Make MSI descriptor iterators device domain aware
-972b3a69971d3bff52749c3e1acaf348c479a49f genirq/msi: Make msi_get_virq() device domain aware
-6a6e5e1af7f697a55da52081067901f721e9dbe2 genirq/msi: Rename msi_add_msi_desc() to msi_insert_msi_desc()
-d2f8b9818512bcd9f8017374b9505e44473fa580 genirq/msi: Make descriptor allocation device domain aware
-e1a1879f47bfc62ee3a9c8e284015d9c2d20a9ae genirq/msi: Make descriptor freeing domain aware
-e8940547e9bf4027f49db08d1ade8be356956ee6 genirq/msi: Make msi_add_simple_msi_descs() device domain aware
-d1d564ea69a6c330e3a8550b1f88b957500704ca genirq/msi: Provide new domain id based interfaces for freeing interrupts
-0925b021ac9dd12fe1d944f36dc1dff60ca0efa6 genirq/msi: Provide new domain id allocation functions
-d72851802cece68715d80d7e17006438ca143dd9 PCI/MSI: Use msi_domain_alloc/free_irqs_all_locked()
-1ce93d974d4c8580bc264d7a15eef6872c94bf5e platform-msi: Switch to the domain id aware MSI interfaces
-0fc9ee9772856d655825577604f3ebdc1f7ed450 bus: fsl-mc-msi: Switch to domain id aware interfaces
-e6a2b8ab0e5f909a0f0974a3d578f7ba266a435e oc: ti: ti_sci_inta_msi: Switch to domain id aware MSI functions
-b9667d4361be4b9cabe99f5a2f7845239f7edc08 genirq/msi: Remove unused alloc/free interfaces
-5d332560f6c9be5089a334e1aba82ba604afee64 genirq/msi: Rearrange MSI domain flags
-78845d7f8bacb9c578e60275b052d47300b9f2c3 genirq/msi: Provide struct msi_parent_ops
-674e85ac7f8e58440dead6916d613cd0cec0c146 genirq/msi: Provide data structs for per device domains
-be324b4e9fe17bd937d517d6e4d50ed61f0ff075 genirq/msi: Add size info to struct msi_domain_info
-bd0dbf395539025ae0c05b4329d4aff1cbf7aedc genirq/msi: Split msi_create_irq_domain()
-4fd787fb710732b3a76b41df11396ec158e6af7b genirq/msi: Provide msi_create/free_device_irq_domain()
-142417849e8c2d18533dafb588f6135d499b5668 genirq/msi: Provide msi_match_device_domain()
-87639da7c33089b184ee8aca7c6717f9d6ef9beb genirq/msi: Add range checking to msi_insert_desc()
-51f395413060bbd772c4d6458d8f5cbbb96cbec9 genirq/msi: Provide BUS_DEVICE_PCI_MSI[X]
-e7f6a2ce369bd4f82521025ff043b4667b2eb5e3 PCI/MSI: Add support for per device MSI[X] domains
-946832cb97d6895a132e864cc9268b2059ca6ef9 x86/apic/vector: Provide MSI parent domain
-7df3ce38b1618dace2f5f12304fa309259093fed PCI/MSI: Remove unused pci_dev_has_special_msi_domain()
-baf11121dee8385ece1841806fa038fd485eae97 iommu/vt-d: Switch to MSI parent domains
-76ac7474853cba867ad3bfa3b0f6103e299de74e iommu/amd: Switch to MSI base domains
-ef6ae15043b09420e735f5f203dc40d5aaf4b92f x86/apic/msi: Remove arch_create_remap_msi_irq_domain()
-8d0f48fb76c86f6f85c152e99a7684badfabd12a genirq/msi: Provide struct msi_map
-0352a6c662b227aaaade076238ac79a02a834f43 genirq/msi: Provide msi_desc::msi_data
-509ea379ae25e0863e576fec901d6a9d52945f3b genirq/msi: Provide msi_domain_ops::prepare_desc()
-37f3344494cea8920c8d86ddd39a340a8263c1ab genirq/msi: Provide msi_domain_alloc_irq_any()
-49db21327069cd1a41ca264b9257b77eb4e44f1e genirq/msi: Provide MSI_FLAG_MSIX_ALLOC_DYN
-ce670a3a85f9e8d1016ce1e657ca61074e4073cb PCI/MSI: Split MSIX descriptor setup
-2230a68ec668e270b57745350a0b3b6a601ef317 PCI/MSI: Provide prepare_desc() MSI domain op
-397c08431d43511722c1ef32a6ed69e45f38fc55 PCI/MSI: Provide post-enable dynamic allocation interfaces for MSI-X
-29cb332256e83b5d005232e086bdf168e14aa7fb x86/apic/msi: Enable MSI_FLAG_PCI_MSIX_ALLOC_DYN
-4b928871b9ee4913a2d62652c05032472f2bb36a genirq/msi: Provide constants for PCI/IMS support
-eedd16942aab27e7042897832e31092c4f2758ee PCI/MSI: Provide IMS (Interrupt Message Store) support
-c10e99bf4f33eb87dcec0fa63d682f80978cd7ed PCI/MSI: Provide pci_ims_alloc/free_irq()
-9267f2c36014d89a47a880ab106631e4dde18908 x86/apic/msi: Enable PCI/IMS
-10b4af40dfc5881bc7fec9526a33c632a1e5a85a iommu/vt-d: Enable PCI/IMS
-908ef74e070865ba85de7ab9c1bc634bd95ea9d7 iommu/amd: Enable PCI/IMS
-78098b3d1f7f59d8389a818e91a742ccc5caa500 irqchip: Add IDXD Interrupt Message Store driver
+b52997dff0b926f7cca340a6e6997b20b3386d05 backlight: ktd253: Switch to use dev_err_probe() helper
+aa52994915dca444dbb8e6b91eb82b749ba7a1ec Merge tag 'hwmon-for-v6.1-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/groeck/linux-staging
+16c7a368c8ba9aba3b0e0ae5ec0a64be9fb45665 Merge tag 'cxl-fixes-for-6.1-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/cxl/cxl
+1bf039df2f63402adb365f59383fe9d34e2ef641 arm64: efi: Fix handling of misaligned runtime regions and drop warning
+f0c4d9fc9cc9462659728d168387191387e903cc Linux 6.1-rc4
+bb474529a7a724bcde31759224d14b499fc74e74 maple_tree: remove pointer to pointer use in mas_alloc_nodes()
+a3fcd6bc67ad0ca4ca6287eff76d62298c9d579c maple_tree: mas_anode_descend() clang-analyzer cleanup
+651bb49a89e6fc5d7113a4076b0c1ccaf20fa3da mm, compaction: fix fast_isolate_around() to stay within boundaries
+d374ebb11da366239882440b0f0f32e71020076f maple_tree: reorganize testing to restore module testing
+8b47aed04884f54f3c82489f86f50d931e1c9721 maple_tree-reorganize-testing-to-restore-module-testing-fix
+c01631b7b67a2b11e9d40301fb780645f21d8056 maple_tree-reorganize-testing-to-restore-module-testing-fix-2
+39a8714b1212861c671f478b67f2ea45619eac3c mm/mmap: fix memory leak in mmap_region()
+a46979b18417228bdbb35b1583f28da892bc083e mm: don't warn if the node is offlined
+50f95424eba60a4a3dbf5564194b074ec5917189 nilfs2: fix deadlock in nilfs_count_free_blocks()
+eff8c81d4ae72dfd2d79713c2f8b0be15ec21e03 hugetlb: don't delete vma_lock in hugetlb MADV_DONTNEED processing
+e1b4cf31cd2b18d0fe8d63d6c949158b8babeb90 Partly revert "mm/thp: carry over dirty bit when thp splits on pmd"
+89e4f78ee79be1b748b5126aa1c1e66895b39b39 mm/memremap.c: map FS_DAX device memory as decrypted
+3ed47e86c7c2565bad7a06c2278a0b7e83e2a768 mm/shmem: use page_mapping() to detect page cache for uffd continue
+fa499e51e6adac6ebc5f35aaf38cf4b8c93f2361 mm: hugetlb_vmemmap: include missing linux/moduleparam.h
+475424b4f40f478c94af1deda5490b047ba4d5fa kmsan: core: kmsan_in_runtime() should return true in NMI context
+a2c4b89c7c98342c9e3666884e9e4da8100dc2e9 x86/uaccess: instrument copy_from_user_nmi()
+1838835090a8b210810243fe8c7978df390f628f Kconfig.debug: ensure early check for KMSAN in CONFIG_KMSAN_WARN
+a6dbbf7516302f1342220b46bb6400521f8229cf kmsan: make sure PREEMPT_RT is off
+08934af2f56bff3047615e776d4f2f1074d68ea2 x86/traps: avoid KMSAN bugs originating from handle_bug()
+a29e2ed9600100005f7753aaae99981a1cc066ce nilfs2: fix use-after-free bug of ns_writer on remount
+397fbf18880f1774d9f8fc6bbb65a70cb0756529 fs: fix leaked psi pressure state
+40f72c923c28e6094752f7b2f7bb10d16166d2de erofs: fix general protection fault when reading fragment
+d1c49a03e3497412e8397cc618a51615c04f4b97 dmaengine: at_hdmac: Fix at_lli struct definition
+036bfbdd6f6360265996fce926ad79c8724e2403 dmaengine: at_hdmac: Don't start transactions at tx_submit level
+15789bfa7e5864755fcff98ee99c68b1c9e2197b dmaengine: at_hdmac: Start transfer for cyclic channels in issue_pending
+18aba581c4147fcd8c7f1719b377257a9ff694c8 dmaengine: at_hdmac: Fix premature completion of desc in issue_pending
+ddfc5c97bc42c37a495e640c60e4127e4cdf0639 dmaengine: at_hdmac: Do not call the complete callback on device_terminate_all
+06f771b62db5a2b15c94128745cf096f050f7c1d dmaengine: at_hdmac: Protect atchan->status with the channel lock
+61878372be5ee8a2d5df43c96764e3fd0c7e7a04 dmaengine: at_hdmac: Fix concurrency problems by removing atc_complete_all()
+7a1d95c9f0e67c13e6112e0a26a79271b8abf006 dmaengine: at_hdmac: Fix concurrency over descriptor
+08776edcaa7e403553251079f5565d1256f33308 dmaengine: at_hdmac: Free the memset buf without holding the chan lock
+d19bab163fede2e9a4cf63714f2375477272ed10 dmaengine: at_hdmac: Fix concurrency over the active list
+a8015d87c8fad090e18e6a75beeabb52e9b861dc dmaengine: at_hdmac: Fix descriptor handling when issuing it to hardware
+adf86e2e909abe20a9aaaeec1fcdc32ccb2e55cf dmaengine: at_hdmac: Fix completion of unissued descriptor in case of errors
+922ad14bb53086663c681b20bb7417b8f43b2618 dmaengine: at_hdmac: Don't allow CPU to reorder channel enable
+9dc7a708920690407ffc67d9932d712b241a080c dmaengine: at_hdmac: Fix impossible condition
+d3d8b8e74009e9e6e7e9a744101c8980b1fbfe4c dmaengine: at_hdmac: Check return code of dma_async_device_register
+59dc2a7e7c6a0d4a2a2c4dafea874af484fc0592 ACPI: video: Improve Chromebook checks
+6973091d1b50ab4042f6a2d495f59e9db3662ab8 KVM: s390: pv: don't allow userspace to set the clock under PV
+b6662e37772715447aeff2538444ff291e02ea31 KVM: s390: pci: Fix allocation size of aift kzdev elements
+6dfad94814c7e1926a316a8dac7c50b0c1177f4b dt-bindings: backlight: qcom-wled: Add PMI8950 compatible
+531705a765493655472c993627106e19f7e5a6d2 net: lapbether: fix issue of dev reference count leakage in lapbeth_device_event()
+85cbaf032d3cd9f595152625eda5d4ecb1d6d78d hamradio: fix issue of dev reference count leakage in bpq_device_event()
+f25caaca424703d5a0607310f0452f978f1f78d9 net: wwan: iosm: fix memory leak in ipc_wwan_dellink
+668205b9c9f94d5ed6ab00cce9a46a654c2b5d16 net: wwan: mhi: fix memory leak in mhi_mbim_dellink
+f9027f88f7d1dc2b0ed1afbf28f22992d72d7efe net: wwan: iosm: Remove unnecessary if_mutex lock
+cf53db768a8790fdaae2fa3a81322b080285f7e5 drm/vc4: Fix missing platform_unregister_drivers() call in vc4_drm_register()
+0c175da7b0378445f5ef53904247cfbfb87e0b78 tcp: prohibit TCP_REPAIR_OPTIONS if data was already sent
+454d61a56d5e4c8cd9905f81d475d23f86f370af ACPI: video: Make acpi_video_backlight_use_native() always return true
+f46acc1efd4b5846de9fa05f966e504f328f34a6 ACPI: video: Add backlight=native DMI quirk for Dell G15 5515
+a231224a601c1924b9df620281ad04472900d75f platform/x86: ideapad-laptop: Disable touchpad_switch
+0df044b34bf33e7e35c32b3bf6747fde6279c162 platform/x86: touchscreen_dmi: Add info for the RCA Cambio W101 v2 2-in-1
+1598bfa8e1faa932de42e1ee7628a1c4c4263f0a platform/x86: hp_wmi: Fix rfkill causing soft blocked wifi
+bcdfa1f77ea7f67368d20384932a9d1e3047ddd2 platform/x86/intel/pmt: Sapphire Rapids PMT errata fix
+a977ece5773b6746b814aac410da4776023db239 platform/x86/intel/hid: Add some ACPI device IDs
+53eb64c88f17b14b324fbdfd417f56c5d3fa6fee platform/x86: p2sb: Don't fail if unknown CPU is found
+c23fb2c82267638f9d206cb96bb93e1f93ad7828 ipv6: addrlabel: fix infoleak when sending struct ifaddrlblmsg to network
+ebb5fd38f41132e6924cb33b647337f4a5d5360c mmc: cqhci: Provide helper for resetting both SDHCI and CQHCI
+5d249ac37fc2396e8acc1adb0650cdacae5a990d mmc: sdhci-of-arasan: Fix SDHCI_RESET_ALL for CQHCI
+56baa208f91061ff27ec2d93fbc483f624d373b4 mmc: sdhci-brcmstb: Fix SDHCI_RESET_ALL for CQHCI
+fb1dec44c6750bb414f47b929c8c175a1a127c31 mms: sdhci-esdhc-imx: Fix SDHCI_RESET_ALL for CQHCI
+836078449464e6af3b66ae6652dae79af176f21e mmc: sdhci-tegra: Fix SDHCI_RESET_ALL for CQHCI
+162503fd1c3a1d4e14dbe7f399c1d1bec1c8abbc mmc: sdhci_am654: Fix SDHCI_RESET_ALL for CQHCI
+0fca385d6ebc3cabb20f67bcf8a71f1448bdc001 btrfs: fix match incorrectly in dev_args_match_device
+9b2f20344d450137d015b380ff0c2e2a6a170135 btrfs: selftests: fix wrong error check in btrfs_free_dummy_root()
+8bb808c6ad91ec3d332f072ce8f8aa4b16e307e0 btrfs: don't print stack trace when transaction is aborted due to ENOMEM
+b75b51f886e9dd8cdfca1392ad43f4e542611c00 Revert "btrfs: scrub: use larger block size for data extent scrub"
+21e61ec6d0bb786818490e926aa9aeb4de95ad0d btrfs: zoned: clone zoned device info when cloning a device
+a8d1b1647bf8244a5f270538e9e636e2657fffa3 btrfs: zoned: initialize device's zone info for seeding
+c62f6bec53e63b11112e1ebce6bbaa39ce6f6706 btrfs: zoned: fix locking imbalance on scrub
+314d34fe7f0a5836cb0472950c1f17744b4efde8 ASoC: soc-utils: Remove __exit for snd_soc_util_exit()
+1741255d952d632aa544af678e46766af30e5464 Merge branch 'misc-6.1' into next-fixes
+3d59eaef49ca2db581156a7b77c9afc0546eefc0 ASoC: SOF: topology: No need to assign core ID if token parsing failed
+89cdb224f2abe37ec4ac21ba0d9ddeb5a6a9cf68 ASoC: sof_es8336: reduce pop noise on speaker
+612695bccfdbd52004551308a55bae410e7cd22f ARM: 9251/1: perf: Fix stacktraces for tracepoint events in THUMB2 kernels
+340a982825f76f1cff0daa605970fe47321b5ee7 ARM: 9266/1: mm: fix no-MMU ZERO_PAGE() implementation
+c4299907c09a638c0a30f029338d07941c049d73 drm/panfrost: Remove type name from internal struct again
+cc48774dc8f8a11551ea11a116340550fb8ffa73 erofs: put metabuf in error path in fscache mode
+63e91136aeffa2a5b63d3c322e4a8e340b9272a7 erofs: get correct count for unmapped range in fscache mode
+29bb90dbda17ccbc71f49da2d315923bc3951cb0 erofs: fix use-after-free of fsid and domain_id string
+7df140e84a75c89962feef659d686303d3ce75e5 mtd: rawnand: qcom: handle ret from parse with codeword_fixup
+83f0869e9bf3333d778d62f055b0f8e1de1cc812 mtd: rawnand: placate "$VARIABLE is used uninitialized" warnings
+c717b9b7d6de9e024e47f7cd5bbff49f581d3db9 mtd: onenand: omap2: add dependency on GPMC
+a1de832bd3243577de365222d8bc92708005ebf3 Merge tag 'platform-drivers-x86-v6.1-3' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+b8ebf250997c5fb253582f42bfe98673801ebebd Input: iforce - invert valid length check when fetching device IDs
+8e9ada1d0e72b4737df400fe1bba48dc42a68df7 Input: soc_button_array - add use_low_level_irq module parameter
+e13757f52496444b994a7ac67b6e517a15d89bbc Input: soc_button_array - add Acer Switch V 10 to dmi_use_low_level_irq[]
+0aa57789d629b59bd24936299fa1d871deba9715 Merge branch 'mm-hotfixes-unstable' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
+2af518368a2dbf1de6ba18fcad73681e7722e7c8 Merge branch 'fixes' of git://git.armlinux.org.uk/~rmk/linux-arm.git
+b82dfb0bcc5dce75a00eceef00a8851d8e27ec87 Merge branch 'fixes' of https://git.linaro.org/people/jens.wiklander/linux-tee.git
+093be7bdaa21f5d140b325c5bf7a7fba5130dbfb Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux.git
+00e019765f9b57da0303b40eb58d7353fa41cca5 Merge branch 'master' of git://git.kernel.org/pub/scm/linux/kernel/git/davem/sparc.git
+aad00d281a6b563df1a8999d1202fc6299b4c589 Merge branch 'master' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net.git
+5ffe7665c07bd0efd770ecd5001f3b4937fe085e Merge branch 'master' of git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf.git
+d73b5be30a51304ca871f489055f425677cf5f61 Merge branch 'master' of git://git.kernel.org/pub/scm/linux/kernel/git/klassert/ipsec.git
+cecdd42ed8de19bfd0ff09cc7039f16f3169cbe7 Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound.git
+5bb4b473a0deef597443f5e09e1d49346aee8a08 Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
+2c5ca365b8752dae56977c86ca4052b42843cfb2 Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regmap.git
+f4de3e7cdfff11efcf012358fa966d6fafec3a66 Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
+3126819d5e4d43d256f26c448ea86a6e7f1f07e6 Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+eeeefbcda2af9c6e6bce21ab351acafa0dca8639 Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/helgaas/pci.git
+51cadf3d76038e763a3abf6b60a73237924877d1 Merge branch 'driver-core-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/driver-core.git
+4ec7ef4573f2436d4ae9be95a0f5041041712608 Merge branch 'tty-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/tty.git
+c730efe403db2d284674f52a9bc80ac9457bc9f5 Merge branch 'usb-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/johan/usb-serial.git
+46295f7e8f1b9775505572800abd51bfeb979430 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/phy/linux-phy.git
+95cc8d804b3dbb31d98f46762aab0c621ee8378f Merge branch 'staging-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/staging.git
+3cc54f485242984fd8b524505d6c867871495623 Merge branch 'fixes-togreg' of git://git.kernel.org/pub/scm/linux/kernel/git/jic23/iio.git
+7c368ce5d895403016296bc568a52bb3522c2b72 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vkoul/soundwire.git
+f83f3e3f526febb00d8153c48926918ab265b4a4 Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input.git
+d782e2afc6b56fa3a8a4d05aff4411c3eddd7ab1 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vkoul/dmaengine.git
+9409489710d9d8709264b79d2e81adba3e53977f Merge branch 'for-backlight-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/lee/backlight.git
+5e85647567e48d68c320bf1f3fce271cd2de2bee Merge branch 'mtd/fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/mtd/linux.git
+2fe3f755c661e6f0a5f042435b57c00c527f6ece Merge branch 'at91-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/at91/linux.git
+39eefc70a82bb2c96b5ac40ec7afef075cd2c640 Merge branch 'master' of git://git.kernel.org/pub/scm/linux/kernel/git/kvms390/linux.git
+fdb779cfa0c5944b08355084bf8fc65da99ac376 Merge branch 'next-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux.git
+9fb00ec5ade6f143e253dfc6df00546328e3b4f9 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs.git
+b75e5420114e33ec6cc4e68e7f0ece821d2b3e97 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/mmc.git
+978ab8671b7fd093ba9b27f796e10235b6699c36 Merge branch 'hyperv-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/hyperv/linux.git
+e81612d89e46eeb0600a8ffefcd768e375496342 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux.git
+9bda1819d5c6b2e04f0103bdda49f1984b9c179a Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/xiang/erofs.git
+f17cc68106ce03d7d39c8032e623ab862252d271 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/rw/ubifs.git
+3d6eb8dceb3b42d6d0f9719267822da1818ea1a6 Merge branch 'for-rc' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
+a3d3aff6b645dfb2b6a7ef3e1189fb3613fb9919 Merge branch 'urgent' of git://git.kernel.org/pub/scm/linux/kernel/git/efi/efi.git
+b92a844888b8d59f6c28df5e0e94672e24f65e0f Merge branch 'zstd-linus' of https://github.com/terrelln/linux.git
+02c88e47fb7106980c48ebf3a42bef0430e1b1bd Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/sre/linux-power-supply.git
+ef5b2e74bc50799a4e8b962a34971c8a593af37a Merge branch 'for-linux-next-fixes' of git://anongit.freedesktop.org/drm/drm-misc
 
---===============1139300889282576398==--
+--===============3910603007201465162==--
