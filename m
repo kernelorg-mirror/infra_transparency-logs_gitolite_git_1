@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3669431885057906440=="
+Content-Type: multipart/mixed; boundary="===============7027480468838859887=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Mon, 07 Nov 2022 14:18:15 -0000
-Message-Id: <166783069549.23866.10829383447724587068@gitolite.kernel.org>
+Date: Mon, 07 Nov 2022 14:18:45 -0000
+Message-Id: <166783072594.24109.5986656196945444448@gitolite.kernel.org>
 
---===============3669431885057906440==
+--===============7027480468838859887==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cel/linux
 user: cel
 changes:
-  - ref: refs/heads/master
-    old: 30a0b95b1335e12efef89dd78518ed3e4a71a763
-    new: f0c4d9fc9cc9462659728d168387191387e903cc
-    log: revlist-30a0b95b1335-f0c4d9fc9cc9.txt
-  - ref: refs/tags/v6.1-rc4
-    old: 0000000000000000000000000000000000000000
-    new: cc17e0a6a1b0c4708af1f5d81edc87e2cb5ffbf8
+  - ref: refs/heads/for-next
+    old: 875bb88b9ce2cc4e88b68640312a764959e40c1e
+    new: f15ab65c1bb72eb2250f3e825df2e301db6c17ba
+    log: revlist-875bb88b9ce2-f15ab65c1bb7.txt
 
---===============3669431885057906440==
+--===============7027480468838859887==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-30a0b95b1335-f0c4d9fc9cc9.txt
+Content-Disposition: attachment; filename=revlist-875bb88b9ce2-f15ab65c1bb7.txt
 
 10f3f10f202109e3841c0c75add5a743ca197205 MAINTAINERS: git://github -> https://github.com for broadcom
 2ff4ba9e37024735f5cefc5ea2a73fc66addfe0e clk: rs9: Fix I2C accessors
@@ -35,11 +32,6 @@ Content-Disposition: attachment; filename=revlist-30a0b95b1335-f0c4d9fc9cc9.txt
 8fbf8636cd37b821ce3482748340008dbbe2dcb5 clk: mediatek: clk-mt8195-topckgen: Fix error return code in clk_mt8195_topck_probe()
 ba5284ebe497044f37c9bb9c7b1564932f4b6610 clk: renesas: r8a779g0: Add SASYNCPER clocks
 97cf79677ecb50a38517253ae2fd705849a7e51a xfs: avoid a UAF when log intent item recovery fails
-a635beeacc6d56d2b71c39e6c0103f85b53d108e tracing/histogram: Update document for KEYS_MAX size
-eb83f502adb036cd56c27e13b9ca3b2aabfa790b RDMA/cma: Use output interface for net_dev check
-1afac08b39d85437187bb2a92d89a741b1078f55 IB/hfi1: Correctly move list in sc_disable()
-097a4a1612389c31d2c4b95dfa816b91212d7f54 watchdog: sp805_wdt: fix spelling typo in comment
-82ebbe65d781064cfb0a6a8af221a9cebcaaac9e drivers: watchdog: exar_wdt.c fix use after free
 091873e47ef700e935aa80079b63929af599a0b2 selftests/landlock: Build without static libraries
 9fa248c65bdbf5af0a2f74dd38575acfc8dfd2bf fuse: fix readdir cache race
 13cf24e00665c9751951a422756d975812b71173 xfs: fix exception caused by unexpected illegal bestcount in leaf dir
@@ -49,62 +41,20 @@ d08af40340cad0e025d643c3982781a8f99d5032 xfs: Fix unreferenced object reported b
 cf00b33058b196b4db928419dde68993b15a975b cxl/mbox: Add a check on input payload size
 2816e24b0510e0c185c0c46acff1ce7aa4c4443f cxl/region: Fix null pointer dereference due to pass through decoder commit
 f010c75c05299ecd65adfd31a7841eea3476ce1f cxl/pmem: Fix failure to account for 8 byte header for writes to the device LSA.
-e8a18e3f00f3ee8d07c17ab1ea3ad4df4a3b6fe0 parisc: Make 8250_gsc driver dependend on CONFIG_PARISC
-9e4e2ce1a78ed92ed91135e90c85f27d75388129 parisc/serial: Rename 8250_gsc.c to 8250_parisc.c
-50f19697dd768d8b072cf7f12c0c99c7d31b67d8 parisc: Use signed char for hardware path in pdc.h
 24f0692bfd41fd207d99c993a5785c3426762046 ACPI: NUMA: Add CXL CFMWS 'nodes' to the possible nodes set
-0469e56a14bf8cfb80507e51b7aeec0332cdbc13 KVM: x86: Mask off reserved bits in CPUID.80000001H
-eeb69eab57c6604ac90b3fd8e5ac43f24a5535b1 KVM: x86: Mask off reserved bits in CPUID.80000006H
-7030d8530e533844e2f4b0e7476498afcd324634 KVM: x86: Mask off reserved bits in CPUID.80000008H
-079f6889818dd07903fb36c252532ab47ebb6d48 KVM: x86: Mask off reserved bits in CPUID.8000001AH
 f23f1a1e8437e38014fe34a2f12e37e861e5bcc7 arm64: dts: imx8mm: Enable CPLD_Dn pull down resistor on MX8Menlo
 f4cd18c5b2000df0c382f6530eeca9141ea41faf efi/tpm: Pass correct address to memblock_reserve
 161a438d730dade2ba2b1bf8785f0759aba4ca5f efi: random: reduce seed size to 32 bytes
 7d866e38c7e9ece8a096d0d098fa9d92b9d4f97e efi: random: Use 'ACPI reclaim' memory for random seed
-b75927cff13e0b3b652a12da7eb9a012911799e8 RDMA/efa: Add EFA 0xefa2 PCI ID
-9e272ed69ad6f6952fafd0599d6993575512408e RDMA/hns: Disable local invalidate operation
-12bcaf87d8b66d8cd812479c8a6349dcb245375c RDMA/hns: Fix NULL pointer problem in free_mr_init()
-f15fb2cd979a07fbfc666e2f04b8b30ec9233b2a btrfs: raid56: properly handle the error when unable to find the missing stripe
-ab4c54c643a01067669df8332b64e3f31b69e071 btrfs: raid56: avoid double freeing for rbio if full_stripe_write() failed
-ae0e5df4d1a4a2694c9c203cc25334aaaf9f2dfa btrfs: reorder btrfs_bio for better packing
-968b71583130b6104c9f33ba60446d598e327a8b btrfs: fix tree mod log mishandling of reallocated nodes
-3d17adea74a56a4965f7a603d8ed8c66bb9356d9 btrfs: make thaw time super block check to also verify checksum
-9b8be45f1ef29081c4b614aa559f934526e70d16 btrfs: send: fix send failure of a subcase of orphan inodes
-2398091f9c2c8e0040f4f9928666787a3e8108a7 btrfs: fix type of parameter generation in btrfs_get_dentry
 9440c42941606af4c379afa3cf8624f0dc43a629 x86/syscall: Include asm/ptrace.h in syscall_wrapper header
-ea522496afa1dd4ed295466e9c813b88ebda3284 Documentation: process: replace outdated LTS table w/ link
-e648174b53f1e29ee72ef33756a97ffb8241b6a5 Documentation: Fix spelling mistake in hacking.rst
-2f3f53d62307262f0086804ea7cea99b0e085450 docs/process/howto: Replace C89 with C11
-30bbe38b28fbc7415e0585f2b05e6f6f95febbaa MAINTAINERS: adjust entry after renaming parisc serial driver
-b5f9a01fae42684648c2ee3cd9985f80c67ab9f7 RDMA/rxe: Fix mr leak in RESPST_ERR_RNR
-76a66ba101329316a5d7f4275070be22eb85fdf2 btrfs: don't use btrfs_chunk::sub_stripes from disk
 6853a71726b6f5930b4450889faf02e8f1cfe35c KVM: arm64: Use correct accessor to parse stage-1 PTEs
 a9003f74f5a2f487e101f3aa1dd5c3d3a78c6999 clk: renesas: r8a779g0: Fix HSCIF parent clocks
 e07ee6fe21f47cfd72ae566395c67a80e7c66163 xfs: increase rename inode reservation
 649179e512f79f8d07ef244ab8793e351d069199 Merge tag 'renesas-clk-fixes-for-v6.1-tag1' of git://git.kernel.org/pub/scm/linux/kernel/git/geert/renesas-drivers into clk-fixes
-a0c9f1f2e53b8eb2ae43987a30e547ba56b4fa18 parisc: Export iosapic_serial_irq() symbol for serial port driver
-86c4f0d547f6460d0426ebb3ba0614f1134b8cda KVM: x86: Mask off reserved bits in CPUID.8000001FH
-5aa02366773376a1fd3a5c6a815e5f6e026ab391 KVM: x86: Reduce refcount if single_open() fails in kvm_mmu_rmaps_stat_open()
-180418e2eb33be5c8d0b703c843e0ebc045aef80 KVM: debugfs: Return retval of simple_attr_open() if it fails
-44fc40a015af7511408f7b447e2c0c2da056fd95 MAINTAINERS: git://github -> https://github.com for kvm-riscv
-dea0d5a2fde62237ff14c41cb05dd151cebf84c0 KVM: x86: Exempt pending triple fault from event injection sanity check
-1c1a41497ab879ac9608f3047f230af833eeef3d KVM: VMX: fully disable SGX if SECONDARY_EXEC_ENCLS_EXITING unavailable
-52491a38b2c2411f3f0229dc6ad610349c704a41 KVM: Initialize gfn_to_pfn_cache locks in dedicated helper
-ecbcf030b45666ad11bc98565e71dfbcb7be4393 KVM: Reject attempts to consume or refresh inactive gfn_to_pfn_cache
 5c1df62ca65936139a4b008561110d9fc285c58a kbuild: use POSIX-compatible grep option
 114ff6fe6cfbe81659f9e517d0b25f53db5dfc5d Documentation: kbuild: Add description of git for reproducible builds
 3b1e0dd2dc8a280b1e89c0df6d38cd28768575a5 kbuild: fix typo in modpost
 b6bcdc9f6b8321e4471ff45413b6410e16762a8d KVM: arm64: Fix bad dereference on MTE-enabled systems
-121affdf8a940555ceef6ab10a709030e52a4f91 nfs: Remove redundant null checks before kfree
-cf0d7e7f4520814f45e1313872ad5777ed504004 NFS: Avoid memcpy() run-time warning for struct sockaddr overflows
-1ba04394e028ea8b45d92685cc0d6ab582cf7647 NFSv4: Fix a potential state reclaim deadlock
-5d917cba3201e5c25059df96c29252fd99c4f6a7 NFSv4.1: Handle RECLAIM_COMPLETE trunking errors
-e59679f2b7e522ecad99974e5636291ffd47c184 NFSv4.1: We must always send RECLAIM_COMPLETE after a reboot
-cbdeaee94a415800c65a8c3fa04d9664a8b8fb3a SUNRPC: Fix null-ptr-deref when xps sysfs alloc failed
-f5ea16137a3fa2858620dc9084466491c128535f NFSv4: Retry LOCK on OLD_STATEID during delegation return
-8a0fa3ff3b606b55c4edc71ad133e61529b64549 SUNRPC: Fix crasher in gss_unwrap_resp_integ()
-038efb6348ce96228f6828354cb809c22a661681 NFSv4.2: Fixup CLONE dest file size for zero-length count
-7e8436728e22181c3f12a5dbabd35ed3a8b8c593 nfs4: Fix kmemleak when allocate slot failed
 2a5dc663e34eac3688d1a1e512ec43ebbe7a46ec Merge tag 'arm-soc/for-6.1/maintainers-fixes' of https://github.com/Broadcom/stblinux into arm/fixes
 08a32902a56e1670850fe5d518d8203e9ce354b8 clk: Remove WARN_ON NULL parent in clk_core_init_rate_req()
 2079d029387adfc0cc123f01a6fcf9eb6540ee4d clk: Initialize the clk_rate_request even if clk_core is NULL
@@ -113,23 +63,10 @@ ffa20aa581cf5377fc397b0d0ff9d67ea823629b clk: qcom: Update the force mem core bi
 9a8c5b0d061554fedd7dbe894e63aa34d0bac7c4 ext4: update the backup superblock's at the end of the online resize
 fb3041d61f6867158088c627c2790f94e208d1ea kbuild: fix SIGPIPE error message for AR=gcc-ar and AR=llvm-ar
 633efc8b3dc96f56f5a57f2a49764853a2fa3f50 net: dsa: Fix possible memory leaks in dsa_loop_init()
-a51abbbf25317c07cb00b40ae7d04a209d2a3d54 KVM: selftests: Add tests in xen_shinfo_test to detect lock races
-5addaf530995ac203fa46efde0d1ded4c15ff98e KVM: selftests: Mark "guest_saw_irq" as volatile in xen_shinfo_test
-5015bb89b58225f97df6ac44383e7e8c8662c8c9 KVM: x86: emulator: em_sysexit should update ctxt->mode
-d087e0f79fa0dd336a9a6b2f79ec23120f5eff73 KVM: x86: emulator: introduce emulator_recalc_and_set_mode
-055f37f84e304e59c046d1accfd8f08462f52c4c KVM: x86: emulator: update the emulation mode after rsm
-ad8f9e69942c7db90758d9d774157e53bce94840 KVM: x86: emulator: update the emulation mode after CR0 write
-696db303e54f7352623d9f640e6c51d8fa9d5588 KVM: x86: smm: number of GPRs in the SMRAM image depends on the image format
 8fdf3f6aba7cfa0c0e2bf66ecca7bb5783acd0d6 net: emaclite: update reset_lock member documentation
-8cf0a1bc12870d148ae830a4ba88cfdf0e879cee capabilities: fix potential memleak on error path from vfs_getxattr_alloc()
-7353633814f6e5b4899fb9ee1483709d6bb0e1cd KVM: x86/xen: Fix eventfd error handling in kvm_xen_eventfd_assign()
 4a6f278d4827b59ba26ceae0ff4529ee826aa258 fuse: add file_modified() to fallocate
 2124becad797245d49252d2d733aee0322233d7e ACPI: x86: Add another system to quirk list for forcing StorageD3Enable
-07c0d131cc0fe1f3981a42958fc52d573d303d89 RDMA/core: Fix null-ptr-deref in ib_core_cleanup()
-7a47e077e503feb73d56e491ce89aa73b67a3972 RDMA/qedr: clean up work queue on failure in qedr_alloc_resources()
 f11a74b45d330ad1ab986852b099747161052526 efi: efivars: Fix variable writes with unsupported query_variable_store()
-bfc3b0f05653a28c8d41067a2aa3875d1f982e3e tools/nolibc: Fix missing strlen() definition and infinite loop with gcc-12
-b3f4f51ea68a495f8a5956064c33dce711a2df91 tools/nolibc/string: Fix memcmp() implementation
 6f7630b1b5bc672b54c1285ee6aba752b446672c fortify: Capture __bos() results in const temp vars
 7354c9024f2835f6122ed9612e21ab379df050f9 netlink: hide validation union fields from kdoc
 e4ba4554209f626c52e2e57f26cba49a62663c8b net: openvswitch: add missing .resv_start_op
@@ -189,7 +126,6 @@ fa81cbafbf5764ad5053512152345fab37a1fe18 block: Fix possible memory leak for rq_
 d372ec94a018c3a19dad71e2ee3478126394d9fc drm/i915: Simplify intel_panel_add_edid_alt_fixed_modes()
 12caf46cf4fc92b1c3884cb363ace2e12732fd2f drm/i915/sdvo: Grab mode_config.mutex during LVDS init to avoid WARNs
 943f45b9399ed8b2b5190cbc797995edaa97f58f blk-mq: Fix kmemleak in blk_mq_init_allocated_queue
-2b6ae0962b421103feb41a80406732944b0665b3 parisc: Avoid printing the hardware path twice
 063b1f21cc9be07291a1f5e227436f353c6d1695 btrfs: fix a memory allocation failure test in btrfs_submit_direct
 47ba8cc7b4f82c927cec3ad7c7392e4c45c81c56 xfs: fix incorrect return type for fsdax fault handlers
 8184620ae21213d51eaf2e0bd4186baacb928172 btrfs: fix lost file sync on direct IO write with nowait and dsync iocb
@@ -216,8 +152,6 @@ c1ccf967bf962b998f0c096e06a658ece27d10a0 xfs: fix uninitialized list head in str
 8b972158afcaa66c538c3ee1d394f096fcd238a8 xfs: rename XFS_REFC_COW_START to _COWFLAG
 9f187ba0d5170b242561133724188142b62dc34c Merge tag 'fix-log-recovery-misuse-6.1_2022-10-31' of git://git.kernel.org/pub/scm/linux/kernel/git/djwong/xfs-linux into xfs-6.1-fixes
 7a2726ec3290c52f52ce8d5f5af73ab8c7681bc1 KVM: Check KVM_CAP_DIRTY_LOG_{RING, RING_ACQ_REL} prior to enabling them
-78a089d033bf71d68d978ac4cc73070f3e71c736 Merge tag 'lsm-pr-20221031' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/lsm
-5aaef24b5c6d4246b2cac1be949869fa36577737 Merge tag 'for-6.1-rc3-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
 40ff21432883216aa440b6619d559ad8f7d7a7d9 asm-generic: compat: fix compat_arg_u64() and compat_arg_u64_dual()
 ce883a2ba310cd7c291bb66ce5d207965fca6003 powerpc/32: fix syscall wrappers with 64-bit arguments
 878eb6e48f240d02ed1c9298020a0b6370695f24 block: blk_add_rq_to_plug(): clear stale 'last' after flush
@@ -246,13 +180,7 @@ fc007fb815ab5395c3962c09b79a1630b0fbed9c drm/imx: imx-tve: Fix return type of im
 4eb559dd15671cca355a61a4164e8f19e3952637 Merge tag 'refcount-cow-domain-6.1_2022-10-31' of git://git.kernel.org/pub/scm/linux/kernel/git/djwong/xfs-linux into xfs-6.1-fixesA
 a6dd6f39008bb3ef7c73ef0a2acc2a4209555bd8 x86/tdx: Prepare for using "INFO" call for a second purpose
 024f4b2e1f874934943eb2d3d288ebc52c79f55c arm64: entry: avoid kprobe recursion
-d79dcde0bc413efd35dd7eabe2d5eed34ec6deb0 Merge tag 'linux-watchdog-6.1-rc4' of git://www.linux-watchdog.org/linux-watchdog
-f526d6a82242f7ee72d2a4448eb492622cb7d556 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 be0ddf5293a7895a8c9096e1a8560930c6a0ab3f arm64: booting: Document our requirements for fine grained traps with SME
-54917c90c2cfc6cf3be6deb143cf3967b6dd8d3b Merge tag 'nolibc-urgent.2022.10.28a' of git://git.kernel.org/pub/scm/linux/kernel/git/paulmck/linux-rcu
-d3aefd2b29ff5ffdeb5c06a7d3191a027a18cdb8 nfsd: fix net-namespace logic in __nfsd_file_cache_purge
-6eafb4a13dde4998bfef03e7e862eeb7f522d2fa Merge tag 'nfsd-6.1-3' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
-8f71a2b3f435f29b787537d1abedaa7d8ebe6647 Merge tag 'docs-6.1-fixes' of git://git.lwn.net/linux
 71ee71d7adcba648077997a29a91158d20c40b09 cxl/region: Fix decoder allocation crash
 373e715e31bf4e0f129befe87613a278fac228d3 x86/tdx: Panic on bad configs that #VE on "private" memory access
 486c292230166c2d61701d3c984bf9143588ea28 net: lan966x: Fix the MTU calculation
@@ -285,10 +213,7 @@ eb81b682b131642405a05c627ab08cf0967b3dd8 btrfs: fix inode reserve space leak due
 145dfad998eac74abc59219d936e905766ba2d98 KVM: VMX: Advertise PMU LBRs if and only if perf supports LBRs
 18e897d213cb152c786abab14919196bd9dc3a9f KVM: VMX: Fold vmx_supported_debugctl() into vcpu_supported_debugctl()
 b333b8ebb85d62469f32b52fa03fd7d1522afc03 KVM: VMX: Ignore guest CPUID for host userspace writes to DEBUGCTL
-ae13366b177b062b420288c8affe6a513aae56f9 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma
-31fc92fc93d54d8bedf0d06c1da0510a89867978 Merge tag 'nfs-for-6.1-2' of git://git.linux-nfs.org/projects/anna/linux-nfs
 510841da1fcc16f702440ab58ef0b4d82a9056b7 netfilter: ipset: enforce documented limit to prevent allocating huge memory
-8e5423e991e8cd0988d0c4a3f4ac4ca1af7d148a Merge tag 'parisc-for-6.1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
 8e987f1f4da92d9f1dd020418bfab9fe04b1c54c Documentation: devres: add missing I2C helper
 341421084d705475817f7f0d68e130370d10b20d drm/amd/display: Update DSC capabilitie for DCN314
 14aed119942f6c2f1286022323139f7404db5d2b drm/amd/display: Ignore Cable ID Feature
@@ -396,5 +321,41 @@ f6f5204727b9b1f3c6e9c90b5b09f40c6e0102f5 Merge tag 'x86_urgent_for_v6.1_rc4' of 
 aa52994915dca444dbb8e6b91eb82b749ba7a1ec Merge tag 'hwmon-for-v6.1-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/groeck/linux-staging
 16c7a368c8ba9aba3b0e0ae5ec0a64be9fb45665 Merge tag 'cxl-fixes-for-6.1-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/cxl/cxl
 f0c4d9fc9cc9462659728d168387191387e903cc Linux 6.1-rc4
+39c9d271761d208787b347ce762546dffc612687 NFSD: Simplify READ_PLUS
+58d2275f8e3abc732be17ed6208d70573590b165 NFSD: Remove redundant assignment to variable host_err
+f85591a16df198d21839938ea076b173da9d6da9 SUNRPC: Remove unused svc_rqst::rq_lock field
+23ae6a252b2aeeb2b0f4432bc38fe4a968917171 NFSD: Finish converting the NFSv2 GETACL result encoder
+f848e93964c26aca22d243ce7938cd13b4fe44df NFSD: Finish converting the NFSv3 GETACL result encoder
+c297852f866d1a31d7b5c267503beea6065174c6 nfsd: ignore requests to disable unsupported versions
+073665efac1b3b46c9ec3a58de45cf937ba22d15 nfsd: move nfserrno() to vfs.c
+2f4106b4ed8f6d31c9cee822fe41848db6804433 nfsd: allow disabling NFSv2 at compile time
+900b631d3b62ee4e9007a91b1ad49a2c1a0a41fb exportfs: use pr_debug for unreachable debug statements
+d78be48476988056f985e2ef8ea1792a244b3ce7 nfsd: don't call nfsd_file_put from client states seqfile display
+bae85e7f30523dcff1f3f18af40d692405993c88 NFSD: Pass the target nfsd_file to nfsd_commit()
+f07579a23b1a7b0e7a59bfc7be92653930690368 NFSD: Revert "NFSD: NFSv4 CLOSE should release an nfsd_file immediately"
+21bf4941af4dc85b07c5e532f1ceb62667fb84cd NFSD: Add an NFSD_FILE_GC flag to enable nfsd_file garbage collection
+380c0b559b278e7b3d4ac3a01bd5b36abaf953b1 NFSD: Flesh out a documenting comment for filecache.c
+3889803129e08446f077e72dd8b0f09646c57d02 NFSD: Clean up nfs4_preprocess_stateid_op() call sites
+40be3127f42797be3a4be54ddbf4c4bcae85f461 NFSD: Trace stateids returned via DELEGRETURN
+067cb3a7f5b3c3d8541dde441f85c465c14abc98 NFSD: Trace delegation revocations
+11e1bba36761c974931dbb3506436ef9e08210cf NFSD: Use const pointers as parameters to fh_ helpers
+543f7b4a116a39c89ca9f5e344f2dbc9598c3682 NFSD: Update file_hashtbl() helpers
+bba925a31087565b94ea67d66a8f7a5b40782474 NFSD: Clean up nfsd4_init_file()
+35f04bd7f069a890ec0f0f721f0cf803b5104c4f NFSD: Add a nfsd4_file_hash_remove() helper
+8ac62ffce8b99ed775c43a557ae2b4ebb206e723 NFSD: Clean up find_or_add_file()
+95f3dc237c13ed3e0be5bf4d816c46b95b56e50a NFSD: Refactor find_file()
+dd430009a6c0f0814f47067a51876c17341f1a37 NFSD: Allocate an rhashtable for nfs4_file objects
+0382f037d1d3506ac261d951c400c6df3ebc2dd2 NFSD: Use rhashtable for managing nfs4_file objects
+dba42142b981f84ed6b871f53917f292603d176a NFSD: Fix licensing header in filecache.c
+107d4209c3811b59e15906de475b85e2f712e8d2 MAINTAINERS: NFSD should be responsible for fs/exportfs
+23bca2514a578e6e5bc17f7c24f824c3b285e292 nfsd: remove the pages_flushed statistic from filecache
+c847f07e2db258f1d2540bdf07fc3c25fb61d932 nfsd: reorganize filecache.c
+46380a27001c0f5092f725f64a17b499ffdffac6 nfsd: rework refcounting in filecache
+fcf0485507f04fd6c59804e263222df32c922df4 nfsd: fix up the filecache laundrette scheduling
+69c97c20a19fa38eb0d6c163e842c2a8dbf73f30 sunrpc: svc: Remove an unused static function svc_ungetu32()
+6faa10aa6d941b29bfc5f7c9c7bba13d99aad84f NFSD: Add an nfsd_file_fsync tracepoint
+2907efad7883452ed0d1247401f68e6128332dad NFSD: Re-arrange file_close_inode tracepoints
+9251a0e264c002fd3b3e4938a6c7decf35686817 lockd: set other missing fields when unlocking files
+f15ab65c1bb72eb2250f3e825df2e301db6c17ba nfsd: return error if nfs4_setacl fails
 
---===============3669431885057906440==--
+--===============7027480468838859887==--
