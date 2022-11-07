@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rt/linux-stable-rt
-Date: Mon, 07 Nov 2022 01:20:13 -0000
-Message-Id: <166778401340.7348.14126134195477853434@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Mon, 07 Nov 2022 02:15:07 -0000
+Message-Id: <166778730706.13537.18078602396771145328@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rt/linux-stable-rt
-user: markgross
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/tags/v4.9.327-rt197-rebase
-    old: 0000000000000000000000000000000000000000
-    new: a1092a67d0f6852f53ada4f987c4c2dfaa7082cb
-  - ref: refs/tags/v4.9.327-rt197
-    old: 0000000000000000000000000000000000000000
-    new: 4d1e84c55ef24748a11196c4a818a616d421d8ed
+  - ref: refs/heads/rcu/next
+    old: 5242bc5b7213c5ff120c018eabdfbcd6db3bacba
+    new: 75f97d8e607ceb54ed5fb2ffab09a35d1f5edcf0
+    log: |
+         75f97d8e607ceb54ed5fb2ffab09a35d1f5edcf0 rcu: Consolidate initialization and CPU-hotplug code
+         
