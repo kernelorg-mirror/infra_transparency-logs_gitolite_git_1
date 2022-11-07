@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/lsm
-Date: Mon, 07 Nov 2022 22:44:22 -0000
-Message-Id: <166786106276.27972.8409875554413390243@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/audit
+Date: Mon, 07 Nov 2022 22:45:44 -0000
+Message-Id: <166786114428.30077.491120120629398838@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pcmoore/lsm
+repo: pub/scm/linux/kernel/git/pcmoore/audit
 user: pcmoore
 changes:
-  - ref: refs/tags/lsm-pr-20221107
+  - ref: refs/tags/audit-pr-20221107
     old: 0000000000000000000000000000000000000000
-    new: b54b589a2489c127971b78f8691e2968e946c48d
+    new: 8659bf9f3b570a542bba5d0af667ca1c044ebb03
