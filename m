@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2984123555745486514=="
+Content-Type: multipart/mixed; boundary="===============1710446600474799443=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 07 Nov 2022 12:51:24 -0000
-Message-Id: <166782548480.26772.12231508507665159105@gitolite.kernel.org>
+Date: Mon, 07 Nov 2022 12:51:44 -0000
+Message-Id: <166782550429.26990.2354600663046464942@gitolite.kernel.org>
 
---===============2984123555745486514==
+--===============1710446600474799443==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: 9e2f01811575957d7355b92b8c0644cb01ba657d
-    new: 7cc2f04d1076c927f9a06b2e1ab641c3815e8d34
-    log: revlist-9e2f01811575-7cc2f04d1076.txt
+  - ref: refs/heads/m68k-queue
+    old: e556cf10d2d777905bec8b4e5e88497862a7f4d5
+    new: b6f0cfb7e0519eb4f783d4d55f2fc5d1c7ff8a32
+    log: revlist-e556cf10d2d7-b6f0cfb7e051.txt
 
---===============2984123555745486514==
+--===============1710446600474799443==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9e2f01811575-7cc2f04d1076.txt
+Content-Disposition: attachment; filename=revlist-e556cf10d2d7-b6f0cfb7e051.txt
 
 10f3f10f202109e3841c0c75add5a743ca197205 MAINTAINERS: git://github -> https://github.com for broadcom
 2ff4ba9e37024735f5cefc5ea2a73fc66addfe0e clk: rs9: Fix I2C accessors
@@ -393,6 +393,10 @@ f6f5204727b9b1f3c6e9c90b5b09f40c6e0102f5 Merge tag 'x86_urgent_for_v6.1_rc4' of 
 aa52994915dca444dbb8e6b91eb82b749ba7a1ec Merge tag 'hwmon-for-v6.1-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/groeck/linux-staging
 16c7a368c8ba9aba3b0e0ae5ec0a64be9fb45665 Merge tag 'cxl-fixes-for-6.1-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/cxl/cxl
 f0c4d9fc9cc9462659728d168387191387e903cc Linux 6.1-rc4
-7cc2f04d1076c927f9a06b2e1ab641c3815e8d34 Merge tag 'v6.1-rc4'
+f26ec7066ef682fdb46a07fe1b7eff85cab9c5a6 m68k: atari: usb: Add ISP1160 USB host controller support
+85e96e82efa1229ab72ef21d2dcdde1b91d95d29 m68k: atari: Update Kconfig.bus help text
+aba903d30098ec930f9eb6a9792c4a5cfc0307f6 m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
+b2059fd8bab091724cd14a0964959ab416def388 m68k: mac: Remove unused rbv_set_video_bpp()
+b6f0cfb7e0519eb4f783d4d55f2fc5d1c7ff8a32 m68k: mac: Reword comment using double "in"
 
---===============2984123555745486514==--
+--===============1710446600474799443==--
