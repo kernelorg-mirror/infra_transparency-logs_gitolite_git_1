@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
-Date: Mon, 07 Nov 2022 18:05:18 -0000
-Message-Id: <166784431840.27977.15438070787042373567@gitolite.kernel.org>
+Date: Mon, 07 Nov 2022 18:06:06 -0000
+Message-Id: <166784436658.28314.8905886894847914818@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/krzk/linux
 user: krzk
 changes:
-  - ref: refs/heads/for-next
-    old: 86452c60199deca703e444e9742ec65d2d37696d
-    new: 113aec13d45ecae4780dba871a2ae99d4c362b5a
-    log: |
-         113aec13d45ecae4780dba871a2ae99d4c362b5a Merge branch 'next/clk' into for-next
-         
+  - ref: refs/heads/next/dt64
+    old: 3f0d4a02c7490f1aa15764ed85dcf0881bf66b9e
+    new: 21f6546e8bf68a847601e2710378e2224bf49704
