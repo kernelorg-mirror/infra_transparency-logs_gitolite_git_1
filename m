@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/helgaas/pci
-Date: Mon, 07 Nov 2022 21:36:19 -0000
-Message-Id: <166785697933.14841.16862028296770633424@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/lsm
+Date: Mon, 07 Nov 2022 22:44:22 -0000
+Message-Id: <166786106276.27972.8409875554413390243@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/helgaas/pci
-user: helgaas
+repo: pub/scm/linux/kernel/git/pcmoore/lsm
+user: pcmoore
 changes:
-  - ref: refs/heads/pci/enumeration
-    old: a009d44bb8129bbad6de73bdaceef6e63f7eca4f
-    new: 44e985938e85503d0a69ec538e15fd33c1a4df05
-    log: |
-         503fa23614dc95f96af883a8e2e873d5c6cd53d8 PCI: Access Link 2 registers only for devices with Links
-         44e985938e85503d0a69ec538e15fd33c1a4df05 Revert "PCI: Clear PCI_STATUS when setting up device"
-         
+  - ref: refs/tags/lsm-pr-20221107
+    old: 0000000000000000000000000000000000000000
+    new: b54b589a2489c127971b78f8691e2968e946c48d
