@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/westeri/thunderbolt
-Date: Mon, 07 Nov 2022 12:38:36 -0000
-Message-Id: <166782471657.17439.17978624886829672583@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mani/mhi
+Date: Mon, 07 Nov 2022 12:39:13 -0000
+Message-Id: <166782475350.17746.15616092921277739179@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/westeri/thunderbolt
-user: westeri
+repo: pub/scm/linux/kernel/git/mani/mhi
+user: mani
 changes:
-  - ref: refs/heads/next
-    old: 2ae18cc2269fc2d05d36bf44a8daa4404fa11dde
-    new: a5cfc9d65879c0d377f732531a2e80ee3a9eebbc
+  - ref: refs/heads/mhi-next
+    old: 1d96c542b29129abbee819f355a1facbee07626e
+    new: 46af287cd5d7de316f1afd7966b27fc4369c6c35
     log: |
-         a5cfc9d65879c0d377f732531a2e80ee3a9eebbc thunderbolt: Add wake on connect/disconnect on USB4 ports
+         46af287cd5d7de316f1afd7966b27fc4369c6c35 bus: mhi: host: pci_generic: add support for sc8280xp-crd SDX55 variant
          
