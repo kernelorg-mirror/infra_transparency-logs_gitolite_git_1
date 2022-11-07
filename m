@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mark/linux
-Date: Mon, 07 Nov 2022 11:39:18 -0000
-Message-Id: <166782115883.5914.14441074486160605699@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/crng/random
+Date: Mon, 07 Nov 2022 11:48:17 -0000
+Message-Id: <166782169764.12123.7868321076884970186@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mark/linux
-user: mark
+repo: pub/scm/linux/kernel/git/crng/random
+user: zx2c4
 changes:
-  - ref: refs/heads/arm_pmu/acpi/rework
-    old: 7ddc996c5b5e658d338393f1e27a3ed9cf004038
-    new: cf2df374031fd59fd5732d91c862b1e018aa17fa
+  - ref: refs/heads/master
+    old: bf874aafe1a9f0e521ac7acde0c378285b333775
+    new: e0a37003ff0beed62e85a00e313b21764c5f1d4f
     log: |
-         a19a8d9727774709d818cd8222fc361b786e862b arm_pmu: acpi: factor out PMU<->CPU association
-         47d5406811d2451d34be6330ca76fd5a13a0a897 arm_pmu: factor out PMU matching
-         cf2df374031fd59fd5732d91c862b1e018aa17fa arm_pmu: rework ACPI probing
+         e0a37003ff0beed62e85a00e313b21764c5f1d4f hw_random: use add_hwgenerator_randomness() for early entropy
          
