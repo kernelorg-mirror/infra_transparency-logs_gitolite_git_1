@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mani/mhi
-Date: Mon, 07 Nov 2022 13:52:47 -0000
-Message-Id: <166782916708.5301.13040320239023584436@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Mon, 07 Nov 2022 13:55:18 -0000
+Message-Id: <166782931874.9008.10809879473492722274@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mani/mhi
-user: mani
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: hansg
 changes:
-  - ref: refs/heads/mhi-next
-    old: 46af287cd5d7de316f1afd7966b27fc4369c6c35
-    new: d8425a8c3a8419dd505016951dd6393f21fb394e
+  - ref: refs/heads/review-hans
+    old: 8c5ca17c3a7966f2e2828944fe4ce2992f3d16fa
+    new: 92df53906b4aee1dc2eba391859428f62c19a286
     log: |
-         d8425a8c3a8419dd505016951dd6393f21fb394e bus: mhi: host: pci_generic: Add HP variant of T99W175
+         92df53906b4aee1dc2eba391859428f62c19a286 platform/x86: Move existing HP drivers to a new hp subdir
          
