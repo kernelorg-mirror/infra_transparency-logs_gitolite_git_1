@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Mon, 07 Nov 2022 09:31:53 -0000
-Message-Id: <166781351308.31964.5593211618129872755@gitolite.kernel.org>
+Date: Mon, 07 Nov 2022 09:33:37 -0000
+Message-Id: <166781361770.32671.78497201249661605@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net
 user: davem
 changes:
   - ref: refs/heads/master
-    old: b7cbc6740bd6ad5d43345a2504f7e4beff0d709f
-    new: 531705a765493655472c993627106e19f7e5a6d2
+    old: 531705a765493655472c993627106e19f7e5a6d2
+    new: 85cbaf032d3cd9f595152625eda5d4ecb1d6d78d
     log: |
-         531705a765493655472c993627106e19f7e5a6d2 net: lapbether: fix issue of dev reference count leakage in lapbeth_device_event()
+         85cbaf032d3cd9f595152625eda5d4ecb1d6d78d hamradio: fix issue of dev reference count leakage in bpq_device_event()
          
