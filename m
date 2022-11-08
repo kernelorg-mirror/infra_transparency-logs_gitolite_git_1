@@ -1,67 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============2849664874108941750=="
+Content-Type: multipart/mixed; boundary="===============8598492969106321361=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Tue, 08 Nov 2022 18:35:05 -0000
-Message-Id: <166793250513.21833.16303928013779556047@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Tue, 08 Nov 2022 18:38:38 -0000
+Message-Id: <166793271875.23110.16560299726103084629@gitolite.kernel.org>
 
---===============2849664874108941750==
+--===============8598492969106321361==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/net-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/gregkh/usb
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/dev-queue
-    old: 1af9c7f81ffbd409ce60f9ebf095770286c8c62b
-    new: 30fad01aac8c17483f8203b4ea0f0aebb75d8918
-    log: revlist-1af9c7f81ffb-30fad01aac8c.txt
+  - ref: refs/heads/usb-linus
+    old: 6d8fc203b28ff8f6115fbe5eaf584de8b824f4fa
+    new: d68cc25b7c7fb3034c5a5b5f350a0b858c6d5a45
+    log: |
+         d68cc25b7c7fb3034c5a5b5f350a0b858c6d5a45 usb: dwc3: Do not get extcon device when usb-role-switch is used
+         
 
---===============2849664874108941750==
+--===============8598492969106321361==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1af9c7f81ffb-30fad01aac8c.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-b4c66425771ddb910316c7b4cd7fa0614098ec45 bnxt_en: refactor bnxt_cancel_reservations()
-0cf736a18a1e804037839bd8df9e36f0efdb8745 bnxt_en: fix the handling of PCIE-AER
-6d81ea3765dfa6c8a20822613c81edad1c4a16a0 bnxt_en: Fix possible crash in bnxt_hwrm_set_coal()
-02597d39145bb0aa81d04bf39b6a913ce9a9d465 bnxt_en: fix potentially incorrect return value for ndo_rx_flow_steer
-c3812c958cbf700939a9590af543ebb08b2fe5e4 Merge branch 'bnxt_en-bug-fixes'
-b7cbc6740bd6ad5d43345a2504f7e4beff0d709f net: fman: Unregister ethernet device on removal
-531705a765493655472c993627106e19f7e5a6d2 net: lapbether: fix issue of dev reference count leakage in lapbeth_device_event()
-85cbaf032d3cd9f595152625eda5d4ecb1d6d78d hamradio: fix issue of dev reference count leakage in bpq_device_event()
-f25caaca424703d5a0607310f0452f978f1f78d9 net: wwan: iosm: fix memory leak in ipc_wwan_dellink
-668205b9c9f94d5ed6ab00cce9a46a654c2b5d16 net: wwan: mhi: fix memory leak in mhi_mbim_dellink
-f9027f88f7d1dc2b0ed1afbf28f22992d72d7efe net: wwan: iosm: Remove unnecessary if_mutex lock
-0c175da7b0378445f5ef53904247cfbfb87e0b78 tcp: prohibit TCP_REPAIR_OPTIONS if data was already sent
-c23fb2c82267638f9d206cb96bb93e1f93ad7828 ipv6: addrlabel: fix infoleak when sending struct ifaddrlblmsg to network
-ed4314f7729714d788698ade4f9905ee5378ebc0 net: stmmac: dwmac-meson8b: fix meson8b_devm_clk_prepare_enable()
-ec683f02a150b9c4428f08accd387c8c216ea0e5 dt-bindings: net: tsnep: Fix typo on generic nvmem property
-02f5999e652952d69c341a03d4313310703fd7f1 octeontx2-pf: fix build error when CONFIG_OCTEONTX2_PF=y
-8d820bc9d12b8beebca836cceaf2bbe68216c2f8 net: broadcom: Fix BCMGENET Kconfig
-1c075b192fe41030457cd4a5f7dea730412bca40 tipc: fix the msg->req tlv len check in tipc_nl_compat_name_table_dump_header
-9f0b773210c27a8f5d98ddb2fc4ba60a42a3285f sctp: remove the unnecessary sinfo_stream check in sctp_prsctp_prune_unsent
-2f201ae14ae0f91dbf1cffea7bb1e29e81d4d108 sctp: clear out_curr if all frag chunks of current msg are pruned
-89bbe785b4d196cc3d00056adc58da8484a824a1 Merge branch 'sctp-fix-a-null-pointer-dereference-in-sctp_sched_dequeue_common'
-3faf7e14ec0c3462c2d747fa6793b8645d1391df net: lapbether: fix issue of invalid opcode in lapbeth_open()
-b0c09c7f08c2467b2089bdf4adb2fbbc2464f4a8 net: ethernet: mtk-star-emac: disable napi when connect and start PHY failed in mtk_star_enable()
-f0dfc4c88ef39be0ba736aa0ce6119263fc19aeb octeontx2-pf: Fix SQE threshold checking
-ce9e57feeed81d17d5e80ed86f516ff0d39c3867 drivers: net: xgene: disable napi when register irq failed in xgene_enet_open()
-9299e50064009d34f329760f1af60c6039299464 ice: Fix spurious interrupt during removal of trusted VF
-c33359b60335e7b2f8fe88521c6ff4527b994d85 i40e: Fix failure message when XDP is configured in TX only mode
-4b9280b3ed35bfa801321d79a5c44ae39b35df09 i40e: fix xdp_redirect logs error message when testing with MTU=1500
-24ca09dfd0ed0f2053d22d8873c5877bda436e6c iavf: Fix VF driver counting VLAN 0 filters
-c5e742cea20291d61cfefd6fc212837dbbe9345b i40e: Fix not setting default xps_cpus after reset
-12ca873e447c7abba31b2113a9631088980ced29 e1000e: Fix TX dispatch condition
-87a82defd196fc29084bf839e4500536f09459cb i40e: Fix for VF MAC address 0
-2002146dff2e0405ff8fc6803add9ebaaf46ae9a ice: Create a separate kthread to handle ptp extts work
-73c356d457340beb07a50453b6374ab260dbafb6 ice: use int for n_per_out loop
-5a5e341412cdb358e951c1c6bcb26cf8e4c82748 iavf: Fix shutdown pci callback to match the remove one
-2547170d892d179c6cfe34b09a66a9be8bf2b851 iavf: Fix race condition between iavf_shutdown and iavf_remove
-30fad01aac8c17483f8203b4ea0f0aebb75d8918 ice: fix handling of burst Tx timestamps
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1667932716 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1667932715-0e3085db2f95f4123c211662cf05f2844c3c765a
 
---===============2849664874108941750==--
+6d8fc203b28ff8f6115fbe5eaf584de8b824f4fa d68cc25b7c7fb3034c5a5b5f350a0b858c6d5a45 refs/heads/usb-linus
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmNqoiwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+zbcP/A3iHvq5ac2Hf/JyhxdT
+C9lJYiEBN0uL1h2mFC6HRS807CM/NHmANLa/G0wI52E1iuTMvoQlLdsH5n6/KaiD
+wdtXuTJHz8UDgWHErq7+IeKPdFA6kezkh6Y2rL+LPGn9H/9mJNXBTae6/ZwoBhRm
+BqxyV0bnYYw49w5ABlgaf1uQ3REzYHZFR0CX/f4E6orE6LbB1Qfj1ew8sOkwRmRU
+2114iY6+DLvmB4gJz5Bn70uZkscOEoTmfY788E0wWQU2lxCLlfSBO8/wPaBzJDFT
+/tG6lU0UyzkLNVwQH9LBMMj+wuJ24m+eHpy3IjWbqweJiLXgxVnGFLyoqfQu9NcM
+cxFHxO0yqqrbdLGiYV+m/LiVHKbdrBJjGF2gMlEJSf/DKGdyP+Yk9XPAdrqmFIaF
+cqL4o9krWfYIZXDfgBkLKxX1rKcbs5YBYXyq2C1JLZDoaAo5DiYGoXtiQ53lLz3N
+6zCrFhsnchGDo8vo3xqtmXE7ukXh65W4D/JpC6qoYQ8mjNSqGEUMcn9gH5pGAaMj
+R1dxQops8ScIgIy3eG+P+luaj0V2B2eVuW4FW8xK5hMIn5Fu+/ws7sgglj+IwTMc
+Gp9TbrmCxZ8h+eCGGbVEwASiB08mmrmxO/LTIdTzuZfefbvDu1710RYTXjuaG8z4
+pEXyiy/IHoHkW2L/2iA/O7M+
+=ve6Y
+-----END PGP SIGNATURE-----
+
+--===============8598492969106321361==--
