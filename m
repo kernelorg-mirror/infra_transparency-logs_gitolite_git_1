@@ -1,56 +1,44 @@
-Content-Type: multipart/mixed; boundary="===============5947286395270247949=="
+Content-Type: multipart/mixed; boundary="===============5895535790604525132=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Tue, 08 Nov 2022 15:09:52 -0000
-Message-Id: <166792019241.3697.8871258364326362925@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
+Date: Tue, 08 Nov 2022 15:10:56 -0000
+Message-Id: <166792025675.5665.710835801111713032@gitolite.kernel.org>
 
---===============5947286395270247949==
+--===============5895535790604525132==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/tty
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/sudeep.holla/linux
+user: sudeep.holla
 changes:
-  - ref: refs/heads/tty-next
-    old: 15730dc45dc7432713c7af9ee5abad76872f6405
-    new: 5c30f3e4a6e67c88c979ad30554bf4ef9b24fbd0
-    log: |
-         5c30f3e4a6e67c88c979ad30554bf4ef9b24fbd0 tty: Move TIOCSTI toggle variable before kerndoc
-         
+  - ref: refs/heads/for-next/scmi
+    old: 729371745c53b7faf5408a5900aca7a3b9eec522
+    new: 6196d1f96c18ccf9bfc5085a8efd7f15adb0d5fd
+    log: revlist-729371745c53-6196d1f96c18.txt
 
---===============5947286395270247949==
+--===============5895535790604525132==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-729371745c53-6196d1f96c18.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1667920191 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1667920191-560130a55af2ce6ee381e2f68e609a87ac4fae61
+702fe8d26aefb87618663c124d0d59d59b7fd022 firmware: arm_scmi: Refactor xfer in-flight registration routines
+04baad9a6702b96f0a616651f3e64a8de3c85dc8 firmware: arm_scmi: Simplify chan_available transport operation
+fd5b999babf4f5c9575c4cb6691332efab4859f6 firmware: arm_scmi: Use dedicated devices to initialize channels
+d1b862597338da59eb6515a4293ec6c298318186 firmware: arm_scmi: Refactor polling helpers
+0742136d9b57a8e13e1919d487e511e08d41d692 firmware: arm_scmi: Refactor scmi_wait_for_message_response
+165865919088fdc1e264cd97dc178b10bbb2cfcc firmware: arm_scmi: Add is_raw flag to xfer
+a68716b37c8c98ad9ca14f679a6eb99f8dd46c19 firmware: arm_scmi: Add xfer Raw helpers
+9189fe8bfb9899c59f926a6f4ffbf029808ed518 firmware: arm_scmi: Move errors defs and code to common.h
+4ccdc880f1bb815f3450da18de512f982042f21f firmware: arm_scmi: Add core Raw transmission support
+062185cb80d1b4f5b4432cb9326acab964246950 firmware: arm_scmi: Add debugfs ABI documentation for Raw mode
+1518954311393439f957cbbb985a546cf50b643b firmware: arm_scmi: Reject SCMI drivers while in Raw mode
+f58378fdc959f2386f2cad3537243d915d21e725 firmware: arm_scmi: Create Raw debugfs root dentry
+66fa57a052cb8fcbff344a40aa878700dd72d4cd firmware: arm_scmi: Call Raw mode hooks from the core stack
+6196d1f96c18ccf9bfc5085a8efd7f15adb0d5fd firmware: arm_scmi: Add Raw mode coexistence support
 
-15730dc45dc7432713c7af9ee5abad76872f6405 5c30f3e4a6e67c88c979ad30554bf4ef9b24fbd0 refs/heads/tty-next
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmNqcT8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+WRkP/RfNssvnEkLgY6RUyOYy
-cwNQYZk93IJ50Dk8w+oSSWnDKqD5Pj7jM9Ic+djUGK+tQDhIBDYKSOgp7nKmavLk
-ejT/447klcukxw/Y/YQ2T8hiAl+wDeOu8BIJVIYBPjNp0C5QKZE/I618SJZL7XgT
-htIOHouaVW3pQJMFTXRyC+6Ih8DQC7B9dY7pdGHfHJn9BqnElBxx/MU7fvP/283H
-us+Wo9JLYhVGU80ojoS7aiTVruGJEO2hy32nGAs/ctODkp5+Vrd+72l76Yy9OBbI
-KU4PssPAmW4VNHDVoxmxT/gvwyaAV6uj2C7rh0Z62lPKRSvDNuxEaEv5IiR34Utc
-BE04hpVg6PXbj6hUxYYDsblmz+hK16YttBFiKiYTIoHyzqiJZMz9b2qtmEQm68ZI
-2QWTp8+NDgB8WbdTCCc6ocfTb9L8Wr0d3XmExrO3A72KTyrq+qCDZUSfavRr5AdI
-yqStV3Pc0r9OrafWcjsSlTGjkPdQoaGqc9wfGIelQgOox/Yd4Ekco0PPEKMqasty
-kqdZoyEyEVG9F4kygY/0rG4EdiZgk6TzHTQIcz9g7JsTcOran4KP/zdUBUJTRFi3
-VJk+bpoxF9HrkAMS/gx02/moW5S/nevEaO3zS9nHrfwal2JeAdH7IuR4zzDAbb+U
-NKFcGi8Z9XrsyZN4OasT6C7/
-=71gx
------END PGP SIGNATURE-----
-
---===============5947286395270247949==--
+--===============5895535790604525132==--
