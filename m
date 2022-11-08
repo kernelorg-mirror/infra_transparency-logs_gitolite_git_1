@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0942666211068629214=="
+Content-Type: multipart/mixed; boundary="===============0166382382690048437=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 08 Nov 2022 18:38:59 -0000
-Message-Id: <166793273929.23332.2036921252077540257@gitolite.kernel.org>
+Date: Tue, 08 Nov 2022 18:39:12 -0000
+Message-Id: <166793275257.23489.2704798351464747685@gitolite.kernel.org>
 
---===============0942666211068629214==
+--===============0166382382690048437==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: 95ec6bce2a0bb7ec9c76fe5c2a9db3b9e62c950d
-    new: ee1bfbcc71cfac3b570365558cf38cb70f6ca971
-    log: revlist-95ec6bce2a0b-ee1bfbcc71cf.txt
+  - ref: refs/heads/dev-queue
+    old: 658a5d5bd35ada45560dbb360ad777ec1a4e0f70
+    new: 8012a4625364503925625fb826605c271e0c5011
+    log: revlist-658a5d5bd35a-8012a4625364.txt
 
---===============0942666211068629214==
+--===============0166382382690048437==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-95ec6bce2a0b-ee1bfbcc71cf.txt
+Content-Disposition: attachment; filename=revlist-658a5d5bd35a-8012a4625364.txt
 
 864f88884c42c838e2ca6473b9003e0f34d7fd15 ixgbe: change MAX_RXD/MAX_TXD based on adapter type
 6a6f9e3e03aec34fa0eb3c3efca6da777c57187a ixgbe: Remove local variable
@@ -95,5 +95,55 @@ b2140e971309511074933da3edd5bbfcb6d394e5 Merge branch 'net-add-helper-support-in
 98a4322b70e817f0663adb61b8272f7b995ed41a bnxt_en: update RSS config using difference algorithm
 85036aee1938d65da4be6ae1bc7e5e7e30b567b9 bnxt_en: Add a non-real time mode to access NIC clock
 ee1bfbcc71cfac3b570365558cf38cb70f6ca971 Merge branch 'bnxt_en-updates'
+fc896b48e446d4d762f5e78fdee44a4fa594616e ice: Add 'Execute Pending LLDP MIB' Admin Queue command
+fae0f2ba7dbf74f918d5a566fc6ae1c469835202 ice: Handle LLDP MIB Pending change
+881cad359abe05b305615f140b3e912d9a47b510 ice: Support 5 layer topology
+c307edad55aa2d003b4b1483e0df8d3bc3cd064a ice: Adjust the VSI/Aggregator layers
+8b326b27d720f4a2a41eefbeeade9e4f8c528c3d ice: Enable switching default tx scheduler topology
+96048464570184766cfb17aace04844db34e1e5a ice: Add txbalancing devlink param
+bf210231267a942714e3f546b352dedc86f25ec3 ice: Document txbalancing parameter
+b402e2805a739242f23f72184044ecdfc920566a ice: Add GPIO pin support for E823 products
+e69325caf540cc46cdffcf1cb2ec630d1cbe6a49 ice: Add crosstimestamping on E823 devices
+fec984ad038f6246b884e011d5a0b7648cbb4cd3 ice: Fix spurious interrupt during removal of trusted VF
+3cb4184f17934c466015f09971956e6f00833712 i40e: Fix failure message when XDP is configured in TX only mode
+d5d464804630fcc5a7ba04c2a779805ba0fc5190 i40e: fix xdp_redirect logs error message when testing with MTU=1500
+d0145567f11cb665f5143034c184abf09588c512 iavf: Fix VF driver counting VLAN 0 filters
+654a03a80dd55e17bbd424455ad049df02ec1303 ice: Check for PTP HW lock more frequently
+98ea4be69205255a8945dfd9ea94a41351af88be ice: Remove gettime HW semaphore
+7e3e2b0a66945008c00f2ec8c5512c5475bc436f i40e: Fix not setting default xps_cpus after reset
+c91a6fa2bbcf8a14f3d348701befd9d6ec84b208 e1000e: Fix TX dispatch condition
+ee6935b74d1d944c6bfa141e6a99242338ade715 ice: Accumulate HW and Netdev statistics over reset
+a2fb9f6ae8270f8ff48a52282badeb2604e497a7 ice: Accumulate ring statistics over reset
+13a7a78c257e1fb0692d0784de3ff77a7a6b810a iavf: check that state transitions happen under lock
+77889775ddfdda36efff7f3c0130cbceb103cd5c ice: Fix off by one in ice_tc_forward_to_queue()
+e2a0bb7afc011e1af4aa2b5f7d7dbf7a866f7d8d i40e: Fix for VF MAC address 0
+70c519ce404301f80ffb392854aaf4e137074bda ice: Remove and replace ice speed defines with ethtool.h versions
+02f35e9db9a2ba10dfb45df34fd4d9911faa3a48 igc: Use strict cycles for Qbv scheduling
+c59183c02e5affd9121c9964fb63d046ebd9a913 ice: Create a separate kthread to handle ptp extts work
+9ff27410f5bc7272e21447c9964a7b6f3769ebec ice: use int for n_per_out loop
+291e709db20e6026b523367c7e829df5f297f3ef iavf: Fix shutdown pci callback to match the remove one
+695f66509b1e23c281002c778a95ece4abe6e8a6 iavf: Fix race condition between iavf_shutdown and iavf_remove
+9e2689f3178a10865520890bc207080d61ed80c7 ice: fix handling of burst Tx timestamps
+81388dcebf11753ea51c5dbe5fbdbff5e75f47ed ice: Use more generic names for ice_ptp_tx fields
+f7a0070d01943a38982b88d358b5e9679f6882d2 ice: Remove the E822 vernier "bypass" logic
+82f5a65ccbcf29ed5feb3648a22fbf1fa085eba1 ice: Reset TS memory for all quads
+6408382fa8ea46801c5715456b069ca4cb4d077a ice: fix misuse of "link err" with "link status"
+9f26131336bf71fc9914299f32cc91e60616655c ice: always call ice_ptp_link_change and make it void
+eca8942bbe25cb4b0f58c8e39234678239bea5b3 ice: handle discarding old Tx requests in ice_ptp_tx_tstamp
+f62df0fbe9353a35e60ef982180695046b98ea79 ice: check Tx timestamp memory register for ready timestamps
+988270864bc6702462e5a8493551dc0535dc9af6 ice: protect init and calibrating fields with spinlock
+29f357f123f7ac138a7e26b16c736bed39171164 ice: disable Tx timestamps while link is down
+579284f84385ff190733a53b6637a92c1ca34e22 ice: cleanup allocations in ice_ptp_alloc_tx_tracker
+27052399142ec4b40bc223334ee4f0bb64d3a25a ice: handle flushing stale Tx timestamps in ice_ptp_tx_tstamp
+dc7b4f000fc77ccebfcb6f1eeb4553f0bb21f3d8 ice: only check set bits in ice_ptp_flush_tx_tracker
+96e1148d7ae313ec1b66a959b56d9aae270f77ac ice: make Tx and Rx vernier offset calibration independent
+e707e04731c4dd9be4ab38ab78da871836d083ee ice: reschedule ice_ptp_wait_for_offset_valid during reset
+d32dbd8f4273eb0793239b700ec3e87968e5d588 igc: Add checking for basetime less than zero
+396565a055102c9bdf144239a8529dbc80c6ffe9 igc: allow BaseTime 0 enrollment for Qbv
+142ce88ce085e3a3b9e72b9c6b489893dd98b9d2 igc: remove I226 Qbv BaseTime restriction
+8ce8517b958700e6254764a81fcc32cc973ca093 igc: recalculate Qbv end_time by considering cycle time
+388ed25a0d6837be3d72c408663bebb587156a34 igc: enable Qbv configuration for 2nd GCL
+de285cbd60a6e3492e54c90e7823de0911793056 igc: Set Qbv start_time and end_time to end_time if not being configured in GCL
+8012a4625364503925625fb826605c271e0c5011 igc: Enhance Qbv scheduling by using first flag bit
 
---===============0942666211068629214==--
+--===============0166382382690048437==--
