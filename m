@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
-Date: Tue, 08 Nov 2022 00:08:59 -0000
-Message-Id: <166786613966.23204.11075028084272351598@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
+Date: Tue, 08 Nov 2022 00:26:37 -0000
+Message-Id: <166786719794.4375.2101197125279357399@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf
-user: martin.lau
+repo: pub/scm/linux/kernel/git/sj/linux
+user: sj
 changes:
-  - ref: refs/heads/master
-    old: c86df29d11dfba27c0a1f5039cd6fe387fbf4239
-    new: a679120edfcf3d63f066f53afd425d51b480e533
-    log: |
-         a679120edfcf3d63f066f53afd425d51b480e533 bpf: Add explicit cast to 'void *' for __BPF_DISPATCHER_UPDATE()
-         
+  - ref: refs/tags/damon/next-2022-11-08-00-26-on-v6.1.0-rc4-mm-unstable
+    old: 0000000000000000000000000000000000000000
+    new: d585f2f61643fb6acb984ae1ab9edecbf84164f2
