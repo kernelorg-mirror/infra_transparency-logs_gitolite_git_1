@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6163491285848880283=="
+Content-Type: multipart/mixed; boundary="===============0459997003928955190=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netfilter/nf
-Date: Tue, 08 Nov 2022 22:11:45 -0000
-Message-Id: <166794550594.12055.17942439581685955583@gitolite.kernel.org>
+Date: Tue, 08 Nov 2022 22:17:32 -0000
+Message-Id: <166794585228.15656.1104852058892602359@gitolite.kernel.org>
 
---===============6163491285848880283==
+--===============0459997003928955190==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/netfilter/nf
 user: fwestphal
 changes:
-  - ref: refs/heads/master
-    old: 715aee0fde73d5ebac58e2339cef14f2da42e9e3
-    new: ce9e57feeed81d17d5e80ed86f516ff0d39c3867
-    log: revlist-715aee0fde73-ce9e57feeed8.txt
+  - ref: refs/heads/testing
+    old: 3d9f39fd51be55850745344428760e09d42f3d2c
+    new: 03c1f1ef1584c981935fab2fa0c45d3e43e2c235
+    log: revlist-3d9f39fd51be-03c1f1ef1584.txt
 
---===============6163491285848880283==
+--===============0459997003928955190==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-715aee0fde73-ce9e57feeed8.txt
+Content-Disposition: attachment; filename=revlist-3d9f39fd51be-03c1f1ef1584.txt
 
 084b9e1732f71e36c21a820162c9f601577932c6 drm/msm/gem: Unpin objects slightly later
 ec8f1813bf8d0737898f99a8c1c69df0cde0d7dd drm/msm/a6xx: Replace kcalloc() with kvzalloc()
@@ -465,5 +465,7 @@ ec683f02a150b9c4428f08accd387c8c216ea0e5 dt-bindings: net: tsnep: Fix typo on ge
 b0c09c7f08c2467b2089bdf4adb2fbbc2464f4a8 net: ethernet: mtk-star-emac: disable napi when connect and start PHY failed in mtk_star_enable()
 f0dfc4c88ef39be0ba736aa0ce6119263fc19aeb octeontx2-pf: Fix SQE threshold checking
 ce9e57feeed81d17d5e80ed86f516ff0d39c3867 drivers: net: xgene: disable napi when register irq failed in xgene_enet_open()
+03832a32bf8ff0a8305d94ddd3979835a807248f netfilter: nfnetlink: fix potential dead lock in nfnetlink_rcv_msg()
+03c1f1ef1584c981935fab2fa0c45d3e43e2c235 netfilter: Cleanup nft_net->module_list from nf_tables_exit_net()
 
---===============6163491285848880283==--
+--===============0459997003928955190==--
