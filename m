@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9002442700896814368=="
+Content-Type: multipart/mixed; boundary="===============9104807791025582389=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 08 Nov 2022 03:57:23 -0000
-Message-Id: <166787984342.28609.6995274734992763303@gitolite.kernel.org>
+Date: Tue, 08 Nov 2022 03:57:38 -0000
+Message-Id: <166787985800.28770.12105990812827620502@gitolite.kernel.org>
 
---===============9002442700896814368==
+--===============9104807791025582389==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-fixes
-    old: 5943ce73a7ab7745978550dda9e4345938ae0bcf
-    new: 95d45398fcec03954098b55e2090a490658373dc
+  - ref: refs/heads/6.1/scsi-fixes
+    old: 307539eed46395d27e0ecc0ae4d9d6e99eb15fcd
+    new: ecb8c2580d37dbb641451049376d80c8afaa387f
     log: |
          62fa3ce05d5d73c5eccc40b2db493f55fecfc446 scsi: ibmvfc: Avoid path failures during live migration
          5d7bebf2dfb0dc97aac1fbace0910e557ecdb16f scsi: scsi_transport_sas: Fix error handling in sas_phy_add()
          ecb8c2580d37dbb641451049376d80c8afaa387f scsi: scsi_debug: Make the READ CAPACITY response compliant with ZBC
          
 
---===============9002442700896814368==
+--===============9104807791025582389==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1667879825 -0500
+pusher 75C5DE3D 1667879847 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1667879825-bf9787f2940ff4289d240b918eff254388b7b6f8
+nonce 1667879847-e29b41fba51323b54f68c997eede3394219c9faa
 
-5943ce73a7ab7745978550dda9e4345938ae0bcf 95d45398fcec03954098b55e2090a490658373dc refs/tags/mkp-scsi-fixes
+307539eed46395d27e0ecc0ae4d9d6e99eb15fcd ecb8c2580d37dbb641451049376d80c8afaa387f refs/heads/6.1/scsi-fixes
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmNp05EACgkQ7ulgGnXF
-3j3oPg//fw7HIpgrnZJP6dLjkMH+YbEqlISJSV59Hx3Q/ucFmS7jzSK1szJu3Ep+
-EOm8hlmUMHhtQUCi73IqIvQS5tVvsXf7VFHI5hHToUxmP2RdeNLszA0t4S8vsy4z
-VeCgeoAE28qsQ97aaBYKwgFjJ4Bcxa4+bDkuWE+XQgdMzU6Sv4meXq22nTMbMwPC
-dbSf+uFzkzN3gMrYbj5THmFJln6KDKh0VuN4nClA79hVmjKgWr1Mgc9iS4uH1aKt
-3ruPQ5RDLZNsaZ6zVUvrU+pj/WnU1gxH6sNsdeXqLEkHkc2nqppnFgeLwcsPepZM
-HVMtAOIGh5X0JqH9NqhUBVJulXqRsMfJou4HVzD+wrQoLhrnrR3OoMuQ7Ve16jZ7
-rVCWikKLcN2O+CKyxTC1PpBhRiCf1CyFhTEmwPDeqTAFf7WWoxI0OIsfspisnZWB
-q93qWNOD5YsRI1075gt1qTS0/y++h/VlNgs0FmlqwE8I6ZNAuMIpMkaPsnGI2Xce
-++tIgBfDjpRRX+qutFyyqMdUSUPmwE+QWdd2fbJuRdII7Lg6ZKYdOV94JI+55YhX
-2bjz1unUgz8jQrsHVc3UrtIqy+e5X9DbjUPy2sSpQ4gJJbSwcviF2P4m/ipQXo9y
-ViU5xisBsUvlobNDUYCqC/l0rmTwFImUohWDb9UM867OTMpBs0Q=
-=g6O8
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmNp06cACgkQ7ulgGnXF
+3j1w4Q//fUiV8BOASwbzlmxEvgOwNjxqA7LJlsviLrQa28dKOogIbq1otnzgndF2
+llL711ku9GWc/Mo7cOTiunhUY2sMZDFVN3qdAglHPW1X65/NI05jOMdbLoNzuzPl
+c3NRv57Q5kYPX3yYRfBOg4TU6UHcZ7I0mRf3F3tuEnlHRwSZiiZaRm9iGdVLy229
+B+qYQ8cLsE2mMFYiM/+IkQfbUl1P2lcQW+zkUkHkGtxeQAea7MOi/zhh7cNBkf80
+bm1ya2nGli0MkLQO4elaMMUAZ/ydDeIlwBFMUte+5dQSqUEA1R5cDLqfl/dM4iCC
+SINFi0UMi7blpXRtj8I4pZIOSL1l+8eVwQ+YUNFneAEOMJkFrEdUDWLiqb/fUHOg
+2wSJBtMFLoDEfO/Su+Iqy9wjGX2Sxbh1/GTDrYmENJU+zrF/DR7uobo3aDLam5a0
+tZvpvTJQ0FXyyjfau9xbszf+EwEBiBZ/6Wdlts2looH2aDQ9DCPbl84urLgE1fwn
+lYwxNl5/pLTwVp0yUNrf0/OEPl5BM2Kte4B3mGZQWSScFtiSsPTZX+RNYiZIoNh9
+rAriANduOryo8thDpSl9tnn3TyB3Yab+EoqtfzqAa407VjRX+4ic2y6WcyOG7NdH
+uF1/etrE2FEVSjWqilbgIbHy8KNN6CfeERf10NWhcmPhZqlZjy8=
+=K59M
 -----END PGP SIGNATURE-----
 
---===============9002442700896814368==--
+--===============9104807791025582389==--
