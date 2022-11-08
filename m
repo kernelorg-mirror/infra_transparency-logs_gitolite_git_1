@@ -1,43 +1,31 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/virt/kvm/mst/qemu
-Date: Tue, 08 Nov 2022 06:21:20 -0000
-Message-Id: <166788848023.835.7566517090880602874@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
+Date: Tue, 08 Nov 2022 06:47:05 -0000
+Message-Id: <166789002567.18698.955295431104811440@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/virt/kvm/mst/qemu
-user: mst
+repo: pub/scm/linux/kernel/git/xiang/erofs
+user: xiang
 changes:
-  - ref: refs/heads/next
-    old: 1ef47f40dce3d5b176ddf76d57b5bfa2efb0b3c6
-    new: 5e75ffd664258d3d2fd3d27e92e2748024f53bca
+  - ref: refs/heads/dev-test
+    old: 2315d9f002ea34cde5056023fb734d43fa46c449
+    new: 9473d22fbfca38a12d7182ca91a0a8bc193a72bf
     log: |
-         5e75ffd664258d3d2fd3d27e92e2748024f53bca checkpatch: better pattern for inline comments
+         e5126de138caef0eedb3d6431059c0c5581a1a5d erofs: fix general protection fault when reading fragment
+         75e43355cbe4d5948a79bd592f2ffecb9f75f75d erofs: put metabuf in error path in fscache mode
+         e6d9f9ba111b56154f1b1120252aff269cebd49c erofs: get correct count for unmapped range in fscache mode
+         9473d22fbfca38a12d7182ca91a0a8bc193a72bf erofs: fix use-after-free of fsid and domain_id string
          
-  - ref: refs/heads/pci
-    old: 1ef47f40dce3d5b176ddf76d57b5bfa2efb0b3c6
-    new: 5e75ffd664258d3d2fd3d27e92e2748024f53bca
+  - ref: refs/heads/fixes
+    old: 2315d9f002ea34cde5056023fb734d43fa46c449
+    new: 9473d22fbfca38a12d7182ca91a0a8bc193a72bf
     log: |
-         5e75ffd664258d3d2fd3d27e92e2748024f53bca checkpatch: better pattern for inline comments
-         
-  - ref: refs/tags/for_autotest
-    old: 2b1537372b5f942eb7aeab3238bae878af7483aa
-    new: ddaedf9e04cd372ae726a76b84ceb3666adc8a1e
-    log: |
-         5e75ffd664258d3d2fd3d27e92e2748024f53bca checkpatch: better pattern for inline comments
-         
-  - ref: refs/tags/for_autotest_next
-    old: 2b1537372b5f942eb7aeab3238bae878af7483aa
-    new: ddaedf9e04cd372ae726a76b84ceb3666adc8a1e
-    log: |
-         5e75ffd664258d3d2fd3d27e92e2748024f53bca checkpatch: better pattern for inline comments
-         
-  - ref: refs/tags/for_upstream
-    old: 2b1537372b5f942eb7aeab3238bae878af7483aa
-    new: ddaedf9e04cd372ae726a76b84ceb3666adc8a1e
-    log: |
-         5e75ffd664258d3d2fd3d27e92e2748024f53bca checkpatch: better pattern for inline comments
+         e5126de138caef0eedb3d6431059c0c5581a1a5d erofs: fix general protection fault when reading fragment
+         75e43355cbe4d5948a79bd592f2ffecb9f75f75d erofs: put metabuf in error path in fscache mode
+         e6d9f9ba111b56154f1b1120252aff269cebd49c erofs: get correct count for unmapped range in fscache mode
+         9473d22fbfca38a12d7182ca91a0a8bc193a72bf erofs: fix use-after-free of fsid and domain_id string
          
