@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3155243002046848152=="
+Content-Type: multipart/mixed; boundary="===============2327626125819166491=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Tue, 08 Nov 2022 15:40:20 -0000
-Message-Id: <166792202046.26556.12695699593383997021@gitolite.kernel.org>
+Date: Tue, 08 Nov 2022 15:45:47 -0000
+Message-Id: <166792234730.30063.12723367264769033802@gitolite.kernel.org>
 
---===============3155243002046848152==
+--===============2327626125819166491==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,42 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-linus
-    old: 30a0b95b1335e12efef89dd78518ed3e4a71a763
-    new: cd136706b4f925aa5d316642543babac90d45910
+    old: cd136706b4f925aa5d316642543babac90d45910
+    new: 341fd15e2e18c24d5c738496cfc3d7a272241201
     log: |
-         cd136706b4f925aa5d316642543babac90d45910 USB: bcma: Make GPIO explicitly optional
+         ffb9da4a04c69567bad717707b6fdfbc4c216ef4 usb: dwc3: gadget: Return -ESHUTDOWN on ep disable
+         5c294de36e7fb3e0cba0c4e1ef9a5f57bc080d0f Revert "usb: dwc3: disable USB core PHY management"
+         341fd15e2e18c24d5c738496cfc3d7a272241201 extcon: usbc-tusb320: Call the Type-C IRQ handler only if a port is registered
          
 
---===============3155243002046848152==
+--===============2327626125819166491==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1667922018 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1667922344 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1667922017-1266bb6b9f04c87728f0f14a5b127c667d1e9c61
+nonce 1667922343-19f01f62ee74d7b6876220079cf3645a206fd94b
 
-30a0b95b1335e12efef89dd78518ed3e4a71a763 cd136706b4f925aa5d316642543babac90d45910 refs/heads/usb-linus
+cd136706b4f925aa5d316642543babac90d45910 341fd15e2e18c24d5c738496cfc3d7a272241201 refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmNqeGIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+6+cQAJzpHsBvQ+uF5adh3bdN
-Xb8LdmO76ksr+c6b6uYdRw1zRP/kBBvSqJe1towmAbqyAATqsMaWv169k3Incwi2
-3uM4zQ6kzPdZpaYbhrkA7uyfYaFsxvUuGxCp1OtpNeKeXk8v8XycxZHoUrKdOZXu
-2QKqSMAXJKFr/YMGc9+VppykadELxjuTN6HXcnSjYskcGfe3UesBfrZ1tXI8UTH9
-kAQ0+r5Vi15CPeILXj9lfm8CT82OKgKrfukby5YiT9fD0u4SpSAxmqN09h59C9Gu
-s++Twb9T3YxMJ4LlIvEqilhcmwRIKPeXdXCJ3aKMpuOmVzgYJRI/Ztiltz20zZMd
-Bbbjk7VkbdyQCSRTyNQ1j/AcgVCub4rcikBMZMZo8ajc+tAL1iaicoSn72AgOP94
-I8QSQ12QMB2vT7wh4n04cIVPNfDpcLW3GTK6dCDyYchB4Y88j84S6kX/7DFETWFU
-dU3urbwVKJ1CUNstDUgBivJPMG5QAkNWkbGa2791slpkvs6VMSWSi8Gf1mH28YQj
-t4uecUHz2qPRc6BvzHLFomOjF4c+4ZFkudMa9mw9RZHTOR2VTCG8M7FLatd0WK3V
-AmVw68FjeQV1bM/skj82jONtz85husC6q7ytDc/XqjfGntvsw5MEtYfS09QP2ZJo
-cgndXayjo7nYEqEuazhhL7/K
-=XVwT
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmNqeagbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+lHQQAKFEuobMl6wP8Md5X3SB
+Xzm6UrgU7rNMbAs94vK0JmNJXrJpQcHEUrfsawR4xYsS7Gu+Jzyj1eZ76D8/YHJW
+woVfCtsqU6YkhuMFprcBpBULg+kYLcLJDX77+WFdKQMZxIH0upJpXv56R1RNEKEy
+5taQL/r9sQcR8JcRrUQ99K+ZU+YVchsNw6sOyIyKnAeBf4x7YifambbfuZpldYf9
+EEhIFZaNNJpwoyJ2EZ6Jhnejkp0yaxbwqdDXu1KD9wTE2Iwh3RUyBpK+hL3Kgb+f
+Cn3sXfZzfb1dIWf5yDjaH+yt+EuLm5SVHHC1xDLWC+GZ5feHuWuRK+jiQlAPOrT7
+gus7Or61VGW1EcD7tUxPg/Sx0Ck1aemaVeO9zx1u1mH05lZVT303XaXyc2BdugxI
+iIsJtZiOrdwBSdM+R6IhFN1ixCuAPjqhGkhX1/K57romFFc+UJt933Yx4lHFYzRo
+Ve5e26PYTFwNCwAkuhVAp15bOwWAJemuxcNmsQAm8CgRiq/kmakG3eLmsNS224/D
+h/AFkE+NlIBZkmx5JN9GuHITL+9xp+HlroVl2cipqWglmw1pbmgtJbtRCNKvqKsj
+icRK/xuvixIR8LZjMJ0RWufd7Q/JkHGxnV9g/STRlf0sTIECH5FmqqVm9UnYJ0L/
+0db9RrKLqvGIlyw8bUvvUk6I
+=OKtY
 -----END PGP SIGNATURE-----
 
---===============3155243002046848152==--
+--===============2327626125819166491==--
