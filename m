@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1152357943945854192=="
+Content-Type: multipart/mixed; boundary="===============6122783257490359299=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Tue, 08 Nov 2022 15:50:43 -0000
-Message-Id: <166792264387.1168.16816832283312678920@gitolite.kernel.org>
+Date: Tue, 08 Nov 2022 15:51:38 -0000
+Message-Id: <166792269808.1602.13880249968270296458@gitolite.kernel.org>
 
---===============1152357943945854192==
+--===============6122783257490359299==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-testing
-    old: 0ce0f9d0785a7ba5637a22b63332cf747772da2a
-    new: 430d57f53eb1cdbf9ba9bbd397317912b3cd2de5
+  - ref: refs/heads/usb-linus
+    old: 341fd15e2e18c24d5c738496cfc3d7a272241201
+    new: 6d8fc203b28ff8f6115fbe5eaf584de8b824f4fa
     log: |
-         04914233561377fc0369b984c9d19ec1b6ce2845 usb: dwc3: gadget: Reduce TRB IOC settings
-         430d57f53eb1cdbf9ba9bbd397317912b3cd2de5 usb: core: stop USB enumeration if too many retries
+         40bf8f162d0f95e0716e479d7db41443d931765c usb: typec: mux: Enter safe mode only when pins need to be reconfigured
+         6d8fc203b28ff8f6115fbe5eaf584de8b824f4fa usb: typec: tipd: Prevent uninitialized event{1,2} in IRQ handler
          
 
---===============1152357943945854192==
+--===============6122783257490359299==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1667922640 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1667922696 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1667922639-74bb37a5c551f9e8aeeb69873e53f5ab1c855ced
+nonce 1667922695-396f6011f9620068828e551e499951253b39d357
 
-0ce0f9d0785a7ba5637a22b63332cf747772da2a 430d57f53eb1cdbf9ba9bbd397317912b3cd2de5 refs/heads/usb-testing
+341fd15e2e18c24d5c738496cfc3d7a272241201 6d8fc203b28ff8f6115fbe5eaf584de8b824f4fa refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmNqetAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+uWQQAIWJW9FyJSq8Ky6U7aZZ
-bqQlABL4KqDTQpgDPCKRA1bmIrqnDm77F1W+xn3wEolW4CMbLW5MhDZ+B43IQnJv
-BHMCG5xSz+1QRtBNLpOy4nQmXBjrrTex3sBIUx8YT7bt9+/8ORxzdrNOblYhkRg/
-8tJcy1U6+JgNo5uTCj/GsvN69AL+ZpxPxcccbBA7/UPFjrXFMVh3ZUJf+xdiLrvb
-GN2mNsg7fxQhtMjBUBn7HhjG98cQSehw3uc6WQg8DTivq8JXm6t2Cy8sFaOe1kII
-LXA1nkw/+s56c3FJG0Yj5BbVm63ek8wBGNxmqwEeGGlerW8kjfkoLbLQJ2j0Dl1/
-voTKUITddxKfuU1F0DPVxptvKUCPP6kKeAojPM9YjJlvi/uDmiL1TMfhaOqI0yjS
-/SO3WSPH5wTwZGy9u2BYzrO1J3/zNH+XsfnvjNS2kk2SKZbhABHf8CtB8Kte7Yk8
-80AQ+jP7iR9NLhJ7X+rWNYt7DQfLqZ+95dCnaTqPOPYrnEOclraBhBAM58uhx4rJ
-F17ALXDY3+QYaLV8HlGhUe0aUhXFGXoQh5AxRO7gmFcrxQ2II2cVwO+l/nkNqh8v
-ZqqzUbbWQ8S7LIgJSiNT4cKwCZTj7DDaIxlqkbgQPjYDK97w3GJpZQnYTJOQG/hX
-OQo1HCk2jKeYu77c8Jv5h409
-=hKEF
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmNqewgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+or0P/RFVu7bSk7tecIvm0vrb
+UCc3gzf7Ns/a6jUU2Bfk0UlXpxNTtKtq9jM0ojP2h8mXPeTvpqpYR4lWMbEsoc4k
+jtddYnTmjXj7evShZoaepGwkCmX4+srJ/57Jo4lnIeHhKPCz/3pxqLj6ZQYnvfoy
+VGBi5VQfAV1DsQ6u4FjK7L8qxWW7eIt1Pof1G8DbyPTzI9KWw4EkikBAlheRgbnl
+CoKMpWZ8cS3RhC2SC7AtgAk9gib1VjGnI9J0yp2TnvrEko5l6GNrmw8/kqKskg27
+355CvNmRWPDzxs4wcOJWb4M5byXxOiUL6R7IDIlk+eoGMvfoWBiKFyirDzdL/OZB
+oMCgVtNhj1SK5DM7ouQvi/Ws8TEBAJYNWkwZakPbjTpLiXmtuuUDwx1klsmCdGfX
+PzmDN0sAMbtxFvCkHgSSV4Y8vQIffENyq6aQJOb9/J2SaJQfwcJEh4qcQdC91x/J
+QbhyzyqLf5KCVTcCbYfbMQ9xScA+Qr11efVz3+rYbQwKtzgK0xqwBvV8S+TnKR5m
+119eFJXEXTHxteOrgOfXY5QmYKLFyxP8RSYtjsj92etT5yhru4fB49F2TQ8a5jBw
+zgsrpMl7oTwjUUO++iC7LSsGInEluAh3UdjZt0HO+Q8s8UKP27WhWNpqI75Frtqg
+dhHr2oiSTLtTN8LeUhym3s9+
+=NAOV
 -----END PGP SIGNATURE-----
 
---===============1152357943945854192==--
+--===============6122783257490359299==--
