@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/fio
-Date: Mon, 07 Nov 2022 23:25:05 -0000
-Message-Id: <166786350554.26052.11113975290360156658@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
+Date: Tue, 08 Nov 2022 00:08:59 -0000
+Message-Id: <166786613966.23204.11075028084272351598@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/fio
-user: axboe
+repo: pub/scm/linux/kernel/git/bpf/bpf
+user: martin.lau
 changes:
   - ref: refs/heads/master
-    old: 72bcaffd7d56d4c2ebad6d0a1e465e0e9db8be40
-    new: 2d92b09513b3c11a04541298aece35eae3dbc963
+    old: c86df29d11dfba27c0a1f5039cd6fe387fbf4239
+    new: a679120edfcf3d63f066f53afd425d51b480e533
     log: |
-         4b387ecdec69f7b5be4d10b69cc0da6cd818665b Windows: Fix the build
-         13a9a800a6198d747082ad3e993ee3ff3043eec3 Android: Enable zoned block device support
-         2d92b09513b3c11a04541298aece35eae3dbc963 Merge branch 'master' of https://github.com/bvanassche/fio
+         a679120edfcf3d63f066f53afd425d51b480e533 bpf: Add explicit cast to 'void *' for __BPF_DISPATCHER_UPDATE()
          
