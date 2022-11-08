@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2603593038451992939=="
+Content-Type: multipart/mixed; boundary="===============2849664874108941750=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Tue, 08 Nov 2022 18:34:59 -0000
-Message-Id: <166793249961.20241.3828732416857541938@gitolite.kernel.org>
+Date: Tue, 08 Nov 2022 18:35:05 -0000
+Message-Id: <166793250513.21833.16303928013779556047@gitolite.kernel.org>
 
---===============2603593038451992939==
+--===============2849664874108941750==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: 1118b2049d77ca0b505775fc1a8d1909cf19a7ec
-    new: ce9e57feeed81d17d5e80ed86f516ff0d39c3867
-    log: revlist-1118b2049d77-ce9e57feeed8.txt
+  - ref: refs/heads/dev-queue
+    old: 1af9c7f81ffbd409ce60f9ebf095770286c8c62b
+    new: 30fad01aac8c17483f8203b4ea0f0aebb75d8918
+    log: revlist-1af9c7f81ffb-30fad01aac8c.txt
 
---===============2603593038451992939==
+--===============2849664874108941750==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1118b2049d77-ce9e57feeed8.txt
+Content-Disposition: attachment; filename=revlist-1af9c7f81ffb-30fad01aac8c.txt
 
 b4c66425771ddb910316c7b4cd7fa0614098ec45 bnxt_en: refactor bnxt_cancel_reservations()
 0cf736a18a1e804037839bd8df9e36f0efdb8745 bnxt_en: fix the handling of PCIE-AER
@@ -51,5 +51,17 @@ ec683f02a150b9c4428f08accd387c8c216ea0e5 dt-bindings: net: tsnep: Fix typo on ge
 b0c09c7f08c2467b2089bdf4adb2fbbc2464f4a8 net: ethernet: mtk-star-emac: disable napi when connect and start PHY failed in mtk_star_enable()
 f0dfc4c88ef39be0ba736aa0ce6119263fc19aeb octeontx2-pf: Fix SQE threshold checking
 ce9e57feeed81d17d5e80ed86f516ff0d39c3867 drivers: net: xgene: disable napi when register irq failed in xgene_enet_open()
+9299e50064009d34f329760f1af60c6039299464 ice: Fix spurious interrupt during removal of trusted VF
+c33359b60335e7b2f8fe88521c6ff4527b994d85 i40e: Fix failure message when XDP is configured in TX only mode
+4b9280b3ed35bfa801321d79a5c44ae39b35df09 i40e: fix xdp_redirect logs error message when testing with MTU=1500
+24ca09dfd0ed0f2053d22d8873c5877bda436e6c iavf: Fix VF driver counting VLAN 0 filters
+c5e742cea20291d61cfefd6fc212837dbbe9345b i40e: Fix not setting default xps_cpus after reset
+12ca873e447c7abba31b2113a9631088980ced29 e1000e: Fix TX dispatch condition
+87a82defd196fc29084bf839e4500536f09459cb i40e: Fix for VF MAC address 0
+2002146dff2e0405ff8fc6803add9ebaaf46ae9a ice: Create a separate kthread to handle ptp extts work
+73c356d457340beb07a50453b6374ab260dbafb6 ice: use int for n_per_out loop
+5a5e341412cdb358e951c1c6bcb26cf8e4c82748 iavf: Fix shutdown pci callback to match the remove one
+2547170d892d179c6cfe34b09a66a9be8bf2b851 iavf: Fix race condition between iavf_shutdown and iavf_remove
+30fad01aac8c17483f8203b4ea0f0aebb75d8918 ice: fix handling of burst Tx timestamps
 
---===============2603593038451992939==--
+--===============2849664874108941750==--
