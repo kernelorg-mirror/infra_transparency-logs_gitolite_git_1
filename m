@@ -1,57 +1,27 @@
-Content-Type: multipart/mixed; boundary="===============6122783257490359299=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Tue, 08 Nov 2022 15:51:38 -0000
-Message-Id: <166792269808.1602.13880249968270296458@gitolite.kernel.org>
-
---===============6122783257490359299==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/ulfh/mmc
+Date: Tue, 08 Nov 2022 16:05:47 -0000
+Message-Id: <166792354787.12416.618310251786791031@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/ulfh/mmc
+user: ulfh
 changes:
-  - ref: refs/heads/usb-linus
-    old: 341fd15e2e18c24d5c738496cfc3d7a272241201
-    new: 6d8fc203b28ff8f6115fbe5eaf584de8b824f4fa
+  - ref: refs/heads/next
+    old: baea11ac3def0471003c5263fec5f1d87c8bded2
+    new: c615212f9e8ffaa48bd7fad79d05ba51c5bd17db
     log: |
-         40bf8f162d0f95e0716e479d7db41443d931765c usb: typec: mux: Enter safe mode only when pins need to be reconfigured
-         6d8fc203b28ff8f6115fbe5eaf584de8b824f4fa usb: typec: tipd: Prevent uninitialized event{1,2} in IRQ handler
+         344502e5669f08b7605b2e5fdee47bb6999cc832 mmc: alcor: fix return value check of mmc_add_host()
+         410b4fdc6d60f0bd740bac902ff33ffd53585711 mmc: moxart: fix return value check of mmc_add_host()
+         a0cccdefd6b8d1345b307ae042360155057a610f mmc: mxcmmc: fix return value check of mmc_add_host()
+         6ce559a59528b488985be5f1e3e39a9201ed9750 mmc: pxamci: fix return value check of mmc_add_host()
+         e0fdb6d61a315a8412ca0be480b5dc0d22de5190 mmc: rtsx_pci: fix return value check of mmc_add_host()
+         d6345ecb277a5e02bacdfe9c150fda9341d9a55f mmc: rtsx_usb_sdmmc: fix return value check of mmc_add_host()
+         fc1c3abe64a98c8422198259ba4ed7aa4d9c17a9 mmc: toshsd: fix return value check of mmc_add_host()
+         b1ccf8af81a5bf699417bca23bf4a485b774a71c mmc: vub300: fix return value check of mmc_add_host()
+         c615212f9e8ffaa48bd7fad79d05ba51c5bd17db mmc: wmt-sdmmc: fix return value check of mmc_add_host()
          
-
---===============6122783257490359299==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1667922696 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1667922695-396f6011f9620068828e551e499951253b39d357
-
-341fd15e2e18c24d5c738496cfc3d7a272241201 6d8fc203b28ff8f6115fbe5eaf584de8b824f4fa refs/heads/usb-linus
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmNqewgbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+or0P/RFVu7bSk7tecIvm0vrb
-UCc3gzf7Ns/a6jUU2Bfk0UlXpxNTtKtq9jM0ojP2h8mXPeTvpqpYR4lWMbEsoc4k
-jtddYnTmjXj7evShZoaepGwkCmX4+srJ/57Jo4lnIeHhKPCz/3pxqLj6ZQYnvfoy
-VGBi5VQfAV1DsQ6u4FjK7L8qxWW7eIt1Pof1G8DbyPTzI9KWw4EkikBAlheRgbnl
-CoKMpWZ8cS3RhC2SC7AtgAk9gib1VjGnI9J0yp2TnvrEko5l6GNrmw8/kqKskg27
-355CvNmRWPDzxs4wcOJWb4M5byXxOiUL6R7IDIlk+eoGMvfoWBiKFyirDzdL/OZB
-oMCgVtNhj1SK5DM7ouQvi/Ws8TEBAJYNWkwZakPbjTpLiXmtuuUDwx1klsmCdGfX
-PzmDN0sAMbtxFvCkHgSSV4Y8vQIffENyq6aQJOb9/J2SaJQfwcJEh4qcQdC91x/J
-QbhyzyqLf5KCVTcCbYfbMQ9xScA+Qr11efVz3+rYbQwKtzgK0xqwBvV8S+TnKR5m
-119eFJXEXTHxteOrgOfXY5QmYKLFyxP8RSYtjsj92etT5yhru4fB49F2TQ8a5jBw
-zgsrpMl7oTwjUUO++iC7LSsGInEluAh3UdjZt0HO+Q8s8UKP27WhWNpqI75Frtqg
-dhHr2oiSTLtTN8LeUhym3s9+
-=NAOV
------END PGP SIGNATURE-----
-
---===============6122783257490359299==--
