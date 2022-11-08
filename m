@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1223272382186385587=="
+Content-Type: multipart/mixed; boundary="===============1448993534505833093=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 08 Nov 2022 03:58:07 -0000
-Message-Id: <166787988726.29168.8258873961061354709@gitolite.kernel.org>
+Date: Tue, 08 Nov 2022 03:58:21 -0000
+Message-Id: <166787990146.29333.9696901675765583956@gitolite.kernel.org>
 
---===============1223272382186385587==
+--===============1448993534505833093==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-queue
-    old: d18df029983098af770ab8c51da10257467c05d9
-    new: 8098db5a0941a08cce3cc48f0e9a70dd08232f37
-    log: revlist-d18df0299830-8098db5a0941.txt
+  - ref: refs/heads/6.2/scsi-queue
+    old: 7029e2151a7c6a5c60b35996d026528e7d51aae3
+    new: e6629dcb00adeebcfeaee45b1c987a84eb3ce1ba
+    log: revlist-7029e2151a7c-e6629dcb00ad.txt
 
---===============1223272382186385587==
+--===============1448993534505833093==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1667879876 -0500
+pusher 75C5DE3D 1667879890 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1667879876-946f89701511b7f98c6805cdab5a5856685817c5
+nonce 1667879890-5afcd4ba16d017624bd3620ea5b9760b5dc8c60a
 
-d18df029983098af770ab8c51da10257467c05d9 8098db5a0941a08cce3cc48f0e9a70dd08232f37 refs/tags/mkp-scsi-queue
+7029e2151a7c6a5c60b35996d026528e7d51aae3 e6629dcb00adeebcfeaee45b1c987a84eb3ce1ba refs/heads/6.2/scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmNp08QACgkQ7ulgGnXF
-3j2qtA//ar3I47QMRBsMZmfkYhK677aoZj0RmX4gIVR+WqxzeIT1MrD1SM902j3I
-rt+9xuqKK4b7vQaIYfqWdSMISFWdFZ8qT8x9FChwtjHZOwAWqPEqlal2Mdp2XmmU
-pmiKsIdeBc35qXmuLzNaTm5nM5xhOW90REjPZChpO/rjdHh8pGZZgt0I9gE+GpuZ
-vcZb0U/AddRlLGdIIwoLroZkkXRcA2Qig+eEjEZ5S3bMabAF108NkoiMigmK0/2O
-QPsuqkwK+wVlg9PI00j0hxzVyE3iQoJnWQ8tppvf6TNFEg6hk9rGOys41buWv1zt
-N7Qjr1vgY/ng1obCSe41Pkx5nW1FOwy7+FETft6UkpxKeVjWVDBtyzR8BjFh5NTo
-77jGcEGfzLVM0AIoYfq17RGi+mXF9WXRSGPBDlHpDVKt0u4mUyOszKKm4kMeJ8+E
-vsIhgRhOdVNnGxg9BDAxNb2suFKRv/g6jkILCCFhKVc2nw0zxR0S3mw0Repc4JHM
-0RBjITjttFl+AsMmAqxrUBViYJN5VC9rQjBX/8ELrEF/XjuZxWKHQrje8rrVWsZd
-8L+AgjI0tHWlV0uD1VLO9MubS638eDtZLH42cEV9eVl8uPVmdTJFrA9blKE/JxpK
-oUxU1uzarVFdnFcZuezhwkA6LfCTHS8gdfRTwCSklYFo0a7tR1w=
-=vcyT
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmNp09IACgkQ7ulgGnXF
+3j3bAhAAkokPVgY9QmvY0WSgXR7v/WyKoG93s1v0zOee9gBDuFKcyQWo47M0SO35
+tTR3Ambpzsnkp4mxju97F5eZaCfo0hYxFjiTNepTh6GeZTwy9XveSaNW4JMFfl44
+3AWG+1bsvr0kz8WYnRPikzSeZIvqsl46Pv558sQDKKbEOxQw0F81WNxbJ/o8ueaN
+tJYtG317w6ySYE/UWoSII6IgPwbCXbolt9S0vkxRNnFattcDm0w307w4EHWf8hYX
+RJGFOxElt3mZXAPCgCjoM4Bb1Xx5TSBarxS+chOV+qJUO378PS+YgYmwJjJs9U4k
+Dh7l7/XatqFYx/pQHMI9QXdlcBUSr5/WOnjjQL05c8lpvzwZ4PS9HUowQ51GkvZY
+g75BPUzHJXxbVJr02GYn6VGRo/bAqmTVwUSJp+pQmb3OavYDqywpjTFXYkwyR9ZZ
+9EcAsJThxjeRUyOOyfF7q4zGNN8deconfzmu5tt/N4MgkEf0LGjtVXVOH/hI8s7l
+sJ62oOe1dFNOnMQLpGp1v8okw7YdRlY5yAGH01LluS/9+sCjfM0s1Gcy10vZTiM2
+r6rOvbCbcCeHJ6067OmqP6FyKk4NZERJTQalSdRGySwpB8tvKztjOuVQIwkmxwui
+VykkWQrmPrImY/eX/HDW7DYAtkuzYTxCNHxlaXbxUvaswEXzg3k=
+=R928
 -----END PGP SIGNATURE-----
 
---===============1223272382186385587==
+--===============1448993534505833093==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d18df0299830-8098db5a0941.txt
+Content-Disposition: attachment; filename=revlist-7029e2151a7c-e6629dcb00ad.txt
 
 b9b8782f8966a7f219ec2e2db3ffe5eeb23943ab scsi: target: core: Add support for RSOC command
 0016e820716ff863a76e960cb91bd72373ac2e74 scsi: target: core: Add list of opcodes for RSOC
@@ -70,4 +70,4 @@ dca899bc02231214e25cffd3014cc77018dae942 scsi: ufs: core: Clean up ufshcd_slave_
 4481bdc677c1aa9b0138ee9234c8c2d14142b42e scsi: pm8001: Drop !task check in pm8001_abort_task()
 e6629dcb00adeebcfeaee45b1c987a84eb3ce1ba scsi: MAINTAINERS: Make Xiang Chen HiSilicon SAS controller driver maintainer
 
---===============1223272382186385587==--
+--===============1448993534505833093==--
