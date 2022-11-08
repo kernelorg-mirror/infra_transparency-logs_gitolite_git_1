@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6877427486542506425=="
+Content-Type: multipart/mixed; boundary="===============3052882447827998106=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/spdx
-Date: Tue, 08 Nov 2022 14:43:34 -0000
-Message-Id: <166791861441.17072.12275038674330805932@gitolite.kernel.org>
+Date: Tue, 08 Nov 2022 14:43:38 -0000
+Message-Id: <166791861852.17145.15556051043354696167@gitolite.kernel.org>
 
---===============6877427486542506425==
+--===============3052882447827998106==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/spdx
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
+  - ref: refs/heads/spdx-linus
     old: 30a0b95b1335e12efef89dd78518ed3e4a71a763
     new: f0c4d9fc9cc9462659728d168387191387e903cc
     log: revlist-30a0b95b1335-f0c4d9fc9cc9.txt
 
---===============6877427486542506425==
+--===============3052882447827998106==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1667918613 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1667918617 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/spdx.git
-nonce 1667918613-d7523eb92238c7566986c73b7cc4fd18f02ead6c
+nonce 1667918617-c7583102be04d69ee33e6bb2861bf520d4f8ede3
 
-30a0b95b1335e12efef89dd78518ed3e4a71a763 f0c4d9fc9cc9462659728d168387191387e903cc refs/heads/main
+30a0b95b1335e12efef89dd78518ed3e4a71a763 f0c4d9fc9cc9462659728d168387191387e903cc refs/heads/spdx-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmNqaxUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+w6oP/3ct3tzEQzqvv9yh9kBS
-odGyRUUEanFuHG0WTcaMbJtTf3IZ7PtO4ieC79aLWEwAwE+d1fuYu4LXulw5DeWL
-ExdxqiaOpStjj8IH372JSOCnIXnvSNfo0YOnAV4XKJQDPqiXmzmy3/gXkiGrjGwj
-XN7Dg0zOl1GIVZpVZvA3O9b+NrF4UnGSe8nW4/bzTyotLss8IuMzuUILaCtkVf9Z
-hL+e/izZ+vVkfC2xsOYgsmuqwPmx0PKRLmySDXtIvuFrSo1PWTcLMSUsmPe2wl8h
-EKZBdU9fLyxKN9vXrQif90dME5t0runmYkLjFGPQqv+gEnHqqwPJjj4jM2qftRhm
-o3CEPwg9nPYhwaNXAOFGacmXjdkMrl2BU6/Ziu97grK2TR/SwUXqxkehLhObfL7v
-ie8GSBqmF3dgv2Z/y35ZwLGthr+ezEtDf2ODkeELrmOSH5cNn0zRnQniW7QJ2a++
-2EAYeFkVWiJN/wG/bDYhgYGxtZeJdJCUvqD7d8kgL6OfFZlhRkDKhlQKj7J7BDUI
-Pj0w+6rAkf27QlCCp3O06oRh+66dyjb3+pJYdmr8UrhXt1bQdXq/oM+g9IVdx9oi
-3mGTv2FBk4HH8Vu5+9NQ90hZwMwk1v6LaDCM/Qj3qN4axy/siJOIcOcI9rf/y8HJ
-NQDaQIKl+prpWWEwf6eZmyZf
-=Q7VZ
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmNqaxobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+8A8P/3a32K0pJuuew6Fky/OC
+fUTwA0k4wRqEiIgm9X7ODCk2TEK6HnktAMm03DbB6U1BOCs96G5u5hMrEYdxYt/u
+HL27KkqIjOLD2xin50Y+fLgLGaCaOF+PEOBK++Tv6SI0wvnYE/VulL+rONh1CGG0
+cJXBR6X0rA73xy8gJD5pl1hVkNgmHe5GP8OlZaviusxPRAxpndSjooPh0OAcqRxR
+PdAImCNUK21O8XgrvT6tNqTPEHOzOyvQHERZZx0ZTsfR0T2IQ+qJH4oFh46ySZso
+Or2p+DxVz+cHwjHtVidJS/usHYmWCfEg5zQWCVOHYNUi+FpslqHIHUmLXFO9wGBv
+8ESdF3Z5OOkxHhSWf2bdsJAtzS5SomrEpAG2ILTHlyq6E1f+ISf9DliKr1yJa2Yh
+QANAjSsEERqplyKt4rD0t0gTYbXJ/DKryWjs7YniasMBVfcJjqYmsajEBXP4tDN6
+8v0mIjbm14wo7aii4z0vuFj2Gm7YP3HYler8ItTKsOyio9aRicyOOlBnlMhJQDQg
+kFYXJOFXu0JMNsS980oJontvXZ8JHoEJ+6aApisAgQwOG8Xiw9GWS8GAxS+epmE4
+RI/QqMKIsUWybGNuCIANWg1WQ6+zwINmZXvcqi4VbtU/2WZmebt16uqaeYn1saod
+uxfC9ZVZUW7go45bc10qzCdb
+=EVJL
 -----END PGP SIGNATURE-----
 
---===============6877427486542506425==
+--===============3052882447827998106==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -425,4 +425,4 @@ aa52994915dca444dbb8e6b91eb82b749ba7a1ec Merge tag 'hwmon-for-v6.1-rc4' of git:/
 16c7a368c8ba9aba3b0e0ae5ec0a64be9fb45665 Merge tag 'cxl-fixes-for-6.1-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/cxl/cxl
 f0c4d9fc9cc9462659728d168387191387e903cc Linux 6.1-rc4
 
---===============6877427486542506425==--
+--===============3052882447827998106==--
