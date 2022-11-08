@@ -1,31 +1,24 @@
-Content-Type: multipart/mixed; boundary="===============7276130847846168530=="
+Content-Type: multipart/mixed; boundary="===============0207280289369641675=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Tue, 08 Nov 2022 06:17:44 -0000
-Message-Id: <166788826425.30267.11577008671986538328@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Tue, 08 Nov 2022 06:17:53 -0000
+Message-Id: <166788827367.30404.16523867722660703155@gitolite.kernel.org>
 
---===============7276130847846168530==
+--===============0207280289369641675==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
   - ref: refs/heads/master
     old: d8e87774068af213ab5b058b1b114dc397b577aa
     new: b6fc3fddade7a194bd141a49f2689e50f796ef46
     log: revlist-d8e87774068a-b6fc3fddade7.txt
-  - ref: refs/heads/stable
-    old: 727ea09e99b8e765388d4ca994e8a68a991f4d98
-    new: a1de832bd3243577de365222d8bc92708005ebf3
-    log: revlist-727ea09e99b8-a1de832bd324.txt
-  - ref: refs/tags/next-20220808
-    old: 161b6d4a860187a5a4e9a46872e7c485a2b3122c
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20221108
     old: 0000000000000000000000000000000000000000
     new: 0c8a2b59970ac96e47d6a0c1e96861176f6942cc
@@ -33,7 +26,7 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: cc17e0a6a1b0c4708af1f5d81edc87e2cb5ffbf8
 
---===============7276130847846168530==
+--===============0207280289369641675==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -994,39 +987,4 @@ bdf51ca4a1a9e0a987c98ddc2c605ec43a25431d Merge branch 'unsigned-char' of git://g
 4bbc260fcace7977906a6a2301f1e4e3721cf4c4 Merge branch 'mm-everything' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 b6fc3fddade7a194bd141a49f2689e50f796ef46 Add linux-next specific files for 20221108
 
---===============7276130847846168530==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-727ea09e99b8-a1de832bd324.txt
-
-cf00b33058b196b4db928419dde68993b15a975b cxl/mbox: Add a check on input payload size
-2816e24b0510e0c185c0c46acff1ce7aa4c4443f cxl/region: Fix null pointer dereference due to pass through decoder commit
-f010c75c05299ecd65adfd31a7841eea3476ce1f cxl/pmem: Fix failure to account for 8 byte header for writes to the device LSA.
-24f0692bfd41fd207d99c993a5785c3426762046 ACPI: NUMA: Add CXL CFMWS 'nodes' to the possible nodes set
-71ee71d7adcba648077997a29a91158d20c40b09 cxl/region: Fix decoder allocation crash
-4f1aa35f1fb7d51b125487c835982af792697ecb cxl/pmem: Use size_add() against integer overflow
-a90accb358ae33ea982a35595573f7a045993f8b cxl/region: Fix region HPA ordering validation
-0d9e734018d70cecf79e2e4c6082167160a0f13f cxl/region: Fix cxl_region leak, cleanup targets at region delete
-4d07ae22e79ebc2d7528bbc69daa53b86981cb3a cxl/pmem: Fix cxl_pmem_region and cxl_memdev leak
-86e86c3cb63325c12ea99fbce2cc5bafba86bb40 tools/testing/cxl: Fix some error exits
-e41c8452b9b204689e68756a3836d1d37b617ad5 tools/testing/cxl: Add a single-port host-bridge regression config
-e4f6dfa9ef756a3934a4caf618b1e86e9e8e21d0 cxl/region: Fix 'distance' calculation with passthrough ports
-8f401ec1c8975eabfe4c089de91cbe058deabf71 cxl/region: Recycle region ids
-c4f683731db330460d909bd0ca8d5af876fcdc97 hwmon: (scmi) Register explicitly with Thermal Framework
-1e699e177e339e462cdc8571e3d0fcf29665608e Revert "hwmon: (pmbus) Add regulator supply into macro"
-aa52994915dca444dbb8e6b91eb82b749ba7a1ec Merge tag 'hwmon-for-v6.1-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/groeck/linux-staging
-16c7a368c8ba9aba3b0e0ae5ec0a64be9fb45665 Merge tag 'cxl-fixes-for-6.1-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/cxl/cxl
-f0c4d9fc9cc9462659728d168387191387e903cc Linux 6.1-rc4
-59dc2a7e7c6a0d4a2a2c4dafea874af484fc0592 ACPI: video: Improve Chromebook checks
-454d61a56d5e4c8cd9905f81d475d23f86f370af ACPI: video: Make acpi_video_backlight_use_native() always return true
-f46acc1efd4b5846de9fa05f966e504f328f34a6 ACPI: video: Add backlight=native DMI quirk for Dell G15 5515
-a231224a601c1924b9df620281ad04472900d75f platform/x86: ideapad-laptop: Disable touchpad_switch
-0df044b34bf33e7e35c32b3bf6747fde6279c162 platform/x86: touchscreen_dmi: Add info for the RCA Cambio W101 v2 2-in-1
-1598bfa8e1faa932de42e1ee7628a1c4c4263f0a platform/x86: hp_wmi: Fix rfkill causing soft blocked wifi
-bcdfa1f77ea7f67368d20384932a9d1e3047ddd2 platform/x86/intel/pmt: Sapphire Rapids PMT errata fix
-a977ece5773b6746b814aac410da4776023db239 platform/x86/intel/hid: Add some ACPI device IDs
-53eb64c88f17b14b324fbdfd417f56c5d3fa6fee platform/x86: p2sb: Don't fail if unknown CPU is found
-a1de832bd3243577de365222d8bc92708005ebf3 Merge tag 'platform-drivers-x86-v6.1-3' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-
---===============7276130847846168530==--
+--===============0207280289369641675==--
