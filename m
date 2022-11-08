@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4616310036588829408=="
+Content-Type: multipart/mixed; boundary="===============5513424045184805738=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 08 Nov 2022 03:58:35 -0000
-Message-Id: <166787991598.29480.9100637478168366913@gitolite.kernel.org>
+Date: Tue, 08 Nov 2022 03:58:52 -0000
+Message-Id: <166787993269.29652.11796771726232069991@gitolite.kernel.org>
 
---===============4616310036588829408==
+--===============5513424045184805738==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,58 +16,61 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue
-    old: 7029e2151a7c6a5c60b35996d026528e7d51aae3
-    new: e6629dcb00adeebcfeaee45b1c987a84eb3ce1ba
-    log: revlist-7029e2151a7c-e6629dcb00ad.txt
+  - ref: refs/tags/mkp-scsi-staging
+    old: cd0feb4f2bc34f4db229d9c31ff1329a2742a526
+    new: 8f2e94cfd3d8c6c7dfe2e08889d1833476c277fe
+    log: revlist-cd0feb4f2bc3-8f2e94cfd3d8.txt
 
---===============4616310036588829408==
+--===============5513424045184805738==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1667879905 -0500
+pusher 75C5DE3D 1667879921 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1667879904-dae7efda46220ef83d541820c6968924c7d384ad
+nonce 1667879921-aed536528a559f48ef37e1ed958cd414e2eca6bd
 
-7029e2151a7c6a5c60b35996d026528e7d51aae3 e6629dcb00adeebcfeaee45b1c987a84eb3ce1ba refs/heads/queue
+cd0feb4f2bc34f4db229d9c31ff1329a2742a526 8f2e94cfd3d8c6c7dfe2e08889d1833476c277fe refs/tags/mkp-scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmNp0+EACgkQ7ulgGnXF
-3j0IEA//UZ4CUmKVgGwxpcvOojCthtww4EpCZSBqEO0Pad9hJKxENJKfNd7XXx0Q
-Hjuo5LjrFqwdVLZR0LpIl8E4jL9bcSE3Ijtjy7LYMMmwHaJVQPUt/TpRIx7I/AYS
-/YDTCCHPcSAoOBxZ1MpcHjtimeCPNcqtSeeNiwkkzDdk2Z51t6Lj23Fq2yYVWaeu
-CcGc8f+1ijI0xVUSvLBsN6z41VVVG4fP8L6+nworLwskmZDlbUH1Cx6kP/wfNMqz
-HcdBP+AdE+/7KLhJ1vtFujhZu/9UVa/nrFLp0laSDbkZWG9fnDcwkFIZX+0POf81
-ueC6C2lhjKPGPrTjTmProheVD+S8mqO1ivtJnwIdKfxr+5BF1+nBDgk8Y/mo4FWJ
-8f0/43157oJ/sk1jzXGVdhqW+AOyZ94mrt3knAfVtsdgaD+1UZpirQI/lefbM2gE
-imupLGrjbvB0WXsNAuT8E1tL3CFUjxBDM0/12Bo7MQgBd1KGtFVx6xg4jHSyurGy
-6HysrgsNvAT5zSN0DwpbNWrs6qh0fFC/VoORC3fAKX+qRQScHWShPDFpaBrEK4wS
-drDMen61B6xumB/aSI0fXoC51PT1gFS7LMc64v6w6DVkMCP38SQyA4jALZWq9Fjz
-dr0tbusVFPYj2t49wvr2smFMNLq0mZpbBR+Qxk4eo9YyrrRlVzU=
-=R7qU
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmNp0/EACgkQ7ulgGnXF
+3j095w/8C5hXKKqDRTKC7Vy8Yx6gNBepG92hhxhETxNE5SJiF8QLhshiyj8WFN/J
+OoPSG78flGjk0oS/23kXkchJGeD9gb02ScLBVCq0n/ZvZl//jSkkeDWaM+7yWGkA
+M/4l2Nw0kMEBzuvLKnBYnmw7BhNGH6CgG84qt0jGhN2BT+bhYDsMN+GSlI4mOkXC
+C0AYwYfst2NbVFDVEGg+8g3U8kUaFW4WtGACXBpmSXoQAWv3iCQDVzMUNuhU7yyJ
+F3IREG2d1QqHesJf6jbgL4xRTH9PHxOkKq6IcDDiWGJrP9rIKvoJ5+6bnz0jSxTK
+XPGy174Br8fZ2k0x14kUYZeeT6e3YledbOIQaAeO69eOc3Vel8Lq3hmEqx+sG8qf
+wAEReuly6Iwb9zlidEX02O1Bh5YztX1hoXNow3zfjvy3J3dQUHOV9qfLitOdwNGk
+Q337aP+4JVejGOPoxGuVoQJqsMLiFcseaMNZCaKXBKJUoKs5Ou0Ff2dELGJMWDFb
+qZRw1c9dWpGKJNkhOrqtlBniuOCwh6HKeq7qHKW6EN0mHUazOGmaL/1L+G97+fM3
+poDi+2TFMqkVmPmsX8sNK85cYQAYXi5dH1ct2LRFjMaB0drkoUBDzs6rYZjU/gZa
+Z7xMuMpY3gX5meJBFkIUqgY75ghxmLxqCz+9iMlwbIchYNwWi2E=
+=q86u
 -----END PGP SIGNATURE-----
 
---===============4616310036588829408==
+--===============5513424045184805738==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7029e2151a7c-e6629dcb00ad.txt
+Content-Disposition: attachment; filename=revlist-cd0feb4f2bc3-8f2e94cfd3d8.txt
 
-b9b8782f8966a7f219ec2e2db3ffe5eeb23943ab scsi: target: core: Add support for RSOC command
-0016e820716ff863a76e960cb91bd72373ac2e74 scsi: target: core: Add list of opcodes for RSOC
-553b08d9b3a78aa602f818c0c94705774f018df0 scsi: target: core: Dynamic opcode support in RSOC
-bd217b8c3a1f705f2d92d30974412fbd5f43271a scsi: target: core: Add emulate_rsoc attribute
-b8908e5e1d1de66e6905fbec7cdfbbf8ac3ecf9a scsi: target: core: Check emulate_3pc for RECEIVE COPY
-415d82b4401150c32687e1b7cc68de621ad24663 scsi: target: core: Dynamically set DPO and FUA in usage_bits
-a301d487d7bde62de43671a1642f8f5a2e2cceef scsi: ufs: core: Print events for WLUN suspend and resume failures
-25ad6f63e77eeafc3a9f17c92aadd66c56599fdc scsi: pcmcia: nsp_cs: Remove unused variable i
-b43678ea5bbd92388339ecae47ed44955474f53b scsi: ufs: core: Revert "WB is only available on LUN #0 to #7"
-dca899bc02231214e25cffd3014cc77018dae942 scsi: ufs: core: Clean up ufshcd_slave_alloc()
-9d266e792b0fb4c25448dc240a808667e0932ef2 scsi: ufs: core: Use is_visible to control UFS unit descriptor sysfs nodes
-4481bdc677c1aa9b0138ee9234c8c2d14142b42e scsi: pm8001: Drop !task check in pm8001_abort_task()
-e6629dcb00adeebcfeaee45b1c987a84eb3ce1ba scsi: MAINTAINERS: Make Xiang Chen HiSilicon SAS controller driver maintainer
+bc77fb9ce40c276cedf889dca2bc6d1b1edc2763 scsi: ufs: core: Refactor ufshcd_hba_enable()
+e47c49219c1e20760cd66cef4411b35a3a86c0a2 scsi: NCR5380: Fix repeated words in comment
+c7cbaab2d464484008b4f8ed66b6bb0ee99745c2 scsi: message: fusion: Remove variable 'where'
+81cb3eb68af5d0bee61ea45a72a0e6e3862b246f scsi: BusLogic: Remove variable 'adapter_count'
+b817e6ffbad7a1a0a5ca5bb7d4020823c3f4d9d0 scsi: ufs: core: Introduce ufshcd_abort_all()
+3d75e766b58a7410d4e835c534e1b4664a8f62d0 scsi: elx: libefc: Fix second parameter type in state callbacks
+3d6d7930928ace6b982258ebb81d585fe20e9f44 scsi: ufs: core: Remove check_upiu_size() from ufshcd.h
+0b25e17e9018a0ea68a9f0b4787672e8c68fa8d5 scsi: alua: Move a scsi_device_put() call out of alua_check_vpd()
+379e2554e3d10e87c0c0a728ef538f3c26d82a98 scsi: alua: Move a scsi_device_put() call out of alua_rtpg_select_sdev()
+2e5a6c3baccd31476ed00c3fbc413b48ddd87993 scsi: bfa: Convert bfad_reset_sdev_bflags() from a macro into a function
+2e79cf37b15b1936f8630d9c5805d2c76bde213b scsi: bfa: Rework bfad_reset_sdev_bflags()
+4fb2169d66b837a2986f569f5d5b81f79e6e4a4c scsi: qla2xxx: Fix set-but-not-used variable warnings
+e137b81d30e7ef8ec27a77c3b2cbbad52845872a scsi: qla2xxx: Remove unused variable 'found_devs'
+0aa46eba29553035d6af8384f19dfee2258d2a46 scsi: csiostor: Remove unused variable 'n'
+bc81131813aaf6fe764d1cc6b942a35a8c0c5c36 scsi: target: core: Remove unused variable 'unit_serial_len'
+e56ca6bcd2136207868516f5a304fbb82cc0cb82 scsi: target: Use kstrtobool() instead of strtobool()
 
---===============4616310036588829408==--
+--===============5513424045184805738==--
