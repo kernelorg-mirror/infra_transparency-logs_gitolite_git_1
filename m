@@ -1,49 +1,29 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/iwlwifi/chromeos
-Date: Tue, 08 Nov 2022 13:56:59 -0000
-Message-Id: <166791581981.17568.1342437124040004467@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Tue, 08 Nov 2022 14:08:12 -0000
+Message-Id: <166791649287.24594.14471428719722198300@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/iwlwifi/chromeos
-user: ggreenman
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/chromeos-4.4__release/core74-pv-63
-    old: 0000000000000000000000000000000000000000
-    new: ac0cea490ecfd4384eac74e0fda9aae2dfa449ab
-  - ref: refs/tags/chromeos-4.4__release/core74-2022-11-08
-    old: 0000000000000000000000000000000000000000
-    new: ac0cea490ecfd4384eac74e0fda9aae2dfa449ab
-  - ref: refs/heads/chromeos-4.14__release/core74-pv-63
-    old: 0000000000000000000000000000000000000000
-    new: 209108e58db627a3981e04bde91f074a7dbdf09b
-  - ref: refs/tags/chromeos-4.14__release/core74-2022-11-08
-    old: 0000000000000000000000000000000000000000
-    new: 209108e58db627a3981e04bde91f074a7dbdf09b
-  - ref: refs/heads/chromeos-4.19__release/core74-pv-63
-    old: 0000000000000000000000000000000000000000
-    new: c4314367fd1631e85174397f65cb6767965dd1df
-  - ref: refs/tags/chromeos-4.19__release/core74-2022-11-08
-    old: 0000000000000000000000000000000000000000
-    new: c4314367fd1631e85174397f65cb6767965dd1df
-  - ref: refs/heads/chromeos-5.4__release/core74-pv-63
-    old: 0000000000000000000000000000000000000000
-    new: 9a58a2c78620bc973499938117a905a697ec6182
-  - ref: refs/tags/chromeos-5.4__release/core74-2022-11-08
-    old: 0000000000000000000000000000000000000000
-    new: 9a58a2c78620bc973499938117a905a697ec6182
-  - ref: refs/heads/chromeos-5.10__release/core74-pv-63
-    old: 0000000000000000000000000000000000000000
-    new: af64b6f90646da1bd2475df6593c0fd19a51fe46
-  - ref: refs/tags/chromeos-5.10__release/core74-2022-11-08
-    old: 0000000000000000000000000000000000000000
-    new: af64b6f90646da1bd2475df6593c0fd19a51fe46
-  - ref: refs/heads/chromeos-5.15__release/core74-pv-63
-    old: 0000000000000000000000000000000000000000
-    new: f6243ec8886f9bae261789a2877440080ac269b8
-  - ref: refs/tags/chromeos-5.15__release/core74-2022-11-08
-    old: 0000000000000000000000000000000000000000
-    new: f6243ec8886f9bae261789a2877440080ac269b8
+  - ref: refs/heads/for-linus
+    old: ea83ec50393a6993fa09315e4200240c938c21b3
+    new: 2f01a612d4758b45f775dbb88a49cf534ba47275
+    log: |
+         fdcc4c22b7ab20e90b97f8bc6225d876b72b8f16 ALSA: hda/hdmi - enable runtime pm for more AMD display audio
+         2f01a612d4758b45f775dbb88a49cf534ba47275 ALSA: usb-audio: Add quirk entry for M-Audio Micro
+         
+  - ref: refs/heads/master
+    old: 6f8a5e29f362fb483a013641dedd5fe391a8e20b
+    new: 75fbff03bf34c0c7397507bd7d87aec6fe363ec8
+    log: |
+         fdcc4c22b7ab20e90b97f8bc6225d876b72b8f16 ALSA: hda/hdmi - enable runtime pm for more AMD display audio
+         56f3cf4b6b2ae6673da2cf41521621e081f3acb2 Merge branch 'for-linus'
+         2f01a612d4758b45f775dbb88a49cf534ba47275 ALSA: usb-audio: Add quirk entry for M-Audio Micro
+         75fbff03bf34c0c7397507bd7d87aec6fe363ec8 Merge branch 'for-linus'
+         
