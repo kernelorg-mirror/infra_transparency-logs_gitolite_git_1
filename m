@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1371528700174179486=="
+Content-Type: multipart/mixed; boundary="===============0530997025567350128=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
-Date: Tue, 08 Nov 2022 01:27:04 -0000
-Message-Id: <166787082418.20226.2969517202228001656@gitolite.kernel.org>
+Date: Tue, 08 Nov 2022 01:27:05 -0000
+Message-Id: <166787082594.20291.1883713828339344907@gitolite.kernel.org>
 
---===============1371528700174179486==
+--===============0530997025567350128==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,58 +15,41 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/qcom/linux
 user: andersson
 changes:
-  - ref: refs/heads/arm64-for-6.2
-    old: 95fade4016cbd57ee050ab226c8f0483af1753c4
-    new: 4ab3acd6379242281d4a55acfd6441830f1984a0
-    log: revlist-95fade4016cb-4ab3acd63792.txt
-  - ref: refs/heads/clk-for-6.2
-    old: f05dbd1a500661a9e3af59f0690301d031140da7
-    new: 5bf7b832a564d11b0835df157e16c2ca6848426f
-    log: |
-         70d9f589918aaadd6d5547ecb27355b7b69fc32c dt-bindings: clock: Add RPMHCC for QDU1000 and QRU1000
-         05e5c125b120c75b9313af0a6dc8c4f5a71e8e7c clk: qcom: Add support for QDU1000 and QRU1000 RPMh clocks
-         ae55ad32e27315469242de591e73d4f79b78decc clk: qcom: ipq8074: convert to parent data
-         5bf7b832a564d11b0835df157e16c2ca6848426f dt-bindings: clocks: qcom,gcc-ipq8074: allow XO and sleep clocks
-         
-  - ref: refs/heads/drivers-for-6.2
-    old: 33268bb9fdb64f57c08d400709bae7b9cda3120a
-    new: 6d7860f5750d73da2fa1a1f6c9405058a593fa32
-    log: |
-         c0ca67bb1772823c336c76c36a4d1cbb9602db1f dt-bindings: qcom: smp2p: Add WPSS node names to pattern property
-         8aa5cac4a2e05019fed4cb7187829add0c5aded6 dt-bindings: power: rpmpd: Add QDU1000/QRU1000 to rpmpd binding
-         94949a014fac048591dd478a4126ce8cca6f8123 soc: qcom: rpmhpd: Add QDU1000/QRU1000 power domains
-         3b1611f252bb8871f2e171758f8462704b7d8d52 dt-bindings: arm: qcom,ids: Add SoC IDs for QDU1000/QRU1000
-         759dcdf24903f61bc46064e0f7dd8a68ea1a6376 soc: qcom: socinfo: Add QDU1000/QRU1000 SoC IDs to the soc_id table
-         6d7860f5750d73da2fa1a1f6c9405058a593fa32 soc: qcom: apr: Add check for idr_alloc and of_property_read_string_index
-         
-  - ref: refs/heads/dts-for-6.2
-    old: 9b4dc87d352d0109c36efeea60cb75d14ac50ef1
-    new: ad789f571d93419882aad66515640f649e63bf95
-    log: |
-         0d6e44e257ec53b41c2969130e0eb97b0a41b1d6 ARM: dts: qcom: mdm9615: drop unit ids from PMIC nodes
-         2f7fa366bac9aa2addb83ffa5f208291f4dbe4d8 ARM: dts: qcom: Drop MMCI interrupt-names
-         f206bbb6e1d0ec59d8662222637bca9c0216464a ARM: dts: qcom: pm8226: fix regulators node name
-         7c0682e7a46d1190ecf43a8e92214f237cc978a9 ARM: dts: qcom: pm8941: adjust coincell node name to bindings
-         52c47b894b260c3e5102bb4b3e77772734508bcf ARM: dts: qcom: pm8941: rename misc node name
-         31eab2bb9c1ddf8a9ab5a1e4dc59446eeed2ea9e ARM: dts: qcom: pma8084: fix vadc channel node names
-         c5ef315a38fb36779adadbafbcce2274a3dec0d2 ARM: dts: qcom: pm8941: fix vadc channel node names
-         f659cd2770767c5ceabadace1b334df9de468eae ARM: dts: qcom: pm8941: fix iadc node
-         cc677f9006c4277bd25881c6713e5ef79bddd79a dt-bindings: arm: qcom: Document QDU1000/QRU1000 SoCs and boards
-         f1714f85d40e53645139824d0d903c1e050cdf00 dt-bindings: arm: qcom: Separate LTE/WIFI SKU for sc7280-evoker
-         ad789f571d93419882aad66515640f649e63bf95 ARM: dts: qcom: msm8226: Add MMCC node
-         
+  - ref: refs/heads/for-next
+    old: c62a757e7733b8aa6ca101f247b265fd71e9b679
+    new: 036f17a84c4ea58d063c48fb0388fef6455b7ab7
+    log: revlist-c62a757e7733-036f17a84c4e.txt
 
---===============1371528700174179486==
+--===============0530997025567350128==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-95fade4016cb-4ab3acd63792.txt
+Content-Disposition: attachment; filename=revlist-c62a757e7733-036f17a84c4e.txt
 
+0d6e44e257ec53b41c2969130e0eb97b0a41b1d6 ARM: dts: qcom: mdm9615: drop unit ids from PMIC nodes
+2f7fa366bac9aa2addb83ffa5f208291f4dbe4d8 ARM: dts: qcom: Drop MMCI interrupt-names
+c0ca67bb1772823c336c76c36a4d1cbb9602db1f dt-bindings: qcom: smp2p: Add WPSS node names to pattern property
 42582b27dcb1cb60f3601ecac07d3564ce7dc378 arm64: dts: qcom: sc7280: Add nodes to support WoW on WCN6750
 5d76dfb86850893f2506e15a1dc68977c3adc79f arm64: dts: qcom: msm8994: Correct SPI10 CS pin
 9d7d01da9a24a8e37fa156d93dbea893a0665f94 arm64: dts: qcom: msm8994: Align TLMM pin configuration with DT schema
 a35ef6df1e61cba41a5266303f6a493d1a71b06b arm64: dts: qcom: Remove fingerprint node from herobrine-r1
 bcfefc98c5781ee97f1b7a8063870830d9e42b30 arm64: dts: qcom: sc7280: Villager doesn't have NVME
+70d9f589918aaadd6d5547ecb27355b7b69fc32c dt-bindings: clock: Add RPMHCC for QDU1000 and QRU1000
+05e5c125b120c75b9313af0a6dc8c4f5a71e8e7c clk: qcom: Add support for QDU1000 and QRU1000 RPMh clocks
+8aa5cac4a2e05019fed4cb7187829add0c5aded6 dt-bindings: power: rpmpd: Add QDU1000/QRU1000 to rpmpd binding
+94949a014fac048591dd478a4126ce8cca6f8123 soc: qcom: rpmhpd: Add QDU1000/QRU1000 power domains
+3b1611f252bb8871f2e171758f8462704b7d8d52 dt-bindings: arm: qcom,ids: Add SoC IDs for QDU1000/QRU1000
+759dcdf24903f61bc46064e0f7dd8a68ea1a6376 soc: qcom: socinfo: Add QDU1000/QRU1000 SoC IDs to the soc_id table
+ae55ad32e27315469242de591e73d4f79b78decc clk: qcom: ipq8074: convert to parent data
+5bf7b832a564d11b0835df157e16c2ca6848426f dt-bindings: clocks: qcom,gcc-ipq8074: allow XO and sleep clocks
+f206bbb6e1d0ec59d8662222637bca9c0216464a ARM: dts: qcom: pm8226: fix regulators node name
+7c0682e7a46d1190ecf43a8e92214f237cc978a9 ARM: dts: qcom: pm8941: adjust coincell node name to bindings
+6d7860f5750d73da2fa1a1f6c9405058a593fa32 soc: qcom: apr: Add check for idr_alloc and of_property_read_string_index
+52c47b894b260c3e5102bb4b3e77772734508bcf ARM: dts: qcom: pm8941: rename misc node name
+31eab2bb9c1ddf8a9ab5a1e4dc59446eeed2ea9e ARM: dts: qcom: pma8084: fix vadc channel node names
+c5ef315a38fb36779adadbafbcce2274a3dec0d2 ARM: dts: qcom: pm8941: fix vadc channel node names
+f659cd2770767c5ceabadace1b334df9de468eae ARM: dts: qcom: pm8941: fix iadc node
+cc677f9006c4277bd25881c6713e5ef79bddd79a dt-bindings: arm: qcom: Document QDU1000/QRU1000 SoCs and boards
 16c0c46f38183573de5361d278772cfed2090b1c arm64: dts: qcom: pm6350: add temp sensor and thermal zone config
 ce1b5eb74b3ef042b1c797f04e8683e7cad34ae6 arm64: dts: qcom: pm6150l: add temp sensor and thermal zone config
 e10d451e10418f12e72ed8564f22fdba8b10a9b0 arm64: dts: qcom: sm6350: Add resets for SDHCI 1/2
@@ -78,6 +61,8 @@ deaf8c88db7d327ba768ac224e53d29f56027331 arm64: dts: qcom: sm6350-lena: Define p
 85eef5cb65ab7e8905725d13c98c90442bb93dbc arm64: dts: qcom: sm6350-lena: Provide power to SDHCI 2 (SDCard slot)
 8bad51c68930eba8b26ce362c7c9bfce5d074a2f arm64: dts: qcom: sm6350-lena: Enable QUP and GPI DMA
 2904a41c50e408c0a1e90da0045400edb6f155fe arm64: dts: qcom: sm6350-lena: Configure Samsung touchscreen
+f1714f85d40e53645139824d0d903c1e050cdf00 dt-bindings: arm: qcom: Separate LTE/WIFI SKU for sc7280-evoker
+ad789f571d93419882aad66515640f649e63bf95 ARM: dts: qcom: msm8226: Add MMCC node
 7372b944a6ba5ac86628eaacc89ed4f103435cb9 arm64: dts: qcom: sm6350: Add apps_smmu with streamID to SDHCI 1/2 nodes
 65bebf78744f0342187e77124c8a8294a7a0f98c arm64: dts: qcom: msm8996: use hdmi_phy for the MMCC's hdmipll clock
 830493fc13d8868fd5be0620d16936fa75c3b9a4 arm64: dts: qcom: msm8996: use dsi1_phy for the MMCC's dsi1 clocks
@@ -105,5 +90,6 @@ d5d8e59f356d426ba164ea37adfa629196b4fbd0 arm64: dts: qcom: ipq8074-*: Fix up com
 3e3a2be79035a9e554ee5f62faf955601f85fca9 arm64: dts: qcom: qcs404-*: Fix up comments
 5d9bf21088fddefe681a70d061b78b9b58fb764b arm64: dts: qcom: pm6150/l/pm7325/pms405: Fix up comments
 4ab3acd6379242281d4a55acfd6441830f1984a0 arm64: dts: qcom: pm8998: adjust coincell node name to bindings
+036f17a84c4ea58d063c48fb0388fef6455b7ab7 Merge branches 'arm64-defconfig-for-6.2', 'arm64-for-6.2', 'clk-for-6.2', 'defconfig-for-6.2', 'drivers-for-6.2', 'dts-for-6.2' and 'arm64-fixes-for-6.1' into for-next
 
---===============1371528700174179486==--
+--===============0530997025567350128==--
