@@ -1,47 +1,40 @@
-Content-Type: multipart/mixed; boundary="===============7856947159570696540=="
+Content-Type: multipart/mixed; boundary="===============8455188055890730151=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vbabka/slab
-Date: Wed, 09 Nov 2022 14:34:27 -0000
-Message-Id: <166800446757.12813.477916126619635002@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Wed, 09 Nov 2022 14:37:26 -0000
+Message-Id: <166800464640.15448.12913286649718027758@gitolite.kernel.org>
 
---===============7856947159570696540==
+--===============8455188055890730151==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vbabka/slab
-user: vbabka
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/acme/linux
+user: acme
 changes:
-  - ref: refs/tags/slab-for-6.1-rc4-fixes
-    old: 0000000000000000000000000000000000000000
-    new: f1967dcc03fb8d3f62c068b73c77674580f53e35
+  - ref: refs/heads/tmp.perf/core
+    old: f704d2f8e8a4ef45c98fbc2a38744e19120d5c53
+    new: 816815b852216f3aa3a43e2ce91c5510927cd61b
+    log: revlist-f704d2f8e8a4-816815b85221.txt
 
---===============7856947159570696540==
+--===============8455188055890730151==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-f704d2f8e8a4-816815b85221.txt
 
-certificate version 0.1
-pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1668004466 +0100
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/slab.git
-nonce 1668004465-b0cd73e1ee12100ea5fe8a093204f5434a57ed4f
+96e6d929a6c3368ad6327a52f870294747888c77 perf trace: Use sig_atomic_t to avoid undefined behaviour in a signal handler
+22e7253ba07a8282a8c77069d506717bcb230e79 perf trace: Raw augmented syscalls fix libbpf 1.0+ compatibility
+39f2a7e3b52ed0c2d3a06647f1440e23f68514d1 perf trace: hello fix libbpf 1.0+ compatibility
+84994f431a85d60d64cee6af29f96d86932573f4 perf trace: empty fix libbpf 1.0+ compatibility
+86c0d7f04fa7be4929a6c7d97607e8ec0a2cd554 perf trace: 5sec fix libbpf 1.0+ compatibility
+a196d96d791e4f0fd0d926770e220a14c7663e53 perf bpf: Remove now unused BPF headers
+793029c3783c44c5dafcf2ecb7966f27edf98da1 perf examples bpf: Remove augmented_syscalls.c, the raw_syscalls one should be used instead
+f7c6722dba0eda0442b9ae74418722a844a23433 perf bpf: Rename perf_include_dir to libbpf_include_dir
+1bd230ca2fa6df214e65ab102b717c4e2bff242a perf trace: Add BPF augmenter to perf_event_open()'s 'struct perf_event_attr' arg
+816815b852216f3aa3a43e2ce91c5510927cd61b perf probe: Fix to get the DW_AT_decl_file and DW_AT_call_file as unsinged data
 
-0000000000000000000000000000000000000000 f1967dcc03fb8d3f62c068b73c77674580f53e35 refs/tags/slab-for-6.1-rc4-fixes
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCAAdFiEEjUuTAak14xi+SF7M4CHKc/GJqRAFAmNrunIACgkQ4CHKc/GJ
-qRDG9QgAnSE/KVG8nxbdUB7KiyVsfeil7D7JzSFd8tBs06dlTvLGjlwT1IOvLNpW
-0t2s1DB1KdtEyWSAdWe5gy5uHOHU5JA/nePM86R9p7Vm2Gp1H4SC0AcGeFhrVVjm
-iPJpWzyQux3PD7eIxLZ/nykE2Ie7ZC0SfgYUCn49p9Gv0Fi1oYxFkBPwkGqZjSw3
-2JB8Qi7sl/SxWvzib2kACCq5gPf5jn2PzYzpGzkIxFl+V9eDcDvnHwZA7s9y1qTX
-6l1PdukSUuL8+7LnSFFLqWpsMED5cqEFN5gQRbiurUuWzmTzQ4+D8SF4puJOXSE4
-7kb8pwzKU5T0teGwtfQInryh3KntXA==
-=s6CX
------END PGP SIGNATURE-----
-
---===============7856947159570696540==--
+--===============8455188055890730151==--
