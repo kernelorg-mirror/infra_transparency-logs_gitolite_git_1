@@ -1,20 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 09 Nov 2022 10:23:57 -0000
-Message-Id: <166798943774.26492.15814987458890303571@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
+Date: Wed, 09 Nov 2022 10:24:37 -0000
+Message-Id: <166798947701.26925.10836198786210095994@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: bp
+repo: pub/scm/linux/kernel/git/ardb/linux
+user: ardb
 changes:
-  - ref: refs/heads/master
-    old: d93ba1921d0f28edc1169c6676b1f510b766c41a
-    new: bf7cf845430cb0209a67a879be318daf75b307dd
-    log: |
-         0008712a508f72242d185142cfdbd0646a661a18 x86/mm: Remove P*D_PAGE_MASK and P*D_PAGE_SIZE macros
-         bf7cf845430cb0209a67a879be318daf75b307dd Merge x86/mm into tip/master
-         
+  - ref: refs/heads/libgcm
+    old: 976db8173be2c7e5c28bab256fcc4408939c4949
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/libgcmaes-v2
+    old: 1bb9843726fb850ed67c029a1909690c64a6b70c
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/libgcmaes-v3
+    old: 1835e84abef7085bc842750428e00b400ce61ab7
+    new: 0000000000000000000000000000000000000000
