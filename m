@@ -1,57 +1,23 @@
-Content-Type: multipart/mixed; boundary="===============2996563320628199859=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Wed, 09 Nov 2022 13:59:03 -0000
-Message-Id: <166800234369.19599.973912172747631599@gitolite.kernel.org>
-
---===============2996563320628199859==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Wed, 09 Nov 2022 14:01:43 -0000
+Message-Id: <166800250376.22230.17079679096975459369@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/driver-core
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/netdev/net
+user: davem
 changes:
-  - ref: refs/heads/driver-core-testing
-    old: 1662cea4623f75d8251adf07370bbaa958f0355d
-    new: 9e6002ad9e28209dcefa342977ac683779556dbd
+  - ref: refs/heads/master
+    old: 742c60e1285ca40642e988f7e3db92232171b27d
+    new: 5d041588e9f6aa79e4abfc26d93c948f15d4d5eb
     log: |
-         8c3e8a6bdb5253b97ad532570f8b5db5f7a06407 class: fix possible memory leak in __class_register()
-         9e6002ad9e28209dcefa342977ac683779556dbd Documentation: devres: add missing MEM helper
+         d38a648d2d6cc7bee11c6f533ff9426a00c2a74c net: wwan: iosm: fix memory leak in ipc_pcie_read_bios_cfg
+         035e3befc191347331dd2530c3686e05a8acfbb2 net: wwan: iosm: fix driver not working with INTEL_IOMMU disabled
+         02d2d2ea4a3bc2391f6ac31f6854da83e8a63829 net: wwan: iosm: fix invalid mux header type
+         980ec04a88c9f0046c1da65833fb77b2ffa34b04 net: wwan: iosm: fix kernel test robot reported errors
+         5d041588e9f6aa79e4abfc26d93c948f15d4d5eb Merge branch 'wwan-iosm-fixes'
          
-
---===============2996563320628199859==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1668002341 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1668002340-768bf041545006838126666ad932fa19ac26bb2a
-
-1662cea4623f75d8251adf07370bbaa958f0355d 9e6002ad9e28209dcefa342977ac683779556dbd refs/heads/driver-core-testing
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmNrsiUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+QwAP/3Ukukd9ejkzJ2qD50qh
-2BG7qrdjwTlQ+CSJUKusIg6ECs/5iMvKxrWflqNYUR954XE/u6jAHfEcX9FDUZI8
-XKIEIplp57NrT/dBCjLsBKUIt7ApA4zitfKI2FU6cQiSUIl2JFba+i/NOfPuGsZy
-1T8cq0KwcAsXRiuRKjAhRK4jY+KRi/2RhOgrYARHIWzkR1BOBDWxIZphZWTojEZ6
-osCdbGaA05nlC01sDWRCJe+NSeRG00nNu5C5EUbgO+g/GS9cksuMGNezRzi4m5V2
-r7AOr8+HUym72/XtE+BZSbxWvtZ8EdHJ+2z+pqi75A481xWouVt28TuIfPMHOxf/
-v1c2/2hWnnF0X2grCkeMyLKFFm1f+AxE/Ji1pgM/L9zj51xRfT+yC33qh2LGYEuL
-iQ8c8WU5gmf5tMSLW4ae+3eSY9wRdrG47okSl0HmYD2XXx5sZKpwOaBwFmP1Y9pT
-S7bZsspbsXb5IsJKH/3B1mK12YzukVC+gQ099Y+ZZO699nAxoK9sLtHghEJScE6b
-T+UmON1u76Jf1/b7mGe/rJrV1BSoLA2tKm3/u3Vc8TAM6FKQkM46U4GAeh0CpXyL
-4K4EscqKqnh5sivOLqqV/Ns+rKOla2+BuGZdBEdJgeypDG2hQs5aPzYnq6XRAozu
-OwtVR4OxxBuxUqMl0oNbSY1j
-=EA4D
------END PGP SIGNATURE-----
-
---===============2996563320628199859==--
