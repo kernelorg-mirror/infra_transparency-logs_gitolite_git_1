@@ -1,42 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============7733269235102338165=="
+Content-Type: multipart/mixed; boundary="===============3696393346890337551=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Wed, 09 Nov 2022 05:35:54 -0000
-Message-Id: <166797215419.5883.16305384550080831748@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Wed, 09 Nov 2022 05:36:04 -0000
+Message-Id: <166797216457.6059.17250262622139209510@gitolite.kernel.org>
 
---===============7733269235102338165==
+--===============3696393346890337551==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
   - ref: refs/heads/master
     old: b6fc3fddade7a194bd141a49f2689e50f796ef46
     new: 94db6b12c18d7cf7c5726dbe816c2248494a778d
     log: revlist-b6fc3fddade7-94db6b12c18d.txt
-  - ref: refs/heads/stable
-    old: a1de832bd3243577de365222d8bc92708005ebf3
-    new: f141df371335645ce29a87d9683a3f79fba7fd67
-    log: |
-         986d93f55bdeab1cac858d1e47b41fac10b2d7f6 audit: fix undefined behavior in bit shift for AUDIT_BIT
-         46653972e3ea64f79e7f8ae3aa41a4d3fdb70a13 capabilities: fix undefined behavior in bit shift for CAP_TO_MASK
-         59f2f4b8a757412fce372f6d0767bdb55da127a8 fs/userfaultfd: Fix maple tree iterator in userfaultfd_unregister()
-         f49b2d89fb10ef5fa5fa1993f648ec5daa884bef Merge tag 'lsm-pr-20221107' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/lsm
-         f141df371335645ce29a87d9683a3f79fba7fd67 Merge tag 'audit-pr-20221107' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/audit
-         
-  - ref: refs/tags/next-20220809
-    old: 91af7254923830b206c85e6a00dfb5ca9c95e8a8
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20221109
     old: 0000000000000000000000000000000000000000
     new: 5ede0fb9ee935f7588448dd7154cf4c6b02f2576
 
---===============7733269235102338165==
+--===============3696393346890337551==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1067,4 +1054,4 @@ cfeb1fcccbf8947b6e482e76f0259a9a6d4669f8 Merge branch 'mm-stable' of git://git.k
 d581a02076a5509ef9aadfcdabccc18220c3e58e Merge branch 'mm-everything' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 94db6b12c18d7cf7c5726dbe816c2248494a778d Add linux-next specific files for 20221109
 
---===============7733269235102338165==--
+--===============3696393346890337551==--
