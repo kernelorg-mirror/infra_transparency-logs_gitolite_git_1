@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6311315784300780112=="
+Content-Type: multipart/mixed; boundary="===============6418486093389433671=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Wed, 09 Nov 2022 18:32:56 -0000
-Message-Id: <166801877680.23420.3375238403696924158@gitolite.kernel.org>
+Date: Wed, 09 Nov 2022 18:33:29 -0000
+Message-Id: <166801880947.23692.11149698153469245150@gitolite.kernel.org>
 
---===============6311315784300780112==
+--===============6418486093389433671==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/arm64-2022-data-processing
-    old: ab0aff0601c29dc7b5cb2ecf42135dccbed6750a
-    new: e3898f8ad1fa7e82faf40c23ecd93d84b7ecf79e
-    log: revlist-ab0aff0601c2-e3898f8ad1fa.txt
+  - ref: refs/heads/arm64-sme2
+    old: 9bde3840c45079285615a09c3dea2863917182e8
+    new: 2636512632fa647175b78ae65f94de7f035cd1d5
+    log: revlist-9bde3840c450-2636512632fa.txt
 
---===============6311315784300780112==
+--===============6418486093389433671==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ab0aff0601c2-e3898f8ad1fa.txt
+Content-Disposition: attachment; filename=revlist-9bde3840c450-2636512632fa.txt
 
 f7ec3f62d7736ed14050716943a9562879155fcc media: remove reference to CONFIG_EMBEDDED in MEDIA_SUPPORT_FILTER
 41fd1cb6151439b205ac7611883d85ae14250172 media: mceusb: Use new usb_control_msg_*() routines
@@ -994,5 +994,26 @@ b658b9c8762071c5c0ca30a3acfb76589e3f52c2 kselftest/arm64: Add FEAT_CSSC to the h
 e525860c532052e0c286a1572420cc35360da0a8 kselftest/arm64: Add FEAT_RPRFM to the hwcap test
 4d9aec6075956e37d79a3060aba1a8bba76e02b5 arm64/hwcap: Add support for SVE 2.1
 e3898f8ad1fa7e82faf40c23ecd93d84b7ecf79e kselftest/arm64: Add SVE 2.1 to hwcap test
+0dd45b51dffcecdc6c14fcb0761421562a83a6db arm64/sme: Rename za_state to sme_state
+46da86532c390f5501216af97e00665894ae1d59 arm64: Document boot requirements for SME 2
+bf6cab55771a0e5e126e95b79617d63cf43389ae arm64/sysreg: Update system registers for SME 2 and 2.1
+1eca6598e27990a3725006f97663eb7af42a27c9 arm64/sme: Document SME 2 and SME 2.1 ABI
+7b0092d9e5486a1026cd390057d17770f532245e arm64/esr: Document ISS for ZT0 being disabled
+3b6ab9f7c65c9fcdb60f89f7fcbd56c43d62ff81 arm64/sme: Manually encode ZT0 load and store instructions
+72519d2faf7dd4eb1ea6400239f340decc28a9c5 arm64/sme: Enable host kernel to access ZT0
+333f73aaa916ec2692817576cfab74e050f3061a arm64/sme: Add basic enumeration for SME2
+e3d3baba746864d47080b2a4a67d74995d286e62 arm64/sme: Provide storage for ZT0
+60bc0ce067787218e9e553372385c6d9275e47a8 arm64/sme: Implement context switching for ZT0
+d26b7ef2c9bb31ec683845c88a7aa20f1952b17e arm64/sme: Implement signal handling for ZT
+1d549b8eace1d1055dfa52b3a743f8ae8137412f arm64/sme: Implement ZT0 ptrace support
+faf588afddfa38594552f3cafbc97a130e6d31c8 arm64/sme: Add hwcaps for SME 2 and 2.1 features
+da3328a089801217d362cd78ba517e792c69cb9e kselftest/arm64: Add a stress test program for ZT0
+385f79a3728bd741963f0ada040c703361f71a27 kselftest/arm64: Cover ZT in the FP stress test
+d1d1a71fde235b2e0b7b01da72794b7a15ac28b2 kselftest/arm64: Enumerate SME2 in the signal test utility code
+a0f3ca0f01a105d96409a7931b93c06b4aea5b86 kselftest/arm64: Teach the generic signal context validation about ZT
+0ff4502e05b96d7a4dbde51313b9eaf7a4ed35d0 kselftest/arm64: Add test coverage for ZT register signal frames
+4d5fc475c9f8f2bc1c0d2a15af70f8f114e013bd kselftest/arm64: Add SME2 coverage to syscall-abi
+3d8f478b2aa650ddde675a5a69a32b644333f7b5 kselftest/arm64: Add coverage of the ZT ptrace regset
+2636512632fa647175b78ae65f94de7f035cd1d5 kselftest/arm64: Add coverage of SME 2 and 2.1 hwcaps
 
---===============6311315784300780112==--
+--===============6418486093389433671==--
