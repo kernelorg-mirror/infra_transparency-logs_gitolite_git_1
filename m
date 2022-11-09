@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0956389337121195350=="
+Content-Type: multipart/mixed; boundary="===============2613788515192338638=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Wed, 09 Nov 2022 11:35:42 -0000
-Message-Id: <166799374280.14785.18277277943203934129@gitolite.kernel.org>
+Date: Wed, 09 Nov 2022 11:36:39 -0000
+Message-Id: <166799379933.15155.14019069415931867518@gitolite.kernel.org>
 
---===============0956389337121195350==
+--===============2613788515192338638==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,44 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-linus
-    old: d68cc25b7c7fb3034c5a5b5f350a0b858c6d5a45
-    new: 9d5333c931347005352d5b8beaa43528c94cfc9c
+  - ref: refs/heads/usb-testing
+    old: fff61d4ccf3d1124bf7aa82fa996536833b8204a
+    new: 4c2604a9a6899bab195edbee35fc8d64ce1444aa
     log: |
-         7a58b8d6021426b796eebfae80983374d9a80a75 usb: chipidea: fix deadlock in ci_otg_del_timer
-         9d5333c931347005352d5b8beaa43528c94cfc9c usb: cdns3: host: fix endless superspeed hub port reset
+         434d806f077cad81d87a757adc631894bfa01ac2 dt-bindings: usb: usb-nop-xceiv: add wakeup-source property
+         4567d1a97f5290cb895a564feff0a5c770d6c332 usb: phy: generic: Add wakeup capability
+         ee9834636f9b07fe1dcf3fffbb325318cdb267d5 usb: ehci-pci: Set PROBE_PREFER_ASYNCHRONOUS
+         4c2604a9a6899bab195edbee35fc8d64ce1444aa usb: xhci-pci: Set PROBE_PREFER_ASYNCHRONOUS
          
 
---===============0956389337121195350==
+--===============2613788515192338638==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1667993740 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1667993796 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1667993740-b0e4cbe095660d5b39a56916aebe38190bd64bd3
+nonce 1667993795-b3592c9c27e68e0aa6e20a4f10268f6123ff66ac
 
-d68cc25b7c7fb3034c5a5b5f350a0b858c6d5a45 9d5333c931347005352d5b8beaa43528c94cfc9c refs/heads/usb-linus
+fff61d4ccf3d1124bf7aa82fa996536833b8204a 4c2604a9a6899bab195edbee35fc8d64ce1444aa refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmNrkIwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ts8P/3Y3Wacjy69JOVHL9C7T
-G2DquhI9jozOKa+0JftgK8HIMzlXCPda9xg4PBnmpiIakQEjpztznVgKPSkMfL78
-rYojCB02wrsUE5QStZIQeBsqD7Vl7S656UwKWi7MO75Mp241Sm89CDHMq0528zaX
-Adj46jg/Stn4qnr++RUx/HpCYn0xlO8WAgmc679HA931lMVpm+X2UQsO5x6LhIyE
-Biz3y2VpHJY1ZPKPuKgxzBQggN3De3i+bqmROqhPDHsWAM4uVvlWHRg9Ee8EpuJ7
-nVXhCWKUHjBBUZlCa8DWbN4XCXxhiDWrt996XtgBzZ6oIjOmj8hMOy6JJymq3rFq
-tb5Y1Uck1QyaiN2A2yTDXs2hKXaZpoS6yZFhaKfOv/r4O2plnop5pmWXN4jK6/hd
-pPchh3rri49Tqz254WVdxNT3YmhWUcyGoiuDOvzZthCYUrCio2XgAWoW73UjJCzg
-i2EKrKbK0E9/POWoUt9HDoBwJpy0egeY2YCi2rAWS6zqdCkjXZFaXwI6vVbqB878
-yicyzzAtYFEs4rqQgavFcP/yG9XkC2eEdlHg7JU19W/EdrEl2eoeoOcw/yR+rEeL
-60idCpsxF3OnKUGq6Ce3X/3MM9PKlxFMIUt1aHoRtcn58hYsfOESqYYwoTpN28ya
-4b6d8LzHuUI8OIZLkseYvW4m
-=9AMq
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmNrkMQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+lzkQAM6nLQRvNIEKUSA4vdxP
+gzTZIJ1UnHCK9sbKiYGQ2/kokgWyIqM5GRWIaiLkYiIa0Yd9eDpKm9rs78dR+DWe
+e2w9GwrVkaGWIWjXOOYXxU2VfqmQABbaRmXpD9ve9tVp2VhnlFYLye7Bgo6ZKD0T
+1h01MZP230UBe6WqE6CBS5ZgFT9VEWjcWkJftjodRXZeJPZm5fOWRIoGKSHDzaQO
+FeozwVA59YicdTnAcbsUUBQTMQpLEWzTDDz0M6kGuzpbkOgDUrvQVpItLg1dZg9z
+4/CTRgSxu+obV7Qx/COxwX+L9s2G3KY6/rFHEmzF1+aAvYX2fcVn8MctA1FhaNGf
+rKp0za2+Vgndt/7Dvll24rdoRoPVp6tznOmA6ro7tBS/3810Jf2wZkAinSUKqiSn
+pkpYCj8xcNrvzX5vOxt8SvLoiswgoyGahNcqtkGZz5rzvk5/o5b0L9UnGhMuyP6z
+VcWlQLCblyr8vUBotYWqoOXoD7tMbilgpzivySi7LCGj3XA5m3QND4nXh8gv46wa
+2mw7xdwzEa272vHW8JU5OUURocC5i1yvjE9ZG17dRoc0WiUUrVFaURILhX+pLEnv
+gzEkqhAsUBKSFyo6uxsrgeuWv5n48XOJwUtwWsDxyeJSlNyL3AKs14QPbGoMwdND
+FmZdb/BdtV36UgXsUmLvBcGJ
+=LQwf
 -----END PGP SIGNATURE-----
 
---===============0956389337121195350==--
+--===============2613788515192338638==--
