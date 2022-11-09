@@ -1,52 +1,28 @@
-Content-Type: multipart/mixed; boundary="===============6264434133605547405=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Wed, 09 Nov 2022 23:33:11 -0000
-Message-Id: <166803679120.9502.4189101932082137246@gitolite.kernel.org>
-
---===============6264434133605547405==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/docs/man-pages/man-pages
+Date: Wed, 09 Nov 2022 23:57:56 -0000
+Message-Id: <166803827637.26884.4855101206729889010@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/net-queue
-user: tnguy
+repo: pub/scm/docs/man-pages/man-pages
+user: alx
 changes:
-  - ref: refs/heads/100GbE
-    old: e01555956b0aee4a69be5adae81c94a66699a274
-    new: 0e710a3ffd0caaf23b8791b041e8792f252f8e4f
-    log: revlist-e01555956b0a-0e710a3ffd0c.txt
-
---===============6264434133605547405==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e01555956b0a-0e710a3ffd0c.txt
-
-a3335faebe1608f3e78e24f09501c9f7d5ebf87a can: af_can: can_exit(): add missing dev_remove_pack() of canxl_packet
-8aa59e355949442c408408c2d836e561794c40a1 can: af_can: fix NULL pointer dereference in can_rx_register()
-866337865f3747c68a3e7bb837611e39cec1ecd6 can: isotp: fix tx state handling for echo tx processing
-3eb3d283e8579a22b81dd2ac3987b77465b2a22f can: j1939: j1939_send_one(): fix missing CAN header initialization
-ae64438be1923e3c1102d90fd41db7afcfaf54cc can: dev: fix skb drop check
-8b043dfb3dc7c32f9c2c0c93e3c2de346ee5e358 can: rcar_canfd: Add missing ECC error checks for channels 2-7
-03832a32bf8ff0a8305d94ddd3979835a807248f netfilter: nfnetlink: fix potential dead lock in nfnetlink_rcv_msg()
-03c1f1ef1584c981935fab2fa0c45d3e43e2c235 netfilter: Cleanup nft_net->module_list from nf_tables_exit_net()
-2b0145032877fe0fa3460dfff285cc2fdcc9fc2e Merge tag 'linux-can-fixes-for-6.1-20221107' of git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can
-519b58bbfa825f042fcf80261cc18e1e35f85ffd net: marvell: prestera: fix memory leak in prestera_rxtx_switch_init()
-07d120aa33cc9d9115753d159f64d20c94458781 net: tun: call napi_schedule_prep() to ensure we own a napi
-b06334919c7a068d54ba5b219c05e919d89943f7 net: nixge: disable napi when enable interrupts failed in nixge_open()
-742c60e1285ca40642e988f7e3db92232171b27d ibmveth: Reduce default tx queues to 8
-58bb78ce02269c0cf5b1f2bd2e4a605500b44c6b selftests: netfilter: Fix and review rpath.sh
-d38a648d2d6cc7bee11c6f533ff9426a00c2a74c net: wwan: iosm: fix memory leak in ipc_pcie_read_bios_cfg
-035e3befc191347331dd2530c3686e05a8acfbb2 net: wwan: iosm: fix driver not working with INTEL_IOMMU disabled
-02d2d2ea4a3bc2391f6ac31f6854da83e8a63829 net: wwan: iosm: fix invalid mux header type
-980ec04a88c9f0046c1da65833fb77b2ffa34b04 net: wwan: iosm: fix kernel test robot reported errors
-5d041588e9f6aa79e4abfc26d93c948f15d4d5eb Merge branch 'wwan-iosm-fixes'
-27c064ae14d1a80c790ce019759500c95a2a9551 Merge git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
-f23df5220d2bf8d5e639f074b76f206a736d09e1 ice: Fix spurious interrupt during removal of trusted VF
-0e710a3ffd0caaf23b8791b041e8792f252f8e4f iavf: Fix VF driver counting VLAN 0 filters
-
---===============6264434133605547405==--
+  - ref: refs/heads/master
+    old: 9b2f5804ee5e02b5e0b49cee9f8065fc552de215
+    new: c64cd13e002561c6802c6a1a1a8a640f034fea70
+    log: |
+         bf2d65e6e5224998a1d20affc8c60c13ae02c257 errno.3: srcfix
+         e6744f95b20643bdedd40e79d999303df8c5cc19 ioctl_tty.2: ffix
+         3c9ee2e918223361e5216333dc3cf301a0767e76 lint-man.mk: lint-man-groff: Prefix error message with file name
+         100953c7a0697eb56d9d2d7f77ea224248304f86 lint-man.mk: lint-man-mandoc: Silence warnings about the date
+         4896a4f8c4b8e5903213b2427b7a636480de4bfe lint-man.mk: lint-man-mandoc: Silence warnings about lowercase in TH
+         892417c94e432d5c66902a4c53f7ce4f9c066eaf lint-man.mk: lint-man-mandoc: Silence warnings about empty UR blocks
+         6bb53a30af9960b30ca58bb62002da926f853c81 lint-man.mk: lint-man-mandoc: Silence warnings about unsupported tbl(1) features
+         1eed67e75deff662dffce3195e55e608809eaafd Various pages: SYNOPSIS: Use VLA syntax in function parameters
+         77f31ff920bc0abdf73ee4ece808ba4eeeff90a4 get_mempolicy.2, mbind.2: SYNOPSIS: Use VLA syntax in function parameters
+         c64cd13e002561c6802c6a1a1a8a640f034fea70 Various pages: SYNOPSIS: Use VLA syntax in 'void *' function parameters
+         
