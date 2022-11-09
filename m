@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3389858260156561045=="
+Content-Type: multipart/mixed; boundary="===============6609296144543690405=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Wed, 09 Nov 2022 01:12:57 -0000
-Message-Id: <166795637709.12985.1293423169267983531@gitolite.kernel.org>
+Date: Wed, 09 Nov 2022 01:18:38 -0000
+Message-Id: <166795671816.17948.12546555206453576735@gitolite.kernel.org>
 
---===============3389858260156561045==
+--===============6609296144543690405==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
-  - ref: refs/heads/tmp.perf/urgent
+  - ref: refs/heads/perf/urgent
     old: 5aaef24b5c6d4246b2cac1be949869fa36577737
     new: 94d957ae513fc420d0a5a9bac815eb49ffebb56f
     log: revlist-5aaef24b5c6d-94d957ae513f.txt
 
---===============3389858260156561045==
+--===============6609296144543690405==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -398,4 +398,4 @@ ad353b710c7493df3d4fc2d3a51819126bed2e81 perf stat: Fix printing os->prefix in C
 20ebc4a649b82e6ad892684c76ea1e8dd786d336 perf test: Fix skipping branch stack sampling test
 94d957ae513fc420d0a5a9bac815eb49ffebb56f perf tools: Add the include/perf/ directory to .gitignore
 
---===============3389858260156561045==--
+--===============6609296144543690405==--
