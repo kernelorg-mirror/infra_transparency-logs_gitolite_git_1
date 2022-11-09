@@ -1,66 +1,43 @@
-Content-Type: multipart/mixed; boundary="===============2446279306814687373=="
+Content-Type: multipart/mixed; boundary="===============5520958503651224511=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Wed, 09 Nov 2022 18:28:42 -0000
-Message-Id: <166801852220.19867.14362770194493609789@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Wed, 09 Nov 2022 18:28:47 -0000
+Message-Id: <166801852733.19953.8017360329045343183@gitolite.kernel.org>
 
---===============2446279306814687373==
+--===============5520958503651224511==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/next-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/acme/linux
+user: acme
 changes:
-  - ref: refs/heads/master
-    old: ee1bfbcc71cfac3b570365558cf38cb70f6ca971
-    new: 3ca6c3b43c72a5fd0399d9ee1c7e5af978895ff1
-    log: revlist-ee1bfbcc71cf-3ca6c3b43c72.txt
+  - ref: refs/heads/tmp.perf/core
+    old: 816815b852216f3aa3a43e2ce91c5510927cd61b
+    new: 44a037f54b97e4215a282d39d0f7f28c588f185c
+    log: revlist-816815b85221-44a037f54b97.txt
 
---===============2446279306814687373==
+--===============5520958503651224511==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ee1bfbcc71cf-3ca6c3b43c72.txt
+Content-Disposition: attachment; filename=revlist-816815b85221-44a037f54b97.txt
 
-c3d96f690a790074b508fe183a41e36a00cd7ddd net, proc: Provide PROC_FS=n fallback for proc_create_net_single_write()
-4d843be56ba6a8c0e566afd58775742d9e721505 rxrpc: Trace setting of the request-ack flag
-334dfbfc5a7187c99761df2392dd4cc49c453bea rxrpc: Split call timer-expiration from call timer-set tracepoint
-589a0c1e0ac31ccba49b214762e444dc015ee1e2 rxrpc: Track highest acked serial
-b015424695f03a9fa5862d09c267ed458e256300 rxrpc: Add stats procfile and DATA packet stats
-f2a676d10038e8f3913dc576397b9c9efb190afd rxrpc: Record statistics about ACK types
-f7fa52421f76309c574f2575701660bc3ea3a705 rxrpc: Record stats for why the REQUEST-ACK flag is being set
-8889a711f9b4dcf4dd1330fa493081beebd118c9 rxrpc: Fix ack.bufferSize to be 0 when generating an ack
-42fb06b391ace2aec5cdb1ebb8ff668f0a34332f net: Change the udp encap_err_rcv to allow use of {ip,ipv6}_icmp_error()
-b6c66c4324e7dd66a06a6a034204ae7d4e95c28c rxrpc: Use the core ICMP/ICMP6 parsers
-ed472b0c8783e7e3896a8fb4382f2187aae427e1 rxrpc: Call udp_sendmsg() directly
-23b237f3259299b75dd2ffefc7a4af889ba308c8 rxrpc: Remove unnecessary header inclusions
-27f699ccb89d65165175525254fec3d9d6b8d500 rxrpc: Remove the flags from the rxrpc_skb tracepoint
-a11e6ff961a01884482b2a70ced74a5c62d96801 rxrpc: Remove call->tx_phase
-02a1935640f8f8539b8f2dbd6eeb539de93b2ce4 rxrpc: Define rxrpc_txbuf struct to carry data to be transmitted
-72f0c6fb057971864fe4d42b289b8e6ede836ef1 rxrpc: Allocate ACK records at proposal and queue for transmission
-530403d9ba1c3f51c721a394f642e56309072295 rxrpc: Clean up ACK handling
-faf92e8d53f5f03842da25af971a3f0ef88ffba2 rxrpc: Split the rxrpc_recvmsg tracepoint
-d4d02d8bb5c412d977af7ea7c7ea91977a6a64dc rxrpc: Clone received jumbo subpackets and queue separately
-5d7edbc9231ec6b60f9c5b7e7980e9a1cd92e6bb rxrpc: Get rid of the Rx ring
-a4ea4c47761943d90cd5d1688b3c3c65922ff2b1 rxrpc: Don't use a ring buffer for call Tx queue
-4e76bd406d6e9208ea558953862a47524829688c rxrpc: Remove call->lock
-d57a3a151660902091491ac2633134e1be92557f rxrpc: Save last ACK's SACK table rather than marking txbufs
-6869ddb87d475bde2da0dbd4d71270996d65cd47 rxrpc: Remove the rxtx ring
-1fc4fa2ac93dcf3542f2dc6f7ff88fb022da5116 rxrpc: Fix congestion management
-30d95efe06e18bd55691902bb4ec873e4b21a754 rxrpc: Allocate an skcipher each time needed rather than reusing
-8e18be7610aebea50e9327c11afcd5eeaaa06644 lib: Fix some kernel-doc comments
-380f9acdf74729d79972b947820f00b42cc26dae net: ethernet: renesas: rswitch: Fix endless loop in error paths
-ef912fe443adfa15b88645b3bf58c92e5a364167 net: dsa: microchip: add ksz9563 in ksz_switch_ops and select based on compatible string
-a9c6db3bc9d872a7b808928c5df342670aac3336 net: dsa: microchip: add irq in i2c probe
-e06999c3dc62c79fa897eec1293faa3c2bd8892f net: dsa: microchip: add error checking for ksz_pwrite
-4630d1420f841b2b112928359c4dc148d9a7d1f8 net: dsa: microchip: ksz8563: Add number of port irq
-9b1833170632e278971358c8c055d5960c6c7a05 net: dsa: microchip: add dev_err_probe in probe functions
-b96c7b4cbeecbcf009b70d734f5bbdd2a886949f Merge branch 'dsa-microchip-checking'
-bd039b5ea2a91ea707ee8539df26456bd5be80af net/core: Allow live renaming when an interface is up
-3ca6c3b43c72a5fd0399d9ee1c7e5af978895ff1 Merge tag 'rxrpc-next-20221108' of git://git.kernel.org/pub/scm/linux/kernel/git/dhowells/linux-fs
+92ea0720ba9cf7f09589a711245c2da145125958 perf trace: Use sig_atomic_t to avoid undefined behaviour in a signal handler
+14e4b9f4289aed2c8d4858cd750748041b6c434f perf trace: Raw augmented syscalls fix libbpf 1.0+ compatibility
+514607e3c0f0e381aa4f6fe866b70b1fa9bfae74 perf trace: hello fix libbpf 1.0+ compatibility
+baddab891a21e5870723d182020fec445b0874b3 perf trace: empty fix libbpf 1.0+ compatibility
+71811e8c77e974a0ab978c86a2b32b3f2c82f455 perf trace: 5sec fix libbpf 1.0+ compatibility
+cfddf0d4a5571bcc94760c27729a60daefda38bb perf bpf: Remove now unused BPF headers
+3cd65616f607cd3769647e2e0490e4048c0f289e perf examples bpf: Remove augmented_syscalls.c, the raw_syscalls one should be used instead
+b018899e620b8ee4529f43bd02e9e8e43043e33e perf bpf: Rename perf_include_dir to libbpf_include_dir
+a9cd6c6766857212894dd736d9f2bc29f1416f6a perf trace: Add BPF augmenter to perf_event_open()'s 'struct perf_event_attr' arg
+a9dfc46c67b52ad43b8e335e28f4cf8002c67793 perf probe: Fix to get the DW_AT_decl_file and DW_AT_call_file as unsinged data
+5d0557c75b2f2c7a868742d21a3ad94813ca97f4 perf intel-pt: Start turning intel-pt-pkt-decoder-test.c into a suite of intel-pt subtests
+828143f8da2856014df3102f63f7e4e4dc2d1c22 perf intel-pt: Redefine test_suite to allow for adding more subtests
+44a037f54b97e4215a282d39d0f7f28c588f185c perf intel-pt: Add hybrid CPU compatibility test
 
---===============2446279306814687373==--
+--===============5520958503651224511==--
