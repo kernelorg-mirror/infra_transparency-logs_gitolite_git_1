@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
-Date: Wed, 09 Nov 2022 20:36:47 -0000
-Message-Id: <166802620778.15293.9415731425616333713@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+Date: Wed, 09 Nov 2022 20:40:31 -0000
+Message-Id: <166802643147.18146.16826184332664921237@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf
-user: martin.lau
+repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+user: vudentz
 changes:
   - ref: refs/heads/master
-    old: eb86559a691cea5fa63e57a03ec3dc9c31e97955
-    new: 0811664da064c6d7ca64c02f5579f758a007e52d
+    old: ab80b2cec05fec4b9f3f93d33cc78463b33e8a6c
+    new: 6ec6368edb468bae8082dd3507115b0f6448d587
     log: |
-         0811664da064c6d7ca64c02f5579f758a007e52d selftests/bpf: Fix casting error when cross-compiling test_verifier for 32-bit platforms
+         14026a4ed2758d228e63bbab44fb8decf3956057 Bluetooth: btusb: Fix CSR clones again by re-adding ERR_DATA_REPORTING quirk
+         6ec6368edb468bae8082dd3507115b0f6448d587 Bluetooth: btusb: Add debug message for CSR controllers
          
