@@ -1,21 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/srini/slimbus
-Date: Wed, 09 Nov 2022 09:56:30 -0000
-Message-Id: <166798779091.9124.14895262321432719979@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/efi/efi
+Date: Wed, 09 Nov 2022 10:07:57 -0000
+Message-Id: <166798847756.16203.17300812478437062400@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/srini/slimbus
-user: srini
+repo: pub/scm/linux/kernel/git/efi/efi
+user: ardb
 changes:
-  - ref: refs/heads/for-next
-    old: c3174a51dc361ceaeefee0a252f4a4763c774216
-    new: 371fcbd32b26e865a79c1f0d6a3006a9e480df3f
+  - ref: refs/heads/next
+    old: 59b50423fb2a2c411100d8626d582664d041704f
+    new: 883ab23bf3321c1962bbc50c4852f3369c3811ac
     log: |
-         77b3a4027cb3f265a83f1b533f5179f9c38d7925 dt-bindings: slimbus: convert bus description to DT schema
-         6d0146a25d73af8fcb5fd8a92c8c8543aae1b6e0 dt-bindings: slimbus: qcom,slim: convert to DT schema
-         371fcbd32b26e865a79c1f0d6a3006a9e480df3f dt-bindings: slimbus: qcom,slim-ngd: convert to DT schema
+         1ef14af40217cd49a6247226a35a9a0f877a6a85 efi: libstub: fix efi_load_initrd_dev_path() kernel-doc comment
+         372cb5c8072969307b2ae468247baa62f3658bd2 efi/cper, cxl: Decode CXL Protocol Error Section
+         883ab23bf3321c1962bbc50c4852f3369c3811ac efi/cper, cxl: Decode CXL Error Log
          
