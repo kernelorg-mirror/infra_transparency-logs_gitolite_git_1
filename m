@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
-Date: Wed, 09 Nov 2022 20:50:23 -0000
-Message-Id: <166802702301.24727.7554173226139359626@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
+Date: Wed, 09 Nov 2022 21:05:17 -0000
+Message-Id: <166802791769.3475.5191271311811982796@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf
-user: martin.lau
+repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
+user: shuah
 changes:
-  - ref: refs/heads/master
-    old: 0811664da064c6d7ca64c02f5579f758a007e52d
-    new: 5704bc7e8991164b14efb748b5afa0715c25fac3
+  - ref: refs/heads/kunit
+    old: 6fe1ad4a156095859721fef85073df3ed43081d4
+    new: 870f63b7cd78d0055902d839a60408f7428b4e84
     log: |
-         5704bc7e8991164b14efb748b5afa0715c25fac3 selftests/bpf: Fix test_progs compilation failure in 32-bit arch
+         870f63b7cd78d0055902d839a60408f7428b4e84 kunit: eliminate KUNIT_INIT_*_ASSERT_STRUCT macros
          
