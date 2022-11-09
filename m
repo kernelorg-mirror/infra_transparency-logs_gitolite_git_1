@@ -1,24 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 09 Nov 2022 13:07:11 -0000
-Message-Id: <166799923112.14971.17898565752313299216@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============1147500528521243978=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Wed, 09 Nov 2022 13:08:13 -0000
+Message-Id: <166799929344.15435.15306727704817856128@gitolite.kernel.org>
+
+--===============1147500528521243978==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: davem
+repo: pub/scm/linux/kernel/git/gregkh/usb
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: 380f9acdf74729d79972b947820f00b42cc26dae
-    new: b96c7b4cbeecbcf009b70d734f5bbdd2a886949f
+  - ref: refs/heads/usb-linus
+    old: 9d5333c931347005352d5b8beaa43528c94cfc9c
+    new: 181135bb20dcb184edd89817831b888eb8132741
     log: |
-         ef912fe443adfa15b88645b3bf58c92e5a364167 net: dsa: microchip: add ksz9563 in ksz_switch_ops and select based on compatible string
-         a9c6db3bc9d872a7b808928c5df342670aac3336 net: dsa: microchip: add irq in i2c probe
-         e06999c3dc62c79fa897eec1293faa3c2bd8892f net: dsa: microchip: add error checking for ksz_pwrite
-         4630d1420f841b2b112928359c4dc148d9a7d1f8 net: dsa: microchip: ksz8563: Add number of port irq
-         9b1833170632e278971358c8c055d5960c6c7a05 net: dsa: microchip: add dev_err_probe in probe functions
-         b96c7b4cbeecbcf009b70d734f5bbdd2a886949f Merge branch 'dsa-microchip-checking'
+         181135bb20dcb184edd89817831b888eb8132741 usb: add NO_LPM quirk for Realforce 87U Keyboard
          
+
+--===============1147500528521243978==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1667999291 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1667999290-7c9013711408036eb368b3a86e5809c20122b0ab
+
+9d5333c931347005352d5b8beaa43528c94cfc9c 181135bb20dcb184edd89817831b888eb8132741 refs/heads/usb-linus
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmNrpjsbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+IEwP/1rb1M5szk6CbJ5P6m4k
+/73Ipr4G8P7vSzHUmLrxdjshKUDI9wwZs40VITyLxwSBuXyqc0LxA79TorgzeqI+
++qckZSwuDYAPM+SkzpB7NrE3kBY2rkDTwqhMylCMjb9L+C7NAGdWh5mypIO3U38M
+87gZzQx3P//D8fL1cM0AMv1gWsir3pv11p28t7tt8jodrBW0l0pKCM9p4orcdzaS
+soAWdSECuiXNM2sn82P6MQEEuDn2rPQLCwgNuVmwdl0ru2NQNSHoJArsq3o5bzHs
+Eu103Y9AOs69vai6qiIOjsSOAlcs5h2r3Q48caTgLmkbdHYxphqxIjdWUy370D2e
+LUCFUG+z9onfAgeeIEekoZNbnfXA/ACv2XPQlPYcFwVu22onH74oGjzd9Xy0p6eY
+XaRMIB6TPJHVlOd8HLtfX7pO5eCLCKcHeOaxqlQb9EF4jlYi4ONEZXLWh1KR9OOe
+2nFykD9MWvCLVJ9YfS9/5A4CXjYyVXB47ZdJmG+5xGrhooorfTslAAb1C1cQZ28C
+k7DBSqwA9I12VbvF6950BnjX3+QsBAGrwCErfb2zdkKY9cQ4CMVzySsEFVddKjSd
+UmZrhEMV1JDr7l4X5L+kyJ7jJOwFjQCCLbtuJQTzsPOlNoqSD4XQx8lYrZc8Md6I
+wMkFl3bGVW2P5cfZMrrFFH5W
+=EQN2
+-----END PGP SIGNATURE-----
+
+--===============1147500528521243978==--
