@@ -1,27 +1,58 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Wed, 09 Nov 2022 14:37:42 -0000
-Message-Id: <166800466220.15603.10527485856923739129@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============3376154574141340522=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
+Date: Wed, 09 Nov 2022 14:41:11 -0000
+Message-Id: <166800487150.18386.2274391383678836706@gitolite.kernel.org>
+
+--===============3376154574141340522==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
-user: acme
+repo: pub/scm/linux/kernel/git/gregkh/char-misc
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/perf/core
-    old: 96e6d929a6c3368ad6327a52f870294747888c77
-    new: 816815b852216f3aa3a43e2ce91c5510927cd61b
+  - ref: refs/heads/char-misc-linus
+    old: 92ca969ff8815f3feef2645199bd39bf594e5eeb
+    new: ab126f51c93a15093df604f661c9480854c005a3
     log: |
-         22e7253ba07a8282a8c77069d506717bcb230e79 perf trace: Raw augmented syscalls fix libbpf 1.0+ compatibility
-         39f2a7e3b52ed0c2d3a06647f1440e23f68514d1 perf trace: hello fix libbpf 1.0+ compatibility
-         84994f431a85d60d64cee6af29f96d86932573f4 perf trace: empty fix libbpf 1.0+ compatibility
-         86c0d7f04fa7be4929a6c7d97607e8ec0a2cd554 perf trace: 5sec fix libbpf 1.0+ compatibility
-         a196d96d791e4f0fd0d926770e220a14c7663e53 perf bpf: Remove now unused BPF headers
-         793029c3783c44c5dafcf2ecb7966f27edf98da1 perf examples bpf: Remove augmented_syscalls.c, the raw_syscalls one should be used instead
-         f7c6722dba0eda0442b9ae74418722a844a23433 perf bpf: Rename perf_include_dir to libbpf_include_dir
-         1bd230ca2fa6df214e65ab102b717c4e2bff242a perf trace: Add BPF augmenter to perf_event_open()'s 'struct perf_event_attr' arg
-         816815b852216f3aa3a43e2ce91c5510927cd61b perf probe: Fix to get the DW_AT_decl_file and DW_AT_call_file as unsinged data
+         e5b0d06d9b10f5f43101bd6598b076c347f9295f misc/vmw_vmci: fix an infoleak in vmci_host_do_receive_datagram()
+         6e63153db50059fb78b8a8447b132664887d24e3 siox: fix possible memory leak in siox_device_add()
+         ab126f51c93a15093df604f661c9480854c005a3 parport_pc: Avoid FIFO port location truncation
          
+
+--===============3376154574141340522==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1668004868 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
+nonce 1668004865-3c42669c41006944642b894637feb2349c4a6117
+
+92ca969ff8815f3feef2645199bd39bf594e5eeb ab126f51c93a15093df604f661c9480854c005a3 refs/heads/char-misc-linus
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmNrvAQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+NscP/RuGSUpcqhXJaZMMxFre
+VNWh1/Ax32JKVbxn0682tdtV+P0E5OE0xYhUQkYmqyYB5kmObUbz4W0TsCuX683B
+Cn8x/j5ig69Cw98HLHl4IbMT762qTVZnyzUMDoJik2NzEAiD1wIU09wXXYdWPtBQ
+0Co3xAXIU1rFdLzpZDwoayChVxm02qlYyGiodEohi32UhvKhkDbK9LXmPKnvCAcG
+ZVZEp6UhQRkCFpCqkFwSm3+91GCuTLSQgRkuMuFgwndtndFh90WxNGoUbgmOh1Lo
+LMr3PWY3WWkaOi17q8mX281evyHWsJpiHYaFCxyzq1kHjE3jUJmlDTiaWjnylzpo
+fLafnugc5iUsR4wkJzNbc+hDCstg2NVaH+NZQAmsk2JtNf1VdQCe1fG9SXJqcZ/x
+UsMSt3kQR1JMm4zB/4E8omLk2nlNUHt+9wlyav1t4qRR3B2gPUCdgSZIY38IoQmd
+GCNnYT+EKfkcGG5xpKN180+MiG81G/SljjfX3bzWyPABVMPMj7TVYmnQL50VmwQ4
+mqLJstCHK33FLgUHF0Bf2YatlTnv7dqQD5XterG+AF8ggULVSh6QSNlBMmusTqFR
+Izr7D4951/3PYQUl/50cwAhSJzq5eAA0ODGxziNI4wxte4gO65gwJS9l4Gia9UrF
+tfdmqgEARXKwBWx3iO2GYwD8
+=Tdzb
+-----END PGP SIGNATURE-----
+
+--===============3376154574141340522==--
