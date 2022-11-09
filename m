@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mani/mhi
-Date: Wed, 09 Nov 2022 07:42:34 -0000
-Message-Id: <166797975483.29068.13681784228518686408@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
+Date: Wed, 09 Nov 2022 08:12:29 -0000
+Message-Id: <166798154924.17456.9802062597328573865@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mani/mhi
-user: mani
+repo: pub/scm/linux/kernel/git/ardb/linux
+user: ardb
 changes:
-  - ref: refs/heads/mhi-next
-    old: c970e67d64a51e34c70818155d58c3c93a5db094
-    new: d8425a8c3a8419dd505016951dd6393f21fb394e
+  - ref: refs/heads/efi-zboot-direct-mmu-on-v2
+    old: 0000000000000000000000000000000000000000
+    new: 7dadc120dd8fafba71bf149bacbc56e2245fb5c8
