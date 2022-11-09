@@ -1,20 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
-Date: Wed, 09 Nov 2022 17:50:35 -0000
-Message-Id: <166801623570.23770.7570326281569644211@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/crng/random
+Date: Wed, 09 Nov 2022 17:56:44 -0000
+Message-Id: <166801660427.29539.14829685573476246651@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/firmware/linux-firmware
-user: jwboyer
+repo: pub/scm/linux/kernel/git/crng/random
+user: zx2c4
 changes:
-  - ref: refs/heads/main
-    old: 712460ccb1ce9abf28e3bbf0820d31c224b5c6ce
-    new: 64c9c2b86f5751cfa118ae7edbda5cdc9b3a0b4e
+  - ref: refs/heads/master
+    old: 6cd0a8ecc0f4bb027e35063c0a4ec491c061bd27
+    new: 21c8b57c7a506a0233099ec4af4b503939c8010d
     log: |
-         4a733c26d7a2ea93c06bfb793d6c878bc19a2c3c iwlwifi: add new FWs from core74_pv-60 release
-         64c9c2b86f5751cfa118ae7edbda5cdc9b3a0b4e Merge tag 'iwlwifi-fw-2022-11-08' of http://git.kernel.org/pub/scm/linux/kernel/git/iwlwifi/linux-firmware
+         dab644847cc74071accefe3ea3afaa00aa0a247e stackprotector: actually use get_random_canary()
+         01931f5abbde32dd0abfa9384ad22336ea6b8e92 random: use random.trust_{bootloader,cpu} command line option only
+         8caa01d9d8b1c9c15e267f36eeb7d63f4021958a random: remove early archrandom abstraction
+         623c8dd2bc7f432756074d270cf4f27432affa52 random: adjust comment to account for removed function
+         0d7dcdaf5a0b0fc6207157edce5c84efdda6e522 random: modernize documentation comment on get_random_bytes()
+         21c8b57c7a506a0233099ec4af4b503939c8010d hw_random: use add_hwgenerator_randomness() for early entropy
          
