@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8258389507805295374=="
+Content-Type: multipart/mixed; boundary="===============2162544340474720308=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/arnd/asm-generic
-Date: Wed, 09 Nov 2022 13:10:49 -0000
-Message-Id: <166799944934.18196.14121796756249051155@gitolite.kernel.org>
+Date: Wed, 09 Nov 2022 13:11:15 -0000
+Message-Id: <166799947555.18427.11161397959263745235@gitolite.kernel.org>
 
---===============8258389507805295374==
+--===============2162544340474720308==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/arnd/asm-generic
 user: arnd
 changes:
-  - ref: refs/heads/asm-generic
+  - ref: refs/heads/master
     old: 2e21c1575208786f667cb66d8cf87a52160b81db
     new: defbab270d45e32b068e7e73c3567232d745c60f
     log: revlist-2e21c1575208-defbab270d45.txt
 
---===============8258389507805295374==
+--===============2162544340474720308==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ b72018ab8236c3ae427068adeb94bdd3f20454ec Merge tag 'fbdev-for-6.1-rc3' of git://
 30a0b95b1335e12efef89dd78518ed3e4a71a763 Linux 6.1-rc3
 defbab270d45e32b068e7e73c3567232d745c60f include/uapi/linux/swab: Fix potentially missing __always_inline
 
---===============8258389507805295374==--
+--===============2162544340474720308==--
