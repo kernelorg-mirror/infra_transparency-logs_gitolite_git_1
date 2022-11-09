@@ -1,23 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Wed, 09 Nov 2022 21:42:13 -0000
-Message-Id: <166803013358.28470.15166262047066861542@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Wed, 09 Nov 2022 21:45:56 -0000
+Message-Id: <166803035648.31418.4910543142882408110@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
+user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: f141df371335645ce29a87d9683a3f79fba7fd67
-    new: f67dd6ce0723ad013395f20a3f79d8a437d3f455
+  - ref: refs/heads/dev-queue
+    old: cc324bc964b63a8de656bc045a5bff7b67f4a1e7
+    new: 675a4fb12f8f01ff4a2da98cd1cee9d7ee3f19d1
     log: |
-         a207620123f27e6f63bab13b46b20e03a3deec8d mm/slab_common: repair kernel-doc for __ksize()
-         eb4940d4adf590590a9d0c47e38d2799c2ff9670 mm/slab: remove !CONFIG_TRACING variants of kmalloc_[node_]trace()
-         328687151b2a29fe93db4736bfb90da134e52fbf mm/slab_common: Restore passing "caller" for tracing
-         c18c20f16219516b12a4f2fd29c25e06be97e064 mm, slab: remove duplicate kernel-doc comment for ksize()
-         f67dd6ce0723ad013395f20a3f79d8a437d3f455 Merge tag 'slab-for-6.1-rc4-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vbabka/slab
+         ba4727fb6dc075c546d2aea5695b5aae3fcf88ec iavf: Fix shutdown pci callback to match the remove one
+         f3e97a91364e97cdbc6a6ffadb4ac71d8b67d73d iavf: Fix race condition between iavf_shutdown and iavf_remove
+         675a4fb12f8f01ff4a2da98cd1cee9d7ee3f19d1 ice: fix handling of burst Tx timestamps
          
