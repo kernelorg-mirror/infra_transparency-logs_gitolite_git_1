@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============6418486093389433671=="
+Content-Type: multipart/mixed; boundary="===============4301203226396307203=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Wed, 09 Nov 2022 18:33:29 -0000
-Message-Id: <166801880947.23692.11149698153469245150@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kas/linux
+Date: Wed, 09 Nov 2022 18:37:31 -0000
+Message-Id: <166801905118.26658.10352103479426122671@gitolite.kernel.org>
 
---===============6418486093389433671==
+--===============4301203226396307203==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/kas/linux
+user: kas
 changes:
-  - ref: refs/heads/arm64-sme2
-    old: 9bde3840c45079285615a09c3dea2863917182e8
-    new: 2636512632fa647175b78ae65f94de7f035cd1d5
-    log: revlist-9bde3840c450-2636512632fa.txt
+  - ref: refs/heads/lam
+    old: 9cc7511961c632c50ba6b34edf7bc23c5361fbd2
+    new: 0b56220b9ab67da2ff75c8db4c7e5f5cbdfc32a0
+    log: revlist-9cc7511961c6-0b56220b9ab6.txt
 
---===============6418486093389433671==
+--===============4301203226396307203==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9bde3840c450-2636512632fa.txt
+Content-Disposition: attachment; filename=revlist-9cc7511961c6-0b56220b9ab6.txt
 
 f7ec3f62d7736ed14050716943a9562879155fcc media: remove reference to CONFIG_EMBEDDED in MEDIA_SUPPORT_FILTER
 41fd1cb6151439b205ac7611883d85ae14250172 media: mceusb: Use new usb_control_msg_*() routines
@@ -924,6 +924,7 @@ ee15e1f38dc201fa7d63c13aa258b728dce27f4d kcm: do not sense pfmemalloc status in 
 7dd257d02eb31391c3cf06874412322c0943b67d Merge tag 'execve-v6.1-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
 23758867219c8d84c8363316e6dd2f9fd7ae3049 Merge tag 'net-6.1-rc3-2' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 9f2ac64d6ca60db99132e08628ac2899f956a0ec riscv: mm: add missing memcpy in kasan_init
+9fd429c28073fa40f5465cd6e4769a0af80bf398 x86/kasan: Map shadow for percpu pages on demand
 b8c86872d1dc171d8f1c137917d6913cae2fa4f2 riscv: fix detection of toolchain Zicbom support
 aae538cd03bc8fc35979653d9180922d146da0ca riscv: fix detection of toolchain Zihintpause support
 952b64d6665c8b6fdd13ba63be7adc3be51641d7 Merge patch series "Fix RISC-V toolchain extension support detection"
@@ -936,6 +937,7 @@ e3c5a78cdb6237bfb9641b63cccf366325229eec blk-mq: Properly init requests from blk
 dd183e320524f076a765ec441193deb90bd53836 Merge branches 'acpi-resource', 'acpi-pcc' and 'devprop'
 9ed88fcfb1b08c41bde0381dece84d152d53774c MAINTAINERS: Change myself to a maintainer
 05c31d25cc9678cc173cf12e259d638e8a641f66 Merge tag 'v6.1-p3' of git://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6
+8844b5452d14ffd6c9d259d419842039ed656b7d x86/mm: Randomize per-cpu entry area
 e3493d682516e2b7ef69587ddf91b0371a1511d0 Merge tag 'drm-fixes-2022-10-28' of git://anongit.freedesktop.org/drm/drm
 f186fd2f5a83fbfe85b1f0048d741c0726f5119a Merge tag 'sound-6.1-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
 2eb824f68d8c33e05f2003773f44ae2eae5892d0 Merge tag 'mtd/fixes-for-6.1-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/mtd/linux
@@ -988,32 +990,46 @@ c4d25ce6e9de47f6d9fb6cc1a34b47ce5f0a46ab Merge tag 'usb-6.1-rc3' of git://git.ke
 9f127546bb4341df88a51df8e6cc7d8a70cbacd7 Merge tag 'char-misc-6.1-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc
 b72018ab8236c3ae427068adeb94bdd3f20454ec Merge tag 'fbdev-for-6.1-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/linux-fbdev
 30a0b95b1335e12efef89dd78518ed3e4a71a763 Linux 6.1-rc3
-fbf1a7fb65b0e55d754f114773f4b16d3c35ff89 arm64/hwcap: Add support for FEAT_CSSC
-b658b9c8762071c5c0ca30a3acfb76589e3f52c2 kselftest/arm64: Add FEAT_CSSC to the hwcap selftest
-833a7f059c59b18e2f3d91367a1ce47a52b1a867 arm64/hwcap: Add support for FEAT_RPRFM
-e525860c532052e0c286a1572420cc35360da0a8 kselftest/arm64: Add FEAT_RPRFM to the hwcap test
-4d9aec6075956e37d79a3060aba1a8bba76e02b5 arm64/hwcap: Add support for SVE 2.1
-e3898f8ad1fa7e82faf40c23ecd93d84b7ecf79e kselftest/arm64: Add SVE 2.1 to hwcap test
-0dd45b51dffcecdc6c14fcb0761421562a83a6db arm64/sme: Rename za_state to sme_state
-46da86532c390f5501216af97e00665894ae1d59 arm64: Document boot requirements for SME 2
-bf6cab55771a0e5e126e95b79617d63cf43389ae arm64/sysreg: Update system registers for SME 2 and 2.1
-1eca6598e27990a3725006f97663eb7af42a27c9 arm64/sme: Document SME 2 and SME 2.1 ABI
-7b0092d9e5486a1026cd390057d17770f532245e arm64/esr: Document ISS for ZT0 being disabled
-3b6ab9f7c65c9fcdb60f89f7fcbd56c43d62ff81 arm64/sme: Manually encode ZT0 load and store instructions
-72519d2faf7dd4eb1ea6400239f340decc28a9c5 arm64/sme: Enable host kernel to access ZT0
-333f73aaa916ec2692817576cfab74e050f3061a arm64/sme: Add basic enumeration for SME2
-e3d3baba746864d47080b2a4a67d74995d286e62 arm64/sme: Provide storage for ZT0
-60bc0ce067787218e9e553372385c6d9275e47a8 arm64/sme: Implement context switching for ZT0
-d26b7ef2c9bb31ec683845c88a7aa20f1952b17e arm64/sme: Implement signal handling for ZT
-1d549b8eace1d1055dfa52b3a743f8ae8137412f arm64/sme: Implement ZT0 ptrace support
-faf588afddfa38594552f3cafbc97a130e6d31c8 arm64/sme: Add hwcaps for SME 2 and 2.1 features
-da3328a089801217d362cd78ba517e792c69cb9e kselftest/arm64: Add a stress test program for ZT0
-385f79a3728bd741963f0ada040c703361f71a27 kselftest/arm64: Cover ZT in the FP stress test
-d1d1a71fde235b2e0b7b01da72794b7a15ac28b2 kselftest/arm64: Enumerate SME2 in the signal test utility code
-a0f3ca0f01a105d96409a7931b93c06b4aea5b86 kselftest/arm64: Teach the generic signal context validation about ZT
-0ff4502e05b96d7a4dbde51313b9eaf7a4ed35d0 kselftest/arm64: Add test coverage for ZT register signal frames
-4d5fc475c9f8f2bc1c0d2a15af70f8f114e013bd kselftest/arm64: Add SME2 coverage to syscall-abi
-3d8f478b2aa650ddde675a5a69a32b644333f7b5 kselftest/arm64: Add coverage of the ZT ptrace regset
-2636512632fa647175b78ae65f94de7f035cd1d5 kselftest/arm64: Add coverage of SME 2 and 2.1 hwcaps
+039c83edf3cd67ed142235f4639157fb6e31a241 Merge branch 'v6.1-rc3'
+a2e87952bf54b99e8d560c095a2c75ebc676e1fb mm: Move mm_cachep initialization to mm_init()
+107b6828a7cde2de0bb293588a59892831cef78b x86/mm: Use mm_alloc() in poking_init()
+4b6f3a4cd681fa54e67c2987dfebe413cd8d5a59 x86/mm: Initialize text poking earlier
+52a56f20bb7c34ed4b48466ad2d443165fad942f x86/ftrace: Remove SYSTEM_BOOTING exceptions
+237c7e967566ca7048fd7e74951fccb026f92df0 x86/mm: Do verify W^X at boot up
+1f6eae43052889579dae56eae275003b9a876c21 mm: Introduce set_memory_rox()
+b38994948567e6d6b62947401c57f4ab2efe070c x86/mm: Implement native set_memory_rox()
+88993b1627f2a2205b2f3112c4d22448cd863df3 mm: Update ptep_get_lockless()'s comment
+f8c40885e40fd8f5d96c58f4dfca7072fe09a37b x86/mm/pae: Make pmd_t similar to pte_t
+bb51ac2cd4191626bee6e196f39559d371c8609d sh/mm: Make pmd_t similar to pte_t
+a93f1747e1417f00d25a22ade495c222643d975e mm: Fix pmd_read_atomic()
+8f28b415703e1935457a4bf0be7f03dc5471d09f mm: Rename GUP_GET_PTE_LOW_HIGH
+7e4be6d7e9d30ef9d54974eb1cbd329695f0477d mm: Rename pmd_read_atomic()
+4fff2c7e6b8e91e00838b145d08353dd8a1893c1 mm/gup: Fix the lockless PMD access
+a677802d5b0258f93f54620e1cd181b56547c36c x86/mm/pae: Don't (ab)use atomic64
+56a91588395af386a55bd2fee6304a161e7c766f x86/mm/pae: Use WRITE_ONCE()
+533627610ae7709572a4fac1393fb61153e2a5b3 x86/mm/pae: Be consistent with pXXp_get_and_clear()
+19404aeebbc18cc15ef440b4c17f9cc9f3005329 x86_64: Remove pointless set_64bit() usage
+b6e3ea033d08b368fcac28556fa27bf20e8a1ba5 x86/mm/pae: Get rid of set_64bit()
+28fec83baabe2b72fa6ebbc178e979917f97c2f6 mm: Remove pointless barrier() after pmdp_get_lockless()
+3301badde43dee7c2a013fbd6479c258366519da mm: Convert __HAVE_ARCH_P..P_GET to the new style
+0008712a508f72242d185142cfdbd0646a661a18 x86/mm: Remove P*D_PAGE_MASK and P*D_PAGE_SIZE macros
+8b3c98241a8020c369093cdb08299c2dcfe20bd4 x86/mm: Fix CR3_ADDR_MASK
+e56a54e5b2785e87d0a7a3dbcea6868982ed9072 x86: CPUID and CR3/CR4 flags for Linear Address Masking
+c86704029e33cf8820208155f3271e929dd86ec0 mm: Pass down mm_struct to untagged_addr()
+525cfc14b51119befff2c11dc0080b848ced9a7b x86/mm: Handle LAM on context switch
+a94e74d3666c7519881ae8b80afb7bbf34d9a9c7 x86/uaccess: Provide untagged_addr() and remove tags before address check
+f7793d526028c73411d0a93237841796d810d95b KVM: Serialize tagged address check against tagging enabling
+b3f98a7d90622fa0fb9bfb4d9b38985ecfb79187 x86/mm: Provide arch_prctl() interface for LAM
+a12c40b578bc9d2c27d573540dee6677a9b940f7 x86/mm: Reduce untagged_addr() overhead until the first LAM user
+2293c1d8ce4dcdc3507f14f576cd290e25a78f04 mm: Expose untagging mask in /proc/$PID/status
+618e3ea9ec9bf371a8d4c364c326cf9b78806444 iommu/sva: Replace pasid_valid() helper with mm_valid_pasid()
+83a6a1825786b34b6301fcae0ef5a4c51c627c8e x86/mm, iommu/sva: Make LAM and SVA mutually exclusive
+f24174eba2bfaa0c549b61d99ad9717a9057ec10 selftests/x86/lam: Add malloc and tag-bits test cases for linear-address masking
+48da66bbab2f43cd7e60ecce042b8d87cc6c1afa selftests/x86/lam: Add mmap and SYSCALL test cases for linear-address masking
+ae07fa3970b169bf5921f1323c6e207ab8beff6b selftests/x86/lam: Add io_uring test cases for linear-address masking
+78b65a4c8274fbc09c560c4a5ace8bfe1dd7ef09 selftests/x86/lam: Add inherit test cases for linear-address masking
+9f513a78e2b4cce11d4b1dd5dfd3d22f41371621 selftests/x86/lam: Add ARCH_FORCE_TAGGED_SVA test cases for linear-address masking
+48d26c6544801c2b4d4f527028325f030f217d0c x86/mm: Extend LAM to support to LAM_U48
+0b56220b9ab67da2ff75c8db4c7e5f5cbdfc32a0 selftests/x86/lam: Add tests cases for LAM_U48
 
---===============6418486093389433671==--
+--===============4301203226396307203==--
