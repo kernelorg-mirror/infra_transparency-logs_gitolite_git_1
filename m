@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tmlind/linux-omap
-Date: Wed, 09 Nov 2022 08:34:13 -0000
-Message-Id: <166798285361.405.2829302382397240848@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/efi/efi
+Date: Wed, 09 Nov 2022 08:51:27 -0000
+Message-Id: <166798388796.12664.9389969853392508531@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tmlind/linux-omap
-user: tmlind
+repo: pub/scm/linux/kernel/git/efi/efi
+user: ardb
 changes:
-  - ref: refs/heads/omap-for-v6.2/dt
+  - ref: refs/tags/efi-zboot-direct-for-v6.2
     old: 0000000000000000000000000000000000000000
-    new: 8950f345a67d8046d2472dd6ea81fa18ef5b4844
+    new: 83b668c9995eccd22142fcc34023f0cbe4ac6a11
