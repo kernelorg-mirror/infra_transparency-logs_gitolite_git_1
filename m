@@ -1,58 +1,46 @@
-Content-Type: multipart/mixed; boundary="===============5219645040941196892=="
+Content-Type: multipart/mixed; boundary="===============3087082321990496937=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Thu, 10 Nov 2022 18:09:47 -0000
-Message-Id: <166810378719.5655.992127009599736612@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Thu, 10 Nov 2022 18:11:40 -0000
+Message-Id: <166810390077.7908.17679911242236640896@gitolite.kernel.org>
 
---===============5219645040941196892==
+--===============3087082321990496937==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/driver-core
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
+user: tnguy
 changes:
-  - ref: refs/heads/driver-core-testing
-    old: 52c4d11f1dce60453ab2a75fd7103118cedb2b58
-    new: 2f465b921bb8ff97025017e05f6c7a7a1f6a5749
-    log: |
-         d3d76fbde1c456a6d19991baa99ea8c2d6e6696f kernel/ksysfs.c: export kernel cpu byteorder
-         9b351be25360c5cedfb98b88d6dfd89327849e52 vmlinux.lds.h: add BOUNDED_SECTION* macros
-         2f465b921bb8ff97025017e05f6c7a7a1f6a5749 vmlinux.lds.h: place optional header space in BOUNDED_SECTION
-         
+  - ref: refs/heads/master
+    old: 27c064ae14d1a80c790ce019759500c95a2a9551
+    new: 23569b5652ee8e8e55a12f7835f59af6f3cefc30
+    log: revlist-27c064ae14d1-23569b5652ee.txt
 
---===============5219645040941196892==
+--===============3087082321990496937==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-27c064ae14d1-23569b5652ee.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1668103785 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1668103784-43a5b2dc94dab4595eb61c887bf6f6ee2b38c9c6
+6d47b53fb3f363a74538a1dbd09954af3d8d4131 net: cpsw: disable napi in cpsw_ndo_open()
+d75aed1428da787cbe42bc073d76f1354f364d92 net: cxgb3_main: disable napi when bind qsets failed in cxgb_up()
+dcea1a8107c04b9521dee1dd37971757a22db162 stmmac: intel: Update PCH PTP clock rate from 200MHz to 204.8MHz
+d4072058af4fd8fb4658e7452289042a406a9398 mctp: Fix an error handling path in mctp_init()
+c6092ea1e6d7bd12acd881f6aa2b5054cd70e096 cxgb4vf: shut down the adapter when t4vf_update_port_info() failed in cxgb4vf_open()
+f2d45fdf9a0ed2c94c01c422a0d0add8ffd42099 stmmac: dwmac-loongson: fix missing pci_disable_msi() while module exiting
+fe5b3ce8b4377e543960220f539b989a927afd8a stmmac: dwmac-loongson: fix missing pci_disable_device() in loongson_dwmac_probe()
+7f94d0498f9c763f37172c08059ae91804c3075a stmmac: dwmac-loongson: fix missing of_node_put() while module exiting
+63eec6f926ad8d1c8d658679349ef6581a800d4a Merge branch 'stmmac-dwmac-loongson-fixes-three-leaks'
+1b16b3fdf675cca15a537572bac50cc5354368fc net: phy: mscc: macsec: clear encryption keys when freeing a flow
+879785def0f5e71d54399de0f8a5cb399db14171 net: atlantic: macsec: clear encryption keys from the stack
+1893bb64c0d97f53febcfa606dc34dd581008d1d Merge branch 'macsec-clear-encryption-keys-in-h-w-drivers'
+0348c1ab980c1d43fb37b758d4b760990c066cb5 ethernet: s2io: disable napi when start nic failed in s2io_card_up()
+f111606b63ff2282428ffbac0447c871eb957b6c net: mv643xx_eth: disable napi when init rxq or txq failed in mv643xx_eth_open()
+acce40037041f97baad18142bb253064491ebde3 ethernet: tundra: free irq when alloc ring failed in tsi108_open()
+23569b5652ee8e8e55a12f7835f59af6f3cefc30 net: macvlan: fix memory leaks of macvlan_common_newlink
 
-52c4d11f1dce60453ab2a75fd7103118cedb2b58 2f465b921bb8ff97025017e05f6c7a7a1f6a5749 refs/heads/driver-core-testing
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmNtPmkbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+2SEP/1N5MiJ0KwyAVweFmoI0
-68eM/vcOtFEa9kPpk4aG/2hCe+Aa24mDcKo4iAvUR/5wUYPQM7CHXKnuoukUZ4TG
-KeMbFtf7fR8CerRSYMQF+WSxr0s/bbwWQQiInkfv1V1u4T7A09tcQsxHnfto/6fS
-QLboquOkz7sq9P7fZxxxWQTWlcmLgLNDonYXYyOLhjExRDs4JNFpcvzzmjjpIh5S
-jvdHgOLGee3sqGnE5WEv7svXa5jrpW3Qo2AP8xbuRM0cGemT5Rp4J6wvo+/sIhZP
-657q0Q7KUuP5/bSTcFnkYYje8hqrNPMrurZow0eX3QjgGDORD1mSD/XG4dhJGJwb
-RbynJSaL/pkA1DtR/iOZd/VOJpiP3+vB1D1Yo5+n2M3xCuw73io2/N+RYGxLUZ4G
-GH7Zoszu86Rdd6Hz/HS0COfmO9ICWyaJ2L3SjXKhgceqmK59n2I3a+FzkiAoo1Dw
-NF/WKVJB9H+sXvFkj9jDkepafJj482IvJuMSfAaxFc7phVXDAXXdMCFzHOqgZhy6
-vN+eHOYTOhnO6QjfpEmiBDnpmTxO6xTlPMGZknt+drzu5ex4sVK9j5C1TF/Zbk3Z
-oNqebz86bE3OZGVU3Udw1u0NoCr6XS+c+6eIm57CsJg8aoz+rvCxI2hw70vVYBuu
-DbtPmPhIXroCxPtBYq5FtDe0
-=TmYV
------END PGP SIGNATURE-----
-
---===============5219645040941196892==--
+--===============3087082321990496937==--
