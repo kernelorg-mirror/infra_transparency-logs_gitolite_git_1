@@ -1,13 +1,9 @@
-Content-Type: multipart/mixed; boundary="===============0379036805683426335=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netfilter/nf
-Date: Thu, 10 Nov 2022 18:55:08 -0000
-Message-Id: <166810650864.7128.18209342935641783992@gitolite.kernel.org>
-
---===============0379036805683426335==
-Content-Type: text/plain; charset="us-ascii"
+Date: Thu, 10 Nov 2022 18:55:22 -0000
+Message-Id: <166810652200.8179.8866285684736314832@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
@@ -15,32 +11,48 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/netfilter/nf
 user: pablo
 changes:
-  - ref: refs/heads/master
-    old: 27c064ae14d1a80c790ce019759500c95a2a9551
-    new: 23569b5652ee8e8e55a12f7835f59af6f3cefc30
-    log: revlist-27c064ae14d1-23569b5652ee.txt
-
---===============0379036805683426335==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-27c064ae14d1-23569b5652ee.txt
-
-6d47b53fb3f363a74538a1dbd09954af3d8d4131 net: cpsw: disable napi in cpsw_ndo_open()
-d75aed1428da787cbe42bc073d76f1354f364d92 net: cxgb3_main: disable napi when bind qsets failed in cxgb_up()
-dcea1a8107c04b9521dee1dd37971757a22db162 stmmac: intel: Update PCH PTP clock rate from 200MHz to 204.8MHz
-d4072058af4fd8fb4658e7452289042a406a9398 mctp: Fix an error handling path in mctp_init()
-c6092ea1e6d7bd12acd881f6aa2b5054cd70e096 cxgb4vf: shut down the adapter when t4vf_update_port_info() failed in cxgb4vf_open()
-f2d45fdf9a0ed2c94c01c422a0d0add8ffd42099 stmmac: dwmac-loongson: fix missing pci_disable_msi() while module exiting
-fe5b3ce8b4377e543960220f539b989a927afd8a stmmac: dwmac-loongson: fix missing pci_disable_device() in loongson_dwmac_probe()
-7f94d0498f9c763f37172c08059ae91804c3075a stmmac: dwmac-loongson: fix missing of_node_put() while module exiting
-63eec6f926ad8d1c8d658679349ef6581a800d4a Merge branch 'stmmac-dwmac-loongson-fixes-three-leaks'
-1b16b3fdf675cca15a537572bac50cc5354368fc net: phy: mscc: macsec: clear encryption keys when freeing a flow
-879785def0f5e71d54399de0f8a5cb399db14171 net: atlantic: macsec: clear encryption keys from the stack
-1893bb64c0d97f53febcfa606dc34dd581008d1d Merge branch 'macsec-clear-encryption-keys-in-h-w-drivers'
-0348c1ab980c1d43fb37b758d4b760990c066cb5 ethernet: s2io: disable napi when start nic failed in s2io_card_up()
-f111606b63ff2282428ffbac0447c871eb957b6c net: mv643xx_eth: disable napi when init rxq or txq failed in mv643xx_eth_open()
-acce40037041f97baad18142bb253064491ebde3 ethernet: tundra: free irq when alloc ring failed in tsi108_open()
-23569b5652ee8e8e55a12f7835f59af6f3cefc30 net: macvlan: fix memory leaks of macvlan_common_newlink
-
---===============0379036805683426335==--
+  - ref: refs/tags/v5.19
+    old: 0000000000000000000000000000000000000000
+    new: 2c1ad8d25ec27ecee5910b62b26b93074091a3e4
+  - ref: refs/tags/v5.19-rc6
+    old: 0000000000000000000000000000000000000000
+    new: 8fcdc0ea4cc7ea79a1837f5040f5656f9be98f9f
+  - ref: refs/tags/v5.19-rc7
+    old: 0000000000000000000000000000000000000000
+    new: 99023ab67a130976ddcfb7cfb5ca01358045768f
+  - ref: refs/tags/v5.19-rc8
+    old: 0000000000000000000000000000000000000000
+    new: cb84a9aae2260636f12f10c7f60779eb69e82849
+  - ref: refs/tags/v6.0
+    old: 0000000000000000000000000000000000000000
+    new: 45eb8ae5370d5df1ee8236f45df3f29103ba6e12
+  - ref: refs/tags/v6.0-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 09e4144cab94d10fec58b9296d6fc22a8b42b30a
+  - ref: refs/tags/v6.0-rc2
+    old: 0000000000000000000000000000000000000000
+    new: 59226d37effcc06e431f8d0ab609ddd3003666fe
+  - ref: refs/tags/v6.0-rc3
+    old: 0000000000000000000000000000000000000000
+    new: 035064d655edeefd7ea1aa65dd12bac26ab1b3c3
+  - ref: refs/tags/v6.0-rc4
+    old: 0000000000000000000000000000000000000000
+    new: 96e1a1037aedb9f9596e2af5a6fcaa8053dafe4f
+  - ref: refs/tags/v6.0-rc5
+    old: 0000000000000000000000000000000000000000
+    new: 52868a8b445605ea56831f92b5607ae3183f09bd
+  - ref: refs/tags/v6.0-rc6
+    old: 0000000000000000000000000000000000000000
+    new: 3447cb6c198e59b5b4275ecc6d4400a49b9dbaba
+  - ref: refs/tags/v6.0-rc7
+    old: 0000000000000000000000000000000000000000
+    new: b81e85a3efdc3d610f733fffc6f821f03d8fd490
+  - ref: refs/tags/v6.1-rc1
+    old: 0000000000000000000000000000000000000000
+    new: e0e492cebef25c13fc29b174f01b5178662f1652
+  - ref: refs/tags/v6.1-rc2
+    old: 0000000000000000000000000000000000000000
+    new: 0d8d9e948ba8d5e1a826935d8d1c4aace65dd185
+  - ref: refs/tags/v6.1-rc3
+    old: 0000000000000000000000000000000000000000
+    new: 0083e89728f57eae559c1ed1ac1e44487565feb1
