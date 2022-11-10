@@ -1,23 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Thu, 10 Nov 2022 18:44:44 -0000
-Message-Id: <166810588408.30390.11313172830833282829@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/djakov/icc
+Date: Thu, 10 Nov 2022 18:45:35 -0000
+Message-Id: <166810593566.32319.2045313545347710149@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
-user: acme
+repo: pub/scm/linux/kernel/git/djakov/icc
+user: djakov
 changes:
-  - ref: refs/heads/tmp.perf/core
-    old: 44a037f54b97e4215a282d39d0f7f28c588f185c
-    new: 612a5337ae7a87893f90de7878b20701b2b17d7d
+  - ref: refs/heads/best-fit
+    old: ccc5c03fb51d9b6b6bc6d03425150976fd175495
+    new: b958c4b0c2459dc4fde6a50e59f4d36d26d2a61e
     log: |
-         6ac73820993c13f30d226f9521f8ffae62acdf42 perf trace: Add augmenter for clock_gettime's rqtp timespec arg
-         30b331d2e3bc5c7c95568477d4bf2661b6e6cb3e perf lock: Allow concurrent record and report
-         9d895e46842908aa49a042e699097df64ab20b7f perf data: Add tracepoint fields when converting to JSON
-         cf9f67b36303de65596ae7504a2a7573c08876bb perf print-events: Remove redundant comparison with zero
-         612a5337ae7a87893f90de7878b20701b2b17d7d perf vendor events: Add Arm Neoverse V2 PMU events
+         2cdeb5c7fbecd68b6f77ff9627258a8bfa277671 dt-bindings: iommu: Document iova-best-fit property for IOMMU masters
+         b958c4b0c2459dc4fde6a50e59f4d36d26d2a61e iommu/iova: Add support for best-fit algorithm
          
