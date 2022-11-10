@@ -1,58 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============8599686855400254637=="
+Content-Type: multipart/mixed; boundary="===============4512098083065688864=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Thu, 10 Nov 2022 17:50:34 -0000
-Message-Id: <166810263456.24235.6443948505856774331@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Thu, 10 Nov 2022 17:50:41 -0000
+Message-Id: <166810264137.24366.9122422166623065461@gitolite.kernel.org>
 
---===============8599686855400254637==
+--===============4512098083065688864==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.1
+  - ref: refs/heads/asoc-6.1
     old: 7d945b046be3d2605dbb1806e73095aadd7ae129
     new: 3ca507bf99611c82dafced73e921c1b10ee12869
     log: |
          3ca507bf99611c82dafced73e921c1b10ee12869 ASoC: wm8962: Wait for updated value of WM8962_CLOCKING1 register
          
-  - ref: refs/heads/for-6.2
+  - ref: refs/heads/asoc-6.2
     old: 4b19211435950a78af032c26ad64a5268e6012be
     new: ec39862fdd8ed6fe539dd4825191725c6a3b8a72
     log: revlist-4b1921143595-ec39862fdd8e.txt
 
---===============8599686855400254637==
+--===============4512098083065688864==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1668102632 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1668102631-349149b069edc57820a2f1755e4f4958c1b822e2
+pusher C3F436CA30F5D8EB 1668102639 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1668102638-701f03b7e9f5e6b6ed36a60928a892dd0da8d7ba
 
-7d945b046be3d2605dbb1806e73095aadd7ae129 3ca507bf99611c82dafced73e921c1b10ee12869 refs/heads/for-6.1
-4b19211435950a78af032c26ad64a5268e6012be ec39862fdd8ed6fe539dd4825191725c6a3b8a72 refs/heads/for-6.2
+7d945b046be3d2605dbb1806e73095aadd7ae129 3ca507bf99611c82dafced73e921c1b10ee12869 refs/heads/asoc-6.1
+4b19211435950a78af032c26ad64a5268e6012be ec39862fdd8ed6fe539dd4825191725c6a3b8a72 refs/heads/asoc-6.2
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmNtOegACgkQJNaLcl1U
-h9CR2gf+OWZDueYAGWfJs5SGFlBw3hD+dTZgpsFK+Iov/rOjwZ1XBe9y53Hro5c4
-FEqMNqIP5WmNHrKdATjPn4bpYc+kgyAJkO2l+FEwGs1c4re7diRVoAquRKfCCPF0
-AGKlR6Q2A6l0xGMujX9sw7UOtbIZuvgn3xlCewWTg6uoQcv7RiDGdY9blSl/Al22
-3P7Rt01UolAtS5E5C4iAFO1fsyydOfj+KmlT2ZGWKOtTmj0SZH2APuXw8GsCtwwK
-BuxzUUdaSYAO8JaWx7AL1rm9wTNHTkWFMNqu5bfBUsRCk8UHX0MF86p/MfSaBdG9
-a5gxivLRAoxigL1nU4eraNahN87icQ==
-=VSMK
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmNtOe8ACgkQJNaLcl1U
+h9CVXgf/YAkN/PcxJbXN8LGLQ4EtW5myjNgPz66E2E1udoAWMZ8Bm3WwSmTqeY8Y
+7takaFx6OsPq1Gc3dwipFmvlAZkoZzpTkFRTsERTnJoHwzhr1pI02tZv0/l1/JNc
+J0SmGbb/7jWqJhwxLcxl3bxvC7KbS9ZgoSI8cI12rlyaoazewSTOQ/G1Lm/S3bVE
+9GlTkKrejlRDPDjOo+dAmC2qIRPl1XctIyr/ZGmXWayx/qOn035ixjrIj/WJL5or
+unTx+tVwSLMb9nfMYh9NT2Cnx3WsNSf6nkO5cNDdDNIy0CpXbVCullHQ5xCQ2yc+
+4kmplwx4qdgo8R5xxYiLAWsXUaKsDg==
+=yl6X
 -----END PGP SIGNATURE-----
 
---===============8599686855400254637==
+--===============4512098083065688864==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -104,4 +104,4 @@ c2c60eafb2ec48fffed13605a61e590c2ba057fe ASoC: simpe-card/audio-graph fixups
 140ccd04c580d8d305b01e1354b1035266e3c321 ASoC: SOF: ipc4-topology: Add widget queue support
 ec39862fdd8ed6fe539dd4825191725c6a3b8a72 ASoC: codecs: da7219: Do not export da7219_aad_jack_det()
 
---===============8599686855400254637==--
+--===============4512098083065688864==--
