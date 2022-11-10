@@ -1,28 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/virt/kvm/mst/qemu
-Date: Thu, 10 Nov 2022 18:52:22 -0000
-Message-Id: <166810634220.4145.7914130929073164622@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/djakov/icc
+Date: Thu, 10 Nov 2022 18:54:08 -0000
+Message-Id: <166810644837.4819.7823784877626022818@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/virt/kvm/mst/qemu
-user: mst
+repo: pub/scm/linux/kernel/git/djakov/icc
+user: djakov
 changes:
-  - ref: refs/heads/next
-    old: 1f9ee44cc1c59e4536681af17b1490eca2a4a558
-    new: f47af0af0db5933664c621b8af8067ebbcbe66cd
-  - ref: refs/heads/pci
-    old: 1f9ee44cc1c59e4536681af17b1490eca2a4a558
-    new: f47af0af0db5933664c621b8af8067ebbcbe66cd
-  - ref: refs/tags/for_autotest
-    old: 52baae386651d4406d17b3d7985e4bb02896625c
-    new: 6715cfdcb39c82e435ab40ca36e051dc99a61319
-  - ref: refs/tags/for_autotest_next
-    old: 52baae386651d4406d17b3d7985e4bb02896625c
-    new: 6715cfdcb39c82e435ab40ca36e051dc99a61319
-  - ref: refs/tags/for_upstream
-    old: 52baae386651d4406d17b3d7985e4bb02896625c
-    new: 6715cfdcb39c82e435ab40ca36e051dc99a61319
+  - ref: refs/heads/best-fit
+    old: 5acbdf005f3b48e12833de7575215af98eaf518c
+    new: f0f1138923a3639c74ab141c8c64ad501dbc3836
+    log: |
+         3078d92f3b8492ed70ea460db5d2002459937c0f dt-bindings: iommu: Document iova-best-fit property for IOMMU masters
+         f0f1138923a3639c74ab141c8c64ad501dbc3836 iommu/iova: Add support for best-fit algorithm
+         
