@@ -1,56 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============8168421900715251710=="
+Content-Type: multipart/mixed; boundary="===============1510712199298553417=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Thu, 10 Nov 2022 17:36:39 -0000
-Message-Id: <166810179951.13673.11441950441960741801@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
+Date: Thu, 10 Nov 2022 17:37:14 -0000
+Message-Id: <166810183419.13966.7496284640834987081@gitolite.kernel.org>
 
---===============8168421900715251710==
+--===============1510712199298553417==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/driver-core
+repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-testing
-    old: 730600223b64918324ab322ab174361bd41073c0
-    new: 27c0d217340e47ec995557f61423ef415afba987
+  - ref: refs/heads/char-misc-next
+    old: 30a0b95b1335e12efef89dd78518ed3e4a71a763
+    new: e63e99397b2613d50a5f4f02ed07307e67a190f1
     log: |
-         27c0d217340e47ec995557f61423ef415afba987 driver core: Fix bus_type.match() error handling in __driver_attach()
+         e63e99397b2613d50a5f4f02ed07307e67a190f1 drivers: dio: fix possible memory leak in dio_init()
          
 
---===============8168421900715251710==
+--===============1510712199298553417==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1668101797 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1668101796-54097ac17adfb2c93b14a3fc74f8517d9add370c
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1668101833 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
+nonce 1668101832-3bd741e20a7101fcac5d63f074570653f6c49a02
 
-730600223b64918324ab322ab174361bd41073c0 27c0d217340e47ec995557f61423ef415afba987 refs/heads/driver-core-testing
+30a0b95b1335e12efef89dd78518ed3e4a71a763 e63e99397b2613d50a5f4f02ed07307e67a190f1 refs/heads/char-misc-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmNtNqUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ygAQAKTBwHdTmbtCC6SYk6z7
-xKYYViVY9HnDzaV4CTExp7T10JDRuBETf1SLjuISAXiP4e92Om4fn/AFWmmQAs7R
-34bBZiU/1iK4uDc8s5674hQL2aT6eHGbwE2FUNTBNOcS9ZNUORoUrgXPi6jSJzNw
-a94ivNnR4iN8ted5cQ35k96Jyyi3LTjTep9g3ioQZ/Jru4a+HBJSnZy/FIg/zrbT
-CqT3wBsLFbS4FRmFn5xwEBiFSfLwBV0PcxqPlKSXIwt3wqXh3X+NKK7AHifcNjEu
-cOdqc/k+I5KidiqNZfOg8FzAmh4/yZWBw9zRC+zjJgM7HsAxPVmu5vkLxw52UmkD
-1pd9BZ4D5MG9q1Qc+clbGXorOeK/Wt4gocGInRYxox2eDCI0ATs7f4Jw6Czjcj7+
-8/on+8kk7ZcNF1uzDDDW72WqG6L7XKUpqg8vEjLgekbCahDQi0wlia9T9c+hqTg5
-VPkxduJCSaJnxJtbcbLSvJkPP3v23YdahRyXKN7krUfgceg9xzYSJomw7H26PToG
-x/3o7XCd/p+L/lEO303AHTN7BrVwiiiVz+L1kXdj7SXyQscU/kgU4JLUGgLIQvu2
-lU6nZ1Wd2qAyMPHekhtI0ScgdDrZLz4m+zcqvRWbf4XW/D1jDKZJi8R5mtgnGVXW
-BE33uBmSSt1B+qg2c6Ih5tdl
-=sKc6
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmNtNskbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+yKoP/3ou/H0mKqS6rW6sLdYE
+MguVQJHnvs053b9dOrCED8JBjOOe4ImIHfSWTh6hRJYXClyNfZg+w0ofDwC2RF9a
+WEr+Rd6D49COYApj8AA/7jsCd0cdHBp3f/3gNjDk4mkB+f5HMoNrAx0DGRO5ffno
+Yq9ZQRF2AVYmvbv6YZlpcGL6D41Ap0wMVA7caBnVEpIS3wfd9MIHyjxJ6a7MoeP0
+uO7ZUY5+eFnVdlpyya6jHIVszto/0si3msZnZUwCpMT7E/FyW6+ol+CglQRPM+Mq
+Q94dY0SMFkEh1EpDQlCzqLMYCzh3Di6e9wLrwsevSjkF9w1JoxF3v56J3+MWEwo7
+N08pojOmT5zFatwvXZfBZdV65EEi5feFDVGzXdaKzVq8wzxfppMCfuFMQJTZAaq8
+5cokNjHOsYXZ1s9lLYboWSrlyDvCh+P+ejICmfYoeIt2v0VyR+fJhZq9o+LwIqH3
+MfoVeiwWCEK7uARIHCqcnZ/zoNQ9p6zGuXhhG9mrHw3XJwFwhVJAjMpzvlN12Nhg
+Zd4kS0a/wjNZO2Kfe1SfKeZ2kKEe6JXvnsBYMuWSE2vX3zykDT5Oymr6xkwZxAO1
+P/D++mpawVoQbEB1PiYegvNXesHK4bs7ZlfPohoc4Mr0okURetGLGKjXx0zOQBhX
+ZJ/g/RyOENM5mzmbCgObv9Rs
+=QTOx
 -----END PGP SIGNATURE-----
 
---===============8168421900715251710==--
+--===============1510712199298553417==--
