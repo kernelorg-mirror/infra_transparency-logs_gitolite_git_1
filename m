@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/lpieralisi/pci
-Date: Thu, 10 Nov 2022 15:37:01 -0000
-Message-Id: <166809462152.30038.18442470150472131038@gitolite.kernel.org>
+Date: Thu, 10 Nov 2022 15:49:45 -0000
+Message-Id: <166809538553.5178.13450061837819457986@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/lpieralisi/pci
 user: lpieralisi
 changes:
-  - ref: refs/heads/pci/dwc
-    old: fba31beab3578b793060f549188fe682df7d3ed9
-    new: 8405d8f0956d227c3355d9bdbabc23f79f721ce4
+  - ref: refs/heads/pci/dt
+    old: c9bfd858402c86b6559aa05227eb5dbae3ce862e
+    new: 72f542ac4f39fb42b8a6380ac8d9b3c39019d2d6
     log: |
-         8405d8f0956d227c3355d9bdbabc23f79f721ce4 PCI: dwc: Use dev_info for PCIe link down event logging
+         72f542ac4f39fb42b8a6380ac8d9b3c39019d2d6 dt-bindings: PCI: Add host mode device-id for j721s2 platform
          
