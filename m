@@ -1,21 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
-Date: Thu, 10 Nov 2022 07:05:30 -0000
-Message-Id: <166806393019.11246.14924026860822577596@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/shawnguo/linux
+Date: Thu, 10 Nov 2022 07:15:08 -0000
+Message-Id: <166806450805.17947.1897781294758516251@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/s390/linux
-user: agordeev
+repo: pub/scm/linux/kernel/git/shawnguo/linux
+user: shawnguo
 changes:
-  - ref: refs/heads/for-next
-    old: f00886e374d5f4b255308b622dc4231f64b8137e
-    new: deb36b17a8fad52a0ee1e52ad280de382e44cd3c
-    log: |
-         00a34d5a99c0631bd780b14cbe3813d0b39c3886 s390: select ARCH_WANT_HUGETLB_PAGE_OPTIMIZE_VMEMMAP
-         ed01884159b406bdeec97e3ee7e284cf3b75076e Merge branch 'fixes' into for-next
-         deb36b17a8fad52a0ee1e52ad280de382e44cd3c Merge branch 'features' into for-next
-         
+  - ref: refs/heads/imx/drivers
+    old: 60aaf420220ac840675bd850b571eeeb4ce0bac4
+    new: 98572487e5c615ac9edfb105aca9b3f3bd1b4b7c
