@@ -1,61 +1,60 @@
-Content-Type: multipart/mixed; boundary="===============6360733403265704588=="
+Content-Type: multipart/mixed; boundary="===============4807194577131479374=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Thu, 10 Nov 2022 17:41:15 -0000
-Message-Id: <166810207569.16930.9465392769850307512@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Thu, 10 Nov 2022 17:45:13 -0000
+Message-Id: <166810231364.19947.7522804317452718734@gitolite.kernel.org>
 
---===============6360733403265704588==
+--===============4807194577131479374==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
+user: tnguy
 changes:
-  - ref: refs/heads/char-misc-testing
-    old: e63e99397b2613d50a5f4f02ed07307e67a190f1
-    new: e48031603ae644054a9251c6fc7f0e0fd4e2683a
-    log: |
-         02c39bbb36bab698b29f066a28c3e342d1136e53 virt: fsl_hypervisor: Replace NO_IRQ by 0
-         2d2879e1834d02852347d9dc910fffd5d22ac337 dt-bindings: spmi: Add qcom,bus-id
-         231601cd22bd60e332dfa9ead22f871e93ad9821 spmi: pmic-arb: Add support for PMIC v7
-         4634c973096a64662a24d9914c47cebc2a8b72f4 chardev: Fix potential memory leak when cdev_add() failed
-         982a84455e94bf195f2c35f221a6b4fe239d74d2 misc: genwqe: card_base: Fix some kernel-doc warnings
-         e48031603ae644054a9251c6fc7f0e0fd4e2683a uio: uio_fsl_elbc_gpcm: Replace NO_IRQ by 0
-         
+  - ref: refs/heads/master
+    old: 154ba79c9f160e652a2c9c46435b928b3bfae11f
+    new: edaf5df22cb8e7e849773ce69fcc9bc20ca92160
+    log: revlist-154ba79c9f16-edaf5df22cb8.txt
 
---===============6360733403265704588==
+--===============4807194577131479374==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-154ba79c9f16-edaf5df22cb8.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1668102073 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1668102072-dfb508484e98ca0ef55692cc9edd9effd254e815
+3e52fba03a20234abc65a656cef063a1045d9723 net: introduce a helper to move notifier block to different namespace
+15feb56e30efea95992f5c572cee753db205eb7b net: devlink: move netdev notifier block to dest namespace during reload
+bf9b85562a9a9c5065975b21a091ba2e9784caa5 Merge branch 'net-devlink-move-netdev-notifier-block-to-dest-namespace-during-reload'
+9baedc3c8780256bfc68d318c31d0081cefe92a3 bridge: switchdev: Let device drivers determine FDB offload indication
+27fabd02abf30a9df9899f92d467591c7eabb1ba bridge: switchdev: Allow device drivers to install locked FDB entries
+9c0ca02bace4837d123e1a5a30f6f44dbdc5fb92 bridge: switchdev: Reflect MAB bridge port flag to device drivers
+2640a82bbc08393c846c7b55178079bb8ca31a8c devlink: Add packet traps for 802.1X operation
+d85be0f5fd7c9e7aaf4a1e50cd65d447377eeb49 mlxsw: spectrum_trap: Register 802.1X packet traps with devlink
+0b31fb9ba2b54896b0fe4b1ec0102031c40bdf4f mlxsw: reg: Add Switch Port FDB Security Register
+dc0d1a8b7f84ca09b53af356eb401df9e3d976a0 mlxsw: spectrum: Add an API to configure security checks
+b72cb660b26be4aaa89bb597a0ce83dd68da07e2 mlxsw: spectrum_switchdev: Prepare for locked FDB notifications
+5a660e43f8b9f6e48c980dd3fed519152d5c68ca mlxsw: spectrum_switchdev: Add support for locked FDB notifications
+136b8dfbd784e8aa86e1bb9ade7fc41927a3839e mlxsw: spectrum_switchdev: Use extack in bridge port flag validation
+25ed80884ce11e38d1d611c49f1d1aa3e49a1e08 mlxsw: spectrum_switchdev: Add locked bridge port support
+da23a713d1de1f07675fd96418c0dd060c3633b6 selftests: devlink_lib: Split out helper
+25a26f0c2015be5e23ac467ba825085aaa01a0f0 selftests: mlxsw: Add a test for EAPOL trap
+fb398432db2f66f46714b855354c79223649e3ab selftests: mlxsw: Add a test for locked port trap
+cdbde7edf0e53b643b1323e05bc1ca99661f6bcd selftests: mlxsw: Add a test for invalid locked bridge port configurations
+0cb9ed57d5ad2e25b45ed5c3afbac6e875ac1754 Merge branch 'mlxsw-add-802-1x-and-mab-offload-support'
+925638a2a0372f3d9d447fa714dfd0561b87a058 net: lan743x: Remove unused argument in lan743x_common_regs( )
+9045220581fc2b39bfe9a410c7b5fcd491128f23 net: lan743x: Add support to SGMII register dump for PCI11010/PCI11414 chips
+470765e4e1c813564bfc00f53b78896d7f336424 Merge branch 'net-lan743x-pci11010-pci11414-devices-enhancements'
+13bd85580b85768238cf726dec0ddd89c06a230a net: phy: dp83867: add TI PHY loopback
+21780f89d65837e23fef825c79aa836c1cb3a8e9 mac_pton: Don't access memory over expected length
+f6479ea4e5990e17b9690d66474198dcdba1b2c1 net: mdio: add mdiodev_c45_(read|write)
+85a2b4ac34449ed5610301e05dab0f7f9efe278b net: pcs: xpcs: use mdiodev accessors
+e29edc475f65ec439c468c85d3c81fac1d19ab61 Merge branch 'clean-up-pcs-xpcs-accessors'
+e081ecf084d31809242fb0b9f35484d5fb3a161a gro: avoid checking for a failed search
+0c9ef08a4d0fd6c5e6000597b506235d71a85a61 net: mana: Fix return type of mana_start_xmit()
+edaf5df22cb8e7e849773ce69fcc9bc20ca92160 ethtool: ethtool_get_drvinfo: populate drvinfo fields even if callback exits
 
-e63e99397b2613d50a5f4f02ed07307e67a190f1 e48031603ae644054a9251c6fc7f0e0fd4e2683a refs/heads/char-misc-testing
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmNtN7kbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ckIP/AtBxxzga/CtSL1ibFZb
-/cNIX0Ffgel3M61gtHVEdFbexpuoq5NKdjDV7jI+y3T0weHYKqRQAT8L/oGuHEQ8
-Rk8Bdny5vaE2XieEGMENHjn8+aeP8VMBD/qYyTN6lRTjizb7FglONyR9v69uRWaS
-y3davzaP4fVqqamNtZ7fvVANJFyAFDBfTsujl30z7ro88W+JbNeHXXAYKmpYwTP6
-PWvQI0mCKROL5M7LZSZICnII3JgJ9bAnJLntZgEnIxI/DIN+vkqcu08lXznhqySg
-w3q7crB6/R+Huw6mi9HElWYEIOpK1eZn3u1g2BB/LpU5U0PKfXAqC2C9r5iZu3m6
-3fwEjttiq/jLFs0XIk+tQHQNNbcbEHU7HuaS20/MT6PEJItNlKE6dECyyt4+tiO8
-9QFrxQ6dIOpC679h1gx1Kg+N4XHc58U+w40Xm9zB+Hz7B26Hat5wMO5aaiv7N4cX
-lHx69ELTir1UAhytFY5uG7cnDINorqIq16oi7qxs1QY9cSBU2aOE5b3XTREIz41/
-fxSrRQezl30iVefNU7akyWudLeMzm0BshqMl6RzwpP6ysJn6N6s0Df4GpCBabOFy
-VD5ujcic/gW9K4nUzX8u+KqLBMCC4n/TZX0R2VHagYLLmNzPq3pdtxChBwfUrCYS
-nJTuqZab4vzyOFgBSMp8xWAb
-=tPes
------END PGP SIGNATURE-----
-
---===============6360733403265704588==--
+--===============4807194577131479374==--
