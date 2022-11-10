@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5863699672184541591=="
+Content-Type: multipart/mixed; boundary="===============9172936262170276553=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Thu, 10 Nov 2022 09:19:28 -0000
-Message-Id: <166807196828.6753.8680706410575181840@gitolite.kernel.org>
+Date: Thu, 10 Nov 2022 09:19:41 -0000
+Message-Id: <166807198186.6905.8972559135624340995@gitolite.kernel.org>
 
---===============5863699672184541591==
+--===============9172936262170276553==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,18 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/locking/urgent
-    old: 6eebd5fb20838f5971ba17df9f55cc4f84a31053
-    new: 31cdae423c377cec2b004f23c9d2cb281a3d4329
-    log: revlist-6eebd5fb2083-31cdae423c37.txt
+  - ref: refs/heads/sched/urgent
+    old: 8e5bad7dccec2014f24497b57d8a8ee0b752c290
+    new: fe2456b00c619f891c67b49d767e9d4d08ab54b1
+    log: revlist-8e5bad7dccec-fe2456b00c61.txt
 
---===============5863699672184541591==
+--===============9172936262170276553==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6eebd5fb2083-31cdae423c37.txt
+Content-Disposition: attachment; filename=revlist-8e5bad7dccec-fe2456b00c61.txt
 
+a83695a666eb3541873c3c9734ec4e1d10ca2d7f iio: adc: mcp3911: return proper error code on failure to allocate trigger
 815f1647a603a822d66630bbe22cab4bc097c8c3 iio: adc: mcp3911: use correct id bits
 aa6c77d05eb1c57ee5b95a7b83a39384c37df4d9 iio: adc: mcp3911: mask out device ID in debug prints
 174dac5dc800e4e2e4552baf6340846a344d01a3 iio: adc: stm32-adc: fix channel sampling time init
@@ -63,8 +64,6 @@ ec0286dce78c3bb0e6a665c0baade2f2db56ce00 counter: ti-ecap-capture: fix IS_ERR() 
 ca6c21327c6af02b7eec31ce4b9a740a18c6c13f perf: Fix missing SIGTRAPs
 23488ec66867f7e673b694623a951fb583e464a7 selftests/perf_events: Add a SIGTRAP stress test with disables
 21da7472a040420f2dc624ffec70291a72c5d6a6 bpf: Fix sample_flags for bpf_perf_event_output
-e705968dd687574b6ca3ebe772683d5642759132 sched/core: Fix comparison in sched_group_cookie_match()
-8e5bad7dccec2014f24497b57d8a8ee0b752c290 sched: Introduce struct balance_callback to avoid CFI mismatches
 897a66d281983c4fe2b805f26b315309b35fb028 Revert "PCI: tegra: Use PCI_CONF1_EXT_ADDRESS() macro"
 33806e7cb8d50379f55c3e8f335e91e1b359dc7b x86/Kconfig: Drop check for -mabi=ms for CONFIG_EFI_STUB
 bbb8ceb5e2421184db9560e9d2cfaf858e1db616 Merge tag 'v6.1-p2' of git://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6
@@ -1049,6 +1048,7 @@ f6f5204727b9b1f3c6e9c90b5b09f40c6e0102f5 Merge tag 'x86_urgent_for_v6.1_rc4' of 
 aa52994915dca444dbb8e6b91eb82b749ba7a1ec Merge tag 'hwmon-for-v6.1-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/groeck/linux-staging
 16c7a368c8ba9aba3b0e0ae5ec0a64be9fb45665 Merge tag 'cxl-fixes-for-6.1-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/cxl/cxl
 f0c4d9fc9cc9462659728d168387191387e903cc Linux 6.1-rc4
-31cdae423c377cec2b004f23c9d2cb281a3d4329 locking: fix kernel/locking/ inline asm error
+48e77e5bf5e983d17edf3bcc49e0856ca5ab6e4c rseq: Use pr_warn_once() when deprecated/unknown ABI flags are encountered
+fe2456b00c619f891c67b49d767e9d4d08ab54b1 sched: Fix race in task_call_func()
 
---===============5863699672184541591==--
+--===============9172936262170276553==--
