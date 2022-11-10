@@ -1,44 +1,16 @@
-Content-Type: multipart/mixed; boundary="===============2059961217929139078=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 10 Nov 2022 12:14:33 -0000
-Message-Id: <166808247346.16455.1944890842059045444@gitolite.kernel.org>
-
---===============2059961217929139078==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Thu, 10 Nov 2022 12:34:32 -0000
+Message-Id: <166808367248.30719.10702540546867769634@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: bp
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/master
-    old: ba010496b3dbd9cc311c0f5c4dd62758836eaf70
-    new: aaff1e7dab0c51fc928db457c1243e1f804271f8
-    log: revlist-ba010496b3db-aaff1e7dab0c.txt
-
---===============2059961217929139078==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ba010496b3db-aaff1e7dab0c.txt
-
-45fa71f19a2d73f157d6892a8d677a738a0414fd x86/mtrr: Replace use_intel() with a local flag
-d5f66d5d10611978c3a93cc94a811d74e0cf6cbc x86/mtrr: Rename prepare_set() and post_set()
-4ad7149e46d048d3a543c96d35c1d255208dd33a x86/mtrr: Split MTRR-specific handling from cache dis/enabling
-23a63e369098a8503550d1df80f4b4801af32c19 x86/mtrr: Move cache control code to cacheinfo.c
-7d71db537b01a6beadbe45a4e6e302272110c2c0 x86/mtrr: Disentangle MTRR init from PAT init
-57df636cd336a1929c7ddc5fb48ed124d24cd7b2 x86/mtrr: Remove set_all callback from struct mtrr_ops
-74069135f09c4600ab2985939c305ebef57ac34f x86/mtrr: Simplify mtrr_bp_init()
-2c15679e8687d5934e1a70fe50ce409bb8a2aba1 x86/mtrr: Get rid of __mtrr_enabled bool
-955d0e0805912641230fb46c380aa625f78ecaca x86/mtrr: Let cache_aps_delayed_init replace mtrr_aps_delayed_init
-0b9a6a8bedbfb38e7c6be4d119a267e6277307cc x86/mtrr: Add a stop_machine() handler calling only cache_cpu_init()
-adfe7512e1d0b2e83215b0ec56337d2df9f1032d x86: Decouple PAT and MTRR handling
-30f89e524becdbaa483b34902b079c9d4dfaa4a3 x86/cacheinfo: Switch cache_ap_init() to hotplug callback
-f8bd9f25c9815161a39886fdd96d110b536a6074 x86/mtrr: Simplify mtrr_ops initialization
-aaff1e7dab0c51fc928db457c1243e1f804271f8 Merge x86/cpu into tip/master
-
---===============2059961217929139078==--
+  - ref: refs/heads/fileBHPdJJ
+    old: 0000000000000000000000000000000000000000
+    new: 3663dccc6cacbb23f84b3517fbcbe798c849cbc8
