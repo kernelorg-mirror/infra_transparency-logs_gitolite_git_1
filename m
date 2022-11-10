@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vfs/idmapping
-Date: Thu, 10 Nov 2022 14:54:11 -0000
-Message-Id: <166809205104.30044.14939316091402198301@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 10 Nov 2022 15:03:37 -0000
+Message-Id: <166809261775.5821.2805803790729034384@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vfs/idmapping
-user: brauner
+repo: pub/scm/linux/kernel/git/netdev/net
+user: pabeni
 changes:
-  - ref: refs/heads/fs.xattr.simple.rework.rbtree.rwlock
-    old: 764774d10ff047de76b84f789547806140264575
-    new: f548da5ebfd6939d610eaa3962f528685b200ffa
+  - ref: refs/heads/master
+    old: acce40037041f97baad18142bb253064491ebde3
+    new: 23569b5652ee8e8e55a12f7835f59af6f3cefc30
     log: |
-         f548da5ebfd6939d610eaa3962f528685b200ffa xattr: use rbtree for simple_xattrs
+         23569b5652ee8e8e55a12f7835f59af6f3cefc30 net: macvlan: fix memory leaks of macvlan_common_newlink
          
