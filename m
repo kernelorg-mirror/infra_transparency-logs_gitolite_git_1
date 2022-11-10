@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Thu, 10 Nov 2022 10:45:45 -0000
-Message-Id: <166807714554.18384.1439459429642924156@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-drivers
+Date: Thu, 10 Nov 2022 10:50:15 -0000
+Message-Id: <166807741561.21546.3313226315848763221@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: pabeni
+repo: pub/scm/linux/kernel/git/geert/renesas-drivers
+user: geert
 changes:
-  - ref: refs/heads/master
-    old: e29edc475f65ec439c468c85d3c81fac1d19ab61
-    new: e081ecf084d31809242fb0b9f35484d5fb3a161a
+  - ref: refs/heads/topic/renesas-bsp-rebase-v6.1
+    old: 1cba013fd4e95139ce5c36d13e121bd9455fd999
+    new: ffb43470dfdd0bcb3a539da9ce6a46bb4041c872
     log: |
-         e081ecf084d31809242fb0b9f35484d5fb3a161a gro: avoid checking for a failed search
+         f635280f003d88927aacb99df420dd623caa18a6 BSP rebase: Remove commits with identical patch-id in upstream
+         ffb43470dfdd0bcb3a539da9ce6a46bb4041c872 BSP rebase: Remove commits with identical one-line summary in upstream
          
