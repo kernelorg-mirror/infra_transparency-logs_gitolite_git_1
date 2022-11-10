@@ -1,19 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ribalda/linux
-Date: Thu, 10 Nov 2022 14:23:35 -0000
-Message-Id: <166809021526.9443.11867506802419092323@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Thu, 10 Nov 2022 14:28:55 -0000
+Message-Id: <166809053575.14195.5926595343935999539@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ribalda/linux
-user: ribalda
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/b4/i2c-waive
-    old: 265853c9c292e9eaa71af843f2445c8d72d0649e
-    new: e2ca350eafbb64f13d5bb8a2264753813337b8fb
+  - ref: refs/heads/for-linus
+    old: 9736a325137b62499d2b4be3fc2d742b131f75da
+    new: 9a5523f72bd2b0d66eef3d58810c6eb7b5ffc143
     log: |
-         e2ca350eafbb64f13d5bb8a2264753813337b8fb i2c: Restore initial power state when we are done.
+         9a5523f72bd2b0d66eef3d58810c6eb7b5ffc143 ALSA: hda: fix potential memleak in 'add_widget_node'
+         
+  - ref: refs/heads/master
+    old: 4e54414c3ba3d699429703206c47c4eb9b9c048d
+    new: ac1efdef7a9f89d4ff1c39a61435bfb89147fafe
+    log: |
+         9a5523f72bd2b0d66eef3d58810c6eb7b5ffc143 ALSA: hda: fix potential memleak in 'add_widget_node'
+         ac1efdef7a9f89d4ff1c39a61435bfb89147fafe Merge branch 'for-linus'
          
