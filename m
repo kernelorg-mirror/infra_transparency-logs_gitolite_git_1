@@ -1,51 +1,55 @@
-Content-Type: multipart/mixed; boundary="===============8234880645327179706=="
+Content-Type: multipart/mixed; boundary="===============8029291161112826475=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regmap
-Date: Thu, 10 Nov 2022 21:12:37 -0000
-Message-Id: <166811475778.8907.6777673403877325184@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Thu, 10 Nov 2022 21:12:43 -0000
+Message-Id: <166811476396.9033.11891638419861359141@gitolite.kernel.org>
 
---===============8234880645327179706==
+--===============8029291161112826475==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regmap
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.1
+  - ref: refs/heads/regmap-6.1
     old: 01ed230761e51f0403b3f3845c11cb67014487e2
     new: 84498d1fb35de6ab71bdfdb6270a464fb4a0951b
     log: revlist-01ed230761e5-84498d1fb35d.txt
+  - ref: refs/heads/regmap-6.2
+    old: 0000000000000000000000000000000000000000
+    new: 9abf2313adc1ca1b6180c508c25f22f9395cc780
 
---===============8234880645327179706==
+--===============8029291161112826475==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1668114756 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regmap.git
-nonce 1668114755-8c9335185c52070caf13e0fd01d9330aed283524
+pusher C3F436CA30F5D8EB 1668114762 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1668114761-5c0a01ab0e8322a777821f84f960ded4aab6a1e1
 
-01ed230761e51f0403b3f3845c11cb67014487e2 84498d1fb35de6ab71bdfdb6270a464fb4a0951b refs/heads/for-6.1
+01ed230761e51f0403b3f3845c11cb67014487e2 84498d1fb35de6ab71bdfdb6270a464fb4a0951b refs/heads/regmap-6.1
+0000000000000000000000000000000000000000 9abf2313adc1ca1b6180c508c25f22f9395cc780 refs/heads/regmap-6.2
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmNtaUQACgkQJNaLcl1U
-h9C7iwgAgKPgwli2kHLrIlZukaLnwRQ/eV+U2zJIsuWotCNsgYNzjZ1xyXBpGcxP
-wWsRlRaOYhBeAOd206L8raR+uH6D0ZhQC9H+VL7HKbUTtnR9oYENKMrn99QXc4SQ
-uYOkX/EHgvz9N09L8g/POMJFPu2yyozmB58nN4vY4Jz6r8eOO8LR6Z4wi5RL7jda
-8g1LupnxpQRrETP1HSvH/EDlsH3xOJomBJquwMB/+e82A+Ojy1VmAuAx7mBhgzWb
-YJniDTTMHbhDQYyljlzQ7QNfSmJU4GhCdlZoZ9XwBe4HZToJA62o+TVPjQLxhYbf
-qwOwwNMcnBuA4Dr784ZGhzosxGvbDA==
-=UbnK
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmNtaUoACgkQJNaLcl1U
+h9Dw1wf/Yenh2R5BX8h8ikIDNX92GTBjSTOFFgBvN9BsktxRnuPKzHZ0lD7qbT4n
+njr0jWCPuzsPKtX6CCze6cVEAmBK58dW7KRni0YE215gOn2iHB4F6rm6iTc4/OHt
+7gRluCjcZ1oYUGwl58Y5MFfTKiC1Q9SbYdty1D6F4N0WmZL4V10WizewWMrZ6/6m
+la8jDt3PbDoYH13ABHryslyXLJ20139RTFShmPbi/yn9zSI4EVdZbrSkITLKh302
+aTwNcVSUocK7MXH8Kyd/Luz6YvF6LBPSpmOYiw565etKIALp8YvC3ox5J/HmGY+W
+hWEt+Yg8gduY7DKrJnHkbYeMyOc6rw==
+=Or/N
 -----END PGP SIGNATURE-----
 
---===============8234880645327179706==
+--===============8029291161112826475==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1076,4 +1080,4 @@ aa52994915dca444dbb8e6b91eb82b749ba7a1ec Merge tag 'hwmon-for-v6.1-rc4' of git:/
 f0c4d9fc9cc9462659728d168387191387e903cc Linux 6.1-rc4
 84498d1fb35de6ab71bdfdb6270a464fb4a0951b regmap-irq: Use the new num_config_regs property in regmap_add_irq_chip_fwnode
 
---===============8234880645327179706==--
+--===============8029291161112826475==--
