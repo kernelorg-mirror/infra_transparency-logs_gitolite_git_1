@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============1334499996737469550=="
+Content-Type: multipart/mixed; boundary="===============2727341152974828091=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Thu, 10 Nov 2022 19:03:58 -0000
-Message-Id: <166810703840.13399.8003271700803827868@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Thu, 10 Nov 2022 19:04:04 -0000
+Message-Id: <166810704449.13510.11539900146722021370@gitolite.kernel.org>
 
---===============1334499996737469550==
+--===============2727341152974828091==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.1
+  - ref: refs/heads/asoc-6.1
     old: 3ca507bf99611c82dafced73e921c1b10ee12869
     new: 37882100cd0629d830db430a8cee0b724fe1fea3
     log: |
@@ -24,28 +24,28 @@ changes:
          37882100cd0629d830db430a8cee0b724fe1fea3 ASoC: hdac_hda: fix hda pcm buffer overflow issue
          
 
---===============1334499996737469550==
+--===============2727341152974828091==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1668107037 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1668107036-abbbbb5bbe8192310ce3c79104ecebcb76fd44bd
+pusher C3F436CA30F5D8EB 1668107043 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1668107042-5dd3ed217f2fa0e2220625eb6da0bb6f49c5a042
 
-3ca507bf99611c82dafced73e921c1b10ee12869 37882100cd0629d830db430a8cee0b724fe1fea3 refs/heads/for-6.1
+3ca507bf99611c82dafced73e921c1b10ee12869 37882100cd0629d830db430a8cee0b724fe1fea3 refs/heads/asoc-6.1
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmNtSx0ACgkQJNaLcl1U
-h9CHpwf9GAmans2zLZH/D5DSVRp3oSUhBcyYuf+HGVd1jfKskYNxyTEhYhtDqTYR
-gYQ9GS9q1TL/SowUgJ0KHg4z/y7RGgzVcPP+Miknj13yf8MMHNpbHw88C3SqiV7w
-QpzTLxqMbujnHvL8CzzBXcUA//O93BEYaeEwfcdH/mAnGki2ZQOQmfdxNcZJY/Qb
-3QyEYAjUcxE0G1Mxx3ZyGpc9NK0Y0N98aAGgf5Mi04Nq3NswB01EWRsU8TSR24eG
-50WZ+YmgWnd8xhFRHvhE9EaoXCTtFGSasIOxV0DUwLqf/uQhPPvDanEM1QAnUk6N
-5NNmxsOZNLI89J1FFnbPohgzIMpoFg==
-=bHVL
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmNtSyMACgkQJNaLcl1U
+h9DFVgf+Pm7LOtCbP1rl7Tfpfo5TTB+vcT1uFV8ie7mmoe7Sltdmva5A6iUdMJe4
+DcQaqd9WhfV3KaiLW5G6vbTyOMstyW0RXracG86v2dY+Sq7IlFBsT6f25mVC27RL
+h//QBA4UTnDOhz+jMAp3+AEP6Au58qqrLKiZLS+WFoEl0jjwH2SkQokrCfj6XHKw
+4vV8hlrNxuM0IqgWjqbAV5ATs+9vHYobUZw5SXmVi3nacNwVphbzARPhKW3ddcbI
+pjoxeSu97d0FPfywlKKyd7e7qbup6EC1Ujgoy/oY7RiZaXKDVjSNyRRQwPX1iIva
+egRxvFc5Vng2QxakPQvjtZ+wi4uMYw==
+=mHhQ
 -----END PGP SIGNATURE-----
 
---===============1334499996737469550==--
+--===============2727341152974828091==--
