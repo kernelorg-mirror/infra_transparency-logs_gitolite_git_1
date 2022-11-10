@@ -1,14 +1,14 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
-Date: Thu, 10 Nov 2022 22:47:34 -0000
-Message-Id: <166812045413.11727.6321717314643473547@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
+Date: Thu, 10 Nov 2022 22:59:21 -0000
+Message-Id: <166812116186.20243.11571835906966747943@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/palmer/linux
+repo: pub/scm/linux/kernel/git/riscv/linux
 user: palmer
 changes:
   - ref: refs/heads/fixes
