@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Thu, 10 Nov 2022 17:49:59 -0000
-Message-Id: <166810259966.22142.3275012508153746725@gitolite.kernel.org>
+Date: Thu, 10 Nov 2022 17:50:05 -0000
+Message-Id: <166810260599.23766.18137272451517582837@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/20221108_yung_chuan_liao_asoc_sof_get_pipeline_instance_id_from_pipe_widget_instance_id
-    old: a2ba1f70b301b366666e739a1f951f57b8af2cce
+  - ref: refs/heads/v2_20221102_nfraprado_adjust_usage_of_rt5682_s_power_supply_properties
+    old: 318ff0693095defc683d00bb3fd7c482d10b03d7
     new: 0000000000000000000000000000000000000000
