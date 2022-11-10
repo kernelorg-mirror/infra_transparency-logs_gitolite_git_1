@@ -1,57 +1,42 @@
-Content-Type: multipart/mixed; boundary="===============8543302251764034821=="
+Content-Type: multipart/mixed; boundary="===============4117586865789971008=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 10 Nov 2022 18:11:46 -0000
-Message-Id: <166810390662.8031.14144738661790207185@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/namhyung/linux-perf
+Date: Thu, 10 Nov 2022 18:12:41 -0000
+Message-Id: <166810396151.8453.10812970894865447131@gitolite.kernel.org>
 
---===============8543302251764034821==
+--===============4117586865789971008==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/net-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/namhyung/linux-perf
+user: namhyung
 changes:
-  - ref: refs/heads/dev-queue
-    old: 675a4fb12f8f01ff4a2da98cd1cee9d7ee3f19d1
-    new: 8121c60d61269dc91c5757bd0c4120bdaf00ce73
-    log: revlist-675a4fb12f8f-8121c60d6126.txt
+  - ref: refs/heads/perf/test-workload-v2
+    old: a66fa4d97dab659424351b3c7244fcaa6d04336c
+    new: 5cdae2ef373e85c706d6d6edfb7ba9ddd6e4466c
+    log: revlist-a66fa4d97dab-5cdae2ef373e.txt
 
---===============8543302251764034821==
+--===============4117586865789971008==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-675a4fb12f8f-8121c60d6126.txt
+Content-Disposition: attachment; filename=revlist-a66fa4d97dab-5cdae2ef373e.txt
 
-6d47b53fb3f363a74538a1dbd09954af3d8d4131 net: cpsw: disable napi in cpsw_ndo_open()
-d75aed1428da787cbe42bc073d76f1354f364d92 net: cxgb3_main: disable napi when bind qsets failed in cxgb_up()
-dcea1a8107c04b9521dee1dd37971757a22db162 stmmac: intel: Update PCH PTP clock rate from 200MHz to 204.8MHz
-d4072058af4fd8fb4658e7452289042a406a9398 mctp: Fix an error handling path in mctp_init()
-c6092ea1e6d7bd12acd881f6aa2b5054cd70e096 cxgb4vf: shut down the adapter when t4vf_update_port_info() failed in cxgb4vf_open()
-f2d45fdf9a0ed2c94c01c422a0d0add8ffd42099 stmmac: dwmac-loongson: fix missing pci_disable_msi() while module exiting
-fe5b3ce8b4377e543960220f539b989a927afd8a stmmac: dwmac-loongson: fix missing pci_disable_device() in loongson_dwmac_probe()
-7f94d0498f9c763f37172c08059ae91804c3075a stmmac: dwmac-loongson: fix missing of_node_put() while module exiting
-63eec6f926ad8d1c8d658679349ef6581a800d4a Merge branch 'stmmac-dwmac-loongson-fixes-three-leaks'
-1b16b3fdf675cca15a537572bac50cc5354368fc net: phy: mscc: macsec: clear encryption keys when freeing a flow
-879785def0f5e71d54399de0f8a5cb399db14171 net: atlantic: macsec: clear encryption keys from the stack
-1893bb64c0d97f53febcfa606dc34dd581008d1d Merge branch 'macsec-clear-encryption-keys-in-h-w-drivers'
-0348c1ab980c1d43fb37b758d4b760990c066cb5 ethernet: s2io: disable napi when start nic failed in s2io_card_up()
-f111606b63ff2282428ffbac0447c871eb957b6c net: mv643xx_eth: disable napi when init rxq or txq failed in mv643xx_eth_open()
-acce40037041f97baad18142bb253064491ebde3 ethernet: tundra: free irq when alloc ring failed in tsi108_open()
-23569b5652ee8e8e55a12f7835f59af6f3cefc30 net: macvlan: fix memory leaks of macvlan_common_newlink
-6329b829bc96e3dfb67cd5a85c8a156036d2eb8c ice: Fix spurious interrupt during removal of trusted VF
-fd62484f3439f87ce7623ba7508135e34bf4cfc9 i40e: Fix failure message when XDP is configured in TX only mode
-4ba6ac213baf796699ba79c6ebffba8b59509ed1 i40e: fix xdp_redirect logs error message when testing with MTU=1500
-4db60fb128ba3550100ad8f076ed2300ba345348 iavf: Fix VF driver counting VLAN 0 filters
-c2327bfb6988e6e517cac04273397bcb2e247c8c i40e: Fix not setting default xps_cpus after reset
-52e9cf70802ef083f767e86c9d05e0b7034869a6 e1000e: Fix TX dispatch condition
-9f2d098e775009629141127faa974bb3ebe92de6 i40e: Fix for VF MAC address 0
-613277850a571404e475c6d68a9035655687b696 ice: Create a separate kthread to handle ptp extts work
-3ae88c931e908a6b0f9890b62b23d9d53b63debc iavf: Fix shutdown pci callback to match the remove one
-87df97406e71435c23c87659008ccff651beced1 iavf: Fix race condition between iavf_shutdown and iavf_remove
-8121c60d61269dc91c5757bd0c4120bdaf00ce73 ice: fix handling of burst Tx timestamps
+0fe22820ab4983c356db4e1d033d587753ec2631 perf test: Add -w/--workload option
+cb328b399d71d883691eee22aec52233be129e60 perf test: Replace pipe test workload with noploop
+225d2bc525163aef51572b8436ca3cc81f7d770b perf test: Add 'thloop' test workload
+de3884ea61eef4af60870487f250b1c1c4196df9 perf test: Replace record test workload with thloop
+1ca99ecbfecd99eeae4bfacefa056f0b718bbb82 perf test: Add 'leafloop' test workload
+9b31ffb0a0135a3b79cb94b4410e8bc29c5bf3c0 perf test: Replace arm callgraph fp test workload with leafloop
+fd12bbd3683075a88c26157db183b397eeaebc39 perf test: Add 'sqrtloop' test workload
+b785c02e4417e757e0d044ea14cab11eab9f6017 perf test: Replace arm spe fork test workload with sqrtloop
+9d935c2f91ed85029fc65d422aad23e8aec026b7 perf test: Add 'brstack' test workload
+82c617c64687426590200d9a7ca06e7d1b81da46 perf test: Replace brstack test workload
+ddb49bbe575d706b81332ea01d75285e8ea07626 perf test: Add 'datasym' test workload
+5cdae2ef373e85c706d6d6edfb7ba9ddd6e4466c perf test: Replace data symbol test workload with datasym
 
---===============8543302251764034821==--
+--===============4117586865789971008==--
