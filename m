@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Thu, 10 Nov 2022 04:54:06 -0000
-Message-Id: <166805604608.14565.9112754867364266416@gitolite.kernel.org>
+Date: Thu, 10 Nov 2022 05:00:51 -0000
+Message-Id: <166805645154.21365.659679044429775741@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,12 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: andrii
 changes:
-  - ref: refs/heads/for-next
-    old: e5659e4e19e49f1eac58bb07ce8bc2d78a89fe65
-    new: 15157d2e008dd6ac72e0d03281acf22007324b8d
+  - ref: refs/heads/master
+    old: 15157d2e008dd6ac72e0d03281acf22007324b8d
+    new: fd74b79df0d1c9506583d0b52e3d7562a38ac34a
     log: |
-         c302378bc157f6a73b6cae4ca67f5f6aa931dcec libbpf: Hashmap interface update to allow both long and void* keys/values
-         082108fd6932772deb7e329f118687b4c03fc6a5 libbpf: Resolve unambigous forward declarations
-         99e18fad5ff79eea2ea9ec7e6d800b286552e005 selftests/bpf: Tests for btf_dedup_resolve_fwds
-         15157d2e008dd6ac72e0d03281acf22007324b8d Merge branch 'libbpf: Resolve unambigous forward declarations'
+         fd74b79df0d1c9506583d0b52e3d7562a38ac34a selftests: Fix test group SKIPPED result
          
