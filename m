@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4443087506801726639=="
+Content-Type: multipart/mixed; boundary="===============3097796666086929114=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Thu, 10 Nov 2022 17:26:47 -0000
-Message-Id: <166810120726.6151.12970422476774751764@gitolite.kernel.org>
+Date: Thu, 10 Nov 2022 17:27:20 -0000
+Message-Id: <166810124029.6423.3070959254094692104@gitolite.kernel.org>
 
---===============4443087506801726639==
+--===============3097796666086929114==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,41 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-testing
-    old: fa627348cfc7fb174468d88756b83c2d97890b07
-    new: be7e8b917ead54754cc14b6c03769c8738a3f3f3
+  - ref: refs/heads/driver-core-next
+    old: 1662cea4623f75d8251adf07370bbaa958f0355d
+    new: fa627348cfc7fb174468d88756b83c2d97890b07
     log: |
-         be7e8b917ead54754cc14b6c03769c8738a3f3f3 blkdev: make struct block_device_operations.devnode() take a const *
+         8c3e8a6bdb5253b97ad532570f8b5db5f7a06407 class: fix possible memory leak in __class_register()
+         9e6002ad9e28209dcefa342977ac683779556dbd Documentation: devres: add missing MEM helper
+         6fcd7e702d3d91cc2c3194acffd7d67b2c10b81f devres: Use kmalloc_size_roundup() to match ksize() usage
+         92cf87051894921ab6b14e9ad60dbae2d669bf15 debugfs: small Documentation cleaning
+         9a6800d1b9da21302758fb37e58b3ab1cadfc643 sysfs: update Documentation
+         fa627348cfc7fb174468d88756b83c2d97890b07 driver core: class: make namespace and get_ownership take const *
          
 
---===============4443087506801726639==
+--===============3097796666086929114==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1668101204 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1668101238 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1668101204-d0ed403c07a4608acb76f97ad22a2b5e95910169
+nonce 1668101237-a8c78e7ce1ee87d7e51864fa206f0735597ee167
 
-fa627348cfc7fb174468d88756b83c2d97890b07 be7e8b917ead54754cc14b6c03769c8738a3f3f3 refs/heads/driver-core-testing
+1662cea4623f75d8251adf07370bbaa958f0355d fa627348cfc7fb174468d88756b83c2d97890b07 refs/heads/driver-core-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmNtNFQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+cgAQAKNZ8knI5HW21JlC0Csz
-MMK8GdNhobV2vwozEww0eBIHQRfM0GTDJWl7gxEqgRPa5iLjNZO1Ebzk8blU8SKc
-J4w3oUBPwjXhDjcOXYMRTkEb5AEcPtXS3ZlcvAQNJhM610Z575ylxkjIDOtUvWSz
-AACY6OQek3TQ1cqB19LIgm9+l7H1j3q5FWHiOkQxV7QfCFAxcawfkpNXEp/jA9lq
-ammczAEUXYN41gW6w2oQ6L/RjkYQ9Yq+JEsdlrquyVrmrSwzRBZqoNTpao3r+bHv
-tU7VFQ4/UKbxy0i7PrzVWMUAHSg5pXs0H9MgStsG76DCaIepjhtwLf38Ngl8Gv3E
-JsOfwEw1U96ZB6sMqz6XAWJk695B4lTLYVczd2rOZQQMas39aCoJzMyzzLp2CoF6
-zszdU/hnSMjWZd9kLtD1jHwqAJFCDRUceFGHYYuke+iHEH92wArZo659TUJ1IMD7
-UpZjaCkC/rujbnhPVcfgt4Ewl63sEHNdLuE1Z0Zdm8ciY7SZC45rcH6LNouYu3v/
-N/L+Kq2xysJy1UmrsSz6FFasVi/oBVkCskUeNfKDUsJ6jbtIv4ktODiN7D8/KPbe
-rffeou/mmwBLtBuvTgOIzuPvvr5lHBQUIPQJDWlLJ4R7jiPTkkGH2cZT2VAExAwY
-v0paYH+rieyA5Fu7zWPYnaHm
-=cB8h
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmNtNHYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+8b4QAMhng133TFQNH650sMyI
+OBwYErtC0ZWXjz3mDWg369O69r7+QMIn9f9ZZY9el3TTZtPDFTBnK4pSyWdh5uJC
+mpdWMg5d0+tSOt8iZ+Rsf6Uoy3qZIGacUl49NorOr5vg6MwZYYpxa501wc0rlaFI
+a6xCKkxf53F/sml2+fnluyK+Rp4AgZH/lWNqaHysxMTatIq+CwzzAO64w9/sWHwV
+F3mOGL/ZFx6Nbcgm7R1aGTiR04+wdZhYHHFQoCIL4oGRjj+RgmD1z+EZSdOg0eHB
+PI4/0RMNgbBFm1a3GzUoLGrTuSgExVeG6NXlM1q8njisuie0FqSUrIX7WaHiw7GJ
+QDPAypWuodvnajHKlYom6pKLPXKteqaVpWy4gzmNIB2eBg/LbEJh7ylpkbj/Eg02
+XXlO5VcFNRcNkQVv8dwQgbe/SSXWu5DziRjJXLqmQSu3qJhGrVkygThLkqegdUpd
+OnPWLrlEyg5uaopPIN3MPM4zOspIdRzWfE6uszwtEDsQclVlWisgPZ0PwEsXXzwh
+IIa/uDREOuY/9z2n+oieO6j4f0biTZ3WsG7pcD48FYFx18BPGLQ3p81nI8aLzU91
+Eae4SX0JYW4MibS4M+xHw8ppcAhnOtji5H9SAhugnY7abwAA0BGQNrAMFUp+Mi0L
+WOCpAEhUfdsdsgk7mto9MsFJ
+=xjNn
 -----END PGP SIGNATURE-----
 
---===============4443087506801726639==--
+--===============3097796666086929114==--
