@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7973011825756088558=="
+Content-Type: multipart/mixed; boundary="===============2059961217929139078=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 10 Nov 2022 12:13:25 -0000
-Message-Id: <166808240595.15939.10417895095708021318@gitolite.kernel.org>
+Date: Thu, 10 Nov 2022 12:14:33 -0000
+Message-Id: <166808247346.16455.1944890842059045444@gitolite.kernel.org>
 
---===============7973011825756088558==
+--===============2059961217929139078==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: bp
 changes:
-  - ref: refs/heads/x86/cpu
-    old: 7420ae3bb977b46eab082f4964641f3ddc98ebaf
-    new: f8bd9f25c9815161a39886fdd96d110b536a6074
-    log: revlist-7420ae3bb977-f8bd9f25c981.txt
+  - ref: refs/heads/master
+    old: ba010496b3dbd9cc311c0f5c4dd62758836eaf70
+    new: aaff1e7dab0c51fc928db457c1243e1f804271f8
+    log: revlist-ba010496b3db-aaff1e7dab0c.txt
 
---===============7973011825756088558==
+--===============2059961217929139078==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7420ae3bb977-f8bd9f25c981.txt
+Content-Disposition: attachment; filename=revlist-ba010496b3db-aaff1e7dab0c.txt
 
 45fa71f19a2d73f157d6892a8d677a738a0414fd x86/mtrr: Replace use_intel() with a local flag
 d5f66d5d10611978c3a93cc94a811d74e0cf6cbc x86/mtrr: Rename prepare_set() and post_set()
@@ -39,5 +39,6 @@ d5f66d5d10611978c3a93cc94a811d74e0cf6cbc x86/mtrr: Rename prepare_set() and post
 adfe7512e1d0b2e83215b0ec56337d2df9f1032d x86: Decouple PAT and MTRR handling
 30f89e524becdbaa483b34902b079c9d4dfaa4a3 x86/cacheinfo: Switch cache_ap_init() to hotplug callback
 f8bd9f25c9815161a39886fdd96d110b536a6074 x86/mtrr: Simplify mtrr_ops initialization
+aaff1e7dab0c51fc928db457c1243e1f804271f8 Merge x86/cpu into tip/master
 
---===============7973011825756088558==--
+--===============2059961217929139078==--
