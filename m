@@ -1,57 +1,24 @@
-Content-Type: multipart/mixed; boundary="===============4887167542609502930=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Fri, 11 Nov 2022 09:19:29 -0000
-Message-Id: <166815836900.3807.851212110404708376@gitolite.kernel.org>
-
---===============4887167542609502930==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/matthias.bgg/linux
+Date: Fri, 11 Nov 2022 09:24:48 -0000
+Message-Id: <166815868866.7361.14903703409246949935@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/matthias.bgg/linux
+user: matthias.bgg
 changes:
-  - ref: refs/heads/usb-testing
-    old: d65e6b6e884a38360fc1cadf8ff31858151da57f
-    new: 46ed6026ca2181c917c8334a82e3eaf40a6234dd
+  - ref: refs/heads/v6.1-next/dts64
+    old: ee3f54cf6ea8f7032946689de1cafc1c467f6d11
+    new: 8c80453864efea0a0ed5ca2b399fd97f2f55a5ae
     log: |
-         00fb05ff87bc63a3e9000e3f7c15c86951aca76d usb: fotg2: add Gemini-specific handling
-         46ed6026ca2181c917c8334a82e3eaf40a6234dd usb: fotg210-udc: Fix ages old endianness issues
+         07ce611c705217507c2a036bba8695cbd82c9e36 arm64: dts: mt7986: fix trng node name
+         ecc0af6a3fe6ae47a341438f299b9439a6572def arm64: dts: mt8195: Add pcie and pcie phy nodes
+         965f2c0491ebbb6995233c0b167fb9e0cf0853da arm64: dts: mt7986: harmonize device node order
+         ecc5287cfe5359e454ca705ef02aae0c9756eaad arm64: dts: mt7986: add crypto related device nodes
+         640a298b34f28c29f839cb047e6fc00ab0451f8a arm64: dts: mt7986: add i2c node
+         8c80453864efea0a0ed5ca2b399fd97f2f55a5ae dt-bindings: arm64: dts: mediatek: add compatible for bananapi r3
          
-
---===============4887167542609502930==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1668158366 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1668158366-20a93d0a17d06e12567562f1adbfd593f4cea4db
-
-d65e6b6e884a38360fc1cadf8ff31858151da57f 46ed6026ca2181c917c8334a82e3eaf40a6234dd refs/heads/usb-testing
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmNuE58bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+NVUP/1xuNISRgzJwZ0PLX0p8
-mFk9XEqUJbfhUBWk1nAqTrYvGLwFFyJuyAHUjKzhXSn7BERjhitFLVz15mZzEhpR
-dz/LNr406YlNMCfXtbAnYPpwvJER3XmFvGbnCG9ZaZDmxIna/AA/X7zkArp2Sp1v
-ZnESBhtgkXzU6VtO4JFnSXKuci2OabJkLaFI4uVPoMd3sivoPalieLHFVaqzAvf2
-BjXoCEfsL/DGbFY+PWShbzZvvV7ZQ8D+wDFhuN8UE61XRb6he7q9aWR/wyEpzUWt
-Zx43yYetksRwRwhlbV5x2QkHG1/WN8BjlU6mP80ERDpA9W2cWffWEyrKMHNwpniP
-LdHSISv6nLb8OS1GwLdd4ExZ+Gla+4Du5vRgxgc/mjrAD9oC2NDDg70pq1kvYMMa
-iuSryxf+jag5fU7zR074lTdRTUzKxv6rwuLj7Hk0sYKaiPfkmPyL/2U3yMFw2RIB
-GFLl7MhIae7/GuByKgIGyXqoIroJsyRIicD0ek/HIJ3A/8OJUn7RtT7utvwjQVDk
-PRsAXh5FoZoFv9tdmBVruCyi5z0IWMzECCXsYrVQWz0MnQLvZOrgp1Pqx9ucmsy0
-ZSsEgqb8K/FXCng76xqQLZeiuoo7U/J1Vl3z/Q/a6V3RS2Tc80CEf+G/unrB6MX3
-LiSiXfjgea5N04oZSLHQafxp
-=nH1N
------END PGP SIGNATURE-----
-
---===============4887167542609502930==--
