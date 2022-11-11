@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Fri, 11 Nov 2022 07:55:51 -0000
-Message-Id: <166815335111.14315.11598077362738414318@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-dt
+Date: Fri, 11 Nov 2022 08:00:21 -0000
+Message-Id: <166815362135.17532.8947678795203540747@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: davem
+repo: pub/scm/linux/kernel/git/krzk/linux-dt
+user: krzk
 changes:
-  - ref: refs/heads/master
-    old: 966a9b49033b472dcfb453abdc34bca7df17adce
-    new: a07b3835b895b0ef772f88c4b7c38e9fed52b1ff
+  - ref: refs/heads/next/qcom-pinctrl
+    old: 5dca9dd7ffcb24a3db37a37a4a208070d92c8180
+    new: aa191ab79a3e94d51a52155ad85fea40620c1dc8
     log: |
-         a07b3835b895b0ef772f88c4b7c38e9fed52b1ff MAINTAINERS: Update hinic maintainers from orphan
+         aa191ab79a3e94d51a52155ad85fea40620c1dc8 dt-bindings: pinctrl: qcom,msm8660: convert to dtschema
          
