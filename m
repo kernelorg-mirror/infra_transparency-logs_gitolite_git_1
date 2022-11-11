@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Fri, 11 Nov 2022 21:15:43 -0000
-Message-Id: <166820134367.12381.15122840758568619811@gitolite.kernel.org>
+Date: Fri, 11 Nov 2022 21:18:43 -0000
+Message-Id: <166820152390.13481.13225689179929866208@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,12 +11,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: andrii
 changes:
-  - ref: refs/heads/for-next
-    old: e4c9cf0ce8c413c2030e8fb215551d7e0582ee7b
-    new: e0c4529a94513192fbc23141bffc71a2d15a2784
+  - ref: refs/heads/master
+    old: e0c4529a94513192fbc23141bffc71a2d15a2784
+    new: 0f7dc423a5dcad488e1d8f8f34d5572600a86471
     log: |
-         a8adbbd83028c59b19a5861bfdd31246df144197 bpf: Add hwtstamp field for the sockops prog
-         6a299f84f6b83fa869dcf8788cda05229ef52333 selftests/bpf: Fix incorrect ASSERT in the tcp_hdr_options test
-         0711381177f85d54fffc03be4b27fa1a0c164db5 selftests/bpf: Test skops->skb_hwtstamp
-         e0c4529a94513192fbc23141bffc71a2d15a2784 Merge branch 'bpf: Add hwtstamp field for the sockops prog'
+         9bb053490f1a5a0914eb9f7b4116a0e4a95d4f8e bpf: Add hwtstamp field for the sockops prog
+         52929912d7bda040b43538e8d88e8d231b76eb4e selftests/bpf: Fix incorrect ASSERT in the tcp_hdr_options test
+         8cac7a59b252732d8427ebc29c3fc6c36ff653e1 selftests/bpf: Test skops->skb_hwtstamp
+         0f7dc423a5dcad488e1d8f8f34d5572600a86471 Merge branch 'bpf: Add hwtstamp field for the sockops prog'
          
