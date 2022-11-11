@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2235380740167627035=="
+Content-Type: multipart/mixed; boundary="===============0562714198201220665=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Fri, 11 Nov 2022 22:29:44 -0000
-Message-Id: <166820578425.32560.15251743997264645555@gitolite.kernel.org>
+Date: Fri, 11 Nov 2022 22:35:32 -0000
+Message-Id: <166820613289.5458.18255178651394600800@gitolite.kernel.org>
 
---===============2235380740167627035==
+--===============0562714198201220665==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,56 +16,56 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: bot-stable-queue
 changes:
   - ref: refs/heads/queue/5.10
-    old: 2c7332769ed2d1fde8ffa200d516a1005db51ee8
-    new: 3e711b2b30de9482456204682689398e90037e9a
+    old: 3e711b2b30de9482456204682689398e90037e9a
+    new: 37dd4e011c63cf1a44721cc64e75d42b0aa2c920
     log: |
-         3e711b2b30de9482456204682689398e90037e9a fuse: fix readdir cache race
+         37dd4e011c63cf1a44721cc64e75d42b0aa2c920 fuse: fix readdir cache race
          
   - ref: refs/heads/queue/5.15
-    old: 0f06a47d7b720c9b400d188965ac12c0d1742765
-    new: 8a95faff7ec1adc04b943eb228b6773ab39f5ae8
+    old: 8a95faff7ec1adc04b943eb228b6773ab39f5ae8
+    new: 94b586a8c674c39d1eda74ab1d7f662e65c5cb89
     log: |
-         bc7c508ebac754dce8e2d56fa84d578bdb564349 thunderbolt: Tear down existing tunnels when resuming from hibernate
-         c2f30daf4cb9fac5ebe2c9a3bea2ee7a6b87ad3e thunderbolt: Add DP OUT resource when DP tunnel is discovered
-         f6cce028dadf5369aa4da4aa9c777ee4e6ee47ed fuse: fix readdir cache race
-         749ea0332c9e06bbbed630ce3734253af4058ee5 drm/amdkfd: avoid recursive lock in migrations back to RAM
-         25292956d42091a2c05b623713bb6d608797da84 drm/amdkfd: handle CPU fault on COW mapping
-         8a95faff7ec1adc04b943eb228b6773ab39f5ae8 drm/amdkfd: Fix NULL pointer dereference in svm_migrate_to_ram()
+         5dc14d9efa06f8f7811fe254b6c7435ef14f8089 thunderbolt: Tear down existing tunnels when resuming from hibernate
+         363aedb4fffb1ce8496a882f88a7af08522a5bf2 thunderbolt: Add DP OUT resource when DP tunnel is discovered
+         f379c5298116846cc1c6d48cab798fdce6654612 fuse: fix readdir cache race
+         e26332935064a202bb46a7deff8cb8410286b6e6 drm/amdkfd: avoid recursive lock in migrations back to RAM
+         c2790b25ed1e70b8683fbcd161343a316ed2cbb1 drm/amdkfd: handle CPU fault on COW mapping
+         94b586a8c674c39d1eda74ab1d7f662e65c5cb89 drm/amdkfd: Fix NULL pointer dereference in svm_migrate_to_ram()
          
   - ref: refs/heads/queue/5.4
-    old: 4d9722586103714a452e1c0a46ab126d86b03ab8
-    new: 4a6c5ce8ecea1b57444d9cebf51c688629d5acc5
+    old: 4a6c5ce8ecea1b57444d9cebf51c688629d5acc5
+    new: ac52dbfbf46e791f28a7c435a826144a80c29669
     log: |
-         c3cb182e332531af6459a563881e43e1a77a462e xfs: preserve rmapbt swapext block reservation from freed blocks
-         562064491855cbaf8d3237c6d5a168b1c8cafa4c xfs: rename xfs_bmap_is_real_extent to is_written_extent
-         c856720cf8881552815da2c29f7d90939ad2be21 xfs: redesign the reflink remap loop to fix blkres depletion crash
-         ebcd09a38e81bc1743d30dbd25bc8fc23c8c5617 xfs: use MMAPLOCK around filemap_map_pages()
-         6cacaa55e8e9af46a634318c96b8b53c1de1c8cd xfs: preserve inode versioning across remounts
-         4a6c5ce8ecea1b57444d9cebf51c688629d5acc5 xfs: drain the buf delwri queue before xfsaild idles
+         24508bc1312f85f93036f183803738cffe14187e xfs: preserve rmapbt swapext block reservation from freed blocks
+         eb5fbfaec7c596fb407afab0ff2552f49518a224 xfs: rename xfs_bmap_is_real_extent to is_written_extent
+         2de1dafcadca0caae4c98b2a66073117c7039108 xfs: redesign the reflink remap loop to fix blkres depletion crash
+         4a7bd81959518f357158dfdeac850fc23e5611c3 xfs: use MMAPLOCK around filemap_map_pages()
+         218db6f9a05d8a4827a1fe30971f019be45da52a xfs: preserve inode versioning across remounts
+         ac52dbfbf46e791f28a7c435a826144a80c29669 xfs: drain the buf delwri queue before xfsaild idles
          
   - ref: refs/heads/queue/6.0
-    old: 7651eb9d68400d42d4a03753829078217ba52fef
-    new: f95b3035c1e845bc3bf1c1914caab2f09cf398f8
-    log: revlist-7651eb9d6840-f95b3035c1e8.txt
+    old: f95b3035c1e845bc3bf1c1914caab2f09cf398f8
+    new: 924a04e9f70739fd940e66cd8db7129445285808
+    log: revlist-f95b3035c1e8-924a04e9f707.txt
 
---===============2235380740167627035==
+--===============0562714198201220665==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7651eb9d6840-f95b3035c1e8.txt
+Content-Disposition: attachment; filename=revlist-f95b3035c1e8-924a04e9f707.txt
 
-07d7a6454e954b76de9d5ba750bf999d778f2cf3 thunderbolt: Add DP OUT resource when DP tunnel is discovered
-6a2da6737f9d10d1100e8bd4a1890fcf46b1bb28 drm/i915/gvt: Add missing vfio_unregister_group_dev() call
-de5f14c3f9a4b6f1977f93ebbc8252bf7a7c1d39 m68k: Rework BI_VIRT_RNG_SEED as BI_RNG_SEED
-88693ebdd33880364991f6c0b44104f99d718514 KVM: debugfs: Return retval of simple_attr_open() if it fails
-a7c6b3d6685874cdd8930c114b133049ebb220cf drm/i915: Allow more varied alternate fixed modes for panels
-168933976369159865ec6e0cbba7c59fdca8fc6d drm/i915: Simplify intel_panel_add_edid_alt_fixed_modes()
-ae1b9399fa8ac4f9024c0f0b36a301fc636f391e drm/i915/sdvo: Grab mode_config.mutex during LVDS init to avoid WARNs
-90d9f85b9dfb5cc2ab0b974923577c7f444b2bbf drm/amd/display: Acquire FCLK DPM levels on DCN32
-2f9d14f80cf5bcfe047a0573bfa713873517e844 drm/amd/display: Limit dcn32 to 1950Mhz display clock
-11cbfe509a6f3ac1a8889ab20c67cb5816557f7e drm/amd/display: Set memclk levels to be at least 1 for dcn32
-895d07d81c061454dda0cf63f0d7dd5f0168d0ea drm/amdkfd: handle CPU fault on COW mapping
-cb831a0582dd1402da3dd500815924d67fd5ffb5 drm/amdkfd: Fix NULL pointer dereference in svm_migrate_to_ram()
-f95b3035c1e845bc3bf1c1914caab2f09cf398f8 cxl/region: Recycle region ids
+9760a97224818ffa0beabcafa4a8ac803503988b thunderbolt: Add DP OUT resource when DP tunnel is discovered
+0d97a64c620ad6f5afb94be79d029c395501ed9c drm/i915/gvt: Add missing vfio_unregister_group_dev() call
+53a309d6fc4c040c7c30188492c905f8594c91ac m68k: Rework BI_VIRT_RNG_SEED as BI_RNG_SEED
+4ae16e659394b0c111faaf557ca3e6b2acd94fee KVM: debugfs: Return retval of simple_attr_open() if it fails
+dceca9b1f43bfa693938c27b24e5f1f42afc48d5 drm/i915: Allow more varied alternate fixed modes for panels
+f4365e669fcbd757d527db1c4220302f95b41586 drm/i915: Simplify intel_panel_add_edid_alt_fixed_modes()
+b9e1d911444fa2a0b1d8cb945a58d3611e9d5b70 drm/i915/sdvo: Grab mode_config.mutex during LVDS init to avoid WARNs
+95dcfaa5735baf67dfa484ea2aa924aaa6034e97 drm/amd/display: Acquire FCLK DPM levels on DCN32
+d87d45ec1a3157dac09c2df57a8a0d8412df7386 drm/amd/display: Limit dcn32 to 1950Mhz display clock
+7052bae5ad95d65b77e74bfc834dd29e053d181d drm/amd/display: Set memclk levels to be at least 1 for dcn32
+fd57fd5b3234ecbea75d56499f78ed3801c6c37d drm/amdkfd: handle CPU fault on COW mapping
+6e2e15f389279e8841d586d55fcd579a70d26feb drm/amdkfd: Fix NULL pointer dereference in svm_migrate_to_ram()
+924a04e9f70739fd940e66cd8db7129445285808 cxl/region: Recycle region ids
 
---===============2235380740167627035==--
+--===============0562714198201220665==--
