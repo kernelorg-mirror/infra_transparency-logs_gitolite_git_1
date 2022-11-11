@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3971036606036915236=="
+Content-Type: multipart/mixed; boundary="===============9143588413051784720=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mips/linux
-Date: Fri, 11 Nov 2022 14:25:20 -0000
-Message-Id: <166817672020.8532.3585994119822340429@gitolite.kernel.org>
+Date: Fri, 11 Nov 2022 14:25:34 -0000
+Message-Id: <166817673456.8729.13624321119890531649@gitolite.kernel.org>
 
---===============3971036606036915236==
+--===============9143588413051784720==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mips/linux
 user: tsbogend
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/mips-next
     old: 9abf2313adc1ca1b6180c508c25f22f9395cc780
     new: f0c4d9fc9cc9462659728d168387191387e903cc
     log: revlist-9abf2313adc1-f0c4d9fc9cc9.txt
 
---===============3971036606036915236==
+--===============9143588413051784720==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ aa52994915dca444dbb8e6b91eb82b749ba7a1ec Merge tag 'hwmon-for-v6.1-rc4' of git:/
 16c7a368c8ba9aba3b0e0ae5ec0a64be9fb45665 Merge tag 'cxl-fixes-for-6.1-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/cxl/cxl
 f0c4d9fc9cc9462659728d168387191387e903cc Linux 6.1-rc4
 
---===============3971036606036915236==--
+--===============9143588413051784720==--
