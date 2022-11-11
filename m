@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1002594064522374648=="
+Content-Type: multipart/mixed; boundary="===============1515974242705212794=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
-Date: Fri, 11 Nov 2022 10:07:54 -0000
-Message-Id: <166816127427.20231.827018433017011887@gitolite.kernel.org>
+Date: Fri, 11 Nov 2022 10:10:36 -0000
+Message-Id: <166816143695.22749.8569633415313149346@gitolite.kernel.org>
 
---===============1002594064522374648==
+--===============1515974242705212794==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,32 +16,32 @@ repo: pub/scm/linux/kernel/git/hid/hid
 user: jikos
 changes:
   - ref: refs/heads/for-next
-    old: 29e97b78fbda13597aaedbeb1dc423784679fe57
-    new: 68e149347be7f72ac5cc1d0239917157dc78b4b6
-    log: revlist-29e97b78fbda-68e149347be7.txt
-  - ref: refs/heads/for-6.2/sony
+    old: 68e149347be7f72ac5cc1d0239917157dc78b4b6
+    new: 1d608ab72fa7066cd7bbaaf01fcca8fb57218f3e
+    log: revlist-68e149347be7-1d608ab72fa7.txt
+  - ref: refs/heads/for-6.2/ft260
     old: 0000000000000000000000000000000000000000
-    new: c64ed0cd9324f9e5f44deb6834ad9fb5bfa436bc
+    new: fb5d783b3c66a0110454a54d2f3bcb7dad4309a1
 
---===============1002594064522374648==
+--===============1515974242705212794==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-29e97b78fbda-68e149347be7.txt
+Content-Disposition: attachment; filename=revlist-68e149347be7-1d608ab72fa7.txt
 
-f55b9b56cefb1c4a7422e2b1fcb3a84ae4cd74d1 HID: playstation: initial DualShock4 USB support.
-9a62280a1bdc71e89ea44395bd03829ad896c447 HID: playstation: report DualShock4 hardware and firmware version.
-8871ed304e6938361c28b3c86f64a4190dad7dbb HID: playstation: add DualShock4 battery support.
-752038248808a7ff176bbdb668f19ae7d2a9816b HID: playstation: add DualShock4 touchpad support.
-12882ed83c5833880e74b1fdc92ebf64d8f97651 HID: playstation: add DualShock4 accelerometer and gyroscope support.
-4e463ec4ba839af9758366573b32e20df1ea2e47 HID: playstation: Add DualShock4 rumble support.
-316f57fb3f0c83d15b7c682a7b0e0a63f31cbea5 HID: playstation: make LED brightness adjustable in ps_led_register.
-4521109a8f40621ced642d62f1e887bd6b2d1946 HID: playstation: support DualShock4 lightbar.
-82d93f64c3ce28e2157e399e9d4ac935188cae7d HID: playstation: support DualShock4 lightbar blink.
-a23b063b84d0d54f30822f9f2fa4c6c2f4ea1756 HID: playstation: add option to ignore CRC in ps_get_report.
-2d77474a239294786feb4fe9864c845fe92db239 HID: playstation: add DualShock4 bluetooth support.
-58feecb4172b49ad1459e57556667a59df5bdda2 HID: playstation: set default DualShock4 BT poll interval to 4ms.
-c64ed0cd9324f9e5f44deb6834ad9fb5bfa436bc HID: playstation: add DualShock4 dongle support.
-68e149347be7f72ac5cc1d0239917157dc78b4b6 Merge branch 'for-6.2/sony' into for-next
+f45d50ede6f9e6d76a218e6ed06cc352acad466f HID: ft260: ft260_xfer_status routine cleanup
+6fca5e3f5574ca1bd5bade5737848c816f924c6a HID: ft260: improve i2c write performance
+1edfae51d5763439b2c89c9419c377f9c0da354d HID: ft260: support i2c writes larger than HID report size
+0acb869f40ecc328ed87e389cc08122e3aeba1a8 HID: ft260: support i2c reads greater than HID report size
+54410c14800ad652c77e5c6fc5c17baad6e42cb6 HID: ft260: improve i2c large reads performance
+76e76e7993f3d8da484424135a4a8acf7f3cac0b HID: ft260: do not populate /dev/hidraw device
+b7121e3c04440cc2af9cabbabb24efd23741294a HID: ft260: skip unexpected HID input reports
+3b56ff4820cf9d36a770d01769d5d9a6c3b14891 HID: ft260: remove SMBus Quick command support
+728b117e7862b1eb05c3aad3b2f087b26453d56a HID: ft260: missed NACK from big i2c read
+4b3da6853a619a952e8caf2e8393264dd42ffa27 HID: ft260: wake up device from power saving mode
+c2500bdffe5a95fbd0aecdd5be3d2f175ad22f92 HID: ft260: fix a NULL pointer dereference in ft260_i2c_write
+5afac727defa0b2a3dffb2abd5fb5f594b98d217 HID: ft260: missed NACK from busy device
+fb5d783b3c66a0110454a54d2f3bcb7dad4309a1 HID: ft260: fix 'cast to restricted' kernel CI bot warnings
+1d608ab72fa7066cd7bbaaf01fcca8fb57218f3e Merge branch 'for-6.2/ft260' into for-next
 
---===============1002594064522374648==--
+--===============1515974242705212794==--
