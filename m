@@ -1,58 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============2911012459441373296=="
+Content-Type: multipart/mixed; boundary="===============6577998788951520346=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Fri, 11 Nov 2022 17:07:03 -0000
-Message-Id: <166818642336.25491.9288392337784773751@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Fri, 11 Nov 2022 17:07:10 -0000
+Message-Id: <166818643018.25594.7823825090598285028@gitolite.kernel.org>
 
---===============2911012459441373296==
+--===============6577998788951520346==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.1
+  - ref: refs/heads/asoc-6.1
     old: 0bb8e9b36b5b7f2e77892981ff6c27ee831d8026
     new: 39bd801d6908900e9ab0cdc2655150f95ddd4f1a
     log: |
          39bd801d6908900e9ab0cdc2655150f95ddd4f1a ASoC: soc-pcm: Don't zero TDM masks in __soc_pcm_open()
          
-  - ref: refs/heads/for-6.2
+  - ref: refs/heads/asoc-6.2
     old: 9f63869a5682d5fa9bc5563577fe3270e7cbf4f2
     new: e5fa3ccad328bdfc6d118874b7a2bf89178f076b
     log: revlist-9f63869a5682-e5fa3ccad328.txt
 
---===============2911012459441373296==
+--===============6577998788951520346==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1668186421 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1668186420-6f411db4fe76852719fd2723a89250c2b23e7aca
+pusher C3F436CA30F5D8EB 1668186427 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1668186427-b37b3fca7b589a1e08f47e56c0e1df9c4d8e6353
 
-0bb8e9b36b5b7f2e77892981ff6c27ee831d8026 39bd801d6908900e9ab0cdc2655150f95ddd4f1a refs/heads/for-6.1
-9f63869a5682d5fa9bc5563577fe3270e7cbf4f2 e5fa3ccad328bdfc6d118874b7a2bf89178f076b refs/heads/for-6.2
+0bb8e9b36b5b7f2e77892981ff6c27ee831d8026 39bd801d6908900e9ab0cdc2655150f95ddd4f1a refs/heads/asoc-6.1
+9f63869a5682d5fa9bc5563577fe3270e7cbf4f2 e5fa3ccad328bdfc6d118874b7a2bf89178f076b refs/heads/asoc-6.2
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmNugTUACgkQJNaLcl1U
-h9ApAQf/dqf0yfsGXqzrDMNgkfdDvBbbY7xZGSHeHxxZa7Q9GBA9Aw5qCr+CSL/7
-nKSpzHLVfDZRmVn674dge8afTQ3WtO9juQgH3gYqARTGZlVeD9W/yYZMCl3hHhBz
-BIZGMJsOQl4nJ5qF+Jooi136IEKDrFQ/tH8A4lUQkZnPWJ9gEprmE0xpaycIIUxu
-MqklK7PBIp9hvXrGBZzWILtZ82SqyRv1e4SUjau+aElwCVwR+OM8APwQ7mrAydJw
-D5jUCPkkowaQOfHndu5/FsG1HGv8hXjJQqTLhGi5Za2LqRPgJuWNxTTNFJfcuP+G
-5m0yj4THYz5J9tjovCQH7GFcIT6vXw==
-=Y0TM
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmNugTsACgkQJNaLcl1U
+h9DZygf+OFKtERQrg4brqe6G7hcNCXlalzrIdjRjNCgjjvHG8sSSqCsDs0Ae4P/y
+pvA/nqAgxQGza7F+Y+kF3g6dHNmdiz1ospp4QXZ0BQTeYFzOfsiX4741AXAEArRl
+6WYZ4vKpNtrpiw4Dgpos4mGRSi40twSGbe2BsZ59bZAZVt7jQCARyz0JXO5sV7h9
+0inPhSVUQXxgDn+wH2JXmMHT2jIwM7ia96EXhRbaCwRlOWVg64M4x1wzyRhTZNi4
+dGsj5ptKpp+SafMfWqGaRl6uY4rGaQp8V55kBHENo/HaUT74WuEMkU7lt+0suozd
+vqSY1tFovU1wnjJ6hLINo7kd1k7xEw==
+=DTdz
 -----END PGP SIGNATURE-----
 
---===============2911012459441373296==
+--===============6577998788951520346==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1083,4 +1083,4 @@ f0c4d9fc9cc9462659728d168387191387e903cc Linux 6.1-rc4
 cf6946d95005add8437f874e0952ec4f28fe5c02 ASoC: Intel: sof_sdw_rt1316: add BQ params for the Dell models
 e5fa3ccad328bdfc6d118874b7a2bf89178f076b ASoC: Set BQ parameters for some Dell models
 
---===============2911012459441373296==--
+--===============6577998788951520346==--
