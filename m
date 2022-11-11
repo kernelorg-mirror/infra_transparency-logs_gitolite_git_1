@@ -1,28 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Fri, 11 Nov 2022 09:04:16 -0000
-Message-Id: <166815745679.25829.9010972375517414165@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============2328485432250440704=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Fri, 11 Nov 2022 09:04:51 -0000
+Message-Id: <166815749135.26106.14394600813769734162@gitolite.kernel.org>
+
+--===============2328485432250440704==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue/5.15
-    old: 21b4f47fccd0d65acb2d45347f1a560be7c30367
-    new: ba5454dc29cf137f09fe6204406e5f1cf0dae942
+  - ref: refs/heads/master
+    old: c917c89755b60da11fc7eab830e3d7b96eba13e3
+    new: 3ad4b0cdf8551d0d352c9fcbc83cf7ce254f2359
     log: |
-         8c4b6fc93163751b5bd39be26c68fa6660f9839a thunderbolt: Tear down existing tunnels when resuming from hibernate
-         ba5454dc29cf137f09fe6204406e5f1cf0dae942 thunderbolt: Add DP OUT resource when DP tunnel is discovered
+         3ad4b0cdf8551d0d352c9fcbc83cf7ce254f2359 5.4-stable patches
          
-  - ref: refs/heads/queue/6.0
-    old: bc84c70e486b6fcf8adf95ca926dcb535fff9ee2
-    new: a76bfe1053129f06114ebb094523680dd1f87a4b
-    log: |
-         261af434176e6069a95063f5393ecbde7f5769c5 thunderbolt: Add DP OUT resource when DP tunnel is discovered
-         1465732875702bb5458580ff4d81d6dc842ca288 drm/i915/gvt: Add missing vfio_unregister_group_dev() call
-         a76bfe1053129f06114ebb094523680dd1f87a4b m68k: Rework BI_VIRT_RNG_SEED as BI_RNG_SEED
-         
+
+--===============2328485432250440704==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1668157490 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1668157489-0ff27bbd519455600e629c88de9bc9d247929a27
+
+c917c89755b60da11fc7eab830e3d7b96eba13e3 3ad4b0cdf8551d0d352c9fcbc83cf7ce254f2359 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmNuEDIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+bKIP/i4iZxe4PgT7bXYy73zx
+ySNm742ySkjoLnAKb9URW1edyhpM/xZnchLPgtO4eoKjRDHAMeWP1HgHCOBfxne7
+UaMDTlWed6UrO72kgzHOp5T8XJhfi5URLheauNwbdbDZUFaNlRQ7FGRUMG7p7pJr
+AeyHTjO1QDDGcVf5T8LaraxK3n97geHSLU7PXi4NjPeaaF5hbf+Tk20HLhHd0A+i
+F8/mKGWGw4oADOiw9FSX3lxd4IemOCzLg12dRRWrBrABeSUOSatHffGL2FJ0wo4J
+vvqWRPZEj0lhyBDO+CJG2UUyyS/atHQxSXoCdJsSIcuWWJSYQXH+3fjBZT5+Vdtb
+dloJ913Jnw2QbJv9Bposw70klMpOBLqIDsv/llALuSL75JA+4PI/zshzSUYFdQ7p
+iDkO0m5F4UU1sdKZhdRm0t1dPSvbKoiYPxBdlrZSMh5A8NEs5nPsaH/AunGTuZJg
+Pj0zUS1kspuv7djY047IDpGrcN68HXIc1cRru6bNNNnFltwpBFoEMC0P1LITvGY2
+avzsPPjNinMBxa/blSgMXuWrX2plc8IWcKIhkhsasKngSEM/3RzFxt5r6XlBmink
+2TbGYP5zcI88fOgC5rq+nEjS8XRbmn534Mg9beab5LUvKpRPx3stJQ7d5avvHXf7
+N4xPcTSvNbt4myAOAL+3E6oH
+=W1sn
+-----END PGP SIGNATURE-----
+
+--===============2328485432250440704==--
