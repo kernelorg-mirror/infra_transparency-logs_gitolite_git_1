@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0737485545184374847=="
+Content-Type: multipart/mixed; boundary="===============5455682065795487899=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
-Date: Fri, 11 Nov 2022 16:17:14 -0000
-Message-Id: <166818343412.21753.8333645896943353738@gitolite.kernel.org>
+Date: Fri, 11 Nov 2022 16:20:42 -0000
+Message-Id: <166818364280.24577.6062562810899414859@gitolite.kernel.org>
 
---===============0737485545184374847==
+--===============5455682065795487899==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ardb/linux
 user: ardb
 changes:
-  - ref: refs/heads/arm64-wxn-v8
+  - ref: refs/heads/for-kernelci
     old: e62da1325c10bed49748a08732f532183978790f
     new: ade4cef8420b2fb759a29b9e9b15df2d97cc9cf6
     log: revlist-e62da1325c10-ade4cef8420b.txt
 
---===============0737485545184374847==
+--===============5455682065795487899==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -60,4 +60,4 @@ f921c5cc752b44fa9f5e39b180cac7250be9cb29 arm64: mm: omit redundant remap of kern
 48ca0e72ea772792d98b599a0be6873097ce5652 mm: add arch hook to validate mmap() prot flags
 ade4cef8420b2fb759a29b9e9b15df2d97cc9cf6 arm64: mm: add support for WXN memory translation attribute
 
---===============0737485545184374847==--
+--===============5455682065795487899==--
