@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Fri, 11 Nov 2022 07:53:54 -0000
-Message-Id: <166815323429.10697.16810831366579629694@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Fri, 11 Nov 2022 07:55:51 -0000
+Message-Id: <166815335111.14315.11598077362738414318@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: davem
 changes:
-  - ref: refs/heads/dev
-    old: 352bcb43379a8e3e7b86b7d5c5a65dd91177978b
-    new: 503edafad2cb143b70b6e0ffad14e261ab048eb3
+  - ref: refs/heads/master
+    old: 966a9b49033b472dcfb453abdc34bca7df17adce
+    new: a07b3835b895b0ef772f88c4b7c38e9fed52b1ff
     log: |
-         503edafad2cb143b70b6e0ffad14e261ab048eb3 srcu: Make Tiny synchronize_srcu() check for readers
+         a07b3835b895b0ef772f88c4b7c38e9fed52b1ff MAINTAINERS: Update hinic maintainers from orphan
          
