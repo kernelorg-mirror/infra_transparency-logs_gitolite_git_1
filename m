@@ -1,40 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============3150694538264469139=="
+Content-Type: multipart/mixed; boundary="===============5145976150707362674=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Fri, 11 Nov 2022 17:14:47 -0000
-Message-Id: <166818688789.30182.11007720536364902964@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Fri, 11 Nov 2022 17:27:04 -0000
+Message-Id: <166818762427.8028.16023239441429499826@gitolite.kernel.org>
 
---===============3150694538264469139==
+--===============5145976150707362674==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/for-linus
-    old: 0bb8e9b36b5b7f2e77892981ff6c27ee831d8026
-    new: 39bd801d6908900e9ab0cdc2655150f95ddd4f1a
-    log: |
-         39bd801d6908900e9ab0cdc2655150f95ddd4f1a ASoC: soc-pcm: Don't zero TDM masks in __soc_pcm_open()
-         
-  - ref: refs/heads/for-next
-    old: 812d1d349f948cf32d0a3ad822065a8abbee3508
-    new: 89cf5b9443052f7a3f64ea62bb8b06792378fe68
-    log: revlist-812d1d349f94-89cf5b944305.txt
+  - ref: refs/heads/fileRwKH1L
+    old: 47c5543e9632b3ef95ae40d7444c16b0d4eedac7
+    new: 1985fa962a6dd8fc002cbf7b2c894ebcc44b2eb2
+    log: revlist-47c5543e9632-1985fa962a6d.txt
 
---===============3150694538264469139==
+--===============5145976150707362674==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-812d1d349f94-89cf5b944305.txt
+Content-Disposition: attachment; filename=revlist-47c5543e9632-1985fa962a6d.txt
 
-e7933278b442f97809b1ea84264586302bd08a03 erofs: fix up inplace decompression success rate
-280330fac48280e16454cfa46c368af4812ad79c Merge branch 'master' into mm-hotfixes-stable
-38eddb2c75fb99b9cd78445094ca0e1bda08d102 io_uring: remove FFS_SCM
 4d5059512d283dab7372d282c2fbd43c7f5a2456 io_uring: kill hot path fixed file bitmap debug checks
 34f0bc427e94065e7f828e70690f8fe1e01b3a9d io_uring: reuse io_alloc_req()
 02bac94bd8efd75f615ac7515dd2def75b43e5b9 io_uring: don't iopoll from io_ring_ctx_wait_and_kill()
@@ -354,6 +345,9 @@ db14655ad7854b69a2efda348e30d02dbc19e8a1 efi: libstub: Give efi_main() asmlinkag
 53a7ea284de9eabc0e3b7dee54c2cb670b8e087a efi: libstub: Fix incorrect payload size in zboot header
 37926f96302d8b6c2bc97990d33e316a3ed6d67f efi: runtime: Don't assume virtual mappings are missing if VA == PA == 0
 9f6035af06b526e678808d492fc0830aef6cfbd8 crypto: x86/polyval - Fix crashes when keys are not 16-byte aligned
+0e213813df02da048ffd22a2c4fac041768ca327 ASoC: Intel: Skylake: fix possible memory leak in skl_codec_device_init()
+a75481fa00cc06a8763e1795b93140407948c03a ASoC: amd: yc: Add Lenovo Thinkbook 14+ 2022 21D0 to quirks table
+e9441675edc1bb8dbfadacf68aafacca60d65a25 ASoC: SOF: Intel: hda-codec: fix possible memory leak in hda_codec_device_init()
 46cdedf2a0fa20a99ca8be40bccde7487e13b77a ethtool: pse-pd: fix null-deref on genl_info in dump
 4d814b329a4d54cd10eee4bd2ce5a8175646cc16 MAINTAINERS: add keyword match on PTP
 794814529384721ce8f4d34228dc599cc010353d ALSA: usb-audio: Add quirks for M-Audio Fast Track C400/600
@@ -1053,8 +1047,8 @@ f0c4d9fc9cc9462659728d168387191387e903cc Linux 6.1-rc4
 3c46b589db83db8a445924d0273005631a056aea ASoC: rt1316-sdw: get BQ params property and apply them
 1b435e405d63155d2391c27054cf98237d11d0a4 ASoC: Intel: sof_sdw_rt1308: add BQ params for the Dell models
 cf6946d95005add8437f874e0952ec4f28fe5c02 ASoC: Intel: sof_sdw_rt1316: add BQ params for the Dell models
-39bd801d6908900e9ab0cdc2655150f95ddd4f1a ASoC: soc-pcm: Don't zero TDM masks in __soc_pcm_open()
 e5fa3ccad328bdfc6d118874b7a2bf89178f076b ASoC: Set BQ parameters for some Dell models
-89cf5b9443052f7a3f64ea62bb8b06792378fe68 Merge remote-tracking branch 'asoc/for-6.2' into asoc-next
+e045595be3c1548e1164f3d402cef990425b6195 ASoC: qcom: q6prm: Correct module description
+1985fa962a6dd8fc002cbf7b2c894ebcc44b2eb2 ASoC: audio-graph-card2: remove Experimental announce
 
---===============3150694538264469139==--
+--===============5145976150707362674==--
