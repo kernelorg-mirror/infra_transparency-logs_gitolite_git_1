@@ -1,56 +1,28 @@
-Content-Type: multipart/mixed; boundary="===============5650439418550188004=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Fri, 11 Nov 2022 09:02:41 -0000
-Message-Id: <166815736122.25162.18087085292882695359@gitolite.kernel.org>
-
---===============5650439418550188004==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
+Date: Fri, 11 Nov 2022 09:04:16 -0000
+Message-Id: <166815745679.25829.9010972375517414165@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
+user: bot-stable-queue
 changes:
-  - ref: refs/heads/master
-    old: e6b789cebab8a657f8e7d411624b5e74e0ef21a4
-    new: c917c89755b60da11fc7eab830e3d7b96eba13e3
+  - ref: refs/heads/queue/5.15
+    old: 21b4f47fccd0d65acb2d45347f1a560be7c30367
+    new: ba5454dc29cf137f09fe6204406e5f1cf0dae942
     log: |
-         c917c89755b60da11fc7eab830e3d7b96eba13e3 6.0-stable patches
+         8c4b6fc93163751b5bd39be26c68fa6660f9839a thunderbolt: Tear down existing tunnels when resuming from hibernate
+         ba5454dc29cf137f09fe6204406e5f1cf0dae942 thunderbolt: Add DP OUT resource when DP tunnel is discovered
          
-
---===============5650439418550188004==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1668157360 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1668157359-52571086c4458ddd95cd0430f0a3482c3c70c059
-
-e6b789cebab8a657f8e7d411624b5e74e0ef21a4 c917c89755b60da11fc7eab830e3d7b96eba13e3 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmNuD7AbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+jNMP/R3jTVOLtKmZjStKQwZF
-6OKUXxpSCSqMZySIo7WiYNRhUQfMM88IDdO4+AK4K8hFJhehj6qAV9vE25V08RwQ
-7vTTgRLwkvS0Duh+v8xpTGYgnRvFvPLaiXLgbptGCchYVLqwbjU7uzN6fUbCuaQp
-28UFmerf3yAsu56pYSbwO1YlPw13+gtFk9HDi0jW+YPmCxk4yJc72V4MNfLWGUAv
-6Vv8M6u76aC8kYLb+Iht5YtI+00qHMCP0qXN8y0HfVuFffQ7rYkCGtXXzuo4xhXO
-wc7jeq+bz7JHHQ1V3Qmnj2TELLR2DhIQ08p5UE06FqTku6wmIQYcLo7Gq5c1XfuP
-fub38qZP/BNwb641NevnMk9Y8l1gXabce+kdOx1MzH/UV7Jl/gW2OyaTpgT9o1Tq
-DyzvyP5Em8MTv7Qofo4Q4FnK2bxlQUSvtUcWBSV8BCWpERsu4wCv6jelpGPBH2bj
-MxumlEEonYxQBwpxJIXJVpPSAM4EeRNhSNOctzS0TgsfVh+7ra5IjumDUGC1n84f
-9vDE6yuged9w+A+bWWN6TpqpXb61TVAAWoMq8xD0Bii5xOKBQpBUUwEYU/htvJe6
-KB2SR8mSqshgBi1fqIKxmXw/Su1iVZKxDiIceDMcIS9RFtp9SSzs23oqWUvcsyE3
-djJb0n4POfA+XXj8j2eWWuVS
-=6l70
------END PGP SIGNATURE-----
-
---===============5650439418550188004==--
+  - ref: refs/heads/queue/6.0
+    old: bc84c70e486b6fcf8adf95ca926dcb535fff9ee2
+    new: a76bfe1053129f06114ebb094523680dd1f87a4b
+    log: |
+         261af434176e6069a95063f5393ecbde7f5769c5 thunderbolt: Add DP OUT resource when DP tunnel is discovered
+         1465732875702bb5458580ff4d81d6dc842ca288 drm/i915/gvt: Add missing vfio_unregister_group_dev() call
+         a76bfe1053129f06114ebb094523680dd1f87a4b m68k: Rework BI_VIRT_RNG_SEED as BI_RNG_SEED
+         
