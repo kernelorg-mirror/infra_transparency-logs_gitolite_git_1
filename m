@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Fri, 11 Nov 2022 15:50:07 -0000
-Message-Id: <166818180726.3204.3345476617873241851@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/lpieralisi/pci
+Date: Fri, 11 Nov 2022 15:56:47 -0000
+Message-Id: <166818220772.8413.10941916693099900327@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/lpieralisi/pci
+user: lpieralisi
 changes:
-  - ref: refs/tags/block-6.1-2022-11-11
-    old: 0000000000000000000000000000000000000000
-    new: 939e5100a6988d17adf0401922dce351b2fbd355
-  - ref: refs/tags/io_uring-6.1-2022-11-11
-    old: 0000000000000000000000000000000000000000
-    new: 904605f916cb0021cd64d7e955a0f8e6b89cb2c0
+  - ref: refs/heads/pci/dwc
+    old: 8405d8f0956d227c3355d9bdbabc23f79f721ce4
+    new: ae6b9a65af480144da323436d90e149501ea8937
+    log: |
+         ae6b9a65af480144da323436d90e149501ea8937 PCI: imx6: Initialize PHY before deasserting core reset
+         
