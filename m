@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lpieralisi/pci
-Date: Fri, 11 Nov 2022 11:04:54 -0000
-Message-Id: <166816469487.27795.17803349678585678197@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tglx/devel
+Date: Fri, 11 Nov 2022 11:07:38 -0000
+Message-Id: <166816485877.30316.17661933807847701739@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lpieralisi/pci
-user: lpieralisi
+repo: pub/scm/linux/kernel/git/tglx/devel
+user: tglx
 changes:
-  - ref: refs/heads/pci/qcom
+  - ref: refs/heads/devmsi-arm
     old: 0000000000000000000000000000000000000000
-    new: c4860af88d0cb1bb006df12615c5515ae509f73b
+    new: d2b0e4e1a8197fb6ef7b2b4d67507f55b94737de
