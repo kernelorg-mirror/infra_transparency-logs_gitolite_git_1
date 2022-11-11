@@ -1,25 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Fri, 11 Nov 2022 19:54:01 -0000
-Message-Id: <166819644134.18017.3368649105588760597@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
+Date: Fri, 11 Nov 2022 20:00:20 -0000
+Message-Id: <166819682033.24660.17515656521282111561@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/bpf/bpf
+user: andrii
 changes:
   - ref: refs/heads/master
-    old: df65494ffbb351115e01016c376474bc424427a2
-    new: f5020a08b2b371162a4a16ef97694cac3980397e
+    old: 5704bc7e8991164b14efb748b5afa0715c25fac3
+    new: c20572600e16d13d5d6a081bdc84c95491101d34
     log: |
-         b43088f30db1a7bff61c8486238c195c77788d6d s390/zcrypt: fix warning about field-spanning write
-         bb8738876b24c3bbfccbd2ccbdc57c27402516ab s390: update defconfigs
-         6191de8b175fad1a877ae8ed4be699a5022b9c03 s390/configs: move CONFIG_DEBUG_INFO_BTF into btf.config addon config
-         9afea696a04af29b114b38aec734e28b03e93dae s390/configs: add kasan.config addon config file
-         80ddf5ce1c9291cb175d52ed1227134ad48c47ee s390: always build relocatable kernel
-         30d17fac6aaedb40d111bb159f4b35525637ea78 scripts/min-tool-version.sh: raise minimum clang version to 15.0.0 for s390
-         f5020a08b2b371162a4a16ef97694cac3980397e Merge tag 's390-6.1-4' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
+         8678ea06852cd1f819b870c773d43df888d15d46 maccess: Fix writing offset in case of fault in strncpy_from_kernel_nofault()
+         9cd094829dae949a755c18533479c20e74415ab2 selftests: bpf: Add a test when bpf_probe_read_kernel_str() returns EFAULT
+         c20572600e16d13d5d6a081bdc84c95491101d34 Merge branch 'Fix offset when fault occurs in strncpy_from_kernel_nofault()'
          
