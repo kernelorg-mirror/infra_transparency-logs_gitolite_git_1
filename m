@@ -1,71 +1,44 @@
-Content-Type: multipart/mixed; boundary="===============0153081992478820075=="
+Content-Type: multipart/mixed; boundary="===============3014581288090028046=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Fri, 11 Nov 2022 22:12:18 -0000
-Message-Id: <166820473880.20056.553856953266980105@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Fri, 11 Nov 2022 22:15:43 -0000
+Message-Id: <166820494381.22924.14802958474309429052@gitolite.kernel.org>
 
---===============0153081992478820075==
+--===============3014581288090028046==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/queue/5.10
-    old: b6deb0a69041f2c3b144c266a6df76e5b1de1a43
-    new: 8bab19c3abd1fc122eaf2e4f709b669aec72a7c6
-    log: |
-         8bab19c3abd1fc122eaf2e4f709b669aec72a7c6 fuse: fix readdir cache race
-         
-  - ref: refs/heads/queue/5.15
-    old: d6c02d5217b0e1f2f59dba09b3bbf8e8c5edf011
-    new: e099a909d89cd91851439a9b78b956ec942ce9d5
-    log: |
-         625f4da7902d7ec44ca6172e263c7ab7aff37634 thunderbolt: Tear down existing tunnels when resuming from hibernate
-         83cc42685b483bb8c7524cb8d89783f360c2ddac thunderbolt: Add DP OUT resource when DP tunnel is discovered
-         d9ae65fa93d2c24c915e0ec7a474e1217690d622 fuse: fix readdir cache race
-         14e4090590098bf72b2051a1bce8bc009999bbd0 drm/amdkfd: avoid recursive lock in migrations back to RAM
-         cee32132565d3362e0b0631a537e7d71441eb12e drm/amdkfd: handle CPU fault on COW mapping
-         e099a909d89cd91851439a9b78b956ec942ce9d5 drm/amdkfd: Fix NULL pointer dereference in svm_migrate_to_ram()
-         
-  - ref: refs/heads/queue/5.4
-    old: d10d651e025fd5a37c40a5774b61570523abaa01
-    new: 28c3198b815f2ee35667da72a881a54ea1a8fa0f
-    log: |
-         7b8078b51208f57ca78a594377b4e9117b6ec137 xfs: preserve rmapbt swapext block reservation from freed blocks
-         f65d3798545aa914aed1192b09df720e516361cf xfs: rename xfs_bmap_is_real_extent to is_written_extent
-         036e70dd20692ea15bac225af5b4b110cde5cac5 xfs: redesign the reflink remap loop to fix blkres depletion crash
-         4ab66d7da790f7aba7d79fa616eddf107e6a3310 xfs: use MMAPLOCK around filemap_map_pages()
-         18067b2fe31537a0cc8597c9c713a54488db0321 xfs: preserve inode versioning across remounts
-         28c3198b815f2ee35667da72a881a54ea1a8fa0f xfs: drain the buf delwri queue before xfsaild idles
-         
-  - ref: refs/heads/queue/6.0
-    old: f99707532db8e38ba5f5298c7a98c1b8410e7ba0
-    new: 992a067949539d233c751777670c1490e3a72003
-    log: revlist-f99707532db8-992a06794953.txt
+  - ref: refs/heads/master
+    old: f5020a08b2b371162a4a16ef97694cac3980397e
+    new: b0b6e2c9d3543c0926a7df5ee6e36507ad491dea
+    log: revlist-f5020a08b2b3-b0b6e2c9d354.txt
 
---===============0153081992478820075==
+--===============3014581288090028046==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f99707532db8-992a06794953.txt
+Content-Disposition: attachment; filename=revlist-f5020a08b2b3-b0b6e2c9d354.txt
 
-ae2081692eeca6fad91c29bae6fda363be8ba7a1 thunderbolt: Add DP OUT resource when DP tunnel is discovered
-c5951814e83faee5a865c7243daffc68b41f022f drm/i915/gvt: Add missing vfio_unregister_group_dev() call
-2774dc34af7c6b4f7286a66ea68fa47150c9471f m68k: Rework BI_VIRT_RNG_SEED as BI_RNG_SEED
-dbb69c0ef91b7def18951ebff76402fab7e71eea KVM: debugfs: Return retval of simple_attr_open() if it fails
-0da56932dc0ff878110fe142a8381a5bc35398d5 drm/i915: Allow more varied alternate fixed modes for panels
-a28e7b79f0be882ddd4049085d2460445db9f594 drm/i915: Simplify intel_panel_add_edid_alt_fixed_modes()
-1a6f3dd9a536f00b1e9483c7f28fe0699d92532b drm/i915/sdvo: Grab mode_config.mutex during LVDS init to avoid WARNs
-04074667f713dd68359a052bee4470913fd4bb62 drm/amd/display: Acquire FCLK DPM levels on DCN32
-6a919cd5893669d8dc3edc635ef365650f6f5e47 drm/amd/display: Limit dcn32 to 1950Mhz display clock
-b080ddc343af9444ed52043c77695128fca3cb5c drm/amd/display: Set memclk levels to be at least 1 for dcn32
-2c141dab506ea2f10b483d8ec7d44c214ebc9452 drm/amdkfd: handle CPU fault on COW mapping
-b5b97d15b09a3d6ff564c3eddbd9b04d653c2850 drm/amdkfd: Fix NULL pointer dereference in svm_migrate_to_ram()
-992a067949539d233c751777670c1490e3a72003 cxl/region: Recycle region ids
+9921d5013a6e51892623bf2f1c5b49eaecda55ac selftests/net: don't tests batched TCP io_uring zc
+6dcabcd398946e2b0b776a8310291aeebe1ca0e6 io_uring: fix typo in io_uring.h comment
+f02be9002c480cd3ec0fcf184ad27cf531bd6ece block, bfq: fix null pointer dereference in bfq_bio_bfqg()
+f829230dd51974c1f4478900ed30bb77ba530b40 block: sed-opal: kmalloc the cmd/resp buffers
+0fc8c2acbfc789a977a50a4a9812a8e4b37958ce io_uring: calculate CQEs from the user visible value
+d7ac8dca938cd60cf7bd9a89a229a173c6bcba87 nvme: quiet user passthrough command errors
+becc4cac309dc867571f0080fde4426a6c2222e0 nvmet: fix memory leak in nvmet_subsys_attr_model_store_locked
+e65fdf530f55c5e387db14470a59a399faa29613 nvmet: fix a memory leak
+df24560d058d11f02b7493bdfc553131ef60b23d Merge tag 'nvme-6.1-2022-11-10' of git://git.infradead.org/nvme into block-6.1
+3851d25c75ed03117268a8feb34adca5a843a126 io_uring: check for rollover of buffer ID when providing buffers
+30a33669fa21cd3dc7d92a00ba736358059014b7 io_uring/poll: fix double poll req->flags races
+5576035f15dfcc6cb1cec236db40c2c0733b0ba4 io_uring/poll: lockdep annote io_poll_req_insert_locked
+4e6b2b2e4f30c29caf89ecfa9ed4d9f97d151102 Merge tag 'io_uring-6.1-2022-11-11' of git://git.kernel.dk/linux
+b0b6e2c9d3543c0926a7df5ee6e36507ad491dea Merge tag 'block-6.1-2022-11-11' of git://git.kernel.dk/linux
 
---===============0153081992478820075==--
+--===============3014581288090028046==--
