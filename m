@@ -1,54 +1,71 @@
-Content-Type: multipart/mixed; boundary="===============0301264903778539014=="
+Content-Type: multipart/mixed; boundary="===============3730197251484371839=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/helgaas/pci
-Date: Fri, 11 Nov 2022 22:03:45 -0000
-Message-Id: <166820422545.13714.689729921106436098@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
+Date: Fri, 11 Nov 2022 22:06:28 -0000
+Message-Id: <166820438833.16268.10752479200915750754@gitolite.kernel.org>
 
---===============0301264903778539014==
+--===============3730197251484371839==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/helgaas/pci
-user: helgaas
+repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
+user: bot-stable-queue
 changes:
-  - ref: refs/heads/next
-    old: 90a36dd86b60063faf5a8b48e015b38f30f9b6e5
-    new: 7ef4a88327bb37d6ee710f4126975a65a60e9ac7
-    log: revlist-90a36dd86b60-7ef4a88327bb.txt
+  - ref: refs/heads/queue/5.10
+    old: af7abbc8048c555d08179a5f45d6e5df8820730b
+    new: b6deb0a69041f2c3b144c266a6df76e5b1de1a43
+    log: |
+         b6deb0a69041f2c3b144c266a6df76e5b1de1a43 fuse: fix readdir cache race
+         
+  - ref: refs/heads/queue/5.15
+    old: 6bdaafac8cff1ad33c1529b24f3c1abbc06b216d
+    new: d6c02d5217b0e1f2f59dba09b3bbf8e8c5edf011
+    log: |
+         f900d99cc9c2908df65df6d4932e48710949f312 thunderbolt: Tear down existing tunnels when resuming from hibernate
+         180e6fe90eb081fc2b2658d45eb5ef3982aed532 thunderbolt: Add DP OUT resource when DP tunnel is discovered
+         df2c05412e9d627f7ecd7df4e803a63bed6300dd fuse: fix readdir cache race
+         50f1be7425bfb4ad08d778483c7b4ee78bdd5025 drm/amdkfd: avoid recursive lock in migrations back to RAM
+         a0544cdcf6f22f971113f585961baa89f5eeab77 drm/amdkfd: handle CPU fault on COW mapping
+         d6c02d5217b0e1f2f59dba09b3bbf8e8c5edf011 drm/amdkfd: Fix NULL pointer dereference in svm_migrate_to_ram()
+         
+  - ref: refs/heads/queue/5.4
+    old: 2ec801d453c6fe57bd63fc2260896958230fb5b8
+    new: d10d651e025fd5a37c40a5774b61570523abaa01
+    log: |
+         90553e0c9f1045ae66285f2568a5661d734f8a3c xfs: preserve rmapbt swapext block reservation from freed blocks
+         03b4f905382c2041f58765c0e90d6bf60f19bc36 xfs: rename xfs_bmap_is_real_extent to is_written_extent
+         70b5acdd0120ac116d15ce2b54f5f03d69ad61fe xfs: redesign the reflink remap loop to fix blkres depletion crash
+         d80a3fb011bf8bbee050dcc51adbee629c32c9a2 xfs: use MMAPLOCK around filemap_map_pages()
+         8af84e331d362eb9b1e5c3430e13bc06f2807ae8 xfs: preserve inode versioning across remounts
+         d10d651e025fd5a37c40a5774b61570523abaa01 xfs: drain the buf delwri queue before xfsaild idles
+         
+  - ref: refs/heads/queue/6.0
+    old: e0c6ad3d94b6fa0e62625b04591aa2fdb60ea5c5
+    new: f99707532db8e38ba5f5298c7a98c1b8410e7ba0
+    log: revlist-e0c6ad3d94b6-f99707532db8.txt
 
---===============0301264903778539014==
+--===============3730197251484371839==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-90a36dd86b60-7ef4a88327bb.txt
+Content-Disposition: attachment; filename=revlist-e0c6ad3d94b6-f99707532db8.txt
 
-8c50cd059c5cd974da4285af17adf0e38905b25b PCI: altera-msi: Include <linux/irqdomain.h> explicitly
-606a0430b37af4a1dd3e1e3baaf073b42fbb53e3 PCI: microchip: Include <linux/irqdomain.h> explicitly
-763d25e7affe13c7be923fec6192ca6325f33c73 PCI: mvebu: Include <linux/irqdomain.h> explicitly
-753596dcdb753afb63874c644b2fb20ef7fb3948 PCI: xgene-msi: Include <linux/irqdomain.h> explicitly
-277004d7a4a348de185fb4149ff29a651e994ff4 PCI: Remove unnecessary <linux/of_irq.h> includes
-3acd7e68605f0976f2166ed023f6b10b6c57d662 PCI: Drop of_match_ptr() to avoid unused variables
-51dfb612ab3becf91eab20569fd88a1172df87ab PCI: Drop controller CONFIG_OF dependencies
-d899aa668498c07ff217b666ae9712990306e682 PCI: vmd: Disable MSI remapping after suspend
-2759ddf7535d63381f9b9b1412e4c46e13ed773a PCI: endpoint: Fix Kconfig indent style
-ae6b9a65af480144da323436d90e149501ea8937 PCI: imx6: Initialize PHY before deasserting core reset
-c6a4f85f021211e82ab70a3999202413d1ea3097 Merge branch 'pci/enumeration'
-da99173f2982df434d16f8cd6c227cebc738d4ee Merge branch 'pci/misc'
-c97e1c358ea4a6642effc70aa0b91b4f8ad4e18c Merge branch 'pci/pm'
-fa78919d0d75ab479f629a9fdbb90fb236e84c34 Merge branch 'pci/pm-agp'
-619a8cdc49c8209578c5d0c638cd767e2dfa9b97 Merge branch 'pci/portdrv'
-362dc22599f524e6489a0eb4842da79ba95894f5 Merge branch 'pci/resource'
-ddc3bbf45b8129ae72ddb8123e8ea27026ca14df Merge branch 'pci/sysfs'
-8e325973151a9d4e9a19af75c4b712d3dc5af9f1 Merge branch 'remotes/lorenzo/pci/dt'
-dd1520d6fd556795123fff2b860df81aa41f9564 Merge branch 'remotes/lorenzo/pci/dwc'
-c10c20bfeb595176f99515af504373adfa297516 Merge branch 'remotes/lorenzo/pci/tegra'
-84f35119fa9ad54f95a31230015683ca5dd0c597 Merge branch 'remotes/lorenzo/pci/endpoint'
-2bb05aa498d91d8953b40c4c17ab4311e24694e7 Merge branch 'remotes/lorenzo/pci/vmd'
-31f2ec2aed14ff9f39f7f9e85bcd974345b1ea7c Merge branch 'remotes/lorenzo/pci/misc'
-7ef4a88327bb37d6ee710f4126975a65a60e9ac7 Merge branch 'pci/kbuild'
+6d5ceb16daf0f1b97826492531b4414f6003ea77 thunderbolt: Add DP OUT resource when DP tunnel is discovered
+e8a19599c8ef0d4dadea8e41db6b22e9d058454a drm/i915/gvt: Add missing vfio_unregister_group_dev() call
+2fa0547c175d27b54504fc68e9af6879ad2ffc38 m68k: Rework BI_VIRT_RNG_SEED as BI_RNG_SEED
+9714ec774ee96226dcadad7f09175b67802d9e79 KVM: debugfs: Return retval of simple_attr_open() if it fails
+60b9f3153158646045e1711d1ceb69071cf9fd49 drm/i915: Allow more varied alternate fixed modes for panels
+f4fa302f1d960cac19c31444a9a82c6d5c95e3ae drm/i915: Simplify intel_panel_add_edid_alt_fixed_modes()
+8a4ceafca34991160fd65674c55d06d73fd8b57b drm/i915/sdvo: Grab mode_config.mutex during LVDS init to avoid WARNs
+b02da0853b21400938a0019e289766d9f8d4ff1c drm/amd/display: Acquire FCLK DPM levels on DCN32
+ada72c1d418293059281cfd3bd2d110638d45c44 drm/amd/display: Limit dcn32 to 1950Mhz display clock
+78d93555c1b56eae5d86bc16b838fc03c1db5bb1 drm/amd/display: Set memclk levels to be at least 1 for dcn32
+8b045f8150ebdeb1991e529f630768d962a55e31 drm/amdkfd: handle CPU fault on COW mapping
+d88cb23ca92ba1bd0bb137bb802f9e0a62095ab0 drm/amdkfd: Fix NULL pointer dereference in svm_migrate_to_ram()
+f99707532db8e38ba5f5298c7a98c1b8410e7ba0 cxl/region: Recycle region ids
 
---===============0301264903778539014==--
+--===============3730197251484371839==--
