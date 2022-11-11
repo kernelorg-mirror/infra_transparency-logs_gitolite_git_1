@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Fri, 11 Nov 2022 18:52:46 -0000
-Message-Id: <166819276686.5403.6005686590932016141@gitolite.kernel.org>
+Date: Fri, 11 Nov 2022 18:58:32 -0000
+Message-Id: <166819311277.10342.3586465146621994863@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,28 +12,28 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: bot-stable-queue
 changes:
   - ref: refs/heads/queue/5.15
-    old: 3588dc6200c0b2d131acc6df6be48abe680980fc
-    new: cc1aafbeaadfcde6c444090389334c070c5d45cf
+    old: cc1aafbeaadfcde6c444090389334c070c5d45cf
+    new: e13877ec7ec0cfa0655736f9eda79e6d3bd88aba
     log: |
-         aafdce28680205153e65d23a61c755f4dbfb9154 thunderbolt: Tear down existing tunnels when resuming from hibernate
-         cc1aafbeaadfcde6c444090389334c070c5d45cf thunderbolt: Add DP OUT resource when DP tunnel is discovered
+         ed81b1a10457ff21e31c96696bd5347ac7e1b343 thunderbolt: Tear down existing tunnels when resuming from hibernate
+         e13877ec7ec0cfa0655736f9eda79e6d3bd88aba thunderbolt: Add DP OUT resource when DP tunnel is discovered
          
   - ref: refs/heads/queue/5.4
-    old: 02c8de414197fef41e22e79663c22d718e4df91b
-    new: 185cbe72e3b370de4d7da8ebb17bc1f504fcfb7a
+    old: 185cbe72e3b370de4d7da8ebb17bc1f504fcfb7a
+    new: 0a5e1dd56145db9ec48f4b92595079ac21383a68
     log: |
-         fb683f4bb851403ba16291092f71457a5e4d7df4 xfs: preserve rmapbt swapext block reservation from freed blocks
-         5c739598947685fe3e0e47adc7e177c278c297e4 xfs: rename xfs_bmap_is_real_extent to is_written_extent
-         21367c1792316992083d0e50dc7c78a87ed3fa39 xfs: redesign the reflink remap loop to fix blkres depletion crash
-         89e06bc71de64e73280f9dba2343e3727e49c793 xfs: use MMAPLOCK around filemap_map_pages()
-         add4d2f8b5242c8e2dcf69312326d703b0742e67 xfs: preserve inode versioning across remounts
-         185cbe72e3b370de4d7da8ebb17bc1f504fcfb7a xfs: drain the buf delwri queue before xfsaild idles
+         3fa9ded632592da8f4ece5f0dccc068eecf16fc1 xfs: preserve rmapbt swapext block reservation from freed blocks
+         f6ee86008a4f856642fefd84e161d8b5ca14354d xfs: rename xfs_bmap_is_real_extent to is_written_extent
+         89b4cb1df7df051a0f140c31d00213cc1d59b57d xfs: redesign the reflink remap loop to fix blkres depletion crash
+         cf55a4d0b729529ba2ba292c21729fa30981bb80 xfs: use MMAPLOCK around filemap_map_pages()
+         b28342c38c6b0d41e050c51056d523ad854788b4 xfs: preserve inode versioning across remounts
+         0a5e1dd56145db9ec48f4b92595079ac21383a68 xfs: drain the buf delwri queue before xfsaild idles
          
   - ref: refs/heads/queue/6.0
-    old: 0a8c4f9e2ae93e21d388fb390f287e10bbd76676
-    new: a92afd888d1279ca4ab35692a939de199bf592dc
+    old: a92afd888d1279ca4ab35692a939de199bf592dc
+    new: c78d5d33becda377e2913fe9c3031bcaf19dc5d5
     log: |
-         638576ce76664704dc6f8bbc45c4a08518459813 thunderbolt: Add DP OUT resource when DP tunnel is discovered
-         3689fff7bd2988e097b98a78e0b4dad858bd3bd5 drm/i915/gvt: Add missing vfio_unregister_group_dev() call
-         a92afd888d1279ca4ab35692a939de199bf592dc m68k: Rework BI_VIRT_RNG_SEED as BI_RNG_SEED
+         82e59a080bc9bc4502fc995c58ce87c970dc40ae thunderbolt: Add DP OUT resource when DP tunnel is discovered
+         d1b26794d5f5101b30c93170fb104a00db67f604 drm/i915/gvt: Add missing vfio_unregister_group_dev() call
+         c78d5d33becda377e2913fe9c3031bcaf19dc5d5 m68k: Rework BI_VIRT_RNG_SEED as BI_RNG_SEED
          
