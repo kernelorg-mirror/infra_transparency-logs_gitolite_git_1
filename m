@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Fri, 11 Nov 2022 15:03:17 -0000
-Message-Id: <166817899757.2059.5525206502978439621@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
+Date: Fri, 11 Nov 2022 15:37:33 -0000
+Message-Id: <166818105384.26010.12413224922672414422@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cel/linux
-user: cel
+repo: pub/scm/linux/kernel/git/maz/arm-platforms
+user: maz
 changes:
-  - ref: refs/tags/nfsd-6.1-4
+  - ref: refs/heads/kvm-arm64/parallel-faults
     old: 0000000000000000000000000000000000000000
-    new: ddeece5a8e432c5fd8e8e6c917adc633cfc8fd9f
+    new: 1577cb5823cefdff4416f272a88143ee933d97f5
