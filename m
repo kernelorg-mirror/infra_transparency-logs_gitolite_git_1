@@ -1,43 +1,24 @@
-Content-Type: multipart/mixed; boundary="===============8667558052515039856=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Fri, 11 Nov 2022 15:00:33 -0000
-Message-Id: <166817883317.869.9302737077110587201@gitolite.kernel.org>
-
---===============8667558052515039856==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/mips/linux
+Date: Fri, 11 Nov 2022 15:02:25 -0000
+Message-Id: <166817894572.1692.4415615457530142761@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cel/linux
-user: cel
+repo: pub/scm/linux/kernel/git/mips/linux
+user: tsbogend
 changes:
-  - ref: refs/heads/for-next
-    old: f15ab65c1bb72eb2250f3e825df2e301db6c17ba
-    new: 0883e0db49f32f3d2d513af7a55429a9a2111e93
-    log: revlist-f15ab65c1bb7-0883e0db49f3.txt
-
---===============8667558052515039856==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f15ab65c1bb7-0883e0db49f3.txt
-
-9eafcf0a31e3805dbe372f4741f988ec7adc55dc NFSD: Use rhashtable for managing nfs4_file objects
-62cf6b4177d4e25ab3a6a517da12aaa1665c7867 NFSD: Fix licensing header in filecache.c
-de548deb94dc95c236b990521835ca1dc16139bd MAINTAINERS: NFSD should be responsible for fs/exportfs
-61309dee2840bfc763dd3980ee0e187b4e4fecaf nfsd: remove the pages_flushed statistic from filecache
-563c0e5b9fece012c3b4325ecc0e7aba711b07b8 nfsd: reorganize filecache.c
-2b7bca9dae022bf590be2453b22b10f4b55a3477 nfsd: rework refcounting in filecache
-5d75b6f802b6b325dc0d947c460a9837cb838ae7 nfsd: fix up the filecache laundrette scheduling
-655c9f36eec19af516efc127bc2b0c48c791583a sunrpc: svc: Remove an unused static function svc_ungetu32()
-666b52f6299eb41e921725d21dfa494463fddbfa NFSD: Add an nfsd_file_fsync tracepoint
-f906ee653de6a4086879a2fd41b028bf114c2fc9 NFSD: Re-arrange file_close_inode tracepoints
-1bdf49430e1c486fa4a199d270687cab6557202b lockd: set other missing fields when unlocking files
-8a8013fdbca225441351ceb12692edecce6e7558 nfsd: return error if nfs4_setacl fails
-0883e0db49f32f3d2d513af7a55429a9a2111e93 NFSD: Use struct_size() helper in alloc_session()
-
---===============8667558052515039856==--
+  - ref: refs/heads/mips-fixes
+    old: f0c4d9fc9cc9462659728d168387191387e903cc
+    new: 648060902aa302331b5d6e4f26d8ee0761d239ab
+    log: |
+         62776e4378ae9086115ffd6f8bd9b9c0fe6e6809 mips: boot/compressed: use __NO_FORTIFY
+         612d80784fdc0c2e2ee2e2d901a55ef2f72ebf4b MIPS: fix duplicate definitions for exported symbols
+         fa706927f4722a2df723b2a28d139b1904a3e7fa MIPS: Loongson64: Add WARN_ON on kexec related kmalloc failed
+         2a296157859287c3b639f7228354c13f7182ed71 mips: alchemy: gpio: Include the right header
+         64ac0befe75bdfaffc396c2b4a0ed5ae6920eeee MIPS: jump_label: Fix compat branch range check
+         648060902aa302331b5d6e4f26d8ee0761d239ab MIPS: pic32: treat port as signed integer
+         
