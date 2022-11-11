@@ -1,63 +1,38 @@
-Content-Type: multipart/mixed; boundary="===============6577998788951520346=="
+Content-Type: multipart/mixed; boundary="===============3150694538264469139=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Fri, 11 Nov 2022 17:07:10 -0000
-Message-Id: <166818643018.25594.7823825090598285028@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Fri, 11 Nov 2022 17:14:47 -0000
+Message-Id: <166818688789.30182.11007720536364902964@gitolite.kernel.org>
 
---===============6577998788951520346==
+--===============3150694538264469139==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.1
+  - ref: refs/heads/for-linus
     old: 0bb8e9b36b5b7f2e77892981ff6c27ee831d8026
     new: 39bd801d6908900e9ab0cdc2655150f95ddd4f1a
     log: |
          39bd801d6908900e9ab0cdc2655150f95ddd4f1a ASoC: soc-pcm: Don't zero TDM masks in __soc_pcm_open()
          
-  - ref: refs/heads/asoc-6.2
-    old: 9f63869a5682d5fa9bc5563577fe3270e7cbf4f2
-    new: e5fa3ccad328bdfc6d118874b7a2bf89178f076b
-    log: revlist-9f63869a5682-e5fa3ccad328.txt
+  - ref: refs/heads/for-next
+    old: 812d1d349f948cf32d0a3ad822065a8abbee3508
+    new: 89cf5b9443052f7a3f64ea62bb8b06792378fe68
+    log: revlist-812d1d349f94-89cf5b944305.txt
 
---===============6577998788951520346==
+--===============3150694538264469139==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-812d1d349f94-89cf5b944305.txt
 
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1668186427 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1668186427-b37b3fca7b589a1e08f47e56c0e1df9c4d8e6353
-
-0bb8e9b36b5b7f2e77892981ff6c27ee831d8026 39bd801d6908900e9ab0cdc2655150f95ddd4f1a refs/heads/asoc-6.1
-9f63869a5682d5fa9bc5563577fe3270e7cbf4f2 e5fa3ccad328bdfc6d118874b7a2bf89178f076b refs/heads/asoc-6.2
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmNugTsACgkQJNaLcl1U
-h9DZygf+OFKtERQrg4brqe6G7hcNCXlalzrIdjRjNCgjjvHG8sSSqCsDs0Ae4P/y
-pvA/nqAgxQGza7F+Y+kF3g6dHNmdiz1ospp4QXZ0BQTeYFzOfsiX4741AXAEArRl
-6WYZ4vKpNtrpiw4Dgpos4mGRSi40twSGbe2BsZ59bZAZVt7jQCARyz0JXO5sV7h9
-0inPhSVUQXxgDn+wH2JXmMHT2jIwM7ia96EXhRbaCwRlOWVg64M4x1wzyRhTZNi4
-dGsj5ptKpp+SafMfWqGaRl6uY4rGaQp8V55kBHENo/HaUT74WuEMkU7lt+0suozd
-vqSY1tFovU1wnjJ6hLINo7kd1k7xEw==
-=DTdz
------END PGP SIGNATURE-----
-
---===============6577998788951520346==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9f63869a5682-e5fa3ccad328.txt
-
+e7933278b442f97809b1ea84264586302bd08a03 erofs: fix up inplace decompression success rate
 280330fac48280e16454cfa46c368af4812ad79c Merge branch 'master' into mm-hotfixes-stable
 38eddb2c75fb99b9cd78445094ca0e1bda08d102 io_uring: remove FFS_SCM
 4d5059512d283dab7372d282c2fbd43c7f5a2456 io_uring: kill hot path fixed file bitmap debug checks
@@ -379,9 +354,6 @@ db14655ad7854b69a2efda348e30d02dbc19e8a1 efi: libstub: Give efi_main() asmlinkag
 53a7ea284de9eabc0e3b7dee54c2cb670b8e087a efi: libstub: Fix incorrect payload size in zboot header
 37926f96302d8b6c2bc97990d33e316a3ed6d67f efi: runtime: Don't assume virtual mappings are missing if VA == PA == 0
 9f6035af06b526e678808d492fc0830aef6cfbd8 crypto: x86/polyval - Fix crashes when keys are not 16-byte aligned
-0e213813df02da048ffd22a2c4fac041768ca327 ASoC: Intel: Skylake: fix possible memory leak in skl_codec_device_init()
-a75481fa00cc06a8763e1795b93140407948c03a ASoC: amd: yc: Add Lenovo Thinkbook 14+ 2022 21D0 to quirks table
-e9441675edc1bb8dbfadacf68aafacca60d65a25 ASoC: SOF: Intel: hda-codec: fix possible memory leak in hda_codec_device_init()
 46cdedf2a0fa20a99ca8be40bccde7487e13b77a ethtool: pse-pd: fix null-deref on genl_info in dump
 4d814b329a4d54cd10eee4bd2ce5a8175646cc16 MAINTAINERS: add keyword match on PTP
 794814529384721ce8f4d34228dc599cc010353d ALSA: usb-audio: Add quirks for M-Audio Fast Track C400/600
@@ -1081,6 +1053,8 @@ f0c4d9fc9cc9462659728d168387191387e903cc Linux 6.1-rc4
 3c46b589db83db8a445924d0273005631a056aea ASoC: rt1316-sdw: get BQ params property and apply them
 1b435e405d63155d2391c27054cf98237d11d0a4 ASoC: Intel: sof_sdw_rt1308: add BQ params for the Dell models
 cf6946d95005add8437f874e0952ec4f28fe5c02 ASoC: Intel: sof_sdw_rt1316: add BQ params for the Dell models
+39bd801d6908900e9ab0cdc2655150f95ddd4f1a ASoC: soc-pcm: Don't zero TDM masks in __soc_pcm_open()
 e5fa3ccad328bdfc6d118874b7a2bf89178f076b ASoC: Set BQ parameters for some Dell models
+89cf5b9443052f7a3f64ea62bb8b06792378fe68 Merge remote-tracking branch 'asoc/for-6.2' into asoc-next
 
---===============6577998788951520346==--
+--===============3150694538264469139==--
