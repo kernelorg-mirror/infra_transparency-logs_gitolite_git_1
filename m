@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6656650194803638546=="
+Content-Type: multipart/mixed; boundary="===============0541855867133347782=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Sat, 12 Nov 2022 20:42:21 -0000
-Message-Id: <166828574177.7654.1286319503730176643@gitolite.kernel.org>
+Date: Sat, 12 Nov 2022 20:42:23 -0000
+Message-Id: <166828574376.7713.11715787002740304756@gitolite.kernel.org>
 
---===============6656650194803638546==
+--===============0541855867133347782==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: andrii
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: eb6af4ceda2d885416d8382f096030d39896aafc
     new: b548b17a93fd18357a5a6f535c10c1e68719ad32
     log: revlist-eb6af4ceda2d-b548b17a93fd.txt
 
---===============6656650194803638546==
+--===============0541855867133347782==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -667,4 +667,4 @@ d77be49309dddadee7cd0e581449baef1ded5ebe Merge branch 'dt-bindings-net-qcom-ipa-
 fac30731b9b8a0b7580bf73ddd25035ef0a733a5 tcp: adopt try_cmpxchg() in tcp_release_cb()
 b548b17a93fd18357a5a6f535c10c1e68719ad32 tcp: tcp_wfree() refactoring
 
---===============6656650194803638546==--
+--===============0541855867133347782==--
