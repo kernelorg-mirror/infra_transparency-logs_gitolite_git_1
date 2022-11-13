@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5883875727919110981=="
+Content-Type: multipart/mixed; boundary="===============2222979097368346647=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tglx/devel
-Date: Sun, 13 Nov 2022 10:46:31 -0000
-Message-Id: <166833639131.29534.13274041934587506992@gitolite.kernel.org>
+Date: Sun, 13 Nov 2022 10:47:47 -0000
+Message-Id: <166833646788.30096.5666274085252367759@gitolite.kernel.org>
 
---===============5883875727919110981==
+--===============2222979097368346647==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,166 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tglx/devel
 user: tglx
 changes:
-  - ref: refs/heads/devmsi-arm
-    old: d2b0e4e1a8197fb6ef7b2b4d67507f55b94737de
-    new: a9483d58d6deb18bcf3082cf74d99c5e8f556128
-    log: revlist-d2b0e4e1a819-a9483d58d6de.txt
-  - ref: refs/tags/devmsi-v1A-arm
-    old: 0000000000000000000000000000000000000000
-    new: 4e6a2f376fae954c23089a860b4c95159d1b4cf1
-  - ref: refs/tags/devmsi-v1A-part1
-    old: 0000000000000000000000000000000000000000
-    new: 6192fd9c5d9160271029ac2208ad22b3830612b8
-  - ref: refs/tags/devmsi-v1A-part2
-    old: 0000000000000000000000000000000000000000
-    new: 920014fd76d1c0eef9d7d716b6934bec0a782946
-  - ref: refs/tags/devmsi-v1A-part3
-    old: 0000000000000000000000000000000000000000
-    new: fc82947ff5b9c9871a4bb32a1c370997a5952ad8
-  - ref: refs/tags/msi-v3-part1
-    old: 0000000000000000000000000000000000000000
-    new: 2558a1c555fcacf4fd18edd2900ea3f734d91abc
-  - ref: refs/tags/v5.16
-    old: 0000000000000000000000000000000000000000
-    new: d067e3e91a795a2b936c5c5b18f2591187a74f6e
-  - ref: refs/tags/v5.16-rc3
-    old: 0000000000000000000000000000000000000000
-    new: e9966818ad676112345dca60e65d48ef2e686930
-  - ref: refs/tags/v5.16-rc4
-    old: 0000000000000000000000000000000000000000
-    new: 06d124d85ce02d2993feda73742a71b78029ea3e
-  - ref: refs/tags/v5.16-rc5
-    old: 0000000000000000000000000000000000000000
-    new: 841f4df0a0f8f4c450a7057f37080dc2a7db81ef
-  - ref: refs/tags/v5.16-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 54bc2946f536d8be48c71571cd6614ea482bfe61
-  - ref: refs/tags/v5.16-rc7
-    old: 0000000000000000000000000000000000000000
-    new: 6e15d3d15ba113412ee05ee99c0476662a000178
-  - ref: refs/tags/v5.16-rc8
-    old: 0000000000000000000000000000000000000000
-    new: da629478930871e4c9a51c56ad86078f10b83f9f
-  - ref: refs/tags/v5.17
-    old: 0000000000000000000000000000000000000000
-    new: f8e739787152143aacffc181562a29c049c2d658
-  - ref: refs/tags/v5.17-rc1
-    old: 0000000000000000000000000000000000000000
-    new: d0022914e86aa85ea6c806ae4bc442f9821e830a
-  - ref: refs/tags/v5.17-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 95bc47315b817afcb621e4cbd2de4877152509ff
-  - ref: refs/tags/v5.17-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 48765f61ad6b9c0344f89d9332050c72df3ff43c
-  - ref: refs/tags/v5.17-rc4
-    old: 0000000000000000000000000000000000000000
-    new: f95462f2d3d47839c81c8c5985fb49e0b02e97d3
-  - ref: refs/tags/v5.17-rc5
-    old: 0000000000000000000000000000000000000000
-    new: fb245665706076547ba72af611b41bc38c3ab73a
-  - ref: refs/tags/v5.17-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 5880f641c08a2f9788ccff499c368936438c5ae2
-  - ref: refs/tags/v5.17-rc7
-    old: 0000000000000000000000000000000000000000
-    new: d741fa92d022434dd4e2c9d1974cb64fb1752143
-  - ref: refs/tags/v5.17-rc8
-    old: 0000000000000000000000000000000000000000
-    new: 4fbac60432f1a7e608882a54af7b9a98dd168d0f
-  - ref: refs/tags/v5.18
-    old: 0000000000000000000000000000000000000000
-    new: 99cd00206e418c5fb0e9bd885ded84b8781194b7
-  - ref: refs/tags/v5.18-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 9a36f3f1dac90e023401f6db395c601ef74becbd
-  - ref: refs/tags/v5.18-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 0faaaa76024c25a1e6517d5d20e04b84f8d56c93
-  - ref: refs/tags/v5.18-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 89a9eba652fe348461301ef785c3e274bc491879
-  - ref: refs/tags/v5.18-rc4
-    old: 0000000000000000000000000000000000000000
-    new: 83c145a5040cdf3d0f91e71580ace5cdabb54b46
-  - ref: refs/tags/v5.18-rc5
-    old: 0000000000000000000000000000000000000000
-    new: 207f04315aa6e008bf809dc5f4bdc60742798eea
-  - ref: refs/tags/v5.18-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 8de2dfa9e328cc9a5533f5feb043c89d7a8fb57e
-  - ref: refs/tags/v5.18-rc7
-    old: 0000000000000000000000000000000000000000
-    new: 56606d65a50beb4b7e3bbffcf5da88d7cdd5a038
-  - ref: refs/tags/v5.19
-    old: 0000000000000000000000000000000000000000
-    new: 2c1ad8d25ec27ecee5910b62b26b93074091a3e4
-  - ref: refs/tags/v5.19-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 15fd1bd1e8b4c33f1f249d02d15aa043df52271c
-  - ref: refs/tags/v5.19-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 91f5f37f5ce4ff7e0ba802f89cadd48b4040514a
-  - ref: refs/tags/v5.19-rc3
-    old: 0000000000000000000000000000000000000000
-    new: afdb472867d4677930236a864496939f496de1b9
-  - ref: refs/tags/v5.19-rc4
-    old: 0000000000000000000000000000000000000000
-    new: b9442c86eac959e20abb900442e6cc31d2d775d4
-  - ref: refs/tags/v5.19-rc5
-    old: 0000000000000000000000000000000000000000
-    new: 2235bc49f8edfaafc6269344aa80e6400931a4af
-  - ref: refs/tags/v5.19-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 8fcdc0ea4cc7ea79a1837f5040f5656f9be98f9f
-  - ref: refs/tags/v5.19-rc7
-    old: 0000000000000000000000000000000000000000
-    new: 99023ab67a130976ddcfb7cfb5ca01358045768f
-  - ref: refs/tags/v5.19-rc8
-    old: 0000000000000000000000000000000000000000
-    new: cb84a9aae2260636f12f10c7f60779eb69e82849
-  - ref: refs/tags/v6.0
-    old: 0000000000000000000000000000000000000000
-    new: 45eb8ae5370d5df1ee8236f45df3f29103ba6e12
-  - ref: refs/tags/v6.0-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 09e4144cab94d10fec58b9296d6fc22a8b42b30a
-  - ref: refs/tags/v6.0-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 59226d37effcc06e431f8d0ab609ddd3003666fe
-  - ref: refs/tags/v6.0-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 035064d655edeefd7ea1aa65dd12bac26ab1b3c3
-  - ref: refs/tags/v6.0-rc4
-    old: 0000000000000000000000000000000000000000
-    new: 96e1a1037aedb9f9596e2af5a6fcaa8053dafe4f
-  - ref: refs/tags/v6.0-rc5
-    old: 0000000000000000000000000000000000000000
-    new: 52868a8b445605ea56831f92b5607ae3183f09bd
-  - ref: refs/tags/v6.0-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 3447cb6c198e59b5b4275ecc6d4400a49b9dbaba
-  - ref: refs/tags/v6.0-rc7
-    old: 0000000000000000000000000000000000000000
-    new: b81e85a3efdc3d610f733fffc6f821f03d8fd490
-  - ref: refs/tags/v6.1-rc1
-    old: 0000000000000000000000000000000000000000
-    new: e0e492cebef25c13fc29b174f01b5178662f1652
-  - ref: refs/tags/v6.1-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 0d8d9e948ba8d5e1a826935d8d1c4aace65dd185
-  - ref: refs/tags/v6.1-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 0083e89728f57eae559c1ed1ac1e44487565feb1
-  - ref: refs/tags/v6.1-rc4
-    old: 0000000000000000000000000000000000000000
-    new: cc17e0a6a1b0c4708af1f5d81edc87e2cb5ffbf8
+  - ref: refs/heads/devmsi
+    old: ac7c217d55813e6a76e6565f64bdecb12875c414
+    new: de8254e5291a22e0fcee0d9ea466a7781cbf6c76
+    log: revlist-ac7c217d5581-de8254e5291a.txt
 
---===============5883875727919110981==
+--===============2222979097368346647==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d2b0e4e1a819-a9483d58d6de.txt
+Content-Disposition: attachment; filename=revlist-ac7c217d5581-de8254e5291a.txt
 
 fcd294b2d53bd2aa7922650b9fe8774c2cab0b75 clocksource/drivers/hyper-v: Include asm/hyperv-tlfs.h not asm/mshyperv.h
 caaa5108ea6cc67f2430bf5c37ac8830f8a9b93e PCI/MSI: Check for MSI enabled in __pci_msix_enable()
@@ -269,39 +119,5 @@ d4a035264c7976e2ed19a6dabe5c89122d12b166 PCI/MSI: Provide pci_ims_alloc/free_irq
 f14c500bf41ec1eb885c5c8e24102d22fcea5a4a iommu/vt-d: Enable PCI/IMS
 2edb3e5d3a68e7b4033b0c456d0399ae694ccbee iommu/amd: Enable PCI/IMS
 de8254e5291a22e0fcee0d9ea466a7781cbf6c76 irqchip: Add IDXD Interrupt Message Store driver
-8ef7a8f6b584093ce7c13105b3f1c129a12f2a70 PCI/MSI: Provide static key for parent mask/unmask
-77f32fdcf0b4cc8dba82de4efec12fb436b990a5 irqchip/gic-v3: Make gic_irq_domain_select() robust
-95968c44f84a17408eb4f1016a416c5ce737b0ca genirq/irqdomain: Remove the param count restriction from select()
-aefc34f2bc0bf8face81b4c5cdd443ee8b03b46d genirq/msi: Extend msi_parent_ops
-577895c82075a2df8778e3823e48320e68503ae2 irqchip: Provide irq-gic-lib
-aa4eb8844c5936ebe1eb049472c5f5d18f2575ec irqchip/gic-v3-its: Provide MSI parent infrastructure
-a12fb8d5e50262766f2822f7b4c2dfc9eea026df irqchip/gic-msi-lib: Prepare for PCI MSI/MSIX
-fcc5a7264c7f3c29ff055de2be045ff516afb233 irqchip/gic-v3-its: Provide MSI parent for PCI/MSI[-X]
-995bbdb64f3dac48f23e3b059eab3e09d2261d2f genirq/irqdomain: Add BUS_DOMAIN_DEVICE_MSI
-dde4ae91bc1fdd8c7d04b6798db3c6d383f9ff1d irqchip-gic-msi-lib--Prepare-for-DEVICE-MSI.patch
-d22a448440ccd4fed9bee7340db34d3e0376977a platform-msi: Prepare for real per device domains
-5caed4677fdaf8f8f9df6dfc9b40791be44bc99f irqchip: Wholesale API change....
-825899002722c8daaaf54c743b35c853a6973fee genirq/msi: Provide optional translation op
-bbf21467c6878a8e46ad5aceab8bef46955cd7e0 genirq/msi: Split msi_domain_alloc_irq_at()
-f2f59b2d717f098761b92e4c9b8cb7c44f4a8025 genirq/msi: Provide BUS DEVICE_MSI_WIRED
-79dd793f249bad80a2a434a97993884fe5d67638 genirq/msi: Provide msi_device_domain_alloc_fwspec()
-1673ba26dee7a6e64df0d29ec665615f5812aee0 genirq/irqdomain: Reroute device MSI create_mapping
-b853822efb1763fc92e9e17a657a2652b0c9b39f irqchip/mbigen: Prepare for real per device MSI
-d4f302b173ac35d688147e2596b23516a3f8103f irqchip-gic-msi-lib--Prepare-for-DEVICE-MSI_WIRED.patch
-9369a9c0a7eb5e02e30913d69eecc62eab1e8512 irqchip/gic-v3-its: Switch platform MSI to MSI parent
-56b9ecccf2de8d8b53903f6c0380c2c78658f7cd irqchip/mbigen: Remove platform_msi_create_device_domain() fallback
-d542dcf1e658e03856027fac222119933988e2cf genirq/msi: Remove platform_msi_create_device_domain()
-a5f03657afca5788c0b061c1502d3565bec10dea genirq/gic-v3-mbi: Remove unused wired MSI mechanics
-05af18fe142371f778c1668ee2ad83fe858d79f8 genirq/gic-v3-mbi: Switch to MSI parent
-3e805063d06b38a4c6d4d11e1464c7d05183d294 irqchip/gic-v2m: Switch to device MSI
-b112bb1a6d47617c0e32d2c2c10c108428e14fdd genirq/msi: Provide MSI_FLAG_PARENT_PM_DEV
-0f5487e6905e23f6edd9bd5386ce2aa6178520b1 irqchip/imx-mu-msi: Switch to MSI parent
-8691f9f0cb80ed9fbcce69497b834369fb96e5cd irqchip/irq-mvebu-icu: Fix works by chance pointer assignment
-c4488816a325274c3a8381980a5770bc7a25b240 irqchip/irq-mvebu-icu: Prepare for real per device MSI
-de4e1f51ab98c7e60c0123b5c096cdf182e97b90 irqchip/mvebu-gicp: Switch to MSI parent
-e483bf2ee678677df18569074e60bbf9d2521d77 irqchip/mvebu-odmi: Switch to parent MSI
-93c9d2122e27a594d88fcda3ad066e6f066b1057 irqchip/irq-mvebu-sei: Switch to MSI parent
-3fd82a9a7d992c348daf629169d80573da692fd6 irqchip/irq-mvebu-icu: Remove platform_device muck leftovers
-a9483d58d6deb18bcf3082cf74d99c5e8f556128 genirq/msi: Remove platform MSI leftovers
 
---===============5883875727919110981==--
+--===============2222979097368346647==--
