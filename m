@@ -1,23 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vkoul/dmaengine
-Date: Sun, 13 Nov 2022 22:37:42 -0000
-Message-Id: <166837906291.7630.11175922297024135118@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Sun, 13 Nov 2022 22:41:45 -0000
+Message-Id: <166837930502.10609.7644570065254648659@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vkoul/dmaengine
-user: vkoul
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: sashal
 changes:
-  - ref: refs/heads/next
-    old: ac803b56860f6506c55a3c9330007837e3f4edda
-    new: 3a0c95b61385f583424f44e79c15f1bdf050776d
+  - ref: refs/heads/master
+    old: fd7daa9d5d9273607bfd8ff01fb771229d8f97ee
+    new: c10b3daf9ad9566231d496c2ef5198d30b1392f7
     log: |
-         dc901d98b1fe6e52ab81cd3e0879379168e06daa dmaengine: idxd: Fix crc_val field for completion record
-         22c354cf3fec6aa52cf2df6685b33ce5f265edf8 dt-bindings: dmaengine: qcom: gpi: add compatible for SM6375
-         444eef7d5695393f214d83180f3e4bb99621cd07 dmaengine: idxd: Remove linux/msi.h include
-         d57b2a65cde743a490a848236641fe9aa5536a9b dt-bindings: dmaengine: Add dma-channel-mask to Tegra GPCDMA
-         3a0c95b61385f583424f44e79c15f1bdf050776d dmaengine: tegra: Add support for dma-channel-mask
+         dda1c7bb81d8966847b49551315c92d529a7efdf Fixes for 6.0
+         83d67a85b618845c6f821d57572929de344b3b4b Fixes for 5.15
+         0db815f059b0e7e55d828e1ecbed899f65521677 Fixes for 5.10
+         64660e0fc8cb569150b08fb8b0ac1204835de52b Fixes for 5.4
+         0cad00d8d8d33955876640b4f33637b3938f73dd Fixes for 4.19
+         e6bd8895216a5c076425a5863652a12f0e0f45b8 Fixes for 4.14
+         c10b3daf9ad9566231d496c2ef5198d30b1392f7 Fixes for 4.9
          
