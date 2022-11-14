@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1176780563405874364=="
+Content-Type: multipart/mixed; boundary="===============3326241224904700947=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 14 Nov 2022 13:56:48 -0000
-Message-Id: <166843420837.11558.5394996563059342272@gitolite.kernel.org>
+Date: Mon, 14 Nov 2022 13:57:09 -0000
+Message-Id: <166843422901.11729.14658249111342226245@gitolite.kernel.org>
 
---===============1176780563405874364==
+--===============3326241224904700947==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,22 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/for-next
-    old: 550a998f37b4f9c243501f735aa283c79189ba9b
-    new: 553b20b211c4153f8af6096fd52069bbdf955e23
-    log: |
-         553b20b211c4153f8af6096fd52069bbdf955e23 m68k: defconfig: Update defconfigs for v6.1-rc1
-         
-  - ref: refs/heads/master
-    old: 7cc2f04d1076c927f9a06b2e1ab641c3815e8d34
-    new: 0a1c6e6552b230768158ff7dbb5426fe75088887
-    log: revlist-7cc2f04d1076-0a1c6e6552b2.txt
+  - ref: refs/heads/m68k-queue
+    old: b6f0cfb7e0519eb4f783d4d55f2fc5d1c7ff8a32
+    new: ff009d04cb5f74a8466f9803af306e30880ad134
+    log: revlist-b6f0cfb7e051-ff009d04cb5f.txt
 
---===============1176780563405874364==
+--===============3326241224904700947==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7cc2f04d1076-0a1c6e6552b2.txt
+Content-Disposition: attachment; filename=revlist-b6f0cfb7e051-ff009d04cb5f.txt
 
 6ca53a75c425cb1cb0929ce07f58d9e41094500c dt-bindings: hwlock: qcom-hwspinlock: add support for MMIO on older SoCs
 276a4f1a5fb118bfd6980d42732d530e43f2916a dt-bindings: hwlock: qcom-hwspinlock: correct example indentation
@@ -405,6 +399,10 @@ fef7fd48922d11b22620e19f9c9101647bfe943d Merge tag 'scsi-fixes' of git://git.ker
 ab57bc6f027c761d5411fae9492756b5fbb91108 Merge tag 'efi-fixes-for-v6.1-3' of git://git.kernel.org/pub/scm/linux/kernel/git/efi/efi
 af7a056891899fd3942afec79fb219f58271e319 Merge tag 'mips-fixes_6.1_1' of git://git.kernel.org/pub/scm/linux/kernel/git/mips/linux
 094226ad94f471a9f19e8f8e7140a09c2625abaa Linux 6.1-rc5
-0a1c6e6552b230768158ff7dbb5426fe75088887 Merge tag 'v6.1-rc5'
+4967035090d880f3914297a08c84da4947806a7f m68k: atari: usb: Add ISP1160 USB host controller support
+56bbebe15a414933f3608beb63936855c51a6de6 m68k: atari: Update Kconfig.bus help text
+8a953991feebfa0e0d52f5b148ad696ee5f3050c m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
+c95ce005eebf05a336973d02a85f0d765926c141 m68k: mac: Remove unused rbv_set_video_bpp()
+ff009d04cb5f74a8466f9803af306e30880ad134 m68k: mac: Reword comment using double "in"
 
---===============1176780563405874364==--
+--===============3326241224904700947==--
