@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1669831743905263177=="
+Content-Type: multipart/mixed; boundary="===============1037612053242656944=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tglx/devel
-Date: Mon, 14 Nov 2022 21:04:47 -0000
-Message-Id: <166845988799.28276.6450373429350998696@gitolite.kernel.org>
+Date: Mon, 14 Nov 2022 21:05:47 -0000
+Message-Id: <166845994772.30242.17214855120682342534@gitolite.kernel.org>
 
---===============1669831743905263177==
+--===============1037612053242656944==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,28 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tglx/devel
 user: tglx
 changes:
-  - ref: refs/heads/devmsi-arm
-    old: ef258fa6ef68c6cddaf645454d259af71a0effa5
-    new: 9689ea0ff2532ee9abf690efb90a97781f367b23
-    log: revlist-ef258fa6ef68-9689ea0ff253.txt
-  - ref: refs/tags/devmsi-v1E-arm
-    old: 0000000000000000000000000000000000000000
-    new: 3d2558c51a7d065e381d7a418a57df87747f4e2f
-  - ref: refs/tags/devmsi-v1E-part1
-    old: 0000000000000000000000000000000000000000
-    new: 0db8ab0d3e74515021cf374478a3413ee4ef6ccd
-  - ref: refs/tags/devmsi-v1E-part2
-    old: 0000000000000000000000000000000000000000
-    new: 19f73fa1a75544e775ecc8989667e06046a6f7b4
-  - ref: refs/tags/devmsi-v1E-part3
-    old: 0000000000000000000000000000000000000000
-    new: 5e9ac9921d40ea5ab39b8abdceb36ad8ab61de99
+  - ref: refs/heads/devmsi
+    old: 678eb5b9871d4c3cd1e3419b2e6a8db3f56b71d0
+    new: 814bd85a2c55845d8d9b18208f36370267b9de91
+    log: revlist-678eb5b9871d-814bd85a2c55.txt
 
---===============1669831743905263177==
+--===============1037612053242656944==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ef258fa6ef68-9689ea0ff253.txt
+Content-Disposition: attachment; filename=revlist-678eb5b9871d-814bd85a2c55.txt
 
 5f08c957a967f59ed9652a780136977098a5cbb6 clocksource/drivers/hyper-v: Include asm/hyperv-tlfs.h not asm/mshyperv.h
 6c0d844711d02c199dd614e6d74d8169748bc1df PCI/MSI: Check for MSI enabled in __pci_msix_enable()
@@ -131,44 +119,5 @@ cf8ea744965668509119cfd40c2ae6c9c917fcf2 x86/apic/msi: Enable PCI/IMS
 5b75208b81bcb1df34ef87199e510fd9b132f6a5 iommu/vt-d: Enable PCI/IMS
 c9f62341c867e9a2978bfa1abb06156511ec617f iommu/amd: Enable PCI/IMS
 814bd85a2c55845d8d9b18208f36370267b9de91 irqchip: Add IDXD Interrupt Message Store driver
-3eb01a77f30a71597dc861277bcad812dac2a1df ACPI/IORT: Make prototype of iort_pmsi_get_dev_id() always available
-14379656a3aca4a1e9d0e47a3f9d4d5da0948347 irqchip/gic-v2m: Include arm-gic-common.h
-80da1a97a344d172e5f658799161ad006537e149 irqchip/gic-v2m: Mark a few functions __init
-4a85178244f435e84fc1ea362a78b46cc260fff0 irqchip/ti-sci-inta: Fix kernel doc
-0c1d1dd245f8de2dfa79217519ffa8951d39c455 PCI/MSI: Provide static key for parent mask/unmask
-e5b6a44ed7c5b9b01d999ddf80225bb278f3fba5 irqchip/gic-v3: Make gic_irq_domain_select() robust
-b84432f84b5735556b1041704f4f7acf103992aa genirq/irqdomain: Remove the param count restriction from select()
-541e59e1ad10bf444b633d13cf6292c0dce46424 genirq/msi: Extend msi_parent_ops
-5eea1ab13640e40d74ee6b0a32bb3f89612c2bf5 irqchip: Provide irq-gic-lib
-41367fcdefc8dfdafa4f3097aefd42a76d8177b9 irqchip/gic-v3-its: Provide MSI parent infrastructure
-501390f390d48c75247da8a45b0b84d88bcb4346 irqchip/gic-msi-lib: Prepare for PCI MSI/MSIX
-1919d73dcc97c4ea03734327d910941264126e0d irqchip/gic-v3-its: Provide MSI parent for PCI/MSI[-X]
-0345f6f592689ae5571a30413d4ce2f1fa0bbf0e genirq/irqdomain: Add BUS_DOMAIN_DEVICE_MSI
-6da37372a618b4363eed9b53912ff96a0013c89c irqchip-gic-msi-lib--Prepare-for-DEVICE-MSI.patch
-91993c762b3d9f00afed91d7b2f058099e3026ad platform-msi: Prepare for real per device domains
-7ce728bf8c9e4a23cff90bccd50bffd125767ad6 irqchip: Wholesale API change....
-03c877d8d1a432155d1bd99670bb2fc7950e455a genirq/msi: Provide optional translation op
-fe706fb43fc7af6a1bbe2ceac4f56dc5ddeb2cfe genirq/msi: Split msi_domain_alloc_irq_at()
-9d8f3218a6e7f99c1c5c7bd7aed84a3db1dd4f83 genirq/msi: Provide BUS DEVICE_MSI_WIRED
-6039804bb4733e8d20c92f7dbf38c668cc4704d5 genirq/msi: Provide msi_device_domain_alloc_fwspec()
-f807ba33dccd178db4a42fe7d5f902b8d9f050eb genirq/irqdomain: Reroute device MSI create_mapping
-c073e466f5885a9a5d597288c61abaa6fe838120 irqchip/mbigen: Prepare for real per device MSI
-0f91c5bfdd2359eb275108f9e05925c8c9ab16e0 irqchip-gic-msi-lib--Prepare-for-DEVICE-MSI_WIRED.patch
-6893bc26950195a6bcb66880a7050055092fee26 irqchip/gic-v3-its: Switch platform MSI to MSI parent
-5124d41d1775f470591bfcdf01e5d49c3130d58c irqchip/mbigen: Remove platform_msi_create_device_domain() fallback
-14aaae47a905e90c611ddd95776034d1bdac3ff2 genirq/msi: Remove platform_msi_create_device_domain()
-82211d4c5f80977889c29853940729fe0febc46e genirq/gic-v3-mbi: Remove unused wired MSI mechanics
-103f0a1e41cf7307e80f892e046fd2703a820ab3 genirq/gic-v3-mbi: Switch to MSI parent
-907b8d7ba3889d10ff2ebec5aeea41503215893a irqchip/gic-v2m: Switch to device MSI
-41903800d689dff00ec680c9edde962cc4910342 genirq/msi: Provide MSI_FLAG_PARENT_PM_DEV
-bc226123b9fc6f9a376c479f40bccffa02c7251c irqchip/imx-mu-msi: Switch to MSI parent
-4ae26a0a72a320a5266b3fbdc3897551621f843b irqchip/irq-mvebu-icu: Fix works by chance pointer assignment
-39bf8d5a8d1bb84fb72633f1d656b159ebd5a0d3 irqchip/irq-mvebu-icu: Prepare for real per device MSI
-388afd053c8d7fde18b2611171fecc9b1a58ad86 irqchip/mvebu-gicp: Switch to MSI parent
-48928e57585b5073db765d89a892ed19681bc9bf irqchip/mvebu-odmi: Switch to parent MSI
-7a791f2e9d30544a29d935d86f82b78c69131805 irqchip/irq-mvebu-sei: Switch to MSI parent
-77d1d599fac03207471914fa17d4d94579c14028 irqchip/irq-mvebu-icu: Remove platform_device muck leftovers
-2a1340462394d831ceb89a93c9b6e5611423685c genirq/msi: Remove platform MSI leftovers
-9689ea0ff2532ee9abf690efb90a97781f367b23 genirq/msi: Move msi_device_data to core
 
---===============1669831743905263177==--
+--===============1037612053242656944==--
