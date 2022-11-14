@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/abelloni/linux
-Date: Mon, 14 Nov 2022 18:25:47 -0000
-Message-Id: <166845034706.11475.3417699638456013457@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
+Date: Mon, 14 Nov 2022 18:30:02 -0000
+Message-Id: <166845060235.13486.13297177277814263190@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/abelloni/linux
-user: abelloni
+repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
+user: shuah
 changes:
-  - ref: refs/heads/rtc-next
-    old: a78590c82c501c53b6f30a5ee10e4261e8b377f7
-    new: 25c9da5a536efb9eac59aaa6c1466935841cf694
+  - ref: refs/heads/next
+    old: d942f231afc037490538cea67bb0c667e6d12214
+    new: a1d6cd88c8973cfb08ee85722488b1d6d5d16327
     log: |
-         eeb9d3b39c44d3824389d0cec8eabaac995822c9 rtc: ds1302: remove unnecessary spi_set_drvdata()
-         25c9da5a536efb9eac59aaa6c1466935841cf694 rtc: s3c: Switch to use dev_err_probe() helper
+         a1d6cd88c8973cfb08ee85722488b1d6d5d16327 selftests/ftrace: event_triggers: wait longer for test_event_enable
          
