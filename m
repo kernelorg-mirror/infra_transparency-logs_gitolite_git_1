@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3871532645208121246=="
+Content-Type: multipart/mixed; boundary="===============4061875129150064026=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Mon, 14 Nov 2022 17:14:03 -0000
-Message-Id: <166844604309.22979.1013351734832046590@gitolite.kernel.org>
+Date: Mon, 14 Nov 2022 17:14:08 -0000
+Message-Id: <166844604865.23074.3028402168596462955@gitolite.kernel.org>
 
---===============3871532645208121246==
+--===============4061875129150064026==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: b548b17a93fd18357a5a6f535c10c1e68719ad32
     new: f12ed9c04804eec4f1819097a0fd0b4800adac2f
     log: revlist-b548b17a93fd-f12ed9c04804.txt
 
---===============3871532645208121246==
+--===============4061875129150064026==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -58,4 +58,4 @@ dccc30cc4906b5ec0569979fbef591f84e6cb37d net: microchip: sparx5: Add KUNIT test 
 6970ef27ff7fd1ce3455b2c696081503d0c0f8ac net: fec: add xdp and page pool statistics
 f12ed9c04804eec4f1819097a0fd0b4800adac2f Merge tag 'mlx5-updates-2022-11-12' of git://git.kernel.org/pub/scm/linux/kernel/git/saeed/linux
 
---===============3871532645208121246==--
+--===============4061875129150064026==--
