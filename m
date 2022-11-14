@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0852946308617477736=="
+Content-Type: multipart/mixed; boundary="===============5093413177480923652=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Mon, 14 Nov 2022 08:59:46 -0000
-Message-Id: <166841638662.790.129492016674423192@gitolite.kernel.org>
+Date: Mon, 14 Nov 2022 08:59:59 -0000
+Message-Id: <166841639929.935.8510560659396979609@gitolite.kernel.org>
 
---===============0852946308617477736==
+--===============5093413177480923652==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,18 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/locking/urgent
-    old: 6eebd5fb20838f5971ba17df9f55cc4f84a31053
-    new: 1250bf72a55084a35fe2ea3a99b9b62a2f7d5051
-    log: revlist-6eebd5fb2083-1250bf72a550.txt
+  - ref: refs/heads/sched/urgent
+    old: 8e5bad7dccec2014f24497b57d8a8ee0b752c290
+    new: 91dabf33ae5df271da63e87ad7833e5fdb4a44b9
+    log: revlist-8e5bad7dccec-91dabf33ae5d.txt
 
---===============0852946308617477736==
+--===============5093413177480923652==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6eebd5fb2083-1250bf72a550.txt
+Content-Disposition: attachment; filename=revlist-8e5bad7dccec-91dabf33ae5d.txt
 
-bed54aeb6ac1ced7e0ea27a82ee52af856610ff0 Merge branch 'Wait for busy refill_work when destroying bpf memory allocator'
 48ee7952808183201b0601d85b89d2d8ccca95ff scsi: ufs: core: Fix the error log in ufshcd_query_flag_retry()
 181dfce9b63b80adbb861b219550ec9b27fe63d5 scsi: pm80xx: Display proc_name in sysfs
 4652b58fe3bb177a9b208bb7a8b7a3fb64184a00 scsi: ufs: core: Fix typo for register name in comments
@@ -1049,6 +1048,7 @@ fef7fd48922d11b22620e19f9c9101647bfe943d Merge tag 'scsi-fixes' of git://git.ker
 ab57bc6f027c761d5411fae9492756b5fbb91108 Merge tag 'efi-fixes-for-v6.1-3' of git://git.kernel.org/pub/scm/linux/kernel/git/efi/efi
 af7a056891899fd3942afec79fb219f58271e319 Merge tag 'mips-fixes_6.1_1' of git://git.kernel.org/pub/scm/linux/kernel/git/mips/linux
 094226ad94f471a9f19e8f8e7140a09c2625abaa Linux 6.1-rc5
-1250bf72a55084a35fe2ea3a99b9b62a2f7d5051 locking: fix kernel/locking/ inline asm error
+448dca8c88755b768552e19bd1618be34ef6d1ff rseq: Use pr_warn_once() when deprecated/unknown ABI flags are encountered
+91dabf33ae5df271da63e87ad7833e5fdb4a44b9 sched: Fix race in task_call_func()
 
---===============0852946308617477736==--
+--===============5093413177480923652==--
