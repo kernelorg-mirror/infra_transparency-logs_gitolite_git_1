@@ -1,19 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Mon, 14 Nov 2022 22:50:15 -0000
-Message-Id: <166846621563.7982.6977504301820845973@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
+Date: Mon, 14 Nov 2022 22:55:34 -0000
+Message-Id: <166846653469.12775.13853639787700418444@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
-user: jaegeuk
+repo: pub/scm/linux/kernel/git/hid/hid
+user: jikos
 changes:
-  - ref: refs/heads/dev-test
-    old: 11d6528bacd41d5dd13f401ca6f819dc4078fc4f
-    new: 8f44ed80ac9a01d5b36b401b91abaf8fa0aebd03
+  - ref: refs/heads/for-6.1/upstream-fixes
+    old: a6f4f1662711bd03308371d9649783a5be596898
+    new: 9ad6645a9dce4d0e42daca6ebf32a154401c59d3
     log: |
-         8f44ed80ac9a01d5b36b401b91abaf8fa0aebd03 f2fs: remove submit label in __submit_discard_cmd()
+         9ad6645a9dce4d0e42daca6ebf32a154401c59d3 HID: ite: Enable QUIRK_TOUCHPAD_ON_OFF_REPORT on Acer Aspire Switch V 10
+         
+  - ref: refs/heads/for-next
+    old: 8c33e046097ed1f0eca6ec36dd30dc6bd2f90580
+    new: 414472d5121954d928fb69cc58a97c07c1805491
+    log: |
+         9ad6645a9dce4d0e42daca6ebf32a154401c59d3 HID: ite: Enable QUIRK_TOUCHPAD_ON_OFF_REPORT on Acer Aspire Switch V 10
+         414472d5121954d928fb69cc58a97c07c1805491 Merge branch 'for-6.1/upstream-fixes' into for-next
          
