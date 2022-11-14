@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============6991819429971866505=="
+Content-Type: multipart/mixed; boundary="===============5163070299480426869=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux
-Date: Mon, 14 Nov 2022 16:48:23 -0000
-Message-Id: <166844450310.4292.9198800156347013165@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
+Date: Mon, 14 Nov 2022 16:48:29 -0000
+Message-Id: <166844450966.4417.9931097227202806599@gitolite.kernel.org>
 
---===============6991819429971866505==
+--===============5163070299480426869==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux
+repo: pub/scm/linux/kernel/git/amlogic/linux
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -23,7 +23,7 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: 40747115a02c06d398d801301015db7ea182f7f0
 
---===============6991819429971866505==
+--===============5163070299480426869==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -388,4 +388,4 @@ ab57bc6f027c761d5411fae9492756b5fbb91108 Merge tag 'efi-fixes-for-v6.1-3' of git
 af7a056891899fd3942afec79fb219f58271e319 Merge tag 'mips-fixes_6.1_1' of git://git.kernel.org/pub/scm/linux/kernel/git/mips/linux
 094226ad94f471a9f19e8f8e7140a09c2625abaa Linux 6.1-rc5
 
---===============6991819429971866505==--
+--===============5163070299480426869==--
