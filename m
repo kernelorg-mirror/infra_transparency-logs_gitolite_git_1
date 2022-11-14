@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7497308419831234631=="
+Content-Type: multipart/mixed; boundary="===============8494116377727892977=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Mon, 14 Nov 2022 12:42:10 -0000
-Message-Id: <166842973086.21041.15093426891209266672@gitolite.kernel.org>
+Date: Mon, 14 Nov 2022 12:42:23 -0000
+Message-Id: <166842974351.21190.11974359461823654753@gitolite.kernel.org>
 
---===============7497308419831234631==
+--===============8494116377727892977==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,88 +16,109 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.19.y
-    old: 21c8791224f40f8334bdd0c035a1da15f58c5951
-    new: fd4f0627f5947c9258fedfcba7da29830d63df0f
-    log: revlist-21c8791224f4-fd4f0627f594.txt
+  - ref: refs/heads/linux-5.4.y
+    old: 95263fa7b21eb3105ca1146b80af7df4a8a425fe
+    new: e28170cba5a6840942aba741dc75c0eb5577f31f
+    log: revlist-95263fa7b21e-e28170cba5a6.txt
 
---===============7497308419831234631==
+--===============8494116377727892977==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1668429728 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1668429741 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1668429726-e23b1174768385ce3ca7d5882f683661c004eb99
+nonce 1668429738-f3169bc7356ab557c4c298c4960f03c24112ebb2
 
-21c8791224f40f8334bdd0c035a1da15f58c5951 fd4f0627f5947c9258fedfcba7da29830d63df0f refs/heads/linux-4.19.y
+95263fa7b21eb3105ca1146b80af7df4a8a425fe e28170cba5a6840942aba741dc75c0eb5577f31f refs/heads/linux-5.4.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmNyN6AbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+gSIP/2omkT5z9uZLltrKUXTZ
-g+E1Qq6FpMyK36vlMs4Oj99nNTzfIOlMCH69Zg8ETeu7+FCLPB3+WPQ8GuJdddYb
-qsbJmCgPIZ+Nn/lFLdNrFCtHo8NoyOAyAh4sIHS1WoWRefQtAt1eBZ3Zzg9aGqhr
-3y9l/PQVF7o9OrGUxNbSPyo2/nabJH/A+nT97fWiw6Gj4bLeBhb+8Gt1UGCK5Pz0
-gi2bPDl8+cZOzCiLmTtKF1jZ+jFA+4f9GR140mYmnQ5iimkwPteaVyrBahTlg8CD
-WDZRipo5k1VjGwTi+g7odtv6jk8NU7uDQS2jBfh0DdnhxgI3N+qd/812XzydBATX
-9a4vxKWGV/JTsyiLRZkZPuD7yaly19yZdluoSZccPn1gcdldYgc5W1s0MgqeGwr1
-ZJ1p+zH2Gx2elVQnmFZf3cZ2FU1EreBPEhsfQcxScBy45C2TpT+6ETBz2TNXhAC5
-/dVQzGM3JTqGQAzH9p/i2DyPOCfvf2183jJhIem9nigxfdAXsDVfb9W46JszMO5P
-2ZIK5OspNl3Kk0WkOjTYjKZeJuQZ/REzpNdVAmknhwY5zcHjFspgE98xAN7hfjeJ
-q/3fK+Lzk6ywqRniHgrlU/T7XFjM/Wbl+ORTznkz9Jiolc2XHeadOs4eLLqVlXcE
-VQJN7kDW3zRKpo93A6JP5ck6
-=KVDU
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmNyN60bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+apkP+wY8JZ8uoUSbe2Jctm7p
+9pLoYTC7apN5ip9N8TrRHv/c31OymjJjr5MhNFbR8ub5lvvvm1JFwedkGHzNWC06
+GXy+mBcAhq0HHzTfl7oQEnLGKWRnQa4pq5F9ZUYC+SfSA8n4DrTv8PPX+TBoGCcn
+5QB/ey9cc4h7RAN2sh7kFPF6/QefIj78LsrtDRAtNrA1ON1MBD7//90QSW2FnkWQ
+M1Z5Vc4pqCaTsTEY/iTCRow0yrIZYTR8nnlhdyJg2pWEIVCjnEbiKccn+K6ogSG5
+cKu8FDFtWO2FC5Xokh+VG17k+fIOHfIg/9TyISFu1BzJD+n4+bwEMb2IEZ3hKe0D
+pmNgaKL3T+KRckFQfDDYYABq8FDGymGlwm5By0PpwzqQOwyVDgdWDPS73H+OaB3k
+oWW1WO8//p4DiLxWseh24XySrWxLIqiHHpSXCucWVmvrk7h8+c1PBKiOaN3lEj60
+SAwgXJLL+tXj5B2aX0/LZprbbQB3840rkB1NGDpO/jnPbhzL+ekcSSNufTMRwoGW
+iTSHpEpuBR0ptjNGLHYPzUPTfJ4wTHHTZzmp2RKMWy5TEqihyTD/UNxvyfCW85xY
+wJaIgh6AelVmnOk9zcy90l+MWodUlQoa3Ci1kgGRR2M9dSf4B0wL+5tLWCyo0YDB
+Hxxi7NvTv1LCqaZNhf4lV5fW
+=XQOq
 -----END PGP SIGNATURE-----
 
---===============7497308419831234631==
+--===============8494116377727892977==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-21c8791224f4-fd4f0627f594.txt
+Content-Disposition: attachment; filename=revlist-95263fa7b21e-e28170cba5a6.txt
 
-fc247f4edfb3ca996a1b94b7c2049441188ef5b4 phy: stm32: fix an error code in probe
-22db29fbb4fdcc72c8532eb09594267c811f5c93 wifi: cfg80211: fix memory leak in query_regdb_file()
-aa58318e947a8b7f473a8b216448356cd4ec4d14 HID: hyperv: fix possible memory leak in mousevsc_probe()
-462f2203e214db6b12a22f0b8236f08a89d2a015 net: gso: fix panic on frag_list with mixed head alloc types
-74af3d27c8bf37433438ce72c4154d6756434617 net: tun: Fix memory leaks of napi_get_frags
-7c2df7e3037d89ed8da24126df3008e852279814 bnxt_en: fix potentially incorrect return value for ndo_rx_flow_steer
-6c4eea39f6c1c6e52b069a7a2de5dbf335b8fc76 net: fman: Unregister ethernet device on removal
-b6701bfb442333753ba81878a07aba4a0f33b50b capabilities: fix undefined behavior in bit shift for CAP_TO_MASK
-4287980da68ccf4c2ad779d50089cdd0150d41b9 net: lapbether: fix issue of dev reference count leakage in lapbeth_device_event()
-1dde9cc1faf07af1401f56ee80e7b3bcaea0fc9c hamradio: fix issue of dev reference count leakage in bpq_device_event()
-e4c3c6485ffff153977292925ca77eb660c7c72b drm/vc4: Fix missing platform_unregister_drivers() call in vc4_drm_register()
-1801f7cf1662163d4345ea67ba208c175121cdd8 ipv6: addrlabel: fix infoleak when sending struct ifaddrlblmsg to network
-6d7503c20d6a3df75f4bfeaeebcb052004ad63c3 tipc: fix the msg->req tlv len check in tipc_nl_compat_name_table_dump_header
-f0ac539e84cdcd262bdac6c8ac659d21adb13cbd dmaengine: mv_xor_v2: Fix a resource leak in mv_xor_v2_remove()
-8d410c9d3b5bc0e520b51e206c8be6697ea4b0b8 drivers: net: xgene: disable napi when register irq failed in xgene_enet_open()
-b044d351fea6ef7588666bd1d0ec75cc1801adfe net: nixge: disable napi when enable interrupts failed in nixge_open()
-12ad5ebe0560a6ed70d432b8810dcd9bb1089592 net: cxgb3_main: disable napi when bind qsets failed in cxgb_up()
-8190734b0d6609cba1b518323ea46a57f8eaf958 ethernet: s2io: disable napi when start nic failed in s2io_card_up()
-53961eb3793b7c1404af9ae2a4971c47767880b9 net: mv643xx_eth: disable napi when init rxq or txq failed in mv643xx_eth_open()
-f6551cf275b3f19c0f5389464c2dd88edff8e26a net: macvlan: fix memory leaks of macvlan_common_newlink
-7c0963f86ce4bdd38938fc49ea11639a80d695ae riscv: process: fix kernel info leakage
-bf452aedfdba60d4d3ec5755fd763c12b0b090e9 arm64: efi: Fix handling of misaligned runtime regions and drop warning
-50deec0a0a3fafa62c13a088a0c2a1e6a7901e5a ALSA: hda/ca0132: add quirk for EVGA Z390 DARK
-a2721fbb3305b3331722ec15e43c5abf4b39b07d ALSA: hda: fix potential memleak in 'add_widget_node'
-2cdc4d2ac4aa57649a64d9400ff992e8bbb8b432 ALSA: usb-audio: Add quirk entry for M-Audio Micro
-793b88b74247b410e0b53829d463a7faa2b43fef ALSA: usb-audio: Add DSD support for Accuphase DAC-60
-459dd164a38b6d5ff6a1c3c0e6a4eb4fcd040f72 vmlinux.lds.h: Fix placement of '.data..decrypted' section
-72432d5fa4eae2a63cc6a6f6577459407fc57c68 nilfs2: fix deadlock in nilfs_count_free_blocks()
-d3bbe8a9ccf688c1daa053bcfb320747b2a5967b nilfs2: fix use-after-free bug of ns_writer on remount
-369b3f181de975c68786edc53d36934a204d4e20 drm/i915/dmabuf: fix sg_table handling in map_dma_buf
-8c9f09744b67ecd66634163e07aa4db00010d580 platform/x86: hp_wmi: Fix rfkill causing soft blocked wifi
-638cbd771f2f8fa82ea568945a55c53ec50fa103 btrfs: selftests: fix wrong error check in btrfs_free_dummy_root()
-ed4a584f34954d742eed5d4d6b95a245989233d4 udf: Fix a slab-out-of-bounds write bug in udf_find_entry()
-36ff0dda97c7fb1edd3649febf907463e7e11d7f cert host tools: Stop complaining about deprecated OpenSSL functions
-a5b9b2ff4da837bd554b60c65a2dbba5c1102bcc dmaengine: at_hdmac: Fix at_lli struct definition
-1915e6e068d5b3d630cd46cc5e0ae44e378f3724 dmaengine: at_hdmac: Don't start transactions at tx_submit level
-889d28e4fa060896b0892895835fbc3ef66e24d4 dmaengine: at_hdmac: Fix completion of unissued descriptor in case of errors
-0fb460a0a7819c5a401e40ecd3d715034fa36088 dmaengine: at_hdmac: Don't allow CPU to reorder channel enable
-e73cbd20ca86f1f22d5192cbc1fcf66c8ffef22c dmaengine: at_hdmac: Fix impossible condition
-4ae7132dffdefc3eca61ac8b9589e201f73d94a2 dmaengine: at_hdmac: Check return code of dma_async_device_register
-bd9d4a43b337e6fae6dd13b99c046eecd1835269 net: tun: call napi_schedule_prep() to ensure we own a napi
-fd4f0627f5947c9258fedfcba7da29830d63df0f Linux 4.19.266-rc1
+34f6262e06819d031e11ce88fb979cc8e736e6a1 xfs: preserve rmapbt swapext block reservation from freed blocks
+68429d3d83a465236f2cfed41820196611c3419a xfs: rename xfs_bmap_is_real_extent to is_written_extent
+f0cc5149fa9259f7f980cfdcd5a8f2fc3afdb550 xfs: redesign the reflink remap loop to fix blkres depletion crash
+dc79d7ae22d857c3d3c80c8da144b7502224b62e xfs: use MMAPLOCK around filemap_map_pages()
+30cd223b5ed7d61289c1feb22005ff8c5458db08 xfs: preserve inode versioning across remounts
+ef880648cc019ad90e69a7a0e9e0754372003b20 xfs: drain the buf delwri queue before xfsaild idles
+b33515bd333681c624d6f799cd861d29553f264f phy: stm32: fix an error code in probe
+1e830d1cc03d586b49e60cec0277382b11c8c1e6 wifi: cfg80211: silence a sparse RCU warning
+209928b2128bc59aa759ccb1a973e6e5870c3d3f wifi: cfg80211: fix memory leak in query_regdb_file()
+163940ba1f111c52aa45c1206e5d432e68ddd8c6 bpf, sockmap: Fix the sk->sk_forward_alloc warning of sk_stream_kill_queues
+5a4ae3a4e9a689970cd9e6ed345762a3988b1a5a HID: hyperv: fix possible memory leak in mousevsc_probe()
+7afe90ab7ca99a75ebbff439565dcb568262c594 net: gso: fix panic on frag_list with mixed head alloc types
+796d012a412be1c26ce2e5c103a5ed4d8cc98880 net: tun: Fix memory leaks of napi_get_frags
+bf06f618dbde94020af7e20e55af8e77985f4166 bnxt_en: Fix possible crash in bnxt_hwrm_set_coal()
+80fd765151d5c18b963afa8a086b13f3c229dca8 bnxt_en: fix potentially incorrect return value for ndo_rx_flow_steer
+cba4635dd453da696d2ed19a6259d085fd4cfe6c net: fman: Unregister ethernet device on removal
+86ec158772b11b96f655425d5b6e74af6d6c0798 capabilities: fix undefined behavior in bit shift for CAP_TO_MASK
+5027fa467dda330fd3653b5d3d7d5d1b888df096 net: lapbether: fix issue of dev reference count leakage in lapbeth_device_event()
+0cba8c917d2b4564c3e2e36e74b37f6963db0dd9 hamradio: fix issue of dev reference count leakage in bpq_device_event()
+4fb5771fe2b15426341fbca183dedef1b2a43c63 drm/vc4: Fix missing platform_unregister_drivers() call in vc4_drm_register()
+20ebeb83c78c580538ad11383494e088aa904bf2 ipv6: addrlabel: fix infoleak when sending struct ifaddrlblmsg to network
+2ea14cad5282908c931e0a323497c15931ce99b2 can: af_can: fix NULL pointer dereference in can_rx_register()
+5257d5ced50e55afeb0e1d3014da44a4955be5f4 tipc: fix the msg->req tlv len check in tipc_nl_compat_name_table_dump_header
+a52af7888e17152ebf8cbcb6462cc4a858e022b1 dmaengine: pxa_dma: use platform_get_irq_optional
+d9e9ebfd130b57017aff4b3bd5406875a5c4eb13 dmaengine: mv_xor_v2: Fix a resource leak in mv_xor_v2_remove()
+a9566593d8ba42ffcb354f8d853658e1173dac24 drivers: net: xgene: disable napi when register irq failed in xgene_enet_open()
+3df1b0e77b949ac05e26f06c859e0b5419cd4517 perf stat: Fix printing os->prefix in CSV metrics output
+46de7a77620896b0af04e4e32d9d85687738ec59 net: nixge: disable napi when enable interrupts failed in nixge_open()
+f5589e368ebac3fb6ee5def0edf9b960091a3e52 net/mlx5: Allow async trigger completion execution on single CPU systems
+d75ab30d879ee2a75dfadb3ac15d82056cb2a132 net: cpsw: disable napi in cpsw_ndo_open()
+3c121e57180ff7e7060916637df364122fd31f51 net: cxgb3_main: disable napi when bind qsets failed in cxgb_up()
+86889d2d4b603c7b0d074bdb303a78542dfa79cf cxgb4vf: shut down the adapter when t4vf_update_port_info() failed in cxgb4vf_open()
+175e0f2358e1b029039152dfffb3a20ae640aa04 ethernet: s2io: disable napi when start nic failed in s2io_card_up()
+f3fae70772747fc6afe556974504edb1bccd714c net: mv643xx_eth: disable napi when init rxq or txq failed in mv643xx_eth_open()
+c987184c4231b448cab019d7e3e2023a3cd340f6 ethernet: tundra: free irq when alloc ring failed in tsi108_open()
+61cb029dbb5170573513552d20fd0a91f32265b2 net: macvlan: fix memory leaks of macvlan_common_newlink
+0f2012ce501d7f3e911a409505c2ab9090b64733 riscv: process: fix kernel info leakage
+244311d5aef3d83b30af14270c9a99a8a2253965 arm64: efi: Fix handling of misaligned runtime regions and drop warning
+13110b72d9ea7550802943e7ac972b741f518248 MIPS: jump_label: Fix compat branch range check
+fe650093b7d3d8af56209b01d7c2bbadad13b8a7 mmc: cqhci: Provide helper for resetting both SDHCI and CQHCI
+2bec3fa93a2173c5fb8dce19d6a9ce7eaa015513 mmc: sdhci-of-arasan: Fix SDHCI_RESET_ALL for CQHCI
+3e5fb9f9e896764cb422e297626f28b79cd20ef0 mmc: sdhci-tegra: Fix SDHCI_RESET_ALL for CQHCI
+1259b84726021f316014cbd25c8d304e8a890b19 ALSA: hda/ca0132: add quirk for EVGA Z390 DARK
+c0bb3adf8a53fe8fcf109ed8491a32a27c87a833 ALSA: hda: fix potential memleak in 'add_widget_node'
+7843404171a956cbb974cd04e3becaeb95a13615 ALSA: usb-audio: Add quirk entry for M-Audio Micro
+c52fbae3f40c1e4ac82d33202ec1f92981b05d8f ALSA: usb-audio: Add DSD support for Accuphase DAC-60
+ec70f0628b987772f6867a42051f9e0eb05d4930 vmlinux.lds.h: Fix placement of '.data..decrypted' section
+65774cef9d1398bce85a2aa4c53b767d94fecfad nilfs2: fix deadlock in nilfs_count_free_blocks()
+036a57c67ccfe6c9ba0bfbbeae169bac165f63a8 nilfs2: fix use-after-free bug of ns_writer on remount
+8adedbfa32ac7ee1cdb1fa65d10b98cf2a5bf330 drm/i915/dmabuf: fix sg_table handling in map_dma_buf
+520d0da190393a40f5a6b86ab0af23299a8a6af0 platform/x86: hp_wmi: Fix rfkill causing soft blocked wifi
+af95c0f90a2173c46c015e8bbdb9ac01b8ad2ec9 btrfs: selftests: fix wrong error check in btrfs_free_dummy_root()
+17fa11d8e2918f96191ad4b4ccec069c193ca848 udf: Fix a slab-out-of-bounds write bug in udf_find_entry()
+e6e5c92f8351bb7b40d605a8c995268272bfe6ba can: j1939: j1939_send_one(): fix missing CAN header initialization
+a17ae29d572f88e0173d3d439dfea80c6c3016a1 cert host tools: Stop complaining about deprecated OpenSSL functions
+371721e18dd7e1d3a40e3e7d7c1287bac2d09558 dmaengine: at_hdmac: Fix at_lli struct definition
+2340abca849bfd1d7810d8d9c41ecac31ba2196b dmaengine: at_hdmac: Don't start transactions at tx_submit level
+3743b7cc3d22896e52b686a19c09db3fbc046c4f dmaengine: at_hdmac: Fix completion of unissued descriptor in case of errors
+b4b95b3db7485bc775668a6724bca00c454c28db dmaengine: at_hdmac: Don't allow CPU to reorder channel enable
+9ce79fedc2751f9f63c4d7260a315dbf3c230f59 dmaengine: at_hdmac: Fix impossible condition
+974a83b55de213208fc5b54557ba5ec2031ea7ec dmaengine: at_hdmac: Check return code of dma_async_device_register
+12d950a5127246ca4939411e7688ec44d9b3cfdb net: tun: call napi_schedule_prep() to ensure we own a napi
+e28170cba5a6840942aba741dc75c0eb5577f31f Linux 5.4.225-rc1
 
---===============7497308419831234631==--
+--===============8494116377727892977==--
