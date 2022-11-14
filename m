@@ -1,19 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Mon, 14 Nov 2022 22:46:58 -0000
-Message-Id: <166846601855.5159.6024992895105869784@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
+Date: Mon, 14 Nov 2022 22:46:59 -0000
+Message-Id: <166846601963.5213.15090380619749572292@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
-user: jaegeuk
+repo: pub/scm/linux/kernel/git/hid/hid
+user: jikos
 changes:
-  - ref: refs/heads/dev-test
-    old: 35d8e33f0e29b224a5aac7d1d3ffdbec84e9a5fe
-    new: 11d6528bacd41d5dd13f401ca6f819dc4078fc4f
+  - ref: refs/heads/for-6.2/apple
+    old: 084bc074c231e716cbcb9e8f9db05b17fd3563cf
+    new: fd7b68b763c4dfa65e3c145c624427d5fd11202f
     log: |
-         11d6528bacd41d5dd13f401ca6f819dc4078fc4f f2fs: fix to do sanity check on i_extra_isize in is_alive()
+         fd7b68b763c4dfa65e3c145c624427d5fd11202f HID: apple: Swap Control and Command keys on Apple keyboards
+         
+  - ref: refs/heads/for-next
+    old: 1c3e48582751c719c7be28e158910ef3f028a4c6
+    new: 8c33e046097ed1f0eca6ec36dd30dc6bd2f90580
+    log: |
+         fd7b68b763c4dfa65e3c145c624427d5fd11202f HID: apple: Swap Control and Command keys on Apple keyboards
+         8c33e046097ed1f0eca6ec36dd30dc6bd2f90580 Merge branch 'for-6.2/apple' into for-next
          
