@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8088245317584588813=="
+Content-Type: multipart/mixed; boundary="===============7207113756666143095=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Mon, 14 Nov 2022 12:44:42 -0000
-Message-Id: <166842988233.22613.8991106772625594465@gitolite.kernel.org>
+Date: Mon, 14 Nov 2022 12:44:50 -0000
+Message-Id: <166842989094.22724.4246598601976786678@gitolite.kernel.org>
 
---===============8088245317584588813==
+--===============7207113756666143095==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,109 +16,142 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.4.y
-    old: e28170cba5a6840942aba741dc75c0eb5577f31f
-    new: eedd7327f4e6c650fd7d6c873e1662d29ed868d3
-    log: revlist-e28170cba5a6-eedd7327f4e6.txt
+  - ref: refs/heads/linux-5.10.y
+    old: 1a532e80900605ccfc2274c14f618e6e99f5ba5a
+    new: d59f46a55fcdeaab7337522c1c89553399bd1648
+    log: revlist-1a532e809006-d59f46a55fcd.txt
 
---===============8088245317584588813==
+--===============7207113756666143095==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1668429880 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1668429888 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1668429879-f4b8b58e72fce6fc0bc9ee062554344dfd1b474a
+nonce 1668429887-5dbf537c2e155451d4b6bb02def426437103dfc1
 
-e28170cba5a6840942aba741dc75c0eb5577f31f eedd7327f4e6c650fd7d6c873e1662d29ed868d3 refs/heads/linux-5.4.y
+1a532e80900605ccfc2274c14f618e6e99f5ba5a d59f46a55fcdeaab7337522c1c89553399bd1648 refs/heads/linux-5.10.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmNyODgbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+xrAQANUTYL8Q3/pCSUZOqCSQ
-+RUfDfJ3IUoenvKUJDxApKkUmUnepy85e7Dpl+bRzTDmwptjIxA52uZsv2cMokSF
-4D0Dmd8B4NWFfhqTIXxROqpQFMNQ1zoQoGoBq5PUIPgjNg+Y4As81RJ57qlqIjGU
-B0TTg1/s7oqh19JfFXXUHTiJCIhGbZ2EBUA5VG4ANleMpcy08ln3dHVBZizUfILw
-yVYvbUdIwUs8QFta6vLJl9e/J1+7M6Bca5j6Wtm9dRrVZnhizKt/l7m5+3edf7H2
-q/enH4pclcuwjN7m1TxFsA/DsyIboOjLQ93xf8ueTMvg3tCmGVzTEtK9vUmwY2f8
-R7RYus67Pot65BocT0yPG1qsAH6WRhIHvnaMvsau+oQeLShI4x7+JNMIu5XYR/ZJ
-1LMnxXfU2mQNKw8Y81l2trvOyigNXKD8Fi2md2LMf81PVhj9pNmY9O6OJPKQPywW
-DrhQzUy8fFxXqX5Xlisf4mppJUGE/v0t+jPnAb81CefxG7ErB2iKs4sKjjhETS5q
-5/4uMssX46WzTm7vMd6Tr6IrMtOL98Y7p1LqUOg6T3CnvcYFdhwE8FKBnmw549JL
-2T4HP7cqfOyAqMfrImyUj177bOm1ugoFX+Pyo+qvWFqb652jGLoVHCmMedw95Egh
-A002uEBmG1i05L+/fNcAP93z
-=8N7I
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmNyOEAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+mvYP/Rgz8GQmdjLBqF6HSMyD
+m/hTHQEuN/3YpLmgP/LddC8TchU597gspzMWdaxAu5WIunWgmfkASQgYGuwG9C8K
+KUaZiVy6TAwvrCBnUdR4MIrLGQ5O9kfNmedYakNshXaLXwLLvqjIk4cYfhd+4lf5
+FZrEV8D291u4u5sid2R6/jhMVZkChcUHeSl9R2RGan7VWhu8I9xs9LyRDBass0G6
+FK2PzMcv8KCsKxxQzU2iU1VAKZygksGc0FnSEZ+Iqz3pcEWouf1i2tPLWC5Cu8JQ
+G2erQGVoC1muCe/huA6n6IsqenXd+S8V6+kf3LtlmQXiyWRlbZ+BuePXxFLixdyw
+iB5Z6NnJiQbSTkkMeb2IMmqKDtc7qENCIstuiqMlZ0gPupqgHdlLCVy4gHEipQz+
+1po4vFSTiKqdVtaSSyFDB9d0awkS066nTx/JiRArVqTHBGOmblRfO1eoozFD+En8
+NtjrkfeQRBtHBCDFHneoLmmkdEvYX+zLNaT6kQ2NoDHlkyF2zJ62w9sEzOeYo8Gw
+hieBOojz4hsnZHOylG07KgZosO1Nxm8VjlY6/aCeaphcbplA+rKbkZjYhEicvMq+
+FgO+QVj263ZgemqmU2QKAg5KqPPpCBHlHVepmia/rXAIX65Xywl3TQ6rToI8OnY0
+8zQevYrSORwfBmSHbHP+iOPW
+=Hwx/
 -----END PGP SIGNATURE-----
 
---===============8088245317584588813==
+--===============7207113756666143095==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e28170cba5a6-eedd7327f4e6.txt
+Content-Disposition: attachment; filename=revlist-1a532e809006-d59f46a55fcd.txt
 
-478d361da806caeee01597d4ccda483e501a2ec9 xfs: preserve rmapbt swapext block reservation from freed blocks
-d5da3fb479287b28d22e10be91d5362b19b24005 xfs: rename xfs_bmap_is_real_extent to is_written_extent
-6757430c7f65eb2f6959630f2d6dee9a90802fe0 xfs: redesign the reflink remap loop to fix blkres depletion crash
-24716de7f3a6c043bd20853c48d14943744bb805 xfs: use MMAPLOCK around filemap_map_pages()
-73584cbc3ed810cac5daf7bb64193848bd036292 xfs: preserve inode versioning across remounts
-100df72dbcb29b52f73e3f8402f835016abaab01 xfs: drain the buf delwri queue before xfsaild idles
-7d5fc1cf887fbb0e18de0f4a69fcab51fc87d079 phy: stm32: fix an error code in probe
-796adcd4c36e55a27a2f9b651e7abb3179175c13 wifi: cfg80211: silence a sparse RCU warning
-1acb99a81627e34ae5ba7c3ef6624a57ced72819 wifi: cfg80211: fix memory leak in query_regdb_file()
-a8f92d05480b46c04ec1371d5d8db56a7345443b bpf, sockmap: Fix the sk->sk_forward_alloc warning of sk_stream_kill_queues
-bd249cd1ec39044aa6326f5694bed85448d24f97 HID: hyperv: fix possible memory leak in mousevsc_probe()
-6f6e81d36d56957605ff06aad19134a57b14a425 net: gso: fix panic on frag_list with mixed head alloc types
-b27f257d2ccbd37e85b1fb205005b1254613d982 net: tun: Fix memory leaks of napi_get_frags
-317bd9db1b59715f50fa39cbeb3df7bbdc718fb6 bnxt_en: Fix possible crash in bnxt_hwrm_set_coal()
-69fda1c6942c03f180f625c0abcee9458802e5e0 bnxt_en: fix potentially incorrect return value for ndo_rx_flow_steer
-bc33d5fdc845a40be2e197a3009cef0b75c3e9e4 net: fman: Unregister ethernet device on removal
-d60b468ce02d24bb584a9c29fcc88ced4a2faca8 capabilities: fix undefined behavior in bit shift for CAP_TO_MASK
-2ce8a685e34b61e87ac8211b879d5919d8c3b8ee net: lapbether: fix issue of dev reference count leakage in lapbeth_device_event()
-ca1f8939e990d993c065004bec316018e97a89f4 hamradio: fix issue of dev reference count leakage in bpq_device_event()
-b4ec1991792315d033c252236977f070ef51a0dc drm/vc4: Fix missing platform_unregister_drivers() call in vc4_drm_register()
-cbfe53ee886285fc80be04d73f34a204e000fe9f ipv6: addrlabel: fix infoleak when sending struct ifaddrlblmsg to network
-703e270f1ee3fb9a7d31070bfc881178330d8f32 can: af_can: fix NULL pointer dereference in can_rx_register()
-3aae452d2f3703a060e92e3facaeb2e138cb1041 tipc: fix the msg->req tlv len check in tipc_nl_compat_name_table_dump_header
-f3d3acfc8459aa7d4d15fbef4faef5c5696c4fa4 dmaengine: pxa_dma: use platform_get_irq_optional
-35e2acdc738bcb45871573311c0106fa90b188a4 dmaengine: mv_xor_v2: Fix a resource leak in mv_xor_v2_remove()
-0f3250d85fdc911bdfae535affd43ce36acb759e drivers: net: xgene: disable napi when register irq failed in xgene_enet_open()
-7cf87b0d02935aad8f3905858fd631a66d5935bc perf stat: Fix printing os->prefix in CSV metrics output
-71793dcac2b106333e945227f39a024f13e55cd9 net: nixge: disable napi when enable interrupts failed in nixge_open()
-08db05687f9f6542d8d6a59bfa41707da9216013 net/mlx5: Allow async trigger completion execution on single CPU systems
-593069280838519fec1de5cb87edf49dce2c158b net: cpsw: disable napi in cpsw_ndo_open()
-1399678dc794206d2754783d571f1e28b00e3663 net: cxgb3_main: disable napi when bind qsets failed in cxgb_up()
-b6665b55d7f725c767fc318c66b90047563cf948 cxgb4vf: shut down the adapter when t4vf_update_port_info() failed in cxgb4vf_open()
-852dcde05dd69268ad19456b634104c337d733e6 ethernet: s2io: disable napi when start nic failed in s2io_card_up()
-e7455a94e4786e32d33e475b78c9e639067ea23d net: mv643xx_eth: disable napi when init rxq or txq failed in mv643xx_eth_open()
-15ba2760ab39dd0fdc49ce3b426239110708e6ab ethernet: tundra: free irq when alloc ring failed in tsi108_open()
-efbef773dfe44b0b3b66a3f40f14aa1046b7b24c net: macvlan: fix memory leaks of macvlan_common_newlink
-c3c0c2ea2eb29f98c9cc5ad027f6b057b3bce207 riscv: process: fix kernel info leakage
-bb886fa5c1dcbe70f76d0ad09b366e87f221ec3b arm64: efi: Fix handling of misaligned runtime regions and drop warning
-07e00ecb2e56269d2362e5db5bc982cf06348c34 MIPS: jump_label: Fix compat branch range check
-a2384c105fb50d1f4957032e494bbeb6ca8e4719 mmc: cqhci: Provide helper for resetting both SDHCI and CQHCI
-1c43d683f7a3ee16ae66bca60a4ca250cf6c7b69 mmc: sdhci-of-arasan: Fix SDHCI_RESET_ALL for CQHCI
-155688f661fcd26a7ff3ea740d65a905efd92fa7 mmc: sdhci-tegra: Fix SDHCI_RESET_ALL for CQHCI
-a4c7ddcc5e8b22adc1b0ad0665e2a8e0cfe91ba5 ALSA: hda/ca0132: add quirk for EVGA Z390 DARK
-296f6550ef6d24f8c27d3a2d82f767c1e7bd026d ALSA: hda: fix potential memleak in 'add_widget_node'
-735bf4bb0a15448b38c188602cb8ac10a3960075 ALSA: usb-audio: Add quirk entry for M-Audio Micro
-422293177273d2232e8458ea3a782267ee3933e5 ALSA: usb-audio: Add DSD support for Accuphase DAC-60
-559e8d2970d1d1469f5dc5c524218ca9eebae3a9 vmlinux.lds.h: Fix placement of '.data..decrypted' section
-a4eb4980db343224768b51b12628ed730b4bcda3 nilfs2: fix deadlock in nilfs_count_free_blocks()
-a0a41c530ea464702be0e9d069b70868861df1f9 nilfs2: fix use-after-free bug of ns_writer on remount
-6c9de7ac46d3e3bdaa90ca034e7cd7b18dded281 drm/i915/dmabuf: fix sg_table handling in map_dma_buf
-ede76c2751581c604fab64adb2a49ec8c300e9ab platform/x86: hp_wmi: Fix rfkill causing soft blocked wifi
-2d8f9bbe62ac9077e849c3ade0e20fcc00cf9500 btrfs: selftests: fix wrong error check in btrfs_free_dummy_root()
-4c1326be610aa4c1fd1fc2ab921bf6caaac5793c udf: Fix a slab-out-of-bounds write bug in udf_find_entry()
-eeb73d2a514d5dfc1a660fbb3ab88ca7ae657ad7 can: j1939: j1939_send_one(): fix missing CAN header initialization
-e30b8c30ff34b28cf94d6c8f73208e7c10349eca cert host tools: Stop complaining about deprecated OpenSSL functions
-6126127bbf67a06a09bcdb429718494b49710220 dmaengine: at_hdmac: Fix at_lli struct definition
-5e52386a29bc70f69e2dadbe455182ef0467c18a dmaengine: at_hdmac: Don't start transactions at tx_submit level
-78d63a0607045dc1b5180962547d7f430eae4773 dmaengine: at_hdmac: Fix completion of unissued descriptor in case of errors
-5a0aaccceee5281755feac181dfebedf55c2d3af dmaengine: at_hdmac: Don't allow CPU to reorder channel enable
-1e0fa4be40589360faf6e7588f8be6a994973f62 dmaengine: at_hdmac: Fix impossible condition
-0bd350cfb4e42038241b44fb17d8ef2e6437df53 dmaengine: at_hdmac: Check return code of dma_async_device_register
-9f3094a92a90f007502ef3789f73d9002dd2e516 net: tun: call napi_schedule_prep() to ensure we own a napi
-eedd7327f4e6c650fd7d6c873e1662d29ed868d3 Linux 5.4.225-rc1
+f9a95c1986bd8d89a511fc8c5ee0f4b65dbdbc6b fuse: fix readdir cache race
+692bd3a632ba6249a1525963741783f0de1b29a3 hwspinlock: qcom: correct MMIO max register for newer SoCs
+4dc12fff7a959873ac2438bf2ea0914b3cff59e9 phy: stm32: fix an error code in probe
+898e46badc53527e62960e51dfe6d8482b6b6055 wifi: cfg80211: silence a sparse RCU warning
+5e67b61a253e067f7f525d7ba2507fed42ef5685 wifi: cfg80211: fix memory leak in query_regdb_file()
+4195aa399a13e76dba6cff42da34787bf62f1804 bpf, sockmap: Fix the sk->sk_forward_alloc warning of sk_stream_kill_queues
+61178cf250c9cd2bcce9330c72c2ba5f2f81ba1e bpftool: Fix NULL pointer dereference when pin {PROG, MAP, LINK} without FILE
+60b7780e0735a2a3ba94d50875c359a0a0bf7d32 HID: hyperv: fix possible memory leak in mousevsc_probe()
+f1121540c32fa05d79ca55bfbae8cb6899232bbf bpf: Support for pointers beyond pkt_end.
+652d452206aea8ec81a27d602958e0a92ff459ab bpf: Add helper macro bpf_for_each_reg_in_vstate
+1f6fa9a4eed1c38cc9d38f89e0464bb36d02b0aa bpf: Fix wrong reg type conversion in release_reference()
+7b32f9b2f197e17a81993eb4e576fa8c3dfeee5c net: gso: fix panic on frag_list with mixed head alloc types
+c5a6e1f8a6080f5a3d3a52aa74fad3ad21016862 macsec: delete new rxsc when offload fails
+ae540b2840d6ef5a50776d5e9e95c55f621ffba2 macsec: fix secy->n_rx_sc accounting
+bd5232b08154e067d84e4186ceb5db1983c7f4fe macsec: fix detection of RXSCs when toggling offloading
+91ef7f08145f9e612e54a65827dd126ef46b6a86 macsec: clear encryption keys from the stack after setting up offload
+3ca84f701694d595139cde1b468d4b09f68920cb net: tun: Fix memory leaks of napi_get_frags
+2d0df758ee3c7ebea854c7132d7f5b5228c053f4 bnxt_en: Fix possible crash in bnxt_hwrm_set_coal()
+6cefc3eb3b5810c6fbb8602f2fe75998d7571bae bnxt_en: fix potentially incorrect return value for ndo_rx_flow_steer
+c3ef334fb45a0b3f0d916ff27c18f9f09c2781cc net: fman: Unregister ethernet device on removal
+763d363813a54186738ab78e8222458cdb5450fc capabilities: fix undefined behavior in bit shift for CAP_TO_MASK
+4759b22b74be631a023d3eec7eb42d126fcdfd31 KVM: s390x: fix SCK locking
+94a872092f3f1901e4f9a6253ec2ef47e8a550af KVM: s390: pv: don't allow userspace to set the clock under PV
+93bae49788d9b8b0e68b38d425b9bd1f808ffd2d net: lapbether: fix issue of dev reference count leakage in lapbeth_device_event()
+e9dbdee9a73a109271c56430c5f4225d9087464b hamradio: fix issue of dev reference count leakage in bpq_device_event()
+77fb4fa8919c062f6d104fd2f952bbb1bf17d569 drm/vc4: Fix missing platform_unregister_drivers() call in vc4_drm_register()
+dda57d068e07a2ff2d449d4b1235b27aef64ebc1 tcp: prohibit TCP_REPAIR_OPTIONS if data was already sent
+d5927873ac437f2bb4ff443114890b3be7466926 ipv6: addrlabel: fix infoleak when sending struct ifaddrlblmsg to network
+caebaf14ef1bd26d2ebc42c97a1ad46b2a5bae4e can: af_can: fix NULL pointer dereference in can_rx_register()
+c1f31112854c15cd9c567459cdf45466f59cdf51 net: stmmac: dwmac-meson8b: fix meson8b_devm_clk_prepare_enable()
+12520cf420ccf17ea47cbd832412ce93ab7b183b net: broadcom: Fix BCMGENET Kconfig
+b3ef2b46c97e5d7d68e3e97db1153dead5fd34a5 tipc: fix the msg->req tlv len check in tipc_nl_compat_name_table_dump_header
+b67427b2e9418d066aa15fe362e5de641db603b2 dmaengine: pxa_dma: use platform_get_irq_optional
+3e3e7d3ee01a1e377e7548a3c4999dbbe466766b dmaengine: mv_xor_v2: Fix a resource leak in mv_xor_v2_remove()
+293d296c6b84123b6e93456c58b6dc7c45fe9265 drivers: net: xgene: disable napi when register irq failed in xgene_enet_open()
+457853b6fd17575873b0d827ed96b5bb9697b509 perf stat: Fix printing os->prefix in CSV metrics output
+d79c770ba7efd5f86deb59bdea3326e7960ad8b3 net: marvell: prestera: fix memory leak in prestera_rxtx_switch_init()
+5db1a49d3a78464efcc25e04d1c410ff63860418 net: nixge: disable napi when enable interrupts failed in nixge_open()
+fd1e4d38850bb4bbd3d624ff7f5455d303cb53e2 net/mlx5: Allow async trigger completion execution on single CPU systems
+c32f3b5217c68f5e69d854f1cf0f244ef232bc35 net/mlx5e: E-Switch, Fix comparing termination table instance
+dd867abd29d3891ec111083092f2612afd452f14 net: cpsw: disable napi in cpsw_ndo_open()
+8772f3e93fc9fb2117baad8a354db29334d9e4aa net: cxgb3_main: disable napi when bind qsets failed in cxgb_up()
+14d791859169bb1cb3b5eef3c10b029156e217d2 cxgb4vf: shut down the adapter when t4vf_update_port_info() failed in cxgb4vf_open()
+2fc6f777bf4ca66ed0cbb16824117b2ae6fcd871 net: phy: mscc: macsec: clear encryption keys when freeing a flow
+2a4d5e27475f62b7c15107118229363e151b6146 net: atlantic: macsec: clear encryption keys from the stack
+4b7119e7e206fa73f24c1a7cc5a0629d61949a14 ethernet: s2io: disable napi when start nic failed in s2io_card_up()
+43ae665a945ff7b2a99d6f51c8dbfec2b42dc300 net: mv643xx_eth: disable napi when init rxq or txq failed in mv643xx_eth_open()
+1d48aa06be953eba835cb98a5bd0a4cd5d426840 ethernet: tundra: free irq when alloc ring failed in tsi108_open()
+c76f4ce98adf36b19242871cc78bb4c070da3f48 net: macvlan: fix memory leaks of macvlan_common_newlink
+0cb237f8b38b302ba6b51b158802e1a480db9af1 riscv: process: fix kernel info leakage
+3442ef2c21a14252814cd65f8be0919bce8dd26a riscv: vdso: fix build with llvm
+1af1420196967b39faae50a2eb68969094dff871 riscv: Enable CMA support
+e87700b3fb9e96b3baacfb7ffb2ef926d6c6c471 riscv: Separate memory init from paging init
+eca457b1d7d57bd7b677f60fac20c776134b4a1f riscv: fix reserved memory setup
+064b88603e57777a0980859a01f6b96213c4ec9c arm64: efi: Fix handling of misaligned runtime regions and drop warning
+e6d2eb4a12659e96e3a831765da67d8a5b93e441 MIPS: jump_label: Fix compat branch range check
+cbef61efcdcc7429e973d3dcc7c1502ecc778f7a mmc: cqhci: Provide helper for resetting both SDHCI and CQHCI
+238fc849a951f4e81463cff6c729ecc6eb1c5f75 mmc: sdhci-of-arasan: Fix SDHCI_RESET_ALL for CQHCI
+91c2d17b24165f2c89e954e069454c00a889f4c0 mmc: sdhci_am654: Fix SDHCI_RESET_ALL for CQHCI
+a53a0479d542425693c1177966d0325c3cfeb816 mmc: sdhci-tegra: Fix SDHCI_RESET_ALL for CQHCI
+4825353ab442beaea4db9f869f13a21a567cb19e ALSA: hda/hdmi - enable runtime pm for more AMD display audio
+35e71c4674c33a7c3a51364fa11319d2801e2d5a ALSA: hda/ca0132: add quirk for EVGA Z390 DARK
+e6003c9b39462a417c8989bff7c43216f69885e3 ALSA: hda: fix potential memleak in 'add_widget_node'
+e2eea91f97f79ba3ba80c05c9e8d2f29073f4fa1 ALSA: hda/realtek: Add Positivo C6300 model quirk
+31fbb7b7499c4db6eeb646ab80d1feda25d8c7cd ALSA: usb-audio: Add quirk entry for M-Audio Micro
+1929c5067e9755a622ac760672861ae3b64099b3 ALSA: usb-audio: Add DSD support for Accuphase DAC-60
+0cb46e11ac74f14be3d9c63468ea5235dbfaa540 vmlinux.lds.h: Fix placement of '.data..decrypted' section
+e01b42adb16c6ab008c5382d24b86890fed8214f ata: libata-scsi: fix SYNCHRONIZE CACHE (16) command failure
+54617b3a1b77848771d60e6ac5530f96c775ac53 nilfs2: fix deadlock in nilfs_count_free_blocks()
+7d9c115a8688dc04ed7698f126dd892e3dfc848e nilfs2: fix use-after-free bug of ns_writer on remount
+f2557f4cc6eceb92a104f2c8fe08e51795942e65 drm/i915/dmabuf: fix sg_table handling in map_dma_buf
+5668703f6be297b83221493957f2bef621be8e58 platform/x86: hp_wmi: Fix rfkill causing soft blocked wifi
+620bc8c857933d3db309489fabe030016857b0b0 btrfs: selftests: fix wrong error check in btrfs_free_dummy_root()
+021ec934ad8a2efca648a13bb2962169c5b3c401 mms: sdhci-esdhc-imx: Fix SDHCI_RESET_ALL for CQHCI
+bc4d54b75460139de2b737b6c61064c84bd103e1 udf: Fix a slab-out-of-bounds write bug in udf_find_entry()
+6accd48c4f92715300272f0ad5d9c14b277c7305 mm/memremap.c: map FS_DAX device memory as decrypted
+0a3b50e3343d97896eb2d1df38436c172c58d323 can: j1939: j1939_send_one(): fix missing CAN header initialization
+9913e178e5ce41088f2f3fa125aa27d4209e63c5 cert host tools: Stop complaining about deprecated OpenSSL functions
+31a67b3cca7fc863b857f425a1e04a6d2947b9c5 dmaengine: at_hdmac: Fix at_lli struct definition
+21222cb586720b88a77e40f1015394d507fea518 dmaengine: at_hdmac: Don't start transactions at tx_submit level
+4b5abf9b0372bc39f2880594cb4d89a3f8885070 dmaengine: at_hdmac: Start transfer for cyclic channels in issue_pending
+bc19a118e13ef18880f901e2a4f05e60208df301 dmaengine: at_hdmac: Fix premature completion of desc in issue_pending
+bf32ab7f2f42c8174c68c938f4f72a3c3628d299 dmaengine: at_hdmac: Do not call the complete callback on device_terminate_all
+ed641f2905b624e8b42475647fd330ee90c3a003 dmaengine: at_hdmac: Protect atchan->status with the channel lock
+8f5b9a2047e9f6e4cdaed90be77c68f422a0a981 dmaengine: at_hdmac: Fix concurrency problems by removing atc_complete_all()
+0fb0a2d11894bcc7e96324231bdd56b2c2d2e889 dmaengine: at_hdmac: Fix concurrency over descriptor
+cacd78a2764682da66c1125366b533afce0fd6e6 dmaengine: at_hdmac: Free the memset buf without holding the chan lock
+8d6ff9cd0f944ff302ad7e9a92fa825858115c03 dmaengine: at_hdmac: Fix concurrency over the active list
+cfe8f96007971356f6cd024429ae4be5a085aca6 dmaengine: at_hdmac: Fix descriptor handling when issuing it to hardware
+046c10b72b37b46998d30f5888e02c777538049d dmaengine: at_hdmac: Fix completion of unissued descriptor in case of errors
+0ac185d91cf92e2717afa05f819ead84266e104f dmaengine: at_hdmac: Don't allow CPU to reorder channel enable
+d66919c679645e344f1c912cdfb65b502f26a371 dmaengine: at_hdmac: Fix impossible condition
+f1ad14dff6032d8fe8b5bff4ac587b32887a3382 dmaengine: at_hdmac: Check return code of dma_async_device_register
+5d2033be0b3923af6183e0d8f811e74fb1e226bf net: tun: call napi_schedule_prep() to ensure we own a napi
+f9632f31c849d2d8b807dc0381617a1b8e97b4d2 mmc: sdhci-esdhc-imx: Convert the driver to DT-only
+d59f46a55fcdeaab7337522c1c89553399bd1648 Linux 5.10.155-rc1
 
---===============8088245317584588813==--
+--===============7207113756666143095==--
