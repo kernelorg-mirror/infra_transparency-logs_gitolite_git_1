@@ -1,23 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ribalda/linux
-Date: Mon, 14 Nov 2022 12:21:06 -0000
-Message-Id: <166842846639.5317.8623447273059732295@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xen/tip
+Date: Mon, 14 Nov 2022 12:29:42 -0000
+Message-Id: <166842898251.11230.15351558746269099614@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ribalda/linux
-user: ribalda
+repo: pub/scm/linux/kernel/git/xen/tip
+user: jgross
 changes:
-  - ref: refs/heads/b4/i2c-waive
-    old: 8079001213fe5d73c6bb866bd77cbbfb4354c898
-    new: 4f932a739f9695d6c5a4326df26ec9f49dda6d53
+  - ref: refs/heads/linux-next
+    old: 4bff677b30156435afa2cc4c3601b542b4ddd439
+    new: c53717e1e3f0d0f9129b2e0dbc6dcc5e0a8132e9
     log: |
-         2d95a6fb1df2d5d64cbfd37bd793a2e3091cf8bb i2c: Restore power status of device if probe fails
-         4f932a739f9695d6c5a4326df26ec9f49dda6d53 i2c: Restore initial power state if probe fails
+         639b2e2ff1e850eb4e8853b4dc233875108eec4b x86/xen: Use kstrtobool() instead of strtobool()
+         da36a2a76b01b210ffaa55cdc2c99bc8783697c5 xen/pcpu: fix possible memory leak in register_pcpu()
+         5e29500eba2aa19e1323df46f64dafcd4a327092 xen-pciback: Allow setting PCI_MSIX_FLAGS_MASKALL too
+         c53717e1e3f0d0f9129b2e0dbc6dcc5e0a8132e9 xen/platform-pci: add missing free_irq() in error path
          
-  - ref: refs/tags/sent/i2c-waive-v6
-    old: 0000000000000000000000000000000000000000
-    new: 6ef12a663796fc2097174a9622d5c0c0df831c0a
