@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6461888484560075521=="
+Content-Type: multipart/mixed; boundary="===============5071515448434308675=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/fs/xfs/xfs-linux
-Date: Mon, 14 Nov 2022 18:38:06 -0000
-Message-Id: <166845108688.19067.12387663276657167904@gitolite.kernel.org>
+Date: Mon, 14 Nov 2022 18:42:44 -0000
+Message-Id: <166845136495.22262.16902626044602779473@gitolite.kernel.org>
 
---===============6461888484560075521==
+--===============5071515448434308675==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,20 +15,28 @@ service: git-receive-pack
 repo: pub/scm/fs/xfs/xfs-linux
 user: djwong
 changes:
-  - ref: refs/heads/iomap-for-next
-    old: adc9c2e5a723052de4f5bd7e3d6add050ba400e1
-    new: f1bd37a4735286585751dbd9db330b48525cb193
-    log: revlist-adc9c2e5a723-f1bd37a47352.txt
-  - ref: refs/tags/iomap-6.2-merge-1
+  - ref: refs/heads/for-next
+    old: 4eb559dd15671cca355a61a4164e8f19e3952637
+    new: eab06d36b0ac5d0fa1a23b52d9f61690b370308c
+    log: revlist-4eb559dd1567-eab06d36b0ac.txt
+  - ref: refs/tags/xfs-6.2-merge-1
     old: 0000000000000000000000000000000000000000
-    new: ad24e7a180922442d595df4e493b31c429a55536
+    new: 2b5dc9a268e157f63ef7c2b2212fb05d6e061a99
 
---===============6461888484560075521==
+--===============5071515448434308675==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-adc9c2e5a723-f1bd37a47352.txt
+Content-Disposition: attachment; filename=revlist-4eb559dd1567-eab06d36b0ac.txt
 
+76dd298094f484c6250ebd076fa53287477b2328 blk-mq: fix null pointer dereference in blk_mq_clear_rq_mapping()
+5c61795ea97c170347c5c4af0c159bd877b8af71 io_uring/rw: remove leftover debug statement
+979556f1521a835a059de3b117b9c6c6642c7d58 ata: ahci-imx: Fix MODULE_ALIAS
+1e41e693f458eef2d5728207dbd327cd3b16580a ata: ahci: Match EM_MAX_SLOTS with SATA_PMP_MAX_PORTS
+ce4b815686573bef82d5ee53bf6f509bf20904dc erofs: protect s_inodes with s_inode_list_lock for fscache
+0dec4d2f2636b9e54d9d29f17afc7687c5407f78 iio: light: tsl2583: Fix module unloading
+7578847b5949db3a75163908bd99c46d27e8b19f iio: adc: mcp3911: fix sizeof() vs ARRAY_SIZE() bug
+a83695a666eb3541873c3c9734ec4e1d10ca2d7f iio: adc: mcp3911: return proper error code on failure to allocate trigger
 815f1647a603a822d66630bbe22cab4bc097c8c3 iio: adc: mcp3911: use correct id bits
 aa6c77d05eb1c57ee5b95a7b83a39384c37df4d9 iio: adc: mcp3911: mask out device ID in debug prints
 174dac5dc800e4e2e4552baf6340846a344d01a3 iio: adc: stm32-adc: fix channel sampling time init
@@ -171,7 +179,6 @@ afd41fff9c73ccc3757e94ad727d2a9ac4d7f6cb dm verity: enable WQ_HIGHPRI on verify_
 dc3efedf9f7b802d0817183020ed01cb0c120fe8 dm verity: Add documentation for try_verify_in_tasklet option
 99f4f5bcb975527508eb7a5e3e34bdb91d576746 dm: remove unnecessary assignment statement in alloc_dev()
 5434ee8d28575b2e784bd5b4dbfc912e5da90759 dm clone: Fix typo in block_device format specifier
-97cf79677ecb50a38517253ae2fd705849a7e51a xfs: avoid a UAF when log intent item recovery fails
 a635beeacc6d56d2b71c39e6c0103f85b53d108e tracing/histogram: Update document for KEYS_MAX size
 65f8682b9aaae20c2cdee993e6fe52374ad513c9 drm/amdgpu: set vm_update_mode=0 as default for Sienna Cichlid in SRIOV case
 afbaa15501125ae0b7de9dd16c6f00c85de14218 Revert "drm/amdgpu: add debugfs amdgpu_reset_level"
@@ -278,10 +285,6 @@ b5f1fc3184405ab955db1b86d41d8b744d07c12d x86/ftrace: Remove ftrace_epilogue()
 883bbbffa5a4ffd1915f8b42934dab81b7f87226 ftrace,kcfi: Separate ftrace_stub() and ftrace_stub_graph()
 b329f5ddc9ce4b622d9c7aaf5c6df4de52caf91a perf/x86/intel/lbr: Use setup_clear_cpu_cap() instead of clear_cpu_cap()
 9fa248c65bdbf5af0a2f74dd38575acfc8dfd2bf fuse: fix readdir cache race
-13cf24e00665c9751951a422756d975812b71173 xfs: fix exception caused by unexpected illegal bestcount in leaf dir
-fc93812c725068e6a491ce574f058a4530130c00 xfs: remove redundant pointer lip
-cf4f4c12dea7a977a143c8fe5af1740b7f9876f8 xfs: fix memory leak in xfs_errortag_init
-d08af40340cad0e025d643c3982781a8f99d5032 xfs: Fix unreferenced object reported by kmemleak in xfs_sysfs_init()
 21a1994b6492b12e55dbf39d15271430ef6839f0 rv/dot2c: Make automaton definition static
 fdf23c62d98cda1d8935259dc7da3cc830a4bc6c i2c: fix spelling typos in comments
 23722fb46725da42b80bc55a91a9bac69e35188a coresight: Fix possible deadlock with lock dependency
@@ -604,7 +607,6 @@ e9229d5b6254a75291536f582652c599957344d2 perf vendor events arm64: Fix incorrect
 f78961f8380b940e0cfc7e549336c21a2ad44f4d usb: dwc3: gadget: Stop processing more requests on IMI
 308c316d16cbad99bb834767382baa693ac42169 usb: dwc3: gadget: Don't set IMI for no_interrupt
 98555239e4c3aab1810d84073166eef6d54eeb3d Merge tag 'arc-6.1-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vgupta/arc
-e07ee6fe21f47cfd72ae566395c67a80e7c66163 xfs: increase rename inode reservation
 d61e1d1d5225a9baeb995bcbdb904f66f70ed87e drm/amdgpu: disallow gfxoff until GC IP blocks complete s2idle resume
 649179e512f79f8d07ef244ab8793e351d069199 Merge tag 'renesas-clk-fixes-for-v6.1-tag1' of git://git.kernel.org/pub/scm/linux/kernel/git/geert/renesas-drivers into clk-fixes
 a2718383ef9d9dcba90212531909aa4c8ab31c0c Merge tag 'spi-fix-v6.1-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
@@ -847,30 +849,7 @@ d372ec94a018c3a19dad71e2ee3478126394d9fc drm/i915: Simplify intel_panel_add_edid
 943f45b9399ed8b2b5190cbc797995edaa97f58f blk-mq: Fix kmemleak in blk_mq_init_allocated_queue
 2b6ae0962b421103feb41a80406732944b0665b3 parisc: Avoid printing the hardware path twice
 063b1f21cc9be07291a1f5e227436f353c6d1695 btrfs: fix a memory allocation failure test in btrfs_submit_direct
-47ba8cc7b4f82c927cec3ad7c7392e4c45c81c56 xfs: fix incorrect return type for fsdax fault handlers
 8184620ae21213d51eaf2e0bd4186baacb928172 btrfs: fix lost file sync on direct IO write with nowait and dsync iocb
-59da7ff49d67a1b63b1b81c7f53dcb6a84cdad2b xfs: fix validation in attr log item recovery
-a38ebce1da271f480e47c3def4f810c6106b74a1 xfs: fix memcpy fortify errors in BUI log format copying
-a38935c03c7914a6ab22eefb750b259868ed5a4b xfs: fix memcpy fortify errors in CUI log format copying
-b45ca961e94673df83ab1900802afe82776966e6 xfs: fix memcpy fortify errors in RUI log format copying
-f850995f60e49818093ef5e477cdb0ff2c11a0a4 xfs: make sure aglen never goes negative in xfs_refcount_adjust_extents
-03a7485cd701e1c08baadcf39d9592d83715e224 xfs: fix memcpy fortify errors in EFI log format copying
-b65e08f83b119ae9345ed23d4da357a72b3cb55c xfs: create a predicate to verify per-AG extents
-3c5aaaced99912c9fb3352fc5af5b104df67d4aa xfs: refactor all the EFI/EFD log item sizeof logic
-8edbe0cf8b4bbe2cf47513998641797b0aca8ee2 xfs: check deferred refcount op continuation parameters
-921ed96b4f4e3bd19da7f775f39234226e6647e7 xfs: actually abort log recovery on corrupt intent-done log items
-9e7e2436c159490fbbadbc4b5a4ee6bc30dae02e xfs: move _irec structs to xfs_types.h
-950f0d50ee7138d7e631aefea8528d485426eda6 xfs: dump corrupt recovered log intent items to dmesg consistently
-5a8c345ca8b99a9f54b89991f2f6a20521cb05f4 xfs: refactor refcount record usage in xchk_refcountbt_rec
-9a50ee4f8db6e4dd0d8d757b7adaf0591776860a xfs: track cow/shared record domains explicitly in xfs_refcount_irec
-571423a162cd86acb1b010a01c6203369586daa6 xfs: report refcount domain in tracepoints
-f492135df0aa0417337f9b8b1cc6d6a994d61d25 xfs: refactor domain and refcount checking
-68d0f389179a52555cfd8fa3254e4adcd7576904 xfs: remove XFS_FIND_RCEXT_SHARED and _COW
-f62ac3e0ac33d366fe81e194fee81de9be2cd886 xfs: check record domain when accessing refcount records
-f1fdc8207840672a46f26414f2c989ec078a153b xfs: fix agblocks check in the cow leftover recovery function
-c1ccf967bf962b998f0c096e06a658ece27d10a0 xfs: fix uninitialized list head in struct xfs_refcount_recovery
-8b972158afcaa66c538c3ee1d394f096fcd238a8 xfs: rename XFS_REFC_COW_START to _COWFLAG
-9f187ba0d5170b242561133724188142b62dc34c Merge tag 'fix-log-recovery-misuse-6.1_2022-10-31' of git://git.kernel.org/pub/scm/linux/kernel/git/djwong/xfs-linux into xfs-6.1-fixes
 7a2726ec3290c52f52ce8d5f5af73ab8c7681bc1 KVM: Check KVM_CAP_DIRTY_LOG_{RING, RING_ACQ_REL} prior to enabling them
 78a089d033bf71d68d978ac4cc73070f3e71c736 Merge tag 'lsm-pr-20221031' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/lsm
 5aaef24b5c6d4246b2cac1be949869fa36577737 Merge tag 'for-6.1-rc3-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
@@ -899,7 +878,6 @@ ff52fe006fdeacee49745dabed26154db52a6343 drm/imx: Kconfig: Remove duplicated 'se
 fc007fb815ab5395c3962c09b79a1630b0fbed9c drm/imx: imx-tve: Fix return type of imx_tve_connector_mode_valid
 4151bb636acf32bb2e6126cec8216b023117c0e9 KVM: arm64: Fix SMPRI_EL1/TPIDR2_EL0 trapping on VHE
 6c412da54c80a54b1a8b7f89677f6e82f0fabec4 sfc: Fix an error handling path in efx_pci_probe()
-4eb559dd15671cca355a61a4164e8f19e3952637 Merge tag 'refcount-cow-domain-6.1_2022-10-31' of git://git.kernel.org/pub/scm/linux/kernel/git/djwong/xfs-linux into xfs-6.1-fixesA
 a6dd6f39008bb3ef7c73ef0a2acc2a4209555bd8 x86/tdx: Prepare for using "INFO" call for a second purpose
 024f4b2e1f874934943eb2d3d288ebc52c79f55c arm64: entry: avoid kprobe recursion
 d79dcde0bc413efd35dd7eabe2d5eed34ec6deb0 Merge tag 'linux-watchdog-6.1-rc4' of git://www.linux-watchdog.org/linux-watchdog
@@ -1052,6 +1030,28 @@ f6f5204727b9b1f3c6e9c90b5b09f40c6e0102f5 Merge tag 'x86_urgent_for_v6.1_rc4' of 
 aa52994915dca444dbb8e6b91eb82b749ba7a1ec Merge tag 'hwmon-for-v6.1-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/groeck/linux-staging
 16c7a368c8ba9aba3b0e0ae5ec0a64be9fb45665 Merge tag 'cxl-fixes-for-6.1-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/cxl/cxl
 f0c4d9fc9cc9462659728d168387191387e903cc Linux 6.1-rc4
-f1bd37a4735286585751dbd9db330b48525cb193 iomap: directly use logical block size
+7cecd500d90164419add650e26cc1de03a7a66cb xfs: fix sb write verify for lazysbcount
+d9edd4209c007eab424b6d3b6540c0ee1c118e26 xfs: fully initialize xfs_da_args in xchk_directory_blocks
+41ed0096fe28855f70244a11a62b7592a4d4572f xfs: don't track the AGFL buffer in the scrub AG context
+b6fe5ce07044284e13a509c667334e6422146156 xfs: log the AGI/AGF buffers when rolling transactions during an AG repair
+e11cbc59fc476ae64289acfd9a17d697778fd1e3 xfs: make AGFL repair function avoid crosslinked blocks
+f0609db1e65d57ac7ea74e76408849a04f48172e xfs: standardize GFP flags usage in online scrub
+3e561e5d9e9ed98479afda60ec9c8c30a6f86e34 xfs: initialize the check_owner object fully
+b0a3c53255a9767354d54b00daf22c58b2b56b61 xfs: pivot online scrub away from kmem.[ch]
+d2bf05bbc2e047ca331dee11dbe9de8651645c58 xfs: return EINTR when a fatal signal terminates scrub
+5440e1f2553c2a3b4210f6c9d2d005df0cbb0dd5 xfs: fix return code when fatal signal encountered during dquot scrub
+d7a74d930c33c59b1f9a2f23670c3c887ee97121 xfs: don't retry repairs harder when EAGAIN is returned
+c946cf092eda4f8b9d1c8254383106d2d7bbcff8 xfs: load rtbitmap and rtsummary extent mapping btrees at mount time
+5be117cd84624ec1bc91559e0df2e0f6ad76ae43 xfs: make rtbitmap ILOCKing consistent when scanning the rt bitmap file
+929b24984cf57dfaf643452d7fd8f5f8a2969159 xfs: skip fscounters comparisons when the scan is incomplete
+eabd0e9657106dc2abcfc8ae6f35218581fe70bd xfs: online checking of the free rt extent count
+64b1fd1cb7aeac8c691f181df1988d86a4dbd10c xfs: fix perag loop in xchk_bmap_check_rmaps
+4898b3d4d18fe9d92fe45a424fe8c57b4f07046a xfs: teach scrub to check for adjacent bmaps when rmap larger than bmap
+58dab0d4cfe3e0cdcebe1c1a86ed27432f3b94e7 xfs: block map scrub should handle incore delalloc reservations
+340e2a33cf17720b2d8590d1d22fb5be4e555628 xfs: check quota files for unwritten extents
+433b8bbe35d44969f660df0678bdec6ba7316b20 xfs: check that CoW fork extents are not shared
+1064c4c1de60afac7e285981d42ae9d97ca46a50 xfs: teach scrub to flag non-extents format cow forks
+4f7fc3981aaf8b9307096790f1afecdf9b822a2a xfs: fix incorrect error-out in xfs_remove
+eab06d36b0ac5d0fa1a23b52d9f61690b370308c xfs: Print XFS UUID on mount and umount events.
 
---===============6461888484560075521==--
+--===============5071515448434308675==--
