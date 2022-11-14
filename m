@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3402864486837240842=="
+Content-Type: multipart/mixed; boundary="===============3718116575005927484=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Mon, 14 Nov 2022 12:32:19 -0000
-Message-Id: <166842913976.13797.6907891119972324392@gitolite.kernel.org>
+Date: Mon, 14 Nov 2022 12:34:49 -0000
+Message-Id: <166842928992.14744.8084974298633468094@gitolite.kernel.org>
 
---===============3402864486837240842==
+--===============3718116575005927484==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,74 +17,74 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/linux-4.9.y
-    old: 955325f35018fa3486e1082a3d8d4124e9e36551
-    new: 0135cbf8f4247a0c0dbcdd0d4c587d83b252c409
-    log: revlist-955325f35018-0135cbf8f424.txt
+    old: 0135cbf8f4247a0c0dbcdd0d4c587d83b252c409
+    new: 34a606409f1e979a7feba6e0907e7a42428ff438
+    log: revlist-0135cbf8f424-34a606409f1e.txt
 
---===============3402864486837240842==
+--===============3718116575005927484==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1668429138 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1668429288 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1668429132-5daf8e3c28401fc9b51ce89bba434110780316a1
+nonce 1668429285-600a0a405e1507d6b02dc7eba9d42665a056195b
 
-955325f35018fa3486e1082a3d8d4124e9e36551 0135cbf8f4247a0c0dbcdd0d4c587d83b252c409 refs/heads/linux-4.9.y
+0135cbf8f4247a0c0dbcdd0d4c587d83b252c409 34a606409f1e979a7feba6e0907e7a42428ff438 refs/heads/linux-4.9.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmNyNVIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+UI4QAMFtW1CntnKoUSVROPbB
-xmXV00PwOKNw0AZqtJaYU4pth9RRkVOXQXlCui+28PjcZEZX6ucgwbKpdsgYXGlF
-MaZqFSEuxDktKIsx5YKLUsKVWFLYJCumlOtMroFiUyMLiahAqA88fupJ3m7eCZtD
-+dGjYwqKL6D9yiJaPvmayyiAlKdU/hRgHOg56IdZW6HYJ+byao2E7p2OS3NerNLc
-UvQo6O8o1nDGJqgYsfiGnzCtD8uBeonUghjwZC9a0jL3/5D+LH/ib8SoXa8/hdhj
-K9N2aKmJK7vNmn1HM4Xw79pm960lGHybRQ+9QGLqT/ns7Dpc/GkQWrgnjnbTpyYf
-2jiN3r5Y8dCQI81lpOLwzIjmIHeoK674d59ADFSiNti7BIVxMB5GNXt3025vaiLY
-tBSaA29ipaxiqt/+nBPLDw2ooUGm4JKhHdZdxLZ/xesHGKJcUNcc/Ipi9ch0O6Fo
-4TqFizq7M+trfPcGX0fNuDpIhvR0Kib35z+iGUELwJJHwAfUes1CGKsILwFnsEjp
-Fne7+49v9UPuEJ0+b4KKrLab3G9IGbzYyZKe/mBab4mONoS3cQ0Zze6MEQIna9/l
-fTnmcFIUiDBWFZZ++wdkd9xaryN8KTxJxWzwAaqf9Om+19IQtknpGA+ARrOYuVaR
-IvkBNKb2rLWVbMSgahs0RYP8
-=ep1j
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmNyNegbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+E6sP/iBx4uEGhQzK9vw6cp2K
+x6jsuAn5JpdfxdWTc3EsvmA9sQZTNpMl5Yc6qRlkdEV1IATSTnMX3uuTpZz8FIFo
+AtTnjft4soga/HMPJUQCYsAO2M3VJd9pOor+ihHts1XvVfySYGMEhJ2lxkACVkDR
+klUa/J7BR3wsVf9GxBucIOgBHaDUuNkiplwsiMvXLm0mna851p3a6/d0RnOwflEV
+7EYSpACAuIZMnhFY5sYPGP8OAa5SnA/cyCbhsTI/3uQwiFPcoqa/463EmwL6m8tD
+UGgCC5E8ILRC8mwVN0/HvofVje7vTulVj0bnIx34A4YTIESoRUuYz3GIKMvKhdQg
+UgZ9TT1kLwbldK3kqt99zNB6/tyuDRZG2ZTu3WRIy5G5OWOjrQ8jRin9dcjdBzLB
+zY1HzhprJB7eR6RxEA8QNqrm1+Wdki+re02n/t15dkHWDsFXP0CAYWdcIU2Q0Hhb
+irmtYMw/niNpMTi4nstypV7fb5gti3vueIkaMPQcsgb94hWm6/9Uz5okYJuROxL/
+lx98EEkN4YkpeCEghIXqIpZ1tT5ENjROMJt7pKXMiNmRmKmAe1XK4SuODqCe/Ca9
+WVb+O7XkJgUyTLpkFUvhJ31Sxt3XRturcuT4Luf3bJGhey9FdnVuK4WryWI2onRW
+QJlABd5HNnIS5z82IuWMYQBg
+=x4JZ
 -----END PGP SIGNATURE-----
 
---===============3402864486837240842==
+--===============3718116575005927484==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-955325f35018-0135cbf8f424.txt
+Content-Disposition: attachment; filename=revlist-0135cbf8f424-34a606409f1e.txt
 
-32f24ca28d4f5bc7f9d31debeb857bf7b3b09405 HID: hyperv: fix possible memory leak in mousevsc_probe()
-01a0ec1180cc0bb87914b246b4a0957429435f43 net: gso: fix panic on frag_list with mixed head alloc types
-3e967c2799ce4dea08b1ede7d0f5de580c4da010 bnxt_en: fix potentially incorrect return value for ndo_rx_flow_steer
-241d8d785485f27db16477beecfbe2b5433c3e93 net: fman: Unregister ethernet device on removal
-63030024eb1cc2acf17cbf86d60d91125a40367e capabilities: fix undefined behavior in bit shift for CAP_TO_MASK
-16c2bead4a4cf0e32e2ea70e599994c412e3692c net: lapbether: fix issue of dev reference count leakage in lapbeth_device_event()
-ac71dcaaf3a695c3ba7cec4a7f72616a526cc80e hamradio: fix issue of dev reference count leakage in bpq_device_event()
-ce71539102368fb229fb33fcbc154386eadafd91 ipv6: addrlabel: fix infoleak when sending struct ifaddrlblmsg to network
-cd231c80ee4740f63ee57df4f814a393816c88f8 tipc: fix the msg->req tlv len check in tipc_nl_compat_name_table_dump_header
-c6c83fe450206659cae96dc3c41f8dfbf4901f14 dmaengine: mv_xor_v2: Fix a resource leak in mv_xor_v2_remove()
-01a5219462a71caae057499053062ba7e5974655 drivers: net: xgene: disable napi when register irq failed in xgene_enet_open()
-f02a2365247456ef27468f68784dc83db72a267f net: cxgb3_main: disable napi when bind qsets failed in cxgb_up()
-383e9be0f52f86cca02ef7a327eab6527c7f91b1 ethernet: s2io: disable napi when start nic failed in s2io_card_up()
-3e67a5007e84f4f8072a2c5ff8d57a0691e6e7bf net: mv643xx_eth: disable napi when init rxq or txq failed in mv643xx_eth_open()
-d96f36c8649a74ffb7b12dda12422fe05fed9147 net: macvlan: fix memory leaks of macvlan_common_newlink
-dca0d9d9a9f9b514a509e2395b29d590297a3e36 ALSA: hda: fix potential memleak in 'add_widget_node'
-0c75f33567e9e19c9a2b8892563e655a5f2244c4 ALSA: usb-audio: Add quirk entry for M-Audio Micro
-94f23e960f04ee517e37de9c9c3a2dc2a224415a nilfs2: fix deadlock in nilfs_count_free_blocks()
-09762de1f10ad367de3ca683c3334698dea4dad2 platform/x86: hp_wmi: Fix rfkill causing soft blocked wifi
-1b4ffcfa1d6b7e6b01236324799b1ca05602c209 btrfs: selftests: fix wrong error check in btrfs_free_dummy_root()
-d91f2b08d424ddc65308f3286216cd8bcf25da8b udf: Fix a slab-out-of-bounds write bug in udf_find_entry()
-86961b6333a53cb1a772dea90a6db5e3137374c0 cert host tools: Stop complaining about deprecated OpenSSL functions
-8a0a3ffbb1cbe4060528f9d48b7dd9c418a155cb dmaengine: at_hdmac: Fix at_lli struct definition
-80b7761db2e1a6c2e7a1ece95e998aa69d50d2cd dmaengine: at_hdmac: Don't start transactions at tx_submit level
-c31e012a1fb4bbe455a94ce416b5b86832d1727e dmaengine: at_hdmac: Fix completion of unissued descriptor in case of errors
-3a8741f6d49651566faf02734c37cdc980ff8c84 dmaengine: at_hdmac: Don't allow CPU to reorder channel enable
-d98a9d824f42254b3975a2f02d198a632f737d72 dmaengine: at_hdmac: Fix impossible condition
-a554d0d57d5bb0a1c08f91e22c9744099b45e858 dmaengine: at_hdmac: Check return code of dma_async_device_register
-0135cbf8f4247a0c0dbcdd0d4c587d83b252c409 Linux 4.9.334-rc1
+c85cb857c8eafc7a124fef73002a0d5ce5f940f5 HID: hyperv: fix possible memory leak in mousevsc_probe()
+2e155e3ef6d305edee93b60035a24c73a171e7a9 net: gso: fix panic on frag_list with mixed head alloc types
+9469f2b60b5c9fd13b3d8c177f01cdf6f7ee5596 bnxt_en: fix potentially incorrect return value for ndo_rx_flow_steer
+9d5ae946cc7e6b4a8d3cf17f888b93963a4a2e03 net: fman: Unregister ethernet device on removal
+fab62e3b91322f16eaecd76b6b0cfadcad6adb5d capabilities: fix undefined behavior in bit shift for CAP_TO_MASK
+14ac8cf80ae29e9ce9ec90b690058d4f70599930 net: lapbether: fix issue of dev reference count leakage in lapbeth_device_event()
+9bb186332e63481a4cdbc0a5ee1ae31a132d2947 hamradio: fix issue of dev reference count leakage in bpq_device_event()
+a44e7c30ba243065e1b54a936c8e6bacb91c9ff0 ipv6: addrlabel: fix infoleak when sending struct ifaddrlblmsg to network
+595c4fd269ed12bf6e1c9e1f450cb0727b552b54 tipc: fix the msg->req tlv len check in tipc_nl_compat_name_table_dump_header
+dbeb381faf5868ada00009ac4748eae3b98e4194 dmaengine: mv_xor_v2: Fix a resource leak in mv_xor_v2_remove()
+8c2528ee3893c0a92de0be2390263587f774648e drivers: net: xgene: disable napi when register irq failed in xgene_enet_open()
+e21c839c27329295d7e4c9fd05b220923fc70cdd net: cxgb3_main: disable napi when bind qsets failed in cxgb_up()
+c3630b36f1cb6cd5343755298f8437ee0907e285 ethernet: s2io: disable napi when start nic failed in s2io_card_up()
+bfd1c98992a7fd84f4fd8b62b7ee14c1f69711c4 net: mv643xx_eth: disable napi when init rxq or txq failed in mv643xx_eth_open()
+ed65d4e77fbf262f787b2d2df821858f5f133984 net: macvlan: fix memory leaks of macvlan_common_newlink
+376461d5c1abef0a2e058637214dda3e49fc9eda ALSA: hda: fix potential memleak in 'add_widget_node'
+7f05338474ba9be7169921a9aca9470e34cf9e88 ALSA: usb-audio: Add quirk entry for M-Audio Micro
+af9767b37701b1127746d1bd3f32f0d7635c605a nilfs2: fix deadlock in nilfs_count_free_blocks()
+ce7a21176e5ef0808e10ab869499fb6755c51004 platform/x86: hp_wmi: Fix rfkill causing soft blocked wifi
+9181470506d8c2b463f4137beba56e61f295c53a btrfs: selftests: fix wrong error check in btrfs_free_dummy_root()
+2b5e4893bbcce79a967dad08457469ed40a70fb9 udf: Fix a slab-out-of-bounds write bug in udf_find_entry()
+b4a426190a8686b9999ebc493a3628d965ac8185 cert host tools: Stop complaining about deprecated OpenSSL functions
+192fbe3fd2ac905f950548a037f2a7fd98f0a8f5 dmaengine: at_hdmac: Fix at_lli struct definition
+029904b4799ad95328617bbae96c3dce8140b3b4 dmaengine: at_hdmac: Don't start transactions at tx_submit level
+7abfc1c6c0eef73815d10c7b6c1db5abb52bf4a6 dmaengine: at_hdmac: Fix completion of unissued descriptor in case of errors
+31b37e5809359608ceb7e4f14e94cbf5b0605f1a dmaengine: at_hdmac: Don't allow CPU to reorder channel enable
+bc6d5de3ac0a6a9392aabea2cbad2714871b30a4 dmaengine: at_hdmac: Fix impossible condition
+f1d77e04e56764781e6f1fc90ad9cb88da84ad49 dmaengine: at_hdmac: Check return code of dma_async_device_register
+34a606409f1e979a7feba6e0907e7a42428ff438 Linux 4.9.334-rc1
 
---===============3402864486837240842==--
+--===============3718116575005927484==--
