@@ -1,34 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/cryptsetup/cryptsetup
-Date: Tue, 15 Nov 2022 10:53:09 -0000
-Message-Id: <166850958943.18983.12549576354662590262@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
+Date: Tue, 15 Nov 2022 10:53:25 -0000
+Message-Id: <166850960504.19145.8141006777199422679@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/cryptsetup/cryptsetup
-user: mbroz
+repo: pub/scm/linux/kernel/git/brgl/linux
+user: brgl
 changes:
-  - ref: refs/heads/fix-fvault2
-    old: 3333f3e9bb2ee7f981c93ca17e9b4126d54ca8e3
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/main
-    old: b086430877eae53350e8d5053e916fea36e2d0b3
-    new: 3333f3e9bb2ee7f981c93ca17e9b4126d54ca8e3
+  - ref: refs/heads/gpio/for-next
+    old: e7f9ff5dc90c3826231343439c35c6b7e9e57378
+    new: a431803852de00d8d3c143b19f5690254225538f
     log: |
-         3333f3e9bb2ee7f981c93ca17e9b4126d54ca8e3 Fix some warning detected by Coverity.
+         77289b2f5aa3535a2e49b448c6afb36f5526016a gpiolib: of: Prepare of_mm_gpiochip_add_data() for fwnode
+         a431803852de00d8d3c143b19f5690254225538f gpiolib: of: Drop redundant check in of_mm_gpiochip_remove()
          
-  - ref: refs/heads/master
-    old: b086430877eae53350e8d5053e916fea36e2d0b3
-    new: 3333f3e9bb2ee7f981c93ca17e9b4126d54ca8e3
-    log: |
-         3333f3e9bb2ee7f981c93ca17e9b4126d54ca8e3 Fix some warning detected by Coverity.
-         
-  - ref: refs/merge-requests/451/head
-    old: 0000000000000000000000000000000000000000
-    new: 3333f3e9bb2ee7f981c93ca17e9b4126d54ca8e3
-  - ref: refs/merge-requests/451/merge
-    old: 0000000000000000000000000000000000000000
-    new: f457e5ad0e53e96e43bfae3a02f33118f90a2131
