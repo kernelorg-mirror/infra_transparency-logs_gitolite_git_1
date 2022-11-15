@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8106535176445561798=="
+Content-Type: multipart/mixed; boundary="===============2062742934421233888=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mips/linux
-Date: Tue, 15 Nov 2022 10:45:58 -0000
-Message-Id: <166850915868.14837.17410293491444944394@gitolite.kernel.org>
+Date: Tue, 15 Nov 2022 10:46:07 -0000
+Message-Id: <166850916783.14936.2912444257255875606@gitolite.kernel.org>
 
---===============8106535176445561798==
+--===============2062742934421233888==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mips/linux
 user: tsbogend
 changes:
-  - ref: refs/heads/mips-fixes
-    old: 648060902aa302331b5d6e4f26d8ee0761d239ab
+  - ref: refs/heads/master
+    old: f0c4d9fc9cc9462659728d168387191387e903cc
     new: 094226ad94f471a9f19e8f8e7140a09c2625abaa
-    log: revlist-648060902aa3-094226ad94f4.txt
+    log: revlist-f0c4d9fc9cc9-094226ad94f4.txt
 
---===============8106535176445561798==
+--===============2062742934421233888==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-648060902aa3-094226ad94f4.txt
+Content-Disposition: attachment; filename=revlist-f0c4d9fc9cc9-094226ad94f4.txt
 
 6ca53a75c425cb1cb0929ce07f58d9e41094500c dt-bindings: hwlock: qcom-hwspinlock: add support for MMIO on older SoCs
 276a4f1a5fb118bfd6980d42732d530e43f2916a dt-bindings: hwlock: qcom-hwspinlock: correct example indentation
@@ -365,6 +365,12 @@ abd5ac18ae661681fbacd8c9d0a577943da4c89e Merge tag 'mlx5-fixes-2022-11-09' of gi
 cf0816f6322c5c37ee52655f928e91ecf32da103 ata: libata-transport: fix error handling in ata_tlink_add()
 1ff36351309e3eadcff297480baf4785e726de9b ata: libata-transport: fix error handling in ata_tdev_add()
 6d3085e4d89ad7e6c7f1c6cf929d903393565861 KVM: x86/mmu: Block all page faults during kvm_zap_gfn_range()
+62776e4378ae9086115ffd6f8bd9b9c0fe6e6809 mips: boot/compressed: use __NO_FORTIFY
+612d80784fdc0c2e2ee2e2d901a55ef2f72ebf4b MIPS: fix duplicate definitions for exported symbols
+fa706927f4722a2df723b2a28d139b1904a3e7fa MIPS: Loongson64: Add WARN_ON on kexec related kmalloc failed
+2a296157859287c3b639f7228354c13f7182ed71 mips: alchemy: gpio: Include the right header
+64ac0befe75bdfaffc396c2b4a0ed5ae6920eeee MIPS: jump_label: Fix compat branch range check
+648060902aa302331b5d6e4f26d8ee0761d239ab MIPS: pic32: treat port as signed integer
 fd979ca691715891a979ce12d1a485b108af74d3 Merge tag 'drm-fixes-2022-11-11' of git://anongit.freedesktop.org/drm/drm
 64b4aef17ea65c423fbcdee323b503d8e3ffb3a2 Merge tag 'sound-6.1-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
 30a33669fa21cd3dc7d92a00ba736358059014b7 io_uring/poll: fix double poll req->flags races
@@ -394,4 +400,4 @@ ab57bc6f027c761d5411fae9492756b5fbb91108 Merge tag 'efi-fixes-for-v6.1-3' of git
 af7a056891899fd3942afec79fb219f58271e319 Merge tag 'mips-fixes_6.1_1' of git://git.kernel.org/pub/scm/linux/kernel/git/mips/linux
 094226ad94f471a9f19e8f8e7140a09c2625abaa Linux 6.1-rc5
 
---===============8106535176445561798==--
+--===============2062742934421233888==--
