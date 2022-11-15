@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/will/linux
-Date: Tue, 15 Nov 2022 18:29:12 -0000
-Message-Id: <166853695245.21636.15098045437632551281@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kvalo/ath
+Date: Tue, 15 Nov 2022 18:29:37 -0000
+Message-Id: <166853697728.21907.9085003104956089387@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/will/linux
-user: will
+repo: pub/scm/linux/kernel/git/kvalo/ath
+user: kvalo
 changes:
-  - ref: refs/heads/for-joerg/arm-smmu/updates
-    old: 9abf2313adc1ca1b6180c508c25f22f9395cc780
-    new: f87f6e5b4539639460ab105e597e5190c9b2500f
+  - ref: refs/heads/ath12k-bringup
+    old: ac43b20e7d06e89efad5e501b09fab80cbe69e0c
+    new: ea6338c4715096826eb9e65bb068e7e17030f05a
     log: |
-         f87f6e5b4539639460ab105e597e5190c9b2500f iommu/arm-smmu: Warn once when the perfetcher errata patch fails to apply
+         ea6338c4715096826eb9e65bb068e7e17030f05a wifi: ath12k: wmi: avoid copying invalid vdev key data
          
