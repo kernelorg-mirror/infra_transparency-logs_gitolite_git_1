@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Tue, 15 Nov 2022 11:40:40 -0000
-Message-Id: <166851244038.22425.13860937963257238254@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/arm64/linux
+Date: Tue, 15 Nov 2022 11:49:19 -0000
+Message-Id: <166851295911.27039.4864239075109777125@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: hansg
+repo: pub/scm/linux/kernel/git/arm64/linux
+user: cmarinas
 changes:
-  - ref: refs/heads/fixes
-    old: 53eb64c88f17b14b324fbdfd417f56c5d3fa6fee
-    new: 21ec82b479fb0673104103f78f1890c791e76c30
+  - ref: refs/heads/devel/kmalloc-minalign
+    old: b152c981e749ddc2e38c743a4b04a7bc8617cfea
+    new: 8217250318c96e99ac5ce9f6afc5493550aa5232
     log: |
-         a5b5fb0fc47ddc7d1ed6a0365197639a01bc1f3a platform/x86/amd: pmc: Remove more CONFIG_DEBUG_FS checks
-         21ec82b479fb0673104103f78f1890c791e76c30 platform/x86: thinkpad_acpi: Enable s2idle quirk for 21A1 machine type
+         8217250318c96e99ac5ce9f6afc5493550aa5232 fixup! iommu/dma: Force bouncing of the size is not cacheline-aligned
          
