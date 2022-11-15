@@ -1,23 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
-Date: Tue, 15 Nov 2022 16:59:53 -0000
-Message-Id: <166853159315.21857.9229057780640775444@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Tue, 15 Nov 2022 17:04:03 -0000
+Message-Id: <166853184385.25026.4349069088622685317@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sudeep.holla/linux
-user: sudeep.holla
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/acpi_warnings_fixes
-    old: f92b2711bd42a6c1e1a303f6c6cb16c73a92e114
-    new: 11001a9f2561efd51e7b2fbcfad5dd60d86a4f96
+  - ref: refs/heads/for-linus
+    old: ad72c3c3f6eb81d2cb189ec71e888316adada5df
+    new: 1abfd71ee8f3ed99c5d0df5d9843a360541d6808
     log: |
-         693a673164288d9e71603fdc8f93cae7c30db48d ACPI: APEI: Silence missing prototype warnings
-         f298d69e8128ed6d805e5cf6b852448958e77b9c ACPI: processor_idle: Silence missing prototype warnings
-         a4a520b386a9a39936322c12c93ff5667807155c ACPI: FFH: Silence missing prototype warnings
-         e1b81433e8ad4a53cbd7fbaf3350c64f9c2c2af6 ACPI: PM: Silence missing prototype warning
-         11001a9f2561efd51e7b2fbcfad5dd60d86a4f96 ACPI: processor: Silence missing prototype warnings
+         b18a456330e1c1ca207b57b45872f10336741388 ALSA: hda/realtek: fix speakers for Samsung Galaxy Book Pro
+         1abfd71ee8f3ed99c5d0df5d9843a360541d6808 ALSA: hda/realtek: Fix the speaker output on Samsung Galaxy Book Pro 360
+         
+  - ref: refs/heads/master
+    old: 52d5ef793277bd937c8f7501d0a25c748c7ee11c
+    new: a38b8d2b85150f66f6c7a1ca6021247f43482432
+    log: |
+         b18a456330e1c1ca207b57b45872f10336741388 ALSA: hda/realtek: fix speakers for Samsung Galaxy Book Pro
+         1abfd71ee8f3ed99c5d0df5d9843a360541d6808 ALSA: hda/realtek: Fix the speaker output on Samsung Galaxy Book Pro 360
+         a38b8d2b85150f66f6c7a1ca6021247f43482432 Merge branch 'for-linus'
          
