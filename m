@@ -1,50 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============1819453656304515084=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Tue, 15 Nov 2022 09:55:48 -0000
-Message-Id: <166850614827.12477.17624148864293756711@gitolite.kernel.org>
-
---===============1819453656304515084==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Tue, 15 Nov 2022 09:56:01 -0000
+Message-Id: <166850616102.12639.17060543546598776103@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/spi-6.2
-    old: 6c6871cdaef96361f6b79a3e45d451a6475df4d6
-    new: d52a826b40604387d3e24b54e12e404867902fbb
+  - ref: refs/heads/for-next
+    old: 7ec53690d08cf14d2886ae6f9563e5155259ba9b
+    new: 3d1881baac3e1cd79fabdd43bc2de70e75adfd2c
     log: |
-         d52a826b40604387d3e24b54e12e404867902fbb spi: spi-mtk-nor: Optimize timeout for dma read
+         23dab2ec7419280d116dcfd14f067303f7a0313d ASoC: codecs: Remove a useless include
+         ec7bf231aaa1bdbcb69d23bc50c753c80fb22429 ASoC: pxa: fix null-pointer dereference in filter()
+         f8fd5f4813b6d8bdd003ffe164e98bfa01b1c830 ASoC: sunxi: use devm_platform_get_and_ioremap_resource()
+         3d1881baac3e1cd79fabdd43bc2de70e75adfd2c Merge remote-tracking branch 'asoc/for-6.2' into asoc-next
          
-
---===============1819453656304515084==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1668506146 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1668506146-94398ad53d13fe55490abcefda46b85d29289433
-
-6c6871cdaef96361f6b79a3e45d451a6475df4d6 d52a826b40604387d3e24b54e12e404867902fbb refs/heads/spi-6.2
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmNzYiIACgkQJNaLcl1U
-h9CbEQf/Sy8Rmn5i6lGmlw69YtU0Vnp0HSJgrzL7tsGTEPfQs910h7/IxMUUYZwY
-xRKwhjOXKab/8y4z5bgHw1g8g0icO7Xk5N+gjn7GCikacSTJbl8o/QHNc4UKkwMp
-NBiXLwzO/to7s9sdz+w7yHUfxGi4mng6bhMDP/crTU8/xXYG+RbDHv/+Nj3jSvVl
-lsVfmNUxa3gocAQzhbhkmQLtR5JRQTJpCf3+SDFtkssl/sRS2CKCNcGxg8834QhS
-4nHPhStVjl/NJPrEFPZILMpt8unriKtZw8iirf5TypeKY41VZopihSVvqVu5bhj6
-VKFUZzTZPj37MJcjOFLNz+2EDriZqw==
-=p5fS
------END PGP SIGNATURE-----
-
---===============1819453656304515084==--
