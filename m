@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3509547157887817177=="
+Content-Type: multipart/mixed; boundary="===============5844759718774846389=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Tue, 15 Nov 2022 17:48:22 -0000
-Message-Id: <166853450208.23973.1257966503595084704@gitolite.kernel.org>
+Date: Tue, 15 Nov 2022 17:48:29 -0000
+Message-Id: <166853450903.24100.10315980663939413413@gitolite.kernel.org>
 
---===============3509547157887817177==
+--===============5844759718774846389==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
-  - ref: refs/heads/perf/core
+  - ref: refs/heads/tmp.perf/core
     old: 7565f9617efac0c0c8e2dbd08dbe0695d56684f5
     new: 20c8a5e317d181066f90f26cd7e92573eacea85d
     log: revlist-7565f9617efa-20c8a5e317d1.txt
 
---===============3509547157887817177==
+--===============5844759718774846389==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -56,4 +56,4 @@ f031db94292fb7f85bdab8cbabea47b640d6461a perf stat: Factor out print_metric_{beg
 8af6130b53245b55a4dddc062be3a4bdba873052 perf stat: Support --for-each-cgroup and --metric-only
 20c8a5e317d181066f90f26cd7e92573eacea85d perf stat: Add print_aggr_cgroup() for --for-each-cgroup and --topdown
 
---===============3509547157887817177==--
+--===============5844759718774846389==--
