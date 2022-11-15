@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7629468404762026894=="
+Content-Type: multipart/mixed; boundary="===============4971151178563134676=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-drivers
-Date: Tue, 15 Nov 2022 16:46:48 -0000
-Message-Id: <166853080864.12508.15500760328924881828@gitolite.kernel.org>
+Date: Tue, 15 Nov 2022 16:47:37 -0000
+Message-Id: <166853085730.12877.8144461219228054772@gitolite.kernel.org>
 
---===============7629468404762026894==
+--===============4971151178563134676==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,20 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/renesas-drivers
 user: geert
 changes:
-  - ref: refs/heads/topic/board-farm
-    old: 323767bc29266889869217135c4fff2a39a00d49
-    new: 5205726af1f693f1f7a224bba784003fcb74f771
-    log: revlist-323767bc2926-5205726af1f6.txt
+  - ref: refs/heads/renesas-pinctrl
+    old: 96355be8f0a2a7a91aae2e66c0795a13444db5ba
+    new: 41a87e789c7c2cdeb302331043f866c0138f0413
+    log: revlist-96355be8f0a2-41a87e789c7c.txt
 
---===============7629468404762026894==
+--===============4971151178563134676==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-323767bc2926-5205726af1f6.txt
+Content-Disposition: attachment; filename=revlist-96355be8f0a2-41a87e789c7c.txt
 
+9bf445b65dd7d4c7d0e4efaecf38525abbbe74e3 Merge tag 'x86_paravirt_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+b5f0b11353a6a33a1accd0b742c80ed6b2f35ac0 Merge tag 'x86_microcode_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+193e2268a3bb1404b42f8edcc037a3eafd165aa9 Merge tag 'x86_cache_for_v6.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 da4ab869e37cf81f93333ba74b16e0ea6d322e15 libceph: drop last_piece flag from ceph_msg_data_cursor
 f791357330b0043ec953ce122ab7519af4b9d24a ceph: wake up the waiters if any new caps comes
 6eb06c46214d33c71ae86d60b3fc9cb17c20beca ceph: fail the request if the peer MDS doesn't support getvxattr op
@@ -1045,10 +1048,7 @@ b08cd74448fafaa302ce2bc11beab5e5a55d0065 Merge tag '6.1-rc-smb3-client-fixes-par
 8636df94ec917019c4cb744ba0a1f94cf9057790 Merge tag 'perf-tools-for-v6.1-2-2022-10-16' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 f1947d7c8a61db1cb0ef909a6512ede0b1f2115b Merge tag 'random-6.1-rc1-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/crng/random
 9abf2313adc1ca1b6180c508c25f22f9395cc780 Linux 6.1-rc1
-d5878a2ef9f72e03d062f6ac2147de036f0a7d08 ARM: dts: ape6evm: Enable PORT1 for wake-up
-6cdf481c57cb7c62637fff193f6c12856d931cec ARM: dts: armadillo800eva: Enable PORT95 for wake-up
-595842a2eca4a18c6ff197b46de5a4a096fe4085 ARM: dts: rskrza1: Enable PMOD_INT for wake-up
-13c2ffaf70797f05eb86d0d72f4aeebf5fce75b4 arm64: dts: renesas: salvator-common: Enable GP2_1 for wake-up
-5205726af1f693f1f7a224bba784003fcb74f771 arm64: dts: renesas: white-hawk: Enable GP8_12 for wake-up
+d871ea85917599ce4aa507f8b5521e17656a09dc pinctrl: renesas: rzv2m: remove unnecessary check from rzv2m_dt_node_to_map()
+41a87e789c7c2cdeb302331043f866c0138f0413 pinctrl: renesas: rzg2l: remove unnecessary check from rzg2l_dt_node_to_map()
 
---===============7629468404762026894==--
+--===============4971151178563134676==--
