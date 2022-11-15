@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/deller/linux-fbdev
-Date: Tue, 15 Nov 2022 10:53:58 -0000
-Message-Id: <166850963829.19513.14165852215788685003@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mmind/linux-rockchip
+Date: Tue, 15 Nov 2022 11:04:09 -0000
+Message-Id: <166851024956.27557.12124576372640170399@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/deller/linux-fbdev
-user: deller
+repo: pub/scm/linux/kernel/git/mmind/linux-rockchip
+user: mmind
 changes:
-  - ref: refs/heads/fbdev-wii
-    old: 0000000000000000000000000000000000000000
-    new: 802bb0aa1af149ec8299ea7dfebf3fc10dc9c3df
+  - ref: refs/heads/v6.2-armsoc/dts32
+    old: 9abf2313adc1ca1b6180c508c25f22f9395cc780
+    new: da74858a475782a3f16470907814c8cc5950ad68
+    log: |
+         da74858a475782a3f16470907814c8cc5950ad68 ARM: dts: rockchip: disable arm_global_timer on rk3066 and rk3188
+         
