@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 15 Nov 2022 14:39:25 -0000
-Message-Id: <166852316520.18422.1626233479161919361@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
+Date: Tue, 15 Nov 2022 14:41:52 -0000
+Message-Id: <166852331266.20880.1992431153627646732@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: pabeni
+repo: pub/scm/linux/kernel/git/brgl/linux
+user: brgl
 changes:
-  - ref: refs/heads/master
-    old: d9282e48c6088105a98b98153a707fdbcdbf75b1
-    new: 7eba4505394e21df44dcace6b5d741a8e2deea3a
+  - ref: refs/heads/gpio/for-next
+    old: ddf07bd874be791a63fca5ac0e3def1e15f2338f
+    new: 739be9b6a84b23c40b0fb534b749602fb8285e70
     log: |
-         7eba4505394e21df44dcace6b5d741a8e2deea3a net: dcb: move getapptrust to separate function
+         739be9b6a84b23c40b0fb534b749602fb8285e70 gpio: sl28cpld: Replace irqchip mask_invert with unmask_base
          
