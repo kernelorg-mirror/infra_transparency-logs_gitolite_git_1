@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 15 Nov 2022 11:58:03 -0000
-Message-Id: <166851348398.2269.12703638746995124285@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Tue, 15 Nov 2022 12:18:58 -0000
+Message-Id: <166851473895.15712.15764089091252445980@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: pabeni
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: hansg
 changes:
-  - ref: refs/heads/master
-    old: 5121197ecc5db58c07da95eb1ff82b98b121a221
-    new: d349e9be5a2c2d7588a2c4e4bfa0bb3dc1226769
+  - ref: refs/heads/fixes
+    old: 21ec82b479fb0673104103f78f1890c791e76c30
+    new: 204c5d37665d37f39501becd1f586a0d3badcc7c
     log: |
-         d349e9be5a2c2d7588a2c4e4bfa0bb3dc1226769 net: ena: Fix error handling in ena_init()
+         204c5d37665d37f39501becd1f586a0d3badcc7c platform/x86/amd/pmc: Add new ACPI ID AMDI0009
          
