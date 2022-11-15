@@ -1,21 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Tue, 15 Nov 2022 23:00:41 -0000
-Message-Id: <166855324163.22483.7508365137528842988@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
+Date: Tue, 15 Nov 2022 23:01:46 -0000
+Message-Id: <166855330673.22932.10482120645936914511@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
+user: jaegeuk
 changes:
-  - ref: refs/heads/master
-    old: 81e7cfa3a9eb4ba6993a9c71772fdab21bc5d870
-    new: 59d0d52c30d4991ac4b329f049cc37118e00f5b0
+  - ref: refs/heads/dev-test
+    old: 1464eb345e38f5d4ccdf60cb2c4d34b0f92417cb
+    new: 380350a090b04d614225aaeaf0b9c7b0f6dec11a
     log: |
-         7e043a80b5dae5c2d2cf84031501de7827fd6c00 netfs: Fix missing xas_retry() calls in xarray iteration
-         5e51c627c5acbcf82bb552e17533a79d2a6a2600 netfs: Fix dodgy maths
-         59d0d52c30d4991ac4b329f049cc37118e00f5b0 AMerge tag 'netfs-fixes-20221115' of git://git.kernel.org/pub/scm/linux/kernel/git/dhowells/linux-fs
+         873a0d9b4b3b58f0b6fe90f3937e2f65f97fe0c2 f2fs: fix to do sanity check on i_extra_isize in is_alive()
+         54d9d99b7eb8b5f099029f44759db5dc2d23e65d f2fs: remove submit label in __submit_discard_cmd()
+         7f648835943a657d25426aed3ed830b06845bfff f2fs: fix to enable compress for newly created file if extension matches
+         da49543eaf315fd122cec7b73d5f86e994e18de2 f2fs: move set_file_temperature into f2fs_new_inode
+         380350a090b04d614225aaeaf0b9c7b0f6dec11a f2fs: Fix error log cluster size warning in sanity_check_inode()
          
