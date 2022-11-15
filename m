@@ -1,41 +1,24 @@
-Content-Type: multipart/mixed; boundary="===============0447429639422159331=="
+Content-Type: multipart/mixed; boundary="===============4269773531821203463=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Tue, 15 Nov 2022 07:18:33 -0000
-Message-Id: <166849671383.14992.8873057241149274993@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Tue, 15 Nov 2022 07:18:44 -0000
+Message-Id: <166849672466.15163.5795685769692495439@gitolite.kernel.org>
 
---===============0447429639422159331==
+--===============4269773531821203463==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
   - ref: refs/heads/master
     old: 5c92ddca1053df02387e8006d06094e18cc8538a
     new: 3c1f24109dfc4fb1a3730ed237e50183c6bb26b3
     log: revlist-5c92ddca1053-3c1f24109dfc.txt
-  - ref: refs/heads/stable
-    old: af7a056891899fd3942afec79fb219f58271e319
-    new: e01d50cbd6eece456843717a566a34e8b926cf0c
-    log: |
-         7df140e84a75c89962feef659d686303d3ce75e5 mtd: rawnand: qcom: handle ret from parse with codeword_fixup
-         83f0869e9bf3333d778d62f055b0f8e1de1cc812 mtd: rawnand: placate "$VARIABLE is used uninitialized" warnings
-         c717b9b7d6de9e024e47f7cd5bbff49f581d3db9 mtd: onenand: omap2: add dependency on GPMC
-         7fdba0011157861892c470995ff586a1871e603f vfio: Fix container device registration life cycle
-         5cd189e410debedda416fecfc12f4716b5829845 vfio: Export the device set open count
-         e806e223621e4f5105170df69d7311dc3fb4bbb4 vfio/pci: Check the device set open count on reset
-         094226ad94f471a9f19e8f8e7140a09c2625abaa Linux 6.1-rc5
-         9584987fe71ea9d6a5813f61be6aec4616978af9 Merge tag 'mtd/fixes-for-6.1-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/mtd/linux
-         e01d50cbd6eece456843717a566a34e8b926cf0c Merge tag 'vfio-v6.1-rc6' of https://github.com/awilliam/linux-vfio
-         
-  - ref: refs/tags/next-20220815
-    old: c695fc10ed20f7fddcfeed23905ef3e7357a362c
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20221115
     old: 0000000000000000000000000000000000000000
     new: 85f90681c4d1ee1ddee449e74ef6a2886eae72a7
@@ -43,7 +26,7 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: 40747115a02c06d398d801301015db7ea182f7f0
 
---===============0447429639422159331==
+--===============4269773531821203463==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -948,4 +931,4 @@ fc4157739177d5f98142a72a832919875d2324b0 Revert "Merge branch 'mm-hotfixes-unsta
 651c292f52821b0f40ba09914de07ef8f8cb0fb4 Merge branch 'mm-everything' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 3c1f24109dfc4fb1a3730ed237e50183c6bb26b3 Add linux-next specific files for 20221115
 
---===============0447429639422159331==--
+--===============4269773531821203463==--
