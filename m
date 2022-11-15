@@ -1,24 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
-Date: Tue, 15 Nov 2022 16:21:17 -0000
-Message-Id: <166852927726.26052.1992880052692644925@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Tue, 15 Nov 2022 16:21:52 -0000
+Message-Id: <166852931207.26336.13996193198651068265@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kdave/linux
-user: kdave
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
+user: tnguy
 changes:
-  - ref: refs/heads/next-fixes
-    old: 1741255d952d632aa544af678e46766af30e5464
-    new: 46f159e1491a3166aec5c6e69ddcc027063051fd
+  - ref: refs/heads/master
+    old: f12ed9c04804eec4f1819097a0fd0b4800adac2f
+    new: 7eba4505394e21df44dcace6b5d741a8e2deea3a
     log: |
-         bdcdd86ca94b5e9faa18d6f4d3dda660ac5c887e btrfs: fix assertion failure and blocking during nowait buffered write
-         b740d806166979488e798e41743aaec051f2443f btrfs: free btrfs_path before copying root refs to userspace
-         418ffb9e3cf6c4e2574d3a732b724916684bd133 btrfs: free btrfs_path before copying inodes to userspace
-         8cf96b409d9b3946ece58ced13f92d0f775b0442 btrfs: free btrfs_path before copying fspath to userspace
-         013c1c5585ebcfb19c88efe79063d0463b1b6159 btrfs: free btrfs_path before copying subvol info to userspace
-         46f159e1491a3166aec5c6e69ddcc027063051fd Merge branch 'misc-6.1' into next-fixes
+         76ad97e150f1079163c8503c7b8e249db994b244 net: ethernet: renesas: rswitch: Fix build error about ptp
+         515e5fb6a95ed53edd76730071fc919f0ef78562 net: dpaa2: Remove linux/msi.h includes
+         5fd66a0b3bb473287099346cd92e54bf0ea19b6d net: nfp: Remove linux/msi.h includes
+         feba6c6702507008f129037849be24dd3eb2ef2f Merge branch 'genirq-msi-treewide-cleanup-of-pointless-linux-msi-h-includes'
+         d9282e48c6088105a98b98153a707fdbcdbf75b1 tcp: Add listening address to SYN flood message
+         7eba4505394e21df44dcace6b5d741a8e2deea3a net: dcb: move getapptrust to separate function
          
