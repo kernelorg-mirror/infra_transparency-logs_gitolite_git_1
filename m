@@ -1,19 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Tue, 15 Nov 2022 23:07:52 -0000
-Message-Id: <166855367294.26746.6818847977477650832@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Tue, 15 Nov 2022 23:50:03 -0000
+Message-Id: <166855620399.24148.1574246817440278856@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/master
-    old: fb53e25bb5f6bfa28776ebebd34dc33ae2fe57b4
-    new: c33de812e284122e2c5610c60d53f0086312b001
+  - ref: refs/heads/for-6.2/io_uring
+    old: 79fde04791f9a6789ff1a9b90b06e754efb55bd7
+    new: 958bfdd734b6074ba88ee3abc69d0053e26b7b9c
     log: |
-         c33de812e284122e2c5610c60d53f0086312b001 foo
+         958bfdd734b6074ba88ee3abc69d0053e26b7b9c io_uring: uapi: Don't force linux/time_types.h for userspace
+         
+  - ref: refs/heads/for-next
+    old: 6c944cdf52bb05a6572800a14edcea5a928a98a4
+    new: 067707e91646cbf20199f016434bb97016b64045
+    log: |
+         958bfdd734b6074ba88ee3abc69d0053e26b7b9c io_uring: uapi: Don't force linux/time_types.h for userspace
+         067707e91646cbf20199f016434bb97016b64045 Merge branch 'for-6.2/io_uring' into for-next
          
