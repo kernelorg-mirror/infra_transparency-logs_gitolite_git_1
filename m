@@ -1,107 +1,40 @@
-Content-Type: multipart/mixed; boundary="===============2426442094226268412=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/cryptsetup/cryptsetup
-Date: Tue, 15 Nov 2022 08:57:25 -0000
-Message-Id: <166850264575.20730.11621967588404085559@gitolite.kernel.org>
-
---===============2426442094226268412==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-devel
+Date: Tue, 15 Nov 2022 08:57:53 -0000
+Message-Id: <166850267338.20983.5371584223357343088@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/cryptsetup/cryptsetup
-user: mbroz
+repo: pub/scm/linux/kernel/git/geert/renesas-devel
+user: geert
 changes:
-  - ref: refs/heads/coverity_scan
-    old: 1f4c7a83f97fdbb6ec142f47a8d23a9fad836800
-    new: b086430877eae53350e8d5053e916fea36e2d0b3
-    log: revlist-1f4c7a83f97f-b086430877ea.txt
-  - ref: refs/heads/main
-    old: 1f4c7a83f97fdbb6ec142f47a8d23a9fad836800
-    new: b086430877eae53350e8d5053e916fea36e2d0b3
-    log: revlist-1f4c7a83f97f-b086430877ea.txt
   - ref: refs/heads/master
-    old: 1f4c7a83f97fdbb6ec142f47a8d23a9fad836800
-    new: b086430877eae53350e8d5053e916fea36e2d0b3
-    log: revlist-1f4c7a83f97f-b086430877ea.txt
-  - ref: refs/merge-requests/298/merge
-    old: b8a33e497b83928ae4309c7b634c4778037a9ab6
-    new: 1702b1d6f19ff777145e159d4569e39aed4c0651
+    old: 7a971ffb6095d21fa1de87d0adc13b8616efc6ba
+    new: 7c5179718b0c2a627f8db3044b0414e3484564c6
     log: |
-         54073ef65f71881d8cf1ae1fa1043f1e78583176 tests: do not run api tests twice in valgrind run.
-         cd2e22cb87f686b0ce7c124134d1e7734675aa53 tests: rename systemd plugin test
-         616d3cd4937cdc2ce842f51deb654dc44975f47e tests: do not require whirlpool hash for LUKS1 test
-         5186f49613435f470f096881b806af4c9d30d68c tests: fix compilation warnings with C18
-         f312ba62560aeb6a9082f8f65f5b8e85d4628477 Fix json_object_copy return value check.
-         1f4c7a83f97fdbb6ec142f47a8d23a9fad836800 Annotate some functions to prevent Coverity tainted input error.
-         1702b1d6f19ff777145e159d4569e39aed4c0651 Merge branch 'fvault2' into 'main'
+         753a4ae153788225a30b0ee9dd18da83f1d94447 arm64: dts: renesas: r9a09g011: Add watchdog node
+         594edf2c61f2eb79234e642e3a82d7ae02e7a241 arm64: dts: renesas: rzv2mevk2: Enable watchdog
+         c6b1737f45ca708fee76a30afb4a7b0247455749 arm64: dts: renesas: r9a09g011: Add L2 Cache node
+         dff206d2346220aeff53f02783b9315d70d23be6 Merge branch 'renesas-arm-dt-for-v6.2' into renesas-next
+         7c5179718b0c2a627f8db3044b0414e3484564c6 Merge branch 'renesas-next' into renesas-devel
          
-  - ref: refs/merge-requests/420/merge
-    old: 3abe478a538ae90622b80626190fe3f1edc1ec63
-    new: 25c98eb708c00e4824618d1127fda86d6d6f80f5
+  - ref: refs/heads/next
+    old: bb90a1820bf922f55ba1355b83491aecbb6c9cf7
+    new: dff206d2346220aeff53f02783b9315d70d23be6
     log: |
-         54073ef65f71881d8cf1ae1fa1043f1e78583176 tests: do not run api tests twice in valgrind run.
-         cd2e22cb87f686b0ce7c124134d1e7734675aa53 tests: rename systemd plugin test
-         616d3cd4937cdc2ce842f51deb654dc44975f47e tests: do not require whirlpool hash for LUKS1 test
-         5186f49613435f470f096881b806af4c9d30d68c tests: fix compilation warnings with C18
-         f312ba62560aeb6a9082f8f65f5b8e85d4628477 Fix json_object_copy return value check.
-         1f4c7a83f97fdbb6ec142f47a8d23a9fad836800 Annotate some functions to prevent Coverity tainted input error.
-         25c98eb708c00e4824618d1127fda86d6d6f80f5 Merge branch 'xchacha20-random' into 'main'
+         753a4ae153788225a30b0ee9dd18da83f1d94447 arm64: dts: renesas: r9a09g011: Add watchdog node
+         594edf2c61f2eb79234e642e3a82d7ae02e7a241 arm64: dts: renesas: rzv2mevk2: Enable watchdog
+         c6b1737f45ca708fee76a30afb4a7b0247455749 arm64: dts: renesas: r9a09g011: Add L2 Cache node
+         dff206d2346220aeff53f02783b9315d70d23be6 Merge branch 'renesas-arm-dt-for-v6.2' into renesas-next
          
-  - ref: refs/merge-requests/434/merge
-    old: 0dcfd3f1210332774adb86a1f5d8273330473b86
-    new: 92c4296b54b559b8b6a18e5e63765a651ea7794e
+  - ref: refs/heads/renesas-arm-dt-for-v6.2
+    old: 872f918469a572585003128509a842f39559aef6
+    new: c6b1737f45ca708fee76a30afb4a7b0247455749
     log: |
-         54073ef65f71881d8cf1ae1fa1043f1e78583176 tests: do not run api tests twice in valgrind run.
-         cd2e22cb87f686b0ce7c124134d1e7734675aa53 tests: rename systemd plugin test
-         616d3cd4937cdc2ce842f51deb654dc44975f47e tests: do not require whirlpool hash for LUKS1 test
-         5186f49613435f470f096881b806af4c9d30d68c tests: fix compilation warnings with C18
-         f312ba62560aeb6a9082f8f65f5b8e85d4628477 Fix json_object_copy return value check.
-         1f4c7a83f97fdbb6ec142f47a8d23a9fad836800 Annotate some functions to prevent Coverity tainted input error.
-         92c4296b54b559b8b6a18e5e63765a651ea7794e Merge branch 'wip-openssl-argon2' into 'main'
+         753a4ae153788225a30b0ee9dd18da83f1d94447 arm64: dts: renesas: r9a09g011: Add watchdog node
+         594edf2c61f2eb79234e642e3a82d7ae02e7a241 arm64: dts: renesas: rzv2mevk2: Enable watchdog
+         c6b1737f45ca708fee76a30afb4a7b0247455749 arm64: dts: renesas: r9a09g011: Add L2 Cache node
          
-  - ref: refs/merge-requests/449/head
-    old: 0000000000000000000000000000000000000000
-    new: 3e3cf99ef1a9b838056b63c800e1cc5b09ce0209
-  - ref: refs/merge-requests/449/merge
-    old: 0000000000000000000000000000000000000000
-    new: a9427730a810dceea13a0030e5e73d73b47749fd
-  - ref: refs/merge-requests/450/head
-    old: 0000000000000000000000000000000000000000
-    new: b086430877eae53350e8d5053e916fea36e2d0b3
-  - ref: refs/merge-requests/450/merge
-    old: 0000000000000000000000000000000000000000
-    new: 5359fe0ebe61ec621e38991ff77c2a9b4fb57ef6
-
---===============2426442094226268412==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1f4c7a83f97f-b086430877ea.txt
-
-1ffc9d967c2ee27581d8a3b6717cd02ed10f9b2b Fvault2: prepare module in libcryptsetup
-1d5d6d73a566719a9a8e491a1a8f41b749daebac Add support for CRC-32C (Castagnoli polynomial) to lib/crypto_backend
-af6ea01997084b9795edb5b2daa8658eb7becf23 Fvault2: read all relevant metadata from device
-35071c6d50615fc5e61d83ab07ee97d19cd53c44 Fvault2: derive volume key
-0ce5de9c1cebdcb655df1aea7f7bb366c7239819 Fvault2: implement dump
-cb9deaf354039c581ad3bb8393503e9017032f0e Fvault2: implement open
-4bce6d59628e92347a81fd907ff85b3e338d2fe5 Show error when trying to run fvault2Dump on a non-fvault device
-a5c7bba6ee4824d90cd839f6a72152e20f1b3f36 Add missing support for fvault2 commands
-cd5bd1c7738cbb525f2695a8616d21ae7c271f7a Fvault2: store UUIDs in text format
-ba9757b14bf979a7f694a2815c543f707b829e9a Fvault2: add basic test
-03059fae7555584eb858f3aa5d0501bff761ad3d tests: add valgrind support to fvault2 test.
-f6b6e41951a8d4a5ec7a0052d32ec0a3f190fbb4 fvault2: Add a basic man page.
-277027358219b9f9bae88287ab5148a009ec65b5 fvault2: test volume key dump
-3d1b965c46514cb4551b512986df9bc526ba7761 fvault2: fix --test-passphrase option
-1c5fd5ae10d43f455e1e8b119a8c2b0dbb9924db Fvault2: add basic error logs
-9bb98d49c0094ad3e14b421064e49298b2e0989a fvault2: some minor code reformatting changes.
-33d8d19408acfb616c79f279ff4198a045fa6115 fvault2: passphr -> passphrase
-8b4a5e59316963ff9db8a1b3e1a7019e68a2df3b fvault2: some more code cleanup.
-e37d8bdf915708873215e047330e3ab33a880a5b fvault2: harden device offset check
-01f3f3e66c7a5a1fe128ff2868f1de25a3f726d9 fvault2: volume size can be unsigned 64bit
-b086430877eae53350e8d5053e916fea36e2d0b3 fvault2: Move messages to debug level and add more debug log.
-
---===============2426442094226268412==--
