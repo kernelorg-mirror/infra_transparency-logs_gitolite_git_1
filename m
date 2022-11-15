@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Tue, 15 Nov 2022 14:39:09 -0000
-Message-Id: <166852314915.18259.4819327766957997285@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 15 Nov 2022 14:39:25 -0000
+Message-Id: <166852316520.18422.1626233479161919361@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/brgl/linux
-user: brgl
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: pabeni
 changes:
-  - ref: refs/heads/gpio/for-next
-    old: a431803852de00d8d3c143b19f5690254225538f
-    new: ddf07bd874be791a63fca5ac0e3def1e15f2338f
+  - ref: refs/heads/master
+    old: d9282e48c6088105a98b98153a707fdbcdbf75b1
+    new: 7eba4505394e21df44dcace6b5d741a8e2deea3a
     log: |
-         ddf07bd874be791a63fca5ac0e3def1e15f2338f gpiolib: of: Use correct fwnode for DT-probed chips
+         7eba4505394e21df44dcace6b5d741a8e2deea3a net: dcb: move getapptrust to separate function
          
