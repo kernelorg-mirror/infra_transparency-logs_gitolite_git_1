@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/libtrace/libtracefs
-Date: Tue, 15 Nov 2022 21:32:24 -0000
-Message-Id: <166854794465.23936.5300100429271917620@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
+Date: Tue, 15 Nov 2022 21:36:50 -0000
+Message-Id: <166854821008.27036.7729020594297627479@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/libtrace/libtracefs
-user: rostedt
+repo: pub/scm/linux/kernel/git/cip/linux-cip
+user: pavel
 changes:
-  - ref: refs/tags/libtracefs-1.6.0
-    old: 0000000000000000000000000000000000000000
-    new: 17f507544e84d54e3d6ee32ae5c08e291719d332
+  - ref: refs/tags/v4.19.265-cip78-rt26
+    old: 33c6999d17eed6a60d0dbc0a350c7c6a2cc2f3be
+    new: 0000000000000000000000000000000000000000
