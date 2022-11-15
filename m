@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Tue, 15 Nov 2022 12:18:58 -0000
-Message-Id: <166851473895.15712.15764089091252445980@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
+Date: Tue, 15 Nov 2022 12:20:29 -0000
+Message-Id: <166851482990.17799.9272624600756421145@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: hansg
+repo: pub/scm/linux/kernel/git/johan/usb-serial
+user: johan
 changes:
-  - ref: refs/heads/fixes
-    old: 21ec82b479fb0673104103f78f1890c791e76c30
-    new: 204c5d37665d37f39501becd1f586a0d3badcc7c
+  - ref: refs/heads/usb-linus
+    old: df3414b0a245f43476061fddd78cee7d6cff797f
+    new: 148f4b32b4504d8a32cf82049b7b9499a4b299ab
     log: |
-         204c5d37665d37f39501becd1f586a0d3badcc7c platform/x86/amd/pmc: Add new ACPI ID AMDI0009
+         148f4b32b4504d8a32cf82049b7b9499a4b299ab USB: serial: option: add Fibocom FM160 0x0111 composition
          
