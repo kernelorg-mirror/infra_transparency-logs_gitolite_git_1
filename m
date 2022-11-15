@@ -1,52 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============2546699134071820577=="
+Content-Type: multipart/mixed; boundary="===============1913689096923553583=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Tue, 15 Nov 2022 09:55:34 -0000
-Message-Id: <166850613455.12205.3290352647040555230@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Tue, 15 Nov 2022 09:55:41 -0000
+Message-Id: <166850614173.12388.7095147362056113542@gitolite.kernel.org>
 
---===============2546699134071820577==
+--===============1913689096923553583==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.2
-    old: 5f52ceddc40cd61b1dd2ecf735624deaf05f779f
-    new: f8fd5f4813b6d8bdd003ffe164e98bfa01b1c830
+  - ref: refs/heads/for-6.2
+    old: 6c6871cdaef96361f6b79a3e45d451a6475df4d6
+    new: d52a826b40604387d3e24b54e12e404867902fbb
     log: |
-         23dab2ec7419280d116dcfd14f067303f7a0313d ASoC: codecs: Remove a useless include
-         ec7bf231aaa1bdbcb69d23bc50c753c80fb22429 ASoC: pxa: fix null-pointer dereference in filter()
-         f8fd5f4813b6d8bdd003ffe164e98bfa01b1c830 ASoC: sunxi: use devm_platform_get_and_ioremap_resource()
+         d52a826b40604387d3e24b54e12e404867902fbb spi: spi-mtk-nor: Optimize timeout for dma read
          
 
---===============2546699134071820577==
+--===============1913689096923553583==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1668506133 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1668506132-7480e297bff2a902f15d6f2009b3a7dbdf271a8a
+pusher C3F436CA30F5D8EB 1668506140 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1668506139-4575922affd3a98458a74e62402215c0e31981bb
 
-5f52ceddc40cd61b1dd2ecf735624deaf05f779f f8fd5f4813b6d8bdd003ffe164e98bfa01b1c830 refs/heads/asoc-6.2
+6c6871cdaef96361f6b79a3e45d451a6475df4d6 d52a826b40604387d3e24b54e12e404867902fbb refs/heads/for-6.2
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmNzYhUACgkQJNaLcl1U
-h9DL/gf+Nj28HgLeJ0Ns+dSzZq545D8H5K/FLClwiebnh21UXglpuS1vkzz1QOMu
-IL2xX6gdkYyDfVjB7mSftnxIVu9AiBPv5O0W0hu5MDpOCQkNnuaccEiTR23l+Zk6
-AGRIs8QrlXwwl6FHZQqMKq9uR1xfdHFTBjMkskD1bBqnFMSGljs8tKnecrhjNI50
-ntKnWsUx5Ahkls2vJGfV9Lc4f6Ziq7z2UHIEoV+H8rE27SpffQMIPzmLCQyNg8Lk
-BrTRRNKgvY/HeccDq8fote4d/9Cchuw8jEo2ifnvFqLWPMUYshSiTumJ4qCvVV0a
-ijysB+2tdjBVDq2KVc0XiNxDM/aRpA==
-=Bq0n
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmNzYhwACgkQJNaLcl1U
+h9B7qAf/cK8yBTNfKsl9nMBhDCMO6KXT58H9Oel1Enl4UJMLBawlmIzDKO8cKFkD
+Fs0GK4KTOAK7lYNgPtuuGTiKN2mbj7tYD6crLfhB8BInagh2r6TN53ntLDrcHcFu
+EIzDS7qBiOPHELVELtuK5/K71BqN/hhUariMyT1SWxZRnKJos2S1lyy3eS0QTFvq
+iKmwoJK3Xgp2ypsz+vWDQIXvAb8o09dHf3BnX4JtQs+4JlLL4yV3FE6V9CrAxTio
+rJd4V/0FgTQdQ3Lrzb+YVXCGjQBWSRkCWCSPclRnjuL4D0ACR3bZY6PUf3hIJCDt
+nO4FqdRP+pKU6dairv+fxFao9Lxmow==
+=2zA0
 -----END PGP SIGNATURE-----
 
---===============2546699134071820577==--
+--===============1913689096923553583==--
