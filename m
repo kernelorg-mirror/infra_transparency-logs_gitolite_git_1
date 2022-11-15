@@ -1,21 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Tue, 15 Nov 2022 09:34:15 -0000
-Message-Id: <166850485580.13719.1647976848860590545@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
+Date: Tue, 15 Nov 2022 09:34:47 -0000
+Message-Id: <166850488743.13968.4449082528306046100@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: leon
+repo: pub/scm/linux/kernel/git/krzk/linux
+user: krzk
 changes:
-  - ref: refs/heads/wip/leon-for-next
-    old: 3574cfdca28543e2e8db649297cd6659ea8e4bb8
-    new: ecacb3751f254572af0009b9501e2cdc83a30b6a
+  - ref: refs/heads/for-next
+    old: 113aec13d45ecae4780dba871a2ae99d4c362b5a
+    new: e371c3d072b5bf9d08ab3eec96c1b34642b31d02
     log: |
-         dac153f2802db1ad46207283cb9b2aae3d707a45 RDMA/restrack: Release MR restrack when delete
-         5e15ff29b156bbbdeadae230c8ecd5ecd8ca2477 RDMA/core: Make sure "ib_port" is valid when access sysfs node
-         ecacb3751f254572af0009b9501e2cdc83a30b6a RDMA/nldev: Return "-EAGAIN" if the cm_id isn't from expected port
+         c9259e0d224b15a734673200e0825fae5ea2ab1e ARM: dts: exynos: Add new SoC specific compatible string for Exynos3250 SoC
+         e371c3d072b5bf9d08ab3eec96c1b34642b31d02 Merge branch 'next/dt' into for-next
+         
+  - ref: refs/heads/next/dt
+    old: 9abf2313adc1ca1b6180c508c25f22f9395cc780
+    new: c9259e0d224b15a734673200e0825fae5ea2ab1e
+    log: |
+         c9259e0d224b15a734673200e0825fae5ea2ab1e ARM: dts: exynos: Add new SoC specific compatible string for Exynos3250 SoC
          
