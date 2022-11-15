@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/shawnguo/linux
-Date: Tue, 15 Nov 2022 00:30:28 -0000
-Message-Id: <166847222888.15321.193156959048348506@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Tue, 15 Nov 2022 00:44:11 -0000
+Message-Id: <166847305112.23046.2282114819825429518@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/shawnguo/linux
-user: shawnguo
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
+user: tnguy
 changes:
-  - ref: refs/heads/imx/dt64
-    old: 8c4ffb1a8e6312342894fa62f23626e84340505d
-    new: 3b450831e5f1af09c6b0767b20f607943a681ffb
+  - ref: refs/heads/dev-queue
+    old: dadd61a109d247a1cab3c50301d3fdc762dd42e4
+    new: c1cc97bbd9da07261ab841780768e11a882e8198
     log: |
-         3b450831e5f1af09c6b0767b20f607943a681ffb arm64: dts: Update cache properties for freescale
+         c1cc97bbd9da07261ab841780768e11a882e8198 iavf: Do not restart Tx queues after reset task failure
          
