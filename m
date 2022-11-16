@@ -1,51 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============2973964118285462181=="
+Content-Type: multipart/mixed; boundary="===============3751993413721400879=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Wed, 16 Nov 2022 14:45:02 -0000
-Message-Id: <166860990266.28163.3026890231541112348@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Wed, 16 Nov 2022 14:45:10 -0000
+Message-Id: <166860991008.28942.17914565797133929724@gitolite.kernel.org>
 
---===============2973964118285462181==
+--===============3751993413721400879==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.2
-    old: f56814af1c1cf416f8df739c3959617c9624db2f
-    new: 7d95977533e14738e8193c14a7efac369288aeee
+  - ref: refs/heads/for-6.1
+    old: db2d2dc9a0b58c6faefb6b002fdbed4f0362d1a4
+    new: 804313b64e412a81b0b3389a10e7622452004aa6
     log: |
-         d25ec74c6c5419f834bab506f251bc760bdfb858 ASoC: amd: ps: update macros with ps platform naming convention
-         7d95977533e14738e8193c14a7efac369288aeee ASoC: amd: ps: Move acp63_dev_data strcture from PCI driver
+         804313b64e412a81b0b3389a10e7622452004aa6 spi: dw-dma: decrease reference count in dw_spi_dma_init_mfld()
          
 
---===============2973964118285462181==
+--===============3751993413721400879==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1668609901 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1668609900-f7e20710fd78ad97bcb6d55a95c968a75acc6228
+pusher C3F436CA30F5D8EB 1668609908 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1668609907-2b5cafc9cfc6d0ed0a876cbfd8495f0e728ba298
 
-f56814af1c1cf416f8df739c3959617c9624db2f 7d95977533e14738e8193c14a7efac369288aeee refs/heads/asoc-6.2
+db2d2dc9a0b58c6faefb6b002fdbed4f0362d1a4 804313b64e412a81b0b3389a10e7622452004aa6 refs/heads/for-6.1
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmN0920ACgkQJNaLcl1U
-h9A3ugf/SOWjOmv0Srt3Z2N34LJHsYkfyTnzRQ4lGf1dGAE6vtNG8tfHJSNVhgwT
-u7gBYb+RiheZ3xuc0OjpdaH9H/Ru/Gl//VFGenJ72YJipUKXUSoHESbDHrf/bxjA
-+lfrR2dYSySvpLdeaamfCaIC0h0QnGZjRFKKV1hX1Cebxxn3K73Nzm15Oe60cL0+
-8Vd4j/JIiC1K8P2a9fyl0bu/9imTRmOTZRDRAWnhDeYXt2b177JQdaLgTATZ8YLQ
-4yaYwS3U7EpYtBP1bZJrSnC1EVGDQyk8xQviUIcSc0cjHbl6/POZslxPykcJOpWl
-wj14mUavmsxiC/nwyf7Z8hyNOWcS8Q==
-=79KO
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmN093QACgkQJNaLcl1U
+h9BZTwf9GfK+q3OvSz2f7sLI/yZGIFE+oQff8YuUvaNimVRibuat/Sm/+HqvCKJP
+8uEao/9IED+3p72VI1z6+shNX+WpdFa4/RD/ps5NiDxfHAQfnlacitEiBTvyhnji
+BNnzm7qU3FD77JbF1iWzddkQiCd8xDUHhSNm9OI+q+tBgxSDH2lBv6x7+lDJX/N+
+K5UCKcXfNEzZDme3nSXEsk6y1iAm1uLXRJit5wcj6RNGPwc0EPhIAeWIfzvVilXz
+4Wo0k8jzSBWD39YUccgl00VDnbpWRsY8pTvpS2sYcF7R/FPcXSVbg8i3pEqemXWt
+DeGqAC8RyBVajLoJXJUxd3SVmsQTIQ==
+=kr+Y
 -----END PGP SIGNATURE-----
 
---===============2973964118285462181==--
+--===============3751993413721400879==--
