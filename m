@@ -1,28 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
-Date: Wed, 16 Nov 2022 23:46:36 -0000
-Message-Id: <166864239686.26997.3401857327790005639@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Wed, 16 Nov 2022 23:50:03 -0000
+Message-Id: <166864260348.29808.10143486002427416788@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/hid/hid
-user: jikos
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/for-6.2/sony
-    old: c64ed0cd9324f9e5f44deb6834ad9fb5bfa436bc
-    new: da03e502bb22ec859af4f7d1f7d4d5f237b6c3fe
+  - ref: refs/heads/block-6.1
+    old: a7a1598189228b5007369a9622ccdf587be0730f
+    new: 50a893359cd2643ee1afc96eedc9e7084cab49fa
     log: |
-         54980d30eff608545884416576416060b80d011e HID: playstation: fix DualShock4 bluetooth memory corruption bug.
-         da03e502bb22ec859af4f7d1f7d4d5f237b6c3fe HID: playstation: fix DualShock4 bluetooth CRC endian issue.
-         
-  - ref: refs/heads/for-next
-    old: 28ec858c8e28e56d661c5a4f0c48067179f51523
-    new: afd050b813857ae300975ea1c3a5f18b06e86fd3
-    log: |
-         54980d30eff608545884416576416060b80d011e HID: playstation: fix DualShock4 bluetooth memory corruption bug.
-         da03e502bb22ec859af4f7d1f7d4d5f237b6c3fe HID: playstation: fix DualShock4 bluetooth CRC endian issue.
-         afd050b813857ae300975ea1c3a5f18b06e86fd3 Merge branch 'for-6.2/sony' into for-next
+         c964d62f5cab7b43dd0534f22a96eab386c6ec5d block: make dma_alignment a stacking queue_limit
+         86e4d3e8d1838ca88fb9267e669c36f6c8f7c6cd dm-crypt: provide dma_alignment limit in io_hints
+         b3228254bb6e91e57f920227f72a1a7d81925d81 block: make blk_set_default_limits() private
+         29aa778bb66795e6a78b1c99beadc83887827868 dm-integrity: set dma_alignment limit in io_hints
+         50a893359cd2643ee1afc96eedc9e7084cab49fa dm-log-writes: set dma_alignment limit in io_hints
          
