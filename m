@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Wed, 16 Nov 2022 05:34:05 -0000
-Message-Id: <166857684561.12005.6544442130712546176@gitolite.kernel.org>
+Date: Wed, 16 Nov 2022 05:36:53 -0000
+Message-Id: <166857701327.14527.17665601850966792480@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/for-next
-    old: 6373ef1c5ee72a6b820717e50e266b78686b700c
-    new: e0eb60829a6eb249d7c6cccef0605c3004004bef
+  - ref: refs/heads/master
+    old: e0eb60829a6eb249d7c6cccef0605c3004004bef
+    new: df9c41e9db2d0fc9feba0423c21e4319d8acd033
     log: |
-         e0eb60829a6eb249d7c6cccef0605c3004004bef docs/bpf: Fix sample code in MAP_TYPE_ARRAY docs
+         df9c41e9db2d0fc9feba0423c21e4319d8acd033 bpftool: Check argc first before "file" in do_batch()
          
