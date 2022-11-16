@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/lsm
-Date: Wed, 16 Nov 2022 23:32:01 -0000
-Message-Id: <166864152153.17190.2282003418651188323@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/namhyung/linux-perf
+Date: Wed, 16 Nov 2022 23:33:54 -0000
+Message-Id: <166864163476.17935.7456433039203810565@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pcmoore/lsm
-user: pcmoore
+repo: pub/scm/linux/kernel/git/namhyung/linux-perf
+user: namhyung
 changes:
-  - ref: refs/heads/next
-    old: 86ef3c735ec81566cd38174ed5e90e9721473064
-    new: e68bfbd3b3c3a0ec3cf8c230996ad8cabe90322f
-    log: |
-         e68bfbd3b3c3a0ec3cf8c230996ad8cabe90322f device_cgroup: Roll back to original exceptions after copy failure
-         
+  - ref: refs/heads/perf/test-workload-v3
+    old: 0000000000000000000000000000000000000000
+    new: 881dbbede4e258cbcb7c303a7cd3f579cfb515e5
