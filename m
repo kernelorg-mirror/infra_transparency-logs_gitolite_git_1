@@ -1,30 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvalo/ath
-Date: Wed, 16 Nov 2022 09:51:10 -0000
-Message-Id: <166859227025.10394.3922180567338736571@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/xfs/xfsprogs-dev
+Date: Wed, 16 Nov 2022 09:55:04 -0000
+Message-Id: <166859250454.13696.6892345803959301243@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvalo/ath
-user: kvalo
+repo: pub/scm/fs/xfs/xfsprogs-dev
+user: cem
 changes:
-  - ref: refs/heads/master-pending
-    old: 95e1d03eb51f883c75a81534e3fdb6b56f883921
-    new: 96599ce2790b00d1963821ff577df0e1788502b9
+  - ref: refs/heads/for-next
+    old: d3e53ab7cdc7fabb8c94137e335634e0ed4691e8
+    new: 3498b68025ced534c5fc27141bf67c764b357332
     log: |
-         537eaf552b8ad8e7d58153adc811aad40dd01e03 wifi: ath10k: Fix return value in ath10k_pci_init()
-         3a9808c464b1a6ca03ce501b81b86fd1c1846849 wifi: ath10k: Remove redundant argument offset
-         3d09574121a223e05be9bfd00eb18e5e6a5fd3d7 wifi: ath10k: Add WLAN firmware image version info into smem
-         96599ce2790b00d1963821ff577df0e1788502b9 Merge branch 'pending' into master-pending
-         
-  - ref: refs/heads/pending
-    old: eef56ebffa37b06e32b4239f5f5796751d2434df
-    new: 3d09574121a223e05be9bfd00eb18e5e6a5fd3d7
-    log: |
-         537eaf552b8ad8e7d58153adc811aad40dd01e03 wifi: ath10k: Fix return value in ath10k_pci_init()
-         3a9808c464b1a6ca03ce501b81b86fd1c1846849 wifi: ath10k: Remove redundant argument offset
-         3d09574121a223e05be9bfd00eb18e5e6a5fd3d7 wifi: ath10k: Add WLAN firmware image version info into smem
+         3c6e12a4a4a0ae969f4a8952626e518ca82620e9 xfsprogs: Release v6.0.0-rc0
+         d878935dd9af126801d499afd9c6c1224797eeee xfs_db: use preferable macro to seek offset for local dir3 entry fields
+         f103166a94cd91b4fca87f35c4bed4c52db491cc xfs_quota: separate quota info acquisition into get_dquot()
+         2c1e7aefd94edd0d3b6ab6c94cc14b88ee5d67a4 xfs_quota: separate get_dquot() and dump_file()
+         79e651743aab9069e59ec4af0463488436e27ef8 xfs_quota: separate get_dquot() and report_mount()
+         6c007276ada9884d89c897640983789eafef01ab xfs_quota: utilize XFS_GETNEXTQUOTA for ranged calls in report/dump
+         f2fde322d7febb066775e6a16a8e02be9ad14256 xfs_quota: apply -L/-U range limits in uid/gid/pid loops
+         f034a3215bf30793092635b38ae5e765663797b3 Polish translation update for xfsprogs 5.19.0.
+         3498b68025ced534c5fc27141bf67c764b357332 xfsprogs: Release v6.0.0
          
