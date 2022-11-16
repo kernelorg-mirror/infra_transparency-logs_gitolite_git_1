@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============8512082116499701183=="
+Content-Type: multipart/mixed; boundary="===============0767996280734754707=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Wed, 16 Nov 2022 05:53:47 -0000
-Message-Id: <166857802712.25271.18312452689398363478@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dlemoal/zonefs
+Date: Wed, 16 Nov 2022 06:05:49 -0000
+Message-Id: <166857874997.3128.1825415519605890343@gitolite.kernel.org>
 
---===============8512082116499701183==
+--===============0767996280734754707==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-user: masahiroy
+repo: pub/scm/linux/kernel/git/dlemoal/zonefs
+user: dlemoal
 changes:
-  - ref: refs/heads/fixes
+  - ref: refs/heads/master
     old: f0c4d9fc9cc9462659728d168387191387e903cc
-    new: 26e01ee19b20695487ed6e19c75eb987642eeee9
-    log: revlist-f0c4d9fc9cc9-26e01ee19b20.txt
+    new: 094226ad94f471a9f19e8f8e7140a09c2625abaa
+    log: revlist-f0c4d9fc9cc9-094226ad94f4.txt
 
---===============8512082116499701183==
+--===============0767996280734754707==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f0c4d9fc9cc9-26e01ee19b20.txt
+Content-Disposition: attachment; filename=revlist-f0c4d9fc9cc9-094226ad94f4.txt
 
 6ca53a75c425cb1cb0929ce07f58d9e41094500c dt-bindings: hwlock: qcom-hwspinlock: add support for MMIO on older SoCs
 276a4f1a5fb118bfd6980d42732d530e43f2916a dt-bindings: hwlock: qcom-hwspinlock: correct example indentation
@@ -399,8 +399,5 @@ fef7fd48922d11b22620e19f9c9101647bfe943d Merge tag 'scsi-fixes' of git://git.ker
 ab57bc6f027c761d5411fae9492756b5fbb91108 Merge tag 'efi-fixes-for-v6.1-3' of git://git.kernel.org/pub/scm/linux/kernel/git/efi/efi
 af7a056891899fd3942afec79fb219f58271e319 Merge tag 'mips-fixes_6.1_1' of git://git.kernel.org/pub/scm/linux/kernel/git/mips/linux
 094226ad94f471a9f19e8f8e7140a09c2625abaa Linux 6.1-rc5
-869e1504e1afcb663e04e93954a771d44fa2a669 MAINTAINERS: Add Nathan and Nicolas to Kbuild reviewers
-85c2d6d82774368d19b3febc4cfed5957a32e976 MAINTAINERS: Remove Michal Marek from Kbuild maintainers
-26e01ee19b20695487ed6e19c75eb987642eeee9 MAINTAINERS: Add linux-kbuild's patchwork
 
---===============8512082116499701183==--
+--===============0767996280734754707==--
