@@ -1,20 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/bluetooth/bluez
-Date: Wed, 16 Nov 2022 21:57:00 -0000
-Message-Id: <166863582073.12902.18179118552004352788@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
+Date: Wed, 16 Nov 2022 22:00:41 -0000
+Message-Id: <166863604172.15882.1777139424054009347@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/bluetooth/bluez
-user: vudentz
+repo: pub/scm/linux/kernel/git/hid/hid
+user: jikos
 changes:
-  - ref: refs/heads/master
-    old: 1ebbfee345171cb4d38ae55501849a5671d2df4a
-    new: e2b2b1675f310023862319ea10ffd205a75cc0cb
+  - ref: refs/heads/for-6.2/hid-bpf
+    old: dfae6bec7100ca21a5753a03b09a81174a4e7ba0
+    new: 576e619ba4a47329bf55ada2d184e72529793fbd
     log: |
-         e515f4b6e25c971c47ab79e9cbdfa17119bbde23 hostname: Add '' around printed strings
-         e2b2b1675f310023862319ea10ffd205a75cc0cb hostname: Fallback to transient hostname
+         576e619ba4a47329bf55ada2d184e72529793fbd HID: bpf: return non NULL data pointer when CONFIG_HID_BPF is not set
+         
+  - ref: refs/heads/for-next
+    old: dcefe092751d5e56032323e368d1887ca757706a
+    new: 28ec858c8e28e56d661c5a4f0c48067179f51523
+    log: |
+         576e619ba4a47329bf55ada2d184e72529793fbd HID: bpf: return non NULL data pointer when CONFIG_HID_BPF is not set
+         28ec858c8e28e56d661c5a4f0c48067179f51523 Merge branch 'for-6.2/hid-bpf' into for-next
          
