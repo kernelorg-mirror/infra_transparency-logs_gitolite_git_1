@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7477804858885291880=="
+Content-Type: multipart/mixed; boundary="===============2016216430058123393=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Wed, 16 Nov 2022 00:36:08 -0000
-Message-Id: <166855896846.24171.15703106869546126883@gitolite.kernel.org>
+Date: Wed, 16 Nov 2022 00:36:32 -0000
+Message-Id: <166855899259.24408.7940414406725277881@gitolite.kernel.org>
 
---===============7477804858885291880==
+--===============2016216430058123393==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,20 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/master
-    old: c00aa8c4c8e4086ee67149f4cdfd19b47114d71b
-    new: 5e71d4cd03d988f36ebf328ce308a5285aa44cf0
-    log: revlist-c00aa8c4c8e4-5e71d4cd03d9.txt
+  - ref: refs/heads/next
+    old: 2d869f0b458547386fbcd8cf3004b271b7347b7f
+    new: 59d0d52c30d4991ac4b329f049cc37118e00f5b0
+    log: revlist-2d869f0b4585-59d0d52c30d4.txt
 
---===============7477804858885291880==
+--===============2016216430058123393==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c00aa8c4c8e4-5e71d4cd03d9.txt
+Content-Disposition: attachment; filename=revlist-2d869f0b4585-59d0d52c30d4.txt
 
+0eafdcfea6bc82f7f8c9a9af2d4add6745beefc5 MAINTAINERS: move USB gadget and phy entries under the main USB entry
+593c5ba288e118ad80b41e8339f0d0dcad65eb04 MAINTAINERS: Update maintainers for broadcom USB
+ed51862f2f57cbce6fed2d4278cfe70a490899fd kvm: Add support for arch compat vm ioctls
 2e3272bc1790825c43d2c39690bf2836b81c6d36 KVM: x86: Copy filter arg outside kvm_vm_ioctl_set_msr_filter()
 1739c7017fb1d759965dcbab925ff5980a5318cb KVM: x86: Add compat handler for KVM_X86_SET_MSR_FILTER
 da95cf6655e45fb12b101196b6a303fdf984a0c3 Merge tag 'coresight-fixes-v6.1-1' of git://git.kernel.org/pub/scm/linux/kernel/git/coresight/linux into char-misc-next
@@ -1047,8 +1050,5 @@ e01d50cbd6eece456843717a566a34e8b926cf0c Merge tag 'vfio-v6.1-rc6' of https://gi
 2632daebafd04746b4b96c2f26a6021bc38f6209 x86/cpu: Restore AMD's DE_CFG MSR after resume
 81e7cfa3a9eb4ba6993a9c71772fdab21bc5d870 Merge tag 'erofs-for-6.1-rc6-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/xiang/erofs
 59d0d52c30d4991ac4b329f049cc37118e00f5b0 AMerge tag 'netfs-fixes-20221115' of git://git.kernel.org/pub/scm/linux/kernel/git/dhowells/linux-fs
-b02de6e4fc20a12dde818e5bb704c7b6e8fa5865 tpm: st33zp24: drop support for platform data
-2332bbff15d88f5b92c7d8f52127004bf97f1617 tpm: st33zp24: switch to using gpiod API
-5e71d4cd03d988f36ebf328ce308a5285aa44cf0 tpm: Avoid function type cast of put_device()
 
---===============7477804858885291880==--
+--===============2016216430058123393==--
