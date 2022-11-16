@@ -1,16 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/niks/linux
-Date: Wed, 16 Nov 2022 16:50:26 -0000
-Message-Id: <166861742674.21297.13690560304700010573@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/zohar/linux-integrity
+Date: Wed, 16 Nov 2022 16:52:34 -0000
+Message-Id: <166861755447.22107.4558230345665778868@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/niks/linux
-user: niks
+repo: pub/scm/linux/kernel/git/zohar/linux-integrity
+user: zohar
 changes:
-  - ref: refs/tags/s390_dma_iommu_v2
-    old: 0000000000000000000000000000000000000000
-    new: 066ecd55a6c0496450f929e6436f222382328a01
+  - ref: refs/heads/next-integrity-testing
+    old: 9da376b5861dca02d5fc48f68a357f1dff06d8a9
+    new: 25369175ce84813dd99d6604e710dc2491f68523
+    log: |
+         39419ef7af0916cc3620ecf1ed42d29659109bf3 integrity: Fix memory leakage in keyring allocation error path
+         25369175ce84813dd99d6604e710dc2491f68523 ima: Fix misuse of dereference of pointer in template_desc_init_fields()
+         
