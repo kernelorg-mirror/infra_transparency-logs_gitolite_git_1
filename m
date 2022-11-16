@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Wed, 16 Nov 2022 20:14:45 -0000
-Message-Id: <166862968502.2959.12153494575466817756@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Wed, 16 Nov 2022 20:20:40 -0000
+Message-Id: <166863004016.8072.10303123831985297823@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/dev
-    old: 08d9c4f609afaf5c3032320d50f2bae4acdca314
-    new: 01ecdf0059a55d2ef4d548f1ae9c7b7c4085ba09
+  - ref: refs/heads/master
+    old: bf36267e3ad3df80a3a18eb0422723069a434934
+    new: d82303df06481235fe7cbaf605075e0c2c87e99b
     log: |
-         01ecdf0059a55d2ef4d548f1ae9c7b7c4085ba09 clocksource: Print clocksource name when clocksource is tested unstable
+         d82303df06481235fe7cbaf605075e0c2c87e99b mlxsw: update adjfine to use adjust_by_scaled_ppm
          
