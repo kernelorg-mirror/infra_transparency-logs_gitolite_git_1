@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Wed, 16 Nov 2022 11:44:08 -0000
-Message-Id: <166859904851.25127.14862737685028027705@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pablo/linux-ft
+Date: Wed, 16 Nov 2022 11:44:16 -0000
+Message-Id: <166859905677.25257.2452466898294412683@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/pablo/linux-ft
+user: pablo
 changes:
-  - ref: refs/heads/filef8oet6
+  - ref: refs/heads/nft-bulk-v5.15-4
     old: 0000000000000000000000000000000000000000
-    new: db2d2dc9a0b58c6faefb6b002fdbed4f0362d1a4
+    new: 4f5415347c9f77b434497050088bf5ec172c58f1
