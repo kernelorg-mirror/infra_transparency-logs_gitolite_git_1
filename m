@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
-Date: Wed, 16 Nov 2022 09:28:27 -0000
-Message-Id: <166859090763.12317.12661047330055709478@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
+Date: Wed, 16 Nov 2022 09:34:17 -0000
+Message-Id: <166859125768.15949.1085799268038737149@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux
+repo: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
 user: krzk
 changes:
-  - ref: refs/tags/samsung-dt64-6.2
+  - ref: refs/tags/memory-controller-drv-6.2-2
     old: 0000000000000000000000000000000000000000
-    new: 7420982a3a76ae236c1a9d3015e2c54e31a03199
+    new: 7a87e4f116c926649d85eff44babeacbdc1409c8
