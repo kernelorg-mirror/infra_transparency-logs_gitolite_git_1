@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Wed, 16 Nov 2022 13:50:03 -0000
-Message-Id: <166860660335.20690.716209743858234150@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
+Date: Wed, 16 Nov 2022 13:51:52 -0000
+Message-Id: <166860671210.21404.2875857195147627458@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/firmware/linux-firmware
+user: jwboyer
 changes:
-  - ref: refs/heads/for-6.2/io_uring
-    old: 958bfdd734b6074ba88ee3abc69d0053e26b7b9c
-    new: 79fde04791f9a6789ff1a9b90b06e754efb55bd7
-  - ref: refs/heads/for-next
-    old: 067707e91646cbf20199f016434bb97016b64045
-    new: 6c944cdf52bb05a6572800a14edcea5a928a98a4
+  - ref: refs/heads/main
+    old: 60310c2deb8c67948a38310ac5f15cf3abcc30e7
+    new: 750c0dc4c275d9fac77288374d0f03ccad9a3d80
+    log: |
+         750c0dc4c275d9fac77288374d0f03ccad9a3d80 linux-firmware: update firmware for MT7921 WiFi device
+         
