@@ -1,25 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Wed, 16 Nov 2022 10:50:55 -0000
-Message-Id: <166859585563.20194.6532241098528327912@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mnyman/xhci
+Date: Wed, 16 Nov 2022 10:58:04 -0000
+Message-Id: <166859628409.25601.5084967317451493855@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/mnyman/xhci
+user: mnyman
 changes:
-  - ref: refs/heads/fileFouk8x
-    old: 0000000000000000000000000000000000000000
-    new: 7920e0fbced429ab18ad4402e3914146a6a0921b
-  - ref: refs/heads/fileORE5fh
-    old: 0000000000000000000000000000000000000000
-    new: 60591bbf6d5eb44f275eb733943b7757325c1b60
-  - ref: refs/heads/fileV4CyUQ
-    old: 0000000000000000000000000000000000000000
-    new: 6ad73a2b42ea6d43fc5bf32033e8f6b21df3109e
-  - ref: refs/heads/fileYS1BwH
-    old: 0000000000000000000000000000000000000000
-    new: dd801b2265c81bf0c8b0b4b8f7c1e7bfed078403
+  - ref: refs/heads/port_check_acpi_dsm
+    old: deb98119eac7dc6f69453f707d7f6e5cd5d1d7db
+    new: 4d33abda798c8556209968c35e3fd7daaf1aa230
+    log: |
+         d0cd5b3e4619134e6632dc91b45302e0e2dde4e9 xhci: Add update_hub_device override for PCI xHCI hosts
+         b598e009d816e5e85192ff7b024b53b65ce2ff8a xhci: Add a flag to disable USB3 lpm on a xhci root port level.
+         46cf2b7aea1e55096ae3d11dbdded8686955af90 usb: acpi: add helper to check port lpm capabaility using acpi _DSM
+         4d33abda798c8556209968c35e3fd7daaf1aa230 xhci: Detect lpm incapable xHC USB3 roothub ports from ACPI tables
+         
