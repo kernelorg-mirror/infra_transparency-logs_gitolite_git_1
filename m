@@ -1,44 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============6675101935954165243=="
+Content-Type: multipart/mixed; boundary="===============6406532409393237857=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Wed, 16 Nov 2022 06:50:28 -0000
-Message-Id: <166858142862.31712.2638918291742985126@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Wed, 16 Nov 2022 06:50:38 -0000
+Message-Id: <166858143877.31843.6359852217084443625@gitolite.kernel.org>
 
---===============6675101935954165243==
+--===============6406532409393237857==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
   - ref: refs/heads/master
     old: 3c1f24109dfc4fb1a3730ed237e50183c6bb26b3
     new: 15f3bff12cf6a888ec2ad39652828c60e6836b3d
     log: revlist-3c1f24109dfc-15f3bff12cf6.txt
-  - ref: refs/heads/stable
-    old: e01d50cbd6eece456843717a566a34e8b926cf0c
-    new: 81e7cfa3a9eb4ba6993a9c71772fdab21bc5d870
-    log: |
-         e5126de138caef0eedb3d6431059c0c5581a1a5d erofs: fix general protection fault when reading fragment
-         75e43355cbe4d5948a79bd592f2ffecb9f75f75d erofs: put metabuf in error path in fscache mode
-         e6d9f9ba111b56154f1b1120252aff269cebd49c erofs: get correct count for unmapped range in fscache mode
-         39bfcb8138f6dc3375f23b1e62ccfc7c0d83295d erofs: fix use-after-free of fsid and domain_id string
-         37020bbb71d911431e16c2c940b97cf86ae4f2f6 erofs: fix missing xas_retry() in fscache mode
-         2632daebafd04746b4b96c2f26a6021bc38f6209 x86/cpu: Restore AMD's DE_CFG MSR after resume
-         81e7cfa3a9eb4ba6993a9c71772fdab21bc5d870 Merge tag 'erofs-for-6.1-rc6-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/xiang/erofs
-         
-  - ref: refs/tags/next-20220816
-    old: 5211a5a50a2381f9e4746ce745f6b4568b1d6840
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20221116
     old: 0000000000000000000000000000000000000000
     new: 084dcdfaa471fb2c1e8209e08ee6926fbcd18da4
 
---===============6675101935954165243==
+--===============6406532409393237857==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -960,4 +945,4 @@ c91224e40487c3d5981d4e5225e97d6545c47d5e Merge branch 'unsigned-char' of git://g
 77b2c0ec81e4bea5ba8d73a4e2de6063ef0d739e Revert "tcp: Add listening address to SYN flood message"
 15f3bff12cf6a888ec2ad39652828c60e6836b3d Add linux-next specific files for 20221116
 
---===============6675101935954165243==--
+--===============6406532409393237857==--
