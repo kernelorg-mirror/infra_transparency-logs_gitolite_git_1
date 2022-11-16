@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Wed, 16 Nov 2022 19:19:57 -0000
-Message-Id: <166862639781.29191.13539899792825443811@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/crng/random
+Date: Wed, 16 Nov 2022 19:24:21 -0000
+Message-Id: <166862666188.32262.944509374034282383@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cel/linux
-user: cel
+repo: pub/scm/linux/kernel/git/crng/random
+user: zx2c4
 changes:
-  - ref: refs/heads/for-next
-    old: ca55b9bf7c1675b3f1200b1339c764644ceff37f
-    new: 89bb824a83e95f1b5f39caf5a7ca1dff4294e083
+  - ref: refs/heads/efiseed
+    old: 746ba5c9924b04046b4445a230c6909318716202
+    new: b9cd2f33df3708999a5603f8506264626174915c
     log: |
-         89bb824a83e95f1b5f39caf5a7ca1dff4294e083 NFSD: pass range end to vfs_fsync_range() instead of count
+         b9cd2f33df3708999a5603f8506264626174915c efi: refresh non-volatile random seed when RNG is initialized
          
