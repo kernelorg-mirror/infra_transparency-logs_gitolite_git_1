@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Wed, 16 Nov 2022 05:03:54 -0000
-Message-Id: <166857503437.22963.1235614790586879290@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dlemoal/zonefs
+Date: Wed, 16 Nov 2022 05:10:46 -0000
+Message-Id: <166857544683.28624.9382643011582919270@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/dlemoal/zonefs
+user: dlemoal
 changes:
-  - ref: refs/heads/master
-    old: 2929cceb2fcf0ded7182562e4888afafece82cce
-    new: 4e0c19fcb8b5323716140fa82b79aa9f60e60407
-    log: |
-         4e0c19fcb8b5323716140fa82b79aa9f60e60407 net: dsa: don't leak tagger-owned storage on switch driver unbind
-         
+  - ref: refs/heads/for-6.1-fixes
+    old: 0000000000000000000000000000000000000000
+    new: 42b2c8dd866e3016306e0c628f02d10b991de16d
