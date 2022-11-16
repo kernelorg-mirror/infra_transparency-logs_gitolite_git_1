@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 16 Nov 2022 09:15:50 -0000
-Message-Id: <166859015095.2330.3118534299440824390@gitolite.kernel.org>
+Date: Wed, 16 Nov 2022 09:16:38 -0000
+Message-Id: <166859019898.2690.577001449586077454@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: peterz
 changes:
-  - ref: refs/heads/x86/core
-    old: b1599915f09157e98f59556e1b2eafe473603347
-    new: 2d08a893b87cf9b2f9dbb3afaff60ca4530d55a2
+  - ref: refs/heads/sched/core
+    old: 52b33d87b9197c51e8ffdc61873739d90dd0a16f
+    new: d6962c4fe8f96f7d384d6489b6b5ab5bf3e35991
     log: |
-         2d08a893b87cf9b2f9dbb3afaff60ca4530d55a2 x86/debug: Include percpu.h in debugreg.h to get DECLARE_PER_CPU() et al
+         d6962c4fe8f96f7d384d6489b6b5ab5bf3e35991 sched: Clear ttwu_pending after enqueue_task()
          
