@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0216933412526365161=="
+Content-Type: multipart/mixed; boundary="===============0814301116450119776=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ulfh/mmc
-Date: Wed, 16 Nov 2022 13:06:27 -0000
-Message-Id: <166860398765.19699.574629547785973297@gitolite.kernel.org>
+Date: Wed, 16 Nov 2022 13:09:01 -0000
+Message-Id: <166860414150.20941.6929782276576738454@gitolite.kernel.org>
 
---===============0216933412526365161==
+--===============0814301116450119776==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ulfh/mmc
 user: ulfh
 changes:
-  - ref: refs/heads/fixes
-    old: f002f45a00ee14214d96b18b9a555fe2c56afb20
-    new: 096cc0cddf58232bded309336961784f1d1c85f8
-    log: revlist-f002f45a00ee-096cc0cddf58.txt
-  - ref: refs/tags/v6.1-rc5
-    old: 0000000000000000000000000000000000000000
-    new: 40747115a02c06d398d801301015db7ea182f7f0
+  - ref: refs/heads/next
+    old: 175568abe9ca66f92e66ba21554ca691c1e19206
+    new: 07bdbe477fbc0f9eda699e13f87682a60a58c053
+    log: revlist-175568abe9ca-07bdbe477fbc.txt
 
---===============0216933412526365161==
+--===============0814301116450119776==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f002f45a00ee-096cc0cddf58.txt
+Content-Disposition: attachment; filename=revlist-175568abe9ca-07bdbe477fbc.txt
 
 6ca53a75c425cb1cb0929ce07f58d9e41094500c dt-bindings: hwlock: qcom-hwspinlock: add support for MMIO on older SoCs
 276a4f1a5fb118bfd6980d42732d530e43f2916a dt-bindings: hwlock: qcom-hwspinlock: correct example indentation
@@ -395,7 +392,57 @@ fef7fd48922d11b22620e19f9c9101647bfe943d Merge tag 'scsi-fixes' of git://git.ker
 ab57bc6f027c761d5411fae9492756b5fbb91108 Merge tag 'efi-fixes-for-v6.1-3' of git://git.kernel.org/pub/scm/linux/kernel/git/efi/efi
 af7a056891899fd3942afec79fb219f58271e319 Merge tag 'mips-fixes_6.1_1' of git://git.kernel.org/pub/scm/linux/kernel/git/mips/linux
 094226ad94f471a9f19e8f8e7140a09c2625abaa Linux 6.1-rc5
+d9c92edb6eb1b83f522979290b10814f0bd938d4 dt-bindings: mmc: fsl-imx-esdhc: update i.MX8DXL compatible
+df98829137372b81ca15c122492357ad8d8956ef dt-bindings: mmc: renesas,sdhi: Document R-Car V4H support
+4fd82c1b9be6332b6c0c7dc5194ce259a0e659b8 dt-bindings: mmc: sdhci-am654: add ti,itap-del-sel-ddr50 to schema
+e12e986c9ab66aa9caaee942108cb6ada6ad0f74 dt-bindings: mmc: arm,pl18x: Document interrupt-names is ignored
+bc5a156c93c655391d732b303cf09041bbcec5c9 mmc: sdhci: Remove local_irq_{save,restore}() around k[un]map_atomic()
+90299c5c053c863331e7d14c0d67926728cd563b mmc: sdhci: Remove local_irq_{save,restore}() around sg_miter_{next,stop}()
+82a79ee5ce18705a5d7158dddf78ba3bbc22f27e mmc: sdhci: Replace kmap_atomic() with kmap_local_page()
+72b57072c4626515f58600d3c4c6be11b2e92e49 mmc: bcm2835: Remove local_irq_{save,restore}() around k[un]map_atomic()
+3e215c9a5cdff132ff48816b2945ce30ee3c7164 mmc: bcm2835: Remove local_irq_{save,restore}() around sg_miter_{next,stop}()
+caae40822270506e29e9467467e61abc83186b89 mmc: bcm2835: Replace kmap_atomic() with kmap_local_page()
+8d1e46d1de3039dffc4dc52c6272fd3a19e61a07 mmc: mmc_test: Remove local_irq_{save,restore}() around sg_copy_{from,to}_buffer()
+6119b76d6c3b771a5cbbe230bcb54503e06079d1 mmc: tifm_sd: Remove local_irq_{save,restore}() around tifm_sd_transfer_data()
+aa3b73282e0d2f2d37163b4ed76ce05b7e7f29fd mmc: tifm_sd: Remove local_irq_{save,restore}() around tifm_sd_bounce_block()
+0c89971da3f92b5b5630ff9d26309506d51f0db2 mmc: tifm_sd: Replace kmap_atomic() with kmap_local_page()
+0b640da2d09a9e2307e1e6dfe57d223676ca0e22 mmc: tmio_mmc_core: Remove local_irq_{save,restore}() around k[un]map_atomic()
+6883182342a91fb446eca0337d2cccf8253285ba mmc: tmio_mmc_core: Replace kmap_atomic() with kmap_local_page()
+660f232b6b97e74a8441a07d9576af197ab2b366 mmc: au1xmmc: Replace kmap_atomic() with kmap_local_page()
+e18aca980c96bbb626c4008b76d22b959b6268e1 mmc: wbsd: Replace kmap_atomic() with kmap_local_page()
+1fad8422c98999f049d35724a1483cbd3927b8e8 mmc: sdhci-brcmstb: Allow building with COMPILE_TEST
+3fcbc68c246f04f242b447172ac35c1b96478fd8 mmc: sdhci-esdhc-imx: improve imxrt1050 data
+f2d04edadfe266aa7c9c300b53645c050c66a285 mmc: host: Fix repeated words in comments
+5f4b65ae1951572fb0410458d5ce1d8a0a59c441 dt-bindings: mmc: mtk-sd: Set clocks based on compatible
+e888dbed0c9ab84c78ad6eab2d0ec04b5dd28b3d dt-bindings: mmc: Add support for Mediatek MT7986
+1ca473456c08e82fef221ebdbd17074e91e58c5e mmc: mediatek: add support for MT7986 SoC
+fec008db9b69376b909897ce599c5cab51135725 mmc: sdhci-of-arasan: Add support for dynamic configuration
+13a7c52a81482405b11360de40205620ba98a0cb mmc: sdhci-*: Convert drivers to new sdhci_and_cqhci_reset()
 39a72dbfe188291b156dd6523511e3d5761ce775 mmc: core: properly select voltage range without power cycle
 096cc0cddf58232bded309336961784f1d1c85f8 mmc: sdhci-pci-o2micro: fix card detect fail issue caused by CD# debounce timeout
+725a445c4eb816c4bac59c1d7fa953d7f70f6df5 mmc: sdhci-esdhc-imx: reset the tuning logic before execute tuning
+208d4efa941286c67f2bb1cb3e8dd1d0ddda3de6 mmc: sdhci-pci: Set PROBE_PREFER_ASYNCHRONOUS
+cd5014080fc8377d1b3765a2258a71796c065cab mmc: sdhci_am654: Use dev_err_probe() for mmc_of_parse() return code
+702f92ea6a5cac9df0433d5da6066efd586417ad mmc: Remove duplicate words in comments
+57d18a8336de2ee01d1600a11eed66122d457a65 dt-bindings: mmc: sdhci-msm: Document compatible for MSM8976
+f7ca19ab789485ce3082c7478832b0a0806417ec dt-bindings: mmc: mtk-sd: add Inline Crypto Engine clock
+683fa2b9434474adc6870df01558e8705e89a809 mmc: mtk-sd: add Inline Crypto Engine clock control
+8a210d61cc0e339dc3d09b4e59d24a15c987bb72 mmc: alcor: fix return value check of mmc_add_host()
+1460f87068960adb9f2d95df2b8614bda38eeb29 mmc: moxart: fix return value check of mmc_add_host()
+7f1afe532cf970ed3cba50326d9076dbb3360572 mmc: mxcmmc: fix return value check of mmc_add_host()
+344668fd291ea73ad000702da334b8d5bf111aa3 mmc: pxamci: fix return value check of mmc_add_host()
+ec5d8ac707ddb1895402615e8afe8889637c5719 mmc: rtsx_pci: fix return value check of mmc_add_host()
+588a720a2f497d11907fa063d6b8ddd83d37b851 mmc: rtsx_usb_sdmmc: fix return value check of mmc_add_host()
+699d74586c95568be7c30eed21aea33e9d6ea6e5 mmc: toshsd: fix return value check of mmc_add_host()
+7636a3f54e004af5e2f8395c19f7fe5c6e8616d5 mmc: vub300: fix return value check of mmc_add_host()
+036b28114de58e8d7e407d27f76798bdcef70603 mmc: wmt-sdmmc: fix return value check of mmc_add_host()
+f6506515eed3dd28c322301027076325bf7c4f5a mmc: litex_mmc: ensure `host->irq == 0` if polling
+5e1d07050f152c968dbc2193217c919050facd4a dt-bindings: mmc: sdhci-of-dwcmhsc: Add reset support
+ccfffdb54c445ae81aa714677764a8d0857811dd dt-bindings: mmc: rockchip-dw-mshc: Add power-domains property
+a0b38e241daacd7513bd2ae32a006064acbe5b31 mmc: atmel-mci: fix return value check of mmc_add_host()
+cd2bbc12ab9ea95256a4482c5d110f8185089b68 mmc: omap_hsmmc: fix return value check of mmc_add_host()
+b9599027b75fd6aecf554ca002536eba474e2eb7 mmc: meson-gx: fix return value check of mmc_add_host()
+9f2b48cd3bfff3a5e0f42383e85a3037aa2ac8a8 mmc: via-sdmmc: fix return value check of mmc_add_host()
+07bdbe477fbc0f9eda699e13f87682a60a58c053 mmc: Merge branch fixes into next
 
---===============0216933412526365161==--
+--===============0814301116450119776==--
