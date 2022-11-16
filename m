@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
-Date: Wed, 16 Nov 2022 16:23:52 -0000
-Message-Id: <166861583223.678.4058514606909719092@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/zohar/linux-integrity
+Date: Wed, 16 Nov 2022 16:28:51 -0000
+Message-Id: <166861613128.5446.6837802586186697994@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/johan/usb-serial
-user: johan
+repo: pub/scm/linux/kernel/git/zohar/linux-integrity
+user: zohar
 changes:
-  - ref: refs/heads/usb-linus
-    old: 148f4b32b4504d8a32cf82049b7b9499a4b299ab
-    new: c1547f12df8b8e9ca2686accee43213ecd117efe
+  - ref: refs/heads/next-integrity-testing
+    old: 8c1d6a050a0f16e0a9d32eaf53b965c77279c6f8
+    new: 10f2263af239f7fe050df906db607bf7e9cd93e2
     log: |
-         2ec106b96afc19698ff934323b633c0729d4c7f8 USB: serial: option: remove old LARA-R6 PID
-         d9e37a5c4d80ea25a7171ab8557a449115554e76 USB: serial: option: add u-blox LARA-R6 00B modem
-         c1547f12df8b8e9ca2686accee43213ecd117efe USB: serial: option: add u-blox LARA-L6 modem
+         b1e1d93a0405497c3a1c101992705363bb817a49 integrity: Free key restriction when keyring allocation fails
+         10f2263af239f7fe050df906db607bf7e9cd93e2 ima: Fix misuse of dereference of pointer in template_desc_init_fields()
          
