@@ -1,27 +1,61 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/crng/random
-Date: Thu, 17 Nov 2022 20:59:31 -0000
-Message-Id: <166871877153.21468.15280027731827907718@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============6826435538135328399=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Thu, 17 Nov 2022 21:08:00 -0000
+Message-Id: <166871928004.27626.18435499701615608118@gitolite.kernel.org>
+
+--===============6826435538135328399==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/crng/random
-user: zx2c4
+repo: pub/scm/linux/kernel/git/gregkh/usb
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/efiseed
-    old: fe1b5da57c9df1248452e1deda4152fb24d33b60
-    new: 0b34302f1594097292cd754dfa22fd92f648fd69
+  - ref: refs/heads/usb-linus
+    old: 181135bb20dcb184edd89817831b888eb8132741
+    new: 59a51183be1a6aaaf6f8483aec82e2fbf2c74ab9
     log: |
-         5713ce76deec1bc318ae7bbb3f19786a1ea9369d random: reseed in delayed work rather than on-demand
-         cbe9dbfcef2ebbb59125ce0b4ad2f46add76a08f efi: random: zero out secret after use and do not take minimum
-         23df678c7ce0a685f60485deb6cd44030c3d4c39 efi: random: remove extraneous dmesg notice
-         cd6651f3c24369543bba6886117144f12717f620 efi: random: combine bootloader provided RNG seed with RNG protocol output
-         283627b760ee5ccb612d9ab6da05f7c90731324e efi: efivarfs: prohibit reading random seed variables
-         1f981fe5a16d159ea374e3c18c20b7f15dd1c226 efi: random: use random seed from EFI variable
-         43f30f409c21cf92494ec1e476a5724932a9aceb random: add back async readiness notifier
-         8c614bed30ba439fdf15d8168395ebf401a2a586 vsprintf: initialize siphash key using notifier
-         0b34302f1594097292cd754dfa22fd92f648fd69 efi: random: refresh non-volatile random seed when RNG is initialized
+         df3414b0a245f43476061fddd78cee7d6cff797f USB: serial: option: add Sierra Wireless EM9191
+         148f4b32b4504d8a32cf82049b7b9499a4b299ab USB: serial: option: add Fibocom FM160 0x0111 composition
+         2ec106b96afc19698ff934323b633c0729d4c7f8 USB: serial: option: remove old LARA-R6 PID
+         d9e37a5c4d80ea25a7171ab8557a449115554e76 USB: serial: option: add u-blox LARA-R6 00B modem
+         c1547f12df8b8e9ca2686accee43213ecd117efe USB: serial: option: add u-blox LARA-L6 modem
+         59a51183be1a6aaaf6f8483aec82e2fbf2c74ab9 Merge tag 'usb-serial-6.1-rc6' of https://git.kernel.org/pub/scm/linux/kernel/git/johan/usb-serial into usb-linus
          
+
+--===============6826435538135328399==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1668719278 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1668719272-3dea9231d499b3aa9241049448718c5fe3b04033
+
+181135bb20dcb184edd89817831b888eb8132741 59a51183be1a6aaaf6f8483aec82e2fbf2c74ab9 refs/heads/usb-linus
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmN2oq4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+CZsP/AhnKE3+mvDEkVF4C3ux
++lJW+Dm95a8U090YU6K4jJrAUJo+ATpdV40DTTWwlidCsx6VcIPMQ0zAEeluD6rc
+JGqCFcWORgT9ZzAJQldB0GIIagUsjBYJQf/peq1H2LMghodkZ8sqgSTsX5owHOzv
+6/EYcLFZk3J0qK5jeBGahmuBAq0CTuDeKC2HkIf6leJDYGFVNoAkGslbx7pFYM+s
+aktT5v2eTa4ZzNNTP5BlafmT/IKJzHkyriNNofCMwEvWG7RP8BnJRIFOfOZwinBI
+LvRjUYtgU43ODqDeV0wQVtjRWs3r6WlGvMrCKUqfey7ZyegcVBK4MfVc62KZeVmG
+hXQgZQXmDLCGl9H3mVzoo7SDhp1/8m01Te+7jdu+QFFcIJg7DCQ1GTjwPkHy8kCa
+q4rWCL+8bXYHU+IkMCyIU7ojleMX0aXRYfDVoYYxk+sCXYsMgeJXSPJi9okLPnGf
+/zQzEovYPtAdX03S5bOw+KodrmvcskCRDewhZIlZOi6ZbYRx3GHlqVN0fjuDOg8t
+M8PuAnLcgAZkgWBSCtPwfBlT7hm35vjrNFpPcNbdtpsUDD2zvrmvsBgHUdugHpEz
+s1hIsqUulMqW7nFyTkTbQao4XQS5YGjBUYEZMyCfM9F5on05ER1EJzPZdbXeIAG1
+AxMQ2LuWOGgGWMP0Bkhtom7F
+=PbvK
+-----END PGP SIGNATURE-----
+
+--===============6826435538135328399==--
