@@ -1,35 +1,42 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Thu, 17 Nov 2022 19:50:03 -0000
-Message-Id: <166871460347.5282.6151761246245514334@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============8082022460958674954=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/crng/random
+Date: Thu, 17 Nov 2022 19:50:44 -0000
+Message-Id: <166871464480.5629.4301258017530050825@gitolite.kernel.org>
+
+--===============8082022460958674954==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/crng/random
+user: zx2c4
 changes:
-  - ref: refs/heads/for-6.2/io_uring
-    old: 79fde04791f9a6789ff1a9b90b06e754efb55bd7
-    new: e353d23f304aad9ca0215cc0051757611686e34d
-    log: |
-         e353d23f304aad9ca0215cc0051757611686e34d io_uring: inline __io_req_complete_post()
-         
-  - ref: refs/heads/for-next
-    old: f240ef0deac37ead89b2e8b220f96288708ad54b
-    new: 40fa774af7fd04d06014ac74947c351649b6f64f
-    log: |
-         e353d23f304aad9ca0215cc0051757611686e34d io_uring: inline __io_req_complete_post()
-         40fa774af7fd04d06014ac74947c351649b6f64f Merge branch 'for-6.2/io_uring' into for-next
-         
-  - ref: refs/heads/io_uring-6.1
-    old: 5576035f15dfcc6cb1cec236db40c2c0733b0ba4
-    new: 100d6b17c06ee4c2b42fdddf0fe4ab77c86eb77e
-    log: |
-         b98186aee22fa593bc8c6b2c5d839c2ee518bc8c io_uring: update res mask in io_poll_check_events
-         539bcb57da2f58886d7d5c17134236b0ec9cd15d io_uring: fix tw losing poll events
-         91482864768a874c4290ef93b84a78f4f1dac51b io_uring: fix multishot accept request leaks
-         100d6b17c06ee4c2b42fdddf0fe4ab77c86eb77e io_uring: fix multishot recv request leaks
-         
+  - ref: refs/heads/master
+    old: 92309a41fdf22b1acd0c674a558012c5a25b4557
+    new: 6d122fa4711ac5232a4472763d12326e25e9e99d
+    log: revlist-92309a41fdf2-6d122fa4711a.txt
+
+--===============8082022460958674954==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-92309a41fdf2-6d122fa4711a.txt
+
+9c3a6b409da029c924aaf438eba52ee74ebf88a3 treewide: use get_random_u32_below() instead of deprecated function
+7c73e3dae17c7857be18136d028d587caebed0fd treewide: use get_random_u32_{above,below}() instead of manual loop
+d4bbc84bc8feec3127881263f80362a4c579b814 treewide: use get_random_u32_inclusive() when possible
+d56a99b1b4fc3749f4d07fb4ec90a0ae5443408b stackprotector: move get_random_canary() into stackprotector.h
+da6347f72fe43714d3f7514254244f38f7120c09 stackprotector: actually use get_random_canary()
+e01e49357690558ab6d3407cf4a9dea47941a762 random: use random.trust_{bootloader,cpu} command line option only
+8c485ea9f84cd28e546b7bbfc890b1450a7f31c7 random: remove early archrandom abstraction
+500e1db2e208c19db7fd03e0bf42ea5c262db611 random: adjust comment to account for removed function
+66f6fa4b5a5df401d8c9845d995ac05ebd517257 random: modernize documentation comment on get_random_bytes()
+115ef79cab6eaf32f3944f3b976b78accee83eda hw_random: use add_hwgenerator_randomness() for early entropy
+004342ea69e58f17bb16f502def74444695cc1a9 random: always mix cycle counter in add_latent_entropy()
+6d122fa4711ac5232a4472763d12326e25e9e99d random: reseed in delayed work rather than on-demand
+
+--===============8082022460958674954==--
