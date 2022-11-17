@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1091327368417430531=="
+Content-Type: multipart/mixed; boundary="===============6094806918867160361=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Thu, 17 Nov 2022 18:25:11 -0000
-Message-Id: <166870951189.8815.4340013769532796393@gitolite.kernel.org>
+Date: Thu, 17 Nov 2022 18:25:25 -0000
+Message-Id: <166870952542.8954.15509516258147049601@gitolite.kernel.org>
 
---===============1091327368417430531==
+--===============6094806918867160361==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,9 +16,9 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-fixes
-    old: 95d45398fcec03954098b55e2090a490658373dc
-    new: d98b1636b8f5017a31a0a8144f028e2a87825ac4
+  - ref: refs/heads/6.1/scsi-fixes
+    old: ecb8c2580d37dbb641451049376d80c8afaa387f
+    new: f014165faa7b953b81dcbf18835936e5f8d01f2a
     log: |
          7d21fcfb409500dc9b114567f0ef8d30b3190dee scsi: mpi3mr: Suppress command reply debug prints
          bc68e428d4963af0201e92159629ab96948f0893 scsi: target: tcm_loop: Fix possible name leak in tcm_loop_setup_hba_bus()
@@ -27,33 +27,33 @@ changes:
          f014165faa7b953b81dcbf18835936e5f8d01f2a scsi: iscsi: Fix possible memory leak when device_register() failed
          
 
---===============1091327368417430531==
+--===============6094806918867160361==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1668709494 -0500
+pusher 75C5DE3D 1668709515 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1668709494-2cc27641940ff81780605be4600cc8338335c684
+nonce 1668709515-f45d2e5ac868dfa2c6b3b8f4aa13ea898a06a256
 
-95d45398fcec03954098b55e2090a490658373dc d98b1636b8f5017a31a0a8144f028e2a87825ac4 refs/tags/mkp-scsi-fixes
+ecb8c2580d37dbb641451049376d80c8afaa387f f014165faa7b953b81dcbf18835936e5f8d01f2a refs/heads/6.1/scsi-fixes
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmN2fHYACgkQ7ulgGnXF
-3j3QYw//Y0L+3ETE6RJeD8coceR4XJ4ZvSzCmBjYd24pOiX2OnIqmvPd4MXOqQB3
-jqm12RADAJqaY7PsyGvh+PUuxhdMv+fIs3uaxxp52tek5/SEbZlLd/MUk+mEvEJv
-O3ljGuzE42fKzW0QrX3sN5ZIKf4IGCAVVoQzj5F5GiaYVwaS6fEoEsGgBe6L/byB
-7RkeSx60RjFuiBqXWH7ILeimjIZP8eJoYueM5O9GQw3/eBcvNmIVgCT1rm+R6UDa
-P1nFLTkAJA5cHqCtBDBITwHsLBEqvaF+pnQGygcK8poMJwucHEnF66LNLWYTvPzJ
-fFwoJA2+boa/cOXPPm1qjZa4ILmOGl4JpMJ7875deOXwK7kYo30UutZXJT18Qpkr
-eBe5J/MwQTOJ5fvyeze3tAIhFX4L/q2YDU1DfXP1eeabw/4qTqZC/kHiPi92OFsr
-kLHudkhVxTY5YvH2Kr4+ntl8lTvHLXEDTMTFGruDqgGeTM5WIDVG7upO5Gumowio
-9/QmBH+UoZnVwrm9km4flgpRgxyjbquMCWZCQNlnFuqLPDgxFhtAEz5jG6VRV+oC
-LI0TLc6XPFIJRi8LKJ5umqsubw5AIFOxAoouLEQ69CRFxNxA4PIAcu2Ud1Hkrg23
-hLGpmZJw5OyME7DLDkb8zdkj9GZ+xojKFRJpTIARKgH9g6GjHF8=
-=svfy
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmN2fIsACgkQ7ulgGnXF
+3j2GtBAAtKizDvmTmHnclk8rdHkl1ii8frTZNWdp4UU4/KC96eAmk+b8fp3tCjVC
+wHGEWsfDmqyiE860enuDyEwdXVjAym7Xes3rUlQFzk9D1fCkjo6/CwjnomZy6X+C
+LGa2OpqYYE+1w/r+qQIwLUAw5PeCHN1yK/vSWh888RNTsTdetE33UfaPmNVltbS7
+Mos0JNPOOEwgj5YsQNAT7QKsJbFyRWUxStnlDJVLhrUkpjzbCuj+D/LWaVqEcZ6u
+Kj+YVETuwxnwGhX6+MG4YoyVErlwBv4VNc9PM6OP8Jy9gsJebI/TNGDtTznzkWdD
+5ewrbbaKhEz915XuVpFRQ9LSbkSvhF9i5/xCLT8qEpiBggVzgr+Vt0KiFuH+cZPs
+ucYhReA+bACGykHe2YlntGHGFiCSCiL8ZPmc/pSk9arpio8lQIWK5jgydyClXpXD
+bpZc1pSDPXsv9NQmH0tqTH+bTei/wDl+vMItJO61hBLXtMjJOQY7TTLnggmMHJx4
+IA69Vh8WZIIl67PeJOmUfeZ3BGSPgEeISSO/yY8TgM+JCtyTMrBuKcEXVLbZ2Suh
+iYDj2XK8LBzQOdP9mDH+ACh5i5d5ForNwl5Z4uMJ7Y/45941NuZjEzAodBO9mVZF
+QAEePaApP9h6RHxYjXNYVEo8+B/fvrJLYI1V2M1T6cVwsPdMa5E=
+=xsnc
 -----END PGP SIGNATURE-----
 
---===============1091327368417430531==--
+--===============6094806918867160361==--
