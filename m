@@ -1,57 +1,46 @@
-Content-Type: multipart/mixed; boundary="===============9108975942250340767=="
+Content-Type: multipart/mixed; boundary="===============9127276707164895992=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mtd/linux
-Date: Thu, 17 Nov 2022 21:16:45 -0000
-Message-Id: <166871980566.1919.4944178901081841673@gitolite.kernel.org>
+Subject: post-receive: pub/scm/docs/docsko/korg
+Date: Thu, 17 Nov 2022 21:17:36 -0000
+Message-Id: <166871985617.2295.10030137712412538626@gitolite.kernel.org>
 
---===============9108975942250340767==
+--===============9127276707164895992==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mtd/linux
-user: mraynal
+repo: pub/scm/docs/docsko/korg
+user: mricon
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/mtd/next
-    old: 077dc37db1e1da1f0e6a745328e4caa6d414e501
-    new: 085679b15b5af65f9610f619afde41da0f966194
-    log: revlist-077dc37db1e1-085679b15b5a.txt
-  - ref: refs/heads/nand/next
-    old: 075e181fba721d7af83dd1f2b65aed64703f5a40
-    new: c13bf589e5cff0d05ce63c4832de3fab2a19c62d
+  - ref: refs/heads/master
+    old: 2af6dc79e851e42f10b48c6a707ef9baa7860f3f
+    new: f79a2fcc24b92d2abb69cfa2097e761fede64fd7
     log: |
-         c13bf589e5cff0d05ce63c4832de3fab2a19c62d mtd: rawnand: marvell: Enable NFC/DEVBUS arbiter
+         f79a2fcc24b92d2abb69cfa2097e761fede64fd7 Add social.kernel.org to index
          
 
---===============9108975942250340767==
+--===============9127276707164895992==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-077dc37db1e1-085679b15b5a.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-9b533a6e41df8315422575764a7f9a72bda2d995 dt-bindings: mtd: partitions: allow SafeLoader dynamic subpartitions
-6bdd45d795adf9e73b38ced5e7f750cd199499ff mtd: lpddr2_nvm: Fix possible null-ptr-deref
-5d96ea42eb63da72ed2eb4c1769d3181706d8cf3 dt-bindings: mtd: Clarify all partition subnodes
-f902baa917b6c1f2d70d008b2ebbe5acf79ba392 dt-bindings: mtd: Remove useless file about partitions
-71a2026a66511d3296cd657bd3066dbf2f5ab11e dt-bindings: mtd: nand-chip: Reference mtd.yaml
-e598511b0bfe7d9fd5165d53f1afb94e1a9be62d dt-bindings: mtd: nand: Drop common properties already defined in generic files
-488f19adf040329cbc0f9d3bea4829ccd0ebb57b dt-bindings: mtd: nand: Standardize the child node name
-73fc6320651ab13da88ee3f4a4bb7499f0b21e20 dt-bindings: mtd: ingenic: Mark partitions in the controller node as deprecated
-eb6fa33657da9526a9e5f43088d80b99a5c0315e dt-bindings: mtd: onenand: Mention the expected node name
-c68fc5ed9529987d69d34b367cb390b2285c3ac9 dt-bindings: mtd: sunxi-nand: Add an example to validate the bindings
-e9a399caf0314a69593b653ddf0efadbb11ffb9a dt-bindings: mtd: spi-nor: Drop common properties
-7bdc671822e9099dd5328431867e4cf718b107f5 dt-bindings: mtd: physmap: Reuse the generic definitions
-991088a637c54377b395520631bd1e8f068d524a dt-bindings: mtd: partitions: Constrain the list of parsers
-e141ee8234d02727b421058df56f5959b7dc0ed0 dt-bindings: mtd: partitions: Change qcom,smem-part partition type
-c0fc45f7d305688f727fb44a66554233b1624ab9 dt-bindings: mtd: nvmem-cells: Drop range property from example
-f4b37577a431fe1e79b859f6ad3890e29cfcf747 dt-bindings: mtd: nvmem-cells: Inherit from MTD partitions
-d85cebfbc6f97b38a23527649758521a04b577e1 dt-bindings: mtd: Argue in favor of keeping additionalProperties set to true
-d963af0b23ca4a72d913b0ce56ce5e270dcfa00f dt-bindings: mtd: Drop object types when referencing other files
-74f4d7974d2fc88fa39538c0748a2e44ae6c8b9d dt-bindings: mtd: Standardize the style in the examples
-2f05bff26c9e847ac5f68370eaf3e5f5d3bc58ce dt-bindings: mtd: fixed-partitions: Fix 'sercomm,scpart-id' schema
-085679b15b5af65f9610f619afde41da0f966194 mtd: parsers: refer to ARCH_BCMBCA instead of ARCH_BCM4908
+certificate version 0.1
+pusher B6C41CE35664996C! 1668719855 -0500
+pushee gitolite.kernel.org:pub/scm/docs/docsko/korg
+nonce 1668719855-78aa80e6ba40f86a2a9b7dbd59993fc357ef6595
 
---===============9108975942250340767==--
+2af6dc79e851e42f10b48c6a707ef9baa7860f3f f79a2fcc24b92d2abb69cfa2097e761fede64fd7 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCY3ak7wAKCRC2xBzjVmSZ
+bMiBAP9HHcLisSE/bl/mn2SWfZ3zAEjSGlq9OBE277LB2EWWOwEApV4O8ugcL7+t
+X6xNHzUyrZzU0kK3hJWeCv3Hya9aUAk=
+=jmG3
+-----END PGP SIGNATURE-----
+
+--===============9127276707164895992==--
