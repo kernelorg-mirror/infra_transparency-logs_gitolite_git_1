@@ -1,16 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/daveh/devel
-Date: Thu, 17 Nov 2022 19:06:21 -0000
-Message-Id: <166871198187.5593.18436335939456343453@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
+Date: Thu, 17 Nov 2022 19:08:47 -0000
+Message-Id: <166871212703.6521.934037877196895623@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/daveh/devel
-user: daveh
+repo: pub/scm/linux/kernel/git/jejb/scsi
+user: jejb
 changes:
-  - ref: refs/heads/tdxreport
-    old: 0000000000000000000000000000000000000000
-    new: 00e07cfbdf0b232f7553f0175f8f4e8d792f7e90
+  - ref: refs/heads/fixes-base
+    old: 307539eed46395d27e0ecc0ae4d9d6e99eb15fcd
+    new: ecb8c2580d37dbb641451049376d80c8afaa387f
+    log: |
+         62fa3ce05d5d73c5eccc40b2db493f55fecfc446 scsi: ibmvfc: Avoid path failures during live migration
+         5d7bebf2dfb0dc97aac1fbace0910e557ecdb16f scsi: scsi_transport_sas: Fix error handling in sas_phy_add()
+         ecb8c2580d37dbb641451049376d80c8afaa387f scsi: scsi_debug: Make the READ CAPACITY response compliant with ZBC
+         
