@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8387242336758319308=="
+Content-Type: multipart/mixed; boundary="===============5596721210519012746=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Thu, 17 Nov 2022 18:25:53 -0000
-Message-Id: <166870955394.9345.7100448270339137527@gitolite.kernel.org>
+Date: Thu, 17 Nov 2022 18:26:07 -0000
+Message-Id: <166870956737.9504.1969189342205143643@gitolite.kernel.org>
 
---===============8387242336758319308==
+--===============5596721210519012746==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-queue
-    old: 8098db5a0941a08cce3cc48f0e9a70dd08232f37
-    new: 1b637bf97a951bdd32436fbe81645443a81d3d0a
-    log: revlist-8098db5a0941-1b637bf97a95.txt
+  - ref: refs/heads/6.2/scsi-queue
+    old: e6629dcb00adeebcfeaee45b1c987a84eb3ce1ba
+    new: e56ca6bcd2136207868516f5a304fbb82cc0cb82
+    log: revlist-e6629dcb00ad-e56ca6bcd213.txt
 
---===============8387242336758319308==
+--===============5596721210519012746==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1668709544 -0500
+pusher 75C5DE3D 1668709557 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1668709543-fe32c5a8c3f9f048306d48c56f66f46525d4a96f
+nonce 1668709557-2fd76520d5f393aa7c568581fe673128f21a58cf
 
-8098db5a0941a08cce3cc48f0e9a70dd08232f37 1b637bf97a951bdd32436fbe81645443a81d3d0a refs/tags/mkp-scsi-queue
+e6629dcb00adeebcfeaee45b1c987a84eb3ce1ba e56ca6bcd2136207868516f5a304fbb82cc0cb82 refs/heads/6.2/scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmN2fKgACgkQ7ulgGnXF
-3j3QqQ//TPCof64hg5gG4CQDUlbnDSPqCLaqVYt1NYgwEdmmzAeSoJXOgBftLtR3
-ZXJ2/tGqTfvDS9vFg72pCGTIbmqTj/9yXf0KZOAumAe1CA6bEJSSqP2ZW+6GsuwB
-V45vbhpxPZcch+brdLdbgt5CNvlkLwKYhj7Lb5FK4rpNmCVt3a/9ODb5AzsOigYw
-O64SwEECQtnLZ2uzzOeFvtEEoR48NuZjBEc2xa+SYtykfvGQbO6MbaL2jb6TPXzf
-oEvMFJnc06bxw5eDOHSp5gyHcpIRTzjQ8F1yn5nimhQZHO729vHM7zrArbKEEPBx
-4jgLTdXvV7y8kFYceJC0WOKh/MdWR17/H/I0U97FCK7v3B4Tiu0/UckhPEg2bv0H
-iN3hKkeLk0Puf9KXmDSKw0938o8W0lwS+NjjVYW1ifuQ5eQSzVAmU74xOhEtj4HI
-m3FG45IefkNTo9eAo+DTjQcMr5Cp3E4IE/aN1iklmmNLKOdr7VV9tIMEIBmsiV7Q
-cXOjfarhIayDROrB53/A2Amd1nxE9Ds2oMMx36lcl9V54D4EvuDyLM6DFZd60n4f
-5vl5SpdFOZVHmO+UcbLv3ix/qe+hiqLghpn/OaMdZPlXmCX8An7gunL9Hrdghzrc
-EvFX+2TydUxVQkk7Ra0SSqiUmkncAPA2nFqQRcw0S+BHbrJbPmk=
-=7M0i
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmN2fLUACgkQ7ulgGnXF
+3j0Iqw//WNLx5q6Y4pAzEBXnQkXtXCxC0j/dgYs0Klxt25seIHX9YBTgfr1o0gwB
+w7vdmMzy/hECI2F4S7X49FILbVCP5lUp62Xg9sytJ37fYV8/0Jqk5EHDPSn1/mmN
+wSdPKE4nd/si72XkZ8KqYWmu5H3xIVXpCfd7ul3YIrZbLb8VLoPCFuCYwP0m0vVB
+eh/jGucBVlilcoqVNgN1ylcLlnifBbwlaUZSLVpIm1usXtGbYdvAcnN7AHFjPDTQ
+mVXLRliexKAuhuG6yZetXHGufUKLwW1na8+W1yDGf0V43heN8MLzRZWYCZ+XC6ko
+SiD2LgeHsYxlmdDp6HgmYS4rDP524o8WNxn74Mkk7GCS7fZpoLB4nQ0NTQ9kgP/k
+S9Dgt7t9FEAcWmnWPQt7m7oWineDz5WanIVEC+KESdgZDKxXqqbpIsav7XVm06FO
+Up0KTAKrczP7oRvr6fMx0lone8aQdskAC33wy2O3TahouoML/opWXdW02palwuQ6
+ax2wfC45eqWLUGj0FkmRNgLzYpk+SaSZ0s+rm1MJiEP8eui6+56NUIOqW3MjlvK9
+ewXvHzKSI+8szyOoDJQyDxDEaBljreaAtzc1LVFxF3fmY8qfZlG8niGhim2L1BWj
+nC+146D83h/WqjPh42HsYBWU6/YSAN022ZHLX7PemXilmmanmew=
+=YpIb
 -----END PGP SIGNATURE-----
 
---===============8387242336758319308==
+--===============5596721210519012746==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8098db5a0941-1b637bf97a95.txt
+Content-Disposition: attachment; filename=revlist-e6629dcb00ad-e56ca6bcd213.txt
 
 bc77fb9ce40c276cedf889dca2bc6d1b1edc2763 scsi: ufs: core: Refactor ufshcd_hba_enable()
 e47c49219c1e20760cd66cef4411b35a3a86c0a2 scsi: NCR5380: Fix repeated words in comment
@@ -73,4 +73,4 @@ e137b81d30e7ef8ec27a77c3b2cbbad52845872a scsi: qla2xxx: Remove unused variable '
 bc81131813aaf6fe764d1cc6b942a35a8c0c5c36 scsi: target: core: Remove unused variable 'unit_serial_len'
 e56ca6bcd2136207868516f5a304fbb82cc0cb82 scsi: target: Use kstrtobool() instead of strtobool()
 
---===============8387242336758319308==--
+--===============5596721210519012746==--
