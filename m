@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Thu, 17 Nov 2022 21:24:13 -0000
-Message-Id: <166872025301.6233.5319294743076485555@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Thu, 17 Nov 2022 21:40:18 -0000
+Message-Id: <166872121888.19381.17937014633324670284@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/tip/tip
+user: daveh
 changes:
-  - ref: refs/heads/master
-    old: 818032be7b5239691bf4b7d431c2323980e54661
-    new: 208d78247f7ccfcc6892fdf45abcf59a65c971c9
+  - ref: refs/heads/x86/tdx
+    old: 094226ad94f471a9f19e8f8e7140a09c2625abaa
+    new: 00e07cfbdf0b232f7553f0175f8f4e8d792f7e90
     log: |
-         f95afcf987cf54043bdbf17dcfe15566e7115db6 foo
-         208d78247f7ccfcc6892fdf45abcf59a65c971c9 foo
+         51acfe89af1118f906f9b68d95fdfb22832ac960 x86/tdx: Add a wrapper to get TDREPORT0 from the TDX Module
+         6c8c1406a6d6a3f2e61ac590f5c0994231bc6be7 virt: Add TDX guest driver
+         00e07cfbdf0b232f7553f0175f8f4e8d792f7e90 selftests/tdx: Test TDX attestation GetReport support
          
