@@ -1,48 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============8171702469720111991=="
+Content-Type: multipart/mixed; boundary="===============8411670866463160755=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Thu, 17 Nov 2022 16:17:39 -0000
-Message-Id: <166870185925.9353.15985167222740156817@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ogabbay/linux
+Date: Thu, 17 Nov 2022 16:21:56 -0000
+Message-Id: <166870211605.12425.1096354342979866743@gitolite.kernel.org>
 
---===============8171702469720111991==
+--===============8411670866463160755==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
-user: acme
+repo: pub/scm/linux/kernel/git/ogabbay/linux
+user: ogabbay
 changes:
-  - ref: refs/heads/tmp.perf/core
-    old: 63a3bf5e8d9e79ce456c8f73d4395a5a51d841b1
-    new: 956895b30e9d5595c95279699b0aa7e070e31da8
-    log: revlist-63a3bf5e8d9e-956895b30e9d.txt
+  - ref: refs/heads/habanalabs-next
+    old: 5da44303ada73a6e5ce761fab12e34ce658ff341
+    new: 83e9fbf6c9d2cab414cdc6e82ebee2e64083de65
+    log: revlist-5da44303ada7-83e9fbf6c9d2.txt
 
---===============8171702469720111991==
+--===============8411670866463160755==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-63a3bf5e8d9e-956895b30e9d.txt
+Content-Disposition: attachment; filename=revlist-5da44303ada7-83e9fbf6c9d2.txt
 
-84e2d1ec6a8425ef3719bf00866806ac92cba991 tools lib api: Clean up install_headers
-256300d1b34e895f1d6a95b99a5a6b6c841043fa tools lib bpf: Avoid install_headers make warning
-854fe753116c46f630b3e1bce99e43567cbf216f tools lib symbol: Clean up build output
-9dd11297ecbc98f63c3748a2cf710491ccb3f7af tools lib perf: Make install_headers clearer
-352e9424c8a7db9a60478d785a7a6ead8271e801 tools lib subcmd: Make install_headers clearer
-9b1523bc63658c65c594f41336615473c8881ddd tools lib traceevent: Make install_headers clearer
-20a0613067660e908174f197dbdf39c0b10c1e3b perf test: Add -w/--workload option
-9c5c8399928a9111502888b77740a153277a2a7f perf test: Replace pipe test workload with noploop
-41a5ed4eb51d698bf320b0e2f6db3a1d54e495ff perf test: Add 'thloop' test workload
-b4aa4987ddc53716d21dc0dfd128d6b2cca69742 perf test: Replace record test workload with thloop
-ff317f97313439153b95468af1c5aa206e8d127f perf test: Add 'leafloop' test workload
-c4f3a3c823909bdbe12cdcb3022b1de7bca28365 perf test: Replace arm callgraph fp test workload with leafloop
-9ff0e2b0ec65bff0ebc7e516f58de691d4527546 perf test: Add 'sqrtloop' test workload
-b06dfda8ade3daa439794d69d492c8a4f439f1e1 perf test: Replace arm spe fork test workload with sqrtloop
-eb90cc6036396f8a9c8548f82d7ca8875e90c94d perf test: Add 'brstack' test workload
-99e6dbcaff39a30bbeb51e803765007d2bd60664 perf test: Replace brstack test workload
-ecbbbe577f4ae8af6abf22dc5c37a0ff9a55bfc4 perf test: Add 'datasym' test workload
-956895b30e9d5595c95279699b0aa7e070e31da8 perf test: Replace data symbol test workload with datasym
+97c2c7d17c502aef2c2fe76ad63e08956f33f0b0 habanalabs/gaudi2: add PCI revision 2 support
+07ce5ec338eb108ec18dd15b3fe3a117046fd829 habanalabs/gaudi: add razwi notify event
+5d79b295e11c4df675746ee62903c4e88dc2a2a1 habanalabs: use single threaded WQ for event handling
+dacf943491a46f2d3c8a2d2dd95fd0e894bd18f9 habanalabs/gaudi: add page fault notify event
+13524a494d2e41568ebdc3934e10961bede5f7c5 habanalabs/gaudi2: implement fp32 not supported event
+2535a0e22f234be3777fde7c9892f7ad68c00151 habanalabs/gaudi2: add razwi notify event
+a79542c9a2ccd664f0c09dc71b7c22b2d9cba619 habanalabs: fix firmware descriptor copy operation
+08d2f1b81d678b1b6dea011cab74270b468cb0a2 habanalabs: skip events info ioctl if not supported
+176577611d439f22003d0a7b3336c172f67c3795 habanalabs/gaudi2: classify power/thermal events as info
+da0a47f01322a375bb8f935886944d8362851172 habanalabs/gaudi2: add page fault notify event
+9dbf79ad1aa9cfb01bdd735b90edfb394b98c30f habanalabs: fix print for out-of-sync and pkt-failure events
+50645a1cfa89c3aa10d32760c139d939fa3bad2b habanalabs/gaudi: fix print for firmware-alive event
+580c393f11345f49def44e69a53582d0e1d88bd4 habanalabs/gaudi2: remove redundant firmware version check
+97de35d9a992d3620687ead2aeb6071926407556 habanalabs/gaudi2: don't enable entries in the MSIX_GW table
+5c573fd913fc6dcd6471f8685e2936bca3b8cebd habanalabs/gaudi2: return to reset upon SM SEI BRESP error
+468606186708a261346947d8ce6848e825a36808 habanalabs: reset device if still in use when released
+ea7793b6effce0010d6cc81a30aa0475b377f140 habanalabs: check schedule_hard_reset correctly
+ce9ce9c140df5f66fb50a258cd80cf146fc74680 habanalabs: extend process wait timeout in device fine
+9541a7d8571d0267ed72b075bf9b69e71f57e5c5 habanalabs/gaudi2: change memory scrub mechanism
+83e9fbf6c9d2cab414cdc6e82ebee2e64083de65 habanalabs: increase the size of busy engines mask
 
---===============8171702469720111991==--
+--===============8411670866463160755==--
