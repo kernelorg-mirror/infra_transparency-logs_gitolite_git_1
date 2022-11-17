@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5416356431786269437=="
+Content-Type: multipart/mixed; boundary="===============7794627708266797175=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Thu, 17 Nov 2022 18:26:35 -0000
-Message-Id: <166870959595.9817.4246897915829670213@gitolite.kernel.org>
+Date: Thu, 17 Nov 2022 18:26:49 -0000
+Message-Id: <166870960957.9971.13250102283390461802@gitolite.kernel.org>
 
---===============5416356431786269437==
+--===============7794627708266797175==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-staging
-    old: 8f2e94cfd3d8c6c7dfe2e08889d1833476c277fe
-    new: 8348a3240400fa937ab2deb7a7f4b63514084dc9
-    log: revlist-8f2e94cfd3d8-8348a3240400.txt
+  - ref: refs/heads/6.2/scsi-staging
+    old: e56ca6bcd2136207868516f5a304fbb82cc0cb82
+    new: ae8011fe076da06f471258269b8ea28ed7df185b
+    log: revlist-e56ca6bcd213-ae8011fe076d.txt
 
---===============5416356431786269437==
+--===============7794627708266797175==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1668709585 -0500
+pusher 75C5DE3D 1668709599 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1668709585-7116e9e8102ddd47ae11a859162ef139bf801cb4
+nonce 1668709599-5ad1205f861f92c6abc16ce7eb1d888b0334dfdf
 
-8f2e94cfd3d8c6c7dfe2e08889d1833476c277fe 8348a3240400fa937ab2deb7a7f4b63514084dc9 refs/tags/mkp-scsi-staging
+e56ca6bcd2136207868516f5a304fbb82cc0cb82 ae8011fe076da06f471258269b8ea28ed7df185b refs/heads/6.2/scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmN2fNEACgkQ7ulgGnXF
-3j206Q/+LsuPMcKGhY7FmtNP4au1v2kIR5o69HUoKPINjr7PCvmfCeBD1DzWX7Mq
-sE3jarYqXAFxTc5O9235iyE2UHH2oQ7X9TlouLTL2jm319r8nhC/NDSa4pgrZMRu
-/otVpRZeAucIb5Ixz/k7RQB+vPMd3Y6vu8Lf1IIIEkAAqRGqAkgCqlxt29zxJ7pf
-+yTTW3lMC0K8+HGfJ4UvelZ5DaC7vcjv3Rjuw67e/OupJ6eam3mknAaK0LRY6+BW
-0IRfhHybWy91E0r1+T5iysThaotOgK5Z/LfEj7J25koxOiwnyE1y7jwHVPlx03Tv
-kKyHNyJ3mJxEl7YIQq1wox4zQn6SC5hjHYeQW0lfqLkYvnzF+V/QhXwZx+MZTBvW
-SIjq0f46Z6/tm6FeXcebkoNyOAEJsA4ruGMdJnCxeKMUYnmwOGZgAiajEuy52utm
-1uW+rmeswzUwPKPzoLbF22Jxt5GyiCmBlyl37ySuIUuNZ/QKJScY/koVOyHfTYHw
-xgoWujdhAz2rWOLXDrlPmwgdHOVAqQfSvAhfzJswqutBmGyE9zGhY3rCpqmX8ejR
-9nSfrq4P+u/cVRIxOhAGxDFb86hdzI0f76acmWT28HxhlZwhiW9zAhoLRHmQpb5r
-Rot+ijTRquTQdDum4QrovP0w+ePLP+hGdhsT6u7A/4TpoqwIXmc=
-=vrSI
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmN2fN8ACgkQ7ulgGnXF
+3j3p8xAAjQiJVgXIP05iUXAKcQrKKKKyPdl6aH/JQnwW2RpGpt8bTAYMQmLp3L6G
+rqygfB7xdOmGx+hbWAp6uSxQ5rSwrt7r8chGVbbYBEgjn+RPejyz7V1gvNToJeiz
+DoNxiCKv+C2MN44hPxW0vmq66j4CrTIGFDdHIb9G9NaLKFJVuGRgX3uMrY0gU/3c
+d08SUbcxjE5yGsWqxQw6z8p3JNrGAd7/wLNopMNPOEmnoAT7zEerKr5VG4VJqaFR
+/W5jiXvUrctABLhB6dUDT8tbEQIIr8d2N6y/dePPfSXsMs8fVNxyq40um0qB4K0+
+gd6paxxk2PqU5vwHvqQWW4JCD0LSC/lho6MFv8MFWrUMRXDAE+QVX6nyIIfA45nw
+2ipvoyHihyaQUpORwblpHlum83s1FI6JbaewowUCjdBZPNX6/KojWcPQ+jY0hU0H
+yyzLBglsLKkxkgSjZFz23SQ4PxroVm4m8isxtxNuTW6Jmeolaq3GYbpyeFvRYi/2
+Px7/Fp7v7UQhItGqUfziW8NK8WbehVyUjSExw6u5fXr0BiyKfD/cwOdKpWC9Q2vf
+PUpdPOKbh10Q6F2YCiP0JEPphAUj86Y0N11l8gDmk9FauBXnm9/IavmgvgkMzGk2
+m0uPe07/WtY30tsqJIxYAkxVosHT1SgLUDvcVZWOoloCTH/gZUM=
+=ThCk
 -----END PGP SIGNATURE-----
 
---===============5416356431786269437==
+--===============7794627708266797175==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8f2e94cfd3d8-8348a3240400.txt
+Content-Disposition: attachment; filename=revlist-e56ca6bcd213-ae8011fe076d.txt
 
 729c287e9f7481d630b69c73960e2ac990cd04fc scsi: lpfc: Remove redundant pointer 'lp'
 b27ac2faa2fc0b2677cf1cbd270af734a1f5fd95 scsi: smartpqi: Convert to host_tagset
@@ -80,4 +80,4 @@ d99af587d59ca39747b4328dad0b193655835c90 scsi: lpfc: Fix MI capability display i
 35c5cc0bae8d29f0d9deec0a723bfdfe1d85e6e5 scsi: target: core: Make hw_max_sectors store the sectors amount in blocks
 ae8011fe076da06f471258269b8ea28ed7df185b scsi: target: core: Change the way target_xcopy_do_work() sets restiction on max I/O
 
---===============5416356431786269437==--
+--===============7794627708266797175==--
