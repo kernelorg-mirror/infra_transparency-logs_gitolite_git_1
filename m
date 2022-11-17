@@ -1,41 +1,43 @@
-Content-Type: multipart/mixed; boundary="===============4684419668529701734=="
+Content-Type: multipart/mixed; boundary="===============6810068990630511910=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/djakov/icc
-Date: Thu, 17 Nov 2022 16:28:55 -0000
-Message-Id: <166870253512.18077.818273576026016837@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/crng/random
+Date: Thu, 17 Nov 2022 16:31:47 -0000
+Message-Id: <166870270726.20784.6092496884353995003@gitolite.kernel.org>
 
---===============4684419668529701734==
+--===============6810068990630511910==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/djakov/icc
-user: djakov
+repo: pub/scm/linux/kernel/git/crng/random
+user: zx2c4
 changes:
-  - ref: refs/heads/icc-next
-    old: 1498a5a79980fb86458297df2b4aaa9cc56503b3
-    new: 26e90ec7a8403fc8f7a4507098d7d262e9c2d302
-    log: revlist-1498a5a79980-26e90ec7a840.txt
+  - ref: refs/heads/master
+    old: 1679374191e5a9d2e14d90387c13ea6c380837dd
+    new: 6b842802c798a78714488cf13d4d487372683173
+    log: revlist-1679374191e5-6b842802c798.txt
 
---===============4684419668529701734==
+--===============6810068990630511910==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1498a5a79980-26e90ec7a840.txt
+Content-Disposition: attachment; filename=revlist-1679374191e5-6b842802c798.txt
 
-4529992c947401adac53111cf15958a7ea97b1ef interconnect: qcom: osm-l3: Use platform-independent node ids
-d623264f62d40ca2d2380437f8a6318a2a9e4c66 interconnect: qcom: osm-l3: Squash common descriptors
-9235253ec73dfd71cc83d154693476930fc8dd77 interconnect: qcom: osm-l3: Add per-core EPSS L3 support
-b6bcef163ae0c4329187eea8431a735a60b1d7bb interconnect: qcom: osm-l3: Simplify osm_l3_set()
-c70edc06773976f4e6ccfe250030a73c2896e131 dt-bindings: interconnect: Add sm8350, sc8280xp and generic OSM L3 compatibles
-2d710b00f22f3fcbc4e0189524bbf36731d9baf4 dt-bindings: interconnect: qcom,msm8998-bwmon: Add sc8280xp bwmon instances
-c423f01633eb948ba6f8c98872b4119685e007fb interconnect: qcom: icc-rpm: Remove redundant dev_err call
-f24227a640344f894522045f74bb2decbdc4f55e interconnect: qcom: sc7180: fix dropped const of qcom_icc_bcm
-7870c7076aa07d9caaf53652d6b5a3cd74b1d157 interconnect: qcom: sc7180: drop double space
-c1c537cf30bc539d8f6fa4ac315a8def23fd4ae8 interconnect: qcom: sc8180x: constify pointer to qcom_icc_node
-26e90ec7a8403fc8f7a4507098d7d262e9c2d302 Merge branch 'icc-sc8280xp-l3' into icc-next
+e46e44d4dd774fa93d6a403c131955742d865011 random: add helpers for random numbers with given floor or range
+301584bfae56e7c2986c24d164ac5a9eb923e781 kcsan: remove rng selftest
+03ba0f022c5c5def9676ce9413860de93b6f32e6 treewide: use get_random_u32_below() instead of deprecated function
+fa749afde78d67d0abc3c7f89977fe465dcdf1fd treewide: use get_random_u32_{above,below}() instead of manual loop
+c26dd2fbdd4d4abbfed2085ce4dc31e7903df6f6 treewide: use get_random_u32_inclusive() when possible
+b2a3050b0b817e5ae9b358adb98b88ca849857cd stackprotector: move get_random_canary() into stackprotector.h
+5c14534307a186f489feeefe5b23e8f5eccd281b stackprotector: actually use get_random_canary()
+d6a93bafb3fd7a50f2ccca05d2e4135253a2b560 random: use random.trust_{bootloader,cpu} command line option only
+85ed9516957da41d908691fa3bddd9d3cb7a9d27 random: remove early archrandom abstraction
+6a21fffd5ae5fb8b40a115674ba557504597267e random: adjust comment to account for removed function
+b7737ad1c0401f725bd66dc12a026df003b01f9e random: modernize documentation comment on get_random_bytes()
+a5f5144ecd8bba0dd41b8b245d05a474b1fd5cce hw_random: use add_hwgenerator_randomness() for early entropy
+6b842802c798a78714488cf13d4d487372683173 random: always mix cycle counter in add_latent_entropy()
 
---===============4684419668529701734==--
+--===============6810068990630511910==--
