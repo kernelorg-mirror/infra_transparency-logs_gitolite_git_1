@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pablo/linux-ft
-Date: Thu, 17 Nov 2022 15:15:23 -0000
-Message-Id: <166869812394.29059.10134855970934399116@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Thu, 17 Nov 2022 15:27:03 -0000
+Message-Id: <166869882387.5319.8868678630848095760@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pablo/linux-ft
-user: pablo
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: dborkman
 changes:
-  - ref: refs/heads/nft-bulk-v5.15-4
-    old: f1d072468afbc362a7c74b9956b021d78d8c1adc
-    new: 9c928d604872176bd0bc4111fdf6fc1915b97013
+  - ref: refs/heads/master
+    old: c453e64cbc9532c0c2edfa999c35d29dad16b8bb
+    new: 383f1a8df8faba88a3bafaddc02f59421bad6829
     log: |
-         9c928d604872176bd0bc4111fdf6fc1915b97013 xfrm: fix next device in .fill_forward_path
+         383f1a8df8faba88a3bafaddc02f59421bad6829 bpf/docs: Include blank lines between bullet points in bpf_devel_QA.rst
          
