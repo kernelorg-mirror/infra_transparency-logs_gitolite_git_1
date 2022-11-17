@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/atorgue/stm32
-Date: Thu, 17 Nov 2022 08:38:09 -0000
-Message-Id: <166867428946.20705.11234803678705875879@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Thu, 17 Nov 2022 08:41:17 -0000
+Message-Id: <166867447763.23404.11409091311091696307@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/atorgue/stm32
-user: atorgue
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: leon
 changes:
-  - ref: refs/heads/stm32-next
-    old: c07696f72ebbdf3b2fb04cd17827d4b938842a5f
-    new: 4cca342b840e8d308abf676e165b54719d1b10e7
+  - ref: refs/heads/for-next
+    old: 3574cfdca28543e2e8db649297cd6659ea8e4bb8
+    new: ecacb3751f254572af0009b9501e2cdc83a30b6a
     log: |
-         4cca342b840e8d308abf676e165b54719d1b10e7 ARM: dts: stm32: Rename mdio0 to mdio on DHCOR Testbench board
+         dac153f2802db1ad46207283cb9b2aae3d707a45 RDMA/restrack: Release MR restrack when delete
+         5e15ff29b156bbbdeadae230c8ecd5ecd8ca2477 RDMA/core: Make sure "ib_port" is valid when access sysfs node
+         ecacb3751f254572af0009b9501e2cdc83a30b6a RDMA/nldev: Return "-EAGAIN" if the cm_id isn't from expected port
          
