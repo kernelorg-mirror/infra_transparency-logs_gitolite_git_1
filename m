@@ -1,53 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============4249445720397017278=="
+Content-Type: multipart/mixed; boundary="===============8911613871988530092=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/crng/random
-Date: Thu, 17 Nov 2022 19:51:09 -0000
-Message-Id: <166871466969.5840.9323789040122110315@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Thu, 17 Nov 2022 20:11:29 -0000
+Message-Id: <166871588980.20417.3729413383009956002@gitolite.kernel.org>
 
---===============4249445720397017278==
+--===============8911613871988530092==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/crng/random
-user: zx2c4
+repo: pub/scm/linux/kernel/git/acme/linux
+user: acme
 changes:
-  - ref: refs/heads/efiseed
-    old: 31d9914d2e2cd5e1d27a98f0313c6d67cc70b63b
-    new: fe1b5da57c9df1248452e1deda4152fb24d33b60
-    log: revlist-31d9914d2e2c-fe1b5da57c9d.txt
+  - ref: refs/heads/tmp.perf/core
+    old: ec2f069de9a8a11a929d2684791eb2b6328efc71
+    new: e42b0ee61282a2f969d7267e92ea88d8f5a4e2ce
+    log: revlist-ec2f069de9a8-e42b0ee61282.txt
 
---===============4249445720397017278==
+--===============8911613871988530092==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-31d9914d2e2c-fe1b5da57c9d.txt
+Content-Disposition: attachment; filename=revlist-ec2f069de9a8-e42b0ee61282.txt
 
-6ce625939e58174df5a006ba8aa9d4c0013dfcf8 kcsan: remove rng selftest
-e9a688bcb19348862afe30d7c85bc37c4c293471 random: use rejection sampling for uniform bounded random integers
-d955b7cde64ab19de23538955629824d99f18fce random: add helpers for random numbers with given floor or range
-9c3a6b409da029c924aaf438eba52ee74ebf88a3 treewide: use get_random_u32_below() instead of deprecated function
-7c73e3dae17c7857be18136d028d587caebed0fd treewide: use get_random_u32_{above,below}() instead of manual loop
-d4bbc84bc8feec3127881263f80362a4c579b814 treewide: use get_random_u32_inclusive() when possible
-d56a99b1b4fc3749f4d07fb4ec90a0ae5443408b stackprotector: move get_random_canary() into stackprotector.h
-da6347f72fe43714d3f7514254244f38f7120c09 stackprotector: actually use get_random_canary()
-e01e49357690558ab6d3407cf4a9dea47941a762 random: use random.trust_{bootloader,cpu} command line option only
-8c485ea9f84cd28e546b7bbfc890b1450a7f31c7 random: remove early archrandom abstraction
-500e1db2e208c19db7fd03e0bf42ea5c262db611 random: adjust comment to account for removed function
-66f6fa4b5a5df401d8c9845d995ac05ebd517257 random: modernize documentation comment on get_random_bytes()
-115ef79cab6eaf32f3944f3b976b78accee83eda hw_random: use add_hwgenerator_randomness() for early entropy
-004342ea69e58f17bb16f502def74444695cc1a9 random: always mix cycle counter in add_latent_entropy()
-6d122fa4711ac5232a4472763d12326e25e9e99d random: reseed in delayed work rather than on-demand
-24dfe71d57244a1d4a88395692488281aaa6e735 efi: random: zero out secret after use and do not take minimum
-de8b850629ff714f438eec2ee19be7dd6a17814f efi: random: remove extraneous dmesg notice
-7e0356b0723eb3f46a97b78302a40af10fc4c3ca efi: random: combine bootloader provided RNG seed with RNG protocol output
-928a57f32d04ca54297f0f4e261b4c9a1a5ec6ad efi: efivarfs: prohibit reading random seed variables
-b89c479816538517102250eb64a113f2dea6b8c3 efi: random: use random seed from EFI variable
-8ba425edcf7405f496af8d17a84b270b4540a95b random: add back async readiness notifier
-019394dad8083afb89b978ff84abbb815ed2d117 vsprintf: initialize siphash key using notifier
-fe1b5da57c9df1248452e1deda4152fb24d33b60 efi: random: refresh non-volatile random seed when RNG is initialized
+b83b26cd596baee8fccf4e43115932d4da9f4292 tools lib bpf: Avoid install_headers make warning
+eda74b82f1b8f3a9815e073ded1c0c4c6cd090ef tools lib symbol: Clean up build output
+edc87f19b67ef97a56842bf44063c824af73c6aa tools lib perf: Make install_headers clearer
+1cf4218eaeb78f013e6e09ad1df7fc655f90d2d7 tools lib subcmd: Make install_headers clearer
+ebd0f4e1bf2796ccf0d66b1f6d27df55292d1d28 tools lib traceevent: Make install_headers clearer
+e2c9503abae002da478b638f3178bd5eeac0f5f1 perf test: Add -w/--workload option
+1747da951ca89e79273ff9fee1687e6524589573 perf test: Replace pipe test workload with noploop
+d625525c0ee02f7587abf5538336ccdf67a84b9d perf test: Add 'thloop' test workload
+7f57c2ad3cab5d7de4c5373252f200a94e61e1e6 perf test: Replace record test workload with thloop
+38c103ec1fc084319e969c79b139cd0b54de833b perf test: Add 'leafloop' test workload
+3cd9e5ec2a954dd5904ab65e465a6127fa232216 perf test: Replace arm callgraph fp test workload with leafloop
+cc80333354655865462674ef1dec8b08d14945b8 perf test: Add 'sqrtloop' test workload
+60d8396c5f0176e85b978b83d2b5a2ea99ee5c4c perf test: Replace arm spe fork test workload with sqrtloop
+3280943dcb4a7914266d5b9592fa1611e4824d19 perf test: Add 'brstack' test workload
+2ab184a3ba869ec0a9f3ac5c67398b1b1283dda4 perf test: Replace brstack test workload
+f27268416c865a11323d23b9bb4b038c2cd9f76f perf test: Add 'datasym' test workload
+039cb238afd25b9c0623baf3109c0df5fd6f8e19 perf test: Replace data symbol test workload with datasym
+a4d4bc63189eb412a7e3ca0078c5e55a6507157d perf build: Fix LIBTRACEEVENT_DYNAMIC
+48fa6ccb291e94d114a64d1ea64b613e9354756c perf list: Reorganize to use callbacks to allow honouring command line options
+e42b0ee61282a2f969d7267e92ea88d8f5a4e2ce perf list: Add JSON output option
 
---===============4249445720397017278==--
+--===============8911613871988530092==--
