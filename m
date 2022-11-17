@@ -1,21 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Thu, 17 Nov 2022 16:44:31 -0000
-Message-Id: <166870347123.28551.3735697622133777941@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Thu, 17 Nov 2022 16:47:04 -0000
+Message-Id: <166870362455.31087.4027244425752509921@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
-user: acme
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
+user: tnguy
 changes:
-  - ref: refs/heads/tmp.perf/core
-    old: 956895b30e9d5595c95279699b0aa7e070e31da8
-    new: ec2f069de9a8a11a929d2684791eb2b6328efc71
+  - ref: refs/heads/master
+    old: d82303df06481235fe7cbaf605075e0c2c87e99b
+    new: b4b221bd79a1c698d9653e3ae2c3cb61cdc9aee7
     log: |
-         63326b512fdc6433e12b84df022d6716c12d3fa9 perf build: Fix LIBTRACEEVENT_DYNAMIC
-         019af551cb4e336929384940b7e5d718176a766e perf list: Reorganize to use callbacks to allow honouring command line options
-         ec2f069de9a8a11a929d2684791eb2b6328efc71 perf list: Add JSON output option
+         b0798310f84c97d91e02c950d54677cad91ec5dd sctp: sm_statefuns: Remove pointer casts of the same type
+         710cfc6ab4b85ac5388828b4be63a5f20c8a9dd9 sundance: remove unused variable cnt
+         b2e44aac91b25abbed57d785089c4b7af926a7bd NFC: nci: Allow to create multiple virtual nci devices
+         b4b221bd79a1c698d9653e3ae2c3cb61cdc9aee7 net: ethernet: renesas: Fix return type in rswitch_etha_wait_link_verification()
          
