@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Thu, 17 Nov 2022 15:27:20 -0000
-Message-Id: <166869884085.5569.10214044039220348766@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/at91/linux
+Date: Thu, 17 Nov 2022 15:28:13 -0000
+Message-Id: <166869889301.5970.12114694430503169344@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: dborkman
+repo: pub/scm/linux/kernel/git/at91/linux
+user: claudiu.beznea
 changes:
-  - ref: refs/heads/for-next
-    old: c453e64cbc9532c0c2edfa999c35d29dad16b8bb
-    new: 383f1a8df8faba88a3bafaddc02f59421bad6829
+  - ref: refs/heads/clk-microchip-fixes
+    old: 9abf2313adc1ca1b6180c508c25f22f9395cc780
+    new: 57976762428675f259339385d3324d28ee53ec02
     log: |
-         383f1a8df8faba88a3bafaddc02f59421bad6829 bpf/docs: Include blank lines between bullet points in bpf_devel_QA.rst
+         57976762428675f259339385d3324d28ee53ec02 ARM: at91: rm9200: fix usb device clock id
          
