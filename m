@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/djakov/icc
-Date: Thu, 17 Nov 2022 13:25:16 -0000
-Message-Id: <166869151668.16355.2269678757138867709@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Thu, 17 Nov 2022 13:32:49 -0000
+Message-Id: <166869196976.20738.12900135244112623454@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/djakov/icc
-user: djakov
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: pabeni
 changes:
-  - ref: refs/tags/icc-6.1-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 9c10fb7b6b199d15f62cd41321a452f786b807ea
+  - ref: refs/heads/master
+    old: b2e44aac91b25abbed57d785089c4b7af926a7bd
+    new: b4b221bd79a1c698d9653e3ae2c3cb61cdc9aee7
+    log: |
+         b4b221bd79a1c698d9653e3ae2c3cb61cdc9aee7 net: ethernet: renesas: Fix return type in rswitch_etha_wait_link_verification()
+         
