@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8112216824354635273=="
+Content-Type: multipart/mixed; boundary="===============5416356431786269437=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Thu, 17 Nov 2022 18:26:20 -0000
-Message-Id: <166870958094.9662.1887085428234418674@gitolite.kernel.org>
+Date: Thu, 17 Nov 2022 18:26:35 -0000
+Message-Id: <166870959595.9817.4246897915829670213@gitolite.kernel.org>
 
---===============8112216824354635273==
+--===============5416356431786269437==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,61 +16,68 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue
-    old: e6629dcb00adeebcfeaee45b1c987a84eb3ce1ba
-    new: e56ca6bcd2136207868516f5a304fbb82cc0cb82
-    log: revlist-e6629dcb00ad-e56ca6bcd213.txt
+  - ref: refs/tags/mkp-scsi-staging
+    old: 8f2e94cfd3d8c6c7dfe2e08889d1833476c277fe
+    new: 8348a3240400fa937ab2deb7a7f4b63514084dc9
+    log: revlist-8f2e94cfd3d8-8348a3240400.txt
 
---===============8112216824354635273==
+--===============5416356431786269437==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1668709571 -0500
+pusher 75C5DE3D 1668709585 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1668709570-cb888eee3003e0e3f7c19ec00486f212dea78569
+nonce 1668709585-7116e9e8102ddd47ae11a859162ef139bf801cb4
 
-e6629dcb00adeebcfeaee45b1c987a84eb3ce1ba e56ca6bcd2136207868516f5a304fbb82cc0cb82 refs/heads/queue
+8f2e94cfd3d8c6c7dfe2e08889d1833476c277fe 8348a3240400fa937ab2deb7a7f4b63514084dc9 refs/tags/mkp-scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmN2fMMACgkQ7ulgGnXF
-3j2A/A/+PN4nonnvcBTwAsZxyUVVVJQ6lVGjqnHAYA2weuhaHbffW7s1JQwILFSQ
-wWgKUAz38DF9IHnSanDJUMv9936RehNDqg4i6VbFDJrRdgQavJHiFcFQ1pD+DfK1
-LSZXv9iz3sWMzLtVMnu+ZewRV/xRhhU/i5bs4f/nBrbI319Y0FT7KfJAz9zJfQZy
-IwTwTJxSt7lmv6qoJcoD+Z8HZqfrUEFVRFUxczw87V8T/8qQ45TkQv5c/WoW4xVl
-uLjomTeH4zOY1S13McCj71oirYy53hGqVHim8If7os2JE5SEORSaPVLMJxiFEshf
-v9eTYgpV8XIjcPQIkY6R+lCi2zvHN8jV4aSPyWeBQmqYgaKeJY4VgPIy3HA+lx6A
-Z4oir/7iYtXoZX6LAT8p4MPzl5WGKsTk6ke028hW0vstGSR8z8t/LItkm2OfspSR
-iLA/9PjvdbK0K/+YLBVGX3tr19KKHMO3JC2zKzH0UjWRusxjQy1oR25i9OEWk+uK
-8p4cZ8mfUAamDaNOvc9pDj2Li2QJzS8Q2hM4FLk3wGpyqRUj8wBHDyb0ZEGT/Tu4
-rb05R/9MUQdRZPAT4tLU422EY81z195ELLDT7NjnFDGJDLikE9Fgak58SbgpknK3
-ToMj3GbXDmJxKtsH7g+7ls/RPoJLSzJ70vLVM7h+LGbaH3yiSHs=
-=78WY
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmN2fNEACgkQ7ulgGnXF
+3j206Q/+LsuPMcKGhY7FmtNP4au1v2kIR5o69HUoKPINjr7PCvmfCeBD1DzWX7Mq
+sE3jarYqXAFxTc5O9235iyE2UHH2oQ7X9TlouLTL2jm319r8nhC/NDSa4pgrZMRu
+/otVpRZeAucIb5Ixz/k7RQB+vPMd3Y6vu8Lf1IIIEkAAqRGqAkgCqlxt29zxJ7pf
++yTTW3lMC0K8+HGfJ4UvelZ5DaC7vcjv3Rjuw67e/OupJ6eam3mknAaK0LRY6+BW
+0IRfhHybWy91E0r1+T5iysThaotOgK5Z/LfEj7J25koxOiwnyE1y7jwHVPlx03Tv
+kKyHNyJ3mJxEl7YIQq1wox4zQn6SC5hjHYeQW0lfqLkYvnzF+V/QhXwZx+MZTBvW
+SIjq0f46Z6/tm6FeXcebkoNyOAEJsA4ruGMdJnCxeKMUYnmwOGZgAiajEuy52utm
+1uW+rmeswzUwPKPzoLbF22Jxt5GyiCmBlyl37ySuIUuNZ/QKJScY/koVOyHfTYHw
+xgoWujdhAz2rWOLXDrlPmwgdHOVAqQfSvAhfzJswqutBmGyE9zGhY3rCpqmX8ejR
+9nSfrq4P+u/cVRIxOhAGxDFb86hdzI0f76acmWT28HxhlZwhiW9zAhoLRHmQpb5r
+Rot+ijTRquTQdDum4QrovP0w+ePLP+hGdhsT6u7A/4TpoqwIXmc=
+=vrSI
 -----END PGP SIGNATURE-----
 
---===============8112216824354635273==
+--===============5416356431786269437==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e6629dcb00ad-e56ca6bcd213.txt
+Content-Disposition: attachment; filename=revlist-8f2e94cfd3d8-8348a3240400.txt
 
-bc77fb9ce40c276cedf889dca2bc6d1b1edc2763 scsi: ufs: core: Refactor ufshcd_hba_enable()
-e47c49219c1e20760cd66cef4411b35a3a86c0a2 scsi: NCR5380: Fix repeated words in comment
-c7cbaab2d464484008b4f8ed66b6bb0ee99745c2 scsi: message: fusion: Remove variable 'where'
-81cb3eb68af5d0bee61ea45a72a0e6e3862b246f scsi: BusLogic: Remove variable 'adapter_count'
-b817e6ffbad7a1a0a5ca5bb7d4020823c3f4d9d0 scsi: ufs: core: Introduce ufshcd_abort_all()
-3d75e766b58a7410d4e835c534e1b4664a8f62d0 scsi: elx: libefc: Fix second parameter type in state callbacks
-3d6d7930928ace6b982258ebb81d585fe20e9f44 scsi: ufs: core: Remove check_upiu_size() from ufshcd.h
-0b25e17e9018a0ea68a9f0b4787672e8c68fa8d5 scsi: alua: Move a scsi_device_put() call out of alua_check_vpd()
-379e2554e3d10e87c0c0a728ef538f3c26d82a98 scsi: alua: Move a scsi_device_put() call out of alua_rtpg_select_sdev()
-2e5a6c3baccd31476ed00c3fbc413b48ddd87993 scsi: bfa: Convert bfad_reset_sdev_bflags() from a macro into a function
-2e79cf37b15b1936f8630d9c5805d2c76bde213b scsi: bfa: Rework bfad_reset_sdev_bflags()
-4fb2169d66b837a2986f569f5d5b81f79e6e4a4c scsi: qla2xxx: Fix set-but-not-used variable warnings
-e137b81d30e7ef8ec27a77c3b2cbbad52845872a scsi: qla2xxx: Remove unused variable 'found_devs'
-0aa46eba29553035d6af8384f19dfee2258d2a46 scsi: csiostor: Remove unused variable 'n'
-bc81131813aaf6fe764d1cc6b942a35a8c0c5c36 scsi: target: core: Remove unused variable 'unit_serial_len'
-e56ca6bcd2136207868516f5a304fbb82cc0cb82 scsi: target: Use kstrtobool() instead of strtobool()
+729c287e9f7481d630b69c73960e2ac990cd04fc scsi: lpfc: Remove redundant pointer 'lp'
+b27ac2faa2fc0b2677cf1cbd270af734a1f5fd95 scsi: smartpqi: Convert to host_tagset
+0b93cf2a9097b1c3d75642ef878ba87f15f03043 scsi: smartpqi: Add new controller PCI IDs
+7c56850637ea820a89ce2f52fca66c5ae12d0f0a scsi: smartpqi: Correct max LUN number
+cbe42ac15698a23b204a9b5c66eb0067b22cbd42 scsi: smartpqi: Change sysfs raid_level attribute to N/A for controllers
+cc9befcbbb5ebce77726f938508700d913530035 scsi: smartpqi: Correct device removal for multi-actuator devices
+14063fb625c4541f48ff0dc7ae005b0d5a159c3f scsi: smartpqi: Add controller cache flush during rmmod
+921800a1deeaa832e4303e9335a31b4234c41ac1 scsi: smartpqi: Initialize feature section info
+2ae45329a956ff86ff8bec36463b6f49d2ca9bea scsi: smartpqi: Change version to 2.1.20-035
+216e179724c1d9f57a8ababf8bd7aaabef67f01b scsi: scsi_debug: Fix a warning in resp_write_scat()
+b29e91385ce2d3aae70906f80f517f9b93d97a7b scsi: lpfc: Use memset_startat() helper
+0824050682aef5151ade16129b3a0498a07ca6c9 scsi: libfc: Remove redundant variable ev_qual
+c4c5fa35563a47957fa4f9c299ca1c6aadc27d50 scsi: bfa: Replace one-element array with flexible-array member
+2c1a0a7584f5084f3ec79f86c9a54ee4c55307c4 scsi: lpfc: Fix WQ|CQ|EQ resource check
+ae696255d655bec673e5a5707f37ff6a098e89c2 scsi: lpfc: Correct bandwidth logging during receipt of congestion sync WCQE
+d99af587d59ca39747b4328dad0b193655835c90 scsi: lpfc: Fix MI capability display in cmf_info sysfs attribute
+97f256913c5d8a633efe4f11d4ed2d6a3ea42635 scsi: lpfc: Fix crash involving race between FLOGI timeout and devloss handler
+281616903c79bfc36ef200589248515b388e424c scsi: lpfc: Change default lpfc_suppress_rsp mode to off
+6217b5c5a69028e7b386c5adf81583ec4008392b scsi: lpfc: Update lpfc version to 14.2.0.9
+08261ee11f80e89e3ecef44a80c6335839064c3c scsi: lpfc: Remove linux/msi.h include
+6975339c7eb620c27af8a4bccb948f5d74b02636 scsi: target: core: Send max transfer length in blocks
+35c5cc0bae8d29f0d9deec0a723bfdfe1d85e6e5 scsi: target: core: Make hw_max_sectors store the sectors amount in blocks
+ae8011fe076da06f471258269b8ea28ed7df185b scsi: target: core: Change the way target_xcopy_do_work() sets restiction on max I/O
 
---===============8112216824354635273==--
+--===============5416356431786269437==--
