@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4064348595513197932=="
+Content-Type: multipart/mixed; boundary="===============5705721211136248606=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Thu, 17 Nov 2022 13:00:58 -0000
-Message-Id: <166869005824.30517.1522246173076301467@gitolite.kernel.org>
+Date: Thu, 17 Nov 2022 13:01:18 -0000
+Message-Id: <166869007874.30727.14881545498703283499@gitolite.kernel.org>
 
---===============4064348595513197932==
+--===============5705721211136248606==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
-  - ref: refs/heads/perf/core
+  - ref: refs/heads/tmp.perf/core
     old: 4dd7ff4a0311eee3ac946f0824442de94b34c42e
     new: 63a3bf5e8d9e79ce456c8f73d4395a5a51d841b1
     log: revlist-4dd7ff4a0311-63a3bf5e8d9e.txt
 
---===============4064348595513197932==
+--===============5705721211136248606==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -43,4 +43,4 @@ c4d9d95f84d7f4758db76f358b03a0d6809c929b perf cpumap: Tidy libperf includes
 35fef9b471c70413f8277984920129ddf601f5e9 libperf: Remove recursive perf/cpumap.h include from perf/cpumap.h
 63a3bf5e8d9e79ce456c8f73d4395a5a51d841b1 libperf: Add missing 'struct perf_cpu_map' forward declaration to perf/cpumap.h
 
---===============4064348595513197932==--
+--===============5705721211136248606==--
