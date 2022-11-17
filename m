@@ -1,50 +1,19 @@
-Content-Type: multipart/mixed; boundary="===============3681954985254743856=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvmarm/kvmarm
-Date: Thu, 17 Nov 2022 16:00:17 -0000
-Message-Id: <166870081792.30508.9566333947552310474@gitolite.kernel.org>
-
---===============3681954985254743856==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Thu, 17 Nov 2022 16:09:43 -0000
+Message-Id: <166870138388.3109.17045464557543442757@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvmarm/kvmarm
-user: maz
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: hansg
 changes:
-  - ref: refs/heads/next
-    old: eb8be68e907e9ce60c7ff3399b70f3f4f73868ba
-    new: fe78f0b6168205ce8720b685441895d5768ac254
-    log: revlist-eb8be68e907e-fe78f0b61682.txt
-
---===============3681954985254743856==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-eb8be68e907e-fe78f0b61682.txt
-
-d017eeabd5092565c3dd1c8a7b00ba724c33c18f arm64: Add ID_DFR0_EL1.PerfMon values for PMUv3p7 and IMP_DEF
-bead02204e9806807bb290137b1ccabfcb4b16fd KVM: arm64: PMU: Align chained counter implementation with architecture pseudocode
-acdd8a4e13a008a83c6da88bb53eecbecda9714c KVM: arm64: PMU: Always advertise the CHAIN event
-c82d28cbf1d4f9fe174041b4485c635cb970afa7 KVM: arm64: PMU: Distinguish between 64bit counter and 64bit overflow
-001d85bd6c039d3662a4f33a5d212ef3e0438b27 KVM: arm64: PMU: Narrow the overflow checking when required
-0f1e172b54f7574ca6aa46b851b332896add955f KVM: arm64: PMU: Only narrow counters that are not 64bit wide
-0cb9c3c87a9d3287eaf353936e6846d885102439 KVM: arm64: PMU: Add counter_index_to_*reg() helpers
-9917264d74d9063341968a8e071266358496777b KVM: arm64: PMU: Simplify setting a counter to a specific value
-37e3c221bb2cbfb5af9876280d420a39d07b8c0a KVM: arm64: PMU: Do not let AArch32 change the counters' top 32 bits
-839612847f9a522a82f96e07c7d5d38001bf033a KVM: arm64: PMU: Move the ID_AA64DFR0_EL1.PMUver limit to VM creation
-fcde756da4248042453f284f518d49b189c2f7fe KVM: arm64: PMU: Allow ID_AA64DFR0_EL1.PMUver to be set from userspace
-ff50a612f532bb1d8cea452ccac587b1a493f75a KVM: arm64: PMU: Allow ID_DFR0_EL1.PerfMon to be set from userspace
-92e83104d216dcb9b1a66cfea84d14352e0dd6e2 KVM: arm64: PMU: Implement PMUv3p5 long counter support
-6b03a1150d5643a520f07ca237be75ac2dc4c2c1 KVM: arm64: PMU: Allow PMUv3p5 to be exposed to the guest
-ffa53e9c6fb477a807be79cc38b86b50007097a3 KVM: arm64: PMU: Simplify vcpu computation on perf overflow notification
-9ebb27f78bdc93b2f51fc8e26b76b823664b3b77 KVM: arm64: PMU: Make kvm_pmc the main data structure
-d312e5819fbc78c6b02918a45c30cb6ca6f11d1c KVM: arm64: Take a pointer to walker data in kvm_dereference_pteref()
-f19584d99417179661ae67372b98fbba8f520331 KVM: arm64: Don't acquire RCU read lock for exclusive table walks
-1d44cf226859a2e9792816333a4766e327420d19 Merge branch kvm-arm64/parallel-faults into kvmarm-master/next
-fe78f0b6168205ce8720b685441895d5768ac254 Merge branch kvm-arm64/pmu-unchained into kvmarm-master/next
-
---===============3681954985254743856==--
+  - ref: refs/heads/review-hans
+    old: 9b9cd045b41e70322c04de48caf405d520820fa6
+    new: 260ad3de718301ed8c22e28558e3a31c99f54cf6
+    log: |
+         260ad3de718301ed8c22e28558e3a31c99f54cf6 platform/x86/amd: pmc: Add a workaround for an s0i3 issue on Cezanne
+         
