@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Thu, 17 Nov 2022 21:46:31 -0000
-Message-Id: <166872159153.23373.6249467369544051394@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-hsi
+Date: Thu, 17 Nov 2022 21:54:48 -0000
+Message-Id: <166872208840.28074.8318301937941785468@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/linux/kernel/git/sre/linux-hsi
+user: sre
 changes:
-  - ref: refs/heads/dev
-    old: 72ff63e2d3f19963a4ef401e5f8c1bd16646b587
-    new: bc5b4c8070cc9f937197bc66d87e29dcbd5eabec
+  - ref: refs/heads/for-next
+    old: f5181c35ed7ba0ceb6e42872aad1334d994b0175
+    new: 8acbca3a92b859e3dfe0538254acd5bd5b4632b1
     log: |
-         bc5b4c8070cc9f937197bc66d87e29dcbd5eabec tools: memory-model: Add rmw-sequences to the LKMM
+         1aff514e1d2bd47854dbbdf867970b9d463d4c57 HSI: omap_ssi_core: fix possible memory leak in ssi_probe()
+         8acbca3a92b859e3dfe0538254acd5bd5b4632b1 headers: Remove some left-over license text in include/uapi/linux/hsi/
          
