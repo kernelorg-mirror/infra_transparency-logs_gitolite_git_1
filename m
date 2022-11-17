@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-hsi
-Date: Thu, 17 Nov 2022 21:54:48 -0000
-Message-Id: <166872208840.28074.8318301937941785468@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
+Date: Thu, 17 Nov 2022 21:55:16 -0000
+Message-Id: <166872211692.30882.6659344916007499116@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sre/linux-hsi
-user: sre
+repo: pub/scm/linux/kernel/git/riscv/linux
+user: palmer
 changes:
   - ref: refs/heads/for-next
-    old: f5181c35ed7ba0ceb6e42872aad1334d994b0175
-    new: 8acbca3a92b859e3dfe0538254acd5bd5b4632b1
+    old: be79afc740b5a1b2048cd67580cdb9d76d7e6cc2
+    new: effae0e3d9e1139d583e9b5d050f4f948825b8a3
     log: |
-         1aff514e1d2bd47854dbbdf867970b9d463d4c57 HSI: omap_ssi_core: fix possible memory leak in ssi_probe()
-         8acbca3a92b859e3dfe0538254acd5bd5b4632b1 headers: Remove some left-over license text in include/uapi/linux/hsi/
+         effae0e3d9e1139d583e9b5d050f4f948825b8a3 riscv: Kconfig: Enable cpufreq kconfig menu
          
