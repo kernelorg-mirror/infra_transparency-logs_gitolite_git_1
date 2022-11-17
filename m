@@ -1,21 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 17 Nov 2022 21:40:18 -0000
-Message-Id: <166872121888.19381.17937014633324670284@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Thu, 17 Nov 2022 21:41:41 -0000
+Message-Id: <166872130132.19933.5956439989465553534@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: daveh
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/x86/tdx
-    old: 094226ad94f471a9f19e8f8e7140a09c2625abaa
-    new: 00e07cfbdf0b232f7553f0175f8f4e8d792f7e90
+  - ref: refs/heads/master
+    old: 81ac25651a62c958bb0e074e0d4e25060ea557dd
+    new: ae75334011d3c9f8b859ecb5f63e17e72023051e
     log: |
-         51acfe89af1118f906f9b68d95fdfb22832ac960 x86/tdx: Add a wrapper to get TDREPORT0 from the TDX Module
-         6c8c1406a6d6a3f2e61ac590f5c0994231bc6be7 virt: Add TDX guest driver
-         00e07cfbdf0b232f7553f0175f8f4e8d792f7e90 selftests/tdx: Test TDX attestation GetReport support
+         3a4e894f36f95c63048298aaefee6e3e1a7f6a68 MAINTAINERS: git://github.com -> https://github.com for ceph
+         f86a48667b91202d502d753c707e8576a6fe265b ceph: fix a NULL vs IS_ERR() check when calling ceph_lookup_inode()
+         51884d153f7ec85e18d607b2467820a90e0f4359 ceph: avoid putting the realm twice when decoding snaps fails
+         5bd76b8de5b74fa941a6eafee87728a0fe072267 ceph: fix NULL pointer dereference for req->r_session
+         ae75334011d3c9f8b859ecb5f63e17e72023051e Merge tag 'ceph-for-6.1-rc6' of https://github.com/ceph/ceph-client
          
