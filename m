@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Thu, 17 Nov 2022 16:25:06 -0000
-Message-Id: <166870230634.15731.15654019516065969956@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ogabbay/linux
+Date: Thu, 17 Nov 2022 16:26:03 -0000
+Message-Id: <166870236386.17018.2193816026571786385@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cel/linux
-user: cel
+repo: pub/scm/linux/kernel/git/ogabbay/linux
+user: ogabbay
 changes:
-  - ref: refs/tags/nfsd-6.1-5
-    old: 0000000000000000000000000000000000000000
-    new: 0f4b8a89c8dbad1aa947f3b10233645c1cb24ee7
+  - ref: refs/heads/habanalabs-next
+    old: 83e9fbf6c9d2cab414cdc6e82ebee2e64083de65
+    new: e60ebf66450f21b34fe954bf431d70b86b56151a
+    log: |
+         e60ebf66450f21b34fe954bf431d70b86b56151a habanalabs: added return value check for hl_fw_dynamic_send_clear_cmd()
+         
