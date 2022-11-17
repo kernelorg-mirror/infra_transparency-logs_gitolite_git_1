@@ -1,83 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============7194734902176611367=="
+Content-Type: multipart/mixed; boundary="===============3249236787449351040=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Thu, 17 Nov 2022 18:27:16 -0000
-Message-Id: <166870963629.10279.1542697351538508557@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Thu, 17 Nov 2022 18:44:23 -0000
+Message-Id: <166871066390.20904.5130383139618639946@gitolite.kernel.org>
 
---===============7194734902176611367==
+--===============3249236787449351040==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mkp/scsi
-user: mkp
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
+user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-next
-    old: e56ca6bcd2136207868516f5a304fbb82cc0cb82
-    new: ae8011fe076da06f471258269b8ea28ed7df185b
-    log: revlist-e56ca6bcd213-ae8011fe076d.txt
+  - ref: refs/heads/driver-core-testing
+    old: f613facc82cfd4b02b937b14872f24e27da4b909
+    new: 1d926e259d8f8195fdfaeea7951149001894b473
+    log: |
+         435d6b6564568b82ec74ee7d4d0bcb1f24ccb5f5 vmlinux.lds.h: fix BOUNDED_SECTION_(PRE|POST)_LABEL macros
+         1d926e259d8f8195fdfaeea7951149001894b473 vmlinux.lds.h: add HEADERED_SECTION_* macros
+         
 
---===============7194734902176611367==
+--===============3249236787449351040==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1668709626 -0500
-pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1668709625-b5691d7a073c888314b682240f8789a1ddb1e17f
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1668710655 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1668710642-2fcd422e7a9907c14149f0e085d42838724bf8e7
 
-e56ca6bcd2136207868516f5a304fbb82cc0cb82 ae8011fe076da06f471258269b8ea28ed7df185b refs/heads/for-next
+f613facc82cfd4b02b937b14872f24e27da4b909 1d926e259d8f8195fdfaeea7951149001894b473 refs/heads/driver-core-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmN2fPoACgkQ7ulgGnXF
-3j0sKg//d0xb2HQvSu9QEzqZ4EotevkgsQCwmtnCsKwLAGBFqfGGa/BnucIzz+N5
-lyobWES2VTIBIF/GLYGznWOeIwcxbQTLLgcV1X3acwmay5lx7g113Rdp6E5XddK9
-+AxtPpj363iIG9nAlKOwB/ZdueS07AKqgR36nl11UPcIj+IQOktukQgDcuJzV01K
-XRR0LHo0R1wOINczRoDfLxxGKnYwo10aKy2ZrZFtPiSMT2ABolzZstdHt94G97w9
-FsdHGLzm9kXcZR9SKsFNq7KdbhExF/3+ikr5zn/91nqBJJux2Ir0Ks+vL3HAbJSd
-BICTpPRnd+XkwJCWSWHuIwgX5UUn3fg1dmXI9vPWi5pA0cs6JX/IMmZJUo5GlaDj
-bwDKPlFNvk+BZuaXxM49HrAiKpiJsN7+6AMwds09qmFiM9qCcZuqO3pLpG54Tx0e
-Ov2BOJkot5RYlFlHORiZbx4rsk463k/7/0AAGAwumzDRcGqJ0WEJhTinf5kRNc+R
-rNEP52yGtC81b7GPP4FaIikwaPrU13CGaD3CKGVvN2SkXXi8IcdM1jqusZjU3yNx
-lOVGoKeiy46IWGJWJRdXGk1bWzuUVt9giGLDUxeakpsJdjT4lcw4JlnPnKILOq8X
-g/t5/6OjtS74+w70ZlUb8AtrMpTlBDef427lKnBCNfq2diIngFg=
-=Di99
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmN2gP8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+XQkQANeSB4uJYCI1GMa1ik+7
+LRgPV3GYsEiqpeoWbTkHaCvQi0JFqSVtZswQj++Zah1rggF1TzRfKBOzxquZfrOF
+r5b63wNj573guxnFo/ARvZpx8OqqcSMbULMYi3BxlYzYBkoO6b7Yaq970uV2LHSa
+YS1C/TgRd8MLjrNiXzVAtQFv7Ycmuzkh0oLrjH6Mi00L/QUhauVRLd4HuiXAcTnP
+wPZ1fvKHUhngdpximzODhrTwUtBUmDiOCGW7hl+hAKxLQwd+wIUv2mpA7erqei2A
+RT3UVly0MbWlbV1KY2FR5xU7F+WQGLSOQbilYi0AR1ZvxyyJQFT3zgG/3+SA/pAl
+76c22iS8KUXJv7/fe8TDc8M8Btc3U5Ce4fo4ZuUqfwr5jwoH7wcXY4dQlIe70ZLu
+6PHszbVD48OY2J3t/6gfI9obG5SesSfK8RAnZJlw+MkmgVY4JtWRjZWK9xln4KdR
+3BMxH9ezQekRoc0AU0GqWH+QRoEMxG5BGJp3I+oTDKVLO71unReFcARtwkFh6E6b
+sKnJbeYys69pC4FUxLjkF+tvosI4uIut3RuUsooraTZfTw5MfkV2EXsqDeoLIik/
+U7WkaBy7Vcx9CcxB5ShbaRY8NXd7MXpnReWb3vC4YaG2IOCKuEJpP4GcRbp6LqTm
+eBUEMmKPOZrWRUnkODEul65A
+=KGTa
 -----END PGP SIGNATURE-----
 
---===============7194734902176611367==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e56ca6bcd213-ae8011fe076d.txt
-
-729c287e9f7481d630b69c73960e2ac990cd04fc scsi: lpfc: Remove redundant pointer 'lp'
-b27ac2faa2fc0b2677cf1cbd270af734a1f5fd95 scsi: smartpqi: Convert to host_tagset
-0b93cf2a9097b1c3d75642ef878ba87f15f03043 scsi: smartpqi: Add new controller PCI IDs
-7c56850637ea820a89ce2f52fca66c5ae12d0f0a scsi: smartpqi: Correct max LUN number
-cbe42ac15698a23b204a9b5c66eb0067b22cbd42 scsi: smartpqi: Change sysfs raid_level attribute to N/A for controllers
-cc9befcbbb5ebce77726f938508700d913530035 scsi: smartpqi: Correct device removal for multi-actuator devices
-14063fb625c4541f48ff0dc7ae005b0d5a159c3f scsi: smartpqi: Add controller cache flush during rmmod
-921800a1deeaa832e4303e9335a31b4234c41ac1 scsi: smartpqi: Initialize feature section info
-2ae45329a956ff86ff8bec36463b6f49d2ca9bea scsi: smartpqi: Change version to 2.1.20-035
-216e179724c1d9f57a8ababf8bd7aaabef67f01b scsi: scsi_debug: Fix a warning in resp_write_scat()
-b29e91385ce2d3aae70906f80f517f9b93d97a7b scsi: lpfc: Use memset_startat() helper
-0824050682aef5151ade16129b3a0498a07ca6c9 scsi: libfc: Remove redundant variable ev_qual
-c4c5fa35563a47957fa4f9c299ca1c6aadc27d50 scsi: bfa: Replace one-element array with flexible-array member
-2c1a0a7584f5084f3ec79f86c9a54ee4c55307c4 scsi: lpfc: Fix WQ|CQ|EQ resource check
-ae696255d655bec673e5a5707f37ff6a098e89c2 scsi: lpfc: Correct bandwidth logging during receipt of congestion sync WCQE
-d99af587d59ca39747b4328dad0b193655835c90 scsi: lpfc: Fix MI capability display in cmf_info sysfs attribute
-97f256913c5d8a633efe4f11d4ed2d6a3ea42635 scsi: lpfc: Fix crash involving race between FLOGI timeout and devloss handler
-281616903c79bfc36ef200589248515b388e424c scsi: lpfc: Change default lpfc_suppress_rsp mode to off
-6217b5c5a69028e7b386c5adf81583ec4008392b scsi: lpfc: Update lpfc version to 14.2.0.9
-08261ee11f80e89e3ecef44a80c6335839064c3c scsi: lpfc: Remove linux/msi.h include
-6975339c7eb620c27af8a4bccb948f5d74b02636 scsi: target: core: Send max transfer length in blocks
-35c5cc0bae8d29f0d9deec0a723bfdfe1d85e6e5 scsi: target: core: Make hw_max_sectors store the sectors amount in blocks
-ae8011fe076da06f471258269b8ea28ed7df185b scsi: target: core: Change the way target_xcopy_do_work() sets restiction on max I/O
-
---===============7194734902176611367==--
+--===============3249236787449351040==--
