@@ -1,28 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvalo/ath
-Date: Thu, 17 Nov 2022 13:03:16 -0000
-Message-Id: <166869019675.31628.10451137164797325071@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
+Date: Thu, 17 Nov 2022 13:09:26 -0000
+Message-Id: <166869056605.3333.7024987217181876784@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvalo/ath
-user: kvalo
+repo: pub/scm/linux/kernel/git/ardb/linux
+user: ardb
 changes:
-  - ref: refs/heads/ath-next
-    old: a60c0401729851bfe637c2c8af5f759ea985336f
-    new: d9e38350a7b10f2e1006cd85a664b8698d027e7c
+  - ref: refs/heads/arm64-16k-lpa2
+    old: 91f13a33bcb2f18b47aef078c17f2b3a78a3fc75
+    new: 39dc31d61a8d133f40cd8cc8a1d60a6a0fc8d731
     log: |
-         2af7749047d8d6ad43feff69f555a13a6a6c2831 wifi: ath10k: Fix return value in ath10k_pci_init()
-         d9e38350a7b10f2e1006cd85a664b8698d027e7c wifi: ath10k: Remove redundant argument offset
-         
-  - ref: refs/heads/ath-qca
-    old: 332db588c76a15e7c29f11e8f8e0d893fa297187
-    new: d87a77cb16ca7c51f5ea67f345137ade24245153
-    log: |
-         2af7749047d8d6ad43feff69f555a13a6a6c2831 wifi: ath10k: Fix return value in ath10k_pci_init()
-         d9e38350a7b10f2e1006cd85a664b8698d027e7c wifi: ath10k: Remove redundant argument offset
-         d87a77cb16ca7c51f5ea67f345137ade24245153 Merge branch 'ath-next' into ath-qca
+         b2a8441099e415fae7d2ff986e6dd7614c3dc8f2 arm64: mm: Disable all 52-bit virtual addressing support with arm64.nolva
+         2ce10a2a009968d840ae1674249e6741e5e9e879 arm64: mm: Wire up TCR.DS bit to PTE shareability fields
+         49470e987375b457dd4289a3087c18edcf865f1f arm64: mm: Support use of 52-bit pgdirs on 48-bit/16k systems
+         84a195d0240516d52d7b93f40fb99237c5a9ce7a arm64: mm: Add LPA2 support to phys<->pte conversion routines
+         dad6a02c45323b6964e0ae06bf141ec5452cd232 arm64: Enable LPA2 at boot if supported by the system
+         39dc31d61a8d133f40cd8cc8a1d60a6a0fc8d731 arm64: Enable 52-bit virtual addressing for 16k granule configs
          
