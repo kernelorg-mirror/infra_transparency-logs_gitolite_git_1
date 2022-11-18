@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dlemoal/libata
-Date: Fri, 18 Nov 2022 04:40:37 -0000
-Message-Id: <166874643779.2034.15391844286472425386@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Fri, 18 Nov 2022 05:16:16 -0000
+Message-Id: <166874857654.27007.8900105760755954739@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dlemoal/libata
-user: dlemoal
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/for-6.1-fixes
-    old: e20e81a24a4d58744a29715aac2f795cd1651955
-    new: 310533d09f8734a284367f802b40e324d6915229
+  - ref: refs/heads/master
+    old: 2ffff1449ddd35cad113614fce2424da235f7560
+    new: 4a8c14384fa96c0bd6c1a534667f2a72165faacf
     log: |
-         310533d09f8734a284367f802b40e324d6915229 ata: libata: fix commands incorrectly not getting retried during NCQ error
+         cbe5f7c0fbcd3184fe9a5c1880799e2b23ec9c6d dt-bindings: net: ipq4019-mdio: document IPQ6018 compatible
+         05c1cbb96f3d133ce52986aeab7a782684e408ce dt-bindings: net: ipq4019-mdio: add IPQ8074 compatible
+         e50c50367d98297703f8a02e3c9241e8b4c37b8f dt-bindings: net: ipq4019-mdio: require and validate clocks
+         4a8c14384fa96c0bd6c1a534667f2a72165faacf dt-bindings: net: ipq4019-mdio: document required clock-names
          
