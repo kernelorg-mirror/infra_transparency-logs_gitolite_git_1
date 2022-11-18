@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Fri, 18 Nov 2022 12:05:01 -0000
-Message-Id: <166877310106.10819.2205600318334112604@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Fri, 18 Nov 2022 12:05:56 -0000
+Message-Id: <166877315627.12730.1554489781468447583@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: davem
 changes:
   - ref: refs/heads/master
-    old: 38461894838bbbebab54cbd5a5459cc8d1b6dd9b
-    new: fd896e38e5df2c5b68c78eee2fc425c4dcd3b4dd
+    old: 302e57f809be8b678d1ab0b2634504d5d51a166d
+    new: 3bcd6c7eaa53b56c3f584da46a1f7652e759d0e5
     log: |
-         fd896e38e5df2c5b68c78eee2fc425c4dcd3b4dd net: fix napi_disable() logic error
+         3bcd6c7eaa53b56c3f584da46a1f7652e759d0e5 rxrpc: Fix race between conn bundle lookup and bundle removal [ZDI-CAN-15975]
          
