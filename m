@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/wireless/iwd
-Date: Fri, 18 Nov 2022 12:00:27 -0000
-Message-Id: <166877282725.8752.2678306048351982311@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Fri, 18 Nov 2022 12:00:30 -0000
+Message-Id: <166877283032.8822.17896967076116739581@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/wireless/iwd
-user: holtmann
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: davem
 changes:
   - ref: refs/heads/master
-    old: 57dafa83640fd1e408ba2678145ac1f47eee3b36
-    new: 27a00a6806d5323bac7fb66732088e68253ed909
+    old: b677d6c7a695dad1b02d2e0e428c39b3b344f270
+    new: ec8cd134eeeecef9cccb5431b1a3f140ff2a413a
     log: |
-         27a00a6806d5323bac7fb66732088e68253ed909 build: Add documention of manual pages to systemd service file
+         ec8cd134eeeecef9cccb5431b1a3f140ff2a413a net: ethernet: mtk_eth_soc: remove cpu_relax in mtk_pending_work
          
