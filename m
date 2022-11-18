@@ -1,50 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============8674398670475206825=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Fri, 18 Nov 2022 14:15:54 -0000
-Message-Id: <166878095487.10047.15605408853561615584@gitolite.kernel.org>
-
---===============8674398670475206825==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Fri, 18 Nov 2022 14:16:20 -0000
+Message-Id: <166878098027.10282.3470553369693349840@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/spi-6.1
-    old: 2197aa6b0aa236b9896a09b9d08d6924d18b84f6
-    new: e85e9e0d8cb759013d6474011c227f92e442d746
+  - ref: refs/heads/for-linus
+    old: 5b9a8cda0445471180931cd90882e236d6be7908
+    new: 23cf6bdf194a4116ca72741a8b96786d2c2e16d2
     log: |
          e85e9e0d8cb759013d6474011c227f92e442d746 spi: spi-imx: spi_imx_transfer_one(): check for DMA transfer first
+         23cf6bdf194a4116ca72741a8b96786d2c2e16d2 Merge remote-tracking branch 'spi/for-6.0' into spi-linus
          
-
---===============8674398670475206825==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1668780953 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1668780952-cc50798787f64f8804ed3203805642be6ccc28c0
-
-2197aa6b0aa236b9896a09b9d08d6924d18b84f6 e85e9e0d8cb759013d6474011c227f92e442d746 refs/heads/spi-6.1
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmN3k5kACgkQJNaLcl1U
-h9B3zAf/WIblvMetosJ2VVgPEWiMTZjwBvaUL5KJzJP5i2CLDHnK9rgT3ofb6YLr
-JDGt0405YAsow7o4zf151bZQi8AC+/oaKAuPoZ9ej5l4WajeCWukzautsua1EQZ5
-x76ye4GRG0k8aXiSLC3jqXJR9Toa+/czC1I96Q4pketyDKHPJqEd/SUC0MPtSHF4
-ZLGdvABWZj9LW6Ig7GbEkDdDx5QIOMBSkPOowvFE2s5Grv/rxRb9I+aou+GYGs5e
-yH0LyVoApHdGU/6Jy3tBEsjj9GgVI+godWt7/lmg1HdcyedpFm8Qa293F8LQtPmX
-mDv1ecbIopX4wBQtZF0ZYMAykTcH5w==
-=5lJ0
------END PGP SIGNATURE-----
-
---===============8674398670475206825==--
+  - ref: refs/heads/for-next
+    old: e88fcfd208164c40b85bc230c9c4f15cca0452e4
+    new: d86d298f31fa9fdab8f36b154e35f2ae91630f0e
+    log: |
+         e85e9e0d8cb759013d6474011c227f92e442d746 spi: spi-imx: spi_imx_transfer_one(): check for DMA transfer first
+         23cf6bdf194a4116ca72741a8b96786d2c2e16d2 Merge remote-tracking branch 'spi/for-6.0' into spi-linus
+         769ac52b5050dbb1f891a416f3ce7fb2238a09c9 Merge branch 'spi-linus' into spi-next
+         d86d298f31fa9fdab8f36b154e35f2ae91630f0e Merge remote-tracking branch 'spi/for-6.2' into spi-next
+         
