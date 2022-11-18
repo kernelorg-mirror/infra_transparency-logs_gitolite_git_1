@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6624677310787153146=="
+Content-Type: multipart/mixed; boundary="===============1852307003393844117=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Fri, 18 Nov 2022 03:33:20 -0000
-Message-Id: <166874240077.18002.12788662827636057961@gitolite.kernel.org>
+Date: Fri, 18 Nov 2022 03:33:26 -0000
+Message-Id: <166874240680.18131.4863653152059931837@gitolite.kernel.org>
 
---===============6624677310787153146==
+--===============1852307003393844117==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: 98b2afc8a67f651ed01fc7d5a7e2528e63dd4e08
     new: db6bf999544c8c8dcae093e91eba4570647874b1
     log: revlist-98b2afc8a67f-db6bf999544c.txt
 
---===============6624677310787153146==
+--===============1852307003393844117==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -52,4 +52,4 @@ dc2df7bf4c8a24a55ef02ef45dd3e49abc105f76 selftests/bpf: Add BTF sanity tests
 0a2f85a1be4328d29aefa54684d10c23a3298fef selftests/bpf: Temporarily disable linked list tests
 db6bf999544c8c8dcae093e91eba4570647874b1 Merge branch 'Allocated objects, BPF linked lists'
 
---===============6624677310787153146==--
+--===============1852307003393844117==--
