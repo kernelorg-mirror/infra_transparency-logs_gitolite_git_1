@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Fri, 18 Nov 2022 00:25:58 -0000
-Message-Id: <166873115825.9404.13308617085149369346@gitolite.kernel.org>
+Subject: post-receive: pub/scm/bluetooth/bluez
+Date: Fri, 18 Nov 2022 00:27:11 -0000
+Message-Id: <166873123153.9921.9377929155280490381@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/bluetooth/bluez
+user: vudentz
 changes:
   - ref: refs/heads/master
-    old: b12f6f21a308237ef4f5b3dce5106af930fbcbb6
-    new: 2274c3dfa459c32fe35fd4240a5727d3343a50e1
+    old: e2b2b1675f310023862319ea10ffd205a75cc0cb
+    new: 818adf28e51877f32befab1a7faca314f89aa199
     log: |
-         2274c3dfa459c32fe35fd4240a5727d3343a50e1 Fri Nov 18 12:24:50 AM UTC 2022
+         818adf28e51877f32befab1a7faca314f89aa199 tools: Use portable 64 bit data formats
          
