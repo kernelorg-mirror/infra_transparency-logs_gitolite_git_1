@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ulfh/mmc
-Date: Fri, 18 Nov 2022 09:44:31 -0000
-Message-Id: <166876467140.4485.17465844911129961696@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mel/linux
+Date: Fri, 18 Nov 2022 09:59:00 -0000
+Message-Id: <166876554041.15527.1398229099581811126@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ulfh/mmc
-user: ulfh
+repo: pub/scm/linux/kernel/git/mel/linux
+user: mel
 changes:
-  - ref: refs/heads/fixes
-    old: 222cfa0118aa68687ace74aab8fdf77ce8fbd7e6
-    new: 489d144563f23911262a652234b80c70c89c978b
-    log: |
-         489d144563f23911262a652234b80c70c89c978b mmc: core: Fix ambiguous TRIM and DISCARD arg
-         
+  - ref: refs/heads/mm-pcpnoirq-v3r2
+    old: 0000000000000000000000000000000000000000
+    new: 07d64109589a7637b773e6d6c666f09954f8c622
