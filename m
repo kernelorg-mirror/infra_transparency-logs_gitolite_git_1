@@ -1,51 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============7899097654445618635=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Fri, 18 Nov 2022 16:11:26 -0000
-Message-Id: <166878788678.28855.12412689556914081025@gitolite.kernel.org>
-
---===============7899097654445618635==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Fri, 18 Nov 2022 16:11:52 -0000
+Message-Id: <166878791205.29066.12146681321004470008@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/regulator
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/regulator-6.2
-    old: bc64f30eb9a5edb299ee0a1a05cc21e4079fd9f3
-    new: db6f6ba74ea237356564a06882adf6e95d6cf3e1
+  - ref: refs/heads/for-linus
+    old: 3a4c1ae41878b72e1c15396019ad35923aaee9a1
+    new: a9d7897f3364193b0a2696a9be2ed223ad361589
+    log: |
+         a9d7897f3364193b0a2696a9be2ed223ad361589 Merge remote-tracking branch 'regulator/for-6.0' into regulator-linus
+         
+  - ref: refs/heads/for-next
+    old: ab1d2c4b1ab7b4dce0b27acdf68e2add93e90c2f
+    new: ad2bb56a85cb9580547c573aec5c16b219b5f7c1
     log: |
          27b9ecc7a9ba1d0014779bfe5a6dbf630899c6e7 regulator: Add of_regulator_bulk_get_all
          db6f6ba74ea237356564a06882adf6e95d6cf3e1 regulator: Add of_regulator_bulk_get_all()
+         a9d7897f3364193b0a2696a9be2ed223ad361589 Merge remote-tracking branch 'regulator/for-6.0' into regulator-linus
+         d0b7ceb8f7af69250b80548831292461b025eea1 Merge branch 'regulator-linus' into regulator-next
+         ad2bb56a85cb9580547c573aec5c16b219b5f7c1 Merge remote-tracking branch 'regulator/for-6.2' into regulator-next
          
-
---===============7899097654445618635==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1668787885 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1668787884-a3918dd8c7783e98893c00b64f1b17a307b80dc7
-
-bc64f30eb9a5edb299ee0a1a05cc21e4079fd9f3 db6f6ba74ea237356564a06882adf6e95d6cf3e1 refs/heads/regulator-6.2
------BEGIN PGP SIGNATURE-----
-
-iQEyBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmN3rq0ACgkQJNaLcl1U
-h9ACigf4vljwyhwLT6eQczKVIrLxvDHe3aeZLrIImLuSSMceljgck154ieBR6Sgu
-kwM04DK7d5MK9f735tYNWWGm3BKpcO7lXIXOJ+zKQPepJ2Hel3J+sTGBz81zIozx
-xAf8Z2e6SB5Au8NjZkUcb+IDNX3q9D8+4JEToPQJxJjiSH9FvR3EMYTBmqztiRcV
-+Rok8i7bWGXTgplg7j8Q2Xc3Smx64A0Bs0cp4lf9XOQTGG2cwTb0q5mWEynH6WsI
-JjG1+hA96/JcLIK5X43cN5wUysTcTviO/0f4KH1DTnGhig4GpMvpPvKFpLMLrR7t
-Ffn8aN3Cukjb8KHrBzPF8vNaSiz4
-=HpN6
------END PGP SIGNATURE-----
-
---===============7899097654445618635==--
