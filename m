@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Fri, 18 Nov 2022 22:14:12 -0000
-Message-Id: <166880965236.29022.1957488089051612610@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Fri, 18 Nov 2022 22:14:28 -0000
+Message-Id: <166880966880.29174.14771957514237378973@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: dborkman
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
-  - ref: refs/heads/for-next
-    old: 97c11d6e31547183e2404087f0fb23b34dbe2cc3
-    new: f80e16b614f303b520465b7c704ff89fab800f2f
+  - ref: refs/heads/master
+    old: 56ce461af187738fd4bb44b12ebf856898918282
+    new: 2bfa990e1193a938f7568a9b29842154eb4f3811
     log: |
-         f80e16b614f303b520465b7c704ff89fab800f2f libbpf: Ignore hashmap__find() result explicitly in btf_dump
+         8f462bd05bdf9ad08f5403d7f73917376177a176 foo
+         55e3b60eb1e22beb2867ad1fc26d2d831c8d5d9c foo
+         40ef79f19fcbc8d6835f0813728207c0ab3dc3ec foo
+         2bfa990e1193a938f7568a9b29842154eb4f3811 foo
          
