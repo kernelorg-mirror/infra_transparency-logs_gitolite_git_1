@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0908580185610075339=="
+Content-Type: multipart/mixed; boundary="===============7381137067629706002=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cxl/cxl
-Date: Fri, 18 Nov 2022 21:34:46 -0000
-Message-Id: <166880728664.1081.522660019989002197@gitolite.kernel.org>
+Date: Fri, 18 Nov 2022 21:35:31 -0000
+Message-Id: <166880733183.3033.18079340485003329116@gitolite.kernel.org>
 
---===============0908580185610075339==
+--===============7381137067629706002==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cxl/cxl
 user: djbw
 changes:
-  - ref: refs/heads/rch
-    old: 2b76fc22aefd39820c0520255875f99b326ede99
+  - ref: refs/heads/next
+    old: 9abf2313adc1ca1b6180c508c25f22f9395cc780
     new: 3b39fd6cf12ceda2a2582dcb9b9ee9f4d197b857
-    log: revlist-2b76fc22aefd-3b39fd6cf12c.txt
+    log: revlist-9abf2313adc1-3b39fd6cf12c.txt
 
---===============0908580185610075339==
+--===============7381137067629706002==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2b76fc22aefd-3b39fd6cf12c.txt
+Content-Disposition: attachment; filename=revlist-9abf2313adc1-3b39fd6cf12c.txt
 
 b3d0d98179d62f9d55635a600679c4fa362baf8d net: ethernet: mtk_eth_soc: fix possible memory leak in mtk_probe()
 9d4f20a476ca57e4c9246eb1fa2a61bea2354720 net: ethernet: mtk_eth_wed: add missing put_device() in mtk_wed_add_hw()
@@ -1051,4 +1051,4 @@ f3cd264c4ec1ab9b8918f3b083cfc13c5e7c26b7 cxl: Unify debug messages when calling 
 b51d76752120a267397276121619fca80f767e62 cxl/acpi: Improve debug messages in cxl_acpi_probe()
 3b39fd6cf12ceda2a2582dcb9b9ee9f4d197b857 cxl: Replace HDM decoder granularity magic numbers
 
---===============0908580185610075339==--
+--===============7381137067629706002==--
