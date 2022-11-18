@@ -1,21 +1,33 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/crng/random
-Date: Fri, 18 Nov 2022 14:23:52 -0000
-Message-Id: <166878143293.14616.1062475506294570100@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/cryptsetup/cryptsetup
+Date: Fri, 18 Nov 2022 14:29:46 -0000
+Message-Id: <166878178664.19595.5216185422000788276@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/crng/random
-user: zx2c4
+repo: pub/scm/utils/cryptsetup/cryptsetup
+user: mbroz
 changes:
-  - ref: refs/heads/efiseed
-    old: 099cfa94e183ff0e5fb1f8bcef18a73d6a84ea96
-    new: 8fe2fb6a4a8d3629d23474fdb29aa664419168e4
+  - ref: refs/heads/main
+    old: e96588b8b54e3fd7ebd0bf1bd2e65207643aaf80
+    new: 37d045df006038ef242c453407f725e555b96a5c
     log: |
-         c4135c698acc98f048d5cbd08300793d7be16651 random: add back async readiness notifier
-         cabcbe5ee191d25bd737d3588cddceb0b73d5a56 vsprintf: initialize siphash key using notifier
-         8fe2fb6a4a8d3629d23474fdb29aa664419168e4 efi: random: refresh non-volatile random seed when RNG is initialized
+         3b18fe2b23c52156f76012fbe5acccfb78531e1b po: update sr.po (from translationproject.org)
+         c85d1351eae3fcbad67d4463ec79d99625c2ddac po: update sv.po (from translationproject.org)
+         faf3b27f5149324735d90c0a89d95ea3a857cd83 fvault2: reduce debug log, do not print ignored metadata blocks
+         4b95f368042d26117529dc24f016776be9bb9a68 Fix possible undefined use od preprocessor.
+         37d045df006038ef242c453407f725e555b96a5c fvault2: add basic info to cryptsetup man page
+         
+  - ref: refs/heads/master
+    old: e96588b8b54e3fd7ebd0bf1bd2e65207643aaf80
+    new: 37d045df006038ef242c453407f725e555b96a5c
+    log: |
+         3b18fe2b23c52156f76012fbe5acccfb78531e1b po: update sr.po (from translationproject.org)
+         c85d1351eae3fcbad67d4463ec79d99625c2ddac po: update sv.po (from translationproject.org)
+         faf3b27f5149324735d90c0a89d95ea3a857cd83 fvault2: reduce debug log, do not print ignored metadata blocks
+         4b95f368042d26117529dc24f016776be9bb9a68 Fix possible undefined use od preprocessor.
+         37d045df006038ef242c453407f725e555b96a5c fvault2: add basic info to cryptsetup man page
          
