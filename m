@@ -1,50 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============1366478313686179393=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Fri, 18 Nov 2022 15:02:44 -0000
-Message-Id: <166878376426.11458.12919334298725678426@gitolite.kernel.org>
-
---===============1366478313686179393==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Fri, 18 Nov 2022 15:03:09 -0000
+Message-Id: <166878378969.11663.13871769127657557765@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/regulator
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/regulator-6.1
-    old: 1f386d6894d0f1b7de8ef640c41622ddd698e7ab
-    new: 0b24dfa587c6cc7484cfb170da5c7dd73451f670
+  - ref: refs/heads/for-linus
+    old: fb25ca4bf963433981ba1fc575ca47e05390783a
+    new: 3a4c1ae41878b72e1c15396019ad35923aaee9a1
     log: |
          0b24dfa587c6cc7484cfb170da5c7dd73451f670 regulator: slg51000: Wait after asserting CS pin
+         3a4c1ae41878b72e1c15396019ad35923aaee9a1 Merge remote-tracking branch 'regulator/for-6.0' into regulator-linus
          
-
---===============1366478313686179393==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1668783762 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1668783761-eed021a0d3fad5e04f52405bcad313848f1b1247
-
-1f386d6894d0f1b7de8ef640c41622ddd698e7ab 0b24dfa587c6cc7484cfb170da5c7dd73451f670 refs/heads/regulator-6.1
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmN3npIACgkQJNaLcl1U
-h9AI2Af/SVRZ3QA/T1dXMguOiL63/xpHohfdfeM+XSaFZS8/10BiQz0iAm0F+yut
-qoglGVrdavJFO4xC6mbXM7nej0gMhb908QgQExs7aTi0oQCEaMnXBo7K5QY0j9jF
-lTqzcZJAmnyQwIgPo+UAylxcgB+La1RUtimsuwvKia3jcauonyqvPCKHTDgrsr/O
-Y+77J7Du91IENNdUsuANhg5elGwcNa+v0lg3q0ZZ6Fbn6xxQmlonD21L9uAkHSQN
-9W5n9e5ZmNTHlOgD/ZdfrXF2qNxwYhDRmKGNM14RPETyvjjq00Ktp3rZDdAjVTdk
-gK1pJxPF5AsN0KOFydkuM9yNa30vvA==
-=WO/W
------END PGP SIGNATURE-----
-
---===============1366478313686179393==--
+  - ref: refs/heads/for-next
+    old: 3e731dc9b09da60d56ed7fa32320038794ed3837
+    new: ab1d2c4b1ab7b4dce0b27acdf68e2add93e90c2f
+    log: |
+         0b24dfa587c6cc7484cfb170da5c7dd73451f670 regulator: slg51000: Wait after asserting CS pin
+         3a4c1ae41878b72e1c15396019ad35923aaee9a1 Merge remote-tracking branch 'regulator/for-6.0' into regulator-linus
+         fabb8819bad143a713c7136f8398e44665d14bbc Merge branch 'regulator-linus' into regulator-next
+         ab1d2c4b1ab7b4dce0b27acdf68e2add93e90c2f Merge remote-tracking branch 'regulator/for-6.2' into regulator-next
+         
