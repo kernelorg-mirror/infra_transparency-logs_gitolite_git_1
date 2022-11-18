@@ -1,41 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============3449660229733173999=="
+Content-Type: multipart/mixed; boundary="===============0908580185610075339=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/arm64/linux
-Date: Fri, 18 Nov 2022 21:33:13 -0000
-Message-Id: <166880719319.396.14941683726932079348@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cxl/cxl
+Date: Fri, 18 Nov 2022 21:34:46 -0000
+Message-Id: <166880728664.1081.522660019989002197@gitolite.kernel.org>
 
---===============3449660229733173999==
+--===============0908580185610075339==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/arm64/linux
-user: cmarinas
+repo: pub/scm/linux/kernel/git/cxl/cxl
+user: djbw
 changes:
-  - ref: refs/tags/arm64-fixes
-    old: c0d7a870813f5726533f0056858a141b3c2ba67d
-    new: 31c8bd5a12b0ec25772401469d982470d08106f0
-    log: revlist-c0d7a870813f-31c8bd5a12b0.txt
+  - ref: refs/heads/rch
+    old: 2b76fc22aefd39820c0520255875f99b326ede99
+    new: 3b39fd6cf12ceda2a2582dcb9b9ee9f4d197b857
+    log: revlist-2b76fc22aefd-3b39fd6cf12c.txt
 
---===============3449660229733173999==
+--===============0908580185610075339==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c0d7a870813f-31c8bd5a12b0.txt
+Content-Disposition: attachment; filename=revlist-2b76fc22aefd-3b39fd6cf12c.txt
 
-a83695a666eb3541873c3c9734ec4e1d10ca2d7f iio: adc: mcp3911: return proper error code on failure to allocate trigger
-815f1647a603a822d66630bbe22cab4bc097c8c3 iio: adc: mcp3911: use correct id bits
-aa6c77d05eb1c57ee5b95a7b83a39384c37df4d9 iio: adc: mcp3911: mask out device ID in debug prints
-174dac5dc800e4e2e4552baf6340846a344d01a3 iio: adc: stm32-adc: fix channel sampling time init
-72b2aa38191bcba28389b0e20bf6b4f15017ff2b tools: iio: iio_utils: fix digit calculation
-4132f19173211856d35180958d2754f5c56d520a iio: temperature: ltc2983: allocate iio channels once
-54246b9034da08087ceb2083478c0d13403e12b4 iio: at91-sama5d2_adc: Fix unsafe buffer attributes
-ab0ee36e90f611f32c3a53afe9dc743de48138e2 iio: adxl372: Fix unsafe buffer attributes
-5e23b33d1e84f04c80da6f1d89cbb3d3a3f81e01 iio: adxl367: Fix unsafe buffer attributes
-a10a0f385ab8af08ddb762ac3eca11e1b6d1fe69 iio: bmc150-accel-core: Fix unsafe buffer attributes
 b3d0d98179d62f9d55635a600679c4fa362baf8d net: ethernet: mtk_eth_soc: fix possible memory leak in mtk_probe()
 9d4f20a476ca57e4c9246eb1fa2a61bea2354720 net: ethernet: mtk_eth_wed: add missing put_device() in mtk_wed_add_hw()
 e0bb4659e235770e6f53b3692e958591f49448f5 net: ethernet: mtk_eth_wed: add missing of_node_put()
@@ -899,6 +889,7 @@ fc007fb815ab5395c3962c09b79a1630b0fbed9c drm/imx: imx-tve: Fix return type of im
 6c412da54c80a54b1a8b7f89677f6e82f0fabec4 sfc: Fix an error handling path in efx_pci_probe()
 4eb559dd15671cca355a61a4164e8f19e3952637 Merge tag 'refcount-cow-domain-6.1_2022-10-31' of git://git.kernel.org/pub/scm/linux/kernel/git/djwong/xfs-linux into xfs-6.1-fixesA
 a6dd6f39008bb3ef7c73ef0a2acc2a4209555bd8 x86/tdx: Prepare for using "INFO" call for a second purpose
+024f4b2e1f874934943eb2d3d288ebc52c79f55c arm64: entry: avoid kprobe recursion
 d79dcde0bc413efd35dd7eabe2d5eed34ec6deb0 Merge tag 'linux-watchdog-6.1-rc4' of git://www.linux-watchdog.org/linux-watchdog
 f526d6a82242f7ee72d2a4448eb492622cb7d556 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 be0ddf5293a7895a8c9096e1a8560930c6a0ab3f arm64: booting: Document our requirements for fine grained traps with SME
@@ -996,6 +987,7 @@ cf6ff0df0fd123493e57278a1bd4414a97511a34 vsock: remove the unused 'wait' in vsoc
 4d74039149e0062e4ed25738d6e3e06970a38809 Merge tag 'powerpc-6.1-4' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
 9521c9d6a53df9c44a5f5ddbc229ceaf3cf79ef6 Merge tag 'net-6.1-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 5fdf9c45473569e87cc4206e80f186fc85b9eff9 Merge tag 'linux-kselftest-fixes-6.1-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
+85f1506337f0c79a4955edfeee86a18628e3735f arm64: cpufeature: Fix the visibility of compat hwcaps
 f2f32f8af2b0ca9d619e5183eae3eed431793baf Merge tag 'for-6.1-rc3-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
 4f1aa35f1fb7d51b125487c835982af792697ecb cxl/pmem: Use size_add() against integer overflow
 7f7bac08d9e31cd6e2c0ea1685c86ec6f1e7e03c Merge tag 'fuse-fixes-6.1-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/mszeredi/fuse
@@ -1048,7 +1040,15 @@ f6f5204727b9b1f3c6e9c90b5b09f40c6e0102f5 Merge tag 'x86_urgent_for_v6.1_rc4' of 
 aa52994915dca444dbb8e6b91eb82b749ba7a1ec Merge tag 'hwmon-for-v6.1-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/groeck/linux-staging
 16c7a368c8ba9aba3b0e0ae5ec0a64be9fb45665 Merge tag 'cxl-fixes-for-6.1-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/cxl/cxl
 f0c4d9fc9cc9462659728d168387191387e903cc Linux 6.1-rc4
-2598ac6ec493566105f8a1029aa9de36ba6946ca arm64: ftrace: Define ftrace_stub_graph only with FUNCTION_GRAPH_TRACER
-5b47348fc0b18a78c96f8474cc90b7525ad1bbfe arm64/mm: fix incorrect file_map_count for non-leaf pmd/pud
+278294798ac9118412c9624a801d3f20f2279363 PCI: Allow drivers to request exclusive config regions
+487d828d751d90cf9ca594f45b02dd0e0d712b64 cxl/doe: Request exclusive DOE access
+1156b4418db01b1d5a332bc399817d029acd2ec8 memregion: Add cpu_cache_invalidate_memregion() interface
+fa89248e669d589cdb895517e75cdead8d8ba5c0 cxl/core: Remove duplicate declaration of devm_cxl_iomap_block()
+3bb80da51b1c1dbf31af2226f57cbc258f5e994b cxl/core: Check physical address before mapping it in devm_cxl_iomap_block()
+f3cd264c4ec1ab9b8918f3b083cfc13c5e7c26b7 cxl: Unify debug messages when calling devm_cxl_add_port()
+58eef878fcd1f44612445b5cdde598f04b940da8 cxl: Unify debug messages when calling devm_cxl_add_dport()
+76f191108419424fef1bb713d8d160c3b49bedc4 tools/testing/cxl: Add bridge mocking support
+b51d76752120a267397276121619fca80f767e62 cxl/acpi: Improve debug messages in cxl_acpi_probe()
+3b39fd6cf12ceda2a2582dcb9b9ee9f4d197b857 cxl: Replace HDM decoder granularity magic numbers
 
---===============3449660229733173999==--
+--===============0908580185610075339==--
