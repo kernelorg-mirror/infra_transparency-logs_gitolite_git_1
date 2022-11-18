@@ -1,50 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============3234478906787137860=="
+Content-Type: multipart/mixed; boundary="===============8674398670475206825=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Fri, 18 Nov 2022 14:15:48 -0000
-Message-Id: <166878094817.9947.16832059634444804636@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Fri, 18 Nov 2022 14:15:54 -0000
+Message-Id: <166878095487.10047.15605408853561615584@gitolite.kernel.org>
 
---===============3234478906787137860==
+--===============8674398670475206825==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.1
+  - ref: refs/heads/spi-6.1
     old: 2197aa6b0aa236b9896a09b9d08d6924d18b84f6
     new: e85e9e0d8cb759013d6474011c227f92e442d746
     log: |
          e85e9e0d8cb759013d6474011c227f92e442d746 spi: spi-imx: spi_imx_transfer_one(): check for DMA transfer first
          
 
---===============3234478906787137860==
+--===============8674398670475206825==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1668780946 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1668780946-d7437586a6e4cbfea74ef700fa26313a4e381029
+pusher C3F436CA30F5D8EB 1668780953 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1668780952-cc50798787f64f8804ed3203805642be6ccc28c0
 
-2197aa6b0aa236b9896a09b9d08d6924d18b84f6 e85e9e0d8cb759013d6474011c227f92e442d746 refs/heads/for-6.1
+2197aa6b0aa236b9896a09b9d08d6924d18b84f6 e85e9e0d8cb759013d6474011c227f92e442d746 refs/heads/spi-6.1
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmN3k5IACgkQJNaLcl1U
-h9DL5Af/YwhdinzOy8QQ09z9ESON5bt/x8wjji4ZBtPjlZIfnkimeGfJ1By+H+8e
-aVOcOZvs0+sJ6/SbUjCwpY+sjMOgR+34EQqnwiweXa2eXT2oTupv9X/sFauf33nW
-rn1dgu+RKP3dgD8SQJfq1gcOkoLl9QkQL0fe0Owg8SRzKlmu6mx0BX7y/Jb2J1D7
-I4EaEXifLnk4f11+Q+l57lz3uYTcGwDiObZZs3jwMyNewxX077ktzU8HBCgcteNj
-UA0WyXHgDs3spuEs7+2Pro5So2WH0O/k3tlk/+yu4XmyjNsg1G6HlOotgPK9ykAO
-ZtWYlX/zgdL0eCQw0UyVgBNbfOINfg==
-=8jlZ
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmN3k5kACgkQJNaLcl1U
+h9B3zAf/WIblvMetosJ2VVgPEWiMTZjwBvaUL5KJzJP5i2CLDHnK9rgT3ofb6YLr
+JDGt0405YAsow7o4zf151bZQi8AC+/oaKAuPoZ9ej5l4WajeCWukzautsua1EQZ5
+x76ye4GRG0k8aXiSLC3jqXJR9Toa+/czC1I96Q4pketyDKHPJqEd/SUC0MPtSHF4
+ZLGdvABWZj9LW6Ig7GbEkDdDx5QIOMBSkPOowvFE2s5Grv/rxRb9I+aou+GYGs5e
+yH0LyVoApHdGU/6Jy3tBEsjj9GgVI+godWt7/lmg1HdcyedpFm8Qa293F8LQtPmX
+mDv1ecbIopX4wBQtZF0ZYMAykTcH5w==
+=5lJ0
 -----END PGP SIGNATURE-----
 
---===============3234478906787137860==--
+--===============8674398670475206825==--
