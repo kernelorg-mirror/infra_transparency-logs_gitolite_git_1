@@ -1,22 +1,29 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Fri, 18 Nov 2022 05:48:06 -0000
-Message-Id: <166875048645.16430.16820853319566540418@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dtor/input
+Date: Fri, 18 Nov 2022 06:21:53 -0000
+Message-Id: <166875251303.8019.818495219651513870@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/dtor/input
+user: dtor
 changes:
   - ref: refs/heads/master
-    old: 847ccab8fdcf4a0cd85a278480fab1ccdc9f6136
-    new: 11b64a466c957e9e02c073b92a58639e96104181
+    old: 5e7a0af793ce7ed528117145f856224deb81b7a7
+    new: b76f64caa42e9bb78e177ae94e1062d876a401b1
     log: |
-         22b29557aef3c9d673c887911b504c6d47009de4 selftests: mptcp: gives slow test-case more time
-         7e68d31020f18f8d695d5f143fc16cdaa96166cb selftests: mptcp: run mptcp_sockopt from a new netns
-         3de88b95c4d436d78afc0266a0bed76c35ddeb62 selftests: mptcp: fix mibit vs mbit mix up
-         11b64a466c957e9e02c073b92a58639e96104181 Merge branch 'mptcp-selftests-fix-timeouts-and-test-isolation'
+         c7f43645de7895a8e90cb267a9b3c46e989d8ca6 Input: hynitron_cstxxx - initialize tmp to 0 to fix uninitialized variable issue
+         a85fbd6498441694475716a4d5c65f9d3e073faf Input: elants_i2c - properly handle the reset GPIO when power is off
+         b76f64caa42e9bb78e177ae94e1062d876a401b1 Input: max8997 - convert to modern way to get a reference to a PWM
+         
+  - ref: refs/heads/next
+    old: 5e7a0af793ce7ed528117145f856224deb81b7a7
+    new: b76f64caa42e9bb78e177ae94e1062d876a401b1
+    log: |
+         c7f43645de7895a8e90cb267a9b3c46e989d8ca6 Input: hynitron_cstxxx - initialize tmp to 0 to fix uninitialized variable issue
+         a85fbd6498441694475716a4d5c65f9d3e073faf Input: elants_i2c - properly handle the reset GPIO when power is off
+         b76f64caa42e9bb78e177ae94e1062d876a401b1 Input: max8997 - convert to modern way to get a reference to a PWM
          
