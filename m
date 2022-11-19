@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/shawnguo/linux
-Date: Sat, 19 Nov 2022 02:57:03 -0000
-Message-Id: <166882662351.5391.728441011386203822@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Sat, 19 Nov 2022 03:18:57 -0000
+Message-Id: <166882793703.19403.2519720729634196458@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/shawnguo/linux
-user: shawnguo
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/imx/fixes
-    old: 836fb30949d9edf91d7de696a884ceeae7e426d2
-    new: f31e3c204d1844b8680a442a48868af5ac3d5481
+  - ref: refs/heads/master
+    old: ab0377803dafc58f1e22296708c1c28e309414d6
+    new: c73a72f4cbb47672c8cc7f7d7aba52f1cb15baca
     log: |
-         f31e3c204d1844b8680a442a48868af5ac3d5481 ARM: mxs: fix memory leak in mxs_machine_init()
+         c73a72f4cbb47672c8cc7f7d7aba52f1cb15baca netlink: remove the flex array from struct nlmsghdr
          
