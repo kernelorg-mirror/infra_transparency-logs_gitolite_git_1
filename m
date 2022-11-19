@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Sat, 19 Nov 2022 13:06:31 -0000
-Message-Id: <166886319129.23975.5227762212272034432@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kvmarm/kvmarm
+Date: Sat, 19 Nov 2022 13:08:10 -0000
+Message-Id: <166886329004.24608.1811113334998585003@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
+repo: pub/scm/linux/kernel/git/kvmarm/kvmarm
 user: maz
 changes:
-  - ref: refs/heads/kvm-arm64/pmu-unchained
-    old: 9ebb27f78bdc93b2f51fc8e26b76b823664b3b77
-    new: d56bdce586e7fabd2b3339f476e0e4c059b24e19
+  - ref: refs/heads/next
+    old: fe78f0b6168205ce8720b685441895d5768ac254
+    new: 0981abb32a0467d997f1fbd2d5ca5c01945d6870
     log: |
          26d2d0594d7016dbcbce4038aa202c2858d5a944 KVM: arm64: PMU: Do not let AArch32 change the counters' top 32 bits
          3d0dba5764b94308b8c4257ad64e383f11ce0c92 KVM: arm64: PMU: Move the ID_AA64DFR0_EL1.PMUver limit to VM creation
@@ -23,4 +23,5 @@ changes:
          1f7c978282855d6b2abd608064004c74902e791d KVM: arm64: PMU: Allow PMUv3p5 to be exposed to the guest
          9bad925dd741408825590eccc495d073cc246de0 KVM: arm64: PMU: Simplify vcpu computation on perf overflow notification
          d56bdce586e7fabd2b3339f476e0e4c059b24e19 KVM: arm64: PMU: Make kvm_pmc the main data structure
+         0981abb32a0467d997f1fbd2d5ca5c01945d6870 Merge branch kvm-arm64/pmu-unchained into kvmarm-master/next
          
