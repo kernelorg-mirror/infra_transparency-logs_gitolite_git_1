@@ -1,27 +1,38 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvmarm/kvmarm
-Date: Sat, 19 Nov 2022 13:08:10 -0000
-Message-Id: <166886329004.24608.1811113334998585003@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/linux-stable
+Date: Sat, 19 Nov 2022 13:53:03 -0000
+Message-Id: <166886598381.23863.9298819188768247934@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvmarm/kvmarm
-user: maz
+repo: pub/scm/linux/kernel/git/sashal/linux-stable
+user: sashal
 changes:
-  - ref: refs/heads/next
-    old: fe78f0b6168205ce8720b685441895d5768ac254
-    new: 0981abb32a0467d997f1fbd2d5ca5c01945d6870
+  - ref: refs/heads/pending-5.10
+    old: 39e57f22be41d58d5de6fbc037edbde92a031fc3
+    new: 3e81b543c785b27080fd1711a5e455046bbb0ee2
     log: |
-         26d2d0594d7016dbcbce4038aa202c2858d5a944 KVM: arm64: PMU: Do not let AArch32 change the counters' top 32 bits
-         3d0dba5764b94308b8c4257ad64e383f11ce0c92 KVM: arm64: PMU: Move the ID_AA64DFR0_EL1.PMUver limit to VM creation
-         60e651ff1f48bfdf8fec80d35510bd89ecf8c766 KVM: arm64: PMU: Allow ID_AA64DFR0_EL1.PMUver to be set from userspace
-         d82e0dfdfda73f91e7282e1083a2cd7cd366ea87 KVM: arm64: PMU: Allow ID_DFR0_EL1.PerfMon to be set from userspace
-         11af4c37165e36a6090172ded5d06acdf15206da KVM: arm64: PMU: Implement PMUv3p5 long counter support
-         1f7c978282855d6b2abd608064004c74902e791d KVM: arm64: PMU: Allow PMUv3p5 to be exposed to the guest
-         9bad925dd741408825590eccc495d073cc246de0 KVM: arm64: PMU: Simplify vcpu computation on perf overflow notification
-         d56bdce586e7fabd2b3339f476e0e4c059b24e19 KVM: arm64: PMU: Make kvm_pmc the main data structure
-         0981abb32a0467d997f1fbd2d5ca5c01945d6870 Merge branch kvm-arm64/pmu-unchained into kvmarm-master/next
+         bd3e0d7008af3292da3ecd8393dae2c89de7d5f8 ALSA: hda/realtek: Add CS35L41 support for Thinkpad laptops
+         3c466708228f7e410b0f7b8ebe09a99e9e56479e ALSA: hda/realtek: fix speakers and micmute on HP 855 G8
+         e92c1adc376382c8f09e9049b7398c3ff8e18754 ALSA: hda/realtek: Add quirk for ASUS Zenbook using CS35L41
+         10b8e284fd631a5a28b27ff9277549638bbbfbf1 mtd: spi-nor: intel-spi: Disable write protection only if asked
+         770d2031b1a81507f608d338a04f7343848c02d0 spi: intel: Use correct mask for flash and protected regions
+         2474b0c93acd14047eba400202b635e1a22f09ab mmc: sdhci-esdhc-imx: use the correct host caps for MMC_CAP_8_BIT_DATA
+         c1591bc84898ca43de7f214a9fcf661e5ad8d38d drm/amd/pm: support power source switch on Sienna Cichlid
+         9fd5cc608dfd638110bd7bbd930f5c2541e83ea1 drm/amd/pm: Read BIF STRAP also for BACO check
+         3aa231825e4713c3e8b83d57953e8da4372ab370 drm/amd/pm: disable BACO entry/exit completely on several sienna cichlid cards
+         3e81b543c785b27080fd1711a5e455046bbb0ee2 drm/amdgpu: disable BACO on special BEIGE_GOBY card
+         
+  - ref: refs/heads/pending-5.15
+    old: 1295358cd94b21730c91fae2865aba2b90c787e3
+    new: ca9cff0bdbe429cc77abc61c5360e11f3e2aaa34
+    log: |
+         a691a45af85b0a8225023e72296ac19ec689168b mtd: spi-nor: intel-spi: Disable write protection only if asked
+         ab044e24fce09694360c4c3ae16427e3da48a51f spi: intel: Use correct mask for flash and protected regions
+         47596d66e4ab52603305db816aeaddbc69aad59c btrfs: zoned: clone zoned device info when cloning a device
+         5ddbbe89e5871bc0a58a080ddf1df1933d83a2e9 KVM: x86/pmu: Do not speculatively query Intel GP PMCs that don't exist yet
+         ca9cff0bdbe429cc77abc61c5360e11f3e2aaa34 hugetlbfs: don't delete error page from pagecache
          
