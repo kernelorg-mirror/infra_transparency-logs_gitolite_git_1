@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tzungbi/chrome-platform
-Date: Sat, 19 Nov 2022 06:43:46 -0000
-Message-Id: <166884022628.1007.8753392792761905772@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chrome-platform/linux
+Date: Sat, 19 Nov 2022 06:46:45 -0000
+Message-Id: <166884040551.3761.15922392305939991040@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tzungbi/chrome-platform
+repo: pub/scm/linux/kernel/git/chrome-platform/linux
 user: tzungbi
 changes:
-  - ref: refs/heads/for-next
-    old: 743a2196bc923e3c1d15dc2d76c48a2b2d639818
-    new: ce264bcf62453cf1ba1987b559fec0a6d56d69d7
+  - ref: refs/heads/for-kernelci
+    old: da29586ac5efa5ffacf838fc2f23fe8386823846
+    new: eba771858c2d4ae4c3ab4546174072195578ac3f
     log: |
-         ce264bcf62453cf1ba1987b559fec0a6d56d69d7 platform/chrome: cros_ec: Convert to i2c's .probe_new()
+         f9e510dc92df270756b6a42d98c738525d01e8c3 platform/chrome: cros_ec: Convert to i2c's .probe_new()
+         eba771858c2d4ae4c3ab4546174072195578ac3f KERNELCI: x86_64_defconfig: Enable support for Chromebooks devices
          
