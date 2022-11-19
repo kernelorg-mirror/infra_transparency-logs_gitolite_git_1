@@ -1,19 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Sat, 19 Nov 2022 02:34:52 -0000
-Message-Id: <166882529267.20990.16544899612109168298@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/crng/random
+Date: Sat, 19 Nov 2022 02:43:15 -0000
+Message-Id: <166882579575.26961.8347076019595454239@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/crng/random
+user: zx2c4
 changes:
-  - ref: refs/heads/master
-    old: e5456f5f664685f3367133a0c8c37b1b907505a0
-    new: c88e4a40d0ce10ba43a71c2c0b49a2f511a512cc
+  - ref: refs/heads/vdso
+    old: 2c5d97540cf3078b1269261fda59a655d20f6639
+    new: b3b8a666d318c20a1de518293cd7cb927dd4e684
     log: |
-         c88e4a40d0ce10ba43a71c2c0b49a2f511a512cc Sat Nov 19 02:34:01 AM UTC 2022
+         e14241ab18d792caef6a9d823f459f81a8a16116 multithreaded vdso test
+         d1b413a7729772c1d7b2b8d4e44ca435c203b378 cover letter
+         a1c77ed2d6a90ce675c0460b9992aa33ad2a045e random: add vgetrandom_alloc() syscall
+         c30cb3a1d43f8ae4e993866f5f26fe0321e5a32b random: introduce generic vDSO getrandom() implementation
+         b3b8a666d318c20a1de518293cd7cb927dd4e684 x86: vdso: Wire up getrandom() vDSO implementation
          
