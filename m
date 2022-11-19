@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4111892800818843449=="
+Content-Type: multipart/mixed; boundary="===============7313770445457870468=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sat, 19 Nov 2022 16:16:55 -0000
-Message-Id: <166887461554.27495.1205985200682237170@gitolite.kernel.org>
+Date: Sat, 19 Nov 2022 16:28:23 -0000
+Message-Id: <166887530397.3535.14086368809765280623@gitolite.kernel.org>
 
---===============4111892800818843449==
+--===============7313770445457870468==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: bp
 changes:
-  - ref: refs/heads/x86/microcode
-    old: 254ed7cf4dd79a18bbc496ab53f6c82d45431c78
-    new: 1a63b58082869273bfbab1b945007193f7bd3a78
-    log: revlist-254ed7cf4dd7-1a63b5808286.txt
+  - ref: refs/heads/master
+    old: d45e8581636ce7c28424b2d3d9f0c80b4fa6eac2
+    new: 15ce088a8698c22cf5a18799dda16f04ed1d1cb7
+    log: revlist-d45e8581636c-15ce088a8698.txt
 
---===============4111892800818843449==
+--===============7313770445457870468==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-254ed7cf4dd7-1a63b5808286.txt
+Content-Disposition: attachment; filename=revlist-d45e8581636c-15ce088a8698.txt
 
 10d4853e4c5cd64b9ef1e5579bb2e89bceab4175 platform/x86/intel/ifs: Remove unused selection
 f4e209e956b5d66f0e6e34e89f19811c2c1e596e platform/x86/intel/ifs: Return a more appropriate error code
@@ -42,5 +42,6 @@ bf835ee852be38e9fab1fdb330eccdd9728aec34 platform/x86/intel/ifs: Remove reload s
 4fb858f3dcd25cf568e35ff53ce8fa8a660fc372 platform/x86/intel/ifs: Add current_batch sysfs entry
 72a0f445fc091bd18873b10b9ab56573e490f00d Documentation/ABI: Update IFS ABI doc
 1a63b58082869273bfbab1b945007193f7bd3a78 Revert "platform/x86/intel/ifs: Mark as BROKEN"
+15ce088a8698c22cf5a18799dda16f04ed1d1cb7 Merge x86/microcode into tip/master
 
---===============4111892800818843449==--
+--===============7313770445457870468==--
