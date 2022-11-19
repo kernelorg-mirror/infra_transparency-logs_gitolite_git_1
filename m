@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ogabbay/accel
-Date: Sat, 19 Nov 2022 20:13:44 -0000
-Message-Id: <166888882482.31635.12204007346768359788@gitolite.kernel.org>
+Date: Sat, 19 Nov 2022 20:24:21 -0000
+Message-Id: <166888946135.6096.16687784656925731406@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,12 +12,9 @@ repo: pub/scm/linux/kernel/git/ogabbay/accel
 user: ogabbay
 changes:
   - ref: refs/heads/accel_v4
-    old: 6876d018396a0f6635e0752db6eb28c1d8ed94c1
-    new: b49ccd3d96657e2a23fff3dd99d6f8c5c8a47811
+    old: b49ccd3d96657e2a23fff3dd99d6f8c5c8a47811
+    new: 589331cb094432f627e374ca92d5a36a164a627f
     log: |
-         9cf2010d8fe870497a8f9f8cd2577954cebf1046 drivers/accel: define kconfig and register a new major
-         66548df7e8ac35e2ada36c23f163b42faafce4ad accel: add dedicated minor for accelerator devices
-         65ed96acdcfdf4d4ba70cc1686896db2cfb9538f drm: initialize accel framework
-         ba5693595eb8c92baf2b4fa824b4db5f03aed596 doc: add documentation for accel subsystem
-         b49ccd3d96657e2a23fff3dd99d6f8c5c8a47811 accel: add accel dummy driver
+         2c27e10e972140b9f2e6b122d416b59316da323a doc: add documentation for accel subsystem
+         589331cb094432f627e374ca92d5a36a164a627f accel: add accel dummy driver
          
