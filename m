@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chrome-platform/linux
-Date: Sat, 19 Nov 2022 06:46:55 -0000
-Message-Id: <166884041514.3865.8239274768419452314@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
+Date: Sat, 19 Nov 2022 07:23:05 -0000
+Message-Id: <166884258580.28504.4197082443076480561@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chrome-platform/linux
-user: tzungbi
+repo: pub/scm/linux/kernel/git/viro/vfs
+user: viro
 changes:
-  - ref: refs/heads/for-next
-    old: ca821c1f4ec11d6181da58118d158a015160106d
-    new: f9e510dc92df270756b6a42d98c738525d01e8c3
+  - ref: refs/heads/fixes
+    old: 7ee47dcfff1835ff75a794d1075b6b5f5462cfed
+    new: 406c706c7b7f1730aa787e914817b8d16b1e99f6
     log: |
-         f9e510dc92df270756b6a42d98c738525d01e8c3 platform/chrome: cros_ec: Convert to i2c's .probe_new()
+         406c706c7b7f1730aa787e914817b8d16b1e99f6 vfs: vfs_tmpfile: ensure O_EXCL flag is enforced
          
