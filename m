@@ -1,53 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============3486310763816839374=="
+Content-Type: multipart/mixed; boundary="===============5714964919166940275=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Sun, 20 Nov 2022 19:04:21 -0000
-Message-Id: <166897106137.3527.7297806451669708019@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Sun, 20 Nov 2022 19:04:37 -0000
+Message-Id: <166897107755.3691.14339491706036557489@gitolite.kernel.org>
 
---===============3486310763816839374==
+--===============5714964919166940275==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/staging
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/staging-6.1-rc6
-    old: a7bc73475ca89a9549edafcf74a7578eb6391e26
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/driver-core-next
+    old: f613facc82cfd4b02b937b14872f24e27da4b909
+    new: 1d926e259d8f8195fdfaeea7951149001894b473
+    log: |
+         435d6b6564568b82ec74ee7d4d0bcb1f24ccb5f5 vmlinux.lds.h: fix BOUNDED_SECTION_(PRE|POST)_LABEL macros
+         1d926e259d8f8195fdfaeea7951149001894b473 vmlinux.lds.h: add HEADERED_SECTION_* macros
+         
 
---===============3486310763816839374==
+--===============5714964919166940275==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1668971059 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1668971056-dc52cf063f322a56d80d0dcb8c5f07d6cae4d8ba
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1668971076 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1668971076-04e506cc635d20c2b07d51215a998199d2c6012e
 
-a7bc73475ca89a9549edafcf74a7578eb6391e26 0000000000000000000000000000000000000000 refs/tags/staging-6.1-rc6
+f613facc82cfd4b02b937b14872f24e27da4b909 1d926e259d8f8195fdfaeea7951149001894b473 refs/heads/driver-core-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmN6ejMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+pG8QAM+xgHhhTaj5Sx7lDAxq
-LgsZQrY5q0yu6g+D+L+R79S7JbQoQO+o1RNfECE0Fj9SoxE6dUYlQ+8f+M7eym1c
-NBp89ajGqO3ij8q9xEGzLI6Yzs6qBufFTny/pJwiwY4Tam3sw2Xz+DdIAHmUN0MB
-gkKH/dGrjzPET3X4gvasVBXlIW2eXgUtltlh1wxDhoNA2CHtmpnm4gmCXB7MV737
-5nWfnQg326L7QchXiC3Z3WcWpQAKei+b3AuSk46hyrKawp2McXyRP9zXmYKYFcXI
-zafdx7sreteGsD5jNtB1SE+47aM/D9ZsqLInM+PIuV4FzoLKRQq3Aq63OtA3G8D3
-E1Pn5DOGKPGc0Sj7EhfuNROjJ2U8yuDPz5S0wyU4Cc/sPnGt5RC7lt9r8MJ/WE/R
-R2Zv096oiIcfLlB5XyBAMEYfV3YJLxhx1hktLiNulID0DeivOoPV0+e+0FF6b3kp
-0gn4JL8onlTPn0DI2jZjTn1LKyu0MuSRHfmiDXlmmnBT4ckXbfAuQXn/hTAz+Mq7
-f1Jy/TVfgo7QgLiJSz5cfqZ74lpp6ooU9Fu1U+ol58hiYH0nGnCeLOe0PWCU57bx
-+6kt3kNAtTFbRTSjvWpQRrHMal3XJUDIhog4tkf4elQo6DBwPZ0ZQcankzXDcp9G
-mMRak7K/NUVruL8xP1Rf56Wh
-=sv2Q
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmN6ekQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+L/sQAI0YWdnKJTzVRAdSMhK/
+YGxkFtG5ZYyp3Sp6JLtV0RM262XpYNehokxW7Sfo86r7LtwSqOp92KlPV1aXHcxP
+sb53VRowlBhy4RuRNusHHBBFpSkc+rkRVt/+kJ63xAOUbYahS10cH1ZDf4aDWgB0
+dy3OhqpFPLnoBTE+r4SNPwrVfG4e/qkAJygCW5HQwlJVkfr61wQCBc1S2OztiDxc
+QKTboMOkUDFMSuA7pXIznA8gTyq0Cx5fZlV6JK082rBD8VoxY87aQ8KjV3sqGy1F
+8mpI2nmR2h+jE0UuxUTXYoqZjAcK+a/nPQdBkbeK2JrHzmv+EPue14OGwySZgMJa
+8Z2h/pY8f0NEcWbPRrXiCqBRHei498JbaNVKe4/0NmZt3wQg6VqjfzsKqafnLBa4
+adOqL6Mj/O13xENQKYeOxo6uQfYARiJSeBKMeLMxMriKnGrCmEJgXi9+ahHYlBla
+P0XXB9lgTrzBdA6BBCQ4CUenKgp6bBtTUT5Qe3T83YBTukdCa7HnJwZX+fnzF5hq
+JMputGX4ODASg3E6G04iBNgSRQ2RaweutjHujxKYHRUeC7U3Ro12oy7zk+mh53Ge
+GSjptWbNjqvKVFxgPc/CoX/WyH3m3PK2PHeNXNibYk/bAu3qcEO8FQnDVCHzV4ky
+G+pk3LeZwOKl/RDvs2AL15Ni
+=F/lz
 -----END PGP SIGNATURE-----
 
---===============3486310763816839374==--
+--===============5714964919166940275==--
