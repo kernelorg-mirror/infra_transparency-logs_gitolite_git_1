@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8453806019442269704=="
+Content-Type: multipart/mixed; boundary="===============6805336899474035749=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Sun, 20 Nov 2022 19:08:55 -0000
-Message-Id: <166897133527.7398.5995934001880520635@gitolite.kernel.org>
+Date: Sun, 20 Nov 2022 19:09:21 -0000
+Message-Id: <166897136119.7640.3491661735478853580@gitolite.kernel.org>
 
---===============8453806019442269704==
+--===============6805336899474035749==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,62 @@ repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 30a0b95b1335e12efef89dd78518ed3e4a71a763
+  - ref: refs/heads/tty-linus
+    old: 3ec17cb325ac731c2211e13f7eaa4b812694e218
     new: 894909f95aa1473f49f767dcd5750ba152b85e13
-    log: revlist-30a0b95b1335-894909f95aa1.txt
+    log: revlist-3ec17cb325ac-894909f95aa1.txt
 
---===============8453806019442269704==
+--===============6805336899474035749==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1668971311 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1668971354 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1668971310-e3fb56f19448e129c8cb5c7b04b4e952a175bef8
+nonce 1668971352-428a81fd0b6a294178b3657bc7695d846be3f550
 
-30a0b95b1335e12efef89dd78518ed3e4a71a763 894909f95aa1473f49f767dcd5750ba152b85e13 refs/heads/main
+3ec17cb325ac731c2211e13f7eaa4b812694e218 894909f95aa1473f49f767dcd5750ba152b85e13 refs/heads/tty-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmN6ey8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+qhsP/1txUnb8jKaPyFDzYxq9
-09Dj8bhYUhROS1861+is7CeoSrwzoRcNxxenR0zfRUAC+Mm0qTKjK93ogXpCD7hf
-EexBW4q3DjCN6r2PsOX4hXVDkcc5C+U2LiVJ808+C9XCDmcDiosYTOpp9gLsbgtF
-6L85kTVZ73hCHTVa1okHvRTkjRmGM3VhCmZ6dW2lIzX7zsUZN/vwv4Z7H3G5+E/E
-M0UA70Fk97eG9VLaEuYSWuXUMhXIKmQlaHYW/LAO54/IALrrVzzTRY9QrmGGsLul
-CpGzgyKYyJnprUOYCl8H0eqvGjwttrxCv+GRXk9Bx1vyc8xckltVf1YnQX3AtT3Q
-2jPKddHnjRFt3DfIOWhl0E4X0YJHafY0zVDWPQQEzlCDfgHOGHNvgpwUZdHUi2fg
-5xyBAdIGKME3vYCZSndfd6oaoytj0lDF7bEQJwQ/2nZJWRPwPihFwXte3Do69jQv
-V89rFiDpvz+mWNgcNXXg8bnaRzzITLn6JMrrlk54unkSjS9p1V6gDUPFroHM583E
-OLpXYBHMHN8t3ALCC6s8SKIdf4LJJk+t30ovovkjfq4adJtlkmbBvcCnAIHbo7rI
-5WpziNdMxOq4p2/ri0ce8p0lwKrgNryG1gpAogUuzLej5GFxaYj9tWEEmNOsQbJX
-8L63Lklu1+XBo44s/U/Er8Jb
-=G9XO
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmN6e1obHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+SwgP/i63rUZUQApq4QszG5Yu
+fuQ2cMQkvE7La39PMOsmLeuT9X9FDAGZ2B4PcaSTalW+StYmm2wXlHA2r9wmJBIL
+WCJLCWrHsfZZeYEo0z4azxn5ayKAd2MjiPleWqYnP6MhFzkFn2WL6SqEZMBfK2OH
+9rrNGlzr5BimHzWWEqx105UPlAzclU0IlC7jE7s2s1WpSNO87jqw8Pd6UiqrK+jo
+aKNu6REnSRLzVnAulIJkzH4kTVczi3smZLsd5hVOLT6SshypSqVpYzfpTYaLxtum
+e57xBitVvKo/OEymqJrYFTH3iwgtXDEI8w6N5H7OM23X7widlRESdPRegjU2z6H2
+8yMzyIBv82vFEwlE8TNr8PYu64iJo+10JuJLQMvwaWnkyshOHKLhVj1lUGBethTa
+LBc3/77unKDTEfjkVXdAV7xAOoYAZmUqNRlSSaChjc4BqGA53PSwslJuzvNjkHDW
+MMv5+mUH6jV/KmHKl7o2rFPUHjoV6jVrdp4Yk65bGL3kvzfsqVxNvVodLQ1GEx01
+qLX78FtO0JnX5a2X34igSzY4vn5Yxqoah5HIDCASKfH2ffhKMtwgGzRoWNEGlSPK
+lPQIZysxSggP2QjgXkM7Rk8A3+TNSd8fEPASHxmNbWlrsk8/eEOHiA2kyymtKIaS
+S9xWyiYMJroKVgLq+MTIrPBh
+=qpMN
 -----END PGP SIGNATURE-----
 
---===============8453806019442269704==
+--===============6805336899474035749==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-30a0b95b1335-894909f95aa1.txt
+Content-Disposition: attachment; filename=revlist-3ec17cb325ac-894909f95aa1.txt
 
+13cf24e00665c9751951a422756d975812b71173 xfs: fix exception caused by unexpected illegal bestcount in leaf dir
+fc93812c725068e6a491ce574f058a4530130c00 xfs: remove redundant pointer lip
+cf4f4c12dea7a977a143c8fe5af1740b7f9876f8 xfs: fix memory leak in xfs_errortag_init
+d08af40340cad0e025d643c3982781a8f99d5032 xfs: Fix unreferenced object reported by kmemleak in xfs_sysfs_init()
+cf00b33058b196b4db928419dde68993b15a975b cxl/mbox: Add a check on input payload size
+2816e24b0510e0c185c0c46acff1ce7aa4c4443f cxl/region: Fix null pointer dereference due to pass through decoder commit
+f010c75c05299ecd65adfd31a7841eea3476ce1f cxl/pmem: Fix failure to account for 8 byte header for writes to the device LSA.
+e8a18e3f00f3ee8d07c17ab1ea3ad4df4a3b6fe0 parisc: Make 8250_gsc driver dependend on CONFIG_PARISC
+9e4e2ce1a78ed92ed91135e90c85f27d75388129 parisc/serial: Rename 8250_gsc.c to 8250_parisc.c
+66063033f77e10b985258126a97573f84bb8d3b4 wifi: rt2x00: use explicitly signed or unsigned types
+50f19697dd768d8b072cf7f12c0c99c7d31b67d8 parisc: Use signed char for hardware path in pdc.h
+03c0ad4b06c3566de624b4f4b78ac1a5d1e4c8e7 wifi: cfg80211: silence a sparse RCU warning
+50b2e8711462409cd368c41067405aa446dfa2af wifi: mac80211: fix memory free error when registering wiphy fail
+57b962e627ec0ae53d4d16d7bd1033e27e67677a wifi: cfg80211: fix memory leak in query_regdb_file()
+18429c51c7ff6e6bfd627316c54670230967a7e5 wifi: cfg80211: Fix bitrates overflow issue
 69188df5f6e4cecc6b76b958979ba363cd5240e8 wifi: mac80211_hwsim: fix debugfs attribute ps with rc table support
 24f0692bfd41fd207d99c993a5785c3426762046 ACPI: NUMA: Add CXL CFMWS 'nodes' to the possible nodes set
 0469e56a14bf8cfb80507e51b7aeec0332cdbc13 KVM: x86: Mask off reserved bits in CPUID.80000001H
@@ -388,17 +403,7 @@ d5e0fb0d9dea545defb963ec1073bd9a1a8b5395 drm/amd/display: Add DSC delay factor w
 f937b758a188d6fd328a81367087eddbb2fce50f Bluetooth: L2CAP: Fix l2cap_global_chan_by_psm
 b1a2cd50c0357f243b7435a732b4e62ba3157a2e Bluetooth: L2CAP: Fix attempting to access uninitialized memory
 ef1fdc936cb004f25891de545b70e97958c33187 Merge tag 'for-net-2022-10-02' of git://git.kernel.org/pub/scm/linux/kernel/git/bluetooth/bluetooth
-038ee49fef18710bedd38b531d173ccd746b2d8d serial: 8250: 8250_omap: Avoid RS485 RTS glitch on ->set_termios()
-93810191f5d23652c0b8a1a9b3a4a89d6fd5063e serial: 8250: omap: Fix missing PM runtime calls for omap8250_set_mctrl()
-e828e56684d61b17317e0cfdef83791fa61cb76b serial: 8250_omap: remove wait loop from Errata i202 workaround
-e3f0c638f428fd66b5871154b62706772045f91a serial: 8250: omap: Fix unpaired pm_runtime_put_sync() in omap8250_remove()
-d0b68629bd2fb61e0171a62f2e8da3db322f5cf6 serial: 8250: omap: Flush PM QOS work on remove
 dac1dc7e4dc11fb9d9c35c50beba6b77f46fda6f Merge git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
-76bad3f88750f8cc465c489e6846249e0bc3d8f5 tty: serial: fsl_lpuart: don't break the on-going transfer when global reset
-4561d8008a467cb05ac632a215391d6b787f40aa serial: imx: Add missing .thaw_noirq hook
-acdab4cb4ba7e5f94d2b422ebd7bf4bf68178fb2 Revert "tty: n_gsm: avoid call of sleeping functions from atomic context"
-15743ae50e04aa907131e3ae8d66e9a2964ea232 Revert "tty: n_gsm: replace kicktimer with delayed_work"
-7b7dfe4833c70a11cdfa51b38705103bd31eddaa tty: n_gsm: fix sleep-in-atomic-context bug in gsm_control_send
 40e4eb324c59e11fcb927aa46742d28aba6ecb8a net: mdio: fix undefined behavior in bit shift for __mdiobus_register
 d6dd2fe71153f0ff748bf188bd4af076fe09a0a6 ibmvnic: Free rwi on reset success
 2ae34111fe4eebb69986f6490015b57c88804373 stmmac: dwmac-loongson: fix invalid mdio_node
@@ -696,15 +701,10 @@ c8af247de385ce49afabc3bf1cf4fd455c94bfe8 udf: Fix a slab-out-of-bounds write bug
 9d5333c931347005352d5b8beaa43528c94cfc9c usb: cdns3: host: fix endless superspeed hub port reset
 bdfe34597139cfcecd47a2eb97fea44d77157491 perf/x86/amd/uncore: Fix memory leak for events array
 f002f45a00ee14214d96b18b9a555fe2c56afb20 mmc: sdhci-esdhc-imx: use the correct host caps for MMC_CAP_8_BIT_DATA
-a931237cbea256aff13bb403da13a97b2d1605d9 serial: 8250: Fall back to non-DMA Rx if IIR_RDI occurs
-1bfcbe5805d0cfc83c3544dcd01e0a282c1f6790 serial: 8250_lpss: Configure DMA also w/o DMA filter
-7090abd6ad0610a144523ce4ffcb8560909bf2a8 serial: 8250_lpss: Use 16B DMA burst with Elkhart Lake
-1980860e0c8299316cddaf0992dd9e1258ec9d88 serial: 8250: Flush DMA Rx on RLSI
 181135bb20dcb184edd89817831b888eb8132741 usb: add NO_LPM quirk for Realforce 87U Keyboard
 d7ac8dca938cd60cf7bd9a89a229a173c6bcba87 nvme: quiet user passthrough command errors
 becc4cac309dc867571f0080fde4426a6c2222e0 nvmet: fix memory leak in nvmet_subsys_attr_model_store_locked
 e65fdf530f55c5e387db14470a59a399faa29613 nvmet: fix a memory leak
-3ec17cb325ac731c2211e13f7eaa4b812694e218 docs/driver-api/miscellaneous: Remove kernel-doc of serial_core.c
 d38a648d2d6cc7bee11c6f533ff9426a00c2a74c net: wwan: iosm: fix memory leak in ipc_pcie_read_bios_cfg
 035e3befc191347331dd2530c3686e05a8acfbb2 net: wwan: iosm: fix driver not working with INTEL_IOMMU disabled
 02d2d2ea4a3bc2391f6ac31f6854da83e8a63829 net: wwan: iosm: fix invalid mux header type
@@ -1082,4 +1082,4 @@ eb0ef8add5a3e98332f803737d18a384da7f9a74 Merge tag 'perf_urgent_for_v6.1_rc6' of
 d4f754c3615c83df277018a98486db501f92b155 Merge tag 'sched_urgent_for_v6.1_rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 894909f95aa1473f49f767dcd5750ba152b85e13 Merge tag 'x86_urgent_for_v6.1_rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 
---===============8453806019442269704==--
+--===============6805336899474035749==--
