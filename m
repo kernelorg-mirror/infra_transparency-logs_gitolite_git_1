@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5083652092563098674=="
+Content-Type: multipart/mixed; boundary="===============6336077802815551481=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tglx/devel
-Date: Sun, 20 Nov 2022 20:18:39 -0000
-Message-Id: <166897551929.24630.14444967226970121708@gitolite.kernel.org>
+Date: Sun, 20 Nov 2022 20:20:53 -0000
+Message-Id: <166897565314.27006.16119608069716052058@gitolite.kernel.org>
 
---===============5083652092563098674==
+--===============6336077802815551481==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,28 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tglx/devel
 user: tglx
 changes:
-  - ref: refs/heads/devmsi-arm
-    old: 96c97746cbb431a306e95c04d6b3c75751244716
-    new: 1c78904f3abfeebef2b81b2e04b733d7fa00ed0b
-    log: revlist-96c97746cbb4-1c78904f3abf.txt
-  - ref: refs/tags/devmsi-v2-arm
-    old: 0000000000000000000000000000000000000000
-    new: 1708af7873bfb0cb0528c763cfd859f338d972a2
-  - ref: refs/tags/devmsi-v2-part1
-    old: 0000000000000000000000000000000000000000
-    new: f465d22b32926779ccc84eb498a6fe8556fb01e9
-  - ref: refs/tags/devmsi-v2-part2
-    old: 0000000000000000000000000000000000000000
-    new: b692b92807a8778b1cb2320eac2b248dd48e11c1
-  - ref: refs/tags/devmsi-v2-part3
-    old: 0000000000000000000000000000000000000000
-    new: aad3f4c30b38f3e8b669df46a4a117f49d0070df
+  - ref: refs/heads/devmsi
+    old: f7a53a80315e4897b86859813f0d98e689451e9a
+    new: 0860f4291f3db95c7c94e5b0d59023c1715b0e45
+    log: revlist-f7a53a80315e-0860f4291f3d.txt
 
---===============5083652092563098674==
+--===============6336077802815551481==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-96c97746cbb4-1c78904f3abf.txt
+Content-Disposition: attachment; filename=revlist-f7a53a80315e-0860f4291f3d.txt
 
 6ca53a75c425cb1cb0929ce07f58d9e41094500c dt-bindings: hwlock: qcom-hwspinlock: add support for MMIO on older SoCs
 276a4f1a5fb118bfd6980d42732d530e43f2916a dt-bindings: hwlock: qcom-hwspinlock: correct example indentation
@@ -505,45 +493,5 @@ c6b44c8c6887625d6315c1ccb6d7d187ea8fa920 PCI/MSI: Provide IMS (Interrupt Message
 7d5088d44b81af4fea768d15af070288ecb76cbf iommu/vt-d: Enable PCI/IMS
 22325a8983c0e8441992b25f2319d2e028a2b9af iommu/amd: Enable PCI/IMS
 0860f4291f3db95c7c94e5b0d59023c1715b0e45 irqchip: Add IDXD Interrupt Message Store driver
-37e8fe86da9533166d1eb3ca9240fb05a22a0703 ACPI/IORT: Make prototype of iort_pmsi_get_dev_id() always available
-bcd481e836f30dfe8f6d4a27385881da44f01202 irqchip/gic-v2m: Include arm-gic-common.h
-f13a373ca315611c1f4eb620ff34a574d5e61c84 irqchip/gic-v2m: Mark a few functions __init
-6d292cc8b2a3e6efd404b22a7469050d0ce7a6e1 irqchip/ti-sci-inta: Fix kernel doc
-643097336bd64ae7e5d1003da531dae82e2b6d1c PCI/MSI: Provide static key for parent mask/unmask
-4bc236571c24e26a99e97c419eddcdda5af31fb8 irqchip/gic-v3: Make gic_irq_domain_select() robust for zero parameter count
-59cc463e7ce8592992d05383440014f785eb993c genirq/irqdomain: Remove the param count restriction from select()
-823defeb370be7e536436f6562e890778a03d786 genirq/msi: Extend msi_parent_ops
-8554e0478699308d5827ec99ba79d49b6eb1b259 irqchip: Provide irq-gic-lib
-85ebb7f6b418bd63824c2e0705cb4e586bd120a7 irqchip/gic-v3-its: Provide MSI parent infrastructure
-df148be3316c01e1052cd443c9203270e1b0c0ec irqchip/gic-msi-lib: Prepare for PCI MSI/MSIX
-d00e7af145336213627428cff5a4661a50576612 irqchip/gic-v3-its: Provide MSI parent for PCI/MSI[-X]
-9cf96cd26b3a6c26bb7d7c46ec067e9ad2de64da genirq/irqdomain: Add BUS_DOMAIN_DEVICE_MSI
-0facc376c460e442a54e902341599d5b862efba3 irqchip/gic-msi-lib: Prepare for DEVICE MSI to replace platform MSI
-01f2b345da2858197cf5b81d8b20ca460452857b platform-msi: Prepare for real per device domains
-1a66e5d4d1e9757a07c19a474efa5ce86d5254d3 irqchip: Convert all platform MSI users to the new API
-4304fbbc6df31c05db7878dacf1de39ec74d86be genirq/msi: Provide optional translation op
-e6d065130220e4bea1b0b10385df6bc6b14d9911 genirq/msi: Split msi_domain_alloc_irq_at()
-c6eecf319ae60032c65d0c1f5131fa1f6800f540 genirq/msi: Provide BUS DEVICE_MSI_WIRED
-7dda918d8fb3773946b94da50b971775fbf62a57 genirq/msi: Optionally use dev->fwnode for device domain
-2562af87b23cd292b2a2e615b028c280a708ed1d genirq/msi: Provide allocation/free functions for "wired" MSI interrupts
-fd60a71fff1c1976883313e4489af09aaf1a9ecc genirq/irqdomain: Reroute device MSI create_mapping
-3ac6d1d304dc01d442ccc096afcfcec208b7a99e irqchip/mbigen: Prepare for real per device MSI
-7da88b535dd177c2e9a6615af43c5cd253d5f2a3 irqchip/gic-msi-lib: Prepare for DOMAIN_BUS_WIRED_TO_MSI
-9c2bc0d558499489b25cc82f17b7c4df8eb7cd5c irqchip/gic-v3-its: Switch platform MSI to MSI parent
-da13c83bbd85e4b8602353d9b112fb851eb74ce1 irqchip/mbigen: Remove platform_msi_create_device_domain() fallback
-f0e400eabc5c2c2fa17daaef5745e043b99bea4f genirq/msi: Remove platform_msi_create_device_domain()
-5ca25ba961075725c8e9615efb84f9bf448e5936 genirq/gic-v3-mbi: Remove unused wired MSI mechanics
-6e67ffac4e56d0ca64b9c22019fc7f4d36472611 genirq/gic-v3-mbi: Switch to MSI parent
-9a8cd44f8ccc7cab6eeea5d63fc71ae9520ab105 irqchip/gic-v2m: Switch to device MSI
-ebed50087c07141cbefb5ab892075e7fd422408b genirq/msi: Provide MSI_FLAG_PARENT_PM_DEV
-9e29b0f5ec96dd3519170ba08da8ebab4bda7cfd irqchip/imx-mu-msi: Switch to MSI parent
-fdb1db095bc6027c5d7c17b156f8a8ec7beb726b irqchip/irq-mvebu-icu: Fix works by chance pointer assignment
-e1f525596bcf90b9a0d2b1fa08a9d9db21ae9dba irqchip/irq-mvebu-icu: Prepare for real per device MSI
-1e7a0ab83f4eb4ccc799c7f54025db2ac2c0321d irqchip/mvebu-gicp: Switch to MSI parent
-72f6ece8aeee3238682c28ef6692e1276e6b7f79 irqchip/mvebu-odmi: Switch to parent MSI
-477407e2331c8fa8066fe922802287d9ce073527 irqchip/irq-mvebu-sei: Switch to MSI parent
-ebfd527f2b635fd478292fd83a33bc6aae5452e1 irqchip/irq-mvebu-icu: Remove platform MSI leftovers
-0a0fbf85f86bf6deca89c7b8bd0875567fccf259 genirq/msi: Remove platform MSI leftovers
-1c78904f3abfeebef2b81b2e04b733d7fa00ed0b genirq/msi: Move msi_device_data to core
 
---===============5083652092563098674==--
+--===============6336077802815551481==--
