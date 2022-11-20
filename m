@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/deller/linux-fbdev
-Date: Sun, 20 Nov 2022 21:25:32 -0000
-Message-Id: <166897953230.9933.16193625674488829303@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jfern/linux
+Date: Sun, 20 Nov 2022 21:43:56 -0000
+Message-Id: <166898063685.21244.12896114021978812685@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/deller/linux-fbdev
-user: deller
+repo: pub/scm/linux/kernel/git/jfern/linux
+user: jfern
 changes:
-  - ref: refs/heads/hp-visualize-fx-fbdev-2
-    old: 1137f1d4ef88c9c58866ee1bf655b4960f17e00c
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/sched/balance_cb_comments.11.2022
+    old: 0000000000000000000000000000000000000000
+    new: 412deaa4a4e4f93f67defacca586046b9b79c07a
