@@ -1,50 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============2819592609937374768=="
+Content-Type: multipart/mixed; boundary="===============4002809557013273841=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Sun, 20 Nov 2022 11:55:25 -0000
-Message-Id: <166894532570.25822.9626150564566255162@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Sun, 20 Nov 2022 11:55:54 -0000
+Message-Id: <166894535423.26151.5229704170874337161@gitolite.kernel.org>
 
---===============2819592609937374768==
+--===============4002809557013273841==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.2
+  - ref: refs/heads/asoc-6.2
     old: 4c8bcfd3e1c30edbf252529f7189da87d169f1dd
     new: c7eb967d70446971413061effca3226578cb4dab
     log: |
          c7eb967d70446971413061effca3226578cb4dab ASoC: core: Exit all links before removing their components
          
 
---===============2819592609937374768==
+--===============4002809557013273841==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1668945327 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1668945322-be6aa8c3a3c9d77b983706df38df6dab8a9d8dec
+pusher C3F436CA30F5D8EB 1668945355 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1668945337-d32c8ac83bd5550b2027bf605ab6adadfd7a3abb
 
-4c8bcfd3e1c30edbf252529f7189da87d169f1dd c7eb967d70446971413061effca3226578cb4dab refs/heads/for-6.2
+4c8bcfd3e1c30edbf252529f7189da87d169f1dd c7eb967d70446971413061effca3226578cb4dab refs/heads/asoc-6.2
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmN6Fa8ACgkQJNaLcl1U
-h9AjBQf+KRKxFF2vyhi9QK7Kn9vWzr8Ne+Jlygo5WMBEk7gyWKg85LEyDcmljh51
-c3BpdO6Gk0wyV/ioDNQtIubO+VfZMSjxo224H4EghHpLKSuMzgmsQioty0iDpk7F
-PGqNye1UNHFUjj82iStBx1GkCvKF76X/SRV7nLFBeL3hUaxmxto3msCHYYDDWao5
-nyCMm4lXrE/Aastyxp/aJb1Vbj2wdww0ZWWu3S7QE6RTNJD05q0pAbPQ/wPoqU1F
-S+iKHVAtPHSFcbqQj02zEgb4UTL04iyB4WGyMcQuVibJ2ubc26Z+uS4Ez05vLRpU
-eHeW81wpxxdRWqiNkqTw5WJ2uYsTtw==
-=56+v
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmN6FcsACgkQJNaLcl1U
+h9CYcAf/VUIq2onKiEZqN9DzqUzwRHfHs70nvUTwZDGIdjhEi9cGqfMoE8IRiies
+LbIxj67IoNRCS7F+6nn1TZxlZwHCReC2IgukzRm5RI3+nRt3zd86a9amBXJxgTiC
+mlxB+3FXhsuZsD5ExSGF8dIq4MnC7/SAT638g9NnL3KLniNe+S4wXFAr/RLE7DGr
+LftLqrmPCSWtzj5nYAO9O3sTxJdYaMr813OpIcf0sBuPxYFBKBbb/XO+WUQjnZTw
+PkOIqn0fAlPS6TUWyQUMK+vX5JvZbg4YXm7BLngSlb1hYlh21QI8OFvwh/eEqMnk
+zEhnK9X8E/fO2X2vyhRxDBePE3H70A==
+=11DC
 -----END PGP SIGNATURE-----
 
---===============2819592609937374768==--
+--===============4002809557013273841==--
