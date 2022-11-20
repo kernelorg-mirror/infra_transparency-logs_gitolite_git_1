@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7046247632423437895=="
+Content-Type: multipart/mixed; boundary="===============6757372515040719384=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Sun, 20 Nov 2022 18:58:52 -0000
-Message-Id: <166897073235.31582.17706608441899831813@gitolite.kernel.org>
+Date: Sun, 20 Nov 2022 18:58:59 -0000
+Message-Id: <166897073974.31706.3225236233399148568@gitolite.kernel.org>
 
---===============7046247632423437895==
+--===============6757372515040719384==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,63 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 30a0b95b1335e12efef89dd78518ed3e4a71a763
+  - ref: refs/heads/usb-linus
+    old: 59a51183be1a6aaaf6f8483aec82e2fbf2c74ab9
     new: 894909f95aa1473f49f767dcd5750ba152b85e13
-    log: revlist-30a0b95b1335-894909f95aa1.txt
+    log: revlist-59a51183be1a-894909f95aa1.txt
 
---===============7046247632423437895==
+--===============6757372515040719384==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1668970703 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1668970735 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1668970706-fcc7842b7331e2a22f19de15e9a5514beaa32037
+nonce 1668970738-eb4e7b9adc995ebf2b67d111fac3d46c72640555
 
-30a0b95b1335e12efef89dd78518ed3e4a71a763 894909f95aa1473f49f767dcd5750ba152b85e13 refs/heads/main
+59a51183be1a6aaaf6f8483aec82e2fbf2c74ab9 894909f95aa1473f49f767dcd5750ba152b85e13 refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmN6eM8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+I70P/ii1xOvgUYMcH62/YSLI
-HCgh64hYKRkx9baiq9Juvu8hDCCbjsaCBf4R/9Fb1zhcAoDWujEDdA9vvHGGK37O
-ux3myrT1I3CIXNCN/8njInlyJkPWaUCwPttGRX6e5GuS+sAeaJTm0blmzauO+0QK
-r9/g5TCAK/xoYVioS+p4wwqn81k7aixV6scSFU4d2sOMlSmfQbTnoopVfYTD74Uo
-ObcOkaJ8hisBHdUqakS5CkmIyXVm9zDH5um2NTB0Y0dlhIoj6M3upesA6ScgEygQ
-+MtJ4L2a3bMrqUQhQW5LumHhVgG0fVfXsVPDsZvEgpGAjLFLdJasIMnmqOtbD2rD
-DFMFfW//aat9vr/TByNfx32flsBdYWYycOxqfoyIOcC07mtw24ELyrx2naXweAIi
-ohc7Fub9VLWZzfXxZAjm/HfHe/ZUHWbjfJT4OrI5XKIJe3+3QLkBlq8mTnxWCNCv
-WjwXy8jvhrN09Svm5SasmFRAGc0po6pCkAUqzkEyAN0jnnMRSao/bfJ15TAHBX0y
-EEkAddfQxubTZfTdYVix1RUTuf8LO8BfSwMF6lisw9TnC3i4AbqRAxnzVz7jPNAX
-qR9I25Mivd2DkMxyxsf0gZonLpfDEmZ6m+mUwi5vfwMEHuiYdbgWRRb8piCjzIJE
-ezSBr5mTM0n0KpBEn98t6ebo
-=ZwdQ
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmN6eO8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+tMQQAJRX7IYrIS89p27q9+ZC
+Pkloxz4mmu+wAY8DrwH9HUMg02EW/eeJnJEbIk3oyuuFY1X9IfjJeOrGVI+N+A5Z
+7dF7K04QUzyzaW7n+t++7XNOAFtBoabuIyO6KmeC/01ZkfX+2L08T8chLNgSV7vz
+oX/9sQcNR7x12PmsPatLFSrEAT8M5dx+tYnJhV4dTJxUstnW6URhegtQ2TNdamjj
+m2vKQp/39rzTv648cQlIiQBBojtx18j7Qppblcy18vU8vkbcm14Omd5Z3qP7avj+
+Cb19xWTznzZWcm+EcpJDLvzLahHgOts57bY+vwlzcL/pKjGO9UIU351OMH3VtFOF
+Qp9qmdaplgAnlEFV7Wcewp9fSW5XzDzBjJttrwmuCAny+Nfcypj/XICzfY0Qr5zX
+She+sr0DuzpIr9kAlZIACDXdJSb6pVGOlTvMg0aaCqFIrGHdRltq/KVO3laq1L3x
++uMaGxUUuzp4CjgSuqaR33WzbTgJlZzjNG3ZocxS9VdsZf2xUyXJqr3btJVaKdcC
+kdVJmn63KzWMq61mMSvF+sNh3jEDRP+MElhDZIy7tErav/pQQwB0jx5nz+4jaIAA
+V+kTbK+dPMKgqq2vhfCxeIDJUwKE+DQtbH9ZPM870s9njRzbzOklT7XXBcHEfNX/
+p7JRvcu1uKrONlGHxaqZmUuO
+=OHLM
 -----END PGP SIGNATURE-----
 
---===============7046247632423437895==
+--===============6757372515040719384==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-30a0b95b1335-894909f95aa1.txt
+Content-Disposition: attachment; filename=revlist-59a51183be1a-894909f95aa1.txt
 
+54de93cd8740d52a83728802b4270f953d1a636f kernel/utsname_sysctl.c: Add missing enum uts_proc value
+13cf24e00665c9751951a422756d975812b71173 xfs: fix exception caused by unexpected illegal bestcount in leaf dir
+fc93812c725068e6a491ce574f058a4530130c00 xfs: remove redundant pointer lip
+cf4f4c12dea7a977a143c8fe5af1740b7f9876f8 xfs: fix memory leak in xfs_errortag_init
+d08af40340cad0e025d643c3982781a8f99d5032 xfs: Fix unreferenced object reported by kmemleak in xfs_sysfs_init()
+cf00b33058b196b4db928419dde68993b15a975b cxl/mbox: Add a check on input payload size
+2816e24b0510e0c185c0c46acff1ce7aa4c4443f cxl/region: Fix null pointer dereference due to pass through decoder commit
+f010c75c05299ecd65adfd31a7841eea3476ce1f cxl/pmem: Fix failure to account for 8 byte header for writes to the device LSA.
+e8a18e3f00f3ee8d07c17ab1ea3ad4df4a3b6fe0 parisc: Make 8250_gsc driver dependend on CONFIG_PARISC
+9e4e2ce1a78ed92ed91135e90c85f27d75388129 parisc/serial: Rename 8250_gsc.c to 8250_parisc.c
+66063033f77e10b985258126a97573f84bb8d3b4 wifi: rt2x00: use explicitly signed or unsigned types
+50f19697dd768d8b072cf7f12c0c99c7d31b67d8 parisc: Use signed char for hardware path in pdc.h
+03c0ad4b06c3566de624b4f4b78ac1a5d1e4c8e7 wifi: cfg80211: silence a sparse RCU warning
+50b2e8711462409cd368c41067405aa446dfa2af wifi: mac80211: fix memory free error when registering wiphy fail
+57b962e627ec0ae53d4d16d7bd1033e27e67677a wifi: cfg80211: fix memory leak in query_regdb_file()
+18429c51c7ff6e6bfd627316c54670230967a7e5 wifi: cfg80211: Fix bitrates overflow issue
 69188df5f6e4cecc6b76b958979ba363cd5240e8 wifi: mac80211_hwsim: fix debugfs attribute ps with rc table support
 24f0692bfd41fd207d99c993a5785c3426762046 ACPI: NUMA: Add CXL CFMWS 'nodes' to the possible nodes set
 0469e56a14bf8cfb80507e51b7aeec0332cdbc13 KVM: x86: Mask off reserved bits in CPUID.80000001H
@@ -109,7 +125,6 @@ dea0d5a2fde62237ff14c41cb05dd151cebf84c0 KVM: x86: Exempt pending triple fault f
 ecbcf030b45666ad11bc98565e71dfbcb7be4393 KVM: Reject attempts to consume or refresh inactive gfn_to_pfn_cache
 03b9a6e18d325ede28c6dc218cedda53969eb41b x86/hyperv: Remove BUG_ON() for kmap_local_page()
 99632e3dbeb25a0ff86c4af4bba2dcf638624423 Drivers: hv: fix repeated words in comments
-df3414b0a245f43476061fddd78cee7d6cff797f USB: serial: option: add Sierra Wireless EM9191
 5c1df62ca65936139a4b008561110d9fc285c58a kbuild: use POSIX-compatible grep option
 114ff6fe6cfbe81659f9e517d0b25f53db5dfc5d Documentation: kbuild: Add description of git for reproducible builds
 3b1e0dd2dc8a280b1e89c0df6d38cd28768575a5 kbuild: fix typo in modpost
@@ -634,12 +649,6 @@ f04a2862f9c3f64962b8709c75d788efba6df26b pinctrl: qcom: sc8280xp: Rectify UFS re
 f02be9002c480cd3ec0fcf184ad27cf531bd6ece block, bfq: fix null pointer dereference in bfq_bio_bfqg()
 f829230dd51974c1f4478900ed30bb77ba530b40 block: sed-opal: kmalloc the cmd/resp buffers
 ce9e57feeed81d17d5e80ed86f516ff0d39c3867 drivers: net: xgene: disable napi when register irq failed in xgene_enet_open()
-cd136706b4f925aa5d316642543babac90d45910 USB: bcma: Make GPIO explicitly optional
-ffb9da4a04c69567bad717707b6fdfbc4c216ef4 usb: dwc3: gadget: Return -ESHUTDOWN on ep disable
-5c294de36e7fb3e0cba0c4e1ef9a5f57bc080d0f Revert "usb: dwc3: disable USB core PHY management"
-341fd15e2e18c24d5c738496cfc3d7a272241201 extcon: usbc-tusb320: Call the Type-C IRQ handler only if a port is registered
-40bf8f162d0f95e0716e479d7db41443d931765c usb: typec: mux: Enter safe mode only when pins need to be reconfigured
-6d8fc203b28ff8f6115fbe5eaf584de8b824f4fa usb: typec: tipd: Prevent uninitialized event{1,2} in IRQ handler
 2081b3bd0c11757725dcab9ba5d38e1bddb03459 arm64: fix rodata=full again
 50256e4793a5e5ab77703c82a47344ad2e774a59 nfsd: put the export reference in nfsd4_verify_deleg_dentry
 eb86559a691cea5fa63e57a03ec3dc9c31e97955 bpf: Fix memory leaks in __check_func_call
@@ -649,7 +658,6 @@ eb86559a691cea5fa63e57a03ec3dc9c31e97955 bpf: Fix memory leaks in __check_func_c
 6191de8b175fad1a877ae8ed4be699a5022b9c03 s390/configs: move CONFIG_DEBUG_INFO_BTF into btf.config addon config
 9afea696a04af29b114b38aec734e28b03e93dae s390/configs: add kasan.config addon config file
 80ddf5ce1c9291cb175d52ed1227134ad48c47ee s390: always build relocatable kernel
-d68cc25b7c7fb3034c5a5b5f350a0b858c6d5a45 usb: dwc3: Do not get extcon device when usb-role-switch is used
 f0861f49bd946ff94fce4f82509c45e167f63690 x86/sgx: Add overflow check in sgx_validate_offset_length()
 f49b2d89fb10ef5fa5fa1993f648ec5daa884bef Merge tag 'lsm-pr-20221107' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/lsm
 f141df371335645ce29a87d9683a3f79fba7fd67 Merge tag 'audit-pr-20221107' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/audit
@@ -692,15 +700,12 @@ fed74d75277da865da9ba334d3f5d5e3e327971d pinctrl: mediatek: common-v2: Fix bias-
 8ec8490a1950efeccb00967698cf7cb2fcd25ca7 arm64: Fix bit-shifting UB in the MIDR_CPU_MODEL() macro
 acfc35cfcee5df419391671ef1a631f43feee4e3 arm64/syscall: Include asm/ptrace.h in syscall_wrapper header.
 c8af247de385ce49afabc3bf1cf4fd455c94bfe8 udf: Fix a slab-out-of-bounds write bug in udf_find_entry()
-7a58b8d6021426b796eebfae80983374d9a80a75 usb: chipidea: fix deadlock in ci_otg_del_timer
-9d5333c931347005352d5b8beaa43528c94cfc9c usb: cdns3: host: fix endless superspeed hub port reset
 bdfe34597139cfcecd47a2eb97fea44d77157491 perf/x86/amd/uncore: Fix memory leak for events array
 f002f45a00ee14214d96b18b9a555fe2c56afb20 mmc: sdhci-esdhc-imx: use the correct host caps for MMC_CAP_8_BIT_DATA
 a931237cbea256aff13bb403da13a97b2d1605d9 serial: 8250: Fall back to non-DMA Rx if IIR_RDI occurs
 1bfcbe5805d0cfc83c3544dcd01e0a282c1f6790 serial: 8250_lpss: Configure DMA also w/o DMA filter
 7090abd6ad0610a144523ce4ffcb8560909bf2a8 serial: 8250_lpss: Use 16B DMA burst with Elkhart Lake
 1980860e0c8299316cddaf0992dd9e1258ec9d88 serial: 8250: Flush DMA Rx on RLSI
-181135bb20dcb184edd89817831b888eb8132741 usb: add NO_LPM quirk for Realforce 87U Keyboard
 d7ac8dca938cd60cf7bd9a89a229a173c6bcba87 nvme: quiet user passthrough command errors
 becc4cac309dc867571f0080fde4426a6c2222e0 nvmet: fix memory leak in nvmet_subsys_attr_model_store_locked
 e65fdf530f55c5e387db14470a59a399faa29613 nvmet: fix a memory leak
@@ -928,7 +933,6 @@ fc2292bd01a25279bf3e29c99e60bfe52d900a91 MAINTAINERS: git://github.com -> https:
 4abb77fc5531381484477cac95913336c97176b7 xen/platform-pci: use define instead of literal number
 2e35b25dd8e666b8619355fc3defb1b246a5dc02 pinctrl: mediatek: Export debounce time tables
 d5ceb4d1c50786d21de3d4b06c3f43109ec56dd8 nvme-pci: add NVME_QUIRK_BOGUS_NID for Micron Nitro
-148f4b32b4504d8a32cf82049b7b9499a4b299ab USB: serial: option: add Fibocom FM160 0x0111 composition
 a5b5fb0fc47ddc7d1ed6a0365197639a01bc1f3a platform/x86/amd: pmc: Remove more CONFIG_DEBUG_FS checks
 5121197ecc5db58c07da95eb1ff82b98b121a221 kcm: close race conditions on sk_receive_queue
 d349e9be5a2c2d7588a2c4e4bfa0bb3dc1226769 net: ena: Fix error handling in ena_init()
@@ -1009,9 +1013,6 @@ b68777d54fac21fc833ec26ea1a2a84f975ab035 l2tp: Serialize access to sk_user_data 
 096cc0cddf58232bded309336961784f1d1c85f8 mmc: sdhci-pci-o2micro: fix card detect fail issue caused by CD# debounce timeout
 aeac4ec8f46d610a10adbaeff5e2edf6a88ffc62 tcp: configurable source port perturb table size
 222cfa0118aa68687ace74aab8fdf77ce8fbd7e6 mmc: sdhci-pci: Fix possible memory leak caused by missing pci_dev_put()
-2ec106b96afc19698ff934323b633c0729d4c7f8 USB: serial: option: remove old LARA-R6 PID
-d9e37a5c4d80ea25a7171ab8557a449115554e76 USB: serial: option: add u-blox LARA-R6 00B modem
-c1547f12df8b8e9ca2686accee43213ecd117efe USB: serial: option: add u-blox LARA-L6 modem
 a51e5d293dd1c2e7bf6f7be788466cd9b5d280fb cifs: add check for returning value of SMB2_set_info_init
 941209ef89e3f5e5fd75bffdafe8e74d5c2d4d92 Merge tag 'platform-drivers-x86-v6.1-4' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 31c9c4c54ea9902af4b01545d3a10acd3cf815a9 Merge tag 'pinctrl-v6.1-4' of git://git.kernel.org/pub/scm/linux/kernel/git/linusw/linux-pinctrl
@@ -1039,7 +1040,6 @@ b98186aee22fa593bc8c6b2c5d839c2ee518bc8c io_uring: update res mask in io_poll_ch
 539bcb57da2f58886d7d5c17134236b0ec9cd15d io_uring: fix tw losing poll events
 91482864768a874c4290ef93b84a78f4f1dac51b io_uring: fix multishot accept request leaks
 100d6b17c06ee4c2b42fdddf0fe4ab77c86eb77e io_uring: fix multishot recv request leaks
-59a51183be1a6aaaf6f8483aec82e2fbf2c74ab9 Merge tag 'usb-serial-6.1-rc6' of https://git.kernel.org/pub/scm/linux/kernel/git/johan/usb-serial into usb-linus
 5fa8813878d45bf6961fd22c8deee53f6a2791df Merge tag 'drm-misc-fixes-2022-11-17' of git://anongit.freedesktop.org/drm/drm-misc into drm-fixes
 ae75334011d3c9f8b859ecb5f63e17e72023051e Merge tag 'ceph-for-6.1-rc6' of https://github.com/ceph/ceph-client
 84368d882b9688bfac77ce48d33b1e20a4e4a787 Merge tag 'soc-fixes-6.1-3' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
@@ -1082,4 +1082,4 @@ eb0ef8add5a3e98332f803737d18a384da7f9a74 Merge tag 'perf_urgent_for_v6.1_rc6' of
 d4f754c3615c83df277018a98486db501f92b155 Merge tag 'sched_urgent_for_v6.1_rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 894909f95aa1473f49f767dcd5750ba152b85e13 Merge tag 'x86_urgent_for_v6.1_rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 
---===============7046247632423437895==--
+--===============6757372515040719384==--
