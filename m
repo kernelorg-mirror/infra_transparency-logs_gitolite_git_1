@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-nomadik
-Date: Sun, 20 Nov 2022 22:58:01 -0000
-Message-Id: <166898508186.10894.12974509701323830861@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
+Date: Sun, 20 Nov 2022 23:23:58 -0000
+Message-Id: <166898663876.28057.12387988859259024620@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/linusw/linux-nomadik
-user: linusw
+repo: pub/scm/linux/kernel/git/xiang/erofs-utils
+user: xiang
 changes:
-  - ref: refs/tags/ixp4xx-for-v6.2
-    old: 0000000000000000000000000000000000000000
-    new: 11a9da87da72fc682a9e23f92e19bafe335f844c
+  - ref: refs/heads/experimental
+    old: 04644826deb29a05244f71c12ef2a45c1621c7ed
+    new: 204d47b72a86c13663badb976959955b56c7a180
+    log: |
+         204d47b72a86c13663badb976959955b56c7a180 erofs-utils: dump: remove duplicate file type
+         
