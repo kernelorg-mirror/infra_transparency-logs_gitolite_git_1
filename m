@@ -1,23 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Sun, 20 Nov 2022 17:24:09 -0000
-Message-Id: <166896504994.27798.12987170104679014546@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Sun, 20 Nov 2022 17:50:04 -0000
+Message-Id: <166896660422.15127.209890318490537131@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/for-next
-    old: ee748cd95e3adf4acdb05194b2ea68e4073e09b6
-    new: efc1970d683fa7c53a2bc561d40436bf11a18dc0
+  - ref: refs/heads/io_uring-6.1
+    old: db12f23c986bb85f9a6b97622b6ef6aa4380ee64
+    new: b7d5444c535d26021dc8c940124a4c3326be06ae
     log: |
-         ef66c5475d7fb864c2418d3bdd19dee46324624b bpf: Allow multiple modifiers in reg_type_str() prefix
-         3f00c52393445ed49aadc1a567aa502c6333b1a1 bpf: Allow trusted pointers to be passed to KF_TRUSTED_ARGS kfuncs
-         90660309b0c76c564a31a21f3a81d6641a9acaa0 bpf: Add kfuncs for storing struct task_struct * as a kptr
-         fe147956fca4604b920e6be652abc9bea8ce8952 bpf/selftests: Add selftests for new task kfuncs
-         efc1970d683fa7c53a2bc561d40436bf11a18dc0 Merge branch 'Support storing struct task_struct objects as kptrs'
+         426930308abf84cfd044c0a65ac0e5f897d74938 eventpoll: add EPOLL_URING wakeup flag
+         8c881e87feae88e140518429ba2aefa03b1479f4 eventfd: provide a eventfd_signal_mask() helper
+         ec8fe601c57d0a20975450547a418beb35f39be7 io_uring: pass in EPOLL_URING as part of eventfd signaling and wakeups
+         4efcf2be70fb7af48732d7b9dd06b73755e713e8 Revert "io_uring: disallow self-propelled ring polling"
+         9c86da946e333231488eda53b7f46544f1e877b0 io_uring: cmpxchg for poll arm refs release
+         b7d5444c535d26021dc8c940124a4c3326be06ae io_uring: make poll refs more robust
          
