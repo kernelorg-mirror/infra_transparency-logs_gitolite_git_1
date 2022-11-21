@@ -1,25 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/arnd/asm-generic
-Date: Mon, 21 Nov 2022 21:02:47 -0000
-Message-Id: <166906456751.19735.18082174344173631391@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
+Date: Mon, 21 Nov 2022 21:09:22 -0000
+Message-Id: <166906496212.23851.7675771264405901171@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/arnd/asm-generic
-user: arnd
+repo: pub/scm/linux/kernel/git/hid/hid
+user: jikos
 changes:
-  - ref: refs/heads/asm-generic
-    old: defbab270d45e32b068e7e73c3567232d745c60f
-    new: 5e5ff73c2e5863f93fc5fd78d178cd8f2af12464
+  - ref: refs/heads/for-6.1/upstream-fixes
+    old: 3405a4beaaa852f3ed2a5eb3b5149932d5c3779b
+    new: ec61b41918587be530398b0d1c9a0d16619397e5
     log: |
-         5e5ff73c2e5863f93fc5fd78d178cd8f2af12464 asm-generic/io: Add _RET_IP_ to MMIO trace for more accurate debug info
+         ec61b41918587be530398b0d1c9a0d16619397e5 HID: core: fix shift-out-of-bounds in hid_report_raw_event
          
-  - ref: refs/heads/master
-    old: defbab270d45e32b068e7e73c3567232d745c60f
-    new: 5e5ff73c2e5863f93fc5fd78d178cd8f2af12464
+  - ref: refs/heads/for-next
+    old: 34f53230b57d1acc81d51a97f40c79e4d87e4a64
+    new: f5ada153df705602caccf0f29c3b7f8d9d95587e
     log: |
-         5e5ff73c2e5863f93fc5fd78d178cd8f2af12464 asm-generic/io: Add _RET_IP_ to MMIO trace for more accurate debug info
+         ec61b41918587be530398b0d1c9a0d16619397e5 HID: core: fix shift-out-of-bounds in hid_report_raw_event
+         f5ada153df705602caccf0f29c3b7f8d9d95587e Merge branch 'for-6.1/upstream-fixes' into for-next
          
