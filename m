@@ -1,24 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Mon, 21 Nov 2022 22:19:43 -0000
-Message-Id: <166906918345.8441.13407507354258161234@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
+Date: Mon, 21 Nov 2022 22:26:36 -0000
+Message-Id: <166906959619.15168.16754551743901212709@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/linux/kernel/git/conor/linux
+user: conor
 changes:
-  - ref: refs/heads/dev
-    old: 8d73f799691fb6c60dd541a104409c3e49ab4589
-    new: 78c546973ef94d826c4c42320b24ba00c15f7b66
+  - ref: refs/heads/riscv-kconfig_socs
+    old: f8d36037793f3b6256a9f7318284c53e45654599
+    new: e85449f9c63782ee01769fb818d48fdcf8da153f
     log: |
-         51b25738acd6703f9ecd8f559de62dcd50918dbb genirq: Fix the return type of kstat_cpu_irqs_sum()
-         13250326423c96fb9c76354cfb5b2495a2f81d60 sched: Add helper kstat_cpu_softirqs_sum()
-         76b7b9d73c411d6dd29881a3bcba9f513183d7e3 sched: Add helper nr_context_switches_cpu()
-         a21f6c8cc0847c3785d2c6f24d44aa53985b43b4 rcu: Add RCU stall diagnosis information
-         3d2788ba457360a4ac063e82ce5a23803892bfc5 doc: Document CONFIG_RCU_CPU_STALL_CPUTIME=y stall information
-         78c546973ef94d826c4c42320b24ba00c15f7b66 rcu: Align the output of RCU CPU stall warning messages
+         b0cf4dfe38cada3e5ff3eb074fd385cc1ac50b9e RISC-V: introduce ARCH_FOO kconfig aliases for SOC_FOO symbols
+         7a1745bd284081335750f6edb3e5bfaa27ff81a6 RISC-V: kconfig.socs: convert usage of SOC_CANAAN to ARCH_CANAAN
+         2adca6b1f3efd156dc223ff900c322fc4156433c RISC-V: kbuild: convert all use of SOC_FOO to ARCH_FOO
+         efee124926f9ba8aafd2350c1d4984875490f568 RISC-V: stop selecting SIFIVE_PLIC at the SoC level
+         c9b57f955fbceadc6ba76a28bacd3634e921f69a RISC-V: stop selecting the PolarFire SoC clock driver
+         b97c99838091c2c0a21ddf1154101ec6ed0dae34 RISC-V: stop selecting SiFive clock and serial drivers directly
+         e85449f9c63782ee01769fb818d48fdcf8da153f RISC-V: stop directly selecting drivers for SOC_CANAAN
          
