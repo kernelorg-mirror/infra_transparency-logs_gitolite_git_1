@@ -1,24 +1,34 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mips/linux
-Date: Mon, 21 Nov 2022 17:03:28 -0000
-Message-Id: <166905020837.11592.987944493032189030@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tegra/linux
+Date: Mon, 21 Nov 2022 17:04:01 -0000
+Message-Id: <166905024185.11875.15357872035050784116@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mips/linux
-user: tsbogend
+repo: pub/scm/linux/kernel/git/tegra/linux
+user: thierry.reding
 changes:
-  - ref: refs/heads/mips-next
-    old: 094226ad94f471a9f19e8f8e7140a09c2625abaa
-    new: 0e2e12166238e25cb2b907a6e591107d9dc363f9
-    log: |
-         ca637c0ece144ce62ec8ef75dc127bcccd4f442a MIPS: DTS: CI20: fix reset line polarity of the ethernet controller
-         d42f0c6ad502c9f612410e125ebdf290cce8bdc3 MIPS: Use "grep -E" instead of "egrep"
-         d3db4b96ab7f212733ee17d246b13075c703ab3f mips: dts: bcm63268: add TWD block timer
-         f98be3b3216deb69967fae282f55c6597aa501cc mips: dts: brcm: bcm7435: add "interrupt-names" for NAND controller
-         c8dabef8643bd0b88087c0280ccf555ba8d45087 dt-bindings: mips: add CPU bindings for MIPS architecture
-         0e2e12166238e25cb2b907a6e591107d9dc363f9 dt-bindings: mips: brcm: add Broadcom SoCs bindings
-         
+  - ref: refs/tags/tegra-for-6.2-soc-v2
+    old: 0000000000000000000000000000000000000000
+    new: bd08759e66b8d42782d927a57b9843a23863ba01
+  - ref: refs/tags/tegra-for-6.2-firmware-v2
+    old: 0000000000000000000000000000000000000000
+    new: 9452aca040eba970a748242e00136edc935dfcfe
+  - ref: refs/tags/tegra-for-6.2-clk-v2
+    old: 0000000000000000000000000000000000000000
+    new: 48c02a7a6bd370c582e77d312f12eb94fb928e6b
+  - ref: refs/tags/tegra-for-6.2-dt-bindings-v2
+    old: 0000000000000000000000000000000000000000
+    new: b1747e22c64791280b3ce81c99f31882647a702d
+  - ref: refs/tags/tegra-for-6.2-memory-v2
+    old: 0000000000000000000000000000000000000000
+    new: 02920750ffdc477446fcc7cba56c10d95265d57e
+  - ref: refs/tags/tegra-for-6.2-arm-dt-v2
+    old: 0000000000000000000000000000000000000000
+    new: 0298e5f1aa02526214a6bd3cfe117b9bf6df678b
+  - ref: refs/tags/tegra-for-6.2-arm64-dt-v2
+    old: 0000000000000000000000000000000000000000
+    new: 350a9540ea04e0f86f2c380820bfe61d967e53c5
