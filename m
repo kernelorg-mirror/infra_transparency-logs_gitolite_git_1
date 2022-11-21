@@ -1,22 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Mon, 21 Nov 2022 08:38:42 -0000
-Message-Id: <166901992211.11162.8409750824539298057@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Mon, 21 Nov 2022 08:54:04 -0000
+Message-Id: <166902084432.21112.1792417954463615479@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: davem
 changes:
   - ref: refs/heads/master
-    old: 7cef6b73fba96abef731a53501924fc3c4a0f947
-    new: 9ab000d9ac546f08485f11c033542e74f6202dee
+    old: 8719a1c30d3a1b4f347afca8e78be201d66d5c49
+    new: dca508cd88397cc578cce063405e082c3ff5be97
     log: |
-         e204ead35401af5e120f653a133d54ee2595627e nfc: nfcmrvl: Fix potential memory leak in nfcmrvl_i2c_nci_send()
-         614761e1119c994a7f19e4c9f37b1d2d7fe7306e nfc: nxp-nci: Fix potential memory leak in nxp_nci_send()
-         60dcb5ff55e5c5da259a0dcc4c24c842de1abc9d nfc: s3fwrn5: Fix potential memory leak in s3fwrn5_nci_send()
-         9ab000d9ac546f08485f11c033542e74f6202dee Merge branch 'nfc-leaks'
+         484963ce9f1eb89720055de8cad91e8c9fc7f3e6 nfp: extend capability and control words
+         57f273adbcd44172cbe0bd10b8b7408dd255699f nfp: add framework to support ipsec offloading
+         859a497fe80ce1b4727d14fd43067c7b6fa2a85b nfp: implement xfrm callbacks and expose ipsec offload feature to upper layer
+         dca508cd88397cc578cce063405e082c3ff5be97 Merge branch 'nfp-ipsec-offload'
          
