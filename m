@@ -1,21 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
-Date: Mon, 21 Nov 2022 10:53:48 -0000
-Message-Id: <166902802874.27474.9505186638067731722@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Mon, 21 Nov 2022 10:54:03 -0000
+Message-Id: <166902804396.27645.13082181626680758926@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/amlogic/linux
-user: narmstrong
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: davem
 changes:
-  - ref: refs/heads/for-next
-    old: d0f68bca64e6567ae13e7ea26fd09292cc46fd95
-    new: e57e6bb6476defd166a98cb787dbac128e935fe3
+  - ref: refs/heads/master
+    old: d9e8da558580513318a36f4ecb1b6e28e41b4de0
+    new: 418e0721d408e90564b22d4c74342557b7911d77
     log: |
-         66af218f8669a262b1bf89ba80f2acf1a3be429c dt-bindings: amlogic: document Odroid Go Ultra compatible
-         62e73f000696cc41cfd237a1ad90b001ad0f76c6 arm64: dts: amlogic: add initial Odroid Go Ultra DTS
-         e57e6bb6476defd166a98cb787dbac128e935fe3 Merge branch 'v6.2/arm64-dt' into for-next
+         c2a0c3ed5b64750a41cec052e40cb377b5c4b9bc gve: Adding a new AdminQ command to verify driver
+         a5affbd8a73eb0a62378767f9d44527738213c07 gve: Handle alternate miss completions
+         418e0721d408e90564b22d4c74342557b7911d77 Merge branch 'gve-alternate-missed-completions'
          
