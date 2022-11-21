@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7202008292129004461=="
+Content-Type: multipart/mixed; boundary="===============1542421393310555445=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Mon, 21 Nov 2022 12:41:18 -0000
-Message-Id: <166903447827.14775.11373408262369962746@gitolite.kernel.org>
+Date: Mon, 21 Nov 2022 12:41:58 -0000
+Message-Id: <166903451828.15113.5302009723300846504@gitolite.kernel.org>
 
---===============7202008292129004461==
+--===============1542421393310555445==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,80 +17,80 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/linux-4.19.y
-    old: d419ec8ec760fc3c6edc8775a3ab19da4e83dbea
-    new: bb48fede365a1c256f79e5c3e70e836f7d5eb3b2
-    log: revlist-d419ec8ec760-bb48fede365a.txt
+    old: bb48fede365a1c256f79e5c3e70e836f7d5eb3b2
+    new: 002bfba64dfd861e50556a611a3378bdca4ac7b9
+    log: revlist-bb48fede365a-002bfba64dfd.txt
 
---===============7202008292129004461==
+--===============1542421393310555445==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1669034476 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1669034516 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1669034471-29fb90a63f59827f23b31b9683aea23a1e8b6edc
+nonce 1669034513-3cd3ffded6b97956fe2737e4be3180a3fcb581e4
 
-d419ec8ec760fc3c6edc8775a3ab19da4e83dbea bb48fede365a1c256f79e5c3e70e836f7d5eb3b2 refs/heads/linux-4.19.y
+bb48fede365a1c256f79e5c3e70e836f7d5eb3b2 002bfba64dfd861e50556a611a3378bdca4ac7b9 refs/heads/linux-4.19.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmN7cewbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+J4sP/RrddafFMvvkpUbQEWu3
-62B/UmOpu+RdLLiGr51+UwkkNqKsw2oPGy+Mm2YcE96l+szJT6gPMr8CWfK5k/QE
-JpNvqC/Lve5h2DE+s/tFW3WMqUfDVgQW2semlMvKIRfBlEACQa2UqGa5IoDMicSM
-lIHqJvgNoJpv2Q81PfzZ0VrGRihW9nMed2NtFWvjNW2H41cM8QMyQM7n06pg9/eK
-AXAoJxH0YHFR+lTP1ol9v5tUtg/uvibWntaYzyGVmonSKHfLDHQEyujugrckBLCw
-3xYlcqOkKYBp/v1Fc9JrjUZP66FEO4QwaGzD5zjYsNoN05STmW/QWPKa5PrlIxas
-Cl6DO0bHgezuUmudLVMjGX8F1vstiqmiGeajSsnjNa+epp4+Pn+a7/gYPKYv7sep
-lPadrGOCiERZDV3G0g08Al5x5mfYERkuzCPWJ6Ie1xPHNqx3NCc1v8bXAdNgjm4u
-3VDIuQAW2QscAK03pKrsb7MzdmZHPO0PfV/ukbkgeVDMie5e7SufIl/xJoNZo1lR
-AYCm05S92DeDR9D/21K0ONQZSpUfiNWG/GwFZHWNcBs2dKCOvaj7gRjmtZXGZkF4
-o+8Dz8Pkv9NbLX/Ak+KgFBvChK+OWeFvjn37aA9XY6PUw/9DuUZtoqEkFZH8iA6r
-TUyNj8SnGDKNVnbkkZviACa+
-=WXbl
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmN7chQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+rIwP/AkawVSukGPNV66x25+o
+lEHhFcAbZcrKK7vkM/ZSQa428XEC0X8wvezU0oOAT6jfRdwzj8DchKDYfgUQgvGg
+nt7HZs50WBAMM1S4p4eCcOiONLmbk5eNRV5Zph6G6Ngo9w7Ki66ePsCJwteBaozM
+19HxE7O6DpNv4m8pVXbBV+QVBuT9CTfvsfAmCMP7fzOJm+QjoqCB0JSZG7OumEcq
+SZ+K2ivh8N9t0Ws+pK8gTPR7gtsuyALT+pYJGcAttAfGlg2OL1b98AFLgeIbXvAv
+ktBYBKnA5jJ87N++NHaAWFvaE2m7FnECtc8cnopmSP35KD8PTC8VP2KZqEJcqqFc
+AgmHUBKIcKs5PtI3yMA0hO74Z13YgE1anEJMNLHNczYV2ITgMnN6pGVSHHzIuCer
+k5Es2x6FypCfjj2+x2HZgwry/M+1x8tQVmcBAeAS/zCKEXG6c6mt8mGjxvUjbZab
+5PTMreQjfD0ffp8x0htZTrOSxtMk8jy9bMpLVkKMPd7NxoMuu/USl3lElKeV7sl+
+TWX6qyL1QsBMB/HwP7XaFqpT8Oi/UC9WIfuOJOJXmAcPcNbOgp1+MAuXik2Sm3va
+JzBRTZg1gZstNfir6j1LFLK9o/10sdTh6i4qHGSKu4yo4NaxmKkRaiMkb/DQLhnt
+WNyGXyOesn857PFPqRfmXWQC
+=c10m
 -----END PGP SIGNATURE-----
 
---===============7202008292129004461==
+--===============1542421393310555445==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d419ec8ec760-bb48fede365a.txt
+Content-Disposition: attachment; filename=revlist-bb48fede365a-002bfba64dfd.txt
 
-f9c230aad596f82c0d7c9a78bf671650e09c4bb8 Revert "x86/speculation: Add RSB VM Exit protections"
-40f8eae09f992b24a33200dda31fa509ff6a4367 Revert "x86/cpu: Add a steppings field to struct x86_cpu_id"
-2e99990dadb57cbb4fdf226394cbb55a45b6d51a x86/cpufeature: Add facility to check for min microcode revisions
-bf60a7f9b36c912a90ce2a05b9106c6a94a2e119 x86/cpufeature: Fix various quality problems in the <asm/cpu_device_hd.h> header
-769267908b37689b0fb2dd1499257262252d83d7 x86/devicetable: Move x86 specific macro out of generic code
-beadcd3db0afac7e4d145e923029ad32c6892553 x86/cpu: Add consistent CPU match macros
-db7fb8588dca737704fb2a616299a75f704b01be x86/cpu: Add a steppings field to struct x86_cpu_id
-d80d3e7aabc538f57bbbdc1ad1b9b740318ad923 x86/cpufeatures: Move RETPOLINE flags to word 11
-095ec7a154e8480afa375babb868ec20205def32 x86/bugs: Report AMD retbleed vulnerability
-bb250e38c36c4f5c842fc673f10e358cf334b1f5 x86/bugs: Add AMD retbleed= boot parameter
-7251bb992e951ecdb45d40c971286861e5f48451 x86/bugs: Keep a per-CPU IA32_SPEC_CTRL value
-6ad4fb88f172399e1541f44a36171086264192ed x86/entry: Remove skip_r11rcx
-a30d39a6ef1a98339a225b0ee6c270053d0cd1e5 x86/entry: Add kernel IBRS implementation
-6f6ca2112f43655434fc8c44ca272003416a6571 x86/bugs: Optimize SPEC_CTRL MSR writes
-d46c665232dade3a1986011a740ada59636fa48a x86/speculation: Add spectre_v2=ibrs option to support Kernel IBRS
-3de72eef6df498ed1a146e6f97e821fe22f44373 x86/bugs: Split spectre_v2_select_mitigation() and spectre_v2_user_select_mitigation()
-8d4ef6c3297dd6e02f33b316893d9f568fa6286d x86/bugs: Report Intel retbleed vulnerability
-c902bacf67d07e6cd91717f2a1f05bb7211a5b2b intel_idle: Disable IBRS during long idle
-5eeda2d81c7665cc3e816d678d4a2e207041bda4 x86/speculation: Change FILL_RETURN_BUFFER to work with objtool
-2382d0f8bd0950eb38d4389021b23193a0de2013 x86/speculation: Fix RSB filling with CONFIG_RETPOLINE=n
-dbbb7a90111913cec066867b5e19601f5377384e x86/speculation: Fix firmware entry SPEC_CTRL handling
-0c335338f018bbe7381804b0dde7d217b9f6c07c x86/speculation: Fix SPEC_CTRL write on SMT state change
-2e53218c2489c61838d98f2a129e8aff5e982dcd x86/speculation: Use cached host SPEC_CTRL value for guest entry/exit
-72132bd6d733b3c155fcf7dfe84a8678366e5b79 x86/speculation: Remove x86_spec_ctrl_mask
-df15c89f2572ea55508b36ca6af2724be53cc41a KVM: VMX: Prevent guest RSB poisoning attacks with eIBRS
-f8cca4d303992dcadfd44984e5ddae36750125fc KVM: VMX: Fix IBRS handling after vmexit
-8354ca4c47d594460d811ec21bea2eb7a08e3b39 x86/speculation: Fill RSB on vmexit for IBRS
-170acccfd9bcbb3215a0750f457cc76873fe8b76 x86/common: Stamp out the stepping madness
-db770b08ef63a2ecf857b4889b977d5bc64d8489 x86/cpu/amd: Enumerate BTC_NO
-853bf4b3432ee0558ce72ba24cb620c0de4c6e5b x86/bugs: Add Cannon lake to RETBleed affected CPU list
-51cd8e9b1f75f8349e82dde05a238fbf96483e17 x86/speculation: Disable RRSBA behavior
-259b3f3d7e8a187cd73c141be80036ce98631719 x86/speculation: Use DECLARE_PER_CPU for x86_spec_ctrl_current
-0f7ff7c26c7d5bfd5f0d29063ea540ee58a678cd x86/bugs: Warn when "ibrs" mitigation is selected on Enhanced IBRS parts
-9829771d3cc7fde4448d430e5d15cbbe74e269ae x86/speculation: Add RSB VM Exit protections
-bb48fede365a1c256f79e5c3e70e836f7d5eb3b2 Linux 4.19.266-rc1
+29b6d74c3bd3a1ff310d395817a05b7b55dfd5f8 Revert "x86/speculation: Add RSB VM Exit protections"
+c10d0909acf9aad5b74abb8f600a1152ee8e756c Revert "x86/cpu: Add a steppings field to struct x86_cpu_id"
+2d6b77a9407053632ce730074869081ee7550298 x86/cpufeature: Add facility to check for min microcode revisions
+cb215218068e23f9757687619abdd02fa7ee49c6 x86/cpufeature: Fix various quality problems in the <asm/cpu_device_hd.h> header
+e1f204b62ee0a62da784ef676c8755573b974970 x86/devicetable: Move x86 specific macro out of generic code
+242646e49d8ef26475aff30e22ab034950e0d7c1 x86/cpu: Add consistent CPU match macros
+203597c9a7c06a9f9700f28021c990819011cdcb x86/cpu: Add a steppings field to struct x86_cpu_id
+89297a448d9c959ce9f3a1b618e7ab118f09d5b3 x86/cpufeatures: Move RETPOLINE flags to word 11
+0bedf476d5b01a6efc3a2eaecca6cbc2f51dc1e9 x86/bugs: Report AMD retbleed vulnerability
+bf5954d79099766b7348bf09b00fd4dde4b81e66 x86/bugs: Add AMD retbleed= boot parameter
+04998af22cdaacfe6eb5c4ff4ef82d58c22bf4d6 x86/bugs: Keep a per-CPU IA32_SPEC_CTRL value
+f7c7e2600b23bc3c08fb68670e28fc9d48bdd5e7 x86/entry: Remove skip_r11rcx
+4e3a27ba697580a28b485b609c50a94a4e99ea8b x86/entry: Add kernel IBRS implementation
+a7931dbac711268ee85b08542250552e1ded2026 x86/bugs: Optimize SPEC_CTRL MSR writes
+0b3a0e71aa31029ddbb3f4b07edd931941245d36 x86/speculation: Add spectre_v2=ibrs option to support Kernel IBRS
+d931f7eb8b955914b4cf7baa6b52de597ab5a6da x86/bugs: Split spectre_v2_select_mitigation() and spectre_v2_user_select_mitigation()
+9a40589241a13cb82a926d0f0b41d2636ca05d03 x86/bugs: Report Intel retbleed vulnerability
+eaf04f41f1a3175b6ceb9747578dc4a81d6c31b3 intel_idle: Disable IBRS during long idle
+77f3dc8416546ac890ebfb62c360d39bb06f5ed7 x86/speculation: Change FILL_RETURN_BUFFER to work with objtool
+eb5cb82e5f5e9e96add6200387e12aeaf652eabe x86/speculation: Fix RSB filling with CONFIG_RETPOLINE=n
+a879fba46f5f680ad249a154d5e75b5d124b9e19 x86/speculation: Fix firmware entry SPEC_CTRL handling
+92dbb3b4718f87794a5394cf30995dd5fa229be2 x86/speculation: Fix SPEC_CTRL write on SMT state change
+887bdf9bdb381442bf7a91b0c6d3145d31d301c0 x86/speculation: Use cached host SPEC_CTRL value for guest entry/exit
+665c95a3eb95acebef1afd2c814f86f157b4efa4 x86/speculation: Remove x86_spec_ctrl_mask
+6a81fc57bce974949457a205a0af63b3b9fdff79 KVM: VMX: Prevent guest RSB poisoning attacks with eIBRS
+0aea712a2ba404b0da9be22df163f5e9c98482a9 KVM: VMX: Fix IBRS handling after vmexit
+3416e988c484513dee5d9c0aefe3e9bc246e1265 x86/speculation: Fill RSB on vmexit for IBRS
+3a1076cdf227ffaedcb8f66a031df7ce572c98a6 x86/common: Stamp out the stepping madness
+2231bb81917abf14eb2a528026373e104d5b8827 x86/cpu/amd: Enumerate BTC_NO
+a9b6e6603a4423ce6297841954338968649d27cf x86/bugs: Add Cannon lake to RETBleed affected CPU list
+7e3fca195ecf9d6e18951976e33ab7c8794bcafd x86/speculation: Disable RRSBA behavior
+2482a4a09e692f5672ab9c9564dc3850ddbad41d x86/speculation: Use DECLARE_PER_CPU for x86_spec_ctrl_current
+fcad3c1d98d337967e400d1589e90b7d638be6b1 x86/bugs: Warn when "ibrs" mitigation is selected on Enhanced IBRS parts
+41189aa9fa9c032b64c2306be5971b52b096e592 x86/speculation: Add RSB VM Exit protections
+002bfba64dfd861e50556a611a3378bdca4ac7b9 Linux 4.19.266-rc1
 
---===============7202008292129004461==--
+--===============1542421393310555445==--
