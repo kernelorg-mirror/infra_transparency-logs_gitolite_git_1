@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6414809955606422866=="
+Content-Type: multipart/mixed; boundary="===============4844408306480016201=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 21 Nov 2022 10:36:59 -0000
-Message-Id: <166902701925.15980.17734913386286540725@gitolite.kernel.org>
+Date: Mon, 21 Nov 2022 10:37:16 -0000
+Message-Id: <166902703614.16148.3044692712003242650@gitolite.kernel.org>
 
---===============6414809955606422866==
+--===============4844408306480016201==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: 0a1c6e6552b230768158ff7dbb5426fe75088887
-    new: 67f3d38b198673a4241083c86706e7f4fc8c5d63
-    log: revlist-0a1c6e6552b2-67f3d38b1986.txt
+  - ref: refs/heads/m68k-queue
+    old: ff009d04cb5f74a8466f9803af306e30880ad134
+    new: 190c1ff14efac7eb6a7067bb6e960a48d9193794
+    log: revlist-ff009d04cb5f-190c1ff14efa.txt
 
---===============6414809955606422866==
+--===============4844408306480016201==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0a1c6e6552b2-67f3d38b1986.txt
+Content-Disposition: attachment; filename=revlist-ff009d04cb5f-190c1ff14efa.txt
 
 ac5408991ea6b06e29129b4d4861097c4c3e0d59 Input: synaptics - switch touchpad on HP Laptop 15-da3001TU to RMI mode
 a01aca4b05174b6dee2392ec44406f85e0f8bd46 dt-bindings: input: touchscreen: Add compatible for Goodix GT7986U chip
@@ -390,6 +390,10 @@ d4f754c3615c83df277018a98486db501f92b155 Merge tag 'sched_urgent_for_v6.1_rc6' o
 5239ddeb4872390856bb79655dba85350936681e Merge tag 'trace-v6.1-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 c6c67bf9bc2714d9c2c2e7ecfbf29d912b8c4f17 Merge tag 'trace-probes-v6.1' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 eb7081409f94a9a8608593d0fb63a1aa3d6f95d8 Linux 6.1-rc6
-67f3d38b198673a4241083c86706e7f4fc8c5d63 Merge tag 'v6.1-rc6'
+b70db9e93624471409f2d2c291cfdebd6b6fcea4 m68k: atari: usb: Add ISP1160 USB host controller support
+e892208faf8cabb669e4a2a8b1fc58f6897f9317 m68k: atari: Update Kconfig.bus help text
+6ced24f130eda80d1d7a1208f2ac592a874beb2b m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
+36fbb3bdc310484b843320f3b0e5db1f576835e2 m68k: mac: Remove unused rbv_set_video_bpp()
+190c1ff14efac7eb6a7067bb6e960a48d9193794 m68k: mac: Reword comment using double "in"
 
---===============6414809955606422866==--
+--===============4844408306480016201==--
