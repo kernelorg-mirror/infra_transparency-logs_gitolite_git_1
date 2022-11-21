@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Mon, 21 Nov 2022 09:48:24 -0000
-Message-Id: <166902410482.10892.4934931825452519856@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
+Date: Mon, 21 Nov 2022 09:49:16 -0000
+Message-Id: <166902415690.11311.16509623092708918103@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: davem
+repo: pub/scm/linux/kernel/git/soc/soc
+user: arnd
 changes:
-  - ref: refs/heads/master
-    old: aa5ac4be8da1b0ea7c588b55aa5214efb94644bc
-    new: ef8c373bd91df3cf70596497da0955d218961ead
-    log: |
-         ef8c373bd91df3cf70596497da0955d218961ead net: ethernet: mtk_eth_soc: fix RSTCTRL_PPE{0,1} definitions
-         
+  - ref: refs/heads/renesas/defconfig
+    old: 0000000000000000000000000000000000000000
+    new: fa8eec59570923f4132253e61c45f9d70377f049
