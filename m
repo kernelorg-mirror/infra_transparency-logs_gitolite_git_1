@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3949962595650728528=="
+Content-Type: multipart/mixed; boundary="===============2908459431010129424=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/fs/xfs/xfsprogs-dev
-Date: Mon, 21 Nov 2022 14:24:41 -0000
-Message-Id: <166904068125.25140.6589902785752429814@gitolite.kernel.org>
+Date: Mon, 21 Nov 2022 14:27:08 -0000
+Message-Id: <166904082834.28752.9481596013738405984@gitolite.kernel.org>
 
---===============3949962595650728528==
+--===============2908459431010129424==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,38 +16,38 @@ repo: pub/scm/fs/xfs/xfsprogs-dev
 user: cem
 changes:
   - ref: refs/heads/for-next
-    old: 3498b68025ced534c5fc27141bf67c764b357332
-    new: e1ce9b7a1656a1bf62807f0e1de039dc07116dc5
-    log: revlist-3498b68025ce-e1ce9b7a1656.txt
+    old: e1ce9b7a1656a1bf62807f0e1de039dc07116dc5
+    new: b827e2318ea2bb3eabca13a965c2535a1d7289e5
+    log: revlist-e1ce9b7a1656-b827e2318ea2.txt
 
---===============3949962595650728528==
+--===============2908459431010129424==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3498b68025ce-e1ce9b7a1656.txt
+Content-Disposition: attachment; filename=revlist-e1ce9b7a1656-b827e2318ea2.txt
 
-aa9b9ff0c076d52d49fabda22c8d135de9460251 xfs: clean up "%Ld/%Lu" which doesn't meet C standard
-f3391af4edf13dcfe55dd2a915ce8905cefefc7b xfs: Remove the unneeded result variable
-42013e04c521bb04b361b4cd5638a7d6bb810a58 xfs: trim the mapp array accordingly in xfs_da_grow_inode_int
-7eb533a9046e09d64027008e776e2360e575a21b xfs: rearrange the logic and remove the broken comment for xfs_dir2_isxx
-2ac9171088604bf320b27f8f93ae8e1bb10e6755 treewide: use prandom_u32_max() when possible, part 1
-5537d92ae2f30305a99f57628a439ff7e98c2691 treewide: use get_random_u32() when possible
-a1bc3ed5c39818e5c79ad3cd384600664f12880f xfs: fix exception caused by unexpected illegal bestcount in leaf dir
-77714a13bff8ed325c85241b5d77e322f1ba1522 xfs: increase rename inode reservation
-e3a46df018bb02f7d7c44e040214f0e93ff91968 xfs: fix memcpy fortify errors in EFI log format copying
-759dd55466c955414ce7a6e00da5d9cb61d2ef8c xfs: refactor all the EFI/EFD log item sizeof logic
-04b7dd1c49a1eb9e0bea854633d6cdfd8602da3b xfs: make sure aglen never goes negative in xfs_refcount_adjust_extents
-a64e68c465a897eb6787833f07c0335d0d3d8b12 xfs: create a predicate to verify per-AG extents
-f308a941fe2ca565f922352fd869ce58023d5baf xfs: check deferred refcount op continuation parameters
-a0bdc9fe8d46185ff03cb44487e93222c2fc2e1b xfs: move _irec structs to xfs_types.h
-3d4cf6e64bfe0129fdb2385de71201f978123294 xfs: track cow/shared record domains explicitly in xfs_refcount_irec
-44867236e1ab802f4a1f433d47e5699f9ce444b8 xfs: report refcount domain in tracepoints
-3e08bef316cc6581d2662e227d3a9cb4561d3445 xfs: refactor domain and refcount checking
-26b74067e727dc66616d5a605679e3e0e1e67d5f xfs: remove XFS_FIND_RCEXT_SHARED and _COW
-ac7163903a7f95a56669d06ce271dcaa339e9328 xfs: check record domain when accessing refcount records
-7b788ef433f56c94b654dca32f339b30ac0476ca xfs: fix agblocks check in the cow leftover recovery function
-9b66616a771aa48e78b30df58667f6f7ae96a226 xfs: fix uninitialized list head in struct xfs_refcount_recovery
-46027ba6734bb5b38a240f7da22fcaaf965f81b2 xfs: rename XFS_REFC_COW_START to _COWFLAG
-e1ce9b7a1656a1bf62807f0e1de039dc07116dc5 xfs: fix sb write verify for lazysbcount
+be98db856abba2a841fe757b760255cebe075d0f xfs: clean up "%Ld/%Lu" which doesn't meet C standard
+e8dbbca18d8d1aefaec35384c718828e64bbb4d1 xfs: Remove the unneeded result variable
+04d4c27afa3f2c0088e381102e68cfb6a96b3306 xfs: trim the mapp array accordingly in xfs_da_grow_inode_int
+1a3bfffee3f266362ad05bb954d6e91e218739f4 xfs: rearrange the logic and remove the broken comment for xfs_dir2_isxx
+4947ac5b34b4bac151997ddb6e8fbfbd39c80284 treewide: use prandom_u32_max() when possible, part 1
+11d2f5afcf997d6c2c4b915fd51f9d7aed5087c3 treewide: use get_random_u32() when possible
+20798cc06315ec1581b87b3da7f868dff62a6efd xfs: fix exception caused by unexpected illegal bestcount in leaf dir
+227bc97f12f2df902ab776fe038dc6d065f03c58 xfs: increase rename inode reservation
+d267ac6a00cd57bf6015e34af565f4bdcb4d7e34 xfs: fix memcpy fortify errors in EFI log format copying
+4b69afdc496caaec1dcd35c22e4c39fb388fd9f0 xfs: refactor all the EFI/EFD log item sizeof logic
+2d5166b9dd5adc87a1399d4f3b0ef4569526798e xfs: make sure aglen never goes negative in xfs_refcount_adjust_extents
+b3f9ae08edf57cbe0e6947a0b66d7c07e02c0639 xfs: create a predicate to verify per-AG extents
+7ccbdec2b832a479836ae9d4c06e54a53f8d7876 xfs: check deferred refcount op continuation parameters
+bec88ec727bc87cdbd1c9133a3c16e0bb5d5ad30 xfs: move _irec structs to xfs_types.h
+6b2f464dd02c1eaa380f3862263d4b08fe9fc2ba xfs: track cow/shared record domains explicitly in xfs_refcount_irec
+8160aeff0888790af64dcf493fdebb9c65ecc544 xfs: report refcount domain in tracepoints
+cc2a3c2ad943323ebfa4a105b83ba9b76517ae87 xfs: refactor domain and refcount checking
+f275d70e8179a57950784d7db1949ecdf5bcd979 xfs: remove XFS_FIND_RCEXT_SHARED and _COW
+817ea9f0f081309c078d9ff92351ad9c7022ff46 xfs: check record domain when accessing refcount records
+8b2b27581b2c84025a9fa84320c48b2c726867c3 xfs: fix agblocks check in the cow leftover recovery function
+7accbcd005b3cf89a5e53e7e36475ad17b2387f1 xfs: fix uninitialized list head in struct xfs_refcount_recovery
+7257eb3ed929115a2bc46a33911341374483924f xfs: rename XFS_REFC_COW_START to _COWFLAG
+b827e2318ea2bb3eabca13a965c2535a1d7289e5 xfs: fix sb write verify for lazysbcount
 
---===============3949962595650728528==--
+--===============2908459431010129424==--
