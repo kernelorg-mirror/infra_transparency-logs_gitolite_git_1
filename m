@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Mon, 21 Nov 2022 09:47:31 -0000
-Message-Id: <166902405137.10512.11401617769764313076@gitolite.kernel.org>
+Date: Mon, 21 Nov 2022 09:48:24 -0000
+Message-Id: <166902410482.10892.4934931825452519856@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: davem
 changes:
   - ref: refs/heads/master
-    old: dca508cd88397cc578cce063405e082c3ff5be97
-    new: aa5ac4be8da1b0ea7c588b55aa5214efb94644bc
+    old: aa5ac4be8da1b0ea7c588b55aa5214efb94644bc
+    new: ef8c373bd91df3cf70596497da0955d218961ead
     log: |
-         aa5ac4be8da1b0ea7c588b55aa5214efb94644bc net: microchip: sparx5: kunit test: Fix compile warnings.
+         ef8c373bd91df3cf70596497da0955d218961ead net: ethernet: mtk_eth_soc: fix RSTCTRL_PPE{0,1} definitions
          
