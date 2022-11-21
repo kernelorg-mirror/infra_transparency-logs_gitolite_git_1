@@ -1,20 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Mon, 21 Nov 2022 20:58:46 -0000
-Message-Id: <166906432673.16638.11628093584987284704@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/arnd/asm-generic
+Date: Mon, 21 Nov 2022 21:02:47 -0000
+Message-Id: <166906456751.19735.18082174344173631391@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: martin.lau
+repo: pub/scm/linux/kernel/git/arnd/asm-generic
+user: arnd
 changes:
-  - ref: refs/heads/for-next
-    old: 8589e92675aa4727bede3f9230709624619844f3
-    new: 68f8e3d4b916531ea3bb8b83e35138cf78f2fce5
+  - ref: refs/heads/asm-generic
+    old: defbab270d45e32b068e7e73c3567232d745c60f
+    new: 5e5ff73c2e5863f93fc5fd78d178cd8f2af12464
     log: |
-         114039b342014680911c35bd6b72624180fd669a bpf: Move skb->len == 0 checks into __bpf_redirect
-         68f8e3d4b916531ea3bb8b83e35138cf78f2fce5 selftests/bpf: Make sure zero-len skbs aren't redirectable
+         5e5ff73c2e5863f93fc5fd78d178cd8f2af12464 asm-generic/io: Add _RET_IP_ to MMIO trace for more accurate debug info
+         
+  - ref: refs/heads/master
+    old: defbab270d45e32b068e7e73c3567232d745c60f
+    new: 5e5ff73c2e5863f93fc5fd78d178cd8f2af12464
+    log: |
+         5e5ff73c2e5863f93fc5fd78d178cd8f2af12464 asm-generic/io: Add _RET_IP_ to MMIO trace for more accurate debug info
          
