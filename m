@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3943901827318471492=="
+Content-Type: multipart/mixed; boundary="===============6723726135291657432=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Mon, 21 Nov 2022 01:19:56 -0000
-Message-Id: <166899359688.20744.13344712507614345605@gitolite.kernel.org>
+Date: Mon, 21 Nov 2022 01:20:27 -0000
+Message-Id: <166899362703.22512.7139043547554176044@gitolite.kernel.org>
 
---===============3943901827318471492==
+--===============6723726135291657432==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/kbuild
+  - ref: refs/heads/for-next
     old: 2df76606db9de579bc96725981db4e8daa281993
     new: 0f62edf8a2ecdd69f2535b1655818bd9e7c68d1f
     log: revlist-2df76606db9d-0f62edf8a2ec.txt
 
---===============3943901827318471492==
+--===============6723726135291657432==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ fb32ca526ba631ba7b696bdd3b869b276fff3cbb kbuild: add read-file macro
 b271b153b320182cef3f305beb2e0df7b06ec6dd kconfig: refactor Makefile to reduce process forks
 0f62edf8a2ecdd69f2535b1655818bd9e7c68d1f kbuild: check Make version
 
---===============3943901827318471492==--
+--===============6723726135291657432==--
