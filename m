@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/crng/random
-Date: Mon, 21 Nov 2022 04:03:25 -0000
-Message-Id: <166900340504.9211.4009234085371795022@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jfern/linux
+Date: Mon, 21 Nov 2022 04:07:20 -0000
+Message-Id: <166900364040.12183.16548718487320605567@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/crng/random
-user: zx2c4
+repo: pub/scm/linux/kernel/git/jfern/linux
+user: jfern
 changes:
-  - ref: refs/heads/vdso
-    old: 727fad4df2cc9472ab46846ec1fb523e1b0f58ef
-    new: 6483b29e24f00525fdbcb591e74c0f059ae3f08a
+  - ref: refs/heads/sched/pe/balancefix.11212022
+    old: 29bce61e8dc9ba0e5b22199c2ec3496c31acf5f6
+    new: 4d14cf4e7b1154bfe45dd2d3dc3217015ea3432e
     log: |
-         d15e7d3218061f82693ad7371b3e4947f5703a21 random: introduce generic vDSO getrandom() implementation
-         6483b29e24f00525fdbcb591e74c0f059ae3f08a x86: vdso: Wire up getrandom() vDSO implementation
+         864f30d37472768b17b826bb14f0a2afa55e5042 Exclude balance callback queuing during proxy's migrate
+         4d14cf4e7b1154bfe45dd2d3dc3217015ea3432e Revert "make lock_torture_writer FIFO"
          
