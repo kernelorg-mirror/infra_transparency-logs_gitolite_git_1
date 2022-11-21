@@ -1,25 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/dtc/dtc
-Date: Mon, 21 Nov 2022 03:22:06 -0000
-Message-Id: <166900092614.11517.14063173810092069168@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/crng/random
+Date: Mon, 21 Nov 2022 03:22:10 -0000
+Message-Id: <166900093000.11589.3841815799111507510@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/dtc/dtc
-user: dwg
+repo: pub/scm/linux/kernel/git/crng/random
+user: zx2c4
 changes:
-  - ref: refs/heads/main
-    old: 55778a03df61623ddd743b04772ab90ce128db61
-    new: 2cd89f862cdb04d91c5d59c5b39647f7d5d5b3b8
+  - ref: refs/heads/vdso
+    old: 6211dcd6e1cbb0dfc6b374be93d0547d49a0fbac
+    new: 727fad4df2cc9472ab46846ec1fb523e1b0f58ef
     log: |
-         2cd89f862cdb04d91c5d59c5b39647f7d5d5b3b8 dtc: Warning rather than error on possible truncation of cell values
-         
-  - ref: refs/heads/master
-    old: 55778a03df61623ddd743b04772ab90ce128db61
-    new: 2cd89f862cdb04d91c5d59c5b39647f7d5d5b3b8
-    log: |
-         2cd89f862cdb04d91c5d59c5b39647f7d5d5b3b8 dtc: Warning rather than error on possible truncation of cell values
+         b345f7412f288097a3f684d9f684a00004a94448 random: add vgetrandom_alloc() syscall
+         133444578dabbacdb3e71bfba138a2cca6838ace random: introduce generic vDSO getrandom() implementation
+         727fad4df2cc9472ab46846ec1fb523e1b0f58ef x86: vdso: Wire up getrandom() vDSO implementation
          
