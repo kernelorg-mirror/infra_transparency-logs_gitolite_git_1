@@ -1,53 +1,39 @@
-Content-Type: multipart/mixed; boundary="===============3221482576235412536=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 21 Nov 2022 21:51:31 -0000
-Message-Id: <166906749182.21563.1682956089063873040@gitolite.kernel.org>
-
---===============3221482576235412536==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/ti/linux
+Date: Mon, 21 Nov 2022 21:53:42 -0000
+Message-Id: <166906762241.22412.17973364405592123751@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/ti/linux
+user: nmenon
 changes:
-  - ref: refs/heads/auto-latest
-    old: ba916b149c5a63135d06710abf1ae3c85d957cb9
-    new: cb30242f1c3436506266a38273edc1ba25d08c2f
-    log: revlist-ba916b149c5a-cb30242f1c34.txt
-
---===============3221482576235412536==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ba916b149c5a-cb30242f1c34.txt
-
-2df0de30ab715ea5a8f7cd59cd875b24dd0e7415 Merge branch into tip/master: 'objtool/urgent'
-7842760e7e5ee4344c3b0b149b8fd9fbae952e83 Merge branch into tip/master: 'timers/urgent'
-086fc080ed75ba048487217f373173f9782152b4 Merge branch into tip/master: 'x86/urgent'
-c721643848e8f4c7f7fd47dd97eca59040ee0a9d Merge branch into tip/master: 'irq/core'
-2646f69517baf95eb560763f1ad69876033261a8 Merge branch into tip/master: 'locking/core'
-8586cf9ef2bf18f6eba11d9c8f32005761d3b630 Merge branch into tip/master: 'perf/core'
-45a081c0836ab161a92a5e0f0562e218ac400788 Merge branch into tip/master: 'ras/core'
-5d88bdb51d8b6e80de8dfa21ed9b1534e38ee450 Merge branch into tip/master: 'sched/core'
-8320b5acf52f8e4e58983a7c15122c8e167d8ba9 Merge branch into tip/master: 'timers/core'
-0bf44189c7cf4cb60a732e0f7af0703ad181588a Merge branch into tip/master: 'x86/asm'
-ac2df3ef4f457027fec8cf021a3b4660bfa8c031 Merge branch into tip/master: 'x86/cache'
-c374e2246b829b0b1a933e77029115d8d488ae1e Merge branch into tip/master: 'x86/cleanups'
-a427ba386c4fd544441125cb69a7f1c6a8e6be9f Merge branch into tip/master: 'x86/core'
-52333551144585c86a1f56f3616553e01a159dbf Merge branch into tip/master: 'x86/cpu'
-4e0fcbfc9e6a2e3fc8dab46c642ddc18dcd6580c Merge branch into tip/master: 'x86/fpu'
-288aee4187855108f795f2d4a43596aadc209f59 Merge branch into tip/master: 'x86/microcode'
-fabe9a41de8fa46402045334ae42339487def0d5 Merge branch into tip/master: 'x86/misc'
-602ab61eb024782cd593a8e7492be7f18da9ff44 Merge branch into tip/master: 'x86/mm'
-710e62f0f43439363a46d16e582bcae23e0af396 Merge branch into tip/master: 'x86/paravirt'
-50255146f8098ec69e5ff103ab54623ea92c035c Merge branch into tip/master: 'x86/sev'
-93af4a2343b9252824d410828159e816016a6a96 Merge branch into tip/master: 'x86/sgx'
-f95736f057c2a0c21d8ed806641a51ebbd553589 Merge branch into tip/master: 'x86/splitlock'
-cb30242f1c3436506266a38273edc1ba25d08c2f Merge branch into tip/master: 'x86/tdx'
-
---===============3221482576235412536==--
+  - ref: refs/heads/ti-drivers-soc-next
+    old: 69460e68eb662064ab4188d4e129ff31c1f23ed9
+    new: 14c7137ac750d034580a38edbaf807064ae64699
+    log: |
+         6ae5071b6a53844da27fddddf026c01eb4088c85 soc: ti: k3-socinfo: Convert allocations to devm
+         79480500de33a6a702f7188fc3ecd7164e897639 soc: ti: k3-socinfo: Add module build support
+         14c7137ac750d034580a38edbaf807064ae64699 soc: ti: k3-socinfo: Add AM62Ax JTAG ID
+         
+  - ref: refs/heads/ti-k3-dts-next
+    old: 027b85ca972f321629af85793bb49d45382e9006
+    new: fae14a1cb8dddb83bb923093aade3470a872f048
+    log: |
+         b784c27f40cfac1a0097f43bc68207c1bf350f2e dt-bindings: arm: ti: Add bindings for BeagleBone AI-64
+         fae14a1cb8dddb83bb923093aade3470a872f048 arm64: dts: ti: Add k3-j721e-beagleboneai64
+         
+  - ref: refs/heads/ti-next
+    old: 578f5f9663a44b9623fac1f63ac7aead21008a37
+    new: efa492abd6321ba27dddcebcb4791d1fb562dbfd
+    log: |
+         6ae5071b6a53844da27fddddf026c01eb4088c85 soc: ti: k3-socinfo: Convert allocations to devm
+         79480500de33a6a702f7188fc3ecd7164e897639 soc: ti: k3-socinfo: Add module build support
+         14c7137ac750d034580a38edbaf807064ae64699 soc: ti: k3-socinfo: Add AM62Ax JTAG ID
+         b784c27f40cfac1a0097f43bc68207c1bf350f2e dt-bindings: arm: ti: Add bindings for BeagleBone AI-64
+         fae14a1cb8dddb83bb923093aade3470a872f048 arm64: dts: ti: Add k3-j721e-beagleboneai64
+         efa492abd6321ba27dddcebcb4791d1fb562dbfd Merge branches 'ti-drivers-soc-next' and 'ti-k3-dts-next' into ti-next
+         
