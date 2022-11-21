@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
-Date: Mon, 21 Nov 2022 17:35:21 -0000
-Message-Id: <166905212187.2922.18173024070929412385@gitolite.kernel.org>
+Date: Mon, 21 Nov 2022 17:37:47 -0000
+Message-Id: <166905226738.3817.9629329102466763564@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,16 +11,18 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/hid/hid
 user: jikos
 changes:
-  - ref: refs/heads/for-6.1/upstream-fixes
-    old: 2afac81dd16544d825f309fd992d2af6304353df
-    new: 3405a4beaaa852f3ed2a5eb3b5149932d5c3779b
+  - ref: refs/heads/for-6.2/hid-bpf
+    old: 576e619ba4a47329bf55ada2d184e72529793fbd
+    new: 7e41b2e9776d85950896d9e117a525a44bb6ce92
     log: |
-         3405a4beaaa852f3ed2a5eb3b5149932d5c3779b HID: uclogic: Add HID_QUIRK_HIDINPUT_FORCE quirk
+         6cc90ccd4f6cfed98e2a3a378debc69f28d57473 HID: fix BT_HIDP Kconfig dependencies
+         7e41b2e9776d85950896d9e117a525a44bb6ce92 HID: force HID depending on INPUT
          
   - ref: refs/heads/for-next
-    old: afd050b813857ae300975ea1c3a5f18b06e86fd3
-    new: 92ece3fcc8fc8f4fe454035ae601820dd786e4b5
+    old: 92ece3fcc8fc8f4fe454035ae601820dd786e4b5
+    new: 37aa8ab8c6f530ae92619744019d58e5b1c63c5b
     log: |
-         3405a4beaaa852f3ed2a5eb3b5149932d5c3779b HID: uclogic: Add HID_QUIRK_HIDINPUT_FORCE quirk
-         92ece3fcc8fc8f4fe454035ae601820dd786e4b5 Merge branch 'for-6.1/upstream-fixes' into for-next
+         6cc90ccd4f6cfed98e2a3a378debc69f28d57473 HID: fix BT_HIDP Kconfig dependencies
+         7e41b2e9776d85950896d9e117a525a44bb6ce92 HID: force HID depending on INPUT
+         37aa8ab8c6f530ae92619744019d58e5b1c63c5b Merge branch 'for-6.2/hid-bpf' into for-next
          
