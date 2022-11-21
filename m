@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2929060549497432388=="
+Content-Type: multipart/mixed; boundary="===============0639282604013157582=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Mon, 21 Nov 2022 09:42:44 -0000
-Message-Id: <166902376412.6920.9668811211292098428@gitolite.kernel.org>
+Date: Mon, 21 Nov 2022 09:44:32 -0000
+Message-Id: <166902387255.7663.2239751595985950209@gitolite.kernel.org>
 
---===============2929060549497432388==
+--===============0639282604013157582==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,54 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/kobject-const
-    old: c7b0be95e5f880225c5d8deaa2aac246e11186a1
-    new: 9eca930f9ae3335b499662c53416394b01cdb7e9
-    log: revlist-c7b0be95e5f8-9eca930f9ae3.txt
+  - ref: refs/heads/kobject-const2
+    old: f02538f45aa371625a187d283fd3f57541ed5a3d
+    new: 0dd64fe475a4b7cefb7f4f589d16aeaca0a1204c
+    log: revlist-f02538f45aa3-0dd64fe475a4.txt
 
---===============2929060549497432388==
+--===============0639282604013157582==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1669023760 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1669023870 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1669023757-d4a3086ed5344316dbcaa21a168615b72a21b4bc
+nonce 1669023868-9dd7f70f24a79310656e213821d047de012fd100
 
-c7b0be95e5f880225c5d8deaa2aac246e11186a1 9eca930f9ae3335b499662c53416394b01cdb7e9 refs/heads/kobject-const
+f02538f45aa371625a187d283fd3f57541ed5a3d 0dd64fe475a4b7cefb7f4f589d16aeaca0a1204c refs/heads/kobject-const2
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmN7SBAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+tfMP/jJG1go4wkuX5BqeUEA6
-+FtgS3M/j32Pnb+0aTGX6tbJEeCC6u1GUtbRJNaPfLUAmkd4KVsSMUI/82cB3o2c
-mnvzR+aWNWkYBh8SxaIqVI3ExCupKf6Z9J0B3pkn/j3G6RMBQZrt08JxKjYbf/WS
-uZ2FT4+GDXN2vfpc5qIy9KwGPnsvftZk+GjPthQ0NDQgIt/HLyvVTw0jb35TB9MK
-MfgWuuVta6SrcLVjKDqLPrP2oEDpoYZVkUNFN0N03qm366rUVecC3kNTgS/31XBU
-iIIGmfQ4arKIV4J3FWWs3DegAlfH3EGg+JgeTHSLyrBezl93MBqlI96lmkTJaLV7
-Wqa9QBQjoJw0a6l4/ge1klZKDevKGupLsflUrCkZYabiHr40Qds+kz09yRj1Az8g
-AobEfMTNTk97Ppaxh2wuBCKYaglAT42ttqvfLLqDiVrbAEn20ft+duh67PLbVPwX
-Z3kc9u4h8uzdr74aq+MfX7lzUZWmWU6/Pa7K+40zqInDZTmnCvXWI12BrdlehOwA
-WiJWnvQJ0jwJhGnhqygoUpukqCjFA2Hi3m5syMB4GLiDEbNb9yEJT2jHqkWCaxUB
-QwSpqzoDDMPCTg6BwGm6rl+Eepcf5WppQ+MNybgPpKVCsJZ//jmMbqJu3TaI7Uty
-v3fwOh4RXel6DaRv1cLmyVR7
-=oW8t
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmN7SH4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+9QEQAJ3FVxV0tx3JYIHSD8Bu
+27P465xqMUACVgeWJTVDwUTi6WZxrxTZAsl8kGqHGZ9bkiQWXspmS3HRBKtDP8Sq
+llcD5Om4SVLFulYZPFf1m3BCmTtQHku0f10H3QlarP/t50Qy7txKykI0e1qmfFul
+bB9iPb6pSZ+BowsrVsrUFZBc5TdPF4L54v597sw3hPEszuWcY/TM7i4pwNY2pNAr
+astU2vhvn9NnBDuCvKFstmH2tVErS0VNDL8ZcxmMA2+nOMAo4CIcCp4z/jLyYHor
+ogTne9ea2ltnM/vn6rDGUBpWHECAupln5pNWbI3grJEr/vxttHvdSnjuVvWheuGT
+eHBAarLUOMZdGAgjQwem7YLM+4ZO+C2WMWYnWB/1PP2QnEXFlT14tV5KvNNuZc+6
+pn2nP1nwlJ24imqkzfuVgfg7b4HOORh340D5cupfSR/aEUAgc0D96ViJ9aeDH+On
+IqIi2eExGJsFtd3C77F3lh5/02DMlsqrrMS16tfOWQknZqZM2Z81KQRKVzZNaVhg
+E0i3MRjmlDMMj1H+AYsJnvWYL6zxyMS9WyazSBVXBpu9UapAjBK8NSEcsnTjuWsl
+LEZoLRU5SbbvKQ7XlH/ss8cHOKqHBLiQXOKPZsLOxCRlXQ6QOLVil+NG11mG1WMP
+smDB0xKBhIbg8oMfO1brOdNb
+=s5zY
 -----END PGP SIGNATURE-----
 
---===============2929060549497432388==
+--===============0639282604013157582==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c7b0be95e5f8-9eca930f9ae3.txt
+Content-Disposition: attachment; filename=revlist-f02538f45aa3-0dd64fe475a4.txt
 
+6ec27c53886c8963729885bcf2dd996eba2767a7 ASoC: core: Fix use-after-free in snd_soc_exit()
+c1de355e04e6ae8da21cb6bfbd5bbfd8deee0fe5 MAINTAINERS: Update HiSilicon SFC Driver maintainer
+4a6f278d4827b59ba26ceae0ff4529ee826aa258 fuse: add file_modified() to fallocate
+04948e757148f870a31f4887ea2239403f516c3c phy: qcom-qmp-combo: fix NULL-deref on runtime resume
+8d06679b25fc6813eb2438fac7fa13f4f3c2ef37 ALSA: hda/realtek: Add quirk for ASUS Zenbook using CS35L41
+e3c5a78cdb6237bfb9641b63cccf366325229eec blk-mq: Properly init requests from blk_mq_alloc_request_hctx()
+6f257934ed6170ed0094149e0e1bac09f7997103 Merge branches 'pm-sleep', 'pm-domains' and 'pm-tools'
 dd183e320524f076a765ec441193deb90bd53836 Merge branches 'acpi-resource', 'acpi-pcc' and 'devprop'
 9ed88fcfb1b08c41bde0381dece84d152d53774c MAINTAINERS: Change myself to a maintainer
 2124becad797245d49252d2d733aee0322233d7e ACPI: x86: Add another system to quirk list for forcing StorageD3Enable
@@ -1069,17 +1076,10 @@ d4f754c3615c83df277018a98486db501f92b155 Merge tag 'sched_urgent_for_v6.1_rc6' o
 c6c67bf9bc2714d9c2c2e7ecfbf29d912b8c4f17 Merge tag 'trace-probes-v6.1' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 eb7081409f94a9a8608593d0fb63a1aa3d6f95d8 Linux 6.1-rc6
 05df6ab8eba625a1d97eb67ee06d786b8e460685 Merge 6.1-rc6 into driver-core-next
-e33b214428b6acbb311f4f0ea0423b969fd9585d kobject: make kobject_get_ownership() take a constant kobject *
-8bd2b36ec7e467f952c83fd5fbaa71fe8ddb9d8e kobject: make kobject_namespace take a const *
-311070f64fbb1a8a389ed604328a642020536b06 kobject: kset_uevent_ops: make filter() callback take a const *
-1b643d8a3847ee8b8b513289e53391765d5e5c9a kobject: kset_uevent_ops: make name() callback take a const *
-ed960e2d5f6bb3bc56f7db360f9445a7fbf9fab3 driver core: pass a const * into of_device_uevent()
-e6a40e137e874afcebf6933f7cbd2c0120977192 driver core: make struct class.dev_uevent() take a const *
-67e4e9a189514e023fd1fc813955e0a93860e0c3 driver core: make struct class.devnode() take a const *
-c6f869d208caa81be9a93cf3ddc3c5be2245b704 driver core: make struct device_type.uevent() take a const *
-469b9e26106636c45308991fb68ac7cb77966247 driver core: make struct device_type.devnode() take a const *
-7651ed16ceb9c8415f600e83758aa18ab4194e89 driver core: device_get_devnode() should take a const *
-0677754b5a4f50b2ccdafca186c185420f9f5ad8 driver core: make struct bus_type.uevent() take a const *
-9eca930f9ae3335b499662c53416394b01cdb7e9 kobject: kset_uevent_ops: make uevent() callback take a const *
+b116e49f54bf4ee4d2c3617518f66aa7db1fb30a kobject: make kobject_get_ownership() take a constant kobject *
+ea3367b67132662850ea8e97832c245d02967b2e kobject: make kobject_namespace take a const *
+452f555943b4c1f85eb08c75cbed4fe86c10ac3d kobject: kset_uevent_ops: make filter() callback take a const *
+faf82af112686f17965a3651138b665b290fb016 kobject: kset_uevent_ops: make name() callback take a const *
+0dd64fe475a4b7cefb7f4f589d16aeaca0a1204c driver core: pass a const * into of_device_uevent()
 
---===============2929060549497432388==--
+--===============0639282604013157582==--
