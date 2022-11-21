@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5209052937476230315=="
+Content-Type: multipart/mixed; boundary="===============3162129932220432528=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Mon, 21 Nov 2022 01:17:43 -0000
-Message-Id: <166899346391.18976.18036225309775854170@gitolite.kernel.org>
+Date: Mon, 21 Nov 2022 01:17:58 -0000
+Message-Id: <166899347845.19160.6669303291015288206@gitolite.kernel.org>
 
---===============5209052937476230315==
+--===============3162129932220432528==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,15 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/fixes
     old: 77c51ba552a1c4f73228766e43ae37c4101b3758
     new: eb7081409f94a9a8608593d0fb63a1aa3d6f95d8
     log: revlist-77c51ba552a1-eb7081409f94.txt
-  - ref: refs/tags/v6.1-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 4446246354c3c11d4cbc8cf3515c92c3a880fc8e
 
---===============5209052937476230315==
+--===============3162129932220432528==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -68,4 +65,4 @@ d4f754c3615c83df277018a98486db501f92b155 Merge tag 'sched_urgent_for_v6.1_rc6' o
 c6c67bf9bc2714d9c2c2e7ecfbf29d912b8c4f17 Merge tag 'trace-probes-v6.1' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 eb7081409f94a9a8608593d0fb63a1aa3d6f95d8 Linux 6.1-rc6
 
---===============5209052937476230315==--
+--===============3162129932220432528==--
