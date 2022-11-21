@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7305216249664285066=="
+Content-Type: multipart/mixed; boundary="===============2392508614361792989=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/printk/linux
-Date: Mon, 21 Nov 2022 13:31:20 -0000
-Message-Id: <166903748024.20700.13366680881912868032@gitolite.kernel.org>
+Date: Mon, 21 Nov 2022 13:32:27 -0000
+Message-Id: <166903754751.21181.2904439414578266779@gitolite.kernel.org>
 
---===============7305216249664285066==
+--===============2392508614361792989==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/printk/linux
 user: pmladek
 changes:
-  - ref: refs/heads/rework/console-list-lock
-    old: 50343ed0e2ee2f345d7e11654fbb0e62de4ce77d
-    new: 6c625ca38febe575424d703254c52e5ea0437363
-    log: revlist-50343ed0e2ee-6c625ca38feb.txt
+  - ref: refs/heads/for-next
+    old: fdcd6d5311faa091d4738862a42a4bc4815da7a5
+    new: b102c3995e90828b398e5b1f8e343acfd4ac50cf
+    log: revlist-fdcd6d5311fa-b102c3995e90.txt
 
---===============7305216249664285066==
+--===============2392508614361792989==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-50343ed0e2ee-6c625ca38feb.txt
+Content-Disposition: attachment; filename=revlist-fdcd6d5311fa-b102c3995e90.txt
 
 8fc5f5fc7f52a733fcc8b3939d172b9248e63871 printk: introduce console_list_lock
 e89dcccbad7bac2f7f476a3607bf86cd09ef30cd console: introduce wrappers to read/write console flags
@@ -56,5 +56,6 @@ bb62dac5b8279fbeea254535c9b9a4b432306e57 tty: serial: kgdboc: use srcu console l
 54db9e930ece6e8496ea2433c535868e56182a9b tty: serial: kgdboc: use console_list_lock to trap exit
 0eb633ca3053d1332568e49eaa252f3a11f97ace printk: relieve console_lock of list synchronization duties
 6c625ca38febe575424d703254c52e5ea0437363 tty: serial: sh-sci: use setup() callback for early console
+b102c3995e90828b398e5b1f8e343acfd4ac50cf Merge branch 'rework/console-list-lock' into for-next
 
---===============7305216249664285066==--
+--===============2392508614361792989==--
