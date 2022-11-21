@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Mon, 21 Nov 2022 10:06:35 -0000
-Message-Id: <166902519527.25961.12944642029728011305@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Mon, 21 Nov 2022 10:07:00 -0000
+Message-Id: <166902522009.26184.8501799355059002304@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/soc/soc
-user: arnd
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: davem
 changes:
-  - ref: refs/heads/tegra/dt64
-    old: 0000000000000000000000000000000000000000
-    new: db78f7ce427aa4be45d0e95daaa6e2cd73c7cd6c
+  - ref: refs/heads/master
+    old: ef8c373bd91df3cf70596497da0955d218961ead
+    new: 62a45b384a2833fbdff4658a56dab38e9d6f4580
+    log: |
+         62a45b384a2833fbdff4658a56dab38e9d6f4580 net: microchip: sparx5: prevent uninitialized variable
+         
