@@ -1,25 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
-Date: Mon, 21 Nov 2022 22:26:36 -0000
-Message-Id: <166906959619.15168.16754551743901212709@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
+Date: Mon, 21 Nov 2022 22:34:54 -0000
+Message-Id: <166907009451.19636.9635114271041411582@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/conor/linux
-user: conor
+repo: pub/scm/linux/kernel/git/ardb/linux
+user: ardb
 changes:
-  - ref: refs/heads/riscv-kconfig_socs
-    old: f8d36037793f3b6256a9f7318284c53e45654599
-    new: e85449f9c63782ee01769fb818d48fdcf8da153f
+  - ref: refs/heads/arm64-4k-lpa2
+    old: 3a418f235d15387d613f796f3fa69c28171e12b8
+    new: 04c38e8d7ad70d8a41a8308ac1c3620adfd647ba
     log: |
-         b0cf4dfe38cada3e5ff3eb074fd385cc1ac50b9e RISC-V: introduce ARCH_FOO kconfig aliases for SOC_FOO symbols
-         7a1745bd284081335750f6edb3e5bfaa27ff81a6 RISC-V: kconfig.socs: convert usage of SOC_CANAAN to ARCH_CANAAN
-         2adca6b1f3efd156dc223ff900c322fc4156433c RISC-V: kbuild: convert all use of SOC_FOO to ARCH_FOO
-         efee124926f9ba8aafd2350c1d4984875490f568 RISC-V: stop selecting SIFIVE_PLIC at the SoC level
-         c9b57f955fbceadc6ba76a28bacd3634e921f69a RISC-V: stop selecting the PolarFire SoC clock driver
-         b97c99838091c2c0a21ddf1154101ec6ed0dae34 RISC-V: stop selecting SiFive clock and serial drivers directly
-         e85449f9c63782ee01769fb818d48fdcf8da153f RISC-V: stop directly selecting drivers for SOC_CANAAN
+         6204646db6ff3f893059a409b97f1fc969123343 arm64: mm: Add definitions to support non-folded p4d level tables
+         107665e2df6f4bc2fae18a6c365b673f5a70997f arm64: mm: add 5 level paging support to G-to-nG conversion routine
+         39f2626dfd260834ac09d295f400e864e677920c arm64: head: remove order argument from early mapping routine
+         428738aa3bb771fdda684cb9c6848ef867944b0e arm64: Enable LPA2 at boot if supported by the system
+         df9f4e31661dcaef56daa41d3e8bc00472377ff4 arm64: mm: Enable KASAN for 16k/48-bit VA configurations
+         5308157b35daa197a6a74e14d9093f1fc5a705f4 arm64: mm: Add 5 level paging support to fixmap and swapper handling
+         7550c7840558ead875b5b90e3ee0e0d2def271ff arm64: mm: Add 5 level paging support to KASAN init code
+         04c38e8d7ad70d8a41a8308ac1c3620adfd647ba arm64: Enable 52-bit virtual addressing for 4k and 16k granule configs
          
