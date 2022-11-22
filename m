@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec
-Date: Tue, 22 Nov 2022 06:19:33 -0000
-Message-Id: <166909797344.27734.9193184454270022267@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mtd/linux
+Date: Tue, 22 Nov 2022 06:25:45 -0000
+Message-Id: <166909834583.1959.3597660907240647265@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/klassert/ipsec
-user: klassert
+repo: pub/scm/linux/kernel/git/mtd/linux
+user: tudor.ambarus
 changes:
-  - ref: refs/heads/master
-    old: 7f57f8165cb6d2c206e2b9ada53b9e2d6d8af42f
-    new: 40781bfb836eda57d19c0baa37c7e72590e05fdc
+  - ref: refs/heads/spi-nor/next
+    old: ef434f08b0562069cf431873a052692357d325a1
+    new: 1799cd8540b67b88514c82f5fae1c75b986bcbd8
     log: |
-         b97df039a68b2f3e848e238df5d5d06343ea497b xfrm: Fix oops in __xfrm_state_delete()
-         40781bfb836eda57d19c0baa37c7e72590e05fdc xfrm: Fix ignored return value in xfrm6_init()
+         a30f53d8bc0f9b55b4e8eea0e17b68cfd1f07f34 mtd: spi-nor: issi: is25wp256: Init flash based on SFDP
+         1799cd8540b67b88514c82f5fae1c75b986bcbd8 mtd: spi-nor: add SFDP fixups for Quad Page Program
          
