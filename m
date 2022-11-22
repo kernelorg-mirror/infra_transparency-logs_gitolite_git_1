@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/crng/random
-Date: Tue, 22 Nov 2022 15:56:22 -0000
-Message-Id: <166913258220.4074.11424221064076474704@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
+Date: Tue, 22 Nov 2022 16:09:55 -0000
+Message-Id: <166913339561.11832.3648174705595365682@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/crng/random
-user: zx2c4
+repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
+user: shuah
 changes:
-  - ref: refs/heads/vdso
-    old: ef83e475a078cde3eb88b5a4274818261d93bbbf
-    new: accb953f8d6b0d67e8888c49c0aec3fc2a3f2607
+  - ref: refs/heads/next
+    old: 2dfb010d2aafceeab23ccd502c77784006adedd7
+    new: c93924267fe6f2b44af1849f714ae9cd8117a9cd
     log: |
-         accb953f8d6b0d67e8888c49c0aec3fc2a3f2607 x86: vdso: Wire up getrandom() vDSO implementation
+         c93924267fe6f2b44af1849f714ae9cd8117a9cd selftests/efivarfs: Add checking of the test return value
          
