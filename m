@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
-Date: Tue, 22 Nov 2022 11:00:58 -0000
-Message-Id: <166911485895.15242.14288041559196490003@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/printk/linux
+Date: Tue, 22 Nov 2022 11:04:16 -0000
+Message-Id: <166911505609.16459.6087844921668521020@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/hid/hid
-user: jikos
+repo: pub/scm/linux/kernel/git/printk/linux
+user: pmladek
 changes:
-  - ref: refs/heads/for-6.1/upstream-fixes
-    old: be321b9286f655d4e442400089400bdc4ae289fa
-    new: f6d910a89a2391e5ce1f275d205023880a33d3f8
-  - ref: refs/heads/for-next
-    old: 3aea99bfbbd2111d8468a59ddadf94680b92280e
-    new: 780f0d71157479d1940d7c1255833cd672927fbc
+  - ref: refs/heads/rework/console-list-lock
+    old: 6c625ca38febe575424d703254c52e5ea0437363
+    new: 9907ed06432a48be772934df6a7295d1cda28e42
+    log: |
+         9907ed06432a48be772934df6a7295d1cda28e42 printk: htmldocs: add missing description
+         
