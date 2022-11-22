@@ -1,16 +1,47 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
-Date: Tue, 22 Nov 2022 20:53:56 -0000
-Message-Id: <166915043632.20699.15363681084265477499@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============2876145430707999173=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/utils/b4/b4
+Date: Tue, 22 Nov 2022 21:02:24 -0000
+Message-Id: <166915094419.28021.2448731973601864995@gitolite.kernel.org>
+
+--===============2876145430707999173==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/qcom/linux
-user: andersson
+repo: pub/scm/utils/b4/b4
+user: mricon
+git_push_cert_status: G
 changes:
-  - ref: refs/tags/qcom-dts-for-6.2
-    old: 0000000000000000000000000000000000000000
-    new: a61a5e0b609440ca90b48cdd02adc99f5131d356
+  - ref: refs/heads/master
+    old: d16369f0f3e4c9cd8c30ceb54045de2149d38ab2
+    new: d416f2e37ef3164de0a14df4af5381e06553847c
+    log: |
+         6d3604b55eac93ed6432ca7df5d66f728b7e5a5e Update signature string
+         d416f2e37ef3164de0a14df4af5381e06553847c Don't convert to bytes for verification payload
+         
+
+--===============2876145430707999173==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher B6C41CE35664996C! 1669150943 -0500
+pushee gitolite.kernel.org:pub/scm/utils/b4/b4
+nonce 1669150943-777e2757bbea18b78b346b93a74957881278f78e
+
+d16369f0f3e4c9cd8c30ceb54045de2149d38ab2 d416f2e37ef3164de0a14df4af5381e06553847c refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCY3043wAKCRC2xBzjVmSZ
+bFLpAPwPnBAY9vVOcxMr3jU6EistE9HfWxeJ8Jc07YWtettMQAD/ThBMS7HTm5Lx
+GX4NUTSDUEDhRcZvh+5/Is4CSQ/7cg8=
+=J6F/
+-----END PGP SIGNATURE-----
+
+--===============2876145430707999173==--
