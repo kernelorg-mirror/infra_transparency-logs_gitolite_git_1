@@ -1,40 +1,47 @@
-Content-Type: multipart/mixed; boundary="===============6767051938550642175=="
+Content-Type: multipart/mixed; boundary="===============6112300761488986292=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
-Date: Tue, 22 Nov 2022 17:07:22 -0000
-Message-Id: <166913684285.22577.15179970899432442105@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tglx/devel
+Date: Tue, 22 Nov 2022 17:12:25 -0000
+Message-Id: <166913714546.26172.12172549791074187014@gitolite.kernel.org>
 
---===============6767051938550642175==
+--===============6112300761488986292==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ardb/linux
-user: ardb
+repo: pub/scm/linux/kernel/git/tglx/devel
+user: tglx
 changes:
-  - ref: refs/heads/arm64-4k-lpa2
-    old: 42f7250651798b7ba0d19ed83e156e027aa35254
-    new: 9675fd99d2babf22b8ff78086eb4aa93e5b819e5
-    log: revlist-42f725065179-9675fd99d2ba.txt
+  - ref: refs/heads/timers
+    old: 9fbf27c3d9ba5ee373c43886a54ba933a610c848
+    new: 29c298cdf5b408e8e777bd01694430f6c712b161
+    log: revlist-9fbf27c3d9ba-29c298cdf5b4.txt
 
---===============6767051938550642175==
+--===============6112300761488986292==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-42f725065179-9675fd99d2ba.txt
+Content-Disposition: attachment; filename=revlist-9fbf27c3d9ba-29c298cdf5b4.txt
 
-7c5425f76561127a050956eb5fd325c7d0ad3667 arm64: mm: Wire up TCR.DS bit to PTE shareability fields
-cd67d23ef6c94249c66845fe31975a84d671e8a7 arm64: mm: Support use of 52-bit pgdirs on 48-bit/16k systems
-1287fa2074f5158112fb6edfa2961eb685571340 arm64: mm: Add LPA2 support to phys<->pte conversion routines
-0a8a82825ebca8ec2fc0e04f1e89cab8e4fd82c8 arm64: mm: Add definitions to support 5 levels of paging
-f7579362717b5aac39e36717f988dc8ec2255b5d arm64: mm: add 5 level paging support to G-to-nG conversion routine
-172549a58f0e3fffb2909e917b1bb15726561372 arm64: head: remove order argument from early mapping routine
-edb64b8880f7c666bf7c748991ee87cea024cf4a arm64: Enable LPA2 at boot if supported by the system
-2d563ed1ca063a053a59298173712842584ff049 arm64: mm: Add 5 level paging support to fixmap and swapper handling
-2a9423c69c9205911e883cd9bf055e8056b90863 arm64: mm: Add 5 level paging support to KASAN init code
-9675fd99d2babf22b8ff78086eb4aa93e5b819e5 arm64: Enable 52-bit virtual addressing for 4k and 16k granule configs
+03acb3e43fee5baa25673fc67e3587c0dc5f24f0 Documentation: Remove bogus claim about del_timer_sync()
+eb297b16c9a7606d25592fed48bef70308da61ee ARM: spear: Do not use timer namespace for timer_shutdown() function
+deb15c3cb19460ceb6ba078865339d54cf0e9a8d clocksource/drivers/arm_arch_timer: Do not use timer namespace for timer_shutdown() function
+f49a1e32e943f235e7a42993b44fe74e240cbfec clocksource/drivers/sp804: Do not use timer namespace for timer_shutdown() function
+b7b699d3fe64418e4e8516b1d5672eb805c14df0 timers: Get rid of del_singleshot_timer_sync()
+8d98291ad2983a1d186a96a4e11be3b91492810f timers: Replace BUG_ON()s
+81914cc01058be78cd482eea0ade83ef78e5553b timers: Update kernel-doc for various functions
+08b4206109889f2383f3a50cd6ad3ee93dc7c3ae timers: Use del_timer_sync() even on UP
+84618075bda4f781003b48fb82b2096b6ef75e69 timers: Rename del_timer_sync() to timer_delete_sync()
+0401a2094604d50c2910ca447282caa5455ebfe7 timers: Rename del_timer() to timer_delete()
+131c7d61b5c99a29ae303b90e1f5f2eff5780f12 Documentation: Replace del_timer/del_timer_sync()
+52c1a58d67cfb735e54e682b97ff3de29df77b25 timers: Silently ignore timers with a NULL function
+6ad0e57cd6249e758fe69b5f6b2142600196168b timers: Split [try_to_]del_timer[_sync]() to prepare for shutdown mode
+8ddbb79c6813593e7754ead89d537068e98d112b timers: Add shutdown mechanism to the internal functions
+da74302969f36dcc400c0ac74e46fb0481512e76 timers: Provide timer_shutdown[_sync]()
+45ddee3dc89fa9696f2f685d967d14722bad656c timers: Update the documentation to reflect on the new timer_shutdown() API
+29c298cdf5b408e8e777bd01694430f6c712b161 Bluetooth: hci_qca: Fix the teardown problem for real
 
---===============6767051938550642175==--
+--===============6112300761488986292==--
