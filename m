@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/bluetooth/bluez
-Date: Tue, 22 Nov 2022 00:42:15 -0000
-Message-Id: <166907773557.12594.11992704205671115288@gitolite.kernel.org>
+Date: Tue, 22 Nov 2022 00:46:15 -0000
+Message-Id: <166907797559.15612.11721168686512359056@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/bluetooth/bluez
 user: vudentz
 changes:
   - ref: refs/heads/master
-    old: 818adf28e51877f32befab1a7faca314f89aa199
-    new: 5a872af406ca2d432e79d978f23a85771c7ce6ea
+    old: 5a872af406ca2d432e79d978f23a85771c7ce6ea
+    new: 9f5036834ba20226456acc0c430642ce36d4eecc
     log: |
-         5a872af406ca2d432e79d978f23a85771c7ce6ea client/player: Fix scan-build warning
+         9f5036834ba20226456acc0c430642ce36d4eecc main.conf: Add SecureConnections option
          
