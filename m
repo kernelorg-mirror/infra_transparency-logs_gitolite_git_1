@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7165671668446241015=="
+Content-Type: multipart/mixed; boundary="===============2568372422989736048=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Tue, 22 Nov 2022 16:18:47 -0000
-Message-Id: <166913392747.18248.13670979456286104827@gitolite.kernel.org>
+Date: Tue, 22 Nov 2022 16:18:55 -0000
+Message-Id: <166913393547.18359.11807577725934041726@gitolite.kernel.org>
 
---===============7165671668446241015==
+--===============2568372422989736048==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: 2360f9b8c4e81d242d4cbf99d630a2fffa681fab
-    new: 2dc4ac91f845b690ddf2ad39172c3698b2769fa2
-    log: revlist-2360f9b8c4e8-2dc4ac91f845.txt
+  - ref: refs/heads/dev-queue
+    old: b54a38173e33ac2c4e1191b76f70506328522293
+    new: fe7ff179231f09231ed5d09a4e32c15260f8a00d
+    log: revlist-b54a38173e33-fe7ff179231f.txt
 
---===============7165671668446241015==
+--===============2568372422989736048==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2360f9b8c4e8-2dc4ac91f845.txt
+Content-Disposition: attachment; filename=revlist-b54a38173e33-fe7ff179231f.txt
 
 52d1aa8b8249ff477aaa38b6f74a8ced780d079c netfilter: conntrack: Fix data-races around ct mark
 33c7aba0b4ffd6d7cdab862a034eb582a5120a38 netfilter: nf_tables: do not set up extensions for end interval
@@ -67,5 +67,20 @@ aad98abd5cb8133507f22654f56bcb443aaa2d89 sfc: fix potential memleak in __ef100_h
 3637a29ccbb6461b7268c5c5db525935d510afc6 bnx2x: fix pci device refcount leak in bnx2x_vf_is_pcie_pending()
 bb3cfbaf7c6416f3109fdb14f6fc0eb1a50361ad octeontx2-pf: Remove duplicate MACSEC setting
 2dc4ac91f845b690ddf2ad39172c3698b2769fa2 tsnep: Fix rotten packets
+788b96f9f11d255def47b5e90837447c881482fc i40e: Fix failure message when XDP is configured in TX only mode
+7f8a8afadd4aae70bf40a43366596e1ea38e5c90 i40e: fix xdp_redirect logs error message when testing with MTU=1500
+e01060198d67701a74d3674d3e430ca1eef4895a i40e: Fix not setting default xps_cpus after reset
+857e0d96d09718b23f1cf2954c9c598746b499ea e1000e: Fix TX dispatch condition
+12137729e778aa6d3456859dd94d5204b1b431fc i40e: Fix for VF MAC address 0
+e0105a69b613c89984fcb17753b0e6d015c6230a ice: Create a separate kthread to handle ptp extts work
+1f2cae00a94bb9f7218b4e7539268fb4f2024e72 iavf: Fix shutdown pci callback to match the remove one
+a57be71c6948982ec6460423e55ff7ff80b32cab ixgbevf: Fix resource leak in ixgbevf_init_module()
+91464ae1f3de3cb27fac146adb6cf4929adf325e fm10k: Fix error handling in fm10k_init_module()
+bea7b6110ebbae57bbdecf9da705a52d73938d80 iavf: Fix error handling in iavf_init_module()
+6520a4e1f3c072bd476a63b2b5088e7a7189488f ice: Correctly handle aux device when num channels change
+3a025c8c6b62c286f5620d71c3b213da3bd82e92 i40e: Disallow ip4 and ip6 l4_4_bytes
+e1bab7482320eb1b2c1c20f50519535dd14f92cf e100: Fix possible use after free in e100_xmit_prepare
+1f0fd2af28e75541de068cc3738ecc7e768c093b i40e: Fix error handling in i40e_init_module()
+fe7ff179231f09231ed5d09a4e32c15260f8a00d ice: move devlink port creation/deletion
 
---===============7165671668446241015==--
+--===============2568372422989736048==--
