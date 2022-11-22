@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/bluetooth/bluez
-Date: Tue, 22 Nov 2022 00:46:15 -0000
-Message-Id: <166907797559.15612.11721168686512359056@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Tue, 22 Nov 2022 00:48:09 -0000
+Message-Id: <166907808936.16321.14445325002441030566@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/bluetooth/bluez
-user: vudentz
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/heads/master
-    old: 5a872af406ca2d432e79d978f23a85771c7ce6ea
-    new: 9f5036834ba20226456acc0c430642ce36d4eecc
-    log: |
-         9f5036834ba20226456acc0c430642ce36d4eecc main.conf: Add SecureConnections option
-         
+  - ref: refs/heads/locks-6.3
+    old: 0000000000000000000000000000000000000000
+    new: ff6b1436ed4dc5990638bcb2e1096a6b6732ce18
