@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5274597287980439274=="
+Content-Type: multipart/mixed; boundary="===============6383526809672493756=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Tue, 22 Nov 2022 12:20:54 -0000
-Message-Id: <166911965413.6708.7149599583653257483@gitolite.kernel.org>
+Date: Tue, 22 Nov 2022 12:24:20 -0000
+Message-Id: <166911986059.7992.2870665583499991877@gitolite.kernel.org>
 
---===============5274597287980439274==
+--===============6383526809672493756==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,44 +17,42 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/staging-testing
-    old: ccdbe14b77a5e39496baf632e157f9daf322dd27
-    new: f198d34759eb3d110d37bb42f6c39cd90bd0b0cb
+    old: f198d34759eb3d110d37bb42f6c39cd90bd0b0cb
+    new: 9dadff066244543780e5d9ee406b3ec7af19e22c
     log: |
-         357057ee55d3c99a5de5abe8150f7bca04f8e53b staging: vme_user: Fix possible UAF in tsi148_dma_list_add
-         2b7962bd05163f5b20fb5f933092b997debf8ed6 staging: gdm724x: Replace macro GDM_TTY_READY with static inline function
-         733611730676de202fade0cb73792c17d5aa9903 Revert "staging: mmal-vchiq: Avoid use of bool in structures"
-         c0012a39cf6c7197ad93da0bdba7245c094f8469 vc04_services: mmal-vchiq: Use bool for vchiq_mmal_component.in_use
-         f198d34759eb3d110d37bb42f6c39cd90bd0b0cb vc04_services: bcm2835-camera: Use bool values for mmal_fmt.remove_padding
+         9a2c1d64c8eb4fab0387c0943eb6666b246f96aa staging: most: i2c: Convert to i2c's .probe_new()
+         b62649822e8c03ec1319f9d33c753106b8c80bcd staging: olpc_dcon: Convert to i2c's .probe_new()
+         9dadff066244543780e5d9ee406b3ec7af19e22c staging: iio: ade7854: Convert to i2c's .probe_new()
          
 
---===============5274597287980439274==
+--===============6383526809672493756==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1669119651 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1669119858 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1669119650-4ac33dc7e6b49c06c64fddd6a9d31a4eae4f4a3e
+nonce 1669119857-1244aae43307a283b0dd2bc98db5b85e81cfc347
 
-ccdbe14b77a5e39496baf632e157f9daf322dd27 f198d34759eb3d110d37bb42f6c39cd90bd0b0cb refs/heads/staging-testing
+f198d34759eb3d110d37bb42f6c39cd90bd0b0cb 9dadff066244543780e5d9ee406b3ec7af19e22c refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmN8vqMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+89QP/1NhewX15DuSmI7w5NuZ
-EUtPQIh4O+fC0HDsIagz2+2eurxUJ3j7TvWaTDFQ6/brXGo28enF36foDOtwZxSr
-gc1dZ8FKQmXSnkcuv3DHUvSS0cPQyT9elzUFFwnvdldtlztlCdGFITuuXUy67H02
-VSQvscWJGzU1KgvfDgiA113qQeifT4ZC50bkQhEps3sQiPyv5mbFxGQPNlqsYrg4
-kePTgmyue5gZ07mNnq0Ql0YQeWIONko3xiQT7zJ1LrTylUDKn4wpuR2kMrWpF01f
-HpKVbZTWPGfPthRN7TM9RuPmR8KWVPPSwx+ddBz+yj9qH4AsmKlz3xGQDG3ei73m
-naf6hfB6mwMvQYg3zLPmhmxeP3lfDaNMZn3qItnnT7FpWKf46TxO1g8AwO2zX5uy
-YyTVkngQdUBxYHVMI2ifGmx8Y7zjec6aeT1w6NohWpAGPpfnpuxuoYAaSPtXrJlp
-MYMpAA1jHorUQUUfhyCAHZIvz+t2WrsKxG8YaNXRNlibIWWasHlEqSvoPFnlhg3o
-l6s6kC8GHimh1z9DD7ELHpCD05uXX3TsmzDM6tkzYfOTlad4WiXj7l1SpF84gZz+
-igjljUnnfzSF6ZNMF9oUL6pJbBLS0SqI5FyGmcbTpG+/kho8ZnapCcUlC5oH3lL0
-iORxj+/cE9ip5q5rhRHq07z3
-=eLd2
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmN8v3IbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+NfEP+wXIgCd6SAUKyRCRVVD/
+bLskJD/uTXtvM3065kWmdfgA5fxYO8wiswRdebWvy/DE4nUfB6QnyBsV6sDpanaz
+7AmNb5SQb1/A6QpWvy96y6ELINaqQD4gGalCre2Ywt2gbinQf5gIKQ/p76nSD9yb
+fQe3nZ4VFT+U4AJACoj2qG06w7QLXdNnxurynrHkrEGkL/2vM2T5wBXfph4sI+Z7
+yy5aijXywBC/NSr3YpbmHrkev3xquXEkxT5OXZLMrVH3Ymh0wM4n1Xlh01qKKmig
+eMiwPrSKxXCU7nD730BeU8tiK9aFlTTuwyJlTs7GY3wYrQ8941VPsfqyN3XAlMva
+8V+pJglhP9drqAMtKbg/4t7GzdYPQjZwbpmcePADihMG56eJHSVe+vZHo5QJsqzH
+s2kUAADZovRd46N0U+AIgsQ+SV/Bm/JOGKJytSCNLQm40Aews491CE1I9SuoxJzH
+KuUv5K5VbDlJOl2Ct6EduGGhYcIoYg3dT5TF72STbgZSilyWafrwmPgHwyEo2ruL
+UE8rhuzehp/6IzYzijaihAFmST/Tx5+KCNPVqlJ+zdC0z+oSBJvXySdikDs+JhQ1
+G29eEuSzZxlKGk/yHC9e5gFa74MsIme3s+AGAuNowowEues79MSBJctnrmKIEPyR
+ljYC4Z/HJMlh/trGyPwyI0UE
+=I7Nm
 -----END PGP SIGNATURE-----
 
---===============5274597287980439274==--
+--===============6383526809672493756==--
