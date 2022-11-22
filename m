@@ -1,16 +1,173 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Tue, 22 Nov 2022 18:44:04 -0000
-Message-Id: <166914264470.25886.260198034771014500@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============5447690870966669232=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
+Date: Tue, 22 Nov 2022 18:45:58 -0000
+Message-Id: <166914275895.28168.8652653370738539173@gitolite.kernel.org>
+
+--===============5447690870966669232==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/jic23/iio
+user: jic23
 changes:
-  - ref: refs/heads/fileOinA1z
-    old: c957387c402a1a213102e38f92b800d7909a728d
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/togreg
+    old: 021882de1a48cffaa405aa8014bd1d48ca6d5c19
+    new: 2cbc91d5cc31bfcbcf6e861dc55edcceed8aab3e
+    log: revlist-021882de1a48-2cbc91d5cc31.txt
+
+--===============5447690870966669232==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-021882de1a48-2cbc91d5cc31.txt
+
+2a73c4dc54b474124a1a2e0c15bddc5563c6446c iio: accel: adxl372_i2c: Convert to i2c's .probe_new()
+f995139bdba0defe2486fef5e0db234530c80176 iio: accel: bma180: Convert to i2c's .probe_new()
+c429de86f58462f625a5d653a9bb6a815e57a328 iio: accel: bma400: Convert to i2c's .probe_new()
+cfa3bbc131a5fc1198035772d5f837529d7e98d0 iio: accel: bmc150: Convert to i2c's .probe_new()
+58d29e30076617bcd1c4098e8f2d30433545530e iio: accel: da280: Convert to i2c's .probe_new()
+93eb7e051bf55eec236c01226b0c680ef0ff34e6 iio: accel: kxcjk-1013: Convert to i2c's .probe_new()
+800f82580899bbaeeaf8a248fa833108a756138c iio: accel: mma7455_i2c: Convert to i2c's .probe_new()
+31df3a30d96741bfbcd43058eb0e1e2ee34721a0 iio: accel: mma8452: Convert to i2c's .probe_new()
+6dab7587c3a5d6508b97b3f8509c75757974e65f iio: accel: mma9551: Convert to i2c's .probe_new()
+14bdda8433df4f999f66cdbd68dcf6feb94c109f iio: accel: mma9553: Convert to i2c's .probe_new()
+38c4851a8deb0df7299fdb830981cb4ff60151d8 iio: adc: ad7091r5: Convert to i2c's .probe_new()
+4fbef7181f79732bcebc1f7d0f0a5427242564fd iio: adc: ad7291: Convert to i2c's .probe_new()
+005510404c37c458b801620f5072e282f4b70d75 iio: adc: ad799x: Convert to i2c's .probe_new()
+a175a58d2f77186fce12cba51cb5a44a9e2d8ba9 iio: adc: ina2xx-adc: Convert to i2c's .probe_new()
+8d662dbbffef4d41c75b642739b70a5e19ebc34a iio: adc: ltc2471: Convert to i2c's .probe_new()
+29763cbfae30b1b07d26c5569329058424203dda iio: adc: ltc2485: Convert to i2c's .probe_new()
+2495a941bc8fd8e052a5d5f10118dc4bb4582472 iio: adc: ltc2497: Convert to i2c's .probe_new()
+1996b5829f514fb3046ec41031400f897892b634 iio: adc: max1363: Convert to i2c's .probe_new()
+0cc0b54b3d524ca80ebd46eade0a819a282c2520 iio: adc: max9611: Convert to i2c's .probe_new()
+ccb27d8287bcdaf5b815a20867224a7b0a37597c iio: adc: mcp3422: Convert to i2c's .probe_new()
+67c136ae484ab4912f8ba4bd26399ff7b70d9e85 iio: adc: ti-adc081c: Convert to i2c's .probe_new()
+d2aaf0514bcae97c581ea48b02a524ffa89aaaad iio: adc: ti-ads1015: Convert to i2c's .probe_new()
+9271ddf36f619752af6ddf1636fa35bd3876c1ee iio: cdc: ad7150: Convert to i2c's .probe_new()
+7cf13b4e88aa68b31df4bb84117b26b9f15c4141 iio: cdc: ad7746: Convert to i2c's .probe_new()
+6f535d7a89c60467dabe2aa88105a5f39cac0e58 iio: chemical: ams-iaq-core: Convert to i2c's .probe_new()
+c624336f72760dffa501700549feb512b095cd9d iio: chemical: atlas-ezo-sensor: Convert to i2c's .probe_new()
+b177ea88e8b940817c4dd5ab5e4fd8f2215c85df iio: chemical: atlas-sensor: Convert to i2c's .probe_new()
+d70c22f58d2ebcfe1270c9bbf6913578cb1538c0 iio: chemical: bme680_i2c: Convert to i2c's .probe_new()
+44e3b776118916ffd70a10f8d7bc3b80696a5c1d iio: chemical: ccs811: Convert to i2c's .probe_new()
+9b59ca39ae8e7f740eb3e2cf0d699a7fc5bd9ccf iio: chemical: scd4x: Convert to i2c's .probe_new()
+4ff1cf466bd4666e79a3c2f9babadc814bb57e89 iio: chemical: sgp30: Convert to i2c's .probe_new()
+1281daf8eb01bc06c7f7ecc8e25b35910aecaab0 iio: chemical: sgp40: Convert to i2c's .probe_new()
+59054eea0657e895374b3a6652640f35caccc2af iio: chemical: vz89x: Convert to i2c's .probe_new()
+54779938b07ffe07ed8a5133386c3838ab8a526b iio: dac: ad5064: Convert to i2c's .probe_new()
+9fb82be4af2eaf9999c1306ac86297d8a6bb943d iio: dac: ad5380: Convert to i2c's .probe_new()
+cbe59facdeafa297639830fc300687634bc0c3a3 iio: dac: ad5446: Convert to i2c's .probe_new()
+36800a21ce4359f5df02e3b87f8cfce235269c6c iio: dac: ad5593r: Convert to i2c's .probe_new()
+8b554bb930530491b790b787268519b5873429cd iio: dac: ad5696-i2c: Convert to i2c's .probe_new()
+d679fdbfdc25a6157a267d16c3c102cee790d2d8 iio: dac: ds4424: Convert to i2c's .probe_new()
+4312ca2231ed0bf8a532095246489b23079e4c94 iio: dac: m62332: Convert to i2c's .probe_new()
+44f31dc53c3bfeac574b90e2876c7d0e5f0c3928 iio: dac: max517: Convert to i2c's .probe_new()
+6061da7b10165a99daddf6d7554d4e450c0a7583 iio: dac: max5821: Convert to i2c's .probe_new()
+b3c74271c63ddb540e7ec0e603cf911e059ef25c iio: dac: mcp4725: Convert to i2c's .probe_new()
+ac2f6455d0fd1153ef1883bb187e58a285f78eaa iio: dac: ti-dac5571: Convert to i2c's .probe_new()
+ffcb642cf5aa8d37b55b73cfe776d90391b5a74e iio: gyro: bmg160_i2c: Convert to i2c's .probe_new()
+145ea83c3a323df1b76acb4710bce056f0dffbfa iio: gyro: itg3200_core: Convert to i2c's .probe_new()
+bfa99cf2d995635dce1e142fd1b0046827dd3d4d iio: gyro: mpu3050-i2c: Convert to i2c's .probe_new()
+cdf0cea04e0de251e7036baebead7180906af7fc iio: gyro: st_gyro_i2c: Convert to i2c's .probe_new()
+0cb11a1227e1bb58d944d5c6f2142c03804c186f iio: health: afe4404: Convert to i2c's .probe_new()
+7265df6bf2dc2f23f39ced9c8fa8c7414bdf4b77 iio: health: max30100: Convert to i2c's .probe_new()
+d73ea08c083532d60c48061ed3f3af07c331f4d1 iio: health: max30102: Convert to i2c's .probe_new()
+7f834f17db347657d59625cc1f630c1a2ec80d14 iio: humidity: am2315: Convert to i2c's .probe_new()
+604493da94376731a6dd2c021f7856bae8010446 iio: humidity: hdc100x: Convert to i2c's .probe_new()
+b7bdc276432ee51ef157a5448c915223fc194a5a iio: humidity: hdc2010: Convert to i2c's .probe_new()
+adefe33ce3f1a8ecbc47334850e8f29ca8cfeb46 iio: humidity: hts221_i2c: Convert to i2c's .probe_new()
+f855fd722666528090da08cecff7c668a2bd0c2c iio: humidity: htu21: Convert to i2c's .probe_new()
+1341571be05681e3c10a9b2a98befa5dee1cbeb4 iio: humidity: si7005: Convert to i2c's .probe_new()
+88d107aab8e40953c89b8997cb6e7dd7160959ad iio: humidity: si7020: Convert to i2c's .probe_new()
+10baf54beb57daade08d48250fd3cd7df79e3f8f iio: imu: bmi160/bmi160_i2c: Convert to i2c's .probe_new()
+1d6528dfa67a48c3cdf28c30e717bb12cce47a6b iio: imu: fxos8700_i2c: Convert to i2c's .probe_new()
+2e2c8bf5e53d31c8706b973a029f3cf9eb734253 iio: imu: inv_mpu6050: Convert to i2c's .probe_new()
+3ec59a078e9784a5e90868783a49c7fd419f73b4 iio: imu: kmx61: Convert to i2c's .probe_new()
+bbb70c7a60e69b0ffe13e7cef3d1392d18b16446 iio: imu: st_lsm6dsx: Convert to i2c's .probe_new()
+98a3c1d9f33fb3aca8e3d865ce1eb2b501e7741e iio: light: adjd_s311: Convert to i2c's .probe_new()
+3596505f8c2862f53cdc8c84398ee469ba0c5e42 iio: light: adux1020: Convert to i2c's .probe_new()
+df8468d729a10b3f21ee2363a8c564db5c65b316 iio: light: al3010: Convert to i2c's .probe_new()
+89611524ccb86c68375d3173a0066d1692799e96 iio: light: al3320a: Convert to i2c's .probe_new()
+8e4eea696b7826d9e7118353fe76a79bf57f73c9 iio: light: apds9300: Convert to i2c's .probe_new()
+09b50fc9e18d551e005fc73a70cac1f36ff376a6 iio: light: apds9960: Convert to i2c's .probe_new()
+b3bc4aa25d06a4d63654d596c04ee81dde35a05b iio: light: bh1750: Convert to i2c's .probe_new()
+9fabae978d90bbe7b7ca12a420002b8869312fc3 iio: light: bh1780: Convert to i2c's .probe_new()
+42701b06cf49833f9f390e761654a72163b10dc5 iio: light: cm3232: Convert to i2c's .probe_new()
+e9131e04fafbd673d37e74b30cc07e45017708dc iio: light: cm3323: Convert to i2c's .probe_new()
+e948d9d6cdffc7c687b2954664f51c8831bca107 iio: light: cm36651: Convert to i2c's .probe_new()
+51a21c10a1fab131562817e3c0c563de9fbaa941 iio: light: gp2ap002: Convert to i2c's .probe_new()
+359e2220140cfea4d1b8fef64ebe873afefb1030 iio: light: gp2ap020a00f: Convert to i2c's .probe_new()
+abe41e03a26664f80c98075f4b7bccee6afee807 iio: light: isl29018: Convert to i2c's .probe_new()
+f1efb183e6ebe0e118f278ba78380b78168bf327 iio: light: isl29028: Convert to i2c's .probe_new()
+9c125a60d5a0ad478d325f570b275809d3e63b7f iio: light: isl29125: Convert to i2c's .probe_new()
+fedce7107d5323e868b31d1f569cba043ea8cf96 iio: light: jsa1212: Convert to i2c's .probe_new()
+a64319713bfbee7e2b0e4d3b593b204f4e45f7bf iio: light: ltr501: Convert to i2c's .probe_new()
+4e79c22906c957d1fb045369977dc605ea18342f iio: light: lv0104cs: Convert to i2c's .probe_new()
+c43fe609e3b81c7bd09e1e32fce52a36dc57d87c iio: light: max44000: Convert to i2c's .probe_new()
+a5b0fea5534017a3b74a6466822462d2a6e35c32 iio: light: noa1305: Convert to i2c's .probe_new()
+d585645d1c53e6d50fb96c4c6af7c977329c7836 iio: light: opt3001: Convert to i2c's .probe_new()
+3767787f81d2870d076315cc7b5bf257b665e76e iio: light: pa12203001: Convert to i2c's .probe_new()
+6487442663244de3d04c6e4e5fb9d5a4f8689f61 iio: light: rpr0521: Convert to i2c's .probe_new()
+413ebbc281cd6a178ea7389708d6072dab4fef64 iio: light: si1133: Convert to i2c's .probe_new()
+33a5a182c9aef3137d3818d001cc620a18492dc8 iio: light: si1145: Convert to i2c's .probe_new()
+b846f5ef1e1813ac7c912b3ef70d0375fd942c81 iio: light: st_uvis25_i2c: Convert to i2c's .probe_new()
+dc619d2c511f79b2af0b4d76ddf8afb35543b357 iio: light: stk3310: Convert to i2c's .probe_new()
+e7946c51dea869c5efccfd4c309a457955250007 iio: light: tcs3414: Convert to i2c's .probe_new()
+3cb395ba23a155b26c51e837601a11144e58b9c5 iio: light: tcs3472: Convert to i2c's .probe_new()
+13dcdc65b360ac34913a1a11262e7df049c03d11 iio: light: tsl2563: Convert to i2c's .probe_new()
+c49ca60f62b8bcbd9ad3a5b68b170946c96d8d32 iio: light: tsl2583: Convert to i2c's .probe_new()
+f7b063d84304e1c9db4167422ea0c325cf37ddc7 iio: light: tsl2772: Convert to i2c's .probe_new()
+64292611154d56e55633521ff63e3c204d4cf57e iio: light: tsl4531: Convert to i2c's .probe_new()
+c2e6e80cb6fa01e7e20ad110aed6f75acc350af8 iio: light: us5182d: Convert to i2c's .probe_new()
+3501af5d7c71510c7516f9cbc279b1053f6e5ded iio: light: vcnl4000: Convert to i2c's .probe_new()
+f5f02f1fd692c5213f28c75e0a8ef93e6be27652 iio: light: vcnl4035: Convert to i2c's .probe_new()
+a8a08857df8ac187cda6179c5327da92b7c4bcea iio: light: veml6030: Convert to i2c's .probe_new()
+b225e771ee34aaa5cf2af6ce0a6445c9bba15487 iio: light: veml6070: Convert to i2c's .probe_new()
+6d16ab36a1635126bf00d2ef8a002258a9f7d75c iio: light: zopt2201: Convert to i2c's .probe_new()
+799d3b993386436acee549069b10bd6ba0acdaec iio: magnetometer: ak8974: Convert to i2c's .probe_new()
+716cb9a1fa28985f6fc07cad333ea7ada1b683f3 iio: magnetometer: ak8975: Convert to i2c's .probe_new()
+a60078e63057ae0d3d0c329251499551ebd3b9e3 iio: magnetometer: bmc150_magn_i2c: Convert to i2c's .probe_new()
+eca56c24dd948f7d38394a614830f31cceaee62a iio: magnetometer: hmc5843: Convert to i2c's .probe_new()
+1030cc190eaa6c3fe794c7a6f6bd8041f616ac34 iio: magnetometer: mag3110: Convert to i2c's .probe_new()
+92db563dcb1511066ccddcdadbec08d6fe55105e iio: magnetometer: mmc35240: Convert to i2c's .probe_new()
+0db1abc95edcec88117b876e7b7f69360cfaaaaf iio: magnetometer: yamaha-yas530: Convert to i2c's .probe_new()
+14703f9be86c1f78cdb21eb219fd013bf737c112 iio: potentiometer: ad5272: Convert to i2c's .probe_new()
+fe17c2d9c6ca6a2fc4d712c902d08f18c70b3663 iio: potentiometer: ds1803: Convert to i2c's .probe_new()
+39cc6791565d7e062228705e1c90ef21ad49f1fb iio: potentiometer: max5432: Convert to i2c's .probe_new()
+e0c17a91ba5c6f6ac29ea59aebfbb8b590a7b898 iio: potentiometer: tpl0102: Convert to i2c's .probe_new()
+afbb1b9e61aa39368f595d44af49b152139c0f77 iio: potentiostat: lmp91000: Convert to i2c's .probe_new()
+06a07e5b37c7730bc1f5b7ff6cbf8f07b714c43e iio: pressure: abp060mg: Convert to i2c's .probe_new()
+f979a7083741f098c8aee667414826ff42d882ee iio: pressure: dlhl60d: Convert to i2c's .probe_new()
+c661d58cae80627502fd6f4987b1ef3d1a303092 iio: pressure: dps310: Convert to i2c's .probe_new()
+c253c97e7b76f0e1c53a6a8629fe06e18898938c iio: pressure: hp03: Convert to i2c's .probe_new()
+c6cf3cb2a8e3f1b0d6b6246de4bf882b2367c23a iio: pressure: hp206c: Convert to i2c's .probe_new()
+960fd529d5fa2c3efe37211c36e8cb11d3eeabf4 iio: pressure: icp10100: Convert to i2c's .probe_new()
+3ea9f261754989faca4a1faf64db61b0e3be0639 iio: pressure: mpl115_i2c: Convert to i2c's .probe_new()
+c784dce5caaf270fc642b256e947470862fd72ca iio: pressure: mpl3115: Convert to i2c's .probe_new()
+28503ba3a0aa4af1f9da0217e6e6b420d049ebdb iio: pressure: ms5611_i2c: Convert to i2c's .probe_new()
+a581dc3c106d1b07f5d064cae9aa08675f191fcf iio: pressure: ms5637: Convert to i2c's .probe_new()
+ddda786965d34130aaf873d429f1e1026e35dd9f iio: pressure: st_pressure_i2c: Convert to i2c's .probe_new()
+cf518956d46c31cf5e9cf9914de6970e3c012ce4 iio: pressure: t5403: Convert to i2c's .probe_new()
+e84d0b8d4a42723904aef0e4eeed0ae3f6923b3a iio: pressure: zpa2326_i2c: Convert to i2c's .probe_new()
+055e32f57b4036a1b0945e7dbdda818b4b80fb41 iio: proximity: isl29501: Convert to i2c's .probe_new()
+cafe72c5a8a77995ce7713d19e622d526852f659 iio: proximity: mb1232: Convert to i2c's .probe_new()
+53416868aa9fe8929b9036b83f595be17a3e833a iio: proximity: pulsedlight-lidar-lite-v2: Convert to i2c's .probe_new()
+d1f3055387120b98e2e6e66033bbbefbbfbecc9f iio: proximity: rfd77402: Convert to i2c's .probe_new()
+20a28a5e6be608f012e0ce84ad522413e6333e29 iio: proximity: srf08: Convert to i2c's .probe_new()
+0661f6fe1bc7716969e27577cdee8f9a2db832af iio: proximity: sx9500: Convert to i2c's .probe_new()
+b814dbddc0491da22c776904919cd2746ba98426 iio: temperature: mlx90614: Convert to i2c's .probe_new()
+cd05412eec01e56586d39791b91057bfa3d0006c iio: temperature: mlx90632: Convert to i2c's .probe_new()
+76cdc8412e2167279d4854a6b30d23bb9575daa1 iio: temperature: tmp006: Convert to i2c's .probe_new()
+da7584c009defe990278be0fc62cd64e3bdea950 iio: temperature: tmp007: Convert to i2c's .probe_new()
+97baa9b4f97c265c9986f0a7ea99afd553824f2b iio: temperature: tsys01: Convert to i2c's .probe_new()
+0432e6910e116f294ed4d60e3d881641bc12e5c2 iio: temperature: tsys02d: Convert to i2c's .probe_new()
+9b763a3b9b27edafebacfee534bc5e1526eb4c0b staging: iio: adt7316: Convert to i2c's .probe_new()
+acd223bc183e46692cba2f3036aaf29fa3b596cd staging: iio: ad5933: Convert to i2c's .probe_new()
+2cbc91d5cc31bfcbcf6e861dc55edcceed8aab3e staging: iio: ade7854: Convert to i2c's .probe_new()
+
+--===============5447690870966669232==--
