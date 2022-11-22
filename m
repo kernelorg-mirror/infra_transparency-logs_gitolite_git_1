@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8369080638764636267=="
+Content-Type: multipart/mixed; boundary="===============2156128521180684139=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Tue, 22 Nov 2022 16:30:39 -0000
-Message-Id: <166913463946.29001.3429464037242758522@gitolite.kernel.org>
+Date: Tue, 22 Nov 2022 16:31:49 -0000
+Message-Id: <166913470914.29488.6413921133227644451@gitolite.kernel.org>
 
---===============8369080638764636267==
+--===============2156128521180684139==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,41 +17,41 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-testing
-    old: 53a256ea9596ec78a9f5dd51f2b49c2355b15d6e
-    new: 3205054dc6fe2425ff24827a51fdf7cbbb528680
+    old: 3205054dc6fe2425ff24827a51fdf7cbbb528680
+    new: afdc12887f2b2ecf20d065a7d81ad29824155083
     log: |
-         ffbe2feac59b37c8dc536727552b4f375e1b9aec usb: musb: omap2430: Fix probe regression for missing resources
-         3205054dc6fe2425ff24827a51fdf7cbbb528680 usb: dwc3: improve the config dependency of USB_DWC3_XILINX
+         581c848b610dbf3fe1ed4d85fd53d0743c61faba extcon: usbc-tusb320: Update state on probe even if no IRQ pending
+         afdc12887f2b2ecf20d065a7d81ad29824155083 USB: gadget: Fix use-after-free during usb config switch
          
 
---===============8369080638764636267==
+--===============2156128521180684139==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1669134636 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1669134706 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1669134635-8b0b5a7fc5ec4bc52edfd7b7adcfe0bcebe03641
+nonce 1669134705-7d2b00e4633ba5a86a94cf813baf53177a3bfe14
 
-53a256ea9596ec78a9f5dd51f2b49c2355b15d6e 3205054dc6fe2425ff24827a51fdf7cbbb528680 refs/heads/usb-testing
+3205054dc6fe2425ff24827a51fdf7cbbb528680 afdc12887f2b2ecf20d065a7d81ad29824155083 refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmN8+SwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+55QP/jRMMBVAfjamR7YVYJEu
-knc5Ohjo5EOlRQ69iNjhyKlN4owEkQjd7ekx9zCxkZV0ClQybbM5m5mtBfSpW2WZ
-uy7I2Zxf0bSUZVQTuij/SRPbsUFmD76OYY6lV9Ts+w+SaMv0XtjEn42ZzSFaUC+S
-fE87zrWFv5lFmIjz5jU46ZfouNYlj1YIdoy4OLssD/9Wm3Uxnfv1PTtealV7df3/
-pBuCa/OmyFG69ij4rXkvIbpghCN+IKzC8VZRlZNc7Vp9CmZD1VFiHE3BHlLbOHKB
-kcMZCk67HICvdtHFE1QyiXD7dvK1HCrC6NuJir+7nlYFPjfxoaIxmyO6Qf2bDDIS
-FoB4NDj0hqgoCFJHiLGLjbtcE9puhNr9R3Vin4CcsB3ovlPZ7xVjcbHc3gz35MTp
-EFcZG4Xoza1Ie2/0PzE0rKG4kHzjjuWB+CxvggfXzyFlifS5stxcHvyWTPuyqDEg
-+GleX/uLuUssLnMXtS2SN/UOVE0FS+GfV66kyjW0s4Zth3Lidn4mijlzG4zq4VaS
-G0eoZoh4VaROqEpsk/mOhIUTEBKTAhBWwTdDjsBcIes3ecaX+EZiosAlV1I2mVmP
-jVqWBb8oRrugYOUspfSq+AjAaxpWJUZWOsmZH+wh5FeQYthP/EtEJngBrRb7BADT
-1MlhnaY9TOiylknfcrtdM1Fw
-=7c7C
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmN8+XIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+1/gP/RJrsgsxpLzHpysZzDDy
+wJvvlrHkd8ti5Sm3ndGMkuro1wIXyUqBir8hWxUNHaiGk78gBhbT0gSihhC5h4ks
+DRtaiCDCxcMFUf77R3b+Bo4kA5UcahOd7R7VGUAYAUgYOrJS4xrzaRtgufLSFBiz
+lB/MeIL06atWoHlUqaaueqc3Mm4pho9pdl1XOcaWmzQkYGI/XsSKDFr+rJtKSXp1
+368so8CUtbOcrCVM1g5k/xlTELOt6I2q80tWsW5UbwJ47RmB6KlyySZPqiCUS2az
+2c+i7+i2rJqAfAjmuCeUGrdhjL1W4dA07XLWb+WZpygx2wkzwTz4LcvMEIl8US+v
+GDYj1MhR+5dpeQ0syg2zXc3lHUCcV7lQlJPxjlhsLh+x8pj+GFl7eI31c4ZENt4P
+L4d/VvhIFjNOkmd8gyCr3tUX2mvFBYiwVD9yunq+fJOylGwFVSK9QYmriAK/wF0F
+VdQD5hq8CnWbQVHNzob3enpfneFBRMj5EG4SnLcBIaOGF4UMIJ5lqx1eJocxNmc5
+YD7saZPqBu+uPTyzboy/7ammON/eFOmHkYXNotrJ16NaluNhrGDvvh1/CKGh66hl
+xWDpKp7IsZ5URXyC5NveTdWvW0Vaihc92mP00jTflf4LwsUWjdnClDlBnJ1pqH0h
+/yvfN8aADBrRxVaRwbR5G3Wh
+=UhqO
 -----END PGP SIGNATURE-----
 
---===============8369080638764636267==--
+--===============2156128521180684139==--
