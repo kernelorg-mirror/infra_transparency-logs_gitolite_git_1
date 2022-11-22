@@ -1,23 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/joel/bmc
-Date: Tue, 22 Nov 2022 01:41:52 -0000
-Message-Id: <166908131229.28532.14876755688432279343@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/perfbook
+Date: Tue, 22 Nov 2022 01:48:03 -0000
+Message-Id: <166908168398.32325.9482450769078558045@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/joel/bmc
-user: joel
+repo: pub/scm/linux/kernel/git/paulmck/perfbook
+user: paulmck
 changes:
-  - ref: refs/heads/nuvoton-dt-for-v6.2
-    old: ea3ce4cf076ba11bb591c8013c5315136cae52c8
-    new: 88cfe56ea64a4cc1038c18b9dd416d817d1c8ae5
+  - ref: refs/heads/master
+    old: 64b2aa8513e974cfd9f53f744650617f1b9d66f4
+    new: 307f081ac2bda2452ccc39985f127c5fef5b9866
     log: |
-         38abcb0d68767ac64e5650cbf7daafb428002590 ARM: dts: wpcm450: Add FIU SPI controller node
-         4b90b148e0e2cc3b5df1e0dd7bb8008463c7eeac ARM: dts: wpcm450-supermicro-x9sci-ln4f: Add SPI flash
-         362e8be2ec04a6aa04db7d2984b8558815a6b956 ARM: dts: wpcm450: Add clock controller node
-         c3a636be6b8d65aadd5d1ac3aed51c7704206a85 ARM: dts: wpcm450: Enable watchdog by default
-         88cfe56ea64a4cc1038c18b9dd416d817d1c8ae5 ARM: dts: nuvoton: wpcm450: Add missing aliases for serial0/serial1
+         4f7fdf05b92aec55824efdd41981d95527c06f92 advsync/rt: Ask the dinosaurs about bigger hammers
+         307f081ac2bda2452ccc39985f127c5fef5b9866 Replace "egrep" with "grep -E" in scripts
          
