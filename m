@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/wireless/iwd
-Date: Tue, 22 Nov 2022 17:33:27 -0000
-Message-Id: <166913840749.9177.13331336343381022718@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Tue, 22 Nov 2022 17:51:13 -0000
+Message-Id: <166913947302.21415.2829967161558837733@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/wireless/iwd
-user: denkenz
+repo: pub/scm/linux/kernel/git/tip/tip
+user: bp
 changes:
   - ref: refs/heads/master
-    old: 2600d3938eb80b1e857ba957431a018242e2abae
-    new: 78efd602977af45c3afdaa8face046b649842b37
+    old: e4e73f4cb1e10b3142265b0a3a80a2a9f4b74c70
+    new: 9498fca7fa5c837abb1e2cf93d44ac916c6411b6
     log: |
-         3e8868c8b9d95bbc10fad015d8685be4493c9e3d gitignore: add compile_commands.json
-         13eb9c57d8120b80d5c3c3b71a13fcd5508a7672 gitignore: add .ccls-cache
-         78efd602977af45c3afdaa8face046b649842b37 client: fix non-interactive mode in some cases
+         55228db2697c09abddcb9487c3d9fa5854a932cd x86/fpu: Use _Alignof to avoid undefined behavior in TYPE_ALIGN
+         9498fca7fa5c837abb1e2cf93d44ac916c6411b6 Merge x86/fpu into tip/master
          
