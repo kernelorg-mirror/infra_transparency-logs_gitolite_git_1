@@ -1,53 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============8018285537793867479=="
+Content-Type: multipart/mixed; boundary="===============6664016255867036513=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Tue, 22 Nov 2022 14:47:48 -0000
-Message-Id: <166912846836.15530.15241906261170440823@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regmap
+Date: Tue, 22 Nov 2022 14:47:54 -0000
+Message-Id: <166912847444.15640.3892806664140522401@gitolite.kernel.org>
 
---===============8018285537793867479==
+--===============6664016255867036513==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/regmap
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.2
-    old: c7eb967d70446971413061effca3226578cb4dab
-    new: e5d4d2b23aed20a7815d1b500dbcd50af1da0023
+  - ref: refs/heads/for-6.2
+    old: 9abf2313adc1ca1b6180c508c25f22f9395cc780
+    new: a6d99022e56e8c1ddc4c75895ed9e3ce5da88453
     log: |
-         a9248c868c39440369c614598b2465d1a1b1cf62 ASoC: Intel: sof_sdw: Add support for SKU 0C4F product
-         fa0fb0738e9c412d3c4a9fe655948ac9a87c6274 ASoC: nau8825: Adjust internal clock during jack detection
-         7a37265046618b890adf7d7a1f9f1f5fbae908a7 ASoC: nau8825: Add a manually mechanism for detection failure
-         e5d4d2b23aed20a7815d1b500dbcd50af1da0023 ASoC: Intel: Skylake: Fix Kconfig dependency
+         a6d99022e56e8c1ddc4c75895ed9e3ce5da88453 regmap: add regmap_might_sleep()
          
 
---===============8018285537793867479==
+--===============6664016255867036513==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1669128466 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1669128465-58ad2d43de0a3b9887ca08d6b21552566f96df91
+pusher C3F436CA30F5D8EB 1669128473 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regmap.git
+nonce 1669128472-febff89969599c4b765060f090d9ee3d021d7e34
 
-c7eb967d70446971413061effca3226578cb4dab e5d4d2b23aed20a7815d1b500dbcd50af1da0023 refs/heads/asoc-6.2
+9abf2313adc1ca1b6180c508c25f22f9395cc780 a6d99022e56e8c1ddc4c75895ed9e3ce5da88453 refs/heads/for-6.2
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmN84RIACgkQJNaLcl1U
-h9AOngf+M8cIVnSAwm46OzW/MvMdonpeySfW94NhtAHU0RHykLnFnzmu1jXvCHfA
-52hWuJ2z0+ejznyOGtIMN9PAPqr6woSLsUrZvBVDXGMSF/V825FLXtPwI5nhY02X
-23C5w7bWr/fBMYAgdJLLFkYfMqczchVH7LAFv3XZxeyAkjrkK3s9yDRf80LKQIyg
-beRKP8u8zKKWtCOu3AocUOKDurHYYPuLii3vbl5ySjsAIUiMvJaFG2RKlNFAobRp
-3gG57lkvx2gz+Cq9QDEwo2ipkJtkFuSs+/1YhDy29MA5CRbBxcVugQX/VYR//wia
-V0rAUk6rUUj6C1nYa8dR+JFUt/eNQA==
-=QL2N
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmN84RkACgkQJNaLcl1U
+h9CBoAf/b2o6U7+jIA539mG3FWLTpTzT+w2unTHU0ASX303m6ragIm3EAnRvIjBJ
+5t1uF/x2RDUF7qoOukNIWtt/f6c5JJmtmsezicyEELM/I4wMf145yO3tMnQV7vIL
+BH0KdhF3sc5nVivJ8eVrhdjyDH4L1Y/fq7YC9YpKQaGmj/KTYIAlnltZNXw/8b04
+xXTW+9KVkHT3jVAUgon6bJuZ+2WX45fXik+rKH/sjXNMXnDCxq6wcQX9WOEjtU9c
+0rKauVCKslgHQLxuIuyVhSBD15Uw9LJ5h7j0xvi8D//SlAIEkrb+zdjUk6uAlFJg
+CDpVyWjzvpIu9jtRsSsplyYz5gSshQ==
+=Oqvj
 -----END PGP SIGNATURE-----
 
---===============8018285537793867479==--
+--===============6664016255867036513==--
