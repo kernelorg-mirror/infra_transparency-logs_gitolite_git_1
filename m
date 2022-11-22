@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Tue, 22 Nov 2022 23:23:52 -0000
-Message-Id: <166915943270.31212.10067239382291109561@gitolite.kernel.org>
+Date: Tue, 22 Nov 2022 23:44:47 -0000
+Message-Id: <166916068773.13439.5500842039191641247@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/robh/linux
 user: robh
 changes:
-  - ref: refs/heads/dt/linus
-    old: 917c362b5f8a6e31ff35719b1bacfc1b76a1fd2f
-    new: 60d865bd5a9b15a3961eb1c08bd4155682a3c81e
+  - ref: refs/heads/for-next
+    old: 5f431a92028bffec09b4a7554eaf6d12badae162
+    new: 37d25a94c86247cf294da70a13768d26428e8b96
     log: |
-         60d865bd5a9b15a3961eb1c08bd4155682a3c81e of: property: decrement node refcount in of_fwnode_get_reference_args()
+         37d25a94c86247cf294da70a13768d26428e8b96 of: unittest: Convert to i2c's .probe_new()
          
