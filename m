@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jfern/linux
-Date: Tue, 22 Nov 2022 01:28:17 -0000
-Message-Id: <166908049766.18961.17536551857520792121@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Tue, 22 Nov 2022 01:39:02 -0000
+Message-Id: <166908114252.25895.3297540667749140256@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jfern/linux
-user: jfern
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: jgg
 changes:
-  - ref: refs/heads/sched/pe/balancefix.wip.11212022
-    old: 0000000000000000000000000000000000000000
-    new: 864f30d37472768b17b826bb14f0a2afa55e5042
+  - ref: refs/heads/wip/jgg-for-next
+    old: 0c5e259b06a8efc69f929ad777ea49281bb58e37
+    new: 2a402120a8d413238999a67ebff5b7dca0e5d14c
+    log: |
+         2a402120a8d413238999a67ebff5b7dca0e5d14c IB/isert: use the ISCSI_LOGIN_CURRENT_STAGE macro
+         
