@@ -1,16 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Tue, 22 Nov 2022 13:03:23 -0000
-Message-Id: <166912220336.5788.14849588635197080180@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
+Date: Tue, 22 Nov 2022 13:06:27 -0000
+Message-Id: <166912238770.8450.10133689347088690016@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/maz/arm-platforms
+user: maz
 changes:
-  - ref: refs/heads/20221117_yung_chuan_liao_asoc_intel_add_dell_sku_0c11_support
-    old: 0000000000000000000000000000000000000000
-    new: 0050e3d3d43db6a60b96eb8cbd2b9bcb0cd5db17
+  - ref: refs/heads/kvm-arm64/parallel-faults
+    old: 1577cb5823cefdff4416f272a88143ee933d97f5
+    new: 5e806c5812e8012a83496cf96bdba266b3aec428
+    log: |
+         3a5154c723ba5ceb9ce374a7307e03263c03fd29 KVM: arm64: Take a pointer to walker data in kvm_dereference_pteref()
+         b7833bf202e3068abb77c642a0843f696e9c8d38 KVM: arm64: Don't acquire RCU read lock for exclusive table walks
+         5e806c5812e8012a83496cf96bdba266b3aec428 KVM: arm64: Reject shared table walks in the hyp code
+         
