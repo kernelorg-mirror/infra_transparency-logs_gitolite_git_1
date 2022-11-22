@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/libs/ell/ell
-Date: Tue, 22 Nov 2022 16:59:32 -0000
-Message-Id: <166913637295.16538.12785649909817850467@gitolite.kernel.org>
+Date: Tue, 22 Nov 2022 17:03:56 -0000
+Message-Id: <166913663671.19776.11736217520676381052@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/libs/ell/ell
 user: denkenz
 changes:
   - ref: refs/heads/master
-    old: 542577f1f36c172d768c41ac7c2d3f0ae16beff2
-    new: 9c5ef57fef4ac6077e3c10da3ae2648f7b28ee4b
+    old: 9c5ef57fef4ac6077e3c10da3ae2648f7b28ee4b
+    new: 9c59f961154bec0452adfa3b58bf79e731172b14
     log: |
-         9c5ef57fef4ac6077e3c10da3ae2648f7b28ee4b checksum: commonize checksum creation
+         9c59f961154bec0452adfa3b58bf79e731172b14 checksum: commonize checksum creation
          
