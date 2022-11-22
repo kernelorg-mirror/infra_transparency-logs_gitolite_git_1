@@ -1,22 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Tue, 22 Nov 2022 22:50:03 -0000
-Message-Id: <166915740313.8237.14646035009809298651@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Tue, 22 Nov 2022 22:52:55 -0000
+Message-Id: <166915757592.9794.11032411401119661083@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: ast
 changes:
-  - ref: refs/heads/io_uring-bundle
-    old: e301c781e0a1f4dc70007b35e8c3497e6e399c51
-    new: fff26e63e070e64e4b81ee3cdd93d90f516489e9
+  - ref: refs/heads/master
+    old: dc79f035b2062e4ff4f6432eda18f461f82b1333
+    new: 8a2162a9227dda936a21fe72014a9931a3853a7b
     log: |
-         99c42793c9ce90c06a5f8363a6f53efbd776dee7 io_uring: add support for bundles
-         8d19ec8c4ae6c1458af139e158c6676f4ee2f23a io_uring/bundle: enable deferred completions
-         b7b2d4ab4cc86dde37d3fbd30a0fe6f41d3ced0d io_uring/bundle: enable use of IOSQE_ASYNC for bundle requests
-         fff26e63e070e64e4b81ee3cdd93d90f516489e9 io_uring/bundle: disable IOSQE_IO_DRAIN on bundle requests
+         fda01efc61605af7c6fa03c4109f14d59c9228b7 bpf: Enable cgroups to be used as kptrs
+         f583ddf15e57746e60f3b68d529afc9faa2e2cb3 selftests/bpf: Add cgroup kfunc / kptr selftests
+         5ca7867078296cfa9c100f9a3b2d24be1e139825 bpf: Add bpf_cgroup_ancestor() kfunc
+         227a89cf504188759fd3d8933a3a06fc60cca7f2 selftests/bpf: Add selftests for bpf_cgroup_ancestor() kfunc
+         8a2162a9227dda936a21fe72014a9931a3853a7b Merge branch 'Support storing struct cgroup * objects as kptrs'
          
