@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2876145430707999173=="
+Content-Type: multipart/mixed; boundary="===============8073134509898072268=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/utils/b4/b4
-Date: Tue, 22 Nov 2022 21:02:24 -0000
-Message-Id: <166915094419.28021.2448731973601864995@gitolite.kernel.org>
+Date: Tue, 22 Nov 2022 21:03:33 -0000
+Message-Id: <166915101333.28501.1702598923013789186@gitolite.kernel.org>
 
---===============2876145430707999173==
+--===============8073134509898072268==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,32 +16,31 @@ repo: pub/scm/utils/b4/b4
 user: mricon
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: d16369f0f3e4c9cd8c30ceb54045de2149d38ab2
-    new: d416f2e37ef3164de0a14df4af5381e06553847c
+  - ref: refs/heads/stable-0.10.y
+    old: c4d564b99cc158921350cd1d193bb17972815f3e
+    new: 107184df60236f899414879155c4371624c69ff4
     log: |
-         6d3604b55eac93ed6432ca7df5d66f728b7e5a5e Update signature string
-         d416f2e37ef3164de0a14df4af5381e06553847c Don't convert to bytes for verification payload
+         107184df60236f899414879155c4371624c69ff4 Don't convert to bytes for verification payload
          
 
---===============2876145430707999173==
+--===============8073134509898072268==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher B6C41CE35664996C! 1669150943 -0500
+pusher B6C41CE35664996C! 1669151013 -0500
 pushee gitolite.kernel.org:pub/scm/utils/b4/b4
-nonce 1669150943-777e2757bbea18b78b346b93a74957881278f78e
+nonce 1669151013-733ae039973a112befa52816e6c5af1cbc308cb6
 
-d16369f0f3e4c9cd8c30ceb54045de2149d38ab2 d416f2e37ef3164de0a14df4af5381e06553847c refs/heads/master
+c4d564b99cc158921350cd1d193bb17972815f3e 107184df60236f899414879155c4371624c69ff4 refs/heads/stable-0.10.y
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCY3043wAKCRC2xBzjVmSZ
-bFLpAPwPnBAY9vVOcxMr3jU6EistE9HfWxeJ8Jc07YWtettMQAD/ThBMS7HTm5Lx
-GX4NUTSDUEDhRcZvh+5/Is4CSQ/7cg8=
-=J6F/
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCY305JQAKCRC2xBzjVmSZ
+bJ4cAP93K1yyn22vrVL8R9B69cm8NyPw57Xzf1qRqR3jV80xBQEAx9Zmkn+PSf30
+A+xNz53zkHP2RJ2HfoMb/1m2FIsWxAQ=
+=5CO2
 -----END PGP SIGNATURE-----
 
---===============2876145430707999173==--
+--===============8073134509898072268==--
