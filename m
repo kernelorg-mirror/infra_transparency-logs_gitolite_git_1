@@ -1,47 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============6112300761488986292=="
+Content-Type: multipart/mixed; boundary="===============4878422848242489055=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tglx/devel
-Date: Tue, 22 Nov 2022 17:12:25 -0000
-Message-Id: <166913714546.26172.12172549791074187014@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
+Date: Tue, 22 Nov 2022 17:18:19 -0000
+Message-Id: <166913749956.29846.9835262552060772866@gitolite.kernel.org>
 
---===============6112300761488986292==
+--===============4878422848242489055==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tglx/devel
-user: tglx
+repo: pub/scm/linux/kernel/git/gregkh/char-misc
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/timers
-    old: 9fbf27c3d9ba5ee373c43886a54ba933a610c848
-    new: 29c298cdf5b408e8e777bd01694430f6c712b161
-    log: revlist-9fbf27c3d9ba-29c298cdf5b4.txt
+  - ref: refs/heads/char-misc-linus
+    old: eb7081409f94a9a8608593d0fb63a1aa3d6f95d8
+    new: 552d6ba290497f6a2860b56b94dc6a25f9820440
+    log: |
+         dfd10332596ef11ceafd29c4e21b4117be423fc4 fpga: m10bmc-sec: Fix kconfig dependencies
+         552d6ba290497f6a2860b56b94dc6a25f9820440 Merge tag 'fpga-for-6.1-final' of git://git.kernel.org/pub/scm/linux/kernel/git/fpga/linux-fpga into work-linus
+         
 
---===============6112300761488986292==
+--===============4878422848242489055==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9fbf27c3d9ba-29c298cdf5b4.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-03acb3e43fee5baa25673fc67e3587c0dc5f24f0 Documentation: Remove bogus claim about del_timer_sync()
-eb297b16c9a7606d25592fed48bef70308da61ee ARM: spear: Do not use timer namespace for timer_shutdown() function
-deb15c3cb19460ceb6ba078865339d54cf0e9a8d clocksource/drivers/arm_arch_timer: Do not use timer namespace for timer_shutdown() function
-f49a1e32e943f235e7a42993b44fe74e240cbfec clocksource/drivers/sp804: Do not use timer namespace for timer_shutdown() function
-b7b699d3fe64418e4e8516b1d5672eb805c14df0 timers: Get rid of del_singleshot_timer_sync()
-8d98291ad2983a1d186a96a4e11be3b91492810f timers: Replace BUG_ON()s
-81914cc01058be78cd482eea0ade83ef78e5553b timers: Update kernel-doc for various functions
-08b4206109889f2383f3a50cd6ad3ee93dc7c3ae timers: Use del_timer_sync() even on UP
-84618075bda4f781003b48fb82b2096b6ef75e69 timers: Rename del_timer_sync() to timer_delete_sync()
-0401a2094604d50c2910ca447282caa5455ebfe7 timers: Rename del_timer() to timer_delete()
-131c7d61b5c99a29ae303b90e1f5f2eff5780f12 Documentation: Replace del_timer/del_timer_sync()
-52c1a58d67cfb735e54e682b97ff3de29df77b25 timers: Silently ignore timers with a NULL function
-6ad0e57cd6249e758fe69b5f6b2142600196168b timers: Split [try_to_]del_timer[_sync]() to prepare for shutdown mode
-8ddbb79c6813593e7754ead89d537068e98d112b timers: Add shutdown mechanism to the internal functions
-da74302969f36dcc400c0ac74e46fb0481512e76 timers: Provide timer_shutdown[_sync]()
-45ddee3dc89fa9696f2f685d967d14722bad656c timers: Update the documentation to reflect on the new timer_shutdown() API
-29c298cdf5b408e8e777bd01694430f6c712b161 Bluetooth: hci_qca: Fix the teardown problem for real
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1669137496 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
+nonce 1669137495-4830a588cfcfe31843e25766ca891352ed0e0945
 
---===============6112300761488986292==--
+eb7081409f94a9a8608593d0fb63a1aa3d6f95d8 552d6ba290497f6a2860b56b94dc6a25f9820440 refs/heads/char-misc-linus
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmN9BFgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+dzUQAMM4nAAVKQx963wuMDNw
+JuFpDkcDW5mR09pJvg889JFLDwpUyY699Uo0x9sCUebsnw7B2OhKgQXbpqT2B5+H
+5/eocHmGxHYfTeHeyvgLzIwfOSd1JLuvUt9aiALHk7wDRBmVZkV+hgU+ckw700pV
+5xYWelBfYy4J1HBPdjvAaC6xkTMbHWz9y2AaxsIvxfpHlQOouPVKf7NzrpvEuVoX
+5jcwtoYkHqq4CZuNkaJdnZNt0f52jXoaNVgkEw8pe2Pc9uQA0vMtC/gmKEP2Wmjw
+z6hKeX0Jo4g9l/5hXWyJN9WvjEFr55v+oa5Y77fICO5X59fXsFzXPORxy/qg0CHO
+n/TSccCQdp9am3PxO1FiYNTSOMBfD4SFDeXKmk0HqjodJkaJ8UFxvwKEQ/JTLul0
+56l1zj1tjB9tPx66ocNMboXJustD9eUi/Lor9ZFC/9/XIu2fcXd93NW/m8GU0TA+
+ySfvBfGMpGU3eGfy2ctpTYTbm2LWVi38Xp/9YAie6caw1THYj4NkCpKKNtle3yf5
+bYYrzpzUKXQLz1ZCH/xJdox925uqqmlWA2eHQ4RIEIPSu2Ylh3AWVz/ITJWtxVR/
+RVZsNCd4gwtTb5MlxBLXnb1yTQ+Bj+Bsd6B+s7NeWlAOAL5ohrCx+h3B+GC1NJZn
+uZoneJ4Y1jng1AuVUWC67X6Q
+=VeME
+-----END PGP SIGNATURE-----
+
+--===============4878422848242489055==--
