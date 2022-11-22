@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 22 Nov 2022 12:59:16 -0000
-Message-Id: <166912195637.2734.12237261753180673465@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Tue, 22 Nov 2022 13:03:23 -0000
+Message-Id: <166912220336.5788.14849588635197080180@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: pabeni
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/master
-    old: 6dcd6d0152200794a26b52ff762a110268551ba6
-    new: 837a3d66d698516ad2330e122eba9752ec3a48ed
-    log: |
-         837a3d66d698516ad2330e122eba9752ec3a48ed selftests: net: Add cross-compilation support for BPF programs
-         
+  - ref: refs/heads/20221117_yung_chuan_liao_asoc_intel_add_dell_sku_0c11_support
+    old: 0000000000000000000000000000000000000000
+    new: 0050e3d3d43db6a60b96eb8cbd2b9bcb0cd5db17
