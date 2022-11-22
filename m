@@ -1,55 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============2855609431405043964=="
+Content-Type: multipart/mixed; boundary="===============5091706511645993908=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Tue, 22 Nov 2022 15:28:11 -0000
-Message-Id: <166913089176.15185.9704408822802434588@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Tue, 22 Nov 2022 15:35:39 -0000
+Message-Id: <166913133932.20856.15736177749656916418@gitolite.kernel.org>
 
---===============2855609431405043964==
+--===============5091706511645993908==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: hansg
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-next
-    old: f32e02417614d3588a3954dab2a70320c43d1010
-    new: e32354bb8fe3394ab37faa86c11ff4e06e296f72
-    log: revlist-f32e02417614-e32354bb8fe3.txt
+  - ref: refs/heads/master
+    old: 251b8b6146359f830e6ce65d718a2d874b40ee7b
+    new: a2a2113ab0813917f298a60d42c87eb7e8cf977e
+    log: |
+         a2a2113ab0813917f298a60d42c87eb7e8cf977e 4.9-stable patches
+         
 
---===============2855609431405043964==
+--===============5091706511645993908==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f32e02417614-e32354bb8fe3.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-260ad3de718301ed8c22e28558e3a31c99f54cf6 platform/x86/amd: pmc: Add a workaround for an s0i3 issue on Cezanne
-284c01b72ac9cad03b972324a72782759ef980af platform/x86: intel/pmc: Replace all the reg_map with init functions
-03c58a1e949d16faa922dd0501db1f2585d66eb3 platform/x86: intel/pmc: Move variable declarations and definitions to header and core.c
-f23e21a345956e3bd234c6d5a3d29818604dfe74 platform/x86: intel/pmc: Relocate Sunrise Point PCH support
-d6cd0cc8d16dadf2a3c0ddc93e21cd1d13b02fbb platform/x86: intel/pmc: Relocate Cannon Lake Point PCH support
-fd2ed6dbc34979fbb2a745a259f2a3b201f64299 platform/x86: intel/pmc: Relocate Ice Lake PCH support
-92f530edd7c9557c225edd6db051e00b3ef9a2ac platform/x86: intel/pmc: Relocate Tiger Lake PCH support
-08876884b9eac0666a510ef4f7e7a7c2d377aae5 platform/x86: intel/pmc: Relocate Alder Lake PCH support
-c5ad454a12c6a6d08dd67c971a0b12adc9953304 platform/x86: intel/pmc/core: Add Meteor Lake support to pmc core driver
-4ea629155c29051dd1323ab9eded21c545b50c2c platform/x86/intel/sdsi: Add Intel On Demand text
-aa546b28163f0bd12e1129cd0fb05b89089485e9 platform/x86/intel/sdsi: Hide attributes if hardware doesn't support
-25612c0fb22d20142363765ab99b6f87ea3c45cf platform/x86/intel/sdsi: Support different GUIDs
-a96f1b9c48e56bc82a8cba11020ab29c28bfab51 platform/x86/intel/sdsi: Add meter certificate support
-3088258ea762eba3bc4e9377f8d49229d6ee094c tools/arch/x86: intel_sdsi: Add support for reading state certificates
-334599bccbf2ad638498e4576e29db77ebf09f04 tools/arch/x86: intel_sdsi: Add Intel On Demand text
-a8041a89b7a4ae13db28f02402996a0c6edffe25 tools/arch/x86: intel_sdsi: Read more On Demand registers
-429e789c67b8b5dc84ab5d5c83725f6e295a0adc tools/arch/x86: intel_sdsi: Add support for new GUID
-7fdc03a7370fb64d12d5e93359464f9f72af5adc tools/arch/x86: intel_sdsi: Add support for reading meter certificates
-289a59895e7a380cdc7fe2780d3073f4b9237020 platform/x86: ideapad-laptop: Refactor ideapad_sync_touchpad_state()
-f4dd8c44bb831ff885680bc77111fa39c193a93f platform/x86: ideapad-laptop: Do not send KEY_TOUCHPAD* events on probe / resume
-c69e7d843d2c34b80b8731a5dc57c34ea04a3edf platform/x86: ideapad-laptop: Only toggle ps2 aux port on/off on select models
-5829f8a897e4f030cd2d32a930eea8954ab5dcd3 platform/x86: ideapad-laptop: Send KEY_TOUCHPAD_TOGGLE on some models
-a10ba160d427e78ffa2ab15a86cacaec291fa58a platform/x86: ideapad-laptop: Stop writing VPCCMD_W_TOUCHPAD at probe time
-301e0d766d7018a579063f539837f0f1fa1b2948 platform/x86: ideapad-laptop: Make touchpad_ctrl_via_ec a module option
-e32354bb8fe3394ab37faa86c11ff4e06e296f72 platform/x86/intel/hid: Add module-params for 5 button array + SW_TABLET_MODE reporting
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1669131338 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1669131336-22610702b100c93afa4970fa20830d83eb544618
 
---===============2855609431405043964==--
+251b8b6146359f830e6ce65d718a2d874b40ee7b a2a2113ab0813917f298a60d42c87eb7e8cf977e refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmN87EobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+AJMP/0UIVyF7wTKnSlumeRe7
+QutShxgGwXu/ma1wYmeLEnARP4bG6ovc7sli6b5QKQ8fqg23/hslrQVEXtQlTtWD
+4s8TRPivfSWL+QOYLTixbnaouTAGhEs2/yYcu3U1xG+qtNMB8qAC1pys5Il1bScC
+e79yOhmzSuntS8KxTvMnUY2sb6x1X9Ak+0E3briRUgBojJUneQSQXYl3xYbiwtEk
+rYDqYrlyrVjKj0lcWdNBdt/xmiBxxdBE0Gbzl6SQAxKaeqrWCfMSsLrBPaCcmEuN
+FYzDAvScu9tdRYJb55EllPY3E2ochhAobhaUp+5YcjKuevSIBAMVmwgqYqDLBakE
+bzinOaVoGZK11VC/cmx9tqZ7dtxLHhYBx86lAkviPQu/vJg7QeQsbCsad4SXQCXr
+HOKIlckKkdb/psr0iXichbB1oOKCJeci3WXr7ay1i2PijlDEyPb6u4hjV5qmQpRH
+OhalPqSsgRY5SPQSrEeRufhoxciRZXBZ9pWW+KbKVKgVurcB3naVFbc4zZkdxC7A
+toli6bzEpyAnRo+i2p+oftyirek/sT/3oNrt9M9lpHPNe/ccGD5w64pV1Ax5Sg6M
+YJJETQRqfE0IztEj54bDxOfZhN5Ah99mynQTekv4yXNFGuGkf5A1jaawyYUgs7Bw
+07TMvEki9JjXDdBt+kZWEH5Y
+=iDPE
+-----END PGP SIGNATURE-----
+
+--===============5091706511645993908==--
