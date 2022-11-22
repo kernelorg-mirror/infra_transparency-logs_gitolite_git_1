@@ -1,16 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Tue, 22 Nov 2022 19:33:29 -0000
-Message-Id: <166914560929.29265.11255323677273629720@gitolite.kernel.org>
+Subject: post-receive: pub/scm/docs/man-pages/man-pages
+Date: Tue, 22 Nov 2022 19:34:03 -0000
+Message-Id: <166914564386.29550.2549547492272389922@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/docs/man-pages/man-pages
+user: alx
 changes:
-  - ref: refs/heads/v3_20221116_cezary_rojewski_asoc_intel_avs_dsp_recovery_and_resume_fixes
-    old: 0000000000000000000000000000000000000000
-    new: f3fbb553f98563f692e356aca87d656baba910a0
+  - ref: refs/heads/master
+    old: e5381b411d73dede34895c33b453620d01e596bb
+    new: bb108fd06fc3d2365e59c581a726d64d5cec4dc3
+    log: |
+         e2b3164c1912088e0fe7bab361a855b9eb4f6363 CONTRIBUTING: Move style guide to description
+         bb108fd06fc3d2365e59c581a726d64d5cec4dc3 CONTRIBUTING, MAINTAINER_NOTES: Remove MAINTAINER_NOTES
+         
