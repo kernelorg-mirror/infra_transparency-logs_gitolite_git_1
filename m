@@ -1,22 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 22 Nov 2022 14:40:44 -0000
-Message-Id: <166912804435.11224.11049202257941704209@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Tue, 22 Nov 2022 14:47:14 -0000
+Message-Id: <166912843453.15087.8939897246797624115@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: bp
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/master
-    old: d2fcebab8387ce9e7f6cd5a1ec98c2d9db7d53d8
-    new: e4e73f4cb1e10b3142265b0a3a80a2a9f4b74c70
-    log: |
-         4dbd6a3e90e03130973688fd79e19425f720d999 x86/ioremap: Fix page aligned size calculation in __ioremap_caller()
-         6ef39b554b3bebeaad984b2795195cb9efd51734 Merge x86/urgent into tip/master
-         be84d8ed3f04e9154a3a55e29a27dcd416f05b31 x86/alternative: Consistently patch SMP locks in vmlinux and modules
-         e4e73f4cb1e10b3142265b0a3a80a2a9f4b74c70 Merge x86/alternatives into tip/master
-         
+  - ref: refs/heads/20221120_andreas_regulator_twl6030_some_twl6032_fixes
+    old: 31a6297b89aabc81b274c093a308a7f5b55081a7
+    new: 0000000000000000000000000000000000000000
