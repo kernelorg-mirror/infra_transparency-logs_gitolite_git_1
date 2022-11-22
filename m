@@ -1,22 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Tue, 22 Nov 2022 19:50:02 -0000
-Message-Id: <166914660287.8937.3423028984020776545@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Tue, 22 Nov 2022 19:53:23 -0000
+Message-Id: <166914680322.10518.2638873076954082935@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: jgg
 changes:
-  - ref: refs/heads/io_uring-6.1
-    old: 2d2d911b056da7713490690bc380a86dbf505639
-    new: b4255aa5c6aa8f7e1a74627e7df008563be7938c
+  - ref: refs/heads/wip/jgg-for-next
+    old: 2a402120a8d413238999a67ebff5b7dca0e5d14c
+    new: cb6562c380832a930ffd1722ac9d479b454aed4e
     log: |
-         b4255aa5c6aa8f7e1a74627e7df008563be7938c io_uring/filetable: fix file reference underflow
+         9b51d072da1d27e1193e84708201c48e385ad912 RDMA/hfi: Decrease PCI device reference count in error path
+         9907526d25c4ad8a6e3006487a544140776ba005 RDMA/irdma: Initialize net_type before checking it
+         a115aa00b18f7b8982b8f458149632caf64a862a RDMA/hns: fix memory leak in hns_roce_alloc_mr()
+         cb6562c380832a930ffd1722ac9d479b454aed4e RDMA/rxe: Do not NULL deref on debugging failure path
          
-  - ref: refs/heads/io_uring-bundle
-    old: 0000000000000000000000000000000000000000
-    new: e301c781e0a1f4dc70007b35e8c3497e6e399c51
