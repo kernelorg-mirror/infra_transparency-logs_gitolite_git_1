@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5447690870966669232=="
+Content-Type: multipart/mixed; boundary="===============3074431461215268718=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Tue, 22 Nov 2022 18:45:58 -0000
-Message-Id: <166914275895.28168.8652653370738539173@gitolite.kernel.org>
+Date: Tue, 22 Nov 2022 18:46:26 -0000
+Message-Id: <166914278682.28419.17883045164149270268@gitolite.kernel.org>
 
---===============5447690870966669232==
+--===============3074431461215268718==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,21 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jic23/iio
 user: jic23
 changes:
-  - ref: refs/heads/togreg
-    old: 021882de1a48cffaa405aa8014bd1d48ca6d5c19
+  - ref: refs/heads/testing
+    old: 95050c283458cb67f9b72d3a643d05312f801ff8
     new: 2cbc91d5cc31bfcbcf6e861dc55edcceed8aab3e
-    log: revlist-021882de1a48-2cbc91d5cc31.txt
+    log: revlist-95050c283458-2cbc91d5cc31.txt
 
---===============5447690870966669232==
+--===============3074431461215268718==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-021882de1a48-2cbc91d5cc31.txt
+Content-Disposition: attachment; filename=revlist-95050c283458-2cbc91d5cc31.txt
 
+662233731d66cf41e7494e532e702849c8ce18f3 i2c: core: Introduce i2c_client_get_device_id helper function
+1adcc208048826635bcdabb03d0f40744fea512e iio: imu: st_lsm6dsx: fix LSM6DSV sensor description
+de31b9867002984ea8e92d5dc0180de9201defb2 Merge remote-tracking branch 'i2c/i2c/client_device_id_helper-immutable' into togreg
+021882de1a48cffaa405aa8014bd1d48ca6d5c19 iio: pressure: bmp280: convert to i2c's .probe_new()
 2a73c4dc54b474124a1a2e0c15bddc5563c6446c iio: accel: adxl372_i2c: Convert to i2c's .probe_new()
 f995139bdba0defe2486fef5e0db234530c80176 iio: accel: bma180: Convert to i2c's .probe_new()
 c429de86f58462f625a5d653a9bb6a815e57a328 iio: accel: bma400: Convert to i2c's .probe_new()
@@ -170,4 +174,4 @@ da7584c009defe990278be0fc62cd64e3bdea950 iio: temperature: tmp007: Convert to i2
 acd223bc183e46692cba2f3036aaf29fa3b596cd staging: iio: ad5933: Convert to i2c's .probe_new()
 2cbc91d5cc31bfcbcf6e861dc55edcceed8aab3e staging: iio: ade7854: Convert to i2c's .probe_new()
 
---===============5447690870966669232==--
+--===============3074431461215268718==--
