@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netfilter/nf
-Date: Tue, 22 Nov 2022 20:47:47 -0000
-Message-Id: <166915006750.16940.1774930368207864149@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
+Date: Tue, 22 Nov 2022 20:53:56 -0000
+Message-Id: <166915043632.20699.15363681084265477499@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netfilter/nf
-user: pablo
+repo: pub/scm/linux/kernel/git/qcom/linux
+user: andersson
 changes:
-  - ref: refs/heads/master
-    old: c7aa1a76d4a0a3c401025b60c401412bbb60f8c6
-    new: 6a66ce44a51bdfc47721f0c591137df2d4b21247
-    log: |
-         6a66ce44a51bdfc47721f0c591137df2d4b21247 netfilter: ipset: restore allowing 64 clashing elements in hash:net,iface
-         
+  - ref: refs/tags/qcom-dts-for-6.2
+    old: 0000000000000000000000000000000000000000
+    new: a61a5e0b609440ca90b48cdd02adc99f5131d356
