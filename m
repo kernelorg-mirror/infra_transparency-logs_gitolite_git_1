@@ -1,30 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/iwlwifi/iwlwifi-next
-Date: Tue, 22 Nov 2022 19:54:28 -0000
-Message-Id: <166914686892.11008.7907319386102877218@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-pinctrl
+Date: Tue, 22 Nov 2022 20:06:12 -0000
+Message-Id: <166914757285.21015.252602911438455729@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/iwlwifi/iwlwifi-next
-user: ggreenman
+repo: pub/scm/linux/kernel/git/linusw/linux-pinctrl
+user: linusw
 changes:
-  - ref: refs/heads/pending
-    old: 84b18b8b4f53568458d97a1320e55b1e486883bc
-    new: 1da816ab7ffc12198471c95d63b78596e0e953b6
+  - ref: refs/heads/fixes
+    old: 6934fcfc47faf5c1a3bc1bb2a73f13222eb1d753
+    new: 11780e37565db4dd064d3243ca68f755c13f65b4
     log: |
-         6bc00d85179449d74a15d4cbe726186e79fc0abe wifi: iwlwifi: mvm: Advertise EHT capabilities
-         964db911b7337b7772944ef659dff5ffa897c2cf wifi: iwlwifi: mvm: support 320 MHz PHY configuration
-         f71f3b4c4583fd662f2ddd8b9345a242d81d530f wifi: iwlwifi: rs: add support for parsing max MCS per NSS/BW in 11be
-         ef0431f6497547e4af0b1519a148e03e3cdad432 wifi: iwlwifi: mvm: add support for EHT 1K aggregation size
-         062ac86110f2de061dbed3fda28ec3559fe49b15 wifi: iwlwifi: mvm: support PPE Thresholds for EHT
-         0a075d00c796f0f9a296fcbfd1f7d2b18159d522 wifi: iwlwifi: mvm: set HE PHY bandwidth according to band
-         293ef3e5a1c42f983de10caeefbaedb3072f1f61 wifi: iwlwifi: mvm: advertise 320 MHz in 6 GHz only conditionally
-         3e744976041541a6e52987d5d0cc8cb8902ab866 wifi: iwlwifi: nvm-parse: support A-MPDU in EHT 2.4 GHz
-         1da816ab7ffc12198471c95d63b78596e0e953b6 wifi: iwlwifi: nvm: Update EHT capabilities for GL device
+         11780e37565db4dd064d3243ca68f755c13f65b4 pinctrl: meditatek: Startup with the IRQs disabled
          
-  - ref: refs/tags/iwlwifi-next-sent-for-review-2022-11-22
-    old: 0000000000000000000000000000000000000000
-    new: 1da816ab7ffc12198471c95d63b78596e0e953b6
+  - ref: refs/heads/for-next
+    old: 2d8d365657cb4cb95a0bfbee78213e2705c6ecf6
+    new: 06ec38c85f4883217fc3d94d31bb02dfe0f3ef37
+    log: |
+         11780e37565db4dd064d3243ca68f755c13f65b4 pinctrl: meditatek: Startup with the IRQs disabled
+         06ec38c85f4883217fc3d94d31bb02dfe0f3ef37 Merge branch 'devel' into for-next
+         
