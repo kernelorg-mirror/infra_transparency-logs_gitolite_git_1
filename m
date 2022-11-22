@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Tue, 22 Nov 2022 12:57:32 -0000
-Message-Id: <166912185221.2032.321692688111543310@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 22 Nov 2022 12:59:16 -0000
+Message-Id: <166912195637.2734.12237261753180673465@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/linux
-user: jlayton
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: pabeni
 changes:
-  - ref: refs/heads/locks-6.3
-    old: ff6b1436ed4dc5990638bcb2e1096a6b6732ce18
-    new: 90ed1d8f137b20ec9dcb4821eafa7711d5f8adc2
+  - ref: refs/heads/master
+    old: 6dcd6d0152200794a26b52ff762a110268551ba6
+    new: 837a3d66d698516ad2330e122eba9752ec3a48ed
     log: |
-         37190edf24cc794ff9df284d9c1a2ec1dabd4089 filelock: move file locking definitions to separate header file
-         3f9dbc7e6736f6dac874e97e95a249a9c40a94e8 filelock: remove redundant filp argument from vfs_lock_file
-         e2e40d956148fb05212cc0c2a872d673cc6d1493 filelock: remove redundant filp argument from vfs_test_lock
-         90ed1d8f137b20ec9dcb4821eafa7711d5f8adc2 filelock: remove redundant filp arg from vfs_cancel_lock
+         837a3d66d698516ad2330e122eba9752ec3a48ed selftests: net: Add cross-compilation support for BPF programs
          
