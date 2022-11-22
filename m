@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pablo/linux-ft
-Date: Tue, 22 Nov 2022 11:45:31 -0000
-Message-Id: <166911753135.14629.147484978061395199@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Tue, 22 Nov 2022 11:47:45 -0000
+Message-Id: <166911766549.15508.2981266181935398424@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pablo/linux-ft
-user: pablo
+repo: pub/scm/linux/kernel/git/netdev/net
+user: pabeni
 changes:
-  - ref: refs/heads/nft-bulk-v5.15-5
-    old: 49e844ce83fff2d14f50b870c2719e570b6803ce
-    new: 93cdc05dd90585afc27cc5c0a4dfbc1342f80127
+  - ref: refs/heads/master
+    old: 8427fd100c7b7793650e212a81e42f1cf124613d
+    new: 53270fb0fd77fe786d8c07a0793981d797836b93
     log: |
-         662829a7daca421fd5a61e2016c903bc240ea517 nft: Add basic bulking infrastructure.
-         93cdc05dd90585afc27cc5c0a4dfbc1342f80127 net: pktgen: build skb list and call netif_receive_skb_list()
+         53270fb0fd77fe786d8c07a0793981d797836b93 NFC: nci: fix memory leak in nci_rx_data_packet()
          
