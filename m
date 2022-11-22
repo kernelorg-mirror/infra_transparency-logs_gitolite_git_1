@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Tue, 22 Nov 2022 21:34:34 -0000
-Message-Id: <166915287496.18484.14641924608390122917@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
+Date: Tue, 22 Nov 2022 21:36:54 -0000
+Message-Id: <166915301412.20840.64352456259716587@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+repo: pub/scm/linux/kernel/git/soc/soc
+user: arnd
 changes:
-  - ref: refs/heads/for-next
-    old: 59b9bdd725bc39a1e1a408a6aaffce8fdfd44366
-    new: dc79f035b2062e4ff4f6432eda18f461f82b1333
-    log: |
-         0b2971a2703c015b5737d66688c2c7c81a5e391b Revert "selftests/bpf: Temporarily disable linked list tests"
-         dc79f035b2062e4ff4f6432eda18f461f82b1333 selftests/bpf: Workaround for llvm nop-4 bug
-         
+  - ref: refs/heads/tegra/clk
+    old: 0000000000000000000000000000000000000000
+    new: 1d9e77b644d2e5c49e6d35f77684bd260ad98557
