@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8279479578487689444=="
+Content-Type: multipart/mixed; boundary="===============5226415855908972808=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Wed, 23 Nov 2022 18:56:58 -0000
-Message-Id: <166922981821.16746.7019168051042572143@gitolite.kernel.org>
+Date: Wed, 23 Nov 2022 18:57:23 -0000
+Message-Id: <166922984328.16955.489358843231245886@gitolite.kernel.org>
 
---===============8279479578487689444==
+--===============5226415855908972808==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,47 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/char-misc-testing
-    old: 99b0cb3f5f8d67f4552c24d9b0aa6cda38f558aa
-    new: 3127a86a3702bd3a2ff43503d49919d666739ae8
+    old: 3127a86a3702bd3a2ff43503d49919d666739ae8
+    new: 7b51161696e803fd5f9ad55b20a64c2df313f95c
     log: |
-         654700c9fc2860d33d57b42fd39cae2310dbc2ba misc: hmc6352: Convert to i2c's .probe_new()
-         9c18dad44dc1de202a69c8ccef983e6070740acd misc: ics932s401: Convert to i2c's .probe_new()
-         db687ce71845aeb639be7452f4d8a272cf190cd1 misc: isl29003: Convert to i2c's .probe_new()
-         244179dbe11e707a0ef596246a9b80327492fc35 misc: eeprom/idt_89hpesx: Convert to i2c's .probe_new()
-         6757c6480d7f34cb272d28339dfac096b94c8638 misc: apds990x: Convert to i2c's .probe_new()
-         9f28b675c160519c79daed9f73bc38ab3d6c9015 misc: apds9802als: Convert to i2c's .probe_new()
-         781edb0530a1009f89e7888726ca87b255d2526b misc: bh1770glc: Convert to i2c's .probe_new()
-         3127a86a3702bd3a2ff43503d49919d666739ae8 misc: ds1682: Convert to i2c's .probe_new()
+         7b51161696e803fd5f9ad55b20a64c2df313f95c firmware: raspberrypi: fix possible memory leak in rpi_firmware_probe()
          
 
---===============8279479578487689444==
+--===============5226415855908972808==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1669229815 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1669229841 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1669229815-85d52ef6666c888f2173037f397d024d01f55ff5
+nonce 1669229840-025a1e32a56c1f731a304df97fe8fc53c62bcddd
 
-99b0cb3f5f8d67f4552c24d9b0aa6cda38f558aa 3127a86a3702bd3a2ff43503d49919d666739ae8 refs/heads/char-misc-testing
+3127a86a3702bd3a2ff43503d49919d666739ae8 7b51161696e803fd5f9ad55b20a64c2df313f95c refs/heads/char-misc-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmN+bPcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+P9cP/RGc3DCOUCnFHgWG3GZ4
-epCsfD8J6CljOEMIv0HtNb/UcDpUzjHE+tX3bXvuxMvxE+tQl+79WnIaPN8cQNJ2
-P/y9EXqmojfsPvg6Hs3SwhfV6tc5Acb/pujUUTg3Sn//SlvSqOPChObCaVIClhF4
-HshBgFhcKXAYTPGKyLTCbh8Uzh8aJmsrWz4dl4/cxWGXeJX2vMUSuMIqWkZkFloD
-05tzLsk9NpiClXAgO1hOQkUFMWjDzbmuhOZrmuvGQ2H2jHk9VdEmoieWFI9a3ysJ
-o2PdEK2Yy6OHWWREgutGEc0YU9KCKQPjyCcgIAhFNGGHXKizXIo2MEr2TmNHz47r
-CzdRfzfeorpUWQ9aKlv/wT5F4+8qn1XzW5z3nc7IyQ53W67zhGe4Ah9d8pfRROe/
-JvXZWuAe2ZgmO3EzxW5xXa1VTQRq5qfCukB8QXG6rAX/tE7uteAtNTiJhQ1h01u+
-bilFU/rS8YBEm3GH9YeGX+lJwvLtXC1obs6hHyEfDSUgorbtfHYA+l8/9ANgJPDp
-ITkb0idlfGQKs9vniW/op1xHY+Cjde8GYk3YnlAB94QSIUFTPEa86B2aIdaRrMxz
-2xz9jycjosl66AZOeJML0xdQKxAOqQlfau0YNfDIimwT0XtMjyhx5H+ntGyJ2uCR
-61+r+qTIULWf+GtnDQmEXdrm
-=XANV
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmN+bREbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+amAP/2wEQ6OfZhQifDiSo7go
+9l7bw9mGtz40hqtAmuqkrK/AYQw6MgdzZO63BneU2ZYtL6vwhPTnbgT8r2/WxP4r
+G4NLpO/sWPZQYHvJVTBKcI5tLiKfDIGTHmMchXN2jMxAyjULzuitubVIyICMPh48
+2XjVJegiusLxpH96koV/DTWtXEi18VtbZ2fOGsvSe7HQBsMcSY6+iXjzDTc6IH4g
+mqdtwU4erzdu0/HyYGA5ypRd6UnjZc+RboM5tL/UFN56odgtJvzkuIflGBk4I6Qo
+7Ba9DUGTVOxUpCgy1fZuCiTzjpTzpvhYHrcVevPVzJAWvlW0std73Sab+LTGd0nS
+3zmYp/Ghk15rQ+k9dCiEj2W0NKAm12UtDrb9h3+BIksdhVXFj/aj2DTG9dEPV8Ih
+t1HO4TdQLcz9d3dBaBs3tRtlsSTLpbEAaQK7ksUi7Cz1WNpQeHI66dWJWefWgorv
+PAXF02hPTSOS66sz3ECsJnBcb90VsVFY4lcKhcSIEyYnsDL6AvqEknlB9C7eIteZ
+AfbFH/HKnu0jL9GyaW9j8o1XMslc4fN5gU8rQ9t7qPr7GFMktiu/Lfd7h8qrSsUz
+6gfJjIahtSj4l92fu3Cm75GlRVPtJjDIgAu5OWq7pRBJJOZbFmzgLZRvOMLyznsI
+6uNu3k7lOGn5feWw9HAWcPLj
+=oHfE
 -----END PGP SIGNATURE-----
 
---===============8279479578487689444==--
+--===============5226415855908972808==--
