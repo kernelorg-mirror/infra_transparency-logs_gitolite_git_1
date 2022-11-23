@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8455374324308465493=="
+Content-Type: multipart/mixed; boundary="===============7538424107345553804=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Wed, 23 Nov 2022 19:51:40 -0000
-Message-Id: <166923310051.23272.10770221432627917062@gitolite.kernel.org>
+Date: Wed, 23 Nov 2022 19:51:55 -0000
+Message-Id: <166923311551.23449.8809089518249198667@gitolite.kernel.org>
 
---===============8455374324308465493==
+--===============7538424107345553804==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jic23/iio
 user: jic23
 changes:
-  - ref: refs/heads/togreg
+  - ref: refs/heads/testing
     old: 5609c97d5e4067480937c629314522a5b87bc9f3
     new: 42a20d838274e1aa583edeb3ac8054f65315b892
     log: revlist-5609c97d5e40-42a20d838274.txt
 
---===============8455374324308465493==
+--===============7538424107345553804==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -199,4 +199,4 @@ ed884631d78564c93a499920e0f9ebcda148d346 iio: temperature: tsys02d: Convert to i
 db84379566a695c7fbf562fcbde11b0f28a1ac1e staging: iio: ad5933: Convert to i2c's .probe_new()
 42a20d838274e1aa583edeb3ac8054f65315b892 staging: iio: ade7854: Convert to i2c's .probe_new()
 
---===============8455374324308465493==--
+--===============7538424107345553804==--
