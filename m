@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8990408633184466773=="
+Content-Type: multipart/mixed; boundary="===============5495298493735341558=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Wed, 23 Nov 2022 16:36:10 -0000
-Message-Id: <166922137046.11398.8289609416889208259@gitolite.kernel.org>
+Date: Wed, 23 Nov 2022 16:36:17 -0000
+Message-Id: <166922137741.11528.8052196042044847687@gitolite.kernel.org>
 
---===============8990408633184466773==
+--===============5495298493735341558==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: 2dc4ac91f845b690ddf2ad39172c3698b2769fa2
-    new: 748064b54c99418f615aabff5755996cd9816969
-    log: revlist-2dc4ac91f845-748064b54c99.txt
+  - ref: refs/heads/dev-queue
+    old: fe7ff179231f09231ed5d09a4e32c15260f8a00d
+    new: d63112e0abe5809ad4e0585885f15d3d3af4ecc9
+    log: revlist-fe7ff179231f-d63112e0abe5.txt
 
---===============8990408633184466773==
+--===============5495298493735341558==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2dc4ac91f845-748064b54c99.txt
+Content-Disposition: attachment; filename=revlist-fe7ff179231f-d63112e0abe5.txt
 
 394164f9d5a3020a7fd719d228386d48d544ec67 net/mlx5: Do not query pci info while pci disabled
 61db3d7b99a367416e489ccf764cc5f9b00d62a1 net/mlx5: Fix FW tracer timestamp calculation
@@ -56,5 +56,20 @@ bac81f40c2c1484a2bd416b3fbf983f6e76488cd net: dm9051: Fix missing dev_kfree_skb(
 af295e854a4e3813ffbdef26dbb6a4d6226c3ea1 l2tp: Don't sleep and disable BH under writer-side sk_callback_lock
 a487069e11b6527373f7c6f435d8998051d0b5d9 net: usb: qmi_wwan: add u-blox 0x1342 composition
 748064b54c99418f615aabff5755996cd9816969 net/cdc_ncm: Fix multicast RX support for CDC NCM devices with ZLP
+8afea4e8b0634f2cd7f672df3eac5b2014d0ca86 i40e: Fix failure message when XDP is configured in TX only mode
+05db2330a8feb593ff65db061ff9f995a4c90143 i40e: fix xdp_redirect logs error message when testing with MTU=1500
+3c2e59b43df53fec689be1f6a23781251ce07e1e i40e: Fix not setting default xps_cpus after reset
+fbc6646354140af494d99cc49326fa7dca4779e4 e1000e: Fix TX dispatch condition
+ec6e654edc099ea6f5d59ac883cc825542217ccd i40e: Fix for VF MAC address 0
+d16d4b3f2f4b1025a9915af6fba08e00ccd2ab0b ice: Create a separate kthread to handle ptp extts work
+2a5c35292cd158c2756527d3dd1829f6d6e1a65d iavf: Fix shutdown pci callback to match the remove one
+daec5a44c6768ad4c2f654e7a011c9bbbaca3e95 ixgbevf: Fix resource leak in ixgbevf_init_module()
+dec59ab697a2ade98fd371aee340b19000624118 fm10k: Fix error handling in fm10k_init_module()
+a9f77c621cded2e2449cbb5360bd1a4c0c222b48 iavf: Fix error handling in iavf_init_module()
+22e5e77c8525f34764009931c789444779ce5876 ice: Correctly handle aux device when num channels change
+17a97ecaa27d5bc534d872200f6bdf0d1c62d381 i40e: Disallow ip4 and ip6 l4_4_bytes
+71aba744289dfe06ddfff627d234bc36c9cef7aa e100: Fix possible use after free in e100_xmit_prepare
+dfb26a8b62cf56efc92f4685e393164053283279 i40e: Fix error handling in i40e_init_module()
+d63112e0abe5809ad4e0585885f15d3d3af4ecc9 ice: move devlink port creation/deletion
 
---===============8990408633184466773==--
+--===============5495298493735341558==--
