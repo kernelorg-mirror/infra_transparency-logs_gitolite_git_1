@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Wed, 23 Nov 2022 19:59:48 -0000
-Message-Id: <166923358845.29361.17507769952428827410@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Wed, 23 Nov 2022 20:05:19 -0000
+Message-Id: <166923391984.2113.6242003030135908844@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
-  - ref: refs/heads/for-next
-    old: 8a2162a9227dda936a21fe72014a9931a3853a7b
-    new: 2fcc6081a7bf8f7f531cffdc58b630b822e700a1
+  - ref: refs/heads/master
+    old: 0c105d97a76702d78273520e0b397110559526e0
+    new: 50e695db19bfb9261977f915a5ede8d127703240
     log: |
-         2fcc6081a7bf8f7f531cffdc58b630b822e700a1 bpf: Don't use idx variable when registering kfunc dtors
+         50e695db19bfb9261977f915a5ede8d127703240 Wed Nov 23 08:04:25 PM UTC 2022
          
