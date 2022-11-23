@@ -1,50 +1,49 @@
-Content-Type: multipart/mixed; boundary="===============5610169281581817619=="
+Content-Type: multipart/mixed; boundary="===============6546132690466402769=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lpieralisi/pci
-Date: Wed, 23 Nov 2022 15:03:22 -0000
-Message-Id: <166921580292.6267.18435946926920571871@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
+Date: Wed, 23 Nov 2022 15:08:31 -0000
+Message-Id: <166921611150.9708.1529685391002327170@gitolite.kernel.org>
 
---===============5610169281581817619==
+--===============6546132690466402769==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lpieralisi/pci
-user: lpieralisi
+repo: pub/scm/linux/kernel/git/peterz/queue
+user: peterz
 changes:
-  - ref: refs/heads/pci/dwc
-    old: 1d26a55fbeb9c24bb24fa84595c56efee8783f35
-    new: ba6ed462dcf41a83b36eb9a74a8c4720040f9762
-    log: revlist-1d26a55fbeb9-ba6ed462dcf4.txt
+  - ref: refs/heads/perf/core
+    old: e8d7a90c08ce963c592fb49845f2ccc606a2ac21
+    new: 1e3800bab9aed710adc051258b98f205061cc65b
+    log: revlist-e8d7a90c08ce-1e3800bab9ae.txt
 
---===============5610169281581817619==
+--===============6546132690466402769==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1d26a55fbeb9-ba6ed462dcf4.txt
+Content-Disposition: attachment; filename=revlist-e8d7a90c08ce-1e3800bab9ae.txt
 
-b8a83e600bdde93e7da41ea3204b2b3832a3c99b dt-bindings: imx6q-pcie: Fix clock names for imx6sx and imx8mq
-4cf4b9b70ab2785461190c08a3542d2d74c28b46 dt-bindings: visconti-pcie: Fix interrupts array max constraints
-057646a5db2f8873efba90eeffd165c2525b413f dt-bindings: PCI: dwc: Detach common RP/EP DT bindings
-b9fe9985aee2cb62814671b883b9cbfa1c941ab3 dt-bindings: PCI: dwc: Remove bus node from the examples
-875596361910711f3e7ba6314075d867e4b74fd1 dt-bindings: PCI: dwc: Add phys/phy-names common properties
-eaa9d886528730bcd7213f0b22c8dd468460f495 dt-bindings: PCI: dwc: Add max-link-speed common property
-f133396e2d0063d589362122da659fe047643384 dt-bindings: PCI: dwc: Apply generic schema for generic device only
-12f7936c7a0e0c40069ff12ddfd091a29da6e77c dt-bindings: PCI: dwc: Add max-functions EP property
-35486813c41b3a5229b4987857ff597704feda21 dt-bindings: PCI: dwc: Add interrupts/interrupt-names common properties
-4cc13eedb892c53f3d61fb5a1f6d57724541441a dt-bindings: PCI: dwc: Add reg/reg-names common properties
-bd9504af9169131156e753a6e47de34ad7a97b7d dt-bindings: PCI: dwc: Add clocks/resets common properties
-4a8972542a6d1eee81c7cc27699b0a47f6a6619e dt-bindings: PCI: dwc: Add dma-coherent property
-98b59129cb9f43a37bb92a577145f29ca54353a7 dt-bindings: PCI: dwc: Apply common schema to Rockchip DW PCIe nodes
-ce27c4e61f2dcc41d13f54cbecbd3a4b15db86c8 dt-bindings: PCI: dwc: Add Baikal-T1 PCIe Root Port bindings
-8522e17d4cab47b35d43943ca13d677e76ab01b7 PCI: dwc: Introduce dma-ranges property support for RC-host
-7f9e982dc4fcf7b4bc7e9dc8a9f344395fc125b8 PCI: dwc: Introduce generic controller capabilities interface
-ef8c58877fe77c7807777f61f59cffaee89881f7 PCI: dwc: Introduce generic resources getter
-9f67ecdd9579228d656192a4b6e951c757085db8 PCI: dwc: Combine iATU detection procedures
-ef69f852a9784017e646e50e3efc715dac7e3fc4 PCI: dwc: Introduce generic platform clocks and resets
-ba6ed462dcf41a83b36eb9a74a8c4720040f9762 PCI: dwc: Add Baikal-T1 PCIe controller support
+42297bc4d8bec414f4a6323882f3d49a2f024b3f perf/x86/amd: Remove the repeated declaration
+64952919bf3aa43a92b9106ea3984e2224bca26b perf: Fix function pointer case
+9ba7cc00eb8c0fc098e95acabc586598342476ed perf/amd/ibs: Make IBS a core pmu
+4d0c52ffbb0ba98ad4b2ebaa492fff38d0c302f9 perf/core: Don't allow grouping events from different hw pmus
+7fdece683eb95720af1c5dae6eff8d2c26a9043f perf/x86/intel/uncore: Generalize IIO topology support
+21658c798a5df31a02bd80190d5c8836750599e6 perf/x86/intel/uncore: Introduce UPI topology type
+86388799d60c997c112be9e52e9ac71cfea145a2 perf/x86/intel/uncore: Clear attr_update properly
+1bd074a58d0003d849e10758a6cb3802dc49264e perf/x86/intel/uncore: Disable I/O stacks to PMU mapping on ICX-D
+4fa1f4da27cf44b1a4bd30cd0291fb05fa86608e perf/x86/intel/uncore: Generalize get_topology() for SKX PMUs
+da81f123f2f463b291fb3e640c754dc029082781 perf/x86/intel/uncore: Enable UPI topology discovery for Skylake Server
+6dd3285158f1653a24f4ac9b660c3084dacf54c5 perf/x86/intel/uncore: Get UPI NodeID and GroupID
+cce5b87c9d54fa1d6d18595cab4dc3f44fb83eaa perf/x86/intel/uncore: Enable UPI topology discovery for Icelake Server
+ff4a2f037b96a019ad0a05597498d4e4e7b2bc91 perf/x86/intel/uncore: Enable UPI topology discovery for Sapphire Rapids
+2f11bd2f828444fafde3ad8b96d6e9a041ffeb73 perf/x86/intel/uncore: Update sysfs-devices-mapping file
+29fc969bb571094afb3473063cc68a9b46c1a106 perf/x86/intel/uncore: Make set_mapping() procedure void
+1d96390a12186c18090d6b8bbd20c86b47885434 perf/x86/intel/uncore: Fix reference count leak in sad_cfg_iio_topology()
+bde225611e593384ff7dfb8beefe367fe27df0af perf/x86/intel/uncore: Fix reference count leak in hswep_has_limit_sbox()
+1eddf988182db24489aadb096bba5bdbb5976348 perf/x86/intel/uncore: Fix reference count leak in snr_uncore_mmio_map()
+1e3800bab9aed710adc051258b98f205061cc65b perf/x86/intel/uncore: Fix reference count leak in __uncore_imc_init_box()
 
---===============5610169281581817619==--
+--===============6546132690466402769==--
