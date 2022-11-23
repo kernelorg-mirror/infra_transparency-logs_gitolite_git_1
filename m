@@ -1,65 +1,42 @@
-Content-Type: multipart/mixed; boundary="===============8990749420427310993=="
+Content-Type: multipart/mixed; boundary="===============3731188131730394609=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Wed, 23 Nov 2022 19:20:22 -0000
-Message-Id: <166923122268.1519.9333290707004459280@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Wed, 23 Nov 2022 19:23:15 -0000
+Message-Id: <166923139509.2624.511310926268404299@gitolite.kernel.org>
 
---===============8990749420427310993==
+--===============3731188131730394609==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
-user: leon
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/xfrm-next
-    old: 03aacc64e3e06195c2a802640e1ebdab0d4f2701
-    new: 3221398a1832a8010f051be88c1f2496a7db492c
-    log: revlist-03aacc64e3e0-3221398a1832.txt
+  - ref: refs/heads/master
+    old: eb7081409f94a9a8608593d0fb63a1aa3d6f95d8
+    new: 4312098baf37ee17a8350725e6e0d0e8590252d4
+    log: revlist-eb7081409f94-4312098baf37.txt
 
---===============8990749420427310993==
+--===============3731188131730394609==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-03aacc64e3e0-3221398a1832.txt
+Content-Disposition: attachment; filename=revlist-eb7081409f94-4312098baf37.txt
 
-6e5e14dc6f328527d0db445b9de9d2d250d5f60d xfrm: add TX datapath support for IPsec packet offload mode
-2c449640c45f21d96789e3e6feb7f9d6b7347319 xfrm: add RX datapath protection for IPsec packet offload mode
-a97fe4acf75c1f086906e213d4cd44aaae1cf197 xfrm: speed-up lookup of HW policies
-848c5553705d311dbb01af9dfa5bb5904207fbab xfrm: add support to HW update soft and hard limits
-a497a2cc8b0e98c24c656a4aa1bf1258ef3ab29d xfrm: document IPsec packet offload mode
-b74d4eb7f46aed4856783198fd4fe7d693c86a2f net/mlx5: Add HW definitions for IPsec packet offload
-ab46a56ba0fc0526805de8883438b19a5c076744 net/mlx5e: Advertise IPsec packet offload support
-23b34fe4b73b6038a7c7ccb8b43407603b87bd66 net/mlx5e: Store replay window in XFRM attributes
-663bfb8386e2f2134bb7ccd97155406eedac266b net/mlx5e: Remove extra layers of defines
-5ccd330aa8611c0e78230375525bbc7628146f64 net/mlx5e: Create symmetric IPsec RX and TX flow steering structs
-9bf09203fc7fa9664899c54f33e1257070090553 net/mlx5e: Use mlx5 print routines for low level IPsec code
-e94437cdbb36f55bcd721b3194788075dd838e37 net/mlx5e: Remove accesses to priv for low level IPsec FS code
-0034c42f919b0ae6d7f5849a9dd8991d440b3725 net/mlx5e: Create Advanced Steering Operation object for IPsec
-56a884f0c7b29dc0dfff58d081128715a0c5e5d2 net/mlx5e: Create hardware IPsec packet offload objects
-0c35c763f2f35e7ddf32c324c1d3199c96f7caef net/mlx5e: Move IPsec flow table creation to separate function
-81c666a51804266c8cb96195b81d5dea713010ca net/mlx5e: Refactor FTE setup code to be more clear
-546718dc0d50b7443473d62df9d1dfb4442c6973 net/mlx5e: Flatten the IPsec RX add rule path
-21779063e1e0d6b90fb27f33526324862dad4ba9 net/mlx5e: Make clear what IPsec rx_err does
-6e51f484b5a103d686f85a98a1762c805e658c98 net/mlx5e: Group IPsec miss handles into separate struct
-88cc57a0826ca597196de5d3b0caa08bce6d19a3 net/mlx5e: Generalize creation of default IPsec miss group and rule
-f3d85525846e453b178b835ea7a6c003fe6ef409 net/mlx5e: Create IPsec policy offload tables
-b33d351e2e0901cdae3d0717b192a517f58b1501 net/mlx5e: Add XFRM policy offload logic
-779ed0bafad232f04f9382a51633c6db500d249e net/mlx5e: Use same coding pattern for Rx and Tx flows
-4ec4bd070f36f47124f3d7ee31379a05a2d82bd5 net/mlx5e: Configure IPsec packet offload flow steering
-2a0ef568303a75aba4b701dd42790c100b9fbe64 net/mlx5e: Improve IPsec flow steering autogroup
-38d9af53a20c447f0985ade5b2f22b24d62843a9 net/mlx5e: Add statistics for Rx/Tx IPsec offloaded flows
-94c70e96b66da014bc68e8754241cce85a527893 net/mlx5e: Skip IPsec encryption for TX path without matching policy
-74022d51fb1a0a11c8d0bd26d903d30a60d0aecd net/mlx5e: Provide intermediate pointer to access IPsec struct
-7ae72d00244a1811419f399004efd720cf2881ba net/mlx5e: Store all XFRM SAs in Xarray
-d4ae711729d3d8f867a88a0883752509b9e5fd1a net/mlx5e: Update IPsec soft and hard limits
-0b6f2c229e71672de085640a63b53f971071bd45 net/mlx5e: Handle hardware IPsec limits events
-ef1d469da59da0203573e3e91b6e90d19eacf9ae net/mlx5e: Handle ESN update events
-6fcf65d7f4a1cdcc4c3cff9e3c7444e95c5a105c net/mlx5e: Open mlx5 driver to accept IPsec packet offload
-23bf104a0002d71dcfebb5e0a89abd184e582031 net/mlx5: Properly rely on RW semaphore semantics
-3221398a1832a8010f051be88c1f2496a7db492c net/mlx5: Protect from losing connection between HW and SW layers
+0d10e90cee9eb57882b0f7e19fd699033722e226 spi: mediatek: Fix DEVAPC Violation at KO Remove
+db2d2dc9a0b58c6faefb6b002fdbed4f0362d1a4 spi: spi-imx: Fix spi_bus_clk if requested clock is higher than input clock
+804313b64e412a81b0b3389a10e7622452004aa6 spi: dw-dma: decrease reference count in dw_spi_dma_init_mfld()
+2197aa6b0aa236b9896a09b9d08d6924d18b84f6 spi: tegra210-quad: Fix duplicate resource error
+e85e9e0d8cb759013d6474011c227f92e442d746 spi: spi-imx: spi_imx_transfer_one(): check for DMA transfer first
+11c10956515b8ec44cf4f2a7b9d8bf8b9dc05ec4 9p/fd: fix issue of list_del corruption in p9_fd_cancel()
+578b565b240afdfe0596d183f473f333eb9d3008 9p/fd: Fix write overflow in p9_read_work
+6854fadbeee10891ed74246bdc05031906b6c8cf 9p/fd: Use P9_HDRSZ for header size
+391c18cf776eb4569ecda1f7794f360fe0a45a26 9p/xen: check logical size for buffer size
+9f0933ac026f7e54fe096797af9de20724e79097 fscache: fix OOB Read in __fscache_acquire_volume
+fd64898dfed510a55b66080f8ab5c9b06982bbce Merge tag '9p-for-6.1-rc7' of https://github.com/martinetd/linux
+4312098baf37ee17a8350725e6e0d0e8590252d4 Merge tag 'spi-fix-v6.1-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
 
---===============8990749420427310993==--
+--===============3731188131730394609==--
