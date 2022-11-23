@@ -1,28 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/xfs/xfs-linux
-Date: Wed, 23 Nov 2022 17:16:32 -0000
-Message-Id: <166922379225.8259.1547900045698558159@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tj/cgroup
+Date: Wed, 23 Nov 2022 17:17:11 -0000
+Message-Id: <166922383137.8602.12805782928173052185@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/xfs/xfs-linux
-user: djwong
+repo: pub/scm/linux/kernel/git/tj/cgroup
+user: tj
 changes:
+  - ref: refs/heads/for-6.2
+    old: 0a2cafe6c7c25597a026ab961c3182c8179c7959
+    new: 674b745e22b3caae48ad20422795eefd3f832a7b
+    log: |
+         674b745e22b3caae48ad20422795eefd3f832a7b cgroup: remove rcu_read_lock()/rcu_read_unlock() in critical section of spin_lock_irq()
+         
   - ref: refs/heads/for-next
-    old: 64c80dfd04d1dd2ecf550542c8f3f41b54b20207
-    new: 28b4b0596343d19d140da059eee0e5c2b5328731
+    old: 0a2cafe6c7c25597a026ab961c3182c8179c7959
+    new: 674b745e22b3caae48ad20422795eefd3f832a7b
     log: |
-         28b4b0596343d19d140da059eee0e5c2b5328731 xfs: fix incorrect i_nlink caused by inode racing
+         674b745e22b3caae48ad20422795eefd3f832a7b cgroup: remove rcu_read_lock()/rcu_read_unlock() in critical section of spin_lock_irq()
          
-  - ref: refs/heads/xfs-6.2-merge
-    old: 64c80dfd04d1dd2ecf550542c8f3f41b54b20207
-    new: 28b4b0596343d19d140da059eee0e5c2b5328731
-    log: |
-         28b4b0596343d19d140da059eee0e5c2b5328731 xfs: fix incorrect i_nlink caused by inode racing
-         
-  - ref: refs/tags/xfs-6.2-merge-3
-    old: 0000000000000000000000000000000000000000
-    new: 4b3f34f38053b9e9947180bec26b24ad0bb485c1
