@@ -1,68 +1,41 @@
-Content-Type: multipart/mixed; boundary="===============5437012209837096627=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vbabka/slab
-Date: Wed, 23 Nov 2022 14:49:53 -0000
-Message-Id: <166921499375.27758.7512305027654272992@gitolite.kernel.org>
-
---===============5437012209837096627==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Wed, 23 Nov 2022 14:50:04 -0000
+Message-Id: <166921500435.29429.16300728449652901883@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vbabka/slab
-user: vbabka
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
+  - ref: refs/heads/for-6.2/block
+    old: 93c68cc46a070775cc6675e3543dd909eb9f6c9e
+    new: 4284354758d67cf77ab2a4494e28d4c05fb83074
+    log: |
+         ac1171bd2c7a3a32dfbdd3c347919fee32b745a1 elevator: update the document of elevator_switch
+         e0cca8bc9cd8d6176921cb3f5f466d3ccfbc6b99 elevator: printk a warning if switching to a new io scheduler fails
+         f69b5e8f356e4e57e94b806ca1dcb9771933bb9c elevator: update the document of elevator_match
+         4284354758d67cf77ab2a4494e28d4c05fb83074 elevator: remove an outdated comment in elevator_change
+         
   - ref: refs/heads/for-next
-    old: b5e72d27e39a092c956b34b286f6564ceee4134c
-    new: 935229676642b237c563b1bfad2636f3c772cc03
-    log: revlist-b5e72d27e39a-935229676642.txt
-
---===============5437012209837096627==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1669214992 +0100
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/slab.git
-nonce 1669214991-d09eec1abf4f4c84bc52fd2877283f34071308af
-
-b5e72d27e39a092c956b34b286f6564ceee4134c 935229676642b237c563b1bfad2636f3c772cc03 refs/heads/for-next
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCAAdFiEEjUuTAak14xi+SF7M4CHKc/GJqRAFAmN+MxAACgkQ4CHKc/GJ
-qRANhAf+L2+B9IxJ5cSjXLwgjBOABNdfD80vEXzgueglEa4Tci4h5wZQgc6JabWo
-IwrCglmlgj7iRpNVp/uVhCc+QVj/1dZy5Wl5aYxdx8HrpiHWydGOii8pIrZsvkJA
-T/gmiZsr/NSX8dM9/zL4p4XavD7867Xomop72VgOl7zvTm629XtjLB5SxPq8zOmh
-NS5z4i7atlLO8bIRIdzH1BMUc3vHMs48h964Th6G6npfwPDY0qDhm00deF9gmAw1
-zgUn0bW2H+llJFs3PKgxcOt2D5kCiVfiTIGxxDRTfzLWrUutOxthfp0N5L22BZ32
-MXRUvzr1fgYIAEMZGK6zPV7uhmpYEw==
-=2BDA
------END PGP SIGNATURE-----
-
---===============5437012209837096627==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b5e72d27e39a-935229676642.txt
-
-3cdb7b6ad16a9d95603b482969fa870f996ac9dc mm, slab: ignore hardened usercopy parameters when disabled
-9edc085e80c6371f33de5aab2bd8aa1964600e0e mm, slub: add CONFIG_SLUB_TINY
-1b43ff67e2546d69f10e91fd489f591b615d6105 mm, slub: disable SYSFS support with CONFIG_SLUB_TINY
-06685369be504f232edaba3a731e4c18c363661e mm, slub: retain no free slabs on partial list with CONFIG_SLUB_TINY
-a316bd676e9b712775b9d0eb9555b3a36a4aaaf6 mm, slub: lower the default slub_max_order with CONFIG_SLUB_TINY
-faa1ca4a87ba886d01df992a6a50ffd4cc2805a9 mm, slub: don't create kmalloc-rcl caches with CONFIG_SLUB_TINY
-441832e917cb84543d23425f05f7f4bffe260aca mm, slab: ignore SLAB_RECLAIM_ACCOUNT with CONFIG_SLUB_TINY
-e5dc1587a567d0794f880eb5d324491a88e815e0 mm, slub: refactor free debug processing
-e8b1c4cef62f0de6bafdd15444c11108134f6cf5 mm, slub: split out allocations from pre/post hooks
-5d2f9fa158dc0a731a80e697ccdb9f0659b0e55d mm, slub: remove percpu slabs with CONFIG_SLUB_TINY
-d144ac47632ceccb3cf44db84f1a03ebca065c5b mm, slub: don't aggressively inline with CONFIG_SLUB_TINY
-630b00e20785d37fea0ce096b0f19c4267d5c6f5 mm, slob: rename CONFIG_SLOB to CONFIG_SLOB_DEPRECATED
-935229676642b237c563b1bfad2636f3c772cc03 Merge branch 'slub-tiny-v1r3' into slab/for-next
-
---===============5437012209837096627==--
+    old: 449157d5268d68f9ce9445df70776f312af35117
+    new: a50534ad02fc85f179aa57e45be5efcb4a474b09
+    log: |
+         ac1171bd2c7a3a32dfbdd3c347919fee32b745a1 elevator: update the document of elevator_switch
+         e0cca8bc9cd8d6176921cb3f5f466d3ccfbc6b99 elevator: printk a warning if switching to a new io scheduler fails
+         f69b5e8f356e4e57e94b806ca1dcb9771933bb9c elevator: update the document of elevator_match
+         4284354758d67cf77ab2a4494e28d4c05fb83074 elevator: remove an outdated comment in elevator_change
+         a50534ad02fc85f179aa57e45be5efcb4a474b09 Merge branch 'for-6.2/block' into for-next
+         
+  - ref: refs/heads/io_uring-bundle
+    old: 49cf1fa907044e745c1db3a9ce113a792b4a6987
+    new: 71c91d09c08c70a5c13e0481ffa94abe3da94828
+    log: |
+         8bb35a1f0a32b91d18839686d383fc246d81876c io_uring: add support for bundles
+         e50aabe16e418f1cc45df6c406ccfe92923c630d io_uring/bundle: enable deferred completions
+         48831ced433d78d97558efc9457f582117509b3a io_uring/bundle: enable use of IOSQE_ASYNC for bundle requests
+         71c91d09c08c70a5c13e0481ffa94abe3da94828 io_uring/bundle: disable IOSQE_IO_DRAIN on bundle requests
+         
