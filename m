@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/devel/pahole/pahole
-Date: Wed, 23 Nov 2022 13:17:47 -0000
-Message-Id: <166920946785.27120.17660179798784842462@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mmind/linux-rockchip
+Date: Wed, 23 Nov 2022 13:23:55 -0000
+Message-Id: <166920983598.30753.3749898064345062794@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/devel/pahole/pahole
-user: acme
+repo: pub/scm/linux/kernel/git/mmind/linux-rockchip
+user: mmind
 changes:
-  - ref: refs/heads/tmp.master
-    old: 02d67c51765dfbd5893087da63744c864c7cc9e0
-    new: 0780d69464e056764a3bdb37c0a88485cf407f9b
-    log: |
-         c29d847c5e339d3abb421e1cdabb37fe183eb051 dwarf_loader: Add assert for catching unexpected inline expansion type
-         0780d69464e056764a3bdb37c0a88485cf407f9b core: Make the tags tables a separate object
-         
+  - ref: refs/tags/v6.2-rockchip-dts32-1
+    old: 0000000000000000000000000000000000000000
+    new: 0db6f510f1b8ecabbe4a1bf25d7a992e5d3a50a5
