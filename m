@@ -1,32 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============2107807598359301744=="
+Content-Type: multipart/mixed; boundary="===============6580640584823136492=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Wed, 23 Nov 2022 05:48:44 -0000
-Message-Id: <166918252489.16744.8738009720956440754@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Wed, 23 Nov 2022 05:48:55 -0000
+Message-Id: <166918253573.16879.1285890606874396905@gitolite.kernel.org>
 
---===============2107807598359301744==
+--===============6580640584823136492==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
   - ref: refs/heads/master
     old: 771a207d1ee9f38da8c0cee1412228f18b900bac
     new: 736b6d81d93cf61a0601af90bd552103ef997b3f
     log: revlist-771a207d1ee9-736b6d81d93c.txt
-  - ref: refs/tags/next-20220823
-    old: a4a4e0ed9223f950e2d640de22bb2ebbb2ed1764
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20221123
     old: 0000000000000000000000000000000000000000
     new: e9eade4924b2c91a6d1c137809d77ccacf39fd36
 
---===============2107807598359301744==
+--===============6580640584823136492==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1057,4 +1054,4 @@ f56ebfee22a7771f86fd49b6ff3e20e048771fdf Merge branch 'mm-nonmm-stable' of git:/
 c8d959c780f07eec894fe085749aec62a09c723c fix up for "fbdev: Add support for the nomodeset kernel parameter"
 736b6d81d93cf61a0601af90bd552103ef997b3f Add linux-next specific files for 20221123
 
---===============2107807598359301744==--
+--===============6580640584823136492==--
