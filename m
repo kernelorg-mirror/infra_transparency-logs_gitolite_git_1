@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Wed, 23 Nov 2022 12:39:45 -0000
-Message-Id: <166920718550.31483.17439805711929843694@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Wed, 23 Nov 2022 12:42:05 -0000
+Message-Id: <166920732500.1557.14877233684732364344@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/netdev/net
+user: davem
 changes:
-  - ref: refs/heads/20221118_uwe_i2c_complete_conversion_to_i2c_probe_new
-    old: 0000000000000000000000000000000000000000
-    new: 138d5d2eebdba8f1af7e7f014ce08aa8dff7cba8
+  - ref: refs/heads/master
+    old: 178a4ff11903cf19f35d82f3462958ab7f7c76ef
+    new: 1c40cde6b5171d9c8dfc69be00464fd1c75e210b
+    log: |
+         1c40cde6b5171d9c8dfc69be00464fd1c75e210b arcnet: fix potential memory leak in com20020_probe()
+         
