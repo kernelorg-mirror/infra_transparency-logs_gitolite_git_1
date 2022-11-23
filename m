@@ -1,62 +1,63 @@
-Content-Type: multipart/mixed; boundary="===============7555200137735438432=="
+Content-Type: multipart/mixed; boundary="===============8858386132763454234=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Wed, 23 Nov 2022 16:58:06 -0000
-Message-Id: <166922268610.26869.7335528299827510679@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
+Date: Wed, 23 Nov 2022 17:06:15 -0000
+Message-Id: <166922317521.383.15210413427053363408@gitolite.kernel.org>
 
---===============7555200137735438432==
+--===============8858386132763454234==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/gregkh/staging
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-linus
-    old: 05530ef7cf7c7d700f6753f058999b1b5099a026
-    new: ecae4c8954a1faba6fcc4fe6ec1680b3c4e393d1
-    log: revlist-05530ef7cf7c-ecae4c8954a1.txt
-  - ref: refs/heads/master
-    old: 1dff1aa67f9063102be3674a0afc483400801084
-    new: 0fd5cd7fb70ac3accacfb82cbb8b4fccf1fccd8e
-    log: revlist-1dff1aa67f90-0fd5cd7fb70a.txt
+  - ref: refs/heads/staging-next
+    old: ccdbe14b77a5e39496baf632e157f9daf322dd27
+    new: 9dadff066244543780e5d9ee406b3ec7af19e22c
+    log: |
+         357057ee55d3c99a5de5abe8150f7bca04f8e53b staging: vme_user: Fix possible UAF in tsi148_dma_list_add
+         2b7962bd05163f5b20fb5f933092b997debf8ed6 staging: gdm724x: Replace macro GDM_TTY_READY with static inline function
+         733611730676de202fade0cb73792c17d5aa9903 Revert "staging: mmal-vchiq: Avoid use of bool in structures"
+         c0012a39cf6c7197ad93da0bdba7245c094f8469 vc04_services: mmal-vchiq: Use bool for vchiq_mmal_component.in_use
+         f198d34759eb3d110d37bb42f6c39cd90bd0b0cb vc04_services: bcm2835-camera: Use bool values for mmal_fmt.remove_padding
+         9a2c1d64c8eb4fab0387c0943eb6666b246f96aa staging: most: i2c: Convert to i2c's .probe_new()
+         b62649822e8c03ec1319f9d33c753106b8c80bcd staging: olpc_dcon: Convert to i2c's .probe_new()
+         9dadff066244543780e5d9ee406b3ec7af19e22c staging: iio: ade7854: Convert to i2c's .probe_new()
+         
 
---===============7555200137735438432==
+--===============8858386132763454234==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-05530ef7cf7c-ecae4c8954a1.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-3ca507bf99611c82dafced73e921c1b10ee12869 ASoC: wm8962: Wait for updated value of WM8962_CLOCKING1 register
-7c0f8f1462c9edeaa202a2cbea1bde0960434b09 ASoC: stm32: i2s: remove irqf_oneshot flag
-37882100cd0629d830db430a8cee0b724fe1fea3 ASoC: hdac_hda: fix hda pcm buffer overflow issue
-0bb8e9b36b5b7f2e77892981ff6c27ee831d8026 ASoC: sgtl5000: Reset the CHIP_CLK_CTRL reg on remove
-39bd801d6908900e9ab0cdc2655150f95ddd4f1a ASoC: soc-pcm: Don't zero TDM masks in __soc_pcm_open()
-c7d7d4e7bb1290cc473610b0bb96d9fa606d00e7 ASoC: rt711-sdca: fix the latency time of clock stop prepare state machine transitions
-60591bbf6d5eb44f275eb733943b7757325c1b60 ASoC: max98373: Add checks for devm_kcalloc
-f5f8ad3fcdc49e4d794973007525ed864f93f3fb ASoC: SOF: dai: move AMD_HS to end of list to restore backwards-compatibility
-db8f91d424fe0ea6db337aca8bc05908bbce1498 ASoC: soc-pcm: Add NULL check in BE reparenting
-ecae4c8954a1faba6fcc4fe6ec1680b3c4e393d1 Merge tag 'asoc-fix-v6.1-rc6' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1669223174 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
+nonce 1669223174-99e0e501102a819d99054b9efcb6baf3e02351b8
 
---===============7555200137735438432==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1dff1aa67f90-0fd5cd7fb70a.txt
+ccdbe14b77a5e39496baf632e157f9daf322dd27 9dadff066244543780e5d9ee406b3ec7af19e22c refs/heads/staging-next
+-----BEGIN PGP SIGNATURE-----
 
-3ca507bf99611c82dafced73e921c1b10ee12869 ASoC: wm8962: Wait for updated value of WM8962_CLOCKING1 register
-7c0f8f1462c9edeaa202a2cbea1bde0960434b09 ASoC: stm32: i2s: remove irqf_oneshot flag
-37882100cd0629d830db430a8cee0b724fe1fea3 ASoC: hdac_hda: fix hda pcm buffer overflow issue
-0bb8e9b36b5b7f2e77892981ff6c27ee831d8026 ASoC: sgtl5000: Reset the CHIP_CLK_CTRL reg on remove
-39bd801d6908900e9ab0cdc2655150f95ddd4f1a ASoC: soc-pcm: Don't zero TDM masks in __soc_pcm_open()
-c7d7d4e7bb1290cc473610b0bb96d9fa606d00e7 ASoC: rt711-sdca: fix the latency time of clock stop prepare state machine transitions
-60591bbf6d5eb44f275eb733943b7757325c1b60 ASoC: max98373: Add checks for devm_kcalloc
-f5f8ad3fcdc49e4d794973007525ed864f93f3fb ASoC: SOF: dai: move AMD_HS to end of list to restore backwards-compatibility
-db8f91d424fe0ea6db337aca8bc05908bbce1498 ASoC: soc-pcm: Add NULL check in BE reparenting
-ecae4c8954a1faba6fcc4fe6ec1680b3c4e393d1 Merge tag 'asoc-fix-v6.1-rc6' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
-0fd5cd7fb70ac3accacfb82cbb8b4fccf1fccd8e Merge branch 'for-linus'
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmN+UwYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+XBMP/1O/R3Zu9cX+B/MScHqh
+Q2Us8JGH1XFcqL+NnuworJ6nIZ0pZz04kHUSMsp2vnooDirDGFSw9cmZJ8lHWoul
+A4lovEcyTyEwgOKelvgzsD0KJ7WnnUnufsLeZ3/f57PbEeG53hD/LSEWlFyTYOqt
+tQDRD6wirej6ZsFL+mycSDRnuTcsUfoD/lPu2gwIkUqovrv3QfUBVMZchvbZecz4
+2USFoHTPIh+9iwFhdeSeK16TX5EqypRV7VkGy64zPtbWKIw41bwx1TbN1U/cMxX6
+cc7xGhZpcx75vMNeTAqy86L8YBEKObblUS/gBGFI2Hvl+4CDzlNSFq9ZHEg4HAph
+iwXlIeaOc5e/uIvitSMBzypZRXIQSGwoXf5S8/JHAeV5ghE2cSZlZoJji7wcr1TC
+79LNm5fcAyrTM+qlKMdsZ0BkuR5XwJKK8/wt51cYADdyY2Ro9ZFrfE7zPZtHlyfK
+HRx1S7Ko7AvoeLq4ZdOg9gA2sqgOCPkTA99P7sjgcohm5Z0C51n6HdsW4J9a0EKM
+UtunMvgliGYkl2UnCts3ude2NdipHrk2TzLHcJaSpNHGvqXlVUlUTsCqdptDnchA
+3yWUJGe8H00FixO7FVyOwPYrQI7e/4iDN+Q5O53gNhj6Jxb64Us+/c7/fWjotMV4
+6wwO/DCtTIIPt0K2pFEX6BZ8
+=ui9b
+-----END PGP SIGNATURE-----
 
---===============7555200137735438432==--
+--===============8858386132763454234==--
