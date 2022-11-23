@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4824740043348932261=="
+Content-Type: multipart/mixed; boundary="===============4268488684304032424=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Wed, 23 Nov 2022 19:03:28 -0000
-Message-Id: <166923020884.20828.10331842713915674937@gitolite.kernel.org>
+Date: Wed, 23 Nov 2022 19:03:46 -0000
+Message-Id: <166923022661.20987.16696866157299084984@gitolite.kernel.org>
 
---===============4824740043348932261==
+--===============4268488684304032424==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,41 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/char-misc-testing
-    old: ab760791c0cfbb1d7a668f46a135264f56c8f018
-    new: fa1ba41c17cd786925720bc1a9554d6c6624923d
+    old: fa1ba41c17cd786925720bc1a9554d6c6624923d
+    new: 02cd3032b154fa02fdf90e7467abaeed889330b2
     log: |
-         fa1ba41c17cd786925720bc1a9554d6c6624923d firmware: google: fix a NULL vs IS_ERR() check in cbmem_entry_probe()
+         61c80d1c3833e196256fb060382db94f24d3d9a7 cxl: fix possible null-ptr-deref in cxl_guest_init_afu|adapter()
+         02cd3032b154fa02fdf90e7467abaeed889330b2 cxl: fix possible null-ptr-deref in cxl_pci_init_afu|adapter()
          
 
---===============4824740043348932261==
+--===============4268488684304032424==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1669230206 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1669230224 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1669230205-41635bc2eb265127d32a25e0563f3dd150c0ccec
+nonce 1669230223-42368db789719619a8e1707b8ddd46916f19d37a
 
-ab760791c0cfbb1d7a668f46a135264f56c8f018 fa1ba41c17cd786925720bc1a9554d6c6624923d refs/heads/char-misc-testing
+fa1ba41c17cd786925720bc1a9554d6c6624923d 02cd3032b154fa02fdf90e7467abaeed889330b2 refs/heads/char-misc-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmN+bn4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+jfMP/3aMH5cg5835IUz/ou3E
-FKv8E2xjwaYPHqLHFWHMWJy+zcVmWfwhP8PqgwDbdxjj97UYAlcVQXSR9JmVYapp
-beOsGB7nPZJVp3nNyodwiJdjDwsDBYtMpQ5RIDtbmGCE9CRONGiYuqWIfD6m0AIl
-BEz5Cl7wDuJFU7WTR4fZBD6bKEjgtwMYrNuYUy1uuUwkbs1zMOvp8E3Hbrr/mZ0E
-hjOG00zeSryW4ULjtIo0NegwcHS0Xv4emIWh+JRr/W3MPBwraVWeFUp6HnzSVF6G
-FnJWPUB5zMaQf4lbm6jbTzBE3OhVVzFYcA/8gHGmF8kER0oryxURT2YPXCSt2RPp
-nEYFv2PTFNE290a49+O4ZTOxg2OdX6r2o9WzZcIecR822W6FYUtURT+neZpqv27Y
-6a0mzLKIAv7emlRRKMnTHxiX4chWzJ1BTIxgQY2CJhZTwL6NUdNH/84V9igt6Bdk
-LtLCez75QZQ9PvgClziv6KYGBFaH/2xpAHn6zXQOmDgUXlRCCfyPpBJrj+v4qgmD
-/C+PtWCE7vAPt3CC+B+wOoqhSoYhddjOSWdwsgqsiXjcf3ipv2LeAfsr7Hc4Ix2K
-LZ9YEhaMjQVsDk/DK+JaHPjzdfppTvjXw0TiumMBlJrj1HUDsuftPV64AjAtWxYq
-6AeQoRKnFn4LrANLVB6TFpUn
-=6O8D
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmN+bpAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+SJoP/0YA7NoEw+LmqBPkQB7O
+MAoq7vXzEX88E2iYij7SizWQw9VDBmGeRtq58o155DDzkRILcf9xhWAsc6R2j1Mf
+1VQ+S3orssjhITfsJGgUSu0HflR7OogEil9k+fd8xmuPXVGCF96tUiB6FnIBQsDV
+TKeoTI7p1OuOWluV5ntYgOIqTxR3/VVZ7qsZF09xT//7EadiFJnzu9DNkCeiR71i
+PYNShV031ComB2HmAecBZ1fAjbn4qOqX933WjAiSuheQWuDK+r/sb+bO0Yi2DRwE
+pl3u4wGlWNVaxD6uG5oicA+E89omjIQKxcwOIimH749AaKH1wBABai/9mN5E8qru
+6rXV4TlAoGmLc3LmijFMlayb+IYDnsFl57ZFPuf5JGVcda7qGD/91yrCiB8VVk+E
+AHwLESKiazkthRECIpC4IbpSjxx3NbZ2wBox9ezdngLIfaxG68iK06Z7AGBCse9l
+0shdH0SUnVfAjFMDG7wJK5hDZSxRV2+orsIz+re0MbRDu/2KQGMoKTY8kTvSod5g
+kPp6be7l4dC8OpJuKgUl+7jSL6kW6Sl4NSk1r2/vFGw28tbyq7s9UI13ECN30W2J
+jAWJ/jPuoUWKPIJuulaxWOA2uuShqiOAITrPHWXF8oFGEVHQY7qpvdk8cZWgUpQC
+tzTiXhHSUB6Q24BAjJldCR0T
+=ItVx
 -----END PGP SIGNATURE-----
 
---===============4824740043348932261==--
+--===============4268488684304032424==--
