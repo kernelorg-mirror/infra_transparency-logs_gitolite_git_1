@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2215921971799336725=="
+Content-Type: multipart/mixed; boundary="===============7104645447563803513=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Wed, 23 Nov 2022 18:45:55 -0000
-Message-Id: <166922915536.7912.10356788894193850766@gitolite.kernel.org>
+Date: Wed, 23 Nov 2022 18:47:00 -0000
+Message-Id: <166922922079.8401.7435902159346281561@gitolite.kernel.org>
 
---===============2215921971799336725==
+--===============7104645447563803513==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,57 +17,60 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/char-misc-testing
-    old: ce9c0b06abc44d51e81ce36b83a81e960034f3ee
-    new: 5f115bb92a631b01bee7ca2310c6c353a770656e
-    log: revlist-ce9c0b06abc4-5f115bb92a63.txt
+    old: 5f115bb92a631b01bee7ca2310c6c353a770656e
+    new: a606dd6253b8de8dc81a1112ab702edfe7a98d72
+    log: revlist-5f115bb92a63-a606dd6253b8.txt
 
---===============2215921971799336725==
+--===============7104645447563803513==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1669229153 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1669229218 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1669229152-69c37b89f8f2c8297faf2e370adb5320b2fcb9b8
+nonce 1669229217-bc02b52bc5de1ef04bdfb890823834237cb00b40
 
-ce9c0b06abc44d51e81ce36b83a81e960034f3ee 5f115bb92a631b01bee7ca2310c6c353a770656e refs/heads/char-misc-testing
+5f115bb92a631b01bee7ca2310c6c353a770656e a606dd6253b8de8dc81a1112ab702edfe7a98d72 refs/heads/char-misc-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmN+amEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+MXgQAMXWRe5yIKSkx9384h45
-7HLtog4rXvoElNLNxTa/AMHbK6nG1vrntnym6WJVQfaQDr0iepUGYRSbAke1ydpb
-2ggtwpqYKrCpNXZsUdEz/zAOCg+UA04BWMKYS9J7yRWHJVT6fzgdVFN4graiHwyo
-TDHWEVlt+JN1VkDCWNpZ8TtFSlY0AoxO/KN9S6b4Q69bwn9sSWGkB7HGHmQrhEsF
-Y/CPepY/7uHeKTEtoBuWKOQW/prplbrEfsdgIFXugmRyZJVBdfw30jgCQ5G6j2GR
-GHNSpT7s2kGkeBzxAol81jafXIMVWdEHEdM3UGfFrj+Quh3gGuJY6s19VBuCd5f5
-WghFrqABZ9Kk6qxtWWP9yrmUYog2o9ESX8ZAZDwrWixqOBHhdKxpnuPTzUPD/XQ9
-AIFgcZF06bH5opyHGLe9C7um0F8utht7IWo+hvlRGCD6+hX91FDDnuvUY58T6Wef
-ESpciiT2okx+PSj09tKG+WwQ1OK8k0+59cT9BtEg53uWLnRfPfP9/Ko9OpM/Rve3
-LMRIA4PyIEQyQpWoYbL7Ja2f0pGBEtMCeNrabZMIryfQKPrFJ45nzzbMYF7Jf/qD
-rs5sfL2FZxKwUDXeNozBoEwz/W6oJBsIoAMQ7f3+Do+1jmBaes1kVUbowygukmgF
-oKE7DNbreZq2I3TWKiF4354x
-=S86S
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmN+aqIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+QicP/2c4OZs3qusbTL6GlhNX
+YJQ4HGsRoL6aZPjr6eu27+vgZ4TQSwM2LUrU5POCqmfiZz+SoGGsZ0THGgWegXmF
+atCTWpDc3G9lqqFDFC0Mp61pmyZ5e6tiuQlLYV1IaXVy01yDC4YxBa9yQinYAZc7
+14Us1Gq09VG3fjU14zixEhDFc2y0FNYS/8F69Pzhq2nMpveDp7Pq+We8T6a9QDbF
+aaIWg1xbLSJtlvcWf40m9bxHSH+9dS16ixNmYHcp2zWdfgei4z+5Fyhnk1UIFtKv
+e9f+vkdD5ElFQMsuWHoSyUt6gS2ObPeao1MZlo7bolLfZT8hw6vJl3AgPvmfjDHz
+53xFwudSVZAI8suJBH0ZUe3N1QnU08jc/k0utywiKu3zrAdqL2YDEWIcJYoXBSDd
+kfsi144/ELWLuhqC/da0/k+nU4OSptxR/r2RJiC1HPPgD4kRvDF0/gcYwoXA9BNA
+HZiYEQZoPoE1lolG04l14BmWFXQDxSxj8IVbHD2LwZEPbITpRudgLs4/Ako0h0ag
+ffsiefy3x+gFFY0inRpki56Vfkpqt0LW44sRrWHOByWtgVlj65gZ2Z4AXT5/Iu9X
+B3FuHV/wA4ofoeQEmMaA8x3bV/sS5t3JxwFDvspOXTTK8UZo6k9o/CpaM0P/egR5
+182PoybUbND8Lt3UNUKt5fvC
+=4Ivx
 -----END PGP SIGNATURE-----
 
---===============2215921971799336725==
+--===============7104645447563803513==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ce9c0b06abc4-5f115bb92a63.txt
+Content-Disposition: attachment; filename=revlist-5f115bb92a63-a606dd6253b8.txt
 
-97e1a5309190aca528c7e12697a898bda793a460 slimbus: qcom-ngd-ctrl: check for device runtime PM status during ISR
-63c60a226c908f46589b57b5bcb220ca82a76cc5 slimbus: qcom-ngd-ctrl: drop PM runtime counter on transfer error paths
-434d25728171aa72ed1b1c4d248527cbf6b6c99b slimbus: stream: handle unsupported bitrates for presence rate
-4594cb4b76c6cf9acf81d3044c6a6817ed4a3781 slimbus: qcom-ngd-ctrl: add support for 44.1 Khz frequency
-a82b1ec34e9bea94058f429560e311e5ca634356 slimbus: stream: add checks for invalid unprepare/disable usage
-8c8112d7c442579cca821836bbcc46b747ceca74 slimbus: qcom-ctrl: drop unneeded qcom,apq8064-slim compatible
-3d58b933c9eb2da5745c485bc7008d29c0eaddac slimbus: qcom-ctrl: use devm_platform_ioremap_resource_byname()
-1d01bcb4659cfca87d92075b87cdadb0a9897d14 slimbus: qcom-ngd-ctrl: use devm_platform_get_and_ioremap_resource()
-319a538d618fea33434387c4502361bb8f047e11 slimbus: qcom-ngd-ctrl: reinit the reconf completion flag
-c53627f83abc9fb4ac5cbd9dc1c898008bcc2ac8 dt-bindings: slimbus: convert bus description to DT schema
-717bd3dfc4ced0a12bc177b267a0c6fd23eec620 dt-bindings: slimbus: qcom,slim: convert to DT schema
-5f115bb92a631b01bee7ca2310c6c353a770656e dt-bindings: slimbus: qcom,slim-ngd: convert to DT schema
+b9bf27386dddab16bc455124c54cbeea6cb9a1ca Accessiblity: speakup_soft: specifying the default driver parameters among the module params
+5e3e27f040ec3611db14a5efe23c9108831c38be Accessiblity: speakup_apollo: specifying the default driver parameters among the module params
+d5dab7ff97b8370d8bf406d9be2113b1df7d2f0c Accessiblity: speakup_audptr: specifying the default driver parameters among the module params
+95892c4e70f391955dcd69dd25bd6be8f888590f Accessiblity: speakup_bns: specifying the default driver parameters among the module params
+f613f00eb046970f20f4abe1ab8b26c1424a4f5a Accessiblity: speakup_decext: specifying the default driver parameters among the module params
+b75cfeb116de5894a2e7cc6f8bcf53c4910a7c6f Accessiblity: speakup_decpc: specifying the default driver parameters among the module params
+44d3e977dd361f4491bd5adc31f32ca13243703b Accessiblity: speakup_dectlk: specifying the default driver parameters among the module params
+251ca7da3087361d25bfd05e23ebd711e82ccf20 Accessiblity: speakup_dtlk: specifying the default driver parameters among the module params
+81188dd195788a1b314570c5d901a88de2179cf4 Accessiblity: speakup_dummy: specifying the default driver parameters among the module params
+031c122f8950f939b715781dadea0b7659f1ea3b Accessiblity: speakup_keypc: specifying the default driver parameters among the module params
+88dce45b3282647ac0b2916d4820956cd239a1e9 Accessiblity: speakup_ltlk: specifying the default driver parameters among the module params
+9744f41fe0879eb971a5cab950f7022ac49c0a92 Accessiblity: speakup_spkout: specifying the default driver parameters among the module params
+dfa6c10c89f8e9d001d649201bd5a5d821c23c36 Accessiblity: speakup_txprt: specifying the default driver parameters among the module params
+cf0b4652d6acaed768b81b153872476a10b7db3b Accessiblity: speakup_acntpc: specifying the default driver parameters among the module params
+a606dd6253b8de8dc81a1112ab702edfe7a98d72 Accessiblity: speakup_acntsa: specifying the default driver parameters among the module params
 
---===============2215921971799336725==--
+--===============7104645447563803513==--
