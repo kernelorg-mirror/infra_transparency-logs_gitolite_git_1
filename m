@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7555102501605354640=="
+Content-Type: multipart/mixed; boundary="===============6112415483395695741=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Wed, 23 Nov 2022 11:50:25 -0000
-Message-Id: <166920422540.27917.14794761515544713781@gitolite.kernel.org>
+Date: Wed, 23 Nov 2022 11:58:11 -0000
+Message-Id: <166920469105.1072.9288319914395576428@gitolite.kernel.org>
 
---===============7555102501605354640==
+--===============6112415483395695741==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,47 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/soc/soc
 user: arnd
 changes:
-  - ref: refs/heads/arm/defconfig
-    old: 972d89438dc959358466df15e0dda80996ff658b
-    new: 3d7be6e5fb27f1653a74659eed2ab09382608874
-    log: revlist-972d89438dc9-3d7be6e5fb27.txt
-  - ref: refs/heads/arm/fixes
-    old: ff5a19909b49fe5c0b01ae197f84b741e0f698dc
-    new: 706450b5c3212a7d372e68170a28170239ccfe6e
-    log: revlist-ff5a19909b49-706450b5c321.txt
-  - ref: refs/heads/arm/soc
-    old: 894799e1f4969822d7039628897e102835677140
-    new: c93d8b457461d235ccff6c6864ead6a55ef1c18b
-    log: |
-         c93d8b457461d235ccff6c6864ead6a55ef1c18b ARM: ixp4xx: Remove unused debug iomap
-         
-  - ref: refs/heads/soc/dt
-    old: 8ccf49d7fb7597ca90f6d3ba60b9e6baa9bde69e
-    new: 62cc4a55fd7bfa2fcc2f0ac6c1f048e54f79f9ad
-    log: revlist-8ccf49d7fb75-62cc4a55fd7b.txt
+  - ref: refs/heads/for-next
+    old: a230845f2e1139acc5abd015289ff810d539b02e
+    new: 64a8d9c50544d8777d1f43a7ddb35b421c1f17d5
+    log: revlist-a230845f2e11-64a8d9c50544.txt
 
---===============7555102501605354640==
+--===============6112415483395695741==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-972d89438dc9-3d7be6e5fb27.txt
-
-cea42b8d79663fde7a7138b838dab0b931f4e128 ARM: qcom_defconfig: enable rest of ARMv7 SoCs pinctrl drivers
-d780386cd44a2f44c90abdb41487f4cdb8be7213 arm64: defconfig: enable rest of Qualcomm ARMv8 SoCs pinctrl drivers
-9f7e3ed268520f4d539c03d4d48a604a9658ba37 arm64: defconfig: Enable TI_TFP410 DVI bridge
-e19d0bf25c8119eaf401041c55af4edb5beab90c arm64: defconfig: Enable Qualcomm QCE crypto
-c03fa428ac6e439afa1d437776365a632ce24262 arm64: defconfig: build-in Qualcomm SC7180 and SM8450 interconnects
-83f3da58682861327e571b3b5149d51a0d8bab27 arm64: defconfig: Enable missing configs for mt8183-jacuzzi-juniper
-58e1a96d284562baa9b3371fc0999fb0eab9f3d3 Merge tag 'v6.1-next-defconfig' of https://git.kernel.org/pub/scm/linux/kernel/git/matthias.bgg/linux into arm/defconfig
-f8d331698dee72c0b28d1abb0af056c2005e3174 Merge tag 'ti-k3-config-for-v6.2' of git://git.kernel.org/pub/scm/linux/kernel/git/ti/linux into arm/defconfig
-5658baf2e3f5e34f978dd106f18bd3a83e25a6c7 Merge tag 'qcom-arm64-defconfig-for-6.2' of https://git.kernel.org/pub/scm/linux/kernel/git/qcom/linux into arm/defconfig
-3d7be6e5fb27f1653a74659eed2ab09382608874 Merge tag 'qcom-defconfig-for-6.2' of https://git.kernel.org/pub/scm/linux/kernel/git/qcom/linux into arm/defconfig
-
---===============7555102501605354640==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ff5a19909b49-706450b5c321.txt
+Content-Disposition: attachment; filename=revlist-a230845f2e11-64a8d9c50544.txt
 
 ef40e88d1be172ca05e6e8cef00284a1cf4f43d8 arm64: dts: rockchip: Drop RK3399-Scarlet's repeated ec_ap_int_l definition
 adbab347ec8861aa80d850693df3cd005ec65a99 arm64: dts: rockchip: Fix gmac failure of rgmii-id from rk3566-roc-pc
@@ -64,25 +33,9 @@ b44bc59d0d279fa4f3dc11b895f2c8f77719885d arm64: dts: rockchip: remove i2c5 from 
 463be3cb357dab7d7e4d8dcc7c15c642e10c5bef arm64: dts: rockchip: add enable-strobe-pulldown to emmc phy on nanopi4
 2dcd7e0c821fe9b663f7d3382b6d2faa8edf2129 arm64: dts: rockchip: fix quartz64-a bluetooth configuration
 849c19d14940b87332d5d59c7fc581d73f2099fd arm64: dts: rockchip: keep I2S1 disabled for GPIO function on ROCK Pi 4 series
+cea42b8d79663fde7a7138b838dab0b931f4e128 ARM: qcom_defconfig: enable rest of ARMv7 SoCs pinctrl drivers
+d780386cd44a2f44c90abdb41487f4cdb8be7213 arm64: defconfig: enable rest of Qualcomm ARMv8 SoCs pinctrl drivers
 91e8b74fe6381e083f8aa55217bb0562785ab398 arm64: dts: rockchip: lower rk3399-puma-haikou SD controller clock frequency
-67a9aeef44e42b1ac2becf5e61eae0880f48d9db arm64: dts: rockchip: fix node name for hym8563 rtc
-2af5bbe32f50d196dd680478a889d12429b3e8cf arm64: dts: rockchip: remove clock-frequency from rtc
-17b57beafccb4569accbfc8c11390744cf59c021 arm: dts: rockchip: fix node name for hym8563 rtc
-6122f3be70d90a1b2a1188d8910256fc218376a9 arm: dts: rockchip: remove clock-frequency from rtc
-942b35de22efeb4f9ded83f1ea7747f3fe5a3bb2 ARM: dts: rockchip: fix adc-keys sub node names
-f2bd2e76d6ea13e12849975adae46145375532a4 arm64: dts: rockchip: fix adc-keys sub node names
-dd847fe34cdf1e89afed1af24986359f13082bfb ARM: dts: rockchip: fix ir-receiver node names
-de0d04b9780a23eb928aedfb6f981285f78d58e5 arm64: dts: rockchip: fix ir-receiver node names
-11871e20bcb23c00966e785a124fb72bc8340af4 ARM: dts: rockchip: rk3188: fix lcdc1-rgb24 node name
-562105c1b072411c71ac2202410d83ee79297624 arm64: dts: rockchip: Fix Pine64 Quartz4-B PMIC interrupt
-706450b5c3212a7d372e68170a28170239ccfe6e Merge tag 'v6.1-rockchip-dtsfixes1' of git://git.kernel.org/pub/scm/linux/kernel/git/mmind/linux-rockchip into arm/fixes
-
---===============7555102501605354640==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8ccf49d7fb75-62cc4a55fd7b.txt
-
 dacf4705cee54eef4406a886a0a50a6f445969f8 arm64: dts: ti: k3-am64: Enable UART nodes at the board level
 b80f75d8f68cad4efa250e4a3152932f59c756cc arm64: dts: ti: k3-am64: Enable I2C nodes at the board level
 79d4aa623f6c9d47aa29b6b4a3fa46c09f74bfae arm64: dts: ti: k3-am64: Enable SPI nodes at the board level
@@ -115,7 +68,17 @@ a9ed915cd55c883fed72e50b45988fa4305496a7 arm64: dts: ti: k3-j7200: Enable I2C no
 3fb0402f65959edc9a14842dc36828d2c7109ae2 arm64: dts: ti: k3-j721s2: Enable Mailbox nodes at the board level
 06639b8ae0e9be0cf0195209e6b69f4e254687b0 arm64: dts: ti: k3-j721s2: Enable MCAN nodes at the board level
 0aef5131380628e2a9bfcbbcfed5d6477c8f9651 arm64: dts: ti: k3-j721s2: Enable I2C nodes at the board level
+67a9aeef44e42b1ac2becf5e61eae0880f48d9db arm64: dts: rockchip: fix node name for hym8563 rtc
+2af5bbe32f50d196dd680478a889d12429b3e8cf arm64: dts: rockchip: remove clock-frequency from rtc
+17b57beafccb4569accbfc8c11390744cf59c021 arm: dts: rockchip: fix node name for hym8563 rtc
+6122f3be70d90a1b2a1188d8910256fc218376a9 arm: dts: rockchip: remove clock-frequency from rtc
+942b35de22efeb4f9ded83f1ea7747f3fe5a3bb2 ARM: dts: rockchip: fix adc-keys sub node names
+f2bd2e76d6ea13e12849975adae46145375532a4 arm64: dts: rockchip: fix adc-keys sub node names
+dd847fe34cdf1e89afed1af24986359f13082bfb ARM: dts: rockchip: fix ir-receiver node names
+de0d04b9780a23eb928aedfb6f981285f78d58e5 arm64: dts: rockchip: fix ir-receiver node names
+11871e20bcb23c00966e785a124fb72bc8340af4 ARM: dts: rockchip: rk3188: fix lcdc1-rgb24 node name
 e5bad300e46c5bd0c5cf0a89c74116fbbf608a8c arm64: dts: ti: Rename clock-names adc_tsc_fck to fck
+9f7e3ed268520f4d539c03d4d48a604a9658ba37 arm64: defconfig: Enable TI_TFP410 DVI bridge
 65e8781ac90e74242ebb1a98bf415809e8387aaf arm64: dts: ti: k3-am65: Enable UART nodes at the board level
 c0a5ba87af56f073145dd026280454aec4a44db0 arm64: dts: ti: k3-am65: Enable I2C nodes at the board level
 1c49cbb19b1f2c61168741f987e65b50dd2f97de arm64: dts: ti: k3-am65: Enable SPI nodes at the board level
@@ -127,6 +90,10 @@ b08bf4a5c0ed0a6b8472ca78ccf416d73d2609aa arm64: dts: ti: k3-am65: Enable MCAN no
 7ff8432c272e3556461b7c9daad8156ae446e812 arm64: dts: ti: k3-am65: Enable PCIe nodes at the board level
 3f9089ea008c195b6cf449735c5a3a5fcac1a382 arm64: dts: ti: k3-am65: Enable Mailbox nodes at the board level
 fdb02688f22b397c811328bf826b5b110d5cdc41 arm64: dts: ti: k3-am65: Enable McASP nodes at the board level
+e19d0bf25c8119eaf401041c55af4edb5beab90c arm64: defconfig: Enable Qualcomm QCE crypto
+c03fa428ac6e439afa1d437776365a632ce24262 arm64: defconfig: build-in Qualcomm SC7180 and SM8450 interconnects
+83f3da58682861327e571b3b5149d51a0d8bab27 arm64: defconfig: Enable missing configs for mt8183-jacuzzi-juniper
+562105c1b072411c71ac2202410d83ee79297624 arm64: dts: rockchip: Fix Pine64 Quartz4-B PMIC interrupt
 20f67d1dfc6ad67fd70cd000b9d017447a50dbbd arm64: dts: ti: k3-j721e-main: Add dts nodes for EHRPWMs
 45924dffb58e13b902eca47e7cd960843176f075 arm64: dts: ti: k3-j721e-sk: Add pinmux for RPi Header
 81685b3d022765e5bfeaf476f70cff0a552c65bf arm64: dts: ti: Trim addresses to 8 digits
@@ -173,9 +140,22 @@ fae14a1cb8dddb83bb923093aade3470a872f048 arm64: dts: ti: Add k3-j721e-beaglebone
 362e8be2ec04a6aa04db7d2984b8558815a6b956 ARM: dts: wpcm450: Add clock controller node
 c3a636be6b8d65aadd5d1ac3aed51c7704206a85 ARM: dts: wpcm450: Enable watchdog by default
 88cfe56ea64a4cc1038c18b9dd416d817d1c8ae5 ARM: dts: nuvoton: wpcm450: Add missing aliases for serial0/serial1
+c93d8b457461d235ccff6c6864ead6a55ef1c18b ARM: ixp4xx: Remove unused debug iomap
+58e1a96d284562baa9b3371fc0999fb0eab9f3d3 Merge tag 'v6.1-next-defconfig' of https://git.kernel.org/pub/scm/linux/kernel/git/matthias.bgg/linux into arm/defconfig
+f8d331698dee72c0b28d1abb0af056c2005e3174 Merge tag 'ti-k3-config-for-v6.2' of git://git.kernel.org/pub/scm/linux/kernel/git/ti/linux into arm/defconfig
+5658baf2e3f5e34f978dd106f18bd3a83e25a6c7 Merge tag 'qcom-arm64-defconfig-for-6.2' of https://git.kernel.org/pub/scm/linux/kernel/git/qcom/linux into arm/defconfig
+3d7be6e5fb27f1653a74659eed2ab09382608874 Merge tag 'qcom-defconfig-for-6.2' of https://git.kernel.org/pub/scm/linux/kernel/git/qcom/linux into arm/defconfig
+66b55cae49564e0e9a52616247f3c96a61774c2b Merge tag 'qcom-drivers-for-6.2' of https://git.kernel.org/pub/scm/linux/kernel/git/qcom/linux into soc/drivers
 714aac5dcd3a03cefa42ec4d7597eca36dd1a75f Merge tag 'tegra-for-6.2-arm-dt' of git://git.kernel.org/pub/scm/linux/kernel/git/tegra/linux into soc/dt
 375aab1018181a9f7d123c5ec72fae8867afa8a1 Merge tag 'aspeed-6.2-devicetree' of git://git.kernel.org/pub/scm/linux/kernel/git/joel/bmc into soc/dt
 58fd11a796bde81ab2c09f589fa5c2b2bc393e9d Merge tag 'ti-k3-dt-for-v6.2' of git://git.kernel.org/pub/scm/linux/kernel/git/ti/linux into soc/dt
 62cc4a55fd7bfa2fcc2f0ac6c1f048e54f79f9ad Merge tag 'nuvoton-6.2-devicetree' of git://git.kernel.org/pub/scm/linux/kernel/git/joel/bmc into soc/dt
+706450b5c3212a7d372e68170a28170239ccfe6e Merge tag 'v6.1-rockchip-dtsfixes1' of git://git.kernel.org/pub/scm/linux/kernel/git/mmind/linux-rockchip into arm/fixes
+9e380795a56907ff9984ae476ff54d7cc089dc26 Merge branch 'arm/fixes' into for-next
+a13c5c7ca024be701befd01ac3edc9ae6db4e352 Merge branch 'soc/dt' into for-next
+dc0aedb5302c7f08d87a98c0f1400ae19b6add84 Merge branch 'soc/drivers' into for-next
+ffe9c320ccc5175c55ea380466fe08dd59d2b0c6 Merge branch 'arm/defconfig' into for-next
+0051e1fe1f6f752e7025bdc7238e0082412420b1 Merge branch 'arm/soc' into for-next
+64a8d9c50544d8777d1f43a7ddb35b421c1f17d5 soc: document merges
 
---===============7555102501605354640==--
+--===============6112415483395695741==--
