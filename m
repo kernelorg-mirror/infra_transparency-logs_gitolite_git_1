@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2245043140302637673=="
+Content-Type: multipart/mixed; boundary="===============2915460568837202111=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Wed, 23 Nov 2022 18:51:03 -0000
-Message-Id: <166922946392.11714.3149073337397941411@gitolite.kernel.org>
+Date: Wed, 23 Nov 2022 18:56:32 -0000
+Message-Id: <166922979289.16507.14128532316796628260@gitolite.kernel.org>
 
---===============2245043140302637673==
+--===============2915460568837202111==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,41 +16,49 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-linus
-    old: 022b68f271de0e53024e6d5e96fee8e76d25eb95
-    new: 8ac3b5cd3e0521d92f9755e90d140382fc292510
+  - ref: refs/heads/char-misc-testing
+    old: 27158c72678b39ee01cc01de1aba6b51c71abe2f
+    new: 99b0cb3f5f8d67f4552c24d9b0aa6cda38f558aa
     log: |
-         8ac3b5cd3e0521d92f9755e90d140382fc292510 lib/vdso: use "grep -E" instead of "egrep"
+         e68a558fb2af06daa38f86dad25061ddd90ab131 speakup: Fix building as extmod
+         1dbb4f0235a450f22e518124cbf9b922802ce38f virt: acrn: Mark the uuid field as unused
+         fd2c930cf6a5b9176382c15f9acb1996e76e25ad misc: tifm: fix possible memory leak in tifm_7xx1_switch_media()
+         643a16a0eb1d6ac23744bb6e90a00fc21148a9dc misc: sgi-gru: fix use-after-free error in gru_set_context_option, gru_fault and gru_handle_user_call_os
+         7198cf0f1ca90581f27452664216a662ad72aed5 misc: lis3lv02d/lis3lv02d_i2c: Convert to i2c's .probe_new()
+         59ee8ca4eeda35d850e4c81ec3065dba10023842 misc: eeprom/eeprom: Convert to i2c's .probe_new()
+         8427bd8bdee8f35797cade56fe173fbea990e38c misc: tsl2550: Convert to i2c's .probe_new()
+         327e1ad186d91b12b6ece0b21178c07edef01806 misc: isl29020: Convert to i2c's .probe_new()
+         99b0cb3f5f8d67f4552c24d9b0aa6cda38f558aa misc: eeprom/max6875: Convert to i2c's .probe_new()
          
 
---===============2245043140302637673==
+--===============2915460568837202111==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1669229461 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1669229790 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1669229461-348171e2b37bba006d4f7c88faa46ef1f4eeca1c
+nonce 1669229789-67b579c4708d249e8ce57df54e82967e0088a4c6
 
-022b68f271de0e53024e6d5e96fee8e76d25eb95 8ac3b5cd3e0521d92f9755e90d140382fc292510 refs/heads/char-misc-linus
+27158c72678b39ee01cc01de1aba6b51c71abe2f 99b0cb3f5f8d67f4552c24d9b0aa6cda38f558aa refs/heads/char-misc-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmN+a5UbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+MTIP/0jhj9jSU7LwAFftpUqh
-re84zaM3gEORtifjkFg5DyuCdTdstBeoEPjHl2Sgqq7twE2uXwO0/KEY7Og0WRlN
-TefOOGMrPRKtcc1JD/6F51jeNPOz8rGthGp0xzswZEcTZXere8MFlhEpI8YMIh+z
-1dYcG/aNbEzjlAw1luRNs2LdBLk5TD4vGf8vg/+ud8Q73gliVnZ0oXLpzGvP9aKD
-kwp9dZ1LBnUWRJ1KbU3vcOVsnvGamsK/CPcrQqSdnH6yA1X/wAS9UTkM5dKPmEOP
-3B3fqodUiwVJi9eKPHxEAkiefwKI9+mkJdFHujqGj82ElYECiyEp6BJoyH7Oi5YA
-S5Izk3qTo3elDR6WPHDj8CVVLJZBDgylNppPP+Cqvt81hmaWQYyY9ApHjdttfqJL
-ExrJ9rvoA40G113NDSrCXq1syh+pcubFpU13MlFsFIFDMWNipgKHirW5b242pcTi
-LmIij1v5Di7RyVMeE0/72cQxrXql7er87DyHG6oFXm3nGfVxLYMHnI2rIuF0lM70
-HfQemyvrzYm9CKRUmYBuFhg5TY7ePP6VLvs8RdI94fMwI9mzQbwuzG0uYFTZiAOG
-Em5mXnpTdfyF3Wv81yDkyUQXQh0sc8zqGr+bpdic6JU9yhHcgWynkORj+tsBfR3T
-6fdKJ/JRbo7+nRufGiL3cOh9
-=ujfG
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmN+bN4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+knAP/RzWS6CF9xQIzqXFEq+Q
+7whZXGO08N3Fwc995cY8W9xB6QQ6u539a+Hn2j3vdGhJasUTA7AoyrzyeaVb8jb3
+Okf9WuWdsYhFe8tTIxNmt3S+tNS0DsnUpOOD3H0rcnLB70niv1BLbN4UuBOpdibJ
+6Stzge8VjhTn3jf84hCYzzWDEdDOPtVyVQqvSwHa+H7hXPw5Z0G6fVq7cnXgBxEs
+wZoFKPYmKI0NVh+ZfzQs8KkeeMYLqCkcikEc2L8tDA8yrkZCEoKM6Pn96uV6JodS
+QXuoSbk0/8JAFvW5SJcXIqdsFHKfpp05Dko02XTZjaLRFkvCfZoZEp1T/mLmTDWP
+L/ishDFYGp0Ssf5lsYyGr1rlTjHOI+IoM0HRB1NcWYeFJQKO8iyEk+l/v1NBhQ9M
+Mx5MVTvkduC3iESw6OPICP5GYYea9XKuslCgZ9Iup+A9jqVLRZgACdNMc/kygAkg
+w9+v40WdwZlqd8PS2Pqd1me2CZ3urgaoZL182/SgReDFwwzA6+8q+vTxG+cZ7ukP
+itt8yJ/wp9fjorfGJoFz2+GW5yAkaSkVEYp4tRMmGrd4cmXCDAOUv2dmuulmBEra
+ZiffKXyViZoBAd1SLVxU21uA6Ngia4N9GKKjnqEgbMSmV/xfqtuKrPua1KIo9hp0
+vy6jTZhbjiq0zp8yeRpA5DCT
+=TjdI
 -----END PGP SIGNATURE-----
 
---===============2245043140302637673==--
+--===============2915460568837202111==--
