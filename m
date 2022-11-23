@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1985972364666623642=="
+Content-Type: multipart/mixed; boundary="===============0085739683189944758=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Wed, 23 Nov 2022 15:17:15 -0000
-Message-Id: <166921663590.17967.9791531851823457846@gitolite.kernel.org>
+Date: Wed, 23 Nov 2022 15:17:24 -0000
+Message-Id: <166921664415.18070.8642541726955445225@gitolite.kernel.org>
 
---===============1985972364666623642==
+--===============0085739683189944758==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
-  - ref: refs/heads/tmp.perf/core
-    old: e42b0ee61282a2f969d7267e92ea88d8f5a4e2ce
+  - ref: refs/heads/perf/core
+    old: 63a3bf5e8d9e79ce456c8f73d4395a5a51d841b1
     new: c66a36af7ba3a628453da1d91f42ee64fb36ea5a
-    log: revlist-e42b0ee61282-c66a36af7ba3.txt
+    log: revlist-63a3bf5e8d9e-c66a36af7ba3.txt
 
---===============1985972364666623642==
+--===============0085739683189944758==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e42b0ee61282-c66a36af7ba3.txt
+Content-Disposition: attachment; filename=revlist-63a3bf5e8d9e-c66a36af7ba3.txt
 
 ac5408991ea6b06e29129b4d4861097c4c3e0d59 Input: synaptics - switch touchpad on HP Laptop 15-da3001TU to RMI mode
 a01aca4b05174b6dee2392ec44406f85e0f8bd46 dt-bindings: input: touchscreen: Add compatible for Goodix GT7986U chip
@@ -385,4 +385,4 @@ d4223e1776c30b2ce8d0e6eaadcbf696e60fca3c perf trace: Return error if a system ca
 7b7c22ccdf275018f715af95b7d052e8d4c6c690 MAINTAINERS: Update John Garry's email address for arm64 perf tooling
 c66a36af7ba3a628453da1d91f42ee64fb36ea5a perf lock contention: Do not use BPF task local storage
 
---===============1985972364666623642==--
+--===============0085739683189944758==--
