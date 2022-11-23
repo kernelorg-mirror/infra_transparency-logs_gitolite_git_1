@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Wed, 23 Nov 2022 12:48:07 -0000
-Message-Id: <166920768725.5585.11181615955362740081@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Wed, 23 Nov 2022 12:54:30 -0000
+Message-Id: <166920807054.9425.5764281499686050806@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: davem
 changes:
   - ref: refs/heads/master
-    old: af295e854a4e3813ffbdef26dbb6a4d6226c3ea1
-    new: a487069e11b6527373f7c6f435d8998051d0b5d9
+    old: c84f6f6c2bb5cd907cd1e770c5b29adb7bf2ae0e
+    new: 9f225444467b98579cf28d94f4ad053460dfdb84
     log: |
-         a487069e11b6527373f7c6f435d8998051d0b5d9 net: usb: qmi_wwan: add u-blox 0x1342 composition
+         9f225444467b98579cf28d94f4ad053460dfdb84 ppp: associate skb with a device at tx
          
