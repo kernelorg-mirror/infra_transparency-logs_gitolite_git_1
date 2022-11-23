@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0463558849570705429=="
+Content-Type: multipart/mixed; boundary="===============3340494506244998799=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Wed, 23 Nov 2022 18:29:28 -0000
-Message-Id: <166922816894.27772.199998146253823768@gitolite.kernel.org>
+Date: Wed, 23 Nov 2022 18:36:59 -0000
+Message-Id: <166922861949.1070.6591024510369735119@gitolite.kernel.org>
 
---===============0463558849570705429==
+--===============3340494506244998799==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,41 +16,44 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-next
-    old: 9f041c5d8296b3a04cf3ead473a124fb538490dc
-    new: 24b3e3dd9c9c742a4dd18e71b6963f9e7ab72911
+  - ref: refs/heads/driver-core-testing
+    old: 24b3e3dd9c9c742a4dd18e71b6963f9e7ab72911
+    new: 9dc5f12f95e00fb0e0500ea4a8da0c0f29e718cb
     log: |
-         24b3e3dd9c9c742a4dd18e71b6963f9e7ab72911 kernfs: fix all kernel-doc warnings and multiple typos
+         40eb28dc17f87cfac69d7755447039e92ac5fbda device property: Get rid of __PROPERTY_ENTRY_ARRAY_EL*SIZE*()
+         c6c76563bd13871739539e20fd3116159e491f5b device property: Move PROPERTY_ENTRY_BOOL() a bit down
+         4d57b4f215e8ba86c36540eaccd3b17bc5ee39c0 device property: Rename goto label to be more precise
+         9dc5f12f95e00fb0e0500ea4a8da0c0f29e718cb device property: Add a blank line in Kconfig of tests
          
 
---===============0463558849570705429==
+--===============3340494506244998799==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1669228168 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1669228617 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1669228167-6591303f1bcbb2b784fe0f4f3af24a9fafb2a5ce
+nonce 1669228616-a1cbd8a3bf38e0d20c83a5b69e1337c2a1a03764
 
-9f041c5d8296b3a04cf3ead473a124fb538490dc 24b3e3dd9c9c742a4dd18e71b6963f9e7ab72911 refs/heads/driver-core-next
+24b3e3dd9c9c742a4dd18e71b6963f9e7ab72911 9dc5f12f95e00fb0e0500ea4a8da0c0f29e718cb refs/heads/driver-core-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmN+ZogbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Y1YQAJbFdb7RESFObGhkQzJe
-FW57OBB8oPKI9XhIs/F7G7XGgWMs5i8llG3EGboGXlwoXBGIguT5bZ1p7UAEkKgS
-ErIqkjBbOFrLJ31lhQ1udoKFCPN5gvodtD5p4vnk/Z3V5z9WJxCZazUptMB7bN0+
-Ak+JTaT185fcOQFxHe9JtE0did85a1YM0EqsenyWO+sw/VXn7AkMcU1rEN8h2pRi
-BhypTZnVQWEy0JByqTH3Z7tr+QabFMju4Oa6Ju76W7gbFC7wFcgBAOHsWVYFtygm
-CwlSSiv8u4Xt4jHlXDzUVFnojG6uhU7/CQ+MJCxfdWJEhMacSG30PThy9PN46K3u
-HFf8J56mzJt1xjgTWTII80Ia8r5/F+5b0/WIU7pgos98krZ8+n/l1AZ7XC0TYWS5
-HXvEq0nj6u1m5e/0QhjrN8uFJtkriQBG5AjGJe4bMM+4CGxW4BUjZocTZPj3cYNa
-74UMY3eB6ckEpD5FZUrkmJYAxPug7urfax5HcownIQM6Zknnp9b5jUTUjli8RzWm
-TnXNvsVQXMTV/cAWi/9cg7sN9VlUuTyLea+ZTpP408MI2Ycaw4zISCo2UNzz5QTL
-hNYOqSUWNImmpg8LZLlMa1ss7GeA9W94tp4s1BFVMl5SfdltBVKaTtH9xNPjc2WO
-8kcc4V/qNTb/pFqj/wPmLHk9
-=ERSq
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmN+aEkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+IlAQALw/Yy3m5X/x+niayRCC
+khQYm6utBdWPJQVFXtt3ke46rNHFxPahkV+OlG5l3BfV3cN6a9aGMp28YNt749G4
+3ZwdV0RPsGlPC/lbBCfm/chQ+p/UIRKv2toAAd8iaJ7HxBd7lQjbIOUJY9Ozx16p
+dLRXuaPSjrnjdYQzjnF2+2CSHpk2K2XVK1JVCeCMWY3XcTzfRG+PbubHJg0LTm0V
+1/pnA205YLY9xRRKXF3mYmI4SsRihghJMUy3KUDSdxadWj26tAXC5OSQqAv/u6zS
+8TffZFinp1U4HmKPuG3+6q9xVDg2cE6dqqUAwHR8jRpX8AWTvuGrcgteXgyl9EEi
+ZW8QdKuVHxGeNThASeWlA43DyQm6DK9ZolEfmFbj6yMKHu7TiIqsIyBDcE/BOjBs
+8ajwWg6RUzVod1WdJqElPQGX2iR4zDJrKNZ/taUcg6f/cQCgaXYJ2RPwitiFqlC5
+RFKXu0NMprx7lSuvK1Wvfzx2coltBDzK7XxGcKCq4YuyTxrDkuUYhsMI6goRprUi
+ILU5ZlKMiTEA7SuR+XENyYPJJ09zZrbQRPTn6T/zg/OdQ7+hSuV9MQ2NoOdXaQh2
+TnhWqrhnaEQxW96/3nDaoqoiavFBMT9h3WFNsY3soCGgQzG0alxcbwBZx/SMOFYc
++dpCIZm+1x8OQYj0+ElMv8k7
+=lLbT
 -----END PGP SIGNATURE-----
 
---===============0463558849570705429==--
+--===============3340494506244998799==--
