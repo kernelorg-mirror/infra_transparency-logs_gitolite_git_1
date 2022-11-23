@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/deller/linux-fbdev
-Date: Wed, 23 Nov 2022 10:06:04 -0000
-Message-Id: <166919796422.19270.7780615805027974372@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/matthias.bgg/linux
+Date: Wed, 23 Nov 2022 10:10:55 -0000
+Message-Id: <166919825559.22535.6919531347847549740@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/deller/linux-fbdev
-user: deller
+repo: pub/scm/linux/kernel/git/matthias.bgg/linux
+user: matthias.bgg
 changes:
-  - ref: refs/heads/for-next
-    old: 55b68e63ab2c3215619dc3dc443394d06e2ade88
-    new: 652888c46397ea46179518f0ba0fd07f016bbc52
-    log: |
-         652888c46397ea46179518f0ba0fd07f016bbc52 fbdev: ep93xx-fb: Add missing clk_disable_unprepare in ep93xxfb_probe()
-         
+  - ref: refs/heads/v6.2-tmp/dts32
+    old: 0000000000000000000000000000000000000000
+    new: 20dc319f400da03a0067269f7c293e1336b8d9e5
