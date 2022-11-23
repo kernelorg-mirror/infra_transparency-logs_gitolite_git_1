@@ -1,16 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mark/linux
-Date: Wed, 23 Nov 2022 13:24:59 -0000
-Message-Id: <166920989924.31450.655713028463121305@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+Date: Wed, 23 Nov 2022 13:30:49 -0000
+Message-Id: <166921024905.5421.2158021853165916948@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mark/linux
-user: mark
+repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+user: masahiroy
 changes:
-  - ref: refs/heads/testing/6.1-rc6
-    old: 0000000000000000000000000000000000000000
-    new: fc0df3505414674b6b9a5b0fa66efa6e547d60a4
+  - ref: refs/heads/for-next
+    old: 3db9322900f013c28a18ec993d1bad880b5cc3ec
+    new: 598afa050403ddbb015ad4d9f8e6b911c3c93d33
+    log: |
+         a2430b25c31840a6dcbf95c65415d5fee2984dbc kbuild: add kbuild-file macro
+         598afa050403ddbb015ad4d9f8e6b911c3c93d33 kbuild: warn objects shared among multiple modules
+         
