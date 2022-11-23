@@ -1,41 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Wed, 23 Nov 2022 14:50:04 -0000
-Message-Id: <166921500435.29429.16300728449652901883@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ogabbay/linux
+Date: Wed, 23 Nov 2022 14:59:28 -0000
+Message-Id: <166921556834.3281.3076603684525809235@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/ogabbay/linux
+user: ogabbay
 changes:
-  - ref: refs/heads/for-6.2/block
-    old: 93c68cc46a070775cc6675e3543dd909eb9f6c9e
-    new: 4284354758d67cf77ab2a4494e28d4c05fb83074
+  - ref: refs/heads/habanalabs-next
+    old: 6825b5f81f273fcc1ec61e7e203b0ea40d9987fc
+    new: 19a17a9fb486b2961dbd7f3fff0d79a144c9a3b6
     log: |
-         ac1171bd2c7a3a32dfbdd3c347919fee32b745a1 elevator: update the document of elevator_switch
-         e0cca8bc9cd8d6176921cb3f5f466d3ccfbc6b99 elevator: printk a warning if switching to a new io scheduler fails
-         f69b5e8f356e4e57e94b806ca1dcb9771933bb9c elevator: update the document of elevator_match
-         4284354758d67cf77ab2a4494e28d4c05fb83074 elevator: remove an outdated comment in elevator_change
-         
-  - ref: refs/heads/for-next
-    old: 449157d5268d68f9ce9445df70776f312af35117
-    new: a50534ad02fc85f179aa57e45be5efcb4a474b09
-    log: |
-         ac1171bd2c7a3a32dfbdd3c347919fee32b745a1 elevator: update the document of elevator_switch
-         e0cca8bc9cd8d6176921cb3f5f466d3ccfbc6b99 elevator: printk a warning if switching to a new io scheduler fails
-         f69b5e8f356e4e57e94b806ca1dcb9771933bb9c elevator: update the document of elevator_match
-         4284354758d67cf77ab2a4494e28d4c05fb83074 elevator: remove an outdated comment in elevator_change
-         a50534ad02fc85f179aa57e45be5efcb4a474b09 Merge branch 'for-6.2/block' into for-next
-         
-  - ref: refs/heads/io_uring-bundle
-    old: 49cf1fa907044e745c1db3a9ce113a792b4a6987
-    new: 71c91d09c08c70a5c13e0481ffa94abe3da94828
-    log: |
-         8bb35a1f0a32b91d18839686d383fc246d81876c io_uring: add support for bundles
-         e50aabe16e418f1cc45df6c406ccfe92923c630d io_uring/bundle: enable deferred completions
-         48831ced433d78d97558efc9457f582117509b3a io_uring/bundle: enable use of IOSQE_ASYNC for bundle requests
-         71c91d09c08c70a5c13e0481ffa94abe3da94828 io_uring/bundle: disable IOSQE_IO_DRAIN on bundle requests
+         56fb517775f4d71dbca2b1fb3562276138361072 habanalabs: fix rc when new CPUCP opcodes are not supported
+         0abcae8b48850e0f488d0eb7232323d93bdc4b13 habanalabs: add RMWREG32_SHIFTED to set a val within a mask
+         408c46bd6eb7a4e2fb9fd686218e4a13b9de844c habanalabs: print context refcount value if hard reset fails
+         1f615120fc9d24a8df7f14b0d1e79f3402330855 habanalabs: don't put context in hl_encaps_handle_do_release_sob()
+         893afb248c7a1f24d17719a5e5f4fe4174ecb60c habanalabs: clear non-released encapsulated signals
+         1b18cf33d6ce63a9f5fe3764d7b20c4738dd1245 habanalabs: make print of engines idle mask more readable
+         5354a2a0018345774ab2517fc2fe107a6cd894fa habanalabs: fail driver load if EEPROM errors detected
+         19a17a9fb486b2961dbd7f3fff0d79a144c9a3b6 habanalabs: fix VA range calculation
          
