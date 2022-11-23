@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Wed, 23 Nov 2022 23:40:48 -0000
-Message-Id: <166924684898.25123.16753103557527352868@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Wed, 23 Nov 2022 23:56:00 -0000
+Message-Id: <166924776091.3981.6617488459711213006@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: jgg
 changes:
-  - ref: refs/heads/master
-    old: 50e695db19bfb9261977f915a5ede8d127703240
-    new: 52fe8079246f50da2535df2c451e2d92a5da05a2
+  - ref: refs/heads/wip/jgg-for-next
+    old: cb6562c380832a930ffd1722ac9d479b454aed4e
+    new: f67376d801499f4fa0838c18c1efcad8840e550d
     log: |
-         52fe8079246f50da2535df2c451e2d92a5da05a2 Wed Nov 23 11:39:59 PM UTC 2022
+         f67376d801499f4fa0838c18c1efcad8840e550d RDMA/rxe: Fix NULL-ptr-deref in rxe_qp_do_cleanup() when socket create failed
          
