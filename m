@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0476001648501519733=="
+Content-Type: multipart/mixed; boundary="===============8372218056009691833=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Wed, 23 Nov 2022 18:43:58 -0000
-Message-Id: <166922903855.5469.13306400427846942584@gitolite.kernel.org>
+Date: Wed, 23 Nov 2022 18:44:48 -0000
+Message-Id: <166922908863.5849.7998843079915603804@gitolite.kernel.org>
 
---===============0476001648501519733==
+--===============8372218056009691833==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,42 +17,42 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/char-misc-testing
-    old: 08c9d2f56178db6e6642895f0744119d67d7fbfe
-    new: 0ef77698b85603d21453daf32ae70f76ae62ccae
+    old: 0ef77698b85603d21453daf32ae70f76ae62ccae
+    new: e6278a5445780c71cc3dfc6ceda2875838eac8e5
     log: |
-         6865788f5ad998f261e37f6b029d61d3bb7dc373 MAINTAINERS: Update entries from the Nitro Enclaves section
-         83f47eea742c1152c237398fc040ceba04fc5d76 mei: add timeout to send
-         0ef77698b85603d21453daf32ae70f76ae62ccae mei: bus-fixup: change pxp mode only if message was sent
+         c002f04c0bc79ec00d4beb75fb631d5bf37419bd char: xillybus: Fix trivial bug with mutex
+         adc40221bf676f3e722d135889a7b913b4162dc2 scripts/kallsyms.c Make the comment up-to-date with current implementation
+         e6278a5445780c71cc3dfc6ceda2875838eac8e5 virtio_console: Introduce an ID allocator for virtual console numbers
          
 
---===============0476001648501519733==
+--===============8372218056009691833==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1669229036 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1669229086 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1669229035-1dae05ed055ed10cda64a0ce7008adda8fa22c91
+nonce 1669229085-b34dcd4e785a0ce7eb091a6eaa833b4e71172413
 
-08c9d2f56178db6e6642895f0744119d67d7fbfe 0ef77698b85603d21453daf32ae70f76ae62ccae refs/heads/char-misc-testing
+0ef77698b85603d21453daf32ae70f76ae62ccae e6278a5445780c71cc3dfc6ceda2875838eac8e5 refs/heads/char-misc-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmN+aewbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+u3wP/1HOTyqQFeWgr1Mjg3dF
-R4h1pwn7rtiWY/DvrRjs/XVCpAZwpq5axfvxPwm9ctQYpzQ8WMtTzYPMBky3Cxo9
-+FD5nja904fzkcAsAdhuASmPlhbLYYmM27HQ7+PaJBJl/YTdeSsfufqSkHbEywWg
-V5kKK4JU5psh0M1aKTdqbYrLDvt5WPHD4ZCtT31Iu3ersFAdett4R5++1qPiSxJu
-Vk6/vwqTKBo8goceOunJmstSGWf8s63OK6E7bb2DcjOhwwPqfyX7GRpZdx8osS+x
-D3CXSQJQAD13z3dGNB9NXrYeqflJaHY+WvgMpcKBX09I9mA8xF1/3xKevUn9bPik
-SqDyekX0yAIl8DR+HD0XglLeDVvz3zvztk34c+pEgsHcjHK0uQUIZdFyCqRYCkrx
-eN1rI3yTtVrXGQ12zCNIRaSavsLj0lgjW2UFIYoxMyzQ60FOJYco7qwdTDD9m17b
-neycaR39PO5S6SEDRE5kPRHQpzegC22I3nwrkmoumB0mTwSLAv7+X3DECg6LfTF5
-g4ft+CGAsHYLQoHwd24CcVtsgD3F6xf4w9bflWC6IRI5jhseLl0oj9lX4PP08icu
-qOBNUFhISVpeJjaaga76avE9rFeEVl95CTqWe3pX3qWW2ew+iLDLWPLdST7BgPwn
-b3fFkb3tnXF27rZ3KlzCWdaG
-=EfLb
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmN+ah4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+TiYQAMxPjivtDYV0u0P+z139
+8T2UFHH85KuONW85cKHtuqkmq8kXB485UoEfRh6YSNirEkkrpC7m164xUmVefg/7
+lAnbY0/0MOJjfh//ceQHgBgn9Hn+gSukV/zArTf182PXZKbQrrm5rTehgJJcJcjP
+BNgjE3lw4RwYBqfuciic0u4bXwN4cWYXQ27gwP1GEHBTi32AzdtrGWyomsyKScJF
+w/ox7PdOTcKMfEPXXGaRH08BRx+8g0Lhr4oBodIa6onTmjvbFBg6HO+YKG+wbIm0
+eWjIvZwHB8PE7OQqQTmtB5/9X3JB6e2+0mFD7kRN6oP+cK6C4BYFw+ZC9RnMOPDm
+jqEKfNN9i7rVVrbSTcY7/l8zC8G1LbmSPtNZw/JOv8hVqgkRs2Kd6UxYWufY7C4m
+iCG75gmvQ0ovOAAXyHI2q6stRcdjFhoy68HIAv5fAmy289Kd848KgyJ6c52EsHx9
+5yOjXcuH4+8/cOXCLoGdX3J/sjEhWaSm0l5cnbAFvobxJIJYZ+RHNVN+60uedEFX
+bTURv98P4OhjIhN9G0JUaiNAoEaNQoK1LS1HLJ2Moif+AxSlwD+CIhH/sGrHxpXM
+s8y6pK1pUzPLXm8pMSq6alSwn1+l05ihcNmjc17pRxnPPgu/wBrNeh5/PxvP9/ni
+Wp5T3ktzGprfmmUCz6aHT+HU
+=F7Ps
 -----END PGP SIGNATURE-----
 
---===============0476001648501519733==--
+--===============8372218056009691833==--
