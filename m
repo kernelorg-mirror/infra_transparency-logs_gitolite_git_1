@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Wed, 23 Nov 2022 12:43:30 -0000
-Message-Id: <166920741089.2112.11339534354551311874@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Wed, 23 Nov 2022 12:44:26 -0000
+Message-Id: <166920746698.2553.14767738090961691933@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: davem
 changes:
   - ref: refs/heads/master
-    old: 1c40cde6b5171d9c8dfc69be00464fd1c75e210b
-    new: bac81f40c2c1484a2bd416b3fbf983f6e76488cd
+    old: af42736301cb8b4a949d3afa0dc9aaf89522601a
+    new: c84f6f6c2bb5cd907cd1e770c5b29adb7bf2ae0e
     log: |
-         bac81f40c2c1484a2bd416b3fbf983f6e76488cd net: dm9051: Fix missing dev_kfree_skb() in dm9051_loop_rx()
+         c84f6f6c2bb5cd907cd1e770c5b29adb7bf2ae0e Documentation: devlink: Add blank line padding on numbered lists in Devlink Port documentation
          
