@@ -1,73 +1,75 @@
-Content-Type: multipart/mixed; boundary="===============5326180167344135428=="
+Content-Type: multipart/mixed; boundary="===============7278234310260372477=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Wed, 23 Nov 2022 09:59:48 -0000
-Message-Id: <166919758853.13891.14118607419674923442@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dhowells/linux-fs
+Date: Wed, 23 Nov 2022 10:00:15 -0000
+Message-Id: <166919761551.15706.3466701239688799944@gitolite.kernel.org>
 
---===============5326180167344135428==
+--===============7278234310260372477==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/driver-core
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/dhowells/linux-fs
+user: dhowells
 changes:
-  - ref: refs/heads/kobject-const
-    old: 9eca930f9ae3335b499662c53416394b01cdb7e9
-    new: 83be6ea9ea4b755a9aa4d2a2c41ac5932f1c8fe8
-    log: revlist-9eca930f9ae3-83be6ea9ea4b.txt
+  - ref: refs/heads/rxrpc-next
+    old: aece40156dd2a5249dcd510e26cd416c4e641a42
+    new: 8b3d8f13ccbe35c57860620d82b12e1179a36fae
+    log: revlist-aece40156dd2-8b3d8f13ccbe.txt
+  - ref: refs/tags/rxrpc-next-20221121-b
+    old: 550f9e4084e4146fd66572342f54a7ac40482c90
+    new: 387219ad97a4afbfb8fc162765b70da20c234b2c
+    log: revlist-550f9e4084e4-387219ad97a4.txt
 
---===============5326180167344135428==
+--===============7278234310260372477==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-aece40156dd2-8b3d8f13ccbe.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1669197584 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1669197582-ea3ed775bf9b04359793a3c5b5910498e3b66cd6
+6fb4a25fdcb89bb083bdb8001bde19bf24d16763 rxrpc: Split the receive code
+dcf1466371e93ab0830a4e4550192814f9b70d17 rxrpc: Create a per-local endpoint receive queue and I/O thread
+af3a72934180b45b2f2d74c6fb6a3cc9afb83ed2 rxrpc: Move packet reception processing into I/O thread
+7653a74f55af8db9df6852f9b2d313f57f74d4ac rxrpc: Move error processing into the local endpoint I/O thread
+fe059ceac32d538ed1b540c290987ecb95763b93 rxrpc: Remove call->input_lock
+f45e211804e8a27e2a3bc522e0187537d491f2d7 rxrpc: Don't use sk->sk_receive_queue.lock to guard socket state changes
+18492e49e32b9bf37e3041614a2113772e713787 rxrpc: Don't take spinlocks in the RCU callback functions
+38fcee6e010ecd53a7cdde1fb418c7e079d7124c rxrpc: Remove the _bh annotation from all the spinlocks
+43deae80fd6dbf390046d237d179023c16d3cd62 rxrpc: Implement a mechanism to send an event notification to a call
+71068f506c377ba774f8a0a5757b80b808a20f83 rxrpc: Move DATA transmission into call processor work item
+92256c005ad94e72392d0f276fe0298efb99ea78 rxrpc: Remove RCU from peer->error_targets list
+fb4009bd571c13a1a37c828a041f9010c63e02db rxrpc: Make the I/O thread take over the call and local processor work
+5f235c8d619f169c58f3b1418d3f1594f949aaf3 rxrpc: Trace/count transmission underflows and cwnd resets
+c4b951fcf73cbf78a8214a25e8c0398d25fcf7c5 rxrpc: Move the cwnd degradation after transmitting packets
+d31d04a3cefaba037ce8674e4b4bb4fd59af346a rxrpc: Fold __rxrpc_unuse_local() into rxrpc_unuse_local()
+7e8f3b24eb844c09e82171aa70aeda41454b33ab rxrpc: Transmit ACKs at the point of generation
+8b3d8f13ccbe35c57860620d82b12e1179a36fae rxrpc: Simplify skbuff accounting in receive path
 
-9eca930f9ae3335b499662c53416394b01cdb7e9 83be6ea9ea4b755a9aa4d2a2c41ac5932f1c8fe8 refs/heads/kobject-const
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmN97xAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+mqAP/jb2laKte8KqOlgXIihv
-owPs5hIXMtLFw7gl+HtoCVzYV0V5rsdTHUHjaIUlbrVw7QQeAetQIv86BSjcy0AM
-wFHIFRRstYT09UTqy5B043BtluH+F/AWnhdAs/XYZaa4h10mN5qubdIPHcROKVP6
-Rxk0rB35F1AIP/dcR84JLbRrozz+qbJY81wCxmzS6MfiRMZGz2j7ELqUvthKGlH8
-T4js8XovYAjFbgU1JxF+iGE8JTiSpZNSDTBkG8WQFFgb8ZRf1BwH8VRqZnn05BJq
-UmSgnhLTGE+sv55F5cr+Ae8ZVVM8RMOJGOxJo14GkqJewXUzeswvaud97vkyYTV6
-oBoAnxgWShmrn/Y0X2oxgGDCiRM2GiNKcjqqFJc42fXC64+peCqgoa8Z5U5uI3O/
-JO2nX9Wl1zowApKY7HEi6AqnJcFG+rljdZahbFDFDObYgr5pMkQgBHOqUL3r1oxP
-Q5N0OQYT/85SmGWnLaQWTnC0zRA+zoewN1JtiRCHtweowH+a9hHud/tMdpndnPpo
-gtRrXS7E53QySp7L7uFcmvCMx21EoNQ8llSSitQCY5yxaZKLcpWTCBzGYORpCU7+
-uEyAyUU3s0Zs7jOuOdWivi3bX51kE/3TjsdFLvDd057nsvEtcB9Inatx63XfCCk9
-51Z8EGwEIVWfIM3FqmbmMr0v
-=KqLR
------END PGP SIGNATURE-----
-
---===============5326180167344135428==
+--===============7278234310260372477==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9eca930f9ae3-83be6ea9ea4b.txt
+Content-Disposition: attachment; filename=revlist-550f9e4084e4-387219ad97a4.txt
 
-02a476d932287cf3096f78962ccb70d94d6203c6 kobject: make kobject_get_ownership() take a constant kobject *
-542aa24646ca20ccedb70829a95254ce602cdcbd kobject: make kobject_namespace take a const *
-c45a88bb3f6cdaeb29d8ee98463610ad815721ab kobject: kset_uevent_ops: make filter() callback take a const *
-a53d1acc978321734a8fd7388f2c050a7219ab69 kobject: kset_uevent_ops: make name() callback take a const *
-9f041c5d8296b3a04cf3ead473a124fb538490dc driver core: pass a const * into of_device_uevent()
-103c8fa3c1050307b30225a516085e9c185f17e4 driver core: make struct class.dev_uevent() take a const *
-c7da3aa36b6da5ce430bc0ff637c249321e643db driver core: make struct class.devnode() take a const *
-f296a480bcc5d4b940bf41ef2c97292c2e2aec73 driver core: make struct device_type.uevent() take a const *
-2ab568c499313f3bc90b5e5b05b149aa0dbde6e8 driver core: make struct device_type.devnode() take a const *
-54fcde0953dcc1e8046419d2b30cc4203a8f8278 driver core: device_get_devnode() should take a const *
-ed9286b3d6215e3d0a06411455e6778ecba9bce9 driver core: make struct bus_type.uevent() take a const *
-83be6ea9ea4b755a9aa4d2a2c41ac5932f1c8fe8 kobject: kset_uevent_ops: make uevent() callback take a const *
+6fb4a25fdcb89bb083bdb8001bde19bf24d16763 rxrpc: Split the receive code
+dcf1466371e93ab0830a4e4550192814f9b70d17 rxrpc: Create a per-local endpoint receive queue and I/O thread
+af3a72934180b45b2f2d74c6fb6a3cc9afb83ed2 rxrpc: Move packet reception processing into I/O thread
+7653a74f55af8db9df6852f9b2d313f57f74d4ac rxrpc: Move error processing into the local endpoint I/O thread
+fe059ceac32d538ed1b540c290987ecb95763b93 rxrpc: Remove call->input_lock
+f45e211804e8a27e2a3bc522e0187537d491f2d7 rxrpc: Don't use sk->sk_receive_queue.lock to guard socket state changes
+18492e49e32b9bf37e3041614a2113772e713787 rxrpc: Don't take spinlocks in the RCU callback functions
+38fcee6e010ecd53a7cdde1fb418c7e079d7124c rxrpc: Remove the _bh annotation from all the spinlocks
+43deae80fd6dbf390046d237d179023c16d3cd62 rxrpc: Implement a mechanism to send an event notification to a call
+71068f506c377ba774f8a0a5757b80b808a20f83 rxrpc: Move DATA transmission into call processor work item
+92256c005ad94e72392d0f276fe0298efb99ea78 rxrpc: Remove RCU from peer->error_targets list
+fb4009bd571c13a1a37c828a041f9010c63e02db rxrpc: Make the I/O thread take over the call and local processor work
+5f235c8d619f169c58f3b1418d3f1594f949aaf3 rxrpc: Trace/count transmission underflows and cwnd resets
+c4b951fcf73cbf78a8214a25e8c0398d25fcf7c5 rxrpc: Move the cwnd degradation after transmitting packets
+d31d04a3cefaba037ce8674e4b4bb4fd59af346a rxrpc: Fold __rxrpc_unuse_local() into rxrpc_unuse_local()
+7e8f3b24eb844c09e82171aa70aeda41454b33ab rxrpc: Transmit ACKs at the point of generation
+8b3d8f13ccbe35c57860620d82b12e1179a36fae rxrpc: Simplify skbuff accounting in receive path
 
---===============5326180167344135428==--
+--===============7278234310260372477==--
