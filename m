@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============4023063645535762437=="
+Content-Type: multipart/mixed; boundary="===============3379861936678629197=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Thu, 24 Nov 2022 12:26:47 -0000
-Message-Id: <166929280756.3573.10477218359432973633@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Thu, 24 Nov 2022 12:26:54 -0000
+Message-Id: <166929281438.3680.13896347769334766987@gitolite.kernel.org>
 
---===============4023063645535762437==
+--===============3379861936678629197==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.2
+  - ref: refs/heads/spi-6.2
     old: f732646d0ccd22f42ed7de5e59c0abb7a848e034
     new: 1a165a067ffdba66af3a696f49dfab24a0e0449e
     log: |
@@ -26,28 +26,28 @@ changes:
          1a165a067ffdba66af3a696f49dfab24a0e0449e spi: xcomm: Convert to i2c's .probe_new()
          
 
---===============4023063645535762437==
+--===============3379861936678629197==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1669292805 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1669292804-8c8e24f754af83069ada45e6b76d3be6680d638e
+pusher C3F436CA30F5D8EB 1669292813 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1669292811-96456ce1bfd09405b8e488d255d25ac16b6b3bb3
 
-f732646d0ccd22f42ed7de5e59c0abb7a848e034 1a165a067ffdba66af3a696f49dfab24a0e0449e refs/heads/for-6.2
+f732646d0ccd22f42ed7de5e59c0abb7a848e034 1a165a067ffdba66af3a696f49dfab24a0e0449e refs/heads/spi-6.2
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmN/YwUACgkQJNaLcl1U
-h9DtPwf/RA1KfA2Ylg2hJFo5+DA5Asa0ilOR8ZHtqfBmEibco8pvD5d4I/wJBu4B
-ppphbkzw0LRO8y11HQcztIQngLV8MgJ5o5SSfiFSLcsiQxcN4GeNzZKSMj0GQj9J
-ttmWE9vRHszW+i3gfsb/j+COsg6LR4QoIThoz0Hpfh+2BDYHvLJw4dBHjOs+1ocE
-s+T2breHlSnr9ePGa79lNsEK3dvFcrLMfGCmqgraEKjxoBXeuK2ZjuOhG1puVmsH
-hIrTVHzUFp65xMc4IrSz5enDc/NpYj+OjrRZQVByCudxvVZwSuM3qVjU5JjEUrdh
-jQ1mjIvBzmrKEr2pxWMGBcPE4hae0Q==
-=Ozpx
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmN/Yw0ACgkQJNaLcl1U
+h9ApOAf9Hdy3WjuXlrAYX/O+3nZH2GEvYKBYsoPOgpAV8+QzM5PC20Aiz4MXBw+A
+xLm0RmNh2pZt+m2tZoVZGlEwNpOe7vzQpL0g9XnLUb6K69b/fta2gV1oNeSvhPSz
+bF39HKTbJGL+moB9kngC0odmAAPFSJXbt93xvEt+DszXIbOtJPsVv5ryGXSg+wSx
+6kczroONcEupUbgrMD6rXCIFcU9+d11nBovEJ6MM18wMrYorxf3r5FsrCFBy1Dhs
+YnoV/tL0vX1HVam4n/AKqgT5sLWGNHTujBUbC/ciKRu97HcqvrBhKt537yScW/wV
+twyroQYTyYkGqP/ZdjVbe3/gWueCbA==
+=6p9G
 -----END PGP SIGNATURE-----
 
---===============4023063645535762437==--
+--===============3379861936678629197==--
