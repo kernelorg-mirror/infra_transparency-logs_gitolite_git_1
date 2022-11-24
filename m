@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/at91/linux
-Date: Thu, 24 Nov 2022 11:15:36 -0000
-Message-Id: <166928853613.17212.3134905235809502710@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/deller/parisc-linux
+Date: Thu, 24 Nov 2022 11:32:00 -0000
+Message-Id: <166928952095.28795.12377036243615810468@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/at91/linux
-user: claudiu.beznea
+repo: pub/scm/linux/kernel/git/deller/parisc-linux
+user: deller
 changes:
-  - ref: refs/tags/at91-fixes-6.1-3
-    old: 0000000000000000000000000000000000000000
-    new: 8eecb0e34ab6ed22f81919db9cf25aa4baf6aa99
+  - ref: refs/heads/for-next
+    old: 9b90cc8aadff99e31892a2407c9e9a09e09b90eb
+    new: 8755b5cf36b422aa0195eb9d22731503ff57d54f
+    log: |
+         8755b5cf36b422aa0195eb9d22731503ff57d54f parisc: Drop double activation of pdc_console for KGDB
+         
