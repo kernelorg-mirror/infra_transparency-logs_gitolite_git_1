@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jirislaby/linux
-Date: Thu, 24 Nov 2022 07:23:57 -0000
-Message-Id: <166927463712.31853.17716833503367288821@gitolite.kernel.org>
+Date: Thu, 24 Nov 2022 07:37:52 -0000
+Message-Id: <166927547279.10205.15944284443215228207@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,14 +12,14 @@ repo: pub/scm/linux/kernel/git/jirislaby/linux
 user: jirislaby
 changes:
   - ref: refs/heads/devel
-    old: 2c5d9829df926e333a913fd9f24d7597c664469f
-    new: 3da1521d439048258b35c93992362de2e1beae0f
+    old: 3da1521d439048258b35c93992362de2e1beae0f
+    new: 1b441d4ca59c60cb3d55202b418cb7be6df11e63
     log: |
-         e0f0e6eab6891251869d99f70722bc0ebde67220 tty: sysrq: switch sysrq handlers from int to u8
-         1aa0db5caefaf7f25bbd253d7a12215dca912c50 tty: sysrq: switch the rest of keys to u8
-         43b9f9f01dff2b18307347afaba5fbc123d14d89 tty: sysrq: use switch in sysrq_key_table_key2index()
-         579a7a4423e486d64d27a6a49127ec2333203b4d serial: convert uart sysrq handling to u8
-         36d250c54b0c2c7847b80439e73a2b7b04a78e40 serial: make strlen of sysrq_toggle_seq[] a global constant
-         c37aecc72280e702e7084b0e46041481444d4922 BRANCH_MARKER: work
-         3da1521d439048258b35c93992362de2e1beae0f serial: make uart_insert_char() accept u8s
+         9f98065010e43f6b736ccafe1f6ecd1375d34fa7 tty: sysrq: switch sysrq handlers from int to u8
+         58cd3e418c38885ef79d374606f823f43c84af9d tty: sysrq: switch the rest of keys to u8
+         92439d5481a309e785107a5d06c7397d0e08e434 tty: sysrq: use switch in sysrq_key_table_key2index()
+         4dc3c60098f29ad05893b54e309a47b976f30894 serial: convert uart sysrq handling to u8
+         e05fc45d39051aa70b229b870b36fa379ea12505 serial: make strlen of sysrq_toggle_seq[] a global constant
+         58ba039b53669d18c07f5f54a5642c612e6dbcfd serial: make uart_insert_char() accept u8s
+         1b441d4ca59c60cb3d55202b418cb7be6df11e63 BRANCH_MARKER: work
          
