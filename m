@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 24 Nov 2022 04:21:21 -0000
-Message-Id: <166926368172.3034.7913800800266067376@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
+Date: Thu, 24 Nov 2022 04:46:36 -0000
+Message-Id: <166926519607.20609.9363180588848393077@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/vireshk/pm
+user: vireshk
 changes:
-  - ref: refs/heads/master
-    old: 9a234a2a085ab9fd2be8d0c1eedfcd10f74b97eb
-    new: 290b5fe096e7dd0aad730d1af4f7f2d9fea43e11
+  - ref: refs/heads/cpufreq/arm/linux-next
+    old: 84063a1cbe9e0cdb34d6ef96f4e881a587d44597
+    new: 4370232c727bf45940345dd1b88dbd8c2e42ec56
     log: |
-         290b5fe096e7dd0aad730d1af4f7f2d9fea43e11 net: enetc: preserve TX ring priority across reconfiguration
+         4370232c727bf45940345dd1b88dbd8c2e42ec56 cpufreq: qcom-hw: Add CPU clock provider support
          
