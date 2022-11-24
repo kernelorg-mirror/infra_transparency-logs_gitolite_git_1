@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvms390/linux
-Date: Thu, 24 Nov 2022 13:55:19 -0000
-Message-Id: <166929811924.2735.14632007851138304999@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jolsa/perf
+Date: Thu, 24 Nov 2022 13:58:48 -0000
+Message-Id: <166929832826.4064.12284396100113962034@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvms390/linux
-user: frankja
+repo: pub/scm/linux/kernel/git/jolsa/perf
+user: jolsa
 changes:
-  - ref: refs/tags/kvm-s390-master-6.1-2
+  - ref: refs/heads/bpf/tp_deny_list
     old: 0000000000000000000000000000000000000000
-    new: c6cb7b75f90c90f99d7d60731ae4151d0550e9c2
+    new: 9a44d23187a699e6cd088d397f6801a1078361bc
