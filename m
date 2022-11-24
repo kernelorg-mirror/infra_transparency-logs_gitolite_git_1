@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/iwlwifi/backport-iwlwifi
-Date: Thu, 24 Nov 2022 16:00:14 -0000
-Message-Id: <166930561416.26713.10161388413935124401@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Thu, 24 Nov 2022 16:03:15 -0000
+Message-Id: <166930579508.27820.11943305576413832847@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/iwlwifi/backport-iwlwifi
-user: ggreenman
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/release/core74
-    old: 0000000000000000000000000000000000000000
-    new: bae073924a7c04bb10f5441b497e3ef25289f3a1
+  - ref: refs/heads/fileDjoomb
+    old: c9f9ef15b84222f4cc686b1013ee3fd192b0bab8
+    new: 0000000000000000000000000000000000000000
