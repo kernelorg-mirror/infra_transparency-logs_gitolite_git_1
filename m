@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vfs/idmapping
-Date: Thu, 24 Nov 2022 17:05:36 -0000
-Message-Id: <166930953643.8645.59924997518180644@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mel/linux
+Date: Thu, 24 Nov 2022 17:06:17 -0000
+Message-Id: <166930957715.8954.15858747214364049870@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vfs/idmapping
-user: brauner
+repo: pub/scm/linux/kernel/git/mel/linux
+user: mel
 changes:
-  - ref: refs/heads/fs.ovl.setgid.d1
+  - ref: refs/heads/mm-gfpatomic-v1r5
     old: 0000000000000000000000000000000000000000
-    new: 8db063c15b35ddf6c6b022d6ec0ecf895296bee0
+    new: 968c578f2149f53425a03e6c5afc6dd5ce5382b2
