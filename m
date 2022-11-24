@@ -1,16 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless-testing
-Date: Thu, 24 Nov 2022 01:33:03 -0000
-Message-Id: <166925358382.14074.9911593315106451466@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Thu, 24 Nov 2022 02:01:01 -0000
+Message-Id: <166925526194.1917.2513173803374748282@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wireless/wireless-testing
-user: bcopeland
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: ast
 changes:
-  - ref: refs/tags/wt-2022-11-23
-    old: 0000000000000000000000000000000000000000
-    new: 52794a9c897df089ef78bea6b12853a5e356dc4c
+  - ref: refs/heads/master
+    old: 5bad3587b7a292148cea10185cd8770baaeb7445
+    new: f471748b7fe5ab7ec6de4cbadffabfa7bb5b6240
+    log: |
+         3f0e6f2b41d35d4446160c745e8f09037447dd8f bpf: Add bpf_task_from_pid() kfunc
+         f471748b7fe5ab7ec6de4cbadffabfa7bb5b6240 selftests/bpf: Add selftests for bpf_task_from_pid()
+         
