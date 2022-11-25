@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Fri, 25 Nov 2022 21:26:37 -0000
-Message-Id: <166941159748.26521.3305093350039386850@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Fri, 25 Nov 2022 21:26:42 -0000
+Message-Id: <166941160207.26620.15880865227980045781@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
-  - ref: refs/heads/v2_20221102_eajames_fsi_add_regmap_and_refactor_sbefifo
-    old: bf0d29fb51ff5e6c13097dbfed7b99e0e35b4a15
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/master
+    old: df9338bae653c2fe47a976396735d901481adc50
+    new: 681b2cb31dd489b7eeef8ccbf3b2873c92eabcb2
+    log: |
+         681b2cb31dd489b7eeef8ccbf3b2873c92eabcb2 Fri Nov 25 09:25:46 PM UTC 2022
+         
