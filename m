@@ -1,23 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Fri, 25 Nov 2022 13:56:34 -0000
-Message-Id: <166938459478.444.15361309263749793214@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Fri, 25 Nov 2022 14:05:42 -0000
+Message-Id: <166938514261.6910.11579850649766407707@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/linux
-user: jlayton
+repo: pub/scm/linux/kernel/git/broonie/sound
+user: broonie
 changes:
-  - ref: refs/heads/locks-6.3
-    old: fb508cf5b7bfe75a25c945750bf17f0b35bc7239
-    new: 92127f97f51cd21d9a746a302f3a86daa1ac676f
+  - ref: refs/heads/for-6.1
+    old: db8f91d424fe0ea6db337aca8bc05908bbce1498
+    new: 81cb291eaf56a2b4aebd2aeb4070d6f049da4343
     log: |
-         02bd76c5ea314c10d07ed7d05e373d7f0229a40e filelock: move file locking definitions to separate header file
-         f9fe6e22de92307905bac61da6fe9d8379557347 fs: remove locks_inode
-         b5e24215ad72b34c29c6c6792d8896b0ebc5d677 filelock: remove redundant filp argument from vfs_lock_file
-         18c5a18672038fbd4b0c6da4fc55d525571035ed filelock: remove redundant filp argument from vfs_test_lock
-         92127f97f51cd21d9a746a302f3a86daa1ac676f filelock: remove redundant filp arg from vfs_cancel_lock
+         292709b9cf3ba470af94b62c9bb60284cc581b79 ASoC: fsl_micfil: explicitly clear software reset bit
+         b776c4a4618ec1b5219d494c423dc142f23c4e8f ASoC: fsl_micfil: explicitly clear CHnF flags
+         698813ba8c580efb356ace8dbf55f61dac6063a8 ASoC: ops: Fix bounds check for _sx controls
+         97eea946b93961fffd29448dcda7398d0d51c4b2 ASoC: ops: Check bounds for second channel in snd_soc_put_volsw_sx()
+         19c5bda74dc45fee598a57600b550c9ea7662f10 ASoC: tlv320adc3xxx: Fix build error for implicit function declaration
+         81cb291eaf56a2b4aebd2aeb4070d6f049da4343 ASoC: Merge dropped fixes from v5.18
          
