@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
-Date: Fri, 25 Nov 2022 09:36:51 -0000
-Message-Id: <166936901113.29512.6875047292015661934@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Fri, 25 Nov 2022 09:37:50 -0000
+Message-Id: <166936907056.29952.10830194063980583083@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ardb/linux
-user: ardb
+repo: pub/scm/linux/kernel/git/netdev/net
+user: davem
 changes:
-  - ref: refs/heads/arm64-4k-lpa2
-    old: cef913feb2c6b4e55a0ebbd7499ba1b262dffb9f
-    new: 3b1c78964120cbf6717f63c79762ba1246b0906e
+  - ref: refs/heads/master
+    old: 32b931c86d0aef4f3263de457f58d82e9cbae2a2
+    new: df727d4547de568302b0ed15b0d4e8a469bdb456
     log: |
-         3b1c78964120cbf6717f63c79762ba1246b0906e fixup! arm64: kasan: Reduce minimum shadow alignment and enable 5 level paging
+         df727d4547de568302b0ed15b0d4e8a469bdb456 net: fec: don't reset irq coalesce settings to defaults on "ip link up"
          
