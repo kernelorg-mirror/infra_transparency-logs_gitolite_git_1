@@ -1,28 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvalo/ath
-Date: Fri, 25 Nov 2022 11:18:40 -0000
-Message-Id: <166937512005.16942.177837471354864276@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/at91/linux
+Date: Fri, 25 Nov 2022 11:36:25 -0000
+Message-Id: <166937618593.30525.6458505849835749330@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvalo/ath
-user: kvalo
+repo: pub/scm/linux/kernel/git/at91/linux
+user: claudiu.beznea
 changes:
-  - ref: refs/heads/ath-next
-    old: d9e38350a7b10f2e1006cd85a664b8698d027e7c
-    new: 7256f28767fa40249254116a4bcb45efff35f31b
+  - ref: refs/heads/at91-dt
+    old: 7a3c62678699d7e56736c2d0579d077a7773e77c
+    new: eb93f1d7c91d8d6fe6fc001e0b515d1bbd755fd2
     log: |
-         4d79f6f34bbb01c6715b31ef457d5ab0390501a1 wifi: ath10k: Store WLAN firmware version in SMEM image table
-         7256f28767fa40249254116a4bcb45efff35f31b wifi: carl9170: Replace zero-length array of trailing structs with flex-array
-         
-  - ref: refs/heads/ath-qca
-    old: d87a77cb16ca7c51f5ea67f345137ade24245153
-    new: f494a2ca152506cc9edf82439027c1faad562fe7
-    log: |
-         4d79f6f34bbb01c6715b31ef457d5ab0390501a1 wifi: ath10k: Store WLAN firmware version in SMEM image table
-         7256f28767fa40249254116a4bcb45efff35f31b wifi: carl9170: Replace zero-length array of trailing structs with flex-array
-         f494a2ca152506cc9edf82439027c1faad562fe7 Merge branch 'ath-next' into ath-qca
+         3cf2291777abefe94b453d1d886e8a11f024912c ARM: dts: at91: sama7g5ek: align power rails for sdmmc0/1
+         eb93f1d7c91d8d6fe6fc001e0b515d1bbd755fd2 ARM: dts: lan966x: Add otp support
          
