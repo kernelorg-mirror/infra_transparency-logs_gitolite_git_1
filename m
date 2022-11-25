@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/shemminger/iproute2
-Date: Fri, 25 Nov 2022 18:49:05 -0000
-Message-Id: <166940214576.11171.12964976808005579307@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Fri, 25 Nov 2022 18:50:03 -0000
+Message-Id: <166940220300.12410.8953814220858441908@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/shemminger/iproute2
-user: shemminger
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/main
-    old: 455fa8295298a68a2dedabf9dd4c1dbf847b128b
-    new: 067396574d820d15b0a98ec75bd950674cb991ad
+  - ref: refs/heads/io_uring-6.1
+    old: bee24d0e0d4496010bebb22b13d8eda44d8bb370
+    new: 7cfe7a09489c1cefee7181e07b5f2bcbaebd9f41
     log: |
-         067396574d820d15b0a98ec75bd950674cb991ad tc: put size table options in json object
+         7cfe7a09489c1cefee7181e07b5f2bcbaebd9f41 io_uring: clear TIF_NOTIFY_SIGNAL if set and task_work not available
          
