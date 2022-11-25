@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Fri, 25 Nov 2022 20:18:39 -0000
-Message-Id: <166940751953.9444.8801422486265697298@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Fri, 25 Nov 2022 20:25:48 -0000
+Message-Id: <166940794837.16314.6231691662068352574@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
-  - ref: refs/heads/dev
-    old: ba9104a9c0d0e89bca8267894017a1ce13b236fe
-    new: 9c4f1fd5f95c4f580f0e8fac899bb69921a49ab8
+  - ref: refs/heads/master
+    old: ab1c69b4222f454008bb40d2c767f5949c69222b
+    new: df9338bae653c2fe47a976396735d901481adc50
     log: |
-         0efa1e7b5a862e9c2f1bf8c19db6bd142ad35355 rcu: Add srcu_down_read() and srcu_up_read()
-         b6f041378d9032442a5bc2dc557f662807d6dcb3 rcu: Add test code for semaphore-like SRCU readers
-         9c4f1fd5f95c4f580f0e8fac899bb69921a49ab8 rcu: Upgrade header comment for poll_state_synchronize_rcu()
+         df9338bae653c2fe47a976396735d901481adc50 Fri Nov 25 08:24:20 PM UTC 2022
          
