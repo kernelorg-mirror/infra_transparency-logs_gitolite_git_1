@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7338949540768258468=="
+Content-Type: multipart/mixed; boundary="===============9169478434128681062=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Fri, 25 Nov 2022 17:37:22 -0000
-Message-Id: <166939784269.25029.4972473441906506993@gitolite.kernel.org>
+Date: Fri, 25 Nov 2022 17:46:59 -0000
+Message-Id: <166939841948.31464.3765284305512007879@gitolite.kernel.org>
 
---===============7338949540768258468==
+--===============9169478434128681062==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-testing
+  - ref: refs/heads/char-misc-next
     old: 02cd3032b154fa02fdf90e7467abaeed889330b2
-    new: 56d784d1778c1d33e0803fdd00a59c2bb13989fb
-    log: revlist-02cd3032b154-56d784d1778c.txt
+    new: 9bde43a0e2f469961e18d0a3496a9a74379c22bf
+    log: revlist-02cd3032b154-9bde43a0e2f4.txt
 
---===============7338949540768258468==
+--===============9169478434128681062==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1669397836 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1669398417 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1669397835-0a47992f58330a3274e59b35434785602e0a35cc
+nonce 1669398417-159dbbf25d6020e7ce4d8cd9fc477f461cc54a20
 
-02cd3032b154fa02fdf90e7467abaeed889330b2 56d784d1778c1d33e0803fdd00a59c2bb13989fb refs/heads/char-misc-testing
+02cd3032b154fa02fdf90e7467abaeed889330b2 9bde43a0e2f469961e18d0a3496a9a74379c22bf refs/heads/char-misc-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmOA/UwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+fwcQAKOdXSlh92rrIwDQ7nWw
-OzfGQ1JOeHeeTpLbgeQ9N6ya6xuJLz53aTeNiA8B1mg/SNMgOTBP3huwW93UAxzp
-wy6NPuOxtk1cdawtkSCdft93em2p/ZnLLDG4uItFUV/yowviXtIScDS/buwx4n8s
-jYmmQQOuWhb90kwPfNbMgTKQfRDz/wk7uSHOHGechHT3ZyAezwLzNK13wGsgrOTp
-c9xA3kOhCIyV5MBIAmeGwvjAL84sTKjFPudEp/wVKbVdF097juACFADa0GTp/hfX
-IyTrbU372nfYC3YyGDYVoxCk8wQG7CDOU6JUxlMnm6q10O/0FNDAHcx3H0MFG7mw
-15AvTcp4+EYi/7juRgaicDNe1Gmpx6rS7JKMD6xqc41b82eKzoFLLXv6Mh/gfksi
-QHLwSuulY3EY3IlV+W3Hgz9yR73orrZKG2Gf3f0aZOmUnoAYPMh46TDN0Cn7yP9t
-eQe61i1DUVUGGLutGUGvPZ12nMvHxjKYqeV5qVVc9OB/TKQQB1/71F8axSXe7rs1
-LuOZ0lJ6HT3iKICFLzoMpzvTz/ECNi4lQPWwbujfe3viQWlZc/23zLka38NvnWCd
-YP9Fi1t5DdAX++YlPFfvSA8nTPLN3sm6912qlLvwpG8wUcdl1M2QDMsfsB93YnRT
-IvfCM976o7dfi4G6BlRv1hiN
-=Ua6x
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmOA/5EbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+r8AP/iICX8JoMv8jU8JuAiYf
+pKyQ8qrsZT2j5brHw5jTv3IVkyy2oX82i1V4ZnyZoYkBrWJzAOx5IudcI/KIACHG
+HK6X/mpbWIG36j+Q3BRnwk23FUGv8Cf/PA/fpMwCIqJBG9TrpDLvtih3NCRzgd8n
+iNMY2DwjVGktlbUp3nV8Fdd5d+nYkEIFGqujgQGWBsNPUqf/7SM/WMgq0ZALvfE0
+pnQPIwsD3EoIzpLahFrYnd067xTaPDvkeqKsDf3SuWoZFDwtOa9n5VL6/vEZ+Jf+
+kPdCzW+8er9ewwp+VTuXdPM/dIxA5aIUkOhfGudWewmAw0FBTmBKOz7LvpPGDmPH
+oHRP1V69PuVxTT5RaSxyXUixMb55DSazOsstxWT/BMhtz9J7PEuIIDTPyBRc3t1K
+2efRVsMMn46eedqVJu7k4JC6O4GzQxLOCqJgjWNTmeJsw6Uz1hdx3u+YUThISTyZ
+ctSvwFdPHuDja6IDzhltYKvzQDSagRVRyEcIDvn/ZdnasvQSH+XltVmsc5sx11LX
+Ir2JyyiY2DGOIg55p0QokuY9p6Duuec2eFuVgiuqSdFZkWAqS+oTKm2NJXq3a9vc
+zIhenaqORSRoDlVdjxeYCUB3iL5rHKcvAD37AInIbXSOmAOfyZ1gXjT0hlJDP+7+
+QDbNIYKcw69DzT8OgXZ/biJ4
+=FI3M
 -----END PGP SIGNATURE-----
 
---===============7338949540768258468==
+--===============9169478434128681062==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-02cd3032b154-56d784d1778c.txt
+Content-Disposition: attachment; filename=revlist-02cd3032b154-9bde43a0e2f4.txt
 
 662233731d66cf41e7494e532e702849c8ce18f3 i2c: core: Introduce i2c_client_get_device_id helper function
 20228a1d5a55e7db0c6720840f2c7d2b48c55f69 iio: adc: ad_sigma_delta: do not use internal iio_dev lock
@@ -205,5 +205,15 @@ d94fbd9231a2b4062cf5972629999402ea7dd6fa iio: imu: st_lsm6dsx: fix LSM6DSV senso
 b15654dd11e62ed348d5ec7f93b8ea3ad72f8c56 Merge remote-tracking branch 'i2c/i2c/client_device_id_helper-immutable' into togreg
 12491d35551df69709777bd7769e1e33641943cc iio: pressure: bmp280: convert to i2c's .probe_new()
 56d784d1778c1d33e0803fdd00a59c2bb13989fb Merge tag 'iio-for-6.2a-take2' of https://git.kernel.org/pub/scm/linux/kernel/git/jic23/iio into char-misc-next
+70aa0a5551f6a752f3a071529fffde903f1a2637 dt-bindings: misc: qcom,fastrpc: increase allowed iommus entries
+1959ab9edccd3de4bc8a876f97ce269bb9beeb31 misc: fastrpc: Rename audio protection domain to root
+1ce91d45ba77a4f6bf9209d142d5c89c42cf877a misc: fastrpc: Add reserved mem support
+6f18c7e845346f365e08613fdc47a60fc201aedb misc: fastrpc: Add fastrpc_remote_heap_alloc
+334f1a1cbe032d85fd58e771629e3a3b373b96d5 misc: fastrpc: Use fastrpc_map_put in fastrpc_map_create on fail
+72fa6f7820c4cf96c5f7aabc4e54bdf52d1e2ac2 misc: fastrpc: Rework fastrpc_req_munmap
+0871561055e666da421d779397efcc1e5e964cab misc: fastrpc: Add support for audiopd
+76e8e4ace1ed2c97dba3b1370e0e105e07c572bc misc: fastrpc: Safekeep mmaps on interrupted invoke
+532ad70c6d449029cfa3eac8408f427e31334f33 misc: fastrpc: Add mmap request assigning for static PD pool
+9bde43a0e2f469961e18d0a3496a9a74379c22bf misc: fastrpc: Add dma_mask to fastrpc_channel_ctx
 
---===============7338949540768258468==--
+--===============9169478434128681062==--
