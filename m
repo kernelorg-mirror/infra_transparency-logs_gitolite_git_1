@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ribalda/linux
-Date: Fri, 25 Nov 2022 23:33:26 -0000
-Message-Id: <166941920688.19291.5091903801743410502@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
+Date: Fri, 25 Nov 2022 23:44:11 -0000
+Message-Id: <166941985120.26001.16539684582495424547@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ribalda/linux
-user: ribalda
+repo: pub/scm/linux/kernel/git/ardb/linux
+user: ardb
 changes:
-  - ref: refs/heads/b4/mtk-mailbox
-    old: 9f7b99256c2e6febf2a6aa40aed906fa50584cdc
-    new: cc4c6e1c89b864777d4056b22d5b74e94fd795c8
+  - ref: refs/heads/arm64-4k-lpa2
+    old: 3b1c78964120cbf6717f63c79762ba1246b0906e
+    new: f0acaf019dda7a174b6ab3d99fb82bd2c52da3ea
     log: |
-         874e6f24cf20c1b708f7fdfa928a799f8d210031 mailbox: mtk-cmdq: Do not request irq until we are ready
-         cc4c6e1c89b864777d4056b22d5b74e94fd795c8 mailbox: mtk-cmdq: Do not request irq until we are ready
+         243994fc859a2653170fe29213770750998af97e fixup! arm64: kasan: Reduce minimum shadow alignment and enable 5 level paging
+         a803bd2e0db1f95fce95e36c9c075a21cea4b3c8 fixup! arm64: mm: Add support for folding PUDs at runtime
+         f0acaf019dda7a174b6ab3d99fb82bd2c52da3ea fixup! arm64: mm: Add definitions to support 5 levels of paging
          
