@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Fri, 25 Nov 2022 19:09:59 -0000
-Message-Id: <166940339995.26252.8713282881169863519@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/fscrypt/fscrypt
+Date: Fri, 25 Nov 2022 19:15:14 -0000
+Message-Id: <166940371482.31191.12335547397883145891@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/fs/fscrypt/fscrypt
+user: ebiggers
 changes:
-  - ref: refs/heads/v2_20221102_eajames_fsi_add_regmap_and_refactor_sbefifo
-    old: 0000000000000000000000000000000000000000
-    new: 3ff25ee037738812aaa1d65a9f705d44227e86e6
+  - ref: refs/heads/fsverity
+    old: 276616fff35df75cf96160d169a8ca8dcfa6c038
+    new: 3764b89a7dc5e54ef18de10eb4b0a07e016208c7
+    log: |
+         3764b89a7dc5e54ef18de10eb4b0a07e016208c7 fsverity: stop using PG_error to track error status
+         
