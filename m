@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3897082480179918620=="
+Content-Type: multipart/mixed; boundary="===============6068602754441174059=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
-Date: Fri, 25 Nov 2022 09:16:18 -0000
-Message-Id: <166936777899.14616.11767215663367933058@gitolite.kernel.org>
+Date: Fri, 25 Nov 2022 09:16:30 -0000
+Message-Id: <166936779024.14752.7138095262841628554@gitolite.kernel.org>
 
---===============3897082480179918620==
+--===============6068602754441174059==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/johan/usb-serial
 user: johan
 changes:
-  - ref: refs/heads/usb-next
+  - ref: refs/heads/master
     old: 247f34f7b80357943234f93f247a1ae6b6c3a740
     new: eb7081409f94a9a8608593d0fb63a1aa3d6f95d8
     log: revlist-247f34f7b803-eb7081409f94.txt
 
---===============3897082480179918620==
+--===============6068602754441174059==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ d4f754c3615c83df277018a98486db501f92b155 Merge tag 'sched_urgent_for_v6.1_rc6' o
 c6c67bf9bc2714d9c2c2e7ecfbf29d912b8c4f17 Merge tag 'trace-probes-v6.1' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 eb7081409f94a9a8608593d0fb63a1aa3d6f95d8 Linux 6.1-rc6
 
---===============3897082480179918620==--
+--===============6068602754441174059==--
