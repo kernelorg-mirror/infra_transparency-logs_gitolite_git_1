@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dlemoal/zonefs
-Date: Fri, 25 Nov 2022 08:02:08 -0000
-Message-Id: <166936332853.26711.9367973894830543949@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Fri, 25 Nov 2022 08:07:36 -0000
+Message-Id: <166936365694.30183.9932103944809991565@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dlemoal/zonefs
-user: dlemoal
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: davem
 changes:
-  - ref: refs/heads/for-6.1-fixes
-    old: 4e45886956a20942800259f326a04417292ae314
-    new: db58653ce0c7cf4d155727852607106f890005c0
+  - ref: refs/heads/master
+    old: 14e5f71e31ff3925cc970fa7907393ee7f4b748d
+    new: 813abcd98fb1b2cccf850cdfa092a4bfc50b2363
     log: |
-         db58653ce0c7cf4d155727852607106f890005c0 zonefs: Fix active zone accounting
+         813abcd98fb1b2cccf850cdfa092a4bfc50b2363 net: phy: add Motorcomm YT8531S phy id.
          
