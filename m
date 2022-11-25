@@ -1,59 +1,59 @@
-Content-Type: multipart/mixed; boundary="===============3239651875932669560=="
+Content-Type: multipart/mixed; boundary="===============1876622090032030463=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Fri, 25 Nov 2022 21:26:45 -0000
-Message-Id: <166941160533.26690.4516250423813145352@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Fri, 25 Nov 2022 21:26:51 -0000
+Message-Id: <166941161188.26788.7087397815739125666@gitolite.kernel.org>
 
---===============3239651875932669560==
+--===============1876622090032030463==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.1
+  - ref: refs/heads/asoc-6.1
     old: 81cb291eaf56a2b4aebd2aeb4070d6f049da4343
     new: 3d1bb6cc1a654c8693a85b1d262e610196edec8b
     log: |
          f33bcc506050f89433a52a3052054d4ebd37b1c1 ASoC: ops: Correct bounds check for second channel on SX controls
          3d1bb6cc1a654c8693a85b1d262e610196edec8b ASoC: cs42l51: Correct PGA Volume minimum value
          
-  - ref: refs/heads/for-6.2
+  - ref: refs/heads/asoc-6.2
     old: af406c90977241bbaa436b121d3e79b1b2ffeeb2
     new: 79dfd9d5e8b5cab454ab8fafdfaed0c82b2e2f4b
     log: revlist-af406c909772-79dfd9d5e8b5.txt
 
---===============3239651875932669560==
+--===============1876622090032030463==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1669411603 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1669411602-1ccfc543e2a3b5061849ce8da73b5d8c5c9920ca
+pusher C3F436CA30F5D8EB 1669411610 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1669411609-9af7f4c58bf66f6f845dd25668034fa628080ce7
 
-81cb291eaf56a2b4aebd2aeb4070d6f049da4343 3d1bb6cc1a654c8693a85b1d262e610196edec8b refs/heads/for-6.1
-af406c90977241bbaa436b121d3e79b1b2ffeeb2 79dfd9d5e8b5cab454ab8fafdfaed0c82b2e2f4b refs/heads/for-6.2
+81cb291eaf56a2b4aebd2aeb4070d6f049da4343 3d1bb6cc1a654c8693a85b1d262e610196edec8b refs/heads/asoc-6.1
+af406c90977241bbaa436b121d3e79b1b2ffeeb2 79dfd9d5e8b5cab454ab8fafdfaed0c82b2e2f4b refs/heads/asoc-6.2
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmOBMxMACgkQJNaLcl1U
-h9CirQf+OX28ZGLzoZ9pqAUExBCxUZbQxnvEcc0IZau4HkQYdXHalkmp3HJDtVvx
-GOEbdgrJYwYfxoAus81f5+JwTRyfG3MUSR9BcVF2iNHV5dEcEt6vv06RJF/V4+4J
-vXobK65VV0C0knICSb2Bpe3IbSnp9nSdVdoI9sWzx1/ORp3xGMJeg3hYVb33jeqT
-bo/nlDKw0gsrpSl71sop0el8K3Y8zuAqWMW02ZeCg8nyfRrTMneN5uzFWZ6j/dnE
-2omuuQB6z4hhffUWxIxu9WgWA30qhcKhlFiF5KWPdLS50ArfDWvrMbj7mR/KH7dy
-eMXOE6MLMQvOy+jN38IjdgyltbH8yw==
-=fBuc
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmOBMxoACgkQJNaLcl1U
+h9DaYgf/Ql8FMGXsYkKkNiYuRVNQVGb77q8ErqmGPvd9GRyKnXukjj59t7qprtQi
+IPAYsSbMReeR+bKCIaflYq8rKww2sqH0kSY3Ay7lU6rQ/vXZ55uGEJAFHQ7vkvs/
+QmrTgjrghbf63IHSuf2ieYWAPANadi6ZOQHn2tEiN7HmKiiCEr8VBYqBLDIRd0wx
+JlU+rW2uN2LyXpXdHxgzlB1vELtloYZsOsF03PAx6NmUNGHgLfUbQimw5M2XtJr1
+i7pzZBAxyMoqdyi5TaUUFfaB0ZlFaXXcf9BCuLMt4bT6hbKwqyiTIF9KITizZBu3
+NUUR4IpgjlL9zigaTa0AqOBd8t1bPQ==
+=Q955
 -----END PGP SIGNATURE-----
 
---===============3239651875932669560==
+--===============1876622090032030463==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -439,4 +439,4 @@ dffa0df699d7c20f447e6bd797666366c6bae4b3 ASoC: adau1372: correct PGA enable & mu
 cd887a7ba74c8378ae8b52afa04adb0d49cdf13d ASoC: adau1372: add support for S24_LE mode
 79dfd9d5e8b5cab454ab8fafdfaed0c82b2e2f4b ASoC: adau1372: fixes after debugging custom board
 
---===============3239651875932669560==--
+--===============1876622090032030463==--
