@@ -1,22 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Fri, 25 Nov 2022 14:37:50 -0000
-Message-Id: <166938707086.29867.14676320085981978666@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Fri, 25 Nov 2022 14:38:15 -0000
+Message-Id: <166938709591.30097.1299003214095341410@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 changes:
-  - ref: refs/heads/for-next
-    old: 797fcbed44c6361b23e09b82ae7f52da2306d1cf
-    new: 1892a4ffdf1a9ce13eb4796e16c8a6bed3d795a4
+  - ref: refs/heads/for-linus
+    old: e0833bce6999ac3a9b21d474476445504eae92d9
+    new: 4b9b691de36d7535ea3c3d449eaf3f96c128008a
     log: |
-         d7cfdf17cb9d072b41547e7cc882ecd900aa6589 firmware: cs_dsp: Rename KConfig symbol CS_DSP -> FW_CS_DSP
-         e57d904ac4be6de7ecc9083f51a9a38f72482f82 firmware: cs_dsp: Make the exports namespaced
-         af406c90977241bbaa436b121d3e79b1b2ffeeb2 firmware: cs_dsp: Switch to using namespaced exports
-         1892a4ffdf1a9ce13eb4796e16c8a6bed3d795a4 Merge remote-tracking branch 'asoc/for-6.2' into asoc-next
+         4b9b691de36d7535ea3c3d449eaf3f96c128008a Merge remote-tracking branch 'spi/for-6.0' into spi-linus
+         
+  - ref: refs/heads/for-next
+    old: 7c1a48ce1cf2c66cab2325bba44d91ca3b1c8436
+    new: 0602d1c8d581b5aea7824d3e437d0aaf4ff95f62
+    log: |
+         9c512e476b0bf8b4f22982eac82db7ff7cc08f73 spi: cadence: Drop obsolete dependency on COMPILE_TEST
+         4b9b691de36d7535ea3c3d449eaf3f96c128008a Merge remote-tracking branch 'spi/for-6.0' into spi-linus
+         d796fefbac2870088829944f36fe5c846ec0b38a Merge branch 'spi-linus' into spi-next
+         0602d1c8d581b5aea7824d3e437d0aaf4ff95f62 Merge remote-tracking branch 'spi/for-6.2' into spi-next
          
