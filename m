@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Fri, 25 Nov 2022 09:39:21 -0000
-Message-Id: <166936916107.17107.73668249712266560@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
+Date: Fri, 25 Nov 2022 09:39:54 -0000
+Message-Id: <166936919482.17924.9195702171703563881@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: davem
+repo: pub/scm/linux/kernel/git/johan/usb-serial
+user: johan
 changes:
-  - ref: refs/heads/master
-    old: df727d4547de568302b0ed15b0d4e8a469bdb456
-    new: 31d929de5a112ee1b977a89c57de74710894bbbf
+  - ref: refs/heads/usb-next
+    old: eb7081409f94a9a8608593d0fb63a1aa3d6f95d8
+    new: f0052d7a1edb3d8921b4e154aa8c46c4845b3714
     log: |
-         31d929de5a112ee1b977a89c57de74710894bbbf net: loopback: use NET_NAME_PREDICTABLE for name_assign_type
+         f0052d7a1edb3d8921b4e154aa8c46c4845b3714 USB: serial: option: add Quectel EM05-G modem
          
