@@ -1,45 +1,47 @@
-Content-Type: multipart/mixed; boundary="===============8135356865878340893=="
+Content-Type: multipart/mixed; boundary="===============6182555732647897132=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-drivers
-Date: Fri, 25 Nov 2022 08:50:54 -0000
-Message-Id: <166936625460.28353.14634000523920395306@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vbabka/linux
+Date: Fri, 25 Nov 2022 08:54:34 -0000
+Message-Id: <166936647407.29714.639764194968041022@gitolite.kernel.org>
 
---===============8135356865878340893==
+--===============6182555732647897132==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/geert/renesas-drivers
-user: geert
+repo: pub/scm/linux/kernel/git/vbabka/linux
+user: vbabka
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/topic/renesas-bsp-rebase-v6.1
-    old: 3bde89b69b8ec0598ad93f764d15090d0a2986ad
-    new: d955cd54ad6cad77a53c22260aaaed8440e43361
-    log: revlist-3bde89b69b8e-d955cd54ad6c.txt
+  - ref: refs/heads/slub-tiny-v1r5
+    old: 0000000000000000000000000000000000000000
+    new: 42cf80fd8a1433dfa43065872de1b112508a9543
 
---===============8135356865878340893==
+--===============6182555732647897132==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3bde89b69b8e-d955cd54ad6c.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-38287d212e694a3f445c0dec0823bf46d34cce4b BSP rebase: add work-summary file
-7e08f576f59c25b837a9131b81a88ddbc6116d9d BSP rebase: bsp-remains: handle UFS
-6471b175eb8da6e7cf56d83d9f2c58509cfbb86f BSP rebase: bsp-remains: handle RAVB
-52c103f948fe1e15d3a44f328c3ae54742b6da8c BSP rebase: UIO not supported upstream (take two)
-eb6ebee4e7af26a8e4ceecbec5482032a8fdef48 BSP rebase: Drop RPC clock and DTS reverts
-8a1407a2956e2928797dc0ec1e0329174c4981f4 BSP rebase: Drop SD_SKIP_FIRST clock handling update
-453c4765a5250aa076d26eb8e576397d517ecb7d BSP rebase: Drop r8a779a0 SD clock parent fix
-b367327dc5dd1fe0bba9a7c92abf072c6e6f1fd7 BSP rebase: Drop upstreamed r8a779a0 clock patches
-c4dad3ab0084920361d45dfdc9cca0891d576680 BSP rebase: Drop upstreamed r8a779f0 clock patches
-7208dd559d7d77d8546d2d1c6fad5a78a1abf641 BSP rebase: Drop upstreamed r8a779g0 clock patches
-958cfc4a26cb88cddcaf5e0834a189809c02509e BSP rebase: Drop upstreamed r8a779[56]* pin control patches
-1dd265e44b1a99cea4a67fd3febe0c05fe44d746 BSP rebase: Drop upstreamed r8a779f0 pin control patches
-3c9b6d8c665b953385370a624190ca8ee08ff632 BSP rebase: Drop upstreamed r8a779g0 pin control patches
-bfae4005345a18aebf9caaa729729f524c4fa4aa BSP rebase: Drop gpio patches
-d955cd54ad6cad77a53c22260aaaed8440e43361 BSP rebase: Drop upstreamed DT binding patches
+certificate version 0.1
+pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1669366472 +0100
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/linux.git
+nonce 1669366471-03c8f632185faa5447a1702058870063bd3e3ea8
 
---===============8135356865878340893==--
+0000000000000000000000000000000000000000 42cf80fd8a1433dfa43065872de1b112508a9543 refs/heads/slub-tiny-v1r5
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCAAdFiEEjUuTAak14xi+SF7M4CHKc/GJqRAFAmOAgsgACgkQ4CHKc/GJ
+qRCZ8gf+LEuw5jDPFxqW0mvEnE6cU2sG5YeGZXVkMxxTokSf0/1Rp1j5nkSzsYQH
+/n4UCgiehx7ZTFcTghhSITYw11O3reKo9ruPdvNbYT/jEo46pRt546TD83jNHINJ
+OsZ/p+0vzqVRbYXC4SDtFIW+b4jnHMBinK1W1IjrD9e69kQ+LX3qK3IaLh/V682o
+A9EiJuWIFrVZwbhiplgcJIUApGBm2+wApKxWNcUvsEIx80hwfWQZvlcXLtWh/c4c
+K1udCYqJPu4Duqm8I1z7oo9m/Tx64ql1/4H2gnyDbrTu5gmZQQg4o1TYHiYDLJc/
+xw6OuB5mooWaQWi1dyX81r3iwOw86w==
+=bUP1
+-----END PGP SIGNATURE-----
+
+--===============6182555732647897132==--
