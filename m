@@ -1,51 +1,63 @@
-Content-Type: multipart/mixed; boundary="===============7093533637923759527=="
+Content-Type: multipart/mixed; boundary="===============7209015478941181907=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Fri, 25 Nov 2022 14:23:25 -0000
-Message-Id: <166938620561.18196.11237554097391742400@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Fri, 25 Nov 2022 14:23:33 -0000
+Message-Id: <166938621333.18328.13242895758004554822@gitolite.kernel.org>
 
---===============7093533637923759527==
+--===============7209015478941181907==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.2
+  - ref: refs/heads/asoc-6.1
+    old: db8f91d424fe0ea6db337aca8bc05908bbce1498
+    new: 81cb291eaf56a2b4aebd2aeb4070d6f049da4343
+    log: |
+         292709b9cf3ba470af94b62c9bb60284cc581b79 ASoC: fsl_micfil: explicitly clear software reset bit
+         b776c4a4618ec1b5219d494c423dc142f23c4e8f ASoC: fsl_micfil: explicitly clear CHnF flags
+         698813ba8c580efb356ace8dbf55f61dac6063a8 ASoC: ops: Fix bounds check for _sx controls
+         97eea946b93961fffd29448dcda7398d0d51c4b2 ASoC: ops: Check bounds for second channel in snd_soc_put_volsw_sx()
+         19c5bda74dc45fee598a57600b550c9ea7662f10 ASoC: tlv320adc3xxx: Fix build error for implicit function declaration
+         81cb291eaf56a2b4aebd2aeb4070d6f049da4343 ASoC: Merge dropped fixes from v5.18
+         
+  - ref: refs/heads/asoc-6.2
     old: e9a45c8aca0c83f61a7dffcbb996952919f4ae54
     new: eb73f6d6b8775b2fc68be7ad38f06c2d85d42891
     log: revlist-e9a45c8aca0c-eb73f6d6b877.txt
 
---===============7093533637923759527==
+--===============7209015478941181907==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1669386203 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1669386202-0a28889236e77faa699884da1b4815d7bf9a41cd
+pusher C3F436CA30F5D8EB 1669386210 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1669386209-36f4fbc31a5bbae7f09b956dc84a1b2ee78f9de1
 
-e9a45c8aca0c83f61a7dffcbb996952919f4ae54 eb73f6d6b8775b2fc68be7ad38f06c2d85d42891 refs/heads/for-6.2
+db8f91d424fe0ea6db337aca8bc05908bbce1498 81cb291eaf56a2b4aebd2aeb4070d6f049da4343 refs/heads/asoc-6.1
+e9a45c8aca0c83f61a7dffcbb996952919f4ae54 eb73f6d6b8775b2fc68be7ad38f06c2d85d42891 refs/heads/asoc-6.2
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmOAz9sACgkQJNaLcl1U
-h9A0BAf+OCxEw1p80I1L56K+h+hxmqlG24pGvCKToJ476TM754zOHYMRCilMuzYF
-CHzRNG79+D+Fz1ADqJJ1I6q0zmXN03eniNmIp6yP6N+klzHjxOLH5FK/iUOnCZiV
-iJg0h4HuYi2BStOhjYVuSRt2WGRxBg3KcY5EfSwHPCUc+qo2vxLqJfQKm0SFx+B9
-FGWK/OCFjypWeN/43LDciXV7JKzPEcXfFJt/OjU57jU+QI3yMXk8P2DJ8eF25/ee
-DGx8WSJktHWk4wJu/jkw79HZpgQrjPrsNDAEDVFs2++OJA83eWHlLIJ6e08Je/8W
-4KR2Dj2orfuNRM999C6qzsQSGjCzaA==
-=b81K
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmOAz+IACgkQJNaLcl1U
+h9CNMgf/bAjJ+pTQ5oo5h0wrzoXSQ2t4Vqy2Vwlo/B2DJADQb2Jauwv7FP2XFgqg
+JQZxVdu3se4UMGijxdsX1J6pA5K2GqJiYxgCtdjzVpan23RR/eRKeyAjq6ApSKEK
+iq6vFwHv0IoKpsFtaOeqiwEFJx3kIPQIO36sBuY0MFl5vf97ugfUmpmkgNBDnxsq
+UBOfgqdzXc6S1G5HP5GMv2cI+cdrlCAyYkOhFOgl2tTUQY2M54uoBOJpkIlO1Bu+
+saqkE+Ut9kMAZ98RHrhRijtwi/rczjRbBSKNZKLfABnOAY0nM95X8vwmXLqgX7BC
++tndgnAh7Pi0ZORqJiXpmERUlZE7zA==
+=uJHX
 -----END PGP SIGNATURE-----
 
---===============7093533637923759527==
+--===============7209015478941181907==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -75,4 +87,4 @@ b992f35568cb5768c5944fc3b4f02df337dc1ece ASoC: dt-bindings: add compatible strin
 57405d8be4921956b8092b2e4516389bb30bdab5 ASoC: wm_adsp: Report when a control write changes the value
 eb73f6d6b8775b2fc68be7ad38f06c2d85d42891 ASoC/soundwire: revisit interrupt and lcount handling
 
---===============7093533637923759527==--
+--===============7209015478941181907==--
