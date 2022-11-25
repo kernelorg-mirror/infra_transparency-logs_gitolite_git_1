@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6113949612870026068=="
+Content-Type: multipart/mixed; boundary="===============2870384325386073050=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Fri, 25 Nov 2022 17:28:31 -0000
-Message-Id: <166939731114.18349.9712504274989709543@gitolite.kernel.org>
+Date: Fri, 25 Nov 2022 17:28:55 -0000
+Message-Id: <166939733523.18534.16168091593781387451@gitolite.kernel.org>
 
---===============6113949612870026068==
+--===============2870384325386073050==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/kobject-const2
-    old: a24f87696c63e8564c4e04b8715daaca5e2144c9
-    new: 1ef3e0142e621ceb4aa1e4e779363ba3e8729b2f
-    log: revlist-a24f87696c63-1ef3e0142e62.txt
+  - ref: refs/heads/kobject-const
+    old: d07be11e5af511b121ca7fb623a356fab1349c65
+    new: 3217a48be0477dcfa14c55f85b8c635f828d4cf2
+    log: revlist-d07be11e5af5-3217a48be047.txt
 
---===============6113949612870026068==
+--===============2870384325386073050==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1669397308 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1669397331 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1669397307-f93143702d9319fc470be2bdd0618fc0b235b5c1
+nonce 1669397330-be0face7a583ecea3c116c68fc1c79e58b7a132d
 
-a24f87696c63e8564c4e04b8715daaca5e2144c9 1ef3e0142e621ceb4aa1e4e779363ba3e8729b2f refs/heads/kobject-const2
+d07be11e5af511b121ca7fb623a356fab1349c65 3217a48be0477dcfa14c55f85b8c635f828d4cf2 refs/heads/kobject-const
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmOA+zwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+EJ4P/Azu5edhMsCa3Nzfi0Qv
-32zJHmKxMsIXtokxRCPtBTLjacRm/C5IS4ttKz2VPR2T/ILw7qhJM4LHxApXjHPI
-0YQKqx8fOb5YlFRHYB+kbWQRTL6dqISajdmWsfuueirJal2CLj6VPhBEkiNVYWOP
-jeUZcWRjOVdMPTxG7Va1cZwT0X9cM1nHPebg5itHWnSVbpQGsScfZnMsAF7EXIqf
-MyROiqZYtNl6R+h2A7EfqhNjMx7BrkCMXhv+27AOpP6ypvMMnt0TMfmNUXzEAvqz
-oM/iEA9bP410qL92qcZG/NEJ9OjEEwAsXK2lgw8pPUcKeiW1hjfVH1Ka+MpbeVqJ
-EzIcODvMtx5ya51M8bmQqWuBlhpvsb/BIw0GGy1XDTuBU8NunvBKHbwkMQ23NYjA
-pTYNWuPrikpsBDmImruDM11TnYC1f1PfBdgbTcijer1Zosab7JUGY9TQd5+lBx1z
-kGZPp7SLNSz4dd5v6hoMbpOO845ggx+7AThTcGN2B8QfoLRH6K71qxB4lmax2pAU
-YN5ktMFb4cghPpLDrG4h/seFiiq7faEkQRDo6P7wtSFXmuRSXDNt8Q6y0MdwGsca
-1ESpMwOnIXrrTpDjJ24edrYzQlk0qcr6P1sardNua0PLDT5SKK/kxwS5fLDbiPM3
-POv4weIbeipWOOmL2BulccwM
-=dW2F
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmOA+1MbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ufUP+wVBrpWdj37CoZUH3sMq
+oj++LrNYxe6Yi8I8UtIxPD9FMSwbUwgVyu8YPNxgngaowS8g6ve4hDv7sdTwH72U
+ZyTtJUUHGM4+2mF2VTsnnW3tEXDAsI4qrm8Rnz1Aco62uwIBBUC4uqekZAMNK/aP
+THDBzz1cKVEzUpLdxqhlw/1cTzWOmu3koNkaH0ND40uV8jkAzBoq/4tvPcsby5pJ
+yuAprKfUNFNaW95GudsGRFmaZTViCyRj4A0u+hmK382awZSylyaf5J1/fsErwzIP
+DGg+3mytZJzYLEESb/QYDc/XGiVENgrpjCMrVJtEFiPTfynTmkIVSIQoqc7CVeDN
+t/5k1kXpelS475pTUhp3GPyFrXzrBSzrKxOWdg6AO+EqaDUMNwd+1vLKpJYbauQO
+Tj6oykKzgngUz7hKaIHLPM9E8qQdlTeuvXXmB20qsezmgalhlEpK5DOjexCJvHIX
+dyUgRNN/Y0ztQjcbMFnBbohLieRZVDQcmxwoCT0VePyyqLBdDK7tHD0m66N2CPzu
+lm75dRkQPFEHSWSjFZ8owsnqRXmRi73ZiqTeGX8eYCrwai3BYrOhsE+9PwD6L85Q
+r6hM6tHM9t+ydz3/swcKwacgIkgJwWYGoA+aIVKLU4QfZRR+iMlZoAPoEa+0Q92w
+ue4qVTMqkPczn0Iqd5gdqb3N
+=t+Ov
 -----END PGP SIGNATURE-----
 
---===============6113949612870026068==
+--===============2870384325386073050==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a24f87696c63-1ef3e0142e62.txt
+Content-Disposition: attachment; filename=revlist-d07be11e5af5-3217a48be047.txt
 
 24b3e3dd9c9c742a4dd18e71b6963f9e7ab72911 kernfs: fix all kernel-doc warnings and multiple typos
 40eb28dc17f87cfac69d7755447039e92ac5fbda device property: Get rid of __PROPERTY_ENTRY_ARRAY_EL*SIZE*()
@@ -65,8 +65,10 @@ c6c76563bd13871739539e20fd3116159e491f5b device property: Move PROPERTY_ENTRY_BO
 2613cc29c5723881ca603b1a3b50f0107010d5d6 cacheinfo: Remove of_node_put() for fw_token
 23680f0b7d7f67a935adb38058110d2d81bbe6ea driver core: make struct class.dev_uevent() take a const *
 ff62b8e6588fb07bedda7423622c140c4edd66a7 driver core: make struct class.devnode() take a const *
-d7041ddf2d076231860a35572145c01918978e40 driver core: make struct device_type.uevent() take a const *
-6e358522f1135a1f6ec2c8b0c8277958f2835b9c driver core: make struct device_type.devnode() take a const *
-1ef3e0142e621ceb4aa1e4e779363ba3e8729b2f driver core: device_get_devnode() should take a const *
+35a990656f5b3b5fee6370953b17a2e19f39d65c driver core: make struct device_type.uevent() take a const *
+63f5898f23b415f83e504c0dd5ce7f6f350b6632 driver core: make struct device_type.devnode() take a const *
+0d2f21955ef6b28add9b1832f6711bf244fdfc8d driver core: device_get_devnode() should take a const *
+310681b588fafe7bf8f0856327679c0cd4602686 driver core: make struct bus_type.uevent() take a const *
+3217a48be0477dcfa14c55f85b8c635f828d4cf2 kobject: kset_uevent_ops: make uevent() callback take a const *
 
---===============6113949612870026068==--
+--===============2870384325386073050==--
