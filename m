@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============7826337130184652107=="
+Content-Type: multipart/mixed; boundary="===============3837898764526107504=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Fri, 25 Nov 2022 20:48:58 -0000
-Message-Id: <166940933848.30496.2698896481030166209@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Fri, 25 Nov 2022 20:49:05 -0000
+Message-Id: <166940934524.30593.10134823096995577309@gitolite.kernel.org>
 
---===============7826337130184652107==
+--===============3837898764526107504==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/regulator
 user: broonie
 changes:
   - ref: refs/heads/for-6.2
-    old: ef3232e3dbd172fa17190fa8a852a3180a73bbdc
-    new: 5cd4d3886780bf9a846eada29a2aefe8bfcac027
-    log: revlist-ef3232e3dbd1-5cd4d3886780.txt
+    old: c4b02c92d9673ef4704fd0c8f008fec183517b64
+    new: 0b21b4dc9a2204fba599a248f5c7ed7822f56154
+    log: revlist-c4b02c92d967-0b21b4dc9a22.txt
 
---===============7826337130184652107==
+--===============3837898764526107504==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ef3232e3dbd1-5cd4d3886780.txt
+Content-Disposition: attachment; filename=revlist-c4b02c92d967-0b21b4dc9a22.txt
 
 815f1647a603a822d66630bbe22cab4bc097c8c3 iio: adc: mcp3911: use correct id bits
 aa6c77d05eb1c57ee5b95a7b83a39384c37df4d9 iio: adc: mcp3911: mask out device ID in debug prints
@@ -1049,6 +1049,6 @@ f6f5204727b9b1f3c6e9c90b5b09f40c6e0102f5 Merge tag 'x86_urgent_for_v6.1_rc4' of 
 aa52994915dca444dbb8e6b91eb82b749ba7a1ec Merge tag 'hwmon-for-v6.1-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/groeck/linux-staging
 16c7a368c8ba9aba3b0e0ae5ec0a64be9fb45665 Merge tag 'cxl-fixes-for-6.1-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/cxl/cxl
 f0c4d9fc9cc9462659728d168387191387e903cc Linux 6.1-rc4
-5cd4d3886780bf9a846eada29a2aefe8bfcac027 Merge tag 'v6.1-rc4' into spi-6.2
+0b21b4dc9a2204fba599a248f5c7ed7822f56154 Merge tag 'v6.1-rc4' into regulator-6.2
 
---===============7826337130184652107==--
+--===============3837898764526107504==--
