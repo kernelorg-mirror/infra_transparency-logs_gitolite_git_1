@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============7371725643467659191=="
+Content-Type: multipart/mixed; boundary="===============4936405736188747172=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regmap
-Date: Fri, 25 Nov 2022 21:26:58 -0000
-Message-Id: <166941161848.26937.2478575286213226767@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Fri, 25 Nov 2022 21:27:05 -0000
+Message-Id: <166941162518.27079.12189276311190931952@gitolite.kernel.org>
 
---===============7371725643467659191==
+--===============4936405736188747172==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regmap
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.2
+  - ref: refs/heads/regmap-6.2
     old: a6d99022e56e8c1ddc4c75895ed9e3ce5da88453
     new: acdce7aa7a4fc1094661feb0b833ae2eec2ad2d0
     log: revlist-a6d99022e56e-acdce7aa7a4f.txt
 
---===============7371725643467659191==
+--===============4936405736188747172==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1669411616 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regmap.git
-nonce 1669411615-853360bed797814edfe18db7330a2ed721d059e7
+pusher C3F436CA30F5D8EB 1669411623 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1669411622-70dd96888ef42093800389a9e405154ac6bf6116
 
-a6d99022e56e8c1ddc4c75895ed9e3ce5da88453 acdce7aa7a4fc1094661feb0b833ae2eec2ad2d0 refs/heads/for-6.2
+a6d99022e56e8c1ddc4c75895ed9e3ce5da88453 acdce7aa7a4fc1094661feb0b833ae2eec2ad2d0 refs/heads/regmap-6.2
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmOBMyAACgkQJNaLcl1U
-h9DP5wf+OootMiWYguaSHDooVXdlc42YM0EAHQtthZ8HLqMxFU6ENoohD4nBbI73
-7jNL39/Fe7h0U3hcwQXinHj2jz4Byvts1AjU8pSPBFoewWL9nt7SUNgCtUW/7TZ7
-SvS6VImrVBS2vhYM5cyaDzdutgwO+Zmha/m7kZ6gj2ux0d55sKFU48EZuZWQRVZZ
-gH6AZ2Syl7PLSOqRXdmfBt+963a/CJGmtHzUNFGqvo8DzBn27L7fe44SK18t3IFJ
-Y80JWevlKzYu0FzyLl0dwX7HM5UdvwbvMq2/TzSQPrzxVrA8ubjkDW1eIHlQIeAk
-yorf/4OnBkn8CBSxODKaAaCo35Sk/w==
-=H3iv
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmOBMycACgkQJNaLcl1U
+h9CqgAf/XtCgPpenCe8W7q1optG1ItXIwdbmAg5PF7A+qbMBFUtnCnSrl9ltYHbK
+znFKzXfg1yOBEPZiZR52j4TTQCDJgC2F044Jtv1+ChqpLGoLfEyg2P7UQHKdxv2w
+9S46pnGOvZe8c1u6FsyaA6IkIQJIsTuKSmlPVBSL+xTRH9OJRddIaiKKlwBHmaPK
+S68BGqofLHGFs7sOStXIA5qz4kWFQCgjJTqS+0Vi5BXp+Fs4nGcx0RuzooAeRf5y
+IvCag3X1GZEyA3LujlehW7Vdy8tnJx6cEV5wSZQ0g6A1L04/qJUqV2suc7A60Wfo
+yoV5Yv4Qig0+FNahwCjJ7jnFFVJtZA==
+=ytoj
 -----END PGP SIGNATURE-----
 
---===============7371725643467659191==
+--===============4936405736188747172==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1076,4 +1076,4 @@ eb7081409f94a9a8608593d0fb63a1aa3d6f95d8 Linux 6.1-rc6
 bf0d29fb51ff5e6c13097dbfed7b99e0e35b4a15 regmap: Add FSI bus support
 acdce7aa7a4fc1094661feb0b833ae2eec2ad2d0 fsi: Add regmap and refactor sbefifo
 
---===============7371725643467659191==--
+--===============4936405736188747172==--
