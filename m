@@ -1,37 +1,39 @@
-Content-Type: multipart/mixed; boundary="===============6296028501938793883=="
+Content-Type: multipart/mixed; boundary="===============7949345802085760046=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Fri, 25 Nov 2022 21:27:54 -0000
-Message-Id: <166941167453.27689.3149328233902401832@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Fri, 25 Nov 2022 21:28:20 -0000
+Message-Id: <166941170015.27943.2917709303751786068@gitolite.kernel.org>
 
---===============6296028501938793883==
+--===============7949345802085760046==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 changes:
   - ref: refs/heads/for-linus
-    old: 0e05f4ca75df8ac9c527c6afd4db5d301fafe632
-    new: 81c7c46022651f943c026b9e0b6c19fa3a8b4fcd
+    old: 3db943d8ac2778ff347dd3576bc6c5ab37c79f94
+    new: 17084b9be88e1baf7772bfb3e7b05112838fb2cb
     log: |
-         81c7c46022651f943c026b9e0b6c19fa3a8b4fcd Merge remote-tracking branch 'regulator/for-6.0' into regulator-linus
+         17084b9be88e1baf7772bfb3e7b05112838fb2cb Merge remote-tracking branch 'spi/for-6.0' into spi-linus
          
   - ref: refs/heads/for-next
-    old: 24518ea4b81187012f3fccbd21894856340b5eac
-    new: 9bd94ab8335b33a117630c8858ef0fc4c1846738
-    log: revlist-24518ea4b811-9bd94ab8335b.txt
+    old: fe857258816b158b14dd1ffe46025813ce9c5835
+    new: 5439e9897c59694ca822a5659822fa6341df46db
+    log: revlist-fe857258816b-5439e9897c59.txt
 
---===============6296028501938793883==
+--===============7949345802085760046==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-24518ea4b811-9bd94ab8335b.txt
+Content-Disposition: attachment; filename=revlist-fe857258816b-5439e9897c59.txt
 
+aa6c77d05eb1c57ee5b95a7b83a39384c37df4d9 iio: adc: mcp3911: mask out device ID in debug prints
+174dac5dc800e4e2e4552baf6340846a344d01a3 iio: adc: stm32-adc: fix channel sampling time init
 72b2aa38191bcba28389b0e20bf6b4f15017ff2b tools: iio: iio_utils: fix digit calculation
 4132f19173211856d35180958d2754f5c56d520a iio: temperature: ltc2983: allocate iio channels once
 54246b9034da08087ceb2083478c0d13403e12b4 iio: at91-sama5d2_adc: Fix unsafe buffer attributes
@@ -51,7 +53,6 @@ a887b59f6a168e13a7608c64b61e6d5b769f80ee Merge branch 'mtk_eth_wed-leak-fixes'
 9972e6b404884adae9eec7463e30d9b3c9a70b18 mmc: core: Fix kernel panic when remove non-standard SDIO card
 d21f4b7ffc22c009da925046b69b15af08de9d75 pinctrl: qcom: Avoid glitching lines when we first mux to output
 a8dfb85095dd8b884ee962e64b16ef52bc54119d ALSA: hda/realtek: simplify the return of comp_bind()
-b40af6183b685b0cf7870987b858de0d48db9ea0 spi: qup: support using GPIO as chip select line
 25b72d530e7aa185955196b63f53c38f751f1632 fbdev: MIPS supports iomem addresses
 1013999b431b4bcdc1f5ae47dd3338122751db31 ASoC: codecs: jz4725b: add missed Line In power control bit
 088777bf65b98cfa4b5378119d0a7d49a58ece44 ASoC: codecs: jz4725b: fix reported volume for Master ctl
@@ -228,7 +229,6 @@ df496157a5afa1b6d1f4c46ad6549c2c346d1e59 ASoC: codecs: jz4725b: Fix spelling mis
 672e97ef689a38cb20c2cc6a1814298fea34461e net: Fix return value of qdisc ingress handling on success
 fd602f5cb52e336d8c06f8da2d80c76ce2905030 selftests: add selftest for chaining of tc ingress handling to egress
 6109ecbfd10475309d3e5a1a39bf167547da878e Merge branch 'qdisc-ingress-success'
-f8aa6c895d482847c9b799dcdac8bbdb56cb8e04 spi: aspeed: Fix window offset of CE1
 abe3c631447dcd1ba7af972fe6f054bee6f136fa selinux: enable use of both GFP_KERNEL and GFP_ATOMIC in convert_context()
 096bbeec7bd6fb683831a9ca4850a6b6a3f04740 smb3: interface count displayed incorrectly
 008f05a72d32dcc14038801649ec67af765fcc3c ASoC: jz4752b: Capture fixes
@@ -1052,9 +1052,9 @@ f6f5204727b9b1f3c6e9c90b5b09f40c6e0102f5 Merge tag 'x86_urgent_for_v6.1_rc4' of 
 aa52994915dca444dbb8e6b91eb82b749ba7a1ec Merge tag 'hwmon-for-v6.1-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/groeck/linux-staging
 16c7a368c8ba9aba3b0e0ae5ec0a64be9fb45665 Merge tag 'cxl-fixes-for-6.1-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/cxl/cxl
 f0c4d9fc9cc9462659728d168387191387e903cc Linux 6.1-rc4
-0b21b4dc9a2204fba599a248f5c7ed7822f56154 Merge tag 'v6.1-rc4' into regulator-6.2
-81c7c46022651f943c026b9e0b6c19fa3a8b4fcd Merge remote-tracking branch 'regulator/for-6.0' into regulator-linus
-3ba9cb44652b0bf6a57a262c75d6c97a8a5eed48 Merge branch 'regulator-linus' into regulator-next
-9bd94ab8335b33a117630c8858ef0fc4c1846738 Merge remote-tracking branch 'regulator/for-6.2' into regulator-next
+5cd4d3886780bf9a846eada29a2aefe8bfcac027 Merge tag 'v6.1-rc4' into spi-6.2
+17084b9be88e1baf7772bfb3e7b05112838fb2cb Merge remote-tracking branch 'spi/for-6.0' into spi-linus
+ee4e154599183d4416e6d1f3db1e885e72709688 Merge branch 'spi-linus' into spi-next
+5439e9897c59694ca822a5659822fa6341df46db Merge remote-tracking branch 'spi/for-6.2' into spi-next
 
---===============6296028501938793883==--
+--===============7949345802085760046==--
