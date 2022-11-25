@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Fri, 25 Nov 2022 08:08:38 -0000
-Message-Id: <166936371890.30687.1091483654164740756@gitolite.kernel.org>
+Date: Fri, 25 Nov 2022 08:09:26 -0000
+Message-Id: <166936376682.31073.12943488820302860666@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: davem
 changes:
   - ref: refs/heads/master
-    old: 813abcd98fb1b2cccf850cdfa092a4bfc50b2363
-    new: f72cd76b05ea1ce9258484e8127932d0ea928f22
+    old: f72cd76b05ea1ce9258484e8127932d0ea928f22
+    new: b084f6cc3563faf4f4d16c98852c0c734fe18914
     log: |
-         f72cd76b05ea1ce9258484e8127932d0ea928f22 net: stmmac: use sysfs_streq() instead of strncmp()
+         b084f6cc3563faf4f4d16c98852c0c734fe18914 lib/test_rhashtable: Remove set but unused variable 'insert_retries'
          
