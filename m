@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0766918350582037400=="
+Content-Type: multipart/mixed; boundary="===============5937131940649185576=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Sat, 26 Nov 2022 03:23:22 -0000
-Message-Id: <166943300243.17375.12543219850623678896@gitolite.kernel.org>
+Date: Sat, 26 Nov 2022 03:23:38 -0000
+Message-Id: <166943301881.17543.3918882746568726197@gitolite.kernel.org>
 
---===============0766918350582037400==
+--===============5937131940649185576==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,67 +16,88 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue
-    old: e56ca6bcd2136207868516f5a304fbb82cc0cb82
-    new: 689d94ec208cfdf95101d99319cb4bdc5f55774d
-    log: revlist-e56ca6bcd213-689d94ec208c.txt
+  - ref: refs/tags/mkp-scsi-staging
+    old: 8348a3240400fa937ab2deb7a7f4b63514084dc9
+    new: 22d6fac35f048d41263de997b5dbadf8903a67c5
+    log: revlist-8348a3240400-22d6fac35f04.txt
 
---===============0766918350582037400==
+--===============5937131940649185576==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1669432992 -0500
+pusher 75C5DE3D 1669433006 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1669432992-db493e9799893566486f0b47d5f2ebc07ad5e602
+nonce 1669433006-5704d26a9f5ecb25d9be366673ccf3f9fb565f3c
 
-e56ca6bcd2136207868516f5a304fbb82cc0cb82 689d94ec208cfdf95101d99319cb4bdc5f55774d refs/heads/queue
+8348a3240400fa937ab2deb7a7f4b63514084dc9 22d6fac35f048d41263de997b5dbadf8903a67c5 refs/tags/mkp-scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmOBhqAACgkQ7ulgGnXF
-3j0Sww/+OKZHMqZSVyzmb6zsnXy4WbSALk2TstU22B5yd8JG+EzD0qhVTZMFjlIF
-WF/+57a+nEVBXncwMRjzU03wqa3wikdfgMLyqSdwcfc6oVUDS89rBBxockrjA8wM
-J/O9DzXCpv47bm/bqw13h/AXw6ZFnESN0wsFidAiRZL9cU7h8pl7WIu2ImBPOimn
-xFg2n5leHhqkxlL+FrIr5q+S5w4iVtwCktl6k6pPVk8UDUrDX3oTn6xx+kwjiVnO
-2GDLJo9uGo4pZ11C8hWQ+x4Jd6T/a3iB9Vw3+v/OORBgBExqWKubaL0NpUOHfE52
-vU1ZNAx7bE820zmth7wkJc8WvNpYXKyIyxdNulrqEqyQw3z/mNot7AywUcgl+z8F
-uN9O1i3UlZegGeqXZnN9t/oiWm7fztFoSP919vVZMvj7cBCHzRkNVOjOPnshun9x
-8tWpXe6V3UzARprZF2R9z24ss24dDfwtNrnIwKJ8wID6vSmhsckcd0rq723AWSkL
-GL9AUxd7RpgIg7NhIEB3kklv6UJNM9ihc/WbkhJBWMMlYQyBf4nl2MgEvBRspLfL
-Tadg1dev1EsBb7EW/XH8o7QFqxFXiwJR/rkDuu9qOXinPg9J2WecUu2wjPpenaEZ
-3eeSIY1xadwGvomJMoIezano3SzVXCongyc/eHzjMc1JARHHIAc=
-=7/W7
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmOBhq4ACgkQ7ulgGnXF
+3j2HNQ/+JKg0gQzHZZp5dg0rv4TCpylfDJtJyMt2rMS7wg+DAX18HANq+WerimjV
+DO0T6alK9KdcX4EPKn9QCuok6ksNpILgUTpaz2zQQ6T32XYRPczIMO7YdqsLwhbH
+7TBYa5p7qRMl25+Vockvl9n7OfRCYa0LwwzqWmkIZHZ6UHImhLfQKoTL7WoFMBdq
+M5tB6yNL3KPivAbhZjdXUg5A+LahADnkSrmkK/F4MpalPU2wbkzTF69hYzh6QXm2
+JUwkb3HMoA9R8fGKFpuZcPIUEIeotnw7XQb73JFqtWgUhpIBQ2slOSrjd3KUboDL
+cDBFIgW6GyslhA8X7JyYs8D6xP5lQCHT1wGMN/TCMANS+xVInQ/593N0SHTK9tun
+KAiUaJdgNxBlEQKhiTc76FKy/WgYJsbIcyZdnHE+oyAV47qBQheo7QwxRYVJ+S3C
+RBDdnlFfYbAodN0fRSfTVDLZoaFyfUKSaWeLXFfMeVfrxHXEHuLiHJ5rO9wO2lSy
+op+1B/1f7AnECLNUz70QRFkeDKsjwD1wqAK72uJWAaII7TZTzvvsPIn8I2W2jnOo
+S/P3E1MfAS09w6tif2gNmmn5WdpfW3E3hN1oXhsbOP8ElvzcpMCHPCDFvBw1+mK9
+DYBLFVOG9DL9uhhGXARFoZU0E4HS9Po+0ksbfqscMHYEWAUDibI=
+=CgH+
 -----END PGP SIGNATURE-----
 
---===============0766918350582037400==
+--===============5937131940649185576==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e56ca6bcd213-689d94ec208c.txt
+Content-Disposition: attachment; filename=revlist-8348a3240400-22d6fac35f04.txt
 
-729c287e9f7481d630b69c73960e2ac990cd04fc scsi: lpfc: Remove redundant pointer 'lp'
-b27ac2faa2fc0b2677cf1cbd270af734a1f5fd95 scsi: smartpqi: Convert to host_tagset
-0b93cf2a9097b1c3d75642ef878ba87f15f03043 scsi: smartpqi: Add new controller PCI IDs
-7c56850637ea820a89ce2f52fca66c5ae12d0f0a scsi: smartpqi: Correct max LUN number
-cbe42ac15698a23b204a9b5c66eb0067b22cbd42 scsi: smartpqi: Change sysfs raid_level attribute to N/A for controllers
-cc9befcbbb5ebce77726f938508700d913530035 scsi: smartpqi: Correct device removal for multi-actuator devices
-14063fb625c4541f48ff0dc7ae005b0d5a159c3f scsi: smartpqi: Add controller cache flush during rmmod
-921800a1deeaa832e4303e9335a31b4234c41ac1 scsi: smartpqi: Initialize feature section info
-2ae45329a956ff86ff8bec36463b6f49d2ca9bea scsi: smartpqi: Change version to 2.1.20-035
-216e179724c1d9f57a8ababf8bd7aaabef67f01b scsi: scsi_debug: Fix a warning in resp_write_scat()
-b29e91385ce2d3aae70906f80f517f9b93d97a7b scsi: lpfc: Use memset_startat() helper
-0824050682aef5151ade16129b3a0498a07ca6c9 scsi: libfc: Remove redundant variable ev_qual
-c4c5fa35563a47957fa4f9c299ca1c6aadc27d50 scsi: bfa: Replace one-element array with flexible-array member
-2c1a0a7584f5084f3ec79f86c9a54ee4c55307c4 scsi: lpfc: Fix WQ|CQ|EQ resource check
-ae696255d655bec673e5a5707f37ff6a098e89c2 scsi: lpfc: Correct bandwidth logging during receipt of congestion sync WCQE
-d99af587d59ca39747b4328dad0b193655835c90 scsi: lpfc: Fix MI capability display in cmf_info sysfs attribute
-97f256913c5d8a633efe4f11d4ed2d6a3ea42635 scsi: lpfc: Fix crash involving race between FLOGI timeout and devloss handler
 d57d98fef46fead01d954afa1b585405b617a4e4 scsi: lpfc: Update lpfc version to 14.2.0.9
 cdd9344e00b4fe3a4683a0ee58826c7a5ce778e0 scsi: lpfc: Remove linux/msi.h include
 7870d24817890bccee98db0718acececd6399d04 scsi: target: core: Send max transfer length in blocks
 9375031ee40b66c8fd2fc24d5fbea47b69f53de6 scsi: target: core: Make hw_max_sectors store the sectors amount in blocks
 689d94ec208cfdf95101d99319cb4bdc5f55774d scsi: target: core: Change the way target_xcopy_do_work() sets restiction on max I/O
+fec1b2fa62c162d03f5dcd7b03e3c89d3116d49f scsi: target: iscsi: Fix a race condition between login_work and the login thread
+a72629b5cdbc43e28a4a19b0fce8d17c582c4db4 scsi: target: core: Fix hard lockup when executing a compare-and-write command
+0c26a2d7c98039e913e63f9250fde738a3f88a60 scsi: iscsi: Rename iscsi_set_param() to iscsi_if_set_param()
+ec9780e48c77f469c339b53940ef0c5eacc8b9d2 scsi: core: Increase scsi_device's iodone_cnt in scsi_timeout()
+cfee29ffb45b1c9798011b19d454637d1b0fe87d scsi: core: Do not increase scsi_device's iorequest_cnt if dispatch failed
+9c9ff300e0de07475796495d86f449340d454a0c scsi: hpsa: Fix possible memory leak in hpsa_init_one()
+78316e9dfc24906dd474630928ed1d3c562b568e scsi: mpt3sas: Fix possible resource leaks in mpt3sas_transport_port_add()
+4ef174a3ad9b5d73c1b6573e244ebba2b0d86eac scsi: hpsa: Fix error handling in hpsa_add_sas_host()
+fda34a5d304d0b98cc967e8763b52221b66dc202 scsi: hpsa: Fix possible memory leak in hpsa_add_sas_device()
+859ed37c9c3f456510b97ecb0bf155cee2b9d3fc scsi: ufs: core: Separate function name and message
+5277326d07fbf68aa7fc9e7bce6c381002e00fca scsi: ufs: core: Switch 'check_for_bkops' to bool
+222d227f375b4cfa517a8f1f0f266ebe0263ad05 scsi: ufs: core: Fix unnecessary operation for early return
+bb0cd225dd37df1f4a22e36dad59ff33178ecdfc scsi: efct: Fix possible memleak in efct_device_init()
+ed0f17b748b20271cb568c7ca0b23b120316a47d scsi: scsi_debug: Fix a warning in resp_verify()
+07f2ca139d9a7a1ba71c4c03997c8de161db2346 scsi: scsi_debug: Fix a warning in resp_report_zones()
+47b6a122c7b69a876c7ee2fc064a26b09627de9d scsi: fcoe: Fix possible name leak when device_register() fails
+e6d773f93a49e0eda88a903a2a6542ca83380eb1 scsi: scsi_debug: Fix possible name leak in sdebug_add_host_helper()
+e6f108bffc3708ddcff72324f7d40dfcd0204894 scsi: ipr: Fix WARNING in ipr_init()
+42c5907728867df91045f532a38682e0ec7a955b scsi: sd: Use 16-byte SYNCHRONIZE CACHE on ZBC devices
+4155658cee394b22b24c6d64e49247bf26d95b92 scsi: fcoe: Fix transport not deattached when fcoe_if_init() fails
+3620e174d260adf88fa6511e8a20831cbddc4b66 scsi: qla2xxx: Remove duplicate of vha->iocb_work initialization
+95da5e58172cd3c58b82cb01e6cd157b6c5eabe9 scsi: qla2xxx: Initialize vha->unknown_atio_[list, work] for NPIV hosts
+e118df492320176af94deec000ae034cc92be754 scsi: snic: Fix possible UAF in snic_tgt_create()
+a500c4cc06cd2830c692b571dd0a1c3585f23150 scsi: device_handler: alua: Revert "Move a scsi_device_put() call out of alua_check_vpd()"
+50759b881e1d6879e7cef15c74bdea2e937338c9 scsi: device_handler: alua: Call scsi_device_put() from non-atomic context
+541555285339313e831f8e446c03a7994c604d65 scsi: ufs: ufs-mediatek: Remove unneeded code
+96a2dfa1df4b9df0cfa2e807153b4d254db2fa82 scsi: ufs: ufs-mediatek: Modify the return value
+7e613be7c63d2b9041b38d51fc324b8ad67d31e3 scsi: Revert "scsi: hisi_sas: Drain bcast events in hisi_sas_rescan_topology()"
+94a3555d1f0f51cf029a8668624e1cd40628880f scsi: Revert "scsi: hisi_sas: Don't send bcast events from HW during nexus HA reset"
+9181ce3cb5d96f0ee28246a857ca651830fa3746 scsi: libsas: Add smp_ata_check_ready_type()
+3c2673a09cf1181318c07b7dbc1bc532ba3d33e3 scsi: hisi_sas: Fix SATA devices missing issue during I_T nexus reset
+4d450cf2b00d34b53f52d93216dd23af57bdca73 scsi: libsas: Do not export sas_ata_wait_after_reset()
+ee8c88cab4afbd5ee10a127d6cbecd6b200185a5 scsi: ufs: core: Fix the polling implementation
+d29c32efebf3f10b25e9f88ac75c962e7259412d scsi: ufs: ufs-mediatek: Remove unnecessary return code
+35bd6f9fd33b8beb043aea0db51b726ca6edfd87 scsi: core: Use SCSI_SCAN_RESCAN in __scsi_add_device()
+425b27a04dd8b2f5abaf8023166071b8342dc079 scsi: core: Use SCSI_SCAN_INITIAL in do_scsi_scan_host()
+76dc609556c699676776d53222d342276afd0442 scsi: megaraid_sas: Fix some spelling mistakes in comment
+4e80eef45ad775a54fb06a66bf8267a154781ce5 scsi: sg: Fix get_user() in call sg_scsi_ioctl()
 
---===============0766918350582037400==--
+--===============5937131940649185576==--
