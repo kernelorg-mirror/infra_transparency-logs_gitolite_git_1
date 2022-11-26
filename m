@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2074065740466125133=="
+Content-Type: multipart/mixed; boundary="===============1515092072673907250=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Sat, 26 Nov 2022 03:22:55 -0000
-Message-Id: <166943297557.17066.7011066219579165066@gitolite.kernel.org>
+Date: Sat, 26 Nov 2022 03:23:09 -0000
+Message-Id: <166943298920.17223.2080415327198923241@gitolite.kernel.org>
 
---===============2074065740466125133==
+--===============1515092072673907250==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-queue
-    old: 1b637bf97a951bdd32436fbe81645443a81d3d0a
-    new: 1cf327608a9f536fc2efa58cb4e2835ade580724
-    log: revlist-1b637bf97a95-1cf327608a9f.txt
+  - ref: refs/heads/6.2/scsi-queue
+    old: e56ca6bcd2136207868516f5a304fbb82cc0cb82
+    new: 689d94ec208cfdf95101d99319cb4bdc5f55774d
+    log: revlist-e56ca6bcd213-689d94ec208c.txt
 
---===============2074065740466125133==
+--===============1515092072673907250==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1669432965 -0500
+pusher 75C5DE3D 1669432979 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1669432964-59a9af04c5cba854d5d1a089631ea95846e852ef
+nonce 1669432978-78a07546c05084ed947319841814cdd7041e4dc6
 
-1b637bf97a951bdd32436fbe81645443a81d3d0a 1cf327608a9f536fc2efa58cb4e2835ade580724 refs/tags/mkp-scsi-queue
+e56ca6bcd2136207868516f5a304fbb82cc0cb82 689d94ec208cfdf95101d99319cb4bdc5f55774d refs/heads/6.2/scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmOBhoUACgkQ7ulgGnXF
-3j390Q/+M5gu9RsIvnxV8YuzP8IW+RYwpHxCwlabQ7ViqqYG29ovToh5VNMN/MHU
-sh4lvsFwdXGrFZVd13/TeEpal8jiwfzvVLjwd0vBDoh+nvFuYIRx+mbNDi0TOXom
-REF1K1DrCM1xH6ACQv7rM0DyO8uVN+P0K+oyvpp7e7bUvcCNdN4XCQYS2pgoG+9J
-EB+C/xgvNnCNagHkIfB8H+0cXh5ocaGN0vfHiCLyQvlmWrvBr+lbexMb/whlxr64
-r3rIMwDCcXmhqbbcagaqB8zeIX5N6rCH/ez/3/b3k71SIuXEOWVnfYUgVI8KPYiz
-I60i0c4zyK8FSCjEVz+rTQoeUXbDdbjzoQoeE1f4E0t/wnH57m9BEXQG1VBDB4Qc
-XoLRSiyl2oILIgtZzvLXdwK752Q+Oh7Fd3d2b/YFPKlwgSdP+RslWh3VSc4ebnKT
-Ix22EX3yTlQXctJBUwLOpLHZ0QBhAJ6SskfTerAOTlO9i+dCDJyqG9pd1vecDhI8
-/C0wVm3q1bT9BsLnR0UtDZ5LiatAZiS7XlNvJ/WwPCaQD2y2YStCnlxfj80TBpkw
-f2EXSNnXBodcewh/wm8AZbAMEABf4VgbeWix5efKq0+5V8/yHo7/2gZWucq8HnUg
-2oKWf0d/UPuIAlgZ36qkifOPrtSOHFx9SwsEF2x6ohL3+iUZw3o=
-=XH0z
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmOBhpMACgkQ7ulgGnXF
+3j06Ew/+IfPtDEfxWSG1cyZcRhHSNalwKlrxhPVjui/fc/KtNxv3lBtn8AyKdysZ
+EgUveO4y8DI6cZVCkYDH7i2PDBuPb/bx476HRrTxVS4pSOzA1J2RwzdpqiZ6N+aX
+vad0E09CONGwmvXU4S5Myn6zKYnN0mjt7iLVN3YtdY74j8j5zoSae7deueHaYE6b
+y/ApheU/za8/Qdh7czEKcRzRaT8ZgoBCXmM7U7KsV1GmiVrtaIDk9APpjXFqj2Yr
+UbZwLAE864OxjL5Qijni/EuxhPT0Zkg4tIj9aYYJh0Pk0klaqmoRiTKQuwXb04uK
+nSxAV4OzTnqw78cpcZsjp+u3+ryeYMMQ4jS2mwW9/eSu2KzUH6E/duYLvx8Mv9XQ
+hmkIWcXGge7sSPyv0KksduNRqEgKxvxZeEGuJ7J0XSydrJ21PUSsySz0IW24OvCY
+sYisfja9WLfvfxP4t0OdqACsYfGrUNmysPGTSJUxxu+1PpbEoH8LASyfn6ZeERGv
+wTRSjXB3pr/vEmsfGz5CVtC2UqU5SA6wclPDj+yiqafAXVrTWw59VMh36+xx1e74
+OZrVyDo8mgcqS8HbhpdcTBTh3Qvvi3CweA3twSaU5zreci+DwdOEutP0NaZHvSfw
+A90+Ne1WPeDBR2GWsmSefC6C1uCMjcYmmHfntrpc3fS3JdTdYEI=
+=Ame6
 -----END PGP SIGNATURE-----
 
---===============2074065740466125133==
+--===============1515092072673907250==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1b637bf97a95-1cf327608a9f.txt
+Content-Disposition: attachment; filename=revlist-e56ca6bcd213-689d94ec208c.txt
 
 729c287e9f7481d630b69c73960e2ac990cd04fc scsi: lpfc: Remove redundant pointer 'lp'
 b27ac2faa2fc0b2677cf1cbd270af734a1f5fd95 scsi: smartpqi: Convert to host_tagset
@@ -79,4 +79,4 @@ cdd9344e00b4fe3a4683a0ee58826c7a5ce778e0 scsi: lpfc: Remove linux/msi.h include
 9375031ee40b66c8fd2fc24d5fbea47b69f53de6 scsi: target: core: Make hw_max_sectors store the sectors amount in blocks
 689d94ec208cfdf95101d99319cb4bdc5f55774d scsi: target: core: Change the way target_xcopy_do_work() sets restiction on max I/O
 
---===============2074065740466125133==--
+--===============1515092072673907250==--
