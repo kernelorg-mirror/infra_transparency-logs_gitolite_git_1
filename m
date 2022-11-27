@@ -1,28 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
-Date: Sun, 27 Nov 2022 21:26:05 -0000
-Message-Id: <166958436544.21198.11467623842395110539@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Sun, 27 Nov 2022 21:34:40 -0000
+Message-Id: <166958488005.25758.15682502671219244059@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux
-user: krzk
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/for-next
-    old: 5a549e2d0bab0d9d891b1aefe14742a5c8134fa9
-    new: 4407a1eb1faf070fdc023eed10fecde7d0b66fcd
+  - ref: refs/heads/master
+    old: cf562a45a0d57fb0333363c9d4ff82d061898355
+    new: b7b275e60bcd5f89771e865a8239325f86d9927d
     log: |
-         784287950d8613132d3c3fd502906ba844d63166 arm64: dts: exynos: Update cache properties
-         bf2ae716bc4a442e6e8270c18fd29441c031ace8 arm64: dts: fsd: Update cache properties
-         4407a1eb1faf070fdc023eed10fecde7d0b66fcd Merge branch 'next/dt64' into for-next
+         b7b275e60bcd5f89771e865a8239325f86d9927d Linux 6.1-rc7
          
-  - ref: refs/heads/next/dt64
-    old: 21f6546e8bf68a847601e2710378e2224bf49704
-    new: bf2ae716bc4a442e6e8270c18fd29441c031ace8
-    log: |
-         784287950d8613132d3c3fd502906ba844d63166 arm64: dts: exynos: Update cache properties
-         bf2ae716bc4a442e6e8270c18fd29441c031ace8 arm64: dts: fsd: Update cache properties
-         
+  - ref: refs/tags/v6.1-rc7
+    old: 0000000000000000000000000000000000000000
+    new: 1791be4df87a0d69008ba46c5a03be2e4cfbe3d5
