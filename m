@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1777800336169438194=="
+Content-Type: multipart/mixed; boundary="===============0098901106605582170=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/fs/xfs/xfstests-dev
-Date: Sun, 27 Nov 2022 13:07:19 -0000
-Message-Id: <166955443993.25821.16787343454021375826@gitolite.kernel.org>
+Date: Sun, 27 Nov 2022 13:08:30 -0000
+Message-Id: <166955451079.26304.15644697943821861322@gitolite.kernel.org>
 
---===============1777800336169438194==
+--===============0098901106605582170==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,26 +15,28 @@ service: git-receive-pack
 repo: pub/scm/fs/xfs/xfstests-dev
 user: zlang
 changes:
-  - ref: refs/heads/master
-    old: 7d839ccc1a13148d1a41d32fb9be83a0c8d31496
-    new: 41f2bbdec5faa5d6522e86e63c1f30473a99dbfe
-    log: revlist-7d839ccc1a13-41f2bbdec5fa.txt
+  - ref: refs/heads/for-next
+    old: 41f2bbdec5faa5d6522e86e63c1f30473a99dbfe
+    new: 1e8502082ca94addc20b7cb0e86cbc6af397ebe0
+    log: revlist-41f2bbdec5fa-1e8502082ca9.txt
 
---===============1777800336169438194==
+--===============0098901106605582170==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7d839ccc1a13-41f2bbdec5fa.txt
+Content-Disposition: attachment; filename=revlist-41f2bbdec5fa-1e8502082ca9.txt
 
-1dd7395623cb1b56aadc88a7c46ed660e262a817 common/config: Make test and scratch devices use the same mount options
-2450821c9b151a98491a078aae921e22a61cff0c common/punch: fix flags printing for filter _filter_fiemap_flags
-cea2bae85f1d4b5b9d827ef5c178be64c9a1b01b btrfs: test that fiemap reports extent as not shared after deleting file
-cb404cfcae5127bdfdb295c1f92f1643f4598ef4 btrfs: test fiemap reports extent as not shared after COWing it in snapshot
-1b3f0e1b6c9e2f03091c4d95459b79be119ad4ed xfs: test xfs_scrub phase 6 media error reporting
-1d4080ce7a6bfa0abaa818da38dc51e625a0307c fstests: Add more related cases to perms group
-7f7f3261a3ccfa237d50d0fab897c08eb0fb30ba common/verity: fix _fsv_have_hash_algorithm() with required signatures
-b0442d18aa880736c7417d8cbf501eb4ae52341a generic/577: add missing file removal before empty file test
-6994e033aba253cb2221e6412da4e44dc4526adf tests: fix some tests for systems with fs.verity.require_signatures=1
-41f2bbdec5faa5d6522e86e63c1f30473a99dbfe generic: add missing $FSX_AVOID to fsx invocations
+be20e5f491e06d4784cb50f916b2f6b8f42917df generic: check direct IO writes with io_uring and O_DSYNC are durable
+b4feba30c81c43d38b7d30af207511130b9fbc57 generic: check logical-sector sized O_DIRECT
+eae34184a70dd2a387a113dfdca994405e8f367c generic: shutdown might leave NULL files with nonzero di_size
+4b480aae3ed127aa675582e3baad14aa969ee1dc fstests: filter.btrfs: handle detailed missing device report better
+7e0d5f6a44368ffa269d91856994da6d93a4eb9b btrfs/003: fix failure on new btrfs-progs versions
+0d044155ff7686710a18fa952f0d76559dbfed6d btrfs/053: fix test failure when running with btrfs-progs v6.0+
+d6deed033681643118cbeea0bc8841f2ee5327f1 btrfs: fix failure of tests that use defrag on btrfs-progs v6.0+
+da2e198c3fa536012c2f8cb8e3741c46605ae01b common/dmlogwrites: Extend _log_writes_init() to accept the specified length
+98729caa07c9c9edcfb631522c9b2e4076212e16 generic/470: Replace thin volume with blkdiscard -z
+4c02b231b514d2346ba415cf640d9dfaa3d1aae1 ceph/005: skip test if using "test_dummy_encryption"
+acd67f0b2c5fe187db8540b4e65dc94ff9a939c8 fstests: update group name according to xfs_io command requirement
+1e8502082ca94addc20b7cb0e86cbc6af397ebe0 generic/614: Run test only for filesystems supporting delalloc
 
---===============1777800336169438194==--
+--===============0098901106605582170==--
