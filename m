@@ -1,26 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Sun, 27 Nov 2022 19:07:18 -0000
-Message-Id: <166957603800.19626.3834692836846032577@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Sun, 27 Nov 2022 19:10:12 -0000
+Message-Id: <166957621229.22578.2244442695536313838@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: sashal
+repo: pub/scm/linux/kernel/git/netdev/net
+user: davem
 changes:
   - ref: refs/heads/master
-    old: 549ee77544ab12c235250e1eb8f9274b8229c67c
-    new: 9409414c61803dee467748895f742efc288f5b4a
+    old: 31d929de5a112ee1b977a89c57de74710894bbbf
+    new: 369eb2c9f1f72adbe91e0ea8efb130f0a2ba11a6
     log: |
-         7f7f7926e9c6b010b46af6da7dbb6f0d7879e023 Drop pinctrl-rockchip-list-all-pins-in-a-possible-mux-rou.patch from 5.10
-         2fde6806a406c5d9d8bd6bfc31526b471991ca2d Fixes for 6.0
-         3cec82d4713e9954d66e4f49cd8421d380989120 Fixes for 5.15
-         43ae932e3946e93b1aad58d06516215627d686f9 Fixes for 5.10
-         ea8924c479cb3613620aff0f895b8b54b9070998 Fixes for 5.4
-         dad7c528727405309af950315c24263fd9ded73a Fixes for 4.19
-         af726b8e47ab799a5b3f86f5738fca9dc13eb4a4 Fixes for 4.14
-         9409414c61803dee467748895f742efc288f5b4a Fixes for 4.9
+         369eb2c9f1f72adbe91e0ea8efb130f0a2ba11a6 net: phy: fix null-ptr-deref while probe() failed
          
