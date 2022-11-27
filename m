@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ribalda/linux
-Date: Sun, 27 Nov 2022 22:30:46 -0000
-Message-Id: <166958824671.2074.9566544250866982653@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Sun, 27 Nov 2022 22:35:39 -0000
+Message-Id: <166958853922.5340.10283339051398533760@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ribalda/linux
-user: ribalda
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
-  - ref: refs/heads/b4/snd-freeze
-    old: 0000000000000000000000000000000000000000
-    new: 7a2aff0f4360a6ddf8fba80a48a4a4244993facd
-  - ref: refs/tags/sent/snd-freeze-v1
-    old: 0000000000000000000000000000000000000000
-    new: 946313125873bb5ead36a33d0406b665d6d01041
+  - ref: refs/heads/master
+    old: bcd6f4c312ad638f56a31d5e7d3fb99adbe33830
+    new: b5cea779664fff3c8c43fa11ab21f1e194d5e6bb
+    log: |
+         b5cea779664fff3c8c43fa11ab21f1e194d5e6bb Sun Nov 27 10:34:50 PM UTC 2022
+         
