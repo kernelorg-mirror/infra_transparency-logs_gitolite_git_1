@@ -1,20 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ribalda/linux
-Date: Sun, 27 Nov 2022 21:06:58 -0000
-Message-Id: <166958321832.6958.9103800258745806523@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
+Date: Sun, 27 Nov 2022 21:26:05 -0000
+Message-Id: <166958436544.21198.11467623842395110539@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ribalda/linux
-user: ribalda
+repo: pub/scm/linux/kernel/git/krzk/linux
+user: krzk
 changes:
-  - ref: refs/heads/b4/da9211
-    old: fcd9088a6d0553789e3c62ab95de7163d2a52dab
-    new: 8843e2c5a0f435bd0ce855050c2cccf0ff50abad
+  - ref: refs/heads/for-next
+    old: 5a549e2d0bab0d9d891b1aefe14742a5c8134fa9
+    new: 4407a1eb1faf070fdc023eed10fecde7d0b66fcd
     log: |
-         049a88f4db95aa1372536d8e2001b5ef66a2acf2 regulator: da9211: Fix crash when irqs are pre-enabled
-         8843e2c5a0f435bd0ce855050c2cccf0ff50abad regulator: da9211: Use irq handler when ready
+         784287950d8613132d3c3fd502906ba844d63166 arm64: dts: exynos: Update cache properties
+         bf2ae716bc4a442e6e8270c18fd29441c031ace8 arm64: dts: fsd: Update cache properties
+         4407a1eb1faf070fdc023eed10fecde7d0b66fcd Merge branch 'next/dt64' into for-next
+         
+  - ref: refs/heads/next/dt64
+    old: 21f6546e8bf68a847601e2710378e2224bf49704
+    new: bf2ae716bc4a442e6e8270c18fd29441c031ace8
+    log: |
+         784287950d8613132d3c3fd502906ba844d63166 arm64: dts: exynos: Update cache properties
+         bf2ae716bc4a442e6e8270c18fd29441c031ace8 arm64: dts: fsd: Update cache properties
          
