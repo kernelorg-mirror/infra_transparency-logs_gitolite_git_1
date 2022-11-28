@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0171378504979028519=="
+Content-Type: multipart/mixed; boundary="===============4472308655441782016=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 28 Nov 2022 11:08:35 -0000
-Message-Id: <166963371562.3556.17176457644768081518@gitolite.kernel.org>
+Date: Mon, 28 Nov 2022 11:08:44 -0000
+Message-Id: <166963372442.3691.3401172643804393812@gitolite.kernel.org>
 
---===============0171378504979028519==
+--===============4472308655441782016==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: 67f3d38b198673a4241083c86706e7f4fc8c5d63
-    new: 6100fd707322c24cffcaefb357615e088fdc5463
-    log: revlist-67f3d38b1986-6100fd707322.txt
+  - ref: refs/heads/m68k-queue
+    old: 190c1ff14efac7eb6a7067bb6e960a48d9193794
+    new: 05a57a04b929bdbd8ef1880e7a567906de8c5c87
+    log: revlist-190c1ff14efa-05a57a04b929.txt
 
---===============0171378504979028519==
+--===============4472308655441782016==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-67f3d38b1986-6100fd707322.txt
+Content-Disposition: attachment; filename=revlist-190c1ff14efa-05a57a04b929.txt
 
 3a5913183aa1b14148c723bda030e6102ad73008 xfrm: fix "disable_policy" on ipv4 early demux
 d83f7040e18489265b4b121f33f99b02e52dabda xfrm: lwtunnel: squelch kernel warning in case XFRM encap type is not available
@@ -402,6 +402,10 @@ db3182484f9fb472137cc9a3c41b3d69530b40ad Merge tag 'char-misc-6.1-rc7' of git://
 9066e1518645a6c754709e44c3f58dc6a76a6d21 Merge tag 'usb-6.1-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb
 cf562a45a0d57fb0333363c9d4ff82d061898355 Merge tag 'pull-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
 b7b275e60bcd5f89771e865a8239325f86d9927d Linux 6.1-rc7
-6100fd707322c24cffcaefb357615e088fdc5463 Merge tag 'v6.1-rc7'
+253647f9d9635a5aad5f16540eaeaac0da9d89f9 m68k: mac: Remove unused rbv_set_video_bpp()
+58c75247d2cabb28c9370a1c65a347eec1c0fbeb m68k: mac: Reword comment using double "in"
+c4e7c89ea6f2951e4f4270f8e814ef0b2b20e444 m68k: atari: usb: Add ISP1160 USB host controller support
+dac76a7cecde7bdf486f49fc1f550debcf1f5ac4 m68k: atari: Update Kconfig.bus help text
+05a57a04b929bdbd8ef1880e7a567906de8c5c87 m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============0171378504979028519==--
+--===============4472308655441782016==--
