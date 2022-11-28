@@ -1,37 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============1491342809764172716=="
+Content-Type: multipart/mixed; boundary="===============0601429625659052888=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Mon, 28 Nov 2022 11:29:43 -0000
-Message-Id: <166963498340.19094.2468193318069715329@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Mon, 28 Nov 2022 11:30:00 -0000
+Message-Id: <166963500087.19264.5242310125401033711@gitolite.kernel.org>
 
---===============1491342809764172716==
+--===============0601429625659052888==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: leon
 changes:
   - ref: refs/heads/master
     old: eb7081409f94a9a8608593d0fb63a1aa3d6f95d8
     new: b7b275e60bcd5f89771e865a8239325f86d9927d
     log: revlist-eb7081409f94-b7b275e60bcd.txt
-  - ref: refs/heads/rdma-next
-    old: e8079282811ff41ec4199f27cc4ae77d52b152a0
-    new: bbd4a64066234f9a0da43407260911dbd3249895
-    log: |
-         e58122eed30e4bac74ba9ca2d69a9b3e94bfe0c7 RDMA/core: Fix resolve_prepare_src error cleanup
-         ace7b723719e27fab9691ad3c1bafe61c647eab0 net/mlx5: Expose bits for querying special mkeys
-         1d57e957af653839ddda1ddc12cbd5966db505ec net/mlx5: Change define name for 0x100 lkey value
-         f6711ce1d48ba27b6ebd3b310553e883dbb6cfb1 net/mlx5: Use query_special_contexts for mkeys
-         677272c17dd95d06112d3ca996d29d206ad2c816 RDMA/mlx5: Use query_special_contexts for mkeys
-         bbd4a64066234f9a0da43407260911dbd3249895 RDMA/mlx5: Fix mlx5_ib_get_hw_stats when used for device
-         
 
---===============1491342809764172716==
+--===============0601429625659052888==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -414,4 +403,4 @@ db3182484f9fb472137cc9a3c41b3d69530b40ad Merge tag 'char-misc-6.1-rc7' of git://
 cf562a45a0d57fb0333363c9d4ff82d061898355 Merge tag 'pull-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
 b7b275e60bcd5f89771e865a8239325f86d9927d Linux 6.1-rc7
 
---===============1491342809764172716==--
+--===============0601429625659052888==--
