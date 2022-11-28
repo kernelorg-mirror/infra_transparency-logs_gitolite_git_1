@@ -1,22 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless-next
-Date: Mon, 28 Nov 2022 13:59:39 -0000
-Message-Id: <166964397958.26831.200125690883502367@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jack/linux-fs
+Date: Mon, 28 Nov 2022 14:02:54 -0000
+Message-Id: <166964417423.29623.7936522120099124189@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wireless/wireless-next
-user: kvalo
+repo: pub/scm/linux/kernel/git/jack/linux-fs
+user: jack
 changes:
-  - ref: refs/heads/main
-    old: 3b79d4bad3a0e73d9becb409a5f6112bc61e2c93
-    new: 823092a53556ebf8656623d0e857626d30fe1e18
+  - ref: refs/heads/for_next
+    old: 600b6f8dcbf0a74c4dd3c0ce0cbbe0c9b6b009fa
+    new: 6b46bb32a8b5c33e1b10ea195196b1d1eebe4ca8
     log: |
-         895b3b06efc285c1245242e9638b9ae251dc13ec wifi: plfxlc: fix potential memory leak in __lf_x_usb_enable_rx()
-         7927afb5e27baac694f585b59c436ba323528dc2 wifi: rtl8xxxu: Fix use after rcu_read_unlock in rtl8xxxu_bss_info_changed
-         3ca7f0b2523cac5d436cd09758db07e10b1a322a wifi: b43: remove reference to removed config B43_PCMCIA
-         823092a53556ebf8656623d0e857626d30fe1e18 wifi: rtw88: fix race condition when doing H2C command
+         27e714c007e4ad01837bf0fac5c11913a38d7695 ext2: unbugger ext2_empty_dir()
+         b41b98e12a954c306e8eb9527ada0a70db339683 fs/ext2: Fix code indentation
+         6b46bb32a8b5c33e1b10ea195196b1d1eebe4ca8 Pull ext2 fixes from Al and Rong Tao.
          
