@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Mon, 28 Nov 2022 11:01:09 -0000
-Message-Id: <166963326921.31045.5327248613402439263@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ribalda/linux
+Date: Mon, 28 Nov 2022 11:02:39 -0000
+Message-Id: <166963335920.31635.8487020422136524816@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: davem
+repo: pub/scm/linux/kernel/git/ribalda/linux
+user: ribalda
 changes:
-  - ref: refs/heads/master
-    old: 763465e6fb5b0d5a4d4e7ec48399c6f662383271
-    new: 46fb6512538d201d9a5b2bd7138b6751c37fdf0b
-    log: |
-         46fb6512538d201d9a5b2bd7138b6751c37fdf0b net: ethernet: ti: am65-cpsw: fix error handling in am65_cpsw_nuss_probe()
-         
+  - ref: refs/tags/sent/mt8173-afe-v1
+    old: 0000000000000000000000000000000000000000
+    new: a6331c90b9287a3c9c90fa9e72160b240435a3bb
+  - ref: refs/heads/b4/mt8173-afe
+    old: 0000000000000000000000000000000000000000
+    new: 85d76e76dbbfb65a57e20e20e55d00ec6c10cb26
