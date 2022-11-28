@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Mon, 28 Nov 2022 17:23:37 -0000
-Message-Id: <166965621735.11434.9109820373389727531@gitolite.kernel.org>
+Date: Mon, 28 Nov 2022 17:23:48 -0000
+Message-Id: <166965622806.11574.9289378189732566152@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,10 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/perf/core
-    old: 17b8d847b92d815d1638f0de154654081d66b281
-    new: e5d628166ccd9687e8ead894994107d6ab849899
+  - ref: refs/heads/sched/core
+    old: d6962c4fe8f96f7d384d6489b6b5ab5bf3e35991
+    new: 5101c34fc3f332158d5a1f65e1025a8e24f2759a
     log: |
-         e5d628166ccd9687e8ead894994107d6ab849899 perf core: Return error pointer if inherit_event() fails to find pmu_ctx
+         8d2d1c1500b6b8215f4479c1100077c782f2c906 sched/topology: Add __init for init_defrootdomain
+         5101c34fc3f332158d5a1f65e1025a8e24f2759a sched: Async unthrottling for cfs bandwidth
          
