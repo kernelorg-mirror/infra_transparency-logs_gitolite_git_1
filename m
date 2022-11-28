@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8883272391176481357=="
+Content-Type: multipart/mixed; boundary="===============2280193825130158760=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Mon, 28 Nov 2022 16:57:07 -0000
-Message-Id: <166965462785.24875.4292937219068823353@gitolite.kernel.org>
+Date: Mon, 28 Nov 2022 16:57:11 -0000
+Message-Id: <166965463136.24989.9580003101878006953@gitolite.kernel.org>
 
---===============8883272391176481357==
+--===============2280193825130158760==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: eb7081409f94a9a8608593d0fb63a1aa3d6f95d8
+  - ref: refs/heads/usb-linus
+    old: 7a21b27aafa3edead79ed97e6f22236be6b9f447
     new: b7b275e60bcd5f89771e865a8239325f86d9927d
-    log: revlist-eb7081409f94-b7b275e60bcd.txt
+    log: revlist-7a21b27aafa3-b7b275e60bcd.txt
 
---===============8883272391176481357==
+--===============2280193825130158760==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1669654627 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1669654630 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1669654626-4e0172d375a3a2cf13c97b0f6e264d3d6a8ffc0a
+nonce 1669654630-4a5601d497e63b3f9a1241844c9b4b246c903eb3
 
-eb7081409f94a9a8608593d0fb63a1aa3d6f95d8 b7b275e60bcd5f89771e865a8239325f86d9927d refs/heads/main
+7a21b27aafa3edead79ed97e6f22236be6b9f447 b7b275e60bcd5f89771e865a8239325f86d9927d refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmOE6GMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+HGwQAIhsOZeXAJV2ePt/2MmD
-b3doadQPhgWr/93S1v4dRbuGAHWV0MvVVFSC+uXHp3RO8k1zAJiktZK2uRlnrDwB
-XLXm2tfcYQIcMdtZrZaQ+MD+QzJeqcWRE+brdjqF75/uUhrQjIp5PyUCV/sX+mpO
-9f3UkHziNkPjtMFBBlTYNG/taKWJEXpwWpunNx2UdftlPljOZs3kJ5BhLofHf2tt
-QWesSFB0u2dvW8M6fox5K2aYzU5yu07Hu2bK7I3XYuSf7Hl6QyM/wjYMO+DhzmSc
-KjUEjF1eMNlcl1TScHZ9YkLozAeZ7G68GccWSS5Pi0Kk0Mw7Rd3tYpAcn0KqGGsH
-0FpeREEiXbp5V+nQzRYlaPWL0Qu/bQPzYfNSmollOQcLaBrl3LzHiRXkm38eJc34
-RRO9vsXTC605gwVazvlWxU6bMbKKlZp8NJx6ZOqcr/lHnvM95At5FM535tMygg34
-rQATyO6mfIuWIctxbRS+RR3+7fgv/ekAoUTcjvplczlqf+ZqXeYz2Wfa7Z4drWmB
-ydpODWJVgAxbeUP5YF/irIttyu/c21RSUiTgshqBh3lEI69Ok9HXxb6foEG2cXuG
-tle5Ds4OxifzerjELfQEFNHd9mnHoWngNZpDZcFtT5N7ajLjUXA5amM1PmxfxhdJ
-QYk7RP7puUoRxJMw4T9Gcs2y
-=qK/d
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmOE6GYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+6hkP/0GCjKxAUTpiLVASSZDQ
+A1gFfOt8+wJX/R+llFh1AMwM1AH+0QUEdOeXw5Gg2VHc6PA0+dbGVbNtzt0vmbo3
+U+ohb31NIY3Ym+L1v1E6HhhvuSYuYd8CLGCXB0l5seGJLbkiwb4HmvghCS4XOCoS
+jKgNvQrc2pzo/Unuy+67wWVysltP2GJnGdt4ysdaX8g/ouJfUdfqzzs0r8xKXiXn
+wUIM5ZDrYtkqByI/LeQq356+lHpB83ExGnT7lvK00tRfw0cX3HEeQtJoCZ6DrRQU
+SMlkpIRDJ0uMMuR26msU6X5zPNljZyEvQTk/SOWrzejBZTOUyMMn91N8ujUEEm61
+NEX+7J2xUATiynpx78hOT4NuyN0AI13UxyG/PZWDPGsCPe+VuzXDT5qg6CiLWSZV
+w7/+QyplbUE95MG+fm8MigXfUIQdGpuzxWN9nnv2jmau3/JKNANVd0o5q3o+RYDm
+pW7CSgEysatMKRPhhQeexrsKdXphaHBkoHG2TPZPkPLTZk+0qmHnhWl6v+ZgrSgp
+bbhltf9zQ5UTxDxQtzHymc4iKMo05pnGx5AOY3r7YCWFkT+PB4ZwWbCnvqgKnji6
+cFHUa2gUhN+qvs7MUMjPdwYN6AaKV5GzlRzL5y/uQ+ihGXiuOGDDBfGYethsETrt
+GnNfH62v4+oddMNYdCEkkSTw
+=um9e
 -----END PGP SIGNATURE-----
 
---===============8883272391176481357==
+--===============2280193825130158760==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-eb7081409f94-b7b275e60bcd.txt
+Content-Disposition: attachment; filename=revlist-7a21b27aafa3-b7b275e60bcd.txt
 
 3a5913183aa1b14148c723bda030e6102ad73008 xfrm: fix "disable_policy" on ipv4 early demux
 d83f7040e18489265b4b121f33f99b02e52dabda xfrm: lwtunnel: squelch kernel warning in case XFRM encap type is not available
@@ -272,12 +272,6 @@ bb3cfbaf7c6416f3109fdb14f6fc0eb1a50361ad octeontx2-pf: Remove duplicate MACSEC s
 534bd70374d646f17e2cebe0e6e4cdd478ce4f0c init/Kconfig: fix CC_HAS_ASM_GOTO_TIED_OUTPUT test with dash
 2dc4ac91f845b690ddf2ad39172c3698b2769fa2 tsnep: Fix rotten packets
 a6a00d7e8ffd78d1cdb7a43f1278f081038c638f fbcon: Use kzalloc() in fbcon_prepare_logo()
-181babf7b4e5050b7a23cb47eb06277405cf132f usb: gadget: uvc: also use try_format in set_format
-3aa07f72894d209fcf922ad686cbb28cf005aaad usb: dwc3: gadget: Disable GUSB2PHYCFG.SUSPHY for End Transfer
-b25264f22b498dff3fa5c70c9bea840e83fff0d1 usb: cdnsp: Fix issue with Clear Feature Halt Endpoint
-e0481e5b3cc12ea7ccf4552d41518c89d3509004 usb: dwc3: exynos: Fix remove() function
-f90f5afd5083a7cb4aee13bd4cc0ae600bd381ca usb: dwc3: gadget: Clear ep descriptor last
-7a21b27aafa3edead79ed97e6f22236be6b9f447 usb: cdnsp: fix issue with ZLP - added TD_SIZE = 1
 552d6ba290497f6a2860b56b94dc6a25f9820440 Merge tag 'fpga-for-6.1-final' of git://git.kernel.org/pub/scm/linux/kernel/git/fpga/linux-fpga into work-linus
 634c5fa1e3adb381ef317452a6d0f5282380f2c6 Merge tag 'iio-fixes-for-6.1c' of https://git.kernel.org/pub/scm/linux/kernel/git/jic23/iio into char-misc-next
 9919d41809fb32bfdd5d7dc53345f83b89e33feb Merge tag 'icc-6.1-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/djakov/icc into char-misc-linus
@@ -434,4 +428,4 @@ db3182484f9fb472137cc9a3c41b3d69530b40ad Merge tag 'char-misc-6.1-rc7' of git://
 cf562a45a0d57fb0333363c9d4ff82d061898355 Merge tag 'pull-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
 b7b275e60bcd5f89771e865a8239325f86d9927d Linux 6.1-rc7
 
---===============8883272391176481357==--
+--===============2280193825130158760==--
