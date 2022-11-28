@@ -1,26 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gfs2/linux-gfs2
-Date: Mon, 28 Nov 2022 12:43:07 -0000
-Message-Id: <166963938724.4878.9045095505204260661@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/linkinjeon/exfat
+Date: Mon, 28 Nov 2022 12:44:11 -0000
+Message-Id: <166963945187.5356.13901258282467471704@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gfs2/linux-gfs2
-user: agruen
+repo: pub/scm/linux/kernel/git/linkinjeon/exfat
+user: linkinjeon
 changes:
-  - ref: refs/heads/freeze
-    old: 27de8050ead979f84cf17601b4aa7569a6a81d1f
-    new: e8087e2a633491f9fafd603bd079854e91d38b94
+  - ref: refs/heads/dev
+    old: 3d0cdf1b32dc63955c4737013dd1c2d221f9941d
+    new: 612d2ddeed4dc1d26835c024092e6a0852e923ac
     log: |
-         fb68648695b7b52f8226993409916271b05efdf9 gfs2: Rename remaining "transaction" glock references
-         122341b39a5086532a70da8b2b8ea4a81832aacf gfs2: Rename the {freeze,thaw}_super callbacks
-         53b675910dcc8d1a523798371e2948d1490f0ce5 gfs2: Rename gfs2_freeze_lock{ => _shared }
-         7bc9565fb6e5217db273a2ca8b02e4650e1e956e gfs2: Reconfiguring frozen filesystem already rejected
-         879bdf8830dd6025e58c7927b7dd721f112e2918 gfs2: Rename SDF_{FS_FROZEN => FREEZE_INITIATOR}
-         36cc580dcbccf891eb3f52ae80d93bf13db649a3 gfs2: Rework freeze / thaw logic
-         02406371826cb82e3bdc5ecefd023c7981ed07f8 gfs2: Replace sd_freeze_state with SDF_FROZEN flag
-         e8087e2a633491f9fafd603bd079854e91d38b94 gfs2: gfs2_freeze_lock_shared cleanup
+         9d060a0167e93750ecae7b4d7ea302b064bc7539 exfat: reduce the size of exfat_entry_set_cache
+         e84a8f56fa9094d535b7361395666654f1df5c13 exfat: support dynamic allocate bh for exfat_entry_set_cache
+         45d30d374725b4d4b916cb58000546b167f6b542 exfat: move exfat_entry_set_cache from heap to stack
+         439024df5a8d0cdd8cc832406a6508082c12eb8d exfat: rename exfat_free_dentry_set() to exfat_put_dentry_set()
+         612d2ddeed4dc1d26835c024092e6a0852e923ac exfat: replace magic numbers with Macros
          
