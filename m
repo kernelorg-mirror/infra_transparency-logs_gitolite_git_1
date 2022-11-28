@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/crng/random
-Date: Mon, 28 Nov 2022 00:52:06 -0000
-Message-Id: <166959672668.3442.10994806895551599643@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ribalda/linux
+Date: Mon, 28 Nov 2022 01:10:49 -0000
+Message-Id: <166959784989.22177.13248951268756922334@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/crng/random
-user: zx2c4
+repo: pub/scm/linux/kernel/git/ribalda/linux
+user: ribalda
 changes:
-  - ref: refs/heads/vdso
-    old: 1389c4a6ea2de603ec18a148980a053e6800a99d
-    new: 160e54a1a513908a6de24c55140619f08eac85af
-    log: |
-         19f3e5d3551ceee9c2dc96619bcad56bf2795c5a random: introduce generic vDSO getrandom() implementation
-         160e54a1a513908a6de24c55140619f08eac85af x86: vdso: Wire up getrandom() vDSO implementation
-         
+  - ref: refs/tags/sent/snd-freeze-v2
+    old: 0000000000000000000000000000000000000000
+    new: b2edf86dae6dea1caf85a28968e24277e7af86ac
