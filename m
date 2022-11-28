@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Mon, 28 Nov 2022 11:06:36 -0000
-Message-Id: <166963359615.2718.17861832620961159415@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Mon, 28 Nov 2022 11:07:25 -0000
+Message-Id: <166963364577.3062.17451986842135946989@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: davem
 changes:
   - ref: refs/heads/master
-    old: a66d79ee0bd5140a64b72cde588f8c83a55a1eb9
-    new: c672e37279896f570cfa44926d57497e8d16033b
+    old: 46fb6512538d201d9a5b2bd7138b6751c37fdf0b
+    new: b8f79dccd38edf7db4911c353d9cd792ab13a327
     log: |
-         c672e37279896f570cfa44926d57497e8d16033b octeontx2-pf: Add support to filter packet based on IP fragment
+         b8f79dccd38edf7db4911c353d9cd792ab13a327 net: net_netdev: Fix error handling in ntb_netdev_init_module()
          
