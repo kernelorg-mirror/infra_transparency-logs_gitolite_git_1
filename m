@@ -1,55 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============6443492708136625212=="
+Content-Type: multipart/mixed; boundary="===============4664473785893239513=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Mon, 28 Nov 2022 16:38:38 -0000
-Message-Id: <166965351807.10245.6683835360744364221@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Mon, 28 Nov 2022 16:38:51 -0000
+Message-Id: <166965353182.10434.12915550382864791855@gitolite.kernel.org>
 
---===============6443492708136625212==
+--===============4664473785893239513==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.2
-    old: cd8958420d8fd86591a318aff8deb10e00fe9125
-    new: cecf8179ad42b062c095fe58145d9e883fdfab4c
-    log: revlist-cd8958420d8f-cecf8179ad42.txt
+  - ref: refs/heads/for-next
+    old: bfe775029540d78d641550c45c12555d0d82f36c
+    new: 1b9548b6f32639c8771f695955379b1dbb9b6620
+    log: revlist-bfe775029540-1b9548b6f326.txt
 
---===============6443492708136625212==
+--===============4664473785893239513==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1669653516 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1669653515-e1216f23ce1a1e36a762136034d5706eb121028c
-
-cd8958420d8fd86591a318aff8deb10e00fe9125 cecf8179ad42b062c095fe58145d9e883fdfab4c refs/heads/asoc-6.2
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmOE5AwACgkQJNaLcl1U
-h9CSqAf/YLk0BMbgE/qvSidBALG7XqMUidsm7rpwGflMK1OTOT4LUYPdgSLSV2dD
-HYvYYdt4AVv+GFEq5LtZRy6Qw6cTbuSsuLMfzC939QvWkYnmLE/E0i7/9uzxkcLH
-zSac2aaLGxr3XKnEwFYXCASKxsZ6qFPJjYeens8K9yfc8x28bRYYcKv4m4NAGcUd
-zenRncN+NOYuhLuV3L9g3ugmkGFbhiPHzIMajb8MIO67nZqTpVemAPPw52N5msL6
-on+bWsdkfkJrt4vzFxwge2iqdvvcWg425EyPwSM87+xN9zNN6Cxjp/pZc+r7p4BR
-ltkw1W6piRYnXbhWlCeitRdWLatNEg==
-=SBr8
------END PGP SIGNATURE-----
-
---===============6443492708136625212==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cd8958420d8f-cecf8179ad42.txt
+Content-Disposition: attachment; filename=revlist-bfe775029540-1b9548b6f326.txt
 
 0dd3618e06f86bbdacad3a40b25bf79b8917000c ASoC: dt-bindings: qcom,apr: Add GLINK channel name for SM8450
 41288c30583646e2b4158c75ccdbddc62597e1fa ASoC: dt-bindings: qcom,apr: Split services to shared schema
@@ -81,5 +56,6 @@ c5f81301d06898080c9a59eda91f6b8605f98a2a ASoC: sdw-mockup: Switch to new snd_sdw
 5fabcc90e79b460d72df582b31854f6018695965 ASoC: rt5640: Fix Jack work after system suspend
 2d68148f8f85ca5a4bf5e80c821b56167cfc0f8b ASoC: qcom: lpass-sc7180: Add system suspend/resume PM ops
 cecf8179ad42b062c095fe58145d9e883fdfab4c ASoC: dt-bindings: Rework Qualcomm APR/GPR Sound nodes for SM8450
+1b9548b6f32639c8771f695955379b1dbb9b6620 Merge remote-tracking branch 'asoc/for-6.2' into asoc-next
 
---===============6443492708136625212==--
+--===============4664473785893239513==--
