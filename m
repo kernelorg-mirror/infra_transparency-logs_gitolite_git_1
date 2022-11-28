@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pablo/linux-ft
-Date: Mon, 28 Nov 2022 16:32:21 -0000
-Message-Id: <166965314120.6232.16545929036896095848@gitolite.kernel.org>
+Date: Mon, 28 Nov 2022 16:32:50 -0000
+Message-Id: <166965317081.6503.2986784360003785378@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,10 @@ repo: pub/scm/linux/kernel/git/pablo/linux-ft
 user: pablo
 changes:
   - ref: refs/heads/nft-bulk-v5.15-5
-    old: 989e03b14250411435f4cb3613d3cc5de4b5ced6
-    new: ffd6873bdd661b72e0fe247da9f28386942e78ff
+    old: ffd6873bdd661b72e0fe247da9f28386942e78ff
+    new: 12e372600123a336106da6ad55e21285ffec5fe4
     log: |
-         1a4d5e6fd43b08b9386f93d7258e3ae8fa92a77e netfilter: flowtable: add xfrm support
-         ffd6873bdd661b72e0fe247da9f28386942e78ff xfrm: add fill forward path for xfrm interface
+         c0604b6dd26503d384cab06234feb19979c59d00 netfilter: flowtable: add xfrm support
+         c10da267bb4b0e74862f6a032e3121e31a3a60f4 xfrm: add fill forward path for xfrm interface
+         12e372600123a336106da6ad55e21285ffec5fe4 net: pktgen: build skb list and call netif_receive_skb_list()
          
