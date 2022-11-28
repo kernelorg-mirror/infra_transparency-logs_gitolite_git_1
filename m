@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============4223885716558031825=="
+Content-Type: multipart/mixed; boundary="===============6443492708136625212=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Mon, 28 Nov 2022 16:38:31 -0000
-Message-Id: <166965351168.10144.7281774383090109434@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 28 Nov 2022 16:38:38 -0000
+Message-Id: <166965351807.10245.6683835360744364221@gitolite.kernel.org>
 
---===============4223885716558031825==
+--===============6443492708136625212==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.2
+  - ref: refs/heads/asoc-6.2
     old: cd8958420d8fd86591a318aff8deb10e00fe9125
     new: cecf8179ad42b062c095fe58145d9e883fdfab4c
     log: revlist-cd8958420d8f-cecf8179ad42.txt
 
---===============4223885716558031825==
+--===============6443492708136625212==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1669653509 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1669653509-9906bfdec236727783025f28ab0a36f630e257f8
+pusher C3F436CA30F5D8EB 1669653516 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1669653515-e1216f23ce1a1e36a762136034d5706eb121028c
 
-cd8958420d8fd86591a318aff8deb10e00fe9125 cecf8179ad42b062c095fe58145d9e883fdfab4c refs/heads/for-6.2
+cd8958420d8fd86591a318aff8deb10e00fe9125 cecf8179ad42b062c095fe58145d9e883fdfab4c refs/heads/asoc-6.2
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmOE5AUACgkQJNaLcl1U
-h9DFAgf8DCXLKRD9T2Xa5/KYlq8ei8wmZeRO5loyQlNApnKEma80J5PyfjApi5Cj
-mo0XX3s5HBbRNKdbI/PwlzCKr5zl6C9mRpRCLgRZPCKc1gb8bgL/cs4AMzTN6UC5
-LzJ6cgV2DqXD4jhlxHUHCNQGrq3kdkOcZVjwLqMmNTIhuNy1vNvZyO0Aqysx3Jrg
-O/etSofvF/bS2TO6WsnwwPkv18hclNgwGkZ7WgeIZ/QGpvcQjdTsa3cirSdsqzi+
-KqHGWT4nV/++kD/FroTQzuBVseYI4WA0AhpUna1dlfldC+JDEupkfE32ulwD1kPy
-J31acZrW0J90xoWF7A1jqDLgQXmu7A==
-=rp9k
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmOE5AwACgkQJNaLcl1U
+h9CSqAf/YLk0BMbgE/qvSidBALG7XqMUidsm7rpwGflMK1OTOT4LUYPdgSLSV2dD
+HYvYYdt4AVv+GFEq5LtZRy6Qw6cTbuSsuLMfzC939QvWkYnmLE/E0i7/9uzxkcLH
+zSac2aaLGxr3XKnEwFYXCASKxsZ6qFPJjYeens8K9yfc8x28bRYYcKv4m4NAGcUd
+zenRncN+NOYuhLuV3L9g3ugmkGFbhiPHzIMajb8MIO67nZqTpVemAPPw52N5msL6
+on+bWsdkfkJrt4vzFxwge2iqdvvcWg425EyPwSM87+xN9zNN6Cxjp/pZc+r7p4BR
+ltkw1W6piRYnXbhWlCeitRdWLatNEg==
+=SBr8
 -----END PGP SIGNATURE-----
 
---===============4223885716558031825==
+--===============6443492708136625212==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -82,4 +82,4 @@ c5f81301d06898080c9a59eda91f6b8605f98a2a ASoC: sdw-mockup: Switch to new snd_sdw
 2d68148f8f85ca5a4bf5e80c821b56167cfc0f8b ASoC: qcom: lpass-sc7180: Add system suspend/resume PM ops
 cecf8179ad42b062c095fe58145d9e883fdfab4c ASoC: dt-bindings: Rework Qualcomm APR/GPR Sound nodes for SM8450
 
---===============4223885716558031825==--
+--===============6443492708136625212==--
