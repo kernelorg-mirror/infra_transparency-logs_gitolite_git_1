@@ -1,20 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ras/ras
-Date: Mon, 28 Nov 2022 17:45:48 -0000
-Message-Id: <166965754859.29695.859136143916961060@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
+Date: Mon, 28 Nov 2022 17:51:12 -0000
+Message-Id: <166965787284.785.9225185662535034957@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ras/ras
-user: aegl
+repo: pub/scm/linux/kernel/git/sj/linux
+user: sj
 changes:
-  - ref: refs/heads/edac-for-next
-    old: 5ca8d4d148afdd31951c276fb09a8388f17c18bd
-    new: ad5befcd0e1df65d39d0206da24ebcfc93bacf6e
+  - ref: refs/heads/damon/next
+    old: c68bc40dc2022ce015ee828d0fccb34f864934f8
+    new: dc31f4ababd073e1686de0e51f45c5bbd42e66ac
     log: |
-         9c8921555907f4d723f01ed2d859b66f2d14f08e EDAC/i10nm: fix refcount leak in pci_get_dev_wrapper()
-         ad5befcd0e1df65d39d0206da24ebcfc93bacf6e Merge branch 'edac-misc' into edac-for-next
+         1288f6bdd118379d3fc9a947704e30ff7b295853 mm/damon/sysfs-schemes: link created filter to the scheme
+         3a6199e4f463d57a2b4170a78624b42235598f3f mm/damon/sysfs-schemes: skip removed memcg path comparison
+         d2e8024a3df3869152c448102b6fe76423e7350b selftests/damon/sysfs: test filters directory
+         50a8461793d7a34808044288128d1916de6eda80 Docs/admin-guide/mm/damon/usage: document DAMOS filters of sysfs
+         c237f0225acec3359d8cb44a3c0223b3dfc2eb05 Docs/ABI/damon: document scheme filters files
+         aa86b4cecc8a7d716b2dd3b43f1fcf3161f89d98 mm/damon/sysfs-schemes: put filter directory reference count
+         dc31f4ababd073e1686de0e51f45c5bbd42e66ac mm/damon/sysfs-schemes: guard 'struct mem_cgroup' access with CONFIG_MEMCG
          
