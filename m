@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1107117296590615566=="
+Content-Type: multipart/mixed; boundary="===============5281197458559806296=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Mon, 28 Nov 2022 18:03:30 -0000
-Message-Id: <166965861058.9834.6390100306446891232@gitolite.kernel.org>
+Date: Mon, 28 Nov 2022 18:04:48 -0000
+Message-Id: <166965868849.10377.1176711185386020464@gitolite.kernel.org>
 
---===============1107117296590615566==
+--===============5281197458559806296==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,42 +17,42 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-testing
-    old: 0113f5d4e0620fbb86ed66dc1adbbeab5a2d1560
-    new: 35891f934f8bd8f64955445ddf4e6bd42923439f
+    old: 35891f934f8bd8f64955445ddf4e6bd42923439f
+    new: 0d48f14f61ec84c85b0b15690ca2bcc148e9dbaa
     log: |
-         dea5112229934a91836ec0fede6fc4b7607b82a1 usb: typec: Add partner PD object wrapper
-         fb28ec57d2d9b00f79f83dc2323aa7d1ebdf956b platform/chrome: cros_ec_typec: Set parent of partner PD object
-         35891f934f8bd8f64955445ddf4e6bd42923439f usb: musb: Drop old unused am35x glue layer
+         c4069289acc0ffd3b52cfb8a756ae8774a195bfd usb: cdnsp: fix lack of ZLP for ep0
+         2f1807667a317f659d5872d67f128264668c9a6f usb: misc: onboard_usb_hub: Drop obsolete dependency on COMPILE_TEST
+         0d48f14f61ec84c85b0b15690ca2bcc148e9dbaa dt-bindings: usb: mtu3: add compatible for mt8186
          
 
---===============1107117296590615566==
+--===============5281197458559806296==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1669658608 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1669658686 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1669658607-427f1414aabad53e0b25c068803482e75a625093
+nonce 1669658685-0b61a0945ae30889550110db6b20a157f76d907a
 
-0113f5d4e0620fbb86ed66dc1adbbeab5a2d1560 35891f934f8bd8f64955445ddf4e6bd42923439f refs/heads/usb-testing
+35891f934f8bd8f64955445ddf4e6bd42923439f 0d48f14f61ec84c85b0b15690ca2bcc148e9dbaa refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmOE9/AbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+v+AP/0obnOam73rJDGIOexSA
-xZA8C0mnS9uDK/BdvpIHUh8dSrwDjH8upC4WFXT+O4TrJqEA1I6XYnoClEj25ipe
-9knCYP7a6u02B4Kul6Xv8bWbyG+e4iu89xjkq8l+HJCZnn2Y/Kd4yqaiEH+elG7X
-4Uj2cc0NL4NM4KtTC6Lzf34fJi7tFSHua24M4RE1bNMsR4nFLxURQLcnsKiQq59c
-MT1DLPN5f1wqP6aBlAJEVY7CvcC4sqr1qCVajKZTQw50/sMk2D5U4gBOPWlFY2vc
-NV6+3pLeZOhav4ubrndfa3OwklVhv329vMJ46adQ4Kuh8Ce9Ghy725EH1EilnYZA
-xfOk7zmw6gwOe2yWifki1LTxMxaB19Swed8SvmGjfF1Y8d5EVCIEy7VJV0ElMQeS
-dJdksEZtT334Z4trq7FB7TiCkTVx7qY7ig+Z3j9ECbhB2dpiYwnforM8CcPZqMvn
-zyptJ3ul3wKV64ph7kGLCJFyGnpA4E9fa24qREBsfjvx+TDJN4MZdCRnuAJ7inlc
-PCaKs9nsKlLrVT3f73732wckFoGTiW+zTQ7DqqOO+4WLNCLuyALWDEcwlvabq6C4
-pspeBBvvCFIo+RZoyyqSBrqO37o+ZYJqnT6YKP8UR7khNOuNL55KFIFpshn7ZWOI
-POuD995pHnl7B8Xe9rsYiwFy
-=f1kB
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmOE+D4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+3OEQANKsy+Ozibd5mLcx3ISm
+a+w5WM45+ZTn/BqP8GtWa/IeZzwsbo9fM/DTQfkU+j8kSQBBIhFN3Ssv1NEdmKDZ
+gu3tDOjVaxn1osVDQ8TJk21ve5fLZIUlXWGGuzRNyEJJTmdf9xBy2i3YqQGnS64G
+uon85J0GORbYjVZ8IrjJNl+K4kXmJa76C9/ttZCu2w/qs7v0VLw9xScm3XkSWuqS
+jPlmDt6ZaaDIMn2geYMyCx9oSHOxSlaisgl9hjWT7Q8EPZztcJBP8Ix04ATQKBPN
+tDlZCOfUclmZCh6xEPAtE+Bw9RDh8MhHY5vqvt23+GwyFsvtzFprMq1fsfiQolH2
+xIS+0rGbztylwt8js+tGN+mT7Ady7JX1BDCZMxVIgGy1asL68V3tghuTDfybA9tJ
+8kqy6UqhqOBgmQXScFtQcWpVc6BSgNz6i1B/UGnMo72SiWSn9h/tzjShDsv8QgKx
+pj/lQafdZIK3GbKB6tDO6jarOT4xuMl18Zfg73IrTaWePQ/3CLQvJQxgXCIKuLq1
+/5AKkfgSuPgjZ+PYyd16xWAyzMEkCzul4tZGIMogcPS8VzHAMQ7QmNEy/YeqXOCv
+HdH40c6o9rPJ4IA17YD7ThKoq/FYTPY+zZ2up4Poia4WEC6aioKbV8nC2Mj0/W0v
+yzCcvo3etkBPGkZWClc6CTKQ
+=1nq5
 -----END PGP SIGNATURE-----
 
---===============1107117296590615566==--
+--===============5281197458559806296==--
