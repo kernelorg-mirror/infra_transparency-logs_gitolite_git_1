@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dinguyen/linux
-Date: Tue, 29 Nov 2022 16:57:22 -0000
-Message-Id: <166974104288.31723.13113463238452404582@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Tue, 29 Nov 2022 16:57:27 -0000
+Message-Id: <166974104764.31842.7200331124578302907@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dinguyen/linux
-user: dinguyen
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/socfpga_updates_for_v6.2_part2
+  - ref: refs/tags/net-6.1-rc8-2
     old: 0000000000000000000000000000000000000000
-    new: d3568c7416384e72e3827611e841f98d66396de8
+    new: efda7ff7eff545e172ac127db47d15f8b9e412d7
