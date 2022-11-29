@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/wens/linux
-Date: Tue, 29 Nov 2022 07:08:34 -0000
-Message-Id: <166970571402.20188.13048192378335108441@gitolite.kernel.org>
+Date: Tue, 29 Nov 2022 07:09:44 -0000
+Message-Id: <166970578488.20929.2214666240959017718@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/wens/linux
 user: wens
 changes:
-  - ref: refs/tags/mtk-clk-for-6.2
-    old: 0000000000000000000000000000000000000000
-    new: 29961ab8e4292135388553590fbc36186eb274b7
+  - ref: refs/tags/clk-mtk-for-6.2
+    old: f50b242a1d82b5500ff8cb7f582fa472d4b4b387
+    new: 0000000000000000000000000000000000000000
