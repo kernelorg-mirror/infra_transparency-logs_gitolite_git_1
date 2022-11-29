@@ -1,24 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 29 Nov 2022 10:47:32 -0000
-Message-Id: <166971885290.25543.8410488176193828432@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/lee/backlight
+Date: Tue, 29 Nov 2022 10:50:20 -0000
+Message-Id: <166971902046.28152.5026415661834021283@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: pabeni
+repo: pub/scm/linux/kernel/git/lee/backlight
+user: lee
 changes:
-  - ref: refs/heads/master
-    old: 4f5ed7fb6cd65eda3b64503aaecf61d7fb03fcbf
-    new: 7a168f560e3c3829b74a893d3655caab14a7aef8
+  - ref: refs/heads/for-backlight-fixes
+    old: 6dfad94814c7e1926a316a8dac7c50b0c1177f4b
+    new: 8ab33943cde793afc41db2865d4c31b40c7f1a05
     log: |
-         b0488c4598a599157ac9b588541c3c6c5055e80f net: ethernet: mtk_wed: return status value in mtk_wdma_rx_reset
-         92b1169660ebe80e09c546555521a043cf7d26bc net: ethernet: mtk_wed: move MTK_WDMA_RESET_IDX_TX configuration in mtk_wdma_tx_reset
-         f78cd9c783e09a0fe454b0fc8b39c22025d7869e net: ethernet: mtk_wed: update mtk_wed_stop
-         b08134c6e10938c8de3e47763674a2aa6f380d92 net: ethernet: mtk_wed: add mtk_wed_rx_reset routine
-         23dca7a90017ff2512c501f7da4c7ca7a95c2d6e net: ethernet: mtk_wed: add reset to tx_ring_setup callback
-         7a168f560e3c3829b74a893d3655caab14a7aef8 Merge branch 'refactor-mtk_wed-code-to-introduce-ser-support'
+         ac3fbaec13ec52de4868ba4950f780426b20b592 mfd: palmas: Use device_get_match_data() to simplify the code
+         8ab33943cde793afc41db2865d4c31b40c7f1a05 backlight: pwm_bl: Drop support for legacy PWM probing
          
