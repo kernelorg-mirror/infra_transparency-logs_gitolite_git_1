@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6870212143304171427=="
+Content-Type: multipart/mixed; boundary="===============2646502280999606300=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Tue, 29 Nov 2022 12:27:00 -0000
-Message-Id: <166972482044.32619.7733261357853185635@gitolite.kernel.org>
+Date: Tue, 29 Nov 2022 12:28:17 -0000
+Message-Id: <166972489754.700.10613153386610168407@gitolite.kernel.org>
 
---===============6870212143304171427==
+--===============2646502280999606300==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,41 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-next
-    old: b47ec9727f47d1dce4e8cbc9aef01c80b2332535
-    new: 4051a1c96e4883f3445cc8f239c214be622f4c6c
+  - ref: refs/heads/usb-testing
+    old: 4051a1c96e4883f3445cc8f239c214be622f4c6c
+    new: 62c73bfea048e66168df09da6d3e4510ecda40bb
     log: |
-         87fa05b6db47403fa4fbe3a8ce8fa619f7c8667e thunderbolt: Use str_enabled_disabled() helper
-         b9589c417fedab6b963cf084ef305665166f5326 thunderbolt: Remove redundant assignment to variable len
-         2ae18cc2269fc2d05d36bf44a8daa4404fa11dde thunderbolt: ACPI: Use the helper fwnode_find_reference()
-         a5cfc9d65879c0d377f732531a2e80ee3a9eebbc thunderbolt: Add wake on connect/disconnect on USB4 ports
-         4051a1c96e4883f3445cc8f239c214be622f4c6c Merge tag 'thunderbolt-for-v6.2-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/westeri/thunderbolt into usb-next
+         62c73bfea048e66168df09da6d3e4510ecda40bb usb: dwc3: Fix race between dwc3_set_mode and __dwc3_set_mode
          
 
---===============6870212143304171427==
+--===============2646502280999606300==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1669724819 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1669724895 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1669724819-9193adb6bfeb0ca3fcab0c35671b1be7a98c23db
+nonce 1669724895-655308a19653a223b131bbae53837d388a1a62f2
 
-b47ec9727f47d1dce4e8cbc9aef01c80b2332535 4051a1c96e4883f3445cc8f239c214be622f4c6c refs/heads/usb-next
+4051a1c96e4883f3445cc8f239c214be622f4c6c 62c73bfea048e66168df09da6d3e4510ecda40bb refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmOF+pMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+CF8QANOTU4HYCUMHqn9DMivz
-ix2USq7yEmhMm+ZEseMN2N7t69WQYTBjBk3b62C+RGVXSrRDnQWtt0NEb3sJP+G8
-6b1gr+U7O0MU3RJnR7cRJgOHgizOblnNVLEQrgJ5AtR3yrejR0+iQW79cyupvNII
-Y4iV3JnUBTnoGY0I6YX2q7xDfl9nidaOkigdmRBDwZvoHIh4G4vS0IOYgr9BIGUR
-3ekbAaT7HfPAuDjPf6UV9XzNzAUQ4Cn+Lu181p0gYXNmJhssqn78Ejd1/b+vkxy7
-qLTU9+1VuaXbiB7n5mDrP5Bdfiz7rFcG85KH7VGcVN/301AdUh9CYH+3pVy+5+d+
-VJBhoIenc1M/cpNUToTDIU7Db7rbggOWdOf1B//2KXdIWxPLylo1dDEdetcsbMSc
-u6uPYMptgFBVl7hTi4T1bZdGJADd4WMGzzebyvJQ8J/xovBceVJCnoJ+AJcaxP9+
-+F2lIygU40Hpv3ujSA2utjvEM+6Tvu+dq8kcMjeoX/rP5abFAgTOtx4mmQF2IoMo
-yWWsrYGJnyvaG+9Pire4SRCdgyEa58i0pfsx2CIs5udfdOpzN1cWPbWK8ZBv0cWt
-sVwMP/3EOkLvuPGTlgqFnk8F+IyAI6LC4yQeW82SB+RDMOpRhns7ry74NPs2NPuA
-VctPiE68Fdi0LBnM2pj2Ztvl
-=9VSb
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmOF+t8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+DpMP/3MBKtcP24BGgTn9dgC/
+ORdVypn4Aq7194Pdnl7GHmh0XsQPIjGBNESO0YWplyN7mxTyQARan+yw0YpLE1Li
+R15JYfrt4E+g9SdOay4zx8zbECKX6pn+hjKjXpF4d2AcQDSrIMSOZAIPCCVZHa7A
+Q5ruAE93eYFu32FcKI5PZMczHBC0yBY51tBhXKUmFxSthEcebT/PM6GQT49Ttxqz
+MNUFb+SPkV24BFX46IbzPFfJw2+nq/m+1FO21o3dNv/Inzhd9UW6Rbsi4XGCctzK
+Z1ojC3mD7rpWMobYmM0iN9NCKyPkfr9wyr3rm5emNwAesQgYqIsw2iIw00nd8xVL
+PcVx5HqGj5VMxkBxHC2KzmtQhaTip1z+RWWWOxvJ7Uks7OhII+EI1S/SahuZBlAl
+jd6AKx0MUps49vzpQFYavMuWj0AjF4kbA3FNqQSavyN8yV5dvRltO+8ClkioY3th
+Hq8/6QNphgej4914cAmPkbypxXTirttztaFg57K1P7QMKUQ+vBYEi7XYOpEz7foc
+iKdMBFMBffijdji8s2fOX3qkzWP/RcfoTTOFHV+XG8HKTR15jk+Y/FK4pFSEefOA
+dDB1xnCNfoPZTP0Oa5mUlqRPmOfUY50Q/1rTMlQI8yS/V8Fp2OU7wi80QDkzoWcl
+KK1WwSTtoeEygUM9Z4lqhCYO
+=sjQF
 -----END PGP SIGNATURE-----
 
---===============6870212143304171427==--
+--===============2646502280999606300==--
