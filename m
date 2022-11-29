@@ -1,60 +1,60 @@
-Content-Type: multipart/mixed; boundary="===============2508703639812508886=="
+Content-Type: multipart/mixed; boundary="===============5810904413150179072=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Tue, 29 Nov 2022 12:24:03 -0000
-Message-Id: <166972464314.28629.5688140100878245543@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Tue, 29 Nov 2022 12:26:40 -0000
+Message-Id: <166972480060.32403.3830866760784664556@gitolite.kernel.org>
 
---===============2508703639812508886==
+--===============5810904413150179072==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
+repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-next
-    old: ae27e8869fdb17b3d6a336c81a2aac678525984a
-    new: c5527c1787e84533f7b43fadb2d050e1ed115a50
+  - ref: refs/heads/usb-testing
+    old: b47ec9727f47d1dce4e8cbc9aef01c80b2332535
+    new: 4051a1c96e4883f3445cc8f239c214be622f4c6c
     log: |
-         3c728e079d83f581a1f8b7755f6e26087b15c4fb coresight: etm4x: add CPU hotplug support for probing
-         20ee8c223f792947378196307d8e707c9cdc2d61 coresight: trbe: remove cpuhp instance node before remove cpuhp state
-         3dc228b35387803d9c43ed1b098aabb1d3ae9c7d coresight: cti: Fix null pointer error on CTI init before ETM
-         c767c34740132ffc478226864a7461493cdc2413 coresight: etm4x: fix repeated words in comments
-         c5527c1787e84533f7b43fadb2d050e1ed115a50 Merge tag 'coresight-next-v6.2' of git://git.kernel.org/pub/scm/linux/kernel/git/coresight/linux into char-misc-next
+         87fa05b6db47403fa4fbe3a8ce8fa619f7c8667e thunderbolt: Use str_enabled_disabled() helper
+         b9589c417fedab6b963cf084ef305665166f5326 thunderbolt: Remove redundant assignment to variable len
+         2ae18cc2269fc2d05d36bf44a8daa4404fa11dde thunderbolt: ACPI: Use the helper fwnode_find_reference()
+         a5cfc9d65879c0d377f732531a2e80ee3a9eebbc thunderbolt: Add wake on connect/disconnect on USB4 ports
+         4051a1c96e4883f3445cc8f239c214be622f4c6c Merge tag 'thunderbolt-for-v6.2-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/westeri/thunderbolt into usb-next
          
 
---===============2508703639812508886==
+--===============5810904413150179072==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1669724642 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1669724641-235a94e116edec5ad46d8c9687bd45f562e5e348
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1669724798 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1669724797-d058a52962ae9770fc59667fd908f008be424d77
 
-ae27e8869fdb17b3d6a336c81a2aac678525984a c5527c1787e84533f7b43fadb2d050e1ed115a50 refs/heads/char-misc-next
+b47ec9727f47d1dce4e8cbc9aef01c80b2332535 4051a1c96e4883f3445cc8f239c214be622f4c6c refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmOF+eIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+/wAQAKcVIKYmsnsNMY2DTW2P
-UjBPQJi8XT0mIUv3RlHCmwgnUWdokImP0rn8xmYhgArMhkOYU3Z+XUy23IU7Oh7L
-Dp0KhPhUwB9ldbiF9IIoc0bdZ5LGfBXv4tOv9XuwFhpT6uxthCTrOFc+VzuUIrnr
-joL7h+SVgCJJ3OUn7i1XZOAXQmZ+5Y0vJ3Y03xgCWDwwhIRqVVuaxjuFbbpiNBmi
-d3hUzwf304JRFBl3gG96AwErPGPxC5LEXh2i+yZ3uvMI2LhBqjHXC/2WYjKBdnAQ
-3UaFQNig6KIhaNZ63YZx1AfqnQBgNmDAqEbQQn3pxK5z5o6Yw6/P9iYe46fzCmh8
-Bs7l7ye8z0dFJ/Lhr78f2XDoauhJmZnrgtG02eP+bLfhTy33pLq7gLYv1UCW63lq
-oJ5dl+6bVhaDvWryMfpt7KODqK2WRRAAGhP/y6T7AyvXSbZnPBZaZ/t+T9OuWW4F
-It8x39dCds9ii2N13xNzyB8f6TKU9rBAYuHnscmSvJEogeKp1L5+O50LA8R4Aw3b
-z1n+9/+gjaBMQKnDCukxz0ZiL1S3WANq/ScwXK0dxWCSfptfhI8nXjpqrtpmCvhg
-Uym7Tnee87Y/EyJFGPS8c88AD5Z9vsGQCmoR1K+w3gndDEu0FRDJDJqr6c2gwjdJ
-F/xZv54FxWL+DPJwyw4HdMD/
-=OQNV
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmOF+n4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+vtkQAKXXdDbRkT2e1q2O1eHj
+ruhbrEE7PorA7tSToaCfc9RoGEb4m0Lbt8RCZXCY9PJweO1fq8s8VAK+xvZayJKs
+w4tCi7oLKHBBe+sVJNCPYfGcrclxT6g+AUqiyY5uyrD2MKH3gp45EPwdUYab+lu2
+EI7BzajfeKDbUeMgufrOU1jauOIGiIOXh07RpMiMLRmiOGSzJxaQdnmBchEWiIK8
+7al/4XnPxFuUe62oW8BP7ChFHCh1ISzwSbG1rFzxEE9LYYTW77r2w4dl0BVzOks1
+FTUabA1n/bGPGrwvmNG0tx2ohD5F6KcID2g4qttBYzSIZzHpSaz/YqY3jJ9u597t
+BOZCnAX5rrqqwnTW8Tb3Oi/KYTSJCLMrsUBipRrTFOHeLEJuLEnQuP0+H1qu5/1C
+CMByGvyILxFt2bblDjJ0xhDQiSAPGUWI+B3ZBM6QaYrw5D5I8BYAVc4rnK2HWEbB
+1d8FpooAn22S9ZKmDr7/wzQGBk/i2DZ+1lA8E82+7RgdQdo+OcIdwl0Y/rxMrnS2
+/Pre08BBB24N+FljBiYlI7ZlbvwhZAqb1N0lHE2VDbfPKVrOUSgTCP/06aikdhBQ
+yfIOHzWfl88Jkb2dgH1MCMpqDjlR9IQun5oBeBkji/nwPAKHRVCIhy3BjfJ9ufd7
+Fb9qjgS26a7oQ+oZ0obvk1xw
+=p+AN
 -----END PGP SIGNATURE-----
 
---===============2508703639812508886==--
+--===============5810904413150179072==--
