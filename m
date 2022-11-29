@@ -1,56 +1,28 @@
-Content-Type: multipart/mixed; boundary="===============5741639946314790860=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Tue, 29 Nov 2022 12:28:34 -0000
-Message-Id: <166972491453.891.5982582416404323278@gitolite.kernel.org>
-
---===============5741639946314790860==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 29 Nov 2022 12:36:25 -0000
+Message-Id: <166972538546.6816.8465210562136609690@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: pabeni
 changes:
-  - ref: refs/heads/usb-next
-    old: 4051a1c96e4883f3445cc8f239c214be622f4c6c
-    new: 62c73bfea048e66168df09da6d3e4510ecda40bb
+  - ref: refs/heads/master
+    old: 7a168f560e3c3829b74a893d3655caab14a7aef8
+    new: cb55ff7ac471bf011243a633d5ae58679eabd2ad
     log: |
-         62c73bfea048e66168df09da6d3e4510ecda40bb usb: dwc3: Fix race between dwc3_set_mode and __dwc3_set_mode
+         0a335db8c745204a69ad0a18ab8b92a46a6098ea net: microchip: vcap: Merge the vcap_ag_api_kunit.h into vcap_ag_api.h
+         ee72d90b042efcc2aec7c3bd54cb1f03f3d1b584 net: microchip: vcap: Extend vcap with lan966x
+         b053122532d7aad88e4424f9e483fc2ad5b4cee0 net: lan966x: Add initial VCAP
+         39bedc169cff3f9320ba58339e82eec85cee140d net: lan966x: Add is2 vcap model to vcap API.
+         f919ccc93dc6185d321c229f7241057406615e1b net: lan966x: add vcap registers
+         3643abd6e6bc1adce8979e974ee7ede387948c1c net: lan966x: add tc flower support for VCAP API
+         61caac2d1ab51a188f3439d0645b756fde317c1c net: lan966x: add tc matchall goto action
+         4426b78c626d6dd0a974263776d658d1ea8f0803 net: lan966x: Add port keyset config and callback interface
+         4f141e3671233c29c973a3245f1f360d62b3c8eb net: microchip: vcap: Implement w32be
+         cb55ff7ac471bf011243a633d5ae58679eabd2ad Merge branch 'add-support-for-lan966x-is2-vcap'
          
-
---===============5741639946314790860==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1669724914 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1669724913-9f7a2bb06027786e62f89247d8b22cee12c870ad
-
-4051a1c96e4883f3445cc8f239c214be622f4c6c 62c73bfea048e66168df09da6d3e4510ecda40bb refs/heads/usb-next
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmOF+vIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+oPQQAMWbOWEHi/QeYOEYR/CF
-S8dKgu3Vt8dXN/Mi8Ywe3EcQtu9yds+V7DAJ0hjKi+/r4pn+16+WCG0fhwGJmCc0
-LZlkpIAA7WOS2+hDvm8HYP4D4B4orqiEjVv01KuVHM59uS6xWzLtM8iiHgiyxbBa
-1bMDwUaR6GwrCVr9UFDT5lXpCbMiAny6WvyxH6qKs13civDo63syVZ5TYsVqBbfT
-3a1pB5TogemTQO/zenmVFbsbQLDB0HfRlvRWWPmgsJZ8HItlNOS4p0+DtoJoj9yC
-kIdcNwkrNnxi2yMxJdGpwTqMWb8VC3/0qhQ1XVB0sFIoo+c1pvD++XBU2NBAtEf2
-y0wTI1COizmwS4BwWy4LdVaFh82xOBU/3yxj7eXdhePIaNSKp9g9hPyElCruav0k
-9Ns6Jt4euOXfu4z9uwrYbwverxWMOzXSXtb49LyEVQ+6k7Tz5ZIsgWpA/3Ln3lNU
-apFGQ2eGburL/AHt39VBsK6H+6C+CoxDg0RHCo8UbdD7Lst2M3FqNOGW1snA6/ra
-8uxyN2DwCw1BK8dFL+EVMPstZnLrm2TFk6rWikuJcg17QxY/boyyA93UdcntaEKm
-d0FV4aTNdWOEfGBJMyRHzyAZPUTn3fg/uCIxMsBcvAcsHnVv5wdb5meiZrbAFduq
-6jM5evrA66Gpo1NUzMNG1UVv
-=S5HW
------END PGP SIGNATURE-----
-
---===============5741639946314790860==--
