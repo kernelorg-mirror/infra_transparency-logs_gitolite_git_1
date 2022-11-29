@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9010737220879370367=="
+Content-Type: multipart/mixed; boundary="===============3600249828295987303=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Tue, 29 Nov 2022 22:05:54 -0000
-Message-Id: <166975955488.29096.12005796870364919524@gitolite.kernel.org>
+Date: Tue, 29 Nov 2022 22:06:15 -0000
+Message-Id: <166975957592.29314.17193006767602321474@gitolite.kernel.org>
 
---===============9010737220879370367==
+--===============3600249828295987303==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,18 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: dborkman
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: a61474c41e8c530c54a26db4f5434f050ef7718d
     new: f2bb566f5c977ff010baaa9e5e14d9a75b06e5f2
     log: revlist-a61474c41e8c-f2bb566f5c97.txt
-  - ref: refs/tags/v6.1-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 4446246354c3c11d4cbc8cf3515c92c3a880fc8e
-  - ref: refs/tags/v6.1-rc7
-    old: 0000000000000000000000000000000000000000
-    new: 1791be4df87a0d69008ba46c5a03be2e4cfbe3d5
 
---===============9010737220879370367==
+--===============3600249828295987303==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -775,4 +769,4 @@ d66233a312ec9013af3e37e4030b479a20811ec3 net: ethernet: renesas: ravb: Fix promi
 01f856ae6d0ca5ad0505b79bf2d22d7ca439b2a1 Merge tag 'net-6.1-rc8-2' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 f2bb566f5c977ff010baaa9e5e14d9a75b06e5f2 Merge git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 
---===============9010737220879370367==--
+--===============3600249828295987303==--
