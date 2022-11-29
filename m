@@ -1,28 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Tue, 29 Nov 2022 18:02:07 -0000
-Message-Id: <166974492737.14417.336129989035164808@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/aegl/ras-tools
+Date: Tue, 29 Nov 2022 18:02:29 -0000
+Message-Id: <166974494982.14642.3088605127112568698@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
-user: broonie
+repo: pub/scm/linux/kernel/git/aegl/ras-tools
+user: aegl
 changes:
-  - ref: refs/heads/for-linus
-    old: b92498dbca3a17b1bff3fe083ef7722c009824b7
-    new: 6069df9774b77fac8aeaef33fff9201d071c7836
+  - ref: refs/heads/master
+    old: 2624df117af1b4d05f2d9bab14fbfc8f85c514d3
+    new: 93f96e3f8fa2ec67e9cc19d0e728603440e535b4
     log: |
-         6069df9774b77fac8aeaef33fff9201d071c7836 Merge remote-tracking branch 'spi/for-6.0' into spi-linus
-         
-  - ref: refs/heads/for-next
-    old: 622464893cf39de3126afdd2b0b396a224d6f870
-    new: 7517a1b015cc8295533d93cf483847fa8b0c2dd8
-    log: |
-         7ba63521a1e9d8ca6fb55ead19e6e2b850b8fd80 spi: microchip: pci1xxxx: Add suspend and resume support for PCI1XXXX SPI driver
-         6069df9774b77fac8aeaef33fff9201d071c7836 Merge remote-tracking branch 'spi/for-6.0' into spi-linus
-         24878c7295d00189a765bc3dd851d532a9a2e5eb Merge branch 'spi-linus' into spi-next
-         7517a1b015cc8295533d93cf483847fa8b0c2dd8 Merge remote-tracking branch 'spi/for-6.2' into spi-next
+         58d3e234d515e820febaa9fba5e7dfabf5baee95 memattr: move the test case out of driver directory
+         132428d89a7c09744b8fd57c002ca4b13cf92107 victim: add a victim to provide target injection memory under user context
+         93f96e3f8fa2ec67e9cc19d0e728603440e535b4 vtop: unfity all cases with the same vtop() function
          
