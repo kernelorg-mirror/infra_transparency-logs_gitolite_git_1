@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
-Date: Tue, 29 Nov 2022 13:25:02 -0000
-Message-Id: <166972830232.8132.13136608554008627827@gitolite.kernel.org>
+Subject: post-receive: pub/scm/devel/pahole/pahole
+Date: Tue, 29 Nov 2022 13:43:43 -0000
+Message-Id: <166972942317.21498.12730233662764293071@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/s390/linux
-user: agordeev
+repo: pub/scm/devel/pahole/pahole
+user: acme
 changes:
-  - ref: refs/heads/features
-    old: e036ea81c0a12c5fad55fa4c5350019ce99c3e8d
-    new: 1143f6f55d967ab414a10a559d58a2700f32a54d
+  - ref: refs/heads/tmp.master
+    old: 9ad79a14bb734c5a330da7d9f5b686f501d40505
+    new: 4ad000830e9d67b227dbedf0e80ba1251fc416ff
     log: |
-         2473be453c9023bafd6cc785a7f2ecd0eabda2fd s390/sclp: use kstrobool() to parse sclp_con_drop parameter
-         a086c53de982d6ae3f1e7e3c0f94efa66743b333 s390/sclp: convert to use sysfs_emit()
-         1143f6f55d967ab414a10a559d58a2700f32a54d s390/sclp: allow to change sclp_console_drop during runtime
+         4ad000830e9d67b227dbedf0e80ba1251fc416ff dwarf_loader: Support alt DWARF files
          
