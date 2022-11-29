@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gfs2/linux-gfs2
-Date: Tue, 29 Nov 2022 21:18:39 -0000
-Message-Id: <166975671983.26179.7740062753085951152@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Tue, 29 Nov 2022 21:24:30 -0000
+Message-Id: <166975707009.29764.15298957698899576642@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gfs2/linux-gfs2
-user: agruen
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
-  - ref: refs/heads/freeze+umount
-    old: 5241de5d3b5ee68ea7caa548f145659b7aa6ec9f
-    new: ed194d994a53f35ed4a0fdb06e79510e7a7775ee
+  - ref: refs/heads/master
+    old: 02051e05855c29d5deb85672fb32318b0a389741
+    new: 9ad8f3d407bdc192fbcb445cbe7d6c600e2e9a84
     log: |
-         f41af8c64b1dd0f539400b036722474403490033 fs: Add activate_super function
-         f3ad20b363d74f77d74f16d8d48e7f1197b97361 fs: Introduce { freeze, thaw }_active_super functions
-         ed194d994a53f35ed4a0fdb06e79510e7a7775ee gfs2: Shut down frozen filesystem on last unmount
+         9ad8f3d407bdc192fbcb445cbe7d6c600e2e9a84 Tue Nov 29 09:22:56 PM UTC 2022
          
