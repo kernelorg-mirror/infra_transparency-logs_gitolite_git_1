@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/devel/pahole/pahole
-Date: Tue, 29 Nov 2022 13:43:52 -0000
-Message-Id: <166972943211.21609.3361275444808736536@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
+Date: Tue, 29 Nov 2022 13:52:43 -0000
+Message-Id: <166972996374.27800.11521585850640423606@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/devel/pahole/pahole
-user: acme
+repo: pub/scm/linux/kernel/git/brgl/linux
+user: brgl
 changes:
-  - ref: refs/heads/next
-    old: 9ad79a14bb734c5a330da7d9f5b686f501d40505
-    new: 4ad000830e9d67b227dbedf0e80ba1251fc416ff
+  - ref: refs/heads/gpio/for-next
+    old: 4ef339bc053a62dac9017f80f7bb8cff0412bd29
+    new: 3b7c7478eda00945987d45f902bc3942c89243d3
     log: |
-         4ad000830e9d67b227dbedf0e80ba1251fc416ff dwarf_loader: Support alt DWARF files
+         3b7c7478eda00945987d45f902bc3942c89243d3 gpiolib: Provide to_gpio_device() helper
          
