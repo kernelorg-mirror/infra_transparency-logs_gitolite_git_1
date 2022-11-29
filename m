@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Tue, 29 Nov 2022 09:22:35 -0000
-Message-Id: <166971375585.16730.247580613134485455@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kvmarm/kvmarm
+Date: Tue, 29 Nov 2022 09:23:37 -0000
+Message-Id: <166971381734.17161.3600057079932819153@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: leon
+repo: pub/scm/linux/kernel/git/kvmarm/kvmarm
+user: maz
 changes:
-  - ref: refs/heads/wip/leon-for-next
-    old: 7ff54cf9f514c21371eeb36b460f27397cce3103
-    new: 2d6c66f5253e7d168a76048d18e1209c52f98a2b
+  - ref: refs/heads/next
+    old: 34afaeadba94d4ff641d055a31283a1ae564d452
+    new: 45359536f35d05db853ef5d346e8b5b27c57d870
     log: |
-         2d6c66f5253e7d168a76048d18e1209c52f98a2b RDMA/mlx4: Remove NULL check before dev_{put, hold}
+         86815735aa571d493cf5768cad5fa8e6fd9c7ba8 KVM: arm64: PMU: Replace version number '0' with ID_AA64DFR0_EL1_PMUVer_NI
+         292e8f1494764ac46dd1b7dd46fa317db691436c KVM: arm64: PMU: Simplify PMCR_EL0 reset handling
+         64d6820d64c0a206e744bd8945374d563a76c16c KVM: arm64: PMU: Sanitise PMCR_EL0.LP on first vcpu run
+         45359536f35d05db853ef5d346e8b5b27c57d870 Merge branch kvm-arm64/pmu-unchained into kvmarm-master/next
          
