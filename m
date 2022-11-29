@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/devel/pahole/pahole
-Date: Tue, 29 Nov 2022 19:38:00 -0000
-Message-Id: <166975068099.19603.15180617462774588592@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Tue, 29 Nov 2022 19:39:33 -0000
+Message-Id: <166975077367.20219.17981081298472382517@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/devel/pahole/pahole
-user: acme
+repo: pub/scm/linux/kernel/git/tip/tip
+user: bp
 changes:
-  - ref: refs/heads/next
-    old: f5f299cabf11a57a308dba38d5f49fe99616bbf2
-    new: 2d4861d742122c1e5d8796f7ee80940b844f1015
+  - ref: refs/heads/x86/boot
+    old: f1e525009493cbd569e7c8dd7d58157855f8658d
+    new: 60253f100c5846029f1370e51be6ebaeb160dcec
     log: |
-         2d4861d742122c1e5d8796f7ee80940b844f1015 dwarf_loader: Support alt DWARF files
+         60253f100c5846029f1370e51be6ebaeb160dcec x86/boot: Remove x86_32 PIC using %ebx workaround
          
