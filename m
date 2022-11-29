@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4785537598020545265=="
+Content-Type: multipart/mixed; boundary="===============6359959575307087609=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Tue, 29 Nov 2022 12:23:37 -0000
-Message-Id: <166972461729.28337.16863381391160761301@gitolite.kernel.org>
+Date: Tue, 29 Nov 2022 12:23:43 -0000
+Message-Id: <166972462337.28459.15249326992510488350@gitolite.kernel.org>
 
---===============4785537598020545265==
+--===============6359959575307087609==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,48 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-next
+  - ref: refs/heads/char-misc-testing
     old: 449ef8fb9d3591a16fc0d090dc5f043c5edb077a
-    new: ae27e8869fdb17b3d6a336c81a2aac678525984a
-    log: revlist-449ef8fb9d35-ae27e8869fdb.txt
+    new: c5527c1787e84533f7b43fadb2d050e1ed115a50
+    log: revlist-449ef8fb9d35-c5527c1787e8.txt
 
---===============4785537598020545265==
+--===============6359959575307087609==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1669724615 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1669724621 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1669724614-0460606aff9a1f48a104d932e435cc8e4568a427
+nonce 1669724620-8f7b84dee1370c7691ab17fbd54798e323e5facf
 
-449ef8fb9d3591a16fc0d090dc5f043c5edb077a ae27e8869fdb17b3d6a336c81a2aac678525984a refs/heads/char-misc-next
+449ef8fb9d3591a16fc0d090dc5f043c5edb077a c5527c1787e84533f7b43fadb2d050e1ed115a50 refs/heads/char-misc-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmOF+ccbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+TagQAM8O3BUDabX4DxT+CHl6
-jK3ZGRPdRKYRwd1F9xOgn8bxlkzHkj6me9sVPkDSHp0q72f0Nbt2Miq8MTHzJsrM
-ezco4hlzINovPu4QPMN1sVNQ5D92cvh2XFrzX42VG3mRlZ4BtNC8IptjdkbAC1uH
-bOnUluPP5VAAXYFuBC3KXE6+vY4MqrI8M1pd+RZGwV9gVQjZ1wmYOuaZStZ9inMx
-idZXkpBOB0R6G5rYmAM0fOYYTqycRPzwZ3Bpa0foct1gch+uC01n5rsXWmIoIbYt
-H5cIPYWgh9IR8eavAdlCHS1PFFHCxfVDWtcPZjuuYlZ27wIE54ufIWCHUwXwwt3A
-WwYPsMuiz8MoMwVzUeaKMhYf8kNmOYo88UBABl8Iy362E1+Y9m6j6NShg3ZYeTP8
-F+tFxNMaN1MzJI7UarlYsN1K9vWnni+7gQMKG2iXyvzMlws7dMmFzOAjiGi+mpts
-3JXUb+4nv1QfvdRLqHx9xbzGwemNlI6K+jYw+e98oRzW8f+c3RB7cbiFRNxGuL15
-UoqtIuRmjlORAhvSE+fUz4i9Fn+QUligR351GRCyJ4GcLVDimSFsP3bNr6fo5sE+
-0w8d99XD785NAj8TphdTeDvupqVvbcTLs0mIioOMFBqZDl+SrjtxmEQNy++UqWJz
-kJVV/cJDGxIZ1uHHfxVDC0X6
-=J2EW
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmOF+c0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+YRcP/13UdKELSyz+3/6itFkm
+u+iJWlr2Kwsj+P8NgvpXZrjpwx147CrNWxM7c7wEAiftPg2TuKNYszo9UDhgce+W
+CLDO6WAf9lxmrlD6wM/E6yZpk1m6645b+ETM0DvTNakP89Eht5mjjZzQlWQoJm9I
+QxT5BBBULYHghJauoIsf7IwzDO3/lb1VblOnCk1tZcYK8+msBghQty45LLTX0WmC
+MbsyYI/7gul3UhOAOhKupT1HEpjRmIyS0LPGrcbnownKQrkXQQyNO654m79duo+Y
+uWfpC7cVoYWuAOj5pAWCz8QZDbrRywpoS8Ffmrl+HTTfl/7PHhEwVHYZl6z3p3UA
+attHKnpT+x1ugkpZT33q0My5jnpTJTHbjTF/0UFPszdXHllBTFe/RcFTZ7Rv6kgf
+dHK3IxODyQ2BCRQPtKgGmOfW+0BRm7Rmd/Twb/Tn73xIuQ6pgnSNGtBkiDwtHmny
+lqBQN/IBmOG/1C7I0ELWCmjt3jZQFg41ueApWKh7L4OUoDEWLhF1Rg1cWW1J97mn
+y43xPWqkN4beXGrBHmLQiLMmdBlZ04b0fImv9Fksd165wxgmEQyFuZo42M1mwByF
+vDZkabTb2Q0/U3gDFO+3Ugn5EngPJiOBMcGKzAT9nn5AQUKNs06lHMixMwhpOeD8
+YPC0A5ZTgENMGJ8fsGDsDAuq
+=F8XJ
 -----END PGP SIGNATURE-----
 
---===============4785537598020545265==
+--===============6359959575307087609==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-449ef8fb9d35-ae27e8869fdb.txt
+Content-Disposition: attachment; filename=revlist-449ef8fb9d35-c5527c1787e8.txt
 
+3c728e079d83f581a1f8b7755f6e26087b15c4fb coresight: etm4x: add CPU hotplug support for probing
 8749c27895a369a99e4a21709b3e3bec4785778f habanalabs: fix return value check in hl_fw_get_sec_attest_data()
 a925d90b365aa38565191857bddc3c12d80fda96 habanalabs: allow control device open during reset
 ea73ef14ddf93b8b1ae6ce1963846f43a81bb510 habanalabs: Use simplified API for p2p dist calc
@@ -120,6 +121,10 @@ b585daa89d572210a94c7f11a746bd5489017003 habanalabs: extend process wait timeout
 1b18cf33d6ce63a9f5fe3764d7b20c4738dd1245 habanalabs: make print of engines idle mask more readable
 5354a2a0018345774ab2517fc2fe107a6cd894fa habanalabs: fail driver load if EEPROM errors detected
 19a17a9fb486b2961dbd7f3fff0d79a144c9a3b6 habanalabs: fix VA range calculation
+20ee8c223f792947378196307d8e707c9cdc2d61 coresight: trbe: remove cpuhp instance node before remove cpuhp state
+3dc228b35387803d9c43ed1b098aabb1d3ae9c7d coresight: cti: Fix null pointer error on CTI init before ETM
+c767c34740132ffc478226864a7461493cdc2413 coresight: etm4x: fix repeated words in comments
 ae27e8869fdb17b3d6a336c81a2aac678525984a Merge tag 'misc-habanalabs-next-2022-11-23' of https://git.kernel.org/pub/scm/linux/kernel/git/ogabbay/linux into char-misc-next
+c5527c1787e84533f7b43fadb2d050e1ed115a50 Merge tag 'coresight-next-v6.2' of git://git.kernel.org/pub/scm/linux/kernel/git/coresight/linux into char-misc-next
 
---===============4785537598020545265==--
+--===============6359959575307087609==--
