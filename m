@@ -1,25 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/crng/random
-Date: Tue, 29 Nov 2022 20:16:25 -0000
-Message-Id: <166975298555.15564.2525830250984843432@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
+Date: Tue, 29 Nov 2022 20:38:35 -0000
+Message-Id: <166975431584.30571.15520995413848200649@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/crng/random
-user: zx2c4
+repo: pub/scm/linux/kernel/git/bpf/bpf
+user: ast
 changes:
-  - ref: refs/heads/vdso
-    old: dd3ef06017d1bd213ff8a2c320758410f3124f54
-    new: a7f8b07099b1d365b28df6bb1063b043780ce839
+  - ref: refs/heads/master
+    old: e493bec343fa76e95631d0e21fd4a3538aa90c56
+    new: d66233a312ec9013af3e37e4030b479a20811ec3
     log: |
-         0e42d14be23f4cdb68a06ea40106eccf7db0b4bc random: remove extraneous period and add a missing one in comments
-         1f9f0e7398dd67cc3d3a6d9263c7ce3527fe3693 random: spread out jitter callback to different CPUs
-         930a4153318a6d2ebf7052ca5a42eae7792cbe4d vdso test
-         dcbb8aa0957979a95a56fb620c4aaea8f14825eb random: add vgetrandom_alloc() syscall
-         6966e90d0644d217d7cd1bfefba0d876cf0cd4c4 arch: allocate vgetrandom_alloc() syscall number
-         7c8dc440756af8cce445ba3582f77e3baedefa69 random: introduce generic vDSO getrandom() implementation
-         a7f8b07099b1d365b28df6bb1063b043780ce839 x86: vdso: Wire up getrandom() vDSO implementation
+         dda3bbbb26c823cd54d5bf211df7db12147c9392 Revert "net/mlx5e: MACsec, remove replay window size limitation in offload path"
+         0e682f04b4b59eac0b0a030251513589c4607458 net/mlx5: Lag, Fix for loop when checking lag
+         b85f628aa158a653c006e9c1405a117baef8c868 packet: do not set TP_STATUS_CSUM_VALID on CHECKSUM_COMPLETE
+         9ed7bfc79542119ac0a9e1ce8a2a5285e43433e9 sctp: fix memory leak in sctp_stream_outq_migrate()
+         91a2bbfff3e3c64b3e1aa3ad04381d0572b3d543 ionic: update MAINTAINERS entry
+         178833f99f587e9de9c888c38d82521dcfda12f0 MAINTAINERS: Update maintainer list for chelsio drivers
+         d66233a312ec9013af3e37e4030b479a20811ec3 net: ethernet: renesas: ravb: Fix promiscuous mode after system resumed
          
