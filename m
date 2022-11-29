@@ -1,50 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============7970235201381094687=="
+Content-Type: multipart/mixed; boundary="===============6006250359413602895=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Tue, 29 Nov 2022 18:01:33 -0000
-Message-Id: <166974489304.14069.18436364898075819282@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 29 Nov 2022 18:01:39 -0000
+Message-Id: <166974489902.14166.13165738065088831091@gitolite.kernel.org>
 
---===============7970235201381094687==
+--===============6006250359413602895==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.2
+  - ref: refs/heads/spi-6.2
     old: c771b4eabd6a52afff0b6f01c361a9d04fa8cd9d
     new: 7ba63521a1e9d8ca6fb55ead19e6e2b850b8fd80
     log: |
          7ba63521a1e9d8ca6fb55ead19e6e2b850b8fd80 spi: microchip: pci1xxxx: Add suspend and resume support for PCI1XXXX SPI driver
          
 
---===============7970235201381094687==
+--===============6006250359413602895==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1669744891 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1669744891-689d1c4f03c5f83d07d1ea304d3bf6fbb829ad44
+pusher C3F436CA30F5D8EB 1669744897 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1669744897-23dc79f75a75466f5bb0e19db966ee4f0e3c9532
 
-c771b4eabd6a52afff0b6f01c361a9d04fa8cd9d 7ba63521a1e9d8ca6fb55ead19e6e2b850b8fd80 refs/heads/for-6.2
+c771b4eabd6a52afff0b6f01c361a9d04fa8cd9d 7ba63521a1e9d8ca6fb55ead19e6e2b850b8fd80 refs/heads/spi-6.2
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmOGSPsACgkQJNaLcl1U
-h9Bb2wf/cj571UG3XY6WXZDvlF1VqTXPPwoNEu5SQRy5i1KHUStEhmilzok28Bkh
-ps9F5StSbUOoB5OoUURvd2cr7qhzOACtr9Meu7wrSm5mDTwo779WT/tYGnOZ7+4W
-9xd4hga4Wx0biM/Psy6aMYVE9suBIoP2kpW4AhzIl9T3NCDXrSljBuZIAvIgWH6Q
-aFwvPg3223iN61o7NytegYkrpb362mmZwiCyv1v63grLfuZnxr6ZsRWXBdwgRwzK
-fP3aTPXLHnlmc2FTtzOEHw+JjT2s1X/o2TmETATyvLynQwBRpGRJFg4UDhxOpYe8
-T9ltsAVd8sa/fydS3KERghCZJBWRIg==
-=BZEO
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmOGSQEACgkQJNaLcl1U
+h9BkAwf/YFsjKc9ZBgwFYQ8mdW9t2D1UyydKSdeYuzmLLRJYIlvTj3O7Jf1gJ7sS
+wO41XzfQUOElkb++whCf2MpBUWre85sqjOM0CHti3t9GZnA6BoYKDgPf3UJTrVrw
+AWEhdl+DNAEwkLaiASXX9O9Z/XjwnT6q/tqaPOMdYdCYEHYkS4zc5tovjJqNv75w
+eQSNUG3JX2TBzTCp/9SdnFRQkweSYU2eBz/SW/bBdnQlXkSd+MoC2+Q1OpKfZAxX
+vmj27Q1E+huM7IUO/ti757yCPp3Qh42hysYZEloKShmkIw99Pt516XlRc+lwD5eN
+jrXUwdg0Kqt3q7xE6NT+1LiCZaN6og==
+=B15n
 -----END PGP SIGNATURE-----
 
---===============7970235201381094687==--
+--===============6006250359413602895==--
