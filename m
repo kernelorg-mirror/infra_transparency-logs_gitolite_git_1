@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4976028379525957501=="
+Content-Type: multipart/mixed; boundary="===============7821039611136024067=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/utils/b4/b4
-Date: Tue, 29 Nov 2022 17:12:17 -0000
-Message-Id: <166974193796.10679.7702480420052910496@gitolite.kernel.org>
+Date: Tue, 29 Nov 2022 17:13:27 -0000
+Message-Id: <166974200755.11174.16110411318140777050@gitolite.kernel.org>
 
---===============4976028379525957501==
+--===============7821039611136024067==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,33 +16,32 @@ repo: pub/scm/utils/b4/b4
 user: mricon
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: f53f7f9eaa6d25d039e6eabd750f2d5b379b47e2
-    new: d377f8ec13eac3b0ae253c89477b56b0d9cec42f
+  - ref: refs/heads/stable-0.10.y
+    old: 1223333a3021187808f049598d2fed06ac6f8594
+    new: a24bc2d6df2c153c5731f1ab5ca7661cc46b8dcf
     log: |
-         5a625d2b31e4ddc41ccc387607b68f2b0ddef12d ez: make sure base-branch is set
-         28684290029c4f02470ac192a559f1b74be01688 ez: preserve content under '---' in commits
-         d377f8ec13eac3b0ae253c89477b56b0d9cec42f tests: update tests for ez/preserve-tripledash
+         5f7d083b9d34de4cf969fde04f6382e4cd34d54a ez: make sure base-branch is set
+         a24bc2d6df2c153c5731f1ab5ca7661cc46b8dcf ez: preserve content under '---' in commits
          
 
---===============4976028379525957501==
+--===============7821039611136024067==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher B6C41CE35664996C! 1669741937 -0500
+pusher B6C41CE35664996C! 1669742007 -0500
 pushee gitolite.kernel.org:pub/scm/utils/b4/b4
-nonce 1669741937-da8ad73ecd1a56c67cffa802deae3afb35a8ae50
+nonce 1669742007-775d328cee48a7b7287380a8457ca69d7cca6d13
 
-f53f7f9eaa6d25d039e6eabd750f2d5b379b47e2 d377f8ec13eac3b0ae253c89477b56b0d9cec42f refs/heads/master
+1223333a3021187808f049598d2fed06ac6f8594 a24bc2d6df2c153c5731f1ab5ca7661cc46b8dcf refs/heads/stable-0.10.y
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCY4Y9cQAKCRC2xBzjVmSZ
-bJuWAP90lbp7Y5eopAkd3t1g/AxFvmGaq3yPFOC02ml+jcnB5AD/fUB65da9+GHj
-aUOuk5mqVOZOwMUAnNZOhINtXpvGwAI=
-=ta5p
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCY4Y9twAKCRC2xBzjVmSZ
+bBcQAQCqQmQTYSV+UQUmYUUa42HBtMm48LfsKrpSkiK8Cg8kjgD/bgMQOfCl1kOf
+GmLSQz7aoAmOiYtUFdxb8hA69bZuGws=
+=YJCw
 -----END PGP SIGNATURE-----
 
---===============4976028379525957501==--
+--===============7821039611136024067==--
