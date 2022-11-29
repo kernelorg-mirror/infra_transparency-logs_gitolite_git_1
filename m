@@ -1,34 +1,58 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Tue, 29 Nov 2022 18:50:03 -0000
-Message-Id: <166974780323.17149.12347793732668061859@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============6135626417775812765=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Tue, 29 Nov 2022 19:00:24 -0000
+Message-Id: <166974842489.25293.15674840931302575146@gitolite.kernel.org>
+
+--===============6135626417775812765==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.2/block
-    old: 8613dec04e746f698418e9b8344acf19efff4997
-    new: 8d283ee62b077968e218531b24260e1cc51bd484
+  - ref: refs/heads/master
+    old: 38cfb00252fdfbcd34bcc53190b0c25c33744f56
+    new: 492de792456d78e7bb9d29f6b15b025de271b4fc
     log: |
-         7919d679ae09c0dc30dfecb7cbc02306cf95cdd7 block: include 'none' for initial elv_iosched_show call
-         5998249e3238428156b09911f1606b41113443c5 block: replace continue with else-if in elv_iosched_show
-         7a3b3660fd30c028e7ae1cd82697933789962406 block: always use 'e' when printing scheduler name
-         c6451ede406b9f57fcd61d48433a6b8b2be862e3 block: replace "len+name" with "name+len" in elv_iosched_show
-         8d283ee62b077968e218531b24260e1cc51bd484 block: use bool as the return type of elv_iosched_allow_bio_merge
+         04fdf6a847d9f7eef98f3b63dea399c26f989367 4.9-stable patches
+         69b1519bcd25efca9a02135c8504f47b0e3623dd 4.14-stable patches
+         492de792456d78e7bb9d29f6b15b025de271b4fc 4.19-stable patches
          
-  - ref: refs/heads/for-next
-    old: c506c378c29ba81db469ca7a1059a1dd1573420d
-    new: dac4337ef0ff38b723e81e2d15593e1de829c4d2
-    log: |
-         7919d679ae09c0dc30dfecb7cbc02306cf95cdd7 block: include 'none' for initial elv_iosched_show call
-         5998249e3238428156b09911f1606b41113443c5 block: replace continue with else-if in elv_iosched_show
-         7a3b3660fd30c028e7ae1cd82697933789962406 block: always use 'e' when printing scheduler name
-         c6451ede406b9f57fcd61d48433a6b8b2be862e3 block: replace "len+name" with "name+len" in elv_iosched_show
-         8d283ee62b077968e218531b24260e1cc51bd484 block: use bool as the return type of elv_iosched_allow_bio_merge
-         dac4337ef0ff38b723e81e2d15593e1de829c4d2 Merge branch 'for-6.2/block' into for-next
-         
+
+--===============6135626417775812765==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1669748424 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1669748423-d7de3a2a7bfd619b8d5c572a388c2901a4bdf974
+
+38cfb00252fdfbcd34bcc53190b0c25c33744f56 492de792456d78e7bb9d29f6b15b025de271b4fc refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmOGVsgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+1zkP/2is4PpipoYEVXnzxsQr
+VCrkN4aJxA6FzR7u6qGAERvjT5lJNLqRlJcofxqZ8PYilO29CELpQ8r0sojWFD96
+gw710nCaXVwOmYONNkUdLH7jDSFg5f2iCwwDd7Rez5wLvve+4X9qcjydogvHLMik
+3BuEJB5rc+3F63dPr39tz33YBUJ4cRQPgsgbWSw/VZrJ1GrDMS3gE9QcfJLCvdOK
+iPY/aZn/rwfdKIqAg1ZpRa5YwIvBZ846zo8ZfGb5ijGz9Z/jwM7UthkJFl1P/WWN
+Cr8VraflrVZ0eC+mXqaYjcZSssIGbPNtV7n4wexee6wBuiFyLPUhLLJNYWX/hALJ
+08mRSAqm7g1ufXPAPaVIqn7FH7lMP6yDunwybRzczTA0DeACnJ34r7oLmDro5JHD
+DmMdi5/pkf9/1aLvGqNQ5RKk4RWVedUqt7HzuUtOjgTR+g4MNRSV+OfzgfRJfv8D
+WUbnVy5JihYDv+HChnbBdS04DZqrs5SaWq/mOwjumZgCNwTG8T9QtHwT6PUEB+sB
+0bvxX/cn16j2I92PoipuMrY3EW8WG4AF83cXxwh1p3pEmw2WqUWr3KxpTlmVvoyt
+82UIx3DW+WOfZN36qWKMj8b+vgCeJ9kob9haZ0bqYfgJ2cMGxePR0l60PAhMlmdw
+JE6B7L7lttNRsfxe/FP3wE8y
+=3F4O
+-----END PGP SIGNATURE-----
+
+--===============6135626417775812765==--
