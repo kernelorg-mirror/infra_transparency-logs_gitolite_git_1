@@ -1,25 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
-Date: Tue, 29 Nov 2022 20:38:35 -0000
-Message-Id: <166975431584.30571.15520995413848200649@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gfs2/linux-gfs2
+Date: Tue, 29 Nov 2022 20:46:36 -0000
+Message-Id: <166975479676.4173.3256915351107718779@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf
-user: ast
+repo: pub/scm/linux/kernel/git/gfs2/linux-gfs2
+user: agruen
 changes:
-  - ref: refs/heads/master
-    old: e493bec343fa76e95631d0e21fd4a3538aa90c56
-    new: d66233a312ec9013af3e37e4030b479a20811ec3
+  - ref: refs/heads/freeze
+    old: 07a0fb6a6271e8ff0012afbbfc9f1e88939932c9
+    new: 24d93ef7d2fa15362e967412dbc3487fe212fb61
     log: |
-         dda3bbbb26c823cd54d5bf211df7db12147c9392 Revert "net/mlx5e: MACsec, remove replay window size limitation in offload path"
-         0e682f04b4b59eac0b0a030251513589c4607458 net/mlx5: Lag, Fix for loop when checking lag
-         b85f628aa158a653c006e9c1405a117baef8c868 packet: do not set TP_STATUS_CSUM_VALID on CHECKSUM_COMPLETE
-         9ed7bfc79542119ac0a9e1ce8a2a5285e43433e9 sctp: fix memory leak in sctp_stream_outq_migrate()
-         91a2bbfff3e3c64b3e1aa3ad04381d0572b3d543 ionic: update MAINTAINERS entry
-         178833f99f587e9de9c888c38d82521dcfda12f0 MAINTAINERS: Update maintainer list for chelsio drivers
-         d66233a312ec9013af3e37e4030b479a20811ec3 net: ethernet: renesas: ravb: Fix promiscuous mode after system resumed
+         ec046fa181145e3827e341c6788701b3e65934f6 gfs2: Rework freeze / thaw logic
+         94c7b4dbffa365333d88b63424c9db6b82336c14 gfs2: Replace sd_freeze_state with SDF_FROZEN flag
+         24d93ef7d2fa15362e967412dbc3487fe212fb61 gfs2: gfs2_freeze_lock_shared cleanup
          
