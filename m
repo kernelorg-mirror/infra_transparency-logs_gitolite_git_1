@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Tue, 29 Nov 2022 10:15:26 -0000
-Message-Id: <166971692675.4058.15288662898355247489@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/westeri/thunderbolt
+Date: Tue, 29 Nov 2022 10:35:46 -0000
+Message-Id: <166971814676.18391.11167777997104200767@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/westeri/thunderbolt
+user: westeri
 changes:
-  - ref: refs/heads/master
-    old: d739298044c5f83b12965676edbb94d78af7312e
-    new: 22147e08c98731a9c5fe284ab3063b46347ec579
-    log: |
-         22147e08c98731a9c5fe284ab3063b46347ec579 libmount: use autofs mount hint to ignore autofs mount entries
-         
+  - ref: refs/tags/thunderbolt-for-v6.2-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 4e6030eb7620b675a159522a19ce6840f8cf06bd
