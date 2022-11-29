@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gfs2/linux-gfs2
-Date: Tue, 29 Nov 2022 20:47:38 -0000
-Message-Id: <166975485833.4586.4431522402602414243@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Tue, 29 Nov 2022 21:00:21 -0000
+Message-Id: <166975562145.14907.7950554471098757118@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gfs2/linux-gfs2
-user: agruen
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/freeze+umount
-    old: 0000000000000000000000000000000000000000
-    new: 5241de5d3b5ee68ea7caa548f145659b7aa6ec9f
+  - ref: refs/tags/net-6.1-rc8-2
+    old: efda7ff7eff545e172ac127db47d15f8b9e412d7
+    new: 0000000000000000000000000000000000000000
