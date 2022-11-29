@@ -1,50 +1,28 @@
-Content-Type: multipart/mixed; boundary="===============3603624700544221680=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Tue, 29 Nov 2022 16:45:36 -0000
-Message-Id: <166974033691.22259.9133244657954923506@gitolite.kernel.org>
-
---===============3603624700544221680==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
+Date: Tue, 29 Nov 2022 16:45:41 -0000
+Message-Id: <166974034125.22329.8906994878801800799@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
-user: broonie
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/peterz/queue
+user: peterz
 changes:
-  - ref: refs/heads/regulator-6.1
-    old: b7b275e60bcd5f89771e865a8239325f86d9927d
-    new: 02228f6aa6a64d588bc31e3267d05ff184d772eb
+  - ref: refs/heads/core/wip-u128
+    old: 8f300c3f706f99eed66f234826f0f9d8f38c10d3
+    new: 4a23a4dd7f45642b6cd7c9e51028ab58c6e4ef99
     log: |
-         02228f6aa6a64d588bc31e3267d05ff184d772eb regulator: da9211: Use irq handler when ready
+         b3a94a2c6c8e26b1c299e237324f3461843f92a8 crypto: Remove u128 usage
+         bd7928f5f55d01d3eb4e27132f66786debd6abd8 cyrpto/b128ops: Remove struct u128
+         b5080ac860912725da92d5eb2eeabf7dcb85aa50 types: Introduce [us]128
+         fa2cb6e6be4ce9cb9371766b5e493600b28d96a4 arch: Introduce arch_{,try_}_cmpxchg128{,_local}()
+         3288c9549095dc3ba6604ffce4046dd4b882571a instrumentation: Wire up cmpxchg128()
+         94677eb804fc1bcbb919b6ee3abdb21c4f7691eb percpu: Wire up cmpxchg128
+         e175a797805de91481bdcfd8121b2d11327ffcc6 s390: Replace cmpxchg_double() with cmpxchg128()
+         873cfe1ceccf290b27d102454153cbbc4b0a6d60 x86,amd_iommu: Replace cmpxchg_double()
+         2e2f98cd175f9a68de5d7c1f15de97dd0f66ea23 x86,intel_iommu: Replace cmpxchg_double()
+         4a23a4dd7f45642b6cd7c9e51028ab58c6e4ef99 slub: Replace cmpxchg_double()
          
-
---===============3603624700544221680==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1669740335 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1669740335-07b2c3ec2c38412d0a28f74234d25dfb54b6d01c
-
-b7b275e60bcd5f89771e865a8239325f86d9927d 02228f6aa6a64d588bc31e3267d05ff184d772eb refs/heads/regulator-6.1
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmOGNy8ACgkQJNaLcl1U
-h9DYIwf9E/wkYQ6ApsHd40IQmM9bt8x7rEkMpqj0cK0NOEv7FVDb6MXrMdKi6Hiq
-ITCW9noHhHW8pWls9JAmrAojnNXV6K+Q1nDdSzGVgLlzFEwSsYoSW50R11BSy0G+
-VsNgkrE5U3K8VDidDZwM+xaiHDAbfwaHe7dh2BXwlUejiefS/lHt/JV/9XLS3jWx
-tMdTbEohHo/i+fVTJP8S3u6rJGUsF/WoH4dflTwSn5RKYEQIlS5JXaOWR/BOrQYr
-xtOYOaYsYMhj5pq77sWraDDlPjj0MEXVt1c8OZ+MZbLlt2J+LbHMMxILaButovtb
-RWKCFh2JG1m9v6yR9eb9UvypyfaHZQ==
-=cehs
------END PGP SIGNATURE-----
-
---===============3603624700544221680==--
