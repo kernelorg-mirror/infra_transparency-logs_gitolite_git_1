@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Tue, 29 Nov 2022 11:33:47 -0000
-Message-Id: <166972162706.26452.5186803083307773272@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Tue, 29 Nov 2022 11:38:02 -0000
+Message-Id: <166972188280.29471.2843120616411338935@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/netdev/net
+user: pabeni
 changes:
-  - ref: refs/heads/filemn1ma1
-    old: 0000000000000000000000000000000000000000
-    new: 863b9179cee4570e5da4206dcf8dbcdcc37c8348
-  - ref: refs/heads/v2_20221129_j_neuschaefer_nuvoton_wpcm450_fiu_binding_example_fixes
-    old: 0000000000000000000000000000000000000000
-    new: c771b4eabd6a52afff0b6f01c361a9d04fa8cd9d
+  - ref: refs/heads/master
+    old: 5daadc86f27ea4d691e2131c04310d0418c6cd12
+    new: e493bec343fa76e95631d0e21fd4a3538aa90c56
+    log: |
+         e493bec343fa76e95631d0e21fd4a3538aa90c56 net: marvell: prestera: Fix a NULL vs IS_ERR() check in some functions
+         
