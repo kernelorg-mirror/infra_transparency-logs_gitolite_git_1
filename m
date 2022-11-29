@@ -1,27 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvmarm/kvmarm
-Date: Tue, 29 Nov 2022 09:34:23 -0000
-Message-Id: <166971446361.25601.14963906625212787674@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Tue, 29 Nov 2022 09:49:50 -0000
+Message-Id: <166971539023.16901.2655494724734979661@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvmarm/kvmarm
-user: maz
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
-  - ref: refs/heads/next
-    old: 45359536f35d05db853ef5d346e8b5b27c57d870
-    new: 865d9dfe0cf227ed2cb3ad26fc50620eefa911c4
+  - ref: refs/heads/master
+    old: 1325de1756ba22af7fcbd1c14631748b0ad17de4
+    new: d739298044c5f83b12965676edbb94d78af7312e
     log: |
-         b0284cd29a957e62d60c2886fd663be93c56f9c0 mm: Do not enable PG_arch_2 for all 64-bit architectures
-         e059853d14ca4ed0f6a190d7109487918a22a976 arm64: mte: Fix/clarify the PG_mte_tagged semantics
-         2dbf12ae132cc78048615cfa19c9be64baaf0ced KVM: arm64: Simplify the sanitise_mte_tags() logic
-         ef6458b1b6ca3fdb991ce4182e981a88d4c58c0f mm: Add PG_arch_3 page flag
-         d77e59a8fccde7fb5dd8c57594ed147b4291c970 arm64: mte: Lock a page for MTE tag initialisation
-         d89585fbb30869011b326ef26c94c3137d228df9 KVM: arm64: unify the tests for VMAs in memslots when MTE is enabled
-         c911f0d4687947915f04024aa01803247fcf7f1a KVM: arm64: permit all VM_MTE_ALLOWED mappings with MTE enabled
-         a4baf8d2639f24d4d31983ff67c01878e7a5393f Documentation: document the ABI changes for KVM_CAP_ARM_MTE
-         865d9dfe0cf227ed2cb3ad26fc50620eefa911c4 Merge branch kvm-arm64/mte-map-shared into kvmarm-master/next
+         b9f19aceb58d6805b779d05d50a254099518f5bd libblkid: squashfs: add more superblock fields
+         a74662730905fbea9684190e2f1eb611729697fc libblkid: squashfs: report block sizes
+         d739298044c5f83b12965676edbb94d78af7312e libblkid: squashfs: report filesystem size
          
