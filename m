@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Wed, 30 Nov 2022 05:03:42 -0000
-Message-Id: <166978462282.6330.1006997637428827377@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/fscrypt/fscrypt
+Date: Wed, 30 Nov 2022 05:08:02 -0000
+Message-Id: <166978488225.9358.3477936675461506574@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/saeed/linux
-user: saeed
+repo: pub/scm/fs/fscrypt/fscrypt
+user: ebiggers
 changes:
-  - ref: refs/tags/mlx5-updates-2022-11-29
-    old: 0000000000000000000000000000000000000000
-    new: a40cb53cb1ce169827581311cdb22149c0dc6f75
+  - ref: refs/heads/fsverity
+    old: 2a2230fa314a7c3a3ea2120a74b052c3a494d2aa
+    new: a4bbf53d88c728da9ff6c316b1e4ded63a8f3940
+    log: |
+         a4bbf53d88c728da9ff6c316b1e4ded63a8f3940 fsverity: simplify fsverity_get_digest()
+         
