@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
-Date: Wed, 30 Nov 2022 12:52:46 -0000
-Message-Id: <166981276675.28158.7450457343133991423@gitolite.kernel.org>
+Date: Wed, 30 Nov 2022 12:54:05 -0000
+Message-Id: <166981284548.28697.3050106398854072595@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,9 @@ repo: pub/scm/linux/kernel/git/firmware/linux-firmware
 user: jwboyer
 changes:
   - ref: refs/heads/main
-    old: cdf9499cf6706b73935a139bb5e76777a87674fe
-    new: 6de0c03ff0da762b05ad246e91b3c457ebbdd71d
+    old: 6de0c03ff0da762b05ad246e91b3c457ebbdd71d
+    new: c85feb033901560ae2c988554902a42f86c7e4a8
     log: |
-         7f6279b3dd76ff955278fcd9e517eab85a4c97d6 i915: Add DMC v2.08 for DG2
-         6de0c03ff0da762b05ad246e91b3c457ebbdd71d Merge branch 'dg2_dmc_v2.8' of git://anongit.freedesktop.org/drm/drm-firmware
+         32d8681d21f2eef052cadfdfafc47e02eed6c2b2 QCA: Add Bluetooth firmware for WCN785x This commit will add required Bluetooth firmware files for QCA WCN785x. The image version is 2.0.0-00515.
+         c85feb033901560ae2c988554902a42f86c7e4a8 Merge https://github.com/quicrjliao/qcabtfw
          
