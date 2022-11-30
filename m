@@ -1,61 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/djwong/xfs-linux
-Date: Wed, 30 Nov 2022 17:11:53 -0000
-Message-Id: <166982831382.24875.11164474801732647367@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============7503948783386825658=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Wed, 30 Nov 2022 17:13:41 -0000
+Message-Id: <166982842118.25591.2043806515999491992@gitolite.kernel.org>
+
+--===============7503948783386825658==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/djwong/xfs-linux
-user: djwong
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/maxrefcount-fixes-6.2
-    old: 6723d2d965b9ded22e546ef689c8663ba25341e7
-    new: 62e2b72abbb1b9617578e306a52a1b9b577b7d25
+  - ref: refs/heads/master
+    old: b773f91910d78e22fd797edc079d88e7ec72174c
+    new: 89633ca2791cf212e24dddc50ebacfbbb51f5963
     log: |
-         032e160305f6872e590c77f11896fb28365c6d6c xfs: invalidate block device page cache during unmount
-         fd5beaff250d7e88912a937fad072d9d24f219da xfs: use memcpy, not strncpy, to format the attr prefix during listxattr
-         e5827a007aa4bb737c63121fd2c77e089b18a372 xfs: shut up -Wuninitialized in xfsaild_push
-         4c6dbfd2756bd83a0085ed804e2bb7be9cc16bc5 xfs: attach dquots to inode before reading data/cow fork mappings
-         d865d27db9d91504d5e648243f79e930f29c8d98 xfs: wait iclog complete before tearing down AIL
-         9ace0503d9d72d3f6c6cb2a9a67a5ac382ca68e2 xfs: fix super block buf log item UAF during force shutdown
-         1c5992842c8b5947ccdd73e1895e28fa36e3b17d xfs: hoist refcount record merge predicates
-         62e2b72abbb1b9617578e306a52a1b9b577b7d25 xfs: estimate post-merge refcounts correctly
+         89633ca2791cf212e24dddc50ebacfbbb51f5963 5.10-stable patches
          
-  - ref: refs/heads/random-fixes-6.2
-    old: 6ef03f34d833197cb15e425201af53bb0375959c
-    new: 4c6dbfd2756bd83a0085ed804e2bb7be9cc16bc5
-    log: |
-         032e160305f6872e590c77f11896fb28365c6d6c xfs: invalidate block device page cache during unmount
-         fd5beaff250d7e88912a937fad072d9d24f219da xfs: use memcpy, not strncpy, to format the attr prefix during listxattr
-         e5827a007aa4bb737c63121fd2c77e089b18a372 xfs: shut up -Wuninitialized in xfsaild_push
-         4c6dbfd2756bd83a0085ed804e2bb7be9cc16bc5 xfs: attach dquots to inode before reading data/cow fork mappings
-         
-  - ref: refs/heads/xfs-merge-6.2
-    old: 254e3459285cbf2174350bbc0051e475e1bc5196
-    new: 9ace0503d9d72d3f6c6cb2a9a67a5ac382ca68e2
-    log: |
-         032e160305f6872e590c77f11896fb28365c6d6c xfs: invalidate block device page cache during unmount
-         fd5beaff250d7e88912a937fad072d9d24f219da xfs: use memcpy, not strncpy, to format the attr prefix during listxattr
-         e5827a007aa4bb737c63121fd2c77e089b18a372 xfs: shut up -Wuninitialized in xfsaild_push
-         4c6dbfd2756bd83a0085ed804e2bb7be9cc16bc5 xfs: attach dquots to inode before reading data/cow fork mappings
-         d865d27db9d91504d5e648243f79e930f29c8d98 xfs: wait iclog complete before tearing down AIL
-         9ace0503d9d72d3f6c6cb2a9a67a5ac382ca68e2 xfs: fix super block buf log item UAF during force shutdown
-         
-  - ref: refs/heads/iomap-write-race-testing-6.2
-    old: 0000000000000000000000000000000000000000
-    new: 254e3459285cbf2174350bbc0051e475e1bc5196
-  - ref: refs/tags/iomap-write-race-testing-6.2_2022-11-30
-    old: 0000000000000000000000000000000000000000
-    new: 6db695343a2d510c3a17b9179a898560e41e8d86
-  - ref: refs/tags/xfs-merge-6.2_2022-11-30
-    old: 0000000000000000000000000000000000000000
-    new: dc85dcb934e326a1f22bfcfb6e632f7e7c643ae1
-  - ref: refs/tags/random-fixes-6.2_2022-11-30
-    old: 0000000000000000000000000000000000000000
-    new: 019e7bb3da6c98d83d33947603af080e14821d55
-  - ref: refs/tags/maxrefcount-fixes-6.2_2022-11-30
-    old: 0000000000000000000000000000000000000000
-    new: 0929c8fa0e7a257e86be1ec0ec098097e0c79efa
+
+--===============7503948783386825658==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1669828420 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1669828419-856dcab02914780b214c7062e68cda76af318ed8
+
+b773f91910d78e22fd797edc079d88e7ec72174c 89633ca2791cf212e24dddc50ebacfbbb51f5963 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmOHj0QbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+98UP/2PZjcKNZZUIyUoQNnCa
+qE7f/yEbtBuf0kMQWYRSDhK7Bdi9QEj/xVs2zitxbXqxsVfJYwX6aO1MJZ+PkDzp
+ArZREWCn4b3YywkWXRvppbeI10cYdfp5Phdf7YiXu7DK4FXHJTvTyd9YAEbF4Zti
+M0esVmB+EaeBqZRuKVSbogpHgvEgAWXJAthxVQnB33tHU8uYiNtPjSIZdV+doaTn
+h3gdtOLR3GFs80LvwmO3tQd9rJDpdbF0NQ9Fj9LmZ3xyY5lh/7W7MusZz5++oRob
+gJxN81LOY/2WZxpv/ZF9wFOgfC73pts57jvpZxhgsfvTCglHpc6MkoqdAxQyZBaN
+e3X/gZ4iwQqlMaWN5comzV4JpAfEVE44WkXkgcgTpqigFpC6m9k8mt7XOGq0Ka+T
+qUFHTgBF9VTm/is+VCIFvkBnf2p6C5KVqSw3wldqZVvhUbrx93hEgglilfkAA/YA
+UPPX+2zyvtURMuXVvEMF1mdKX9cPgm/u3YuORZF8m99GBWNFjEbY1ZkVe3Jl+nWU
+QFnArvIw3a331f60ipk0zh+3qp8KhhhD/PwykXi01rHf+d/7wbYKwJXmPQYwTAtK
+Y5PcLwBnwEiOsRlgZAsdX79crgKjiMvK6o7bRbWGfmtQMtAhzTVeVmku1PkEyAEH
+PXxn6mL+fjrhfmOvmhLw/2/3
+=ClID
+-----END PGP SIGNATURE-----
+
+--===============7503948783386825658==--
