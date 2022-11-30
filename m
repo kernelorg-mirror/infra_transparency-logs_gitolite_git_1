@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ulfh/mmc
-Date: Wed, 30 Nov 2022 14:46:13 -0000
-Message-Id: <166981957346.15981.1423140388770503801@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
+Date: Wed, 30 Nov 2022 14:58:37 -0000
+Message-Id: <166982031707.24765.1300208373961052285@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ulfh/mmc
-user: ulfh
+repo: pub/scm/linux/kernel/git/riscv/linux
+user: palmer
 changes:
-  - ref: refs/heads/next
-    old: e09463c4a3b6e6b974460d76f11ebb451900780b
-    new: 18737caf51209e41fb8c401d9d6363a6d1047789
+  - ref: refs/heads/fixes
+    old: 6fdd5d2f8c2f54b7fad4ff4df2a19542aeaf6102
+    new: d556a9aeb62a6cd44aa05aeadcc48245da0a1939
     log: |
-         18737caf51209e41fb8c401d9d6363a6d1047789 mmc: core: Normalize the error handling branch in sd_read_ext_regs()
+         b17d19a5314a37f7197afd1a0200affd21a7227d riscv: kexec: Fixup irq controller broken in kexec crash path
+         9b932aadfc47de5d70b53ea04b0d1b5f6c82945b riscv: kexec: Fixup crash_smp_send_stop without multi cores
+         d556a9aeb62a6cd44aa05aeadcc48245da0a1939 Merge patch series "riscv: kexec: Fxiup crash_save percpu and machine_kexec_mask_interrupts"
          
