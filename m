@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Wed, 30 Nov 2022 21:58:51 -0000
-Message-Id: <166984553103.7730.15484326067884425311@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/mm
+Date: Wed, 30 Nov 2022 22:17:50 -0000
+Message-Id: <166984667039.20394.1531413849638696608@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
-user: maz
+repo: pub/scm/linux/kernel/git/akpm/mm
+user: akpm
 changes:
-  - ref: refs/heads/arm64/nmi
+  - ref: refs/tags/mm-everything-2022-11-30-22-17
     old: 0000000000000000000000000000000000000000
-    new: 819f0c4d82a0b5d62ab33bac81b0b912d83c0b7f
+    new: ea96627a99baa59ab8aae7b2680d4cfdefcf8838
