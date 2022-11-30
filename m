@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2523403639449468606=="
+Content-Type: multipart/mixed; boundary="===============7894737870882258698=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Wed, 30 Nov 2022 18:03:29 -0000
-Message-Id: <166983140990.1218.826410581405437534@gitolite.kernel.org>
+Date: Wed, 30 Nov 2022 18:04:03 -0000
+Message-Id: <166983144389.1595.9488421415687914653@gitolite.kernel.org>
 
---===============2523403639449468606==
+--===============7894737870882258698==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 43c87456cd8db981dcdf1c68d049aca4276c4552
-    new: 5fb5fb56a021fbbdaaaf1cf03a28ff450c6e7df3
+    old: 5fb5fb56a021fbbdaaaf1cf03a28ff450c6e7df3
+    new: 951244c19a163779c832c5fd3a5f866b4156c668
     log: |
-         5fb5fb56a021fbbdaaaf1cf03a28ff450c6e7df3 drop drm-i915-fix-tlb-invalidation-for-gen12-video-and-compute-engines.patch from 5.10 and 5.4
+         951244c19a163779c832c5fd3a5f866b4156c668 5.10-stable patches
          
 
---===============2523403639449468606==
+--===============7894737870882258698==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1669831409 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1669831443 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1669831408-9037c3ebaff10a8c3801bdd75a9e0ea36ef83116
+nonce 1669831442-32d395b8dd4638c3cb6f013414079e58be459930
 
-43c87456cd8db981dcdf1c68d049aca4276c4552 5fb5fb56a021fbbdaaaf1cf03a28ff450c6e7df3 refs/heads/master
+5fb5fb56a021fbbdaaaf1cf03a28ff450c6e7df3 951244c19a163779c832c5fd3a5f866b4156c668 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmOHmvEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+WksP/AnqE12jnq8pxQCb4Gmo
-RXUTAdEQs0/UAeNZmcxVM8/r070IUvEwbCzxgFPAxojMyuD81JFDe+R9uEJXgXlO
-p/sxiaVVo0ju3FZpLDpFZ/cA7KswT1M54jLOSWVoWTHdHC4r2M8IwTBgf73nB1bN
-mcT4WVPNHNtbXUUGgth0L6cYnoZgyLd5sAsrxeZtsMctEYGZNc4AwtE11YrUgPNu
-QjOadyZvqgjcAd3u6VYJlhEjqKgZFk36DxW0msRhh8fJfWf35V4zEFgbGjYr2TlQ
-lQSjjLQY3p0u1lUz94SbTho75wIbhye7T0ZZDlbdLX78A+Ni1hOdYeBfyHqwYIVI
-3MC0mnULBkRFfAz7QOcDZAmraEQjA9naC1O3eFx4fBQdg9jZCOTYucjxm0VsPVZg
-7ovzbgj/dq2u1gt5DExruSbD9VVu+uTt5l0HNGzA+tRo7Etq4KiT1IXr21m80kTy
-5LEKeMb85j7fpGe9pcrciScUNuSJhM27BtcsRpMEu6Lh6tdjtO7kjOel4e3Qc/7D
-7KHAGV3USN2Pg240cw1pNPBO0z1vTHZqAtiY2moxoYsc+O/CV9ahfSUKcYTySk/G
-hJdGc/g4Uj2H7oiGzIaYNHBUE+ozDY6QRlxTs7pawSIXK9Xbqp5Eik7xGXxomC4q
-w9LxLjZxhKlTjK5cnHEE0m/K
-=Uplt
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmOHmxMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+wDoQAMPY7XGrkG5bFm247laU
+/3vUy2yfhQ/Ib5RMqEuxy9UOEENVO7e9Qtf2hpXW0wSQnex3/2V4aQJLKDJOqMTb
+2J1HRHJrucJYzrogOw60o9akGC168CGJZYGeJfBoFDParzJQTZbpXooK+xPBw24/
+V2dRFzSsdhiorUNN6u3WgVXS8BZR/8KUWu5ESJwNIFSo0KVbBaNArFohH1KHvWvI
+u7vLQWwljm2igHmhn2E1JR6VxrXfA0fRfeAptUxe9PZdCwenlx/944rAvPycTbwc
++jHbaNzoajabbvBdPIGoMA4eEnFvDDnPBROAF7hm0ZrSpfILNRr6WpeWkBm5xBc8
+T9EsgWJCd83qlWduYMy0ZFI+BFpaEnH22zr3EJuZImcXk8PbwvaidlcBkeBewK3w
+m8vh5buGbZpy8w4mg/jFKMd6mkpssm1+mDXoPaOZnP4RRi/mOLQrYRp0lGa0YQpB
+mVm40o6JeUfaiJs0ptkMgc84DR589s2B4yRQOj4GSwKZqY6vbde7OoSQvggUH9bf
+FtIjTI+szl9N+/aYUm19O9f5kXsOc8PzKsTVVZZoNONlPY2a1iE/ASFj4ciF5f/O
+VqV4nnfU85Gz6UDslpGTDgZTMZRt09RUbggDnP6skMINdUb87LwCKuFxexU/BMDg
+1P9N5FHHPM27BbrF175cyRIb
+=Xwtz
 -----END PGP SIGNATURE-----
 
---===============2523403639449468606==--
+--===============7894737870882258698==--
