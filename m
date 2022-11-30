@@ -1,33 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
-Date: Wed, 30 Nov 2022 13:31:19 -0000
-Message-Id: <166981507928.25926.13337457623762155186@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Wed, 30 Nov 2022 13:43:26 -0000
+Message-Id: <166981580606.659.9755312592957561360@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs
-user: xiang
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/dev
-    old: 0717326aca9fd4f5441cee677e1b8a03760381e2
-    new: aa02305d6a927bd48af1dcbc7e095878202c38bb
+  - ref: refs/heads/alsa-pcm-test-hacks
+    old: 6992b3a0f12693c09ea6542cf8d47674708c6f9c
+    new: 82ff8b63a2c8426111c45904a5528e5222c130fb
     log: |
-         e4ffeb54df67206925f782d4105329f7bbcbb52a erofs: enable large folios for iomap mode
-         fb19a531ce5547a88329995f6e41b1876582bb8d erofs: check the uniqueness of fsid in shared domain in advance
-         742005bb17ad83c56555a9af9d0b799c07015210 erofs: update documentation
-         3ea3211b0c7f5467db5406fc018acc742d4e6c99 fscache,cachefiles: add prepare_ondemand_read() callback
-         aa02305d6a927bd48af1dcbc7e095878202c38bb erofs: switch to prepare_ondemand_read() in fscache mode
-         
-  - ref: refs/heads/dev-test
-    old: 53b2bd9b754eb1aae63287e11c8cb1ffe10ee380
-    new: aa02305d6a927bd48af1dcbc7e095878202c38bb
-    log: |
-         e4ffeb54df67206925f782d4105329f7bbcbb52a erofs: enable large folios for iomap mode
-         fb19a531ce5547a88329995f6e41b1876582bb8d erofs: check the uniqueness of fsid in shared domain in advance
-         742005bb17ad83c56555a9af9d0b799c07015210 erofs: update documentation
-         3ea3211b0c7f5467db5406fc018acc742d4e6c99 fscache,cachefiles: add prepare_ondemand_read() callback
-         aa02305d6a927bd48af1dcbc7e095878202c38bb erofs: switch to prepare_ondemand_read() in fscache mode
+         5b8168737bd324f8d47727f9080e568edb7836cd ASoC: hdmi-codec: Allow playback and capture to be disabled
+         82ff8b63a2c8426111c45904a5528e5222c130fb drm: tda99x: Don't advertise non-existant capture support
          
