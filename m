@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0030348175352669902=="
+Content-Type: multipart/mixed; boundary="===============3385296791706083817=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec-next
-Date: Wed, 30 Nov 2022 07:20:39 -0000
-Message-Id: <166979283955.5224.2584712675875042514@gitolite.kernel.org>
+Date: Wed, 30 Nov 2022 07:21:20 -0000
+Message-Id: <166979288016.5570.15481480493260847424@gitolite.kernel.org>
 
---===============0030348175352669902==
+--===============3385296791706083817==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/klassert/ipsec-next
 user: klassert
 changes:
-  - ref: refs/heads/testing
+  - ref: refs/heads/master
     old: b198d7b40ad946206217224b8379626a089f73ed
     new: 91a7de85600d5dfa272cea3cef83052e067dc0ab
     log: revlist-b198d7b40ad9-91a7de85600d.txt
 
---===============0030348175352669902==
+--===============3385296791706083817==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ b2d7b6e9e4a8769497c1ae5bc13179e9b0a79bb9 Merge branch 'net-pcs-altera-tse-simpli
 5cb0c51fe366cf96b7911d25db3e678401732246 Merge branch 'master' of git://git.kernel.org/pub/scm/linux/kernel/git/klassert/ipsec-next
 91a7de85600d5dfa272cea3cef83052e067dc0ab selftests/net: add csum offload test
 
---===============0030348175352669902==--
+--===============3385296791706083817==--
