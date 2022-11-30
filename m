@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============1202475984626483115=="
+Content-Type: multipart/mixed; boundary="===============8809022740241905405=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Wed, 30 Nov 2022 12:47:18 -0000
-Message-Id: <166981243813.24301.4113281940959833982@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Wed, 30 Nov 2022 12:47:24 -0000
+Message-Id: <166981244454.24404.7004466087302813550@gitolite.kernel.org>
 
---===============1202475984626483115==
+--===============8809022740241905405==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.2
+  - ref: refs/heads/asoc-6.2
     old: 93d519a12a83baa19dae59d121439b04fb9dfded
     new: c1dd6bf6199752890d8c59d895dd45094da51d1f
     log: |
@@ -24,28 +24,28 @@ changes:
          c1dd6bf6199752890d8c59d895dd45094da51d1f ASoC: amd: yc: Add Xiaomi Redmi Book Pro 14 2022 into DMI table
          
 
---===============1202475984626483115==
+--===============8809022740241905405==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1669812436 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1669812435-8418bc555b2c886ebfe107375dfc3f00f7a37af7
+pusher C3F436CA30F5D8EB 1669812443 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1669812442-1d99ec9243819684d00af6f7a3ac7625e8c4e57b
 
-93d519a12a83baa19dae59d121439b04fb9dfded c1dd6bf6199752890d8c59d895dd45094da51d1f refs/heads/for-6.2
+93d519a12a83baa19dae59d121439b04fb9dfded c1dd6bf6199752890d8c59d895dd45094da51d1f refs/heads/asoc-6.2
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmOHUNQACgkQJNaLcl1U
-h9DyVAf+K3lqLc7X3Op63raY+K8IPoINjmckEgkEK6KKwtL4gV0EIgArZwzU0IXN
-/PbnnN28d0XgX6uYbZCu/G3d1jI0hfDDtGsnyOOSN1Z23awfesM3MDpMtIq/iBPc
-8Y8cJsF7oRpNJo6FrnYBoFJ/MTr6OaL0/V6ro0UEq2oTVKcyxjSH+e+4y8WeLc39
-NHfg1zOPFRPTUFmi6EmpRxidtjlszn7i+cnm21Nrs52gX5xVEkiZWgJHBmZ0aqrE
-yorGVnlyiVwImOlJlRwt8rMN7IRz+Pg222fi2PCsUEmknZ1FbMvMAqMxmKLV5Ceh
-pmKzOUpPTS6BmdWoa8mZkSc/7DqKHQ==
-=W7Gu
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmOHUNsACgkQJNaLcl1U
+h9CKgQf/bSjXsOe+gVDfjCh1l+eobZ4pc9wzncu6uZ6TXpaUfCP6muOW93t0kGON
+zrGbD4Ph4iNNZnjLj2i+4JujPjSaueo76dtUIx2RNFblQ5GxTnFsH6ioYbUP0gqH
+dbCszM3Gv5jGEr+F/eBNX8ulTTX6oc5t5L0yQAQ3ByDnly99cc2gvr5e8SxRAwUt
+X444lHJdofuzKGdS2cgK2fo6Nhc+wv6B0iq7aqLmACtFpZO+xaalObzbRg6oWkdZ
+U/RoJdpCCiCWpTv8cpZItBCQqMoLfhwa7Cn0DOdZYoZ6E0ZaJvdulSF+atmzXizT
+7pxJuLBrCZtZ1eRVe5a8dr5Nu3bSDw==
+=vsvs
 -----END PGP SIGNATURE-----
 
---===============1202475984626483115==--
+--===============8809022740241905405==--
