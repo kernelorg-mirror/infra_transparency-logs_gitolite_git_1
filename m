@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Wed, 30 Nov 2022 17:34:33 -0000
-Message-Id: <166982967346.10210.15231687078006449322@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/efi/efi
+Date: Wed, 30 Nov 2022 17:37:44 -0000
+Message-Id: <166982986448.12928.3526992693602556052@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/efi/efi
+user: ardb
 changes:
-  - ref: refs/heads/master
-    old: 01f856ae6d0ca5ad0505b79bf2d22d7ca439b2a1
-    new: 04aa64375f48a5d430b5550d9271f8428883e550
-    log: |
-         04aa64375f48a5d430b5550d9271f8428883e550 drm/i915: fix TLB invalidation for Gen12 video and compute engines
-         
+  - ref: refs/tags/efi-v6.1-arm64-sync-exception-recovery
+    old: 0000000000000000000000000000000000000000
+    new: 8179c38b60e68bc7214891603ce93d545d332886
