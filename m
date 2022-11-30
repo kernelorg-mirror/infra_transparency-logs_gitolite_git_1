@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3187472824375127639=="
+Content-Type: multipart/mixed; boundary="===============2523403639449468606=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Wed, 30 Nov 2022 18:02:48 -0000
-Message-Id: <166983136868.867.645506711034031865@gitolite.kernel.org>
+Date: Wed, 30 Nov 2022 18:03:29 -0000
+Message-Id: <166983140990.1218.826410581405437534@gitolite.kernel.org>
 
---===============3187472824375127639==
+--===============2523403639449468606==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: a98aa2291cb9fd70341109e459728a96879712b4
-    new: 43c87456cd8db981dcdf1c68d049aca4276c4552
+    old: 43c87456cd8db981dcdf1c68d049aca4276c4552
+    new: 5fb5fb56a021fbbdaaaf1cf03a28ff450c6e7df3
     log: |
-         43c87456cd8db981dcdf1c68d049aca4276c4552 fix queue-5.15/drm-i915-fix-tlb-invalidation-for-gen12-video-and-compute-engines.patch
+         5fb5fb56a021fbbdaaaf1cf03a28ff450c6e7df3 drop drm-i915-fix-tlb-invalidation-for-gen12-video-and-compute-engines.patch from 5.10 and 5.4
          
 
---===============3187472824375127639==
+--===============2523403639449468606==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1669831367 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1669831409 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1669831367-cece6b12645e740dac1e7d3b6482967fe186c29a
+nonce 1669831408-9037c3ebaff10a8c3801bdd75a9e0ea36ef83116
 
-a98aa2291cb9fd70341109e459728a96879712b4 43c87456cd8db981dcdf1c68d049aca4276c4552 refs/heads/master
+43c87456cd8db981dcdf1c68d049aca4276c4552 5fb5fb56a021fbbdaaaf1cf03a28ff450c6e7df3 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmOHmsgbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+b2AQANID3Xql55Qim1/51mIM
-MU4pZK1B3eh7pzI/v87tlq7jHHRh+X/RiAuZMG3AkxUK9rSxnb2NqCs/5riY6WpE
-sXsyN1OqfG3jwOHXky2uL0OJIXg1IDKIstGS2b5Mfavwlt1dmt/LYmgxlsFk4mBc
-VS68xQxpE66B2VFb0w8OOo4Qlb19j8Byq4SWte/f77V4MfXUOpzTiml0mBH3sGY/
-orO2Ii/fIIevKSgQ3PYx9tknr4MfS2/gEHoR0EUM2vGgDeRmozW/hky3wCnv83cI
-11ez042CXxqTSnYR9fYV1E+5Xab2/RkSrsDh08PuVfvE3cK9W5gk4cpd0ImtWoQ6
-gVm1hK5UI0zgkDawI/ATCFyDWiItFJkaIRe2e4FVRYrw1WRaiUafuj9+9+tyFw3i
-xr7YM2/2VvG+Fy8VnmWJ/oduaguXeJT7MlFKMdhNzO4s1ZJsGgiQYxaM5EXtLg1S
-gRjMS2Au+ijU33aNRXYY8fItlwhaRhg4SXtvZDt5ICamqvgVRw/V3134nrnSA7Xm
-iNHlDjWzOmtml75wdbj58pQJUYVjDmugStUL9yvqAq9CYRl6LbFkhVurNNzgfYWr
-Bcz164FMfRF6hn0cvggMktAmS5rOgdyu6vSJKndCDBttZ74pfQYAYViZUvvoYpr1
-QoTCe6GXKI3bCMFnlWtVI+OO
-=lLsC
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmOHmvEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+WksP/AnqE12jnq8pxQCb4Gmo
+RXUTAdEQs0/UAeNZmcxVM8/r070IUvEwbCzxgFPAxojMyuD81JFDe+R9uEJXgXlO
+p/sxiaVVo0ju3FZpLDpFZ/cA7KswT1M54jLOSWVoWTHdHC4r2M8IwTBgf73nB1bN
+mcT4WVPNHNtbXUUGgth0L6cYnoZgyLd5sAsrxeZtsMctEYGZNc4AwtE11YrUgPNu
+QjOadyZvqgjcAd3u6VYJlhEjqKgZFk36DxW0msRhh8fJfWf35V4zEFgbGjYr2TlQ
+lQSjjLQY3p0u1lUz94SbTho75wIbhye7T0ZZDlbdLX78A+Ni1hOdYeBfyHqwYIVI
+3MC0mnULBkRFfAz7QOcDZAmraEQjA9naC1O3eFx4fBQdg9jZCOTYucjxm0VsPVZg
+7ovzbgj/dq2u1gt5DExruSbD9VVu+uTt5l0HNGzA+tRo7Etq4KiT1IXr21m80kTy
+5LEKeMb85j7fpGe9pcrciScUNuSJhM27BtcsRpMEu6Lh6tdjtO7kjOel4e3Qc/7D
+7KHAGV3USN2Pg240cw1pNPBO0z1vTHZqAtiY2moxoYsc+O/CV9ahfSUKcYTySk/G
+hJdGc/g4Uj2H7oiGzIaYNHBUE+ozDY6QRlxTs7pawSIXK9Xbqp5Eik7xGXxomC4q
+w9LxLjZxhKlTjK5cnHEE0m/K
+=Uplt
 -----END PGP SIGNATURE-----
 
---===============3187472824375127639==--
+--===============2523403639449468606==--
