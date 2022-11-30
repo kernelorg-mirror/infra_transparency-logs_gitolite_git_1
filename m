@@ -1,27 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dtor/input
-Date: Wed, 30 Nov 2022 23:17:11 -0000
-Message-Id: <166985023105.31082.2189602253505470567@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Wed, 30 Nov 2022 23:34:42 -0000
+Message-Id: <166985128277.10730.10328279515282771318@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dtor/input
-user: dtor
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: andrii
 changes:
   - ref: refs/heads/master
-    old: 98519195e3d491532d61214e6c18f79e44c14a5f
-    new: a5df8025f37a813f3f512ea3048ca505561b9c27
+    old: 996c060e2bb90e5caef42849846b56da21ea88d9
+    new: c67cae551f0df80421b5703ee56ff5e2fe9c4de6
     log: |
-         b2b80d9dd14cb5b70dc254bddbc4eea932694791 Input: wistron_btns - disable on UML
-         a5df8025f37a813f3f512ea3048ca505561b9c27 Input: msg2638 - only read linux,keycodes array if necessary
-         
-  - ref: refs/heads/next
-    old: 98519195e3d491532d61214e6c18f79e44c14a5f
-    new: a5df8025f37a813f3f512ea3048ca505561b9c27
-    log: |
-         b2b80d9dd14cb5b70dc254bddbc4eea932694791 Input: wistron_btns - disable on UML
-         a5df8025f37a813f3f512ea3048ca505561b9c27 Input: msg2638 - only read linux,keycodes array if necessary
+         c67cae551f0df80421b5703ee56ff5e2fe9c4de6 bpf: Tighten ptr_to_btf_id checks.
          
