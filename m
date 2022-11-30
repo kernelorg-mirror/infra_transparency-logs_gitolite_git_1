@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Wed, 30 Nov 2022 10:08:25 -0000
-Message-Id: <166980290584.6049.14554076436254270068@gitolite.kernel.org>
+Date: Wed, 30 Nov 2022 10:08:30 -0000
+Message-Id: <166980291070.6170.9973143647863777105@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,7 +11,7 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jlayton/linux
 user: jlayton
 changes:
-  - ref: refs/heads/locks-6.2
+  - ref: refs/heads/locks-next
     old: 0513283941f6fc87a19501c0882b8d5f6b20fff4
     new: f2f2494c8aa3cc317572c4674ef256005ebc092b
     log: |
