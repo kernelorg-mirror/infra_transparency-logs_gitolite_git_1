@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8740063902947269134=="
+Content-Type: multipart/mixed; boundary="===============3956597205515361798=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Wed, 30 Nov 2022 12:03:49 -0000
-Message-Id: <166980982997.24371.9074920744636113097@gitolite.kernel.org>
+Date: Wed, 30 Nov 2022 12:04:05 -0000
+Message-Id: <166980984567.24559.14140506181621646217@gitolite.kernel.org>
 
---===============8740063902947269134==
+--===============3956597205515361798==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,48 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/kobject-const2
-    old: 1ef3e0142e621ceb4aa1e4e779363ba3e8729b2f
-    new: ac53d9aa9bec7f09f8cc3f4af04254df0b95a3cf
+  - ref: refs/heads/kobject-const
+    old: 3217a48be0477dcfa14c55f85b8c635f828d4cf2
+    new: af0f86ff1d8a52582587506e134849493ee4623d
     log: |
          fb12940f51d96ead10f9c0fd578e69b8de10ca81 driver core: fix up some missing class.devnode() conversions.
          69b14fde0b8dd159ba19d2b2083a0f2958a9130c driver core: fix up missed scsi/cxlflash class.devnode() conversion.
          50dc8d18f62d58a2330f08fddc069f263d191c90 driver core: fix up missed drivers/s390/char/hmcdrv_dev.c class.devnode() conversion.
-         0bde1d69332934ea32310cba03cc86e1e29185b5 driver core: make struct device_type.uevent() take a const *
-         16d9b30e31fe557e7f2174cd7e82eecda78764f6 driver core: make struct device_type.devnode() take a const *
-         ac53d9aa9bec7f09f8cc3f4af04254df0b95a3cf driver core: device_get_devnode() should take a const *
+         c1917da75feb27e7b9e6a8d51f699bd389d8fab1 driver core: make struct device_type.uevent() take a const *
+         71258bded44f6d3e936ab3903f83dcfa690d0ba8 driver core: make struct device_type.devnode() take a const *
+         0143de93c92a9395448f993e766af9e6e19f265c driver core: device_get_devnode() should take a const *
+         f45acda34d5bf6cf99cd3b0ff45206ef9d624267 driver core: make struct bus_type.uevent() take a const *
+         af0f86ff1d8a52582587506e134849493ee4623d kobject: kset_uevent_ops: make uevent() callback take a const *
          
 
---===============8740063902947269134==
+--===============3956597205515361798==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1669809828 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1669809843 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1669809826-e4c39d4576311dc98737bf5899ba28d3b2d8da8c
+nonce 1669809842-89a928fad7be5f6916176917255cd8bc669caa05
 
-1ef3e0142e621ceb4aa1e4e779363ba3e8729b2f ac53d9aa9bec7f09f8cc3f4af04254df0b95a3cf refs/heads/kobject-const2
+3217a48be0477dcfa14c55f85b8c635f828d4cf2 af0f86ff1d8a52582587506e134849493ee4623d refs/heads/kobject-const
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmOHRqQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+isgP/0z7gV884yYdBaVRh3+/
-J/jZA5yC51Om2u6l37RFWsgDBkH0AMpU8z5dWQf1e2TA2hryuQqpcBxNNx8ZVZeG
-dju44QQ0hKIEFRz6vwqV01Vq1QM0ckaPhcKny2ahxRsLLeoJtEF7tNYIoMe53Qpo
-/j27vtSeqgIvOQG2HRtCaL9EWaIOAqziNBnVsT60EbhzsJ/N8YNPkSNLIgMgZRzy
-41gBaoNpM28ScVBcp9Vw/k2B83jBjEoM988jwsJKZPKWB311DxBKNB6SI/QkZLZO
-MIB/FsHFLL8PErej/vUjQcJdQB/Sk+Hfo+kx0I2BVA0GHtUlkzFi/UwhKq2S/EhI
-VHXBhqhZHmOuASRZXA7msFeEYvbj/2DcXdumes/ZExBVG/O8D+cUDW48CnMU0FI/
-ZyUEMgWpBd2usnYjoYZgnqnWWYVGi9Ddd3yKrZSJgr0YtEVaISwgoWfYYJnyS3Uw
-avO7cMf9R6ebY/J9k5axVkQgJtF/Dy7XujQqcof4r5LcyweatrXsrXuBCc9NawtB
-f36WmwF8E+yW6gi+EJ5bNM56DGDaO0eQNAvo8f+nqsbLhRCy2ThaFxQplk/9od6g
-Y+dudznfV72nosMu7lCGs1CuJp9wJ094fS4JwPpfZpvPH0xzMbnhclXN90f4vKUP
-IJnFfb72Je6pP4ZBGqdMgvlF
-=76wv
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmOHRrMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+uFYP/0OVwLW+BvXRfiWc2Arn
+19ByEYcS0Prmy6n+QvaTFETC6bMDSDa3P/v6YstQcB6nk9v4nA7f0kQwbu4X6kwh
+uPtanqltFbCVI5Khao6bjYzQylfszIe1xRtFqyVF82oPNxepOIaEEI2qCrdoZA3g
+7YcKjhJ3iEr6U8yR2ExO9rtYhgmgFNgmjj9EMrtXB+dwu20gs8X0q44RH2Rj4BXe
+CCcngO8LqAmmIsMiX5OgfGZpi7KizWopznrSBs+63K/u1iicCkgDD3b20+0DPYAC
+nsnYvjRxkVhFss7jq1dTZ3IJal34dT1QVjMS/sASWhNtgK90RLnhfSycYaJs9mZy
+DAAaMDuP8wL84zLmf49f7L7ITWYLTkPGTfnNUfILb/lam7Sd8FAQld5Nov0E0zFL
+LyC5GYkLNZ+K9KUs20nyM0f1VUUfUxPhFTq7V7EgowmzO8we64AQqdSQ8c9lQylj
+oK+fm30R9wMBHHSZwDp6OiB538SNNDsgNAwE7hHMAm6dK3i5AxkSwS+qFfj9hAHC
+Esnpz1jjax09AmSE/KpakfPVnE/lCa99z5LNtk13x+ONjuZBkmS31W5w6vjvFqhC
+z3GDHEQTMY07dPcFHX2uqdN+fhelJ5f2qPLbkr31t9QbDXZp/dLvhqrhjefddgz1
+r41vI6P9aHOfydqVedlf7V0+
+=AvJy
 -----END PGP SIGNATURE-----
 
---===============8740063902947269134==--
+--===============3956597205515361798==--
