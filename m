@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netfilter/nf-next
-Date: Wed, 30 Nov 2022 17:55:01 -0000
-Message-Id: <166983090131.25793.16999083577392240906@gitolite.kernel.org>
+Date: Wed, 30 Nov 2022 17:55:47 -0000
+Message-Id: <166983094708.28632.389643142337970515@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,10 +12,9 @@ repo: pub/scm/linux/kernel/git/netfilter/nf-next
 user: pablo
 changes:
   - ref: refs/heads/master
-    old: 98cbc40e4f7d15bc21a314a151071566e14ca39c
-    new: d7c0064a713a5de900fc95825c1491b4a9314829
+    old: d7c0064a713a5de900fc95825c1491b4a9314829
+    new: e9374524950512a1769f610a868fcdf89ea59b8e
     log: |
-         bff3d0534804452e19c097ae6b4eb4b4d846d67f netfilter: conntrack: add sctp DATA_SENT state
-         d1293b6a050e550ca3384aadd8fb203ef1c069d8 netfilter: merge ipv4+ipv6 confirm functions
-         d7c0064a713a5de900fc95825c1491b4a9314829 netfilter: ipset: Add support for new bitmask parameter
+         a70e483460d58e64504dd679fd127e9549385c86 netfilter: conntrack: merge ipv4+ipv6 confirm functions
+         e9374524950512a1769f610a868fcdf89ea59b8e netfilter: ipset: Add support for new bitmask parameter
          
