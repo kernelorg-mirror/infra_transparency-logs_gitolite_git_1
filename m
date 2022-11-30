@@ -1,20 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Wed, 30 Nov 2022 08:42:14 -0000
-Message-Id: <166979773445.29047.5191657547861177782@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mnyman/xhci
+Date: Wed, 30 Nov 2022 08:53:11 -0000
+Message-Id: <166979839165.3816.4673892563521352315@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: leon
+repo: pub/scm/linux/kernel/git/mnyman/xhci
+user: mnyman
 changes:
-  - ref: refs/heads/wip/leon-for-next
-    old: 2d6c66f5253e7d168a76048d18e1209c52f98a2b
-    new: fc8f93ad3e5485d45c992233c96acd902992dfc4
+  - ref: refs/heads/for-usb-next
+    old: 3ab27395a21574a6d0fd58fac5f7556b555937e1
+    new: 2c0b979e0f7292085bb6566e4fc7d7e7f5528a57
     log: |
-         67e6272d53386f9708f91c4d0015c4a1c470eef5 RDMA/nldev: Add NULL check to silence false warnings
-         fc8f93ad3e5485d45c992233c96acd902992dfc4 RDMA/nldev: Fix failure to send large messages
+         f002c9584783487c02c16c4e266c3bdbb3ba5e62 xhci: Apply XHCI_RESET_TO_DEFAULT quirk to ADL-N
+         926d1cf6a225578a4dda6767a2bdf3cc680ee116 xhci: export two xhci_hub functions for xhci-pci module usage
+         4a7718722adcb01faab329d8fe694ef81787e4bc xhci: disable U3 suspended ports in S4 hibernate poweroff_late stage
+         74518f170b335ac9a753b58316c4ad4b55591d08 xhci: Prevent infinite loop in transaction errors recovery for streams
+         2c0b979e0f7292085bb6566e4fc7d7e7f5528a57 xhci: remove unused stream_id parameter from xhci_handle_halted_endpoint()
          
