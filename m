@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6096961277300172569=="
+Content-Type: multipart/mixed; boundary="===============7717569163085294173=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/printk/linux
-Date: Wed, 30 Nov 2022 10:20:49 -0000
-Message-Id: <166980364978.15008.17650042017011515747@gitolite.kernel.org>
+Date: Wed, 30 Nov 2022 10:24:19 -0000
+Message-Id: <166980385946.16300.1575096226049853865@gitolite.kernel.org>
 
---===============6096961277300172569==
+--===============7717569163085294173==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/printk/linux
 user: pmladek
 changes:
-  - ref: refs/heads/rework/console-list-lock
-    old: 9907ed06432a48be772934df6a7295d1cda28e42
-    new: 250fc54f3a387b6dd1a7023a1736bf8a0a0eb57a
-    log: revlist-9907ed06432a-250fc54f3a38.txt
+  - ref: refs/heads/for-next
+    old: 11f1e536902b38bffab9913f8908309daf7e53e1
+    new: a04b46d8846f8c92bb7697554609d3ae5bc7efb9
+    log: revlist-11f1e536902b-a04b46d8846f.txt
 
---===============6096961277300172569==
+--===============7717569163085294173==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9907ed06432a-250fc54f3a38.txt
+Content-Disposition: attachment; filename=revlist-11f1e536902b-a04b46d8846f.txt
 
 64e838679e149b6074507b50f0e2c68a2cd6990f rcu: Make SRCU mandatory
 c1313d1ab38deb6621045f7d70f0d34f19ec7cfc serial: kgdboc: Lock console list in probe function
@@ -68,5 +68,7 @@ c08ec59d355c26e44be6e99a789c4879aab6a4ef tty: serial: kgdboc: synchronize tty_fi
 bdeeef368599cf47ed19f8abca02aaeaf80efd03 printk: relieve console_lock of list synchronization duties
 3e8cb48256e0325b7c8e6c519928599460b3fe9b tty: serial: sh-sci: use setup() callback for early console
 250fc54f3a387b6dd1a7023a1736bf8a0a0eb57a printk: htmldocs: add missing description
+6adfa2623b4a296be6d646ec6e308c25ed76f624 Merge branch 'for-6.2' into for-next
+a04b46d8846f8c92bb7697554609d3ae5bc7efb9 Merge branch 'rework/console-list-lock' into for-next
 
---===============6096961277300172569==--
+--===============7717569163085294173==--
