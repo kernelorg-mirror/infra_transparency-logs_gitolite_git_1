@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1765863292451583491=="
+Content-Type: multipart/mixed; boundary="===============2285100000604821471=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Wed, 30 Nov 2022 21:42:57 -0000
-Message-Id: <166984457713.27971.17277970725610031064@gitolite.kernel.org>
+Date: Wed, 30 Nov 2022 21:43:10 -0000
+Message-Id: <166984459032.28084.11326089714980658415@gitolite.kernel.org>
 
---===============1765863292451583491==
+--===============2285100000604821471==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: dborkman
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: f2bb566f5c977ff010baaa9e5e14d9a75b06e5f2
     new: 91a7de85600d5dfa272cea3cef83052e067dc0ab
     log: revlist-f2bb566f5c97-91a7de85600d.txt
 
---===============1765863292451583491==
+--===============2285100000604821471==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -53,4 +53,4 @@ b2d7b6e9e4a8769497c1ae5bc13179e9b0a79bb9 Merge branch 'net-pcs-altera-tse-simpli
 5cb0c51fe366cf96b7911d25db3e678401732246 Merge branch 'master' of git://git.kernel.org/pub/scm/linux/kernel/git/klassert/ipsec-next
 91a7de85600d5dfa272cea3cef83052e067dc0ab selftests/net: add csum offload test
 
---===============1765863292451583491==--
+--===============2285100000604821471==--
