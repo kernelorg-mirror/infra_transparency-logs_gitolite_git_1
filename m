@@ -1,46 +1,21 @@
-Content-Type: multipart/mixed; boundary="===============1924715567264138057=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/kernel/pgpkeys
-Date: Wed, 30 Nov 2022 19:44:06 -0000
-Message-Id: <166983744617.8853.3959595449084430381@gitolite.kernel.org>
-
---===============1924715567264138057==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Wed, 30 Nov 2022 19:47:09 -0000
+Message-Id: <166983762936.11547.15301055952157801487@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/kernel/pgpkeys
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
+user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: 0e45189c4b1e1f3eaa4153bafd2e476031074af7
-    new: b7a27fde6db808f1e4aaacc8a15f83d11f7755d4
+  - ref: refs/heads/dev-queue
+    old: da5b9df6ec59ffcc83c09b4fe41dbc2bcf46d1df
+    new: 98aa8cf9c7aeae8b08c03f2cb4bbb4764db9759c
     log: |
-         b7a27fde6db808f1e4aaacc8a15f83d11f7755d4 Update 12C1F01861DE554A (Borislav Petkov)
+         9c22f1da17c3ac906920f14c772bd7deb865e41c ice: Fix deadlock on the rtnl_mutex
+         18b4f283ecb86ce30ae9614243afdf4ba84a9d5a ixgbe: fix pci device refcount leak
+         98aa8cf9c7aeae8b08c03f2cb4bbb4764db9759c ice: xsk: do not use xdp_return_frame() on tx_buf->raw_buf
          
-
---===============1924715567264138057==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher B6C41CE35664996C! 1669837445 -0500
-pushee gitolite.kernel.org:pub/scm/docs/kernel/pgpkeys
-nonce 1669837445-f0d2bdb90cd1db09908be2a4fad8245dfae8e2d2
-
-0e45189c4b1e1f3eaa4153bafd2e476031074af7 b7a27fde6db808f1e4aaacc8a15f83d11f7755d4 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCY4eyhQAKCRC2xBzjVmSZ
-bLQIAQC+k93h783icgaJNMwljrqL4zzywp96meOZyBqVv2mE+gD+K8FPbUcZcJmK
-+ejIfhZ3lGXo1lqbBbORwThr8Cxyswg=
-=Olfn
------END PGP SIGNATURE-----
-
---===============1924715567264138057==--
