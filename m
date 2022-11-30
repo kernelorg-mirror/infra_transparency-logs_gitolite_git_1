@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/efi/efi
-Date: Wed, 30 Nov 2022 23:37:42 -0000
-Message-Id: <166985146268.13482.11756645307811086087@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux
+Date: Wed, 30 Nov 2022 23:41:40 -0000
+Message-Id: <166985170072.16392.18286704765916539529@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/efi/efi
-user: ardb
+repo: pub/scm/linux/kernel/git/shuah/linux
+user: shuah
 changes:
-  - ref: refs/heads/next
-    old: fd70dd59be71f0a830bac2dc9cd27162424a7688
-    new: f2e862b7eae2e43dd6bcb589d43e14fb68013f37
+  - ref: refs/heads/cpupower
+    old: 5975e2558e2dea7ef35fbb1a29613e1c176bd190
+    new: 4680b734e7291cd804c4ea2c377935a2332366b1
     log: |
-         b23aafee106b6ebdc9bcb619b0a5406f3a280e82 efi: vars: prohibit reading random seed variables
-         f2e862b7eae2e43dd6bcb589d43e14fb68013f37 efi: stub: use random seed from EFI variable
+         4680b734e7291cd804c4ea2c377935a2332366b1 cpupower: Add Georgian translation
          
