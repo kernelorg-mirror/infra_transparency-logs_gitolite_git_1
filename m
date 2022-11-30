@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Wed, 30 Nov 2022 18:43:06 -0000
-Message-Id: <166983378677.30335.3994701076845944823@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/crng/random
+Date: Wed, 30 Nov 2022 18:49:53 -0000
+Message-Id: <166983419305.1971.17713292524993347006@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/crng/random
+user: zx2c4
 changes:
-  - ref: refs/heads/alsa-pcm-test-hacks
-    old: aeb2da827986eb67967d4552fe6104d665e7fcc8
-    new: 59c90b93abf35605ebd81ab6a1de5976bd02ab9b
+  - ref: refs/heads/master
+    old: 4b06e006929789be5f8f2f74925498e840202a8c
+    new: feebce11c9af89e16cac256b05a64a35f3be98f4
     log: |
-         59c90b93abf35605ebd81ab6a1de5976bd02ab9b kselftest/alsa: Add more coverage of sample rates and channel counts
+         ae72363962f090fff0caaaebac7239180d510564 random: spread out jitter callback to different CPUs
+         9e8cf63ec2135b5843a8521b2014cb47649e9ad8 random: mix in cycle counter when jitter timer fires
+         feebce11c9af89e16cac256b05a64a35f3be98f4 random: align entropy_timer_state to cache line
          
