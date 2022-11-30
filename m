@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
-Date: Wed, 30 Nov 2022 10:56:49 -0000
-Message-Id: <166980580958.8988.983600620454675914@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/crng/random
+Date: Wed, 30 Nov 2022 11:00:31 -0000
+Message-Id: <166980603168.11894.2805667306857241027@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sudeep.holla/linux
-user: sudeep.holla
+repo: pub/scm/linux/kernel/git/crng/random
+user: zx2c4
 changes:
-  - ref: refs/tags/v6.1-rc7
-    old: 0000000000000000000000000000000000000000
-    new: 1791be4df87a0d69008ba46c5a03be2e4cfbe3d5
+  - ref: refs/heads/vdso
+    old: b8d41a68edbf76e5115674738bf90a70631bf5a3
+    new: b72e564d38796cbbbb51698647486eb0e372f576
+    log: |
+         b72e564d38796cbbbb51698647486eb0e372f576 x86: vdso: Wire up getrandom() vDSO implementation
+         
