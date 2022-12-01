@@ -1,73 +1,92 @@
-Content-Type: multipart/mixed; boundary="===============7894512807473917580=="
+Content-Type: multipart/mixed; boundary="===============8279813663411995015=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/printk/linux
-Date: Thu, 01 Dec 2022 10:06:46 -0000
-Message-Id: <166988920689.22108.13604027381574486599@gitolite.kernel.org>
+Subject: post-receive: pub/scm/git/git
+Date: Thu, 01 Dec 2022 10:13:12 -0000
+Message-Id: <166988959294.25969.2650729108770142014@gitolite.kernel.org>
 
---===============7894512807473917580==
+--===============8279813663411995015==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/printk/linux
-user: pmladek
+repo: pub/scm/git/git
+user: junio
 changes:
-  - ref: refs/heads/for-next
-    old: a04b46d8846f8c92bb7697554609d3ae5bc7efb9
-    new: 789259ec7d3a22d74bd9947f892c2d8d2842c1f9
-    log: revlist-a04b46d8846f-789259ec7d3a.txt
+  - ref: refs/heads/main
+    old: 7452749a781d84244ecd08c6f6ca7e5df67dfce8
+    new: 805265fcf7a737664a8321aaf4a0587b78435184
+    log: |
+         67b36879fc06581131fa7e57c9ee1e560ea9d1fc Makefiles: change search through $(MAKEFLAGS) for GNU make 4.4
+         cddd68ae33667c4bfc81c81f74815bb2ba0e4f3a cocci: avoid "should ... be a metavariable" warnings
+         215ae4f264df28d495fd788b5ac6730f10e9cb4b Merge branch 'ab/gnumake-4.4-fix'
+         805265fcf7a737664a8321aaf4a0587b78435184 Merge branch 'ab/fewer-the-index-macros'
+         
+  - ref: refs/heads/master
+    old: 7452749a781d84244ecd08c6f6ca7e5df67dfce8
+    new: 805265fcf7a737664a8321aaf4a0587b78435184
+    log: |
+         67b36879fc06581131fa7e57c9ee1e560ea9d1fc Makefiles: change search through $(MAKEFLAGS) for GNU make 4.4
+         cddd68ae33667c4bfc81c81f74815bb2ba0e4f3a cocci: avoid "should ... be a metavariable" warnings
+         215ae4f264df28d495fd788b5ac6730f10e9cb4b Merge branch 'ab/gnumake-4.4-fix'
+         805265fcf7a737664a8321aaf4a0587b78435184 Merge branch 'ab/fewer-the-index-macros'
+         
+  - ref: refs/heads/next
+    old: 7b6131f09ff6c3850001c8b5491e8b068703b4e2
+    new: 54fd8350bdd496cc00f47dcf638aba6a72732ffa
+    log: |
+         215ae4f264df28d495fd788b5ac6730f10e9cb4b Merge branch 'ab/gnumake-4.4-fix'
+         805265fcf7a737664a8321aaf4a0587b78435184 Merge branch 'ab/fewer-the-index-macros'
+         54fd8350bdd496cc00f47dcf638aba6a72732ffa Sync with 'master'
+         
+  - ref: refs/heads/seen
+    old: 8efda91a05318fe97a8a2b098e69ad6c7fafaafd
+    new: 0a435c4b159e4858f4e2e24fb4ad32cd0eaa00fd
+    log: revlist-8efda91a0531-0a435c4b159e.txt
 
---===============7894512807473917580==
+--===============8279813663411995015==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a04b46d8846f-789259ec7d3a.txt
+Content-Disposition: attachment; filename=revlist-8efda91a0531-0a435c4b159e.txt
 
-0cd7e350abc40eed5d3b60292dc102f700c88388 rcu: Make SRCU mandatory
-7208bd9c16b924cda3506e771467703f73a99a04 serial: kgdboc: Lock console list in probe function
-acc6f5d96b5057c6b9f2375759bb28baab9bdcd8 printk: Convert console_drivers list to hlist
-43bfaffd4d9bba75598b0026be96bf9e0245c492 printk: Prepare for SRCU console list protection
-3dd103c160a11ada9935e207e20492cd5b5a0cca printk: register_console: use "registered" for variable names
-541519594284a36dc42b6ff26ce83071eee1795f printk: move @seq initialization to helper
-7ebb61f6e1f44bcb382bc088fee9b0df57563640 printk: fix setting first seq for consoles
-8272f971736ec9548571c475d335647d3e359208 um: kmsg_dump: only dump when no output console available
-4961aa6bb0afec27e86cfd926783f328b1500680 tty: serial: kgdboc: document console_lock usage
-213b68c6e5428ab927cfb7180901ae097918b8ca tty: tty_io: document console_lock usage
-cec2e0c21608d4e034f124918447064407934a2d proc: consoles: document console_lock usage
-4bc28eb2d681ed3e8f3c9d0a39f0d4784b36f3e9 printk: introduce console_list_lock
-6b765020014eb8101a8fd75f5fa66441a7b7bb6c console: introduce wrappers to read/write console flags
-3102cf3cdf50541f0bb61f3daa0a4cd78871a45a um: kmsg_dumper: use srcu console list iterator
-49f9e68fdd9539fadcfc12a20dc6ddde6b3e6afd kdb: use srcu console list iterator
-6afff3e485c7da6b174376a5140fe0d4875906a6 printk: console_flush_all: use srcu console list iterator
-e7d7d55eee2106a0eb23a746bc29ddb3c8154b08 printk: __pr_flush: use srcu console list iterator
-566a254ff7027903d93a92a4033494b8c15326da printk: console_is_usable: use console_srcu_read_flags
-35dc1f6ef16dce05814d9ae8285e8a149504847a printk: console_unblank: use srcu console list iterator
-96932ae1656133af66061a924bd82abde9e9c761 printk: console_flush_on_panic: use srcu console list iterator
-01f395e9371745a81f257885482b3ffe5f27cce2 printk: console_device: use srcu console list iterator
-07a93222403e75d32306a7278462c058e9d12cab console: introduce console_is_registered()
-d49347c598d52631435061ae442c83d086e28906 serial_core: replace uart_console_enabled() with uart_console_registered()
-4af6504ea06de494109aeca4f1a674c2e9be56f5 tty: nfcon: use console_is_registered()
-36ebf94fc642d9a646e4e26691305edcdb3c697c efi: earlycon: use console_is_registered()
-8b43f054d9400cacd752c508defe79a9eaf0f1b7 tty: hvc: use console_is_registered()
-fb1e3812a129a2750391e8a4fa52e5b057ec1422 tty: serial: earlycon: use console_is_registered()
-6b99b030e3cea88c24278eafe2df18a3d2ad36c6 tty: serial: pic32_uart: use console_is_registered()
-964d10dc9b1e537c226673676e223dd108cc0422 tty: serial: samsung_tty: use console_is_registered()
-8824c9a301f96ad4da6c55bbd32aa49797fb7919 tty: serial: xilinx_uartps: use console_is_registered()
-53746a1d9b531f140062c5f68460fb6c919dada4 usb: early: xhci-dbc: use console_is_registered()
-6aa35b905edd6ff76a47438ac8567857f8b4f185 netconsole: avoid CON_ENABLED misuse to track registration
-d55cd8e8ce6b4809fda195d0ea6c844cc8ac6827 printk, xen: fbfront: create/use safe function for forcing preferred
-c40b6b6f5f8ee19f5521ed560b3c1f751452d680 tty: tty_io: use console_list_lock for list synchronization
-7d63f8361518ff0800b3ac976bd66cdec1746cfc proc: consoles: use console_list_lock for list iteration
-dfeae5a38c60df905610de82241f1e36cd0ad1de tty: serial: kgdboc: use srcu console list iterator
-eb574708ca4a8df0eb9c1902a742dd4d1521f1ad tty: serial: kgdboc: use console_list_lock for list traversal
-47510748f0b0bdfe15b06b1c4161bb3d79e72ddc tty: serial: kgdboc: synchronize tty_find_polling_driver() and register_console()
-a872d0e36d2b111b7ebbc9fabc374b1d07d1d752 tty: serial: kgdboc: use console_list_lock to trap exit
-7dee58abcaa2248a96cc5e6e35e164aa4a59a3c1 printk: relieve console_lock of list synchronization duties
-ef64e53fc881ef24b018117ef3ca400756a96725 tty: serial: sh-sci: use setup() callback for early console
-df9eae76470ac2153544d3e351141e83d5d8a640 printk: htmldocs: add missing description
-789259ec7d3a22d74bd9947f892c2d8d2842c1f9 Merge branch 'rework/console-list-lock' into for-next
+215ae4f264df28d495fd788b5ac6730f10e9cb4b Merge branch 'ab/gnumake-4.4-fix'
+805265fcf7a737664a8321aaf4a0587b78435184 Merge branch 'ab/fewer-the-index-macros'
+3a2649e392535c0243c62c462208cb145e5c55a6 Merge branch 'ab/cmake-nix-and-ci' into jch
+d4ce7df4dd543fe23a3ee1fb458b33b076ea6c64 Merge branch 'dd/git-bisect-builtin' into jch
+57ad029cbeeb52c0ef089930e9ffd7449bb02488 Merge branch 'ab/submodule-no-abspath' into jch
+3b266d40a39046f78ce4e014305f1209bf792d06 Merge branch 'kz/merge-tree-merge-base' into jch
+24ed959cc75cbcf14c9dbf47b88988eb75661731 Merge branch 'tl/pack-bitmap-absolute-paths' (early part) into jch
+ca816486017f24e7c915d1e9eeed6cb05b21c78b Merge branch 'ab/various-leak-fixes' into jch
+7b04db71dadcd08c3c7969f627c930484cd5be36 Merge branch 'yn/git-jump-emacs' into jch
+687ddb1f69bcc2bbf074e822b5ac4f63bedd35a4 Merge branch 'tl/pack-bitmap-absolute-paths' into jch
+ce70a618efa88992a4c4bdf22ebd832b24acf374 Merge branch 'rs/multi-filter-args' into jch
+c300c4c8d481237bb236a9f60820b2d1c98b2e26 Merge branch 'sa/git-var-empty' into jch
+9b0845654bddf4872a0bc87e604aaf188b2f0701 Merge branch 'jk/avoid-redef-system-functions-2.30' into jch
+5f413c76a2893bb1ff83d7c2b507a9cab30bd585 Merge branch 'jk/avoid-redef-system-functions' into jch
+35eeeda2fd4438063baebdba2c945dacfd85aa71 ### match next
+c37d855bc381f34974fca564e9563e8ecd2cd585 Merge branch 'aw/complete-case-insensitive' into jch
+249ffca9787af648717168b3fe275a2eb8720f72 Merge branch 'ja/worktree-orphan' into jch
+f35f1d1ed9cedf619d2ccfb41af8f78e89c6b90d Merge branch 'ds/packed-refs-v2' into jch
+dce05b71b86ba2ad4e5f89e102f8bb66b6b325d9 Merge branch 'tl/notes--blankline' into jch
+5715a4f8446e7555bb105e2d6abcfe4f4f17f166 Merge branch 'cw/submodule-status-in-parallel' into jch
+87104846ebb774bb5b8299d6eb2eebcc634c9328 Merge branch 'js/drop-mingw-test-cmp' into jch
+7ccd91a809f73b93b74c7bad5188e11fa3a2d778 Merge branch 'ew/format-patch-mboxrd' into jch
+9143d1647855a0408479037c178514cc52f05e67 Merge branch 'rr/status-untracked-advice' into jch
+42846e7311f36fb2d23958a69ddff1f7188726df Merge branch 'tr/am--no-verify' into jch
+e16b7a060e18734dcd020eedff5dade8994aa440 Merge branch 'js/range-diff-mbox' into seen
+dc5d968d30eb52a10f05e7898ebcb922e8953783 Merge branch 'po/pretty-hard-trunc' into seen
+3c5b0cf33523eeee6a3cb33e9c1b987b1280a281 Merge branch 'tb/ci-concurrency' into seen
+dead466de2757e9434aa84e50a5b9ab48cf74f7f Merge branch 'mc/switch-advice' into seen
+33cd85f7586b2ec0efd8e21d9efe56e5526f21fb Merge branch 'ed/fsmonitor-inotify' into seen
+d42ea6fc38238c65069b3ebf1c651e65efe9f938 Merge branch 'rj/branch-copy-and-rename' into seen
+eab97221c57a892798bc6abc7e7ebda9285009e8 Merge branch 'ab/tag-object-type-errors' into seen
+191fc02ade9efc5a368dd9a6d15d0f85f71c9a21 Merge branch 'ab/config-multi-and-nonbool' into seen
+7487c67f226eb7e2c35013ae56da712700eb1293 Merge branch 'jx/t1301-updates' into seen
+6e480fbd71ca5c7ab8beb8fb67aa73ed77c48ce3 Merge branch 'km/send-email-with-v-reroll-count' into seen
+bdaece0a9f9c4d2e232e6c036ea58dca950b261f Merge branch 'cc/filtered-repack' into seen
+0a435c4b159e4858f4e2e24fb4ad32cd0eaa00fd Merge branch 'rs/diff-parseopts' into seen
 
---===============7894512807473917580==--
+--===============8279813663411995015==--
