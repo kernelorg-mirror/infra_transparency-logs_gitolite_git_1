@@ -1,26 +1,34 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
-Date: Thu, 01 Dec 2022 16:51:09 -0000
-Message-Id: <166991346961.19634.2926932358068807691@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-dt
+Date: Thu, 01 Dec 2022 17:06:22 -0000
+Message-Id: <166991438255.30814.4173214674453726642@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kees/linux
-user: kees
+repo: pub/scm/linux/kernel/git/krzk/linux-dt
+user: krzk
 changes:
-  - ref: refs/heads/for-next/kspp
-    old: 9988ca6f23fd770f34f69446eb5b231eb6babd45
-    new: d5908a64318a4d353d3eee07f8670d98a1760319
+  - ref: refs/heads/for-next
+    old: 043d4036e8eebfedc6a6930b802eda134b838420
+    new: 0c2cd289d0bd080493b02d7733225cc5d4a12af0
     log: |
-         38931d8989b5760b0bd17c9ec99e81986258e4cb mm: Make ksize() a reporting-only function
-         25226df4b9be7f6d5d722af5b75e86e76e5c3a80 mm/pgtable: Fix multiple -Wstringop-overflow warnings
-         9360d035a579d95d1e76c471061b9065b18a0eb1 panic: Separate sysctl logic from CONFIG_SMP
-         d4ccd54d28d3c8598e2354acc13e28c060961dbb exit: Put an upper limit on how often we can oops
-         9db89b41117024f80b38b15954017fb293133364 exit: Expose "oops_count" to sysfs
-         34c93735d949e59109f2a9ded9b17589d4250de7 panic: Consolidate open-coded panic_on_warn checks
-         aca948228cdae38ff23f29e9948691984e79612b panic: Introduce warn_limit
-         d5908a64318a4d353d3eee07f8670d98a1760319 panic: Expose "warn_count" to sysfs
+         0cd4cab6ac67b5ae88511b24d6c1a8c0e61f9f76 ARM: dts: logicpd: align LED node names with dtschema
+         95a45c667635d50de9beb3c5f5b3046dfa395bff ARM: dts: omap: align LED node names with dtschema
+         e920bcac0ec64b3010438d38724cefce361f7c3a ARM: dts: omap: echo: use preferred enable-gpios for LP5523 LED
+         37dddd7f7621bd5e0234fb3b8288248f165833b4 ARM: dts: am335x: align LED node names with dtschema
+         91bf30a42b16257f98345c9ba519d72babbbaf8a ARM: dts: sti: align LED node names with dtschema
+         0c2cd289d0bd080493b02d7733225cc5d4a12af0 Merge branch 'next/dt' into for-next
+         
+  - ref: refs/heads/next/dt
+    old: a63ae7db698a58ba9450b24742394c0f16b2899e
+    new: 91bf30a42b16257f98345c9ba519d72babbbaf8a
+    log: |
+         0cd4cab6ac67b5ae88511b24d6c1a8c0e61f9f76 ARM: dts: logicpd: align LED node names with dtschema
+         95a45c667635d50de9beb3c5f5b3046dfa395bff ARM: dts: omap: align LED node names with dtschema
+         e920bcac0ec64b3010438d38724cefce361f7c3a ARM: dts: omap: echo: use preferred enable-gpios for LP5523 LED
+         37dddd7f7621bd5e0234fb3b8288248f165833b4 ARM: dts: am335x: align LED node names with dtschema
+         91bf30a42b16257f98345c9ba519d72babbbaf8a ARM: dts: sti: align LED node names with dtschema
          
