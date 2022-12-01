@@ -1,104 +1,19 @@
-Content-Type: multipart/mixed; boundary="===============1736976800718442832=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Thu, 01 Dec 2022 02:25:52 -0000
-Message-Id: <166986155207.9232.987106721772408792@gitolite.kernel.org>
-
---===============1736976800718442832==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/fio
+Date: Thu, 01 Dec 2022 03:00:06 -0000
+Message-Id: <166986360607.619.2495480461386276961@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/axboe/fio
+user: axboe
 changes:
   - ref: refs/heads/master
-    old: c89c556b165df1606b022a30c5e5f378c1277ca1
-    new: a18962eb0da062d739fdec1ce4219126a97df703
-    log: revlist-c89c556b165d-a18962eb0da0.txt
-
---===============1736976800718442832==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c89c556b165d-a18962eb0da0.txt
-
-7ceb74519d0f1295d172c4ec00fba69797eb4c8f foo
-4e5ed6f5e9f290cc7265d5e4481b85539b7615d9 foo
-0b5f6a1544aa55bd218ce3317ca187270e2b8e7d foo
-338bfee73eee2b3b0c30c609c70692d1148d5860 foo
-c4d712bf98df938eabe2713e1d7e3aa5c8b4c027 foo
-a1341e3372f354b1ad933c6ddd55128cbbc16b35 foo
-5a5b72a69b282b888309e4889a4f477add2a0170 foo
-0add2fb05e36878c50386cfed3677c55894fde04 foo
-5d259ba7726bc8fe04920471db9b1353c9a0ce5a foo
-c5ba3ae4120bc209ee159dd29428bf7accebaedd foo
-71377467579714ccc405c973bc8e4a68cb0906b2 foo
-77e770191e09a470e443932cbd7caa91be62b2af foo
-94d89eefe8660d143695c7f817db489c45abb39d foo
-5773b00fe11ee2244f01bf402b4cb457f3dbd0d2 foo
-229c4daeb9583505b79f07ba37a9b8dc8329f015 foo
-d44662c77ff969e777a4bc98f01e8e6085f9d5cf foo
-274da35d79512e1acb74a0ac49707ad7776ed932 foo
-5decc578d4126f6520f888381ff527dbcf79e0a7 foo
-3cd22e4c74e48de81781b5913f4cd202e198052a foo
-78d3ae0b1549df9480f73c3cf8b2f3e37d1996fe foo
-dd7a3b99ae50eaf28e18395c12c9c4dc0db959e0 foo
-cee40cbdd143e7715b6f7faedf1a21a3a249be0e foo
-3d6382524e6a8b99ac81771e5ad0d9feeeb60ff0 foo
-4c98f0cf7dcf96f36caa798842c0e7d4cd27ec80 foo
-e24314aa13cf0d1276947ea6f854c42371a3d6be foo
-af3b6b8419815649d0fadfe4700b489110da919a foo
-920fe774894039fce51e251e948b0d9e7a3871a6 foo
-af2285e95dde61f5fad2548895b85c5bce1f6423 foo
-73500b48f351d8dbd0da7b26eb86386a5012e571 foo
-31adcb7e56eafd682d844b1ebe7b4e9c8fb5f293 foo
-f89ac626c7319dddf7b600795b8a511b96bf88e6 foo
-4d1ea35ae05da10daa387e4f7f0bdb2411298a34 foo
-0efdfd20f282978169d53f56d1ab32c06581aacb foo
-ec399e68c510b468216ddf87de633cc50c846c09 foo
-313bea21a8f3e385a980f5315c87cb63eb09a0f3 foo
-a2ee3735fd59dffe43945d360bd4ff319639be03 foo
-f632dc7e2c6f00c1c0e88ac9f9d0e73242f6b806 foo
-a105b5cc22fddfc1c4e4f844e36069b9953dd61e foo
-be9dd4afedfc191d6c76377296ecb90981aa1653 foo
-24834daa58d07705d320be42987490ed4bc1f63f foo
-ee1f5613fbae3855a474870990a050f225c3254a foo
-616d4d05e2d992077c09416eb2114edb50bd9da7 foo
-abe96b80901f143c31c28ba051e5ab4e996baadb foo
-d54d864d3e1afa1f70a6f9649358fdfc7e7deec3 foo
-5bf2b571cb967b2fbbc3344be7034a37708c8cf4 foo
-9cd9268e49c5fc5f6ebfb48dbf3622a4b6357608 foo
-b198eaaef4b8ca778cb522782adb5b4e4036f8f2 foo
-76c61ca52ca01258fae8e22711fcf2273ca9cfa7 foo
-55a5749fcd9adfc8928c2edc58cfcad8bc84722c foo
-1a54acbd7e062662181203b23d2bd37d02bc7f46 foo
-84792c416af142b5640ba25fade8a89c39779096 foo
-cede42fcc4b57fa909254a4fc9710cf6fa3efa0b foo
-145236360995ed91671dc3d6a3717352d6527a7a foo
-660f359d1d4f15eb090df6e11034f4ee5a612981 foo
-3f5dad8d809ccdfa24cd109ab25f9f4241634e0f foo
-13aa1bbfe8f6ea854134784e7f470162fe2e83eb foo
-504315911df03ab14196aa626b8fe1eaebf11516 foo
-307acbb6fd2a97105582249b26a0087f2a94f1ac foo
-872e69e8a6592d278e4865f38ef8b1d6eb5b3049 foo
-7ed1fa0dbe65ed4852f931cf57c4eae7ad180cc8 foo
-1c3e5fa97d05bbe2f577d3da04b018490bd66ad8 foo
-800547087de9838c9e02223b0894279d0f20b544 foo
-f4df211dd3c32292f201b3e8559b3faf10645c05 foo
-ed0448e0b2f6a5f38737ca84b9610f5fa3cac5a1 foo
-534485db67ed3db7ce040247d4831f025e771b26 foo
-9d9dc77c8da31105f089f4ba6aee2692bf4a91fa foo
-ba2b7e583480a86827b8e1a6166e62ed778ef2e5 foo
-ae706768689e774eca13f625f0e3c269a8d3e4ab foo
-eb30d6f1570016261419fc26dc5b16116a5412e9 foo
-2c265a4bc474a8b4136a3da3b80f0c7f4ab7ba96 foo
-4a6d1d96f61e359700997d90447dc1fabf4947b4 foo
-a9a2b6925f74769f6b602d9ed9d5e83a6b3db5eb foo
-58c9546677589ea188bb493950e0d37dca810d4c foo
-a18962eb0da062d739fdec1ce4219126a97df703 foo
-
---===============1736976800718442832==--
+    old: 967c5441fa3d3932ec50ea5623411cc6e8589463
+    new: 6d8fe6e847bb43cf7db5eee4cf58fd490f12be47
+    log: |
+         6d8fe6e847bb43cf7db5eee4cf58fd490f12be47 backend: respect return value of init_io_u_buffers
+         
