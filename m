@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6243848044071793875=="
+Content-Type: multipart/mixed; boundary="===============5787021192226849658=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Thu, 01 Dec 2022 12:52:59 -0000
-Message-Id: <166989917902.10361.4997981790443883484@gitolite.kernel.org>
+Date: Thu, 01 Dec 2022 12:56:27 -0000
+Message-Id: <166989938744.14534.6057588106723756544@gitolite.kernel.org>
 
---===============6243848044071793875==
+--===============5787021192226849658==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: d4402452a67f5f267547e186b1535fc1bdbf1099
-    new: 4eaa50ff2735d2e8168157c955fafd84f8d1f314
+    old: 4eaa50ff2735d2e8168157c955fafd84f8d1f314
+    new: a88190400a380d225585e74ae9e3f0a93b73edac
     log: |
-         4eaa50ff2735d2e8168157c955fafd84f8d1f314 fix up some asoc deps for 6.0
+         a88190400a380d225585e74ae9e3f0a93b73edac remove some unneeded deps for mtk_eth_soc driver for 6.0
          
 
---===============6243848044071793875==
+--===============5787021192226849658==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1669899178 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1669899386 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1669899176-cc1edc5f6a517812f72a741abcc8feead7773876
+nonce 1669899385-8853e38d540c22a4fff95fb5f140e521e9ea387f
 
-d4402452a67f5f267547e186b1535fc1bdbf1099 4eaa50ff2735d2e8168157c955fafd84f8d1f314 refs/heads/master
+4eaa50ff2735d2e8168157c955fafd84f8d1f314 a88190400a380d225585e74ae9e3f0a93b73edac refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmOIo6obHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+F1gP/08BpyTbQ/KY9+IhQtwM
-t32jxilQc+AKqGeG1qyyt9Wtj1eGpDaPmsXQEnsFlN3Fo0Jcf+FReH7D31/PcxIH
-vc015w/deX6li3WMh7Y6Tz2NTouHOX1PNldIAGLsgAeWAEJvWMf8VsWnhCb3FvEo
-pcIeF7Tsc0Z1ctsotHHOmDHPyQJLUKebSayl93R0MN/ZvasgXCknk8UaezIVR+Fv
-vHifbkAyVh8W5Yr4kk1XsXKTQ6CbizA1F+huu8rvVKTsigkKzbL7ExYDZf6Uvmnb
-QFxA5qEcZwXEDvrQEGtYUEyBItbAmr/9tQFDB6Ra9McrxjXr3DliSLTml5rr0wpX
-x1zT9fXazSEggfRL4OgtMCFcX5eQWc38Cj+MsinVUa4VMVAdcUGhonKpt7/twO4f
-HcAfLHQKTDTC3HlpLVKqk/ZtgvesYSx7TKbutw0wrthdCl//kqQlJSUvLBf1M3yh
-QPMAW+LssqoMEpmzb2c5EFMOj1dHhIn0XBtYKMwjtwTYk19UvInjpyPfuBA8ntju
-ukq/MjkHEdBMZz+lw7erghHcGXRiuR5G9+AfERWy7eh7Rad+wMccIVvukzn5TCLd
-3yyFsIvgn+cIDKDRSkqG8RqZ/yJ1ScfFTnnzYvb+v4YEEmxhs/nIRkaG1jl/RBcO
-4qO0OMknIs6WuiPuJ5ZEv1AE
-=EI2x
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmOIpHobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+LCQP/3SRXOqIvV0bZkKM293y
+pI33T8I5ctgnpRvvMFqy6F11pQGaQamQEXgHPwIZDUx8xnC86WzEEwKR47DXfvs/
+lrDEkaJU8tRBpyyaLz1fA0vZ/Wvx+Eq/ONOnuKVk/REUtZUWbEkCW420VslqxZu/
+nial5uHYCj1BWcwJmDD0ms6rs3ylZE11/DJZ7qDdM8GGrW46MdY0vh1upJXsyCuw
+r0zBOIG7yk4gXAdrY5C8HezKt24s9Xv8dIFNY5eQ9Nn4oDqcDvF8DWSt+8QUpNLi
+mnrNRT9j0a2ZwoX3TBE+Gavxt+tDup9qTwDVfMWCUl35JYClL/0y5KKo5phwuQqu
+6oXApRjiJTmNtqQOLx6odVgqcy4hr8knh4w4Q6uCZ2SAFeJJFrOiNKaErqwbA4F2
+qEQYpxNRus8sJxFflUT++hxafLhRYw6jINpOFZl/SF0rayO9+OQGS1FFNcurHKn9
+BlrPKnOg/4moFVewavXowktzcb/AYhSO8iI4d+7tel1T3cI7M02zPSaY7K7Zl0MT
+Zl9h0kwPTbddUFEtZD9wY71OPp54H/ut4+9dsbvkez/RN+Z+UyJgsunIEfgF6hVC
+s3sa6fXJX+kBYfvEll9ynYJ+gb0ctfVDnnIzWqfhtrJLXTbGlHJKcMWAkCebB0XP
++YGDpTWSvVcbPYAsJdRS5syw
+=ohot
 -----END PGP SIGNATURE-----
 
---===============6243848044071793875==--
+--===============5787021192226849658==--
