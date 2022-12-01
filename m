@@ -1,42 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============5689683466790871155=="
+Content-Type: multipart/mixed; boundary="===============2114141098516564164=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Thu, 01 Dec 2022 04:48:30 -0000
-Message-Id: <166987011057.11099.2136898356688820057@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Thu, 01 Dec 2022 04:48:40 -0000
+Message-Id: <166987012072.11232.9216040359675990911@gitolite.kernel.org>
 
---===============5689683466790871155==
+--===============2114141098516564164==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
   - ref: refs/heads/master
     old: 700e0cd3a5ce6a2cb90d9a2aab729b52f092a7d6
     new: 2934ceb4e967b9233d0f97732e47175574a11406
     log: revlist-700e0cd3a5ce-2934ceb4e967.txt
-  - ref: refs/heads/stable
-    old: 01f856ae6d0ca5ad0505b79bf2d22d7ca439b2a1
-    new: ef4d3ea40565a781c25847e9cb96c1bd9f462bc6
-    log: |
-         04aa64375f48a5d430b5550d9271f8428883e550 drm/i915: fix TLB invalidation for Gen12 video and compute engines
-         ef4d3ea40565a781c25847e9cb96c1bd9f462bc6 afs: Fix server->active leak in afs_put_server
-         
-  - ref: refs/tags/next-20220831
-    old: fa8699e2a239ca7885d81e245b8bc7daccfced64
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/next-20220901
-    old: b0389550312ecbc9ae8d01ac546f2c6ec4ddd1c6
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20221201
     old: 0000000000000000000000000000000000000000
     new: 82e0cc2186cca91138e51c89860b55e68421c4d1
 
---===============5689683466790871155==
+--===============2114141098516564164==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1055,4 +1042,4 @@ a9ac09f25593044653948ef93332fdc9a230e0c3 Merge branch 'mm-stable' of git://git.k
 1e8901d387fc56fecfeb7b14dd3bc21659d3a33a Merge branch 'mm-everything' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 2934ceb4e967b9233d0f97732e47175574a11406 Add linux-next specific files for 20221201
 
---===============5689683466790871155==--
+--===============2114141098516564164==--
