@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9097000990346276128=="
+Content-Type: multipart/mixed; boundary="===============2044353572586821294=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Thu, 01 Dec 2022 12:32:44 -0000
-Message-Id: <166989796499.28351.4589067393183575857@gitolite.kernel.org>
+Date: Thu, 01 Dec 2022 12:33:02 -0000
+Message-Id: <166989798218.28537.6339258952714770301@gitolite.kernel.org>
 
---===============9097000990346276128==
+--===============2044353572586821294==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jejb/scsi
 user: jejb
 changes:
-  - ref: refs/heads/misc
-    old: 689d94ec208cfdf95101d99319cb4bdc5f55774d
-    new: 4e80eef45ad775a54fb06a66bf8267a154781ce5
-    log: revlist-689d94ec208c-4e80eef45ad7.txt
+  - ref: refs/heads/for-next
+    old: 0cfd1fc5a3477d8361b832d9f0b216b1e02f8ac0
+    new: a8e23ee4dedca277594e58bfec48b8b433518257
+    log: revlist-0cfd1fc5a347-a8e23ee4dedc.txt
 
---===============9097000990346276128==
+--===============2044353572586821294==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-689d94ec208c-4e80eef45ad7.txt
+Content-Disposition: attachment; filename=revlist-0cfd1fc5a347-a8e23ee4dedc.txt
 
 fec1b2fa62c162d03f5dcd7b03e3c89d3116d49f scsi: target: iscsi: Fix a race condition between login_work and the login thread
 a72629b5cdbc43e28a4a19b0fce8d17c582c4db4 scsi: target: core: Fix hard lockup when executing a compare-and-write command
@@ -64,5 +64,6 @@ d29c32efebf3f10b25e9f88ac75c962e7259412d scsi: ufs: ufs-mediatek: Remove unneces
 425b27a04dd8b2f5abaf8023166071b8342dc079 scsi: core: Use SCSI_SCAN_INITIAL in do_scsi_scan_host()
 76dc609556c699676776d53222d342276afd0442 scsi: megaraid_sas: Fix some spelling mistakes in comment
 4e80eef45ad775a54fb06a66bf8267a154781ce5 scsi: sg: Fix get_user() in call sg_scsi_ioctl()
+a8e23ee4dedca277594e58bfec48b8b433518257 Merge branch 'misc' into for-next
 
---===============9097000990346276128==--
+--===============2044353572586821294==--
