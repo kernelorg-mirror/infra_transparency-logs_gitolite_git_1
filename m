@@ -1,21 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cxl/cxl
-Date: Thu, 01 Dec 2022 21:32:48 -0000
-Message-Id: <166993036861.26806.14582448387205850188@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jejb/openssl_tpm2_engine
+Date: Thu, 01 Dec 2022 21:38:08 -0000
+Message-Id: <166993068835.30170.7898787986912504359@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cxl/cxl
-user: djbw
+repo: pub/scm/linux/kernel/git/jejb/openssl_tpm2_engine
+user: jejb
 changes:
-  - ref: refs/heads/for-6.2/cxl-rch
-    old: 1e0bf97d1e8a857787c172d2889ae7374ddbda0f
-    new: d8830bcf806092b93c45585c7020aff5a57a8d45
+  - ref: refs/heads/next
+    old: dadcf77a61f6e140273d8510044bd6b71507dfb2
+    new: 3ab84464216227239c2500f4053f43ebd5dd6b66
     log: |
-         6ef775fd77bc452d2b00805af9510361ae0860d8 cxl/port: Add RCD endpoint port enumeration
-         c87c1b31f4ce2b09433a99aff86eebf35ac6d15b tools/testing/cxl: Add an RCH topology
-         d8830bcf806092b93c45585c7020aff5a57a8d45 cxl/acpi: Set ACPI's CXL _OSC to indicate RCD mode support
+         b75b7d23351d3efb62317521fbbdf9177bacf1d4 Version 3.1.1
+         b29730578bc1cf072953e4ace0492d916588eaeb create_tpm2_key: fix uninitialized data problem
+         3ab84464216227239c2500f4053f43ebd5dd6b66 unseal_tpm2_key: fix seg fault if key unsealing fails
          
