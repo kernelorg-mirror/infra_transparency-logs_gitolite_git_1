@@ -1,46 +1,21 @@
-Content-Type: multipart/mixed; boundary="===============3278346260839886787=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/b4/b4
-Date: Thu, 01 Dec 2022 21:23:51 -0000
-Message-Id: <166992983139.18874.16690909517516230861@gitolite.kernel.org>
-
---===============3278346260839886787==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/cxl/cxl
+Date: Thu, 01 Dec 2022 21:32:48 -0000
+Message-Id: <166993036861.26806.14582448387205850188@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/b4/b4
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/cxl/cxl
+user: djbw
 changes:
-  - ref: refs/heads/master
-    old: e86711c135631c1e4fb2f0913011eaa715172153
-    new: 50ba3cc3da02fcccef71fe936e0cc4dd110c0673
+  - ref: refs/heads/for-6.2/cxl-rch
+    old: 1e0bf97d1e8a857787c172d2889ae7374ddbda0f
+    new: d8830bcf806092b93c45585c7020aff5a57a8d45
     log: |
-         50ba3cc3da02fcccef71fe936e0cc4dd110c0673 b4: patatt: Update patatt from 0.6.0 => 0.6.2
+         6ef775fd77bc452d2b00805af9510361ae0860d8 cxl/port: Add RCD endpoint port enumeration
+         c87c1b31f4ce2b09433a99aff86eebf35ac6d15b tools/testing/cxl: Add an RCH topology
+         d8830bcf806092b93c45585c7020aff5a57a8d45 cxl/acpi: Set ACPI's CXL _OSC to indicate RCD mode support
          
-
---===============3278346260839886787==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher B6C41CE35664996C! 1669929831 -0500
-pushee gitolite.kernel.org:pub/scm/utils/b4/b4
-nonce 1669929831-758b0a2759ea114ddc532a546d620bc2802a6f4f
-
-e86711c135631c1e4fb2f0913011eaa715172153 50ba3cc3da02fcccef71fe936e0cc4dd110c0673 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCY4kbZwAKCRC2xBzjVmSZ
-bLAPAP9P2LFIr7ZubFq5LDQE00ZJZiZpqjCGrFwrWyM91SWyIQEA+L6WCip3zv6/
-AqxSlHFOM17mP9RjhBSTaqBSJnb42wQ=
-=4yKM
------END PGP SIGNATURE-----
-
---===============3278346260839886787==--
