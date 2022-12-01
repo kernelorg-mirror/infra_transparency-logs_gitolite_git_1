@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3234386673352587129=="
+Content-Type: multipart/mixed; boundary="===============6171453958669008962=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Thu, 01 Dec 2022 03:42:50 -0000
-Message-Id: <166986617067.29154.16412558995978689263@gitolite.kernel.org>
+Date: Thu, 01 Dec 2022 03:43:04 -0000
+Message-Id: <166986618488.29324.6417412542807990006@gitolite.kernel.org>
 
---===============3234386673352587129==
+--===============6171453958669008962==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-queue
-    old: 1cf327608a9f536fc2efa58cb4e2835ade580724
-    new: 12513a410b8b1403f9dfb4078585f3103cc28411
-    log: revlist-1cf327608a9f-12513a410b8b.txt
+  - ref: refs/heads/6.2/scsi-queue
+    old: 689d94ec208cfdf95101d99319cb4bdc5f55774d
+    new: 4e80eef45ad775a54fb06a66bf8267a154781ce5
+    log: revlist-689d94ec208c-4e80eef45ad7.txt
 
---===============3234386673352587129==
+--===============6171453958669008962==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1669866160 -0500
+pusher 75C5DE3D 1669866174 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1669866159-6051d194769d73b83d4c011133ed44d6cb754050
+nonce 1669866174-16afe74ef301f52783e40583101161268e5c27fd
 
-1cf327608a9f536fc2efa58cb4e2835ade580724 12513a410b8b1403f9dfb4078585f3103cc28411 refs/tags/mkp-scsi-queue
+689d94ec208cfdf95101d99319cb4bdc5f55774d 4e80eef45ad775a54fb06a66bf8267a154781ce5 refs/heads/6.2/scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmOIIrAACgkQ7ulgGnXF
-3j1cABAAnWC4ziTUN87Zosld0V/yE2wEDKT5wz0ivgd+ey15VbScvOoGm9Hf/Dzu
-vY+oFIOtEUqaOH4cg4RQyprYOTZJf51brkiZpb00pxVjxBLU/KuJOuo6OTzhrXTi
-RWUaHKz0UcXx65r5yCJqxpUjrva2xcUKn7N8FFcoVsYvNUkQHDwXgfIM67ZcFGVM
-lRgUuLEyAxAphDU6LFaYm0oW9G9dN+CVKRILFADTXe/c3kwoyG/ki/cURRMC4QSq
-TjMf4aSeHrCg2qy5KhG75kZ1ZwTcCoWsKUNQRB3z5w1nEitii3NzpATldEPNWDAD
-wHmuvVcjyJ4ru4EcE+MaeSP9zLsVOgDYKf4as/XJsWFuYe3ZLtOVtRsV2u1jVMN5
-Qpl3DG0FNz1ZaHX69J5lPsY09Qjt+9FxaeEd+ipsYJbjH53/JL5h0z7TT4RG84xY
-sUAO0j6NnuRIu0KIQH6frVJSuAYSlBTgl/RlI1xqcvARXKOi7tbl5IHzQIwjUhMF
-CJzhYEt2f1McvXTABgDAa9qyd8uYOYnyoCXts8Uyz9MF1mFo3wmOagAiTe7KZMsI
-P550ROtKzyg2XmS+6zv6v6dNdrilQ7MyapuwUGe2cIp/jMUIBbztC2Fz7RqV56pT
-n/CglZ+Oo2q0zNOKdtspZ6Rq+A1yd+SMkcGo5C4dN+aWdbXflfA=
-=aZqF
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmOIIr8ACgkQ7ulgGnXF
+3j2k9hAAobiXj5JxrnluXKpIHbJQl3FvaYUZE61JUCtxZRTyhg+0t2/EvVjrF8bR
+W1AJX9SjzeOLuwt+Im0mnf3RIzGzDlwD71In/swiu/dfGSmcFNJIf+0jzSDjvq6K
+VcOEeBJohGMfRP7JNv49dmVIiv04BFEzfRi/q2bcSslQdOrAWZWBoxSg2yBjWZfa
+rLpQ8KFL7OfyUboeAIUwX4jCo1/yVYzePsizb8ofLKRWuLB2SqCEOleRFbZ/x2S8
+PJESnMariCnU0aQj4yWjtkzqJWWUC/2Kof6YNRnMEgjT12MyLtFBfy9/HxNiBxVe
+NKx3/MXmogw9mEh8r9JKNNnOunVSbocs+6QDu2F2DMzfkQzBPAcwFrx0mTuHm2ha
+cZ/7qflp35A3b7p7QfmYqx6hn5hOD3Zqtex3U2F+OZChN1ns+uoEyMj9oHUNSyYK
+fR6h9m30q513yJ00sHPe4eJu3U/6RHrE+D92x1h/WC/tn1BnVPeuMTu2goKkQqxG
+108bWRAc40lgTLgzMQX6fGABSgqq1/WM1BvQlYc0KR0qztixnu5ERH5QKXy/bZlZ
+41TdSmiZX78KjlgHEyk1Gc7hgIWKsIVz6UoQS1G2XW4fRALE/lmoqseIXvvVBLyC
+UIGsCIzSqxK85hNS4HbVXVFh6u6RNfZ1FWmvymkT42u00fBxDio=
+=+qLm
 -----END PGP SIGNATURE-----
 
---===============3234386673352587129==
+--===============6171453958669008962==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1cf327608a9f-12513a410b8b.txt
+Content-Disposition: attachment; filename=revlist-689d94ec208c-4e80eef45ad7.txt
 
 fec1b2fa62c162d03f5dcd7b03e3c89d3116d49f scsi: target: iscsi: Fix a race condition between login_work and the login thread
 a72629b5cdbc43e28a4a19b0fce8d17c582c4db4 scsi: target: core: Fix hard lockup when executing a compare-and-write command
@@ -95,4 +95,4 @@ d29c32efebf3f10b25e9f88ac75c962e7259412d scsi: ufs: ufs-mediatek: Remove unneces
 76dc609556c699676776d53222d342276afd0442 scsi: megaraid_sas: Fix some spelling mistakes in comment
 4e80eef45ad775a54fb06a66bf8267a154781ce5 scsi: sg: Fix get_user() in call sg_scsi_ioctl()
 
---===============3234386673352587129==--
+--===============6171453958669008962==--
