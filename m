@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gfs2/linux-gfs2
-Date: Thu, 01 Dec 2022 18:10:15 -0000
-Message-Id: <166991821504.12268.18437781345129141422@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/crng/random
+Date: Thu, 01 Dec 2022 18:13:08 -0000
+Message-Id: <166991838849.13333.16531211351347106461@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gfs2/linux-gfs2
-user: agruen
+repo: pub/scm/linux/kernel/git/crng/random
+user: zx2c4
 changes:
-  - ref: refs/heads/iomap-folio-ops
-    old: 3f1b352980f812d5c22a074a8efecd6b0b97da15
-    new: b96b54e31fc7abebf76e518a87f84b3f3c8b47af
+  - ref: refs/heads/vdso
+    old: 6a9d06f266dae19f9f2a2e1e1ae010a4376596a5
+    new: 788ae70b28a8d2b26aa62834902cdffd7c12796f
     log: |
-         e1375a1a146007bfa934c319c4fe7cda0bdb5ec5 fs: Add folio_may_straddle_isize helper
-         75c8d9b53f42b9f8eff5963be86c87735539b80b iomap: Turn iomap_page_ops into iomap_folio_ops
-         b96b54e31fc7abebf76e518a87f84b3f3c8b47af gfs2: Fix race between shrinker and gfs2_iomap_folio_done
+         c7986e636f5a644126e52b3475eeea5fd672bedc random: introduce generic vDSO getrandom() implementation
+         788ae70b28a8d2b26aa62834902cdffd7c12796f x86: vdso: Wire up getrandom() vDSO implementation
          
