@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Thu, 01 Dec 2022 13:23:58 -0000
-Message-Id: <166990103864.977.4916253585637423521@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Thu, 01 Dec 2022 13:24:13 -0000
+Message-Id: <166990105323.1189.16702594209869082782@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/regulator
 user: broonie
 changes:
   - ref: refs/heads/for-next
-    old: c1dd6bf6199752890d8c59d895dd45094da51d1f
-    new: 969357ec94e670571d6593f2a93aba25e4577d4f
+    old: 086e010f611eef504e10df906577f95b305047c6
+    new: b9e820a1bc99e82144d4210ed25908934185df25
     log: |
-         969357ec94e670571d6593f2a93aba25e4577d4f ASoC: da7219: Fix pole orientation detection on OMTP headsets when playing music
+         0591b14ce0398125439c759f889647369aa616a0 regulator: core: fix use_count leakage when handling boot-on
+         b9e820a1bc99e82144d4210ed25908934185df25 Merge remote-tracking branch 'regulator/for-6.2' into regulator-next
          
