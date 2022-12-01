@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Thu, 01 Dec 2022 00:08:08 -0000
-Message-Id: <166985328851.2502.6317118026250241595@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Thu, 01 Dec 2022 00:10:25 -0000
+Message-Id: <166985342524.4859.724391735796349815@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: dborkman
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/for-next
-    old: c67cae551f0df80421b5703ee56ff5e2fe9c4de6
-    new: 89903dcb3c2e134fb101de7921a19dd9f8418b4c
+  - ref: refs/heads/dev
+    old: fad82848ea2dc1379869def39a6b105301583b1a
+    new: 033ddc5d337984e20b9d49c8af4faa4689727626
     log: |
-         7a9841ca025275b5b0edfb0b618934abb6ceec15 bpf, sockmap: Fix repeated calls to sock_put() when msg has more_data
-         a351d6087bf7d3d8440d58d3bf244ec64b89394a bpf, sockmap: Fix missing BPF_F_INGRESS flag when using apply_bytes
-         9072931f020bfd907d6d89ee21ff1481cd78b407 bpf, sockmap: Fix data loss caused by using apply_bytes on ingress redirect
-         89903dcb3c2e134fb101de7921a19dd9f8418b4c selftests/bpf: Add ingress tests for txmsg with apply_bytes
+         033ddc5d337984e20b9d49c8af4faa4689727626 rcu-tasks: Make rude RCU-Tasks work well with CPU hotplug
          
