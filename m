@@ -1,27 +1,42 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jejb/openssl_tpm2_engine
-Date: Fri, 02 Dec 2022 20:55:58 -0000
-Message-Id: <167001455835.30992.17223387170035479249@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============1889224758902054530=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
+Date: Fri, 02 Dec 2022 20:57:34 -0000
+Message-Id: <167001465438.31630.1764156007831865503@gitolite.kernel.org>
+
+--===============1889224758902054530==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jejb/openssl_tpm2_engine
-user: jejb
+repo: pub/scm/linux/kernel/git/qcom/linux
+user: andersson
 changes:
-  - ref: refs/heads/next
-    old: 3ab84464216227239c2500f4053f43ebd5dd6b66
-    new: d9940336e3c5bb14e68ee52595a76d51d12cd7d8
-    log: |
-         f0c9d175a33fea175f2e6b5bf237f82c6b75fdab Version 3.1.2
-         0b986c468b0e03b756f6eda24de6542a64731b96 tpm2-common: move public key conversion and name algorithm to common
-         e520660827cf2e9468cf3a34af840c06d5dd710f tpm2-common, tpm2-asn: add new opt for authorized policies
-         a50100d8d3498144c2cbd7d509fcc5c995169701 create_tpm2_key, seal_tpm2_data: add option to create signed policy
-         6f6c425b06a5f29255b84dfcfdf76fb4553b37d1 TSS: add functions to support PolicyAuthorize
-         f0d3bdc9b754a84fa13f58e31cdcf0ceae60b4c3 tpm2-common.c: add processing of signed policy authorizations
-         4f34f89fd7646f2ee81a64792ec308775bb63847 signed_tpm2_policy: add new command for manipulating signed policies
-         e81316ba540aee79b84aa17f3f1bdf1f5b494ceb tests: add tests for signed policies
-         d9940336e3c5bb14e68ee52595a76d51d12cd7d8 doc: update draft RFC with signed policy
-         
+  - ref: refs/heads/clk-for-6.2
+    old: 955f2ea3b9e94d0fa20ce3a78ef3063923d41b58
+    new: ec304d02b988132ac037c5b41fe375950c55de87
+    log: revlist-955f2ea3b9e9-ec304d02b988.txt
+
+--===============1889224758902054530==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-955f2ea3b9e9-ec304d02b988.txt
+
+fbd5a2cbdab5fe7678a823209c76bf9f876f1448 clk: qcom: rpm: remove unused active-only clock names
+35a57cdae7433e1aab1a8c0e06197d368bc4de8a clk: qcom: rpm: drop separate active-only names
+e9bf411a5deeb86379ca94bdb64067656ae5e138 clk: qcom: rpm: drop the _clk suffix completely
+3de1c1fd6189c64e6e026780bb244f878fdb0a23 clk: qcom: rpm: drop the platform from clock definitions
+82349cc0d1f70df9436da2f565ec10aadf1c3680 clk: qcom: rpmh: group clock definitions together
+65b0c564a34f38832b25b0f5769e9cdf9e5faefd clk: qcom: rpmh: reuse common duplicate clocks
+012c226fc68afe32acd7da01a0c2d2e483143bd4 clk: qcom: rpmh: drop all _ao names
+fe20294f4b7b180acc1ab7dcb7feff8601c76d7d clk: qcom: rpmh: remove platform names from BCM clocks
+49e4aa233c6c239f814e8872d6757455e49e8106 clk: qcom: rpmh: support separate symbol name for the RPMH clocks
+166eb3eb3bb394255a9a8aa4cadbba5567ba184a clk: qcom: rpmh: rename ARC clock data
+6ad844d739ee57779d3814fe3c9f97dff68719b2 clk: qcom: rpmh: rename VRM clock data
+ec304d02b988132ac037c5b41fe375950c55de87 clk: qcom: rpmh: remove usage of platform name
+
+--===============1889224758902054530==--
