@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
-Date: Fri, 02 Dec 2022 21:11:50 -0000
-Message-Id: <167001551071.9583.8376457794036159200@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+Date: Fri, 02 Dec 2022 21:19:58 -0000
+Message-Id: <167001599832.13980.13240129054296957447@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/palmer/linux
-user: palmer
+repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+user: vudentz
 changes:
-  - ref: refs/heads/for-next
-    old: d8bf77a1dc3079692f54be3087a5fd16d90027b0
-    new: b57c2f124098459a4acc15d5044f87cba31c87f0
+  - ref: refs/heads/master
+    old: 63d70ae785a9654e3e2db6c7ed55631705d99b75
+    new: dbd24be484227fe64615fc6c01fa9cf6de0455ac
     log: |
-         b57c2f124098459a4acc15d5044f87cba31c87f0 riscv: add riscv rethook implementation
+         dbd24be484227fe64615fc6c01fa9cf6de0455ac Bluetooth: Fix crash when replugging CSR fake controllers
          
