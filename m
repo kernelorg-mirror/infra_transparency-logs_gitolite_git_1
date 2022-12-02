@@ -1,26 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvalo/ath
-Date: Fri, 02 Dec 2022 21:36:48 -0000
-Message-Id: <167001700889.27549.1968796499216567828@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/fio
+Date: Fri, 02 Dec 2022 21:40:05 -0000
+Message-Id: <167001720558.30270.15167947372687583679@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvalo/ath
-user: kvalo
+repo: pub/scm/linux/kernel/git/axboe/fio
+user: axboe
 changes:
-  - ref: refs/heads/ath-next
-    old: d889913205cf7ebda905b1e62c5867ed4e39f6c2
-    new: e44de90453bb2b46a523df78c39eb896bab35dcd
+  - ref: refs/heads/master
+    old: 942d66c85ee8f007ea5f1097d097cf9a44b662a0
+    new: 3afc2d8ac30c58372a1b7ccabaea0f3eae4ddaba
     log: |
-         e44de90453bb2b46a523df78c39eb896bab35dcd wifi: ath11k: Fix race condition with struct htt_ppdu_stats_info
-         
-  - ref: refs/heads/ath-qca
-    old: 245927cb443050dd693ff26528d1e76a958cc7c2
-    new: a0196c72096ca08ede797ebaa8ed18d3b8f5cb69
-    log: |
-         e44de90453bb2b46a523df78c39eb896bab35dcd wifi: ath11k: Fix race condition with struct htt_ppdu_stats_info
-         a0196c72096ca08ede797ebaa8ed18d3b8f5cb69 Merge branch 'ath-next' into ath-qca
+         a601337a4d7b6dfc36677600d8d38948f2928d03 Add a libblkio engine
+         f2bcd554791ca002b90a9c202838ab04af0054e9 Add engine flag FIO_SKIPPABLE_IOMEM_ALLOC
+         ef9b6f2fa7a285527ae2413affb7112b74e27f77 engines/libblkio: Allow setting option mem/iomem
+         a870d6ff25d7d453891763a83f5f297df653ac38 engines/libblkio: Add support for poll queues
+         6dd4291cea1f2502f783d1f4a7cca48466b16f49 engines/libblkio: Add option libblkio_vectored
+         464981ffb495b46abe0532a733f47b9ca2e0d127 engines/libblkio: Add option libblkio_write_zeroes_on_trim
+         b158577d787beaa6d098be3f180f947f7ad80b22 engines/libblkio: Add option libblkio_wait_mode
+         b1bd09b593ddd4043c6217321c7135c0c580edc0 engines/libblkio: Add option libblkio_force_enable_completion_eventfd
+         13fffdfbe3de66c368fe9d6bfaf61950f7f08857 engines/libblkio: Add options for some driver-specific properties
+         3afc2d8ac30c58372a1b7ccabaea0f3eae4ddaba engines/libblkio: Share a single blkio instance among threads in same process
          
