@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vkoul/dmaengine
-Date: Fri, 02 Dec 2022 11:42:10 -0000
-Message-Id: <166998133058.26219.16253235069918302345@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Fri, 02 Dec 2022 11:43:53 -0000
+Message-Id: <166998143302.26876.10053243428719303688@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vkoul/dmaengine
-user: vkoul
+repo: pub/scm/linux/kernel/git/tip/tip
+user: tglx
 changes:
-  - ref: refs/heads/next
-    old: 3a0c95b61385f583424f44e79c15f1bdf050776d
-    new: 25483dedd2f5d9bc6928cd790ee59772fb880a79
+  - ref: refs/heads/smp/core
+    old: f4576ee2315f1ad5f147a356c6e5c223462fd599
+    new: 6f855b39e4602b6b42a8e5cbcfefb8a1b8b5f0be
     log: |
-         25483dedd2f5d9bc6928cd790ee59772fb880a79 dmaengine: Revert "dmaengine: remove s3c24xx driver"
+         64ea6e44f85b9b75925ebe1ba0e6e8430cc4e06f cpu/hotplug: Make target_store() a nop when target == state
+         d385febc9a19635d4ef197bfad3e84729002f57c cpu/hotplug: Set cpuhp target for boot cpu
+         6f855b39e4602b6b42a8e5cbcfefb8a1b8b5f0be cpu/hotplug: Do not bail-out in DYING/STARTING sections
          
