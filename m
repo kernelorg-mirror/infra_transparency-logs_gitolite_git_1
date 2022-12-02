@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============2562599300207444845=="
+Content-Type: multipart/mixed; boundary="===============8089314924232531569=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Fri, 02 Dec 2022 13:53:32 -0000
-Message-Id: <166998921242.20834.15119028409260851946@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Fri, 02 Dec 2022 13:53:38 -0000
+Message-Id: <166998921886.20938.317906652997854897@gitolite.kernel.org>
 
---===============2562599300207444845==
+--===============8089314924232531569==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.2
+  - ref: refs/heads/regulator-6.2
     old: ba62319a42c50e6254e98b3f316464fac8e77968
     new: 1d2633848e742be3e4dc2a7c064088a18b4756d8
     log: |
@@ -25,28 +25,28 @@ changes:
          1d2633848e742be3e4dc2a7c064088a18b4756d8 Add MediaTek MT6357 PMIC support
          
 
---===============2562599300207444845==
+--===============8089314924232531569==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1669989211 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
-nonce 1669989210-9389beb9a9f967f11aaf721996926281a317c1df
+pusher C3F436CA30F5D8EB 1669989217 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1669989216-6cde87ec6f2b7cf276eac9b21942c7365fd1d885
 
-ba62319a42c50e6254e98b3f316464fac8e77968 1d2633848e742be3e4dc2a7c064088a18b4756d8 refs/heads/for-6.2
+ba62319a42c50e6254e98b3f316464fac8e77968 1d2633848e742be3e4dc2a7c064088a18b4756d8 refs/heads/regulator-6.2
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmOKA1sACgkQJNaLcl1U
-h9CUHgf6A5nPK7EI2HzYtCewm2fTtv14zrLYGXbLQ1Nl3H0QPEAXbcdYCusxGuis
-gQBglL9SdBVgbPwR9qN/Pv+6EzOncv8K26VCeCEwCgEPMVJzYFXzYJF8nt19iKbk
-ocMcJG9YZLikKHO2LqucA69XUdPh5LPF5E9B72QlW0jdvMT8fCaIeAzRdgGB2sdD
-+qQKwxGjvJ+iWAbsvSaOgqw+Zwqh3YE5oeOWhsu0VNjjEIymBFd898CC+YwOPRYA
-QDPybPLFmoA/Xp2aGXlN4qO3lQXN1Y1BEulLyDg7BOxHV+qqS7Ls1ycc3XKJN9ag
-RWh2DHxS/rTmXje16uUjcNBgijx3Mw==
-=Dokt
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmOKA2EACgkQJNaLcl1U
+h9CBbAf+Mo8tGe9//U/Hdg40AkRfkzS5Pz+vXPzSNRBxS0ELK951xx+2SJmQSMfh
+7GUimt1YVhxQPCPDNCTNi2o3utRO0KQWx3xVTxqm5HqtVvYTXLGzRtaMB+I+kDes
+K/zdhQ0Nj5lX8F7aYswwHrs1s2gN+/2h8aQ0+XMujC+0x+0OZ7pMzUwN26Sw7yvX
+BXiJjzwN3LMD7ff1xZE/+qv9YBzps8VuJdnv3IqtKnEdAXyZBNe2W0RVMWp7dJR5
+BvCGSouUBlZv5MMw38Ft5D/Uv/FEXQ2KIZ0QDh/dbpTnctJj/SXrcMJ1fGriZ2NZ
+u2tGvoJsgnZuZDC2Gz0gMlSyZOkB2w==
+=V+96
 -----END PGP SIGNATURE-----
 
---===============2562599300207444845==--
+--===============8089314924232531569==--
