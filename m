@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6746754058956838221=="
+Content-Type: multipart/mixed; boundary="===============3626417932918033201=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/printk/linux
-Date: Fri, 02 Dec 2022 10:25:27 -0000
-Message-Id: <166997672797.5482.478101062054171052@gitolite.kernel.org>
+Date: Fri, 02 Dec 2022 10:28:10 -0000
+Message-Id: <166997689056.6541.16654527750065489574@gitolite.kernel.org>
 
---===============6746754058956838221==
+--===============3626417932918033201==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,18 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/printk/linux
 user: pmladek
 changes:
-  - ref: refs/heads/rework/console-list-lock
-    old: df9eae76470ac2153544d3e351141e83d5d8a640
-    new: 5074ffbec67ac592614901771d3a15e1198d759d
-    log: revlist-df9eae76470a-5074ffbec67a.txt
+  - ref: refs/heads/for-next
+    old: 789259ec7d3a22d74bd9947f892c2d8d2842c1f9
+    new: 348af86ecc06ed87ce9115567ea09a1dfca771ca
+    log: revlist-789259ec7d3a-348af86ecc06.txt
 
---===============6746754058956838221==
+--===============3626417932918033201==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-df9eae76470a-5074ffbec67a.txt
+Content-Disposition: attachment; filename=revlist-789259ec7d3a-348af86ecc06.txt
 
+7365df19e8ff7a031e1557616fc0b3aa6d794d7e printk: use strscpy() to instead of strlcpy()
 51f5f78a4f804aeb73cf12a7cbba6e5198abd908 srcu: Make Tiny synchronize_srcu() check for readers
 9e409c4778afbbd44759e56ec4bbed839fd31909 serial: kgdboc: Lock console list in probe function
 d9a4af5690e26afa8a2eb83c575d3a9ef52cde1d printk: Convert console_drivers list to hlist
@@ -68,5 +69,7 @@ e2b39652283685edd7e84174b10736d79063d399 tty: serial: kgdboc: use console_list_l
 848a9c106625b10fa74022ea853845a2b7a834f0 printk: relieve console_lock of list synchronization duties
 ff707dfd79f7d984909c8e003a139168073a388e tty: serial: sh-sci: use setup() callback for early console
 5074ffbec67ac592614901771d3a15e1198d759d printk: htmldocs: add missing description
+516741a0f51e7e012171300bdf062cc87490e629 Merge branch 'for-6.2' into for-next
+348af86ecc06ed87ce9115567ea09a1dfca771ca Merge branch 'rework/console-list-lock' into for-next
 
---===============6746754058956838221==--
+--===============3626417932918033201==--
