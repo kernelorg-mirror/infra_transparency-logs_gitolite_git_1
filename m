@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Fri, 02 Dec 2022 21:40:30 -0000
-Message-Id: <167001723049.30509.15359338343420078070@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless-next
+Date: Fri, 02 Dec 2022 21:40:35 -0000
+Message-Id: <167001723526.30595.10769710197335042873@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cel/linux
-user: cel
+repo: pub/scm/linux/kernel/git/wireless/wireless-next
+user: kvalo
 changes:
-  - ref: refs/heads/for-next
-    old: 40f2e475046f3f630771c8bc860e78a4f610ef84
-    new: 9c0eaeda7797637cad429791afdc0db0d734e1d3
-    log: |
-         9c0eaeda7797637cad429791afdc0db0d734e1d3 NFSD: Avoid clashing function prototypes
-         
+  - ref: refs/tags/wireless-next-2022-12-02
+    old: 0000000000000000000000000000000000000000
+    new: e7a72223b857e061b5f0c2a7342cb5abf69c7916
