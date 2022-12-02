@@ -1,22 +1,46 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/crng/random
-Date: Fri, 02 Dec 2022 15:29:17 -0000
-Message-Id: <166999495765.24556.10737246488675881148@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============1475707609455047036=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/utils/b4/b4
+Date: Fri, 02 Dec 2022 15:44:10 -0000
+Message-Id: <166999585085.1965.10611026113800577888@gitolite.kernel.org>
+
+--===============1475707609455047036==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/crng/random
-user: zx2c4
+repo: pub/scm/utils/b4/b4
+user: mricon
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/vdso
-    old: 7dfbc8f84eb2e3f2de076f7d9fdee7945f7227e4
-    new: c04fe003b553f76f639b80310db68038cf2b496c
+  - ref: refs/heads/master
+    old: 50ba3cc3da02fcccef71fe936e0cc4dd110c0673
+    new: 8c583a2b93c8cbfcdf8a9e3d7279ac43822b6257
     log: |
-         34f6cf847a505d8d6b65a38d15d68e8255c9a572 random: add vgetrandom_alloc() syscall
-         de09367f5609fd0a1a89573de5d4d2a4046b7865 arch: allocate vgetrandom_alloc() syscall number
-         8f3b4679a9926a39b5d8b27673ce556801ae7a0f random: introduce generic vDSO getrandom() implementation
-         c04fe003b553f76f639b80310db68038cf2b496c x86: vdso: Wire up getrandom() vDSO implementation
+         8c583a2b93c8cbfcdf8a9e3d7279ac43822b6257 ez: change logic for individual patch Cc handling
          
+
+--===============1475707609455047036==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher B6C41CE35664996C! 1669995850 -0500
+pushee gitolite.kernel.org:pub/scm/utils/b4/b4
+nonce 1669995850-0175681b4d9ac7540c600a6c689c7351bed8dd92
+
+50ba3cc3da02fcccef71fe936e0cc4dd110c0673 8c583a2b93c8cbfcdf8a9e3d7279ac43822b6257 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCY4odSgAKCRC2xBzjVmSZ
+bGgmAQCm0Twb+uv4fq1GldY08fI1lGlVwnJ4UbZ8ylJ2149gAQD+J6IfKSYzC/CP
+XdLVvQSfCehP4ovGgxS3eyD5m/ocBAU=
+=FIe/
+-----END PGP SIGNATURE-----
+
+--===============1475707609455047036==--
