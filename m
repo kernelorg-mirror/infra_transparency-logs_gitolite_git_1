@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jejb/openssl_tpm2_engine
-Date: Fri, 02 Dec 2022 16:10:14 -0000
-Message-Id: <166999741471.22443.5700983848627185256@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
+Date: Fri, 02 Dec 2022 16:28:54 -0000
+Message-Id: <166999853492.2448.13421251313925252004@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jejb/openssl_tpm2_engine
-user: jejb
+repo: pub/scm/linux/kernel/git/brgl/linux
+user: brgl
 changes:
-  - ref: refs/heads/master
-    old: b75b7d23351d3efb62317521fbbdf9177bacf1d4
-    new: f0c9d175a33fea175f2e6b5bf237f82c6b75fdab
+  - ref: refs/heads/gpio/for-next
+    old: 3b7c7478eda00945987d45f902bc3942c89243d3
+    new: c83bf778e98eda8e5dc2fd30904378eba828e057
     log: |
-         b29730578bc1cf072953e4ace0492d916588eaeb create_tpm2_key: fix uninitialized data problem
-         3ab84464216227239c2500f4053f43ebd5dd6b66 unseal_tpm2_key: fix seg fault if key unsealing fails
-         f0c9d175a33fea175f2e6b5bf237f82c6b75fdab Version 3.1.2
+         d9cfe5825bb342548a5abd57ad37c7523b9ef446 gpio: loongson: add gpio driver support
+         c83bf778e98eda8e5dc2fd30904378eba828e057 dt-bindings: gpio: add loongson gpio
          
