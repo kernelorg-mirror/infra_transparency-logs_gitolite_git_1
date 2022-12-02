@@ -1,22 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Fri, 02 Dec 2022 19:06:22 -0000
-Message-Id: <167000798253.17800.2799074140508380382@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Fri, 02 Dec 2022 19:19:36 -0000
+Message-Id: <167000877642.25694.10383784227017199821@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
-user: acme
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/tmp.perf/core
-    old: 0c3852adae830d09d7dd62f03173c0225f617c86
-    new: 6c0b745a5a0aa3f49c5115186e6ea4e70b409642
+  - ref: refs/heads/dev
+    old: 564109b63d43857b1da3ea8012c867890086a759
+    new: 9615ca28bc2c94cf2e092f06baace941fbf3b7e8
     log: |
-         c9ede316a18d43fe4410f952e981b1993415af7c perf tools: Use dedicated non-atomic clear/set bit helpers
-         70adb01bbd73a8fcb2dfdec49381d875de2e4fb3 perf branch: Fix interpretation of branch records
-         ccdca365a62a3c91ab7e429b3a9664eb8654a157 perf arm64: Fix mksyscalltbl, don't lose syscalls due to sort -nu
-         6c0b745a5a0aa3f49c5115186e6ea4e70b409642 Revert "perf stat: Rename "aggregate-number" to "cpu-count" in JSON"
+         1069f98e0bf9c167aa112f05422cc04b0c5e2ca2 tools: memory-model: Make plain accesses carry dependencies
+         9615ca28bc2c94cf2e092f06baace941fbf3b7e8 rcu/kvfree: Use READ_ONCE() when access to krcp->head
          
