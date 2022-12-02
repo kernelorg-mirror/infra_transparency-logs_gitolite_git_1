@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/crng/random
-Date: Fri, 02 Dec 2022 15:22:53 -0000
-Message-Id: <166999457321.19432.17957920881006855152@gitolite.kernel.org>
+Date: Fri, 02 Dec 2022 15:29:17 -0000
+Message-Id: <166999495765.24556.10737246488675881148@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,11 +12,11 @@ repo: pub/scm/linux/kernel/git/crng/random
 user: zx2c4
 changes:
   - ref: refs/heads/vdso
-    old: 4cd91cd0e22d1879a972421d5d2ea99bb038623b
-    new: 7dfbc8f84eb2e3f2de076f7d9fdee7945f7227e4
+    old: 7dfbc8f84eb2e3f2de076f7d9fdee7945f7227e4
+    new: c04fe003b553f76f639b80310db68038cf2b496c
     log: |
-         a89405212f81294ecca7109be74701b3de6755e7 random: add vgetrandom_alloc() syscall
-         29000a92fba3c30d544b2277449ac4c18a6c57e2 arch: allocate vgetrandom_alloc() syscall number
-         3b7680fec7a9447e7f69e0f2b789ecc80658046d random: introduce generic vDSO getrandom() implementation
-         7dfbc8f84eb2e3f2de076f7d9fdee7945f7227e4 x86: vdso: Wire up getrandom() vDSO implementation
+         34f6cf847a505d8d6b65a38d15d68e8255c9a572 random: add vgetrandom_alloc() syscall
+         de09367f5609fd0a1a89573de5d4d2a4046b7865 arch: allocate vgetrandom_alloc() syscall number
+         8f3b4679a9926a39b5d8b27673ce556801ae7a0f random: introduce generic vDSO getrandom() implementation
+         c04fe003b553f76f639b80310db68038cf2b496c x86: vdso: Wire up getrandom() vDSO implementation
          
