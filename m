@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Fri, 02 Dec 2022 10:40:51 -0000
-Message-Id: <166997765140.15640.1367283791520047727@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/will/linux
+Date: Fri, 02 Dec 2022 11:03:28 -0000
+Message-Id: <166997900855.30878.4253953382254893257@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: davem
+repo: pub/scm/linux/kernel/git/will/linux
+user: will
 changes:
-  - ref: refs/heads/master
-    old: 3f5a4aa1c365e451c703525047b219d777b32936
-    new: 47b438cc27254fa68b7360de153db4093c9259f4
+  - ref: refs/heads/for-next/perf
+    old: 316f862a787c85b98b5b4acba4701fbcff916af4
+    new: 4361251cef466839795691e2628285e3f5093a98
     log: |
-         47b438cc27254fa68b7360de153db4093c9259f4 net: devlink: convert port_list into xarray
+         4361251cef466839795691e2628285e3f5093a98 arm_pmu: Drop redundant armpmu->map_event() in armpmu_event_init()
          
