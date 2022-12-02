@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7133165525521094471=="
+Content-Type: multipart/mixed; boundary="===============4231381807387405636=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
-Date: Fri, 02 Dec 2022 03:37:36 -0000
-Message-Id: <166995225621.28511.15641239579950830898@gitolite.kernel.org>
+Date: Fri, 02 Dec 2022 03:37:38 -0000
+Message-Id: <166995225816.28572.18107114647908652539@gitolite.kernel.org>
 
---===============7133165525521094471==
+--===============4231381807387405636==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/qcom/linux
 user: andersson
 changes:
-  - ref: refs/heads/clk-for-6.2
-    old: aec5f36cf6763a1f246befd9db266d24ba6e8d4b
-    new: 955f2ea3b9e94d0fa20ce3a78ef3063923d41b58
-    log: revlist-aec5f36cf676-955f2ea3b9e9.txt
+  - ref: refs/heads/for-next
+    old: 4d2b529bce125b83c546aebbc36ecedf76dfc55e
+    new: 89d3cf5c40b39efda213c5ae973f97c2317a3093
+    log: revlist-4d2b529bce12-89d3cf5c40b3.txt
 
---===============7133165525521094471==
+--===============4231381807387405636==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-aec5f36cf676-955f2ea3b9e9.txt
+Content-Disposition: attachment; filename=revlist-4d2b529bce12-89d3cf5c40b3.txt
 
 d470be3c4f30b4666e43eef6bab80f543563cdb0 clk: qcom: lpass-sc7280: Fix pm_runtime usage
 ff1ccf59eaffd192efe21f7de9fb0c130faf1b1b clk: qcom: lpass-sc7180: Fix pm_runtime usage
@@ -47,5 +47,6 @@ a9b6703459b1317354ae5da28acb5be918c16262 clk: qcom: gcc-msm8939: Add rates to th
 7364379d725fc8240a90190dc9da662ada43d9d1 clk: qcom: gdsc: Increase status poll timeout
 1de7e70941fff80139df8a37d4b35264543e3fc0 clk: qcom: Add LUCID_OLE PLL type for SM8550
 955f2ea3b9e94d0fa20ce3a78ef3063923d41b58 clk: qcom: Add GCC driver for SM8550
+89d3cf5c40b39efda213c5ae973f97c2317a3093 Merge branches 'arm64-defconfig-for-6.2', 'arm64-for-6.2', 'clk-for-6.2', 'defconfig-for-6.2', 'drivers-for-6.2', 'dts-for-6.2' and 'arm64-fixes-for-6.1' into for-next
 
---===============7133165525521094471==--
+--===============4231381807387405636==--
