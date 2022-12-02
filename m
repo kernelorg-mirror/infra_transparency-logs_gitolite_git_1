@@ -1,22 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Fri, 02 Dec 2022 13:53:56 -0000
-Message-Id: <166998923617.21098.11215007258216759365@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Fri, 02 Dec 2022 13:58:06 -0000
+Message-Id: <166998948627.25477.13203255559434467470@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
-user: broonie
+repo: pub/scm/linux/kernel/git/tip/tip
+user: tglx
 changes:
-  - ref: refs/heads/for-next
-    old: 8457a0a336d160fe22b406a5fc27c7def760ef91
-    new: cb7662908b0143501dc812899d9c43bedbbd944c
+  - ref: refs/heads/x86/apic
+    old: e3998434da4f5b1f57f8d6a8a9f8502ee3723bae
+    new: 2833275568755eb937a52c358bf8bfa7125a463e
     log: |
-         b4387db19d7f1caf166852782a5f0e5a393bdf24 regulator: dt-bindings: Add binding schema for mt6357 regulators
-         dafc7cde23dca239987d3cd000b11cdccc3728ea regulator: add mt6357 regulator
-         1d2633848e742be3e4dc2a7c064088a18b4756d8 Add MediaTek MT6357 PMIC support
-         cb7662908b0143501dc812899d9c43bedbbd944c Merge remote-tracking branch 'regulator/for-6.2' into regulator-next
+         9b09927c0cdec4d4e75f7f9e621eaec179a888fd x86/of: Remove unused early_init_dt_add_memory_arch()
+         2b822f474621bb2f4f21dd6dae6900e2ccca7e95 dt-bindings: x86: apic: Convert Intel's APIC bindings to YAML schema
+         b3a9801cccefda304263b4e84e9dfe49057f3c29 dt-bindings: x86: apic: Introduce new optional bool property for lapic
+         535403323b4dcdc363e7ea265df62481b903826b x86/of: Replace printk(KERN_LVL) with pr_lvl()
+         2833275568755eb937a52c358bf8bfa7125a463e x86/of: Add support for boot time interrupt delivery mode configuration
          
