@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
-Date: Fri, 02 Dec 2022 23:20:22 -0000
-Message-Id: <167002322225.3743.10728557123170984067@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/linux
+Date: Fri, 02 Dec 2022 23:25:03 -0000
+Message-Id: <167002350390.7261.6148449842038591077@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kees/linux
-user: kees
+repo: pub/scm/linux/kernel/git/chanwoo/linux
+user: chanwoo
 changes:
-  - ref: refs/heads/for-next/pstore
-    old: 38b91847c314f49c80e30062549d4709a3754ea6
-    new: e1fce564900f8734edf15b87f028c57e14f6e28d
+  - ref: refs/heads/devfreq-next
+    old: 26e9e8e68f5e7d6aecbf697be4bd689992ae96c3
+    new: 378e392fa97e869cb5f90e42ae2959444dac7d47
     log: |
-         e1fce564900f8734edf15b87f028c57e14f6e28d pstore/ram: Fix error return code in ramoops_probe()
+         378e392fa97e869cb5f90e42ae2959444dac7d47 PM / devfreq: event: use devm_platform_get_and_ioremap_resource()
          
