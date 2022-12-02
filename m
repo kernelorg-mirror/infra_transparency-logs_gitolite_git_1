@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Fri, 02 Dec 2022 16:03:53 -0000
-Message-Id: <166999703375.17101.2305897821371149449@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jejb/openssl_tpm2_engine
+Date: Fri, 02 Dec 2022 16:10:04 -0000
+Message-Id: <166999740440.22288.8597783610628770085@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/brgl/linux
-user: brgl
+repo: pub/scm/linux/kernel/git/jejb/openssl_tpm2_engine
+user: jejb
 changes:
-  - ref: refs/heads/gpio/for-current
-    old: 98d8b93c617139aeaf745c1573c02d86830f25d1
-    new: 450571883735e9a7c3b38691225531d54773e9a2
-    log: |
-         46ce43876d691f677b1361e08b860ca1b11fe512 gpiolib: cdev: fix NULL-pointer dereferences
-         450571883735e9a7c3b38691225531d54773e9a2 gpiolib: protect the GPIO device against being dropped while in use by user-space
-         
+  - ref: refs/tags/v3.1.2
+    old: 0000000000000000000000000000000000000000
+    new: 574ef7c44e18c0b16da4dcc8a0753b6572263c50
