@@ -1,13 +1,9 @@
-Content-Type: multipart/mixed; boundary="===============4140693440599716849=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cxl/cxl
-Date: Sat, 03 Dec 2022 17:00:08 -0000
-Message-Id: <167008680814.16974.54626352335744254@gitolite.kernel.org>
-
---===============4140693440599716849==
-Content-Type: text/plain; charset="us-ascii"
+Date: Sat, 03 Dec 2022 17:00:35 -0000
+Message-Id: <167008683573.17220.2167675154190681391@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
@@ -15,28 +11,13 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cxl/cxl
 user: djbw
 changes:
-  - ref: refs/heads/for-6.2/cxl-rch
-    old: d8830bcf806092b93c45585c7020aff5a57a8d45
-    new: 3713787b9dc731eb41389ec64c4c38dade325c28
-    log: revlist-d8830bcf8060-3713787b9dc7.txt
-
---===============4140693440599716849==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d8830bcf8060-3713787b9dc7.txt
-
-cb9cfff82f6a862c1f54b8b01d9d9a979bb8ae78 cxl/acpi: Simplify cxl_nvdimm_bridge probing
-16d53cb0d6900ba7c5920397480016d3ee844610 cxl/region: Drop redundant pmem region release handling
-f17b558d6663101f876a1d9cbbad3de0c8f4ce4d cxl/pmem: Refactor nvdimm device registration, delete the workqueue
-03ff079aa633369763bc0b7409b0a3a8ffa21d40 cxl/pmem: Remove the cxl_pmem_wq and related infrastructure
-4029c32fb601d505dfb92bdf0db9fdcc41fe1434 cxl/acpi: Move rescan to the workqueue
-8b3b1c0dc500a00c34ab74fb8a0d9e7286220c04 tools/testing/cxl: Make mock CEDT parsing more robust
-1dedb6f3cf7feeb84b10c24046d8e4436173cc4d cxl/ACPI: Register CXL host ports by bridge device
-1168271ca0544a611418236f0bd37939d18fe015 cxl/acpi: Extract component registers of restricted hosts from RCRB
-74fd072ca881db5ed4f340938e53aa48aaf2274f cxl/mem: Move devm_cxl_add_endpoint() from cxl_core to cxl_mem
-6b838ab5e00ec1f3e2ea4e87ee0a9598b5734c26 cxl/port: Add RCD endpoint port enumeration
-3266c728a5c9f27ae0244638426e055e38cf3c9f tools/testing/cxl: Add an RCH topology
-3713787b9dc731eb41389ec64c4c38dade325c28 cxl/acpi: Set ACPI's CXL _OSC to indicate RCD mode support
-
---===============4140693440599716849==--
+  - ref: refs/heads/for-6.2/cxl-security
+    old: 15a8348707ffd2a37516db9bede88cc0bb467e0b
+    new: d18bc74aced65e4ad68a30ac8db883398141e918
+    log: |
+         b5807c80b5bc49764724ca22e83c04f527e86fd4 cxl: add dimm_id support for __nvdimm_create()
+         bf3e5da8cb43a671b32fc125fa81b8f6a3677192 cxl/region: Fix missing probe failure
+         07cb5f705b4fe9e1386a610da4cb3c063267714f cxl/pmem: Enforce keyctl ABI for PMEM security
+         dc370b28c8425669e7ed5af4c01540645cfb00ec nvdimm/region: Move cache management to the region driver
+         d18bc74aced65e4ad68a30ac8db883398141e918 cxl/region: Manage CPU caches relative to DPA invalidation events
+         
