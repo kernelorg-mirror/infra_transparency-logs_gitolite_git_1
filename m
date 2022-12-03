@@ -1,32 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-pinctrl
-Date: Sat, 03 Dec 2022 09:20:01 -0000
-Message-Id: <167005920119.3209.6466898318764649905@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Sat, 03 Dec 2022 09:22:40 -0000
+Message-Id: <167005936071.5740.9984969640192475261@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/linusw/linux-pinctrl
-user: linusw
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: sashal
 changes:
-  - ref: refs/heads/devel
-    old: cf2fc8f8b2cbe7ca091fa6a1d6b3b6ec644d7651
-    new: 80b99ed74e234e82298531c459c29343d0a8bcf2
+  - ref: refs/heads/master
+    old: 4a29dbfa1fae734d7d3b33d3d5cae4646e19aec1
+    new: 5f59eeb92456034f119a3941f0fb5b6fa927756d
     log: |
-         78ee2e071d1ba28ad945de86f828366583376485 pinctrl: mediatek: common: Remove check for pins-are-numbered
-         b2de4316ec677e8dd09003682a1c843290b916f2 pinctrl: stm32: Remove check for pins-are-numbered
-         8f7b96bd3c8be4ed29af0fd04e85bdecce89ff39 dt-bindings: pinctrl: mediatek,mt65xx: Deprecate pins-are-numbered
-         80b99ed74e234e82298531c459c29343d0a8bcf2 dt-bindings: pinctrl: st,stm32: Deprecate pins-are-numbered
-         
-  - ref: refs/heads/for-next
-    old: c05e8b14f374c37313c435dd99859d556e9bce62
-    new: e8aa47b23fb8983ee8224251e6def4d07683ac6f
-    log: |
-         78ee2e071d1ba28ad945de86f828366583376485 pinctrl: mediatek: common: Remove check for pins-are-numbered
-         b2de4316ec677e8dd09003682a1c843290b916f2 pinctrl: stm32: Remove check for pins-are-numbered
-         8f7b96bd3c8be4ed29af0fd04e85bdecce89ff39 dt-bindings: pinctrl: mediatek,mt65xx: Deprecate pins-are-numbered
-         80b99ed74e234e82298531c459c29343d0a8bcf2 dt-bindings: pinctrl: st,stm32: Deprecate pins-are-numbered
-         e8aa47b23fb8983ee8224251e6def4d07683ac6f Merge branch 'devel' into for-next
+         61e33efff4e9cbdd0fed51b35aabf1f8e295d5db Fixes for 6.0
+         e19d4ce8706f1a7f98e3f76c67d15331547fa2ed Fixes for 5.15
+         c3f49af4548eddcd8cc822cf8d85c777b4e7b774 Fixes for 5.10
+         7dc4108d73e1c3bff8203d3e05b25785c27e8b93 Fixes for 5.4
+         e45cdf1f085ea10970664ac105a57b508d4f79c4 Fixes for 4.19
+         479d7d0f886de20cb0b43a33e155960ca28f7227 Fixes for 4.14
+         5f59eeb92456034f119a3941f0fb5b6fa927756d Fixes for 4.9
          
