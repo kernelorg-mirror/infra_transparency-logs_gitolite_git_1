@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Sat, 03 Dec 2022 15:02:39 -0000
-Message-Id: <167007975962.31039.8846566669177023136@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wsa/linux
+Date: Sat, 03 Dec 2022 15:28:11 -0000
+Message-Id: <167008129199.16748.12559858296020855731@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/brgl/linux
-user: brgl
+repo: pub/scm/linux/kernel/git/wsa/linux
+user: wsa
 changes:
-  - ref: refs/tags/gpio-fixes-for-v6.1-rc8-take-2
+  - ref: refs/tags/i2c-for-6.1-rc8
     old: 0000000000000000000000000000000000000000
-    new: f196a415a81e92e015e48397bbd25ea1c68ae0a3
+    new: 0b344496eecd85e8157ddcc942599c099d19979b
