@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8766797126160135563=="
+Content-Type: multipart/mixed; boundary="===============7822459577192830914=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cxl/cxl
-Date: Sat, 03 Dec 2022 08:53:07 -0000
-Message-Id: <167005758701.17037.1204833401934856385@gitolite.kernel.org>
+Date: Sat, 03 Dec 2022 08:53:30 -0000
+Message-Id: <167005761002.17264.363630288385833327@gitolite.kernel.org>
 
---===============8766797126160135563==
+--===============7822459577192830914==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cxl/cxl
 user: djbw
 changes:
-  - ref: refs/heads/pending
+  - ref: refs/heads/next
     old: 3b39fd6cf12ceda2a2582dcb9b9ee9f4d197b857
     new: 7b05fa9e15194a77e9db8685eac24678f4aff865
     log: revlist-3b39fd6cf12c-7b05fa9e1519.txt
 
---===============8766797126160135563==
+--===============7822459577192830914==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -62,4 +62,4 @@ d18bc74aced65e4ad68a30ac8db883398141e918 cxl/region: Manage CPU caches relative 
 3713787b9dc731eb41389ec64c4c38dade325c28 cxl/acpi: Set ACPI's CXL _OSC to indicate RCD mode support
 7b05fa9e15194a77e9db8685eac24678f4aff865 Merge branch 'for-6.2/cxl-security' into for-6.2/cxl
 
---===============8766797126160135563==--
+--===============7822459577192830914==--
