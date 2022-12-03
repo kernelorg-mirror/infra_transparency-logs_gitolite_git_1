@@ -1,22 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/crng/random
-Date: Sat, 03 Dec 2022 00:25:25 -0000
-Message-Id: <167002712565.18626.9245562482957016464@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Sat, 03 Dec 2022 00:29:34 -0000
+Message-Id: <167002737430.20259.6453029544044625832@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/crng/random
-user: zx2c4
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/vdso
-    old: 43ffa7f8426ff7343f506d8450207fc4955b2a2f
-    new: 1f49c900106618bb66bb8cc3da66bf4e8d02d07c
+  - ref: refs/heads/master
+    old: 0e15c3c75a28b10bac7b3ad7627fd6b458623283
+    new: 97ee9d1c16963375eefdf964c429897d27e28956
     log: |
-         9037d00f668f5c8215c059877c5b0b95a86b0768 random: add vgetrandom_alloc() syscall
-         e5ae06f1ef2149d938e1c1c150add532ec4c0ae3 arch: allocate vgetrandom_alloc() syscall number
-         dd0f0e6d4c6784081b82e4a8cbe75c9807d4d7ac random: introduce generic vDSO getrandom() implementation
-         1f49c900106618bb66bb8cc3da66bf4e8d02d07c x86: vdso: Wire up getrandom() vDSO implementation
+         64c150339e7f6c5cbbe8c17a56ef2b3902612798 pinctrl: single: Fix potential division by zero
+         11780e37565db4dd064d3243ca68f755c13f65b4 pinctrl: meditatek: Startup with the IRQs disabled
+         6989ea4881c8944fbf04378418bb1af63d875ef8 pinctrl: intel: Save and restore pins in "direct IRQ" mode
+         a56ea6147facce4ac1fc38675455f9733d96232b nvme-pci: clear the prp2 field when not used
+         899d2a05dc14733cfba6224083c6b0dd5a738590 nvme: fix SRCU protection of nvme_ns_head list
+         d0f411c0b9bdef85f647e15a2fcc790b29891f2c Merge tag 'nvme-6.1-2022-01-02' of git://git.infradead.org/nvme into block-6.1
+         63050a5ca130e76af7199c9a3fba1d175f3a1102 Merge tag 'pinctrl-v6.1-5' of git://git.kernel.org/pub/scm/linux/kernel/git/linusw/linux-pinctrl
+         97ee9d1c16963375eefdf964c429897d27e28956 Merge tag 'block-6.1-2022-12-02' of git://git.kernel.dk/linux
          
