@@ -1,21 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
-Date: Sat, 03 Dec 2022 00:49:38 -0000
-Message-Id: <167002857870.1502.1763722855570855670@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/crng/random
+Date: Sat, 03 Dec 2022 00:53:19 -0000
+Message-Id: <167002879997.4387.18095288830314976473@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/palmer/linux
-user: palmer
+repo: pub/scm/linux/kernel/git/crng/random
+user: zx2c4
 changes:
-  - ref: refs/heads/for-next
-    old: b57c2f124098459a4acc15d5044f87cba31c87f0
-    new: 9704beac94d0506b4ecfa3b3b64a9bf4e298fdf2
+  - ref: refs/heads/vdso
+    old: 08a9620624fc61d86a0ac21317a0c46f4906a07a
+    new: f5c32f5a1a1870cee094197ceb47f4c8da321a88
     log: |
-         649d6b1019a2f243bc3a98cb85902a8ebf74289a RISC-V: Add arch_crash_save_vmcoreinfo support
-         c5b4216929ebc8ac9107a373db65babc14ba4e80 Documentation: kdump: describe VMCOREINFO export for RISCV64
-         9704beac94d0506b4ecfa3b3b64a9bf4e298fdf2 Merge patch series "Support VMCOREINFO export for RISCV64"
+         50fa68beb73d0ada39d5d8dcdd4549f936c851da random: add vgetrandom_alloc() syscall
+         c852c5580bfe4eb999f0627ca92591445d6971ce arch: allocate vgetrandom_alloc() syscall number
+         c9eb2b22b93b5040f0f04a9686a64f09c1a7e0e4 random: introduce generic vDSO getrandom() implementation
+         f5c32f5a1a1870cee094197ceb47f4c8da321a88 x86: vdso: Wire up getrandom() vDSO implementation
          
