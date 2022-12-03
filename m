@@ -1,20 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Sat, 03 Dec 2022 00:44:17 -0000
-Message-Id: <167002825719.30224.5096294403351830578@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/crng/random
+Date: Sat, 03 Dec 2022 00:47:03 -0000
+Message-Id: <167002842302.382.13981402665112090902@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/next-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/crng/random
+user: zx2c4
 changes:
-  - ref: refs/heads/dev-queue
-    old: ee68d239c03349da770e7297750940587b806416
-    new: 24317172e2c79ba9816ee2b637ad4e925959b702
+  - ref: refs/heads/vdso
+    old: 1f49c900106618bb66bb8cc3da66bf4e8d02d07c
+    new: 08a9620624fc61d86a0ac21317a0c46f4906a07a
     log: |
-         7c419c425cbea5bd64af48dedfd3edd66d498974 ice: Add more usage of existing function ice_get_vf_vsi(vf)
-         24317172e2c79ba9816ee2b637ad4e925959b702 ice: Do not use WQ_MEM_RECLAIM flag for workqueue
+         fcf10a87b79fd8332c9560db0b3b7a8d7c397013 random: add vgetrandom_alloc() syscall
+         0162781587069b4499a27c0e023c00fdab6d7782 arch: allocate vgetrandom_alloc() syscall number
+         eedc38083ca55be1ea445a98cd03e4dfd49cd875 random: introduce generic vDSO getrandom() implementation
+         08a9620624fc61d86a0ac21317a0c46f4906a07a x86: vdso: Wire up getrandom() vDSO implementation
          
