@@ -1,22 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/crng/random
-Date: Sat, 03 Dec 2022 00:47:03 -0000
-Message-Id: <167002842302.382.13981402665112090902@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
+Date: Sat, 03 Dec 2022 00:49:38 -0000
+Message-Id: <167002857870.1502.1763722855570855670@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/crng/random
-user: zx2c4
+repo: pub/scm/linux/kernel/git/palmer/linux
+user: palmer
 changes:
-  - ref: refs/heads/vdso
-    old: 1f49c900106618bb66bb8cc3da66bf4e8d02d07c
-    new: 08a9620624fc61d86a0ac21317a0c46f4906a07a
+  - ref: refs/heads/for-next
+    old: b57c2f124098459a4acc15d5044f87cba31c87f0
+    new: 9704beac94d0506b4ecfa3b3b64a9bf4e298fdf2
     log: |
-         fcf10a87b79fd8332c9560db0b3b7a8d7c397013 random: add vgetrandom_alloc() syscall
-         0162781587069b4499a27c0e023c00fdab6d7782 arch: allocate vgetrandom_alloc() syscall number
-         eedc38083ca55be1ea445a98cd03e4dfd49cd875 random: introduce generic vDSO getrandom() implementation
-         08a9620624fc61d86a0ac21317a0c46f4906a07a x86: vdso: Wire up getrandom() vDSO implementation
+         649d6b1019a2f243bc3a98cb85902a8ebf74289a RISC-V: Add arch_crash_save_vmcoreinfo support
+         c5b4216929ebc8ac9107a373db65babc14ba4e80 Documentation: kdump: describe VMCOREINFO export for RISCV64
+         9704beac94d0506b4ecfa3b3b64a9bf4e298fdf2 Merge patch series "Support VMCOREINFO export for RISCV64"
          
