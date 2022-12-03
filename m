@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dtor/input
-Date: Fri, 02 Dec 2022 23:51:24 -0000
-Message-Id: <167002508410.25346.3177467359931156737@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Sat, 03 Dec 2022 00:08:01 -0000
+Message-Id: <167002608116.4724.11232655323937783343@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dtor/input
-user: dtor
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
+user: tnguy
 changes:
-  - ref: refs/heads/for-linus
-    old: 81cd7e8489278d28794e7b272950c3e00c344e44
-    new: 8c9a59939deb4bfafdc451100c03d1e848b4169b
+  - ref: refs/heads/dev-queue
+    old: f561c1e2a6e20ce04a6de74607202945a6b2a0ab
+    new: 979874a9e0a4acf00427fdd860866c146f3651ba
     log: |
-         8c9a59939deb4bfafdc451100c03d1e848b4169b Input: raydium_ts_i2c - fix memory leak in raydium_i2c_send()
+         979874a9e0a4acf00427fdd860866c146f3651ba igbvf: Regard vf reset nack as success
          
