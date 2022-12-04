@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4962795335138800280=="
+Content-Type: multipart/mixed; boundary="===============6185359318478477327=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Sun, 04 Dec 2022 16:56:09 -0000
-Message-Id: <167017296952.27399.6502610370212765978@gitolite.kernel.org>
+Date: Sun, 04 Dec 2022 16:56:39 -0000
+Message-Id: <167017299961.27647.14611088616787377024@gitolite.kernel.org>
 
---===============4962795335138800280==
+--===============6185359318478477327==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/next
     old: beaff73d55b3e8bb74a2de01773126c558cbb283
     new: 690674841a506b44812eb005869e826c2fd954b4
     log: revlist-beaff73d55b3-690674841a50.txt
 
---===============4962795335138800280==
+--===============6185359318478477327==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -958,4 +958,4 @@ fd64ee9d863e91a7ec5cf7a8efd8d640576086ed tpm: acpi: Call acpi_put_table() to fix
 3c959775f8a3a43b83bd20c54f44fb32f6f494a9 tpm: tpm_crb: Add the missed acpi_put_table() to fix memory leak
 690674841a506b44812eb005869e826c2fd954b4 tpm: tpm_tis: Add the missed acpi_put_table() to fix memory leak
 
---===============4962795335138800280==--
+--===============6185359318478477327==--
