@@ -1,24 +1,53 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Sun, 04 Dec 2022 12:43:56 -0000
-Message-Id: <167015783656.11354.3180425959707470770@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============8242900515876578704=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/powerpc/linux
+Date: Sun, 04 Dec 2022 13:13:08 -0000
+Message-Id: <167015958892.32054.7312178951534269761@gitolite.kernel.org>
+
+--===============8242900515876578704==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/man-pages/man-pages
-user: alx
+repo: pub/scm/linux/kernel/git/powerpc/linux
+user: mpe
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/translation
-    old: e9f0e4017e7b2ee22363909d6f1842da4354f053
-    new: 0137c7f49c178c14c230a0b89e2979732a52e6df
-    log: |
-         df0be07ab70d355b7b498b160cade55361b3c826 mount_namespaces.7: ffix
-         07dba2a1e4f6fa3f562c68fc1b3ac9d3762b3c35 malloc.3: ffix
-         dcdd5390ae0f50fb519c3030a58f1310088e2ac8 mq_close.3: tfix
-         2c9a58d0d361efc8d4cf2895762e19c3afa3f24c mount_namespaces.7: tfix
-         c91c5f1a17d85b744376a0694b909506f8d013fd network_namespaces.7: wfix
-         0137c7f49c178c14c230a0b89e2979732a52e6df passwd.5: ffix
-         
+  - ref: refs/tags/powerpc-6.1-6
+    old: 0000000000000000000000000000000000000000
+    new: 353885f7de7a6c0948d8782a653e78bcfaf33035
+
+--===============8242900515876578704==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Michael Ellerman <mpe@ellerman.id.au> 1670159587 +1100
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/powerpc/linux
+nonce 1670159587-56a65b9b63aaccbc0a5042d91bdadd665df893fa
+
+0000000000000000000000000000000000000000 353885f7de7a6c0948d8782a653e78bcfaf33035 refs/tags/powerpc-6.1-6
+-----BEGIN PGP SIGNATURE-----
+
+iQJGBAABCAAxFiEEJFGtCPCthwEv2Y/bUevqPMjhpYAFAmOMnOMTHG1wZUBlbGxl
+cm1hbi5pZC5hdQAKCRBR6+o8yOGlgCgWD/YgKapD5TDfn+8HmMRyVvom6645EssH
+CJh1gOomRLYe46RecGgcmZ8GYzkUHVWtqbU9GW+6ad9h+552P9KTMpW8gTQ2n7xE
+9HgM2EteR7WOCJC6vnK2n4KK0QXqnQbXdtE6TVRWwkwc1xzxoO3KYYJmd136pVhs
+d9St26BHszL+hRMVWHF6Nm72aqx7hd+mAA4gjuR3nP9StGlVBhEvgYHnQy6f0C6J
+J4aPJirt2a9oKjOybIbtXc60W1psT26uLdGNuvDaxIHHU8c4Jlm/PAwvId20yKMP
+CzzDe2Ez352iUdYj77D+CzzarHhgpu4Nm44DllrIDH1BXWQOg2XvXVdDqlGqT0eQ
+a5cK3tVL3I7gyiB+d+KYbmqgznAyyyMBYNaCjw96MqjreSoKhjcO8Qe0AuQgxzGu
+XNAuqYfbaP1ftEkS87mfHG7CcTC26E9vNNMJzk9fqYtPuHKIsf2J7HxzsmG5l7dN
+MG7lGdaXD7fSgrnIkz4QcgTh9che4u9YCUQJ/L4T7b9BQXeMcsa9WYvO+hvDCqXQ
+cRnJtsPX+XBsWf7/2TsCxF0Vs/PV/16S4ub/cmgoqImN2Fcb6mbBWVbuHAkczrNJ
+b/okvukhnf1M0ITUnwWM5uD8LgDUwdMUm0IjyZ+TD5gK5KF1j0V9gwh8yLEwcRP1
+nX2In+WWZ+99
+=NFp5
+-----END PGP SIGNATURE-----
+
+--===============8242900515876578704==--
