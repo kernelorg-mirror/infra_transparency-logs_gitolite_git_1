@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Sun, 04 Dec 2022 22:49:19 -0000
-Message-Id: <167019415900.15730.5336892123256605955@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Sun, 04 Dec 2022 22:52:40 -0000
+Message-Id: <167019436099.18537.16308549846416358167@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/man-pages/man-pages
-user: alx
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
   - ref: refs/heads/master
-    old: 0236da4ad36e739b4996850e29ff927d79809ba2
-    new: 413180217085dcb45ddf756511be7ad1e681cec0
+    old: 7a82579c77fba0420f47a7a08bb0a6b75e592541
+    new: 382ed7507024edae017affedd64144ab290e2886
     log: |
-         413180217085dcb45ddf756511be7ad1e681cec0 strncpy.3: CAVEATS: It can't detect truncation
+         382ed7507024edae017affedd64144ab290e2886 foo
          
