@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Sun, 04 Dec 2022 23:42:39 -0000
-Message-Id: <167019735990.22359.14253494988129027644@gitolite.kernel.org>
+Subject: post-receive: pub/scm/docs/man-pages/man-pages
+Date: Sun, 04 Dec 2022 23:43:02 -0000
+Message-Id: <167019738228.22572.1213603258626845911@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/docs/man-pages/man-pages
+user: alx
 changes:
   - ref: refs/heads/master
-    old: 6a30d3e3491dc562384e9f15b201a8a25b57439f
-    new: 5c306de8f787ab7df51f846e57ac79cd713537d5
+    old: eb31cc9c6a4b7894150d002afe304c86b37dd72a
+    new: 8450300f93865466375a728f75ce004e6e95f247
     log: |
-         5c306de8f787ab7df51f846e57ac79cd713537d5 nfp: correct desc type when header dma len is 4096
+         8450300f93865466375a728f75ce004e6e95f247 strncpy.3: wfix
          
