@@ -1,51 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============7376144802930511873=="
+Content-Type: multipart/mixed; boundary="===============5153710494244425952=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Sun, 04 Dec 2022 17:02:20 -0000
-Message-Id: <167017334055.31599.6164144360421217487@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Sun, 04 Dec 2022 17:04:29 -0000
+Message-Id: <167017346984.32443.16750635593815117105@gitolite.kernel.org>
 
---===============7376144802930511873==
+--===============5153710494244425952==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.2
+  - ref: refs/heads/for-next
     old: 969357ec94e670571d6593f2a93aba25e4577d4f
     new: f19a2caaab073873f673a41ce366ac898f34f543
     log: revlist-969357ec94e6-f19a2caaab07.txt
 
---===============7376144802930511873==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1670173342 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1670173338-3b9f5c02149711825f3c2a15a5a0c1fd20a73b7f
-
-969357ec94e670571d6593f2a93aba25e4577d4f f19a2caaab073873f673a41ce366ac898f34f543 refs/heads/asoc-6.2
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmOM0p4ACgkQJNaLcl1U
-h9AO0Af/XiHTtdZnRHTGY+kTbaVMzw8iEsazXwFtNnvxtiYqCvRPq4i0L5cWVdKA
-1103gpwfnwNxQpCKtUhnTFPsjwrOu5KnR6fkcbVip9VT4ci7JUu66hDirU3Ttxvp
-qx/28ha08Nr7lZWzvFBL5d1EI/FvEbPrYKUAd2PoXdbXjNJ5UYk0cMoAP/m0XHJ4
-zRENFuQSiK0uyG9OwtXyWDXIh2ZfLdAXZAWODD1zMG3W9wkffIsnyhZKIsLeRA7k
-g1peOehNFSK7Wu4D2isIOBi/B/Xkvp+R5wS7O1zDpZNPm1N1qlhYUuIill5qCSnU
-+dCj4lo9RAXMhZXqbk8aMmZmTSgnMA==
-=qBlx
------END PGP SIGNATURE-----
-
---===============7376144802930511873==
+--===============5153710494244425952==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -401,4 +376,4 @@ f77a066f4ed307db93aafee621e2683c3bda98ce ASoC: hdmi-codec: Allow playback and ca
 a04f1c81316d27e140c3df5561e5ef87794cd4bc drm: tda99x: Don't advertise non-existent capture support
 f19a2caaab073873f673a41ce366ac898f34f543 ASoC/tda998x: Fix reporting of nonexistent capture streams
 
---===============7376144802930511873==--
+--===============5153710494244425952==--
