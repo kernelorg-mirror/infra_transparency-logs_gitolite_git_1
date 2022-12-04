@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Sun, 04 Dec 2022 13:35:37 -0000
-Message-Id: <167016093750.16983.2707179386271356316@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/crng/random
+Date: Sun, 04 Dec 2022 13:37:40 -0000
+Message-Id: <167016106013.17766.9227557660726293684@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: leon
+repo: pub/scm/linux/kernel/git/crng/random
+user: zx2c4
 changes:
-  - ref: refs/heads/wip/leon-for-next
-    old: ed461b30b22c8fa85c25189c14cb89f29595cd14
-    new: 6978837ce42f8bea85041fc08c854f4e28852b3e
+  - ref: refs/heads/master
+    old: 1ea746beac98ad11132b0a9a11978d5cf0a055ef
+    new: 3e6743e28b9b43d37ced234bdf8e19955d0216f8
     log: |
-         6978837ce42f8bea85041fc08c854f4e28852b3e RDMA/mlx5: no need to kfree NULL pointer
+         1c21fe00eda76e4081535c739cf9f4bbb5dcb0ce random: spread out jitter callback to different CPUs
+         b83e45fd065c3cfdb8cc0179bbddf296ce4d4fda random: mix in cycle counter when jitter timer fires
+         39ec9e6b141e5a9d7274f40531888f890385a013 random: align entropy_timer_state to cache line
+         3e6743e28b9b43d37ced234bdf8e19955d0216f8 random: include <linux/once.h> in the right header
          
