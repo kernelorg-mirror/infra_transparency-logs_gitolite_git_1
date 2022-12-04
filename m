@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Sun, 04 Dec 2022 23:09:03 -0000
-Message-Id: <167019534326.30622.13110658531936383114@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Sun, 04 Dec 2022 23:29:53 -0000
+Message-Id: <167019659375.13388.16886803486474513229@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/man-pages/man-pages
-user: alx
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
   - ref: refs/heads/master
-    old: 1212df1cbf792c8ec43e1e8bb824d4ad8ae0a6a5
-    new: eb31cc9c6a4b7894150d002afe304c86b37dd72a
+    old: 2c41063fdd0da5ba1b081852b34c8f478a6dc7fb
+    new: b9a8cbb8fc5334ac129f919ab8bb245b69a4f14d
     log: |
-         eb31cc9c6a4b7894150d002afe304c86b37dd72a strncpy.3: NAME: Clarify what this function is
+         b9a8cbb8fc5334ac129f919ab8bb245b69a4f14d Sun Dec  4 11:29:06 PM UTC 2022
          
