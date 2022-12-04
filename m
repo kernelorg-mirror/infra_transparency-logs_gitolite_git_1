@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ribalda/linux
-Date: Sun, 04 Dec 2022 20:41:49 -0000
-Message-Id: <167018650977.23840.11540348700004846151@gitolite.kernel.org>
+Date: Sun, 04 Dec 2022 20:43:19 -0000
+Message-Id: <167018659958.24485.12214817440762558074@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,16 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ribalda/linux
 user: ribalda
 changes:
-  - ref: refs/heads/b4/resend-v4l2-compliance
-    old: 23038a8a53777c6d4ff38518d42ef527c868d86a
-    new: 749a6a3ef644870b6a9dcb6ddc71b4554eea5f14
+  - ref: refs/heads/b4/kexec-noalloc
+    old: 0f9d49c2ac3c68f12f7acdb24e8a34c53591bae7
+    new: 19f7ba75c8c1b76e016d7d1db4a8b9db4347a43a
     log: |
-         8ef7fc7d4a662f4e31b7b9836cab844bd4c55974 [RESEND] Follow-up patches for uvc v4l2-compliance
-         b46db182735b0bf684ecad4ea8919263f5d871e9 media: uvcvideo: uvc_ctrl_is_accessible: check for INACTIVE
-         c5e7e6449b7096f134b2d70150f5695aac9f46b5 media: uvcvideo: improve error logging in uvc_query_ctrl()
-         f062b0a7a111d3941ed0114aba83faf308a2c0c7 media: uvcvideo: Return -EACCES for Wrong state error
-         8aab0bb6a73c2d3318afa33fc7de90dd6c69d8e8 media: uvcvideo: Do not return positive errors in uvc_query_ctrl()
-         7d49266f161e87ff6f386a6e3c1600b13c73be0d media: uvcvideo: Fix handling on Bitmask controls
-         98345911a5d815447e3ed09cf000dcda6df11923 media: uvcvideo: Implement mask for V4L2_CTRL_TYPE_MENU
-         749a6a3ef644870b6a9dcb6ddc71b4554eea5f14 media: uvcvideo: Use standard names for menus
+         19f7ba75c8c1b76e016d7d1db4a8b9db4347a43a autocmdline
          
