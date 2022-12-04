@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Sun, 04 Dec 2022 22:52:40 -0000
-Message-Id: <167019436099.18537.16308549846416358167@gitolite.kernel.org>
+Subject: post-receive: pub/scm/docs/man-pages/man-pages
+Date: Sun, 04 Dec 2022 22:53:40 -0000
+Message-Id: <167019442086.18959.12832170625799715464@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/docs/man-pages/man-pages
+user: alx
 changes:
   - ref: refs/heads/master
-    old: 7a82579c77fba0420f47a7a08bb0a6b75e592541
-    new: 382ed7507024edae017affedd64144ab290e2886
+    old: 413180217085dcb45ddf756511be7ad1e681cec0
+    new: 7e9030dc90eb785497b5cb3fa5aae71881a93c74
     log: |
-         382ed7507024edae017affedd64144ab290e2886 foo
+         7e9030dc90eb785497b5cb3fa5aae71881a93c74 strncpy.3: Move description of valid use up
          
