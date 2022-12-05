@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 05 Dec 2022 10:14:32 -0000
-Message-Id: <167023527249.31868.8627629790509650663@gitolite.kernel.org>
+Date: Mon, 05 Dec 2022 10:16:44 -0000
+Message-Id: <167023540407.1989.3735231496150938868@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,10 +12,9 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: bp
 changes:
   - ref: refs/heads/master
-    old: c20479857031c1ab009a00d377a12bd87a5d2251
-    new: 243ff33b2c08771562056386dfa7c1d40cbfd1e7
+    old: 243ff33b2c08771562056386dfa7c1d40cbfd1e7
+    new: f2adfe3a78ab55f23993235c5798a64b27ec9112
     log: |
-         c11ca45441d56ed6d353548cad660e04f0b6605d x86/pat: Handle TDX guest PAT initialization
-         7882b69eb6cdf6288a89d831d95c8547400a8b4d x86/mtrr: Make message for disabled MTRRs more descriptive
-         243ff33b2c08771562056386dfa7c1d40cbfd1e7 Merge x86/cpu into tip/master
+         5b1586ab064ca24c6a7a6be7a9d0cb9e237ef39a x86/microcode/intel: Do not print microcode revision and processor flags
+         f2adfe3a78ab55f23993235c5798a64b27ec9112 Merge x86/microcode into tip/master
          
