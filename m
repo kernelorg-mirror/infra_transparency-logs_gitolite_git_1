@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tytso/ext4
-Date: Mon, 05 Dec 2022 17:03:03 -0000
-Message-Id: <167025978386.3363.14784364552445631514@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
+Date: Mon, 05 Dec 2022 17:09:33 -0000
+Message-Id: <167026017323.7427.7439512494496415399@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tytso/ext4
-user: tytso
+repo: pub/scm/linux/kernel/git/kdave/linux
+user: kdave
 changes:
-  - ref: refs/tags/ext4_for_linus_stable2
-    old: bd0a3136b23c868d21023525891fd42ad8fa39bc
+  - ref: refs/heads/for-6.1-rc1
+    old: 4efb365a3f04d0bee7833f168b0b00a15edefeac
     new: 0000000000000000000000000000000000000000
