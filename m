@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6590865804043678173=="
+Content-Type: multipart/mixed; boundary="===============3799199435597346903=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 05 Dec 2022 11:01:32 -0000
-Message-Id: <167023809205.2246.3197528892175283206@gitolite.kernel.org>
+Date: Mon, 05 Dec 2022 11:01:51 -0000
+Message-Id: <167023811187.2437.1662822636293169851@gitolite.kernel.org>
 
---===============6590865804043678173==
+--===============3799199435597346903==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: 6100fd707322c24cffcaefb357615e088fdc5463
-    new: 815a2a23b79ae9655d9fa85099381ca1e776c5be
-    log: revlist-6100fd707322-815a2a23b79a.txt
+  - ref: refs/heads/m68k-queue
+    old: 05a57a04b929bdbd8ef1880e7a567906de8c5c87
+    new: 8a40efc84141e20824522487893c52ed46981a68
+    log: revlist-05a57a04b929-8a40efc84141.txt
 
---===============6590865804043678173==
+--===============3799199435597346903==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6100fd707322-815a2a23b79a.txt
+Content-Disposition: attachment; filename=revlist-05a57a04b929-8a40efc84141.txt
 
 292709b9cf3ba470af94b62c9bb60284cc581b79 ASoC: fsl_micfil: explicitly clear software reset bit
 b776c4a4618ec1b5219d494c423dc142f23c4e8f ASoC: fsl_micfil: explicitly clear CHnF flags
@@ -238,6 +238,10 @@ eea8bebd51739cc7a3bb501032ee877b4aada553 Merge tag 'timers_urgent_for_v6.1_rc8' 
 23393c6461422df5bf8084a086ada9a7e17dc2ba char: tpm: Protect tpm_pm_suspend with locks
 0ba09b1733878afe838fe35c310715fda3d46428 Revert "mm: align larger anonymous mappings on THP boundaries"
 76dcd734eca23168cb008912c0f69ff408905235 Linux 6.1-rc8
-815a2a23b79ae9655d9fa85099381ca1e776c5be Merge tag 'v6.1-rc8'
+2538b867efc402cfbe043d630a676950b7272ca5 m68k: mac: Remove unused rbv_set_video_bpp()
+ae317ca26e54238fb9a4ecf3d9a2ef1bc5b5ef63 m68k: mac: Reword comment using double "in"
+ca617686cf83687a391c0cad09f52a10a893b7ba m68k: atari: usb: Add ISP1160 USB host controller support
+c0aa8af990d635bf6362657de0325c46fb4540be m68k: atari: Update Kconfig.bus help text
+8a40efc84141e20824522487893c52ed46981a68 m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============6590865804043678173==--
+--===============3799199435597346903==--
