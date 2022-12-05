@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Mon, 05 Dec 2022 11:03:29 -0000
-Message-Id: <167023820968.3101.14009540372719624057@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Mon, 05 Dec 2022 11:04:03 -0000
+Message-Id: <167023824309.3372.9269528177084629055@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: davem
 changes:
   - ref: refs/heads/master
-    old: 2bd739c926172fd4331bcf60da9029548ef8af9a
-    new: fa98613e4ef710887c654f32d8b08f77672b0021
+    old: 27e521c59e49603001cbee900f086ccf4a0e70b2
+    new: 38db82e29404d462b71bc3ac2149fbaf0c41fc7c
     log: |
-         69b73820d43fb7005fca33d135531cbcdc60e8cf libblkid: cleanup definitions and add docs for return values
-         fa98613e4ef710887c654f32d8b08f77672b0021 libblkid: add BLKID_SUBLKS_FSINFO to docs
+         38db82e29404d462b71bc3ac2149fbaf0c41fc7c net: ipa: use sysfs_emit() to instead of scnprintf()
          
