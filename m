@@ -1,31 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sschmidt/wpan-next
-Date: Mon, 05 Dec 2022 13:07:12 -0000
-Message-Id: <167024563262.27524.9156995394657911364@gitolite.kernel.org>
+Subject: post-receive: pub/scm/docs/man-pages/man-pages
+Date: Mon, 05 Dec 2022 13:15:46 -0000
+Message-Id: <167024614631.1613.7850425834917746228@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sschmidt/wpan-next
-user: sschmidt
+repo: pub/scm/docs/man-pages/man-pages
+user: alx
 changes:
-  - ref: refs/tags/ieee802154-for-net-next-2022-12-05
-    old: 0000000000000000000000000000000000000000
-    new: e29e3c7ce6d4b2f164ebd717e4794c626fc1c954
-  - ref: refs/tags/v6.1-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 0083e89728f57eae559c1ed1ac1e44487565feb1
-  - ref: refs/tags/v6.1-rc4
-    old: 0000000000000000000000000000000000000000
-    new: cc17e0a6a1b0c4708af1f5d81edc87e2cb5ffbf8
-  - ref: refs/tags/v6.1-rc5
-    old: 0000000000000000000000000000000000000000
-    new: 40747115a02c06d398d801301015db7ea182f7f0
-  - ref: refs/tags/v6.1-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 4446246354c3c11d4cbc8cf3515c92c3a880fc8e
-  - ref: refs/tags/v6.1-rc7
-    old: 0000000000000000000000000000000000000000
-    new: 1791be4df87a0d69008ba46c5a03be2e4cfbe3d5
+  - ref: refs/heads/master
+    old: 30d458d1a6261221bad15e58f1862e0dda24f4a0
+    new: 36a5db2e442f008559a16768bf8d504e9b69043a
+    log: |
+         36a5db2e442f008559a16768bf8d504e9b69043a filesystems.5: Don't refer to dead software; use a more generic term
+         
