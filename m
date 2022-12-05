@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Mon, 05 Dec 2022 11:38:47 -0000
-Message-Id: <167024032788.28279.6588937256943144934@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Mon, 05 Dec 2022 11:40:13 -0000
+Message-Id: <167024041336.30372.7055450143108291905@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: davem
 changes:
   - ref: refs/heads/master
-    old: 38db82e29404d462b71bc3ac2149fbaf0c41fc7c
-    new: de624864496628356eecdfa6751f7995bbb996d1
+    old: d50b7914fae04d840ce36491d22133070b18cca9
+    new: e8b4fc13900b8e8be48debffd0dfd391772501f7
     log: |
-         de624864496628356eecdfa6751f7995bbb996d1 nfp: add support for multicast filter
+         e8b4fc13900b8e8be48debffd0dfd391772501f7 net: mvneta: Prevent out of bounds read in mvneta_config_rss()
          
