@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Mon, 05 Dec 2022 20:18:47 -0000
-Message-Id: <167027152798.14115.16519815302703961503@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cxl/cxl
+Date: Mon, 05 Dec 2022 20:36:16 -0000
+Message-Id: <167027257629.27582.15623837588064403877@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/cxl/cxl
+user: djbw
 changes:
-  - ref: refs/heads/master
-    old: e6cfaf34be9fcd1a8285a294e18986bfc41a409c
-    new: bce9332220bd677d83b19d21502776ad555a0e73
+  - ref: refs/heads/pending
+    old: 1f51db2c92d3d4567cb5dab31c5598ad5a15289d
+    new: 02fedf1466567424c336cd11cf368dcf78f2af33
     log: |
-         bce9332220bd677d83b19d21502776ad555a0e73 proc: proc_skip_spaces() shouldn't think it is working on C strings
+         95dddcb5e86381abddeb1ccab5b5826fdcc74c70 Merge branch 'for-6.2/cxl-security' into for-6.2/cxl
+         e0f6fa0d425f745a887e640be66e22b45451e169 Merge branch 'for-6.2/cxl-aer' into for-6.2/cxl
+         02fedf1466567424c336cd11cf368dcf78f2af33 Merge branch 'for-6.2/cxl-xor' into for-6.2/cxl
          
