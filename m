@@ -1,25 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
-Date: Mon, 05 Dec 2022 06:11:04 -0000
-Message-Id: <167022066482.11140.17043114694745995127@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tzungbi/chrome-platform
+Date: Mon, 05 Dec 2022 06:35:34 -0000
+Message-Id: <167022213444.28526.14170860104965080786@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs
-user: xiang
+repo: pub/scm/linux/kernel/git/tzungbi/chrome-platform
+user: tzungbi
 changes:
-  - ref: refs/heads/dev
-    old: f5e037e760d338ca0c116e507be663cb843d42f0
-    new: 9925a9123275b73ba3b24ef32607b8ea2032abcf
+  - ref: refs/heads/for-next
+    old: bfc15c3a326f3fc99798ffb2b2cc37f81e05a6fe
+    new: 88af9311ffcbc45bb81cdd13d0b4efb301dc0b04
     log: |
-         9925a9123275b73ba3b24ef32607b8ea2032abcf erofs: Fix pcluster memleak when its block address is zero
-         
-  - ref: refs/heads/dev-test
-    old: f5e037e760d338ca0c116e507be663cb843d42f0
-    new: 9925a9123275b73ba3b24ef32607b8ea2032abcf
-    log: |
-         9925a9123275b73ba3b24ef32607b8ea2032abcf erofs: Fix pcluster memleak when its block address is zero
+         11ef9e2397de8cf759b6bc5e12617d5149353e61 platform/chrome: cros_usbpd_notify: Fix error handling in cros_usbpd_notify_init()
+         88af9311ffcbc45bb81cdd13d0b4efb301dc0b04 platform/chrome: use sysfs_emit() instead of scnprintf()
          
