@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux
-Date: Mon, 05 Dec 2022 16:15:37 -0000
-Message-Id: <167025693737.32604.16037579041644432804@gitolite.kernel.org>
+Subject: post-receive: pub/scm/docs/man-pages/man-pages
+Date: Mon, 05 Dec 2022 16:21:24 -0000
+Message-Id: <167025728459.3854.9115135023935398254@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/shuah/linux
-user: shuah
+repo: pub/scm/docs/man-pages/man-pages
+user: alx
 changes:
-  - ref: refs/tags/linux-cpupower-6.2-rc1
-    old: 0000000000000000000000000000000000000000
-    new: a8b6cb78d7c9125b09376fc6b5645eec191034a0
+  - ref: refs/heads/master
+    old: 7c19ad66c8e990a46d4e4d4daff8002a7a584431
+    new: 5c6f6e6767abbc3571c95d23fd0c6209f190518f
+    log: |
+         5c6f6e6767abbc3571c95d23fd0c6209f190518f strcat.3, strncat.3: RIP strncat(3)
+         
