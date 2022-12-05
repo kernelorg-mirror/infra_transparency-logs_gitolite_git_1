@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Mon, 05 Dec 2022 02:50:44 -0000
-Message-Id: <167020864461.30793.9747400678768657452@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Mon, 05 Dec 2022 02:53:33 -0000
+Message-Id: <167020881362.31855.1383636721293753644@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: ast
 changes:
   - ref: refs/heads/master
-    old: 382ed7507024edae017affedd64144ab290e2886
-    new: 6f841a3450f9b0df007915274dc64502004d582e
+    old: 41d76c721c5c743470078d30e9bb8df08c489b1c
+    new: 578ce69ffda49d6c1a252490553290d1f27199f0
     log: |
-         6f841a3450f9b0df007915274dc64502004d582e foo
+         578ce69ffda49d6c1a252490553290d1f27199f0 bpf: Add dummy type reference to nf_conn___init to fix type deduplication
          
