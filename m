@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cxl/cxl
-Date: Mon, 05 Dec 2022 20:36:16 -0000
-Message-Id: <167027257629.27582.15623837588064403877@gitolite.kernel.org>
+Date: Mon, 05 Dec 2022 20:36:26 -0000
+Message-Id: <167027258604.27700.16051504324227959542@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,7 +11,7 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cxl/cxl
 user: djbw
 changes:
-  - ref: refs/heads/pending
+  - ref: refs/heads/next
     old: 1f51db2c92d3d4567cb5dab31c5598ad5a15289d
     new: 02fedf1466567424c336cd11cf368dcf78f2af33
     log: |
