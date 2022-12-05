@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/linux
-Date: Mon, 05 Dec 2022 12:58:12 -0000
-Message-Id: <167024509200.21202.755869031647519391@gitolite.kernel.org>
+Date: Mon, 05 Dec 2022 12:58:52 -0000
+Message-Id: <167024513231.21479.13294311004768972735@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,5 +12,5 @@ repo: pub/scm/linux/kernel/git/chanwoo/linux
 user: chanwoo
 changes:
   - ref: refs/tags/devfreq-next-for-6.2
-    old: 3fe4f85cd2b8a61fabad53c2f19f36b572cf6c0f
-    new: 0000000000000000000000000000000000000000
+    old: 0000000000000000000000000000000000000000
+    new: 7a3f13c337c64a8bbdec69a8e6277cb2a84169e9
