@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8987949950541034178=="
+Content-Type: multipart/mixed; boundary="===============5285753239942254827=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geoff/ps3-linux
-Date: Mon, 05 Dec 2022 21:56:52 -0000
-Message-Id: <167027741292.20365.8129394538524292885@gitolite.kernel.org>
+Date: Mon, 05 Dec 2022 21:57:01 -0000
+Message-Id: <167027742175.20507.13406302413781703833@gitolite.kernel.org>
 
---===============8987949950541034178==
+--===============5285753239942254827==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geoff/ps3-linux
 user: geoff
 changes:
-  - ref: refs/heads/for-merge-powerpc
-    old: 8ed1a8aff68f24a078a698a394f7c1b9f00ff91a
-    new: 915a9f74e299db1ba046ab8d8c08425976ecfcd1
-    log: revlist-8ed1a8aff68f-915a9f74e299.txt
+  - ref: refs/heads/ps3-queue
+    old: cc7a655e58bf4939eaa8fbaefdce715a08ced24f
+    new: ac5f400a8b5d8340ce36f5b91c4e63efa652ff41
+    log: revlist-cc7a655e58bf-ac5f400a8b5d.txt
 
---===============8987949950541034178==
+--===============5285753239942254827==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8ed1a8aff68f-915a9f74e299.txt
+Content-Disposition: attachment; filename=revlist-cc7a655e58bf-ac5f400a8b5d.txt
 
 292709b9cf3ba470af94b62c9bb60284cc581b79 ASoC: fsl_micfil: explicitly clear software reset bit
 b776c4a4618ec1b5219d494c423dc142f23c4e8f ASoC: fsl_micfil: explicitly clear CHnF flags
@@ -616,5 +616,25 @@ eea8bebd51739cc7a3bb501032ee877b4aada553 Merge tag 'timers_urgent_for_v6.1_rc8' 
 76dcd734eca23168cb008912c0f69ff408905235 Linux 6.1-rc8
 ae3fa693a868ad625f09fde3a7b254f6280fef9d powerpc/ps3: mark ps3_system_bus_type static
 915a9f74e299db1ba046ab8d8c08425976ecfcd1 powerpc/ps3: Refresh ps3_defconfig
+249248e894bafd44d611e5f1c339e297828034d4 net/ps3_gelic: Add gelic_descr structures
+98a3491288e1c587cdb6457461e8a4e56ff3f2f1 net/ps3_gelic: Use local dev variable
+bdb0355155f664e419eb8da894cc3f531fdd16cc net/ps3_gelic: Format cleanups
+7c1424c2203bc86f671bfb5ade04cd85ec5f31ba net/ps3_gelic: Add new macro BUG_ON_DEBUG
+4dd5ec1873c74a4d67faddd2071cbd171f93516a net/ps3_gelic: Add vlan_id structure
+9199f275c5280f18f1705d100561145cb66e429f net/ps3_gelic: Cleanup debug code
+bf97e56c05ebf507cdd44232b0c3541f248bcd00 net/ps3_gelic: Add new routine gelic_unmap_link
+db853ec9c63dceb3fa26cf56f88d72f80c28c1a8 net/ps3_gelic: Rename no to descr_count
+e33cdf37c799b3dd557e8c59e7856dc81868d83c net/ps3_gelic: Add new routine gelic_work_to_card
+4c9b6cb63a01b417d254d8baaf2387c027987f81 net/ps3_gelic: Fix DMA mapping problems
+ef7e9350925933f5078af7b1fe5564b65dfb6b73 hvc_console: Allow backends to set I/O buffer size
+27ad760e2db9787f21afe3f9a31fc3316f614697 ps3-debugging: Enable CONFIG_IKCONFIG_PROC
+3b74d9e17f4b3fd7c05e04a6bad44466f57c2a7d ps3-debugging: Setup DABR register
+b67efd883af14b75b67db4e091cc0101d2ca30c1 local: Add ps3_nfs_defconfig
+2073869add4df64124a847e904a6bb2462b7f25d local: ps3_nfs_defconfig: Cut down version
+c104da65f067287d75274e5a4b198f03eabb8f84 local: Refresh ps3_nfs_defconfig
+bcae88914f3a6ef0a568679302b946cf38c49eeb local: Add ps3_petitboot_defconfig
+a264e99ac6016e634ae69380dd6237d7d7fd9a66 local: Add ps3_petitboot_nfs_defconfig
+19946029a034eae4ae23fa1e5e5694db22751263 local: ps3_petitboot_nfs_defconfig: ip=dhcp
+ac5f400a8b5d8340ce36f5b91c4e63efa652ff41 ps3_defconfig: Cut down version
 
---===============8987949950541034178==--
+--===============5285753239942254827==--
