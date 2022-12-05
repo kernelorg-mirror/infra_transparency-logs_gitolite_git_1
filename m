@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Mon, 05 Dec 2022 22:20:33 -0000
-Message-Id: <167027883308.4427.17584168657556274969@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-power-supply
+Date: Mon, 05 Dec 2022 22:24:34 -0000
+Message-Id: <167027907439.5994.6469047992560067066@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/man-pages/man-pages
-user: alx
+repo: pub/scm/linux/kernel/git/sre/linux-power-supply
+user: sre
 changes:
-  - ref: refs/heads/master
-    old: 5c6f6e6767abbc3571c95d23fd0c6209f190518f
-    new: b8b5be677c13883bd7d42b475579f32bc911887a
+  - ref: refs/heads/for-next
+    old: 7e6fb67808ab5ceba73a6f45d0942e1e25ac56a7
+    new: 104bb8a663451404a26331263ce5b96c34504049
     log: |
-         b8b5be677c13883bd7d42b475579f32bc911887a strncat.3: BUGS: Truncation
+         104bb8a663451404a26331263ce5b96c34504049 power: supply: fix null pointer dereferencing in power_supply_get_battery_info
          
