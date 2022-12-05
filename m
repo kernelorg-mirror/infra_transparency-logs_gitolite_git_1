@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3977938570835141852=="
+Content-Type: multipart/mixed; boundary="===============7881970023218462910=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Mon, 05 Dec 2022 16:29:50 -0000
-Message-Id: <167025779068.9661.9829709459849988269@gitolite.kernel.org>
+Date: Mon, 05 Dec 2022 16:29:56 -0000
+Message-Id: <167025779670.9801.7672021515988008994@gitolite.kernel.org>
 
---===============3977938570835141852==
+--===============7881970023218462910==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: e931a173a685fe213127ae5aa6b7f2196c1d875d
-    new: e8b4fc13900b8e8be48debffd0dfd391772501f7
-    log: revlist-e931a173a685-e8b4fc13900b.txt
+  - ref: refs/heads/dev-queue
+    old: 979874a9e0a4acf00427fdd860866c146f3651ba
+    new: 1cf25bf43b15a92238b12bf87942e6cbe24e14d2
+    log: revlist-979874a9e0a4-1cf25bf43b15.txt
 
---===============3977938570835141852==
+--===============7881970023218462910==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e931a173a685-e8b4fc13900b.txt
+Content-Disposition: attachment; filename=revlist-979874a9e0a4-1cf25bf43b15.txt
 
 42d7731e3e7409f9444ff44e30c025958f1b14f0 Bluetooth: btusb: Fix CSR clones again by re-adding ERR_DATA_REPORTING quirk
 955aebd445e2b49622f2184b7abb82b05c060549 Bluetooth: btusb: Add debug message for CSR controllers
@@ -51,5 +51,19 @@ fbf33f5ac76f2cdb47ad9763f620026d5cfa57ce octeontx2-pf: Fix potential memory leak
 121c6672b0191ffcebff4b88ec022c39e0a95789 net: microchip: sparx5: correctly free skb in xmit
 d50b7914fae04d840ce36491d22133070b18cca9 xen-netfront: Fix NULL sring after live migration
 e8b4fc13900b8e8be48debffd0dfd391772501f7 net: mvneta: Prevent out of bounds read in mvneta_config_rss()
+605235fc6232a8b2292312043e2662572fb11054 i40e: Fix not setting default xps_cpus after reset
+dc4fb386341340b0ee172327afffb3b4e5ce6775 i40e: Fix for VF MAC address 0
+8b471bd7d861d763d91e3653c409a2bc617d1c45 ice: Create a separate kthread to handle ptp extts work
+14533341d607979794f0b4e5ed3ac6589a2bed7a iavf: Fix shutdown pci callback to match the remove one
+4d2b91d4a976ba990c6d2be2836a55e61421a567 ice: Correctly handle aux device when num channels change
+6954722513ca1482bcca8c7f4db3daffdc2bdc8e i40e: Disallow ip4 and ip6 l4_4_bytes
+e20ac99302064379229a0d385e9e57b24535632f ice: move devlink port creation/deletion
+23bf3848e494f2c5deddc4a3b2fcf9453cb55153 intel/igbvf: free irq on the error path in igbvf_request_msix()
+f0c2cdf4d2bed4e73cae83b280c65d5277055055 igb: Enable SR-IOV after reinit
+54d4ac21e9851f02ec3d7ff69c76dcfc7c579b54 ice: Fix broken link in ice NAPI doc
+43f806d555ac294c46830f32841edb1b4a4d0caa ice: Fix deadlock on the rtnl_mutex
+3353300ca59372202453e115b03060489d8270b7 ixgbe: fix pci device refcount leak
+cae9114348289f9dad5c7c7d4dc9d0c913439c5b ice: xsk: do not use xdp_return_frame() on tx_buf->raw_buf
+1cf25bf43b15a92238b12bf87942e6cbe24e14d2 igbvf: Regard vf reset nack as success
 
---===============3977938570835141852==--
+--===============7881970023218462910==--
