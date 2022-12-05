@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1593669463714905329=="
+Content-Type: multipart/mixed; boundary="===============2532560263649448301=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Mon, 05 Dec 2022 16:34:48 -0000
-Message-Id: <167025808856.13261.15674008631416258235@gitolite.kernel.org>
+Date: Mon, 05 Dec 2022 16:36:11 -0000
+Message-Id: <167025817175.15331.11398629860661459365@gitolite.kernel.org>
 
---===============1593669463714905329==
+--===============2532560263649448301==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,44 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: a7a306e1c6d6b7ede5cef4625cb5831212140ee9
-    new: d76fe18582f6e9ce3d964f89fe7276b836fb4678
+    old: d76fe18582f6e9ce3d964f89fe7276b836fb4678
+    new: 3de365be9897285c3894c695fa76ab41328518ed
     log: |
-         ead357e582e4c1a2c3f52b9b81aedaa9c059f054 4.9-stable patches
-         efe690d5f51ae4234695c1dd76a68e6f44e83b51 4.14-stable patches
-         bc794b884402693984ffaba24abe5636dc040183 4.19-stable patches
-         bca417789eb739c0bff396fdb918f2f99a4c048d 5.4-stable patches
-         d76fe18582f6e9ce3d964f89fe7276b836fb4678 Merge branch 'master' of gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue
+         3de365be9897285c3894c695fa76ab41328518ed 5.10-stable patches
          
 
---===============1593669463714905329==
+--===============2532560263649448301==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1670258087 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1670258171 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1670258087-85eb4d56b5eaa1d4243aaf4e82f332640f97e57d
+nonce 1670258170-63d6857da5b6122e13c559c6331098b4c1557b5e
 
-a7a306e1c6d6b7ede5cef4625cb5831212140ee9 d76fe18582f6e9ce3d964f89fe7276b836fb4678 refs/heads/master
+d76fe18582f6e9ce3d964f89fe7276b836fb4678 3de365be9897285c3894c695fa76ab41328518ed refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmOOHacbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+BxMP/2fzLQwIFCS50gF8lWP2
-MeVKQaEQ8Z4RlVFAh7OcX08GsmaqHQcNiobcJPvROD9p0Teth8Xv/bw1hi2vdpFi
-VS/wgRSJbRE/SsL+g+1j3XHH2e6YKuuBMSj2KTHd0njWHZaz0cC3MjIo5vWY+kF4
-vsRITcuiucjCwX05bVSL3XU+8dHTpRF8tzpTBx2D/WysrmU5nItqpWmQ/FbLg8A8
-mmOrIOsTbmqfkL4UzevtPwTmdWy7tPi/zDqHLn8czPL9Ki1QvtQrIzZcoOz9oiri
-aU5AzbD6eGzkFIBgocZts53f08dmRV5KbPhPD56SohkkROKVV2LOQKZvCsLpaWfw
-8k6nghXsCz59fk8p+F82s3oB/AzXz179dEGKnQbZNVHsxUpGwdU5oZvLEVg8rrjz
-yWwNkKuRrLp+OdmTgS8eF7aW9DvJH9CuGOEodV6ng8LXsJHsUmYKrwvIZX57rI22
-FjrEFsP/2PIt33F8Ny8ILHicpUjFtj5UHGgNLL9oemrshQcJ7laB7UdAHlg3PYar
-0qQkUfLn42FwUhsDYyfkdcIocvsa0F4u2sdRtFDdzsZBs5xB7T+e2O95lmbVRlHw
-3VfcmFyRqa/KcZSF1wfLJqjNZSPEQQOGaMAZvZf5OZwrdI1V6dHlw+aSN7jB5YPg
-DlV26aQJaDj8qkygqRkG4jQv
-=JJKt
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmOOHfsbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Zq0QANKdwJejiMp6C8jZ8UH4
+H11Snlep3ks90rOVk+r/iITFOddDiTPBO+PJ24n1E14EBM/RC9jl9WQvLwK5GFz+
+de52JV6QzUE04Gb4kTD8aNSh7RGD+PZX+PBToIuQEeKI+a3Yn7QFxa+XdYdzC/5e
+zuWQFKm7DmIdSvj8ojf1NUvcm8woaxaTWV8SS+9ZShGe7iqVdRijL4kcWjr9gw6u
+w2ewbLkzhI0IrNkMH1hOHqJlevajt8uk5Y4V/1QaMr2R015meEHULmP3AiFSJEvx
+jlalh4PUzY09z122k2rGNAF1d5c1QJvZxrOY5+LjXgO9oVSDRrM9d/ruFlksI+ik
+1AIGA6ctD4rkRxoViOuiRpxxMPHsS2NECvZiALbgWSpyovJDid85zKRLrL5XmQZL
+zLcmjYjaZrBeSAKg+5FLKnE5iDGgxb01FPDTNjzdHCTJIKEBlScS0iI72HnyK8c2
+yUA6+xp8EL8FM2150OTWTTCrPSG1l1ZmkRTT83FLwA9VTUtl4dDJKBPtUT4pCd1A
+j2uMAXpAfk1/5N1v5trcAMMZN7BuutwYkPa4l4WVoboIwiYTnIn66P/+DyoJJvEM
+qW5jHh6GALl/zXRmCgr59QW6xs9jsSrUC0Y0uuA7kXVodj0yokFpSJVfFuJoQ0Pq
+zhSPBkaVN7XiORDOWL0xit/t
+=Tmr8
 -----END PGP SIGNATURE-----
 
---===============1593669463714905329==--
+--===============2532560263649448301==--
