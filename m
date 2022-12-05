@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Mon, 05 Dec 2022 00:56:30 -0000
-Message-Id: <167020179094.10821.160567090276046159@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
+Date: Mon, 05 Dec 2022 01:19:49 -0000
+Message-Id: <167020318919.30995.1488378383013550204@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
+user: snitzer
 changes:
-  - ref: refs/heads/for-next
-    old: 8972e18a439d6c47e838b600d71ff0a4f102f0e0
-    new: 41d76c721c5c743470078d30e9bb8df08c489b1c
+  - ref: refs/heads/dm-6.2
+    old: b52c3de84bd02083f2bbaae130adb243a689dd63
+    new: 035641b01e72af4f6c6cf22a4bdb5d7dfc4e8e8e
     log: |
-         2c40d97da1a25be815c91d6ebcd734d96d5732e8 bpf: Enable sleeptable support for cgrp local storage
-         41d76c721c5c743470078d30e9bb8df08c489b1c bpf: Add sleepable prog tests for cgrp local storage
+         035641b01e72af4f6c6cf22a4bdb5d7dfc4e8e8e dm init: add dm-mod.waitfor to wait for asynchronously probed block devices
          
