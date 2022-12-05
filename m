@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5010389539686340893=="
+Content-Type: multipart/mixed; boundary="===============0538657075704074000=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec-next
-Date: Mon, 05 Dec 2022 08:45:45 -0000
-Message-Id: <167022994576.20927.4021805418428338743@gitolite.kernel.org>
+Date: Mon, 05 Dec 2022 08:46:19 -0000
+Message-Id: <167022997960.21192.11415543383716330280@gitolite.kernel.org>
 
---===============5010389539686340893==
+--===============0538657075704074000==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/klassert/ipsec-next
 user: klassert
 changes:
-  - ref: refs/heads/testing
+  - ref: refs/heads/master
     old: 91a7de85600d5dfa272cea3cef83052e067dc0ab
     new: 65e6af6cebefbf7d8d8ac52b71cd251c2071ad00
     log: revlist-91a7de85600d-65e6af6cebef.txt
 
---===============5010389539686340893==
+--===============0538657075704074000==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -273,4 +273,4 @@ edd4e25a230dc8a977fca667db788424917ca2f3 Merge tag 'wireless-next-2022-12-02' of
 55fb80d518c7323d05b71eda0c9f9d657b373816 tcp: use 2-arg optimal variant of kfree_rcu()
 65e6af6cebefbf7d8d8ac52b71cd251c2071ad00 net: ethernet: mtk_wed: fix sleep while atomic in mtk_wed_wo_queue_refill
 
---===============5010389539686340893==--
+--===============0538657075704074000==--
