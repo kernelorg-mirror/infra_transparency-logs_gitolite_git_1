@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Mon, 05 Dec 2022 14:06:09 -0000
-Message-Id: <167024916924.5096.1105832878571757578@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
+Date: Mon, 05 Dec 2022 14:12:10 -0000
+Message-Id: <167024953076.8774.15325932437874498079@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/man-pages/man-pages
-user: alx
+repo: pub/scm/linux/kernel/git/maz/arm-platforms
+user: maz
 changes:
-  - ref: refs/heads/master
-    old: 36a5db2e442f008559a16768bf8d504e9b69043a
-    new: 2d251a70f6c064a6845a84e2187ccb23b72ede75
+  - ref: refs/heads/kvm-arm64/pmu-unchained
+    old: 64d6820d64c0a206e744bd8945374d563a76c16c
+    new: 58ff6569bc6ec369482eb2d132868870380be64c
     log: |
-         2d251a70f6c064a6845a84e2187ccb23b72ede75 stpncpy.3: Clarify what this function is for
+         58ff6569bc6ec369482eb2d132868870380be64c KVM: arm64: PMU: Fix period computation for 64bit counters with 32bit overflow
          
