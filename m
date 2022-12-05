@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============6565646403477021035=="
+Content-Type: multipart/mixed; boundary="===============0865337556638463832=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Mon, 05 Dec 2022 17:28:21 -0000
-Message-Id: <167026130109.22053.5125201180663408360@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 05 Dec 2022 17:28:27 -0000
+Message-Id: <167026130792.22181.1490919371381070766@gitolite.kernel.org>
 
---===============6565646403477021035==
+--===============0865337556638463832==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.2
+  - ref: refs/heads/asoc-6.2
     old: f19a2caaab073873f673a41ce366ac898f34f543
     new: 9472382db38452df15f9f2f74b1dff34848e56b2
     log: revlist-f19a2caaab07-9472382db384.txt
 
---===============6565646403477021035==
+--===============0865337556638463832==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1670261299 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1670261298-a236ef08bce5752fe05a06e766cecd4a1ed4a95f
+pusher C3F436CA30F5D8EB 1670261306 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1670261305-8b63d98725a9197ec99d8c74efa16e17d3f3b9d8
 
-f19a2caaab073873f673a41ce366ac898f34f543 9472382db38452df15f9f2f74b1dff34848e56b2 refs/heads/for-6.2
+f19a2caaab073873f673a41ce366ac898f34f543 9472382db38452df15f9f2f74b1dff34848e56b2 refs/heads/asoc-6.2
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmOOKjMACgkQJNaLcl1U
-h9Bc4wf/bjnID+LXnnFzDyFqsqZy81fMQXdlRwoyud1Xpj/eNqfHcoHf4FA6YY0f
-CiOt9KOvpJ/AtFJv6B4uIUFskgeQwRzsl90lnb5KflrxG35wg5r1KDAUqls15sYA
-lioS18RoOh5hE89Ypy90iaDlDpfrPrizkBWMoLy6sClAC4xSPgWMVXl6qqWx41Yi
-Qeh3hiSFSo41FOJp+/Fn4CGpDqW8U+GakZ5jgqth8aHZZ/SfPIZbhoTip69YlOQK
-/0KgfPkI/ZpSWTtLJSCZokVJXXXDSiO9x/TpRhhfVge26mqoNMNOLH2ainCZ1ynm
-SDMKoHmVw/2fgLH3I08vZdCIr62xNw==
-=8NHd
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmOOKjoACgkQJNaLcl1U
+h9DiBQf+JmIzrDWLYlaz+4HCQwGUelWsrvqEP63i4evjwzZ7Wc6ZiPcVicKiMu+h
+vHr6M25clzQRZl/bMygnI6OKEiGijWeOIABjJwLR4euVDsf/A4SxSy/f7c9FmexX
+tzb10ji0IzSZlg8RYrJVUra45W72+5RLSXgZy2w9tG/huNpFJWLrFoSP/4KPM9Ps
+A/IgF/DRcLNmqFiY7ONNe1ZvbzYFn2NkHKtP9KTOdo16mZEg6WyTcrF5kc0gheA3
+oV2ns8B3wYVdv+oBawGD1ynGegLHHjAGlqX842Pfzf3ihoWTg5SVTdbp04QeWBFY
+pfdYyEsdApD4MfvIVVERTIqRzn+drw==
+=Y68h
 -----END PGP SIGNATURE-----
 
---===============6565646403477021035==
+--===============0865337556638463832==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -64,4 +64,4 @@ b5d5051971b44c9952b62f261509cf837b9d21ba ASoC: rt715: Make read-only arrays capt
 1cd7de447cbbc49876f4df3f269b0562b8fe5b2f ASoC: dt-bindings: Correct Alexandre Belloni email
 9472382db38452df15f9f2f74b1dff34848e56b2 Add SOF panic dump support for AMD platform.
 
---===============6565646403477021035==--
+--===============0865337556638463832==--
