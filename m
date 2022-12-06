@@ -1,16 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chrome-platform/linux
-Date: Tue, 06 Dec 2022 02:55:14 -0000
-Message-Id: <167029531411.12555.3380848286595049375@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
+Date: Tue, 06 Dec 2022 02:59:50 -0000
+Message-Id: <167029559011.14307.13693184761611489689@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chrome-platform/linux
-user: tzungbi
+repo: pub/scm/linux/kernel/git/riscv/linux
+user: palmer
 changes:
-  - ref: refs/tags/tag-chrome-platform-for-v6.2
-    old: 0000000000000000000000000000000000000000
-    new: 70152b74fc550088cf528aa577e0d9df4b2503a5
+  - ref: refs/heads/for-next
+    old: cbc32023ddbdf4baa3d9dc513a2184a84080a5a2
+    new: 7ecdadf7f8c659524f6b2aebf6be7bf619764d90
+    log: |
+         5c3022e4a616d800cf5f4c3a981d7992179e44a1 riscv: stacktrace: Fixup ftrace_graph_ret_addr retp argument
+         7ecdadf7f8c659524f6b2aebf6be7bf619764d90 riscv: stacktrace: Make walk_stackframe cross pt_regs frame
+         
