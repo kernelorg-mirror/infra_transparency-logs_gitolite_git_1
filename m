@@ -1,46 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Tue, 06 Dec 2022 17:50:04 -0000
-Message-Id: <167034900412.14167.10754008400793511282@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/firmware
+Date: Tue, 06 Dec 2022 17:58:27 -0000
+Message-Id: <167034950783.19987.16756342756332104131@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/tnguy/firmware
+user: tnguy
 changes:
-  - ref: refs/heads/for-6.2/block
-    old: eea3e8b74aa1648fc96b739458d067a6e498c302
-    new: db1c7d77976775483a8ef240b4c705f113e13ea1
+  - ref: refs/heads/master
+    old: cdf9499cf6706b73935a139bb5e76777a87674fe
+    new: 16c9630e7d269f11da20df6f55b7e69852a781eb
     log: |
-         db1c7d77976775483a8ef240b4c705f113e13ea1 block: bio_copy_data_iter
-         
-  - ref: refs/heads/for-6.2/io_uring-next
-    old: 03d5549e3cb7b7f26147fd27f9627c1b4851807b
-    new: 65a52cc3de9d7a93aa4c52a4a03e4a91ad7d1943
-    log: |
-         3dac93b1fae0b90211ed50fac8c2b48df1fc01dc io_uring: skip overflow CQE posting for dying ring
-         a3f63209455a1d453ee8d9b87d0e07971b3c356e io_uring: don't check overflow flush failures
-         ab857514be26e0050e29696f363a96d238d8817e io_uring: complete all requests in task context
-         6db5fe86590f68c69747e8d5a3190b710e36ffb2 io_uring: force multishot CQEs into task context
-         d9143438fdccc62eb31a0985caa00c2876f8aa75 io_uring: post msg_ring CQE in task context
-         3a65f4413a2ccd362227c7d121ef549aa5a92b46 io_uring: use tw for putting rsrc
-         65a52cc3de9d7a93aa4c52a4a03e4a91ad7d1943 io_uring: skip spinlocking for ->task_complete
-         
-  - ref: refs/heads/for-next
-    old: ffb62b36583fa3b71fb18d25517ae882164f05a2
-    new: 91f43671ebd3d7d8bfda9a6927901d8d8f9e57b2
-    log: |
-         3dac93b1fae0b90211ed50fac8c2b48df1fc01dc io_uring: skip overflow CQE posting for dying ring
-         a3f63209455a1d453ee8d9b87d0e07971b3c356e io_uring: don't check overflow flush failures
-         ab857514be26e0050e29696f363a96d238d8817e io_uring: complete all requests in task context
-         6db5fe86590f68c69747e8d5a3190b710e36ffb2 io_uring: force multishot CQEs into task context
-         d9143438fdccc62eb31a0985caa00c2876f8aa75 io_uring: post msg_ring CQE in task context
-         3a65f4413a2ccd362227c7d121ef549aa5a92b46 io_uring: use tw for putting rsrc
-         65a52cc3de9d7a93aa4c52a4a03e4a91ad7d1943 io_uring: skip spinlocking for ->task_complete
-         7d0b976541883e431c5fe4e54b4467dda8b5de7b Merge branch 'for-6.2/io_uring-next' into for-next
-         db1c7d77976775483a8ef240b4c705f113e13ea1 block: bio_copy_data_iter
-         91f43671ebd3d7d8bfda9a6927901d8d8f9e57b2 Merge branch 'for-6.2/block' into for-next
+         7f6279b3dd76ff955278fcd9e517eab85a4c97d6 i915: Add DMC v2.08 for DG2
+         32d8681d21f2eef052cadfdfafc47e02eed6c2b2 QCA: Add Bluetooth firmware for WCN785x This commit will add required Bluetooth firmware files for QCA WCN785x. The image version is 2.0.0-00515.
+         6de0c03ff0da762b05ad246e91b3c457ebbdd71d Merge branch 'dg2_dmc_v2.8' of git://anongit.freedesktop.org/drm/drm-firmware
+         c85feb033901560ae2c988554902a42f86c7e4a8 Merge https://github.com/quicrjliao/qcabtfw
+         80ed874a45664419b350bd7647028bbf46961946 amdgpu: update sdma_5.2.7 firmware
+         16c9630e7d269f11da20df6f55b7e69852a781eb rtl_bt: Update RTL8821C BT(USB I/F) FW to 0x75b8_f098
          
