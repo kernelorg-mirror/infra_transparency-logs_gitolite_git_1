@@ -1,36 +1,24 @@
-Content-Type: multipart/mixed; boundary="===============4101595111611757477=="
+Content-Type: multipart/mixed; boundary="===============2164296882846034123=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Tue, 06 Dec 2022 03:35:05 -0000
-Message-Id: <167029770581.8358.11483137176632455909@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Tue, 06 Dec 2022 03:35:15 -0000
+Message-Id: <167029771540.8516.13987681728179042574@gitolite.kernel.org>
 
---===============4101595111611757477==
+--===============2164296882846034123==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
   - ref: refs/heads/master
     old: ee9bda616d36d2dc864aa294c2656fad88c9efa0
     new: 5d562c48a21eeb029a8fd3f18e1b31fd83660474
     log: revlist-ee9bda616d36-5d562c48a21e.txt
-  - ref: refs/heads/stable
-    old: 0ba09b1733878afe838fe35c310715fda3d46428
-    new: bce9332220bd677d83b19d21502776ad555a0e73
-    log: |
-         76dcd734eca23168cb008912c0f69ff408905235 Linux 6.1-rc8
-         b52be557e24c47286738276121177a41f54e3b83 ipc/sem: Fix dangling sem_array access in semtimedop race
-         e6cfaf34be9fcd1a8285a294e18986bfc41a409c proc: avoid integer type confusion in get_proc_long
-         bce9332220bd677d83b19d21502776ad555a0e73 proc: proc_skip_spaces() shouldn't think it is working on C strings
-         
-  - ref: refs/tags/next-20220906
-    old: 7651b22617f8674d72069d396d96cc4b38f21a5d
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20221206
     old: 0000000000000000000000000000000000000000
     new: 8c943ac9e4d01054595fa77fe07b0e3bc1b819b5
@@ -38,7 +26,7 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: 586cbada421761e98ada6f7de24426456352bfd6
 
---===============4101595111611757477==
+--===============2164296882846034123==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -928,4 +916,4 @@ ec843c806d50bd18569b59777095b997ee14cc11 Merge branch 'mm-nonmm-stable' of git:/
 c9f877968f9fdb2cb77d3352a1760b3b14df6cf1 Merge branch 'mm-everything' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 5d562c48a21eeb029a8fd3f18e1b31fd83660474 Add linux-next specific files for 20221206
 
---===============4101595111611757477==--
+--===============2164296882846034123==--
