@@ -1,27 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec-next
-Date: Tue, 06 Dec 2022 12:45:14 -0000
-Message-Id: <167033071495.24789.7525546966060655213@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Tue, 06 Dec 2022 12:45:47 -0000
+Message-Id: <167033074758.25080.14308933677210731332@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/klassert/ipsec-next
-user: klassert
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/master
-    old: 65e6af6cebefbf7d8d8ac52b71cd251c2071ad00
-    new: 89ae65734a995f1c728669fc3b0759a36f1d678e
+  - ref: refs/heads/arm64-nmi
+    old: aa75a4f8386f6358e94afeee4fd778332b18729d
+    new: b02e352d889e0752a8876bfc7412908626414a7e
     log: |
-         d14f28b8c1de668bab863bf5892a49c824cb110d xfrm: add new packet offload flag
-         62f6eca5de103c6823f6ca2abbf2ee242e132207 xfrm: allow state packet offload mode
-         919e43fad5163a8ceb39826ecdee897a9f799351 xfrm: add an interface to offload policy
-         f8a70afafc1759b1fca4baaa891625dde49c10b7 xfrm: add TX datapath support for IPsec packet offload mode
-         5958372ddf628fe6f4c3e49425734ad32fcfb13c xfrm: add RX datapath protection for IPsec packet offload mode
-         3c611d40c6923c81e6a83a67156cd30a9503c155 xfrm: speed-up lookup of HW policies
-         f3da86dc2c8c9004445cfbb15ac086773622d853 xfrm: add support to HW update soft and hard limits
-         2b7c72e0e5f98696f58490c7e4583412ad8be8f6 xfrm: document IPsec packet offload mode
-         89ae65734a995f1c728669fc3b0759a36f1d678e Merge branch 'Extend XFRM core to allow packet offload configuration'
+         355d3444e016393c09c0f3dc5e4697aeb028b8b9 arm64/hyp-stub: Enable access to ALLINT
+         2bb356175c228ddacbd0d0475781a4769c6ec0d6 arm64/idreg: Add an override for FEAT_NMI
+         3966198d26c0b784f6b7a93ab2abf58118dd411e arm64/cpufeature: Detect PE support for FEAT_NMI
+         29d6f2f9618f44b991b1ac8f314b4065d843d7cf KVM: arm64: Hide FEAT_NMI from guests
+         c6595afb8d52f7cc9950e4c1d72121677d1f4572 arm64/nmi: Manage masking for superpriority interrupts along with DAIF
+         a0d65a5039f59b923786c6d707d8b60cadddadb6 arm64/irq: Document handling of FEAT_NMI in irqflags.h
+         cf4a812f6ff9d66bc5c3b335d1833a7eb663eaae arm64/nmi: Add handling of superpriority interrupts as NMIs
+         9f993726d2618cc7a0ee0ee8d2362976b548de5c arm64/nmi: Add Kconfig for NMI
+         b02e352d889e0752a8876bfc7412908626414a7e irqchip/gic-v3: Implement FEAT_GICv3_NMI support
          
