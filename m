@@ -1,59 +1,68 @@
-Content-Type: multipart/mixed; boundary="===============1261213707589166057=="
+Content-Type: multipart/mixed; boundary="===============6476798109129499479=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Tue, 06 Dec 2022 13:14:13 -0000
-Message-Id: <167033245373.11696.2363200436712830190@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/powerpc/linux
+Date: Tue, 06 Dec 2022 13:43:53 -0000
+Message-Id: <167033423341.32267.4198283399641945629@gitolite.kernel.org>
 
---===============1261213707589166057==
+--===============6476798109129499479==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/driver-core
-user: gregkh
+repo: pub/scm/linux/kernel/git/powerpc/linux
+user: mpe
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-testing
-    old: 50dc8d18f62d58a2330f08fddc069f263d191c90
-    new: 621f9fa187c348069099ea8ddc357ff4ceab3d44
+  - ref: refs/heads/master
+    old: 76dcd734eca23168cb008912c0f69ff408905235
+    new: bce9332220bd677d83b19d21502776ad555a0e73
     log: |
-         308baddd69634dc737e51c28df80abb94a5c062c container_of: add container_of_const() that preserves const-ness of the pointer
-         85160433fc00a0139067b3d4b2fd59520ab5a11d device.h: move kobj_to_dev() to use container_of_const()
-         35e6987e682407ad37cfca738d897c3cd0b51d23 usb.h: take advantage of container_of_const()
-         621f9fa187c348069099ea8ddc357ff4ceab3d44 firmware_loader: fix up to_fw_sysfs() to preserve const
+         b52be557e24c47286738276121177a41f54e3b83 ipc/sem: Fix dangling sem_array access in semtimedop race
+         e6cfaf34be9fcd1a8285a294e18986bfc41a409c proc: avoid integer type confusion in get_proc_long
+         bce9332220bd677d83b19d21502776ad555a0e73 proc: proc_skip_spaces() shouldn't think it is working on C strings
+         
+  - ref: refs/heads/next
+    old: 6f3a81b60091031c2c14eb2373d1937b027deb46
+    new: 5ddcc03a07ae1ab5062f89a946d9495f1fd8eaa4
+    log: |
+         8f4ab7da904ab7027ccd43ddb4f0094e932a5877 selftests/powerpc: Fix resource leaks
+         6aecc0a59e07ba895b5473e0c916ba5f3d556c15 cxl: Remove unnecessary cxl_pci_window_alignment()
+         3ae7c96dd51025550c8001c6f833337f11d00807 powerpc/dts/fsl: Fix pca954x i2c-mux node names
+         5ddcc03a07ae1ab5062f89a946d9495f1fd8eaa4 powerpc/cpuidle: Set CPUIDLE_FLAG_POLLING for snooze state
          
 
---===============1261213707589166057==
+--===============6476798109129499479==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1670332451 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1670332451-42e7a7940cd06a7c30a0566d1c987eaf89e2d1e9
+pusher Michael Ellerman <mpe@ellerman.id.au> 1670334217 +1100
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/powerpc/linux
+nonce 1670334216-3c5aa8b3e1e8dc9903dab119804a7156652f2300
 
-50dc8d18f62d58a2330f08fddc069f263d191c90 621f9fa187c348069099ea8ddc357ff4ceab3d44 refs/heads/driver-core-testing
+76dcd734eca23168cb008912c0f69ff408905235 bce9332220bd677d83b19d21502776ad555a0e73 refs/heads/master
+6f3a81b60091031c2c14eb2373d1937b027deb46 5ddcc03a07ae1ab5062f89a946d9495f1fd8eaa4 refs/heads/next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmOPQCMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+7ZkP/0ZwJvzP4zAUwPreCAXh
-1Q0kakytDKM403bBhalFqpqXtiIvVAor5IkhAA5b3d5aLL3ZQYGMOY/hF6tg4QdL
-TgxmruX0+8S1JZJeBDUzPuWeUlEJukQpIYjyoiLQB8W+fu9z7bo9er06vIA55sQ0
-o+AxfUTgcmNjnX5VibZJu77TZuWyAx+UC7nlDbINDLLsjLVJkWoo6rJGNFAWnXRy
-BnSihnkOqTtxjIPltf1TYcWAnQgXBpmfmL0o/vJK4b1R+Jdf9ncCC22PPPwhAETa
-5rOwVeYY/feudQ90kBjfr/cAIoWgAeBpR0cBG0pTkaohop200C5gE2+Bj3w3AFkb
-Q0qPfqT45turRzdkR/ivNSULwSfE7wAKaWPFzUJrz/AQ8T9l0ZOkAKpnFsjU/UTN
-9WJtmPa/p5cFE1WqFiHmZdiYZwKBDPEGJB9kNa/sqTKb3tTj77IqAwpPPUdhpKjN
-OAsQSan2IMVi+SG5IdgoTacNKpmMqLWZ4CzHFv6vNml4otZ36/zNEBkvqIeaK4M2
-O93942xwkXRbV8HcP5Mzv7PLh0y6x4ov+EWLd8IQQevtaLVf9TINPYYpqpirZnms
-fkymNHLR018hyyJ516mGybUXAgwUR9FAi6mSpx708KyO2Hrygfg8eWl/hwRz3Wzb
-ei07ILwpfXm17ZOau7HYwLYK
-=A5/A
+iQJHBAABCAAxFiEEJFGtCPCthwEv2Y/bUevqPMjhpYAFAmOPRwkTHG1wZUBlbGxl
+cm1hbi5pZC5hdQAKCRBR6+o8yOGlgAW1EAClFJDzlGHZLG326dEorbIUomY3i9S1
+NlTfPViiPsuOx7W0fDCwPqzjYC6kQF6u9oj9YmEeUwGWJ2IObfw2FoV/Gp6XXWWI
+uhBHRGdxLFv4o35twFoyvW3WBDdcve6+zFhpHIyUzg3eoWpXM9giM5N7ZTpxGiQv
+KWBsUj/1rNyzjE8qQHBgGnpGKxfUKL/dINfUinor2uGfNK96jh/HkuqWt5ngI2B4
+xPh+k8qf/LktgiJPalGivcF3Irky+tZpqzCfvHLfiNpGT+H9AQvRM2nhFOGUClaZ
+vnLqPILwgYMRh/CtQYMrzGOompKgKldpz6LRAuJ5FuGAlJJIuxQjNckHb+wbnenE
+IOcDicuIWrGkm9LaOZK45TRDmW3TB2UMBuSMoY75zOrcwSbcoktjf04ye7z8GZUo
+ulK+sCoJYQ5AV52z5nR4aI454H+dZb1b+XUCFvmLPjFH1VjxloaPKbdQk2A0jESF
+F6tZF65EmbfjaKdLaLAX/dTDAnh9oPaojixnKamrKU01zraQwhjNziOvMrSyTXIX
+8xTZuQ2QZPZEsWIMQ+bmv0Y/ZIAAOtHJO3a1uZJe3z0q9Yj+gokpyz0JerRgji+N
+AUwL5SNpsVcLPo25B3Jtr5cYyjQYUL2RFm7N09dzOd1SZgTIrtWmWOqaW881DyrX
+XIwN545Yk17gYg==
+=YF/8
 -----END PGP SIGNATURE-----
 
---===============1261213707589166057==--
+--===============6476798109129499479==--
