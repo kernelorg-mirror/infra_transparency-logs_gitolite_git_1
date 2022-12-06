@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 06 Dec 2022 10:57:03 -0000
-Message-Id: <167032422376.7891.3248501696268716137@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/lpieralisi/pci
+Date: Tue, 06 Dec 2022 11:07:13 -0000
+Message-Id: <167032483347.14541.10534083720485147245@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: pabeni
+repo: pub/scm/linux/kernel/git/lpieralisi/pci
+user: lpieralisi
 changes:
-  - ref: refs/heads/master
-    old: ee496694b9eea651ae1aa4c4667d886cdf74aa3b
-    new: 7b8232bdb1789a257de3129a9bb08c69b93a17db
-    log: |
-         7b8232bdb1789a257de3129a9bb08c69b93a17db net: microchip: sparx5: Fix missing destroy_workqueue of mact_queue
-         
+  - ref: refs/heads/pci/mt7621
+    old: 0000000000000000000000000000000000000000
+    new: 19098934f910b4d47cb30251dd39ffa57bef9523
