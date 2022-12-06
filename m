@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Tue, 06 Dec 2022 03:00:21 -0000
-Message-Id: <167029562169.16157.9201886846357432559@gitolite.kernel.org>
+Date: Tue, 06 Dec 2022 03:00:30 -0000
+Message-Id: <167029563055.16288.18204649299686984237@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,8 +11,8 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/kbuild
-    old: e6998010906ee385d34bde1a3207b97e1f38b262
+  - ref: refs/heads/for-next
+    old: 70c623affea1815266df730d0ed6d5984ed6d422
     new: 22c65447a7a4667b91ce82a027c91005df136768
     log: |
          6360fc3a2ce447cc6e06b8b6482055e0d81b90ad kbuild: add test-{le,ge,lt,gt} macros
