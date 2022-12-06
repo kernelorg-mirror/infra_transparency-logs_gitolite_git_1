@@ -1,28 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Tue, 06 Dec 2022 16:04:13 -0000
-Message-Id: <167034265385.2357.9256997847681052670@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Tue, 06 Dec 2022 16:04:21 -0000
+Message-Id: <167034266106.2460.16276435002597738021@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
-user: broonie
+repo: pub/scm/linux/kernel/git/acme/linux
+user: acme
 changes:
-  - ref: refs/heads/for-linus
-    old: 99b30639cfc7f7606aed1669f37ee1b89d124466
-    new: fe16f92e360723ed78cf33a3735564afe4232b8b
+  - ref: refs/heads/tmp.perf/core
+    old: 3f1eb247bcea24720f2f597fbc89069b6fb69ee9
+    new: 4ed69b9aec91c5360b2c22513a035466675be028
     log: |
-         fe16f92e360723ed78cf33a3735564afe4232b8b Merge remote-tracking branch 'spi/for-6.0' into spi-linus
-         
-  - ref: refs/heads/for-next
-    old: e1c344e799091fecb5c1464c82cdfa99aadd4e44
-    new: 2e8b138d0cd4ab98a774e306f4df7e462e135714
-    log: |
-         7073888c86601389e17f3ee8ab15ab7aef148839 spi: mtk-snfi: Add snfi support for MT7986 IC
-         fe16f92e360723ed78cf33a3735564afe4232b8b Merge remote-tracking branch 'spi/for-6.0' into spi-linus
-         e4a6c40da81f1f7e8e8585fa91ae3b4284343f40 Merge branch 'spi-linus' into spi-next
-         2e8b138d0cd4ab98a774e306f4df7e462e135714 Merge remote-tracking branch 'spi/for-6.2' into spi-next
+         c0545527d01350dbe08281c2a479ecca68aa59ae perf tool: Move pmus list variable to a new file
+         b20d9215a35fb6ed24a8845156a6f385f1e48061 perf test: Add event group test for events in multiple PMUs
+         4ed69b9aec91c5360b2c22513a035466675be028 perf build: Fixes for LIBTRACEEVENT_DYNAMIC
          
