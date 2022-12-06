@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Tue, 06 Dec 2022 01:17:30 -0000
-Message-Id: <167028945091.6621.9305440775567951201@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 06 Dec 2022 01:33:34 -0000
+Message-Id: <167029041426.18244.11632367086990182944@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/man-pages/man-pages
-user: alx
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
   - ref: refs/heads/master
-    old: b8b5be677c13883bd7d42b475579f32bc911887a
-    new: 53854a54ac2a011f66ce4da2c22115e7a0a5ed5e
+    old: 343a5d358e4ab5597e90e1eafa7eba55eb42e96b
+    new: 7112a04664bfc10ae4709b2079fe3991cbd1fe18
     log: |
-         9baab44e7d2d930a1a69e39ef697ab56e43ef176 strncat.3: tfix
-         53854a54ac2a011f66ce4da2c22115e7a0a5ed5e string.3: strncpy(3), strncat(3): Obsolete, and fix
+         7112a04664bfc10ae4709b2079fe3991cbd1fe18 ethtool: add netlink based get rss support
          
