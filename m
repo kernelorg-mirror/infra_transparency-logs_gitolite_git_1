@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Wed, 07 Dec 2022 04:35:57 -0000
-Message-Id: <167038775781.28187.7336578206115175839@gitolite.kernel.org>
+Date: Wed, 07 Dec 2022 04:37:04 -0000
+Message-Id: <167038782425.28632.1481400259430998966@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,10 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/master
-    old: 7e6303567ce3ca506e4a2704e4baa86f1d8bde02
-    new: e40febfb9c99bc30a0dcb60e39b00beb656fdb0f
+    old: e40febfb9c99bc30a0dcb60e39b00beb656fdb0f
+    new: 78a9ea43fc1a7c06a420b132d2d47cbf4344a5df
     log: |
-         f96a3d74554df537b6db5c99c27c80e7afadc8d1 ipv4: Fix incorrect route flushing when source address is deleted
-         c0d999348e01df03e0a7f550351f3907fabbf611 ipv4: Fix incorrect route flushing when table ID 0 is used
-         e40febfb9c99bc30a0dcb60e39b00beb656fdb0f Merge branch 'ipv4-two-bug-fixes'
+         78a9ea43fc1a7c06a420b132d2d47cbf4344a5df net: dsa: sja1105: fix memory leak in sja1105_setup_devlink_regions()
          
