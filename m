@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
-Date: Wed, 07 Dec 2022 15:41:20 -0000
-Message-Id: <167042768013.25642.17322316842889526955@gitolite.kernel.org>
+Date: Wed, 07 Dec 2022 15:43:26 -0000
+Message-Id: <167042780600.26418.13266458513936364240@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/qcom/linux
 user: andersson
 changes:
-  - ref: refs/tags/qcom-drivers-for-6.2-2
+  - ref: refs/tags/qcom-arm64-defconfig-for-6.2-2
     old: 0000000000000000000000000000000000000000
-    new: 2029be27c518d493df23bdce60dd46f8a723ae02
+    new: 0cce1dba00879a1035a9e5f89a5a80c2518f8069
