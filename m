@@ -1,59 +1,32 @@
-Content-Type: multipart/mixed; boundary="===============9098619031111937501=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Wed, 07 Dec 2022 07:11:32 -0000
-Message-Id: <167039709260.7293.11727866176384259789@gitolite.kernel.org>
-
---===============9098619031111937501==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/linux-stable
+Date: Wed, 07 Dec 2022 07:50:12 -0000
+Message-Id: <167039941232.1826.6963927669150498029@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/driver-core
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/sashal/linux-stable
+user: sashal
 changes:
-  - ref: refs/heads/driver-core-next
-    old: 50dc8d18f62d58a2330f08fddc069f263d191c90
-    new: 47446b50ad2549af4fcc93f82a148ab107e6ef6a
+  - ref: refs/heads/pending-5.15
+    old: 88dd5cf3c19325323997564887b950afd4ba2a66
+    new: ab20be4f2a47d2e5eecefa6887ba1d96fc93d3ec
     log: |
-         64f6a5d1922bf6d2b2d845de20d4563a6f328e2d container_of: add container_of_const() that preserves const-ness of the pointer
-         6149f83b3165955e9519de483b30b26d1518ad0f device.h: move kobj_to_dev() to use container_of_const()
-         c3da679286bee1d897bb24a804cca4ff58781bec usb.h: take advantage of container_of_const()
-         47446b50ad2549af4fcc93f82a148ab107e6ef6a firmware_loader: fix up to_fw_sysfs() to preserve const
+         7ac86975806a9a433a9e0a1c58049d6695d67ada cifs: fix use-after-free caused by invalid pointer `hostname`
+         ab20be4f2a47d2e5eecefa6887ba1d96fc93d3ec drm/bridge: anx7625: Fix edid_read break case in sp_tx_edid_read()
          
-
---===============9098619031111937501==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1670397091 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1670397091-2ac962e40136b528e8228ce963132e20ee0254bb
-
-50dc8d18f62d58a2330f08fddc069f263d191c90 47446b50ad2549af4fcc93f82a148ab107e6ef6a refs/heads/driver-core-next
------BEGIN PGP SIGNATURE-----
-
-iQJOBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmOQPKMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+GOwP+MDO1n2F8xzieXOmnb01
-axFc+7FOqYtUUstdhKXDtwnu8Hb9IsPxJFgrWFeTYcAPGyY87puuDqNgRlc7DD/t
-Iz+eJYg7iL+maRR9CNuUmI5ThRzYLxtEKrzQFY3u83HWl3UjZh0rs9VsEOGYoMMZ
-38h3YmAb+PjnvQxkrCpymhNQKtZMYoMDeewlPfAWnyMhyb8PtRlfhuQb0XdfEBZ8
-ISZwULNMMocJF/ApWTgoRGPVSvt7nrlImZjWJjILWIe1z7siYqfuTVld8k+adZG1
-+pO9nur7RgLXzBcnw5REDSswBi6RCij/BYPppbzG4az/bXjbb0ShVkkv2bQQ5ZdN
-+Mxr6Gplr7GjeISGBJ46TMhC2tBaj90kGoOEjE/IJMOIXWzcdUjNcSX/8hv3i57E
-jtj2YUCOHAIeK1JEezu1QtuEcUTvxYHbGMfyeXTeb3No1R32f459y9gr7glokOtC
-VhW9jcYRF/GnNP6vdaZU7JV+e1mrB84DXEWL931ebxIxwx0COAVVVvTxfz1cOoOY
-b3SAS+KNVG0FaiJ1VxEhR9u56R6sUBQk959u/s3quOsl6jfsYkKO8FaVNPaGblPa
-Iiw/5AHR//i7B5iCv4nTH2+aBg+Qp72xa/H8sbY7zYnoxcJqZbmseL+tDheaPCm7
-q5v4QcpHizNWSUrhBqrpzxM=
-=L0a2
------END PGP SIGNATURE-----
-
---===============9098619031111937501==--
+  - ref: refs/heads/pending-6.0
+    old: a03046a6763314251c1b63bf84e5b3c56532ecaa
+    new: 6019c3c9a5181fe661022496593ac0f8b8a5035d
+    log: |
+         cfc5c1fba9f6711cc7eba52d4592fa531e668aeb hugetlb: don't delete vma_lock in hugetlb MADV_DONTNEED processing
+         3bf7458f23cefa9034f6965dbd333aea40574c9d ALSA: hda/realtek: More robust component matching for CS35L41
+         c121f38a52e512bc6862883ef1f4bc632c14c117 crypto: ccp - Add a quirk to firmware update
+         45bfd6c68d73a595944c431d0b0379cef34a57e5 soundwire: dmi-quirks: add remapping for HP Omen 16-k0005TX
+         e3f2c73033af062c9c1cafc4505e76a3cd8533dc platform/x86: asus-wmi: Adjust tablet/lidflip handling to use enum
+         3b0e20434edd1df4cead87de1558f0aa995d42b7 platform/x86: asus-wmi: Add support for ROG X13 tablet mode
+         6019c3c9a5181fe661022496593ac0f8b8a5035d Revert "coresight: cti: Fix hang in cti_disable_hw()"
+         
