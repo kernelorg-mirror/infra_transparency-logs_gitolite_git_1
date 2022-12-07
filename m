@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8748373838107808089=="
+Content-Type: multipart/mixed; boundary="===============6754407787887736729=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Wed, 07 Dec 2022 17:19:48 -0000
-Message-Id: <167043358827.30595.17226671408865689454@gitolite.kernel.org>
+Date: Wed, 07 Dec 2022 17:19:54 -0000
+Message-Id: <167043359487.30704.6567191915667320250@gitolite.kernel.org>
 
---===============8748373838107808089==
+--===============6754407787887736729==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: e8b4fc13900b8e8be48debffd0dfd391772501f7
-    new: 87a39882b5ab3127700ac4b9277608075f98eda2
-    log: revlist-e8b4fc13900b-87a39882b5ab.txt
+  - ref: refs/heads/dev-queue
+    old: 1cf25bf43b15a92238b12bf87942e6cbe24e14d2
+    new: 1962d1300ff760a5044d8c8d762aa5afd8be011b
+    log: revlist-1cf25bf43b15-1962d1300ff7.txt
 
---===============8748373838107808089==
+--===============6754407787887736729==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e8b4fc13900b-87a39882b5ab.txt
+Content-Disposition: attachment; filename=revlist-1cf25bf43b15-1962d1300ff7.txt
 
 4d002d6a2a00ac1c433899bd7625c6400a74cfba ieee802154: cc2520: Fix error return code in cc2520_hw_init()
 1e24c54da257ab93cff5826be8a793b014a5dc9c ca8210: Fix crash by zero initializing data
@@ -57,5 +57,16 @@ e40febfb9c99bc30a0dcb60e39b00beb656fdb0f Merge branch 'ipv4-two-bug-fixes'
 92439a859000c6f4c74160a3c08c1a519e3ca125 Merge tag 'ieee802154-for-net-2022-12-05' of git://git.kernel.org/pub/scm/linux/kernel/git/sschmidt/wpan
 9e624651859214fb2c4e442b059eba0aefcd0801 xen/netback: don't call kfree_skb() under spin_lock_irqsave()
 87a39882b5ab3127700ac4b9277608075f98eda2 net: dsa: mv88e6xxx: accept phy-mode = "internal" for internal PHY ports
+20b73fc28baafc7d4ac60bf832161cae49221a84 ice: Create a separate kthread to handle ptp extts work
+10126e56a84fa031319b6358b25062ab7919f22d iavf: Fix shutdown pci callback to match the remove one
+9e6e829d8f06fbfc6d3d51963db30c99abc3007e ice: Correctly handle aux device when num channels change
+34f8f877e52c6dc8e619de1b7b55e1f42c0767fc ice: move devlink port creation/deletion
+ecbdd20b9a263e55d1102f8de8f43c15c2aa2640 intel/igbvf: free irq on the error path in igbvf_request_msix()
+3bd4db9bf6380164a6afc7b483ac96566e01f142 igb: Enable SR-IOV after reinit
+e4d2352da144549ab947f95ef7c8bccc84f4ae9a ice: Fix broken link in ice NAPI doc
+12fe0219bad17df65a86e8f788be7cdb226a6749 ice: Fix deadlock on the rtnl_mutex
+b11486668afe4a8b8af09206a404ffe25675e8e8 ixgbe: fix pci device refcount leak
+411cf7f1e47df73ae7b8c7516fb965a133005262 ice: xsk: do not use xdp_return_frame() on tx_buf->raw_buf
+1962d1300ff760a5044d8c8d762aa5afd8be011b igbvf: Regard vf reset nack as success
 
---===============8748373838107808089==--
+--===============6754407787887736729==--
