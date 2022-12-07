@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Wed, 07 Dec 2022 15:22:03 -0000
-Message-Id: <167042652348.11309.6894482594088254511@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
+Date: Wed, 07 Dec 2022 15:22:38 -0000
+Message-Id: <167042655855.11563.16073160717991093531@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
-Content-Transfer-Encoding: 8bit
+Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
-user: maz
+repo: pub/scm/linux/kernel/git/qcom/linux
+user: andersson
 changes:
-  - ref: refs/heads/arm64/nmi
-    old: 1c264154ea1deee9667b2a140ae733907a07b134
-    new: 7c7106953a9ba800f599635d514a563bb662486a
-    log: |
-         7c7106953a9ba800f599635d514a563bb662486a KVM: arm64: vgic-v3: Handle traps of ICV_NMIAR1_EL1
-         
+  - ref: refs/tags/qcom-arm64-for-6.2-2
+    old: 0000000000000000000000000000000000000000
+    new: 07fd6c806e6fb46c665049ba769c49d8a8dc8c29
