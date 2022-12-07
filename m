@@ -1,50 +1,52 @@
-Content-Type: multipart/mixed; boundary="===============4475423412576892592=="
+Content-Type: multipart/mixed; boundary="===============1827463978304262176=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Wed, 07 Dec 2022 16:19:55 -0000
-Message-Id: <167042999543.19371.2132485324851201425@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Wed, 07 Dec 2022 16:20:01 -0000
+Message-Id: <167043000145.19504.15214949023026799232@gitolite.kernel.org>
 
---===============4475423412576892592==
+--===============1827463978304262176==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/regulator-6.2
-    old: 1d2633848e742be3e4dc2a7c064088a18b4756d8
-    new: cf34ac6aa2b12fb0c3aacfdcae8acd7904b949ec
+  - ref: refs/heads/for-6.2
+    old: 7073888c86601389e17f3ee8ab15ab7aef148839
+    new: 8330e9e8269bb76dd502e84efb5f351016512cf8
     log: |
-         cf34ac6aa2b12fb0c3aacfdcae8acd7904b949ec regulator: qcom-labibb: Fix missing of_node_put() in qcom_labibb_regulator_probe()
+         5f947746f0089529c85654704643f158b420ff92 spi: spi-fsl-lpspi: support multiple cs for lpspi
+         bc9ab1b7a6c687370b5d4edf34064bf04af8d369 spi: spi-fsl-lpspi: add num-cs binding for lpspi
+         8330e9e8269bb76dd502e84efb5f351016512cf8 spi: spi-mtk-nor: Add recovery mechanism for dma read timeout
          
 
---===============4475423412576892592==
+--===============1827463978304262176==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1670429994 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1670429993-0f2039e0b138365d90f96f206095741428c2637b
+pusher C3F436CA30F5D8EB 1670430000 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1670429999-51bf9ca98e9eb017740158c0508af4cfb1217fd5
 
-1d2633848e742be3e4dc2a7c064088a18b4756d8 cf34ac6aa2b12fb0c3aacfdcae8acd7904b949ec refs/heads/regulator-6.2
+7073888c86601389e17f3ee8ab15ab7aef148839 8330e9e8269bb76dd502e84efb5f351016512cf8 refs/heads/for-6.2
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmOQvSoACgkQJNaLcl1U
-h9Dprwf9GykrJN37+SnHk9nnFRIsmz1Vx0kOZP98B+5YhxE7q1J5zzMoqBrp8Da+
-2T+XsDg8Dradz0Ljltr8+xul+nb2LPA4sK92iGlI4DFMR2ItamewY/7qVROcjC2X
-RaLdZFIEo/2IiAL4iYi4RgNVEOfrhN5MVF+0Dc84IuCKEkCAalAejuLETLK/cz2Z
-Rl7n4ujOlTzD3gFVz8shPWgRbQGo+nb8rcg/QrpyS+D4fTm+c320ZJcyID3dJ+P4
-uQ2lRsOwcZW7ofBbOuB94jCrhrT2awMwA2awQev4Mvf1VVbWhE9bjk7UpzPSJVuW
-eiWEjtFEQ/tcI2OfU4m7eEDpD3ZU+g==
-=Ng5P
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmOQvTAACgkQJNaLcl1U
+h9ArMgf/fWxFv+77MyM2A3Qm0Pvl/5SxdBXzmYIF5V7gAf4dbC3eQosihZE3lGEm
+qPWPkt4cp8bxNNeIj/U5pfck6XwtHZhxgxtCFm/JtU61kR3f7afIH7byDuRAFFio
+0rYRuy6C9SX5BlGQ1I/hUwDnc9zK5wy43CGhgMVKE2PnM+x3/G8LhB2TD3iWxuhb
+mypxSAEXBQn/ODcWSO+xBOzwVtVO/txaZUrkMv+IL1SY5PNmgc8kJkT5pENGMhPW
+eJrz98QmWuNZ7FFEdsd60chTyZc5iSU2cPFh7/o7tFNojSvg9tWeuLNffyAWgKNU
+RsaVtayNsFEqR/ibGRU8KDnRMmTnRQ==
+=0W46
 -----END PGP SIGNATURE-----
 
---===============4475423412576892592==--
+--===============1827463978304262176==--
