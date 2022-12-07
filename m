@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============8678995373211011208=="
+Content-Type: multipart/mixed; boundary="===============8657388226304643905=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Wed, 07 Dec 2022 17:25:05 -0000
-Message-Id: <167043390567.4152.5380970384349116767@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Wed, 07 Dec 2022 17:25:11 -0000
+Message-Id: <167043391171.4970.16187092878895069648@gitolite.kernel.org>
 
---===============8678995373211011208==
+--===============8657388226304643905==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.2
+  - ref: refs/heads/asoc-6.2
     old: 8e378ea10b0fd397007f7e52429c7b27f0143583
     new: 122d851b07116b30fbee99281d907c33a43f57c9
     log: revlist-8e378ea10b0f-122d851b0711.txt
 
---===============8678995373211011208==
+--===============8657388226304643905==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1670433904 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1670433903-db869b99bb27b5985898b61a028e59bfc9a88c43
+pusher C3F436CA30F5D8EB 1670433910 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1670433909-bfd80c851d36bbe9b7c3e1f135e34a2038afafd8
 
-8e378ea10b0fd397007f7e52429c7b27f0143583 122d851b07116b30fbee99281d907c33a43f57c9 refs/heads/for-6.2
+8e378ea10b0fd397007f7e52429c7b27f0143583 122d851b07116b30fbee99281d907c33a43f57c9 refs/heads/asoc-6.2
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmOQzHAACgkQJNaLcl1U
-h9Ci4wf/fntduV8IuHR36mr+lc81RwQtPahKEHCFg2bczRLy3TsygSB3j6b1MpZ/
-oLm54/gxEU5ajf1WUYS6x6k9t0Jmtxh4v6E23oQfQfurmfGDEWx6tb7DoUe2bm5W
-caJYa96Eutg5gebEWrszJbfCJSYPmHcuRgY5aEVJoyyPyzH+IO9LJbQz+3AU3A4U
-BWLwu6ibbaUeFplqTJqE3bvHhHY4sWDZhVf3r0H2f43mQH0oWo80Cbo44J81TqQw
-GQmu1uTrN4Kis+i+TrXFzBKUuOHca2p4BBl5KgrW0By5lHFkjlvrr1CPSYQye4R8
-QAL/rw7c9Q8nSvmF32eG/cJBsDCvwQ==
-=AyHs
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmOQzHYACgkQJNaLcl1U
+h9AAeQf+J6bIiHGnxXR3dw5+8L1EaGAULMmVmFBjqNH75XXjbuhWl8I/HXH1B4oR
+pnk0Qt9byOih+scVg09vDVa7ide/vDbFF7TGbFOS3jyIkhrBr0o/41aI/9l8EyAV
+Z2VWrbJyKM3+7C9cBj5bG3vOJy5QkC1dIwUqGWE6Y27fJmDoRctm1haXEO0ysvGa
+lQgWClaFIibKH0WbEj2OTRvsxSo87oiuDY8wfaaYvjaPmDyxWjqOJP5+rKelnLvn
+pMrBlrp39pEEprH8wujXyeRBxsqdS4bJQQDCkKABjjCHX6qfqh2zjqnjQu47ZwNO
+aO66782njsKzmxlePtUTH3daXiKxKQ==
+=2HzS
 -----END PGP SIGNATURE-----
 
---===============8678995373211011208==
+--===============8657388226304643905==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -68,4 +68,4 @@ a39bc7cf8e284653fb6fd9d897f269f4ac80cf52 ASoC: imx-audmux: use sysfs_emit() to i
 4f143eca515534f08915caba40517b665a622f90 ASoC: Intel: Skylake: Topology and shutdown fixes
 122d851b07116b30fbee99281d907c33a43f57c9 ASoC: Intel: boards: updates for SOF boards
 
---===============8678995373211011208==--
+--===============8657388226304643905==--
