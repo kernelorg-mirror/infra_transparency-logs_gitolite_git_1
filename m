@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4032882249632108066=="
+Content-Type: multipart/mixed; boundary="===============5432176773695376949=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec
-Date: Wed, 07 Dec 2022 08:19:51 -0000
-Message-Id: <167040119109.20987.8741227954303511462@gitolite.kernel.org>
+Date: Wed, 07 Dec 2022 08:20:22 -0000
+Message-Id: <167040122257.22738.8922702350498066101@gitolite.kernel.org>
 
---===============4032882249632108066==
+--===============5432176773695376949==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/klassert/ipsec
 user: klassert
 changes:
-  - ref: refs/heads/testing
+  - ref: refs/heads/master
     old: 40781bfb836eda57d19c0baa37c7e72590e05fdc
     new: 1799c1b85e292fbfad99892bbea0beee925149e8
     log: revlist-40781bfb836e-1799c1b85e29.txt
 
---===============4032882249632108066==
+--===============5432176773695376949==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ e40febfb9c99bc30a0dcb60e39b00beb656fdb0f Merge branch 'ipv4-two-bug-fixes'
 78a9ea43fc1a7c06a420b132d2d47cbf4344a5df net: dsa: sja1105: fix memory leak in sja1105_setup_devlink_regions()
 1799c1b85e292fbfad99892bbea0beee925149e8 Merge branch '40GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
 
---===============4032882249632108066==--
+--===============5432176773695376949==--
