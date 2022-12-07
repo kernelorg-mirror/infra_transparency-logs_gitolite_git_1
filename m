@@ -1,62 +1,63 @@
-Content-Type: multipart/mixed; boundary="===============2466112973085978728=="
+Content-Type: multipart/mixed; boundary="===============5003872805846263527=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Wed, 07 Dec 2022 16:50:04 -0000
-Message-Id: <167043180493.10479.7613449405628773297@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Wed, 07 Dec 2022 16:51:23 -0000
+Message-Id: <167043188338.11036.10383476663154691546@gitolite.kernel.org>
 
---===============2466112973085978728==
+--===============5003872805846263527==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/tip/tip
+user: tglx
 changes:
-  - ref: refs/heads/block-6.1
-    old: d0f411c0b9bdef85f647e15a2fcc790b29891f2c
-    new: e18a9c18c38f523ae45416e2b75ed4ddf8ad107b
-    log: |
-         6f2d71524bcfdeb1fcbd22a4a92a5b7b161ab224 nvme initialize core quirks before calling nvme_init_subsystem
-         e18a9c18c38f523ae45416e2b75ed4ddf8ad107b Merge tag 'nvme-6.1-2022-12-07' of git://git.infradead.org/nvme into block-6.1
-         
-  - ref: refs/heads/epoll-min_ts
-    old: 1265ae6b60afb035f4a1a0594a928902238c42f4
-    new: a14ca6480fec9b8eda09c520bc2d85766e5ab23f
-    log: |
-         a14ca6480fec9b8eda09c520bc2d85766e5ab23f eventpoll: ensure we pass back -EBADF for a bad file descriptor
-         
-  - ref: refs/heads/for-6.2/io_uring-next
-    old: 6d1b48314b989d059642958fc94ef0a58b25fc8c
-    new: f66f73421f0a929734bb41dde575e6d7859e548f
-    log: revlist-6d1b48314b98-f66f73421f0a.txt
-  - ref: refs/heads/for-next
-    old: 7a70968b7f6d9687a77ea11aac672329975ad423
-    new: a9583c8b9aa3afd51ced963a46a0d3d537117620
-    log: |
-         a14ca6480fec9b8eda09c520bc2d85766e5ab23f eventpoll: ensure we pass back -EBADF for a bad file descriptor
-         a9583c8b9aa3afd51ced963a46a0d3d537117620 Merge branch 'epoll-min_ts' into for-next
-         
+  - ref: refs/heads/irq/core
+    old: e6d22108621c837f81d041ec5d61b08d17b151df
+    new: 6132a490f9c81d621fdb4e8c12f617dc062130a2
+    log: revlist-e6d22108621c-6132a490f9c8.txt
 
---===============2466112973085978728==
+--===============5003872805846263527==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6d1b48314b98-f66f73421f0a.txt
+Content-Disposition: attachment; filename=revlist-e6d22108621c-6132a490f9c8.txt
 
-ef0ec1ad03119b8b46b035dad42bca7d6da7c2e5 io_uring: dont remove file from msg_ring reqs
-4c979eaefa4356d385b7c7d2877dc04d7fe88969 io_uring: improve io_double_lock_ctx fail handling
-a85381d8326d75417ae177bddf44be533d1d21be io_uring: skip overflow CQE posting for dying ring
-1b346e4aa8e79227391ffd6b7c6ee5acf0fa8bfc io_uring: don't check overflow flush failures
-e6aeb2721d3bad8379c43644d0380908e93b0187 io_uring: complete all requests in task context
-17add5cea2bbafea0d481f1a3ea9dea019a98ee9 io_uring: force multishot CQEs into task context
-d34b1b0b6779d4f5ee877b53cad90eef0f1cbe34 io_uring: use tw for putting rsrc
-77e443ab294ca5b88896e8ddab41884948d5519a io_uring: never run tw and fallback in parallel
-11373026f2960390d5e330df4e92735c4265c440 io_uring: get rid of double locking
-172113101641cf1f9628c528ec790cb809f2b704 io_uring: extract a io_msg_install_complete helper
-6d043ee1164ca3305738131f170e560587070fa9 io_uring: do msg_ring in target task via tw
-f66f73421f0a929734bb41dde575e6d7859e548f io_uring: skip spinlocking for ->task_complete
+855d4ca4bdb366aab3d43408b74e02ab629d1d55 irqchip: loongarch-cpu: add DT support
+6b2748ada244c7597e9b677a0bdda4e8781a8d8f dt-bindings: interrupt-controller: add yaml for LoongArch CPU interrupt controller
+d0c50cc4b957b2cf6e43cec4998d212b5abe9220 ACPI / PCI: fix LPIC IRQ model default PCI IRQ polarity
+c7c00138015975c8f0e268564249cc47d8de632c irqchip/loongson-pch-pic: Fix translate callback for DT path
+25f3514aab3748bfef4a279ed599f836ac83e62a irqchip/loongson-pch-pic: Support to set IRQ type for ACPI path
+17343d0b4039196517ab5c40d8fce3e8d394c526 irqchip/loongson-liointc: Support to set IRQ type for ACPI path
+70f7b6c008b37a0beb956e25a6c167edfd4b259e irqchip/loongson-htvec: Add ACPI init support
+1be356c9326d68c9b0161ca004a41f203864d7ee irqchip/loongson-htvec: Add suspend/resume support
+a90335c2dfb4ffe572816f77a3c4f2d1d388d724 irqchip/loongson-eiointc: Add suspend/resume support
+1ed008a2c3310ada91e86bd96b354212a9025a61 irqchip/loongson-pch-pic: Add suspend/resume support
+c7c75e32f8a61854c38326aef276e3a58dc7fd08 irqchip/loongson-pch-lpc: Add suspend/resume support
+d46b99656a16c450681985661a249dbb18e55cc4 irqchip/apple-aic: Mark aic_info structs __initconst
+915649da01de13961f9d6a891b6db5a6255ac0b2 irqchip/mips-gic: Drop repeated word in comment
+f9ee20c85b3a3ba0afd3672630ec4f93d339f015 irqchip: gic-pm: Use pm_runtime_resume_and_get() in gic_probe()
+9869f37aa4ee2a2e08536529dab4ccda9e23ce0c irqchip/al-fic: Drop obsolete dependency on COMPILE_TEST
+4e08a286b1f7a0a32828d6411255296e4ef51fa6 irqchip/st: Use device_get_match_data() to simplify the code
+4208d4faf36573a507b5e5de17abe342e9276759 irqchip/wpcm450: Fix memory leak in wpcm450_aic_of_init()
+d502c558fd2b190c9125e8da54bef3f302fa9b15 irqchip/sl28cpld: Replace irqchip mask_invert with unmask_base
+4a60a3cdcf1875c965095eb9e22c3d12bbc5a53d irqchip/loongson-liointc: Fix improper error handling in liointc_init()
+f5259b045c19f6e997bd12d53a5f76663537c1fd irqchip/sifive-plic: Support wake IRQs
+7f3974ef4e31d730e7aa902b30800ba0962277da dt-bindings: interrupt-controller: mediatek,cirq: Migrate to dt schema
+85de640c6b89eb76fc314a3b451d054bedd5e9dc dt-bindings: interrupt-controller: mediatek,cirq: Document MT8192
+45ac01959edcecfa5d6652c2397d3866e55b0da8 irqchip/irq-mtk-cirq: Move register offsets to const array
+5c4e0aac0b2a27168844da49cee2c5dff2925d22 irqchip/irq-mtk-cirq: Add support for System CIRQ on MT8192
+3d12938dbc048ecb193fec69898d95f6b4813a4b irqchip/loongarch: Adjust acpi_cascade_irqdomain_init() and sub-routines
+63ab33c08c41130ad82155515803e90d0e71e8ef Merge branch irq/loongarch-acpi into irq/irqchip-next
+5e279739d7312b8958ec816fa38dba2725638503 irqchip/gic: Use kstrtobool() instead of strtobool()
+3ae977d0e4e3a2a2ccc912ca2d20c9430508ecdd irqchip/ls-extirq: Fix endianness detection
+065abd13a63f40318162eeca6c0215fc5cbb9b0a irqchip/loongarch-cpu: Fix a missing prototype warning
+dc7f1c295f829c0dd40fed8e799a37a05bec6892 Merge branch irq/loongarch-of into irq/irqchip-next
+4363c8525e07e86a3f410981a2712b3bf6b04659 Merge branch irq/cirq-v2 into irq/irqchip-next
+6ed54e1789a29d3f1557454cc7d2eb9c10d1d37b Merge branch irq/misc-6.2 into irq/irqchip-next
+6132a490f9c81d621fdb4e8c12f617dc062130a2 Merge tag 'irqchip-6.2' of git://git.kernel.org/pub/scm/linux/kernel/git/maz/arm-platforms into irq/core
 
---===============2466112973085978728==--
+--===============5003872805846263527==--
