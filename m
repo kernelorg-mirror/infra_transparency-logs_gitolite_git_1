@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Wed, 07 Dec 2022 21:58:15 -0000
-Message-Id: <167045029520.5808.1589323615954922627@gitolite.kernel.org>
+Date: Wed, 07 Dec 2022 21:59:54 -0000
+Message-Id: <167045039459.6436.5250919371106862617@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -9,12 +9,11 @@ Content-Transfer-Encoding: 7bit
 ---
 service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+user: dborkman
 changes:
-  - ref: refs/heads/for-next
-    old: e9b4aeed56699b469206d05e706ddf2db95700a9
-    new: 0a6ea1ce8260f08079b0940350a21e4ad95c2378
+  - ref: refs/heads/master
+    old: 0a6ea1ce8260f08079b0940350a21e4ad95c2378
+    new: dcb2288b1fd9a8cdf2f3b8c0c7b3763346ef515f
     log: |
-         5b481acab4ce017fda8166fa9428511da41109e5 bpf: do not rely on ALLOW_ERROR_INJECTION for fmod_ret
-         0a6ea1ce8260f08079b0940350a21e4ad95c2378 Merge "do not rely on ALLOW_ERROR_INJECTION for fmod_ret" into bpf-next
+         dcb2288b1fd9a8cdf2f3b8c0c7b3763346ef515f bpf: Remove unused insn_cnt argument from visit_[func_call_]insn()
          
