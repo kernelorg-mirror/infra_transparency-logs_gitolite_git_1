@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Wed, 07 Dec 2022 10:48:51 -0000
-Message-Id: <167041013165.10615.14704325707071799792@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Wed, 07 Dec 2022 10:54:09 -0000
+Message-Id: <167041044929.14035.4062299340003533148@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: pabeni
 changes:
   - ref: refs/heads/master
-    old: 88956177db179e4eba7cd590971961857d1565b8
-    new: 063a932b64db3317ec020c94466fe52923a15f60
+    old: ed883bec679b027b198d57a336715f8298fb88b4
+    new: e22dcbc9aa329e7902a8c9f8d11aba74f5d7c97d
     log: |
-         063a932b64db3317ec020c94466fe52923a15f60 ethernet: aeroflex: fix potential skb leak in greth_init_rings()
+         e22dcbc9aa329e7902a8c9f8d11aba74f5d7c97d net: ethernet: mtk_wed: Fix missing of_node_put() in mtk_wed_wo_hardware_init()
          
