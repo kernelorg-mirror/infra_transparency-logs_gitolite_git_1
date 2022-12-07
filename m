@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0206594124474743367=="
+Content-Type: multipart/mixed; boundary="===============7498459190402831758=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Wed, 07 Dec 2022 18:18:38 -0000
-Message-Id: <167043711897.8676.4779552499392665999@gitolite.kernel.org>
+Date: Wed, 07 Dec 2022 18:23:08 -0000
+Message-Id: <167043738823.11803.4797253287090868040@gitolite.kernel.org>
 
---===============0206594124474743367==
+--===============7498459190402831758==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,43 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/kobject-const2
-    old: 4610317616a8e6f8854470c1e1591e5abae22fa1
-    new: 739dbed2ccd17a50e3b86dfcbb1b45095d47211d
+    old: 739dbed2ccd17a50e3b86dfcbb1b45095d47211d
+    new: c79f17163bd10a3a64a84654e9ef2c5d063e5346
     log: |
-         ea0c444cae99f685e92b7081469d244a36e02725 i3c: move dev_to_i3cdev() to use container_of_const()
-         4585938a0a6e52a7a87c7552ebee4284726f0e30 platform/surface: aggregator: move to_ssam_device() to use container_of_const()
-         bcd42c784abb59197bdb1ad1cad2b3d23ad26ad1 firewire: move fw_device() and fw_unit() to use container_of_const()
-         739dbed2ccd17a50e3b86dfcbb1b45095d47211d driver core: make struct device_type.uevent() take a const *
+         c79f17163bd10a3a64a84654e9ef2c5d063e5346 driver core: make struct device_type.uevent() take a const *
          
 
---===============0206594124474743367==
+--===============7498459190402831758==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1670437117 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1670437386 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1670437116-de5388c4c30a5ee0750ae101163376e149d96497
+nonce 1670437385-b10f7626590ab3d03c3a70e68e0d2ede54795030
 
-4610317616a8e6f8854470c1e1591e5abae22fa1 739dbed2ccd17a50e3b86dfcbb1b45095d47211d refs/heads/kobject-const2
+739dbed2ccd17a50e3b86dfcbb1b45095d47211d c79f17163bd10a3a64a84654e9ef2c5d063e5346 refs/heads/kobject-const2
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmOQ2P0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+NtsP/2kGgTwQb5Z0SF7j+Ni6
-WDV+OCHjv3a954kkuMw9dg6WeVvjTQ6i8vidR28MI7QBfNP2Dp38Eb9atyMnjth7
-nTZ6IbZAKVGILTUDDXNWGd1vR1F14AaaLbtQj+nrxqAZKZDlfCFYG0eSDV8Uz0U7
-ZWHRGJxAUZuR21X601xIGmmX/k8S9egyh7T1JU5UWq1u+PHjugYuIOrxy74SJOjZ
-MVf6aGDayep0dOjgbiueL6PJHy+BLAV0rHLs/bvxewbvwHQSSHi9GC69v6WL2e4D
-8wUvwnm4yL8W+/K30JDjPUXQ+yJcV72dKoHwdf9IWGFDMGymOJgP/8raBctVdY+W
-YG+7G3syiY6Wxz6Hevf7t4KN9A8Vtm8MHE7jIu9QUAlBHuFS6TfqpaiQyRcMZuXj
-Pk+pQ9PQ6CWMau5ypLJT1Zxvhd1GbmlDeQ2dzucfLGWsj9FxDDACj/I4MdRT3VQr
-rBrnmSeyYZ6FPvKHejyl8bHJvgYfKx1tY8K4MLxOjyp/4swFAEvyJhlNo3A02B5G
-vHifP1YKiDyXV1tM414dkcZpRkQ+e2Sl6TmgV6+gVbd+VNWfeLYtwcz4t5fbC4hL
-+Zh2NrW1M+9tRFXrj/mM+BSlaJqD7jUZD1YDvRFViiBCNKHCAQ0t91KoI/5PvXQh
-bslfYCSKcBi50CQofpYAc/6f
-=7kFn
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmOQ2gobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+qxYP/iT2ShoV3s0PrRjJybNY
+lurS98CCAKlk6QxQMHHaq9TbQsUz73EEvsc34bBTzeeOJ+sFFKm66s+hV3YA8LIp
+rut7YMzsUOJXmgP5jX202eOYqqnZXrCzmtiLouD8rTAbcLpy/twNpYK1KxkaZHvW
+3Ou3fGlvxWnn+Wd3bTta4bAafXCE8aj8NthHbgqL+AtLyy4SXuN9KjGlwh/VSH16
+qr1KyMUj4CbjRK2DYkXz7BVDMZ3r+qwkhTldJn0MjIvo5AnSrYczJsw5iCjFX9W6
+HMtUxZtu4AAys3pld4VTQ0vjE9AiVhoISuOwN8OB7f5F1VoJM5NmCYRgC3eUdGlQ
+PNQzEz5n8DScW3iDeNNdrxZzpJbIzGYTlzKJg1CAZGYqOTsWO0+B7/MXswajH1KN
+ZZZ3vwpikA1gEFMSqxl+Za2aZ4/6LG7yHS/Wj/b9LOj2m0S8oJ9LoEh2IPYcyAWI
+S2Y4aeGOn1WlbtXjwHc/2KXglxP/aZdII4gIC+mbrnMT9m6G2YpRvQp8Mi1LIijF
+roTqXBGmdy6zg1gn68WjQRi6BFK6Cx+6tg6Qilp7OzI+AA3etFVg7vwVTle/UfBR
+JEoFgzdpZSe1at/iO3AV1LYq7sGIy3Rh8je7VUW2PVRAMaXWQATYw5j0Vsv2gR98
+Lf7ev3QnU04kWPFpQlTaeJ+h
+=Aagv
 -----END PGP SIGNATURE-----
 
---===============0206594124474743367==--
+--===============7498459190402831758==--
