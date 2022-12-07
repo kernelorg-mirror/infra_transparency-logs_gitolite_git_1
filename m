@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Wed, 07 Dec 2022 00:11:05 -0000
-Message-Id: <167037186547.27511.7966414040469877725@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/lsm
+Date: Wed, 07 Dec 2022 00:19:42 -0000
+Message-Id: <167037238258.32140.12006189404274189136@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/pcmoore/lsm
+user: pcmoore
 changes:
-  - ref: refs/heads/master
-    old: 3221a6994b2bc977523cf17f5511ca677b584919
-    new: af835b8b7266e02b3620b6320561a9e14281cd27
+  - ref: refs/heads/next
+    old: 572302af1258459e124437b8f3369357447afac7
+    new: 8eb687bc806932fc65de4cf60c4ecf913182231d
     log: |
-         4a660201f06cc47f70bd2afb428832aeda89a7fe foo
-         af835b8b7266e02b3620b6320561a9e14281cd27 foo
+         361dd63ed5f1103ff21e22408a142a7d40804527 lsm: Clarify documentation of vm_enough_memory hook
+         8eb687bc806932fc65de4cf60c4ecf913182231d lsm: Add/fix return values in lsm_hooks.h and fix formatting
          
