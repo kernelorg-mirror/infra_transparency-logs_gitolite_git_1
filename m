@@ -1,57 +1,23 @@
-Content-Type: multipart/mixed; boundary="===============3750630337293442175=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Wed, 07 Dec 2022 11:51:02 -0000
-Message-Id: <167041386277.23228.8176597310128048837@gitolite.kernel.org>
-
---===============3750630337293442175==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Wed, 07 Dec 2022 11:53:43 -0000
+Message-Id: <167041402309.24254.4993603543326030769@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/driver-core
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: pabeni
 changes:
-  - ref: refs/heads/kobject-const3
-    old: 47446b50ad2549af4fcc93f82a148ab107e6ef6a
-    new: 0421b126ad5a371dbbac2acddf15f4858808bb3f
+  - ref: refs/heads/master
+    old: f82389eecdd24a50f0d33d58127aeacc48d53511
+    new: a2220b54589b1d2a404f6eb5f6bc3c0ace2b504f
     log: |
-         857fabed2f2466242e9f454870b4c58916593b0b i3c: move dev_to_i3cdev() to use container_of_const()
-         0421b126ad5a371dbbac2acddf15f4858808bb3f platform/surface: aggregator: move to_ssam_device() to use container_of_const()
+         f2e664ad503d4e5ce7c42a0862ab164331a0ef37 octeontx2-af: Support variable number of lmacs
+         b9d0fedc6234011d67f6e2ba0ae1a8de6beca010 octeontx2-af: cn10kb: Add RPM_USX MAC support
+         b441c4ac5ea37251d6acabe679215a828025004b octeontx2-pf: ethtool: Implement get_fec_stats
+         84ad3642115dfc2f17b6bd98e0470f799b8411e3 octeontx2-af: Add FEC stats for RPM/RPM_USX block
+         a2220b54589b1d2a404f6eb5f6bc3c0ace2b504f Merge branch 'cn10kb-mac-block-support'
          
-
---===============3750630337293442175==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1670413859 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1670413859-44b943438bbca1025dd8faec76aa037294cc5f0b
-
-47446b50ad2549af4fcc93f82a148ab107e6ef6a 0421b126ad5a371dbbac2acddf15f4858808bb3f refs/heads/kobject-const3
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmOQfiMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+QS4QAKXhBiVQm/Urnivx3e6y
-9lblfdEvw41aGsuMDr2RLxRtNi/dW46KLfRqKORh8+Y2x98y+zzMDsmvkBIV+WTf
-u/HkG5Vd79lwBqs7hyO0loPKMUXKBfxv37Y5oQl2YM/4vx8FTA++2Y9kEPV6ws8Q
-rZGLbMYBeKfzi7d3kZjIIkKwB875NTcUSQEVdxbqOnU+pkWWqeIZRmWgNn2MDWSF
-Thy/TFdbJLsjZAa+gbkMZlW7O3ZDdeQELY7hLUT9+b7ImX9ij55aWxyocdq73jqY
-dvnS9EbbmYygT3wWoVhOfE5AJ7Cy02jIo5YwNXaJ6ItuSOCQWFKQ+HxybzB+74P+
-WOca6Xnub2zO34/vvrIcp9AD/oqkGfJ/0MLYzxJlCqzCOBl4zQ/vwm6J6edDxLkc
-4UpD/OTMD2TZGmpaM7vMAos5xgKOz4+9qIQ/QC4Sl1sE1Z7j8Ia7DxMWcjEfsUWh
-FzAbXITVAXNB7embN7afTEScBELC1JxpBKnqR5tgK3599UhyxzxaDZwbw07ONRM+
-FQCUNmTABUtYCi4uJm0XFYxRNVx5O2LIHK+mHVAHGZWuALLrY6ncb4uzOoES5glk
-E+uOmzRP58NS25nrdpT2ctUqaIXUjlljV+NFa2niEu3HBmhUfHDE69BUFq51HywM
-+JKSpdMqdNQ8Wayr4mWFHdLb
-=GUe6
------END PGP SIGNATURE-----
-
---===============3750630337293442175==--
