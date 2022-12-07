@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Wed, 07 Dec 2022 17:24:55 -0000
-Message-Id: <167043389502.2254.3287250274279318623@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Wed, 07 Dec 2022 17:24:58 -0000
+Message-Id: <167043389828.2401.16605264539761808492@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
-user: acme
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/tmp.perf/core
-    old: dfe3eff617927a9b742aa570c0f078d776268865
-    new: be61b0d75b08d3cfb07f86997dd97fb0d2b11f9b
-    log: |
-         be61b0d75b08d3cfb07f86997dd97fb0d2b11f9b perf build: Use libtraceevent from the system
-         
+  - ref: refs/heads/20221206_pierre_louis_bossart_asoc_intel_boards_updates_for_sof_boards
+    old: 47d2b66fec133cb27da3a551334686e465d19469
+    new: 0000000000000000000000000000000000000000
