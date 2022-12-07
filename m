@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Wed, 07 Dec 2022 04:37:04 -0000
-Message-Id: <167038782425.28632.1481400259430998966@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Wed, 07 Dec 2022 04:39:59 -0000
+Message-Id: <167038799977.29724.14348094861033077240@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/master
-    old: e40febfb9c99bc30a0dcb60e39b00beb656fdb0f
-    new: 78a9ea43fc1a7c06a420b132d2d47cbf4344a5df
+    old: 15309fb26b87767b4c8b017a628424e3c3b2f69e
+    new: e3bd74c3d1907360a37f49a0cdf02daa2983ff53
     log: |
-         78a9ea43fc1a7c06a420b132d2d47cbf4344a5df net: dsa: sja1105: fix memory leak in sja1105_setup_devlink_regions()
+         1ab586f5177b3b2805a05aa926a5b46d3d7f112c sfc: use sysfs_emit() to instead of scnprintf()
+         e3bd74c3d1907360a37f49a0cdf02daa2983ff53 net: microchip: vcap: Remove unneeded semicolons
          
