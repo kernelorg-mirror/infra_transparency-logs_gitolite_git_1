@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Thu, 08 Dec 2022 01:12:41 -0000
-Message-Id: <167046196126.19344.4470299880289486313@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Thu, 08 Dec 2022 01:13:30 -0000
+Message-Id: <167046201069.19749.14575597177957939683@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: ast
 changes:
   - ref: refs/heads/master
-    old: a2220b54589b1d2a404f6eb5f6bc3c0ace2b504f
-    new: 5608e0a817ceb84afca8a8d738c29ffefbe4a398
+    old: 26c386ecf0212affb50f02dabcb0152995b99b07
+    new: 2d14123617f9917126c78719e0eaae3badbd624f
     log: |
-         5608e0a817ceb84afca8a8d738c29ffefbe4a398 net: asix: add support for the Linux Automation GmbH USB 10Base-T1L
+         25c5e92d197bd721e706444c5910fd386c330456 bpf/docs: Document struct task_struct * kfuncs
+         36aa10ffd6480b93e32611411be4a8fc49804aba bpf/docs: Document struct cgroup * kfuncs
+         2d14123617f9917126c78719e0eaae3badbd624f Merge branch 'Document some recent core kfunc additions'
          
