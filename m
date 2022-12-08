@@ -1,23 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Thu, 08 Dec 2022 18:19:44 -0000
-Message-Id: <167052358457.24982.9472680912973180327@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
+Date: Thu, 08 Dec 2022 18:20:14 -0000
+Message-Id: <167052361498.26707.13481108259104287440@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/next-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/cel/linux
+user: cel
 changes:
-  - ref: refs/heads/100GbE
-    old: 1d0d9fb3e600e711b9df743d7dc367a5d90d7b4a
-    new: 4ecfcf87dd006975724ca562e892a38c10213408
+  - ref: refs/heads/topic-rpcsec-gss-krb5-enhancements
+    old: d50d312c391450911fcbb351f2530a9beb4a1ccf
+    new: ba7f9f82aed6731fff5d115d3f190c05d5af7366
     log: |
-         2ac3984053a384ad0dfb4dc4a1bb37b78bd28961 ice: cleanup allocations in ice_ptp_alloc_tx_tracker
-         0b7e24b376b503763e5c276177539027dd73faa5 ice: handle flushing stale Tx timestamps in ice_ptp_tx_tstamp
-         badf98de98a65171a86a0f8ecb8f9e050a5acbdc ice: only check set bits in ice_ptp_flush_tx_tracker
-         43096c7406d94ec0454670cecdd50bd709b81a8b ice: make Tx and Rx vernier offset calibration independent
-         4ecfcf87dd006975724ca562e892a38c10213408 ice: reschedule ice_ptp_wait_for_offset_valid during reset
+         17df2e03b0b14fd0bd5b02a6128581230e22b77f SUNRPC: Parametrize the checksum key length
+         0f3606b9d812712a07bf28d7e909e7208dd2c918 SUNRPC: Parametrize the key length passed to context_v2_alloc_cipher()
+         f5e29f93b64c294f24e4ab6e5ba46aa6ea696fb1 SUNRPC: Add new subkey length fields
+         037c3f06261a7dfd12afe39adf18b488873afe93 SUNRPC: Hoist KDF into struct gss_krb5_enctype
+         b78f4d40de7d8ae88a6fd3954c85053ba1716e50 SUNRPC: Export get_gss_krb5_enctype()
+         912cba0d6654a818d793baf6f3b0b26ee760fc69 SUNRPC: Add KUnit tests for rpcsec_krb5.ko
+         ec815875c6565ea0851a254ff49f0362f8be6b4d SUNRPC: Add unit tests for RFC 3962-defined encryption/decryption
+         675fe54b9c5ecab65814985b1b66a372d5a1ca44 SUNRPC: Add Kerberos profile definitions for RFC 8009 encryption types
+         fa446a91cd05518fa0fcbf8cea543d399d02e573 SUNRPC: Add KDF-HMAC-SHA2
+         ba7f9f82aed6731fff5d115d3f190c05d5af7366 SUNRPC: Add RFC 8009 checksum unit tests
          
