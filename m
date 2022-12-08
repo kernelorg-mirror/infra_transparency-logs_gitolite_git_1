@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Thu, 08 Dec 2022 13:02:24 -0000
-Message-Id: <167050454414.14735.13309065899895297798@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Thu, 08 Dec 2022 13:02:43 -0000
+Message-Id: <167050456356.14968.15353156487627607983@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/for-next
-    old: 4c41a2582a54b2099f0f5d9c33738b1374343e17
-    new: 7b0a231ee55a10030327e2f9f43257dc88b22b59
-    log: |
-         2a17ddfdca25ac4cbb0d317362608ec32f98fd82 dt-bindings: Add missing 'unevaluatedProperties' to regulator nodes
-         7b0a231ee55a10030327e2f9f43257dc88b22b59 Merge remote-tracking branch 'regulator/for-6.2' into regulator-next
-         
+  - ref: refs/heads/filevhO0ci
+    old: 0000000000000000000000000000000000000000
+    new: 8f3cbcd6b440032ebc7f7d48a1689dcc70a4eb98
