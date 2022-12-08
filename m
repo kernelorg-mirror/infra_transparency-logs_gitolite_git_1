@@ -1,41 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============8210440502730216014=="
+Content-Type: multipart/mixed; boundary="===============7018517348722483784=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Thu, 08 Dec 2022 04:24:04 -0000
-Message-Id: <167047344403.26534.2196821038550638658@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Thu, 08 Dec 2022 04:24:13 -0000
+Message-Id: <167047345341.26696.11951550768508107693@gitolite.kernel.org>
 
---===============8210440502730216014==
+--===============7018517348722483784==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
   - ref: refs/heads/master
     old: 591cd61541b9b95401e17dca24be486e32104cb8
     new: f925116b24c0c42dc6d5ab5111c55fd7f74e8dc7
     log: revlist-591cd61541b9-f925116b24c0.txt
-  - ref: refs/heads/stable
-    old: 8ed710da2873c2aeb3bb805864a699affaf1d03b
-    new: 479174d402bcf60789106eedc4def3957c060bad
-    log: |
-         e4678483f9bc400642bbc05c6b75a1b44bcb6c25 platform/x86/amd: pmc: Add a workaround for an s0i3 issue on Cezanne
-         098e5edc5d048a8df8691fd9fde895af100be42b media: videobuf2-core: take mmap_lock in vb2_get_unmapped_area()
-         b5b52de3214a29911f949459a79f6640969b5487 fscache: Fix oops due to race with cookie_lru and use_cookie
-         479174d402bcf60789106eedc4def3957c060bad Merge tag 'platform-drivers-x86-v6.1-5' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-         
-  - ref: refs/tags/next-20220908
-    old: 94c28deb5b0d7d29c7372e4427014cc9dc26c68c
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20221208
     old: 0000000000000000000000000000000000000000
     new: dfdaa44c38ac00f6b1e5b5ba40411ca2677076c9
 
---===============8210440502730216014==
+--===============7018517348722483784==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -995,4 +983,4 @@ e4542de8917ff64b74e2c4de1d5917b0e0a28508 Merge branch 'mm-nonmm-stable' of git:/
 268cf656cc701b16b8371556fc566af43ca325d4 Merge branch 'next' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux.git
 f925116b24c0c42dc6d5ab5111c55fd7f74e8dc7 Add linux-next specific files for 20221208
 
---===============8210440502730216014==--
+--===============7018517348722483784==--
