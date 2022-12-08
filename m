@@ -1,31 +1,42 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Thu, 08 Dec 2022 16:48:33 -0000
-Message-Id: <167051811350.28145.12356012915917562037@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/xfs/xfs-linux
+Date: Thu, 08 Dec 2022 16:48:59 -0000
+Message-Id: <167051813906.28359.11077019833242914515@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/soc/soc
-user: arnd
+repo: pub/scm/fs/xfs/xfs-linux
+user: djwong
 changes:
-  - ref: refs/heads/arm/fixes
-    old: da0cbf9307a227f52a38a0a580a4642ad9d7325c
-    new: ef19964da8a668c683f1d38274f6fb756e047945
+  - ref: refs/heads/for-next
+    old: 52f31ed228212ba572c44e15e818a3a5c74122c0
+    new: 4883f57a2d861a68588aefbf592f86d1e059f1ec
     log: |
-         ef19964da8a668c683f1d38274f6fb756e047945 Revert "ARM: dts: imx7: Fix NAND controller size-cells"
+         0587d473e25605c610af564fc2c35cda3fbdfc62 fsdax: introduce page->share for fsdax in reflink mode
+         038587477f4323a212e11a8999bd87e08adbd6cc fsdax: invalidate pages when CoW
+         624c2f49637c06bb62ed9fc789c301ea330b2f03 fsdax: zero the edges if source is HOLE or UNWRITTEN
+         03e54f961bda26fce04128e8c9435518c17abf50 fsdax,xfs: set the shared flag when file extent is shared
+         06573bf13dc77f385bee3ac76143efc81a88adfd fsdax: dedupe: iter two files at the same time
+         0d3ca2b4cbb337a6d3c362d6ba733b3b0b8b288b xfs: use dax ops for zero and truncate in fsdax mode
+         3a0a36f143e4c755c85190bd61a22863a0ed9f87 fsdax,xfs: port unshare to fsdax
+         4883f57a2d861a68588aefbf592f86d1e059f1ec xfs: remove restrictions for fsdax and reflink
          
-  - ref: refs/heads/soc/dt
-    old: da060ab86eb0de7954dafa34aefa9cc58cc4e76c
-    new: c83ce312081cf024b00a8a7fe785a90ba94b69fb
+  - ref: refs/heads/xfs-6.2-merge
+    old: 52f31ed228212ba572c44e15e818a3a5c74122c0
+    new: 4883f57a2d861a68588aefbf592f86d1e059f1ec
     log: |
-         56d32c51dffac8a431b472a4c31efb8563b048d1 arch: arm64: apple: t8103: Use standard "iommu" node name
-         9742350931df69f8aad7a764ff6286ac069305f5 arch: arm64: apple: t600x: Use standard "iommu" node name
-         63bf0b66ddfa6761dd47350b8d1f7161a06e9954 arm64: dts: apple: Rename dart-sio* to sio-dart*
-         9ecb7a4b8ac67c1a73fefd17bc00e943d7f74378 arm64: dts: apple: Add t8103 L1/L2 cache properties and nodes
-         2aa48e294622f7204d02de9758795171c0bd937a arm64: dts: apple: t600x-pmgr: Fix search & replace typo
-         67327f125801f98aec9e2cf5e1df16cf493a065f arm64: dts: apple: t6002: Fix GPU power domains
-         c83ce312081cf024b00a8a7fe785a90ba94b69fb Merge tag 'asahi-soc-dt-6.2-v3' of https://github.com/AsahiLinux/linux into soc/dt
+         0587d473e25605c610af564fc2c35cda3fbdfc62 fsdax: introduce page->share for fsdax in reflink mode
+         038587477f4323a212e11a8999bd87e08adbd6cc fsdax: invalidate pages when CoW
+         624c2f49637c06bb62ed9fc789c301ea330b2f03 fsdax: zero the edges if source is HOLE or UNWRITTEN
+         03e54f961bda26fce04128e8c9435518c17abf50 fsdax,xfs: set the shared flag when file extent is shared
+         06573bf13dc77f385bee3ac76143efc81a88adfd fsdax: dedupe: iter two files at the same time
+         0d3ca2b4cbb337a6d3c362d6ba733b3b0b8b288b xfs: use dax ops for zero and truncate in fsdax mode
+         3a0a36f143e4c755c85190bd61a22863a0ed9f87 fsdax,xfs: port unshare to fsdax
+         4883f57a2d861a68588aefbf592f86d1e059f1ec xfs: remove restrictions for fsdax and reflink
          
+  - ref: refs/tags/xfs-6.2-merge-9
+    old: 0000000000000000000000000000000000000000
+    new: 7abd2c9560af141019c41d892432dccefe93a505
