@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dlemoal/libata
-Date: Thu, 08 Dec 2022 02:38:47 -0000
-Message-Id: <167046712775.15822.11101989792633373429@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mcgrof/linux
+Date: Thu, 08 Dec 2022 02:39:04 -0000
+Message-Id: <167046714403.16009.12591343874691057734@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dlemoal/libata
-user: dlemoal
+repo: pub/scm/linux/kernel/git/mcgrof/linux
+user: mcgrof
 changes:
-  - ref: refs/tags/ata-6.1-rc8
-    old: 0000000000000000000000000000000000000000
-    new: bb1d2ee89ecb858cc9361f0ba4146decb69e5ee7
+  - ref: refs/heads/modules-next
+    old: 169a58ad824d896b9e291a27193342616e651b82
+    new: 7d3c2434c79b8204da8b1bb8d443bc30d6f25096
+    log: |
+         7d3c2434c79b8204da8b1bb8d443bc30d6f25096 module: Don't wait for GOING modules
+         
