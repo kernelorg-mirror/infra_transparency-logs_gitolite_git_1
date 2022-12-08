@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Thu, 08 Dec 2022 13:19:29 -0000
-Message-Id: <167050556949.26612.5760743000468638073@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Thu, 08 Dec 2022 13:45:00 -0000
+Message-Id: <167050710000.12262.15766562234253792829@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/soc/soc
-user: arnd
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/tags/soc-fixes-6.1-5
+  - ref: refs/tags/sound-6.2-rc1
     old: 0000000000000000000000000000000000000000
-    new: fd1f6174c6b5fd177245c347b36508482e30e05b
+    new: b13f60ec52371b0e8c634db4e94dd527fdc51d27
