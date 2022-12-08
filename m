@@ -1,42 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============1848661715657155929=="
+Content-Type: multipart/mixed; boundary="===============4466218504969428124=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Thu, 08 Dec 2022 22:39:23 -0000
-Message-Id: <167053916366.2971.11468979615476133131@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Thu, 08 Dec 2022 22:50:03 -0000
+Message-Id: <167053980360.11877.12686160408696750497@gitolite.kernel.org>
 
---===============1848661715657155929==
+--===============4466218504969428124==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
-user: acme
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/tmp.perf/core
-    old: be61b0d75b08d3cfb07f86997dd97fb0d2b11f9b
-    new: b22802e295a80ec16e355d7208d2fbbd7bbc1b7a
-    log: revlist-be61b0d75b08-b22802e295a8.txt
+  - ref: refs/heads/master
+    old: 479174d402bcf60789106eedc4def3957c060bad
+    new: ce19275f0103934828cb19712b6d8552c39476c8
+    log: revlist-479174d402bc-ce19275f0103.txt
 
---===============1848661715657155929==
+--===============4466218504969428124==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-be61b0d75b08-b22802e295a8.txt
+Content-Disposition: attachment; filename=revlist-479174d402bc-ce19275f0103.txt
 
-3a88d1f56c0a6e9e66b9660dc6050b1faee13da6 perf stat: Fix multi-line metric output in JSON
-911f915a12af362bb8ad7b23cd798b59589b245d perf stat: Fix invalid output handle
-9d9d85cabc7026aa8bf6a6b06575fbbcdcdc212c perf util: Make header guard consistent with tool
-e4ac8b06eb3cf86b6eb4aac3f410af6d47da6e76 perf util: Add host_is_bigendian to util.h
-e67c55970f1325f908460d7a796ae74b4403d77b perf tool: Move pmus list variable to a new file
-82e236e28a79bd10d71ae5d8bb4dd4f79754b53b perf test: Add event group test for events in multiple PMUs
-f37cd4484bc4efb7c338abf1239441eb4638dcb2 machine: Adopt is_lock_function() from builtin-lock.c
-82c33bb40197fb0243b877890340bd2654d431be perf build: Fixes for LIBTRACEEVENT_DYNAMIC
-ee97195be9f439ca67ea786383a9ad94c57a8d55 perf stat: Update event skip condition for system-wide per-thread mode and merged uncore and hybrid events
-ce2bbeb7263f3b384adc89b8de9ac060c5dbade0 perf jevents: Parse metrics during conversion
-c55c68857432ed4399a90fd977eee687688f3765 perf build: Use libtraceevent from the system
-b22802e295a80ec16e355d7208d2fbbd7bbc1b7a perf tools: Add test to check if libtracevent has TEP_FIELD_IS_RELATIVE
+a6f4f1662711bd03308371d9649783a5be596898 HID: uclogic: Fix frame templates for big endian architectures
+9ad6645a9dce4d0e42daca6ebf32a154401c59d3 HID: ite: Enable QUIRK_TOUCHPAD_ON_OFF_REPORT on Acer Aspire Switch V 10
+d180b6496143cd360c5d5f58ae4b9a8229c1f344 HID: hid-lg4ff: Add check for empty lbuf
+2afac81dd16544d825f309fd992d2af6304353df HID: fix I2C_HID not selected when I2C_HID_OF_ELAN is
+3405a4beaaa852f3ed2a5eb3b5149932d5c3779b HID: uclogic: Add HID_QUIRK_HIDINPUT_FORCE quirk
+ec61b41918587be530398b0d1c9a0d16619397e5 HID: core: fix shift-out-of-bounds in hid_report_raw_event
+f6d910a89a2391e5ce1f275d205023880a33d3f8 HID: usbhid: Add ALWAYS_POLL quirk for some mice
+6a3fc8c330d1c1fa3d8773d7d38a7c55c4900dfe ARM: at91: fix build for SAMA5D3 w/o L2 cache
+ec851b23084b3a0af8bf0f5e51d33a8d678bdc49 gpiolib: fix memory leak in gpiochip_setup_dev()
+da0cbf9307a227f52a38a0a580a4642ad9d7325c Merge tag 'at91-fixes-6.1-3' of https://git.kernel.org/pub/scm/linux/kernel/git/at91/linux into arm/fixes
+45fecdb9f658d9c82960c98240bc0770ade19aca gpio: amd8111: Fix PCI device reference count leak
+63ff545af73f759d1bd04198af8ed8577fb739fc gpio/rockchip: fix refcount leak in rockchip_gpiolib_register()
+d95d140e83634e7914277862dee841564d02879f ata: libahci_platform: ahci_platform_find_clk: oops, NULL pointer
+7dfa764e0223a324366a2a1fc056d4d9d4e95491 xen/netback: fix build warning
+143d64bdbdb85787953a70332f9e5f658b678550 LoongArch: Export symbol for function smp_send_reschedule()
+b681604edab66f20dde767f4690e554f26c5bfb9 LoongArch: mm: Fix huge page entry update for virtual machine
+38eb496d85b89d6ad8fe9701acd2ac1de804b6c1 docs/LoongArch: Add booting description
+1385313d8bc112760559f06f64708d936b3f2d7c docs/zh_CN: Add LoongArch booting description's translation
+fbf8321238bac04368f57af572e05a9c01347a0b memcg: Fix possible use-after-free in memcg_write_event_control()
+57fb3f66a3aa3e92b6008124bfa641702bd69a53 Merge tag 'ata-6.1-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/dlemoal/libata
+306ba2402de569a401549bf343ef60748b8f43df Merge tag 'gpio-fixes-for-v6.1' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
+a4c3a07e5b9ffb525435fedd94b5082c928e56dd Merge tag 'for-linus-xsa-6.1-rc9b-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/xen/tip
+7f043b7662b6a9cfa981c02199ac939ed1c11372 Merge tag 'loongarch-fixes-6.1-3' of git://git.kernel.org/pub/scm/linux/kernel/git/chenhuacai/linux-loongson
+40f2432b53a01b6d5e3a9057f1d5c406930e1360 Revert "HID: logitech-hidpp: Remove special-casing of Bluetooth devices"
+a9d9e46c755a189ccb44d91b8cf737742a975de8 Revert "HID: logitech-hidpp: Enable HID++ for all the Logitech Bluetooth devices"
+f3e8416619ced89abd5b1254f29d0c3904297298 Merge tag 'soc-fixes-6.1-5' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
+ce19275f0103934828cb19712b6d8552c39476c8 Merge tag 'for-linus-2022120801' of git://git.kernel.org/pub/scm/linux/kernel/git/hid/hid
 
---===============1848661715657155929==--
+--===============4466218504969428124==--
