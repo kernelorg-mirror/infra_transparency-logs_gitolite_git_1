@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Thu, 08 Dec 2022 18:04:26 -0000
-Message-Id: <167052266697.14070.7717389331560445324@gitolite.kernel.org>
+Date: Thu, 08 Dec 2022 18:06:23 -0000
+Message-Id: <167052278344.16211.14208556625064270543@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/for-next
-    old: 2d14123617f9917126c78719e0eaae3badbd624f
-    new: d35af0a7feb077c43ff0233bba5a8c6e75b73e35
+  - ref: refs/heads/master
+    old: d35af0a7feb077c43ff0233bba5a8c6e75b73e35
+    new: c2cc0ce72a5ed3e01705e14221d97e96ed7a37b8
     log: |
-         d35af0a7feb077c43ff0233bba5a8c6e75b73e35 bpf: Do not zero-extend kfunc return values
+         c2cc0ce72a5ed3e01705e14221d97e96ed7a37b8 bpf: Fix comment error in fixup_kfunc_call function
          
