@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4678065127902745174=="
+Content-Type: multipart/mixed; boundary="===============2458441981866582437=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Thu, 08 Dec 2022 15:51:38 -0000
-Message-Id: <167051469889.11016.17535803000729148617@gitolite.kernel.org>
+Date: Thu, 08 Dec 2022 15:54:01 -0000
+Message-Id: <167051484107.20059.10477800857536265507@gitolite.kernel.org>
 
---===============4678065127902745174==
+--===============2458441981866582437==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,41 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-testing
-    old: 2a81a7aa420b80865fdd82ec383fe365e18f922b
-    new: ade23d7b7ec5c38bd43ec44ccb753cb7ea8ac08a
+    old: ade23d7b7ec5c38bd43ec44ccb753cb7ea8ac08a
+    new: 81c25247a2a03a0f97e4805d7aff7541ccff6baa
     log: |
-         42a317d076b58f08413219b1679d211783c2e5f3 usb: dwc2: disable lpm feature on Rockchip SoCs
-         ade23d7b7ec5c38bd43ec44ccb753cb7ea8ac08a usb: dwc2: power on/off phy for peripheral mode in dual-role mode
+         81c25247a2a03a0f97e4805d7aff7541ccff6baa usb: gadget: uvc: Rename bmInterfaceFlags -> bmInterlaceFlags
          
 
---===============4678065127902745174==
+--===============2458441981866582437==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1670514697 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1670514839 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1670514696-49611c540c97e5fe3b90ad93be6e67d56ee6ed50
+nonce 1670514838-b949ca5390d0fd1ee31b075ef5bdfe306ccacd51
 
-2a81a7aa420b80865fdd82ec383fe365e18f922b ade23d7b7ec5c38bd43ec44ccb753cb7ea8ac08a refs/heads/usb-testing
+ade23d7b7ec5c38bd43ec44ccb753cb7ea8ac08a 81c25247a2a03a0f97e4805d7aff7541ccff6baa refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmOSCAkbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+sv8P/3OV+MG6BFTWvF16QUi8
-umKPyqsvS/XMgHeRXutaHR2ZjgCtX2XRuWcO1rQHGvRj9jJx23odGBTd9//EztqC
-laOUpHLXl4eWkjwKNe661CmUf28LG/TvwAfnOh9Lz8RbI8bUwEtE+7GixkrS/xey
-ap45063GaeOtU7ElxAz9R6+XJ7JFtG0L7ewykCCSi/7GTukdITIAei+ztJjnz7Ne
-LAUyJ224SuIsVB2fdem/WqWlqGntuK+QuqzQDMoIxh97sX9kZY4ZdL2W250Toyfq
-qUWN9OF2V/tV0wXtJSDkKcgxVC8DGOlI1lWlf6t9JNebJTFU8VJDuWJzOgk358XL
-fWZbnY43Tai2yvcJxJrBj7glMMkWa1J4W/GSoR9TUF7foY+nS/Ckv5sPqihje5Ae
-181nRinEABmPiQhpbDbd/hXxm+dfsPgeStkMTMu8e/FGGnWMB1gyBQiOO4v0gbAV
-c2qtTts22MngYK+vnOA08kod055GY5qsp265pCscEtICXwrOQ5xcI+R62V+rbIC4
-llIgTwL6aZh322/YvQT312jjQGuAToNL1xx+5n2Asef9NrfUsF3CyVUYLtqz81Ro
-2415fELvOcwVaxXvtqW4plPygBsCdHVXyCGPyeXYYyTskkM9yj54tFHcHccyK1Jm
-IC6B40nQgpW2ubwnhyQm5bTO
-=zO93
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmOSCJcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+9RsQAM0r6Ftry5AK5BGxay2H
+4Zw1rdlgcvpXbAAwy4i6fB94S6yjm6NDYiMSXh23iAfy4FOWiQWl0WV+Sv6cfIRW
+itaYuWtVsexVBH944gZTZGaPotcRvA5IXD/GV4Jyt/SvI11v5PFvE4DI/PRZr7Wy
+nyru20GcDzVDYdTu0df9fTI4BABv45U2EZSGh9ihE+Xj7dgaWdDsXs86LpYJS0qH
+XAVcQJXJCLWx/pQxVD1R9vXwaeph0nC9qCotupNGqVvCwrQzCj1OLuOC+uGbTW/k
+K3N9HcAgQLiacHnCoOl4dLtmxQHSl4ToFAvL8iFqmFe0Lru2T16cYeO5s+P8qvW3
+oZSKiJjnjcuZHxh9aStDWV8zUCyYmvnijzNhVpiCdsxZ/qghy1NpvoHtx/sQA40E
+DLSskO30uvO3nif/1LOcNmlFtpq8oLcfZiToVOvwHPxFgsm9WaLS98E7rkHuAFzq
+4dXIH1AozhTshEDBUkM6BreHntoo+G62yv2WyLUEtUMIvvMPIDCRjz2qUEZOlX8J
+V8/rqdYKDQ4+tgykDfC0IdSDLlcFNQqKrtJvTHSaf4ehSIHKPh3e7PIp10eP+IkC
+Y+T64N32g3TIKPLNvmsdiKyCkbIL8J3ZzVAf+X3hGKvr2REhNp+OABUeK+Pnw7N+
+dtWW5aA+gIcvGNjFrCWob+Xz
+=5XHv
 -----END PGP SIGNATURE-----
 
---===============4678065127902745174==--
+--===============2458441981866582437==--
