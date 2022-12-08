@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Thu, 08 Dec 2022 01:06:02 -0000
-Message-Id: <167046156255.13638.2065150904171838517@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/perfbook
+Date: Thu, 08 Dec 2022 01:06:28 -0000
+Message-Id: <167046158820.13905.1899721909362899115@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+repo: pub/scm/linux/kernel/git/paulmck/perfbook
+user: paulmck
 changes:
-  - ref: refs/heads/for-next
-    old: dcb2288b1fd9a8cdf2f3b8c0c7b3763346ef515f
-    new: 26c386ecf0212affb50f02dabcb0152995b99b07
+  - ref: refs/heads/master
+    old: db4628df308ee0ff12cf7e530fd5f459432d987f
+    new: c76575f1f9a0096a3611398d5e6380c0a4c3e68c
     log: |
-         537c3f66eac137a02ec50a40219d2da6597e5dc9 selftests/bpf: add generic BPF program tester-loader
-         26c386ecf0212affb50f02dabcb0152995b99b07 selftests/bpf: convert dynptr_fail and map_kptr_fail subtests to generic tester
+         91e573db83db3de1ab2b75d656a1755f587d8cf5 QAfter: Avoid roundoff and take more measurements
+         d3c69d2f3e1c1e183d67dcad8954ed63b41fad90 howto: Provide alternative https-based git URL
+         c76575f1f9a0096a3611398d5e6380c0a4c3e68c QAfter: Add backwards-time checks to timeskew
          
