@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
-Date: Thu, 08 Dec 2022 18:37:55 -0000
-Message-Id: <167052467587.4689.18078886180508748957@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
+Date: Thu, 08 Dec 2022 18:38:45 -0000
+Message-Id: <167052472524.5027.13783493231499113974@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kdave/linux
-user: kdave
+repo: pub/scm/linux/kernel/git/brgl/linux
+user: brgl
 changes:
-  - ref: refs/tags/for-6.2-tag
+  - ref: refs/tags/gpio-fixes-for-v6.1
     old: 0000000000000000000000000000000000000000
-    new: 853eb85fb9ed7f2fc31b527ef9f313743dcc5bfb
+    new: ffe9919bb3d23376ffb8173c89f7b8c684ffe771
