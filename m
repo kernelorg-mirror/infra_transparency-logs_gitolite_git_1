@@ -1,42 +1,41 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/xfs/xfs-linux
-Date: Thu, 08 Dec 2022 16:48:59 -0000
-Message-Id: <167051813906.28359.11077019833242914515@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Thu, 08 Dec 2022 16:50:03 -0000
+Message-Id: <167051820393.30297.14356232490541717916@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/xfs/xfs-linux
-user: djwong
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
+  - ref: refs/heads/for-6.2/block
+    old: 8f415307c3ca14081b510ec4ab827df9d920c5ee
+    new: f596da3efaf4130ff61cd029558845808df9bf99
+    log: |
+         37754595e94779db869e6ef803f038fa956d08ff blk-cgroup: Fix typo in comment
+         c1f480b2d092960ecf8bb0bd1f27982c33ada42a sed-opal: allow using IOC_OPAL_SAVE for locking too
+         56fb8d90031f71fa8af48fdff8498b9263b9c759 block: sed-opal: Don't include <linux/kernel.h>
+         f596da3efaf4130ff61cd029558845808df9bf99 blktrace: Fix output non-blktrace event when blk_classic option enabled
+         
+  - ref: refs/heads/for-6.2/io_uring-next
+    old: f66f73421f0a929734bb41dde575e6d7859e548f
+    new: 761c61c15903db41343532882b0443addb8c2faf
+    log: |
+         761c61c15903db41343532882b0443addb8c2faf io_uring/msg_ring: flag target ring as having task_work, if needed
+         
   - ref: refs/heads/for-next
-    old: 52f31ed228212ba572c44e15e818a3a5c74122c0
-    new: 4883f57a2d861a68588aefbf592f86d1e059f1ec
+    old: deb27bcf26e3d30bb92f599285f1e182fd22f39e
+    new: 1ce4601257797fc3800c654e0b93f717be67e4a9
     log: |
-         0587d473e25605c610af564fc2c35cda3fbdfc62 fsdax: introduce page->share for fsdax in reflink mode
-         038587477f4323a212e11a8999bd87e08adbd6cc fsdax: invalidate pages when CoW
-         624c2f49637c06bb62ed9fc789c301ea330b2f03 fsdax: zero the edges if source is HOLE or UNWRITTEN
-         03e54f961bda26fce04128e8c9435518c17abf50 fsdax,xfs: set the shared flag when file extent is shared
-         06573bf13dc77f385bee3ac76143efc81a88adfd fsdax: dedupe: iter two files at the same time
-         0d3ca2b4cbb337a6d3c362d6ba733b3b0b8b288b xfs: use dax ops for zero and truncate in fsdax mode
-         3a0a36f143e4c755c85190bd61a22863a0ed9f87 fsdax,xfs: port unshare to fsdax
-         4883f57a2d861a68588aefbf592f86d1e059f1ec xfs: remove restrictions for fsdax and reflink
+         37754595e94779db869e6ef803f038fa956d08ff blk-cgroup: Fix typo in comment
+         c1f480b2d092960ecf8bb0bd1f27982c33ada42a sed-opal: allow using IOC_OPAL_SAVE for locking too
+         56fb8d90031f71fa8af48fdff8498b9263b9c759 block: sed-opal: Don't include <linux/kernel.h>
+         bf158ba7aa8544d6b650f63eddcc088c6b9ff0d3 Merge branch 'for-6.2/block' into for-next
+         f596da3efaf4130ff61cd029558845808df9bf99 blktrace: Fix output non-blktrace event when blk_classic option enabled
+         b772e826e15a30af82b6e5d780c99c18c1ae74a4 Merge branch 'for-6.2/block' into for-next
+         761c61c15903db41343532882b0443addb8c2faf io_uring/msg_ring: flag target ring as having task_work, if needed
+         1ce4601257797fc3800c654e0b93f717be67e4a9 Merge branch 'for-6.2/io_uring-next' into for-next
          
-  - ref: refs/heads/xfs-6.2-merge
-    old: 52f31ed228212ba572c44e15e818a3a5c74122c0
-    new: 4883f57a2d861a68588aefbf592f86d1e059f1ec
-    log: |
-         0587d473e25605c610af564fc2c35cda3fbdfc62 fsdax: introduce page->share for fsdax in reflink mode
-         038587477f4323a212e11a8999bd87e08adbd6cc fsdax: invalidate pages when CoW
-         624c2f49637c06bb62ed9fc789c301ea330b2f03 fsdax: zero the edges if source is HOLE or UNWRITTEN
-         03e54f961bda26fce04128e8c9435518c17abf50 fsdax,xfs: set the shared flag when file extent is shared
-         06573bf13dc77f385bee3ac76143efc81a88adfd fsdax: dedupe: iter two files at the same time
-         0d3ca2b4cbb337a6d3c362d6ba733b3b0b8b288b xfs: use dax ops for zero and truncate in fsdax mode
-         3a0a36f143e4c755c85190bd61a22863a0ed9f87 fsdax,xfs: port unshare to fsdax
-         4883f57a2d861a68588aefbf592f86d1e059f1ec xfs: remove restrictions for fsdax and reflink
-         
-  - ref: refs/tags/xfs-6.2-merge-9
-    old: 0000000000000000000000000000000000000000
-    new: 7abd2c9560af141019c41d892432dccefe93a505
