@@ -1,24 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Thu, 08 Dec 2022 21:16:13 -0000
-Message-Id: <167053417327.14352.1319809811044977169@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/crng/random
+Date: Thu, 08 Dec 2022 21:20:26 -0000
+Message-Id: <167053442636.17234.17174029314029037112@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/next-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/crng/random
+user: zx2c4
 changes:
-  - ref: refs/heads/100GbE
-    old: b22d024f061f3cb2c1805da80813ccc43bd4aa2a
-    new: 95af1f1c4c9f9f08bbdb40812248b7bc5868a1da
+  - ref: refs/heads/vdso
+    old: 724cd3576fb5571fdc6aff51027116a0d651e7c6
+    new: 6e623ac2d5f0c27b5a43ff7f8f075ecda150b2d7
     log: |
-         3ad5c10bf21d1d69ac1117a89b3ce2271a832b34 ice: protect init and calibrating check in ice_ptp_request_ts
-         c1f3414df2e86e63d603712f81443af6cf07f8a3 ice: cleanup allocations in ice_ptp_alloc_tx_tracker
-         d40fd60093325cd7b77bc8622cb9593cd27fdaa6 ice: handle flushing stale Tx timestamps in ice_ptp_tx_tstamp
-         e3ba5248669310537cac55d63dd3c4059b862e00 ice: only check set bits in ice_ptp_flush_tx_tracker
-         f029a34394e7239f4111507b402ab234f990ec94 ice: make Tx and Rx vernier offset calibration independent
-         95af1f1c4c9f9f08bbdb40812248b7bc5868a1da ice: reschedule ice_ptp_wait_for_offset_valid during reset
+         a088fae817760b1dd15608af94d46b9fcc7f7c05 mm: add VM_DROPPABLE for designating always lazily freeable mappings
+         5cfa0e9c54eea5f52b700a422e899d86d5088c83 random: add vgetrandom_alloc() syscall
+         7fdf9f30f283c036aa4885e884e5654a01080d30 arch: allocate vgetrandom_alloc() syscall number
+         d2f127234fd8729b2a94af94c494890956bf0a64 random: introduce generic vDSO getrandom() implementation
+         6e623ac2d5f0c27b5a43ff7f8f075ecda150b2d7 x86: vdso: Wire up getrandom() vDSO implementation
          
