@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8862825849732097352=="
+Content-Type: multipart/mixed; boundary="===============8116429169377050286=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Thu, 08 Dec 2022 16:21:06 -0000
-Message-Id: <167051646627.9921.15846918319936442756@gitolite.kernel.org>
+Date: Thu, 08 Dec 2022 16:21:29 -0000
+Message-Id: <167051648910.10174.10623357863499137421@gitolite.kernel.org>
 
---===============8862825849732097352==
+--===============8116429169377050286==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/next
     old: d8dde34c5880b53b88f6ff400d1cbfccca0ef348
     new: eaabc245b02a0e0063068178624d2fc12ba91d69
     log: revlist-d8dde34c5880-eaabc245b02a.txt
 
---===============8862825849732097352==
+--===============8116429169377050286==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -69,4 +69,4 @@ db9622f762104459ff87ecdf885cc42c18053fd9 tpm: tpm_tis: Add the missed acpi_put_t
 f5264068071964b56dc02c9dab3d11574aaca6ff tpm/tpm_crb: Fix error message in __crb_relinquish_locality()
 eaabc245b02a0e0063068178624d2fc12ba91d69 tpm: st33zp24: remove pointless checks on probe
 
---===============8862825849732097352==--
+--===============8116429169377050286==--
