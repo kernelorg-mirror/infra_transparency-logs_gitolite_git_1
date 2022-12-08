@@ -1,27 +1,31 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Thu, 08 Dec 2022 16:43:29 -0000
-Message-Id: <167051780924.23626.3803445108708519401@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
+Date: Thu, 08 Dec 2022 16:48:33 -0000
+Message-Id: <167051811350.28145.12356012915917562037@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rafael/linux-pm
-user: rafael
+repo: pub/scm/linux/kernel/git/soc/soc
+user: arnd
 changes:
-  - ref: refs/heads/bleeding-edge
-    old: cb06e36a6532c9040ad4118ca3857d6e96d30c40
-    new: 5beb106cb8ca8bbec16f6594d777c38b89a03914
+  - ref: refs/heads/arm/fixes
+    old: da0cbf9307a227f52a38a0a580a4642ad9d7325c
+    new: ef19964da8a668c683f1d38274f6fb756e047945
     log: |
-         fa4e1f880424833b767d7f72ffe1f499fac02b88 Merge back ACPICA changes for 6.2-rc1
-         7dfb216eda99bbfc2a8c3b03d2eec63314f52b3c ACPICA: Fix operand resolution
-         7a9d74e7e403cb2e60d4d00c05f2f3ab2a33d0c3 ACPICA: include/acpi/acpixf.h: Fix indentation
-         54c516aeb8b39eeae6450b7d8076d381568dca46 ACPICA: Allow address_space_handler Install and _REG execution as 2 separate steps
-         0634033dd104da8bf3903ff9b7f57ae81c6e1640 Merge back ACPI EC changes for 6.2-rc1
-         a5072078dbfaa9d70130805766dfa34bbb7bf2a7 ACPI: EC: Fix EC address space handler unregistration
-         ab4620f58d38206687b9f99d9d2cc1d5a2640985 ACPI: EC: Fix ECDT probe ordering issues
-         103fb7b06422b4c10022777d22d1277d03415be9 Merge branch 'acpica-next' into bleeding-edge
-         5beb106cb8ca8bbec16f6594d777c38b89a03914 Merge branch 'acpi-ec-next' into bleeding-edge
+         ef19964da8a668c683f1d38274f6fb756e047945 Revert "ARM: dts: imx7: Fix NAND controller size-cells"
+         
+  - ref: refs/heads/soc/dt
+    old: da060ab86eb0de7954dafa34aefa9cc58cc4e76c
+    new: c83ce312081cf024b00a8a7fe785a90ba94b69fb
+    log: |
+         56d32c51dffac8a431b472a4c31efb8563b048d1 arch: arm64: apple: t8103: Use standard "iommu" node name
+         9742350931df69f8aad7a764ff6286ac069305f5 arch: arm64: apple: t600x: Use standard "iommu" node name
+         63bf0b66ddfa6761dd47350b8d1f7161a06e9954 arm64: dts: apple: Rename dart-sio* to sio-dart*
+         9ecb7a4b8ac67c1a73fefd17bc00e943d7f74378 arm64: dts: apple: Add t8103 L1/L2 cache properties and nodes
+         2aa48e294622f7204d02de9758795171c0bd937a arm64: dts: apple: t600x-pmgr: Fix search & replace typo
+         67327f125801f98aec9e2cf5e1df16cf493a065f arm64: dts: apple: t6002: Fix GPU power domains
+         c83ce312081cf024b00a8a7fe785a90ba94b69fb Merge tag 'asahi-soc-dt-6.2-v3' of https://github.com/AsahiLinux/linux into soc/dt
          
