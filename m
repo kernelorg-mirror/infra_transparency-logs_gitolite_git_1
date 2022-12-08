@@ -1,22 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
-Date: Thu, 08 Dec 2022 23:46:29 -0000
-Message-Id: <167054318998.18964.2866346099243362099@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Thu, 08 Dec 2022 23:50:04 -0000
+Message-Id: <167054340413.21709.9813550514840289796@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/palmer/linux
-user: palmer
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/for-next
-    old: e1ceb096416311be1564de69ea40bb872d7cc327
-    new: 049696a39d2fbaad1b35b08cbc65d9e17c0406bc
-    log: |
-         b91676fc16cd384a81e3af52c641aa61985cc231 RISC-V: Fix MEMREMAP_WB for systems with Svpbmt
-         a49ab905a1fc8630a94221f9a06ce0dafb266576 RISC-V: Implement arch specific PMEM APIs
-         497bcbe3ce0466123a834f2777a8a762bd5d7aae RISC-V: Enable PMEM drivers
-         049696a39d2fbaad1b35b08cbc65d9e17c0406bc Merge patch series "Add PMEM support for RISC-V"
-         
+  - ref: refs/tags/epoll-min_ts-2022-12-08
+    old: 0000000000000000000000000000000000000000
+    new: f9252c004e36c4d84fc7c5f11dbdb5b7451dbb57
+  - ref: refs/tags/for-6.2/block-2022-12-08
+    old: 0000000000000000000000000000000000000000
+    new: eb5ec1ec25838225d67744081e9c78b7d4779d7d
+  - ref: refs/tags/writeback-2022-12-08
+    old: 0000000000000000000000000000000000000000
+    new: 3186459b52be4b30426938562321a9ea474ff9b4
