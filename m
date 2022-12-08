@@ -1,26 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-pinctrl
-Date: Thu, 08 Dec 2022 13:58:13 -0000
-Message-Id: <167050789359.23297.3331694954605137895@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
+Date: Thu, 08 Dec 2022 14:03:14 -0000
+Message-Id: <167050819412.27121.10031664976771019490@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/linusw/linux-pinctrl
-user: linusw
+repo: pub/scm/linux/kernel/git/axboe/liburing
+user: axboe
 changes:
-  - ref: refs/heads/devel
-    old: 80b99ed74e234e82298531c459c29343d0a8bcf2
-    new: 83e1bcaf8cef26edaaf2a6098ef760f563683483
+  - ref: refs/heads/master
+    old: 8699273dee7b7f736144e2554bc32746f626f786
+    new: 0c9fe7cea30dc150bf58c8401800cfb07f8d93b4
     log: |
-         83e1bcaf8cef26edaaf2a6098ef760f563683483 pinctrl: thunderbay: fix possible memory leak in thunderbay_build_functions()
-         
-  - ref: refs/heads/for-next
-    old: e8aa47b23fb8983ee8224251e6def4d07683ac6f
-    new: 6c19feafb377abf412b89c0c4586f9e4b9f69857
-    log: |
-         83e1bcaf8cef26edaaf2a6098ef760f563683483 pinctrl: thunderbay: fix possible memory leak in thunderbay_build_functions()
-         6c19feafb377abf412b89c0c4586f9e4b9f69857 Merge branch 'devel' into for-next
+         7bf16470cdf050bb96aa2c9445cd98e761f1dff4 man: fix io_uring_prep_{readv,writev}{2} typo
+         0c9fe7cea30dc150bf58c8401800cfb07f8d93b4 Merge branch 'main-fix-io-uring-prep-readv-writev-typo' of https://github.com/dmantipov/liburing
          
