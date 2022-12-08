@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/perfbook
-Date: Thu, 08 Dec 2022 01:06:28 -0000
-Message-Id: <167046158820.13905.1899721909362899115@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Thu, 08 Dec 2022 01:12:41 -0000
+Message-Id: <167046196126.19344.4470299880289486313@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/perfbook
-user: paulmck
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
   - ref: refs/heads/master
-    old: db4628df308ee0ff12cf7e530fd5f459432d987f
-    new: c76575f1f9a0096a3611398d5e6380c0a4c3e68c
+    old: a2220b54589b1d2a404f6eb5f6bc3c0ace2b504f
+    new: 5608e0a817ceb84afca8a8d738c29ffefbe4a398
     log: |
-         91e573db83db3de1ab2b75d656a1755f587d8cf5 QAfter: Avoid roundoff and take more measurements
-         d3c69d2f3e1c1e183d67dcad8954ed63b41fad90 howto: Provide alternative https-based git URL
-         c76575f1f9a0096a3611398d5e6380c0a4c3e68c QAfter: Add backwards-time checks to timeskew
+         5608e0a817ceb84afca8a8d738c29ffefbe4a398 net: asix: add support for the Linux Automation GmbH USB 10Base-T1L
          
