@@ -1,23 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Fri, 09 Dec 2022 09:38:27 -0000
-Message-Id: <167057870786.26447.8719528659789426780@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Fri, 09 Dec 2022 10:34:29 -0000
+Message-Id: <167058206923.11708.1487125546059430976@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: davem
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
   - ref: refs/heads/master
-    old: 0bdff1152c2496acf29930ec9b3c3cd7790b3f68
-    new: b602d00384bdfb8874cc4dcb298fc87cc369630b
+    old: 85a956a709bc2447dbc905177bd51b261d662722
+    new: 857038d4512a5f2e9a1fd4a3d89c2c27eae456fd
     log: |
-         2a7d228f1ae78b6eabef5f18bd1a8d2280555628 net/sched: move struct action_ops definition out of ifdef
-         7f0e810220e2d985338ecdd907c1598404db251d net/sched: add retpoline wrapper for tc
-         871cf386dd16705b1e08942efd02c58801293d01 net/sched: avoid indirect act functions on retpoline kernels
-         9f3101dca3a7c69027c65770ac28803768efefa5 net/sched: avoid indirect classify functions on retpoline kernels
-         b602d00384bdfb8874cc4dcb298fc87cc369630b Merge branch 'net-sched-retpoline'
+         857038d4512a5f2e9a1fd4a3d89c2c27eae456fd tests: use KNOWN_FAIL for lsns/ioctl_ns
          
