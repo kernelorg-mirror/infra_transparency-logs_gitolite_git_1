@@ -1,23 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/helgaas/pci
-Date: Fri, 09 Dec 2022 21:54:35 -0000
-Message-Id: <167062287500.3508.3196465105606691995@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
+Date: Fri, 09 Dec 2022 22:02:32 -0000
+Message-Id: <167062335299.9316.14564508985831971640@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/helgaas/pci
-user: helgaas
+repo: pub/scm/linux/kernel/git/palmer/linux
+user: palmer
 changes:
-  - ref: refs/heads/pci/resource
-    old: 4aece762789a2277bf9f0eda8b0cd229ccbbc88e
-    new: 08d783899da585fca0e4a7752fa674b9dd39f82f
+  - ref: refs/heads/for-next
+    old: 6ff8ca3f93d3cd2a77f051d2d971cf3638d39546
+    new: 4f32e3ab94b6d98de7ffb7a781df3c06c8dcd166
     log: |
-         9c0a3308254eff04e68d70e2afc8430c2e3723ea efi/x86: Remove EfiMemoryMappedIO from E820 map
-         e427132f7756d74e771c1f9309eb55598fa8c525 PCI: Skip allocate_resource() if too little space available
-         530ab4141fb1a72ae94bc25413a836bf654d3b0a x86/PCI: Tidy E820 removal messages
-         cfe0393525cdb9301a3c1ba0487e68a73ca26b32 x86/PCI: Fix log message typo
-         08d783899da585fca0e4a7752fa674b9dd39f82f x86/PCI: Use pr_info() when possible
+         78eda777d2f12d51dbe08960e3a8074756ca3e1e RISC-V: Improve use of isa2hwcap[]
+         132cfeb2b7fd98af63acc50511ee420cc2152b9b RISC-V: Introduce riscv_isa_extension_check
+         68dc0718407d8e9c84c530df5298078a57a8000a RISC-V: Ensure Zicbom has a valid block size
+         4f32e3ab94b6d98de7ffb7a781df3c06c8dcd166 Merge patch series "RISC-V: Ensure Zicbom has a valid block size"
          
