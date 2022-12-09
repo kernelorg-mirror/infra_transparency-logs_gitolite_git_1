@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0132026293242171674=="
+Content-Type: multipart/mixed; boundary="===============8325815819632131284=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Fri, 09 Dec 2022 15:37:25 -0000
-Message-Id: <167060024544.14110.421460683597050503@gitolite.kernel.org>
+Date: Fri, 09 Dec 2022 15:37:34 -0000
+Message-Id: <167060025428.14210.4494669167186269137@gitolite.kernel.org>
 
---===============0132026293242171674==
+--===============8325815819632131284==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/kobject-const2
-    old: f6ef8c273ec125646d926224d4aa7f1d4c342d42
-    new: c5b3aadf9a6caa80fa9e54f5dd4b72a6a11dc625
+  - ref: refs/heads/kobject-const
+    old: 0f5ed6d1c00270d43a59ab442241ae0224b209c7
+    new: 54263dfda0cf67c6747dfcdd3783c0eaa81109d6
     log: |
-         a219003ff364d23a5632ed3bc1e6fd9b6854f396 driver core: make struct device_type.devnode() take a const *
-         c5b3aadf9a6caa80fa9e54f5dd4b72a6a11dc625 driver core: device_get_devnode() should take a const *
+         f18caf261398a7f2de4fa3f600deb87072fe7b8d device property: Fix documentation for fwnode_get_next_parent()
+         000489069862ea4d54a775241a041462f5a269c6 driver core: make struct device_type.uevent() take a const *
+         efa1f6ee36a79fed952a4a91d95bfae2a1836324 driver core: make struct device_type.devnode() take a const *
+         3cfee7a9b461ec11795fd7855e65372eec9783da driver core: device_get_devnode() should take a const *
+         809d74fa3f70a99931c3d4bbfe2dc00e951fa849 driver core: make struct bus_type.uevent() take a const *
+         54263dfda0cf67c6747dfcdd3783c0eaa81109d6 kobject: kset_uevent_ops: make uevent() callback take a const *
          
 
---===============0132026293242171674==
+--===============8325815819632131284==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1670600243 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1670600252 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1670600241-73d887780911c1bc1e0bb937a2164ce53ed10236
+nonce 1670600251-d44ed7c22514d2eb157c6d6aa168fcb8369b4e16
 
-f6ef8c273ec125646d926224d4aa7f1d4c342d42 c5b3aadf9a6caa80fa9e54f5dd4b72a6a11dc625 refs/heads/kobject-const2
+0f5ed6d1c00270d43a59ab442241ae0224b209c7 54263dfda0cf67c6747dfcdd3783c0eaa81109d6 refs/heads/kobject-const
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmOTVjMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+rF4QAIazLGMPwmf+K12nqWh/
-LlQ+HEmnUniWrKoIsQ1yAvwAAqcJASyH88y5WuJCHMWm98NPfAMhAIfKHvH9xyl2
-Mq5f1zMgZpd2hKCuooI+ptJbseyOMM1jWAjJ2J1/11Cuf/P2g0Ru2yPlnEZnQbbv
-hQGqb2QV4zpHQhZCyvDVR9o4R9i7ZVGAVuavGl+JvfLsy1MLGrBAJLZTJ6vpKAvo
-bsmVjAXKl4RYYLNWmx/tY9mhBLxWJ22yofhBEQBVRXinTh0jM2RfsqPbJsLUVPZm
-Rw3Fa1afIRPlaM2bJCAMCJXBztO4dKRVq/VcWnGrwwnvAz3M5PlfOIjlXmsd8p/E
-h4mr3vkBdABF3UKJE2+aoqkDNHST0WEbw6IoDjUZgorI8YF1xRK80yFe2WF5Kyaq
-FuBieTVwXqGBCmfIJhpIsldjaTttp9oucLeKzu9eK4+Viy0raK6j1HHkk0lHvsM/
-ESIk33CsWv5mpNkJpP1ZPvuSEiTyOR+3JtAawCcZ6E+erArJbZyKQLhpALnSOO4N
-t0ZaO/MKr3YQ1w3Zr7qEQ9ucQx4DjAalHQDiPj7iR+WcUsM0EpjLLIoVAcw77nuE
-kIpN/HnTCtyDLElpf2KaRZhHrj6PFF7rY3nTG8P7lHTMGE9aa5yE54n3m5XVWSqW
-2U7vRDj4q7AL6/MRhMUunbE4
-=u+9N
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmOTVjwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+XTAP/je4Y2RnywxgBzaZa1Ac
+mrXpGWPfBSJ7yG7vqTKhaIEeqTNNMAoJygyPKvHXWiIrhmSyYn7FQURYeUX50nLW
+ZmpwjVzCdr0rsna7kq1GOfExjG87weczHypGJBZlx773ZPxO8ZyxxzQmyC6BKvYh
+i3A9RCCbQGkpIfdm+nB9+G5WSllYYevxpkT5Ly8oZBloBj5v95A50sPmOG1ZPkBX
+FQZHDq+atA5f5hoBOhWk86flfW7sDtKecy7PYKVYpOhEaxqsm+LxAejEJjN2hI2I
+65dScIcmF0TGL90b+f9bIAvYbydBMIBK9sRipZJDCBPt0E8/Mam5VM6LQm9meXb6
+QsDWM3VIzASxcQrpeUYmZKL3JVbOf+BgRFgLWVoOzAh0MA9GMLGa0XgnmnzH8abl
+4uHexhfKkrHcUnxRAeNFqKteNsrPpOxugrg+8wtoEGcR56eQVKun2Ac8qVWhv5Bc
+2s86bIqeFeIHPtj+avUNWpyT0BJxvhadcLjHF1fjv3ZDaKfsvQC7Y03pVpPPpzCU
+r+j4uCjjeYM/SbspZJpVFQ989vo/Kjik1OyPH9uuwmSS0uLTLB7h4DQC1+eGuH6h
+MZYDbN/EMZ8Isl6MgoZypcsTMHlqHPcLMU7lToZtAncgF9MF3fhi2hXx1WsVsQQH
+EuQzck8U66/nNuHKFK9p7Qsq
+=XmWr
 -----END PGP SIGNATURE-----
 
---===============0132026293242171674==--
+--===============8325815819632131284==--
