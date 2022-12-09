@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1319993072889095222=="
+Content-Type: multipart/mixed; boundary="===============1011566142679111483=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Fri, 09 Dec 2022 16:05:24 -0000
-Message-Id: <167060192457.794.13351331724869690530@gitolite.kernel.org>
+Date: Fri, 09 Dec 2022 16:11:46 -0000
+Message-Id: <167060230664.4290.1186299714862949094@gitolite.kernel.org>
 
---===============1319993072889095222==
+--===============1011566142679111483==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,47 +17,41 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/kobject-const2
-    old: c5b3aadf9a6caa80fa9e54f5dd4b72a6a11dc625
-    new: cdf4ddd78fa05b70f5d558d8e7844af6db8ea486
+    old: cdf4ddd78fa05b70f5d558d8e7844af6db8ea486
+    new: 66556a3a655f595f42147b36e62b74b00f294df0
     log: |
-         156dfda09be12bb1dd015d160b78d445242600f9 driver core: make struct device_type.uevent() take a const *
-         07235b27e53ad51fc5815484a46c96ca5fd4fdae driver core: make struct device_type.devnode() take a const *
-         aa5f8a8c79afacf013f0466496698da3857ff7fa driver core: device_get_devnode() should take a const *
-         38d62b4b4eed0e8fe5e0bb9b84c7cc1953de5e95 vio: move to_vio_dev() to use container_of_const()
-         d6e085f7684999827b5cca5bb92964d378d37e4e platform/x86: wmi: move dev_to_wblock() and dev_to_wdev to use container_of_const()
-         581edbd69002e2b3f172b23ed57bfaace01a130d drivers: hv: move device_to_hv_device to use container_of_const()
-         da9b25db4607978360e7d01148ffe71b17176f70 virtio: move dev_to_virtio() to use container_of_const()
-         cdf4ddd78fa05b70f5d558d8e7844af6db8ea486 drm/mipi-dsi: move to_mipi_dsi_device() to use container_of_const()
+         cce61fa65df387a11872e434612fb4d56ef235a3 mcb: move to_mcb_device() to use container_of_const()
+         66556a3a655f595f42147b36e62b74b00f294df0 xen/xenbus: move to_xenbus_device() to use container_of_const()
          
 
---===============1319993072889095222==
+--===============1011566142679111483==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1670601919 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1670602304 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1670601918-e8e3c527106fdc07788b73f16b6164b247a56d31
+nonce 1670602303-92bf954df4bb2bcbf86515edc347c06183e2e7ca
 
-c5b3aadf9a6caa80fa9e54f5dd4b72a6a11dc625 cdf4ddd78fa05b70f5d558d8e7844af6db8ea486 refs/heads/kobject-const2
+cdf4ddd78fa05b70f5d558d8e7844af6db8ea486 66556a3a655f595f42147b36e62b74b00f294df0 refs/heads/kobject-const2
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmOTXL8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+LG8QAMQjQb6Bz2Iq/entJpjE
-cYPYaSVBodraGEQPlWO0QhbqlxUz7FqDj9hyMEvrUOklrEAnuz31nZpE5B1kjkVQ
-Lkgn94NYQuTOzOkcSUAt8xBvTz8SzEj0GZaFMiYA5RifaOyU71DRXgUPNbbG/Sly
-J547auIpBo4PwTK7EBnpNIWqjXSepn5b0DoFSOyszQkQqAfLJ3YS+gVd7qDsAYpe
-HKyPRcIUNMFP1QAmjR5QFKApj9mLwk3yGD160V5mc7j2koiKN0W/rKLkkkXNLMfo
-37BUf/bMU9l3816QTJmSrUehVpr9VvqapGKHXxx2VLfb/tpaTAUFPTOcOgwxvr81
-kYCuEfW1vjmbk5SSdMh4gWIKnE74Yxe3ozDKlyMoTyCuTfbC7qPdnrSg8VBwPHjF
-k9TkDn8oQmWqtp+foKW6O32jkRICCqna17FAckOa1m12JGp/zNnHlNn/VSfbxuY1
-BAWPPNLCWtfSbQ7TEET1AmwMv7g2mkk8hMqPa6aWkxSym72IMlDkc+dosBPpWi4E
-wExr1LZFPVmBQ1DTFkbqxOVMM7Pi57SpDZalR4HSP3jeRONKJkrOGBUY/trKEKtE
-4/oekka1eNdFVKOukXRu6GiiVMDSbzM2TxvVkPPQr5p56DyCYcm+cVV4LDvMaq42
-DnfknyuclILQ54pIgEPNF2f9
-=2vU0
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmOTXkAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+pMIP/2GHRYIy86b6f3ZU9JNr
+cUfwawZDPW0NTgjxr5yXsiQfR1GqgME09MR70yBA0I94F8U0DGGrK5Abtl9tCwQN
+JSDLPHUCVDTMRpwHC1SlVF/jp1Af8M8JpHFyVnXk8wU+PCCMyuhPELPkYdei/IUE
+Gek8eMSnao+9+4EHglTVHSeZVW1UlH+pl2lZHooKZTeaIt/k5X7Rv93j+V170p86
+6sCsSrxLO76649x6GtvKoRzXC+J3Ptboq6HeHF+xdQVT13ywBnk0RuUvLd5Vf3Dl
+xSjgVjiYaQ7vMVfvOC18kQKhQiQl9Wrpj+1trm9S5imT+WeeOuq5LT2Y0ui/Cjte
+k9LmmkuOv5uhTYnH/H03eR8NYZX4G7yeV3G8bMlYvHbCGZ9g4xqeoMXQ+xV5w+LL
+qz69egaQaPcx0aJ5i528jmbxV1D9kmhWSu0IRmjk5f2WUgIkylajgdb11na2cNjb
++e6abwCN31QCU5C23cZbjjKBCJydbeKXsXXnLuvL7oNJTptKcMDDMoF5ugGF2mQk
+RZVwhmDAbBGEjTl//tSQvBbfJpWqOMkkD84MurJwbJk7tpsdVcqSpQibJ4GSA5LF
+je4IqGp1ONS5hVrYmmNi6AbhqIY7yA35539g4eqh8qIJh+ZcDDVD04Way3E/sOtw
+jIGkVfTXXyw0BmHHfpGLtQRh
+=phkg
 -----END PGP SIGNATURE-----
 
---===============1319993072889095222==--
+--===============1011566142679111483==--
