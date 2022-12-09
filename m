@@ -1,27 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Fri, 09 Dec 2022 19:41:11 -0000
-Message-Id: <167061487125.13048.4249530157502075571@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
+Date: Fri, 09 Dec 2022 20:00:23 -0000
+Message-Id: <167061602303.26549.9020049952549160249@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: jgg
+repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
+user: jaegeuk
 changes:
-  - ref: refs/heads/for-next
-    old: 6978837ce42f8bea85041fc08c854f4e28852b3e
-    new: 6cfe7bd0dfd33033683639039b5608d6534c19eb
+  - ref: refs/heads/dev
+    old: e470a3984a7ec3ffc242bad608ef1fd34eb5122b
+    new: 1517acdc5fe0f56a582067ddf58b5dd7e80787ba
     log: |
-         d074f0aebde5649f7a9f1807551efc019b8e81c4 RDMA/hfi1: use sysfs_emit() to instead of scnprintf()
-         fb4907f487254375830f135dcfe5dd7e6f8b705f RDMA/cma: Change RoCE packet life time from 18 to 16
-         487d65090a3dce1ae54946aded55d0f8ac87cbab RDMA/hns: Fix the gid problem caused by free mr
-         bc34c04f7b97c3794dec5a6d6d27ffd5f0e4f5c8 RDMA/hns: Fix AH attr queried by query_qp
-         9fb39ef2ff3e18f1740625ba04093dfbef086d2b RDMA/hns: Fix PBL page MTR find
-         99dc5a0712883d5d13b620d25b3759d429577bc8 RDMA/hns: Fix page size cap from firmware
-         667d6164b84884c64de3fc18670cd5a98b0b10cf RDMA/hns: Fix error code of CMD
-         682c0722addae4b4a1440c9db9d8c86cb8e09ce5 RDMA/hns: Fix XRC caps on HIP08
-         6cfe7bd0dfd33033683639039b5608d6534c19eb RDMA/mlx5: Remove not-used IB_FLOW_SPEC_IB define
+         d2a798cde6560e6514743a9fba18eb4206c575b3 f2fs: Fix spelling mistake in label: free_bio_enrty_cache -> free_bio_entry_cache
+         7b6c4197a23883e0fc1c6e8fee16e843d58a896b f2fs: fix iostat parameter for discard
+         1e5233616c3e1877c834a160529162547d303f0b f2fs: don't call f2fs_issue_discard_timeout() when discard_cmd_cnt is 0 in f2fs_put_super()
+         1517acdc5fe0f56a582067ddf58b5dd7e80787ba f2fs: fix some format WARNING in debug.c and sysfs.c
          
