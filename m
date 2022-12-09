@@ -1,19 +1,46 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Fri, 09 Dec 2022 20:34:35 -0000
-Message-Id: <167061807567.15219.14120174838907978051@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============5144147756081230118=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/utils/b4/b4
+Date: Fri, 09 Dec 2022 20:51:43 -0000
+Message-Id: <167061910389.27583.1521329493110166383@gitolite.kernel.org>
+
+--===============5144147756081230118==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/man-pages/man-pages
-user: alx
+repo: pub/scm/utils/b4/b4
+user: mricon
+git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: cf5fc5c56ea13b29ff6d5a99edbf5d430478ad0e
-    new: 3d4a283930af180c3fa2543967ebf363c093736a
+    old: e1284faba0f53052a22f2e947be7dd6e8efd8db1
+    new: 7e003cc7709238d8432a1e507e9666dd722725f5
     log: |
-         3d4a283930af180c3fa2543967ebf363c093736a socket.7: be explicit that connect(2) respects SO_*TIMEO
+         7e003cc7709238d8432a1e507e9666dd722725f5 ez: fix regression that was causing duplicated addressees
          
+
+--===============5144147756081230118==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher B6C41CE35664996C! 1670619103 -0500
+pushee gitolite.kernel.org:pub/scm/utils/b4/b4
+nonce 1670619103-3c8374b0d331f9116d9fc90246ca9a0e936fffff
+
+e1284faba0f53052a22f2e947be7dd6e8efd8db1 7e003cc7709238d8432a1e507e9666dd722725f5 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCY5Of3wAKCRC2xBzjVmSZ
+bHTAAQCYjnN93sOUMJofTBmCvkrro3R57y9Tj3keNDOXBlcW5gD9F36jOGUWvGzQ
+dE4ucyylBPAwPHNPZOxhYmzutF+2Vww=
+=QqzT
+-----END PGP SIGNATURE-----
+
+--===============5144147756081230118==--
