@@ -1,30 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Fri, 09 Dec 2022 11:07:47 -0000
-Message-Id: <167058406778.1664.2485155166460691539@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/libgpiod/libgpiod
+Date: Fri, 09 Dec 2022 11:12:45 -0000
+Message-Id: <167058436519.4683.8583891956675455508@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/libs/libgpiod/libgpiod
+user: brgl
 changes:
-  - ref: refs/heads/for-next
-    old: 084ca216931ab9313e6fb862c2ec9ec5e0702cd5
-    new: ee0b089d660021792e4ab4dda191b097ce1e964f
-    log: |
-         ada261b690ecd5c2f55f0c51bdf11d852a4561a6 ALSA: hda/hdmi: fix i915 silent stream programming flow
-         b17e7ea041d8b565063632501ca4597afd105102 ALSA: hda/hdmi: set default audio parameters for KAE silent-stream
-         ee0b089d660021792e4ab4dda191b097ce1e964f ALSA: hda/hdmi: fix stream-id config keep-alive for rt suspend
-         
   - ref: refs/heads/master
-    old: 93d2c8d458a4592a6cded2c7dc4f07f35234a2ff
-    new: 28dd8a6012676b0c82e40f94e47ddfc7ad6d8fbd
+    old: 66af3e1af80aa65698baef7251c7beb8e05a7639
+    new: 9e69d7552cf2be6ca560bf71e8b2c8f97a639f16
     log: |
-         ada261b690ecd5c2f55f0c51bdf11d852a4561a6 ALSA: hda/hdmi: fix i915 silent stream programming flow
-         b17e7ea041d8b565063632501ca4597afd105102 ALSA: hda/hdmi: set default audio parameters for KAE silent-stream
-         ee0b089d660021792e4ab4dda191b097ce1e964f ALSA: hda/hdmi: fix stream-id config keep-alive for rt suspend
-         28dd8a6012676b0c82e40f94e47ddfc7ad6d8fbd Merge branch 'for-next'
+         458ac155ec72f29a8ad43bbf41741fa31059ae7b gpioset: put local variables of the same type on a single line
+         43fed2c87c6a69a652c8a23f25ada9c4ce018d18 gpiosim: add missing fcntl.h include
+         68dd8c6e5edb06391650496e88969215748ad6b3 configure: drop AS_IF() macros
+         dd99c1342b62b894dd28ca5ad7d99466b7c258f6 build: use LIBEDIT_CFLAGS when building gpioset with interactive mode
+         d4f92a69dd4fc4ec8d9400fa8ab7e819fe133596 configure: use C++17 as the only standard
+         9e69d7552cf2be6ca560bf71e8b2c8f97a639f16 configure: improve the header and library function checks
          
