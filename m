@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5102026834942838318=="
+Content-Type: multipart/mixed; boundary="===============3212718112839489979=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/utils/b4/b4
-Date: Fri, 09 Dec 2022 19:00:02 -0000
-Message-Id: <167061240210.17088.2958976524740610230@gitolite.kernel.org>
+Date: Fri, 09 Dec 2022 19:13:04 -0000
+Message-Id: <167061318445.25810.4743326677291019420@gitolite.kernel.org>
 
---===============5102026834942838318==
+--===============3212718112839489979==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,30 +17,30 @@ user: mricon
 git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 64ef0eed4eda48226e4fd3495963a36b964f1cd4
-    new: 940469727b1124dbb10d1e6f7570d239aeda8ad2
+    old: 940469727b1124dbb10d1e6f7570d239aeda8ad2
+    new: e7e4e197975033c843dbceacd3728b204497b551
     log: |
-         940469727b1124dbb10d1e6f7570d239aeda8ad2 ez: refactor single-patch-series code
+         e7e4e197975033c843dbceacd3728b204497b551 Always use re.split when splitting along '---'
          
 
---===============5102026834942838318==
+--===============3212718112839489979==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher B6C41CE35664996C! 1670612401 -0500
+pusher B6C41CE35664996C! 1670613184 -0500
 pushee gitolite.kernel.org:pub/scm/utils/b4/b4
-nonce 1670612401-b3edd2ff57effd06feb237d8abfc7b83d5394f4b
+nonce 1670613184-7063e4144ded497e198e3a09f247ca1fbc801b8b
 
-64ef0eed4eda48226e4fd3495963a36b964f1cd4 940469727b1124dbb10d1e6f7570d239aeda8ad2 refs/heads/master
+940469727b1124dbb10d1e6f7570d239aeda8ad2 e7e4e197975033c843dbceacd3728b204497b551 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCY5OFsQAKCRC2xBzjVmSZ
-bHYIAPoCbO9jJ9AB5g4FokXu4ohDgQjJngDWIWBHqTdO3g6GBwD/es+9fX+MNNlt
-bOaPBj4IinHNHdm/+uHYiZ7GB6bNEQ4=
-=JJT4
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCY5OIwAAKCRC2xBzjVmSZ
+bEDkAP9d9hLlKhUZeaihrQ4d+lh72YKrcNWFk4L9puN+VDNUlQD/TJ2EZDkF+4Y2
+DgkRrkmkHfCihBPNIv0uL8xSmP3wugU=
+=CwvQ
 -----END PGP SIGNATURE-----
 
---===============5102026834942838318==--
+--===============3212718112839489979==--
