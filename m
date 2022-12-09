@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Fri, 09 Dec 2022 10:34:29 -0000
-Message-Id: <167058206923.11708.1487125546059430976@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Fri, 09 Dec 2022 10:46:53 -0000
+Message-Id: <167058281313.21232.6848984334621887522@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/netdev/net
+user: davem
 changes:
   - ref: refs/heads/master
-    old: 85a956a709bc2447dbc905177bd51b261d662722
-    new: 857038d4512a5f2e9a1fd4a3d89c2c27eae456fd
+    old: 44aa5a6dba8283bfda28b1517af4de711c5652a4
+    new: ae18dcdff0f8d7e84cd3fd9f496518b5e72d185d
     log: |
-         857038d4512a5f2e9a1fd4a3d89c2c27eae456fd tests: use KNOWN_FAIL for lsns/ioctl_ns
+         ae18dcdff0f8d7e84cd3fd9f496518b5e72d185d net: defxx: Fix missing err handling in dfx_init()
          
