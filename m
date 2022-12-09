@@ -1,24 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Fri, 09 Dec 2022 19:40:40 -0000
-Message-Id: <167061484069.12838.17399117163250864803@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Fri, 09 Dec 2022 19:41:11 -0000
+Message-Id: <167061487125.13048.4249530157502075571@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
-user: jaegeuk
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: jgg
 changes:
-  - ref: refs/heads/dev-test
-    old: 8e5eb13e656b37628390de0f5d396fbaf39c09be
-    new: e470a3984a7ec3ffc242bad608ef1fd34eb5122b
+  - ref: refs/heads/for-next
+    old: 6978837ce42f8bea85041fc08c854f4e28852b3e
+    new: 6cfe7bd0dfd33033683639039b5608d6534c19eb
     log: |
-         0d177b3e5700655fd83637096d08607d43781ee4 f2fs: specify extent cache for read explicitly
-         b7916c1144375faa36503dcc71de6e5304f3deaa f2fs: move internal functions into extent_cache.c
-         d41fde86224e8dd9fcac32b661856ac0d9b6e218 f2fs: remove unnecessary __init_extent_tree
-         8eabdab10476144dc709546731947d2a3182c954 f2fs: refactor extent_cache to support for read and more
-         868f1ea03a822ab5d01a0b2244153c29c5afbbb6 f2fs: allocate the extent_cache by default
-         e470a3984a7ec3ffc242bad608ef1fd34eb5122b f2fs: add block_age-based extent cache
+         d074f0aebde5649f7a9f1807551efc019b8e81c4 RDMA/hfi1: use sysfs_emit() to instead of scnprintf()
+         fb4907f487254375830f135dcfe5dd7e6f8b705f RDMA/cma: Change RoCE packet life time from 18 to 16
+         487d65090a3dce1ae54946aded55d0f8ac87cbab RDMA/hns: Fix the gid problem caused by free mr
+         bc34c04f7b97c3794dec5a6d6d27ffd5f0e4f5c8 RDMA/hns: Fix AH attr queried by query_qp
+         9fb39ef2ff3e18f1740625ba04093dfbef086d2b RDMA/hns: Fix PBL page MTR find
+         99dc5a0712883d5d13b620d25b3759d429577bc8 RDMA/hns: Fix page size cap from firmware
+         667d6164b84884c64de3fc18670cd5a98b0b10cf RDMA/hns: Fix error code of CMD
+         682c0722addae4b4a1440c9db9d8c86cb8e09ce5 RDMA/hns: Fix XRC caps on HIP08
+         6cfe7bd0dfd33033683639039b5608d6534c19eb RDMA/mlx5: Remove not-used IB_FLOW_SPEC_IB define
          
