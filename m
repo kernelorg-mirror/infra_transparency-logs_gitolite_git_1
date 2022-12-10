@@ -1,26 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
-Date: Sat, 10 Dec 2022 19:16:21 -0000
-Message-Id: <167069978145.17867.14215896168113859750@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Sat, 10 Dec 2022 19:30:45 -0000
+Message-Id: <167070064574.26688.16012872034647566003@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/viro/vfs
-user: viro
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
-  - ref: refs/heads/for-next
-    old: 7b2f9d90994c6d784255a54337875b44c3c4b790
-    new: 9ea606dbbc50a8a9ae36b7e7f4d2dde7ea02f64e
+  - ref: refs/heads/master
+    old: 1a4b8543eb067f2fa478766367fb04471e6f4733
+    new: 0137cd8adffa357aebaba1a2a9bffd579eeb6f0b
     log: |
-         e0c49bd2b4d3cd1751491eb2d940bce968ac65e9 fs: sysv: Fix sysv_nblocks() returns wrong value
-         9ea606dbbc50a8a9ae36b7e7f4d2dde7ea02f64e Merge branch 'work.misc' into for-next
-         
-  - ref: refs/heads/work.misc
-    old: ea258f159da14a710f9cb88656558538b5ba5b76
-    new: e0c49bd2b4d3cd1751491eb2d940bce968ac65e9
-    log: |
-         e0c49bd2b4d3cd1751491eb2d940bce968ac65e9 fs: sysv: Fix sysv_nblocks() returns wrong value
+         0137cd8adffa357aebaba1a2a9bffd579eeb6f0b Sat Dec 10 07:29:58 PM UTC 2022
          
