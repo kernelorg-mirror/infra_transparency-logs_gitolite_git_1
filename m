@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sat, 10 Dec 2022 17:00:53 -0000
-Message-Id: <167069165348.26988.1097637749392039138@gitolite.kernel.org>
+Date: Sat, 10 Dec 2022 17:07:21 -0000
+Message-Id: <167069204154.30419.4314136491326524544@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: tglx
 changes:
-  - ref: refs/tags/x86-cleanups-2022-12-10
+  - ref: refs/tags/x86-misc-2022-12-10
     old: 0000000000000000000000000000000000000000
-    new: 1a4716715fd985ee466dad2d0ae95d92893fb17f
+    new: 59738807bd13d5b0438a2aac8aa4ed3712a0febc
