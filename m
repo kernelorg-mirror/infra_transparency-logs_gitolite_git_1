@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/abelloni/linux
-Date: Sun, 11 Dec 2022 22:06:49 -0000
-Message-Id: <167079640934.30392.17722255806770370663@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Sun, 11 Dec 2022 22:23:36 -0000
+Message-Id: <167079741600.8816.10650720816497049020@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/abelloni/linux
-user: abelloni
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/rtc-next
-    old: 2e830ccc21eb67a4c2490279d907e5e9199e5156
-    new: 103c14db61a24cc0cd344dc5d93d264a36687c35
+  - ref: refs/heads/master
+    old: d92b86f672a42d9d74a24a63a1e59793c4116830
+    new: 830b3c68c1fb1e9176028d02ef86f3cf76aa2476
     log: |
-         103c14db61a24cc0cd344dc5d93d264a36687c35 rtc: rx6110: fix warning with !OF
+         830b3c68c1fb1e9176028d02ef86f3cf76aa2476 Linux 6.1
          
+  - ref: refs/tags/v6.1
+    old: 0000000000000000000000000000000000000000
+    new: 7614896350aa20764c5eca527262d9eb0a57da63
