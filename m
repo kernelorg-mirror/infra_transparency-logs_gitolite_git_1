@@ -1,49 +1,55 @@
-Content-Type: multipart/mixed; boundary="===============9063506060704600949=="
+Content-Type: multipart/mixed; boundary="===============1949429821286578769=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sun, 11 Dec 2022 12:45:13 -0000
-Message-Id: <167076271351.27356.1255692736946246161@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
+Date: Sun, 11 Dec 2022 13:13:27 -0000
+Message-Id: <167076440751.11883.261996459866951545@gitolite.kernel.org>
 
---===============9063506060704600949==
+--===============1949429821286578769==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/jic23/iio
+user: jic23
 changes:
-  - ref: refs/heads/auto-latest
-    old: a5dadcb601b4954c60494d797b4dd1e03a4b1ebe
-    new: 61c792643dddf90a044c6af8206d0f1133cdbec7
-    log: revlist-a5dadcb601b4-61c792643ddd.txt
-  - ref: refs/heads/master
-    old: a5dadcb601b4954c60494d797b4dd1e03a4b1ebe
-    new: 61c792643dddf90a044c6af8206d0f1133cdbec7
-    log: revlist-a5dadcb601b4-61c792643ddd.txt
+  - ref: refs/heads/togreg
+    old: f361c96c75184d0272572087c7d9874e0f64b870
+    new: 0dec19b344b5428ac801e66903622885a53cd3f4
+    log: revlist-f361c96c7518-0dec19b344b5.txt
 
---===============9063506060704600949==
+--===============1949429821286578769==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a5dadcb601b4-61c792643ddd.txt
+Content-Disposition: attachment; filename=revlist-f361c96c7518-0dec19b344b5.txt
 
-9ffa5e6b8f93ccf1a217dd12e204c1a5e211abef dt-bindings: timer: rockchip: Add rockchip,rk3128-timer
-aa3f72ea9410f8c9394a5d25bbf40a4cfb56f5a0 dt-bindings: timer: nuvoton,npcm7xx-timer: Allow specifying all clocks
-db78539fc95cf62b0b8f274368fcd8202eac91f9 clocksource/drivers/timer-npcm7xx: Enable timer 1 clock before use
-45ae272a948a03a7d55748bf52d2f47d3b4e1d5a clocksource/drivers/arm_arch_timer: Fix XGene-1 TVAL register math error
-9688498b1648aa98a3ee45d9f07763c099f6fb12 clocksource/drivers/timer-ti-dm: Fix warning for omap_timer_match
-dedb2aced3e958c6f4811d3e6b392652ff0eea01 clocksource/drivers/timer-ti-dm: Make timer_get_irq static
-822963b96dfdb72ec4fb1395fbdfa778656b49d1 clocksource/drivers/timer-ti-dm: Clear settings on probe and free
-180d35a7c05d520314a590c99ad8643d0213f28b clocksource/drivers/timer-ti-dm: Fix missing clk_disable_unprepare in dmtimer_systimer_init_clock()
-4238568744c0a150d8901e7847092a0f871c938d clocksource/drivers/arm_arch_timer: Use kstrtobool() instead of strtobool()
-bbf687daab58ef8d09916d69537ff6fa2c849e88 dt-bindings: timer: renesas,tmu: Add r8a779g0 support
-83571a4389039b1be2d77655b2ce47543d407e41 dt-bindings: timer: renesas,cmt: Add r8a779g0 CMT support
-45be2ad007a9c6bea70249c4cf3e4905afe4caeb x86/vdso: Conditionally export __vdso_sgx_enter_enclave()
-18a207849218d8c15072f449e6d0b901262290c9 Merge tag 'timers-v6.2-rc1' of https://git.linaro.org/people/daniel.lezcano/linux into timers/core
-e2717a1149534c864d7d8f5698b6355d230a6052 Merge branch into tip/master: 'x86/urgent'
-61c792643dddf90a044c6af8206d0f1133cdbec7 Merge branch 'timers/core'
+98eb7d0b5d3749dd918f6f26e6bd2c93a5cd510b iio: add struct declaration for iio types
+93204a0bdfb68a8ecc9341882f9bec36dd87829e dt-bindings: iio: magnetometer: add ti tmag5273 documentation file
+944f449024524179cab45266ca1e3ece1a4fa925 iio: magnetometer: add ti tmag5273 driver
+8168b92a01866067efbe56ebb85d7bd63d122f92 dt-bindings: iio: adc: ti,adc081c: Document the binding
+6bae2a4048953dc77658caa2f6dd81e71a3e4b61 dt-bindings: iio: adc: add TI LMP92064 controller
+68c0330be1fb658902f8d3050e480238b27cbf18 iio: adc: add ADC driver for the TI LMP92064 controller
+cbc065e93c4550bca0f75ba4a7fbc31f6e26e8fa dt-bindings: iio: dac: ad5686: Add an entry for AD5337
+0caacf7a553ea1e46869bfe36580a5e8da4b1567 iio: dac: ad5686: Add support for AD5337
+a8d9c1aab65ccbb0eb89a2601082c78e39829eba iio: adc: at91-sama5d2_adc: use sysfs_emit() to instead of scnprintf()
+a56e2524b1b882f2b002ee22738d1cbe9f85644f iio: common: scmi_iio: use sysfs_emit() to instead of scnprintf()
+09c57056d63d9718965f6ecb9635af7fc35831da iio: accel: bma400: Use devm_regulator_bulk_get_enable()
+c33ba560336af5eb678ac426fb575f725291657e iio: pressure: ms5611: Use devm_regulator_get_enable()
+4652bc537a2e0b44959489f45e4684fa4f143a45 iio: pressure: ms5611: Switch to fully devm_ managed registration.
+d180a371737e54ed030e54559a4351c00ca2aa10 iio: light: max44009: Convert to i2c's .probe_new()
+fc16ab751e625f86d88ff1bd45727d68d660a5f5 iio: light: tsl2563: Do not hardcode interrupt trigger type
+66a326944fdb220a2dedc1fc478e390747c7720d iio: light: tsl2563: Use i2c_smbus_write_word_data() in tsl2563_configure()
+04299c54ede45421413c0021ad4b3dc0679ccc5b iio: light: tsl2563: Configure INT in one place
+2a8b059f52b0e26f4e8acd1fef7cfd6a0f034ad9 iio: light: tsl2563: Make use of the macros from bits.h
+82d661fb379aec549ddfe0481ed219b9b1424bc8 iio: light: tsl2563: Drop unused defintion(s)
+d3c923ff99879be936b303bafcc72faa6860c8c9 iio: light: tsl2563: Simplify with dev_err_probe
+fb66b018e9beeb4decbcc3f5ad6b3dc768d03405 iio: light: tsl2563: Drop legacy platform data code
+023be6d35cea6bb212fc1d970df1cbcbed42c5bb iio: light: tsl2563: Utilise temporary variable for struct device
+97b15a4dde7a2e77dadd3d0494216bad1e14e0ec iio: light: tsl2563: Use dev_get_drvdata() directly in PM callbacks
+e1118f4d688e285ac095e7f2bc1ffe9e5b914d04 iio: light: tsl2563: sort header inclusion alphabetically
+0dec19b344b5428ac801e66903622885a53cd3f4 iio: light: tsl2563: Keep Makefile sorted by module name
 
---===============9063506060704600949==--
+--===============1949429821286578769==--
