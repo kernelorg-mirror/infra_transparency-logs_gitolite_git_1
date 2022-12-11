@@ -1,63 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============5228557762345649446=="
+Content-Type: multipart/mixed; boundary="===============3681300863642616465=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Sun, 11 Dec 2022 11:59:59 -0000
-Message-Id: <167075999943.29699.15537341818725092259@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
+Date: Sun, 11 Dec 2022 12:00:06 -0000
+Message-Id: <167076000691.31416.503290734554832885@gitolite.kernel.org>
 
---===============5228557762345649446==
+--===============3681300863642616465==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
+repo: pub/scm/linux/kernel/git/leon/linux-rdma
 user: leon
 changes:
-  - ref: refs/heads/wip/leon-for-next
-    old: 6cfe7bd0dfd33033683639039b5608d6534c19eb
-    new: dbc94a0fb81771a38733c0e8f2ea8c4fa6934dc1
-    log: revlist-6cfe7bd0dfd3-dbc94a0fb817.txt
+  - ref: refs/heads/rdma-next
+    old: 86d3976a72a72b0480457181c206ec76ae211db0
+    new: 774edfe6159b0b6a28319114752a62a52bae1412
+    log: revlist-86d3976a72a7-774edfe6159b.txt
 
---===============5228557762345649446==
+--===============3681300863642616465==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6cfe7bd0dfd3-dbc94a0fb817.txt
+Content-Disposition: attachment; filename=revlist-86d3976a72a7-774edfe6159b.txt
 
-0fc8c2acbfc789a977a50a4a9812a8e4b37958ce io_uring: calculate CQEs from the user visible value
-000f8870a47bdc36730357883b6aef42bced91ee vmlinux.lds.h: Fix placement of '.data..decrypted' section
-26c263bf1847d4dadba016a0457c4c5f446407bf Input: i8042 - apply probe defer to more ASUS ZenBook models
-6191de8b175fad1a877ae8ed4be699a5022b9c03 s390/configs: move CONFIG_DEBUG_INFO_BTF into btf.config addon config
-9afea696a04af29b114b38aec734e28b03e93dae s390/configs: add kasan.config addon config file
-80ddf5ce1c9291cb175d52ed1227134ad48c47ee s390: always build relocatable kernel
-d68cc25b7c7fb3034c5a5b5f350a0b858c6d5a45 usb: dwc3: Do not get extcon device when usb-role-switch is used
-f0861f49bd946ff94fce4f82509c45e167f63690 x86/sgx: Add overflow check in sgx_validate_offset_length()
-f49b2d89fb10ef5fa5fa1993f648ec5daa884bef Merge tag 'lsm-pr-20221107' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/lsm
-f141df371335645ce29a87d9683a3f79fba7fd67 Merge tag 'audit-pr-20221107' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/audit
-84d1b2013272947ad9b13025df89226d8fa31cc5 perf stat: Fix crash with --per-node --metric-only in CSV mode
-ad353b710c7493df3d4fc2d3a51819126bed2e81 perf stat: Fix printing os->prefix in CSV metrics output
-20ebc4a649b82e6ad892684c76ea1e8dd786d336 perf test: Fix skipping branch stack sampling test
-94d957ae513fc420d0a5a9bac815eb49ffebb56f perf tools: Add the include/perf/ directory to .gitignore
-03832a32bf8ff0a8305d94ddd3979835a807248f netfilter: nfnetlink: fix potential dead lock in nfnetlink_rcv_msg()
-03c1f1ef1584c981935fab2fa0c45d3e43e2c235 netfilter: Cleanup nft_net->module_list from nf_tables_exit_net()
-2b0145032877fe0fa3460dfff285cc2fdcc9fc2e Merge tag 'linux-can-fixes-for-6.1-20221107' of git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can
-c61b3a2b2d9bb36698f8c2f65aa41ba183815264 maple_tree: remove pointer to pointer use in mas_alloc_nodes()
-9a887877ef981e5a185a84339603300cf2eb1900 maple_tree: mas_anode_descend() clang-analyzer cleanup
-120b116208a0877227fc82e3f0df81e7a3ed4ab1 maple_tree: reorganize testing to restore module testing
-8625147cafaa9ba74713d682f5185eb62cb2aedb hugetlbfs: don't delete error page from pagecache
-cc674ab3c0188002917c8a2c28e4424131f1fd7e mm/mmap: fix memory leak in mmap_region()
-8ac932a4921a96ca52f61935dbba64ea87bbd5dc nilfs2: fix deadlock in nilfs_count_free_blocks()
-624a2c94f5b7a08120aaf26b3275a17463789273 Partly revert "mm/thp: carry over dirty bit when thp splits on pmd"
-867400af90f1f953ff9e10b1b87ecaf9369a7eb8 mm/memremap.c: map FS_DAX device memory as decrypted
-93b0d9178743a68723babe8448981f658aebc58e mm/shmem: use page_mapping() to detect page cache for uffd continue
-db5e8d84319bcdb51e1d3cfa42b410291d6d1cfa mm: hugetlb_vmemmap: include missing linux/moduleparam.h
-cbadaf71f7cf9e67c073eec673c6c050cecd0ec8 kmsan: core: kmsan_in_runtime() should return true in NMI context
-11385b2612004298ac2fbc9877e73f1410cfd3c0 x86/uaccess: instrument copy_from_user_nmi()
-ac66998df30a3c2888c077879786a3589ed5170b Kconfig.debug: ensure early check for KMSAN in CONFIG_KMSAN_WARN
-83d0edfa04eeca46b3eff554fb42b2fefe97bdf1 kmsan: make sure PREEMPT_RT is off
-ba54d194f8daad8943802d6dfe06e205f882c391 x86/traps: avoid KMSAN bugs originating from handle_bug()
 8cccf05fe857a18ee26e20d11a8455a73ffd4efd nilfs2: fix use-after-free bug of ns_writer on remount
 82e60d00b753bb5cfecce22b8e952436b14d02a3 fs: fix leaked psi pressure state
 1fdbed657a4726639c4f17841fd2a0fb646c746e arch/x86/mm/hugetlbpage.c: pud_huge() returns 0 when using 2-level paging
@@ -1050,5 +1018,37 @@ ea1bb00ee9a5527b032a6efebe4a879db4cb42bb RDMA/rxe: Implement flush execution in 
 124011e6e933bead5852c3f69b32dec43919fe1a RDMA/rxe: Enable RDMA FLUSH capability for rxe device
 e42f9c2e6aad583986e91979bf2fce47aaced1c2 RDMA: Add missed netdev_put() for the netdevice_tracker
 dbc94a0fb81771a38733c0e8f2ea8c4fa6934dc1 IB/IPoIB: Fix queue count inconsistency for PKEY child interfaces
+74734fc6c4246e8dbde6aef1677cf5c7e56ee7f7 net/sched: Don't print dump stack in event of transmission timeout
+c4e9e9a94bc259f056c60b9880590dc400689371 RDMA/core: Introduce peer memory interface
+d7fd93738860e08071c3e92885f9a086e3d5fa8b mm: add early FAULT_FLAG_UNSHARE consistency checks
+ee354bd4b4a70175a96ece53ab97516e3eb4f823 mm: add early FAULT_FLAG_WRITE consistency checks
+a2744eb7f4d3b0a06c376e48adf0fc96021b5c7e mm: rework handling in do_wp_page() based on private vs. shared mappings
+d77c08b8c972cfa0c5b908c7d59da8652d549673 mm: don't call vm_ops->huge_fault() in wp_huge_pmd()/wp_huge_pud() for private mappings
+836e55525408e36fbd38e49713176b226f164c54 mm: extend FAULT_FLAG_UNSHARE support to anything in a COW mapping
+6f6e8c225ed7e775c7ba517d64476fedba308ddd mm/gup: reliable R/O long-term pinning in COW mappings
+f80c9cde3de45a91c9017a62184312b415ea0dfc RDMA/umem: remove FOLL_FORCE usage
+6e063b4b49a2b43d635461648c7e7253762d9b83 RDMA/usnic: remove FOLL_FORCE usage
+a94f9eae6830fe024629e7476bf6185d6fd0c5be RDMA/siw: remove FOLL_FORCE usage
+1e4c0a2e4e8213472f709bc1845856e4cfb6c028 media: videobuf-dma-sg: remove FOLL_FORCE usage
+90fd86d93bf492d80ae3c224c6b4dbd6cc52540b drm/etnaviv: remove FOLL_FORCE usage
+458945dec0b4e0990b9877c24437a6f6576e218a media: pci/ivtv: remove FOLL_FORCE usage
+fa340252f013e319762b4992607616641caf17c2 mm/frame-vector: remove FOLL_FORCE usage
+d57f88249e6cec477534c983c8e193b340851b64 drm/exynos: remove FOLL_FORCE usage
+04c0df7f8b6d4955c2af9a2d65d019d1567088ba RDMA/hw/qib/qib_user_pages: remove FOLL_FORCE usage
+42ffa544eefcb507ac3efa1a55efe679d44f57a8 habanalabs: remove FOLL_FORCE usage
+dfccfa8e5ef023cf1f77736f6b5396f315c00654 net/mlx5: Nullify qp->dbg pointer post destruction
+0fbc6fc2191e53a49c3b5a5045b8285add94102b RDMA/mlx5: Handling dct common resource destruction upon firmware failure
+6f12345d32076d264693db39885185dcc3202a05 RDMA/mlx5: Return the firmware result upon destroying QP/RQ
+86a8773a98c074aba5b081db019d68c18f8da76b RDMA/cma: Refactor the inbound/outbound path records process flow
+5dfd5e452420a36c70cca8abba864dc6c04280a0 RDMA/core: Fix resolve_prepare_src error cleanup
+77ffd772381d061516ac5f8bb84f223277ab5871 net/mlx5: Expose bits for querying special mkeys
+568f27bcd35227d200f2f8511e7fc6cf47693b91 net/mlx5: Change define name for 0x100 lkey value
+b13e2649a692e529f5e31cc5ddc1f26096d805c7 net/mlx5: Use query_special_contexts for mkeys
+e7b66057fd6b03e885f66d8f68abf1ed175ac097 RDMA/mlx5: Use query_special_contexts for mkeys
+e29966d9263d3803eb08d1daba66a2527b930b67 RDMA/mlx5: Fix mlx5_ib_get_hw_stats when used for device
+b336b2000d2236ee628ad2ea5c6f0a3febf377ca RDMA/mlx5: Fix validation of max_rd_atomic caps for DC
+6d0b8acccbd713e7bdf7980eca9117efdc163c0b RDMA/mlx: Calling qp event handler in workqueue context
+396b7ea0c9379046e0a3a6cd533502c351549cb2 net/mlx5: Introduce CQE error syndrome
+774edfe6159b0b6a28319114752a62a52bae1412 RDMA/mlx5: Print error syndrome in case of fatal QP errors
 
---===============5228557762345649446==--
+--===============3681300863642616465==--
