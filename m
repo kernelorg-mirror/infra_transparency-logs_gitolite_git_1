@@ -1,48 +1,45 @@
-Content-Type: multipart/mixed; boundary="===============4394040383077302493=="
+Content-Type: multipart/mixed; boundary="===============4944051724312290592=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
-Date: Sun, 11 Dec 2022 20:38:57 -0000
-Message-Id: <167079113724.5858.12420571670987662576@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gfs2/linux-gfs2
+Date: Sun, 11 Dec 2022 20:56:07 -0000
+Message-Id: <167079216704.18190.5423745134845554270@gitolite.kernel.org>
 
---===============4394040383077302493==
+--===============4944051724312290592==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/viro/vfs
-user: viro
+repo: pub/scm/linux/kernel/git/gfs2/linux-gfs2
+user: agruen
 changes:
-  - ref: refs/heads/untested.blk-map
-    old: d9c2b0cbff470cabfd296b2f2ddbbf65386300c6
-    new: 911875e1734b6d6d4132dc20acbb052e9448332b
-    log: revlist-d9c2b0cbff47-911875e1734b.txt
+  - ref: refs/heads/for-next
+    old: d80c22ddcc9aab7c1c92076ec16ea98cfef30a20
+    new: c112800bb62ffc2929dc7b489c8041325ca27a53
+    log: revlist-d80c22ddcc9a-c112800bb62f.txt
 
---===============4394040383077302493==
+--===============4944051724312290592==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d9c2b0cbff47-911875e1734b.txt
+Content-Disposition: attachment; filename=revlist-d80c22ddcc9a-c112800bb62f.txt
 
-a53214c924f95fb12c7c78521aa936738ddf22a0 blk_rq_map_user_iov(): build the bio chain, then attach it to rq
-a0722ce9eac6241a2373115c8b8aac15bfd93167 blk_rq_map_user_iov(): expose a variant returning a bio chain
-b34b935d9478893dd61e0aebc52895c1be7efe7c .. and the same to blk_rq_map_user()
-4840812b71d897b2407e7bd8169fe4c7703b7240 ... and the same to blk_rq_map_user_io()
-dd2aeb63fea3fc7de042ac526ac905b25872ecbf scsi_bsg: switch to setting bio chain first
-cfcd4330aa624b5baf2b64cee2a1246506906c01 sg_io(): switch to setting bio chain first
-470c1ab6ceb3ec12e178d75793b7752835cdf6b1 sg_scsi_ioctl(): don't copy_{from,to}_user() with a request held
-60ababc4898dca7fb3e8ac8f4c0543d62d13bcfe sr: switch to setting bio chain first
-ba16edb01807feba33c100912cfd01c3d43669f0 mmc: release (passthrough) request before copy_to_user()
-744ba03387161c5af7d78abddf7f63dd2a05a2f4 sg.c: switch to setting bio chain first
-52bec1aecc4a9b8f141c371d79da43477cff7e37 nvme_uring_cmd_io(): don't even try REQ_POLLED if we are not going to have a bio
-e247d3920066957e01a6f60ed4a80cfef8413040 nvme_uring_cmd_end_io(): free request if we would have to do copy_to_user()
-3c58c03dd755cb4b8a4b5cded993e529f710e5d1 nvme: switch to setting bio chain first
-eaf6809f126378ce2ab7580ef3ec42e0b9dccd84 kill blk_rq_map_user_{io,iov}()
-c8a9515db6ceb0de2cc9543dfe4c3082c82ef6e2 blk-map.c: get rid of pointless gfp_t arguments
-eec0afe7699914155e9f89f78f1db2a453678cb1 bsg-lib: get rid of ->bidi_rq
-8c89051fe5bfe7cb6f374f47dfd6b363a4af55ad st: switch to blk_map_user()
-911875e1734b6d6d4132dc20acbb052e9448332b ... and now blk_rq_map_user() is gone
+f0c0ade8d874fb127f9b451d415bee8cbb6bf7a6 gfs2: Minor gfs2_try_evict cleanup
+c1c2ee9f3bfb1bf02276e4981c25cabaece4076a iomap: Move page_done callback under the folio lock
+a13420ef256ddb5baaede0281ecf88bfa3d127bb gfs2: Remove support for glock holder auto-demotion
+182c668835d91382cab9efafdbec9667c2be3907 gfs2: Remove support for glock holder auto-demotion (2)
+5fb93f574da9313441d67d343905aa4b7d821a0f gfs2: Clean up gfs2_scan_glock_lru
+d0d3a917066f2383516b065995ebac2a2a53b5c5 gfs2: Make glock lru list scanning safer
+79dab1b550bfb5aef4e569b86b73d2428da03480 gfs2: Get rid of GLF_PENDING_DELETE flag
+1ddf60b91a2ff46a1bebaf24831f38735194fcaa gfs2: Add glock auxiliary work mechanism
+f34e343aba508ed6de16095fb12e3e353935b89b gfs2: Turn remote inode eviction into auxiliary glock work
+b28e514874c85d3184fb47d25b0346063784ef57 gfs2: Add SDF_READONLY super block flag
+171b670544670de73bbc09e9672923c8753dca9e gfs2: Cease delete work during unmount
+24f9c023ea9e0486549cc6b548708bf6c8786b3c gfs2: Move delete workqueue into super block
+776656cdfb55336d06e2a2d629589e1cc0eeafa5 gfs2: Switch out gfs2_{ flush => drain }_delete_work
+1900ba91b8147be3d9dd83b7e6a93958e533e887 gfs2: Drain delete work before evicting inodes
+c112800bb62ffc2929dc7b489c8041325ca27a53 gfs2: Simplify function gfs2_upgrade_iopen_glock
 
---===============4394040383077302493==--
+--===============4944051724312290592==--
