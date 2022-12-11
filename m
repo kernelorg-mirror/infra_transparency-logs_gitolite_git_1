@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Sun, 11 Dec 2022 01:43:36 -0000
-Message-Id: <167072301632.7309.9313065287739091585@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/trace-cmd/trace-cmd
+Date: Sun, 11 Dec 2022 02:07:07 -0000
+Message-Id: <167072442754.23322.12258094635749871202@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/utils/trace-cmd/trace-cmd
+user: rostedt
 changes:
   - ref: refs/heads/master
-    old: 0137cd8adffa357aebaba1a2a9bffd579eeb6f0b
-    new: 9d863cc6b9a3733b27e173111574cfb2f4359a49
+    old: 1f75010a25939c0c4e1d99df7c40e364e4206e9b
+    new: 411624a556bbfadd050fa0e7430bf4b1df74d4cf
     log: |
-         9d863cc6b9a3733b27e173111574cfb2f4359a49 Sun Dec 11 01:42:44 AM UTC 2022
+         2610bdcde43a63e3a9b2afb2ededab1183acf5fe trace-cmd library: Use tracefs_cpu for recorder helpers
+         3f6350cc7502f74d04c802b1cc70e02c03ed33c1 trace-cmd: Let subcommand "convert" automatically if possible.
+         411624a556bbfadd050fa0e7430bf4b1df74d4cf trace-cmd: Fix reading stats of read max test
          
