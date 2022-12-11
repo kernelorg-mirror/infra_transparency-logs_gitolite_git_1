@@ -1,13 +1,9 @@
-Content-Type: multipart/mixed; boundary="===============7445118785731709962=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/fs/xfs/xfstests-dev
-Date: Sun, 11 Dec 2022 14:40:01 -0000
-Message-Id: <167076960163.2433.17475634516223780891@gitolite.kernel.org>
-
---===============7445118785731709962==
-Content-Type: text/plain; charset="us-ascii"
+Date: Sun, 11 Dec 2022 14:40:55 -0000
+Message-Id: <167076965525.4256.6134113180835234109@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
@@ -15,28 +11,18 @@ service: git-receive-pack
 repo: pub/scm/fs/xfs/xfstests-dev
 user: zlang
 changes:
-  - ref: refs/heads/master
-    old: 41f2bbdec5faa5d6522e86e63c1f30473a99dbfe
-    new: 1e8502082ca94addc20b7cb0e86cbc6af397ebe0
-    log: revlist-41f2bbdec5fa-1e8502082ca9.txt
-
---===============7445118785731709962==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-41f2bbdec5fa-1e8502082ca9.txt
-
-be20e5f491e06d4784cb50f916b2f6b8f42917df generic: check direct IO writes with io_uring and O_DSYNC are durable
-b4feba30c81c43d38b7d30af207511130b9fbc57 generic: check logical-sector sized O_DIRECT
-eae34184a70dd2a387a113dfdca994405e8f367c generic: shutdown might leave NULL files with nonzero di_size
-4b480aae3ed127aa675582e3baad14aa969ee1dc fstests: filter.btrfs: handle detailed missing device report better
-7e0d5f6a44368ffa269d91856994da6d93a4eb9b btrfs/003: fix failure on new btrfs-progs versions
-0d044155ff7686710a18fa952f0d76559dbfed6d btrfs/053: fix test failure when running with btrfs-progs v6.0+
-d6deed033681643118cbeea0bc8841f2ee5327f1 btrfs: fix failure of tests that use defrag on btrfs-progs v6.0+
-da2e198c3fa536012c2f8cb8e3741c46605ae01b common/dmlogwrites: Extend _log_writes_init() to accept the specified length
-98729caa07c9c9edcfb631522c9b2e4076212e16 generic/470: Replace thin volume with blkdiscard -z
-4c02b231b514d2346ba415cf640d9dfaa3d1aae1 ceph/005: skip test if using "test_dummy_encryption"
-acd67f0b2c5fe187db8540b4e65dc94ff9a939c8 fstests: update group name according to xfs_io command requirement
-1e8502082ca94addc20b7cb0e86cbc6af397ebe0 generic/614: Run test only for filesystems supporting delalloc
-
---===============7445118785731709962==--
+  - ref: refs/heads/for-next
+    old: 1e8502082ca94addc20b7cb0e86cbc6af397ebe0
+    new: 87ab8bdf20db7308e7ecc2ddcdce530ec1f08f1f
+    log: |
+         6e470ab87ad6b95c9bf1e90b0fb6441ce8a584a4 fstests: skip btrfs/254 in case MIN_FSSIZE is more than 1G
+         676b0a09706d6db31b453e1c5aabce4204b541de btrfs: add a _require_btrfs_send_v2 helper
+         1f423c9e6e05dcb3b1ec94d0ba560c661c4d421f common: make _filter_fiemap_flags optionally print the encoded flag
+         6f6559a88eb2b3be2270700eac915c7322dc4fb7 btrfs/280: also verify that fiemap reports extents as encoded
+         8742da385e0022c17d4ce6efdae329aa5e2084e6 btrfs: test a case with compressed send stream and a shared extent
+         7823f7c160d78ca1eaac35b37943721679bb46cd ext4/044: Fix failure when mount options are incompatible with ext3
+         8ec6f05efca7346a81e755da953b9a170eff9f62 generic/273: Limit number of files by available inodes
+         3d7044904ac2c79ea5474f12020cca00fc008c72 fstests: btrfs/080: fix the stray '\'
+         e2e7b549380aedbbc1badb9a344939b788668bfe fstests: btrfs/219: remove it from auto group
+         87ab8bdf20db7308e7ecc2ddcdce530ec1f08f1f fstests: batch update of file mode and untracked files
+         
