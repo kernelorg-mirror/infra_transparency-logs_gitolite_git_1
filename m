@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5495495679466779503=="
+Content-Type: multipart/mixed; boundary="===============1157637594885027239=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/fs/fscrypt/fscrypt
-Date: Mon, 12 Dec 2022 04:39:46 -0000
-Message-Id: <167081998655.29277.12658856849974830809@gitolite.kernel.org>
+Date: Mon, 12 Dec 2022 04:39:50 -0000
+Message-Id: <167081999040.29345.12331802335858291330@gitolite.kernel.org>
 
---===============5495495679466779503==
+--===============1157637594885027239==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,20 @@ service: git-receive-pack
 repo: pub/scm/fs/fscrypt/fscrypt
 user: ebiggers
 changes:
-  - ref: refs/tags/fscrypt-for-linus
-    old: a9ee63da116cefdef8dbd127a1da19427ccf4a3e
-    new: 3d2a512efe876e6d2afba22ff1e6787eb24dcaca
-    log: revlist-a9ee63da116c-3d2a512efe87.txt
+  - ref: refs/tags/fsverity-for-linus
+    old: eb6d259e1ec685139ee1443755444bb39ee90fe7
+    new: aa749e1a58041ab886946fd7dc2e2fb4f3271de0
+    log: revlist-eb6d259e1ec6-aa749e1a5804.txt
 
---===============5495495679466779503==
+--===============1157637594885027239==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a9ee63da116c-3d2a512efe87.txt
+Content-Disposition: attachment; filename=revlist-eb6d259e1ec6-aa749e1a5804.txt
 
+aa6c77d05eb1c57ee5b95a7b83a39384c37df4d9 iio: adc: mcp3911: mask out device ID in debug prints
+174dac5dc800e4e2e4552baf6340846a344d01a3 iio: adc: stm32-adc: fix channel sampling time init
+72b2aa38191bcba28389b0e20bf6b4f15017ff2b tools: iio: iio_utils: fix digit calculation
 4132f19173211856d35180958d2754f5c56d520a iio: temperature: ltc2983: allocate iio channels once
 54246b9034da08087ceb2083478c0d13403e12b4 iio: at91-sama5d2_adc: Fix unsafe buffer attributes
 ab0ee36e90f611f32c3a53afe9dc743de48138e2 iio: adxl372: Fix unsafe buffer attributes
@@ -248,6 +251,7 @@ ff2f5ec5d009844ec28f171123f9e58750cef4bf net: hns: fix possible memory leak in h
 ebda44da44f6f309d302522b049f43d6f829f7aa net: sched: fix race condition in qdisc_graft()
 72495b5ab456ec9f05d587238d1e2fa8e9ea63ec ublk_drv: use flexible-array member instead of zero-length array
 7f378c03aa4952507521174fb0da7b24a9ad0be6 net: phy: dp83822: disable MDI crossover status change interrupt
+ccd30a476f8e864732de220bd50e6f372f5ebcab fscrypt: fix keyring memory leak on mount failure
 a4f7fcd7023ba63bdfe82a054c4ceb636a55d155 fbdev: sisfb: fix repeated word in comment
 70281592bf3fb7a2a193dced4d4e58a9ee96aa6c fbdev: xilinxfb: Make xilinxfb_release() return void
 1aca5ce036e3499336d1a2ace3070f908381c055 Merge drm/drm-fixes into drm-misc-fixes
@@ -1044,11 +1048,7 @@ f6f5204727b9b1f3c6e9c90b5b09f40c6e0102f5 Merge tag 'x86_urgent_for_v6.1_rc4' of 
 aa52994915dca444dbb8e6b91eb82b749ba7a1ec Merge tag 'hwmon-for-v6.1-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/groeck/linux-staging
 16c7a368c8ba9aba3b0e0ae5ec0a64be9fb45665 Merge tag 'cxl-fixes-for-6.1-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/cxl/cxl
 f0c4d9fc9cc9462659728d168387191387e903cc Linux 6.1-rc4
-02aef4225258fa6d022ce9040716aeecc3afc521 fscrypt: pass super_block to fscrypt_put_master_key_activeref()
-aa997990080877c3a6dab9f25609073816378b43 fscrypt: add comment for fscrypt_valid_enc_modes_v1()
-d209ce353a324601f9d3c1eee43b1f0df53021b3 blk-crypto: Add support for SM4-XTS blk crypto mode
-e0cefada1383c5ceb5a35f08369d0d40a6629c18 fscrypt: Add SM4 XTS/CTS symmetric algorithm support
-f8b435f93b7630afea2df958e0331c566496214b fscrypt: remove unused Speck definitions
-41952551acb405080726aa38a8a7ce317d9de4bb fscrypt: add additional documentation for SM4 support
+98dc08bae6780bb950b5c0cdefeb662b22482655 fsverity: stop using PG_error to track error status
+a4bbf53d88c728da9ff6c316b1e4ded63a8f3940 fsverity: simplify fsverity_get_digest()
 
---===============5495495679466779503==--
+--===============1157637594885027239==--
