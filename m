@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 12 Dec 2022 20:14:28 -0000
-Message-Id: <167087606852.15524.2249150167512919499@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ribalda/linux
+Date: Mon, 12 Dec 2022 20:15:09 -0000
+Message-Id: <167087610992.17443.508311402101243548@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/ribalda/linux
+user: ribalda
 changes:
-  - ref: refs/tags/locking-core-2022-12-12
+  - ref: refs/tags/sent/uvc-race-v1
     old: 0000000000000000000000000000000000000000
-    new: 5ec9444b3b9526363a7d41f60d4d33e8095117a7
+    new: be4d78718ec3d8d62dd2b300c7c3ceccb0b8bf87
+  - ref: refs/heads/b4/uvc-race
+    old: 0000000000000000000000000000000000000000
+    new: 9206dc7d3ee14155a870fb3b46f5bcd73022be80
