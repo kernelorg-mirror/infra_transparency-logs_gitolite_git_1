@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============2947571273292718272=="
+Content-Type: multipart/mixed; boundary="===============7804684561015515558=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/lsm
-Date: Mon, 12 Dec 2022 16:28:18 -0000
-Message-Id: <167086249816.22553.4048745117847528937@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/selinux
+Date: Mon, 12 Dec 2022 16:28:23 -0000
+Message-Id: <167086250335.22626.15287213819130552660@gitolite.kernel.org>
 
---===============2947571273292718272==
+--===============7804684561015515558==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pcmoore/lsm
+repo: pub/scm/linux/kernel/git/pcmoore/selinux
 user: pcmoore
 changes:
   - ref: refs/heads/main
-    old: 0ee3fea3755ef207030eb6ec352161fd0a0c0d3f
-    new: 6db30b652291a2c37fd45f9273847d12ac7ddf5f
-    log: revlist-0ee3fea3755e-6db30b652291.txt
+    old: e5ceb6b92bd2351bc92e563b774cebc9630554f3
+    new: bfb7614e52a5147a81460bd2c2560c428d8457e3
+    log: revlist-e5ceb6b92bd2-bfb7614e52a5.txt
 
---===============2947571273292718272==
+--===============7804684561015515558==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0ee3fea3755e-6db30b652291.txt
+Content-Disposition: attachment; filename=revlist-e5ceb6b92bd2-bfb7614e52a5.txt
 
 23569b5652ee8e8e55a12f7835f59af6f3cefc30 net: macvlan: fix memory leaks of macvlan_common_newlink
 876153ab068b2507a19aa3ef481f5b00a2cc780f drm/panel: simple: set bpc field for logic technologies displays
@@ -1049,6 +1049,6 @@ a501788ab2603d97c41e8cda59cd74b72c29951f MAINTAINERS: update Muchun Song's email
 4cee37b3a4e68c42b867c87a6218e11bc571ba66 Merge tag 'mm-hotfixes-stable-2022-12-10-1' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 d92b86f672a42d9d74a24a63a1e59793c4116830 Merge tag 'iommu-fix-v6.1-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/joro/iommu
 830b3c68c1fb1e9176028d02ef86f3cf76aa2476 Linux 6.1
-6db30b652291a2c37fd45f9273847d12ac7ddf5f lsm: add a LSM specific README.md and SECURITY.md
+bfb7614e52a5147a81460bd2c2560c428d8457e3 selinux: add a SELinux specific README.md and SECURITY.md
 
---===============2947571273292718272==--
+--===============7804684561015515558==--
