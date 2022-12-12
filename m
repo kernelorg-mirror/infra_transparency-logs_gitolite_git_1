@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============8433673769670613774=="
+Content-Type: multipart/mixed; boundary="===============6594895798053945572=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
-Date: Mon, 12 Dec 2022 09:12:14 -0000
-Message-Id: <167083633419.11173.10860750197903524087@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
+Date: Mon, 12 Dec 2022 09:12:19 -0000
+Message-Id: <167083633984.11279.16689144068036119030@gitolite.kernel.org>
 
---===============8433673769670613774==
+--===============6594895798053945572==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux
+repo: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
 user: krzk
 changes:
   - ref: refs/heads/master
@@ -23,7 +23,7 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: 7614896350aa20764c5eca527262d9eb0a57da63
 
---===============8433673769670613774==
+--===============6594895798053945572==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1054,4 +1054,4 @@ a501788ab2603d97c41e8cda59cd74b72c29951f MAINTAINERS: update Muchun Song's email
 d92b86f672a42d9d74a24a63a1e59793c4116830 Merge tag 'iommu-fix-v6.1-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/joro/iommu
 830b3c68c1fb1e9176028d02ef86f3cf76aa2476 Linux 6.1
 
---===============8433673769670613774==--
+--===============6594895798053945572==--
