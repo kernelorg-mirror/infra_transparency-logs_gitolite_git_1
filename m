@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8829906035087558980=="
+Content-Type: multipart/mixed; boundary="===============8965460039549185746=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-Date: Mon, 12 Dec 2022 22:20:32 -0000
-Message-Id: <167088363245.4888.3765254421933612690@gitolite.kernel.org>
+Date: Mon, 12 Dec 2022 22:22:13 -0000
+Message-Id: <167088373321.5466.15614202778012713591@gitolite.kernel.org>
 
---===============8829906035087558980==
+--===============8965460039549185746==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
 user: vudentz
 changes:
-  - ref: refs/heads/master
-    old: c237f99b3b65f8f085b9556dd239bb32e8cebdcf
-    new: 7aca0ac4792e6cb0f35ef97bfcb39b1663a92fb7
-    log: revlist-c237f99b3b65-7aca0ac4792e.txt
+  - ref: refs/tags/for-net-next-2022-12-12
+    old: d266f58a1021cedd0694686cc196a0643c588533
+    new: 441b06cd35ba5b5774f52ac267e0ba4fd80da8a0
+    log: revlist-d266f58a1021-441b06cd35ba.txt
 
---===============8829906035087558980==
+--===============8965460039549185746==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c237f99b3b65-7aca0ac4792e.txt
+Content-Disposition: attachment; filename=revlist-d266f58a1021-441b06cd35ba.txt
 
 052c82dcdcbb6eb89d0967c309c010cd293076d0 selftests/bpf: Use if_nametoindex instead of reading the /sys/net/class/*/ifindex
 57d0863f1d2812da543ef49172f60d6aa14bedcf selftests/bpf: Avoid pinning bpf prog in the tc_redirect_dtime test
@@ -352,4 +352,4 @@ df4cfc91208e0a98f078223793f5871b1a82cc54 Bluetooth: hci_qca: don't call kfree_sk
 241f51931c35085449502c10f64fb3ecd6e02171 Bluetooth: ISO: Avoid circular locking dependency
 7aca0ac4792e6cb0f35ef97bfcb39b1663a92fb7 Bluetooth: Wait for HCI_OP_WRITE_AUTH_PAYLOAD_TO to complete
 
---===============8829906035087558980==--
+--===============8965460039549185746==--
