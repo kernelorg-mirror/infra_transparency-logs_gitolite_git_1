@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Mon, 12 Dec 2022 09:49:43 -0000
-Message-Id: <167083858365.18097.7877151894796488558@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Mon, 12 Dec 2022 09:52:04 -0000
+Message-Id: <167083872443.20369.6917177379876968860@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: hansg
+repo: pub/scm/linux/kernel/git/netdev/net
+user: davem
 changes:
-  - ref: refs/tags/platform-drivers-x86-v6.2-1
-    old: 0000000000000000000000000000000000000000
-    new: db88fd7c6c85b0b1aa82037de74101d1493c624f
+  - ref: refs/heads/master
+    old: 2f623aaf9f31de968dea6169849706a2f9be444c
+    new: 3cf7203ca620682165706f70a1b12b5194607dce
+    log: |
+         3cf7203ca620682165706f70a1b12b5194607dce net/tunnel: wait until all sk_user_data reader finish before releasing the sock
+         
