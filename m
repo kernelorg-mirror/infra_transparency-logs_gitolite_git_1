@@ -1,46 +1,19 @@
-Content-Type: multipart/mixed; boundary="===============9221965500976834229=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/b4/b4
-Date: Mon, 12 Dec 2022 15:46:07 -0000
-Message-Id: <167085996708.28159.7102056230658030596@gitolite.kernel.org>
-
---===============9221965500976834229==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Mon, 12 Dec 2022 15:47:47 -0000
+Message-Id: <167086006727.28793.6184137407483424355@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/b4/b4
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/master
-    old: b33dc823ae5c8bb81f00703df38becd7a17b517f
-    new: d906e8c405e3509e7b5bb0fff4f7e200d123e8e5
-    log: |
-         d906e8c405e3509e7b5bb0fff4f7e200d123e8e5 Fix regression on messages with attachments
-         
-
---===============9221965500976834229==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher B6C41CE35664996C! 1670859966 -0500
-pushee gitolite.kernel.org:pub/scm/utils/b4/b4
-nonce 1670859966-a1aa79ffc3b53845b6612362c675446e0f4faa1d
-
-b33dc823ae5c8bb81f00703df38becd7a17b517f d906e8c405e3509e7b5bb0fff4f7e200d123e8e5 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCY5dMvgAKCRC2xBzjVmSZ
-bEBQAQDtY8mC32R0JzBSZ9aM8hfMebLAGNJY681ZLBfcQfckcAD/eDbGE/LAUxMW
-tUdn6vqoTayk47AeamFvHvHXwm+DAQE=
-=LKAD
------END PGP SIGNATURE-----
-
---===============9221965500976834229==--
+  - ref: refs/heads/20221209_kai_vehmanen_asoc_sof_remove_unregister_calls_from_shutdown
+    old: 0000000000000000000000000000000000000000
+    new: 44fda61d2bcfb74a942df93959e083a4e8eff75f
+  - ref: refs/heads/filemWjrZf
+    old: 0000000000000000000000000000000000000000
+    new: 0612d748003ce7bcd0d67a8d270900fcdadb1009
