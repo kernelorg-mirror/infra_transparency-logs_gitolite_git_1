@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/libgpiod/libgpiod
-Date: Mon, 12 Dec 2022 10:20:43 -0000
-Message-Id: <167084044397.7794.10845903271020633723@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/srini/slimbus
+Date: Mon, 12 Dec 2022 10:26:37 -0000
+Message-Id: <167084079721.11039.5414862889216103291@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/libgpiod/libgpiod
-user: brgl
+repo: pub/scm/linux/kernel/git/srini/slimbus
+user: srini
 changes:
-  - ref: refs/heads/master
-    old: 8da5c77a54f4d8fd46e03d7b60c6892771d359b6
-    new: ffc27aa0e2ffeeaa4353e554383a4aae38e12663
+  - ref: refs/heads/for-next
+    old: 371fcbd32b26e865a79c1f0d6a3006a9e480df3f
+    new: 94c40c9882f19da20b189ebb508e9d1695d69caf
     log: |
-         ffc27aa0e2ffeeaa4353e554383a4aae38e12663 tools: tests: remove leftover echo
+         94c40c9882f19da20b189ebb508e9d1695d69caf slimbus: qcom-ngd: Add check for platform_driver_register
          
