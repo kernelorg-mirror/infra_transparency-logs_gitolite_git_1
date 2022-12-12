@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Mon, 12 Dec 2022 01:01:37 -0000
-Message-Id: <167080689766.15702.9256617432285076183@gitolite.kernel.org>
+Date: Mon, 12 Dec 2022 01:06:56 -0000
+Message-Id: <167080721644.19307.8106983536930909936@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,10 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/robh/linux
 user: robh
 changes:
-  - ref: refs/heads/for-next
-    old: 03871060e458e1d8bdc37a245c22ba842000c87b
-    new: ee9d7a0e754568180a2f8ebc4aad226278a9116f
+  - ref: refs/heads/dt/next
+    old: ee9d7a0e754568180a2f8ebc4aad226278a9116f
+    new: 580f9896e088b399fc79f1421e56a1b68f0450b5
     log: |
-         ee9d7a0e754568180a2f8ebc4aad226278a9116f of: overlay: fix null pointer dereferencing in find_dup_cset_node_entry() and find_dup_cset_prop()
+         121164481b79d93824eed464117d331a002f5d75 dt-bindings: leds: intel,lgm: Add missing 'led-gpios' property
+         580f9896e088b399fc79f1421e56a1b68f0450b5 dt-bindings: leds: Add missing references to common LED schema
          
