@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3819089837567857873=="
+Content-Type: multipart/mixed; boundary="===============4890637022478044466=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/linkinjeon/exfat
-Date: Mon, 12 Dec 2022 02:02:03 -0000
-Message-Id: <167081052342.24635.8149523014603904560@gitolite.kernel.org>
+Date: Mon, 12 Dec 2022 02:03:41 -0000
+Message-Id: <167081062102.25175.7230460188072452243@gitolite.kernel.org>
 
---===============3819089837567857873==
+--===============4890637022478044466==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,30 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/linkinjeon/exfat
 user: linkinjeon
 changes:
-  - ref: refs/heads/master
-    old: f0c4d9fc9cc9462659728d168387191387e903cc
-    new: 830b3c68c1fb1e9176028d02ef86f3cf76aa2476
-    log: revlist-f0c4d9fc9cc9-830b3c68c1fb.txt
+  - ref: refs/heads/dev
+    old: 7514205862e1802fe14876abfbf7c90e6ff777b9
+    new: 7064197e9f89ae0cdc54bc9b1cfc1d1ddab652da
+    log: revlist-7514205862e1-7064197e9f89.txt
 
---===============3819089837567857873==
+--===============4890637022478044466==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f0c4d9fc9cc9-830b3c68c1fb.txt
+Content-Disposition: attachment; filename=revlist-7514205862e1-7064197e9f89.txt
 
-acce40037041f97baad18142bb253064491ebde3 ethernet: tundra: free irq when alloc ring failed in tsi108_open()
-23569b5652ee8e8e55a12f7835f59af6f3cefc30 net: macvlan: fix memory leaks of macvlan_common_newlink
-876153ab068b2507a19aa3ef481f5b00a2cc780f drm/panel: simple: set bpc field for logic technologies displays
-36b038791e1e2baea892e9276588815fd14894b4 x86/fpu: Drop fpregs lock before inheriting FPU permissions
-179228654ddefcbd99060a113ad02079dcdf22f1 Merge tag 'hwlock-v6.1' of git://git.kernel.org/pub/scm/linux/kernel/git/remoteproc/linux
-8395ee62b1b78a3d2789840bf6bf1a7c43deaa32 Merge tag 'phy-fixes-6.1' of git://git.kernel.org/pub/scm/linux/kernel/git/phy/linux-phy
-f014699cca9a9a28fbdc06a9225b54562154fc20 Merge tag 'soundwire-6.1-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vkoul/soundwire
-1767a722a708f1fa3b9af39eb091d79101f8c086 Merge tag 'for-6.1-rc4-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
-1aeb122d214b92474c86fde00a03d6e2d69381b5 nvmem: lan9662-otp: Fix compatible string
-b9c1939627f8185dec8ba6d741e9573a4c7a5834 slimbus: stream: correct presence rate frequencies
-5fddf8962b429b8303c4a654291ecb6e61a7d747 docs: update mediator contact information in CoC doc
-e54fad8044db18cc400df8d01bfb86cada08b7cb slimbus: qcom-ngd: Fix build error when CONFIG_SLIM_QCOM_NGD_CTRL=y && CONFIG_QCOM_RPROC_COMMON=m
-ee424f7d3960152f5f862bbb6943e59828dc7917 nvmem: u-boot-env: fix crc32_data_offset on redundant u-boot-env
 65946690ed8d972fdb91a74ee75ac0f0f0d68321 firmware: coreboot: Register bus in module init
 7c0f8f1462c9edeaa202a2cbea1bde0960434b09 ASoC: stm32: i2s: remove irqf_oneshot flag
 37882100cd0629d830db430a8cee0b724fe1fea3 ASoC: hdac_hda: fix hda pcm buffer overflow issue
@@ -1050,5 +1037,18 @@ a501788ab2603d97c41e8cda59cd74b72c29951f MAINTAINERS: update Muchun Song's email
 4cee37b3a4e68c42b867c87a6218e11bc571ba66 Merge tag 'mm-hotfixes-stable-2022-12-10-1' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 d92b86f672a42d9d74a24a63a1e59793c4116830 Merge tag 'iommu-fix-v6.1-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/joro/iommu
 830b3c68c1fb1e9176028d02ef86f3cf76aa2476 Linux 6.1
+ff39899be80b9d90d5e13775eb9fd150338b6e15 exfat: simplify empty entry hint
+e298c8a818a3e517582e60c412f4a41b3a1647c5 exfat: hint the empty entry which at the end of cluster chain
+f83d8a3b532097276266b5e81073ea46e27b17ab exfat: reduce the size of exfat_entry_set_cache
+a3ff29a95fde16906304455aa8c0bd84eb770258 exfat: support dynamic allocate bh for exfat_entry_set_cache
+20914ff6dd56dd6b548bf5dd90bff09ef89999e4 exfat: move exfat_entry_set_cache from heap to stack
+3b9681acb0ef739343d8cfd35e054aab9597f1dc exfat: rename exfat_free_dentry_set() to exfat_put_dentry_set()
+f3fe3954c09f97d8227d9d2edc807796a8b228ab exfat: replace magic numbers with Macros
+088f1343d9108c16fca064951d85e6de9f5cab42 exfat: remove call ilog2() from exfat_readdir()
+015c0d4f6b1e65857de88279f07d7ecc5e305137 exfat: remove unneeded codes from __exfat_rename()
+72880cb5f157514d797d5f6ab3184bbde671a18a exfat: remove unnecessary arguments from exfat_find_dir_entry()
+e981917b3fae689e9372647a38746444205bb905 exfat: remove argument 'size' from exfat_truncate()
+f7cde96710a4362dca199458d3de04f631178453 exfat: remove i_size_write() from __exfat_truncate()
+7064197e9f89ae0cdc54bc9b1cfc1d1ddab652da exfat: reuse exfat_find_location() to simplify exfat_get_dentry_set()
 
---===============3819089837567857873==--
+--===============4890637022478044466==--
