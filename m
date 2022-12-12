@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============2011870771614062042=="
+Content-Type: multipart/mixed; boundary="===============1760643316481198022=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Mon, 12 Dec 2022 14:18:32 -0000
-Message-Id: <167085471224.2912.10235664795423326036@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Mon, 12 Dec 2022 14:18:46 -0000
+Message-Id: <167085472652.3056.6920794644566404897@gitolite.kernel.org>
 
---===============2011870771614062042==
+--===============1760643316481198022==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: leon
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: 830b3c68c1fb1e9176028d02ef86f3cf76aa2476
     log: revlist-76dcd734eca2-830b3c68c1fb.txt
 
---===============2011870771614062042==
+--===============1760643316481198022==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -194,4 +194,4 @@ a501788ab2603d97c41e8cda59cd74b72c29951f MAINTAINERS: update Muchun Song's email
 d92b86f672a42d9d74a24a63a1e59793c4116830 Merge tag 'iommu-fix-v6.1-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/joro/iommu
 830b3c68c1fb1e9176028d02ef86f3cf76aa2476 Linux 6.1
 
---===============2011870771614062042==--
+--===============1760643316481198022==--
