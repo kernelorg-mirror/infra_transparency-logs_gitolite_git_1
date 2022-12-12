@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4416650571865571604=="
+Content-Type: multipart/mixed; boundary="===============0280164048101184035=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Mon, 12 Dec 2022 16:54:52 -0000
-Message-Id: <167086409299.9726.15996640784558036071@gitolite.kernel.org>
+Date: Mon, 12 Dec 2022 16:55:07 -0000
+Message-Id: <167086410706.11376.791231868646021979@gitolite.kernel.org>
 
---===============4416650571865571604==
+--===============0280164048101184035==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,9 +16,9 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-queue
-    old: 12513a410b8b1403f9dfb4078585f3103cc28411
-    new: 4463baddcffc572adcb58501304ac2d4325bfd77
+  - ref: refs/heads/6.2/scsi-queue
+    old: 4e80eef45ad775a54fb06a66bf8267a154781ce5
+    new: 68ad83188d782b2ecef2e41ac245d27e0710fe8e
     log: |
          6456ab5d7ccd4fae6e136025480ad4ad91a7c795 scsi: libfc: Include the correct header
          9f5436f47c58463f91bfeebcc4613138625098c2 scsi: sd: sd_zbc: Trace zone append emulation
@@ -29,33 +29,33 @@ changes:
          68ad83188d782b2ecef2e41ac245d27e0710fe8e scsi: qla2xxx: Fix crash when I/O abort times out
          
 
---===============4416650571865571604==
+--===============0280164048101184035==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1670864079 -0500
+pusher 75C5DE3D 1670864096 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1670864078-199f33c8ca8dcf9402fb673ce283c00735a3ae94
+nonce 1670864096-a6bdd431fb9bf24a3328db08d405676c6750e4d1
 
-12513a410b8b1403f9dfb4078585f3103cc28411 4463baddcffc572adcb58501304ac2d4325bfd77 refs/tags/mkp-scsi-queue
+4e80eef45ad775a54fb06a66bf8267a154781ce5 68ad83188d782b2ecef2e41ac245d27e0710fe8e refs/heads/6.2/scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmOXXM8ACgkQ7ulgGnXF
-3j13tA/+LUnNJMrrztdwzyyzBfwSkX8K/FqcyM0EoU5jOGdw6A4SGufN/ZMqcZpi
-a119ArVRRkITD5kesdGjdT6qf5csMKzu6LSFFsYh62sT5B2vPogffWpLUqUVJ1DF
-on5iZEEpF4BcD8kqv3ZmdCBjP0EBq+4YZax2EYaG6u+uHGds024qDoFB+qJfbvai
-PtyWRVvUZbknyBlsoxOFasN8D32fDPyHYoOUj5zmRiGi0UCrcfB1CrHxjZWlw4ig
-//Ijve3tAjid5KUhldgXTeRG0b75RgUjC5Q3XJ4o9wIAJOLFMEScvHyjOs9qIwpG
-iizL6wfKnBtT0F+naFlagHr4oa4BxTbM95uJndOI4lLcP+Ray25J+q+a1t0C49ko
-Cw/I7QHzIpcsnbiDJXTUH27tDp5+0DDZAAPqfBX8jHfcZ8k6260LovOstym1mE75
-Gm8t3Lfnj1OvkVdw/zlkhhT9+iHNJU2djv0g9MCo/sH9pT600nCvIei7JXRULVh5
-vZ7PDyLRu1jF2NkqlrS9CNxdfCLCFLIsyk+GUbEZMLdCpl4M1K7pcgRe2CwXlk5Y
-Htupj/rVdlP9K9/zsdAEmgAWvyOce7d6Jq9jEroKEEbXSJLCRuK2lgrR+70BMb+L
-mRTcKErHCqjl4DbdqU1KjlP6e0OV2Y+QJqXK+3eyXpL+68V+5H8=
-=BuwA
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmOXXOAACgkQ7ulgGnXF
+3j2HKQ//W4TPmjy1tBIgn8B4a+hNyHMkivmR4hje5iDR0sNTZESjCDrb219F4mSa
+OgMnW5klgDMgvWBiO2HTnWfx4RNyTm6TsMe387TKZS5jIgWkRXoJ1FAuieMi6Crv
+SUm5G85AA71xVwKcDrT8YpkQgrgtBSk/lXxb2wLLG0jJmtjwusMHjrhz6uWGne1Z
+q9aa6MqJzqo8WLucYavZzVmu5sjb8Fv7+C88i5b5+/auoKqkst06YtnoGujY688V
+DSaypdoprWuJyKapVhlF+enklWsidWUfxel0ZWr9TILlDYtRUrpxr711/ORgMXVf
+DpU27rX5FKHaaJ88bSzQ+/O71yQMKp0P+Pkw0jK7z9gGrY7/MqwQfWEi1vS/vGDM
+gjqCelpbeAWJU50Ujc5mI3fBqKpOjcQ4jJGlrWjokE44oNe17bXjfs4NCqkwuQGZ
+f32fhxRsJW5IjQTrAswAHcfH5tFKu7+++QEy+mHuYS40hGyFr0twZy2q/wp9WEGl
+7SWvozLHGO7xUZFfX51ilmEVCq92BvKQXdqrjIeIfTa29xvdhW1ohoNHhP8tcTFd
+7ABEAUUQ9OfwGXeP4WA81ayDutRDGSXTjP9Wkxv8QtXgmY2jIjqrKpRDjRgY2ZIX
+vvMezRMFMwdCEfRvmvM6veUgowNc+1Zr4AX/XqX/Qclg+mhfjlA=
+=4MJb
 -----END PGP SIGNATURE-----
 
---===============4416650571865571604==--
+--===============0280164048101184035==--
