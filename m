@@ -1,23 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/crng/random
-Date: Mon, 12 Dec 2022 18:28:32 -0000
-Message-Id: <167086971243.10723.225459244405033973@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Mon, 12 Dec 2022 18:34:07 -0000
+Message-Id: <167087004793.13964.2803667293811883961@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/crng/random
-user: zx2c4
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
-  - ref: refs/heads/vdso
-    old: a1c897bf08cf36ca19d7b4e2a773b778506a23b2
-    new: c62028b048b173a79bddf31cc58a46ff8be4e5bd
+  - ref: refs/heads/master
+    old: 63579c79225c11b09a597627617cd6a8c193d0d2
+    new: 17a8c16b615e6a59e0faa5ed550cf1f534d3556c
     log: |
-         ce9a3830a85583f15005f154de5beabf0c7ba1d0 x86: mm: Skip faulting instruction for VM_DROPPABLE faults
-         f72a6d54d559f4ea4125f5c3d05ba31644eb024d random: add vgetrandom_alloc() syscall
-         21e0835a7cdbfbbc6d88ae6f4ad697017be12355 arch: allocate vgetrandom_alloc() syscall number
-         366682efc8de4bc9be492867df4d0d1619547751 random: introduce generic vDSO getrandom() implementation
-         c62028b048b173a79bddf31cc58a46ff8be4e5bd x86: vdso: Wire up getrandom() vDSO implementation
+         17a8c16b615e6a59e0faa5ed550cf1f534d3556c Mon Dec 12 06:31:59 PM UTC 2022
          
