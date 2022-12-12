@@ -1,47 +1,46 @@
-Content-Type: multipart/mixed; boundary="===============3139195325053941272=="
+Content-Type: multipart/mixed; boundary="===============9221965500976834229=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/virt/kvm/kvm
-Date: Mon, 12 Dec 2022 15:42:52 -0000
-Message-Id: <167085977269.24290.4663897800739864917@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/b4/b4
+Date: Mon, 12 Dec 2022 15:46:07 -0000
+Message-Id: <167085996708.28159.7102056230658030596@gitolite.kernel.org>
 
---===============3139195325053941272==
+--===============9221965500976834229==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/virt/kvm/kvm
-user: bonzini
+repo: pub/scm/utils/b4/b4
+user: mricon
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/for-linus
-    old: c260418f11166e130ee4010eb522b3c0f4074f87
-    new: c1c4dca6b359776fa499ebc37839f64c5dec2e52
+  - ref: refs/heads/master
+    old: b33dc823ae5c8bb81f00703df38becd7a17b517f
+    new: d906e8c405e3509e7b5bb0fff4f7e200d123e8e5
+    log: |
+         d906e8c405e3509e7b5bb0fff4f7e200d123e8e5 Fix regression on messages with attachments
+         
 
---===============3139195325053941272==
+--===============9221965500976834229==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Paolo Bonzini <pbonzini@redhat.com> 1670859771 -0500
-pushee gitolite.kernel.org:/pub/scm/virt/kvm/kvm.git
-nonce 1670859770-44967a2319de35558f2bf65ea4c9b974d2982e4b
+pusher B6C41CE35664996C! 1670859966 -0500
+pushee gitolite.kernel.org:pub/scm/utils/b4/b4
+nonce 1670859966-a1aa79ffc3b53845b6612362c675446e0f4faa1d
 
-c260418f11166e130ee4010eb522b3c0f4074f87 c1c4dca6b359776fa499ebc37839f64c5dec2e52 refs/tags/for-linus
+b33dc823ae5c8bb81f00703df38becd7a17b517f d906e8c405e3509e7b5bb0fff4f7e200d123e8e5 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQFIBAABCAAyFiEE8TM4V0tmI4mGbHaCv/vSX3jHroMFAmOXS/sUHHBib256aW5p
-QHJlZGhhdC5jb20ACgkQv/vSX3jHroM0tAgAoKFXvzS1m/xt4+7QYyxz4rqaiht5
-DgrEvvCo85rVJzzb2/+elcwxIT0bwzefPOqxcNgH9vpPiBGz7F2iZlaCOdWTLv/h
-c3YCytJ00KWppmBjFrOfk9Jvu5WXRJomulYXs9qPI8AEiIYla4VSp3gN1+B+zbrf
-eLx5j4DZpfmWF6uDURZJm/SeAcDLqEUrXidlP03rSuq6wOfH/1WI2M/+au0hK5zb
-vrL8IdZYHmqFshTQ7Wewjnq6vNrejDmrxeOs8XnkpbnrYGroEQ7XOfixrgBG/EEO
-uXyunWPJdQJTVM6A0bJB9wm5pxdcJDuMTkrF6WzG5nLZX4o6vSfdGApSYQ==
-=kwLX
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCY5dMvgAKCRC2xBzjVmSZ
+bEBQAQDtY8mC32R0JzBSZ9aM8hfMebLAGNJY681ZLBfcQfckcAD/eDbGE/LAUxMW
+tUdn6vqoTayk47AeamFvHvHXwm+DAQE=
+=LKAD
 -----END PGP SIGNATURE-----
 
---===============3139195325053941272==--
+--===============9221965500976834229==--
