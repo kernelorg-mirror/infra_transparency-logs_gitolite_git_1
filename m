@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5980196904036395755=="
+Content-Type: multipart/mixed; boundary="===============0622639181151255078=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Mon, 12 Dec 2022 13:09:18 -0000
-Message-Id: <167085055859.19467.14682765319290409028@gitolite.kernel.org>
+Date: Mon, 12 Dec 2022 13:09:20 -0000
+Message-Id: <167085056041.19528.15627625778031108890@gitolite.kernel.org>
 
---===============5980196904036395755==
+--===============0622639181151255078==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,85 +16,96 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.14.y
-    old: 8b70dfb6afaacf40031048655b0200bad7b7f362
-    new: 30e132795eb838b35e2ecd48395d47a0a4a6de7c
-    log: revlist-8b70dfb6afaa-30e132795eb8.txt
+  - ref: refs/heads/linux-4.19.y
+    old: 4fb11b2a3103dd3a89c8b5f1164577e76be77873
+    new: bf741d1d7e6db2cb2fb6ba4634aaabad00089b40
+    log: revlist-4fb11b2a3103-bf741d1d7e6d.txt
 
---===============5980196904036395755==
+--===============0622639181151255078==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1670850555 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1670850557 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1670850556-004fe0f74bafd86f9aa791d7016e5fe725f03b19
+nonce 1670850558-fada35b13c357ef043384ca24462a88ab5af3162
 
-8b70dfb6afaacf40031048655b0200bad7b7f362 30e132795eb838b35e2ecd48395d47a0a4a6de7c refs/heads/linux-4.14.y
+4fb11b2a3103dd3a89c8b5f1164577e76be77873 bf741d1d7e6db2cb2fb6ba4634aaabad00089b40 refs/heads/linux-4.19.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmOXJ/sbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+eVIP/RcJsvLCFunsRWjOFG72
-V4MnFIOYotE8K4wgE98xwaY5Fr6NZtbAlz9P/u65bPmmvbDqpcMsS9ewaT5f6oZb
-P/1GGxA0GxUiIqj1WfnzV23PmdKbzglBY9zpCH71N54Cvs4vp1Z5Z4xXWFRQawGc
-RjzZaVYFckhYO6p68xzM/GW/FfsQoBLBTl0akTs6o6C/sGMWjHVkfiWR4znGW/07
-OlZKfjKoBzg5S8PQoBVLff+R9rOn3TKjrAh0I7zXSgajZc+GEDW7vn84LtXJeu4G
-5bse399pcEvf9Rtk+1EwCYkVaM3ZgKzlARV/S4vERI6yWBqF8HdW40QTzTYMlxgU
-qfrQ31fXPJynv4P5IuppATeUYZ5xJ6MVXSCQrDG0H9hoyl0teO2DZIgr6OpqSDhz
-VZ8aqhHf6raTOhEp/QjYCBLFXUWwJY1ukQ9S1JghG853/l2ouHx8vCgmXr//Pg46
-exQblRdjqzmpoh5rzy5EH/PbMd4JFhaH+ovfjh6UQVYW/OGvtcQJGGJ0cD7IapCS
-DRrbpOvexOAVblLZ02lVmgwt36p5lQZ9WEgWZH7XGxJz1wVnyYstBYeMEKIEsR4Z
-wdrR2jKrbbho1elK1V02wYpIBaid67zDiqtgAcrhEGu2gSs24fMr0scTgj1aG0bD
-Lnbodig+hynt+h0p1faejYAx
-=aBpB
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmOXJ/0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+XIcP/R+EQBfHmzmOxHstO84p
+bS40Bp/jGI0hnwVUmOMQHEIsRc1ZmAVTdNhc+14SZUVIZL7YLUwUGbvGF+Qq35UA
+A0SSjitZy6NjRRv05z4/O47Dc0LWkSE6yJR8AWqDHm+Uoipz41FUfJ1R6OT+IY8l
+ZWZgyoL9vOfZ/RM6IbI6UZ9lCG3Q62iCqgzWeYUq3e6Ec7XpMprkx/9HL41aSk2c
+wxsIgj0KJahfZDyO4uoGz36io2SZ6Z5QCm5laDjcJsPs09vv40Aq66kbWFpnODbo
+3VVa2eQHqQ5dwVWQet/He+UUpbEhs5lIhnnloZT1mPSbnkiwBQRwndAZ/KiMOTXr
+tgGCY65gq3NV8GXazjYDeFxNiGjfNSYUwy1bj0R/3NlCrf+IYjg0cyMw1eOV1P68
+QpCXiD25eLogBaBTWStes4QsakO2e9WWZnDPWDDTYUNH1V/Dl2kXPH6Ks8XbBZrn
+g/56smvpr6FGsMUuyFgJzrDLNe6IuXG39MsCE5QpY03uzZIdNLZqdZRexXb+JKi1
+jGyNThKNrtLwuaWt9rks1yYKNDOxZaDEXpYXvlrY8weDmuBLvLtL2cOlGUIZz+ey
+/1W5VxGoXqt2LVAbhYWFXXP8piCeJH0GbKc5fR+kxm2c6qM4BHJmZmC9kVOIlCXD
+Iew7+wQ77B9FsSC6+uC02o+f
+=4Efa
 -----END PGP SIGNATURE-----
 
---===============5980196904036395755==
+--===============0622639181151255078==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8b70dfb6afaa-30e132795eb8.txt
+Content-Disposition: attachment; filename=revlist-4fb11b2a3103-bf741d1d7e6d.txt
 
-c316c3ac2821c56b33114c49e9edfb8745a61738 arm: dts: rockchip: fix node name for hym8563 rtc
-efa23479acaa26af6f3dbc063af6655c2dcf3a44 ARM: dts: rockchip: fix ir-receiver node names
-dd44e099f179bc8ef24217901e7589231f54af5e ARM: 9251/1: perf: Fix stacktraces for tracepoint events in THUMB2 kernels
-07fd2b367955bc1fac0ad08a27babddd641c470d ARM: 9266/1: mm: fix no-MMU ZERO_PAGE() implementation
-1ef376d04297aeb329f54d5f0d7b4b6a62ada660 ARM: dts: rockchip: disable arm_global_timer on rk3066 and rk3188
-18316a146ab54d2016b332afec2338cca858f312 ALSA: seq: Fix function prototype mismatch in snd_seq_expand_var_event
-e8344d9a0ddcbf0fdd8152500606bbc9b37b9c32 ASoC: soc-pcm: Add NULL check in BE reparenting
-9c52d23185b827b574724bf1f70da736c343b425 regulator: twl6030: fix get status of twl6032 regulators
-1245025523cd42299ac48c24454607cdb7576a1b net: usb: qmi_wwan: add u-blox 0x1342 composition
-fac348c09e2c61c53bc006c7019468207d66f889 xen/netback: Ensure protocol headers don't fall in the non-linear area
-73272baa08b2d53da879562ca91dece56ab07ecf xen/netback: do some code cleanup
-50a0065ea0b3a667a3a7055c32696124fdd767bc xen/netback: don't call kfree_skb() with interrupts disabled
-745e2d7808bbad56f2fe7bfb684e809f1004b1a5 rcutorture: Automatically create initrd directory
-87ab2a274d39be7a45a78684b23b7bb66a792c92 media: v4l2-dv-timings.c: fix too strict blanking sanity checks
-f1695a7fe8f61374295f6e0269e0ea27daaf12a5 memcg: fix possible use-after-free in memcg_write_event_control()
-73c50289512a7d46ffa5f24c7c6feb2e06d351c7 KVM: s390: vsie: Fix the initialization of the epoch extension (epdx) field
-2e76e411df1f6456c5802e4500fb86013af7d3b4 HID: hid-lg4ff: Add check for empty lbuf
-0bc342186a437ff037634766d24934f91b44d014 HID: core: fix shift-out-of-bounds in hid_report_raw_event
-683e61f54f0696cbbc108d7b3e07d2123f96f2bd ieee802154: cc2520: Fix error return code in cc2520_hw_init()
-8b07c00e576a63d73096742c8ba89e2dfb10491d ca8210: Fix crash by zero initializing data
-e6b615bac10071b7a746114fb7c3337f36e2b54a gpio: amd8111: Fix PCI device reference count leak
-e42a047270f50dc728a51dca8bf98b22df2aa0e7 e1000e: Fix TX dispatch condition
-85b88b24c0d98149722e5fa08093cab1a7233342 igb: Allocate MSI-X vector when testing
-e634ed368edd563d4caad8c9cc18eaffdd0cd9c1 Bluetooth: 6LoWPAN: add missing hci_dev_put() in get_l2cap_conn()
-2346f47b3cfea4b5df6aafa7a6edddf9ed5e9ca6 mac802154: fix missing INIT_LIST_HEAD in ieee802154_if_add()
-79f90c0bfb8892f3a75375794c2e51d894e86963 net: encx24j600: Add parentheses to fix precedence
-4ea21af3ee59d3a4bf98e70293229eb647a34cd9 net: encx24j600: Fix invalid logic in reading of MISTAT register
-7e31ebb0de1c4c6f6a3a267aeb11db05e2a67396 net: mvneta: Prevent out of bounds read in mvneta_config_rss()
-3a8e393fb7c1c6515023637aac147ddf4b77624f NFC: nci: Bounds check struct nfc_target arrays
-61e67faf380666ad0f64d09eabf9fab45613cea5 net: stmmac: fix "snps,axi-config" node property parsing
-9859e159da97ce616c49a1f53b09d0b676ab6da0 net: hisilicon: Fix potential use-after-free in hisi_femac_rx()
-bc024080f6a19090a2c900369aec4d46cad00dbf net: hisilicon: Fix potential use-after-free in hix5hd2_rx()
-46f3455aa9f0d6a525efe8615f8a56399d140fae tipc: Fix potential OOB in tipc_link_proto_rcv()
-cdecf67a5c010b919ce21a6bf85bcc404e3638a6 ethernet: aeroflex: fix potential skb leak in greth_init_rings()
-0591b6d0012304cb312975ce77ab5ccf7786161c xen/netback: fix build warning
-ae6f970b8ffbf37836cf36566c2bf37af1c2ccc9 net: plip: don't call kfree_skb/dev_kfree_skb() under spin_lock_irq()
-0d0e0cce805054c31d7c5ee2154aeffad6271675 ipv6: avoid use-after-free in ip6_fragment()
-c8ac8931e4e3bfa6a7a8a68a0c325405a502347f net: mvneta: Fix an out of bounds check
-30e132795eb838b35e2ecd48395d47a0a4a6de7c Linux 4.14.302-rc1
+106c4bc7b14eca2de1ce22cb0a554244a41081ed arm: dts: rockchip: fix node name for hym8563 rtc
+edd58a36177fee44d85abd12bc3059701ae5a220 ARM: dts: rockchip: fix ir-receiver node names
+fb900d9d017c0a792f2ab9bf45dc87f779c5637c ARM: 9251/1: perf: Fix stacktraces for tracepoint events in THUMB2 kernels
+485a69ba94d798e4b557ed7235e53ea4076a2d9e ARM: 9266/1: mm: fix no-MMU ZERO_PAGE() implementation
+72ae1b97fea13bf48756b116c7ebe9bae96af914 ARM: dts: rockchip: disable arm_global_timer on rk3066 and rk3188
+97bada69d2f58a71e521685e4f1b90623f6e0ebb 9p/fd: Use P9_HDRSZ for header size
+711e4475e8697ca53154ee5fc303a7c03b41da6d ALSA: seq: Fix function prototype mismatch in snd_seq_expand_var_event
+37352799ca21f2aefce04341fa52be73fc105988 ASoC: soc-pcm: Add NULL check in BE reparenting
+b00419b044b239f8866e70f7194e25ef6da3233c regulator: twl6030: fix get status of twl6032 regulators
+bb233265cd4ed3f1e3b2db7ccc3d90a1bb0f2c8f fbcon: Use kzalloc() in fbcon_prepare_logo()
+da51d896c34cc433de63d08a7eca14ee3af92919 9p/xen: check logical size for buffer size
+ed606d2882b331453e270aeca5d1e5e2c9d2cf57 net: usb: qmi_wwan: add u-blox 0x1342 composition
+a6e5fdaa33d695b4ed3c1ee247db658ee18f5b66 xen/netback: Ensure protocol headers don't fall in the non-linear area
+7240fc9ebcfc44386c4c6b70aa377427d50758a8 xen/netback: do some code cleanup
+ab31a5329a9a10d4adf39d89e61b7ce84b889e8b xen/netback: don't call kfree_skb() with interrupts disabled
+68c8283ddd7841e791e15d004964505005545870 rcutorture: Automatically create initrd directory
+43c01c5216356fdfc21332891e2c4ea1051c3bb5 media: v4l2-dv-timings.c: fix too strict blanking sanity checks
+9b86431817c32260d88d88831ab04f0acc275fb3 memcg: fix possible use-after-free in memcg_write_event_control()
+3a8bf389cfcfc9d4a82063d83c32248cf69ebb0d KVM: s390: vsie: Fix the initialization of the epoch extension (epdx) field
+db1a7c68b31b771bc1a3e2164b03a9ac419f0cee HID: hid-lg4ff: Add check for empty lbuf
+9fbfbcb0cd83409758430c12c1c291925c9ee8cc HID: core: fix shift-out-of-bounds in hid_report_raw_event
+b96ecb33b91d21799a605f0eefcb2d81f2ae7cea ieee802154: cc2520: Fix error return code in cc2520_hw_init()
+04a0615d158dfe805df57b9a8e5c9fa87a3fc4d5 ca8210: Fix crash by zero initializing data
+7c7cc3282625bb74a05a17a249d856ffbc6b16ae gpio: amd8111: Fix PCI device reference count leak
+93c63fa83208d71ae8dcfe1ccb5368c40b3dfd79 e1000e: Fix TX dispatch condition
+293092bbb7ad9c82b3446d9929e83974f6f9ab32 igb: Allocate MSI-X vector when testing
+f5e91582a11c5092fbf2e6d3cf206ff9b820ed94 Bluetooth: 6LoWPAN: add missing hci_dev_put() in get_l2cap_conn()
+796a9d7b24df679faab66c3fded08b13dffe37fb Bluetooth: Fix not cleanup led when bt_init fails
+7a3081286c99ad3b1e3c2ae911e620cd451103ed selftests: rtnetlink: correct xfrm policy rule in kci_test_ipsec_offload
+a212c9fb35998f1500ef72a0ede0ab5766f72a7e mac802154: fix missing INIT_LIST_HEAD in ieee802154_if_add()
+2c7e413cdfc0c1a4e668f2890190d660d14db7b3 net: encx24j600: Add parentheses to fix precedence
+6480d8942b01e451182bed6d1877966a9c198b7b net: encx24j600: Fix invalid logic in reading of MISTAT register
+4591101cc187b30a95918c0dbffb8db843201a37 xen-netfront: Fix NULL sring after live migration
+403fe70e3a4aaf06af25aec523bdfe6830cc1ab9 net: mvneta: Prevent out of bounds read in mvneta_config_rss()
+c3de6ee027f0bdf8541f0d14eb059201c3a97221 i40e: Fix not setting default xps_cpus after reset
+824a23469dd3561cbabfc422b30a3e40ad001c2b i40e: Fix for VF MAC address 0
+f47aa42c38d14643d96c2fbd7ce8b774a9856953 i40e: Disallow ip4 and ip6 l4_4_bytes
+ce2566b65c230fc275ea2a804c3893afcf6ebd9e NFC: nci: Bounds check struct nfc_target arrays
+55193c077765c6329b52e26cd6de954ef79c5f5b nvme initialize core quirks before calling nvme_init_subsystem
+672139082c3a1e12e96003862b33faa4fa8a019a net: stmmac: fix "snps,axi-config" node property parsing
+dcb661f0b5ebb1390186ff385da19943df3cc226 net: hisilicon: Fix potential use-after-free in hisi_femac_rx()
+8bb8b1c02cb37c9902ffe41a5d9289c7c7aa41f1 net: hisilicon: Fix potential use-after-free in hix5hd2_rx()
+c0436469de67ceb09a7ec022dd0896d39f46a1fb tipc: Fix potential OOB in tipc_link_proto_rcv()
+acdcb7d4b4e655e7334db107b8e4487593004ca3 ethernet: aeroflex: fix potential skb leak in greth_init_rings()
+17483860e7ccc7d5fc46d6cb3d6f6b6cb4dfac65 xen/netback: fix build warning
+869079b2e6e0c1f0e908d4e1b0cf8fab0f8a8bfc net: plip: don't call kfree_skb/dev_kfree_skb() under spin_lock_irq()
+c1276a0b3c78bb6832a787f317f743e130963370 ipv6: avoid use-after-free in ip6_fragment()
+d850c03baed296ab283546933c31c373444eff7f net: mvneta: Fix an out of bounds check
+669f8f4ec858f34e6e3274c35b48ed8a0e3944a8 can: esd_usb: Allow REC and TEC to return to zero
+bf741d1d7e6db2cb2fb6ba4634aaabad00089b40 Linux 4.19.269-rc1
 
---===============5980196904036395755==--
+--===============0622639181151255078==--
