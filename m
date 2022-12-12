@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/libgpiod/libgpiod
-Date: Mon, 12 Dec 2022 21:37:54 -0000
-Message-Id: <167088107431.7608.5356589327858252138@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/mm
+Date: Mon, 12 Dec 2022 21:38:21 -0000
+Message-Id: <167088110118.7777.9923982178389153401@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/libgpiod/libgpiod
-user: brgl
+repo: pub/scm/linux/kernel/git/akpm/mm
+user: akpm
 changes:
-  - ref: refs/heads/master
-    old: 50c3c06b82ba36f4e9af8924da4eda45e4e272a6
-    new: 8e745cd4bec8bc7e73e402dbc59154dc9dd37860
-    log: |
-         8e745cd4bec8bc7e73e402dbc59154dc9dd37860 configure: restore AS_IF() when using PKG_CHECK_MODULES()
-         
+  - ref: refs/tags/mm-nonmm-stable-2022-12-12
+    old: 0000000000000000000000000000000000000000
+    new: 8341ddcb3c3a1bf776ff8cd8a237341ed8f3cff8
+  - ref: refs/tags/v6.1
+    old: 0000000000000000000000000000000000000000
+    new: 7614896350aa20764c5eca527262d9eb0a57da63
