@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Mon, 12 Dec 2022 01:07:03 -0000
-Message-Id: <167080722371.19421.10793251184843066231@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Mon, 12 Dec 2022 01:28:11 -0000
+Message-Id: <167080849172.2417.5711640558100576955@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/robh/linux
-user: robh
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: ast
 changes:
-  - ref: refs/heads/for-next
-    old: ee9d7a0e754568180a2f8ebc4aad226278a9116f
-    new: 580f9896e088b399fc79f1421e56a1b68f0450b5
-    log: |
-         121164481b79d93824eed464117d331a002f5d75 dt-bindings: leds: intel,lgm: Add missing 'led-gpios' property
-         580f9896e088b399fc79f1421e56a1b68f0450b5 dt-bindings: leds: Add missing references to common LED schema
-         
+  - ref: refs/tags/for-netdev
+    old: 0000000000000000000000000000000000000000
+    new: 8764d253ef7852ff75055d4dddaa61519ddc9005
