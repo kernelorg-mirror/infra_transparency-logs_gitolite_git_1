@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
-Date: Tue, 13 Dec 2022 16:23:11 -0000
-Message-Id: <167094859177.18714.14414765110187662053@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
+Date: Tue, 13 Dec 2022 16:23:22 -0000
+Message-Id: <167094860286.18814.15793271886848265992@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/palmer/linux
-user: palmer
+repo: pub/scm/linux/kernel/git/ardb/linux
+user: ardb
 changes:
-  - ref: refs/heads/for-next
-    old: 71fc3621efc38ace9640ee6a0db3300900689592
-    new: 09a910b00bf97cd3172ef4d4ff137c09b3e7a2f7
-    log: |
-         09a910b00bf97cd3172ef4d4ff137c09b3e7a2f7 riscv: Fixup compile error with !MMU
-         
+  - ref: refs/heads/arm32-crypto-in-softirq
+    old: 0000000000000000000000000000000000000000
+    new: 23ec2ae8630fcad24c4d2cc04b70dbc2ab7d0c6e
