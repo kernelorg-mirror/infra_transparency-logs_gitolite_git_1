@@ -1,19 +1,46 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Tue, 13 Dec 2022 19:03:16 -0000
-Message-Id: <167095819698.26071.13029080924658858172@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============6850292622750455611=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/utils/b4/b4
+Date: Tue, 13 Dec 2022 19:03:25 -0000
+Message-Id: <167095820544.26192.417108699713124550@gitolite.kernel.org>
+
+--===============6850292622750455611==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/utils/b4/b4
+user: mricon
+git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: cebb8e9d29d525b7a5d43658b97a8961024162bc
-    new: 812471a8ae5b6c89a753514a0f2fc0049f9a309a
+    old: 141d4a6db977aaaec02be59341e502f940086546
+    new: aa837849d4141584f7cba58b5984cf506c68185e
     log: |
-         812471a8ae5b6c89a753514a0f2fc0049f9a309a Tue Dec 13 07:01:55 PM UTC 2022
+         aa837849d4141584f7cba58b5984cf506c68185e Use git-credential if smtppass is not set
          
+
+--===============6850292622750455611==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher B6C41CE35664996C! 1670958205 -0500
+pushee gitolite.kernel.org:pub/scm/utils/b4/b4
+nonce 1670958205-3ff71f110e2822c55c94bb645a4ec2fc9f5efd42
+
+141d4a6db977aaaec02be59341e502f940086546 aa837849d4141584f7cba58b5984cf506c68185e refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCY5jMfQAKCRC2xBzjVmSZ
+bGPjAP9fiYXzxkhQfYiHCl5CLVP0Sr8y0sEzGbsKzYru5T4p0AD+OCMjF810AQ1o
+XE3Vd6oPEhJbfqcyP1ich/vpCfODtwk=
+=QPy3
+-----END PGP SIGNATURE-----
+
+--===============6850292622750455611==--
