@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/mm
-Date: Tue, 13 Dec 2022 22:19:41 -0000
-Message-Id: <167096998177.25701.9213515958839724723@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Tue, 13 Dec 2022 22:21:51 -0000
+Message-Id: <167097011167.27862.2286383739905051863@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/mm
-user: akpm
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: andrii
 changes:
-  - ref: refs/tags/mm-stable-2022-12-13
-    old: 0000000000000000000000000000000000000000
-    new: e1ce752a5b7fb20d1b2ec753736b070fd7a38070
+  - ref: refs/heads/master
+    old: c2614f627941b744d09741e7ff1d7bd1775d76aa
+    new: 711dfe1d66b1025e234f047e415d42f57677bcd0
+    log: |
+         711dfe1d66b1025e234f047e415d42f57677bcd0 selftests/bpf: Fix a selftest compilation error with CONFIG_SMP=n
+         
