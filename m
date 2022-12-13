@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/ell/ell
-Date: Tue, 13 Dec 2022 20:49:00 -0000
-Message-Id: <167096454024.31954.4661229594988155395@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/iwlwifi/iwlwifi-next
+Date: Tue, 13 Dec 2022 20:52:35 -0000
+Message-Id: <167096475506.2279.1411198843101500431@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/ell/ell
-user: denkenz
+repo: pub/scm/linux/kernel/git/iwlwifi/iwlwifi-next
+user: ggreenman
 changes:
-  - ref: refs/heads/master
-    old: 5f7c0d9d3ad97dbe5fa17501f0a8662ed2898926
-    new: 341567fade59ad12d360d485f7f5cfca7cc161b4
+  - ref: refs/heads/pending
+    old: d1c722867f8022a27182b9a1d84e9bca75486c9a
+    new: 2a43415d8990fa09199d6e50b7fc494e48cd3c28
     log: |
-         341567fade59ad12d360d485f7f5cfca7cc161b4 dhcp: Work around for blocked unicast requests
+         2a43415d8990fa09199d6e50b7fc494e48cd3c28 wifi: iwlwifi: fw: skip PPAG for JF
          
+  - ref: refs/tags/iwlwifi-next-sent-for-review-2022-12-13
+    old: 0000000000000000000000000000000000000000
+    new: 2a43415d8990fa09199d6e50b7fc494e48cd3c28
