@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Tue, 13 Dec 2022 13:22:10 -0000
-Message-Id: <167093773092.28752.10590897177299711432@gitolite.kernel.org>
+Date: Tue, 13 Dec 2022 13:22:21 -0000
+Message-Id: <167093774105.28852.6356617348547986115@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,10 +11,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/kbuild
-    old: b2240fc5339ee9c3ee685e4a906ed6eb6c32e6b1
+  - ref: refs/heads/for-next
+    old: 4bf73588165ba7d32131a043775557a54b6e1db5
     new: 401935f7292a4572ddb0d410883b9075aa514fff
     log: |
+         efa80b028c7a9c74fd875517aa0fc9fd8d610ed0 kbuild: move -Werror from KBUILD_CFLAGS to KBUILD_CPPFLAGS
+         80b6093b55e31c2c40ff082fb32523d4e852954f kbuild: add -Wundef to KBUILD_CPPFLAGS for W=1 builds
          e4412739472b743e18860ad8d979a7ceb3071652 Documentation: raise minimum supported version of binutils to 2.25
          fccb3d3eda8d19b893e1fd18e8c70b78784b2a72 kbuild: add test-{ge,gt,le,lt} macros
          7270db2fa1ee96b3af381a5c956997951c355c90 kbuild: do not sort after reading modules.order
