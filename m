@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Tue, 13 Dec 2022 03:50:03 -0000
-Message-Id: <167090340390.2083.528855086918583908@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/crng/random
+Date: Tue, 13 Dec 2022 04:02:30 -0000
+Message-Id: <167090415076.9095.5820994934225936657@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/crng/random
+user: zx2c4
 changes:
-  - ref: refs/tags/for-6.2/writeback-2022-12-12
-    old: 0000000000000000000000000000000000000000
-    new: e80a5b6700d2c9dcbe31db74361c724c3e47b9f9
+  - ref: refs/heads/master
+    old: 5d1056fb3dd86331d96980df194e990336f77ef9
+    new: 563c0199f7399a554b44ba844b90a699ac11be6a
+    log: |
+         563c0199f7399a554b44ba844b90a699ac11be6a random: do not include <asm/archrandom.h> from random.h
+         
