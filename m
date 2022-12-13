@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/daveh/devel
-Date: Tue, 13 Dec 2022 16:24:45 -0000
-Message-Id: <167094868524.19385.5979820997063831502@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
+Date: Tue, 13 Dec 2022 16:25:57 -0000
+Message-Id: <167094875708.21304.1463776308843665924@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/daveh/devel
-user: daveh
+repo: pub/scm/linux/kernel/git/palmer/linux
+user: palmer
 changes:
-  - ref: refs/tags/test.1670948684.x86_mm_for_6.2
-    old: 0000000000000000000000000000000000000000
-    new: 88e4a3f6061a01b98e16e234af572ea78dac06e4
+  - ref: refs/heads/for-next
+    old: 09a910b00bf97cd3172ef4d4ff137c09b3e7a2f7
+    new: c528ef0888b75f673f7d48022de8d31d5b451e8c
+    log: |
+         c528ef0888b75f673f7d48022de8d31d5b451e8c riscv: Fixup compile error with !MMU
+         
