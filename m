@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/libgpiod/libgpiod
-Date: Tue, 13 Dec 2022 10:00:10 -0000
-Message-Id: <167092561065.27437.14008943450194175804@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Tue, 13 Dec 2022 10:15:24 -0000
+Message-Id: <167092652470.4319.4578562692028446845@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/libgpiod/libgpiod
-user: brgl
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
   - ref: refs/heads/master
-    old: 8e745cd4bec8bc7e73e402dbc59154dc9dd37860
-    new: 19b7fd655259dac1e11f4efbae26a2b01f1c82d9
+    old: 88a69639e4c734d8eac01887515407d0d5855931
+    new: 3398be7464569e7147b19ce809014a05aa90f9d2
     log: |
-         19b7fd655259dac1e11f4efbae26a2b01f1c82d9 tests: drop unneeded typedef
+         3398be7464569e7147b19ce809014a05aa90f9d2 Tue Dec 13 10:12:18 AM UTC 2022
          
