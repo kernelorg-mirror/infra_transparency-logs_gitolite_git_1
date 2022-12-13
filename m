@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============1535544128115314887=="
+Content-Type: multipart/mixed; boundary="===============5556472366809974118=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux
-Date: Tue, 13 Dec 2022 18:37:18 -0000
-Message-Id: <167095663805.9303.10758711375607769531@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
+Date: Tue, 13 Dec 2022 18:37:27 -0000
+Message-Id: <167095664779.9427.12075353688272557733@gitolite.kernel.org>
 
---===============1535544128115314887==
+--===============5556472366809974118==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux
+repo: pub/scm/linux/kernel/git/amlogic/linux
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -23,7 +23,7 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: 7614896350aa20764c5eca527262d9eb0a57da63
 
---===============1535544128115314887==
+--===============5556472366809974118==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1054,4 +1054,4 @@ bbdf4d54618ca1d4af304eab6631d68fd2d6ce39 Merge tag 'audit-pr-20221212' of git://
 c76ff350bd57682ae12bea6383dd8baf4824ac96 Merge tag 'lsm-pr-20221212' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/lsm
 02bf43c7b7f7a19aa59a75f5244f0a3408bace1a Merge tag 'fs.xattr.simple.rework.rbtree.rwlock.v6.2' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/idmapping
 
---===============1535544128115314887==--
+--===============5556472366809974118==--
