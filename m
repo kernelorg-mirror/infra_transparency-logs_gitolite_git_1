@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/shemminger/iproute2
-Date: Tue, 13 Dec 2022 00:16:10 -0000
-Message-Id: <167089057099.18393.11233053083962737572@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/selinux
+Date: Tue, 13 Dec 2022 00:28:30 -0000
+Message-Id: <167089131025.25020.6834160092258290124@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/shemminger/iproute2
-user: shemminger
+repo: pub/scm/linux/kernel/git/pcmoore/selinux
+user: pcmoore
 changes:
-  - ref: refs/tags/v6.1.0
+  - ref: refs/heads/stable-6.2.merge
     old: 0000000000000000000000000000000000000000
-    new: 085f2b1aa99aa3ac759002ec6abc36ed08747851
+    new: 07eedc7a6b5e01bced22c6734e945f06f8e3150b
