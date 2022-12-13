@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Tue, 13 Dec 2022 13:43:37 -0000
-Message-Id: <167093901711.9043.11819627208767322936@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
+Date: Tue, 13 Dec 2022 13:44:56 -0000
+Message-Id: <167093909651.9576.7899249503533031461@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/hid/hid
+user: jikos
 changes:
-  - ref: refs/heads/master
-    old: 3398be7464569e7147b19ce809014a05aa90f9d2
-    new: cebb8e9d29d525b7a5d43658b97a8961024162bc
-    log: |
-         cebb8e9d29d525b7a5d43658b97a8961024162bc Tue Dec 13 01:41:14 PM UTC 2022
-         
+  - ref: refs/heads/for-6.2/hid-bpf
+    old: e9d48abbce93e2138e37a695ba5931f3d3c9fdd9
+    new: 0000000000000000000000000000000000000000
