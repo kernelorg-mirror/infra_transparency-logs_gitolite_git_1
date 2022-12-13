@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9134114295982760129=="
+Content-Type: multipart/mixed; boundary="===============1369714162674644020=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Tue, 13 Dec 2022 15:25:17 -0000
-Message-Id: <167094511740.13830.12326273804440815849@gitolite.kernel.org>
+Date: Tue, 13 Dec 2022 15:25:41 -0000
+Message-Id: <167094514145.14018.16506287380488278923@gitolite.kernel.org>
 
---===============9134114295982760129==
+--===============1369714162674644020==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
-  - ref: refs/heads/tmp.perf/core
-    old: 8fdbbce2573b92738918d9d9f3bdb38361e9c1ce
+  - ref: refs/heads/perf/core
+    old: 3f99fe265ae2ac052a5d469b99937702fbe6cc06
     new: dbcfe9b6dff03c5168065ab10040eb6f07c00f6b
-    log: revlist-8fdbbce2573b-dbcfe9b6dff0.txt
+    log: revlist-3f99fe265ae2-dbcfe9b6dff0.txt
 
---===============9134114295982760129==
+--===============1369714162674644020==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8fdbbce2573b-dbcfe9b6dff0.txt
+Content-Disposition: attachment; filename=revlist-3f99fe265ae2-dbcfe9b6dff0.txt
 
 c3b64bb655f8850d87d90ea19cd052a7e0868bd7 perf jevents: Parse metrics during conversion
 f43368371888694a2eceaaad8f5e9775c092009a perf build: Use libtraceevent from the system
@@ -51,4 +51,4 @@ ea5638ed85e43ce3b964c2288f7f1b7b99c4dc58 perf test: Add mechanism for skipping a
 1ea20f2cc3dc133784dc15a54b58bb93099582f8 perf test: Add mechanism for skipping attr tests on kernel versions
 dbcfe9b6dff03c5168065ab10040eb6f07c00f6b perf test arm64: Add attr tests for new VG register
 
---===============9134114295982760129==--
+--===============1369714162674644020==--
