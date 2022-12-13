@@ -1,26 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Tue, 13 Dec 2022 20:43:33 -0000
-Message-Id: <167096421333.27279.16369982692291699687@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/ell/ell
+Date: Tue, 13 Dec 2022 20:48:24 -0000
+Message-Id: <167096450475.31728.2924945242071892703@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jejb/scsi
-user: jejb
+repo: pub/scm/libs/ell/ell
+user: denkenz
 changes:
-  - ref: refs/heads/for-next
-    old: a8e23ee4dedca277594e58bfec48b8b433518257
-    new: 1dbc54a8c0b627f6b0e6fac4ae6d537b96a91f61
+  - ref: refs/heads/master
+    old: 9c59f961154bec0452adfa3b58bf79e731172b14
+    new: 5f7c0d9d3ad97dbe5fa17501f0a8662ed2898926
     log: |
-         6456ab5d7ccd4fae6e136025480ad4ad91a7c795 scsi: libfc: Include the correct header
-         9f5436f47c58463f91bfeebcc4613138625098c2 scsi: sd: sd_zbc: Trace zone append emulation
-         255c4f4a6d5b60cfcd218d8fdae517b886ff155a block: Add error codes for common PR failures
-         c9293c1199ecd3cfa07931ec3630f37dba1ca1b8 scsi: core: Rename status_byte to sg_status_byte
-         04b3c8c0025a1d91a0e133e9b2734a002960f472 scsi: sd: Convert SCSI errors to PR errors
-         7fb42780d06c3417b21c3f31b6b99fd8e9ca6084 nvme: Convert NVMe errors to PR errors
-         68ad83188d782b2ecef2e41ac245d27e0710fe8e scsi: qla2xxx: Fix crash when I/O abort times out
-         1dbc54a8c0b627f6b0e6fac4ae6d537b96a91f61 Merge branch 'misc' into for-next
+         5f7c0d9d3ad97dbe5fa17501f0a8662ed2898926 dhcp: Work around for blocked unicast requests
          
