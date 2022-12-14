@@ -1,24 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/abelloni/linux
-Date: Wed, 14 Dec 2022 22:35:54 -0000
-Message-Id: <167105735409.18992.7192179995669242199@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
+Date: Wed, 14 Dec 2022 22:38:37 -0000
+Message-Id: <167105751729.19831.4546500994241120922@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/abelloni/linux
-user: abelloni
+repo: pub/scm/linux/kernel/git/kees/linux
+user: kees
 changes:
-  - ref: refs/heads/rtc-next
-    old: 2d620d98d74311ac06719adf08dc9a695bd1a10b
-    new: ad6d474d82dfb346573146d1bb0d818a720314fd
+  - ref: refs/heads/for-next/hardening
+    old: d272e01fa0a2f15c5c331a37cd99c6875c7b7186
+    new: 00dd027f721e0458418f7750d8a5a664ed3e5994
     log: |
-         2a10b90181dac7a289dc84f2446bfd0a105f9d18 rtc: remove duplicated words in comments
-         3cd7977abd16cd08de813fa5d85fec64352e1137 rtc: at91rm9200: Fix syntax errors in comments
-         fff190d0abaf799b5c7a34dc761706597509b37e rtc: rs5c313: correct some spelling mistakes
-         5c1a0939b53b97ac090a82b9527160a5effbca87 rtc: mxc_v2: Add missing clk_disable_unprepare()
-         5859e9fd923b20d6a318c32705264ac7722c5e31 rtc: ds1742: use devm_platform_get_and_ioremap_resource()
-         ad6d474d82dfb346573146d1bb0d818a720314fd rtc: ds1307: Convert to i2c's .probe_new()
+         1a17e5b513ceebf21100027745b8731b4728edf7 LoadPin: Ignore the "contents" argument of the LSM hooks
+         00dd027f721e0458418f7750d8a5a664ed3e5994 docs: Fix path paste-o for /sys/kernel/warn_count
          
