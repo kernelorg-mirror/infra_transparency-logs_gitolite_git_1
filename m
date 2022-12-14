@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3847643100980002583=="
+Content-Type: multipart/mixed; boundary="===============6270903947060911176=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mmind/linux-rockchip
-Date: Wed, 14 Dec 2022 14:25:06 -0000
-Message-Id: <167102790686.20713.15780803483213621469@gitolite.kernel.org>
+Date: Wed, 14 Dec 2022 14:25:25 -0000
+Message-Id: <167102792551.20904.6003413618503041801@gitolite.kernel.org>
 
---===============3847643100980002583==
+--===============6270903947060911176==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,42 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mmind/linux-rockchip
 user: mmind
 changes:
-  - ref: refs/heads/master
-    old: fef7fd48922d11b22620e19f9c9101647bfe943d
-    new: e2ca6ba6ba0152361aa4fcbf6067db71b2c7a770
-    log: revlist-fef7fd48922d-e2ca6ba6ba01.txt
-  - ref: refs/heads/v6.2-armsoc/dtsfixes
-    old: 0000000000000000000000000000000000000000
-    new: 53e8e1e6e9c1653095211a8edf17912f2374bb03
-  - ref: refs/heads/v6.3-armsoc/dts32
-    old: 0000000000000000000000000000000000000000
-    new: 7232dafab89ac23b570d0adb3402164719fcbe3d
-  - ref: refs/heads/v6.3-armsoc/dts64
-    old: 0000000000000000000000000000000000000000
-    new: 23587814cbde8a4fc877e4a0c992b4f73f6c3101
+  - ref: refs/heads/for-next
+    old: db6c57f2afd55ce6a63350dbe84f995881ee871a
+    new: 554ba1ec66f27661a83b14e69f7c6ef0300aeb01
+    log: revlist-db6c57f2afd5-554ba1ec66f2.txt
 
---===============3847643100980002583==
+--===============6270903947060911176==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-fef7fd48922d-e2ca6ba6ba01.txt
+Content-Disposition: attachment; filename=revlist-db6c57f2afd5-554ba1ec66f2.txt
 
-b98e7e8daf0ebab9dcc36812378a71e1be0b5089 mmc: Avoid open coding by using mmc_op_tuning()
-5c5301a147df77eb4479be9af74f65a334206602 mmc: core: refactor debugfs code
-4f431a047a5c8698ed4b67e2760cfbeb5fffb69d memstick/ms_block: Add check for alloc_ordered_workqueue
-e026a3f9172f5c9aacff270b929a166c3ea1b6f7 mmc: mmc-hsq: Use fifo to dispatch mmc_request
-beaba9e46cffca7fcf00bec7cf52fe52a9dcf918 mmc: sdhci: Avoid unnecessary ->set_clock()
-04280473b5da4199b1abbac2aa08fd9109e20f82 dt-bindings: mmc: Remove comment on wakeup-source property
-fc02e2b52389c8fde02852b2f959c0b45f042bbd mmc: core: Normalize the error handling branch in sd_read_ext_regs()
-496182a389627a60d1b12be32d1640b14c678b8b mmc: sdhci: Remove unneeded semicolon
-c8d2d76d7646dc9b2d377699f68dce5403ad9b80 mmc: sdhci-of-esdhc: limit the SDHC clock frequency
-292d0426d70db2d4fd47b4ecd42188f7443bf583 MAINTAINERS: Update maintainer for SDHCI Broadcom BRCMSTB driver
-4a44cd249604e29e7b90ae796d7692f5773dd348 mmc: vub300: fix warning - do not call blocking ops when !TASK_RUNNING
-07f8f060edd759f6f1bbaea3c078fe526f4dcbf9 dt-bindings: mmc: sdhci: document sdhci-caps and sdhci-caps-mask
-e589522d7aea0d8b738243935074a5916cd3b568 dt-bindings: mmc: sdhci-am654: cleanup style
-2ba206a2ff4a5cd60068f52453cfa2bbfa45bed6 dt-bindings: mmc: sdhci-msm: cleanup style
-b64c4d8589297eaf2e94d56b7e07547209714c48 dt-bindings: mmc: sdhci-msm: drop properties mentioned in common MMC
-491ad767de23c3a477405e02436e5e0071830b4c dt-bindings: mmc: sdhci-msm: allow dma-coherent
 a234442c0b51163841762748e7e22c3718337923 mmc: sdhci-brcmstb: Resolve "unused" warnings with CONFIG_OF=n
 495b637f640b7f87ab42f3cc829e35ea76a1f3eb iommu: Add note about struct iommu_fwspec usage
 493c9b68d1d8765b2f8740a06c169e90a947159f iommu/tegra: Add tegra_dev_iommu_get_stream_id() helper
@@ -1059,5 +1034,21 @@ a70210f41566131f88d31583f96e36cb7f5d2ad0 Merge tag 'x86_microcode_for_v6.2' of g
 1ca06f1c1acecbe02124f14a37cce347b8c1a90c Merge tag 'xtensa-20221213' of https://github.com/jcmvbkbc/linux-xtensa
 7e68dd7d07a28faa2e6574dd6b9dbd90cdeaae91 Merge tag 'net-next-6.2' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net-next
 e2ca6ba6ba0152361aa4fcbf6067db71b2c7a770 Merge tag 'mm-stable-2022-12-13' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
+53e8e1e6e9c1653095211a8edf17912f2374bb03 arm64: dts: rockchip: use correct reset names for rk3399 crypto nodes
+79ff3e4040fbe20a010c3e28f8916c6a44dabdbb dt-bindings: arm: rockchip: Add pmu compatible for rv1126
+afa5af90d2ee35c9bb283b1b0d26bd43e78df122 ARM: dts: rockchip: Add Rockchip RV1126 pinctrl
+0cea6325da9dfaec807c65b0bdcfab7d9a235069 ARM: dts: rockchip: Add Rockchip RV1126 SoC
+f1459809a2194d5808067bdce86ad007f6054dc4 dt-bindings: vendor-prefixes: Add Edgeble AI Technologies Pvt. Ltd.
+c4b37f32c7d3c79646fa090fba7054ae7141c510 dt-bindings: arm: rockchip: Add Edgeble Neural Compute Module 2
+58022d5a620d8a6e72a8691b9df65da7951f19b9 ARM: dts: rockchip: Add Edgeble RV1126 Neural Compute Module 2(Neu2)
+b4dc2677b1902bb4ca7e5fef1bd49ba6138b759d ARM: dts: rockchip: Add Edgeble Neural Compute Module 2(Neu2) IO board
+a1392d5ac60864a3682c447fe62392eb56e9d93b dt-bindings: arm: rockchip: Add Rockchip RK3128 Evaluation board
+9ef609cbdbf7a45599b0c9c21e9e7d2ae625896f ARM: dts: rockchip: add rk3128 soc dtsi
+7232dafab89ac23b570d0adb3402164719fcbe3d ARM: dts: rockchip: add rk3128-evb
+c3c4192809821b00ca7e20071ef17f07f3744bd2 dt-bindings: arm: rockchip: add Radxa CM3I E25
+23587814cbde8a4fc877e4a0c992b4f73f6c3101 arm64: dts: rockchip: Add Radxa CM3I E25
+34a91fe50478f5ce6fec71050e6f7cee0735b814 Merge branch 'v6.3-armsoc/dts32' into for-next
+ddb98144d8457368c222a2149c01fa1497a9053f Merge branch 'v6.3-armsoc/dts64' into for-next
+554ba1ec66f27661a83b14e69f7c6ef0300aeb01 Merge branch 'v6.2-armsoc/dtsfixes' into for-next
 
---===============3847643100980002583==--
+--===============6270903947060911176==--
