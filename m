@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8494722386319261134=="
+Content-Type: multipart/mixed; boundary="===============3485070182099567543=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec
-Date: Wed, 14 Dec 2022 06:31:09 -0000
-Message-Id: <167099946906.27613.10777504841685215294@gitolite.kernel.org>
+Date: Wed, 14 Dec 2022 06:31:48 -0000
+Message-Id: <167099950826.27848.11819962305562338374@gitolite.kernel.org>
 
---===============8494722386319261134==
+--===============3485070182099567543==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/klassert/ipsec
 user: klassert
 changes:
-  - ref: refs/heads/testing
+  - ref: refs/heads/master
     old: 1799c1b85e292fbfad99892bbea0beee925149e8
     new: 7ae9888d6e1ce4062d27367a28e46a26270a3e52
     log: revlist-1799c1b85e29-7ae9888d6e1c.txt
 
---===============8494722386319261134==
+--===============3485070182099567543==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ de5dc44370fbd6b46bd7f1a1e00369be54a041c8 igb: Initialize mailbox message for VF 
 2d4ee16d969c97996e80e4c9cb6de0acaff22c9f wireguard: timers: cast enum limits members to int in prints
 7ae9888d6e1ce4062d27367a28e46a26270a3e52 Merge git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
 
---===============8494722386319261134==--
+--===============3485070182099567543==--
