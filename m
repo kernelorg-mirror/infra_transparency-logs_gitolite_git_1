@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Wed, 14 Dec 2022 03:23:50 -0000
-Message-Id: <167098823038.1710.3966082700838160903@gitolite.kernel.org>
+Date: Wed, 14 Dec 2022 03:26:11 -0000
+Message-Id: <167098837168.4018.12225453488360294907@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,11 +12,11 @@ repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/master
-    old: f3b4a00f0f62da252c598310698dfc82ef2f2e2e
-    new: da2b5b43420456beef5d5e1b43582e579ed08ef1
+    old: da2b5b43420456beef5d5e1b43582e579ed08ef1
+    new: e9ad498696325c6b437e49450661cf2c349e24f5
     log: |
-         3d0b738fc5adf9f380702ac1424672e4b32c3781 bonding: add missed __rcu annotation for curr_active_slave
-         e95cc44763a41d5c715ef16742bcb1d8e6524a62 bonding: do failover when high prio link up
-         42a8d4aaea8414f60eb2ed2d92df89a6e2db4615 selftests: bonding: add bonding prio option test
-         da2b5b43420456beef5d5e1b43582e579ed08ef1 Merge branch 'bonding-fix-high-prio-not-effect-issue'
+         ddc9648db162eee556edd5222d2808fe33730203 mISDN: hfcsusb: don't call dev_kfree_skb/kfree_skb() under spin_lock_irqsave()
+         f0f596bd75a9d573ca9b587abb39cee0b916bb82 mISDN: hfcpci: don't call dev_kfree_skb/kfree_skb() under spin_lock_irqsave()
+         1232946cf522b8de9e398828bde325d7c41f29dd mISDN: hfcmulti: don't call dev_kfree_skb/kfree_skb() under spin_lock_irqsave()
+         e9ad498696325c6b437e49450661cf2c349e24f5 Merge branch 'misdn-don-t-call-dev_kfree_skb-kfree_skb-under-spin_lock_irqsave'
          
