@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2529985482912711291=="
+Content-Type: multipart/mixed; boundary="===============7664061648469229752=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec-next
-Date: Wed, 14 Dec 2022 06:29:27 -0000
-Message-Id: <167099936712.25389.17020986673057175530@gitolite.kernel.org>
+Date: Wed, 14 Dec 2022 06:30:06 -0000
+Message-Id: <167099940648.27202.2311215307037083808@gitolite.kernel.org>
 
---===============2529985482912711291==
+--===============7664061648469229752==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/klassert/ipsec-next
 user: klassert
 changes:
-  - ref: refs/heads/testing
+  - ref: refs/heads/master
     old: abe2343d37c2b4361547d5d31e17340ff9ec7356
     new: 7e68dd7d07a28faa2e6574dd6b9dbd90cdeaae91
     log: revlist-abe2343d37c2-7e68dd7d07a2.txt
 
---===============2529985482912711291==
+--===============7664061648469229752==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ a70210f41566131f88d31583f96e36cb7f5d2ad0 Merge tag 'x86_microcode_for_v6.2' of g
 1ca06f1c1acecbe02124f14a37cce347b8c1a90c Merge tag 'xtensa-20221213' of https://github.com/jcmvbkbc/linux-xtensa
 7e68dd7d07a28faa2e6574dd6b9dbd90cdeaae91 Merge tag 'net-next-6.2' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net-next
 
---===============2529985482912711291==--
+--===============7664061648469229752==--
