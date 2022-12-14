@@ -1,19 +1,33 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/arm64/linux
-Date: Wed, 14 Dec 2022 15:59:30 -0000
-Message-Id: <167103357012.17111.17216357554126009658@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/iproute2/iproute2-next
+Date: Wed, 14 Dec 2022 16:01:44 -0000
+Message-Id: <167103370463.19459.14858320920337906121@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/arm64/linux
-user: will
+repo: pub/scm/network/iproute2/iproute2-next
+user: dsahern
 changes:
-  - ref: refs/heads/for-next/core
-    old: 5f4c374760b031f06c69c2fdad1b0e981a1ad42f
-    new: 38792972de4294163f44d6360fd221e6f2c22a05
+  - ref: refs/heads/main
+    old: 42b27dfc6e723177bee3bd8c34de11b40a80faba
+    new: dc768a4585242d46627aa620239c8b6f8ee949a2
     log: |
-         38792972de4294163f44d6360fd221e6f2c22a05 ftrace: Allow WITH_ARGS flavour of graph tracer with shadow call stack
+         3f1e064ea454885432e197a47973d361e60d30b7 Update kernel headers
+         bb2eea918be757b899c9bb8beba992281a51f8f0 devlink: Support setting port function roce cap
+         32168d8a88942d94563d5ec5ec3c8490d6abf082 devlink: Support setting port function migratable cap
+         fe036c3666a50b873d33411e1cbbacd1a0bb9178 devlink: Add documentation for roce and migratable port function attributes
+         dc768a4585242d46627aa620239c8b6f8ee949a2 Merge branch 'devlink-port-function' into next
+         
+  - ref: refs/heads/master
+    old: 42b27dfc6e723177bee3bd8c34de11b40a80faba
+    new: dc768a4585242d46627aa620239c8b6f8ee949a2
+    log: |
+         3f1e064ea454885432e197a47973d361e60d30b7 Update kernel headers
+         bb2eea918be757b899c9bb8beba992281a51f8f0 devlink: Support setting port function roce cap
+         32168d8a88942d94563d5ec5ec3c8490d6abf082 devlink: Support setting port function migratable cap
+         fe036c3666a50b873d33411e1cbbacd1a0bb9178 devlink: Add documentation for roce and migratable port function attributes
+         dc768a4585242d46627aa620239c8b6f8ee949a2 Merge branch 'devlink-port-function' into next
          
