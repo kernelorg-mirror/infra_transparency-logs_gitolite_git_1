@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Wed, 14 Dec 2022 15:12:01 -0000
-Message-Id: <167103072168.18314.4044845446496889324@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
+Date: Wed, 14 Dec 2022 15:20:19 -0000
+Message-Id: <167103121960.25134.644522997968646988@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cel/linux
-user: cel
+repo: pub/scm/linux/kernel/git/riscv/linux
+user: palmer
 changes:
-  - ref: refs/heads/for-next
-    old: 2c7dd6d9884f499cb7833edc50cc580093fb9623
-    new: 75333d48f92256a0dec91dbf07835e804fc411c0
-    log: |
-         75333d48f92256a0dec91dbf07835e804fc411c0 NFSD: fix use-after-free in __nfs42_ssc_open()
-         
+  - ref: refs/tags/riscv-for-linus-6.2-mw1
+    old: 0000000000000000000000000000000000000000
+    new: 1081fb412ae26cd42e1c62f3266bd7d2d967219e
