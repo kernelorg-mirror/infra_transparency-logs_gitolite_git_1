@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Wed, 14 Dec 2022 20:04:53 -0000
-Message-Id: <167104829355.17549.8681342886757913995@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
+Date: Wed, 14 Dec 2022 20:11:21 -0000
+Message-Id: <167104868103.22449.11912376614852365179@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/linux/kernel/git/bpf/bpf
+user: martin.lau
 changes:
-  - ref: refs/heads/dev
-    old: b5f6018eed60b78812f0e09761d747deea7b86a9
-    new: d493ffca2df6c1963bd1d7b8f8c652a172f095ae
+  - ref: refs/heads/master
+    old: e89f3edffb860a0f54a9ed16deadb7a4a1fa3862
+    new: 4121d4481b72501aa4d22680be4ea1096d69d133
     log: |
-         f51c3a95ebc466859071344c3ae4b798a8d59495 srcu: Yet more detail for srcu_readers_active_idx_check() comments
-         d493ffca2df6c1963bd1d7b8f8c652a172f095ae rcu: Make RCU_LOCKDEP_WARN() avoid early lockdep checks
+         4121d4481b72501aa4d22680be4ea1096d69d133 bpf: Synchronize dispatcher update with bpf_dispatcher_xdp_func
          
