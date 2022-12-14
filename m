@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3239959087698733750=="
+Content-Type: multipart/mixed; boundary="===============5715596160024012104=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
-Date: Wed, 14 Dec 2022 00:44:18 -0000
-Message-Id: <167097865893.21593.12108030511521930@gitolite.kernel.org>
+Date: Wed, 14 Dec 2022 00:45:49 -0000
+Message-Id: <167097874940.24939.8358061388821374746@gitolite.kernel.org>
 
---===============3239959087698733750==
+--===============5715596160024012104==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
 user: chenhuacai
 changes:
-  - ref: refs/heads/loongarch-next
-    old: 4f335d23b5450c119bb97de548719ec1a2366d55
-    new: 5535f4f70cfc15ef55b6ea7c7e17337b17337cb6
-    log: revlist-4f335d23b545-5535f4f70cfc.txt
+  - ref: refs/tags/loongarch-6.2
+    old: 241558a763f777ad7d3fd461bf1654baae7f7a68
+    new: 56abc764b09b90ff5df0e2e23d2eb8b0b9d82235
+    log: revlist-241558a763f7-56abc764b09b.txt
 
---===============3239959087698733750==
+--===============5715596160024012104==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4f335d23b545-5535f4f70cfc.txt
+Content-Disposition: attachment; filename=revlist-241558a763f7-56abc764b09b.txt
 
 508f28c67171e276356650f407dd87d42b6913ef LoongArch: Consolidate __ex_table construction
 3d36f4298ba91fbdec6bc56aa7bb0663cba6ab0c LoongArch: Switch to relative exception tables
@@ -51,4 +51,4 @@ a51ac5246d2505b58229242959d2bc73d113ca50 LoongArch/ftrace: Add HAVE_FUNCTION_GRA
 28ac0a9e04d7dfb42220dc9d221164d93f20fb3a LoongArch: modules/ftrace: Initialize PLT at load time
 5535f4f70cfc15ef55b6ea7c7e17337b17337cb6 LoongArch: Update Loongson-3 default config file
 
---===============3239959087698733750==--
+--===============5715596160024012104==--
