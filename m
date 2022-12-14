@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2683101125078305162=="
+Content-Type: multipart/mixed; boundary="===============1167920135535388647=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sashal/linux-stable
-Date: Wed, 14 Dec 2022 01:31:23 -0000
-Message-Id: <167098148370.26577.458446779721534469@gitolite.kernel.org>
+Date: Wed, 14 Dec 2022 01:31:36 -0000
+Message-Id: <167098149664.26702.4216857113352722905@gitolite.kernel.org>
 
---===============2683101125078305162==
+--===============1167920135535388647==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,43 +15,43 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sashal/linux-stable
 user: sashal
 changes:
-  - ref: refs/heads/for-greg/4.14-100
-    old: 04a3ed25491a3d68baa55810b63b7f8bc1226bb5
-    new: ede5f36a38abed9f7db555ea306c64d7658fcf43
-    log: revlist-04a3ed25491a-ede5f36a38ab.txt
-  - ref: refs/heads/for-greg/4.19-100
-    old: 44ac64d649d1f2f617b46f0867c59813efcfffa5
-    new: c8fc87b41cea3ca41c8bf1f2171004fd238fec89
-    log: revlist-44ac64d649d1-c8fc87b41cea.txt
-  - ref: refs/heads/for-greg/4.9-100
-    old: 1b59d26a84f85973f36f01db959b7dbba31f254f
-    new: 1e443bc715e1b9ba7c9d6c3633701850df8ab43d
-    log: revlist-1b59d26a84f8-1e443bc715e1.txt
-  - ref: refs/heads/for-greg/5.10-100
-    old: 0104693a46890e8467bcdd985f3f18377fdbd1c4
-    new: ca192183f21e0bea1c85e2dfb7099d342a527a81
-    log: revlist-0104693a4689-ca192183f21e.txt
-  - ref: refs/heads/for-greg/5.15-100
-    old: f393c7e17a1652724c90c348cac83c4a63d2aa07
-    new: 39884aab58fc9012fd05110bd47efacb4076908e
-    log: revlist-f393c7e17a16-39884aab58fc.txt
-  - ref: refs/heads/for-greg/5.4-100
-    old: 64cd7e74884dc87a75a20bef39853d6f5e66be82
-    new: 3ff7add3763df50d26e691706f9d1357e24d2d9c
-    log: revlist-64cd7e74884d-3ff7add3763d.txt
-  - ref: refs/heads/for-greg/6.0-100
-    old: 7854e820d004e1093768887bc547870003e7fb5c
-    new: 2e06efb3eeb383ebe084852ac58342284eeb0b0a
-    log: revlist-7854e820d004-2e06efb3eeb3.txt
-  - ref: refs/heads/for-greg/6.1-100
+  - ref: refs/heads/for-greg/4.14-101
+    old: 8cbee879d1ded9c65b3d838929e2a3276f58fe92
+    new: c9f324bfcc73a3faa48a1870198bfeb6fd9c9422
+    log: revlist-8cbee879d1de-c9f324bfcc73.txt
+  - ref: refs/heads/for-greg/4.19-101
+    old: 4a0a449071104061a7bd14d14a4b0b74c7fe55fa
+    new: 5e2af6b9153e4aae5f11efbd0ceb1c2120f185c0
+    log: revlist-4a0a44907110-5e2af6b9153e.txt
+  - ref: refs/heads/for-greg/4.9-101
+    old: 8284ae0dae12120386fa1add6a620a34eb7c4366
+    new: df255643adeb774adf92c86f935eb89a4b35d598
+    log: revlist-8284ae0dae12-df255643adeb.txt
+  - ref: refs/heads/for-greg/5.10-101
+    old: ca8537afd3a00f0ce726a474f6445ed2e7f551c4
+    new: ffd285d7e4039352383f08dbe9c436c5bd9dba07
+    log: revlist-ca8537afd3a0-ffd285d7e403.txt
+  - ref: refs/heads/for-greg/5.15-101
+    old: 509b6d02d56db98441e5897c9d778224e9c05613
+    new: cdcc79366686d125a0fd49034a4f1e5902df4e9e
+    log: revlist-509b6d02d56d-cdcc79366686.txt
+  - ref: refs/heads/for-greg/5.4-101
+    old: 5a319de0fa214ed8b30db565b4785b7e6d28b38b
+    new: a9e826a43968b9c5125886585e866ff496ea1ee1
+    log: revlist-5a319de0fa21-a9e826a43968.txt
+  - ref: refs/heads/for-greg/6.0-101
+    old: 58edf42d4f9f811f4f08cb5750dafaf18c9dd2a3
+    new: e4532f1c9a691de7229db6b492ffca23d4479dd1
+    log: revlist-58edf42d4f9f-e4532f1c9a69.txt
+  - ref: refs/heads/for-greg/6.1-101
     old: 0000000000000000000000000000000000000000
-    new: 656f561d85e6e1e3d229c0527d2eef8274ef7c8d
+    new: de42a9209c53cb3fe039a13c4555127279f9077d
 
---===============2683101125078305162==
+--===============1167920135535388647==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-04a3ed25491a-ede5f36a38ab.txt
+Content-Disposition: attachment; filename=revlist-8cbee879d1de-c9f324bfcc73.txt
 
 7e6777654003e57bd4434b14de8cbcd0bf22a51d uas: add no-uas quirk for Hiksemi usb_disk
 f7d93993c9f4f97943bf2bf945fc04376c3c0931 usb-storage: Add Hiksemi USB3-FW to IGNORE_UAS
@@ -571,13 +571,22 @@ dad6ca557f640b032ed5de9c0136e5628fba1253 proc: proc_skip_spaces() shouldn't thin
 30b541df95b786dba39a3ece49762a9f49519d7c x86/nospec: Fix i386 RSB stuffing
 369e65def1a82aba54b377b6899b1bb5099ef838 Revert "x86/speculation: Change FILL_RETURN_BUFFER to work with objtool"
 65afe34ac33d34ed3f5e21a5001f5c2ce210b6ce Linux 4.14.301
-ede5f36a38abed9f7db555ea306c64d7658fcf43 binfmt_misc: fix shift-out-of-bounds in check_special_flags
+3ea222582aac2fc2322447f53832ae1e45299179 fs: jfs: fix shift-out-of-bounds in dbAllocAG
+59ee43b9f4f65b39004a75fbabd102f3fad2e8f5 udf: Avoid double brelse() in udf_rename()
+94eace48dd35a92b95c0654889fc42c1632b9175 jfs: Fix fortify moan in symlink
+3f334d479a207f5596068234594f0a76dc3e7ad4 fs: jfs: fix shift-out-of-bounds in dbDiscardAG
+e314130770da3bfaa3ff1309846828f365956121 ACPICA: Fix error code path in acpi_ds_call_control_method()
+85f93ebbd0c5a7cde2ca024ced662497391f84b2 proc/vmcore: fix potential memory leak in vmcore_init()
+788905dfe4e4d0ed86264e2a20f262d2c53618cb nilfs2: fix shift-out-of-bounds/overflow in nilfs_sb2_bad_offset()
+3ef0af8b14454621fef9144a2020dc5b3ddcdc3a ACPI / PCI: fix LPIC IRQ model default PCI IRQ polarity
+5cb84f2a6493f0f2d36be19830db6a503999fb81 acct: fix potential integer overflow in encode_comp_t()
+c9f324bfcc73a3faa48a1870198bfeb6fd9c9422 hfs: fix OOB Read in __hfs_brec_find
 
---===============2683101125078305162==
+--===============1167920135535388647==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-44ac64d649d1-c8fc87b41cea.txt
+Content-Disposition: attachment; filename=revlist-4a0a44907110-5e2af6b9153e.txt
 
 c98cbc2519365b645176601e98f8af29e96c1e0b Makefile.extrawarn: Move -Wcast-function-type-strict to W=1
 f47d6db0a31fb59aebd8bd8bd9171d42085a0610 docs: update mediator information in CoC docs
@@ -1197,13 +1206,22 @@ a2045d57e844864605d39e6cfd2237861d800f13 Bluetooth: L2CAP: Fix accepting connect
 56536cb602eaf2f2f59c72d8f31de8112ce315ff mmc: sdhci: Fix voltage switch delay
 a1504a9e205691940d44bf94ad33267eefea3b5e ipc/sem: Fix dangling sem_array access in semtimedop race
 e8fff23417237bd123a0418021912901f852b939 Linux 4.19.268
-c8fc87b41cea3ca41c8bf1f2171004fd238fec89 binfmt_misc: fix shift-out-of-bounds in check_special_flags
+2240916b49a4e8934b6d9f06b99edc660a911899 fs: jfs: fix shift-out-of-bounds in dbAllocAG
+1ba114abef42de3a03c142f818bf45ea7cc0a773 udf: Avoid double brelse() in udf_rename()
+1c021dd6e9e8f60a21a3b1eb9b856fed2a40c9a9 jfs: Fix fortify moan in symlink
+9811d7766202d768af504db201026bcc60c30295 fs: jfs: fix shift-out-of-bounds in dbDiscardAG
+75a02c37140c58558a165f3310003584be7a50d4 ACPICA: Fix error code path in acpi_ds_call_control_method()
+4d66aad696ea21845a937873a1d8c11e7ebf60a2 proc/vmcore: fix potential memory leak in vmcore_init()
+c3d65632864b4474e67df904383a001d9bc09d95 nilfs2: fix shift-out-of-bounds/overflow in nilfs_sb2_bad_offset()
+355e22f3b4920e06c9cc839515cd0218d87b4fa6 ACPI / PCI: fix LPIC IRQ model default PCI IRQ polarity
+139e361236cd586cf5ab5bcf9eae403c971fea0c acct: fix potential integer overflow in encode_comp_t()
+5e2af6b9153e4aae5f11efbd0ceb1c2120f185c0 hfs: fix OOB Read in __hfs_brec_find
 
---===============2683101125078305162==
+--===============1167920135535388647==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1b59d26a84f8-1e443bc715e1.txt
+Content-Disposition: attachment; filename=revlist-8284ae0dae12-df255643adeb.txt
 
 46e791e18c5469e1bb0dc9607961aa5c9bb96147 uas: add no-uas quirk for Hiksemi usb_disk
 d661b5353caddfe7a4952d44a9aba70c43b1554f usb-storage: Add Hiksemi USB3-FW to IGNORE_UAS
@@ -1581,20 +1599,23 @@ c834df40af8ec156e8c3c388a08ff7381cd90d80 Bluetooth: L2CAP: Fix accepting connect
 6e3644aca0bcb572e461ace04d7045beeebb4aaa proc: proc_skip_spaces() shouldn't think it is working on C strings
 623465389a642cf1f43081c82f105d81ca4a96b0 v4l2: don't fall back to follow_pfn() if pin_user_pages_fast() fails
 b6097015eea4e9f1e0288d93c691f83b864efe11 Linux 4.9.335
-1e443bc715e1b9ba7c9d6c3633701850df8ab43d binfmt_misc: fix shift-out-of-bounds in check_special_flags
+2d74ea1e6271e79e2fd8afdedf5e78ef7f92a4f8 fs: jfs: fix shift-out-of-bounds in dbAllocAG
+f6fe310314d729ae236798a87b8ec5c3c7f317f9 udf: Avoid double brelse() in udf_rename()
+b1cce11966e54a073af55bf2118a3a43a4b0667b jfs: Fix fortify moan in symlink
+3a2f90b2a4cf4b8b81b9e7c63e127a3562ce7791 fs: jfs: fix shift-out-of-bounds in dbDiscardAG
+f6397e1d1030a00d830132b900f116924b1cf2ec ACPICA: Fix error code path in acpi_ds_call_control_method()
+e0076e4b3f921f0b4715cbc5d9fee591f57ceeee proc/vmcore: fix potential memory leak in vmcore_init()
+e9b86453bfa6d174cf48246db538d16f5ed68ca7 nilfs2: fix shift-out-of-bounds/overflow in nilfs_sb2_bad_offset()
+ce7b2bd54a0aea6420589b0b5cb733402e43ab0d ACPI / PCI: fix LPIC IRQ model default PCI IRQ polarity
+4c1b90e353414f7ce42fd01bf541d7638a6b19ec acct: fix potential integer overflow in encode_comp_t()
+df255643adeb774adf92c86f935eb89a4b35d598 hfs: fix OOB Read in __hfs_brec_find
 
---===============2683101125078305162==
+--===============1167920135535388647==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0104693a4689-ca192183f21e.txt
+Content-Disposition: attachment; filename=revlist-ca8537afd3a0-ffd285d7e403.txt
 
-c940636d9c745b1129f7e8d51c16a1b1669c1e40 ALSA: dmaengine: increment buffer pointer atomically
-71704c2e1b2c159db0d6f90e2108a72eb342f101 mmc: wmt-sdmmc: Fix an error handling path in wmt_mci_probe()
-c1b269dda1e747746f0b13c2fd6296aa4992bc8d ASoC: wm8997: Fix PM disable depth imbalance in wm8997_probe
-fb23569699359d9fba5bf1257da0445c8776de29 ASoC: wm5110: Fix PM disable depth imbalance in wm5110_probe
-37e3e01c9a78e9ef18f54c92aed34dda8b4a95f9 ASoC: wm5102: Fix PM disable depth imbalance in wm5102_probe
-f182de42d786becce464ae7a1e7eca3fcbfc2469 ASoC: mt6660: Fix PM disable depth imbalance in mt6660_i2c_probe
 2c442b0c0624c56f55d30bcb00e1b9d5cc6787c1 ALSA: hda/hdmi: Don't skip notification handling during PM operation
 fde46754d5483bc398018bbec3c8ef5c55219e67 memory: pl353-smc: Fix refcount leak bug in pl353_smc_probe()
 daaec4b3fe2297b022c6b2d6bf48b6e5265a60b9 memory: of: Fix refcount leak bug in of_get_ddr_timings()
@@ -2608,24 +2629,24 @@ a82869ac52f3d9db4b2cf8fd41edc2dee7a75a61 Input: raydium_ts_i2c - fix memory leak
 d072a10c81d3a4f2308e24ffb4543a9146946373 v4l2: don't fall back to follow_pfn() if pin_user_pages_fast() fails
 cc1b4718cc42d298fcc923d55d19c03ecdadbaae ipc/sem: Fix dangling sem_array access in semtimedop race
 592346d5dc9b61e7fb4a3876ec498aa96ee11ac8 Linux 5.10.158
-f3acbd31830a257b5f0df10a1622f686a6dafe98 rcu: Fix __this_cpu_read() lockdep warning in rcu_force_quiescent_state()
-a9d5404b8501eeae36d1bb3316b9b355fa6ec579 arm64: make is_ttbrX_addr() noinstr-safe
-0e4db84398c439ff0af56c5c4c3871ad967d3532 video: hyperv_fb: Avoid taking busy spinlock on panic path
-e4288d84194e5ea4bd41b366b89b0c4c0d36f14c x86/hyperv: Remove unregister syscore call from Hyper-V cleanup
-ca192183f21e0bea1c85e2dfb7099d342a527a81 binfmt_misc: fix shift-out-of-bounds in check_special_flags
+55734fc77de42554bc4757b69098ece2eaa0c29f fs: jfs: fix shift-out-of-bounds in dbAllocAG
+f997e86d9ee47530906eda85df70ad65a568174a udf: Avoid double brelse() in udf_rename()
+7ce78a743814b329226aa76bfcf2cb112f6efb8b jfs: Fix fortify moan in symlink
+24e87a1626c817179bdc0011899ae2d8bf441457 fs: jfs: fix shift-out-of-bounds in dbDiscardAG
+98a59ac11ea217e653f6495b0a035068c175746c ACPICA: Fix error code path in acpi_ds_call_control_method()
+cfd78dcac166711aeb62413b8a5ef15980422ace proc/vmcore: fix potential memory leak in vmcore_init()
+a4b1b07edff7ce6222d87a2c49fa499f6609ca16 nilfs2: fix shift-out-of-bounds/overflow in nilfs_sb2_bad_offset()
+b2e6a57c00d7afc1b013a32c78e214ddb17f0e27 nilfs2: fix shift-out-of-bounds due to too large exponent of block size
+66706568d47a9a7f48e171512023ee9a91cbb38e ACPI / PCI: fix LPIC IRQ model default PCI IRQ polarity
+ec6238d630fb7faf5e902fee16fb19a5976a5178 acct: fix potential integer overflow in encode_comp_t()
+ffd285d7e4039352383f08dbe9c436c5bd9dba07 hfs: fix OOB Read in __hfs_brec_find
 
---===============2683101125078305162==
+--===============1167920135535388647==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f393c7e17a16-39884aab58fc.txt
+Content-Disposition: attachment; filename=revlist-509b6d02d56d-cdcc79366686.txt
 
-c69a2324fc6b0bbac8d98fab667176e187d8e3fd perf intel-pt: Fix segfault in intel_pt_print_info() with uClibc
-813d8fe5d30388f73a21d3a2bf46b0a1fd72498c io_uring/af_unix: defer registered files gc to io_uring release
-cd148d4e3183d982e2c624a1cd88512ccab0b2ed io_uring: correct pinned_vm accounting
-e857457c6f90974f584897e9905ff338426e6233 io_uring/rw: fix short rw error handling
-d6b7efc722a2684b6652ee49546c83b544b1b4b6 io_uring/rw: fix error'ed retry return values
-98aada6e22786916d150a598c7a7eaf937ca464c io_uring/rw: fix unexpected link breakage
 0db2efb3bff879566f05341d94c3de00ac95c4cc mm: hugetlb: fix UAF in hugetlb_handle_userfault
 b8989e95d74ebf1d0e9c32d1ffe2a5590a76b0a1 net: ieee802154: return -EINVAL for unknown addr type
 28787ff9fbeaf57684eb64cc33e2ec8ceedf21b5 ALSA: usb-audio: Fix last interface check for registration
@@ -3639,17 +3660,23 @@ f39891cfe79b0d55096b43f0d051bb5126e9b010 Revert "clocksource/drivers/riscv: Even
 3eb9213f66127fbccd56dd4d36c4b47f3302dbf7 proc: avoid integer type confusion in get_proc_long
 48642f94311b0cf9667aa6833f9f5e3a87d2a0ce proc: proc_skip_spaces() shouldn't think it is working on C strings
 d9790301361c52921c6e5bdf155fe0d3bf7a207d Linux 5.15.82
-180c41d291c19aa68e2802d65a979ca15ae071db rcu: Fix __this_cpu_read() lockdep warning in rcu_force_quiescent_state()
-763ab45586cfa37c2da1b16f1c338af8576b9bf6 arm64: make is_ttbrX_addr() noinstr-safe
-7498876d3143c2ee0ec73e16731549c92406aded video: hyperv_fb: Avoid taking busy spinlock on panic path
-0f7af8ff7a085dbbe1fa2345c22cea78ca747ef1 x86/hyperv: Remove unregister syscore call from Hyper-V cleanup
-39884aab58fc9012fd05110bd47efacb4076908e binfmt_misc: fix shift-out-of-bounds in check_special_flags
+5c42222bdc65086d0a0f3621b1ccb485e4393ae0 fs: jfs: fix shift-out-of-bounds in dbAllocAG
+20ea020ed6aa0524fd7ba257e2860f06e82c64ca udf: Avoid double brelse() in udf_rename()
+2d78372c90775c96e29dcea67c627f8bb660559b jfs: Fix fortify moan in symlink
+d7f71a1227d1ca02baaea36dc713483883741e29 fs: jfs: fix shift-out-of-bounds in dbDiscardAG
+0396953da2f6f8c772ef6e089edfd5666af123b2 ACPICA: Fix error code path in acpi_ds_call_control_method()
+45a86bfd123e463ab13a240b51bd89f1788b76db proc/vmcore: fix potential memory leak in vmcore_init()
+73fd3f8b9dd2eb1def6c092ca527301db3c6372e nilfs2: fix shift-out-of-bounds/overflow in nilfs_sb2_bad_offset()
+e5eb6c185753ec2f5fe737caab429fe4cd9b7180 nilfs2: fix shift-out-of-bounds due to too large exponent of block size
+7083f7732dab55ef070184c0eb24b0c25ffcc253 ACPI / PCI: fix LPIC IRQ model default PCI IRQ polarity
+2574da19f25c1771730ca86e684bb459fea3dfda acct: fix potential integer overflow in encode_comp_t()
+cdcc79366686d125a0fd49034a4f1e5902df4e9e hfs: fix OOB Read in __hfs_brec_find
 
---===============2683101125078305162==
+--===============1167920135535388647==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-64cd7e74884d-3ff7add3763d.txt
+Content-Disposition: attachment; filename=revlist-5a319de0fa21-a9e826a43968.txt
 
 3a8ff61e6f136a11543d4210092bfd8879598720 Revert "x86/speculation: Add RSB VM Exit protections"
 fbd29b7549b281ef5777f3ba3df3ab96fa3102b7 Revert "x86/cpu: Add a steppings field to struct x86_cpu_id"
@@ -4511,23 +4538,23 @@ dd3124a051a1c0397e82bc240f4db9987ef52b3d proc: avoid integer type confusion in g
 210f96fb7ed556055045f57ca1103caa18353bc2 v4l2: don't fall back to follow_pfn() if pin_user_pages_fast() fails
 3ab84e89135bc5fb998a362e195716fea75bc51f ipc/sem: Fix dangling sem_array access in semtimedop race
 316cdfc48d4db2c425370ef8575dd7d81283515d Linux 5.4.226
-5170e339d0dc4320db0f7232766ca8d18f9d2147 rcu: Fix __this_cpu_read() lockdep warning in rcu_force_quiescent_state()
-3ff7add3763df50d26e691706f9d1357e24d2d9c binfmt_misc: fix shift-out-of-bounds in check_special_flags
+537cb0cf20c07f490688f8d9b922394a44741389 fs: jfs: fix shift-out-of-bounds in dbAllocAG
+4a2b1f5b4a0dd7ab3825507b5e1315ba201292eb udf: Avoid double brelse() in udf_rename()
+339962b71fe395aecae7c1179281083fba955e3e jfs: Fix fortify moan in symlink
+2c32b4d91087a15d0e45a147234fce6d9a3795c6 fs: jfs: fix shift-out-of-bounds in dbDiscardAG
+fd1337998974de8a2f41b50c36769e2edef761eb ACPICA: Fix error code path in acpi_ds_call_control_method()
+2dfc93515a7ed50ebe3357ae45232cd181ea5c1b proc/vmcore: fix potential memory leak in vmcore_init()
+9a232f2fe71cb928d4f1ada3b296c0301805860c nilfs2: fix shift-out-of-bounds/overflow in nilfs_sb2_bad_offset()
+5bdfe897c67731cac2b82b20f7ff23c73f6d7779 ACPI / PCI: fix LPIC IRQ model default PCI IRQ polarity
+ceea869ed101274690b7ec194afe185c558dca8e acct: fix potential integer overflow in encode_comp_t()
+a9e826a43968b9c5125886585e866ff496ea1ee1 hfs: fix OOB Read in __hfs_brec_find
 
---===============2683101125078305162==
+--===============1167920135535388647==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7854e820d004-2e06efb3eeb3.txt
+Content-Disposition: attachment; filename=revlist-58edf42d4f9f-e4532f1c9a69.txt
 
-5547fcfbc8e5e11714e11372b9be111dd311701b clk: qcom: Update the force mem core bit for GPU clocks
-02b208e7429d5aa7a9cfa6a8d75dd0d11ab8dfa3 arm64: dts: verdin-imx8mp: fix ctrl_sleep_moci
-28d496790993ece4361deeac0095e6b6a697fc96 arm64: dts: imx8mm: remove otg1/2 power domain dependency on hsio
-be09330af8292464048127dde1add0142d8b01bf arm64: dts: imx8mm: correct usb power domains
-fc109ee728cae8c1a86498b4f0741e70175cffc0 arm64: dts: imx8mn: remove otg1 power domain dependency on hsio
-27661eb5912ee9d82ef91c2faeb496cdb2ad4080 arm64: dts: imx8mn: Correct the usb power domain
-dde5b17c1e34fd15263be379e8cd34796d558547 ARM: dts: imx6qdl-gw59{10,13}: fix user pushbutton GPIO offset
-52ab73001dc1923b84d4f615dde00f17eabc3a89 arm64: dts: imx8: correct clock order
 d22a2cb46690f472f8cbe24f630a441cfd8b55c1 arm64: dts: imx93: add gpio clk
 dc7b07d0ff2101cc6b123a95094312816893e542 arm64: dts: imx93: correct gpio-ranges
 74720106bca1b4efc5fbcdac6ccc80f53cd3a3df arm64: dts: lx2160a: specify clock frequencies for the MDIO controllers
@@ -5536,13 +5563,21 @@ d59abedb88d2f892cc38a0ce21d91671b8ad0a68 i2c: npcm7xx: Fix error handling in npc
 e04220518841708f68e7746232e3e54daef464a3 proc: avoid integer type confusion in get_proc_long
 fdf2c95f28bf197bfab421d21e8c697d4f149ea1 proc: proc_skip_spaces() shouldn't think it is working on C strings
 650093916eb3140339a3132ef7d5a02d8712d058 Linux 6.0.12
-115ed01d06e859193bb91d9d8338c0844adeac0c rcu: Fix __this_cpu_read() lockdep warning in rcu_force_quiescent_state()
-8ab3ccb609e16516f90ef7028a7c760c812fbdfa arm64: make is_ttbrX_addr() noinstr-safe
-8cd8ef0da1b98dcc7f16db1e2a77895dff9c71ac ARM: dts: aspeed: rainier,everest: Move reserved memory regions
-0aa783d62db95376a0be58133b96a5750003135d video: hyperv_fb: Avoid taking busy spinlock on panic path
-d6d3064413ac657e1154633aa0183694437ebdb8 x86/hyperv: Remove unregister syscore call from Hyper-V cleanup
-cb8ae5b5afe890b8648c876388f03127452ff974 binfmt_misc: fix shift-out-of-bounds in check_special_flags
-5d5e68e740d7f40ebd7a175a8ce478ba1cefc94f arm64: dts: allwinner: h616: Add USB nodes
-2e06efb3eeb383ebe084852ac58342284eeb0b0a arm64: dts: qcom: sm6350: Add apps_smmu with streamID to SDHCI 1/2 nodes
+9be72458f48460b59a3d9a55d804ebdc80212c22 fs: jfs: fix shift-out-of-bounds in dbAllocAG
+783cb7cdefe205901ce3a671f46b9d89e91ad352 udf: Avoid double brelse() in udf_rename()
+8007fe587ea294687ced3384f8d0d424970ea4ee jfs: Fix fortify moan in symlink
+dc19a83998502260f77367352460c0d1a3071fc6 fs: jfs: fix shift-out-of-bounds in dbDiscardAG
+494604bcdabef2c76b769dc298a403b5767493f2 ACPI: processor: idle: Check acpi_fetch_acpi_dev() return value
+ba85d7c14ebb08df9c107a6171c4883aa7baabb2 ACPI: EC: Add quirk for the HP Pavilion Gaming 15-cx0041ur
+369e54ab9d2ac34e6f62f1eb5f9739dc4fc1ad82 ACPICA: Fix error code path in acpi_ds_call_control_method()
+e53e54e0c469825643961f8791edc77a9f18d3d9 proc/vmcore: fix potential memory leak in vmcore_init()
+b31ce53beefb2406ed68704a3c9f8065bae0ae29 nilfs2: fix shift-out-of-bounds/overflow in nilfs_sb2_bad_offset()
+46b372e9371620b1b504fb13fc74eb9132d56e78 nilfs2: fix shift-out-of-bounds due to too large exponent of block size
+5a3b93f57018a5e2824c2d93be44b78a2f0bd1ef ACPI / PCI: fix LPIC IRQ model default PCI IRQ polarity
+5a56dcc1e7154d064c0d0f69d6adc3ba05c63f5d acct: fix potential integer overflow in encode_comp_t()
+1487b3e5a051be9e8e72d804ee1e1d8fa7202ced x86/apic: Handle no CONFIG_X86_X2APIC on systems with x2APIC enabled by BIOS
+ab14be2e19183176f98973c32fb19eadf7c51e01 ACPI: x86: Add skip i2c clients quirk for Lenovo Yoga Tab 3 Pro (YT3-X90F)
+c68bc3adc41362f7060f949080d1e98750068a35 ACPI: x86: Add skip i2c clients quirk for Medion Lifetab S10346
+e4532f1c9a691de7229db6b492ffca23d4479dd1 hfs: fix OOB Read in __hfs_brec_find
 
---===============2683101125078305162==--
+--===============1167920135535388647==--
