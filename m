@@ -1,19 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/deller/parisc-linux
-Date: Wed, 14 Dec 2022 21:21:15 -0000
-Message-Id: <167105287521.3543.6807984285502365155@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Wed, 14 Dec 2022 21:23:45 -0000
+Message-Id: <167105302503.4327.10645489921518126262@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/deller/parisc-linux
-user: deller
+repo: pub/scm/linux/kernel/git/broonie/sound
+user: broonie
 changes:
-  - ref: refs/heads/for-next
-    old: 60c95270ef643fdda92cb594b78646a7508039d4
-    new: 887e813357319f5b9c34429307d6d4ea68f688f5
+  - ref: refs/heads/for-linus
+    old: 7bd220f2ba9014b78f0304178103393554b8c4fe
+    new: ff5870a76c2abda389650d3711cdddc031d12665
     log: |
-         887e813357319f5b9c34429307d6d4ea68f688f5 parisc: Drop PMD_SHIFT from calculation in pgtable.h
+         ff5870a76c2abda389650d3711cdddc031d12665 ASoC: Intel: Add HP Stream 8 to bytcr_rt5640.c
+         
+  - ref: refs/heads/for-next
+    old: 7bd220f2ba9014b78f0304178103393554b8c4fe
+    new: ff5870a76c2abda389650d3711cdddc031d12665
+    log: |
+         ff5870a76c2abda389650d3711cdddc031d12665 ASoC: Intel: Add HP Stream 8 to bytcr_rt5640.c
          
