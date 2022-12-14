@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============3304704820993423335=="
+Content-Type: multipart/mixed; boundary="===============7107958419421361578=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/deller/parisc-linux
-Date: Wed, 14 Dec 2022 18:55:21 -0000
-Message-Id: <167104412185.6072.2616203184641392395@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/deller/linux-fbdev
+Date: Wed, 14 Dec 2022 18:58:03 -0000
+Message-Id: <167104428315.6941.5282857435587197616@gitolite.kernel.org>
 
---===============3304704820993423335==
+--===============7107958419421361578==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/deller/parisc-linux
+repo: pub/scm/linux/kernel/git/deller/linux-fbdev
 user: deller
 changes:
   - ref: refs/heads/master
-    old: bce9332220bd677d83b19d21502776ad555a0e73
+    old: eb7081409f94a9a8608593d0fb63a1aa3d6f95d8
     new: c7020e1b346d5840e93b58cc4f2c67fc645d8df9
-    log: revlist-bce9332220bd-c7020e1b346d.txt
+    log: revlist-eb7081409f94-c7020e1b346d.txt
 
---===============3304704820993423335==
+--===============7107958419421361578==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-bce9332220bd-c7020e1b346d.txt
+Content-Disposition: attachment; filename=revlist-eb7081409f94-c7020e1b346d.txt
 
 f66f73421f0a929734bb41dde575e6d7859e548f io_uring: skip spinlocking for ->task_complete
 e18a9c18c38f523ae45416e2b75ed4ddf8ad107b Merge tag 'nvme-6.1-2022-12-07' of git://git.infradead.org/nvme into block-6.1
@@ -1051,4 +1051,4 @@ ab425febda94c7d287ea3433cbd0971771d6aeb4 Merge tag 'for-linus' of git://git.kern
 a0a6c76cf2a506c061072db6c187f8a641dc85de Merge tag 'i3c/for-6.2' of git://git.kernel.org/pub/scm/linux/kernel/git/i3c/linux
 c7020e1b346d5840e93b58cc4f2c67fc645d8df9 Merge tag 'pci-v6.2-changes' of git://git.kernel.org/pub/scm/linux/kernel/git/helgaas/pci
 
---===============3304704820993423335==--
+--===============7107958419421361578==--
