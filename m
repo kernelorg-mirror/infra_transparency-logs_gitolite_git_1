@@ -1,56 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============6011237372659370613=="
+Content-Type: multipart/mixed; boundary="===============0556674340797201557=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Wed, 14 Dec 2022 18:31:33 -0000
-Message-Id: <167104269338.21784.11965358458548398601@gitolite.kernel.org>
+Subject: post-receive: pub/scm/virt/kvm/kvm
+Date: Wed, 14 Dec 2022 18:32:40 -0000
+Message-Id: <167104276015.22220.11938791627549649052@gitolite.kernel.org>
 
---===============6011237372659370613==
+--===============0556674340797201557==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
+repo: pub/scm/virt/kvm/kvm
+user: bonzini
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: 4c217e9bb4f4b684cac0ab0b840692c39b27f05e
-    new: 87ff5cb9f0c00072d7cd5d9bc8a6a7dfd8b5048f
+  - ref: refs/tags/for-linus
+    old: 615c8c752bc9ef2245759294e08e7a9c18b680f7
+    new: 023e9456571e4a72c483aa0948fab2023ed58db8
     log: |
-         87ff5cb9f0c00072d7cd5d9bc8a6a7dfd8b5048f 5.4-stable patches
+         549a715b98a13c6d05452be3ad37e980087bb081 KVM: x86: Add proper ReST tables for userspace MSR exits/flags
          
 
---===============6011237372659370613==
+--===============0556674340797201557==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1671042692 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1671042690-d7ab046a2dc28516b81f102ed9a79a97604b7a27
+pusher Paolo Bonzini <pbonzini@redhat.com> 1671042758 -0500
+pushee gitolite.kernel.org:/pub/scm/virt/kvm/kvm.git
+nonce 1671042757-391e8b346c44bb6c6162f1450b8e7c2a6b400395
 
-4c217e9bb4f4b684cac0ab0b840692c39b27f05e 87ff5cb9f0c00072d7cd5d9bc8a6a7dfd8b5048f refs/heads/master
+615c8c752bc9ef2245759294e08e7a9c18b680f7 023e9456571e4a72c483aa0948fab2023ed58db8 refs/tags/for-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmOaFoQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+M2cP/3bLWX1YiI3DQUNAFuBC
-k0G2jRL3184RB0k2qDrZMURyHmDUiAsVn0AygWjZ0fHOzV71pdGJZQxFYNeHCiiP
-J9PfEQL9sVf7ToGtpb618/jgCxanSNRHazM4t90RiHm2/0nTZ5bbQcmG59xzXH7z
-tVbpQPxQ6Bi7VzAPQiqUv1rrGHqgJPFHppY+v0UxY/YWxIH3gMUvWGDzogfhwhKa
-1vJHSEwDWE1MM8rulE1iMPdRU9w95C5J6F6lI2NDlFY6JATsAEPDvYfKuif5PMyG
-AOAeOqjuf88RB5CjptABtZ/Fbi3kRz5o+HGPH4GGZU8zPMPgJfGWcQAfHCHofuI9
-ocYtDQtMtoML9g+aM5eD2ND1wQilpXmIJMSAh7moFw8g9BMEkz149pL75gnrGUDd
-EfFepPNOjdgIrgKwFM2m8PtFLlnOSk6qlD598XagWdH2sGASfSbbYt8af/NUQOhf
-qjpYACdn1RlCohWWnEbutoieyXqcKOLErd1KFXly+9JDAbpSKY6oM5Nq1oFDZsN9
-dO87hRxCbwr5OCrFLnusHWkMfa1qPbNgKzEKigmsZGX6fSORqe3xKXlrbQF/Vo6T
-StfDhpQ31QduWDjxVa2qh5p+V/5BM/ghv6ojvqGUDh5ld+RaTXyfOJ35krilgy2X
-h7QyMSjeqv4z9g/Bh+ZPxUMb
-=n8l3
+iQFIBAABCAAyFiEE8TM4V0tmI4mGbHaCv/vSX3jHroMFAmOaFsYUHHBib256aW5p
+QHJlZGhhdC5jb20ACgkQv/vSX3jHroMrMgf/Qmkc1fciikItEPWwW/v+7tjLsTPa
+/Cs/FIYIMfRSrZSJFlyNK40mJh4tuIpQ6CBXtsmpGWX/3A85UXMcZIswW8sltsT6
+LXyZQPZoHJizlM71LiJgu0doXKRU+wH/sNfkwPS9ZxNaixSYSqYvQepfv1lv0Hxd
+q3XPGk26lyQS3gwrae5RetPCpUhRR1jvZ+Kzxfli5/vpHOHOFi7RT5P9Nra1Ia3E
+IQCWqXmta8tNhTngjZTbrP/p95mvHX5Iw3GVetafnpYFZ3ZUENTcWhhqv6e6Z/fr
+8ghqj+ykEas1fmdubTIVUJrE4MC2gc3r9xNiD/m0cJWk9I7aSOnnpiR38g==
+=xnOO
 -----END PGP SIGNATURE-----
 
---===============6011237372659370613==--
+--===============0556674340797201557==--
