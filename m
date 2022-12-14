@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3195844495936211493=="
+Content-Type: multipart/mixed; boundary="===============2893216157191640302=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Wed, 14 Dec 2022 17:38:30 -0000
-Message-Id: <167103951068.18091.14594933030226956985@gitolite.kernel.org>
+Date: Wed, 14 Dec 2022 17:39:01 -0000
+Message-Id: <167103954114.18301.11065535899720189208@gitolite.kernel.org>
 
---===============3195844495936211493==
+--===============2893216157191640302==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: dborkman
 changes:
-  - ref: refs/heads/master
-    old: 2958c237fd1ed4e184d5a6d1e545f8249ae4543b
+  - ref: refs/heads/for-next
+    old: 15eb1621762134bd3a0f81020359b0c7745d1080
     new: 7e68dd7d07a28faa2e6574dd6b9dbd90cdeaae91
-    log: revlist-2958c237fd1e-7e68dd7d07a2.txt
-  - ref: refs/tags/v6.1
-    old: 0000000000000000000000000000000000000000
-    new: 7614896350aa20764c5eca527262d9eb0a57da63
+    log: revlist-15eb16217621-7e68dd7d07a2.txt
 
---===============3195844495936211493==
+--===============2893216157191640302==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-2958c237fd1e-7e68dd7d07a2.txt
+Content-Disposition: attachment; filename=revlist-15eb16217621-7e68dd7d07a2.txt
 
 73bd063ca03493f44e0700cc08824093da9741bc PCI/MSI: Provide prepare_desc() MSI domain op
 34026364df8eca05ee32e706a2c014511a19af02 PCI/MSI: Provide post-enable dynamic allocation interfaces for MSI-X
@@ -1054,4 +1051,4 @@ a70210f41566131f88d31583f96e36cb7f5d2ad0 Merge tag 'x86_microcode_for_v6.2' of g
 1ca06f1c1acecbe02124f14a37cce347b8c1a90c Merge tag 'xtensa-20221213' of https://github.com/jcmvbkbc/linux-xtensa
 7e68dd7d07a28faa2e6574dd6b9dbd90cdeaae91 Merge tag 'net-next-6.2' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net-next
 
---===============3195844495936211493==--
+--===============2893216157191640302==--
