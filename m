@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6614308585521496159=="
+Content-Type: multipart/mixed; boundary="===============8472016081046111862=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Wed, 14 Dec 2022 09:44:24 -0000
-Message-Id: <167101106458.317.13801615853976500791@gitolite.kernel.org>
+Date: Wed, 14 Dec 2022 09:44:39 -0000
+Message-Id: <167101107921.481.14335143157764782590@gitolite.kernel.org>
 
---===============6614308585521496159==
+--===============8472016081046111862==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,39 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/perf/urgent
-    old: 517e6a301f34613bff24a8e35b5455884f2d83d8
-    new: 1abbac66e238999607d049080c31e74d684ac640
-    log: revlist-517e6a301f34-1abbac66e238.txt
+  - ref: refs/heads/sched/core
+    old: d6962c4fe8f96f7d384d6489b6b5ab5bf3e35991
+    new: b4f1414fbd4dcfafd8493fc983d8086391255fcf
+    log: revlist-d6962c4fe8f9-b4f1414fbd4d.txt
 
---===============6614308585521496159==
+--===============8472016081046111862==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-517e6a301f34-1abbac66e238.txt
+Content-Disposition: attachment; filename=revlist-d6962c4fe8f9-b4f1414fbd4d.txt
 
-4f431a047a5c8698ed4b67e2760cfbeb5fffb69d memstick/ms_block: Add check for alloc_ordered_workqueue
-e026a3f9172f5c9aacff270b929a166c3ea1b6f7 mmc: mmc-hsq: Use fifo to dispatch mmc_request
-beaba9e46cffca7fcf00bec7cf52fe52a9dcf918 mmc: sdhci: Avoid unnecessary ->set_clock()
-04280473b5da4199b1abbac2aa08fd9109e20f82 dt-bindings: mmc: Remove comment on wakeup-source property
-fc02e2b52389c8fde02852b2f959c0b45f042bbd mmc: core: Normalize the error handling branch in sd_read_ext_regs()
-496182a389627a60d1b12be32d1640b14c678b8b mmc: sdhci: Remove unneeded semicolon
-c8d2d76d7646dc9b2d377699f68dce5403ad9b80 mmc: sdhci-of-esdhc: limit the SDHC clock frequency
-292d0426d70db2d4fd47b4ecd42188f7443bf583 MAINTAINERS: Update maintainer for SDHCI Broadcom BRCMSTB driver
-4a44cd249604e29e7b90ae796d7692f5773dd348 mmc: vub300: fix warning - do not call blocking ops when !TASK_RUNNING
-07f8f060edd759f6f1bbaea3c078fe526f4dcbf9 dt-bindings: mmc: sdhci: document sdhci-caps and sdhci-caps-mask
-e589522d7aea0d8b738243935074a5916cd3b568 dt-bindings: mmc: sdhci-am654: cleanup style
-2ba206a2ff4a5cd60068f52453cfa2bbfa45bed6 dt-bindings: mmc: sdhci-msm: cleanup style
-b64c4d8589297eaf2e94d56b7e07547209714c48 dt-bindings: mmc: sdhci-msm: drop properties mentioned in common MMC
-491ad767de23c3a477405e02436e5e0071830b4c dt-bindings: mmc: sdhci-msm: allow dma-coherent
-a234442c0b51163841762748e7e22c3718337923 mmc: sdhci-brcmstb: Resolve "unused" warnings with CONFIG_OF=n
-495b637f640b7f87ab42f3cc829e35ea76a1f3eb iommu: Add note about struct iommu_fwspec usage
-493c9b68d1d8765b2f8740a06c169e90a947159f iommu/tegra: Add tegra_dev_iommu_get_stream_id() helper
-07548a391df07637a057caa5bd07cafb6157fe79 mmc: sdhci-tegra: Sort includes alphabetically
-8f00ad01fcd457d5e8c09c97f7a963be09e59b99 mmc: sdhci-tegra: Separate Tegra194 and Tegra234 SoC data
-03813c81e62559489afa1b461ab159b5641d66f8 mmc: sdhci-tegra: Add support to program MC stream ID
-acc13958c2b2623c17e2450b8cd6881b698756d3 mmc: sdhci-tegra: Issue CMD and DAT resets together
-92439a859000c6f4c74160a3c08c1a519e3ca125 Merge tag 'ieee802154-for-net-2022-12-05' of git://git.kernel.org/pub/scm/linux/kernel/git/sschmidt/wpan
 998b30c3948e4d0b1097e639918c5cff332acac5 io_uring: Fix a null-ptr-deref in io_tctx_exit_cb()
 ef0ec1ad03119b8b46b035dad42bca7d6da7c2e5 io_uring: dont remove file from msg_ring reqs
 4c979eaefa4356d385b7c7d2877dc04d7fe88969 io_uring: improve io_double_lock_ctx fail handling
@@ -1048,7 +1026,29 @@ a70210f41566131f88d31583f96e36cb7f5d2ad0 Merge tag 'x86_microcode_for_v6.2' of g
 1ca06f1c1acecbe02124f14a37cce347b8c1a90c Merge tag 'xtensa-20221213' of https://github.com/jcmvbkbc/linux-xtensa
 7e68dd7d07a28faa2e6574dd6b9dbd90cdeaae91 Merge tag 'net-next-6.2' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net-next
 e2ca6ba6ba0152361aa4fcbf6067db71b2c7a770 Merge tag 'mm-stable-2022-12-13' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
-19e7d02584040849549ec78606f2272d55a13cfe perf core: Return error pointer if inherit_event() fails to find pmu_ctx
-1abbac66e238999607d049080c31e74d684ac640 perf/core: Fix cgroup events tracking
+c0eebb242d507dec66a31e1c6ec1318c8980e130 sched/topology: Add __init for init_defrootdomain
+7bfb72768895f86489fd0833aa6fe9e1fed3f928 sched: Async unthrottling for cfs bandwidth
+ca8d5b5ee82b57349055ac3d1deaaa86b1ee51c4 selftests/rseq: Fix: Fail thread registration when CONFIG_RSEQ=n
+a6eca605687e68fe785b8118503dc1f52d2bd7b7 rseq: Introduce feature size and alignment ELF auxiliary vector entries
+d29e7263a61736a8ba370d2d8947e67760c10102 rseq: Introduce extensible rseq ABI
+6344e8f8643bc512ea4217267e88604996f8fa36 rseq: Extend struct rseq with numa node id
+effd03df02cd513f6a503d0b4026cce5c7130657 selftests/rseq: Use ELF auxiliary vector for extensible rseq
+fdf7e3cf232ec9c0ff2eb5822148cc2718c56ba4 selftests/rseq: Implement rseq numa node id field selftest
+6ba872724aeec018d7e7fd1ff71c02b709dd2aa5 sched: Introduce per-memory-map concurrency ID
+800b63bd1225e75b4084de9a08e1e9bb8f216c95 rseq: Extend struct rseq with per-memory-map concurrency ID
+5c23da287efadf1ca2bbb5dd62ac6f35f5fbdcf9 selftests/rseq: Remove RSEQ_SKIP_FASTPATH code
+926e2e807dc7d879259c2b310da772f502dc4543 selftests/rseq: Implement rseq mm_cid field support
+b0bd10aeb5e2f63f2bed48c26a2f3ba55046f3a0 selftests/rseq: x86: Template memory ordering and percpu access mode
+2671b956ec2e7a65d34a16771c934417264ce1f9 selftests/rseq: arm: Template memory ordering and percpu access mode
+17709132f96780ca1693a1354cffab1c3925bb70 selftests/rseq: arm64: Template memory ordering and percpu access mode
+6b7a65ba8f9b4aeeab937272d1db9f94e7b1ff21 selftests/rseq: mips: Template memory ordering and percpu access mode
+bfa0e1c5ccd7ed75c5e95f69f5bedb3547db3c87 selftests/rseq: ppc: Template memory ordering and percpu access mode
+1e11b561c3c44956f7714d87289a20a22b93457d selftests/rseq: s390: Template memory ordering and percpu access mode
+a5321c48d5e0794f7a361fa3d97f4510edc587b1 selftests/rseq: riscv: Template memory ordering and percpu access mode
+6ba4edbc3247c3cb43a8ed4bac5605c8be517a47 selftests/rseq: Implement basic percpu ops mm_cid test
+fe90e9b92d275c3ecd9ecf5c03e2aede18b794d8 selftests/rseq: Implement parametrized mm_cid test
+40d553eb2b8a0e02a2a6e89b653d8327f3a6f504 selftests/rseq: parametrized test: Report/abort on negative concurrency ID
+ef1152c0b918d142f03e478657e7eb175de96a27 tracing/rseq: Add mm_cid field to rseq_update
+b4f1414fbd4dcfafd8493fc983d8086391255fcf sched: Make const-safe
 
---===============6614308585521496159==--
+--===============8472016081046111862==--
