@@ -1,173 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============2267844943005767952=="
+Content-Type: multipart/mixed; boundary="===============7153879434225931764=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Thu, 15 Dec 2022 06:50:47 -0000
-Message-Id: <167108704786.21798.15689257264656818935@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Thu, 15 Dec 2022 06:50:50 -0000
+Message-Id: <167108705096.21868.46424107701899518@gitolite.kernel.org>
 
---===============2267844943005767952==
+--===============7153879434225931764==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue/4.14
-    old: 4908b59db49d7edc1d3067140e71712a42b63e43
-    new: 464fb0c64655baf7952e40ed3d8548a462f4c99a
+  - ref: refs/heads/master
+    old: d931d5bcabc8f501619f223af96941d20662e9e2
+    new: d8a3502cb4ea3e67e807415239c7c9ee03bd2da5
     log: |
-         fa402c8265507375f7e4a206e955f42fe8f45e50 libtraceevent: Fix build with binutils 2.35
-         117613a5ba589d45ffd13ee4cb90befeadfb0a63 once: add DO_ONCE_SLOW() for sleepable contexts
-         23eb7bc89c0c8149c20fe57788e75b08bb64dfc4 mm/khugepaged: fix GUP-fast interaction by sending IPI
-         464fb0c64655baf7952e40ed3d8548a462f4c99a mm/khugepaged: invoke MMU notifiers in shmem/file collapse paths
-         
-  - ref: refs/heads/queue/4.19
-    old: 60052ac165d389c4be2283473ce19883229a61e3
-    new: b596a8e00f240b2dfb3ec8814d4370cf2e2d103e
-    log: revlist-60052ac165d3-b596a8e00f24.txt
-  - ref: refs/heads/queue/4.9
-    old: 91277244042695aa6ce780872af4cd02982943b8
-    new: fd15d497d31a689b579655d97b7564b1537a476b
-    log: revlist-912772440426-fd15d497d31a.txt
-  - ref: refs/heads/queue/5.10
-    old: 8fd471377a60cd99abd52392f6e130b4277f92bb
-    new: c3cd1d754ffbfff54f2fcab6f96a5a89902c7eac
-    log: |
-         c3cd1d754ffbfff54f2fcab6f96a5a89902c7eac x86/smpboot: Move rcu_cpu_starting() earlier
-         
-  - ref: refs/heads/queue/5.15
-    old: 81fd6a03ec0eb429e559311fc603e242463f8163
-    new: ed344aba1f190b0beaa72c88c439e5f9565050a2
-    log: |
-         f554d5e8f1724053bc8cdf61b1029e76e24565fe x86/vdso: Conditionally export __vdso_sgx_enter_enclave()
-         ed344aba1f190b0beaa72c88c439e5f9565050a2 vfs: fix copy_file_range() averts filesystem freeze protection
-         
-  - ref: refs/heads/queue/5.4
-    old: 5c2d020c118f65bda73ffb9a782bd1312b16d610
-    new: c859efb6c0e0c4ac5469e18b2f160422221b59f3
-    log: |
-         a64c307732db664e106ee65bf7ebeca9f26dd85d net: bpf: Allow TC programs to call BPF_FUNC_skb_change_head
-         a700929520c16c4046912214c4dd485df76ce48b x86/smpboot: Move rcu_cpu_starting() earlier
-         c859efb6c0e0c4ac5469e18b2f160422221b59f3 mm/hugetlb: fix races when looking up a CONT-PTE/PMD size hugetlb page
-         
-  - ref: refs/heads/queue/6.0
-    old: 378ae07c50b808af2c073a63a1c277933bb46f44
-    new: 304eb9913fbe0e8b8599d7bbb87177e3f653b64b
-    log: |
-         b2eee331cdd94f21cf99172aec4ee3aab7132ba7 rtc: cmos: Fix event handler registration ordering issue
-         969d711279aa4aa608eb74e2bcd34b6a6a5fafbf rtc: cmos: Fix wake alarm breakage
-         0d3666c9de0d381a37d48102bd1a4eb726bde09c x86/vdso: Conditionally export __vdso_sgx_enter_enclave()
-         304eb9913fbe0e8b8599d7bbb87177e3f653b64b libbpf: Fix uninitialized warning in btf_dump_dump_type_data
-         
-  - ref: refs/heads/queue/6.1
-    old: 2b5a0ed1a6b8994e23fa94f21d6756c0c451239b
-    new: 7d205ae6988e47542d043f40f6b490ffe0aeb3c0
-    log: |
-         3cfc19b46edc4822e52237ff4d04b39c5d174ddb x86/vdso: Conditionally export __vdso_sgx_enter_enclave()
-         7d205ae6988e47542d043f40f6b490ffe0aeb3c0 libbpf: Fix uninitialized warning in btf_dump_dump_type_data
+         d8a3502cb4ea3e67e807415239c7c9ee03bd2da5 5.4-stable patches
          
 
---===============2267844943005767952==
+--===============7153879434225931764==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-60052ac165d3-b596a8e00f24.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-0345fe31a94dd7f546d400f97b2e2a1f0628f11b arm: dts: rockchip: fix node name for hym8563 rtc
-71e61c0c51a2a6f5b679cfc2bae11c1dc9d503cd ARM: dts: rockchip: fix ir-receiver node names
-aaa554a75a7fe51c1a19e1763009d08e9878b56c ARM: 9251/1: perf: Fix stacktraces for tracepoint events in THUMB2 kernels
-9ce74f2ca8c3d6c95a16078919ac9fdf01843b1d ARM: 9266/1: mm: fix no-MMU ZERO_PAGE() implementation
-c10f1229006d76da6c0678ebaf055ace23d85631 ARM: dts: rockchip: disable arm_global_timer on rk3066 and rk3188
-1a34c9c1bed8adfc005d0ab874a35bf42f274b04 9p/fd: Use P9_HDRSZ for header size
-2f46e95bf344abc4e74f8158901d32a869e0adb6 ALSA: seq: Fix function prototype mismatch in snd_seq_expand_var_event
-e7166d6821c15f3516bcac8ae3f155924da1908c ASoC: soc-pcm: Add NULL check in BE reparenting
-b8bd8111dda2723a845150e880de99d0a161b151 regulator: twl6030: fix get status of twl6032 regulators
-20e78b7d1c1019789d9754ad9246192916f1a3b4 fbcon: Use kzalloc() in fbcon_prepare_logo()
-e82c0b18b7a2dd8385be8755550ca47f099ae380 9p/xen: check logical size for buffer size
-b4a5fb7437cd40740508440c18d7195c131cf5b5 net: usb: qmi_wwan: add u-blox 0x1342 composition
-44dfdecc288b8d5932e09f5e6a597a089d5a82b2 xen/netback: Ensure protocol headers don't fall in the non-linear area
-b5bc1e8a4e914494b6679caa06a1892feea25f7f xen/netback: do some code cleanup
-d3e1b6151d5d40bedabea129f5873a83b9390b62 xen/netback: don't call kfree_skb() with interrupts disabled
-47bd0eecc695e3f418a2743d5f7fc96829e68aa3 rcutorture: Automatically create initrd directory
-2572ab14b73aa45b6ae7e4c089ccf119fed5cf89 media: v4l2-dv-timings.c: fix too strict blanking sanity checks
-e1ae97624ecf400ea56c238bff23e5cd139df0b8 memcg: fix possible use-after-free in memcg_write_event_control()
-a31cd9d8362779416176920557c4e8cce865e6c4 KVM: s390: vsie: Fix the initialization of the epoch extension (epdx) field
-fbd83b3f7e5eb448ea08eb9577a7782caac87b16 HID: hid-lg4ff: Add check for empty lbuf
-8e14f20e12224ee2429f75a5c9418a700e26a8d3 HID: core: fix shift-out-of-bounds in hid_report_raw_event
-e520aea6679d5d54521780f19507a89ecd6b455a ieee802154: cc2520: Fix error return code in cc2520_hw_init()
-d99d8c900b1fdcb0317709629d173ca9cec349de ca8210: Fix crash by zero initializing data
-b2bc053ebbba57a06fa655db5ea796de2edce445 gpio: amd8111: Fix PCI device reference count leak
-d6c4a45da10a4eccdc1d32215f384c2babdd16dd e1000e: Fix TX dispatch condition
-03398583d07fa75cc2f7e0383b04ab5d6d29e1d3 igb: Allocate MSI-X vector when testing
-bcb286ac9add0d389d78e3b878d89f4fa106e9e1 Bluetooth: 6LoWPAN: add missing hci_dev_put() in get_l2cap_conn()
-8a66c3a94285552f6a8e45d73b34ebbad11d388b Bluetooth: Fix not cleanup led when bt_init fails
-48deec83b2f8ae385d71a65e385ae3a9b99d3a83 selftests: rtnetlink: correct xfrm policy rule in kci_test_ipsec_offload
-f00c84fb1635c27ba24ec5df65d5bd7d7dc00008 mac802154: fix missing INIT_LIST_HEAD in ieee802154_if_add()
-3b4225ea68db9db53f38d9c67fbfbf70051ef01d net: encx24j600: Add parentheses to fix precedence
-91b9c29837b71e2b3ee65c24bde86d78a0e5d64e net: encx24j600: Fix invalid logic in reading of MISTAT register
-99859947517e446058ad7243ee81d2f9801fa3dd xen-netfront: Fix NULL sring after live migration
-5a142486a0db6b0b85031f22d69acd0cdcf8f72b net: mvneta: Prevent out of bounds read in mvneta_config_rss()
-7b896abdf8c1e20a63d0d5e635f7eac0f975f997 i40e: Fix not setting default xps_cpus after reset
-08b36801dded794577d675abb690fab1db9d0b6b i40e: Fix for VF MAC address 0
-82e0d9e6a203e8c27f6d811509b1cd3224eba092 i40e: Disallow ip4 and ip6 l4_4_bytes
-cff35329070b96b4484d23f9f48a5ca2c947e750 NFC: nci: Bounds check struct nfc_target arrays
-e5d18854cb71cc0f5fc4076570e4840c41419d02 nvme initialize core quirks before calling nvme_init_subsystem
-b835d4161bd2ae4c2e4e36ed7ed223e70fdba8da net: stmmac: fix "snps,axi-config" node property parsing
-aceec8ab752428d8e151321479e82cc1a40fee2e net: hisilicon: Fix potential use-after-free in hisi_femac_rx()
-3a4eddd1cb023a71df4152fcc76092953e6fe95a net: hisilicon: Fix potential use-after-free in hix5hd2_rx()
-8abe4a23980700f4a8a28988fd3e07bb461bd483 tipc: Fix potential OOB in tipc_link_proto_rcv()
-bfaa8f6c5b84b295dd73b0138b57c5555ca12b1c ethernet: aeroflex: fix potential skb leak in greth_init_rings()
-5215a8c7a72c0c9d49de9450ad92464832e981af xen/netback: fix build warning
-b32caecee42e5bc255cb69c793f3c8d2fc379967 net: plip: don't call kfree_skb/dev_kfree_skb() under spin_lock_irq()
-7e0dcd5f3ade221a6126278aca60c8ab4cc3bce9 ipv6: avoid use-after-free in ip6_fragment()
-3861eee36e8d5865eb0d53d4db890529eb7fce7c net: mvneta: Fix an out of bounds check
-dcd4aecaa93c2ee308ec80b47a912bd01605efe6 can: esd_usb: Allow REC and TEC to return to zero
-c652c812211c7a427d16be1d3f904eb02eb4265f Linux 4.19.269
-10601f6156967798ea9f3115fa5e28ed8fcc1c20 mm/khugepaged: fix GUP-fast interaction by sending IPI
-b596a8e00f240b2dfb3ec8814d4370cf2e2d103e mm/khugepaged: invoke MMU notifiers in shmem/file collapse paths
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1671087050 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1671087048-5fa280587280ec4692fad92470382347054ec26c
 
---===============2267844943005767952==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-912772440426-fd15d497d31a.txt
+d931d5bcabc8f501619f223af96941d20662e9e2 d8a3502cb4ea3e67e807415239c7c9ee03bd2da5 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
 
-02c468589732bbb3a9a07b7521b4f78d029bc86d arm: dts: rockchip: fix node name for hym8563 rtc
-1884ba7f2f9242f651d287b1982ab723e019bc82 ARM: dts: rockchip: fix ir-receiver node names
-25260b24cc325f9bee9786ff76cfd8e5a27c5193 ARM: 9251/1: perf: Fix stacktraces for tracepoint events in THUMB2 kernels
-b38486e82ecb9f3046e0184205f6b61408fc40c9 ALSA: seq: Fix function prototype mismatch in snd_seq_expand_var_event
-0760acc2e6598ad4f7bd3662db2d907ef0838139 ASoC: soc-pcm: Add NULL check in BE reparenting
-1a1d9be7b36ee6cbdeb9d160038834d707256e88 xen/netback: Ensure protocol headers don't fall in the non-linear area
-c7c498cf995db8b677efd347dd0840b5b4daf6dd xen/netback: do some code cleanup
-b41eab5790ac8ceed2b940f7acc5b3698c824644 xen/netback: don't call kfree_skb() with interrupts disabled
-0b8fd94975c100b35f0e97eacd98e7dc34979161 rcutorture: Automatically create initrd directory
-04c533b4aac2f9c1dd7c25e0287af9c6337a273b mmc: sdhci: use FIELD_GET for preset value bit masks
-a0e661a7df02de0c19109af6a0afbc62e4e2dc17 mmc: sdhci: Fix voltage switch delay
-0d73b49c4037199472b29574ae21c21aef493971 media: v4l2-dv-timings.c: fix too strict blanking sanity checks
-cf0c335dba20449d09452c8ae9435db84ead78b3 HID: hid-lg4ff: Add check for empty lbuf
-151493fe5a6ed1a88decc929a7368a3f2a246914 HID: core: fix shift-out-of-bounds in hid_report_raw_event
-2f1323047e75e9ada8a92ab879eeb38a5ed272e2 ieee802154: cc2520: Fix error return code in cc2520_hw_init()
-4749c5cc147c9860b96db1e71cc36d1de1bd3f59 gpio: amd8111: Fix PCI device reference count leak
-303add003b62e822b87e88457b6ee9198ccea9b7 e1000e: Fix TX dispatch condition
-2020772eff21808efbe3291064da1f57fc69ae37 igb: Allocate MSI-X vector when testing
-6f915a03b18579c29c7be5763f8dbf00d5824479 Bluetooth: 6LoWPAN: add missing hci_dev_put() in get_l2cap_conn()
-7410f4d1221bb182510b7778ab6eefa8b9b7102d mac802154: fix missing INIT_LIST_HEAD in ieee802154_if_add()
-9b69c59150fa3c740a9a7babfb146876c652d05c net: encx24j600: Add parentheses to fix precedence
-6db64b3b97aa88e7cf7b8c2716dd66307a917ad9 net: encx24j600: Fix invalid logic in reading of MISTAT register
-3ceffb8f410b93553fb16fe7e84aa0d35b3ba79b net: mvneta: Prevent out of bounds read in mvneta_config_rss()
-6b37f0dc0638d13a006f2f24d2f6ca61e83bc714 NFC: nci: Bounds check struct nfc_target arrays
-3501da8eb6d0f5f114a09ec953c54423f6f35885 net: hisilicon: Fix potential use-after-free in hisi_femac_rx()
-179499e7a240b2ef590f05eb379c810c26bbc8a4 net: hisilicon: Fix potential use-after-free in hix5hd2_rx()
-62ae69ea7be897d75022999378477b2a94ee90b4 tipc: Fix potential OOB in tipc_link_proto_rcv()
-223654e2e2c8d05347cd8e300f8d1ec6023103dd ethernet: aeroflex: fix potential skb leak in greth_init_rings()
-fbc70a04a0369ad95a45aa407eae50cadfbd893b xen/netback: fix build warning
-5c5a903c67ef41549a972d167ff271b4beed9d81 net: plip: don't call kfree_skb/dev_kfree_skb() under spin_lock_irq()
-94257d4329f28377b1188d3dbc1f800f5eb1adc9 net: mvneta: Fix an out of bounds check
-4b605cd1fb8e2e7b01e2a905c9b93183a8d161ee Linux 4.9.336
-ffac52abfa32e67df4f459b3013e23cf0ee28939 mm/khugepaged: fix GUP-fast interaction by sending IPI
-fd15d497d31a689b579655d97b7564b1537a476b mm/khugepaged: invoke MMU notifiers in shmem/file collapse paths
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmOaw8obHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+SXcP/0MnLeDwgI8yE7N8bCkr
+Q8S1jdY8M5oC2zCPclPeFMsjgRQzpF5WTgOwP6cS9iiGgNk+LLjEKUl76MgkZNv+
+Tsn2zwxv/BRpCT2G70zNHHZHO+/lrYHjZYYf/odyKTfQPoaeCrJArlvE0US2Auwq
+bviJb+ppj/iZFeUmUnyfEcmbqshWPh8bmNh+hsM9H+ZDSrpQ9aFjA1nFZF0q9MIR
++JlQ7fD2RuFV9yKqLcJ5T9diViz+6AB7AfxKCw/bfWm6s0nGnfXGhYwqn0yy1hAf
+CvK0zuDkW7o1AFXEgzmbYFYWRymzIQPZ9rbuQELQd+pRe8+F82Dky28Y9MeaYphX
+DrL7iBIC6cniXAWMIj2yhi0oB2i2DwxFyc30Nt3Ge8OQRV38iKyrAt4oEJ9QkbTX
+9mBsQC+rBehqiSr4dMDRtThN3z3QfazduiE4fnOOUWicP/bqmbQNe8y5kEc5Dqpv
+H7hwAZ3bGEe+8u4JbkG7Sig9hUQ5e9GpYprhtyblglOpH9SPNUP9Vbbsz2/yPBOO
+u6NI5Or5GR7phz99pOJ7h54jaPe7y08HAxKFsF4sUaQ0okL4xYW1CV+PTFclW8KB
+UFTdHS08B0JCdSy1pqvPLxcAAduFJx7Thc+6xswPlqYxG2x1wMZ6/QEgDwJvhPYJ
+JfcnX6jxBC0grZF2OZQyEq3E
+=Dhxj
+-----END PGP SIGNATURE-----
 
---===============2267844943005767952==--
+--===============7153879434225931764==--
