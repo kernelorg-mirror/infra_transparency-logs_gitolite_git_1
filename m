@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7874461021781364319=="
+Content-Type: multipart/mixed; boundary="===============8036685914188877476=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Thu, 15 Dec 2022 17:29:15 -0000
-Message-Id: <167112535588.26438.5461183079971430447@gitolite.kernel.org>
+Date: Thu, 15 Dec 2022 17:29:16 -0000
+Message-Id: <167112535613.26471.7203067592865772991@gitolite.kernel.org>
 
---===============7874461021781364319==
+--===============8036685914188877476==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,12 +16,12 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-6.0.y
-    old: 843cf4765c1b76102b7e24388adb478b2ec0c3fd
-    new: 8173f9d249ceafc174d1a8ef6e57cc081050e705
-    log: revlist-843cf4765c1b-8173f9d249ce.txt
+  - ref: refs/heads/linux-5.10.y
+    old: 931578be69875087a62524da69964d575426d287
+    new: a66782e1af759c5fff50b1b382ff4e34fe8fe158
+    log: revlist-931578be6987-a66782e1af75.txt
 
---===============7874461021781364319==
+--===============8036685914188877476==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -32,47 +32,46 @@ pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1671125354 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
 nonce 1671125351-2bb2f6e05e086ec4e3bbcab9c3edad4bf6cea3cb
 
-843cf4765c1b76102b7e24388adb478b2ec0c3fd 8173f9d249ceafc174d1a8ef6e57cc081050e705 refs/heads/linux-6.0.y
+931578be69875087a62524da69964d575426d287 a66782e1af759c5fff50b1b382ff4e34fe8fe158 refs/heads/linux-5.10.y
 -----BEGIN PGP SIGNATURE-----
 
 iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmObWWobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+IkIQAIed9ddRv96+5hzimYTL
-ukHWiYDGLIPhz/28PSqI5tWJeNizkhHTBBibs2ZKq8OfPpqVy6TyACP+akXQqHmx
-r9+bkwomMkDQccNQFdZ49J+H4ySo7RrMA8ZH5Q10pNCp33EBoGVMZFxchi6X2Wn2
-jfuzSBykg+LJXE7kuYhofASum01ooAyMJk9hUuDZLu1A3Y3HkdMhIKhYMZX8L58I
-7UQlsh6SrErMq7MlGFBswNUD0mYj70/4XdSYGOmIF1T2jU9XUG+G7zVhTLftJ+oD
-s7USSmZl5C+NzEpEFC7DSqzWI1hCEI9zOHV+KY+hzUBQvtBX5w1xW5almsTZ0q8P
-+0sHE7jB+obbBAE4jKDUztsIqr5VXuHodDicrKdyfmPmelHjbJ7bzgJuQKo80W1z
-HaAchG2KcdN9VgUDJ2exIqkQByKSeMESeu04FBeyVxYtHZ4Y6P+vogu1Lm/SuRga
-iFvzslXy3HKU9KD90fWbf9wu9Fh1DkUIvBwPNoPDXGs305EN5XTyt3bgetFxIfsh
-muEnMgej/L6K3g2bJIAmivXKb89xLyTOmdf5AKc4wimCYUPPdr+M1i+eOiODij+0
-7w00HVnfgd8FPuaKAMIMY7e03hfVqxJPmNgI2sxgmxYHPBrA5TOdaqcXiHOXDqEb
-LYx+lE0BeR6KmI0tKSx6SJGY
-=oD73
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+TGUQAMTEAU6YdeMjU4N9xInL
+2Y4veIidnz4KZyMX27X9HISg0vVGc92Uv5yDDQXzll+yDDWBQNfKNV7Y4kW5BcmL
+lGUe9s3bqBMvbAxd9yfoT1BeyPGgnNjgrp2aq+m018MkdutWx/X1+Vfx5Mg8V7eK
+mvLWblM3ZpOVblHC+3M0XpBPiF9TBjUiXIaWJbUlHK9sI6m9Hh6Zp7hHV8XTek6q
+i8PdXYxD7T6FgWK5WHYKLVzmENyAlexUHc3i8k1ITzwdA9EDiiqcvYdgYGzrrHVf
+nFT5pMzzQu3yUA2aKxW6BbGaHO9p4Yycy7UjjI/ziV+7oVhZR2+i04Tn4RUr9ysU
+gPrIr6vtG1hHPeHEnmVEKI1Lmf5PzFElX49Yf5TVck2EIfFVh2IGRV8ZAy1BXjjp
+IbjRwQWuvwsVs4FaYECwGhM35OBstpV8SWf8HBr0DheHdOqQ+bqeaRIlJr8kM9Yk
+sVXVfizPKXEhjsUThCCnt4QSyjFr27C2Ar+7rI10TBA63zxLcbR0QiCE5FsuLBhL
+EgCkBlEwPGxy8wxPEXLI8jrmeh1d3+xC7QN/iRl03gJyBw/PSMurMzs/zEEB4RsH
+C5KlUExIZsBQsL1Qmzd4VupoU+H/XNda/wc0KnKmR/KMZxOP2pmn/aF128tsl9+D
+VYdheVbbUHM0gOErjWl5aH8z
+=mAGW
 -----END PGP SIGNATURE-----
 
---===============7874461021781364319==
+--===============8036685914188877476==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-843cf4765c1b-8173f9d249ce.txt
+Content-Disposition: attachment; filename=revlist-931578be6987-a66782e1af75.txt
 
-8d7f65b923acb670a1a67eb3eb27b03c336ef0f2 rtc: cmos: Fix event handler registration ordering issue
-1d2a7e731fbcbeb3cb7b78865ae69c75ee50e2b5 rtc: cmos: Fix wake alarm breakage
-154d746b4c7d00edc7548d8499a69d4a64ab153f x86/vdso: Conditionally export __vdso_sgx_enter_enclave()
-f7f045cf1aeab585822971ed7709b2fc37ed4e9e libbpf: Fix uninitialized warning in btf_dump_dump_type_data
-20e00c1a807d78cf8c83db1b0b170b95a67a5033 rtc: cmos: fix build on non-ACPI platforms
-3a83dafc766068e13c775a97211b8b357bb1bc01 ASoC: fsl_micfil: explicitly clear software reset bit
-6450c43cf07268eceaf8e24bbd2b6e57ffc6ba1b ASoC: fsl_micfil: explicitly clear CHnF flags
-a6758b2d3fdf37c34750068fbde789b2c46eea97 ASoC: ops: Check bounds for second channel in snd_soc_put_volsw_sx()
-c4e5f784d64ae518fcdcad28509b56750f3193b4 libbpf: Use page size as max_entries when probing ring buffer map
-d64b5eef77985a1b219997710a9084a96d8775b6 pinctrl: meditatek: Startup with the IRQs disabled
-9bd816bf23413922406fef4bc1a38783933b7114 can: sja1000: fix size of OCR_MODE_MASK define
-f09686f4e97d5d476f558057e59fcd966a99a218 can: mcba_usb: Fix termination command argument
-4361f8015defef9fcd65d1b928dd650d8cd84b66 net: fec: don't reset irq coalesce settings to defaults on "ip link up"
-04173708723ddf683ab7a159f79a2352e5acaab1 ASoC: cs42l51: Correct PGA Volume minimum value
-6a4a4d513d9e8e34d319e96c23bda87ca2ad17a5 perf: Fix perf_pending_task() UaF
-4e9f2c526d2162e2f49e6f3c574dd727c62012aa nvme-pci: clear the prp2 field when not used
-8173f9d249ceafc174d1a8ef6e57cc081050e705 Linux 6.0.14-rc1
+c3b21f636da55f5df5db0595231e26fb0d2221e0 x86/smpboot: Move rcu_cpu_starting() earlier
+e6a85a376f548a534b5c6b6ae64346e535cc7df6 vfs: fix copy_file_range() regression in cross-fs copies
+14707476ffceeb58def58c41002aa80c3ba12d4f vfs: fix copy_file_range() averts filesystem freeze protection
+f1145eb1ca1bc9567a065ecdc5edc17200ce6a48 nfp: fix use-after-free in area_cache_get()
+83b61c47bb632c70bdd011f613281e1bb3fafc90 fuse: always revalidate if exclusive create
+905487ada7c33728d87347c0d5c0c20428793122 io_uring: add missing item types for splice request
+a56d6bca53aad0f01e469b125225dc7c33202b11 ASoC: fsl_micfil: explicitly clear software reset bit
+78a2ffce2808951992d33e169b370b8c827319bf ASoC: fsl_micfil: explicitly clear CHnF flags
+fbff3e55a24c82aea750bfa8b9b23891f832141a ASoC: ops: Check bounds for second channel in snd_soc_put_volsw_sx()
+e21f7ad04ca499ad8517ea5c0ac5b297af97ec4a libbpf: Use page size as max_entries when probing ring buffer map
+79b497cba7c3628b94a632a60941317f0f34b5b2 pinctrl: meditatek: Startup with the IRQs disabled
+702907a4373cb303eef504f59e98e1cce6ca2d8f can: sja1000: fix size of OCR_MODE_MASK define
+ec3138b6ef875a21f7fc31878410dc4055583297 can: mcba_usb: Fix termination command argument
+3f825c42d9031024ac08f099e8dc23ad281d0520 ASoC: cs42l51: Correct PGA Volume minimum value
+0d1dbf9c76874fe24c89697303eea67c5e2891e1 nvme-pci: clear the prp2 field when not used
+a66782e1af759c5fff50b1b382ff4e34fe8fe158 Linux 5.10.160-rc1
 
---===============7874461021781364319==--
+--===============8036685914188877476==--
