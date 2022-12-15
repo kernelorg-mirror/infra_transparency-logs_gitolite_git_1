@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4775960667348259375=="
+Content-Type: multipart/mixed; boundary="===============2796947954986858282=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Thu, 15 Dec 2022 17:29:12 -0000
-Message-Id: <167112535273.26243.8076044361966666879@gitolite.kernel.org>
+Date: Thu, 15 Dec 2022 17:29:13 -0000
+Message-Id: <167112535320.26301.10537913301700864467@gitolite.kernel.org>
 
---===============4775960667348259375==
+--===============2796947954986858282==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,50 +16,50 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.14.y
-    old: c4215ee4771bb935727df2db097fd28f8d644b5c
-    new: e4355b7ce6ac1e6f35ed823eb333f029d35be3fa
+  - ref: refs/heads/linux-5.4.y
+    old: 66bb2e2b24ce52819a7070d3a3255726cb946b69
+    new: e538d4b64ed30c6b7248a14b4e8641db4db16736
     log: |
-         6a1c9e7060606e2c27e4a5a7e5d4536587948033 libtraceevent: Fix build with binutils 2.35
-         b9bc02ec2c3c33ab0f218ec697d4878d57bf0e63 once: add DO_ONCE_SLOW() for sleepable contexts
-         f5f3f2aac670b38e7a6f1e64604d400131b29672 mm/khugepaged: fix GUP-fast interaction by sending IPI
-         e085d3f137e25f0cc862f6f4b56b161819f89b80 mm/khugepaged: invoke MMU notifiers in shmem/file collapse paths
-         85b9aaaaf076a339ecd2a6dc8eb1706aebad65bc block: unhash blkdev part inode when the part is deleted
-         73376c5263afd342982d4daabd130b5f1fdba4bb nfp: fix use-after-free in area_cache_get()
-         1c7c03ed0fbca32fe6c0974899029c7d04748639 ASoC: ops: Check bounds for second channel in snd_soc_put_volsw_sx()
-         9a97f908fac9e7fcff0b0b9ac7f7eaca9a651994 can: sja1000: fix size of OCR_MODE_MASK define
-         e1c9a23be957fb64454af8efc8f026baafda11c1 can: mcba_usb: Fix termination command argument
-         e4355b7ce6ac1e6f35ed823eb333f029d35be3fa Linux 4.14.303-rc1
+         89cf103057679d3350002e2c8d808e0fbf5fbf7b net: bpf: Allow TC programs to call BPF_FUNC_skb_change_head
+         bf74500069a1df5b5defee5e692f856b2a13211b x86/smpboot: Move rcu_cpu_starting() earlier
+         985e113af016c6d8b45c481f26c4c09cad1b283a mm/hugetlb: fix races when looking up a CONT-PTE/PMD size hugetlb page
+         3f0481c17354210d59e10ea1973e1eb700354055 block: unhash blkdev part inode when the part is deleted
+         d64c87ae61244886d2f5556f50769cd552524d92 nfp: fix use-after-free in area_cache_get()
+         72d850af03b3c4b0279566a78d5b7e901fb0ab4d ASoC: ops: Check bounds for second channel in snd_soc_put_volsw_sx()
+         da8d3d69ae1ac064654d922be772eebb81629909 pinctrl: meditatek: Startup with the IRQs disabled
+         7cd127d1fe2569a1b722df6de633434b4d9caf52 can: sja1000: fix size of OCR_MODE_MASK define
+         31646d8605b4f569c5a121e72f63aa066f262923 can: mcba_usb: Fix termination command argument
+         e538d4b64ed30c6b7248a14b4e8641db4db16736 Linux 5.4.228-rc1
          
 
---===============4775960667348259375==
+--===============2796947954986858282==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1671125351 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1671125352 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
 nonce 1671125347-51e0652ea00021d11045f118d247d9f814424e51
 
-c4215ee4771bb935727df2db097fd28f8d644b5c e4355b7ce6ac1e6f35ed823eb333f029d35be3fa refs/heads/linux-4.14.y
+66bb2e2b24ce52819a7070d3a3255726cb946b69 e538d4b64ed30c6b7248a14b4e8641db4db16736 refs/heads/linux-5.4.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmObWWcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+5boQANCKxudgkJZ6Hf8KnKF6
-0WSp2CBH0dPAt954kjbrImAuoLN+qCAjkZ5MOHLZ87t/KA2Pz6Srj1h47bUAXEOx
-vwuqsWyvQQk/HuAuuasOZRHNcq8DnaJ7IP+nuVC08eyNzku3frM1qM0MMGN0g4E9
-V+cV9+9WWG9DpSY8m+gSf2qAVXwlxwmiW/KhmLVlIZK3Sjtpbjd99GEV2ynXgtOO
-53LGfXYb+b4nUl7RhItYrLSac/EVxHGvJq5XIWLBBXScroprZRHYh/cn916N6Og8
-Uomel5WQwXUzrRvW8l7bl9q0ZiyOMRsDpvNbg1XOCnFJcljx6CIT7nSBgu7ClrzT
-zWbqYoEkoxyDpyemIe7mcGhV0BLuMNHIvEAe2IT1rECFCkQp4uMiF/i+dcUmn1wW
-dScZjdtvEoJbjtpL3TrAMD9zDWi2O6vRfFRGYe5xQ/gWqrrqRSynEuxB/8T4HPNO
-lKd9x/VuJ8LGYnE/xVqMz5/6O1HLn/nk0SEBqeq+PKIdbJW8PFwkxZ0lGQBe5lmm
-yIfTT5gqGkFdCMIkasYWO9ZoSgHdsHhb7bYEGLyOrAHOgABk3etTL5BmWIQj1YAb
-zJ60Cc99qXEpfDyKHoQwhr3gxZwlwWcGjK3N8hVdnt+qxTZrp4IaNjwIKyKVBaRM
-UD5vy8QCFKC4EvzrVbZMExCu
-=yacq
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmObWWgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+VpEQANIYiJk0PbqJNZMYoaxX
+GzSMEgbEJoyF3qXWYuUjmuBzc5GkgzP3m4U9R7WjwkoVEAQz1ai4sN1Nj3kY+Ly2
+dLozLzqOrLyv8yZGospdbyGSN0spjQPnZv5sB2MpjhGkdbkgNUG4/bXEBPPCQZnM
+M4trr3NYQp243me+GBbd6YDUm6/qnQMowFrmWtbs6a7OO/fdd02Es1KqPf3VkX+6
+zxthvGmYP/XxhrOferyyUaE6Yg/6UShXHTj3RwbZX4dcP8qXQoTxxslKdVot1SRh
+GVO8Ofxsk21TfKrybxju9PLTCmhCIt3XkBKZylM2a64WoMgZoTuZvIAI8TUKi6TT
++IX3tKRl4sAqe2X4d9vKS1ASQr7knOawCX8n8KSB7LKhlupKgB4oQhcJT+pbLN39
+Laz9Z/moOdVio9i96NXzxPwBPnMXhGnxNrWHdNEAVAePwQMWHcMH0X84h5ypiMed
+uuVoho/EVon0oY753x+csf66h6QdPLFse88kRnsmct3ypTyeph0LVt9q7nYDib9B
+hO2aIsRd7ShhJNY3lr3kl/hVTIXOXUDbGkPTb3Ux2Y/cH3m8fHPytrdSlSQZjU4W
+I7PG/39yHoNEg980LOCsF4bypy8W1lWyTvJd1ICwxoz4yOdD+zdrlXQq5zuX+W3U
+Z4R7vGwgsneTdupp7N0RCguO
+=OTOp
 -----END PGP SIGNATURE-----
 
---===============4775960667348259375==--
+--===============2796947954986858282==--
