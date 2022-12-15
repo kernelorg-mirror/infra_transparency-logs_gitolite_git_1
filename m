@@ -1,77 +1,73 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/linux-stable
-Date: Thu, 15 Dec 2022 12:23:29 -0000
-Message-Id: <167110700906.22278.8831970057466328508@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============1566864220483091125=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Thu, 15 Dec 2022 12:27:28 -0000
+Message-Id: <167110724876.25013.18170833175678247164@gitolite.kernel.org>
+
+--===============1566864220483091125==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/linux-stable
-user: sashal
+repo: pub/scm/linux/kernel/git/acme/linux
+user: acme
 changes:
-  - ref: refs/heads/for-greg/4.14-101
-    old: c9f324bfcc73a3faa48a1870198bfeb6fd9c9422
-    new: fb4b372a00806d0c1b2e5ea82bd9ebfbf7ebce27
-    log: |
-         342d4e9e30a056cfd47564b29d70ba44dc63a1e7 fs: jfs: fix shift-out-of-bounds in dbDiscardAG
-         4d4cd6fc4988cac4cc397cd58759a69f461157eb ACPICA: Fix error code path in acpi_ds_call_control_method()
-         edb7224f32ef1fc36af493bfe950c1407cc18c03 proc/vmcore: fix potential memory leak in vmcore_init()
-         db8c989ac6ac1bf99dec1901ce1f5f57cb30d6d1 nilfs2: fix shift-out-of-bounds/overflow in nilfs_sb2_bad_offset()
-         3cea0db35b934a107906e957f800d38ebeda2728 acct: fix potential integer overflow in encode_comp_t()
-         fb4b372a00806d0c1b2e5ea82bd9ebfbf7ebce27 hfs: fix OOB Read in __hfs_brec_find
-         
-  - ref: refs/heads/for-greg/4.19-101
-    old: 5e2af6b9153e4aae5f11efbd0ceb1c2120f185c0
-    new: 83b4f6476c76372a0d806275b7a936830f4c7dda
-    log: |
-         da3c194fde604330d215518b2f571a49863bbc25 fs: jfs: fix shift-out-of-bounds in dbDiscardAG
-         002c6c38f11e10c6fd04d92761bd84134632209e ACPICA: Fix error code path in acpi_ds_call_control_method()
-         98e3784c157d12dcef1653fa3d0be54f9db92661 proc/vmcore: fix potential memory leak in vmcore_init()
-         22704ee2aedf385d59aa4f3f674b43c7e9b75638 nilfs2: fix shift-out-of-bounds/overflow in nilfs_sb2_bad_offset()
-         52ec736120d1e577020bb7148a552acff09aada4 acct: fix potential integer overflow in encode_comp_t()
-         83b4f6476c76372a0d806275b7a936830f4c7dda hfs: fix OOB Read in __hfs_brec_find
-         
-  - ref: refs/heads/for-greg/4.9-101
-    old: df255643adeb774adf92c86f935eb89a4b35d598
-    new: 2f7effaf5e81adee9783c9ef586fe0d095af51d0
-    log: |
-         158be38eca2d03d652e0a36b376daf87786210e9 fs: jfs: fix shift-out-of-bounds in dbDiscardAG
-         1d84878168eddcc36be5e1adbf4d147cfe1efa02 ACPICA: Fix error code path in acpi_ds_call_control_method()
-         a6e0c2a1597dd1926ba7fa485aac43c5d2dff9b1 proc/vmcore: fix potential memory leak in vmcore_init()
-         16d6c5ca693ea2f7512eab3f0b20e44fb951ad01 nilfs2: fix shift-out-of-bounds/overflow in nilfs_sb2_bad_offset()
-         fa8425c86758673f6c017ae2a798852d2e0a49a8 acct: fix potential integer overflow in encode_comp_t()
-         2f7effaf5e81adee9783c9ef586fe0d095af51d0 hfs: fix OOB Read in __hfs_brec_find
-         
-  - ref: refs/heads/for-greg/5.10-101
-    old: ffd285d7e4039352383f08dbe9c436c5bd9dba07
-    new: 4ea4e9dc65382ca2ccf180c786cc60b7389ee88a
-    log: |
-         5f5c551f1f6843110aca60d9deaf8b1f445a1a36 fs: jfs: fix shift-out-of-bounds in dbDiscardAG
-         55e55110d6e3e0cacf956e19211085d2c0ec45a4 ACPICA: Fix error code path in acpi_ds_call_control_method()
-         964e9710aad2867c5d2b04184221e917da8fd9d7 proc/vmcore: fix potential memory leak in vmcore_init()
-         25c508ec52053f4fc99a2a02dc71e4ff57de0503 nilfs2: fix shift-out-of-bounds/overflow in nilfs_sb2_bad_offset()
-         73776c47d266d1fbc4599d5c1c6060c5f3f4afc2 nilfs2: fix shift-out-of-bounds due to too large exponent of block size
-         e00f508bb2fb6e6926f3cbc190946d6dcf68475c acct: fix potential integer overflow in encode_comp_t()
-         4ea4e9dc65382ca2ccf180c786cc60b7389ee88a hfs: fix OOB Read in __hfs_brec_find
-         
-  - ref: refs/heads/for-greg/5.15-101
-    old: cdcc79366686d125a0fd49034a4f1e5902df4e9e
-    new: 50e40951f6669b061a1c6927c2067e561cff6b9f
-    log: |
-         f362d459256914a1362b6ee3ca68181c3ae8a740 acct: fix potential integer overflow in encode_comp_t()
-         50e40951f6669b061a1c6927c2067e561cff6b9f hfs: fix OOB Read in __hfs_brec_find
-         
-  - ref: refs/heads/for-greg/5.4-101
-    old: a9e826a43968b9c5125886585e866ff496ea1ee1
-    new: ef5f8581469719dbdc01fdf82f4d5e20c287d1e6
-    log: |
-         6a586fd01e5e280dfa286be18eec879981f6e4ff fs: jfs: fix shift-out-of-bounds in dbDiscardAG
-         2d9c71b5d5ba104838cb3fa648e07151fc9c0b6c ACPICA: Fix error code path in acpi_ds_call_control_method()
-         5a5f274ec03ed23aab3452e2ac33cb4f21302466 proc/vmcore: fix potential memory leak in vmcore_init()
-         4e3bb80459787803760b0928458e1641349c419c nilfs2: fix shift-out-of-bounds/overflow in nilfs_sb2_bad_offset()
-         b7425a3e407993f8b0b6867e7a921df25a7c81a4 ACPI / PCI: fix LPIC IRQ model default PCI IRQ polarity
-         f22dd726edec1b2a1cec90aedaa53b604d81c26d acct: fix potential integer overflow in encode_comp_t()
-         ef5f8581469719dbdc01fdf82f4d5e20c287d1e6 hfs: fix OOB Read in __hfs_brec_find
-         
+  - ref: refs/heads/perf/core
+    old: 2e2d63860d9cb5d285860da7bd46e55b5529797f
+    new: 818448e9cf92e5c6b3c10320372eefcbe4174e4f
+    log: revlist-2e2d63860d9c-818448e9cf92.txt
+
+--===============1566864220483091125==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-2e2d63860d9c-818448e9cf92.txt
+
+3c97d25ceb75fd3e660ba9fcd4c630d0b057a5a2 perf stat: Check existence of os->prefix, fixing a segfault
+955f6def5590ce6ca11a1c1ced0d2d1c95421059 perf record: Add remaining branch filters: "no_cycles", "no_flags" & "hw_index"
+8f4b1e3cebce5d12048409393de751e4d663ce42 perf stat: Fix printing field separator in CSV metrics output
+1849f9f00926c54fa284be3b7f801de8b010572b tools lib api: Add dependency test to install_headers
+47e02b94a4c98dcc8072e56efaae5057174050fa tools lib perf: Add dependency test to install_headers
+5d890591db6bed8ca69bd4bfe0cdaca372973033 tools lib subcmd: Add dependency test to install_headers
+113bb3964297467baeb1fd2c4f86d0a4142e4259 tools lib symbol: Add dependency test to install_headers
+117195d9f8af74c65bf57d9b56f496b5b3655bcb perf stat: Fix multi-line metric output in JSON
+3f81f72d30b46efb614d93f430684c0deb8439b7 perf stat: Fix invalid output handle
+fce9a619145181ca6a41253f7de3df56b1e4ad59 perf util: Make header guard consistent with tool
+5b7a29fb0b7d67e5d40cd6557e073afb6a7466ab perf util: Add host_is_bigendian to util.h
+336b92da1aa4228a664f27972f61e6186f369e79 perf tool: Move pmus list variable to a new file
+9d9b22bedad13d96b34fe005ef44b4523c4eb786 perf test: Add event group test for events in multiple PMUs
+cc2367eebb0c3c5501cddd5823e5feda7b57f706 machine: Adopt is_lock_function() from builtin-lock.c
+616aa32d6f221faa0235d2586ec1706dca70a439 perf build: Fixes for LIBTRACEEVENT_DYNAMIC
+b897613510890d6e92b6a276a20f6c3d96fe90e8 perf stat: Update event skip condition for system-wide per-thread mode and merged uncore and hybrid events
+40769665b63d8c84b5b1c63fee404d4c20cff751 perf jevents: Parse metrics during conversion
+378ef0f5d9d7f4652d7a40e0711e8b845ada1cbd perf build: Use libtraceevent from the system
+4171925aa9f3f7bf57b100238f148b50c45c3b1b tools lib traceevent: Remove libtraceevent
+b9a49f8cb02f08592054b953adcacecd59b7ae4b perf tools: Check if libtracevent has TEP_FIELD_IS_RELATIVE
+232b82d201cbade4f15e243bc0472ac241239d8c perf test: Update event group check for support of uncore event
+167b266bf66c5b93171011ef9d1f09b070c2c537 perf off_cpu: Fix a typo in BTF tracepoint name, it should be 'btf_trace_sched_switch'
+3cad53a6f9cdbafa32ea8413809f23a28734c7c5 perf python: Account for multiple words in CC
+fd507d3e359c7e06d74321cd3d8a5ec8769d05a9 perf lock contention: Add lock_data.h for common data
+eca949b2b4addd941d369d4c2014b87f3c3e203b perf lock contention: Implement -t/--threads option for BPF
+688d2e8de231c54e289b640547af246343732348 perf lock contention: Add -l/--lock-addr option
+22ddcb6b4a62eb97f7d988ac59032b74c64afb20 perf test: Update perf lock contention test
+ab6bd55e9968ff063c0ee28f8941903811dee09a perf cs-etm: Print unknown header version as an error
+fe55ba183264d40d44bfbe71deb148ff64f2ea2d perf cs-etm: Remove unused stub methods
+b00204f5c21ca1bd38b8cb45d12a605b4e60a884 perf cs-etm: Tidy up auxtrace info header printing
+fd63091f2a0317f8943c816acf3ac5f4002adf5c perf cs-etm: Cleanup cs_etm__process_auxtrace_info()
+55c1de9973d665161c1c0c146ff15c6884060e19 perf cs-etm: Print auxtrace info even if OpenCSD isn't linked
+e76aff0523f7d3393f967bc13b10bb04b759abfa perf script: Introduce task analyzer python script
+fdd0f81f0528d55d4362d072c6d6ecc7ecd61def perf script: task-analyzer add csv support
+e8478b84d6ba9ccfac15dfce103062c4fa7ded2f perf test: add new task-analyzer tests
+a8f26192ca769c6b37a04b3ee188f28069fd5d53 perf test: Add ability to test exit code for attr tests
+c3a8f85351b15167d6c8d178656df82ba3c34712 perf test: Add mechanism for skipping attr tests on auxiliary vector values
+ee26adf627e65c8e26b13aa35d5de1875973114f perf test: Add mechanism for skipping attr tests on kernel versions
+9440ebdc333dd12e2344aec8fd3fb7d440f9463c perf test arm64: Add attr tests for new VG register
+caec54705adb73b0015bce4dc781e0d19a91ff18 perf build: Fix python/perf.so library's name
+5f8f95673f68914419e8657b3263736264b40e16 perf evlist: Remove group option.
+c587e77e100fa40eb6af10e00497c67acf493f33 perf stat: Do not delay the workload with --delay
+818448e9cf92e5c6b3c10320372eefcbe4174e4f perf tools: Use "grep -E" instead of "egrep"
+
+--===============1566864220483091125==--
