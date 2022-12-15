@@ -1,23 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Thu, 15 Dec 2022 09:57:37 -0000
-Message-Id: <167109825788.25762.7729238568344718734@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kvalo/ath
+Date: Thu, 15 Dec 2022 10:35:30 -0000
+Message-Id: <167110053004.17857.3324970742806047360@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs-utils
-user: xiang
+repo: pub/scm/linux/kernel/git/kvalo/ath
+user: kvalo
 changes:
-  - ref: refs/heads/experimental
-    old: dfb389b6d22c0612acd48bb4c6a7d30581ae2bd6
-    new: a646f661c04f05d2089cf55395a045e0c4f4d522
+  - ref: refs/heads/master
+    old: 922932ca02191a390f7f52fb6e21c44b50e14025
+    new: 58e4b9df840cad439a4c878f81bc105cac2197a7
     log: |
-         08167e0c260864df37b2f2343265db45f6577573 erofs-utils: replace [l]stat64 by equivalent [l]stat
-         8b88487e20a8fb79942793d2bd8fe9bd2b15ba62 erofs-utils: internal.h: Make LFS mandatory for all usecases
-         a2cd4cc8536f190ee769e5f854d68211db75cb82 erofs-utils: mkfs: support fragment deduplication
-         d648a6992e4d9a96ded28e1492fcf93f67951256 erofs-utils: fix fragmentoff overflow for large packed inode
-         a646f661c04f05d2089cf55395a045e0c4f4d522 erofs-utils: do not deduplicate compressed data for packed inode
+         e787ccaf1fffb3ce7821c970474c7c25c0a5a9df Merge branch 'ath-next'
+         1d6e661cd3958d15bbcf88aedc305fc2293ad99f Merge remote-tracking branch 'mhi/mhi-next'
+         58e4b9df840cad439a4c878f81bc105cac2197a7 Add localversion-wireless-testing-ath
          
+  - ref: refs/tags/ath-202212151034
+    old: 0000000000000000000000000000000000000000
+    new: 58e4b9df840cad439a4c878f81bc105cac2197a7
