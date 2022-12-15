@@ -1,16 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/mm
-Date: Thu, 15 Dec 2022 20:29:42 -0000
-Message-Id: <167113618272.15723.7913232260012183179@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Thu, 15 Dec 2022 20:35:28 -0000
+Message-Id: <167113652809.20527.5278106705324406282@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/mm
-user: akpm
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/tags/mm-everything-2022-12-15-20-29
-    old: 0000000000000000000000000000000000000000
-    new: d7e8229f7d07197ccd4ec967cb3c81077cd1e6f6
+  - ref: refs/heads/dev
+    old: 876c5ac113fa66a64fa241e69d9a2251b8daa5ee
+    new: 33bb97ec03485acc4463ccfc78f834e04e688b85
+    log: |
+         bf2295b4b90b55f43b11cf8ec7a7410474e4e47d rcu/kvfree: Carefully reset number of objects in krcp
+         33bb97ec03485acc4463ccfc78f834e04e688b85 rcu/kvfree: Split ready for reclaim objects from a batch
+         
