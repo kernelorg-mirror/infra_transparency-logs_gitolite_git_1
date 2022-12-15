@@ -1,20 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
-Date: Thu, 15 Dec 2022 05:37:56 -0000
-Message-Id: <167108267601.5396.308243767323472160@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cem/xfsdump-dev
+Date: Thu, 15 Dec 2022 05:54:33 -0000
+Message-Id: <167108367317.16106.17993137431496993304@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf
-user: martin.lau
+repo: pub/scm/linux/kernel/git/cem/xfsdump-dev
+user: cem
 changes:
   - ref: refs/heads/master
-    old: 4121d4481b72501aa4d22680be4ea1096d69d133
-    new: f506439ec3dee11e0e77b0a1f3fb3eec22c97873
+    old: 8b6bbcfdb705d8f10cfdd1a7e9485861b44e79f9
+    new: acb80838d972107ad36755aa98ccca152b0686cf
     log: |
-         1c123c567fb138ebd187480b7fc0610fcb0851f5 bpf: Resolve fext program type when checking map compatibility
-         f506439ec3dee11e0e77b0a1f3fb3eec22c97873 selftests/bpf: Add a test for using a cpumap from an freplace-to-XDP program
+         06dd184d3a689dcb33a50b6e3576e48055e48133 xfsrestore: fix on-media inventory media unpacking
+         65034077ef03c434c09c88d38c4c58ec442cf3c1 xfsrestore: fix on-media inventory stream unpacking
+         7b843fdbbe47ed36117fc0e1fb95e4288f3a9c83 xfsdump: fix on-media inventory stream packing
+         aaaa57f32a605e4ebd2e4230fe036afc009ae0a0 xfsrestore: untangle inventory unpacking logic
+         acb80838d972107ad36755aa98ccca152b0686cf xfsdump: Release 3.1.12
          
