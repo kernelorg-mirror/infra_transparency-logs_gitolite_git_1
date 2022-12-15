@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Thu, 15 Dec 2022 00:15:09 -0000
-Message-Id: <167106330955.19022.17649914499568464922@gitolite.kernel.org>
+Date: Thu, 15 Dec 2022 00:15:34 -0000
+Message-Id: <167106333456.19451.13778651298275516730@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/docs/man-pages/man-pages
 user: alx
 changes:
-  - ref: refs/heads/string
-    old: 0000000000000000000000000000000000000000
-    new: 5d8a0c4862bc6a7520ec6d1490cf63723d529954
+  - ref: refs/heads/string_copy
+    old: c289cab583e2b2daf9bac3d1f3309b406f6df054
+    new: 0000000000000000000000000000000000000000
