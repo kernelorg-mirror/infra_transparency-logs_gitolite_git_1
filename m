@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1863500257909027790=="
+Content-Type: multipart/mixed; boundary="===============4398456542630761939=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Fri, 16 Dec 2022 13:46:02 -0000
-Message-Id: <167119836249.26147.16150247480090274134@gitolite.kernel.org>
+Date: Fri, 16 Dec 2022 13:46:20 -0000
+Message-Id: <167119838043.26413.13496350409964745403@gitolite.kernel.org>
 
---===============1863500257909027790==
+--===============4398456542630761939==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
-  - ref: refs/heads/perf/core
+  - ref: refs/heads/tmp.perf/core
     old: 818448e9cf92e5c6b3c10320372eefcbe4174e4f
     new: 4ff17c448a7b0f437a17622d67f1c5c609c3a0e9
     log: revlist-818448e9cf92-4ff17c448a7b.txt
 
---===============1863500257909027790==
+--===============4398456542630761939==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ fe36bb8736ee9e38fa6173e1271ed8c5cf7bc907 Merge tag 'trace-v6.2' of git://git.ker
 1a931707ad4a46e79d4ecfee56d8f6e8cc8d4f28 Merge remote-tracking branch 'torvalds/master' into perf/core
 4ff17c448a7b0f437a17622d67f1c5c609c3a0e9 libperf: Fix install_pkgconfig target
 
---===============1863500257909027790==--
+--===============4398456542630761939==--
