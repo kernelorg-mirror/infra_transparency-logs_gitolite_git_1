@@ -1,22 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Fri, 16 Dec 2022 10:23:13 -0000
-Message-Id: <167118619370.22514.18050672878628700104@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pavel/linux-leds
+Date: Fri, 16 Dec 2022 10:27:44 -0000
+Message-Id: <167118646463.25363.480385885502079491@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: davem
+repo: pub/scm/linux/kernel/git/pavel/linux-leds
+user: pavel
 changes:
-  - ref: refs/heads/master
-    old: 32f1002ed4851d9eb28ea1aba58757bd4b66e63b
-    new: 3e31d209ed5fceb4a50118accd461b3b9b13e589
-    log: |
-         b4cafb3d2c740f8d1b1234b43ac4a60e5291c960 devlink: hold region lock when flushing snapshots
-         2fc60e2ff972d3dca836bff0b08cbe503c4ca1ce selftests: devlink: fix the fd redirect in dummy_reporter_test
-         d1c4a3469e73730f7cbbcec661c2a9081af1aa45 selftests: devlink: add a warning for interfaces coming up
-         3e31d209ed5fceb4a50118accd461b3b9b13e589 Merge branch 'devlink-fixes'
-         
+  - ref: refs/tags/leds-6.2-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 15412ec9164935037a1b2ae69f6f3a8a6743826b
