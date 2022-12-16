@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netfilter/nf-next
-Date: Fri, 16 Dec 2022 10:39:18 -0000
-Message-Id: <167118715816.31951.13011643051523618895@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Fri, 16 Dec 2022 10:39:22 -0000
+Message-Id: <167118716264.32017.18102596525802374786@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netfilter/nf-next
-user: fwestphal
+repo: pub/scm/linux/kernel/git/netdev/net
+user: davem
 changes:
-  - ref: refs/heads/testing
-    old: 886e152d00990e43204871b12cb73975b92e5011
-    new: 716ad90d499b6a3c1c84c2b2b2a658f90ac7457b
+  - ref: refs/heads/master
+    old: 3e31d209ed5fceb4a50118accd461b3b9b13e589
+    new: 68bb10101e6b0a6bb44e9c908ef795fc4af99eae
     log: |
-         b8c45c303165d65e99868d2edcad0658cbf3e386 netfilter: conntrack: remove pr_debug calls
-         b16b5735c0cb9d7d8215cc1ec4127c2b174c69df netfilter: conntrack: avoid reload of ct->status
-         716ad90d499b6a3c1c84c2b2b2a658f90ac7457b netfilter: conntrack: avoid refetch of ct->status
+         68bb10101e6b0a6bb44e9c908ef795fc4af99eae openvswitch: Fix flow lookup to use unmasked key
          
