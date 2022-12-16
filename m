@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4554008002903119684=="
+Content-Type: multipart/mixed; boundary="===============3872994577966830528=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Fri, 16 Dec 2022 18:53:11 -0000
-Message-Id: <167121679138.29447.8152062350572921515@gitolite.kernel.org>
+Date: Fri, 16 Dec 2022 18:53:34 -0000
+Message-Id: <167121681455.29634.803745016036337120@gitolite.kernel.org>
 
---===============4554008002903119684==
+--===============3872994577966830528==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,22 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/robh/linux
 user: robh
 changes:
-  - ref: refs/heads/dt/next
-    old: 580f9896e088b399fc79f1421e56a1b68f0450b5
+  - ref: refs/heads/dt/linus
+    old: 60d865bd5a9b15a3961eb1c08bd4155682a3c81e
     new: 3367934dd3035afa72ac79ae649f142a530df157
-    log: revlist-580f9896e088-3367934dd303.txt
+    log: revlist-60d865bd5a9b-3367934dd303.txt
 
---===============4554008002903119684==
+--===============3872994577966830528==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-580f9896e088-3367934dd303.txt
+Content-Disposition: attachment; filename=revlist-60d865bd5a9b-3367934dd303.txt
 
-6b5cbc8c4ec71e49dc8d2c393b105e8007a02b41 ice: Use more generic names for ice_ptp_tx fields
-0357d5cab8e497517d19b745d386573b97e2bc4b ice: Remove the E822 vernier "bypass" logic
-407b66c07e9837cd11564746faaac4f32a0c5c5b ice: Reset TS memory for all quads
-11722c39c8d91cfb97197f8f5e2d45c9ebf27bb6 ice: fix misuse of "link err" with "link status"
-6b1ff5d392283b737abc038f7ab1509d9b8311c7 ice: always call ice_ptp_link_change and make it void
 0dd9286263923860a1829778e232a501b49c485f ice: handle discarding old Tx requests in ice_ptp_tx_tstamp
 10e4b4a3a3e1b7007a72988bb0a7c741b19d90d7 ice: check Tx timestamp memory register for ready timestamps
 f0ae124019faaa03f8b4c3fbe52ae35ab3a8dbda ice: synchronize the misc IRQ when tearing down Tx tracker
@@ -264,6 +259,8 @@ d6c55c0a20e5059abdde81713ddf6324a946eb3c iommufd: Change the order of MSI setup
 d69e8c63fcbbf695ff7ff2c6d26efead23cfbb3a Merge tag 'v6.1-rc8' into rdma.git for-next
 3282a549cf9b300e2d1b007925ed007ab24e4131 RDMA/rxe: Fix oops with zero length reads
 6ff8ca3f93d3cd2a77f051d2d971cf3638d39546 riscv: mm: call best_map_size many times during linear-mapping
+0bf99c1f066cef596b6fa668676ccba09f86fea1 media: dt-bindings: atmel,isc: Drop unneeded unevaluatedProperties
+03871060e458e1d8bdc37a245c22ba842000c87b dt-bindings: lcdif: Fix constraints for imx8mp
 ee9ef11bd2a59c2fefaa0959e5efcdf040d7c654 MIPS: BCM63xx: Add check for NULL for clk in clk_enable
 4c587a982603d7e7e751b4925809a1512099a690 MIPS: OCTEON: warn only once if deprecated link status is being used
 4c6874374859d89aa6a75019bb0a913369e472c9 rtla: Fix exit status when returning from calls to usage()
@@ -419,6 +416,9 @@ d92b86f672a42d9d74a24a63a1e59793c4116830 Merge tag 'iommu-fix-v6.1-rc8' of git:/
 672825cd2823a0cee4687ce80fef5b702ff3caa3 i3c: export SETDASA method
 08dcf0732cb4d97b85493d9f60470e48eebf87fe MAINTAINERS: mark I3C DRIVER FOR SYNOPSYS DESIGNWARE orphan
 830b3c68c1fb1e9176028d02ef86f3cf76aa2476 Linux 6.1
+ee9d7a0e754568180a2f8ebc4aad226278a9116f of: overlay: fix null pointer dereferencing in find_dup_cset_node_entry() and find_dup_cset_prop()
+121164481b79d93824eed464117d331a002f5d75 dt-bindings: leds: intel,lgm: Add missing 'led-gpios' property
+580f9896e088b399fc79f1421e56a1b68f0450b5 dt-bindings: leds: Add missing references to common LED schema
 ff39899be80b9d90d5e13775eb9fd150338b6e15 exfat: simplify empty entry hint
 e298c8a818a3e517582e60c412f4a41b3a1647c5 exfat: hint the empty entry which at the end of cluster chain
 f83d8a3b532097276266b5e81073ea46e27b17ab exfat: reduce the size of exfat_entry_set_cache
@@ -1051,4 +1051,4 @@ a612130ca1a650b0ba3599fc3199143eb9e7060d dt-bindings: drop redundant part of tit
 33cd7c6fffa3c546b3fce3b000d4b83f88c01e0d dt-bindings: clock: drop redundant part of title
 3367934dd3035afa72ac79ae649f142a530df157 dt-bindings: drop redundant part of title (manual)
 
---===============4554008002903119684==--
+--===============3872994577966830528==--
