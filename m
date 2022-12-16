@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Fri, 16 Dec 2022 14:04:17 -0000
-Message-Id: <167119945740.4309.3711072262561624946@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Fri, 16 Dec 2022 14:28:12 -0000
+Message-Id: <167120089275.20094.2790347313988722379@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
-user: maz
+repo: pub/scm/linux/kernel/git/acme/linux
+user: acme
 changes:
-  - ref: refs/heads/irq/msi-fixes-6.2
-    old: 87f3ef87d42b89cbdd0a815daf3d837ddcbbde7c
-    new: e982ad82bd8f7931f5788a15dfa3709f7a7ee79f
-    log: |
-         e982ad82bd8f7931f5788a15dfa3709f7a7ee79f genirq/msi: Return MSI_XA_DOMAIN_SIZE as the maximum MSI index when no domain is present
-         
+  - ref: refs/tags/perf-tools-for-v6.2-1-2022-12-16
+    old: 0000000000000000000000000000000000000000
+    new: ba16694565f143ad2b6153b499214846c7a8e34d
