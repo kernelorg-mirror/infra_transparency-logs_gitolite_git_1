@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Sat, 17 Dec 2022 17:59:29 -0000
-Message-Id: <167129996929.26282.2569804603966833999@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/deller/parisc-linux
+Date: Sat, 17 Dec 2022 18:09:15 -0000
+Message-Id: <167130055533.32236.13507948523880841874@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
-user: maz
+repo: pub/scm/linux/kernel/git/deller/parisc-linux
+user: deller
 changes:
-  - ref: refs/heads/kvm-arm64/nv-6.2-WIP
-    old: 0000000000000000000000000000000000000000
-    new: 213c32ffea2baa76f86a36f11c2126368f57914b
+  - ref: refs/heads/for-next
+    old: 887e813357319f5b9c34429307d6d4ea68f688f5
+    new: 0000000000000000000000000000000000000000
