@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8245838730061531221=="
+Content-Type: multipart/mixed; boundary="===============0184422497543582189=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Sat, 17 Dec 2022 14:30:43 -0000
-Message-Id: <167128744341.22824.2273501347253354846@gitolite.kernel.org>
+Date: Sat, 17 Dec 2022 14:39:09 -0000
+Message-Id: <167128794908.26824.1980848629792958443@gitolite.kernel.org>
 
---===============8245838730061531221==
+--===============0184422497543582189==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,27 +16,31 @@ repo: pub/scm/linux/kernel/git/torvalds/linux
 user: torvalds
 changes:
   - ref: refs/heads/master
-    old: ed56954cf5a8b7abb530676a073d14f9de661d69
-    new: 75caf5940899a33165fb3d521492f3cd6b20c9a7
-    log: revlist-ed56954cf5a8-75caf5940899.txt
+    old: 75caf5940899a33165fb3d521492f3cd6b20c9a7
+    new: b611996ef270a88ebb350c82832c4d76913887e9
+    log: revlist-75caf5940899-b611996ef270.txt
 
---===============8245838730061531221==
+--===============0184422497543582189==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ed56954cf5a8-75caf5940899.txt
+Content-Disposition: attachment; filename=revlist-75caf5940899-b611996ef270.txt
 
-38bcb51f81af17a6d40fc135e565fc1fb8aa8e9d leds-pca955x: Remove the unused function pca95xx_num_led_regs()
-fb0f4051ee8e0ae89697e417f1a547e715acc824 leds: lp55xx: remove variable j
-57d91e039070faa938622d28093ba1d031e29b3b leds: max8997: Don't error if there is no pdata
-3031993b3474794ecb71b6f969a3e60e4bda9d8a led: qcom-lpg: Fix sleeping in atomic
-5f52a8ba7e91215c3d046d298fb328d1b9f7897d dt-bindings: leds: Add 'cpuX' to 'linux,default-trigger'
-17c13c724b143c835fe3a9109daab524dff3d06f leds: lp5523: fix out-of-bounds bug in lp5523_selftest()
-447242e1292e8aa22e1371110867b9c543bf0373 MAINTAINERS: Add additional co-maintainer to LEDs
-135780f1048b3f956f5b10bb23dec9c2d2c4ef6d leds: is31fl319x: Fix setting current limit for is31fl319{0,1,3}
-3f6fb1cfaf30d0d701d877ffacfd88dd6bcc5841 leds: use sysfs_emit() to instead of scnprintf()
-6afd8bd5db7c5f734f24a2df8c1093df9f2ec38f leds: qcom,pm8058-led: Convert to DT schema
-7cb092a0336c5770656c6742e7a7ce3042c8c44e leds: MAINTAINERS: include dt-bindings headers
-75caf5940899a33165fb3d521492f3cd6b20c9a7 Merge tag 'leds-6.2-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/pavel/linux-leds
+28927f6c483d4a4c9ba8050f2a0e5af1b3557105 watchdog: mtk_wdt: Add support for MT6795 Helio X10 watchdog and toprgu
+52f46a6aea59caf63798b2dd09050d4806398890 dt-bindings: watchdog: Add compatible for MediaTek MT8188
+fea58041af4c1a8ac2e8b461a772599e205d0d1f dt-bindings: reset: mt8188: add toprgu reset-controller header file
+bc7313652a6370df2f73e146483abfa5a69b85cf watchdog: mediatek: mt8188: add wdt support
+4d1363a46cdfcc00460adf1f0fcb81bb5ba69d94 dt-bindings: watchdog: mediatek: Convert mtk-wdt to json-schema
+c389e1f5068f13aa9891fead50dc83a747426bc6 dt-bindings: watchdog: mediatek,mtk-wdt: Add compatible for MT6795
+1d8e67ecf114ef4140a1df7f1581e0e2cab6739a dt-bindings: watchdog: mediatek,mtk-wdt: Add compatible for MT8173
+08435c2aab3aea369182bdec3c71ab78b15f8c82 watchdog: Add Advantech EC watchdog driver
+b49e2a3cfb84290b878999ade1410a3edb65706c watchdog: at91rm9200: Remove #ifdef guards for PM related functions
+d36eda79c600518fb6bc8ad9e3f2f5f201ec1fb9 watchdog: twl4030: Remove #ifdef guards for PM related functions
+0327476d6ef32c347e1590e6215616adc847afe1 watchdog: omap: Remove #ifdef guards for PM related functions
+758f46c2e67c4901ea49e684e12adb698b1b2bbd watchdog: kempld: Remove #ifdef guards for PM related functions
+47c008050aec3e9a13af29dd74cd8b4c112bc07b watchdog: rn5t618: add support for read out bootstatus
+ef9b7bf52c2f47f0a9bf988543c577b92c92d15e watchdog: iTCO_wdt: Set NO_REBOOT if the watchdog is not already running
+9ec0b7e06835b857f892feb2fe6121db1393425d watchdog: aspeed: Enable pre-timeout interrupt
+b611996ef270a88ebb350c82832c4d76913887e9 Merge tag 'linux-watchdog-6.2-rc1' of git://www.linux-watchdog.org/linux-watchdog
 
---===============8245838730061531221==--
+--===============0184422497543582189==--
