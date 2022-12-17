@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/perfbook
-Date: Sat, 17 Dec 2022 05:16:25 -0000
-Message-Id: <167125418576.12973.3643947087418273974@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Sat, 17 Dec 2022 05:17:36 -0000
+Message-Id: <167125425676.13355.12606091632355444067@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/perfbook
-user: paulmck
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
   - ref: refs/heads/master
-    old: f59c468b212e66597c8f0c594839da53ccd1e949
-    new: afbf53dc158b5966bb25930458f23b8e19e0198b
+    old: 078838f5b9c9203e94d7724f997392ea8012ea6a
+    new: 214964a13ab56a9757d146b79b468a7ca190fbfb
     log: |
-         afbf53dc158b5966bb25930458f23b8e19e0198b advsync/rt: Fold long list in \cite{}
+         214964a13ab56a9757d146b79b468a7ca190fbfb devlink: protect devlink dump by the instance lock
          
