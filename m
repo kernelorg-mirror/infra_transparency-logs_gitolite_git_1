@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Sat, 17 Dec 2022 14:44:27 -0000
-Message-Id: <167128826717.30065.5426775601341850635@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/joro/iommu
+Date: Sat, 17 Dec 2022 14:46:44 -0000
+Message-Id: <167128840405.1380.11759718799618569141@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
-user: acme
+repo: pub/scm/linux/kernel/git/joro/iommu
+user: joro
 changes:
-  - ref: refs/heads/perf/urgent
-    old: 77856d911a8c8724ee8e2b09d55979fc1de8f1c0
-    new: 71c2c68e4fadc9019d727bdcf54490c438d59cdb
-    log: |
-         71c2c68e4fadc9019d727bdcf54490c438d59cdb perf python: Don't stop building if python setuptools isn't installed
-         
+  - ref: refs/heads/pull-test
+    old: 0000000000000000000000000000000000000000
+    new: b611996ef270a88ebb350c82832c4d76913887e9
+  - ref: refs/tags/iommu-updates-v6.2
+    old: 0000000000000000000000000000000000000000
+    new: 64c04c372f92a2dce1a2a2793d7706df293dea4c
