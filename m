@@ -1,23 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Sat, 17 Dec 2022 01:00:02 -0000
-Message-Id: <167123880278.8814.777152620543635264@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Sat, 17 Dec 2022 01:23:48 -0000
+Message-Id: <167124022881.23544.2385461132567477992@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: jgg
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/tags/for-linus
-    old: 7e4b2132bde973cd4609fd0a6a6882eb48641f47
-    new: 72e14459cf1220ed0558d1b94babb39bf0628221
+  - ref: refs/heads/dev
+    old: 2ba735f8f4c5e4bea5b07d6c777d1a728cc554dd
+    new: b99e4fd99dcc3da86988dcc930a2670387677788
     log: |
-         5fc24e6022d47c19d92fb8b84c1616754ef6fdb2 RDMA/rxe: Fix compile warnings on 32-bit
-         5244ca88671a1981ceec09c5c8809f003e6a62aa RDMA/siw: Fix pointer cast warning
+         d679b910ac766eea8786d3cc57cfc5962ddc10a5 rcu: Suppress smp_processor_id() complaint in synchronize_rcu_expedited_wait()
+         4a46da57ea18c305ca96516142b9f473af4f80de x86/nmi: Accumulate NMI-progress evidence in exc_nmi()
+         67f60711bd233b36fc0eb50244be4089ce7d346e x86/nmi: Print reasons why backtrace NMIs are ignored
+         b99e4fd99dcc3da86988dcc930a2670387677788 rcu: Make rcu_blocking_is_gp() stop early-boot might_sleep()
          
-  - ref: refs/tags/v6.1
-    old: 0000000000000000000000000000000000000000
-    new: 7614896350aa20764c5eca527262d9eb0a57da63
