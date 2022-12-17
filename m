@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
-Date: Sat, 17 Dec 2022 02:58:28 -0000
-Message-Id: <167124590844.19426.9740244058284940242@gitolite.kernel.org>
+Date: Sat, 17 Dec 2022 03:31:08 -0000
+Message-Id: <167124786894.8718.7337824551812876430@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,8 @@ repo: pub/scm/linux/kernel/git/palmer/linux
 user: palmer
 changes:
   - ref: refs/heads/not-for-next
-    old: 0dea4f3c1f5f522cc56a855735118fa32b131534
-    new: 706de74c7a8f4043759a2d3849b1ad64dff06609
+    old: 706de74c7a8f4043759a2d3849b1ad64dff06609
+    new: 608dde20ca1030950b7a801a25cc474305bbeec0
     log: |
-         39108ddfa4700e0934b3a87372130aad92827bc8 media: sun6i-csi: bridge: Error out on invalid port to fix warning
-         706de74c7a8f4043759a2d3849b1ad64dff06609 media: sun6i-isp: capture: Fix uninitialized variable use
+         608dde20ca1030950b7a801a25cc474305bbeec0 media: sun6i-isp: proc: Error out on invalid port to fix warning
          
