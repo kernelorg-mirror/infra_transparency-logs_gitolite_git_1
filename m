@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8059002167266118499=="
+Content-Type: multipart/mixed; boundary="===============8992609126759461712=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Sun, 18 Dec 2022 15:00:00 -0000
-Message-Id: <167137560017.9512.1245642223926402450@gitolite.kernel.org>
+Date: Sun, 18 Dec 2022 15:00:05 -0000
+Message-Id: <167137560514.11188.823021364551287258@gitolite.kernel.org>
 
---===============8059002167266118499==
+--===============8992609126759461712==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
+  - ref: refs/heads/staging-linus
     old: eb7081409f94a9a8608593d0fb63a1aa3d6f95d8
     new: f9ff5644bcc04221bae56f922122f2b7f5d24d62
     log: revlist-eb7081409f94-f9ff5644bcc0.txt
 
---===============8059002167266118499==
+--===============8992609126759461712==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1671375565 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1671375604 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1671375564-2008d403b5caa8332a33d9740f65dc2743054431
+nonce 1671375603-aee2111b8db48241ae7b2bb00723e415709e2ac8
 
-eb7081409f94a9a8608593d0fb63a1aa3d6f95d8 f9ff5644bcc04221bae56f922122f2b7f5d24d62 refs/heads/main
+eb7081409f94a9a8608593d0fb63a1aa3d6f95d8 f9ff5644bcc04221bae56f922122f2b7f5d24d62 refs/heads/staging-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmOfKs0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+IT0P/RCrSl4rjEZaQ1oxpqAw
-0+Yy1DfKMD8a982xptPCEUeIvpfV+2Ka1BP3tDc3KR8T8ASxPE36JKVzAolZalYW
-NxRvFzmaFgEw6uwrXsU3J/nJX3VFRY4Qis+WAxz7GuMO82GTQGrRezbrja93MVXt
-G+QJj9ymgGBRpZExUi+vLTuULk8hD4O53OE0AWVPo5G0yg73GWvcCfBJAfXlZy7m
-M1QSa33a+F5L7WKOB6v3SXNIiG1AnUl2/P4BCuRc/piWVpVeFg8ajzEX6A/uS8oI
-W9DtmMOw0kpr8jLshC20luCQkj+ueFUfbVCykDsrxMrYNfXQ8rUjuoYt+uko2+aa
-R3HdUchpZ02Uwu0dXnEJSFJmjTB6CklY6PHoTWF2P8SL/Qbe8fEIlC1aquly6//G
-GFjM4Ii5HfHBP/6kL2nzjj9CojIHYqbY0bdNrygnfs4vxfqWQf+nMGtisgiKF8PB
-32PI8oL1xNkD7e+EYuq8J10sV4RRWx2+ugaduGBy5WYHmvxaadm5kWBfKyHoILba
-2QLP4lYeW6A3PFA35xg9hvBlzxN/c4NGlDB7U9eSea8nQZnlxAOJkLD/IJ6i6yND
-DmjzBkcMLXyIAZVYkv/yeuvUIyNIFQNFe9Wo7IZ5V0HgBmE/i0vyhfYtNV0NV0VW
-j0UlEvK/v3faqOpQI0Jjv0QJ
-=SDQ/
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmOfKvQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Ra0QANK4kAE78Koy+TlzNeJS
+iTqlz/UVWD+EOZFNGXKaM1YmsOsS4izPzRrJmtI8kRE2nps7TlQMfqReNWBw9moX
+oD8WmowpLIOXS6I8g+N4LcM+05ZEWVpvEPUex5SE9Mo/lX+cthAY1K0LJ92IrxsQ
+tqsgT2IZevcTR0alLZD/wJdmeICNv/30D8qlwbT1Ay3isBCtoLM5gyfWS5I7TbHA
+0L8zAYJwUQ3t+a3/GflDVa31cg4gNlBXpwPWpzSW6iG/3tJBBcEaxv7i+abEo9h0
+fIEjWjUZzImgZ9Cvd3T6idFPtox62rJI47DWxgrH/dS02WJbN1Sej/1flFOEt/PP
+tgc8bGBxfvKC2c58LdUH7gzPYhCnVvWqH2IZbPApGwVlvGUtulRd+waQTka4wAzd
+U3dreNg3xqCOehy6rgswpjM12gHePuRqOyVllR1LnODuFESObPZPaqcx69qYLxKt
+I14Z9ozjMF0G5GyIjqQ8wmDgz3LtFjCCg1+AY971GP7m/5pPRr3xzqLcUIVGDJbr
+poNOzua3BXufbLyQ/fpjju/ifMkpaafd1xZsZSzcphSWQCO7Ew0xCkSzXsJ5FN5o
+bA2bvUjavXPz+OvJfpnyXl7O8gmfqp3Q/FNze68LLcPza8g/53Mc5NKPoKTsG2ML
+a9hephYxfXq98SWAK3qW1o4B
+=zyFP
 -----END PGP SIGNATURE-----
 
---===============8059002167266118499==
+--===============8992609126759461712==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1082,4 +1082,4 @@ b611996ef270a88ebb350c82832c4d76913887e9 Merge tag 'linux-watchdog-6.2-rc1' of g
 b220f31147d7b5b504c1d27ae0d631f5bb1964af Merge tag 'for-v6.2' of git://git.kernel.org/pub/scm/linux/kernel/git/sre/linux-power-supply
 f9ff5644bcc04221bae56f922122f2b7f5d24d62 Merge tag 'hsi-for-6.2' of git://git.kernel.org/pub/scm/linux/kernel/git/sre/linux-hsi
 
---===============8059002167266118499==--
+--===============8992609126759461712==--
