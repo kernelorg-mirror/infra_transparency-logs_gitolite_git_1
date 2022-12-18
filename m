@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/network/wireless/iwd
-Date: Sun, 18 Dec 2022 19:51:17 -0000
-Message-Id: <167139307727.3245.78203121015738268@gitolite.kernel.org>
+Date: Sun, 18 Dec 2022 19:58:57 -0000
+Message-Id: <167139353782.7259.2804786979288524463@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/network/wireless/iwd
 user: holtmann
 changes:
   - ref: refs/heads/master
-    old: cf6c958a97f3cd713ad86b65ed5d2fe61f5e881a
-    new: 14d9bdbd9a486cf30cb90a9c344b90763a4637ca
+    old: 14d9bdbd9a486cf30cb90a9c344b90763a4637ca
+    new: 5042c8e9249228f6558280b47cf5aa31bd8fc2ac
     log: |
-         14d9bdbd9a486cf30cb90a9c344b90763a4637ca build: Require at least version 0.55 when building with external ELL
+         5042c8e9249228f6558280b47cf5aa31bd8fc2ac Release 2.1
          
