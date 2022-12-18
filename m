@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5989040728544128880=="
+Content-Type: multipart/mixed; boundary="===============8834415601659397055=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Sun, 18 Dec 2022 13:08:43 -0000
-Message-Id: <167136892349.1642.9020831162987620140@gitolite.kernel.org>
+Date: Sun, 18 Dec 2022 13:08:48 -0000
+Message-Id: <167136892860.1719.7990724241663632462@gitolite.kernel.org>
 
---===============5989040728544128880==
+--===============8834415601659397055==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-next
+  - ref: refs/heads/char-misc-testing
     old: f361c96c75184d0272572087c7d9874e0f64b870
     new: f9ff5644bcc04221bae56f922122f2b7f5d24d62
     log: revlist-f361c96c7518-f9ff5644bcc0.txt
 
---===============5989040728544128880==
+--===============8834415601659397055==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1671368922 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1671368927 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1671368921-24d85de706b6a0df36bc0c2beee3ee00e707c34f
+nonce 1671368926-f6a004b08e0870ecb4f6c6ceb5861728aa76a3dc
 
-f361c96c75184d0272572087c7d9874e0f64b870 f9ff5644bcc04221bae56f922122f2b7f5d24d62 refs/heads/char-misc-next
+f361c96c75184d0272572087c7d9874e0f64b870 f9ff5644bcc04221bae56f922122f2b7f5d24d62 refs/heads/char-misc-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmOfENobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+1o8QAKGK/CIc5slQaiZ7wR2R
-mZ0j4iBayyMXd3Dez95qBgV3DOgbcZ+BOTfOBzCmwtmAv0vKKZvU3IqZGLlll/cl
-SEKec+hUSARwJP3hN3Yc6j615cf1M2qxitxj97PYwF6ixeT+saV2DODP9HBfNWe8
-c/tRekgT3WXXU2qcrv3fl+G2JN3IvxfFMtDG/ZKYx/xlXZYf7Oma2pCrWUr2go7E
-GVGN2Hp16ZCFcVhr7MCsfArmPmn28n0gdnCrvs06mV82B1mRaML+SYlbzfnXB2It
-4dhwvjY7icWRwnNqcsMy7s/RfS3QYsg9qBs6b8Tpk7EMwOah0TIOXFXPWZC5MAq5
-WExJ2E2xryzMcPuZXu2cxM91FLjUZ/9aQTzSK6kUkyYNNqUE1N7U1g8s7aD/D/Gi
-2VZhNNoeCshKaYOlg9Dr08CdRIgMqQ9iD8HqQBE+tomLhV+l+9NvacDKEh4raVwn
-gKtOxgHKP7i3HWpDQuQgkkAptmfe+uASAiQrso9Kg/ndBo2OCs/WUme4MgfXbyFr
-kl2oxMhZDfOaM6UolwWL6gaZkVZ+cxZ7RfkyqgonR0kocVhIv9vK+niN9v2aprIG
-NZZs5I5R6UQwzYpXEb2g4NyMqzQGow61XK+GLm/DO2ZVzKfRi9VluivJ90efZsN1
-jswbxWvXjuwFk02a/feAcwpG
-=1yPg
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmOfEN8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+wPAQAJVJnWNneECd3t1cOcJM
+veJ0FBjlLhXChuLuZSpr4cfVHC+O0xJm7XZsKn4l7BfQa/PDg8Q5Q8ZvUAzMPCsr
+F+78/rPJj64VtA3IY8i2SdUC4BLHfIekrhXwLdr4jfZVtCAHpd3XwAtzg2+ZPHud
+Q0rK7u202zX8EhngCiT3/H3fcnriU4XctldHyYM2xCJ0m19yMBCKbVG0uWu1ltpk
+XtxbOQIe0xfFjFyYacPeWxF44FW9lu9pGdl2+oa73RSHPeBZNLO0iTzygjLsAZzW
+kNMl0fJXluTRk6egb9l6g52WvncJsAOcnjfeQFvg1LnwhNcDFUHVkm4UW7kvH2kt
+ls2wHJLimWOp1BQAHBAxEI7qupO4LkSWNn7SNlpTa70qP2hb2frysTydf46RzLY4
+XNibm8wSWdTne59ZI7C3IQihyndsvvZldmF9W9mwDNS0nIb7mA751ZJGo23ngnCF
+PrTIClFQ1nLBUw5KK8DkrIDMmJ38QslmQWkfEPIB72GeCYlTuagsUVaasIZLUNpX
+frLNVWv5sl5TOhnmYbPcLPSFW7zgLaf45fDJLd/56B+3gdzrj2drqdIXjqPWGXO1
+pY3nKsyqwE7hC/mnUc5R/t0/FLmjFTbbiCnFrk1xxobCU/X7C8XS+qOH8k6KTQyl
+zTrVKefNt3ZlcLk8wjK3Uwq/
+=cabe
 -----END PGP SIGNATURE-----
 
---===============5989040728544128880==
+--===============8834415601659397055==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1082,4 +1082,4 @@ b611996ef270a88ebb350c82832c4d76913887e9 Merge tag 'linux-watchdog-6.2-rc1' of g
 b220f31147d7b5b504c1d27ae0d631f5bb1964af Merge tag 'for-v6.2' of git://git.kernel.org/pub/scm/linux/kernel/git/sre/linux-power-supply
 f9ff5644bcc04221bae56f922122f2b7f5d24d62 Merge tag 'hsi-for-6.2' of git://git.kernel.org/pub/scm/linux/kernel/git/sre/linux-hsi
 
---===============5989040728544128880==--
+--===============8834415601659397055==--
