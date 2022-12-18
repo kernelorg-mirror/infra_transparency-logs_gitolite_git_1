@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8898437252586198851=="
+Content-Type: multipart/mixed; boundary="===============5989040728544128880=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Sun, 18 Dec 2022 13:08:38 -0000
-Message-Id: <167136891829.1532.7322073827825760476@gitolite.kernel.org>
+Date: Sun, 18 Dec 2022 13:08:43 -0000
+Message-Id: <167136892349.1642.9020831162987620140@gitolite.kernel.org>
 
---===============8898437252586198851==
+--===============5989040728544128880==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-linus
-    old: b7b275e60bcd5f89771e865a8239325f86d9927d
+  - ref: refs/heads/char-misc-next
+    old: f361c96c75184d0272572087c7d9874e0f64b870
     new: f9ff5644bcc04221bae56f922122f2b7f5d24d62
-    log: revlist-b7b275e60bcd-f9ff5644bcc0.txt
+    log: revlist-f361c96c7518-f9ff5644bcc0.txt
 
---===============8898437252586198851==
+--===============5989040728544128880==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1671368917 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1671368922 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1671368916-7d470bdd171af8a4638abb8106c0562e40efb6d6
+nonce 1671368921-24d85de706b6a0df36bc0c2beee3ee00e707c34f
 
-b7b275e60bcd5f89771e865a8239325f86d9927d f9ff5644bcc04221bae56f922122f2b7f5d24d62 refs/heads/char-misc-linus
+f361c96c75184d0272572087c7d9874e0f64b870 f9ff5644bcc04221bae56f922122f2b7f5d24d62 refs/heads/char-misc-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmOfENUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+0A8QAJ9t11pF+yqzaTp715vY
-MM9o2KB462dCgnqOQkX7rgxFnKKOevAZVK7rshBLAtJ0FKjT7o2ZVjDJ+BV/q/mI
-IM/EDqamN5aW3SgPNhwDWhR9e2Gt8gzgWDLKCXNK5d087u9R75Gsi4bz478LnkTC
-TBIM4NsdjcfA6vt3sTrvMTKScqpQjENe1lMsZQCqEq2k/SFdngaT9YQhb5ShsUJ4
-3IMIxa7++mp15dIEGSblfqLd5mq2All9KLzmkY+LPiff2NUmQFlMwNuyPgYAl+4b
-h+29WdyatrPewVDs3B+H2WmoB31e2vSO2a/DrHc5hLBlimMn0eFXI+B9tM//3dbB
-LTPLvoj5fITYily5rjfc4fdx4VegKMlilBTJHSlsrP1jktb6IE46JmvhsxoZCWdZ
-7KUs8P05edx1caNDejHVsjymPNtv+l+GsiwRNADHNaB62glghufqi8iFaBFeg59X
-XEI0XPvXbfyZ4bCC9i5HzPk+r/Kgz6qDPwXE+XvgyxZsDh+Bw6sFM3t8HDq6DZ98
-YcgwCVW26nuVJbU0UkJj3riFMlFHhh/WnfoLLtSHdJgvY7fV2Pu+h7Z8K3E2iCBN
-n2u7IQM/WEFP6D23bhM5olNdcIzeSzBKV4Z/JjVwCBKOU9/0S6MALIW2UiQtOS14
-iUmpcaL9H9kuSUzdVRG+e6gY
-=IZ4+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmOfENobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+1o8QAKGK/CIc5slQaiZ7wR2R
+mZ0j4iBayyMXd3Dez95qBgV3DOgbcZ+BOTfOBzCmwtmAv0vKKZvU3IqZGLlll/cl
+SEKec+hUSARwJP3hN3Yc6j615cf1M2qxitxj97PYwF6ixeT+saV2DODP9HBfNWe8
+c/tRekgT3WXXU2qcrv3fl+G2JN3IvxfFMtDG/ZKYx/xlXZYf7Oma2pCrWUr2go7E
+GVGN2Hp16ZCFcVhr7MCsfArmPmn28n0gdnCrvs06mV82B1mRaML+SYlbzfnXB2It
+4dhwvjY7icWRwnNqcsMy7s/RfS3QYsg9qBs6b8Tpk7EMwOah0TIOXFXPWZC5MAq5
+WExJ2E2xryzMcPuZXu2cxM91FLjUZ/9aQTzSK6kUkyYNNqUE1N7U1g8s7aD/D/Gi
+2VZhNNoeCshKaYOlg9Dr08CdRIgMqQ9iD8HqQBE+tomLhV+l+9NvacDKEh4raVwn
+gKtOxgHKP7i3HWpDQuQgkkAptmfe+uASAiQrso9Kg/ndBo2OCs/WUme4MgfXbyFr
+kl2oxMhZDfOaM6UolwWL6gaZkVZ+cxZ7RfkyqgonR0kocVhIv9vK+niN9v2aprIG
+NZZs5I5R6UQwzYpXEb2g4NyMqzQGow61XK+GLm/DO2ZVzKfRi9VluivJ90efZsN1
+jswbxWvXjuwFk02a/feAcwpG
+=1yPg
 -----END PGP SIGNATURE-----
 
---===============8898437252586198851==
+--===============5989040728544128880==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-b7b275e60bcd-f9ff5644bcc0.txt
+Content-Disposition: attachment; filename=revlist-f361c96c7518-f9ff5644bcc0.txt
 
 fdb1742aff436399f5769a7559bbb71c7f37a85f irqchip/sifive-plic: remove user selectability of SIFIVE_PLIC
 d8fb13070c3c99b6a17b75fda28943f9261e23e7 irqchip/riscv-intc: remove user selectability of RISCV_INTC
@@ -1082,4 +1082,4 @@ b611996ef270a88ebb350c82832c4d76913887e9 Merge tag 'linux-watchdog-6.2-rc1' of g
 b220f31147d7b5b504c1d27ae0d631f5bb1964af Merge tag 'for-v6.2' of git://git.kernel.org/pub/scm/linux/kernel/git/sre/linux-power-supply
 f9ff5644bcc04221bae56f922122f2b7f5d24d62 Merge tag 'hsi-for-6.2' of git://git.kernel.org/pub/scm/linux/kernel/git/sre/linux-hsi
 
---===============8898437252586198851==--
+--===============5989040728544128880==--
