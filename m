@@ -1,28 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Mon, 19 Dec 2022 10:18:26 -0000
-Message-Id: <167144510677.25600.12763282306336283781@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============3944936699253684829=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 19 Dec 2022 10:18:28 -0000
+Message-Id: <167144510888.25659.8786636298440679570@gitolite.kernel.org>
+
+--===============3944936699253684829==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: davem
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 9cd3fd2054c3b3055163accbf2f31a4426f10317
-    new: 98dbec0a0adc10d9441b6c29315406e275532eb3
+    old: 813fce7bd2cdb85ec2242ecc9bd55c4ff6115ce7
+    new: c3f5f9a4e4cfa64644f21ec23ca573547df852f6
     log: |
-         4feb2c44629e6f9b459b41a5a60491069d346a95 rxrpc: Fix missing unlock in rxrpc_do_sendmsg()
-         fdb99487b0189f0ef883e353ad7484c78a8bd425 rxrpc: Fix security setting propagation
-         eaa02390adb03b82f04babebf0cdd233793aecf5 rxrpc: Fix NULL deref in rxrpc_unuse_local()
-         8fbcc83334a7b5b42b6bc1fae2458bf25eb57768 rxrpc: Fix I/O thread startup getting skipped
-         608aecd16a31269485e2980898029dd01b03a73e rxrpc: Fix locking issues in rxrpc_put_peer_locked()
-         c838f1a73d77abadb0810eff0e150ac88fef3da5 rxrpc: Fix switched parameters in peer tracing
-         743d1768a008c8eae56ead497c9ba8237b14ee81 rxrpc: Fix I/O thread stop
-         11e1706bc84f60040578056f8cef3d0139b92dda rxrpc: rxperf: Fix uninitialised variable
-         31d35a02ad5b803354fe0727686fcbace7a343fe rxrpc: Fix the return value of rxrpc_new_incoming_call()
-         98dbec0a0adc10d9441b6c29315406e275532eb3 Merge branch 'rxrpc-fixes'
+         c3f5f9a4e4cfa64644f21ec23ca573547df852f6 4.9-stable patches
          
+
+--===============3944936699253684829==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1671445107 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1671445106-6ad22550348f093a8e86f23d3169fa0f26b57c41
+
+813fce7bd2cdb85ec2242ecc9bd55c4ff6115ce7 c3f5f9a4e4cfa64644f21ec23ca573547df852f6 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmOgOnMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+1R0P/11RS3bcbCyxivJRKrKk
+Dj+UdBbupy/sq2GtDBgSsUukIWK3eEWvY1rD2PHFUfai2Zpnbl8Sf6apCsp5wacv
+KyZY78kSYKs6ucWASYkkxCB04KRbtJp1qZzW8yFE1OsFTqpFPD5rgIsgcnMuk3le
+8TIWuXubR3nR861KKQfPANxsyaAEWpoLVL4zvPPCJVowqzNKQoPYXPNLRie/Sb5e
+LhYuyQ917jZxuXPJjzMV0cAArhehEeaoZOnyrcFPHn8dhasAarMpI+2LTUHe6ojo
+93SJzl5pcJ3qMb4WpV7fQhBjR9wSXX8FcLdMq+Khj2KDqaB/whTvEDXhvohcwVVz
+dsZc38cFH5vUxjPIBYL4mNte6URQA8d9SFF/EmptjG+R4t209CMuNeELGKZhhlMV
+hhqLLmqstyoT3/PeDOzsjhlj/0EaUKiAPn+5HfgJtY0toFvtO3K8ckoCAdY71dPb
+URunXE016PeRBSIs7XOSR/StsGtQXv9GFBuEbAGaxdO4vQIv3/ncfzQxdKpGtFuL
+dUzsSopl2NDSwWf9Xwkzk4OCc8b8TRLOxti5PW1aK7MFAcEE+qxuKgjuORcDrrAU
+ItqThMSqvWkLYwK4lqG7NYRakMMUIEcMadVeEqFGHezuuTowABEYQRRkEHsYRjRP
+yBPVPJanrdYZRmtDwC1NwMFA
+=VcMf
+-----END PGP SIGNATURE-----
+
+--===============3944936699253684829==--
