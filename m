@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9053127069359862277=="
+Content-Type: multipart/mixed; boundary="===============8424302010063010260=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/zx2c4/cgit
-Date: Mon, 19 Dec 2022 15:12:46 -0000
-Message-Id: <167146276619.24728.16145921137700414660@gitolite.kernel.org>
+Date: Mon, 19 Dec 2022 15:13:14 -0000
+Message-Id: <167146279446.24933.12763519682305452560@gitolite.kernel.org>
 
---===============9053127069359862277==
+--===============8424302010063010260==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/zx2c4/cgit
 user: zx2c4
 changes:
-  - ref: refs/heads/ch/about-link
-    old: 4149c461923158c2d50ac8bd205a36e801f53fd2
-    new: 00d0320db71b01fa9cc09546a08df59b163b4bf5
-    log: revlist-4149c4619231-00d0320db71b.txt
+  - ref: refs/heads/ch/log-commit-message
+    old: 6fb736075289150f9cd6bab8aeb70908bfcc94ab
+    new: 5299954e259e24cc4fd1fb9fff7e424048973409
+    log: revlist-6fb736075289-5299954e259e.txt
 
---===============9053127069359862277==
+--===============8424302010063010260==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4149c4619231-00d0320db71b.txt
+Content-Disposition: attachment; filename=revlist-6fb736075289-5299954e259e.txt
 
 45eff406554f3ff31bdf7d54daae1da5635db72e git: update to v2.33.0
 b8f2b675df61e3a4ff4db7073fe7142fc07e8b7a git: update to v2.34.0
@@ -59,7 +59,6 @@ bd9f9a0fd0886456355172b668e8732fdf17a697 about: allow to give head from query
 699bd60e24831bb08d847c4307fd6346bf490a78 css: reset font size for blame oid
 8d8d307cd301bf3d2cb1dfce8489a87ef1eff72a global: use release_commit_memory()
 d02ebdabec252fef5fb37d7e87e58c4a27efb1a1 cache: tolerate short writes in print_slot
-64f4ce5e4ef3639939bc73043e506a16d1df9592 ui-tree: provide link to about page for pretty formatting
-00d0320db71b01fa9cc09546a08df59b163b4bf5 ui-tree: add about link in tree view list
+5299954e259e24cc4fd1fb9fff7e424048973409 ui-log: show ellipsis if detailed commit message is available
 
---===============9053127069359862277==--
+--===============8424302010063010260==--
