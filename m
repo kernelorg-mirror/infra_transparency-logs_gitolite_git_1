@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5607580762401868059=="
+Content-Type: multipart/mixed; boundary="===============3059767876374951202=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Mon, 19 Dec 2022 18:29:48 -0000
-Message-Id: <167147458896.28543.17652687131282555277@gitolite.kernel.org>
+Date: Mon, 19 Dec 2022 18:29:49 -0000
+Message-Id: <167147458910.28563.8850357386395057118@gitolite.kernel.org>
 
---===============5607580762401868059==
+--===============3059767876374951202==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,12 +16,12 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.10.y
-    old: adfaa918a550f47964a2aa0d20ecbdc31249a2c7
-    new: bc32b2c55e20a98b04c9ccb34c50e4fbd7f2b8cd
-    log: revlist-adfaa918a550-bc32b2c55e20.txt
+  - ref: refs/heads/linux-4.14.y
+    old: 2e52a8359affaaa761dab25677125530e736ce4b
+    new: 4c645266e86c75e3000372a88f58c54b72617a0f
+    log: revlist-2e52a8359aff-4c645266e86c.txt
 
---===============5607580762401868059==
+--===============3059767876374951202==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -32,49 +32,54 @@ pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1671474587 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
 nonce 1671474583-9b26e4624330e3cdb8139b849599a10eba9c4033
 
-adfaa918a550f47964a2aa0d20ecbdc31249a2c7 bc32b2c55e20a98b04c9ccb34c50e4fbd7f2b8cd refs/heads/linux-5.10.y
+2e52a8359affaaa761dab25677125530e736ce4b 4c645266e86c75e3000372a88f58c54b72617a0f refs/heads/linux-4.14.y
 -----BEGIN PGP SIGNATURE-----
 
 iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmOgrZsbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+KBMQAKnZVGd1nP8ooweGmvaf
-K4SsVfHNmmdUv/GV1OkgFiq5z7ZZETu2dRmu3wumROqRb6kPPtUSH3apVkl2QiPB
-+siEFX3l4dr7zUD8pJGNqmu4wtSR+yKZDsgRBQj72VhuA/PSx0ogEAAqAizOdyOP
-I2hSL4Xnj/JqrvVMmKHgu7pVFwBqnb6AicB4RrFJqLfoSRmgRLBrqzDs2+BXmt+x
-DIYnbre2YtHYQzr7ZtWFlWtBl5myB1XsA8QCxHvXumKfvqn3msosn+RxbjgrskMA
-GU5DJggeMvKIWPN7O8+R8s7ooz59l9o1m7aSoBBOiHSQN4yzC7hvMJJiJrqD5GuJ
-gbaH1dBKjqOmWcKFX5XQZgDf6irHArG0/TUtNNoTR1mMs7zktlxqPuNMNZ3MpK0e
-bIaW0d1tM2Yk/5smEGBK5kw0RFmd+AzbP/hJJ/NzyiAhIWr35nOCd1zP4BNMgaKp
-B+Y4Mu2owTKtHdgbYH8GmN3/+tKnzXvNDw9Lw1c/K/Ut/pmax4lGscITF1wFwRg3
-QmlJVK2VPATA0LdEFOb13nKfOecyYiyjVNFrM5/ulLNqLlc0084z1lAv0do+jrQM
-C5j6pX48vmAw6yEf76aK4JVQwnRZHFwlENZl9Jidd6peEAbIt4yNhP3GnO1pES+c
-ZJXP2CveRC2wsoxyGhqZOUSf
-=hiw0
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+XVUQAIw03GKhQEkOQ0v2hlRR
+Nuadk+cqPHT0kaqu27OIJnNip8KGvT0wRG0T7rpFCdPnO6OcldWq4WCDVtE6kiiF
+46/0Z40Wsu6u6oXVW8aqqxhBy4DjMDouaFoqNch6rEmSn51mLWzMdQHpWDgZtb1d
+lpUfdKanSU6EFC2N9iYDcCTrSym8a2fBUITGAw1Thk2/+S9EDPc+gRUTMnvF3uyi
+BxAlSo0UMPnEw1pItkazFDMju9JodyrIheffk1LZMFbVhrN+zA6Phk7HlnoovaxX
+y1ADrk35/0Dq1z8H9jHcHxCVLqgwQvaf2Lb33TknnDQyWAH3EaCS4f/fATQq+MLD
+HLUA90Ujw9lIcf1GYaBZoNvWtgkVvim5RCTlV07EoX4AyI8IEq33uRPq2MyuXJdu
+QjEX2P7FV8CSIPtYvUT/7isYB3kNu1rNagEuWGnAD8l5nnIIrsVRIp8AUuvCt+lR
+crMNZ4NLDSAbi0stt4pqnNAmhnPBrwI5UluU1hgSKuDewuF3eT0Yg+qbrfUZV3D9
+AKcIX7ChVUZwYwVWOIq/RxinUQ9FbgA8ou9UTDgbKztFmQA9oOKQ5Puc+qz5cClW
+CB6paqWATZKoSuzAimM8z2XGoWSTn0PM2+6AZEjyw9uH16GiwgbcU6YsT1H/4d3J
+LsEKoaTyxwcQcxtjtTOqdHZA
+=BGmH
 -----END PGP SIGNATURE-----
 
---===============5607580762401868059==
+--===============3059767876374951202==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-adfaa918a550-bc32b2c55e20.txt
+Content-Disposition: attachment; filename=revlist-2e52a8359aff-4c645266e86c.txt
 
-9a6278cb745e10565fb38c54719b1e93b4635638 udf: Discard preallocation before extending file with a hole
-ede6723c2feda98055367a0c9add3a63e1fc300e udf: Fix preallocation discarding at indirect extent boundary
-5b62617f7be8aef0370eb0a08df185fbcd3124e2 udf: Do not bother looking for prealloc extents if i_lenExtents matches i_size
-f419807b49d96e127f89ead760e107fd9a79bfd4 udf: Fix extending file within last block
-8905e57e3f7807264b9cc0c247d15c679021eb1a usb: gadget: uvc: Prevent buffer overflow in setup handler
-7a895082781610b9d5ee380b4be694140b2ed73f USB: serial: option: add Quectel EM05-G modem
-807afd22681a6d4aa6fa539d72e76619af505843 USB: serial: cp210x: add Kamstrup RF sniffer PIDs
-00d2b8bc785a80bcbdbd5d5b6e5bc158e0f9230e USB: serial: f81232: fix division by zero on line-speed change
-850d3260ac428423a55d483311710ebf7d4fe4e3 USB: serial: f81534: fix division by zero on line-speed change
-38006b246b8258417220a065c21d62e5b3552075 xhci: Apply XHCI_RESET_TO_DEFAULT quirk to ADL-N
-223e6b1ed5076295d2897de35b46ae7c9b7cacc1 igb: Initialize mailbox message for VF reset
-a03cd5bc343e546c8ab66680ec43e3b8b441688c usb: ulpi: defer ulpi_register on ulpi_read_id timeout
-5fbed5cc4a50fa91632e21b4ea2ee3db67fd934c HID: ite: Add support for Acer S1002 keyboard-dock
-d60beab824c289392b64e960af151c211c12a7d8 HID: ite: Enable QUIRK_TOUCHPAD_ON_OFF_REPORT on Acer Aspire Switch 10E
-feeb5e3e7f80c9daab792bd457ea37a9d51853f3 HID: ite: Enable QUIRK_TOUCHPAD_ON_OFF_REPORT on Acer Aspire Switch V 10
-2e3703e44cf09bd25194bdde83ac2b4b5780e736 HID: uclogic: Add HID_QUIRK_HIDINPUT_FORCE quirk
-af9d18eb44895a2aedb20fc87bd9e26344c16626 Bluetooth: L2CAP: Fix u8 overflow
-d780eb97a1ae95ed4e7fc65a784e4d9b4463eb71 net: loopback: use NET_NAME_PREDICTABLE for name_assign_type
-bc32b2c55e20a98b04c9ccb34c50e4fbd7f2b8cd Linux 5.10.161-rc1
+7ed23a62a22b47bd5195891cc87f268a39aeef03 libtraceevent: Fix build with binutils 2.35
+df4111c0d6b42111e1005895f26e9bf6361eec8d once: add DO_ONCE_SLOW() for sleepable contexts
+1a0560eef60c788b37540e16a7502d7dbb781c94 mm/khugepaged: fix GUP-fast interaction by sending IPI
+b9bf56d049b2b15b447927fe51d394a0a592360b mm/khugepaged: invoke MMU notifiers in shmem/file collapse paths
+94f086e99f614ebddb8c446ce717e9e3762a05b5 block: unhash blkdev part inode when the part is deleted
+80f87051f4829e8daa34c482836db41b28657be2 nfp: fix use-after-free in area_cache_get()
+a36015a86c3f4ef89f7abc5e31a4c2edb7c60099 ASoC: ops: Check bounds for second channel in snd_soc_put_volsw_sx()
+255bcac73a750a07e4ba1bfc1d215780de2d3914 can: sja1000: fix size of OCR_MODE_MASK define
+97852450055722c38cfe66004daf5721e4fed136 can: mcba_usb: Fix termination command argument
+71b21ecc8d2d0d9542407ac71203d6a254b2babe ASoC: ops: Correct bounds check for second channel on SX controls
+362af82c7e0cd35dd22a2289cbaacec7fd0b38bb perf script python: Remove explicit shebang from tests/attr.c
+eaed337f5f488208b3a04a36239708ce97f12990 udf: Discard preallocation before extending file with a hole
+2bcf39a85c4e0805b5fc900399e92b8901b39ee3 udf: Drop unused arguments of udf_delete_aext()
+7be2a4f743f9fc1c17537ad958fb9beae8f0c992 udf: Fix preallocation discarding at indirect extent boundary
+691eb6466b049dee002ce2ac96da36ce32dcb8d9 udf: Do not bother looking for prealloc extents if i_lenExtents matches i_size
+84f46d93e7b90d6b6cfbfd5073fe2566416d6c7e udf: Fix extending file within last block
+b5809eaf9e68678af7d5d784674ca60f6201f9c4 usb: gadget: uvc: Prevent buffer overflow in setup handler
+5fafd3791d161945dcc59dcea3c97e2578dc8f2f USB: serial: option: add Quectel EM05-G modem
+a2f73fa811a563206a7d44b34f2b69fc0beb107e USB: serial: cp210x: add Kamstrup RF sniffer PIDs
+325de004a81a65a5e8fa1c3a9f648477cb0e2341 igb: Initialize mailbox message for VF reset
+a379da246b8b560a070acc748e44acea93e1f61a usb: ulpi: defer ulpi_register on ulpi_read_id timeout
+41a85eb5a3b9ce038be8dce05ee7d3b048b54a34 Bluetooth: L2CAP: Fix u8 overflow
+9d2e4867c2a2e07052c69cb231bc37ccfede75ee net: loopback: use NET_NAME_PREDICTABLE for name_assign_type
+4c645266e86c75e3000372a88f58c54b72617a0f Linux 4.14.303-rc1
 
---===============5607580762401868059==--
+--===============3059767876374951202==--
