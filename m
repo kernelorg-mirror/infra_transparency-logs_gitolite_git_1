@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5619180021743147842=="
+Content-Type: multipart/mixed; boundary="===============4063473703607836517=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Mon, 19 Dec 2022 15:49:45 -0000
-Message-Id: <167146498538.20050.6553629216854381053@gitolite.kernel.org>
+Date: Mon, 19 Dec 2022 15:50:01 -0000
+Message-Id: <167146500193.20241.8133365967524929487@gitolite.kernel.org>
 
---===============5619180021743147842==
+--===============4063473703607836517==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/soc/soc
 user: arnd
 changes:
-  - ref: refs/heads/arm/fixes
-    old: ef19964da8a668c683f1d38274f6fb756e047945
+  - ref: refs/heads/for-next
+    old: 9e86b8206adee8f771534da7f717e7f61b851ab1
     new: 6f85602d5fdea936077060ca6853587f01716a45
-    log: revlist-ef19964da8a6-6f85602d5fde.txt
+    log: revlist-9e86b8206ade-6f85602d5fde.txt
 
---===============5619180021743147842==
+--===============4063473703607836517==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ef19964da8a6-6f85602d5fde.txt
+Content-Disposition: attachment; filename=revlist-9e86b8206ade-6f85602d5fde.txt
 
 292709b9cf3ba470af94b62c9bb60284cc581b79 ASoC: fsl_micfil: explicitly clear software reset bit
 b776c4a4618ec1b5219d494c423dc142f23c4e8f ASoC: fsl_micfil: explicitly clear CHnF flags
@@ -413,4 +413,4 @@ ba4b4d0293ed12ec2eda09e0329d9831243ca699 soc: tegra: fix CPU_BIG_ENDIAN dependen
 b9cb6be06b56f9ad73072c2728138fb339da7d32 Merge tag 'v6.1-dts64-fixes' of https://git.kernel.org/pub/scm/linux/kernel/git/matthias.bgg/linux into arm/fixes
 6f85602d5fdea936077060ca6853587f01716a45 Merge tag 'v6.1-soc-fixes' of https://git.kernel.org/pub/scm/linux/kernel/git/matthias.bgg/linux into arm/fixes
 
---===============5619180021743147842==--
+--===============4063473703607836517==--
