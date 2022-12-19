@@ -1,56 +1,23 @@
-Content-Type: multipart/mixed; boundary="===============8997551479085191513=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Mon, 19 Dec 2022 15:23:34 -0000
-Message-Id: <167146341466.1249.15998735108836989155@gitolite.kernel.org>
-
---===============8997551479085191513==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/zx2c4/cgit
+Date: Mon, 19 Dec 2022 15:24:45 -0000
+Message-Id: <167146348561.1785.16003707385032646738@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/zx2c4/cgit
+user: zx2c4
 changes:
-  - ref: refs/heads/master
-    old: d549a5b62345f26ac414e5b0be12435eba374b9e
-    new: 7e1933d6452e991c0dc7c3b3deb910d75c535683
+  - ref: refs/heads/jd/zx2c4-deployment
+    old: fe0c8d0d89999ab2ec167e9307227bb77bfd6133
+    new: b35d3e01d53917266d77105bb20335f8ea63658b
     log: |
-         7e1933d6452e991c0dc7c3b3deb910d75c535683 6.1-stable patches
+         91f25909b9572ebdf3a0fed8224bf03d0d9bf3db cgitrc: handle value "0" for max-repo-count
+         5c5e2e3354986f14dc5cf03481d6abd42d80b607 ZX2C4 specific patches.
+         79c478d6954f486f6591f48c13da39fe3bc14d42 Steal kernel.org's libravatar lua.
+         75eb49194f4b069dd3a8d09b8ab80d272c277e62 css: switch monospace fonts
+         b35d3e01d53917266d77105bb20335f8ea63658b html: double escape literal + in URLs
          
-
---===============8997551479085191513==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1671463413 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1671463412-c4844993d8bdd235292eff8bfe82ea0ab1f6703c
-
-d549a5b62345f26ac414e5b0be12435eba374b9e 7e1933d6452e991c0dc7c3b3deb910d75c535683 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmOggfUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+2gMQAL6jNzVx4iX/G22T214F
-EKalj25zHntlSSbCo9AibOpcIwzyBM7xrK8T2dp2dUQmDV5AZRxU6rdvjTPggTOg
-GL0ZHSajy2aRWEXn9GmXfnHwH+0vcfudhhxgT+wELL8xV9fg8nfiemwtsLwINy1L
-/oJ6oGz5cm5fdpP0S8Fh7Jhhr3X5HUbDgEuF1c81Vbgf+VGSYKytOUfX/rqAIVxm
-G7/5gT6mAWzY++Uv5agYvn0R2UMXUloRGmaXwu0Nb2F0rkXd3Dv8rkL+c8drLaJo
-CAlK6T5UwaZr2i9Wov7+4tevtnnbFvHLQsMrmM2TDB8R73dyKi665sUHmxsgJOj1
-txA4SMS+8ITgG0deaWX3793qB2o64nZOm08JaN8EI0OuYwytPCiAODIciigizyfd
-TYVpnA/TrFoocf18QJswnGROpXItVuYupgibdiRNvZhDvxH8BMlJK4DRMEEhyGrx
-jqhZ9vz4fTXmKfjtc2qzkbIKNDHFLaZGeXw+M00xvCvsm8Zl6PpdcLevHxDuzGCZ
-lOG/8iWKVuW7eR1NtiKU28la96IwAc1a0PSLcR8b3pe/GxLfrFii+FOeJ+oHcYYe
-aYKYNTB8waEvBz1pEAMsXni6x2b2uwPRDi57WtwpDfgLX8xFFW5KYoUI5e/6xZcA
-GgJb17IgXsjaSD1J1n3uEFUf
-=JmI4
------END PGP SIGNATURE-----
-
---===============8997551479085191513==--
