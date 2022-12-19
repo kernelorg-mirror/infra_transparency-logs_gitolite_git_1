@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6740571621382348582=="
+Content-Type: multipart/mixed; boundary="===============4445133349711620044=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Mon, 19 Dec 2022 12:00:55 -0000
-Message-Id: <167145125592.25195.10951230372576751915@gitolite.kernel.org>
+Date: Mon, 19 Dec 2022 12:01:09 -0000
+Message-Id: <167145126942.25367.11795002424734990609@gitolite.kernel.org>
 
---===============6740571621382348582==
+--===============4445133349711620044==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,20 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/x86/urgent
-    old: 45be2ad007a9c6bea70249c4cf3e4905afe4caeb
-    new: 57ae57b91fa54e3f1f1363f2cce8519988521a28
-    log: revlist-45be2ad007a9-57ae57b91fa5.txt
+  - ref: refs/heads/perf/urgent
+    old: 517e6a301f34613bff24a8e35b5455884f2d83d8
+    new: 3f078e480c9ad54f80f914fc37cef57f0113d9e4
+    log: revlist-517e6a301f34-3f078e480c9a.txt
 
---===============6740571621382348582==
+--===============4445133349711620044==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-45be2ad007a9-57ae57b91fa5.txt
+Content-Disposition: attachment; filename=revlist-517e6a301f34-3f078e480c9a.txt
 
-fdb1742aff436399f5769a7559bbb71c7f37a85f irqchip/sifive-plic: remove user selectability of SIFIVE_PLIC
-d8fb13070c3c99b6a17b75fda28943f9261e23e7 irqchip/riscv-intc: remove user selectability of RISCV_INTC
-bf3d7b1d8499ca46874c7373d2043ecbe252cccc RISC-V: stop selecting SIFIVE_PLIC at the SoC level
 558480d3e7d9a21b18354afdc308cd867efbba49 Merge patch series "RISC-V interrupt controller select cleanup"
 b4b241ad3f1819c48ad081a3a3d7fb3830962743 Merge tag 'amd-drm-fixes-6.1-2022-12-07' of https://gitlab.freedesktop.org/agd5f/linux into drm-fixes
 f1543c7abab25d93bc8e9fae79b4cb3153ed6669 net/mlx5: mlx5_ifc updates for MATCH_DEFINER general object
@@ -200,6 +197,7 @@ cfe4c1b25dd6d2f056afc00b7c98bcb3dd0b1fc3 udf: Fix preallocation discarding at in
 6ad53f0f71c52871202a7bf096feb2c59db33fc5 udf: Do not bother looking for prealloc extents if i_lenExtents matches i_size
 16d0556568148bdcaa45d077cac9f8f7077cf70a udf: Discard preallocation before extending file with a hole
 1f3868f06855c97a4954c99b36f3fc9eb8f60326 udf: Fix extending file within last block
+45be2ad007a9c6bea70249c4cf3e4905afe4caeb x86/vdso: Conditionally export __vdso_sgx_enter_enclave()
 18a207849218d8c15072f449e6d0b901262290c9 Merge tag 'timers-v6.2-rc1' of https://git.linaro.org/people/daniel.lezcano/linux into timers/core
 fd3dc56253acbe9c641a66d312d8393cd55eb04c ftrace/x86: Add back ftrace_expected for ftrace bug reports
 577cc1434e4cc1342c3df6d6a3c85136ab335c81 lsm: Fix description of fs_context_parse_param
@@ -1049,6 +1047,8 @@ ed56954cf5a8b7abb530676a073d14f9de661d69 Merge tag 'for-linus' of git://git.kern
 b611996ef270a88ebb350c82832c4d76913887e9 Merge tag 'linux-watchdog-6.2-rc1' of git://www.linux-watchdog.org/linux-watchdog
 b220f31147d7b5b504c1d27ae0d631f5bb1964af Merge tag 'for-v6.2' of git://git.kernel.org/pub/scm/linux/kernel/git/sre/linux-power-supply
 f9ff5644bcc04221bae56f922122f2b7f5d24d62 Merge tag 'hsi-for-6.2' of git://git.kernel.org/pub/scm/linux/kernel/git/sre/linux-hsi
-57ae57b91fa54e3f1f1363f2cce8519988521a28 x86: callthunks: fix incorrect init section references
+b6245bf7b2fd1445909ccd6709efe1ccd8eb210e perf core: Return error pointer if inherit_event() fails to find pmu_ctx
+4b7122c34102866b544bb63b9346251d2e2472dc perf/core: Fix cgroup events tracking
+3f078e480c9ad54f80f914fc37cef57f0113d9e4 perf/x86/amd: fix potential integer overflow on shift of a int
 
---===============6740571621382348582==--
+--===============4445133349711620044==--
