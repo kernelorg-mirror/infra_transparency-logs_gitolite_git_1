@@ -1,21 +1,43 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Mon, 19 Dec 2022 21:09:20 -0000
-Message-Id: <167148416004.5339.1485073557310357168@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============4560808089106383509=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/utils/b4/b4
+Date: Mon, 19 Dec 2022 21:16:41 -0000
+Message-Id: <167148460141.12553.2328898654162635528@gitolite.kernel.org>
+
+--===============4560808089106383509==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: dborkman
+repo: pub/scm/utils/b4/b4
+user: mricon
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: 0e43662e61f2569500ab83b8188c065603530785
-    new: e2bb9e01d589f7fa82573aedd2765ff9b277816a
-    log: |
-         78aa1cc9404399a15d2a1205329c6a06236f5378 bpf: Add struct for bin_args arg in bpf_bprintf_prepare
-         f19a4050455aad847fb93f18dc1fe502eb60f989 bpf: Do cleanup in bpf_bprintf_cleanup only when needed
-         e2bb9e01d589f7fa82573aedd2765ff9b277816a bpf: Remove trace_printk_lock
-         
+  - ref: refs/tags/v0.11.0
+    old: 0000000000000000000000000000000000000000
+    new: 4974e7f73d2d77a23f5d385574177388b7ab4631
+
+--===============4560808089106383509==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher B6C41CE35664996C! 1671484601 -0500
+pushee gitolite.kernel.org:pub/scm/utils/b4/b4
+nonce 1671484601-5195b854347af2562c4caceabbf828d4bbecba57
+
+0000000000000000000000000000000000000000 4974e7f73d2d77a23f5d385574177388b7ab4631 refs/tags/v0.11.0
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCY6DUuQAKCRC2xBzjVmSZ
+bE3BAQC+7gF0bss1hKyPydyiz1NxZlpU5nqzsTCwUUNCOhDvBwD/QtT56KLfT/GN
+hOX/UGLM5oQUCsSvyqelLPzbtF+HEAg=
+=Fv5R
+-----END PGP SIGNATURE-----
+
+--===============4560808089106383509==--
