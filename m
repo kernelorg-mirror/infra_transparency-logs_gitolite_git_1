@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1523187338259309359=="
+Content-Type: multipart/mixed; boundary="===============6436577177232751837=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Mon, 19 Dec 2022 18:26:18 -0000
-Message-Id: <167147437888.27144.2416477968475583014@gitolite.kernel.org>
+Date: Mon, 19 Dec 2022 18:29:42 -0000
+Message-Id: <167147458259.28248.9688793022652284785@gitolite.kernel.org>
 
---===============1523187338259309359==
+--===============6436577177232751837==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,61 +17,61 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/linux-4.9.y
-    old: 68bc94daab184f796df78b5d84ec012bec2a8233
-    new: a8cec594c59c09a7a920db638ab7d25b498064cd
-    log: revlist-68bc94daab18-a8cec594c59c.txt
+    old: a8cec594c59c09a7a920db638ab7d25b498064cd
+    new: 28827a1cf9f620747e8d40ffbc20a925d5e46d55
+    log: revlist-a8cec594c59c-28827a1cf9f6.txt
 
---===============1523187338259309359==
+--===============6436577177232751837==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1671474377 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1671474581 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1671474376-9b644fc72a35c883862950d8da25259a2693e2a2
+nonce 1671474580-c3afc4bff6665e8713b69625591c4466c9b0629b
 
-68bc94daab184f796df78b5d84ec012bec2a8233 a8cec594c59c09a7a920db638ab7d25b498064cd refs/heads/linux-4.9.y
+a8cec594c59c09a7a920db638ab7d25b498064cd 28827a1cf9f620747e8d40ffbc20a925d5e46d55 refs/heads/linux-4.9.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmOgrMkbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+iQkP/0oWJHroeIOOtHpjuN20
-ZPE6dgZ/92pbKe+02ryb7k1zVDRQbmX1Tlnt75g7p20TNf0HfiJ9KCuyrAtJz8gg
-XcwJWcnq+WPnXvFvzOoXlEOxnBgvFpfYvjYw7p/51Iohcc07ZRwV6ip5Z9Gl5xze
-nRJoLnMwYiGLf5Ta1faBnUG9GXhBhlXbR9Pg5uQGZVLElKbeY4hM3GEYV2NkVpwI
-fh4hKR4COcsaK9c9zfVn+Vdn4VGC+i+nUrKNSQNldsFfUff9gb1nimpCbHdmzW18
-VGbXVhKydYvxa3R9GewBlGZF/NUfXGitRhUfE/nzlgi8TSvhrjO9jHthgiRqqwz/
-51uUE1PEfJx0jUtr+qiuzNcwAzjuYfW+D5Ge9KanqvMsCaPwU3gTbnC1MIJR0l84
-Jb+OZrT0nEhTg+/mTEpjNMYysMx64+LGSXA8XLBy3huywq5OBpTM6r30c+MjyY7H
-W0UXDpV+zLwz07T6GXFaD1dWY4/2SQxRrCCNHmgxsFWUhkDRzIDug23fIA+DbGLw
-ZmeFDdUqYojBp+39C1oQXddrpnqRgsI5TU5lhu6V59X5JSyDShuZaJsRNqYO3kPp
-1tYQ2POWu/YJkqlA0hP5HZaTg1MAbr++XyLs73sxAO2SS8pl2RW8o8e6QquEYwTr
-p+2vMkzFBiaCg6pnAjQh/q0Z
-=uEEw
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmOgrZUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+5XsP/3I+NYrgKkQylTf8m+xi
+6uBI8N56Pnbo1O9t3kCEzmsCfSPr+qzZrW/u8YPBYC5NLZ5SRRm3iU45HS17ONt3
+elcouv3WkQ6Pw9FLcrx6dwGArOiMOosbkuKszPvQp62OBLYNEnOQ9NBwVJGhD81m
+esq04gRMvAqguIqm7Wv2CLYKmRQapv2ujQCUTa5WnBouUKOqmIzWbz0e6mbM9sv+
+oknv4UD9juUvQLoDYo2lVzNbGOY2TK4oIi5TLKuPcMYQbyM/S8BeNhOtqGUMjkGv
+YlbM1SmE9ERfn+0Z17ygD2yk7YdsIdsXSbaZHPW79KzlFkTYw+/yAjCNGcy94vQ+
+O0ws1eR7nZ4Jy/I3B//Elxzi5w5ccGMnyP7TshjcJEkTeEW8U/0ASRyZv91qZQGJ
+wxGdy06YNL4C+WJV9iU6+bztXIG1Id3PgQwdh7bLa6NBTV+VoGvcbEJs/nf8XAYA
+Bvs7CVEMuIzN5lVklqeKt0wPOiXqkjFyT32qNrEtMuEndK9TuQ267THLK6QAAAsP
+S0Nlga7kDBJLgHQJcUzrzI1QT8aRHVEF/oYhYBYHAQxYAc1bD/Pds0kQdBjhmz42
+p6aZ2a4e4rgwZAybFfKJhwJ/1Kopd5cY+W5tn5rjDaWfukGYRhhc0Ki5U80kN5qo
+DiPkPzUsIM86ky5R56ibdi2j
+=Ct2v
 -----END PGP SIGNATURE-----
 
---===============1523187338259309359==
+--===============6436577177232751837==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-68bc94daab18-a8cec594c59c.txt
+Content-Disposition: attachment; filename=revlist-a8cec594c59c-28827a1cf9f6.txt
 
-64bca2b0b335d575de8369e34137f34a768e4d2d mm/khugepaged: fix GUP-fast interaction by sending IPI
-85ac9b2aef86b1b14ad3dac1f19789af9cd2a359 mm/khugepaged: invoke MMU notifiers in shmem/file collapse paths
-549f8e3a997eccc9889ce1ebbbb8b5be4cf03b2a block: unhash blkdev part inode when the part is deleted
-b73c3bc01ed2b453960ee0e05890053710012bec ASoC: ops: Check bounds for second channel in snd_soc_put_volsw_sx()
-e673f404ae21d9597d52ffe8fb9a7446b38fa7f8 can: sja1000: fix size of OCR_MODE_MASK define
-3f43489fd28f4f46956cf79e5c9e5627f7940571 ASoC: ops: Correct bounds check for second channel on SX controls
-5c1739b0f4249f2f7a22c98675b3e8c3a5d709a3 udf: Discard preallocation before extending file with a hole
-12ed459287bf84dbb988de25d8ed9f6490380571 udf: Drop unused arguments of udf_delete_aext()
-29fcd3d0562a96e6a0433d9e2b349066271a030d udf: Fix preallocation discarding at indirect extent boundary
-7c33219fbe141db09faef58e2bd7d60a45f629e7 udf: Do not bother looking for prealloc extents if i_lenExtents matches i_size
-0f826c8d3ad99882ebbec7877ff2f552bdb1835f udf: Fix extending file within last block
-aa80dd2d0c6ec03edc0415ae336ef5c5a92d2766 usb: gadget: uvc: Prevent buffer overflow in setup handler
-9904940248f1bcbf95fd9c5e8211f00fa12d5468 USB: serial: cp210x: add Kamstrup RF sniffer PIDs
-24808fd6f11dfe5e24d23541ad4c89848ea66e9d Bluetooth: L2CAP: Fix u8 overflow
-7af59654a0f78f4667ebb0638b3c171a43077f21 net: loopback: use NET_NAME_PREDICTABLE for name_assign_type
-a8cec594c59c09a7a920db638ab7d25b498064cd Linux 4.9.337-rc1
+3a9d9e5d16339548bde75cdcf91caef1b18de10d mm/khugepaged: fix GUP-fast interaction by sending IPI
+e3ba8edc794400e6c7a5a3d3e3c38143a09baa75 mm/khugepaged: invoke MMU notifiers in shmem/file collapse paths
+27b36dd8f5cb3ecb9996e62a5312d76bf46e81f6 block: unhash blkdev part inode when the part is deleted
+56b373c5614593811340a09dc7363183b1966c41 ASoC: ops: Check bounds for second channel in snd_soc_put_volsw_sx()
+034ed41dac8370c83205dc13fde9d9282b3dabe9 can: sja1000: fix size of OCR_MODE_MASK define
+2c58e34edb83e6bb0b8a47e1ca254735443176f8 ASoC: ops: Correct bounds check for second channel on SX controls
+5a7814d3d91bda29de6463541c179b8cddbf9248 udf: Discard preallocation before extending file with a hole
+a0275e7d41ef40405ddc3906dbd16aa3b937da7d udf: Drop unused arguments of udf_delete_aext()
+6b084a92a13617a4522ba49fda063fbffe78c45e udf: Fix preallocation discarding at indirect extent boundary
+ebbb0b4625ac01259111ed459f5e22c4f3e34e37 udf: Do not bother looking for prealloc extents if i_lenExtents matches i_size
+976e40f292ccf5eabc1e904eca3eb05fb877a22e udf: Fix extending file within last block
+f88522571b3be291ba305f525a232c2006d3cb2c usb: gadget: uvc: Prevent buffer overflow in setup handler
+3a7eaf2d54b38a11f9943c3a2f96d5cab7e46a31 USB: serial: cp210x: add Kamstrup RF sniffer PIDs
+7f3319af78ed6ec39df90104a64580a292d4ad61 Bluetooth: L2CAP: Fix u8 overflow
+1b632dfd238f9d9f37f1a1e8af48055309ec2cef net: loopback: use NET_NAME_PREDICTABLE for name_assign_type
+28827a1cf9f620747e8d40ffbc20a925d5e46d55 Linux 4.9.337-rc1
 
---===============1523187338259309359==--
+--===============6436577177232751837==--
