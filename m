@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3519853536949653053=="
+Content-Type: multipart/mixed; boundary="===============1615609582980187837=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
 Date: Mon, 19 Dec 2022 15:47:31 -0000
-Message-Id: <167146485105.19103.1375525313179892060@gitolite.kernel.org>
+Message-Id: <167146485138.19131.8915778809263059053@gitolite.kernel.org>
 
---===============3519853536949653053==
+--===============1615609582980187837==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,12 +16,12 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-6.1.y
-    old: 8ca5ad90fbd7a5a19b929bfa12a32f7c7d2543a1
-    new: 7af5113da8a25349964cec5603eba814cb8aed7a
-    log: revlist-8ca5ad90fbd7-7af5113da8a2.txt
+  - ref: refs/heads/linux-6.0.y
+    old: 42f2129e08b822f0ccb9e66410f3a0d3986e105c
+    new: e6830112c4525365eeba6e51da020ebbd5c8d112
+    log: revlist-42f2129e08b8-e6830112c452.txt
 
---===============3519853536949653053==
+--===============1615609582980187837==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -32,56 +32,56 @@ pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1671464849 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
 nonce 1671464844-332c6dcd46dd4934a5a1a2677d4be784a3abeef5
 
-8ca5ad90fbd7a5a19b929bfa12a32f7c7d2543a1 7af5113da8a25349964cec5603eba814cb8aed7a refs/heads/linux-6.1.y
+42f2129e08b822f0ccb9e66410f3a0d3986e105c e6830112c4525365eeba6e51da020ebbd5c8d112 refs/heads/linux-6.0.y
 -----BEGIN PGP SIGNATURE-----
 
 iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmOgh5EbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+AqAQALp+KoOS6ot+xnjrMTO2
-bAYWXnX30JYSVL7IhMGs58e211MlYuEVGpxUnrYqeME6x6dPTjCCo7IVkpGrJBU2
-xh5uWquEs4Ti46C3RYC5x6L7elJsoYDs02uuXZzRbWu5y47hMr+597FYC3Fa8g3b
-jZuSSKAHlB6ra6hUlUrYLt+m77aJM3ZJpllyVuTAMUEliQE4jQRWuH4+3ypOeq4m
-KOHhFv6mpogSncDKCFjje/MHqzpL6VYIqCUU3BUJvvnIkcs9Y34Ah9Qs6nXQpyP+
-Q+RKDnEq1CZlrU8F/+ia82mwzl+gYIdt/8tQ7I9tYPe9IyZcan204mwXU3NamA2T
-HJAXqsD6zGzcJO+quQbDxKsh9JRO7VgFPJ4tFAAccMrUv9PeKYNIRKB6LCPVwzc7
-0BKj3T1l+4ompwju0nXy3/IYXZmMoIQk2ixqEZgW3JBa5GARh4p+m5asI21x9slx
-T9P2YSq2VJ4J8gLZa1qlb/HS2ERhr4rIlhqOkvBfC0yTLaJ0rXm4MPBA1CtKMlGH
-xB84081SLmoi6m335icvnVztZev6g4zcDfg8uaDBkJrKOPjASDMwJGOXVJj+4TVW
-Si0NZRhP6RHTbUlbjV9TfjgKLnW4ZySHlKctdCLoWHTI2SdWt4fGIfl+BIX5mJgJ
-1rpyVZBWJfv+QKjkFwdoiVzA
-=+XJs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+UakP/RLVF5kyepNuWE0aaJ9l
+Z9/ra9dfRqnpoHHUuMkIqNmyM0HYnox75TW8oqEoTC6FApAwDlEQ05qztPUlMTOq
+35MtpiLIEDVi93h0wtEN7z0cG4+tbVvYb1yCirCzx1pHLuTRXok0i8ho4nIpNofi
+SGhntPzDdaYk7patnLXPq1DrCwCcmzxmMdGUw58I7bAsTLi/CTM1UYfpT264x3Px
+cmwcho2L3uUrarJkYKheXHljkw57i8Pd/rLdOLgys+2eWu5Lf+aXzRohzCshjG6c
+su60shdzt5WIrQHi9iQYtUi6ZOPsncnbcoSw4meO0f7iKm6xumG9oWlzQu7773gw
+3ghE6nW6s3M35fMmjvrKhQ8TUlpCfUTvfZEtE4T2oOk9V3WTMvmStPrj1pym8LZ9
+OuKI2t4WYSrfMHyTNjh2aBwkdMSIbee93lu345EX7sJFbFEl+u+ZkA+OoAvloVMH
+dwmGUXgHaV2lBWnQ1HkanI7U/mi9DJQ8TnKB6t4ihyHodfzt2ftKHMm44TF+dyGr
+0eurrAEwH+Gmj1hTpIXsOyOLySe4HZs8836qIJ22sMfrdA5JzQCT0ogJhQ9/MdW1
+l749sRzfz0XntmY5vTc3dcFrzUXsb3JiQBtkeAEBoHJDBZAHqGeJKsfxu2mysEu4
+1rNZnz6e/GL7N7p4+5EN+bKH
+=IP9Y
 -----END PGP SIGNATURE-----
 
---===============3519853536949653053==
+--===============1615609582980187837==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8ca5ad90fbd7-7af5113da8a2.txt
+Content-Disposition: attachment; filename=revlist-42f2129e08b8-e6830112c452.txt
 
-7c5dd5a3715578ae096fe41eb8c87c0f54851b89 x86/vdso: Conditionally export __vdso_sgx_enter_enclave()
-33c3c0655f26c9f3a1b62251e722e09cc60acf77 libbpf: Fix uninitialized warning in btf_dump_dump_type_data
-c49fae20e3937a942152257bc44ab9c2159952db PCI: mt7621: Add sentinel to quirks table
-9301e626ba63d87f1d9b9b88b120ddc770adf310 mips: ralink: mt7621: define MT7621_SYSC_BASE with __iomem
-516f65423f32a00f34337b1acc6c8f359c4724de mips: ralink: mt7621: soc queries and tests as functions
-c13fe7c8b2c0e65db746064fee6fc15808f940f8 mips: ralink: mt7621: do not use kzalloc too early
-0017c8b87e991fb62a70fc84b3ae4d77997ff586 irqchip/ls-extirq: Fix endianness detection
-5189c821ce8286952cbcdc474fbc66366e402db6 udf: Discard preallocation before extending file with a hole
-1c77bba3df928d13b34609b4a34bf82c453db6ad udf: Fix preallocation discarding at indirect extent boundary
-e8ccd22d72b2e16679909d5bfab44686c43ac8f1 udf: Do not bother looking for prealloc extents if i_lenExtents matches i_size
-a71337ba4e7d22484ba382e82d7e7e2b4de6bab5 udf: Fix extending file within last block
-97f5c5014a8b8326c0442bd96e3ef484b1755cb1 usb: gadget: uvc: Prevent buffer overflow in setup handler
-1d6f662a800b09f87b3d5dfbe2bbdac14fb2a173 USB: serial: option: add Quectel EM05-G modem
-c00fcec5eee07f38c9f67a99f5c56789f5a9a4e6 USB: serial: cp210x: add Kamstrup RF sniffer PIDs
-ace220fb6346650c1e7252ac1453cb8957500195 USB: serial: f81232: fix division by zero on line-speed change
-4347412f2950f9d4458b9514ca85a73d3442900b USB: serial: f81534: fix division by zero on line-speed change
-9918132bc54b3d73f1ab8a92678a03e182b20235 ALSA: hda/realtek: fix mute/micmute LEDs for a HP ProBook
-f1ccd9f6091a80f7207d3a35e236afac50d242bd xhci: Apply XHCI_RESET_TO_DEFAULT quirk to ADL-N
-1084405c284fc6564e2964eefed9e8a0f63f77e5 staging: r8188eu: fix led register settings
-eb8b0cfb1dae4d6a63154faf701b8dd0ef74d73b igb: Initialize mailbox message for VF reset
-7100a8fcba200be3f505cec27a209c680cc83421 usb: typec: ucsi: Resume in separate work
-f0f6da212109524027ff99d13325ed81b058b0ad usb: dwc3: pci: Update PCIe device ID for USB3 controller on CPU sub-system for Raptor Lake
-524dcf4d7f5ff42ad1ba0daf87fdb522b4fb1b38 cifs: fix oops during encryption
-917844688b46ba77e5f016d5117c37e75ae614d6 KEYS: encrypted: fix key instantiation with user-provided data
-db9039fe27e78a2c09ad448cd373b643cea954e1 usb: ulpi: defer ulpi_register on ulpi_read_id timeout
-7af5113da8a25349964cec5603eba814cb8aed7a Linux 6.1.1-rc1
+296380b0a625ffa5e773bfa617e7c56bdda3d45d PCI: mt7621: Add sentinel to quirks table
+1730f5cc1037d57de9a63fa11be1f764941f7826 kallsyms: Make module_kallsyms_on_each_symbol generally available
+77c2a3d48817cb6b5aead22ef1754996588b10fd ftrace: Add support to resolve module symbols in ftrace_lookup_symbols
+ffd199d3fc9b3ae556573fc5d04a2e22e3aba1e1 bpf: Rename __bpf_kprobe_multi_cookie_cmp to bpf_kprobe_multi_addrs_cmp
+3a3e6d62f815d833460fdfd716a93dfea0d53271 bpf: Take module reference on kprobe_multi link
+95d6d302a9d00ce0070d2e30218fcc25a68319fb selftests/bpf: Add load_kallsyms_refresh function
+e4203213d59de6dd050f5ace0b2dbe18149f85cf selftests/bpf: Add bpf_testmod_fentry_* functions
+517577db0de6e6d45519384acef202b3ea62d13a selftests/bpf: Add kprobe_multi check to module attach test
+1bf697b02ff1f6e361b41bddea82e3d8c3ed3655 selftests/bpf: Add kprobe_multi kmod attach api tests
+12a95398f1c790bedc1d6acffd5b62d727c7b87c udf: Discard preallocation before extending file with a hole
+f89cfc5ba600fae437779fe07bc3fa221540d004 udf: Fix preallocation discarding at indirect extent boundary
+e48d62ede396be73cf54a7aff485486a4b14be06 udf: Do not bother looking for prealloc extents if i_lenExtents matches i_size
+c8abbbe9cc56f5f95cfa28233a80598a125dd7dd udf: Fix extending file within last block
+192109eeeaff8e17858dd86ba01a846f908921e5 usb: gadget: uvc: Prevent buffer overflow in setup handler
+cd0fe0c94bfca9e0a7b5c73cfddc2618bb33dd51 USB: serial: option: add Quectel EM05-G modem
+1d081892bffe5aa1ed21a8e9683a02971a46dbae USB: serial: cp210x: add Kamstrup RF sniffer PIDs
+4729839aa4d13186479c7d4e5cbaab50c8e9f850 USB: serial: f81232: fix division by zero on line-speed change
+da0345c92542932a1427355eb369eb00c4235ac3 USB: serial: f81534: fix division by zero on line-speed change
+53b32fc8360d19362bfab14fa9ad390dd6ac2a5d ALSA: hda/realtek: fix mute/micmute LEDs for a HP ProBook
+846550f9a102df614a94f358d21ccbe9ab4f7269 xhci: Apply XHCI_RESET_TO_DEFAULT quirk to ADL-N
+dd776792ae4ec364144bf450aa8f2f79c37bba47 igb: Initialize mailbox message for VF reset
+007f5e72e17bb99a221fc88eaa2b1bd86f74dc20 usb: typec: ucsi: Resume in separate work
+a2c09a9284495f8aaa3b9b24b6297c3d98eb3e5e usb: dwc3: pci: Update PCIe device ID for USB3 controller on CPU sub-system for Raptor Lake
+7af9609701da7d5a28b13e2749ec843711e56e4f KEYS: encrypted: fix key instantiation with user-provided data
+51aeb392234e546826bc62761d6f8ca01c45b4b1 usb: ulpi: defer ulpi_register on ulpi_read_id timeout
+e6830112c4525365eeba6e51da020ebbd5c8d112 Linux 6.0.15-rc1
 
---===============3519853536949653053==--
+--===============1615609582980187837==--
