@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5120622289988966110=="
+Content-Type: multipart/mixed; boundary="===============4113425653496706744=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Mon, 19 Dec 2022 15:46:00 -0000
-Message-Id: <167146476080.18130.7720637285299839324@gitolite.kernel.org>
+Date: Mon, 19 Dec 2022 15:47:20 -0000
+Message-Id: <167146484068.18666.8051330960142353720@gitolite.kernel.org>
 
---===============5120622289988966110==
+--===============4113425653496706744==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,72 +16,60 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-6.1.y
-    old: 830b3c68c1fb1e9176028d02ef86f3cf76aa2476
-    new: 8ca5ad90fbd7a5a19b929bfa12a32f7c7d2543a1
-    log: revlist-830b3c68c1fb-8ca5ad90fbd7.txt
+  - ref: refs/heads/linux-4.9.y
+    old: 4b605cd1fb8e2e7b01e2a905c9b93183a8d161ee
+    new: 68bc94daab184f796df78b5d84ec012bec2a8233
+    log: revlist-4b605cd1fb8e-68bc94daab18.txt
 
---===============5120622289988966110==
+--===============4113425653496706744==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1671464759 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1671464839 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1671464757-8beccfaeed1369365d278b62c5d0aa6f432e1eba
+nonce 1671464838-4254987371d0adf24be779d1737798b87e04efa4
 
-830b3c68c1fb1e9176028d02ef86f3cf76aa2476 8ca5ad90fbd7a5a19b929bfa12a32f7c7d2543a1 refs/heads/linux-6.1.y
+4b605cd1fb8e2e7b01e2a905c9b93183a8d161ee 68bc94daab184f796df78b5d84ec012bec2a8233 refs/heads/linux-4.9.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmOghzcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+pCEP/0fLPCVKE5awQSvNusLZ
-ah5tR8SXfKk11jlyg6FYFFKHUvQNGvhlbnYRL3zkLV13JaA6+hJBKJ24GWmDUpt4
-cwl78YEM/EjUSoCofTBFxTxfy6xE04LFqArGNmDUjrfJuSFy+T43x7LNW6+g7+Ig
-Jil8QssXiqe8MiGAykFbG9RFjOdJSIrtZYPn1oEgud1FyF0ojXTLfl5+MHAFy1Qo
-F9vUX9iZh4P+D5IxW110/0cAcWoi0TEVhcku62peI3LWZ+JfopYOjMiWkikMVm3x
-sNFMc6DK4SV/EMNlsHxY5uoDhs9bKOdyFhcg5BSS5pNYA+D0u3fh4BxwkBz1I6qM
-SciRjX0iYTgkY26kjRtUrZ/Yngal6TkLZqJx2CiJPMDr+Z8EkWGj+I/Bg2FX9OJK
-DIqNwB34yLa1d3F3KQJUDen+rqnUCh0jWrVob/hVuj8y3Bi5dUkxKC+THuYJZ30t
-u+clwiQk3yCRNUk+EeekSPCYMmMOh1EN2Fp1UNcQo3yCg8IrwezULjvIO3La2PNr
-SkAat7WehgHGsGyQlIu6u+ydIzxHnJ7y2c4HeoTo9SPP6/uRq8nQ3CviJAhSNtVG
-vNabDHxWk7ciK5Rk97qpgJ/3t0eb+FxtMQFRCuV1/tJUGFY4J48k59VRrvGqydQR
-m1m39c1MRPjgHHF85lj1IBbC
-=T89h
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmOgh4cbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+TBkP/3wKH4x1MK04fyqIy5SX
+TndHXns+VVRJdO2ZStCIlfvpAsmrOfH2AcTeCAJ1UjDMfXcZW/yGJZVMRgwG00uq
+oAV8FGAkgqMmhZS3zqFoi+9tCesOrz32488q3Ktm4gvBRuHiL7nBL5+AGqyET8P2
+p+qasmuQWtU9pZuw3I5jfwTqQxJxQnQBv4+aorpnbDAhP3KFhTQzWLHnDetdJ2FM
+J1URQOTQ4NNC8xxdUwGPB3BOpqe56OuNE1paxQYb4oJLyd9JCq4OJhuLELALq6GM
+3I2eWVtChaHWwYybiOUJMAW+ETEXzRLfcb/sEhIvk4SQzG24Gy/r/CLwfQi6xgW9
+iyisQ8j6ocMUG7qqKdFzs+OVQhjNgHn1/Xbu1W+xz0S1VhyeoLV1pm3cK8AXGqlw
+PlXrkNhSAS42beGPcFN5531wlP8puOMpeLRnljJmr2ZrLbecfWBxGMyb+/H3jDDi
+tH0wSVD/hV8nZZo7xmAUPhcYJ0EExUS3RlAhRfhoB4MWHWzleDcvJkIcf/xkgrdV
+XzErnhcZ9xGLwQ6mPCmIyuAhH3lG4CHipbi974hM49CKjTzrJG0OhahZyE8qTQPe
+A1R7Q8DP65zoVc0hb58BFDt6oGRf79UKpxmrHGz1iZkEVh47nO5CoHEtOzqsr/37
+llIi/rYX6BffVPRg4MK6c8gt
+=XgEc
 -----END PGP SIGNATURE-----
 
---===============5120622289988966110==
+--===============4113425653496706744==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-830b3c68c1fb-8ca5ad90fbd7.txt
+Content-Disposition: attachment; filename=revlist-4b605cd1fb8e-68bc94daab18.txt
 
-ea8deaea526d674b273a80e6d28924b3ba236e17 x86/vdso: Conditionally export __vdso_sgx_enter_enclave()
-d741f7e2df33e67180c3c9e3dfa35be854241a90 libbpf: Fix uninitialized warning in btf_dump_dump_type_data
-f8284582740a78f26559d038f87a31f0573f8584 PCI: mt7621: Add sentinel to quirks table
-1b9afa1fda579dc76cbc594e257ce95c3f688db0 mips: ralink: mt7621: define MT7621_SYSC_BASE with __iomem
-ffde566483c2e7d67950a2cca38876f58fc22b11 mips: ralink: mt7621: soc queries and tests as functions
-9119cb5bf7ed347aed7960197bdfd769e53d3055 mips: ralink: mt7621: do not use kzalloc too early
-e27e1170620b4f24899f2503d07fd39b0ff35c92 irqchip/ls-extirq: Fix endianness detection
-c09fbe0a65e426e8b5ae64075d22feb040c73357 udf: Discard preallocation before extending file with a hole
-7098ccf24f34bdecf7c2f0e4def08a240f81c300 udf: Fix preallocation discarding at indirect extent boundary
-84ebcfaa71cd387f61de5c91e76c89332a181aac udf: Do not bother looking for prealloc extents if i_lenExtents matches i_size
-327f1825a1914af59e0aea90fbf4f4b76030a0fd udf: Fix extending file within last block
-51102f7d0d6f3a30fdc3c3cb15ed08683a948963 usb: gadget: uvc: Prevent buffer overflow in setup handler
-cfdb97ba53da82fe471dc0141ef71ff1b620147c USB: serial: option: add Quectel EM05-G modem
-2c06658745976b250e700d27efd7b3a82d1f1307 USB: serial: cp210x: add Kamstrup RF sniffer PIDs
-21f679d2b25d08616832c1170e154bf6763e0967 USB: serial: f81232: fix division by zero on line-speed change
-c5f495a48ca562974b056f26162bfa0fe5ecbb54 USB: serial: f81534: fix division by zero on line-speed change
-a422335506d1524f3281e681b3b34eacddd53939 ALSA: hda/realtek: fix mute/micmute LEDs for a HP ProBook
-c06bd6da5dba27bccd7365d9c886ecaa13889468 xhci: Apply XHCI_RESET_TO_DEFAULT quirk to ADL-N
-3df2a2740c9affaa87af48ad0bdc239a3cb56d3c staging: r8188eu: fix led register settings
-549d8278f27e292e4af369cb1e3bab0b2af566ef igb: Initialize mailbox message for VF reset
-40bb304588af2ffad853f1adb6566af8e6846bbf usb: typec: ucsi: Resume in separate work
-fbb09b32d5bd5ba4b93b372f0b98c0a753bf939a usb: dwc3: pci: Update PCIe device ID for USB3 controller on CPU sub-system for Raptor Lake
-2abd43292913e54e00eb1a66b453dac1a976812c cifs: fix oops during encryption
-da4ad6d8bc849a8ccefb43680a399b25eda444c2 KEYS: encrypted: fix key instantiation with user-provided data
-e718a3f05a00a062e49318008ae947b5002443c8 usb: ulpi: defer ulpi_register on ulpi_read_id timeout
-8ca5ad90fbd7a5a19b929bfa12a32f7c7d2543a1 Linux 6.1.1-rc1
+6ccb51e8fcdaa971e9cb41807becf34f7de12122 mm/khugepaged: fix GUP-fast interaction by sending IPI
+8860519eb8844a3eaa9dc49b1c22f1c81f653aa5 mm/khugepaged: invoke MMU notifiers in shmem/file collapse paths
+f0f62c0074a49f10c981fc5521675f4922bbaea8 block: unhash blkdev part inode when the part is deleted
+59991204086ac4cf2f2f03f5dd5e1fa3f7fb9ae6 ASoC: ops: Check bounds for second channel in snd_soc_put_volsw_sx()
+bcfb51dcda80d28104d19a2fe2863528d68c6ce0 can: sja1000: fix size of OCR_MODE_MASK define
+f83f9e8ca0ef2e98e40ad94e8f26f3a0dac0fff8 ASoC: ops: Correct bounds check for second channel on SX controls
+ce6ba08f44f3788eadefc984dec1e753ea830111 udf: Discard preallocation before extending file with a hole
+1a340e527e02038e64d13df5b9f9eb83cfbee299 udf: Drop unused arguments of udf_delete_aext()
+50678a9566115741dae00a6a0bde5b0faad384fe udf: Fix preallocation discarding at indirect extent boundary
+08ca84593004384139422ae2160c36952bddf4ec udf: Do not bother looking for prealloc extents if i_lenExtents matches i_size
+130922cec7f27ba3a9cef40c4a7c293894508708 udf: Fix extending file within last block
+e7219ccd77e1f39244ad91a7f573fb7b39f6ee1e usb: gadget: uvc: Prevent buffer overflow in setup handler
+1b909a4d026e5787f3799e3a123c9b3ab93e8cdf USB: serial: cp210x: add Kamstrup RF sniffer PIDs
+68bc94daab184f796df78b5d84ec012bec2a8233 Linux 4.9.337-rc1
 
---===============5120622289988966110==--
+--===============4113425653496706744==--
