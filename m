@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5875158730149721067=="
+Content-Type: multipart/mixed; boundary="===============1790316296852307655=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Mon, 19 Dec 2022 13:26:55 -0000
-Message-Id: <167145641508.19693.890516917606896929@gitolite.kernel.org>
+Date: Mon, 19 Dec 2022 13:27:16 -0000
+Message-Id: <167145643612.19871.9013189975952287249@gitolite.kernel.org>
 
---===============5875158730149721067==
+--===============1790316296852307655==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
-  - ref: refs/heads/perf/urgent
+  - ref: refs/heads/perf/core
     old: 71c2c68e4fadc9019d727bdcf54490c438d59cdb
     new: 573de010917836f198a4e579d40674991659668b
     log: revlist-71c2c68e4fad-573de0109178.txt
 
---===============5875158730149721067==
+--===============1790316296852307655==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -136,4 +136,4 @@ b220f31147d7b5b504c1d27ae0d631f5bb1964af Merge tag 'for-v6.2' of git://git.kerne
 f9ff5644bcc04221bae56f922122f2b7f5d24d62 Merge tag 'hsi-for-6.2' of git://git.kernel.org/pub/scm/linux/kernel/git/sre/linux-hsi
 573de010917836f198a4e579d40674991659668b Merge remote-tracking branch 'torvalds/master' into perf/core
 
---===============5875158730149721067==--
+--===============1790316296852307655==--
