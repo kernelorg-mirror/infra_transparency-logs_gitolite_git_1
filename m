@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============6895409388756481803=="
+Content-Type: multipart/mixed; boundary="===============5061234424027580806=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lftan/nios2
-Date: Tue, 20 Dec 2022 17:43:12 -0000
-Message-Id: <167155819280.31878.12292817021438598108@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/lftan/linux
+Date: Tue, 20 Dec 2022 17:56:25 -0000
+Message-Id: <167155898557.10183.13096039707463600093@gitolite.kernel.org>
 
---===============6895409388756481803==
+--===============5061234424027580806==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lftan/nios2
+repo: pub/scm/linux/kernel/git/lftan/linux
 user: lftan
 changes:
   - ref: refs/heads/master
-    old: 4469942bbbe5ebf845e04971d8c74e9b6178f9fa
+    old: 081f3698e606dc733ee0ffc89433b597ff5b7fb6
     new: b6bb9676f2165d518b35ba3bea5f1fcfc0d969bf
-    log: revlist-4469942bbbe5-b6bb9676f216.txt
+    log: revlist-081f3698e606-b6bb9676f216.txt
 
---===============6895409388756481803==
+--===============5061234424027580806==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4469942bbbe5-b6bb9676f216.txt
+Content-Disposition: attachment; filename=revlist-081f3698e606-b6bb9676f216.txt
 
 45be2ad007a9c6bea70249c4cf3e4905afe4caeb x86/vdso: Conditionally export __vdso_sgx_enter_enclave()
 18a207849218d8c15072f449e6d0b901262290c9 Merge tag 'timers-v6.2-rc1' of https://git.linaro.org/people/daniel.lezcano/linux into timers/core
@@ -1051,4 +1051,4 @@ b9cb6be06b56f9ad73072c2728138fb339da7d32 Merge tag 'v6.1-dts64-fixes' of https:/
 32d528c4b885108694f613406d9f39fa4873bd37 Merge tag 'spdx-6.2-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/spdx
 b6bb9676f2165d518b35ba3bea5f1fcfc0d969bf Merge tag 'm68knommu-for-v6.2' of git://git.kernel.org/pub/scm/linux/kernel/git/gerg/m68knommu
 
---===============6895409388756481803==--
+--===============5061234424027580806==--
