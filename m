@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 20 Dec 2022 20:08:49 -0000
-Message-Id: <167156692929.31238.15198317050959299780@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/wireless/iwd
+Date: Tue, 20 Dec 2022 20:14:04 -0000
+Message-Id: <167156724475.2150.7452561392683035425@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/network/wireless/iwd
+user: denkenz
 changes:
-  - ref: refs/tags/net-6.2-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 12d0c28bd50786425455258b54ca106835503dcb
+  - ref: refs/heads/master
+    old: 5042c8e9249228f6558280b47cf5aa31bd8fc2ac
+    new: 2ba0ad212e9ad48aaabf9ca8fc36e0788dbe5aca
+    log: |
+         2ba0ad212e9ad48aaabf9ca8fc36e0788dbe5aca wiphy: remove disabled_freqs and related dump code
+         
