@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ribalda/linux
-Date: Tue, 20 Dec 2022 23:13:39 -0000
-Message-Id: <167157801930.24776.1399385654385901249@gitolite.kernel.org>
+Date: Tue, 20 Dec 2022 23:13:45 -0000
+Message-Id: <167157802562.24882.1085230350238347915@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,10 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ribalda/linux
 user: ribalda
 changes:
-  - ref: refs/tags/sent/usb-dmadoc-v2
-    old: 0000000000000000000000000000000000000000
-    new: 549eed8a12957323cbb933fecefec2c954d72afa
+  - ref: refs/heads/b4/usb-dmadoc
+    old: c3da209dddbbe9e0d061e9602e166ee284d44016
+    new: 310944b88016bba02aa8ee0cf6f9ffafc463ad15
+    log: |
+         411538f55a600e3883a36e27a80d80b624b42fd3 USB: Improve usb_fill_* documentation
+         310944b88016bba02aa8ee0cf6f9ffafc463ad15 USB: Improve usb_fill_* documentation
+         
