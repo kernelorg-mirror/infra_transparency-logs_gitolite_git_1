@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6394576047491374471=="
+Content-Type: multipart/mixed; boundary="===============5340957310071016211=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/spdx
-Date: Tue, 20 Dec 2022 15:12:37 -0000
-Message-Id: <167154915774.30178.5755327184513600081@gitolite.kernel.org>
+Date: Tue, 20 Dec 2022 15:12:43 -0000
+Message-Id: <167154916302.30298.16008847994725610078@gitolite.kernel.org>
 
---===============6394576047491374471==
+--===============5340957310071016211==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/spdx
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/spdx-linus
-    old: 6cad1ecd4e3213d892b70afa999a81849d1f0206
+  - ref: refs/heads/main
+    old: f0c4d9fc9cc9462659728d168387191387e903cc
     new: b6bb9676f2165d518b35ba3bea5f1fcfc0d969bf
-    log: revlist-6cad1ecd4e32-b6bb9676f216.txt
+    log: revlist-f0c4d9fc9cc9-b6bb9676f216.txt
 
---===============6394576047491374471==
+--===============5340957310071016211==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1671549151 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1671549162 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/spdx.git
-nonce 1671549151-f57ba14d4c9275a0645dd9786136230f8035a7c3
+nonce 1671549160-6644a02619c696802e0153ae1bd0b389bd048f34
 
-6cad1ecd4e3213d892b70afa999a81849d1f0206 b6bb9676f2165d518b35ba3bea5f1fcfc0d969bf refs/heads/spdx-linus
+f0c4d9fc9cc9462659728d168387191387e903cc b6bb9676f2165d518b35ba3bea5f1fcfc0d969bf refs/heads/main
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmOh0N8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+5poQAJGg3SKK1OGam41UHiZc
-MZMtzBE9Vf4ZrRWV6Pa4wm38MzUhHZPkqC0R91ldQGeLbc2qhIzGdA3WNd3/K6Ls
-foWH0EgkuuRal0blRNYbidAj1tbdZOjl0jSGom9dsYf/UryVvMbznUIsKQ7R9y8a
-J0aTMgDvux1BEBQHHGIP6vW1tP2D5qZyu/43J4vA8FTl7ndmm1lK6nNPLxfL4UjI
-2GImxPC9VEWZd7EjQ7alN3euFlttWiQZMkDjFMySSTeip9EOo8NRE9l2QzTVXx9q
-dnjIE4Ogv0XeFwoVdt/1fcGFSKHse1DdLGjAmaeCvJzzEt77+KyLcaUapE8FmLce
-CA+3ENPc/lGBp/NWa4eOSrHlUWTOUdEr39XOgOq0iwwKQkv1kUVy0K4GgBzo72n4
-8i0/qfOqkcm8Hby7r07VgJ3pz0uHFo4WQGTQZIciJz4cBjs0r3EE8ybSXW42ihId
-ZEWWqDrIHT61sIieRhLYdw/GsaV8UmZxOlaf5w2TkdaZms5ueDz24He2LmKbAFW6
-tqv0vbRtlvCWIMxlMFrv1Mfm/GPihZznLN5iW5fdZgUgOqzI/Q0FQlPfSPxSQI+H
-fjGWt9bKEiZMmffOpKPIE2Yb6WGZEpg+xkoJYZeKESOXZlL4CT1v4T+WsNUyJ0Xj
-L5fw3EuoAwBy+HQP9E1oXF9B
-=L0o7
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmOh0OobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+fPIP/A+rvVIPy8HL4T9cGuTc
+KLjComcFhNO32ZA2oWh9mULTeO9cpDvFEqaE467mwPdlSowxAqHYwoK505YJYdWi
+x6C4nltz8Iv3j9audJkH4PZrJY+Hc5lpb2n8UWDj8kI2cRUYddG8RxKozwj8DiV7
+axSuF00C4SybxtcoODwiV8SUBotititPMChcA8gQsJPue47XM+sA34wLs5NAxUXs
+gM1eh7V02SUeHClSOzrvviREReB0J7gJ95dY/vKcORjcnaFN5JTG2avnlkH7a7qB
+0cHyi/Vc65PBywRxAlkXAyHAWMnMtO8+x3+YXgnLeptCM8PAEaXNCerpyC/uOwf5
+hBKi7WX5HcwUqKZ3/NWnRntKPPwZXN1z+UjliVxm9RuuxF3lDkqbQ5rtnv0ukjuc
+A9aQr1YVZVkKiAn9AJFvp3uPi6i9WEY464FJyTow8k5mGnLHBwwUJVJFhiCNoMaH
+qygs4lSvc/q4p5jQPaUE7i+M82St9cn2iguNIFKNH1pz50GiqZ+OLmjUkBbqB4eB
+rc1dRNx1mk+o18AWq/Hdc37IyBbB8xTzn1KYPWIRXrRvrK2HkEurkLDqSBhXJmdT
+RdYv+j27vAT4lsoTUN3q1Hzp44wO9pUdxwdnzVmQljmbDJbRiOnqi+hRfltTJazK
+lyx5DJh+BhCyzIjwywEld6Yj
+=jPWO
 -----END PGP SIGNATURE-----
 
---===============6394576047491374471==
+--===============5340957310071016211==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6cad1ecd4e32-b6bb9676f216.txt
+Content-Disposition: attachment; filename=revlist-f0c4d9fc9cc9-b6bb9676f216.txt
 
 45be2ad007a9c6bea70249c4cf3e4905afe4caeb x86/vdso: Conditionally export __vdso_sgx_enter_enclave()
 18a207849218d8c15072f449e6d0b901262290c9 Merge tag 'timers-v6.2-rc1' of https://git.linaro.org/people/daniel.lezcano/linux into timers/core
@@ -1082,4 +1082,4 @@ b9cb6be06b56f9ad73072c2728138fb339da7d32 Merge tag 'v6.1-dts64-fixes' of https:/
 32d528c4b885108694f613406d9f39fa4873bd37 Merge tag 'spdx-6.2-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/spdx
 b6bb9676f2165d518b35ba3bea5f1fcfc0d969bf Merge tag 'm68knommu-for-v6.2' of git://git.kernel.org/pub/scm/linux/kernel/git/gerg/m68knommu
 
---===============6394576047491374471==--
+--===============5340957310071016211==--
