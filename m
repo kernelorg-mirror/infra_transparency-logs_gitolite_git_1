@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 20 Dec 2022 19:34:03 -0000
-Message-Id: <167156484308.8472.11627779926358581257@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vfs/idmapping
+Date: Tue, 20 Dec 2022 19:40:24 -0000
+Message-Id: <167156522443.13467.14315477934347050018@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/vfs/idmapping
+user: brauner
 changes:
-  - ref: refs/heads/master
-    old: 4be84df38a6f49b81e5909ede78242ba1538c1e6
-    new: 19e72b064fc32cd58f6fc0b1eb64ac2e4f770e76
+  - ref: refs/heads/fs.mount_propagation.fix
+    old: 50486adeff449263c2d34f26ec2c0133633a57e5
+    new: a6659840ff5064a83a3b681b8240811ee60b65bc
     log: |
-         19e72b064fc32cd58f6fc0b1eb64ac2e4f770e76 net: fec: check the return value of build_skb()
+         a6659840ff5064a83a3b681b8240811ee60b65bc pnode: terminate at peers
          
