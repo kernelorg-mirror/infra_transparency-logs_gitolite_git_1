@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Tue, 20 Dec 2022 15:37:57 -0000
-Message-Id: <167155067783.14666.11491816682187810838@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
+Date: Tue, 20 Dec 2022 15:44:08 -0000
+Message-Id: <167155104828.18092.16922061153904734684@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/maz/arm-platforms
+user: maz
 changes:
-  - ref: refs/heads/master
-    old: c2ee5a1c0b02276da9f4ab54b33224b566a93217
-    new: 0efd402dd6b09f5d85206310557ac4b5bb3adcee
-    log: |
-         0efd402dd6b09f5d85206310557ac4b5bb3adcee Tue Dec 20 03:36:58 PM UTC 2022
-         
+  - ref: refs/heads/kvm-arm64/s1ptw-write-fault
+    old: 0000000000000000000000000000000000000000
+    new: e6efc177e793025a70b022a7ee5a3b71c2c1d696
