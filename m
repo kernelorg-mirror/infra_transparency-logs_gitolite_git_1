@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5393665155540841341=="
+Content-Type: multipart/mixed; boundary="===============0139163990108100062=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/utils/b4/b4
-Date: Tue, 20 Dec 2022 22:08:56 -0000
-Message-Id: <167157413625.12926.17591165410719050450@gitolite.kernel.org>
+Date: Tue, 20 Dec 2022 22:09:03 -0000
+Message-Id: <167157414348.13034.16787011868616758334@gitolite.kernel.org>
 
---===============5393665155540841341==
+--===============0139163990108100062==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,31 +16,32 @@ repo: pub/scm/utils/b4/b4
 user: mricon
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: 0516639f61ba5306c86fe55a5955a1515bf260db
-    new: 3355470ca6455158647a7c3f65c91bfaee352ee7
+  - ref: refs/heads/stable-0.11.y
+    old: 85f8c0171ca98c975ecce0bd9036a763ad63e5d6
+    new: f96638aa20ff83b7800bfa20114aab38996961f3
     log: |
-         3355470ca6455158647a7c3f65c91bfaee352ee7 ez: don't crash when there's no [sendemail] section
+         dd2cad42b9858404ad42cee9aa92697fbc9bc178 Increment version to 0.11.1-dev
+         f96638aa20ff83b7800bfa20114aab38996961f3 ez: don't crash when there's no [sendemail] section
          
 
---===============5393665155540841341==
+--===============0139163990108100062==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher B6C41CE35664996C! 1671574135 -0500
+pusher B6C41CE35664996C! 1671574141 -0500
 pushee gitolite.kernel.org:pub/scm/utils/b4/b4
-nonce 1671574135-deb320ba39b508645ab49b3ce8058a3c09aaa843
+nonce 1671574141-a9087680e2c726291d8b37d9e856b2cd160fd002
 
-0516639f61ba5306c86fe55a5955a1515bf260db 3355470ca6455158647a7c3f65c91bfaee352ee7 refs/heads/master
+85f8c0171ca98c975ecce0bd9036a763ad63e5d6 f96638aa20ff83b7800bfa20114aab38996961f3 refs/heads/stable-0.11.y
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCY6IydwAKCRC2xBzjVmSZ
-bHiiAPwN1fknpr6MLzq5BJeugz0gisE8Nj9vlk3OOQowSWnGNwD+M7JOeqO3on5b
-ft+hdeyDaxIO8u3z00AnrAIcCPRrEg8=
-=trmI
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCY6IyfQAKCRC2xBzjVmSZ
+bA0AAQCXvpk4nZbXmy6r0jtbXR3yuB1mUDoN0pqHMD7STupBaAEAkEv0MyqNgIkm
+P/TI4XJiluGAUfZ45kVBzv9hApA70AI=
+=UA7l
 -----END PGP SIGNATURE-----
 
---===============5393665155540841341==--
+--===============0139163990108100062==--
