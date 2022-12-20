@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8764107399224117245=="
+Content-Type: multipart/mixed; boundary="===============5256266705447527908=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/utils/b4/b4
-Date: Tue, 20 Dec 2022 22:32:57 -0000
-Message-Id: <167157557726.30110.12849299814377460625@gitolite.kernel.org>
+Date: Tue, 20 Dec 2022 22:33:18 -0000
+Message-Id: <167157559879.30274.1239969928270241444@gitolite.kernel.org>
 
---===============8764107399224117245==
+--===============5256266705447527908==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,31 +16,31 @@ repo: pub/scm/utils/b4/b4
 user: mricon
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: 3355470ca6455158647a7c3f65c91bfaee352ee7
-    new: 1b9aac70e2f76931446a0318d61a4cb473f89f9d
+  - ref: refs/heads/stable-0.11.y
+    old: f96638aa20ff83b7800bfa20114aab38996961f3
+    new: 67fd1910174cc0d46a5bd5782cbbe2baf612a0f7
     log: |
-         1b9aac70e2f76931446a0318d61a4cb473f89f9d ez: give better error message when patatt signing fails
+         67fd1910174cc0d46a5bd5782cbbe2baf612a0f7 ez: give better error message when patatt signing fails
          
 
---===============8764107399224117245==
+--===============5256266705447527908==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher B6C41CE35664996C! 1671575576 -0500
+pusher B6C41CE35664996C! 1671575598 -0500
 pushee gitolite.kernel.org:pub/scm/utils/b4/b4
-nonce 1671575576-3403670802bc7086dde29aa0842b8510f4c8925d
+nonce 1671575598-a13f2d2ad4f5d2dc890952e075303d2950a64263
 
-3355470ca6455158647a7c3f65c91bfaee352ee7 1b9aac70e2f76931446a0318d61a4cb473f89f9d refs/heads/master
+f96638aa20ff83b7800bfa20114aab38996961f3 67fd1910174cc0d46a5bd5782cbbe2baf612a0f7 refs/heads/stable-0.11.y
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCY6I4GAAKCRC2xBzjVmSZ
-bJDbAQCCEVgL2EB/967I7p2g411pZvve33UnZji9l6bmaLsiaQD9GJjC9F9rxKy0
-njPebtWrOOFKbJVCN1mgP/w+TqY7NgU=
-=LXOO
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCY6I4LgAKCRC2xBzjVmSZ
+bECAAQCGOQo/9mzScFAAb52AAVvE2id5viMuRBCrAAxoLhV1GQD9ERIqUH0sgz3O
+y+nSsSOxxHemjTT5jLijUcHacFslAw0=
+=a21Q
 -----END PGP SIGNATURE-----
 
---===============8764107399224117245==--
+--===============5256266705447527908==--
