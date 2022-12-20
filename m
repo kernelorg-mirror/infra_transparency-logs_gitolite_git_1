@@ -1,26 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============7470321445859566395=="
+Content-Type: multipart/mixed; boundary="===============0299872157329480636=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Tue, 20 Dec 2022 15:50:05 -0000
-Message-Id: <167155140542.24287.12420691636758961438@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/deller/parisc-linux
+Date: Tue, 20 Dec 2022 16:09:17 -0000
+Message-Id: <167155255762.2550.2179336545505811537@gitolite.kernel.org>
 
---===============7470321445859566395==
+--===============0299872157329480636==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/deller/parisc-linux
+user: deller
 changes:
   - ref: refs/heads/master
     old: 6feb57c2fd7c787aecf2846a535248899e7b70fa
     new: b6bb9676f2165d518b35ba3bea5f1fcfc0d969bf
     log: revlist-6feb57c2fd7c-b6bb9676f216.txt
 
---===============7470321445859566395==
+--===============0299872157329480636==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -77,4 +77,4 @@ b9cb6be06b56f9ad73072c2728138fb339da7d32 Merge tag 'v6.1-dts64-fixes' of https:/
 32d528c4b885108694f613406d9f39fa4873bd37 Merge tag 'spdx-6.2-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/spdx
 b6bb9676f2165d518b35ba3bea5f1fcfc0d969bf Merge tag 'm68knommu-for-v6.2' of git://git.kernel.org/pub/scm/linux/kernel/git/gerg/m68knommu
 
---===============7470321445859566395==--
+--===============0299872157329480636==--
