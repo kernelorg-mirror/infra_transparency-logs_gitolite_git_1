@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3728954455699446309=="
+Content-Type: multipart/mixed; boundary="===============7614635586040601203=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sashal/linux-stable
-Date: Tue, 20 Dec 2022 01:26:07 -0000
-Message-Id: <167149956790.23570.6300208035869942592@gitolite.kernel.org>
+Date: Tue, 20 Dec 2022 01:27:06 -0000
+Message-Id: <167149962629.23958.8346837706442645797@gitolite.kernel.org>
 
---===============3728954455699446309==
+--===============7614635586040601203==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,55 +15,36 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sashal/linux-stable
 user: sashal
 changes:
-  - ref: refs/heads/for-greg/5.15-102
-    old: af6b533e6d9f43ca5f1f21d1a2d13cbc41bbf9c9
-    new: 655b7cde98c042a486555b2b2f5a679884b56701
-    log: revlist-af6b533e6d9f-655b7cde98c0.txt
+  - ref: refs/heads/for-greg/4.19-0
+    old: fd0261f5d290d7ad299151ad10610bc17a5ea4e1
+    new: 72f63d45d3d6f39c6130e5fd1f04650ac1461720
+    log: revlist-fd0261f5d290-72f63d45d3d6.txt
 
---===============3728954455699446309==
+--===============7614635586040601203==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-af6b533e6d9f-655b7cde98c0.txt
+Content-Disposition: attachment; filename=revlist-fd0261f5d290-72f63d45d3d6.txt
 
-a58c1621ba1030643432657f559253f31c2ade13 drm/amd/display: prevent memory leak
-57556753f5a0b3ef1aa7ac54bcc9ccde66d609b6 Revert "drm/amd/display: Limit max DSC target bpp for specific monitors"
-175224a98d425ad3acaf4402736397bc39d50381 qed (gcc13): use u16 for fid to be big enough
-c5a527427fb35d12b5286c0c9f2e9a4d78f5c079 bpf: make sure skb->len != 0 when redirecting to a tunneling device
-778768f1f5a2e46ea11c0c002d7ca9ca0df6871e net: ethernet: ti: Fix return type of netcp_ndo_start_xmit()
-4708426b3dfbb6e5fb0fb3064d2ef82718f4b846 hamradio: baycom_epp: Fix return type of baycom_send_packet()
-0b40541212c0cac1033b74adf5fb7d3e3cf987fa wifi: brcmfmac: Fix potential shift-out-of-bounds in brcmf_fw_alloc_request()
-dab5851ab469ed6db4f9f8d886a08d0d1bdc01fb igb: Do not free q_vector unless new one was allocated
-e0e9599af459db7f0e7ce4ef490bb68d97b049d1 drm/amdgpu: Fix type of second parameter in trans_msg() callback
-981933f837601978879cd4875abcf6461f894892 drm/amdgpu: Fix type of second parameter in odn_edit_dpm_table() callback
-7e9908d3a33515ab00961ff385faf97d10693a46 s390/ctcm: Fix return type of ctc{mp,}m_tx()
-526dd62c4314aebde9579c8a32b70b95e4a620d1 s390/netiucv: Fix return type of netiucv_tx()
-ce52df5c3814311bab3efbf19dfc0881265a1fef s390/lcs: Fix return type of lcs_start_xmit()
-6394b3bfd32fa8112505dad310be854830bdae90 drm/msm: Use drm_mode_copy()
-b4ce14043a9068481fa9766aaf3663bad951fc34 drm/rockchip: Use drm_mode_copy()
-14e9d40f4bf4909f6f780dda9e2fb64d1c924819 drm/sti: Use drm_mode_copy()
-154b5bf084c659357f898da06045c60b4449f5fb drm/mediatek: Fix return type of mtk_hdmi_bridge_mode_valid()
-c80f4aa86c3017538dd5d850f37751a45a984abf drivers/md/md-bitmap: check the return value of md_bitmap_get_counter()
-2c9571a297b21acae7d205ec2af54c0a59a31e27 md/raid1: stop mdx_raid1 thread when raid1 array run failed
-faaf4a028f6f95fd5dfa3cc1487933e958adcc92 drm/amd/display: fix array index out of bound error in bios parser
-01123842158d7429942ae9aa7896b332061a4e3a net: add atomic_long_t to net_device_stats fields
-c319a09d6596c9447b27d8a0d968a0f17820e9bc ipv6/sit: use DEV_STATS_INC() to avoid data-races
-f5cfee12db4a454e82e395e626b5677ff8dee04d mrp: introduce active flags to prevent UAF when applicant uninit
-25d9556d9ea36dab2272764fb5d4d151068e537e ppp: associate skb with a device at tx
-3468cdafd1c2e77eac2ed035380238a0baec0722 bpf: Prevent decl_tag from being referenced in func_proto arg
-c4ac86fa0cf534729a1dc9dcf6b90c0181675fa1 ethtool: avoiding integer overflow in ethtool_phys_id()
-e08684037cc1ec4e5cee3be9098416dd33030e46 media: dvb-frontends: fix leak of memory fw
-4c041fbe30199e265fd01eb7991ea6eb8d3c88ac media: dvbdev: adopts refcnt to avoid UAF
-dad94bff3b9d392f34313494c75aed75a5de93d7 media: dvb-usb: fix memory leak in dvb_usb_adapter_init()
-bcffc69cae950908a0db5c5dc2058a48ce213314 blk-mq: fix possible memleak when register 'hctx' failed
-7dd15ebce04e32bb33b176f7019cf377be7c258d drm/amd/display: Use the largest vready_offset in pipe group
-804506eab88ca56c0e12cfbe826ef69e5246ca93 libbpf: Avoid enum forward-declarations in public API in C++ mode
-2aa0d7f405c92ef86672a55a64e8e4f80280a84d regulator: core: fix use_count leakage when handling boot-on
-c0163fa2c71f5eeed94d214d2a3390cd9319ac53 net: dpaa2: publish MAC stringset to ethtool -S even if MAC is missing
-d3c6f28c8874e4b8da7e752c12b95a144dcef341 wifi: mt76: do not run mt76u_status_worker if the device is not running
-6ec10aceda2221892564928a40891ca142930685 mmc: f-sdh30: Add quirks for broken timeout clock capability
-dfe01fcc5257dccaa318bb0b24582260999141ae mmc: renesas_sdhi: better reset from HS400 mode
-649fc251fa00b7d5b89dd20575e5a7766f380d06 media: si470x: Fix use-after-free in si470x_int_in_callback()
-655b7cde98c042a486555b2b2f5a679884b56701 clk: st: Fix memory leak in st_of_quadfs_setup()
+b6688df107da2558208e41dbe52e125f78a14684 soc: ti: smartreflex: Fix PM disable depth imbalance in omap_sr_probe
+2c8f95441ed4ef04df77b136217c2b1e9c7bfc10 perf: arm_dsu: Fix hotplug callback leak in dsu_pmu_init()
+4a259508b09ea27a4a625630fee44204078c308b arm64: dts: mt2712e: Fix unit_address_vs_reg warning for oscillators
+0cb28b320ef78e8aac36244bfe40f60059510ddc arm64: dts: mt2712e: Fix unit address for pinctrl node
+dc217fc9d6a8b60210924b9e60d72849905fcdcc arm64: dts: mt2712-evb: Fix vproc fixed regulators unit names
+e2a1c465e8bcf971062f1184df915d4e32ff6df4 arm64: dts: mediatek: mt6797: Fix 26M oscillator unit name
+0345ff5b8c8f2fc9ac7181f59733fad0df9f5cca ARM: dts: dove: Fix assigned-addresses for every PCIe Root Port
+ae2f089caedd45726b6da40e3574d25f204ee31c ARM: dts: armada-370: Fix assigned-addresses for every PCIe Root Port
+56466e6d9386e68c5b0e480de1eeff3143bf7eb3 ARM: dts: armada-xp: Fix assigned-addresses for every PCIe Root Port
+05720ce446ab5d5cdb2ce4e6a113c0e86d2cfe48 ARM: dts: armada-375: Fix assigned-addresses for every PCIe Root Port
+ace431cb6b52b9cdcae23a18ccbf977b8a2a2740 ARM: dts: armada-38x: Fix assigned-addresses for every PCIe Root Port
+daa1ca694be1704dc31271cd2acc7df94b59e725 ARM: dts: armada-39x: Fix assigned-addresses for every PCIe Root Port
+f53eaa8aabd7996a663d81f78e59a13d877820e0 ARM: dts: turris-omnia: Add ethernet aliases
+cb0b0aac759b27d96735eca57adfa688300facd0 ARM: dts: turris-omnia: Add switch port 6 node
+8ce63d452c1df11b1fa2c342a55a6d9a700bf29d ARM: dts: armada-38x: Fix compatible string for gpios
+17b5365ba3c0fe0047b355ab45b901f8b5544e4e ARM: dts: armada-39x: Fix compatible string for gpios
+39355ae570b345e275e4c22493efec0d15f88235 pstore/ram: Fix error return code in ramoops_probe()
+f2796c819cd06d79d16929348c9bb401584c3450 ARM: mmp: fix timer_read delay
+4c2cfaf3c47b187badeef192cf75e91756609ef7 pstore: Avoid kcore oops by vmap()ing with VM_IOREMAP
+72f63d45d3d6f39c6130e5fd1f04650ac1461720 tpm/tpm_crb: Fix error message in __crb_relinquish_locality()
 
---===============3728954455699446309==--
+--===============7614635586040601203==--
