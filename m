@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2953163681976403224=="
+Content-Type: multipart/mixed; boundary="===============2773648428099876238=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Tue, 20 Dec 2022 08:43:44 -0000
-Message-Id: <167152582431.17898.18052367792214407998@gitolite.kernel.org>
+Date: Tue, 20 Dec 2022 08:43:48 -0000
+Message-Id: <167152582870.17980.6706288390838240132@gitolite.kernel.org>
 
---===============2953163681976403224==
+--===============2773648428099876238==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-next
+  - ref: refs/heads/staging-testing
     old: f9ff5644bcc04221bae56f922122f2b7f5d24d62
     new: 6feb57c2fd7c787aecf2846a535248899e7b70fa
     log: revlist-f9ff5644bcc0-6feb57c2fd7c.txt
 
---===============2953163681976403224==
+--===============2773648428099876238==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1671525823 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1671525827 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1671525822-e8911dd9cbb16a04b934d4168e8afd24fa576f5f
+nonce 1671525827-3e6f26faa7361301d43bd9d7aabcf1ad0b36d383
 
-f9ff5644bcc04221bae56f922122f2b7f5d24d62 6feb57c2fd7c787aecf2846a535248899e7b70fa refs/heads/staging-next
+f9ff5644bcc04221bae56f922122f2b7f5d24d62 6feb57c2fd7c787aecf2846a535248899e7b70fa refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmOhdb8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ID4P/RbvkpRyZkv63vkeJiCM
-jZzgf15UvKFMNp1t7WPyEqShBnX1YKi83uwOVFs53HpEuKBowse1/NTrBLgEW/vZ
-57i3uMefKjEp0uQWcgp6Ox/rTDsuhZMv2p2MB3R/l+3Og5yJHjTcUun8oes4/o9h
-xzYFRm75NnmAlGEvycmd6sRo42WrzeYrZRcMnXTFWJxt0O4jt7Aw+YKAvtEnQecb
-F6Sa1poAz3jG/BGDNVigUGF69YDn22NB7qnJg4vFjoGD1UYO1y2ZQICofyuvvwzr
-VB7uPAau+XP6cLG9RbzwVOR/o+98QlurHEZRN3G/SGacoR10u8zCZ4BhcNE4DOQ7
-yTi/odcQr+uvTSuHfefDHmXttrYTK5LaWdh/YwGPasxRVq3XLRCX7xSJibySplcl
-LTwvVfnwu8a0AI54rjKMy1pY5jf7ufuL2LC/ZYBu+wCJkzYOWVghKSxs29irY4gc
-tTli4gUg/OUdmAIYZv33QK9R0a465Gg3Al/88UIhSwp9R5e8vRkkmF0FZD7FAL8d
-PjGx/pRcecQVIWlod9xl8/P3MQ1JBPzfNDdBIfuVAQZNZUDYCqPHDNDM8TCFnmyj
-PvUQ4opnZm7ZpDvM/enhPBcnAuTgXCkxhTHY6RyIQn6lfCr7BFFPjSNP4g837r/R
-tb98V8iLM81M+xCjJvMMuWC8
-=A8dV
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmOhdcMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+GqsQAJYG2TjittHTPAUrS2ws
+ZHteum81RGTKeqWL6OJRN3Zi74AO+C8WYJllgNFySd/56QIJaQ9z9u24rr/SvyLb
+HEetDP+OkQG1jZcqrm/k7BiAiCMFuckkFugUvHcErwDlE3cfeZW2atOKcsaxdvIl
+Q7oUCE42MdMX0RHw+YYZgk9l9kHW3B2RlE4Sjeb/gNpdlxHfnNavjUVHa7tWNqxC
+aXWNWa+z18l23MCyluWYZ8IyQinm1JKRQfrp86ef5d06fL9qyjwusEB9kEr4tPFl
+Hf7ptz5yZLksr9K1XoDiBWJzY7YCA4CYvKnZt7KrdfMIq6FI40RZ3RGWAUxfWXEf
+PyNIIfRdbmxRGJ/Ylm/o9LIM5iIk+8YqtzPAE+Zun9/yPvalrVrhleS6AyVSp7h7
+Kbzes8kPWtCs8u3fmk9+PvxGmdYlyFVQXQatdDPM7LpKQ+bF4P9C2DwPpO73VrHo
+LRWPNiaTop5LmnB4nLUlzenxpAaZ8LhbU57la+xbkOfKCMWMhbnRSMPqt1qnfiZQ
+AuBMxDEc0nsQgoacCyjce7xkIq5Jbid9jktsGRapENAwdL7xexLBVGEvADGU0XM6
+gcRWTe+8XimQdyXHMbzW51o3R6T9F/L+t6nBsGiLwAFPYwZDT4Oc3+e+cbEvJ8HX
+LKwvtomqYh7unQ7v0S/j6L7B
+=2JCo
 -----END PGP SIGNATURE-----
 
---===============2953163681976403224==
+--===============2773648428099876238==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -741,4 +741,4 @@ aeba12b26c79fc35e07e511f692a8907037d95da Merge tag 'nfsd-6.2-1' of git://git.ker
 158738ea75059fb4ddf812e2cb9fe1ff6e22bc70 Merge tag 'zstd-linus-v6.2' of https://github.com/terrelln/linux
 6feb57c2fd7c787aecf2846a535248899e7b70fa Merge tag 'kbuild-v6.2' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 
---===============2953163681976403224==--
+--===============2773648428099876238==--
