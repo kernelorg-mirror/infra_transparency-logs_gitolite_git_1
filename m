@@ -1,25 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-drivers
-Date: Wed, 21 Dec 2022 10:46:33 -0000
-Message-Id: <167161959329.13270.15171564387365400123@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ribalda/linux
+Date: Wed, 21 Dec 2022 10:54:25 -0000
+Message-Id: <167162006519.17207.9681818351234457924@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/geert/renesas-drivers
-user: geert
+repo: pub/scm/linux/kernel/git/ribalda/linux
+user: ribalda
 changes:
-  - ref: refs/heads/topic/renesas-bsp-rebase-v6.1-experimental
-    old: 2a889e2de8a84fbe6fa76578328bafe5b8b863d0
-    new: d6c82e3700bcb6dd4b36ed28a17fbd9c1afd6584
+  - ref: refs/heads/b4/disable-kexec-reset
+    old: 8d317121410e07ba11733082dfb4bae7afe410f8
+    new: 0399bd911730034167c7ec4b3d1ca07b261937a3
     log: |
-         f145e50b9d1e1dff85edda16583f38e509c7ce4b BSP rebase: some more handled or ignored patches
-         818067c83f40358045cf0fc2d0039623e652d4e3 i2c: rcar: Add fast mode plus support
-         6a1e058540ab52560da3f0ceaf7e57b76b41ca3f BSP rebase: add I2C items
-         677ff2b120870045abc82455ecb44e84a8e90d70 BSP rebase: remove more ignored items
-         abe6122417bb775c2f65c1b82dcc9d070e39e433 BSP rebase: Document RZ/Five support
-         cc905f131e78a0728f6c2d282ac32b193e8436fb BSP rebase: Move Z max clk rate fix to handled
-         d6c82e3700bcb6dd4b36ed28a17fbd9c1afd6584 [LOCAL] arm64: defconfig: Add renesas_defconfig
+         ef6d4fe235d5fa1ddccf7e4b5474db53b7a33b20 kexec: Add new parameter to limit the access to kexec
+         f0a3d443dce03c4c5234b7cf79cb26747f25a40b Documentation: sysctl: Correct kexec_load_disabled
+         3fb7511c282381fda1f5c791592c3cd369934f7c kexec: Factor out kexec_load_permitted
+         0399bd911730034167c7ec4b3d1ca07b261937a3 kexec: Introduce parameters load_limit_reboot and load_limit_panic
          
