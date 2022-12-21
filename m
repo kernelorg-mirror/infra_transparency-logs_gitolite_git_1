@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3209703169619926994=="
+Content-Type: multipart/mixed; boundary="===============4794321781094058287=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/utils/b4/b4
-Date: Wed, 21 Dec 2022 14:39:22 -0000
-Message-Id: <167163356285.3414.16733481137658784046@gitolite.kernel.org>
+Date: Wed, 21 Dec 2022 14:40:26 -0000
+Message-Id: <167163362603.5747.6205597309362778450@gitolite.kernel.org>
 
---===============3209703169619926994==
+--===============4794321781094058287==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,31 +16,28 @@ repo: pub/scm/utils/b4/b4
 user: mricon
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/stable-0.11.y
-    old: a141112b410bd68925db69807ae03b9894313cec
-    new: fc81d901a96a1df9a198c840c9f1a7d63ef1a720
-    log: |
-         fc81d901a96a1df9a198c840c9f1a7d63ef1a720 Prepare for 0.11.1
-         
+  - ref: refs/tags/v0.11.1
+    old: 0000000000000000000000000000000000000000
+    new: 650cb80a42583f7b5742294d35681ca7326cbcb0
 
---===============3209703169619926994==
+--===============4794321781094058287==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher B6C41CE35664996C! 1671633562 -0500
+pusher B6C41CE35664996C! 1671633625 -0500
 pushee gitolite.kernel.org:pub/scm/utils/b4/b4
-nonce 1671633562-6ebe44becbaf14bc9c0252619428ee788ce0dbf5
+nonce 1671633625-53b76a29d86cf34d3e13862879370c9ed7a2e186
 
-a141112b410bd68925db69807ae03b9894313cec fc81d901a96a1df9a198c840c9f1a7d63ef1a720 refs/heads/stable-0.11.y
+0000000000000000000000000000000000000000 650cb80a42583f7b5742294d35681ca7326cbcb0 refs/tags/v0.11.1
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCY6MamgAKCRC2xBzjVmSZ
-bMEkAQC01I7EG25mYByEFRlN/UIbRXWtvcRUm2n2RVpudQzCfwEA1fe2qVf6eNej
-jsilGU/S/+q/A0PQFxPE7/bvepocZA4=
-=pjnX
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCY6Ma2QAKCRC2xBzjVmSZ
+bJ1nAP9xY1WM3ifp2AegxdDsKKUy+WCoLtGtbSWu82Pte1CgUQEA1WYHVkK6UY6o
+aG5mME8Bgk+37S8OfkbbHRi4RaIPRQk=
+=e9/b
 -----END PGP SIGNATURE-----
 
---===============3209703169619926994==--
+--===============4794321781094058287==--
