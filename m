@@ -1,28 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/kernel/kexec/kexec-tools
-Date: Wed, 21 Dec 2022 15:30:20 -0000
-Message-Id: <167163662039.7236.5502664498944870422@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Wed, 21 Dec 2022 15:50:03 -0000
+Message-Id: <167163780373.20502.1308898955351002177@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/kernel/kexec/kexec-tools
-user: horms
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/main
-    old: ffb186b834203d71d273c2c48ad049f072af8139
-    new: ae1bd3dde601516f9e90fdc127aa48a81c0d33bc
+  - ref: refs/heads/io_uring-6.2
+    old: d1f53b3eac82301a31017095b0773caf4baf6574
+    new: 071531e9071b94c212b29aa23c696a9e505a6af6
     log: |
-         ae1bd3dde601516f9e90fdc127aa48a81c0d33bc kexec-tools 2.0.26
+         52ea806ad983490b3132a9e526e11a10dc2fd10c io_uring: finish waiting before flushing overflow entries
+         071531e9071b94c212b29aa23c696a9e505a6af6 io_uring/cancel: mark task running before re-grabbing the ctx mutex
          
-  - ref: refs/heads/master
-    old: ffb186b834203d71d273c2c48ad049f072af8139
-    new: ae1bd3dde601516f9e90fdc127aa48a81c0d33bc
-    log: |
-         ae1bd3dde601516f9e90fdc127aa48a81c0d33bc kexec-tools 2.0.26
-         
-  - ref: refs/tags/v2.0.26
-    old: 0000000000000000000000000000000000000000
-    new: efe9643904661937a55767ecd75b4d8de9e31d26
