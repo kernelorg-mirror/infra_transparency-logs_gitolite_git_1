@@ -1,100 +1,144 @@
-Content-Type: multipart/mixed; boundary="===============8055649051218557759=="
+Content-Type: multipart/mixed; boundary="===============1552026716619992536=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Wed, 21 Dec 2022 17:22:13 -0000
-Message-Id: <167164333348.10246.14282509950695368272@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
+Date: Wed, 21 Dec 2022 17:22:59 -0000
+Message-Id: <167164337963.10556.10087286850017118404@gitolite.kernel.org>
 
---===============8055649051218557759==
+--===============1552026716619992536==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
-user: maz
+repo: pub/scm/linux/kernel/git/stable/linux
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/kvm-arm64/nv-6.2-WIP
-    old: 714aebbf700ae923b5c81662de280269d178a759
-    new: c8539ed3f7a4a156cbf241317d98dd753db95164
-    log: revlist-714aebbf700a-c8539ed3f7a4.txt
+  - ref: refs/heads/master
+    old: b6bb9676f2165d518b35ba3bea5f1fcfc0d969bf
+    new: 7c0846125358f991d83f34ddde52956b196db3de
+    log: revlist-b6bb9676f216-7c0846125358.txt
 
---===============8055649051218557759==
+--===============1552026716619992536==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-714aebbf700a-c8539ed3f7a4.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-f54419d46fc5e8853060b0041012c5ec4281f2b4 KVM: arm64: Fix S1PTW handling on RO memslots
-8677fba347b51fb927fa1c2e8238ce30640fce15 KVM: arm64: Kill CPACR_EL1_TTA definition
-a1882816f36a6263b2c66b2525f56b60ab5b21ee KVM: arm64: vgic: Add Apple M2 cpus to the list of broken SEIS implementations
-92c2488c2e199cd7213867240d08398e58f998aa arm64: Add ARM64_HAS_NESTED_VIRT cpufeature
-828c89dffc588329eefe09d3f7040eb5b98cdb3d KVM: arm64: nv: Introduce nested virtualization VCPU feature
-41690523408626ff866d368404ece2c77f0b8d3a KVM: arm64: nv: Reset VCPU to EL2 registers if VCPU nested virt is set
-063d70ca599a5cee04a7fdb669a997359737ad1c KVM: arm64: nv: Allow userspace to set PSR_MODE_EL2x
-db494c53b2436790e31818b60daddfc6efb77774 KVM: arm64: nv: Add EL2 system registers to vcpu context
-2dbf9c331ef91094f1489904f76fa63b091d03ac KVM: arm64: nv: Add nested virt VCPU primitives for vEL2 VCPU state
-485035565a3524f4c946b2eb2b64808ce05a858a KVM: arm64: nv: Handle HCR_EL2.NV system register traps
-9433053adf5794e6516668c1270c0326db256f3d KVM: arm64: nv: Reset VMPIDR_EL2 and VPIDR_EL2 to sane values
-cfb392374c024988b2c09b22b2cbd4cd5c8ed329 KVM: arm64: nv: Support virtual EL2 exceptions
-ff99313ff91dd4dab3980816098f2383e757c887 KVM: arm64: nv: Inject HVC exceptions to the virtual EL2
-8c7ac2314601e05232524125191e6c168683c42d KVM: arm64: nv: Handle trapped ERET from virtual EL2
-26d04afe9b5564316b05d62abb1ce39f419b71df KVM: arm64: nv: Add non-VHE-EL2->EL1 translation helpers
-54ddbcccebf5dfce731d056a30f67d9316769bf7 KVM: arm64: nv: Handle virtual EL2 registers in vcpu_read/write_sys_reg()
-7568ac784aeee85bd385cfcd6646681252ba3fb5 KVM: arm64: nv: Handle SPSR_EL2 specially
-3ad9d41088f8650cd89c6e7f4ea45864b6efa84d KVM: arm64: nv: Handle HCR_EL2.E2H specially
-54a25babcf97cbf277b693eb8d8f75c9e711aab0 KVM: arm64: nv: Save/Restore vEL2 sysregs
-95d52756077279514483605acf3989b6b4a54af4 KVM: arm64: nv: Emulate PSTATE.M for a guest hypervisor
-aa1746c8a742053181dda4500391409d5cef10c4 KVM: arm64: nv: Trap EL1 VM register accesses in virtual EL2
-f0d9f2d9cc0f3bbeaac2d234863fce105bceb98b KVM: arm64: nv: Trap SPSR_EL1, ELR_EL1 and VBAR_EL1 from virtual EL2
-8160c4d6f7c28ce1258d9aaba6dac003e80a3245 KVM: arm64: nv: Trap CPACR_EL1 access in virtual EL2
-257f146809648f06ad120a8f83d1adc861ba7fb7 KVM: arm64: nv: Handle PSCI call via smc from the guest
-e6e15222c7215fa94d6ed6b502ab9df73ee3e780 KVM: arm64: nv: Respect virtual HCR_EL2.TWX setting
-854d192227794b8a061698bb4db33ea9124923ce KVM: arm64: nv: Respect virtual CPTR_EL2.{TFP,FPEN} settings
-41801ca20559e84b90187653fd2298df6f3ffdcc KVM: arm64: nv: Respect the virtual HCR_EL2.NV bit setting
-a37f553cc5d524056930b88b9e784ab89a868693 KVM: arm64: nv: Respect virtual HCR_EL2.TVM and TRVM settings
-0d93dd9cdce53a16fcffa139aa3aaba88342e74c KVM: arm64: nv: Respect the virtual HCR_EL2.NV1 bit setting
-a85d508ec5f228c1bbc840c6dc4b12570986b46f KVM: arm64: nv: Allow a sysreg to be hidden from userspace only
-2848a13a3e47ddc41800c7e71eb77ec46ee9e11b KVM: arm64: nv: Emulate EL12 register accesses from the virtual EL2
-f832bd81b7b88cb1f3a6707fe94aa78440a72f6e KVM: arm64: nv: Forward debug traps to the nested guest
-14dd10b41becdd7c9959b16804d8250d01b62eee KVM: arm64: nv: Configure HCR_EL2 for nested virtualization
-1f7aeb85d834d9bf77b67ab7fcf28cb822e0efc9 KVM: arm64: nv: Only toggle cache for virtual EL2 when SCTLR_EL2 changes
-0833583ab8e99382dab88a99dded4394489317c0 KVM: arm64: nv: Filter out unsupported features from ID regs
-0ed96196307b7d5545942a5d4851fbb861f87ca8 KVM: arm64: nv: Hide RAS from nested guests
-d9e9430c0c283126c84f9513fda287facff479fd KVM: arm64: nv: Support multiple nested Stage-2 mmu structures
-b8009eb69b173ec7de6500580c5b115c72e1efe9 KVM: arm64: nv: Implement nested Stage-2 page table walk logic
-4655b1efc0815ea27f59253f37c303e68b599d3f KVM: arm64: nv: Handle shadow stage 2 page faults
-4f3f29993bd8dbeebaaefbb14cb04ca50f470e50 KVM: arm64: nv: Restrict S2 RD/WR permissions to match the guest's
-c9b3f3cc64dc5f59765f86deb4925c3e39cf1382 KVM: arm64: nv: Unmap/flush shadow stage 2 page tables
-52f3fe37915c28259ca2af0f9cea17fde60cb372 KVM: arm64: nv: Set a handler for the system instruction traps
-7efaf905286f252416f664dbb45b001078993d2c KVM: arm64: nv: Trap and emulate AT instructions from virtual EL2
-6f2e1140d298a5f24a3e0fc5c92db073f705cadd KVM: arm64: nv: Trap and emulate TLBI instructions from virtual EL2
-caa4ef18b3445f0abb9f2ab9b868ce0106680201 KVM: arm64: nv: Fold guest's HCR_EL2 configuration into the host's
-0a9244e56ecab42a33a56271fc80f469983cfe9a KVM: arm64: nv: arch_timer: Support hyp timer emulation
-6bb169de19e8bc3c383bb477f3840ef4c0067c36 KVM: arm64: nv: Add handling of EL2-specific timer registers
-3e84d65ae7add07938c1ad556224ce4c1842f5e5 KVM: arm64: nv: Load timer before the GIC
-af5dcca19866151bde766ed97de08b9c327c9b77 KVM: arm64: nv: Nested GICv3 Support
-12718976c469c01f9f62db78df0528a1bc6aa096 KVM: arm64: nv: Don't load the GICv4 context on entering a nested guest
-7c512291294808698f97d2da8f74780609f02ad9 KVM: arm64: nv: vgic: Emulate the HW bit in software
-137cc9a9e6278787dc445720c1dc41c0d9060685 KVM: arm64: nv: vgic: Allow userland to set VGIC maintenance IRQ
-f2445aeac15df8ff61a1aa13d8bbae6d7c807bff KVM: arm64: nv: Implement maintenance interrupt forwarding
-a97b8ab152a55f93d0c36904c9f81c278ad83654 KVM: arm64: nv: Add nested GICv3 tracepoints
-db33ecad6f20108d904a888351580c117bed0795 KVM: arm64: nv: Allow userspace to request KVM_ARM_VCPU_NESTED_VIRT
-473b2a970b71e30a804cf1801d3dcde69c533032 KVM: arm64: nv: Add handling of ARMv8.4-TTL TLB invalidation
-1719fdb2420ed5d2ed3bce4f6a4624a203a1de2a KVM: arm64: nv: Invalidate TLBs based on shadow S2 TTL-like information
-9599b67a8a471a29a2e1f9442c0ba36ae40a057a KVM: arm64: nv: Tag shadow S2 entries with nested level
-85c09c6365d2a827da4c6be0144017d015a04d13 KVM: arm64: nv: Add include containing the VNCR_EL2 offsets
-639fbf5059bf5d0cad56ee2cbf477ab9883ca8e4 KVM: arm64: nv: Map VNCR-capable registers to a separate page
-0175005d9b3cd5880282fd3b8b2ae87f175f9fac KVM: arm64: nv: Move nested vgic state into the sysreg file
-2a52946c81af7cab111ebfdbd803abd13dc2f2b0 KVM: arm64: Add ARMv8.4 Enhanced Nested Virt cpufeature
-aff26feac83a562612085a842775b093032af4b1 KVM: arm64: nv: Sync nested timer state with ARMv8.4
-0f81b221b4993abe89619eff2a4b423b59ed2dfd KVM: arm64: nv: Allocate VNCR page when required
-408b4e717fe4c33bd5b2fcff77078b70cc6f74b7 KVM: arm64: nv: Enable ARMv8.4-NV support
-136467d485762af3bf752a6bc3a4ebed676302dc KVM: arm64: nv: Fast-track 'InHost' exception returns
-e65058dbb08218393fcc35eec59a08e9c79e9248 KVM: arm64: nv: Fast-track EL1 TLBIs for VHE guests
-9291036fbbd27d12d5e31d5cb0c12575026e410a mailmap: Update address for Jintack Lim
-ad4000c36c02654a94e4e182077b7f3a1c3a3fa6 fixup! KVM: arm64: nv: Support virtual EL2 exceptions
-c8539ed3f7a4a156cbf241317d98dd753db95164 fixup! KVM: arm64: nv: vgic: Allow userland to set VGIC maintenance IRQ
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1671643377 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
+nonce 1671643374-f58a5008599114277e3979b3d9a8e9c92e00df42
 
---===============8055649051218557759==--
+b6bb9676f2165d518b35ba3bea5f1fcfc0d969bf 7c0846125358f991d83f34ddde52956b196db3de refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmOjQPEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+K+QP/3fpcPy6IRD/L4FfgzPP
+BBngji+KjeiY6ByqcFYsX1L07X9HyFWqaFy/VNuhG66u/P7+vbzfvfl2jBQQIPth
+emjktn409l1CqwtIRcdwJvYor71O+KobTC3Z2FsXSNKHrFx0qrh9rjD65HqDTlfT
+86AJNuh++eFlczKnNf2rczvlljYOlzxlQgulkroPty15nOthjsmUp0YLs9+dLZGf
+XJhvOIRrG0YaSDt0PUFACb4nBDr3zoW2qgEW9QI5/R/HNo6F6QMPS713/M+PkYdn
+BnLZvbIFzNMA0mUJ24AsLLZs+I0VyCImI4PeerXBf/9K5XIPWlD9AMc543HUQ+U/
+RV67UC44cCrJLc7nq6BMHoqkiic51g8o+Dl2p523nzIzAYaIvj4FMuMKxmfFMIYJ
+2EEr7uGlUMjnEasAhup96Wk8/iBa4YGem0ri6WT4zj5mOEGv43pajVsxEMUREqu9
+7fvXZxx+DJi5He3zx1KuUmgHRXBFLF5nBlv1t1nSV1eJdvwXTE6PWMbOkFcaq1oJ
+vcy/vLRDLHkreZyKd9kzOui5E7q4U+UdZTJJ2bQsY79YhIS74WYm6+ThNii41e3s
+GXNkv87/Hb/Z1gaygNhTdlxz4dIRlELmUwaAkBGcTQxqZMBWKSz3YQgMFxrpDa+J
+clcUYoyvgmrjm2cJHgBP8c9n
+=kVde
+-----END PGP SIGNATURE-----
+
+--===============1552026716619992536==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-b6bb9676f216-7c0846125358.txt
+
+5fb45f95eec682621748b7cb012c6a8f0f981e6a netfilter: flowtable: really fix NAT IPv6 offload
+ba57ee0944ff0085652cf8df91f9c571883debe6 ipvs: add a 'default' case in do_ip_vs_set_ctl()
+f9645abe4255bd79e4c63799634c996dd53db321 netfilter: conntrack: document sctp timeouts
+2c05bf3aa0741f4f3c72432db7801371dbbcf289 mnt_idmapping: move ima-only helpers to ima
+f3b4a00f0f62da252c598310698dfc82ef2f2e2e net: macsec: fix net device access prior to holding a lock
+3d0b738fc5adf9f380702ac1424672e4b32c3781 bonding: add missed __rcu annotation for curr_active_slave
+e95cc44763a41d5c715ef16742bcb1d8e6524a62 bonding: do failover when high prio link up
+42a8d4aaea8414f60eb2ed2d92df89a6e2db4615 selftests: bonding: add bonding prio option test
+da2b5b43420456beef5d5e1b43582e579ed08ef1 Merge branch 'bonding-fix-high-prio-not-effect-issue'
+ddc9648db162eee556edd5222d2808fe33730203 mISDN: hfcsusb: don't call dev_kfree_skb/kfree_skb() under spin_lock_irqsave()
+f0f596bd75a9d573ca9b587abb39cee0b916bb82 mISDN: hfcpci: don't call dev_kfree_skb/kfree_skb() under spin_lock_irqsave()
+1232946cf522b8de9e398828bde325d7c41f29dd mISDN: hfcmulti: don't call dev_kfree_skb/kfree_skb() under spin_lock_irqsave()
+e9ad498696325c6b437e49450661cf2c349e24f5 Merge branch 'misdn-don-t-call-dev_kfree_skb-kfree_skb-under-spin_lock_irqsave'
+de5dc44370fbd6b46bd7f1a1e00369be54a041c8 igb: Initialize mailbox message for VF reset
+2d4ee16d969c97996e80e4c9cb6de0acaff22c9f wireguard: timers: cast enum limits members to int in prints
+7ae9888d6e1ce4062d27367a28e46a26270a3e52 Merge git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
+d2b497a973fcb76a6b7a552f081b83a1edd91c86 docs/bpf: Reword docs for BPF_MAP_TYPE_SK_STORAGE
+ec9230b18b45853287298d70be23f8ec6bd44ff0 selftests/bpf: Fix a selftest compilation error with CONFIG_SMP=n
+a8dfde09c90109e3a98af54847e91bde7dc2d5c2 selftests/bpf: Select CONFIG_FUNCTION_ERROR_INJECTION
+e89f3edffb860a0f54a9ed16deadb7a4a1fa3862 bpf: prevent leak of lsm program after failed attach
+4121d4481b72501aa4d22680be4ea1096d69d133 bpf: Synchronize dispatcher update with bpf_dispatcher_xdp_func
+628050ec952d2e2e46ec9fb6aa07e41139e030c8 net: enetc: avoid buffer leaks on xdp_do_redirect() failure
+9f28157778ede0d4f183f7ab3b46995bb400abbe nfc: pn533: Clear nfc_target before being used
+1c123c567fb138ebd187480b7fc0610fcb0851f5 bpf: Resolve fext program type when checking map compatibility
+f506439ec3dee11e0e77b0a1f3fb3eec22c97873 selftests/bpf: Add a test for using a cpumap from an freplace-to-XDP program
+3ff8bff704f4de125dca2262e5b5b963a3da1d87 unix: Fix race in SOCK_SEQPACKET's unix_dgram_sendmsg()
+7e43039a49c2da45edc1d9d7c9ede4003ab45a5f r6040: Fix kmemleak in probe and remove
+2cb815cfc78b137ee38bcd65e7c955d6cc2cc250 net: stmmac: fix errno when create_singlethread_workqueue() fails
+c72a7e42592b2e18d862cf120876070947000d7a ravb: Fix "failed to switch device to config mode" message during unbind
+a7d82367daa6baa5e8399e6327e7f2f463534505 net: dsa: mv88e6xxx: avoid reg_lock deadlock in mv88e6xxx_setup_port()
+db0b124f02ba68de6517ac303d431af220ccfe9f igc: Enhance Qbv scheduling by using first flag bit
+d8f45be01dd9381065a3778a579385249ed011dc igc: Use strict cycles for Qbv scheduling
+3b61764fb49a6e147ac90d71dccdddc9d5508ba1 igc: Add checking for basetime less than zero
+e17090eb24944fbbe1f24d9f336d7bad4fbe47e8 igc: allow BaseTime 0 enrollment for Qbv
+6d05251d537a4d3835959a8cdd8cbbbdcdc0c904 igc: recalculate Qbv end_time by considering cycle time
+72abeedd83982c1bc6023f631e412db78374d9b4 igc: Set Qbv start_time and end_time to end_time if not being configured in GCL
+32f1002ed4851d9eb28ea1aba58757bd4b66e63b net: dsa: mt7530: remove redundant assignment
+b4cafb3d2c740f8d1b1234b43ac4a60e5291c960 devlink: hold region lock when flushing snapshots
+2fc60e2ff972d3dca836bff0b08cbe503c4ca1ce selftests: devlink: fix the fd redirect in dummy_reporter_test
+d1c4a3469e73730f7cbbcec661c2a9081af1aa45 selftests: devlink: add a warning for interfaces coming up
+3e31d209ed5fceb4a50118accd461b3b9b13e589 Merge branch 'devlink-fixes'
+68bb10101e6b0a6bb44e9c908ef795fc4af99eae openvswitch: Fix flow lookup to use unmasked key
+13e3c7793e2fa2707455aaf66f2498ed4a00d6e2 Merge tag 'for-netdev' of https://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
+078838f5b9c9203e94d7724f997392ea8012ea6a net: ethernet: ti: am65-cpsw: fix CONFIG_PM #ifdef
+214964a13ab56a9757d146b79b468a7ca190fbfb devlink: protect devlink dump by the instance lock
+2d7afdcbc9d32423f177ee12b7c93783aea338fb skbuff: Account for tail adjustment during pull operations
+3f6c3d29df58f391cf487b50a24ebd24045ba569 rcu: Don't assert interrupts enabled too early in boot
+89529367293c975c3580f49f38568f44848d5683 Merge branch '1GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
+9cd3fd2054c3b3055163accbf2f31a4426f10317 net_sched: reject TCF_EM_SIMPLE case for complex ematch module
+4feb2c44629e6f9b459b41a5a60491069d346a95 rxrpc: Fix missing unlock in rxrpc_do_sendmsg()
+fdb99487b0189f0ef883e353ad7484c78a8bd425 rxrpc: Fix security setting propagation
+eaa02390adb03b82f04babebf0cdd233793aecf5 rxrpc: Fix NULL deref in rxrpc_unuse_local()
+8fbcc83334a7b5b42b6bc1fae2458bf25eb57768 rxrpc: Fix I/O thread startup getting skipped
+608aecd16a31269485e2980898029dd01b03a73e rxrpc: Fix locking issues in rxrpc_put_peer_locked()
+c838f1a73d77abadb0810eff0e150ac88fef3da5 rxrpc: Fix switched parameters in peer tracing
+743d1768a008c8eae56ead497c9ba8237b14ee81 rxrpc: Fix I/O thread stop
+11e1706bc84f60040578056f8cef3d0139b92dda rxrpc: rxperf: Fix uninitialised variable
+31d35a02ad5b803354fe0727686fcbace7a343fe rxrpc: Fix the return value of rxrpc_new_incoming_call()
+98dbec0a0adc10d9441b6c29315406e275532eb3 Merge branch 'rxrpc-fixes'
+10073399cb5e389ab275bd1c9df4b486a2f0c9d4 net: microchip: vcap: Fix initialization of value and mask
+d83b950d44d2982c0e62e3d81b0f35ab09431008 myri10ge: Fix an error handling path in myri10ge_probe()
+e0c8bccd40fc1c19e1d246c39bcf79e357e1ada3 net: stream: purge sk_error_queue in sk_stream_kill_queues()
+1b0c84a32e37cf85d552261005091eb695313f38 nfp: fix unaligned io read of capabilities word
+2856a62762c8409e360d4fd452194c8e57ba1058 mctp: serial: Fix starting value for frame check sequence
+115dd5469019296040359060743de77071ccb6ec Documentation: devlink: add missing toc entry for etas_es58x devlink doc
+3bc2afcba81275306adfbfca83f38a52858c5940 can: flexcan: avoid unbalanced pm_runtime_enable warning
+f006229135b7debf4037adb1eb93e358559593db can: kvaser_usb: hydra: help gcc-13 to figure out cmd_len
+62e027fb0e5293d95e8d36655757ef4687c8795d net: dsa: microchip: remove IRQF_TRIGGER_FALLING in request_threaded_irq
+b389a902dd5be4ece505a2e0463b9b034de04bf5 mctp: Remove device type check at unregister
+fb87bd47516d9a26b6d549231aa743b20fd4a569 net: Introduce sk_use_task_frag in struct sock.
+98123866fcf3fe95a0c1b198ef122dfdbd351916 Treewide: Stop corrupting socket's task_frag
+08f65892c5ee15806dce7259e06c384b8cd768d7 net: simplify sk_page_frag
+918fb1aaa25812a277ab469679df17f45ce92313 Merge branch 'stop-corrupting-socket-s-task_frag'
+4be84df38a6f49b81e5909ede78242ba1538c1e6 Merge tag 'linux-can-fixes-for-6.2-20221219' of git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can
+6bb20c152b6bf7dd8ffb248f33c2593fd9aeb318 random: do not include <asm/archrandom.h> from random.h
+41a15855c1ee390a0ae9d0c29d32b451dd30a600 efi: random: fix NULL-deref when refreshing seed
+3c202d14a9d73fb63c3dccb18feac5618c21e1c4 prandom: remove prandom_u32_max()
+19e72b064fc32cd58f6fc0b1eb64ac2e4f770e76 net: fec: check the return value of build_skb()
+19822e3ee4c891e1e8434e290fbca0af52490240 Merge tag 'rcu-urgent.2022.12.17a' of git://git.kernel.org/pub/scm/linux/kernel/git/paulmck/linux-rcu
+222882c2ab1221b6df2d189138638a6435cd8e88 Merge tag 'random-6.2-rc1-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/crng/random
+878cf96f686c59b82ee76c2b233c41b5fc3c0936 Merge tag 'fs.vfsuid.ima.v6.2-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/idmapping
+609d3bc6230514a8ca79b377775b17e8c3d9ac93 Merge tag 'net-6.2-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
+7c0846125358f991d83f34ddde52956b196db3de m68k: remove broken strcmp implementation
+
+--===============1552026716619992536==--
