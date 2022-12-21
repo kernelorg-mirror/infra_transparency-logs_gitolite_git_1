@@ -1,176 +1,115 @@
-Content-Type: multipart/mixed; boundary="===============0936215650645432908=="
+Content-Type: multipart/mixed; boundary="===============8758832787196869946=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Wed, 21 Dec 2022 18:22:14 -0000
-Message-Id: <167164693451.16577.5907966553025922231@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Wed, 21 Dec 2022 18:48:57 -0000
+Message-Id: <167164853709.1063.10954413337549638983@gitolite.kernel.org>
 
---===============0936215650645432908==
+--===============8758832787196869946==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/queue/4.14
-    old: 4cb55a2d2410021254543eff00e610c6a9187512
-    new: b5df4f546b4e1d7212e407dce0c8cc57da5f5f12
-    log: revlist-4cb55a2d2410-b5df4f546b4e.txt
-  - ref: refs/heads/queue/4.19
-    old: e5b28d2fb79e94bc507e603f0a508a9329feb90f
-    new: d68c20db7854c02198d888ffe2acca0653ee9802
-    log: revlist-e5b28d2fb79e-d68c20db7854.txt
-  - ref: refs/heads/queue/4.9
-    old: 0c7df910c7a198a73b7a8e700560437a9aacf7d2
-    new: 45a66f1de247744fa26953278b09fb6ed0dab5f2
-    log: revlist-0c7df910c7a1-45a66f1de247.txt
-  - ref: refs/heads/queue/5.4
-    old: 0a22a02ebcafe0572c5efa10eea51b38fc39082d
-    new: 5e2890d218461d0322dbeab320d801253c86bfda
-    log: revlist-0a22a02ebcaf-5e2890d21846.txt
-  - ref: refs/heads/queue/6.1
-    old: 4675ac94bdb79173aecc5c999c1fa21acb012bc5
-    new: 9cc154733e7939d1c6eea01b8e118e5a6a25130d
-    log: revlist-4675ac94bdb7-9cc154733e79.txt
+  - ref: refs/heads/master
+    old: d264dd3bbbd16b56239e889023fbe49413a58eaf
+    new: 0a924817d2ed9396401e0557c6134276d2e26382
+    log: revlist-d264dd3bbbd1-0a924817d2ed.txt
 
---===============0936215650645432908==
+--===============8758832787196869946==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4cb55a2d2410-b5df4f546b4e.txt
+Content-Disposition: attachment; filename=revlist-d264dd3bbbd1-0a924817d2ed.txt
 
-aec5188fa33d745528d05608c52e99443af47352 libtraceevent: Fix build with binutils 2.35
-27efea6cc4526c34f0c5296e6fa9e5eb8de0c8a5 once: add DO_ONCE_SLOW() for sleepable contexts
-a2d9cbd191250b8d085f0ce7ddd60e0ea77f8b54 mm/khugepaged: fix GUP-fast interaction by sending IPI
-adf447a60ae60f6a5c42facebd40d3354ca47048 mm/khugepaged: invoke MMU notifiers in shmem/file collapse paths
-f208ec5e35d6ee6f9cd6a314d13991cf1344e887 block: unhash blkdev part inode when the part is deleted
-93d68b596ff466b2bdae0567cd699152afdf93bf nfp: fix use-after-free in area_cache_get()
-d11465b6ff164041084136994901aa85a4749441 ASoC: ops: Check bounds for second channel in snd_soc_put_volsw_sx()
-ae36d4ccce9fecf7decd8aca55fe366b6498f041 can: sja1000: fix size of OCR_MODE_MASK define
-d724e11acd6d8811395038a11a0264bd8ecd7e04 can: mcba_usb: Fix termination command argument
-4226875ee9caf77ed3e76c6fab39bc30430a910c ASoC: ops: Correct bounds check for second channel on SX controls
-c5f44dc502c1be621cc10582e25d140c0222cf47 perf script python: Remove explicit shebang from tests/attr.c
-3899e9bc2061f2a192e9e72761be5390e23c6590 udf: Discard preallocation before extending file with a hole
-f039e34dc0eca35ea08f217ac6dd7cb8638f5178 udf: Drop unused arguments of udf_delete_aext()
-a85d9e6a4cb1f7816c9ffdcb4ddc861a3b6ec019 udf: Fix preallocation discarding at indirect extent boundary
-a45dacc5b2326eb030058e7ae78f1e149e16b131 udf: Do not bother looking for prealloc extents if i_lenExtents matches i_size
-312798d381fc6ee8fda9a0a919e3cd621554632c udf: Fix extending file within last block
-e294463d9e5eea299f65d910b51d3069fedaff03 usb: gadget: uvc: Prevent buffer overflow in setup handler
-afeb4ba0af1d0a1a3f1e450ec36889b172a092e6 USB: serial: option: add Quectel EM05-G modem
-4afe29ea9a9989593c94b29c400f77452e86ea14 USB: serial: cp210x: add Kamstrup RF sniffer PIDs
-3887daecea09b3e58d2a3c5e91546d79254a0d27 igb: Initialize mailbox message for VF reset
-e1f8f30c93003482ed79ba633ceab4572052b29b Bluetooth: L2CAP: Fix u8 overflow
-b5df4f546b4e1d7212e407dce0c8cc57da5f5f12 net: loopback: use NET_NAME_PREDICTABLE for name_assign_type
+bd6ae049b7be4785082e5c3c0a80e8c9e3ff2fc6 fs/ntfs3: Add comments about cluster size
+098250db5dfcc01161fd64e9bce5b012280a85b3 fs/ntfs3: Add hidedotfiles option
+ae6b47b5653e986e1dcaeb1ca7d13a04aeefdcfe fs/ntfs3: Change destroy_inode to free_inode
+a3a956c78efaa202b1d75190136671cf6e87bfbe fs/ntfs3: Add option "nocase"
+43f03acbc1ec73beea9700f46f9cfdec388614d2 fs/ntfs3: Rename variables and add comment
+0b66046266690454dc04e6307bcff4a5605b42a1 fs/ntfs3: Validate BOOT record_size
+e19c6277652efba203af4ecd8eed4bd30a0054c9 fs/ntfs3: Add overflow check for attribute size
+6db620863f8528ed9a9aa5ad323b26554a17881d fs/ntfs3: Validate data run offset
+2681631c29739509eec59cc0b34e977bb04c6cf1 fs/ntfs3: Add null pointer check to attr_load_runs_vcn
+f27b92ec0926efa3eadcebb97a90faba12e16041 fs/ntfs3: Fix [df]mask display in /proc/mounts
+6d5c9e79b726cc473d40e9cb60976dbe8e669624 fs/ntfs3: Fix attr_punch_hole() null pointer derenference
+92f017c4aee6e2bb79593adeacccbea3afe62223 fs/ntfs3: Use kmalloc_array for allocating multiple elements
+51e76a232f8c037f1d9e9922edc25b003d5f3414 fs/ntfs3: Fix memory leak on ntfs_fill_super() error path
+caad9dd8792a2622737b7273cb34835fd9536cd2 fs/ntfs3: Avoid UBSAN error on true_sectors_per_clst()
+0a4e7ce6bc03389d75bc62eb6de66cb5efc55839 fs/ntfs3: Fix junction point resolution
+c1ca8ef0262b25493631ecbd9cb8c9893e1481a1 fs/ntfs3: Add null pointer check for inode operations
+4f1dc7d9756e66f3f876839ea174df2e656b7f79 fs/ntfs3: Validate attribute name offset
+e001e60869390686809663c02bceb1d3922548fb fs/ntfs3: Harden against integer overflows
+4d42ecda239cc13738d6fd84d098a32e67b368b9 fs/ntfs3: Validate buffer length while parsing index
+54e45702b648b7c0000e90b3e9b890e367e16ea8 fs/ntfs3: Validate resident attribute name
+887bfc546097fbe8071dac13b2fef73b77920899 fs/ntfs3: Fix slab-out-of-bounds read in run_unpack
+d45da67caedacd500879de5e649360cc70777af7 fs/ntfs3: Use strcmp to determine attribute type
+0d6d7c61ffeedc782b651a080ad6543ad45314b6 fs/ntfs3: Don't use uni1 uninitialized in ntfs_d_compare()
+bfcdbae0523bd95eb75a739ffb6221a37109881e fs/ntfs3: Validate index root when initialize NTFS security
+557d19675a470bb0a98beccec38c5dc3735c20fa fs/ntfs3: Fix slab-out-of-bounds read in ntfs_trim_fs
+0d0f659bf713662fabed973f9996b8f23c59ca51 fs/ntfs3: Use __GFP_NOWARN allocation at wnd_init()
+59bfd7a483da36bd202532a3d9ea1f14f3bf3aaf fs/ntfs3: Use __GFP_NOWARN allocation at ntfs_fill_super()
+019d22eb0eb707fc099e6e8fad9b3933236a06d0 fs/ntfs3: Validate attribute data and valid sizes
+75b5e47201329537c8b88531a59aab2cbcec8d61 fs/ntfs3: Eliminate unnecessary ternary operator in ntfs_d_compare()
+1d07a9dfa19914ad27bdb9ec9ac0baa2329b2ae3 fs/ntfs3: Add windows_names mount option
+d683c67c5f50802b9b14ea29d89d66a25327e965 fs/ntfs3: Document windows_names mount option
+4c9ba192c73f52dc1d549fcfeb109b725fea8950 fs/ntfs3: Fix hidedotfiles mount option by reversing behaviour
+66223324cba4290ba45c612fe1e31a265636ad2d fs/ntfs3: Make hidedotfiles mount option work when renaming files
+19b424501d8588a3111e50fa3d7d926594e78449 fs/ntfs3: Add hidedotfiles to the list of enabled mount options
+60adc860ca7d7a95d5befd2d3c3e644d23706b2c fs/ntfs3: Document the hidedotfiles mount option
+dc0fcc99b1756c3c703326aa0015ed73fc4e9a73 fs/ntfs3: Rename hidedotfiles mount option to hide_dot_files
+0d19f3d71394b0b03b8775c958b3354fa2259609 fs/ntfs3: Add system.ntfs_attrib_be extended attribute
+d49436c34448e01eb6ab85413af87de73c99494d fs/ntfs3: Document system.ntfs_attrib_be extended attribute
+658015167a8432b88f5d032e9d85d8fd50e5bf2c fs/ntfs3: Delete duplicate condition in ntfs_read_mft()
+ecfbd57cf9c5ca225184ae266ce44ae473792132 fs/ntfs3: Fix slab-out-of-bounds in r_page
+90c1cd540cc81023c5826891f3793ea159c4562e fs/ntfs3: Fix endian conversion in ni_fname_name
+88a8d0d2482f60596eec875ba5ba62901d8274ff fs/ntfs3: Add functions to modify LE bitmaps
+095d8ce635c116bb7813d865adfbccde8094d920 fs/ntfs3: Use _le variants of bitops functions
+08811ba59a61e8147c869e2d056c37ab8ca5ebde fs/ntfs3: Add ntfs_bitmap_weight_le function and refactoring
+9144b43820610bfb69c9821c39839ffe05f2e6b2 fs/ntfs3: Fix sparse problems
+3929042111de8cb283489ef4ea184103e3443536 fs/ntfs3: Remove unused functions
+ba1189288905dc33c16a8e56d6af9c8d1bc5ca8f fs/ntfs3: Simplify ntfs_update_mftmirr function
+2f56a3f8d824d34525951483e95b0ed04c5954bf fs/ntfs3: Fixing work with sparse clusters
+c380b52f6c5702cc4bdda5e6d456d6c19a201a0b fs/ntfs3: Change new sparse cluster processing
+07f4aa9dd245661414a2db0574bed9bc5736ccfd fs/ntfs3: Fix wrong indentations
+2b108260ea2c9ec07651aea4911d7e2e6ab560f7 fs/ntfs3: atomic_open implementation
+ad26a9c84510af7252e582e811de970433a9758f fs/ntfs3: Fixing wrong logic in attr_set_size and ntfs_fallocate
+0ad9dfcb8d3fd6ef91983ccb93fafbf9e3115796 fs/ntfs3: Changing locking in ntfs_rename
+910013f7c7ba9fb82ce33536c58212907ca05969 fs/ntfs3: Restore correct state after ENOSPC in attr_data_get_block
+6f80ed14d76c730f7943777ba259cd32870e6433 fs/ntfs3: Correct ntfs_check_for_free_space
+0e8235d28f3a0e9eda9f02ff67ee566d5f42b66b fs/ntfs3: Check fields while reading
+e31195a3ac71e7e50793163f933695231cb16513 fs/ntfs3: Fix incorrect if in ntfs_set_acl_ex
+97a6815e50619377704e6566fb2b77c1aa4e2647 fs/ntfs3: Use ALIGN kernel macro
+60ce8dfde03558bfc290cd915c60fa243ba2ae84 fs/ntfs3: Fix wrong if in hdr_first_de
+ec5fc72013762500867c9cef96fed89dc7161832 fs/ntfs3: Improve checking of bad clusters
+36963cf225f890f97fd84af0a82d323043edd0f1 fs/ntfs3: Make if more readable
+b248586a49a7729f73c504b1e7b958caea45e927 cifs: set correct tcon status after initial tree connect
+86fe0fa8747fb1bc4cc44fc1966e0959fe752f38 cifs: set correct ipc status after initial tree connect
+c877ce47e1378dbafa6f1bf84c0c83a05ca8972a cifs: reduce roundtrips on create/qinfo requests
+9fd29a5bae6e8f94b410374099a6fddb253d2d5f cifs: use fs_context for automounts
+abdb1742a312388651f04ca04e6e2ec2b0af5288 cifs: get rid of mount options string parsing
+2301bc103ac4acb6d6b6e5860eeed448c4ba2df0 cifs: remove unused smb3_fs_context::mount_options
+6d740164d8903e6a0e98c30f80fac6af19ce0a21 cifs: set resolved ip in sockaddr
+a73a26d97eca082fe13c964e5541543c1e78dc55 cifs: split out ses and tcon retrieval from mount_get_conns()
+a1c0d00572fca4adcb40e1fbd3acd481fc75e20b cifs: share dfs connections and supers
+cb3f6d8764529c33269c3478c17641cb097a615b cifs: don't refresh cached referrals from unactive mounts
+6916881f443f67f6893b504fa2171468c8aed915 cifs: fix refresh of cached referrals
+8332858569a096cff02e157555d839e0be921ec7 cifs: refresh root referrals
+1d04a6fe75eef16dd1816b112edb4406fd1fbffd cifs: don't block in dfs_cache_noreq_update_tgthint()
+a85ceafd41927e41a4103d228a993df7edd8823b cifs: fix confusing debug message
+466611e4af8252dce253cfaebdc7b0019acdbe7e cifs: fix source pathname comparison of dfs supers
+6fbdd5ab240443e3f8574eb9d407d03daace1ddc cifs: optimize reconnect of nested links
+25cf01b7c9200d6ace5a59125d8166435dd9dea7 cifs: set correct status of tcon ipc when reconnecting
+7ad54b98fc1f141cfb70cfe2a3d6def5a85169ff cifs: use origin fullpath for automounts
+f60ffa662d1427cfd31fe9d895c3566ac50bfe52 cifs: don't leak -ENOMEM in smb2_open_file()
+aacfc939cc42293fbcfe113040b4e8abaef68429 cifs: update internal module number
+11933cf1d91d57da9e5c53822a540bbdc2656c16 pnode: terminate at peers of source
+04065c12072b6124475c7c4f6ad7484475a2f66e Merge tag 'fs.mount.propagation.fix.v6.2-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/idmapping
+6022ec6ee2c3a16b26f218d7abb538afb839bd6d Merge tag 'ntfs3_for_6.2' of https://github.com/Paragon-Software-Group/linux-ntfs3
+0a924817d2ed9396401e0557c6134276d2e26382 Merge tag '6.2-rc-smb3-client-fixes-part2' of git://git.samba.org/sfrench/cifs-2.6
 
---===============0936215650645432908==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e5b28d2fb79e-d68c20db7854.txt
-
-1d9934e51968c7f86f8040ea1ca403a75c35b514 mm/khugepaged: fix GUP-fast interaction by sending IPI
-d9be5a976a4ee8c102730680b44e5f3562c4a011 mm/khugepaged: invoke MMU notifiers in shmem/file collapse paths
-c209839c2f35bd52eec6ecb50644a6d7f9684420 block: unhash blkdev part inode when the part is deleted
-2a98da1610af7293b879e379402180ef73c07862 nfp: fix use-after-free in area_cache_get()
-c3087891c396e13ca562e9aba9905f0b1cc8fc83 ASoC: ops: Check bounds for second channel in snd_soc_put_volsw_sx()
-1b61f50e92b47f1eea5bcd788a5ba8f22b3bbf45 pinctrl: meditatek: Startup with the IRQs disabled
-7258794bab51a68a4b8bed7afac08684b510c661 can: sja1000: fix size of OCR_MODE_MASK define
-1edd5bdd8b0ba9ee1376709ed1be3c0efd18ea1a can: mcba_usb: Fix termination command argument
-3209c4d457b2ac27151c04cbe286330612ccf7cb ASoC: ops: Correct bounds check for second channel on SX controls
-1afad3b3075d00fba9aa79a97488d0f45732e934 perf script python: Remove explicit shebang from tests/attr.c
-3756a4190703db83751dfafd0dbe42b27cb2a9ed udf: Discard preallocation before extending file with a hole
-4350dca7b3c503f18fe8feb4f242ded19bd8274f udf: Fix preallocation discarding at indirect extent boundary
-f52b53f1030307703b7a70b59f89215d377d42fe udf: Do not bother looking for prealloc extents if i_lenExtents matches i_size
-733f85bcf182dc61bcca3bd8cd8732c126143183 udf: Fix extending file within last block
-b401b428b8edbda69456d823c9bb4aba55c6f5fd usb: gadget: uvc: Prevent buffer overflow in setup handler
-e2b3af61096249f7ed847918424505500df518e6 USB: serial: option: add Quectel EM05-G modem
-22b52a9fc5cc93c07e25960c9a916bdb0553ccd3 USB: serial: cp210x: add Kamstrup RF sniffer PIDs
-5b504b4cd9e4aab3ce6cb88003ec222ca0c9ea79 USB: serial: f81534: fix division by zero on line-speed change
-c9533fdcb90979213de090d5a89f8b86d6a28781 igb: Initialize mailbox message for VF reset
-106e79814c78a3a32abca8aee2b0eef1d7767fe3 Bluetooth: L2CAP: Fix u8 overflow
-d68c20db7854c02198d888ffe2acca0653ee9802 net: loopback: use NET_NAME_PREDICTABLE for name_assign_type
-
---===============0936215650645432908==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0c7df910c7a1-45a66f1de247.txt
-
-a5a80c96f4d3c26de7d3ac10dc2cd627b0094873 mm/khugepaged: fix GUP-fast interaction by sending IPI
-90466c87f8f12d2439bb82a7203617961ac4ee6f mm/khugepaged: invoke MMU notifiers in shmem/file collapse paths
-4dff6ab27b15d224c887e492f83030b448bcffaf block: unhash blkdev part inode when the part is deleted
-0d370dc2c28e43cd2243bfd3684b1e4eaa41d910 ASoC: ops: Check bounds for second channel in snd_soc_put_volsw_sx()
-8a514a8feb729cb2b2e7af728a174d61b85c4ddb can: sja1000: fix size of OCR_MODE_MASK define
-0bbf436bd2b1cbe2412f85b73eb3dd5f7a66e250 ASoC: ops: Correct bounds check for second channel on SX controls
-a1cb9bc93dd4cc7c47d794cb74051c9314804d2e udf: Discard preallocation before extending file with a hole
-52bdacce61952b893d84f06928335293566b8b0f udf: Drop unused arguments of udf_delete_aext()
-2787743f261776a7778d20b7fc5f49149e4e03e2 udf: Fix preallocation discarding at indirect extent boundary
-51be08d41e757b346f2b7d2974d937a1f27758fd udf: Do not bother looking for prealloc extents if i_lenExtents matches i_size
-1718cff4dd347ca62818a41833dd08d001269f13 udf: Fix extending file within last block
-732ced3e227e6327bd814dca5c0beb51d6fc114a usb: gadget: uvc: Prevent buffer overflow in setup handler
-c4e1c7b4b81619eb1bc040f5d7f59dace8082309 USB: serial: cp210x: add Kamstrup RF sniffer PIDs
-24340b055b064861a3209085b903fe5bd05f0768 Bluetooth: L2CAP: Fix u8 overflow
-45a66f1de247744fa26953278b09fb6ed0dab5f2 net: loopback: use NET_NAME_PREDICTABLE for name_assign_type
-
---===============0936215650645432908==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0a22a02ebcaf-5e2890d21846.txt
-
-7794447643347e75ff20234b92aafad824ebb901 tracing/ring-buffer: Only do full wait when cpu != RING_BUFFER_ALL_CPUS
-8fce200e327afaa2858da97ae4a3201dbf36f52b udf: Discard preallocation before extending file with a hole
-8c1bf1b7097a1aecf031ab62ac02716fe2d3a256 udf: Fix preallocation discarding at indirect extent boundary
-ffa78e049717111c290d48806d6f5ae76b351909 udf: Do not bother looking for prealloc extents if i_lenExtents matches i_size
-f176c444e2906075a52ee455cb715fdca09e4aea udf: Fix extending file within last block
-65f7bed6c4e5689cfdf9fb67b842a6b0b2d28de3 usb: gadget: uvc: Prevent buffer overflow in setup handler
-48fab8ec48fda20080f0ccdbf09afe2df9c8f0d0 USB: serial: option: add Quectel EM05-G modem
-94cb0db73f38e61005b75ed11ef8a5c2c30399c7 USB: serial: cp210x: add Kamstrup RF sniffer PIDs
-b066e06e11c8a073f73344e4daf4c12bf2b72bbe USB: serial: f81232: fix division by zero on line-speed change
-e096f0d35118b1b51b09db080ef0c2552e870cec USB: serial: f81534: fix division by zero on line-speed change
-24d2116a5c6443e382fbe4fb55b3c33d83571e12 igb: Initialize mailbox message for VF reset
-2b80a98c8a6175a37b394b2aa08a25d22f2b19cc xen-netback: move removal of "hotplug-status" to the right place
-75f99fe9de7c6345faf265934b1c72af9a82e60c HID: ite: Add support for Acer S1002 keyboard-dock
-4454388d3fa3e928052dd88f3e83b290d24ca091 HID: ite: Enable QUIRK_TOUCHPAD_ON_OFF_REPORT on Acer Aspire Switch 10E
-c98708a6152d7db09e3054e07ceb2553dd350a4a HID: ite: Enable QUIRK_TOUCHPAD_ON_OFF_REPORT on Acer Aspire Switch V 10
-bc74eac84e915dadd18ca57332906e1255275aae HID: uclogic: Add HID_QUIRK_HIDINPUT_FORCE quirk
-ae3fa442da7fd6ba1a7ec65d46b99248e459b312 Bluetooth: L2CAP: Fix u8 overflow
-5e2890d218461d0322dbeab320d801253c86bfda net: loopback: use NET_NAME_PREDICTABLE for name_assign_type
-
---===============0936215650645432908==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4675ac94bdb7-9cc154733e79.txt
-
-96c5043a4d6443d56b92b5740e8e7d25907d1c66 x86/vdso: Conditionally export __vdso_sgx_enter_enclave()
-76c6303530ebcb1459302d8943527cba04baf42e libbpf: Fix uninitialized warning in btf_dump_dump_type_data
-a4997bae1b5b012c8a6e2643e26578a7bc2cae36 PCI: mt7621: Add sentinel to quirks table
-a1d9199ba485e55f52e985ee13c2a653d259593f mips: ralink: mt7621: define MT7621_SYSC_BASE with __iomem
-ee11da28a62e8b1fbaf471027257c44b40e7f244 mips: ralink: mt7621: soc queries and tests as functions
-18301e16ea553cf3cd4352d5948722a42034f284 mips: ralink: mt7621: do not use kzalloc too early
-fb9b502cf9113c835321e1294c8c6d9629864686 irqchip/ls-extirq: Fix endianness detection
-e6b01f6a0e774b4f45759791dff5bd4f98c64226 udf: Discard preallocation before extending file with a hole
-12a88f572d6d94b5c0b72e2d1782cc2e96ac06cf udf: Fix preallocation discarding at indirect extent boundary
-1cd3e9297d44a29bf9106f87e94c5ef6b248effe udf: Do not bother looking for prealloc extents if i_lenExtents matches i_size
-2cd2e9322726a487acf224431fbfc96f6c8880c9 udf: Fix extending file within last block
-d1a92bb8d697f170d93fe922da763d7d156b8841 usb: gadget: uvc: Prevent buffer overflow in setup handler
-0b63d587c0d2f87ef15ade56f14b3bede6918636 USB: serial: option: add Quectel EM05-G modem
-736f626ea8b87ab7080d62e06d4dd6422f604ad8 USB: serial: cp210x: add Kamstrup RF sniffer PIDs
-3c8b21ee14048e5e13d4e5c1f4d6e288519a13a8 USB: serial: f81232: fix division by zero on line-speed change
-c0815ea0854831454aa8160bae641eb63914ec5e USB: serial: f81534: fix division by zero on line-speed change
-c0d91ec1a16a2def5eed92972da448a3d52542b0 ALSA: hda/realtek: fix mute/micmute LEDs for a HP ProBook
-c9cacc0ab1ea5457f7bd454c57f60d31a8771fd4 xhci: Apply XHCI_RESET_TO_DEFAULT quirk to ADL-N
-52d5896ba2a4f939d7ff2f26f8e6cba60a8068c4 staging: r8188eu: fix led register settings
-c383c7c35c7bc15e07a04eefa060a8a80cbeae29 igb: Initialize mailbox message for VF reset
-9222912924fcf56e2d166a503eddbdb5ffd2005f usb: typec: ucsi: Resume in separate work
-4e453324803d7a5166eb6e062dd631a47ef46204 usb: dwc3: pci: Update PCIe device ID for USB3 controller on CPU sub-system for Raptor Lake
-e8d16a54842d609fd4a3ed2d81d4333d6329aa94 cifs: fix oops during encryption
-1d1a710c1983819bdceaaae83cda309a84f51ea7 KEYS: encrypted: fix key instantiation with user-provided data
-ebdb69c5b054f115ef5ff72f0bb2aaa1718904e6 Linux 6.1.1
-9cc154733e7939d1c6eea01b8e118e5a6a25130d MIPS: DTS: CI20: fix reset line polarity of the ethernet controller
-
---===============0936215650645432908==--
+--===============8758832787196869946==--
