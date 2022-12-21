@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Wed, 21 Dec 2022 21:29:51 -0000
-Message-Id: <167165819189.8877.18286152301172001444@gitolite.kernel.org>
+Subject: post-receive: pub/scm/docs/man-pages/man-pages
+Date: Wed, 21 Dec 2022 21:36:13 -0000
+Message-Id: <167165857392.13977.16171334329652485370@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/docs/man-pages/man-pages
+user: alx
 changes:
   - ref: refs/heads/master
-    old: a3b35c68fa9f737fa073c4f826e5be598aedb87c
-    new: e4596a3bec2c8fcaa0365995d86df5c0bd0e9293
+    old: 3d395282860f7b86f65c6735351f24b52c486718
+    new: 8a757718796fd3b2f165f335eb56a3820a227831
     log: |
-         e4596a3bec2c8fcaa0365995d86df5c0bd0e9293 Wed Dec 21 09:28:10 PM UTC 2022
+         8a757718796fd3b2f165f335eb56a3820a227831 strcpy.3: EXAMPLES: Check the return of malloc(3)
          
