@@ -1,31 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mst/vhost
-Date: Wed, 21 Dec 2022 07:22:19 -0000
-Message-Id: <167160733958.27950.17294693744916466617@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ogabbay/linux
+Date: Wed, 21 Dec 2022 08:29:03 -0000
+Message-Id: <167161134322.5628.17605966799600746833@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mst/vhost
-user: mst
+repo: pub/scm/linux/kernel/git/ogabbay/linux
+user: ogabbay
 changes:
-  - ref: refs/heads/linux-next
-    old: 9b983d316d8cbec63985c429443ff52395cc4da1
-    new: 47897ed42d6e6dade252fd6edb6f79694485cc5e
+  - ref: refs/heads/habanalabs-next
+    old: fa12566e7e2e9ae519ceeca7ed325b6aafce6c3d
+    new: ead46620ee521399b24513dd0f19930f3690da8f
     log: |
-         47897ed42d6e6dade252fd6edb6f79694485cc5e virtio: vdpa: fix snprintf size argument in snet_vdpa driver
-         
-  - ref: refs/heads/test
-    old: 9b983d316d8cbec63985c429443ff52395cc4da1
-    new: 47897ed42d6e6dade252fd6edb6f79694485cc5e
-    log: |
-         47897ed42d6e6dade252fd6edb6f79694485cc5e virtio: vdpa: fix snprintf size argument in snet_vdpa driver
-         
-  - ref: refs/heads/vhost
-    old: 9b983d316d8cbec63985c429443ff52395cc4da1
-    new: 47897ed42d6e6dade252fd6edb6f79694485cc5e
-    log: |
-         47897ed42d6e6dade252fd6edb6f79694485cc5e virtio: vdpa: fix snprintf size argument in snet_vdpa driver
+         a02b138571ebbd9d83edfd9a39a9e559de407e72 habanalabs/gaudi2: dump event description even if no cause
+         ead46620ee521399b24513dd0f19930f3690da8f habanalabs: fix dma-buf release handling if dma_buf_fd() fails
          
