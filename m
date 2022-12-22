@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Thu, 22 Dec 2022 00:48:28 -0000
-Message-Id: <167167010804.9514.5265115579217851671@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 22 Dec 2022 01:47:12 -0000
+Message-Id: <167167363223.20513.8398490402145258497@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/dev
-    old: f22caef6cda5ed19a55ec2e703f60f1fa85e52bc
-    new: f9bfbac4fc4cd1111ef83a28e2bebe0024b5d1be
+  - ref: refs/heads/master
+    old: aa6c3961a3eef78a93a8f3a3760ae1dd7ebb94e8
+    new: 53fc61be273a1e76dd5e356f91805dce00ff2d2c
     log: |
-         f9bfbac4fc4cd1111ef83a28e2bebe0024b5d1be clocksource: Verify HPET and PMTMR when TSC unverified
+         53fc61be273a1e76dd5e356f91805dce00ff2d2c ice: xsk: do not use xdp_return_frame() on tx_buf->raw_buf
          
