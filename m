@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8414329186919433819=="
+Content-Type: multipart/mixed; boundary="===============4267838811599431046=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Thu, 22 Dec 2022 21:02:46 -0000
-Message-Id: <167174296667.15277.6114256936397276914@gitolite.kernel.org>
+Date: Thu, 22 Dec 2022 21:03:00 -0000
+Message-Id: <167174298097.15425.9517910233848204373@gitolite.kernel.org>
 
---===============8414329186919433819==
+--===============4267838811599431046==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,44 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/perf/core
-    old: 17b8d847b92d815d1638f0de154654081d66b281
-    new: bc302f015fa6e12a4ce1b1c6eb23abde862823a2
-    log: revlist-17b8d847b92d-bc302f015fa6.txt
+  - ref: refs/heads/sched/core
+    old: d6962c4fe8f96f7d384d6489b6b5ab5bf3e35991
+    new: 87b57b94dd9ee49c750cdc2c9555a5cd229a6c0d
+    log: revlist-d6962c4fe8f9-87b57b94dd9e.txt
 
---===============8414329186919433819==
+--===============4267838811599431046==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-17b8d847b92d-bc302f015fa6.txt
+Content-Disposition: attachment; filename=revlist-d6962c4fe8f9-87b57b94dd9e.txt
 
-d92b86f672a42d9d74a24a63a1e59793c4116830 Merge tag 'iommu-fix-v6.1-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/joro/iommu
-2e830ccc21eb67a4c2490279d907e5e9199e5156 rtc: rk808: reduce 'struct rk808' usage
-01744ce9f07f0b76b0b2d30adba2a7c104f1ff2a i3c: Correct the macro module_i3c_i2c_driver
-672825cd2823a0cee4687ce80fef5b702ff3caa3 i3c: export SETDASA method
-08dcf0732cb4d97b85493d9f60470e48eebf87fe MAINTAINERS: mark I3C DRIVER FOR SYNOPSYS DESIGNWARE orphan
-103c14db61a24cc0cd344dc5d93d264a36687c35 rtc: rx6110: fix warning with !OF
-830b3c68c1fb1e9176028d02ef86f3cf76aa2476 Linux 6.1
-c2d12e85336f6d4172fb2bab5935027c446d7343 rtc: pcf85063: fix pcf85063_clkout_control
-ee9d7a0e754568180a2f8ebc4aad226278a9116f of: overlay: fix null pointer dereferencing in find_dup_cset_node_entry() and find_dup_cset_prop()
-121164481b79d93824eed464117d331a002f5d75 dt-bindings: leds: intel,lgm: Add missing 'led-gpios' property
-580f9896e088b399fc79f1421e56a1b68f0450b5 dt-bindings: leds: Add missing references to common LED schema
-13959373e9c9021cc80730c7bd1242e07b10b328 powerpc/qspinlock: Fix 32-bit build
-ff39899be80b9d90d5e13775eb9fd150338b6e15 exfat: simplify empty entry hint
-e298c8a818a3e517582e60c412f4a41b3a1647c5 exfat: hint the empty entry which at the end of cluster chain
-f83d8a3b532097276266b5e81073ea46e27b17ab exfat: reduce the size of exfat_entry_set_cache
-a3ff29a95fde16906304455aa8c0bd84eb770258 exfat: support dynamic allocate bh for exfat_entry_set_cache
-20914ff6dd56dd6b548bf5dd90bff09ef89999e4 exfat: move exfat_entry_set_cache from heap to stack
-3b9681acb0ef739343d8cfd35e054aab9597f1dc exfat: rename exfat_free_dentry_set() to exfat_put_dentry_set()
-f3fe3954c09f97d8227d9d2edc807796a8b228ab exfat: replace magic numbers with Macros
-088f1343d9108c16fca064951d85e6de9f5cab42 exfat: remove call ilog2() from exfat_readdir()
-015c0d4f6b1e65857de88279f07d7ecc5e305137 exfat: remove unneeded codes from __exfat_rename()
-72880cb5f157514d797d5f6ab3184bbde671a18a exfat: remove unnecessary arguments from exfat_find_dir_entry()
-e981917b3fae689e9372647a38746444205bb905 exfat: remove argument 'size' from exfat_truncate()
-f7cde96710a4362dca199458d3de04f631178453 exfat: remove i_size_write() from __exfat_truncate()
-85463321e726fe59873bbc21f2f480747810aef8 selftests/vm: enable running select groups of tests
-93fb70aa5904c2577fab8100fa990ecfa4f5b4c7 selftests/vm: add KSM unmerge tests
-c31783eeae7b22dc3f6edde7339de6112959225d mm/pagewalk: don't trigger test_walk() in walk_page_vma()
 5036880efdad976165c817dcb6a1c8c24fb16caa selftests/vm: add test to measure MADV_UNMERGEABLE performance
 58f595c6659198e1ad0ed431a408ddd79b21e579 mm/ksm: simplify break_ksm() to not rely on VM_FAULT_WRITE
 cb8d863313436339fb60f7dd5131af2e5854621e mm: remove VM_FAULT_WRITE
@@ -1049,6 +1022,33 @@ d264dd3bbbd16b56239e889023fbe49413a58eaf Merge tag 'for-linus-2022122101' of git
 7a5189c58b3cf250e6f50ede724409c31795d5f1 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 af9b3fa15d6d99d948bcaca5a036ad2b292c8e8a Merge tag 'trace-probes-v6.2' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 9d2f6060fe4c3b49d0cdc1dce1c99296f33379c8 Merge tag 'trace-v6.2-1' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
-bc302f015fa6e12a4ce1b1c6eb23abde862823a2 perf/x86/lbr: Simplify the exposure check for the LBR_INFO registers
+7726ebfba01492f2f85dc7d531d0cd9b8453abfc sched/topology: Add __init for init_defrootdomain
+09f0c688853aa4b8498781ee392249227d1f3adc sched: Async unthrottling for cfs bandwidth
+78290048a108e6239737636d16ca77a51bd87657 selftests/rseq: Fix: Fail thread registration when CONFIG_RSEQ=n
+39d589e001c96a22d447984228861a693fb04b3b rseq: Introduce feature size and alignment ELF auxiliary vector entries
+5625ba4e82f581ac1a60ff913fb214cdca640226 rseq: Introduce extensible rseq ABI
+d5e55b343157d35dadf8fc095fb021010cf159c0 rseq: Extend struct rseq with numa node id
+028f2e07a32cf44c634deb2a6ba9f3d59409fba6 selftests/rseq: Use ELF auxiliary vector for extensible rseq
+2b36f076422740956449f70ea3c321dde2b5579e selftests/rseq: Implement rseq numa node id field selftest
+372c04c351a2ca4d03633f86fdc3f517e961558e sched: Introduce per-memory-map concurrency ID
+dd49e6eb28facf4745dd60e303e4f9189dd1b897 rseq: Extend struct rseq with per-memory-map concurrency ID
+61d1f874b8cdc114d3029ae9302e5c696e50380b selftests/rseq: Remove RSEQ_SKIP_FASTPATH code
+2b9194402383436220d8bf199c98cf89e67cbb02 selftests/rseq: Implement rseq mm_cid field support
+d98b7ff00308cc12ac80f3ba3a7f9e8b016f32cb selftests/rseq: x86: Template memory ordering and percpu access mode
+71e6b0eaea7d72fafdd89a653248fa63a4238ef3 selftests/rseq: arm: Template memory ordering and percpu access mode
+690c6694c669251b32ad4d2efdf2a5a07f66be5b selftests/rseq: arm64: Template memory ordering and percpu access mode
+8ea082897ffb20646e9c6118ed50e7907ba81d10 selftests/rseq: mips: Template memory ordering and percpu access mode
+3a4db132f6be2986e36789a4d43f6a5845d8c222 selftests/rseq: ppc: Template memory ordering and percpu access mode
+5d73621ef0f766b62e4bf6420ffb4d9872988617 selftests/rseq: s390: Template memory ordering and percpu access mode
+96cfb47b40e84abedf079a3121c5a074bbc4d36e selftests/rseq: riscv: Template memory ordering and percpu access mode
+452aa39327ca3cd9e94b343a0c016bd6854c4cd5 selftests/rseq: Implement basic percpu ops mm_cid test
+b9f715f8385503bb89ff4f57adbd0e31919d075d selftests/rseq: Implement parametrized mm_cid test
+7cef75cc9f9726753f633909986f74992b1c9d1c selftests/rseq: parametrized test: Report/abort on negative concurrency ID
+68f523e33441ae4ab97fb8c8f3b3ed394e4ebd0d tracing/rseq: Add mm_cid field to rseq_update
+fc86c28e02ef89578ebbf3989dae42ba8c6b8dd6 selftests/rseq: Add mm_numa_cid to test script
+b99ae04c854ab89eaf5012f19e6a67f74b5965a6 sched: Make const-safe
+d2a6176d89e9078dee79fea6735302c033f2307a sched/numa: Stop an exhastive search if an idle core is found
+4d120feb3673049ea3a5b906755954fac3785202 sched/core: Adjusting the order of scanning CPU
+87b57b94dd9ee49c750cdc2c9555a5cd229a6c0d cputime: remove cputime_to_nsecs fallback
 
---===============8414329186919433819==--
+--===============4267838811599431046==--
