@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Thu, 22 Dec 2022 14:26:33 -0000
-Message-Id: <167171919359.11727.621262487682042441@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 22 Dec 2022 14:31:06 -0000
+Message-Id: <167171946642.14712.3859890795660589744@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
-user: acme
+repo: pub/scm/linux/kernel/git/netdev/net
+user: pabeni
 changes:
-  - ref: refs/heads/tmp.perf/core
-    old: 9854e7ad35fecf3007d44e58484e05cf39a62bd6
-    new: 13858d49b09bdfb0bb749b5f509edda8599992f1
+  - ref: refs/heads/master
+    old: d717f9474e3fb7e6bd3e43ca16e131f04320ed6f
+    new: fa349e396e4886d742fd6501c599ec627ef1353b
     log: |
-         f257ba9c160f4cb13e88b9be83e39a0e94d45c70 perf scripting python: Don't be strict at handling libtraceevent enumerations
-         13858d49b09bdfb0bb749b5f509edda8599992f1 perf python: Fix splitting CC into compiler and options
+         fa349e396e4886d742fd6501c599ec627ef1353b veth: Fix race with AF_XDP exposing old or uninitialized descriptors
          
