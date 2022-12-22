@@ -1,21 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 22 Dec 2022 02:06:59 -0000
-Message-Id: <167167481990.864.17040284318311122226@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
+Date: Thu, 22 Dec 2022 02:58:30 -0000
+Message-Id: <167167791009.1885.5346057272717776808@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/xiang/erofs-utils
+user: xiang
 changes:
-  - ref: refs/heads/master
-    old: e20aa071cd955aabc15be0ec1e914283592ddef4
-    new: 43ae218f69a66a4998ca2f99b9a1887ccc61fd4f
+  - ref: refs/heads/experimental
+    old: a646f661c04f05d2089cf55395a045e0c4f4d522
+    new: 1ecb192691d59061bd28f17e94589d1034deaef7
     log: |
-         7d803344fdc3e38079fabcf38b1e4cb6f8faa655 mptcp: fix deadlock in fastopen error path
-         fec3adfd754ccc99a7230e8ab9f105b65fb07bcc mptcp: fix lockdep false positive
-         43ae218f69a66a4998ca2f99b9a1887ccc61fd4f Merge branch 'mptcp-locking-fixes'
+         c733358eb37cd25b0045251f08446f9d4e038930 erofs-utils: fsck: support interlaced uncompressed pcluster
+         990c7e38379547c4ffb98649913618eb76746844 erofs-utils: mkfs: support fragment deduplication
+         4aa585c21e32f5a2ed6582ee4dfcfdbfdde0571b erofs-utils: fix fragmentoff overflow for large packed inode
+         1ecb192691d59061bd28f17e94589d1034deaef7 erofs-utils: do not deduplicate compressed data for packed inode
          
