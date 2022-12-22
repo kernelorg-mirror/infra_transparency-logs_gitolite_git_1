@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 22 Dec 2022 01:48:06 -0000
-Message-Id: <167167368623.20835.3620511516428897906@gitolite.kernel.org>
+Date: Thu, 22 Dec 2022 01:48:44 -0000
+Message-Id: <167167372437.21093.6750368960984683378@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/master
-    old: 53fc61be273a1e76dd5e356f91805dce00ff2d2c
-    new: f2575c8f404911da83f25b688e12afcf4273e640
+    old: f2575c8f404911da83f25b688e12afcf4273e640
+    new: 95637d91fefdb94d6e7389222ba9ddab0e9f5abe
     log: |
-         f2575c8f404911da83f25b688e12afcf4273e640 net: vrf: determine the dst using the original ifindex for multicast
+         95637d91fefdb94d6e7389222ba9ddab0e9f5abe net: openvswitch: release vport resources on failure
          
