@@ -1,42 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============5854174755188119570=="
+Content-Type: multipart/mixed; boundary="===============2223277983649860569=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless-next
-Date: Thu, 22 Dec 2022 16:19:29 -0000
-Message-Id: <167172596960.21982.10235209091611735472@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Thu, 22 Dec 2022 16:26:32 -0000
+Message-Id: <167172639242.27153.4767773244547888002@gitolite.kernel.org>
 
---===============5854174755188119570==
+--===============2223277983649860569==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wireless/wireless-next
-user: kvalo
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: c6015bf3ff1ffb3caa27eb913797438a0fc634a0
-    new: 44bacbdf9066c590423259dbd6d520baac99c1a8
-    log: revlist-c6015bf3ff1f-44bacbdf9066.txt
+  - ref: refs/heads/master
+    old: 79e3b85f2ff65621a731a02e009be00613f1111b
+    new: 56a6c1ff23f390f1714bc6b541af1089a44dcf1b
+    log: |
+         56a6c1ff23f390f1714bc6b541af1089a44dcf1b 5.15-stable patches
+         
 
---===============5854174755188119570==
+--===============2223277983649860569==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c6015bf3ff1f-44bacbdf9066.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-45fc6d7461f18df2f238caf0cbc5acc4163203d1 wifi: ipw2x00: don't call dev_kfree_skb() under spin_lock_irqsave()
-9fe21dc626117fb44a8eb393713a86a620128ce3 wifi: ipw2200: fix memory leak in ipw_wdev_init()
-deb962ec9e1c9a81babd3d37542ad4bd6ac3396e wifi: wilc1000: fix potential memory leak in wilc_mac_xmit()
-2b88974ecb358990e1c33fabcd0b9e142bab7f21 wifi: wilc1000: add missing unregister_netdev() in wilc_netdev_ifc_init()
-0a06cadcc2a0044e4a117cc0e61436fc3a0dad69 wifi: brcmfmac: Fix potential stack-out-of-bounds in brcmf_c_preinit_dcmds()
-212fde3fe76e962598ce1d47b97cc78afdfc71b3 wifi: brcmfmac: fix potential memory leak in brcmf_netdev_start_xmit()
-b9f420032f2ba1e634b22ca7b433e5c40ea663af wifi: brcmfmac: unmap dma buffer in brcmf_msgbuf_alloc_pktid()
-9388ce97b98216833c969191ee6df61a7201d797 wifi: libertas_tf: don't call kfree_skb() under spin_lock_irqsave()
-3968e81ba644f10a7d45bae2539560db9edac501 wifi: libertas: if_usb: don't call kfree_skb() under spin_lock_irqsave()
-f393df151540bf858effbd29ff572ab94e76a4c4 wifi: libertas: main: don't call kfree_skb() under spin_lock_irqsave()
-708a49a64237f19bd404852f297aaadbc9e7fee0 wifi: libertas: cmdresp: don't call kfree_skb() under spin_lock_irqsave()
-44bacbdf9066c590423259dbd6d520baac99c1a8 wifi: wl3501_cs: don't call kfree_skb() under spin_lock_irqsave()
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1671726391 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1671726390-1cd7de004930c49a158bc153e911816f632ba530
 
---===============5854174755188119570==--
+79e3b85f2ff65621a731a02e009be00613f1111b 56a6c1ff23f390f1714bc6b541af1089a44dcf1b refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmOkhTcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+NdcQAJZGHOAGRPoy5Dr8t2ST
+KhXrhi9yKqWmiaaoJaWMoUww3SdgojI00MsHPy+yIxYm88HhKMFwaQ7QZw17PnOM
+2mUr/gErJYYOlH1GdlkzTmeHKOEVwnumlifckRJGMpRa9pcdffpKo7czA4OUQIIn
+wp/ca923o3JOQjwqLZRwYI4PRN1dqXf1tyFha148r0oPqgb60zNsvUv6B9c7pQNr
+N91CsEjNCFMi0wbPtmJLUeQKVUugZLLc2oKX4/+InCvdxY1xZARy2DQJrIsa9JvJ
+3yirdbk7/ljDpZygSy4OBifoiJSIH+1soqsVzSAaIDtUFyEUSEyp+B7zfPkRhP9z
+MnkEnvzhJH+epcZJFRL/AyxVuw4bYf6pH/DAZFZ2IV/nkd5uH1Bg3VwhzyuwznIZ
+9Sfhs5Z1/JTasdJ+bXrq7o8snGRXWwZ2oQOEAzfXTy8xDbvPa+QyDhBddDracG9E
+oH6/cysiEmP8FaT0EgcotKoJMSmHZgKbtp13BG3IB1144TDtyeSTOyrrjdL537UE
+it3kUQBjAynNn4htrwwRah/ataxP/llXWkifLtfpmiZZzoTkU/vfsHS8hquO1x2h
+arqe+AAY4pGafQqOLxQtuqr9trr7Tl2BgVPNarjoKeDkgF1YiQ3pNnxrZaCODn7t
+xP55OtkJ/McYh82m3KP8ao5k
+=v1yH
+-----END PGP SIGNATURE-----
+
+--===============2223277983649860569==--
