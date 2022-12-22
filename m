@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6092774495544639901=="
+Content-Type: multipart/mixed; boundary="===============1808883156877874855=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Thu, 22 Dec 2022 14:36:32 -0000
-Message-Id: <167171979233.18228.6831579890904867858@gitolite.kernel.org>
+Date: Thu, 22 Dec 2022 14:36:45 -0000
+Message-Id: <167171980590.18377.14114866824114470870@gitolite.kernel.org>
 
---===============6092774495544639901==
+--===============1808883156877874855==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/x86/urgent
-    old: 45be2ad007a9c6bea70249c4cf3e4905afe4caeb
-    new: 84435e2782cce9b293d329cb4316a77535889e4c
-    log: revlist-45be2ad007a9-84435e2782cc.txt
+  - ref: refs/heads/perf/urgent
+    old: 517e6a301f34613bff24a8e35b5455884f2d83d8
+    new: 1426a32b90216432c891c227b419a2c99d056d44
+    log: revlist-517e6a301f34-1426a32b9021.txt
 
---===============6092774495544639901==
+--===============1808883156877874855==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-45be2ad007a9-84435e2782cc.txt
+Content-Disposition: attachment; filename=revlist-517e6a301f34-1426a32b9021.txt
 
-01744ce9f07f0b76b0b2d30adba2a7c104f1ff2a i3c: Correct the macro module_i3c_i2c_driver
-672825cd2823a0cee4687ce80fef5b702ff3caa3 i3c: export SETDASA method
 08dcf0732cb4d97b85493d9f60470e48eebf87fe MAINTAINERS: mark I3C DRIVER FOR SYNOPSYS DESIGNWARE orphan
 103c14db61a24cc0cd344dc5d93d264a36687c35 rtc: rx6110: fix warning with !OF
 830b3c68c1fb1e9176028d02ef86f3cf76aa2476 Linux 6.1
@@ -1047,8 +1045,10 @@ d264dd3bbbd16b56239e889023fbe49413a58eaf Merge tag 'for-linus-2022122101' of git
 7a5189c58b3cf250e6f50ede724409c31795d5f1 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 af9b3fa15d6d99d948bcaca5a036ad2b292c8e8a Merge tag 'trace-probes-v6.2' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 9d2f6060fe4c3b49d0cdc1dce1c99296f33379c8 Merge tag 'trace-v6.2-1' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
-e44fca7c2417819cb3c71c56af57f4aae508e6fb x86: callthunks: fix incorrect init section references
-ef303b749312f112464d6f642b0d7ce70db9b8d1 x86/kprobes: Fix kprobes instruction boudary check with CONFIG_RETHUNK
-84435e2782cce9b293d329cb4316a77535889e4c x86/kprobes: Fix optprobe optimization check with CONFIG_RETHUNK
+6b5faa0effd8dd89595a52aa60d9b38d22acc458 perf core: Return error pointer if inherit_event() fails to find pmu_ctx
+b114ba6a5baf831c6cd5ff727305a45e2a42bbdc perf/core: Fix cgroup events tracking
+0059e834ab3aff1aded244ff1976251614396067 perf/x86/amd: fix potential integer overflow on shift of a int
+5201d146f26d047c81fbf777337fd6207daecd41 perf: Fix use-after-free in error path
+1426a32b90216432c891c227b419a2c99d056d44 perf/core: Call LSM hook after copying perf_event_attr
 
---===============6092774495544639901==--
+--===============1808883156877874855==--
