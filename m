@@ -1,56 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============2223277983649860569=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Thu, 22 Dec 2022 16:26:32 -0000
-Message-Id: <167172639242.27153.4767773244547888002@gitolite.kernel.org>
-
---===============2223277983649860569==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/jack/linux-fs
+Date: Thu, 22 Dec 2022 16:27:32 -0000
+Message-Id: <167172645280.27537.3299544491811821960@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/jack/linux-fs
+user: jack
 changes:
-  - ref: refs/heads/master
-    old: 79e3b85f2ff65621a731a02e009be00613f1111b
-    new: 56a6c1ff23f390f1714bc6b541af1089a44dcf1b
+  - ref: refs/heads/for_next
+    old: 9265bf1afbacf5abbd24b2f03857a3be14de7744
+    new: 5ec1bd594e728776139609ae271126ceba07df64
     log: |
-         56a6c1ff23f390f1714bc6b541af1089a44dcf1b 5.15-stable patches
+         43203bb9cef83f85e448979a1fc60d27192b954a udf: Convert udf_rename() to new directory iteration code
+         317a368bb07fe80a62aa7e83caba6072eb5846f2 udf: Remove old directory iteration code
+         dd632cb56309a1366426e4380f8a170ce2cbdeab udf: Truncate added extents on failed expansion
+         dfd54cacea295a7f24ed0ec659b9858d32d68d56 udf: Do not bother merging very long extents
+         1801b065f86ce64f7d6892a3192eb1851d0ad7b1 udf: Handle error when expanding directory
+         7793a7eba68a7a05d45c18af83ad5faa1e073245 udf: Handle error when adding extent to symlink
+         d8b39db5fab811914969ccdc6e90aa6ab554969d udf: Handle error when adding extent to a file
+         869e9be21b1c67010d215c83c38b32f6cbd080cc udf: Allocate name buffer in directory iterator on heap
+         6ffcf3bbe82607d1dff6db692001d01566e66994 udf: Move setting of i_lenExtents into udf_do_extend_file()
+         ae9e9c7ff06273f4dae4dfd0d5635b852c21e982 udf: Fix extension of the last extent in the file
+         5ec1bd594e728776139609ae271126ceba07df64 udf: Keep i_lenExtents consistent with the total length of extents
          
-
---===============2223277983649860569==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1671726391 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1671726390-1cd7de004930c49a158bc153e911816f632ba530
-
-79e3b85f2ff65621a731a02e009be00613f1111b 56a6c1ff23f390f1714bc6b541af1089a44dcf1b refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmOkhTcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+NdcQAJZGHOAGRPoy5Dr8t2ST
-KhXrhi9yKqWmiaaoJaWMoUww3SdgojI00MsHPy+yIxYm88HhKMFwaQ7QZw17PnOM
-2mUr/gErJYYOlH1GdlkzTmeHKOEVwnumlifckRJGMpRa9pcdffpKo7czA4OUQIIn
-wp/ca923o3JOQjwqLZRwYI4PRN1dqXf1tyFha148r0oPqgb60zNsvUv6B9c7pQNr
-N91CsEjNCFMi0wbPtmJLUeQKVUugZLLc2oKX4/+InCvdxY1xZARy2DQJrIsa9JvJ
-3yirdbk7/ljDpZygSy4OBifoiJSIH+1soqsVzSAaIDtUFyEUSEyp+B7zfPkRhP9z
-MnkEnvzhJH+epcZJFRL/AyxVuw4bYf6pH/DAZFZ2IV/nkd5uH1Bg3VwhzyuwznIZ
-9Sfhs5Z1/JTasdJ+bXrq7o8snGRXWwZ2oQOEAzfXTy8xDbvPa+QyDhBddDracG9E
-oH6/cysiEmP8FaT0EgcotKoJMSmHZgKbtp13BG3IB1144TDtyeSTOyrrjdL537UE
-it3kUQBjAynNn4htrwwRah/ataxP/llXWkifLtfpmiZZzoTkU/vfsHS8hquO1x2h
-arqe+AAY4pGafQqOLxQtuqr9trr7Tl2BgVPNarjoKeDkgF1YiQ3pNnxrZaCODn7t
-xP55OtkJ/McYh82m3KP8ao5k
-=v1yH
------END PGP SIGNATURE-----
-
---===============2223277983649860569==--
