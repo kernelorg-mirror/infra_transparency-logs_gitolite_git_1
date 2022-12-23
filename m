@@ -1,57 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============0136447758445196562=="
+Content-Type: multipart/mixed; boundary="===============3204302661947561275=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Fri, 23 Dec 2022 14:44:20 -0000
-Message-Id: <167180666018.13049.4427840873896330073@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
+Date: Fri, 23 Dec 2022 14:44:22 -0000
+Message-Id: <167180666217.13108.11731461933340268939@gitolite.kernel.org>
 
---===============0136447758445196562==
+--===============3204302661947561275==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/staging
+repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-next
+  - ref: refs/heads/tty-linus
     old: 6feb57c2fd7c787aecf2846a535248899e7b70fa
     new: 8395ae05cb5a2e31d36106e8c85efa11cda849be
     log: revlist-6feb57c2fd7c-8395ae05cb5a.txt
 
---===============0136447758445196562==
+--===============3204302661947561275==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1671806659 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1671806659-d533fd45ea6189bb212f09196a8068cb5b3e8a0a
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1671806661 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
+nonce 1671806661-e7a2b6e3d3079950911a575a86ed81b3f98d34e6
 
-6feb57c2fd7c787aecf2846a535248899e7b70fa 8395ae05cb5a2e31d36106e8c85efa11cda849be refs/heads/staging-next
+6feb57c2fd7c787aecf2846a535248899e7b70fa 8395ae05cb5a2e31d36106e8c85efa11cda849be refs/heads/tty-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmOlvsMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+V64QAJ1swj3oPNBc0kihTyPR
-6G5BZUzpjzu0MtzCxLEMJhymF4erfeuOU5Y/QuBh0/uEhuDb/fvhtnT+u61eTy68
-WI3WTfH4FeVd94jykOfJiylI09RtDJLq9OmMJMlovrho5WYWkh5os0/hUuNwFDYg
-RSqSRhO/qUhunCnx5O8htOSybRSkcNmJOvPdSGovrLEB0XaBSlpv/h2GrYL1PbkG
-Qwxm1UElR3ZZbTLAs4A6q4bppWeIwv2Fp7Mhymaru/PqmkQr8ImNyZtehB34gd56
-nDz/3/rHuQ0XkbWhw00bDTxcAZ/4g5gG4Mnp7yveWeGrJhUi8/Cj4KN29tqYYinp
-r65Y6qJwfUjdsQ9A09ZSP7hVXM4Wt2OaH2Eqyd5vcIBzqCImwr0y7hQOxKahwNoN
-RGMSo17W1wIEbJUFMfu/zTzCbJJqVT7pkl0RSfQGO4JGoW7UrUZ+hq7XjLkMK5KR
-G2ECIXZzbtrLxHdy2qAw/za2yHslTGQFjRJooJh45XhePFU5obsMhuSfTfLPow2e
-hiHL04o/uMT23xNREZY2FVx77/L52Tp6sh+PwtdGQBAARlAf8qCIehsRYcxbLr7y
-o0dD4Dajr2n1KHWrVwh5AzYKgswBQnk9cdYZoifrDH/aVVj7dy0UDIegIAAh/BuQ
-yjMptcpV5RgAwazk5ilsqzk3
-=mRjR
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmOlvsUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+zyMQALpN152LhzhnUYt12UaH
+PHcCMRCfOvU5eu7dd8CsXczrwznF7y2PyCSbyG5V1ysilDfyPICwsO4v1Qev1XXn
+YOzSnlBa2sRM1vDI69ss9MqyOpgFSAkbknqkL8BHdMIkNLk2CzVWbcJG8g3knR5m
+EucL28iyxxESQARsQGnpjrNg06lY0lL9qOJPt/KjQ9nJF2x4iMkwrueJiAgeLzdD
+sAu69y2KWgK3DRRY8NPZxuUn8fx0nGAaRPhhUZ1VaK/3xmy5KC2pq9fIx8cvF4gQ
+QRzkPnAIk72OYQRYiWTN8jZDhjJDIVakkv9CC91YyThTml9xSxr3xEeDLe6BcEL/
+/9cEK3WoJc8pG8p/6X8LBOG6Zz0o4pmUvICjj1ittoR/M2pk6KcaAIPHd0Ko64mX
+IoVZbveatkJluOwkGDtTOJ7pDvffov0BQfP7zCo91cZAwl2mGceisOIiRJg4OdDd
+SKKlS0nW4OBJKdMRrlsTVOaNx4ao1fwuQWJOekz54p5uQCi/+9+JJL7ImEVTyHu6
+cHjlrf5iRY17Z0fBTDA+mjaXK2yKMVlfqEIna5xr7jtz3M6LHewFz+NZvJEzbcZz
+Kbl1XIRWtk4rf9HafXlfL6vtzaYv9btmGPk2PXZu4TRVqtyu2OnUfQxyVxzFGhDq
+vImulhcMCntr/n+jCl9sB8xA
+=D+sw
 -----END PGP SIGNATURE-----
 
---===============0136447758445196562==
+--===============3204302661947561275==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -682,4 +682,4 @@ d1ac1a2b14264e98c24db6f8c2bd452e695c7238 Merge tag 'perf-tools-for-v6.2-2-2022-1
 ff75ec43a2f6fbf7049472312bab322d77eb1bde Merge tag 'afs-next-20221222' of git://git.kernel.org/pub/scm/linux/kernel/git/dhowells/linux-fs
 8395ae05cb5a2e31d36106e8c85efa11cda849be Merge tag 'scsi-misc' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 
---===============0136447758445196562==--
+--===============3204302661947561275==--
