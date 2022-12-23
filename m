@@ -1,25 +1,38 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Fri, 23 Dec 2022 22:47:51 -0000
-Message-Id: <167183567107.10670.14488168339559399688@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Fri, 23 Dec 2022 22:50:03 -0000
+Message-Id: <167183580315.12910.6368118213802281617@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/master
-    old: 51094a24b85e29138b7fa82ef1e1b4fe19c90046
-    new: 72a85e2b0a1e1e6fb4ee51ae902730212b2de25c
+  - ref: refs/heads/5.10-stable-backport.2
+    old: 7ec348c8ea5fa96845ebb5942584598caaa30571
+    new: 2d7b7e632050476301e4fdfaf7a55751c97e6a83
     log: |
-         2d63e6a3d97132449451c2f66fe24a2dc4e2938f scripts: coccicheck: use "grep -E" instead of "egrep"
-         0debed5b117d11e33cba52870c4dcb64f5911891 regulator: core: Fix resolve supply lookup issue
-         3b553e0041a65e499fa4e25ee146f01f4ec4e617 spi: fsl_spi: Don't change speed while chipselect is active
-         cb3543cff90a4448ed560ac86c98033ad5fecda9 regulator: core: fix deadlock on regulator enable
-         2c91ce92c6d99fe8ed0fde2e67c19d40f062e8a3 Merge tag 'coccinelle-6.2' of git://git.kernel.org/pub/scm/linux/kernel/git/jlawall/linux
-         0a023cbb11e3d05c39dbb67317cb77ef22d47404 Merge tag 'regulator-fix-v6.2-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regulator
-         72a85e2b0a1e1e6fb4ee51ae902730212b2de25c Merge tag 'spi-fix-v6.2-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
+         ab51127cad79fdc5ff972e04acb2287c0799efc4 io_uring: import 5.15-stable io_uring
+         450fb0845804e4245b90eb155d7ac34cda11429f signal: kill JOBCTL_TASK_WORK
+         0f315fd4143c1591a7f902fa08b71b83764f4fa0 task_work: unconditionally run task_work from get_signal()
+         89a29005f595d929d8d784f3422fb6a350f4b05f net: remove cmsg restriction from io_uring based send/recvmsg calls
+         361b2a5293b998f8903a5d343ad5cf683a2970fa Revert "proc: don't allow async path resolution of /proc/thread-self components"
+         2d7b7e632050476301e4fdfaf7a55751c97e6a83 Revert "proc: don't allow async path resolution of /proc/self components"
+         
+  - ref: refs/heads/5.10-stable-backport.3
+    old: d163a11ebf80daf631a70f3faa267227beeeb92f
+    new: 4029c28b8d6792778bdadc4e431be30302ff4a3b
+    log: |
+         ab51127cad79fdc5ff972e04acb2287c0799efc4 io_uring: import 5.15-stable io_uring
+         450fb0845804e4245b90eb155d7ac34cda11429f signal: kill JOBCTL_TASK_WORK
+         0f315fd4143c1591a7f902fa08b71b83764f4fa0 task_work: unconditionally run task_work from get_signal()
+         89a29005f595d929d8d784f3422fb6a350f4b05f net: remove cmsg restriction from io_uring based send/recvmsg calls
+         361b2a5293b998f8903a5d343ad5cf683a2970fa Revert "proc: don't allow async path resolution of /proc/thread-self components"
+         2d7b7e632050476301e4fdfaf7a55751c97e6a83 Revert "proc: don't allow async path resolution of /proc/self components"
+         5d0d6c3d70a751ae214e471989fc729956c6fccb eventpoll: add EPOLL_URING_WAKE poll wakeup flag
+         53270319f184c35499cf2ffeac8a75078b94934a eventfd: provide a eventfd_signal_mask() helper
+         4029c28b8d6792778bdadc4e431be30302ff4a3b io_uring: pass in EPOLL_URING_WAKE for eventfd signaling and wakeups
          
