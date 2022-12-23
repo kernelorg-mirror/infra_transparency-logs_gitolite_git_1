@@ -1,61 +1,61 @@
-Content-Type: multipart/mixed; boundary="===============5541023717891037002=="
+Content-Type: multipart/mixed; boundary="===============3912957591948048766=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/spdx
-Date: Fri, 23 Dec 2022 14:43:29 -0000
-Message-Id: <167180660901.12535.14935162008854130945@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
+Date: Fri, 23 Dec 2022 14:44:12 -0000
+Message-Id: <167180665236.12841.9139209962678670137@gitolite.kernel.org>
 
---===============5541023717891037002==
+--===============3912957591948048766==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/spdx
+repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/spdx-linus
-    old: b6bb9676f2165d518b35ba3bea5f1fcfc0d969bf
+  - ref: refs/heads/main
+    old: 6feb57c2fd7c787aecf2846a535248899e7b70fa
     new: 8395ae05cb5a2e31d36106e8c85efa11cda849be
-    log: revlist-b6bb9676f216-8395ae05cb5a.txt
+    log: revlist-6feb57c2fd7c-8395ae05cb5a.txt
 
---===============5541023717891037002==
+--===============3912957591948048766==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1671806608 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/spdx.git
-nonce 1671806607-8d7c99261b2e1770860a63f55f83ef93e4815b27
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1671806651 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
+nonce 1671806651-f911dfbd886e50b7cc4d4031ecaba7ab7a1509a3
 
-b6bb9676f2165d518b35ba3bea5f1fcfc0d969bf 8395ae05cb5a2e31d36106e8c85efa11cda849be refs/heads/spdx-linus
+6feb57c2fd7c787aecf2846a535248899e7b70fa 8395ae05cb5a2e31d36106e8c85efa11cda849be refs/heads/main
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmOlvpAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+9fIP/2OepG80et08pu1++iSU
-71sE0BttBXhNgrP2EVkYN9lYLtrgNQSIX6xNizDfIkX0NTqV0dl17newCiMj2YLs
-Xn2WG7m76sOy6JsRpYqi1BG5GVZotJtvm7LqtO8YDANivXc4YflAwcrpZwNfwo+I
-HH7YaHxqHBuLeVAZ4Z8CbJvwCr8TO1QpwnB3i1Ai0MA0IQYfEpSFrZXA9atbE4pJ
-+OZsqW6oq+d3bEs0lDC2kFLU3OE86E9URqcbEu1B0T9yuZ4BW8hqGlDljlHFcLXM
-Ee4x3Xt3Fk/pp2FMhtNRt+3B1wU71NRskB6ppHRk8Myyf3yeXnfhwg3ohtyoeCYs
-VzUkJbvJCQqb6EIDR1qeH+qAF7ARCC5jXOgpjYdG5Briarxfuxyz8oDOXS+IwAUQ
-UyDScXGspoONgcardrlhDlGLXTS+oL5MZrCsH1RTyHKd76tw/1kgxTAh3vqU9Onm
-2cSJBMG3ie0Nq9gYNfPe528VUq9Xm+PmwDeWXOHjWQODegtkJld4OILmWf71vHy1
-rYoN1vSE0N6CHHpf9Omjq/iRAClkuv0kheIqxMibTppl0uxf6dAcqUdn+vGGx8N1
-+Bzk+Djk5SBpEdm8LcXoFVaX6zLa44r0bu7qSxcgyWR8IIWdCoLhDB2m+n9BZp7R
-kFPfiXOA/X8Hkab56LdUnkGf
-=Ofhf
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmOlvrsbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+17MQAJyC5YHKslVEPXF3jQsE
+W7b5el2nDiz+6hqq4Z0VdfFq361j32QsxGcLtWEX/jGYVYkAz8GKMXUqd2Vz+uFx
+3veO+ySxUkEyrPDkiwhk+pSWExPnDcZ7L2BqLAsSqsXDc/RhcalNR7Uj8c0d5Ggz
+D/KBPiqvc9sL9KMcH87zoqLRsxomju0RMduUkonOxvq4+B4nlJg7suCRNFNUhNWh
+YpoO/LO4l/PpUZAloUJ85RRSQrsm0dG0BRUilp7nttmcE7C7K7xMfd4T0F7uAgoD
+HXSIFLmUxPXoTn7xtoxda6fx0t7ebU7BJrEMlm2UHO2+u1x8C7LksxhI6RcodQRn
+foRN+b2VQzCO7v6DzGhXTHcSDQ3xYIvFv4Bo6cRSckCHyoi4LAEVEvZTCNDgsizF
+qZc+PRKOyQsLIFgp5L/emb79UpRD96ODqG77Ad0llm3ltKLjpplfHB120mJcZG+m
+F730kIcZx0iruXR3DCeW663+9Fdsg7ECre5H2D6EdNK00eGoUhp27rRjGQh2ApVX
+GqWlaHj06qjGkDO2EpnSxcylsBqgHg6TNTL4P5pcUwUy6P9OznMsLqO/8+rAqojc
+TI9lyLy6/0zEbfUZ5zvkKbNeR6/KZDMVVd3Zob0YHnw9M+rJrBH8EZtCFLr8fGUh
+rvU/WXlqg1lF7/VcdJV0nMoY
+=V3OD
 -----END PGP SIGNATURE-----
 
---===============5541023717891037002==
+--===============3912957591948048766==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b6bb9676f216-8395ae05cb5a.txt
+Content-Disposition: attachment; filename=revlist-6feb57c2fd7c-8395ae05cb5a.txt
 
 bd6ae049b7be4785082e5c3c0a80e8c9e3ff2fc6 fs/ntfs3: Add comments about cluster size
 098250db5dfcc01161fd64e9bce5b012280a85b3 fs/ntfs3: Add hidedotfiles option
@@ -89,6 +89,9 @@ fcd382b23dcf16732964aca491660da676c3c44f remoteproc: imx_rproc: Support i.MX8QM
 99b142cf7191b08adcd23f700ea0a3d7dffdd0c1 remoteproc: imx_rproc: Request mbox channel later
 6eed169c7fefd9cdbbccb5ba7a98470cc0c09c63 remoteproc: imx_rproc: Enable attach recovery for i.MX8QM/QXP
 0d6d7c61ffeedc782b651a080ad6543ad45314b6 fs/ntfs3: Don't use uni1 uninitialized in ntfs_d_compare()
+ad9f64cd2d4a17f0d5ecf04d38170fdc34f21c61 LICENSES: Add the copyleft-next-0.3.1 license
+6cad1ecd4e3213d892b70afa999a81849d1f0206 testing: use the copyleft-next-0.3.1 SPDX tag
+defbab270d45e32b068e7e73c3567232d745c60f include/uapi/linux/swab: Fix potentially missing __always_inline
 f271946117dde2ca8741b8138b347b2d68e6ad56 pwm: tegra: Improve required rate calculation
 5eccd0d9fabc4d2ab8d2a0c056fb1d7e2ff892fc pwm: tegra: Ensure the clock rate is not less than needed
 dd1f1da4ada5d8ac774c2ebe97230637820b3323 pwm: tegra: Fix 32 bit build
@@ -132,6 +135,7 @@ ec5fc72013762500867c9cef96fed89dc7161832 fs/ntfs3: Improve checking of bad clust
 36963cf225f890f97fd84af0a82d323043edd0f1 fs/ntfs3: Make if more readable
 ee18f2715e85f4ef051851a0c4831ee7ad7d83b3 remoteproc: imx_rproc: Correct i.MX93 DRAM mapping
 e63ae3f836e66bf956072a0d6dd09fbe2d45bf7a remoteproc: core: Use device_match_of_node()
+5e5ff73c2e5863f93fc5fd78d178cd8f2af12464 asm-generic/io: Add _RET_IP_ to MMIO trace for more accurate debug info
 5719efcc5abb34ceb47b03e58709d99713f80db1 dt-bindings: pwm: renesas,pwm-rcar: Add r8a779g0 support
 50315945d178eebec4e8e2c50c265767ddb926eb dt-bindings: pwm: renesas,tpu: Add r8a779g0 support
 d5f30a7da8ea8e6450250275cec5670cee3c4264 tracing: Fix race where eprobes can be called before the event
@@ -153,6 +157,8 @@ c9293c1199ecd3cfa07931ec3630f37dba1ca1b8 scsi: core: Rename status_byte to sg_st
 04b3c8c0025a1d91a0e133e9b2734a002960f472 scsi: sd: Convert SCSI errors to PR errors
 7fb42780d06c3417b21c3f31b6b99fd8e9ca6084 nvme: Convert NVMe errors to PR errors
 68ad83188d782b2ecef2e41ac245d27e0710fe8e scsi: qla2xxx: Fix crash when I/O abort times out
+32975c491ee410598b33201344c123fcc81a7c33 uapi: Add missing _UAPI prefix to <asm-generic/types.h> include guard
+af5d74e32eb8e1b833f687047f0ffe3801d7229d m68k: use strscpy() to instead of strncpy()
 45558b3abb87eeb2cedb8a59cb2699c120b5102a pwm: sifive: Call pwm_sifive_update_clock() while mutex is held
 0b5ef3429d8f78427558ab0dcbfd862098ba2a63 pwm: mtk-disp: Fix the parameters calculated by the enabled flag of disp_pwm
 07d8d8d29aa76f3c28020a9c914cc890eb86a48c pwm: lpc18xx-sct: Fix a comment to match code
@@ -447,16 +453,46 @@ b4cafb3d2c740f8d1b1234b43ac4a60e5291c960 devlink: hold region lock when flushing
 d1c4a3469e73730f7cbbcec661c2a9081af1aa45 selftests: devlink: add a warning for interfaces coming up
 3e31d209ed5fceb4a50118accd461b3b9b13e589 Merge branch 'devlink-fixes'
 68bb10101e6b0a6bb44e9c908ef795fc4af99eae openvswitch: Fix flow lookup to use unmasked key
+dba8eb83af9dd757ef645b52200775e86883d858 soc: mediatek: pm-domains: Fix the power glitch issue
+e4a4175201014c0222f6bab1895a17b3d1b92f08 arm64: dts: mediatek: mt8195-demo: fix the memory size of node secmon
+ad2631b5645a1d0ca9bf6fecf71f77e3b0071ee5 arm64: dts: mt8183: Fix Mali GPU clock
 53eab8e76667b124615a943a033cdf97c80c242a block: don't clear REQ_ALLOC_CACHE for non-polled requests
+a7d550f82b445cf218b47a2c1a9c56e97ecb8c7a of: fdt: Honor CONFIG_CMDLINE* even without /chosen node
+d8a76e46d7d3d6db5458d7f46205153ca9a53afd dt-bindings: usb: tegra-xusb: Remove path references
+5fa9f7292b17bcd66da93226fc28fe1f755af154 dt-bindings: vendor-prefixes: sort entries alphabetically
+f62678a77d585cf3f6302a5a4e2265b1a97b004b dt-bindings: mxsfb: Document i.MX8M/i.MX6SX/i.MX6SL power-domains property
+435beb4110da372c313398891ca9eee87f83d3db dt-bindings: hwmon: ntc-thermistor: drop Naveen Krishna Chatradhi from maintainers
+22c9f19002c7536b30bc15b6fb6276d62be2f758 dt-bindings: imx6q-pcie: Handle various clock configurations
+8b8161edf14acab716c01d03bafc8a3e8113a43a dt-bindings: imx6q-pcie: Handle various PD configurations
+1a2cead15bcfac872c15457ef50ffbbe5ff641bc dt-bindings: imx6q-pcie: Handle more resets on legacy platforms
+e21a77d8dabe3c6384cdd485cb129c7d2a426708 dt-bindings: watchdog: gpio: Convert bindings to YAML
+ab040c42237f47dffbb1b83bd4e29f739b3a917e dt-bindings: drop redundant part of title of shared bindings
+9d94e28505f8033adf98434573074b400c081902 dt-bindings: memory-controllers: ti,gpmc-child: drop redundant part of title
+a0c2153dcfa0a7f58f189622c6c045ff5aafe08e dt-bindings: clock: st,stm32mp1-rcc: add proper title
+a612130ca1a650b0ba3599fc3199143eb9e7060d dt-bindings: drop redundant part of title (end)
+9fa3ad1a1ab31da4887b48e68ad529af78f119b6 dt-bindings: drop redundant part of title (end, part two)
+84e85359f4999a439aa12e04bf0ae9e13e00fc66 dt-bindings: drop redundant part of title (end, part three)
+9d69d47fd399137d41b744065aab2f9677ccc377 dt-bindings: drop redundant part of title (beginning)
+33cd7c6fffa3c546b3fce3b000d4b83f88c01e0d dt-bindings: clock: drop redundant part of title
 13e3c7793e2fa2707455aaf66f2498ed4a00d6e2 Merge tag 'for-netdev' of https://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
+3367934dd3035afa72ac79ae649f142a530df157 dt-bindings: drop redundant part of title (manual)
 86fe0fa8747fb1bc4cc44fc1966e0959fe752f38 cifs: set correct ipc status after initial tree connect
 078838f5b9c9203e94d7724f997392ea8012ea6a net: ethernet: ti: am65-cpsw: fix CONFIG_PM #ifdef
 214964a13ab56a9757d146b79b468a7ca190fbfb devlink: protect devlink dump by the instance lock
 2d7afdcbc9d32423f177ee12b7c93783aea338fb skbuff: Account for tail adjustment during pull operations
+1bc5434632593ea3bb3a1ed2499af8c31796448b parisc: Fix inconsistent indenting in setup_cmdline()
 6434ec0186b80c734aa7a2acf95f75f5c6dd943b io_uring: don't use TIF_NOTIFY_SIGNAL to test for availability of task_work
+41f563ab3c33698bdfc3403c7c2e6c94e73681e4 parisc: led: Fix potential null-ptr-deref in start_task()
+71bdea6f798b425bc0003780b13e3fdecb16a010 parisc: Align parisc MADV_XXX constants with all other architectures
+fe94cb1a614d2df2764d49ac959d8b7e4cb98e15 parisc: Drop PMD_SHIFT from calculation in pgtable.h
 3f6c3d29df58f391cf487b50a24ebd24045ba569 rcu: Don't assert interrupts enabled too early in boot
 35d90f95cfa773b7e3b1f57ba15ce06a470f354c io_uring: include task_work run after scheduling in wait for events
 89529367293c975c3580f49f38568f44848d5683 Merge branch '1GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
+7236aae5f81f3efbd93d0601e74fc05994bc2580 parisc: Fix locking in pdc_iodc_print() firmware call
+7e6652c79ecd74e1112500668d956367dc3772a5 parisc: Drop duplicate kgdb_pdc console
+7dc4dbfe750e1f18c511e73c8ed114da8de9ff85 parisc: Drop locking in pdc console code
+4add395bc77f19e2e5cedbef4368ffdebc89b165 parisc: Move pdc_result struct to firmware.c
+9086e6017957c5cd6ea28d94b70e0d513d6b7800 parisc: Add missing FORCE prerequisites in Makefile
 e0cb05a02c5333323a32324d8e4048b7575d8ff5 dt-bindings: mailbox: qcom: Add SM4250 APCS compatible
 e2cb0eac3d1d1acc8203634f3243859d95e4b37c mailbox: qcom-apcs-ipc: Add SM4250 APCS IPC support
 31c8d06e55acc325c64596f148d5405dbe4adf30 mailbox: config: ti-msgmgr: Default set to ARCH_K3 for TI msg manager
@@ -515,13 +551,22 @@ aacfc939cc42293fbcfe113040b4e8abaef68429 cifs: update internal module number
 115dd5469019296040359060743de77071ccb6ec Documentation: devlink: add missing toc entry for etas_es58x devlink doc
 3bc2afcba81275306adfbfca83f38a52858c5940 can: flexcan: avoid unbalanced pm_runtime_enable warning
 f006229135b7debf4037adb1eb93e358559593db can: kvaser_usb: hydra: help gcc-13 to figure out cmd_len
+4934fbfb3ff09b8500f63d4624ed8b41647bb822 parisc: Show MPE/iX model string at bootup
 66dfc517e8ec530b1d8d4776c05e3f264f38ecb8 perf python: Don't stop building if python setuptools isn't installed
 30d647f5ba9ebefa153ad2bc3f05e3a7c7d90d1c Merge remote-tracking branch 'torvalds/master' into perf/core
 0bc1d0e2c16736a75f73a94d3a73370801a6ceb2 tools headers disabled-cpufeatures: Sync with the kernel sources
 6c3e8955d4bd9811a6e1761eea412a14fb51a2e6 io_uring/net: fix cleanup after recycle
 51c4f2bf5397b34b79a6712221606e0ab2e6f7ed tools headers cpufeatures: Sync with the kernel sources
+2b76cfe190305fe02d8120df64f2a1bb6a3d3889 ARM: dts: spear: drop 0x from unit address
+4c03c4188cfb831e4ac093599192aedd60625a45 MAINTAINERS: add related dts to IXP4xx
+4b88615950fc805690b92b46c8ab794beb4bd6aa ARM: pxa: fix building with clang
 43a3ce77aee917ac3b247e925853646fac4c05a6 tools headers UAPI: Sync linux/fscrypt.h with the kernel sources
+6a7ee50f8f56dc181e1150cc101896053b02d220 ARM: disallow pre-ARMv5 builds with ld.lld
+ba4b4d0293ed12ec2eda09e0329d9831243ca699 soc: tegra: fix CPU_BIG_ENDIAN dependencies
+b9cb6be06b56f9ad73072c2728138fb339da7d32 Merge tag 'v6.1-dts64-fixes' of https://git.kernel.org/pub/scm/linux/kernel/git/matthias.bgg/linux into arm/fixes
+6f85602d5fdea936077060ca6853587f01716a45 Merge tag 'v6.1-soc-fixes' of https://git.kernel.org/pub/scm/linux/kernel/git/matthias.bgg/linux into arm/fixes
 5ad70eb27d2b87ec722fedd23638354be37ea0b0 MAINTAINERS: io_uring: Add include/trace/events/io_uring.h
+850f7a5cab3314fb26547d636893eb55b4c5527a Merge tag 'soc-fixes-6.2-1' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
 62e027fb0e5293d95e8d36655757ef4687c8795d net: dsa: microchip: remove IRQF_TRIGGER_FALLING in request_threaded_irq
 b389a902dd5be4ece505a2e0463b9b034de04bf5 mctp: Remove device type check at unregister
 fb87bd47516d9a26b6d549231aa743b20fd4a569 net: Introduce sk_use_task_frag in struct sock.
@@ -534,10 +579,15 @@ fb87bd47516d9a26b6d549231aa743b20fd4a569 net: Introduce sk_use_task_frag in stru
 3c202d14a9d73fb63c3dccb18feac5618c21e1c4 prandom: remove prandom_u32_max()
 53ffa6a9f83b2170c60591da1ead8791d5a42e81 HID: amd_sfh: Add missing check for dma_alloc_coherent
 1db1f392591aff13fd643f0ec7c1d5e27391d700 HID: wacom: Ensure bootloader PID is usable in hidraw mode
+70b07bec95b6d369f68fb85bc3fe60c423d8b91b Merge tag 'asm-generic-6.2-1' of git://git.kernel.org/pub/scm/linux/kernel/git/arnd/asm-generic
 cec827d658dd5c287ea8925737d45f0a60e47422 HID: Ignore HP Envy x360 eu0009nv stylus battery
 4eab1c2fe06c98a4dff258dd64800b6986c101e9 HID: multitouch: fix Asus ExpertBook P2 P2451FA trackpoint
 3d57f36c89d8ba32b2c312f397a37fd1a2dc7cfc HID: plantronics: Additional PIDs for double volume key presses quirk
 54f27dc53f1764986d417cfafe1013806deba668 HID: sony: Fix unused function warning
+35f79d0e2c98ff6ecb9b5fc33113158dc7f7353c Merge tag 'parisc-for-6.2-1' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
+3e0caea7545430a530bec19bb0de6c1c56c04924 Merge tag 'devicetree-for-6.2-2' of git://git.kernel.org/pub/scm/linux/kernel/git/robh/linux
+32d528c4b885108694f613406d9f39fa4873bd37 Merge tag 'spdx-6.2-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/spdx
+b6bb9676f2165d518b35ba3bea5f1fcfc0d969bf Merge tag 'm68knommu-for-v6.2' of git://git.kernel.org/pub/scm/linux/kernel/git/gerg/m68knommu
 bfa87ac86ce9ff879c5ac49bf09c3999859a8968 rv/monitors: Move monitor structure in rodata
 eeac18e2bff3e1f62f59059d34c37e75f350a119 tools headers UAPI: Sync drm/i915_drm.h with the kernel sources
 a66558dcb1079c198ab0f56896195a353dae4428 tools arch x86: Sync the msr-index.h copy with the kernel sources
@@ -632,4 +682,4 @@ d1ac1a2b14264e98c24db6f8c2bd452e695c7238 Merge tag 'perf-tools-for-v6.2-2-2022-1
 ff75ec43a2f6fbf7049472312bab322d77eb1bde Merge tag 'afs-next-20221222' of git://git.kernel.org/pub/scm/linux/kernel/git/dhowells/linux-fs
 8395ae05cb5a2e31d36106e8c85efa11cda849be Merge tag 'scsi-misc' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 
---===============5541023717891037002==--
+--===============3912957591948048766==--
