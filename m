@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Fri, 23 Dec 2022 23:07:51 -0000
-Message-Id: <167183687127.22978.5219990692197444094@gitolite.kernel.org>
+Subject: post-receive: pub/scm/docs/man-pages/man-pages
+Date: Fri, 23 Dec 2022 23:09:47 -0000
+Message-Id: <167183698713.23658.5521218849085496106@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/docs/man-pages/man-pages
+user: alx
 changes:
   - ref: refs/heads/master
-    old: cac1de203c52409b03e22f7e5a4a374615152d43
-    new: b2d4856f6ef096cdc8085c1081a888f9d7cfdcbd
+    old: 122f8538b82c459b76793b7e4d4537d71136480b
+    new: f882f1ee1f4bb26c4cc8828c1f84607544ae66a1
     log: |
-         b2d4856f6ef096cdc8085c1081a888f9d7cfdcbd Fri Dec 23 11:07:02 PM UTC 2022
+         f882f1ee1f4bb26c4cc8828c1f84607544ae66a1 scripts/LinuxManBook/: Add Deri's script for producing the man-pages book
          
