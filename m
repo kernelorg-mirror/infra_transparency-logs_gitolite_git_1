@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/legion/linux
-Date: Fri, 23 Dec 2022 17:23:54 -0000
-Message-Id: <167181623402.22190.16044625827250652757@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
+Date: Fri, 23 Dec 2022 17:43:14 -0000
+Message-Id: <167181739463.1792.16566125258932808121@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/legion/linux
-user: legion
+repo: pub/scm/linux/kernel/git/ardb/linux
+user: ardb
 changes:
-  - ref: refs/heads/sysctl-next
-    old: 1c23ee97a4e28d741005eab403150d0617f64bd5
-    new: 39bdb5cac27dc4b9af3a5d0ee61bfd8e088b1a06
+  - ref: refs/heads/arm64-efi-enter-with-mmu-on-for-v6.3
+    old: 7236bac201b2e20877e084e8022e84206d957757
+    new: 771a55d1352099be6d3611d981fcd0727287a1b9
     log: |
-         9913fe8a96c3eeadeaabe9b4a26195419246e5dc ipc: Register static ipc_sysctls
-         39bdb5cac27dc4b9af3a5d0ee61bfd8e088b1a06 ipc: Register static mq_sysctls
+         771a55d1352099be6d3611d981fcd0727287a1b9 efi: arm64: enter with MMU and caches enabled
          
