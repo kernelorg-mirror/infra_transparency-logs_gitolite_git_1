@@ -1,26 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============1611240332955313101=="
+Content-Type: multipart/mixed; boundary="===============0133243575518038372=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
-Date: Fri, 23 Dec 2022 19:54:18 -0000
-Message-Id: <167182525896.24990.10208571717627005800@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/fscrypt/fscrypt
+Date: Fri, 23 Dec 2022 19:54:22 -0000
+Message-Id: <167182526291.25050.2804198321962791208@gitolite.kernel.org>
 
---===============1611240332955313101==
+--===============0133243575518038372==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ebiggers/linux
+repo: pub/scm/fs/fscrypt/fscrypt
 user: ebiggers
 changes:
-  - ref: refs/heads/fsverity-pending
+  - ref: refs/tags/fsverity-non4k-v2
     old: 4d9b6a27d65f9d03d031133536d63e8d41de1aab
     new: 012d40a2b71195ac1f7306b9b297ba4dcf920422
     log: revlist-4d9b6a27d65f-012d40a2b711.txt
 
---===============1611240332955313101==
+--===============0133243575518038372==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -38,4 +38,4 @@ a3426c32ae4080a57a811c7911e9ceaf0ec422c2 f2fs: simplify f2fs_readpage_limit()
 05ce147103a2f568d872e58045a9b8e23bf1434a fs/buffer.c: support fsverity in block_read_full_folio()
 012d40a2b71195ac1f7306b9b297ba4dcf920422 ext4: allow verity with fs block size < PAGE_SIZE
 
---===============1611240332955313101==--
+--===============0133243575518038372==--
