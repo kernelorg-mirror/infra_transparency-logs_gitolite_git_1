@@ -1,33 +1,34 @@
-Content-Type: multipart/mixed; boundary="===============1613354262448805060=="
+Content-Type: multipart/mixed; boundary="===============4779316858697403098=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cem/xfsprogs-dev
-Date: Fri, 23 Dec 2022 10:27:41 -0000
-Message-Id: <167179126168.8018.1546280395397945301@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/xfs/xfsprogs-dev
+Date: Fri, 23 Dec 2022 10:29:47 -0000
+Message-Id: <167179138721.8697.1208294908227978096@gitolite.kernel.org>
 
---===============1613354262448805060==
+--===============4779316858697403098==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cem/xfsprogs-dev
+repo: pub/scm/fs/xfs/xfsprogs-dev
 user: cem
 changes:
   - ref: refs/heads/master
-    old: 6d8bdfe41b7ed9d0dbd04dae7bf20a6b7d718731
+    old: 3498b68025ced534c5fc27141bf67c764b357332
     new: 37e6e80a61ad1a88bd109d71be73c8f415003cc1
-    log: revlist-6d8bdfe41b7e-37e6e80a61ad.txt
+    log: revlist-3498b68025ce-37e6e80a61ad.txt
+  - ref: refs/tags/v6.1.0
+    old: 0000000000000000000000000000000000000000
+    new: 59e70618eb14f1aa4cea9a172ef11cca56ac6783
 
---===============1613354262448805060==
+--===============4779316858697403098==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6d8bdfe41b7e-37e6e80a61ad.txt
+Content-Disposition: attachment; filename=revlist-3498b68025ce-37e6e80a61ad.txt
 
-f034a3215bf30793092635b38ae5e765663797b3 Polish translation update for xfsprogs 5.19.0.
-3498b68025ced534c5fc27141bf67c764b357332 xfsprogs: Release v6.0.0
 be98db856abba2a841fe757b760255cebe075d0f xfs: clean up "%Ld/%Lu" which doesn't meet C standard
 e8dbbca18d8d1aefaec35384c718828e64bbb4d1 xfs: Remove the unneeded result variable
 04d4c27afa3f2c0088e381102e68cfb6a96b3306 xfs: trim the mapp array accordingly in xfs_da_grow_inode_int
@@ -68,4 +69,4 @@ e229a59f010b7f8544f9350987fff5e86d06dfcf xfs_db: create separate struct and fiel
 7374f58bfeb38467bab6552a47a5cd6bbe3c2e2e xfs_db: fix dir3 block magic check
 37e6e80a61ad1a88bd109d71be73c8f415003cc1 xfsprogs: Release v6.1.0
 
---===============1613354262448805060==--
+--===============4779316858697403098==--
