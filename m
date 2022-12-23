@@ -1,41 +1,23 @@
-Content-Type: multipart/mixed; boundary="===============0133243575518038372=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/fscrypt/fscrypt
-Date: Fri, 23 Dec 2022 19:54:22 -0000
-Message-Id: <167182526291.25050.2804198321962791208@gitolite.kernel.org>
-
---===============0133243575518038372==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Fri, 23 Dec 2022 20:01:18 -0000
+Message-Id: <167182567812.30665.126315155357358449@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/fscrypt/fscrypt
-user: ebiggers
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/tags/fsverity-non4k-v2
-    old: 4d9b6a27d65f9d03d031133536d63e8d41de1aab
-    new: 012d40a2b71195ac1f7306b9b297ba4dcf920422
-    log: revlist-4d9b6a27d65f-012d40a2b711.txt
-
---===============0133243575518038372==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4d9b6a27d65f-012d40a2b711.txt
-
-69d513cef9affb2aa23aa4c2fedbef97f532fc2d fsverity: use unsigned long for level_start
-50420f3a50291f3ed894c8ad340d52512084d2fb fsverity: simplify Merkle tree readahead size calculation
-2d2002c48d6296e1a51430fa4fbe9424694af2fc fsverity: store log2(digest_size) precomputed
-7725ae7947c36223f183421ebee7d67c7cb2c682 fsverity: use EFBIG for file too large to enable verity
-a7c0e7bdea1cb18d8a73b109005d2db99b486904 fsverity: replace fsverity_hash_page() with fsverity_hash_block()
-7671aa4e290c36a2133fe9380434da81dbc5cae2 fsverity: support verification with tree block size < PAGE_SIZE
-4c58cdf570ed5cb9954a885df80ef183cd536d08 fsverity: support enabling with tree block size < PAGE_SIZE
-ec6613f674357c927ab6e0caf6c65d4bf4add99a ext4: simplify ext4_readpage_limit()
-a3426c32ae4080a57a811c7911e9ceaf0ec422c2 f2fs: simplify f2fs_readpage_limit()
-05ce147103a2f568d872e58045a9b8e23bf1434a fs/buffer.c: support fsverity in block_read_full_folio()
-012d40a2b71195ac1f7306b9b297ba4dcf920422 ext4: allow verity with fs block size < PAGE_SIZE
-
---===============0133243575518038372==--
+  - ref: refs/heads/master
+    old: 8d8bee13ae9e316443c6666286360126a19c8d94
+    new: 256cbafb0a9a3b340bd4798ad77bf0d93ee35ae8
+    log: |
+         7fac54b93ad13e5e7ac237af33eb2a0940eaeea0 atm: uapi: fix spelling typos in comments
+         09e6b30eeb254f1818a008cace3547159e908dfd net: hns3: add interrupts re-initialization while doing VF FLR
+         7d89b53cea1a702f97117fb4361523519bb1e52c net: hns3: fix miss L3E checking for rx packet
+         8ee57c7b8406c7aa8ca31e014440c87c6383f429 net: hns3: fix VF promisc mode not update when mac table full
+         256cbafb0a9a3b340bd4798ad77bf0d93ee35ae8 Merge branch 'net-hns3-fix-some-bug-for-hns3'
+         
