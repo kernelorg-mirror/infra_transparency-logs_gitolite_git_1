@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7635882026734486769=="
+Content-Type: multipart/mixed; boundary="===============7453905711273906107=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Sun, 25 Dec 2022 23:50:28 -0000
-Message-Id: <167201222816.32132.9526484970514073097@gitolite.kernel.org>
+Date: Sun, 25 Dec 2022 23:50:45 -0000
+Message-Id: <167201224573.32316.14417492234845090596@gitolite.kernel.org>
 
---===============7635882026734486769==
+--===============7453905711273906107==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,20 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/arm64-tpidr2-ptrace-feat
-    old: 8c060030dbb5bfee80bab47cc242471e8f823484
-    new: d6badfc5ea22358496342a0251c59ee216146e1d
-    log: revlist-8c060030dbb5-d6badfc5ea22.txt
+  - ref: refs/heads/arm64-tpidr2-sig
+    old: b3ffb20a8b4bfcea8ac7161809490d34a3bc9dea
+    new: a5a5bc163f3b35e0d4afbc92cceed8bcec9ec8e8
+    log: revlist-b3ffb20a8b4b-a5a5bc163f3b.txt
 
---===============7635882026734486769==
+--===============7453905711273906107==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8c060030dbb5-d6badfc5ea22.txt
+Content-Disposition: attachment; filename=revlist-b3ffb20a8b4b-a5a5bc163f3b.txt
 
-eaacfeaca7ad0804b9a6eff7afeba93a87db7638 can: m_can: Call the RAM init directly from m_can_chip_config
-0826e82b8a32e646b7b32ba8b68ba30812028e47 can: raw: add support for SO_MARK
-3abcc01c38bc5d424635df96e0677e2fbec021de dt-bindings: can: renesas,rcar-canfd: Fix number of channels for R-Car V3U
 c1eaf8b9bd3145d029446c927e1c9ce925dfe6a7 can: m_can: Eliminate double read of TXFQS in tx_handler
 57757937974988dc8feb7cf66b17dca72bca813b can: m_can: Avoid reading irqstatus twice
 fac52bf786e5c302990fa79f2fdde24e84f810b0 can: m_can: Read register PSR only on error
@@ -1048,7 +1045,10 @@ edb23125fd4a79003012bc619d2c604da922865e Merge tag 'pstore-v6.2-rc1-fixes' of gi
 72a85e2b0a1e1e6fb4ee51ae902730212b2de25c Merge tag 'spi-fix-v6.2-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
 292a089d78d3e2f7944e60bb897c977785a321e3 treewide: Convert del_timer*() to timer_shutdown*()
 1b929c02afd37871d5afb9d498426f83432e71c2 Linux 6.2-rc1
-c4db6e241777567d00032a68b28e8fb2cb8548b4 v2:  - Rebase onto v6.2-rc1.
-d6badfc5ea22358496342a0251c59ee216146e1d arm64/ptrace: Use system_supports_tpidr2() to check for TPIDR2 support
+1076b4162e5a612c64a5ab031ade8837097620c9 arm64/signal: Support TPIDR2
+f7e717fd46f60366bfb0e2c397907510ec548644 arm64/sme: Document ABI for TPIDR2 signal information
+397ecbc59d792b6782b6d1ea92723fadc4f41e71 arm64/signal: Include TPIDR2 in the signal context
+77ec5b7b0ed3604da9c88f27d77f70b345a69597 kselftest/arm64: Add TPIDR2 to the set of known signal context records
+a5a5bc163f3b35e0d4afbc92cceed8bcec9ec8e8 kselftest/arm64: Add test case for TPIDR2 signal frame records
 
---===============7635882026734486769==--
+--===============7453905711273906107==--
