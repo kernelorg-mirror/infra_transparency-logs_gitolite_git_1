@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5326135633023703295=="
+Content-Type: multipart/mixed; boundary="===============4021661888997539605=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sashal/linux-stable
-Date: Sun, 25 Dec 2022 13:03:45 -0000
-Message-Id: <167197342534.31583.3150356496193657874@gitolite.kernel.org>
+Date: Sun, 25 Dec 2022 13:03:57 -0000
+Message-Id: <167197343789.31759.2107766183430444985@gitolite.kernel.org>
 
---===============5326135633023703295==
+--===============4021661888997539605==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,43 +15,43 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sashal/linux-stable
 user: sashal
 changes:
-  - ref: refs/heads/for-greg/4.14-7
-    old: 0f5ad732eef93224cc176bd147e85eda4b78bb4f
-    new: 45735300e496f513e77f66275575313ccf1b4c7c
-    log: revlist-0f5ad732eef9-45735300e496.txt
-  - ref: refs/heads/for-greg/4.19-7
-    old: 600523044aa24972b3e5df166eb51b494d193f64
-    new: 1f61a84022839918850c72f0496e5f459cceb8f8
-    log: revlist-600523044aa2-1f61a8402283.txt
-  - ref: refs/heads/for-greg/4.9-7
-    old: 625e0547a2389980df5c1ab3145152fc7115248d
-    new: 1f608a9deb6f98c707cd15ba7be1868c4767e5e6
-    log: revlist-625e0547a238-1f608a9deb6f.txt
-  - ref: refs/heads/for-greg/5.10-7
-    old: b9d37bfc451b1d23811ec0e49c71281f9b5a1132
-    new: 02b27122c2ee8e76675f6702090d8c8eb2f80cad
-    log: revlist-b9d37bfc451b-02b27122c2ee.txt
-  - ref: refs/heads/for-greg/5.15-7
-    old: 76f99362f8ed995069790d72b2b8a775ef284d6a
-    new: da0040fc38f5f76c92ff894f9fc5d211fef7e301
-    log: revlist-76f99362f8ed-da0040fc38f5.txt
-  - ref: refs/heads/for-greg/5.4-7
-    old: a6483c241d15478ecfcc3ff79e68947a9e9b4e14
-    new: 94d7766fbfa8e816abe5156cc72ce643260687cc
-    log: revlist-a6483c241d15-94d7766fbfa8.txt
-  - ref: refs/heads/for-greg/6.0-7
-    old: a6e3e90b6da7d0ff5d71ccb7d2b8004cb6dd7806
-    new: 294527b0105cca55fe5e2daf5e7c0422b3a27a7b
-    log: revlist-a6e3e90b6da7-294527b0105c.txt
-  - ref: refs/heads/for-greg/6.1-7
+  - ref: refs/heads/for-greg/4.14-107
+    old: 26962801b34fd48e4090bc45b721b949631fd070
+    new: c4215ee4771bb935727df2db097fd28f8d644b5c
+    log: revlist-26962801b34f-c4215ee4771b.txt
+  - ref: refs/heads/for-greg/4.19-107
+    old: 4dc1bf25ccb5fa74d57be6e83810331824b60943
+    new: 186efe40646d19b6567c8f4ab289ea0e81faba40
+    log: revlist-4dc1bf25ccb5-186efe40646d.txt
+  - ref: refs/heads/for-greg/4.9-107
+    old: dfbfd1b0fd4ea84b296d8da586eccd1f7e2e0943
+    new: 4b605cd1fb8e2e7b01e2a905c9b93183a8d161ee
+    log: revlist-dfbfd1b0fd4e-4b605cd1fb8e.txt
+  - ref: refs/heads/for-greg/5.10-107
+    old: 90bc97a3941ce6f9404a44d8977b6cbd5134d55b
+    new: 7ecd9028de312dc1553d0eeda751364a51543d9d
+    log: revlist-90bc97a3941c-7ecd9028de31.txt
+  - ref: refs/heads/for-greg/5.15-107
+    old: 35d30fc42b83a0a48277a15634d7911aa6a168c4
+    new: d0c6db02e4d1986afc119fefb342322c32504a84
+    log: revlist-35d30fc42b83-d0c6db02e4d1.txt
+  - ref: refs/heads/for-greg/5.4-107
+    old: 388341d3e24e35f3bd6fe3d585486032ebcff825
+    new: 55b46ae35ac18f3f49a8fb1e6490029acb7b66c6
+    log: revlist-388341d3e24e-55b46ae35ac1.txt
+  - ref: refs/heads/for-greg/6.0-107
+    old: 497e514dcc3e7aa17e2a5c126431e76653dd8306
+    new: 19d4d0ecf9e95dd2eb2ef57e316a20d6cb829846
+    log: revlist-497e514dcc3e-19d4d0ecf9e9.txt
+  - ref: refs/heads/for-greg/6.1-107
     old: 0000000000000000000000000000000000000000
-    new: 85df12f3bcbb5c69dd70a61517acda663ade04ac
+    new: 6f5f4063ceafe6d8869922f0fc3b57f49c92cf37
 
---===============5326135633023703295==
+--===============4021661888997539605==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0f5ad732eef9-45735300e496.txt
+Content-Disposition: attachment; filename=revlist-26962801b34f-c4215ee4771b.txt
 
 7e6777654003e57bd4434b14de8cbcd0bf22a51d uas: add no-uas quirk for Hiksemi usb_disk
 f7d93993c9f4f97943bf2bf945fc04376c3c0931 usb-storage: Add Hiksemi USB3-FW to IGNORE_UAS
@@ -610,19 +610,12 @@ cb1e293f858e5e1152b8791047ed4bdaaf392189 ethernet: aeroflex: fix potential skb l
 b3d7ff8c04a83279fb7641fc4d5aa82a602df7c0 ipv6: avoid use-after-free in ip6_fragment()
 be1f943bc1c48c485ce553570972fb44458753ee net: mvneta: Fix an out of bounds check
 c4215ee4771bb935727df2db097fd28f8d644b5c Linux 4.14.302
-7f53a5fef8ae06175b6183cfaa959bfe9d891bd1 ASoC: mediatek: mt8173-rt5650-rt5514: fix refcount leak in mt8173_rt5650_rt5514_dev_probe()
-fd48f1f2da7554798504bc368e6776fadf9dd067 ASoC: rockchip: pdm: Add missing clk_disable_unprepare() in rockchip_pdm_runtime_resume()
-e400089390974f874a00fa68a48c0ab80b0399df ASoC: wm8994: Fix potential deadlock
-afc55790825b6b8a4e334b72c34947e6584b02b3 ASoC: rockchip: spdif: Add missing clk_disable_unprepare() in rk_spdif_runtime_resume()
-78a24ed3b1ca682c0d539447dafec03bf33a8d6a ASoC: rt5670: Remove unbalanced pm_runtime_put()
-2f619180947f90f2ce363546db2bf1959e703943 pstore: Switch pmsg_lock to an rt_mutex to avoid priority inversion
-45735300e496f513e77f66275575313ccf1b4c7c pstore: Make sure CONFIG_PSTORE_PMSG selects CONFIG_RT_MUTEXES
 
---===============5326135633023703295==
+--===============4021661888997539605==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-600523044aa2-1f61a8402283.txt
+Content-Disposition: attachment; filename=revlist-4dc1bf25ccb5-186efe40646d.txt
 
 c98cbc2519365b645176601e98f8af29e96c1e0b Makefile.extrawarn: Move -Wcast-function-type-strict to W=1
 f47d6db0a31fb59aebd8bd8bd9171d42085a0610 docs: update mediator information in CoC docs
@@ -1292,25 +1285,13 @@ b32caecee42e5bc255cb69c793f3c8d2fc379967 net: plip: don't call kfree_skb/dev_kfr
 3861eee36e8d5865eb0d53d4db890529eb7fce7c net: mvneta: Fix an out of bounds check
 dcd4aecaa93c2ee308ec80b47a912bd01605efe6 can: esd_usb: Allow REC and TEC to return to zero
 c652c812211c7a427d16be1d3f904eb02eb4265f Linux 4.19.269
-fdd786ee239c4ec9c4dd9d5e4223ae047589dc09 ALSA/ASoC: hda: move/rename snd_hdac_ext_stop_streams to hdac_stream.c
-b6b0d68baf454569c79b74fa22638d5fe4ba2e7c ALSA: hda: add snd_hdac_stop_streams() helper
-3bd38fa7f8dc7d8251b62691f6ccc9318a2a69e6 ASoC: Intel: Skylake: Fix driver hang during shutdown
-99b7c39509e807c324327396ff712d2ad127b527 FAILED: 171107237246 ("ASoC: Intel: Skylake: Fix driver hang during shutdown")
-16e1ff4cdb1731027a1ca7919f5010a7b1ea92a2 ASoC: mediatek: mt8173-rt5650-rt5514: fix refcount leak in mt8173_rt5650_rt5514_dev_probe()
-11d9cabcff493ad5f268c5fa7c2dc5853ea7cc92 FAILED: 3327d721114c ("ASoC: mediatek: mt8173-rt5650-rt5514: fix refcount leak in mt8173_rt5650_rt5514_dev_probe()")
-d8cde5f84ea08aeadfcde6ae4805cf74c85cbec4 ASoC: rockchip: pdm: Add missing clk_disable_unprepare() in rockchip_pdm_runtime_resume()
-6e9bbab7af992b94ba5b038c712176f94406ecee ASoC: wm8994: Fix potential deadlock
-661092e29de2fa5b86529a1da5f00add647cb43e ASoC: rockchip: spdif: Add missing clk_disable_unprepare() in rk_spdif_runtime_resume()
-4bcdc9ba7279226a2e9548ea0de429528547b77e ASoC: rt5670: Remove unbalanced pm_runtime_put()
-f154046bf38d89ff66c132be9bb692cc2c87782b pstore: Switch pmsg_lock to an rt_mutex to avoid priority inversion
-f75637b2cbc79ca0177d85b6178ac6ee129f206e perf debug: Set debug_peo_args and redirect_to_stderr variable to correct values in perf_quiet_option()
-1f61a84022839918850c72f0496e5f459cceb8f8 pstore: Make sure CONFIG_PSTORE_PMSG selects CONFIG_RT_MUTEXES
+186efe40646d19b6567c8f4ab289ea0e81faba40 ASoC: Intel: bytcr_rt5640: Add quirk for the Advantech MICA-071 tablet
 
---===============5326135633023703295==
+--===============4021661888997539605==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-625e0547a238-1f608a9deb6f.txt
+Content-Disposition: attachment; filename=revlist-dfbfd1b0fd4e-4b605cd1fb8e.txt
 
 46e791e18c5469e1bb0dc9607961aa5c9bb96147 uas: add no-uas quirk for Hiksemi usb_disk
 d661b5353caddfe7a4952d44a9aba70c43b1554f usb-storage: Add Hiksemi USB3-FW to IGNORE_UAS
@@ -1720,17 +1701,40 @@ fbc70a04a0369ad95a45aa407eae50cadfbd893b xen/netback: fix build warning
 5c5a903c67ef41549a972d167ff271b4beed9d81 net: plip: don't call kfree_skb/dev_kfree_skb() under spin_lock_irq()
 94257d4329f28377b1188d3dbc1f800f5eb1adc9 net: mvneta: Fix an out of bounds check
 4b605cd1fb8e2e7b01e2a905c9b93183a8d161ee Linux 4.9.336
-7a48a19bf69d719a8c456bf3fcc04fc6b807fdd9 ASoC: mediatek: mt8173-rt5650-rt5514: fix refcount leak in mt8173_rt5650_rt5514_dev_probe()
-32fe0cf8c10b66afb2a6220d0ec36b185893febd ASoC: wm8994: Fix potential deadlock
-128246bd8c8b7cb95a6ea9e023f33e42ec70518a ASoC: rockchip: spdif: Add missing clk_disable_unprepare() in rk_spdif_runtime_resume()
-1f608a9deb6f98c707cd15ba7be1868c4767e5e6 ASoC: rt5670: Remove unbalanced pm_runtime_put()
 
---===============5326135633023703295==
+--===============4021661888997539605==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b9d37bfc451b-02b27122c2ee.txt
+Content-Disposition: attachment; filename=revlist-90bc97a3941c-7ecd9028de31.txt
 
+278d8ba2b288e8f7928f2333f8611a5f0fdbdd68 selftest: tpm2: Add Client.__del__() to close /dev/tpm* handle
+36d4ffbedff718a0701234069ab3b38d5dd32799 rcu: Back off upon fill_page_cache_func() allocation failure
+0dd025483f150f329842c36ef8c3a24fb60f3bbb rcu-tasks: Convert RCU_LOCKDEP_WARN() to WARN_ONCE()
+6c61a37ea70e18998158fa57554eb9e571e3f3aa ACPI: video: Add Toshiba Satellite/Portege Z830 quirk
+b434edb0e9d159741f909eeb20843ae008e30e62 MIPS: BCM47XX: Cast memcmp() of function to (void *)
+708b9abe1b4a2f050a483db4b7edfc446b13df1f powercap: intel_rapl: fix UBSAN shift-out-of-bounds issue
+513943bf879d45005213e6f5cfb7d9e9943f589f thermal: intel_powerclamp: Use get_cpu() instead of smp_processor_id() to avoid crash
+1f730d4ae6f9ea8aa3b5e0c6c338fe8903b4647d x86/entry: Work around Clang __bdos() bug
+3de402a5248a9de841d47b5a11b5dbe5c30da682 NFSD: Return nfserr_serverfault if splice_ok but buf->pages have data
+bbacfcde5fff25ac22597e8373a065c647da6738 NFSD: fix use-after-free on source server when doing inter-server copy
+50e45034c5802cedbf5b707364ea76ace29ad984 wifi: brcmfmac: fix invalid address access when enabling SCAN log level
+e3c9b94734531a08c9bf51057ca3a9022cc90f91 bpftool: Clear errno after libcap's checks
+4398e8a7fd6abf9cdfc69ee2a75434bf47c2a210 openvswitch: Fix double reporting of drops in dropwatch
+129ca0db956e1e2483f55d2217756f9258f52737 openvswitch: Fix overreporting of drops in dropwatch
+0958e487e81bdb5ca658a3b6e72c8252d6e163f9 tcp: annotate data-race around tcp_md5sig_pool_populated
+9661724f6206bd606ecf13acada676a9975d230b wifi: ath9k: avoid uninit memory read in ath9k_htc_rx_msg()
+be81c44242b20fc3bdcc73480ef8aaee56f5d0b6 xfrm: Update ipcomp_scratches with NULL when freed
+e01d96494a9de0f48b1167f0494f6d929fa773ed wifi: brcmfmac: fix use-after-free bug in brcmf_netdev_start_xmit()
+b051d9bf98bd9cea312b228e264eb6542a9beb67 regulator: core: Prevent integer underflow
+e25ca9af8a139422e347a3346bb9a03a10ae73f1 Bluetooth: L2CAP: initialize delayed works at l2cap_chan_create()
+7b674dce4162bb46d396586e30e4653427023875 Bluetooth: hci_sysfs: Fix attempting to call device_add multiple times
+3d67986e72087733390e50936722a60dd4139639 can: bcm: check the result of can_send() in bcm_can_tx()
+27ed98e8a9b053ef893e7191cbe1a73057928c57 wifi: rt2x00: don't run Rt5592 IQ calibration on MT7620
+8d9c00979a7e1607b4403378cf016ecc118cbeea wifi: rt2x00: set correct TX_SW_CFG1 MAC register for MT7620
+5aa0461d11806599cf3b42bea1a3e68656bd0dd2 wifi: rt2x00: set VGC gain for both chains of MT7620
+a01614447954733a020ae15260d19f8e89a1ad1b wifi: rt2x00: set SoC wmac clock register
+4851303c853919f27310edec80181fd1c4185b41 wifi: rt2x00: correctly set BBP register 86 for MT7620
 65029aaedd15d9fe5ea1a899134e236d83f627bb net: If sock is dead don't access sock's sk_wq in sk_stream_wait_memory
 0c108cf3ad386e0084277093b55a351c49e0be27 Bluetooth: L2CAP: Fix user-after-free
 484400d433ca1903a87268c55f019e932297538a r8152: Rate limit overflow messages
@@ -2727,41 +2731,32 @@ a20b5eec0742396531cdcc2b6d655ed032a75d35 HID: ite: Add support for Acer S1002 ke
 f3fe6817156a2ad4b06f01afab04638a34d7c9a6 Bluetooth: L2CAP: Fix u8 overflow
 eec1c3ade48b03d381b9e4a787970d8ddaf1c0b6 net: loopback: use NET_NAME_PREDICTABLE for name_assign_type
 1a9148dfd8e03835dc7617cee696dd18c0000e99 Linux 5.10.161
-45eeb97cb3a4ef41bc43200c266c87e54608ac1e ALSA/ASoC: hda: move/rename snd_hdac_ext_stop_streams to hdac_stream.c
-689970af5b69f5bd17f037316a5b0411947b77a0 ALSA: hda: add snd_hdac_stop_streams() helper
-59b3e129bb66f8c0449d98507fb20bc6787d3f3c ASoC: Intel: Skylake: Fix driver hang during shutdown
-1b12f2d44f407a53feb2f5618d9f42cc13e4a514 FAILED: 171107237246 ("ASoC: Intel: Skylake: Fix driver hang during shutdown")
-60f363847da5e737ff84a99a1ba7e8a70389b06f ASoC: mediatek: mt8173-rt5650-rt5514: fix refcount leak in mt8173_rt5650_rt5514_dev_probe()
-b3156caaab9862c4c8043b48798d93730428064e FAILED: 3327d721114c ("ASoC: mediatek: mt8173-rt5650-rt5514: fix refcount leak in mt8173_rt5650_rt5514_dev_probe()")
-4d0b5c0e7a066a39e68a5de89a3dc183f925423b ASoC: audio-graph-card: fix refcount leak of cpu_ep in __graph_for_each_link()
-4599ee158b928c477e4604ec69e9ce331d859bfe ASoC: rockchip: pdm: Add missing clk_disable_unprepare() in rockchip_pdm_runtime_resume()
-2823751d2d002fd3d9d03ecf4450a9569e9f6f00 ASoC: mediatek: mt8192: add platform driver
-147a6027e5b7d2474062721faf76ab08521e65eb ASoC: mediatek: mt8192: add machine driver with mt6359, rt1015 and rt5682
-43e4dcdc94c4b9b68dfc4d45d57aa65dcbc4217f ASoC: mediatek: mt8192: rename common symbols
-1b0cd8945916d047a461ed1a21fb36f570dca3f4 ASoC: mediatek: mt8192: extract rt1015_rt5682 specific DAI link
-e3a2b58c0092fe122cad68fcde184d414aaeaee2 ASoC: mediatek: mt8192-mt6359: move headset_jack to card specific data
-b25c18db7f5b571a73818c0620bc167d203d1cc4 ASoC: mediatek: use of_device_get_match_data()
-bf540831cf3a79993b9c801646257bf9e45ca90c ASoC: mediatek: mt8183: fix refcount leak in mt8183_mt6358_ts3a227_max98357_dev_probe()
-f09fbc7d58275ef83912900adbed4957698320e4 FAILED: 38eef3be38ab ("ASoC: mediatek: mt8183: fix refcount leak in mt8183_mt6358_ts3a227_max98357_dev_probe()")
-b509faa50fd590473d82b9c6539bb498d217b35d ASoC: wm8994: Fix potential deadlock
-cc04a9e8513d118a38a93cfe72595dff53b75176 ASoC: rockchip: spdif: Add missing clk_disable_unprepare() in rk_spdif_runtime_resume()
-f6bbca3979c4bc5a6b183ce55f8c71026c79667b ASoC: rt5670: Remove unbalanced pm_runtime_put()
-ea8f2de79540a3c95fc6e071f73cd0524c5e743d drm/i915: Track power reference taken for eDP VDD
-15d673581159575421b5aa4e87c6701d4c6c7cca drm/i915/pps: Reuse POWER_DOMAIN_DISPLAY_CORE in pps_{lock, unlock}
-9123f7b75644427abfb1b844bbf59e46ebb84958 drm/i915/dp: DPTX writes Swing/Pre-emphs(DPCD 0x103-0x106) requested during PHY Layer testing
-e7e1486949a0788f3fc72c47ece83650e2e0ace1 FAILED: 3153eebb7a76 ("drm/i915/display: Don't disable DDI/Transcoder when setting phy test pattern")
-f2500c56f3cef7df4c17ae34648ec0bd6fa78c03 LoadPin: Ignore the "contents" argument of the LSM hooks
-702b96f988258e363966dde72e227c799b5c2d38 pstore: Switch pmsg_lock to an rt_mutex to avoid priority inversion
-f2f5e452489cd8bc7cd0e6724221abb50e0d6021 perf debug: Set debug_peo_args and redirect_to_stderr variable to correct values in perf_quiet_option()
-85b2ca039193aac64be12483fc966efd88fe641c afs: Fix lost servers_outstanding count
-02b27122c2ee8e76675f6702090d8c8eb2f80cad pstore: Make sure CONFIG_PSTORE_PMSG selects CONFIG_RT_MUTEXES
+7ecd9028de312dc1553d0eeda751364a51543d9d ASoC: Intel: bytcr_rt5640: Add quirk for the Advantech MICA-071 tablet
 
---===============5326135633023703295==
+--===============4021661888997539605==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-76f99362f8ed-da0040fc38f5.txt
+Content-Disposition: attachment; filename=revlist-35d30fc42b83-d0c6db02e4d1.txt
 
+138a13d8f5c81266032af680f63069387f2748da ethtool: eeprom: fix null-deref on genl_info in dump
+5a93a8288c575fd67512ee626e26ba116a8d9f19 net: ieee802154: fix error return code in dgram_bind()
+32f93e4608611104c08812c1922db83cae26d8d0 media: v4l2: Fix v4l2_i2c_subdev_set_name function documentation
+a560aeac2f2d284903b5900774765d7fc61547bc media: atomisp: prevent integer overflow in sh_css_set_black_frame()
+59de8738ed43bd990941e2ab24333be8f12b6c33 drm/msm: Fix return type of mdp4_lvds_connector_mode_valid
+9b6841ab70960b00a8a0ba5ab462d0c527731fb3 KVM: selftests: Fix number of pages for memory slot in memslot_modification_stress_test
+eb77474a2a21b8f51bd2aec91503bb04b90b9965 ASoC: qcom: lpass-cpu: mark HDMI TX registers as volatile
+ca7b0a10287e2733bdafb01ef0d4038536625fe3 perf: Fix missing SIGTRAPs
+739eac37ff9cf5d5d416153e562970800afd67dd sched/core: Fix comparison in sched_group_cookie_match()
+08c246c7dfefe577c2745b008a43f38d51816c81 arc: iounmap() arg is volatile
+eca851572df5f8f7ba1509ba976333f8448b06b9 mtd: rawnand: intel: Add missing of_node_put() in ebu_nand_probe()
+b68873690373cf8f687fa366bd3af977cb4802b5 ASoC: qcom: lpass-cpu: Mark HDMI TX parity register as volatile
+4fdf6f978c6b605ca0d67bf0e982b7a8fc0f4aab ALSA: ac97: fix possible memory leak in snd_ac97_dev_register()
+c638b520ba4b7a4cf5e59d91eaaca55eb90f9d1a perf/x86/intel/lbr: Use setup_clear_cpu_cap() instead of clear_cpu_cap()
+7a939503fc32bff4ed60800b73ff7fbb4aea2142 tipc: fix a null-ptr-deref in tipc_topsrv_accept
+1e0bee973ef6fc3c1e3acb014515eaea37c8fa17 net: netsec: fix error handling in netsec_register_mdio()
+62aa78a0c3e5c0257daf52fa6e54470acdb3f2c5 net: hinic: fix incorrect assignment issue in hinic_set_interrupt_cfg()
+e6765fe8de372a84f8dbe9e03ec13c7c70f946b8 net: hinic: fix memory leak when reading function table
 6016d96a6adf66d61655d85da02e1a4c1deccbd6 net: hinic: fix the issue of CMDQ memory leaks
 95c22fc1e80e93eef38c6c9197cc3321d5398503 net: hinic: fix the issue of double release MBOX callback of VF
 18c60b383df3d7e36f7330e9092da87a87523c0e net: macb: Specify PHY PM management done by MAC
@@ -3767,31 +3762,13 @@ f692abf139400ca42f176fcf100c1485b01935a8 HID: uclogic: Add HID_QUIRK_HIDINPUT_FO
 314e7a7836c71d2eed27effea3e407c65fff2215 selftests: net: Use "grep -E" instead of "egrep"
 e22dbadac8d417c39b27322f06c13181d412b803 net: loopback: use NET_NAME_PREDICTABLE for name_assign_type
 5827ddaf4534c52d31dd464679a186b41810ef76 Linux 5.15.85
-bbf9d55eb38fe5b52e5598ac3393006f5a4ea0d7 ALSA/ASoC: hda: move/rename snd_hdac_ext_stop_streams to hdac_stream.c
-a116e4b1677d52e175b11470af1d28d84155ccdb ALSA: hda: add snd_hdac_stop_streams() helper
-11737a6d38728672c0e6563576447345f1552b8f ASoC: Intel: Skylake: Fix driver hang during shutdown
-d7b6703057d2e8e30a1654f5424b17cb59a4b318 FAILED: 171107237246 ("ASoC: Intel: Skylake: Fix driver hang during shutdown")
-85bdf289cd904656b93e7dd1cd5398b216ee559a ASoC: mediatek: mt8173-rt5650-rt5514: fix refcount leak in mt8173_rt5650_rt5514_dev_probe()
-cfb198cf28e713aa11127e9d517223fd3f84ced5 FAILED: 3327d721114c ("ASoC: mediatek: mt8173-rt5650-rt5514: fix refcount leak in mt8173_rt5650_rt5514_dev_probe()")
-37b9eca628e68d75cbdfe3af3ffb29c968520f6f ASoC: audio-graph-card: fix refcount leak of cpu_ep in __graph_for_each_link()
-e6e71d9cc7d771fda3d209b593cc342268361c36 ASoC: rockchip: pdm: Add missing clk_disable_unprepare() in rockchip_pdm_runtime_resume()
-2fa189c05da2236d1045305882c7e9c66295ae86 ASoC: mediatek: mt8183: fix refcount leak in mt8183_mt6358_ts3a227_max98357_dev_probe()
-d62a9872949508441388bee76aa279c97b3384b1 FAILED: 38eef3be38ab ("ASoC: mediatek: mt8183: fix refcount leak in mt8183_mt6358_ts3a227_max98357_dev_probe()")
-4f3eb03e8489296d02dab1504fa6f2484031bbdf ASoC: wm8994: Fix potential deadlock
-19af5f0cc0a4a9f2f652eb0e93eab8831cab99c0 ASoC: rockchip: spdif: Add missing clk_disable_unprepare() in rk_spdif_runtime_resume()
-1d0880ffeaf7991b0ee5ff2075b884cdb91c6402 ASoC: rt5670: Remove unbalanced pm_runtime_put()
-063005ad8551a4cbfb6c2a4671e345b5693660b3 drm/i915/display: Don't disable DDI/Transcoder when setting phy test pattern
-9d072be7de11df9e920050241f3d50d1ea25beed LoadPin: Ignore the "contents" argument of the LSM hooks
-275864cd7928f901092684b2852c94588bfc2b7f pstore: Switch pmsg_lock to an rt_mutex to avoid priority inversion
-ad5784f5329b8e05e6d987cbe9f2ae2e7dd55ec2 perf debug: Set debug_peo_args and redirect_to_stderr variable to correct values in perf_quiet_option()
-1e487c7e3e9f2198f4fca272d05dbfa31e727c69 afs: Fix lost servers_outstanding count
-da0040fc38f5f76c92ff894f9fc5d211fef7e301 pstore: Make sure CONFIG_PSTORE_PMSG selects CONFIG_RT_MUTEXES
+d0c6db02e4d1986afc119fefb342322c32504a84 ASoC: Intel: bytcr_rt5640: Add quirk for the Advantech MICA-071 tablet
 
---===============5326135633023703295==
+--===============4021661888997539605==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a6483c241d15-94d7766fbfa8.txt
+Content-Disposition: attachment; filename=revlist-388341d3e24e-55b46ae35ac1.txt
 
 393a1aa4215b4b5c457e92f5694269ee0399f0e2 mm: pagewalk: Fix race between unmap and page walker
 398312c687bb7027abcbf9dfbd91c8774e3095c2 perf tools: Fixup get_current_dir_name() compilation
@@ -4679,27 +4656,38 @@ f843fdcac054800774db4069418f5ba7b2cf456e can: sja1000: fix size of OCR_MODE_MASK
 7d4aa092996303e04cfd32ff2dc58ea3cb36d114 can: mcba_usb: Fix termination command argument
 ff484a9ba4498b8fb89d055136a32b3e9288aa5a ASoC: ops: Correct bounds check for second channel on SX controls
 851c2b5fb7936d54e1147f76f88e2675f9f82b52 Linux 5.4.228
-205d3149a8a419265c9151a82cddffbfbd899008 ALSA/ASoC: hda: move/rename snd_hdac_ext_stop_streams to hdac_stream.c
-6ef136617814286fac5235ce3bf16a28fd002c25 ALSA: hda: add snd_hdac_stop_streams() helper
-9325a367130fa0cd13b056f98d16b2a02f986567 ASoC: Intel: Skylake: Fix driver hang during shutdown
-c240bb3d59b16dc229a8d71c9d39528ce6ddcb04 FAILED: 171107237246 ("ASoC: Intel: Skylake: Fix driver hang during shutdown")
-ad42ac52bc4c0aa95177cdf88c102571cc860674 ASoC: mediatek: mt8173-rt5650-rt5514: fix refcount leak in mt8173_rt5650_rt5514_dev_probe()
-202c2de653f8a75640a223850ee0705feb3a8cac FAILED: 3327d721114c ("ASoC: mediatek: mt8173-rt5650-rt5514: fix refcount leak in mt8173_rt5650_rt5514_dev_probe()")
-ddac0e98a1007df21fff0b883ed74cace53f1f33 ASoC: audio-graph-card: fix refcount leak of cpu_ep in __graph_for_each_link()
-df818b89bb6a61f4bee8b0787195bcc8406045d4 ASoC: rockchip: pdm: Add missing clk_disable_unprepare() in rockchip_pdm_runtime_resume()
-9db80e4f60ed995b40bcb2983ec46bbec2ec10d0 ASoC: wm8994: Fix potential deadlock
-d81d418410c17d595ad58199632fb3aa3ef59661 ASoC: rockchip: spdif: Add missing clk_disable_unprepare() in rk_spdif_runtime_resume()
-7ccc99648a3ee111960cf0e3e9029c15b6fdb96f ASoC: rt5670: Remove unbalanced pm_runtime_put()
-289bb2646919c5a975f1f6407329ebed9de40bc3 pstore: Switch pmsg_lock to an rt_mutex to avoid priority inversion
-471fe56647526115b431b9be211eb2f42c27a6ba perf debug: Set debug_peo_args and redirect_to_stderr variable to correct values in perf_quiet_option()
-94d7766fbfa8e816abe5156cc72ce643260687cc pstore: Make sure CONFIG_PSTORE_PMSG selects CONFIG_RT_MUTEXES
+55b46ae35ac18f3f49a8fb1e6490029acb7b66c6 ASoC: Intel: bytcr_rt5640: Add quirk for the Advantech MICA-071 tablet
 
---===============5326135633023703295==
+--===============4021661888997539605==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a6e3e90b6da7-294527b0105c.txt
+Content-Disposition: attachment; filename=revlist-497e514dcc3e-19d4d0ecf9e9.txt
 
+9e08db9a7183d9acf9d9f63a3cc742155cd3e79b stmmac: dwmac-loongson: fix missing pci_disable_device() in loongson_dwmac_probe()
+74918e066bc20ea496836311b05892de81616ec5 stmmac: dwmac-loongson: fix missing of_node_put() while module exiting
+6bfb549176f707c5726892e75713968f5d1395d7 net: phy: mscc: macsec: clear encryption keys when freeing a flow
+3943a3d60ccad88a15d5f73da5faec16b5d73482 net: atlantic: macsec: clear encryption keys from the stack
+d63f6e8121e9b8f33ea5efb5bb6e85bd14abe996 ethernet: s2io: disable napi when start nic failed in s2io_card_up()
+be91d3dced71dacde8b3953d6d88b20735a0c216 net: mv643xx_eth: disable napi when init rxq or txq failed in mv643xx_eth_open()
+1aaabd2c682ac0f633db92ee332fbf6f07044f1c ALSA: memalloc: Don't fall back for SG-buffer with IOMMU
+2a2a0f2be34c50f0f976315e7d872c21cebd3c44 ethernet: tundra: free irq when alloc ring failed in tsi108_open()
+9ea003c4671b2fc455320ecf6d4a43b0a3c1878a net: macvlan: fix memory leaks of macvlan_common_newlink
+358a68f98304b40b201ba5afe94c20355aa3dc68 riscv: process: fix kernel info leakage
+3822d92737cdbba0af5e7c45294c95b15e668e61 riscv: vdso: fix build with llvm
+93598deb101540c4f9e7de15099ea8255b965fc2 riscv: fix reserved memory setup
+3d9490def95ba1ec457c7fa1a5f2cb5cfaa929cd eth: sp7021: drop free_netdev() from spl2sw_init_netdev()
+7d681bad84a4b12f1f8d8bf1c585ac2b8abddf56 arm64: efi: Fix handling of misaligned runtime regions and drop warning
+bacbac32bf1ebb1620006222178b415d0df8b1dc MIPS: jump_label: Fix compat branch range check
+aa8ee2fe15bde6b62db887d046e0428555854a70 drm/amdgpu: Fix the lpfn checking condition in drm buddy
+b7967a6fe20fc4dd4cf932b4056dfd90d7cff3e2 mmc: cqhci: Provide helper for resetting both SDHCI and CQHCI
+aff02c4d73b24a62cfa22a5a55dea97c689fc764 mmc: sdhci-of-arasan: Fix SDHCI_RESET_ALL for CQHCI
+799f68980dbca7fcde782bd0f8cc9574bba0c7c1 mmc: sdhci-brcmstb: Fix SDHCI_RESET_ALL for CQHCI
+d684d516761d9fbeb810602e4b5a2bb8c0ef3ea2 mmc: sdhci_am654: Fix SDHCI_RESET_ALL for CQHCI
+f85d9b9c01b0d6b99c4f0be7ee9181b15658aac4 mmc: sdhci-tegra: Fix SDHCI_RESET_ALL for CQHCI
+6050c0f7d6480f7daed4c418f8119bd7dba6ea38 mmc: sdhci-esdhc-imx: use the correct host caps for MMC_CAP_8_BIT_DATA
+9962245893f1b1c7e8fd2b806811623585dfe077 ALSA: hda/hdmi - enable runtime pm for more AMD display audio
+724b469286bcf456a47c2d23250625b00b9ce09c ALSA: hda/ca0132: add quirk for EVGA Z390 DARK
 455d99bd6baf19688048b6d42d9fa74eae27f93b ALSA: hda: fix potential memleak in 'add_widget_node'
 163f2c98474406daf3ff1d224f6745c78c35b1a2 ALSA: hda/realtek: Add quirk for ASUS Zenbook using CS35L41
 050407201c28c6c353fc17f34c077dc539924c50 ALSA: hda/realtek: Add Positivo C6300 model quirk
@@ -5693,36 +5681,12 @@ e6a4c98a4c143f24a02e70e186cf5b3849472736 KEYS: encrypted: fix key instantiation 
 251f65fde6b3b235cb04b3c3d4dc97505e3b12db selftests: net: Use "grep -E" instead of "egrep"
 cb6ca98c8177698570e277612e422251953cfee7 net: loopback: use NET_NAME_PREDICTABLE for name_assign_type
 0106d88e2d2781a962e99c11d1ab336b0d7e893f Linux 6.0.15
-bebb27e7f6fd63db8e92c516a67446055e112cdd ASoC: sof_es8336: fix possible use-after-free in sof_es8336_remove()
-04b619bc5b2cc0120a5525f5c807133411c9a6b6 FAILED: 1b41beaa7a58 ("ASoC: sof_es8336: fix possible use-after-free in sof_es8336_remove()")
-c3610f8dabc75c37e773e9d9280852e601e16c68 ALSA: hda: add snd_hdac_stop_streams() helper
-f898537ee40bc9177de84fe09af8c5eaf42e5361 ASoC: Intel: Skylake: Fix driver hang during shutdown
-47a1ea4cff1ccd7085e90312841fd3b7be9e32e4 FAILED: 171107237246 ("ASoC: Intel: Skylake: Fix driver hang during shutdown")
-f0cb546f1be805658624fd7de884d254e1483b7e ASoC: mediatek: mt8173-rt5650-rt5514: fix refcount leak in mt8173_rt5650_rt5514_dev_probe()
-cfc7a0a340ad2eaee4abd761676fd123347ff664 ASoC: audio-graph-card: fix refcount leak of cpu_ep in __graph_for_each_link()
-0c05d84cdf9d9dbefaea37413f0f725e46ffbdfc ASoC: rockchip: pdm: Add missing clk_disable_unprepare() in rockchip_pdm_runtime_resume()
-675b2a714da708db402959ea79d97b4faba453a1 ASoC: mediatek: mt8183: fix refcount leak in mt8183_mt6358_ts3a227_max98357_dev_probe()
-b8525020248a96af0b03e50587dc0e63703d4a2b ALSA: hda/hdmi: fix i915 silent stream programming flow
-e4fa46e3ab73a418b377751b54f4718d076d9620 ALSA: hda/hdmi: set default audio parameters for KAE silent-stream
-e5afe7e8ad813fba5c79793216ee3ae7b0db02ca ALSA: hda/hdmi: Use only dynamic PCM device allocation
-c19ca5e613c164d25a1eb79493874996a3dbf1dd ALSA: hda/hdmi: fix stream-id config keep-alive for rt suspend
-5c5e75ce2e31046390b18949ba10cbc7f97fa240 FAILED: ee0b089d6600 ("ALSA: hda/hdmi: fix stream-id config keep-alive for rt suspend")
-440739e066869433dffa326aaa11d72061b3f5d0 ASoC: wm8994: Fix potential deadlock
-af003073db53eba6cae1a484c5f58ba0de05d355 ASoC: rockchip: spdif: Add missing clk_disable_unprepare() in rk_spdif_runtime_resume()
-abc20cc66a3b182633a7df32749a20bf8f639e4c ASoC: rt5670: Remove unbalanced pm_runtime_put()
-d5503751b10333a01ed36ef45c42275b93f45c9f drm/i915/display: Don't disable DDI/Transcoder when setting phy test pattern
-c177d6c9f94df7874016937c69dd87687d568adb LoadPin: Ignore the "contents" argument of the LSM hooks
-ba59a2f55bafd4e8fefabab6efc1dde1767e77f3 lkdtm: cfi: Make PAC test work with GCC 7 and 8
-05cd6db92be45346d4b18da17317798b0213179f pstore: Switch pmsg_lock to an rt_mutex to avoid priority inversion
-378ec224895a416684d2d390b0108822a50b41c3 drm/amd/pm: avoid large variable on kernel stack
-605286203c290f5af50cc655f1404e3c581f0d78 perf debug: Set debug_peo_args and redirect_to_stderr variable to correct values in perf_quiet_option()
-fc97b6ffc2c164bdc86415f0e4ba000cd52d554f perf lock: Add -q/--quiet option to suppress header and debug messages
-b4f15d925e18713fb0d1bb9a44eec9893d59179c perf tools: Make quiet mode consistent between tools
-453d5fa2897b8d293647537c4a3b987b439ce680 perf probe: Check -v and -q options in the right place
-158da14a6d92207bf6bc2476293563cfc2ef68c4 FAILED: 8b269b755512 ("perf probe: Check -v and -q options in the right place")
-04f522e7f7f6d82ca7835a184279e46358d58c6d MIPS: ralink: mt7621: avoid to init common ralink reset controller
-3e43656ee0b1cff5ef07e53e31f4addaff2d3688 perf test: Fix "all PMU test" to skip parametrized events
-4784b189af942a3ba5d43f666aead8129850512d afs: Fix lost servers_outstanding count
-294527b0105cca55fe5e2daf5e7c0422b3a27a7b pstore: Make sure CONFIG_PSTORE_PMSG selects CONFIG_RT_MUTEXES
+989d71a881d09a555195506c7c90dc5a35745e94 ASoC: SOF: Revert: "core: unregister clients and machine drivers in .shutdown"
+532d4c03582e02c71c2007e16e6efb9746f0ad9a 9p/client: fix data race on req->status
+5eb283cfe6b1c01bce9f7767870814008e346462 ASoC: Intel: bytcr_rt5640: Add quirk for the Advantech MICA-071 tablet
+9a9f52a7d1cd347a675884d17a312f6c24a3e155 ASoC: SOF: mediatek: initialize panic_info to zero
+79a9c10a046554b052e66b365f5aaa0093cc5639 drm/amdgpu: Fix size validation for non-exclusive domains (v4)
+909ad1e75d7bfaf816385e2b9cf5221433714740 drm/amdkfd: Fix kfd_process_device_init_vm error handling
+19d4d0ecf9e95dd2eb2ef57e316a20d6cb829846 drm/amdkfd: Fix double release compute pasid
 
---===============5326135633023703295==--
+--===============4021661888997539605==--
