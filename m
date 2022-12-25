@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5889650372712891115=="
+Content-Type: multipart/mixed; boundary="===============8252968475766971985=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Sun, 25 Dec 2022 23:47:04 -0000
-Message-Id: <167201202443.29077.10247928338945850298@gitolite.kernel.org>
+Date: Sun, 25 Dec 2022 23:47:39 -0000
+Message-Id: <167201205956.29366.4348436772278040484@gitolite.kernel.org>
 
---===============5889650372712891115==
+--===============8252968475766971985==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,32 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/arm64-signal-cleanup
-    old: dee92a0f9ed0106bb9580427152636c84018480d
-    new: d4ae0dc95102947d012a783b61a56dbd3dce9cf5
-    log: revlist-dee92a0f9ed0-d4ae0dc95102.txt
+  - ref: refs/heads/arm64-sme2
+    old: 918eb01140e701eedd3c6a56ddc229eaa596a893
+    new: 6549ce50ce9666da7790c3c13e9833073f207ecb
+    log: revlist-918eb01140e7-6549ce50ce96.txt
 
---===============5889650372712891115==
+--===============8252968475766971985==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-dee92a0f9ed0-d4ae0dc95102.txt
+Content-Disposition: attachment; filename=revlist-918eb01140e7-6549ce50ce96.txt
 
-fac52bf786e5c302990fa79f2fdde24e84f810b0 can: m_can: Read register PSR only on error
-d4535b90a76af49d1dd7bc70ad0311a88ac5313d can: m_can: Count TXE FIFO getidx in the driver
-6355a3c983e6d6fc998f4223bd2c7ef047e4572b can: m_can: Count read getindex in the driver
-e3bff5256a0f12a1edc8d79bdef53eb83c2f1fbf can: m_can: Batch acknowledge transmit events
-e2f1c8cb020296ddfa255e06b15f071807c2ed73 can: m_can: Batch acknowledge rx fifo
-40c9e4f676abbe194541d88e796341c92d5a13c0 can: tcan4x5x: Remove invalid write in clear_interrupts
-67727a17a6b375d68fe569b77e6516b034b834c0 can: tcan4x5x: Fix use of register error status mask
-ef5778f7084196997e00095c43b12693ef5111d0 can: tcan4x5x: Fix register range of first two blocks
-39dbb21b6a2951a2ce311c93eb09f9ff9b96e7b8 can: tcan4x5x: Specify separate read/write ranges
-47bf2b2393ea1aacdefbe4e9d643599e057bb3a2 Merge patch series "can: m_can: Optimizations for tcan and peripheral chips"
-462e768b55a2331324ff72e74706261134369826 iommu/mediatek: Fix forever loop in error handling
-e3eca2e4f6489ed3143c80ce90bfa7ef7e12ebc7 Merge branches 'arm/allwinner', 'arm/exynos', 'arm/mediatek', 'arm/rockchip', 'arm/smmu', 'ppc/pamu', 's390', 'x86/vt-d', 'x86/amd' and 'core' into next
-22250dbaba99f87574095af894610e9801d74419 regmap: Merge fix for where we get the number of registers from
-b2b509fb5a1e6af1e630a755b32c4658099df70b Merge tag 'linux-can-next-for-6.2-20221212' of git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can-next
-888bc86e7cca29de20223ee46e9b770ced2c038e Merge branch 'acpica'
 45494d77f279d0420f06376dcf105b23e300c5a4 Merge branches 'acpi-scan', 'acpi-bus', 'acpi-tables' and 'acpi-sysfs'
 6f1581810b2960ffb8e2bbcdde89d523555371da Merge branches 'acpi-pm', 'acpi-processor', 'acpi-ec' and 'acpi-video'
 39f26d10120ada8553647d9f61223bda7a22336b Merge branches 'acpi-apei', 'acpi-x86', 'acpi-battery' and 'acpi-pfrut'
@@ -1043,12 +1028,27 @@ edb23125fd4a79003012bc619d2c604da922865e Merge tag 'pstore-v6.2-rc1-fixes' of gi
 72a85e2b0a1e1e6fb4ee51ae902730212b2de25c Merge tag 'spi-fix-v6.2-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
 292a089d78d3e2f7944e60bb897c977785a321e3 treewide: Convert del_timer*() to timer_shutdown*()
 1b929c02afd37871d5afb9d498426f83432e71c2 Linux 6.2-rc1
-11ed2694aed463b811260f4192a624e34c2cc7fc arm64/signal: Signal handling cleanups
-5eff085eee125c08d365292b45845905095a68a7 arm64/signal: Don't redundantly verify FPSIMD magic
-c55f9c9ad5cf7ea7da2f3795ac515f61686a41f8 arm64/signal: Remove redundant size validation from parse_user_sigframe()
-41e21b96325b2b279dc27874f5ba0d622c803e95 arm64/signal: Make interface for restore_fpsimd_context() consistent
-ebbe4b46193dd707bc2750662e851a5d4487e61f arm64/signal: Avoid rereading context frame sizes
-12fce0d5a54e779afa4d075c5a9b7998cc160cc3 arm64/signal: Only read new data when parsing the SVE context
-d4ae0dc95102947d012a783b61a56dbd3dce9cf5 arm64/signal: Only read new data when parsing the ZA context
+8cad21c44db2c1ec24337cf14dee64cdc3a32ac0 arm64/sme: Support SME 2 and SME 2.1
+5b469e6bb1f3ee64efbc25365404e991e1a48551 arm64/sme: Rename za_state to sme_state
+8621cad2005c7edb96d16fc762f10d437d1a8f9b arm64: Document boot requirements for SME 2
+06a6ac2e6ee90164e2e9061b3f6aced6528170f8 arm64/sysreg: Update system registers for SME 2 and 2.1
+4737c539c616048edca9efd7a2abaa56a8cb53f5 arm64/sme: Document SME 2 and SME 2.1 ABI
+808115b78bc19918f097515a56ec0484349b05c0 arm64/esr: Document ISS for ZT0 being disabled
+f307b1c8bcb062c0a4af07439da512b2c77ddd7a arm64/sme: Manually encode ZT0 load and store instructions
+888c90d1e06bd10b45cbf1170d77706ecf844ee7 arm64/sme: Enable host kernel to access ZT0
+19852e470bed8d6a350c444d6c53ac1523236499 arm64/sme: Add basic enumeration for SME2
+9a413b4065a2be6082cb1426e7daccb115563703 arm64/sme: Provide storage for ZT0
+b3dc244edeae96bd2e72056d3c1401b9949145aa arm64/sme: Implement context switching for ZT0
+ece033d570f3a8cc9822b1cc87bf3c3056ef7782 arm64/sme: Implement signal handling for ZT
+e1e39b9ba9312659a034f8869c07798583cd5a7e arm64/sme: Implement ZT0 ptrace support
+aa28cc85f75b0e2eb4a0e30f7f4210185d977ce1 arm64/sme: Add hwcaps for SME 2 and 2.1 features
+d102b26f65238762e327fe6908a25bcfea8685f8 kselftest/arm64: Add a stress test program for ZT0
+dfd074a715376d20bcc1d1312d165afb8cc04223 kselftest/arm64: Cover ZT in the FP stress test
+2b5f9b7fe7df79e9b0f8aeda9952c77d6ac2dd18 kselftest/arm64: Enumerate SME2 in the signal test utility code
+af37acaf7eb93f5f5640afdd323f6a4d4dd4e290 kselftest/arm64: Teach the generic signal context validation about ZT
+4c98c76982e18d69fbd4a37b22107b636e9a3faf kselftest/arm64: Add test coverage for ZT register signal frames
+1177ee55fa6a2aeeaa118fbedd285d8daf82aaf2 kselftest/arm64: Add SME2 coverage to syscall-abi
+4c02d5a6c8a1a0cc90b08a09ccd077c0bb4929bf kselftest/arm64: Add coverage of the ZT ptrace regset
+6549ce50ce9666da7790c3c13e9833073f207ecb kselftest/arm64: Add coverage of SME 2 and 2.1 hwcaps
 
---===============5889650372712891115==--
+--===============8252968475766971985==--
