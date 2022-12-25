@@ -1,39 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============2589728211499068459=="
+Content-Type: multipart/mixed; boundary="===============4303240271613036357=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chunkuang.hu/linux
-Date: Sun, 25 Dec 2022 23:33:48 -0000
-Message-Id: <167201122830.18593.7806281865735589138@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Sun, 25 Dec 2022 23:38:38 -0000
+Message-Id: <167201151837.21594.2776657649555860277@gitolite.kernel.org>
 
---===============2589728211499068459==
+--===============4303240271613036357==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chunkuang.hu/linux
-user: chunkuang.hu
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/mediatek-drm-next
-    old: 76cdcb87d391a8e426d81b26be0afc221291cfc2
-    new: 1b929c02afd37871d5afb9d498426f83432e71c2
-    log: revlist-76cdcb87d391-1b929c02afd3.txt
+  - ref: refs/heads/alsa-pcm-test-hacks
+    old: 8bf29cc9a6e3248c3786cdc547d3004dc51d0e5f
+    new: a2549aace452fdf62867925a3d07fd397856340b
+    log: revlist-8bf29cc9a6e3-a2549aace452.txt
 
---===============2589728211499068459==
+--===============4303240271613036357==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-76cdcb87d391-1b929c02afd3.txt
+Content-Disposition: attachment; filename=revlist-8bf29cc9a6e3-a2549aace452.txt
 
-56c56a309e7959c319d3cbd6bd16e598ecd5831c can: gs_usb: remove gs_can::iface
-bd4a52bf9d56abaabc6926f68c3cc3528937a864 Merge patch series "can: usb: remove pointers to struct usb_interface in device's priv structures"
-eaacfeaca7ad0804b9a6eff7afeba93a87db7638 can: m_can: Call the RAM init directly from m_can_chip_config
-0826e82b8a32e646b7b32ba8b68ba30812028e47 can: raw: add support for SO_MARK
-3abcc01c38bc5d424635df96e0677e2fbec021de dt-bindings: can: renesas,rcar-canfd: Fix number of channels for R-Car V3U
-c1eaf8b9bd3145d029446c927e1c9ce925dfe6a7 can: m_can: Eliminate double read of TXFQS in tx_handler
-57757937974988dc8feb7cf66b17dca72bca813b can: m_can: Avoid reading irqstatus twice
-fac52bf786e5c302990fa79f2fdde24e84f810b0 can: m_can: Read register PSR only on error
 d4535b90a76af49d1dd7bc70ad0311a88ac5313d can: m_can: Count TXE FIFO getidx in the driver
 6355a3c983e6d6fc998f4223bd2c7ef047e4572b can: m_can: Count read getindex in the driver
 e3bff5256a0f12a1edc8d79bdef53eb83c2f1fbf can: m_can: Batch acknowledge transmit events
@@ -1050,5 +1042,13 @@ edb23125fd4a79003012bc619d2c604da922865e Merge tag 'pstore-v6.2-rc1-fixes' of gi
 72a85e2b0a1e1e6fb4ee51ae902730212b2de25c Merge tag 'spi-fix-v6.2-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
 292a089d78d3e2f7944e60bb897c977785a321e3 treewide: Convert del_timer*() to timer_shutdown*()
 1b929c02afd37871d5afb9d498426f83432e71c2 Linux 6.2-rc1
+e2d0a84ad68d09039aa8fb12017efb87485ca7c8 kselftest/alsa: pcm-test improvements
+c687069b5806b9c4f099020db4d92c8a689e947c kselftest/alsa: pcm - Drop recent coverage improvement changes
+1bdb4ba060cd8d8bac511f2824afc6fdefce3172 kselftest/alsa: pcm - move more configuration to configuration files
+0f9c48ae52c86abaf8e4d35e1a370b7f0094e14c kselftest/alsa: pcm - Always run the default set of tests
+ee1393b4f7e48d3fcf5e6039ec076dd73b3436f4 kselftest/alsa: pcm - skip tests when we fail to set params
+773347e63e3c6254b43e9087073a427b2620d302 kselftest/alsa: pcm - Support optional description for tests
+33343fb0192ca23d8641337d5909e76e6e506f31 kselftest/alsa: pcm - Provide descriptions for the default tests
+a2549aace452fdf62867925a3d07fd397856340b kselftest/alsa: pcm - Add more coverage by default
 
---===============2589728211499068459==--
+--===============4303240271613036357==--
