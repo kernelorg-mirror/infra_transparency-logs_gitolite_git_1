@@ -1,26 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============3954325077000763803=="
+Content-Type: multipart/mixed; boundary="===============2158606461450196225=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
-Date: Mon, 26 Dec 2022 14:44:22 -0000
-Message-Id: <167206586296.21439.15292701065628910567@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-dt
+Date: Mon, 26 Dec 2022 14:44:23 -0000
+Message-Id: <167206586385.21525.8404499999145172231@gitolite.kernel.org>
 
---===============3954325077000763803==
+--===============2158606461450196225==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux
+repo: pub/scm/linux/kernel/git/krzk/linux-dt
 user: krzk
 changes:
-  - ref: refs/heads/fixes
+  - ref: refs/heads/next/dt-bindings
     old: 9abf2313adc1ca1b6180c508c25f22f9395cc780
     new: 1b929c02afd37871d5afb9d498426f83432e71c2
     log: revlist-9abf2313adc1-1b929c02afd3.txt
 
---===============3954325077000763803==
+--===============2158606461450196225==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ edb23125fd4a79003012bc619d2c604da922865e Merge tag 'pstore-v6.2-rc1-fixes' of gi
 292a089d78d3e2f7944e60bb897c977785a321e3 treewide: Convert del_timer*() to timer_shutdown*()
 1b929c02afd37871d5afb9d498426f83432e71c2 Linux 6.2-rc1
 
---===============3954325077000763803==--
+--===============2158606461450196225==--
