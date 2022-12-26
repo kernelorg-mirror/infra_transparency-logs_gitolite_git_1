@@ -1,51 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============5264196280841153658=="
+Content-Type: multipart/mixed; boundary="===============2051905955703879060=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Mon, 26 Dec 2022 22:02:39 -0000
-Message-Id: <167209215957.18609.13969929809416808724@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
+Date: Mon, 26 Dec 2022 22:09:50 -0000
+Message-Id: <167209259075.22270.3010308525908834876@gitolite.kernel.org>
 
---===============5264196280841153658==
+--===============2051905955703879060==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/brgl/linux
-user: brgl
+repo: pub/scm/linux/kernel/git/robh/linux
+user: robh
 changes:
-  - ref: refs/heads/master
-    old: 9abf2313adc1ca1b6180c508c25f22f9395cc780
-    new: 1b929c02afd37871d5afb9d498426f83432e71c2
-    log: revlist-9abf2313adc1-1b929c02afd3.txt
+  - ref: refs/heads/dt/next
+    old: 580f9896e088b399fc79f1421e56a1b68f0450b5
+    new: 00f2a08cd785d262c760282ec027caa6ea8975d4
+    log: revlist-580f9896e088-00f2a08cd785.txt
 
---===============5264196280841153658==
+--===============2051905955703879060==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9abf2313adc1-1b929c02afd3.txt
+Content-Disposition: attachment; filename=revlist-580f9896e088-00f2a08cd785.txt
 
-56c56a309e7959c319d3cbd6bd16e598ecd5831c can: gs_usb: remove gs_can::iface
-bd4a52bf9d56abaabc6926f68c3cc3528937a864 Merge patch series "can: usb: remove pointers to struct usb_interface in device's priv structures"
-eaacfeaca7ad0804b9a6eff7afeba93a87db7638 can: m_can: Call the RAM init directly from m_can_chip_config
-0826e82b8a32e646b7b32ba8b68ba30812028e47 can: raw: add support for SO_MARK
-3abcc01c38bc5d424635df96e0677e2fbec021de dt-bindings: can: renesas,rcar-canfd: Fix number of channels for R-Car V3U
-c1eaf8b9bd3145d029446c927e1c9ce925dfe6a7 can: m_can: Eliminate double read of TXFQS in tx_handler
-57757937974988dc8feb7cf66b17dca72bca813b can: m_can: Avoid reading irqstatus twice
-fac52bf786e5c302990fa79f2fdde24e84f810b0 can: m_can: Read register PSR only on error
-d4535b90a76af49d1dd7bc70ad0311a88ac5313d can: m_can: Count TXE FIFO getidx in the driver
-6355a3c983e6d6fc998f4223bd2c7ef047e4572b can: m_can: Count read getindex in the driver
-e3bff5256a0f12a1edc8d79bdef53eb83c2f1fbf can: m_can: Batch acknowledge transmit events
-e2f1c8cb020296ddfa255e06b15f071807c2ed73 can: m_can: Batch acknowledge rx fifo
-40c9e4f676abbe194541d88e796341c92d5a13c0 can: tcan4x5x: Remove invalid write in clear_interrupts
-67727a17a6b375d68fe569b77e6516b034b834c0 can: tcan4x5x: Fix use of register error status mask
-ef5778f7084196997e00095c43b12693ef5111d0 can: tcan4x5x: Fix register range of first two blocks
-39dbb21b6a2951a2ce311c93eb09f9ff9b96e7b8 can: tcan4x5x: Specify separate read/write ranges
-47bf2b2393ea1aacdefbe4e9d643599e057bb3a2 Merge patch series "can: m_can: Optimizations for tcan and peripheral chips"
-462e768b55a2331324ff72e74706261134369826 iommu/mediatek: Fix forever loop in error handling
-e3eca2e4f6489ed3143c80ce90bfa7ef7e12ebc7 Merge branches 'arm/allwinner', 'arm/exynos', 'arm/mediatek', 'arm/rockchip', 'arm/smmu', 'ppc/pamu', 's390', 'x86/vt-d', 'x86/amd' and 'core' into next
-22250dbaba99f87574095af894610e9801d74419 regmap: Merge fix for where we get the number of registers from
 b2b509fb5a1e6af1e630a755b32c4658099df70b Merge tag 'linux-can-next-for-6.2-20221212' of git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can-next
 888bc86e7cca29de20223ee46e9b770ced2c038e Merge branch 'acpica'
 45494d77f279d0420f06376dcf105b23e300c5a4 Merge branches 'acpi-scan', 'acpi-bus', 'acpi-tables' and 'acpi-sysfs'
@@ -1050,5 +1030,25 @@ edb23125fd4a79003012bc619d2c604da922865e Merge tag 'pstore-v6.2-rc1-fixes' of gi
 72a85e2b0a1e1e6fb4ee51ae902730212b2de25c Merge tag 'spi-fix-v6.2-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
 292a089d78d3e2f7944e60bb897c977785a321e3 treewide: Convert del_timer*() to timer_shutdown*()
 1b929c02afd37871d5afb9d498426f83432e71c2 Linux 6.2-rc1
+e66104096a5630e75d135dc052867d32470c0bbc dt-bindings: clock: Fix node descriptions in uniphier-clock example
+3b67e62130dfd01f520697cbe4341be145a31ae8 dt-bindings: reset: Fix node descriptions in uniphier-reset example
+3fa1306d6a7f9baddc960ef8c5b5edde6dc46e66 dt-bindings: pinctrl: Fix node descriptions in uniphier-pinctrl example
+d3df7f06e2a63780164aa2442ea7b639acc898bd dt-bindings: regulator: Fix node descriptions in uniphier-regulator example
+8f31aa56efe6d35d5923218ca9fd5354f2c5e76d dt-bindings: watchdog: Fix node descriptions in uniphier-wdt example
+a1e616a5fccbef72e02b68ef0f43e4e829604faf dt-bindings: thermal: Fix node descriptions in uniphier-thermal example
+4278eabebc1679709d6b1904ca960dc0b69a6c99 dt-bindings: phy: Fix node descriptions in uniphier-phy example
+e8c650f62787437f822bffa3c384ab1029d43ea7 dt-bindings: nvmem: Fix node descriptions in uniphier-efuse example
+75c7aaa66f5fdabcbaf1e6775c5f85b35b7debaa dt-bindings: soc: socionext: Add UniPhier system controller
+0611adff8b3a9f8e6217a643506451162726de3a dt-bindings: soc: socionext: Add UniPhier SoC-glue logic
+ddbbb9766b85d736e5bf5ed607e0862a952691d7 dt-bindings: soc: socionext: Add UniPhier SoC-glue logic debug part
+9fb31379f061b7130a244dd0ff58e0f0cf0ca495 dt-bindings: soc: socionext: Add UniPhier peripheral block
+b3ad9754505ab717915d4e644e78e7d7888f4ef1 dt-bindings: soc: socionext: Add UniPhier media I/O block
+6796f54e8143671deb13701d122f6f029def853b dt-bindings: soc: socionext: Add UniPhier SD interface block
+0c00d8d315f09ef8639369a7f12e270b7a86bf79 dt-bindings: soc: socionext: Add UniPhier ADAMV block
+5993f6bd555e2696bb4d79cf54b976cb58793534 dt-bindings: soc: socionext: Add UniPhier DWC3 USB glue layer
+9e699b8985e62c93cb1ca84b27197b5c1cdbd596 dt-bindings: soc: socionext: Add UniPhier AHCI glue layer
+ec201955a53be4b57a467f7160724ff06289cead kbuild: Optionally enable schema checks for %.dtb targets
+8e5d0c68f23ab139e472f93ebbcfda9545e9953b of: overlay: Fix trivial typo
+00f2a08cd785d262c760282ec027caa6ea8975d4 dt-bindings: memory-controllers: ti,gpmc: fix typo in description
 
---===============5264196280841153658==--
+--===============2051905955703879060==--
