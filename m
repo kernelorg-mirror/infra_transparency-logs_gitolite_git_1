@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7737819411454557958=="
+Content-Type: multipart/mixed; boundary="===============1854082767673646663=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
-Date: Mon, 26 Dec 2022 22:19:13 -0000
-Message-Id: <167209315344.29678.2931098571407707190@gitolite.kernel.org>
+Date: Mon, 26 Dec 2022 22:19:24 -0000
+Message-Id: <167209316462.29812.15850801661691279517@gitolite.kernel.org>
 
---===============7737819411454557958==
+--===============1854082767673646663==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/conor/linux
 user: conor
 changes:
-  - ref: refs/heads/riscv-dt-fixes
+  - ref: refs/heads/riscv-soc-fixes
     old: 9abf2313adc1ca1b6180c508c25f22f9395cc780
     new: 1b929c02afd37871d5afb9d498426f83432e71c2
     log: revlist-9abf2313adc1-1b929c02afd3.txt
 
---===============7737819411454557958==
+--===============1854082767673646663==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ edb23125fd4a79003012bc619d2c604da922865e Merge tag 'pstore-v6.2-rc1-fixes' of gi
 292a089d78d3e2f7944e60bb897c977785a321e3 treewide: Convert del_timer*() to timer_shutdown*()
 1b929c02afd37871d5afb9d498426f83432e71c2 Linux 6.2-rc1
 
---===============7737819411454557958==--
+--===============1854082767673646663==--
