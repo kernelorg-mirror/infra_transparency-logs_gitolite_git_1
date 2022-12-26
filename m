@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5509088711393695040=="
+Content-Type: multipart/mixed; boundary="===============5120733678699459413=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/johan/gnss
-Date: Mon, 26 Dec 2022 15:10:33 -0000
-Message-Id: <167206743344.8550.15821643916716301669@gitolite.kernel.org>
+Date: Mon, 26 Dec 2022 15:10:44 -0000
+Message-Id: <167206744405.8669.14745140782926784678@gitolite.kernel.org>
 
---===============5509088711393695040==
+--===============5120733678699459413==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/johan/gnss
 user: johan
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/gnss-next
     old: 247f34f7b80357943234f93f247a1ae6b6c3a740
     new: 1b929c02afd37871d5afb9d498426f83432e71c2
     log: revlist-247f34f7b803-1b929c02afd3.txt
 
---===============5509088711393695040==
+--===============5120733678699459413==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ edb23125fd4a79003012bc619d2c604da922865e Merge tag 'pstore-v6.2-rc1-fixes' of gi
 292a089d78d3e2f7944e60bb897c977785a321e3 treewide: Convert del_timer*() to timer_shutdown*()
 1b929c02afd37871d5afb9d498426f83432e71c2 Linux 6.2-rc1
 
---===============5509088711393695040==--
+--===============5120733678699459413==--
