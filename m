@@ -1,36 +1,32 @@
-Content-Type: multipart/mixed; boundary="===============7420304001310513045=="
+Content-Type: multipart/mixed; boundary="===============8203548474463434095=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vkoul/dmaengine
-Date: Mon, 26 Dec 2022 06:30:05 -0000
-Message-Id: <167203620583.7738.15676586275485169486@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vkoul/soundwire
+Date: Mon, 26 Dec 2022 06:31:22 -0000
+Message-Id: <167203628212.8217.1674376806268733945@gitolite.kernel.org>
 
---===============7420304001310513045==
+--===============8203548474463434095==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vkoul/dmaengine
+repo: pub/scm/linux/kernel/git/vkoul/soundwire
 user: vkoul
 changes:
   - ref: refs/heads/fixes
-    old: c47e6403fa099f200868d6b106701cb42d181d2b
+    old: 49a467310dc4fae591a3547860ee04d8730780f4
     new: 1b929c02afd37871d5afb9d498426f83432e71c2
-    log: revlist-c47e6403fa09-1b929c02afd3.txt
-  - ref: refs/heads/for-linus
-    old: 9abf2313adc1ca1b6180c508c25f22f9395cc780
-    new: 1b929c02afd37871d5afb9d498426f83432e71c2
-    log: revlist-9abf2313adc1-1b929c02afd3.txt
+    log: revlist-49a467310dc4-1b929c02afd3.txt
   - ref: refs/heads/master
     old: 9abf2313adc1ca1b6180c508c25f22f9395cc780
     new: 1b929c02afd37871d5afb9d498426f83432e71c2
     log: revlist-9abf2313adc1-1b929c02afd3.txt
   - ref: refs/heads/next
-    old: 25483dedd2f5d9bc6928cd790ee59772fb880a79
+    old: 7cbf00bd4142cd88ac7ecbc4ea7b917a220cb721
     new: 1b929c02afd37871d5afb9d498426f83432e71c2
-    log: revlist-25483dedd2f5-1b929c02afd3.txt
+    log: revlist-7cbf00bd4142-1b929c02afd3.txt
   - ref: refs/tags/v6.2-rc1
     old: 0000000000000000000000000000000000000000
     new: e05dec85e78317f251eddd27e0357b2253d9dfc4
@@ -59,11 +55,11 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: 586cbada421761e98ada6f7de24426456352bfd6
 
---===============7420304001310513045==
+--===============8203548474463434095==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c47e6403fa09-1b929c02afd3.txt
+Content-Disposition: attachment; filename=revlist-49a467310dc4-1b929c02afd3.txt
 
 56c56a309e7959c319d3cbd6bd16e598ecd5831c can: gs_usb: remove gs_can::iface
 bd4a52bf9d56abaabc6926f68c3cc3528937a864 Merge patch series "can: usb: remove pointers to struct usb_interface in device's priv structures"
@@ -1090,7 +1086,7 @@ edb23125fd4a79003012bc619d2c604da922865e Merge tag 'pstore-v6.2-rc1-fixes' of gi
 292a089d78d3e2f7944e60bb897c977785a321e3 treewide: Convert del_timer*() to timer_shutdown*()
 1b929c02afd37871d5afb9d498426f83432e71c2 Linux 6.2-rc1
 
---===============7420304001310513045==
+--===============8203548474463434095==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -2121,11 +2117,11 @@ edb23125fd4a79003012bc619d2c604da922865e Merge tag 'pstore-v6.2-rc1-fixes' of gi
 292a089d78d3e2f7944e60bb897c977785a321e3 treewide: Convert del_timer*() to timer_shutdown*()
 1b929c02afd37871d5afb9d498426f83432e71c2 Linux 6.2-rc1
 
---===============7420304001310513045==
+--===============8203548474463434095==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-25483dedd2f5-1b929c02afd3.txt
+Content-Disposition: attachment; filename=revlist-7cbf00bd4142-1b929c02afd3.txt
 
 56c56a309e7959c319d3cbd6bd16e598ecd5831c can: gs_usb: remove gs_can::iface
 bd4a52bf9d56abaabc6926f68c3cc3528937a864 Merge patch series "can: usb: remove pointers to struct usb_interface in device's priv structures"
@@ -3152,4 +3148,4 @@ edb23125fd4a79003012bc619d2c604da922865e Merge tag 'pstore-v6.2-rc1-fixes' of gi
 292a089d78d3e2f7944e60bb897c977785a321e3 treewide: Convert del_timer*() to timer_shutdown*()
 1b929c02afd37871d5afb9d498426f83432e71c2 Linux 6.2-rc1
 
---===============7420304001310513045==--
+--===============8203548474463434095==--
