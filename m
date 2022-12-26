@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7210979505759772510=="
+Content-Type: multipart/mixed; boundary="===============5849009175728215582=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
-Date: Mon, 26 Dec 2022 23:00:53 -0000
-Message-Id: <167209565358.26451.9039714279000322801@gitolite.kernel.org>
+Date: Mon, 26 Dec 2022 23:02:22 -0000
+Message-Id: <167209574241.26963.8219066504131144222@gitolite.kernel.org>
 
---===============7210979505759772510==
+--===============5849009175728215582==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,18 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
 user: shuah
 changes:
-  - ref: refs/heads/test
-    old: 9abf2313adc1ca1b6180c508c25f22f9395cc780
-    new: 1b929c02afd37871d5afb9d498426f83432e71c2
-    log: revlist-9abf2313adc1-1b929c02afd3.txt
+  - ref: refs/heads/kunit-fixes
+    old: d5e34828726400d89e4b2ce57efa07e5f884a65a
+    new: 93ef83050e597634d2c7dc838a28caf5137b9404
+    log: revlist-d5e348287264-93ef83050e59.txt
 
---===============7210979505759772510==
+--===============5849009175728215582==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9abf2313adc1-1b929c02afd3.txt
+Content-Disposition: attachment; filename=revlist-d5e348287264-93ef83050e59.txt
 
-56c56a309e7959c319d3cbd6bd16e598ecd5831c can: gs_usb: remove gs_can::iface
 bd4a52bf9d56abaabc6926f68c3cc3528937a864 Merge patch series "can: usb: remove pointers to struct usb_interface in device's priv structures"
 eaacfeaca7ad0804b9a6eff7afeba93a87db7638 can: m_can: Call the RAM init directly from m_can_chip_config
 0826e82b8a32e646b7b32ba8b68ba30812028e47 can: raw: add support for SO_MARK
@@ -1050,5 +1049,6 @@ edb23125fd4a79003012bc619d2c604da922865e Merge tag 'pstore-v6.2-rc1-fixes' of gi
 72a85e2b0a1e1e6fb4ee51ae902730212b2de25c Merge tag 'spi-fix-v6.2-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
 292a089d78d3e2f7944e60bb897c977785a321e3 treewide: Convert del_timer*() to timer_shutdown*()
 1b929c02afd37871d5afb9d498426f83432e71c2 Linux 6.2-rc1
+93ef83050e597634d2c7dc838a28caf5137b9404 kunit: alloc_string_stream_fragment error handling bug fix
 
---===============7210979505759772510==--
+--===============5849009175728215582==--
