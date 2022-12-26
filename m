@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5826388510594982972=="
+Content-Type: multipart/mixed; boundary="===============5552134109417042600=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Mon, 26 Dec 2022 21:31:40 -0000
-Message-Id: <167209030029.30317.16295590677910329250@gitolite.kernel.org>
+Date: Mon, 26 Dec 2022 21:35:49 -0000
+Message-Id: <167209054999.675.12056485356574777445@gitolite.kernel.org>
 
---===============5826388510594982972==
+--===============5552134109417042600==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,18 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/brgl/linux
 user: brgl
 changes:
-  - ref: refs/heads/gpio/for-next
-    old: 11e47bbd700f31bd1ee9f8863381bc9e741c0e97
+  - ref: refs/heads/gpio/for-current
+    old: 63ff545af73f759d1bd04198af8ed8577fb739fc
     new: 1b929c02afd37871d5afb9d498426f83432e71c2
-    log: revlist-11e47bbd700f-1b929c02afd3.txt
+    log: revlist-63ff545af73f-1b929c02afd3.txt
 
---===============5826388510594982972==
+--===============5552134109417042600==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-11e47bbd700f-1b929c02afd3.txt
+Content-Disposition: attachment; filename=revlist-63ff545af73f-1b929c02afd3.txt
 
-f54b101ddeaea68fe7e52e842deb8b7a081bf156 can: ucan: remove unused ucan_priv::intf
 56c56a309e7959c319d3cbd6bd16e598ecd5831c can: gs_usb: remove gs_can::iface
 bd4a52bf9d56abaabc6926f68c3cc3528937a864 Merge patch series "can: usb: remove pointers to struct usb_interface in device's priv structures"
 eaacfeaca7ad0804b9a6eff7afeba93a87db7638 can: m_can: Call the RAM init directly from m_can_chip_config
@@ -450,6 +449,7 @@ f65a486821cfd363833079b2a7b0769250ee21c9 kbuild: change module.order to list *.o
 87d599fc3955e59b1ed30f350321a4be5353f945 kbuild: ensure Make >= 3.82 is used
 0d24f1b7cc65ee73ea8d04e0d10f77a7cb7a83f3 padata: Mark padata_work_init() as __ref
 19331e84c3873256537d446afec1f6c507f8c4ef modpost: Include '.text.*' in TEXT_SECTIONS
+11e47bbd700f31bd1ee9f8863381bc9e741c0e97 gpio: sim: set a limit on the number of GPIOs
 0debed5b117d11e33cba52870c4dcb64f5911891 regulator: core: Fix resolve supply lookup issue
 904f309ae7edaadc9fd0ee04be8281d7781d97e4 thermal: intel: Don't set HFI status bit to 1
 fb9f5ee9bf5cf7ebc8731a7033e57d98832dc650 tracing: Do not synchronize freeing of trigger filter on boot up
@@ -1051,4 +1051,4 @@ edb23125fd4a79003012bc619d2c604da922865e Merge tag 'pstore-v6.2-rc1-fixes' of gi
 292a089d78d3e2f7944e60bb897c977785a321e3 treewide: Convert del_timer*() to timer_shutdown*()
 1b929c02afd37871d5afb9d498426f83432e71c2 Linux 6.2-rc1
 
---===============5826388510594982972==--
+--===============5552134109417042600==--
