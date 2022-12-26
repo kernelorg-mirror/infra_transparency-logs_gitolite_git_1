@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9134535935950854046=="
+Content-Type: multipart/mixed; boundary="===============0926203625180743935=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
-Date: Mon, 26 Dec 2022 14:42:32 -0000
-Message-Id: <167206575252.20315.3836578944071673880@gitolite.kernel.org>
+Date: Mon, 26 Dec 2022 14:42:43 -0000
+Message-Id: <167206576317.20443.13666251151324677807@gitolite.kernel.org>
 
---===============9134535935950854046==
+--===============0926203625180743935==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
 user: krzk
 changes:
-  - ref: refs/heads/fixes
-    old: 9abf2313adc1ca1b6180c508c25f22f9395cc780
+  - ref: refs/heads/for-next
+    old: 8dd7e4af585331dda004e92ed0739c3609e37177
     new: 1b929c02afd37871d5afb9d498426f83432e71c2
-    log: revlist-9abf2313adc1-1b929c02afd3.txt
+    log: revlist-8dd7e4af5853-1b929c02afd3.txt
 
---===============9134535935950854046==
+--===============0926203625180743935==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9abf2313adc1-1b929c02afd3.txt
+Content-Disposition: attachment; filename=revlist-8dd7e4af5853-1b929c02afd3.txt
 
 56c56a309e7959c319d3cbd6bd16e598ecd5831c can: gs_usb: remove gs_can::iface
 bd4a52bf9d56abaabc6926f68c3cc3528937a864 Merge patch series "can: usb: remove pointers to struct usb_interface in device's priv structures"
@@ -1051,4 +1051,4 @@ edb23125fd4a79003012bc619d2c604da922865e Merge tag 'pstore-v6.2-rc1-fixes' of gi
 292a089d78d3e2f7944e60bb897c977785a321e3 treewide: Convert del_timer*() to timer_shutdown*()
 1b929c02afd37871d5afb9d498426f83432e71c2 Linux 6.2-rc1
 
---===============9134535935950854046==--
+--===============0926203625180743935==--
