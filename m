@@ -1,60 +1,47 @@
-Content-Type: multipart/mixed; boundary="===============0586362545655943329=="
+Content-Type: multipart/mixed; boundary="===============1496913731244856209=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Mon, 26 Dec 2022 23:32:40 -0000
-Message-Id: <167209756081.15061.10561237914859508346@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Mon, 26 Dec 2022 23:32:50 -0000
+Message-Id: <167209757052.15156.11977813636202221882@gitolite.kernel.org>
 
---===============0586362545655943329==
+--===============1496913731244856209==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.2
-    old: e85b1f5a9769ac30f4d2f6fb1cdcd9570c38e0c1
+  - ref: refs/heads/for-linus
+    old: a12a383e59ce486abd719b6bda33c353a3b385e7
     new: 3e78986a840d59dd27e636eae3f52dc11125c835
-    log: revlist-e85b1f5a9769-3e78986a840d.txt
-  - ref: refs/heads/asoc-6.3
-    old: 0000000000000000000000000000000000000000
-    new: 1b929c02afd37871d5afb9d498426f83432e71c2
+    log: revlist-a12a383e59ce-3e78986a840d.txt
+  - ref: refs/heads/for-next
+    old: a12a383e59ce486abd719b6bda33c353a3b385e7
+    new: 3e78986a840d59dd27e636eae3f52dc11125c835
+    log: revlist-a12a383e59ce-3e78986a840d.txt
 
---===============0586362545655943329==
+--===============1496913731244856209==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-a12a383e59ce-3e78986a840d.txt
 
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1672097558 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1672097558-354a79c0de74dfa36fe61592b354d7cee04073b3
-
-e85b1f5a9769ac30f4d2f6fb1cdcd9570c38e0c1 3e78986a840d59dd27e636eae3f52dc11125c835 refs/heads/asoc-6.2
-0000000000000000000000000000000000000000 1b929c02afd37871d5afb9d498426f83432e71c2 refs/heads/asoc-6.3
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmOqLxYACgkQJNaLcl1U
-h9Bmrwf+KQU+rUjQDC16nX5B7EqH6JTqqIJejfq7ZIvf2K4mudPSm+ZQdFbWKfvA
-3WOkmqDaDaW83YI28eT7dytNMDv0u38lSltnZssmsn+aMa4Peezj5kpUI1fCa3+k
-zfnaPpxFlCBJNeGrjKIJrz3ST2qZ5b33giTZSBnTq2SAlISMNpKQbhcVwQ5EiEDh
-xQSvxp21c7hnkJLTfXuNIWm+82EQwzMcprAw5pZme/Chi/kPWfwAmVxB32ARiMty
-GuAwyYbQy2Evw3GcrDX/hrxnQpZodJoHBQzi+kmIXhTYeOTxUKnsL2ywbJQm1UDV
-cLWWSyemcpv+jaTL+NELwDIigWvmJw==
-=NyYV
------END PGP SIGNATURE-----
-
---===============0586362545655943329==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e85b1f5a9769-3e78986a840d.txt
-
+d8f26fd689dd81da8f4e72f17d1554c4c5b018c2 can: etas_es58x: remove es58x_get_product_info()
+9f63f96aac92751e85f8313f59f2c867b88ea453 Documentation: devlink: add devlink documentation for the etas_es58x driver
+5425094a39caf1cf501a71a0c149604656046acb Merge patch series "can: etas_es58x: report firmware, bootloader and hardware version"
+7fdaf8966aae476deafe11f9a0067ff588615444 can: ucan: use strscpy() to instead of strncpy()
+f793458bba544e29657efbfa53b62dc511c6f22c net: af_can: remove useless parameter 'err' in 'can_rx_register()'
+f54b101ddeaea68fe7e52e842deb8b7a081bf156 can: ucan: remove unused ucan_priv::intf
+56c56a309e7959c319d3cbd6bd16e598ecd5831c can: gs_usb: remove gs_can::iface
+bd4a52bf9d56abaabc6926f68c3cc3528937a864 Merge patch series "can: usb: remove pointers to struct usb_interface in device's priv structures"
+eaacfeaca7ad0804b9a6eff7afeba93a87db7638 can: m_can: Call the RAM init directly from m_can_chip_config
+0826e82b8a32e646b7b32ba8b68ba30812028e47 can: raw: add support for SO_MARK
+3abcc01c38bc5d424635df96e0677e2fbec021de dt-bindings: can: renesas,rcar-canfd: Fix number of channels for R-Car V3U
+c1eaf8b9bd3145d029446c927e1c9ce925dfe6a7 can: m_can: Eliminate double read of TXFQS in tx_handler
 57757937974988dc8feb7cf66b17dca72bca813b can: m_can: Avoid reading irqstatus twice
 fac52bf786e5c302990fa79f2fdde24e84f810b0 can: m_can: Read register PSR only on error
 d4535b90a76af49d1dd7bc70ad0311a88ac5313d can: m_can: Count TXE FIFO getidx in the driver
@@ -82,12 +69,6 @@ bee74dcbd3908291f4bfff3c81a52d52dcd48814 Merge branches 'acpi-fan', 'acpi-pcc', 
 c1ac03af6ed45d05786c219d102f37eb44880f28 tracing: Fix infinite loop in tracing_read_pipe on overflowed print_trace_line
 e0e44513c793c3e8f6ce5eff377065e67853806b Merge branches 'powercap', 'pm-x86', 'pm-opp' and 'pm-misc'
 ed6a00471dd444af085164f987e3d5e8145da35a Merge branches 'pm-devfreq' and 'pm-tools'
-2aa2a5ead0ee0a358bf80a2984a641d1bf2adc2a ASoC: SOF: Intel: pci-tgl: unblock S5 entry if DMA stop has failed"
-44fda61d2bcfb74a942df93959e083a4e8eff75f ASoC: SOF: Revert: "core: unregister clients and machine drivers in .shutdown"
-83f1b7f39af73b01edf098fe3141404670703281 ASoC: mediatek: mt8195: add sof be ops to check audio active
-9529dc167ffcdfd201b9f0eda71015f174095f7e ASoC: wm8994: Fix potential deadlock
-6d94d0090527b1763872275a7ccd44df7219b31e ASoC: rockchip: spdif: Add missing clk_disable_unprepare() in rk_spdif_runtime_resume()
-0612d748003ce7bcd0d67a8d270900fcdadb1009 ASoC: Intel: soc-acpi: update codec addr on 0C11/0C4F product
 1fab45ab6e823f9d7e5bc9520b2aa6564d6d58a7 Merge tag 'rcu.2022.12.02a' of git://git.kernel.org/pub/scm/linux/kernel/git/paulmck/linux-rcu
 75b15aa0d83ec835082129b62e8cb9a44703ad72 Merge branch 'thermal-intel'
 3e12758392bee50135301b0189c064ab80980aca x86/mm/kmmio: Remove redundant preempt_disable()
@@ -126,7 +107,6 @@ c19204cbd65c12fdcd34fb8f5d645007238ed5cd cifs: minor cleanup of some headers
 2bfd81043e944af0e52835ef6d9b41795af22341 cifs: fix missing display of three mount options
 9d91f8108ebfed54284332e04d2073107df18794 cifs: print warning when conflicting soft vs. hard mount options specified
 f7f291e14dde32a07b1f0aa06921d28f875a7b54 cifs: fix oops during encryption
-73740235a68d61f5eaee2425a0baaf610f4e4b17 ASoC: SOF: remove unregister calls from shutdown
 9c2b840a3b446ec2a7fc1cfb68af481905ec6f5f Merge tag 'x86-urgent-2022-12-12' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 f10bc40168032962ebee26894bdbdc972cde35bf Merge tag 'core-debugobjects-2022-12-10' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 a9fc882f57625761252169c62b19e99578531a9e Merge branches 'clk-x86', 'clk-xilinx', 'clk-cleanup', 'clk-mstar' and 'clk-ingenic' into clk-next
@@ -383,9 +363,6 @@ a39c636506cb90b9ba25cbb0a78bbcc3725ea227 Documentation: RISC-V: patch-acceptance
 6e66e96e31b81fb08075d18a3e2c201f1e2171da Merge patch series "Documentation: RISC-V: patch-acceptance changes"
 c76ff350bd57682ae12bea6383dd8baf4824ac96 Merge tag 'lsm-pr-20221212' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/lsm
 02bf43c7b7f7a19aa59a75f5244f0a3408bace1a Merge tag 'fs.xattr.simple.rework.rbtree.rwlock.v6.2' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/idmapping
-a1dec9d70b6ad97087b60b81d2492134a84208c6 ASoC: Intel: bytcr_rt5640: Add quirk for the Advantech MICA-071 tablet
-6c900dcc3f7331a67ed29739d74524e428d137fb ASoC: rt5670: Remove unbalanced pm_runtime_put()
-7bd220f2ba9014b78f0304178103393554b8c4fe ASoC: SOF: mediatek: initialize panic_info to zero
 b2e9e6a9cb87ce4a82fb106ae16c94639835fd47 drm/i915: Fix VLV/CHV HDMI/DP audio enable
 3153eebb7a76e663ac76d6670dc113296de96622 drm/i915/display: Don't disable DDI/Transcoder when setting phy test pattern
 31a2e6cbe8a4eb0d1650fff4b77872b744e14a62 drm/i915/migrate: Account for the reserved_space
@@ -603,7 +580,6 @@ c587e77e100fa40eb6af10e00497c67acf493f33 perf stat: Do not delay the workload wi
 818448e9cf92e5c6b3c10320372eefcbe4174e4f perf tools: Use "grep -E" instead of "egrep"
 549a715b98a13c6d05452be3ad37e980087bb081 KVM: x86: Add proper ReST tables for userspace MSR exits/flags
 cfb3162495fe5b8702cf3854995508ef78a3f962 Merge tag 'ceph-for-6.2-rc1' of https://github.com/ceph/ceph-client
-ff5870a76c2abda389650d3711cdddc031d12665 ASoC: Intel: Add HP Stream 8 to bytcr_rt5640.c
 025e3b507a3a8e1ee96a3112bb67495c77d6cdb6 fbdev: ssd1307fb: Drop optional dependency
 6273c43769cbd4451b03d239dc16d5c54bb7279a fbdev: ssd1307fb: Drop duplicate NULL checks for PWM APIs
 28f24e90ffc4bf2199c91783b98dfc71de1e3a2f fbdev: omapfb: remove redundant variable checksum
@@ -670,7 +646,6 @@ cb3543cff90a4448ed560ac86c98033ad5fecda9 regulator: core: fix deadlock on regula
 1eb206208b0f3f707c67134ef6ba394410effb67 block, bfq: only do counting of pending-request for BFQ_GROUP_IOSCHED
 d36a9ea5e7766961e753ee38d4c331bbe6ef659b block: fix use-after-free of q->q_usage_counter
 2cb815cfc78b137ee38bcd65e7c955d6cc2cc250 net: stmmac: fix errno when create_singlethread_workqueue() fails
-a12a383e59ce486abd719b6bda33c353a3b385e7 ASoC: lochnagar: Fix unused lochnagar_of_match warning
 c72a7e42592b2e18d862cf120876070947000d7a ravb: Fix "failed to switch device to config mode" message during unbind
 a7d82367daa6baa5e8399e6327e7f2f463534505 net: dsa: mv88e6xxx: avoid reg_lock deadlock in mv88e6xxx_setup_port()
 a8cf95f93610eb8282f8b6d0117ba78b74588d6b io_uring: fix overflow handling regression
@@ -1080,4 +1055,4 @@ ba7523bb0f494fc440d3a9bb0b665cfcaa192d0c ASoC: Intel: sof_nau8825: add variant w
 63f3d99b7efe4c5404a9388c05780917099cecf4 ASoC: Intel: fix sof-nau8825 link failure
 3e78986a840d59dd27e636eae3f52dc11125c835 ASoC: Intel: sof-nau8825: fix module alias overflow
 
---===============0586362545655943329==--
+--===============1496913731244856209==--
