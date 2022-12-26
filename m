@@ -1,34 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============1122287036237042192=="
+Content-Type: multipart/mixed; boundary="===============1808858703652227721=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-dt
-Date: Mon, 26 Dec 2022 14:45:04 -0000
-Message-Id: <167206590417.23820.10962804245421950230@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
+Date: Mon, 26 Dec 2022 14:47:07 -0000
+Message-Id: <167206602790.25840.13811516582640482253@gitolite.kernel.org>
 
---===============1122287036237042192==
+--===============1808858703652227721==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux-dt
+repo: pub/scm/linux/kernel/git/krzk/linux
 user: krzk
 changes:
   - ref: refs/heads/for-next
-    old: 0c2cd289d0bd080493b02d7733225cc5d4a12af0
-    new: 1b929c02afd37871d5afb9d498426f83432e71c2
-    log: revlist-0c2cd289d0bd-1b929c02afd3.txt
+    old: 4407a1eb1faf070fdc023eed10fecde7d0b66fcd
+    new: 3bcb0c7a4d7e3294d8b14eaaa697c8fc1d32fa79
+    log: revlist-4407a1eb1faf-3bcb0c7a4d7e.txt
 
---===============1122287036237042192==
+--===============1808858703652227721==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0c2cd289d0bd-1b929c02afd3.txt
+Content-Disposition: attachment; filename=revlist-4407a1eb1faf-3bcb0c7a4d7e.txt
 
-56c56a309e7959c319d3cbd6bd16e598ecd5831c can: gs_usb: remove gs_can::iface
-bd4a52bf9d56abaabc6926f68c3cc3528937a864 Merge patch series "can: usb: remove pointers to struct usb_interface in device's priv structures"
-eaacfeaca7ad0804b9a6eff7afeba93a87db7638 can: m_can: Call the RAM init directly from m_can_chip_config
 0826e82b8a32e646b7b32ba8b68ba30812028e47 can: raw: add support for SO_MARK
 3abcc01c38bc5d424635df96e0677e2fbec021de dt-bindings: can: renesas,rcar-canfd: Fix number of channels for R-Car V3U
 c1eaf8b9bd3145d029446c927e1c9ce925dfe6a7 can: m_can: Eliminate double read of TXFQS in tx_handler
@@ -1050,5 +1047,8 @@ edb23125fd4a79003012bc619d2c604da922865e Merge tag 'pstore-v6.2-rc1-fixes' of gi
 72a85e2b0a1e1e6fb4ee51ae902730212b2de25c Merge tag 'spi-fix-v6.2-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
 292a089d78d3e2f7944e60bb897c977785a321e3 treewide: Convert del_timer*() to timer_shutdown*()
 1b929c02afd37871d5afb9d498426f83432e71c2 Linux 6.2-rc1
+f3de853008ade23e34d30841c1892cb1d22f4ce5 arm64: dts: exynos: Update cache properties
+493dedfe297750421971c246a5bca6e1d077212a arm64: dts: fsd: Update cache properties
+3bcb0c7a4d7e3294d8b14eaaa697c8fc1d32fa79 arm64: dts: fsd: Add MCAN device node
 
---===============1122287036237042192==--
+--===============1808858703652227721==--
