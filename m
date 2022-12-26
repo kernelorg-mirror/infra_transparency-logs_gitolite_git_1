@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4975243785141003462=="
+Content-Type: multipart/mixed; boundary="===============8271923270146955115=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Mon, 26 Dec 2022 10:23:29 -0000
-Message-Id: <167205020900.12051.17702432081579471955@gitolite.kernel.org>
+Date: Mon, 26 Dec 2022 10:23:32 -0000
+Message-Id: <167205021258.12132.11077084673283686671@gitolite.kernel.org>
 
---===============4975243785141003462==
+--===============8271923270146955115==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-next
+  - ref: refs/heads/staging-testing
     old: 8395ae05cb5a2e31d36106e8c85efa11cda849be
     new: 1b929c02afd37871d5afb9d498426f83432e71c2
     log: revlist-8395ae05cb5a-1b929c02afd3.txt
 
---===============4975243785141003462==
+--===============8271923270146955115==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1672050208 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1672050211 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1672050207-7bc15cb919d6c8e6795e002c5972a731077b0de5
+nonce 1672050211-383cc11c3d1e6def0528a5ba5a3d9df6dc847f41
 
-8395ae05cb5a2e31d36106e8c85efa11cda849be 1b929c02afd37871d5afb9d498426f83432e71c2 refs/heads/staging-next
+8395ae05cb5a2e31d36106e8c85efa11cda849be 1b929c02afd37871d5afb9d498426f83432e71c2 refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmOpdiAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Y9kQAMJR/rt2LbD1mY4yrNnU
-MgLEspZuBl3Iu/UfLHIHbaSVKX9R3qq+UAeUoH4bDMoFh1Bz0y6U4zt6VVfM2bsW
-Tl0tP1UkGsZaHK/Sv1LPInyfJEKeTm7HVJzHEuHJca1v6QA0Wh33coXaEdYM9nMJ
-LKjzpGT3LWrwZLa5o/+imPPEi9hAi4LIS9RTi6Wgxm8hXI5UmU7LuHapR1S3TGd4
-tOCG/pfDFKrx3U84etK/KW7FtnBe/yePjg31ud3eYFGWeHnO797ipZT231a2Sp45
-657fV3pXDFQOHoyrXSx2BBiST4F9M4DxrSvVs/aAFmxhcYjQK0iKi4JR0kmvEuTg
-Whtk0NO1tNEchCYROHtKpnPHaysZtm6xIB9bhfHbX6AGq6P7AajAzy+MRwDD8xPl
-zorkkZCzHdPr3QYL9R5iz1r7EzuNudjjhL2t1jfJ7ZjKqolRPFI6RzqXdjPWXsUo
-OreQ7W9xbLCWOiggHyTPYNWaP6Ke+aRjU+CmSPhID6R6cvcfee/VU4cKSaoZISyq
-pAzVaxFww5KF8TgKJwfyqa6vRGDIMat6+fc8d058YgLCw8siZ0SPYl8EtKP6OJXk
-4x0yumICDWdS/6S/HEHLPnbHqaCZNYRbHyirWCLqGq8b0oeUBnNLUct/1XI2ONU+
-/7OVa0XRu6Z11Clw7PjvWHuf
-=CzVG
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmOpdiMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+0QMP/iuhD2qR/WHRdKf6fPh6
+rmCRF/v6HnAlgpAh5hm7qvAUOXV7wTeoZWnn6nt7HKFmr8U5hp0H3No5jWQ+3qrj
+kNyG/n3wjleLTPahos8TCgt70DOVuNaLd0KWG/5LJiMq80lZcCSDVmJgQOkbLSe4
+qExJO7Fsvnmk49m7ofboLCiTPuoqoZVN/xUZwBPGCjIJm11Y7ZBMrBUCAfMIo5qf
+LsxOdv7qX8JX2TH8/pbjCgjZdiX3bYTlR93J0o8qQJZRWAu07FXjo9HQxUJmfiWl
+WU7exVwBSCOkfoSmeGrHg/DtYRLfgkt8StJGoK58GfBUO/uN4zqxPVUp/C8iwapX
+PbYGnJzu7NdXoMop5kjsHi17rXMKw9Z0me5+RCjlMDPu7dXNm8NcLkDA501S0SUg
+TM1eyUtPxE0IwOP9iQKDsH4m3dkkSjxcI7x8znxIZccEATc//uasDZ7ZW5Xvc6B2
+jlN2FA5Txa4QAhctN4EZZTsq4SnvO4Nqjf127bPDXawpRQabjNgAj+hxjiOYiQec
+TKj7l8z+LyhsIwDdNn2K0wX59WZwKaJuSfsJ2cNb29JoY8REiuI8/f7zUKTzRg0q
+2ONRGFyGeyLqwuIgfcv4368fAD+g6khT2qwJw1N8XwGW4Sp7AzMCgjuVhFrMaefr
+UCVbhB1yQyIzQcfD8CLVm5N0
+=VAWm
 -----END PGP SIGNATURE-----
 
---===============4975243785141003462==
+--===============8271923270146955115==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -208,4 +208,4 @@ edb23125fd4a79003012bc619d2c604da922865e Merge tag 'pstore-v6.2-rc1-fixes' of gi
 292a089d78d3e2f7944e60bb897c977785a321e3 treewide: Convert del_timer*() to timer_shutdown*()
 1b929c02afd37871d5afb9d498426f83432e71c2 Linux 6.2-rc1
 
---===============4975243785141003462==--
+--===============8271923270146955115==--
