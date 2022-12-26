@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2051905955703879060=="
+Content-Type: multipart/mixed; boundary="===============1466661266030146361=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Mon, 26 Dec 2022 22:09:50 -0000
-Message-Id: <167209259075.22270.3010308525908834876@gitolite.kernel.org>
+Date: Mon, 26 Dec 2022 22:10:01 -0000
+Message-Id: <167209260164.22426.5415565866270777558@gitolite.kernel.org>
 
---===============2051905955703879060==
+--===============1466661266030146361==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/robh/linux
 user: robh
 changes:
-  - ref: refs/heads/dt/next
+  - ref: refs/heads/for-next
     old: 580f9896e088b399fc79f1421e56a1b68f0450b5
     new: 00f2a08cd785d262c760282ec027caa6ea8975d4
     log: revlist-580f9896e088-00f2a08cd785.txt
 
---===============2051905955703879060==
+--===============1466661266030146361==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ ec201955a53be4b57a467f7160724ff06289cead kbuild: Optionally enable schema checks
 8e5d0c68f23ab139e472f93ebbcfda9545e9953b of: overlay: Fix trivial typo
 00f2a08cd785d262c760282ec027caa6ea8975d4 dt-bindings: memory-controllers: ti,gpmc: fix typo in description
 
---===============2051905955703879060==--
+--===============1466661266030146361==--
