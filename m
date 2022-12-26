@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Mon, 26 Dec 2022 23:09:29 -0000
-Message-Id: <167209616932.30832.16014720324437578472@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chunkuang.hu/linux
+Date: Mon, 26 Dec 2022 23:09:30 -0000
+Message-Id: <167209617016.30890.14651727640738931253@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/chunkuang.hu/linux
+user: chunkuang.hu
 changes:
-  - ref: refs/heads/arm64-sysreg-helpers
-    old: ee5bdc7ec852b2317e2da5cb213da4b138b378d9
-    new: fb383a1658d2925439ad955c21c414797cb27c5c
+  - ref: refs/heads/mediatek-drm-next
+    old: 1b929c02afd37871d5afb9d498426f83432e71c2
+    new: 62fc5cd17172d8bc4a44cd127f7851048cf80231
     log: |
-         fb383a1658d2925439ad955c21c414797cb27c5c arm64/cpufeature: Use helper macros to specify hwcaps
+         62fc5cd17172d8bc4a44cd127f7851048cf80231 drm/mediatek: Set dpi format in mmsys
          
