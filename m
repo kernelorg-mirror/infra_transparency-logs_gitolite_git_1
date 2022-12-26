@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============3138807991346693050=="
+Content-Type: multipart/mixed; boundary="===============6093469696537954475=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-dt
-Date: Mon, 26 Dec 2022 14:44:29 -0000
-Message-Id: <167206586910.21615.9507373244007124846@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wbg/counter
+Date: Mon, 26 Dec 2022 14:44:30 -0000
+Message-Id: <167206587021.21669.7757997652837523382@gitolite.kernel.org>
 
---===============3138807991346693050==
+--===============6093469696537954475==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux-dt
-user: krzk
+repo: pub/scm/linux/kernel/git/wbg/counter
+user: wbg
 changes:
-  - ref: refs/heads/next/qcom-pinctrl
-    old: 86bfee318b546c03d954e863fc1af43960cb06e2
+  - ref: refs/heads/counter-next
+    old: 30a0b95b1335e12efef89dd78518ed3e4a71a763
     new: 1b929c02afd37871d5afb9d498426f83432e71c2
-    log: revlist-86bfee318b54-1b929c02afd3.txt
+    log: revlist-30a0b95b1335-1b929c02afd3.txt
 
---===============3138807991346693050==
+--===============6093469696537954475==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-86bfee318b54-1b929c02afd3.txt
+Content-Disposition: attachment; filename=revlist-30a0b95b1335-1b929c02afd3.txt
 
 56c56a309e7959c319d3cbd6bd16e598ecd5831c can: gs_usb: remove gs_can::iface
 bd4a52bf9d56abaabc6926f68c3cc3528937a864 Merge patch series "can: usb: remove pointers to struct usb_interface in device's priv structures"
@@ -1051,4 +1051,4 @@ edb23125fd4a79003012bc619d2c604da922865e Merge tag 'pstore-v6.2-rc1-fixes' of gi
 292a089d78d3e2f7944e60bb897c977785a321e3 treewide: Convert del_timer*() to timer_shutdown*()
 1b929c02afd37871d5afb9d498426f83432e71c2 Linux 6.2-rc1
 
---===============3138807991346693050==--
+--===============6093469696537954475==--
