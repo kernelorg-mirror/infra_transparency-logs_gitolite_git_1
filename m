@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3150047475992084413=="
+Content-Type: multipart/mixed; boundary="===============1166015164276164199=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Mon, 26 Dec 2022 21:59:30 -0000
-Message-Id: <167209197096.15866.14996336308116932532@gitolite.kernel.org>
+Date: Mon, 26 Dec 2022 22:02:00 -0000
+Message-Id: <167209212083.18257.11569582429104216537@gitolite.kernel.org>
 
---===============3150047475992084413==
+--===============1166015164276164199==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/brgl/linux
 user: brgl
 changes:
-  - ref: refs/heads/at24/for-next
-    old: 9abf2313adc1ca1b6180c508c25f22f9395cc780
-    new: 1b929c02afd37871d5afb9d498426f83432e71c2
-    log: revlist-9abf2313adc1-1b929c02afd3.txt
+  - ref: refs/heads/davinci/for-next
+    old: 53ad523ac43500bc1ab3f8c4d757715a29885a13
+    new: 84bde55c050b2ca6b1a71ba8bc322a7813ea475d
+    log: revlist-53ad523ac435-84bde55c050b.txt
 
---===============3150047475992084413==
+--===============1166015164276164199==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9abf2313adc1-1b929c02afd3.txt
+Content-Disposition: attachment; filename=revlist-53ad523ac435-84bde55c050b.txt
 
-56c56a309e7959c319d3cbd6bd16e598ecd5831c can: gs_usb: remove gs_can::iface
-bd4a52bf9d56abaabc6926f68c3cc3528937a864 Merge patch series "can: usb: remove pointers to struct usb_interface in device's priv structures"
 eaacfeaca7ad0804b9a6eff7afeba93a87db7638 can: m_can: Call the RAM init directly from m_can_chip_config
 0826e82b8a32e646b7b32ba8b68ba30812028e47 can: raw: add support for SO_MARK
 3abcc01c38bc5d424635df96e0677e2fbec021de dt-bindings: can: renesas,rcar-canfd: Fix number of channels for R-Car V3U
@@ -1050,5 +1048,7 @@ edb23125fd4a79003012bc619d2c604da922865e Merge tag 'pstore-v6.2-rc1-fixes' of gi
 72a85e2b0a1e1e6fb4ee51ae902730212b2de25c Merge tag 'spi-fix-v6.2-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
 292a089d78d3e2f7944e60bb897c977785a321e3 treewide: Convert del_timer*() to timer_shutdown*()
 1b929c02afd37871d5afb9d498426f83432e71c2 Linux 6.2-rc1
+eaafab7e8e268c18a66e6dfbd5ecea55a7a129c2 MAINTAINERS: make me the maintainer of DaVinci platforms
+84bde55c050b2ca6b1a71ba8bc322a7813ea475d ARM: davinci: fix repeated words in comments
 
---===============3150047475992084413==--
+--===============1166015164276164199==--
