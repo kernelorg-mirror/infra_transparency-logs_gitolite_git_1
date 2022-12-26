@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5223575380633974023=="
+Content-Type: multipart/mixed; boundary="===============7210979505759772510=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
-Date: Mon, 26 Dec 2022 23:00:05 -0000
-Message-Id: <167209560546.26098.9105597321782255548@gitolite.kernel.org>
+Date: Mon, 26 Dec 2022 23:00:53 -0000
+Message-Id: <167209565358.26451.9039714279000322801@gitolite.kernel.org>
 
---===============5223575380633974023==
+--===============7210979505759772510==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
 user: shuah
 changes:
-  - ref: refs/heads/devel
+  - ref: refs/heads/test
     old: 9abf2313adc1ca1b6180c508c25f22f9395cc780
     new: 1b929c02afd37871d5afb9d498426f83432e71c2
     log: revlist-9abf2313adc1-1b929c02afd3.txt
 
---===============5223575380633974023==
+--===============7210979505759772510==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ edb23125fd4a79003012bc619d2c604da922865e Merge tag 'pstore-v6.2-rc1-fixes' of gi
 292a089d78d3e2f7944e60bb897c977785a321e3 treewide: Convert del_timer*() to timer_shutdown*()
 1b929c02afd37871d5afb9d498426f83432e71c2 Linux 6.2-rc1
 
---===============5223575380633974023==--
+--===============7210979505759772510==--
