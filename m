@@ -1,32 +1,32 @@
-Content-Type: multipart/mixed; boundary="===============8203548474463434095=="
+Content-Type: multipart/mixed; boundary="===============3686780879642080812=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vkoul/soundwire
-Date: Mon, 26 Dec 2022 06:31:22 -0000
-Message-Id: <167203628212.8217.1674376806268733945@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/phy/linux-phy
+Date: Mon, 26 Dec 2022 06:32:03 -0000
+Message-Id: <167203632315.8528.9145083287808946303@gitolite.kernel.org>
 
---===============8203548474463434095==
+--===============3686780879642080812==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vkoul/soundwire
+repo: pub/scm/linux/kernel/git/phy/linux-phy
 user: vkoul
 changes:
   - ref: refs/heads/fixes
-    old: 49a467310dc4fae591a3547860ee04d8730780f4
+    old: 819b885cd886c193782891c4f51bbcab3de119a4
     new: 1b929c02afd37871d5afb9d498426f83432e71c2
-    log: revlist-49a467310dc4-1b929c02afd3.txt
+    log: revlist-819b885cd886-1b929c02afd3.txt
   - ref: refs/heads/master
     old: 9abf2313adc1ca1b6180c508c25f22f9395cc780
     new: 1b929c02afd37871d5afb9d498426f83432e71c2
     log: revlist-9abf2313adc1-1b929c02afd3.txt
   - ref: refs/heads/next
-    old: 7cbf00bd4142cd88ac7ecbc4ea7b917a220cb721
+    old: bea3ce759b4664f20f1f57c53fe018c3b67da147
     new: 1b929c02afd37871d5afb9d498426f83432e71c2
-    log: revlist-7cbf00bd4142-1b929c02afd3.txt
+    log: revlist-bea3ce759b46-1b929c02afd3.txt
   - ref: refs/tags/v6.2-rc1
     old: 0000000000000000000000000000000000000000
     new: e05dec85e78317f251eddd27e0357b2253d9dfc4
@@ -55,11 +55,11 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: 586cbada421761e98ada6f7de24426456352bfd6
 
---===============8203548474463434095==
+--===============3686780879642080812==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-49a467310dc4-1b929c02afd3.txt
+Content-Disposition: attachment; filename=revlist-819b885cd886-1b929c02afd3.txt
 
 56c56a309e7959c319d3cbd6bd16e598ecd5831c can: gs_usb: remove gs_can::iface
 bd4a52bf9d56abaabc6926f68c3cc3528937a864 Merge patch series "can: usb: remove pointers to struct usb_interface in device's priv structures"
@@ -1086,7 +1086,7 @@ edb23125fd4a79003012bc619d2c604da922865e Merge tag 'pstore-v6.2-rc1-fixes' of gi
 292a089d78d3e2f7944e60bb897c977785a321e3 treewide: Convert del_timer*() to timer_shutdown*()
 1b929c02afd37871d5afb9d498426f83432e71c2 Linux 6.2-rc1
 
---===============8203548474463434095==
+--===============3686780879642080812==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -2117,11 +2117,11 @@ edb23125fd4a79003012bc619d2c604da922865e Merge tag 'pstore-v6.2-rc1-fixes' of gi
 292a089d78d3e2f7944e60bb897c977785a321e3 treewide: Convert del_timer*() to timer_shutdown*()
 1b929c02afd37871d5afb9d498426f83432e71c2 Linux 6.2-rc1
 
---===============8203548474463434095==
+--===============3686780879642080812==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7cbf00bd4142-1b929c02afd3.txt
+Content-Disposition: attachment; filename=revlist-bea3ce759b46-1b929c02afd3.txt
 
 56c56a309e7959c319d3cbd6bd16e598ecd5831c can: gs_usb: remove gs_can::iface
 bd4a52bf9d56abaabc6926f68c3cc3528937a864 Merge patch series "can: usb: remove pointers to struct usb_interface in device's priv structures"
@@ -3148,4 +3148,4 @@ edb23125fd4a79003012bc619d2c604da922865e Merge tag 'pstore-v6.2-rc1-fixes' of gi
 292a089d78d3e2f7944e60bb897c977785a321e3 treewide: Convert del_timer*() to timer_shutdown*()
 1b929c02afd37871d5afb9d498426f83432e71c2 Linux 6.2-rc1
 
---===============8203548474463434095==--
+--===============3686780879642080812==--
