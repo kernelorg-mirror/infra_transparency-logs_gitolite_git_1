@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/samsung
-Date: Mon, 26 Dec 2022 14:23:51 -0000
-Message-Id: <167206463197.7730.5250153408614035077@gitolite.kernel.org>
+Date: Mon, 26 Dec 2022 14:26:31 -0000
+Message-Id: <167206479175.10153.10285302791343056682@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,5 @@ repo: pub/scm/linux/kernel/git/pinctrl/samsung
 user: krzk
 changes:
   - ref: refs/heads/master
-    old: 292a089d78d3e2f7944e60bb897c977785a321e3
-    new: 1b929c02afd37871d5afb9d498426f83432e71c2
-    log: |
-         1b929c02afd37871d5afb9d498426f83432e71c2 Linux 6.2-rc1
-         
+    old: 1b929c02afd37871d5afb9d498426f83432e71c2
+    new: 292a089d78d3e2f7944e60bb897c977785a321e3
