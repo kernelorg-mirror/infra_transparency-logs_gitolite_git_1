@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7854813950145620816=="
+Content-Type: multipart/mixed; boundary="===============1458156650733194765=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chrome-platform/linux
-Date: Mon, 26 Dec 2022 03:15:56 -0000
-Message-Id: <167202455623.10300.15716455828404042315@gitolite.kernel.org>
+Date: Mon, 26 Dec 2022 03:16:06 -0000
+Message-Id: <167202456623.10420.8272829126108742582@gitolite.kernel.org>
 
---===============7854813950145620816==
+--===============1458156650733194765==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,18 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/chrome-platform/linux
 user: tzungbi
 changes:
-  - ref: refs/heads/for-next
-    old: c88d317f7473c67fdecfa993d3077a52525bb863
-    new: 256b734efc7494eb3c45f3ff5abd632ff0afde03
-    log: revlist-c88d317f7473-256b734efc74.txt
+  - ref: refs/heads/for-kernelci
+    old: 5990db2d66b3445e885affcd284301fd2cc14ecd
+    new: 65291e76da37b896f54a2948431f4d6ea28767b3
+    log: revlist-5990db2d66b3-65291e76da37.txt
 
---===============7854813950145620816==
+--===============1458156650733194765==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c88d317f7473-256b734efc74.txt
+Content-Disposition: attachment; filename=revlist-5990db2d66b3-65291e76da37.txt
 
-bd4a52bf9d56abaabc6926f68c3cc3528937a864 Merge patch series "can: usb: remove pointers to struct usb_interface in device's priv structures"
 eaacfeaca7ad0804b9a6eff7afeba93a87db7638 can: m_can: Call the RAM init directly from m_can_chip_config
 0826e82b8a32e646b7b32ba8b68ba30812028e47 can: raw: add support for SO_MARK
 3abcc01c38bc5d424635df96e0677e2fbec021de dt-bindings: can: renesas,rcar-canfd: Fix number of channels for R-Car V3U
@@ -1050,5 +1049,6 @@ edb23125fd4a79003012bc619d2c604da922865e Merge tag 'pstore-v6.2-rc1-fixes' of gi
 292a089d78d3e2f7944e60bb897c977785a321e3 treewide: Convert del_timer*() to timer_shutdown*()
 1b929c02afd37871d5afb9d498426f83432e71c2 Linux 6.2-rc1
 256b734efc7494eb3c45f3ff5abd632ff0afde03 platform/chrome: use sysfs_emit() instead of scnprintf()
+65291e76da37b896f54a2948431f4d6ea28767b3 KERNELCI: x86_64_defconfig: Enable support for Chromebooks devices
 
---===============7854813950145620816==--
+--===============1458156650733194765==--
