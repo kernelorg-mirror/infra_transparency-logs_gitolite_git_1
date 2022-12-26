@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1282845874297280743=="
+Content-Type: multipart/mixed; boundary="===============3716969476122643607=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 26 Dec 2022 10:20:53 -0000
-Message-Id: <167205005343.9953.9953599624717428491@gitolite.kernel.org>
+Date: Mon, 26 Dec 2022 10:20:58 -0000
+Message-Id: <167205005850.10025.571440485509987933@gitolite.kernel.org>
 
---===============1282845874297280743==
+--===============3716969476122643607==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: 53a4892af05f72e14e935234e8fbf34fa7e04521
-    new: 9e459eb6dfb0d6dfd2a869bf442c4a7aae0f04db
-    log: revlist-53a4892af05f-9e459eb6dfb0.txt
+  - ref: refs/heads/m68k-queue
+    old: 63ada160e9fc60b9e694db6587a25f42bfb8025b
+    new: 4591f7b378f9662b206fc641ef65a0d9cf9c2172
+    log: revlist-63ada160e9fc-4591f7b378f9.txt
 
---===============1282845874297280743==
+--===============3716969476122643607==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-53a4892af05f-9e459eb6dfb0.txt
+Content-Disposition: attachment; filename=revlist-63ada160e9fc-4591f7b378f9.txt
 
-bd4a52bf9d56abaabc6926f68c3cc3528937a864 Merge patch series "can: usb: remove pointers to struct usb_interface in device's priv structures"
-eaacfeaca7ad0804b9a6eff7afeba93a87db7638 can: m_can: Call the RAM init directly from m_can_chip_config
 0826e82b8a32e646b7b32ba8b68ba30812028e47 can: raw: add support for SO_MARK
 3abcc01c38bc5d424635df96e0677e2fbec021de dt-bindings: can: renesas,rcar-canfd: Fix number of channels for R-Car V3U
 c1eaf8b9bd3145d029446c927e1c9ce925dfe6a7 can: m_can: Eliminate double read of TXFQS in tx_handler
@@ -1049,6 +1047,8 @@ edb23125fd4a79003012bc619d2c604da922865e Merge tag 'pstore-v6.2-rc1-fixes' of gi
 72a85e2b0a1e1e6fb4ee51ae902730212b2de25c Merge tag 'spi-fix-v6.2-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
 292a089d78d3e2f7944e60bb897c977785a321e3 treewide: Convert del_timer*() to timer_shutdown*()
 1b929c02afd37871d5afb9d498426f83432e71c2 Linux 6.2-rc1
-9e459eb6dfb0d6dfd2a869bf442c4a7aae0f04db Merge tag 'v6.2-rc1'
+6e6ed8e43b7ae1e7a6411e5300e256b30150526c m68k: atari: usb: Add ISP1160 USB host controller support
+be9cfb0db9fe6c02b0facf440209a294948a56ae m68k: atari: Update Kconfig.bus help text
+4591f7b378f9662b206fc641ef65a0d9cf9c2172 m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============1282845874297280743==--
+--===============3716969476122643607==--
