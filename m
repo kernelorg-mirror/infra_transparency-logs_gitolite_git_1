@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============2911092357646700399=="
+Content-Type: multipart/mixed; boundary="===============1122287036237042192=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
-Date: Mon, 26 Dec 2022 14:45:00 -0000
-Message-Id: <167206590026.22205.18440679885924035430@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-dt
+Date: Mon, 26 Dec 2022 14:45:04 -0000
+Message-Id: <167206590417.23820.10962804245421950230@gitolite.kernel.org>
 
---===============2911092357646700399==
+--===============1122287036237042192==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux
+repo: pub/scm/linux/kernel/git/krzk/linux-dt
 user: krzk
 changes:
-  - ref: refs/heads/next/soc64
-    old: 9abf2313adc1ca1b6180c508c25f22f9395cc780
+  - ref: refs/heads/for-next
+    old: 0c2cd289d0bd080493b02d7733225cc5d4a12af0
     new: 1b929c02afd37871d5afb9d498426f83432e71c2
-    log: revlist-9abf2313adc1-1b929c02afd3.txt
+    log: revlist-0c2cd289d0bd-1b929c02afd3.txt
 
---===============2911092357646700399==
+--===============1122287036237042192==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9abf2313adc1-1b929c02afd3.txt
+Content-Disposition: attachment; filename=revlist-0c2cd289d0bd-1b929c02afd3.txt
 
 56c56a309e7959c319d3cbd6bd16e598ecd5831c can: gs_usb: remove gs_can::iface
 bd4a52bf9d56abaabc6926f68c3cc3528937a864 Merge patch series "can: usb: remove pointers to struct usb_interface in device's priv structures"
@@ -1051,4 +1051,4 @@ edb23125fd4a79003012bc619d2c604da922865e Merge tag 'pstore-v6.2-rc1-fixes' of gi
 292a089d78d3e2f7944e60bb897c977785a321e3 treewide: Convert del_timer*() to timer_shutdown*()
 1b929c02afd37871d5afb9d498426f83432e71c2 Linux 6.2-rc1
 
---===============2911092357646700399==--
+--===============1122287036237042192==--
