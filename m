@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7358758794849068185=="
+Content-Type: multipart/mixed; boundary="===============5264196280841153658=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Mon, 26 Dec 2022 22:02:15 -0000
-Message-Id: <167209213597.18402.15314473066860590539@gitolite.kernel.org>
+Date: Mon, 26 Dec 2022 22:02:39 -0000
+Message-Id: <167209215957.18609.13969929809416808724@gitolite.kernel.org>
 
---===============7358758794849068185==
+--===============5264196280841153658==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/brgl/linux
 user: brgl
 changes:
-  - ref: refs/heads/davinci/for-current
+  - ref: refs/heads/master
     old: 9abf2313adc1ca1b6180c508c25f22f9395cc780
     new: 1b929c02afd37871d5afb9d498426f83432e71c2
     log: revlist-9abf2313adc1-1b929c02afd3.txt
 
---===============7358758794849068185==
+--===============5264196280841153658==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ edb23125fd4a79003012bc619d2c604da922865e Merge tag 'pstore-v6.2-rc1-fixes' of gi
 292a089d78d3e2f7944e60bb897c977785a321e3 treewide: Convert del_timer*() to timer_shutdown*()
 1b929c02afd37871d5afb9d498426f83432e71c2 Linux 6.2-rc1
 
---===============7358758794849068185==--
+--===============5264196280841153658==--
