@@ -1,38 +1,37 @@
-Content-Type: multipart/mixed; boundary="===============5440725798216519883=="
+Content-Type: multipart/mixed; boundary="===============0838066698465057006=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Mon, 26 Dec 2022 23:33:29 -0000
-Message-Id: <167209760946.15519.1109034080573454854@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Mon, 26 Dec 2022 23:33:48 -0000
+Message-Id: <167209762859.15716.16773427516708719302@gitolite.kernel.org>
 
---===============5440725798216519883==
+--===============0838066698465057006==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 changes:
   - ref: refs/heads/for-linus
-    old: f56a82a2d6aef07484a1f413e57e8719a1bf8148
-    new: 27ff4fc3caa5bc6303fcaf67880a4bdf10fe0a4a
+    old: 45b3cd900bf8d1a3cd7cf48361df8c09ae5b4009
+    new: 3cbcc97e7d32061d6328a0c9f45c9419c820ead3
     log: |
-         27ff4fc3caa5bc6303fcaf67880a4bdf10fe0a4a Merge remote-tracking branch 'regulator/for-6.1' into regulator-linus
+         3cbcc97e7d32061d6328a0c9f45c9419c820ead3 Merge remote-tracking branch 'spi/for-6.1' into spi-linus
          
   - ref: refs/heads/for-next
-    old: f56a82a2d6aef07484a1f413e57e8719a1bf8148
-    new: d1ffc5af44fe8a327a3781f074c5a472a585b200
-    log: revlist-f56a82a2d6ae-d1ffc5af44fe.txt
+    old: 45b3cd900bf8d1a3cd7cf48361df8c09ae5b4009
+    new: 1122f68c2f648b9c21d76a58f6c5ff72a027a097
+    log: revlist-45b3cd900bf8-1122f68c2f64.txt
 
---===============5440725798216519883==
+--===============0838066698465057006==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f56a82a2d6ae-d1ffc5af44fe.txt
+Content-Disposition: attachment; filename=revlist-45b3cd900bf8-1122f68c2f64.txt
 
-56c56a309e7959c319d3cbd6bd16e598ecd5831c can: gs_usb: remove gs_can::iface
 bd4a52bf9d56abaabc6926f68c3cc3528937a864 Merge patch series "can: usb: remove pointers to struct usb_interface in device's priv structures"
 eaacfeaca7ad0804b9a6eff7afeba93a87db7638 can: m_can: Call the RAM init directly from m_can_chip_config
 0826e82b8a32e646b7b32ba8b68ba30812028e47 can: raw: add support for SO_MARK
@@ -456,6 +455,7 @@ f65a486821cfd363833079b2a7b0769250ee21c9 kbuild: change module.order to list *.o
 0d24f1b7cc65ee73ea8d04e0d10f77a7cb7a83f3 padata: Mark padata_work_init() as __ref
 19331e84c3873256537d446afec1f6c507f8c4ef modpost: Include '.text.*' in TEXT_SECTIONS
 11e47bbd700f31bd1ee9f8863381bc9e741c0e97 gpio: sim: set a limit on the number of GPIOs
+0debed5b117d11e33cba52870c4dcb64f5911891 regulator: core: Fix resolve supply lookup issue
 904f309ae7edaadc9fd0ee04be8281d7781d97e4 thermal: intel: Don't set HFI status bit to 1
 fb9f5ee9bf5cf7ebc8731a7033e57d98832dc650 tracing: Do not synchronize freeing of trigger filter on boot up
 3c97d25ceb75fd3e660ba9fcd4c630d0b057a5a2 perf stat: Check existence of os->prefix, fixing a segfault
@@ -498,7 +498,6 @@ c3a8f85351b15167d6c8d178656df82ba3c34712 perf test: Add mechanism for skipping a
 ee26adf627e65c8e26b13aa35d5de1875973114f perf test: Add mechanism for skipping attr tests on kernel versions
 9440ebdc333dd12e2344aec8fd3fb7d440f9463c perf test arm64: Add attr tests for new VG register
 caec54705adb73b0015bce4dc781e0d19a91ff18 perf build: Fix python/perf.so library's name
-3b553e0041a65e499fa4e25ee146f01f4ec4e617 spi: fsl_spi: Don't change speed while chipselect is active
 f0f4c3adcfe6d93508a7fbe241b115aa5b24fe36 dt-bindings: thermal: tsens: Add sm8450 compatible
 1f455f144fb05e53ae47f84eb109a8021fe168d1 thermal/drivers/imx8mm_thermal: Use GENMASK() when appropriate
 d37edc7370273306d8747097fafa62436c1cfe16 thermal/drivers/imx8mm_thermal: Validate temperature range
@@ -648,6 +647,7 @@ f506439ec3dee11e0e77b0a1f3fb3eec22c97873 selftests/bpf: Add a test for using a c
 ba3e77a4a22af018d2fe4d745902b2531ca82aba gfs2: Remove support for glock holder auto-demotion
 6b46a06100dd0e0ebe400573e94ccd09163bfd5b gfs2: Remove support for glock holder auto-demotion (2)
 7e43039a49c2da45edc1d9d7c9ede4003ab45a5f r6040: Fix kmemleak in probe and remove
+cb3543cff90a4448ed560ac86c98033ad5fecda9 regulator: core: fix deadlock on regulator enable
 1eb206208b0f3f707c67134ef6ba394410effb67 block, bfq: only do counting of pending-request for BFQ_GROUP_IOSCHED
 d36a9ea5e7766961e753ee38d4c331bbe6ef659b block: fix use-after-free of q->q_usage_counter
 2cb815cfc78b137ee38bcd65e7c955d6cc2cc250 net: stmmac: fix errno when create_singlethread_workqueue() fails
@@ -1054,7 +1054,7 @@ edb23125fd4a79003012bc619d2c604da922865e Merge tag 'pstore-v6.2-rc1-fixes' of gi
 72a85e2b0a1e1e6fb4ee51ae902730212b2de25c Merge tag 'spi-fix-v6.2-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
 292a089d78d3e2f7944e60bb897c977785a321e3 treewide: Convert del_timer*() to timer_shutdown*()
 1b929c02afd37871d5afb9d498426f83432e71c2 Linux 6.2-rc1
-27ff4fc3caa5bc6303fcaf67880a4bdf10fe0a4a Merge remote-tracking branch 'regulator/for-6.1' into regulator-linus
-d1ffc5af44fe8a327a3781f074c5a472a585b200 Merge branch 'regulator-linus' into regulator-next
+3cbcc97e7d32061d6328a0c9f45c9419c820ead3 Merge remote-tracking branch 'spi/for-6.1' into spi-linus
+1122f68c2f648b9c21d76a58f6c5ff72a027a097 Merge branch 'spi-linus' into spi-next
 
---===============5440725798216519883==--
+--===============0838066698465057006==--
