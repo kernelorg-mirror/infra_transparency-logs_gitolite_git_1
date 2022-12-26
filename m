@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
-Date: Mon, 26 Dec 2022 14:31:32 -0000
-Message-Id: <167206509281.13728.13583781770189935030@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pinchartl/linux
+Date: Mon, 26 Dec 2022 14:35:50 -0000
+Message-Id: <167206535048.16592.7314315851425547212@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
-user: krzk
+repo: pub/scm/linux/kernel/git/pinchartl/linux
+user: pinchartl
 changes:
-  - ref: refs/heads/master
-    old: 292a089d78d3e2f7944e60bb897c977785a321e3
-    new: 1b929c02afd37871d5afb9d498426f83432e71c2
-    log: |
-         1b929c02afd37871d5afb9d498426f83432e71c2 Linux 6.2-rc1
-         
+  - ref: refs/meta/cgit
+    old: 0000000000000000000000000000000000000000
+    new: 0628197baec81c03513cbe9fa5bfc46ec3ec5af2
