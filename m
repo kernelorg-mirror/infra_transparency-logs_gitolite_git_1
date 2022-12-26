@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============8761756485735652606=="
+Content-Type: multipart/mixed; boundary="===============8783476708499061314=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
-Date: Mon, 26 Dec 2022 12:01:32 -0000
-Message-Id: <167205609245.12136.185549835147144079@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
+Date: Mon, 26 Dec 2022 12:01:35 -0000
+Message-Id: <167205609529.12208.2897877082724231766@gitolite.kernel.org>
 
---===============8761756485735652606==
+--===============8783476708499061314==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
+repo: pub/scm/linux/kernel/git/krzk/linux
 user: krzk
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: 1b929c02afd37871d5afb9d498426f83432e71c2
     log: revlist-830b3c68c1fb-1b929c02afd3.txt
 
---===============8761756485735652606==
+--===============8783476708499061314==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ edb23125fd4a79003012bc619d2c604da922865e Merge tag 'pstore-v6.2-rc1-fixes' of gi
 292a089d78d3e2f7944e60bb897c977785a321e3 treewide: Convert del_timer*() to timer_shutdown*()
 1b929c02afd37871d5afb9d498426f83432e71c2 Linux 6.2-rc1
 
---===============8761756485735652606==--
+--===============8783476708499061314==--
