@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============6026527004349799110=="
+Content-Type: multipart/mixed; boundary="===============8519474782007419060=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-power-supply
-Date: Mon, 26 Dec 2022 02:46:56 -0000
-Message-Id: <167202281694.23029.4797046516507763207@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-hsi
+Date: Mon, 26 Dec 2022 02:48:00 -0000
+Message-Id: <167202288032.23422.7946094146447027402@gitolite.kernel.org>
 
---===============6026527004349799110==
+--===============8519474782007419060==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sre/linux-power-supply
+repo: pub/scm/linux/kernel/git/sre/linux-hsi
 user: sre
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: 1b929c02afd37871d5afb9d498426f83432e71c2
     log: revlist-9abf2313adc1-1b929c02afd3.txt
 
---===============6026527004349799110==
+--===============8519474782007419060==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ edb23125fd4a79003012bc619d2c604da922865e Merge tag 'pstore-v6.2-rc1-fixes' of gi
 292a089d78d3e2f7944e60bb897c977785a321e3 treewide: Convert del_timer*() to timer_shutdown*()
 1b929c02afd37871d5afb9d498426f83432e71c2 Linux 6.2-rc1
 
---===============6026527004349799110==--
+--===============8519474782007419060==--
