@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8817795855447976267=="
+Content-Type: multipart/mixed; boundary="===============5592682177608551495=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Tue, 27 Dec 2022 18:27:28 -0000
-Message-Id: <167216564847.11980.16047459185174436897@gitolite.kernel.org>
+Date: Tue, 27 Dec 2022 18:27:35 -0000
+Message-Id: <167216565509.12073.16425706090608302550@gitolite.kernel.org>
 
---===============8817795855447976267==
+--===============5592682177608551495==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: fa349e396e4886d742fd6501c599ec627ef1353b
-    new: d3805695fe1e7383517903715cefc9bbdcffdc90
-    log: revlist-fa349e396e48-d3805695fe1e.txt
+  - ref: refs/heads/dev-queue
+    old: 6de52ca4b9a7543a213cae72b7ef8b4d3175922f
+    new: c342bc11f5a438cf39e2280bafda39ec2c6953f1
+    log: revlist-6de52ca4b9a7-c342bc11f5a4.txt
 
---===============8817795855447976267==
+--===============5592682177608551495==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fa349e396e48-d3805695fe1e.txt
+Content-Disposition: attachment; filename=revlist-6de52ca4b9a7-c342bc11f5a4.txt
 
 cc074822465d18a2d39e0b3e2b48b6766a568db2 bpf: Define sock security related BTF IDs under CONFIG_SECURITY_NETWORK
 54c3f1a81421f85e60ae2eaae7be3727a09916ee bpf: pull before calling skb_postpull_rcsum()
@@ -45,5 +45,22 @@ be1236fce5f4ac94915cdca8c61bb6e0e1503b81 Merge tag 'for-netdev' of git://git.ker
 30e725537546248bddc12eaac2fe0a258917f190 net: dsa: mv88e6xxx: depend on PTP conditionally
 df49908f3c52d211aea5e2a14a93bbe67a2cb3af nfc: Fix potential resource leaks
 d3805695fe1e7383517903715cefc9bbdcffdc90 net: ethernet: marvell: octeontx2: Fix uninitialized variable warning
+d41a15e82d24f44fb112a25ee8561b7349e8c358 iavf: Fix shutdown pci callback to match the remove one
+e51d0e34580892d22107a85390d1752fa7a7d56a ice: move devlink port creation/deletion
+7380b751952847ca66563050115a84fa3e422750 intel/igbvf: free irq on the error path in igbvf_request_msix()
+f430a3b7965b1216eacecadac16277d790469233 igb: Enable SR-IOV after reinit
+915fb144cea65d1531ef1e049f510100effc003d ice: Fix broken link in ice NAPI doc
+e46d2593af46b73118dd0086455511061fee691e ice: Fix deadlock on the rtnl_mutex
+3d6534ccc242ba6522adfdc89b1fb0812d5eeef6 ixgbe: fix pci device refcount leak
+101fcc5cdbe9af4ea2d60d46123cb8302a6e4ddd igbvf: Regard vf reset nack as success
+7201e532ec766640230c2474afde35e2c488c26b ice: Fix potential memory leak in ice_gnss_tty_write()
+6495e24419237a0c6dfb32095609805f6cd9cfa7 ice: Add check for kzalloc
+d8a5c01191da69164912fec3cc75269d64a4d84e igb: conditionalize I2C bit banging on external thermal sensor support
+68294f72123d10c63eca522d0fe03b57a1bb4f47 ice: switch: fix potential memleak in ice_add_adv_recipe()
+074c42d5b9bf5835f04d87b744754428c51dd475 igc: Fix PPS delta between two synchronized end-points
+38f376e1b2abbadac09d2087103e4a2bd8e7a32b iavf: fix temporary deadlock and failure to set MAC address
+6839fc664dde94df9a0e7f3800a3983cb79728ee iavf: avoid taking rtnl_lock in adminq_task
+7b36ed5901397a33505ef2cb7d44c8651eb9cfcd ice: Prevent set_channel from changing queues while RDMA active
+c342bc11f5a438cf39e2280bafda39ec2c6953f1 iavf/iavf_main: actually log ->src mask when talking about it
 
---===============8817795855447976267==--
+--===============5592682177608551495==--
