@@ -1,66 +1,60 @@
-Content-Type: multipart/mixed; boundary="===============8149508339782208846=="
+Content-Type: multipart/mixed; boundary="===============1006643856172373392=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Tue, 27 Dec 2022 11:55:50 -0000
-Message-Id: <167214215027.6703.7576950442197316096@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 27 Dec 2022 11:55:56 -0000
+Message-Id: <167214215674.6833.6155533740958922153@gitolite.kernel.org>
 
---===============8149508339782208846==
+--===============1006643856172373392==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.2
-    old: cb3543cff90a4448ed560ac86c98033ad5fecda9
+  - ref: refs/heads/regulator-6.2
+    old: 8f3cbcd6b440032ebc7f7d48a1689dcc70a4eb98
     new: 1b929c02afd37871d5afb9d498426f83432e71c2
-    log: revlist-cb3543cff90a-1b929c02afd3.txt
-  - ref: refs/heads/for-6.3
-    old: 1b929c02afd37871d5afb9d498426f83432e71c2
+    log: revlist-8f3cbcd6b440-1b929c02afd3.txt
+  - ref: refs/heads/regulator-6.3
+    old: 0000000000000000000000000000000000000000
     new: cfbe9dfd664c7717ef297e01b7eecccc2b5fde6f
-    log: |
-         413ec72963fc297f419a3d5f931bb43921969749 regulator: dt-bindings: Convert active-semi PMIC docs to YAML schemas
-         cfbe9dfd664c7717ef297e01b7eecccc2b5fde6f regulator: tps65219: Report regulator name if devm_regulator_register fails
-         
 
---===============8149508339782208846==
+--===============1006643856172373392==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1672142148 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
-nonce 1672142147-24da6429255365a0d5f07bea5b9a087b72b4e659
+pusher C3F436CA30F5D8EB 1672142154 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1672142154-de0f0894293a775f2307fe8064ab316cfe7eab70
 
-cb3543cff90a4448ed560ac86c98033ad5fecda9 1b929c02afd37871d5afb9d498426f83432e71c2 refs/heads/for-6.2
-1b929c02afd37871d5afb9d498426f83432e71c2 cfbe9dfd664c7717ef297e01b7eecccc2b5fde6f refs/heads/for-6.3
+8f3cbcd6b440032ebc7f7d48a1689dcc70a4eb98 1b929c02afd37871d5afb9d498426f83432e71c2 refs/heads/regulator-6.2
+0000000000000000000000000000000000000000 cfbe9dfd664c7717ef297e01b7eecccc2b5fde6f refs/heads/regulator-6.3
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmOq3UQACgkQJNaLcl1U
-h9C+cQf+J0Au5vj8xT8zkZBVStoMKaNagd9RdBQ/iZ8ot0m1eWuJpbgzGWNdI8bj
-KgM0kmy+dNWxTKjRN1D2wwRNxGHVmzxOQhg09GwzHZtBzoljhhqTmmIM95tsjUXC
-5DesIrGRfM0mtLz+GkopY1H16vGy7qBfQm31iCPwWGBvjaR0sd3EjwDFunhQms8T
-ZuwH2R6x3AdneQub8ZI71BYATfogdb1PNPTpUs9BE/hvrazQDvIbDY5XenRdCpjG
-LATqXVocm/czGwTWBVmKADc1jeuVQsPCbcwsrDhLXzsyq2ZGLRTQ5eFgqnKWdwq+
-R4mpi6EMzgeYbmaiLRBcb3htBdrwyQ==
-=agoc
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmOq3UoACgkQJNaLcl1U
+h9Bivgf/chhnfCmF0XVnHj3MDpWMfPy3WYjutfS1oD/j/PIG4vn3IZEHG1wUclDU
+h4q4DyPaw/XMQRkcQChZrs1TLlboRQQxUkTLg9Nw1ozLgtp0JwDb/Jx29L2mkphc
+2j6inh4LuHk+bd1cN6iOPSR+A1C2an9fOmJayYi+mTqM1StP7o2mr6BbchF9xBon
+nlQ+AqNK5xTUwI4nq/W7rhYTDMOYUYoIQbgWPEfiiBybA6HV8Vw7ymN08r1bZFo5
+E7g5Yy/SrnJS7pXsMOqIeOsp2Wh7HANOiOdYV/NGQz6Wipiwa/e/LHOc+JlF7Tla
+dlC8wrCBrjD4t/wmE3JImqTWaJD7WA==
+=NXaW
 -----END PGP SIGNATURE-----
 
---===============8149508339782208846==
+--===============1006643856172373392==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cb3543cff90a-1b929c02afd3.txt
+Content-Disposition: attachment; filename=revlist-8f3cbcd6b440-1b929c02afd3.txt
 
-f793458bba544e29657efbfa53b62dc511c6f22c net: af_can: remove useless parameter 'err' in 'can_rx_register()'
-f54b101ddeaea68fe7e52e842deb8b7a081bf156 can: ucan: remove unused ucan_priv::intf
 56c56a309e7959c319d3cbd6bd16e598ecd5831c can: gs_usb: remove gs_can::iface
 bd4a52bf9d56abaabc6926f68c3cc3528937a864 Merge patch series "can: usb: remove pointers to struct usb_interface in device's priv structures"
 eaacfeaca7ad0804b9a6eff7afeba93a87db7638 can: m_can: Call the RAM init directly from m_can_chip_config
@@ -485,6 +479,7 @@ f65a486821cfd363833079b2a7b0769250ee21c9 kbuild: change module.order to list *.o
 0d24f1b7cc65ee73ea8d04e0d10f77a7cb7a83f3 padata: Mark padata_work_init() as __ref
 19331e84c3873256537d446afec1f6c507f8c4ef modpost: Include '.text.*' in TEXT_SECTIONS
 11e47bbd700f31bd1ee9f8863381bc9e741c0e97 gpio: sim: set a limit on the number of GPIOs
+0debed5b117d11e33cba52870c4dcb64f5911891 regulator: core: Fix resolve supply lookup issue
 904f309ae7edaadc9fd0ee04be8281d7781d97e4 thermal: intel: Don't set HFI status bit to 1
 fb9f5ee9bf5cf7ebc8731a7033e57d98832dc650 tracing: Do not synchronize freeing of trigger filter on boot up
 3c97d25ceb75fd3e660ba9fcd4c630d0b057a5a2 perf stat: Check existence of os->prefix, fixing a segfault
@@ -677,6 +672,7 @@ f506439ec3dee11e0e77b0a1f3fb3eec22c97873 selftests/bpf: Add a test for using a c
 ba3e77a4a22af018d2fe4d745902b2531ca82aba gfs2: Remove support for glock holder auto-demotion
 6b46a06100dd0e0ebe400573e94ccd09163bfd5b gfs2: Remove support for glock holder auto-demotion (2)
 7e43039a49c2da45edc1d9d7c9ede4003ab45a5f r6040: Fix kmemleak in probe and remove
+cb3543cff90a4448ed560ac86c98033ad5fecda9 regulator: core: fix deadlock on regulator enable
 1eb206208b0f3f707c67134ef6ba394410effb67 block, bfq: only do counting of pending-request for BFQ_GROUP_IOSCHED
 d36a9ea5e7766961e753ee38d4c331bbe6ef659b block: fix use-after-free of q->q_usage_counter
 2cb815cfc78b137ee38bcd65e7c955d6cc2cc250 net: stmmac: fix errno when create_singlethread_workqueue() fails
@@ -1084,4 +1080,4 @@ edb23125fd4a79003012bc619d2c604da922865e Merge tag 'pstore-v6.2-rc1-fixes' of gi
 292a089d78d3e2f7944e60bb897c977785a321e3 treewide: Convert del_timer*() to timer_shutdown*()
 1b929c02afd37871d5afb9d498426f83432e71c2 Linux 6.2-rc1
 
---===============8149508339782208846==--
+--===============1006643856172373392==--
