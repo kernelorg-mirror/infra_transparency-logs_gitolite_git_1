@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2068339702115621001=="
+Content-Type: multipart/mixed; boundary="===============9131380991994629035=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Tue, 27 Dec 2022 11:18:30 -0000
-Message-Id: <167213991062.12011.8455908283225640251@gitolite.kernel.org>
+Date: Tue, 27 Dec 2022 11:18:44 -0000
+Message-Id: <167213992449.12141.11447599910497577175@gitolite.kernel.org>
 
---===============2068339702115621001==
+--===============9131380991994629035==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 user: hansg
 changes:
-  - ref: refs/heads/fixes
-    old: e4678483f9bc400642bbc05c6b75a1b44bcb6c25
+  - ref: refs/heads/for-next
+    old: b0b698b80c56b0712f0d4346d51bf0363ba03068
     new: 1b929c02afd37871d5afb9d498426f83432e71c2
-    log: revlist-e4678483f9bc-1b929c02afd3.txt
+    log: revlist-b0b698b80c56-1b929c02afd3.txt
 
---===============2068339702115621001==
+--===============9131380991994629035==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e4678483f9bc-1b929c02afd3.txt
+Content-Disposition: attachment; filename=revlist-b0b698b80c56-1b929c02afd3.txt
 
 56c56a309e7959c319d3cbd6bd16e598ecd5831c can: gs_usb: remove gs_can::iface
 bd4a52bf9d56abaabc6926f68c3cc3528937a864 Merge patch series "can: usb: remove pointers to struct usb_interface in device's priv structures"
@@ -1051,4 +1051,4 @@ edb23125fd4a79003012bc619d2c604da922865e Merge tag 'pstore-v6.2-rc1-fixes' of gi
 292a089d78d3e2f7944e60bb897c977785a321e3 treewide: Convert del_timer*() to timer_shutdown*()
 1b929c02afd37871d5afb9d498426f83432e71c2 Linux 6.2-rc1
 
---===============2068339702115621001==--
+--===============9131380991994629035==--
