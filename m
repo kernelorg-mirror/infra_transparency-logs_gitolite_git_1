@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1728496989032686030=="
+Content-Type: multipart/mixed; boundary="===============1804546952996694394=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andy/linux-gpio-intel
-Date: Tue, 27 Dec 2022 18:03:37 -0000
-Message-Id: <167216421704.27361.10651887628886023570@gitolite.kernel.org>
+Date: Tue, 27 Dec 2022 18:03:44 -0000
+Message-Id: <167216422430.27473.10116148342199431611@gitolite.kernel.org>
 
---===============1728496989032686030==
+--===============1804546952996694394==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andy/linux-gpio-intel
 user: andy
 changes:
-  - ref: refs/heads/review-andy
-    old: 8d259847243d1e21a866e828c4ce90d759f3d17b
+  - ref: refs/heads/fixes
+    old: 9abf2313adc1ca1b6180c508c25f22f9395cc780
     new: 1b929c02afd37871d5afb9d498426f83432e71c2
-    log: revlist-8d259847243d-1b929c02afd3.txt
+    log: revlist-9abf2313adc1-1b929c02afd3.txt
 
---===============1728496989032686030==
+--===============1804546952996694394==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8d259847243d-1b929c02afd3.txt
+Content-Disposition: attachment; filename=revlist-9abf2313adc1-1b929c02afd3.txt
 
 56c56a309e7959c319d3cbd6bd16e598ecd5831c can: gs_usb: remove gs_can::iface
 bd4a52bf9d56abaabc6926f68c3cc3528937a864 Merge patch series "can: usb: remove pointers to struct usb_interface in device's priv structures"
@@ -1051,4 +1051,4 @@ edb23125fd4a79003012bc619d2c604da922865e Merge tag 'pstore-v6.2-rc1-fixes' of gi
 292a089d78d3e2f7944e60bb897c977785a321e3 treewide: Convert del_timer*() to timer_shutdown*()
 1b929c02afd37871d5afb9d498426f83432e71c2 Linux 6.2-rc1
 
---===============1728496989032686030==--
+--===============1804546952996694394==--
