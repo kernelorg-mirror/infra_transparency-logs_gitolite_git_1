@@ -1,37 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============5246696086674105185=="
+Content-Type: multipart/mixed; boundary="===============9046647532959742426=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/andy/linux-gpio-intel
+Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
 Date: Tue, 27 Dec 2022 18:03:50 -0000
-Message-Id: <167216423016.27572.99188425155318346@gitolite.kernel.org>
+Message-Id: <167216423036.27589.1060997812537335321@gitolite.kernel.org>
 
---===============5246696086674105185==
+--===============9046647532959742426==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/andy/linux-gpio-intel
-user: andy
+repo: pub/scm/linux/kernel/git/conor/linux
+user: conor
 changes:
-  - ref: refs/heads/for-next
-    old: 8d259847243d1e21a866e828c4ce90d759f3d17b
-    new: 1b929c02afd37871d5afb9d498426f83432e71c2
-    log: revlist-8d259847243d-1b929c02afd3.txt
+  - ref: refs/heads/riscv-kconfig_socs
+    old: e85449f9c63782ee01769fb818d48fdcf8da153f
+    new: 3af577f9826fdddefac42b35fc5eb3912c5b7d85
+    log: revlist-e85449f9c637-3af577f9826f.txt
 
---===============5246696086674105185==
+--===============9046647532959742426==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8d259847243d-1b929c02afd3.txt
+Content-Disposition: attachment; filename=revlist-e85449f9c637-3af577f9826f.txt
 
-56c56a309e7959c319d3cbd6bd16e598ecd5831c can: gs_usb: remove gs_can::iface
-bd4a52bf9d56abaabc6926f68c3cc3528937a864 Merge patch series "can: usb: remove pointers to struct usb_interface in device's priv structures"
-eaacfeaca7ad0804b9a6eff7afeba93a87db7638 can: m_can: Call the RAM init directly from m_can_chip_config
-0826e82b8a32e646b7b32ba8b68ba30812028e47 can: raw: add support for SO_MARK
-3abcc01c38bc5d424635df96e0677e2fbec021de dt-bindings: can: renesas,rcar-canfd: Fix number of channels for R-Car V3U
-c1eaf8b9bd3145d029446c927e1c9ce925dfe6a7 can: m_can: Eliminate double read of TXFQS in tx_handler
 57757937974988dc8feb7cf66b17dca72bca813b can: m_can: Avoid reading irqstatus twice
 fac52bf786e5c302990fa79f2fdde24e84f810b0 can: m_can: Read register PSR only on error
 d4535b90a76af49d1dd7bc70ad0311a88ac5313d can: m_can: Count TXE FIFO getidx in the driver
@@ -1050,5 +1044,11 @@ edb23125fd4a79003012bc619d2c604da922865e Merge tag 'pstore-v6.2-rc1-fixes' of gi
 72a85e2b0a1e1e6fb4ee51ae902730212b2de25c Merge tag 'spi-fix-v6.2-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
 292a089d78d3e2f7944e60bb897c977785a321e3 treewide: Convert del_timer*() to timer_shutdown*()
 1b929c02afd37871d5afb9d498426f83432e71c2 Linux 6.2-rc1
+444c3dbdabd468196bd55712863f7e125909008f RISC-V: introduce ARCH_FOO kconfig aliases for SOC_FOO symbols
+fc43211939bb68741d609cd6e7034f01d5d1734b RISC-V: kconfig.socs: convert usage of SOC_CANAAN to ARCH_CANAAN
+19ba9cf70706629709a3304aa977d1dddcfadf43 RISC-V: kbuild: convert all use of SOC_FOO to ARCH_FOO
+b61032557d20d2d1036bfcf833a3c5b4799183ea RISC-V: stop selecting the PolarFire SoC clock driver
+0e6aee5bcc0067d5f8a36cbb2dbd8b2702140481 RISC-V: stop selecting SiFive clock and serial drivers directly
+3af577f9826fdddefac42b35fc5eb3912c5b7d85 RISC-V: stop directly selecting drivers for SOC_CANAAN
 
---===============5246696086674105185==--
+--===============9046647532959742426==--
