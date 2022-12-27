@@ -1,61 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============1006643856172373392=="
+Content-Type: multipart/mixed; boundary="===============5042741668231413720=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Tue, 27 Dec 2022 11:55:56 -0000
-Message-Id: <167214215674.6833.6155533740958922153@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Tue, 27 Dec 2022 11:55:58 -0000
+Message-Id: <167214215886.6896.2579207056775243000@gitolite.kernel.org>
 
---===============1006643856172373392==
+--===============5042741668231413720==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
-user: broonie
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/tip/tip
+user: peterz
 changes:
-  - ref: refs/heads/regulator-6.2
-    old: 8f3cbcd6b440032ebc7f7d48a1689dcc70a4eb98
-    new: 1b929c02afd37871d5afb9d498426f83432e71c2
-    log: revlist-8f3cbcd6b440-1b929c02afd3.txt
-  - ref: refs/heads/regulator-6.3
-    old: 0000000000000000000000000000000000000000
-    new: cfbe9dfd664c7717ef297e01b7eecccc2b5fde6f
+  - ref: refs/heads/perf/core
+    old: 17b8d847b92d815d1638f0de154654081d66b281
+    new: 03c4c7f88709fac0e20b6a48357c73d6fc50e544
+    log: revlist-17b8d847b92d-03c4c7f88709.txt
 
---===============1006643856172373392==
+--===============5042741668231413720==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-17b8d847b92d-03c4c7f88709.txt
 
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1672142154 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1672142154-de0f0894293a775f2307fe8064ab316cfe7eab70
-
-8f3cbcd6b440032ebc7f7d48a1689dcc70a4eb98 1b929c02afd37871d5afb9d498426f83432e71c2 refs/heads/regulator-6.2
-0000000000000000000000000000000000000000 cfbe9dfd664c7717ef297e01b7eecccc2b5fde6f refs/heads/regulator-6.3
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmOq3UoACgkQJNaLcl1U
-h9Bivgf/chhnfCmF0XVnHj3MDpWMfPy3WYjutfS1oD/j/PIG4vn3IZEHG1wUclDU
-h4q4DyPaw/XMQRkcQChZrs1TLlboRQQxUkTLg9Nw1ozLgtp0JwDb/Jx29L2mkphc
-2j6inh4LuHk+bd1cN6iOPSR+A1C2an9fOmJayYi+mTqM1StP7o2mr6BbchF9xBon
-nlQ+AqNK5xTUwI4nq/W7rhYTDMOYUYoIQbgWPEfiiBybA6HV8Vw7ymN08r1bZFo5
-E7g5Yy/SrnJS7pXsMOqIeOsp2Wh7HANOiOdYV/NGQz6Wipiwa/e/LHOc+JlF7Tla
-dlC8wrCBrjD4t/wmE3JImqTWaJD7WA==
-=NXaW
------END PGP SIGNATURE-----
-
---===============1006643856172373392==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8f3cbcd6b440-1b929c02afd3.txt
-
-56c56a309e7959c319d3cbd6bd16e598ecd5831c can: gs_usb: remove gs_can::iface
 bd4a52bf9d56abaabc6926f68c3cc3528937a864 Merge patch series "can: usb: remove pointers to struct usb_interface in device's priv structures"
 eaacfeaca7ad0804b9a6eff7afeba93a87db7638 can: m_can: Call the RAM init directly from m_can_chip_config
 0826e82b8a32e646b7b32ba8b68ba30812028e47 can: raw: add support for SO_MARK
@@ -1079,5 +1049,6 @@ edb23125fd4a79003012bc619d2c604da922865e Merge tag 'pstore-v6.2-rc1-fixes' of gi
 72a85e2b0a1e1e6fb4ee51ae902730212b2de25c Merge tag 'spi-fix-v6.2-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
 292a089d78d3e2f7944e60bb897c977785a321e3 treewide: Convert del_timer*() to timer_shutdown*()
 1b929c02afd37871d5afb9d498426f83432e71c2 Linux 6.2-rc1
+03c4c7f88709fac0e20b6a48357c73d6fc50e544 perf/x86/lbr: Simplify the exposure check for the LBR_INFO registers
 
---===============1006643856172373392==--
+--===============5042741668231413720==--
