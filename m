@@ -1,25 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dlemoal/zonefs
-Date: Tue, 27 Dec 2022 01:30:15 -0000
-Message-Id: <167210461543.1916.5290663874325924807@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Tue, 27 Dec 2022 01:39:47 -0000
+Message-Id: <167210518700.6449.16541169990740746851@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dlemoal/zonefs
-user: dlemoal
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/tags/v6.1
-    old: 0000000000000000000000000000000000000000
-    new: 7614896350aa20764c5eca527262d9eb0a57da63
-  - ref: refs/tags/v6.1-rc7
-    old: 0000000000000000000000000000000000000000
-    new: 1791be4df87a0d69008ba46c5a03be2e4cfbe3d5
-  - ref: refs/tags/v6.1-rc8
-    old: 0000000000000000000000000000000000000000
-    new: 586cbada421761e98ada6f7de24426456352bfd6
-  - ref: refs/tags/v6.2-rc1
-    old: 0000000000000000000000000000000000000000
-    new: e05dec85e78317f251eddd27e0357b2253d9dfc4
+  - ref: refs/heads/arm64-sysreg-helpers
+    old: 87e9157dbcfab81adfc0370aff7300575a71fe50
+    new: 0b5dd7ea9d06c939913caf639955ba2d38562299
+    log: |
+         22f659a443122c1ffde30439b93c7fe930e6ecf3 arm64/sysreg: Initial unsigned annotations for ID registers
+         f1fc05bae2609bb567296386add8bac4985f285c arm64/cpufeature: Always use symbolic name for feature value in hwcaps
+         0b5dd7ea9d06c939913caf639955ba2d38562299 arm64/cpufeature: Use helper macros to specify hwcaps
+         
