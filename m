@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2790756067607862384=="
+Content-Type: multipart/mixed; boundary="===============2428283433834384275=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Tue, 27 Dec 2022 11:46:21 -0000
-Message-Id: <167214158135.31734.12710805373130768581@gitolite.kernel.org>
+Date: Tue, 27 Dec 2022 11:46:35 -0000
+Message-Id: <167214159566.31886.2732785843819462988@gitolite.kernel.org>
 
---===============2790756067607862384==
+--===============2428283433834384275==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,44 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/perf/core
-    old: 17b8d847b92d815d1638f0de154654081d66b281
-    new: 6ee8f536a3cfd153b7063196bae6f006fa15bdf6
-    log: revlist-17b8d847b92d-6ee8f536a3cf.txt
+  - ref: refs/heads/sched/core
+    old: d6962c4fe8f96f7d384d6489b6b5ab5bf3e35991
+    new: d32a315362d7e2387e2d7601eb3f800ab941e7e1
+    log: revlist-d6962c4fe8f9-d32a315362d7.txt
 
---===============2790756067607862384==
+--===============2428283433834384275==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-17b8d847b92d-6ee8f536a3cf.txt
+Content-Disposition: attachment; filename=revlist-d6962c4fe8f9-d32a315362d7.txt
 
-bd4a52bf9d56abaabc6926f68c3cc3528937a864 Merge patch series "can: usb: remove pointers to struct usb_interface in device's priv structures"
-eaacfeaca7ad0804b9a6eff7afeba93a87db7638 can: m_can: Call the RAM init directly from m_can_chip_config
-0826e82b8a32e646b7b32ba8b68ba30812028e47 can: raw: add support for SO_MARK
-3abcc01c38bc5d424635df96e0677e2fbec021de dt-bindings: can: renesas,rcar-canfd: Fix number of channels for R-Car V3U
-c1eaf8b9bd3145d029446c927e1c9ce925dfe6a7 can: m_can: Eliminate double read of TXFQS in tx_handler
-57757937974988dc8feb7cf66b17dca72bca813b can: m_can: Avoid reading irqstatus twice
-fac52bf786e5c302990fa79f2fdde24e84f810b0 can: m_can: Read register PSR only on error
-d4535b90a76af49d1dd7bc70ad0311a88ac5313d can: m_can: Count TXE FIFO getidx in the driver
-6355a3c983e6d6fc998f4223bd2c7ef047e4572b can: m_can: Count read getindex in the driver
-e3bff5256a0f12a1edc8d79bdef53eb83c2f1fbf can: m_can: Batch acknowledge transmit events
-e2f1c8cb020296ddfa255e06b15f071807c2ed73 can: m_can: Batch acknowledge rx fifo
-40c9e4f676abbe194541d88e796341c92d5a13c0 can: tcan4x5x: Remove invalid write in clear_interrupts
-67727a17a6b375d68fe569b77e6516b034b834c0 can: tcan4x5x: Fix use of register error status mask
-ef5778f7084196997e00095c43b12693ef5111d0 can: tcan4x5x: Fix register range of first two blocks
-39dbb21b6a2951a2ce311c93eb09f9ff9b96e7b8 can: tcan4x5x: Specify separate read/write ranges
-47bf2b2393ea1aacdefbe4e9d643599e057bb3a2 Merge patch series "can: m_can: Optimizations for tcan and peripheral chips"
-462e768b55a2331324ff72e74706261134369826 iommu/mediatek: Fix forever loop in error handling
-e3eca2e4f6489ed3143c80ce90bfa7ef7e12ebc7 Merge branches 'arm/allwinner', 'arm/exynos', 'arm/mediatek', 'arm/rockchip', 'arm/smmu', 'ppc/pamu', 's390', 'x86/vt-d', 'x86/amd' and 'core' into next
-22250dbaba99f87574095af894610e9801d74419 regmap: Merge fix for where we get the number of registers from
-b2b509fb5a1e6af1e630a755b32c4658099df70b Merge tag 'linux-can-next-for-6.2-20221212' of git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can-next
-888bc86e7cca29de20223ee46e9b770ced2c038e Merge branch 'acpica'
-45494d77f279d0420f06376dcf105b23e300c5a4 Merge branches 'acpi-scan', 'acpi-bus', 'acpi-tables' and 'acpi-sysfs'
-6f1581810b2960ffb8e2bbcdde89d523555371da Merge branches 'acpi-pm', 'acpi-processor', 'acpi-ec' and 'acpi-video'
-39f26d10120ada8553647d9f61223bda7a22336b Merge branches 'acpi-apei', 'acpi-x86', 'acpi-battery' and 'acpi-pfrut'
-3bc8edc98bd43540dbe648e4ef91f443d6d20a24 nfsd: under NFSv4.1, fix double svc_xprt_put on rpc_create failure
-bee74dcbd3908291f4bfff3c81a52d52dcd48814 Merge branches 'acpi-fan', 'acpi-pcc', 'acpi-misc' and 'pnp'
-3919430fe93bcfad5e34cdbb4d81cd17b3bbd27a Merge branches 'edac-ghes' and 'edac-misc' into edac-updates-for-v6.2
 173c6c5af3277911763e8c737f0178db9a246d69 Merge branch 'pm-cpufreq'
 7680d45a910f775402281253610f039277630d0c Merge branches 'pm-cpuidle', 'pm-sleep' and 'pm-domains'
 c1ac03af6ed45d05786c219d102f37eb44880f28 tracing: Fix infinite loop in tracing_read_pipe on overflowed print_trace_line
@@ -1049,6 +1022,33 @@ edb23125fd4a79003012bc619d2c604da922865e Merge tag 'pstore-v6.2-rc1-fixes' of gi
 72a85e2b0a1e1e6fb4ee51ae902730212b2de25c Merge tag 'spi-fix-v6.2-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
 292a089d78d3e2f7944e60bb897c977785a321e3 treewide: Convert del_timer*() to timer_shutdown*()
 1b929c02afd37871d5afb9d498426f83432e71c2 Linux 6.2-rc1
-6ee8f536a3cfd153b7063196bae6f006fa15bdf6 perf/x86/lbr: Simplify the exposure check for the LBR_INFO registers
+657ed6df26fe5c8f1b57b50ced31e593ab3b6598 sched/topology: Add __init for init_defrootdomain
+8a8831dea88f46aa7d801e838105c3f5775771ca sched: Async unthrottling for cfs bandwidth
+114480b93935b37cd2192120bc7aa9e791fbcc6a selftests/rseq: Fix: Fail thread registration when CONFIG_RSEQ=n
+cc7500cece5cf0b2515ecff06a6ca509e618bfca rseq: Introduce feature size and alignment ELF auxiliary vector entries
+6b5e3fba31cc4b308f984cdd66c9237735af5dc8 rseq: Introduce extensible rseq ABI
+bb45110fd103e534cc9f9aba73cd9c1532af2c41 rseq: Extend struct rseq with numa node id
+7ff384af8fc875964e6e1a680948727be928bd01 selftests/rseq: Use ELF auxiliary vector for extensible rseq
+9af9e24bd786233da63f9dfcb067208fe3e52beb selftests/rseq: Implement rseq numa node id field selftest
+9ffcb84ab8718565efe9d33fcf95b25d0a0fa8e0 sched: Introduce per-memory-map concurrency ID
+81ed76db7adfd2d87343aaf7d8a9034692a4ce34 rseq: Extend struct rseq with per-memory-map concurrency ID
+5af842ce0b1a1f813494d95164f2399a8bc328b3 selftests/rseq: Remove RSEQ_SKIP_FASTPATH code
+d2c790d007fb57680b12dc1c24744163f699966a selftests/rseq: Implement rseq mm_cid field support
+a72032d44f52b6105acc703db1340c7f7c253958 selftests/rseq: x86: Template memory ordering and percpu access mode
+2ca0422f4cc55b1c087955fc2bcd0da39feb9ec4 selftests/rseq: arm: Template memory ordering and percpu access mode
+28fa315fa13341a903b77be069390c55713fcd0a selftests/rseq: arm64: Template memory ordering and percpu access mode
+36f1285a0ac3a0ad69e2fe875fe597ac5d644ce6 selftests/rseq: mips: Template memory ordering and percpu access mode
+8e848e491962474f3c0000418a87f07651af311b selftests/rseq: ppc: Template memory ordering and percpu access mode
+4cae7d5d246d4ba72820bd43d22c0f476f0df1d9 selftests/rseq: s390: Template memory ordering and percpu access mode
+4411d6bbd40e55b5c0a8a44688ddc3513c4e9f05 selftests/rseq: riscv: Template memory ordering and percpu access mode
+c2a61231301187740e5a3aea9c569676497bef6e selftests/rseq: Implement basic percpu ops mm_cid test
+b0d11e2fe1d46dcbc75f36e39f2fff81dc9a94b7 selftests/rseq: Implement parametrized mm_cid test
+e9108ad06a374935a9b80f9589c00adc4a078468 selftests/rseq: parametrized test: Report/abort on negative concurrency ID
+7abd5eecb58f6acc2f6293d44a2ea672e335c7fb tracing/rseq: Add mm_cid field to rseq_update
+de3e9c76128b6eed6cabf699bf3100d6dd2b7430 selftests/rseq: Add mm_numa_cid to test script
+873139d22d6c2425630c441255323c17243dc147 sched: Make const-safe
+1083ce4419fec5909911956021718bc51838337b sched/numa: Stop an exhastive search if an idle core is found
+ac0fe08482056e25d1f6817023b5351d108d728d sched/core: Adjusting the order of scanning CPU
+d32a315362d7e2387e2d7601eb3f800ab941e7e1 cputime: remove cputime_to_nsecs fallback
 
---===============2790756067607862384==--
+--===============2428283433834384275==--
