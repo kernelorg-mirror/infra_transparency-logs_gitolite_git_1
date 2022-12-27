@@ -1,54 +1,44 @@
-Content-Type: multipart/mixed; boundary="===============3839846079999111664=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/git/git
-Date: Tue, 27 Dec 2022 02:23:34 -0000
-Message-Id: <167210781487.4135.2137222190717722054@gitolite.kernel.org>
-
---===============3839846079999111664==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/linux-stable
+Date: Tue, 27 Dec 2022 02:29:06 -0000
+Message-Id: <167210814669.7401.365736427363443041@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/git/git
-user: junio
+repo: pub/scm/linux/kernel/git/sashal/linux-stable
+user: sashal
 changes:
-  - ref: refs/heads/seen
-    old: 8319b4fd6c38a1aa964e19072f1db834bbe8622e
-    new: cbd390203b09a383c4262e93960c12b7d225ad2f
-    log: revlist-8319b4fd6c38-cbd390203b09.txt
-
---===============3839846079999111664==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8319b4fd6c38-cbd390203b09.txt
-
-ff6fa395dc6a8e70357fb5d1b9e1967e09b69ce1 Merge branch 'tl/notes--blankline' into jch
-4285cd4aa689646538552aa71b92a54399b9b0ca Merge branch 'tr/am--no-verify' into jch
-8be5ceecd3290a4da914e15cdc3ee5051cbcbc92 Merge branch 'es/t1509-root-fixes' into jch
-bc30cea5b863483efd99366fc8dddef8bdb8ff52 Merge branch 'jc/spell-id-in-both-caps-in-message-id' into jch
-203bf7049d37f009f71a542ad81c94747f2dd8e0 Merge branch 'cb/grep-fallback-failing-jit' into jch
-4b83fe4bf66a28b5d931f3ca1a5be36d6eeb2556 Merge branch 'ad/test-record-count-when-harness-is-in-use' into jch
-044c4c91a5f91956384ebac8d8489b6c32bcef5d Merge branch 'js/range-diff-mbox' into seen
-5d5cc84f7a6bd3333bbc4a27ed90882d2f4d22ff Merge branch 'po/pretty-hard-trunc' into seen
-1d1365fceeb87ff92d6d910f556e7c015c39e89a Merge branch 'tb/ci-concurrency' into seen
-e86b08d4d40f2632972db00dea2b2112dbe1e700 Merge branch 'mc/switch-advice' into seen
-006d60953a4d907a7d909513fedc89b9408c4c0c Merge branch 'ed/fsmonitor-inotify' into seen
-be38777faf3cde1605fe841370d32dd5935d8754 Merge branch 'ab/tag-object-type-errors' into seen
-7ae3c33bfa35d9abe92797ed88fbad8c7105c280 Merge branch 'ab/config-multi-and-nonbool' into seen
-8ec9540424a03f365c7bffd0a8f1a1dc1e57c626 Merge branch 'jx/t1301-updates' into seen
-aa728659f80eab83a866ed9b892e1c5c028e6ffc Merge branch 'km/send-email-with-v-reroll-count' into seen
-c12f913acacea9407e23ded31657d0db9f508923 Merge branch 'cc/filtered-repack' into seen
-761f32ec876819b532ae21331d3f16234e0556c4 Merge branch 'mc/credential-helper-auth-headers' into seen
-ede26f8e2b3efe0f88e5b378cd9dcab3d6843919 Merge branch 'so/diff-merges-more' into seen
-256eddcdeafba8b6bcc0084207c12baf9f535eb8 Merge branch 'ab/no-more-git-global-super-prefix' into seen
-673f62c00a66b5955b7af48d3795b0a3a541af9c Merge branch 'sk/win32-close-handle-upon-pthread-join' into seen
-27875aeec9859f445f132bd1df745f485aa78826 doc/git-branch: fix --force description typo
-685f65261159d30a2ae787a3f2b319a707865dc7 Merge branch 'km/doc-branch-start-point' into seen
-99566690492d3bf1d8111e2bce24985f876841e8 ###
-cbd390203b09a383c4262e93960c12b7d225ad2f Merge branch 'ja/worktree-orphan' into seen
-
---===============3839846079999111664==--
+  - ref: refs/heads/pending-4.19
+    old: 67306885ec7e6db0660465d888f724478038aee1
+    new: 3854910bf80dbad122020253f302df0f79406dd1
+    log: |
+         8696acfe73d72ef7b7410f3286207f267717b036 ASoC: mediatek: mt8173-rt5650-rt5514: fix refcount leak in mt8173_rt5650_rt5514_dev_probe()
+         6b005144ff8fcaa4ffca514fd105139203fe587c ASoC: rockchip: pdm: Add missing clk_disable_unprepare() in rockchip_pdm_runtime_resume()
+         05d5740ed1900d37f872ab3d183e4c62649851d4 ASoC: wm8994: Fix potential deadlock
+         0e121009be946f44c1572526ef0f2661ce2559ac ASoC: rockchip: spdif: Add missing clk_disable_unprepare() in rk_spdif_runtime_resume()
+         e0d5e87ae577a6fd1ab013091826bbe67b3de308 ASoC: rt5670: Remove unbalanced pm_runtime_put()
+         a33fcf1e50f7ff3afd21defaedccb0bbff1a036e pstore: Switch pmsg_lock to an rt_mutex to avoid priority inversion
+         73755a7d233fcdf2d35ea943bb23f3e761fffbbd perf debug: Set debug_peo_args and redirect_to_stderr variable to correct values in perf_quiet_option()
+         3854910bf80dbad122020253f302df0f79406dd1 pstore: Make sure CONFIG_PSTORE_PMSG selects CONFIG_RT_MUTEXES
+         
+  - ref: refs/heads/pending-5.15
+    old: ad88f2a0e832ce8cca22c471bb908f279ebfdcfd
+    new: db60216119a1dca76828700797b859888c77945b
+    log: |
+         db60216119a1dca76828700797b859888c77945b ima: Simplify ima_lsm_copy_rule
+         
+  - ref: refs/heads/pending-6.0
+    old: 06fc79f71d636504fbe46ecfb47eef4ca5dce8ae
+    new: 2a8793b01cf621b3d370fdbdf448dc63b858cbc8
+    log: |
+         2a8793b01cf621b3d370fdbdf448dc63b858cbc8 ima: Simplify ima_lsm_copy_rule
+         
+  - ref: refs/heads/pending-6.1
+    old: 69184d74eb18f56d705c5fa535b0fc7f850a9cce
+    new: 1fcf58270ffd487ad8531807f4fb68b7395a4fe8
+    log: |
+         1fcf58270ffd487ad8531807f4fb68b7395a4fe8 ima: Simplify ima_lsm_copy_rule
+         
