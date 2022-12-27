@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6908821771526905021=="
+Content-Type: multipart/mixed; boundary="===============5716811707240837399=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
-Date: Tue, 27 Dec 2022 02:57:22 -0000
-Message-Id: <167210984265.26715.2172049146652075076@gitolite.kernel.org>
+Date: Tue, 27 Dec 2022 02:58:02 -0000
+Message-Id: <167210988213.27023.11086966507290902319@gitolite.kernel.org>
 
---===============6908821771526905021==
+--===============5716811707240837399==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,20 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/vireshk/pm
 user: vireshk
 changes:
-  - ref: refs/heads/cpufreq/arm/linux-next
-    old: 8ff150aa6fe252e9b7713cf737c4dc5cbaa263ab
-    new: 01c5bb0cc2a39fbc56ff9a5ef28b79447f0c2351
-    log: revlist-8ff150aa6fe2-01c5bb0cc2a3.txt
+  - ref: refs/heads/opp/linux-next
+    old: dba79b78ecc18f7788fd08eb998388e226817fb5
+    new: 5b2ad5acaf5aa8a1ff441665967cf728a46ac967
+    log: revlist-dba79b78ecc1-5b2ad5acaf5a.txt
 
---===============6908821771526905021==
+--===============5716811707240837399==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8ff150aa6fe2-01c5bb0cc2a3.txt
+Content-Disposition: attachment; filename=revlist-dba79b78ecc1-5b2ad5acaf5a.txt
 
+bd4a52bf9d56abaabc6926f68c3cc3528937a864 Merge patch series "can: usb: remove pointers to struct usb_interface in device's priv structures"
+eaacfeaca7ad0804b9a6eff7afeba93a87db7638 can: m_can: Call the RAM init directly from m_can_chip_config
+0826e82b8a32e646b7b32ba8b68ba30812028e47 can: raw: add support for SO_MARK
 3abcc01c38bc5d424635df96e0677e2fbec021de dt-bindings: can: renesas,rcar-canfd: Fix number of channels for R-Car V3U
 c1eaf8b9bd3145d029446c927e1c9ce925dfe6a7 can: m_can: Eliminate double read of TXFQS in tx_handler
 57757937974988dc8feb7cf66b17dca72bca813b can: m_can: Avoid reading irqstatus twice
@@ -1046,9 +1049,6 @@ edb23125fd4a79003012bc619d2c604da922865e Merge tag 'pstore-v6.2-rc1-fixes' of gi
 72a85e2b0a1e1e6fb4ee51ae902730212b2de25c Merge tag 'spi-fix-v6.2-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
 292a089d78d3e2f7944e60bb897c977785a321e3 treewide: Convert del_timer*() to timer_shutdown*()
 1b929c02afd37871d5afb9d498426f83432e71c2 Linux 6.2-rc1
-83749a2ee548f568ce2037749e19602fdc9f3ee3 cpufreq: apple: remove duplicate intializer
-f5f94b9c8b805d87ff185caf9779c3a4d07819e3 cpufreq: CPPC: Add u64 casts to avoid overflowing
-1a6a8b0080b09bf14a7d45abfe8020bd63306c17 cpufreq: qcom-hw: Fix reading "reg" with address/size-cells != 2
-01c5bb0cc2a39fbc56ff9a5ef28b79447f0c2351 cpufreq: Add Tegra234 to cpufreq-dt-platdev blocklist
+5b2ad5acaf5aa8a1ff441665967cf728a46ac967 dt-bindings: opp: opp-v2-kryo-cpu: Add missing 'cache-unified' property in example
 
---===============6908821771526905021==--
+--===============5716811707240837399==--
