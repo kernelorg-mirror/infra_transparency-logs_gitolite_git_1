@@ -1,30 +1,62 @@
-Content-Type: multipart/mixed; boundary="===============5042741668231413720=="
+Content-Type: multipart/mixed; boundary="===============9103212152848681518=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 27 Dec 2022 11:55:58 -0000
-Message-Id: <167214215886.6896.2579207056775243000@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Tue, 27 Dec 2022 11:56:03 -0000
+Message-Id: <167214216340.7262.15946349839126190687@gitolite.kernel.org>
 
---===============5042741668231413720==
+--===============9103212152848681518==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: peterz
+repo: pub/scm/linux/kernel/git/broonie/spi
+user: broonie
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/perf/core
-    old: 17b8d847b92d815d1638f0de154654081d66b281
-    new: 03c4c7f88709fac0e20b6a48357c73d6fc50e544
-    log: revlist-17b8d847b92d-03c4c7f88709.txt
+  - ref: refs/heads/for-6.2
+    old: 3b553e0041a65e499fa4e25ee146f01f4ec4e617
+    new: e8bb8f19e73a1e855e54788f8673b9b49e46b5cd
+    log: revlist-3b553e0041a6-e8bb8f19e73a.txt
+  - ref: refs/heads/for-6.3
+    old: 1b929c02afd37871d5afb9d498426f83432e71c2
+    new: e5f0dfa78ac77374a3f0817bf427a22f61494246
+    log: |
+         e5f0dfa78ac77374a3f0817bf427a22f61494246 spi: spi-geni-qcom: Add support for SE DMA mode
+         
 
---===============5042741668231413720==
+--===============9103212152848681518==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-17b8d847b92d-03c4c7f88709.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher C3F436CA30F5D8EB 1672142161 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1672142160-48f87051854f5d362e48fd13959852f2900f6d29
+
+3b553e0041a65e499fa4e25ee146f01f4ec4e617 e8bb8f19e73a1e855e54788f8673b9b49e46b5cd refs/heads/for-6.2
+1b929c02afd37871d5afb9d498426f83432e71c2 e5f0dfa78ac77374a3f0817bf427a22f61494246 refs/heads/for-6.3
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmOq3VEACgkQJNaLcl1U
+h9CkYQf/b85ASPfbnNwOmP90wPYi7IjDzLiS2zbI6wJA9zDOb0tgW5Z0pWT6kwsS
+aS/qbQ6VjTUbEE38Non3GKIbd1RooEC2GBhBbQv851WVTroqJ8D/7BM+ASXXGaKa
+oLE0UZYe3JTtr0VOJhQA7aY91vXDnjiqTkg36cBCDDTYB9F81976y0YN+cAQp5a2
+rlK8jfliG10fkGEvwgCg5JpVaa8hlcUhru3HgFWokMZwgUeGLH4jGoKe+6R8lP6c
+bx4LejRlF3OKBpKHvYL1KdckrTST9rZNXM2Qs5pWhy7NxKBjxwpzkrh2kZ3oJ2HF
+iEcHSREEYOoS7j98hSX46RjwqUJZqQ==
+=6uZo
+-----END PGP SIGNATURE-----
+
+--===============9103212152848681518==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-3b553e0041a6-e8bb8f19e73a.txt
 
 bd4a52bf9d56abaabc6926f68c3cc3528937a864 Merge patch series "can: usb: remove pointers to struct usb_interface in device's priv structures"
 eaacfeaca7ad0804b9a6eff7afeba93a87db7638 can: m_can: Call the RAM init directly from m_can_chip_config
@@ -492,7 +524,6 @@ c3a8f85351b15167d6c8d178656df82ba3c34712 perf test: Add mechanism for skipping a
 ee26adf627e65c8e26b13aa35d5de1875973114f perf test: Add mechanism for skipping attr tests on kernel versions
 9440ebdc333dd12e2344aec8fd3fb7d440f9463c perf test arm64: Add attr tests for new VG register
 caec54705adb73b0015bce4dc781e0d19a91ff18 perf build: Fix python/perf.so library's name
-3b553e0041a65e499fa4e25ee146f01f4ec4e617 spi: fsl_spi: Don't change speed while chipselect is active
 f0f4c3adcfe6d93508a7fbe241b115aa5b24fe36 dt-bindings: thermal: tsens: Add sm8450 compatible
 1f455f144fb05e53ae47f84eb109a8021fe168d1 thermal/drivers/imx8mm_thermal: Use GENMASK() when appropriate
 d37edc7370273306d8747097fafa62436c1cfe16 thermal/drivers/imx8mm_thermal: Validate temperature range
@@ -1049,6 +1080,7 @@ edb23125fd4a79003012bc619d2c604da922865e Merge tag 'pstore-v6.2-rc1-fixes' of gi
 72a85e2b0a1e1e6fb4ee51ae902730212b2de25c Merge tag 'spi-fix-v6.2-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
 292a089d78d3e2f7944e60bb897c977785a321e3 treewide: Convert del_timer*() to timer_shutdown*()
 1b929c02afd37871d5afb9d498426f83432e71c2 Linux 6.2-rc1
-03c4c7f88709fac0e20b6a48357c73d6fc50e544 perf/x86/lbr: Simplify the exposure check for the LBR_INFO registers
+b24cded8c065d7cef8690b2c7b82b828cce57708 spi: mediatek: Enable irq before the spi registration
+e8bb8f19e73a1e855e54788f8673b9b49e46b5cd spi: cadence: Fix busy cycles calculation
 
---===============5042741668231413720==--
+--===============9103212152848681518==--
