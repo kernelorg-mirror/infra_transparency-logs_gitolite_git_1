@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Tue, 27 Dec 2022 17:44:39 -0000
-Message-Id: <167216307979.13421.15432156407852941333@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/wireless/iwd
+Date: Tue, 27 Dec 2022 17:46:01 -0000
+Message-Id: <167216316115.16713.12941985637116883367@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
-user: broonie
+repo: pub/scm/network/wireless/iwd
+user: denkenz
 changes:
-  - ref: refs/heads/for-6.2
-    old: 1b929c02afd37871d5afb9d498426f83432e71c2
-    new: 74ad47c9cecf12e647061107d9f3858d82e0e5c5
+  - ref: refs/heads/master
+    old: 9e01563e8c60baf0332bf899300204e103d0b1d2
+    new: 1d4130f41b2ef26b12d117d8e27329e020c25b66
     log: |
-         02228f6aa6a64d588bc31e3267d05ff184d772eb regulator: da9211: Use irq handler when ready
-         74ad47c9cecf12e647061107d9f3858d82e0e5c5 regulator: Merge up forgotten fix
+         28f5297b7884bd1fe3e2a11058cdc0169ac09787 band: add band_chandef_width_to_string
+         1d4130f41b2ef26b12d117d8e27329e020c25b66 wiphy: add wiphy_supports_uapsd
          
