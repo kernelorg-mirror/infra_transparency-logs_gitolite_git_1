@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8636885832326452793=="
+Content-Type: multipart/mixed; boundary="===============2283583953026060565=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/westeri/thunderbolt
-Date: Tue, 27 Dec 2022 08:27:26 -0000
-Message-Id: <167212964602.15511.2884535479030484930@gitolite.kernel.org>
+Date: Tue, 27 Dec 2022 08:28:04 -0000
+Message-Id: <167212968409.15760.9494773721797364556@gitolite.kernel.org>
 
---===============8636885832326452793==
+--===============2283583953026060565==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/westeri/thunderbolt
 user: westeri
 changes:
-  - ref: refs/heads/next
-    old: a5cfc9d65879c0d377f732531a2e80ee3a9eebbc
+  - ref: refs/heads/fixes
+    old: 830b3c68c1fb1e9176028d02ef86f3cf76aa2476
     new: 1b929c02afd37871d5afb9d498426f83432e71c2
-    log: revlist-a5cfc9d65879-1b929c02afd3.txt
+    log: revlist-830b3c68c1fb-1b929c02afd3.txt
 
---===============8636885832326452793==
+--===============2283583953026060565==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a5cfc9d65879-1b929c02afd3.txt
+Content-Disposition: attachment; filename=revlist-830b3c68c1fb-1b929c02afd3.txt
 
 56c56a309e7959c319d3cbd6bd16e598ecd5831c can: gs_usb: remove gs_can::iface
 bd4a52bf9d56abaabc6926f68c3cc3528937a864 Merge patch series "can: usb: remove pointers to struct usb_interface in device's priv structures"
@@ -1051,4 +1051,4 @@ edb23125fd4a79003012bc619d2c604da922865e Merge tag 'pstore-v6.2-rc1-fixes' of gi
 292a089d78d3e2f7944e60bb897c977785a321e3 treewide: Convert del_timer*() to timer_shutdown*()
 1b929c02afd37871d5afb9d498426f83432e71c2 Linux 6.2-rc1
 
---===============8636885832326452793==--
+--===============2283583953026060565==--
