@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2699011845044950011=="
+Content-Type: multipart/mixed; boundary="===============2471652870710342203=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
-Date: Tue, 27 Dec 2022 20:18:19 -0000
-Message-Id: <167217229934.19338.5537703707309046264@gitolite.kernel.org>
+Date: Tue, 27 Dec 2022 20:19:13 -0000
+Message-Id: <167217235336.19689.8032055366530700510@gitolite.kernel.org>
 
---===============2699011845044950011==
+--===============2471652870710342203==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/s390/linux
 user: agordeev
 changes:
-  - ref: refs/heads/features
-    old: bb3860cc02c660b409a1e02521b84b1d7d4e84cd
+  - ref: refs/heads/fixes
+    old: adba1a9b81d5020a9bf8332fee9ff0171fe7623d
     new: 1b929c02afd37871d5afb9d498426f83432e71c2
-    log: revlist-bb3860cc02c6-1b929c02afd3.txt
+    log: revlist-adba1a9b81d5-1b929c02afd3.txt
 
---===============2699011845044950011==
+--===============2471652870710342203==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bb3860cc02c6-1b929c02afd3.txt
+Content-Disposition: attachment; filename=revlist-adba1a9b81d5-1b929c02afd3.txt
 
 56c56a309e7959c319d3cbd6bd16e598ecd5831c can: gs_usb: remove gs_can::iface
 bd4a52bf9d56abaabc6926f68c3cc3528937a864 Merge patch series "can: usb: remove pointers to struct usb_interface in device's priv structures"
@@ -1051,4 +1051,4 @@ edb23125fd4a79003012bc619d2c604da922865e Merge tag 'pstore-v6.2-rc1-fixes' of gi
 292a089d78d3e2f7944e60bb897c977785a321e3 treewide: Convert del_timer*() to timer_shutdown*()
 1b929c02afd37871d5afb9d498426f83432e71c2 Linux 6.2-rc1
 
---===============2699011845044950011==--
+--===============2471652870710342203==--
