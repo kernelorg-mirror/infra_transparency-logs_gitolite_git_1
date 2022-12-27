@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8357504395264048866=="
+Content-Type: multipart/mixed; boundary="===============6753717963850768375=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 27 Dec 2022 11:48:42 -0000
-Message-Id: <167214172233.523.12117315137819408471@gitolite.kernel.org>
+Date: Tue, 27 Dec 2022 11:53:24 -0000
+Message-Id: <167214200415.3694.2383846890978570274@gitolite.kernel.org>
 
---===============8357504395264048866==
+--===============6753717963850768375==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,19 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: peterz
 changes:
-  - ref: refs/heads/perf/urgent
-    old: 517e6a301f34613bff24a8e35b5455884f2d83d8
-    new: 0a041ebca4956292cadfb14a63ace3a9c1dcb0a3
-    log: revlist-517e6a301f34-0a041ebca495.txt
+  - ref: refs/heads/x86/urgent
+    old: 45be2ad007a9c6bea70249c4cf3e4905afe4caeb
+    new: 63dc6325ff41ee9e570bde705ac34a39c5dbeb44
+    log: revlist-45be2ad007a9-63dc6325ff41.txt
 
---===============8357504395264048866==
+--===============6753717963850768375==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-517e6a301f34-0a041ebca495.txt
+Content-Disposition: attachment; filename=revlist-45be2ad007a9-63dc6325ff41.txt
 
+0826e82b8a32e646b7b32ba8b68ba30812028e47 can: raw: add support for SO_MARK
+3abcc01c38bc5d424635df96e0677e2fbec021de dt-bindings: can: renesas,rcar-canfd: Fix number of channels for R-Car V3U
 c1eaf8b9bd3145d029446c927e1c9ce925dfe6a7 can: m_can: Eliminate double read of TXFQS in tx_handler
 57757937974988dc8feb7cf66b17dca72bca813b can: m_can: Avoid reading irqstatus twice
 fac52bf786e5c302990fa79f2fdde24e84f810b0 can: m_can: Read register PSR only on error
@@ -1045,10 +1047,8 @@ edb23125fd4a79003012bc619d2c604da922865e Merge tag 'pstore-v6.2-rc1-fixes' of gi
 72a85e2b0a1e1e6fb4ee51ae902730212b2de25c Merge tag 'spi-fix-v6.2-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
 292a089d78d3e2f7944e60bb897c977785a321e3 treewide: Convert del_timer*() to timer_shutdown*()
 1b929c02afd37871d5afb9d498426f83432e71c2 Linux 6.2-rc1
-e2d371484653ac83b970d3ebcf343383f39f8b6b perf core: Return error pointer if inherit_event() fails to find pmu_ctx
-f841b682baef90ee144df8b12e2c76aa460717c1 perf/core: Fix cgroup events tracking
-08245672cdc6505550d1a5020603b0a8d4a6dcc7 perf/x86/amd: fix potential integer overflow on shift of a int
-a551844e345ba2a1c533dee4b55cb0efddb1bcda perf: Fix use-after-free in error path
-0a041ebca4956292cadfb14a63ace3a9c1dcb0a3 perf/core: Call LSM hook after copying perf_event_attr
+ade8c20847fcc3f4de08b35f730ec04ef29ddbdc x86/calldepth: Fix incorrect init section references
+1993bf97992df2d560287f3c4120eda57426843d x86/kprobes: Fix kprobes instruction boudary check with CONFIG_RETHUNK
+63dc6325ff41ee9e570bde705ac34a39c5dbeb44 x86/kprobes: Fix optprobe optimization check with CONFIG_RETHUNK
 
---===============8357504395264048866==--
+--===============6753717963850768375==--
