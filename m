@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7417135101409035323=="
+Content-Type: multipart/mixed; boundary="===============6303461855370326496=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pateldipen1984/linux
-Date: Tue, 27 Dec 2022 22:09:33 -0000
-Message-Id: <167217897356.26492.7548072500390609781@gitolite.kernel.org>
+Date: Tue, 27 Dec 2022 22:15:19 -0000
+Message-Id: <167217931956.31496.15093264079660653822@gitolite.kernel.org>
 
---===============7417135101409035323==
+--===============6303461855370326496==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/pateldipen1984/linux
 user: pateldipen1984
 changes:
-  - ref: refs/heads/for-next
-    old: 9abf2313adc1ca1b6180c508c25f22f9395cc780
+  - ref: refs/heads/master
+    old: aae703b02f92bde9264366c545e87cec451de471
     new: 1b929c02afd37871d5afb9d498426f83432e71c2
-    log: revlist-9abf2313adc1-1b929c02afd3.txt
+    log: revlist-aae703b02f92-1b929c02afd3.txt
 
---===============7417135101409035323==
+--===============6303461855370326496==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9abf2313adc1-1b929c02afd3.txt
+Content-Disposition: attachment; filename=revlist-aae703b02f92-1b929c02afd3.txt
 
 56c56a309e7959c319d3cbd6bd16e598ecd5831c can: gs_usb: remove gs_can::iface
 bd4a52bf9d56abaabc6926f68c3cc3528937a864 Merge patch series "can: usb: remove pointers to struct usb_interface in device's priv structures"
@@ -1051,4 +1051,4 @@ edb23125fd4a79003012bc619d2c604da922865e Merge tag 'pstore-v6.2-rc1-fixes' of gi
 292a089d78d3e2f7944e60bb897c977785a321e3 treewide: Convert del_timer*() to timer_shutdown*()
 1b929c02afd37871d5afb9d498426f83432e71c2 Linux 6.2-rc1
 
---===============7417135101409035323==--
+--===============6303461855370326496==--
