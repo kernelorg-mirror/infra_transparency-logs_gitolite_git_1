@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4709716791066169328=="
+Content-Type: multipart/mixed; boundary="===============3741399178663410357=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/intel
-Date: Tue, 27 Dec 2022 21:59:22 -0000
-Message-Id: <167217836297.20261.7538000019751420244@gitolite.kernel.org>
+Date: Tue, 27 Dec 2022 21:59:29 -0000
+Message-Id: <167217836902.20374.17920872638670876348@gitolite.kernel.org>
 
---===============4709716791066169328==
+--===============3741399178663410357==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/pinctrl/intel
 user: andy
 changes:
-  - ref: refs/heads/review-andy
+  - ref: refs/heads/for-next
     old: 1b929c02afd37871d5afb9d498426f83432e71c2
     new: d1e6fc11942971563a6611ce13cea91e57dd9e0b
     log: revlist-1b929c02afd3-d1e6fc119429.txt
 
---===============4709716791066169328==
+--===============3741399178663410357==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -59,4 +59,4 @@ e67c74ac1c56b391fc5dd69fffee872cf3664d79 pinctrl: lynxpoint: Convert to use new 
 d509c8a3e35b1a88266fd1aacf64e850534966f8 pinctrl: moorefield: Convert to use new memeber in struct intel_function
 d1e6fc11942971563a6611ce13cea91e57dd9e0b pinctrl: intel: Get rid of unused members in struct intel_function
 
---===============4709716791066169328==--
+--===============3741399178663410357==--
