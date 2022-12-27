@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============3948615321723621504=="
+Content-Type: multipart/mixed; boundary="===============5441794649618208361=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Tue, 27 Dec 2022 00:14:35 -0000
-Message-Id: <167210007551.9823.10082929638905823051@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 27 Dec 2022 00:14:41 -0000
+Message-Id: <167210008140.9946.7069343323823189836@gitolite.kernel.org>
 
---===============3948615321723621504==
+--===============5441794649618208361==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.2
+  - ref: refs/heads/asoc-6.2
     old: 3e78986a840d59dd27e636eae3f52dc11125c835
     new: ce9ef749a2fa9048c1ebacc3194b17a9628512f5
     log: |
@@ -26,28 +26,28 @@ changes:
          ce9ef749a2fa9048c1ebacc3194b17a9628512f5 ASoC: SOF: Fixes for suspend after firmware crash
          
 
---===============3948615321723621504==
+--===============5441794649618208361==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1672100074 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1672100073-d3e53133e5edd0400941e07abb562d30dbb6b2ef
+pusher C3F436CA30F5D8EB 1672100079 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1672100079-272f2aad68a98b6998b4d20fe4b45080af658334
 
-3e78986a840d59dd27e636eae3f52dc11125c835 ce9ef749a2fa9048c1ebacc3194b17a9628512f5 refs/heads/for-6.2
+3e78986a840d59dd27e636eae3f52dc11125c835 ce9ef749a2fa9048c1ebacc3194b17a9628512f5 refs/heads/asoc-6.2
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmOqOOoACgkQJNaLcl1U
-h9CcEQf+IvFDsc484eLNf4Xvh5nGDUmjuvvRqb31zHpcuqqB6uldJ53v1ybUvj58
-7q47Cl8Br9KlMFJg1ni4/Fa+11c0z0BMiLdo2Oe9/+eW5URlOTc5z+a8YOR/70kE
-6by2Xf6rMc7jlYTiEdlRFsPWgUXJmIg6zPaeIKmVUU3k9TzTfy6CVkIlbOB5DXhB
-4HgD9Ff/mWhPdQ0hNAsiQ1LfkdpWDvT3DpQZuyWKyK7NywO1yuo2XFuNZ08Y/8s/
-CxGrJyXlaHlsqKiULcn4NOdKUQ3E9rEdTon1vXcaMKGAGdpK0+TrZwJ9DS9MqyqA
-J1QU+b0F8NTPwglnJFk34F2Dky4EMg==
-=J1wY
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmOqOO8ACgkQJNaLcl1U
+h9BZSgf/Sr4kEWpB+Q+Q9DFUhtlhoWgTQkx+XxxDQ1Q0f4WUPkesOFxTHUe2aNLA
+LG6gj9ugeRImWicLuW1ixtb1okgZ1fFlygcTjQuZd1bqadG+hcUxwzsbnvRbLwL7
+QWQoR3Pa3lOqt/TCcSvc2nLkVtkbluv9a/Y+5VZstfOSfuiixdUKOzCFLazzbDuL
+FKeXKbnzbogefpIUU+KjOMmSzdMY2lBehvoN9+qs+1jyAroad0r6WLvGOd/zhD+L
+izZEjie9MMF+tuJ6tDRFcDStoSuWrTg76zgjr5HmbuFMT/T1dMxmYe+mkv3gwoOl
+EgKktlAJBeVJYJVGk+Pi3Kuxoa9C2Q==
+=p37k
 -----END PGP SIGNATURE-----
 
---===============3948615321723621504==--
+--===============5441794649618208361==--
