@@ -1,64 +1,60 @@
-Content-Type: multipart/mixed; boundary="===============9103212152848681518=="
+Content-Type: multipart/mixed; boundary="===============2508743876460692783=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Tue, 27 Dec 2022 11:56:03 -0000
-Message-Id: <167214216340.7262.15946349839126190687@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 27 Dec 2022 11:56:09 -0000
+Message-Id: <167214216976.7397.13442760340415545215@gitolite.kernel.org>
 
---===============9103212152848681518==
+--===============2508743876460692783==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.2
-    old: 3b553e0041a65e499fa4e25ee146f01f4ec4e617
+  - ref: refs/heads/spi-6.2
+    old: 3cf241c3d56ff19f5192cb42a025bc6582b6e8fa
     new: e8bb8f19e73a1e855e54788f8673b9b49e46b5cd
-    log: revlist-3b553e0041a6-e8bb8f19e73a.txt
-  - ref: refs/heads/for-6.3
-    old: 1b929c02afd37871d5afb9d498426f83432e71c2
+    log: revlist-3cf241c3d56f-e8bb8f19e73a.txt
+  - ref: refs/heads/spi-6.3
+    old: 0000000000000000000000000000000000000000
     new: e5f0dfa78ac77374a3f0817bf427a22f61494246
-    log: |
-         e5f0dfa78ac77374a3f0817bf427a22f61494246 spi: spi-geni-qcom: Add support for SE DMA mode
-         
 
---===============9103212152848681518==
+--===============2508743876460692783==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1672142161 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1672142160-48f87051854f5d362e48fd13959852f2900f6d29
+pusher C3F436CA30F5D8EB 1672142167 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1672142167-bd500d10bfb22c82e49e6979092100159d1ecf8d
 
-3b553e0041a65e499fa4e25ee146f01f4ec4e617 e8bb8f19e73a1e855e54788f8673b9b49e46b5cd refs/heads/for-6.2
-1b929c02afd37871d5afb9d498426f83432e71c2 e5f0dfa78ac77374a3f0817bf427a22f61494246 refs/heads/for-6.3
+3cf241c3d56ff19f5192cb42a025bc6582b6e8fa e8bb8f19e73a1e855e54788f8673b9b49e46b5cd refs/heads/spi-6.2
+0000000000000000000000000000000000000000 e5f0dfa78ac77374a3f0817bf427a22f61494246 refs/heads/spi-6.3
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmOq3VEACgkQJNaLcl1U
-h9CkYQf/b85ASPfbnNwOmP90wPYi7IjDzLiS2zbI6wJA9zDOb0tgW5Z0pWT6kwsS
-aS/qbQ6VjTUbEE38Non3GKIbd1RooEC2GBhBbQv851WVTroqJ8D/7BM+ASXXGaKa
-oLE0UZYe3JTtr0VOJhQA7aY91vXDnjiqTkg36cBCDDTYB9F81976y0YN+cAQp5a2
-rlK8jfliG10fkGEvwgCg5JpVaa8hlcUhru3HgFWokMZwgUeGLH4jGoKe+6R8lP6c
-bx4LejRlF3OKBpKHvYL1KdckrTST9rZNXM2Qs5pWhy7NxKBjxwpzkrh2kZ3oJ2HF
-iEcHSREEYOoS7j98hSX46RjwqUJZqQ==
-=6uZo
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmOq3VcACgkQJNaLcl1U
+h9AgMAf/dNUttaHkGTYP6I4jZZK6F5ForGwKYAiY6N7hTi6rfiYeGbD1VPrPcHPd
+pYqOU71awcNz27zqzou9RwJ6rjfAQy/DHx9o0OoQy7STsrnAYxfmXDfXw7O1DooU
+/9CsTloBU4zLR6Ax+5m7VkW/Ekrom75QfeOfLJJ8EH7yOeR1cMhEVTpGb/PfCmnq
+bwCCUqbLYrUmd2qII6dbfTVLijxEsUHE0Gd3XQY4HU6oG5a1NaXOiuFPhYrNO4qv
+qX96Szj2U8UB3TwpVjrXLVfIys3WUM25hAg6hoiS/38sLo3GZyAITfg3ilWtrSkZ
+R6QHCgkX70AF+jjj3JZfEGKQMo2hZA==
+=gxx+
 -----END PGP SIGNATURE-----
 
---===============9103212152848681518==
+--===============2508743876460692783==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3b553e0041a6-e8bb8f19e73a.txt
+Content-Disposition: attachment; filename=revlist-3cf241c3d56f-e8bb8f19e73a.txt
 
-bd4a52bf9d56abaabc6926f68c3cc3528937a864 Merge patch series "can: usb: remove pointers to struct usb_interface in device's priv structures"
 eaacfeaca7ad0804b9a6eff7afeba93a87db7638 can: m_can: Call the RAM init directly from m_can_chip_config
 0826e82b8a32e646b7b32ba8b68ba30812028e47 can: raw: add support for SO_MARK
 3abcc01c38bc5d424635df96e0677e2fbec021de dt-bindings: can: renesas,rcar-canfd: Fix number of channels for R-Car V3U
@@ -524,6 +520,7 @@ c3a8f85351b15167d6c8d178656df82ba3c34712 perf test: Add mechanism for skipping a
 ee26adf627e65c8e26b13aa35d5de1875973114f perf test: Add mechanism for skipping attr tests on kernel versions
 9440ebdc333dd12e2344aec8fd3fb7d440f9463c perf test arm64: Add attr tests for new VG register
 caec54705adb73b0015bce4dc781e0d19a91ff18 perf build: Fix python/perf.so library's name
+3b553e0041a65e499fa4e25ee146f01f4ec4e617 spi: fsl_spi: Don't change speed while chipselect is active
 f0f4c3adcfe6d93508a7fbe241b115aa5b24fe36 dt-bindings: thermal: tsens: Add sm8450 compatible
 1f455f144fb05e53ae47f84eb109a8021fe168d1 thermal/drivers/imx8mm_thermal: Use GENMASK() when appropriate
 d37edc7370273306d8747097fafa62436c1cfe16 thermal/drivers/imx8mm_thermal: Validate temperature range
@@ -1083,4 +1080,4 @@ edb23125fd4a79003012bc619d2c604da922865e Merge tag 'pstore-v6.2-rc1-fixes' of gi
 b24cded8c065d7cef8690b2c7b82b828cce57708 spi: mediatek: Enable irq before the spi registration
 e8bb8f19e73a1e855e54788f8673b9b49e46b5cd spi: cadence: Fix busy cycles calculation
 
---===============9103212152848681518==--
+--===============2508743876460692783==--
