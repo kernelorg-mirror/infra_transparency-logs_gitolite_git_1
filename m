@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7451702738623559372=="
+Content-Type: multipart/mixed; boundary="===============8932420274163624336=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
-Date: Tue, 27 Dec 2022 17:42:29 -0000
-Message-Id: <167216294941.12613.7068358458880222370@gitolite.kernel.org>
+Date: Tue, 27 Dec 2022 17:42:31 -0000
+Message-Id: <167216295173.12688.8208224799623632005@gitolite.kernel.org>
 
---===============7451702738623559372==
+--===============8932420274163624336==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,18 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/qcom/linux
 user: andersson
 changes:
-  - ref: refs/heads/arm64-fixes-for-6.2
-    old: f446022b932aff1d6a308ca5d537ec2b512debdc
-    new: 721c0d68c0f882b6358102b52961ff6eb601839c
-    log: revlist-f446022b932a-721c0d68c0f8.txt
+  - ref: refs/heads/for-next
+    old: 7608329e874c91984535b76100e75bf3a61bc364
+    new: 4760aa568fb2456c71d9a599df5faddc949c1785
+    log: revlist-7608329e874c-4760aa568fb2.txt
 
---===============7451702738623559372==
+--===============8932420274163624336==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f446022b932a-721c0d68c0f8.txt
+Content-Disposition: attachment; filename=revlist-7608329e874c-4760aa568fb2.txt
 
-eaacfeaca7ad0804b9a6eff7afeba93a87db7638 can: m_can: Call the RAM init directly from m_can_chip_config
 0826e82b8a32e646b7b32ba8b68ba30812028e47 can: raw: add support for SO_MARK
 3abcc01c38bc5d424635df96e0677e2fbec021de dt-bindings: can: renesas,rcar-canfd: Fix number of channels for R-Car V3U
 c1eaf8b9bd3145d029446c927e1c9ce925dfe6a7 can: m_can: Eliminate double read of TXFQS in tx_handler
@@ -1050,5 +1049,6 @@ edb23125fd4a79003012bc619d2c604da922865e Merge tag 'pstore-v6.2-rc1-fixes' of gi
 1b929c02afd37871d5afb9d498426f83432e71c2 Linux 6.2-rc1
 ee4e530bdde29a69c58656a919545251a782674e arm64: dts: qcom: sc8280xp: fix primary USB-DP PHY reset
 721c0d68c0f882b6358102b52961ff6eb601839c arm64: dts: qcom: sc8280xp: fix USB-DP PHY nodes
+4760aa568fb2456c71d9a599df5faddc949c1785 Merge branch 'arm64-fixes-for-6.2' into for-next
 
---===============7451702738623559372==--
+--===============8932420274163624336==--
