@@ -1,47 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============4653180674407952378=="
+Content-Type: multipart/mixed; boundary="===============9031874646446618218=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
-Date: Wed, 28 Dec 2022 18:13:20 -0000
-Message-Id: <167225120077.27944.12200839788712126857@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/remoteproc/linux
+Date: Wed, 28 Dec 2022 18:18:24 -0000
+Message-Id: <167225150447.32427.2594861019605209172@gitolite.kernel.org>
 
---===============4653180674407952378==
+--===============9031874646446618218==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/qcom/linux
+repo: pub/scm/linux/kernel/git/remoteproc/linux
 user: andersson
 changes:
-  - ref: refs/heads/for-next
-    old: ac5de4d6144f7e2a8a7baa0e817f3f900631950b
-    new: 10ac37add608855226686f0b28bf08a9399f3e5f
-    log: revlist-ac5de4d6144f-10ac37add608.txt
+  - ref: refs/heads/hwspinlock-next
+    old: 1b929c02afd37871d5afb9d498426f83432e71c2
+    new: ec5c05e5ac8bcb4a6bcd92970e15494a85400d34
+    log: |
+         ec5c05e5ac8bcb4a6bcd92970e15494a85400d34 hwspinlock: Use device_match_of_node()
+         
+  - ref: refs/heads/rpmsg-next
+    old: 1135e93682db5f66909f4785b1bfbd798955b2b1
+    new: c23965b7f7d99bbb2604f1f02aa26fb6d1d5864d
+    log: |
+         d2ff0f84c1156dfd3646a4ca682b38413b409aa0 rpmsg: move from strlcpy with unused retval to strscpy
+         17b88a2050e9d1f89a53562f2adb709a8959e763 rpmsg: char: Add lock to avoid race when rpmsg device is released
+         c23965b7f7d99bbb2604f1f02aa26fb6d1d5864d rpmsg: ctrl: Add lock to rpmsg_ctrldev_remove
+         
+  - ref: refs/heads/rproc-next
+    old: 569d3a7580bcbc463920b0d84ca5caf23e808f90
+    new: cf5865e72236c239317d6c5829ab170419b400a4
+    log: revlist-569d3a7580bc-cf5865e72236.txt
 
---===============4653180674407952378==
+--===============9031874646446618218==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ac5de4d6144f-10ac37add608.txt
+Content-Disposition: attachment; filename=revlist-569d3a7580bc-cf5865e72236.txt
 
-0154252a3b87f77db1e44516d1ed2e82e2d29c30 ARM: dts: qcom: apq8084-ifc6540: fix overriding SDHCI
-861b67fbdccd62a9319d7350b1924d95f597db09 arm64: dts: qcom: sdm670-google-sargo: keep pm660 ldo8 on
-a5ac24ba17590866cf1ff8fe44cd2738c003d52f arm64: dts: qcom: sm8450: add RPMH_REGULATOR_LEVEL_LOW_SVS_D1
-a6dd1206e45a43d7e6c46435437307b051471b69 arm64: dts: qcom: sm8450: add display hardware devices
-928a7b4269634369b152342a37b2809d18774726 arm64: dts: qcom: sm8450-hdk: enable display hardware
-0cbe8e1953e083f8435bdb5548c3ba59acfcb97e arm64: dts: qcom: sm8450-hdk: Add LT9611uxc HDMI bridge
-0f48b65f716b4fa806fa864ea7f750113f4bd7c9 arm64: dts: qcom: sm8450-hdk: Enable HDMI Display
-c34bef62a0096d1db309db8ffd165a1a6f01f227 arm64: dts: qcom: sm8150: Enable split pagetables for Adreno SMMU
-417091dc60ba0a991c0e6aa77c1eeb2cfcf0a3d4 dt-bindings: soc: qcom,dcc: Add the dtschema
-d4b94c8244919742417c3a165ef73081de37ef3b arm64: dts: qcom: sm8150: Add Data Capture and Compare(DCC) support node
-029d6586dc2d1d10e9df3962633e29e145d764ec arm64: dts: qcom: sc7280: Add Data Capture and Compare(DCC) support node
-add74cad7c9d1bf59d41b229852f3ebe0be4a84f arm64: dts: qcom: sc7180: Add Data Capture and Compare(DCC) support node
-91269c425649baad9758dbe269e7069ad7fa05fc arm64: dts: qcom: sdm845: Add Data Capture and Compare(DCC) support node
-4cbe60cf5ad622f7f45ccc4fa369c9f7a71903b9 soc: qcom: dcc: Add driver support for Data Capture and Compare unit(DCC)
-9732dd8d347851cb9c2fdabd35046ba0c470543e MAINTAINERS: Add the entry for DCC(Data Capture and Compare) driver support
-40ebfbec52108be22cb68ecb9dcbd4917583a87c soc: qcom: ramp_controller: Include linux/bitfield.h
-10ac37add608855226686f0b28bf08a9399f3e5f Merge branches 'arm64-fixes-for-6.2', 'arm64-for-6.3', 'clk-for-6.3', 'drivers-for-6.3', 'dts-fixes-for-6.2' and 'dts-for-6.3' into for-next
+6d967a5a49e8d08d8e4430aadba8d3c903b794a5 remoteproc: qcom: q6v5: Use _clk_get_optional for aggre2_clk
+1b0f00d3b1fc25525e1fcd8c5845e362f5688849 remoteproc: move from strlcpy with unused retval to strscpy
+b27aa4d87809b3d7ac5b792dd059108283044e3b remoteproc: qcom: wcnss: remove unused qcom_iris_driver declaration
+3cc889eb83f59b5a6a869a685da11f79ffbb4e4d remoteproc: qcom: q6v5: Avoid setting smem bit in case of crash shutdown
+8490a99586abd480d7139893f78c019790a58979 dt-bindings: remoteproc: qcom: Add SC7280 ADSP support
+272dca8d14c46d03c633756d150b1c48c1dcb594 remoteproc: qcom: Add flag in adsp private data structure
+66cab0c5c3f9dae0213b9d02af03791b75565986 remoteproc: qcom: Add compatible name for SC7280 ADSP
+48ab209c6f5f84a5adcd68e150dc0f614c8bfba7 remoteproc: qcom: Update rproc parse firmware callback
+c36d6aa67932788ec04820ba65693ccd41b1042f remoteproc: qcom: Replace hard coded values with macros
+9ece961916631aab81b9d9f8d9c2770d05548662 remoteproc: qcom: Add efuse evb selection control
+f22eedff28aff912bde7f8deabebd121cb64fae3 remoteproc: qcom: Add support for memory sandbox
+1cfaa13b82c73977e8ddaca63c791203addc39c1 remoteproc: qcom: pas: Add MSM8953 ADSP PIL support
+4a0510a46c4447ad3e807a1e4d6cf195fd604c1d dt-bindings: remoteproc: qcom: adsp: Add ADSP on MSM8953
+cf5865e72236c239317d6c5829ab170419b400a4 remoteproc: qcom: pas: Fix subdevice add order
 
---===============4653180674407952378==--
+--===============9031874646446618218==--
