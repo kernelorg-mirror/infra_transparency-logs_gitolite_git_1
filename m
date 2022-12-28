@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0003325545146660073=="
+Content-Type: multipart/mixed; boundary="===============1669857808413671993=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Wed, 28 Dec 2022 15:32:00 -0000
-Message-Id: <167224152036.20137.11032021263929246933@gitolite.kernel.org>
+Date: Wed, 28 Dec 2022 15:32:22 -0000
+Message-Id: <167224154277.20296.9346122646379829088@gitolite.kernel.org>
 
---===============0003325545146660073==
+--===============1669857808413671993==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/groeck/linux-staging
 user: groeck
 changes:
-  - ref: refs/heads/hwmon
-    old: 76dcd734eca23168cb008912c0f69ff408905235
+  - ref: refs/heads/hwmon-next
+    old: 364ffd2537c44cb6914ff5669153f4a86fffad29
     new: 1b929c02afd37871d5afb9d498426f83432e71c2
-    log: revlist-76dcd734eca2-1b929c02afd3.txt
+    log: revlist-364ffd2537c4-1b929c02afd3.txt
 
---===============0003325545146660073==
+--===============1669857808413671993==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-76dcd734eca2-1b929c02afd3.txt
+Content-Disposition: attachment; filename=revlist-364ffd2537c4-1b929c02afd3.txt
 
 56c56a309e7959c319d3cbd6bd16e598ecd5831c can: gs_usb: remove gs_can::iface
 bd4a52bf9d56abaabc6926f68c3cc3528937a864 Merge patch series "can: usb: remove pointers to struct usb_interface in device's priv structures"
@@ -1051,4 +1051,4 @@ edb23125fd4a79003012bc619d2c604da922865e Merge tag 'pstore-v6.2-rc1-fixes' of gi
 292a089d78d3e2f7944e60bb897c977785a321e3 treewide: Convert del_timer*() to timer_shutdown*()
 1b929c02afd37871d5afb9d498426f83432e71c2 Linux 6.2-rc1
 
---===============0003325545146660073==--
+--===============1669857808413671993==--
