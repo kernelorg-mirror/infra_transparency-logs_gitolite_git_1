@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4181978735014835557=="
+Content-Type: multipart/mixed; boundary="===============1161913894646167598=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
-Date: Wed, 28 Dec 2022 04:36:45 -0000
-Message-Id: <167220220527.26021.3146534318733420584@gitolite.kernel.org>
+Date: Wed, 28 Dec 2022 04:36:46 -0000
+Message-Id: <167220220683.26082.3276536401338749556@gitolite.kernel.org>
 
---===============4181978735014835557==
+--===============1161913894646167598==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,42 +15,25 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/qcom/linux
 user: andersson
 changes:
-  - ref: refs/heads/arm64-fixes-for-6.2
-    old: 721c0d68c0f882b6358102b52961ff6eb601839c
-    new: 22c7e1a0fa45cd7d028d6b4117161fd0e3427fe0
-    log: |
-         22c7e1a0fa45cd7d028d6b4117161fd0e3427fe0 arm64: dts: msm8992-bullhead: add memory hole region
-         
-  - ref: refs/heads/arm64-for-6.3
-    old: 7c679f2a2af84edbec0c28171af8c42c6da9af14
-    new: 5e4cab734c26ec46fd847bedd31a0df83d853b04
-    log: revlist-7c679f2a2af8-5e4cab734c26.txt
-  - ref: refs/heads/clk-for-6.3
-    old: 230d4d815d5a66ba3add80a4c0d4172915df8aaa
-    new: 85d4e6ea082d3905f3ede470ac337fddc2d47650
-    log: |
-         85d4e6ea082d3905f3ede470ac337fddc2d47650 clk: qcom: gcc-sm6115: Use floor_ops for SDCC1/2 core clk
-         
-  - ref: refs/heads/dts-for-6.3
-    old: 3ddba3c2268c9539459008291ed816b46aa61e2f
-    new: 7b8847e9d56f5e397b37df63f271f3166a09f3a8
-    log: |
-         a0145c557d94b3bac7c5a4545f90cfe940a226cd ARM: dts: msm8974: castor: Define pm8841 regulators
-         6d933c0ec1718a08b44689da0f79ac1d905db7dd ARM: dts: qcom: msm8974-*: re-add remoteproc supplies
-         73bf63a6300b2fec48b54fe41d1c6d964fb2f33b ARM: dts: qcom: msm8974-castor: Fix touchscreen init
-         a28146b51a299897090f071ea26071a5ab39d233 ARM: dts: qcom: msm8974-castor: Enable charging over USB
-         17c073500e9060281a115e34b00424d486be9450 dt-bindings: qcom: Document msm8916-acer-a1-724
-         0fbf49b3eac98495c1c75ea16019e5613cda109b arm64: dts: qcom: msm8916-acer-a1-724: Add initial device tree
-         85e0a0f8bfa42dc05b7d89798df6fbc2c13147a6 arm64: dts: qcom: msm8916-acer-a1-724: Add accelerometer/magnetometer
-         7b8847e9d56f5e397b37df63f271f3166a09f3a8 arm64: dts: qcom: msm8916-acer-a1-724: Add touchscreen
-         
+  - ref: refs/heads/for-next
+    old: 68e72e24a1d9b02e35c15ff5bf900d042f3bb16a
+    new: ac5de4d6144f7e2a8a7baa0e817f3f900631950b
+    log: revlist-68e72e24a1d9-ac5de4d6144f.txt
 
---===============4181978735014835557==
+--===============1161913894646167598==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7c679f2a2af8-5e4cab734c26.txt
+Content-Disposition: attachment; filename=revlist-68e72e24a1d9-ac5de4d6144f.txt
 
+a0145c557d94b3bac7c5a4545f90cfe940a226cd ARM: dts: msm8974: castor: Define pm8841 regulators
+6d933c0ec1718a08b44689da0f79ac1d905db7dd ARM: dts: qcom: msm8974-*: re-add remoteproc supplies
+73bf63a6300b2fec48b54fe41d1c6d964fb2f33b ARM: dts: qcom: msm8974-castor: Fix touchscreen init
+a28146b51a299897090f071ea26071a5ab39d233 ARM: dts: qcom: msm8974-castor: Enable charging over USB
+17c073500e9060281a115e34b00424d486be9450 dt-bindings: qcom: Document msm8916-acer-a1-724
+0fbf49b3eac98495c1c75ea16019e5613cda109b arm64: dts: qcom: msm8916-acer-a1-724: Add initial device tree
+85e0a0f8bfa42dc05b7d89798df6fbc2c13147a6 arm64: dts: qcom: msm8916-acer-a1-724: Add accelerometer/magnetometer
+7b8847e9d56f5e397b37df63f271f3166a09f3a8 arm64: dts: qcom: msm8916-acer-a1-724: Add touchscreen
 e73defb2deee74f3f4988196bf0c21782dffa415 arm64: dts: qcom: sc8280xp: add gpr node
 c18773d162a63f65024e80ae355e3fbc923e7255 arm64: dts: qcom: sc8280xp: add SoundWire and LPASS
 f29077d8665221ba2802a29ee7bd9fcef66cde81 arm64: dts: qcom: sc8280xp-x13s: Add soundcard support
@@ -65,6 +48,7 @@ ad9514be8ddb9d3a8c262aa415c2f1c1f4cc97f9 arm64: dts: qcom: sm6115: Provide xo cl
 0f1619aa22cd78a47522008e9b83524eae6bb922 arm64: dts: qcom: sm6115: Provide real SMD RPM XO to SDC1/2
 92ad27fb925943d62deaaa659931ce85ddec99c8 dt-bindings: arm: qcom: Add SM6115(P) and Lenovo Tab P11
 67e75cfea375b5eca42a8d41b927fa195e723fe6 arm64: dts: qcom: Add Lenovo Tab P11 (J606F/XiaoXin Pad) dts
+85d4e6ea082d3905f3ede470ac337fddc2d47650 clk: qcom: gcc-sm6115: Use floor_ops for SDCC1/2 core clk
 53cb681199f4d8454335742f0c84b36ddc7483ed arm64: dts: qcom: sm6115: Add thermal zones
 e48b2f1fb1749e6ceeca13ac80e6e46b954dce41 arm64: dts: qcom: pm6150l: add spmi-flash-led node
 1c170714490e4d8c0886019145c9d90dfade14f9 arm64: dts: qcom: sm7225-fairphone-fp4: configure flash LED
@@ -87,6 +71,7 @@ b860ba9e42538f2a490925121071c215c23d1863 arm64: dts: qcom: msm8996-tone: Enable 
 6cef82a8a7d9cbfacc94914791fbbe526709aa43 arm64: dts: qcom: sm8150-kumano: Add NXP PN553 NFC
 632a35e24fefa24f79a97310e8c4642e33919204 arm64: dts: qcom: sm8150-kumano: Configure resin as volume up key
 67fb53745e0b38275fa0b422b6a3c6c1c028c9a2 arm64: dts: qcom: msm8996: Add additional A2NoC clocks
+22c7e1a0fa45cd7d028d6b4117161fd0e3427fe0 arm64: dts: msm8992-bullhead: add memory hole region
 0431dba3733bf52dacf7382e7b0c1b4c0b59e88d arm64: dts: qcom: ipq6018: Use lowercase hex
 21dd43fda18a21ddcc7567bbadc831c179e98c67 arm64: dts: qcom: msm8996: Use lowercase hex
 d6882340d019607ceabbf2f20f81bc376c4deff5 arm64: dts: qcom: msm8998: Use lowercase hex
@@ -97,5 +82,6 @@ d6882340d019607ceabbf2f20f81bc376c4deff5 arm64: dts: qcom: msm8998: Use lowercas
 51f748c62358cf878feb2b9177017b67f3f6c9bc arm64: dts: qcom: sm8150: Use lowercase hex
 20e954411c9e59b61eacd1822a0aa0e4676a43f7 arm64: dts: qcom: sdm845: Fix some whitespace/newlines
 5e4cab734c26ec46fd847bedd31a0df83d853b04 arm64: dts: qcom: sc8280xp-x13s: move 'thermal-zones' node
+ac5de4d6144f7e2a8a7baa0e817f3f900631950b Merge branches 'arm64-fixes-for-6.2', 'arm64-for-6.3', 'clk-for-6.3', 'drivers-for-6.3' and 'dts-for-6.3' into for-next
 
---===============4181978735014835557==--
+--===============1161913894646167598==--
