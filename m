@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3152473885750099817=="
+Content-Type: multipart/mixed; boundary="===============8460059536369149958=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
-Date: Wed, 28 Dec 2022 19:04:18 -0000
-Message-Id: <167225425880.28746.6775799560049758499@gitolite.kernel.org>
+Date: Wed, 28 Dec 2022 19:04:20 -0000
+Message-Id: <167225426035.28804.8633984035766232195@gitolite.kernel.org>
 
---===============3152473885750099817==
+--===============8460059536369149958==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,30 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/qcom/linux
 user: andersson
 changes:
-  - ref: refs/heads/arm64-fixes-for-6.2
-    old: 22c7e1a0fa45cd7d028d6b4117161fd0e3427fe0
-    new: 6c82b94d583a116faf99858379ee34844df963a1
-    log: |
-         6c82b94d583a116faf99858379ee34844df963a1 Revert "arm64: dts: qcom: sm8250: Disable the not yet supported cluster idle state"
-         
-  - ref: refs/heads/clk-for-6.3
-    old: 85d4e6ea082d3905f3ede470ac337fddc2d47650
-    new: 80f5451d9a7c20d8c09f44f4eb1083fd861d7a46
-    log: revlist-85d4e6ea082d-80f5451d9a7c.txt
-  - ref: refs/heads/dts-for-6.3
-    old: 7b8847e9d56f5e397b37df63f271f3166a09f3a8
-    new: c8d4a609162e0cf179a99e283a8a621e4c140bec
-    log: |
-         60446dc63f5d0be7a5e691caa239417ead885cf0 ARM: dts: qcom: msm8974: add second DSI host and PHY
-         cd1dc49ad4cc773d96092dd871703b165dca2a87 ARM: dts: qcom: msm8974: add clocks and clock-names to gcc device
-         c8d4a609162e0cf179a99e283a8a621e4c140bec ARM: dts: qcom: msm8974: add clocks and clock-names to mmcc device
-         
+  - ref: refs/heads/for-next
+    old: 10ac37add608855226686f0b28bf08a9399f3e5f
+    new: 2137e20ac8414e91ae0654f06d909832a6a03cf7
+    log: revlist-10ac37add608-2137e20ac841.txt
 
---===============3152473885750099817==
+--===============8460059536369149958==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-85d4e6ea082d-80f5451d9a7c.txt
+Content-Disposition: attachment; filename=revlist-10ac37add608-2137e20ac841.txt
 
 ba796801d2474a4773a6a0ebb94c53c96a294426 dt-bindings: clocks: qcom: rpmcc: add LN_BB_CLK_PIN clocks
 76318d779c83dcc9e74de6fc428366c0dae2803a clk: qcom: smd-rpm: enable pin-controlled ln_bb_clk clocks on qcs404
@@ -59,7 +45,12 @@ e3c88f236e8567f3f47412438a957c22594caed7 clk: qcom: smd-rpm: simplify SMD_RPM/_B
 2b8ddf6b820080649176c5695422548114b03f91 clk: qcom: smd-rpm: rename the qcm2290 rf_clk3 clocks
 598261294658873559b6d37ac3e6a91eb48e2c17 clk: qcom: smd-rpm: rename SMD_RPM_BUS clocks
 e3306941368ae58acf5ba74f6d26653e109e7ef2 clk: qcom: smd-rpm: remove usage of platform name
+60446dc63f5d0be7a5e691caa239417ead885cf0 ARM: dts: qcom: msm8974: add second DSI host and PHY
+cd1dc49ad4cc773d96092dd871703b165dca2a87 ARM: dts: qcom: msm8974: add clocks and clock-names to gcc device
+c8d4a609162e0cf179a99e283a8a621e4c140bec ARM: dts: qcom: msm8974: add clocks and clock-names to mmcc device
 7afc1f6977d0b0d1b722aaedf6d9796df9a82325 dt-bindings: clock: add QCOM SM6350 camera clock bindings
 80f5451d9a7c20d8c09f44f4eb1083fd861d7a46 clk: qcom: Add camera clock controller driver for SM6350
+6c82b94d583a116faf99858379ee34844df963a1 Revert "arm64: dts: qcom: sm8250: Disable the not yet supported cluster idle state"
+2137e20ac8414e91ae0654f06d909832a6a03cf7 Merge branches 'arm64-fixes-for-6.2', 'arm64-for-6.3', 'clk-for-6.3', 'drivers-for-6.3', 'dts-fixes-for-6.2' and 'dts-for-6.3' into for-next
 
---===============3152473885750099817==--
+--===============8460059536369149958==--
