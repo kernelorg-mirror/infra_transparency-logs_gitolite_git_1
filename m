@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/deller/parisc-linux
-Date: Wed, 28 Dec 2022 07:43:13 -0000
-Message-Id: <167221339335.17183.17560001838165977610@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/deller/linux-fbdev
+Date: Wed, 28 Dec 2022 07:55:48 -0000
+Message-Id: <167221414816.26826.2926884682662633675@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/deller/parisc-linux
+repo: pub/scm/linux/kernel/git/deller/linux-fbdev
 user: deller
 changes:
   - ref: refs/heads/for-next
-    old: 9eecdd58028ff00f4fe96d4fd537a58fcd358fd6
-    new: d903b5d0c7e3def4f919d9291df58e28841c5afc
+    old: 9d8b5376cc2848ca22314fdec9a7a45b1bf69189
+    new: 48c59da85e2e9f74a2fbdcd4f9dc72ff0c3ac33d
     log: |
-         d903b5d0c7e3def4f919d9291df58e28841c5afc parisc: Limit amount of breakpoints on parisc
+         b2e6db640b775fefd65742b166bf2e1fa3f5be3e fbdev: omap: use strscpy() to instead of strncpy()
+         48c59da85e2e9f74a2fbdcd4f9dc72ff0c3ac33d fbdev: use strscpy() to instead of strncpy()
          
