@@ -1,39 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============1669857808413671993=="
+Content-Type: multipart/mixed; boundary="===============3936546066008889130=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Wed, 28 Dec 2022 15:32:22 -0000
-Message-Id: <167224154277.20296.9346122646379829088@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/niks/linux
+Date: Wed, 28 Dec 2022 15:46:41 -0000
+Message-Id: <167224240100.30503.7003014745565932781@gitolite.kernel.org>
 
---===============1669857808413671993==
+--===============3936546066008889130==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/groeck/linux-staging
-user: groeck
+repo: pub/scm/linux/kernel/git/niks/linux
+user: niks
 changes:
-  - ref: refs/heads/hwmon-next
-    old: 364ffd2537c44cb6914ff5669153f4a86fffad29
-    new: 1b929c02afd37871d5afb9d498426f83432e71c2
-    log: revlist-364ffd2537c4-1b929c02afd3.txt
+  - ref: refs/heads/dma_iommu_v3
+    old: 9e4ed20e80abad7896e7006ed67f8b3548996e15
+    new: dda13766ded4036efd4ad560b867ef44b28bf32e
+    log: revlist-9e4ed20e80ab-dda13766ded4.txt
 
---===============1669857808413671993==
+--===============3936546066008889130==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-364ffd2537c4-1b929c02afd3.txt
+Content-Disposition: attachment; filename=revlist-9e4ed20e80ab-dda13766ded4.txt
 
-56c56a309e7959c319d3cbd6bd16e598ecd5831c can: gs_usb: remove gs_can::iface
-bd4a52bf9d56abaabc6926f68c3cc3528937a864 Merge patch series "can: usb: remove pointers to struct usb_interface in device's priv structures"
-eaacfeaca7ad0804b9a6eff7afeba93a87db7638 can: m_can: Call the RAM init directly from m_can_chip_config
-0826e82b8a32e646b7b32ba8b68ba30812028e47 can: raw: add support for SO_MARK
-3abcc01c38bc5d424635df96e0677e2fbec021de dt-bindings: can: renesas,rcar-canfd: Fix number of channels for R-Car V3U
-c1eaf8b9bd3145d029446c927e1c9ce925dfe6a7 can: m_can: Eliminate double read of TXFQS in tx_handler
-57757937974988dc8feb7cf66b17dca72bca813b can: m_can: Avoid reading irqstatus twice
-fac52bf786e5c302990fa79f2fdde24e84f810b0 can: m_can: Read register PSR only on error
 d4535b90a76af49d1dd7bc70ad0311a88ac5313d can: m_can: Count TXE FIFO getidx in the driver
 6355a3c983e6d6fc998f4223bd2c7ef047e4572b can: m_can: Count read getindex in the driver
 e3bff5256a0f12a1edc8d79bdef53eb83c2f1fbf can: m_can: Batch acknowledge transmit events
@@ -1050,5 +1042,13 @@ edb23125fd4a79003012bc619d2c604da922865e Merge tag 'pstore-v6.2-rc1-fixes' of gi
 72a85e2b0a1e1e6fb4ee51ae902730212b2de25c Merge tag 'spi-fix-v6.2-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
 292a089d78d3e2f7944e60bb897c977785a321e3 treewide: Convert del_timer*() to timer_shutdown*()
 1b929c02afd37871d5afb9d498426f83432e71c2 Linux 6.2-rc1
+b10c6cc7de7ba004975420d94ce9dcdc2253e576 vfio/type1: Respect IOMMU reserved regions in vfio_test_domain_fgsp()
+15b59e53692e88143b099ba70679a7efbb0ec6a6 iommu: Allow .iotlb_sync_map to fail and handle s390's -ENOMEM return
+15473530461d070b1bbf8310c17b52a501daa674 s390/ism: Set DMA coherent mask
+43a81eb2603112fdf6e8244835539ce73b6d6035 s390/pci: prepare is_passed_through() for dma-iommu
+f96755aab6a2b1ba932695d25456652f9d2d4f82 s390/pci: Use dma-iommu layer
+7f72b202f0aaf3e10cd4a09bc074ebe8dd839fda iommu/dma: Allow a single FQ in addition to per-CPU FQs
+b45d857ee9b4bef674bd4cf6ca46abadcde3364c iommu/dma: Enable variable queue size and use larger single queue
+dda13766ded4036efd4ad560b867ef44b28bf32e iommu/dma: Add IOMMU op to choose lazy domain type
 
---===============1669857808413671993==--
+--===============3936546066008889130==--
