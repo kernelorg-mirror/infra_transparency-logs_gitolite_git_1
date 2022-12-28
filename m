@@ -1,87 +1,120 @@
-Content-Type: multipart/mixed; boundary="===============1161913894646167598=="
+Content-Type: multipart/mixed; boundary="===============1706650323747869190=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
-Date: Wed, 28 Dec 2022 04:36:46 -0000
-Message-Id: <167220220683.26082.3276536401338749556@gitolite.kernel.org>
+Subject: post-receive: pub/scm/git/git
+Date: Wed, 28 Dec 2022 04:45:12 -0000
+Message-Id: <167220271272.31853.5249360871630895912@gitolite.kernel.org>
 
---===============1161913894646167598==
+--===============1706650323747869190==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/qcom/linux
-user: andersson
+repo: pub/scm/git/git
+user: junio
 changes:
-  - ref: refs/heads/for-next
-    old: 68e72e24a1d9b02e35c15ff5bf900d042f3bb16a
-    new: ac5de4d6144f7e2a8a7baa0e817f3f900631950b
-    log: revlist-68e72e24a1d9-ac5de4d6144f.txt
+  - ref: refs/heads/main
+    old: 8a4e8f6a67e7fc97048d4666eec38399b88e0e3b
+    new: 6bae53b138a1f38d8887f6b46d17661357a1468b
+    log: |
+         6f65f847664445b347810bece6eee84c2f39f4ef submodule: accept -v for the update command
+         4c3dd9304e49402bd4ee19dfaa4c21d0217fb582 var: add GIT_SEQUENCE_EDITOR variable
+         b3b9e5c1718e59d2a835291bbc9c28b1762c45ce Merge branch 'ss/pull-v-recurse-fix'
+         48475f43a0a92697999d0189d7d4bfd1d1841299 Merge branch 'sa/git-var-sequence-editor'
+         6bae53b138a1f38d8887f6b46d17661357a1468b The third batch
+         
+  - ref: refs/heads/master
+    old: 8a4e8f6a67e7fc97048d4666eec38399b88e0e3b
+    new: 6bae53b138a1f38d8887f6b46d17661357a1468b
+    log: |
+         6f65f847664445b347810bece6eee84c2f39f4ef submodule: accept -v for the update command
+         4c3dd9304e49402bd4ee19dfaa4c21d0217fb582 var: add GIT_SEQUENCE_EDITOR variable
+         b3b9e5c1718e59d2a835291bbc9c28b1762c45ce Merge branch 'ss/pull-v-recurse-fix'
+         48475f43a0a92697999d0189d7d4bfd1d1841299 Merge branch 'sa/git-var-sequence-editor'
+         6bae53b138a1f38d8887f6b46d17661357a1468b The third batch
+         
+  - ref: refs/heads/next
+    old: 0c24f1cd9bd77becc165bc1db741d05556a2b4b4
+    new: cfb4c9d7b59a7c9766d92fde54da7d3e1cc357ab
+    log: revlist-0c24f1cd9bd7-cfb4c9d7b59a.txt
+  - ref: refs/heads/seen
+    old: 55c7916c5a70be57a87dc2b0131b29992cad9581
+    new: 01908a9c05096457b369299400e227cad122feca
+    log: revlist-55c7916c5a70-01908a9c0509.txt
 
---===============1161913894646167598==
+--===============1706650323747869190==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-68e72e24a1d9-ac5de4d6144f.txt
+Content-Disposition: attachment; filename=revlist-0c24f1cd9bd7-cfb4c9d7b59a.txt
 
-a0145c557d94b3bac7c5a4545f90cfe940a226cd ARM: dts: msm8974: castor: Define pm8841 regulators
-6d933c0ec1718a08b44689da0f79ac1d905db7dd ARM: dts: qcom: msm8974-*: re-add remoteproc supplies
-73bf63a6300b2fec48b54fe41d1c6d964fb2f33b ARM: dts: qcom: msm8974-castor: Fix touchscreen init
-a28146b51a299897090f071ea26071a5ab39d233 ARM: dts: qcom: msm8974-castor: Enable charging over USB
-17c073500e9060281a115e34b00424d486be9450 dt-bindings: qcom: Document msm8916-acer-a1-724
-0fbf49b3eac98495c1c75ea16019e5613cda109b arm64: dts: qcom: msm8916-acer-a1-724: Add initial device tree
-85e0a0f8bfa42dc05b7d89798df6fbc2c13147a6 arm64: dts: qcom: msm8916-acer-a1-724: Add accelerometer/magnetometer
-7b8847e9d56f5e397b37df63f271f3166a09f3a8 arm64: dts: qcom: msm8916-acer-a1-724: Add touchscreen
-e73defb2deee74f3f4988196bf0c21782dffa415 arm64: dts: qcom: sc8280xp: add gpr node
-c18773d162a63f65024e80ae355e3fbc923e7255 arm64: dts: qcom: sc8280xp: add SoundWire and LPASS
-f29077d8665221ba2802a29ee7bd9fcef66cde81 arm64: dts: qcom: sc8280xp-x13s: Add soundcard support
-43069b9cd358aebc692e654de91ee06ff66e26af arm64: dts: qcom: msm8996-tone: Fix USB taking 6 minutes to wake up
-4df05b44468cdf5dea7a7aa291eeabd7e639f8ff arm64: dts: qcom: msm8996-xiaomi-gemini: use preferred enable-gpios for LP5562 LED
-29dcf3c1a8159acdf56905c377a214381eda5a24 arm64: dts: qcom: sdm632-fairphone-fp3: Add NFC
-7bff6f4351bf82c0b9279fc711b730d2d28b8b8c arm64: dts: qcom: sdm670: add qfprom node
-cb98187a6883c498b0702cedc1f59247e7857bea arm64: dts: qcom: sdm670: add missing usb hstx nvmem cell
-582e7c1026fa848a918a1db159bcae7c5fa7f0ce arm64: dts: qcom: sm7225-fairphone-fp4: Add pmk8350 PMIC
-01b6041454e8bc4f5feb76e6bcdc83a48cea21f2 arm64: dts: qcom: sm6115: Fix UFS node
-ad9514be8ddb9d3a8c262aa415c2f1c1f4cc97f9 arm64: dts: qcom: sm6115: Provide xo clk to rpmcc
-0f1619aa22cd78a47522008e9b83524eae6bb922 arm64: dts: qcom: sm6115: Provide real SMD RPM XO to SDC1/2
-92ad27fb925943d62deaaa659931ce85ddec99c8 dt-bindings: arm: qcom: Add SM6115(P) and Lenovo Tab P11
-67e75cfea375b5eca42a8d41b927fa195e723fe6 arm64: dts: qcom: Add Lenovo Tab P11 (J606F/XiaoXin Pad) dts
-85d4e6ea082d3905f3ede470ac337fddc2d47650 clk: qcom: gcc-sm6115: Use floor_ops for SDCC1/2 core clk
-53cb681199f4d8454335742f0c84b36ddc7483ed arm64: dts: qcom: sm6115: Add thermal zones
-e48b2f1fb1749e6ceeca13ac80e6e46b954dce41 arm64: dts: qcom: pm6150l: add spmi-flash-led node
-1c170714490e4d8c0886019145c9d90dfade14f9 arm64: dts: qcom: sm7225-fairphone-fp4: configure flash LED
-9506a3661258d07a60b186f667b391708ddf63ac arm64: dts: qcom: sc7180: Bump up trogdor ts_reset_l drive strength
-f5b4811e8758fed76da4f54f6efa1452bc878595 arm64: dts: qcom: sc7180: Add trogdor eDP/touchscreen regulator off-on-time
-23ff866987de2910de4a1060e9b0e112376c0dd0 arm64: dts: qcom: sc7180: Start the trogdor eDP/touchscreen regulator on
-335fe4b79838a7c722d21c15784f7ed1172a6c81 arm64: dts: qcom: sc7180: Add pazquel360 touschreen
-be8de06dc397c45cb0f3fe04084089c3f06c419f arm64: dts: qcom: sm8150-kumano: Panel framebuffer is 2.5k instead of 4k
-3c3d2cb221b8647d1c547b4c44d2d6060cc742a9 arm64: dts: qcom: pmi8950: Correct rev_1250v channel label to mv
-ea25d61b448a51446edb1e8cab8a8d38fc719476 arm64: dts: qcom: Use plural _gpios node label for PMIC gpios
-3b2ff50da499178cc418f4b319e279d1b52958ed arm64: dts: qcom: sm6350: Fix up the ramoops node
-1629063ec9d8a32111a63ce7250a7781376c492a arm64: dts: qcom: sdm845: drop 0x from unit address
-524dfd2ddbd74ed5b4cbb3e002984cf95878c827 arm64: dts: qcom: sc7180: move QUP and QSPI opp tables out of SoC node
-85966125ecfe75735d8a02f00c83545aaad0ba88 arm64: dts: qcom: sdm845: move DSI/QUP/QSPI opp tables out of SoC node
-d0b014a74823cc52dde447d0af61ff14fce5a785 arm64: dts: qcom: sdm845: move sound node out of soc
-e5b8c08245307a82cdf180cd5d385a34ba1cfd9d arm64: dts: qcom: sm8250: move sound and codec nodes out of soc
-b860ba9e42538f2a490925121071c215c23d1863 arm64: dts: qcom: msm8996-tone: Enable SDHCI1
-6152ab29a39131328a310b578aae693d3ec74a9d arm64: dts: qcom: msm8996-tone: Move status last
-0ead2d1758714fb724e062f76fdb4868ba8303e6 arm64: dts: qcom: sm8150-kumano: Add GPIO keys
-6cef82a8a7d9cbfacc94914791fbbe526709aa43 arm64: dts: qcom: sm8150-kumano: Add NXP PN553 NFC
-632a35e24fefa24f79a97310e8c4642e33919204 arm64: dts: qcom: sm8150-kumano: Configure resin as volume up key
-67fb53745e0b38275fa0b422b6a3c6c1c028c9a2 arm64: dts: qcom: msm8996: Add additional A2NoC clocks
-22c7e1a0fa45cd7d028d6b4117161fd0e3427fe0 arm64: dts: msm8992-bullhead: add memory hole region
-0431dba3733bf52dacf7382e7b0c1b4c0b59e88d arm64: dts: qcom: ipq6018: Use lowercase hex
-21dd43fda18a21ddcc7567bbadc831c179e98c67 arm64: dts: qcom: msm8996: Use lowercase hex
-d6882340d019607ceabbf2f20f81bc376c4deff5 arm64: dts: qcom: msm8998: Use lowercase hex
-5442632899f40ecfea2c7b4400f93966b04d5b6a arm64: dts: qcom: sdm630: Use lowercase hex
-5c9d77725069df48c1c0e682e64143cb6a62b165 arm64: dts: qcom: sdm660: Use lowercase hex
-7b5cb47afda7d602b1335e7a6eef5d6ce82d0c8e arm64: dts: qcom: sdm845: Use lowercase hex
-74f9165935218db8348f24eeb01769b605a47e2d arm64: dts: qcom: sm8250: Use lowercase hex
-51f748c62358cf878feb2b9177017b67f3f6c9bc arm64: dts: qcom: sm8150: Use lowercase hex
-20e954411c9e59b61eacd1822a0aa0e4676a43f7 arm64: dts: qcom: sdm845: Fix some whitespace/newlines
-5e4cab734c26ec46fd847bedd31a0df83d853b04 arm64: dts: qcom: sc8280xp-x13s: move 'thermal-zones' node
-ac5de4d6144f7e2a8a7baa0e817f3f900631950b Merge branches 'arm64-fixes-for-6.2', 'arm64-for-6.3', 'clk-for-6.3', 'drivers-for-6.3' and 'dts-for-6.3' into for-next
+49eb1d388ae618b61058d14b811684a89bdf84b6 submodule absorbgitdirs tests: add missing "Migrating git..." tests
+0d1806e53de6ac26021d8aab918d76381287f339 read-tree + fetch tests: test failing "--super-prefix" interaction
+f0a5e5ad57ae729d9971bdb6bdaa82c1d85bd062 submodule.c & submodule--helper: pass along "super_prefix" param
+bb61a962d2e759754fca35e4b31f73122eed49fc submodule--helper: don't use global --super-prefix in "absorbgitdirs"
+677c981260854f0acc1b7cd4cce85d46f1b76f06 submodule--helper: convert "foreach" to its own "--super-prefix"
+99a32d87f82683a3d3ff4a35dd551060c113a82c submodule--helper: convert "sync" to its own "--super-prefix"
+04f1fab4a13ad9eb2757809765720508abeb38da submodule--helper: convert "status" to its own "--super-prefix"
+f5a6be9d547700b7bd3018f1c0daf3d257cb2762 submodule--helper: convert "{update,clone}" to their own "--super-prefix"
+4002ec3dcf0f89db46fbdf56549218c573a9c0f2 read-tree: add "--super-prefix" option, eliminate global
+e778ecbcee3a4a14e46c06d66328fdfc0af8780d builtin/bundle.c: remove superfluous "newargc" variable
+6d5e9e53aa46b97227a25c85400fd00b8237411a bundle <cmd>: have usage_msg_opt() note the missing "<file>"
+b3b9e5c1718e59d2a835291bbc9c28b1762c45ce Merge branch 'ss/pull-v-recurse-fix'
+48475f43a0a92697999d0189d7d4bfd1d1841299 Merge branch 'sa/git-var-sequence-editor'
+6bae53b138a1f38d8887f6b46d17661357a1468b The third batch
+6ae8fc1c88e4e72e8ca2bb8ff9bf5497781e6fbd Merge branch 'ab/bundle-wo-args' into next
+126b1fbad1e9c9c0e0946ceb4653dfb9b3d200e3 Merge branch 'ab/no-more-git-global-super-prefix' into next
+cfb4c9d7b59a7c9766d92fde54da7d3e1cc357ab Sync with 'master'
 
---===============1161913894646167598==--
+--===============1706650323747869190==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-55c7916c5a70-01908a9c0509.txt
+
+b3b9e5c1718e59d2a835291bbc9c28b1762c45ce Merge branch 'ss/pull-v-recurse-fix'
+48475f43a0a92697999d0189d7d4bfd1d1841299 Merge branch 'sa/git-var-sequence-editor'
+6bae53b138a1f38d8887f6b46d17661357a1468b The third batch
+4052be88f32f21ed195cc69a7cb582276ac2e6a9 Merge branch 'lk/line-range-parsing-fix' into jch
+d78b0f09958200526650b2d196217833ae7244c3 Merge branch 'ds/bundle-uri-4' into jch
+0ac749dd55d434e217a7cfbf42226267a3c9ee82 Merge branch 'ew/format-patch-mboxrd' into jch
+7d5e440a538f31b3b3d338f7b3b0600eaeb601d9 Merge branch 'sk/win32-pthread-exit-fix' into jch
+b805221fd949e8e90d17970efe27df083f8d7094 Merge branch 'ps/fsync-refs-fix' into jch
+602af0c562a7f5c1b7a669dc4b7a64085251a10d Merge branch 'sa/cat-file-mailmap--batch-check' into jch
+3c1fca6034dcc1291bd756436cb324e1d71e0f9c Merge branch 'jt/avoid-lazy-fetch-commits' into jch
+b9d521f2daa1f26d54202b74712a7d26255aca08 Merge branch 'dh/mingw-ownership-check-typofix' into jch
+75f419533e0023d54170edbf0473a9a0531ae258 Merge branch 'sg/test-oid-wo-incomplete-line' into jch
+c7b26d226fe5ed3f22c4d9a33ff8872ee1d1b721 Merge branch 'ar/typofix-gitattributes-doc' into jch
+12588fbc4fa2f02a0752d86487ffee4f9b92bb53 Merge branch 'km/doc-branch-start-point' into jch
+3be9d9b9c55fecb290c6e0d51bcfaadaae7abd04 Merge branch 'ab/bundle-wo-args' into jch
+c6f820a302dcd8660f1cdff5a1e5d8e2e5323a0e Merge branch 'ab/no-more-git-global-super-prefix' into jch
+7ad1dadc6f07d2977d1333f5d65b3279c282e467 ### match next
+3eaccb1e8c8019d254c0a429b8b0b37d80ca0aac Merge branch 'cw/ci-whitespace' into jch
+a33d1b024f3a20fccb25564c82039281522056ae Merge branch 'js/ci-disable-cmake-by-default' into jch
+169e6aca47f11d6fd994cfbb6ef7ec9b4ab543af Merge branch 'ab/avoid-losing-exit-codes-in-tests' into jch
+158d06dbd4c7be8c87bbbdeae692b44263d1a9e9 Merge branch 'js/drop-mingw-test-cmp' into jch
+f653e6d05e2bca74a4eee930c3003707cf1c8e87 ###
+a3cedd67e4301ec1283c8555113395ef5cccc739 Merge branch 'ds/omit-trailing-hash-in-index' into jch
+3921b583780d5925a036e99b81243a16f930adee Merge branch 'tl/notes--blankline' into jch
+63e34245fe5f963d7f3d63c77e2e12b03ab2b389 Merge branch 'tr/am--no-verify' into jch
+407d6a0c651774caab51eab980bcb1286da5955f Merge branch 'es/t1509-root-fixes' into jch
+f14ea0e9cdbc42e22b3a5d7bd42b17ea495469ee Merge branch 'jc/spell-id-in-both-caps-in-message-id' into jch
+499a6c6c7b01e3b6d13d6c36ca3c7542c29a0d9a Merge branch 'cb/grep-fallback-failing-jit' into jch
+f960a1b0a521f7c6d8889c4fc18abd6d6c4a5d38 Merge branch 'ad/test-record-count-when-harness-is-in-use' into jch
+b5408190a41f69e9ba07f55e3ca1c14b8810395b Merge branch 'js/range-diff-mbox' into seen
+b1e450dcc93d83984a4aa415fe76a3557bbfbc22 Merge branch 'po/pretty-hard-trunc' into seen
+98ec3a19bdfd72a5cf3a9e7300a353aa599c1859 Merge branch 'tb/ci-concurrency' into seen
+a266aae4922e6158fa9c8b326e2b678460077f3a Merge branch 'mc/switch-advice' into seen
+a6bed616d069d77e3c37f84b56879aaf85ba29ba Merge branch 'ed/fsmonitor-inotify' into seen
+c6969765185e09205452c8296d44cdf642abd31d Merge branch 'ab/tag-object-type-errors' into seen
+b2c8de298b11fbcbe433c077110992aca03d6ae7 Merge branch 'ab/config-multi-and-nonbool' into seen
+1dd4448239a78066f743b6dc562d6880bb6ce162 Merge branch 'jx/t1301-updates' into seen
+de53c806c74e385852ab37ed1ee0c922e8443c45 Merge branch 'km/send-email-with-v-reroll-count' into seen
+8d8b6cc6faca224f209cbc988d87968eb58c079e Merge branch 'cc/filtered-repack' into seen
+910040175bcb452c1109284d07e91047eeaadf9d Merge branch 'mc/credential-helper-auth-headers' into seen
+7cf95a2988bc7ab3fe908a7a73fbab2e5f0450e9 Merge branch 'so/diff-merges-more' into seen
+01908a9c05096457b369299400e227cad122feca Merge branch 'sk/win32-close-handle-upon-pthread-join' into seen
+
+--===============1706650323747869190==--
