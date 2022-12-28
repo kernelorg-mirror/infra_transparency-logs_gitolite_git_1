@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0546090943748744324=="
+Content-Type: multipart/mixed; boundary="===============8082810208836730297=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/intel
-Date: Wed, 28 Dec 2022 12:20:56 -0000
-Message-Id: <167223005612.21613.14028024374088587434@gitolite.kernel.org>
+Date: Wed, 28 Dec 2022 12:21:01 -0000
+Message-Id: <167223006160.21702.443957603748073501@gitolite.kernel.org>
 
---===============0546090943748744324==
+--===============8082810208836730297==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/pinctrl/intel
 user: andy
 changes:
-  - ref: refs/heads/review-andy
+  - ref: refs/heads/for-next
     old: d1e6fc11942971563a6611ce13cea91e57dd9e0b
     new: 4a5c358da35e074158923e8d703c9afec55d17d7
     log: revlist-d1e6fc119429-4a5c358da35e.txt
 
---===============0546090943748744324==
+--===============8082810208836730297==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -40,4 +40,4 @@ ebe2cd381ff2dfc1fa42a47648a8624adc076166 pinctrl: intel: Make use of struct pinf
 057d1625ae373023958167d516d9819045cb77db pinctrl: moorefield: Convert to use new memeber in struct intel_function
 4a5c358da35e074158923e8d703c9afec55d17d7 pinctrl: intel: Get rid of unused members in struct intel_function
 
---===============0546090943748744324==--
+--===============8082810208836730297==--
