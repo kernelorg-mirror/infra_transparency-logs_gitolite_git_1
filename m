@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wtarreau/nolibc
-Date: Wed, 28 Dec 2022 12:47:37 -0000
-Message-Id: <167223165703.6424.1149091245341291311@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/pciutils/pciutils
+Date: Wed, 28 Dec 2022 12:49:35 -0000
+Message-Id: <167223177574.7113.2040542230268961285@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wtarreau/nolibc
-user: wtarreau
+repo: pub/scm/utils/pciutils/pciutils
+user: mj
 changes:
-  - ref: refs/heads/20221227-nolibc-weak-2
-    old: 0000000000000000000000000000000000000000
-    new: f26312286fe2dd6dff51a3f7c0bc793121846595
+  - ref: refs/heads/master
+    old: 42e6a803bda392e98276b71994db0b0dd285cab1
+    new: 2d16e3a7875a9cb5abd60713bb2e39b536a7dec4
+    log: |
+         2d16e3a7875a9cb5abd60713bb2e39b536a7dec4 Fix versioned symbol aliases when used with link-time optimization
+         
