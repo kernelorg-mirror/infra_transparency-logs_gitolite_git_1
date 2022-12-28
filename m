@@ -1,42 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============2103333396423744953=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Wed, 28 Dec 2022 19:20:05 -0000
-Message-Id: <167225520522.8926.13939812664820632361@gitolite.kernel.org>
-
---===============2103333396423744953==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
+Date: Wed, 28 Dec 2022 19:24:44 -0000
+Message-Id: <167225548433.10410.15110109226438988433@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/saeed/linux
-user: saeed
+repo: pub/scm/linux/kernel/git/riscv/linux
+user: palmer
 changes:
-  - ref: refs/tags/mlx5-fixes-2022-12-28
-    old: fcefb170360d84292cf8043d29f4327ad520cda6
-    new: 334369434cb983901eb8ab01c7627c3281ad6bcf
-    log: revlist-fcefb170360d-334369434cb9.txt
-
---===============2103333396423744953==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fcefb170360d-334369434cb9.txt
-
-63640b4eb2862314e187ff197e4177238a627ffb net/mlx5: E-Switch, properly handle ingress tagged packets on VST
-2bf3516bf1c81064bfef363c3c7e78865218c923 net/mlx5: Add forgotten cleanup calls into mlx5_init_once() error path
-da664a5c8c634d0a6bd6ae400f601b73ebca5a31 net/mlx5: Fix io_eq_size and event_eq_size params validation
-f03ad207ee1c8f91d7261c5b413a291861ad10a3 net/mlx5: Avoid recovery in probe flows
-98c78a8bc9eef2b9af3d3a34bc1311076546241e net/mlx5: Fix RoCE setting at HCA level
-1bf0f0c4accf67fdc95f3f4ddf669f98f1c4bc1e net/mlx5e: IPoIB, Don't allow CQE compression to be turned on by default
-dcfb0a03e7f4565cb533a8bde7970d250edc4a21 net/mlx5e: Fix RX reporter for XSK RQs
-38ad0fbc40ddc72a086abf6b9787b2b82e9bec7d net/mlx5e: CT: Fix ct debugfs folder name
-48d9b488f8d348eae03637d5f1c9a089806d3a5d net/mlx5e: Always clear dest encap in neigh-update-del
-c085e6fe50ba2210680f2ddf46d880483abc871b net/mlx5e: Fix hw mtu initializing at XDP SQ allocation
-6b126faa1b42057c304c94da4e925594d44dbd05 net/mlx5e: Set geneve_tlv_option_0_exist when matching on geneve option
-45d6d83299193c0abd699c5a5c1a6cec94bf8842 net/mlx5: Lag, fix failure to cancel delayed bond work
-
---===============2103333396423744953==--
+  - ref: refs/heads/for-next
+    old: 1b929c02afd37871d5afb9d498426f83432e71c2
+    new: 4e1ce304ea192a12e41f44f26c7502908593132d
+    log: |
+         444c3dbdabd468196bd55712863f7e125909008f RISC-V: introduce ARCH_FOO kconfig aliases for SOC_FOO symbols
+         fc43211939bb68741d609cd6e7034f01d5d1734b RISC-V: kconfig.socs: convert usage of SOC_CANAAN to ARCH_CANAAN
+         19ba9cf70706629709a3304aa977d1dddcfadf43 RISC-V: kbuild: convert all use of SOC_FOO to ARCH_FOO
+         b61032557d20d2d1036bfcf833a3c5b4799183ea RISC-V: stop selecting the PolarFire SoC clock driver
+         0e6aee5bcc0067d5f8a36cbb2dbd8b2702140481 RISC-V: stop selecting SiFive clock and serial drivers directly
+         3af577f9826fdddefac42b35fc5eb3912c5b7d85 RISC-V: stop directly selecting drivers for SOC_CANAAN
+         4e1ce304ea192a12e41f44f26c7502908593132d Merge tag 'soc2arch-immutable' of git://git.kernel.org/pub/scm/linux/kernel/git/conor/linux into for-next
+         
