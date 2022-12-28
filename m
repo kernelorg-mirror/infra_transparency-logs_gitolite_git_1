@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1039035656650793191=="
+Content-Type: multipart/mixed; boundary="===============2692101049517533420=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mst/vhost
-Date: Wed, 28 Dec 2022 13:48:25 -0000
-Message-Id: <167223530596.15326.17860110150237382225@gitolite.kernel.org>
+Date: Wed, 28 Dec 2022 13:50:25 -0000
+Message-Id: <167223542595.17484.12934601778995552140@gitolite.kernel.org>
 
---===============1039035656650793191==
+--===============2692101049517533420==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,25 +15,45 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mst/vhost
 user: mst
 changes:
-  - ref: refs/heads/linux-next
-    old: 98dd6b2ef50d6f7876606a86c8d8a767c9fef6f5
-    new: 2822599fccd9f2565dff5a174e1940453876a5e9
-    log: revlist-98dd6b2ef50d-2822599fccd9.txt
-  - ref: refs/heads/test
-    old: 98dd6b2ef50d6f7876606a86c8d8a767c9fef6f5
-    new: 2822599fccd9f2565dff5a174e1940453876a5e9
-    log: revlist-98dd6b2ef50d-2822599fccd9.txt
-  - ref: refs/heads/vhost
-    old: 98dd6b2ef50d6f7876606a86c8d8a767c9fef6f5
-    new: 2822599fccd9f2565dff5a174e1940453876a5e9
-    log: revlist-98dd6b2ef50d-2822599fccd9.txt
+  - ref: refs/tags/for_linus
+    old: f18d386c6b6e6de9304e6809bca6e7b9704f0683
+    new: 3bc66b7c0eafe367a5e1f4c19b3cd278b2def701
+    log: revlist-f18d386c6b6e-3bc66b7c0eaf.txt
 
---===============1039035656650793191==
+--===============2692101049517533420==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-98dd6b2ef50d-2822599fccd9.txt
+Content-Disposition: attachment; filename=revlist-f18d386c6b6e-3bc66b7c0eaf.txt
 
+ed6a00471dd444af085164f987e3d5e8145da35a Merge branches 'pm-devfreq' and 'pm-tools'
+2aa2a5ead0ee0a358bf80a2984a641d1bf2adc2a ASoC: SOF: Intel: pci-tgl: unblock S5 entry if DMA stop has failed"
+44fda61d2bcfb74a942df93959e083a4e8eff75f ASoC: SOF: Revert: "core: unregister clients and machine drivers in .shutdown"
+83f1b7f39af73b01edf098fe3141404670703281 ASoC: mediatek: mt8195: add sof be ops to check audio active
+9529dc167ffcdfd201b9f0eda71015f174095f7e ASoC: wm8994: Fix potential deadlock
+6d94d0090527b1763872275a7ccd44df7219b31e ASoC: rockchip: spdif: Add missing clk_disable_unprepare() in rk_spdif_runtime_resume()
+0612d748003ce7bcd0d67a8d270900fcdadb1009 ASoC: Intel: soc-acpi: update codec addr on 0C11/0C4F product
+1fab45ab6e823f9d7e5bc9520b2aa6564d6d58a7 Merge tag 'rcu.2022.12.02a' of git://git.kernel.org/pub/scm/linux/kernel/git/paulmck/linux-rcu
+75b15aa0d83ec835082129b62e8cb9a44703ad72 Merge branch 'thermal-intel'
+3e12758392bee50135301b0189c064ab80980aca x86/mm/kmmio: Remove redundant preempt_disable()
+5517a2eaec8f525506867988adc6cfe1c414c90a Merge tag 'lkmm.2022.12.02a' of git://git.kernel.org/pub/scm/linux/kernel/git/paulmck/linux-rcu
+f433cf2102fec78cf05ece06fb8e24fbfc6a64d8 Merge tag 'kcsan.2022.12.02a' of git://git.kernel.org/pub/scm/linux/kernel/git/paulmck/linux-rcu
+74dc488b2a1bee840f3cf29a4262e0b1184a4f5d Merge tag 'nolibc.2022.12.02a' of git://git.kernel.org/pub/scm/linux/kernel/git/paulmck/linux-rcu
+3a28c2c89f4b412b648761430720d40a8dc326ef Merge tag 'unsigned-char-6.2-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/zx2c4/linux
+059c4a341df7dbaab0a30a8e5420b619518f8887 Merge tag 'pstore-v6.2-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
+667161ba0a1c5badc5c40fc45cf62a6d62883710 Merge tag 'seccomp-v6.2-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
+7fc035058eab3a485060374d78012708524ca133 Merge tag 'execve-v6.2-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
+73fa58dca80293320f5cfeb06f5b2daeb8d97bd5 Merge tag 'locks-v6.2' of git://git.kernel.org/pub/scm/linux/kernel/git/jlayton/linux
+98d0052d0d9dcd5323833482712b5799ed0bbb0b Merge tag 'printk-for-6.2' of git://git.kernel.org/pub/scm/linux/kernel/git/printk/linux
+893660b0e1c8d127960ae921f55983b435664e15 Merge tag 'slab-for-6.2-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/vbabka/slab
+43686598b55785bfc1f961b3731b2302fe08f393 Merge tag 'tpmdd-next-v6.2-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+b003b3b77d65133a0011ae3b7b255347438c12f6 RISC-V: Align the shadow stack
+de57ecc476103179e93fd85091770921f76a19af RISC-V: Add some comments about the shadow and overflow stacks
+c3ec1e8964fb0ca00c79936160a027bd8b47e140 Merge patch series "RISC-V: Align the shadow stack"
+7d62159919c90fbcd9ee808e9f1b776eae990d53 Merge tag 'hyperv-next-signed-20221208' of git://git.kernel.org/pub/scm/linux/kernel/git/hyperv/linux
+164f59000c19fa1ee5d09327a8055ec9f9b9905a Merge tag 'microblaze-v6.2' of git://git.monstr.eu/linux-2.6-microblaze
+06cff4a58e7dfa018c5f8a6ebdc3ff12745e0bae Merge tag 'arm64-upstream' of git://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux
+5910b842c489ec40866182d1b2acf7d20c2bc83f Merge tag 'soc-defconfig-6.2' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
 69700db4212ac784130f63a350b1ede3b7184494 Merge tag 'soc-6.2' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
 e4b731ccb0975fd97283e0c0d9841a89063ec31a ceph: remove useless session parameter for check_caps()
 68c62bee9d081cf815310b3a96e38d94fc16007d ceph: try to check caps immediately after async creating finishes
@@ -1030,33 +1050,5 @@ ed843d6ed7310a27cf7c8ee0a82a482eed0cb4a6 vdpa/vp_vdpa: fix kfree a wrong pointer
 0b7a04a30eef20e6b24926a45c0ce7906ae85bd6 vdpasim: fix memory leak when freeing IOTLBs
 72455a1142527e607e1d69439f3ffa2ef6d09e26 vdpa_sim_net: should not drop the multicast/broadcast packet
 a26116c1e74028914f281851488546c91cbae57d virtio_blk: Fix signedness bug in virtblk_prep_rq()
-78627a647379290530021eeb52c8dbc8f863ae16 virtio_pmem: populate numa information
-afc9dcfb846bf35aa7afb160d5370ab5c75e7a70 Add SolidRun vendor id
-136dd8d8f3a0ac19f75a875e9b27b83d365a5be3 New PCI quirk for SolidRun SNET DPU.
-35db41f8abc3cd3332daa8328f69680ecfbdb452 virtio: vdpa: new SolidNET DPU driver.
-16db1c384881310831839ac105b64d4a17c08fa0 virtio: vdpa: fix snprintf size argument in snet_vdpa driver
-a3bb2cd4f72136456a152a11baacaa07aacea6aa docs: driver-api: virtio: virtio on Linux
-95067dcde45dc43606ef8049ffd26fa48279910b virtio-blk: add support for zoned block devices
-0a771025a84e9b77eb93a06833519fa78fa0de35 virtio_blk: temporary variable type tweak
-c0eb3e328168a2f354055b0e00ff04d9a694575a virtio_blk: zone append in header type tweak
-e7f965c25bdca7f24954d8ff7fb8bf2b67999ea0 virtio_blk: mark all zone fields LE
-00ed575a4415bf81876e2c7cd6fd97f600ec5135 virtio_blk: add VIRTIO_BLK_F_LIFETIME feature support
-331cfbeefd949446f5f0eaed88fad5531a5f8ade vdpa/mlx5: Move some definitions to a new header file
-93f0de9a365d174dfd669dd507426e3446f6d50a vdpa/mlx5: Add debugfs subtree
-7fc5e9ed07778c5375cbfb6e427f9ecf60f21aaa vdpa/mlx5: Add RX counters to debugfs
-3a383ac23a5f86b5b636648c398ded43c06e7551 vDPA/ifcvf: decouple hw features manipulators from the adapter
-d92364b5058a507f5ed0afa92311c1977cf70ace vDPA/ifcvf: decouple config space ops from the adapter
-667fb58bf88990290a60826a2a3eaa44795f0c53 vDPA/ifcvf: alloc the mgmt_dev before the adapter
-f9c457f008b5a51e85d22abaf467a1049477bfef vDPA/ifcvf: decouple vq IRQ releasers from the adapter
-ddb46c0a8e49876afdc34be4e80e6984bf8223ce vDPA/ifcvf: decouple config IRQ releaser from the adapter
-bc6b0c278e0512f4b17f678a216283c34a92c7d7 vDPA/ifcvf: decouple vq irq requester from the adapter
-918b661e8e5fcceb1f1738ec835322f06b9f4425 vDPA/ifcvf: decouple config/dev IRQ requester and vectors allocator from the adapter
-4e4b67f977735b3697ececedffbeba8642b3d7a9 vDPA/ifcvf: ifcvf_request_irq works on ifcvf_hw
-68ede420c393fb0a2c6daee1c072d58b6a0a3fa1 vDPA/ifcvf: manage ifcvf_hw in the mgmt_dev
-a515bfe3ea7d8273806205da5bb759a812cb2ed9 vDPA/ifcvf: allocate the adapter in dev_add()
-177d00cd229435d9fc453a26bf65bd489c62ec86 vDPA/ifcvf: retire ifcvf_private_to_vf
-4abf80503fe8a1fe0da112ca206cab53d1e3b877 vDPA/ifcvf: implement features provisioning
-f169a9538803469418d9ba2c42a0236fc43cd876 virtio/vsock: replace virtio_vsock_pkt with sk_buff
-2822599fccd9f2565dff5a174e1940453876a5e9 vdpa_sim_net: Offer VIRTIO_NET_F_STATUS
 
---===============1039035656650793191==--
+--===============2692101049517533420==--
