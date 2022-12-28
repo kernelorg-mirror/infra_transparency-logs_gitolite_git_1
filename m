@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9007325731738772520=="
+Content-Type: multipart/mixed; boundary="===============5120301585555893337=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Wed, 28 Dec 2022 17:13:34 -0000
-Message-Id: <167224761480.21236.2272435174189487431@gitolite.kernel.org>
+Date: Wed, 28 Dec 2022 17:14:29 -0000
+Message-Id: <167224766901.21594.17627654395139670833@gitolite.kernel.org>
 
---===============9007325731738772520==
+--===============5120301585555893337==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,35 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jic23/iio
 user: jic23
 changes:
-  - ref: refs/heads/togreg
-    old: 0dec19b344b5428ac801e66903622885a53cd3f4
-    new: bbd9b7e19be9709f5feef23c1994ab4302c454d1
-    log: revlist-0dec19b344b5-bbd9b7e19be9.txt
+  - ref: refs/heads/fixes-togreg
+    old: 95e3f901f7b11eaa4f766967b28863a557eeb0b5
+    new: bffb7d9d1a3dbd09e083b88aefd093b3b10abbfb
+    log: revlist-95e3f901f7b1-bffb7d9d1a3d.txt
 
---===============9007325731738772520==
+--===============5120301585555893337==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0dec19b344b5-bbd9b7e19be9.txt
+Content-Disposition: attachment; filename=revlist-95e3f901f7b1-bffb7d9d1a3d.txt
 
+e2f1c8cb020296ddfa255e06b15f071807c2ed73 can: m_can: Batch acknowledge rx fifo
+40c9e4f676abbe194541d88e796341c92d5a13c0 can: tcan4x5x: Remove invalid write in clear_interrupts
+67727a17a6b375d68fe569b77e6516b034b834c0 can: tcan4x5x: Fix use of register error status mask
+ef5778f7084196997e00095c43b12693ef5111d0 can: tcan4x5x: Fix register range of first two blocks
+39dbb21b6a2951a2ce311c93eb09f9ff9b96e7b8 can: tcan4x5x: Specify separate read/write ranges
+47bf2b2393ea1aacdefbe4e9d643599e057bb3a2 Merge patch series "can: m_can: Optimizations for tcan and peripheral chips"
+462e768b55a2331324ff72e74706261134369826 iommu/mediatek: Fix forever loop in error handling
+e3eca2e4f6489ed3143c80ce90bfa7ef7e12ebc7 Merge branches 'arm/allwinner', 'arm/exynos', 'arm/mediatek', 'arm/rockchip', 'arm/smmu', 'ppc/pamu', 's390', 'x86/vt-d', 'x86/amd' and 'core' into next
+22250dbaba99f87574095af894610e9801d74419 regmap: Merge fix for where we get the number of registers from
+b2b509fb5a1e6af1e630a755b32c4658099df70b Merge tag 'linux-can-next-for-6.2-20221212' of git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can-next
+888bc86e7cca29de20223ee46e9b770ced2c038e Merge branch 'acpica'
+45494d77f279d0420f06376dcf105b23e300c5a4 Merge branches 'acpi-scan', 'acpi-bus', 'acpi-tables' and 'acpi-sysfs'
+6f1581810b2960ffb8e2bbcdde89d523555371da Merge branches 'acpi-pm', 'acpi-processor', 'acpi-ec' and 'acpi-video'
+39f26d10120ada8553647d9f61223bda7a22336b Merge branches 'acpi-apei', 'acpi-x86', 'acpi-battery' and 'acpi-pfrut'
+3bc8edc98bd43540dbe648e4ef91f443d6d20a24 nfsd: under NFSv4.1, fix double svc_xprt_put on rpc_create failure
+bee74dcbd3908291f4bfff3c81a52d52dcd48814 Merge branches 'acpi-fan', 'acpi-pcc', 'acpi-misc' and 'pnp'
+3919430fe93bcfad5e34cdbb4d81cd17b3bbd27a Merge branches 'edac-ghes' and 'edac-misc' into edac-updates-for-v6.2
+173c6c5af3277911763e8c737f0178db9a246d69 Merge branch 'pm-cpufreq'
 7680d45a910f775402281253610f039277630d0c Merge branches 'pm-cpuidle', 'pm-sleep' and 'pm-domains'
 c1ac03af6ed45d05786c219d102f37eb44880f28 tracing: Fix infinite loop in tracing_read_pipe on overflowed print_trace_line
 e0e44513c793c3e8f6ce5eff377065e67853806b Merge branches 'powercap', 'pm-x86', 'pm-opp' and 'pm-misc'
@@ -1021,34 +1039,16 @@ edb23125fd4a79003012bc619d2c604da922865e Merge tag 'pstore-v6.2-rc1-fixes' of gi
 72a85e2b0a1e1e6fb4ee51ae902730212b2de25c Merge tag 'spi-fix-v6.2-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
 292a089d78d3e2f7944e60bb897c977785a321e3 treewide: Convert del_timer*() to timer_shutdown*()
 1b929c02afd37871d5afb9d498426f83432e71c2 Linux 6.2-rc1
-08f01cc1d6e240092a6d9bfa21652622657f38f0 iio: add struct declaration for iio types
-fbb6d04eab99020c63810225bdbd1fa40f02e6b9 dt-bindings: iio: magnetometer: add ti tmag5273 documentation file
-866a1389174bbb71591bb0c927f1d63e7cc469c8 iio: magnetometer: add ti tmag5273 driver
-c9d8b868f4a37bf2589b0148f366cc753735ead7 dt-bindings: iio: adc: ti,adc081c: Document the binding
-51f3e9696c8e784f74a4c1f9fe2e9d5ff9641a8d dt-bindings: iio: adc: add TI LMP92064 controller
-627198942641dae28024ad686066311f1aeedcf2 iio: adc: add ADC driver for the TI LMP92064 controller
-611370fe482bf611ef61d2343b92742e4b2dc5a3 dt-bindings: iio: dac: ad5686: Add an entry for AD5337
-58c2630020c5f820d63e2d03aa2341d19d4c0c5b iio: dac: ad5686: Add support for AD5337
-7ae267954af798f51985629dc795fba616af37cd iio: adc: at91-sama5d2_adc: use sysfs_emit() to instead of scnprintf()
-f9e51aacc740935bd0201565e040fd7b36f645aa iio: common: scmi_iio: use sysfs_emit() to instead of scnprintf()
-4da9438d293d30def46b2801fa00e176c59883d2 iio: accel: bma400: Use devm_regulator_bulk_get_enable()
-122ef59a2a16e4542705913b905d841704e239e9 iio: pressure: ms5611: Use devm_regulator_get_enable()
-caa6693e408eb87169ac18db6073a326829ce7ad iio: pressure: ms5611: Switch to fully devm_ managed registration.
-22cd9320b11a2eb05e5d490863a4219ca32e8ec9 iio: light: max44009: Convert to i2c's .probe_new()
-027641b52fe37b64af61025298ce160c8b9b7a73 iio: light: tsl2563: Do not hardcode interrupt trigger type
-3c183534f2784484182e51c8019c1e9f0638ef8a iio: light: tsl2563: Use i2c_smbus_write_word_data() in tsl2563_configure()
-aca68c027322fd7c63c05b308569727a618c47a7 iio: light: tsl2563: Configure INT in one place
-b90619c4efee915c6419373b1ec024878ee7e38c iio: light: tsl2563: Make use of the macros from bits.h
-bbabf9199126d7eb950ccc369543c462cc58e1b7 iio: light: tsl2563: Drop unused defintion(s)
-2080c8d34602a6ad86286a04e5b8b40f40505215 iio: light: tsl2563: Simplify with dev_err_probe
-1f5e408f6a000be980872b8065e547e2dbef6acc iio: light: tsl2563: Drop legacy platform data code
-85a6b728eff68647746629b9332434e237a53100 iio: light: tsl2563: Utilise temporary variable for struct device
-571b97fd8777234fcd1f94ed36781bed39f1e20d iio: light: tsl2563: Use dev_get_drvdata() directly in PM callbacks
-3582a83b1f338d9be7b4461ff2ed8033d2ff9c6d iio: light: tsl2563: sort header inclusion alphabetically
-c12f0148f14bcac79c100e1eff9309744eed6684 iio: light: tsl2563: Keep Makefile sorted by module name
-5d1c74b155cb40606dce6f8db2f79537c11fcd71 iio: imu: kmx61: Fix spelling mistake "Errow" -> "Error"
-04104842736fb29d2e1b5c71dd93f87f428506f0 iio: adc: qcom-spmi-adc5: Suppress probe-deferral error message
-610813655932359e50900337f7fd24b684e7a476 dt-bindings: iio: adc: max1238: Fix a typo in the description
-bbd9b7e19be9709f5feef23c1994ab4302c454d1 dt-bindings: iio: adc: maxim,max1363: fix interface typo
+cc3304052a89ab6ac887ed9224420a27e3d354e1 iio: adc: stm32-dfsdm: fill module aliases
+cbd3a0153cd18a2cbef6bf3cf31bb406c3fc9f55 iio: adc: berlin2-adc: Add missing of_node_put() in error path
+6794ed0cfcc6ce737240eccc48b3e8190df36703 iio: adc: xilinx-ams: fix devm_krealloc() return value check
+0fc3562a993c3dc41d1177b3983d9300d0db1d4d iio: imx8qxp-adc: fix irq flood when call imx8qxp_adc_read_raw()
+f804bd0dc28683a93a60f271aaefb2fc5b0853dd iio:adc:twl6030: Enable measurements of VUSB, VBAT and others
+429e1e8ec696e0e7a0742904e3dc2f83b7b23dfb iio: imu: fxos8700: fix map label of channel type to MAGN sensor
+c68b44bc7d9b1469774a1c985ee71d2cbc5ebef5 iio: imu: fxos8700: fix swapped ACCEL and MAGN channels readback
+37a94d86d7050665d6d01378b2c916c28e454f10 iio: imu: fxos8700: fix incomplete ACCEL and MAGN channels readback
+a53f945879c0cb9de3a4c05a665f5157884b5208 iio: imu: fxos8700: fix IMU data bits returned to user space
+9d61c1820598a5ea474576ed55318a6dadee37ed iio: imu: fxos8700: fix ACCEL measurement range selection
+bffb7d9d1a3dbd09e083b88aefd093b3b10abbfb iio:adc:twl6030: Enable measurement of VAC
 
---===============9007325731738772520==--
+--===============5120301585555893337==--
