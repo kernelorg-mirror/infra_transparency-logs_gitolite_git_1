@@ -1,21 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tzungbi/chrome-platform
-Date: Wed, 28 Dec 2022 03:40:34 -0000
-Message-Id: <167219883480.20985.7819690540505045941@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless-testing
+Date: Wed, 28 Dec 2022 03:42:07 -0000
+Message-Id: <167219892711.21507.1693416463674790086@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tzungbi/chrome-platform
-user: tzungbi
+repo: pub/scm/linux/kernel/git/wireless/wireless-testing
+user: bcopeland
 changes:
-  - ref: refs/heads/for-next
-    old: d515dab11b92c6121a03cd30fb485feec9a4e610
-    new: 311b8d89caeac83e137dbdcce2350dd65923d380
-    log: |
-         a10a50791a12de1a4e540906bcd85d80dbda4f79 platform/chrome: cros_ec_uart: Add transport layer
-         4d56496e0e35ad015689e295974d0b6101a196ca dt-bindings: mfd: cros-ec: Add UART compatible string
-         311b8d89caeac83e137dbdcce2350dd65923d380 platform/chrome: cros_ec_uart: Add DT enumeration support
-         
+  - ref: refs/tags/wt-2022-12-27
+    old: 0000000000000000000000000000000000000000
+    new: 2996f8cc23cd9f6982ae3c103c2272021956bd87
