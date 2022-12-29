@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Thu, 29 Dec 2022 10:04:36 -0000
-Message-Id: <167230827622.18738.8483061140285641815@gitolite.kernel.org>
+Subject: post-receive: pub/scm/docs/man-pages/man-pages
+Date: Thu, 29 Dec 2022 10:36:48 -0000
+Message-Id: <167231020801.7805.16438870816765105037@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-user: masahiroy
+repo: pub/scm/docs/man-pages/man-pages
+user: alx
 changes:
-  - ref: refs/heads/kbuild
-    old: 42e753cbfa5bf31cf01dad44a33cc7c48439ba38
-    new: 32883b883f4c31d7410f3163a8746f87cbd15b71
+  - ref: refs/heads/master
+    old: 5157175d56bc7bbeb80b6e33917e7b9bf6fd9eb8
+    new: 1c6cd58844e578798c30e82af0b4bab73c5f4efd
     log: |
-         45f9d9d967470f7d8925b08d895082c05ee7b09e kbuild: clean up stale file removal
-         19e157046d30dbf8544b8468144a1311a16ad06b .gitignore: update the command to check tracked files being ignored
-         32883b883f4c31d7410f3163a8746f87cbd15b71 kbuild: make W=1 warn files that are tracked but ignored by git
+         1c6cd58844e578798c30e82af0b4bab73c5f4efd README: The git repo now covers the full history
          
