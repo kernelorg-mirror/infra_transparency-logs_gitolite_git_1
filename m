@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============7230693880443641471=="
+Content-Type: multipart/mixed; boundary="===============6937244246796939969=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Thu, 29 Dec 2022 20:24:28 -0000
-Message-Id: <167234546845.5485.10274551175300587634@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Thu, 29 Dec 2022 20:24:34 -0000
+Message-Id: <167234547489.5582.743200828355163591@gitolite.kernel.org>
 
---===============7230693880443641471==
+--===============6937244246796939969==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.2
+  - ref: refs/heads/asoc-6.2
     old: b1e9c223736b1471287f0ac46a368676c3bd7727
     new: 810948f45d99c46b60852ef2a5a2777c12d6bb3e
     log: |
@@ -26,28 +26,28 @@ changes:
          810948f45d99c46b60852ef2a5a2777c12d6bb3e ASoC: support machine driver with max98360
          
 
---===============7230693880443641471==
+--===============6937244246796939969==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1672345467 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1672345466-e770671d2c5b0dc7aecd9bba235f4e7baed3be06
+pusher C3F436CA30F5D8EB 1672345473 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1672345473-2ac24da0e937f2f71837467b84568001cd8a9e82
 
-b1e9c223736b1471287f0ac46a368676c3bd7727 810948f45d99c46b60852ef2a5a2777c12d6bb3e refs/heads/for-6.2
+b1e9c223736b1471287f0ac46a368676c3bd7727 810948f45d99c46b60852ef2a5a2777c12d6bb3e refs/heads/asoc-6.2
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmOt93sACgkQJNaLcl1U
-h9BQNAf/WxJChQy12N3uPGVX8ev1ZotaklmKBSNdCd19qj6f8pZUx3TtXZ8fJk+f
-p9kJycwHXb+fRGncIPEWLedG3I29RuL7HVbQom0s+Fn2U3nxCXhaluOE2Xupnqcc
-m1JDHUnNn/SO7m26adEaax0q5TqVIlHJ4HveGvw8EMl+FEqfRVi7OGYDP0wyKqF5
-3RLusBGyeajQ4Iys7JQlZG18pgRxhBbPQTRyPydRlJH+zIWyV5m+/iwUMjPZ8PuZ
-BQmGbKOQBigrhqAx87G9YY9kCgwSNvTL9b+VubDVEnhX7fqAGtanhi5M17rrnIXP
-Znh8iEqMO81LfDGDTFDk9ZZq0LlPjg==
-=P3pQ
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmOt94EACgkQJNaLcl1U
+h9Ddkgf+PNDTDIReAxiFfE3Oa5tkVCvt39rVyyM35unVbUa8UdqtwghXVeHVuSyK
++YCTvn2NTFB0YZiuyGA2N+nxofdrPtGGq1wWzb8lqQrRjkeU7Z/vG7k3c+vBRfxG
+5VfQXZzT1TnYK/FhM+1L8IlcM4z/W+HSZZwfCLgkrghu1UzqlLYMLp9WLIS+ZVgz
+GgQm8hIkAxYPsuk04LPte4MvJewZ/nv9zdRlamNgWKt8DElfnz6FG99ulXA7Fjvg
+W11j6A4gVON6lmYaHMowXTP5hecZiBWyIBVsw387rEq8TQlCy1njIS1uMz3JPIdJ
+okLKipgoS9s5y6HlV+V/jqrCFKxI4w==
+=2eN5
 -----END PGP SIGNATURE-----
 
---===============7230693880443641471==--
+--===============6937244246796939969==--
