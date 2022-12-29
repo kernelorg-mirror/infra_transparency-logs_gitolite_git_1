@@ -1,21 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 29 Dec 2022 11:13:11 -0000
-Message-Id: <167231239167.30664.1946914441366700184@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Thu, 29 Dec 2022 13:21:48 -0000
+Message-Id: <167232010892.18125.6921296949664463968@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: bp
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/master
-    old: 1379eb6a2a60194c655c745385fffbb7d903fb1e
-    new: e57afd2216b3825940e4a63bcfafb1e9d090ba24
-    log: |
-         2117654e806c08c343e3d0567bbedf33eab040c8 x86/mce: Define a function to extract ErrorAddr from MCA_ADDR
-         fcd343a285cb41894a7bd02dbd675042d394758d x86/mce: Add support for Extended Physical Address MCA changes
-         e57afd2216b3825940e4a63bcfafb1e9d090ba24 Merge ras/core into tip/master
-         
+  - ref: refs/heads/20221228_tongjian_add_new_amp_max98360a_for_rt5682s
+    old: 0000000000000000000000000000000000000000
+    new: 2d3dd559751ce19ba84f9690c6c7c5a4b39129df
+  - ref: refs/heads/20221229_yangyingliang_spi_altera_switch_to_use_modern_name
+    old: 0000000000000000000000000000000000000000
+    new: 02c9e5b768b26239be7459438275f8fc835e9dc4
+  - ref: refs/heads/filecPrxGX
+    old: 0000000000000000000000000000000000000000
+    new: c1b9c2f02ed796a6cbbfceacb14f7c5f5c7ac94f
+  - ref: refs/heads/filefenv5T
+    old: 0000000000000000000000000000000000000000
+    new: 810948f45d99c46b60852ef2a5a2777c12d6bb3e
