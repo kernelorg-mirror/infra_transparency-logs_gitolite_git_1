@@ -1,81 +1,73 @@
-Content-Type: multipart/mixed; boundary="===============1101850158861097581=="
+Content-Type: multipart/mixed; boundary="===============9001361726796515607=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Thu, 29 Dec 2022 18:55:51 -0000
-Message-Id: <167234015123.12478.8840185891982187989@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Thu, 29 Dec 2022 18:59:48 -0000
+Message-Id: <167234038851.13762.9685420698906992172@gitolite.kernel.org>
 
---===============1101850158861097581==
+--===============9001361726796515607==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/next-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/dev-queue
-    old: 519e8ac228af6b56bda8672dab652955623b7853
-    new: 585bcc1a38c5063e9efa62071bd54865fd259aef
-    log: revlist-519e8ac228af-585bcc1a38c5.txt
+  - ref: refs/heads/master
+    old: 1b929c02afd37871d5afb9d498426f83432e71c2
+    new: 2258c2dc850b8605cb66b3383e50b9dddd1c6580
+    log: revlist-1b929c02afd3-2258c2dc850b.txt
 
---===============1101850158861097581==
+--===============9001361726796515607==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-519e8ac228af-585bcc1a38c5.txt
+Content-Disposition: attachment; filename=revlist-1b929c02afd3-2258c2dc850b.txt
 
-578db231ee2a19c3e668803ab2c7a134af52ef67 ice: move devlink port creation/deletion
-12d67c5924a56916043cef1cafe87b8543c8f357 igc: Clean up and optimize watchdog task
-fbe21bbefdbb98e76c2576490ef51162a19bf634 intel/igbvf: free irq on the error path in igbvf_request_msix()
-cc195484ab2a48bb7555dad1706ec16fbe1a469e igb: Enable SR-IOV after reinit
-071af3fea78dcac3d7a89d0f3c258cbf864deb73 ice: Fix broken link in ice NAPI doc
-7183fcd49bb2fc7e755c126f6547d2f5653e8c70 ixgbe: XDP: fix checker warning from rcu pointer
-27af5411d340f5ad4e13418f2471c6a96528f32c ice: Add support for 100G KR2/CR2/SR2 link reporting
-db91eda7eb42d02bfec94376e61ec457ebcd112b ice: combine cases in ice_ksettings_find_adv_link_speed()
-c52dd715475f73641dee921b1ca10bd5f78bebb8 ice: Remove cppcheck suppressions
-a4add3c9a4a6bf4f22c188a19445c1853ffcf189 ice: Reduce scope of variables
-c5e1eeb6bd06a6f3c6d6c2044ced6e147f1d4cc6 ice: Fix deadlock on the rtnl_mutex
-7fb305122cf989536b97176ee0fbe0bb08e8b396 ixgbe: fix pci device refcount leak
-796562ac5ed88c5073bfe0935bbacf03d0013e4b ice: xsk: do not use xdp_return_frame() on tx_buf->raw_buf
-ef7e7f6250d75be766e2ea03925f800908c440b9 ice: Enable extended PTP support for E823L & E823C devices
-f2f4f8fd339d3ebffb2a52bf4f80ce942abf3cce igbvf: Regard vf reset nack as success
-76b3c7cdfea8df71f92831574661e49f005686e8 ice: Add more usage of existing function ice_get_vf_vsi(vf)
-527d53ac2f3f87506e4f9d027c3901729b90ee3f igb: conditionalize I2C bit banging on external thermal sensor support
-13682fe4070590e68f313fdeee1cd4defe1f78b4 ice: switch: fix potential memleak in ice_add_adv_recipe()
-1a8e8cdb2ca08a5c23e992dee438267adc863417 ixgbe: Filter out spurious link up indication
-2db93bcebe57cdfc7d451c499dce9048d8077c1d igc: remove I226 Qbv BaseTime restriction
-a3d750df454d39493c13c85ae99c05d863c42121 igc: enable Qbv configuration for 2nd GCL
-a39a707a3d531ed91f9673d0fcde3a5df2fc21d5 igc: Remove reset adapter task for i226 during disable tsn config
-b3348431ae51520441055ceff8c3ee70f88e1c3c igc: Fix PPS delta between two synchronized end-points
-e1b18c3e1725afd0505a7ee8c091a73df7225164 ice: add missing checks for PF vsi type
-1f314f06b46cd7830a2d93744b0d35ace6e8c035 ice: Explicitly return 0
-a581ebc01fe2ca3f4fc988778bbd12350ac4c7ca ice: Match parameter name for ice_cfg_phy_fc()
-94a22ba332afe937370dc80fe741687101500258 ice: Introduce local var for readability
-c3e3de36eb8c717bbb40821150ba640f588d2083 igc: Add qbv_config_change_errors counter
-4ce714c7a35f91b7115746e3dd1be1349ae62223 ice: Prevent set_channel from changing queues while RDMA active
-abb567927f7a627b9ac5ba31c26c672833c9144d iavf/iavf_main: actually log ->src mask when talking about it
-fdd542af76101e61af70f08f788a3439728b2112 igc: offload queue max SDU from tc-taprio
-949d5fa9186f0dbd6a71fbc2a70f1b5c939a9d21 virtchnl: remove unused structure declaration
-19073cb21bf60275c5f45375c6ca6d536a7c20b8 virtchnl: update header and increase header clarity
-2eb3d0c36d0ba8238ef3f6ddcac26a218340db21 virtchnl: do structure hardening
-a928dad23640cdcca316bdef31b9c61335950f7d virtchnl: i40e/ice/iavf: rename iwarp to rdma
-f38230736c5af8b5ef82a471b75f79a78b0f7c3b ice: move RDMA init to ice_idc.c
-ef12d0d8ce5250e25a47417335063e3ee26be8b6 ice: alloc id for RDMA using xa_array
-505371c8715dd1a4c5d4566945d43d7fb988d666 ice: cleanup in VSI config/deconfig code
-f833ce48581cfdf4b086d7c79cef79191b0a21d2 ice: split ice_vsi_setup into smaller functions
-28ff10b61eb914de981209b4a5413427fb6212d0 ice: stop hard coding the ICE_VSI_CTRL location
-732c084b4120dfc7164efae16aa17c80fcaf6b2a ice: split probe into smaller functions
-25a18681e7d4c33f779451c07daace0424666cd7 ice: sync netdev filters after clearing VSI
-5a8a72ab4f73c62e5532cf5cb39765dfa54ed405 ice: move VSI delete outside deconfig
-8c2cf6b000a2685c9bdf201fe72e9c3f8b4b6a70 ice: update VSI instead of init in some case
-40a93584948846b1549db9ac6a4261a4acb4e8ac ice: implement devlink reinit action
-b8bcb546a70eaa3fe5e88a64124056f3fa1d946f ice: Move support DDP code out of ice_flex_pipe.c
-857e92b8f2ff319bec2395f6582b256a4a7daa53 ice: remove FW logging code
-0d592e39b38fa0533bea6352c7212258ba50c621 ice: enable devlink to check FW logging status
-89b0aaf8ab7d6bbba3a4029d68c3af6a2d0c01a6 ice: add ability to query/set FW log level and resolution
-8f08dc2b74df9612be2fe19c3ec55bc49d154f3a ice: disable FW logging on driver unload
-585bcc1a38c5063e9efa62071bd54865fd259aef ice: use debugfs to output FW log data
+55c590adfe18b5380f7c4ae3696468bc5c916ee5 KVM: x86/pmu: Prevent zero period event from being repeatedly released
+fceb3a36c29a957515d5156e5e7844ea040dc43d KVM: x86: ioapic: Fix level-triggered EOI and userspace I/OAPIC reconfigure race
+8b9e13d2de73b5513c2ceffe0f62eab40206a126 KVM: x86: hyper-v: Fix 'using uninitialized value' Coverity warning
+3c649918b764c0aaef22ea65d514bac5e2324ec0 KVM: x86: Simplify kvm_apic_hw_enabled
+77b1908e10eccf34310ffd95b0b455c01aa76286 KVM: x86: Sanity check inputs to kvm_handle_memory_failure()
+53800f88d414525d3fdc5c84629faa0b6bc35b3b KVM: selftests: Zero out valid_bank_mask for "all" case in Hyper-V IPI test
+057b18756b464729bc787ed4e6b44abb9f5c3a38 KVM: nVMX: Document that ignoring memory failures for VMCLEAR is deliberate
+31de69f4eea77b28a9724b3fa55aae104fc91fc7 KVM: nVMX: Properly expose ENABLE_USR_WAIT_PAUSE control to L1
+a0860d68a25dee4e51e7d3e067a66ca765776fe8 KVM: nVMX: Don't stuff secondary execution control if it's not supported
+f5d16bb9be68b20c78fc3d93fa243eb1f0b9fa53 KVM: x86/mmu: Don't attempt to map leaf if target TDP MMU SPTE is frozen
+80a3e4ae962de33ff6a94e798c80e56e1fed4d10 KVM: x86/mmu: Map TDP MMU leaf SPTE iff target level is reached
+21a36ac6b6c7059965bac0cc73ef3cbb8ef576dd KVM: x86/mmu: Re-check under lock that TDP MMU SP hugepage is disallowed
+50a9ac25985c037d45ee6d7e3a7ae198a63b9266 KVM: x86/mmu: Don't install TDP MMU SPTE if SP has unexpected level
+e779fd53b4aa0aa8704ae62eb56065b9877a540b KVM: selftests: Define literal to asm constraint in aarch64 as unsigned long
+73441efa36c253906057b8800bc9a3fdadbc2c41 KVM: selftests: Delete dead code in x86_64/vmx_tsc_adjust_test.c
+d61a12cb9af5b355a38e0c0106e91224b49195ce KVM: selftests: Fix divide-by-zero bug in memslot_perf_test
+43e96957e8b87bad8e4ba666750ff0cda9e03ffb KVM: selftests: Use pattern matching in .gitignore
+1525429fe5cb8e23b74c6dd473bb477a35906704 KVM: selftests: Fix a typo in x86-64's kvm_get_cpu_address_width()
+6a5db83adfd668b3c1092274ddf45903eb1fe435 KVM: selftests: Rename UNAME_M to ARCH_DIR, fill explicitly for x86
+5dc38777a7de15109a1d45b42cf2bb7f1bbe6010 KVM: selftests: Use proper function prototypes in probing code
+2b2d8afc1acf6396bea14ef973d0029c4a5b33f4 KVM: selftests: Probe -no-pie with actual CFLAGS used to compile
+7cf2e7373ab145bf972c3cbcb495fd1a9770c3b0 KVM: selftests: Explicitly disable builtins for mem*() overrides
+5efb946b9569abdfb8a42702d40a5c244096e932 KVM: selftests: Include lib.mk before consuming $(CC)
+db7b780dab6742a8358ae7ecb1d0e972ccea8737 KVM: selftests: Disable "gnu-variable-sized-type-not-at-end" warning
+2f5213b8fc311eaa8fc78de7ecbd27ead027993c KVM: selftests: Use magic value to signal ucall_alloc() failure
+feb84f6daa7e7d51444d13fa65df7d5562fd0075 KVM: selftests: document the default implementation of vm_vaddr_populate_bitmap
+7a16142505cbb9b80d5e998e32b1d882e0f45d64 KVM: arm64: selftests: Don't identity map the ucall MMIO hole
+92c8191bb5d3f670ed806f91823381193288a4e1 KVM: selftests: Mark correct page as mapped in virt_map()
+e0a78525f540f9d9a44a296f307b8b74cee4c288 MAINTAINERS: adjust entry after renaming the vmx hyperv files
+a303def0fc18f0f2393b5c5f8ae3d2657a9713dc kvm: Remove the unused macro KVM_MMU_READ_{,UN}LOCK()
+562f5bc48a8d99a8898c734ecacf061a79a88fbf kvm: x86/mmu: Remove duplicated "be split" in spte.h
+23e528d9bce2385967370ad95a7d52a3c7a0a016 KVM: Delete extra block of "};" in the KVM API documentation
+385407a69d5140825d4cdab814cbf128ba63a64a KVM: x86/xen: Fix memory leak in kvm_xen_write_hypercall_page()
+92c58965e9656dc6e682a8ffe520fac0fb256d13 KVM: x86/xen: Use kvm_read_guest_virt() instead of open-coding it badly
+70eae03087a3101493d9a1cf60c86c5f65600822 KVM: x86/xen: Fix SRCU/RCU usage in readers of evtchn_ports
+1c14faa5087db0a098c3ab1e183f2b5df4b0d3f2 KVM: x86/xen: Simplify eventfd IOCTLs
+b0305c1e0e27ad91187bc6d5ac3d502799faf239 KVM: x86/xen: Add KVM_XEN_INVALID_GPA and KVM_XEN_INVALID_GFN to uapi
+af2808906aab0bf5786021d45b3ebfca6f4ad72f KVM: x86/xen: Documentation updates and clarifications
+a79b53aaaab53de017517bf9579b6106397a523c KVM: x86: fix deadlock for KVM_XEN_EVTCHN_RESET
+02d9a04da453984b16f4a585ad808cf961df495e Documentation: kvm: clarify SRCU locking order
+129c48cde6c9e519d033305649665427c6cac494 KVM: selftests: restore special vmmcall code layout needed by the harness
+a5496886eb130ea08b1a5cd5c284543909bde749 Merge branch 'kvm-late-6.1-fixes' into HEAD
+2258c2dc850b8605cb66b3383e50b9dddd1c6580 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 
---===============1101850158861097581==--
+--===============9001361726796515607==--
