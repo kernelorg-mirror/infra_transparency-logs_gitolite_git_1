@@ -1,25 +1,42 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Thu, 29 Dec 2022 13:21:48 -0000
-Message-Id: <167232010892.18125.6921296949664463968@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/cryptsetup/cryptsetup
+Date: Thu, 29 Dec 2022 13:44:01 -0000
+Message-Id: <167232144188.30846.14318125879704322213@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/utils/cryptsetup/cryptsetup
+user: mbroz
 changes:
-  - ref: refs/heads/20221228_tongjian_add_new_amp_max98360a_for_rt5682s
+  - ref: refs/heads/main
+    old: 1682e72bf5199c0c8cef32a21929f026b2e1e6d4
+    new: 034041a922ea89c3808da1472e5307e0b61f7a0c
+    log: |
+         d1a607e0b2c33a523bff929ac33514e17bbfbd97 bitlk: harden parsing of metadata entries (for vmk and description entry)
+         776baf4ccc2cfe98aca2cbf109d7db08073ed33a bitlk: fix use of startup BEK key on big-endian platform
+         034041a922ea89c3808da1472e5307e0b61f7a0c bitlk: clean formatting to use tabs
+         
+  - ref: refs/heads/master
+    old: 1682e72bf5199c0c8cef32a21929f026b2e1e6d4
+    new: 034041a922ea89c3808da1472e5307e0b61f7a0c
+    log: |
+         d1a607e0b2c33a523bff929ac33514e17bbfbd97 bitlk: harden parsing of metadata entries (for vmk and description entry)
+         776baf4ccc2cfe98aca2cbf109d7db08073ed33a bitlk: fix use of startup BEK key on big-endian platform
+         034041a922ea89c3808da1472e5307e0b61f7a0c bitlk: clean formatting to use tabs
+         
+  - ref: refs/merge-requests/420/merge
+    old: 3c963e9b2fe0630ab413508683a605acab337fa9
+    new: 018e93cdf0d0455dc25264a3c8e9d6cf39032265
+    log: |
+         1682e72bf5199c0c8cef32a21929f026b2e1e6d4 bitlk: harden parsing of metadata entries
+         018e93cdf0d0455dc25264a3c8e9d6cf39032265 Merge branch 'xchacha20-random' into 'main'
+         
+  - ref: refs/merge-requests/469/head
     old: 0000000000000000000000000000000000000000
-    new: 2d3dd559751ce19ba84f9690c6c7c5a4b39129df
-  - ref: refs/heads/20221229_yangyingliang_spi_altera_switch_to_use_modern_name
+    new: 034041a922ea89c3808da1472e5307e0b61f7a0c
+  - ref: refs/merge-requests/469/merge
     old: 0000000000000000000000000000000000000000
-    new: 02c9e5b768b26239be7459438275f8fc835e9dc4
-  - ref: refs/heads/filecPrxGX
-    old: 0000000000000000000000000000000000000000
-    new: c1b9c2f02ed796a6cbbfceacb14f7c5f5c7ac94f
-  - ref: refs/heads/filefenv5T
-    old: 0000000000000000000000000000000000000000
-    new: 810948f45d99c46b60852ef2a5a2777c12d6bb3e
+    new: 20336d40b0beaa270bccfb1c5880362d3619ed6a
