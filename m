@@ -1,21 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Thu, 29 Dec 2022 19:23:37 -0000
-Message-Id: <167234181782.30405.16379855391371725061@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Thu, 29 Dec 2022 19:24:00 -0000
+Message-Id: <167234184004.30630.2057994094418851282@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 changes:
   - ref: refs/heads/for-next
-    old: e8b3c77d1b0d05909b38e2dd8efdabb5a5ec6063
-    new: b75515b6d7838d6583dbdcdcec722ba81e724d6c
+    old: 4c508c41f0aaa683eb48ed0054b47cd303d9c5a3
+    new: 730ac32224b30bdfba04a04f9feb26f8496286f8
     log: |
-         642e4f9bdac8d42d5047312e76bab7ceaf4c131e ASoC: dt-bindings: cirrus,cs35l41: add interrupts
-         c1b9c2f02ed796a6cbbfceacb14f7c5f5c7ac94f ASoC: dt-bindings: cirrus,cs35l41: cleanup $ref and example
-         b75515b6d7838d6583dbdcdcec722ba81e724d6c Merge remote-tracking branch 'asoc/for-6.3' into asoc-next
+         26c48aea147cbf3dcec1df67d0684457ddf00fea spi: altera: switch to use modern name
+         ec168190c1cace92cba22ffa2048e79f41ba5a13 spi: spi-altera-dfl: switch to use modern name
+         02c9e5b768b26239be7459438275f8fc835e9dc4 spi: spi-altera-platform: switch to use modern name
+         730ac32224b30bdfba04a04f9feb26f8496286f8 Merge remote-tracking branch 'spi/for-6.3' into spi-next
          
