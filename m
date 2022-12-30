@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/wireless/iwd
-Date: Fri, 30 Dec 2022 18:06:10 -0000
-Message-Id: <167242357084.4446.15494584086391912595@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/legion/linux
+Date: Fri, 30 Dec 2022 18:14:54 -0000
+Message-Id: <167242409452.8625.10802703965477512744@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/wireless/iwd
-user: denkenz
+repo: pub/scm/linux/kernel/git/legion/linux
+user: legion
 changes:
-  - ref: refs/heads/master
-    old: 1c1ad68a63cf4302ff90b58766516e254cf146ab
-    new: 7c517b4fcfa8915f5cdd6bc4af1ea9a3b3fd45a9
+  - ref: refs/heads/procfs-filter-v1
+    old: 19e1a7ac22e48585131f4f877dba29e02fe3dc1f
+    new: 180563e7a13c7ec3c7439d8631fde119a5405aa3
     log: |
-         e70a241f341405e35c58e062a80f5b3b6e46f707 monitor: fix buffer overrun parsing country IE
-         cfdfe9c54cccf4f89490109c01b4c776b515a13d unit: fix test-band for 6ghz frequencies
-         553052a33740f2744221f9e23b29b8d0792bcd40 band: validate channel/freq conversions with E-4
-         7c517b4fcfa8915f5cdd6bc4af1ea9a3b3fd45a9 unit: add invalid channels/freqs to test-band
+         180563e7a13c7ec3c7439d8631fde119a5405aa3 proc: Check that subset= option has been set
          
