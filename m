@@ -1,43 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============3812671690340810211=="
+Content-Type: multipart/mixed; boundary="===============1056869707869248929=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/herbert/crypto-2.6
-Date: Fri, 30 Dec 2022 15:02:22 -0000
-Message-Id: <167241254290.13268.1787477222234303251@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/herbert/cryptodev-2.6
+Date: Fri, 30 Dec 2022 15:02:35 -0000
+Message-Id: <167241255545.13417.16102834162795612782@gitolite.kernel.org>
 
---===============3812671690340810211==
+--===============1056869707869248929==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/herbert/crypto-2.6
+repo: pub/scm/linux/kernel/git/herbert/cryptodev-2.6
 user: herbert
 changes:
   - ref: refs/heads/master
     old: 453de3eb08c4b7e31b3019a4b0cc3ebce51a6219
-    new: 736f88689c6912f05d0116917910603a7ba97de7
-    log: revlist-453de3eb08c4-736f88689c69.txt
-  - ref: refs/tags/v6.2-p2
-    old: 0000000000000000000000000000000000000000
-    new: c6f54842d08d8e9e169d6a9710cc03b08f3adc42
+    new: e20d5a22bd241c5084184bcf69dfb6eddc35417f
+    log: revlist-453de3eb08c4-e20d5a22bd24.txt
 
---===============3812671690340810211==
+--===============1056869707869248929==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-453de3eb08c4-736f88689c69.txt
+Content-Disposition: attachment; filename=revlist-453de3eb08c4-e20d5a22bd24.txt
 
-eaacfeaca7ad0804b9a6eff7afeba93a87db7638 can: m_can: Call the RAM init directly from m_can_chip_config
-0826e82b8a32e646b7b32ba8b68ba30812028e47 can: raw: add support for SO_MARK
-3abcc01c38bc5d424635df96e0677e2fbec021de dt-bindings: can: renesas,rcar-canfd: Fix number of channels for R-Car V3U
-c1eaf8b9bd3145d029446c927e1c9ce925dfe6a7 can: m_can: Eliminate double read of TXFQS in tx_handler
-57757937974988dc8feb7cf66b17dca72bca813b can: m_can: Avoid reading irqstatus twice
-fac52bf786e5c302990fa79f2fdde24e84f810b0 can: m_can: Read register PSR only on error
-d4535b90a76af49d1dd7bc70ad0311a88ac5313d can: m_can: Count TXE FIFO getidx in the driver
-6355a3c983e6d6fc998f4223bd2c7ef047e4572b can: m_can: Count read getindex in the driver
-e3bff5256a0f12a1edc8d79bdef53eb83c2f1fbf can: m_can: Batch acknowledge transmit events
 e2f1c8cb020296ddfa255e06b15f071807c2ed73 can: m_can: Batch acknowledge rx fifo
 40c9e4f676abbe194541d88e796341c92d5a13c0 can: tcan4x5x: Remove invalid write in clear_interrupts
 67727a17a6b375d68fe569b77e6516b034b834c0 can: tcan4x5x: Fix use of register error status mask
@@ -1053,5 +1041,14 @@ edb23125fd4a79003012bc619d2c604da922865e Merge tag 'pstore-v6.2-rc1-fixes' of gi
 1b929c02afd37871d5afb9d498426f83432e71c2 Linux 6.2-rc1
 a23529989a8f56d23680c4f2d14011bc9c9457c9 crypto: caam - fix CAAM io mem access in blob_gen
 736f88689c6912f05d0116917910603a7ba97de7 crypto: arm64/sm4 - fix possible crash with CFI enabled
+116db2704c193fff6d73ea6c2219625f0c9bdfc8 crypto: x86/ghash - fix unaligned access in ghash_setkey()
+f1740751f793d1ee5f0bd0639f68f49c4ccb94a9 crypto: x86/ghash - use le128 instead of u128
+750426d63368c98404c917500b3687d7aed1a484 crypto: x86/ghash - add comment and fix broken link
+4838c5195af75373104d1e2895810c1f95c00ec4 crypto: atmel - Add capability case for the 0x600 SHA and AES IP versions
+b517b0fbfec836391427649b207735afb698fcf3 crypto: arm/sha1 - Fix clang function cast warnings
+aa9695157f65c55e5c85a1c194859d3c03e68018 crypto: scatterwalk - use kmap_local() not kmap_atomic()
+8031d1f678c2b06733c8f9028b413194b47c33ab crypto: wp512 - disable kmsan checks in wp512_process_buffer()
+49bc6a7786b7d03eab6912a88d09a7991a32174e crypto: ux500 - update debug config after ux500 cryp driver removal
+e20d5a22bd241c5084184bcf69dfb6eddc35417f crypto: lib/blake2s - Split up test function to halve stack usage
 
---===============3812671690340810211==--
+--===============1056869707869248929==--
