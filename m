@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8040397995092417444=="
+Content-Type: multipart/mixed; boundary="===============2902052758475458819=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Fri, 30 Dec 2022 09:26:19 -0000
-Message-Id: <167239237955.4065.9036340680178371013@gitolite.kernel.org>
+Date: Fri, 30 Dec 2022 09:37:22 -0000
+Message-Id: <167239304221.10563.1021464406791642469@gitolite.kernel.org>
 
---===============8040397995092417444==
+--===============2902052758475458819==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,41 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: a8a5fb9a4836c96e1ac54f7440cc2c18dd2480c0
-    new: abb77bbd618e6299a84026cd9b798ebdf5bfeffb
+    old: abb77bbd618e6299a84026cd9b798ebdf5bfeffb
+    new: ccceb6e6f074dcc0d595a696e46db9f7fd2e7a01
     log: |
-         abb77bbd618e6299a84026cd9b798ebdf5bfeffb drop powerpc-dts-t208x-mark-mac1-and-mac2-as-10g.patch from everywhere
+         3205412bb92c8a2ff987dbd39e0620a5be6cb6b4 drop a bunch of block patches from 6.0 and 6.1
+         ccceb6e6f074dcc0d595a696e46db9f7fd2e7a01 drop queue-5.15/blk-iocost-simplify-ioc_name.patch
          
 
---===============8040397995092417444==
+--===============2902052758475458819==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1672392378 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1672393039 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1672392377-17604c30817500d570d21019cb6d33b828dc5ac0
+nonce 1672393038-35a81224c75f526b1b0b9cc2470156d482fd5764
 
-a8a5fb9a4836c96e1ac54f7440cc2c18dd2480c0 abb77bbd618e6299a84026cd9b798ebdf5bfeffb refs/heads/master
+abb77bbd618e6299a84026cd9b798ebdf5bfeffb ccceb6e6f074dcc0d595a696e46db9f7fd2e7a01 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmOurrobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+7ugP/3E7f9GLk5TR8NHb+ltZ
-B2fTjmPvCwx87UMlwG1uJ4dTdnfGcIN5NGGwE0Hvv8k2OAuVPHQJGdWS/f7YVBVI
-SD1mZi8ieOoyb666ec30ukRXtpUdqiTqj62o8Kgxz3nrHUWzH1XMfh4fzfkWCsIp
-vdca9VdWPwtYlrLPU9c+B2TfO5dNM8UyxsVVLY69DkSa4sdnlN0gf5fWMOGmJPDT
-svTydoESh53YuRbAxxO/GpEMgbbXL44ihY/04sfK8XQVrbOS2Ox1pYY98+io4Et2
-wU1GeCc7P5hLcnypYT3xFD7T5Iz3//zuVy/N7Ka+RT5FJEVefKhUCK6BaYuuivx/
-FIwRKsmnnIcSnvNzUmPFW+tgODXxcevXMmRScqWUtzyVXtGluwF3SAmCLCFUHqnY
-9ci87gEwNGjMZiVb+wcJq8xtQ2awVeXhLqyVpqVX8N+KkoYzWLUGZnzstZUFH3Zg
-LiIlEx/aNZ3MsebMAQ5KOPQ8tKqtrNE4HAqZ8NQoUYsq/9XxDwr+usHuozIlCrHf
-tRTP/IqTW7onVWguDXEZqt+yTB7535K3NSnNSzztHfARYz0aJlMzqm0yw7XF7Uu1
-8VLcmY+mOEjya8+KwOyHm/XF7zWm/9pv3ciKpOK/4QURCnP6g4Q/TmEp2FkGxf9k
-Uf/UuOJvJTpURU2GdhpuReB5
-=lzWg
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmOusU8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+TFMQAKt0rCDUbrNtzAWAmss9
+EhydR/PjLrExMlAV2X9b+7xyGaZIN6XRatVn4AEHDdzRAGlQ1pFkvONKsyf4dP1I
+HxrJQPhDRJSg+U9nCWugsIUimNtqVXBbG5OeEUW59tvK3M/6V5XfqDKdiF4U6+gi
+2JIs0d4MUHFnyVw3fKsHl+/CFVZTc+LGD103NmVldf4ydoZlREmqOah9bscQacYs
+bhhzFnuj9ocfQAEqIfqVFBYT/J12ARvPC0r/l9hs8KbP58XQe4hPHRVbt1nlYyWn
+Ds1jONublDVTEwpgDpKpaBUDBjsC+br+Pt+4BSQc43KVh0VK4P1QT2rZ8UNndXUA
+PlcHuz6mgYR734B+akm4cZ5Js+baaqfmEeQpxRsvBHKRe+e3oPPuRu7hH5Zeyk2/
+ZmNC1wIAm/GH51ofnlEgCaX1Er9rlTbl52lcp2hpJUTZkcij7YHWlWVGMwRNC+Ts
+xJh/rNA5v6oqfnSxZxDcstxbfA5YypYoCk1Oj+RkibX1InhHPgfdPBYoHsOugJB8
+DJT016C0Z3WYB0dPdK0TTUtuWbAaNkIIiQaFYlJ3zjdHNzvKOOvYM2WZouQ1g9KW
+uQkbHZnLzZdBkRqQa58On+CKr9nvNV99E1AYCg/0bk2vnsIpUUYDn1iqMV9wWyaO
+CnlbXtnYeEHmHM2ok8ekoq5n
+=RiXa
 -----END PGP SIGNATURE-----
 
---===============8040397995092417444==--
+--===============2902052758475458819==--
