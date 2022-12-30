@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3978564074814459895=="
+Content-Type: multipart/mixed; boundary="===============8498405834220513253=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 30 Dec 2022 09:46:47 -0000
-Message-Id: <167239360735.32422.1811552610604704755@gitolite.kernel.org>
+Date: Fri, 30 Dec 2022 09:47:29 -0000
+Message-Id: <167239364922.32718.17608971035307488741@gitolite.kernel.org>
 
---===============3978564074814459895==
+--===============8498405834220513253==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,28 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
+  - ref: refs/heads/auto-latest
+    old: 1379eb6a2a60194c655c745385fffbb7d903fb1e
+    new: fdcbb2aa95b584bf189401bd3072b4bc0de4d52f
+    log: revlist-1379eb6a2a60-fdcbb2aa95b5.txt
   - ref: refs/heads/master
-    old: e57afd2216b3825940e4a63bcfafb1e9d090ba24
-    new: fe2ec0bbbfc13f506f0d5abf374ceaa95d223cfc
-    log: revlist-e57afd2216b3-fe2ec0bbbfc1.txt
+    old: fe2ec0bbbfc13f506f0d5abf374ceaa95d223cfc
+    new: fdcbb2aa95b584bf189401bd3072b4bc0de4d52f
+    log: |
+         5eb2fdfb94c3b5aeb1849032ef2836a230f9e1de Merge branch into tip/master: 'locking/urgent'
+         99b989a30e07dbb37bad3dd30fe0aa35f27b00eb Merge branch into tip/master: 'perf/urgent'
+         e3b3e738ec56c6edafcfb8b4f21aec3c2b646281 Merge branch into tip/master: 'x86/urgent'
+         63d35fdfd7e381b3c544b738368294d7dd554822 Merge branch into tip/master: 'perf/core'
+         6ba4d718524ae59abc1ed1f48e2b7df6b5f730b0 Merge branch into tip/master: 'ras/core'
+         ca1cbe80bed64e3369aa068113afe1b588b0da92 Merge branch into tip/master: 'sched/core'
+         fdcbb2aa95b584bf189401bd3072b4bc0de4d52f Merge branch into tip/master: 'x86/microcode'
+         
 
---===============3978564074814459895==
+--===============8498405834220513253==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e57afd2216b3-fe2ec0bbbfc1.txt
+Content-Disposition: attachment; filename=revlist-1379eb6a2a60-fdcbb2aa95b5.txt
 
 b5f96cb719d8ba220b565ddd3ba4ac0d8bcfb130 nvme-pci: fix doorbell buffer value endianness
 c89a529e823d51dd23c7ec0c047c7a454a428541 nvme-pci: fix mempool alloc size
@@ -89,11 +101,19 @@ f2d1421391bba0b15684d2379a47a089f0e561d0 nvmet: set the LBCC bit for commands th
 831ed60c2aca2d7c517b2da22897a90224a97d27 nvme: also return I/O command effects from nvme_command_effects
 6f99ac04c469b5d0a180a4ccea99d25d5dc9d21c nvme: consult the CSE log page for unprivileged passthrough
 76807fcd73b818eb9f245ef1035aed34ecdd9813 nvme-auth: fix smatch warning complaints
+2117654e806c08c343e3d0567bbedf33eab040c8 x86/mce: Define a function to extract ErrorAddr from MCA_ADDR
+fcd343a285cb41894a7bd02dbd675042d394758d x86/mce: Add support for Extended Physical Address MCA changes
 1551ed5a178ca030adc92b1eb29157b5e92bf134 Merge tag 'nvme-6.2-2022-12-29' of git://git.infradead.org/nvme into block-6.2
 2258c2dc850b8605cb66b3383e50b9dddd1c6580 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 69fb073b5ba6d7c9358a04115ed61b78c73790ce Merge tag 'linux-kselftest-kunit-fixes-6.2-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
 ac787ffa5a246e53675ae93294420ea948600818 Merge tag 'io_uring-6.2-2022-12-29' of git://git.kernel.dk/linux
 bff687b3dad6e0e56b27f4d3ed8a9695f35c7b1a Merge tag 'block-6.2-2022-12-29' of git://git.kernel.dk/linux
-fe2ec0bbbfc13f506f0d5abf374ceaa95d223cfc Merge branch 'linus'
+5eb2fdfb94c3b5aeb1849032ef2836a230f9e1de Merge branch into tip/master: 'locking/urgent'
+99b989a30e07dbb37bad3dd30fe0aa35f27b00eb Merge branch into tip/master: 'perf/urgent'
+e3b3e738ec56c6edafcfb8b4f21aec3c2b646281 Merge branch into tip/master: 'x86/urgent'
+63d35fdfd7e381b3c544b738368294d7dd554822 Merge branch into tip/master: 'perf/core'
+6ba4d718524ae59abc1ed1f48e2b7df6b5f730b0 Merge branch into tip/master: 'ras/core'
+ca1cbe80bed64e3369aa068113afe1b588b0da92 Merge branch into tip/master: 'sched/core'
+fdcbb2aa95b584bf189401bd3072b4bc0de4d52f Merge branch into tip/master: 'x86/microcode'
 
---===============3978564074814459895==--
+--===============8498405834220513253==--
