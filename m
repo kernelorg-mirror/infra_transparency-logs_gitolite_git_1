@@ -1,21 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/klibc/klibc
-Date: Fri, 30 Dec 2022 22:02:20 -0000
-Message-Id: <167243774037.29178.10638132943377785230@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Fri, 30 Dec 2022 22:06:24 -0000
+Message-Id: <167243798417.32049.5862573792550082544@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/klibc/klibc
-user: bwh
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
   - ref: refs/heads/master
-    old: 4a9d3b35a2d40bbf4f821f2eddebc1e1846059cd
-    new: bf50476c204f7eab1fba5370a49fb03fcfaf92d1
+    old: 5efd61831787030135e2c94b4fe38da31c0964ff
+    new: 08fc9a08136ab813a4f453747ec6ea6f9e487001
     log: |
-         9707c6b8d4e6292482bd159458d426cdf2ca9d33 [klibc] tests: Add test program for string search functions
-         61d2ea539c88f7862b3992b9a00daaedb6bb68ef [klibc] strrchr: Handle c == 0 correctly
-         bf50476c204f7eab1fba5370a49fb03fcfaf92d1 [klibc] strstr, memmem: Handle zero-length needle correctly
+         1d430524c4d6216ac3418f27ad2394ac41904988 foo
+         8f1da076f0408421112814d8fe4812e7b936d295 foo
+         08fc9a08136ab813a4f453747ec6ea6f9e487001 foo
          
