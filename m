@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1282385407054037238=="
+Content-Type: multipart/mixed; boundary="===============6871212254996840834=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Fri, 30 Dec 2022 23:37:57 -0000
-Message-Id: <167244347770.27376.18292063504008120846@gitolite.kernel.org>
+Date: Fri, 30 Dec 2022 23:38:14 -0000
+Message-Id: <167244349421.27536.2156088687073477866@gitolite.kernel.org>
 
---===============1282385407054037238==
+--===============6871212254996840834==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,74 +16,46 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue
-    old: 1a5665fc8d7a000671ebd3fe69c6f9acf1e0dcd9
-    new: 1b929c02afd37871d5afb9d498426f83432e71c2
-    log: revlist-1a5665fc8d7a-1b929c02afd3.txt
+  - ref: refs/tags/mkp-scsi-staging
+    old: bd201c9d0376bc947feb28d59bb7684bbe730021
+    new: 53abb655b9920cb4449017f5c36105192768c55f
+    log: revlist-bd201c9d0376-53abb655b992.txt
 
---===============1282385407054037238==
+--===============6871212254996840834==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1672443466 -0500
+pusher 75C5DE3D 1672443482 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1672443465-90c388d0e190cde4ee3c7ae585b4fab6270f82bf
+nonce 1672443481-257f8f672f27c90d0cae65e171afab8ed8badb9a
 
-1a5665fc8d7a000671ebd3fe69c6f9acf1e0dcd9 1b929c02afd37871d5afb9d498426f83432e71c2 refs/heads/queue
+bd201c9d0376bc947feb28d59bb7684bbe730021 53abb655b9920cb4449017f5c36105192768c55f refs/tags/mkp-scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmOvdkoACgkQ7ulgGnXF
-3j0HrQ//Y21mT4ELdkB53y58uAcdObXV1SuAJfMxaryRdorMULSzwSX7IVKVXzEb
-DJiZSU5dHk3SRMbhrkg/uOqyNY7EZ/2zNLkHweMSWyzhc2xfUCJSxWtkxrjOSQrL
-O2+0SXTlj5X9sSywWoOyBCJpr2jTIl7MpyeUvo/MakKrZ+tnPa8hR6MyCbEztLcv
-zmiO1Dx4JLsWHeLMhq7+0ddGnP/flmAwwqAIb8so+YrOhB+S96v5Kiq5up5tbvqH
-/9BW77jZR5cfo/524Gcv7XQC2v0wicbGuL3z4l/m5KpsEuhc2QEGFLJaPQzYUZXn
-MvAyvfOmOOgQ1iy2zncXsHl67TZ50ISDGcCCF0EkaHzNtlJLvlE7upIdhl084A/4
-Dun/zzZn1/dDAp5WKv/kKzcHCeWxjGHEbAGtGf8wnIZj/1cKAv9hCRLFcipq9egW
-K/ADBlbXvKqFzrbPbFE6k8hwEV7AVZJYP+y4DpgGBlB68a3n9ACLchXntiq7E9Nu
-kwnsMzQdFaMO2FR23KdzjkoKHI+JLQNoYCLqtene81MCnxuIlHQvfUhQEjSxw4bp
-sWU7L17qM+RRsxh+CPnKyGw6AkcSqXer45Sst//LlidJHbDg4TBdlGgMPB0jJYEx
-GOcY6IMGyHzamo3vuV0sSBBxHVunpjOICp1ENBphqDlrC6FLwJA=
-=A6vX
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmOvdloACgkQ7ulgGnXF
+3j13aRAAjSoJiVn7gME31g1FGaiFSxbBMEnd4FyFIhdsc6AnDkZmvEr5cmhXnSO+
+ncdtxGmr0w9a20xafJC/zBnNCgxEyA6gX8WveeQhi4XikhvMa+H3JwA/gAd8Axs3
+8AttghQpSMN976E6LciqK3N69Ulr0fkfkbILCu6lsxGG0kBs1zGF0sxQEYgjX/h4
+G/DP523YLJT8gZtvFl7Mh34iSGZVYC9Pk6TRoNWSD/IfEjg+YSfm430JgqYHgGzT
+7iZe9hDn7tJuw60ebAhAKwhR948XRtlq42y6z/IVNvwrSp2APWMdT68uvC01SiWs
+ACZwlGE+swDzj4lrn3wZp6ehrQsstv/GnZ/OuzWw9VtbX7ZO/0JM4CJlORMK7rva
+DWKGGQU6Y7r8i4qyuLR2smRvGVIknuftw72E8AONhLGXJYrIJGf13LIVK5iCY3So
+qiIQMB9qityD8aumhv+mOuaot9vC7uGL6sdFM/x4FbAiBgECzrdl0X1w0naTQct8
++SZKZkoa7mcxD2JS1iHSRCnr81DJVMtoyIc/xJugAQICe19GF8un7+QA0it3+rhq
+KHhbaSie4nGC2etHkX2Ki/zMHiJQtKaFQAixV5AK3VBAfCOA/pRo5dtH7j2dgqWW
+6OqM3ft8oZZOppKEkWBo66Vcg58isrcPzL4QWpAgvfEj5a1Mq0Y=
+=IFAm
 -----END PGP SIGNATURE-----
 
---===============1282385407054037238==
+--===============6871212254996840834==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1a5665fc8d7a-1b929c02afd3.txt
+Content-Disposition: attachment; filename=revlist-bd201c9d0376-53abb655b992.txt
 
-56c56a309e7959c319d3cbd6bd16e598ecd5831c can: gs_usb: remove gs_can::iface
-bd4a52bf9d56abaabc6926f68c3cc3528937a864 Merge patch series "can: usb: remove pointers to struct usb_interface in device's priv structures"
-eaacfeaca7ad0804b9a6eff7afeba93a87db7638 can: m_can: Call the RAM init directly from m_can_chip_config
-0826e82b8a32e646b7b32ba8b68ba30812028e47 can: raw: add support for SO_MARK
-3abcc01c38bc5d424635df96e0677e2fbec021de dt-bindings: can: renesas,rcar-canfd: Fix number of channels for R-Car V3U
-c1eaf8b9bd3145d029446c927e1c9ce925dfe6a7 can: m_can: Eliminate double read of TXFQS in tx_handler
-57757937974988dc8feb7cf66b17dca72bca813b can: m_can: Avoid reading irqstatus twice
-fac52bf786e5c302990fa79f2fdde24e84f810b0 can: m_can: Read register PSR only on error
-d4535b90a76af49d1dd7bc70ad0311a88ac5313d can: m_can: Count TXE FIFO getidx in the driver
-6355a3c983e6d6fc998f4223bd2c7ef047e4572b can: m_can: Count read getindex in the driver
-e3bff5256a0f12a1edc8d79bdef53eb83c2f1fbf can: m_can: Batch acknowledge transmit events
-e2f1c8cb020296ddfa255e06b15f071807c2ed73 can: m_can: Batch acknowledge rx fifo
-40c9e4f676abbe194541d88e796341c92d5a13c0 can: tcan4x5x: Remove invalid write in clear_interrupts
-67727a17a6b375d68fe569b77e6516b034b834c0 can: tcan4x5x: Fix use of register error status mask
-ef5778f7084196997e00095c43b12693ef5111d0 can: tcan4x5x: Fix register range of first two blocks
-39dbb21b6a2951a2ce311c93eb09f9ff9b96e7b8 can: tcan4x5x: Specify separate read/write ranges
-47bf2b2393ea1aacdefbe4e9d643599e057bb3a2 Merge patch series "can: m_can: Optimizations for tcan and peripheral chips"
-462e768b55a2331324ff72e74706261134369826 iommu/mediatek: Fix forever loop in error handling
-e3eca2e4f6489ed3143c80ce90bfa7ef7e12ebc7 Merge branches 'arm/allwinner', 'arm/exynos', 'arm/mediatek', 'arm/rockchip', 'arm/smmu', 'ppc/pamu', 's390', 'x86/vt-d', 'x86/amd' and 'core' into next
-22250dbaba99f87574095af894610e9801d74419 regmap: Merge fix for where we get the number of registers from
-b2b509fb5a1e6af1e630a755b32c4658099df70b Merge tag 'linux-can-next-for-6.2-20221212' of git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can-next
-888bc86e7cca29de20223ee46e9b770ced2c038e Merge branch 'acpica'
-45494d77f279d0420f06376dcf105b23e300c5a4 Merge branches 'acpi-scan', 'acpi-bus', 'acpi-tables' and 'acpi-sysfs'
-6f1581810b2960ffb8e2bbcdde89d523555371da Merge branches 'acpi-pm', 'acpi-processor', 'acpi-ec' and 'acpi-video'
-39f26d10120ada8553647d9f61223bda7a22336b Merge branches 'acpi-apei', 'acpi-x86', 'acpi-battery' and 'acpi-pfrut'
-3bc8edc98bd43540dbe648e4ef91f443d6d20a24 nfsd: under NFSv4.1, fix double svc_xprt_put on rpc_create failure
-bee74dcbd3908291f4bfff3c81a52d52dcd48814 Merge branches 'acpi-fan', 'acpi-pcc', 'acpi-misc' and 'pnp'
-3919430fe93bcfad5e34cdbb4d81cd17b3bbd27a Merge branches 'edac-ghes' and 'edac-misc' into edac-updates-for-v6.2
 173c6c5af3277911763e8c737f0178db9a246d69 Merge branch 'pm-cpufreq'
 7680d45a910f775402281253610f039277630d0c Merge branches 'pm-cpuidle', 'pm-sleep' and 'pm-domains'
 c1ac03af6ed45d05786c219d102f37eb44880f28 tracing: Fix infinite loop in tracing_read_pipe on overflowed print_trace_line
@@ -1080,5 +1052,33 @@ edb23125fd4a79003012bc619d2c604da922865e Merge tag 'pstore-v6.2-rc1-fixes' of gi
 72a85e2b0a1e1e6fb4ee51ae902730212b2de25c Merge tag 'spi-fix-v6.2-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
 292a089d78d3e2f7944e60bb897c977785a321e3 treewide: Convert del_timer*() to timer_shutdown*()
 1b929c02afd37871d5afb9d498426f83432e71c2 Linux 6.2-rc1
+6c90466e2803d93ed47a980fbf184d35e012d895 scsi: libsas: Move sas_get_ata_command_set() up to save the declaration
+ffebb38efee3e6bbcccd0b7babf0ede8890794cd scsi: libsas: Change the coding style of sas_discover_sata()
+8d2c9d25b725a699479d388da7e116d1d2bc0ea1 scsi: libsas: Remove useless dev_list delete in sas_ex_discover_end_dev()
+7cc7646b4b24430437e0cff104fadeafd470a7ce scsi: libsas: Factor out sas_ata_add_dev()
+5d39b77c33b19089351f74a524fbb828c7d8ba81 scsi: libsas: Factor out sas_ex_add_dev()
+1e49a5387f43e74c5408187d74038ef942a3eb34 Merge patch series "scsi: libsas: Some coding style fixes and cleanups"
+3f5145a6152388ca612461ca96db4f995fa816d2 scsi: ufs: bsg: Let result in struct ufs_bsg_reply be signed int
+64d4864714c2cd2af35b48ab5b28a28ee863219a scsi: ufs: bsg: Remove unnecessary length checkup
+765ab00dac2c37070d8a4209e017ae81e1d8e9bb scsi: ufs: bsg: Clean up ufs_bsg_request()
+7a4df79d0bfd6d7b4af0badf6254af5e4157094b scsi: ufs: core: Split ufshcd_map_sg()
+f6b9d0fe5c0573ddd0cbf3071a2003897325c86c scsi: ufs: core: Advanced RPMB detection
+a4b1c9b9b38c92da099aba234c96e818f8d2e4dd scsi: ufs: core: Pass EHS length into ufshcd_prepare_req_desc_hdr()
+6ff265fc5ef660499e0edc4641647e99eed3f519 scsi: ufs: core: bsg: Add advanced RPMB support in ufs_bsg
+c1635fbfefc32b22e9927203c23d28ddf5df0728 Merge patch series "UFS Advanced RPMB"
+921a880827498e501921bf034012a97e554550d2 scsi: ufs: ufs-qcom: Drop unnecessary NULL checks
+50a427a00c85995009a134d443949e5128a84191 scsi: ufs: ufs-qcom: Clean up dbg_register_dump
+e4ce23fba366e5b0629b13d9c42e68fab7fda002 scsi: ufs: ufs-qcom: Remove usage of dbg_print_en
+1026f7d366785d0a1edae731a3d06e9924c3e71d scsi: ufs: ufs-qcom: Use dev_err() where possible
+9a3a5a8556e51c2fafdcbc9996865fc55d3d6775 Merge patch series "scsi: ufs: ufs-qcom: Debug clean ups"
+2000bc309703b34ab776c7c00dfb5865721eb257 scsi: ufs: core: Reduce the clock scaling latency
+b434ecfb73ee84fbc5996d0784a4436e75b8d0fe scsi: ufs: core: Pass the clock scaling timeout as an argument
+ada1e653a5eae7361d95781ed812caa0c8e07dbb scsi: ufs: core: Allow UFS host drivers to override the sg entry size
+4a5bd1a928a22c20f77821d0bd9c80849827e292 Merge patch series "Prepare for upstreaming Pixel 6 and 7 UFS support"
+358ae02f47783c1d2a8033e50563ea1a9d176c15 scsi: ufs: core: Remove redundant wb check
+f2a89b071b26b79abbe892ce88c4d674d1f21f63 scsi: ufs: core: Remove redundant desc_size variable from hba
+01a0d515b7d93f6f5259c0333e48ac0ed8f0aa92 scsi: ufs: core: Remove len parameter from ufshcd_set_active_icc_lvl()
+16ed9d312b42180242476d159dd2fab05129029a scsi: ufs: core: Remove ufshcd_map_desc_id_to_length()
+2d95c6deb64dfb1496bd202aaffdbdb4b420a196 Merge patch series "scsi: ufs: core: Always read the descriptors with max length"
 
---===============1282385407054037238==--
+--===============6871212254996840834==--
