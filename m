@@ -1,23 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Fri, 30 Dec 2022 21:46:15 -0000
-Message-Id: <167243677527.19347.868728639336127464@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/klibc/klibc
+Date: Fri, 30 Dec 2022 22:02:20 -0000
+Message-Id: <167243774037.29178.10638132943377785230@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/linux
-user: sj
+repo: pub/scm/libs/klibc/klibc
+user: bwh
 changes:
-  - ref: refs/heads/damon/next
-    old: ff3c473f0b0e876376521ab530f8d793deaa88b4
-    new: e283047429c240598bb517ececda272772470f16
+  - ref: refs/heads/master
+    old: 4a9d3b35a2d40bbf4f821f2eddebc1e1846059cd
+    new: bf50476c204f7eab1fba5370a49fb03fcfaf92d1
     log: |
-         6853dabbf51955e455140de085c15027846d62cf Docs/mm/damon/index: mention DAMOS on the intro
-         3c550435d16bebcbebab0d6f3d1db1f0520054cb include/linux/page-flags: Add folio_headpage()
-         f748de8e80d4afe8f608f0571511753bead4655b mm: use folio_headpage() instead of folio_page()
-         efe454c4e2c137f8b92203439c8e58d7e0038e4f fs/ceph/addr: use folio_headpage() instead of folio_page()
-         e283047429c240598bb517ececda272772470f16 selftests/damon/sysfs: hide expected write failures
+         9707c6b8d4e6292482bd159458d426cdf2ca9d33 [klibc] tests: Add test program for string search functions
+         61d2ea539c88f7862b3992b9a00daaedb6bb68ef [klibc] strrchr: Handle c == 0 correctly
+         bf50476c204f7eab1fba5370a49fb03fcfaf92d1 [klibc] strstr, memmem: Handle zero-length needle correctly
          
