@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Fri, 30 Dec 2022 01:44:55 -0000
-Message-Id: <167236469540.24662.15958030785590090310@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Fri, 30 Dec 2022 03:19:45 -0000
+Message-Id: <167237038572.22596.9945090548357175764@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: ast
 changes:
   - ref: refs/heads/master
-    old: 20d0967f715d7e8d775f33aa25f93716f82a7208
-    new: 0646a1977fa6434046119e0be32547de2252706e
+    old: 678a1c036199011e65b203367900f002a28da004
+    new: bb5747cfbc4b7fe29621ca6cd4a695d2723bf2e8
     log: |
-         0646a1977fa6434046119e0be32547de2252706e Fri Dec 30 01:43:51 AM UTC 2022
+         bb5747cfbc4b7fe29621ca6cd4a695d2723bf2e8 libbpf: Restore errno after pr_warn.
          
