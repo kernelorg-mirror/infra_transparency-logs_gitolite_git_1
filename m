@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/linkinjeon/exfat
-Date: Fri, 30 Dec 2022 01:13:43 -0000
-Message-Id: <167236282332.4983.16566324958908139998@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Fri, 30 Dec 2022 01:44:55 -0000
+Message-Id: <167236469540.24662.15958030785590090310@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/linkinjeon/exfat
-user: linkinjeon
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
-  - ref: refs/heads/dev
-    old: 973f9948b8d5117f977116538e5980cd6d7ae2e0
-    new: 6bbb474edef7e5fb689f602b38c23dc20cc02929
+  - ref: refs/heads/master
+    old: 20d0967f715d7e8d775f33aa25f93716f82a7208
+    new: 0646a1977fa6434046119e0be32547de2252706e
     log: |
-         c102714454b7aed9864351b472d95009781502b8 exfat: fix unexpected EOF while reading dir
-         6bbb474edef7e5fb689f602b38c23dc20cc02929 exfat: fix reporting fs error when reading dir beyond EOF
+         0646a1977fa6434046119e0be32547de2252706e Fri Dec 30 01:43:51 AM UTC 2022
          
