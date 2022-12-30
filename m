@@ -1,32 +1,34 @@
-Content-Type: multipart/mixed; boundary="===============7239233446470094988=="
+Content-Type: multipart/mixed; boundary="===============3812671690340810211=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ras/ras
-Date: Fri, 30 Dec 2022 14:53:36 -0000
-Message-Id: <167241201696.7552.3967090775676342900@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/herbert/crypto-2.6
+Date: Fri, 30 Dec 2022 15:02:22 -0000
+Message-Id: <167241254290.13268.1787477222234303251@gitolite.kernel.org>
 
---===============7239233446470094988==
+--===============3812671690340810211==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ras/ras
-user: bp
+repo: pub/scm/linux/kernel/git/herbert/crypto-2.6
+user: herbert
 changes:
-  - ref: refs/heads/edac-for-next
-    old: ad5befcd0e1df65d39d0206da24ebcfc93bacf6e
-    new: e84077437902ec99eba0a6b516df772653f142c7
-    log: revlist-ad5befcd0e1d-e84077437902.txt
+  - ref: refs/heads/master
+    old: 453de3eb08c4b7e31b3019a4b0cc3ebce51a6219
+    new: 736f88689c6912f05d0116917910603a7ba97de7
+    log: revlist-453de3eb08c4-736f88689c69.txt
+  - ref: refs/tags/v6.2-p2
+    old: 0000000000000000000000000000000000000000
+    new: c6f54842d08d8e9e169d6a9710cc03b08f3adc42
 
---===============7239233446470094988==
+--===============3812671690340810211==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ad5befcd0e1d-e84077437902.txt
+Content-Disposition: attachment; filename=revlist-453de3eb08c4-736f88689c69.txt
 
-bd4a52bf9d56abaabc6926f68c3cc3528937a864 Merge patch series "can: usb: remove pointers to struct usb_interface in device's priv structures"
 eaacfeaca7ad0804b9a6eff7afeba93a87db7638 can: m_can: Call the RAM init directly from m_can_chip_config
 0826e82b8a32e646b7b32ba8b68ba30812028e47 can: raw: add support for SO_MARK
 3abcc01c38bc5d424635df96e0677e2fbec021de dt-bindings: can: renesas,rcar-canfd: Fix number of channels for R-Car V3U
@@ -1049,6 +1051,7 @@ edb23125fd4a79003012bc619d2c604da922865e Merge tag 'pstore-v6.2-rc1-fixes' of gi
 72a85e2b0a1e1e6fb4ee51ae902730212b2de25c Merge tag 'spi-fix-v6.2-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
 292a089d78d3e2f7944e60bb897c977785a321e3 treewide: Convert del_timer*() to timer_shutdown*()
 1b929c02afd37871d5afb9d498426f83432e71c2 Linux 6.2-rc1
-e84077437902ec99eba0a6b516df772653f142c7 EDAC/device: Fix period calculation in edac_device_reset_delay_period()
+a23529989a8f56d23680c4f2d14011bc9c9457c9 crypto: caam - fix CAAM io mem access in blob_gen
+736f88689c6912f05d0116917910603a7ba97de7 crypto: arm64/sm4 - fix possible crash with CFI enabled
 
---===============7239233446470094988==--
+--===============3812671690340810211==--
