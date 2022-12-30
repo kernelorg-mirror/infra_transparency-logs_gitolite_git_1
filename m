@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6794780776147915583=="
+Content-Type: multipart/mixed; boundary="===============0600429979358546961=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Fri, 30 Dec 2022 23:37:11 -0000
-Message-Id: <167244343123.26950.16193744775798894685@gitolite.kernel.org>
+Date: Fri, 30 Dec 2022 23:37:27 -0000
+Message-Id: <167244344715.27088.1250040383043090202@gitolite.kernel.org>
 
---===============6794780776147915583==
+--===============0600429979358546961==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,57 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/fixes
-    old: f014165faa7b953b81dcbf18835936e5f8d01f2a
-    new: b99afb544dc1449c605e0bca12ccb46d81bb6488
-    log: revlist-f014165faa7b-b99afb544dc1.txt
+  - ref: refs/tags/mkp-scsi-queue
+    old: f6283d34907b7474693c5dd6cde6b10f8ff2af42
+    new: ef599d89ec3f9ad5f392f21cd706b17370a42916
+    log: revlist-f6283d34907b-ef599d89ec3f.txt
 
---===============6794780776147915583==
+--===============0600429979358546961==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1672443420 -0500
+pusher 75C5DE3D 1672443435 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1672443418-c1bae632f972a9c43cc50f7233c7c934ebdc18fe
+nonce 1672443435-629e60ca8713f0b85bad5580c3f8c37eee55b755
 
-f014165faa7b953b81dcbf18835936e5f8d01f2a b99afb544dc1449c605e0bca12ccb46d81bb6488 refs/heads/fixes
+f6283d34907b7474693c5dd6cde6b10f8ff2af42 ef599d89ec3f9ad5f392f21cd706b17370a42916 refs/tags/mkp-scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmOvdhwACgkQ7ulgGnXF
-3j1TkQ/8CPzTDJAm5+HAtGPrsfGHzl4Fh+UzZa9kjmsX6tUw/Ekc5p4ZYqpEnnIM
-U4WHRMrkxeFxB0rd9/QwmKd7qfLL2puJARXc/QkEaVEBwPrZPKYdub3XHndqbd5s
-SQ08nYqac0Im0sxTvWfe5y3Zx5X35weC/On0/iZ9PDwoSL1SPp/IAwFbzCipa97O
-3Q34joDmc9IX9P1GWquONa/wbwNzqXZV4VbFm610TL0eQYx1Btvzg3WHnV60un9m
-cOA/VdOBHYFI5fEPjKb/If6icuSZPDp6Z+suKurbCsTSnmNAF340hC3XOZFrzmhU
-8fvjhZh1VRKekRycGahjL9bDDZCscE+YPCLbXertYoJsHHEGbD+2KFLwvFaq069z
-zxLp2xvWPIku9gPL2Jh8l4CsQRv/r9J383ttyF1O9z2a+383WaTep3h8a704Z3eA
-S/tYTCFvyJ50+EbClCrC5SkzUj6kUIaGN04ZQ815wCxz5acv7rdg1Is8IiolNYr0
-ZZ7TUdEIOd6tRd8gH9gSFjVUfCTajq3AirFqd6Csqdj+UBDIHW33wGhKY1ZmZCz8
-iSREpRXmxf1HQFZ++W/q8d1i8eYOFxV5aeWkuUJ9kpuNUG0NOCZNkwX15XhmbsTt
-HbT/edybZR/KHtIzOMmWCKlfop3Z182/NLvKqd6KLAmtNehZL1Q=
-=UkOV
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmOvdisACgkQ7ulgGnXF
+3j13xRAAjTYpcswwVRIBVBsrCxW9homm79AcOSySDARj1vkFSCzsHOjMvOFLXr6t
+Ffsf4pU5PcnyN13KaD4jQ6KiZgTlt5IIax9yIYi7SO8PlHv8F5HtXsoX4bS4WXXw
+1Y/s+E3+fAMLvWxCstX/Q+T/BxjBybWrR3k0nha9vClOoZ8pQfb7sVmkuCL8UePO
+kxiYC54Jd6hpou+xP8bnbEoEiwxIXTdZUPg8fQQM2sdD8BGPf9Q+epfKBdEXcK6G
+6e3+GvPtrsZaqLx0wGU1hMNuiG6UNZfpzK8nFtXSnGoD8331xb13vYHb48oBNgPY
+RURZhA4rhqICJyLBnxKkBD0wrueNGXEqDmNWAvzUd/HppoNbzvoh8DuLWpXAJgH9
+e4fzZtcOKbrC5n69Wtq5PO8CPfd/Fr6K3fSYVj5rgRcWbHuEP2fOm915u+5sDlbp
+uDCkVipqB+7xLJWJ08wq0nGLo2HxXL0njJq1+B7b+sDapjcjV5wI7bCtqZpJdK8A
+Ly67yS8BvdmIZi84zD2u0PTtQtnbUgRJ45NQYEqbbsfQpA/90SzWieoBA0hOkQoh
+ohvkX/tlO1L8gxrQ/+Qy42CFECWqi6/CUq1Rz7W/n505eq/dclrVyzcLwFBEnMOW
+IIpAe+2T/AglnQHNrx9jweZMHX2I/5R8VLjP3l5uZRtyS66PswU=
+=4y6w
 -----END PGP SIGNATURE-----
 
---===============6794780776147915583==
+--===============0600429979358546961==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f014165faa7b-b99afb544dc1.txt
+Content-Disposition: attachment; filename=revlist-f6283d34907b-ef599d89ec3f.txt
 
+56c56a309e7959c319d3cbd6bd16e598ecd5831c can: gs_usb: remove gs_can::iface
+bd4a52bf9d56abaabc6926f68c3cc3528937a864 Merge patch series "can: usb: remove pointers to struct usb_interface in device's priv structures"
+eaacfeaca7ad0804b9a6eff7afeba93a87db7638 can: m_can: Call the RAM init directly from m_can_chip_config
+0826e82b8a32e646b7b32ba8b68ba30812028e47 can: raw: add support for SO_MARK
+3abcc01c38bc5d424635df96e0677e2fbec021de dt-bindings: can: renesas,rcar-canfd: Fix number of channels for R-Car V3U
+c1eaf8b9bd3145d029446c927e1c9ce925dfe6a7 can: m_can: Eliminate double read of TXFQS in tx_handler
+57757937974988dc8feb7cf66b17dca72bca813b can: m_can: Avoid reading irqstatus twice
+fac52bf786e5c302990fa79f2fdde24e84f810b0 can: m_can: Read register PSR only on error
+d4535b90a76af49d1dd7bc70ad0311a88ac5313d can: m_can: Count TXE FIFO getidx in the driver
+6355a3c983e6d6fc998f4223bd2c7ef047e4572b can: m_can: Count read getindex in the driver
+e3bff5256a0f12a1edc8d79bdef53eb83c2f1fbf can: m_can: Batch acknowledge transmit events
 e2f1c8cb020296ddfa255e06b15f071807c2ed73 can: m_can: Batch acknowledge rx fifo
 40c9e4f676abbe194541d88e796341c92d5a13c0 can: tcan4x5x: Remove invalid write in clear_interrupts
 67727a17a6b375d68fe569b77e6516b034b834c0 can: tcan4x5x: Fix use of register error status mask
@@ -449,13 +460,7 @@ ac7127e1cc65aeb578998c992a05dbc80fa18f0f LoongArch/ftrace: Add HAVE_DYNAMIC_FTRA
 a51ac5246d2505b58229242959d2bc73d113ca50 LoongArch/ftrace: Add HAVE_FUNCTION_GRAPH_RET_ADDR_PTR support
 28ac0a9e04d7dfb42220dc9d221164d93f20fb3a LoongArch: modules/ftrace: Initialize PLT at load time
 5535f4f70cfc15ef55b6ea7c7e17337b17337cb6 LoongArch: Update Loongson-3 default config file
-a3be19b91ea7121d388084e8c07f5b1b982eb40c scsi: iscsi: Fix multiple iSCSI session unbind events sent to userspace
-67ff3d0a49f3d445c3922e30a54e03c161da561e scsi: storvsc: Fix swiotlb bounce buffer leak in confidential VM
 f3b4a00f0f62da252c598310698dfc82ef2f2e2e net: macsec: fix net device access prior to holding a lock
-d0b9025540ef57cc4464ab2fc64ed8ddc49b5658 scsi: core: scsi_error: Do not queue pointless abort workqueue functions
-f0a43ba6c66cc0688e2748d986a1459fdd3442ef scsi: mpi3mr: Refer CONFIG_SCSI_MPI3MR in Makefile
-c411a42fb91f452509c312e4dda713699a22a995 scsi: scsi_debug: Delete unreachable code in inquiry_vpd_b0()
-1a5665fc8d7a000671ebd3fe69c6f9acf1e0dcd9 scsi: ufs: core: WLUN suspend SSU/enter hibern8 fail recovery
 3d0b738fc5adf9f380702ac1424672e4b32c3781 bonding: add missed __rcu annotation for curr_active_slave
 e95cc44763a41d5c715ef16742bcb1d8e6524a62 bonding: do failover when high prio link up
 42a8d4aaea8414f60eb2ed2d92df89a6e2db4615 selftests: bonding: add bonding prio option test
@@ -1075,10 +1080,5 @@ edb23125fd4a79003012bc619d2c604da922865e Merge tag 'pstore-v6.2-rc1-fixes' of gi
 72a85e2b0a1e1e6fb4ee51ae902730212b2de25c Merge tag 'spi-fix-v6.2-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
 292a089d78d3e2f7944e60bb897c977785a321e3 treewide: Convert del_timer*() to timer_shutdown*()
 1b929c02afd37871d5afb9d498426f83432e71c2 Linux 6.2-rc1
-6b1c374c45605504ed32e855c4e0f9b652a1978e Merge branch '6.2/scsi-queue' into 6.2/scsi-fixes
-a1c7a7cde6c92e42eb2cc8a04a9529c3fe8f19c8 Merge branch '6.2/mpt-mpi' into 6.2/scsi-fixes
-7936f8b232fca5d6873b8a50f039d594e8efe122 scsi: core: Remove leftovers due to pktcdvd being removed
-5292b535996f68c5792f151e120d34bf6ed3c27e scsi: hisi_sas: Fix tag freeing for reserved tags
-b99afb544dc1449c605e0bca12ccb46d81bb6488 scsi: libsas: Grab the ATA port lock in sas_ata_device_link_abort()
 
---===============6794780776147915583==--
+--===============0600429979358546961==--
