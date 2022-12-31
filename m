@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Sat, 31 Dec 2022 00:32:43 -0000
-Message-Id: <167244676305.32145.8418108761511549660@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
+Date: Sat, 31 Dec 2022 00:45:47 -0000
+Message-Id: <167244754728.9558.15037933547364084935@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/linux
+repo: pub/scm/linux/kernel/git/sj/damon-hack
 user: sj
 changes:
-  - ref: refs/heads/damon/next
-    old: ee682b1ca295b82d12705aa75d58835d7f12e7d2
-    new: 3ba5b2303517261cd0102152a6a983483e49a223
+  - ref: refs/heads/master
+    old: 259380f679907a4bcf34d47b33291c45b330ad4c
+    new: 495fd2129c8ad479b8d1144cd55fc6a5fd0498c8
     log: |
-         3ba5b2303517261cd0102152a6a983483e49a223 Docs/mm/damon/maintainer-profile: fix links
+         495fd2129c8ad479b8d1144cd55fc6a5fd0498c8 damon_doc: Remove the patch and add the index.rst
          
