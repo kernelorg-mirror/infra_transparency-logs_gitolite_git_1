@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/fs/xfs/xfstests-dev
-Date: Sun, 01 Jan 2023 13:39:09 -0000
-Message-Id: <167258034958.13214.17062956810339822226@gitolite.kernel.org>
+Date: Sun, 01 Jan 2023 13:40:16 -0000
+Message-Id: <167258041622.15111.3592735440321784692@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,16 +11,18 @@ service: git-receive-pack
 repo: pub/scm/fs/xfs/xfstests-dev
 user: zlang
 changes:
-  - ref: refs/heads/master
-    old: e263104046712af5fb5dcc7d289ac3fa5f14b764
-    new: 3dc46f477b39d732e1841e6f5a180759cee3e8ce
+  - ref: refs/heads/for-next
+    old: 3dc46f477b39d732e1841e6f5a180759cee3e8ce
+    new: fbd489798b31e32f0eaefcd754326a06aa5b166f
     log: |
-         db5626a15a6ef0e233711be22ac3c2be9ddc2c5e xfs: Test bulkstat special query for root inode
-         40e983b21375c886f87f2cfc8e34521959d11dd8 xfs/122: fix EFI/EFD log format structure size after flex array conversion
-         d401145dc1c940dd8ce3016d9fd2c7e76c23b057 btrfs: new test for logical inode resolution panic
-         daa1c02369c869bfa85c0ad149020c52b4480b09 btrfs/220: fix the test failure due to new default mount option
-         884daafcd9cc26bd1badfef8dee02e772ae2bee9 xfs: regression test for writeback corruption bug
-         5f291f3c9a846a14547444d9d71d0cfe5c2f9a71 xfs: regression test for writes racing with reclaim writeback
-         56c8f841407c29808d370d06929a3f58c7afeee3 xfs/179: modify test to trigger refcount update bugs
-         3dc46f477b39d732e1841e6f5a180759cee3e8ce btrfs/154: migrate to python3
+         d60bd999f580fb6ebc516578990572a5188e3be3 common/verity: add and use _fsv_can_enable()
+         d206c4d04b6a87ff84934a6058d7adf77f94d9d4 common/verity: set FSV_BLOCK_SIZE to an appropriate value
+         5fadb20865e6022b0ef43dd2e478e9193c704241 common/verity: use FSV_BLOCK_SIZE by default
+         658d8d249e9722413c515b53b9940f32de02b9f5 common/verity: add _filter_fsverity_digest()
+         3f15400a5fabfd382e94b676e5cd17a3c488e7a9 generic/572: support non-4K Merkle tree block size
+         abe649bd477669cdfc9ca523724af6d7534c09ca generic/573: support non-4K Merkle tree block size
+         e25ea6825c085260c1855124949660e14f36b969 generic/577: support non-4K Merkle tree block size
+         a89062a98d078f80b9160850331a59bdd9162a6e generic/574: test multiple Merkle tree block sizes
+         772a394868c9eb9a386a65c6afc42f52309a8997 generic/624: test multiple Merkle tree block sizes
+         fbd489798b31e32f0eaefcd754326a06aa5b166f generic/575: test 1K Merkle tree block size
          
