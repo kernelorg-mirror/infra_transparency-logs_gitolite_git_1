@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2012261328764156140=="
+Content-Type: multipart/mixed; boundary="===============3084482287374153738=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sun, 01 Jan 2023 12:03:42 -0000
-Message-Id: <167257462260.16255.16044019428506689498@gitolite.kernel.org>
+Date: Sun, 01 Jan 2023 12:04:12 -0000
+Message-Id: <167257465261.16526.674594310008046779@gitolite.kernel.org>
 
---===============2012261328764156140==
+--===============3084482287374153738==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,28 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/auto-latest
     old: fdcbb2aa95b584bf189401bd3072b4bc0de4d52f
-    new: 892a8942a9b7025ea69a92d0cc92cfadffd699fa
-    log: revlist-fdcbb2aa95b5-892a8942a9b7.txt
+    new: e2cda209b2a67d5921cf9ef4cdca57dc9eb3affe
+    log: revlist-fdcbb2aa95b5-e2cda209b2a6.txt
+  - ref: refs/heads/master
+    old: 892a8942a9b7025ea69a92d0cc92cfadffd699fa
+    new: e2cda209b2a67d5921cf9ef4cdca57dc9eb3affe
+    log: |
+         1e45e43984f01eb2eba60adb1e33e3e82764c696 Merge branch into tip/master: 'locking/urgent'
+         30e36b8364364a69efe0247dcfcfd59e9c652782 Merge branch into tip/master: 'perf/urgent'
+         25600d35c04243c86a304aae3e409e41898d6327 Merge branch into tip/master: 'x86/urgent'
+         b41f91949475759fb28a6fde195142ddcd5cbff4 Merge branch into tip/master: 'perf/core'
+         d18e7267116e94f4647ed6003191bd33fa00526f Merge branch into tip/master: 'ras/core'
+         fd502c898e9aa842c57418933a412d29e37edc1c Merge branch into tip/master: 'sched/core'
+         e2cda209b2a67d5921cf9ef4cdca57dc9eb3affe Merge branch into tip/master: 'x86/microcode'
+         
 
---===============2012261328764156140==
+--===============3084482287374153738==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fdcbb2aa95b5-892a8942a9b7.txt
+Content-Disposition: attachment; filename=revlist-fdcbb2aa95b5-e2cda209b2a6.txt
 
 00a734104af7d878f1252d49eff9298785c6cbdc ACPI: video: Allow GPU drivers to report no panels
 c573e240609ff781a0246c0c8c8351abd0475287 drm/amd/display: Report to ACPI video if no panels were found
@@ -53,6 +65,12 @@ aa4847dbcdabfe80a1cff96480e4b3c8076a0356 kbuild: sort single-targets alphabetica
 c8451c141e07a8d05693f6c8d0e418fbb4b68bb7 Merge tag 'acpi-6.2-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 e39d9b9f89f2efd653212064f941de6f53c3c060 Merge tag 'ata-6.2-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/dlemoal/libata
 e4cf7c25bae5c3b5089a3c23a897f450149caef2 Merge tag 'kbuild-fixes-v6.2' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-892a8942a9b7025ea69a92d0cc92cfadffd699fa Merge branch 'linus'
+1e45e43984f01eb2eba60adb1e33e3e82764c696 Merge branch into tip/master: 'locking/urgent'
+30e36b8364364a69efe0247dcfcfd59e9c652782 Merge branch into tip/master: 'perf/urgent'
+25600d35c04243c86a304aae3e409e41898d6327 Merge branch into tip/master: 'x86/urgent'
+b41f91949475759fb28a6fde195142ddcd5cbff4 Merge branch into tip/master: 'perf/core'
+d18e7267116e94f4647ed6003191bd33fa00526f Merge branch into tip/master: 'ras/core'
+fd502c898e9aa842c57418933a412d29e37edc1c Merge branch into tip/master: 'sched/core'
+e2cda209b2a67d5921cf9ef4cdca57dc9eb3affe Merge branch into tip/master: 'x86/microcode'
 
---===============2012261328764156140==--
+--===============3084482287374153738==--
