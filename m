@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Sun, 01 Jan 2023 14:55:28 -0000
-Message-Id: <167258492834.31919.1331617859166320408@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Sun, 01 Jan 2023 14:57:51 -0000
+Message-Id: <167258507185.32691.787633796087929953@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: davem
+repo: pub/scm/linux/kernel/git/tip/tip
+user: bp
 changes:
-  - ref: refs/heads/master
-    old: d9d71a89f28d27ac772c429b37d52668d011df7a
-    new: a3542b0ccd58f9fd42f34afa9daea435279a7c1c
-    log: |
-         a3542b0ccd58f9fd42f34afa9daea435279a7c1c dt-bindings: net: sun8i-emac: Add phy-supply property
-         
+  - ref: refs/tags/locking_urgent_for_v6.2_rc2
+    old: 0000000000000000000000000000000000000000
+    new: badf9ebd29402856e8f5a4deaea240f6837c91c8
