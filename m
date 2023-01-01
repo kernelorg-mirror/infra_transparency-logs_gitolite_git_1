@@ -1,22 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Sun, 01 Jan 2023 22:00:45 -0000
-Message-Id: <167261044540.18015.11361089422184117390@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
+Date: Sun, 01 Jan 2023 22:27:06 -0000
+Message-Id: <167261202678.2443.8685283780111637800@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/conor/linux
+user: conor
 changes:
-  - ref: refs/heads/master
-    old: 150aae354b817f540848476bace2b2ba9931b197
-    new: 88603b6dc419445847923fcb7fe5080067a30f98
+  - ref: refs/heads/cache-no-subsystem
+    old: 76284105b8cd4a4fc4812197521af3b7b079ca04
+    new: 3c7a9ced77468390d5e78058b6b86b4ab4159cc0
     log: |
-         88603b6dc419445847923fcb7fe5080067a30f98 Linux 6.2-rc2
+         9b927069f2d7b3d53b03ba0f33d5cdb09917be10 soc: renesas: Add L2 cache management for RZ/Five SoC
+         1e211f535b326bf918a30a906c46c74a4dc744f9 fixup! soc: renesas: Add L2 cache management for RZ/Five SoC
+         3c7a9ced77468390d5e78058b6b86b4ab4159cc0 cache: sifive-ccache: add cache flushing capability
          
-  - ref: refs/tags/v6.2-rc2
-    old: 0000000000000000000000000000000000000000
-    new: e4ef62bcce9737cf3a2bb1b797b64dc25cbbfbb4
