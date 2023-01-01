@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4727025409874232604=="
+Content-Type: multipart/mixed; boundary="===============8979783465485957431=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Sun, 01 Jan 2023 05:47:59 -0000
-Message-Id: <167255207918.18555.10444991163930855603@gitolite.kernel.org>
+Date: Sun, 01 Jan 2023 05:48:26 -0000
+Message-Id: <167255210682.18788.3357211967337739840@gitolite.kernel.org>
 
---===============4727025409874232604==
+--===============8979783465485957431==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/fixes
-    old: 6a5e25fc3e0b94301734e8abb1d311a1e02d360d
-    new: e4cf7c25bae5c3b5089a3c23a897f450149caef2
-    log: revlist-6a5e25fc3e0b-e4cf7c25bae5.txt
+  - ref: refs/heads/kbuild
+    old: 9d4b86bcb515afbb62e14371b1e789a9a4a04a9d
+    new: ff0712cc1e1c8086d2ff9dc1b8068fa45f4ed931
+    log: revlist-9d4b86bcb515-ff0712cc1e1c.txt
 
---===============4727025409874232604==
+--===============8979783465485957431==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6a5e25fc3e0b-e4cf7c25bae5.txt
+Content-Disposition: attachment; filename=revlist-9d4b86bcb515-ff0712cc1e1c.txt
 
 b5f96cb719d8ba220b565ddd3ba4ac0d8bcfb130 nvme-pci: fix doorbell buffer value endianness
 c89a529e823d51dd23c7ec0c047c7a454a428541 nvme-pci: fix mempool alloc size
@@ -113,5 +113,17 @@ bff687b3dad6e0e56b27f4d3ed8a9695f35c7b1a Merge tag 'block-6.2-2022-12-29' of git
 c8451c141e07a8d05693f6c8d0e418fbb4b68bb7 Merge tag 'acpi-6.2-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 e39d9b9f89f2efd653212064f941de6f53c3c060 Merge tag 'ata-6.2-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/dlemoal/libata
 e4cf7c25bae5c3b5089a3c23a897f450149caef2 Merge tag 'kbuild-fixes-v6.2' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+8ca2abbfeffbae2386c6ba18b3a0d8509b8fafd1 kbuild: Modify default INSTALL_MOD_DIR from extra to updates
+de660ba19161938e429adb0055dc9766acfbe8b7 kbuild: refactor silent mode detection
+8e536d61591d507a85c12fe145368b80f9dde98a kbuild: print short log in addition to the whole command with V=1
+8476b8729e4ee06031b52a210fe4f6590f1ef420 kbuild: do not print extra logs for V=2
+b1f4a706113e36dca164871afbe69a8065c40126 kbuild: allow to combine multiple V= levels
+8a79f9a0fea6fa1a314fd101067459aa41c7c3df kbuild: drop V=0 support
+a223fe5a1183cd5ee80d19662e5267366c3b7a77 kbuild: clean up stale file removal
+35b95952d42ffaa7570889b1615ca49a78e94c2a .gitignore: update the command to check tracked files being ignored
+185371c112e6ea4bb02d4b196f6e98867cd4f5cd kbuild: make W=1 warn files that are tracked but ignored by git
+5483799dadc51d1bdc4b7c70fa00cd7b9bcbd3c0 kbuild: rename cmd_$@ to savedcmd_$@ in *.cmd files
+b7d6a3bd9b99bb0ee321dbb41d10fa213319e19b kbuild: add more comments for KBUILD_NOCMDDEP=1
+ff0712cc1e1c8086d2ff9dc1b8068fa45f4ed931 kbuild: unify cmd_dt_S_dtb and cmd_dt_S_dtbo
 
---===============4727025409874232604==--
+--===============8979783465485957431==--
