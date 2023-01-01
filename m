@@ -1,19 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Sun, 01 Jan 2023 20:00:01 -0000
-Message-Id: <167260320154.3006.13909266113074384842@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/xfstests-dev
+Date: Sun, 01 Jan 2023 20:27:26 -0000
+Message-Id: <167260484660.21762.17289179831731816272@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/ebiggers/xfstests-dev
+user: ebiggers
 changes:
   - ref: refs/heads/master
-    old: 4a1aaf5ec9800d18caa902ddd5a728d6c8ffa991
-    new: bb7b4c854544c1b167f03451f697ec766443efcd
+    old: fbefcb32cbef328e898fa984ae10975c23d6b633
+    new: fbd489798b31e32f0eaefcd754326a06aa5b166f
     log: |
-         bb7b4c854544c1b167f03451f697ec766443efcd Sun Jan  1 07:59:04 PM UTC 2023
+         d60bd999f580fb6ebc516578990572a5188e3be3 common/verity: add and use _fsv_can_enable()
+         d206c4d04b6a87ff84934a6058d7adf77f94d9d4 common/verity: set FSV_BLOCK_SIZE to an appropriate value
+         5fadb20865e6022b0ef43dd2e478e9193c704241 common/verity: use FSV_BLOCK_SIZE by default
+         658d8d249e9722413c515b53b9940f32de02b9f5 common/verity: add _filter_fsverity_digest()
+         3f15400a5fabfd382e94b676e5cd17a3c488e7a9 generic/572: support non-4K Merkle tree block size
+         abe649bd477669cdfc9ca523724af6d7534c09ca generic/573: support non-4K Merkle tree block size
+         e25ea6825c085260c1855124949660e14f36b969 generic/577: support non-4K Merkle tree block size
+         a89062a98d078f80b9160850331a59bdd9162a6e generic/574: test multiple Merkle tree block sizes
+         772a394868c9eb9a386a65c6afc42f52309a8997 generic/624: test multiple Merkle tree block sizes
+         fbd489798b31e32f0eaefcd754326a06aa5b166f generic/575: test 1K Merkle tree block size
          
