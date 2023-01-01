@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2488414813389199045=="
+Content-Type: multipart/mixed; boundary="===============4727025409874232604=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Sun, 01 Jan 2023 05:47:15 -0000
-Message-Id: <167255203586.18294.13959907519226854150@gitolite.kernel.org>
+Date: Sun, 01 Jan 2023 05:47:59 -0000
+Message-Id: <167255207918.18555.10444991163930855603@gitolite.kernel.org>
 
---===============2488414813389199045==
+--===============4727025409874232604==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/master
-    old: 1b929c02afd37871d5afb9d498426f83432e71c2
+  - ref: refs/heads/fixes
+    old: 6a5e25fc3e0b94301734e8abb1d311a1e02d360d
     new: e4cf7c25bae5c3b5089a3c23a897f450149caef2
-    log: revlist-1b929c02afd3-e4cf7c25bae5.txt
+    log: revlist-6a5e25fc3e0b-e4cf7c25bae5.txt
 
---===============2488414813389199045==
+--===============4727025409874232604==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1b929c02afd3-e4cf7c25bae5.txt
+Content-Disposition: attachment; filename=revlist-6a5e25fc3e0b-e4cf7c25bae5.txt
 
 b5f96cb719d8ba220b565ddd3ba4ac0d8bcfb130 nvme-pci: fix doorbell buffer value endianness
 c89a529e823d51dd23c7ec0c047c7a454a428541 nvme-pci: fix mempool alloc size
@@ -103,23 +103,15 @@ f2d1421391bba0b15684d2379a47a089f0e561d0 nvmet: set the LBCC bit for commands th
 831ed60c2aca2d7c517b2da22897a90224a97d27 nvme: also return I/O command effects from nvme_command_effects
 6f99ac04c469b5d0a180a4ccea99d25d5dc9d21c nvme: consult the CSE log page for unprivileged passthrough
 76807fcd73b818eb9f245ef1035aed34ecdd9813 nvme-auth: fix smatch warning complaints
-da8daff9405e55baa1f797b77a7c629a89f4d764 kconfig: Add static text for search information in help menu
 1551ed5a178ca030adc92b1eb29157b5e92bf134 Merge tag 'nvme-6.2-2022-12-29' of git://git.infradead.org/nvme into block-6.2
 2258c2dc850b8605cb66b3383e50b9dddd1c6580 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 69fb073b5ba6d7c9358a04115ed61b78c73790ce Merge tag 'linux-kselftest-kunit-fixes-6.2-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
 ac787ffa5a246e53675ae93294420ea948600818 Merge tag 'io_uring-6.2-2022-12-29' of git://git.kernel.dk/linux
 bff687b3dad6e0e56b27f4d3ed8a9695f35c7b1a Merge tag 'block-6.2-2022-12-29' of git://git.kernel.dk/linux
-99cb0d917ffa1ab628bb67364ca9b162c07699b1 arch: fix broken BuildID for arm64 and riscv
-924d28b39e3b62ad5e97751585aed7c89f8c43ee .gitignore: ignore *.rpm
-9c9b55a59416a87fc73c479d78cb3218076dbc30 kbuild: add a missing line for help message
-63ffe00d8c939eda1a8fa87484ca4537e13a20b7 kbuild: Fix running modpost with musl libc
-02a893bc99757d75b7abb43b74f210dfa3df8c4b kbuild: rpm-pkg: add libelf-devel as alternative for BuildRequires
-aa4847dbcdabfe80a1cff96480e4b3c8076a0356 kbuild: sort single-targets alphabetically again
-6a5e25fc3e0b94301734e8abb1d311a1e02d360d fixdep: remove unneeded <stdarg.h> inclusion
 0948a9ef1d59d1bc7fae29f32058e463bbff4a6c Merge branches 'acpi-resource' and 'acpi-video'
 262eef26e350181f8067072571f4918cad3c5e87 Merge tag 'sound-6.2-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
 c8451c141e07a8d05693f6c8d0e418fbb4b68bb7 Merge tag 'acpi-6.2-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 e39d9b9f89f2efd653212064f941de6f53c3c060 Merge tag 'ata-6.2-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/dlemoal/libata
 e4cf7c25bae5c3b5089a3c23a897f450149caef2 Merge tag 'kbuild-fixes-v6.2' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 
---===============2488414813389199045==--
+--===============4727025409874232604==--
