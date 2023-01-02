@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4664536191732930540=="
+Content-Type: multipart/mixed; boundary="===============5819987732372506651=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Mon, 02 Jan 2023 03:17:18 -0000
-Message-Id: <167262943844.3389.15179374008068317562@gitolite.kernel.org>
+Date: Mon, 02 Jan 2023 03:19:33 -0000
+Message-Id: <167262957361.4129.14984923569516259309@gitolite.kernel.org>
 
---===============4664536191732930540==
+--===============5819987732372506651==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,84 +15,18 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cel/linux
 user: cel
 changes:
-  - ref: refs/heads/master
-    old: 1b929c02afd37871d5afb9d498426f83432e71c2
-    new: 88603b6dc419445847923fcb7fe5080067a30f98
-    log: revlist-1b929c02afd3-88603b6dc419.txt
-  - ref: refs/tags/v6.2-rc2
-    old: 0000000000000000000000000000000000000000
-    new: e4ef62bcce9737cf3a2bb1b797b64dc25cbbfbb4
+  - ref: refs/heads/topic-rpcsec-gss-krb5-enhancements
+    old: ae096b5298bea0f13e61c1ddf928b88e1a2d82d5
+    new: dd26044a871b4310a4a651c2695bdbd88dcab00b
+    log: revlist-ae096b5298be-dd26044a871b.txt
 
---===============4664536191732930540==
+--===============5819987732372506651==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1b929c02afd3-88603b6dc419.txt
+Content-Disposition: attachment; filename=revlist-ae096b5298be-dd26044a871b.txt
 
 1c0908d8e441631f5b8ba433523cf39339ee2ba0 rtmutex: Add acquire semantics for rtmutex lock acquisition slow path
-b5f96cb719d8ba220b565ddd3ba4ac0d8bcfb130 nvme-pci: fix doorbell buffer value endianness
-c89a529e823d51dd23c7ec0c047c7a454a428541 nvme-pci: fix mempool alloc size
-841734234a28fd5cd0889b84bd4d93a0988fa11e nvme-pci: fix page size checks
-52ea806ad983490b3132a9e526e11a10dc2fd10c io_uring: finish waiting before flushing overflow entries
-23fffb2f09ce1145cbd751801d45ba74acaa6542 io_uring/cancel: re-grab ctx mutex after finishing wait
-3659fb5ac29a5e6102bebe494ac789fd47fb78f4 nvme: fix multipath crash caused by flush request when blktrace is enabled
-fb857b0bb2c7eea22a896c53c849a75437d24ea8 Merge tag 'nvme-6.2-2022-12-22' of git://git.infradead.org/nvme into block-6.2
-00a734104af7d878f1252d49eff9298785c6cbdc ACPI: video: Allow GPU drivers to report no panels
-c573e240609ff781a0246c0c8c8351abd0475287 drm/amd/display: Report to ACPI video if no panels were found
-5aa9d943e9b6bf6e6023645cbe7ce7d5ed84baf4 ACPI: video: Don't enable fallback path for creating ACPI backlight by default
-7592b79ba4a91350b38469e05238308bcfe1019b ACPI: resource: do IRQ override on XMG Core 15
-f3cb9b740869712d448edf3b9ef5952b847caf8b ACPI: resource: do IRQ override on Lenovo 14ALC7
-7203481fd12b1257938519efb2460ea02b9236ee ACPI: resource: Add Asus ExpertBook B2502 to Asus quirks
-3cf3b7f012f3ea8bdc56196e367cf07c10424855 ACPI: video: Fix Apple GMUX backlight detection
-3ea45390e9c0d35805ef8357ace55594fd4233d0 ACPI: x86: s2idle: Force AMD GUID/_REV 2 on HP Elitebook 865
-e555c85792bd5f9828a2fd2ca9761f70efb1c77b ACPI: x86: s2idle: Stop using AMD specific codepath for Rembrandt+
-343190841a1f22b96996d9f8cfab902a4d1bfd0e io_uring: check for valid register opcode earlier
-55c590adfe18b5380f7c4ae3696468bc5c916ee5 KVM: x86/pmu: Prevent zero period event from being repeatedly released
-fceb3a36c29a957515d5156e5e7844ea040dc43d KVM: x86: ioapic: Fix level-triggered EOI and userspace I/OAPIC reconfigure race
-8b9e13d2de73b5513c2ceffe0f62eab40206a126 KVM: x86: hyper-v: Fix 'using uninitialized value' Coverity warning
-3c649918b764c0aaef22ea65d514bac5e2324ec0 KVM: x86: Simplify kvm_apic_hw_enabled
-77b1908e10eccf34310ffd95b0b455c01aa76286 KVM: x86: Sanity check inputs to kvm_handle_memory_failure()
-53800f88d414525d3fdc5c84629faa0b6bc35b3b KVM: selftests: Zero out valid_bank_mask for "all" case in Hyper-V IPI test
-057b18756b464729bc787ed4e6b44abb9f5c3a38 KVM: nVMX: Document that ignoring memory failures for VMCLEAR is deliberate
-31de69f4eea77b28a9724b3fa55aae104fc91fc7 KVM: nVMX: Properly expose ENABLE_USR_WAIT_PAUSE control to L1
-a0860d68a25dee4e51e7d3e067a66ca765776fe8 KVM: nVMX: Don't stuff secondary execution control if it's not supported
-f5d16bb9be68b20c78fc3d93fa243eb1f0b9fa53 KVM: x86/mmu: Don't attempt to map leaf if target TDP MMU SPTE is frozen
-80a3e4ae962de33ff6a94e798c80e56e1fed4d10 KVM: x86/mmu: Map TDP MMU leaf SPTE iff target level is reached
-21a36ac6b6c7059965bac0cc73ef3cbb8ef576dd KVM: x86/mmu: Re-check under lock that TDP MMU SP hugepage is disallowed
-50a9ac25985c037d45ee6d7e3a7ae198a63b9266 KVM: x86/mmu: Don't install TDP MMU SPTE if SP has unexpected level
-8508fa2e7472f673edbeedf1b1d2b7a6bb898ecc ALSA: line6: correct midi status byte when receiving data from podxt
-b8800d324abb50160560c636bfafe2c81001b66c ALSA: line6: fix stack overflow in line6_midi_transmit
-a4517c4f3423c7c448f2c359218f97c1173523a1 ALSA: hda/realtek: Apply dual codec fixup for Dell Latitude laptops
-246cf66e300b76099b5dbd3fdd39e9a5dbc53f02 block, bfq: fix uaf for bfqq in bfq_exit_icq_bfqq
-33b93727ce90c8db916fb071ed13e90106339754 nvme: fix setting the queue depth in nvme_alloc_io_tag_set
-88d356ca41ba1c3effc2d4208dfbd4392f58cd6d nvme-pci: update sqsize when adjusting the queue depth
-93ef83050e597634d2c7dc838a28caf5137b9404 kunit: alloc_string_stream_fragment error handling bug fix
-37e14e4f3715428b809e4df9a9958baa64c77d51 ata: ahci: Fix PCS quirk application for suspend
-e779fd53b4aa0aa8704ae62eb56065b9877a540b KVM: selftests: Define literal to asm constraint in aarch64 as unsigned long
-73441efa36c253906057b8800bc9a3fdadbc2c41 KVM: selftests: Delete dead code in x86_64/vmx_tsc_adjust_test.c
-d61a12cb9af5b355a38e0c0106e91224b49195ce KVM: selftests: Fix divide-by-zero bug in memslot_perf_test
-43e96957e8b87bad8e4ba666750ff0cda9e03ffb KVM: selftests: Use pattern matching in .gitignore
-1525429fe5cb8e23b74c6dd473bb477a35906704 KVM: selftests: Fix a typo in x86-64's kvm_get_cpu_address_width()
-6a5db83adfd668b3c1092274ddf45903eb1fe435 KVM: selftests: Rename UNAME_M to ARCH_DIR, fill explicitly for x86
-5dc38777a7de15109a1d45b42cf2bb7f1bbe6010 KVM: selftests: Use proper function prototypes in probing code
-2b2d8afc1acf6396bea14ef973d0029c4a5b33f4 KVM: selftests: Probe -no-pie with actual CFLAGS used to compile
-7cf2e7373ab145bf972c3cbcb495fd1a9770c3b0 KVM: selftests: Explicitly disable builtins for mem*() overrides
-5efb946b9569abdfb8a42702d40a5c244096e932 KVM: selftests: Include lib.mk before consuming $(CC)
-db7b780dab6742a8358ae7ecb1d0e972ccea8737 KVM: selftests: Disable "gnu-variable-sized-type-not-at-end" warning
-2f5213b8fc311eaa8fc78de7ecbd27ead027993c KVM: selftests: Use magic value to signal ucall_alloc() failure
-feb84f6daa7e7d51444d13fa65df7d5562fd0075 KVM: selftests: document the default implementation of vm_vaddr_populate_bitmap
-7a16142505cbb9b80d5e998e32b1d882e0f45d64 KVM: arm64: selftests: Don't identity map the ucall MMIO hole
-92c8191bb5d3f670ed806f91823381193288a4e1 KVM: selftests: Mark correct page as mapped in virt_map()
-e0a78525f540f9d9a44a296f307b8b74cee4c288 MAINTAINERS: adjust entry after renaming the vmx hyperv files
-a303def0fc18f0f2393b5c5f8ae3d2657a9713dc kvm: Remove the unused macro KVM_MMU_READ_{,UN}LOCK()
-562f5bc48a8d99a8898c734ecacf061a79a88fbf kvm: x86/mmu: Remove duplicated "be split" in spte.h
-23e528d9bce2385967370ad95a7d52a3c7a0a016 KVM: Delete extra block of "};" in the KVM API documentation
-385407a69d5140825d4cdab814cbf128ba63a64a KVM: x86/xen: Fix memory leak in kvm_xen_write_hypercall_page()
-92c58965e9656dc6e682a8ffe520fac0fb256d13 KVM: x86/xen: Use kvm_read_guest_virt() instead of open-coding it badly
-70eae03087a3101493d9a1cf60c86c5f65600822 KVM: x86/xen: Fix SRCU/RCU usage in readers of evtchn_ports
-1c14faa5087db0a098c3ab1e183f2b5df4b0d3f2 KVM: x86/xen: Simplify eventfd IOCTLs
-b0305c1e0e27ad91187bc6d5ac3d502799faf239 KVM: x86/xen: Add KVM_XEN_INVALID_GPA and KVM_XEN_INVALID_GFN to uapi
-af2808906aab0bf5786021d45b3ebfca6f4ad72f KVM: x86/xen: Documentation updates and clarifications
 e2d371484653ac83b970d3ebcf343383f39f8b6b perf core: Return error pointer if inherit_event() fails to find pmu_ctx
 f841b682baef90ee144df8b12e2c76aa460717c1 perf/core: Fix cgroup events tracking
 08245672cdc6505550d1a5020603b0a8d4a6dcc7 perf/x86/amd: fix potential integer overflow on shift of a int
@@ -102,49 +36,83 @@ ade8c20847fcc3f4de08b35f730ec04ef29ddbdc x86/calldepth: Fix incorrect init secti
 1993bf97992df2d560287f3c4120eda57426843d x86/kprobes: Fix kprobes instruction boudary check with CONFIG_RETHUNK
 63dc6325ff41ee9e570bde705ac34a39c5dbeb44 x86/kprobes: Fix optprobe optimization check with CONFIG_RETHUNK
 94cd8fa09f5f1ebdd4e90964b08b7f2cc4b36c43 futex: Fix futex_waitv() hrtimer debug object leak on kcalloc error
-9eb803402a2a83400c6c6afd900e3b7c87c06816 uapi:io_uring.h: allow linux/time_types.h to be skipped
-a79b53aaaab53de017517bf9579b6106397a523c KVM: x86: fix deadlock for KVM_XEN_EVTCHN_RESET
-02d9a04da453984b16f4a585ad808cf961df495e Documentation: kvm: clarify SRCU locking order
-129c48cde6c9e519d033305649665427c6cac494 KVM: selftests: restore special vmmcall code layout needed by the harness
-a5496886eb130ea08b1a5cd5c284543909bde749 Merge branch 'kvm-late-6.1-fixes' into HEAD
-090ddad4c7a9fefd647c762093a555870a19c8b2 ALSA: hda/hdmi: Static PCM mapping again with AMD HDMI codecs
-8ca4fc323d2e4ab9dabbdd57633af40b0c7e6af9 docs, nvme: add a feature and quirk policy document
-685e6311637e46f3212439ce2789f8a300e5050f nvme: fix the NVME_CMD_EFFECTS_CSE_MASK definition
-61f37154c599cf9f2f84dcbd9be842f8645a7099 nvmet: use NVME_CMD_EFFECTS_CSUPP instead of open coding it
-f2d1421391bba0b15684d2379a47a089f0e561d0 nvmet: set the LBCC bit for commands that modify data
-2a459f6933e1c459bffb7cc73fd6c900edc714bd nvmet: don't defer passthrough commands with trivial effects to the workqueue
-831ed60c2aca2d7c517b2da22897a90224a97d27 nvme: also return I/O command effects from nvme_command_effects
-6f99ac04c469b5d0a180a4ccea99d25d5dc9d21c nvme: consult the CSE log page for unprivileged passthrough
-76807fcd73b818eb9f245ef1035aed34ecdd9813 nvme-auth: fix smatch warning complaints
-da8daff9405e55baa1f797b77a7c629a89f4d764 kconfig: Add static text for search information in help menu
-1551ed5a178ca030adc92b1eb29157b5e92bf134 Merge tag 'nvme-6.2-2022-12-29' of git://git.infradead.org/nvme into block-6.2
-2258c2dc850b8605cb66b3383e50b9dddd1c6580 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
-69fb073b5ba6d7c9358a04115ed61b78c73790ce Merge tag 'linux-kselftest-kunit-fixes-6.2-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
-ac787ffa5a246e53675ae93294420ea948600818 Merge tag 'io_uring-6.2-2022-12-29' of git://git.kernel.dk/linux
-bff687b3dad6e0e56b27f4d3ed8a9695f35c7b1a Merge tag 'block-6.2-2022-12-29' of git://git.kernel.dk/linux
 c5bc073668206c73c20798eb6d978b5e9db5b16f drm/i915: fix TLB invalidation for Gen12.50 video and compute engines
 fff758698842fb6722be37498d8773e0fb47f000 drm/i915: Remove __maybe_unused from mtl_info
 3f882f2d4f689627c1566c2c92087bc3ff734953 drm/i915: improve the catch-all evict to handle lock contention
 11ce8fd8fd8718247f17475802639cd7e2d3765c drm/i915/uc: Fix two issues with over-size firmware files
-99cb0d917ffa1ab628bb67364ca9b162c07699b1 arch: fix broken BuildID for arm64 and riscv
-924d28b39e3b62ad5e97751585aed7c89f8c43ee .gitignore: ignore *.rpm
-9c9b55a59416a87fc73c479d78cb3218076dbc30 kbuild: add a missing line for help message
-63ffe00d8c939eda1a8fa87484ca4537e13a20b7 kbuild: Fix running modpost with musl libc
-02a893bc99757d75b7abb43b74f210dfa3df8c4b kbuild: rpm-pkg: add libelf-devel as alternative for BuildRequires
-aa4847dbcdabfe80a1cff96480e4b3c8076a0356 kbuild: sort single-targets alphabetically again
-6a5e25fc3e0b94301734e8abb1d311a1e02d360d fixdep: remove unneeded <stdarg.h> inclusion
 963bbdb32b47cfa67a449e715e1dcc525fbd01fc drm/i915/dsi: add support for ICL+ native MIPI GPIO sequence
 6217e9f05a74df48c77ee68993d587cdfdb1feb7 drm/i915/dsi: fix MIPI_BKLT_EN_1 native GPIO index
-0948a9ef1d59d1bc7fae29f32058e463bbff4a6c Merge branches 'acpi-resource' and 'acpi-video'
-262eef26e350181f8067072571f4918cad3c5e87 Merge tag 'sound-6.2-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
-c8451c141e07a8d05693f6c8d0e418fbb4b68bb7 Merge tag 'acpi-6.2-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
-e39d9b9f89f2efd653212064f941de6f53c3c060 Merge tag 'ata-6.2-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/dlemoal/libata
-e4cf7c25bae5c3b5089a3c23a897f450149caef2 Merge tag 'kbuild-fixes-v6.2' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 a9f5a752e86f1897c3b377b6b861576a4c1a2ff0 Merge tag 'drm-intel-fixes-2022-12-30' of git://anongit.freedesktop.org/drm/drm-intel into drm-fixes
 8b41948296b76588f5ebaf7cbc5be5c803ece70a Merge tag 'drm-fixes-2023-01-01' of git://anongit.freedesktop.org/drm/drm
 95d248d16f9cb42de717367832cffa0f83e97fde Merge tag 'locking_urgent_for_v6.2_rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 5b129817aedb03d94fb960e7a34d0f5eaa20a2f2 Merge tag 'x86_urgent_for_v6.2_rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 150aae354b817f540848476bace2b2ba9931b197 Merge tag 'perf_urgent_for_v6.2_rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 88603b6dc419445847923fcb7fe5080067a30f98 Linux 6.2-rc2
+2f845f9218f13441053d720e76e7b61f44954007 SUNRPC: Push svcxdr_init_decode() into svc_process_common()
+cf211e11187a6881cf3266d21f369495e2218f7f SUNRPC: Move svcxdr_init_decode() into ->accept methods
+90a58c460d8756a41d73aff2e494ce5702520394 SUNRPC: Add an XDR decoding helper for struct opaque_auth
+40614ffeafaeee4f2f338dc28fd6eb677cffe4f2 SUNRPC: Convert svcauth_null_accept() to use xdr_stream
+01d52f02fb1449a1541473de26b51179db043ec1 SUNRPC: Convert svcauth_unix_accept() to use xdr_stream
+24ce36da7864ae4e807b2ca81d73675281998eff SUNRPC: Convert svcauth_tls_accept() to use xdr_stream
+d6c011c4669bfdeee289558209ab8045d7421644 SUNRPC: Move the server-side GSS upcall to a noinline function
+080e9b9695108c1053eb983f4480efc2d8b5e5de SUNRPC: Hoist common verifier decoding code into svcauth_gss_proc_init()
+799dc6208bccf437676be2797b5c886b52c3084c SUNRPC: Remove gss_read_common_verf()
+824f0b11969573084a68572fcd3728a307e6db02 SUNRPC: Remove gss_read_verf()
+6c152e397c625c10d68761ff2898caf8cfd902a1 SUNRPC: Convert server-side GSS upcall helpers to use xdr_stream
+bbbeecbcca8e94c824ddd16a7a96c6153b031f66 SUNRPC: Replace read_u32_from_xdr_buf() with existing XDR helper
+9850c95477786605567236d047da7d8d83b626e2 SUNRPC: Rename automatic variables in unwrap_integ_data()
+2de3a37f81bf760349f60abda92a3b25507ab33e SUNRPC: Convert unwrap_integ_data() to use xdr_stream
+e245d7fcf6a4f7719bc08f7b78e17adfb8b801c8 SUNRPC: Rename automatic variables in unwrap_priv_data()
+acfdb98a67118f4380a61f04566dc591ceb9193b SUNRPC: Convert unwrap_priv_data() to use xdr_stream
+5de2d9afab5847378e87af79840057e9bdfda7a5 SUNRPC: Convert gss_verify_header() to use xdr_stream
+ebf4a92cc94a8d3a558d5aa5397c98a8be629ea9 SUNRPC: Clean up svcauth_gss_accept's NULL procedure check
+820bdb2800243af2016de680685fbc21aeec39e9 SUNRPC: Convert the svcauth_gss_accept() pre-amble to use xdr_stream
+baf1b436540b61fe1003c1ee443618b5ee2261a3 SUNRPC: Hoist init_decode out of svc_authenticate()
+c658003200a6b3497dc465196910bec5cda08940 SUNRPC: Re-order construction of the first reply fields
+7336c54892622bc16df5c18caa2bd4b28f2e8fa5 SUNRPC: Eliminate unneeded variable
+34a0764f58483370a5cfa9fe2ac1ce442d52a8c1 SUNRPC: Decode most of RPC header with xdr_stream
+cc8917200fdc0f084a6ec2e5b3dd40ce2ae8a557 SUNRPC: Remove svc_process_common's argv parameter
+afe45bed5224cf856c586e2611b5b20101cd63e9 SUNRPC: Hoist svcxdr_init_decode() into svc_process()
+f6c4c402626d7f1570a3ac4f15d7aad250d72e96 SUNRPC: Add header ifdefs to linux/sunrpc/gss_krb5.h
+2e1a3261ab57947fcb812d9d7b9e9ad9650cf809 SUNRPC: Remove .blocksize field from struct gss_krb5_enctype
+ecfd4325f692e6b0291aff18d620de2cd814a3c4 SUNRPC: Remove .conflen field from struct gss_krb5_enctype
+a40a39b85ea4896a4b3b4e82bd694d4a7e503dc6 SUNRPC: Improve Kerberos confounder generation
+b1627337c7020017190aabab331e423ae94e1dba SUNRPC: Obscure Kerberos session key
+c69d42491fda63ff7b6daaae0f0c0799bcbf81cc SUNRPC: Refactor set-up for aux_cipher
+a1ae1e68921caae7dff73a9fb12d247aff75cb80 SUNRPC: Obscure Kerberos encryption keys
+a4ee5d067172b908d4d49ca07b72e903eb7ff4b0 SUNRPC: Obscure Kerberos signing keys
+319e1e060a5d511b3e231e3a7f64ccb866b96580 SUNRPC: Obscure Kerberos integrity keys
+66b1d66894775022789164434ab1a7713d424dd7 SUNRPC: Refactor the GSS-API Per Message calls in the Kerberos mechanism
+278982cbfddb37650bc761b00789d9797aa1ad46 SUNRPC: Remove another switch on ctx->enctype
+5880248b68b8e25ca2fe0c9121dcd0c7f1d7f0ee SUNRPC: Add /proc/net/rpc/gss_krb5_enctypes file
+e741087797a149ea48c772ef7d92e2249ba0f13d NFSD: Replace /proc/fs/nfsd/supported_krb5_enctypes with a symlink
+e4691ce3984719096637f4960389049c227d194b SUNRPC: Replace KRB5_SUPPORTED_ENCTYPES macro
+25aa546741b48e5857bfb888c2f352a78ca930b7 SUNRPC: Enable rpcsec_gss_krb5.ko to be built without CRYPTO_DES
+ec2c0fc118dbcf72e35fa41d04da2c39a519eb06 SUNRPC: Remove ->encrypt and ->decrypt methods from struct gss_krb5_enctype
+92dbc986e0258dc4c3a48fb9b1da97c8b28650ed SUNRPC: Rename .encrypt_v2 and .decrypt_v2 methods
+2b59b554b08ce7c68c64c258d06ada554c0d735b SUNRPC: Hoist KDF into struct gss_krb5_enctype
+8bc78d78163516964144c9bb8c4d7ea055c7ce3d SUNRPC: Clean up cipher set up for v1 encryption types
+da27f6036f89e03978d7ee85e7b974873e101771 SUNRPC: Parametrize the key length passed to context_v2_alloc_cipher()
+149d788d9b2b38d1026a5645adce0bb5f92b3eb0 SUNRPC: Add new subkey length fields
+ed4fba22eb76e7c91732a49fcaef5bc3703ada06 SUNRPC: Refactor CBC with CTS into helpers
+c27bec087ad94d6c82666e46fc764c91594d7894 SUNRPC: Add gk5e definitions for RFC 8009 encryption types
+f006cc8d900a86972b617f0c13358be5f01e660d SUNRPC: Add KDF-HMAC-SHA2
+afeb76b214e38463f0499626f8457f74e1170217 SUNRPC: Add RFC 8009 encryption and decryption functions
+f03b6dc5ab9122f685f028263ce6135dd99db267 SUNRPC: Advertise support for RFC 8009 encryption types
+43e85a4a5851abb4c7cf1effb0581144267eeb81 SUNRPC: Support the Camellia enctypes
+166eb5eb00b4c58982c43d66a14954a8931c1549 SUNRPC: Add KDF_FEEDBACK_CMAC
+79fe189e276861529a2fb6aad4a6d099fe18fd51 SUNRPC: Advertise support for the Camellia encryption types
+9b03f57d5ed45824d70da53cddcb4155a81d279c SUNRPC: Move remaining internal definitions to gss_krb5_internal.h
+1650acab2749707c326fcecb717be20e2fe67490 SUNRPC: Add KUnit tests for rpcsec_krb5.ko
+e121186362ad7d69fdc60e0f2c5c49982a790c50 SUNRPC: Export get_gss_krb5_enctype()
+12b489dadee7af4d2875011e400eb4df255d14c8 SUNRPC: Add KUnit tests RFC 3961 Key Derivation
+892fbed1bb5af0ab89a14308493507006822bff8 SUNRPC: Add Kunit tests for RFC 3962-defined encryption/decryption
+b846a3842fc3345217fc69173d54bd3a834332b1 SUNRPC: Add KDF KUnit tests for the RFC 6803 encryption types
+a8dfee78586cb585cfdb62532a77538d7ef038b4 SUNRPC: Add checksum KUnit tests for the RFC 6803 encryption types
+66b33d7c6aaae9242a58f197c1c173e93c815dfd SUNRPC: Add encryption KUnit tests for the RFC 6803 encryption types
+3f4c7f20dad3cf0fd6612af70f09f679f2fa1309 SUNRPC: Add KDF-HMAC-SHA2 Kunit tests
+9b0120f4c4392ff3443c7670c9f78cabdfc2930b SUNRPC: Add RFC 8009 checksum KUnit tests
+b19cc385b51bb68c2e85f4061f251584ee54ad14 SUNRPC: Add RFC 8009 encryption KUnit tests
+dd26044a871b4310a4a651c2695bdbd88dcab00b SUNRPC: Add encryption self-tests
 
---===============4664536191732930540==--
+--===============5819987732372506651==--
