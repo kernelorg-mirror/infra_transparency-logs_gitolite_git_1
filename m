@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1293036223844690110=="
+Content-Type: multipart/mixed; boundary="===============2694248980317118605=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 02 Jan 2023 10:09:04 -0000
-Message-Id: <167265414443.26291.6194919452910078757@gitolite.kernel.org>
+Date: Mon, 02 Jan 2023 10:09:24 -0000
+Message-Id: <167265416418.26508.11266652615564479927@gitolite.kernel.org>
 
---===============1293036223844690110==
+--===============2694248980317118605==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: 9e459eb6dfb0d6dfd2a869bf442c4a7aae0f04db
-    new: 8075de6c0ed34e9108b4f56148dca6c671319ec7
-    log: revlist-9e459eb6dfb0-8075de6c0ed3.txt
+  - ref: refs/heads/m68k-queue
+    old: 4591f7b378f9662b206fc641ef65a0d9cf9c2172
+    new: 98e1b9776fd2aa70e68f13af1cafa0a13153517e
+    log: revlist-4591f7b378f9-98e1b9776fd2.txt
 
---===============1293036223844690110==
+--===============2694248980317118605==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9e459eb6dfb0-8075de6c0ed3.txt
+Content-Disposition: attachment; filename=revlist-4591f7b378f9-98e1b9776fd2.txt
 
 1c0908d8e441631f5b8ba433523cf39339ee2ba0 rtmutex: Add acquire semantics for rtmutex lock acquisition slow path
 b5f96cb719d8ba220b565ddd3ba4ac0d8bcfb130 nvme-pci: fix doorbell buffer value endianness
@@ -143,6 +143,8 @@ a9f5a752e86f1897c3b377b6b861576a4c1a2ff0 Merge tag 'drm-intel-fixes-2022-12-30' 
 5b129817aedb03d94fb960e7a34d0f5eaa20a2f2 Merge tag 'x86_urgent_for_v6.2_rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 150aae354b817f540848476bace2b2ba9931b197 Merge tag 'perf_urgent_for_v6.2_rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 88603b6dc419445847923fcb7fe5080067a30f98 Linux 6.2-rc2
-8075de6c0ed34e9108b4f56148dca6c671319ec7 Merge tag 'v6.2-rc2'
+6d303ae8cdaae9a215fbe9d84797458c0779da43 m68k: atari: usb: Add ISP1160 USB host controller support
+51558065b0ff7ab188a6378f932890f4f116b4a4 m68k: atari: Update Kconfig.bus help text
+98e1b9776fd2aa70e68f13af1cafa0a13153517e m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============1293036223844690110==--
+--===============2694248980317118605==--
