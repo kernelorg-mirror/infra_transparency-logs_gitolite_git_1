@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4653977669796887580=="
+Content-Type: multipart/mixed; boundary="===============9004725692272599010=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
-Date: Mon, 02 Jan 2023 09:45:37 -0000
-Message-Id: <167265273768.11596.16312332292246515694@gitolite.kernel.org>
+Date: Mon, 02 Jan 2023 09:47:07 -0000
+Message-Id: <167265282727.13111.222492326009904978@gitolite.kernel.org>
 
---===============4653977669796887580==
+--===============9004725692272599010==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ardb/linux
 user: ardb
 changes:
-  - ref: refs/heads/arm64-efi-enter-with-mmu-on-for-v6.3
-    old: 771a55d1352099be6d3611d981fcd0727287a1b9
+  - ref: refs/heads/for-kernelci
+    old: 7236bac201b2e20877e084e8022e84206d957757
     new: 9b743f0f13ce124a0eaa3630224b44fb33900c61
-    log: revlist-771a55d13520-9b743f0f13ce.txt
+    log: revlist-7236bac201b2-9b743f0f13ce.txt
 
---===============4653977669796887580==
+--===============9004725692272599010==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-771a55d13520-9b743f0f13ce.txt
+Content-Disposition: attachment; filename=revlist-7236bac201b2-9b743f0f13ce.txt
 
 2d63e6a3d97132449451c2f66fe24a2dc4e2938f scripts: coccicheck: use "grep -E" instead of "egrep"
 6e0149a55379d6b91948cf6e94e700eb7dbaa518 9p/fs: Remove unneeded idr.h #include
@@ -301,4 +301,4 @@ defaf0e68b646e471807df877b6d18e59638741b arm64: head: Move all finalise_el2 call
 11488d8233890badeaf1173d6875bdc967228ccb arm64: lds: reduce effective minimum image alignment to 64k
 9b743f0f13ce124a0eaa3630224b44fb33900c61 efi: arm64: enter with MMU and caches enabled
 
---===============4653977669796887580==--
+--===============9004725692272599010==--
