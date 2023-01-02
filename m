@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6935118884431781520=="
+Content-Type: multipart/mixed; boundary="===============7675538188863239365=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ulfh/mmc
-Date: Mon, 02 Jan 2023 15:04:18 -0000
-Message-Id: <167267185801.31593.16269992978817637323@gitolite.kernel.org>
+Date: Mon, 02 Jan 2023 15:04:45 -0000
+Message-Id: <167267188522.31817.9567774622733341187@gitolite.kernel.org>
 
---===============6935118884431781520==
+--===============7675538188863239365==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,31 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ulfh/mmc
 user: ulfh
 changes:
-  - ref: refs/heads/fixes
-    old: 76dcd734eca23168cb008912c0f69ff408905235
-    new: 8509419758f2cc28dd05370385af0d91573b76b4
-    log: revlist-76dcd734eca2-8509419758f2.txt
-  - ref: refs/tags/v6.2-rc1
-    old: 0000000000000000000000000000000000000000
-    new: e05dec85e78317f251eddd27e0357b2253d9dfc4
-  - ref: refs/tags/v6.2-rc2
-    old: 0000000000000000000000000000000000000000
-    new: e4ef62bcce9737cf3a2bb1b797b64dc25cbbfbb4
+  - ref: refs/heads/next
+    old: ff874dbc4f868af128b412a9bd92637103cf11d7
+    new: 1cb6f443cbdc260a8dae56c8f0d9d1c95eb467eb
+    log: revlist-ff874dbc4f86-1cb6f443cbdc.txt
 
---===============6935118884431781520==
+--===============7675538188863239365==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-76dcd734eca2-8509419758f2.txt
+Content-Disposition: attachment; filename=revlist-ff874dbc4f86-1cb6f443cbdc.txt
 
-ec0a42a17e463ee5b1ebd2d60337e8ae8e5ace2b Documentation: KUnit: reword description of assertions
-a5b9abaa6049340a93a852b1d6d069064fddb624 Documentation: kunit: Remove redundant 'tips.rst' page
-34c68f432c67f0d9bd4e64cf0929f399c6a4e1b0 kunit: remove KUNIT_INIT_MEM_ASSERTION macro
-0a7d5c30b7f02887319a1382fbb8dc1c8250fe2c kunit: tool: tweak error message when no KTAP found
-309e22effb741a8c65131a2694a49839fd685a27 kunit: tool: make --json do nothing if --raw_ouput is set
-908d0c177bbc7c34ab9129c6f2bcd87487115632 kunit: Provide a static key to check if KUnit is actively running tests
-91e93592219f74c4d5cd4f27006d726ac86ae15d kunit: Use the static key when retrieving the current test
-909c6475d568826be377893cf5abb7cde5877230 mm: slub: test: Use the kunit_get_current_test() function
 434498a6bee3db729dbdb7f131f3506f4dca85e8 kunit: tool: parse KTAP compliant test output
 6c738b52316c58ae8a87abf0907f87a7b5e7a109 kunit: improve KTAP compliance of KUnit test output
 5937e0c04afc7d4b7b737fda93316ba4b74183c0 kunit: tool: don't include KTAP headers and the like in the test log
@@ -1055,6 +1041,14 @@ a9f5a752e86f1897c3b377b6b861576a4c1a2ff0 Merge tag 'drm-intel-fixes-2022-12-30' 
 150aae354b817f540848476bace2b2ba9931b197 Merge tag 'perf_urgent_for_v6.2_rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 88603b6dc419445847923fcb7fe5080067a30f98 Linux 6.2-rc2
 1e336aa0c0250ec84c6f16efac40c9f0138e367d mmc: sdhci-esdhc-imx: correct the tuning start tap and step setting
+c8dbdf2a1044951bb509410898a1436e207e740b dt-bindings: mmc: renesas,sdhi: Document RZ/V2M support
+b66e4422180d93cc72789f110cb77730ff462603 mmc: renesas_sdhi: Add RZ/V2M compatible string
+f7f1c5e6e2eabe7586b759aa5db52be7ad83b312 Merge branch 'fixes' into next
+6d0234ac2000b9b2bab162ba65e42bfcea34bef7 mmc: sdhci-esdhc-imx: simplify the auto tuning logic
+fce2d13e66ceaa3bc4bf274ccd94b4e4bd51efaf mmc: sdhci-esdhc-imx: only enable DAT[0] and CMD line auto tuning for SDIO device
+162e4f5c83bf6796f63cee65e482272989e5a180 dt-bindings: mmc: fsl-imx-esdhc: update binding for i.MX50 and i.MX7D
+a719770411103a009b064b777130bb2ae8db1f58 mmc: pwrseq_simple: include deferred probe reasons
 8509419758f2cc28dd05370385af0d91573b76b4 mmc: sunxi-mmc: Fix clock refcount imbalance during unbind
+1cb6f443cbdc260a8dae56c8f0d9d1c95eb467eb Merge branch 'fixes' into next
 
---===============6935118884431781520==--
+--===============7675538188863239365==--
