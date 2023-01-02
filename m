@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4775530734829153908=="
+Content-Type: multipart/mixed; boundary="===============4240506639846681795=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Mon, 02 Jan 2023 14:16:05 -0000
-Message-Id: <167266896587.1515.13517872235373705548@gitolite.kernel.org>
+Date: Mon, 02 Jan 2023 14:16:25 -0000
+Message-Id: <167266898578.1797.13455923512761384596@gitolite.kernel.org>
 
---===============4775530734829153908==
+--===============4240506639846681795==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,28 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jejb/scsi
 user: jejb
 changes:
-  - ref: refs/heads/for-next-base
-    old: f014165faa7b953b81dcbf18835936e5f8d01f2a
-    new: 1b929c02afd37871d5afb9d498426f83432e71c2
-    log: revlist-f014165faa7b-1b929c02afd3.txt
+  - ref: refs/heads/for-next
+    old: 1dbc54a8c0b627f6b0e6fac4ae6d537b96a91f61
+    new: b99afb544dc1449c605e0bca12ccb46d81bb6488
+    log: revlist-1dbc54a8c0b6-b99afb544dc1.txt
 
---===============4775530734829153908==
+--===============4240506639846681795==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f014165faa7b-1b929c02afd3.txt
+Content-Disposition: attachment; filename=revlist-1dbc54a8c0b6-b99afb544dc1.txt
 
-56c56a309e7959c319d3cbd6bd16e598ecd5831c can: gs_usb: remove gs_can::iface
-bd4a52bf9d56abaabc6926f68c3cc3528937a864 Merge patch series "can: usb: remove pointers to struct usb_interface in device's priv structures"
-eaacfeaca7ad0804b9a6eff7afeba93a87db7638 can: m_can: Call the RAM init directly from m_can_chip_config
-0826e82b8a32e646b7b32ba8b68ba30812028e47 can: raw: add support for SO_MARK
-3abcc01c38bc5d424635df96e0677e2fbec021de dt-bindings: can: renesas,rcar-canfd: Fix number of channels for R-Car V3U
-c1eaf8b9bd3145d029446c927e1c9ce925dfe6a7 can: m_can: Eliminate double read of TXFQS in tx_handler
-57757937974988dc8feb7cf66b17dca72bca813b can: m_can: Avoid reading irqstatus twice
-fac52bf786e5c302990fa79f2fdde24e84f810b0 can: m_can: Read register PSR only on error
-d4535b90a76af49d1dd7bc70ad0311a88ac5313d can: m_can: Count TXE FIFO getidx in the driver
-6355a3c983e6d6fc998f4223bd2c7ef047e4572b can: m_can: Count read getindex in the driver
-e3bff5256a0f12a1edc8d79bdef53eb83c2f1fbf can: m_can: Batch acknowledge transmit events
 e2f1c8cb020296ddfa255e06b15f071807c2ed73 can: m_can: Batch acknowledge rx fifo
 40c9e4f676abbe194541d88e796341c92d5a13c0 can: tcan4x5x: Remove invalid write in clear_interrupts
 67727a17a6b375d68fe569b77e6516b034b834c0 can: tcan4x5x: Fix use of register error status mask
@@ -430,7 +419,13 @@ ac7127e1cc65aeb578998c992a05dbc80fa18f0f LoongArch/ftrace: Add HAVE_DYNAMIC_FTRA
 a51ac5246d2505b58229242959d2bc73d113ca50 LoongArch/ftrace: Add HAVE_FUNCTION_GRAPH_RET_ADDR_PTR support
 28ac0a9e04d7dfb42220dc9d221164d93f20fb3a LoongArch: modules/ftrace: Initialize PLT at load time
 5535f4f70cfc15ef55b6ea7c7e17337b17337cb6 LoongArch: Update Loongson-3 default config file
+a3be19b91ea7121d388084e8c07f5b1b982eb40c scsi: iscsi: Fix multiple iSCSI session unbind events sent to userspace
+67ff3d0a49f3d445c3922e30a54e03c161da561e scsi: storvsc: Fix swiotlb bounce buffer leak in confidential VM
 f3b4a00f0f62da252c598310698dfc82ef2f2e2e net: macsec: fix net device access prior to holding a lock
+d0b9025540ef57cc4464ab2fc64ed8ddc49b5658 scsi: core: scsi_error: Do not queue pointless abort workqueue functions
+f0a43ba6c66cc0688e2748d986a1459fdd3442ef scsi: mpi3mr: Refer CONFIG_SCSI_MPI3MR in Makefile
+c411a42fb91f452509c312e4dda713699a22a995 scsi: scsi_debug: Delete unreachable code in inquiry_vpd_b0()
+1a5665fc8d7a000671ebd3fe69c6f9acf1e0dcd9 scsi: ufs: core: WLUN suspend SSU/enter hibern8 fail recovery
 3d0b738fc5adf9f380702ac1424672e4b32c3781 bonding: add missed __rcu annotation for curr_active_slave
 e95cc44763a41d5c715ef16742bcb1d8e6524a62 bonding: do failover when high prio link up
 42a8d4aaea8414f60eb2ed2d92df89a6e2db4615 selftests: bonding: add bonding prio option test
@@ -1050,5 +1045,10 @@ edb23125fd4a79003012bc619d2c604da922865e Merge tag 'pstore-v6.2-rc1-fixes' of gi
 72a85e2b0a1e1e6fb4ee51ae902730212b2de25c Merge tag 'spi-fix-v6.2-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
 292a089d78d3e2f7944e60bb897c977785a321e3 treewide: Convert del_timer*() to timer_shutdown*()
 1b929c02afd37871d5afb9d498426f83432e71c2 Linux 6.2-rc1
+6b1c374c45605504ed32e855c4e0f9b652a1978e Merge branch '6.2/scsi-queue' into 6.2/scsi-fixes
+a1c7a7cde6c92e42eb2cc8a04a9529c3fe8f19c8 Merge branch '6.2/mpt-mpi' into 6.2/scsi-fixes
+7936f8b232fca5d6873b8a50f039d594e8efe122 scsi: core: Remove leftovers due to pktcdvd being removed
+5292b535996f68c5792f151e120d34bf6ed3c27e scsi: hisi_sas: Fix tag freeing for reserved tags
+b99afb544dc1449c605e0bca12ccb46d81bb6488 scsi: libsas: Grab the ATA port lock in sas_ata_device_link_abort()
 
---===============4775530734829153908==--
+--===============4240506639846681795==--
