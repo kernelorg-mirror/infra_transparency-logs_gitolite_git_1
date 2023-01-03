@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============0968027358377126688=="
+Content-Type: multipart/mixed; boundary="===============7115893438927507798=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/srini/slimbus
-Date: Tue, 03 Jan 2023 10:04:44 -0000
-Message-Id: <167274028457.20342.14128759632994134076@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/srini/nvmem
+Date: Tue, 03 Jan 2023 10:05:03 -0000
+Message-Id: <167274030316.21886.14324091197655735667@gitolite.kernel.org>
 
---===============0968027358377126688==
+--===============7115893438927507798==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/srini/slimbus
+repo: pub/scm/linux/kernel/git/srini/nvmem
 user: srini
 changes:
   - ref: refs/heads/for-next
-    old: 94c40c9882f19da20b189ebb508e9d1695d69caf
+    old: 18133a57a93557739bff807aaf97ebf02daa02b8
     new: 1b929c02afd37871d5afb9d498426f83432e71c2
-    log: revlist-94c40c9882f1-1b929c02afd3.txt
+    log: revlist-18133a57a935-1b929c02afd3.txt
 
---===============0968027358377126688==
+--===============7115893438927507798==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-94c40c9882f1-1b929c02afd3.txt
+Content-Disposition: attachment; filename=revlist-18133a57a935-1b929c02afd3.txt
 
 56c56a309e7959c319d3cbd6bd16e598ecd5831c can: gs_usb: remove gs_can::iface
 bd4a52bf9d56abaabc6926f68c3cc3528937a864 Merge patch series "can: usb: remove pointers to struct usb_interface in device's priv structures"
@@ -1051,4 +1051,4 @@ edb23125fd4a79003012bc619d2c604da922865e Merge tag 'pstore-v6.2-rc1-fixes' of gi
 292a089d78d3e2f7944e60bb897c977785a321e3 treewide: Convert del_timer*() to timer_shutdown*()
 1b929c02afd37871d5afb9d498426f83432e71c2 Linux 6.2-rc1
 
---===============0968027358377126688==--
+--===============7115893438927507798==--
