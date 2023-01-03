@@ -1,21 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Tue, 03 Jan 2023 20:55:44 -0000
-Message-Id: <167277934430.2317.13791897790277368916@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
+Date: Tue, 03 Jan 2023 21:02:08 -0000
+Message-Id: <167277972841.5926.1909098940029132575@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
-user: acme
+repo: pub/scm/linux/kernel/git/conor/linux
+user: conor
 changes:
-  - ref: refs/heads/perf/urgent
-    old: 77fe30fed1c0cd282eadb0728999ea3d3350e0b0
-    new: d8d85ce86dc82de4f88b821a78f533b9d5b22a45
+  - ref: refs/heads/cache-no-subsystem
+    old: 2266b03f5e7403e05c73758d6ab5050e64ace1e8
+    new: 3f0d2b16320cadedc8ea7ac34e860190f0873e83
     log: |
-         b963c1d6261eb7fba1ba14074fb447521be84add perf test record_probe_libc_inet_pton: Fix failure due to extra inet_pton() backtrace in glibc >= 2.35
-         f89fb55714b620ff1352141a9f9315611f16573e perf build: Don't propagate subdir to submakes for install_headers
-         d8d85ce86dc82de4f88b821a78f533b9d5b22a45 perf lock contention: Fix core dump related to not finding the "__sched_text_end" symbol on s/390
+         6be1e8696770f8dbd8003c112c980153482ad04c riscv: mm: dma-noncoherent: Pass direction and operation to ALT_CMO_OP()
+         25722e7c07de639e9ae2562590d6d698183871dd dt-bindings: cache: r9a07g043f-l2-cache: Add DT binding documentation for L2 cache controller
+         96b5b3acfe0dbde8a268fb49a2603476a4a5afa2 cache,soc: Move SiFive CCache driver & create drivers/cache
+         7751576f5b299153d5eb13cc50c492e03284d515 RISC-V: create a function based cache management interface
+         eb73f56eb452c4f794de7bba73e4e03295dc133e soc: renesas: Add L2 cache management for RZ/Five SoC
+         3f0d2b16320cadedc8ea7ac34e860190f0873e83 [DON'T APPLY] cache: sifive-ccache: add cache flushing capability
          
