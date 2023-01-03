@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============1458439783280497346=="
+Content-Type: multipart/mixed; boundary="===============7603428251730447517=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Tue, 03 Jan 2023 11:18:19 -0000
-Message-Id: <167274469945.5060.14836049904389254957@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Tue, 03 Jan 2023 11:18:33 -0000
+Message-Id: <167274471329.5209.17833460630785734599@gitolite.kernel.org>
 
---===============1458439783280497346==
+--===============7603428251730447517==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: leon
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: 88603b6dc419445847923fcb7fe5080067a30f98
     log: revlist-1b929c02afd3-88603b6dc419.txt
 
---===============1458439783280497346==
+--===============7603428251730447517==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -144,4 +144,4 @@ a9f5a752e86f1897c3b377b6b861576a4c1a2ff0 Merge tag 'drm-intel-fixes-2022-12-30' 
 150aae354b817f540848476bace2b2ba9931b197 Merge tag 'perf_urgent_for_v6.2_rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 88603b6dc419445847923fcb7fe5080067a30f98 Linux 6.2-rc2
 
---===============1458439783280497346==--
+--===============7603428251730447517==--
