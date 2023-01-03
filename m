@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1288422964443870025=="
+Content-Type: multipart/mixed; boundary="===============0631407865141970879=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
-Date: Tue, 03 Jan 2023 23:04:33 -0000
-Message-Id: <167278707347.21888.9614091402168872425@gitolite.kernel.org>
+Date: Tue, 03 Jan 2023 23:04:56 -0000
+Message-Id: <167278709623.22097.15396578970635176679@gitolite.kernel.org>
 
---===============1288422964443870025==
+--===============0631407865141970879==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,18 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/kees/linux
 user: kees
 changes:
-  - ref: refs/heads/for-next/hardening
-    old: cf8016408d880afe9c5dc495af40dc2932874e77
+  - ref: refs/heads/for-next/kspp
+    old: 7535b832c6399b5ebfc5b53af5c51dd915ee2538
     new: 88603b6dc419445847923fcb7fe5080067a30f98
-    log: revlist-cf8016408d88-88603b6dc419.txt
+    log: revlist-7535b832c639-88603b6dc419.txt
 
---===============1288422964443870025==
+--===============0631407865141970879==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cf8016408d88-88603b6dc419.txt
+Content-Disposition: attachment; filename=revlist-7535b832c639-88603b6dc419.txt
 
-34b21d1ddc8ace77a8fa35c1b1e06377209e0dae mptcp: dedicated request sock for subflow in v6
 d3295fee3c756ece33ac0d935e172e68c0a4161b mptcp: use proper req destructor for IPv6
 a38a211e9e0ca20f5d65307c98571f40f78ad396 Merge branch 'mptcp-fix-ipv6-reqsk-ops-and-some-netlink-error-codes'
 f473dd9488d910aab109e8c6a2e4181125ca322a kunit: tool: make TestCounts a dataclass
@@ -949,6 +948,7 @@ f5d16bb9be68b20c78fc3d93fa243eb1f0b9fa53 KVM: x86/mmu: Don't attempt to map leaf
 80a3e4ae962de33ff6a94e798c80e56e1fed4d10 KVM: x86/mmu: Map TDP MMU leaf SPTE iff target level is reached
 21a36ac6b6c7059965bac0cc73ef3cbb8ef576dd KVM: x86/mmu: Re-check under lock that TDP MMU SP hugepage is disallowed
 50a9ac25985c037d45ee6d7e3a7ae198a63b9266 KVM: x86/mmu: Don't install TDP MMU SPTE if SP has unexpected level
+cf8016408d880afe9c5dc495af40dc2932874e77 cfi: Fix CFI failure with KASAN
 2f4fec5943407318b9523f01ce1f5d668c028332 pstore: Make sure CONFIG_PSTORE_PMSG selects CONFIG_RT_MUTEXES
 beca3e311a49cd3c55a056096531737d7afa4361 pstore: Properly assign mem_type property
 699aee7b47dbb1d3c30bf24f3c905eff366d9571 Merge tag 'mm-hotfixes-stable-2022-12-22-14-34' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
@@ -1051,4 +1051,4 @@ a9f5a752e86f1897c3b377b6b861576a4c1a2ff0 Merge tag 'drm-intel-fixes-2022-12-30' 
 150aae354b817f540848476bace2b2ba9931b197 Merge tag 'perf_urgent_for_v6.2_rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 88603b6dc419445847923fcb7fe5080067a30f98 Linux 6.2-rc2
 
---===============1288422964443870025==--
+--===============0631407865141970879==--
