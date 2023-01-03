@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5942294088571080809=="
+Content-Type: multipart/mixed; boundary="===============1410482945741664918=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/abelvesa/linux
-Date: Tue, 03 Jan 2023 14:57:10 -0000
-Message-Id: <167275783087.20438.384919824810024337@gitolite.kernel.org>
+Date: Tue, 03 Jan 2023 14:57:56 -0000
+Message-Id: <167275787685.20722.18261707693152862706@gitolite.kernel.org>
 
---===============5942294088571080809==
+--===============1410482945741664918==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/abelvesa/linux
 user: abelvesa
 changes:
-  - ref: refs/heads/clk/imx
+  - ref: refs/heads/for-next
     old: 8178e245fa953f793670147368642717fcdb302e
     new: 1b929c02afd37871d5afb9d498426f83432e71c2
     log: revlist-8178e245fa95-1b929c02afd3.txt
 
---===============5942294088571080809==
+--===============1410482945741664918==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ edb23125fd4a79003012bc619d2c604da922865e Merge tag 'pstore-v6.2-rc1-fixes' of gi
 292a089d78d3e2f7944e60bb897c977785a321e3 treewide: Convert del_timer*() to timer_shutdown*()
 1b929c02afd37871d5afb9d498426f83432e71c2 Linux 6.2-rc1
 
---===============5942294088571080809==--
+--===============1410482945741664918==--
