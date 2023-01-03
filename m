@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Tue, 03 Jan 2023 17:07:57 -0000
-Message-Id: <167276567769.11212.16451410365520984472@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
+Date: Tue, 03 Jan 2023 17:31:03 -0000
+Message-Id: <167276706348.27025.11298330461419769128@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/linux/kernel/git/maz/arm-platforms
+user: maz
 changes:
-  - ref: refs/heads/dev
-    old: aee251fd2163cbf05d3aeae838340d55bee4b137
-    new: 52ab64f361e7816d2216500619d31e56dc4e6402
-    log: |
-         52ab64f361e7816d2216500619d31e56dc4e6402 torture: Fix hang during kthread shutdown phase
-         
+  - ref: refs/heads/kvm-arm64/MAINTAINERS
+    old: 0000000000000000000000000000000000000000
+    new: 386767035098b10677861d8268501a874e5593c4
