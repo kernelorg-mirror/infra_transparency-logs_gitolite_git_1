@@ -1,24 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jack/linux-fs
-Date: Tue, 03 Jan 2023 09:46:26 -0000
-Message-Id: <167273918662.9418.7436283758793296041@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/efi/efi
+Date: Tue, 03 Jan 2023 09:52:31 -0000
+Message-Id: <167273955100.12844.244581450614499362@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jack/linux-fs
-user: jack
+repo: pub/scm/linux/kernel/git/efi/efi
+user: ardb
 changes:
-  - ref: refs/heads/for_next
-    old: 9bb1952475604a48e2806295ec5b3328970939cc
-    new: e86812bfac97e23c9ad9e607c370c63b2e5b4722
+  - ref: refs/heads/urgent
+    old: 8a38790a9df1b89c86182dd40410c9e2de8fd563
+    new: e006ac3003080177cf0b673441a4241f77aaecce
     log: |
-         a07608e3b5e400832ee2301b1103d918cbc5fc46 fs/ext2: Replace kmap_atomic() with kmap_local_page()
-         22e8b2a8322b2938dbc85146a84a5351c352655e udf: Fix spelling mistake "lenght" -> "length"
-         6d5ab7c2f7cf90877dab8f2bb06eb5ca8edc73ef udf: initialize newblock to 0
-         16919375dca0b1769b7ac956c0c492fbed476463 udf: Do not update file length for failed writes to inline files
-         453bc25de0a55a2f70d8a38491de1d4ec36b2f8b udf: Preserve link count of system files
-         e86812bfac97e23c9ad9e607c370c63b2e5b4722 udf: Detect system inodes linked into directory hierarchy
+         703c13fe3c9af557d312f5895ed6a5fda2711104 efi: fix NULL-deref in init error path
+         e006ac3003080177cf0b673441a4241f77aaecce efi: fix userspace infinite retry read efivars after EFI runtime services page fault
          
