@@ -1,41 +1,40 @@
-Content-Type: multipart/mixed; boundary="===============5800214087565299745=="
+Content-Type: multipart/mixed; boundary="===============7343353496421693532=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/fs/xfs/xfs-linux
-Date: Tue, 03 Jan 2023 18:23:40 -0000
-Message-Id: <167277022038.30007.14628379283800335357@gitolite.kernel.org>
+Date: Tue, 03 Jan 2023 18:24:24 -0000
+Message-Id: <167277026461.30317.7787707820867188892@gitolite.kernel.org>
 
---===============5800214087565299745==
-Content-Type: text/plain; charset="utf-8"
+--===============7343353496421693532==
+Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
-Content-Transfer-Encoding: 8bit
+Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
 repo: pub/scm/fs/xfs/xfs-linux
 user: djwong
 changes:
-  - ref: refs/heads/for-next
-    old: 4883f57a2d861a68588aefbf592f86d1e059f1ec
-    new: e195605ed28b5581dc2d509283cfea2e8635a251
-    log: revlist-4883f57a2d86-e195605ed28b.txt
-  - ref: refs/tags/xfs-6.2-fixes-1
-    old: a3e46e3177bb37d5b9efec3b9974962428d8db44
-    new: e26368da64490be5fc9aed290f07ecae31d73d35
-    log: |
-         d4542f314507015ac0e25c6e8102b88293826a51 xfs: make xfs_iomap_page_ops static
-         c0f399ff51495ac8d30367418f4f6292ecd61fbe xfs: fix off-by-one error in xfs_btree_space_to_height
-         817644fa4525258992f17fecf4f1d6cdd2e1b731 xfs: get root inode correctly at bulkstat
-         4da112513c01d7d0acf1025b8764349d46e177d6 xfs: Fix deadlock on xfs_inodegc_worker
-         e195605ed28b5581dc2d509283cfea2e8635a251 xfs: xfs_qm: remove unnecessary ‘0’ values from error
-         
+  - ref: refs/heads/master
+    old: f0c4d9fc9cc9462659728d168387191387e903cc
+    new: 1b929c02afd37871d5afb9d498426f83432e71c2
+    log: revlist-f0c4d9fc9cc9-1b929c02afd3.txt
+  - ref: refs/tags/v6.2-rc1
+    old: 0000000000000000000000000000000000000000
+    new: e05dec85e78317f251eddd27e0357b2253d9dfc4
 
---===============5800214087565299745==
-Content-Type: text/plain; charset="utf-8"
+--===============7343353496421693532==
+Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
-Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-4883f57a2d86-e195605ed28b.txt
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-f0c4d9fc9cc9-1b929c02afd3.txt
 
+56c56a309e7959c319d3cbd6bd16e598ecd5831c can: gs_usb: remove gs_can::iface
+bd4a52bf9d56abaabc6926f68c3cc3528937a864 Merge patch series "can: usb: remove pointers to struct usb_interface in device's priv structures"
+eaacfeaca7ad0804b9a6eff7afeba93a87db7638 can: m_can: Call the RAM init directly from m_can_chip_config
+0826e82b8a32e646b7b32ba8b68ba30812028e47 can: raw: add support for SO_MARK
+3abcc01c38bc5d424635df96e0677e2fbec021de dt-bindings: can: renesas,rcar-canfd: Fix number of channels for R-Car V3U
+c1eaf8b9bd3145d029446c927e1c9ce925dfe6a7 can: m_can: Eliminate double read of TXFQS in tx_handler
 57757937974988dc8feb7cf66b17dca72bca813b can: m_can: Avoid reading irqstatus twice
 fac52bf786e5c302990fa79f2fdde24e84f810b0 can: m_can: Read register PSR only on error
 d4535b90a76af49d1dd7bc70ad0311a88ac5313d can: m_can: Count TXE FIFO getidx in the driver
@@ -1054,11 +1053,5 @@ edb23125fd4a79003012bc619d2c604da922865e Merge tag 'pstore-v6.2-rc1-fixes' of gi
 72a85e2b0a1e1e6fb4ee51ae902730212b2de25c Merge tag 'spi-fix-v6.2-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
 292a089d78d3e2f7944e60bb897c977785a321e3 treewide: Convert del_timer*() to timer_shutdown*()
 1b929c02afd37871d5afb9d498426f83432e71c2 Linux 6.2-rc1
-26870c3f5b15187268bf183055c7b9f29fe66079 xfs: don't assert if cmap covers imap after cycling lock
-d4542f314507015ac0e25c6e8102b88293826a51 xfs: make xfs_iomap_page_ops static
-c0f399ff51495ac8d30367418f4f6292ecd61fbe xfs: fix off-by-one error in xfs_btree_space_to_height
-817644fa4525258992f17fecf4f1d6cdd2e1b731 xfs: get root inode correctly at bulkstat
-4da112513c01d7d0acf1025b8764349d46e177d6 xfs: Fix deadlock on xfs_inodegc_worker
-e195605ed28b5581dc2d509283cfea2e8635a251 xfs: xfs_qm: remove unnecessary ‘0’ values from error
 
---===============5800214087565299745==--
+--===============7343353496421693532==--
