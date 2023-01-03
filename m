@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3244137814195729204=="
+Content-Type: multipart/mixed; boundary="===============7157214039236484671=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Tue, 03 Jan 2023 17:02:17 -0000
-Message-Id: <167276533726.7845.17699569924605826301@gitolite.kernel.org>
+Date: Tue, 03 Jan 2023 17:02:50 -0000
+Message-Id: <167276537094.8095.17052017115575872464@gitolite.kernel.org>
 
---===============3244137814195729204==
+--===============7157214039236484671==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: 40cab44b9089a41f71bbd0eff753eb91d5dafd68
-    new: c7dd13805f8b8fc1ce3b6d40f6aff47e66b72ad2
-    log: revlist-40cab44b9089-c7dd13805f8b.txt
+  - ref: refs/heads/dev-queue
+    old: 1663c47b0ac101409c65a0041bf5565340b86c0b
+    new: fcafc4931f0eaa9ed3384a0589c9058e4e7dc62e
+    log: revlist-1663c47b0ac1-fcafc4931f0e.txt
 
---===============3244137814195729204==
+--===============7157214039236484671==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-40cab44b9089-c7dd13805f8b.txt
+Content-Disposition: attachment; filename=revlist-1663c47b0ac1-fcafc4931f0e.txt
 
 5eb119da94ac5d67a31eaa869621dc6e25eb125e netfilter: conntrack: fix ipv6 exthdr error check
 bed4a63ea4ae77cfe5aae004ef87379f0655260a netfilter: nf_tables: consolidate set description
@@ -87,5 +87,21 @@ d57609fad9579f20bbc21f73f7d507937118a79b Merge git://git.kernel.org/pub/scm/linu
 4af1b64f80fbe1275fb02c5f1c0cef099a4a231f octeontx2-pf: Fix lmtst ID used in aura free
 7dc61838541928895abae6d2355258e02a251bba net: dpaa: Fix dtsec check for PCS availability
 c7dd13805f8b8fc1ce3b6d40f6aff47e66b72ad2 usb: rndis_host: Secure rndis_query check against int overflow
+9ee99de7fa40de3327ed0f3761d6af5d8de12fd5 iavf: Fix shutdown pci callback to match the remove one
+038601edcb3743dcfac9432db3098f179609661f intel/igbvf: free irq on the error path in igbvf_request_msix()
+069a8871a5bf5b9143357a38b7d1b7cc34ee5bc1 igb: Enable SR-IOV after reinit
+e5b3641755e73a128e66bc58d3c4f4f194a66089 ice: Fix broken link in ice NAPI doc
+e658a82fd36017eb46db273147e01683be6db33e ice: Fix deadlock on the rtnl_mutex
+cb5aa7f8c5040d368e9bfbf52b66699d290f5f46 ixgbe: fix pci device refcount leak
+e6b3ffe445b913a385c905859ba67e16236e469d igbvf: Regard vf reset nack as success
+a46d2ef22cd696e117a4ca06d8eee424e847eff3 ice: Fix potential memory leak in ice_gnss_tty_write()
+b5c82f67f3bab4895b596bd3451642fb8b6bef1d ice: Add check for kzalloc
+2395d3ba2799c24f9e4cb8f515421d5d788b0f62 igb: conditionalize I2C bit banging on external thermal sensor support
+2a9fc313dd34ed589afbf45d6342b5fc06e0f82b ice: switch: fix potential memleak in ice_add_adv_recipe()
+10ef1dabdba2fc3b70b768b7d237dfa9b17fb657 igc: Fix PPS delta between two synchronized end-points
+81891e324abe2ba561b04b1c76b71d34eac7ceab iavf: fix temporary deadlock and failure to set MAC address
+761bdf31265363476c4fa87f33b422d74e1ced4d iavf: avoid taking rtnl_lock in adminq_task
+d3e3e4d6ee85a5f1bbfda7652994e7b1d7142940 ice: Prevent set_channel from changing queues while RDMA active
+fcafc4931f0eaa9ed3384a0589c9058e4e7dc62e iavf/iavf_main: actually log ->src mask when talking about it
 
---===============3244137814195729204==--
+--===============7157214039236484671==--
