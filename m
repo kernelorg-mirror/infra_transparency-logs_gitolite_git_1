@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dlemoal/libata
-Date: Tue, 03 Jan 2023 05:20:31 -0000
-Message-Id: <167272323152.15618.15734281411032562899@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tzungbi/chrome-platform
+Date: Tue, 03 Jan 2023 05:34:37 -0000
+Message-Id: <167272407778.22848.17909487709894550196@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dlemoal/libata
-user: dlemoal
+repo: pub/scm/linux/kernel/git/tzungbi/chrome-platform
+user: tzungbi
 changes:
   - ref: refs/heads/for-next
-    old: 88603b6dc419445847923fcb7fe5080067a30f98
-    new: f060ba1882ec83cbb3c3809104bfa1d5868ea130
+    old: 311b8d89caeac83e137dbdcce2350dd65923d380
+    new: 7b298b67f6de17eb0571aa067d687e3350ae7f51
     log: |
-         f060ba1882ec83cbb3c3809104bfa1d5868ea130 ata: octeon: Drop empty platform remove function
+         7b298b67f6de17eb0571aa067d687e3350ae7f51 platform/chrome: cros_ec_uart: fix race condition
          
