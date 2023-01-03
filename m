@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1643747747110507031=="
+Content-Type: multipart/mixed; boundary="===============0460429406010665535=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mips/linux
-Date: Tue, 03 Jan 2023 14:01:15 -0000
-Message-Id: <167275447542.15896.8743864617631421475@gitolite.kernel.org>
+Date: Tue, 03 Jan 2023 14:01:37 -0000
+Message-Id: <167275449730.16047.8542061301171141960@gitolite.kernel.org>
 
---===============1643747747110507031==
+--===============0460429406010665535==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mips/linux
 user: tsbogend
 changes:
-  - ref: refs/heads/mips-next
-    old: 24b333a866a10d4be47b9968b9c05a3e9f326ff5
+  - ref: refs/heads/mips-fixes
+    old: 094226ad94f471a9f19e8f8e7140a09c2625abaa
     new: 88603b6dc419445847923fcb7fe5080067a30f98
-    log: revlist-24b333a866a1-88603b6dc419.txt
+    log: revlist-094226ad94f4-88603b6dc419.txt
 
---===============1643747747110507031==
+--===============0460429406010665535==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-24b333a866a1-88603b6dc419.txt
+Content-Disposition: attachment; filename=revlist-094226ad94f4-88603b6dc419.txt
 
-05d9d2c3ee1e4b587f71455f6d3d1493289204ff kunit: tool: unit tests all check parser errors, standardize formatting a bit
-101e32a025da386ba6f6efbfe3e75b6ec5a358aa kunit: tool: remove redundant file.close() call in unit test
 697365c086791372945037557f99bc164e2db855 kunit: eliminate KUNIT_INIT_*_ASSERT_STRUCT macros
 65c48a48ead042856525b92cedf673d2bf5bdfc9 Documentation: KUnit: make usage.rst a superset of tips.rst, remove duplication
 ec0a42a17e463ee5b1ebd2d60337e8ae8e5ace2b Documentation: KUnit: reword description of assertions
@@ -823,6 +821,8 @@ db918321275d648294a3fb2bdefeb99e33f00467 ALSA: memalloc: don't use GFP_COMP for 
 b5f96cb719d8ba220b565ddd3ba4ac0d8bcfb130 nvme-pci: fix doorbell buffer value endianness
 c89a529e823d51dd23c7ec0c047c7a454a428541 nvme-pci: fix mempool alloc size
 841734234a28fd5cd0889b84bd4d93a0988fa11e nvme-pci: fix page size checks
+76ce51798cb16738a4a28a6662e7344aaf7ef769 MIPS: ralink: mt7621: avoid to init common ralink reset controller
+24b333a866a10d4be47b9968b9c05a3e9f326ff5 MIPS: dts: bcm63268: Add missing properties to the TWD node
 11933cf1d91d57da9e5c53822a540bbdc2656c16 pnode: terminate at peers of source
 52ea806ad983490b3132a9e526e11a10dc2fd10c io_uring: finish waiting before flushing overflow entries
 19822e3ee4c891e1e8434e290fbca0af52490240 Merge tag 'rcu-urgent.2022.12.17a' of git://git.kernel.org/pub/scm/linux/kernel/git/paulmck/linux-rcu
@@ -1051,4 +1051,4 @@ a9f5a752e86f1897c3b377b6b861576a4c1a2ff0 Merge tag 'drm-intel-fixes-2022-12-30' 
 150aae354b817f540848476bace2b2ba9931b197 Merge tag 'perf_urgent_for_v6.2_rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 88603b6dc419445847923fcb7fe5080067a30f98 Linux 6.2-rc2
 
---===============1643747747110507031==--
+--===============0460429406010665535==--
