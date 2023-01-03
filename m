@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8165248099370828472=="
+Content-Type: multipart/mixed; boundary="===============1659055932587973293=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Tue, 03 Jan 2023 16:58:58 -0000
-Message-Id: <167276513872.4631.14616970308920536369@gitolite.kernel.org>
+Date: Tue, 03 Jan 2023 16:59:34 -0000
+Message-Id: <167276517416.4891.8258538995114420070@gitolite.kernel.org>
 
---===============8165248099370828472==
+--===============1659055932587973293==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,46 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
 user: jaegeuk
 changes:
-  - ref: refs/heads/dev
-    old: 041fae9c105ae342a4245cf1e0dc56a23fbb9d3c
-    new: b3d83066cbebc76dbac8a5fca931f64b4c6fff34
-    log: revlist-041fae9c105a-b3d83066cbeb.txt
+  - ref: refs/heads/dev-test
+    old: 2082978af60eeaa15aa0247903f1bcb0c3791fa6
+    new: 2b179d1cc461e48d7f402054244708624481e08c
+    log: revlist-2082978af60e-2b179d1cc461.txt
 
---===============8165248099370828472==
+--===============1659055932587973293==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-041fae9c105a-b3d83066cbeb.txt
+Content-Disposition: attachment; filename=revlist-2082978af60e-2b179d1cc461.txt
 
-b092874ace67d5e33a9dc3aba7cb2e666dda8fd3 dt-bindings: mfd: ocelot: Remove unnecessary driver wording
-3633daacea2e54bf991d2f6b871efe9f83a0cac8 mfd: rk808: Permit having multiple PMIC instances
-411ffc82f93cf69f70712467ac85fdf2dc3be04a dt-bindings: mfd: qcom,tcsr: Add compatible for MSM8976
-b5a8668dab74ee37886aec5a1748f681a2d6cc6c mfd: intel_soc_pmic: Allow COMPILE_TEST or I2C_DESIGNWARE_PLATFORM
-0a5219f34fea85a0e583de2aa4528548acaa85f4 mfd: mc13xxx-spi: Fix typo ("transfert")
-ef1709238aa50094d918e4f1dd5231dac5db13c3 dt-bindings: mfd: syscon: Add nuvoton,wpcm450-shm
-3f37d4f695cff180033254b9ed5adc8ab927cba9 mfd: axp20x: Do not sleep in the power off handler
-19755a0acb8831a02ba7833f908c55febaaa2607 mfd: 88pm80x: Remove #ifdef guards for PM related functions
-dce97f81fea6fa6230e6b7f0e2d0f17a74158dc9 mfd: aat2870: Remove #ifdef guards for PM related functions
-5745a90a930c81b55dfcb67b5e904b3cb1df0c7a mfd: adp5520: Remove #ifdef guards for PM related functions
-52c9d7193ba4342239a47a5524884f7a0a667e4d mfd: max8925-i2c: Remove #ifdef guards for PM related functions
-e1243e0d72185c257ac2cdde1bbba130e24acf9a mfd: mt6397-irq: Remove #ifdef guards for PM related functions
-245cb473e5388fcbc01c7284b6a4e1446cdbf054 mfd: pcf50633: Remove #ifdef guards for PM related functions
-2662b90fd58b8833894948be07c2f44bfa782ed8 mfd: rc5t583-irq: Remove #ifdef guards for PM related functions
-e4b9a17c99d0b45cb4104fd32d170536701214e8 mfd: stpmic1: Remove #ifdef guards for PM related functions
-03bf96cf8ecbd543a25c3c71b09ea67ffffeb36b mfd: ucb1x00: Remove #ifdef guards for PM related functions
-fdefee3073bc60b57f664e1463d7e4c07910e3bd mfd: 88pm860x: Remove #ifdef guards for PM related functions
-ff84723e5291c51ac23429d267ab9107e14ee486 mfd: mcp-sa11x0: Remove #ifdef guards for PM related functions
-270a7c3eba574364c43a6ec8583ec995122c255b mfd: sec: Remove #ifdef guards for PM related functions
-3833239b5ba22256389c2fd83ca70b6a9028435b mfd: sm501: Remove #ifdef guards for PM related functions
-2d81212cb0c811db0e74b959fd48b2ba19b77e0f mfd: tc6387xb: Remove #ifdef guards for PM related functions
-d115e88c297546192354f65be6c0343a68910afb mfd: tps6586x: Remove #ifdef guards for PM related functions
-9dd3baecebc3d7b722486a73219afe4eaaa16257 mfd: wm8994: Remove #ifdef guards for PM related functions
-9b990dc9f09fcdde272abc54ae0c158596149944 mfd: max77620: Remove #ifdef guards for PM related functions
-daf7ea817fda9e5094082a1dd99227001f7ef861 mfd: t7l66xb: Remove #ifdef guards for PM related functions
-50d3ac7d3ce472801c4c0b3f8705b943657a6552 mfd: arizona: Remove #ifdef guards for PM related functions
-8a8d0485f579120f464193efd8a1ebc96b32fc8b mfd: max14577: Remove #ifdef guards for PM related functions
-ef72ed420ea16fa21680a262bc40a5592994a46e mfd: max77686: Remove #ifdef guards for PM related functions
-4060c6e50a77a70bf7b7ff3a3aaaa8b1828ec7b6 mfd: motorola-cpcap: Remove #ifdef guards for PM related functions
 69bbab91835acb4d1f64b2f488b379116c1c49b5 mfd: sprd-sc27xx: Remove #ifdef guards for PM related functions
 4d8a6ae23af64a37803c0d15922819d27b4b8b08 mfd: stmfx: Remove #ifdef guards for PM related functions
 f7f292fe819b6c754836923e126ec27c29be2d07 mfd: stmpe: Remove #ifdef guards for PM related functions
@@ -1050,5 +1021,34 @@ a9f5a752e86f1897c3b377b6b861576a4c1a2ff0 Merge tag 'drm-intel-fixes-2022-12-30' 
 0226635c304cfd5c9db9b78c259cb713819b057e fs/ntfs3: don't hold ni_lock when calling truncate_setsize()
 69b41ac87e4a664de78a395ff97166f0b2943210 Merge tag 'for-6.2-rc2-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
 b3d83066cbebc76dbac8a5fca931f64b4c6fff34 f2fs: fix to avoid NULL pointer dereference in f2fs_issue_flush()
+fe59109ae5c0b34a8c7c07f693fc501b12b57787 f2fs: initialize extent_cache parameter
+ed2724765e58e3310d3de48f4a1761631b3dd640 f2fs: don't mix to use union values in extent_info
+22a341b43036415718f2d50f5f98b2f891fe17e9 f2fs: should use a temp extent_info for lookup
+df9d44b645b83fffccfb4e28c1f93376585fdec8 f2fs: let's avoid panic if extent_tree is not created
+2bc1ebec2ad3350313c1d2f1661dc020b5fe198a f2fs: file: drop useless initializer in expand_inode_data()
+7dacaf93f623c8641276dc08677f04c57dba8449 f2fs: fix to support .migrate_folio for compressed inode
+a60d071c2bad4ab3cb745e4560713b9c7388c229 f2fs: remove unused PAGE_PRIVATE_ATOMIC_WRITE
+0b941e6d5dbe78352e89eee2a976a240eca9e7a4 f2fs: fix to call clear_page_private_reference in .{release,invalid}_folio
+31ebd709d553efe555f29c68c50fbed9157b6778 f2fs: don't rely on F2FS_MAP_* in f2fs_iomap_begin
+894859f6d4d7c54bc04d23baf5c4af37411e0365 f2fs: decouple F2FS_MAP_ from buffer head flags
+29a5d7f32a31bc6ae963992bb14abf464a6bc7c4 f2fs: rename F2FS_MAP_UNWRITTEN to F2FS_MAP_DELALLOC
+d9059c35d460986a5b74b173e6a9be96504e395b f2fs: split __submit_bio
+1245be2e2440d24094415d17b4b7ad249cd5d7dd f2fs: add a f2fs_lookup_extent_cache_block helper
+e5833e63038aab559a7f6115b601c27aac3cb0b3 f2fs: add a f2fs_get_block_locked helper
+e7a75c3dc8d8e40d2922dc8686dee162e01bc8be f2fs: f2fs_do_map_lock
+b9c90787a6f75b9dd8f5ab4db7ba1cd638eb6d2f f2fs: reflow prepare_write_begin
+a03786eabe0a1cd75130f2a67dd2a16378c7ba51 f2fs: simplify __allocate_data_block
+217ba70826dd0af4a0e4e382094d8b1b4686feb6 docs: f2fs: fix html doc error
+f829bb19487e0d7f7526c1311032e0506650ec6b f2fs: introduce IS_F2FS_IPU_* macro
+65207325cbba425d55bb70839e4fe38a933e2b70 f2fs: remove f2fs_get_block
+4249636b349282b854485b91514d2a663f794ffd f2fs: remove the create argument to f2fs_map_blocks
+1e3fd7a31236c7845e17538e6c91ff8979c6a8a7 f2fs: factor a f2fs_map_blocks_cached helper
+3b0a819a3e7a93d18688b38693f23fa007a4d640 f2fs: factor out a f2fs_map_no_dnode
+50d2bfba819c1a401841131e8c1ad11eb65a766a f2fs: refactor the hole reporting and allocation logic in f2fs_map_blocks
+7fdac82693c133fc0241bcb2e08ba3929db1bc19 f2fs: fix to avoid potential deadlock
+642791d2fdf379b17b87477c51760471b883bcf2 f2fs: add missing doc for fault injection sysfs
+5f379961a29c166b1be5692799db281bb217eea1 f2fs: avoid to check PG_error flag
+d856a736b5105558946295e59c8e267f732dc395 f2fs: deliver the accumulated 'issued' to __issue_discard_cmd_orderly()
+2b179d1cc461e48d7f402054244708624481e08c MAINTAINERS: Add f2fs's patchwork
 
---===============8165248099370828472==--
+--===============1659055932587973293==--
