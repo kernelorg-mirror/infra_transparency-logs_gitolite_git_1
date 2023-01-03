@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 03 Jan 2023 17:46:36 -0000
-Message-Id: <167276799662.5689.4652660417697243311@gitolite.kernel.org>
+Date: Tue, 03 Jan 2023 17:47:18 -0000
+Message-Id: <167276803877.5978.7562928780694043581@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
-  - ref: refs/heads/x86/asm
-    old: f843bfeee3d95782677569856ea7f33b87bfd3d0
-    new: 65c24d7b0f9142c6acc9bd6dabeba22767077681
+  - ref: refs/heads/x86/urgent
+    old: 55d235361fccef573990dfa5724ab453866e7816
+    new: 72bb8f8cc088730c4d84117a6906f458c2fc64bb
     log: |
-         65c24d7b0f9142c6acc9bd6dabeba22767077681 x86/lib: Fix compiler and kernel-doc warnings
+         72bb8f8cc088730c4d84117a6906f458c2fc64bb x86/insn: Avoid namespace clash by separating instruction decoder MMIO type from MMIO trace type
          
