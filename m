@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4967608552633937692=="
+Content-Type: multipart/mixed; boundary="===============5399992985020660514=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/utils/b4/b4
-Date: Tue, 03 Jan 2023 22:39:32 -0000
-Message-Id: <167278557250.4062.11025179301247981869@gitolite.kernel.org>
+Date: Tue, 03 Jan 2023 22:50:56 -0000
+Message-Id: <167278625685.13864.13157929255188226565@gitolite.kernel.org>
 
---===============4967608552633937692==
+--===============5399992985020660514==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,37 +17,37 @@ user: mricon
 git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 214b350428e802d4bb53ca3063995cc98853cc97
-    new: 7e752d8ef401f6028d637a864fc75a16e4b58d36
+    old: 7e752d8ef401f6028d637a864fc75a16e4b58d36
+    new: aab3716537c7d3683b03fd63fc657b77b52f8df2
     log: |
-         7e752d8ef401f6028d637a864fc75a16e4b58d36 ez: dedupe cover letter CCs taken from individual patches
+         aab3716537c7d3683b03fd63fc657b77b52f8df2 ez: avoid header wrapping when writing to file
          
   - ref: refs/heads/stable-0.11.y
-    old: ba263e6e110cc1d3eb9d6499450bf2724961e714
-    new: 8e80c6b419077a4e1af364e1aaa8245c79640f75
+    old: 8e80c6b419077a4e1af364e1aaa8245c79640f75
+    new: 5b65e67cca7e123a434dba205a555b3729975eb5
     log: |
-         8e80c6b419077a4e1af364e1aaa8245c79640f75 ez: dedupe cover letter CCs taken from individual patches
+         5b65e67cca7e123a434dba205a555b3729975eb5 ez: avoid header wrapping when writing to file
          
 
---===============4967608552633937692==
+--===============5399992985020660514==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher B6C41CE35664996C! 1672785572 -0500
+pusher B6C41CE35664996C! 1672786256 -0500
 pushee gitolite.kernel.org:pub/scm/utils/b4/b4
-nonce 1672785572-2bd134680da8bc26cf517e9faa753e97c4897542
+nonce 1672786256-166211eeb42b3b5f638cf84aa7442db4efc11ec9
 
-214b350428e802d4bb53ca3063995cc98853cc97 7e752d8ef401f6028d637a864fc75a16e4b58d36 refs/heads/master
-ba263e6e110cc1d3eb9d6499450bf2724961e714 8e80c6b419077a4e1af364e1aaa8245c79640f75 refs/heads/stable-0.11.y
+7e752d8ef401f6028d637a864fc75a16e4b58d36 aab3716537c7d3683b03fd63fc657b77b52f8df2 refs/heads/master
+8e80c6b419077a4e1af364e1aaa8245c79640f75 5b65e67cca7e123a434dba205a555b3729975eb5 refs/heads/stable-0.11.y
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCY7SupAAKCRC2xBzjVmSZ
-bGN8AP9FqmZV91PZo3aydPd3UYrQaHFil6Euf+XtHKlVatAy7QEArotRO6xAsmuK
-a7xYdlP1kKCpx1p80UMle1z8XvfheAk=
-=oclg
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCY7SxUAAKCRC2xBzjVmSZ
+bHqTAQDXrMDPtPG0fPKBMHa7Kh9vj4lWuYzIonJYqi4RaMt5VQEA8mCEXSum4QcD
+Vzg0D3VIOCKNVo7uJtKKRdY+JIhZHQo=
+=C691
 -----END PGP SIGNATURE-----
 
---===============4967608552633937692==--
+--===============5399992985020660514==--
