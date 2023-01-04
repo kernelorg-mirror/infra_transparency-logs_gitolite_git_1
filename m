@@ -1,20 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rostedt/trace-cmd
-Date: Wed, 04 Jan 2023 04:08:23 -0000
-Message-Id: <167280530307.524.9652746863349703403@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dlemoal/libata
+Date: Wed, 04 Jan 2023 04:42:40 -0000
+Message-Id: <167280736000.23961.11303956256960829350@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rostedt/trace-cmd
-user: rostedt
+repo: pub/scm/linux/kernel/git/dlemoal/libata
+user: dlemoal
 changes:
-  - ref: refs/heads/master
-    old: 18f8a5b1aac64063b1c41dd3fa1a51e58f8ba229
-    new: f1ef79e8ef3fdfc3bd96e65bbf19a72cc127d384
+  - ref: refs/heads/for-6.3
+    old: f060ba1882ec83cbb3c3809104bfa1d5868ea130
+    new: 002c487119f2c740bad0a3acbd356d4a57d237c3
     log: |
-         9e88257bf1f8d7a0029586118b11c6036bb1cbc8 trace-cmd: Make sure 32 bit works on 64 bit file systems
-         f1ef79e8ef3fdfc3bd96e65bbf19a72cc127d384 trace-cmd: Allow building with GNU Make 4.4
+         b83ad9eec316eaa7b448fba49c7b4ad72a73d4c9 ata: libata-eh: Cleanup ata_scsi_cmd_error_handler()
+         876293121f24fc1a7df85450d0997f54540c8979 ata: scsi: rename flag ATA_QCFLAG_FAILED to ATA_QCFLAG_EH
+         931139af5718fb41565fff2420daf995c016ec80 ata: libata: simplify qc_fill_rtf port operation interface
+         93c4aa449b88196c7d56a556cb6a2aad21ad8a7a ata: libata: read the shared status for successful NCQ commands once
+         7affcded810b7fa9b2e935fff5faa12af2b67033 ata: libata: respect successfully completed commands during errors
+         87aab3c4cd59aef42fe280fece2be8b8156b99e0 ata: libata: move NCQ related ATA_DFLAGs
+         7574a8377c7afc5e5ccbb62d9602d25c033a0f1b ata: libata-scsi: do not overwrite SCSI ML and status bytes
+         002c487119f2c740bad0a3acbd356d4a57d237c3 ata: libata-scsi: improve ata_scsiop_maint_in()
          
