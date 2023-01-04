@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netfilter/nf
-Date: Wed, 04 Jan 2023 19:35:07 -0000
-Message-Id: <167286090706.19218.3195011151067092784@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/trace-cmd/kernel-shark
+Date: Wed, 04 Jan 2023 19:38:08 -0000
+Message-Id: <167286108835.20203.659271326096180996@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netfilter/nf
-user: pablo
+repo: pub/scm/utils/trace-cmd/kernel-shark
+user: y.karadzhov
 changes:
-  - ref: refs/heads/master
-    old: c7dd13805f8b8fc1ce3b6d40f6aff47e66b72ad2
-    new: 558016722e9d5bc0ac79c246ccd14a8a4eb028d4
+  - ref: refs/heads/kernelshark
+    old: 843903f5cd12990c5786ae6c9bbc6422f8746bb4
+    new: 3146d0b3d873546461163df2701ee1068e27ee04
     log: |
-         558016722e9d5bc0ac79c246ccd14a8a4eb028d4 MAINTAINERS: Update maintainers for ptp_vmw driver
+         3146d0b3d873546461163df2701ee1068e27ee04 kernel-shark: Do not truncate multi-line events
          
