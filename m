@@ -1,26 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs-stable
-Date: Wed, 04 Jan 2023 21:18:47 -0000
-Message-Id: <167286712788.23719.8299551820299895080@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ribalda/linux
+Date: Wed, 04 Jan 2023 21:19:22 -0000
+Message-Id: <167286716246.23959.6550924093221481980@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jaegeuk/f2fs-stable
-user: jaegeuk
+repo: pub/scm/linux/kernel/git/ribalda/linux
+user: ribalda
 changes:
-  - ref: refs/heads/linux-5.10.y
-    old: dd7d386cd55b2e99696e1522da315368a3bd630b
-    new: 24af2f08d60039427995f78150963743dcb080de
+  - ref: refs/heads/b4/std-menu
+    old: e4b33f0b6526cd86fa24a188813c3d1a1af3c5c4
+    new: b2b5499868704b2d7ce417fbed746676e7718604
     log: |
-         dcfd33557d7ae34fe7b37e1502f85d02f69dbe93 f2fs: fix to avoid NULL pointer dereference in f2fs_issue_flush()
-         b5825de803e7cf56262f5b3a8bc692d61acfe653 f2fs: initialize extent_cache parameter
-         354a326851a615c7fd8f5a6bda72afc9f051c264 f2fs: don't mix to use union values in extent_info
-         db640d99b1ed4745eaf3af9ea1910996cddaf30c f2fs: should use a temp extent_info for lookup
-         24af2f08d60039427995f78150963743dcb080de f2fs: let's avoid panic if extent_tree is not created
+         90128ebc3a98c692db7e509804cf01881f8f0134 media: uvcvideo: Use standard names for menus
+         b2b5499868704b2d7ce417fbed746676e7718604 media: uvcvideo: Refactor power_line_frequency_controls_limited
          
-  - ref: refs/tags/6.2-rc3-5.10
-    old: 0000000000000000000000000000000000000000
-    new: 24af2f08d60039427995f78150963743dcb080de
