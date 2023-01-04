@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8166824854477889902=="
+Content-Type: multipart/mixed; boundary="===============6104011359333021623=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/crng/random
-Date: Wed, 04 Jan 2023 20:26:57 -0000
-Message-Id: <167286401724.21708.7816771344840388375@gitolite.kernel.org>
+Date: Wed, 04 Jan 2023 20:27:15 -0000
+Message-Id: <167286403507.21861.17224939527674797956@gitolite.kernel.org>
 
---===============8166824854477889902==
+--===============6104011359333021623==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,20 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/crng/random
 user: zx2c4
 changes:
-  - ref: refs/heads/linus/master
-    old: e4cf7c25bae5c3b5089a3c23a897f450149caef2
-    new: 512dee0c00ad9e9c7ae9f11fc6743702ea40caff
-    log: revlist-e4cf7c25bae5-512dee0c00ad.txt
-  - ref: refs/heads/master
-    old: e4cf7c25bae5c3b5089a3c23a897f450149caef2
-    new: 512dee0c00ad9e9c7ae9f11fc6743702ea40caff
-    log: revlist-e4cf7c25bae5-512dee0c00ad.txt
+  - ref: refs/heads/vdso
+    old: 489e0f821ce019f6912600cf4467b0ad308162a4
+    new: 2a9053b6e98e527068a9ee61c32eba19e8e45eaa
+    log: revlist-489e0f821ce0-2a9053b6e98e.txt
 
---===============8166824854477889902==
+--===============6104011359333021623==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e4cf7c25bae5-512dee0c00ad.txt
+Content-Disposition: attachment; filename=revlist-489e0f821ce0-2a9053b6e98e.txt
 
 1c0908d8e441631f5b8ba433523cf39339ee2ba0 rtmutex: Add acquire semantics for rtmutex lock acquisition slow path
 abe3bf7425fb695a9b37394af18b9ea58a800802 btrfs: fix an error handling path in btrfs_rename()
@@ -76,5 +72,12 @@ a664ec9158eeddd75121d39c9a0758016097fa96 x86/bugs: Flush IBP in ib_prctl_set()
 b61778fa5173021e628b3c9372c9ceae01951b34 Merge tag 'nfsd-6.2-2' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
 2ac44821a81612317f4451b765986d8b9695d5d5 Merge tag 'f2fs-fix-6.2-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/jaegeuk/f2fs
 512dee0c00ad9e9c7ae9f11fc6743702ea40caff Merge tag 'x86-urgent-2023-01-04' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+1e4b4bb54aa80e66e8cc6755e4b26bd526839000 vdso test
+322e3979b94088399f41d3d6fca156ee80a4e273 mm: add VM_DROPPABLE for designating always lazily freeable mappings
+c5c837168a78edcb2dfae7947926ff7beb25fabd x86: mm: Skip faulting instruction for VM_DROPPABLE faults
+82309ecf4394ac3985b362706194f16a281cef2b random: add vgetrandom_alloc() syscall
+c3a914e5420b05bce4ba3f295c9c82c90351af7d arch: allocate vgetrandom_alloc() syscall number
+9b4f12faac76e0ec554053c0a7b5ba2375445b87 random: introduce generic vDSO getrandom() implementation
+2a9053b6e98e527068a9ee61c32eba19e8e45eaa x86: vdso: Wire up getrandom() vDSO implementation
 
---===============8166824854477889902==--
+--===============6104011359333021623==--
