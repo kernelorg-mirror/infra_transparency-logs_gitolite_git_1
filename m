@@ -1,22 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/libtrace/libtraceevent
-Date: Wed, 04 Jan 2023 04:04:35 -0000
-Message-Id: <167280507509.30136.14345654673143785821@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/libtrace/libtracefs
+Date: Wed, 04 Jan 2023 04:07:42 -0000
+Message-Id: <167280526253.32658.1954869925541990663@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/libtrace/libtraceevent
+repo: pub/scm/libs/libtrace/libtracefs
 user: rostedt
 changes:
-  - ref: refs/heads/libtraceevent
-    old: 826b06bb2484a53fdae196e12ec507a67ec87055
-    new: 414028d689376a6c4e9065cbcba99c11a4f26dd8
+  - ref: refs/heads/libtracefs
+    old: a053233c583fe3e7c53e99a233c3bfac0a828a3b
+    new: eeafd61b7de34e4f3ccbde3356f88ac2cd36234e
     log: |
-         d227f133a84c1b67643857bee1badadd0f3d5846 libtraceevent: Remove global input buffer
-         8be5640ff4e64ca07b9c711afc0af89c958ed4f2 libtraceevent: Fix string parsing
-         169a55a0e8e8aacf4f9998ae00d749e447ac3f51 libtraceevent: Make sure 32 bit work on 64 bit file systems
-         414028d689376a6c4e9065cbcba99c11a4f26dd8 libtraceevent: Allow stack traces to show offset too
+         6476bc3b39f3e4dad6d2d9baa0e7a491fa08d8fc libtracefs: Make sure 32 bit works on 64 bit file systems
+         eeafd61b7de34e4f3ccbde3356f88ac2cd36234e libtracefs: Fix tracefs_instance_set_buffer_size() for individual CPUs
          
