@@ -1,47 +1,104 @@
-Content-Type: multipart/mixed; boundary="===============2050859346233822214=="
+Content-Type: multipart/mixed; boundary="===============2140293791692383018=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Wed, 04 Jan 2023 07:54:47 -0000
-Message-Id: <167281888751.19723.12995767729382091153@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
+Date: Wed, 04 Jan 2023 08:08:00 -0000
+Message-Id: <167281968073.28554.15408333404417828102@gitolite.kernel.org>
 
---===============2050859346233822214==
+--===============2140293791692383018==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
-user: leon
+repo: pub/scm/linux/kernel/git/stable/linux
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/rdma-next
-    old: 7e1ad0da8f035c5c816b8037d30d34e781d46ce3
-    new: 62906fd084948f47a276dd33b0a1a0f8556cfd66
-    log: revlist-7e1ad0da8f03-62906fd08494.txt
+  - ref: refs/heads/master
+    old: c8451c141e07a8d05693f6c8d0e418fbb4b68bb7
+    new: 69b41ac87e4a664de78a395ff97166f0b2943210
+    log: revlist-c8451c141e07-69b41ac87e4a.txt
 
---===============2050859346233822214==
+--===============2140293791692383018==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7e1ad0da8f03-62906fd08494.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-bd99ede8ef2dc03e29a181b755ba4f78da2644e6 RDMA/irdma: Remove extra ret variable in favor of existing err
-3d0e9a2fd62bc10ba02fed1c7c48a48638952320 RDMA/core: Refactor rdma_bind_addr
-5ffd8e3c88d31a31c91e244cc38192d839ae03da RDMA/mlx5: Fix mlx5_ib_get_hw_stats when used for device
-7fa4c43ea10f9e29db732b687aa9d56310b142d9 RDMA/mlx5: Fix validation of max_rd_atomic caps for DC
-12b3ec57b5d2dac286ffb097fe15e38837a78bd8 net/sched: Don't print dump stack in event of transmission timeout
-724ef06fc822b85f185831356140d83238d87c81 RDMA/core: Introduce peer memory interface
-b545d7492c73a8fccada2f497e34c63ab68fccb1 net/mlx5: Nullify qp->dbg pointer post destruction
-fd88b4a3501c9c3562db23099b73f4397efeb0a5 RDMA/mlx5: Handling dct common resource destruction upon firmware failure
-ad7e3fb49d86da3ae8d2128a456eaeec8422155f RDMA/mlx5: Return the firmware result upon destroying QP/RQ
-50cc405ea077efe5d5aa28db600e59f47ef2ba31 RDMA/cma: Refactor the inbound/outbound path records process flow
-5f74842240e1efa81573ab0f264d1e3fda21c847 net/mlx5: Expose bits for querying special mkeys
-e1066a2b8de32b48c1dc058c4cec0b7ee9a0f927 net/mlx5: Change define name for 0x100 lkey value
-2092704da7f5350e8e10fdd736cecf7b1e61c8ac net/mlx5: Use query_special_contexts for mkeys
-13a6db6f36737efc61cf677366da6c675c693131 RDMA/mlx5: Use query_special_contexts for mkeys
-386b2abb6269369db92b2cfe5112473c536aa2e7 RDMA/mlx: Calling qp event handler in workqueue context
-d4484bb904f09e274d42d722459be9ee1bca0188 net/mlx5: Introduce CQE error syndrome
-62906fd084948f47a276dd33b0a1a0f8556cfd66 RDMA/mlx5: Print error syndrome in case of fatal QP errors
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1672819679 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
+nonce 1672819678-190abaf300dc68c234eec8abe42d5f42431bc4d8
 
---===============2050859346233822214==--
+c8451c141e07a8d05693f6c8d0e418fbb4b68bb7 69b41ac87e4a664de78a395ff97166f0b2943210 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmO1M+AbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+HhgQAIhq5Sy2i3JK9zMpYGvh
+08ERalrfRVSbqpQSpfj1ENqnQZtNDDVyQxYVIVbs2k43YP1CTEd8gEEk50GEyysQ
+xFZSPlMPjHWetx7cTmi2Sn2Kh09THAfTKqz3q8LsPTUHL94Is2A2ySBeUooTPDeJ
+z2WAy6rbXwv1566+UR47wAuSx10Q8AHobk2083IRGKHquHgqisHvpf018JG5B8J7
+9/5eFdyFOtES3yVRizXarZQYEIq5YnDSYgO4gHMUnbE63hhmubLlAT3DPPrKMXsx
+IAGokDw60b83FGVAkOYFudgtzWCTKdGa65TsJDpMSovzNxdfx6SNn0DKvxnErzPd
+W9ffOLJvVx3MS/9qzVzbbvbDkTwdTlXZCzDMyu5IoCumJaOwDCoiJsP9I2qOV9/B
+4Dt8w55Eqq9zi3xkAVpDaG1OUahf8HGpZHcpxgrV1sihHTwob6QQoecY+YQ2hhHP
+SVGTDiXxxgWQ+TyQe7EnyI6ULMsEWyibOsRu2cDHv9Z9IKWqp9qJmntkqlULhmuE
+8f9pMaSRqlOulevWaFCIl9oi49LKlhwFlS7hbwLobREJbsF2yJXF9wOVY4xR/UHK
+/8Dn1AVvnGHISXzICjco1ae0pH41YMKnAXXTFd2IK17YXi7QRNgLoY1d08Q4LOhe
+rBOAjg63dOC+CH01/TFMUewR
+=+UiG
+-----END PGP SIGNATURE-----
+
+--===============2140293791692383018==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-c8451c141e07-69b41ac87e4a.txt
+
+1c0908d8e441631f5b8ba433523cf39339ee2ba0 rtmutex: Add acquire semantics for rtmutex lock acquisition slow path
+abe3bf7425fb695a9b37394af18b9ea58a800802 btrfs: fix an error handling path in btrfs_rename()
+db0a4a7b8e95f9312a59a67cbd5bc589f090e13d btrfs: fix an error handling path in btrfs_defrag_leaves()
+c68f72900a12a56c5e9890e6f2ca5119234c9a75 btrfs: fix leak of fs devices after removing btrfs module
+f1f0460c0ca97a4a6570f211c81579294a6cc7be btrfs: restore BTRFS_SEQ_LAST when looking up qgroup backref lookup
+0a3212de8ab3e2ce5808c6265855e528d4a6767b btrfs: fix trace event name typo for FLUSH_DELAYED_REFS
+560840afc3e63bbe5d9c5ef6b2ecf8f3589adff6 btrfs: fix resolving backrefs for inline extent followed by prealloc
+e7fc357ec03ee109da503af0dd31bbf68514e481 btrfs: scrub: fix uninitialized return value in recover_scrub_rbio
+fee4c19937439693f2420a916169d08e88576e8e btrfs: fix fscrypt name leak after failure to join log transaction
+37e14e4f3715428b809e4df9a9958baa64c77d51 ata: ahci: Fix PCS quirk application for suspend
+e2d371484653ac83b970d3ebcf343383f39f8b6b perf core: Return error pointer if inherit_event() fails to find pmu_ctx
+f841b682baef90ee144df8b12e2c76aa460717c1 perf/core: Fix cgroup events tracking
+08245672cdc6505550d1a5020603b0a8d4a6dcc7 perf/x86/amd: fix potential integer overflow on shift of a int
+a551844e345ba2a1c533dee4b55cb0efddb1bcda perf: Fix use-after-free in error path
+0a041ebca4956292cadfb14a63ace3a9c1dcb0a3 perf/core: Call LSM hook after copying perf_event_attr
+ade8c20847fcc3f4de08b35f730ec04ef29ddbdc x86/calldepth: Fix incorrect init section references
+1993bf97992df2d560287f3c4120eda57426843d x86/kprobes: Fix kprobes instruction boudary check with CONFIG_RETHUNK
+63dc6325ff41ee9e570bde705ac34a39c5dbeb44 x86/kprobes: Fix optprobe optimization check with CONFIG_RETHUNK
+94cd8fa09f5f1ebdd4e90964b08b7f2cc4b36c43 futex: Fix futex_waitv() hrtimer debug object leak on kcalloc error
+da8daff9405e55baa1f797b77a7c629a89f4d764 kconfig: Add static text for search information in help menu
+c5bc073668206c73c20798eb6d978b5e9db5b16f drm/i915: fix TLB invalidation for Gen12.50 video and compute engines
+fff758698842fb6722be37498d8773e0fb47f000 drm/i915: Remove __maybe_unused from mtl_info
+3f882f2d4f689627c1566c2c92087bc3ff734953 drm/i915: improve the catch-all evict to handle lock contention
+11ce8fd8fd8718247f17475802639cd7e2d3765c drm/i915/uc: Fix two issues with over-size firmware files
+99cb0d917ffa1ab628bb67364ca9b162c07699b1 arch: fix broken BuildID for arm64 and riscv
+924d28b39e3b62ad5e97751585aed7c89f8c43ee .gitignore: ignore *.rpm
+9c9b55a59416a87fc73c479d78cb3218076dbc30 kbuild: add a missing line for help message
+63ffe00d8c939eda1a8fa87484ca4537e13a20b7 kbuild: Fix running modpost with musl libc
+02a893bc99757d75b7abb43b74f210dfa3df8c4b kbuild: rpm-pkg: add libelf-devel as alternative for BuildRequires
+aa4847dbcdabfe80a1cff96480e4b3c8076a0356 kbuild: sort single-targets alphabetically again
+6a5e25fc3e0b94301734e8abb1d311a1e02d360d fixdep: remove unneeded <stdarg.h> inclusion
+963bbdb32b47cfa67a449e715e1dcc525fbd01fc drm/i915/dsi: add support for ICL+ native MIPI GPIO sequence
+6217e9f05a74df48c77ee68993d587cdfdb1feb7 drm/i915/dsi: fix MIPI_BKLT_EN_1 native GPIO index
+e39d9b9f89f2efd653212064f941de6f53c3c060 Merge tag 'ata-6.2-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/dlemoal/libata
+e4cf7c25bae5c3b5089a3c23a897f450149caef2 Merge tag 'kbuild-fixes-v6.2' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+a9f5a752e86f1897c3b377b6b861576a4c1a2ff0 Merge tag 'drm-intel-fixes-2022-12-30' of git://anongit.freedesktop.org/drm/drm-intel into drm-fixes
+8b41948296b76588f5ebaf7cbc5be5c803ece70a Merge tag 'drm-fixes-2023-01-01' of git://anongit.freedesktop.org/drm/drm
+95d248d16f9cb42de717367832cffa0f83e97fde Merge tag 'locking_urgent_for_v6.2_rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+5b129817aedb03d94fb960e7a34d0f5eaa20a2f2 Merge tag 'x86_urgent_for_v6.2_rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+150aae354b817f540848476bace2b2ba9931b197 Merge tag 'perf_urgent_for_v6.2_rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+88603b6dc419445847923fcb7fe5080067a30f98 Linux 6.2-rc2
+0226635c304cfd5c9db9b78c259cb713819b057e fs/ntfs3: don't hold ni_lock when calling truncate_setsize()
+69b41ac87e4a664de78a395ff97166f0b2943210 Merge tag 'for-6.2-rc2-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
+
+--===============2140293791692383018==--
