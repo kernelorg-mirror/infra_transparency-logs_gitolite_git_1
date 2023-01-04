@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/thermal/linux
-Date: Wed, 04 Jan 2023 23:14:21 -0000
-Message-Id: <167287406192.1874.7963684226022747902@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/mdadm/mdadm
+Date: Wed, 04 Jan 2023 23:38:00 -0000
+Message-Id: <167287548090.17928.14615757124904415489@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/thermal/linux
-user: daniel.lezcano
+repo: pub/scm/utils/mdadm/mdadm
+user: jes
 changes:
-  - ref: refs/heads/thermal/linux-next
-    old: cc54ca385577fa3ff52b01bdecaacf74815c164b
-    new: 09b49095c0a0afc417c96664c356dc035530e0cf
+  - ref: refs/heads/master
+    old: b938519e7719c992dae2d61c796c45fe49e6b71b
+    new: 24d329fc97a64ec185ef27e59730f3f058c09029
+    log: |
+         24d329fc97a64ec185ef27e59730f3f058c09029 mdadm/udev: Don't handle change event on raw devices
+         
