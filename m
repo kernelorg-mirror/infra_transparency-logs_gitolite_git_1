@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2336156775155777997=="
+Content-Type: multipart/mixed; boundary="===============4948053617934161180=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Wed, 04 Jan 2023 08:34:55 -0000
-Message-Id: <167282129568.13169.14087100604915118066@gitolite.kernel.org>
+Date: Wed, 04 Jan 2023 08:35:13 -0000
+Message-Id: <167282131376.14826.5861266446146659917@gitolite.kernel.org>
 
---===============2336156775155777997==
+--===============4948053617934161180==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/readfile
-    old: 4e82ff1793c9bd48669c537a75d86d4ce7c21461
-    new: 3e198e8fd228a33602c3404bf1ab8c1acfd2034e
-    log: revlist-4e82ff1793c9-3e198e8fd228.txt
+  - ref: refs/heads/kobject-const
+    old: 718a1400847bdcb948927d4f437926bf116bdee9
+    new: 3f2fbe0b730a1665148ebdabc768cb4965d68fee
+    log: revlist-718a1400847b-3f2fbe0b730a.txt
 
---===============2336156775155777997==
+--===============4948053617934161180==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1672821292 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1672821311 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1672821291-9c3727e2f23da534909f1a0b6af0dc86944e81f0
+nonce 1672821310-2d922703fc284c0cdad1f74d880e84523b820572
 
-4e82ff1793c9bd48669c537a75d86d4ce7c21461 3e198e8fd228a33602c3404bf1ab8c1acfd2034e refs/heads/readfile
+718a1400847bdcb948927d4f437926bf116bdee9 3f2fbe0b730a1665148ebdabc768cb4965d68fee refs/heads/kobject-const
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmO1OiwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+KwcP/R3pNZmDm7gQtDKoP24Z
-4qssmi6WS2w/ejfDaiZsRX8cScsdBZKigX6LVjZQBIldLy5OfhKVJaRsren2oI8m
-LiKneJ/d955fuVq1G95vMe33VBkaEdH1ulJvLenheUmgkAP8qsNh68tfq0wG8cbN
-kroOUjDwCDDSjvgYddPQDTw0YX2uCKZW8mUwxejbpaRaTNbYXfPx4HkjY9irYSwt
-9UpsFZG1QBlBk1gzUptVU6/309DzJ9vOm9igVbkao8mG1LfU5uK0BhQfLrLEmrXJ
-L/m+zrJ1C17cC+km+nQf7hETRdVOVB7qGpOC5+cjxhZoRPeYlNPYnuSW64Xd640N
-+81YxTVzk+Hsp83st8NS7/Uri/VjvJWQ+lZDUvPp18z/AchWia5AOC9WyVv9Coux
-nMMkmTm+TLZy5XE6wZbzCB7I6IDlR+Ya7KDjz7AWbIs3cwAg4zTVOM2T+jaq3fTD
-FznfkXJZYHQwbDEILaqfYRQOW1CiKGvPJmUtd2u0x9TBcZmHaosi5UfvPChNcl5i
-OGFCQQC6QW/EYVru/FKogjfOnatmfruvNqtI9HK111Dg+FMqM+TmcSjJoo/c+daZ
-J2hUd5TsCahb12+NQsjNb8OlSf9Z8Z9JjwvAaxVICl/UEandRH3+xg8l+m9EVY1D
-LHdNW7rVjfAMunF08gtrJKuo
-=0WU5
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmO1Oj8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+bKwP/Arxk6yf35db+4lsn23i
+kQUqpkweQy6t/XJNUhA8MrBxc3TqTjRd9ePcyfMjIAoNdgG77OxgL896uK6bhD9R
+QSodiKienx+GU2M0Ti2JDDGvdIj1Q/s44H/x0iml7kmz187BaWkV1BnQitt3/6ve
+j4Rc0dIwrg8FF0+nWBIPBDVc484uTmCHre21NACJ9/A3DPBF5xBZTV+cj8tHbUDB
+wtGllY0lxW2VGc3fRyx5D8d33bDdOm74N4rUu5oHct4bJWAWB3BI6p/Sx+M7BXlB
+2cgJAZ83TRQhZaHlbr9jMJr8wOo7myZhxrLPZJQwoBrGAzL/MfQEkIpUUvEEMm2P
+oAcOR9gyj4R/HBOLdTQmMOTFOihcLNNm1+mqe0TMW2KEzb2SADRqd/NQT3l/kq8h
+26Fw0le9+WJPSkswNQEQ+daOLQ1AraqhNIfIQMu+wQPP8me25SQVunZBAqgIq0XG
+sShkpg+bCuTGEBzcF2zzw6ghchhJ9HmDxBf48scntWN3rGF3t3Dse8DSlQLvP5WH
+S6tnKw1kZCFeBWphCQItAVm8HDT9xkaFUn70XaGIzgfNjDF57ajeT+PO29nCoTEH
+qxs+uz7T2H3qrt+t7vQmgrIyi9VpYz9csnUVvC24eeCpdT0DYSQ5POHtMK3hkju+
+3Ri008yT8wyyJeHWLmfvxfk6
+=Hvy3
 -----END PGP SIGNATURE-----
 
---===============2336156775155777997==
+--===============4948053617934161180==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4e82ff1793c9-3e198e8fd228.txt
+Content-Disposition: attachment; filename=revlist-718a1400847b-3f2fbe0b730a.txt
 
 1c0908d8e441631f5b8ba433523cf39339ee2ba0 rtmutex: Add acquire semantics for rtmutex lock acquisition slow path
 b5f96cb719d8ba220b565ddd3ba4ac0d8bcfb130 nvme-pci: fix doorbell buffer value endianness
@@ -174,9 +174,21 @@ a9f5a752e86f1897c3b377b6b861576a4c1a2ff0 Merge tag 'drm-intel-fixes-2022-12-30' 
 5b129817aedb03d94fb960e7a34d0f5eaa20a2f2 Merge tag 'x86_urgent_for_v6.2_rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 150aae354b817f540848476bace2b2ba9931b197 Merge tag 'perf_urgent_for_v6.2_rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 88603b6dc419445847923fcb7fe5080067a30f98 Linux 6.2-rc2
-a3d858f004227c99a756e5e37f777d87a063d48d readfile: implement readfile syscall
-c7fa47c7caa0d0adb1a1dff85d7f6af664eb0385 arch: wire up the readfile syscall
-44739a5add0a8333b01079b7d495dc1641d39d8d selftests: add readfile(2) selftests
-3e198e8fd228a33602c3404bf1ab8c1acfd2034e readfile.2: new page describing readfile(2)
+bcfa16efa135e1e041bdd8fcade8e3272f978633 of: device: make of_device_uevent_modalias() take a const device *
+2d9aa67d8fdd496e7bfc31dde58f6c094172fc26 i3c: move dev_to_i3cdev() to use container_of_const()
+2587ca04e9100ce2709a1f9a75bbd995c655e660 platform/surface: aggregator: move to_ssam_device() to use container_of_const()
+ea6ab50b27e1ca668b3394006883515e974c1360 firewire: move fw_device() and fw_unit() to use container_of_const()
+00e842dea85d87a4946050753076c2b75b65cc2c driver core: make struct device_type.uevent() take a const *
+d3e0da43d14ab4d919ed8c583dad94a7b7b8eadc driver core: make struct device_type.devnode() take a const *
+e2008443b46fd0ff86a3885dd63c006c435ff1c8 driver core: device_get_devnode() should take a const *
+c6653d64abf9b56dccfcc4e39277acd850565220 vio: move to_vio_dev() to use container_of_const()
+f8aad99c129e58f13eae4691aabd0deb63c40938 platform/x86: wmi: move dev_to_wblock() and dev_to_wdev to use container_of_const()
+f3b1416c854df14b4a152bb6a6f594b56dc8c29d drivers: hv: move device_to_hv_device to use container_of_const()
+f89e4c125d351c6880be1979218cd7d85ea14b55 virtio: move dev_to_virtio() to use container_of_const()
+f8948ce0fe10c2a4dd50c28cf67619e4661fc511 drm/mipi-dsi: move to_mipi_dsi_device() to use container_of_const()
+e5e1229072f23c45d6d3f92152f6354e507436ee mcb: move to_mcb_device() to use container_of_const()
+b07da38378fcc596444414daa8cd1d2c15d2a107 xen/xenbus: move to_xenbus_device() to use container_of_const()
+6f9bca2321afdaf784d846d0384e3313c57c8971 driver core: make struct bus_type.uevent() take a const *
+3f2fbe0b730a1665148ebdabc768cb4965d68fee kobject: kset_uevent_ops: make uevent() callback take a const *
 
---===============2336156775155777997==--
+--===============4948053617934161180==--
