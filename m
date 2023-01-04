@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/legion/linux
-Date: Wed, 04 Jan 2023 17:13:46 -0000
-Message-Id: <167285242675.20673.16361197617881211535@gitolite.kernel.org>
+Date: Wed, 04 Jan 2023 17:23:51 -0000
+Message-Id: <167285303183.28129.11821496076309623251@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,9 @@ repo: pub/scm/linux/kernel/git/legion/linux
 user: legion
 changes:
   - ref: refs/heads/procfs-filter-v1
-    old: ff924c604bf7bd1d55d293124c2837ac3e788311
-    new: 77bce72ffc1f5724e669e66a3b8d79011622410b
+    old: 77bce72ffc1f5724e669e66a3b8d79011622410b
+    new: b12bb0c7009283168beba8240f2a11d2c47471c1
     log: |
-         76aedef80637ac6208b9ef9db539b2ab13f13291 proc: Add allowlist to control access to procfs files
-         77bce72ffc1f5724e669e66a3b8d79011622410b proc: Check that subset= option has been set
+         e3b3b145ee5ebd4727a71d444ace5e263ab3891c proc: Add allowlist to control access to procfs files
+         b12bb0c7009283168beba8240f2a11d2c47471c1 proc: Check that subset= option has been set
          
