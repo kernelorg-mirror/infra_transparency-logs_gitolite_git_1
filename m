@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ribalda/linux
-Date: Wed, 04 Jan 2023 21:27:56 -0000
-Message-Id: <167286767618.29710.5984357031221928667@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
+Date: Wed, 04 Jan 2023 21:32:00 -0000
+Message-Id: <167286792039.32603.12834907730945111119@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ribalda/linux
-user: ribalda
+repo: pub/scm/linux/kernel/git/bpf/bpf
+user: ast
 changes:
-  - ref: refs/heads/b4/uvc-race
-    old: 98ed829f57757be110a1797696be639e8f928877
-    new: 6d0b64d45ce19b7a26f2fafab5104b89bbab30c1
-    log: |
-         6d0b64d45ce19b7a26f2fafab5104b89bbab30c1 media: uvcvideo: Fix race condition with usb_kill_urb
-         
+  - ref: refs/tags/for-netdev
+    old: 0000000000000000000000000000000000000000
+    new: de62bd26b7336e48621eaa747254e8e21ee57ad7
