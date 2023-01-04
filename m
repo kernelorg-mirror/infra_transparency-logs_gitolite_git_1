@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4948053617934161180=="
+Content-Type: multipart/mixed; boundary="===============8823328298609610366=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Wed, 04 Jan 2023 08:35:13 -0000
-Message-Id: <167282131376.14826.5861266446146659917@gitolite.kernel.org>
+Date: Wed, 04 Jan 2023 08:35:52 -0000
+Message-Id: <167282135291.15076.1521717431489098054@gitolite.kernel.org>
 
---===============4948053617934161180==
+--===============8823328298609610366==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/kobject-const
-    old: 718a1400847bdcb948927d4f437926bf116bdee9
-    new: 3f2fbe0b730a1665148ebdabc768cb4965d68fee
-    log: revlist-718a1400847b-3f2fbe0b730a.txt
+  - ref: refs/heads/debugfs_cleanup
+    old: 46e7f496b109394ab24dc604e56426ac3a1736a8
+    new: ba464f08e1c38c92dd57abb875540f2c740f3c19
+    log: revlist-46e7f496b109-ba464f08e1c3.txt
 
---===============4948053617934161180==
+--===============8823328298609610366==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1672821311 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1672821351 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1672821310-2d922703fc284c0cdad1f74d880e84523b820572
+nonce 1672821350-dec3da48e05d3fbf960261a360c71a396e5d3c3e
 
-718a1400847bdcb948927d4f437926bf116bdee9 3f2fbe0b730a1665148ebdabc768cb4965d68fee refs/heads/kobject-const
+46e7f496b109394ab24dc604e56426ac3a1736a8 ba464f08e1c38c92dd57abb875540f2c740f3c19 refs/heads/debugfs_cleanup
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmO1Oj8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+bKwP/Arxk6yf35db+4lsn23i
-kQUqpkweQy6t/XJNUhA8MrBxc3TqTjRd9ePcyfMjIAoNdgG77OxgL896uK6bhD9R
-QSodiKienx+GU2M0Ti2JDDGvdIj1Q/s44H/x0iml7kmz187BaWkV1BnQitt3/6ve
-j4Rc0dIwrg8FF0+nWBIPBDVc484uTmCHre21NACJ9/A3DPBF5xBZTV+cj8tHbUDB
-wtGllY0lxW2VGc3fRyx5D8d33bDdOm74N4rUu5oHct4bJWAWB3BI6p/Sx+M7BXlB
-2cgJAZ83TRQhZaHlbr9jMJr8wOo7myZhxrLPZJQwoBrGAzL/MfQEkIpUUvEEMm2P
-oAcOR9gyj4R/HBOLdTQmMOTFOihcLNNm1+mqe0TMW2KEzb2SADRqd/NQT3l/kq8h
-26Fw0le9+WJPSkswNQEQ+daOLQ1AraqhNIfIQMu+wQPP8me25SQVunZBAqgIq0XG
-sShkpg+bCuTGEBzcF2zzw6ghchhJ9HmDxBf48scntWN3rGF3t3Dse8DSlQLvP5WH
-S6tnKw1kZCFeBWphCQItAVm8HDT9xkaFUn70XaGIzgfNjDF57ajeT+PO29nCoTEH
-qxs+uz7T2H3qrt+t7vQmgrIyi9VpYz9csnUVvC24eeCpdT0DYSQ5POHtMK3hkju+
-3Ri008yT8wyyJeHWLmfvxfk6
-=Hvy3
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmO1OmcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+dToQAJROw894JtppJk1Bx9iy
+iHSvCTduW8c3rqEe+4nyyg/OAuKUQuRs/pSsk7PmyzPx2ifYyBqZV8c5Gy3U1m6e
++ybgj4iGIhCI5IuNm+xzYvqTUZf2PyHnpSVI81hpruk6BI8EMDnVni9gwaqYcPda
+83hRVLXOQMVyTMiwf72F/3kaoRSNR7lZ3AzwSoNpzmVJODFo/J85W7NIJWY8LrCb
+7POdXv/BKa96xPX8dVRrnAhdbie4FTaUAQzBCJs2/f1ZhG57nM3Pg1lx1iPn9o/f
+FnNH5ocuBGqtrEV6RxEoU4HGpQ6Gq05WJ7MMbkseiml0TZ/MPhi/EE+LC3re2wPI
+Y+usn+gGDtFd4cRz2iciuVLVtqtzrLDf2dSnLpSUyJH+qPsNcCv6HPnnyFoPUBea
+omoi4tw71dtQ418dEwB20tHTAu6f0LI32jazjiwZWOyhZMDpvcoN27b/L8dXwPzT
+iKIruPUI9ceAwo+0L/IdnYWMgLuk/2mYf10uTuKdop4nvA0tejq0Mt/lJWhsubpp
+WPg6mmsQcvvGfvK0GDJlPqZXc1CA2CIJk2MBnzdp29w3q7nVfYRE8ePA4hmcdiis
+pK/QBaZTQlEUXHykKOhI2tlsI96hMMoyhM+3LGExkF0FBHV+dy3r9SZbj+c5wSi1
+eRVdUHmqsP1dvqzC6iezP5qI
+=jo/L
 -----END PGP SIGNATURE-----
 
---===============4948053617934161180==
+--===============8823328298609610366==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-718a1400847b-3f2fbe0b730a.txt
+Content-Disposition: attachment; filename=revlist-46e7f496b109-ba464f08e1c3.txt
 
 1c0908d8e441631f5b8ba433523cf39339ee2ba0 rtmutex: Add acquire semantics for rtmutex lock acquisition slow path
 b5f96cb719d8ba220b565ddd3ba4ac0d8bcfb130 nvme-pci: fix doorbell buffer value endianness
@@ -174,21 +174,12 @@ a9f5a752e86f1897c3b377b6b861576a4c1a2ff0 Merge tag 'drm-intel-fixes-2022-12-30' 
 5b129817aedb03d94fb960e7a34d0f5eaa20a2f2 Merge tag 'x86_urgent_for_v6.2_rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 150aae354b817f540848476bace2b2ba9931b197 Merge tag 'perf_urgent_for_v6.2_rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 88603b6dc419445847923fcb7fe5080067a30f98 Linux 6.2-rc2
-bcfa16efa135e1e041bdd8fcade8e3272f978633 of: device: make of_device_uevent_modalias() take a const device *
-2d9aa67d8fdd496e7bfc31dde58f6c094172fc26 i3c: move dev_to_i3cdev() to use container_of_const()
-2587ca04e9100ce2709a1f9a75bbd995c655e660 platform/surface: aggregator: move to_ssam_device() to use container_of_const()
-ea6ab50b27e1ca668b3394006883515e974c1360 firewire: move fw_device() and fw_unit() to use container_of_const()
-00e842dea85d87a4946050753076c2b75b65cc2c driver core: make struct device_type.uevent() take a const *
-d3e0da43d14ab4d919ed8c583dad94a7b7b8eadc driver core: make struct device_type.devnode() take a const *
-e2008443b46fd0ff86a3885dd63c006c435ff1c8 driver core: device_get_devnode() should take a const *
-c6653d64abf9b56dccfcc4e39277acd850565220 vio: move to_vio_dev() to use container_of_const()
-f8aad99c129e58f13eae4691aabd0deb63c40938 platform/x86: wmi: move dev_to_wblock() and dev_to_wdev to use container_of_const()
-f3b1416c854df14b4a152bb6a6f594b56dc8c29d drivers: hv: move device_to_hv_device to use container_of_const()
-f89e4c125d351c6880be1979218cd7d85ea14b55 virtio: move dev_to_virtio() to use container_of_const()
-f8948ce0fe10c2a4dd50c28cf67619e4661fc511 drm/mipi-dsi: move to_mipi_dsi_device() to use container_of_const()
-e5e1229072f23c45d6d3f92152f6354e507436ee mcb: move to_mcb_device() to use container_of_const()
-b07da38378fcc596444414daa8cd1d2c15d2a107 xen/xenbus: move to_xenbus_device() to use container_of_const()
-6f9bca2321afdaf784d846d0384e3313c57c8971 driver core: make struct bus_type.uevent() take a const *
-3f2fbe0b730a1665148ebdabc768cb4965d68fee kobject: kset_uevent_ops: make uevent() callback take a const *
+87a4a73702dd7026d6e70640803b68c66956052c driver core: remove devm_device_add_groups()
+9bd8541f925e1a22f8e3da8749d9ae4d59d9ec67 sysfs: do not create empty directories if no attributes are present
+7316ef142b10915af0b89c688bbad428e6135024 soundwire: sysfs: move sdw_slave_dev_attr_group into the existing list of groups
+4fb44f38706b9067251f10ffbe5ba4642b0c1ae3 soundwire: sysfs: cleanup the logic for creating the dp0 sysfs attributes
+a73fb56fb71ef246d3115a466d3d3131bf2123e4 soundwire: sysfs: have the driver core handle the creation of the device groups
+a848977f9919ff099ad05ea4ee909b89eaef8896 soundwire: sysfs: remove sdw_slave_sysfs_init()
+ba464f08e1c38c92dd57abb875540f2c740f3c19 soundwire: sysfs: remove unneeded ATTRIBUTE_GROUPS() comments
 
---===============4948053617934161180==--
+--===============8823328298609610366==--
