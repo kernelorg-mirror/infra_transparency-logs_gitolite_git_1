@@ -1,22 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 04 Jan 2023 08:57:52 -0000
-Message-Id: <167282267264.29335.14579919300268231434@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/brauner/xfstests-dev
+Date: Wed, 04 Jan 2023 09:15:35 -0000
+Message-Id: <167282373586.8921.13352301332806463402@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: davem
+repo: pub/scm/linux/kernel/git/brauner/xfstests-dev
+user: brauner
 changes:
-  - ref: refs/heads/master
-    old: c183e6c3ec342624c43269c099050d01eeb67e63
-    new: 1f47510ed50a511e7085a61d1a52fbe21f097a7c
+  - ref: refs/heads/fstests.setgid.v6.2
+    old: 6c52e738f010afa364c92f0637e7ad97d087489c
+    new: 236a3de290db81810cd76d53608f678860eebb23
     log: |
-         b8897dc54e3bc9d25281bbb42a7d730782ff4588 igc: remove I226 Qbv BaseTime restriction
-         5ac1231ac14d1b8a1098048e51cad45f11b85c0a igc: enable Qbv configuration for 2nd GCL
-         1d1b4c63ba739c6ca695cb2ea13fefa9dfbff60d igc: Remove reset adapter task for i226 during disable tsn config
-         1f47510ed50a511e7085a61d1a52fbe21f097a7c Merge branch '1GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/next-queue
+         64380f37d56876c461aa025887bed7fd9cc1c50e # I don't need a cover letter.
+         236a3de290db81810cd76d53608f678860eebb23 generic: update setgid tests
          
