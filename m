@@ -1,30 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/mdadm/mdadm
-Date: Wed, 04 Jan 2023 15:48:59 -0000
-Message-Id: <167284733951.28266.17800407460371082839@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============1054597658087545511=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Wed, 04 Jan 2023 15:49:24 -0000
+Message-Id: <167284736497.28495.6202908833972616502@gitolite.kernel.org>
+
+--===============1054597658087545511==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/mdadm/mdadm
-user: jes
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 7fcbfd7c620e2dcd3b539d18e93cb503ee3a8a62
-    new: b938519e7719c992dae2d61c796c45fe49e6b71b
+    old: c4fdaf8f6a75fbe6b1f287f604c48faefcb38457
+    new: 1204411ee40fc6dd31111107dcd0ae0baa561703
     log: |
-         2568ce89ea5c26225e8984733adc2ea7559d853a mdadm: Add option validation for --update-subarray
-         db10eab68e652f141169b7240e057d110d626c3d Fix --update-subarray on active volume
-         2257de106cbf17a7f1df33a10cfd2be0d5a064cb Add code specific update options to enum.
-         35aa44c549290e22f285896684c704acb53b7717 super-ddf: Remove update_super_ddf.
-         0a9e39383d3bf63e1f5cf10f64200083a1af8091 super0: refactor the code for enum
-         7e8daba8b7937716dce8ea28298a4e2e72cb829e super1: refactor the code for enum
-         4345e135c4c7dd04bb15bad140dfc4747f677738 super-intel: refactor the code for enum
-         03312b5240438ffc3b63114bdc87e911222f01e5 Change update to enum in update_super and update_subarray
-         f2e8393bd7223c419aaa33c45feeb5c75440b986 Manage&Incremental: code refactor, string to enum
-         3a87fa67112dc2c2c3664aeecd0b49cb4b6ceaa9 Change char* to enum in context->update & refactor code
-         9b429fc0a4ffd7028b3b336589d38e32fb9045dc mdmon: fix segfault
-         b938519e7719c992dae2d61c796c45fe49e6b71b util: remove obsolete code from get_md_name
+         1204411ee40fc6dd31111107dcd0ae0baa561703 6.0-stable patches
          
+
+--===============1054597658087545511==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1672847364 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1672847361-8836edbf9188b6a9ba87a2bfaf09b4fb844b3b4f
+
+c4fdaf8f6a75fbe6b1f287f604c48faefcb38457 1204411ee40fc6dd31111107dcd0ae0baa561703 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmO1oAQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+k0cQAKc3tl9ywrItfAPRKbs3
+LIuNfq9OsO/O1GS/xysJA8zLNxJKrT4/Xg6thO0cy9g19CG1LOREU+h/Ur6C21BC
+t+cqHkWbmE3RMVO9KjPzkT/NDB++IFjC9V9i2rz91N1d9puPeLzL57v1uWtP/FRe
+5vGzg5zjGXyGYqmFm8cyjrSBBl79okJk3sJE0aHNZNa6zcL9nkRfFmW35jZqF/tm
+frbNKHAn+MSJlWlXX+RLBPb67ZEEVIxzSmxUqaByj10CLKLMlznmYmJAKj/juWOV
+GDLBGBm5/T4Abf4Q/eHy2JRMgEkq1aeE/byHPZjdvA0unqpqDRtUfPFpyuMWkAak
+xYmv7yklAWd4q3SCvKwmP+ZoeID+Dj5Sty6m3haQ8VDoYVgQEHqvwrPdk2tvmdwY
+/O1J+pgO2NWtsAjeUHsPFVKhHP7UotYsdWyTL8qI1esgTnVP3zpICVt4yt8j+kxF
+60CQzGgf0OfIjYpUlcb4QzYOPYTQmBBbG357euqfuB/NSEvfbGC5hPepHka4vJY2
+5dpy5adsLrB38vEG9rZwTC2imWv+W1x7SaGe7K94fW8eW0gCqaJsPmssvNm1Pbez
+O23lvAZfTYUk8r3rCxLtZ2hUOjNfyakcMBTuliMdjVo6lup4CH6qTBgx/Tw8FEMS
+8KWaJAA8cPi+jJXjhgTmrqSS
+=12hr
+-----END PGP SIGNATURE-----
+
+--===============1054597658087545511==--
