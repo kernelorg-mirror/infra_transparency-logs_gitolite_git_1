@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/westeri/thunderbolt
-Date: Wed, 04 Jan 2023 07:44:59 -0000
-Message-Id: <167281829900.12292.13140522605081849800@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Wed, 04 Jan 2023 07:54:40 -0000
+Message-Id: <167281888074.19625.7359858914580263003@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/westeri/thunderbolt
-user: westeri
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: leon
 changes:
-  - ref: refs/heads/next
-    old: d31137619776f9c173a46a79bc7733a2b106061f
-    new: 953ff25fc9fb831a675259ce1e738c94fb6202b6
+  - ref: refs/heads/wip/leon-for-next
+    old: cf6a05c8494a8ae7fec8e5f1229b45ca5b4bcd30
+    new: bd99ede8ef2dc03e29a181b755ba4f78da2644e6
     log: |
-         953ff25fc9fb831a675259ce1e738c94fb6202b6 thunderbolt: Refactor tb_acpi_add_link()
+         bd99ede8ef2dc03e29a181b755ba4f78da2644e6 RDMA/irdma: Remove extra ret variable in favor of existing err
          
