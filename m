@@ -1,20 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
-Date: Thu, 05 Jan 2023 16:55:28 -0000
-Message-Id: <167293772866.15381.156394778248316913@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Thu, 05 Jan 2023 17:37:45 -0000
+Message-Id: <167294026523.9188.3674313938958421595@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/palmer/linux
-user: palmer
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/fixes
-    old: dd5977eef39b634c47960b61dd484bf16b06ce45
-    new: 2a64e0879d21146f2e23a55aa91b04875b8b323b
-    log: |
-         90d22c6372ddecef67437917d1312bc4050839e2 riscv, kprobes: Stricter c.jr/c.jalr decoding
-         2a64e0879d21146f2e23a55aa91b04875b8b323b riscv: uaccess: fix type of 0 variable on error in get_user()
-         
+  - ref: refs/heads/20230104_marcan_spi_core_cs_delay_fixes_and_additions
+    old: 0000000000000000000000000000000000000000
+    new: 71bbaa68899f91252f3fe45fc7adfd03efe030bd
+  - ref: refs/heads/file0nrKXz
+    old: 0000000000000000000000000000000000000000
+    new: cdfa92eb90f5770b26a79824ef213ebdbbd988b1
+  - ref: refs/heads/file7pjFAy
+    old: 0000000000000000000000000000000000000000
+    new: b118458936785bd104e95f09abd52525c0a84616
