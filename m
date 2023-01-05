@@ -1,31 +1,43 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mst/vhost
-Date: Thu, 05 Jan 2023 09:48:27 -0000
-Message-Id: <167291210702.20095.17611886571617629739@gitolite.kernel.org>
+Subject: post-receive: pub/scm/virt/kvm/mst/qemu
+Date: Thu, 05 Jan 2023 09:55:29 -0000
+Message-Id: <167291252982.25333.13275007241909821477@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mst/vhost
+repo: pub/scm/virt/kvm/mst/qemu
 user: mst
 changes:
-  - ref: refs/heads/linux-next
-    old: 2822599fccd9f2565dff5a174e1940453876a5e9
-    new: 56e4c12dfe1b8d42b739b6985aa29266b85a27ba
+  - ref: refs/heads/next
+    old: 6529cb46fa76bb4b4f217d6fcc68b61b543062c4
+    new: 7c77271205339d3b161bdf925f5ead799b582e47
     log: |
-         56e4c12dfe1b8d42b739b6985aa29266b85a27ba vdpa_sim_net: Offer VIRTIO_NET_F_STATUS
+         7c77271205339d3b161bdf925f5ead799b582e47 vhost-scsi: fix memleak of vsc->inflight
          
-  - ref: refs/heads/test
-    old: 2822599fccd9f2565dff5a174e1940453876a5e9
-    new: 56e4c12dfe1b8d42b739b6985aa29266b85a27ba
+  - ref: refs/heads/pci
+    old: 6529cb46fa76bb4b4f217d6fcc68b61b543062c4
+    new: 7c77271205339d3b161bdf925f5ead799b582e47
     log: |
-         56e4c12dfe1b8d42b739b6985aa29266b85a27ba vdpa_sim_net: Offer VIRTIO_NET_F_STATUS
+         7c77271205339d3b161bdf925f5ead799b582e47 vhost-scsi: fix memleak of vsc->inflight
          
-  - ref: refs/heads/vhost
-    old: 2822599fccd9f2565dff5a174e1940453876a5e9
-    new: 56e4c12dfe1b8d42b739b6985aa29266b85a27ba
+  - ref: refs/tags/for_autotest
+    old: 18302c42d2567bd1cc92e47c7d4228a0ea0e0ebd
+    new: 1e526be9921bccbb70e867b519ebb4dfcc6f62e5
     log: |
-         56e4c12dfe1b8d42b739b6985aa29266b85a27ba vdpa_sim_net: Offer VIRTIO_NET_F_STATUS
+         7c77271205339d3b161bdf925f5ead799b582e47 vhost-scsi: fix memleak of vsc->inflight
+         
+  - ref: refs/tags/for_autotest_next
+    old: 18302c42d2567bd1cc92e47c7d4228a0ea0e0ebd
+    new: 1e526be9921bccbb70e867b519ebb4dfcc6f62e5
+    log: |
+         7c77271205339d3b161bdf925f5ead799b582e47 vhost-scsi: fix memleak of vsc->inflight
+         
+  - ref: refs/tags/for_upstream
+    old: 18302c42d2567bd1cc92e47c7d4228a0ea0e0ebd
+    new: 1e526be9921bccbb70e867b519ebb4dfcc6f62e5
+    log: |
+         7c77271205339d3b161bdf925f5ead799b582e47 vhost-scsi: fix memleak of vsc->inflight
          
