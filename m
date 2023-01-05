@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Thu, 05 Jan 2023 23:25:59 -0000
-Message-Id: <167296115910.16675.1472424732801184232@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+Date: Thu, 05 Jan 2023 23:40:20 -0000
+Message-Id: <167296202022.25574.8212880824750679563@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+user: vudentz
 changes:
   - ref: refs/heads/master
-    old: 4aaa091a64ec7b52e3a65460eb220c5d2948dc1c
-    new: a282bb44f4fa6db033acdeb6b3463f7d17c56e7c
+    old: ad230933bec93bc610f0e02f2eccf252d7a65cfe
+    new: 5d043a6a43b6dfd695c8098a51c8fa8efbf95157
     log: |
-         a282bb44f4fa6db033acdeb6b3463f7d17c56e7c Thu Jan  5 11:23:50 PM UTC 2023
+         5d043a6a43b6dfd695c8098a51c8fa8efbf95157 Bluetooth: hci_conn: Fix memory leaks
          
