@@ -1,48 +1,54 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/virt/kvm/mst/qemu
-Date: Thu, 05 Jan 2023 16:27:56 -0000
-Message-Id: <167293607641.27860.4943345317219455103@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============0949799435752290882=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/utils/b4/b4
+Date: Thu, 05 Jan 2023 16:34:09 -0000
+Message-Id: <167293644914.31414.9325609579108798861@gitolite.kernel.org>
+
+--===============0949799435752290882==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/virt/kvm/mst/qemu
-user: mst
+repo: pub/scm/utils/b4/b4
+user: mricon
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/next
-    old: 7c77271205339d3b161bdf925f5ead799b582e47
-    new: c46dcec9f699508e811cb6a140250d07486b0e41
+  - ref: refs/heads/master
+    old: aab3716537c7d3683b03fd63fc657b77b52f8df2
+    new: cc11af4e0aa4fc349bd93f67cb3c650d99b12c12
     log: |
-         14246cfad2808062006bafbbce02c91d45123d6b acpi: cpuhp: fix guest-visible maximum access size to the legacy reg block
-         c46dcec9f699508e811cb6a140250d07486b0e41 vhost-scsi: fix memleak of vsc->inflight
+         cc11af4e0aa4fc349bd93f67cb3c650d99b12c12 ez: don't crash on non-existent tag in show_info
          
-  - ref: refs/heads/pci
-    old: 7c77271205339d3b161bdf925f5ead799b582e47
-    new: c46dcec9f699508e811cb6a140250d07486b0e41
+  - ref: refs/heads/stable-0.11.y
+    old: 5b65e67cca7e123a434dba205a555b3729975eb5
+    new: cc0afb4255b78f20e87654061a0018f378018ed8
     log: |
-         14246cfad2808062006bafbbce02c91d45123d6b acpi: cpuhp: fix guest-visible maximum access size to the legacy reg block
-         c46dcec9f699508e811cb6a140250d07486b0e41 vhost-scsi: fix memleak of vsc->inflight
+         378bdb1792a595c27ae8ce320490203ee292ee0a ez: don't crash on non-existent tag in show_info
+         cc0afb4255b78f20e87654061a0018f378018ed8 Prep for 0.11.2
          
-  - ref: refs/tags/for_autotest
-    old: 1e526be9921bccbb70e867b519ebb4dfcc6f62e5
-    new: f447259be86be138ba214cb8d6ff3714705c89c6
-    log: |
-         14246cfad2808062006bafbbce02c91d45123d6b acpi: cpuhp: fix guest-visible maximum access size to the legacy reg block
-         c46dcec9f699508e811cb6a140250d07486b0e41 vhost-scsi: fix memleak of vsc->inflight
-         
-  - ref: refs/tags/for_autotest_next
-    old: 1e526be9921bccbb70e867b519ebb4dfcc6f62e5
-    new: f447259be86be138ba214cb8d6ff3714705c89c6
-    log: |
-         14246cfad2808062006bafbbce02c91d45123d6b acpi: cpuhp: fix guest-visible maximum access size to the legacy reg block
-         c46dcec9f699508e811cb6a140250d07486b0e41 vhost-scsi: fix memleak of vsc->inflight
-         
-  - ref: refs/tags/for_upstream
-    old: 1e526be9921bccbb70e867b519ebb4dfcc6f62e5
-    new: f447259be86be138ba214cb8d6ff3714705c89c6
-    log: |
-         14246cfad2808062006bafbbce02c91d45123d6b acpi: cpuhp: fix guest-visible maximum access size to the legacy reg block
-         c46dcec9f699508e811cb6a140250d07486b0e41 vhost-scsi: fix memleak of vsc->inflight
-         
+
+--===============0949799435752290882==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher B6C41CE35664996C! 1672936448 -0500
+pushee gitolite.kernel.org:pub/scm/utils/b4/b4
+nonce 1672936448-e94bb4ca5970ee1d4736b2400d3d1e961d96811f
+
+aab3716537c7d3683b03fd63fc657b77b52f8df2 cc11af4e0aa4fc349bd93f67cb3c650d99b12c12 refs/heads/master
+5b65e67cca7e123a434dba205a555b3729975eb5 cc0afb4255b78f20e87654061a0018f378018ed8 refs/heads/stable-0.11.y
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCY7b8AAAKCRC2xBzjVmSZ
+bIA1AQDXN4XipIkZpFftksTWjj4cnIRftaAfnH5usWN+jtC0kwEAz3/GSWmTg/HH
+867z9kWJRiaMj9sNiFk/fissIvUEEgE=
+=KhrX
+-----END PGP SIGNATURE-----
+
+--===============0949799435752290882==--
