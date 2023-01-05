@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0659493133864959721=="
+Content-Type: multipart/mixed; boundary="===============2120642113163722423=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Thu, 05 Jan 2023 07:54:45 -0000
-Message-Id: <167290528512.27258.11447355797906538744@gitolite.kernel.org>
+Date: Thu, 05 Jan 2023 07:55:19 -0000
+Message-Id: <167290531905.29013.14864679375562958895@gitolite.kernel.org>
 
---===============0659493133864959721==
+--===============2120642113163722423==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/fixes
-    old: e4cf7c25bae5c3b5089a3c23a897f450149caef2
-    new: 735aec59afb18c3e2da0a637037e69ad62dbda6a
-    log: revlist-e4cf7c25bae5-735aec59afb1.txt
+  - ref: refs/heads/kbuild
+    old: ff0712cc1e1c8086d2ff9dc1b8068fa45f4ed931
+    new: 3b55bac97964c55699bb2b2221d8b2dc636129b5
+    log: revlist-ff0712cc1e1c-3b55bac97964.txt
 
---===============0659493133864959721==
+--===============2120642113163722423==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e4cf7c25bae5-735aec59afb1.txt
+Content-Disposition: attachment; filename=revlist-ff0712cc1e1c-3b55bac97964.txt
 
 1c0908d8e441631f5b8ba433523cf39339ee2ba0 rtmutex: Add acquire semantics for rtmutex lock acquisition slow path
 e2d371484653ac83b970d3ebcf343383f39f8b6b perf core: Return error pointer if inherit_event() fails to find pmu_ctx
@@ -48,7 +48,17 @@ a9f5a752e86f1897c3b377b6b861576a4c1a2ff0 Merge tag 'drm-intel-fixes-2022-12-30' 
 5b129817aedb03d94fb960e7a34d0f5eaa20a2f2 Merge tag 'x86_urgent_for_v6.2_rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 150aae354b817f540848476bace2b2ba9931b197 Merge tag 'perf_urgent_for_v6.2_rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 88603b6dc419445847923fcb7fe5080067a30f98 Linux 6.2-rc2
-a53da43decaa3936998fa7dce2346855a6942166 kbuild: fix single *.ko build
-735aec59afb18c3e2da0a637037e69ad62dbda6a kbuild: readd -w option when vmlinux.o or Module.symver is missing
+74fed52e2883a1a569805f14728b99b3c920cf0e kbuild: Modify default INSTALL_MOD_DIR from extra to updates
+56e56e7d2689dd2a32d76d04c4c8cd89de7a728c kbuild: refactor silent mode detection
+40f4c1971bc63d4821fe7ece67532db052930655 kbuild: print short log in addition to the whole command with V=1
+db9a03d1216b457a784faa2384ad227ba5515a38 kbuild: do not print extra logs for V=2
+7ceaed2ae2e5d26b58930187121cee8b6e16958a kbuild: allow to combine multiple V= levels
+e382a013b52e6833fe40459ccf1ddcc400c8ad32 kbuild: drop V=0 support
+955927bcff1d0dbde5c944e8eb3946a1edd76756 kbuild: clean up stale file removal
+8c711dbb621ae65921786f86f8b8548e631ecf7a .gitignore: update the command to check tracked files being ignored
+877158faf10ddeac2dd8f8a8dcc8c21d4baafc9b kbuild: make W=1 warn files that are tracked but ignored by git
+1402d0b46cfffcce0dff81e719f4eef62e264e4c kbuild: rename cmd_$@ to savedcmd_$@ in *.cmd files
+68e46893107fcc8e51c597acf69fcf4182d51ab5 kbuild: add more comments for KBUILD_NOCMDDEP=1
+3b55bac97964c55699bb2b2221d8b2dc636129b5 kbuild: unify cmd_dt_S_dtb and cmd_dt_S_dtbo
 
---===============0659493133864959721==--
+--===============2120642113163722423==--
