@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/deller/linux-fbdev
-Date: Thu, 05 Jan 2023 10:55:01 -0000
-Message-Id: <167291610167.31875.6634580281516455339@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Thu, 05 Jan 2023 11:09:18 -0000
+Message-Id: <167291695861.8162.13645781051482434203@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/deller/linux-fbdev
-user: deller
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/tags/fbdev-for-6.2-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 3d8ea1ab4f9373d524dabf603d8159ee481795e0
+  - ref: refs/heads/sched/core
+    old: ef90cf2281a013d359d24d51732af990badf6e03
+    new: acbee592f1a0913e908b141570034b3fb2991db9
+    log: |
+         acbee592f1a0913e908b141570034b3fb2991db9 sched/documentation: Document the util clamp feature
+         
