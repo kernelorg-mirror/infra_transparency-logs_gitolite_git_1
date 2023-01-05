@@ -1,22 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
-Date: Thu, 05 Jan 2023 18:52:26 -0000
-Message-Id: <167294474665.27774.7265330348640579512@gitolite.kernel.org>
+Subject: post-receive: pub/scm/docs/man-pages/man-pages
+Date: Thu, 05 Jan 2023 19:18:23 -0000
+Message-Id: <167294630338.12396.3848216981204912181@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kdave/linux
-user: kdave
+repo: pub/scm/docs/man-pages/man-pages
+user: alx
 changes:
-  - ref: refs/heads/for-next
-    old: a8db200f83a53259d49307a44ddd8aa80a3450f2
-    new: b1bc7d5d989686aded21234695ecd9225f2f6de0
+  - ref: refs/heads/master
+    old: 2253b4af00a4ae555bf910e6c1d6d3acccfe223a
+    new: 3638ab3f148ad661e731e4d5d744c2fd32c463f0
     log: |
-         68af7aad6e0667dbafc3c1000003a48a63ddc697 Merge branch 'misc-6.2' into for-next-current-v6.1-20230105
-         700cfa588ddf4ba62b73e9ff770d488dd3fc6fe7 Merge branch 'misc-next' into for-next-next-v6.2-20230105
-         e479b9004b92cf0fc1c60fe32a8194e2dbf1e286 Merge branch 'for-next-current-v6.1-20230105' into for-next-20230105
-         b1bc7d5d989686aded21234695ecd9225f2f6de0 Merge branch 'for-next-next-v6.2-20230105' into for-next-20230105
+         588a1a5f85d210c5c258e04b6bad99f108b0149a index.3, memchr.3, strchr.3, string.3, strpbrk.3, strsep.3, strspn.3, strstr.3, strtok.3: Deprecate index(3) and rindex(3)
+         b2af20ea4408faa66564d2d742f0e22b02017510 memchr.3: Deprecate rawmemchr(3)
+         3638ab3f148ad661e731e4d5d744c2fd32c463f0 arc4random.3: Raise the severity of the CAVEATS to BUGS
          
