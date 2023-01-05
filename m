@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0175752907106636243=="
+Content-Type: multipart/mixed; boundary="===============8224012590560987423=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Thu, 05 Jan 2023 04:33:56 -0000
-Message-Id: <167289323644.25098.1774550271191513805@gitolite.kernel.org>
+Date: Thu, 05 Jan 2023 04:34:49 -0000
+Message-Id: <167289328905.25425.7526388582547090388@gitolite.kernel.org>
 
---===============0175752907106636243==
+--===============8224012590560987423==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: acd3b7768048fe338248cdf43ccfbf8c084a6bc1
     new: d75858ef108c3b41f0f3215fe37505bb63e3795d
     log: revlist-acd3b7768048-d75858ef108c.txt
 
---===============0175752907106636243==
+--===============8224012590560987423==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ b8897dc54e3bc9d25281bbb42a7d730782ff4588 igc: remove I226 Qbv BaseTime restricti
 1f47510ed50a511e7085a61d1a52fbe21f097a7c Merge branch '1GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/next-queue
 d75858ef108c3b41f0f3215fe37505bb63e3795d Merge tag 'for-netdev' of https://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf-next
 
---===============0175752907106636243==--
+--===============8224012590560987423==--
