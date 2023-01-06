@@ -1,21 +1,46 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
-Date: Fri, 06 Jan 2023 18:31:55 -0000
-Message-Id: <167302991504.18165.1322998703824086883@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============4625941043726829834=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/utils/b4/b4
+Date: Fri, 06 Jan 2023 18:53:12 -0000
+Message-Id: <167303119212.32078.9838494893722128992@gitolite.kernel.org>
+
+--===============4625941043726829834==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/palmer/linux
-user: palmer
+repo: pub/scm/utils/b4/b4
+user: mricon
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/fixes
-    old: b9b916aee6715cd7f3318af6dc360c4729417b94
-    new: 6710e07f01b54b2d93e81cfe1c207d39d4fdb9a8
+  - ref: refs/heads/master
+    old: cc11af4e0aa4fc349bd93f67cb3c650d99b12c12
+    new: 8b3d11e6ea90652774b5b586a54a3699ecfca393
     log: |
-         ec64efc4966edf19fa1bc398a26bddfbadc1605f dt-bindings: riscv: fix underscore requirement for multi-letter extensions
-         a943385aa80151c6b2611d3a1cf8338af2b257a1 dt-bindings: riscv: fix single letter canonical order
-         6710e07f01b54b2d93e81cfe1c207d39d4fdb9a8 Merge patch series "riscv,isa fixups"
+         8b3d11e6ea90652774b5b586a54a3699ecfca393 mbox: add --refetch command
          
+
+--===============4625941043726829834==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher B6C41CE35664996C! 1673031191 -0500
+pushee gitolite.kernel.org:pub/scm/utils/b4/b4
+nonce 1673031191-022c5a8563b5bc30ad20d7bf0e58b6e15b390ce8
+
+cc11af4e0aa4fc349bd93f67cb3c650d99b12c12 8b3d11e6ea90652774b5b586a54a3699ecfca393 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCY7huFwAKCRC2xBzjVmSZ
+bK1ZAPsH12BAHsZXgaKxCAsrWXiVEiNHv+sGq3l4ZzSpacCsEgEAtOJmdPPWCyLo
+9iTiPB2z1sr9a8X97fX2dTU0Rh11ogg=
+=GFMs
+-----END PGP SIGNATURE-----
+
+--===============4625941043726829834==--
