@@ -1,85 +1,77 @@
-Content-Type: multipart/mixed; boundary="===============6433542491409382974=="
+Content-Type: multipart/mixed; boundary="===============8252074560555097630=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
-Date: Fri, 06 Jan 2023 23:13:30 -0000
-Message-Id: <167304681017.11557.2528295607908025988@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
+Date: Fri, 06 Jan 2023 23:13:55 -0000
+Message-Id: <167304683598.11778.14920432484986736318@gitolite.kernel.org>
 
---===============6433542491409382974==
+--===============8252074560555097630==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kdave/linux
-user: kdave
+repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
+user: jaegeuk
 changes:
-  - ref: refs/heads/master
-    old: 1f5abbd77e2c1787e74b7c2caffac97def78ba52
-    new: 1382999aa0548a171a272ca817f6c38e797c458c
-    log: revlist-1f5abbd77e2c-1382999aa054.txt
+  - ref: refs/heads/dev-test
+    old: c1706cc0cd72ca78e92d10c108028df67f9b4a39
+    new: 7e5fe5fc0dbd04f4010bcc7967a43b2feeaae429
+    log: revlist-c1706cc0cd72-7e5fe5fc0dbd.txt
 
---===============6433542491409382974==
+--===============8252074560555097630==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1f5abbd77e2c-1382999aa054.txt
+Content-Disposition: attachment; filename=revlist-c1706cc0cd72-7e5fe5fc0dbd.txt
 
-a23529989a8f56d23680c4f2d14011bc9c9457c9 crypto: caam - fix CAAM io mem access in blob_gen
-736f88689c6912f05d0116917910603a7ba97de7 crypto: arm64/sm4 - fix possible crash with CFI enabled
-461ab10ef7e6ea9b41a0571a7fc6a72af9549a3c ceph: switch to vfs_inode_has_locks() to fix file lock bug
-8e1858710d9a71d88acd922f2e95d1eddb90eea0 ceph: avoid use-after-free in ceph_fl_release_lock()
-0a6564ebd953c4590663c9a3c99a3ea9920ade6f perf tools: Fix resources leak in perf_data__open_dir()
-a8f54d940196c8bd9aced9c82557fdc63baefb02 perf tools riscv: Fix build error on riscv due to missing header for 'struct perf_sample'
-55c41f2e4f7e81e48f3ecc9fba1e316e770213f2 perf help: Use HAVE_LIBTRACEEVENT to filter out unsupported commands
-f24fb53984cfba42ff72a47466eabfd772da647b perf tools: Don't include signature in version strings
-77fe30fed1c0cd282eadb0728999ea3d3350e0b0 perf tools: Fix segfault when trying to process tracepoints in perf.data and not linked with libtraceevent
-af82425c6a2d2f347c79b63ce74fca6dc6be157f io_uring/io-wq: free worker if task_work creation is canceled
-b963c1d6261eb7fba1ba14074fb447521be84add perf test record_probe_libc_inet_pton: Fix failure due to extra inet_pton() backtrace in glibc >= 2.35
-946c2923e76327343e4460e8bb7ec7b4d4589397 btrfs: fix ASSERT em->len condition in btrfs_get_extent
-77177ed17d24ba060117bdb6efb8a01da7531676 btrfs: add error message for metadata level mismatch
-1d854e4fbabb0cb12ca4a7fcd784eb67a65de5f8 btrfs: fix false alert on bad tree level check
-2f2e84ca60660402bd81d0859703567c59556e6a btrfs: fix off-by-one in delalloc search during lseek
-d73a27b86fc722c28a26ec64002e3a7dc86d1c07 btrfs: handle case when repair happens with dev-replace
-39f501d68ec1ed5cd5c66ac6ec2a7131c517bb92 btrfs: always report error in run_one_delayed_ref()
-2ba48b20049b5a76f34a85f853c9496d1b10533a btrfs: fix compat_ro checks against remount
-c07311b5509f6035f1dd828db3e90ff4859cf3b9 perf/x86/rapl: Treat Tigerlake like Icelake
-f89fb55714b620ff1352141a9f9315611f16573e perf build: Don't propagate subdir to submakes for install_headers
-d8d85ce86dc82de4f88b821a78f533b9d5b22a45 perf lock contention: Fix core dump related to not finding the "__sched_text_end" symbol on s/390
-9ffa13ff78a0a55df968a72d6f0ebffccee5c9f4 io_uring: pin context while queueing deferred tw
-f26cc9593581bd734c846bf827401350b36dc3c9 io_uring: lockdep annotate CQ locking
-fb710ddee75fb96f50ee6d004ef777a0cf7ad5a3 perf test record_probe_libc_inet_pton: Fix test on s/390 where 'text_to_binary_address' now appears on the backtrace
-2d656b0f81b22101db0447f890e39fdd736b745e perf stat: Fix handling of unsupported cgroup events when using BPF counters
-54b353a20c7e8be98414754f5aff98c8a68fcc1f perf stat: Fix handling of --for-each-cgroup with --bpf-counters to match non BPF mode
-191f8453fc99a537ea78b727acea739782378b0d ARM: renumber bits related to _TIF_WORK_MASK
-613b14884b8595e20b9fac4126bf627313827fbe block: handle bio_split_to_limits() NULL return
-481028dbf1daa2808e1be06f6a865b5fe5939efc perf tools: Fix build on uClibc systems by adding missing sys/types.h include
-f52853a668bfeddd79f319d536a506f68cc2b478 perf/x86/rapl: Add support for Intel Meteor Lake
-57512b57dcfaf63c52d8ad2fb35321328cde31b0 perf/x86/rapl: Add support for Intel Emerald Rapids
-9cea62b2cbabff8ed46f2df17778b624ad9dd25a block: don't allow splitting of a REQ_NOWAIT bio
-fa8e442e832a3647cdd90f3e606c473a51bc1b26 ublk: honor IO_URING_F_NONBLOCK for handling control command
-59b745bb4e0bd445366c45b8df6b51b69134f4f5 io_uring: move 'poll_multi_queue' bool in io_ring_ctx
-ee4b4e2248565babfba807d82c0f3e00c392a4c0 Revert "block: bio_copy_data_iter"
-050a4f341f35bf51db321c7f68700f9e0b1a7552 Revert "block: remove devnode callback from struct block_device_operations"
-4b83e99ee7092df37a5cf292fde976ebc475ea63 Revert "pktcdvd: remove driver."
-12521a5d5cb7ff0ad43eadfc9c135d86e1131fa8 io_uring: fix CQ waiting timeout handling
-b2b50d572135c5c6e10c2ff79cd828d5a8141ef6 block: Remove "select SRCU"
-b2d473a6019ef9a54b0156ecdb2e0398c9fa6a24 riscv, kprobes: Stricter c.jr/c.jalr decoding
-b9b916aee6715cd7f3318af6dc360c4729417b94 riscv: uaccess: fix type of 0 variable on error in get_user()
-83c7423d1eb6806d13c521d1002cc1a012111719 udf: Fix extension of the last extent in the file
-23970a1c9475b305770fd37bebfec7a10f263787 udf: initialize newblock to 0
-90bc52c525fdac4ed8cbf13c08c813ec2a4fc856 Merge tag 'v6.2-p2' of git://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6
-d7a0853d650b381921732ff5bca618432a279033 Merge tag 'perf-urgent-2023-01-06' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-56f814583923a782f1cec43db32bc6da1d3cf7b5 Merge tag 'perf-tools-fixes-for-v6.2-1-2023-01-06' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
-a389e54642a86c91d683b2f0b248f1d2f4e52611 Merge tag 'riscv-for-linus-6.2-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
-fc7b76c4a4d139ebcae2af3bd75215fc90834e3b Merge tag 'for-6.2-rc2-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
-7b8c854cfe8c94b2ec382a3632b1bd7c970c80b4 Merge tag 'fixes_for_v6.2-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/jack/linux-fs
-5c1a712f71286b8435d48e3be5f8faf39a4cc837 Merge tag 'ceph-for-6.2-rc3' of https://github.com/ceph/ceph-client
-93387d499e49429eef2c343ab6f9f5d92ec780a2 Merge tag 'tif-notify-signal-2023-01-06' of git://git.kernel.dk/linux
-ef1a4a770994b97a86988fd86f5a2784b87449f7 Merge tag 'io_uring-2023-01-06' of git://git.kernel.dk/linux
-a689b938df39ab513026c53fb7011fd7cd594943 Merge tag 'block-2023-01-06' of git://git.kernel.dk/linux
-cb7a95af78d29442b8294683eca4897544b8ef46 hfs/hfsplus: avoid WARN_ON() for sanity check, use proper error handling
-1382999aa0548a171a272ca817f6c38e797c458c tpm: Allow system suspend to continue when TPM suspend fails
+789e1e10f214c00ca18fc6610824c5b9876ba5f2 nfsd: shut down the NFSv4 state objects before the filecache
+cad853374d85fe678d721512cecfabd7636e51f3 nfsd: fix handling of readdir in v4root vs. mount upcall timeout
+d00dd2f2645dca04cf399d8fc692f3f69b6dd996 x86/kexec: Fix double-free of elf header buffer
+55d235361fccef573990dfa5724ab453866e7816 x86/asm: Fix an assembler warning with current binutils
+72bb8f8cc088730c4d84117a6906f458c2fc64bb x86/insn: Avoid namespace clash by separating instruction decoder MMIO type from MMIO trace type
+a664ec9158eeddd75121d39c9a0758016097fa96 x86/bugs: Flush IBP in ib_prctl_set()
+b61778fa5173021e628b3c9372c9ceae01951b34 Merge tag 'nfsd-6.2-2' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
+2ac44821a81612317f4451b765986d8b9695d5d5 Merge tag 'f2fs-fix-6.2-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/jaegeuk/f2fs
+512dee0c00ad9e9c7ae9f11fc6743702ea40caff Merge tag 'x86-urgent-2023-01-04' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+39bee2e6acc2522d88feb324b18178b34cb7b75a f2fs: file: drop useless initializer in expand_inode_data()
+f35474ec0059c318f9d1aff1d492a5494beb6293 f2fs: fix to support .migrate_folio for compressed inode
+b3107b3854c93ea380ac373c0032fcf15f31178a f2fs: remove unused PAGE_PRIVATE_ATOMIC_WRITE
+6779b5db90c5b925293f7ccc5ed5336c5b24ed50 f2fs: fix to call clear_page_private_reference in .{release,invalid}_folio
+8d3c1fa3fa5eacfd14f5b018eddb6c1a91c57783 f2fs: don't rely on F2FS_MAP_* in f2fs_iomap_begin
+62a134bd8941198eee8b23584e35be6a9ab835d1 f2fs: decouple F2FS_MAP_ from buffer head flags
+da8c7fecc9c7ba91b6d5ff5726189f269686a40c f2fs: rename F2FS_MAP_UNWRITTEN to F2FS_MAP_DELALLOC
+bc29835a9d4860df93a663d659e07dfdd8b4f629 f2fs: split __submit_bio
+04a91ab016847440c8c937dda628079070f38c7a f2fs: add a f2fs_lookup_extent_cache_block helper
+cf342d3beda000b4c60990755ca7800de5038785 f2fs: add a f2fs_get_block_locked helper
+2f51ade9524c609fcc4b05f230ecda356cd10b85 f2fs: f2fs_do_map_lock
+44b0dfebbd829c64c242c0c6ee10f8a88ecfa8b3 f2fs: reflow prepare_write_begin
+3cf684f2f8e0229714fb6d051508b42d3320e78f f2fs: simplify __allocate_data_block
+a9e292f2aeb737b263b1c14281be239405e1bb19 docs: f2fs: fix html doc error
+ffdeab71d5cf0bcd45467b3badb3a1ef8f19a565 f2fs: remove f2fs_get_block
+cd8fc5226bef3a1fda13a0e61794a039ca46744a f2fs: remove the create argument to f2fs_map_blocks
+0094e98bd1477a6b7d97c25b47b19a7317c35279 f2fs: factor a f2fs_map_blocks_cached helper
+817c968b79d02588370e3d1dc5e5961cfd57d2b1 f2fs: factor out a f2fs_map_no_dnode
+fdbf69a7f5be2896af3a9a6213fb0ab8e194b190 f2fs: refactor the hole reporting and allocation logic in f2fs_map_blocks
+fdb7ccc3f9cb316c399b072c7a75a106678eb421 f2fs: introduce IS_F2FS_IPU_* macro
+5eaac835f27f2de6b73412d7c24e755733b49de0 f2fs: fix to avoid potential deadlock
+cec32b00faa940f4ed91a939d3beb71410334039 f2fs: add missing doc for fault injection sysfs
+8358014d6be8f3cb507d247d6a623e5961f848d0 f2fs: avoid to check PG_error flag
+185a453bf1b5688f8c77f2646b0b6f3b1cbdddca f2fs: deliver the accumulated 'issued' to __issue_discard_cmd_orderly()
+970855e6340cea6b4a6d0e3c38a5498e08a4bc55 MAINTAINERS: Add f2fs's patchwork
+1f432e0eecd0d9490fb6f6ef1be6ba700e569ad7 f2fs: start freeing cluster pages from the unused number
+c645237b9739679396f1dc48e1a5b15f7e81edca f2fs: judge whether discard_unit is section only when have CONFIG_BLK_DEV_ZONED
+5da92f17e3c6bc5fa58c899b5dced43e21771864 f2fs: mark f2fs_init_compress_mempool w/ __init
+2d417ecc3ab8f02e1524f4b06d3bc3ab85afe468 f2fs: remove unnecessary blank lines
+d6f7dac6ed8bbf32ca0168addd2d0c571e2ce7cc f2fs: drop useless initializer and unneeded local variable
+f22fdb9115992a88b92a3a620334ed4f421f79b1 f2fs: add a f2fs_ prefix to punch_hole() and expand_inode_data()
+343d35ea2f723be9c063a352a3d1e32b402e6817 f2fs: update comment about f2fs_issue_discard_timeout()
+b7b0a824d6757fec4ca809656072f50326b062f3 f2fs: merge f2fs_show_injection_info() into time_to_inject()
+0d7511b790c6c0cbd691a4937df109536ea83888 f2fs: convert to use MIN_DISCARD_GRANULARITY macro
+c590f0fb29f1372ee6bcd3a9913c76cc2b0d7b7e f2fs: convert discard_wake and gc_wake to bool type
+38e03eccdeb6e2499bf00e5b0cb876af62f3ef57 f2fs: introduce discard_io_aware_gran sysfs node
+c3246d2ac291acad691b8137c2df1a3268c0bc27 f2fs: support accounting iostat count and avg_bytes
+7e5fe5fc0dbd04f4010bcc7967a43b2feeaae429 f2fs: add iostat support for flush
 
---===============6433542491409382974==--
+--===============8252074560555097630==--
