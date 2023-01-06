@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============5770914754606276557=="
+Content-Type: multipart/mixed; boundary="===============7482218941711461206=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Fri, 06 Jan 2023 17:04:25 -0000
-Message-Id: <167302466517.22783.14652030401690200137@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Fri, 06 Jan 2023 17:04:31 -0000
+Message-Id: <167302467146.22879.1613418567378663885@gitolite.kernel.org>
 
---===============5770914754606276557==
+--===============7482218941711461206==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.3
+  - ref: refs/heads/asoc-6.3
     old: 03178b4f7e2c59ead102e5ab5acb82ce1eaefe46
     new: b118458936785bd104e95f09abd52525c0a84616
     log: |
@@ -31,28 +31,28 @@ changes:
          b118458936785bd104e95f09abd52525c0a84616 ASoC: amd: ps: use static function
          
 
---===============5770914754606276557==
+--===============7482218941711461206==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1673024663 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1673024663-be371f80c46eaee273481364331ba0067ccad3c2
+pusher C3F436CA30F5D8EB 1673024669 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1673024669-f5cc8c6c05e0e5641ad6c1d088ed218aad3c8779
 
-03178b4f7e2c59ead102e5ab5acb82ce1eaefe46 b118458936785bd104e95f09abd52525c0a84616 refs/heads/for-6.3
+03178b4f7e2c59ead102e5ab5acb82ce1eaefe46 b118458936785bd104e95f09abd52525c0a84616 refs/heads/asoc-6.3
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmO4VJcACgkQJNaLcl1U
-h9CTIwf+Ln0aQaskzm283sMkA/ftcZ2AsmttPmPrtsDTqUQpvwNj3wuG/BreGIms
-1xJHTzszlbuRi5WC1poJbhpXu7lu7VZQGeqpTQ8ZOhCNFW8hTsz4UFrhORMjUHtU
-1gVV2E38zVlFhTlfdXoKORh87Z01wSiRBLynsrt7PhBfFIzUZuY8ELagOe9WHvU2
-nlurbVfNlWRFVkH050eeyWBN/odIEI2MHOyQJIzjKqPccg76HbyAVs3XuZIa/NQq
-3pzTgP4VjUdL5GeLUt0N0+Caf5R/6C+kLXa9er4cvLIr8z0CaWMHIy78j9I62kgK
-xh+dHbr4W9Rmm5ejmdoYF2VDlHQVMw==
-=QIxx
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmO4VJ4ACgkQJNaLcl1U
+h9CUywf8CilbVtSRGNd2kgVyMNPNSeY321dHJBbXEfgpf699JKlkr7N29WezAwxO
+IUk45xb1wmo6CltYDvx2zO+VgvhRd+iIoI4jQp/MS6n3GfK/MTXZ32UjU6AV60Jm
+pgD1vdsL2dklTWmiNB9WN6WPeKxqutzuQF6GFmtknbdc8NwcK0e1GyFdWz0kSBW6
+f01PCRh9/pdwMb3f20kHbxOPEOyviOLB36PFU+U0gE5LiOseNZaXO/HAsEWaVyVB
+wCNtRljHw+SgjCOhREFFb1vYfW9WZS7WqaHfBQ8nMafFb/a9K/Z3zrDVqACrhr/t
+EAw++f8jM+MYbEjsf7T3fKsJuwoOzA==
+=Qxd5
 -----END PGP SIGNATURE-----
 
---===============5770914754606276557==--
+--===============7482218941711461206==--
