@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Fri, 06 Jan 2023 12:45:35 -0000
-Message-Id: <167300913566.13409.2587289573651705089@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Fri, 06 Jan 2023 12:53:23 -0000
+Message-Id: <167300960336.18373.9507725505427879041@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/linux
-user: jlayton
+repo: pub/scm/linux/kernel/git/netdev/net
+user: davem
 changes:
-  - ref: refs/heads/nfsd-next
-    old: b392f739e018ba11907489ec948eb6c09ee9ef3e
-    new: 96cb7ede1ce8539b0d50157a7e2cd40fbdb36256
+  - ref: refs/heads/master
+    old: eea8ce81fbb544e3caad1a1c876ba1af467b3d3c
+    new: c244c092f1ed2acfb5af3d3da81e22367d3dd733
     log: |
-         0167b54feac6146422e85e7a68e53d9e52fdd84b nfsd: allow nfsd_file_get to sanely handle a NULL pointer
-         96cb7ede1ce8539b0d50157a7e2cd40fbdb36256 nfsd: fix potential race in nfs4_find_file
+         c244c092f1ed2acfb5af3d3da81e22367d3dd733 tipc: fix unexpected link reset due to discovery messages
          
