@@ -1,20 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
-Date: Fri, 06 Jan 2023 17:08:38 -0000
-Message-Id: <167302491821.25850.16849279000166100897@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
+Date: Fri, 06 Jan 2023 17:09:28 -0000
+Message-Id: <167302496889.26155.8223564779801862004@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/liburing
-user: axboe
+repo: pub/scm/linux/kernel/git/qcom/linux
+user: andersson
 changes:
-  - ref: refs/heads/master
-    old: c76d392035fd271980faa297334268f2cd77d774
-    new: 8ab80b483518d51903c9eed24cf0e1ba826010fc
+  - ref: refs/heads/clk-for-6.3
+    old: cae04c4425e374ed10dc8a8c1f3bd369934945d7
+    new: 9e6d662b2c815a5b6c148aae2fc326146273144f
     log: |
-         913ca9a93fd67a5e5a911d71a33a6de7a1a41101 nolibc: Fix bloated memset due to unexpected vectorization
-         8ab80b483518d51903c9eed24cf0e1ba826010fc register: Simplify `io_uring_register_file_alloc_range()` function
+         126e2a3ddb67bbdaec935f0c39e5fa30c55d4772 dt-bindings: clock: Add SM8550 TCSR CC clocks
+         159c4215c3747ca747731afa187e188c4c7508b2 dt-bindings: clock: Add RPMHCC for SM8550
+         ddce89cc525400fa4cc45269c9d0a7cfb30012cc clk: qcom: rpmh: Add support for SM8550 rpmh clocks
+         9e6d662b2c815a5b6c148aae2fc326146273144f clk: qcom: Add TCSR clock driver for SM8550
          
