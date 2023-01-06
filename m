@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0563932403703607852=="
+Content-Type: multipart/mixed; boundary="===============1204728974500224836=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Fri, 06 Jan 2023 15:35:22 -0000
-Message-Id: <167301932220.29006.4178123644013871826@gitolite.kernel.org>
+Date: Fri, 06 Jan 2023 15:36:21 -0000
+Message-Id: <167301938190.29409.1948440959147006159@gitolite.kernel.org>
 
---===============0563932403703607852==
+--===============1204728974500224836==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,41 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-linus
-    old: 1a5a23b9bdf6bde0e5185ca834ff6e806cc2aaaf
-    new: c4e3ef5685393c5051b52cf1e94b8891d49793ab
+  - ref: refs/heads/usb-testing
+    old: 1b929c02afd37871d5afb9d498426f83432e71c2
+    new: 001b0c780eac328bc48b70b8437f202a4ed785e4
     log: |
-         e498a04443240c15c3c857165f7b652b87f4fd96 usb: dwc3: xilinx: include linux/gpio/consumer.h
-         c4e3ef5685393c5051b52cf1e94b8891d49793ab usb: dwc3: gadget: Ignore End Transfer delay on teardown
+         001b0c780eac328bc48b70b8437f202a4ed785e4 usb: typec: altmodes/displayport: Add hpd sysfs attribute
          
 
---===============0563932403703607852==
+--===============1204728974500224836==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1673019320 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1673019380 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1673019320-9ec5231a95ba92bed486b7a717bfca7aaa5fc248
+nonce 1673019380-58c1ad979fa516a8d955a007f05f837a3cc36c37
 
-1a5a23b9bdf6bde0e5185ca834ff6e806cc2aaaf c4e3ef5685393c5051b52cf1e94b8891d49793ab refs/heads/usb-linus
+1b929c02afd37871d5afb9d498426f83432e71c2 001b0c780eac328bc48b70b8437f202a4ed785e4 refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmO4P7gbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ZTgP/0nOdEabngkxwW0rdSea
-kd7SetrnM1LCPfkf6uImwo+rDZ/RTjnOd3pSkw1y/SqP7YjZ/TNzHIes0/zlG25S
-xaTo5lBdpa9i3flSF++q7waHg0KQlrdbHebvidicw+07zq+Hj8NfhvqPAK30Q4kl
-+mEwFxRrZyjFyZFsm1o/ZyWVOJhdXQAGrM9920DUOFgdOjEY4+PmYx/uvInJWsBJ
-rci1l9peeykI36BP7oV/GbZSWTRWWlaNq6uRkbxMWnLRG4SqrMjv1amAUwZ/uvtH
-DAhTe4S33okfLVidtVOcmQXQ9n4mkscIITBWeLMechpBIQmshSI2zdQpH4a/hf69
-Ai3FZx7yo0ti+CmtDAq7dk4tXdB32RdafGBL0iq1ePD0GEwVFf0Q/r+E0T2mf4Qe
-+aE6H2/cFtXjaphBvj6UG/Fepz1iSoOxfh0bQ2zE4R50mh7k51oty3cmkiGvSDBW
-sSoL3FmIRLtTe1C1Dk9DGD/Q2fWYP6HwRmsYv7MCHswUXr3McsMrOylQse+n6pYH
-alGHmuTCg9DiDrxbcbMivzfXq1ckb4xm8zdsjF4AKiVpDVXyYvMRDlHir1Py4oAx
-Fj3tJNKm6zBzLETD/vRfK9vjmmtATGleNScSzftgPdQbgBg6cn56BskPxpQmBafs
-38IK5HulfZ28qGxHxvfn/he1
-=MdrN
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmO4P/QbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+TIUP/3X/xNaBn3Xb+rCw8XM8
+gDoMo/fBlIZs3xRu1bFlSBfI9tvuuk64zqefl/8DJXE321Kp0Adi9OPU2jtr+Moa
+ofWbWxpnzgbZf2r92rVjlAnT/5Pwxs0gkd3nwM0Phk2xfsQ4NJcvISwLAjvoRhXy
+k27KN3b7CYQTJP3DZdJkvUvFqVW0EsmT7hk9VyoSIdTAVCs3fgniS+DfG61qsSC/
+BOigpa0A6SonhtlqGldtonu0glE9LdV4XnTzAo4vQnQPkFFJYezgIVs075GUXyC7
+li+xufdkDpOFE6LVoX7jZI3YoumrrKmTS+G69JHcj+1/DkhZZJQf3Gf1oQCbD1QI
+gkOGM/tKjXWZwMuXc8hdQSZFvV5VwYbbYo9Wz31JB0GorWjnMcVJbU+S4HrOuU5X
+ihQVzF3FYNct55yUsIWhUKSls/LTih1fmV90yXgRl11cDTANOQV+bpvmf0rnAUVb
+S/9VPp4DE5srdP9bGHZGnfvUPnSV1mTbrVGlmZkpbe000rOognvlXO8xtNLCGAvi
+i1cQc84jKuGCzIO1Rk3Owrj2NKGleGTfF5Zuh8f2CPvW8jfLrwjzeuk5R0Ld+zD+
+f6RlbV6gx57mqlzqYulhEIxL80jZdt7LRf8PpQePVQOaCXmloCJmR6AczaZjJGb1
+xog/uEThzU01d6TylxH/T2I7
+=6duL
 -----END PGP SIGNATURE-----
 
---===============0563932403703607852==--
+--===============1204728974500224836==--
