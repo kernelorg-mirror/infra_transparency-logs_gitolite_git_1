@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1204728974500224836=="
+Content-Type: multipart/mixed; boundary="===============3863872720585876220=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Fri, 06 Jan 2023 15:36:21 -0000
-Message-Id: <167301938190.29409.1948440959147006159@gitolite.kernel.org>
+Date: Fri, 06 Jan 2023 15:37:42 -0000
+Message-Id: <167301946251.29916.13377640849720999347@gitolite.kernel.org>
 
---===============1204728974500224836==
+--===============3863872720585876220==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,44 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-testing
-    old: 1b929c02afd37871d5afb9d498426f83432e71c2
-    new: 001b0c780eac328bc48b70b8437f202a4ed785e4
+    old: 001b0c780eac328bc48b70b8437f202a4ed785e4
+    new: b04e1747fbcc6bf4a93a95b5c2505bf2a6467ee8
     log: |
-         001b0c780eac328bc48b70b8437f202a4ed785e4 usb: typec: altmodes/displayport: Add hpd sysfs attribute
+         a8d3392e0e5cfeb03f0cea1f2bc3f5f183c1deb4 usb: gadget: fusb300_udc: free irq on the error path in fusb300_probe()
+         b566d38857fcb6777f25b674b90a831eec0817a2 usb: gadget: f_fs: use io_data->status consistently
+         0376aa62320cab35d8532629fdf9cd3b8cb66c8d usb: musb: fix error return code in da8xx_musb_init()
+         9aa1afc8f62263ed064dc5d94fa7a7ee6054e2ed usb: chipidea: imx: Drop empty platform remove function
+         b04e1747fbcc6bf4a93a95b5c2505bf2a6467ee8 usb: typec: ucsi: Register USB Power Delivery Capabilities
          
 
---===============1204728974500224836==
+--===============3863872720585876220==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1673019380 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1673019461 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1673019380-58c1ad979fa516a8d955a007f05f837a3cc36c37
+nonce 1673019460-280c96ff0d06eab10c1cffd0e0d48d2587598a2b
 
-1b929c02afd37871d5afb9d498426f83432e71c2 001b0c780eac328bc48b70b8437f202a4ed785e4 refs/heads/usb-testing
+001b0c780eac328bc48b70b8437f202a4ed785e4 b04e1747fbcc6bf4a93a95b5c2505bf2a6467ee8 refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmO4P/QbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+TIUP/3X/xNaBn3Xb+rCw8XM8
-gDoMo/fBlIZs3xRu1bFlSBfI9tvuuk64zqefl/8DJXE321Kp0Adi9OPU2jtr+Moa
-ofWbWxpnzgbZf2r92rVjlAnT/5Pwxs0gkd3nwM0Phk2xfsQ4NJcvISwLAjvoRhXy
-k27KN3b7CYQTJP3DZdJkvUvFqVW0EsmT7hk9VyoSIdTAVCs3fgniS+DfG61qsSC/
-BOigpa0A6SonhtlqGldtonu0glE9LdV4XnTzAo4vQnQPkFFJYezgIVs075GUXyC7
-li+xufdkDpOFE6LVoX7jZI3YoumrrKmTS+G69JHcj+1/DkhZZJQf3Gf1oQCbD1QI
-gkOGM/tKjXWZwMuXc8hdQSZFvV5VwYbbYo9Wz31JB0GorWjnMcVJbU+S4HrOuU5X
-ihQVzF3FYNct55yUsIWhUKSls/LTih1fmV90yXgRl11cDTANOQV+bpvmf0rnAUVb
-S/9VPp4DE5srdP9bGHZGnfvUPnSV1mTbrVGlmZkpbe000rOognvlXO8xtNLCGAvi
-i1cQc84jKuGCzIO1Rk3Owrj2NKGleGTfF5Zuh8f2CPvW8jfLrwjzeuk5R0Ld+zD+
-f6RlbV6gx57mqlzqYulhEIxL80jZdt7LRf8PpQePVQOaCXmloCJmR6AczaZjJGb1
-xog/uEThzU01d6TylxH/T2I7
-=6duL
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmO4QEUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+itoQAItLsbtF8p9tda5Hu86a
+ztUGNhmOkJBtAud44ZJ/YoqHfmdKMprzvK1Q9eVH3xZonQHMN+kA3GrcPWjfmL0U
+srsTKHghWVd5x3ycuqMho9Q/rD4bzH+dga9dJcswrIJ4buLHPpy6jjKzjhLNu0BF
+3osYG7v0QCQqot2cudoZ/tsWhInRORl5s9aUOQpEHDTQ4lFnOm+398Vnz0udYzUb
+IH4h03acWY0d2foqO4OzkK074AIDEXY+k4hCJrQGT+dlstcq9sCMqRYL5lDkv4HW
+wRkopC7nD3Cu867jQiXEyot0YK1Z2pUEBGoHFDYaMpHZ4p5W18TaUeAR2GvzGWgs
+txwF902thWnulu0sWTD47aDxIdoJcQxsKh6dOAPrIrG4E4UJOmTAmPUppiDfG6A5
+hPyXxdFb30y4OxpxT7HcbSA4dp17NIV1vbebvI8uGEUHjpPQTNqTfxp1e/DzbiWK
+Tc9G2FsHaaFOZJBCCIw00FVDRKps+Kg0K4iaWoASMk5umzB9E0/b1pW75a14IpkK
+hVH3Z86udVJcfO+bkEdpJrG8R0m+NN4KUke0LJC8hP9PmSrK9IzJSlam+rcHZ/Pi
+u1vPbzWsPrMhLftztCIFmwArVhXf5IUvtxxV6ISMUjnLvOlk13eEXJL9CYQf0Jwm
+8FcyiKNDHrUyj19USjr36syz
+=tBE5
 -----END PGP SIGNATURE-----
 
---===============1204728974500224836==--
+--===============3863872720585876220==--
