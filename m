@@ -1,52 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============9038088196435542242=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Fri, 06 Jan 2023 16:32:43 -0000
-Message-Id: <167302276344.2401.10820939472549634471@gitolite.kernel.org>
-
---===============9038088196435542242==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/remoteproc/linux
+Date: Fri, 06 Jan 2023 16:32:49 -0000
+Message-Id: <167302276902.2498.15549234560916626544@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
-user: broonie
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/remoteproc/linux
+user: mjp
 changes:
-  - ref: refs/heads/for-6.2
-    old: e8bb8f19e73a1e855e54788f8673b9b49e46b5cd
-    new: 819cfea7d69d5561f89c4957ff94afc6cad76356
+  - ref: refs/heads/for-next
+    old: 6703a68d4cce52122954392f9247d644bd8dd292
+    new: 90d6db82626be5e5fe085f4f58c49a080c420fa6
     log: |
-         38892ea4cefbb6ed3a91e76d3af84a1f8077d2d4 spi: dt-bindings: Rename spi-cs-setup-ns to spi-cs-setup-delay-ns
-         e0fe6a31cac84735939c29d1e05055d58325c6c0 spi: Rename spi-cs-setup-ns property to spi-cs-setup-delay-ns
-         819cfea7d69d5561f89c4957ff94afc6cad76356 spi: SPI core CS delay property rename From: Hector Martin <marcan@marcan.st> Date: Wed, 04 Jan 2023 18:36:26 +0900 Message-Id: <20230104093631.15611-1-marcan@marcan.st> MIME-Version: 1.0 Content-Type: text/plain; charset="utf-8" Content-Transfer-Encoding: 7bit
+         d6e21ef31e7fa43554f9c7666b7b4c54651c256f dt-bindings: remoteproc: Add PRU consumer bindings
+         9b9ad70f28675c45ef93cfb6e4af9403cb7bd34c remoteproc: pru: Add enum for PRU Core Identifiers.
+         919e8942548aa878d374b1b51aa68fdf751f18b8 remoteproc: pru: Add APIs to get and put the PRU cores
+         2da812ffcd11c31ef897615798a8a66041a5b73b remoteproc: pru: Make sysfs entries read-only for PRU client driven boots
+         102853400321baea2527917e6e89be33508c3e18 remoteproc: pru: Add pru_rproc_set_ctable() function
+         133f30d3a8e1dd89d3c29324263d7065da1d39d0 remoteproc: pru: Configure firmware based on client setup
+         90d6db82626be5e5fe085f4f58c49a080c420fa6 Merge branches 'hwspinlock-next', 'rpmsg-next' and 'rproc-next' into for-next
          
-
---===============9038088196435542242==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1673022762 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1673022761-7d3bff041ebf9a36ca09e82519ff3878083c8150
-
-e8bb8f19e73a1e855e54788f8673b9b49e46b5cd 819cfea7d69d5561f89c4957ff94afc6cad76356 refs/heads/for-6.2
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmO4TSoACgkQJNaLcl1U
-h9Bnkwf9HEP7utcPFLtQT6IATP82YWXGkmQIFsO3TdYiTpPpNUlaC2Mvt1/7N/M+
-lwgMyhCdquvt2BOSkFFMRL1FD35QbAFAWohl+WKgRNbgIi3vHyOZijQiDpA6YDp5
-E7jSKDfv+QIYRlMZeE42Yq0I0r3DQP+iCuiMXoWWYrSaSvslJ9CvoRnxJbK/PFN5
-yPAWaHPrXMThLa/HAytklE3FfL1iwIDrEflxRW++p8o/GkxvztGvDYJ9zFdCsItE
-WVUNgCg5pb/LxrGF3Fo9B3nan/s3qfioeqadl3WHB0PVA39uaxZjG6tKEgl4ZC/G
-P+x4VtWMYmrvvfCceIehs927zmGlPg==
-=MOqT
------END PGP SIGNATURE-----
-
---===============9038088196435542242==--
