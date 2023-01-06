@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4920062466473549431=="
+Content-Type: multipart/mixed; boundary="===============6720027563325561761=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Fri, 06 Jan 2023 14:30:53 -0000
-Message-Id: <167301545329.18506.10834240396245779624@gitolite.kernel.org>
+Date: Fri, 06 Jan 2023 14:31:15 -0000
+Message-Id: <167301547583.18671.10855917475347756626@gitolite.kernel.org>
 
---===============4920062466473549431==
+--===============6720027563325561761==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: dborkman
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: 4aea86b4033f92f01547e6d4388d4451ae9b0980
     new: 6bd4755c7c499dbcef46eaaeafa1a319da583b29
     log: revlist-4aea86b4033f-6bd4755c7c49.txt
 
---===============4920062466473549431==
+--===============6720027563325561761==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -65,4 +65,4 @@ ed539ba614a079ea696b92beef1eafec66f831a4 devlink: always check if the devlink in
 82a3aef2e6af2fdd04d542c83b7a35990d94afc9 netdevsim: move devlink registration under the instance lock
 6bd4755c7c499dbcef46eaaeafa1a319da583b29 Merge branch 'devlink-unregister'
 
---===============4920062466473549431==--
+--===============6720027563325561761==--
