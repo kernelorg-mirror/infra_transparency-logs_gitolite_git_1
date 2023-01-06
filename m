@@ -1,25 +1,52 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/remoteproc/linux
-Date: Fri, 06 Jan 2023 16:32:49 -0000
-Message-Id: <167302276902.2498.15549234560916626544@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============8358356354028972456=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Fri, 06 Jan 2023 16:32:49 -0000
+Message-Id: <167302276942.2528.15583816445721520968@gitolite.kernel.org>
+
+--===============8358356354028972456==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/remoteproc/linux
-user: mjp
+repo: pub/scm/linux/kernel/git/broonie/misc
+user: broonie
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-next
-    old: 6703a68d4cce52122954392f9247d644bd8dd292
-    new: 90d6db82626be5e5fe085f4f58c49a080c420fa6
+  - ref: refs/heads/spi-6.2
+    old: e8bb8f19e73a1e855e54788f8673b9b49e46b5cd
+    new: 819cfea7d69d5561f89c4957ff94afc6cad76356
     log: |
-         d6e21ef31e7fa43554f9c7666b7b4c54651c256f dt-bindings: remoteproc: Add PRU consumer bindings
-         9b9ad70f28675c45ef93cfb6e4af9403cb7bd34c remoteproc: pru: Add enum for PRU Core Identifiers.
-         919e8942548aa878d374b1b51aa68fdf751f18b8 remoteproc: pru: Add APIs to get and put the PRU cores
-         2da812ffcd11c31ef897615798a8a66041a5b73b remoteproc: pru: Make sysfs entries read-only for PRU client driven boots
-         102853400321baea2527917e6e89be33508c3e18 remoteproc: pru: Add pru_rproc_set_ctable() function
-         133f30d3a8e1dd89d3c29324263d7065da1d39d0 remoteproc: pru: Configure firmware based on client setup
-         90d6db82626be5e5fe085f4f58c49a080c420fa6 Merge branches 'hwspinlock-next', 'rpmsg-next' and 'rproc-next' into for-next
+         38892ea4cefbb6ed3a91e76d3af84a1f8077d2d4 spi: dt-bindings: Rename spi-cs-setup-ns to spi-cs-setup-delay-ns
+         e0fe6a31cac84735939c29d1e05055d58325c6c0 spi: Rename spi-cs-setup-ns property to spi-cs-setup-delay-ns
+         819cfea7d69d5561f89c4957ff94afc6cad76356 spi: SPI core CS delay property rename From: Hector Martin <marcan@marcan.st> Date: Wed, 04 Jan 2023 18:36:26 +0900 Message-Id: <20230104093631.15611-1-marcan@marcan.st> MIME-Version: 1.0 Content-Type: text/plain; charset="utf-8" Content-Transfer-Encoding: 7bit
          
+
+--===============8358356354028972456==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher C3F436CA30F5D8EB 1673022768 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1673022767-ca62d2bae6f623fe3445d753088e69679df0ff61
+
+e8bb8f19e73a1e855e54788f8673b9b49e46b5cd 819cfea7d69d5561f89c4957ff94afc6cad76356 refs/heads/spi-6.2
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmO4TTAACgkQJNaLcl1U
+h9DHfAgAhDs/GdLGf/d/u/UF1KXlQlYVQ8Ryw1bFLln4PM4EFkcrMlpw50Wga97A
+K5BQ4ndLosayLp11yMKZr8oEy0FCQ5gzLIXteba0Z3u+Prrw9HRtsAzkWZiYHXlF
+M8AQzsllmecHHahiSNWOkeIV6IJQyZAAhYQUkG+1xp2lUfLCmOQSar//gzZ6dLLg
+kLgzwsrLm6sDBoaIK21zFRnPRXjaqUbC8aMtRaIPmXxaak+gA1rB374jEQspQN16
+ZO8lU0q5prI80LxLHD8gHYTIgDhqndE0EGjgKeQHIJxQ+3ONbbnBIlCI/kkbYaP+
+86pbP/3+6oq7CgSwKy/8S0WN+czoCg==
+=8HvX
+-----END PGP SIGNATURE-----
+
+--===============8358356354028972456==--
