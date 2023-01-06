@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 06 Jan 2023 12:21:50 -0000
-Message-Id: <167300771036.30470.17573718285309555038@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Fri, 06 Jan 2023 12:42:09 -0000
+Message-Id: <167300892919.10380.1261859418501086651@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: davem
 changes:
   - ref: refs/heads/master
-    old: 62543f7885cbd5de75ab28eec59f59e8b00fd16a
-    new: c0c137cf5937f4c4b4ab5422be01530820ca78c3
+    old: 3d759e9e24c38758abc19a4f5e1872a6460d5745
+    new: 6b754d7bd007c5f68fbb2d9abd5c00d253b033d0
     log: |
-         47cdfb7b0a2733c157b27f772d852bfb9075384b x86/boot/e820: Fix typo in e820.c comment
-         c0c137cf5937f4c4b4ab5422be01530820ca78c3 Merge branch into tip/master: 'x86/cleanups'
+         6b754d7bd007c5f68fbb2d9abd5c00d253b033d0 sysctl: expose all net/core sysctls inside netns
          
