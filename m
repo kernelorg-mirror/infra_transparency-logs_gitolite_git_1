@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
-Date: Fri, 06 Jan 2023 22:39:35 -0000
-Message-Id: <167304477535.20842.15078761983528646157@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Fri, 06 Jan 2023 22:58:00 -0000
+Message-Id: <167304588056.1719.5287548699021711377@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/liburing
-user: axboe
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
   - ref: refs/heads/master
-    old: 8ab80b483518d51903c9eed24cf0e1ba826010fc
-    new: bfb432f4cce52cb3e3bd9c1823e94ff29bd4fb80
+    old: 0fab5dc5bcd3d533b4b560f4542580795255b89f
+    new: 4bf9d4872e844869e7056bc6d8a9877178ac880f
     log: |
-         439cff00aa9a3b8bc6b88787ffca90d32655ce2f github: Remove nolibc build on the GitHub CI bot
-         bfb432f4cce52cb3e3bd9c1823e94ff29bd4fb80 configure: Always enable `CONFIG_NOLIBC` if the arch is supported
+         4bf9d4872e844869e7056bc6d8a9877178ac880f Fri Jan  6 10:57:12 PM UTC 2023
          
