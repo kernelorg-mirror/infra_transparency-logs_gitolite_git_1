@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chrome-platform/linux
-Date: Fri, 06 Jan 2023 03:49:30 -0000
-Message-Id: <167297697015.1745.7536716870909366329@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Fri, 06 Jan 2023 04:09:49 -0000
+Message-Id: <167297818977.14335.7994982655599761113@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chrome-platform/linux
-user: tzungbi
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/for-kernelci
-    old: a31a107a10f0178f66880c4e6ef2347a2d7db302
-    new: 44ff064f160fc66fe5a8b39722eca03bd47c61a2
+  - ref: refs/heads/dev
+    old: 6f5aa91cf0f9a5ffc60a343bab6a74c9e047d399
+    new: 389b0eafd72829fd63548f7ff4e8d6ac90fa1f98
     log: |
-         d90fa2c64d59f5f151beeef5dbc599784b3391ca platform/chrome: cros_ec: Poll EC log on EC panic
-         957445d730badbea1b3b2ef038e60d2ca38abd0a platform/chrome: cros_ec: Shutdown on EC Panic
-         44ff064f160fc66fe5a8b39722eca03bd47c61a2 KERNELCI: x86_64_defconfig: Enable support for Chromebooks devices
+         389b0eafd72829fd63548f7ff4e8d6ac90fa1f98 rcu: Protect rcu_print_task_exp_stall() ->exp_tasks access
          
