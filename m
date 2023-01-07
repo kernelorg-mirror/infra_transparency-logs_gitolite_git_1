@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Sat, 07 Jan 2023 19:25:42 -0000
-Message-Id: <167311954264.12155.4008759942609300915@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
+Date: Sat, 07 Jan 2023 19:32:31 -0000
+Message-Id: <167311995116.15851.13836029069021642348@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/conor/linux
+user: conor
 changes:
-  - ref: refs/heads/master
-    old: 93cc4540571cc72ce3925e3fc06467ee9555b9c5
-    new: 55c71ea3a50315341e4f8315f77882b5d469edb8
+  - ref: refs/heads/riscv-dt-fixes
+    old: 1b929c02afd37871d5afb9d498426f83432e71c2
+    new: 43d5f5d63699724d47f0d9e0eae516a260d232b4
     log: |
-         55c71ea3a50315341e4f8315f77882b5d469edb8 Sat Jan  7 07:24:36 PM UTC 2023
+         43d5f5d63699724d47f0d9e0eae516a260d232b4 riscv: dts: sifive: fu740: fix size of pcie 32bit memory
          
