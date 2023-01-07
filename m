@@ -1,48 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============1765734012793066946=="
+Content-Type: multipart/mixed; boundary="===============4949251002830601307=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sat, 07 Jan 2023 11:30:00 -0000
-Message-Id: <167309100078.22807.6679848554268721969@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
+Date: Sat, 07 Jan 2023 11:30:01 -0000
+Message-Id: <167309100113.22839.5716605082368943006@gitolite.kernel.org>
 
---===============1765734012793066946==
+--===============4949251002830601307==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/mkp/scsi
+user: mkp
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/auto-latest
-    old: 1bb04c173dc5ca3b513a574e1be0a3eed97b8362
-    new: 9c4fb147c3492fd4be1b89c22a4c333308f6f44a
-    log: revlist-1bb04c173dc5-9c4fb147c349.txt
-  - ref: refs/heads/master
-    old: 1bb04c173dc5ca3b513a574e1be0a3eed97b8362
-    new: 9c4fb147c3492fd4be1b89c22a4c333308f6f44a
-    log: revlist-1bb04c173dc5-9c4fb147c349.txt
+  - ref: refs/tags/mkp-scsi-fixes
+    old: 85e69340385b676f6eb85f116121b65937fea19f
+    new: f5abfad0a80d329e5f2589766756974b13c6f09d
+    log: |
+         ea44242bbfcde2993fb27ec7c3ad5ab5cc39e438 scsi: hisi_sas: Fix tag freeing for reserved tags
+         a67aad57d9aee41180aff36e54cb72fe4b8d5a5a scsi: libsas: Grab the ATA port lock in sas_ata_device_link_abort()
+         
 
---===============1765734012793066946==
+--===============4949251002830601307==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1bb04c173dc5-9c4fb147c349.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-8e791f7eba4c7711f56616ae163ee3cbc00b1bf4 x86/kprobes: Drop removed INT3 handling code
-c9e49ff73e538fd54668e9cb8b5c31be1aab5502 Merge branch into tip/master: 'sched/urgent'
-370574610d194e847ecfd0af4ef5fa01204fa899 Merge branch into tip/master: 'timers/urgent'
-70ba7e13c5aa2bef9318d5d90e0ff91e082c41cd Merge branch into tip/master: 'locking/core'
-0ee9127206e7daff2bcd2dfad8249c42cf03f463 Merge branch into tip/master: 'objtool/core'
-a73f6ba396d758cd6440a0d518885fc8a3ea392a Merge branch into tip/master: 'perf/core'
-0d567fc21061de8b64a17c771a41f4b4432a4fe4 Merge branch into tip/master: 'ras/core'
-355d3c41a5783b7121393937b54c38d9600b67d8 Merge branch into tip/master: 'sched/core'
-f8ae313f58fa633eca6f40b32a118883e0a99889 Merge branch into tip/master: 'x86/alternatives'
-a08e0b61d8eb3c9a79a4ea36064f8df1d328ed20 Merge branch into tip/master: 'x86/asm'
-c3efda6525eddf175ab8ac02c5a08bd86b983dfa Merge branch into tip/master: 'x86/cleanups'
-ef23de950cbb00c31ae1ef4e9cfde5c38abfe6aa Merge branch into tip/master: 'x86/core'
-727a339bd7f29f00c2f19cf573e55a25f8787091 Merge branch into tip/master: 'x86/microcode'
-9c4fb147c3492fd4be1b89c22a4c333308f6f44a Merge branch into tip/master: 'x86/platform'
+certificate version 0.1
+pusher 75C5DE3D 1673090990 -0500
+pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
+nonce 1673090989-9a4f9b6ae08a0fac0ab5c1b8a37ff446e48315ec
 
---===============1765734012793066946==--
+85e69340385b676f6eb85f116121b65937fea19f f5abfad0a80d329e5f2589766756974b13c6f09d refs/tags/mkp-scsi-fixes
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmO5V64ACgkQ7ulgGnXF
+3j3PQg/9E59mQt0s64bf4jCcUsBWvAmLnrnsXHeeiDsHmdFJBtdPhXW8EcHZ8g7d
+w9r9sRSSFfLPM0FaRK2H4oMt/RvFt77IHE2Uv2Mhvv5sN/tFox7Nh68UlFg9eQkL
+4WuwoPoq/7vI5guwyB5BIr253LvjPl3L1CItBGecTuT94tF2ssz091ByVz/L2cV2
+34tWoyG0cgBqkkArMgllLX2dnLpfKXaGG9LOoXQ9L6DcQ9P6U81oH6crDkIy/8mX
+xkFAlYrKZ5mrkA9xXfCtT+bO/Ij8Gx2Thh5XdTLMpq/t6yE3hzjLW4lH+Il4TVYJ
+9o8ha9LGCKN7g8Ov/heucBxDNXeN5rmiEayAHonmVTocUqS5PDb46RUy4KltMAkV
+mnZq3Qyxkfg6UE+ygnZic6eSCXu+r9JOin44ifiUhNLxMnhg7O7BXesYGOtRXquC
+buFUJ+2p9aOlRLkUIgqEfx/VfUGHXhvsrc78sWmXQAaYu32HlCytYH/tRM0t7mZu
+Td6+T+MhpKyNh0LGZ9tVhhuqOXh5sZqXqVzmxPfV6xETRz1zpVo627ujk2r73+R6
+BRIV3x62/raYGnv5I3rpYZTFMNOtinXzjLqHiieNgMAbOAt3UEnFlbOzwqgQ7YZC
+ch73XKVxbDPohLaLh/scy5usgDqm6aCfqfLgoO7LTSe6FdoNrds=
+=j4ls
+-----END PGP SIGNATURE-----
+
+--===============4949251002830601307==--
