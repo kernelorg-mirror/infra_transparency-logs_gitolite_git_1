@@ -1,56 +1,72 @@
-Content-Type: multipart/mixed; boundary="===============8514045849898824321=="
+Content-Type: multipart/mixed; boundary="===============6957637577649864403=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Sat, 07 Jan 2023 14:50:04 -0000
-Message-Id: <167310300439.27175.10681636517773585397@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
+Date: Sat, 07 Jan 2023 15:10:57 -0000
+Message-Id: <167310425702.7146.3229691817336022164@gitolite.kernel.org>
 
---===============8514045849898824321==
+--===============6957637577649864403==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/cel/linux
+user: cel
 changes:
-  - ref: refs/heads/master
-    old: a689b938df39ab513026c53fb7011fd7cd594943
-    new: 0a71553536d270e988580a3daa9fc87535908221
-    log: revlist-a689b938df39-0a71553536d2.txt
+  - ref: refs/heads/topic-rpcsec-gss-krb5-enhancements
+    old: 73cc49c29fc43271a5a0ae2477671ed710baa250
+    new: 1a7d3fdf344d1c3a5b4b4ea4cc98274f3bc40225
+    log: revlist-73cc49c29fc4-1a7d3fdf344d.txt
 
---===============8514045849898824321==
+--===============6957637577649864403==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a689b938df39-0a71553536d2.txt
+Content-Disposition: attachment; filename=revlist-73cc49c29fc4-1a7d3fdf344d.txt
 
-f728a5ea27c92133893590e731ce10f6561ced87 dma-buf: fix dma_buf_export init order v2
-4e699e34f923188175986ad8a74ab99f7034075e drm/plane-helper: Add the missing declaration of drm_atomic_state
-4217c6ac817451d5116687f3cc6286220dc43d49 drm/panfrost: Fix GEM handle creation ref-counting
-523dfa96add75e60cfe6bf5a1c8f713635cd6b73 drm/tests: reduce drm_mm_test stack usage
-3b754ed6d1cd90017e66e5cc16f3923e4a952ffc drm/meson: Reduce the FIFO lines held when AFBC is not used
-a764da46cd15f8b40292d2c0b29c4bf9a3e66c7e drm/virtio: Fix memory leak in virtio_gpu_object_create()
-03dec92c4f788c54a7c01b40a018f601eb8a6c52 drm/scheduler: Fix lockup in drm_sched_entity_kill()
-92d43bd3bc9728c1fb114d7011d46f5ea9489e28 drm/imx: ipuv3-plane: Fix overlay plane width
-2c55d703391acf7e9101da596d0c15ee03b318a3 Merge drm/drm-fixes into drm-misc-fixes
-69555549cfa42e10f2fdd2699ed4e34d9d4f392b drm/scheduler: Fix lockup in drm_sched_entity_kill()
-c8de526215fdab9f2dd0d9675582cf9f1391a919 Merge tag 'drm-misc-next-fixes-2023-01-03' of git://anongit.freedesktop.org/drm/drm-misc into drm-fixes
-cf97eb7e47d4671084c7e114c5d88a3d0540ecbd drm/amdkfd: Fix kernel warning during topology setup
-f3c23bea598ab7e8e4b8c5ca66598921310f718e drm/amd/display: Uninitialized variables causing 4k60 UCLK to stay at DPM1 and not DPM0
-3792fc508c095abd84b10ceae12bd773e61fdc36 drm/i915: unpin on error in intel_vgpu_shadow_mm_pin()
-c4b850d1f448a901fbf4f7f36dec38c84009b489 drm/i915/gvt: fix gvt debugfs destroy
-704f3384f322b40ba24d958473edfb1c9750c8fd drm/i915/gvt: fix vgpu debugfs clean in remove
-a06d4b9e15c0ea4e05b200cfb1f1050e785a5e87 drm/i915/gvt: use atomic operations to change the vGPU status
-4a61648af68f5ba4884f0e3b494ee1cabc4b6620 drm/i915/gvt: fix double free bug in split_2MB_gtt_entry
-6fe6ece398f7431784847e922a2c8c385dc58a35 Revert "drm/amd/display: Enable Freesync Video Mode by default"
-83e79ae3216c70f2b63c935a4e089d1620e8ef01 Merge tag 'drm-misc-fixes-2023-01-05' of git://anongit.freedesktop.org/drm/drm-misc into drm-fixes
-93235bfd5a9c3329df31d1a4d7a93d138b3138c2 Merge tag 'amd-drm-fixes-6.2-2023-01-04' of https://gitlab.freedesktop.org/agd5f/linux into drm-fixes
-87809d3196c2a7a015ab80ca1cb8c19b659bc5f6 Merge tag 'gvt-fixes-2023-01-05' of https://github.com/intel/gvt-linux into drm-intel-fixes
-5193326c4c5a656c733b6d2c6537e3f36319bcac Merge tag 'drm-intel-fixes-2023-01-05' of git://anongit.freedesktop.org/drm/drm-intel into drm-fixes
-cb7a95af78d29442b8294683eca4897544b8ef46 hfs/hfsplus: avoid WARN_ON() for sanity check, use proper error handling
-1382999aa0548a171a272ca817f6c38e797c458c tpm: Allow system suspend to continue when TPM suspend fails
-0a71553536d270e988580a3daa9fc87535908221 Merge tag 'drm-fixes-2023-01-06' of git://anongit.freedesktop.org/drm/drm
+ccc5f2e22aa32ec8d68b15ca16f8e33cce12692e SUNRPC: Use per-CPU counters to tally server RPC counts
+dd5ed991223375123c8ad1fc02823732d4fff886 SUNRPC: Add header ifdefs to linux/sunrpc/gss_krb5.h
+d341b12171ee4225275a32ebe477a7b36a6c709d SUNRPC: Remove .blocksize field from struct gss_krb5_enctype
+a68df47a361760a26b6cec7e7359ad3cb9b8a428 SUNRPC: Remove .conflen field from struct gss_krb5_enctype
+f150db1194e7d41775372bc1f225a39b9f23aa90 SUNRPC: Improve Kerberos confounder generation
+d939bff007698e25beaa9dc092f5e4baf3c510b5 SUNRPC: Obscure Kerberos session key
+08a6d86359c773c1fe779df76e4a2c83492680e4 SUNRPC: Refactor set-up for aux_cipher
+67810be62779a28f837467cdd305f446fbf8b962 SUNRPC: Obscure Kerberos encryption keys
+d568f2c8f06d6bdecbfd90eb7487bee209ef828d SUNRPC: Obscure Kerberos signing keys
+ee02790a58ba2ee6aea45f0506995e2e8e0f5f02 SUNRPC: Obscure Kerberos integrity keys
+075f94247fe4f9a97503ebd2a4dbe651328097d8 SUNRPC: Refactor the GSS-API Per Message calls in the Kerberos mechanism
+7ae2a638532ee63a111d7ece6a7e152d7577fe0a SUNRPC: Remove another switch on ctx->enctype
+c91ec809afc61b4d8966883e889c510263804786 SUNRPC: Add /proc/net/rpc/gss_krb5_enctypes file
+4b7761870f41bb7c5d7ed15e1976aaed6f55b6cd NFSD: Replace /proc/fs/nfsd/supported_krb5_enctypes with a symlink
+8d12f92ce35b3d177645dd5aeca0f1878b91a26e SUNRPC: Replace KRB5_SUPPORTED_ENCTYPES macro
+4ffc98ca67202e1256f113e28bb25c557be4e974 SUNRPC: Enable rpcsec_gss_krb5.ko to be built without CRYPTO_DES
+44db57cf9a7989ccc10af8bb796e6516cd046749 SUNRPC: Remove ->encrypt and ->decrypt methods from struct gss_krb5_enctype
+39134f14cd7188c8b9ccaad255073db24eefb66a SUNRPC: Rename .encrypt_v2 and .decrypt_v2 methods
+81b4949e7fe404457f2886f5755769cb8981ead7 SUNRPC: Hoist KDF into struct gss_krb5_enctype
+eb329e19760b683bc324f3d99dec1bbd04b8fee1 SUNRPC: Clean up cipher set up for v1 encryption types
+56a7a8d7998b083cf9c2cd4db4462ade3d9ec2d6 SUNRPC: Parametrize the key length passed to context_v2_alloc_cipher()
+e9ed75b084cd9b9dd6cb980fb7c9f921dfc848ea SUNRPC: Add new subkey length fields
+dbac0f8d3e1d03e0b0d86d6b4bf6fb1b0d5dfa9b SUNRPC: Refactor CBC with CTS into helpers
+5364bbe03ccfb37dcf156846fec87bbd672dad4e SUNRPC: Add gk5e definitions for RFC 8009 encryption types
+09f89937bbbd8a9d7dfe2a8c0a3550bd96c8f7ff SUNRPC: Add KDF-HMAC-SHA2
+6444b3c5f3fc55a073b3e81c20da22dd421cc349 SUNRPC: Add RFC 8009 encryption and decryption functions
+ca655064c486edea249bfaa380ab5c88edf0e09d SUNRPC: Advertise support for RFC 8009 encryption types
+17094854e625a070b88f805466ab8eb726e27bf8 SUNRPC: Support the Camellia enctypes
+25924f27de5ce7c491d57a949112c4ed61974817 SUNRPC: Add KDF_FEEDBACK_CMAC
+193d1732351144329d616b466be3472d7be0ea7c SUNRPC: Advertise support for the Camellia encryption types
+3b83dc0de9d4574e4aec8fc4d1107f302f1d185c SUNRPC: Move remaining internal definitions to gss_krb5_internal.h
+69fdfe87b481936bce16026403c40de3f5ba91f3 SUNRPC: Add KUnit tests for rpcsec_krb5.ko
+56e1ac1ce51e516036cfda490947aadd66653c90 SUNRPC: Export get_gss_krb5_enctype()
+37f1ad34f0de3d95d48f179f24a0228ae66d3008 SUNRPC: Add KUnit tests RFC 3961 Key Derivation
+cb95b401fffae68c6ebb562ff42dfbf23e1d4122 SUNRPC: Add Kunit tests for RFC 3962-defined encryption/decryption
+0d1d4da801b8c863028105a8405c738fa69d3927 SUNRPC: Add KDF KUnit tests for the RFC 6803 encryption types
+ddb025bd9d581089b168d075f544fe75942c732a SUNRPC: Add checksum KUnit tests for the RFC 6803 encryption types
+c86824d5c95caf99746c8174d5e035b6b3364c19 SUNRPC: Add encryption KUnit tests for the RFC 6803 encryption types
+f6d1aa06e3e482c91a35bdf808dacfcc7dda4acf SUNRPC: Add KDF-HMAC-SHA2 Kunit tests
+21823c3cb2cd2f302cce1cab8d30e7486ebbbfbb SUNRPC: Add RFC 8009 checksum KUnit tests
+6823e7ca1f1dd09ca8083f4ff144b88a5fae40b0 SUNRPC: Add RFC 8009 encryption KUnit tests
+1a7d3fdf344d1c3a5b4b4ea4cc98274f3bc40225 SUNRPC: Add encryption self-tests
 
---===============8514045849898824321==--
+--===============6957637577649864403==--
