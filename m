@@ -1,46 +1,19 @@
-Content-Type: multipart/mixed; boundary="===============9107953943292669332=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/b4/b4
-Date: Sat, 07 Jan 2023 00:12:12 -0000
-Message-Id: <167305033277.18648.17008415475154873406@gitolite.kernel.org>
-
---===============9107953943292669332==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/docs/man-pages/man-pages
+Date: Sat, 07 Jan 2023 00:17:45 -0000
+Message-Id: <167305066541.23771.7756627642937319414@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/b4/b4
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/docs/man-pages/man-pages
+user: alx
 changes:
   - ref: refs/heads/master
-    old: 8b3d11e6ea90652774b5b586a54a3699ecfca393
-    new: a055dede8ca9606b7fb4242816fb68054515e047
+    old: cd95675fc3e38b6175ecd568cca4c4694d3db76d
+    new: a5ebdc8d60923491f37879eeffe2fbf911279afb
     log: |
-         a055dede8ca9606b7fb4242816fb68054515e047 ez: change behaviour for per-commit trailers
+         a5ebdc8d60923491f37879eeffe2fbf911279afb Many pages: TH: Use lowercase
          
-
---===============9107953943292669332==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher B6C41CE35664996C! 1673050332 -0500
-pushee gitolite.kernel.org:pub/scm/utils/b4/b4
-nonce 1673050332-46cd7f0d6fca466c4ed0c81a6975472931ef7d34
-
-8b3d11e6ea90652774b5b586a54a3699ecfca393 a055dede8ca9606b7fb4242816fb68054515e047 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCY7i43AAKCRC2xBzjVmSZ
-bOFmAP4g3ll8989Ro88NuIplpFBI+hvDNqhwfCTE/dgy3+UWQAEAzBmGtyeHCZTU
-IkKibHUcDHzy0vif85N5f/JdjtwrFw4=
-=ulQT
------END PGP SIGNATURE-----
-
---===============9107953943292669332==--
