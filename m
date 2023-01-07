@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Sat, 07 Jan 2023 12:35:17 -0000
-Message-Id: <167309491703.3301.11653332444463485176@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
+Date: Sat, 07 Jan 2023 12:42:22 -0000
+Message-Id: <167309534225.7414.14071153973898899509@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/man-pages/man-pages
-user: alx
+repo: pub/scm/linux/kernel/git/jejb/scsi
+user: jejb
 changes:
-  - ref: refs/heads/master
-    old: 8758f26992e5e7b122e5291dee1efc2c8af8ae1d
-    new: ac705d1f25098de438fb91619c1f4513119aad33
+  - ref: refs/heads/fixes
+    old: b99afb544dc1449c605e0bca12ccb46d81bb6488
+    new: a67aad57d9aee41180aff36e54cb72fe4b8d5a5a
     log: |
-         ac705d1f25098de438fb91619c1f4513119aad33 intro.3: ffix
+         ea44242bbfcde2993fb27ec7c3ad5ab5cc39e438 scsi: hisi_sas: Fix tag freeing for reserved tags
+         a67aad57d9aee41180aff36e54cb72fe4b8d5a5a scsi: libsas: Grab the ATA port lock in sas_ata_device_link_abort()
          
