@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Sat, 07 Jan 2023 00:36:29 -0000
-Message-Id: <167305178955.3592.12346163545409359204@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pinchartl/linux
+Date: Sat, 07 Jan 2023 00:38:28 -0000
+Message-Id: <167305190838.4275.12206946541553474174@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/pinchartl/linux
+user: pinchartl
 changes:
-  - ref: refs/heads/master
-    old: 4bf9d4872e844869e7056bc6d8a9877178ac880f
-    new: 93cc4540571cc72ce3925e3fc06467ee9555b9c5
+  - ref: refs/heads/next/uvc
+    old: d3428667a95be621bfffe70e5bf2e607bbf7e049
+    new: 661cac51de7ad5256ee56ee7c26727499ddaa60d
     log: |
-         93cc4540571cc72ce3925e3fc06467ee9555b9c5 Sat Jan  7 12:35:32 AM UTC 2023
+         661cac51de7ad5256ee56ee7c26727499ddaa60d media: uvcvideo: Fix race condition with usb_kill_urb
          
