@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Sat, 07 Jan 2023 03:29:57 -0000
-Message-Id: <167306219798.19657.14909116428198548361@gitolite.kernel.org>
+Date: Sat, 07 Jan 2023 03:37:49 -0000
+Message-Id: <167306266931.25087.12983094107276882343@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,9 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/master
-    old: 6bd4755c7c499dbcef46eaaeafa1a319da583b29
-    new: e8d283b6cf0e83d5fcb5345e037956eb3e9b2483
+    old: e8d283b6cf0e83d5fcb5345e037956eb3e9b2483
+    new: 7abd92a5b98f33a972bd3cadf9948ce59d1c01b8
     log: |
-         0b5dfa35da03277287d6c5fcd2b56a77f1c61f62 ipv6: ioam: Replace 0-length array with flexible array
-         e8d283b6cf0e83d5fcb5345e037956eb3e9b2483 net: ipv6: rpl_iptunnel: Replace 0-length arrays with flexible arrays
+         b466a25c930f2b7f1ed21c9eeaa553017ae78d1c ethtool: Replace 0-length array with flexible array
+         7abd92a5b98f33a972bd3cadf9948ce59d1c01b8 net: phy: micrel: Change handler interrupt for lan8814
          
