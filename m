@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8956576564874873690=="
+Content-Type: multipart/mixed; boundary="===============0647898283240868847=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Sat, 07 Jan 2023 11:30:47 -0000
-Message-Id: <167309104752.24907.3801050512784914412@gitolite.kernel.org>
+Date: Sat, 07 Jan 2023 11:31:02 -0000
+Message-Id: <167309106201.25084.9774589434018504218@gitolite.kernel.org>
 
---===============8956576564874873690==
+--===============0647898283240868847==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-queue
-    old: ef599d89ec3f9ad5f392f21cd706b17370a42916
-    new: 1de3ea01cdd8d1453ec557f2350cbf1500e90737
-    log: revlist-ef599d89ec3f-1de3ea01cdd8.txt
+  - ref: refs/heads/6.3/scsi-queue
+    old: 1b929c02afd37871d5afb9d498426f83432e71c2
+    new: 2d95c6deb64dfb1496bd202aaffdbdb4b420a196
+    log: revlist-1b929c02afd3-2d95c6deb64d.txt
 
---===============8956576564874873690==
+--===============0647898283240868847==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1673091036 -0500
+pusher 75C5DE3D 1673091051 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1673091036-c2b54a7bc107c070f5d9d96c3fb918ba11e3db25
+nonce 1673091050-2f783e64eb6cd36825b8eadd81dbe3eb24ca1fd8
 
-ef599d89ec3f9ad5f392f21cd706b17370a42916 1de3ea01cdd8d1453ec557f2350cbf1500e90737 refs/tags/mkp-scsi-queue
+1b929c02afd37871d5afb9d498426f83432e71c2 2d95c6deb64dfb1496bd202aaffdbdb4b420a196 refs/heads/6.3/scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmO5V9wACgkQ7ulgGnXF
-3j1MexAAnVMbvPiYlYCw8evkgHNxEApuBRh9IzGoev3P296MdXsaD7uz/1jeR4md
-Ef7DG+1n3abRhOX4A14EUuTCEbiqildXY+lN9egpoKF1y21OHJvR8NUscl+iMNVx
-FiMQKc002ym+qkD46sq9jTM4pXwcDkA4FqFJLsOXG86bs0nAM3mvShm+KZkNP6r0
-Sf1UZfomiIFVGeJDWIqsblJk9W8DRFj9GpPdLFkygye3CdW1jdJVzk5aLYDDkcGH
-MAjfhRkgz+h2erN+2StBi218KybXx6LwnwB0bJPUv42V1fZKp93sfWzArOL8eDsG
-Dw0NZz/muIdqRbx/otqkHZ+HJqLmdHd5yQtY44VzgDMnzr8gE7Z3h97v558y8ze0
-JAkn6ezidG0KaivHAMDgh9YxucoTHlL4qQaPB1v8nBdzNYyMS4nZH0Z+WbZbGgxZ
-vr6/twZiUAKcauwGWLfodwhdNE2KpNHlk0nRgOHUU6DUFMSz1d4TNxVmtSokuMtP
-e45D6lRlpwRRAHKafKfwR7dZFuU8LqV11E7p1ng57NrJ/id/xxjrn2Wtq/wVPGzz
-hONis2wonPWPHVDUC+sfgS8OXQSU3YjH7b8b/3oSfXkuNdS8AMHILaKE4myDynNj
-f+pKhAad1jpZ/u/dpjYbMTO8m4Gp6WnKOtt0Q3K8d0XhdWKdL2s=
-=MzDQ
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmO5V+sACgkQ7ulgGnXF
+3j1Hhw//e4T219s0YkignpfnvIsdIFyD6hiJZD4c8v+Gko66/XNywIAAbS0+MoVy
+ZFc7n+6+fuO+fGDLe3UmyeRduCDKXto+Dxz5rvOh1s1CJQ2/ZL4fk22QSND8Uqsf
+cd8Lhbg16pM+pLmrfayYzkSd4B3QWxdS5lR2HLTPO/I9oDfm0DZCZHbnYYH4GWpY
+Gn8wK8q0MqxsUc5VhW/eHrYLqJF8Bj7EsbFeqN7h4FUpCD6Yc+qY6glY5fFa5Ser
+L4hp0Uv/O/V0Uz5nh70LiCy95+drUYlm8RGSNb978nAldbkiYyM4w9fASbLJuAb+
+0Ee+Jtv6U5VOmlnuUH5OHZEFUNsx7H6BNnXxRyiZLB6xDdyotQMl89DKxzhW0GFw
+z7qul913TCzsFKO5j49autvLc9T4/ftPfuricFQEQPD8VQfNCfOEHatVMtP+kem8
+jL8FTw11wtjsiAWoG3iKix19wROfFsPyAzJIz+l6ymCGPk5uJuxcHxC7tRUb4UqS
+3r4iJ+NqSnrTXY90l0TT6vA31+rD4eO8ss2QQwuRNuUMU2WIEbrx8IW+bqPJD2dj
+stkln3DLpT87fIr/g/gggYNiotBg/3nBBNLJoURHNHpFcfhou+bMccOWMenG4HWL
+j04OqgRxiWRdv0dzlF6TgR6kx7uh9qKnuNraYxRM+GBSBljaDuQ=
+=yqD9
 -----END PGP SIGNATURE-----
 
---===============8956576564874873690==
+--===============0647898283240868847==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ef599d89ec3f-1de3ea01cdd8.txt
+Content-Disposition: attachment; filename=revlist-1b929c02afd3-2d95c6deb64d.txt
 
 6c90466e2803d93ed47a980fbf184d35e012d895 scsi: libsas: Move sas_get_ata_command_set() up to save the declaration
 ffebb38efee3e6bbcccd0b7babf0ede8890794cd scsi: libsas: Change the coding style of sas_discover_sata()
@@ -85,4 +85,4 @@ f2a89b071b26b79abbe892ce88c4d674d1f21f63 scsi: ufs: core: Remove redundant desc_
 16ed9d312b42180242476d159dd2fab05129029a scsi: ufs: core: Remove ufshcd_map_desc_id_to_length()
 2d95c6deb64dfb1496bd202aaffdbdb4b420a196 Merge patch series "scsi: ufs: core: Always read the descriptors with max length"
 
---===============8956576564874873690==--
+--===============0647898283240868847==--
