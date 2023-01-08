@@ -1,22 +1,42 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Sun, 08 Jan 2023 14:10:40 -0000
-Message-Id: <167318704010.16757.4348342731597887494@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Sun, 08 Jan 2023 14:11:29 -0000
+Message-Id: <167318708960.17097.18145534857684070406@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/master
-    old: e9ffbf16caa6cb596df7fd641bc6063a922c52e6
-    new: 93928d485d9df12be724cbdf1caa7d197b65001e
+  - ref: refs/heads/for-linus
+    old: 9c694fbfe6f36017b060ad74c7565cb379852e40
+    new: ae50e2ab122cef68f46b7799fb9deffe3334f5e2
     log: |
-         4b9880dbf3bdba3a7c56445137c3d0e30aaa0a40 powerpc/vmlinux.lds: Define RUNTIME_DISCARD_EXIT
-         07b050f9290ee012a407a0f64151db902a1520f5 powerpc/vmlinux.lds: Don't discard .rela* for relocatable builds
-         be5f95c8779e19779dd81927c8574fec5aaba36c powerpc/vmlinux.lds: Don't discard .comment
-         93928d485d9df12be724cbdf1caa7d197b65001e Merge tag 'powerpc-6.2-2' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
+         15a59cb0a3d6ddf2cb79f8dc3081b3130aad3767 ALSA: hda: cs35l41: Don't return -EINVAL from system suspend/resume
+         ae50e2ab122cef68f46b7799fb9deffe3334f5e2 ALSA: hda: cs35l41: Check runtime suspend capability at runtime_idle
+         
+  - ref: refs/heads/for-next
+    old: 777ad8835e43155101b6b8f09ea433ffbd1fc028
+    new: c38d8cff9cdc8101a2df7a55a86d45f279728873
+    log: |
+         119c446a484a646a5762ff11ecff53c337f0e236 ALSA: firewire-lib: code refactoring for helper functions to pool sequence in rx packets
+         f2bdee856f20e21416130c392a3ec527079a1226 ALSA: firewire-lib: code refactoring for pool position in rx packets
+         cccddec49c58785ea6a5752ab749ca2d99488851 ALSA: firewire-lib: code refactoring for cache position in tx packets
+         c38d8cff9cdc8101a2df7a55a86d45f279728873 ALSA: firewire-lib: code refactoring for cache position in sequence replay
+         
+  - ref: refs/heads/master
+    old: f12e6c110d63f67945e00508d7a3aad7837b8eec
+    new: 75349a3e28c5eef922b397c3df65244fa21d44a5
+    log: |
+         15a59cb0a3d6ddf2cb79f8dc3081b3130aad3767 ALSA: hda: cs35l41: Don't return -EINVAL from system suspend/resume
+         ae50e2ab122cef68f46b7799fb9deffe3334f5e2 ALSA: hda: cs35l41: Check runtime suspend capability at runtime_idle
+         0e5ba66f6fff5dcd20bfefa63881eca0c518df20 Merge branch 'for-linus'
+         119c446a484a646a5762ff11ecff53c337f0e236 ALSA: firewire-lib: code refactoring for helper functions to pool sequence in rx packets
+         f2bdee856f20e21416130c392a3ec527079a1226 ALSA: firewire-lib: code refactoring for pool position in rx packets
+         cccddec49c58785ea6a5752ab749ca2d99488851 ALSA: firewire-lib: code refactoring for cache position in tx packets
+         c38d8cff9cdc8101a2df7a55a86d45f279728873 ALSA: firewire-lib: code refactoring for cache position in sequence replay
+         75349a3e28c5eef922b397c3df65244fa21d44a5 Merge branch 'for-next'
          
