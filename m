@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6418120282664585153=="
+Content-Type: multipart/mixed; boundary="===============4850491041890668332=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Sun, 08 Jan 2023 11:12:07 -0000
-Message-Id: <167317632766.28074.17386903547493076840@gitolite.kernel.org>
+Date: Sun, 08 Jan 2023 11:12:12 -0000
+Message-Id: <167317633281.28196.17467076476152614773@gitolite.kernel.org>
 
---===============6418120282664585153==
+--===============4850491041890668332==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 1b929c02afd37871d5afb9d498426f83432e71c2
+  - ref: refs/heads/usb-linus
+    old: c4e3ef5685393c5051b52cf1e94b8891d49793ab
     new: e9ffbf16caa6cb596df7fd641bc6063a922c52e6
-    log: revlist-1b929c02afd3-e9ffbf16caa6.txt
+    log: revlist-c4e3ef568539-e9ffbf16caa6.txt
 
---===============6418120282664585153==
+--===============4850491041890668332==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1673176321 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1673176331 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1673176321-ab1e7e4f5cf6adad4741a293c6a4b5353c52a9bf
+nonce 1673176330-32c78c9825e4e59b97e0322d57b95064ab22a4ba
 
-1b929c02afd37871d5afb9d498426f83432e71c2 e9ffbf16caa6cb596df7fd641bc6063a922c52e6 refs/heads/main
+c4e3ef5685393c5051b52cf1e94b8891d49793ab e9ffbf16caa6cb596df7fd641bc6063a922c52e6 refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmO6pQEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+0MMQALXtX8IZuG6LPBmohDit
-q7ohO/Qx2HOX6OKgiKdi/7WV8hnh9PDDhR5xPFa4kyxRmLi66jISshH6/iOe2ZXn
-ky+E/Hwx0FsxOFtJJBexTjH9z9yzMfFbmSfUcDUwC/bW4HXZsnyQY0mX6VJTlnst
-gotc4W+VtMMwQNKoNPwC89u/1vPDT5Ytqm06sY1whH365AqapBN/ywCgU/IsX6Np
-fM4AAhX8wRgYvPQwSGSNdoea5qhRzGNU2Kc3kNL6wUIg2eYMaB/BamlykIzG3FgP
-eO9hsayGY0Xi71NM+7Kj2Qw12jL0frK9dB5Ncw5XWrmzoleuQpymeyZpU+mQkrng
-NG/yiMmaSBTWzKCekGDzB6u9aboV3TCd4Va7fDfPd0UmsimrLlSyqAmE76n5kUkR
-DwjtAjUQ5wo6H+k6JydsvJ/28YRSFzB/L2iV2gyVXH/icp56sRbTWKyMOGAHowUZ
-k2+KswGk55fiQF8M5m4r3cawNRE2xVR3Mn2egRY4ybpz5ERck4NABbOWohRC/bMn
-13UnmKZnWYRKBi7lEz22rfaTuDZx0ZeiyeFdgUdJcBrOwPShalHSj17whID+wmb9
-yTLZHd46+KKSaPH9JnJgDGqV4xJhrHrnwjZhE3hOp32uRFTzuUkHRSJHH+LpL4yR
-7k9Hx3xYS3zfljqMTTFsFpF2
-=lf1H
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmO6pQsbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+4l8P/3Jj7xntk6aVixcAmgnp
+lRXyrz1qGZaqG1hOCpRkd9t4D+qu3FbTH6Ch8MSgCM6G2OhDp6xZFU9e6STci97E
+mX3IInyeuU+8frVr7+1GM59qLpuIH7AmkU23Eb4sYYiwITihl8lGZjktnZGF1B4h
+A7sZ6t94w8/OdInWAhjUTr3tOljdLaGx1Fj/rnDDyqXoMWxrQe+Pcj9nIMLIipcJ
+q+SixNAOhN4bz9Y5BGgDrCAbIupFqounAiHXAbnh5Q9N6PJFnWOsdUF6IT2O30W/
+wMvad7bnI3kmsEI0cCac085VfHyb2glkNRNQIPxOP1HYqdQ5E8qkspAlPpppaD1T
++Vb+gwSdu7UZfR03GU3Wf5Fphlxacksudd0sAC2IMW6L9qClrUdt9kmwoVd2cWhi
+5B1xUWqiPpGtwiZR8wsyJA2SnU1tqztP7lU5b617Z4UrqfV/svOmXViSP2Jg825w
+pRfI8qfBZ2HVn1mygrxRmTJxzqJ9IAX4Rfx6m5DQrRrqaqS5bY80HqvBk0LgBbkQ
+g//R5xV8ABdaemL7D7VRnqlPRokcRh1ulWVE5+Co+VIJqNZdyWKv7O+o1wvoUstA
+aFDtdHzvtCqzx9YYqevG4v5yX2GA6qYXf34uGWPgDEhjGTG9uINOGlLStJfCNp+c
+XGKaKoTPvuljUNGlf572d4kR
+=c2Lt
 -----END PGP SIGNATURE-----
 
---===============6418120282664585153==
+--===============4850491041890668332==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1b929c02afd3-e9ffbf16caa6.txt
+Content-Disposition: attachment; filename=revlist-c4e3ef568539-e9ffbf16caa6.txt
 
 1c0908d8e441631f5b8ba433523cf39339ee2ba0 rtmutex: Add acquire semantics for rtmutex lock acquisition slow path
 f728a5ea27c92133893590e731ce10f6561ced87 dma-buf: fix dma_buf_export init order v2
@@ -205,8 +205,6 @@ bbfc17e50ba2ed18dfef46b1c433d50a58566bf1 bnxt_en: Simplify bnxt_xdp_buff_init()
 1abeacc1979fa4a756695f5030791d8f0fa934b9 bnxt_en: Fix first buffer size calculations for XDP multi-buffer
 a056ebcc30e2f78451d66f615d2f6bdada3e6438 bnxt_en: Fix HDS and jumbo thresholds for RX packets
 8ac718cc0e36ef4046e2d6349727fecddc13ab9c Merge branch 'bnxt_en-fixes'
-b659b613cea2ae39746ca8bd2b69d1985dd9d770 Revert "usb: ulpi: defer ulpi_register on ulpi_read_id timeout"
-2de5bba5890f6604a997c75e754df8082386c9f7 usb: fotg210: fix OTG-only build
 a6ce72c0fb6041f9871f880b2d02b294f7f49cb4 vdpa/mlx5: Fix rule forwarding VLAN to TIR
 5aec804936bbff182081f1cdc271fcb76af1a4ff vdpa/mlx5: Return error on vlan ctrl commands if not supported
 1ab53760d322c82fb4cb5e81b5817065801e3ec4 vdpa/mlx5: Fix wrong mac address deletion
@@ -464,12 +462,9 @@ b2d473a6019ef9a54b0156ecdb2e0398c9fa6a24 riscv, kprobes: Stricter c.jr/c.jalr de
 b9b916aee6715cd7f3318af6dc360c4729417b94 riscv: uaccess: fix type of 0 variable on error in get_user()
 50011c32f421215f6231996fcc84fd1fe81c4a48 Merge tag 'net-6.2-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 1f5abbd77e2c1787e74b7c2caffac97def78ba52 Merge tag 'thermal-6.2-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
-1a5a23b9bdf6bde0e5185ca834ff6e806cc2aaaf usb: fotg210-udc: fix error return code in fotg210_udc_probe()
 5193326c4c5a656c733b6d2c6537e3f36319bcac Merge tag 'drm-intel-fixes-2023-01-05' of git://anongit.freedesktop.org/drm/drm-intel into drm-fixes
 83c7423d1eb6806d13c521d1002cc1a012111719 udf: Fix extension of the last extent in the file
 23970a1c9475b305770fd37bebfec7a10f263787 udf: initialize newblock to 0
-e498a04443240c15c3c857165f7b652b87f4fd96 usb: dwc3: xilinx: include linux/gpio/consumer.h
-c4e3ef5685393c5051b52cf1e94b8891d49793ab usb: dwc3: gadget: Ignore End Transfer delay on teardown
 90bc52c525fdac4ed8cbf13c08c813ec2a4fc856 Merge tag 'v6.2-p2' of git://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6
 d7a0853d650b381921732ff5bca618432a279033 Merge tag 'perf-urgent-2023-01-06' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 56f814583923a782f1cec43db32bc6da1d3cf7b5 Merge tag 'perf-tools-fixes-for-v6.2-1-2023-01-06' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
@@ -491,4 +486,4 @@ f18fca98ac1622220dfdf795fefa91dc52d3707d Merge tag '6.2-rc2-smb3-client-fixes' o
 9b43a525db125799df81e6fbef712a2ae50bfc5d Merge tag 'nfs-for-6.2-2' of git://git.linux-nfs.org/projects/trondmy/linux-nfs
 e9ffbf16caa6cb596df7fd641bc6063a922c52e6 Merge tag 'fixes-2023-01-08' of git://git.kernel.org/pub/scm/linux/kernel/git/rppt/memblock
 
---===============6418120282664585153==--
+--===============4850491041890668332==--
