@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Sun, 08 Jan 2023 13:57:11 -0000
-Message-Id: <167318623101.7878.10008132463929518771@gitolite.kernel.org>
+Date: Sun, 08 Jan 2023 14:03:18 -0000
+Message-Id: <167318659883.11354.4996828771669047708@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/kbuild
-    old: 0d60aeeab76aad187e4885ba4dda14b27190b8de
-    new: ef77022b32b150377a6c9c452935f7015b322b0a
+  - ref: refs/heads/fixes
+    old: 3650951ff8837f2a3333d16a32324c7ac53f19b3
+    new: bc0fbb3d28cf9395f236328200e6544628da3c40
     log: |
-         ef77022b32b150377a6c9c452935f7015b322b0a kbuild: rust: move rust/target.json to scripts/
+         bc0fbb3d28cf9395f236328200e6544628da3c40 kbuild: do not export LDFLAGS_vmlinux to decompressor Makefiles
          
