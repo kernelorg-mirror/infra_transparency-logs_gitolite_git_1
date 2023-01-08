@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Sun, 08 Jan 2023 13:50:25 -0000
-Message-Id: <167318582539.3997.276972894607859845@gitolite.kernel.org>
+Date: Sun, 08 Jan 2023 13:57:11 -0000
+Message-Id: <167318623101.7878.10008132463929518771@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/fixes
-    old: 2b190937f584ba76a8ef9ec747d3584086e6264f
-    new: 3650951ff8837f2a3333d16a32324c7ac53f19b3
+  - ref: refs/heads/kbuild
+    old: 0d60aeeab76aad187e4885ba4dda14b27190b8de
+    new: ef77022b32b150377a6c9c452935f7015b322b0a
     log: |
-         3650951ff8837f2a3333d16a32324c7ac53f19b3 init/version-timestamp.c: remove unneeded #include <linux/version.h>
+         ef77022b32b150377a6c9c452935f7015b322b0a kbuild: rust: move rust/target.json to scripts/
          
