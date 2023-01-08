@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6161044377759343030=="
+Content-Type: multipart/mixed; boundary="===============1953850875212856009=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Sun, 08 Jan 2023 12:59:59 -0000
-Message-Id: <167318279950.1484.9309541023482886954@gitolite.kernel.org>
+Date: Sun, 08 Jan 2023 13:09:15 -0000
+Message-Id: <167318335564.7439.10664117996549386672@gitolite.kernel.org>
 
---===============6161044377759343030==
+--===============1953850875212856009==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/fixes
-    old: 735aec59afb18c3e2da0a637037e69ad62dbda6a
-    new: 2b190937f584ba76a8ef9ec747d3584086e6264f
-    log: revlist-735aec59afb1-2b190937f584.txt
+  - ref: refs/heads/kbuild
+    old: f5028709dcb16722882432fcf4890edf8b5507fb
+    new: 65b15d7349c763eca137d26047037c4b1f9df415
+    log: revlist-f5028709dcb1-65b15d7349c7.txt
 
---===============6161044377759343030==
+--===============1953850875212856009==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-735aec59afb1-2b190937f584.txt
+Content-Disposition: attachment; filename=revlist-f5028709dcb1-65b15d7349c7.txt
 
 f728a5ea27c92133893590e731ce10f6561ced87 dma-buf: fix dma_buf_export init order v2
 01258b62c62710297dab4e2b72f46e01be392cc6 wifi: ti: remove obsolete lines in the Makefile
@@ -300,6 +300,8 @@ bd0ddcfc83d85bc30c868f2c3457312c7f1ccee2 Revert "of: fdt: Honor CONFIG_CMDLINE* 
 1ac88557447088ccd15eb2f2520ce46d463c8e0b inet: control sockets should not use current thread task_frag
 7246210ecdd0cda97fa3e3bb15c32c6c2d9a23b5 cifs: refcount only the selected iface during interface update
 cc7d79d4fad6a4eab3f88c4bb237de72be4478f1 cifs: fix interface count calculation during refresh
+a53da43decaa3936998fa7dce2346855a6942166 kbuild: fix single *.ko build
+735aec59afb18c3e2da0a637037e69ad62dbda6a kbuild: readd -w option when vmlinux.o or Module.symver is missing
 83e79ae3216c70f2b63c935a4e089d1620e8ef01 Merge tag 'drm-misc-fixes-2023-01-05' of git://anongit.freedesktop.org/drm/drm-misc into drm-fixes
 fe69230f05897b3de758427b574fc98025dfc907 caif: fix memory leak in cfctrl_linkup_request()
 634cf6ead93988b0da9ac054521ab63a3ba189db fbdev: omapfb: avoid stack overflow warning
@@ -340,7 +342,23 @@ c28bdeaf5d723b40c8e2901662f4e8acd574e839 Merge tag 'usb-6.2-rc3' of git://git.ke
 f18fca98ac1622220dfdf795fefa91dc52d3707d Merge tag '6.2-rc2-smb3-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
 9b43a525db125799df81e6fbef712a2ae50bfc5d Merge tag 'nfs-for-6.2-2' of git://git.linux-nfs.org/projects/trondmy/linux-nfs
 e9ffbf16caa6cb596df7fd641bc6063a922c52e6 Merge tag 'fixes-2023-01-08' of git://git.kernel.org/pub/scm/linux/kernel/git/rppt/memblock
-8236268076379df462631b88343308eb9b868e2e docs: kbuild: remove mention to dropped $(objtree) feature
-2b190937f584ba76a8ef9ec747d3584086e6264f init/version-timestamp.c: remove unneeded #include <linux/version.h>
+a31377b90521cb31ca92a0e349f751d6bcd20000 kbuild: refactor silent mode detection
+8489ac35a8072d3a9fd27d55311ffee5429c10ea kbuild: print short log in addition to the whole command with V=1
+c8fe8e66e877301d8639ab61a9c15958ff331670 kbuild: do not print extra logs for V=2
+58c4b0e0250ba907ea9e9dc454d86c3f26377a67 kbuild: allow to combine multiple V= levels
+5b0b16e3af532cefb4bcadfe3d833de264bd56c4 kbuild: drop V=0 support
+88171d806fa530a7977f3a5301b54bafa80a7da1 kbuild: clean up stale file removal
+9670fbeb6f6a157a4bb2fb75fc40e772b86dedad .gitignore: update the command to check tracked files being ignored
+424ecfef142ffc180f3d321de45a11dada51c331 kbuild: make W=1 warn files that are tracked but ignored by git
+2a1732a0a422e97b72505e33b9bf22f2c0a336d8 kbuild: rename cmd_$@ to savedcmd_$@ in *.cmd files
+7041ddf49ea3bf05ad938d9729576e674d37c609 kbuild: add more comments for KBUILD_NOCMDDEP=1
+446c107ae2ec3280c93b545aa34ac57302877ee0 kbuild: unify cmd_dt_S_dtb and cmd_dt_S_dtbo
+85ec879096f500c070eb27deecdd89bd40361244 kbuild: refactor host*_flags
+2f00ce1e5a9ae85f06580956d852f92e621f0e33 kbuild: specify output names separately for each emission type from rustc
+e0e257fbceddb8a49dcf0240350fb90ebd8a0d07 fixdep: parse Makefile more correctly to handle comments etc.
+f0b24586b57833a9fd6c0b2c01d2b9e423c3c7e9 kbuild: remove sed commands after rustc rules
+5611668eb044ab2676d7ee675461f1c74efc3e27 fixdep: refactor hash table lookup
+c264729579d0918d7611b502f894e74604112a56 fixdep: avoid parsing the same file over again
+65b15d7349c763eca137d26047037c4b1f9df415 fixdep: do not parse *.rlib, *.rmeta, *.so
 
---===============6161044377759343030==--
+--===============1953850875212856009==--
