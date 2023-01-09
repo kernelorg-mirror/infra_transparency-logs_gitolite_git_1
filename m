@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/deller/linux-fbdev
-Date: Mon, 09 Jan 2023 08:08:48 -0000
-Message-Id: <167325172852.15781.4703001929001250016@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vgupta/linux
+Date: Mon, 09 Jan 2023 08:10:18 -0000
+Message-Id: <167325181810.17801.17155003458656814697@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/deller/linux-fbdev
-user: deller
+repo: pub/scm/linux/kernel/git/vgupta/linux
+user: vgupta
 changes:
-  - ref: refs/heads/for-next
-    old: e15d1184b87e06978ca50b6273cb8c6dbaedcc63
-    new: 697ae92059fc453d167243026a66a87829471ffb
+  - ref: refs/heads/topic-elf-attr
+    old: 7d9c71ae0b2984c216c7fd9b42dbe3d31de546be
+    new: 3de82d761b079583e9ae043a7e4cacae49020f9e
     log: |
-         697ae92059fc453d167243026a66a87829471ffb fbdev: g364fb: Fix a compilation issue by using uintptr_t
+         3de82d761b079583e9ae043a7e4cacae49020f9e riscv: elf: add .riscv.attributes parsing
          
