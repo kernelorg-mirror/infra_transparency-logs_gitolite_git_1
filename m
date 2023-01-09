@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Mon, 09 Jan 2023 07:32:34 -0000
-Message-Id: <167324955461.24701.3107746721370668040@gitolite.kernel.org>
+Date: Mon, 09 Jan 2023 07:34:31 -0000
+Message-Id: <167324967136.25376.10206206668910213409@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net
 user: davem
 changes:
   - ref: refs/heads/master
-    old: 60ea6f00c57dae5e7ba2c52ed407cb24fdb11ebe
-    new: 2ab6478d1266b522a0a6ce3697914d63529f9e7a
+    old: 2ab6478d1266b522a0a6ce3697914d63529f9e7a
+    new: 9dab880d675b9d0dd56c6428e4e8352a3339371d
     log: |
-         2ab6478d1266b522a0a6ce3697914d63529f9e7a mlxsw: spectrum_router: Replace 0-length array with flexible array
+         9dab880d675b9d0dd56c6428e4e8352a3339371d nfc: pn533: Wait for out_urb's completion in pn533_usb_send_frame()
          
