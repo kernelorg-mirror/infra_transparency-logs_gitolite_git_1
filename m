@@ -1,31 +1,41 @@
-Content-Type: multipart/mixed; boundary="===============6768878533483353034=="
+Content-Type: multipart/mixed; boundary="===============4280194178633032432=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sunxi/linux
-Date: Mon, 09 Jan 2023 16:33:48 -0000
-Message-Id: <167328202895.12788.8664493920397894404@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/atorgue/stm32
+Date: Mon, 09 Jan 2023 16:46:48 -0000
+Message-Id: <167328280857.22629.8464694297726962326@gitolite.kernel.org>
 
---===============6768878533483353034==
+--===============4280194178633032432==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sunxi/linux
-user: jernej
+repo: pub/scm/linux/kernel/git/atorgue/stm32
+user: atorgue
 changes:
-  - ref: refs/heads/sunxi/for-next
-    old: 47be7c123211c9e4814acf287074af7edcc937c9
-    new: 6aa58dfeaacfa2906abad98e90eb9388517bd9c2
-    log: revlist-47be7c123211-6aa58dfeaacf.txt
+  - ref: refs/heads/stm32-next
+    old: 4cca342b840e8d308abf676e165b54719d1b10e7
+    new: 833b102852d13a815057ee25d8c14c748b68af6d
+    log: revlist-4cca342b840e-833b102852d1.txt
 
---===============6768878533483353034==
+--===============4280194178633032432==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-47be7c123211-6aa58dfeaacf.txt
+Content-Disposition: attachment; filename=revlist-4cca342b840e-833b102852d1.txt
 
+fac52bf786e5c302990fa79f2fdde24e84f810b0 can: m_can: Read register PSR only on error
+d4535b90a76af49d1dd7bc70ad0311a88ac5313d can: m_can: Count TXE FIFO getidx in the driver
+6355a3c983e6d6fc998f4223bd2c7ef047e4572b can: m_can: Count read getindex in the driver
+e3bff5256a0f12a1edc8d79bdef53eb83c2f1fbf can: m_can: Batch acknowledge transmit events
+e2f1c8cb020296ddfa255e06b15f071807c2ed73 can: m_can: Batch acknowledge rx fifo
+40c9e4f676abbe194541d88e796341c92d5a13c0 can: tcan4x5x: Remove invalid write in clear_interrupts
+67727a17a6b375d68fe569b77e6516b034b834c0 can: tcan4x5x: Fix use of register error status mask
+ef5778f7084196997e00095c43b12693ef5111d0 can: tcan4x5x: Fix register range of first two blocks
+39dbb21b6a2951a2ce311c93eb09f9ff9b96e7b8 can: tcan4x5x: Specify separate read/write ranges
+47bf2b2393ea1aacdefbe4e9d643599e057bb3a2 Merge patch series "can: m_can: Optimizations for tcan and peripheral chips"
 462e768b55a2331324ff72e74706261134369826 iommu/mediatek: Fix forever loop in error handling
 e3eca2e4f6489ed3143c80ce90bfa7ef7e12ebc7 Merge branches 'arm/allwinner', 'arm/exynos', 'arm/mediatek', 'arm/rockchip', 'arm/smmu', 'ppc/pamu', 's390', 'x86/vt-d', 'x86/amd' and 'core' into next
 22250dbaba99f87574095af894610e9801d74419 regmap: Merge fix for where we get the number of registers from
@@ -1033,22 +1043,12 @@ edb23125fd4a79003012bc619d2c604da922865e Merge tag 'pstore-v6.2-rc1-fixes' of gi
 72a85e2b0a1e1e6fb4ee51ae902730212b2de25c Merge tag 'spi-fix-v6.2-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
 292a089d78d3e2f7944e60bb897c977785a321e3 treewide: Convert del_timer*() to timer_shutdown*()
 1b929c02afd37871d5afb9d498426f83432e71c2 Linux 6.2-rc1
-27368e5e020f76851dbf9a9ab31cb9681f89ba64 ARM: dts: sun8i: a33: Add DPHY interrupt
-2f769a57f1a0964adee2c617d903740583ba6343 arm64: dts: allwinner: a64: Add DPHY interrupt
-5dc6470273063418b5409154336a447e6d8fa880 clk: sunxi-ng: fix ccu_mmc_timing.c kernel-doc issues
-f71eaf2708be7831428eacae7db25d8ec6b8b4c5 bus: sunxi-rsb: Fix error handling in sunxi_rsb_init()
-da09c7aa4213f41740a2fb85e9cfead8467306ae ARM: dts: sun8i: h3-beelink-x2: align HDMI CEC node names with dtschema
-5ee541ae712e74c842a324e946ef91cb19140cab clk: sunxi-ng: h3/h5: Model H3 CLK_DRAM as a fixed clock
-657f477a89acb25ba34414ac84a51a32c5013d7b clk: sunxi-ng: Avoid computing the rate twice
-80b21283733ff5bb6391580f3fd6a29a81ac40ea ARM: dts: sunxi: Fix GPIO LED node names
-054ce40209cf097805d2cf84c3be883fa0748149 ARM: dts: sun8i: nanopi-duo2: Fix regulator GPIO reference
-a26dc096f683ca27ac5e68703bfd3098b4212abd clk: sunxi-ng: Remove duplicate ARCH_SUNXI dependencies
-0ff347db4c97cc16b4e428dc1db550ba3628f1e2 clk: sunxi-ng: Move SoC driver conditions to dependencies
-f1404c72b693b9f04cc991481155628620b248b5 clk: sunxi-ng: d1: Allow building for R528/T113
-6ec1c73f1be7bfdcf4d95ed3ae199d139f199e87 clk: sunxi-ng: d1: Mark cpux clock as critical
-925b61ba2dafa9c13c9afa9b83a45d499cd73f2f dt-bindings: clock: Add D1 CAN bus gates and resets
-e6f2ffeaf58b23614cc818587aa3a4fc7c108a55 clk: sunxi-ng: d1: Add CAN bus gates and resets
-69dcbdffd625ee75fb23bbb28261344415b3017d Merge branch 'sunxi/dt-for-6.3' into sunxi/for-next
-6aa58dfeaacfa2906abad98e90eb9388517bd9c2 Merge branch 'sunxi/clk-for-6.3' into sunxi/for-next
+f72afd8f7e997ac7b7f1aa3f4ac5cd1ba3cce50b ARM: dts: stm32: remove sai kernel clock on stm32mp15xx-dkx
+7936f2f438f53537ad040504609389066bfe6442 ARM: dts: rename sound card on stm32mp15xx-dkx
+0e284763d5507efe4f41f089acd9be6c12550a16 ARM: dts: stm32: Fix qspi pinctrl phandle for stm32mp15xx-dhcor-som
+f1834d52fef174acac3fd453796288acf40fc0e0 ARM: dts: stm32: Fix qspi pinctrl phandle for stm32mp15xx-dhcom-som
+0de19c10f04830f831586ff9279152f88f4159fc ARM: dts: stm32: Fix qspi pinctrl phandle for stm32mp157c-emstamp-argon
+cf2934142f7fcddcdcbb620cc47dcb1853d33bb3 ARM: dts: stm32: Fix qspi pinctrl phandle for stm32mp151a-prtt1l
+833b102852d13a815057ee25d8c14c748b68af6d ARM: dts: stm32: Remove the pins-are-numbered property
 
---===============6768878533483353034==--
+--===============4280194178633032432==--
