@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4265312595382307392=="
+Content-Type: multipart/mixed; boundary="===============3992312050507404184=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 09 Jan 2023 09:03:06 -0000
-Message-Id: <167325498624.19999.11121143098581216986@gitolite.kernel.org>
+Date: Mon, 09 Jan 2023 09:03:10 -0000
+Message-Id: <167325499072.20107.12891560445226173017@gitolite.kernel.org>
 
---===============4265312595382307392==
+--===============3992312050507404184==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: 8075de6c0ed34e9108b4f56148dca6c671319ec7
-    new: 1bc55ff8b47d90556ab406c82135f5eb0da931ce
-    log: revlist-8075de6c0ed3-1bc55ff8b47d.txt
+  - ref: refs/heads/m68k-queue
+    old: 98e1b9776fd2aa70e68f13af1cafa0a13153517e
+    new: f488b4aea071aa64003c3f1888190ae88f647749
+    log: revlist-98e1b9776fd2-f488b4aea071.txt
 
---===============4265312595382307392==
+--===============3992312050507404184==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8075de6c0ed3-1bc55ff8b47d.txt
+Content-Disposition: attachment; filename=revlist-98e1b9776fd2-f488b4aea071.txt
 
 f728a5ea27c92133893590e731ce10f6561ced87 dma-buf: fix dma_buf_export init order v2
 01258b62c62710297dab4e2b72f46e01be392cc6 wifi: ti: remove obsolete lines in the Makefile
@@ -347,6 +347,8 @@ f18fca98ac1622220dfdf795fefa91dc52d3707d Merge tag '6.2-rc2-smb3-client-fixes' o
 e9ffbf16caa6cb596df7fd641bc6063a922c52e6 Merge tag 'fixes-2023-01-08' of git://git.kernel.org/pub/scm/linux/kernel/git/rppt/memblock
 93928d485d9df12be724cbdf1caa7d197b65001e Merge tag 'powerpc-6.2-2' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
 b7bfaa761d760e72a969d116517eaa12e404c262 Linux 6.2-rc3
-1bc55ff8b47d90556ab406c82135f5eb0da931ce Merge tag 'v6.2-rc3'
+b09abb083e15e452b1ed8ab6072721f4609f2bba m68k: atari: usb: Add ISP1160 USB host controller support
+f084c1e831f4f2dd7e8b52a171c55e861fb6355a m68k: atari: Update Kconfig.bus help text
+f488b4aea071aa64003c3f1888190ae88f647749 m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============4265312595382307392==--
+--===============3992312050507404184==--
