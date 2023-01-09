@@ -1,107 +1,108 @@
-Content-Type: multipart/mixed; boundary="===============4471730436354442710=="
+Content-Type: multipart/mixed; boundary="===============0942316997623709451=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/git/git
-Date: Mon, 09 Jan 2023 06:42:02 -0000
-Message-Id: <167324652255.24269.11302803789959868228@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
+Date: Mon, 09 Jan 2023 06:46:27 -0000
+Message-Id: <167324678765.28653.6213502823372232918@gitolite.kernel.org>
 
---===============4471730436354442710==
+--===============0942316997623709451==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/git/git
-user: junio
+repo: pub/scm/linux/kernel/git/stable/linux
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/next
-    old: eba37e4912cc0baa382ce463b79dce37cd3df21d
-    new: 19cc3de33e2ecf9e71de376dc7271792f26fb258
-    log: revlist-eba37e4912cc-19cc3de33e2e.txt
-  - ref: refs/heads/seen
-    old: 86c388cb2aea0a9ada2fa3723b0a23328ccff3d6
-    new: 0712233c3370574113fc0fb686c4360132f57d3d
-    log: revlist-86c388cb2aea-0712233c3370.txt
+  - ref: refs/heads/master
+    old: 0a71553536d270e988580a3daa9fc87535908221
+    new: 1fe4fd6f5cad346e598593af36caeadc4f5d4fa9
+    log: revlist-0a71553536d2-1fe4fd6f5cad.txt
 
---===============4471730436354442710==
+--===============0942316997623709451==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-eba37e4912cc-19cc3de33e2e.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-5842710dc28bc7da5a1dc60c06804e39bc5fe4dd dir: check for single file cone patterns
-1687150b5dbb570746d7f31537e199210d938091 hashfile: allow skipping the hash function
-ee1f0c242efc022c185e9be9f672289d5420a664 read-cache: add index.skipHash config option
-da9acde14ed4ea621b5db844630c1f620f24e110 test-lib-functions: add helper for trailing hash
-17194b195d5db1cfd19af57e817c29bd3fa75c02 features: feature.manyFiles implies fast index writes
-b39a84185e79cff69f9f1f79f1edb014ef27b9c6 *: fix typos which duplicate a word
-20869d1a1d30e9a64c66953a0f4c7245089009cf convert trivial uses of strncmp() to starts_with()
-d43b99322bd0ca4a371901bcf6705f1282143a2b convert trivial uses of strncmp() to skip_prefix()
-b25562e63fe8afaf0f103362a4e672e9ccdc2d68 object-file: inline calls to read_object()
-34728d7f30c1af6cf48a72b807796b719ab1c111 streaming: inline call to read_object_file_extended()
-7be13f5f743978180ba377e12a312b773ed9af2b read_object_file_extended(): drop lookup_replace option
-0ba05cf2e0d077bedbc1ee2521b3e5b5dc883250 repo_read_object_file(): stop wrapping read_object_file_extended()
-c2f32bef9cbed13f21b2308cc3c02158c338f70f packfile: inline custom read_object()
-b6d4d7b90558eafd664171323ec400fea2c72e0f Merge branch 'ws/single-file-cone' into next
-e17ef564857b5fb5f14978680235e6ae9c096433 Merge branch 'ds/omit-trailing-hash-in-index' into next
-2a5d4537a2e9888d5715770d3ea46c0e30859ee4 Merge branch 'ar/dup-words-fixes' into next
-47395b7c6f877b1f119f9560f3886aad37f2c5ae Merge branch 'jk/strncmp-to-api-funcs' into next
-19cc3de33e2ecf9e71de376dc7271792f26fb258 Merge branch 'jk/read-object-cleanup' into next
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1673246786 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
+nonce 1673246785-a0eb1d0fa18e1e7ee765cf4222eb7e2504718dd2
 
---===============4471730436354442710==
-Content-Type: text/plain; charset="us-ascii"
+0a71553536d270e988580a3daa9fc87535908221 1fe4fd6f5cad346e598593af36caeadc4f5d4fa9 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmO7uEIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+1okP/15qxi21uQM4xc2fnkth
+lcYgm7FGLjamX3B6TrP2RWY1vh8AmhX7qU9Maqt9blCaCWKP9Pv3+k2Oj6UHfTQC
+7xhAE1NiiAsGMt1i7hONQTQ6Tar9iQKqK1DU2D+eluuvIZoWkBwbAUJHveDsV1Vx
+fa9uqyvgwPdt9oa7krov9pfydaqerVrhndyVkeQUrw0EiyUvErqeeHZGEv7myo6E
+7BX3jGIIkU88Kpm5SKh8WWKEZ6T8TGxvX6vD/xbJsyIOM+Ur6SIpzue26QzScKkA
+263hDl+qSg1HuNqmPotR2e6lBjDTs1mIsITiNFTZB/LQIKjjzg33jN50BRS1fC7Z
+LbtNO0R1mXGRZw6dffXW84n/hASWCYvSCzQTPp6Ao+2czSw9uMGRTYkBzp8KB4or
+QXg8AUHhsP9cCTXWFCUMPB0Dn5DHWtQdtAoyT71EGbyCe5dOcNquyh21QiaMcRny
+xuKenMzzz43MRtlyH23oBPpNfihj4yKCLBVo4OTZpTCwr1Sm+GNEtLpsZHv1xbn8
+oE8czjWoogxGeRYBaJ/znGLfOwMsQcRubn5dGhke1wTKV5tSrZCDg6olZoexmBdP
+iilNOIlg64s9MZh51HAc6UBan5ePeE0BJB8/GzFbQNiqHrIMA+dAU4AEMW98PuW5
+ZNdexrGVbB4c8IeGS1+dySw0
+=nMbz
+-----END PGP SIGNATURE-----
+
+--===============0942316997623709451==
+Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-86c388cb2aea-0712233c3370.txt
+Content-Transfer-Encoding: 8bit
+Content-Disposition: attachment; filename=revlist-0a71553536d2-1fe4fd6f5cad.txt
 
-ea8bc435611250a7594b0ff7009f671dbad783e9 grep: correctly identify utf-8 characters with \{b,w} in -P
-09884f352eb36cf2579d819595e9b7e1656a28b6 mingw: make argv2 in try_shell_exec() non-const
-1891846fa4d439be7f9a1a32c062f62cd863df2b factor out BARF_UNLESS_COPYABLE
-08e8c266653a486cc441ec031136875bf579f054 do full type check in BARF_UNLESS_COPYABLE
-d2ec87a684e2f9cd1f0c653620a00d74ad5ee2ce add DUP_ARRAY
-6e578410960d9ceb35ec98ad4b6fc711f1a9c85c use DUP_ARRAY
-54a17d4c978ddd352d68552cc27ffc164ac14a83 githooks: discuss Git operations in foreign repositories
-a54a58829e0f7c5744162ba53e7aa6557f34752a Merge branch 'es/t1509-root-fixes' into jch
-2671e10f527e3e7ee0bf09854ef9fc66522a5dc8 Merge branch 'pw/ci-print-failure-name-fix' into jch
-dee6e96e6ef63ce0c1d8e7fa5ab0d0c3c78bfb13 Merge branch 'tb/ci-concurrency' into jch
-4220d528e9988a44d79b0f455e036de271a593d8 Merge branch 'tr/am--no-verify' into jch
-1d17dc20baeb8c29c09e622c391266a0d09e90b4 Merge branch 'ds/bundle-uri-4' into jch
-f8b57aa8f8b3fa8511ce780ed58a8866f94d6466 Merge branch 'jk/ext-diff-with-relative' into jch
-2c671262bf1a11bca6c889968594cfa7909c0d8e Merge branch 'ws/single-file-cone' into jch
-e8ff4334aec95a1ff7163cec8be0278ea252d93e Merge branch 'ds/omit-trailing-hash-in-index' into jch
-9773a97261a5d8e8eba73fbd569de01182ff3f40 Merge branch 'ar/dup-words-fixes' into jch
-178e251790ee4469b72470dc6c176c40f7e564d8 Merge branch 'jk/strncmp-to-api-funcs' into jch
-8fc605db184b9ee9dcf087b90563086708a8b551 Merge branch 'jk/read-object-cleanup' into jch
-d751f0a3fa6aa556f7319ee29edd849b01c47ad0 ### match next
-83ff2d80fbd875ac95d865eda8d4595908e53920 Merge branch 'rs/use-enhanced-bre-on-macos' into jch
-248de3f54a8cfa0d77c9ed5adc838242c6d25025 ###
-d3b6c444a6b4bb77e959e66a484419806fae215a Merge branch 'tl/notes--blankline' into jch
-e1701d155d498131718e9687272d4fe14298bb0d Merge branch 'jc/spell-id-in-both-caps-in-message-id' into jch
-2622b4c021cd7a813b60cc46f6920d60c8eee422 Merge branch 'cb/grep-fallback-failing-jit' into jch
-6db2a02a2fb426f7eb37e3a01a53348b592cda21 Merge branch 'ad/test-record-count-when-harness-is-in-use' into jch
-3c9516b1074fd2ae377d84a797ca317a586118c6 Merge branch 'sk/win32-close-handle-upon-pthread-join' into jch
-efafc3c64b3c018ee15103d1c7143edd47b7450e Merge branch 'ab/avoid-losing-exit-codes-in-tests' into jch
-008965b0b10fc88c1a631c109f6b2405d2286af8 Merge branch 'jx/t1301-updates' into jch
-c1b23cdb4aba71a6554a2fce6c24815d0c9f5ee0 Merge branch 'ds/bundle-uri-5' into jch
-30983f9d86a5855f0b5037627d9b1646aed86af9 Merge branch 'rs/dup-array' into jch
-b308db07ea1cd20d610a00cd73c42ecd571f0cf2 Merge branch 'cb/grep-pcre-ucp' into jch
-0edc3832eac937cf0829cb6131ae6b939d36fb40 Merge branch 'es/hooks-and-local-env' into jch
-52bdaf6dcf427f2b5bb44f0eb0362c7146fb87c8 Merge branch 'js/range-diff-mbox' into seen
-a37c0cb5e1fae6e4bbe6d0ac22a051ef57692049 Merge branch 'po/pretty-hard-trunc' into seen
-8a0b8f656cae356932e2c1061766e56e7c52ec31 Merge branch 'mc/switch-advice' into seen
-5897a883d6293a18c7d76c924de52ef81c43be90 Merge branch 'ed/fsmonitor-inotify' into seen
-533fce04163dbc62675848d392b99416318a7806 Merge branch 'ab/tag-object-type-errors' into seen
-23db57bbea3ad0213096e74e3427f4651b388de6 Merge branch 'ab/config-multi-and-nonbool' into seen
-c16c29049e6fcde914db0f2f6948a073cbcc5ed0 Merge branch 'km/send-email-with-v-reroll-count' into seen
-1c5aec1bcd0c773e553d1ee7af26b46728f36537 Merge branch 'cc/filtered-repack' into seen
-d658ba6759ecd479b690337d2428ce65b8723264 Merge branch 'mc/credential-helper-auth-headers' into seen
-2630e54e711cf283e68f1465b712084e41515ab1 Merge branch 'so/diff-merges-more' into seen
-111043c2703f15ca815868d0601cdee4377da249 Merge branch 'ab/various-leak-fixes' into seen
-92a258f76742a639edc3bf0824194659cd7a5a05 Merge branch 'rj/branch-unborn-in-other-worktrees' into seen
-fc3965659d6a775f35784e9ba5ac1d890bb4152a Merge branch 'cw/submodule-status-in-parallel' into seen
-1ced6c055d877f5afac11df731a7097bd81fcfdb Merge branch 'kn/attr-from-tree' into seen
-aa59b041fc106e71e3e9c4dcb0c0c540c4aa86ad Merge branch 'pb/doc-orig-head' into seen
-0712233c3370574113fc0fb686c4360132f57d3d Merge branch 'ja/worktree-orphan' into seen
+b18cba09e374637a0a3759d856a6bca94c133952 SUNRPC: ensure the matching upcall is in-flight upon downcall
+a6b9d2fa0024e7e399c26facd0fb466b7396e2b9 pNFS/filelayout: Fix coalescing test for single DS
+26870c3f5b15187268bf183055c7b9f29fe66079 xfs: don't assert if cmap covers imap after cycling lock
+d4542f314507015ac0e25c6e8102b88293826a51 xfs: make xfs_iomap_page_ops static
+b659b613cea2ae39746ca8bd2b69d1985dd9d770 Revert "usb: ulpi: defer ulpi_register on ulpi_read_id timeout"
+2de5bba5890f6604a997c75e754df8082386c9f7 usb: fotg210: fix OTG-only build
+56c5dab20a6391604df9521f812c01d1e3fe1bd0 RDMA/srp: Move large values to a new enum for gcc13
+38b50aa44495d5eb4218f0b82fc2da76505cec53 RDMA/mlx5: Fix mlx5_ib_get_hw_stats when used for device
+8de8482fe5732fbef4f5af82bc0c0362c804cd1f RDMA/mlx5: Fix validation of max_rd_atomic caps for DC
+029085b8949f5d269ae2bbd14915407dd0c7f902 NFS: Judge the file access cache's timestamp in rcu path
+5e9a7b9c2ea18551759833146a181b14835bfe39 NFS: Fix up a sparse warning
+c0f399ff51495ac8d30367418f4f6292ecd61fbe xfs: fix off-by-one error in xfs_btree_space_to_height
+817644fa4525258992f17fecf4f1d6cdd2e1b731 xfs: get root inode correctly at bulkstat
+4da112513c01d7d0acf1025b8764349d46e177d6 xfs: Fix deadlock on xfs_inodegc_worker
+e195605ed28b5581dc2d509283cfea2e8635a251 xfs: xfs_qm: remove unnecessary ‘0’ values from error
+2a12187d5853d9fd5102278cecef7dac7c8ce7ea of/fdt: run soc memory setup when early_init_dt_scan_memory fails
+1d7a4a40bf76e2305c8beed4a019bf58af6121ac dt-bindings: soundwire: qcom,soundwire: correct sizes related to number of ports
+67fcb2c598bc7643f694e8194d5c300a52af5aa9 cifs: Fix kmap_local_page() unmapping
+9e6002c8738a9d5675ba706fcdbc0a544f814974 cifs: ignore ipc reconnect failures during dfs failover
+775e44d6d86dca400d614cbda5dab4def4951fe7 cifs: fix race in assemble_neg_contexts()
+340726747336716350eb5a928b860a29db955f05 memblock tests: Fix compilation error.
+fa81ab49bbe4e1ce756581c970486de0ddb14309 memblock: Fix doc for memblock_phys_free
+39a154fc2d172a3a5865e5a9fa2a2983eb7a99ac cifs: protect access of TCP_Server_Info::{dstaddr,hostname}
+bd0ddcfc83d85bc30c868f2c3457312c7f1ccee2 Revert "of: fdt: Honor CONFIG_CMDLINE* even without /chosen node"
+064e32dc5b03114d0767893fecdaf7b5dfd8c286 of: fdt: Honor CONFIG_CMDLINE* even without /chosen node, take 2
+7246210ecdd0cda97fa3e3bb15c32c6c2d9a23b5 cifs: refcount only the selected iface during interface update
+cc7d79d4fad6a4eab3f88c4bb237de72be4478f1 cifs: fix interface count calculation during refresh
+a53da43decaa3936998fa7dce2346855a6942166 kbuild: fix single *.ko build
+735aec59afb18c3e2da0a637037e69ad62dbda6a kbuild: readd -w option when vmlinux.o or Module.symver is missing
+4b9880dbf3bdba3a7c56445137c3d0e30aaa0a40 powerpc/vmlinux.lds: Define RUNTIME_DISCARD_EXIT
+07b050f9290ee012a407a0f64151db902a1520f5 powerpc/vmlinux.lds: Don't discard .rela* for relocatable builds
+be5f95c8779e19779dd81927c8574fec5aaba36c powerpc/vmlinux.lds: Don't discard .comment
+601a27ea09a317d0fe2895df7d875381fb393041 xfs: fix extent busy updating
+e95d50d74b93a767a026f588e8de0b9718a0105e lib/scatterlist: Fix to merge contiguous pages into the last SG properly
+1a5a23b9bdf6bde0e5185ca834ff6e806cc2aaaf usb: fotg210-udc: fix error return code in fotg210_udc_probe()
+e498a04443240c15c3c857165f7b652b87f4fd96 usb: dwc3: xilinx: include linux/gpio/consumer.h
+c4e3ef5685393c5051b52cf1e94b8891d49793ab usb: dwc3: gadget: Ignore End Transfer delay on teardown
+a7c4127a29ce222c9fa4fb4ae5b15e182a1ee5c9 Merge tag 'kbuild-fixes-v6.2-2' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+4a4dcea0831394b876ae955ecf49ba072ffbf059 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma
+c28bdeaf5d723b40c8e2901662f4e8acd574e839 Merge tag 'usb-6.2-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb
+0007c04038e5a3111bea1c4588bfb6778a69131d Merge tag 'devicetree-fixes-for-6.2-1' of git://git.kernel.org/pub/scm/linux/kernel/git/robh/linux
+f18fca98ac1622220dfdf795fefa91dc52d3707d Merge tag '6.2-rc2-smb3-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
+9b43a525db125799df81e6fbef712a2ae50bfc5d Merge tag 'nfs-for-6.2-2' of git://git.linux-nfs.org/projects/trondmy/linux-nfs
+e9ffbf16caa6cb596df7fd641bc6063a922c52e6 Merge tag 'fixes-2023-01-08' of git://git.kernel.org/pub/scm/linux/kernel/git/rppt/memblock
+93928d485d9df12be724cbdf1caa7d197b65001e Merge tag 'powerpc-6.2-2' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
+b7bfaa761d760e72a969d116517eaa12e404c262 Linux 6.2-rc3
+1fe4fd6f5cad346e598593af36caeadc4f5d4fa9 Merge tag 'xfs-6.2-fixes-2' of git://git.kernel.org/pub/scm/fs/xfs/xfs-linux
 
---===============4471730436354442710==--
+--===============0942316997623709451==--
