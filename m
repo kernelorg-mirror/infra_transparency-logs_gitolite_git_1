@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-Date: Mon, 09 Jan 2023 20:45:42 -0000
-Message-Id: <167329714293.20592.7811314086920816956@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vgupta/linux
+Date: Mon, 09 Jan 2023 21:08:58 -0000
+Message-Id: <167329853816.1819.4107987316005748828@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-user: vudentz
+repo: pub/scm/linux/kernel/git/vgupta/linux
+user: vgupta
 changes:
-  - ref: refs/heads/master
-    old: a288d38b19962efac5689dfa3eb9e7e111e39870
-    new: 2685a7e30bf133aed151cbad0edc63d688995a46
+  - ref: refs/heads/topic-elf-attr
+    old: 64d6575adab1e2ea1d5349fb5c2e3650b7efe4c7
+    new: 4e8a15219bb01b909cc9bc3d59604e8da3c55928
     log: |
-         f6dad2524ca772750e85ef3ec1ec59691df72fe3 Bluetooth: btusb: Add VID:PID 13d3:3529 for Realtek RTL8821CE
-         a18fca670e14f0c09c2ed332cf2c6d77a4ae05f9 Bluetooth: hci_qca: Fix driver shutdown on closed serdev
-         2685a7e30bf133aed151cbad0edc63d688995a46 Bluetooth: qca: Fix sparse warnings
+         4e8a15219bb01b909cc9bc3d59604e8da3c55928 riscv: elf: add .riscv.attributes parsing
          
