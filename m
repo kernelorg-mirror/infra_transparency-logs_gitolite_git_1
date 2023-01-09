@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============8774710394458406362=="
+Content-Type: multipart/mixed; boundary="===============1170013581184485222=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Mon, 09 Jan 2023 10:14:39 -0000
-Message-Id: <167325927912.15212.12973602128740762047@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Mon, 09 Jan 2023 10:14:52 -0000
+Message-Id: <167325929240.15310.5011036292364377955@gitolite.kernel.org>
 
---===============8774710394458406362==
+--===============1170013581184485222==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: leon
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: b7bfaa761d760e72a969d116517eaa12e404c262
     log: revlist-88603b6dc419-b7bfaa761d76.txt
 
---===============8774710394458406362==
+--===============1170013581184485222==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -348,4 +348,4 @@ e9ffbf16caa6cb596df7fd641bc6063a922c52e6 Merge tag 'fixes-2023-01-08' of git://g
 93928d485d9df12be724cbdf1caa7d197b65001e Merge tag 'powerpc-6.2-2' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
 b7bfaa761d760e72a969d116517eaa12e404c262 Linux 6.2-rc3
 
---===============8774710394458406362==--
+--===============1170013581184485222==--
