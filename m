@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7993937544193876124=="
+Content-Type: multipart/mixed; boundary="===============7418612812218238285=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Mon, 09 Jan 2023 16:48:18 -0000
-Message-Id: <167328289835.23164.5021585590133276548@gitolite.kernel.org>
+Date: Mon, 09 Jan 2023 16:48:52 -0000
+Message-Id: <167328293245.23410.13651039288285927251@gitolite.kernel.org>
 
---===============7993937544193876124==
+--===============7418612812218238285==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: c244c092f1ed2acfb5af3d3da81e22367d3dd733
-    new: 7d6ceeb1875cc08dc3d1e558e191434d94840cd5
-    log: revlist-c244c092f1ed-7d6ceeb1875c.txt
+  - ref: refs/heads/dev-queue
+    old: 1504740fc0229fa18e23c48232af1b8ef66608b2
+    new: 4cb425d20a6ddbf9fd40989c31f5c6f8f304dc35
+    log: revlist-1504740fc022-4cb425d20a6d.txt
 
---===============7993937544193876124==
+--===============7418612812218238285==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c244c092f1ed-7d6ceeb1875c.txt
+Content-Disposition: attachment; filename=revlist-1504740fc022-4cb425d20a6d.txt
 
 8a758d98dba380a7d32a98b0840ad707e3036233 rxrpc: Stash the network namespace pointer in rxrpc_local
 5040011d073d3acdeb58af2b64f84e33bb03abd2 rxrpc: Make the local endpoint hold a ref on a connected call
@@ -54,5 +54,23 @@ a5a36720c3f650f859f5e9535dd62d06f13f4f3b brcmfmac: Prefer DT board type over DMI
 7871f54e3deed68a27111dda162c4fe9b9c65f8f gro: take care of DODGY packets
 76761babaa984fce8ecd87d87a68d920f24df438 net: lan966x: Allow to add rules in TCAM even if not enabled
 7d6ceeb1875cc08dc3d1e558e191434d94840cd5 af_unix: selftest: Fix the size of the parameter to connect()
+ce0b8964b6c14f3e76f1ab1619631b0ead97cd9d iavf: Fix shutdown pci callback to match the remove one
+eba724c4097328e7741ce727799f30b842115374 intel/igbvf: free irq on the error path in igbvf_request_msix()
+63f86f71e7e534f64c359344c47d851bf7643147 igb: Enable SR-IOV after reinit
+e7b186490ea0595d3a55bb80508b05762135a51f ice: Fix broken link in ice NAPI doc
+a3d26959e2264f6ab3914be7fc9845bb1ba65da4 ice: Fix deadlock on the rtnl_mutex
+b75977579c511c8db080254f1b836570a4f00dfe ixgbe: fix pci device refcount leak
+fbd599fe9657d36b09196ee2dd05d51582f30f87 igbvf: Regard vf reset nack as success
+d34489ff4cbaa3b6fea454466b034d41ee6e8d7a ice: Fix potential memory leak in ice_gnss_tty_write()
+d3004f4b845c5e62ad2e5a470c4267b4ab7dfd61 ice: Add check for kzalloc
+9fc257df65525343784f7a73b75fbeec83d4ddf2 igb: conditionalize I2C bit banging on external thermal sensor support
+5d6cf735516909c01e6e0710fac8ae8d7c7cf07d ice: switch: fix potential memleak in ice_add_adv_recipe()
+5390d07920b16feda9fb8ce2003b6d84583ef34c igc: Fix PPS delta between two synchronized end-points
+ca7facb6602f4398ff153e378a6c6e4deba9e86b iavf: fix temporary deadlock and failure to set MAC address
+80119f93e24df30d1de030284302d9ee7876e651 iavf: avoid taking rtnl_lock in adminq_task
+d16349f8a8827f41d2d5a507b96ee4d5742a9281 ice: Prevent set_channel from changing queues while RDMA active
+efdbf67e8daf934c169cd1128af9f868fed5446f iavf/iavf_main: actually log ->src mask when talking about it
+b405af1e33b94b8d6bf327e0d64d8dfe534907ec i40e: Fix crash when rebuild fails in i40e_xdp_setup
+4cb425d20a6ddbf9fd40989c31f5c6f8f304dc35 ice: fix out-of-bounds KASAN warning in virtchnl
 
---===============7993937544193876124==--
+--===============7418612812218238285==--
