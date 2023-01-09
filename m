@@ -1,23 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/iwlwifi/iwlwifi-next
-Date: Mon, 09 Jan 2023 10:40:15 -0000
-Message-Id: <167326081514.1010.2286260472790910383@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Mon, 09 Jan 2023 10:43:44 -0000
+Message-Id: <167326102484.2224.10614983076303339842@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/iwlwifi/iwlwifi-next
-user: ggreenman
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/heads/pending
-    old: 44bacbdf9066c590423259dbd6d520baac99c1a8
-    new: 5f34d73d1f7474c8466a0bd3d6c26d1467a5e576
+  - ref: refs/heads/sched/urgent
+    old: 7fb3ff22ad8772bbf0e3ce1ef3eb7b09f431807f
+    new: 9a5418bc48babb313d2a62df29ebe21ce8c06c59
     log: |
-         ead56028f7568ca66d0afee09cd41fbe85dc0950 mac80211: support minimal EHT rate reporting on RX
-         5f34d73d1f7474c8466a0bd3d6c26d1467a5e576 iwlwifi: mvm: add minimal EHT rate reporting
+         87ca4f9efbd7cc649ff43b87970888f2812945b8 sched/core: Fix use-after-free bug in dup_user_cpus_ptr()
+         9a5418bc48babb313d2a62df29ebe21ce8c06c59 sched/core: Use kfree_rcu() in do_set_cpus_allowed()
          
-  - ref: refs/tags/iwlwifi-next-sent-for-review-2023-01-09
-    old: 0000000000000000000000000000000000000000
-    new: 5f34d73d1f7474c8466a0bd3d6c26d1467a5e576
