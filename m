@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Mon, 09 Jan 2023 08:11:57 -0000
-Message-Id: <167325191754.18371.1979384180251461533@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Mon, 09 Jan 2023 08:15:19 -0000
+Message-Id: <167325211958.21172.16596683783732981893@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: davem
 changes:
   - ref: refs/heads/master
-    old: 7871f54e3deed68a27111dda162c4fe9b9c65f8f
-    new: 76761babaa984fce8ecd87d87a68d920f24df438
+    old: 0fd43d0cd030ea850796d4a4767452dbcf3bae17
+    new: 12c1604ae1a39bef87ac099f106594b4cb433b75
     log: |
-         76761babaa984fce8ecd87d87a68d920f24df438 net: lan966x: Allow to add rules in TCAM even if not enabled
+         12c1604ae1a39bef87ac099f106594b4cb433b75 net: skb: remove old comments about frag_size for build_skb()
          
