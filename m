@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/kernel/ndctl/ndctl
-Date: Mon, 09 Jan 2023 21:12:39 -0000
-Message-Id: <167329875972.4541.16778765623857881419@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/djiang/linux
+Date: Mon, 09 Jan 2023 21:40:06 -0000
+Message-Id: <167330040656.23151.1151607624283466434@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/kernel/ndctl/ndctl
-user: vishal
+repo: pub/scm/linux/kernel/git/djiang/linux
+user: djiang
 changes:
-  - ref: refs/heads/pending
-    old: b9ecc503d5de131bf0484d49884a1106919959f5
-    new: 5b57c48998186b894fb94ce099c785d584773402
-    log: |
-         5b57c48998186b894fb94ce099c785d584773402 cxl/Documentation: Update man page for using 'host' names in 'cxl list' filters
-         
+  - ref: refs/heads/cxl-emulate-hdm
+    old: 0000000000000000000000000000000000000000
+    new: 26f0d531085b0d09aa619fe7cbf5a457cbe425d8
