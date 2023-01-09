@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2369143406311743767=="
+Content-Type: multipart/mixed; boundary="===============7151789324239289151=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec
-Date: Mon, 09 Jan 2023 06:09:42 -0000
-Message-Id: <167324458224.2454.9414267196066103231@gitolite.kernel.org>
+Date: Mon, 09 Jan 2023 06:10:15 -0000
+Message-Id: <167324461540.4216.11574604101930226279@gitolite.kernel.org>
 
---===============2369143406311743767==
+--===============7151789324239289151==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/klassert/ipsec
 user: klassert
 changes:
-  - ref: refs/heads/testing
+  - ref: refs/heads/master
     old: 7ae9888d6e1ce4062d27367a28e46a26270a3e52
     new: 571f3dd0d01b62ec63a4039320dbdbcd54ae8fb0
     log: revlist-7ae9888d6e1c-571f3dd0d01b.txt
 
---===============2369143406311743767==
+--===============7151789324239289151==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ b4e9b8763e417db31c7088103cc557d55cb7a8f5 octeontx2-af: Fix LMAC config in cgx_lm
 42f229c350f57a8e825f7591e17cbc5c87e50235 rxrpc: Fix incoming call setup race
 571f3dd0d01b62ec63a4039320dbdbcd54ae8fb0 Merge tag 'rxrpc-fixes-20230107' of git://git.kernel.org/pub/scm/linux/kernel/git/dhowells/linux-fs
 
---===============2369143406311743767==--
+--===============7151789324239289151==--
