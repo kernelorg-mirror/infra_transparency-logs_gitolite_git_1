@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============6338247695064130859=="
+Content-Type: multipart/mixed; boundary="===============1382514661162647500=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Mon, 09 Jan 2023 16:29:15 -0000
-Message-Id: <167328175514.9662.5685070650486953372@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 09 Jan 2023 16:29:21 -0000
+Message-Id: <167328176181.9766.10044559943026853187@gitolite.kernel.org>
 
---===============6338247695064130859==
+--===============1382514661162647500==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.3
+  - ref: refs/heads/asoc-6.3
     old: b118458936785bd104e95f09abd52525c0a84616
     new: 6c45b2d68526d24a51118c45e3598390ae3a1595
     log: revlist-b11845893678-6c45b2d68526.txt
 
---===============6338247695064130859==
+--===============1382514661162647500==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1673281753 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1673281752-fcbfdd1ae5bb6c6e931debd7d8f171197ee0d2d4
+pusher C3F436CA30F5D8EB 1673281760 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1673281759-ca0820fac1f74a218042f93321dd2e8ced590ece
 
-b118458936785bd104e95f09abd52525c0a84616 6c45b2d68526d24a51118c45e3598390ae3a1595 refs/heads/for-6.3
+b118458936785bd104e95f09abd52525c0a84616 6c45b2d68526d24a51118c45e3598390ae3a1595 refs/heads/asoc-6.3
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmO8QNkACgkQJNaLcl1U
-h9DJuQf9H8qBd5Lp68mZlwaUVoqWrfFZS5pWUkoRvu/KjxlqOAuxYH8E8xImRXKe
-fw01k0ReAX77zrYR2RtneipCWXbLU5GogFZpE7sbUNe5ufRjFN3ED83D5I3yVXqY
-8GSk5/6FDcRbYo2AQnat+s1DYizVUlUVojw6qOeXnnAHy3lo0XSp9PFXEdQjQYFB
-q9lTY1iYkz9vFAdJmd64Bcs6snfLDt03r/OvIBZcEJWA7unSZ/Z6fSWEtjINzI3s
-nPadjAbgusYak7/RO5YjjGNDutD75Rr7Fzv3dpKs5WK/reLVVtyjWAf2csz7C/gA
-Wk+MpAr9+09UDqiNx1rCpBjergHa3w==
-=XK4m
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmO8QOAACgkQJNaLcl1U
+h9BIVgf9GnnStCmkmAPX1w7Z/0+ojnPypB8FPHitdvrhK2EuploXaIxXEWAFTRhc
+HIJqe9T7rS+FNRMM26tglCpayuFkggERNpNgWrooJXbXR2ZP6T9SvWOXw6TJuO9H
+mWILF9JMAjXdEriSjNbjCX5ZpFI8ThcdxBZ5NpilCtRqhvhJrqdi4ZK4glQ1+mmP
+LpdHZh8l7YZ6ZcD97TVfV0TCjOKF3rcldmSTyn7YqvI+kwZWAZo6tQnSZs5Dl3YW
+vbfTTw6xPnJLluriKw2v2fRkC0VFjz0WQ0fkOSqwrGyK00+bY3SqnuzVrNljC1vK
+S9nh7nlEb/hXUiyXGw9jVTauwESUWA==
+=UDpL
 -----END PGP SIGNATURE-----
 
---===============6338247695064130859==
+--===============1382514661162647500==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -68,4 +68,4 @@ cbf74baf02219978bfa9c2959eac6bf1d98c32cd ASoC: dt-bindings: simple-card: correct
 8c187e2212347752097843fdda814da092436f90 Add support for XCVR on i.MX93 platform
 6c45b2d68526d24a51118c45e3598390ae3a1595 ASoC: nau8822: add speaker Bridge Tied Output
 
---===============6338247695064130859==--
+--===============1382514661162647500==--
