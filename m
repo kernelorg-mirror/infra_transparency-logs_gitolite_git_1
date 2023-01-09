@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vgupta/linux
-Date: Mon, 09 Jan 2023 08:10:18 -0000
-Message-Id: <167325181810.17801.17155003458656814697@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Mon, 09 Jan 2023 08:11:57 -0000
+Message-Id: <167325191754.18371.1979384180251461533@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vgupta/linux
-user: vgupta
+repo: pub/scm/linux/kernel/git/netdev/net
+user: davem
 changes:
-  - ref: refs/heads/topic-elf-attr
-    old: 7d9c71ae0b2984c216c7fd9b42dbe3d31de546be
-    new: 3de82d761b079583e9ae043a7e4cacae49020f9e
+  - ref: refs/heads/master
+    old: 7871f54e3deed68a27111dda162c4fe9b9c65f8f
+    new: 76761babaa984fce8ecd87d87a68d920f24df438
     log: |
-         3de82d761b079583e9ae043a7e4cacae49020f9e riscv: elf: add .riscv.attributes parsing
+         76761babaa984fce8ecd87d87a68d920f24df438 net: lan966x: Allow to add rules in TCAM even if not enabled
          
