@@ -1,46 +1,19 @@
-Content-Type: multipart/mixed; boundary="===============0817092766266038844=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/b4/b4
-Date: Mon, 09 Jan 2023 23:22:54 -0000
-Message-Id: <167330657475.28787.10144951248043977159@gitolite.kernel.org>
-
---===============0817092766266038844==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+Date: Mon, 09 Jan 2023 23:39:00 -0000
+Message-Id: <167330754021.6433.975532477089473136@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/b4/b4
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+user: vudentz
 changes:
   - ref: refs/heads/master
-    old: 26e7d3ccd9d5d6f100aa8e0b94882aec3353262f
-    new: 12cbf0c26152c9ed2b2443d52f3a9dbe23f4f86c
+    old: 2685a7e30bf133aed151cbad0edc63d688995a46
+    new: e8b5fd71713bb440fbe0ddac0c1e48c6326fddd4
     log: |
-         12cbf0c26152c9ed2b2443d52f3a9dbe23f4f86c Don't break on hyphen when wrapping headers
+         e8b5fd71713bb440fbe0ddac0c1e48c6326fddd4 Bluetooth: hci_sync: fix memory leak in hci_update_adv_data()
          
-
---===============0817092766266038844==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher B6C41CE35664996C! 1673306574 -0500
-pushee gitolite.kernel.org:pub/scm/utils/b4/b4
-nonce 1673306574-5466d51848b18d27b1051edc93863983c2c22e1b
-
-26e7d3ccd9d5d6f100aa8e0b94882aec3353262f 12cbf0c26152c9ed2b2443d52f3a9dbe23f4f86c refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCY7yhzgAKCRC2xBzjVmSZ
-bCvDAP9ubvMwma7YhZOQYr8gYmYx/jDYzGPI4pCo9HRy7iy2VwD/YRi+Nksx10/0
-W4xDfPvs1KBfUgL9K96rLAoVWtRIFwM=
-=pjnW
------END PGP SIGNATURE-----
-
---===============0817092766266038844==--
