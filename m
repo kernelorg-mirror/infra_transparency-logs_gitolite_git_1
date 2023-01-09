@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7201399127151065225=="
+Content-Type: multipart/mixed; boundary="===============7876713352629258775=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 09 Jan 2023 11:10:52 -0000
-Message-Id: <167326265211.21548.3333794504211792379@gitolite.kernel.org>
+Date: Mon, 09 Jan 2023 11:12:53 -0000
+Message-Id: <167326277330.22286.18130176928539506172@gitolite.kernel.org>
 
---===============7201399127151065225==
+--===============7876713352629258775==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,20 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
+  - ref: refs/heads/auto-latest
+    old: 9c4fb147c3492fd4be1b89c22a4c333308f6f44a
+    new: 0d162285311c8b6627cc248efe01e6d778d1f931
+    log: revlist-9c4fb147c349-0d162285311c.txt
   - ref: refs/heads/master
-    old: 1dcd4ab85597a1ff1b5c678f655a80c92c44e059
-    new: 9c9e500c516263b529e0b6545e1b8d854e13b0f8
-    log: revlist-1dcd4ab85597-9c9e500c5162.txt
-  - ref: refs/tags/v6.2-rc3
-    old: 0000000000000000000000000000000000000000
-    new: d4245d7ef91d67fe3d21e2faab131fdeab636209
+    old: 9c9e500c516263b529e0b6545e1b8d854e13b0f8
+    new: 0d162285311c8b6627cc248efe01e6d778d1f931
+    log: revlist-9c9e500c5162-0d162285311c.txt
 
---===============7201399127151065225==
+--===============7876713352629258775==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-1dcd4ab85597-9c9e500c5162.txt
+Content-Disposition: attachment; filename=revlist-9c4fb147c349-0d162285311c.txt
 
 b18cba09e374637a0a3759d856a6bca94c133952 SUNRPC: ensure the matching upcall is in-flight upon downcall
 a6b9d2fa0024e7e399c26facd0fb466b7396e2b9 pNFS/filelayout: Fix coalescing test for single DS
@@ -76,11 +77,46 @@ e9ffbf16caa6cb596df7fd641bc6063a922c52e6 Merge tag 'fixes-2023-01-08' of git://g
 93928d485d9df12be724cbdf1caa7d197b65001e Merge tag 'powerpc-6.2-2' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
 b7bfaa761d760e72a969d116517eaa12e404c262 Linux 6.2-rc3
 1fe4fd6f5cad346e598593af36caeadc4f5d4fa9 Merge tag 'xfs-6.2-fixes-2' of git://git.kernel.org/pub/scm/fs/xfs/xfs-linux
-e11682532556290b5e97aa2ad1ad833eb5ad7b5d Merge branch 'linus'
+87ca4f9efbd7cc649ff43b87970888f2812945b8 sched/core: Fix use-after-free bug in dup_user_cpus_ptr()
+9a5418bc48babb313d2a62df29ebe21ce8c06c59 sched/core: Use kfree_rcu() in do_set_cpus_allowed()
 01f2ea5bcf89dbd7a6530dbce7f2fb4e327e7006 perf/x86/cstate: Add Meteor Lake support
 6887a4d3aede084bf08b70fbc9736c69fce05d7f perf/x86/msr: Add Meteor Lake support
 69ced4160969025821f2999ff92163ed26568f1c perf/x86/msr: Add Emerald Rapids
 5268a2842066c227e6ccd94bac562f1e1000244f perf/x86/intel/uncore: Add Emerald Rapids
-9c9e500c516263b529e0b6545e1b8d854e13b0f8 Merge branch into tip/master: 'perf/urgent'
+e110f343263ed1cc139c67cca566864b6102e70a Merge branch into tip/master: 'perf/urgent'
+6751ce0d180b83076b5dc8392335ee9f9b8dcfd0 Merge branch into tip/master: 'sched/urgent'
+8db1049c7992e3129e20efc3ec0622958273289c Merge branch into tip/master: 'timers/urgent'
+ca8d003f0ecfccebf6d0e6c05ea7ecfeb7bcd70b Merge branch into tip/master: 'locking/core'
+80638fc655f13ebed1a1d5ae60c7cd0888eda214 Merge branch into tip/master: 'objtool/core'
+bd77c203465453ae28470413e4a4f6cfa00209f8 Merge branch into tip/master: 'perf/core'
+7a2f60d75782f26b34ea4cd060a1b5eef53126d0 Merge branch into tip/master: 'ras/core'
+c7669fe76b5484b6216f58b9e4dffec64529c6fd Merge branch into tip/master: 'sched/core'
+03e1a209a8e39274b6c7530d0cc9c1c90cfed465 Merge branch into tip/master: 'x86/alternatives'
+213166a0e36e6b6bdc69b7ad0dc32b804dc7c30c Merge branch into tip/master: 'x86/asm'
+8a04e5cc988a2e8f91ef1630c601e6861ee06a8b Merge branch into tip/master: 'x86/cleanups'
+0beb82a559febbf09e1647825462354125359c1c Merge branch into tip/master: 'x86/core'
+038b13ab9f83d55ea72fdff19449781d3da3f5ac Merge branch into tip/master: 'x86/microcode'
+0d162285311c8b6627cc248efe01e6d778d1f931 Merge branch into tip/master: 'x86/platform'
 
---===============7201399127151065225==--
+--===============7876713352629258775==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-9c9e500c5162-0d162285311c.txt
+
+e110f343263ed1cc139c67cca566864b6102e70a Merge branch into tip/master: 'perf/urgent'
+6751ce0d180b83076b5dc8392335ee9f9b8dcfd0 Merge branch into tip/master: 'sched/urgent'
+8db1049c7992e3129e20efc3ec0622958273289c Merge branch into tip/master: 'timers/urgent'
+ca8d003f0ecfccebf6d0e6c05ea7ecfeb7bcd70b Merge branch into tip/master: 'locking/core'
+80638fc655f13ebed1a1d5ae60c7cd0888eda214 Merge branch into tip/master: 'objtool/core'
+bd77c203465453ae28470413e4a4f6cfa00209f8 Merge branch into tip/master: 'perf/core'
+7a2f60d75782f26b34ea4cd060a1b5eef53126d0 Merge branch into tip/master: 'ras/core'
+c7669fe76b5484b6216f58b9e4dffec64529c6fd Merge branch into tip/master: 'sched/core'
+03e1a209a8e39274b6c7530d0cc9c1c90cfed465 Merge branch into tip/master: 'x86/alternatives'
+213166a0e36e6b6bdc69b7ad0dc32b804dc7c30c Merge branch into tip/master: 'x86/asm'
+8a04e5cc988a2e8f91ef1630c601e6861ee06a8b Merge branch into tip/master: 'x86/cleanups'
+0beb82a559febbf09e1647825462354125359c1c Merge branch into tip/master: 'x86/core'
+038b13ab9f83d55ea72fdff19449781d3da3f5ac Merge branch into tip/master: 'x86/microcode'
+0d162285311c8b6627cc248efe01e6d778d1f931 Merge branch into tip/master: 'x86/platform'
+
+--===============7876713352629258775==--
