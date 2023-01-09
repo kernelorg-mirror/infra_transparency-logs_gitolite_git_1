@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1432573648647720492=="
+Content-Type: multipart/mixed; boundary="===============4519199695010420393=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Mon, 09 Jan 2023 14:39:10 -0000
-Message-Id: <167327515027.31153.1241141548264958057@gitolite.kernel.org>
+Date: Mon, 09 Jan 2023 14:40:33 -0000
+Message-Id: <167327523347.707.7371312659611786737@gitolite.kernel.org>
 
---===============1432573648647720492==
+--===============4519199695010420393==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,27 +15,19 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cel/linux
 user: cel
 changes:
-  - ref: refs/heads/master
-    old: 88603b6dc419445847923fcb7fe5080067a30f98
-    new: b7bfaa761d760e72a969d116517eaa12e404c262
-    log: revlist-88603b6dc419-b7bfaa761d76.txt
-  - ref: refs/tags/v6.2-rc3
-    old: 0000000000000000000000000000000000000000
-    new: d4245d7ef91d67fe3d21e2faab131fdeab636209
+  - ref: refs/heads/for-next
+    old: eb9f5033893b80da6166fd6a3913e160ae2b4a4d
+    new: 0cf7baa6228258648a5ce9d1c79387df2a9607de
+    log: revlist-eb9f5033893b-0cf7baa62282.txt
 
---===============1432573648647720492==
+--===============4519199695010420393==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-88603b6dc419-b7bfaa761d76.txt
+Content-Disposition: attachment; filename=revlist-eb9f5033893b-0cf7baa62282.txt
 
 f728a5ea27c92133893590e731ce10f6561ced87 dma-buf: fix dma_buf_export init order v2
 01258b62c62710297dab4e2b72f46e01be392cc6 wifi: ti: remove obsolete lines in the Makefile
-abe3bf7425fb695a9b37394af18b9ea58a800802 btrfs: fix an error handling path in btrfs_rename()
-db0a4a7b8e95f9312a59a67cbd5bc589f090e13d btrfs: fix an error handling path in btrfs_defrag_leaves()
-c68f72900a12a56c5e9890e6f2ca5119234c9a75 btrfs: fix leak of fs devices after removing btrfs module
-f1f0460c0ca97a4a6570f211c81579294a6cc7be btrfs: restore BTRFS_SEQ_LAST when looking up qgroup backref lookup
-0a3212de8ab3e2ce5808c6265855e528d4a6767b btrfs: fix trace event name typo for FLUSH_DELAYED_REFS
 b18cba09e374637a0a3759d856a6bca94c133952 SUNRPC: ensure the matching upcall is in-flight upon downcall
 4e699e34f923188175986ad8a74ab99f7034075e drm/plane-helper: Add the missing declaration of drm_atomic_state
 cc074822465d18a2d39e0b3e2b48b6766a568db2 bpf: Define sock security related BTF IDs under CONFIG_SECURITY_NETWORK
@@ -43,9 +35,6 @@ cc074822465d18a2d39e0b3e2b48b6766a568db2 bpf: Define sock security related BTF I
 37fc9ad1617a303bbfd28870eb25aaa4766e79ab wifi: mt76: mt7996: select CONFIG_RELAY
 b7dc753fe33a707379e2254317794a4dad6c0fe2 wifi: ath9k: use proper statements in conditionals
 a6b9d2fa0024e7e399c26facd0fb466b7396e2b9 pNFS/filelayout: Fix coalescing test for single DS
-560840afc3e63bbe5d9c5ef6b2ecf8f3589adff6 btrfs: fix resolving backrefs for inline extent followed by prealloc
-e7fc357ec03ee109da503af0dd31bbf68514e481 btrfs: scrub: fix uninitialized return value in recover_scrub_rbio
-fee4c19937439693f2420a916169d08e88576e8e btrfs: fix fscrypt name leak after failure to join log transaction
 54c3f1a81421f85e60ae2eaae7be3727a09916ee bpf: pull before calling skb_postpull_rcsum()
 4217c6ac817451d5116687f3cc6286220dc43d49 drm/panfrost: Fix GEM handle creation ref-counting
 5eb119da94ac5d67a31eaa869621dc6e25eb125e netfilter: conntrack: fix ipv6 exthdr error check
@@ -66,7 +55,6 @@ fec3adfd754ccc99a7230e8ab9f105b65fb07bcc mptcp: fix lockdep false positive
 42c7ded0eeacd2ba5db599205c71c279dc715de7 bonding: fix lockdep splat in bond_miimon_commit()
 d717f9474e3fb7e6bd3e43ca16e131f04320ed6f net: lan966x: Fix configuration of the PCS
 fa349e396e4886d742fd6501c599ec627ef1353b veth: Fix race with AF_XDP exposing old or uninitialized descriptors
-789e1e10f214c00ca18fc6610824c5b9876ba5f2 nfsd: shut down the NFSv4 state objects before the filecache
 55171f2930be98c8a49991435cdf3a8b574353b6 bpftool: Fix linkage with statically built libllvm
 8374bfd5a3c90a5b250f7c087c4d2b8ac467b12e bpf: fix nullness propagation for reg to reg comparisons
 cedebd74cf3883f0384af9ec26b4e6f8f1964dd4 selftests/bpf: check null propagation only neither reg is PTR_TO_BTF_ID
@@ -91,9 +79,6 @@ d3805695fe1e7383517903715cefc9bbdcffdc90 net: ethernet: marvell: octeontx2: Fix 
 f4ef681115f822daf7f36f8b1892d9f1e1a26fbf docs: netdev: reshuffle sections in prep for de-FAQization
 ff249be5cca9f982e58936847ba6c30104abbcad docs: netdev: convert to a non-FAQ document
 81852018f240f9382f5fab3582de0a42cd059d08 Merge branch 'netdev-doc-defaq'
-b9e05399d9273c8c066e73db1e6e85364003030c vdpa: merge functionally duplicated dev_features attributes
-c262f75cb6bb5a63828e72ce3b8fe808e5029479 tools/virtio: initialize spinlocks in vring_test.c
-258896fcc786b4e7db238eba26f6dd080e0ff41e virtio-blk: use a helper to handle request queuing errors
 8e6a8d7a3dd93e93645be061692cb4ee6702dff0 net: ethernet: renesas: rswitch: Fix error path in renesas_eth_sw_probe()
 bd2adfe3b3b863c883309bcc915f13c831ca88da net: ethernet: renesas: rswitch: Fix getting mac address from device tree
 3ec3ebec7c767e6d19768cb262663645b3506c0b Merge branch 'rswitch-fixes'
@@ -105,35 +90,6 @@ a056ebcc30e2f78451d66f615d2f6bdada3e6438 bnxt_en: Fix HDS and jumbo thresholds f
 8ac718cc0e36ef4046e2d6349727fecddc13ab9c Merge branch 'bnxt_en-fixes'
 b659b613cea2ae39746ca8bd2b69d1985dd9d770 Revert "usb: ulpi: defer ulpi_register on ulpi_read_id timeout"
 2de5bba5890f6604a997c75e754df8082386c9f7 usb: fotg210: fix OTG-only build
-a6ce72c0fb6041f9871f880b2d02b294f7f49cb4 vdpa/mlx5: Fix rule forwarding VLAN to TIR
-5aec804936bbff182081f1cdc271fcb76af1a4ff vdpa/mlx5: Return error on vlan ctrl commands if not supported
-1ab53760d322c82fb4cb5e81b5817065801e3ec4 vdpa/mlx5: Fix wrong mac address deletion
-0dbc1b4ae07d003b2e88ba9d4142846320f8e349 vdpa/mlx5: Avoid using reslock in event_handler
-38fc462f57ef4e5dc722bab6824854b105de8aa2 vdpa/mlx5: Avoid overwriting CVQ iotlb
-344686136d73501a18a9621de690ff7824a3d129 virtio_pci: use helper function is_power_of_2()
-b9d978a89296c57fbbbd8ea647c303ce4d37028f virtio_ring: use helper function is_power_of_2()
-a9f0a19ff7700cc8a30db2496f40d18490dcb9df RDMA/mlx5: remove variable i
-b66ead2d0ecac00c3a06a6218af5411cb5fcb5d5 virtio_pci: modify ENOENT to EINVAL
-75e4ab9735a5a70612dd06461ca372b897bf371c tools: Delete the unneeded semicolon after curly braces
-aeca7ff254843d49a8739f07f7dab1341450111d vdpa_sim: fix possible memory leak in vdpasim_net_init() and vdpasim_blk_init()
-7a4efe182ca61fb3e5307e69b261c57cbf434cd4 vhost/vsock: Fix error handling in vhost_vsock_init()
-f85efa9b0f5381874f727bd98f56787840313f0b vringh: fix range used in iotlb_translate()
-98047313cdb46828093894d0ac8b1183b8b317f9 vhost: fix range used in translate_desc()
-c070c1912a83432530cbb4271d5b9b11fa36b67a vhost-vdpa: fix an iotlb memory leak
-f4e468f708386ce5fa6878a7ef43a9818ceeaecf virtio_blk: use UINT_MAX instead of -1U
-794ec498c9fa79e6bfd71b931410d5897a9c00d4 vdpa_sim: fix vringh initialization in vdpasim_queue_ready()
-a4722f64f924a9992efc08d141c21b2da02b70f3 tools/virtio: Variable type completion
-b1d65f717cd6305a396a8738e022c6f7c65cfbe8 virtio-crypto: fix memory leak in virtio_crypto_alg_skcipher_close_session()
-c8e82e3877028381969779a86972d9a4f57a9ea0 virtio: Implementing attribute show with sysfs_emit
-e794070af224ade46db368271896b2685ff4f96b vhost_vdpa: fix the crash in unmap a large memory
-8aeac42d60936046a00e67cdf7d27b061df2962f tools/virtio: remove stray characters
-81931012bd7dc52fadf2b720605fce8a7148d4a7 tools/virtio: remove smp_read_barrier_depends()
-937c783aa3d8d77963ec91918d3298edb45b9161 vduse: Validate vq_num in vduse_validate_config()
-ed843d6ed7310a27cf7c8ee0a82a482eed0cb4a6 vdpa/vp_vdpa: fix kfree a wrong pointer in vp_vdpa_remove
-1c96d5457f7251d1c62aacc04921557d56fc049a vdpa: conditionally fill max max queue pair for stats
-0b7a04a30eef20e6b24926a45c0ce7906ae85bd6 vdpasim: fix memory leak when freeing IOTLBs
-72455a1142527e607e1d69439f3ffa2ef6d09e26 vdpa_sim_net: should not drop the multicast/broadcast packet
-a26116c1e74028914f281851488546c91cbae57d virtio_blk: Fix signedness bug in virtblk_prep_rq()
 9deb1e9fb88b1120a908676fa33bdf9e2eeaefce net/ethtool/ioctl: return -EOPNOTSUPP if we have no phy stats
 fd4778581d61d8848b532f8cdc9b325138748437 net/ethtool/ioctl: remove if n_stats checks from ethtool_get_phy_stats
 201ed315f9676809cd5b20a39206e964106d4f27 net/ethtool/ioctl: split ethtool_get_phy_stats into multiple helpers
@@ -225,11 +181,7 @@ a8f54d940196c8bd9aced9c82557fdc63baefb02 perf tools riscv: Fix build error on ri
 55c41f2e4f7e81e48f3ecc9fba1e316e770213f2 perf help: Use HAVE_LIBTRACEEVENT to filter out unsupported commands
 92d43bd3bc9728c1fb114d7011d46f5ea9489e28 drm/imx: ipuv3-plane: Fix overlay plane width
 f24fb53984cfba42ff72a47466eabfd772da647b perf tools: Don't include signature in version strings
-cad853374d85fe678d721512cecfabd7636e51f3 nfsd: fix handling of readdir in v4root vs. mount upcall timeout
 77fe30fed1c0cd282eadb0728999ea3d3350e0b0 perf tools: Fix segfault when trying to process tracepoints in perf.data and not linked with libtraceevent
-d00dd2f2645dca04cf399d8fc692f3f69b6dd996 x86/kexec: Fix double-free of elf header buffer
-0226635c304cfd5c9db9b78c259cb713819b057e fs/ntfs3: don't hold ni_lock when calling truncate_setsize()
-69b41ac87e4a664de78a395ff97166f0b2943210 Merge tag 'for-6.2-rc2-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
 af82425c6a2d2f347c79b63ce74fca6dc6be157f io_uring/io-wq: free worker if task_work creation is canceled
 2c55d703391acf7e9101da596d0c15ee03b318a3 Merge drm/drm-fixes into drm-misc-fixes
 d57609fad9579f20bbc21f73f7d507937118a79b Merge git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
@@ -246,13 +198,6 @@ b963c1d6261eb7fba1ba14074fb447521be84add perf test record_probe_libc_inet_pton: 
 d73a27b86fc722c28a26ec64002e3a7dc86d1c07 btrfs: handle case when repair happens with dev-replace
 39f501d68ec1ed5cd5c66ac6ec2a7131c517bb92 btrfs: always report error in run_one_delayed_ref()
 2ba48b20049b5a76f34a85f853c9496d1b10533a btrfs: fix compat_ro checks against remount
-55d235361fccef573990dfa5724ab453866e7816 x86/asm: Fix an assembler warning with current binutils
-b3d83066cbebc76dbac8a5fca931f64b4c6fff34 f2fs: fix to avoid NULL pointer dereference in f2fs_issue_flush()
-fe59109ae5c0b34a8c7c07f693fc501b12b57787 f2fs: initialize extent_cache parameter
-ed2724765e58e3310d3de48f4a1761631b3dd640 f2fs: don't mix to use union values in extent_info
-22a341b43036415718f2d50f5f98b2f891fe17e9 f2fs: should use a temp extent_info for lookup
-df9d44b645b83fffccfb4e28c1f93376585fdec8 f2fs: let's avoid panic if extent_tree is not created
-72bb8f8cc088730c4d84117a6906f458c2fc64bb x86/insn: Avoid namespace clash by separating instruction decoder MMIO type from MMIO trace type
 c07311b5509f6035f1dd828db3e90ff4859cf3b9 perf/x86/rapl: Treat Tigerlake like Icelake
 f89fb55714b620ff1352141a9f9315611f16573e perf build: Don't propagate subdir to submakes for install_headers
 d8d85ce86dc82de4f88b821a78f533b9d5b22a45 perf lock contention: Fix core dump related to not finding the "__sched_text_end" symbol on s/390
@@ -267,7 +212,6 @@ f26cc9593581bd734c846bf827401350b36dc3c9 io_uring: lockdep annotate CQ locking
 9e6002c8738a9d5675ba706fcdbc0a544f814974 cifs: ignore ipc reconnect failures during dfs failover
 775e44d6d86dca400d614cbda5dab4def4951fe7 cifs: fix race in assemble_neg_contexts()
 558016722e9d5bc0ac79c246ccd14a8a4eb028d4 MAINTAINERS: Update maintainers for ptp_vmw driver
-a664ec9158eeddd75121d39c9a0758016097fa96 x86/bugs: Flush IBP in ib_prctl_set()
 340726747336716350eb5a928b860a29db955f05 memblock tests: Fix compilation error.
 fa81ab49bbe4e1ce756581c970486de0ddb14309 memblock: Fix doc for memblock_phys_free
 fb710ddee75fb96f50ee6d004ef777a0cf7ad5a3 perf test record_probe_libc_inet_pton: Fix test on s/390 where 'text_to_binary_address' now appears on the backtrace
@@ -281,19 +225,15 @@ c4b850d1f448a901fbf4f7f36dec38c84009b489 drm/i915/gvt: fix gvt debugfs destroy
 a06d4b9e15c0ea4e05b200cfb1f1050e785a5e87 drm/i915/gvt: use atomic operations to change the vGPU status
 4a61648af68f5ba4884f0e3b494ee1cabc4b6620 drm/i915/gvt: fix double free bug in split_2MB_gtt_entry
 613b14884b8595e20b9fac4126bf627313827fbe block: handle bio_split_to_limits() NULL return
-b61778fa5173021e628b3c9372c9ceae01951b34 Merge tag 'nfsd-6.2-2' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
 481028dbf1daa2808e1be06f6a865b5fe5939efc perf tools: Fix build on uClibc systems by adding missing sys/types.h include
 f52853a668bfeddd79f319d536a506f68cc2b478 perf/x86/rapl: Add support for Intel Meteor Lake
 57512b57dcfaf63c52d8ad2fb35321328cde31b0 perf/x86/rapl: Add support for Intel Emerald Rapids
-2ac44821a81612317f4451b765986d8b9695d5d5 Merge tag 'f2fs-fix-6.2-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/jaegeuk/f2fs
-512dee0c00ad9e9c7ae9f11fc6743702ea40caff Merge tag 'x86-urgent-2023-01-04' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 9cea62b2cbabff8ed46f2df17778b624ad9dd25a block: don't allow splitting of a REQ_NOWAIT bio
 fa8e442e832a3647cdd90f3e606c473a51bc1b26 ublk: honor IO_URING_F_NONBLOCK for handling control command
 59b745bb4e0bd445366c45b8df6b51b69134f4f5 io_uring: move 'poll_multi_queue' bool in io_ring_ctx
 ee4b4e2248565babfba807d82c0f3e00c392a4c0 Revert "block: bio_copy_data_iter"
 050a4f341f35bf51db321c7f68700f9e0b1a7552 Revert "block: remove devnode callback from struct block_device_operations"
 4b83e99ee7092df37a5cf292fde976ebc475ea63 Revert "pktcdvd: remove driver."
-41c03ba9beea760bd2d2ac9250b09a2e192da2dc Merge tag 'for_linus' of git://git.kernel.org/pub/scm/linux/kernel/git/mst/vhost
 6fe6ece398f7431784847e922a2c8c385dc58a35 Revert "drm/amd/display: Enable Freesync Video Mode by default"
 bd0ddcfc83d85bc30c868f2c3457312c7f1ccee2 Revert "of: fdt: Honor CONFIG_CMDLINE* even without /chosen node"
 064e32dc5b03114d0767893fecdaf7b5dfd8c286 of: fdt: Honor CONFIG_CMDLINE* even without /chosen node, take 2
@@ -350,5 +290,36 @@ f18fca98ac1622220dfdf795fefa91dc52d3707d Merge tag '6.2-rc2-smb3-client-fixes' o
 e9ffbf16caa6cb596df7fd641bc6063a922c52e6 Merge tag 'fixes-2023-01-08' of git://git.kernel.org/pub/scm/linux/kernel/git/rppt/memblock
 93928d485d9df12be724cbdf1caa7d197b65001e Merge tag 'powerpc-6.2-2' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
 b7bfaa761d760e72a969d116517eaa12e404c262 Linux 6.2-rc3
+41966bf0f4ec59793573f98535a30fad0edf4ec4 NFSD: Teach nfsd_mountpoint() auto mounts
+3dd9a9c3f329be77af740bcf94fccfd2e7901484 fs: namei: Allow follow_down() to uncover auto mounts
+eb61ad35af96e05f7843fbb344f899233709aa4b NFS: nfs_encode_fh: Remove S_AUTOMOUNT check
+01eae375b03b0c9225f3b4eca2567f7e9360e1fb SUNRPC: Push svcxdr_init_decode() into svc_process_common()
+3c0f03c48ae4e809d45dd75e3ae03401499a5885 SUNRPC: Move svcxdr_init_decode() into ->accept methods
+5226c6733243698975f476abc2d6dc67216d551f SUNRPC: Add an XDR decoding helper for struct opaque_auth
+8131dc65beffda7e8675d87a848d9da60d67e296 SUNRPC: Convert svcauth_null_accept() to use xdr_stream
+a51bdac2027db0b959665e10613c3f7c620e61a3 SUNRPC: Convert svcauth_unix_accept() to use xdr_stream
+94fd1c7d8ace099b7ee9dd97211778d489bcd6a7 SUNRPC: Convert svcauth_tls_accept() to use xdr_stream
+eb81fe5f5ef162bc7fc5bf4fea330a5e0b40a198 SUNRPC: Move the server-side GSS upcall to a noinline function
+9db630c3bb800e65697cd9fbfb8d349dee63575e SUNRPC: Hoist common verifier decoding code into svcauth_gss_proc_init()
+ec6ba83c596f254e537e87bc612fb369019aa344 SUNRPC: Remove gss_read_common_verf()
+f853f08efc3d89c4dc775fbc813b408133c52f5e SUNRPC: Remove gss_read_verf()
+a8fe72bcd8d716fdb7cc833ec098dfb61354f4cb SUNRPC: Convert server-side GSS upcall helpers to use xdr_stream
+b353017a9c083a262dffb1abb82a38752863b2cf SUNRPC: Replace read_u32_from_xdr_buf() with existing XDR helper
+f17f256fc3d6d712673205d8522ee7fd29818b00 SUNRPC: Rename automatic variables in unwrap_integ_data()
+1f837539298986dfe0bdb365941c03daf02de176 SUNRPC: Convert unwrap_integ_data() to use xdr_stream
+1e93d49418b2091f6b97ead85aac0026bc4ccbdf SUNRPC: Rename automatic variables in unwrap_priv_data()
+a2088ba982956dc64a7cdf065d233cef1fd89c42 SUNRPC: Convert unwrap_priv_data() to use xdr_stream
+65783973c9d1b4b1ee4afa83d9bc36aa0f60c039 SUNRPC: Convert gss_verify_header() to use xdr_stream
+f9787132e45e8ed9ee1e1e8965808bc0bffefa24 SUNRPC: Clean up svcauth_gss_accept's NULL procedure check
+211998adb68d2da90a1247ffc2204d985920e4fa SUNRPC: Convert the svcauth_gss_accept() pre-amble to use xdr_stream
+668a1d7a990f689fe86dabe0ad30a769c2cc12a4 SUNRPC: Hoist init_decode out of svc_authenticate()
+96cc43d9b7d4ce23bcc8db3b2b221e61a3c2edf3 SUNRPC: Re-order construction of the first reply fields
+61ada9af3f075c4edc9f1f0ecaa1e140b3477af3 SUNRPC: Eliminate unneeded variable
+3feb4f019dd8c00fc82d0dc56a40180c3977611c SUNRPC: Decode most of RPC header with xdr_stream
+ec8edb44c4a05d328e0fcdf0241ff13cb4ad0abe SUNRPC: Remove svc_process_common's argv parameter
+1acb9482a5127e53f6a6104a4378721e4980d6b7 SUNRPC: Hoist svcxdr_init_decode() into svc_process()
+147a2891b35328bef2a02c3c9454a6959f8e3182 NFSD: enhance inter-server copy cleanup
+6b60218fb891c0c0e0e4c756e439fe27a50c786e nfsd: allow nfsd_file_get to sanely handle a NULL pointer
+0cf7baa6228258648a5ce9d1c79387df2a9607de nfsd: fix potential race in nfs4_find_file
 
---===============1432573648647720492==--
+--===============4519199695010420393==--
