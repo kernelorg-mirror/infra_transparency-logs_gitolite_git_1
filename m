@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Mon, 09 Jan 2023 08:16:23 -0000
-Message-Id: <167325218332.22761.12347729470979739275@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/westeri/thunderbolt
+Date: Mon, 09 Jan 2023 08:44:42 -0000
+Message-Id: <167325388239.6383.8953411635645809646@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: davem
+repo: pub/scm/linux/kernel/git/westeri/thunderbolt
+user: westeri
 changes:
-  - ref: refs/heads/master
-    old: 76761babaa984fce8ecd87d87a68d920f24df438
-    new: 7d6ceeb1875cc08dc3d1e558e191434d94840cd5
+  - ref: refs/heads/fixes
+    old: c28f3d80383571d3630df1a0e89500d23e855924
+    new: 84ee211c83212f4d35b56e0603acdcc41f860f1b
     log: |
-         7d6ceeb1875cc08dc3d1e558e191434d94840cd5 af_unix: selftest: Fix the size of the parameter to connect()
+         23257cfc1cb7202fd0065e9f4a6a0aac1c04c4a9 thunderbolt: Do not call PM runtime functions in tb_retimer_scan()
+         e8ff07fb33026c5c1bb5b81293496faba5d68059 thunderbolt: Use correct function to calculate maximum USB3 link rate
+         84ee211c83212f4d35b56e0603acdcc41f860f1b thunderbolt: Disable XDomain lane 1 only in software connection manager
          
