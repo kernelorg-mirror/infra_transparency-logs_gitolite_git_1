@@ -1,21 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xen/tip
-Date: Mon, 09 Jan 2023 07:05:49 -0000
-Message-Id: <167324794902.7487.2440790700121798709@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Mon, 09 Jan 2023 07:22:20 -0000
+Message-Id: <167324894011.18318.9690506520471865778@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xen/tip
-user: jgross
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: davem
 changes:
-  - ref: refs/heads/linux-next
-    old: 7cffcade57a429667447c4f41d8414bbcf1b3aaa
-    new: f57034cedeb6e00256313a2a6ee67f974d709b0b
+  - ref: refs/heads/master
+    old: f23395b4049c826bc1a294eea69459cb774598b4
+    new: 9cb8bae3d17b517abba74c13dd0327653b9142a4
     log: |
-         37c1785609833e626d344047a84e272b7879b2c3 x86/xen: Remove the unused function p2m_index()
-         c0dccad87cf68fc6012aec7567e354353097ec1a hvc/xen: lock console list traversal
-         f57034cedeb6e00256313a2a6ee67f974d709b0b xen/pvcalls: free active map buffer on pvcalls_front_free_map
+         d50ede4f53e19b63f785768ce62f9a5019c3a021 net: phy: micrel: Fixed error related to uninitialized symbol ret
+         3f88d7d1be42a84a4ae292f085c3886597a04137 net: phy: micrel: Fix warn: passing zero to PTR_ERR
+         9cb8bae3d17b517abba74c13dd0327653b9142a4 Merge branch 'phy-micrel-warnings'
          
