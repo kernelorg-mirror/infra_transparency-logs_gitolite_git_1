@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Mon, 09 Jan 2023 08:15:19 -0000
-Message-Id: <167325211958.21172.16596683783732981893@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Mon, 09 Jan 2023 08:16:23 -0000
+Message-Id: <167325218332.22761.12347729470979739275@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: davem
 changes:
   - ref: refs/heads/master
-    old: 0fd43d0cd030ea850796d4a4767452dbcf3bae17
-    new: 12c1604ae1a39bef87ac099f106594b4cb433b75
+    old: 76761babaa984fce8ecd87d87a68d920f24df438
+    new: 7d6ceeb1875cc08dc3d1e558e191434d94840cd5
     log: |
-         12c1604ae1a39bef87ac099f106594b4cb433b75 net: skb: remove old comments about frag_size for build_skb()
+         7d6ceeb1875cc08dc3d1e558e191434d94840cd5 af_unix: selftest: Fix the size of the parameter to connect()
          
