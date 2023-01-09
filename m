@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============7493390610532079641=="
+Content-Type: multipart/mixed; boundary="===============2659853233547495140=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/trace-cmd/trace-cmd
-Date: Mon, 09 Jan 2023 19:12:49 -0000
-Message-Id: <167329156922.21613.16057973812672666208@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rostedt/trace-cmd
+Date: Mon, 09 Jan 2023 19:12:54 -0000
+Message-Id: <167329157479.21738.9274679379777936168@gitolite.kernel.org>
 
---===============7493390610532079641==
+--===============2659853233547495140==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/trace-cmd/trace-cmd
+repo: pub/scm/linux/kernel/git/rostedt/trace-cmd
 user: rostedt
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: 184b1d737ca44259ee504db2f29f3cb0d59e4e20
     log: revlist-18233e4c3285-184b1d737ca4.txt
 
---===============7493390610532079641==
+--===============2659853233547495140==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -38,4 +38,4 @@ Content-Disposition: attachment; filename=revlist-18233e4c3285-184b1d737ca4.txt
 53bb1122b719d76cccebff50154ff5490dcf12d8 trace-cmd record: Set sleep_time to zero at end of recording
 184b1d737ca44259ee504db2f29f3cb0d59e4e20 trace-cmd record: Keep stopping the recording when finished
 
---===============7493390610532079641==--
+--===============2659853233547495140==--
