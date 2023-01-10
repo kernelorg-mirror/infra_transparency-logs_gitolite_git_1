@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3145225510124406759=="
+Content-Type: multipart/mixed; boundary="===============4228945358626071424=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Tue, 10 Jan 2023 12:59:22 -0000
-Message-Id: <167335556281.9664.7422094280692422733@gitolite.kernel.org>
+Date: Tue, 10 Jan 2023 12:59:42 -0000
+Message-Id: <167335558235.9883.12598158614904758859@gitolite.kernel.org>
 
---===============3145225510124406759==
+--===============4228945358626071424==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/kobject-const
-    old: fd7391653f974007c4269e1b27dd04bb0043de78
-    new: f838ad0ec27de4453daad361caf076181c7508da
-    log: revlist-fd7391653f97-f838ad0ec27d.txt
+  - ref: refs/heads/bus_cleanup
+    old: 8e3a14dcb3f7adb872eae44d39e3cd85888a0b6d
+    new: 77784d2b473ada9777c430b63d5c7e410f9e8cd2
+    log: revlist-8e3a14dcb3f7-77784d2b473a.txt
 
---===============3145225510124406759==
+--===============4228945358626071424==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1673355558 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1673355579 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1673355553-30e057efe7586c3a4df9c88e831957a37aec4add
+nonce 1673355575-767c41cc41e9790cb21ca86b5dfdf8f90e122fd9
 
-fd7391653f974007c4269e1b27dd04bb0043de78 f838ad0ec27de4453daad361caf076181c7508da refs/heads/kobject-const
+8e3a14dcb3f7adb872eae44d39e3cd85888a0b6d 77784d2b473ada9777c430b63d5c7e410f9e8cd2 refs/heads/bus_cleanup
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmO9YSYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+C9MQAJ76Y72bY96u+b5k3jNl
-OqR8QdLVlC8LuGbDtziYJOgSkjzn/3X8IGZMyb2Mon1DlyTtkasp9ECu15Yv1uIk
-M463zxAV6YFNuIFnfHGDc8HK7+ysuEEPa1lZhh+1IFAJwUPo3eAIGfHsBSe4ZpcA
-+a5W+yfPyjFdjr8krFRp+4FZJSBWp+sydoS106QQ0tXICErk0aJicba7TrwiJ8AH
-sWshYGHBGZ9uKPvVu5rUa/u/vTaYVFUywDCPmtwVGovgMUmeFyJ/WRw2dQ1HeA6S
-rh9NolrWE2ErjzAspYH7Lje8yc+kUkjTKXZ6altfGbr3BxhYmT8SJsUxj0wDizhw
-irb2Fz7cOVu1459+aimowFwKuGoR6gwXdESRx1F+9S7y2psGmvI3DYXHUfzYRUHX
-rTPGzPHCrMJ6de5uwzTBGV476M7uaJXlOO2r+Q/25dTiN8IJ+73WuEUCcMTT1yHQ
-LrZhvl8bT7JetDJQMgkDnbYdHpkYXckTfhS2kAWYpjMUvshsAnxLTOE/QTzew5gZ
-Zi3gJRkQ47j9knXiCfUo/LmdgehckfRTv4BqD1OeQjc2E7Ws79c3jOwAwUuICwzf
-ly8y7X1HYnv3W0XRP0K4dOChMTe5EVAL16kiPWB0Tp3PmXhahjouT9vmflhcEZuU
-9l5f3JWjZtO5YHqdb44ZloCG
-=+/vz
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmO9YTsbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+3RsP/0Eg6zz5p9X5VtS/zGpa
+0yHIbd/jagGZ7tMYyTHb2+hYrz8XbwWcO192Filr2VQjADl+nmSOt3F/M76UEQEl
+jCER47z8oOMCqoTtV5CGFoaPnMlof6ENFN71f42IiF0fWKOPJSlOYK5ACN4NBFmO
+lZagUinMnSH1JfYZOSHua7n03fdNHbfLVXf4dxued86TD32geC3OwMsLXccIBTEm
+mZzIIN3JJi3ytKFCzCtgFNL3RW53fg/r1oeBSv5Kw4MkvNZrzO+iTQiO2UAnDsrT
+CeaQL80kr3uAVXI/wgn0p/TryzeJvD9tDuPjsxcIZpSBTaAsozrzENJ+OFHnNffe
+25q+GRDdAnKUNSwdPRAoljzK1oKcbTl/gbhhCyKi88b44GP7VTDCFuS7VQSgV4dp
+botdFseEv9xBoA23sT1zSR6NUgEyaQ/Bo1TN2RhBT3YDFY0b1AnDESrnZtaoZ+Df
+grdnkKUIQ9ZG2RgiSBoQCtRD72qt2GHidx0KTx7U6FKckW62Nr3FwGQxFyEuSP+R
+3SZBCU5fYt8DF+kwx7XWLrZOu34Kt6Uxz6R5fj9Lc/Ol/+MeFQHAPjEFLh52yzoc
+1qLhYgkHTk15Sn3D34d6ETh2PGhs0UsW874lX7EAvVrYTXZ6bZzq8zYwTPZJZRJC
+OYgl3dIRgRBgj5iiidwqEWyu
+=kV7F
 -----END PGP SIGNATURE-----
 
---===============3145225510124406759==
+--===============4228945358626071424==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fd7391653f97-f838ad0ec27d.txt
+Content-Disposition: attachment; filename=revlist-8e3a14dcb3f7-77784d2b473a.txt
 
 f728a5ea27c92133893590e731ce10f6561ced87 dma-buf: fix dma_buf_export init order v2
 01258b62c62710297dab4e2b72f46e01be392cc6 wifi: ti: remove obsolete lines in the Makefile
@@ -378,29 +378,13 @@ f18fca98ac1622220dfdf795fefa91dc52d3707d Merge tag '6.2-rc2-smb3-client-fixes' o
 e9ffbf16caa6cb596df7fd641bc6063a922c52e6 Merge tag 'fixes-2023-01-08' of git://git.kernel.org/pub/scm/linux/kernel/git/rppt/memblock
 93928d485d9df12be724cbdf1caa7d197b65001e Merge tag 'powerpc-6.2-2' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
 b7bfaa761d760e72a969d116517eaa12e404c262 Linux 6.2-rc3
-aa96261e425d5ffd1a27e538cbd7f8be16d23633 driver core: make bus_get_device_klist() static
-ffc52f8732af07695c367823fcd296be3433cb9c driver core: remove subsys_find_device_by_id()
-8f8a953b4ef559d1f0f3fff6bb61a9e38183f1e5 driver core: make subsys_dev_iter_init() static
-f90b29c7213bf80d0a0bf46e11c43adc74c4440f driver core: make subsys_dev_iter_next() static
-3f0050ff7498cc28a91eb9da47baf680a0f6872a driver core: make subsys_dev_iter_exit() static
-525d94a2a94930ee2aee7aca231d58c0394fc27b driver core: move struct subsys_dev_iter to a local file
-ef3b3200def31cafacc7c375925c5e6d731ec504 of: device: make of_device_uevent_modalias() take a const device *
-c7bebd412c14368dce7e7cebc50a1677d53b0074 i3c: move dev_to_i3cdev() to use container_of_const()
-1f22a83d1a4ecfcd2b5a439dc94049aeb7428f4a platform/surface: aggregator: move to_ssam_device() to use container_of_const()
-e217318b413ec6309e34213e7cc3f61f416ae0a9 firewire: move fw_device() and fw_unit() to use container_of_const()
-a5c43fa6f61f437e8088e979a7382a5baff8beea driver core: make struct device_type.uevent() take a const *
-e153e01d075d26ff30aa1a9f22dad61a7d6fcc8d driver core: make struct device_type.devnode() take a const *
-0cf9cacd0cfcf2a0176ae8e1ff379dc80626e3a4 driver core: device_get_devnode() should take a const *
-d1a428cacfde1c38639cce83bf960b1517b5aa5a vio: move to_vio_dev() to use container_of_const()
-6cddc597f6481f7633241c6a2a68fd1eca01b447 platform/x86: wmi: move dev_to_wblock() and dev_to_wdev to use container_of_const()
-a16be704f7b6976ee1ed5812867ca99d6b6ae05f drivers: hv: move device_to_hv_device to use container_of_const()
-e592ac6ddc0f5100efac6bc523251979789bc9ad virtio: move dev_to_virtio() to use container_of_const()
-e283aa78563a950382d0067e31d27b0be5a6508b drm/mipi-dsi: move to_mipi_dsi_device() to use container_of_const()
-0542d64f178a6b4d1f28ec700cad832c9a1ca4fd mcb: move to_mcb_device() to use container_of_const()
-4da7dca373e3bffbcee3aff62421e74a9d6a9e5b xen/xenbus: move to_xenbus_device() to use container_of_const()
-3b6a7ded237601fb4660ac5d5b45fcadf4397ea6 driver core: make struct bus_type.uevent() take a const *
-8cb0c07d1a8e1e42e5b80c8c0dde705d0e54f3a6 kobject: kset_uevent_ops: make uevent() callback take a const *
-da31c14c06455a81673859369114571a736089b5 driver core: change to_subsys_private() to use container_of_const()
-f838ad0ec27de4453daad361caf076181c7508da bus: step 1
+d929b1ac9a70a2fe6f508c05b664dc46bf897f9a driver core: make bus_get_device_klist() static
+05b088b29e6fdba15136307fb8af1af95408d06a driver core: remove subsys_find_device_by_id()
+56e483764763044ca5da27ba4dd7ce000f78d4e4 driver core: make subsys_dev_iter_init() static
+28ec969af35da32f28af69a2b4af4c9405c86575 driver core: make subsys_dev_iter_next() static
+0cf29014128de456234adba3764b723b15cfb3f4 driver core: make subsys_dev_iter_exit() static
+2f4c20aa1ec7a13b171454b4dd32c75b710872c0 driver core: move struct subsys_dev_iter to a local file
+b741b34a83931b0d91ebf9e51be023501daa7678 driver core: bus.h: document bus notifiers better
+77784d2b473ada9777c430b63d5c7e410f9e8cd2 driver core: bus: move bus notifier logic into bus.c
 
---===============3145225510124406759==--
+--===============4228945358626071424==--
