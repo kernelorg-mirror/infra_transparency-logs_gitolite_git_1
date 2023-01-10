@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 10 Jan 2023 18:59:06 -0000
-Message-Id: <167337714640.31000.1230646360982582494@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
+Date: Tue, 10 Jan 2023 19:06:16 -0000
+Message-Id: <167337757651.4048.7819848898820562728@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: bp
+repo: pub/scm/linux/kernel/git/cel/linux
+user: cel
 changes:
-  - ref: refs/heads/x86/urgent
-    old: fe1f0714385fbcf76b0cbceb02b7277d842014fc
-    new: 2a81160d29d65b5876ab3f824fda99ae0219f05e
-    log: |
-         2a81160d29d65b5876ab3f824fda99ae0219f05e x86/resctrl: Fix event counts regression in reused RMIDs
-         
+  - ref: refs/tags/nfsd-6.2-3
+    old: 0000000000000000000000000000000000000000
+    new: 58f7ac0c73cccf09092c0f1ab8d9d94f7eeb08b3
