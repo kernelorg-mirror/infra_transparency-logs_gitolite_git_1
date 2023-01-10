@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============3416646263353055883=="
+Content-Type: multipart/mixed; boundary="===============4381167280265269736=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/extcon
-Date: Tue, 10 Jan 2023 13:02:35 -0000
-Message-Id: <167335575525.12759.1730303181138659010@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/linux
+Date: Tue, 10 Jan 2023 13:03:31 -0000
+Message-Id: <167335581192.13135.13845995814517252038@gitolite.kernel.org>
 
---===============3416646263353055883==
+--===============4381167280265269736==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chanwoo/extcon
+repo: pub/scm/linux/kernel/git/chanwoo/linux
 user: chanwoo
 changes:
-  - ref: refs/heads/extcon-fixes
-    old: 9abf2313adc1ca1b6180c508c25f22f9395cc780
+  - ref: refs/heads/devfreq-next
+    old: 7fc7f25419f5a6b09199ba4b5026b94ef184fa79
     new: 88603b6dc419445847923fcb7fe5080067a30f98
-    log: revlist-9abf2313adc1-88603b6dc419.txt
+    log: revlist-7fc7f25419f5-88603b6dc419.txt
 
---===============3416646263353055883==
+--===============4381167280265269736==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9abf2313adc1-88603b6dc419.txt
+Content-Disposition: attachment; filename=revlist-7fc7f25419f5-88603b6dc419.txt
 
 697365c086791372945037557f99bc164e2db855 kunit: eliminate KUNIT_INIT_*_ASSERT_STRUCT macros
 65c48a48ead042856525b92cedf673d2bf5bdfc9 Documentation: KUnit: make usage.rst a superset of tips.rst, remove duplication
@@ -1051,4 +1051,4 @@ a9f5a752e86f1897c3b377b6b861576a4c1a2ff0 Merge tag 'drm-intel-fixes-2022-12-30' 
 150aae354b817f540848476bace2b2ba9931b197 Merge tag 'perf_urgent_for_v6.2_rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 88603b6dc419445847923fcb7fe5080067a30f98 Linux 6.2-rc2
 
---===============3416646263353055883==--
+--===============4381167280265269736==--
