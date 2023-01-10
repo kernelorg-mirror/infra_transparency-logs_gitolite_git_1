@@ -1,22 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Tue, 10 Jan 2023 14:10:42 -0000
-Message-Id: <167335984260.27057.15505597926118156145@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/efi/efi
+Date: Tue, 10 Jan 2023 14:16:27 -0000
+Message-Id: <167336018751.31782.5621855395899988995@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/efi/efi
+user: ardb
 changes:
-  - ref: refs/heads/master
-    old: 9e34eed3ca5338b354d872ce71bafb54955660b4
-    new: bef5f9386b6b533bb73e78453031bba5d89f0f6b
+  - ref: refs/heads/next
+    old: 1b929c02afd37871d5afb9d498426f83432e71c2
+    new: 2a5b4ccf0de17e47e9ad13ee0fda9436d5de0a35
     log: |
-         987d844cdbc0f91ca81de3c1e5d0628a60eb458f libmount: use MNT_ERR_APPLYFLAGS for failed mount_setattr()
-         4195cb01fb70b9cda20d9775a5a7f8a72adffd22 Fix typo
-         92ba5cb2ee3100456b293e034e227c4187e6b6e3 include: add MOVE_MOUNT_SET_GROUP fallback
-         bef5f9386b6b533bb73e78453031bba5d89f0f6b Merge branch 'typo' of https://github.com/ferivoz/util-linux
+         b7a1cd243839cc1459fbc83a7a62e3b57f29f497 efi/earlycon: Replace open coded strnchrnul()
+         2a5b4ccf0de17e47e9ad13ee0fda9436d5de0a35 efi/earlycon: Speed up scrolling by disregarding empty space
          
