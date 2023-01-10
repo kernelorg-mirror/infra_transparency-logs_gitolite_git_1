@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Tue, 10 Jan 2023 12:01:15 -0000
-Message-Id: <167335207563.3247.15232583620296879419@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Tue, 10 Jan 2023 12:04:03 -0000
+Message-Id: <167335224327.4147.1131693521551282666@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/heads/master
-    old: 01dd56cd6f8d28046a088b1e84ed1ed75a9f1117
-    new: a48bab6a3816a31ebc795180b56f342d824182cf
+  - ref: refs/heads/x86/urgent
+    old: b7bfaa761d760e72a969d116517eaa12e404c262
+    new: 7c6dd961d0c8e7e8f9fdc65071fb09ece702e18d
     log: |
-         a48bab6a3816a31ebc795180b56f342d824182cf Tue Jan 10 12:00:27 PM UTC 2023
+         7c6dd961d0c8e7e8f9fdc65071fb09ece702e18d x86/boot: Avoid using Intel mnemonics in AT&T syntax asm
          
