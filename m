@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/extcon
-Date: Tue, 10 Jan 2023 14:21:20 -0000
-Message-Id: <167336048092.3021.12867111149708800246@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
+Date: Tue, 10 Jan 2023 14:21:51 -0000
+Message-Id: <167336051185.3265.1561398444105138061@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chanwoo/extcon
-user: chanwoo
+repo: pub/scm/linux/kernel/git/amlogic/linux
+user: narmstrong
 changes:
-  - ref: refs/heads/extcon-next
-    old: bb90d3b3d08b7cc23f3d84d380016041ea66c116
-    new: 2e85d0a0201d0cb466313ad434f7b25f14135300
+  - ref: refs/heads/v6.3/drivers
+    old: bc5998b92b9ee8818cc0f7fe02604751389a154e
+    new: fcdc53aceed413dce3ef1d0166a8e9348d5a9c94
     log: |
-         2835417c9d953287c816530de32b52cfba135283 dt-bindings: pm8941-misc: rename misc node name
-         c487709798f5dfe749cb6a4527e1e3e7a759ea5f dt-bindings: pm8941-misc: Fix usb_id and usb_vbus definitions
-         2e85d0a0201d0cb466313ad434f7b25f14135300 extcon: qcom-spmi: Switch to platform_get_irq_byname_optional
+         fcdc53aceed413dce3ef1d0166a8e9348d5a9c94 firmware: meson_sm: stop using 0 as NULL pointer
          
