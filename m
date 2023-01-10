@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 10 Jan 2023 04:41:28 -0000
-Message-Id: <167332568887.20557.10138590783490128169@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Tue, 10 Jan 2023 05:03:40 -0000
+Message-Id: <167332702051.2357.845457457039990299@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/master
-    old: 9e17f99220d111ea031b44153fdfe364b0024ff2
-    new: 2ea26b4de6f42b74a5f1701de41efa6bc9f12666
+  - ref: refs/heads/dev
+    old: 066afe31322c0b7464270514d0271e39343655d8
+    new: 6c11be38a0363b61db36352555e6746920711a1f
     log: |
-         2ea26b4de6f42b74a5f1701de41efa6bc9f12666 Revert "r8169: disable detection of chip version 36"
+         6c11be38a0363b61db36352555e6746920711a1f rcutorture: Set CONFIG_BOOTPARAM_HOTPLUG_CPU0 to offline CPU 0
          
