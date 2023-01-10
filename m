@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4228945358626071424=="
+Content-Type: multipart/mixed; boundary="===============5743727484237105866=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Tue, 10 Jan 2023 12:59:42 -0000
-Message-Id: <167335558235.9883.12598158614904758859@gitolite.kernel.org>
+Date: Tue, 10 Jan 2023 13:00:02 -0000
+Message-Id: <167335560203.10486.6511449399146341587@gitolite.kernel.org>
 
---===============4228945358626071424==
+--===============5743727484237105866==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/bus_cleanup
-    old: 8e3a14dcb3f7adb872eae44d39e3cd85888a0b6d
-    new: 77784d2b473ada9777c430b63d5c7e410f9e8cd2
-    log: revlist-8e3a14dcb3f7-77784d2b473a.txt
+  - ref: refs/heads/debugfs_cleanup
+    old: ba464f08e1c38c92dd57abb875540f2c740f3c19
+    new: 30bb7f5602e40e53524193867b2ee796ae6e19fe
+    log: revlist-ba464f08e1c3-30bb7f5602e4.txt
 
---===============4228945358626071424==
+--===============5743727484237105866==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1673355579 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1673355599 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1673355575-767c41cc41e9790cb21ca86b5dfdf8f90e122fd9
+nonce 1673355594-cde17a51c03b6720a5502e207911e30306a6c292
 
-8e3a14dcb3f7adb872eae44d39e3cd85888a0b6d 77784d2b473ada9777c430b63d5c7e410f9e8cd2 refs/heads/bus_cleanup
+ba464f08e1c38c92dd57abb875540f2c740f3c19 30bb7f5602e40e53524193867b2ee796ae6e19fe refs/heads/debugfs_cleanup
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmO9YTsbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+3RsP/0Eg6zz5p9X5VtS/zGpa
-0yHIbd/jagGZ7tMYyTHb2+hYrz8XbwWcO192Filr2VQjADl+nmSOt3F/M76UEQEl
-jCER47z8oOMCqoTtV5CGFoaPnMlof6ENFN71f42IiF0fWKOPJSlOYK5ACN4NBFmO
-lZagUinMnSH1JfYZOSHua7n03fdNHbfLVXf4dxued86TD32geC3OwMsLXccIBTEm
-mZzIIN3JJi3ytKFCzCtgFNL3RW53fg/r1oeBSv5Kw4MkvNZrzO+iTQiO2UAnDsrT
-CeaQL80kr3uAVXI/wgn0p/TryzeJvD9tDuPjsxcIZpSBTaAsozrzENJ+OFHnNffe
-25q+GRDdAnKUNSwdPRAoljzK1oKcbTl/gbhhCyKi88b44GP7VTDCFuS7VQSgV4dp
-botdFseEv9xBoA23sT1zSR6NUgEyaQ/Bo1TN2RhBT3YDFY0b1AnDESrnZtaoZ+Df
-grdnkKUIQ9ZG2RgiSBoQCtRD72qt2GHidx0KTx7U6FKckW62Nr3FwGQxFyEuSP+R
-3SZBCU5fYt8DF+kwx7XWLrZOu34Kt6Uxz6R5fj9Lc/Ol/+MeFQHAPjEFLh52yzoc
-1qLhYgkHTk15Sn3D34d6ETh2PGhs0UsW874lX7EAvVrYTXZ6bZzq8zYwTPZJZRJC
-OYgl3dIRgRBgj5iiidwqEWyu
-=kV7F
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmO9YU8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+7V0P/RhExkfYX07gF40p8yHj
+bHXpxPHQoFYWcpTZHmubD8i5Fb3So7FplDbt0mTVjYYRnkgqemfIymKsdf7VJ/Io
+aB5oMaUWEKKQc/h6iyKWFQMBtNhgBG4jTdUQDJ/6PTmjr+TVe7jHFsRfWiQ9uFIO
+3ubjwVg6HtDzI915lkNT5JJtYEe+2mfVczBq4FvkrcnirQt7n1pwbC5l6ZR33pui
+uLCjUuQZvzxl8beYE4Ysv2/vki1o37fUTm9nZiBmGmja/7alRgoX/C7P/7MAzA9j
+U8CBNppPnYeQ1aKd4Ug8R6B/jDg4tGZG8gpL/kIFwIUSPuuBv7qbFnhZh/N7tXET
+0xVwlpUd4v8hx6cmU6XEbx83JwCT7DfNczeUDsEWf89YidK7gPW/1FyiujigACoQ
+Rwe4DrGFyoOmT78hf5qvrY4vgV1s+TCVQd6ydnjjuTSz35xFEWox2vQ8HDmDxNQC
+YMvaYhFizlQZdNy0QLBac0T/m+6YJz0PLNTVc2dDr9c/A9gxI2MaOvcmIVyhoeoQ
+HVAPViiu0CFWqvToru8xUI6BcSehp2Ajtxbil7aj/el+4slZ4mjOwD6jQr/El8i4
+aG9VkAzGefbFrtUEZt7KDJOP6LPSG92LPkEwjaO0P2RuTSD87ldQrYpKfHSlxpCb
+6XrsoUNeYxDAldi5DMI4lIxr
+=pWmW
 -----END PGP SIGNATURE-----
 
---===============4228945358626071424==
+--===============5743727484237105866==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8e3a14dcb3f7-77784d2b473a.txt
+Content-Disposition: attachment; filename=revlist-ba464f08e1c3-30bb7f5602e4.txt
 
 f728a5ea27c92133893590e731ce10f6561ced87 dma-buf: fix dma_buf_export init order v2
 01258b62c62710297dab4e2b72f46e01be392cc6 wifi: ti: remove obsolete lines in the Makefile
@@ -378,13 +378,12 @@ f18fca98ac1622220dfdf795fefa91dc52d3707d Merge tag '6.2-rc2-smb3-client-fixes' o
 e9ffbf16caa6cb596df7fd641bc6063a922c52e6 Merge tag 'fixes-2023-01-08' of git://git.kernel.org/pub/scm/linux/kernel/git/rppt/memblock
 93928d485d9df12be724cbdf1caa7d197b65001e Merge tag 'powerpc-6.2-2' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
 b7bfaa761d760e72a969d116517eaa12e404c262 Linux 6.2-rc3
-d929b1ac9a70a2fe6f508c05b664dc46bf897f9a driver core: make bus_get_device_klist() static
-05b088b29e6fdba15136307fb8af1af95408d06a driver core: remove subsys_find_device_by_id()
-56e483764763044ca5da27ba4dd7ce000f78d4e4 driver core: make subsys_dev_iter_init() static
-28ec969af35da32f28af69a2b4af4c9405c86575 driver core: make subsys_dev_iter_next() static
-0cf29014128de456234adba3764b723b15cfb3f4 driver core: make subsys_dev_iter_exit() static
-2f4c20aa1ec7a13b171454b4dd32c75b710872c0 driver core: move struct subsys_dev_iter to a local file
-b741b34a83931b0d91ebf9e51be023501daa7678 driver core: bus.h: document bus notifiers better
-77784d2b473ada9777c430b63d5c7e410f9e8cd2 driver core: bus: move bus notifier logic into bus.c
+2b9d2987b642d6e4ba158a8d02f4c620ee666ee3 driver core: remove devm_device_add_groups()
+da81a3a89803e508b57e777b096ac39d9c93fcb7 sysfs: do not create empty directories if no attributes are present
+91b4f4f00cd79f2ee45c779191922a5bb1918489 soundwire: sysfs: move sdw_slave_dev_attr_group into the existing list of groups
+de52290ec21dd8df20679835baec8a959b86d8d9 soundwire: sysfs: cleanup the logic for creating the dp0 sysfs attributes
+3c171b981d3198da4854b799c2dfc85bdc2b2e06 soundwire: sysfs: have the driver core handle the creation of the device groups
+d37cf74933728f5355f13ebac334e460d9cd5495 soundwire: sysfs: remove sdw_slave_sysfs_init()
+30bb7f5602e40e53524193867b2ee796ae6e19fe soundwire: sysfs: remove unneeded ATTRIBUTE_GROUPS() comments
 
---===============4228945358626071424==--
+--===============5743727484237105866==--
