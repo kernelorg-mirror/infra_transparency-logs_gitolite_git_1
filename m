@@ -1,57 +1,46 @@
-Content-Type: multipart/mixed; boundary="===============4907546372660835702=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Tue, 10 Jan 2023 14:51:23 -0000
-Message-Id: <167336228352.23447.12865960212021517286@gitolite.kernel.org>
-
---===============4907546372660835702==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/mmind/linux-rockchip
+Date: Tue, 10 Jan 2023 15:08:40 -0000
+Message-Id: <167336332005.716.6880578473275261512@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/driver-core
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/mmind/linux-rockchip
+user: mmind
 changes:
-  - ref: refs/heads/bus_cleanup
-    old: 77784d2b473ada9777c430b63d5c7e410f9e8cd2
-    new: 04a850bedd1d7b87df14d2d4eca53a79e2898667
+  - ref: refs/heads/for-next
+    old: c8f0c55cee48abf49225c582d9d8027a69028753
+    new: 0a8282a17bdb7911829c38eaf3b3e5023c1da960
     log: |
-         5e807930d0eeef3faa53efaf79beda9cc84cdf26 driver core: bus.h: document bus notifiers better
-         04a850bedd1d7b87df14d2d4eca53a79e2898667 driver core: bus: move bus notifier logic into bus.c
+         1692bffec674551163a7a4be32f59fdde04ecd27 arm64: dts: rockchip: drop unused LED mode property from rk3328-roc-cc
+         1d8d24f725b4bd2c8900ce338e522351cb42b34d dt-bindings: soc: rockchip: add initial rk3588 syscon compatibles
+         d68a97d501f882cb8326d63f972fd6582a6411f0 arm64: dts: rockchip: Add rk3588 pinctrl data
+         9fb232e9911f37416228468e6d1760c5ed82a4c8 arm64: dts: rockchip: Add base DT for rk3588 SoC
+         4e522fea0798fce61e45d7a2e2ec7ab91fe31b79 dt-bindings: arm: rockchip: add initial rk3588 boards
+         4159826f7c3d87b63f2e7e5b56d8a823542b5fff arm64: dts: rockchip: Add rk3588-evb1 board
+         a4a8f1afb36057765792349318ae848b9680c2b9 arm64: dts: rockchip: Add rock-5a board
+         6fb2d15497867da9a67687735e51d1add0a1486e arm64: dts: rockchip: Add rock-5b board
+         3428e18bf3af5f45d14d9b61ec98e2da888ba4c0 Merge branch 'v6.2-armsoc/dtsfixes' into for-next
+         0a8282a17bdb7911829c38eaf3b3e5023c1da960 Merge branch 'v6.3-armsoc/dts64' into for-next
          
-
---===============4907546372660835702==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1673362277 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1673362271-8e2bfcdad64bc2de8f7b8d81b6376a15db073bfa
-
-77784d2b473ada9777c430b63d5c7e410f9e8cd2 04a850bedd1d7b87df14d2d4eca53a79e2898667 refs/heads/bus_cleanup
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmO9e2UbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+byMP/RTWWazfqbKlHK1r6fnL
-fkFhNaWAcO94JScWP1D2wdNW24lZ1t9Ts2Pc+eXbVLsmj9vOCrEjXUOStYk9aM0R
-qUJY2sD014ycQibJ6+MRxVuSIykmw1HH6VP7nsiYTYg8AEszRkBpvia53c9wF+te
-jk9nTSBtlUGzWGw3thWnLy6kdOlVS4lyH6uMWaYGpkjOqorlEY5LKIb12/QA0pM2
-oU7Khf2KrIDrS4+gGs+9Cy33drmxDNHrebm5Km3isoGyAZe/zNXbZw/RXBDQAwvB
-rXdoci0Yeant9Y1pgWsj/1anbg0YrH5mLEie6SO39A9NVH3MmXutU5Y1fI2Cjiaa
-9g7C6pVakqWTbzCUWAfG2KJkrTu1CSP0D73U4uGmySno3jj3egz1chXkR+i2bhTX
-Dih+fdayYdG8OGSK2vN1VV8bWX3QG2aAGZQcuon5GSzcp2Y3ZKiv7EY1O5QcEbu6
-YaNGRI3Uua2M9SaPh+jwgw6IO9HGHdLvd0kwi3EmcZ8r+0toic877vxSLU4dlenJ
-90nfgLFfk5KwT5oLSDkTzpLwtvHGpouhTlOWwzBLXv+9rTrnXZ7g8CNr7tky6dr/
-jvK1JdTL1JB+Op2rRq1u1h1K5krginchqtKQ7K8+6Qfhx7SYSffVezJtAx5LaC/3
-Ziayavf13WQbk1ZZlAx3uO2n
-=CnA8
------END PGP SIGNATURE-----
-
---===============4907546372660835702==--
+  - ref: refs/heads/v6.2-armsoc/dtsfixes
+    old: 33e24f0738b922b6f5f4118dbdc26cac8400d7b9
+    new: 1692bffec674551163a7a4be32f59fdde04ecd27
+    log: |
+         1692bffec674551163a7a4be32f59fdde04ecd27 arm64: dts: rockchip: drop unused LED mode property from rk3328-roc-cc
+         
+  - ref: refs/heads/v6.3-armsoc/dts64
+    old: 36861fd1fa05fb9b5d9654e6ad3d325a7671b1e1
+    new: 6fb2d15497867da9a67687735e51d1add0a1486e
+    log: |
+         1d8d24f725b4bd2c8900ce338e522351cb42b34d dt-bindings: soc: rockchip: add initial rk3588 syscon compatibles
+         d68a97d501f882cb8326d63f972fd6582a6411f0 arm64: dts: rockchip: Add rk3588 pinctrl data
+         9fb232e9911f37416228468e6d1760c5ed82a4c8 arm64: dts: rockchip: Add base DT for rk3588 SoC
+         4e522fea0798fce61e45d7a2e2ec7ab91fe31b79 dt-bindings: arm: rockchip: add initial rk3588 boards
+         4159826f7c3d87b63f2e7e5b56d8a823542b5fff arm64: dts: rockchip: Add rk3588-evb1 board
+         a4a8f1afb36057765792349318ae848b9680c2b9 arm64: dts: rockchip: Add rock-5a board
+         6fb2d15497867da9a67687735e51d1add0a1486e arm64: dts: rockchip: Add rock-5b board
+         
