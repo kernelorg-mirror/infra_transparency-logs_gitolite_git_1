@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Tue, 10 Jan 2023 21:45:54 -0000
-Message-Id: <167338715443.14429.5363063692348145394@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
+Date: Tue, 10 Jan 2023 22:06:37 -0000
+Message-Id: <167338839760.27012.11444585643705815543@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: hansg
+repo: pub/scm/linux/kernel/git/soc/soc
+user: arnd
 changes:
-  - ref: refs/heads/review-hans
-    old: 1b929c02afd37871d5afb9d498426f83432e71c2
-    new: f4b7f8febd4d9b615fbec2a06bf352b9c3729b11
+  - ref: refs/heads/armsoc-build-fixes
+    old: dba044c95d505a2151dfb7fc0a71373a3232d614
+    new: 9d46ce57f4d1c626bb48170226ea5e35deb5877c
     log: |
-         ad75bd85b1db69c97eefea07b375567821f6ef58 platform/x86: sony-laptop: Don't turn off 0x153 keyboard backlight during probe
-         f4b7f8febd4d9b615fbec2a06bf352b9c3729b11 platform/x86: ideapad-laptop: Add Legion 5 15ARH05 DMI id to set_fn_lock_led_list[]
+         980a637d11fe8dfc734f508a422185c2de55e669 ARM: omap1: fix !ARCH_OMAP1_ANY link failures
+         9d46ce57f4d1c626bb48170226ea5e35deb5877c ARM: omap1: fix building gpio15xx
          
