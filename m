@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7947050929349488171=="
+Content-Type: multipart/mixed; boundary="===============3547491734044057579=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mmind/linux-rockchip
-Date: Tue, 10 Jan 2023 22:16:47 -0000
-Message-Id: <167338900721.2684.16336020607106352495@gitolite.kernel.org>
+Date: Tue, 10 Jan 2023 22:17:29 -0000
+Message-Id: <167338904976.2963.17533069332199649708@gitolite.kernel.org>
 
---===============7947050929349488171==
+--===============3547491734044057579==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mmind/linux-rockchip
 user: mmind
 changes:
-  - ref: refs/heads/v6.3-armsoc/dts64
-    old: 6fb2d15497867da9a67687735e51d1add0a1486e
-    new: a1d3281450ab24108631a8b0f7cd9f27de717e0e
-    log: revlist-6fb2d1549786-a1d3281450ab.txt
+  - ref: refs/heads/for-next
+    old: ca7e203343e01f238ab63bd3ff7560a6021cb2a6
+    new: 1db5db627d2cb16b7cd11776bc0c820297e6c0fb
+    log: revlist-ca7e203343e0-1db5db627d2c.txt
 
---===============7947050929349488171==
+--===============3547491734044057579==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6fb2d1549786-a1d3281450ab.txt
+Content-Disposition: attachment; filename=revlist-ca7e203343e0-1db5db627d2c.txt
 
 a8e35c4bebe440ff2d5ea7e5eaece6c4de168700 arm64: dts: rockchip: add audio nodes to rk3566-roc-pc
 7b1aa1613edc57dc505aaa91df4bf321e87d209c dt-bindings: arm: rockchip: Add EmbedFire LubanCat 2
@@ -44,5 +44,9 @@ c9211fa2602b87849086dd061da78b5e2dee1f3c arm64: dts: rockchip: Add base DT for r
 e904ca928a3f6d73df062da63a91e346e084a63a arm64: dts: rockchip: Add rk3588-evb1 board
 d1824cf9579924737da64b3eba5ad3129ad67f28 arm64: dts: rockchip: Add rock-5a board
 a1d3281450ab24108631a8b0f7cd9f27de717e0e arm64: dts: rockchip: Add rock-5b board
+54dfc303e3505d336a3575cfd62c69a678e28af3 Merge branch 'v6.2-armsoc/dtsfixes' into for-next
+0676d16e695b5490ce2b5c426fd2a17dfd449969 Merge branch 'v6.3-armsoc/dts32' into for-next
+8d7e91ca3fd0275292dac637f184dc145622b650 Merge branch 'v6.3-armsoc/dts64' into for-next
+1db5db627d2cb16b7cd11776bc0c820297e6c0fb Merge branch 'v6.3-clk/next' into for-next
 
---===============7947050929349488171==--
+--===============3547491734044057579==--
