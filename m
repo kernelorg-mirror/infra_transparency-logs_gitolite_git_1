@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 10 Jan 2023 11:59:40 -0000
-Message-Id: <167335198059.927.6652659653545389417@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Tue, 10 Jan 2023 12:01:15 -0000
+Message-Id: <167335207563.3247.15232583620296879419@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
-  - ref: refs/heads/x86/boot
-    old: d9e74aa11abd31c7f263d0ea691829404e7fa255
-    new: 3dc2105839b9f5b15de92ded5a59dc0f1c233e1d
+  - ref: refs/heads/master
+    old: 01dd56cd6f8d28046a088b1e84ed1ed75a9f1117
+    new: a48bab6a3816a31ebc795180b56f342d824182cf
     log: |
-         3dc2105839b9f5b15de92ded5a59dc0f1c233e1d x86/boot/compressed: Register dummy NMI handler in EFI boot loader, to avoid kdump crashes
+         a48bab6a3816a31ebc795180b56f342d824182cf Tue Jan 10 12:00:27 PM UTC 2023
          
