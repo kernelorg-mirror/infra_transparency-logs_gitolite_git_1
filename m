@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-devel
-Date: Tue, 10 Jan 2023 09:26:23 -0000
-Message-Id: <167334278334.15172.12328135277888635570@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gclement/mvebu
+Date: Tue, 10 Jan 2023 09:34:16 -0000
+Message-Id: <167334325682.19134.3641950357414729542@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/geert/renesas-devel
-user: geert
+repo: pub/scm/linux/kernel/git/gclement/mvebu
+user: gclement
 changes:
-  - ref: refs/tags/renesas-devel-2023-01-10-v6.2-rc3
-    old: 0000000000000000000000000000000000000000
-    new: c9e29a1a46f5b5d0dfdf71e73dca75d420709bfc
-  - ref: refs/tags/renesas-next-2023-01-10-v6.2-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 08b3013d2bc67a1633bbe63d5464991f569c6b84
+  - ref: refs/heads/for-next
+    old: a4d5d2ef5b1f6cddee0fec35d86404df148b9074
+    new: 80502ffab2fa92ba9777e381efea2efddc348d13
+    log: |
+         80502ffab2fa92ba9777e381efea2efddc348d13 arm64: dts: marvell: AC5/AC5X: Fix address for UART1
+         
