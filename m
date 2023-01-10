@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5624304562239879659=="
+Content-Type: multipart/mixed; boundary="===============5043893924797071936=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/utils/b4/b4
-Date: Tue, 10 Jan 2023 22:33:03 -0000
-Message-Id: <167338998391.12878.2591034734836214298@gitolite.kernel.org>
+Date: Tue, 10 Jan 2023 22:39:28 -0000
+Message-Id: <167339036875.16892.15587266614032355664@gitolite.kernel.org>
 
---===============5624304562239879659==
+--===============5043893924797071936==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,30 +17,38 @@ user: mricon
 git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: c88e6a31442bc41e9b56df763ba8b30e64d18c93
-    new: e28b60d62f08cefab20ef3c886473ea15070c2a9
+    old: e28b60d62f08cefab20ef3c886473ea15070c2a9
+    new: 429270ea2e28b61058678480bdab10a026e4218e
     log: |
-         e28b60d62f08cefab20ef3c886473ea15070c2a9 Tweak wrap_header to allow decode/encode/clean operations
+         429270ea2e28b61058678480bdab10a026e4218e ez: refuse to invoke send if repo is not clean
+         
+  - ref: refs/heads/stable-0.11.y
+    old: cc0afb4255b78f20e87654061a0018f378018ed8
+    new: d001fef0b344c8d95d3be51dc96a024ae3ef3119
+    log: |
+         2aa399523258ec7751c751ad9a447930aaf83e72 Up version to 0.11.3-dev
+         d001fef0b344c8d95d3be51dc96a024ae3ef3119 ez: refuse to invoke send if repo is not clean
          
 
---===============5624304562239879659==
+--===============5043893924797071936==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher B6C41CE35664996C! 1673389983 -0500
+pusher B6C41CE35664996C! 1673390368 -0500
 pushee gitolite.kernel.org:pub/scm/utils/b4/b4
-nonce 1673389983-ddda27c4fa83767be411e23aa27c483bba37d428
+nonce 1673390368-d5dd1f3110a5ed9f9616ee4da005e1744406cb90
 
-c88e6a31442bc41e9b56df763ba8b30e64d18c93 e28b60d62f08cefab20ef3c886473ea15070c2a9 refs/heads/master
+e28b60d62f08cefab20ef3c886473ea15070c2a9 429270ea2e28b61058678480bdab10a026e4218e refs/heads/master
+cc0afb4255b78f20e87654061a0018f378018ed8 d001fef0b344c8d95d3be51dc96a024ae3ef3119 refs/heads/stable-0.11.y
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCY73nnwAKCRC2xBzjVmSZ
-bGanAP4s7/WMt8qBi1ehEbgbJvJIThqh1qxl3Js+kUa4OSAcFgEAxS12/sd1VhfI
-OHktwZDkU24NQ3jBcg270EOG4oVBZwk=
-=QN5N
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCY73pIAAKCRC2xBzjVmSZ
+bP8GAQDfEQYmf6RSPqrFwu3ITyJOiI8xb39IxjS0YceemAHbJwEAhijKsw17Ag5b
+2JFfi+RumiL0uW+d/htG5jKCgrADrA0=
+=6/hj
 -----END PGP SIGNATURE-----
 
---===============5624304562239879659==--
+--===============5043893924797071936==--
