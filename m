@@ -1,57 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============5714760060369403038=="
+Content-Type: multipart/mixed; boundary="===============4970472141024578965=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Tue, 10 Jan 2023 15:50:50 -0000
-Message-Id: <167336585097.31290.17685204309603100956@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Tue, 10 Jan 2023 15:53:32 -0000
+Message-Id: <167336601232.32207.8592801664983662521@gitolite.kernel.org>
 
---===============5714760060369403038==
+--===============4970472141024578965==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/driver-core
+repo: pub/scm/linux/kernel/git/stable/stable-queue
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/bus_cleanup
-    old: 04a850bedd1d7b87df14d2d4eca53a79e2898667
-    new: 8d057b518ea3e54ecfdace056e4955394ed41d88
+  - ref: refs/heads/master
+    old: b390693389b4fc9b7b8641e0afcb22b0abb62d97
+    new: c493b525e856d455d94529c0037a690a6557661e
     log: |
-         1d472c73fbd2cc17e4be6bd6071df34fa63687ac driver core: bus.h: document bus notifiers better
-         8d057b518ea3e54ecfdace056e4955394ed41d88 driver core: bus: move bus notifier logic into bus.c
+         c493b525e856d455d94529c0037a690a6557661e 5.4-stable patches
          
 
---===============5714760060369403038==
+--===============4970472141024578965==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1673365849 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1673365842-72c252e098ac74b0236b13be25b84c9fa617ece0
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1673366011 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1673365988-6445763990176f7bbc1d0ee2d5ae762cbef608a0
 
-04a850bedd1d7b87df14d2d4eca53a79e2898667 8d057b518ea3e54ecfdace056e4955394ed41d88 refs/heads/bus_cleanup
+b390693389b4fc9b7b8641e0afcb22b0abb62d97 c493b525e856d455d94529c0037a690a6557661e refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmO9iVkbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+yIAP/jI60lfYImpYMORq7O32
-NaNZ9Sa2R5+zIGCqWfPvoFtJC1IupF4BqjEQbzR37mhiHd+p/TEn0W+3vCCeIzAl
-uDfPzrp/JhHDghxy34fJ499BhmxERIQtrCmVKoljeixkLqpD2BSIeMhZvwjfH2yz
-GI9rCzWFOFU2cATBzB4PtEaKuW86P2HWT9lm4inrJ+2mRzCQN7qBbzJafpbvkZjA
-0OVlTB9pHNYn6jEkzfwGVvAEWya5RD1vwHMHfCT3CpelEVO3vXG4pHGRq6dhIovc
-tXI9hnAXEWrE52sJ9GkiE/OGZY4qrohtDx46QuWRsslvCv2mU3WQch3itNfn4BHZ
-Rq5O/+lN1sfqvN/P1c20knQDvlIlDxnxZuDZBO68b1JbyVhmjVuGJF5Yua5abQ+S
-r6+/SBK+CrMR0xX8c1vFkHEvIIy5xYHzKpnK9XsXVr6Yab0bkKRgcunGQoa7CMoa
-3/hnqUCQtTRKWuJBXhLEq2FXRc7CY8JMvTVoepuUNXZ3wxI5cmwdilXC4I2r44fY
-rqdRlM/5V8I5Rsh5Gm8q+M2f062RHLbDM5ohtYsFgtLoI1flIsdqXfyCOjhhh7j8
-OkbYgDY76xJvesw1imea6Gof6JWRdzjDYxWXc9kGlPQrtcb2hEn8r9dUI/R+nfBQ
-dQkpcDbZCFqQ6Xs7PtmAwAZs
-=hryk
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmO9ifsbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+zvkQAM2NRv9Dv3Fb8A73xuhs
+ux6/ur06ZWxJ4APDSBdT3vbnB2zsQXid7lRrP/i4XRXahNBzYzWh1rIOueculyDf
+wZNcXFbWWHY2x5WerjcEfmm0HGBg0F5ZZF1mm1BcBeC6+JjzWKaWcAOjOW6+Qhbs
+sHLmoEVyMEffChuHFK/KXDepkc0eoQ0dVnZkyhyycsEPG7UqqkQjbVNMeasd/Bm0
+/fXVL/YDw1IC1lS7SsLphMoHihtSYlWtXZoiBLLXMH1L15wUJWt93grBY9+CYcwC
+sm+mE7A/FsZYPdPcOPifIWdWAVlvuNW1gwhDXQApMoDp5r85Fuob/H3clB/JGKzz
+QRDo7ZagUZfX7FaPLWJWisjPyfFUyBEbXUXlcjY/w6hJq/zbrmNLkv9Q/hIvbWTb
+j59tmKKZ12WsENZfQPnmYpP1WRXHZTiboSmSdU+8Rd+y/fNQiT6Cf6EP4Rmlysrl
+wlJVfoTiZEkxG/CbYBQ6U/Lvu8cxnF8xFjKfVPe32qIbB8XosaVl9RtL3pfikx+E
+RGK/Vl7qnkjWpn8DQp44WlgSxFvm4lzWnl0dVcyXMQd7gigyPALvz280oXaB/y2+
+qZm2CiSgUI+eca9tuEhVy080sF564QMGw1oKjjjdnOkNkmaK3lzmBUKMv5zYsciD
+OR6ffRapo23CyColYrjZ9wQC
+=zv68
 -----END PGP SIGNATURE-----
 
---===============5714760060369403038==--
+--===============4970472141024578965==--
