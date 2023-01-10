@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/efi/efi
-Date: Tue, 10 Jan 2023 23:44:36 -0000
-Message-Id: <167339427611.27803.13962488225193309759@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Tue, 10 Jan 2023 23:55:16 -0000
+Message-Id: <167339491655.4704.16215099540516238575@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/efi/efi
-user: ardb
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: martin.lau
 changes:
-  - ref: refs/heads/urgent
-    old: 7b817a99509125ee1337888ec453a76ce5937ae8
-    new: 2084037b838d2ab5c97e66704b8cf397c5f43805
+  - ref: refs/heads/master
+    old: 129d868ede1ea835ac97f0a9f2cf3f4ed00d8ea7
+    new: 7f7880495770329d095d402c2865bfa7089192f8
     log: |
-         376edce06b776c5259accb9fecd9a259145a5450 arm64: efi: Avoid workqueue to check whether EFI runtime is live
-         d1e7bb3a8a3b61988a05561de14f9c9a947b9ae9 arm64: efi: Account for the EFI runtime stack in stack unwinder
-         2084037b838d2ab5c97e66704b8cf397c5f43805 efi: tpm: Avoid READ_ONCE() for accessing the event log
+         7f7880495770329d095d402c2865bfa7089192f8 bpf, x86: Simplify the parsing logic of structure parameters
          
