@@ -1,22 +1,51 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
-Date: Tue, 10 Jan 2023 14:22:34 -0000
-Message-Id: <167336055425.3565.17044670279079647248@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============7470681993628398247=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vbabka/slab
+Date: Tue, 10 Jan 2023 14:26:44 -0000
+Message-Id: <167336080405.6437.11873112822206249219@gitolite.kernel.org>
+
+--===============7470681993628398247==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/amlogic/linux
-user: narmstrong
+repo: pub/scm/linux/kernel/git/vbabka/slab
+user: vbabka
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/for-next
-    old: 7c49c17dc9412af3f1e7b18be682886153757b1f
-    new: 5e7cdf91958949cfbe299edb2add7a1e466ab7df
+  - ref: refs/heads/slab/for-6.3/cleanups
+    old: 35e3c36d438e05fcd4f846c76cf22cbda9b63abb
+    new: e7a189b021e1dd99132d096a192d9c24f437035b
     log: |
-         658a8ef679435959f550a45f7312afaebb9e20a8 dt-bindings: firmware: convert meson_sm.txt to dt-schema
-         bc5998b92b9ee8818cc0f7fe02604751389a154e dt-bindings: power: amlogic,meson-gx-pwrc: mark bindings as deprecated
-         fcdc53aceed413dce3ef1d0166a8e9348d5a9c94 firmware: meson_sm: stop using 0 as NULL pointer
-         5e7cdf91958949cfbe299edb2add7a1e466ab7df Merge branch 'v6.3/drivers' into for-next
+         61df28eb7788f5e3299f36b26e90ca2f81c4d2c4 mm/slab: add is_kmalloc_cache() helper function
+         e7a189b021e1dd99132d096a192d9c24f437035b mm/sl{a,u}b: fix wrong usages of folio_page() for getting head pages
          
+
+--===============7470681993628398247==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1673360802 +0100
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/slab.git
+nonce 1673360802-6db08e06e8a85acb62809c8818668b32a942d319
+
+35e3c36d438e05fcd4f846c76cf22cbda9b63abb e7a189b021e1dd99132d096a192d9c24f437035b refs/heads/slab/for-6.3/cleanups
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCAAdFiEEjUuTAak14xi+SF7M4CHKc/GJqRAFAmO9daIACgkQ4CHKc/GJ
+qRAjawf+LS5HBvO2Jyjz+mjc1g9TJktCOUG0GgGRp9hK6QTgZjYjTILVEyprgmm7
+iGM4i+PAlbbPnEaFxGpSaXsQUQDsUH+xGpAlqVT/L7oJtH34pB9qThs8pgxFohdU
+JT7VfmBYAscB/qvLXdUs8duGuLS9sHVtuIdSBBsS6dpoYUr+YRq/VeWoCBv6JnPy
+L0x+/DgT3NUaX4Tb0u7Ji94s6MCFp3n3AvUF8hVJOpGUAiieabV8a0obEcRJNBCa
+xZjVnPHuI+CAJ3r4Y6yvPS6X8uZYCHCqGo0mjZLZZxBTIUBx0w34t8xp/88wvXfN
+L9hhLK5BDJBPpYvONYFgR91dkGOPjg==
+=ahBb
+-----END PGP SIGNATURE-----
+
+--===============7470681993628398247==--
