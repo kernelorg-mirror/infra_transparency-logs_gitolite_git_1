@@ -1,20 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rostedt/trace-cmd
-Date: Tue, 10 Jan 2023 00:07:27 -0000
-Message-Id: <167330924792.26170.8193868452189385862@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Tue, 10 Jan 2023 00:10:22 -0000
+Message-Id: <167330942262.28581.15838714202968608387@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rostedt/trace-cmd
-user: rostedt
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/master
-    old: 184b1d737ca44259ee504db2f29f3cb0d59e4e20
-    new: 43c75302ecaeb00c3ca7cc9e19714861bdd6ae4d
+  - ref: refs/heads/rcu/next
+    old: 6f5aa91cf0f9a5ffc60a343bab6a74c9e047d399
+    new: 5ceaf736da841c4bdb03049c7d6e0c0c41253161
     log: |
-         78e8f0e7afcdc7404b556eed27dc89af12ef9254 trace-cmd: Replace LFS64 interfaces off64_t and lseek64
-         43c75302ecaeb00c3ca7cc9e19714861bdd6ae4d trace-cmd: Drop using _LARGEFILE64_SOURCE
+         389b0eafd72829fd63548f7ff4e8d6ac90fa1f98 rcu: Protect rcu_print_task_exp_stall() ->exp_tasks access
+         936acd859f4a7b2b0f9900e26bc972385286df6e context_tracking: Use arch_atomic_*() in __ct_user_enter and __ct_user_exit
+         155ee31aa57a058379d43bc794f67d4ba20c40ec bootconfig: Default BOOT_CONFIG_FORCE to y if BOOT_CONFIG_EMBED
+         5ceaf736da841c4bdb03049c7d6e0c0c41253161 rcu: Avoid stack overflow due to __rcu_irq_enter_check_tick() being kprobe-ed
          
