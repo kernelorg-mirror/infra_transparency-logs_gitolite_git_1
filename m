@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 10 Jan 2023 12:06:04 -0000
-Message-Id: <167335236456.6328.7245897507294528751@gitolite.kernel.org>
+Date: Tue, 10 Jan 2023 12:07:38 -0000
+Message-Id: <167335245894.6955.17015812039137064983@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,15 +12,14 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: fc5d2d7ab54a9a7c117dc64888d680f204abf19c
-    new: dfd02e0fe058259980bc2dfd246623156fc0b6d0
+    old: dfd02e0fe058259980bc2dfd246623156fc0b6d0
+    new: 2cb17e8aa8492e2dcb96bab3170f1d2c4deaf14d
     log: |
-         8a01ec97dc066009dd89e43bfcf55644f2dd6d19 x86/mce: Mask out non-address bits from machine check bank
-         3dc2105839b9f5b15de92ded5a59dc0f1c233e1d x86/boot/compressed: Register dummy NMI handler in EFI boot loader, to avoid kdump crashes
-         7c6dd961d0c8e7e8f9fdc65071fb09ece702e18d x86/boot: Avoid using Intel mnemonics in AT&T syntax asm
-         f32830958f453661332dc8a75bc15cf81430473f Merge branch into tip/master: 'x86/urgent'
-         e36cc0ba3f50818aabc276a42f7c4437ece29379 Merge branch into tip/master: 'perf/core'
-         f9fef82ae23cd2d53b601aaf574e2383223438e2 Merge branch into tip/master: 'x86/boot'
-         679682ff16887e6bf4734a3371b3bbe8f9ce549e Merge branch into tip/master: 'x86/cpu'
-         dfd02e0fe058259980bc2dfd246623156fc0b6d0 Merge branch into tip/master: 'ras/core'
+         cdfb2fef522d0c3f9cf293db51de88e9b3d46846 ksmbd: send proper error response in smb2_tree_connect()
+         797805d81baa814f76cf7bdab35f86408a79d707 ksmbd: check nt_len to be at least CIFS_ENCPWD_SIZE in ksmbd_decode_ntlmssp_auth_blob
+         83dcedd5540d4ac61376ddff5362f7d9f866a6ec ksmbd: fix infinite loop in ksmbd_conn_handler_loop()
+         5a41237ad1d4b62008f93163af1d9b1da90729d8 gcc: disable -Warray-bounds for gcc-11 too
+         526970be53d5dd60122141540142fb0eeb0b22d8 sh/mm: Fix pmd_t for real
+         40c18f363a0806d4f566e8a9a9bd2d7766a72cf5 Merge tag '6.2-rc3-ksmbd-server-fixes' of git://git.samba.org/ksmbd
+         2cb17e8aa8492e2dcb96bab3170f1d2c4deaf14d Merge branch 'linus'
          
