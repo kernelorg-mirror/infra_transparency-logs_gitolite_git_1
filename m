@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
-Date: Tue, 10 Jan 2023 03:55:31 -0000
-Message-Id: <167332293165.22487.12488459717270028779@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
+Date: Tue, 10 Jan 2023 04:02:47 -0000
+Message-Id: <167332336730.26730.7904653617811409407@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf
-user: ast
+repo: pub/scm/linux/kernel/git/vireshk/pm
+user: vireshk
 changes:
-  - ref: refs/heads/master
-    old: a3d81bc1eaef48e34dd0b9b48eefed9e02a06451
-    new: e7895f017b79410bf4591396a733b876dc1e0e9d
+  - ref: refs/heads/cpufreq/arm/linux-next
+    old: c956541736b94944047ee52ebfc5ee4babcd6ca1
+    new: 08f0adb193c008de640fde34a2e00a666c01d77c
     log: |
-         ef01f4e25c1760920e2c94f1c232350277ace69b bpf: restore the ebpf program ID for BPF_AUDIT_UNLOAD and PERF_BPF_EVENT_PROG_UNLOAD
-         e7895f017b79410bf4591396a733b876dc1e0e9d bpf: remove the do_idr_lock parameter from bpf_prog_free_id()
+         08f0adb193c008de640fde34a2e00a666c01d77c cpufreq: armada-37xx: stop using 0 as NULL pointer
          
