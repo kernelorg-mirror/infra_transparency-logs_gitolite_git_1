@@ -1,16 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
-Date: Tue, 10 Jan 2023 21:27:19 -0000
-Message-Id: <167338603962.787.5618361549444624645@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Tue, 10 Jan 2023 21:30:03 -0000
+Message-Id: <167338620356.3283.17624525131018714839@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/qcom/linux
-user: andersson
+repo: pub/scm/linux/kernel/git/acme/linux
+user: acme
 changes:
-  - ref: refs/tags/qcom-dts-fixes-for-6.2
-    old: 0000000000000000000000000000000000000000
-    new: 0c2c85bfde24ba500622c0f8b5727a9b56c37941
+  - ref: refs/heads/perf/urgent
+    old: 213b760fbc69f2d6aed8f64f006a17869f0d8da4
+    new: 14292a4ae1a37a7c97fda59b85cd625c77165ddf
+    log: |
+         f00eccb447762c99675f3f5b0311a1216135af95 perf build: Fix build error when NO_LIBBPF=1
+         14292a4ae1a37a7c97fda59b85cd625c77165ddf perf bpf: Avoid build breakage with libbpf < 0.8.0 + LIBBPF_DYNAMIC=1
+         
