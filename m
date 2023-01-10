@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
-Date: Tue, 10 Jan 2023 18:05:53 -0000
-Message-Id: <167337395330.28706.7750997857681351725@gitolite.kernel.org>
+Date: Tue, 10 Jan 2023 18:21:18 -0000
+Message-Id: <167337487898.6967.6178500291501225969@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/axboe/liburing
 user: axboe
 changes:
   - ref: refs/heads/master
-    old: 38c2ca5757d8a0042e957383ee019454d9cb1dd5
-    new: 8d5d3471f0f895b5700083a27488d8896be9d52b
+    old: 8d5d3471f0f895b5700083a27488d8896be9d52b
+    new: 871f869353691c9bd39b5313ed6279c264309e6a
     log: |
-         8d5d3471f0f895b5700083a27488d8896be9d52b test/poll-race: add test case for racy poll handling
+         871f869353691c9bd39b5313ed6279c264309e6a test/poll-race: skip test if argument is given
          
