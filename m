@@ -1,131 +1,141 @@
-Content-Type: multipart/mixed; boundary="===============1599068712371266410=="
+Content-Type: multipart/mixed; boundary="===============7129692123928190063=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Tue, 10 Jan 2023 22:20:07 -0000
-Message-Id: <167338920782.5368.6782200377900939230@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
+Date: Tue, 10 Jan 2023 22:20:10 -0000
+Message-Id: <167338921011.5467.9692452351494490833@gitolite.kernel.org>
 
---===============1599068712371266410==
+--===============7129692123928190063==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/linux/kernel/git/soc/soc
+user: arnd
 changes:
-  - ref: refs/heads/dev
-    old: 987578e51071c9b328f5a1c6928962421329739e
-    new: 19213bf117ac998698d80a777f76b947dbeb42bd
-    log: revlist-987578e51071-19213bf117ac.txt
-  - ref: refs/heads/nolibc
-    old: 28ef4c3753a4e57a347b2bf5f598645de966c137
-    new: a290296ab8326e04a9fefd698ca9367dc72c0a87
-    log: revlist-28ef4c3753a4-a290296ab832.txt
-  - ref: refs/heads/dev.2023.01.09a
-    old: 0000000000000000000000000000000000000000
-    new: f4e5cfbdfe900a41375d68b6c83e438ecc519b7b
+  - ref: refs/heads/for-next
+    old: 244a45a4422a9acc3daba107acb46396ffee5c1c
+    new: 94ac29dc59d029c6ff61509e3b58fa0beb1f2966
+    log: revlist-244a45a4422a-94ac29dc59d0.txt
 
---===============1599068712371266410==
+--===============7129692123928190063==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-987578e51071-19213bf117ac.txt
+Content-Disposition: attachment; filename=revlist-244a45a4422a-94ac29dc59d0.txt
 
-7f8548589661d5edbde4c343e4971117585da2f5 tools/nolibc: make compiler and assembler agree on the section around _start
-20470dfd656ef71145d78102b540f73a11748182 tools/nolibc: enable support for thumb1 mode for ARM
-5a51b6de5968885347e559d0dac8307a38005806 tools/nolibc: support thumb mode with frame pointers on ARM
-d5b48f958b36e38ee1a9bebb522bdd86114c34ae tools/nolibc: remove local definitions of O_* flags for open/fcntl
-1caa1154c3e9ad071a07c02431a700ff5df94392 tools/nolibc: make errno a weak symbol instead of a static one
-89dc50921c87e2b4a4612188c5a90abebc02b60d tools/nolibc: export environ as a weak symbol on x86_64
-52e423f5b93e6d30fd5d311f068094b768caffb5 tools/nolibc: export environ as a weak symbol on i386
-9b8688c6eaddcdf0db600953d57beaeafaae1155 tools/nolibc: export environ as a weak symbol on arm64
-a6f29a2c41f3d283e78e00dc8974e6efacaccf37 tools/nolibc: export environ as a weak symbol on arm
-8f7fafebd1da984c427d53b614e48ebecb456824 tools/nolibc: export environ as a weak symbol on mips
-758f33379569d817558a4310c47b42834b8e4e57 tools/nolibc: export environ as a weak symbol on riscv
-9e5bdc613d06fdc6fed73267767c09a0dc0c6aac tools/nolibc: export environ as a weak symbol on s390
-2ab4aa487b93d9d994b4a20382848a4041f00d78 tools/nolibc: add auxiliary vector retrieval for i386
-1cce162ab4a565c8a88ffac1d9f78c80e160d6a1 tools/nolibc: add auxiliary vector retrieval for x86_64
-2a39a53245d2b5eae83c10a67581e8dc6b629b85 tools/nolibc: add auxiliary vector retrieval for arm64
-59ea1876242163da431026921070282b2d651197 tools/nolibc: add auxiliary vector retrieval for arm
-041fa97cb332e59311aa861fac3be178abad6a9b tools/nolibc: add auxiliary vector retrieval for riscv
-d01869cf1ee4ad6e02e853062eeced883b3b4504 tools/nolibc: add auxiliary vector retrieval for mips
-241c4b4e02f25ceab21df8a28e1ac689a477c30c tools/nolibc: add auxiliary vector retrieval for s390
-c61a078015f325fe38a7371ab0b12d4444f5fba4 nolibc/stdlib: Implement `getauxval(3)` function
-7efd762e97c87f07b0a93e428e5ce3436715f538 nolibc/sys: Implement `getpagesize(2)` function
-a290296ab8326e04a9fefd698ca9367dc72c0a87 selftests/nolibc: Add `getpagesize(2)` selftest
-d9c566903b57de980acbf5ad41c07e6f29db45cb drivers/base: Remove CONFIG_SRCU
-4869ef8ce22cd2ebc0869cb6571315958fd664b8 drivers/clk: Remove "select SRCU"
-f298fd40fb3859e57507a03c8322287b63fab54e drivers/cpufreq: Remove "select SRCU"
-f424f0090334f921f2baded4840218b3bb45a4d8 drivers/dax: Remove "select SRCU"
-68f4f25bab1ef506d918ceb7a6337c3f11258ef4 drivers/hwtracing/stm: Remove "select SRCU"
-272a409459c311a5fc15bbdb9e83e38aee70fafa drivers/md: Remove "select SRCU"
-163b372081c122a43d5296d02bf86613ddb90429 drivers/net: Remove "select SRCU"
-8888258a8043894fd177ad078e34e65ac4131ca4 drivers/pci/controller: Remove "select SRCU"
-640b93d8594ce7af8c4b633fc80eee63b3ccbc17 fs: Remove CONFIG_SRCU
-ff1ee256880cc8ff5e319f510dc0b6bc8612db4d fs/btrfs: Remove "select SRCU"
-bc0b3e4eeb913ba8f750f50b2242962337129259 fs/dlm: Remove "select SRCU"
-a26db57f30ecd228752df5e3c2ca80c063951179 fs/notify: Remove "select SRCU"
-30840eff467be5598e0ea5d6f6ac922ce5f677d3 fs/quota: Remove "select SRCU"
-e56d86e146183e1579d3ac161a4c15a48bcce96f init: Remove "select SRCU"
-1345430cd18b1b270edf08bd4678e19851e0bbe3 kernel/notifier: Remove CONFIG_SRCU
-9394b865b74d7adb665aed48bd3b6fd694c8f643 kernel/power: Remove "select SRCU"
-74728b5fd8a7ad9044d202b8d01c67850c020d0f kvm: Remove "select SRCU"
-68ec240a997bceb6b51b4dd666b353818a39c336 mm: Remove "select SRCU"
-ed87f686585760f6e854d1e373d21693a0ccb9a0 tomoyo: Remove "select SRCU"
-ec442efef189a6cafe330b0e8dec121b9d938fa6 rcu: Remove CONFIG_SRCU
-a81c5c07f50303b2b58b17a32533c55c15588faa Merge branches 'doc.2023.01.05a', 'fixes.2023.01.03a', 'kvfree.2023.01.03a', 'srcu.2023.01.03a', 'srcu-always.2023.01.10a', 'tasks.2023.01.03a', 'torture.2023.01.05a' and 'torturescript.2023.01.03a' into HEAD
-78085070f73a2de78ca5e91138223b32aac981d4 Merge branch 'stall.2023.01.09a' into HEAD
-c498e488cf763e110b10a0c42e62f980c9678e6e Merge branch 'clocksource.2023.01.05a' into HEAD
-9873b9022e549bd427355144a14759b3cf2d6f5f Merge branch 'lkmm.2023.01.03a' into HEAD
-d2b2fcb252ce1170b5a12a0b50f3bfc9a7a5fe3d Merge branch 'nmi.2023.01.09a' into HEAD
-4cfddf9656834adbff2fc4c07af06d404019f926 Merge branch 'nolibc.2023.01.09a' into HEAD
-34171bf310184cbb24963d7ed1afcb2254cc11f7 Merge branch 'lkmm-dev.2022.12.28a' into HEAD
-f806fbc0b30d5177016d9170722fbcf60dbea794 memory-model: Prohibit nested SRCU read-side critical sections
-de979fee102da1711dc001adf4fa2d15f1aa63de locking/csd_lock: Add Kconfig option for csd_debug default
-5dceb59366e0855ba96aa0fd4b8a79f026df4765 torture: Ignore objtool "unreachable instruction" complaints
-c5bccf20f092950dc136955b34713b47c11f1675 rcutorture: Add test_nmis module parameter
-2309da25cbc0388352d3cb37bb4c59e32c4f03f0 rcu: Fix set/clear TICK_DEP_BIT_RCU_EXP bitmask race
-3c43ffb0705d805b2ef2536b205cad31ddb7ae03 rcu: Fix missing TICK_DEP_MASK_RCU_EXP dependency check
-372af966733cea2a7cecdc017fe03cfc039ea190 clocksource: Permit limited-duration clocksource watchdogging
-447ea7bb3ba72a31ac34cfa6ea692dca0162e4c8 srcu: Add comments for srcu_size_state
-36d98cb12c186d1d7d2230330a2a1d0e2c46c097 entry/rcu: Check TIF_RESCHED _after_ delayed RCU wake-up
-3e50ac7d1dce1e4f0894eb849230094d023b0f3c rcu/trace: use strscpy() to instead of strncpy()
-cdc17b36fd2e64fd993568eb5623862952d90d32 rcu: Protect rcu_print_task_exp_stall() ->exp_tasks access
-46422cb43b0d227a5b7c0e1ec023bbc77cabe26b context_tracking: Use arch_atomic_*() in __ct_user_enter and __ct_user_exit
-ccaa21efedc950325ce7af839e0b80b9ebbf59d4 rcu: Avoid stack overflow due to __rcu_irq_enter_check_tick() being kprobe-ed
-76c711cbc679ff18891ed2a0ca6d6cebffbad470 rcutorture: Set CONFIG_BOOTPARAM_HOTPLUG_CPU0 to offline CPU 0
-a217e5a32c29035ca37c8344bf2072d39bf566fd rcutorture: Make scenario TREE04 enable lazy call_rcu()
-19213bf117ac998698d80a777f76b947dbeb42bd tools: rcu: Add usage function and check for argument
+ee4e530bdde29a69c58656a919545251a782674e arm64: dts: qcom: sc8280xp: fix primary USB-DP PHY reset
+721c0d68c0f882b6358102b52961ff6eb601839c arm64: dts: qcom: sc8280xp: fix USB-DP PHY nodes
+22c7e1a0fa45cd7d028d6b4117161fd0e3427fe0 arm64: dts: msm8992-bullhead: add memory hole region
+0154252a3b87f77db1e44516d1ed2e82e2d29c30 ARM: dts: qcom: apq8084-ifc6540: fix overriding SDHCI
+6c82b94d583a116faf99858379ee34844df963a1 Revert "arm64: dts: qcom: sm8250: Disable the not yet supported cluster idle state"
+74b91a1bdb994dfaed0074154ca7d493aeb735a6 arm64: dts: qcom: sm8350: correct SDHCI interconnect arguments
+26658868354963afbff672ad6f7a85c44c311975 dt-bindings: soc: qcom: apr: Make qcom,protection-domain optional again
+599d41fb8ea8bd2a99ca9525dd69405020e43dda soc: qcom: apr: Make qcom,protection-domain optional again
+380cd3a34b7f9825a60ccb045611af9cb4533b70 arm64: dts: msm8994-angler: fix the memory map
+6049aae52392539e505bfb8ccbcff3c26f1d2f0b PM: AVS: qcom-cpr: Fix an error handling path in cpr_probe()
+2bd5ab93335bf2c4d22c8db427822ae637ed8dc3 arm64: dts: qcom: msm8992: Don't use sfpb mutex
+69876bc6fd4de3ad2dc7826fe269e91fa2c1807f arm64: dts: qcom: msm8992-libra: Fix the memory map
+a1904fa4dfc929e5ea36bd409cf0d800df56fb8b firmware: raspberrypi: Fix type assignment
+980a637d11fe8dfc734f508a422185c2de55e669 ARM: omap1: fix !ARCH_OMAP1_ANY link failures
+9d46ce57f4d1c626bb48170226ea5e35deb5877c ARM: omap1: fix building gpio15xx
+6437c0291237227ed36f61ddd71e66ff983b4fe4 Merge branch 'armsoc-build-fixes' of https://git.kernel.org/pub/scm/linux/kernel/git/soc/soc into arm/fixes
+985d7fef112120f4101ff1bf70ed89496b69a91b Merge tag 'qcom-dts-fixes-for-6.2' of https://git.kernel.org/pub/scm/linux/kernel/git/qcom/linux into arm/fixes
+23d39547655e9d4144fce073ee2e9b112e8aedc5 Merge tag 'qcom-arm64-fixes-for-6.2' of https://git.kernel.org/pub/scm/linux/kernel/git/qcom/linux into arm/fixes
+42c18d13623d863e1cea018042546b0bd5a5dd11 Merge tag 'qcom-driver-fixes-for-6.2' of https://git.kernel.org/pub/scm/linux/kernel/git/qcom/linux into arm/fixes
+45c734817847e580163d85635fb4ea442056d489 Merge tag 'arm-soc/for-6.2/drivers-fixes' of https://github.com/Broadcom/stblinux into arm/fixes
+2b843f82a1821de3e7d5bd0d54d936f5671cd1fd ARM: at91: remove stale MAINTAINER file entries
+e73307b9ebc4ecb02df60be441a541c37dbdce7a ARM: cns3xxx: remove entire platform
+4ede65e1c1533977a60a4d57126dca18ed0a9124 mmc: remove cns3xxx driver
+ca2259c352519721a659239e187c1d3a375a8f96 ARM: ep93xx: remove old board files
+2b45e1fa9398f6dc8a242f59118d5e28fa00351f ASoC: remove unused ep93xx files
+e2fe85aa6a6387c4babe4c191e50b7af8ee37faf ARM: mv78xx0: un-deprecate Terastation WXL
+c09846fc1ff4ced5c55840fb7f171ebc6e5478e4 ARM: orion: remove unused board files
+fd68572b57f2be17e18905d28e5b7165741ad48a ARM: orion5x: remove dsa_chip_data references
+b91a69d162aae0f097432c8166956eccf71783d3 ARM: iop32x: remove the platform
+046cd3c6987c6671b3ac5405771e79f6b763ff4d gpio: remove iop driver
+50f6f34e605b58079bd99d23c5da85347b673ef4 ARM: footbridge: remove CATS
+c32fd10914a314dd96c5d24030200070c84df5f1 ARM: omap1: remove unused board files
+7482c03b4d49855424a418a25b48056f90af2a03 ARM: omap1: remove osk-mistral add-on board support
+20dbdc78f34b95f98859941da923a030eb6d7340 ARM: omap1: remove dead code
+93a03066205f3d341031c888e1bd5fe93e4138dd ARM: omap1: merge omap1_map_io functions
+a69ddbe2a36bc1773f3ad9c49e134fde590c8679 ARM: omap1: remove unused omapxxxx.h headers
+388fc1576429c7dd6ffd8eb795f013201d8269e4 usb: phy: remove phy-isp1301-omap driver
+668251cb43664edc2e2361eeb53a5e0524ebcea1 fbdev: omapfb: remove unused board support
+39f20990d3468d7f09f9bf0d73446befa6b0572f spi: remove omap 100K driver
+51543d7baacb4e2e466b20839536185b4085271a ARM: davinci: remove unused board support
+6a95dfdf60cf2af16ca7aad60b83bfabfc3f3987 ARM: davinci: drop DAVINCI_DMxxx references
+dda8ab892fa1f9cd3cd00d43aa7bc8158caa0137 ARM: davinci: clean up platform support
+9bd31cab6b2c618d639ad76c3e0d36107cdcfd85 clk: remove davinci dm3xx drivers
+01ced1f823ff87ab99aaf40d95ce26c95182f004 input: remove davinci keyboard driver
+c7234d76e7320df2ec104ff9f2a6862d5e828772 ASoC: remove unused davinci support
+e6555d9e9e7df7b58359143e97faa8d67e85d092 irqchip: remove davinci aintc driver
+0fb4ccd15abf1651af399b6ec065a3ffd1fb7f3f staging: media: remove davinci vpfe_capture driver
+b154646b6a3091d22b85f0524cbd2b59f88423fe media: davinci: remove vpbe support
+5ef6cf11a99e91f0e15a1e52ecb5411dfb35f685 ARM: sa1100: un-deprecate jornada720
+609eecb3f7fc82cd17308275fbc658ef3243a290 ARM: sa1100: remove unused board files
+56d3391e6c8530a58e2746323329eb56135700fa ARM: sa1100: remove irda references
+cdb1f36ddea6ae484eff903529805a586df02f6d cpufreq: remove sa1100 driver
+9f067d2d456dcd67b822b9bb46d099df270ba9a7 ARM: mmp: select specific CPU implementation
+9693a153cf63dbb3fb2a43588db1364b5aa40774 ARM: mmp: remove all board files
+89e529a88cb55411d7b0c5cdc3ae25eb04c00a2c ARM: mmp: remove custom sram code
+7680b7c197872c29cd7d3b921d463b8b201eff69 ARM: mmp: remove device definitions
+87a92264b1dae3be00ebe2f1ca316e6babe5252e ARM: mmp: remove old PM support
+3afa0bbe1967cc2c354432cc2f55a6ea85da7ec0 ARM: s3c: remove all s3c24xx support
+dcecfafddaf2e829573bad3d133ed1cf8e581e72 ARM: s3c: remove s3c24xx specific hacks
+8785474e7245812db02f5d4f9ecd2779fd0636d1 ARM: s3c: remove most s3c64xx board support
+01ee9a99a39ede179139c10be2dddea72adb28e2 ARM: s3c: remove adc.c
+db2d588ee381c31b63a00829c4f1840d6471c693 ARM: s3c: simplify platform code
+005d657d27bc2ff02cbb1a63f73c4eeed50f88bd ARM: s3c: remove s3c6400 support
+448b27d88467cab6318e9419b318b37b1db4893e power: remove s3c adc battery driver
+3917e5b54c62920a0343a6563ac4db5fc6648c86 hwmon: remove s3c driver
+d8bc69687b0ebd02d2351dacf6ed88a962d849f6 pata: remove samsung_cf driver
+43ffc61b0dc11254a45d26229f9e548ed09a3164 mmc: remove s3cmci driver
+20b075ac0f4599bb234bb01a42893724ce75bbae clk: remove s3c24xx driver
+dd9fbf5401a54a582427093dc72fb0deb0513b42 clk: samsung: remove s3c24xx specific pll bits
+998a0d4559d903bf10c96ab66f795b4ecfcad5f8 leds: remove s3c24xx driver
+33cd12f2a0386d8c548d9698da16a7f807e32bad usb: gadget: remove s3c24xx drivers
+2f581399fa49d2361dcbf8c0df405fd9f955bab2 dmaengine: remove s3c24xx driver
+186741d424df5ad04900ec4796bc7e5456734065 cpufreq: remove s3c24xx drivers
+d9672014952b5e4f96a8575084aac272dd524089 fbdev: remove s3c2410 framebuffer
+30efcf694f1758b28ed6297aa8ed112fea61437a input: remove s3c24xx touchscreen driver
+91b43a604349d9f31772eb0dd7918e44e2f18d28 pinctrl: remove s3c24xx driver
+7b0e5a05898e9d0e85982fa6d2bb9c5637cefbca spi: remove s3c24xx driver
+e6e5b6041b48c5369e41352c25c3fd76125dfce9 soc: s3c: remove pm-debug hack
+ffffde1dd253e39a9c332e81db47f892462f628d ASoC: samsung: remove unused drivers
+9281ef088a902d4743d01d5f8862ae2711554a29 parport: remove ax88796 driver
+7386339308cf0fbbf4a10302aaf7af16f0e55db0 ARM: pxa: remove unused board files
+3d5da47dfba65ec372d537897112ab1f9a985191 ARM: pxa: remove pxa93x support
+59ecb3f92887e8b661958ae8eee70690c01bf521 ARM: pxa: remove irda leftover
+a08353460ecf1d8e9a4c4f8b0094e01cb2d50c8f ARM: pxa: remove unused pxa3xx-ulpi
+9627ebc107ac49d6d1b3dc0385d124a92d7ad5f9 ARM: pxa: prune unused device support
+cac7236ba22e47570aa0f63e26f5589211f9a8bc power: remove z2_battery driver
+4bd910f86451e30d3fae67e334de68f9e75511f3 power: remove tosa_battery driver
+7968dd065503037543d9a11c33ff8dc8ee15b04e ata: remove palmld pata driver
+06208df331dffe89083673ff9e5736d45c259d31 backlight: remove pxa tosa support
+3f30a29dec45414f51efc823b061d7f0489c9f8d input: remove pxa930_trkball driver
+b5ce0f00db45f9adb37ab6969e4fc3059925a636 input: remove pxa930_rotary keyboard driver
+165357401fdf2a208474cad1ad1ff27aa8119af3 input: remove zylonite touchscreen driver
+ac2948c3ae18f2fbafca5506488865589e7d6747 pcmcia: remove unused pxa/sa1100 drivers
+350a6eb412d32012e6142909a5b5eda913ae6828 ASoC: PXA: make SND_PXA2XX_SOC_AC97 user-selectable
+22844a0330b9f7c680ecbadb742ddec8b5b0cfd1 ASoC: pxa: remove unused board support
+f31aeb318dfb12155fae96dba240b393483dedd4 power: remove pda_power supply driver
+d736d387eff7e0afd73f0690d1937a8580877093 rtc: remove v3020 driver
+dc16345d92ee6eb47d6a8b32e78254ceddce7dbb mfd: remove toshiba tmio drivers
+481ac55a74c9040ad752fb294b573c513ebe79ea mfd: remove ucb1400 support
+136a9e911abf56f58b6aee1fe74d27ad37da7ced mtd: remove tmio_nand driver
+3d56af297fa96112b371a6a349dd01d02811f8ee mmc: remove tmio_mmc driver
+642edbf0a01090a00bd673335750157dab269ce1 fbdev: remove tmiofb driver
+889969fbefd023d69130bd8ced703d06d8e0644d fbdev: remove w100fb driver
+720b01e0b2f7d9adf3d82ed00c03f820868cb7b1 leds: remove asic3 driver
+ecd1326a1f9abdb5973a391a554d9dfd2c442517 usb: remove ohci-tmio driver
+24124cb75eb447056f955a4468492165c21b120a w1: remove ds1wm driver
+615d580673f29a6758bdb1243559381e7f56b6fe mfd: remove htc-pasic3 driver
+585645f6b487eb10c7495c06f2bb6620778aeca7 ARM: remove CONFIG_UNUSED_BOARD_FILES
+2465bf07f72e57946e52699eac10e957142c7154 Merge branch 'arm/fixes' into for-next
+159ac471fdec2790c6ec005a8511e30865e66e2f Merge branch 'arm/soc' into for-next
+94ac29dc59d029c6ff61509e3b58fa0beb1f2966 Merge branch 'arm/boardfile-remove-wip' of https://git.kernel.org/pub/scm/linux/kernel/git/soc/soc into for-next
 
---===============1599068712371266410==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-28ef4c3753a4-a290296ab832.txt
-
-7f8548589661d5edbde4c343e4971117585da2f5 tools/nolibc: make compiler and assembler agree on the section around _start
-20470dfd656ef71145d78102b540f73a11748182 tools/nolibc: enable support for thumb1 mode for ARM
-5a51b6de5968885347e559d0dac8307a38005806 tools/nolibc: support thumb mode with frame pointers on ARM
-d5b48f958b36e38ee1a9bebb522bdd86114c34ae tools/nolibc: remove local definitions of O_* flags for open/fcntl
-1caa1154c3e9ad071a07c02431a700ff5df94392 tools/nolibc: make errno a weak symbol instead of a static one
-89dc50921c87e2b4a4612188c5a90abebc02b60d tools/nolibc: export environ as a weak symbol on x86_64
-52e423f5b93e6d30fd5d311f068094b768caffb5 tools/nolibc: export environ as a weak symbol on i386
-9b8688c6eaddcdf0db600953d57beaeafaae1155 tools/nolibc: export environ as a weak symbol on arm64
-a6f29a2c41f3d283e78e00dc8974e6efacaccf37 tools/nolibc: export environ as a weak symbol on arm
-8f7fafebd1da984c427d53b614e48ebecb456824 tools/nolibc: export environ as a weak symbol on mips
-758f33379569d817558a4310c47b42834b8e4e57 tools/nolibc: export environ as a weak symbol on riscv
-9e5bdc613d06fdc6fed73267767c09a0dc0c6aac tools/nolibc: export environ as a weak symbol on s390
-2ab4aa487b93d9d994b4a20382848a4041f00d78 tools/nolibc: add auxiliary vector retrieval for i386
-1cce162ab4a565c8a88ffac1d9f78c80e160d6a1 tools/nolibc: add auxiliary vector retrieval for x86_64
-2a39a53245d2b5eae83c10a67581e8dc6b629b85 tools/nolibc: add auxiliary vector retrieval for arm64
-59ea1876242163da431026921070282b2d651197 tools/nolibc: add auxiliary vector retrieval for arm
-041fa97cb332e59311aa861fac3be178abad6a9b tools/nolibc: add auxiliary vector retrieval for riscv
-d01869cf1ee4ad6e02e853062eeced883b3b4504 tools/nolibc: add auxiliary vector retrieval for mips
-241c4b4e02f25ceab21df8a28e1ac689a477c30c tools/nolibc: add auxiliary vector retrieval for s390
-c61a078015f325fe38a7371ab0b12d4444f5fba4 nolibc/stdlib: Implement `getauxval(3)` function
-7efd762e97c87f07b0a93e428e5ce3436715f538 nolibc/sys: Implement `getpagesize(2)` function
-a290296ab8326e04a9fefd698ca9367dc72c0a87 selftests/nolibc: Add `getpagesize(2)` selftest
-
---===============1599068712371266410==--
+--===============7129692123928190063==--
