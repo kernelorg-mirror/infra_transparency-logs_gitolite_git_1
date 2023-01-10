@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/trace/linux-trace
-Date: Tue, 10 Jan 2023 04:13:40 -0000
-Message-Id: <167332402010.732.13953863499939930228@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Tue, 10 Jan 2023 04:41:28 -0000
+Message-Id: <167332568887.20557.10138590783490128169@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/trace/linux-trace
-user: mhiramat
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/bootconfig/for-next
-    old: 0000000000000000000000000000000000000000
-    new: a1dabd50cc9a84f8c837149f894cf55c2180b0f2
+  - ref: refs/heads/master
+    old: 9e17f99220d111ea031b44153fdfe364b0024ff2
+    new: 2ea26b4de6f42b74a5f1701de41efa6bc9f12666
+    log: |
+         2ea26b4de6f42b74a5f1701de41efa6bc9f12666 Revert "r8169: disable detection of chip version 36"
+         
