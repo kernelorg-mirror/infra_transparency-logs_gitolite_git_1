@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 10 Jan 2023 18:35:58 -0000
-Message-Id: <167337575854.15966.15440905605644032376@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Tue, 10 Jan 2023 18:39:27 -0000
+Message-Id: <167337596797.17109.15938643058260714617@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: bp
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/x86/boot
-    old: 5353fff29e42d0efc844dcaf764336d20a7f6b44
-    new: e2869bd7af608c343988429ceb1c2fe99644a01f
-    log: |
-         e2869bd7af608c343988429ceb1c2fe99644a01f x86/acpi/boot: Do not register processors that cannot be onlined for x2APIC
-         
+  - ref: refs/heads/arm64-bti-selftest-skip
+    old: 0000000000000000000000000000000000000000
+    new: 5a7831449d00e04c1470577a081870b7a521a34d
