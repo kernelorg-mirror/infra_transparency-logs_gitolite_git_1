@@ -1,28 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chrome-platform/linux
-Date: Tue, 10 Jan 2023 18:46:23 -0000
-Message-Id: <167337638335.23858.6868670531012783250@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
+Date: Tue, 10 Jan 2023 18:46:40 -0000
+Message-Id: <167337640003.24019.7891246404976868935@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chrome-platform/linux
-user: pmalani
+repo: pub/scm/linux/kernel/git/qcom/linux
+user: andersson
 changes:
-  - ref: refs/heads/for-next
-    old: 957445d730badbea1b3b2ef038e60d2ca38abd0a
-    new: 40a9b13a09ef2ec207fec1b328ed796d08e20e54
+  - ref: refs/heads/arm64-for-6.3
+    old: 71342fb91eae160fa58c1f51c6d368d088b04cf6
+    new: 433477c3bf0b7f00334f4157de2a21aa4d8e46a1
     log: |
-         0ac7200e3317bdde7b96112f24b9253208c0258b Revert "mfd: cros_ec: Add SCP Core-1 as a new CrOS EC MCU"
-         0e0dba884c4318c433756118794a7dff8947e6ce platform_chrome: cros_ec: Add Type-C VDM defines
-         4dc9355cef4f507f12289c56b7ea5df911758278 platform/chrome: cros_ec_typec: Stash port driver info
-         c856e3ff98bba1950259d5f52b45760e80ace412 platform/chrome: cros_ec_typec: Set port alt mode drvdata
-         8d2b28df6c3dc1581d856f52d9f78059ef2a568f platform/chrome: cros_ec_typec: Update port DP VDO
-         69058096515359fbe15b63ea8b111fe0bb21cecb platform/chrome: cros_ec_typec: Move structs to header
-         e5eea6a3319fcd0d6c71c8ff359e0d8c5b1bd5cd platform/chrome: cros_ec_typec: Alter module name with hyphens
-         493e699b9934d9cd6a46ecc7782540014b369267 platform/chrome: cros_ec_typec: Add initial VDM support
-         50ed638bbc47ba68ccc90d81118fe030cf39b6b5 platform/chrome: cros_typec_vdm: Add VDM reply support
-         40a9b13a09ef2ec207fec1b328ed796d08e20e54 platform/chrome: cros_typec_vdm: Add VDM send support
+         377972ac743f54506e675c695a287e1821a47e70 arm64: dts: qcom: sm8550: add I2C Master Hub nodes
+         433477c3bf0b7f00334f4157de2a21aa4d8e46a1 arm64: dts: qcom: sm8550: add QCrypto nodes
          
