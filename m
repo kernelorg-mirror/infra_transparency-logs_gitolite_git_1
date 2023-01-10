@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Tue, 10 Jan 2023 05:03:40 -0000
-Message-Id: <167332702051.2357.845457457039990299@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
+Date: Tue, 10 Jan 2023 06:08:52 -0000
+Message-Id: <167333093247.11983.11140321526985123555@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/linux/kernel/git/saeed/linux
+user: saeed
 changes:
-  - ref: refs/heads/dev
-    old: 066afe31322c0b7464270514d0271e39343655d8
-    new: 6c11be38a0363b61db36352555e6746920711a1f
-    log: |
-         6c11be38a0363b61db36352555e6746920711a1f rcutorture: Set CONFIG_BOOTPARAM_HOTPLUG_CPU0 to offline CPU 0
-         
+  - ref: refs/tags/mlx5-fixes-2023-01-09
+    old: 0000000000000000000000000000000000000000
+    new: f9b37077168686d8f6b78b92fa9763a7678764b0
