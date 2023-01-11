@@ -1,20 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Wed, 11 Jan 2023 21:19:25 -0000
-Message-Id: <167347196553.29569.9801865647584527549@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/mm
+Date: Wed, 11 Jan 2023 21:40:56 -0000
+Message-Id: <167347325690.11194.16799247732948333356@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
-user: broonie
+repo: pub/scm/linux/kernel/git/akpm/mm
+user: akpm
 changes:
-  - ref: refs/heads/for-next
-    old: 90416d92b7c5b18a2bd530d0b8d22bbee866db83
-    new: 17da31eac52c99d413098a684321789939f8d46c
+  - ref: refs/heads/linus
+    old: c8451c141e07a8d05693f6c8d0e418fbb4b68bb7
+    new: 8fa590bf344816c925810331eea8387627bbeb40
+  - ref: refs/heads/mm-nonmm-stable
+    old: 7e45f80955748c16aa2d78498394ab92a4a90896
+    new: 1d4beeb4edc79b32cfedd07dab9cf59b6df2ee71
     log: |
-         f66804bf7665f9d2db04791496ba2c7f4173941c dt-bindings: trivial-devices: Remove trailing whitespace
-         17da31eac52c99d413098a684321789939f8d46c Merge remote-tracking branch 'spi/for-6.3' into spi-next
+         1d4beeb4edc79b32cfedd07dab9cf59b6df2ee71 selftests/filesystems: grant executable permission to run_fat_tests.sh
          
