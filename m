@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jejb/openssl_tpm2_engine
-Date: Wed, 11 Jan 2023 15:01:06 -0000
-Message-Id: <167344926633.3274.14393872690458522084@gitolite.kernel.org>
+Date: Wed, 11 Jan 2023 15:01:17 -0000
+Message-Id: <167344927743.3413.2968747359125299083@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,8 +11,8 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jejb/openssl_tpm2_engine
 user: jejb
 changes:
-  - ref: refs/heads/master
-    old: f0c9d175a33fea175f2e6b5bf237f82c6b75fdab
+  - ref: refs/heads/next
+    old: d9940336e3c5bb14e68ee52595a76d51d12cd7d8
     new: 9ba30bbf307903a34225aadbcbd2607a91e80a38
     log: |
          d1baa7aefc9099815ee7487550c6462e6a7f55a0 tpm2-common: move public key conversion and name algorithm to common
