@@ -1,36 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============4667614541161604257=="
+Content-Type: multipart/mixed; boundary="===============8272061167716589970=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Wed, 11 Jan 2023 03:26:57 -0000
-Message-Id: <167340761779.20534.8622210376178572398@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Wed, 11 Jan 2023 03:27:08 -0000
+Message-Id: <167340762824.20708.2841241264689761141@gitolite.kernel.org>
 
---===============4667614541161604257==
+--===============8272061167716589970==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
   - ref: refs/heads/master
     old: 435bf71af3a0aa8067f3b87ff9febf68b564dbb6
     new: c9e9cdd8bdcc3e1ea330d49ea587ec71884dd0f5
     log: revlist-435bf71af3a0-c9e9cdd8bdcc.txt
-  - ref: refs/heads/stable
-    old: 1fe4fd6f5cad346e598593af36caeadc4f5d4fa9
-    new: 7dd4b804e08041ff56c88bdd8da742d14b17ed25
-    log: revlist-1fe4fd6f5cad-7dd4b804e080.txt
-  - ref: refs/tags/next-20221011
-    old: 009cbe0bee20b611850355cf39f350f5c476f280
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20230111
     old: 0000000000000000000000000000000000000000
     new: 310c967dc70a2e7f51237d5044345c134c598d13
 
---===============4667614541161604257==
+--===============8272061167716589970==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -998,24 +991,4 @@ a9e021a757577ef97f31cc1df5805905ed7594b4 Merge branch 'mm-stable' of git://git.k
 d34977591e679ba3e08ba30574f77505a69b446e Merge branch 'mm-everything' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 c9e9cdd8bdcc3e1ea330d49ea587ec71884dd0f5 Add linux-next specific files for 20230111
 
---===============4667614541161604257==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1fe4fd6f5cad-7dd4b804e080.txt
-
-cdfb2fef522d0c3f9cf293db51de88e9b3d46846 ksmbd: send proper error response in smb2_tree_connect()
-797805d81baa814f76cf7bdab35f86408a79d707 ksmbd: check nt_len to be at least CIFS_ENCPWD_SIZE in ksmbd_decode_ntlmssp_auth_blob
-83dcedd5540d4ac61376ddff5362f7d9f866a6ec ksmbd: fix infinite loop in ksmbd_conn_handler_loop()
-5b24ac2dfd3eb3e36f794af3aa7f2828b19035bd kcsan: test: don't put the expect array on the stack
-0b3a551fa58b4da941efeb209b3770868e2eddd7 nfsd: fix handling of cached open files in nfsd4_open codepath
-7827c81f0248e3c2f40d438b020f3d222f002171 Revert "SUNRPC: Use RMW bitops in single-threaded hot paths"
-4414c1f5c7a375eaa108676a56e12cc8234eb647 xtensa: drop unused members of struct thread_struct
-5304930dbae82d259bcf7e5611db7c81e7a42eff NFSD: Use set_bit(RQ_DROPME)
-5a41237ad1d4b62008f93163af1d9b1da90729d8 gcc: disable -Warray-bounds for gcc-11 too
-526970be53d5dd60122141540142fb0eeb0b22d8 sh/mm: Fix pmd_t for real
-40c18f363a0806d4f566e8a9a9bd2d7766a72cf5 Merge tag '6.2-rc3-ksmbd-server-fixes' of git://git.samba.org/ksmbd
-092f6239108d3c612f5e1c67d9cd0cc80461fc91 Merge tag 'xtensa-20230110' of https://github.com/jcmvbkbc/linux-xtensa
-7dd4b804e08041ff56c88bdd8da742d14b17ed25 Merge tag 'nfsd-6.2-3' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
-
---===============4667614541161604257==--
+--===============8272061167716589970==--
