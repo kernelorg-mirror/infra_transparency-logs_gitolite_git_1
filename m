@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/wireless/iwd
-Date: Wed, 11 Jan 2023 22:23:12 -0000
-Message-Id: <167347579281.6960.8486739853539213682@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Wed, 11 Jan 2023 22:24:39 -0000
+Message-Id: <167347587945.7451.5997264254645486909@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/wireless/iwd
-user: denkenz
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
   - ref: refs/heads/master
-    old: eda02fb92987b95fd4d045c7193bd648b8107b0e
-    new: 17afcf84dc6cdfb062d91e6834901f463c0ef542
+    old: fb0e8171b351b170cf72e7789f4539f34bd709f8
+    new: 3afeaf0d7f23bf1cd2d330cc6cb1da746b2287f8
     log: |
-         2429ab958d3673258d735bcf48f9f0d79f0e5b93 eapol: set secure on message 2/4 properly
-         17afcf84dc6cdfb062d91e6834901f463c0ef542 unit: update test-eapol with API change
+         3afeaf0d7f23bf1cd2d330cc6cb1da746b2287f8 foo
          
