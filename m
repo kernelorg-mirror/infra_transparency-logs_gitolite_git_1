@@ -1,20 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/helgaas/pci
-Date: Wed, 11 Jan 2023 22:28:26 -0000
-Message-Id: <167347610686.10236.9232329309506487024@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/wireless/iwd
+Date: Wed, 11 Jan 2023 22:32:27 -0000
+Message-Id: <167347634771.13033.3100219932879265177@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/helgaas/pci
-user: helgaas
+repo: pub/scm/network/wireless/iwd
+user: denkenz
 changes:
-  - ref: refs/heads/for-linus
-    old: 760d560f71c828a97c77596af5c3f9978aefd9d1
-    new: 674279b8575ec24f0c39498029684480129bb3e9
+  - ref: refs/heads/master
+    old: 17afcf84dc6cdfb062d91e6834901f463c0ef542
+    new: 0930d0dffc9dec49cacc54a3eb49a856c5d8db59
     log: |
-         a48fe6376919c182597b737984bb905a909727c2 x86/pci: Simplify is_mmconf_reserved() messages
-         674279b8575ec24f0c39498029684480129bb3e9 x86/pci: Treat EfiMemoryMappedIO as reservation of ECAM space
+         c66e5ce8fc4dd79fa697fa88903c5c2acf100e4b handshake: add event for rekey success
+         70e3a43475fee883f7eb5cd933d1ddb0e2549ce5 netdev: unset ptk_installed flag for TK
+         b373d1fa69e89286a0fbf06265921155a6b273a0 netdev: support HANDSHAKE_EVENT_REKEY_COMPLETE
+         0930d0dffc9dec49cacc54a3eb49a856c5d8db59 eapol: relax secure bit check on 2/4
          
