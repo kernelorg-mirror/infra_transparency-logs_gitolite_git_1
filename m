@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2170573927058763489=="
+Content-Type: multipart/mixed; boundary="===============0188642078759158248=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Wed, 11 Jan 2023 15:07:15 -0000
-Message-Id: <167344963502.6899.5700319157377997226@gitolite.kernel.org>
+Date: Wed, 11 Jan 2023 15:09:57 -0000
+Message-Id: <167344979760.7779.1224316491522214425@gitolite.kernel.org>
 
---===============2170573927058763489==
+--===============0188642078759158248==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,41 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/driver-core-testing
-    old: b0a8a59a1c44c07807afe50c6bd21a33c9ec98b7
-    new: 504fa212d7030fb1c042290dc2eb92b21515573a
+    old: 504fa212d7030fb1c042290dc2eb92b21515573a
+    new: 3bb2a01caa813d3a1845d378bbe4169ef280d394
     log: |
-         f6837f34a34973ef6600c08195ed300e24e97317 driver core: fix potential null-ptr-deref in device_add()
-         504fa212d7030fb1c042290dc2eb92b21515573a driver core: Make driver_deferred_probe_timeout a static variable
+         3bb2a01caa813d3a1845d378bbe4169ef280d394 kobject: Fix slab-out-of-bounds in fill_kobj_path()
          
 
---===============2170573927058763489==
+--===============0188642078759158248==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1673449633 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1673449796 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1673449633-3568baace5272428702723d5027314db0d4c043a
+nonce 1673449795-3327cddeabfb19f1434b89c647fe3417ae83a924
 
-b0a8a59a1c44c07807afe50c6bd21a33c9ec98b7 504fa212d7030fb1c042290dc2eb92b21515573a refs/heads/driver-core-testing
+504fa212d7030fb1c042290dc2eb92b21515573a 3bb2a01caa813d3a1845d378bbe4169ef280d394 refs/heads/driver-core-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmO+0KEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+f6MQALNOTRBNNVs5alwXhNY5
-YZRnFkXN6FOZOl5l8wjYLao+9hy+tAu1OeyZlmmSo4s9+m3ZhOlL9ZY4yntrbHUy
-aASyQ16jPjF7J9YNwRWTj+W2zrLgu2SEDWopF5zDJdDsnDuHVoslaDlN2IBcP7w0
-fPZc41R7h+r6YBRlGZbS1o9sIFP9lFMC8wWhxhjIqtxLv+RkONNGWTxUZ4dhxray
-71lNX1lFX0EHPu29XLGuNFaVSBr70I9zpBT+XtefrLhgBuLO4K4RIxdJePRlAq6P
-I9eFSSJ2s4kFri7800FoYP2N2oOpKTT+665OJ9lHTXvL/JsbVH8wCCx7xceD+6bv
-XDrXoXDPi7lBesV/OKE/3sWXoUJATnYJEBhOqey2GUba9QGJwRlor7lsiEWPMHEV
-xGNqir2dg20uXWprHMsDRCHt0/Q8eKOl0rXmNDTG3rQFIBcAC79u3QJnU6VEjZo0
-ZXvwr6X4TNd1hmGX0NipH3BbGUyGl7ZN3I530HXhM8ktNIbrj6+BGYun86vDgue+
-if3ubJJep+HScW1IUlNsyvpvU85pu+gEKM1E7gie2/F1neXIOPSXeEYP/wuUWbho
-H+YEO1l9cm9GNrjwJrpO8IAfBqJkj7JGms8sRfgHg3+WIHM4IMmEX1jS8C/TFoV1
-UYv4McOCu7ZC7fSIy5SxZq1B
-=a0AD
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmO+0UQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+/8UQAKLRjM0+sxxKvR+oK0/N
+7pTTcr4QHWw0C2kGeGTAJgqRpyG1anIK5iINtuWIVPAkK9BdKAO1mT3J6mvuQi7H
+BgBybVR5TfyUSFZjJyjP7hrcwdeU6fY3gFEmBPqAmQoi7saIvqCf4GoLhiMns341
+9c8JW/XueXuSon3Hp7GSARWBNo5RrBKc273YNRmeuIgIPkvWT4VBlec8OO3VcnkY
+HofS6ha5QuKQWrNXpvtv5fgIRcTHWguB0Q5nv4MHMTx0x8iL94vFjTkKVPKVUwxB
+jQg/ilkvq1EewQgWCZnoz5v4r/FfMmJo8ohMoATohcgEs/o0Qu8NpiH/JkQSllVE
+K/EtgyFKXzrg062obazyzo8NA2TaEUnd0Dox8EgFPQUFvQyI9lzHQM/k92mFwypX
+8W1Fxx9TUP7qW+hYH7LTYv8QltI+049RpScVfnB+9q+cQIP1yUui0HuuXRStSqti
+kBWsvSyhFJRbN8Y4GLpk1B223npzk/Z12pxs6SFC1e2lQ+CjmKdTOzppsP+7nLb5
+oP7TfNVCEyOredK9PmIx6YBQa6xt/icLEG1XL9co5pbF7jz0qzUDPrfgHBpqbsX9
+3+K/qwhfV2IEiEnNUVJDPP32YvrZcOB6I6KyqIn3x0CbeSya4id5BuOW+DMi0nro
+TPPl6P7RnXrdqEIntrfXTteI
+=C1/M
 -----END PGP SIGNATURE-----
 
---===============2170573927058763489==--
+--===============0188642078759158248==--
