@@ -1,22 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/mm
-Date: Wed, 11 Jan 2023 21:40:56 -0000
-Message-Id: <167347325690.11194.16799247732948333356@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Wed, 11 Jan 2023 21:57:23 -0000
+Message-Id: <167347424332.22347.10097400551552937180@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/mm
+repo: pub/scm/linux/kernel/git/akpm/25-new
 user: akpm
 changes:
-  - ref: refs/heads/linus
-    old: c8451c141e07a8d05693f6c8d0e418fbb4b68bb7
-    new: 8fa590bf344816c925810331eea8387627bbeb40
-  - ref: refs/heads/mm-nonmm-stable
-    old: 7e45f80955748c16aa2d78498394ab92a4a90896
-    new: 1d4beeb4edc79b32cfedd07dab9cf59b6df2ee71
+  - ref: refs/heads/master
+    old: 2109cbdbdc2a7718e66d64ed283e2255c8ba5ce9
+    new: fb0e8171b351b170cf72e7789f4539f34bd709f8
     log: |
-         1d4beeb4edc79b32cfedd07dab9cf59b6df2ee71 selftests/filesystems: grant executable permission to run_fat_tests.sh
+         ea03a6747dfebf26d00e32a69795b5e91d5cf4f5 foo
+         867b0dce8bdc6dceef52b16c3ee9343db81b4d03 foo
+         fb0e8171b351b170cf72e7789f4539f34bd709f8 foo
          
