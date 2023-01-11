@@ -1,97 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============5623440815179908867=="
+Content-Type: multipart/mixed; boundary="===============5779292593149389418=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
-Date: Wed, 11 Jan 2023 20:48:09 -0000
-Message-Id: <167347008976.8821.1101815861278218863@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Wed, 11 Jan 2023 20:50:04 -0000
+Message-Id: <167347020411.10925.1466527781628168427@gitolite.kernel.org>
 
---===============5623440815179908867==
+--===============5779292593149389418==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/viro/vfs
-user: viro
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/for-next
-    old: 3e4322ef08dfb636f9291a7018e9ef2d83b06e30
-    new: 557e0248a8a0e3d448ef1e92e6509ec56e21a981
-    log: |
-         39ecb653f671bbccd4a3c40f7f803f2874252f81 nsfs: repair kernel-doc for ns_match()
-         557e0248a8a0e3d448ef1e92e6509ec56e21a981 Merge branch 'work.misc' into for-next
-         
-  - ref: refs/heads/work.alpha
-    old: fa6a3bf7ff3734ff13764d1b9e36c48f93eb3677
-    new: beb9797ee8b0c19598ffccdfae24afa6e0066f6a
-    log: revlist-fa6a3bf7ff37-beb9797ee8b0.txt
-  - ref: refs/heads/work.misc
-    old: f27c942e3e3e80475cc463b5fc373f280d85b926
-    new: 39ecb653f671bbccd4a3c40f7f803f2874252f81
-    log: |
-         1cb925c0863efcd8ed12ac3ac4a902386e6779f7 nsfs: add compat ioctl handler
-         39ecb653f671bbccd4a3c40f7f803f2874252f81 nsfs: repair kernel-doc for ns_match()
-         
+  - ref: refs/heads/io_uring-bundle
+    old: bba6914ab4a883522228cafd30f3c33294fbc38e
+    new: 6309487285f29f66a7a75c1dae95b7f2fd26813c
+    log: revlist-bba6914ab4a8-6309487285f2.txt
 
---===============5623440815179908867==
-Content-Type: text/plain; charset="us-ascii"
+--===============5779292593149389418==
+Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fa6a3bf7ff37-beb9797ee8b0.txt
+Content-Transfer-Encoding: 8bit
+Content-Disposition: attachment; filename=revlist-bba6914ab4a8-6309487285f2.txt
 
-9d9b22bedad13d96b34fe005ef44b4523c4eb786 perf test: Add event group test for events in multiple PMUs
-cc2367eebb0c3c5501cddd5823e5feda7b57f706 machine: Adopt is_lock_function() from builtin-lock.c
-616aa32d6f221faa0235d2586ec1706dca70a439 perf build: Fixes for LIBTRACEEVENT_DYNAMIC
-b897613510890d6e92b6a276a20f6c3d96fe90e8 perf stat: Update event skip condition for system-wide per-thread mode and merged uncore and hybrid events
-40769665b63d8c84b5b1c63fee404d4c20cff751 perf jevents: Parse metrics during conversion
-378ef0f5d9d7f4652d7a40e0711e8b845ada1cbd perf build: Use libtraceevent from the system
-4171925aa9f3f7bf57b100238f148b50c45c3b1b tools lib traceevent: Remove libtraceevent
-b9a49f8cb02f08592054b953adcacecd59b7ae4b perf tools: Check if libtracevent has TEP_FIELD_IS_RELATIVE
-232b82d201cbade4f15e243bc0472ac241239d8c perf test: Update event group check for support of uncore event
-167b266bf66c5b93171011ef9d1f09b070c2c537 perf off_cpu: Fix a typo in BTF tracepoint name, it should be 'btf_trace_sched_switch'
-3cad53a6f9cdbafa32ea8413809f23a28734c7c5 perf python: Account for multiple words in CC
-fd507d3e359c7e06d74321cd3d8a5ec8769d05a9 perf lock contention: Add lock_data.h for common data
-eca949b2b4addd941d369d4c2014b87f3c3e203b perf lock contention: Implement -t/--threads option for BPF
-688d2e8de231c54e289b640547af246343732348 perf lock contention: Add -l/--lock-addr option
-22ddcb6b4a62eb97f7d988ac59032b74c64afb20 perf test: Update perf lock contention test
-ab6bd55e9968ff063c0ee28f8941903811dee09a perf cs-etm: Print unknown header version as an error
-fe55ba183264d40d44bfbe71deb148ff64f2ea2d perf cs-etm: Remove unused stub methods
-b00204f5c21ca1bd38b8cb45d12a605b4e60a884 perf cs-etm: Tidy up auxtrace info header printing
-fd63091f2a0317f8943c816acf3ac5f4002adf5c perf cs-etm: Cleanup cs_etm__process_auxtrace_info()
-55c1de9973d665161c1c0c146ff15c6884060e19 perf cs-etm: Print auxtrace info even if OpenCSD isn't linked
-e76aff0523f7d3393f967bc13b10bb04b759abfa perf script: Introduce task analyzer python script
-fdd0f81f0528d55d4362d072c6d6ecc7ecd61def perf script: task-analyzer add csv support
-e8478b84d6ba9ccfac15dfce103062c4fa7ded2f perf test: add new task-analyzer tests
-a8f26192ca769c6b37a04b3ee188f28069fd5d53 perf test: Add ability to test exit code for attr tests
-c3a8f85351b15167d6c8d178656df82ba3c34712 perf test: Add mechanism for skipping attr tests on auxiliary vector values
-ee26adf627e65c8e26b13aa35d5de1875973114f perf test: Add mechanism for skipping attr tests on kernel versions
-9440ebdc333dd12e2344aec8fd3fb7d440f9463c perf test arm64: Add attr tests for new VG register
-caec54705adb73b0015bce4dc781e0d19a91ff18 perf build: Fix python/perf.so library's name
-3b553e0041a65e499fa4e25ee146f01f4ec4e617 spi: fsl_spi: Don't change speed while chipselect is active
-f0f4c3adcfe6d93508a7fbe241b115aa5b24fe36 dt-bindings: thermal: tsens: Add sm8450 compatible
-1f455f144fb05e53ae47f84eb109a8021fe168d1 thermal/drivers/imx8mm_thermal: Use GENMASK() when appropriate
-d37edc7370273306d8747097fafa62436c1cfe16 thermal/drivers/imx8mm_thermal: Validate temperature range
-87f9fe8c4b603bd18f025d8c5fc9bb5f17b9a4cc dt-bindings: thermal: Convert generic-adc-thermal to DT schema
-a7c42af78b19a11e98a5555a664c343e3a672632 thermal/drivers/k3_j72xx_bandgap: Fix the debug print message
-7ef2f023c2c77a452ba5d0c9b1ad04a5a895d553 thermal/of: Fix memory leak on thermal_of_zone_register() failure
-c6db32ec7c600ae7ab92eb6c56a9fb2918fcd780 dt-bindings: thermal: tsens: Add ipq8074 compatible
-4360af35273b742ffc6605ce44f37ac654272443 thermal/drivers/tsens: Add support for combined interrupt
-f63baced3839f591db76c227e09d47001373d6db thermal/drivers/tsens: Allow configuring min and max trips
-6840455debd38ea82b1f9fbbf8019944da36f7eb thermal/drivers/tsens: Add IPQ8074 support
-de48d8766afcd97d147699aaff78a338081c9973 thermal/drivers/qcom/tsens: Init debugfs only with successful probe
-c7e077e921fa94e0c06c8d14af6c0504c8a5f4bd thermal/drivers/qcom/tsens: Fix wrong version id dbg_version_show
-89992d95ed1046338c7866ef7bbe6de543a2af91 thermal/drivers/qcom/tsens: Rework debugfs file structure
-8848c0d7a0782c263a7827697d5acfcc09a19a5f dt-bindings: thermal: imx8mm-thermal: Document optional nvmem-cells
-403291648823f819f7baaccd47589fcf87187c32 thermal/drivers/imx: Add support for loading calibration data from OCOTP
-3f9cb57962bcfad88bcac750f85ef7425475b102 thermal: ti-soc-thermal: Drop comma after SoC match table sentinel
-c464856e63a4c9631add6a27340bd94beb9eb27f dt-bindings: thermal: mediatek: add compatible string for MT7986 and MT7981 SoC
-6f8941646234e2d6e589377aea0dd1ba52365623 thermal: qcom-spmi-adc-tm5: suppress probe-deferral error message
-de95d1341a3e682b95ad759bd58b86224819fbec thermal/drivers/imx8mm: Add hwmon support
-de04f680b0ab71d2b9085903fe608a15541f66cb thermal/core/power allocator: Remove a useless include
-fa17c4136db0bc91e698bd227cb478c648863d11 dt-bindings: thermal: qcom-tsens: narrow interrupts for SC8280XP, SM6350 and SM8450
-8763f8acbf8aef22a2321d4c978cd078aa3b8f64 thermal/drivers/qcom/temp-alarm: Fix inaccurate warning for gen2
-2baad2496383c6036bdb0945ef8aa6b1a5d18c19 thermal/drivers/qcom: Demote error log of thermal zone register to debug
 46cab93ab49f303a7abbcf920cf9ef95d02a113c thermal/drivers/k3_j72xx_bandgap: Simplify k3_thermal_get_temp() function
 311f328ffc7572219bee65db77645e5fedd4e8e6 thermal/drivers/k3_j72xx_bandgap: Use bool for i2128 erratum flag
 156f0e2fda420c4a4a7b244a909df04086039bd6 thermal/drivers/k3_j72xx_bandgap: Remove fuse_base from structure
@@ -711,6 +645,8 @@ b8800d324abb50160560c636bfafe2c81001b66c ALSA: line6: fix stack overflow in line
 df49908f3c52d211aea5e2a14a93bbe67a2cb3af nfc: Fix potential resource leaks
 d3805695fe1e7383517903715cefc9bbdcffdc90 net: ethernet: marvell: octeontx2: Fix uninitialized variable warning
 a4517c4f3423c7c448f2c359218f97c1173523a1 ALSA: hda/realtek: Apply dual codec fixup for Dell Latitude laptops
+26870c3f5b15187268bf183055c7b9f29fe66079 xfs: don't assert if cmap covers imap after cycling lock
+d4542f314507015ac0e25c6e8102b88293826a51 xfs: make xfs_iomap_page_ops static
 246cf66e300b76099b5dbd3fdd39e9a5dbc53f02 block, bfq: fix uaf for bfqq in bfq_exit_icq_bfqq
 33b93727ce90c8db916fb071ed13e90106339754 nvme: fix setting the queue depth in nvme_alloc_io_tag_set
 88d356ca41ba1c3effc2d4208dfbd4392f58cd6d nvme-pci: update sqsize when adjusting the queue depth
@@ -915,6 +851,9 @@ a3542b0ccd58f9fd42f34afa9daea435279a7c1c dt-bindings: net: sun8i-emac: Add phy-s
 88603b6dc419445847923fcb7fe5080067a30f98 Linux 6.2-rc2
 029085b8949f5d269ae2bbd14915407dd0c7f902 NFS: Judge the file access cache's timestamp in rcu path
 5e9a7b9c2ea18551759833146a181b14835bfe39 NFS: Fix up a sparse warning
+cdfb2fef522d0c3f9cf293db51de88e9b3d46846 ksmbd: send proper error response in smb2_tree_connect()
+797805d81baa814f76cf7bdab35f86408a79d707 ksmbd: check nt_len to be at least CIFS_ENCPWD_SIZE in ksmbd_decode_ntlmssp_auth_blob
+83dcedd5540d4ac61376ddff5362f7d9f866a6ec ksmbd: fix infinite loop in ksmbd_conn_handler_loop()
 3b754ed6d1cd90017e66e5cc16f3923e4a952ffc drm/meson: Reduce the FIFO lines held when AFBC is not used
 461ab10ef7e6ea9b41a0571a7fc6a72af9549a3c ceph: switch to vfs_inode_has_locks() to fix file lock bug
 8e1858710d9a71d88acd922f2e95d1eddb90eea0 ceph: avoid use-after-free in ceph_fl_release_lock()
@@ -937,6 +876,7 @@ a8f54d940196c8bd9aced9c82557fdc63baefb02 perf tools riscv: Fix build error on ri
 f24fb53984cfba42ff72a47466eabfd772da647b perf tools: Don't include signature in version strings
 cad853374d85fe678d721512cecfabd7636e51f3 nfsd: fix handling of readdir in v4root vs. mount upcall timeout
 77fe30fed1c0cd282eadb0728999ea3d3350e0b0 perf tools: Fix segfault when trying to process tracepoints in perf.data and not linked with libtraceevent
+5b24ac2dfd3eb3e36f794af3aa7f2828b19035bd kcsan: test: don't put the expect array on the stack
 d00dd2f2645dca04cf399d8fc692f3f69b6dd996 x86/kexec: Fix double-free of elf header buffer
 0226635c304cfd5c9db9b78c259cb713819b057e fs/ntfs3: don't hold ni_lock when calling truncate_setsize()
 69b41ac87e4a664de78a395ff97166f0b2943210 Merge tag 'for-6.2-rc2-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
@@ -964,6 +904,10 @@ ed2724765e58e3310d3de48f4a1761631b3dd640 f2fs: don't mix to use union values in 
 df9d44b645b83fffccfb4e28c1f93376585fdec8 f2fs: let's avoid panic if extent_tree is not created
 72bb8f8cc088730c4d84117a6906f458c2fc64bb x86/insn: Avoid namespace clash by separating instruction decoder MMIO type from MMIO trace type
 c07311b5509f6035f1dd828db3e90ff4859cf3b9 perf/x86/rapl: Treat Tigerlake like Icelake
+c0f399ff51495ac8d30367418f4f6292ecd61fbe xfs: fix off-by-one error in xfs_btree_space_to_height
+817644fa4525258992f17fecf4f1d6cdd2e1b731 xfs: get root inode correctly at bulkstat
+4da112513c01d7d0acf1025b8764349d46e177d6 xfs: Fix deadlock on xfs_inodegc_worker
+e195605ed28b5581dc2d509283cfea2e8635a251 xfs: xfs_qm: remove unnecessary ‘0’ values from error
 f89fb55714b620ff1352141a9f9315611f16573e perf build: Don't propagate subdir to submakes for install_headers
 d8d85ce86dc82de4f88b821a78f533b9d5b22a45 perf lock contention: Fix core dump related to not finding the "__sched_text_end" symbol on s/390
 c8de526215fdab9f2dd0d9675582cf9f1391a919 Merge tag 'drm-misc-next-fixes-2023-01-03' of git://anongit.freedesktop.org/drm/drm-misc into drm-fixes
@@ -1024,6 +968,7 @@ fe69230f05897b3de758427b574fc98025dfc907 caif: fix memory leak in cfctrl_linkup_
 07b050f9290ee012a407a0f64151db902a1520f5 powerpc/vmlinux.lds: Don't discard .rela* for relocatable builds
 be5f95c8779e19779dd81927c8574fec5aaba36c powerpc/vmlinux.lds: Don't discard .comment
 12521a5d5cb7ff0ad43eadfc9c135d86e1131fa8 io_uring: fix CQ waiting timeout handling
+601a27ea09a317d0fe2895df7d875381fb393041 xfs: fix extent busy updating
 b2b50d572135c5c6e10c2ff79cd828d5a8141ef6 block: Remove "select SRCU"
 5e9af4b42660b2a8db067db8ff03db8a268d6a95 Merge tag 'fbdev-for-6.2-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/linux-fbdev
 e95d50d74b93a767a026f588e8de0b9718a0105e lib/scatterlist: Fix to merge contiguous pages into the last SG properly
@@ -1038,6 +983,8 @@ b9b916aee6715cd7f3318af6dc360c4729417b94 riscv: uaccess: fix type of 0 variable 
 23970a1c9475b305770fd37bebfec7a10f263787 udf: initialize newblock to 0
 e498a04443240c15c3c857165f7b652b87f4fd96 usb: dwc3: xilinx: include linux/gpio/consumer.h
 c4e3ef5685393c5051b52cf1e94b8891d49793ab usb: dwc3: gadget: Ignore End Transfer delay on teardown
+0b3a551fa58b4da941efeb209b3770868e2eddd7 nfsd: fix handling of cached open files in nfsd4_open codepath
+7827c81f0248e3c2f40d438b020f3d222f002171 Revert "SUNRPC: Use RMW bitops in single-threaded hot paths"
 90bc52c525fdac4ed8cbf13c08c813ec2a4fc856 Merge tag 'v6.2-p2' of git://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6
 d7a0853d650b381921732ff5bca618432a279033 Merge tag 'perf-urgent-2023-01-06' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 56f814583923a782f1cec43db32bc6da1d3cf7b5 Merge tag 'perf-tools-fixes-for-v6.2-1-2023-01-06' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
@@ -1051,6 +998,8 @@ a689b938df39ab513026c53fb7011fd7cd594943 Merge tag 'block-2023-01-06' of git://g
 cb7a95af78d29442b8294683eca4897544b8ef46 hfs/hfsplus: avoid WARN_ON() for sanity check, use proper error handling
 1382999aa0548a171a272ca817f6c38e797c458c tpm: Allow system suspend to continue when TPM suspend fails
 0a71553536d270e988580a3daa9fc87535908221 Merge tag 'drm-fixes-2023-01-06' of git://anongit.freedesktop.org/drm/drm
+4414c1f5c7a375eaa108676a56e12cc8234eb647 xtensa: drop unused members of struct thread_struct
+5304930dbae82d259bcf7e5611db7c81e7a42eff NFSD: Use set_bit(RQ_DROPME)
 a7c4127a29ce222c9fa4fb4ae5b15e182a1ee5c9 Merge tag 'kbuild-fixes-v6.2-2' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 4a4dcea0831394b876ae955ecf49ba072ffbf059 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma
 c28bdeaf5d723b40c8e2901662f4e8acd574e839 Merge tag 'usb-6.2-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb
@@ -1059,10 +1008,47 @@ f18fca98ac1622220dfdf795fefa91dc52d3707d Merge tag '6.2-rc2-smb3-client-fixes' o
 9b43a525db125799df81e6fbef712a2ae50bfc5d Merge tag 'nfs-for-6.2-2' of git://git.linux-nfs.org/projects/trondmy/linux-nfs
 e9ffbf16caa6cb596df7fd641bc6063a922c52e6 Merge tag 'fixes-2023-01-08' of git://git.kernel.org/pub/scm/linux/kernel/git/rppt/memblock
 93928d485d9df12be724cbdf1caa7d197b65001e Merge tag 'powerpc-6.2-2' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
+e6db6f9398dadcbc06318a133d4c44a2d3844e61 io_uring/io-wq: only free worker if it was allocated for creation
 b7bfaa761d760e72a969d116517eaa12e404c262 Linux 6.2-rc3
-977a3009547dad4a5bc95d91be4a58c9f7eedac0 alpha: fix FEN fault handling
-e07f68d5e4f4d7570b065b5bdf4729268c9985ba alpha/boot: fix the breakage from -isystem series...
-1878787797cbb019eeefe6f905514dcd557302b6 alpha/boot/tools/objstrip: fix the check for ELF header
-beb9797ee8b0c19598ffccdfae24afa6e0066f6a alpha/boot/misc: trim unused declarations
+1fe4fd6f5cad346e598593af36caeadc4f5d4fa9 Merge tag 'xfs-6.2-fixes-2' of git://git.kernel.org/pub/scm/fs/xfs/xfs-linux
+bc3c0dd146e1f895cba45b3868e9cc44f54ee5d8 io_uring: rearrange defer list checks
+12e31d17b06859d94939e9d81ecf789a3f44acd7 io_uring: don't iterate cq wait fast path
+b24ef3dc37fa07ba1bb808e968d0172e322c6c50 io_uring: kill io_run_task_work_ctx
+77a85f11b050591904923bd398e433aa240260f3 io_uring: move defer tw task checks
+22522155d2df661f937284af5d463482515bc690 io_uring: parse check_cq out of wq waiting
+cae0ad261cbe17c05a3072e9452104c2e3316e29 io_uring: mimimise io_cqring_wait_schedule
+b9b19725832c2fdd98fdf7e5d103491a13cc5989 io_uring: simplify io_has_work
+b07358e24f8bdd06a426f2ccaf7dfcf9216ba357 io_uring: set TASK_RUNNING right after schedule
+eaf9f483c9cbd672061befa6220cf52a73bcd482 io_uring: optimise non-timeout waiting
+eccd4dbabfec139d4673fa9f7a31d9e2438a297d io_uring: keep timeout in io_wait_queue
+5ab697ff917844acbd898009261fb0c2f0faec54 io_uring/msg_ring: Pass custom flags to the cqe
+febb985c06cb6f5fac63598c0bffd4fd823d110d io_uring/poll: add hash if ready poll request can't complete inline
+5a41237ad1d4b62008f93163af1d9b1da90729d8 gcc: disable -Warray-bounds for gcc-11 too
+119fda37c54736ea65a669273d0b3c394c99a75c io_uring: remove excessive unlikely on IS_ERR
+526970be53d5dd60122141540142fb0eeb0b22d8 sh/mm: Fix pmd_t for real
+40c18f363a0806d4f566e8a9a9bd2d7766a72cf5 Merge tag '6.2-rc3-ksmbd-server-fixes' of git://git.samba.org/ksmbd
+ea97cbebaf861d99c3e892275147e6fca6d2c1ca io_uring/fdinfo: include locked hash table in fdinfo output
+7b14145a509d116d615cd7524f14fde9ca150e98 io_uring/poll: attempt request issue after racy poll wakeup
+092f6239108d3c612f5e1c67d9cd0cc80461fc91 Merge tag 'xtensa-20230110' of https://github.com/jcmvbkbc/linux-xtensa
+7dd4b804e08041ff56c88bdd8da742d14b17ed25 Merge tag 'nfsd-6.2-3' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
+8516c8b514839600b7e63090f2dce5b4d658fd68 io_uring: move submitter_task out of cold cacheline
+291f31bf963c0018a2b84a94388a0e7b535c3dae io_uring: refactor io_wake_function
+5eb30c28823aed63946c9d2a222bf1158a3aecae io_uring: don't set TASK_RUNNING in local tw runner
+88d14c077c1a04555978c499acd12f5f55de51da io_uring: mark io_run_local_work static
+78c37b460a63c866050d3e05d6d4bfddf654075e io_uring: move io_run_local_work_locked
+6b40f3c9a37b97e629a99a92d2c392d77ae20f60 io_uring: separate wq for ring polling
+e05f6f47bf8aed0e97d9ba1d52e2a10ea542609c io_uring: add lazy poll_wq activation
+ef3ddc6ac629fc829ed6e08418e1c070332dde63 io_uring: wake up optimisations
+65ca9dd8ce5e3de42b100f0e7d2ae360e9b8d14e io_uring: waitqueue-less cq waiting
+6cd16656e2ddc63ee7aae7c7f27edcab933a0e09 io_uring: add io_req_local_work_add wake fast path
+607947314b4c9f8c979f79c095da9156b41c82b8 io_uring: optimise deferred tw execution
+c396b920590c2eb5ccfce17515e479fbf3ba54b8 Merge branch 'io_uring-6.2' into io_uring-bundle
+df46d3680311cacab1fe4c614b61c10ffcb0dbea Merge branch 'for-6.3/io_uring' into io_uring-bundle
+129e971772c6b215029abec98ae2e081822d8346 io_uring: grow struct io_kiocb 'flags' to a 64-bit value
+e0c80632a3d3e5e6811bd9646be687b7c46b2937 io_uring: move req->link above req->async_data
+05244b441ac78c0474ae509c096a9a72acb3581c io_uring: make io_issue_sqe() available to commands
+2f3a7d309a69f171c4cd83b37ea1099f0548ecaa io_uring: add support for bundles
+9b51fcb1ff748ec4dc146c94f6354651cdd40b15 io_uring/bundle: enable use of IOSQE_ASYNC for bundle requests
+6309487285f29f66a7a75c1dae95b7f2fd26813c io_uring/bundle: disable IOSQE_IO_DRAIN on bundle requests
 
---===============5623440815179908867==--
+--===============5779292593149389418==--
