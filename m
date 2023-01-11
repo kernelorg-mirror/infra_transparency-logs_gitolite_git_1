@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Wed, 11 Jan 2023 02:09:00 -0000
-Message-Id: <167340294010.32192.12617334809206479543@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Wed, 11 Jan 2023 02:13:53 -0000
+Message-Id: <167340323300.2902.9009498087401192228@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: martin.lau
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/for-next
-    old: 75514e4c661962cbbad869a1b5855dbce0f1aba2
-    new: 6920b08661e3ad829206078b5c9879b24aea8dfc
+  - ref: refs/heads/master
+    old: ef1757ef58467310a285e57e6dbf6cf8314e5080
+    new: a6f536063b69102adf3588fbc0bb4f08d6c8cb82
     log: |
-         6920b08661e3ad829206078b5c9879b24aea8dfc libbpf: Fix map creation flags sanitization
+         a6f536063b69102adf3588fbc0bb4f08d6c8cb82 qed: fix a typo in comment
          
