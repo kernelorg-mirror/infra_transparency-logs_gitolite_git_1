@@ -1,52 +1,63 @@
-Content-Type: multipart/mixed; boundary="===============6890888923887229966=="
+Content-Type: multipart/mixed; boundary="===============0445534704586076323=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 11 Jan 2023 09:00:57 -0000
-Message-Id: <167342765762.12908.9275388768709788914@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Wed, 11 Jan 2023 09:17:32 -0000
+Message-Id: <167342865223.23950.965789515061197868@gitolite.kernel.org>
 
---===============6890888923887229966==
+--===============0445534704586076323==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: davem
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: a6f536063b69102adf3588fbc0bb4f08d6c8cb82
-    new: 60d86034b14eed902b3f2bea97d0c237cf2f9499
-    log: revlist-a6f536063b69-60d86034b14e.txt
+  - ref: refs/heads/bus_cleanup
+    old: 8d057b518ea3e54ecfdace056e4955394ed41d88
+    new: d393a7334cec01e940f0b94709a8a15c5f683c63
+    log: |
+         8afbb4273977f055db219a22daaafe64be10fb95 driver core: make bus_get_device_klist() static
+         a9efdd2519edd7df84afd075b65ca6428dcb0039 driver core: remove subsys_find_device_by_id()
+         2e45fc5502af9826617a96fe63aee055002cac97 driver core: make subsys_dev_iter_init() static
+         38cdadefa2feecc9e7aa5f67bc4aea5b9a8ca59f driver core: make subsys_dev_iter_next() static
+         af6d0743599e594cb2cec3f1a6d2600a57d1d375 driver core: make subsys_dev_iter_exit() static
+         b0a8a59a1c44c07807afe50c6bd21a33c9ec98b7 driver core: move struct subsys_dev_iter to a local file
+         30a180e35c938e0aa55d2d06209e8cb4f2922e17 driver core: bus.h: document bus notifiers better
+         d393a7334cec01e940f0b94709a8a15c5f683c63 driver core: bus: move bus notifier logic into bus.c
+         
 
---===============6890888923887229966==
+--===============0445534704586076323==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a6f536063b69-60d86034b14e.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-8d231dbc3b10155727bcfa9e543d397ad357f14f net/mlx5: Expose shared buffer registers bits and structs
-11f0996d5c6023f4889882c8d088ec76a050d704 net/mlx5e: Add API to query/modify SBPR and SBCM registers
-a440030d8946bfe3fd44b6da685e33ffe0ecd1ff net/mlx5e: Update shared buffer along with device buffer changes
-288eca60cc31471670dcd351cc42c03a38e11983 net/mlx5e: Add Ethernet driver debugfs
-0fedee1ae9efccd424882f929c3905f0790e12ec net/mlx5e: kTLS, Add debugfs
-1a8034720f38671c2b6a1142ecb129266a494566 net/mlx5e: Add hairpin params structure
-3a3da78dd258cc164ab41ec09cf2feacca423fb4 net/mlx5e: Add flow steering debugfs directory
-0e414518d6d881075f0c944b365078b8049fcc2f net/mlx5e: Add hairpin debugfs files
-fe998a3c77b9f989a30a2a01fb00d3729a6d53a4 net/mlx5: Enable management PF initialization
-7cb5eb937231663d11f7817e366f6f86a142d6d3 net/mlx5: Introduce and use opcode getter in command interface
-63fbae0a74c3e1df7c20c81e04353ced050d9887 net/mlx5: Prevent high-rate FW commands from populating all slots
-7193b436b56e740800fa5efe2ea0214f01f55bd0 net/mlx5e: Replace zero-length array with flexible-array member
-7bd1099c7edee257589c9230568a0cd9e2b463e7 net/mlx5e: Replace 0-length array with flexible array
-4238654ce166bb6534379ecc08a2cd5d69055f48 net/mlx5: remove redundant ret variable
-96c31b5b2caecae2eebb1ed0fba5dc082b2fb740 net/mlx5e: Use kzalloc() in mlx5e_accel_fs_tcp_create()
-8580e16c28f3f1a1bee87de115157161577334b4 net/ethtool: add netlink interface for the PLCA RS
-16178c8ef53dc9734302c4c07633696454579ee3 drivers/net/phy: add the link modes for the 10BASE-T1S Ethernet PHY
-a23a1e57a6770a8fad1c6362dfe73bd9f27e430c drivers/net/phy: add connection between ethtool and phylib for PLCA
-493323416fed6b1ec6128a65c00e5f01d38b7e17 drivers/net/phy: add helpers to get/set PLCA configuration
-b53e7e8d85574b8e2c4be00d5331e215037d80a0 drivers/net/phy: add driver for the onsemi NCN26000 10BASE-T1S PHY
-76c3a449782b34929102628d07c07a3bc5f63ab4 Merge branch 'NCN26000-PLCA-RS-support'
-60d86034b14eed902b3f2bea97d0c237cf2f9499 Merge tag 'mlx5-updates-2023-01-10' of git://git.kernel.org/pub/scm/linux/kernel/git/saeed/linux
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1673428648 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1673428648-4ff273fcbc1c5e864d50ab30def8da0ba962fecb
 
---===============6890888923887229966==--
+8d057b518ea3e54ecfdace056e4955394ed41d88 d393a7334cec01e940f0b94709a8a15c5f683c63 refs/heads/bus_cleanup
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmO+fqgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk++P0P/2NyjdcmhcKh2E6dP4iR
+KEg++wYx3d127r5grKyiKjiWnqA/4mZkPEyWzwTw/BkrDW1/eELi8DThSJjMOFEI
+ab/wIArA8LIL/ijrFFlch28Fep3uG5G6K2/k7GRO9Wbnajr3X/fTZ6Zxl8krNh9O
+agJlThHWSEhyyfkq0a0moGYm/PLo6QwswRl5J2Lz5b+srJJk/ReDA5wKdQPajKyo
+ZQNfvOske/gAVs2wa2MzTgrjiZ7PNz8OiePsK7YrXAucc7/WjI85lNshH6qJUVFE
+H8I/pfEMlgLNrXCKGeeMdAWONXJOYwSJco0KViV/4Nss1ddLb2WKYTH2LYUz9GiO
+oC7hUw32nTspv2244u739XgrA1G7isipqz66vewa+LFcI474aJjIPUMw7UDmr6sO
+qwRI44rzYkZlgjw0TMxech7YAcN9rkbcLx0ALysnaKhHTHjzrts9GM9TTH/iU7PD
+o/OsJzss26U1gE/FFUvAT/d9u2k4++01Q1XyXgufLjd/2v9swqt72GBEFcalMF2Y
+ghZnEzxpa4yEm4H9vky6P9/u1AoDzddDduJiV3Ws9zE8+P07EcUti5mqru+hJKga
+54SLQjmFFgP7QZGHiwL8bkUGqpWG6vHNxQhHLbOFIaw0eV9pN0OSlF9L1mdKkcxh
+mWsSbO7OR4ajCc66jrOE6Zsp
+=Bbb+
+-----END PGP SIGNATURE-----
+
+--===============0445534704586076323==--
