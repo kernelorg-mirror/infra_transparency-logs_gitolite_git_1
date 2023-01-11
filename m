@@ -1,77 +1,53 @@
-Content-Type: multipart/mixed; boundary="===============2135111138627836451=="
+Content-Type: multipart/mixed; boundary="===============0942641687617156155=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Wed, 11 Jan 2023 09:53:01 -0000
-Message-Id: <167343078195.28426.3266732809068116275@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Wed, 11 Jan 2023 09:58:44 -0000
+Message-Id: <167343112491.31967.14445806324896902170@gitolite.kernel.org>
 
---===============2135111138627836451==
+--===============0942641687617156155==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/driver-core
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/heads/kobject-const
-    old: 7b3f1da3922e2f9bc9faf0a8d4995e0b447af6c8
-    new: 90a8de1f745d9abb69373b01a82562a31f077a7f
-    log: revlist-7b3f1da3922e-90a8de1f745d.txt
+  - ref: refs/heads/auto-latest
+    old: c857c79c6d616f312b7bcd54649ac0338e1ce14e
+    new: 40055919c6fec60c40809e5d3480f406ba248379
+    log: revlist-c857c79c6d61-40055919c6fe.txt
 
---===============2135111138627836451==
+--===============0942641687617156155==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-c857c79c6d61-40055919c6fe.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1673430778 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1673430777-78b16d245af5b4c31f1b391516b5eb9a03f1ae69
+90b926e68f500844dff16b5bcea178dc55cf580a x86/pat: Fix pat_x_mtrr_type() for MTRR disabled case
+e2869bd7af608c343988429ceb1c2fe99644a01f x86/acpi/boot: Do not register processors that cannot be onlined for x2APIC
+fe1f0714385fbcf76b0cbceb02b7277d842014fc x86/resctrl: Fix task CLOSID/RMID update race
+2a81160d29d65b5876ab3f824fda99ae0219f05e x86/resctrl: Fix event counts regression in reused RMIDs
+cd9f5c3d3096e26fa128ae747f66383002001398 sched/cputime: Fix IA64 build error of missing arch_vtime_task_switch() prototype
+6f2d375f03e374ca2b74e5acf72dc4aa51ec7232 Merge branch into tip/master: 'core/urgent'
+073c7c7c81c5173a9a472e8109f23391e5ac1b39 Merge branch into tip/master: 'perf/urgent'
+88660318437bb052b9949e45e4ec7c8ab58bb99a Merge branch into tip/master: 'sched/urgent'
+4afa31fb1eefb4de17d98c12993ca69855817cc1 Merge branch into tip/master: 'timers/urgent'
+ab1fec48c2e4ec9c0629ae4ad75bc90e07b6e7fc Merge branch into tip/master: 'x86/urgent'
+15300c1e51df5a49fff6551d129d226d89d5b493 Merge branch into tip/master: 'locking/core'
+b1f72beecf6c1698b2dc8c23bdb4dda27de8add2 Merge branch into tip/master: 'objtool/core'
+50eb8a2fb79706afc47b22967fae80cbba500387 Merge branch into tip/master: 'perf/core'
+006f6d2f706ca9fd791336a404a3aad972ca486c Merge branch into tip/master: 'ras/core'
+0a101161632f6a21f03a67449f7eaafb99d0d1dc Merge branch into tip/master: 'sched/core'
+dc065919d030bdca155b687ebb1d62652864985f Merge branch into tip/master: 'x86/alternatives'
+c068776449d9a3bbf305bef51c583df9c7811ba7 Merge branch into tip/master: 'x86/asm'
+9eb5482e479c3afc5297ab938cf65bc42241e806 Merge branch into tip/master: 'x86/boot'
+ce23c6d1b0aa01a9f71667654ad85ee7e9f44b26 Merge branch into tip/master: 'x86/cleanups'
+45b77d560847072d6a70f5f346cc5af776dea838 Merge branch into tip/master: 'x86/core'
+cd7e7bed369ced9fa0824ff0d9becfdd19eb2dde Merge branch into tip/master: 'x86/cpu'
+c85f2446b92b454a8a581e5da2b3297253cd43e5 Merge branch into tip/master: 'x86/microcode'
+40055919c6fec60c40809e5d3480f406ba248379 Merge branch into tip/master: 'x86/platform'
 
-7b3f1da3922e2f9bc9faf0a8d4995e0b447af6c8 90a8de1f745d9abb69373b01a82562a31f077a7f refs/heads/kobject-const
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmO+hvobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+xX4P/impu7FuAdlajyy9kxVY
-BCk78NE+XtMOQypYT8aC8KctQSqk5E6qmtFBTn3OlN8oeX+2MS9wGvAF8E1NVdKA
-C0Q9ZerMf9vEKaMOEf3dtHaOfYJF9uNrEVzOlgXv5pozfKJCiQe5HaPxXb20gM50
-3H1pj82R31vEL21n/IdsEftAcKTWc+tqzzpKhkyBZZ6hSALZb15hwqztAjGq6Vdv
-Lt5256lVe5ETVsVq5g+1Qn701AbB23RofepUvWctnPqSBJi8KtR1phPcBuk/g06O
-/2K+oqcK4NRKh1WDRHHrrEPi9YhEdd9t9J4Athqo20uY0EJcIDffX5BPFjX7t9rj
-fNkxKwP5cuUWffxVioFhD+pgLaWNtirrbSPjwHVrchlOwgUDcX3rcOo1JTslYbDc
-5kTwjUiBy+VSt3U61YezWHThZ7UL1tTTYG/rci8Zo+gYGVVouymKpF3ZZUrhzOH7
-xM5HPY7EXCAObLPXTsQoSdUMU9ajSxpaJPrLKd6DrInuNNkxNubUJfWP6wC16CWB
-epzZD7JpbaFrd4VaAjfYHHSChzisl8YvXEtzOWbUHrbz6/adNRhoj9IQmyA2d6rV
-DjrM3Qpc2KyQZtbr5HG0c0kJix0mSVnYA6unbR5eGjLQkJ4nfgXun6BTX1fjvGbc
-5RwPzzxtASdhcT0fpd3xu22o
-=S/Zj
------END PGP SIGNATURE-----
-
---===============2135111138627836451==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7b3f1da3922e-90a8de1f745d.txt
-
-99da9ecc0d44bf3a3064095135ef8cef7f2eb9c1 driver core: make struct device_type.uevent() take a const *
-2d2a4500fa3bccfffbd068c8dcc63c9693d72e84 driver core: make struct device_type.devnode() take a const *
-1d557656045fac8c183487e7ed61ae9e58fedabb driver core: device_get_devnode() should take a const *
-5788fce529929acc82ebce10bea34f0fb5292892 vio: move to_vio_dev() to use container_of_const()
-42e4d7764c2701a402847f7b5e6e15eb74bcc139 platform/x86: wmi: move dev_to_wblock() and dev_to_wdev to use container_of_const()
-1cc009a69e5f23bf48b226b46a0ab59a09184f63 drivers: hv: move device_to_hv_device to use container_of_const()
-858daf0e0ff2ea1ec66edf582bd781ad0341da34 virtio: move dev_to_virtio() to use container_of_const()
-8dd54befbbeddd514fedc25119dcef89ac5eabef drm/mipi-dsi: move to_mipi_dsi_device() to use container_of_const()
-b9bb631e4bb0423847c29652c15f3e36ba5f138b mcb: move to_mcb_device() to use container_of_const()
-8b87350e5f5c6cd973cb5a35e9cadae5a70adc5d xen/xenbus: move to_xenbus_device() to use container_of_const()
-9836637ee92ac1981dc9fddefa78cb5d3905649a driver core: make struct bus_type.uevent() take a const *
-5c0d3e62ad1db52563edc9434669b8d5ceafb521 kobject: kset_uevent_ops: make uevent() callback take a const *
-31abaafe13ac19fc1cdc8127cbddf03485a32752 driver core: change to_subsys_private() to use container_of_const()
-e32d3d31e0370a18e28f29d8aabb1ec578afd4f2 driver core: bus.h: document bus notifiers better
-2e2c38086e724e7ceb77822f10c012659f6071dd driver core: bus: move bus notifier logic into bus.c
-90a8de1f745d9abb69373b01a82562a31f077a7f bus: step 1
-
---===============2135111138627836451==--
+--===============0942641687617156155==--
