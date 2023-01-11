@@ -1,26 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Wed, 11 Jan 2023 21:19:15 -0000
-Message-Id: <167347195545.29447.18041314543286463043@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Wed, 11 Jan 2023 21:19:25 -0000
+Message-Id: <167347196553.29569.9801865647584527549@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 changes:
-  - ref: refs/heads/for-linus
-    old: 242fc66ae6e1e2b8519daacc7590a73cd0e8a6e4
-    new: 7fd26a27680aa9032920f798a5a8b38a2c61075f
-    log: |
-         7fd26a27680aa9032920f798a5a8b38a2c61075f ASoC: amd: yc: Add DMI support for new acer/emdoor platforms
-         
   - ref: refs/heads/for-next
-    old: bc5dbbabaecacf67672f0d207927caa85bfabbd6
-    new: 1a52faa3dd191e14217f5c677168650271470bb8
+    old: 90416d92b7c5b18a2bd530d0b8d22bbee866db83
+    new: 17da31eac52c99d413098a684321789939f8d46c
     log: |
-         7fd26a27680aa9032920f798a5a8b38a2c61075f ASoC: amd: yc: Add DMI support for new acer/emdoor platforms
-         1a52faa3dd191e14217f5c677168650271470bb8 Merge remote-tracking branch 'asoc/for-6.3' into asoc-next
+         f66804bf7665f9d2db04791496ba2c7f4173941c dt-bindings: trivial-devices: Remove trailing whitespace
+         17da31eac52c99d413098a684321789939f8d46c Merge remote-tracking branch 'spi/for-6.3' into spi-next
          
