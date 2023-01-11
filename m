@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3844806804721428946=="
+Content-Type: multipart/mixed; boundary="===============1023983883159232745=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 11 Jan 2023 18:32:02 -0000
-Message-Id: <167346192232.12314.7277150898144456300@gitolite.kernel.org>
+Date: Wed, 11 Jan 2023 18:35:34 -0000
+Message-Id: <167346213454.14998.6584264216465229322@gitolite.kernel.org>
 
---===============3844806804721428946==
+--===============1023983883159232745==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: tglx
 changes:
-  - ref: refs/heads/timers/core
-    old: 18a207849218d8c15072f449e6d0b901262290c9
-    new: 9f76d59173d9d146e96c66886b671c1915a5c5e5
-    log: revlist-18a207849218-9f76d59173d9.txt
+  - ref: refs/heads/irq/core
+    old: 6132a490f9c81d621fdb4e8c12f617dc062130a2
+    new: 17549b0f184d870f2cfa4e5cfa79f4c4905ed757
+    log: revlist-6132a490f9c8-17549b0f184d.txt
 
---===============3844806804721428946==
+--===============1023983883159232745==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-18a207849218-9f76d59173d9.txt
+Content-Disposition: attachment; filename=revlist-6132a490f9c8-17549b0f184d.txt
 
 fce9a619145181ca6a41253f7de3df56b1e4ad59 perf util: Make header guard consistent with tool
 5b7a29fb0b7d67e5d40cd6557e073afb6a7466ab perf util: Add host_is_bigendian to util.h
@@ -1049,6 +1049,6 @@ f18fca98ac1622220dfdf795fefa91dc52d3707d Merge tag '6.2-rc2-smb3-client-fixes' o
 e9ffbf16caa6cb596df7fd641bc6063a922c52e6 Merge tag 'fixes-2023-01-08' of git://git.kernel.org/pub/scm/linux/kernel/git/rppt/memblock
 93928d485d9df12be724cbdf1caa7d197b65001e Merge tag 'powerpc-6.2-2' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
 b7bfaa761d760e72a969d116517eaa12e404c262 Linux 6.2-rc3
-9f76d59173d9d146e96c66886b671c1915a5c5e5 timers: Prevent union confusion from unexpected restart_syscall()
+17549b0f184d870f2cfa4e5cfa79f4c4905ed757 genirq: Add might_sleep() to disable_irq()
 
---===============3844806804721428946==--
+--===============1023983883159232745==--
