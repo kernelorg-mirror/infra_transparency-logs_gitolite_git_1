@@ -1,43 +1,57 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-gpio
-Date: Wed, 11 Jan 2023 15:04:49 -0000
-Message-Id: <167344948991.4615.16276392477516468568@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============2170573927058763489=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Wed, 11 Jan 2023 15:07:15 -0000
+Message-Id: <167344963502.6899.5700319157377997226@gitolite.kernel.org>
+
+--===============2170573927058763489==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/linusw/linux-gpio
-user: linusw
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/tags/v6.1
-    old: 0000000000000000000000000000000000000000
-    new: 7614896350aa20764c5eca527262d9eb0a57da63
-  - ref: refs/tags/v6.1-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 0083e89728f57eae559c1ed1ac1e44487565feb1
-  - ref: refs/tags/v6.1-rc4
-    old: 0000000000000000000000000000000000000000
-    new: cc17e0a6a1b0c4708af1f5d81edc87e2cb5ffbf8
-  - ref: refs/tags/v6.1-rc5
-    old: 0000000000000000000000000000000000000000
-    new: 40747115a02c06d398d801301015db7ea182f7f0
-  - ref: refs/tags/v6.1-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 4446246354c3c11d4cbc8cf3515c92c3a880fc8e
-  - ref: refs/tags/v6.1-rc7
-    old: 0000000000000000000000000000000000000000
-    new: 1791be4df87a0d69008ba46c5a03be2e4cfbe3d5
-  - ref: refs/tags/v6.1-rc8
-    old: 0000000000000000000000000000000000000000
-    new: 586cbada421761e98ada6f7de24426456352bfd6
-  - ref: refs/tags/v6.2-rc1
-    old: 0000000000000000000000000000000000000000
-    new: e05dec85e78317f251eddd27e0357b2253d9dfc4
-  - ref: refs/tags/v6.2-rc2
-    old: 0000000000000000000000000000000000000000
-    new: e4ef62bcce9737cf3a2bb1b797b64dc25cbbfbb4
-  - ref: refs/tags/v6.2-rc3
-    old: 0000000000000000000000000000000000000000
-    new: d4245d7ef91d67fe3d21e2faab131fdeab636209
+  - ref: refs/heads/driver-core-testing
+    old: b0a8a59a1c44c07807afe50c6bd21a33c9ec98b7
+    new: 504fa212d7030fb1c042290dc2eb92b21515573a
+    log: |
+         f6837f34a34973ef6600c08195ed300e24e97317 driver core: fix potential null-ptr-deref in device_add()
+         504fa212d7030fb1c042290dc2eb92b21515573a driver core: Make driver_deferred_probe_timeout a static variable
+         
+
+--===============2170573927058763489==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1673449633 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1673449633-3568baace5272428702723d5027314db0d4c043a
+
+b0a8a59a1c44c07807afe50c6bd21a33c9ec98b7 504fa212d7030fb1c042290dc2eb92b21515573a refs/heads/driver-core-testing
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmO+0KEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+f6MQALNOTRBNNVs5alwXhNY5
+YZRnFkXN6FOZOl5l8wjYLao+9hy+tAu1OeyZlmmSo4s9+m3ZhOlL9ZY4yntrbHUy
+aASyQ16jPjF7J9YNwRWTj+W2zrLgu2SEDWopF5zDJdDsnDuHVoslaDlN2IBcP7w0
+fPZc41R7h+r6YBRlGZbS1o9sIFP9lFMC8wWhxhjIqtxLv+RkONNGWTxUZ4dhxray
+71lNX1lFX0EHPu29XLGuNFaVSBr70I9zpBT+XtefrLhgBuLO4K4RIxdJePRlAq6P
+I9eFSSJ2s4kFri7800FoYP2N2oOpKTT+665OJ9lHTXvL/JsbVH8wCCx7xceD+6bv
+XDrXoXDPi7lBesV/OKE/3sWXoUJATnYJEBhOqey2GUba9QGJwRlor7lsiEWPMHEV
+xGNqir2dg20uXWprHMsDRCHt0/Q8eKOl0rXmNDTG3rQFIBcAC79u3QJnU6VEjZo0
+ZXvwr6X4TNd1hmGX0NipH3BbGUyGl7ZN3I530HXhM8ktNIbrj6+BGYun86vDgue+
+if3ubJJep+HScW1IUlNsyvpvU85pu+gEKM1E7gie2/F1neXIOPSXeEYP/wuUWbho
+H+YEO1l9cm9GNrjwJrpO8IAfBqJkj7JGms8sRfgHg3+WIHM4IMmEX1jS8C/TFoV1
+UYv4McOCu7ZC7fSIy5SxZq1B
+=a0AD
+-----END PGP SIGNATURE-----
+
+--===============2170573927058763489==--
