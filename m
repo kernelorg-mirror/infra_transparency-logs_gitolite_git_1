@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3286689177504845566=="
+Content-Type: multipart/mixed; boundary="===============5623440815179908867=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
-Date: Wed, 11 Jan 2023 20:44:55 -0000
-Message-Id: <167346989573.4880.15057495191513664862@gitolite.kernel.org>
+Date: Wed, 11 Jan 2023 20:48:09 -0000
+Message-Id: <167347008976.8821.1101815861278218863@gitolite.kernel.org>
 
---===============3286689177504845566==
+--===============5623440815179908867==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,16 +16,33 @@ repo: pub/scm/linux/kernel/git/viro/vfs
 user: viro
 changes:
   - ref: refs/heads/for-next
-    old: 9ea606dbbc50a8a9ae36b7e7f4d2dde7ea02f64e
-    new: 3e4322ef08dfb636f9291a7018e9ef2d83b06e30
-    log: revlist-9ea606dbbc50-3e4322ef08df.txt
+    old: 3e4322ef08dfb636f9291a7018e9ef2d83b06e30
+    new: 557e0248a8a0e3d448ef1e92e6509ec56e21a981
+    log: |
+         39ecb653f671bbccd4a3c40f7f803f2874252f81 nsfs: repair kernel-doc for ns_match()
+         557e0248a8a0e3d448ef1e92e6509ec56e21a981 Merge branch 'work.misc' into for-next
+         
+  - ref: refs/heads/work.alpha
+    old: fa6a3bf7ff3734ff13764d1b9e36c48f93eb3677
+    new: beb9797ee8b0c19598ffccdfae24afa6e0066f6a
+    log: revlist-fa6a3bf7ff37-beb9797ee8b0.txt
+  - ref: refs/heads/work.misc
+    old: f27c942e3e3e80475cc463b5fc373f280d85b926
+    new: 39ecb653f671bbccd4a3c40f7f803f2874252f81
+    log: |
+         1cb925c0863efcd8ed12ac3ac4a902386e6779f7 nsfs: add compat ioctl handler
+         39ecb653f671bbccd4a3c40f7f803f2874252f81 nsfs: repair kernel-doc for ns_match()
+         
 
---===============3286689177504845566==
+--===============5623440815179908867==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9ea606dbbc50-3e4322ef08df.txt
+Content-Disposition: attachment; filename=revlist-fa6a3bf7ff37-beb9797ee8b0.txt
 
+9d9b22bedad13d96b34fe005ef44b4523c4eb786 perf test: Add event group test for events in multiple PMUs
+cc2367eebb0c3c5501cddd5823e5feda7b57f706 machine: Adopt is_lock_function() from builtin-lock.c
+616aa32d6f221faa0235d2586ec1706dca70a439 perf build: Fixes for LIBTRACEEVENT_DYNAMIC
 b897613510890d6e92b6a276a20f6c3d96fe90e8 perf stat: Update event skip condition for system-wide per-thread mode and merged uncore and hybrid events
 40769665b63d8c84b5b1c63fee404d4c20cff751 perf jevents: Parse metrics during conversion
 378ef0f5d9d7f4652d7a40e0711e8b845ada1cbd perf build: Use libtraceevent from the system
@@ -1043,12 +1060,9 @@ f18fca98ac1622220dfdf795fefa91dc52d3707d Merge tag '6.2-rc2-smb3-client-fixes' o
 e9ffbf16caa6cb596df7fd641bc6063a922c52e6 Merge tag 'fixes-2023-01-08' of git://git.kernel.org/pub/scm/linux/kernel/git/rppt/memblock
 93928d485d9df12be724cbdf1caa7d197b65001e Merge tag 'powerpc-6.2-2' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
 b7bfaa761d760e72a969d116517eaa12e404c262 Linux 6.2-rc3
-f27c942e3e3e80475cc463b5fc373f280d85b926 fs/cramfs: Convert kmap() to kmap_local_data()
-1cb925c0863efcd8ed12ac3ac4a902386e6779f7 nsfs: add compat ioctl handler
 977a3009547dad4a5bc95d91be4a58c9f7eedac0 alpha: fix FEN fault handling
 e07f68d5e4f4d7570b065b5bdf4729268c9985ba alpha/boot: fix the breakage from -isystem series...
 1878787797cbb019eeefe6f905514dcd557302b6 alpha/boot/tools/objstrip: fix the check for ELF header
 beb9797ee8b0c19598ffccdfae24afa6e0066f6a alpha/boot/misc: trim unused declarations
-3e4322ef08dfb636f9291a7018e9ef2d83b06e30 Merge branches 'work.misc' and 'work.alpha' into for-next
 
---===============3286689177504845566==--
+--===============5623440815179908867==--
