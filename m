@@ -1,26 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============4390863800255433980=="
+Content-Type: multipart/mixed; boundary="===============2741124045652810957=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 10 Jan 2023 23:59:47 -0000
-Message-Id: <167339518711.6461.9724093667345272155@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Wed, 11 Jan 2023 00:11:42 -0000
+Message-Id: <167339590243.14692.16136517481737087033@gitolite.kernel.org>
 
---===============4390863800255433980==
+--===============2741124045652810957==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
+user: tnguy
 changes:
   - ref: refs/heads/master
     old: 96b7a9d11a92cc0b09fd645657462a9d9558ef5f
     new: ef1757ef58467310a285e57e6dbf6cf8314e5080
     log: revlist-96b7a9d11a92-ef1757ef5846.txt
 
---===============4390863800255433980==
+--===============2741124045652810957==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -39,4 +39,4 @@ c0fc8e6dcee40cf442ee0d6f7305b957fb902ea1 net: mdio: xgmac_mdio: Separate C22 and
 743a19e38d02fb6036dbf621edcf1cbb38e2f9e0 net: dsa: mv88e6xxx: Separate C22 and C45 transactions
 ef1757ef58467310a285e57e6dbf6cf8314e5080 Merge branch 'net-mdio-start-separating-c22-and-c45'
 
---===============4390863800255433980==--
+--===============2741124045652810957==--
