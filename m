@@ -1,21 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Wed, 11 Jan 2023 03:27:46 -0000
-Message-Id: <167340766666.21014.5658173987224589917@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chrome-platform/linux
+Date: Wed, 11 Jan 2023 03:28:59 -0000
+Message-Id: <167340773923.21448.1445286766508847808@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs-utils
-user: xiang
+repo: pub/scm/linux/kernel/git/chrome-platform/linux
+user: tzungbi
 changes:
-  - ref: refs/heads/experimental
-    old: a6336feefe379ca9c4b8d919a8fabffb5246c48b
-    new: 017f5b402d14c3ef7fc5a6b8371a11b9565754c3
+  - ref: refs/heads/for-kernelci
+    old: d6c3ad38d6f0511669f27eeab29e3e08042c7045
+    new: 93899a4cb7b1f587d89db47dd6553c816a98564a
     log: |
-         4c0fb15a5d85378debe9d10d96cd643d167300ca erofs-utils: lib: export parts of erofs_pread()
-         87430c69e1d542928c4519e8fabfd6348a741999 erofs-utils: fsck: cleanup erofs_verify_inode_data()
-         017f5b402d14c3ef7fc5a6b8371a11b9565754c3 erofs-utils: fsck: add a check to packed inode
+         9e69b1b27b13eb4eb85405900e290c0d539454bf platform/chrome: cros_ec: Fix panic notifier registration
+         2ae3c610e7d21bc4a27da2b71f7007f2c4efce01 platform/chrome: cros_ec_lpc: initialize the buf variable
+         93899a4cb7b1f587d89db47dd6553c816a98564a KERNELCI: x86_64_defconfig: Enable support for Chromebooks devices
          
