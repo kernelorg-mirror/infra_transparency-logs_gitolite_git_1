@@ -1,49 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============6659348097583958800=="
+Content-Type: multipart/mixed; boundary="===============8900181024175469058=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 11 Jan 2023 09:33:52 -0000
-Message-Id: <167342963278.1489.10443741176878669987@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Wed, 11 Jan 2023 09:34:22 -0000
+Message-Id: <167342966247.1696.3344594187905306242@gitolite.kernel.org>
 
---===============6659348097583958800==
+--===============8900181024175469058==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: 4203bfc997bccdf1bea1878102ec12819a14b898
-    new: 40055919c6fec60c40809e5d3480f406ba248379
-    log: revlist-4203bfc997bc-40055919c6fe.txt
+  - ref: refs/heads/bus_cleanup
+    old: d50d3ef6f2a22a51d494938bf6b3a37b508cca3d
+    new: d1e36d268bbbf07ea491d8bd452731a639508dcb
+    log: |
+         d1e36d268bbbf07ea491d8bd452731a639508dcb driver core: change to_subsys_private() to use container_of_const()
+         
 
---===============6659348097583958800==
+--===============8900181024175469058==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4203bfc997bc-40055919c6fe.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-cd9f5c3d3096e26fa128ae747f66383002001398 sched/cputime: Fix IA64 build error of missing arch_vtime_task_switch() prototype
-6f2d375f03e374ca2b74e5acf72dc4aa51ec7232 Merge branch into tip/master: 'core/urgent'
-073c7c7c81c5173a9a472e8109f23391e5ac1b39 Merge branch into tip/master: 'perf/urgent'
-88660318437bb052b9949e45e4ec7c8ab58bb99a Merge branch into tip/master: 'sched/urgent'
-4afa31fb1eefb4de17d98c12993ca69855817cc1 Merge branch into tip/master: 'timers/urgent'
-ab1fec48c2e4ec9c0629ae4ad75bc90e07b6e7fc Merge branch into tip/master: 'x86/urgent'
-15300c1e51df5a49fff6551d129d226d89d5b493 Merge branch into tip/master: 'locking/core'
-b1f72beecf6c1698b2dc8c23bdb4dda27de8add2 Merge branch into tip/master: 'objtool/core'
-50eb8a2fb79706afc47b22967fae80cbba500387 Merge branch into tip/master: 'perf/core'
-006f6d2f706ca9fd791336a404a3aad972ca486c Merge branch into tip/master: 'ras/core'
-0a101161632f6a21f03a67449f7eaafb99d0d1dc Merge branch into tip/master: 'sched/core'
-dc065919d030bdca155b687ebb1d62652864985f Merge branch into tip/master: 'x86/alternatives'
-c068776449d9a3bbf305bef51c583df9c7811ba7 Merge branch into tip/master: 'x86/asm'
-9eb5482e479c3afc5297ab938cf65bc42241e806 Merge branch into tip/master: 'x86/boot'
-ce23c6d1b0aa01a9f71667654ad85ee7e9f44b26 Merge branch into tip/master: 'x86/cleanups'
-45b77d560847072d6a70f5f346cc5af776dea838 Merge branch into tip/master: 'x86/core'
-cd7e7bed369ced9fa0824ff0d9becfdd19eb2dde Merge branch into tip/master: 'x86/cpu'
-c85f2446b92b454a8a581e5da2b3297253cd43e5 Merge branch into tip/master: 'x86/microcode'
-40055919c6fec60c40809e5d3480f406ba248379 Merge branch into tip/master: 'x86/platform'
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1673429661 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1673429660-7b44b8dd5131f6e6ef2fbc3d798587f20ef0c7be
 
---===============6659348097583958800==--
+d50d3ef6f2a22a51d494938bf6b3a37b508cca3d d1e36d268bbbf07ea491d8bd452731a639508dcb refs/heads/bus_cleanup
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmO+gp0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+XVcP/iYeUJu8H9ATQ9gxMHi2
+bvhjGk734/VCd6S5wR+ehT+08S2DroFFrOOYkqwzGIMwpe5dKzgMGKMalQJF1zXb
+3WaeN4VR3s48QBdYKlemIBxB3s7aiT1EdPy9H7e9pdPn7XGloGPyoxHXEY9wmA59
+Sb0wG9GHXprc79vlQ0OfmlIVssoJ6btMUMKKn3OM+3Z066iCEXF3+td1nrpF8qk7
+0PgV4dIDfhEV5TOUt/n0QzzYC9Pq1CvM5TKezlkW1oxLVCWZxrfxDroRb3tOpUKH
+514Vnh72HeFxTJBta88TxlPVXZ6ZtXyN4movgcw+gfRP8agEmMdTdH0dGrHElyDd
+Bmy3q3l4rpYmzIqpsGC9JXVrrzfgzHx7reSGCfcz4EdnP8q0D+mJoKKmQsqzc4wE
+ZutCxm3Lbbr3WgkoE/tOkMUi+wH1Mq9PAHbfRn8Mcy945gYNJzIYqwslXCMJBxCB
+2Z2YaiUb4AA95UI6Czc4Xg+9xoTKcrHRWvUcqwrIPoncM1rXKNdM3IA8hob/C3kv
+L8lGCqe8xG0n8H6GQUvttTsYxbCAM7AOcqYHihrRPdBncdh7KDZZxLntLA3rnlXX
+avYdu1O0DQFz3uL3P0jTQK4vvXPpOxyzXjwLBAuv9hXb9CpMulca5x4nR0zDiOUZ
+yzNscv23WSwL6dgAFicGAAmM
+=VDPn
+-----END PGP SIGNATURE-----
+
+--===============8900181024175469058==--
