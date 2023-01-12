@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0572666817944256320=="
+Content-Type: multipart/mixed; boundary="===============4625543633446277132=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Thu, 12 Jan 2023 02:23:56 -0000
-Message-Id: <167349023632.9005.11514194388484052276@gitolite.kernel.org>
+Date: Thu, 12 Jan 2023 02:24:03 -0000
+Message-Id: <167349024376.9105.15071390130651145113@gitolite.kernel.org>
 
---===============0572666817944256320==
+--===============4625543633446277132==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: 5fbea42387eba1c7517fcad79099df706def7054
     new: db473df2890672b62bd599c43197fe8780fb3963
     log: revlist-5fbea42387eb-db473df28906.txt
 
---===============0572666817944256320==
+--===============4625543633446277132==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -43,4 +43,4 @@ e67b2554f301b3e12322230ebb81ac7b7892f1a4 selftests/xsk: automatically restore pa
 7d8319a7cc668607aa054ea2da0bb730538a510b selftests/xsk: automatically switch XDP programs
 db473df2890672b62bd599c43197fe8780fb3963 Merge branch 'selftests/xsk: speed-ups, fixes, and new XDP programs'
 
---===============0572666817944256320==--
+--===============4625543633446277132==--
