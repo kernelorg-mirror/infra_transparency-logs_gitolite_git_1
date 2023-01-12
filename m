@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
-Date: Thu, 12 Jan 2023 20:39:06 -0000
-Message-Id: <167355594607.5520.14694191290606503173@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Thu, 12 Jan 2023 20:42:05 -0000
+Message-Id: <167355612500.7985.16284212739769690@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
-user: shuah
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/heads/fixes
-    old: 1b929c02afd37871d5afb9d498426f83432e71c2
-    new: 9fdaca2c1e157dc0a3c0faecf3a6a68e7d8d0c7b
+  - ref: refs/heads/nfsd-next
+    old: eb867bee94ee916a76a3a384b951755eeaabc7e6
+    new: 5d793a7255bbfacaadc35b9200404227309ca47e
     log: |
-         9fdaca2c1e157dc0a3c0faecf3a6a68e7d8d0c7b kselftest: Fix error message for unconfigured LLVM builds
+         e3291700a99eef94f391b18009c46f50e8794ee2 nfsd: ensure that the refcount has gone to zero before freeing nfsd_file
+         5d793a7255bbfacaadc35b9200404227309ca47e nfsd: simplify the delayed disposal list code
          
