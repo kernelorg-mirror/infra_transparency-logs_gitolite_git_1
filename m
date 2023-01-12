@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6598064649818694589=="
+Content-Type: multipart/mixed; boundary="===============7172897964283810829=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/rt/linux-rt-devel
-Date: Thu, 12 Jan 2023 16:38:46 -0000
-Message-Id: <167354152638.5263.10445869368125241110@gitolite.kernel.org>
+Date: Thu, 12 Jan 2023 16:38:51 -0000
+Message-Id: <167354153160.5345.5548883953555925628@gitolite.kernel.org>
 
---===============6598064649818694589==
+--===============7172897964283810829==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,126 +16,53 @@ repo: pub/scm/linux/kernel/git/rt/linux-rt-devel
 user: bigeasy
 git_push_cert_status: Y
 changes:
-  - ref: refs/heads/master
-    old: b7b275e60bcd5f89771e865a8239325f86d9927d
-    new: b7bfaa761d760e72a969d116517eaa12e404c262
-    log: revlist-b7b275e60bcd-b7bfaa761d76.txt
-  - ref: refs/heads/linux-6.2.y
-    old: 0000000000000000000000000000000000000000
-    new: b7bfaa761d760e72a969d116517eaa12e404c262
-  - ref: refs/heads/linux-6.2.y-rt
+  - ref: refs/heads/for-kbuild-bot/current-stable
+    old: 1e814a38c58808a63fdeeafa9fce86702d29a966
+    new: bee0efc1fe1add1df7d677cee5a9c4c325196403
+    log: revlist-1e814a38c588-bee0efc1fe1a.txt
+  - ref: refs/heads/for-kbuild-bot/prepare-release
+    old: 1e814a38c58808a63fdeeafa9fce86702d29a966
+    new: bee0efc1fe1add1df7d677cee5a9c4c325196403
+    log: revlist-1e814a38c588-bee0efc1fe1a.txt
+  - ref: refs/heads/linux-6.2.y-rt-rebase
     old: 0000000000000000000000000000000000000000
     new: bee0efc1fe1add1df7d677cee5a9c4c325196403
-  - ref: refs/heads/linux-6.2.y-rt-patches
-    old: 0000000000000000000000000000000000000000
-    new: 89bb4641da556911ad30d7160e50a6f41f0f8b3e
-  - ref: refs/tags/v6.2-rc1
-    old: 0000000000000000000000000000000000000000
-    new: e05dec85e78317f251eddd27e0357b2253d9dfc4
-  - ref: refs/tags/v6.2-rc2
-    old: 0000000000000000000000000000000000000000
-    new: e4ef62bcce9737cf3a2bb1b797b64dc25cbbfbb4
-  - ref: refs/tags/v6.2-rc3
-    old: 0000000000000000000000000000000000000000
-    new: d4245d7ef91d67fe3d21e2faab131fdeab636209
-  - ref: refs/tags/v6.2-rc3-rt1
-    old: 0000000000000000000000000000000000000000
-    new: eca7b9a91a222b48711b817873ebb37505a2cf65
-  - ref: refs/tags/v6.2-rc3-rt1-patches
-    old: 0000000000000000000000000000000000000000
-    new: 362eaaa462716d0bbd25ed4287088a39a2debce5
-  - ref: refs/tags/v6.2-rc3-rt1-rebase
-    old: 0000000000000000000000000000000000000000
-    new: f705513655659fd170aca1dcbc83ae2dac225a10
 
---===============6598064649818694589==
+--===============7172897964283810829==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Sebastian Andrzej Siewior <bigeasy@linutronix.de> 1673541496 +0100
+pusher Sebastian Andrzej Siewior <bigeasy@linutronix.de> 1673541528 +0100
 pushee ssh://ko-g/pub/scm/linux/kernel/git/rt/linux-rt-devel.git
-nonce 1673541496-b2944ce69f447c9313e4c108c218c353b5b600f0
+nonce 1673541527-cfab5b9269be99ec688a24d6291d646f4199b7c1
 
-b7b275e60bcd5f89771e865a8239325f86d9927d b7bfaa761d760e72a969d116517eaa12e404c262 refs/heads/master
-0000000000000000000000000000000000000000 b7bfaa761d760e72a969d116517eaa12e404c262 refs/heads/linux-6.2.y
-0000000000000000000000000000000000000000 bee0efc1fe1add1df7d677cee5a9c4c325196403 refs/heads/linux-6.2.y-rt
-0000000000000000000000000000000000000000 89bb4641da556911ad30d7160e50a6f41f0f8b3e refs/heads/linux-6.2.y-rt-patches
-0000000000000000000000000000000000000000 e05dec85e78317f251eddd27e0357b2253d9dfc4 refs/tags/v6.2-rc1
-0000000000000000000000000000000000000000 e4ef62bcce9737cf3a2bb1b797b64dc25cbbfbb4 refs/tags/v6.2-rc2
-0000000000000000000000000000000000000000 d4245d7ef91d67fe3d21e2faab131fdeab636209 refs/tags/v6.2-rc3
-0000000000000000000000000000000000000000 eca7b9a91a222b48711b817873ebb37505a2cf65 refs/tags/v6.2-rc3-rt1
-0000000000000000000000000000000000000000 362eaaa462716d0bbd25ed4287088a39a2debce5 refs/tags/v6.2-rc3-rt1-patches
-0000000000000000000000000000000000000000 f705513655659fd170aca1dcbc83ae2dac225a10 refs/tags/v6.2-rc3-rt1-rebase
+1e814a38c58808a63fdeeafa9fce86702d29a966 bee0efc1fe1add1df7d677cee5a9c4c325196403 refs/heads/for-kbuild-bot/current-stable
+1e814a38c58808a63fdeeafa9fce86702d29a966 bee0efc1fe1add1df7d677cee5a9c4c325196403 refs/heads/for-kbuild-bot/prepare-release
+0000000000000000000000000000000000000000 bee0efc1fe1add1df7d677cee5a9c4c325196403 refs/heads/linux-6.2.y-rt-rebase
 -----BEGIN PGP SIGNATURE-----
 
-iQHKBAABCgA0FiEEV4kucFIzBRM39v3RBWQfF1cS+lsFAmPAN3gWHGJpZ2Vhc3lA
-bGludXRyb25peC5kZQAKCRAFZB8XVxL6W2IJC/9iRA5dBuZgUiAie+SeaXAvSkk9
-fpq9M8RC6+6dmfaBSU2SSGNO0U7u8GqtnMAsVGmlZyP8nYScaWxg1zQfidcBp+JT
-BKwbz0LZE5e4lzq76gs1JhhwSSXSOyvaFYbqndsVHQpKwiCQlZndlJ5cQYE8e0Bt
-g78SSNjB4ubdey0mQbSFU8TSJ+m5iPiZIceY7k1MdjyC8uiSeovqtg52AQtz/RL2
-zb8GzVA4qO65m/jIv6xyKocixGSGElsfpt2CNwIUKLEEsbrNDFn6hy6LWH+RtjNl
-swxvwfrxLHWLNnBiKZVRMkLil5/iRq41cPPVEXhPHOtJmdC3lo+RsWJKvBbk4J7A
-qOCL0v+bF+gXhlet/GmYLvzdxAuKP9K28DMwKbEufgTg2Z1/0KCFrQQYQeFobGt+
-Wy04/hQy8aj1aIn/DqXT54/uKjtwmGwVQX3IuWSr/3iz2711QGJI6IyItehv0IP+
-1OnTO6EwLaNWAsb04bUJZPG6UsS/QTMWOQm9fbM=
-=9oFd
+iQHKBAABCgA0FiEEV4kucFIzBRM39v3RBWQfF1cS+lsFAmPAN5gWHGJpZ2Vhc3lA
+bGludXRyb25peC5kZQAKCRAFZB8XVxL6W0AZDACVArKmZ+7hRTavD501Vh8T3Qth
+/mZfoKJwSMayR5ocvwOtq+Ka/u/Pqkzt/azNhRJblky6pSf6BB7yXmXcaFUCL4lF
+2AFGNu2lpPTfRJPueKykoEBQpP8W7nDdDx1KWXXbb8donhVHXbB6mpKPjHOf7QDd
+6KX4rYwp/M1b1LnBwSXdheroUBCjQ+e95MVEz4QE9sjUpWvqN+QKa62xEw2nXnaA
+QvRWVYNK7dBfaBNSWXgpHGP9lOTkTM43A0ZBSOBxdJ1J/KgnQqT22vwatHoJ0WO8
+iBFGnWVRcfnCaFfj/bxAExbrKk9+CmO+H25FlaJQp0YszFIWNhDeuiBvi/9+XaR0
+qCalxbKGL6vd6QVgHYvrPdba2bKcP5F/RSh0OgHk4/DznpPOAox3eidjQWKbLPev
+gwcbk4LXHCJm4X1u14IvPGO9V/5BRWd+3s3OZJrB+wCriCUCLNGMoBR+3Us6nMma
+e8IeTiLmZwssZcnW+2JDs82ZxmMb6KhICzgGRDA=
+=ShGt
 -----END PGP SIGNATURE-----
 
---===============6598064649818694589==
+--===============7172897964283810829==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b7b275e60bcd-b7bfaa761d76.txt
+Content-Disposition: attachment; filename=revlist-1e814a38c588-bee0efc1fe1a.txt
 
-3f81f72d30b46efb614d93f430684c0deb8439b7 perf stat: Fix invalid output handle
-fce9a619145181ca6a41253f7de3df56b1e4ad59 perf util: Make header guard consistent with tool
-5b7a29fb0b7d67e5d40cd6557e073afb6a7466ab perf util: Add host_is_bigendian to util.h
-336b92da1aa4228a664f27972f61e6186f369e79 perf tool: Move pmus list variable to a new file
-9d9b22bedad13d96b34fe005ef44b4523c4eb786 perf test: Add event group test for events in multiple PMUs
-cc2367eebb0c3c5501cddd5823e5feda7b57f706 machine: Adopt is_lock_function() from builtin-lock.c
-616aa32d6f221faa0235d2586ec1706dca70a439 perf build: Fixes for LIBTRACEEVENT_DYNAMIC
-b897613510890d6e92b6a276a20f6c3d96fe90e8 perf stat: Update event skip condition for system-wide per-thread mode and merged uncore and hybrid events
-40769665b63d8c84b5b1c63fee404d4c20cff751 perf jevents: Parse metrics during conversion
-378ef0f5d9d7f4652d7a40e0711e8b845ada1cbd perf build: Use libtraceevent from the system
-4171925aa9f3f7bf57b100238f148b50c45c3b1b tools lib traceevent: Remove libtraceevent
-b9a49f8cb02f08592054b953adcacecd59b7ae4b perf tools: Check if libtracevent has TEP_FIELD_IS_RELATIVE
-232b82d201cbade4f15e243bc0472ac241239d8c perf test: Update event group check for support of uncore event
-167b266bf66c5b93171011ef9d1f09b070c2c537 perf off_cpu: Fix a typo in BTF tracepoint name, it should be 'btf_trace_sched_switch'
-3cad53a6f9cdbafa32ea8413809f23a28734c7c5 perf python: Account for multiple words in CC
-fd507d3e359c7e06d74321cd3d8a5ec8769d05a9 perf lock contention: Add lock_data.h for common data
-eca949b2b4addd941d369d4c2014b87f3c3e203b perf lock contention: Implement -t/--threads option for BPF
-688d2e8de231c54e289b640547af246343732348 perf lock contention: Add -l/--lock-addr option
-22ddcb6b4a62eb97f7d988ac59032b74c64afb20 perf test: Update perf lock contention test
-ab6bd55e9968ff063c0ee28f8941903811dee09a perf cs-etm: Print unknown header version as an error
-fe55ba183264d40d44bfbe71deb148ff64f2ea2d perf cs-etm: Remove unused stub methods
-b00204f5c21ca1bd38b8cb45d12a605b4e60a884 perf cs-etm: Tidy up auxtrace info header printing
-fd63091f2a0317f8943c816acf3ac5f4002adf5c perf cs-etm: Cleanup cs_etm__process_auxtrace_info()
-55c1de9973d665161c1c0c146ff15c6884060e19 perf cs-etm: Print auxtrace info even if OpenCSD isn't linked
-e76aff0523f7d3393f967bc13b10bb04b759abfa perf script: Introduce task analyzer python script
-fdd0f81f0528d55d4362d072c6d6ecc7ecd61def perf script: task-analyzer add csv support
-e8478b84d6ba9ccfac15dfce103062c4fa7ded2f perf test: add new task-analyzer tests
-a8f26192ca769c6b37a04b3ee188f28069fd5d53 perf test: Add ability to test exit code for attr tests
-c3a8f85351b15167d6c8d178656df82ba3c34712 perf test: Add mechanism for skipping attr tests on auxiliary vector values
-ee26adf627e65c8e26b13aa35d5de1875973114f perf test: Add mechanism for skipping attr tests on kernel versions
-9440ebdc333dd12e2344aec8fd3fb7d440f9463c perf test arm64: Add attr tests for new VG register
-caec54705adb73b0015bce4dc781e0d19a91ff18 perf build: Fix python/perf.so library's name
-3b553e0041a65e499fa4e25ee146f01f4ec4e617 spi: fsl_spi: Don't change speed while chipselect is active
-f0f4c3adcfe6d93508a7fbe241b115aa5b24fe36 dt-bindings: thermal: tsens: Add sm8450 compatible
-1f455f144fb05e53ae47f84eb109a8021fe168d1 thermal/drivers/imx8mm_thermal: Use GENMASK() when appropriate
-d37edc7370273306d8747097fafa62436c1cfe16 thermal/drivers/imx8mm_thermal: Validate temperature range
-87f9fe8c4b603bd18f025d8c5fc9bb5f17b9a4cc dt-bindings: thermal: Convert generic-adc-thermal to DT schema
-a7c42af78b19a11e98a5555a664c343e3a672632 thermal/drivers/k3_j72xx_bandgap: Fix the debug print message
-7ef2f023c2c77a452ba5d0c9b1ad04a5a895d553 thermal/of: Fix memory leak on thermal_of_zone_register() failure
-c6db32ec7c600ae7ab92eb6c56a9fb2918fcd780 dt-bindings: thermal: tsens: Add ipq8074 compatible
-4360af35273b742ffc6605ce44f37ac654272443 thermal/drivers/tsens: Add support for combined interrupt
-f63baced3839f591db76c227e09d47001373d6db thermal/drivers/tsens: Allow configuring min and max trips
-6840455debd38ea82b1f9fbbf8019944da36f7eb thermal/drivers/tsens: Add IPQ8074 support
-de48d8766afcd97d147699aaff78a338081c9973 thermal/drivers/qcom/tsens: Init debugfs only with successful probe
-c7e077e921fa94e0c06c8d14af6c0504c8a5f4bd thermal/drivers/qcom/tsens: Fix wrong version id dbg_version_show
-89992d95ed1046338c7866ef7bbe6de543a2af91 thermal/drivers/qcom/tsens: Rework debugfs file structure
 8848c0d7a0782c263a7827697d5acfcc09a19a5f dt-bindings: thermal: imx8mm-thermal: Document optional nvmem-cells
 403291648823f819f7baaccd47589fcf87187c32 thermal/drivers/imx: Add support for loading calibration data from OCOTP
 3f9cb57962bcfad88bcac750f85ef7425475b102 thermal: ti-soc-thermal: Drop comma after SoC match table sentinel
@@ -1114,5 +1041,51 @@ f18fca98ac1622220dfdf795fefa91dc52d3707d Merge tag '6.2-rc2-smb3-client-fixes' o
 e9ffbf16caa6cb596df7fd641bc6063a922c52e6 Merge tag 'fixes-2023-01-08' of git://git.kernel.org/pub/scm/linux/kernel/git/rppt/memblock
 93928d485d9df12be724cbdf1caa7d197b65001e Merge tag 'powerpc-6.2-2' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
 b7bfaa761d760e72a969d116517eaa12e404c262 Linux 6.2-rc3
+5d9cb2fcdecc461a06d77eaa93f0851656d313c9 vduse: Remove include of rwlock.h
+8657d5f7d9e4d3c18612c7d4e9c089b18d257419 signal: Don't disable preemption in ptrace_stop() on PREEMPT_RT.
+c922adb09d7fea354ce8e2312c83d35b4a9ac79a sched: Consider task_struct::saved_state in wait_task_inactive().
+c677947b03dfcd39eaa580401a6e09724e61ab30 u64_stat: Remove the obsolete fetch_irq() variants.
+b41099ccfe5a6e11b8a38beb923717546c74c99d net: Avoid the IPI to free the
+fb851dcc6b67e07367c4ac4719fe770357c1ff96 x86: Allow to enable RT
+d5f5d65da593570fb1ba7537f7ce183a80baaec4 x86: Enable RT also on 32bit
+4c93fd64b4d8fd0d418e299c44a721c741189d75 softirq: Use a dedicated thread for timer wakeups.
+e10cf30432aaecf76298f054314cade84b567fd4 rcutorture: Also force sched priority to timersd on boosting test.
+6d40c33aa21595c9ab915f6c36e1df3191262cb9 tick: Fix timer storm since introduction of timersd
+efb143f2b1087fbb40cebedf6eaf107fca2616c1 tpm_tis: fix stall after iowrite*()s
+7d5b96840ca3481a709fdd5ecdf37ce0fbc993ad zram: Replace bit spinlocks with spinlock_t for PREEMPT_RT.
+d144a18b3d13607981552c2f864f205464b298b6 locking/lockdep: Remove lockdep_init_map_crosslock.
+5342b8e20b15e5fb37e49de2435e62dd00ff20fe printk: Bring back the RT bits.
+0886be6b20e6af53d466e32232af9a950ea95df8 printk: add infrastucture for atomic consoles
+5e2f3417f1f316a5bfc54967ac18960b1f4f2b76 serial: 8250: implement write_atomic
+2290a42ce9004bcef9ef4f0cd4af53a79a2afd26 printk: avoid preempt_disable() for PREEMPT_RT
+7f2cf935b65c5f7897215282df67c0d605efa9db drm/i915: Use preempt_disable/enable_rt() where recommended
+de418073f241d83b62eb6b33067689475afc8c7c drm/i915: Don't disable interrupts on PREEMPT_RT during atomic updates
+45a07322aa0853224b56a2a2e6f8ed1194c24414 drm/i915: Don't check for atomic context on PREEMPT_RT
+6417550fda120b828f3c95280ad33dd869652d0f drm/i915: Disable tracing points on PREEMPT_RT
+75e1e80a3a18785d34dfa2c32e7fd2252515ce1c drm/i915: skip DRM_I915_LOW_LEVEL_TRACEPOINTS with NOTRACE
+caf667c5eec5d770cd3d818aee9072421c5a5966 drm/i915/gt: Queue and wait for the irq_work item.
+bb19bb69fc40e02de47006187a4239689205bf8e drm/i915/gt: Use spin_lock_irq() instead of local_irq_disable() + spin_lock()
+bb61c8ffb36167d3304d9012f38147c954749550 drm/i915: Drop the irqs_disabled() check
+34c5333ce30edde7d9fce158a1aaf95f5f9ca519 Revert "drm/i915: Depend on !PREEMPT_RT."
+83a1e6a5a49fb31b528c3c79b44a28e8f95a925f sched: Add support for lazy preemption
+047f5226ab7a730e47fa8517d044a17eb7cf9ef2 x86/entry: Use should_resched() in idtentry_exit_cond_resched()
+9d46d236e70fcd06b4c6f15c2a90ab74282c3f9c x86: Support for lazy preemption
+5df94491cc7bf6549c1caffbff3fa2010cbb79c4 entry: Fix the preempt lazy fallout
+5f7fe95dc7fada796055fba9db83f7ec5bb71f30 arm: Add support for lazy preemption
+3d1ae36e96a7952e6e463eaf55617b70e26871be powerpc: Add support for lazy preemption
+830a68d6eeba49e391bfab322e1444be831c448c arch/arm64: Add lazy preempt support
+1be973c5c0c16be3ce320c4de1c7a0b420c491e4 arm: Disable jump-label on PREEMPT_RT.
+44a34a327fbbab80e871a50935464ae83f60b5d8 ARM: enable irq in translation/section permission fault handlers
+e83ef9d9189dfea01a3d9768a556a13d1b085903 tty/serial/omap: Make the locking RT aware
+5704486adff689460916ac696d3d8e402394c565 tty/serial/pl011: Make the locking work on RT
+ff2df12f391dd307ece4a5c119420f90ca6f470d ARM: Allow to enable RT
+31fa9680134738ae1cb0a2da0a97abaed0c932f9 ARM64: Allow to enable RT
+255934f339b0a829be661e446053286420e11a7e powerpc: traps: Use PREEMPT_RT
+d6c9ee69e407ceb7744139f9daa5cfbf0a71c55a powerpc/pseries/iommu: Use a locallock instead local_irq_save()
+8129b9c1e0ce6023868b989068bf240c0ebb6f67 powerpc/kvm: Disable in-kernel MPIC emulation for PREEMPT_RT
+9e2e40931438ff4daa3510168851a126282423ac powerpc/stackprotector: work around stack-guard init from atomic
+0429c0139011fc0f1f3a9c79ebf3fe7f5af5c81f POWERPC: Allow to enable RT
+d8f7c07082778492f15a7d9346c0e95d02ed1774 sysfs: Add /sys/kernel/realtime entry
+bee0efc1fe1add1df7d677cee5a9c4c325196403 Add localversion for -RT release
 
---===============6598064649818694589==--
+--===============7172897964283810829==--
