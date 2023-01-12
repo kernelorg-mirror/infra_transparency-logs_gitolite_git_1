@@ -1,52 +1,38 @@
-Content-Type: multipart/mixed; boundary="===============1934486997294055559=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless
-Date: Thu, 12 Jan 2023 11:14:33 -0000
-Message-Id: <167352207388.13077.18420615650340508427@gitolite.kernel.org>
-
---===============1934486997294055559==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Thu, 12 Jan 2023 11:15:47 -0000
+Message-Id: <167352214769.15169.14135954829969935728@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wireless/wireless
-user: jberg
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/tags/wireless-2023-01-12
-    old: 0000000000000000000000000000000000000000
-    new: 7b598be8882b84c57f087968a08548caa05f9bbc
-
---===============1934486997294055559==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher 7BF9099A 1673522050 +0100
-pushee ssh+git://korg/pub/scm/linux/kernel/git/wireless/wireless.git
-nonce 1673522049-1c87d25eaebf896d10914b3c3daef42d63f7a0b1
-
-0000000000000000000000000000000000000000 7b598be8882b84c57f087968a08548caa05f9bbc refs/tags/wireless-2023-01-12
------BEGIN PGP SIGNATURE-----
-
-iQIzBAABCgAdFiEEpeA8sTs3M8SN2hR410qiO8sPaAAFAmO/64IACgkQ10qiO8sP
-aABVJg/+J3CBFQFa9N1JzzfAYg4fE/PDMFOhPFvXCVfOKppmrMKVOXbLkE/McjHA
-DjcEdSk+oanknZPrSuiWwBAp6zJfRfKoySHvw9gGKrUzqYm2f+PAnmRKURsc5Us+
-sK/8cpgd3eYY6gwIn3nlpeOby3lY5wqiyYehnPsWqO/pXjtxZfgOi44qsI/pcv4n
-hr2xuxUSJd1hqx0MpFr0GlQNbO3ZaRCyeOQ3/w3ZlT9yUgqKgT79dzLJmVmr/UiP
-W8jKyv7DEvPneHuB7nStIW3zadTGlm+iDutta5EdGUp4XTLAVIkXGYccKIylvtZX
-U8vHJaaotayeVCf3xkPat5QFBKa1fGAFlP3ADjVym8P2mG3wm+Mct9Vi/AATDf0R
-skrjewEEKs09sqrsGGtOwqzvRb9LDXsgdhvvygIgpW7dI0rOAwT00lmjg//eX7xv
-G3tj0ugvEBm3AJpR4Vd3De+V8AOknhWFubO4q7t2MRoulkQ+hEYE15N+hI3dwo1k
-DPyUzb5Mba/eblE/UxAGDJQ8VuyL6U/LP3r1t4tAjHFulFo2FHbtJuxMvSc0HYUE
-UDGhYuMlPLCU/VmSIHi08YIaxwtKo7MDefbB1yvYMjICVTJIE2JftGfkUndFgf32
-MlrBfqT4Ie4rYwgQQwggpQmPp9/pobg4DUtGdx2VzFB7A6oPxgI=
-=N/FN
------END PGP SIGNATURE-----
-
---===============1934486997294055559==--
+  - ref: refs/heads/for-linus
+    old: de1ccb9e61728dd941fe0e955a7a129418657267
+    new: ca88eeb308a221c2dcd4a64031d2e5fcd3db9eaa
+    log: |
+         ca88eeb308a221c2dcd4a64031d2e5fcd3db9eaa ALSA: hda/realtek: Enable mute/micmute LEDs on HP Spectre x360 13-aw0xxx
+         
+  - ref: refs/heads/for-next
+    old: fef4e61b0b765b6d22badcd5b6575b159e7d510a
+    new: af13842cad44eb1feb9da23c7ce5547ecf007694
+    log: |
+         a36183f69c2c24e6e4b1f8f79adc7137ee7444d9 ALSA: firewire-lib: move parameter for pcm frame multiplier from context payload processing layer
+         7fc693e474725544e5ee1cabde34d95e544eb708 ALSA: firewire-lib: obsolete return value from context payload processing layer
+         af13842cad44eb1feb9da23c7ce5547ecf007694 ALSA: firewire-lib: compute extra delay for runtime of PCM substream
+         
+  - ref: refs/heads/master
+    old: 82b7702d1240a6f4660a1b716d677a3a0f567a5b
+    new: 5e4a7628002807cc6825a2c5a8fb3ce791790dd5
+    log: |
+         ca88eeb308a221c2dcd4a64031d2e5fcd3db9eaa ALSA: hda/realtek: Enable mute/micmute LEDs on HP Spectre x360 13-aw0xxx
+         99ec2d8bf45bc3258189fdc75e2932bfe3ce12f6 Merge branch 'for-linus'
+         a36183f69c2c24e6e4b1f8f79adc7137ee7444d9 ALSA: firewire-lib: move parameter for pcm frame multiplier from context payload processing layer
+         7fc693e474725544e5ee1cabde34d95e544eb708 ALSA: firewire-lib: obsolete return value from context payload processing layer
+         af13842cad44eb1feb9da23c7ce5547ecf007694 ALSA: firewire-lib: compute extra delay for runtime of PCM substream
+         5e4a7628002807cc6825a2c5a8fb3ce791790dd5 Merge branch 'for-next'
+         
