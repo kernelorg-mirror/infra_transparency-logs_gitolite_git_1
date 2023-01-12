@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
-Date: Thu, 12 Jan 2023 03:18:22 -0000
-Message-Id: <167349350249.13068.3203647944919336309@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Thu, 12 Jan 2023 04:10:10 -0000
+Message-Id: <167349661060.14487.8733419544310972364@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vireshk/pm
-user: vireshk
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/opp/linux-next
-    old: 5b2ad5acaf5aa8a1ff441665967cf728a46ac967
-    new: 67052d09900b77a42a17f642dd093acf1eade1ba
+  - ref: refs/heads/master
+    old: 62cd6679958d760e9a565ec5049ab2b839720992
+    new: 80c0576ef179311f624bc450fede30a89afe9792
     log: |
-         cea7be909414d941a4616e6794f4a5282eb6e652 drivers/opp: Remove "select SRCU"
-         67052d09900b77a42a17f642dd093acf1eade1ba dt-bindings: cpufreq: cpufreq-qcom-hw: Add missing compatibles
+         80c0576ef179311f624bc450fede30a89afe9792 r8169: disable ASPM in case of tx timeout
          
