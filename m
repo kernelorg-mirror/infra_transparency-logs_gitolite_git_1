@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7936911243405775147=="
+Content-Type: multipart/mixed; boundary="===============6109268383421477467=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Thu, 12 Jan 2023 05:39:31 -0000
-Message-Id: <167350197125.8319.3858934964980837649@gitolite.kernel.org>
+Date: Thu, 12 Jan 2023 05:39:45 -0000
+Message-Id: <167350198571.8465.15496384854973755927@gitolite.kernel.org>
 
---===============7936911243405775147==
+--===============6109268383421477467==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,41 +16,41 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-fixes
-    old: f5abfad0a80d329e5f2589766756974b13c6f09d
-    new: 774916f5c479ae10a871dac3c6a128cf7d5cdaeb
+  - ref: refs/heads/6.2/scsi-fixes
+    old: a67aad57d9aee41180aff36e54cb72fe4b8d5a5a
+    new: f58c89700630da6554b24fd3df293a24874c10c1
     log: |
          037b48057e8b485a8d72f808122796aeadbbee32 scsi: hisi_sas: Use abort task set to reset SAS disks when discovered
          f58c89700630da6554b24fd3df293a24874c10c1 scsi: hisi_sas: Set a port invalid only if there are no devices attached when refreshing port id
          
 
---===============7936911243405775147==
+--===============6109268383421477467==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1673501960 -0500
+pusher 75C5DE3D 1673501974 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1673501959-9bd2ae62704c791d857bdb6ea35db617a2d78429
+nonce 1673501974-634c43aa40685f9b2685d05d0df24f69eed005dc
 
-f5abfad0a80d329e5f2589766756974b13c6f09d 774916f5c479ae10a871dac3c6a128cf7d5cdaeb refs/tags/mkp-scsi-fixes
+a67aad57d9aee41180aff36e54cb72fe4b8d5a5a f58c89700630da6554b24fd3df293a24874c10c1 refs/heads/6.2/scsi-fixes
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmO/nQgACgkQ7ulgGnXF
-3j3krg/9GHfGjr3G2n+gqiD9GBwgzFpkrd0wx1ViWA9gXDrhPHREv9he5VM9USG8
-v+asl54gyiWQsv1yCHbG7G02pruO7m0yykM/oLA6vhVFDud1NX2gViMW0qzQRfju
-HhuZ8KsUE5e31G5HYENjBKFHwD8Spu50qqmwk8wSkRCzpi136cVu+xOD/PtR7TOw
-GS7wi/FS3BFB7kK9mIcHxYTaViN2EtZ/i+OVPx4+jCfxfIjDE86aRes7zkgYPIVS
-JKyCSx0DCgtI6eAqxEKwew/uZWiF/N6eaYWt/QznhbyiUTE1X9jxcDJbvJHQHCEK
-H9Ik/Hz9IUKBatN2+vnNSuf8a3s0FGnDBoP5sVLbyHZ+JxOSj11+7AN1E/tZIWP5
-j8UFF80iHC8n6DKjVxDxM00gMRSTRnI7gKc2q2uKHVPWXdWK1BWgi0hjzGAz+TZY
-YC8Mj0kVrwM8N9hWMAKp5IGYBoAYrchr6rwst0ZhsWxbnfTK5W5pixnMwrjp7Qnm
-c196XqwloZayegK01Ywa+Cq73yLJuPs/5fs1zCAsmdHE2ofIcKNZ2ejfOY7qzxTv
-Xt+hkRcBDyhWxGfMvtIoUvkb9kUYOAnJ38+sIIT94aL/lydE2RWPXG/SZ6MyPGVe
-wjzQu3MGtYRz2Sx2K4BsJm8TB0/TDh3NnHN+IF9360gH9i+WKak=
-=2s9j
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmO/nRYACgkQ7ulgGnXF
+3j3U9hAAuBWpwZpbuvE2839VtlOSivqWLbhaSM5rhlrvNFvPBO7fmlNgyfFchSZk
+6s7jktMbiSRgdIbYRoR7mbaP+Jq4pWsO6sRJPrM1k0/2x21o0TzG4MthPi5imDo/
+XT8WlQsXL+ri0H4V6mibwFFPB14kgnVdgZGPrtvikrrwdZDkTHWL1uFhwTrNy0g5
+RLe3K0OA+VhXxMMz1FMfIlE87qfk7i6i93pCMsPOq+8Ak+taSpLL5925K2IRKSTp
+B/hyOa2IjB64itqXunBZpBW2asalyRChHGJp6pSzn6N3hpQpAPh+c4VCB77j7495
+41eIW0QLixp5YZkZ6EiWiu1TVieXXbua2Dnm7glKKbbYyUKa97IBoezdSRuukn+1
+KQ1KZWkIYFfm+BZZh2WpRSTFXSPVyrbbl9ZNe/SXc4ilix9kyQoIPJsatHVJFAfF
+QCIt/Q0qtLCba4KUbHQbJrrlzceuCZtZIiJVrTUmhSKdFrW2ASm28OvfIwgsJ7hC
+OU2nlOA5Y5/erP0PZ7TEszTsviM+MPHoGpI70v1YCw2r2rwsvlvBfyJXZELZpHhL
+8zxvM66ZhnXj7aFdfxBscyR8NfXrb42MSemvk54dagy6GF5bJYwbTp4iOKBKYIBv
+zLRLMrCUYoB7cn09TkjHI66/06B1o5A5J8DFlGyzQ7w7bqHsuQo=
+=ojws
 -----END PGP SIGNATURE-----
 
---===============7936911243405775147==--
+--===============6109268383421477467==--
