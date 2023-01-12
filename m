@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Thu, 12 Jan 2023 14:39:01 -0000
-Message-Id: <167353434183.20864.7058247924085100993@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Thu, 12 Jan 2023 14:40:29 -0000
+Message-Id: <167353442949.22860.10745356982375354702@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cel/linux
-user: cel
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
-  - ref: refs/heads/for-rc
-    old: 78bd558ee3a30f6503dc223beb37dd52a73cd9ab
-    new: 7c24fa225081f31bc6da6a355c1ba801889ab29a
+  - ref: refs/heads/master
+    old: 8d9215504c7159acdb40be7da11f421d5b8ece8b
+    new: faeb1b64b36ededd1a0b62555cad65f002d47ac6
     log: |
-         7c24fa225081f31bc6da6a355c1ba801889ab29a NFSD: replace delayed_work with work_struct for nfsd_client_shrinker
+         faeb1b64b36ededd1a0b62555cad65f002d47ac6 include: add missing license lines
          
