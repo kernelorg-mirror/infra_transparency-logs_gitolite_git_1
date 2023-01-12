@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Thu, 12 Jan 2023 12:23:42 -0000
-Message-Id: <167352622211.25728.16134613861643609377@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/at91/linux
+Date: Thu, 12 Jan 2023 12:24:05 -0000
+Message-Id: <167352624506.25937.3043472738216062794@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/at91/linux
+user: claudiu.beznea
 changes:
-  - ref: refs/heads/file3KCc6K
-    old: 0000000000000000000000000000000000000000
-    new: d784fc8be6814b31854f7b529919ca4506ff8066
-  - ref: refs/heads/file93Qs1D
-    old: 0000000000000000000000000000000000000000
-    new: b6e98cf4ed3baff0c2f7a1c1babf96fde8e129f3
-  - ref: refs/heads/v2_20230109_venkataprasad_potturu_add_tdm_support_in_acp_machine_driver
-    old: 0000000000000000000000000000000000000000
-    new: d386a10c9cd887b53ff9da06d27a60da61b007c9
+  - ref: refs/heads/at91-fixes
+    old: 1b929c02afd37871d5afb9d498426f83432e71c2
+    new: 9bfa2544dbd1133f0b0af4e967de3bb9c1e3a497
+    log: |
+         9bfa2544dbd1133f0b0af4e967de3bb9c1e3a497 ARM: dts: at91: sam9x60: fix the ddr clock for sam9x60
+         
