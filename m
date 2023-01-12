@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9219214946548516522=="
+Content-Type: multipart/mixed; boundary="===============8477820551001278578=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Thu, 12 Jan 2023 04:25:00 -0000
-Message-Id: <167349750037.24354.2637452443776002255@gitolite.kernel.org>
+Date: Thu, 12 Jan 2023 04:25:15 -0000
+Message-Id: <167349751500.25993.11385786203128628347@gitolite.kernel.org>
 
---===============9219214946548516522==
+--===============8477820551001278578==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-staging
-    old: 53abb655b9920cb4449017f5c36105192768c55f
-    new: 0f850c4c1ee15056f3c9098b032ed6d69955aa10
-    log: revlist-53abb655b992-0f850c4c1ee1.txt
+  - ref: refs/heads/6.3/scsi-staging
+    old: 2d95c6deb64dfb1496bd202aaffdbdb4b420a196
+    new: 58edf8b928a8107bcdaba3389a51179b69ed2ff1
+    log: revlist-2d95c6deb64d-58edf8b928a8.txt
 
---===============9219214946548516522==
+--===============8477820551001278578==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1673497488 -0500
+pusher 75C5DE3D 1673497504 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1673497488-edf5e28d07f657d82881195799c16f8e41124130
+nonce 1673497503-4a2ec492478538df6b0b0f63d7047af838118c55
 
-53abb655b9920cb4449017f5c36105192768c55f 0f850c4c1ee15056f3c9098b032ed6d69955aa10 refs/tags/mkp-scsi-staging
+2d95c6deb64dfb1496bd202aaffdbdb4b420a196 58edf8b928a8107bcdaba3389a51179b69ed2ff1 refs/heads/6.3/scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmO/i5AACgkQ7ulgGnXF
-3j1ZRQ/9E8+TsJqjkF9HULaCPC5LUQPc2Ea+n1VVZ19OyXP/7kzKQ/VTy8TSR/P/
-nijC43Ghufya93mVAzV9NcKlCHeVIOXcf+Ae2wf89x/4kVf1zD0Q0fNTHdnNklkd
-3htAC6fUJQdRaKkzxS6rmFfo8FXQ1jVVcw3swjkpc726TZGWofO6jG3njLfXZPsI
-JHujemL5F29V1eJg9zU+yt/9/t6Qw+B64pn+W/Xk0NOI2JlVDv7xV2bOEd/7QzMh
-RQphw/RjSGAgAjZolirltlTtpjo+BVMgVU0y/rbXlFNralYbeGG6YtMJe3koKUN1
-YRXRqQfcmKld+G7lgmbYcaDV6QYZ9ug1bzdq05Jp+Pxs/B8y0SUb/LvU7cIRTM8Q
-IqZl6X94AEJXTBnb6Kmx0khubYWwWaQG+fRr6n7g2pKzp6YCnXyzyj5Fh5S6mGDV
-dlZu/QAGQfk58EVJa9IePAMonEX7q214EQFM6BRFBg0lS4skCSOn9a5f+17aWq/7
-etm8AuBgIaedwXRKCMYcj+yD6bQLMrxUA1Lj71JVHPeaz67gMzMJol2bOnEHmtFX
-ZZwz3jHfeXWEHLK15zqQJnLZqT7TwcI7Nf6iUCDj97wOZRALr6x+GKGHnRDDpDcr
-Opk5f5k3R6Fpde6aCx11/IV2TMNyj0XezgtnVItRAG3OFhotadM=
-=P2zM
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmO/i6AACgkQ7ulgGnXF
+3j2+Jw//ZzhcWi7U/l3Vksq+VEr6FqFXsNtP94a2ncqpL5K1GlpgA2Xr2dQnBQ74
+8IZxOLQdjhZKO1kr3bY6Pg642u1rI6cxYiHzB5JScsGWkE6Mqlbhy2umQey0sHJZ
+Kz5nj3vhdHyNr8t5ewVW6RLzZiNPtsLjBO1AE+8ASdESU8jGOiGJ6WhwTJR2CYBe
+8kaVJrOo+cJvHfdYax02P7BdcrGmKDt7U4V3Z3JTgirGqDtzeHRudZr87G4/V+eo
+g5nN5+601hqOZPWeruRXJfSQSuNdq0Fwj35OElKIzydeA/b3SHNzscIqUP4FEVWs
+PcEr8F44GhjZFk6u8m16LGCnWLSH/GF5GrjmPanxS5HB68OjKiXryCkUExlRuB99
+ujFnz4RcIBH3piIfb39kRPwKB27OheMQjeKQUR4TEcCqRhWJiTWA8kQ2GUFw1I5i
+124j77xWWjqt+Fqr7EDqZv7eKv8g1vqt7yhM2wWjgQhzMzENYUItKaDNOi2tDI+o
+LgU/2VbvosgjMRLgatFE1aqo+YtfIFR3YAQLQbLWYkMlaMDSd3+UEBfd9v7dKkr7
+czat/pjl8L2rKH5tZKH3XXOFHx+oQePkFKjfz9fS9wOPyiz9jLQlR4U/EYecIdql
+ohdTQ2QYudgvrA/P0jLcGn2sHK7D3K5ysOqt179G2f8F5mDwtNk=
+=+/np
 -----END PGP SIGNATURE-----
 
---===============9219214946548516522==
+--===============8477820551001278578==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-53abb655b992-0f850c4c1ee1.txt
+Content-Disposition: attachment; filename=revlist-2d95c6deb64d-58edf8b928a8.txt
 
 aa67971b2736e1eb0e09bb71212f4ccd536b0a63 scsi: ufs: dt-bindings: Add document for Unisoc UFS host controller
 df7320bac37e837f43883a51ce879c07c4429180 scsi: ufs: ufs-unisoc: Add support for Unisoc UFS host controller
@@ -89,4 +89,4 @@ f3e57da528127febae7eb03d9c87408d572b0fd8 scsi: core: Fix invisible definition co
 e2cb6e8db69e96c1514c2992e2d4fd6c8c1b8820 scsi: ufs: core: bsg: Fix cast to restricted __be16 warning
 58edf8b928a8107bcdaba3389a51179b69ed2ff1 Merge patch series "Several compilation warnings fixes for UFS Advanced RPMB"
 
---===============9219214946548516522==--
+--===============8477820551001278578==--
