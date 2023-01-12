@@ -1,47 +1,33 @@
-Content-Type: multipart/mixed; boundary="===============5025606296089305054=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/b4/b4
-Date: Thu, 12 Jan 2023 16:14:02 -0000
-Message-Id: <167354004294.20219.9783167597454001208@gitolite.kernel.org>
-
---===============5025606296089305054==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/tj/wq
+Date: Thu, 12 Jan 2023 16:22:25 -0000
+Message-Id: <167354054532.27603.7341333556639937440@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/b4/b4
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/tj/wq
+user: tj
 changes:
-  - ref: refs/heads/master
-    old: 78c63c0c14dbaf11161aa35440363598714957fb
-    new: 5b2056d4002a1d71dc64c56ee65585c5d8739c32
+  - ref: refs/heads/for-6.3
+    old: c76feb0d5dfdb90b70fa820bb3181142bb01e980
+    new: e02b93124855cd34b78e61ae44846c8cb5fddfc3
     log: |
-         d45b65977fc76558d9d69631a7047ccd33cce6ea prep: Fix splat with --auto-to-cc when a branch has no commits
-         5b2056d4002a1d71dc64c56ee65585c5d8739c32 prep: Allow configuration options when enrolling/creating branch
+         99c621ef243bda726fb8d982a274ded96570b410 workqueue: Protects wq_unbound_cpumask with wq_pool_attach_mutex
+         793777bc193b658f01924fd09b388eead26d741f workqueue: Factorize unbind/rebind_workers() logic
+         3f959aa3b33829acfcd460c6c656d54dfebe8d1e workqueue: Convert the idle_timer to a timer + work_struct
+         9ab03be42b8f9136dcc01a90ecc9ac71bc6149ef workqueue: Don't hold any lock while rcuwait'ing for !POOL_MANAGER_ACTIVE
+         e02b93124855cd34b78e61ae44846c8cb5fddfc3 workqueue: Unbind kworkers before sending them to exit()
          
-
---===============5025606296089305054==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher B6C41CE35664996C! 1673540042 -0500
-pushee gitolite.kernel.org:pub/scm/utils/b4/b4
-nonce 1673540042-01049a0de920754d1e39141ba1750f85bdf8ef6b
-
-78c63c0c14dbaf11161aa35440363598714957fb 5b2056d4002a1d71dc64c56ee65585c5d8739c32 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCY8AxygAKCRC2xBzjVmSZ
-bA8RAQCThOaNDTh/NI2TS23mWljmaibuXwPaW9cmIC/iHWQo0gD+JPevKtn1m2CO
-57D91Ou9CAUMPdDwE6Zi1j08enVEWwE=
-=7PBw
------END PGP SIGNATURE-----
-
---===============5025606296089305054==--
+  - ref: refs/heads/for-next
+    old: c76feb0d5dfdb90b70fa820bb3181142bb01e980
+    new: e02b93124855cd34b78e61ae44846c8cb5fddfc3
+    log: |
+         99c621ef243bda726fb8d982a274ded96570b410 workqueue: Protects wq_unbound_cpumask with wq_pool_attach_mutex
+         793777bc193b658f01924fd09b388eead26d741f workqueue: Factorize unbind/rebind_workers() logic
+         3f959aa3b33829acfcd460c6c656d54dfebe8d1e workqueue: Convert the idle_timer to a timer + work_struct
+         9ab03be42b8f9136dcc01a90ecc9ac71bc6149ef workqueue: Don't hold any lock while rcuwait'ing for !POOL_MANAGER_ACTIVE
+         e02b93124855cd34b78e61ae44846c8cb5fddfc3 workqueue: Unbind kworkers before sending them to exit()
+         
