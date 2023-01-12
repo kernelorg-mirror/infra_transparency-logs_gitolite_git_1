@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1218950961615990628=="
+Content-Type: multipart/mixed; boundary="===============7284687893905166644=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/virt/kvm/kvm
-Date: Thu, 12 Jan 2023 18:18:52 -0000
-Message-Id: <167354753216.8851.7054952102929327011@gitolite.kernel.org>
+Date: Thu, 12 Jan 2023 18:20:47 -0000
+Message-Id: <167354764762.11040.13039081825554921395@gitolite.kernel.org>
 
---===============1218950961615990628==
+--===============7284687893905166644==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,40 +16,40 @@ repo: pub/scm/virt/kvm/kvm
 user: bonzini
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: a5496886eb130ea08b1a5cd5c284543909bde749
-    new: 310bc39546a435c83cc27a0eba878afac0d74714
-    log: revlist-a5496886eb13-310bc39546a4.txt
+  - ref: refs/tags/for-linus
+    old: 3bf7f1035ebe993ae6e4b843e1c5bd00cb274051
+    new: 9b94c7e3ae4c80651c5bcc4861c9c1f7f8ac6e09
+    log: revlist-3bf7f1035ebe-9b94c7e3ae4c.txt
 
---===============1218950961615990628==
+--===============7284687893905166644==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Paolo Bonzini <pbonzini@redhat.com> 1673547523 -0500
+pusher Paolo Bonzini <pbonzini@redhat.com> 1673547645 -0500
 pushee gitolite.kernel.org:/pub/scm/virt/kvm/kvm.git
-nonce 1673547522-ad339aeff3d19fa065c17a1bf863912bb815631f
+nonce 1673547644-6dd53b3469fea24b2560f165bab0e7fdf4a5e568
 
-a5496886eb130ea08b1a5cd5c284543909bde749 310bc39546a435c83cc27a0eba878afac0d74714 refs/heads/master
+3bf7f1035ebe993ae6e4b843e1c5bd00cb274051 9b94c7e3ae4c80651c5bcc4861c9c1f7f8ac6e09 refs/tags/for-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQFIBAABCAAyFiEE8TM4V0tmI4mGbHaCv/vSX3jHroMFAmPATwMUHHBib256aW5p
-QHJlZGhhdC5jb20ACgkQv/vSX3jHroN3KwgAg14PVO3E7LJD2UaamYc4rrTXzALC
-Ae5Vk9LgYZP57SSKrBpQGukHDB8ka5F7bjMLxl65mWAqM9D5uuXYY+5zEevaxHYR
-ZC02vPWilVFOvMTvu9dpxdGBG5kuR7iu96N8VQp0ka7HdqFXy6CvH8tRyWJ6sSJH
-Io76U6pEzVrvaLXapQIpD2Bhfu4gMmdzOtqEnI3rhF3QcLk5sJ2imHUYwvkfQhuS
-ekt9+PqhAQs6kJ7S8atqma972WGPd1iBu4HW/TNCLOoh80SdFeA43j7E27jnwuyT
-55KAFMtfpelnzgfMFMUUyp7uRCE8SfWUwPD1QTqHD+bilpWrNrpwk7xwUg==
-=gLJW
+iQFIBAABCAAyFiEE8TM4V0tmI4mGbHaCv/vSX3jHroMFAmPAT34UHHBib256aW5p
+QHJlZGhhdC5jb20ACgkQv/vSX3jHroN/KQf/fS1TaYzPNBwMpD1C0LnESa5fBwyp
+I84Xl3mByjqY19xER7e40Oe0mR+yaBcX3FmGjpvarFYoZGov0Koh9/qSCkNy2bcm
+1kSvwHUpLKP9hGBl2lgmjGtzjL4rr1CR+Sw+GAyxc7l/zeZo0GFOGpJ8q9SIJoib
+FqCrQ0Ks2kh53MPq+whD0O53LWTXb1T4Y76gr8UArpoDsdUkO5/IettGGqKzvCPP
+632IUxtbXwrcOGxj4sCF4j3kWrL66+D57tqaRVCTqoaxlQx5DbMAt92RMYYtq5Q7
+++hFzXS9o8HYTO5XLVpD4TV/sl2QP+nAnNPg6EFU7+OBKBEzO1j86AcEHw==
+=cBBm
 -----END PGP SIGNATURE-----
 
---===============1218950961615990628==
+--===============7284687893905166644==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a5496886eb13-310bc39546a4.txt
+Content-Disposition: attachment; filename=revlist-3bf7f1035ebe-9b94c7e3ae4c.txt
 
 aff234839f8b80ac101e6c2f14d0e44b236efa48 KVM: arm64: PMU: Fix PMCR_EL0 reset value
 1c0908d8e441631f5b8ba433523cf39339ee2ba0 rtmutex: Add acquire semantics for rtmutex lock acquisition slow path
@@ -466,4 +466,4 @@ bbe17c625d6843e9cdf14d81fbece1b0f0c3fb2f KVM: x86/xen: Fix potential deadlock in
 42a90008f890afc41837dfeec1f0b1e7bcecf94a KVM: Ensure lockdep knows about kvm->lock vs. vcpu->mutex ordering rule
 310bc39546a435c83cc27a0eba878afac0d74714 KVM: x86/xen: Avoid deadlock by adding kvm->arch.xen.xen_lock leaf node lock
 
---===============1218950961615990628==--
+--===============7284687893905166644==--
