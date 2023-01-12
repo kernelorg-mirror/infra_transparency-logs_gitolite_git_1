@@ -1,23 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Thu, 12 Jan 2023 12:09:22 -0000
-Message-Id: <167352536294.15084.2611227556029328479@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Thu, 12 Jan 2023 12:13:20 -0000
+Message-Id: <167352560054.17917.17186949891760641978@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: pabeni
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/heads/master
-    old: d4f12a8271fb724b68af6fe8ef54f0f2e63da74d
-    new: 55b98837e37da723c8b73ec0b48fe68c682b57d7
+  - ref: refs/heads/x86/cpu
+    old: 0125acda7d76b943ca55811df40ed6ec0ecf670f
+    new: ae53fa18703000f507107df43efd1168a0365361
     log: |
-         c43170b7e1571efc11c443fb8889842073b77fe5 vsock: return errors other than -ENOMEM to socket
-         5c338112e48ab1937f99e4a8990a82c999fda126 test/vsock: rework message bounds test
-         685a21c314a8aec3549f25cb3f9d872e92245210 test/vsock: add big message test
-         8abbffd27cedd0f89f69e5ee2ff6841ea01511eb test/vsock: vsock_perf utility
-         55b98837e37da723c8b73ec0b48fe68c682b57d7 Merge branch 'vsock-update-tools-and-error-handling'
+         660569472dd7ac64571375b6727c3f2c1d70ba40 x86/cpufeature: Add the CPU feature bit for LKGS
+         5a91f12660fe7249e37b11372bf599e02b6a319c x86/opcode: Add the LKGS instruction to x86-opcode-map
+         df729fb05ae2db52f7de150439392a88ee9d9b4f x86/gsseg: Make asm_load_gs_index() take an u16
+         ae53fa18703000f507107df43efd1168a0365361 x86/gsseg: Move load_gs_index() to its own new header file
          
