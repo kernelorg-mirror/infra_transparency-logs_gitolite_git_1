@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/kernel/ndctl/ndctl
-Date: Thu, 12 Jan 2023 20:26:46 -0000
-Message-Id: <167355520677.31069.7806767680251810848@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
+Date: Thu, 12 Jan 2023 20:39:06 -0000
+Message-Id: <167355594607.5520.14694191290606503173@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/kernel/ndctl/ndctl
-user: vishal
+repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
+user: shuah
 changes:
-  - ref: refs/heads/pending
-    old: 58d41b3d9cea8e1695fe66439c95348284a498a1
-    new: f1400c2614189dd8882667d2e6f53f8d3d24965d
+  - ref: refs/heads/fixes
+    old: 1b929c02afd37871d5afb9d498426f83432e71c2
+    new: 9fdaca2c1e157dc0a3c0faecf3a6a68e7d8d0c7b
     log: |
-         0ba014e78aea92f1dad4bee81cdc49a216e9d3dd libcxl: Add cxl_memdev_get_firmware_version
-         f1400c2614189dd8882667d2e6f53f8d3d24965d Documentation/libcxl: Fix typos
+         9fdaca2c1e157dc0a3c0faecf3a6a68e7d8d0c7b kselftest: Fix error message for unconfigured LLVM builds
          
