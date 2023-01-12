@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5898970544915237652=="
+Content-Type: multipart/mixed; boundary="===============5972054807712203244=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
-Date: Thu, 12 Jan 2023 17:38:37 -0000
-Message-Id: <167354511713.13140.15387591392845093461@gitolite.kernel.org>
+Date: Thu, 12 Jan 2023 17:38:47 -0000
+Message-Id: <167354512785.13274.13349193399154313332@gitolite.kernel.org>
 
---===============5898970544915237652==
+--===============5972054807712203244==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/johan/usb-serial
 user: johan
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/usb-next
     old: 1b929c02afd37871d5afb9d498426f83432e71c2
     new: b7bfaa761d760e72a969d116517eaa12e404c262
     log: revlist-1b929c02afd3-b7bfaa761d76.txt
 
---===============5898970544915237652==
+--===============5972054807712203244==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -465,4 +465,4 @@ e9ffbf16caa6cb596df7fd641bc6063a922c52e6 Merge tag 'fixes-2023-01-08' of git://g
 93928d485d9df12be724cbdf1caa7d197b65001e Merge tag 'powerpc-6.2-2' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
 b7bfaa761d760e72a969d116517eaa12e404c262 Linux 6.2-rc3
 
---===============5898970544915237652==--
+--===============5972054807712203244==--
