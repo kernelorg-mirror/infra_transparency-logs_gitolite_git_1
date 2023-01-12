@@ -1,53 +1,52 @@
-Content-Type: multipart/mixed; boundary="===============5676400040772750359=="
+Content-Type: multipart/mixed; boundary="===============1934486997294055559=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Thu, 12 Jan 2023 11:11:16 -0000
-Message-Id: <167352187604.11671.6576423036042533292@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless
+Date: Thu, 12 Jan 2023 11:14:33 -0000
+Message-Id: <167352207388.13077.18420615650340508427@gitolite.kernel.org>
 
---===============5676400040772750359==
+--===============1934486997294055559==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/wireless/wireless
+user: jberg
+git_push_cert_status: E
 changes:
-  - ref: refs/tags/v6.1.5
+  - ref: refs/tags/wireless-2023-01-12
     old: 0000000000000000000000000000000000000000
-    new: de4e255af66d5b4e42370046dcf0e2ec1e9dcedc
+    new: 7b598be8882b84c57f087968a08548caa05f9bbc
 
---===============5676400040772750359==
+--===============1934486997294055559==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1673521874 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1673521871-8be44de6300b81d402952570438e9505101b739c
+pusher 7BF9099A 1673522050 +0100
+pushee ssh+git://korg/pub/scm/linux/kernel/git/wireless/wireless.git
+nonce 1673522049-1c87d25eaebf896d10914b3c3daef42d63f7a0b1
 
-0000000000000000000000000000000000000000 de4e255af66d5b4e42370046dcf0e2ec1e9dcedc refs/tags/v6.1.5
+0000000000000000000000000000000000000000 7b598be8882b84c57f087968a08548caa05f9bbc refs/tags/wireless-2023-01-12
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmO/6tIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+mF0QAJ/YvUuLWxhh4mQPCz5K
-X8FkRCVY3cpj+4hX+lMG54aABTpL875/Hs4EpQtIeKia8L/1WSyFJuoOf+vBFLes
-0nR3/u2xsNgy3uqF+MJcVOTge9lYECl43FMGP/Tffatt6bbhAEWrTkXf1gmWeQKw
-Km/l9GuGwlQOkO1IbVxpY51ggr/JXTDBlIvW5rFuMndp5DD3LTDLCykGS/QUsWHI
-Y8WiaYosHXp6NMVSrf5yqiGN1RWjIpWLvh1aGjjGlFldKzJdQccEWPVeprtjp/9k
-rTtePnGnO2R16nypF5A8/5ownU3H9K8edKO5rh46pbSNufbRb4JQwqMb1k82HRwi
-CX8t3T2JyWzxKsMCG58ryx4c5ySVdMnY6emcCQXJujwdN4PZE3Hkc7GP8RlxNfAw
-wQp06oM1aPf17Fxr4GringCyV26Ba6//RFe9hDzinu20Z3uYgpj9jdUCp4icBeLw
-NABS4rrYIA7UC5jYeSFaNRzO/+0R8Qf+oj0+s6M5fCccR/UUjYF2srn/5B+FYMsa
-OofZepdi95M3zimO/7jlwGWo/uYXkgeVUHtrZXRDMouOORZJJJrI7DkgKLRpTV6P
-47p1EX+eAYZooBh4zmjBVHzYCCOUNLKOdZaeKPjEvgkoNvsrHPmuVG/+L6nNDzCO
-XC28CcF8QKUWdpdDQtLeMNou
-=O5w8
+iQIzBAABCgAdFiEEpeA8sTs3M8SN2hR410qiO8sPaAAFAmO/64IACgkQ10qiO8sP
+aABVJg/+J3CBFQFa9N1JzzfAYg4fE/PDMFOhPFvXCVfOKppmrMKVOXbLkE/McjHA
+DjcEdSk+oanknZPrSuiWwBAp6zJfRfKoySHvw9gGKrUzqYm2f+PAnmRKURsc5Us+
+sK/8cpgd3eYY6gwIn3nlpeOby3lY5wqiyYehnPsWqO/pXjtxZfgOi44qsI/pcv4n
+hr2xuxUSJd1hqx0MpFr0GlQNbO3ZaRCyeOQ3/w3ZlT9yUgqKgT79dzLJmVmr/UiP
+W8jKyv7DEvPneHuB7nStIW3zadTGlm+iDutta5EdGUp4XTLAVIkXGYccKIylvtZX
+U8vHJaaotayeVCf3xkPat5QFBKa1fGAFlP3ADjVym8P2mG3wm+Mct9Vi/AATDf0R
+skrjewEEKs09sqrsGGtOwqzvRb9LDXsgdhvvygIgpW7dI0rOAwT00lmjg//eX7xv
+G3tj0ugvEBm3AJpR4Vd3De+V8AOknhWFubO4q7t2MRoulkQ+hEYE15N+hI3dwo1k
+DPyUzb5Mba/eblE/UxAGDJQ8VuyL6U/LP3r1t4tAjHFulFo2FHbtJuxMvSc0HYUE
+UDGhYuMlPLCU/VmSIHi08YIaxwtKo7MDefbB1yvYMjICVTJIE2JftGfkUndFgf32
+MlrBfqT4Ie4rYwgQQwggpQmPp9/pobg4DUtGdx2VzFB7A6oPxgI=
+=N/FN
 -----END PGP SIGNATURE-----
 
---===============5676400040772750359==--
+--===============1934486997294055559==--
