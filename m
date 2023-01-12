@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sunxi/linux
-Date: Thu, 12 Jan 2023 17:29:51 -0000
-Message-Id: <167354459161.7298.13692985042166394537@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
+Date: Thu, 12 Jan 2023 17:35:43 -0000
+Message-Id: <167354494366.12219.3682551723972093631@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sunxi/linux
-user: jernej
+repo: pub/scm/linux/kernel/git/s390/linux
+user: heiko
 changes:
-  - ref: refs/heads/sunxi/for-next
-    old: 6aa58dfeaacfa2906abad98e90eb9388517bd9c2
-    new: 7879da4e62f19471a919792c2e965de52c95c8b7
-    log: |
-         73b7d7f2dcf4f729028deec3f5e434af19270fda soc: sunxi: sram: Only iterate over SRAM children
-         7879da4e62f19471a919792c2e965de52c95c8b7 Merge branch 'sunxi/drivers-for-6.3' into sunxi/for-next
-         
+  - ref: refs/tags/s390-6.2-2
+    old: 0000000000000000000000000000000000000000
+    new: 26dc520944b1872ce5661b1a999acc8e6cd9466a
