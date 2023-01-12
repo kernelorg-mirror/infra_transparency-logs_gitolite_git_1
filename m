@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============1743415604342100423=="
+Content-Type: multipart/mixed; boundary="===============4702719872151643091=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Thu, 12 Jan 2023 18:23:18 -0000
-Message-Id: <167354779866.12019.16856905221816110093@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Thu, 12 Jan 2023 18:23:24 -0000
+Message-Id: <167354780441.12145.14523032422438210824@gitolite.kernel.org>
 
---===============1743415604342100423==
+--===============4702719872151643091==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.2
+  - ref: refs/heads/asoc-6.2
     old: d784fc8be6814b31854f7b529919ca4506ff8066
     new: 64e57b2195725c1ae2246a8a2ce224abb60620ac
     log: |
@@ -27,28 +27,28 @@ changes:
          64e57b2195725c1ae2246a8a2ce224abb60620ac ASoC: Intel: sof_es8336: Drop reference count of ACPI device after use
          
 
---===============1743415604342100423==
+--===============4702719872151643091==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1673547797 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1673547796-3ba7fba6da4cb0880f26098af8499c8858f983c5
+pusher C3F436CA30F5D8EB 1673547803 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1673547802-19501a1727da692f61f1582282083929fe8d92ad
 
-d784fc8be6814b31854f7b529919ca4506ff8066 64e57b2195725c1ae2246a8a2ce224abb60620ac refs/heads/for-6.2
+d784fc8be6814b31854f7b529919ca4506ff8066 64e57b2195725c1ae2246a8a2ce224abb60620ac refs/heads/asoc-6.2
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmPAUBUACgkQJNaLcl1U
-h9DgMwf/Xne6wWouky9FN3coggFoEXTTW6/ECEXG5Km49ENtUPsUloXxDYMauDvn
-65bYu3r9Q7IxsIPxZSBy0J3UkGLdu4Ud5dZ+9XK9OoXEx5043C+dNItZyH5t1Zwg
-k+kYSirAV2c9rf1SjrxINCkrAx5mHB0w6DyiC02B+z6+HEvQMt1vpZsyjuOQOg1r
-bcK0QxFKjJ3hkQcf8QintAJJpYDkN5chKzaqJNps/MGFi9+0xCUpsguCDe40q5hc
-o/o/ZznGdYoKnoTL8QeKI+VBGHL1cD5F6f3sifhDCq7Lb4w0nvPodkG5AtCXGQ6t
-MO/q70VKVEwoVnFoXvHoYoL0KWq5Vw==
-=/PRI
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmPAUBsACgkQJNaLcl1U
+h9AxAAf/ca4czhpO0L5Ifz/zVWcalPyQXti1PDhVToV0dMOkSmqIwyTZFFm/eBcx
+tnzK7EqzMNSkJkTuHzldQ9BFB7c+D3fTb5AYTIBEoYFc6HYZi6HjTu4yZpiPtWJj
+bSmBMhJVYxUz0I3UvWGgaSc28Rc4BkN6NzRMRAtrmFZ0Tj4IWhztXpd1bGN31BxJ
+9pZsH5BuKlT9tLO3Bfpyt4Cu2jaclu8zJqqAYqK8TVVheRo6bIbvmgjwZUa+2ux4
+m0uV3AMgEDw9w8Fnl6Mf2koRmLbOk+3Q0RFxtz3Wrj4CKaiDr7qdUZNiawqIZv90
+6OJb1TZvYK9cUvCrS4q79qyyc6a3rg==
+=sN6v
 -----END PGP SIGNATURE-----
 
---===============1743415604342100423==--
+--===============4702719872151643091==--
