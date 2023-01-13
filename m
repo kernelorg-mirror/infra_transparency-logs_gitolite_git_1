@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Fri, 13 Jan 2023 14:50:03 -0000
-Message-Id: <167362140351.3464.17427382687487851786@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Fri, 13 Jan 2023 14:59:17 -0000
+Message-Id: <167362195766.8017.10941314257544989715@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
-  - ref: refs/heads/io_uring-6.2
-    old: fc51490324c177dfab795f74cccacc01980badd8
-    new: 544d163d659d45a206d8929370d5a2984e546cb7
+  - ref: refs/heads/master
+    old: b40f00a50e2273bdad8ddb9297c8ccd2c52e440e
+    new: 8a0fd285fa53e2baf092316027ea63333ed74751
     log: |
-         544d163d659d45a206d8929370d5a2984e546cb7 io_uring: lock overflowing for IOPOLL
+         8a0fd285fa53e2baf092316027ea63333ed74751 Fri Jan 13 02:57:36 PM UTC 2023
          
