@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7470091474147119254=="
+Content-Type: multipart/mixed; boundary="===============0639805932871860426=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 13 Jan 2023 12:24:38 -0000
-Message-Id: <167361267866.2874.5676681832175924641@gitolite.kernel.org>
+Date: Fri, 13 Jan 2023 12:24:48 -0000
+Message-Id: <167361268853.2970.1488708623562569915@gitolite.kernel.org>
 
---===============7470091474147119254==
+--===============0639805932871860426==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
-  - ref: refs/heads/sched/core
-    old: 28c8e088427ad30b4260953f3b6f908972b77c2d
-    new: 0e26e1de0032779e43929174339429c16307a299
-    log: revlist-28c8e088427a-0e26e1de0032.txt
+  - ref: refs/heads/master
+    old: 8df2020e3be6dce06ba03fbab399149864fe3fe3
+    new: 0acec160a34aca95e9ee4917540c5b3a91c1bf04
+    log: revlist-8df2020e3be6-0acec160a34a.txt
 
---===============7470091474147119254==
+--===============0639805932871860426==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-28c8e088427a-0e26e1de0032.txt
+Content-Disposition: attachment; filename=revlist-8df2020e3be6-0acec160a34a.txt
 
 1f7c232ee080f01ded1236685a357f8926e8c7d5 x86/perf/amd: Remove tracing from perf_lopwr_cb()
 aaa3896b969bdf946e0fd6aa6199da17b5da8d5c x86/idle: Replace 'x86_idle' function pointer with a static_call
@@ -77,5 +77,6 @@ f176d4ccb30747231831f66779697afa6d738b3c sched/core: Always inline __this_cpu_pr
 26388a7c353f7b1d3fd8a6df6452fa9773193155 cpuidle,arch: Mark all regular cpuidle_state:: Enter methods __cpuidle
 0e985e9d22864e29d5d2b3d909ad15134d7f6d46 cpuidle: Add comments about noinstr/__cpuidle usage
 0e26e1de0032779e43929174339429c16307a299 context_tracking: Fix noinstr vs KASAN
+0acec160a34aca95e9ee4917540c5b3a91c1bf04 Merge branch into tip/master: 'sched/core'
 
---===============7470091474147119254==--
+--===============0639805932871860426==--
