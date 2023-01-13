@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Fri, 13 Jan 2023 05:55:28 -0000
-Message-Id: <167358932883.23810.4191102529701489230@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+Date: Fri, 13 Jan 2023 07:30:08 -0000
+Message-Id: <167359500893.20305.16364584935814858201@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+user: masahiroy
 changes:
-  - ref: refs/heads/master
-    old: 01644a1f98ff45a4044395ce2bbfd534747e0676
-    new: ea22f4319c3409d847d70eaaf149cc480a73220d
+  - ref: refs/heads/fixes
+    old: 169dd78043f7f4eabdef8d7ba0d4ddffe5cb3930
+    new: aedee9e8d9224de35081e73e63333a402907c53c
     log: |
-         ea22f4319c3409d847d70eaaf149cc480a73220d ethtool: add netlink attr in rss get reply only if value is not null
+         aedee9e8d9224de35081e73e63333a402907c53c kconfig: Update all declared targets
          
