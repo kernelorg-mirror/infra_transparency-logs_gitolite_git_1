@@ -1,22 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/xfs/xfsprogs-dev
-Date: Fri, 13 Jan 2023 18:56:16 -0000
-Message-Id: <167363617639.7324.7651517207700914138@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Fri, 13 Jan 2023 19:05:46 -0000
+Message-Id: <167363674600.13309.170536861085165309@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/xfs/xfsprogs-dev
-user: cem
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/for-next
-    old: 7374f58bfeb38467bab6552a47a5cd6bbe3c2e2e
-    new: fdf0366959f1d04f2aea93a3fac24c49b9d5e55f
+  - ref: refs/heads/dev
+    old: b9c0ca4c0d3845012af003a6a8cb3dded45bb736
+    new: cfd6ec70dd2bb9205fbc3182f427f7462c76dff3
     log: |
-         37e6e80a61ad1a88bd109d71be73c8f415003cc1 xfsprogs: Release v6.1.0
-         5ead2de386d879684a5fed6c8ec6ddab454ed7c3 xfsprogs: scrub: fix warnings/errors due to missing include
-         96867d44fc522c941c684495eb017bad2b9e26d3 Add pkg version to debian changelog
-         fdf0366959f1d04f2aea93a3fac24c49b9d5e55f xfsprogs: Release v6.1.1
+         bb5abfaa476b7329d875566e3bcc9cc6e1519a12 locking/lockdep: Introduce lock_sync()
+         cfd6ec70dd2bb9205fbc3182f427f7462c76dff3 rcu: Annotate SRCU's update-side lockdep dependencies
          
