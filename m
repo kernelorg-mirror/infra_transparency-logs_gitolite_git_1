@@ -1,21 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Fri, 13 Jan 2023 05:44:39 -0000
-Message-Id: <167358867934.14609.1314940291790292199@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Fri, 13 Jan 2023 05:52:33 -0000
+Message-Id: <167358915337.21401.3322268572708100994@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/master
-    old: 5bee990f490a6c1bea5bba431e2ffe387e6b1b3f
-    new: 72863e08c3935bff9577d9ff56d034d68d3adf9b
+    old: 0ea90f36a1e1f7a44580caed7ae1b96e5da14bb9
+    new: 01644a1f98ff45a4044395ce2bbfd534747e0676
     log: |
-         15f1735520f929ea7ed7ef7902abe2ffe66486a6 macsec: add support for IFLA_MACSEC_OFFLOAD in macsec_changelink
-         723e8a48c9935b0d7a2826a12d03324daf6f900b macsec: dump IFLA_MACSEC_OFFLOAD attribute as part of macsec dump
-         72863e08c3935bff9577d9ff56d034d68d3adf9b Merge branch 'add-support-to-offload-macsec-using-netlink-update'
+         579923d84b04abb6cd4cd1fd9974096a2dd1832b amd-xgbe: TX Flow Ctrl Registers are h/w ver dependent
+         926446ae24c03311a480fb96eb78f0ce7ea6d091 amd-xgbe: Delay AN timeout during KR training
+         80c825296134a8285d970a868187fef32e7c2b9f Merge branch 'amd-xgbe-pfc-and-kr-training-fixes'
+         01644a1f98ff45a4044395ce2bbfd534747e0676 rxrpc: Fix wrong error return in rxrpc_connect_call()
          
