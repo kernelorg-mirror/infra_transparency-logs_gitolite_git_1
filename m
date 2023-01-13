@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cem/xfsprogs-dev
-Date: Fri, 13 Jan 2023 18:08:03 -0000
-Message-Id: <167363328394.6832.14661257822252585640@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/helgaas/pci
+Date: Fri, 13 Jan 2023 18:08:47 -0000
+Message-Id: <167363332768.7125.8479664993954797139@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cem/xfsprogs-dev
-user: cem
+repo: pub/scm/linux/kernel/git/helgaas/pci
+user: helgaas
 changes:
-  - ref: refs/heads/master
-    old: aca162c4702c436d322313782ec947ce722259ba
-    new: fdf0366959f1d04f2aea93a3fac24c49b9d5e55f
-    log: |
-         96867d44fc522c941c684495eb017bad2b9e26d3 Add pkg version to debian changelog
-         fdf0366959f1d04f2aea93a3fac24c49b9d5e55f xfsprogs: Release v6.1.1
-         
+  - ref: refs/tags/pci-v6.2-fixes-1
+    old: 0000000000000000000000000000000000000000
+    new: 63e0627ce9b19ff2bbf27d63fe38ba286e1c276a
