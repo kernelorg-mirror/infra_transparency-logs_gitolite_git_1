@@ -1,21 +1,46 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/remoteproc/linux
-Date: Fri, 13 Jan 2023 21:45:06 -0000
-Message-Id: <167364630639.21847.10384898899161143315@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============9208651831075329630=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/utils/b4/b4
+Date: Fri, 13 Jan 2023 21:52:57 -0000
+Message-Id: <167364677722.27168.14561518241893350234@gitolite.kernel.org>
+
+--===============9208651831075329630==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/remoteproc/linux
-user: mjp
+repo: pub/scm/utils/b4/b4
+user: mricon
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-next
-    old: 90d6db82626be5e5fe085f4f58c49a080c420fa6
-    new: f9721c6a43b63f6428e71b23a435f7f4f4e17af2
+  - ref: refs/heads/master
+    old: 5b2056d4002a1d71dc64c56ee65585c5d8739c32
+    new: d581e43b2135f37884d0fb6389f0b283e06ebd95
     log: |
-         44d9083394305965006f64bfdaa94d3c9002564e dt-bindings: remoteproc: k3-dsp: Update bindings for AM62A SoCs
-         41909ba6d82483791db47add5e2baac0458550d2 remoteproc: k3-c7x: Add support for C7xv DSP on AM62A SoC
-         f9721c6a43b63f6428e71b23a435f7f4f4e17af2 Merge branches 'rproc-next', 'rpmsg-next' and 'hwspinlock-next' into for-next
+         d581e43b2135f37884d0fb6389f0b283e06ebd95 ez: treat cover-letter as git commit msg
          
+
+--===============9208651831075329630==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher B6C41CE35664996C! 1673646776 -0500
+pushee gitolite.kernel.org:pub/scm/utils/b4/b4
+nonce 1673646776-6930fcfa324c0995999c1c92075a5e296db5e0f4
+
+5b2056d4002a1d71dc64c56ee65585c5d8739c32 d581e43b2135f37884d0fb6389f0b283e06ebd95 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCY8HSuAAKCRC2xBzjVmSZ
+bBTvAQD5waikZ6c8ZCa6BBuu71RAwGdFBvUVuSXe2Lh+g//W2wD5ATSkEMpke/S2
+REd3uxqnW80ZLozkQomVN/pqI2GbuQ0=
+=JJIi
+-----END PGP SIGNATURE-----
+
+--===============9208651831075329630==--
