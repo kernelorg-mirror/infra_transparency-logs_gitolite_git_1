@@ -1,19 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Fri, 13 Jan 2023 17:38:12 -0000
-Message-Id: <167363149282.19051.13911733905127712977@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tj/wq
+Date: Fri, 13 Jan 2023 17:51:10 -0000
+Message-Id: <167363227093.28910.13997148768410025190@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
-user: broonie
+repo: pub/scm/linux/kernel/git/tj/wq
+user: tj
 changes:
   - ref: refs/heads/for-6.3
-    old: 2c05fc5f670955a847f2ab254d12f4dfcdd83dea
-    new: c5d808691c2cf61c7b85003027ee35267dd74d7b
+    old: e02b93124855cd34b78e61ae44846c8cb5fddfc3
+    new: c63a2e52d5e08f01140d7b76c08a78e15e801f03
     log: |
-         c5d808691c2cf61c7b85003027ee35267dd74d7b spi: SPI core CS delay fixes and additions
+         c63a2e52d5e08f01140d7b76c08a78e15e801f03 workqueue: Fold rebind_worker() within rebind_workers()
+         
+  - ref: refs/heads/for-next
+    old: e02b93124855cd34b78e61ae44846c8cb5fddfc3
+    new: c63a2e52d5e08f01140d7b76c08a78e15e801f03
+    log: |
+         c63a2e52d5e08f01140d7b76c08a78e15e801f03 workqueue: Fold rebind_worker() within rebind_workers()
          
