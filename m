@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vfs/idmapping
-Date: Fri, 13 Jan 2023 08:33:09 -0000
-Message-Id: <167359878908.28418.6934385531732255328@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/herbert/cryptodev-2.6
+Date: Fri, 13 Jan 2023 08:39:35 -0000
+Message-Id: <167359917595.31881.4858068415630523988@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vfs/idmapping
-user: brauner
+repo: pub/scm/linux/kernel/git/herbert/cryptodev-2.6
+user: herbert
 changes:
-  - ref: refs/heads/fs.idmapped.mnt_idmap.conversion
-    old: 8763964f106138ed3d2af54dbfdd7cdab9ccdc98
-    new: b3f50f42fbdcf9bab21ef3ef26d3ab63fbe8b0b7
+  - ref: refs/heads/master
+    old: 55ef6c811b8481b65e54217010a62c4074e19302
+    new: f81c1d4a6d3f6b9f31cb8feec13a4357b68a95d6
     log: |
-         f96fda742398b9b087eaed728d036178b17b6307 fs: move mnt_idmap
-         b3f50f42fbdcf9bab21ef3ef26d3ab63fbe8b0b7 fs: finish conversion to mnt_idmap
+         197286f86012250191bfe616dc4e9b8e34380c35 dt-bindings: crypto: sun8i-ce: Add compatible for D1
+         f81c1d4a6d3f6b9f31cb8feec13a4357b68a95d6 crypto: sun8i-ce - Add TRNG clock to the D1 variant
          
