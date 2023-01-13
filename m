@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Fri, 13 Jan 2023 01:31:34 -0000
-Message-Id: <167357349462.10238.17411137190567669718@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chrome-platform/linux
+Date: Fri, 13 Jan 2023 01:31:36 -0000
+Message-Id: <167357349622.10295.14201661393862300924@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/robh/linux
-user: robh
+repo: pub/scm/linux/kernel/git/chrome-platform/linux
+user: tzungbi
 changes:
   - ref: refs/heads/for-next
-    old: 3db50cb6db7771f4dfa14fb5ef76841627fd9e58
-    new: 8ffbaa98ccf82383c9092cf3afa4d8512e52e612
+    old: 441529bed41cd6f368fe337ebbb4920e3519da24
+    new: 2ae3c610e7d21bc4a27da2b71f7007f2c4efce01
     log: |
-         8ffbaa98ccf82383c9092cf3afa4d8512e52e612 dt-bindings: ufs: qcom,ufs: document required-opps
+         9e69b1b27b13eb4eb85405900e290c0d539454bf platform/chrome: cros_ec: Fix panic notifier registration
+         2ae3c610e7d21bc4a27da2b71f7007f2c4efce01 platform/chrome: cros_ec_lpc: initialize the buf variable
          
