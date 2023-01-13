@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/iwlwifi/backport-iwlwifi
-Date: Fri, 13 Jan 2023 09:01:41 -0000
-Message-Id: <167360050118.15686.665955140870545041@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/printk/linux
+Date: Fri, 13 Jan 2023 09:06:36 -0000
+Message-Id: <167360079625.18805.2991963347844262856@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/iwlwifi/backport-iwlwifi
-user: ggreenman
+repo: pub/scm/linux/kernel/git/printk/linux
+user: pmladek
 changes:
-  - ref: refs/heads/release/core76
-    old: cc9ac14e69ef634a36002944333a54b679f55969
-    new: 8532dd12bf76b99b4ff45591bf1a75d348eaf7de
+  - ref: refs/heads/rework/console-list-lock
+    old: 5074ffbec67ac592614901771d3a15e1198d759d
+    new: e86a9862a1f2474a1eb5a3e1ccb51885d9c79f8b
     log: |
-         8532dd12bf76b99b4ff45591bf1a75d348eaf7de [BUGFIX] [NOUPSTREAM] wifi: iwlwifi: advertise .resv_start_op for tm-genl
+         e86a9862a1f2474a1eb5a3e1ccb51885d9c79f8b tty: serial: kgdboc: fix mutex locking order for configure_kgdboc()
          
