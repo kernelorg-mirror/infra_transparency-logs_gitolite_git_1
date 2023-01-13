@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============0624470180429881653=="
+Content-Type: multipart/mixed; boundary="===============2951967385481790031=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Fri, 13 Jan 2023 15:25:44 -0000
-Message-Id: <167362354475.27813.16148070708981162635@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Fri, 13 Jan 2023 15:25:51 -0000
+Message-Id: <167362355121.27913.14615260052956649469@gitolite.kernel.org>
 
---===============0624470180429881653==
+--===============2951967385481790031==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.3
+  - ref: refs/heads/asoc-6.3
     old: 8f28299f5cdcc6e7b6ed664364d1c76821896d07
     new: 497f134a912af5594a519eb1d226a13f54cb9fa5
     log: |
@@ -25,28 +25,28 @@ changes:
          497f134a912af5594a519eb1d226a13f54cb9fa5 Fixes for avs driver
          
 
---===============0624470180429881653==
+--===============2951967385481790031==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1673623543 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1673623542-c4fd69ec257cb1c8f964d97e77713014906b4f1d
+pusher C3F436CA30F5D8EB 1673623549 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1673623549-94350c5c5cb280f2af7885686a3f74eede0cebfc
 
-8f28299f5cdcc6e7b6ed664364d1c76821896d07 497f134a912af5594a519eb1d226a13f54cb9fa5 refs/heads/for-6.3
+8f28299f5cdcc6e7b6ed664364d1c76821896d07 497f134a912af5594a519eb1d226a13f54cb9fa5 refs/heads/asoc-6.3
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmPBd/cACgkQJNaLcl1U
-h9A1cQf/SsNwiwRrt/Sz9879d4vafQeXRx3OIJ/hlZUi9G04Vitow0/EPDetFGbd
-7vz3cloZb7VV7rjPW+m6zES52LL63vta5qtt267IuaYGyd5Uig3q2aZsYCNXC08p
-QDJ5iPj1RyT0qLhpvRjNx33drsxUQV+9LY6bRAT620Epr8fd0DO36kppqGSLyIU0
-6VkNegDHwG1Z9vWoeBowgaRHfNHZrPSpoFxu4h20oC2MHKgrE9i44Vnp1qsCY+Et
-OFCJU94rLPsHd35I2cEJU/Zm5ZBqXmWhay2hnzTV/CBXpQ1RdkniHlZQYced8lxX
-Huokfftk9z318kmJi3W36A+IBOc4mw==
-=QHvi
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmPBd/0ACgkQJNaLcl1U
+h9D81Af+Lof8d8+LHpaTZvyck3TQSrAFGIX/C/wHAp9i+csxe6q3Cftxfou0d1Yx
+SQtCQq/vTTD4CitCe9FFoZUemN2aelR+KnpYyq5xPYRwfMkky1nQuZeh7LuL4ov/
+Ehd0rMMzqlXugj3EBk1ApC2JBmm0r/ptMU3d1soo9sqysLk3N1OWf1i8SbbsTsgz
+VUV7zvXbm3TmBTs8fCwju891q4ajvGDRCtXttyZCVCCgUdyvP8agk9+YfpEXFhqU
+yGZ4Klk6K4dOHal/WS78NeXjTSF0rj66oqOQqOJYTGFPd2dFlOFwPq1t0vApmvcX
+MG0dWjDaOdVh4wphZLZAb/A4eqG60A==
+=W4Ni
 -----END PGP SIGNATURE-----
 
---===============0624470180429881653==--
+--===============2951967385481790031==--
