@@ -1,56 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============6495222111022258700=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Sat, 14 Jan 2023 16:46:39 -0000
-Message-Id: <167371479983.6140.10968809621721809049@gitolite.kernel.org>
-
---===============6495222111022258700==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Sat, 14 Jan 2023 16:53:15 -0000
+Message-Id: <167371519504.9743.8798389584887687385@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
   - ref: refs/heads/master
-    old: 47f92b634eaf44a7c4dbb9029d89c9fec5bd41ee
-    new: 930c06830d8bd16e5c17a5cb88ff0d5f247f582d
+    old: 4f43ade45dc57fc3b4a5cb598a6f4916dcc418ba
+    new: 7c698440524117dca7534592db0e7f465ae4d0bb
     log: |
-         930c06830d8bd16e5c17a5cb88ff0d5f247f582d 6.1-stable patches
+         ac9c5e92dd15b9927e7355ccf79df76a58b44344 iommu/arm-smmu: Report IOMMU_CAP_CACHE_COHERENCY even betterer
+         ce31e6ca68bd7639bd3e5ef97be215031842bbab iommu/arm-smmu: Don't unregister on shutdown
+         32ea2c57dc216b6ad8125fa680d31daa5d421c95 iommu/arm-smmu-v3: Don't unregister on shutdown
+         a6a9a5da68084d5eac6ef85ad09df7fc9c971de4 iommu: Fix refcount leak in iommu_device_claim_dma_owner
+         dcdb3ba7e2a8caae7bfefd603bc22fd0ce9a389c iommu/iova: Fix alloc iova overflows issue
+         142e821f68cf5da79ce722cb9c1323afae30e185 iommu/mediatek-v1: Fix an error handling path in mtk_iommu_v1_probe()
+         7c698440524117dca7534592db0e7f465ae4d0bb Merge tag 'iommu-fixes-v6.2-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/joro/iommu
          
-
---===============6495222111022258700==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1673714799 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1673714792-482e40701a3a25c4628f503815189b685df4450d
-
-47f92b634eaf44a7c4dbb9029d89c9fec5bd41ee 930c06830d8bd16e5c17a5cb88ff0d5f247f582d refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPC3G8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Fa8P/0CxorGyAVnBA+pa6/QH
-isTpS7ja7X5NuSU6xp72GihyCh8M6AUQM2fMEG2mFfEJ3qFiglQ7yG/q5Lm+YIos
-nvJKkuyDp+jlx/+BXVKyYnvnbp0Mo8SjFVlWoY+XxCDeH/1JOnTKOqOYcC5IoQZK
-FRA5UFz68roMwykLw9yoPIjZpuvMHRBK022gLfMbFnYXNurZ0iAtPacIqM1a4VnO
-wZxe8Ul6//opab6HuVPmcMUogq+ELSeorMJzkik/tbSLvStkXH9dBAnTVSbngS9e
-ukCQ7uaqUn55uydJ9F3oafSJNDXeqNohU6riFbiryKuyTZ6Bxbyl+rHPu7YEsO+N
-ojWnvYZTuizOgBhTk1psfVcEUU9WHVWhLwCWdqL8FK2NqGi8Fvn60wDGtCzBqxm3
-gv3dFTsSwjdNHX//tNkc6fr2lOahMHra4wuwsCN9NzJ+s89liNvxalqSpW0MUvkQ
-z1e21W7zhxtuxoM+XoBbcv5LUBpBL248hvnSdEKsXdbhrNCv/6Hg642XhXM6gU45
-zWsMlqQ/9I81BzTVnptJLulKxiT+MLYsS1C+0EkIIOr8ZT+Kker+rPMQ6UNE7HO5
-zYXW7n5pgPtCZy4l0KKQgpGgMuolxKgy/HK7VE8hFhmwgLzjF8NspVoqZSyxiJSq
-7ytJ9BEM2mrPiacSzqL09634
-=9caB
------END PGP SIGNATURE-----
-
---===============6495222111022258700==--
