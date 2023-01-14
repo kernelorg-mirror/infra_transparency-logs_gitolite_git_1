@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2444899605035421407=="
+Content-Type: multipart/mixed; boundary="===============7791371070751271796=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Sat, 14 Jan 2023 03:03:51 -0000
-Message-Id: <167366543114.7370.14282566310677631827@gitolite.kernel.org>
+Date: Sat, 14 Jan 2023 03:04:05 -0000
+Message-Id: <167366544559.7525.12753482924760484641@gitolite.kernel.org>
 
---===============2444899605035421407==
+--===============7791371070751271796==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-staging
-    old: 38d6cbb30f97434226837ae6fd94e75ef0bef8c5
-    new: d7cf7d8ef05df30b150be62ff8e5634e66e13999
-    log: revlist-38d6cbb30f97-d7cf7d8ef05d.txt
+  - ref: refs/heads/6.3/scsi-staging
+    old: 201e0a7c7f36ccb70b532e04ea2f48031f219e74
+    new: b3e92764f1ef91457537cdb91ec00264c7a95f5b
+    log: revlist-201e0a7c7f36-b3e92764f1ef.txt
 
---===============2444899605035421407==
+--===============7791371070751271796==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1673665419 -0500
+pusher 75C5DE3D 1673665434 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1673665418-09bf47636876f4342c621d8132f496dc5ec49d8b
+nonce 1673665434-c6d60cc8f14c0a8c2fd6f75549068402a75200d7
 
-38d6cbb30f97434226837ae6fd94e75ef0bef8c5 d7cf7d8ef05df30b150be62ff8e5634e66e13999 refs/tags/mkp-scsi-staging
+201e0a7c7f36ccb70b532e04ea2f48031f219e74 b3e92764f1ef91457537cdb91ec00264c7a95f5b refs/heads/6.3/scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmPCG4sACgkQ7ulgGnXF
-3j2k3A//YIySzKid20LyVW2Wy+6dWztBJCNi6fy/6bOe0JpPdpYRSEg7q3toXC4K
-+V8gtPuZ/RIjJzwP+r5YfR0VBYEtrs0FDhoM+X65/i6RYQftNe0sF8R/A4/hhYyM
-1joWy3qKwdtw7MNnZQ2JrjGX6BKj28MX2G9X78fpmHJ9EiqgtsnX7QONJoz8fv8D
-F0fQ9F5ZUgWI4rWpFmhDz9p0jQTgRK7GfhRhKre+BZgeMCJ2DKbSfoUGFtU9ccpe
-lK+6Lgpr85oEbZPgweCZK1M6iqn1t3/4qDkDE1WAI/N6jJ8G01QHq7L+ubO0u3Dt
-lSx6RYoVgukou1BgCxqFO129cUu8ut/GuOfJJ+q2utY20YtPBuChH12rpH/8m4sC
-swETEuZCdxT9z5E4rWQm8IkDtR4sKLw3j03CD2k1BQJes7xuI8TxRKdQDFlecxc8
-PckwkzSVJkkG2GRAPFJWKDJIKUyHxvtEkarLcvSXiQHi7yeD4HYOWuL39r8E7XGy
-GF3hlUZP+5wre1Mc81viuZOObYTGDqbpOCsto0ORQl7ZUHbmFnbbYDbJtd7XOQM5
-XIKzWFXpPx9akw35163qSuRk7Svt4wlPlnKRSrJgDsp1Bli510Lv7GbdW0S7gTXS
-aoC7E0Mpm9IJPnIvMzed5ytLbb6U5N4lw8hHpkHGC/Wk+iMzoV0=
-=OSm7
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmPCG5oACgkQ7ulgGnXF
+3j3Rrw/9HyFGY11Ixs0XJegg9H1EICLP2Bb0TCbzCq2q7il125rS5pGh38idz8TM
+O/4wUMc7+T7PXLFdWSGakNgzarPg9utLZz7XBTWhFXr4UVcz0COUHvevZIE95u7V
+GZafcQQxBnpxmqWcxwu1b0lpAade8aUXFqr+tQM0mTYu0e6X64T/tvPFe/zMATir
+ky8GcYaXcjAuai3pO8HSzz5kMp3Pxmxjg4+tNFfc6MDfc8m+81o+P9T6jZz1XE7s
++GJr1jgCyQrEavLKiGl9Zisnp7jJWl3gFUdyoUNJav3EJYg9EK+uEPY6IiugSNsL
+pCYz2KooW+O0eEd39z01z9JRV/CTRqmht71nkQv7EWGaEbLrJAqRVBNCO+M6p8Rc
+gqrvn48JTnuDEDUXqr0guKaq1ziBgzhJGq6YiUeCVTgA+UmyPjlrf4/UtxlmyHK4
+1+1C4Mv5ZZLi8CiuKbI0lSC3NFRLIdgMLl3pFwDdIL1OpuHNoDPbibXKo33OnJEA
+NTaRT6C+BKDD9bHcAImZNhZ4Jwdqr7hQMasjdBAH3qSfrchsc9UybZbkcV6nnmIg
+xS1lTBKRZLW3fltMjLFQAHlT+CJeEF0HidTb/VjRpjTszNjRfu/x0aLq7MbTh4OZ
+Uqo4m5apMGWsBkoZyndTvY+rfaVCx9qcksWgODZYiIehZJBjt0k=
+=LbM2
 -----END PGP SIGNATURE-----
 
---===============2444899605035421407==
+--===============7791371070751271796==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-38d6cbb30f97-d7cf7d8ef05d.txt
+Content-Disposition: attachment; filename=revlist-201e0a7c7f36-b3e92764f1ef.txt
 
 64b6deadc938b37717aa1338715cb7ef5e7d444c scsi: uapi: Replace 0-length array with flexible array
 6e1d850acff9477ae4c18a73c19ef52841ac2010 scsi: ufs: core: Probe for EXT_IID support
@@ -94,4 +94,4 @@ e335795f27d0ab5260e4681f14be8f8c915ac1a7 scsi: target: target_core_pscsi: Conver
 02c91f929924320f823ec158180904255e9f69f2 scsi: core: Remove scsi_execute_req()/scsi_execute() functions
 b3e92764f1ef91457537cdb91ec00264c7a95f5b Merge patch series "scsi: Add struct for args to execution functions"
 
---===============2444899605035421407==--
+--===============7791371070751271796==--
