@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5912199738934297534=="
+Content-Type: multipart/mixed; boundary="===============3396340474264392913=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Sat, 14 Jan 2023 13:50:12 -0000
-Message-Id: <167370421235.20199.16000251798584897758@gitolite.kernel.org>
+Date: Sat, 14 Jan 2023 13:50:28 -0000
+Message-Id: <167370422850.20369.3429457559107691398@gitolite.kernel.org>
 
---===============5912199738934297534==
+--===============3396340474264392913==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jejb/scsi
 user: jejb
 changes:
-  - ref: refs/heads/misc
-    old: 2d95c6deb64dfb1496bd202aaffdbdb4b420a196
-    new: 201e0a7c7f36ccb70b532e04ea2f48031f219e74
-    log: revlist-2d95c6deb64d-201e0a7c7f36.txt
+  - ref: refs/heads/for-next
+    old: e7c055b78928939f91ac1cbd408737d644d56286
+    new: 4be502c27dba8c0d451e550f71fab8e6061c78c3
+    log: revlist-e7c055b78928-4be502c27dba.txt
 
---===============5912199738934297534==
+--===============3396340474264392913==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2d95c6deb64d-201e0a7c7f36.txt
+Content-Disposition: attachment; filename=revlist-e7c055b78928-4be502c27dba.txt
 
 aa67971b2736e1eb0e09bb71212f4ccd536b0a63 scsi: ufs: dt-bindings: Add document for Unisoc UFS host controller
 df7320bac37e837f43883a51ce879c07c4429180 scsi: ufs: ufs-unisoc: Add support for Unisoc UFS host controller
@@ -85,5 +85,8 @@ f1d2337d3e58955ecbbf392ba09fabb3e72db945 scsi: lpfc: Reinitialize internal VMID 
 dae0bb3e1ab8a67771213f5526deb238b15a736b Merge patch series "lpfc: Update lpfc to revision 14.2.0.10"
 45b379f20bc0fecccad63c25bfe28d75d6bc5b0d scsi: 3w-sas: Replace 1-element arrays with flexible array members
 201e0a7c7f36ccb70b532e04ea2f48031f219e74 scsi: mvumi: Replace 1-element arrays with flexible array members
+84ed64b1a7a7fcd507598dee7708c1f225123711 scsi: target: core: Fix warning on RT kernels
+78e73592b60bee3dd19f202728ca850b46e8b0de Merge branch 'misc' into for-next
+4be502c27dba8c0d451e550f71fab8e6061c78c3 Merge branch 'fixes' into for-next
 
---===============5912199738934297534==--
+--===============3396340474264392913==--
