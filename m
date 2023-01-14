@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
-Date: Sat, 14 Jan 2023 04:40:32 -0000
-Message-Id: <167367123210.7823.10108294988605725260@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Sat, 14 Jan 2023 04:54:40 -0000
+Message-Id: <167367208089.16516.16259878497701181340@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs
-user: xiang
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/dev-test
-    old: c7f2c5ea351f1dd4dcb5746c244a48b2d253661c
-    new: 04ea2912f0bd45b3c16d9cf1d93d3cc203003c85
+  - ref: refs/heads/master
+    old: ea22f4319c3409d847d70eaaf149cc480a73220d
+    new: 4bb4db7f3187c6e3de6b229ffc87cdb30a2d22b6
     log: |
-         77dfc5a8b55f99c4639a1e97e63d84a750888263 erofs: clean up erofs_iget()
-         04ea2912f0bd45b3c16d9cf1d93d3cc203003c85 erofs: remove linux/buffer_head.h dependency
+         4bb4db7f3187c6e3de6b229ffc87cdb30a2d22b6 net: nfc: Fix use-after-free in local_cleanup()
          
