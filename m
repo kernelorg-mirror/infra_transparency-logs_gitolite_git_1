@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============2097086672578490930=="
+Content-Type: multipart/mixed; boundary="===============6840035400675852099=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
-Date: Sun, 15 Jan 2023 10:18:22 -0000
-Message-Id: <167377790291.25435.17153676988129855132@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Sun, 15 Jan 2023 10:23:55 -0000
+Message-Id: <167377823546.28671.9894758418894925884@gitolite.kernel.org>
 
---===============2097086672578490930==
+--===============6840035400675852099==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mellanox/linux
+repo: pub/scm/linux/kernel/git/rdma/rdma
 user: leon
 changes:
-  - ref: refs/heads/mlx5-next
-    old: 1b929c02afd37871d5afb9d498426f83432e71c2
-    new: 9b2e3723728efe03433be5c13b31da451d88ee3d
-    log: revlist-1b929c02afd3-9b2e3723728e.txt
+  - ref: refs/heads/wip/leon-for-next
+    old: 1ec82317a1daac78c04b0c15af89018ccf9fa2b7
+    new: 8067fd8b26bf5d5f9917e934d878e4f3794d082e
+    log: revlist-1ec82317a1da-8067fd8b26bf.txt
 
---===============2097086672578490930==
+--===============6840035400675852099==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1b929c02afd3-9b2e3723728e.txt
+Content-Disposition: attachment; filename=revlist-1ec82317a1da-8067fd8b26bf.txt
 
 1c0908d8e441631f5b8ba433523cf39339ee2ba0 rtmutex: Add acquire semantics for rtmutex lock acquisition slow path
 f728a5ea27c92133893590e731ce10f6561ced87 dma-buf: fix dma_buf_export init order v2
@@ -464,6 +464,10 @@ f18fca98ac1622220dfdf795fefa91dc52d3707d Merge tag '6.2-rc2-smb3-client-fixes' o
 e9ffbf16caa6cb596df7fd641bc6063a922c52e6 Merge tag 'fixes-2023-01-08' of git://git.kernel.org/pub/scm/linux/kernel/git/rppt/memblock
 93928d485d9df12be724cbdf1caa7d197b65001e Merge tag 'powerpc-6.2-2' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
 b7bfaa761d760e72a969d116517eaa12e404c262 Linux 6.2-rc3
+ccdbefcf661e537a3126719f4f11484cd85404d7 RDMA/cxgb4: Replace 0-length arrays with flexible arrays
 9b2e3723728efe03433be5c13b31da451d88ee3d net/mlx5: Introduce CQE error syndrome
+1ca49d26afc2609542be4a57e336191b525ca698 Merge branch 'mlx5-next' into HEAD
+312b8f79eb05479628ee71357749815b2eeeeea8 RDMA/mlx: Calling qp event handler in workqueue context
+8067fd8b26bf5d5f9917e934d878e4f3794d082e RDMA/mlx5: Print error syndrome in case of fatal QP errors
 
---===============2097086672578490930==--
+--===============6840035400675852099==--
