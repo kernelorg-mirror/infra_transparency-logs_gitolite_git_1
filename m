@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pinchartl/linux
-Date: Sun, 15 Jan 2023 15:31:35 -0000
-Message-Id: <167379669506.5519.6589177113086532804@gitolite.kernel.org>
+Date: Sun, 15 Jan 2023 15:32:52 -0000
+Message-Id: <167379677240.5963.15069719990568726066@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/pinchartl/linux
 user: pinchartl
 changes:
-  - ref: refs/tags/media-misc-next-20230115
-    old: 6ce4d10ba9b09090a22870006fbcbb450f51e87b
-    new: c57a401df72d8f392f22dc4dab8983c129642483
+  - ref: refs/heads/next/media/misc
+    old: 02f3d96c816b2482a08165a286383db3d2c46581
+    new: d1c36bbb42d23742c1b17799749f637ed11ee98e
     log: |
          189c15bf8cf7e83a7997338c261077f6db5e5eb7 media: mc: entity: Fix doc for media_graph_walk_init
          ab2880f24e948fc10245f12f01ddaa6c214f07ac dt-bindings: media: imx7-csi: Document i.MX8M power-domains property
