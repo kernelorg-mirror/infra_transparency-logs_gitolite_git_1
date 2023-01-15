@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9044547780601018827=="
+Content-Type: multipart/mixed; boundary="===============8846029282265662691=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Sun, 15 Jan 2023 20:36:49 -0000
-Message-Id: <167381500934.9941.17148311767899078099@gitolite.kernel.org>
+Date: Sun, 15 Jan 2023 20:36:58 -0000
+Message-Id: <167381501815.10057.5441938671187617381@gitolite.kernel.org>
 
---===============9044547780601018827==
+--===============8846029282265662691==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: 1bc55ff8b47d90556ab406c82135f5eb0da931ce
-    new: c8a567e12e9205f360f5f33dbf94cef6ad184ca4
-    log: revlist-1bc55ff8b47d-c8a567e12e92.txt
+  - ref: refs/heads/m68k-queue
+    old: f488b4aea071aa64003c3f1888190ae88f647749
+    new: 79f38d14726bfe087eec464ff3a335b38f7c0cf1
+    log: revlist-f488b4aea071-79f38d14726b.txt
 
---===============9044547780601018827==
+--===============8846029282265662691==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-1bc55ff8b47d-c8a567e12e92.txt
+Content-Disposition: attachment; filename=revlist-f488b4aea071-79f38d14726b.txt
 
 06e472acf964649a58b7de35fc9cdc3151acb970 scsi: mpt3sas: Remove usage of dma_get_required_mask() API
 d347a951906b506c485ee9ffb76fe473b41f3e10 scsi: mpi3mr: Remove usage of dma_get_required_mask() API
@@ -416,6 +416,8 @@ b1d63f0c777b6df1ab53c5597d5fc25753f52f07 Merge tag 'powerpc-6.2-3' of git://git.
 8aa9761223af6a075f9904d035b57cef9b26aaab Merge tag 'edac_urgent_for_v6.2_rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/ras/ras
 f0f70ddb8f3bdbe670b1fab07271dd772e54c341 Merge tag 'x86_urgent_for_v6.2_rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 5dc4c995db9eb45f6373a956eb1f69460e69e6d4 Linux 6.2-rc4
-c8a567e12e9205f360f5f33dbf94cef6ad184ca4 Merge tag 'v6.2-rc4'
+7cb6a7854e8db7713820f8b89126165305982ad7 m68k: atari: usb: Add ISP1160 USB host controller support
+49274a211d836a2a905215a5fcdf7fad4b09394b m68k: atari: Update Kconfig.bus help text
+79f38d14726bfe087eec464ff3a335b38f7c0cf1 m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============9044547780601018827==--
+--===============8846029282265662691==--
