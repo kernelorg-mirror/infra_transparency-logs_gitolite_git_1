@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/westeri/thunderbolt
-Date: Mon, 16 Jan 2023 09:09:37 -0000
-Message-Id: <167386017740.23767.1076058333639686030@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/lpieralisi/pci
+Date: Mon, 16 Jan 2023 09:09:54 -0000
+Message-Id: <167386019476.23950.12547472132027116328@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/westeri/thunderbolt
-user: westeri
+repo: pub/scm/linux/kernel/git/lpieralisi/pci
+user: lpieralisi
 changes:
-  - ref: refs/tags/v6.2-rc4
-    old: 0000000000000000000000000000000000000000
-    new: 9b4ccd95c99918fe8ad32bc136fa36eab55af10b
+  - ref: refs/heads/pci/qcom
+    old: 451a7247296b74bf7a5c264bc878a298a8ee8225
+    new: 6996d631fa330293dc769a2060f4c84ce7e6a42c
+    log: |
+         6996d631fa330293dc769a2060f4c84ce7e6a42c PCI: qcom: Fix host-init error handling
+         
