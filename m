@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-devel
-Date: Mon, 16 Jan 2023 09:39:09 -0000
-Message-Id: <167386194921.19514.2576257698477760790@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
+Date: Mon, 16 Jan 2023 09:41:51 -0000
+Message-Id: <167386211128.26584.982780256870821678@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/geert/renesas-devel
-user: geert
+repo: pub/scm/linux/kernel/git/vireshk/pm
+user: vireshk
 changes:
-  - ref: refs/tags/renesas-devel-2023-01-16-v6.2-rc4
-    old: 0000000000000000000000000000000000000000
-    new: d0a2603ad1311bbd15c3e23ac82be4245c074d27
-  - ref: refs/tags/v6.2-rc4
-    old: 0000000000000000000000000000000000000000
-    new: 9b4ccd95c99918fe8ad32bc136fa36eab55af10b
+  - ref: refs/heads/opp/linux-next
+    old: 67052d09900b77a42a17f642dd093acf1eade1ba
+    new: 93c697b41d14387a0c6e9ed32233ce2f7d61ca9b
+    log: |
+         93c697b41d14387a0c6e9ed32233ce2f7d61ca9b dt-bindings: opp: v2-qcom-level: Let qcom,opp-fuse-level be a 2-long array
+         
