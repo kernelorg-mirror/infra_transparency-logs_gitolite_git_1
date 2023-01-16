@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/devicetree/devicetree-rebasing
-Date: Mon, 16 Jan 2023 06:57:53 -0000
-Message-Id: <167385227304.3286.5733772634172835895@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+Date: Mon, 16 Jan 2023 07:15:21 -0000
+Message-Id: <167385332162.14884.5055720783861010825@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/devicetree/devicetree-rebasing
-user: ijc
+repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+user: jarkko
 changes:
-  - ref: refs/tags/v6.2-rc4-dts
-    old: 0000000000000000000000000000000000000000
-    new: 60ff326ecb1326337dee2993671a31bfaf3760c4
+  - ref: refs/heads/next
+    old: 170da8b705f3160b0750885ac2b1a9e7cc7d6541
+    new: a7464dee2b4ff579d03104b8ea58dadaeaa025b5
+    log: |
+         a7464dee2b4ff579d03104b8ea58dadaeaa025b5 tpm_crb: Add support for CRB devices based on Pluton
+         
