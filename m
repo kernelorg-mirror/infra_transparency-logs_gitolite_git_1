@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2501933387265563256=="
+Content-Type: multipart/mixed; boundary="===============4622995620033622301=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/xen/tip
-Date: Mon, 16 Jan 2023 07:53:11 -0000
-Message-Id: <167385559102.7159.4877566951971833002@gitolite.kernel.org>
+Date: Mon, 16 Jan 2023 07:54:05 -0000
+Message-Id: <167385564570.7471.3757069317521614010@gitolite.kernel.org>
 
---===============2501933387265563256==
+--===============4622995620033622301==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,20 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/xen/tip
 user: jgross
 changes:
-  - ref: refs/heads/master
-    old: 830b3c68c1fb1e9176028d02ef86f3cf76aa2476
+  - ref: refs/heads/linux-next
+    old: f57034cedeb6e00256313a2a6ee67f974d709b0b
     new: 5dc4c995db9eb45f6373a956eb1f69460e69e6d4
-    log: revlist-830b3c68c1fb-5dc4c995db9e.txt
+    log: revlist-f57034cedeb6-5dc4c995db9e.txt
 
---===============2501933387265563256==
+--===============4622995620033622301==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-830b3c68c1fb-5dc4c995db9e.txt
+Content-Disposition: attachment; filename=revlist-f57034cedeb6-5dc4c995db9e.txt
 
+31d35a02ad5b803354fe0727686fcbace7a343fe rxrpc: Fix the return value of rxrpc_new_incoming_call()
+98dbec0a0adc10d9441b6c29315406e275532eb3 Merge branch 'rxrpc-fixes'
+0e13e7b448005612972eae36c0f698c21d1e2f8a HID: logitech-hidpp: Guard FF init code against non-USB devices
 67c90d14018775556d5420382ace86521421f9ff HID: mcp2221: don't connect hidraw
 0ee29814c6be17a924761d3712eb8ad63cfe13ac HID: playstation: fix free of uninialized pointer for DS4 in Bluetooth.
 10073399cb5e389ab275bd1c9df4b486a2f0c9d4 net: microchip: vcap: Fix initialization of value and mask
@@ -821,9 +824,6 @@ e6db6f9398dadcbc06318a133d4c44a2d3844e61 io_uring/io-wq: only free worker if it 
 b7bfaa761d760e72a969d116517eaa12e404c262 Linux 6.2-rc3
 1fe4fd6f5cad346e598593af36caeadc4f5d4fa9 Merge tag 'xfs-6.2-fixes-2' of git://git.kernel.org/pub/scm/fs/xfs/xfs-linux
 49e4d04f0486117ac57a97890eb1db6d52bf82b3 block: Drop spurious might_sleep() from blk_put_queue()
-37c1785609833e626d344047a84e272b7879b2c3 x86/xen: Remove the unused function p2m_index()
-c0dccad87cf68fc6012aec7567e354353097ec1a hvc/xen: lock console list traversal
-f57034cedeb6e00256313a2a6ee67f974d709b0b xen/pvcalls: free active map buffer on pvcalls_front_free_map
 a5a36720c3f650f859f5e9535dd62d06f13f4f3b brcmfmac: Prefer DT board type over DMI board type
 60ea6f00c57dae5e7ba2c52ed407cb24fdb11ebe net: ipa: correct IPA v4.7 IMEM offset
 2ab6478d1266b522a0a6ce3697914d63529f9e7a mlxsw: spectrum_router: Replace 0-length array with flexible array
@@ -1051,4 +1051,4 @@ b1d63f0c777b6df1ab53c5597d5fc25753f52f07 Merge tag 'powerpc-6.2-3' of git://git.
 f0f70ddb8f3bdbe670b1fab07271dd772e54c341 Merge tag 'x86_urgent_for_v6.2_rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 5dc4c995db9eb45f6373a956eb1f69460e69e6d4 Linux 6.2-rc4
 
---===============2501933387265563256==--
+--===============4622995620033622301==--
