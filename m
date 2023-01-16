@@ -1,28 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Mon, 16 Jan 2023 04:50:03 -0000
-Message-Id: <167384460360.18024.773135983683876307@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/daeinki/drm-exynos
+Date: Mon, 16 Jan 2023 06:06:21 -0000
+Message-Id: <167384918144.1946.4838339343467648972@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/daeinki/drm-exynos
+user: daeinki
 changes:
-  - ref: refs/heads/block-6.2
-    old: ee16c404f9bd03c6e083f76d45be0b6a774c0d14
-    new: 216f764716f34fe68cedc7296ae2043a7727e640
+  - ref: refs/heads/exynos-drm-next
+    old: 03a0a1040895711e12c15ab28d4d1812928e171d
+    new: c1e64eb85d1ded8b9cf0490c80dc020b2d731100
     log: |
-         216f764716f34fe68cedc7296ae2043a7727e640 block, bfq: switch 'bfqg->ref' to use atomic refcount apis
-         
-  - ref: refs/heads/for-next
-    old: b0ebcbdf977b2d4d5489213b573f147213fd8b0f
-    new: 943f65122e2215a01fd658e637bc7682d9573710
-    log: |
-         b0907cadabcae6f1248f37a32a6e777f9ff6d4aa md: fix incorrect declaration about claim_rdev in md_import_device
-         ee16c404f9bd03c6e083f76d45be0b6a774c0d14 Merge branch 'md-fixes' of https://git.kernel.org/pub/scm/linux/kernel/git/song/md into block-6.2
-         216f764716f34fe68cedc7296ae2043a7727e640 block, bfq: switch 'bfqg->ref' to use atomic refcount apis
-         943f65122e2215a01fd658e637bc7682d9573710 Merge branch 'block-6.2' into for-next
+         d21f174b844de639e49a06130c7dfe7e69d5d0e0 drm: panel: Enable prepare_prev_first flag for samsung-s6e panels
+         c232b5a4bf267ac0db02a43ab5518afc1aebd5e9 drm/bridge: tc358764: Enable pre_enable_prev_first flag
+         c1e64eb85d1ded8b9cf0490c80dc020b2d731100 drm: exynos: dsi: Restore proper bridge chain order
          
