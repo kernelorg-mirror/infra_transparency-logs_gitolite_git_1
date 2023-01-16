@@ -1,25 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Mon, 16 Jan 2023 16:35:50 -0000
-Message-Id: <167388695095.15644.11456152472108784134@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Mon, 16 Jan 2023 16:36:04 -0000
+Message-Id: <167388696420.15791.15236420857813404269@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: jgg
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: hansg
 changes:
-  - ref: refs/heads/wip/jgg-for-rc
-    old: 1aefe5c177c1922119afb4ee443ddd6ac3140b37
-    new: 41f4a67e6d2488489039a1d78c289143641046d0
+  - ref: refs/heads/review-hans
+    old: fde5f74ccfc771941b018b5415fa9664426e10ad
+    new: c6a41c14a9691ff356b7d3e0d8da3f9afd4b72cc
     log: |
-         0afec5e9cea732cb47014655685a2a47fb180c31 RDMA/core: Fix ib block iterator counter overflow
-         0a0a6e80472c98947d73c3d13bcd7d101895f55d IB/hfi1: Reject a zero-length user expected buffer
-         ecf91551cdd2925ed6d9a9d99074fa5f67b90596 IB/hfi1: Reserve user expected TIDs
-         e0c4a422f5246abefbf7c178ef99a1f2dc3c5f62 IB/hfi1: Fix expected receive setup error exit issues
-         1c7edde1b5720ddb0aff5ca8c7f605a0f92526eb IB/hfi1: Immediately remove invalid memory from hardware
-         b3deec25847bda34e34d5d7be02f633caf000bd8 IB/hfi1: Remove user expected buffer invalidate race
-         41f4a67e6d2488489039a1d78c289143641046d0 lib/scatterlist: Fix to calculate the last_pg properly
+         160d3bc018a774498cec8b0c231cd34a877e41b7 platform/x86: acerhdf: Drop empty platform remove function
+         104ee4db984d7f856d1a3e4138ded56065d0de83 platform/x86: intel: oaktrail: Drop empty platform remove function
+         c6a41c14a9691ff356b7d3e0d8da3f9afd4b72cc platform/x86: intel: punit_ipc: Drop empty platform remove function
          
