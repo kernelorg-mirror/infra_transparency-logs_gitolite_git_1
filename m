@@ -1,56 +1,54 @@
-Content-Type: multipart/mixed; boundary="===============6216811343845455223=="
+Content-Type: multipart/mixed; boundary="===============1316820836645714458=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Mon, 16 Jan 2023 15:21:53 -0000
-Message-Id: <167388251314.29299.18091916727617724470@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless-next
+Date: Mon, 16 Jan 2023 15:22:22 -0000
+Message-Id: <167388254241.29520.17557366300395831049@gitolite.kernel.org>
 
---===============6216811343845455223==
+--===============1316820836645714458==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/wireless/wireless-next
+user: kvalo
 changes:
-  - ref: refs/heads/master
-    old: 4b3408580c34482b6355221faecf61c22fdb99b8
-    new: 5bbae6d792fe52982345f477f5c61c27d9b0fdda
-    log: |
-         5bbae6d792fe52982345f477f5c61c27d9b0fdda 5.4-stable patches
-         
+  - ref: refs/heads/main
+    old: d64c732dfc9edcd57feb693c23162117737e426b
+    new: a3edb20146f000dfd5aba1f17e2dc0f363ff9446
+    log: revlist-d64c732dfc9e-a3edb20146f0.txt
 
---===============6216811343845455223==
+--===============1316820836645714458==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-d64c732dfc9e-a3edb20146f0.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1673882511 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1673882508-62b346d8c331218e726c82cfc1452834634020d2
+660145d708be52f946a82e5b633c020f58f996de wifi: brcmfmac: ensure CLM version is null-terminated to prevent stack-out-of-bounds
+e20c9f656654f74c9234e6cd3231aed72f53d246 wifi: rtw89: Fix a typo in debug message
+f643d08642b82eeb9b9654399dd04657050f7c6f wifi: rtw89: coex: Remove le32 to CPU translator at firmware cycle report
+fab895b31982f8093afe807cb0a69805aaa97850 wifi: rtw89: coex: Rename BTC firmware cycle report by feature version
+202c3b5c276f3f7525d9baabea7e8896d300ceff wifi: rtw89: coex: Add v4 version firmware cycle report
+b02e3f5c344d62da86afbc6444638a9beb375f2e wifi: rtw89: coex: Change firmware control report to version separate
+0c06fd47335ab9bbcbca250267eb22227e98ffa4 wifi: rtw89: coex: Add v5 firmware control report
+891b6a3f9407965436136319ad81f03bbf97310d wifi: rtw89: coex: only read Bluetooth counter of report version 1 for RTL8852A
+3f625adc61a0f015c2ce982bc49a84e163094a0c wifi: rtw89: coex: Update WiFi role info H2C report
+4a0e218cc9c42d1903ade8b5a371dcf48cf918c5 wifi: rtw89: fix potential leak in rtw89_append_probe_req_ie()
+ed9e6166eb0984b718facb7ca59296098cc3aa64 wifi: rtw89: Add missing check for alloc_workqueue
+72f8b0461b4aa1b90248c36f3d2ea4a58074672e wifi: rtw89: coex: Add version code for Wi-Fi firmware coexistence control
+3d929f075d3bb6187ad73375f6aee7bcf0b51851 wifi: rtw89: coex: Change Wi-Fi Null data report to version separate
+2626ccefe615a1faa8fb6bfb07708089b103e428 wifi: rtw89: coex: Change firmware steps report to version separate
+2ce43be348502703cf173fc31ea45bfe5ff43f90 wifi: rtw89: coex: refactor debug log of slot list
+ae4e1adbb1be65cadde793239a39fa947a3ff828 wifi: rtw89: coex: Packet traffic arbitration hardware owner monitor
+447a3267cbed55963bcd146ddebc72429b630dbf wifi: rtw89: coex: Change RTL8852B use v1 TDMA policy
+fbc2caf19914371973f14b6ac7ef525c49e4b1f1 wifi: rtw89: coex: Change Wi-Fi role info related logic to version separate
+95dafeabe477d9692154e85140eda5124895ea4f wifi: rtw89: fix null vif pointer when get management frame date rate
+877287f971b145a3699ea8466333d48aff6204e5 wifi: rtw89: set the correct mac_id for management frames
+15423743ae840977fe269ff907e37e20fe1c14df wifi: rtw89: correct register definitions of digital CFO and spur elimination
+3aa83062c3ec64dd757554a00653cc2d42179f12 wifi: rtw89: 8852c: rfk: correct ADC clock settings
+7f495de6ae7d31f098970fb45a038c9f69b1bf75 wifi: rtw89: fix assignation of TX BD RAM table
+a3edb20146f000dfd5aba1f17e2dc0f363ff9446 wifi: rtw89: 8852b: fill the missing configuration about queue empty checking
 
-4b3408580c34482b6355221faecf61c22fdb99b8 5bbae6d792fe52982345f477f5c61c27d9b0fdda refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPFa48bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+jGcQAJp90zjXyPweSvQ/4uMq
-cE0Zm1JgBBhzsUgKlOeaO/yq/ctTmsWJyDgBjhzLlxCN0FydmhSgo2mPgvw+a5hh
-QVIGTwAv+mPjUo+5crgbFHtFqVUTytawZ7q2B/WMujsO5lI4c9ATRFmBPugO7Cki
-6yJQ2V+M+/OtslYRFPrpCYjMraEBrR+rSP/KypfP8+c3W/rVMUb+tBHcBBs73Cx8
-HxcCXcUoEGJZKzKzv8dSWlmWyqtpaRasVGUlHWRKianoaoHWVs2QPi1qHsN43RET
-9ZOs59YHFNqPk9ioj4WJFNJ67qwVycjyXoPkazAgSQnpHF82ltCsgHgHdXyEQaL7
-pxNFbEww0+lGxwYuie9lpTjb/ZDzHaZrBVsiwh1hhvsJ7F5Mbdu7wDMxGRB2/8p7
-G1f8tfq0UFyyCoHi+k/O4uzoFcKcrfp4iWfKcgq57nw6RTpW3yvouYeNz5+yD4lB
-PxfBKVsw35A9BmVPCb1UF3SV1l4dx6t4CGhwU6j/gh6Ts1cQF9UFsvKx38dCGfb4
-Cn5Ov4or0b2wHOEXics3cOAdIelFMZjJng01lTaZHGoonragnAwoyG8WrXwqmcGy
-vRuiMdxu1959gBZickGcE23wfixfZe2NBlWzE4d5P3QqfzgGiOXo5TGgNqE6rRW6
-F0IzSJRvInfzV6hfPTjjrg0g
-=X/vL
------END PGP SIGNATURE-----
-
---===============6216811343845455223==--
+--===============1316820836645714458==--
