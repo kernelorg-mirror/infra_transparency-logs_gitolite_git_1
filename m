@@ -1,23 +1,52 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/thermal/linux
-Date: Mon, 16 Jan 2023 21:43:49 -0000
-Message-Id: <167390542945.24020.3614916588962515211@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============9123200788146617076=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Mon, 16 Jan 2023 21:50:03 -0000
+Message-Id: <167390580377.30428.9955124410261782969@gitolite.kernel.org>
+
+--===============9123200788146617076==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/thermal/linux
-user: daniel.lezcano
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/thermal/linux-next
-    old: 0a6d1825cb5cbe46f2c065b45840119b7f5e8419
-    new: de8ef0ab026c3f1b52a5e0717ab1254c186dc7be
+  - ref: refs/heads/for-6.3/io_uring
+    old: 643a8487841988c1f36849cebeec8dd59ad682b2
+    new: 2c5c148670c650381bce849e164757ab6a2729be
     log: |
-         3091ff52c5bc4e0b3cb7bdfdeced3c1c7969c556 thermal/drivers/mtk_thermal: Fix kernel-doc function name
-         9dcbe60848b48fc8569b0b2c191d20e849e8f52b thermal/drivers/rockchip: Fix kernel-doc warnings
-         f338d6515a2bff3634cb3f101c0136ca887e12f3 thermal/drivers/uniphier: Use regular comment syntax
-         d147286f5a3598b24e4a854594115a6980e3cab2 dt-bindings: thermal: qcom-spmi-adc-tm5: add qcom,adc-tm7
-         de8ef0ab026c3f1b52a5e0717ab1254c186dc7be thermal/drivers/qcom: Remove duplicate set next trip point interrupt code
+         b48f4ef033089cf03c28bb09ae054dbfdf11635a io_uring: return back links tw run optimisation
+         41cc377f69cc1702d989c33eccbacd845d463c72 io_uring: don't export io_put_task()
+         ae96a39a7537ab49b9fb497e7c5e860ffc6fde72 io_uring: simplify fallback execution
+         4a26869e3c95ee20d03b178e413a619928a84d26 io_uring: optimise ctx flags layout
+         2c5c148670c650381bce849e164757ab6a2729be io_uring: refactor __io_req_complete_post
          
+  - ref: refs/heads/for-next
+    old: 04260608bf36a029c9b173e42ed41fe7ea836e53
+    new: 45883cfff2f1018943d8c41914b9e9fe768f69f0
+    log: revlist-04260608bf36-45883cfff2f1.txt
+
+--===============9123200788146617076==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-04260608bf36-45883cfff2f1.txt
+
+b0907cadabcae6f1248f37a32a6e777f9ff6d4aa md: fix incorrect declaration about claim_rdev in md_import_device
+ee16c404f9bd03c6e083f76d45be0b6a774c0d14 Merge branch 'md-fixes' of https://git.kernel.org/pub/scm/linux/kernel/git/song/md into block-6.2
+216f764716f34fe68cedc7296ae2043a7727e640 block, bfq: switch 'bfqg->ref' to use atomic refcount apis
+3e9900f3bd7ba30d60f82b162b70a1dffe4e8e24 pktcdvd: check for NULL returna fter calling bio_split_to_limits()
+c4170e244d1a71452abc658abc3ff2547ac5bbd1 block: don't allow multiple bios for IOCB_NOWAIT issue
+5910db4208b35c1f72eb820e1cf226fd53a1aa76 Merge branch 'block-6.2' into for-next
+b48f4ef033089cf03c28bb09ae054dbfdf11635a io_uring: return back links tw run optimisation
+41cc377f69cc1702d989c33eccbacd845d463c72 io_uring: don't export io_put_task()
+ae96a39a7537ab49b9fb497e7c5e860ffc6fde72 io_uring: simplify fallback execution
+4a26869e3c95ee20d03b178e413a619928a84d26 io_uring: optimise ctx flags layout
+2c5c148670c650381bce849e164757ab6a2729be io_uring: refactor __io_req_complete_post
+45883cfff2f1018943d8c41914b9e9fe768f69f0 Merge branch 'for-6.3/io_uring' into for-next
+
+--===============9123200788146617076==--
