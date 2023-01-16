@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/mm
-Date: Mon, 16 Jan 2023 23:24:13 -0000
-Message-Id: <167391145382.30675.10809319536762584763@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/fsverity/linux
+Date: Mon, 16 Jan 2023 23:40:27 -0000
+Message-Id: <167391242724.9255.3147013540806773203@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/mm
-user: akpm
+repo: pub/scm/fs/fsverity/linux
+user: ebiggers
 changes:
-  - ref: refs/tags/mm-hotfixes-stable-2023-01-16-15-23
-    old: 0000000000000000000000000000000000000000
-    new: 52442ba7bf218807cba2a0d3b04375d3d8fe3c77
+  - ref: refs/heads/for-current
+    old: 5dc4c995db9eb45f6373a956eb1f69460e69e6d4
+    new: ef7592e466ef7b2595fdfdfd23559a779f4b211a
+    log: |
+         ef7592e466ef7b2595fdfdfd23559a779f4b211a MAINTAINERS: update fsverity git repo, list, and patchwork
+         
