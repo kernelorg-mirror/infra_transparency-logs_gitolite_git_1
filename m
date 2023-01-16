@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Mon, 16 Jan 2023 18:50:03 -0000
-Message-Id: <167389500378.8183.10835703162356287346@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
+Date: Mon, 16 Jan 2023 19:20:55 -0000
+Message-Id: <167389685528.27855.5214689360129008518@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/conor/linux
+user: conor
 changes:
-  - ref: refs/heads/block-6.2
-    old: 74970392d1c7a5bc1d4251715b373f236d8bdfa9
-    new: c4170e244d1a71452abc658abc3ff2547ac5bbd1
-    log: |
-         c4170e244d1a71452abc658abc3ff2547ac5bbd1 block: don't allow multiple bios for IOCB_NOWAIT issue
-         
+  - ref: refs/heads/riscv-jh7110_pmu
+    old: 0000000000000000000000000000000000000000
+    new: ea9daf2590a7824533bf1d8adf26ea638b6e1cd2
