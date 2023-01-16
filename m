@@ -1,77 +1,45 @@
-Content-Type: multipart/mixed; boundary="===============3912301599435328211=="
+Content-Type: multipart/mixed; boundary="===============6083651925330458267=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-pinctrl
-Date: Mon, 16 Jan 2023 14:30:04 -0000
-Message-Id: <167387940432.25354.8694284830841141976@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
+Date: Mon, 16 Jan 2023 14:35:33 -0000
+Message-Id: <167387973319.28584.1597532324553174486@gitolite.kernel.org>
 
---===============3912301599435328211==
+--===============6083651925330458267==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/linusw/linux-pinctrl
-user: linusw
+repo: pub/scm/linux/kernel/git/cel/linux
+user: cel
 changes:
-  - ref: refs/heads/devel
-    old: 697550668be5c1edbd0a7347ecbe6769dc54ccc9
-    new: 6eea5a80d2ae9bc1df5664bcf7851306df96e9dc
-    log: revlist-697550668be5-6eea5a80d2ae.txt
-  - ref: refs/heads/fixes
-    old: 937e7a39068d806c1a951f19e38e1326be20f1b0
-    new: 31b62a98de42cf65d76e4dcfb571af067d27d83a
-    log: |
-         31b62a98de42cf65d76e4dcfb571af067d27d83a pinctrl: rockchip: fix reading pull type on rk3568
-         
-  - ref: refs/heads/for-next
-    old: 8f18c3f3e3ac73659929225820b2994af6cad17d
-    new: d20e767f7d62d11ce6609436ed95141bdb305660
-    log: revlist-8f18c3f3e3ac-d20e767f7d62.txt
+  - ref: refs/heads/topic-rpc-with-tls-upcall
+    old: ccc81e3e484cfa23e5a9f816897695351f4f87fd
+    new: f56075db43acf1bbe3188254843ba9acfe762582
+    log: revlist-ccc81e3e484c-f56075db43ac.txt
 
---===============3912301599435328211==
+--===============6083651925330458267==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-697550668be5-6eea5a80d2ae.txt
+Content-Disposition: attachment; filename=revlist-ccc81e3e484c-f56075db43ac.txt
 
-542c893caa7bc2e5263fe0a4e17d228f9b3d0acd pinctrl: sx150x: Convert to i2c's .probe_new()
-525792d1d22d2178ee8fad49eaa4b54e0dac76be pinctrl: ralink: rename variables which point out the pin group
-4e5410668af5475681793df2bb8c7d8dc6f9c327 dt-bindings: pinctrl: mt7620: add proper function muxing binding
-0c9a567651c3b5d433429da2c7d8e8406ddf1076 dt-bindings: pinctrl: mt7621: add proper function muxing binding
-b4ac84395820eaa0b99ec56816e53c9386ca8b38 dt-bindings: pinctrl: rt2880: add proper function muxing binding
-d648fd64e10d9d1609146d0c4e47b0f5988e2a2b dt-bindings: pinctrl: rt305x: add proper function muxing binding
-844bca60927f3aae6baafafb1edd218b624254a1 dt-bindings: pinctrl: rt3883: add proper function muxing binding
-03a13546c74d8b3df9baceef1a747d9585ac77a7 pinctrl: samsung: Do not mention legacy API in the code
-0da58037aefcdc024a2bdad7d94cdf28f044a816 pinctrl: mediatek: Remove duplicate assignment of of_gpio_n_cells
-a3fc976a2d68cb74ae4234314002e4e398e4c337 pinctrl: qcom: lpass-lpi: Remove duplicate assignment of of_gpio_n_cells
-ef4290e6bd99149d21c99bb4905c61f8c94a05ca pinctrl: sunplus: sppctl: Remove duplicate assignment of of_gpio_n_cells
-aeb3c200db418207ae9aa426bd128527cb688b66 pinctrl: digicolor: Remove duplicate assignment of of_gpio_n_cells
-083b0230e040c5857f8c0a76119e5997e449a35c pinctrl: digicolor: Use proper headers and drop OF dependency
-6eea5a80d2ae9bc1df5664bcf7851306df96e9dc pinctrl: nomadik: remove duplicate included header files
+7ce770536ff19aa8dd4c24631eac5875401141d3 net/tls: Add a netlink service to pass handshake parms to user space
+8f0b24f264bef1f99945e775fe40d1afbe6456aa net/tls: Remove support for SOL_TLSH socket options
+af7c42ce35d9de40f66108eed433a6d4ccb7ab58 NFS: Improvements for fs_context-related tracepoints
+0d9d4a90b4350a15ee65fa82db924cd6b405c162 SUNRPC: Plumb an API for setting transport layer security
+e3fed04d8c0582ed6c46864dbb403818c02f2f84 SUNRPC: Trace the rpc_create_args
+bc2eaf80efdb813718fcaa5868ae4b6ccf98d7bb SUNRPC: Refactor rpc_call_null_helper()
+e0e324aa0d6a7a618886333c9a18df3e9e10081a SUNRPC: Add RPC client support for the RPC_AUTH_TLS auth flavor
+1e58c515604ffab18b83f028902bb3905afad89b SUNRPC: Ignore data_ready callbacks during TLS handshakes
+2c6ab0e3dac64005cfe37310ee136e4894b5aa42 SUNRPC: Capture CMSG metadata on client-side receive
+d53c544e0df4852c5d3970badd8d51a82538c964 SUNRPC: Add a connect worker function for TLS
+957085fb1657339bf4ea0a6dcc1ccb75ac9a0fae SUNRPC: Add RPC-with-TLS support to xprtsock.c
+201bca19038f5787ed4579872fd570316e1ae68c SUNRPC: Add RPC-with-TLS tracepoints
+5baf6cbe2116d19f0c0529ecec8947e9c9bd395a NFS: Have struct nfs_client carry a TLS policy field
+b26c7250abfa8b0c2078d9948bfcfdffc8ad1284 NFS: Add an "xprtsec=" NFS mount option
+f56075db43acf1bbe3188254843ba9acfe762582 NFS: Add mount options that specify TLS-related files
 
---===============3912301599435328211==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8f18c3f3e3ac-d20e767f7d62.txt
-
-542c893caa7bc2e5263fe0a4e17d228f9b3d0acd pinctrl: sx150x: Convert to i2c's .probe_new()
-31b62a98de42cf65d76e4dcfb571af067d27d83a pinctrl: rockchip: fix reading pull type on rk3568
-525792d1d22d2178ee8fad49eaa4b54e0dac76be pinctrl: ralink: rename variables which point out the pin group
-4e5410668af5475681793df2bb8c7d8dc6f9c327 dt-bindings: pinctrl: mt7620: add proper function muxing binding
-0c9a567651c3b5d433429da2c7d8e8406ddf1076 dt-bindings: pinctrl: mt7621: add proper function muxing binding
-b4ac84395820eaa0b99ec56816e53c9386ca8b38 dt-bindings: pinctrl: rt2880: add proper function muxing binding
-d648fd64e10d9d1609146d0c4e47b0f5988e2a2b dt-bindings: pinctrl: rt305x: add proper function muxing binding
-844bca60927f3aae6baafafb1edd218b624254a1 dt-bindings: pinctrl: rt3883: add proper function muxing binding
-03a13546c74d8b3df9baceef1a747d9585ac77a7 pinctrl: samsung: Do not mention legacy API in the code
-0da58037aefcdc024a2bdad7d94cdf28f044a816 pinctrl: mediatek: Remove duplicate assignment of of_gpio_n_cells
-a3fc976a2d68cb74ae4234314002e4e398e4c337 pinctrl: qcom: lpass-lpi: Remove duplicate assignment of of_gpio_n_cells
-ef4290e6bd99149d21c99bb4905c61f8c94a05ca pinctrl: sunplus: sppctl: Remove duplicate assignment of of_gpio_n_cells
-aeb3c200db418207ae9aa426bd128527cb688b66 pinctrl: digicolor: Remove duplicate assignment of of_gpio_n_cells
-083b0230e040c5857f8c0a76119e5997e449a35c pinctrl: digicolor: Use proper headers and drop OF dependency
-6eea5a80d2ae9bc1df5664bcf7851306df96e9dc pinctrl: nomadik: remove duplicate included header files
-d20e767f7d62d11ce6609436ed95141bdb305660 Merge branch 'devel' into for-next
-
---===============3912301599435328211==--
+--===============6083651925330458267==--
