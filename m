@@ -1,46 +1,21 @@
-Content-Type: multipart/mixed; boundary="===============2077090793038404093=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/kernel/pgpkeys
-Date: Mon, 16 Jan 2023 17:37:37 -0000
-Message-Id: <167389065791.23473.3744563144355391981@gitolite.kernel.org>
-
---===============2077090793038404093==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
+Date: Mon, 16 Jan 2023 17:49:14 -0000
+Message-Id: <167389135492.31388.18132735807725579639@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/kernel/pgpkeys
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/axboe/liburing
+user: axboe
 changes:
   - ref: refs/heads/master
-    old: cc5ab0ae0c8c2833627521776d7a0c44ddce4a65
-    new: 2d700a58cffbbdcd74d5d25b03714ec2f493c498
+    old: 808b972006716090c18ee1305a23f2148ed97434
+    new: 849f5ba89b0d1ccf9d825160bf8560ad9901c48b
     log: |
-         2d700a58cffbbdcd74d5d25b03714ec2f493c498 Update 7B96E8162A8CF5D1 (Sebastian Andrzej Siewior)
+         cfd00c3bfe18452a06792b7269a59d269f62d637 tests: refactor poll-many.c
+         a2ab37070b9453e43a94b88878ec3a4d780a4ba6 tests: test DEFER_TASKRUN in poll-many
+         849f5ba89b0d1ccf9d825160bf8560ad9901c48b tests: lazy pollwq activation for disabled rings
          
-
---===============2077090793038404093==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher B6C41CE35664996C! 1673890657 -0500
-pushee gitolite.kernel.org:pub/scm/docs/kernel/pgpkeys
-nonce 1673890657-b45f49cf99e216a7de19e6c8b1cbfbae5cde6803
-
-cc5ab0ae0c8c2833627521776d7a0c44ddce4a65 2d700a58cffbbdcd74d5d25b03714ec2f493c498 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCY8WLYQAKCRC2xBzjVmSZ
-bEsGAP9QHrFPAZ2paumyEQIxCKyNHJQFMW8BY3ZOQvQiz4Xy1AEAga2dz6SOJGCF
-cr06b4BSSoMlvBssPqjPkIXGQKLKQQs=
-=BIjN
------END PGP SIGNATURE-----
-
---===============2077090793038404093==--
