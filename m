@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvalo/ath
-Date: Tue, 17 Jan 2023 12:29:28 -0000
-Message-Id: <167395856899.16241.11635527860447957520@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xen/tip
+Date: Tue, 17 Jan 2023 12:32:27 -0000
+Message-Id: <167395874721.18796.11950363635989475716@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvalo/ath
-user: kvalo
+repo: pub/scm/linux/kernel/git/xen/tip
+user: jgross
 changes:
-  - ref: refs/heads/master
-    old: e530c5a1b1e91a92d36ce470f02fbc5edf3e9f7e
-    new: c02714e4c536679a7a989fbfd9c79d583a3eedbb
+  - ref: refs/heads/linux-next
+    old: 1aff0d2658e5a5217d3168e06a90fbb99fa63e80
+    new: b50fab54944f6f617fda3429694a55952eabd494
     log: |
-         c02714e4c536679a7a989fbfd9c79d583a3eedbb genirq/msi: Free the fwnode created by msi_create_device_irq_domain()
+         b50fab54944f6f617fda3429694a55952eabd494 x86/xen/time: prefer tsc as clocksource when it is invariant
          
