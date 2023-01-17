@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/atorgue/stm32
-Date: Tue, 17 Jan 2023 14:16:40 -0000
-Message-Id: <167396500098.28005.8492490410630998226@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 17 Jan 2023 14:23:44 -0000
+Message-Id: <167396542477.31663.14275605173077554720@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/atorgue/stm32
-user: atorgue
+repo: pub/scm/linux/kernel/git/broonie/misc
+user: broonie
 changes:
-  - ref: refs/tags/stm32-dt-for-v6.2-fixes-1
+  - ref: refs/heads/b4/arm64-kselftest-ssve-za
     old: 0000000000000000000000000000000000000000
-    new: efe5d3870a7246b5cc9c42c2fcc477880fc695f7
+    new: 9644c0ab70fdd60e8a22a8e2d1969d008c05d3ab
