@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0556507731580396986=="
+Content-Type: multipart/mixed; boundary="===============2638360362180488337=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Tue, 17 Jan 2023 18:35:53 -0000
-Message-Id: <167398055388.8882.9340111028350337248@gitolite.kernel.org>
+Date: Tue, 17 Jan 2023 18:38:16 -0000
+Message-Id: <167398069699.9666.5620055884401230329@gitolite.kernel.org>
 
---===============0556507731580396986==
+--===============2638360362180488337==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,58 +17,67 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/staging-testing
-    old: 5877852e9f959483202cb2a7d55e7f5f13b76208
-    new: 001c773caf95a4e1c72a13d3f00b00f3638277ca
-    log: revlist-5877852e9f95-001c773caf95.txt
+    old: 001c773caf95a4e1c72a13d3f00b00f3638277ca
+    new: 0d4560530d0ec4094fa7c5ebbf123a8e15fdd554
+    log: revlist-001c773caf95-0d4560530d0e.txt
 
---===============0556507731580396986==
+--===============2638360362180488337==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1673980552 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1673980695 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1673980551-8ce43d78c770ac9be038b1dfeab69862f0dd8cc1
+nonce 1673980695-3b76793cc4441a6eebb3dcd001631072968fb4d6
 
-5877852e9f959483202cb2a7d55e7f5f13b76208 001c773caf95a4e1c72a13d3f00b00f3638277ca refs/heads/staging-testing
+001c773caf95a4e1c72a13d3f00b00f3638277ca 0d4560530d0ec4094fa7c5ebbf123a8e15fdd554 refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPG6ogbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+6lsP/1ny3wPJCtJ8xIfRv5wW
-uzRAdrotbXg7k+lrwwYFubrk9VbHYI9tTbX0Zbi0RAmKUxPDn7mu9u6UDb4a8+mD
-ch2/v5f3j41m2KHaWzzBdCtF2trE/Ey0PkFNzyC+62wzYnVAQwsvkIrXnjUCsKYM
-gvQOgr8Qm+sSVB7lJtODik2l1o8umJ4giLkF3DYFad6j/OrPD14zKoY1YxjpKUsr
-76jQ/zuojR44JUucSz4mmiVPwQbVahM9IoDYBy/PZI4L9gFynfCS+FMHR6MWDV9l
-TuAlYOdfha8eus01oATeLmQHdD3K3AiWs/SGbALD++cP2AowdkAwmoFyJT6JPRSG
-Ar5jlTWWakE3ts2NBYJHTbdOfQB9FqZ4vH2/6QhnDNP8DQJFBel+KBU7jHxF6ig3
-tEbETX7/Edw2YOGO+JQDks8svGpOK05Z4WwnMWpRviSlV/PCSF8GRcoRFHI/sjwU
-HLHHlw3ZiyBNMbC5eEGEMvTdEvK8Vnfy1m/dbH5t6T3YzfTCN+MI8H5K+FE22Xf0
-8lm0sLvM8O4E6WZ4uo7o8zDv0hzZvWYMFV296AdkHSR2TrF6/3OvW3CK9msCIG9A
-Aubp0jxW7R6R06TKw0bxhVIyZVElwHoJ400W66eS5/H3ghZjDJPQBT86Lph9PZJl
-8S5Y8J8MFrvOMfjwAUjIYu4u
-=axCN
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPG6xcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+sxAP/A1IwSPPlRKXLKCKlyFM
+zyLMSgzaW29FdK4I8kq99V3wCaWq/gciBhad7ZD+DQZe8FwKZEq6d5ec9NhPfmH/
+928Y4PpHw5YavaAGU18JHuhjBXXY2ul8xX9GwsFovNoWqKpF8EjF8W8oGshSfOET
+GTu5gGYMPqG0SlLBddrI9aDEqEn9RQc/3u9h6w9MUm0jYlbTe1nIp15sNPijpU84
+Rfc+2fLCqpSL+Cg/hPRRL3FSLuSgW5/zGG4TekXn/DdYbTsvQrEHoHPS/oH7lr57
+u9qu6UmOE7MuxhxhkgFLJ8WNpBQmMWJRfnzcb7AoRe+3fqMmringXbY0+4WV0woi
+COI7OgiDp5ims0RA7zCddoHeVhcgeJpQXJxNpTEwk1FeaweVu8mY4zzk+KWyOoNZ
+AltLV3vBC97dQ0+1PH1J3XUgRKoMcUzPEGqvLurWpRM7OdTPZz5FSRje23zcp2q1
+ijyZI7mvAAOSk0UtaMffNGrupVgjZUhCV8+9RANCXGiGEUNDXSaMRxjGnZJOxPRA
+Vhv59JOe0Pol33ETS22sTbf/ajM4WgQPGKVEsqoGJiYWoIsThRPfL6Zk4Xn3xt0V
+MyUEgFnGKg9c+QVYf7wru0h1FmkUQfCPasQ6BNVLvfyDEhuViRqu8UoHuGW8OCn7
+O/9putJR594HFSUzF2wPpu64
+=KM1y
 -----END PGP SIGNATURE-----
 
---===============0556507731580396986==
+--===============2638360362180488337==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5877852e9f95-001c773caf95.txt
+Content-Disposition: attachment; filename=revlist-001c773caf95-0d4560530d0e.txt
 
-1d0d77f4ec011d0a05d5a2a1189f3d4d89e2b402 staging: r8188eu: convert rtw_writeN() to common error logic
-2b9c7fbc1c0ff3318734e973d1a47d93ac596637 staging: r8188eu: beq_cnt is write-only
-b79601a0aa541862f2015f2727e12ed9ac82bbcb staging: r8188eu: bkq_cnt is write-only
-763f3eff5ed3764f79fbefa4626468f8f1d617a1 staging: r8188eu: viq_cnt is write-only
-e7b970cc375baf524744da2f0f59c85d8a4e88a1 staging: r8188eu: voq_cnt is write-only
-1511463d33b5f3022c5875a25156d666bf8920fe staging: r8188eu: replace switch with if
-f2355ab5652198ab9c156bfebb6a95986bd099bf staging: r8188eu: dir_dev is unused
-069e3f9441683996a802d49d6f29cf600c17116d staging: r8188eu: remove unused hal_xmit_handler define
-fe86c3a10ccb81824ccc39c4e3cc88cdebd65c88 staging: r8188eu: txirp_cnt is write-only
-851ae3c20867924b8a3e733e19eda006104a41ce staging: r8188eu: remove unused QSLT defines
-393669c761ebae0642917534fbc554a9891654fb staging: r8188eu: xmit_priv's vcs_type is not used
-eb67bf265162d62f22efe3a90021fc43a3c8b13f staging: r8188eu: xmit_priv's vcs is not used
-001c773caf95a4e1c72a13d3f00b00f3638277ca staging: r8188eu: xmit_priv's vcs_setting is not used
+47bdd807aee4c7e60ecf4e6bf5d324e0c5c57604 staging: r8188eu: refactor status handling in usb_write_port_complete
+7b42205e9d873babd9a29337db66045884677c9f staging: r8188eu: reformat usb_write_port_complete
+8db002ed48ae8d1821592f1c34d88a39294839b1 staging: r8188eu: remove unused function parameter
+f4f52873a1a8b40dcfbae5fd8c35e74cc6f46ae9 staging: r8188eu: always process urb status
+664f99fd544ff4de42172ff826081a8d2e2eff34 staging: r8188eu: remove NULL check for usb_kill_urb
+99438dab153ab619473e61d004aa52568a8bdb12 staging: r8188eu: remove struct io_priv
+b0f6b1142a6efa55806256f0ec7925f074370c15 staging: r8188eu: remove io function prototypes
+6d09e47364336c7b08eebabc6f70aaf29a70fa5f staging: r8188eu: remove ioreq function prototypes
+caf94fd29f34d59f66b7b97bf717e8dace00805b staging: r8188eu: remove async read function prototypes
+8009bbba023c4c4e5ed39a726c75d0e8b87be521 staging: r8188eu: remove async write function prototypes
+e9d8bca4dfa3f015fe5614da0e5806d4c82c5973 staging: r8188eu: remove struct io_queue
+6a7c91d459058f28ab9ca8b87d18244d459aa103 staging: r8188eu: remove attrib function prototypes
+7c1d57a4cb9b94e505045eaa50e876a7b61e9860 staging: r8188eu: remove rtw_write_scsi function prototype
+80235597699f53690bc8c1a9fa02be86d557fbe6 staging: r8188eu: remove dev_power_down function prototype
+0fff48ebe392d73e5e11a825e85a8a677446233e staging: r8188eu: remove struct reg_protocol_rd
+144d2abcd1acce3c8d852d3b79d342fa3163281a staging: r8188eu: remove struct reg_protocol_wt
+b51ea4652119da5c363c390064b52fd8e1313323 staging: r8188eu: remove interface handler prototypes
+e9d28e5d3ca389b44a5964c4f1c201b2ef8fdee3 staging: r8188eu: remove readmem and writemem prototypes
+9196c6c186f4fc669b72cf76858565e19a9e404a staging: r8188eu: remove IO defines
+944a7a7ab86aecf8f59be045f716dcdf3a273b1e staging: r8188eu: remove struct io_req
+3f7d87d4ecd7b75482b381ab035e72757f899f6b staging: r8188eu: remove usb buffer macros
+0d4560530d0ec4094fa7c5ebbf123a8e15fdd554 staging: r8188eu: pass struct adapter to usb_read
 
---===============0556507731580396986==--
+--===============2638360362180488337==--
