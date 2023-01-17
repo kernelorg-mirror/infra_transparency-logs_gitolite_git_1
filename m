@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5810888335606126470=="
+Content-Type: multipart/mixed; boundary="===============8151756177342822171=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Tue, 17 Jan 2023 21:20:47 -0000
-Message-Id: <167399044715.23797.15623183663935881791@gitolite.kernel.org>
+Date: Tue, 17 Jan 2023 21:21:27 -0000
+Message-Id: <167399048706.24105.1313309936311653354@gitolite.kernel.org>
 
---===============5810888335606126470==
+--===============8151756177342822171==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cel/linux
 user: cel
 changes:
-  - ref: refs/heads/nfsd-next
-    old: da45407efda631d35c429ed6dbca11fc7eb98931
-    new: af5e81dd7709d664aa3adbf7ffdf4030dbdf6823
-    log: revlist-da45407efda6-af5e81dd7709.txt
+  - ref: refs/heads/topic-rpcsec-gss-krb5-enhancements
+    old: f26137b5a6e5f1a69808ac8c9227740a984b5ced
+    new: 3f681aeac65cc78e50b0a7330ad6fe9eb715f164
+    log: revlist-f26137b5a6e5-3f681aeac65c.txt
 
---===============5810888335606126470==
+--===============8151756177342822171==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-da45407efda6-af5e81dd7709.txt
+Content-Disposition: attachment; filename=revlist-f26137b5a6e5-3f681aeac65c.txt
 
 eaf2213ba563b2d74a1f2c13a6b258273f689802 tomoyo: fix broken dependency on *.conf.default
 df4840c1b880136fea97a1d64724995778c2475f tomoyo: avoid unneeded creation of builtin-policy.h
@@ -133,5 +133,47 @@ d15d56ae0a8910f18dea29e17f6b8bf31523f104 nfsd: add some comments to nfsd_file_do
 2b04113b3836b4337e5053596d13c96bdb24803d nfsd: move reply cache initialization into nfsd startup
 1a30dd655cacd3fee212ef62d448433cbd1bd9be SUNRPC: Use per-CPU counters to tally server RPC counts
 af5e81dd7709d664aa3adbf7ffdf4030dbdf6823 SUNRPC: Replace pool stats with per-CPU variables
+4da847341428868e8fdf641cf034383b3847bc9b From: Chuck Lever <chuck.lever@oracle.com> Date: 2022-11-24 15:09:04 -0500
+aee6961a3975d5b7009408df2f68932644b892ad SUNRPC: Add header ifdefs to linux/sunrpc/gss_krb5.h
+f28240fcb7322d740883d9811cd5088f5b93c861 SUNRPC: Remove .blocksize field from struct gss_krb5_enctype
+dad27566400a81be5bd41a9aad6547586f3276ab SUNRPC: Remove .conflen field from struct gss_krb5_enctype
+7fe9d7598d52a5561c5a35da0bc628b900b9e3e7 SUNRPC: Improve Kerberos confounder generation
+335cbf379689913cacb5495a7985096ed058eebe SUNRPC: Obscure Kerberos session key
+618eae38cd357310f86dc690a464433efaad3dd5 SUNRPC: Refactor set-up for aux_cipher
+caec2ff0cad67435305ff17661098f51f114ffc3 SUNRPC: Obscure Kerberos encryption keys
+76b2cbe1f91882cda47789a3e97c7db6470b0750 SUNRPC: Obscure Kerberos signing keys
+28e44faf2adbbe8c5c822febb0c6568f9ebb8bf2 SUNRPC: Obscure Kerberos integrity keys
+d5ce559b836111944177e40f64b36e0e8f2a4d74 SUNRPC: Refactor the GSS-API Per Message calls in the Kerberos mechanism
+3865615a31cc2d3659a31784cbd88de2394912a6 SUNRPC: Remove another switch on ctx->enctype
+79e9a23a2ccee165d59773f2337f86326803c793 SUNRPC: Add /proc/net/rpc/gss_krb5_enctypes file
+44f48a05ecf0e328a3ac066e348d5a4033d7012f NFSD: Replace /proc/fs/nfsd/supported_krb5_enctypes with a symlink
+1e90962935e43bc6f64efefceb178931f0cd119c SUNRPC: Replace KRB5_SUPPORTED_ENCTYPES macro
+a0e6b037928e9c49e5665ebfe601de515e591f51 SUNRPC: Enable rpcsec_gss_krb5.ko to be built without CRYPTO_DES
+a089f945653d6eed70d298a65cc4b11816598e57 SUNRPC: Remove ->encrypt and ->decrypt methods from struct gss_krb5_enctype
+77b9cf6788b101e340894453e2f7b2b41840a0ba SUNRPC: Rename .encrypt_v2 and .decrypt_v2 methods
+41c0c5b7d4afd74117e88da8faaa7ff33f5b4b36 SUNRPC: Hoist KDF into struct gss_krb5_enctype
+5a93358b3361ab7b3c0b5085a05638dadaff7b77 SUNRPC: Clean up cipher set up for v1 encryption types
+45d8831527ea715faa7ee1f1cf65d433ac2786b6 SUNRPC: Parametrize the key length passed to context_v2_alloc_cipher()
+dba30d856cc163c7df8fd94e126bbc281e77a642 SUNRPC: Add new subkey length fields
+8d1bef19aaa34925087e98093b49784362be4a4a SUNRPC: Refactor CBC with CTS into helpers
+89128a3283b0e111f7753d23e2d2415628a33d7f SUNRPC: Add gk5e definitions for RFC 8009 encryption types
+7b9d2e75aca0d86777bb71dc6d32c60553529c44 SUNRPC: Add KDF-HMAC-SHA2
+37afdfca48c45c23c3275b0fd09c2b9d140577d5 SUNRPC: Add RFC 8009 encryption and decryption functions
+63c6a8dd5f31d186a220f82c4c8fd3bf75444208 SUNRPC: Advertise support for RFC 8009 encryption types
+be16d1a2f676f99f2bf9b4f4df1d9a82df6f9184 SUNRPC: Support the Camellia enctypes
+9954f0cd08f0c99db572b454bde8d3249033fd65 SUNRPC: Add KDF_FEEDBACK_CMAC
+778b1199a9fb552dcd1b3f7d6aee34b6c95dc6d2 SUNRPC: Advertise support for the Camellia encryption types
+e347fb46502b00369866319024ed6de069dd36b3 SUNRPC: Move remaining internal definitions to gss_krb5_internal.h
+d0a63f41276d6d292f61865c89618e8bd5c938ff SUNRPC: Add KUnit tests for rpcsec_krb5.ko
+2e43a49faad004fc0b2c450e75fd10f823a2e4cd SUNRPC: Export get_gss_krb5_enctype()
+9affed75988f358e7675558af9aff8bd79a6ffa3 SUNRPC: Add KUnit tests RFC 3961 Key Derivation
+bf9a5f0fc97b5df37cdf39353141ff7deb1a7a2a SUNRPC: Add Kunit tests for RFC 3962-defined encryption/decryption
+ed99fe3178e569a57831558d957032d208bc2b99 SUNRPC: Add KDF KUnit tests for the RFC 6803 encryption types
+76daa64035fcbc034a5ed343875ab0a776b1a8e4 SUNRPC: Add checksum KUnit tests for the RFC 6803 encryption types
+c2d15ed1905254b67291ca6f1ef10f2dbf28d47c SUNRPC: Add encryption KUnit tests for the RFC 6803 encryption types
+c715ca62f80c0860b93543fa8d0b2e155a1a8e8e SUNRPC: Add KDF-HMAC-SHA2 Kunit tests
+dcde4ed7cef0e066e01a05863f077ea26b5cc5d7 SUNRPC: Add RFC 8009 checksum KUnit tests
+c7278bfb7611a7f58b9f50319d52276199e615d2 SUNRPC: Add RFC 8009 encryption KUnit tests
+3f681aeac65cc78e50b0a7330ad6fe9eb715f164 SUNRPC: Add encryption self-tests
 
---===============5810888335606126470==--
+--===============8151756177342822171==--
