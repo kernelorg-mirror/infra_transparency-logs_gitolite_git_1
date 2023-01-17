@@ -1,22 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Tue, 17 Jan 2023 20:44:19 -0000
-Message-Id: <167398825975.27853.2158989302387547536@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Tue, 17 Jan 2023 21:16:18 -0000
+Message-Id: <167399017826.20511.17635057658424480181@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/robh/linux
-user: robh
+repo: pub/scm/linux/kernel/git/tip/tip
+user: bp
 changes:
-  - ref: refs/heads/dt/next
-    old: 8ffbaa98ccf82383c9092cf3afa4d8512e52e612
-    new: 7e38085d9c59b6d07c1986ea43d046d457dcf646
+  - ref: refs/heads/x86/cpu
+    old: e12ad468c22065a2826b2fc4c11d2113a7975301
+    new: eea6c7957ae7fa2bf90e44c91ef013176db69483
     log: |
-         323b8d0ddb92b189ed7561e8095a9aa43968d519 dt-binding: gpio: publish binding IDs under dual license
-         37483c2623650aad72619718a641b260ecfddb8b dt-bindings: clock: qcom,videocc: correct clocks per variant
-         fe7ce2983ba56ff482b5f275e72fb9af447fa2c8 dt-bindindgs: i2c: qcom,i2c-geni: document operating-points-v2
-         7e38085d9c59b6d07c1986ea43d046d457dcf646 dt-bindings: riscv: add SBI PMU event mappings
+         15fea09b029d43fd1f3069f5e957ce9dc282f052 x86/cpu, kvm: Add support for CPUID_80000021_EAX
+         dcf67f724b8ada6aa73b77733243024519c35a71 x86/cpu, kvm: Add the NO_NESTED_DATA_BP feature
+         b594d2036c8440cda5488009d93966ae8a50c3e4 x86/cpu, kvm: Move X86_FEATURE_LFENCE_RDTSC
+         b1366f515fd65fb83518fded6520894efa4e228f x86/cpu, kvm: Add the Null Selector Clears Base feature
+         b7059f21b1c1c4ca5966d16bd3d9fa45cee89a87 x86/cpu, kvm: Add the SMM_CTL MSR not present feature
+         116598cbdba664ba995658582034f966805877b5 x86/cpu: Support AMD Automatic IBRS
+         eea6c7957ae7fa2bf90e44c91ef013176db69483 x86/cpu, kvm: Propagate the AMD Automatic IBRS feature to the guest
          
