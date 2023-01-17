@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 17 Jan 2023 11:23:03 -0000
-Message-Id: <167395458382.4016.1729818088575788038@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/atorgue/stm32
+Date: Tue, 17 Jan 2023 11:23:58 -0000
+Message-Id: <167395463820.4365.322849812098557767@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: pabeni
+repo: pub/scm/linux/kernel/git/atorgue/stm32
+user: atorgue
 changes:
-  - ref: refs/heads/master
-    old: 7875c0189c0d19cb96f2002cb8da6ba447ccc700
-    new: 21cbd90a6fab7123905386985e3e4a80236b8714
+  - ref: refs/heads/stm32-next
+    old: d7af327f37940fbe41ac185e0deca52a8aa4c93f
+    new: 728c9466cc3e4ec5f7133e22e95648736e730857
     log: |
-         21cbd90a6fab7123905386985e3e4a80236b8714 inet: fix fast path in __inet_hash_connect()
+         91522bb92eae43c29fa6c1f371ba1a09eaea6738 ARM: dts: stm32: Fix User button on stm32mp135f-dk
+         728c9466cc3e4ec5f7133e22e95648736e730857 ARM: dts: stm32: Use new media bus type macros
          
