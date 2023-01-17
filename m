@@ -1,28 +1,75 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Tue, 17 Jan 2023 17:35:09 -0000
-Message-Id: <167397690967.31613.103560799347229285@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============2258592353076927263=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Tue, 17 Jan 2023 17:50:03 -0000
+Message-Id: <167397780365.9662.3003146982191704251@gitolite.kernel.org>
+
+--===============2258592353076927263==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/master
-    old: 6e50979a9c87371fdb85d16058f9b5cb40751501
-    new: c1649ec55708ae42091a2f1bca1ab49ecd722d55
+  - ref: refs/heads/block-6.2
+    old: 9d6033e350694a67885605674244d43c9559dc36
+    new: 7746564793978fe2f43b18a302b22dca0ad3a0e8
     log: |
-         eaf2213ba563b2d74a1f2c13a6b258273f689802 tomoyo: fix broken dependency on *.conf.default
-         df4840c1b880136fea97a1d64724995778c2475f tomoyo: avoid unneeded creation of builtin-policy.h
-         80f8be7af03ffe90dc4df998b16bfa212afbdde9 tomoyo: Omit use of bin2c
-         e6cf91b7b47ff82b624bdfe2fdcde32bb52e71dd NFSD: fix use-after-free in nfsd4_ssc_setup_dul()
-         f385f7d244134246f984975ed34cd75f77de479f NFSD: register/unregister of nfsd-client shrinker at nfsd startup/shutdown time
-         7c24fa225081f31bc6da6a355c1ba801889ab29a NFSD: replace delayed_work with work_struct for nfsd_client_shrinker
-         1ed8a46256771de283772d482403691807214cf7 tomoyo: Remove "select SRCU"
-         fa17087e244263627a01d6a9b76b8fdaf410de34 tomoyo: Update website link
-         2bbb0674c93f9373f12048786b4638b055243112 Merge tag 'tomoyo-pr-20230117' of git://git.osdn.net/gitroot/tomoyo/tomoyo-test1
-         c1649ec55708ae42091a2f1bca1ab49ecd722d55 Merge tag 'nfsd-6.2-4' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
+         7746564793978fe2f43b18a302b22dca0ad3a0e8 block: fix hctx checks for batch allocation
          
+  - ref: refs/heads/for-6.3/block
+    old: 8564135fe5b06f7eb2449b6280bae118396f3566
+    new: 803e2ec47623e5625dd3f5808c175b49f92da9d0
+    log: revlist-8564135fe5b0-803e2ec47623.txt
+  - ref: refs/heads/for-next
+    old: 8815faef5082b6ebaea422e8da7c88819285d8c8
+    new: 87f57b3de1be553139b246e856427de8a8d35302
+    log: revlist-8815faef5082-87f57b3de1be.txt
+
+--===============2258592353076927263==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-8564135fe5b0-803e2ec47623.txt
+
+d66a012deb6567dd127f38d068806adcfc3a5051 ublk_drv: remove nr_aborted_queues from ublk_device
+6faa01c8bf3ba4ba6eec95b3ce646a9af9473988 ublk_drv: don't probe partitions if the ubq daemon isn't trusted
+a5d140c503b6d17800911e2cd9070d5933b11a26 ublk_drv: move ublk_get_device_from_id into ublk_ctrl_uring_cmd
+620183fd3cda8ef7fa9dec07d81ce2551420af8e ublk_drv: add device parameter UBLK_PARAM_TYPE_DEVT
+961ccca54ad53c4945c4e36982eaff304c3c2624 ublk_drv: add module parameter of ublks_max for limiting max allowed ublk dev
+56f5160bc1b8d9756a5353f79bd00be989834c7d ublk_drv: add mechanism for supporting unprivileged ublk device
+988136a307157de9e6e9d27ee9f7ea24ee374f32 nvme: set REQ_ALLOC_CACHE for uring-passthru request
+934f178446b11f621ab52e83211ebf399896db47 block: extend bio-cache for non-polled requests
+ef0e0afd782eff20d4bd0c145c647fa01aa16bb1 block: remove superfluous check for request queue in bdev_is_zoned()
+3b1c494c4317777da0c5a96b002f954583611345 block: add a new helper bdev_{is_zone_start, offset_from_zone_start}
+803e2ec47623e5625dd3f5808c175b49f92da9d0 block: introduce bdev_zone_no helper
+
+--===============2258592353076927263==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-8815faef5082-87f57b3de1be.txt
+
+9d6033e350694a67885605674244d43c9559dc36 block/rnbd-clt: fix wrong max ID in ida_alloc_max
+7746564793978fe2f43b18a302b22dca0ad3a0e8 block: fix hctx checks for batch allocation
+d66a012deb6567dd127f38d068806adcfc3a5051 ublk_drv: remove nr_aborted_queues from ublk_device
+6faa01c8bf3ba4ba6eec95b3ce646a9af9473988 ublk_drv: don't probe partitions if the ubq daemon isn't trusted
+a5d140c503b6d17800911e2cd9070d5933b11a26 ublk_drv: move ublk_get_device_from_id into ublk_ctrl_uring_cmd
+620183fd3cda8ef7fa9dec07d81ce2551420af8e ublk_drv: add device parameter UBLK_PARAM_TYPE_DEVT
+961ccca54ad53c4945c4e36982eaff304c3c2624 ublk_drv: add module parameter of ublks_max for limiting max allowed ublk dev
+56f5160bc1b8d9756a5353f79bd00be989834c7d ublk_drv: add mechanism for supporting unprivileged ublk device
+91e9bb45adec3fc9bc68a715cd1a768352536489 Merge branch 'for-6.3/block' into for-next
+9c7aab91be5ff3feea53ed7d0c1f5495533c26b5 Merge branch 'block-6.2' into for-next
+988136a307157de9e6e9d27ee9f7ea24ee374f32 nvme: set REQ_ALLOC_CACHE for uring-passthru request
+934f178446b11f621ab52e83211ebf399896db47 block: extend bio-cache for non-polled requests
+4e3aa4eb22cbe1aa653ebb4a5897f5264858ad8a Merge branch 'for-6.3/block' into for-next
+ef0e0afd782eff20d4bd0c145c647fa01aa16bb1 block: remove superfluous check for request queue in bdev_is_zoned()
+3b1c494c4317777da0c5a96b002f954583611345 block: add a new helper bdev_{is_zone_start, offset_from_zone_start}
+803e2ec47623e5625dd3f5808c175b49f92da9d0 block: introduce bdev_zone_no helper
+87f57b3de1be553139b246e856427de8a8d35302 Merge branch 'for-6.3/block' into for-next
+
+--===============2258592353076927263==--
