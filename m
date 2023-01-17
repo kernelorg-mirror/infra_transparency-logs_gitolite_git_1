@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8597682812046492986=="
+Content-Type: multipart/mixed; boundary="===============1290566466843644215=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Tue, 17 Jan 2023 16:28:36 -0000
-Message-Id: <167397291627.18990.11320477029249621673@gitolite.kernel.org>
+Date: Tue, 17 Jan 2023 16:29:16 -0000
+Message-Id: <167397295652.19279.11590357634367196108@gitolite.kernel.org>
 
---===============8597682812046492986==
+--===============1290566466843644215==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,47 +17,42 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-testing
-    old: 4a0192c01e036b542d0f53ca2673a50b38f57d74
-    new: a30951d31b250bf3479c00e93646b6cc6fb42a56
+    old: a30951d31b250bf3479c00e93646b6cc6fb42a56
+    new: 6681e43f5095a64bc3e37822f64d91d284a062dc
     log: |
-         2648f68bd0ac9ec0e1e17d1e4420570b35e8f175 dt-bindings: usb: Add NVIDIA Tegra234 XUSB host controller binding
-         1b17df99730ab63b49848e61ef19d8ee583684c5 arm64: tegra: Enable XUSB host function on Jetson AGX Orin
-         71d9e899584e11bbd7eaf9934a619c69a15060d8 phy: tegra: xusb: Disable trk clk when not in use
-         d8163a32ca95c6e23cd449868ad12008569ac17a phy: tegra: xusb: Add Tegra234 support
-         ee0e40efc4d1bd87c795233c8ceadf4228479c06 usb: host: xhci-tegra: Add Tegra234 XHCI support
-         592338dde85411b1da74fa6b463e2a047c2545ab xhci: Add hub_control to xhci_driver_overrides
-         2cbe475fe733a70eda30049ee8edf06f296c9402 xhci: hub: export symbol on xhci_hub_control
-         a30951d31b250bf3479c00e93646b6cc6fb42a56 xhci: tegra: USB2 pad power controls
+         2476de8288cc552cbe98edf3f4d4cc2846cf4b8c usb: typec: Add retimer handle to port altmode
+         2c8cb236ed44d071ef2ed1fbb948eea404551788 usb: typec: Add wrapper for bus switch set code
+         6681e43f5095a64bc3e37822f64d91d284a062dc usb: typec: Make bus switch code retimer-aware
          
 
---===============8597682812046492986==
+--===============1290566466843644215==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1673972914 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1673972955 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1673972913-5c50baa2e7c7642e87c3c6abd3662f3674cb0255
+nonce 1673972954-5005af8ba1481fa2edd6a61264bd86483a9cf37a
 
-4a0192c01e036b542d0f53ca2673a50b38f57d74 a30951d31b250bf3479c00e93646b6cc6fb42a56 refs/heads/usb-testing
+a30951d31b250bf3479c00e93646b6cc6fb42a56 6681e43f5095a64bc3e37822f64d91d284a062dc refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPGzLIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+IqwQALVgFVrDvKNHUR55lW4F
-LAXbJqEjFu8erPKNAPyh9OAqMlls6HxNc3GsjfdexyWzxkNHJLdGERebY9trYuQc
-CFHUM7GCMQlPnn5byTtLXKan6/wliTIw11e/FQIKYpFGlIneMytTev7dxCdhzZno
-+P5gjKvkqDUn4QsGbejWtWUgOUZb+UFdg21kZ3kNLJjKWZRe836ow3lLn99HJkqf
-/wKF8Ks370DFuWWrkL+BPQG2od/fO6IgX7sBkIHgwcLl8qwFi0fxeXWK+rvg5hTE
-I0+ubRQBWW5g88PSbLoRKuMR+Lk72b12ZEzBiEfiVY/B4m6+0y4x4KiYCiaAAxzt
-YRFE/Mljrg/okz7MAnA7n/+PFH2q8Httehe+sZEQENcaQgphAWoU6gdOkLJSIM2Z
-kDb/s4VbA8dGiP7tIhnIuJs5odkGAqbYOp1kpuoiQN80ka75fqnEBu4+2kTcCVfz
-b0i0QqxUjIEh6UEKUXzHR3ID9jRLy4kUofIGK4F0jTDKJfsgrddvu0arHzegx1BU
-G3HmXYY6tXsoEBaNiPLUP21iD8wVc70W+E8nDEzzZtwk0CFCmuWd871jjeKNC8mT
-4dMMACjbdNAIqh2Llb6ai97UQ092eOT7pQVCZ5yihwTjmiVWiA6qDQI+exAcYLVT
-JHknrkvqrrs1AdpoNVCnNpGJ
-=2k0c
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPGzNsbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+hHYQAIzYRA70MigVbcJQqRiJ
+OZlijpNSKcThTGrjBjLWp4hh1o7EIiJfuNfRyfpHkiZLrkKeMe1O22Pet50kP5Od
+PXGbcOA0zAakRivcg2QdrChGcX8CGD4LinGBKCmML6XrGGeeHX2wy7wxQp4/K0b7
+Hik6KA1QEQNhy+7sSzUab9PhqEtOyKcBO3+/iSBual7df3NZo/TdC+I//J92kYwg
+2hNeI6XRQorImb2WkYYhCevCM8TcTJJW0cFTBdji9eULcRY9K7j6g8N/C4TjpRJP
+ZVzgBOXPQ7x19DmQmaRuo4mb/ZuCCtTFcA+0Ant2MWHYCc2MvkYMu9kRCCesTf2x
+PO8GUwwOfQSkIZl6ojXj5hwa3ZLh7+Se+Pia5N6IG2VgeSgbD2SKqETJt8LbqPno
+7yFGCROAXH3cp66V3cXcqYygt17H7h/dBX8mpwGTW7z5tysuOnR1Rv+sfQYT3ELZ
+oVIbtlijIsGXF4NAANvt2H48ecJHvdClEB3cUg1/5PpFDii9rrSmQip5NfSLSHEm
+yAK3olGXTLPCsiutLvk0K1JfFPD0wQbZH5juyXpxjEJeYtargdzXD1CvdYI+XXEY
+TNraYmOpLUzhne9BGWhRIp734NGAHPpWshddN0Oq8QYMze1EqcpBNzq9wcqxyIua
+LcAKLg4vZnT9qiJk4gT4CYc7
+=x8CG
 -----END PGP SIGNATURE-----
 
---===============8597682812046492986==--
+--===============1290566466843644215==--
