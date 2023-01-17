@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1290566466843644215=="
+Content-Type: multipart/mixed; boundary="===============1947103597148118566=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Tue, 17 Jan 2023 16:29:16 -0000
-Message-Id: <167397295652.19279.11590357634367196108@gitolite.kernel.org>
+Date: Tue, 17 Jan 2023 16:29:50 -0000
+Message-Id: <167397299058.19524.4230485766277492612@gitolite.kernel.org>
 
---===============1290566466843644215==
+--===============1947103597148118566==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,42 +17,42 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-testing
-    old: a30951d31b250bf3479c00e93646b6cc6fb42a56
-    new: 6681e43f5095a64bc3e37822f64d91d284a062dc
+    old: 6681e43f5095a64bc3e37822f64d91d284a062dc
+    new: 02b332a06397ef213790f9561c9c022ce1af1a97
     log: |
-         2476de8288cc552cbe98edf3f4d4cc2846cf4b8c usb: typec: Add retimer handle to port altmode
-         2c8cb236ed44d071ef2ed1fbb948eea404551788 usb: typec: Add wrapper for bus switch set code
-         6681e43f5095a64bc3e37822f64d91d284a062dc usb: typec: Make bus switch code retimer-aware
+         599f008c257d913674b2b2f2fa9e273c1058ec2e usb: typec: tcpm: Add callbacks to mitigate wakeups due to contaminant
+         abc028a270f47f86060ef479395d1bb8c2ab6e7e usb: typec: tcpci: Add callback for evaluating contaminant presence
+         02b332a06397ef213790f9561c9c022ce1af1a97 usb: typec: maxim_contaminant: Implement check_contaminant callback
          
 
---===============1290566466843644215==
+--===============1947103597148118566==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1673972955 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1673972988 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1673972954-5005af8ba1481fa2edd6a61264bd86483a9cf37a
+nonce 1673972987-323159d40478d37822b653f3f39c4d38aed5c2dd
 
-a30951d31b250bf3479c00e93646b6cc6fb42a56 6681e43f5095a64bc3e37822f64d91d284a062dc refs/heads/usb-testing
+6681e43f5095a64bc3e37822f64d91d284a062dc 02b332a06397ef213790f9561c9c022ce1af1a97 refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPGzNsbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+hHYQAIzYRA70MigVbcJQqRiJ
-OZlijpNSKcThTGrjBjLWp4hh1o7EIiJfuNfRyfpHkiZLrkKeMe1O22Pet50kP5Od
-PXGbcOA0zAakRivcg2QdrChGcX8CGD4LinGBKCmML6XrGGeeHX2wy7wxQp4/K0b7
-Hik6KA1QEQNhy+7sSzUab9PhqEtOyKcBO3+/iSBual7df3NZo/TdC+I//J92kYwg
-2hNeI6XRQorImb2WkYYhCevCM8TcTJJW0cFTBdji9eULcRY9K7j6g8N/C4TjpRJP
-ZVzgBOXPQ7x19DmQmaRuo4mb/ZuCCtTFcA+0Ant2MWHYCc2MvkYMu9kRCCesTf2x
-PO8GUwwOfQSkIZl6ojXj5hwa3ZLh7+Se+Pia5N6IG2VgeSgbD2SKqETJt8LbqPno
-7yFGCROAXH3cp66V3cXcqYygt17H7h/dBX8mpwGTW7z5tysuOnR1Rv+sfQYT3ELZ
-oVIbtlijIsGXF4NAANvt2H48ecJHvdClEB3cUg1/5PpFDii9rrSmQip5NfSLSHEm
-yAK3olGXTLPCsiutLvk0K1JfFPD0wQbZH5juyXpxjEJeYtargdzXD1CvdYI+XXEY
-TNraYmOpLUzhne9BGWhRIp734NGAHPpWshddN0Oq8QYMze1EqcpBNzq9wcqxyIua
-LcAKLg4vZnT9qiJk4gT4CYc7
-=x8CG
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPGzPwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+mT0QANcUctjnsPUnDuGgYY6h
+4ZSx6EN/C6NVwDj/yysOKM8J41dquUnNF9ghhUiR+NF/Bc5/7hxMwFc16SriwixA
+FZDU0gKBMwvb7H9ndkJNH8ZxVoYZkwPJayg9tz5UnC7Hm8Xe+VS6aitdLNrC1cR8
+DxYV31bRCQWXrw8JjJ9CFFYbw9j8IyR5E+eAQSKSYy5xm3KFQy61NOT8Y/GkK+2I
+uBVjD20+9GU9fvFqFrsSt9SiKyMvF3OdkHovEMXYAzlVZBjGor+w8yCkA0BDzk4l
+tzlxw5ZDXUe+wb5GoDoQb82n6b3AYK4zHFmg4/1AXtzImV2VwOIiTxssqmfvfhYF
+744j4FbEhfH9XuKK//mfkF/d0yNnyncf01yyXvtduuCUeMbZKFJIZMoowLODrSL5
++bpxFSa1DGmAnoCtralUU/k4MwBGB+pifd7YNOBjOQbv/Ad4dcLdYhb/Jn5sJq57
+ZswFKnVvv2e/lXzRJ1ianHKzjQPTwvaovYBcqLWYZIoN28OGynRAP9S1BF6kq9w4
+clkFtG1HIdBxt+cuvVIxk35vDWcTagZoy6J3S0J2ZBUdJQqHCJZDDWli+yLpe3HT
+JroIkxIrsNYEeFCeYWmTPlif38x5URMpgmSJbTEIFVMmJpKnKw8Sin8p3xIJAXyi
+FdqmXpNwtT3Q77X8xtut8RNY
+=b4PX
 -----END PGP SIGNATURE-----
 
---===============1290566466843644215==--
+--===============1947103597148118566==--
