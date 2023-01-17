@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4355085042899117813=="
+Content-Type: multipart/mixed; boundary="===============3761917048701705185=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
-Date: Tue, 17 Jan 2023 03:41:13 -0000
-Message-Id: <167392687330.8957.13603189654270927354@gitolite.kernel.org>
+Date: Tue, 17 Jan 2023 03:41:20 -0000
+Message-Id: <167392688034.9044.3089535276923540747@gitolite.kernel.org>
 
---===============4355085042899117813==
+--===============3761917048701705185==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
 user: chenhuacai
 changes:
-  - ref: refs/heads/loongarch-fixes
-    old: 1385313d8bc112760559f06f64708d936b3f2d7c
+  - ref: refs/heads/loongarch-next
+    old: 5535f4f70cfc15ef55b6ea7c7e17337b17337cb6
     new: 5dc4c995db9eb45f6373a956eb1f69460e69e6d4
-    log: revlist-1385313d8bc1-5dc4c995db9e.txt
+    log: revlist-5535f4f70cfc-5dc4c995db9e.txt
 
---===============4355085042899117813==
+--===============3761917048701705185==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-1385313d8bc1-5dc4c995db9e.txt
+Content-Disposition: attachment; filename=revlist-5535f4f70cfc-5dc4c995db9e.txt
 
 67c90d14018775556d5420382ace86521421f9ff HID: mcp2221: don't connect hidraw
 0ee29814c6be17a924761d3712eb8ad63cfe13ac HID: playstation: fix free of uninialized pointer for DS4 in Bluetooth.
@@ -1051,4 +1051,4 @@ b1d63f0c777b6df1ab53c5597d5fc25753f52f07 Merge tag 'powerpc-6.2-3' of git://git.
 f0f70ddb8f3bdbe670b1fab07271dd772e54c341 Merge tag 'x86_urgent_for_v6.2_rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 5dc4c995db9eb45f6373a956eb1f69460e69e6d4 Linux 6.2-rc4
 
---===============4355085042899117813==--
+--===============3761917048701705185==--
