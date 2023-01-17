@@ -1,21 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/hyperv/linux
-Date: Tue, 17 Jan 2023 13:37:47 -0000
-Message-Id: <167396266728.543.12435510426789532426@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Tue, 17 Jan 2023 13:38:44 -0000
+Message-Id: <167396272486.953.5349742298730720937@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/hyperv/linux
-user: wei.liu
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/hyperv-next
-    old: 26520c34e621aac035c2926a44226714cec02c7d
-    new: 8536290f0011c582df08657825cf2fee65aac9ed
-    log: |
-         7fec185a56f45b98d9547982370c2ab33f0f72b5 Drivers: hv: Setup synic registers in case of nested root partition
-         f0d2f5c2c000c03aa6b6a29954042174b59a0d1c x86/hyperv: Add an interface to do nested hypercalls
-         8536290f0011c582df08657825cf2fee65aac9ed Drivers: hv: Enable vmbus driver for nested root partition
-         
+  - ref: refs/heads/fileidmpGK
+    old: 0000000000000000000000000000000000000000
+    new: d8fcae877144d3e99596e435888684317a8b40b9
+  - ref: refs/heads/fileMzfkic
+    old: 0000000000000000000000000000000000000000
+    new: 9d8bb337c10b093a8142208921c1523b64c28a37
+  - ref: refs/heads/v2_20230117_daniel_baluta_add_support_to_compress_api_to_ipc_msg_data_set_stream_data_offset
+    old: 0000000000000000000000000000000000000000
+    new: a9737808b3e4e2313cc2aab2e807836a06576277
+  - ref: refs/heads/v4_20230116_p_rajanbabu_asoc_samsung_fsd_audio_support_for_fsd_soc
+    old: 0000000000000000000000000000000000000000
+    new: bc36d761cad7f3fec22cd97ddaa80f0120610181
