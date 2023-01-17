@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0394948566294832638=="
+Content-Type: multipart/mixed; boundary="===============6834458027750127597=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/spdx
-Date: Tue, 17 Jan 2023 14:56:15 -0000
-Message-Id: <167396737531.22450.2471539053862067867@gitolite.kernel.org>
+Date: Tue, 17 Jan 2023 14:56:18 -0000
+Message-Id: <167396737888.22511.3991845327704433676@gitolite.kernel.org>
 
---===============0394948566294832638==
+--===============6834458027750127597==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/spdx
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
+  - ref: refs/heads/spdx-linus
     old: 1b929c02afd37871d5afb9d498426f83432e71c2
     new: 5dc4c995db9eb45f6373a956eb1f69460e69e6d4
     log: revlist-1b929c02afd3-5dc4c995db9e.txt
 
---===============0394948566294832638==
+--===============6834458027750127597==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1673967374 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1673967378 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/spdx.git
-nonce 1673967374-c7a58b64dd707ff3364b8e0eb6deda2a4051f844
+nonce 1673967377-84395af54329dfc0661611732f39dea7b5062770
 
-1b929c02afd37871d5afb9d498426f83432e71c2 5dc4c995db9eb45f6373a956eb1f69460e69e6d4 refs/heads/main
+1b929c02afd37871d5afb9d498426f83432e71c2 5dc4c995db9eb45f6373a956eb1f69460e69e6d4 refs/heads/spdx-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPGtw4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+PCkQAK9tbF6pqlRTsgVYij20
-O538L07wJc0VaHmSdBFuU6av1902vmsmU1V0UtkhberVPjVOqsjBriYf8E1cvU5M
-Gdb/LNP2KUGxEMddhrOt8wi6JsQBOShKDGxDfxWZzo8v44AR9Twfd9JLEY9Qwi0o
-TF6Qw+uWNbrIUQfParCuGjkRUL1fI9jIdzcSuKwa3OgC3cpdos+AVDlAIru+Nrqq
-pfjn48F666/G939bophrtZmd5HknhZMMMbvv94QiJE5dCRm4AjCdVwyRAqqtDPEG
-fujOCsycGh40E5ehosvhgipUEp4VIn7ZjwQKMdP3vqTY0u+03pe2LOJ+KMBCndfQ
-l0eElEjLmrCDwT+AGugPTSF8uSLndNmukl8wRqCCJEP99ptn9FRfsBHavjGibn+F
-DGtX/vvmLG2n/ZpxeMF0BhV7XTG8ZiaCx9lSTKyA17Ix1BQ5BiqZxKYQWE6lWuNd
-yJ/cCRcv5UYxvTFXg5sNoNG63a4YE9KICpFCLNteN8qOZJvutJQOsnjS/tsh12Z9
-+85ScB019ywr/PQIAZW2dNQTxaA443Pa0OE7s3nyIzPYUw39JW05WWA6SehqlSGq
-+uVKyLbFDvKv/NrFWRoPFXQVa3b9kQzj6F2QIiAnCv3kVOwoXOZlAUKiNUSNzX/R
-Zvs1/rtCU7khZd3/7DrL6de1
-=0YUP
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPGtxIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+lOUQAMnIoYpomlUz9Dirp/Na
+cDnVJdUw/df0/dJrr7SuSat3+ekCKOxAX/c9ws0uhhYI5TKf16bpqTs4SXOwT8AS
+VUikaNxgPndHtBnkPMwkKZVUHQ1IN0NRvg1RK4OICXSD26Sojfeig09Udxi0VQu4
+C99Z9n1KdBUPd61BqGEk6iBIxI6kgNyGe/496ypHY8dmPD/zQCJIz7Q0VR5MDcvR
+nX03acAYXusoMBSyDHl4AX75ZwUsVTxshmT0rUkdA1J88pkLoosil/1sS6b7TCiV
+JU6jMPfKZv/g7TNsV7vH6H505+hpfYvQdEKsctb0laZG6ZKv/CjsHQlHNh9hWTlT
+Ivd/wg6n1tuxFiadXh26ajttoiSl9eWkS6nJsnLzMwUuVfEj3vxi9zq7BlTBz+hZ
+QuoB8uaDTINxTFPo4fY7ENLoo81GJMnjrYm0ecdY7l9rwM+2ZpPnIL/pqEI69Sni
+gzBjGNaC8/8eGPAq0AvFvOF4p+tv2nkdc/SQW9u6I6CdLKMYjDTH/i0Jk6mQxZgg
+imXD2GdtXVgN3+kxwbxS70Qup0LwxJsrvEHSPYPhhg/Ipc1qP7Ttcm0KY9LO2pCy
+jZ34tcMkcwd7A4rnoxqBL2byYvJ6ssVKr4yEfR6YTyQRvcBQAQWQNAQJFmRe0XSd
+ZXiPxQPM5UsPeJdnRbqFRPsz
+=eaRK
 -----END PGP SIGNATURE-----
 
---===============0394948566294832638==
+--===============6834458027750127597==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -886,4 +886,4 @@ b1d63f0c777b6df1ab53c5597d5fc25753f52f07 Merge tag 'powerpc-6.2-3' of git://git.
 f0f70ddb8f3bdbe670b1fab07271dd772e54c341 Merge tag 'x86_urgent_for_v6.2_rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 5dc4c995db9eb45f6373a956eb1f69460e69e6d4 Linux 6.2-rc4
 
---===============0394948566294832638==--
+--===============6834458027750127597==--
