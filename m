@@ -1,20 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/atorgue/stm32
-Date: Tue, 17 Jan 2023 11:23:58 -0000
-Message-Id: <167395463820.4365.322849812098557767@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/matthias.bgg/linux
+Date: Tue, 17 Jan 2023 11:27:14 -0000
+Message-Id: <167395483481.6909.2404704553113163348@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/atorgue/stm32
-user: atorgue
+repo: pub/scm/linux/kernel/git/matthias.bgg/linux
+user: matthias.bgg
 changes:
-  - ref: refs/heads/stm32-next
-    old: d7af327f37940fbe41ac185e0deca52a8aa4c93f
-    new: 728c9466cc3e4ec5f7133e22e95648736e730857
+  - ref: refs/heads/v6.2-next/dts64
+    old: 558741f8fc3a014b4a7e53845edacf9274ae9093
+    new: 8e01fb15b8157a825d309ea2598b494dd81a7b42
     log: |
-         91522bb92eae43c29fa6c1f371ba1a09eaea6738 ARM: dts: stm32: Fix User button on stm32mp135f-dk
-         728c9466cc3e4ec5f7133e22e95648736e730857 ARM: dts: stm32: Use new media bus type macros
+         e21cbfc3d93177069260552b4706ba8def759030 arm64: dts: mt7986: add usb related device nodes
+         513b49d19b34cf7bec4bc0e6284df2aa9007e88d arm64: dts: mt7986: add mmc related device nodes
+         918aed7abd2d554f33e51fffefa8172b93a36f56 arm64: dts: mt7986: add pcie related device nodes
+         8e01fb15b8157a825d309ea2598b494dd81a7b42 arm64: dts: mt7986: add Bananapi R3
          
