@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3709978793804457853=="
+Content-Type: multipart/mixed; boundary="===============2043912555963103401=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Wed, 18 Jan 2023 16:43:05 -0000
-Message-Id: <167406018532.3692.16110022177370451355@gitolite.kernel.org>
+Date: Wed, 18 Jan 2023 16:43:47 -0000
+Message-Id: <167406022793.4003.913878777231519013@gitolite.kernel.org>
 
---===============3709978793804457853==
+--===============2043912555963103401==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: 6e6eda44b939c0931533d6681d9f2ed41b44cde9
-    new: 68e5b6aa2795fd05c6ff58616cb16f2f216e4123
-    log: revlist-6e6eda44b939-68e5b6aa2795.txt
+  - ref: refs/heads/dev-queue
+    old: de87cc88c24145e991bf5d04f70e29422c963f5d
+    new: e51ea35f5dc8a8b5245be25711bb8bae0dabf023
+    log: revlist-de87cc88c241-e51ea35f5dc8.txt
 
---===============3709978793804457853==
+--===============2043912555963103401==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6e6eda44b939-68e5b6aa2795.txt
+Content-Disposition: attachment; filename=revlist-de87cc88c241-e51ea35f5dc8.txt
 
 3fe1d0a48d21944e4ba98e2cbdae4b0753bbc25b ixgbe: XDP: fix checker warning from rcu pointer
 6f8179c192345b91fb643a6ce4d9396ba6ddd77e ixgbe: Filter out spurious link up indication
@@ -163,5 +163,70 @@ eb1d929f1551f226f59e38465c542df9071166d6 virtio_net: Reuse buffer free function
 595655e081746f6fca8263154fd6fb5f2b22da24 net: microchip: sparx5: Add lock initialization to the KUNIT tests
 bed91ac0810634e0ae58e575d8a1fb7893b4ac72 Merge branch 'sparx5-vcap-improve-locking'
 68e5b6aa2795fd05c6ff58616cb16f2f216e4123 xdp: document xdp_do_flush() before napi_complete_done()
+5ce74bd463ffa7e4f2ee1ad0aa532ff339bb245c x86/pci: Simplify is_mmconf_reserved() messages
+2245ae2eb6968b04342c3b6c26b57b37383ea6a3 x86/pci: Treat EfiMemoryMappedIO as reservation of ECAM space
+70f8b2efb87ca7369b98e9b9ba39e7352c07cab4 ice: Add 'Execute Pending LLDP MIB' Admin Queue command
+ac1cedd179e70ad82c93c7f9fb698e70c832f44e ice: Handle LLDP MIB Pending change
+b91c081b22833499316f328393f017b021450d7f ice: Add GPIO pin support for E823 products
+739bcf37bba5d35fcf73a5bdc0782c4225b65a0c ice: Add crosstimestamping on E823 devices
+a6df5d7a1a0d4afe6c2fd5f6ee4ab0a1c382fdc1 ice: Fix off by one in ice_tc_forward_to_queue()
+63576dceb69ad4633a303616ebbd83a6dac69cd5 iavf: Fix shutdown pci callback to match the remove one
+0da2f451bb061672f47ed0bd109aedb7e6839b52 ice: Support drop action
+be104ac7b3e54599e06fcbe20939e31eec1c6141 ice: restrict PTP HW clock freq adjustments to 100, 000, 000 PPB
+0860ad464a088a5d0c4f26457afdf6bc6b182223 ice: use GNSS subsystem instead of TTY
+9ba216c9bd1d85fb6edd73f6f2c4af8daa21d517 ice: remove redundant non-null check in ice_setup_pf_sw()
+c9ee45d36f892f016db323b33747aaaf9bfc9c7d ice: move devlink port creation/deletion
+a7cfd3161162b0d2ea957376b7f61c07a0b598e4 igc: Clean up and optimize watchdog task
+821a0ba8ba41b2dae6eefd2a07e6dfdbfaf5e3e9 intel/igbvf: free irq on the error path in igbvf_request_msix()
+60222dd382dc59a29529ad651579a8c10a0f8938 igb: Enable SR-IOV after reinit
+ca6cfebc6247ab759aa13d55200d021485c69b81 ice: Fix broken link in ice NAPI doc
+d1c8d852245e0b8080e837c23cd8ea3cc3ac9ec0 ice: Add support for 100G KR2/CR2/SR2 link reporting
+95e4a60d523be168415c2df2b9d26ca839271033 ice: combine cases in ice_ksettings_find_adv_link_speed()
+ebd68871ed122cd0c52a55182898f862560a1ce2 ice: Remove cppcheck suppressions
+1d68325755973ce4345c1d3a681af03cbfe142c4 ice: Reduce scope of variables
+b5507be2afac2a354fde443f4ebb38d8b8e0d41a ice: Enable extended PTP support for E823L & E823C devices
+a639458a611183ae3dba79cbbb8c1821efda360a igbvf: Regard vf reset nack as success
+2e441eea5809f10ef376308c22ec203b26f6fc53 ice: Add more usage of existing function ice_get_vf_vsi(vf)
+e96e82e0ca14fd3d40ccdb85dbe6128f2dca1464 igb: conditionalize I2C bit banging on external thermal sensor support
+c4ae4fbc1b472a65a978af6688ca3238d1b942bb ice: switch: fix potential memleak in ice_add_adv_recipe()
+d26e2e2e6ac31ebf08e3a6400b3bd9cb0c801d8f ice: add missing checks for PF vsi type
+cb4dbb0f7476e0f644fe30b20433b176028b1563 ice: Explicitly return 0
+f4df1bbc0e1156fbd650899d1eb8f0367381aca5 ice: Match parameter name for ice_cfg_phy_fc()
+7f7a88262a58acc6cb82bbd2e886916bf2bc2247 ice: Introduce local var for readability
+ffd197cc6a2d76de1105c9fe9fe07a6841cab9a0 igc: Add qbv_config_change_errors counter
+f61262d9ff5227c004bf7f493d7de42746e7c4ad ice: Prevent set_channel from changing queues while RDMA active
+297ed975e2a19083fdd837409c36ac7e98c2302e ice: double lock on adev_mutex
+ffcf60e53c4bae19ffbd4665bfad186829495755 igc: offload queue max SDU from tc-taprio
+f4fb90d5fe5d8ed4cd77abbf7bda6ea0b649ca8e virtchnl: remove unused structure declaration
+233409008d78f105d7c21f7d796cab7b59b97830 virtchnl: update header and increase header clarity
+cef362991af6f9a74a57ff35fdb021fbee0e0851 virtchnl: do structure hardening
+95e613b0a52765ad4988bb3b39f93a159ec423b9 virtchnl: i40e/ice/iavf: rename iwarp to rdma
+e7cb03e2fb2cea762ad27681655e8b6184bd5f9f ice: move RDMA init to ice_idc.c
+742b87cc7a22b5284e45e8f43364e511d17648a6 ice: alloc id for RDMA using xa_array
+65a2e96bcb2cd7bf5faeae8f83e0e76db5eff748 ice: cleanup in VSI config/deconfig code
+e31a172fbf6b5ead783643ccbfc6daba55579fe5 ice: split ice_vsi_setup into smaller functions
+8f9ae15c1795ecbd023fa59bf28f2d969591360a ice: stop hard coding the ICE_VSI_CTRL location
+a7a3fc9883c25824b98cb1481729531aacf1d07b ice: split probe into smaller functions
+d739618c92e2680a399afffd18622b7c7185da4e ice: sync netdev filters after clearing VSI
+e8789d1273fc7e36a4a9c267c5804b19fa03ea5a ice: move VSI delete outside deconfig
+0aeeb08da8f3f9c9aa3a696a6de4a4ea3f7775e2 ice: update VSI instead of init in some case
+d5ae45e931b64f8edc8412f13982515b34eb01ac ice: implement devlink reinit action
+0395f67720ef96ad78515882cff75de49fa29822 ice: Move support DDP code out of ice_flex_pipe.c
+9f93aed7afcb47db3871215fe3ef5ea97272f7dd i40e: Fix crash when rebuild fails in i40e_xdp_setup
+dba6b35473ff26aacdbe6bafa72cba3b6d4b9fba i40e: Add flag for disabling VF source pruning
+70abe87de2013f51c2541f487079a4f112888f8c ice: Remove excess space
+396b2120c0cdc011cf494eb43941e84e206d1af0 ice: fix out-of-bounds KASAN warning in virtchnl
+5faa3a638ce88b7f1a55bd6fd754d523699dd0a8 ice: Change ice_vsi_realloc_stat_arrays() to void
+824bcbbc00ab3cf3d9da2fd56b1482f512708508 net/i40e: Replace 0-length array with flexible array
+1e478b46caa0bd1237b259a10a5dc7227fd389f8 i40e: Remove unused i40e status codes
+61277f8d3393b1a6e1a84f829ce7188fe1d245a8 i40e: Remove string printing for i40e_status
+72f1b1b805243d6de70bf53945e6493b1281e871 i40e: use int for i40e_status
+8566eec3e3479317a2053a22f6f5918c31be1429 i40e: remove i40e_status
+3961f1c82688c63b4351d5681110027d23bfd2dc i40e: use ERR_PTR error print in i40e messages
+0ac33244214f105f33a00da46b803270dd9bf724 iavf: fix temporary deadlock and failure to set MAC address
+7ae69c2a5c009cc31d1896107ad50fa148e4ef83 iavf: Move netdev_update_features() into watchdog task
+c9108dc62aa4cfe00f362a7e25efdb4d25c45473 iavf: schedule watchdog immediately when changing primary MAC
+d859bb28dd872137c73a9fe68327cb505556589f igc: Add ndo_tx_timeout support
+e51ea35f5dc8a8b5245be25711bb8bae0dabf023 ice: avoid bonding causing auxiliary plug/unplug under RTNL lock
 
---===============3709978793804457853==--
+--===============2043912555963103401==--
