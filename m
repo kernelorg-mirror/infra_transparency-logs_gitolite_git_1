@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Wed, 18 Jan 2023 17:30:56 -0000
-Message-Id: <167406305660.5219.3454986987466353334@gitolite.kernel.org>
+Date: Wed, 18 Jan 2023 17:31:59 -0000
+Message-Id: <167406311985.5594.18195345495385348007@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/robh/linux
 user: robh
 changes:
-  - ref: refs/heads/dt/linus
-    old: 064e32dc5b03114d0767893fecdaf7b5dfd8c286
-    new: 2d681d6a23a14e6507e536605d83e38acfab9018
+  - ref: refs/heads/for-next
+    old: 7e38085d9c59b6d07c1986ea43d046d457dcf646
+    new: eb2b4ecf7299ee39ee9cecc4d3f2633aeb10cefb
     log: |
-         2d681d6a23a14e6507e536605d83e38acfab9018 of: Make of framebuffer devices unique
+         eb2b4ecf7299ee39ee9cecc4d3f2633aeb10cefb of/irq: add missing of_node_put() for interrupt parent node
          
