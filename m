@@ -1,76 +1,62 @@
-Content-Type: multipart/mixed; boundary="===============3832693053631776783=="
+Content-Type: multipart/mixed; boundary="===============6059280692611541993=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
-Date: Wed, 18 Jan 2023 20:15:20 -0000
-Message-Id: <167407292087.18341.6606415643182643327@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/helgaas/pci
+Date: Wed, 18 Jan 2023 20:15:29 -0000
+Message-Id: <167407292927.18487.8792844545679138139@gitolite.kernel.org>
 
---===============3832693053631776783==
+--===============6059280692611541993==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kdave/linux
-user: kdave
+repo: pub/scm/linux/kernel/git/helgaas/pci
+user: helgaas
 changes:
-  - ref: refs/heads/for-next
-    old: 5e17afbf951591c132e02276a067dea72025b046
-    new: 04f23b4865ff1642dbdf5e4e2865d6c2ba759576
-    log: revlist-5e17afbf9515-04f23b4865ff.txt
+  - ref: refs/heads/next
+    old: 25cfdd48a4bd9df46f5b3af92b2d21756b76d3e2
+    new: bb7da376b4fd6c8296312ac2784d0e21a509d0b6
+    log: revlist-25cfdd48a4bd-bb7da376b4fd.txt
 
---===============3832693053631776783==
+--===============6059280692611541993==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5e17afbf9515-04f23b4865ff.txt
+Content-Disposition: attachment; filename=revlist-25cfdd48a4bd-bb7da376b4fd.txt
 
-5abdba45104d31b1a503f852eb6e2dae0d3476b6 btrfs: sysfs: update fs features directory asynchronously
-54d35f57cc52fd93959051fce1b1faa37d39f1af btrfs: send: directly return from did_overwrite_ref() and simplify it
-db3506e37067226f394bb79d57c0895e11e939eb btrfs: send: avoid unnecessary generation search at did_overwrite_ref()
-3c19bb4e5e442cd3787ff85431dd91f7c9441fcf btrfs: send: directly return from will_overwrite_ref() and simplify it
-4ec67306138ad10c2871bdd6f04f0179aeb2838c btrfs: send: avoid extra b+tree searches when checking reference overrides
-a4df7acbd25c575a28c1c630c9fdc20f50b10787 btrfs: send: remove send_progress argument from can_rmdir()
-dea0f19c6857735224571f51a333aa1fce53dfbf btrfs: send: avoid duplicated orphan dir allocation and initialization
-46053a136aef81b70ede8a50dad8593e015f2639 btrfs: send: avoid unnecessary orphan dir rbtree search at can_rmdir()
-bda778fa4be19669fb7b8b56bcd7385d1f18792e btrfs: send: reduce searches on parent root when checking if dir can be removed
-d091ee4e054d1799d835ad2fbacb654794d810c7 btrfs: send: iterate waiting dir move rbtree only once when processing refs
-44ae15d65b0a66225370d8d863f038a9dbce934e btrfs: send: use MT_FLAGS_LOCK_EXTERN for the backref cache maple tree
-084303f39f2e2168723ae85c1c86dcb5b8063e9e btrfs: send: initialize all the red black trees earlier
-8662c1576c686bb98747fecb39be01a0c6d3fe55 btrfs: send: genericize the backref cache to allow it to be reused
-371eb070dc0b1f73362a9a90a3ce63884ecdb645 btrfs: adapt lru cache to allow for 64 bits keys on 32 bits systems
-6d68fb752adc8696302cab8a3e416612e99c1186 btrfs: send: cache information about created directories
-a3150893fddb374e3b2f8bd416282deb6870a1d3 btrfs: allow a generation number to be associated with lru cache entries
-a4127960459b80a0f5c52c249a474c775678dc3b btrfs: add an api to delete a specific entry from the lru cache
-6b9988630786284e05a30a24e97f67246629863d btrfs: send: use the lru cache to implement the name cache
-e8e2b8b4ee4ee8f2b78f2e567b0b7615f0282e9a btrfs: send: update size of roots array for backref cache entries
-ca12d6b09314921383b9fb72c97b97bf00c403a1 btrfs: send: cache utimes operations for directories if possible
-cb01948c1bdbb4cee337cec00f5d790a5e1b8abf btrfs: locking: use atomic for DREW lock writers
-0ea972e6930c01e59e7d14c78211764a4c89d1d4 block: export bio_split_rw
-09ebac2aca80bc2c5ae7984b6eb8aca342a02cf1 btrfs: handle checksum validation and repair at the storage layer
-945807829761a024b43bdadaedd801160221bce0 btrfs: remove the submit_bio_start helpers
-3c7ec3a4680bc4c198f681ab5804086349ed4039 btrfs: simplify the btrfs_csum_one_bio calling convention
-5dd91ad4d9878f5267e3499d47ce65b1baf2da57 btrfs: handle checksum generation in the storage layer
-5136ca8ed15825e9c88efc41c4d94548b9cd624a btrfs: handle recording of zoned writes in the storage layer
-8d219c8ba51dbce8ec80e51ffb414eee5644927b btrfs: support cloned bios in btree_csum_one_bio
-76943d9334db5c96d5ea89672b24802c989f64e0 btrfs: allow btrfs_submit_bio to split bios
-3e3aa917100688d5b97e6e1501b2b63f713ec6bc btrfs: pass the iomap bio to btrfs_submit_bio
-0153263d30248201315a11314ad8e43d7ec5e214 btrfs: remove stripe boundary calculation for buffered I/O
-9d16c7bdd19c1266f74e0b630d3615bf4c08ce24 btrfs: remove stripe boundary calculation for compressed I/O
-3c99c196b7e84cce70c4e4bff9e9546622e62570 btrfs: remove stripe boundary calculation for encoded I/O
-b1e7bdccf96f377797c800126ee67349c32dc002 btrfs: remove struct btrfs_io_geometry
-412f3c0cac54b04f27cf93867fa230799053d9f5 btrfs: remove submit_encoded_read_bio
-1d8a3004cfefbb0de317876c66f89ed413ec290e btrfs: remove the fs_info argument to btrfs_submit_bio
-cb60df0df699d59319d42630583bc9dd6484e783 btrfs: remove now spurious bio submission helpers
-734f73aa40ab706e028570685c1f07456a3d8093 btrfs: calculate file system wide queue limit for zoned mode
-0d2caa80877b90eb20db768de0b1feb9df5128c8 btrfs: split zone append bios in btrfs_submit_bio
-97fdcb77db17a92d56e4a1f13c50871b560a133b iomap: remove IOMAP_F_ZONE_APPEND
-c77a4979ec1e3c71766a21b92d2afed1daad1654 Merge branch 'misc-6.2' into for-next-current-v6.1-20230118
-1fd17a1907d50e5ef436322638236e24b6311e53 Merge branch 'misc-next' into for-next-next-v6.2-20230118
-a20f72e45fa9b6befb143c005c05c3067c9e8128 Merge branch 'dev/drew-lock-atomic' into for-next-next-v6.2-20230118
-53beabdd475c4ed7611567644e918c67d720ea3e Merge branch 'ext/hch/checksumming-v3' into for-next-next-v6.2-20230118
-33f0af82f13dd6eae5a50da77ff340cb56a541cf Merge branch 'for-next-current-v6.1-20230118' into for-next-20230118
-04f23b4865ff1642dbdf5e4e2865d6c2ba759576 Merge branch 'for-next-next-v6.2-20230118' into for-next-20230118
+1af5ea1dc2df627ac11361ee9795cf4f240f66f1 dt-bindings: imx6q-pcie: Add i.MX8MM PCIe EP mode compatible string
+dea44b629ae186410d822e2bf576143bebd932f1 dt-bindings: imx6q-pcie: Add i.MX8MQ PCIe EP mode compatible string
+2dd6dc57d2da459983ded133767d0389194f15b8 dt-bindings: imx6q-pcie: Add i.MX8MP PCIe EP mode compatible string
+01ea5ede419733fdc39e75875f0861d16a829fe6 misc: pci_endpoint_test: Add i.MX8 PCIe EP device support
+75c2f26da03f93e988cd7678722ea893a8c63796 PCI: imx6: Add i.MX PCIe EP mode support
+530ba41250b69db4b5beb9fc03bd7183881c5e7f PCI: imx6: Add i.MX8MQ PCIe EP support
+fb3217e2cfc6a577481b6accc3e17032f242e0ac PCI: imx6: Add i.MX8MM PCIe EP support
+c435669a41dd4ee063572e17b48c14806ad31f72 PCI: imx6: Add i.MX8MP PCIe EP support
+1aa3f2b02fcd3817a0b1caa0a4654e40433a33be misc: pci_endpoint_test: Drop initial kernel-doc marker
+ea0b5aa5f184cf8293c93163f0fb00505190d431 PCI/IOV: Enlarge virtfn sysfs name buffer
+4e353ff40a830c9c5a9feee13d1cacbc3f803e8f PCI: switchtec: Simplify switchtec_dma_mrpc_isr()
+ddc10938e08cd7aac63d8385f7305f7889df5179 PCI: switchtec: Return -EFAULT for copy_to_user() errors
+90ccb044c191a3cf4f4bfef06085747acd988ade dt-bindings: PCI: uniphier-ep: Clean up reg, clocks, resets, and their names
+7952e71653d986f73c5517e50920866d580d2394 dt-bindings: PCI: qcom: Add oneOf to compatible match
+f86fe08ef00fc93cf2be68e725d0b3bb582276af dt-bindings: PCI: qcom: Add MSM8998 specific compatible
+7d1780d023ca2b635ae712d721c423b7525789c6 dt-bindings: PCI: qcom: Unify MSM8996 and MSM8998 clock order
+b25456fa7f8315ed9dbb098ef956b8c7744e1b60 dt-bindings: PCI: qcom-ep: Correct qcom,perst-regs
+f1bf507b8424d38be94bd7dced42916256e65376 dt-bindings: PCI: qcom: Add SM8350
+e587b4f2d80fdf012a091a81fe6af7485cc28bb4 PCI: qcom: Add SM8350 support
+8a90aaaf12a14f22452797e2f34ce93116e68d8a PCI: qcom: Fix host-init error handling
+11af811fcd68089eaf8fb3c88088ed991edb08c9 dt-bindings: PCI: qcom: Sort compatibles alphabetically
+e762d5e990c257ce1a498ed88f45774615f8a95a dt-bindings: PCI: qcom: Add IPQ8074 Gen3 port
+677accaee6c3f9953576c81daa34e2b98959627d PCI: qcom: Add IPQ8074 Gen3 port support
+fd858402c6d0a80e0b543886b9f7865c6d76d5d6 PCI: endpoint: pci-epf-vntb: Add epf_ntb_mw_bar_clear() num_mws kernel-doc
+1965aec90c196d901058c956cfa58130c13d33c3 Merge branch 'pci/aer'
+aace5d76976ee03970fccb38f988f3ef93daf697 Merge branch 'pci/iov'
+3c113ba12d7eda5983b6971a6d163e4eb17bc95c Merge branch 'pci/misc'
+5c9b7333915b35e8264d123f5220e8bf92d3bb12 Merge branch 'pci/pm'
+50c3195fba5529a15e9cf86df1d32078c983e938 Merge branch 'pci/switchtec'
+e90ef6b4eb594c4a4940d2e6f7c8af2ebb070e58 Merge branch 'pci/host/qcom'
+c070c5b6f8bd67917efed4301f8f24ff48c8554a Merge branch 'pci/host/uniphier'
+bb7da376b4fd6c8296312ac2784d0e21a509d0b6 Merge branch 'remotes/lorenzo/pci/imx6'
 
---===============3832693053631776783==--
+--===============6059280692611541993==--
