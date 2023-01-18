@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0705701508269551034=="
+Content-Type: multipart/mixed; boundary="===============5994416291226351635=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
-Date: Wed, 18 Jan 2023 19:15:48 -0000
-Message-Id: <167406934898.10924.12402511869254816464@gitolite.kernel.org>
+Date: Wed, 18 Jan 2023 19:16:49 -0000
+Message-Id: <167406940927.11389.4148530282860815277@gitolite.kernel.org>
 
---===============0705701508269551034==
+--===============5994416291226351635==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sudeep.holla/linux
 user: sudeep.holla
 changes:
-  - ref: refs/heads/for-next/scmi
-    old: 0ae95d6e8b75945981fd52e5b88186e0db926359
-    new: 7afbf47e129371e178a569de28752c436e1b6597
-    log: revlist-0ae95d6e8b75-7afbf47e1293.txt
+  - ref: refs/heads/for-linux-next
+    old: f3369d9a7fb503f084e72904d2bf49ee47143f8e
+    new: 67e990e402ad8849c5591e8213dedb69040c6128
+    log: revlist-f3369d9a7fb5-67e990e402ad.txt
 
---===============0705701508269551034==
+--===============5994416291226351635==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0ae95d6e8b75-7afbf47e1293.txt
+Content-Disposition: attachment; filename=revlist-f3369d9a7fb5-67e990e402ad.txt
 
 a6d6c9ef838a190cb60b08fb3c89d140aaca6b1e firmware: arm_scmi: Simplify chan_available transport operation
 a9e304a9c39249177557757f3d3d50827a75c0f3 firmware: arm_scmi: Use dedicated devices to initialize channels
@@ -52,5 +52,7 @@ cd246f0e45d8e4c7f94edf199effc858332b9740 firmware: arm_scmi: Add debugfs ABI doc
 9b718c22b24e40fa35341c245335f6840a51988a firmware: arm_scmi: Call Raw mode hooks from the core stack
 ed47db0d2a7fc94d60bef03e32103a8a49a3d3a9 firmware: arm_scmi: Add Raw mode coexistence support
 7afbf47e129371e178a569de28752c436e1b6597 firmware: arm_scmi: Add per-channel Raw injection support
+660506a1306a28ac617989b174a3210f3ec7cf86 Merge branch 'for-next/scmi' of git://git.kernel.org/pub/scm/linux/kernel/git/sudeep.holla/linux into for-linux-next
+67e990e402ad8849c5591e8213dedb69040c6128 Merge branch 'for-next/cacheinfo' of git://git.kernel.org/pub/scm/linux/kernel/git/sudeep.holla/linux into for-linux-next
 
---===============0705701508269551034==--
+--===============5994416291226351635==--
