@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/remoteproc/linux
-Date: Wed, 18 Jan 2023 22:05:50 -0000
-Message-Id: <167407955079.29001.18120318072194242870@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Wed, 18 Jan 2023 22:15:04 -0000
+Message-Id: <167408010429.2555.7310488433321331381@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/remoteproc/linux
-user: andersson
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
-  - ref: refs/heads/for-next
-    old: 82af01d2004add430cc53aa028424a5344ae3aa4
-    new: aad1c2d8c840cab40c7fff85653bae50d2444fba
+  - ref: refs/heads/master
+    old: 163a165773d9fa88ef38e876dddb983aa61f94f7
+    new: 67430b05fb03c24b9e10ac86020f70cb715f3c3f
     log: |
-         f014eda5d5923a1d85f29dc7467cd90e9775cbfd rpmsg: glink: Include types in qcom_glink_native.h
-         aad1c2d8c840cab40c7fff85653bae50d2444fba Merge branches 'hwspinlock-next', 'rpmsg-next' and 'rproc-next' into for-next
+         4029d64eb72a94d0f17dc5fd4e51e98088d923f6 foo
+         67430b05fb03c24b9e10ac86020f70cb715f3c3f foo
          
