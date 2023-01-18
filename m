@@ -1,24 +1,42 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/git/git
-Date: Wed, 18 Jan 2023 21:05:22 -0000
-Message-Id: <167407592283.18731.5692068348853116213@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
+Date: Wed, 18 Jan 2023 21:11:32 -0000
+Message-Id: <167407629266.22240.171904408591509197@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/git/git
-user: junio
+repo: pub/scm/linux/kernel/git/hid/hid
+user: jikos
 changes:
-  - ref: refs/heads/seen
-    old: 24f052ee34c9b4af56d9bf23fa979da8e2468323
-    new: 4ea8693b81effaa907d84eb589fee058fbbc8a1c
+  - ref: refs/heads/for-6.3/hid-bpf
+    old: bf7660dab30dfb43fcdd3c73b1f526e53f78b76c
+    new: 0c2d572828a68e8416619e0832d4d55317cb3c57
     log: |
-         adcba798152f8788dac45196ccac48e510fb16dc send-email: refactor header generation functions
-         1d4943d431d6a299b40e8f9da7463088dbb7fb51 send-email: expose header information to git-send-email's sendemail-validate hook
-         69443a8f1db23a617e37279e4c7f4fd19ee4f843 Merge branch 'ms/send-email-feed-header-to-validate-hook' into seen
-         5e09ed49ad59fabe9c79aea5fb3826953a421ba7 Merge branch 'tc/cat-file-z-use-cquote' into seen
-         44647f89641c8f657f3f716849b30b6904f55cdc Merge branch 'cw/submodule-status-in-parallel' into seen
-         4ea8693b81effaa907d84eb589fee058fbbc8a1c Merge branch 'mc/credential-helper-auth-headers' into seen
+         507806e9fdf09774d390c5f22893ba4d87ce40d5 selftests: hid: add vmtest.sh
+         633ba3be76426056a047b2a355082d94afa9230d selftests: hid: allow to compile hid_bpf with LLVM
+         cea6c4d969bb104d2847e1f4ed708ae0126d6f42 selftests: hid: attach/detach 2 bpf programs, not just one
+         d9db1bb55f1032020328ede7a88b2490574646d3 selftests: hid: ensure the program is correctly pinned
+         2574917a2b48f87bd45f1c3e6d80c976f4fe3c3d selftests: hid: prepare tests for HID_BPF API change
+         4b9a3f49f02bf682eedfde23ef56a8df82c1e5d2 HID: bpf: rework how programs are attached and stored in the kernel
+         6e021d64e4897759e19ce431ee6a366338c00be8 selftests: hid: enforce new attach API
+         bb2c0aeac145c4e5b74620fd8c0f7862777b8677 HID: bpf: clean up entrypoint
+         0c2d572828a68e8416619e0832d4d55317cb3c57 HID: bpf: reorder BPF registration
+         
+  - ref: refs/heads/for-next
+    old: d7e1383686a260a103667bcdbc6d6f580460b8d1
+    new: b1cb3ece45aeaf846af13f6c8f5cc10e4a215bf9
+    log: |
+         507806e9fdf09774d390c5f22893ba4d87ce40d5 selftests: hid: add vmtest.sh
+         633ba3be76426056a047b2a355082d94afa9230d selftests: hid: allow to compile hid_bpf with LLVM
+         cea6c4d969bb104d2847e1f4ed708ae0126d6f42 selftests: hid: attach/detach 2 bpf programs, not just one
+         d9db1bb55f1032020328ede7a88b2490574646d3 selftests: hid: ensure the program is correctly pinned
+         2574917a2b48f87bd45f1c3e6d80c976f4fe3c3d selftests: hid: prepare tests for HID_BPF API change
+         4b9a3f49f02bf682eedfde23ef56a8df82c1e5d2 HID: bpf: rework how programs are attached and stored in the kernel
+         6e021d64e4897759e19ce431ee6a366338c00be8 selftests: hid: enforce new attach API
+         bb2c0aeac145c4e5b74620fd8c0f7862777b8677 HID: bpf: clean up entrypoint
+         0c2d572828a68e8416619e0832d4d55317cb3c57 HID: bpf: reorder BPF registration
+         b1cb3ece45aeaf846af13f6c8f5cc10e4a215bf9 Merge branch 'for-6.3/hid-bpf' into for-next
          
