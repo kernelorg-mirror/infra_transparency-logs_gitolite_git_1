@@ -1,26 +1,61 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/djiang/linux
-Date: Wed, 18 Jan 2023 18:10:48 -0000
-Message-Id: <167406544841.31715.15734860553869291220@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============4190765319754728835=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless-next
+Date: Wed, 18 Jan 2023 18:18:40 -0000
+Message-Id: <167406592080.4760.6871506288795916766@gitolite.kernel.org>
+
+--===============4190765319754728835==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/djiang/linux
-user: djiang
+repo: pub/scm/linux/kernel/git/wireless/wireless-next
+user: jberg
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/cxl-emulate-hdm
-    old: 26f0d531085b0d09aa619fe7cbf5a457cbe425d8
-    new: 6c7fe26eb2f67816411bb41a976a6c50056aa574
+  - ref: refs/heads/main
+    old: d0e99511834b6828c960e978d9a8cb6e5731250d
+    new: f66c48af7a110c0d694c4ac4a1257affb272a2ea
     log: |
-         abafe259d71697420241153a7a0676c64ce9eedc cxl: break out range register decoding from cxl_hdm_decode_init()
-         c08051d1f83fd5ff34cac0668ddd1ace5acb89d3 cxl: export cxl_dvsec_rr_decode() to cxl_port
-         f128ed25c1254a66906c866d969e2ca59e924664 cxl: refactor cxl_hdm_decode_init()
-         75c0e32ee14a73e164521e6234020ef13abea760 cxl: emulate HDM decoder from DVSEC range registers
-         c0985b605ea8f2e6a92853c2ed76929f0313e239 cxl: create emulated cxl_hdm for devices that do not have HDM decoders
-         bf53fa382d593d3b27d9dbb3bd4dcddd717dca3f cxl: create emulated decoders for devices without HDM decoders
-         5a4f814ceb7a39cb900f0bfd57248ab17cccb37e cxl: Add emulation when HDM decoders are not committed
-         6c7fe26eb2f67816411bb41a976a6c50056aa574 cxl: remove locked check for dvsec_range_allowed()
+         585b6e1304dcc46e65dc1aaca5973b33abd0c48d wifi: cfg80211: remove support for static WEP
+         df4969ca135b9b3b2c38c07514aaa775112ac835 wifi: cfg80211: Fix extended KCK key length check in nl80211_set_rekey_data()
+         648fba791cb0f5ef6166449d056f82e6639fe268 wifi: cfg80211: Support 32 bytes KCK key in GTK rekey offload
+         bfc551679cd63ca3a4b3e7f338aa2bb06ce43e25 wifi: cfg80211: Use MLD address to indicate MLD STA disconnection
+         42470fa093248807f668825ff14de9bc623c0d53 wifi: mac80211: Add VHT MU-MIMO related flags in ieee80211_bss_conf
+         b1b3297df7db7065476666ddbca5a61d081347ef wifi: mac80211: Add HE MU-MIMO related flags in ieee80211_bss_conf
+         f66c48af7a110c0d694c4ac4a1257affb272a2ea mac80211: support minimal EHT rate reporting on RX
          
+
+--===============4190765319754728835==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher 7BF9099A 1674065863 +0100
+pushee ssh+git://korg/pub/scm/linux/kernel/git/wireless/wireless-next.git
+nonce 1674065863-eacc71e9469916e26c47701b1b79acd848093b84
+
+d0e99511834b6828c960e978d9a8cb6e5731250d f66c48af7a110c0d694c4ac4a1257affb272a2ea refs/heads/main
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAABCgAdFiEEpeA8sTs3M8SN2hR410qiO8sPaAAFAmPIN8cACgkQ10qiO8sP
+aAA35hAAkpiJkLL0VvwFXAIciQhUAZmxZP2LZrPEDhFA10zKwFpcEn2Twr2Erj+Z
+WuU8ViDZ21+R/bQFTvCF9g/DZBuE1gUIhwjUq9/FGQv7h8o1gHA1CUGAnewqmAY7
+md/faN+Vpr3um7i5CMMRS65zy6UaZqvMZpLNN7gvH7+w5BCJOYC/A16DMOFu7k/F
+cI6m6nTLqenWLOh5hZVshHtucVgIPG7UhTSInBkcwPjomQO4zoMPSuf/lx/fOR61
+uQLZ/xsJqLYFKBjYYTayMl09HX+e8Xz9GP3E4CSMYQ/rfFzhveBtJUoaae8+UkBS
+dIAt5fxmgrdVwaGi5taoFXJGReLbrbHtU89Xh+8YsvVRO7SeZA/jp7RMtrlVpQRB
+TedQYSW4NjkI/7BJKxhVLSBqRQzJ2NlZWD1z5u7IzfDsXDZxAKfw0MKqvKMQ2Cxu
+6MhMPJwN+6uIVmc9vulKdLTcBFhypv/OLrUXud6QFNGjwj/wjPfsvpHa3biSqg79
+L2HyOOtNyC4k2F81H0S4Kb9odNw+J9APxiz7cwWnB68RPi7jclDG6/efcoHXElwo
+Ag9ZmjKxXJmBrKg+N1UTqggSODSKU1G8u+N/gZkayeGDHIxQydZVlJqHoKnU+Rqy
+oVIcU7KoWh7jF7I6hw9Bk0ixSXFQ7XFBoFL9jyC+tdr5lywlw7s=
+=FlDx
+-----END PGP SIGNATURE-----
+
+--===============4190765319754728835==--
