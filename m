@@ -1,42 +1,46 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
-Date: Wed, 18 Jan 2023 21:11:32 -0000
-Message-Id: <167407629266.22240.171904408591509197@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============6607285564380076386=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/docs/kernel/pgpkeys
+Date: Wed, 18 Jan 2023 21:12:03 -0000
+Message-Id: <167407632318.22480.1599658724345310409@gitolite.kernel.org>
+
+--===============6607285564380076386==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/hid/hid
-user: jikos
+repo: pub/scm/docs/kernel/pgpkeys
+user: mricon
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.3/hid-bpf
-    old: bf7660dab30dfb43fcdd3c73b1f526e53f78b76c
-    new: 0c2d572828a68e8416619e0832d4d55317cb3c57
+  - ref: refs/heads/master
+    old: 2a7e73d317a6c886dbe53a4dc2c5b8ffe44a8d97
+    new: ff07bff6a52a7c79b2afc098f8b6f3e62c55b71d
     log: |
-         507806e9fdf09774d390c5f22893ba4d87ce40d5 selftests: hid: add vmtest.sh
-         633ba3be76426056a047b2a355082d94afa9230d selftests: hid: allow to compile hid_bpf with LLVM
-         cea6c4d969bb104d2847e1f4ed708ae0126d6f42 selftests: hid: attach/detach 2 bpf programs, not just one
-         d9db1bb55f1032020328ede7a88b2490574646d3 selftests: hid: ensure the program is correctly pinned
-         2574917a2b48f87bd45f1c3e6d80c976f4fe3c3d selftests: hid: prepare tests for HID_BPF API change
-         4b9a3f49f02bf682eedfde23ef56a8df82c1e5d2 HID: bpf: rework how programs are attached and stored in the kernel
-         6e021d64e4897759e19ce431ee6a366338c00be8 selftests: hid: enforce new attach API
-         bb2c0aeac145c4e5b74620fd8c0f7862777b8677 HID: bpf: clean up entrypoint
-         0c2d572828a68e8416619e0832d4d55317cb3c57 HID: bpf: reorder BPF registration
+         ff07bff6a52a7c79b2afc098f8b6f3e62c55b71d Add CD58A1B17ED033FA (Khalid Aziz)
          
-  - ref: refs/heads/for-next
-    old: d7e1383686a260a103667bcdbc6d6f580460b8d1
-    new: b1cb3ece45aeaf846af13f6c8f5cc10e4a215bf9
-    log: |
-         507806e9fdf09774d390c5f22893ba4d87ce40d5 selftests: hid: add vmtest.sh
-         633ba3be76426056a047b2a355082d94afa9230d selftests: hid: allow to compile hid_bpf with LLVM
-         cea6c4d969bb104d2847e1f4ed708ae0126d6f42 selftests: hid: attach/detach 2 bpf programs, not just one
-         d9db1bb55f1032020328ede7a88b2490574646d3 selftests: hid: ensure the program is correctly pinned
-         2574917a2b48f87bd45f1c3e6d80c976f4fe3c3d selftests: hid: prepare tests for HID_BPF API change
-         4b9a3f49f02bf682eedfde23ef56a8df82c1e5d2 HID: bpf: rework how programs are attached and stored in the kernel
-         6e021d64e4897759e19ce431ee6a366338c00be8 selftests: hid: enforce new attach API
-         bb2c0aeac145c4e5b74620fd8c0f7862777b8677 HID: bpf: clean up entrypoint
-         0c2d572828a68e8416619e0832d4d55317cb3c57 HID: bpf: reorder BPF registration
-         b1cb3ece45aeaf846af13f6c8f5cc10e4a215bf9 Merge branch 'for-6.3/hid-bpf' into for-next
-         
+
+--===============6607285564380076386==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher B6C41CE35664996C! 1674076322 -0500
+pushee gitolite.kernel.org:pub/scm/docs/kernel/pgpkeys
+nonce 1674076322-0d41b30eb43da09b3a7a9812ff7569de394d9b9e
+
+2a7e73d317a6c886dbe53a4dc2c5b8ffe44a8d97 ff07bff6a52a7c79b2afc098f8b6f3e62c55b71d refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCY8hgogAKCRC2xBzjVmSZ
+bGtLAP93ZVFyQy1X/SULaht8D5H6kwxzi09mnYUKXyxyNeVMCgD+KKredfXX2WiN
+lrm9PbOpCuqycPl34AIkbHJNPyGoTQI=
+=EgKT
+-----END PGP SIGNATURE-----
+
+--===============6607285564380076386==--
