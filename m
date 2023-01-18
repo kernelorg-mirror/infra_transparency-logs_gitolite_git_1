@@ -1,25 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Wed, 18 Jan 2023 03:15:30 -0000
-Message-Id: <167401173017.4800.11418427441925433360@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/joel/bmc
+Date: Wed, 18 Jan 2023 03:17:45 -0000
+Message-Id: <167401186563.6708.3925860290265228820@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/joel/bmc
+user: joel
 changes:
-  - ref: refs/heads/master
-    old: 441717b6fdf2f620475b5e410f73d55154bb6f30
-    new: 423c1d363c4659fcaca321bcb5217c8f1e7efeba
+  - ref: refs/heads/for-next
+    old: 40d6a417ca1aa87115c3cf2448fb51b7b9085b9b
+    new: 9910159f9cfc629608149e1e0572c42d4148ff1f
     log: |
-         d3178e8a434b58678d99257c0387810a24042fb6 bpf: Skip invalid kfunc call in backtrack_insn
-         a3d81bc1eaef48e34dd0b9b48eefed9e02a06451 bpf: Skip task with pid=1 in send_signal_common()
-         ef01f4e25c1760920e2c94f1c232350277ace69b bpf: restore the ebpf program ID for BPF_AUDIT_UNLOAD and PERF_BPF_EVENT_PROG_UNLOAD
-         e7895f017b79410bf4591396a733b876dc1e0e9d bpf: remove the do_idr_lock parameter from bpf_prog_free_id()
-         9f907439dc80e4a2fcfb949927b36c036468dbb3 bpf: hash map, avoid deadlock with suitable hash mask
-         e4f4db47794c9f474b184ee1418f42e6a07412b6 bpf: Fix pointer-leak due to insufficient speculative store bypass mitigation
-         423c1d363c4659fcaca321bcb5217c8f1e7efeba Merge tag 'for-netdev' of https://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
+         2762f594d0537bd1d864d7d8d9a04db16d4aac36 ARM: dts: aspeed: bletchley: Rename flash1 label
+         9910159f9cfc629608149e1e0572c42d4148ff1f ARM: dts: aspeed: bletchley: Enable wdtrst1
          
