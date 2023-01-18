@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/herbert/cryptodev-2.6
-Date: Wed, 18 Jan 2023 09:22:52 -0000
-Message-Id: <167403377263.23391.10572005846967326235@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/printk/linux
+Date: Wed, 18 Jan 2023 09:27:40 -0000
+Message-Id: <167403406010.26434.10510799229165661704@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/herbert/cryptodev-2.6
-user: herbert
+repo: pub/scm/linux/kernel/git/printk/linux
+user: pmladek
 changes:
-  - ref: refs/heads/master
-    old: f81c1d4a6d3f6b9f31cb8feec13a4357b68a95d6
-    new: 596f674dc9a7b5456f6b01de3211e0b820786dc8
+  - ref: refs/heads/rework/buffers-cleanup
+    old: b0975c47c2178e35038b12ad63f17c64bb522684
+    new: d551afc25878924991a4c65299dfa83df1cb9ef8
     log: |
-         596f674dc9a7b5456f6b01de3211e0b820786dc8 crypto: p10-aes-gcm - Revert implementation
+         d551afc25878924991a4c65299dfa83df1cb9ef8 printk: Use scnprintf() to print the message about the dropped messages on a console
          
