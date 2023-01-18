@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1172630921369928862=="
+Content-Type: multipart/mixed; boundary="===============5255676791535232834=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Wed, 18 Jan 2023 16:50:32 -0000
-Message-Id: <167406063208.10772.5866458486325192289@gitolite.kernel.org>
+Date: Wed, 18 Jan 2023 16:51:06 -0000
+Message-Id: <167406066693.11015.5410851322236431922@gitolite.kernel.org>
 
---===============1172630921369928862==
+--===============5255676791535232834==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: ea22f4319c3409d847d70eaaf149cc480a73220d
-    new: b9fb10d131b8c84af9bb14e2078d5c63600c7dea
-    log: revlist-ea22f4319c34-b9fb10d131b8.txt
+  - ref: refs/heads/dev-queue
+    old: e3f5e33e25be375bfe23533d541eeaade24fadad
+    new: ca7147096da609072b02bfa53304477201f4d84b
+    log: revlist-e3f5e33e25be-ca7147096da6.txt
 
---===============1172630921369928862==
+--===============5255676791535232834==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ea22f4319c34-b9fb10d131b8.txt
+Content-Disposition: attachment; filename=revlist-e3f5e33e25be-ca7147096da6.txt
 
 d3178e8a434b58678d99257c0387810a24042fb6 bpf: Skip invalid kfunc call in backtrack_insn
 a3d81bc1eaef48e34dd0b9b48eefed9e02a06451 bpf: Skip task with pid=1 in send_signal_common()
@@ -72,5 +72,23 @@ e9d50f76fe1f7f6f251114919247445fb5cb3734 Bluetooth: hci_event: Fix Invalid wait 
 7b90f5a665acd46efbbfa677a3a3a18d01ad6487 net: macb: fix PTP TX timestamp failure due to packet padding
 d71ebe8114b4bf622804b810f5e274069060a174 virtio-net: correctly enable callback during start_xmit
 b9fb10d131b8c84af9bb14e2078d5c63600c7dea l2tp: prevent lockdep issue in l2tp_tunnel_register()
+3a0c2e2d563b1b443dd287b739c1bb1dd6f31908 x86/pci: Simplify is_mmconf_reserved() messages
+1b744dda58c836a61de1b2df7b8d4b233274d761 x86/pci: Treat EfiMemoryMappedIO as reservation of ECAM space
+bee0ec3c0e2652d95f4700ab1355f8e932ffbe62 iavf: Fix shutdown pci callback to match the remove one
+f1bf3c2029cb3dfdb931f304de491e17ddbd4eb8 intel/igbvf: free irq on the error path in igbvf_request_msix()
+9efa2e00260270b5c3699f13954fc68c5c76913e igb: Enable SR-IOV after reinit
+496042f54bae79cbcd6c2cd65d92f697f90b72cc ice: Fix broken link in ice NAPI doc
+2baf82d5da66b044cf1dceec7853dc9422b7e7c1 igbvf: Regard vf reset nack as success
+01ea18d450d09450a4e25b636c6fd0083827a33f igb: conditionalize I2C bit banging on external thermal sensor support
+9ed205494f714536debe8e90323a740ad06688e3 ice: switch: fix potential memleak in ice_add_adv_recipe()
+93f52f3a10dcb1ff20f698e2a6666d4d55e0b1b9 ice: Prevent set_channel from changing queues while RDMA active
+276d676e1f2410e65cdddebe6ca37cdd98bce99b ice: double lock on adev_mutex
+9fa1617f45215ed221699752bd6b19e07d47b3bf i40e: Fix crash when rebuild fails in i40e_xdp_setup
+726bcd59c182ba2ddaf321ee8f7e8ef841329a1d ice: fix out-of-bounds KASAN warning in virtchnl
+055540fbc3422229881942c049242327bec03ad6 iavf: fix temporary deadlock and failure to set MAC address
+a5c29a20d3b9359d38de6c9cea3054a38dd9088a iavf: Move netdev_update_features() into watchdog task
+a52d0a4698dc8c85628bd237fd2ca0f62461016d iavf: schedule watchdog immediately when changing primary MAC
+3b9a71f4c9a41bdba0d6e53c5c8e7cffde40dd3f ice: move devlink port creation/deletion
+ca7147096da609072b02bfa53304477201f4d84b ice: avoid bonding causing auxiliary plug/unplug under RTNL lock
 
---===============1172630921369928862==--
+--===============5255676791535232834==--
