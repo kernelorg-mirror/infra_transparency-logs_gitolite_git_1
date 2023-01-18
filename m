@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Wed, 18 Jan 2023 23:21:03 -0000
-Message-Id: <167408406383.15321.10530537831990261263@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/thermal/linux
+Date: Wed, 18 Jan 2023 23:40:23 -0000
+Message-Id: <167408522357.27205.11371723483598238501@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/thermal/linux
+user: daniel.lezcano
 changes:
-  - ref: refs/heads/master
-    old: c31bdddefa3e8f3a8bf72172ae487837790d784f
-    new: d409b4812c5adc35f7872b2a0af9902850f73e70
+  - ref: refs/heads/thermal/bleeding-edge
+    old: f8887fdcf2a7da2d05de95a81ec35571f2323c2e
+    new: 0d568e144ead70189e7f16066dcb155b78ff9266
     log: |
-         d409b4812c5adc35f7872b2a0af9902850f73e70 Wed Jan 18 11:20:04 PM UTC 2023
+         4bb6439371e9f8bec6ee6016a7267f8f65ba7b8e thermal/acpi: Add ACPI trip point routines
+         9e631aa90c973b7f5db93b90715d49094e28054a thermal/drivers/intel: Use generic trip points for intel_pch
+         0d568e144ead70189e7f16066dcb155b78ff9266 thermal/drivers/intel: Use generic trip points int340x
          
