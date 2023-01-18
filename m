@@ -1,29 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 18 Jan 2023 10:39:05 -0000
-Message-Id: <167403834597.21740.13067921473590159830@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============6995001234569798009=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Wed, 18 Jan 2023 10:43:33 -0000
+Message-Id: <167403861312.24664.9462270693106952995@gitolite.kernel.org>
+
+--===============6995001234569798009==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 0074866d138face473e3c2aab9169bc4476be21f
-    new: 205c3682981b6c53ced1c508c205a75b698cdd47
+    old: 18b48e1c446a38f2b43f9d9daf5876bf15c72605
+    new: 1a22f287681228a15b42b857edf0b1dab81e314d
     log: |
-         eaf2213ba563b2d74a1f2c13a6b258273f689802 tomoyo: fix broken dependency on *.conf.default
-         df4840c1b880136fea97a1d64724995778c2475f tomoyo: avoid unneeded creation of builtin-policy.h
-         80f8be7af03ffe90dc4df998b16bfa212afbdde9 tomoyo: Omit use of bin2c
-         e6cf91b7b47ff82b624bdfe2fdcde32bb52e71dd NFSD: fix use-after-free in nfsd4_ssc_setup_dul()
-         f385f7d244134246f984975ed34cd75f77de479f NFSD: register/unregister of nfsd-client shrinker at nfsd startup/shutdown time
-         7c24fa225081f31bc6da6a355c1ba801889ab29a NFSD: replace delayed_work with work_struct for nfsd_client_shrinker
-         1ed8a46256771de283772d482403691807214cf7 tomoyo: Remove "select SRCU"
-         fa17087e244263627a01d6a9b76b8fdaf410de34 tomoyo: Update website link
-         2bbb0674c93f9373f12048786b4638b055243112 Merge tag 'tomoyo-pr-20230117' of git://git.osdn.net/gitroot/tomoyo/tomoyo-test1
-         c1649ec55708ae42091a2f1bca1ab49ecd722d55 Merge tag 'nfsd-6.2-4' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
-         205c3682981b6c53ced1c508c205a75b698cdd47 Merge branch 'linus'
+         1a22f287681228a15b42b857edf0b1dab81e314d Linux 5.4.229
          
+
+--===============6995001234569798009==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1674038612 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1674038611-17395eda0b7d5835b44d0f21c49497325cb03f46
+
+18b48e1c446a38f2b43f9d9daf5876bf15c72605 1a22f287681228a15b42b857edf0b1dab81e314d refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPHzVQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+gfsP/isyTEatj31Ofv4YvgUp
+itf2N56UWmamyatoXG7jrXGkDANSsdb5BeMpajTTOr9KD+xX3V2BrykD+vPvpDV9
+McloMBDOTXdY2iP+NQXLkSyUnJ1JVyiZdopkNI0wMhUZtLg/dVm503eN3GyPc3vj
+kLKrDqQjsvYecH8HHt/YZ1dM1w4sHcRDauMq8N4m6Z4RABm/2+ov2G0W4olaWP55
+m2V6T02FZkwQOQdgnCPkPeixAxhPZtia+pqRqA7TgXut1Y1WTrRH3xXNWJ/jDt7n
+reAP1BMlUN6sZwVX7RlcNpjd7BEnGYPANtET4hqQb3tqRsj1ahMRYX5L76gegFsl
+orcMFp8FRjUeKqSVjweBbq3fxZmINeHP/9oAZhuwg0Sf30KsSzVVodVBaJ+03GYv
+Ydp0KJsdFyRn+bJHrlo6hjbe3eQKGh0CeWb/e1ubA6lm6CXQ51v3laQ8smS/2EXd
+UmGYujKzldwJZ6AYkSLjlbYyMUAhkGwXWbaCVE7ulzCafMl5tdcwboDm/lMg7T6U
+SF+Opoz5zDn9/Bh6y0LvfiVgoZoHJL6cegvTcab5IKTccQvXO73LiIsxdlavn3H5
+TGiuJSoYBOxTDk3fsLnzX/jkhJkwkkIfDQboX33haWGdOMePlPnWoHBLpoMYEmxi
+bH5egfvnWMtDUDVfgcXnZGl5
+=31Fx
+-----END PGP SIGNATURE-----
+
+--===============6995001234569798009==--
