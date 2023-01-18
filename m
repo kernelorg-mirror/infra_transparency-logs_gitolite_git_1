@@ -1,29 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vkoul/dmaengine
-Date: Wed, 18 Jan 2023 16:49:28 -0000
-Message-Id: <167406056895.8720.3894723006084935680@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Wed, 18 Jan 2023 16:50:02 -0000
+Message-Id: <167406060299.9794.12583300211322032255@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vkoul/dmaengine
-user: vkoul
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/fixes
-    old: 1417f59ac0b02130ee56c0c50794b9b257be3d17
-    new: a7a7ee6f5a019ad72852c001abbce50d35e992f2
+  - ref: refs/heads/for-6.3/block
+    old: 5d5ce3a05940b3d72cfe8a6d22efd8e533f59d80
+    new: 08a39c820686f87351b21c6cf6af76a40677d3af
     log: |
-         596b53ccc36a546ab28e8897315c5b4d1d5a0200 dmaengine: xilinx_dma: call of_node_put() when breaking out of for_each_child_of_node()
-         a7a7ee6f5a019ad72852c001abbce50d35e992f2 dmaengine: tegra: Fix memory leak in terminate_all()
+         08a39c820686f87351b21c6cf6af76a40677d3af blk-iocost: avoid 64-bit division in ioc_timer_fn
          
-  - ref: refs/heads/next
-    old: faab12342f5a4579f066a9e9dcfa97d3e60cf36f
-    new: 4b23603a251d24022f2fa48ee67610eb245a4115
+  - ref: refs/heads/for-next
+    old: d765d1a9255b38d93f1c91a4fa420ebb2d97f362
+    new: d0df41fe237a734dc41b0b1dd38766fac2adc887
     log: |
-         610b573e5169336e99092dbf7071fdf08222c3f1 dmaengine: at_xdmac: align properly function members
-         650b0e990cbd7e214251a173460f79f3681e8233 dmaengine: at_xdmac: add runtime pm support
-         531d4dfcfd164f575d7b12c784b63c762da1fbf4 dmaengine: at_xdmac: remove empty line
-         4b23603a251d24022f2fa48ee67610eb245a4115 dmaengine: drivers: Use devm_platform_ioremap_resource()
+         08a39c820686f87351b21c6cf6af76a40677d3af blk-iocost: avoid 64-bit division in ioc_timer_fn
+         d0df41fe237a734dc41b0b1dd38766fac2adc887 Merge branch 'for-6.3/block' into for-next
          
