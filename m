@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/legion/linux
-Date: Wed, 18 Jan 2023 13:40:11 -0000
-Message-Id: <167404921141.10838.6267514267430057379@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Wed, 18 Jan 2023 13:41:50 -0000
+Message-Id: <167404931039.11379.11502958244661756494@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/legion/linux
-user: legion
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/tags/patchset/sysctl-next/v3.4
-    old: 9b3d9090d51495ddd1991d0c43fa88eeeb69045a
+  - ref: refs/heads/filevv0yRF
+    old: e7e2b92e609f82cd164209509f852de941e1285b
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/patchset/sysctl-next/v3.4/cover
-    old: 0000000000000000000000000000000000000000
-    new: 3b46e8aa4a6e94416decfded6406c82647638378
