@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 19 Jan 2023 17:27:36 -0000
-Message-Id: <167414925696.11242.2092555109995965050@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Thu, 19 Jan 2023 17:35:26 -0000
+Message-Id: <167414972638.16744.8256583723710008636@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/heads/master
-    old: 5c312574e683a3e59d86fa99f2822c0c7aa74be6
-    new: 903848249a781d76d59561d51676c95b3a4d7162
+  - ref: refs/heads/nfsd-next
+    old: e6f05064a96a7e9da18dd49a2bbecf8c3aea7d2b
+    new: 188f50c339aa09f56faf778e262a2f0ab1911690
     log: |
-         8ccc99362b60c6f27bb46f36fdaaccf4ef0303de net/ulp: use consistent error code when blocking ULP
-         903848249a781d76d59561d51676c95b3a4d7162 selftests/net: toeplitz: fix race on tpacket_v3 block close
+         188f50c339aa09f56faf778e262a2f0ab1911690 nfsd: don't free files unconditionally in __nfsd_file_cache_purge
          
