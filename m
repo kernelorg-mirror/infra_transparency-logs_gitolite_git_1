@@ -1,22 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
-Date: Thu, 19 Jan 2023 02:51:31 -0000
-Message-Id: <167409669124.31139.3794567566264667400@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
+Date: Thu, 19 Jan 2023 03:16:29 -0000
+Message-Id: <167409818917.15347.1278518475994038287@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/qcom/linux
-user: andersson
+repo: pub/scm/linux/kernel/git/kees/linux
+user: kees
 changes:
-  - ref: refs/heads/for-next
-    old: f0d84ae7749f9b7f17c18f7a5bd5f9aec77c84c9
-    new: a644f7a1f1f25bfa85a6e62dbb6e208c66cae62b
+  - ref: refs/heads/for-linus/hardening
+    old: 663b86148201404f950fb0008a09712310adcde0
+    new: c0c17021466e2414467a7e0a682fb0bec48db814
     log: |
-         8c8acefcee87957cb3564c7180e667f0403121f1 dt-bindings: clock: Add QDU1000 and QRU1000 GCC clocks
-         f0a670211186af38cc5595832a69c1dfc82a37e1 Merge branch '20230112204446.30236-2-quic_molvera@quicinc.com' into HEAD
-         1c9efb0bc0406b088f3d4b4a433f49e3cd7addaf clk: qcom: Add QDU1000 and QRU1000 GCC support
-         a644f7a1f1f25bfa85a6e62dbb6e208c66cae62b Merge branches 'arm64-defconfig-for-6.3', 'arm64-for-6.3', 'clk-for-6.3', 'drivers-for-6.3' and 'dts-for-6.3' into for-next
+         bce202215ab009429c3287d6df883e3237595eb8 kunit: memcpy: Split slow memcpy tests into MEMCPY_SLOW_KUNIT_TEST
+         866eeebe74a54a8f938902c809673f117a9b6ae7 gcc-plugins: Reorganize gimple includes for GCC 13
+         c0c17021466e2414467a7e0a682fb0bec48db814 bnxt: Do not read past the end of test names
          
