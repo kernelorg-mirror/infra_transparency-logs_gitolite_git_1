@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/fio
-Date: Thu, 19 Jan 2023 00:55:06 -0000
-Message-Id: <167408970664.13231.15834898284155485253@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Thu, 19 Jan 2023 00:57:02 -0000
+Message-Id: <167408982229.13900.10623760925329953011@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/fio
-user: axboe
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/master
-    old: 44834c57f944074684c1b58604cc44199cf5e633
-    new: 69bb4b00b20047e7b5af9a6e35cc872cae605071
+  - ref: refs/heads/dev
+    old: a29281ad64d6309107266e9e39efc9054937b07b
+    new: fbe3e300ec8b3edd2b8f84dab4dc98947cf71eb8
     log: |
-         0d672d86a391ac5079518c2dea3f611cd048f842 tools/fiograph: add link to file formats
-         24ff9393bc3e85c8fb04ca4c2d47adaf5f688e58 tools/fiograph: improve default output file name
-         69bb4b00b20047e7b5af9a6e35cc872cae605071 tools/fiograph: improve default config file search
+         fbe3e300ec8b3edd2b8f84dab4dc98947cf71eb8 rcu: Remove never-set needwake assignment from rcu_report_qs_rdp()
          
