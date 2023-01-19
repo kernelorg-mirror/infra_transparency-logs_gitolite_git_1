@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3970982904052550902=="
+Content-Type: multipart/mixed; boundary="===============3823190416491188743=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Thu, 19 Jan 2023 13:24:13 -0000
-Message-Id: <167413465336.7889.16818919473902128010@gitolite.kernel.org>
+Date: Thu, 19 Jan 2023 13:24:40 -0000
+Message-Id: <167413468084.8103.10913812847802397160@gitolite.kernel.org>
 
---===============3970982904052550902==
+--===============3823190416491188743==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,41 +17,48 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/staging-testing
-    old: 4193769b6dfd7ddc5ec5e2ccae6458f4ba65797f
-    new: 049e40ef203ebdf530cb37a3f5f7752d0c07b288
+    old: 049e40ef203ebdf530cb37a3f5f7752d0c07b288
+    new: 2636455b28cb477a1b74c570023ac505ff1a3890
     log: |
-         f6510a93cfd8c6c79b4dda0f2967cdc6df42eff4 staging: emxx_udc: Add checks for dma_alloc_coherent()
-         049e40ef203ebdf530cb37a3f5f7752d0c07b288 staging: wlan-ng: Remove unused code
+         448a586b71fe603a98cd9e335fbe115ea1137f0b staging: rtl8192e: Rename LongRetryL.., ShortRetryL.. and ReceiveConfig
+         0dd7c4d8c5fab44fd62cb02fa6c56537a5b74537 staging: rtl8192e: Rename LastRxDescTSF, LoopbackMode and pFirmware
+         779c9e938d824dcd6489bc1064a3a58d66d918bc staging: rtl8192e: Rename PHYRegDef, CurrentChannelBW and CustomerID
+         f48cc55bf37d2dcf5a9061ff6d644e56b45b458c staging: rtl8192e: Remove unused variable SifsTime
+         1032f497c5a1f42e3add5939605dae9b0f16f06a staging: rtl8192e: Remove unused variable framesyncC34
+         bc989fff450e8fbbc049b9858d56d572731283d2 staging: rtl8192e: Remove unused variable PwrDomainProtect
+         5190cd2a203d125b2dfb7eaabdad496811e9d5fd staging: rtl8192e: Remove unused variable H2CTxCmdSeq
+         a749318330a4729210c1a67b27e4807aec85552d staging: rtl8192e: Remove unused variable RF_C_TxPwDiff
+         2636455b28cb477a1b74c570023ac505ff1a3890 staging: rtl8192e: Remove unused variable DM_Type
          
 
---===============3970982904052550902==
+--===============3823190416491188743==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1674134652 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1674134679 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1674134651-32a5d20b7d588fdbf67f1b100b5e9e0f7cb8c76a
+nonce 1674134678-4d31ac756a0a158b79d698a0bad04be0cd52d950
 
-4193769b6dfd7ddc5ec5e2ccae6458f4ba65797f 049e40ef203ebdf530cb37a3f5f7752d0c07b288 refs/heads/staging-testing
+049e40ef203ebdf530cb37a3f5f7752d0c07b288 2636455b28cb477a1b74c570023ac505ff1a3890 refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPJRHwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk++1wP/2dBH/pXLUCKJ5JnyaF/
-jcM2iSgCCIPNibVi/XyWO47ASPZqCn8clZPrZAhQ3NqcaT5rHhkfY+C6r5tfpKzV
-DDs/nz4UqETqI55TY2k67p5LxuQkyOFxziFnxP+zIiOC7RxoPcgeRVTourKTD3ac
-lYGi2oBcxiikkOXmRCs1+ndwiBo0E1KGA+nVooLVgr6bvGt+Bvu0dRkk+ZAw8ugI
-2tIuBg4TJ77LFyvO6BCSML0OOmsaTXBttuDYQoqeC64HuOT22e2ByAUt7G2tufLK
-9zHxaCMv8AKu0mUgJdeAPHbTmQVFv0p70dL/aVlbZD036OlefZdC89Bzy5YbaN+J
-QE1lUklTlyRUnY1mqxeqKDlJ1VRctc/NsT8CYfylKC+S7b3r6XbcCAhQbvOhdoYA
-DROeDK1MAfKNv19cNFPzZpDCTXc4j+bujB2SWZrvSJanPtYFRQdKVi0ZXCViNb8B
-P8gZh/5QjlX4/nXVg4HU++bwaPw+sGAFt7L1ignRRTU8r0OYj8HDjhCDWq5M2CSS
-hWUrBMnCozmh0YHu7rzt6UaTIVtZIoNSyPBTkEwluBBjqKOrj+DuMd1uyTp95tBt
-yDTV90aJS8Ki9S/8B9La/48tg846q4uZJmOhE4LgeGnYdqWmskqzYUilvKu6r2xa
-cVKpj4a2wIdLPYslgeW0zI0B
-=zupk
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPJRJcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+occP/3I2IuK21uLGdrNEM7uT
+0r0sGwhSk7+0X6EVbWhUvNAWzcau6XR56hyWr3/H8CM9KaCily1Qe94AjQkchKbr
+2U5W7SRU9U1WiOm635ETnz3jgdA3LNAScEI7DHGYGTnXrhM0F5Xemmp+ZTqk78yv
+3Q3Bkvf9hMVzVo9oYNL0YpoG4oS5xWP93xxRtZUr1OZ1vClkeqjOR1FmGKNZ9h18
+fUQ9cXUYT/Spe+0EMyLJeOcWjfaKkLcCic5NoAUkqF2NqtNtvt6TDM3aK35UoeOg
+WPDFszYbhEujItu706bf+SdSWEWAmq7lgA8IB/2/9CHZ26bd6/nJ2ZJJFqfsOwiN
+gHc9wszH4mu4EAt7v2vxsg+Vz4GxVGnS5jTuHv3AFOl2YA949H+ae4ur6H+lQkQe
+PydAAdplbAR7YKRdXVT24tkmxTmCUjRncl8Q8JvTVgBsjip4b3n+Cei4FirrffjO
+xJPnoUg2QDn773abMvS8GeL7BUQg7gBRKEhvA9Pnc4xPK0JydJNSqV4UV5KNNXnT
+agCVhcmahCsRkiQJzfewJ8nX7jbM+odY3gscs/q0HV7jAn78BtLoIjpMwY8fAIsF
+vhcfrGv4wdIVLRBaTAUVkHIkTVpB6ZyX5fAVb45DAAEhZskVCnL6avs31RWj8xNB
+zfzmEjxIvW+J9TnKOmEqkj6u
+=R3gm
 -----END PGP SIGNATURE-----
 
---===============3970982904052550902==--
+--===============3823190416491188743==--
