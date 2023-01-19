@@ -1,34 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Thu, 19 Jan 2023 20:07:59 -0000
-Message-Id: <167415887949.22363.3809774308344300975@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Thu, 19 Jan 2023 20:30:37 -0000
+Message-Id: <167416023719.6061.8849302570844372934@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rafael/linux-pm
-user: rafael
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/bleeding-edge
-    old: de3cb8df1b55d772b53ef46b16c307544157d7c9
-    new: ee391c142b7e153701eb16fcc63fb9ed9624a572
+  - ref: refs/heads/master
+    old: 081edded9b38ba6a3a8fa045cfa0d374343da08a
+    new: a03df4ec37291de74987e4fbfbbcaebb5a8f9a2e
     log: |
-         6c54b7bc8a31ce0f7cc7f8deef05067df414f1d8 thermal: core: call put_device() only after device_register() fails
-         ee391c142b7e153701eb16fcc63fb9ed9624a572 Merge branch 'thermal-core' into bleeding-edge
-         
-  - ref: refs/heads/linux-next
-    old: b0d270d3de7f9d1b518782c498c8cb6b6897429c
-    new: afd822f01cda9833bb5a4525a0dd36c689c5941a
-    log: |
-         6c54b7bc8a31ce0f7cc7f8deef05067df414f1d8 thermal: core: call put_device() only after device_register() fails
-         afd822f01cda9833bb5a4525a0dd36c689c5941a Merge branch 'thermal-core' into linux-next
-         
-  - ref: refs/heads/testing
-    old: b0d270d3de7f9d1b518782c498c8cb6b6897429c
-    new: afd822f01cda9833bb5a4525a0dd36c689c5941a
-    log: |
-         6c54b7bc8a31ce0f7cc7f8deef05067df414f1d8 thermal: core: call put_device() only after device_register() fails
-         afd822f01cda9833bb5a4525a0dd36c689c5941a Merge branch 'thermal-core' into linux-next
+         cc2e9d2b26c86c1dd8687f6916e5f621bcacd6f7 mm, slab: periodically resched in drain_freelist()
+         41e1992665a2701fa025a8b76970c43b4148446f s390: workaround invalid gcc-11 out of bounds read warning
+         46f0cba31ccc28cfb3e65d0ab49a9a7e58c0ef9f Merge tag 'slab-for-6.2-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/vbabka/slab
+         a03df4ec37291de74987e4fbfbbcaebb5a8f9a2e Merge tag 's390-6.2-3' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
          
