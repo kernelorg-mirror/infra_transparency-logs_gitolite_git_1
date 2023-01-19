@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0609223566684373583=="
+Content-Type: multipart/mixed; boundary="===============4407036462484894489=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Thu, 19 Jan 2023 13:43:41 -0000
-Message-Id: <167413582192.19972.1046923492364290563@gitolite.kernel.org>
+Date: Thu, 19 Jan 2023 13:46:00 -0000
+Message-Id: <167413596089.23554.10583171181162425436@gitolite.kernel.org>
 
---===============0609223566684373583==
+--===============4407036462484894489==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,41 +16,41 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-testing
-    old: ed9f918174cb35ba51d2fc86a613305dd8bc4cfe
-    new: 52af7863508e94f3e05e43a3f2f3943a71dcffab
+  - ref: refs/heads/driver-core-linus
+    old: b7bfaa761d760e72a969d116517eaa12e404c262
+    new: 39af728649b05e88a2b40e714feeee6451c3f18e
     log: |
-         52af7863508e94f3e05e43a3f2f3943a71dcffab device property: Make fwnode_graph_for_each_endpoint() consistent
+         39af728649b05e88a2b40e714feeee6451c3f18e device property: fix of node refcount leak in fwnode_graph_get_next_endpoint()
          
 
---===============0609223566684373583==
+--===============4407036462484894489==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1674135820 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1674135959 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1674135819-5e22062e4db863b5d86893f8ffbc30616fd2e62e
+nonce 1674135959-3824df480fe7199e67b29cf3395b097c23e749c6
 
-ed9f918174cb35ba51d2fc86a613305dd8bc4cfe 52af7863508e94f3e05e43a3f2f3943a71dcffab refs/heads/driver-core-testing
+b7bfaa761d760e72a969d116517eaa12e404c262 39af728649b05e88a2b40e714feeee6451c3f18e refs/heads/driver-core-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPJSQwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+6eYP+gJ+7ovH9eSo/VG9gs1m
-4knNZmTKMY1MVX5fqPa8rjHWIMhHINkz8FEKv0SZcy1ud+pmDiZ5vN9ucqhgeQO2
-8RzVjhXzHZiE8FTvbWhuLpT2zp/8lHUe3rGylRq/fI/n/516uu5q0oZSAfPH4vxw
-s9Omn2uSWeyMSry9BbeFH43g9ozDcYkOUk93o65kUcqtI17LWUSeGuwBoz84xGaH
-LoyVfCVa6LiNN0fPMPEtHFpaGCzKazs2OyErP5Ww8aZR4mu1dZ6tJqbnw2LyUa4Q
-ZBcOmG+iUwy0sq5xzFpfUjQ8kOVDdRITA7JKU85a+Tc6Tce9Az0qmvisVRKXrgJs
-1eOE1tetcrQ9BMa0hT5ZTm548jBir2T2pn3rWptqNUk62gxhha0ikrxqyT9PYnA8
-3rrCUW31nLkL/tk0J+aGlYuQRMWXcJPAk5iL2xyEDeu/Ql+PoE4d145/Bozu89jm
-t4XMHgdtnTUUJNMnw2Z6WDRmScl2zGx9IXK9+YN6SdebnJNinmMD8zQEU1/79aHp
-fzdCTLuQgbw+LCvV66b6+CQyRp1tbUfgLyFZZhXk8hWBD/MFhWiv5EgInJSMZMnM
-NUF6nwTtRhWY542FfibV9F2UQxOOZ1CN0JW/DuAkJxYumpbC91hi+qrUhx5ws15y
-R8cdMlB/iDagQip5xqqagYHp
-=yLPI
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPJSZcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+QagP/2PWzXQKMkDmpQ7wYmqO
+sLPG/8051V26AGQxse22atYUAxJrB5XbK88VCfsCr5ZmpeQIWrqRHdftJG8z5nsu
+IM9tecpjI8Emwk8ac4HdQt+JsgId6jM55+0rATizznLLLXOHB4+dZpqpZB66xwyV
+cR33i97wwAehWaRlljSrk8mY7FdUvGNIKY/3pmL7Ej0r7WqUQp/A3t4bsvNNh7xN
+nHHrlyqk4EuCg6wViU2m9YIgHhPtgNCrncVPkELqvYU/jEPSJLQ8GDwMFg8X6sRH
+I60hXtMEcqJrL+VcWGlM77mOH9kFmAsn3nvRYAXQGAr4GZgCBpI6kLZnqWQfb8Xx
+/q1dVYXvZSUW/i9/px8mzXUU+n31QWPrQuaDahcxSd9sMRI9aEMyYEdd7X4RUy2h
+FhtDPPnVv+AwTjZrUX8D7gSOQGqlC17c9ikom9ILxIwobNg9pIbqgKRMn74qox4W
+DEB57gcKApAEGLbt+gqM9xzNsfD5t8XTYlx7uVeMI6wgCmAriyfBEbZ0mEnPLL3p
+hIBPRNQxdpfLK5WOE49Rm+ufu87k6zdqpOGGmDrjDJuwCmCXAataaPspbpfORkTA
+nCgTeNVeLl0pSS/HyVt1hU4HDXXsaSVxiVOVgPpzUk7Iv+y7BniBZK8FNYbDczaz
+0fVvdURgfgu9e/QKQymKZjRl
+=6HbU
 -----END PGP SIGNATURE-----
 
---===============0609223566684373583==--
+--===============4407036462484894489==--
