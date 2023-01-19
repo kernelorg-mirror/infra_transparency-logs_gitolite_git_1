@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/matthias.bgg/linux
-Date: Thu, 19 Jan 2023 17:20:16 -0000
-Message-Id: <167414881689.7497.12326943926347254006@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 19 Jan 2023 17:27:36 -0000
+Message-Id: <167414925696.11242.2092555109995965050@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/matthias.bgg/linux
-user: matthias.bgg
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/v6.2-next/soc
-    old: a7596e62dac7318456c1aa9af5bfccf0f8e6ad7e
-    new: e610e81464e4e52645a0f5d259b8a9e3632db6ff
+  - ref: refs/heads/master
+    old: 5c312574e683a3e59d86fa99f2822c0c7aa74be6
+    new: 903848249a781d76d59561d51676c95b3a4d7162
     log: |
-         1725dde87f1eb560497a3be85d3973a7deea7fa4 dt-bindings: power: Add MT8188 power domains
-         e610e81464e4e52645a0f5d259b8a9e3632db6ff soc: mediatek: pm-domains: Add support for mt8188
+         8ccc99362b60c6f27bb46f36fdaaccf4ef0303de net/ulp: use consistent error code when blocking ULP
+         903848249a781d76d59561d51676c95b3a4d7162 selftests/net: toeplitz: fix race on tpacket_v3 block close
          
