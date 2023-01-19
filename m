@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Thu, 19 Jan 2023 20:32:54 -0000
-Message-Id: <167416037409.6871.12349443409320884578@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jfern/linux
+Date: Thu, 19 Jan 2023 20:34:04 -0000
+Message-Id: <167416044462.7294.17834999543422639955@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/jfern/linux
+user: jfern
 changes:
-  - ref: refs/heads/master
-    old: a03df4ec37291de74987e4fbfbbcaebb5a8f9a2e
-    new: d368967cb1039b5c4cccb62b5a4b9468c50cd143
+  - ref: refs/heads/staging
+    old: 2a274846e4bd67d73a93d633f1deb44bf403dba6
+    new: b1a7e8ce2e38b62e895c62132f78cb4585137846
     log: |
-         3ef5abd9b5c738bc6fa9a65e40331ef2cb03ad9c tty: serial: kgdboc: fix mutex locking order for configure_kgdboc()
-         4fe59a130c112460626a6a8b9232aa580d9b8efc kernel/printk/printk.c: Fix W=1 kernel-doc warning
-         21493c6e96e550509ead696ecca9f0d7196ee91c Merge branch 'rework/console-list-lock' into for-linus
-         d368967cb1039b5c4cccb62b5a4b9468c50cd143 Merge tag 'printk-for-6.2-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/printk/linux
+         b1a7e8ce2e38b62e895c62132f78cb4585137846 Fix cpu_is_hotpluggable() by checking with NOHZ tick subsystem
          
