@@ -1,53 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============7971308329729791360=="
+Content-Type: multipart/mixed; boundary="===============1874052667765715731=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 19 Jan 2023 10:12:13 -0000
-Message-Id: <167412313364.10021.1850856812137487744@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
+Date: Thu, 19 Jan 2023 10:12:28 -0000
+Message-Id: <167412314884.10179.5545236852634151450@gitolite.kernel.org>
 
---===============7971308329729791360==
+--===============1874052667765715731==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/sudeep.holla/linux
+user: sudeep.holla
 changes:
-  - ref: refs/heads/auto-latest
-    old: b7a46a47bcea9214cb561132381c8f1e61854796
-    new: 195df42eb64dcb82172248002e78456f67310b8e
-    log: revlist-b7a46a47bcea-195df42eb64d.txt
-  - ref: refs/heads/master
-    old: b7a46a47bcea9214cb561132381c8f1e61854796
-    new: 195df42eb64dcb82172248002e78456f67310b8e
-    log: revlist-b7a46a47bcea-195df42eb64d.txt
+  - ref: refs/heads/for-next/scmi
+    old: 7afbf47e129371e178a569de28752c436e1b6597
+    new: eeb087fa365a8855e27d354b2fb0cfab6d7d3939
+    log: revlist-7afbf47e1293-eeb087fa365a.txt
 
---===============7971308329729791360==
+--===============1874052667765715731==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b7a46a47bcea-195df42eb64d.txt
+Content-Disposition: attachment; filename=revlist-7afbf47e1293-eeb087fa365a.txt
 
-4c963eb7125c3172f28821d7dcd4ac0cac3b56b3 Merge branch into tip/master: 'irq/urgent'
-e34eb735111718e4dd6ff70cea09126ef522dfff Merge branch into tip/master: 'perf/urgent'
-79764b49c923db7b81e6e17087e9e43e58059088 Merge branch into tip/master: 'sched/urgent'
-615e5b1512ea5186e31242877440cccfa421723c Merge branch into tip/master: 'x86/urgent'
-67621a11ff3253457a90f38c7579f3ee08e1d43e Merge branch into tip/master: 'irq/core'
-2dadfae083684eb1e0e2544c66dcb4082ec211a6 Merge branch into tip/master: 'locking/core'
-0a982acc65c2cfb20323406c86fdb368f598f6d7 Merge branch into tip/master: 'objtool/core'
-8b52da2c2ba97da5ed866b6e6b9a578b4703e831 Merge branch into tip/master: 'perf/core'
-fdb80f213a279ee78fbe26e1b5598c8bf468bcb2 Merge branch into tip/master: 'ras/core'
-3a10e48497764fc1ab73b29dcbb96974f506d3ac Merge branch into tip/master: 'sched/core'
-6c0c7b8a1c8f4db5beab121405b7a360fabba8d8 Merge branch into tip/master: 'timers/core'
-132f8c61a7117c2785bdc62b0bd6a7421280f73f Merge branch into tip/master: 'x86/alternatives'
-bf7ace34af2e843c93c7e996c5b1b29eae56c553 Merge branch into tip/master: 'x86/asm'
-e0dbb36c7056b4aa7896dcfbfdc385b2ee9748ec Merge branch into tip/master: 'x86/boot'
-c290a9ad999bafba0ec0f008f18da2109852253f Merge branch into tip/master: 'x86/cleanups'
-091c2077a4662c5ebacfbea3bcd82b4e813b18f6 Merge branch into tip/master: 'x86/core'
-2078018d24d349e3774c794884cd401771c8854f Merge branch 'x86/cpu'
-56b0a845ffb8cbb37d0ca67194aa352c8c41ccbe Merge branch into tip/master: 'x86/microcode'
-195df42eb64dcb82172248002e78456f67310b8e Merge branch into tip/master: 'x86/platform'
+7a75b7afd8ff7b891e60b2fc9622148e6d1e010a firmware: arm_scmi: Simplify chan_available transport operation
+05a2801d8b90c1b5159618d4bd3a3c65d60f3ff1 firmware: arm_scmi: Use dedicated devices to initialize channels
+9115c20ac1ee9e92a3e751e352db818b7f95746a firmware: arm_scmi: Move protocol registration helpers
+53b8c25df7082edd78a3fc63e359abee0f28fa70 firmware: arm_scmi: Add common notifier helpers
+d3cd7c525fd2ecce3a6c963f314969a54783d211 firmware: arm_scmi: Refactor protocol device creation
+971fc0665f1361f23251e4d85fac4aed1b683505 firmware: arm_scmi: Move handle get/set helpers
+2c3e674465e73e2f7eb52c39dc5c5e97e78e68ea firmware: arm_scmi: Refactor device create/destroy helpers
+ee5dcedaf72d797ca0cdd472bbf85c8bd5c0d8e6 firmware: arm_scmi: Introduce a new lifecycle for protocol devices
+37b5be82803270626286215b5bc4427ed2a3aecb firmware: arm_scmi: Split bus and driver into distinct modules
+9374324e8d78560e9809cbecfb505adc420625ac firmware: arm_scmi: Refactor xfer in-flight registration routines
+d5552a45c82838710f5e1e7e91a9305aaec4d8db firmware: arm_scmi: Refactor polling helpers
+ac49e46c453a7d0c137c13d025a12c57ecf402bb firmware: arm_scmi: Refactor scmi_wait_for_message_response
+0eb24e5a0eada6db0ccb3ffb763ece4a8259b66c firmware: arm_scmi: Add flags field to xfer
+aaa9d521b01a5cf3316a453482735796c10b59ac firmware: arm_scmi: Add xfer helpers to provide raw access
+5e15c2197fc778970b8be38988a1b5866aeac887 firmware: arm_scmi: Move errors defs and code to common.h
+5b6034808c96f25b0a8ed643d8aee509a02ff0be firmware: arm_scmi: Add internal platform/channel identifiers
+bd752cc79916e36779a6d42ca522e4d2b6ab709f include: trace: Add platform and channel instance references
+cade53b60a040c0fd392deb6b3a021500ffd9196 debugfs: Export debugfs_create_str symbol
+f5bc54a5041be08bd8140430091682040ae1cbe7 firmware: arm_scmi: Populate a common SCMI debugfs root
+b5dc013d98b492253228a28579b8ffbce40050dd firmware: arm_scmi: Add debugfs ABI documentation for common entries
+e789a8ab15b0fa3b778602078f0b32d843469f4c firmware: arm_scmi: Add core raw transmission support
+25376d813405be3021536268b548e64a2b89cec2 firmware: arm_scmi: Add debugfs ABI documentation for raw mode
+9e834da670ce4021b444e55a01e07cecaeeeed73 firmware: arm_scmi: Reject SCMI drivers when configured in raw mode
+a6fb9dc05c8c7abf950daaa415b2f394e0ab0901 firmware: arm_scmi: Call raw mode hooks from the core stack
+145f036262579c124ca9c966c846c1a70154f93c firmware: arm_scmi: Add the raw mode co-existence support
+eeb087fa365a8855e27d354b2fb0cfab6d7d3939 firmware: arm_scmi: Add per-channel raw injection support
 
---===============7971308329729791360==--
+--===============1874052667765715731==--
