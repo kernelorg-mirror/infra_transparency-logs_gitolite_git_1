@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8404061701951532597=="
+Content-Type: multipart/mixed; boundary="===============1315614144080666136=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Thu, 19 Jan 2023 14:02:18 -0000
-Message-Id: <167413693863.1704.7524317847524032878@gitolite.kernel.org>
+Date: Thu, 19 Jan 2023 14:06:00 -0000
+Message-Id: <167413716042.4407.7318403137420959976@gitolite.kernel.org>
 
---===============8404061701951532597==
+--===============1315614144080666136==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,46 +17,48 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/tty-testing
-    old: 98a59cd26e22e34ecae6af769cfc9f3b4ecd6c72
-    new: 9676ab9b073f953a586593a64908952e6f4c83ea
+    old: 9676ab9b073f953a586593a64908952e6f4c83ea
+    new: 885692ae3c17e6ef3962c826eea6bcfe871d8e5a
     log: |
-         ef460db2a7c1df5eda2ea6011e7586e54e23b8c4 serial: 8250: Use defined IER bits
-         d9c1d3cbdeec94f077679b73ed5ce3a4fe4bf4b8 serial: 8250: Name MSR literals
-         67a9aee7815d10e9227e32c3c7ea26726284eaef serial: 8250: Cleanup MCR literals
-         3398cc4f2b1592148a2ebabc5a2df3e303d4e77c serial: 8250: Add IIR FIFOs enabled field properly
-         afd216ca17b1fd24f6b73a1490752c22ab42598c serial: 8250: Define IIR 64 byte bit & cleanup related code
-         8573b2ebcea3f16680ba294bad1478eecc5de601 serial: 8250_early: Convert literals to use defines
-         9676ab9b073f953a586593a64908952e6f4c83ea dt-bindings: serial: qcom,msm-uart: Convert to DT schema
+         db4df8e9d79e7d37732c1a1b560958e8dadfefa1 tty: fix out-of-bounds access in tty_driver_lookup_tty()
+         7370a25f9315e732ab7538d6c7e85208176d8fa2 tty/vt: prevent registration of console with invalid number
+         e1d91dda0bd1b96c10ea5d85fee94021c70dd55b tty: serial: fsl_lpuart: only enable Idle Line Interrupt for non-dma case
+         1d4bd0e4ae4ba95892bef919a8d4d3f08f122d7e tty: serial: fsl_lpuart: disable Rx/Tx DMA in lpuart32_shutdown()
+         4029dfc034febb54f6dd8ea83568accc943bc088 tty: serial: fsl_lpuart: clear LPUART Status Register in lpuart32_shutdown()
+         c4c81db5cf8bc53d6160c3abf26d382c841aa434 tty: serial: fsl_lpuart: disable the CTS when send break signal
+         10929eac4144a656a966da69d8a5491395dc0a99 tty: serial: fsl_lpuart: disable the break condition when shutdown the uart port
+         509597ebcac4d61fc012ea3ccd364581a8ca3926 tty: serial: imx: disable the break condition when shutdown the uart port
+         885692ae3c17e6ef3962c826eea6bcfe871d8e5a tty: serial: fsl_lpuart: increase maximum uart_nr to eight
          
 
---===============8404061701951532597==
+--===============1315614144080666136==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1674136937 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1674137158 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1674136936-47e9e1a73b42bd070eccbf12395c11cfb82cd3b8
+nonce 1674137158-dd9b1993d5a07e2b8a7b05c6600595aeb19d7494
 
-98a59cd26e22e34ecae6af769cfc9f3b4ecd6c72 9676ab9b073f953a586593a64908952e6f4c83ea refs/heads/tty-testing
+9676ab9b073f953a586593a64908952e6f4c83ea 885692ae3c17e6ef3962c826eea6bcfe871d8e5a refs/heads/tty-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPJTWkbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+kPAP/R2s2BRerc8JOYPeuvXl
-Cp2uOIl1xHoSrgQdfxcEJfFp/9PwpxKGCTmjrLEDOYseW3H4IqaQO4HRnV5heuc2
-E9HxoVnLa2r9K9v9cM/ozxHBwZVGIxbvLyXVS6fvSIcMT7z8nAhikRVm+3MUKDvm
-tqZJAckZil4I3ZW+CU/EKkml/huLkKDines6BWUF1xqa8GrqMFp6L/i5tTpXyxkU
-csxlWpmHr3ee+EH2UXwpCa6i4oCj0IJtCVM5Bkqvzf1nLx9ABHl9GlW/iJVtZesd
-zE8K+R5MFN+0bc72EtYHhmUCX0RAIq4iY0Jocm6uNVy/jfUfo59B3OqZCHrDDi3p
-eFTEDMKd0E119mmMSwHCKOgx2kpzSO61qZtQVc0CT7/kLYXqnY1jR5W0ZeGMlFUK
-MdzZKXmDCaCxyIIK8rr4eSL5p5fu/kRpZxcyLVHZ1nDGKSAt1CDyYoJMEcD/WXYH
-gjTnSt0B9f+lqzVGf3ahg34qQ30uVlb2dCVZ7XeZueI+N11vDWHlwGgRePwC69K6
-uy8UW+mR630VBMAKn2aSTx7o7K1lPH7tGba8ZReLWt018uTBzORB9c3X0C+pXE/B
-qoq3+Oopir774fi7XPAaVUp2JS2G2IqTbhV6EWqeGD2eurSN3F1JYwBQPtxA5jUx
-GE0JDp6eGPRgQ4R4GUlrPRC9
-=FofO
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPJTkYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+kGoQAKGTcFEf8mchlNrYG37n
+hwEkDBupqozcZCGborHmXknXe0dLXT7vWJa6V/KwW9J5JK08p6LjqwTMDA1kP2h/
+8lbhHFWRyIpg3EbnhRSDJE29hLLjnevUR5YDFR/DsXqV1FFUJjmzuAjgWTvciSzL
+5PwwR89TsCtmF5G3gGElO30NOOF7yxTB/lof33rsT0fqRPG8UpTXbZqHIw1deBLe
+LyTqxo+PbH8DoBZ7VXFhvg9qKm8zLtEkK0S41V2HLCoAQfzUL4ApvByi4+3BO+y3
+N634STg38r/1+sb9PGUXau7UAUG8V+9CJGF1Iq7yved7u5D4D7QWE+VNkwTLI4QP
+vEKi9UXXq4cE9XcJcHM0tJv1EDreDAz+BJMnVMVAjk4cfy0aK1ODsvaKIhQ+7jGx
+8mGA2EWUSlsKbCxrdKlb8JEQpWWvfB5oYWWLD9Ckkyin+wfxc69CSTDnMJvB85sk
+4BnwAAP0FIezSamvS3W0lR3OER5VT8+yy0JP9rVMLPleRbrLiHveCzEgrD8svsVv
+ohGNOKiaKw5z1xLLCkUy7loCf/Zvvtue2TZDNBunDBXJorjsrYyRMmYF4NjQ9gZ8
+KCzuD5DTEPc3CGeFBgYWlNr4Uly/ZEijiML8dQUj6oSEIMO8RO+WRX+P2liLfsK/
+qA8jJWh7UwTvdjZFNIUVjJnC
+=aL8a
 -----END PGP SIGNATURE-----
 
---===============8404061701951532597==--
+--===============1315614144080666136==--
