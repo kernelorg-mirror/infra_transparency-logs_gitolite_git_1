@@ -1,58 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============1437322761886920444=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Thu, 19 Jan 2023 15:25:31 -0000
-Message-Id: <167414193137.25787.16049212409743667229@gitolite.kernel.org>
-
---===============1437322761886920444==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Thu, 19 Jan 2023 15:27:04 -0000
+Message-Id: <167414202470.26331.7347534655015156171@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/tty
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: pabeni
 changes:
-  - ref: refs/heads/tty-linus
-    old: f24771b62a83239f0dce816bddf0f6807f436235
-    new: 5342ab0af45064cbdc773645b93ab70c24ee161f
+  - ref: refs/heads/master
+    old: c84f433ef5f85f76b10f7d7c08a07080e6162ab5
+    new: 3ef4a8c8963b29813170177899f84ffb93f1a8f1
     log: |
-         5abbeebd8296c2301023b8dc4b5a6c0d5229b4f5 tty: fix possible null-ptr-defer in spk_ttyio_release
-         5bfdd3c654bd879bff50c2e85e42f85ae698b42f serial: atmel: fix incorrect baudrate setup
-         5342ab0af45064cbdc773645b93ab70c24ee161f tty: serial: qcom_geni: avoid duplicate struct member init
+         81d874e7c84e16427cbe9f2bb03e0dc2684e44cf net: mdio: Move mdiobus_scan() within file
+         d41e127757f37d0d47ccda4af2fe74c32533f798 net: mdio: Rework scanning of bus ready for quirks
+         3486593374858b41ae6ef7720cb28ff39ad822f3 net: mdio: Add workaround for Micrel PHYs which are not C45 compatible
+         1a136ca2e089d91df8eec0a796a324171373ffd8 net: mdio: scan bus based on bus capabilities for C22 and C45
+         fbfe97597c777cca6a91804f3f6ce046acb98860 net: phy: Decide on C45 capabilities based on presence of method
+         da099a7fb13db67678ecfa03f8ac5df8134c991b net: phy: Remove probe_capabilities
+         3ef4a8c8963b29813170177899f84ffb93f1a8f1 Merge branch 'net-phy-remove-probe_capabilities'
          
-
---===============1437322761886920444==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1674141929 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1674141929-d4835a7f6e35d1096aaf7fbfff42fa101f3eb675
-
-f24771b62a83239f0dce816bddf0f6807f436235 5342ab0af45064cbdc773645b93ab70c24ee161f refs/heads/tty-linus
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPJYOkbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+5GQP/1btEKgJUUT3cyOzDEmA
-EFdqwOr3Sjyv/huX1G6By4uqKEZZyU9fWvEQO0kUDSfj9F8apVL02ImxKJ8k1hNt
-Qa5un4OzxSDXgSWQX9p1yS4n7fNwyvBsNQ5ug1jTfpPJ4NmuNyYb0VVDrz+OelxD
-Uv6xOS1Col0mvj0Vq1LTxhRUKVCGI9t04oWswkxEYTuuPfEAst6Ibs0A5IRZakCy
-xD/F8VpCwaBks8AjFPHbwTDDGyoK9E6y0tJZsZdGySFizu3q1/MxUNeWfM4RwNk2
-wnHdBU61nKk9JMCzFXNPHq7pbVSI05MLHKx8NhPxNLTCMGmKLNidZGEx6EmD0ITx
-85ekJWwDpAZStwDahkMzeTm6tTVdFEiFcFgIMVkGTvRQaLtSDGfNyr3btO+Z1iyk
-Fj7tZjj7gD3Tq7hh1RWgzWgOpavUCiWf7jn6LYy5+t1fS2w2hp2Q/4hm9L7xpCF/
-4QqUAnqJud+JkQlAz6XKJ86MJHwYQybsa2d5zcMVoVFc1dVFKoiuoz3w20ASy7sY
-NE6uKPDPIa8QfqlDBANnz6CHL2XKICRmquQ4SL1oG6VplA5UYi9aeFu+x3abtBnf
-a27dZa7peLU+teDY2Z4urMbqDfZ9fwhNhL8o88o6Vf9IbSLx/WPplRiz00Oemtu+
-PZRE3J7qhV/Lp5zYNZ1nZuYo
-=8XDx
------END PGP SIGNATURE-----
-
---===============1437322761886920444==--
