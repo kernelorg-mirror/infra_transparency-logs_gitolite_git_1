@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/intel
-Date: Thu, 19 Jan 2023 14:25:06 -0000
-Message-Id: <167413830630.17764.684772087409486968@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
+Date: Thu, 19 Jan 2023 14:27:08 -0000
+Message-Id: <167413842891.18486.11676829265803395337@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pinctrl/intel
-user: andy
+repo: pub/scm/linux/kernel/git/cel/linux
+user: cel
 changes:
-  - ref: refs/heads/for-next
-    old: afa349bbb5d75e072e641234f1cb5d2264bd6ed0
-    new: 88f8ac47bddc1674b2840c733f1120a548037199
+  - ref: refs/heads/nfsd-next
+    old: 46b3fea6a81dc9ff51685252253a908ffd91b251
+    new: 37e6459693f5610789ef9a8e10a03e0167566a0a
     log: |
-         af6f64c68b9d961add00270f37ac291f151a029b pinctrl: Proofreading and updating the documentation accordingly
-         88f8ac47bddc1674b2840c733f1120a548037199 pinctrl: Proofreading and updating the documentation (part 2)
+         37e6459693f5610789ef9a8e10a03e0167566a0a SUNRPC: Fix whitespace damage in svcauth_unix.c
          
