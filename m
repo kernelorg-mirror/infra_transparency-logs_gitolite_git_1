@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2532865510241371591=="
+Content-Type: multipart/mixed; boundary="===============4400896151409686035=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Thu, 19 Jan 2023 00:21:06 -0000
-Message-Id: <167408766608.22671.4147030286909000543@gitolite.kernel.org>
+Date: Thu, 19 Jan 2023 00:21:23 -0000
+Message-Id: <167408768379.22863.3091009203871223114@gitolite.kernel.org>
 
---===============2532865510241371591==
+--===============4400896151409686035==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,66 +16,57 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue
-    old: 201e0a7c7f36ccb70b532e04ea2f48031f219e74
-    new: 7084eadf62ca17540040a1116ac0a155c31b066a
-    log: revlist-201e0a7c7f36-7084eadf62ca.txt
+  - ref: refs/tags/mkp-scsi-staging
+    old: d7cf7d8ef05df30b150be62ff8e5634e66e13999
+    new: 339e29312589511a0d00615a9c3b4140b760d676
+    log: revlist-d7cf7d8ef05d-339e29312589.txt
 
---===============2532865510241371591==
+--===============4400896151409686035==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1674087654 -0500
+pusher 75C5DE3D 1674087671 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1674087653-e21c4ad379998ebe6503d7c431d13bd224aed2a0
+nonce 1674087671-5d1c286f93a339931155562d63de8edf335054be
 
-201e0a7c7f36ccb70b532e04ea2f48031f219e74 7084eadf62ca17540040a1116ac0a155c31b066a refs/heads/queue
+d7cf7d8ef05df30b150be62ff8e5634e66e13999 339e29312589511a0d00615a9c3b4140b760d676 refs/tags/mkp-scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmPIjOYACgkQ7ulgGnXF
-3j3tPw//ZnnXNnlcZqb9Trew6XzWLIpXCcIuHIjFaZy5a/6xliDRqF7x9KW8ThJV
-fOFAu06LI26NZUGfan7O099/V0NW/DbpAMEjyEdMHHImTcoO/8sJgnTAg7r8MSDz
-D4rYw5uiN4TabhOV3ebdcV3pkFVWjHD6OS585JrsAuc+WsPAw5M2upyLZPBHtq+i
-JJojYB1HPeSzkvaXonIYDhQsn9rJZ6YjZiYoajWoV83n6A4l3vn+wiLp1v7csSWJ
-BcMtW//n5J1nbyQyuGwJJb6tuDJjXnYC/NtQTI9dlFsJiixklQx1qH94MmFeOyUx
-KtTOz+Gi40H+mTdPbzj6m0N3xqdGb4grwMhEgTpXdNBwB7B3NAWtPFMeAOUl3r0X
-x1rC4sJxrdh24ni3HssW9/278FpbZpOwR6smXhocRjHvYYtqY7a0VSMD8F2QZPYJ
-F3iqucZjxyFXmnJmBw2KbTUycLGpRRVT92VE8LCyNuMGhyH6HOXy/reS5m4JtbDD
-7fk/vogsr5N8XCN+rC/C5Y8XqpChst2yhC9861k4nr8pk5wVGxqqp333AGmGnTHf
-6o1e6dMCoIRlrQdK/E/Qa6xNIG0VLXx73Aixrt4fC9Pgx4F7cIPMr8XXbPAWWQRv
-V+qQ9jxRlqypmcmaAX+iO+GDTlVU4HC1EF8ZKiysxSVNTy9iKPk=
-=SPRM
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmPIjPcACgkQ7ulgGnXF
+3j2qfw//V6vHIsepN5WL4aUcxqu/7X/KeiGnYEkx0aeRJNT6dQtYXzYSshWTy34i
+0VPZMfpx+gialuXtMhwOs/fveLhMxQPGzG5pJU1//JBpqViQ7NwgfLQvxqBgRZwu
+Ywg3K4mhtA/7CpbhloAwMwHlkU8vV10gggM9a7xCKsRKwsRQauTZf6s2VC9Oa0e/
+QgbN/0HnzWsYnxxACM/5mzcZ5U4LGzp0mp6rbJi43yIo7cwOa72INq+/W+IK1qSk
+nShL4aRIF/fS/KOKffUQPPQrGIHGMtgo2bw6O7qPPHBg+DkiFlKx05YRTrWxOoiE
+qG6Umxkcyfgn0M4zel+p0jovULbH/BItRBXRJAqDK3oNPpuWPMXjK+xHgVPqT2Pv
+/fLjxawoIIyCsOzA4lPmtZ5GQ8U5qWmypdAXb+pYbuF2qqyJ2bRF7QG2+3Yn4/M6
+Y/4RdGzGpMjxRLhu5aEwgE2ho7OGWbAI8Lz6nVdoBSsYklzDtMOZc1Jnl3OGXAaP
+edmQAMC8Z19OTBnjnRWnq210bgPky0SCgUC12bOvWlsSlgyX1A1c1Jsf35pwHDBo
+7Ze3e3K8gInTTNvlsvomikXmNxjXuQou1ny8Z07tZJcsSiRLR4r4XOpmuiwpavD3
+uTdC6F3vOTT4UZlNh7muQEMjY3jirCJRa6vpj19F7bL8xPVlsJ8=
+=Y9M4
 -----END PGP SIGNATURE-----
 
---===============2532865510241371591==
+--===============4400896151409686035==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-201e0a7c7f36-7084eadf62ca.txt
+Content-Disposition: attachment; filename=revlist-d7cf7d8ef05d-339e29312589.txt
 
-64b6deadc938b37717aa1338715cb7ef5e7d444c scsi: uapi: Replace 0-length array with flexible array
-6e1d850acff9477ae4c18a73c19ef52841ac2010 scsi: ufs: core: Probe for EXT_IID support
-305a357d3595d39be7c001f72e135bc94cbd85da scsi: ufs: core: Introduce multi-circular queue capability
-0cab4023ec7b49b18145f74ab8389678d6d58878 scsi: ufs: core: Defer adding host to SCSI if MCQ is supported
-57b1c0ef89ac9d9e7475df7843aeb7672ebcd197 scsi: ufs: core: mcq: Add support to allocate multiple queues
-c263b4ef737e622e2a908c58ca4bb68a89376387 scsi: ufs: core: mcq: Configure resource regions
-7224c806876e46cfaf46b1c90da8d5c2e1f2108f scsi: ufs: core: mcq: Calculate queue depth
-4682abfae2eb3a1c138130cfd6d71411d81aaa00 scsi: ufs: core: mcq: Allocate memory for MCQ mode
-2468da61ea095162067ed408824298ba9c3661c8 scsi: ufs: core: mcq: Configure operation and runtime interface
-0d33728fc0e77adeea95de6e53cf26a4f741e594 scsi: ufs: core: mcq: Use shared tags for MCQ mode
-22a2d563de1425ea294e9abfa104dbf20c83a28a scsi: ufs: core: Prepare ufshcd_send_command() for MCQ
-854f84e7feebc0c5a63e4c1f29ddf201fd2a57bc scsi: ufs: core: mcq: Find hardware queue to queue request
-c30d8d010b5efd1d526ae94c9fbbfc0f74cec9fe scsi: ufs: core: Prepare for completion in MCQ
-f87b2c41822aad09aadac31b8ba22c0c0e639eee scsi: ufs: mcq: Add completion support of a CQE
-ed975065c31c2a0372e13c19e8140b69814a98ba scsi: ufs: core: mcq: Add completion support in poll
-eacb139b77ff75b973cb99573b33a7adb1f4ca38 scsi: ufs: core: mcq: Enable multi-circular queue
-edb0db05607ce05a5e0df00518b58a811e9f548e scsi: ufs: core: Add Event Specific Interrupt configuration vendor specific ops
-e02288e0265fe316a16d48ec6dd7b7fd54d66e3e scsi: ufs: core: mcq: Add Event Specific Interrupt enable and config functions
-519b6274a7775f5fe00a086f189efb8f063467d1 scsi: ufs: qcom: Add MCQ ESI config vendor specific ops
-15e70f0de2810793d932d686392a3393c81083a7 Merge patch series "Add Multi Circular Queue Support"
-7084eadf62ca17540040a1116ac0a155c31b066a Merge patch series "Add support for UFS Event Specific Interrupt"
+1035c9893f15e801456dddd547ea52ae8f6a1e1f scsi: cxlflash: Convert to scsi_execute_cmd()
+946a10511f6588c20bbd312be15d64cc3c3fc796 scsi: core: Remove scsi_execute_req()/scsi_execute() functions
+0c0d806908bd1a230fe3d6faef898e84a616c17c Merge patch series "scsi: Add struct for args to execution functions"
+a9a3629592ab7442a2e9d40281420b51c453ea9b scsi: megaraid_sas: Add flexible array member for SGLs
+3730bea883cd8f74fd9b2b31d51665c74cf73362 scsi: ufs: ufs: Remove duplicate entry
+fd5df558c31e2212b5bdd7a71afcc48f3e2c62dd scsi: MAINTAINERS: Add entry for Exynos UFS driver
+d794a23113b1a198e3d05f144aeba5b6ac87fe99 scsi: qla2xxx: Fix printk() format string
+1eeedfad9a14898dd1522a6c77d8b33ac2e4b780 scsi: mpt3sas: Demote log level for trace buffer allocation to info
+7edd053b3327a3d4e3378c9f932cf959d3249c7f scsi: ips: Replace kmap_atomic() with kmap_local_page()
+a3e2e248fd77a00931320875910ef73e071ac7dd scsi: ipr: Replace kmap() with kmap_local_page()
+54c51253b3d5544943fc3ec072cd0194915bac30 scsi: qla2xxx: Make qla_trim_buf() and __qla_adjust_buf() static
+85e182b48a33a44f3e0cfe6e7ee9da15baa0afce scsi: ufs: qcom: dt-bindings: Allow 'dma-coherent' property
 
---===============2532865510241371591==--
+--===============4400896151409686035==--
