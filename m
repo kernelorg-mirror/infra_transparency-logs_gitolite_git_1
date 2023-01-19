@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6248572008270342233=="
+Content-Type: multipart/mixed; boundary="===============3339146303764602737=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
-Date: Thu, 19 Jan 2023 02:16:01 -0000
-Message-Id: <167409456163.7843.4999573521459637501@gitolite.kernel.org>
+Date: Thu, 19 Jan 2023 02:16:03 -0000
+Message-Id: <167409456327.7921.1927105707668020325@gitolite.kernel.org>
 
---===============6248572008270342233==
+--===============3339146303764602737==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,37 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/qcom/linux
 user: andersson
 changes:
-  - ref: refs/heads/arm64-defconfig-for-6.3
-    old: a0cacf7f9a55581cfe6a6511fd7f8e490655a27e
-    new: 1a87f7e5fa10b23633da03aed6b7c7e716457304
-    log: |
-         1a87f7e5fa10b23633da03aed6b7c7e716457304 arm64: defconfig: enable the clock driver for Qualcomm SA8775P platforms
-         
-  - ref: refs/heads/arm64-for-6.3
-    old: 1eeef306b5d80494cdb149f058013c3ab43984b4
-    new: e5988fd6004bb3ea5a9669933c1a9beaf7637990
-    log: revlist-1eeef306b5d8-e5988fd6004b.txt
-  - ref: refs/heads/clk-for-6.3
-    old: 109366b1b0a471fe1b2944ebafce0c6cee012c40
-    new: 2069c701fc815343ddeb0331eec85046bdc34a4c
-    log: revlist-109366b1b0a4-2069c701fc81.txt
-  - ref: refs/heads/dts-for-6.3
-    old: 293b993b3cad3026d062616b188f8b59fdd9d41c
-    new: b894f2cf915479f9b25266da394942db9736161d
-    log: |
-         d3f5468472d3bdf2bd6e66aaca42e66ec00668b1 dt-bindings: qcom: Document samsung,gt58 and gt510
-         11691dab82e135c9a13cda49234ff3e76bba48d3 ARM: dts: qcom-msm8974: add SoC specific compat string to mdp5 node
-         19230930286005d7c733a5cb0ed8ebce9cad4423 ARM: dts: qcom-msm8974: rename mdss node to display-subsystem
-         858b0d4b04ead05cdfec094a1e4b18865f28cedc ARM: dts: qcom: rename mdp nodes to display-controller
-         295bc7195810fea0303bfa6c4a754a12b185791b ARM: dts: qcom: align OPP table node name with DT schema
-         b894f2cf915479f9b25266da394942db9736161d ARM: dts: qcom: apq8084: add clocks and clock-names to gcc device
-         
+  - ref: refs/heads/for-next
+    old: 471be8623467fe07d9cbfda2005f0338f4cb8a43
+    new: ceedb23ae003b7d66d7fa56019d2725f1e5af3fe
+    log: revlist-471be8623467-ceedb23ae003.txt
 
---===============6248572008270342233==
+--===============3339146303764602737==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1eeef306b5d8-e5988fd6004b.txt
+Content-Disposition: attachment; filename=revlist-471be8623467-ceedb23ae003.txt
 
 647380e41520c7dbd651ebf0d9fd7dfa4928f42d arm64: dts: qcom: ipq6018: Pad addresses to 8 hex digits
 c2596b717e9d96ae57c45481acfbafe9d3d54e56 arm64: dts: qcom: ipq6018: Fix up indentation
@@ -72,23 +51,22 @@ a58cde4d66e18a1b1f270488a03b471bdbb956c1 arm64: dts: qcom: sm8450: Pad addresses
 e073899ec3e14d3a9fe7ac62469c1768f4bb7fe0 arm64: dts: qcom: sa8540p-ride: add i2c nodes
 1db9c1d1273904b13cef0e76690395a416e41dd4 arm64: dts: qcom: sc8280xp: add aliases for i2c4 and i2c21
 fa5573edd01e6dcf5aa2b2298be2a35d04917148 arm64: dts: qcom: sc8280xp: add rng device tree node
+d3f5468472d3bdf2bd6e66aaca42e66ec00668b1 dt-bindings: qcom: Document samsung,gt58 and gt510
 7cc406151a99ec1643ed8bf3c52fa5fbdf74238f arm64: dts: qcom: Add device tree for Samsung Galaxy Tab A 9.7 (2015)
 41adc65ca5a4a3a651def2ae84ccbef7eed7cb24 arm64: dts: qcom: Add device tree for Samsung Galaxy Tab A 8.0 (2015)
+5f082ac76f44ee6e7e3b924e4c863687802d3f78 clk: qcom: ipq8074: populate fw_name for usb3phy-s
 877cff3568c0f54511d77918ae16b2d6e9a0dfce arm64: dts: qcom: ipq8074: correct USB3 QMP PHY-s clock output names
 d46fbd457913c4701c314c4cfabd9488844df8f0 arm64: dts: qcom: add SoC specific compat strings to mdp5 nodes
+11691dab82e135c9a13cda49234ff3e76bba48d3 ARM: dts: qcom-msm8974: add SoC specific compat string to mdp5 node
 ecf0f5ff152bd8638c2a6868e459c8c4e605ca0c arm64: dts: qcom: rename mdss nodes to display-subsystem
 0aab1b9b75f01f72848526a3ba162f557dc159c5 arm64: dts: qcom: rename mdp nodes to display-controller
+19230930286005d7c733a5cb0ed8ebce9cad4423 ARM: dts: qcom-msm8974: rename mdss node to display-subsystem
+858b0d4b04ead05cdfec094a1e4b18865f28cedc ARM: dts: qcom: rename mdp nodes to display-controller
+295bc7195810fea0303bfa6c4a754a12b185791b ARM: dts: qcom: align OPP table node name with DT schema
 8a220a62ebe2ade6ee371aa4fcbdb344b32264ad arm64: dts: qcom: align OPP table node name with DT schema
 a496f7decf4f86bcb34c78041d8db9690cc93aae arm64: dts: qcom: sm8250: drop unused clock-frequency from wsa-macro
 e5988fd6004bb3ea5a9669933c1a9beaf7637990 arm64: dts: qcom: sm8250: drop unused properties from tx-macro
-
---===============6248572008270342233==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-109366b1b0a4-2069c701fc81.txt
-
-5f082ac76f44ee6e7e3b924e4c863687802d3f78 clk: qcom: ipq8074: populate fw_name for usb3phy-s
+1a87f7e5fa10b23633da03aed6b7c7e716457304 arm64: defconfig: enable the clock driver for Qualcomm SA8775P platforms
 0df0a8f2d2e2ebf107db88377493ff5f0da9d528 dt-bindings: clock: qcom,gcc-apq8084: define clocks/clock-names
 93a63522dea6d288f2d44b7c75926343205cfec3 dt-bindings: clock: qcom,gcc-apq8084: add GCC_MMSS_GPLL0_CLK_SRC
 605f073812ecf40706de9c31ca3adaacb3829917 dt-bindings: clock: qcom,mmcc: define clocks/clock-names for APQ8084
@@ -100,5 +78,7 @@ cc0269b7604ef193cc5b230b86713baf1ce13a26 clk: qcom: gcc-apq8084: add GCC_MMSS_GP
 41d01f526b24141fb5b460e64f68b654da7afa71 clk: qcom: mmcc-apq8084: move clock parent tables down
 7b347f4b677b6d84687e67d82b6b17c6f55ea2b4 clk: qcom: mmcc-apq8084: remove spdm clocks
 2069c701fc815343ddeb0331eec85046bdc34a4c clk: qcom: mmcc-apq8084: use parent_hws/_data instead of parent_names
+b894f2cf915479f9b25266da394942db9736161d ARM: dts: qcom: apq8084: add clocks and clock-names to gcc device
+ceedb23ae003b7d66d7fa56019d2725f1e5af3fe Merge branches 'arm64-defconfig-for-6.3', 'arm64-for-6.3', 'clk-for-6.3', 'drivers-for-6.3' and 'dts-for-6.3' into for-next
 
---===============6248572008270342233==--
+--===============3339146303764602737==--
