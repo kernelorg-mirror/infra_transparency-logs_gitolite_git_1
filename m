@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3078388371036481183=="
+Content-Type: multipart/mixed; boundary="===============4041226695094623643=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/vfs/idmapping
-Date: Thu, 19 Jan 2023 08:31:12 -0000
-Message-Id: <167411707257.27693.4979161360859114020@gitolite.kernel.org>
+Date: Thu, 19 Jan 2023 08:32:29 -0000
+Message-Id: <167411714977.28135.9742881669380145162@gitolite.kernel.org>
 
---===============3078388371036481183==
+--===============4041226695094623643==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/vfs/idmapping
 user: brauner
 changes:
-  - ref: refs/heads/fs.idmapped.mnt_idmap.conversion
-    old: e7ed15b175ef8adf0f0d0bd062ec1cd105de0219
-    new: 3707d84c13670bf09b4a9a4dc6733326d8344b31
-    log: revlist-e7ed15b175ef-3707d84c1367.txt
+  - ref: refs/heads/for-next
+    old: 429e78375b6c18f824aa37112c9eac39be262add
+    new: 2cd08b5469cab16340cb9939521904730406a995
+    log: revlist-429e78375b6c-2cd08b5469ca.txt
 
---===============3078388371036481183==
+--===============4041226695094623643==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e7ed15b175ef-3707d84c1367.txt
+Content-Disposition: attachment; filename=revlist-429e78375b6c-2cd08b5469ca.txt
 
 c1632a0f11209338fc300c66252bcc4686e609e8 fs: port ->setattr() to pass mnt_idmap
 b74d24f7a74ffd2d42ca883d84b7422b8d545901 fs: port ->getattr() to pass mnt_idmap
@@ -49,5 +49,6 @@ e67fe63341b8117d7e0d9acf0f1222d5138b9266 fs: port i_{g,u}id_into_vfs{g,u}id() to
 c14329d39f2daa8132e1bbe5cc531da387bcf44a fs: port fs{g,u}id helpers to mnt_idmap
 4d7ca4090184c153f8ccb1a68ca5cf136dac108b fs: port vfs{g,u}id helpers to mnt_idmap
 3707d84c13670bf09b4a9a4dc6733326d8344b31 fs: move mnt_idmap
+2cd08b5469cab16340cb9939521904730406a995 Merge branch 'fs.idmapped.mnt_idmap.conversion' into for-next
 
---===============3078388371036481183==--
+--===============4041226695094623643==--
