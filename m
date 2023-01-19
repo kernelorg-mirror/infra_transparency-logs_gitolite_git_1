@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/libgpiod/libgpiod
-Date: Thu, 19 Jan 2023 13:04:25 -0000
-Message-Id: <167413346553.26367.1782750561410881897@gitolite.kernel.org>
+Subject: post-receive: pub/scm/docs/man-pages/man-pages
+Date: Thu, 19 Jan 2023 13:10:39 -0000
+Message-Id: <167413383972.31278.13264319282487798562@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/libgpiod/libgpiod
-user: brgl
+repo: pub/scm/docs/man-pages/man-pages
+user: alx
 changes:
   - ref: refs/heads/master
-    old: 388dda6c705cabc544fc264d69272312b8f06932
-    new: 5d7f8bec974c2b98803512d0e33c582046cbefac
+    old: 42fa2bc23375e32a86a70617aace8afc73647df4
+    new: 87a31c30166fc0bf4de7251941a66bcb07a95391
     log: |
-         5d7f8bec974c2b98803512d0e33c582046cbefac bindings: rust: make request_config optional in Chip.request_lines()
+         87a31c30166fc0bf4de7251941a66bcb07a95391 roundup.3: New page documenting roundup(3)
          
