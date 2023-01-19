@@ -1,28 +1,39 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ogabbay/linux
-Date: Thu, 19 Jan 2023 12:32:45 -0000
-Message-Id: <167413156568.6145.3651290357074132616@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/cryptsetup/cryptsetup
+Date: Thu, 19 Jan 2023 12:35:10 -0000
+Message-Id: <167413171082.8483.10082057261502764838@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ogabbay/linux
-user: ogabbay
+repo: pub/scm/utils/cryptsetup/cryptsetup
+user: mbroz
 changes:
-  - ref: refs/heads/habanalabs-next
-    old: 20709aa9435bf298ec05cbb3b2d770546b4fe84a
-    new: a06b3eee681d0ab1bcea45a9ddefcb4ffba4c053
+  - ref: refs/heads/main
+    old: 48d6f85cc347e3d25c6333c08d805a878258452a
+    new: 4cd8d1efdb26bc9cca03640438d44e86f23ae71b
     log: |
-         0a14c331682f615246a075aa4386317cceceaed0 habanalabs: update device status sysfs documentation
-         012a47efbe4a0414f54d49604341298a4d4ae121 habanalabs/gaudi2: print page fault axi transaction id
-         0f1c2aa3479d6918584a9909715d05846d4e716f habanalabs: block soft-reset on an unusable device
-         69928aebf831a4a71048ea738a4e5828f223d96f habanalabs/gaudi2: fix emda range registers razwi handling
-         3b9c5369d4d51555fa6d4b53202c846850ee72dc habanalabs: refactor user interrupt type
-         a1ccfddc0a84160c4235ea2a74b063c4397ef847 habanalabs: optimize command submission completion timestamp
-         43663417730e3e6d0ec8391c1a6339baddb7a6ae habanalabs: enhance info printed on FW load errors
-         6ccc4aa7e3be0b10c1ba1ffce65a18ba946d02fd habanalabs: run error handling if scrub_device_mem fails after reset
-         47922b33a25c5506b92a1b1c58289209710c36a3 habanalabs: clear in_compute_reset when escalating to hard reset
-         a06b3eee681d0ab1bcea45a9ddefcb4ffba4c053 habanalabs/gaudi2: unsecure tpc kernel_config registers
+         4cd8d1efdb26bc9cca03640438d44e86f23ae71b Fix api test on kernels with capi format support.
          
+  - ref: refs/heads/master
+    old: 48d6f85cc347e3d25c6333c08d805a878258452a
+    new: 4cd8d1efdb26bc9cca03640438d44e86f23ae71b
+    log: |
+         4cd8d1efdb26bc9cca03640438d44e86f23ae71b Fix api test on kernels with capi format support.
+         
+  - ref: refs/merge-requests/461/merge
+    old: 9698298622fda8f17ef62e437664059815b42b42
+    new: 6e64414b72be2ee2b1858577ade8f0c61914dd25
+    log: |
+         5216002773946e91a9c75ef718732aac590f3a20 Use ISO C compliant inline assembly with supported compilers.
+         48d6f85cc347e3d25c6333c08d805a878258452a bitlk: fix printf debug message
+         6e64414b72be2ee2b1858577ade8f0c61914dd25 Merge branch 'opal' into 'main'
+         
+  - ref: refs/merge-requests/475/head
+    old: 0000000000000000000000000000000000000000
+    new: 4cd8d1efdb26bc9cca03640438d44e86f23ae71b
+  - ref: refs/merge-requests/475/merge
+    old: 0000000000000000000000000000000000000000
+    new: a25f9fce1f2e6cbb09ec6ce7e5c85138eaf7caec
