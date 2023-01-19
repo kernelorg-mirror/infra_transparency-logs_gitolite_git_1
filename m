@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1315614144080666136=="
+Content-Type: multipart/mixed; boundary="===============6238553855935753569=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Thu, 19 Jan 2023 14:06:00 -0000
-Message-Id: <167413716042.4407.7318403137420959976@gitolite.kernel.org>
+Date: Thu, 19 Jan 2023 14:07:41 -0000
+Message-Id: <167413726159.5003.14944863738917487405@gitolite.kernel.org>
 
---===============1315614144080666136==
+--===============6238553855935753569==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,48 +17,50 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/tty-testing
-    old: 9676ab9b073f953a586593a64908952e6f4c83ea
-    new: 885692ae3c17e6ef3962c826eea6bcfe871d8e5a
+    old: 885692ae3c17e6ef3962c826eea6bcfe871d8e5a
+    new: bf8baa00668dbc4fcfca5ac49ae8a3059c795e4e
     log: |
-         db4df8e9d79e7d37732c1a1b560958e8dadfefa1 tty: fix out-of-bounds access in tty_driver_lookup_tty()
-         7370a25f9315e732ab7538d6c7e85208176d8fa2 tty/vt: prevent registration of console with invalid number
-         e1d91dda0bd1b96c10ea5d85fee94021c70dd55b tty: serial: fsl_lpuart: only enable Idle Line Interrupt for non-dma case
-         1d4bd0e4ae4ba95892bef919a8d4d3f08f122d7e tty: serial: fsl_lpuart: disable Rx/Tx DMA in lpuart32_shutdown()
-         4029dfc034febb54f6dd8ea83568accc943bc088 tty: serial: fsl_lpuart: clear LPUART Status Register in lpuart32_shutdown()
-         c4c81db5cf8bc53d6160c3abf26d382c841aa434 tty: serial: fsl_lpuart: disable the CTS when send break signal
-         10929eac4144a656a966da69d8a5491395dc0a99 tty: serial: fsl_lpuart: disable the break condition when shutdown the uart port
-         509597ebcac4d61fc012ea3ccd364581a8ca3926 tty: serial: imx: disable the break condition when shutdown the uart port
-         885692ae3c17e6ef3962c826eea6bcfe871d8e5a tty: serial: fsl_lpuart: increase maximum uart_nr to eight
+         3831c2a454a1034944374391526515bd7debb1e4 tty: vt: remove vc_uniscr_debug_check()
+         3b140fbbbb18ffcfa3906229789aa417a5af35b3 tty: vt: drop get_vc_uniscr()
+         70caeac76d1c3274f3bd16093c5a5f61517ab2a2 tty: vt: remove reference to undefined NO_VC_UNI_SCREEN
+         4ba77bfbad9e85a629f1e126f86ed4f3b5f09f83 tty: vt: use sizeof(*variable) where possible
+         0c8414a68272d98889e21f8d130dc6e03689c289 tty: vt: remove char32_t typedef
+         feb36abbedea2644bf31693aa287a33a3a9fbd7c tty: vt: remove struct uni_screen
+         441c938168afdb747801d22adc1f2f21b5e204d7 tty: vt: replace BUG_ON() by WARN_ON_ONCE()
+         287696d5b4112bb7d78bdeda713cc44f93f30765 tty: vt: simplify some unicode conditions
+         8aad24ad9d0498747e55aa89879a96cedb926be2 tty: vt: separate array juggling to juggle_array()
+         424c82af26b1b8ca6c0be06987a4e6d18c9a92dd tty: vt: saner names for more scroll variables
+         bf8baa00668dbc4fcfca5ac49ae8a3059c795e4e tty: vt: cache row count in con_scroll()
          
 
---===============1315614144080666136==
+--===============6238553855935753569==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1674137158 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1674137260 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1674137158-dd9b1993d5a07e2b8a7b05c6600595aeb19d7494
+nonce 1674137259-8b4f8cd232b62435947ab9f3c8a95a87a017d46c
 
-9676ab9b073f953a586593a64908952e6f4c83ea 885692ae3c17e6ef3962c826eea6bcfe871d8e5a refs/heads/tty-testing
+885692ae3c17e6ef3962c826eea6bcfe871d8e5a bf8baa00668dbc4fcfca5ac49ae8a3059c795e4e refs/heads/tty-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPJTkYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+kGoQAKGTcFEf8mchlNrYG37n
-hwEkDBupqozcZCGborHmXknXe0dLXT7vWJa6V/KwW9J5JK08p6LjqwTMDA1kP2h/
-8lbhHFWRyIpg3EbnhRSDJE29hLLjnevUR5YDFR/DsXqV1FFUJjmzuAjgWTvciSzL
-5PwwR89TsCtmF5G3gGElO30NOOF7yxTB/lof33rsT0fqRPG8UpTXbZqHIw1deBLe
-LyTqxo+PbH8DoBZ7VXFhvg9qKm8zLtEkK0S41V2HLCoAQfzUL4ApvByi4+3BO+y3
-N634STg38r/1+sb9PGUXau7UAUG8V+9CJGF1Iq7yved7u5D4D7QWE+VNkwTLI4QP
-vEKi9UXXq4cE9XcJcHM0tJv1EDreDAz+BJMnVMVAjk4cfy0aK1ODsvaKIhQ+7jGx
-8mGA2EWUSlsKbCxrdKlb8JEQpWWvfB5oYWWLD9Ckkyin+wfxc69CSTDnMJvB85sk
-4BnwAAP0FIezSamvS3W0lR3OER5VT8+yy0JP9rVMLPleRbrLiHveCzEgrD8svsVv
-ohGNOKiaKw5z1xLLCkUy7loCf/Zvvtue2TZDNBunDBXJorjsrYyRMmYF4NjQ9gZ8
-KCzuD5DTEPc3CGeFBgYWlNr4Uly/ZEijiML8dQUj6oSEIMO8RO+WRX+P2liLfsK/
-qA8jJWh7UwTvdjZFNIUVjJnC
-=aL8a
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPJTqwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+rLMQAIJTIKuO7Tu9wJ/sMxPZ
+aNM12qo9bf+DaKePEFyP8qHg96vAuHXRc+KlfYNHkpAzIStbLVRPpmB7MckJOACF
+I1Lub/Rdqp5hzbyjlQWFUNP98sP6GSr8MNTGtgS76rP7BPuFi+nW1aRxBB/DnqEj
+gku8svhCU71LgO5AkxF57+fqN+o3y0CmgDC29xyPr/iFv6mXqo+rPWnPTU0BZljq
+gFuvFhAIvK4kZkaK9ypVybjjcKOR+IbX/aeW2nHX2ie/NStV8kHsJ0OmIhNL/pqQ
+KvZFvq/2zu6Es+TfRC+SOrSwzJbAHBc1Um6FHlL0aOujv0pGdFvKLOGkl4HEhF0y
++93lVruvdcXTKSv5JnQ4dmf9nYEu10tEqF6AgktZnY/M4BwjFRq7s77QeWnH0S2U
+mQb35dv0FtKetMiRnzglRiLrIkJuG2jL9mf97Q43CAPap1wU7hmdZCO5yPGfNiSQ
+bXb5N+1WtiHHPWjYtIJVVxrO/T2mnG2Cowb/iEf/XlQS/5sARig+gGz7LqNwYCKP
+1VaVgh3758O+ZLggM3E4JerKoquWiyP7OfjZAeLLfJRUiQWR7Em2OpGJhUTLG6gR
+6RWyl6Th5sKR2NSoGKclNmyaXLZuuzWunPBS6ytGZHe8wXmuVlX62KoydEJFVHvN
+kRu8YrcbupbNmnC84bOd9P1Y
+=YIK2
 -----END PGP SIGNATURE-----
 
---===============1315614144080666136==--
+--===============6238553855935753569==--
