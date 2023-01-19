@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Thu, 19 Jan 2023 00:54:07 -0000
-Message-Id: <167408964795.11349.7506060933374053508@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/fio
+Date: Thu, 19 Jan 2023 00:55:06 -0000
+Message-Id: <167408970664.13231.15834898284155485253@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/axboe/fio
+user: axboe
 changes:
   - ref: refs/heads/master
-    old: 4e0b9f83f163494511aa6a28d91c65c9af6e5ce4
-    new: d3942550724d9091574051263e0e2c6afdf05a80
+    old: 44834c57f944074684c1b58604cc44199cf5e633
+    new: 69bb4b00b20047e7b5af9a6e35cc872cae605071
     log: |
-         d3942550724d9091574051263e0e2c6afdf05a80 foo
+         0d672d86a391ac5079518c2dea3f611cd048f842 tools/fiograph: add link to file formats
+         24ff9393bc3e85c8fb04ca4c2d47adaf5f688e58 tools/fiograph: improve default output file name
+         69bb4b00b20047e7b5af9a6e35cc872cae605071 tools/fiograph: improve default config file search
          
