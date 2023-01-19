@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3502666904174888836=="
+Content-Type: multipart/mixed; boundary="===============4615091352553635742=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Thu, 19 Jan 2023 13:15:48 -0000
-Message-Id: <167413414877.3537.11295006576760910315@gitolite.kernel.org>
+Date: Thu, 19 Jan 2023 13:20:11 -0000
+Message-Id: <167413441177.6522.2109785093702546861@gitolite.kernel.org>
 
---===============3502666904174888836==
+--===============4615091352553635742==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,41 +16,41 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-testing
-    old: e02e6ca588b88cf0d5eeecb3dffbe6bf10e6fa53
-    new: 93c473948c588978cd55d9a3adad8b3e8057aa21
+  - ref: refs/heads/usb-linus
+    old: 7171b0e261b17de96490adf053b8bb4b00061bcf
+    new: 7d80dbd708c18c683dd34f79b600a05307707ce8
     log: |
-         93c473948c588978cd55d9a3adad8b3e8057aa21 usb: gadget: add WebUSB landing page support
+         7d80dbd708c18c683dd34f79b600a05307707ce8 usb: dwc3: fix extcon dependency
          
 
---===============3502666904174888836==
+--===============4615091352553635742==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1674134147 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1674134410 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1674134146-7648a9210f086025b8097a88bc3908244fad4f08
+nonce 1674134410-90c22991b5776f59060b3cf43380cb2385a33209
 
-e02e6ca588b88cf0d5eeecb3dffbe6bf10e6fa53 93c473948c588978cd55d9a3adad8b3e8057aa21 refs/heads/usb-testing
+7171b0e261b17de96490adf053b8bb4b00061bcf 7d80dbd708c18c683dd34f79b600a05307707ce8 refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPJQoMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+6LgQAJEG4M07Dtz0pcPY2lR9
-NM+v0Hq81TyfCktYFkX+UKxHAn0cJuSKb9Vn7LEv1MOHgY0NSN+KbPdvSTZbEZOL
-ywgTHOluWOcirRh+sb4t6Xt7DAfE+bwkUhuMhLKHsX1rvcNLrKhY2jsaCXBB1bbm
-iutZalNJFRxIagbylJ8kY4zLwpEHf372U1UwNd6BJCt0QHOyVJiS96rNKLtMcHYM
-CHzeu42H7hSnCE+9QBzGRKU0ZRC//pMNCGB0zUjiNPoJvWNVNywGfwQ1hsLDNV5O
-s56F3uq+Q3wMNwl73qXzgmsdJ9xSkfqJR/p+/dR8wyRP9wFlxVIhJY4oqWQB3ABp
-5avKPxWCxOdebfflJzsgO9f5PMtzNGdDRjZZgPBsOLTUiCR1ZbX6wxYwNnhSqyl5
-KSf6LTQWaXlE43992ymmFoC4UKSJawsnp5V5wQ7pKEmUVfMM0i/H4Kz0LM0kTS8J
-67jupH0FC18wshbqs/ZcgVPqQUEoUfdfkC1erRiTpD59OYaSc6QjL2TxV024ZSIS
-BMz/JCy+WkYym3sO09x8DomhYFWaKD8h5xRfDNNEuazvBXfetdg/LRuMe3/na1jS
-HI62DcIBZIQCdnnh0aXGkE9wAQHrwLtXQVGp/NieQKe0/jX+WFHpcermfu2xvANG
-G6/IED7Pukpn1jfcKO60FAnh
-=qcSI
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPJQ4obHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+MOwP/2RuNOSiOhx1ko2T8hvL
+RhKoIvvfq31YPoxYUdfcirVbx2xC8Dm7sXp3iSO7fwm3BhGS6uS2g+H81/I+TdT/
+Y6GJvN02J1pUVBgivVfJ0VVCxcLUwoYZnpOO8YAmW+cmmRihGj/zjr1kIZu4IbV9
+kbelHNXGm7k19sTtmyI02+QtgOSUIV8EyaVZUodhOQHWHquPLQE8UoWL0h8y5KFy
+XRo26cp0aEiVKzpzzRD5krXQWJPeFfv2yKUKaSB7+u7qVKOwaPI1v3vSNLx0C4Xq
+5AmPOgO2AJQwUcIAz8+D/FziIunwKYDe9I+oq1TiSHZ/iJSjCOhBxVL6Fzq42Hbe
+WvIVckQc4cEbP8z0Lt9o8+DOHQVm+bZ00uNZE4KD/Ewu6sFhKyZmoauNRyfWKI4t
+g6f4QzrT3leDGeFp/j6kL5zDjci5R2/TFY527vwanrEqxC7Fc5ksko32cpA6RLuu
+EvYnhBqeFZKN8Jv1z+fe0Dy58dRGhqsG4fj51SVMlWdIQou3wBW6Hv3fAYdqf3s2
+U5yKbvhPpOWiNnhs3928cZ2x4FlRnQtGQ0ompVKGOdfeZOoYNnjg7NVZuXs8X9E9
+Pw3GpAOwZzVHqcvBFG+ENuzG3ELrj/HBW5MAPEzTNHzGwcMZdHt5aibHQ4LDEGO/
+zGb8n7HRNBV3MRelTfEf0rup
+=imTb
 -----END PGP SIGNATURE-----
 
---===============3502666904174888836==--
+--===============4615091352553635742==--
