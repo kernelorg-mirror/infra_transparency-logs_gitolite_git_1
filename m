@@ -1,51 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============5002695376028124621=="
+Content-Type: multipart/mixed; boundary="===============5135156022505219120=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Thu, 19 Jan 2023 15:33:00 -0000
-Message-Id: <167414238039.29928.1656843562227757711@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Thu, 19 Jan 2023 15:33:10 -0000
+Message-Id: <167414239006.30069.13940052435735377559@gitolite.kernel.org>
 
---===============5002695376028124621==
+--===============5135156022505219120==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.3
+  - ref: refs/heads/for-next
     old: ae7c40bc2c8b889cdb357a4e501bd70ed3155ada
     new: 8dc08c82afbf00e3cbe8944f7e33fa133c01858f
     log: revlist-ae7c40bc2c8b-8dc08c82afbf.txt
 
---===============5002695376028124621==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1674142378 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1674142376-ff5d050e6b05a8714dd4a78c3c4dc21e42b6a4d8
-
-ae7c40bc2c8b889cdb357a4e501bd70ed3155ada 8dc08c82afbf00e3cbe8944f7e33fa133c01858f refs/heads/asoc-6.3
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmPJYqoACgkQJNaLcl1U
-h9Dqrwf/cbtzSuqR1P022QfxpuzmE9x4D/7u4rcFfLNI5LeOxiMvdMIPNnXpOWTi
-fpaUO7ZdD1X0Fk5HmmJGUoj+zcK2I2UdQfcOOv1UdVPzBslQi7paNQUKV8tnzs3Q
-VCX0vxnlKjQM+BSxOPyby8UgnszQs45bHUBm0Q7XqD7PDvNYnNvNGAKUU+KgguSN
-iSDCkU+mV5mYhtRBzEZWhhC9JiUwK+L4+FJkbE5b9TEk6cGljxEEouOcOEhnbgDW
-lwjhK7Y3G7+XWuVYN4i6SfEecJ4KCfqze6eiOnwKdbBHyM26mujNhRxYhHNA6qBm
-J1OW4VHrR6sLvQu1Ze8exQi0Ri6LvA==
-=Nm02
------END PGP SIGNATURE-----
-
---===============5002695376028124621==
+--===============5135156022505219120==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -66,4 +41,4 @@ da387d3223aea9505fcd740105b7494df5bb44ad ASoC: mediatek: mt8188: add control for
 ce0382384e88c75d2506d4e49929ab8c22527dc7 ASoC: dt-bindings: mediatek,mt8188-mt6359: add mt8188-mt6359 document
 8dc08c82afbf00e3cbe8944f7e33fa133c01858f ASoC: mediatek: Add support for MT8188 SoC
 
---===============5002695376028124621==--
+--===============5135156022505219120==--
