@@ -1,47 +1,21 @@
-Content-Type: multipart/mixed; boundary="===============1849381892575931404=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/b4/b4
-Date: Thu, 19 Jan 2023 17:19:24 -0000
-Message-Id: <167414876457.5163.1874826604434949444@gitolite.kernel.org>
-
---===============1849381892575931404==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/matthias.bgg/linux
+Date: Thu, 19 Jan 2023 17:20:09 -0000
+Message-Id: <167414880929.7410.15815021892024627587@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/b4/b4
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/matthias.bgg/linux
+user: matthias.bgg
 changes:
-  - ref: refs/heads/master
-    old: 77e0653aa2430196a315296353bbd8c324aa4baa
-    new: f12400ed4d4fa84484a07489446c9aebaad5bdb5
+  - ref: refs/heads/v6.2-next/dts64
+    old: 8e01fb15b8157a825d309ea2598b494dd81a7b42
+    new: 90e75e8284061a0102b17ace7faa88605885c076
     log: |
-         e4b190ae7ad09184cfddd517f9f92855f2d09628 man: up the version and document b4 mbox -r
-         f12400ed4d4fa84484a07489446c9aebaad5bdb5 ez: when we find an smtp configuration, always use that
+         379cf0e639aecebeb1f1a0c8a78fe9ca926df311 arm64: dts: mediatek: mt8186: Add ADSP mailbox nodes
+         18942d29f98b9f54501616d48b69ffcd04230c01 arm64: dts: mediatek: mt8186: Add audio controller node
+         90e75e8284061a0102b17ace7faa88605885c076 arm64: dts: mediatek: mt8186: Add DPI node
          
-
---===============1849381892575931404==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher B6C41CE35664996C! 1674148764 -0500
-pushee gitolite.kernel.org:pub/scm/utils/b4/b4
-nonce 1674148764-0802020e8dd369381432f56ce92163367b65a955
-
-77e0653aa2430196a315296353bbd8c324aa4baa f12400ed4d4fa84484a07489446c9aebaad5bdb5 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCY8l7nAAKCRC2xBzjVmSZ
-bBkzAP0XRCRxooi8TR1+hrIbB38ueLnJRNR75e1JrHooNAJiXwEA8xqAuA7Jmb1Y
-z/7zWNSGMBgGvZQQ4vMHnFSm/TFlBAc=
-=QqjW
------END PGP SIGNATURE-----
-
---===============1849381892575931404==--
