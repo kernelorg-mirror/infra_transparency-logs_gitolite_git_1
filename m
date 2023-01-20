@@ -1,13 +1,9 @@
-Content-Type: multipart/mixed; boundary="===============6348595497809808727=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Fri, 20 Jan 2023 21:54:53 -0000
-Message-Id: <167425169371.5964.5665880140967201898@gitolite.kernel.org>
-
---===============6348595497809808727==
-Content-Type: text/plain; charset="us-ascii"
+Date: Fri, 20 Jan 2023 22:00:00 -0000
+Message-Id: <167425200029.9032.4647532780373310657@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
@@ -15,34 +11,19 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/next
-    old: 4962e283791910fcd880ec47f5625732325e4adc
-    new: f1f94dd2a5f5fec1f4a9203915ebc7f3dc1ea513
-    log: revlist-4962e2837919-f1f94dd2a5f5.txt
-
---===============6348595497809808727==
-Content-Type: text/plain; charset="utf-8"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-4962e2837919-f1f94dd2a5f5.txt
-
-cb714cbd51509e4e1c373be8ce361cd022afebb5 powerpc/vmlinux.lds: Define RUNTIME_DISCARD_EXIT
-ed70c7b3cd7e38a878dabfd422ce3ff3ba9de0f6 powerpc/vmlinux.lds: Don't discard .rela* for relocatable builds
-d48aa1d1fa3ed3e7f5c5bfe290a22c7a8e4e82c0 powerpc/vmlinux.lds: Don't discard .comment
-8c06bf34e6a446844a114cfeec4e281d44670bb7 Linux 6.2-rc3
-b8314b7eee3246b358efbf78077259354c9983bf xfs: don't assert if cmap covers imap after cycling lock
-42131102fd2b49a8b3d1753d77803f1ad14a55f3 xfs: make xfs_iomap_page_ops static
-07e8ac925f39d4bdb687f5c239aaa49920e0d995 xfs: fix off-by-one error in xfs_btree_space_to_height
-650db86fa92e26ee77b538c21c333d1c6f995c66 xfs: get root inode correctly at bulkstat
-9b56a9ba5a176242dbd33c9b828310508eb44da8 xfs: Fix deadlock on xfs_inodegc_worker
-3f5948c5cbb6a36a2174745d45ba4e71b43f1f32 xfs: xfs_qm: remove unnecessary ‘0’ values from error
-81e251490768c4dc388e04f36afe8e0f5b420884 xfs: fix extent busy updating
-44b0ab879b23f94f688750bd2fd28ea6aa408e30 tpm: st33zp24: Convert to i2c's .probe_new()
-3d5c908cc6ec7571a9f53b30729003a23e620ed2 crypto: certs: fix FIPS selftest dependency
-6b00e98d58cd5e11320b5d22324db56ec52dd3cb tpm_crb: Add support for CRB devices based on Pluton
-09cc7e88b0f8aa4c5a6d636b6995ba948b45b73a certs: make blacklisted hash available in klog
-b2d592bf4725effd8ae619570d3e804a009371a9 KEYS: Add new function key_create()
-89b4808529f5c92db6d2be51fd600117240ca850 certs: don't try to update blacklist keys
-f1f94dd2a5f5fec1f4a9203915ebc7f3dc1ea513 KEYS: asymmetric: Fix ECDSA use via keyctl uapi
-
---===============6348595497809808727==--
+  - ref: refs/heads/master
+    old: f1f94dd2a5f5fec1f4a9203915ebc7f3dc1ea513
+    new: 917aa385e262d0294eed2b6dfd5f7415f16e5c1b
+    log: |
+         28509942d33b63653a72bb08dd316dbcc1c4fdeb crypto: certs: fix FIPS selftest dependency
+         d433d6e02c7b2c85d01a259fcdda5e3f0426f15c tpm_crb: Add support for CRB devices based on Pluton
+         c92fb38f69901aeb8d4f6015de9eb87fb5dde184 certs: make blacklisted hash available in klog
+         886346828d28edc11e8f81cc4b932af43c1c69e5 KEYS: Add new function key_create()
+         63addfb790d831308866e033b17349fd5fb31938 certs: don't try to update blacklist keys
+         bf0e8a07d4f3b997f72d901c5ce115557fb9181d KEYS: asymmetric: Fix ECDSA use via keyctl uapi
+         61722d158e3567b1402b0c94830984975fa0e936 tpm: st33zp24: Convert to i2c's .probe_new()
+         6e3efa7b305d931af60e0be448fa444caa2c8ab1 tpm: tpm_i2c_atmel: Convert to i2c's .probe_new()
+         4d7403b3a72be9c972990dbef14f0b86a9100dd6 tpm: tpm_i2c_infineon: Convert to i2c's .probe_new()
+         7d7b12a17a2db6e5f378a70708bd06de42625201 tpm: tpm_i2c_nuvoton: Convert to i2c's .probe_new()
+         917aa385e262d0294eed2b6dfd5f7415f16e5c1b tpm: tis_i2c: Convert to i2c's .probe_new()
+         
