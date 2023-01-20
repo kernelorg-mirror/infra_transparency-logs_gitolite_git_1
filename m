@@ -1,72 +1,79 @@
-Content-Type: multipart/mixed; boundary="===============8755099663029631437=="
+Content-Type: multipart/mixed; boundary="===============5609109193316603429=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Fri, 20 Jan 2023 09:06:49 -0000
-Message-Id: <167420560989.23903.11627651390492994409@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Fri, 20 Jan 2023 09:07:09 -0000
+Message-Id: <167420562928.24053.11150524893932777854@gitolite.kernel.org>
 
---===============8755099663029631437==
+--===============5609109193316603429==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/staging
+repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-next
-    old: 4193769b6dfd7ddc5ec5e2ccae6458f4ba65797f
-    new: 2636455b28cb477a1b74c570023ac505ff1a3890
-    log: revlist-4193769b6dfd-2636455b28cb.txt
+  - ref: refs/heads/usb-next
+    old: 82b0417e4bfc5af8c1710996913374f09f4a2a03
+    new: 93c473948c588978cd55d9a3adad8b3e8057aa21
+    log: revlist-82b0417e4bfc-93c473948c58.txt
 
---===============8755099663029631437==
+--===============5609109193316603429==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1674205609 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1674205608-bbd2a84074dc9d6a41011f85a0c3050a220be9e1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1674205628 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1674205628-a69736353c9690d8179b580f2c0ef5f7bacd6d7a
 
-4193769b6dfd7ddc5ec5e2ccae6458f4ba65797f 2636455b28cb477a1b74c570023ac505ff1a3890 refs/heads/staging-next
+82b0417e4bfc5af8c1710996913374f09f4a2a03 93c473948c588978cd55d9a3adad8b3e8057aa21 refs/heads/usb-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPKWakbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+QVYP/370ahSHHpC1G+EJHo3R
-NjVuEqDC2pQrnSXz3Xst/TXRV6dVpI/2smomgNVyACyU+tV1yunLsS3V60nPuIKs
-yTYJ7yqA7RcGeeDfm+6ubKjnRdXhzssY0+TRPOXbKje6BClZs7j1PvmlEyrzbwh3
-Pyw9l9dCsi1oQPkWzxP47+bHtJi34rmPk7hD3Eln67lA9CmQTCpCfjwtZB2IB/3d
-W8CxkKBpfj1G1cB2wdXo6Sx9qlyV4P0ilbHJlg42gDs0JarGCgCm9leKUp+iMjtq
-cMLLpEaxUxJZqKpaB1XhFQ9Ror7zmLvk/6Fsx1aDIzfV2ZrizhpvmuOOsBHRwfww
-PxQYvSOfRuN9TH1IG4y7NWYvmOO3dvys1BZOMBdZikj0mRCdNWBRi6YgyXF7BWvv
-r+v2y+xCPte5ktPE+BC3xUdTsWzn0xT/g8J3/3SdZtHmssKngf2fC7PUzzvQKN7a
-/IojZtvYTlOTKSgieq8+78dBuZlHNLLy9lI3M042mUzh4RpQmWtXDLCTara0EFbc
-NKdxyPYs9pKqJRFxDS7BIPijzkTUYwOQQXfCARkp/jtPORomqzhsJX+M8XVIFqLK
-Pb9AUxvE8A+hluV6AoW3Ymk+7cdpIroQz1vrG36HulewHhbpTAhRj8Jjr0lqnXC/
-UMkpxYd20XA9MJjDF2v4zgbA
-=VV0q
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPKWbwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+wXQQAJhQu40aZRjWSV8tp6L8
+bM8KIy6bI/vPmi+QA/7U3cxb4e6YT3nZjOH/tZGqIH5NIqsR60j7ZjyNIjpJTNEf
+ASHez5QFJYYSp4gfALTW8PM6lJDB5AryMwyu0P9l+x779DWCUGRix9nLShrbtGD8
+8W0yOuOWX5Wxl6/akuMu6bQZ6eSvEOgHM8YWaYAehR/z9/yYBtynzHeuycuSmJpF
+sY9/CzV1A1nWJcDPhDrpEM9eHG5LvMBd1xYS+mKn8w2LiPscGt5tPcm4yAciJpJ9
+t/gDZJF5sZC0gF0nY8kPGoiymjY3gtcCETHV43utuGR8B+WBOuSFzruT5XoI5Wsl
+2MGbHuWA7Ia10GYTQsfJNyezQwGvKLi1KUxi+GEM/Z2stoNnkrEF/paCALpGLXdz
+flzY9AShLzxvSifLFwwcc41hyfOtFsuiDmWztdKs6S+X+Km/P6kWth6TtaIIkgHk
+tRdAvhz6mjOACjDmoNr31XNoGdv+CD962780IGb9f5LQTjL67eKt0A4XZzWW0i1Y
+hv1MKuRFcDYT4NXhmsybFmk4Ww4AIGJhXEP2H5LxxD86vBq1N4xsLnuGhOhTCU0B
+fNoch6ngFgh4Rx+Ehalo2Hzj5cJNIeoz/zHQqSu9YImx3rrc9XrRStsug5RpUcep
+UxGcwEAOyl6h3WuhHIc290nX
+=shEf
 -----END PGP SIGNATURE-----
 
---===============8755099663029631437==
+--===============5609109193316603429==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4193769b6dfd-2636455b28cb.txt
+Content-Disposition: attachment; filename=revlist-82b0417e4bfc-93c473948c58.txt
 
-f6510a93cfd8c6c79b4dda0f2967cdc6df42eff4 staging: emxx_udc: Add checks for dma_alloc_coherent()
-049e40ef203ebdf530cb37a3f5f7752d0c07b288 staging: wlan-ng: Remove unused code
-448a586b71fe603a98cd9e335fbe115ea1137f0b staging: rtl8192e: Rename LongRetryL.., ShortRetryL.. and ReceiveConfig
-0dd7c4d8c5fab44fd62cb02fa6c56537a5b74537 staging: rtl8192e: Rename LastRxDescTSF, LoopbackMode and pFirmware
-779c9e938d824dcd6489bc1064a3a58d66d918bc staging: rtl8192e: Rename PHYRegDef, CurrentChannelBW and CustomerID
-f48cc55bf37d2dcf5a9061ff6d644e56b45b458c staging: rtl8192e: Remove unused variable SifsTime
-1032f497c5a1f42e3add5939605dae9b0f16f06a staging: rtl8192e: Remove unused variable framesyncC34
-bc989fff450e8fbbc049b9858d56d572731283d2 staging: rtl8192e: Remove unused variable PwrDomainProtect
-5190cd2a203d125b2dfb7eaabdad496811e9d5fd staging: rtl8192e: Remove unused variable H2CTxCmdSeq
-a749318330a4729210c1a67b27e4807aec85552d staging: rtl8192e: Remove unused variable RF_C_TxPwDiff
-2636455b28cb477a1b74c570023ac505ff1a3890 staging: rtl8192e: Remove unused variable DM_Type
+8867258e706acb1b36f2ce648fa702ae5800aa70 dt-bindings: usb: Correct and extend FOTG210 schema
+170da81aab077c9e85fc2b786413ca07942774a0 usb: fotg210: List different variants
+baef5330d35b477056c0304ce1283f0aed4d5d20 usb: fotg210: Acquire memory resource in core
+faaca436699603355c5c9711942c6441eec38b0e usb: fotg210: Move clock handling to core
+bb5fe85609c6e21e96fc5669ae200c68a1e05a9b usb: fotg210: Check role register in core
+816f518df20531a01eb8ddd2e84adc9791e16539 usb: fotg210-udc: Assign of_node and speed on start
+3e679bde529e892a59e89d3a0728cc153e8ecefe usb: fotg210-udc: Implement VBUS session
+5aba179c34291ef67206bce6fa0fe0873c8dfc4e usb: mtu3: fix the failure of qmu stop
+b72654148e34c181f532275d03ef6f37de288f24 dt-bindings: usb: Add device id for Genesys Logic hub controller
+3325f3e4534c3b93b52bf23c02854eff67fdbdf8 ARM: dts: amlogic: Used onboard usb hub reset to enable usb hub
+f24859bbec8a5226211656cd293caed5ad3c7326 arm64: dts: amlogic: Used onboard usb hub reset on odroid c2
+db7cab26c3d1382ec85d8cadf642f57250edea58 usb: misc: onboard_usb_hub: add Genesys Logic GL852G hub support
+5e86e1a5076b88807f8b5215d93e96274996dcb9 vendor-prefixes: Add VIA Labs, Inc.
+31360c28dfdd18d77496bcceee44c10ab86cf7a0 dt-bindings: usb: Add binding for Via lab VL817 hub controller
+71593b2020b37fd39ac91efae64d79962eb6c867 arm64: dts: amlogic: Used onboard usb hub reset on odroid c4
+143307adcf55a3bb2ed53e012dfc56a07cf5193f usb: misc: onboard_usb_hub: add VIA LAB VL817 hub support
+e02e6ca588b88cf0d5eeecb3dffbe6bf10e6fa53 arm64: defconfig: Enable USB onboard HUB driver
+93c473948c588978cd55d9a3adad8b3e8057aa21 usb: gadget: add WebUSB landing page support
 
---===============8755099663029631437==--
+--===============5609109193316603429==--
