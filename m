@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/srini/nvmem
-Date: Fri, 20 Jan 2023 17:37:02 -0000
-Message-Id: <167423622268.28111.2999254532628356817@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Fri, 20 Jan 2023 17:40:11 -0000
+Message-Id: <167423641118.30669.6783166350364744535@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/srini/nvmem
-user: srini
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/heads/for-next
-    old: ad80e15904ec66028ad17f63efacc8789fdfe94b
-    new: 1a71bdc08b7aaf2047e256cb9253eeefcaca24ca
+  - ref: refs/heads/bleeding-edge
+    old: 3732f04fd69e8e4d5ab38c5c2c682504e9539e01
+    new: e3f880642444d35b6f2f7f7623cd61e49cef1344
     log: |
-         1a71bdc08b7aaf2047e256cb9253eeefcaca24ca nvmem: core: fix nvmem_layout_get_match_data()
+         74528edfbc664f9d2c927c4e5a44f1285598ed0f intel_idle: add Emerald Rapids Xeon support
+         e3f880642444d35b6f2f7f7623cd61e49cef1344 Merge branch 'pm-cpuidle' into bleeding-edge
          
