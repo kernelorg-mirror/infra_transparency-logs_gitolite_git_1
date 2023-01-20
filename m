@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jolsa/perf
-Date: Fri, 20 Jan 2023 13:04:40 -0000
-Message-Id: <167421988073.2591.12886755757291652903@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
+Date: Fri, 20 Jan 2023 13:04:43 -0000
+Message-Id: <167421988347.2653.14100641395858761554@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jolsa/perf
-user: jolsa
+repo: pub/scm/linux/kernel/git/brgl/linux
+user: brgl
 changes:
-  - ref: refs/heads/bpf/attach_btfid
-    old: 0000000000000000000000000000000000000000
-    new: 0cabe406f9cbe0c11c6fb18372d69e5695241cca
+  - ref: refs/heads/gpio/for-next
+    old: 7e3643bfbb7e753b37e08f61df1c93b2d63cdd36
+    new: e464c96eae336dd2f81a1926c30523f061469f64
+    log: |
+         e464c96eae336dd2f81a1926c30523f061469f64 gpio: Get rid of gpio_to_chip()
+         
