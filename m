@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7229318690397937792=="
+Content-Type: multipart/mixed; boundary="===============6348595497809808727=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Fri, 20 Jan 2023 21:54:37 -0000
-Message-Id: <167425167764.5821.11702619306023884242@gitolite.kernel.org>
+Date: Fri, 20 Jan 2023 21:54:53 -0000
+Message-Id: <167425169371.5964.5665880140967201898@gitolite.kernel.org>
 
---===============7229318690397937792==
+--===============6348595497809808727==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/next
     old: 4962e283791910fcd880ec47f5625732325e4adc
     new: f1f94dd2a5f5fec1f4a9203915ebc7f3dc1ea513
     log: revlist-4962e2837919-f1f94dd2a5f5.txt
 
---===============7229318690397937792==
+--===============6348595497809808727==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -45,4 +45,4 @@ b2d592bf4725effd8ae619570d3e804a009371a9 KEYS: Add new function key_create()
 89b4808529f5c92db6d2be51fd600117240ca850 certs: don't try to update blacklist keys
 f1f94dd2a5f5fec1f4a9203915ebc7f3dc1ea513 KEYS: asymmetric: Fix ECDSA use via keyctl uapi
 
---===============7229318690397937792==--
+--===============6348595497809808727==--
