@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
-Date: Fri, 20 Jan 2023 22:01:34 -0000
-Message-Id: <167425209409.11210.12196503148497611561@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
+Date: Fri, 20 Jan 2023 22:08:07 -0000
+Message-Id: <167425248720.14707.4704748028546703471@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/conor/linux
-user: conor
+repo: pub/scm/linux/kernel/git/axboe/liburing
+user: axboe
 changes:
-  - ref: refs/heads/riscv-soc-for-next
-    old: 6635e91648ce0868481fd6dd591d5ac796d8a635
-    new: f3460326e38d6a084fb5b3348125a802567a3690
+  - ref: refs/heads/master
+    old: 15de013e2456dae5fce9c7bcb6711fd563d656a9
+    new: 22659b11fec6708190883edda172070e869e01e9
     log: |
-         1fc7606d5083f79a20eb9cfd77c0dbd9299421c1 dt-bindings: power: Add starfive,jh7110-pmu
-         08b9a94e8654d402bfd1f5496b077503d69aa2cf soc: starfive: Add StarFive JH71XX pmu driver
-         f3460326e38d6a084fb5b3348125a802567a3690 Merge patch series "JH7110 PMU Support"
+         22659b11fec6708190883edda172070e869e01e9 test/poll-race-mshot: add poll race test with regular recv and pbufs
          
