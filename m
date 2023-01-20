@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
-Date: Fri, 20 Jan 2023 21:28:25 -0000
-Message-Id: <167425010575.21157.1337939902980255802@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+Date: Fri, 20 Jan 2023 21:48:36 -0000
+Message-Id: <167425131616.2353.11481732984468130291@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/liburing
-user: axboe
+repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+user: jarkko
 changes:
-  - ref: refs/heads/master
-    old: 1c8336d13d6bfae8cea03d209d6ef23e452160ef
-    new: 15de013e2456dae5fce9c7bcb6711fd563d656a9
+  - ref: refs/heads/next
+    old: 649747d823ac63d77eb27a6e1c9c4af0bd9f98af
+    new: 4962e283791910fcd880ec47f5625732325e4adc
     log: |
-         15de013e2456dae5fce9c7bcb6711fd563d656a9 test/poll-race-mshot: add test case for poll race with multishot
+         4962e283791910fcd880ec47f5625732325e4adc KEYS: asymmetric: Fix ECDSA use via keyctl uapi
          
