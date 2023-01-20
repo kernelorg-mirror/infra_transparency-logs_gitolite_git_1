@@ -1,26 +1,46 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Fri, 20 Jan 2023 15:32:26 -0000
-Message-Id: <167422874627.7448.9744162698591134723@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============9181361867126965294=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/utils/b4/b4
+Date: Fri, 20 Jan 2023 15:33:54 -0000
+Message-Id: <167422883433.7990.12879820585080337577@gitolite.kernel.org>
+
+--===============9181361867126965294==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
-user: broonie
+repo: pub/scm/utils/b4/b4
+user: mricon
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-linus
-    old: f528fe213a6ad21a6e8644dbd5de10dc264a89fd
-    new: 4bb3d82a1820c1b609ede8eb2332f3cb038c5840
+  - ref: refs/notes/signatures/tar
+    old: 289f1d15234b1195343aa7488e4965ebd3847906
+    new: 08bdf12531cc8d295462528e0a2b5d0088f7dcbd
     log: |
-         4bb3d82a1820c1b609ede8eb2332f3cb038c5840 regulator: dt-bindings: samsung,s2mps14: add lost samsung,ext-control-gpios
+         08bdf12531cc8d295462528e0a2b5d0088f7dcbd Notes added by 'git notes add'
          
-  - ref: refs/heads/for-next
-    old: 79dcc147a6125a83cf1c459d1d2f9f3f4b42da7d
-    new: 3fd1a360d62ce25778a0d5d9e1b6aa720fe2d6c7
-    log: |
-         4bb3d82a1820c1b609ede8eb2332f3cb038c5840 regulator: dt-bindings: samsung,s2mps14: add lost samsung,ext-control-gpios
-         3fd1a360d62ce25778a0d5d9e1b6aa720fe2d6c7 Merge remote-tracking branch 'regulator/for-6.3' into regulator-next
-         
+
+--===============9181361867126965294==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher B6C41CE35664996C! 1674228834 -0500
+pushee gitolite.kernel.org:pub/scm/utils/b4/b4
+nonce 1674228834-8423bab779528850c549a167558c99d013794882
+
+289f1d15234b1195343aa7488e4965ebd3847906 08bdf12531cc8d295462528e0a2b5d0088f7dcbd refs/notes/signatures/tar
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCY8q0YgAKCRC2xBzjVmSZ
+bN10AP9GRHHkaJEQzlRrrD70lfjWBM+5Xy6NcPOQDp8TsHZ7qgEAn7Bfz81Ac1ji
+D9r13DcCO6Y8s9OA71yirQrwJg50Aw4=
+=risA
+-----END PGP SIGNATURE-----
+
+--===============9181361867126965294==--
