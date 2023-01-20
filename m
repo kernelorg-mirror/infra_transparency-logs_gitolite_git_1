@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/fio
-Date: Fri, 20 Jan 2023 15:20:09 -0000
-Message-Id: <167422800911.31864.2493781879629843106@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
+Date: Fri, 20 Jan 2023 15:21:39 -0000
+Message-Id: <167422809981.32465.17049568864494589969@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/fio
-user: axboe
+repo: pub/scm/linux/kernel/git/peterz/queue
+user: peterz
 changes:
-  - ref: refs/heads/master
-    old: 69bb4b00b20047e7b5af9a6e35cc872cae605071
-    new: cab9bedf70f34142b70cf97bf4d8c8df57a6f82f
+  - ref: refs/heads/sched/core
+    old: 19235e47279894b033a3ec5cf2732de634862b3a
+    new: ba7bd5ef25d6f7ddb843d53cf58952129332b1fa
     log: |
-         cab9bedf70f34142b70cf97bf4d8c8df57a6f82f examples: remove test.png
+         ba7bd5ef25d6f7ddb843d53cf58952129332b1fa exit: Detect and fix irq disabled state in oops
          
