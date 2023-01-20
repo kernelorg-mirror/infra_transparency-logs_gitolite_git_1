@@ -1,19 +1,34 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
-Date: Fri, 20 Jan 2023 00:41:25 -0000
-Message-Id: <167417528570.9818.4427310596799030184@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Fri, 20 Jan 2023 01:03:18 -0000
+Message-Id: <167417659805.27759.13239992896379067484@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/palmer/linux
-user: palmer
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/for-next
-    old: e53e3f825b4d9b1db794a1d0422704d512304adc
-    new: 61a9b7129070e07c207d89fffbce577223507327
-    log: |
-         61a9b7129070e07c207d89fffbce577223507327 Merge patch series "Putting some basic order on isa extension lists"
-         
+  - ref: refs/heads/slownmi.2023.01.19a
+    old: 0000000000000000000000000000000000000000
+    new: 06901681acde9854a9a9a337cebbf3ab537f4543
+  - ref: refs/heads/glacialnmi.2023.01.19a
+    old: 0000000000000000000000000000000000000000
+    new: 1fe673c8244052670796657542a8622313b88574
+  - ref: refs/heads/haltnmi1.2023.01.19a
+    old: 0000000000000000000000000000000000000000
+    new: eaab5a99276c644eb1dac3553ef98696941249cb
+  - ref: refs/heads/haltnmi2.2023.01.19a
+    old: 0000000000000000000000000000000000000000
+    new: 0c20db06cbde4a1a9faa9738b22e477736b64489
+  - ref: refs/heads/haltnmi3.2023.01.19a
+    old: 0000000000000000000000000000000000000000
+    new: 437a60eca96fc6698b969f21bea74116a0225220
+  - ref: refs/heads/haltnmi3slow.2023.01.19a
+    old: 0000000000000000000000000000000000000000
+    new: b75213cc596d0f0d1a8fe531d52ebdd1fb6aeb0a
+  - ref: refs/heads/haltnmi3glacial.2023.01.19a
+    old: 0000000000000000000000000000000000000000
+    new: 5d4159ff8295addf11917c989a18dfdce1c77686
