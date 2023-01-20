@@ -1,26 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Fri, 20 Jan 2023 15:43:33 -0000
-Message-Id: <167422941389.14761.5160689732484558803@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/xfs/xfsprogs-dev
+Date: Fri, 20 Jan 2023 15:44:20 -0000
+Message-Id: <167422946024.15076.10877217586275181207@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
-user: broonie
+repo: pub/scm/fs/xfs/xfsprogs-dev
+user: cem
 changes:
-  - ref: refs/heads/for-linus
-    old: 2855e16f47ae0ad881e724d4a619fdeebcff09fb
-    new: fb4293600cc651cfe4d48ec489f1d175adf6e2f8
-    log: |
-         fb4293600cc651cfe4d48ec489f1d175adf6e2f8 ASoC: SOF: sof-audio: prepare_widgets: Check swidget for NULL on sink failure
-         
   - ref: refs/heads/for-next
-    old: 40fd19c1f3876af4a4ff3a31ef496876d81a60c5
-    new: 4f2000984b4f1b075b9e8116c3135e66b52c548c
+    old: fdf0366959f1d04f2aea93a3fac24c49b9d5e55f
+    new: d8eab7600f470fbd09013eb90cbc7c5e271da4e5
     log: |
-         fb4293600cc651cfe4d48ec489f1d175adf6e2f8 ASoC: SOF: sof-audio: prepare_widgets: Check swidget for NULL on sink failure
-         4f2000984b4f1b075b9e8116c3135e66b52c548c Merge remote-tracking branch 'asoc/for-6.3' into asoc-next
+         d9151538d4ef207c31ead0f22e96ee52ac2c83ac xfs_io: add fsuuid command
+         e7cd89b2da729c472db45a966d95e22c8119d409 xfs_admin: get UUID of mounted filesystem
+         0f1291c3bb8bfe4ad5dd67ec7b47f9420d9b138d progs: autoconf fails during debian package builds
+         d8eab7600f470fbd09013eb90cbc7c5e271da4e5 progs: just use libtoolize
          
