@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2667773841406735332=="
+Content-Type: multipart/mixed; boundary="===============7055717178191252285=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/zohar/linux-integrity
-Date: Fri, 20 Jan 2023 13:32:36 -0000
-Message-Id: <167422155637.23300.1309566906862330655@gitolite.kernel.org>
+Date: Fri, 20 Jan 2023 13:33:43 -0000
+Message-Id: <167422162307.23741.16499935737797881030@gitolite.kernel.org>
 
---===============2667773841406735332==
+--===============7055717178191252285==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/zohar/linux-integrity
 user: zohar
 changes:
-  - ref: refs/heads/next-integrity-testing
+  - ref: refs/heads/next-integrity
     old: b6018af440a07bd0d74b58c4e18045f4a8dbfe6b
     new: b8dc57947379ca02500540bf942ecb42a30bfe92
     log: revlist-b6018af440a0-b8dc57947379.txt
 
---===============2667773841406735332==
+--===============7055717178191252285==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ f0f70ddb8f3bdbe670b1fab07271dd772e54c341 Merge tag 'x86_urgent_for_v6.2_rc4' of 
 62622dab0a285033e971641b781bc917d5939ce6 ima: return IMA digest value only when IMA_COLLECTED flag is set
 b8dc57947379ca02500540bf942ecb42a30bfe92 ima: fix ima_delete_rules() kernel-doc warning
 
---===============2667773841406735332==--
+--===============7055717178191252285==--
