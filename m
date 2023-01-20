@@ -1,43 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============8786773037873416220=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/b4/b4
-Date: Fri, 20 Jan 2023 15:34:00 -0000
-Message-Id: <167422884060.8084.6587703896543552351@gitolite.kernel.org>
-
---===============8786773037873416220==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/cem/xfsprogs-dev
+Date: Fri, 20 Jan 2023 15:34:25 -0000
+Message-Id: <167422886599.8303.15925030725907356911@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/b4/b4
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/cem/xfsprogs-dev
+user: cem
 changes:
-  - ref: refs/tags/v0.12.0
-    old: 0000000000000000000000000000000000000000
-    new: f5a2622908bdfdff42b3e7fd2a320157eb4bdcac
-
---===============8786773037873416220==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher B6C41CE35664996C! 1674228840 -0500
-pushee gitolite.kernel.org:pub/scm/utils/b4/b4
-nonce 1674228840-4cac506573881680fcbfe59637ecfa3560e0d4c1
-
-0000000000000000000000000000000000000000 f5a2622908bdfdff42b3e7fd2a320157eb4bdcac refs/tags/v0.12.0
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCY8q0aAAKCRC2xBzjVmSZ
-bCAmAQCTQJuRMLqEChVMl0PHhKbfCJbK22oTRwnLtt4TS6Tk4gD+Oa7qoUQpot8Y
-OxWp/UHZ2XDwuv/ki+UJLcgveVqeRwA=
-=zeB/
------END PGP SIGNATURE-----
-
---===============8786773037873416220==--
+  - ref: refs/heads/for-next
+    old: 7374f58bfeb38467bab6552a47a5cd6bbe3c2e2e
+    new: d8eab7600f470fbd09013eb90cbc7c5e271da4e5
+    log: |
+         37e6e80a61ad1a88bd109d71be73c8f415003cc1 xfsprogs: Release v6.1.0
+         5ead2de386d879684a5fed6c8ec6ddab454ed7c3 xfsprogs: scrub: fix warnings/errors due to missing include
+         96867d44fc522c941c684495eb017bad2b9e26d3 Add pkg version to debian changelog
+         fdf0366959f1d04f2aea93a3fac24c49b9d5e55f xfsprogs: Release v6.1.1
+         d9151538d4ef207c31ead0f22e96ee52ac2c83ac xfs_io: add fsuuid command
+         e7cd89b2da729c472db45a966d95e22c8119d409 xfs_admin: get UUID of mounted filesystem
+         0f1291c3bb8bfe4ad5dd67ec7b47f9420d9b138d progs: autoconf fails during debian package builds
+         d8eab7600f470fbd09013eb90cbc7c5e271da4e5 progs: just use libtoolize
+         
