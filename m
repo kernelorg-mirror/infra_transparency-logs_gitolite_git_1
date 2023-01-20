@@ -1,24 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Fri, 20 Jan 2023 14:00:19 -0000
-Message-Id: <167422321922.10379.5158647465291064522@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============4237442834876913272=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Fri, 20 Jan 2023 14:04:49 -0000
+Message-Id: <167422348909.11785.15538392169488764561@gitolite.kernel.org>
+
+--===============4237442834876913272==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rafael/linux-pm
-user: rafael
+repo: pub/scm/linux/kernel/git/gregkh/usb
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/bleeding-edge
-    old: ee391c142b7e153701eb16fcc63fb9ed9624a572
-    new: 69c6482b9556acea929398dc6db2709026919f2a
+  - ref: refs/heads/usb-testing
+    old: 93c473948c588978cd55d9a3adad8b3e8057aa21
+    new: dd2f003e4e85b154754d5a83e0c3b1b517d1f802
     log: |
-         afd822f01cda9833bb5a4525a0dd36c689c5941a Merge branch 'thermal-core' into linux-next
-         6b37dfcb39f6b7d2e5070181d878a4c373b24bb0 PM: hibernate: swap: don't use /** for non-kernel-doc comments
-         0eb89ff4fcaf9d0030d2010f8e5e2a148f05eb30 Merge branch 'pm-sleep' into bleeding-edge
-         1b6599f741a4525ca761ecde46e5885ff1e6ba58 powercap: fix possible name leak in powercap_register_zone()
-         b807758ff7c9e080f2cd940ef248d9a4d2d558ad Merge branch 'powercap' into bleeding-edge
-         69c6482b9556acea929398dc6db2709026919f2a Merge branch 'thermal/bleeding-edge' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/thermal/linux into bleeding-edge
+         dd2f003e4e85b154754d5a83e0c3b1b517d1f802 Revert "arm64: tegra: Enable XUSB host function on Jetson AGX Orin"
          
+
+--===============4237442834876913272==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1674223487 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1674223487-a3ddb0ddd1fed359194aed6ac8680f469487003f
+
+93c473948c588978cd55d9a3adad8b3e8057aa21 dd2f003e4e85b154754d5a83e0c3b1b517d1f802 refs/heads/usb-testing
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPKn4AbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+sJMQAIEoYP0ahOoRZrLcFH80
+hXS5nQTHfU/d0lYUPNnb2Ffhv+qs/k4rVt30SQ2gG8JMAPhUcVLKGoPNIbhWj4Lu
+OmkOIdUrKZJHbGWtCQ8utZG1ua0C/nKcAQaiC6XNROqW4NOysAqfmOLkdu+R+NoS
+HQOdO/L3ZLrglfIN5ZxyWnrk7yGzimbT6JN12q9C8kXUz9dgugqMf48a2AK3t8f0
+E/8sUBSG1rbEHODVN6qulJ8bWR3JxafdFhmIHQIS9WwEAiWKHfrpTGoLP+9t1Etm
+oTRzp7emGBwsjTQ1vJD4rEI2n3VVIaDzbM7l2w6HqFR0MBhpJV+xOsWo3fe4XtkY
+4QpF0xlQN9Vu/JrS6FfdwFmJeSHLcOK76klSXrOSoKh46uf8Y9sazFJW3+mH2Bg+
+DoVDdA4J6j0O1ADrYNjwhR3ABrpCg1Loqlg9ZgtYEO0dOuZgQlQONZRLQBWINiWG
+lAKyni0Xru1ekL8TeYRgYAc46DpQ8VuM0ECnr0GW/sqb4joN7L4txwumi/qDM6jJ
+Wot2WzidgWggVi2Iw9zNZLlhNtx6FTvbDnPNuqIn3Ky6DuVd08R8SB7ubFhSy2KP
+px03sp4kzqXeHIc8FnCD8AG2907Ne15uly63pO3QJJaEDJZtxpE2sNyLenWVIRFk
+/nvMPPn7t/05pbHrUh9VGSyv
+=aKMo
+-----END PGP SIGNATURE-----
+
+--===============4237442834876913272==--
