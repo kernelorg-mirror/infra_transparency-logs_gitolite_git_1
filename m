@@ -1,60 +1,40 @@
-Content-Type: multipart/mixed; boundary="===============8451109102590945699=="
+Content-Type: multipart/mixed; boundary="===============0481384013419621968=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Fri, 20 Jan 2023 10:40:44 -0000
-Message-Id: <167421124485.3915.15648286250890195594@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
+Date: Fri, 20 Jan 2023 10:43:54 -0000
+Message-Id: <167421143448.4931.14966703875810071189@gitolite.kernel.org>
 
---===============8451109102590945699==
+--===============0481384013419621968==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/kdave/linux
+user: kdave
 changes:
-  - ref: refs/heads/char-misc-linus
-    old: 36225a7c72e9e3e1ce4001b6ce72849f5c9a2d3b
-    new: 732065df5deb5d565f66780a97990e77fc9bc49f
-    log: |
-         df875276d8c69b27e1ed242d3cee6bc23d3b7f43 dt-bindings: interconnect: Add UFS clocks to MSM8996 A2NoC
-         60426ff08af6a21275d9c879c0dfb09406469868 interconnect: qcom: msm8996: Provide UFS clocks to A2NoC
-         4be39d5d86c690c60e2afe55787fc5ec4409d0f0 interconnect: qcom: msm8996: Fix regmap max_register values
-         dd42ec8ea5b979edcebbf0ba05807d866884b567 interconnect: qcom: rpm: Use _optional func for provider clocks
-         732065df5deb5d565f66780a97990e77fc9bc49f Merge tag 'icc-6.2-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/djakov/icc into char-misc-linus
-         
+  - ref: refs/heads/master
+    old: 7287904c8771b77b9504f53623bb477065c19a58
+    new: d368967cb1039b5c4cccb62b5a4b9468c50cd143
+    log: revlist-7287904c8771-d368967cb103.txt
 
---===============8451109102590945699==
+--===============0481384013419621968==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-7287904c8771-d368967cb103.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1674211243 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1674211242-9d868f2b27b4069de3cd89d5cf18d052020a24cf
+cc2e9d2b26c86c1dd8687f6916e5f621bcacd6f7 mm, slab: periodically resched in drain_freelist()
+a608da3bd730d718f2d3ebec1c26f9865f8f17ce zonefs: Detect append writes at invalid locations
+3ef5abd9b5c738bc6fa9a65e40331ef2cb03ad9c tty: serial: kgdboc: fix mutex locking order for configure_kgdboc()
+4fe59a130c112460626a6a8b9232aa580d9b8efc kernel/printk/printk.c: Fix W=1 kernel-doc warning
+41e1992665a2701fa025a8b76970c43b4148446f s390: workaround invalid gcc-11 out of bounds read warning
+21493c6e96e550509ead696ecca9f0d7196ee91c Merge branch 'rework/console-list-lock' into for-linus
+081edded9b38ba6a3a8fa045cfa0d374343da08a Merge tag 'zonefs-6.2-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/dlemoal/zonefs
+46f0cba31ccc28cfb3e65d0ab49a9a7e58c0ef9f Merge tag 'slab-for-6.2-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/vbabka/slab
+a03df4ec37291de74987e4fbfbbcaebb5a8f9a2e Merge tag 's390-6.2-3' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
+d368967cb1039b5c4cccb62b5a4b9468c50cd143 Merge tag 'printk-for-6.2-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/printk/linux
 
-36225a7c72e9e3e1ce4001b6ce72849f5c9a2d3b 732065df5deb5d565f66780a97990e77fc9bc49f refs/heads/char-misc-linus
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPKb6sbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+IFIP/1nyQPKczeu8RET4GE7A
-TMT3L4QTIPFyQu0mQ+8EfCpOq4skM13HoNkfHEra/S8fwPz6T3lg2TfyiQDqOAIL
-rk+Vi8MimeWUSB1WboXNLyxHHkmIgzvdtgvwE6GwFf1hEATWkMjXPZxWEnWUnm2R
-VaJym57coaTUQaw0Ifz6qlrZwIuNxhaTpW25zM6TqlmdklLjje5x3QjXa7/QRCjR
-TBgE/GnkyiFbhgVKafNDd9vhWnwGflm2wFF39+hdOhBbn8rg/KLzdo5lZ74pRb+r
-mbstLbK4bbUXULN1Me5RyLpFH9Q8F5ZT8d3m6X5Zqo1Fvl+RqYrwH8H3onb7HQHA
-M6LmXZ+zec5A/D/3rIcAdNYxzR+TZNjSXZKohk/apmVdxoXtQb5xEJO2dMKsdywq
-HBvVXiEoAEdPewuewgBq/cIfe8PkKBw87BS7yHdmTl/OwFeA9uE1eoNvM43wkvQ5
-DWYwGcUL06x/vuCHbu9ihb0YdVVsq4IZAktTMEMkoIWSweoUVcnL8AjZ2alhXFaL
-lY1IOkOgKcwoscOZhXcOiH6WiJbGhRT1eAGvgj0oHvmYg01gLxZc6Kad/0nWy3Ia
-hB+RJZlg/tHBo7euK9z8KEwEUuI1LIUciuaBWIJub5UI9wLtV4/+M1NWDEIZJKEO
-5v6Z7PIrBANlLxRn+sDI+j4k
-=hyMb
------END PGP SIGNATURE-----
-
---===============8451109102590945699==--
+--===============0481384013419621968==--
