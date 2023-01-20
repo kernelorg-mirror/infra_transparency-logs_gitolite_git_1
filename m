@@ -1,20 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vfs/idmapping
-Date: Fri, 20 Jan 2023 17:48:03 -0000
-Message-Id: <167423688366.4355.2078421181741547593@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/srini/nvmem
+Date: Fri, 20 Jan 2023 17:49:24 -0000
+Message-Id: <167423696461.4818.8426461454953240719@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vfs/idmapping
-user: brauner
+repo: pub/scm/linux/kernel/git/srini/nvmem
+user: srini
 changes:
   - ref: refs/heads/for-next
-    old: 2cd08b5469cab16340cb9939521904730406a995
-    new: c26bd309eef23a617a8a5b98fa90bfb1b40a8bf3
+    old: 1a71bdc08b7aaf2047e256cb9253eeefcaca24ca
+    new: ef26c0349eb5a615dab2272d08d1d5de4ac9cd4c
     log: |
-         7a80e5b8c6fa7d0ae6624bd6aedc4a6a1cfc62fa shmem: support idmapped mounts for tmpfs
-         c26bd309eef23a617a8a5b98fa90bfb1b40a8bf3 Merge branch 'fs.idmapped.shmem' into for-next
+         acdf68bdf2d4f0f47aa38f66bce0678d8e75a5b8 nvmem: stm32: add OP-TEE support for STM32MP13x
+         718793576db0fc497e4b52e560d689a68397af9c nvmem: stm32: detect bsec pta presence for STM32MP15x
+         d767902195f45461658f3ee0fea188ce3d80abf3 nvmem: rave-sp-eeprm: fix kernel-doc bad line warning
+         ef26c0349eb5a615dab2272d08d1d5de4ac9cd4c of: property: fix #nvmem-cell-cells parsing
          
