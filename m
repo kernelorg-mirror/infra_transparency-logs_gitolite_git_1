@@ -1,39 +1,42 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Fri, 20 Jan 2023 16:50:03 -0000
-Message-Id: <167423340367.30576.13154741359544381214@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============1141410814236219263=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Fri, 20 Jan 2023 16:52:02 -0000
+Message-Id: <167423352257.31222.7859646311417769150@gitolite.kernel.org>
+
+--===============1141410814236219263==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
+user: tnguy
 changes:
-  - ref: refs/heads/for-6.3/block
-    old: 13b8b8d68537e19d9e26d8d85f1cc8c4b7233e55
-    new: ba0b61d03ce3c60661df992cf6287e2f83b950fd
-    log: |
-         ba0b61d03ce3c60661df992cf6287e2f83b950fd block: treat poll queue enter similarly to timeouts
-         
-  - ref: refs/heads/for-6.3/io_uring
-    old: 9f61fe5e410444ccecb429e69536ecd981c73c08
-    new: baa4115a825810c040668a8e8550b53910c5ffc1
-    log: |
-         baa4115a825810c040668a8e8550b53910c5ffc1 io_uring: pass in io_issue_def to io_assign_file()
-         
-  - ref: refs/heads/for-next
-    old: 5157d6d7d1743b77f6e1ee39132f604c628fae23
-    new: b4b12eed8b0a31a731cbcf7fa24ba8af001a134c
-    log: |
-         baa4115a825810c040668a8e8550b53910c5ffc1 io_uring: pass in io_issue_def to io_assign_file()
-         b4b12eed8b0a31a731cbcf7fa24ba8af001a134c Merge branch 'for-6.3/io_uring' into for-next
-         
-  - ref: refs/heads/io_uring-6.2
-    old: e12d7a46f65ae4b7d58a5e0c1cbfa825cf8d830d
-    new: 8579538c89e33ce78be2feb41e07489c8cbf8f31
-    log: |
-         56d8e3180c065c9b78ed77afcd0cf99677a4e22f io_uring/msg_ring: fix flagging remote execution
-         8579538c89e33ce78be2feb41e07489c8cbf8f31 io_uring/msg_ring: fix remote queue to disabled ring
-         
+  - ref: refs/heads/master
+    old: 6c977c5c2e4c5d8ad1b604724cc344e38f96fe9b
+    new: 45a919bbb21c642e0c34dac483d1e003560159dc
+    log: revlist-6c977c5c2e4c-45a919bbb21c.txt
+
+--===============1141410814236219263==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-6c977c5c2e4c-45a919bbb21c.txt
+
+07ea567d84cdf0add274d66db7c02b55b818d517 octeontx2-af: recover CPT engine when it gets fault
+f58cf765e8f5f4860ea094aa12c156d9195a4c28 octeontx2-af: add mbox for CPT LF reset
+1286c50ae9e0f5025b165c8f2321b3ce3b558002 octeontx2-af: modify FLR sequence for CPT
+9adb04ff62f51265002c2c83e718bcf459e06e48 octeontx2-af: optimize cpt pf identification
+d5b2e0a299f36c6ccdda4830525ca20550243536 octeontx2-af: restore rxc conf after teardown sequence
+c0688ec002a451d04a51d43b849765c5ce6cb36f octeontx2-af: update cpt lf alloc mailbox
+8299ffe3dc3dc9ac2bd60e3a8332008f03156aca octeontx2-af: add mbox to return CPT_AF_FLT_INT info
+b4fbf0b27fa9dd2594b3371532341bd4636a00f9 Merge branch 'octeontx2-af-CPT'
+fdfc76a116b5e9d3e98e6c96fe83b42d011d21d4 net: stmmac: enable all safety features by default
+d3e599c090fc6977331150c5f0a69ab8ce87da21 bnxt: Do not read past the end of test names
+300b655db1b5152d6101bcb6801d50899b20c2d6 tcp: fix rate_app_limited to default to 1
+45a919bbb21c642e0c34dac483d1e003560159dc Revert "Merge branch 'octeontx2-af-CPT'"
+
+--===============1141410814236219263==--
