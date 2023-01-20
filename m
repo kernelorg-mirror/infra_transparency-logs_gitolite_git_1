@@ -1,46 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============5896891564641440182=="
+Content-Type: multipart/mixed; boundary="===============8988673960337806993=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/b4/b4
-Date: Fri, 20 Jan 2023 15:32:06 -0000
-Message-Id: <167422872648.7149.314328422596509288@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Fri, 20 Jan 2023 15:32:12 -0000
+Message-Id: <167422873278.7306.5087198447142852488@gitolite.kernel.org>
 
---===============5896891564641440182==
+--===============8988673960337806993==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/b4/b4
-user: mricon
+repo: pub/scm/linux/kernel/git/broonie/misc
+user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: 78462b1214b2f0b1b1f04e8af4677f8298f160fd
-    new: 1f7f126468f07d93ae6be5ba21f6c8c090ec872a
+  - ref: refs/heads/regulator-6.2
+    old: f528fe213a6ad21a6e8644dbd5de10dc264a89fd
+    new: 4bb3d82a1820c1b609ede8eb2332f3cb038c5840
     log: |
-         1f7f126468f07d93ae6be5ba21f6c8c090ec872a Up version to 0.12.0
+         4bb3d82a1820c1b609ede8eb2332f3cb038c5840 regulator: dt-bindings: samsung,s2mps14: add lost samsung,ext-control-gpios
          
 
---===============5896891564641440182==
+--===============8988673960337806993==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher B6C41CE35664996C! 1674228726 -0500
-pushee gitolite.kernel.org:pub/scm/utils/b4/b4
-nonce 1674228726-11c7d18d59446da53c9d273106f96ac2e50c6f00
+pusher C3F436CA30F5D8EB 1674228731 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1674228730-60e4f0bbcaf61dd482440526db54fcfd7c50f73b
 
-78462b1214b2f0b1b1f04e8af4677f8298f160fd 1f7f126468f07d93ae6be5ba21f6c8c090ec872a refs/heads/master
+f528fe213a6ad21a6e8644dbd5de10dc264a89fd 4bb3d82a1820c1b609ede8eb2332f3cb038c5840 refs/heads/regulator-6.2
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCY8qz9gAKCRC2xBzjVmSZ
-bJiLAP9kW7JKTy8xx2kdulXJVCwBqFah1l6UnOpUh91UQLWOzwD9HRs4BhsxlsX+
-BcKecUOyO/Lkts2ZRGWGnI7p7IBKdg4=
-=dlvf
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmPKs/sACgkQJNaLcl1U
+h9AKOQf/faj30bSuQvmBzpowhw7S482JNb2jpzWXUfKumDohx/KLs2nQOJk4Mkhh
+dqH836GsVnXbalYyLsqBEXdlNSPYL2+5oiRAnplkkIFTsD3kwC1ENWv73vED91Rm
+F3XrjcRWulxgKPsRqpCzNUriR5vaRSFUdQh7zwKVSjx8jlquaLkLbV0P3NVVG1wM
+d9fobZ4YaLel4z4xmpjKtMe4E3c7wzt1JAKkX6LRrmq5AUPZPWHAbS45oNF4UvfA
+OX2D59OkFk0EaqHzPPisTh+MnnPpzJnvYdicyhrD5b62rVdClyc3vPhthi6yhtgC
+AwtBl+K/aUEpdhEM0Ih7HS/Vq8T8jA==
+=v+OQ
 -----END PGP SIGNATURE-----
 
---===============5896891564641440182==--
+--===============8988673960337806993==--
