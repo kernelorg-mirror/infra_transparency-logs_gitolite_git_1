@@ -1,40 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============0481384013419621968=="
+Content-Type: multipart/mixed; boundary="===============8501347840728875947=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
-Date: Fri, 20 Jan 2023 10:43:54 -0000
-Message-Id: <167421143448.4931.14966703875810071189@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
+Date: Fri, 20 Jan 2023 11:06:22 -0000
+Message-Id: <167421278298.20895.15367885547973883835@gitolite.kernel.org>
 
---===============0481384013419621968==
+--===============8501347840728875947==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kdave/linux
-user: kdave
+repo: pub/scm/linux/kernel/git/gregkh/char-misc
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: 7287904c8771b77b9504f53623bb477065c19a58
-    new: d368967cb1039b5c4cccb62b5a4b9468c50cd143
-    log: revlist-7287904c8771-d368967cb103.txt
+  - ref: refs/heads/char-misc-testing
+    old: 863cf33255faa5834d4d4f9e5df8fba0518b2060
+    new: 40bf2fcd85e5997b419e49f72d0df694b8274586
+    log: |
+         0eb468b6e1c56b55c01bfc588f9a519ac15b4ff5 eeprom: at25: Convert to use fwnode_device_is_compatible()
+         d717a3ab282f51ec45142f911f7ef8a55c057de5 eeprom: idt_89hpesx: Fix error handling in idt_init()
+         40bf2fcd85e5997b419e49f72d0df694b8274586 scripts/tags.sh: choose which directories to exclude from being indexed
+         
 
---===============0481384013419621968==
+--===============8501347840728875947==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7287904c8771-d368967cb103.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-cc2e9d2b26c86c1dd8687f6916e5f621bcacd6f7 mm, slab: periodically resched in drain_freelist()
-a608da3bd730d718f2d3ebec1c26f9865f8f17ce zonefs: Detect append writes at invalid locations
-3ef5abd9b5c738bc6fa9a65e40331ef2cb03ad9c tty: serial: kgdboc: fix mutex locking order for configure_kgdboc()
-4fe59a130c112460626a6a8b9232aa580d9b8efc kernel/printk/printk.c: Fix W=1 kernel-doc warning
-41e1992665a2701fa025a8b76970c43b4148446f s390: workaround invalid gcc-11 out of bounds read warning
-21493c6e96e550509ead696ecca9f0d7196ee91c Merge branch 'rework/console-list-lock' into for-linus
-081edded9b38ba6a3a8fa045cfa0d374343da08a Merge tag 'zonefs-6.2-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/dlemoal/zonefs
-46f0cba31ccc28cfb3e65d0ab49a9a7e58c0ef9f Merge tag 'slab-for-6.2-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/vbabka/slab
-a03df4ec37291de74987e4fbfbbcaebb5a8f9a2e Merge tag 's390-6.2-3' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
-d368967cb1039b5c4cccb62b5a4b9468c50cd143 Merge tag 'printk-for-6.2-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/printk/linux
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1674212781 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
+nonce 1674212780-b13839fb4528de85bedf3963093196076df149f0
 
---===============0481384013419621968==--
+863cf33255faa5834d4d4f9e5df8fba0518b2060 40bf2fcd85e5997b419e49f72d0df694b8274586 refs/heads/char-misc-testing
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPKda0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+sgsQALVR169YgthwGHe0PRZ5
+VYavgQXezidHYEhsNtd66nrpD3xPAfTCdk9eIGmmWJ22P2JMus5W1ujOv0/le4xj
+X5410FdRd8KLSnqHkND4NKAIHSp/eiAiHRF3VM4aKLU4lmA7vV9nRmdU4H1XfuNE
+kpEXM6e+kW2bqeEPGY2/u2P2VUdkNDAncRnFTuzUaY92yTqLXqWk7ukb5iodiEMz
+Rlahiyj3Gf53G0zfu5QPcWF5UJKh9/+9nfbwiutYXkMsF8+LZmVAHHXIr6BjsgNY
+6ipjoB2F0v9kbaEmiQ5mEIX87NSqsqR4x0NxYk4RJJZx7SUv4LDRrD9uUAtEYLMD
+fgDFbcbCOrDJWIYoC3nUxGqWsigLDetrGvPAqm2AaCMlDLTHg4tWk/bisOFMvWOL
+TW7dDhrvB4Bk51Wy+1X8FaYolRndiD64eIRjM0wOOo5qHYxJIoY58UjoEn+LScaA
+3UgMNpNNmn+Rig3lToFAme5PEK8J7abu+Ob+S2GYorDfWzZ4VKEBIt/4XX65Kvh2
+mPOXvGxTGdF4kfQgR2rQ6p3uVb3hiRE+JGgaJ6VT/p2pOEgjGdf/xrbW6x1Fd6OM
+EVTxkuu8R71/iHRSQjEEOpXGbtS6Mdg3HVCkY5FJw8Nt5zzw2eXCMSIL5mxf7y2g
+kgYRq/hWQfQOgSLdP9/Fh/lk
+=LLD8
+-----END PGP SIGNATURE-----
+
+--===============8501347840728875947==--
