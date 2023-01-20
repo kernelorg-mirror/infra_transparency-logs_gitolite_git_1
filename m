@@ -1,21 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Fri, 20 Jan 2023 22:22:41 -0000
-Message-Id: <167425336108.25375.551647081424453668@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
+Date: Fri, 20 Jan 2023 22:30:17 -0000
+Message-Id: <167425381702.30740.14689734361446416174@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
-user: broonie
+repo: pub/scm/linux/kernel/git/brgl/linux
+user: brgl
 changes:
-  - ref: refs/heads/for-next
-    old: 4f2000984b4f1b075b9e8116c3135e66b52c548c
-    new: 9634cee2bd6d1635626a8cb27cd9d6cd9e452c3e
-    log: |
-         1766ac5248063c25d1fe46e04bb936c46313ed89 ASoC: ux500: remove platform_data support
-         aafe9375b386010e28614f58499d199250a16874 ASoC: ux500: remove stedma40 references
-         9634cee2bd6d1635626a8cb27cd9d6cd9e452c3e Merge remote-tracking branch 'asoc/for-6.3' into asoc-next
-         
+  - ref: refs/tags/gpio-fixes-for-v6.2-rc5
+    old: 0000000000000000000000000000000000000000
+    new: 1e2da66588c3dc0cf5d387b1c06de871fbb6fce6
