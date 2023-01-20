@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============0537660322438317116=="
+Content-Type: multipart/mixed; boundary="===============0125596829387053052=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Fri, 20 Jan 2023 14:09:42 -0000
-Message-Id: <167422378241.15103.2166626960116018405@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Fri, 20 Jan 2023 14:09:49 -0000
+Message-Id: <167422378919.15216.2614102219880314813@gitolite.kernel.org>
 
---===============0537660322438317116==
+--===============0125596829387053052==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.2
+  - ref: refs/heads/asoc-6.2
     old: c1619ea22d9509cfbcf5c2c1cc65563179e9dc8e
     new: 2855e16f47ae0ad881e724d4a619fdeebcff09fb
     log: |
@@ -29,28 +29,28 @@ changes:
          2855e16f47ae0ad881e724d4a619fdeebcff09fb ASoC: Intel: set dpcm_capture for amps
          
 
---===============0537660322438317116==
+--===============0125596829387053052==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1674223781 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1674223780-3acddc5c19a9c204a6d399c22ca1baa7f09e2132
+pusher C3F436CA30F5D8EB 1674223787 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1674223786-3f0e62363788ed85a8d56e9aef0cafe1bacdebd6
 
-c1619ea22d9509cfbcf5c2c1cc65563179e9dc8e 2855e16f47ae0ad881e724d4a619fdeebcff09fb refs/heads/for-6.2
+c1619ea22d9509cfbcf5c2c1cc65563179e9dc8e 2855e16f47ae0ad881e724d4a619fdeebcff09fb refs/heads/asoc-6.2
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmPKoKUACgkQJNaLcl1U
-h9BVWgf/exmq2RyKH8gd4RAcogAf3pZQtguKf5VAFJGzKeg1JrcuIO7OZy5Tz4WM
-GSSHF4wRh6ISdXXcE8iQ1rN/Q4rp4qirghdzdbpDf8Us88jAL8IJZcPPSL98+pM+
-wpVcb9+vXs8QpcOqgyK9rkCXBAsgZCGaozuWCNTHZco7e4QTwa5/BwV4d3am5Vm6
-dlum4uRjxXY2u9AYZxx8g+l229vBVbegaRGpEeIL7DBFog3GTePhQg6UQEGjWoMB
-+xXQngkIsNUdN0czUC4/rJsAP05HdopxuEq1WBPn3OLsSB+LDokpgwVsnTeY1frV
-LkG7A+1kkpIN/yd82MJKjpuFIwSRHQ==
-=lcwW
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmPKoKsACgkQJNaLcl1U
+h9AKaQf+J3V9Pxyw6chEMheSoC4J5LjNO61/ZcOPisaNOF6FAoCxUHrFr8zrh3E9
+KfmfMgZCQ3wQNvA1dRo1+eMuh9CGTLZygQ+HPzFmsWsamfjJLBOItq3uELYrwekb
+AKc1tztn9bosx6+0Po14DiITfyan1bTlnHgCfMpvL7DAQBcNEDotp4uw+zXm2JS2
+9DE+ArsQsHUQfnS9GfQXOHEuGQVonnh4eAWk4zsyzCeYGz49IQZL7rC8u55jfIKR
+TDjgNokEBwYjnCxuR2jwVReD7jQExDoZDnz6VJAH1h/8gkC7B5GNt5cm647hCKey
+b3EGKcf4xw3M2nRKIHUiz0U5cplMBQ==
+=FIix
 -----END PGP SIGNATURE-----
 
---===============0537660322438317116==--
+--===============0125596829387053052==--
