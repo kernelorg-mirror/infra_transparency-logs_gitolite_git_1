@@ -1,22 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-gpio
-Date: Fri, 20 Jan 2023 09:38:56 -0000
-Message-Id: <167420753675.12471.498339141857047674@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/matthias.bgg/linux
+Date: Fri, 20 Jan 2023 09:59:16 -0000
+Message-Id: <167420875613.7325.4434775877599134794@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/linusw/linux-gpio
-user: linusw
+repo: pub/scm/linux/kernel/git/matthias.bgg/linux
+user: matthias.bgg
 changes:
-  - ref: refs/heads/gpiochip-no-driver-h
-    old: 73609f752a84622a727704686c1e92559a707499
-    new: 58fa5540f6be58a2c3cddd0b5794e09306002d4c
+  - ref: refs/heads/v6.2-next/dts64
+    old: 089cd717e6ef03cf9cf7865777d67775de41339b
+    new: 474c162878ba3dbd620538d129f576f2bca7b9e1
     log: |
-         43eef4a8e09710409d577bacee60c240ada9c69d hte: tegra-194: Use proper includes
-         8381c6b9ebe86af6f0a54933d3b32e19ce83eeab ARM: orion/gpio: Use the right include
-         556810826939b64af86fd35065465120849dd260 ARM: s3c24xx: Use the right include
-         58fa5540f6be58a2c3cddd0b5794e09306002d4c See what explodes if we apply this patch
+         c5fe37e8528ffb191baa7244ab33b8deaae6a4b7 arm64: dts: mt8195: Add Ethernet controller
+         c2d94f72140a28d0f516b7c5e8274a9c185a04ff arm64: dts: mediatek: mt8173-elm: Move display to ps8640 auxiliary bus
+         474c162878ba3dbd620538d129f576f2bca7b9e1 arm64: dts: mt8183: jacuzzi: Move panel under aux-bus
          
