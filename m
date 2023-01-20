@@ -1,61 +1,53 @@
-Content-Type: multipart/mixed; boundary="===============6223175154940830447=="
+Content-Type: multipart/mixed; boundary="===============0963511947997926202=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Fri, 20 Jan 2023 12:24:35 -0000
-Message-Id: <167421747528.8162.92087717151186354@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Fri, 20 Jan 2023 12:29:45 -0000
+Message-Id: <167421778528.11366.1478627282079707996@gitolite.kernel.org>
 
---===============6223175154940830447==
+--===============0963511947997926202==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: davem
 changes:
-  - ref: refs/heads/char-misc-linus
-    old: 5023adc364df004bd8e57afe89a4bd8019485c3d
-    new: 3daed6345d5880464f46adab871d208e1baa2f3a
-    log: |
-         9446fa1683a7e3937d9970248ced427c1983a1c5 misc: fastrpc: Fix use-after-free and race in fastrpc_map_find
-         5bb96c8f9268e2fdb0e5321cbc358ee5941efc15 misc: fastrpc: Don't remove map on creater_process and device_release
-         96b328d119eca7563c1edcc4e1039a62e6370ecb misc: fastrpc: Fix use-after-free race condition for maps
-         a769b05eeed7accc4019a1ed9799dd72067f1ce8 gsmi: fix null-deref in gsmi_get_variable
-         aaca766c77fcf5aabda846d3372a1d40b0d4735d misc: fastrpc: Pass bitfield into qcom_scm_assign_mem
-         3daed6345d5880464f46adab871d208e1baa2f3a VMCI: Use threaded irqs instead of tasklets
-         
+  - ref: refs/heads/master
+    old: 147c50ac3a4ea4f5ddbcf064e1adcf3aa7e6aa11
+    new: ba197fdea699adfd3bcb73a67ec0e74b59b9506d
+    log: revlist-147c50ac3a4e-ba197fdea699.txt
 
---===============6223175154940830447==
+--===============0963511947997926202==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-147c50ac3a4e-ba197fdea699.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1674217473 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1674217473-4435076682ed64992effaad96050995256f89fcd
+a4f68f37e63f91ce7baa31ea3d64072f1b86aac7 ice: Add 'Execute Pending LLDP MIB' Admin Queue command
+7d8d7754e6f70eed2ed6c48ce55a4a1168b08276 ice: Handle LLDP MIB Pending change
+390889a4b40ef8fbcaa3a04b71c36b8dba805507 ice: Support drop action
+8aa4318c3a122b8670bc09af142de3872ca63b88 ice: restrict PTP HW clock freq adjustments to 100, 000, 000 PPB
+d5a6df44375c88999e94e9ba3bf5c129071fe4cf ice: remove redundant non-null check in ice_setup_pf_sw()
+6a8d013e904ad9a66706fcc926ec9993bed7d190 ice: add missing checks for PF vsi type
+2481e82077488723fda2492f0bfb80bcb7ead715 ice: Add support for 100G KR2/CR2/SR2 link reporting
+9d20797fcdab33a7090c8640893ec53708dca1fa ice: combine cases in ice_ksettings_find_adv_link_speed()
+df2a4c3f653088c20e7c998acbd959338631f1d8 ice: Remove cppcheck suppressions
+2ffd87d38d6b9dd8575e4b763ead7127c2695bcb ice: Move support DDP code out of ice_flex_pipe.c
+bd557d97978ea3e22653117a39184b5db70c7093 ice: Reduce scope of variables
+91dbcb91d006a62dd60c16d5f1f11fd4f6175786 ice: Explicitly return 0
+388740b3f63ddb01fa763b8525bec7c59004dd8a ice: Match parameter name for ice_cfg_phy_fc()
+643ef23bd9ddf742579bc7334c45cf7bc349168a ice: Introduce local var for readability
+d52a6180c7466a3520ee42ae56315ee12a097e87 ice: Remove excess space
+34b7074d3fba0d3f3ca8c66b6105b7f575e77e98 net: dcb: modify dcb_app_add to take list_head ptr as parameter
+30568334b657e77629293dd88a35d9c21b3258fb net: dcb: add new common function for set/del of app/rewr entries
+622f1b2fae2eea28a80b04f130e3bb54227699f8 net: dcb: add new rewrite table
+1df99338e6d4e96178b68b3e17bab33e9f1eb628 net: dcb: add helper functions to retrieve PCP and DSCP rewrite maps
+2234879f4ca127d5288046fe0469d9ac63988c0b net: microchip: sparx5: add support for PCP rewrite
+246c77f666b434d4a08021cf24eb9260cf7f92a2 net: microchip: sparx5: add support for DSCP rewrite
+f5339209541f6598b5093274c848654d620b4e02 Merge branch 'net-dcb-rewrite-table'
+ba197fdea699adfd3bcb73a67ec0e74b59b9506d Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/next-queue
 
-5023adc364df004bd8e57afe89a4bd8019485c3d 3daed6345d5880464f46adab871d208e1baa2f3a refs/heads/char-misc-linus
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPKiAEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+RJQP/R0O305B+d7l4i47hNj8
-lb5hY10o+FIcKAHBsqHA+aV9p47nSfnw5AA1dN4rj4dFCM1BuBDLOWQUNb19dFZT
-cFzUPz9dGaYgRZO5+KsOAszmx2fTmJX2jGjfJMJfXG7vWNApJdmuq1SJpCZevmvO
-QmBk42XcTwAI3/c392TJqqDdCCxhnyP0d0gA9de50mNaQkDrNK8oJMRVi+nab7j4
-aDVRDezBjNm0rnOImjwp1vYfQ13s49ALu0vYjZ/FZT+YU0k2VKlfBY0VvcRgsLhZ
-d9kG3dDJc4rWSV88BWZ9jO8PZTPS9M0ptKv53gKySGa9Hnh2okHeORZrbyTE5XCF
-ABrdwieDSSm+Ar3djMbVq49wfn+PBXg/cVBYmnwQch9SydhEo7dGAaynMksH8PDj
-i2IcJICgWW6o30kj+jZrcjYbrEbeH+HXvh7iYktCyKVK42E581fpQ8A6tIJTJMUO
-4/0RzLPhkCs9Ht/SrvszEVc897eegfhXF0D9uIG1Y6XaZRDb2XadNbn/L9YnMZ/n
-nJfLvqR3yaKeEi74fQR8g4rj8sClf9wZQnoKOqBHJ4AUUVPnTAA+OVsj3PvivHtU
-y9e2fVK0nHxqU5+769tOEIQTpRoyW7SA3wc/I/JCQ/okXxMr4qz+q6rnRSr9FLAt
-pnkMhA4yMAF6xELvfVycOr7s
-=VzN9
------END PGP SIGNATURE-----
-
---===============6223175154940830447==--
+--===============0963511947997926202==--
