@@ -1,26 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/coresight/linux
-Date: Fri, 20 Jan 2023 11:45:35 -0000
-Message-Id: <167421513570.14565.15884788786706539605@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Fri, 20 Jan 2023 11:50:04 -0000
+Message-Id: <167421540498.18523.14502178014420005754@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/coresight/linux
-user: suzukikp
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
-  - ref: refs/heads/next
-    old: fd30b085deebe73d78e4321f88a7f95ba1db86a9
-    new: 758d638667d474ff6b0a9052a8298f04c7ddf62f
+  - ref: refs/heads/master
+    old: 1ef0be3a1acfbe5bb8aac80a24e0a1d9a17876d1
+    new: 77da12e7b4e0e33fe02e735a7907784cc346164e
     log: |
-         5c0016d7b343e453e38752ca58bc18394ece310a coresight: core: Use IDR for non-cpu bound sources' paths.
-         b3c71626a9333b0b29f9921a39cef30b5961766f Coresight: Add coresight TPDM source driver
-         6c781a35133df1405302fe6c01c6754afdf61375 dt-bindings: arm: Add CoreSight TPDM hardware
-         1f00465d7fc742543ebc096879bddc01ee4a5993 coresight-tpdm: Add DSB dataset support
-         436cca9a2c0f05a3802a6a5a7c6849853590f919 coresight-tpdm: Add integration test support
-         5b7916625c017ef1bbea4092835740f9161ab7c9 Coresight: Add TPDA link driver
-         a8fbe1442c2bb234aaa81501f2b08e861790f639 dt-bindings: arm: Adds CoreSight TPDA hardware definitions
-         758d638667d474ff6b0a9052a8298f04c7ddf62f Documentation: trace: Add documentation for TPDM and TPDA
+         640941686948b81b516d730ef5a0bbf02260182a libblkid: add bcachefs support
+         4ad02a2566db6ec5bae68ef2434b3481914fb81c libblkid: bcachefs: probe UUID_SUB
+         ba5c3e7387719dffed0179424c39b62c4a5c7246 libblkid: bcachefs: validate device fields
+         e9e51878e7fa59060f4ecb1c8ed04646e2f4759a libblkid: bcachefs: add crc32 checksum support
+         4a57b0b40109c8cd56189f04fb4c4392508bb3e6 libblkid: bcachefs: add crc64 checksum support
+         f5c84384b50fddc7d363241e93e455179138c696 libblkid: bcachefs: add xxhash checksum support
+         77da12e7b4e0e33fe02e735a7907784cc346164e libblkid: (bcachefs) verify checksum before set probing result
          
