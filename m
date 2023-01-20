@@ -1,26 +1,57 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Fri, 20 Jan 2023 08:55:58 -0000
-Message-Id: <167420495807.17477.9711079936813141386@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============4741320243869865282=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Fri, 20 Jan 2023 09:06:01 -0000
+Message-Id: <167420556150.23566.7946393310809755796@gitolite.kernel.org>
+
+--===============4741320243869865282==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: davem
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: cff9b79e9ad579418df8e309e62b8196359f63a5
-    new: 147c50ac3a4ea4f5ddbcf064e1adcf3aa7e6aa11
+  - ref: refs/heads/driver-core-next
+    old: ed9f918174cb35ba51d2fc86a613305dd8bc4cfe
+    new: 95b2a034784658c4512db846918475d4954901d6
     log: |
-         9755126dc038ab60cd258b619c3d2592298e0095 dsa: lan9303: align dsa_switch_ops members
-         1bcb5df81e4b788d3a0ff5b04dc5299758b38ac5 dsa: lan9303: move Turbo Mode bit init
-         601f574a1b449446a98d65cc3871a8eb2cb18bcf dsa: lan9303: Add exception logic for read failure
-         de375aa860fb848eaabc76dce0af2e982630b421 dsa: lan9303: write reg only if necessary
-         56e23d91bcfda607f928105b5c403a4bed415743 dsa: lan9303: Port 0 is xMII port
-         332bc552a402c9a319a87f0ee114db4a03a3c887 dsa: lan9303: Migrate to PHYLINK
-         87523986570e3068b9a21632976ad7c1d04ce25f dsa: lan9303: Add flow ctrl in link_up
-         147c50ac3a4ea4f5ddbcf064e1adcf3aa7e6aa11 Merge branch 'lan9303-phylink'
+         52af7863508e94f3e05e43a3f2f3943a71dcffab device property: Make fwnode_graph_for_each_endpoint() consistent
+         95b2a034784658c4512db846918475d4954901d6 kernfs: remove an unused if statement in kernfs_path_from_node_locked()
          
+
+--===============4741320243869865282==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1674205560 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1674205560-6cbd9820045a6eff9e9e3d732ecdb17cdea1d283
+
+ed9f918174cb35ba51d2fc86a613305dd8bc4cfe 95b2a034784658c4512db846918475d4954901d6 refs/heads/driver-core-next
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPKWXkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+MUAQAMQd+0lV0xWdMHVAP4IC
+tlP6Lq1S36LVEQPgdtUR4fpWAzrD7p9OquUmt+ANKSChtPm7C7yf2N88PkVted0u
+pRuj2ZX+B8VYRPsB+ZZTtlRoF5KmZ4BPYgwNKEenh2Lr9yTtEQQgVZwazIKFx+tj
+QEPDHvubbEbV41XLG+QBPf+MC67ALceDdqDugO6N89GEl48z1zlCzJxSQIoZ0SM3
+JABeMLBLKf/YD2AYBoNkWPlvYYKo1uwVNETS8c+S0QuUCRVqcT7sMdDUa2Q86q+7
+ko3TyiiQiz859aOGrSOmjp9oXLR0yxRUSeM/YI5GEPzxpbWGGVA0t1eRhpxOMbdb
+A/gaed8ZZ+kua4mVPaAEljRThdflg3rhr9/I5bPGEPQGU4bWb5rqhjzEDtHZR90t
+JqsVBWw6oZ4H4bgRUd3T1k9vf5XXnJC30iKd3kXsEbXF6XkyKOVi/dO3/kJc/c8E
+WclX7SSzyBZQLvLEdjGYm70eu4nKwAb9ZaM7qe5RUhmexmtSibYP7vgcs3dn00H2
+eEaJklZC5FZEsrwudSyyybA/4JcBtwyN++YUsW8Gbvs0z/qKhBH/K8SEylqo0ErV
+3c8qgvhP9r09RI9l+vkyiBaU734njaOOIy7qKLXP6tCbn/QSpOiAVPVv4RMDT1sE
+0Ntn61utzxxdOqBO9k22d/2V
+=/be4
+-----END PGP SIGNATURE-----
+
+--===============4741320243869865282==--
