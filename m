@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vkoul/dmaengine
-Date: Fri, 20 Jan 2023 15:03:14 -0000
-Message-Id: <167422699487.19155.10785166154556818609@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/lpieralisi/pci
+Date: Fri, 20 Jan 2023 15:04:25 -0000
+Message-Id: <167422706533.19580.12562638768398749186@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vkoul/dmaengine
-user: vkoul
+repo: pub/scm/linux/kernel/git/lpieralisi/pci
+user: lpieralisi
 changes:
-  - ref: refs/tags/dmaengine-fix-6.2
-    old: 0000000000000000000000000000000000000000
-    new: 83b62b4944d13a9b757d93bd63759628834b8c55
+  - ref: refs/heads/pci/dt
+    old: 68909a813609595ad5007ee6cdb1f115b985c4d2
+    new: 0000000000000000000000000000000000000000
