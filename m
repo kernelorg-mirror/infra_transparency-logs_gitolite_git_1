@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
-Date: Fri, 20 Jan 2023 13:13:03 -0000
-Message-Id: <167422038320.8375.7172793967120769029@gitolite.kernel.org>
+Date: Fri, 20 Jan 2023 13:13:54 -0000
+Message-Id: <167422043436.8741.503197604825042903@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/firmware/linux-firmware
 user: jwboyer
 changes:
   - ref: refs/heads/main
-    old: f88f1f853aa18d133ad3f976f52cf62ff1626552
-    new: 3f0f338dfc27a43ab86c75ac2db906ab1cfbdac1
+    old: 3f0f338dfc27a43ab86c75ac2db906ab1cfbdac1
+    new: bb2d42dceff755623d6d59a32a743ccf87cbb6b9
     log: |
-         3f0f338dfc27a43ab86c75ac2db906ab1cfbdac1 linux-firmware: update firmware for mediatek bluetooth chip (MT7921)
+         bb2d42dceff755623d6d59a32a743ccf87cbb6b9 linux-firmware: update firmware for MT7921 WiFi device
          
