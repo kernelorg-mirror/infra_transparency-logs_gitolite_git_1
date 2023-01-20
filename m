@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/srini/nvmem
-Date: Fri, 20 Jan 2023 17:49:24 -0000
-Message-Id: <167423696461.4818.8426461454953240719@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Fri, 20 Jan 2023 17:57:47 -0000
+Message-Id: <167423746737.10389.12437440482620319359@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/srini/nvmem
-user: srini
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/heads/for-next
-    old: 1a71bdc08b7aaf2047e256cb9253eeefcaca24ca
-    new: ef26c0349eb5a615dab2272d08d1d5de4ac9cd4c
-    log: |
-         acdf68bdf2d4f0f47aa38f66bce0678d8e75a5b8 nvmem: stm32: add OP-TEE support for STM32MP13x
-         718793576db0fc497e4b52e560d689a68397af9c nvmem: stm32: detect bsec pta presence for STM32MP15x
-         d767902195f45461658f3ee0fea188ce3d80abf3 nvmem: rave-sp-eeprm: fix kernel-doc bad line warning
-         ef26c0349eb5a615dab2272d08d1d5de4ac9cd4c of: property: fix #nvmem-cell-cells parsing
-         
+  - ref: refs/heads/thermal-core
+    old: 0000000000000000000000000000000000000000
+    new: 6c54b7bc8a31ce0f7cc7f8deef05067df414f1d8
+  - ref: refs/tags/thermal-6.2-rc5
+    old: 0000000000000000000000000000000000000000
+    new: 5796b81bdd9525baf6239d6d1c7b86a1da52312f
