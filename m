@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Sat, 21 Jan 2023 02:51:56 -0000
-Message-Id: <167426951668.8626.17574348548907869622@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Sat, 21 Jan 2023 03:33:27 -0000
+Message-Id: <167427200718.2203.14044271275299155672@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
   - ref: refs/heads/master
-    old: fd941bd64f0776e4c51d8934f8e666cfbe14406a
-    new: 71ab9c3e2253619136c31c89dbb2c69305cc89b1
+    old: c17bcda61417b75b30e217ee38520112b8ca0cee
+    new: 1a1001efcb57cc83ac4d8818920a61eb9a641c7a
     log: |
-         71ab9c3e2253619136c31c89dbb2c69305cc89b1 net: fix UaF in netns ops registration error path
+         1a1001efcb57cc83ac4d8818920a61eb9a641c7a Sat Jan 21 03:31:26 AM UTC 2023
          
