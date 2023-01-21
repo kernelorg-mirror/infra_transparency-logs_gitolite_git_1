@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvmarm/kvmarm
-Date: Sat, 21 Jan 2023 11:03:40 -0000
-Message-Id: <167429902027.17982.13915189174001343717@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/trace-cmd/kernel-shark
+Date: Sat, 21 Jan 2023 11:26:58 -0000
+Message-Id: <167430041836.1441.12174651979800382826@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvmarm/kvmarm
-user: maz
+repo: pub/scm/utils/trace-cmd/kernel-shark
+user: y.karadzhov
 changes:
-  - ref: refs/heads/fixes
-    old: de535c0234dd2dbd9c790790f2ca1c4ec8a52d2b
-    new: ef3691683d7bfd0a2acf48812e4ffe894f10bfa8
+  - ref: refs/heads/kernelshark
+    old: 3146d0b3d873546461163df2701ee1068e27ee04
+    new: 99225c059b45c0098e5f47bb3346267379986991
     log: |
-         c3b37c2d77a2c735857c55492ee81e88e855497d KVM: arm64: Pass the actual page address to mte_clear_page_tags()
-         ef3691683d7bfd0a2acf48812e4ffe894f10bfa8 KVM: arm64: GICv4.1: Fix race with doorbell on VPE activation/deactivation
+         8723a2dce4a459e01b65ed520497cb1ac751a982 kernel-shark: Show multi-line events using the dual marker
+         5599c4c111d27da9964c0b2e649e4af4461b5bc4 kernel-shark: Make the text to be copyable.
+         99225c059b45c0098e5f47bb3346267379986991 KernelShark: Version 2.2.0
          
