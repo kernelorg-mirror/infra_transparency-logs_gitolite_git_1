@@ -1,23 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Sat, 21 Jan 2023 12:10:28 -0000
-Message-Id: <167430302884.29374.598716694538766207@gitolite.kernel.org>
+Subject: post-receive: pub/scm/devel/pahole/pahole
+Date: Sat, 21 Jan 2023 14:45:02 -0000
+Message-Id: <167431230281.31614.16302023012614667487@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/peterz/queue
-user: peterz
+repo: pub/scm/devel/pahole/pahole
+user: acme
 changes:
-  - ref: refs/heads/sched/core
-    old: 41ba22eac52326ae9f66e4dae802451e6d6c4fca
-    new: 2f4db18052727418ff37088ea7b08d5380aa91ad
+  - ref: refs/heads/next
+    old: c55b13b9d785e1e29e6a37ac8211ea17620462dc
+    new: 2ca56f4c6f659f03dec9cffb62fa984d412a4501
     log: |
-         001c28e57187570e4b5aa4492c7a957fb6d65d7b exit: Detect and fix irq disabled state in oops
-         c34472e8fc68a6bdded176bd2a99444585aa2188 ftrace/x86: Warn and ignore graph tracing when RCU is disabled
-         60b4bbc6b378aeb9625a39f0afc9dcaee6f78589 x86: Mark sched_clock() noinstr
-         01eee81c7fec26ca0a3ea93f3793d0772266fa8b sched/clock: Make local_clock() noinstr
-         2f4db18052727418ff37088ea7b08d5380aa91ad cpuidle: Fix poll_idle() noinstr annotation
+         a87f35866a0a976481b4c1955768566f3233d0c9 pahole: Set libbpf debug printer in -V mode
+         eedb2b637a1f1eb5e515253c4ef7c944139961d2 dwarf_loader: Print the line number in addition to the function when not finding the abstract origin
+         19afea401c225fe7e7292e4fb6d0b7009c29e18d dwarf_loader: Print the line number in addition to the function when not finding the type
+         74525d34aa7569bd66cad62bb713e9c56cb71757 dwarf_loader: Sync with LINUX_ELFNOTE_LTO_INFO macro from kernel
+         1148b2db95082e4096be96867f27d6d4131035e5 WIP: skip_DW_TAG_atomic_type
+         2ca56f4c6f659f03dec9cffb62fa984d412a4501 WIP: Remove DW_TAG_atomic_type when encoding BTF
          
