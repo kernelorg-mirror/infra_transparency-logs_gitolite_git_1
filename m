@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3829945350275284474=="
+Content-Type: multipart/mixed; boundary="===============4877460181537418633=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Sat, 21 Jan 2023 02:00:06 -0000
-Message-Id: <167426640639.6752.9557861516254040819@gitolite.kernel.org>
+Date: Sat, 21 Jan 2023 02:00:17 -0000
+Message-Id: <167426641706.6869.7629119090148522065@gitolite.kernel.org>
 
---===============3829945350275284474==
+--===============4877460181537418633==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: 00b8f39f1d15c7e16e3f5ca7538f522f3a89131f
     new: 84150795a49ae26cf8096517b543f4cd2ed5e87f
     log: revlist-00b8f39f1d15-84150795a49a.txt
 
---===============3829945350275284474==
+--===============4877460181537418633==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -40,4 +40,4 @@ ef4810135396735c1a6b1c343c3cc4fe4be96a43 selftests/bpf: Add dynptr var_off tests
 ae8e354c497af625eaecd3d86e04f9087762d42b selftests/bpf: Add dynptr helper tests
 84150795a49ae26cf8096517b543f4cd2ed5e87f Merge branch 'Dynptr fixes'
 
---===============3829945350275284474==--
+--===============4877460181537418633==--
