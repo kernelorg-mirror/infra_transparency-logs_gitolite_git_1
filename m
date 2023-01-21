@@ -1,24 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/devel/pahole/pahole
-Date: Sat, 21 Jan 2023 14:45:12 -0000
-Message-Id: <167431231293.32327.6008065950916677708@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Sat, 21 Jan 2023 14:51:31 -0000
+Message-Id: <167431269194.4895.10892593786079530812@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/devel/pahole/pahole
-user: acme
+repo: pub/scm/linux/kernel/git/tip/tip
+user: bp
 changes:
-  - ref: refs/heads/tmp.master
-    old: c55b13b9d785e1e29e6a37ac8211ea17620462dc
-    new: 2ca56f4c6f659f03dec9cffb62fa984d412a4501
+  - ref: refs/heads/x86/microcode
+    old: 59047d942bedc4ce88a2121a9f9e656b9532dd30
+    new: a9a5cac225b0830d1879640e25231a37e537f0da
     log: |
-         a87f35866a0a976481b4c1955768566f3233d0c9 pahole: Set libbpf debug printer in -V mode
-         eedb2b637a1f1eb5e515253c4ef7c944139961d2 dwarf_loader: Print the line number in addition to the function when not finding the abstract origin
-         19afea401c225fe7e7292e4fb6d0b7009c29e18d dwarf_loader: Print the line number in addition to the function when not finding the type
-         74525d34aa7569bd66cad62bb713e9c56cb71757 dwarf_loader: Sync with LINUX_ELFNOTE_LTO_INFO macro from kernel
-         1148b2db95082e4096be96867f27d6d4131035e5 WIP: skip_DW_TAG_atomic_type
-         2ca56f4c6f659f03dec9cffb62fa984d412a4501 WIP: Remove DW_TAG_atomic_type when encoding BTF
+         ab31c74455c64e69342ddab21fd9426fcbfefde7 x86/microcode: Add a parameter to microcode_check() to store CPU capabilities
+         c0dd9245aa9e25a697181f6085692272c9ec61bc x86/microcode: Check CPU capabilities after late microcode update correctly
+         6eab3abac7043226e5375e9ead0c7607ced6767b x86/microcode: Adjust late loading result reporting message
+         174f1b909ab0984e5369a634971fb14a618ca797 x86/microcode/intel: Pass the microcode revision to print_ucode_info() directly
+         a9a5cac225b0830d1879640e25231a37e537f0da x86/microcode/intel: Print old and new revision during early boot
          
