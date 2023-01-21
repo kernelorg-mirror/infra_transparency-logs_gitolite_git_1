@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Sat, 21 Jan 2023 20:15:54 -0000
-Message-Id: <167433215430.22156.7117048385552429389@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/geoff/ps3-linux
+Date: Sat, 21 Jan 2023 21:32:53 -0000
+Message-Id: <167433677379.5916.4488234917291836299@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/geoff/ps3-linux
+user: geoff
 changes:
-  - ref: refs/heads/master
-    old: 41208fb1263b9b50243a79e1fc493d80a54929d4
-    new: b54f460bc9542078e5fa962f0d77b1da497a3d50
+  - ref: refs/heads/gelic-rework
+    old: 6fb8d1b70b68acb7137db5cccd074a6d8022bd1a
+    new: d8ea3fa4fb1bf9835be418457caf93ff29fcf1c8
     log: |
-         b54f460bc9542078e5fa962f0d77b1da497a3d50 Sat Jan 21 08:14:15 PM UTC 2023
+         d8ea3fa4fb1bf9835be418457caf93ff29fcf1c8 net/ps3_gelic: Add gelic_descr structures
          
