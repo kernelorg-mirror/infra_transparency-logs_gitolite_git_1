@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/geoff/ps3-linux
-Date: Sat, 21 Jan 2023 21:32:53 -0000
-Message-Id: <167433677379.5916.4488234917291836299@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Sat, 21 Jan 2023 21:50:04 -0000
+Message-Id: <167433780435.18412.14311297711369635731@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/geoff/ps3-linux
-user: geoff
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/gelic-rework
-    old: 6fb8d1b70b68acb7137db5cccd074a6d8022bd1a
-    new: d8ea3fa4fb1bf9835be418457caf93ff29fcf1c8
-    log: |
-         d8ea3fa4fb1bf9835be418457caf93ff29fcf1c8 net/ps3_gelic: Add gelic_descr structures
-         
+  - ref: refs/tags/io_uring-6.2-2023-01-21
+    old: 0000000000000000000000000000000000000000
+    new: e5deebd99c160bb3ad2f3d00d7a56c54b73e4712
