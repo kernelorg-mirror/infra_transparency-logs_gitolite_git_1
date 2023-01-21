@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Sat, 21 Jan 2023 03:47:29 -0000
-Message-Id: <167427284975.12652.17325241185774276699@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xen/tip
+Date: Sat, 21 Jan 2023 05:53:46 -0000
+Message-Id: <167428042639.30550.14177630475796221644@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/xen/tip
+user: jgross
 changes:
-  - ref: refs/heads/master
-    old: 1a1001efcb57cc83ac4d8818920a61eb9a641c7a
-    new: 41208fb1263b9b50243a79e1fc493d80a54929d4
+  - ref: refs/heads/linux-next
+    old: b50fab54944f6f617fda3429694a55952eabd494
+    new: ca0d80778e48f207d139ce91eb2371e47489f21e
     log: |
-         41208fb1263b9b50243a79e1fc493d80a54929d4 Sat Jan 21 03:46:40 AM UTC 2023
+         075633a6ba8ab0529898b31d1ccd03c102370712 xen: Allow platform PCI interrupt to be shared
+         ca0d80778e48f207d139ce91eb2371e47489f21e xen/pvcalls-back: fix permanently masked event channel
          
