@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
-Date: Sat, 21 Jan 2023 16:09:08 -0000
-Message-Id: <167431734898.22000.10403152677363992757@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/geoff/ps3-linux
+Date: Sat, 21 Jan 2023 16:21:13 -0000
+Message-Id: <167431807301.31547.11256909805828134818@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/liburing
-user: axboe
+repo: pub/scm/linux/kernel/git/geoff/ps3-linux
+user: geoff
 changes:
-  - ref: refs/heads/master
-    old: 8edb2414065038c438bc739ac32ce72dc0d81ab5
-    new: c94e6d5b9cbc1dec57b8dc6f68f25c09c3ddc144
-    log: |
-         c94e6d5b9cbc1dec57b8dc6f68f25c09c3ddc144 test/helpers: don't warn for -EINVAL on ring create
-         
+  - ref: refs/heads/for-merge-net-v2
+    old: 0000000000000000000000000000000000000000
+    new: 70bef05839e0b8404e114dadee38baa3c109b614
