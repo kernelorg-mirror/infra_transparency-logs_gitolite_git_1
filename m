@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4799991479732686852=="
+Content-Type: multipart/mixed; boundary="===============7230260790844640488=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Sun, 22 Jan 2023 12:39:58 -0000
-Message-Id: <167439119855.26149.745979966645985289@gitolite.kernel.org>
+Date: Sun, 22 Jan 2023 12:40:52 -0000
+Message-Id: <167439125228.28036.14468409437307292178@gitolite.kernel.org>
 
---===============4799991479732686852==
+--===============7230260790844640488==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/readfile
-    old: 11991a06d65205cd50540713a0e15e1c0fcf4ef2
-    new: 649e328a7b3b888546cab42839425cb429576b0a
-    log: revlist-11991a06d652-649e328a7b3b.txt
+  - ref: refs/heads/bus_cleanup
+    old: 00142bfd5a916a0b3899cc709bf8f5042cf3d084
+    new: f89fd04323f755e7437a0113d986812c3fffe03d
+    log: revlist-00142bfd5a91-f89fd04323f7.txt
 
---===============4799991479732686852==
+--===============7230260790844640488==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1674391196 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1674391251 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1674391196-4f66e2f482f279e074b078b9d24636c5a2dea1ad
+nonce 1674391251-6c24c1f0d1172ee8b5de15255e9571d6aa108a71
 
-11991a06d65205cd50540713a0e15e1c0fcf4ef2 649e328a7b3b888546cab42839425cb429576b0a refs/heads/readfile
+00142bfd5a916a0b3899cc709bf8f5042cf3d084 f89fd04323f755e7437a0113d986812c3fffe03d refs/heads/bus_cleanup
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPNLpwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+nD8QAKh7Pxkyp0D7yXQYRtKV
-IdM8QUgKvdjX7wnYE9Awc3j9TPQ3jIebhVQY04CS02Dwlm4h0pT1+BGqFlvBM6IT
-PaYsGxXZy3UYNDQGNlitOvwhbj4uf8yf8fQB6GppHLSsOfzA7l3oDDf4l94d84Cv
-ZZPJ6kS0mVmjM6eRCNkptsc0aiI1GqKW4HqV1ZU0wcBS8awzkp4+z2/1tI7hi6o6
-xpBud4skP7IEVduRSX/3UcoDkjHfGmcCsAafEQ5PbFapOvJUqfDWlRqiOTpi9RNe
-X0TrYg7k8jfbY1C9KIeV6mSRnIVA1aMQ9BuY3+OGkKwzaPhNutnGlDLmDfdV3Urn
-qTTLpbj/Ivfdy1+oLao2STUqlsuoI311kKXk/4beAqnRl2ST/+LDBWP7+S+ZzG4/
-WfNToq7hfRWrvponr5kkZvVjfM0LjVO0/Cg8lVfEnIcsQR5pFCkjm0ltVQEvSxyI
-ZYwQJnzAs2cinCfnQpI9h9Q7iCGAc31PiMh7MMR+7xoARC69P9QPCIU6GmMxumhZ
-sCCsV/1dQ9ynE7EEomWLddnuKu1eB9j07loKHbi0wjmIuoQlVkU4p0fsqxLzy4Ar
-iSFppimWMgCBQIMGbuULPLtTxJa/GyIgI7UIsht6/xXBWF564fb29o4EWy8qLHoJ
-zP2w1YANwKiFWH0+iQzhINkz
-=gluj
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPNLtMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+SIAP/Rt6p5iWwi7T7EbGmPku
+DJ2Kyc7FGwMeozpplYJwdqkn7QLlFdJKB14n8bfoN45CH9wP8GciW1oubfiq3Jg3
+WCf3SEDodAzGhsNfo5U8wooErvEccZy4wNQObB54bomJFu3b59ONcxsHW+wI1qg1
+VUQGdv42nn2ilX4jNcN9SqG08HKBBL4d6j//GdUqTe33jik6xg8Ny+5CRK8XK+2z
+YOS3VXdy5fvwLCkZOdoTEJezq1MjyFHhZ7hQ+O065bdasWvKmEvvvRKpTZrHJchD
+6D3U1nCnKR91kQGA0Ft9wCtRiwchyqF/zkY2bf8a+z9lfpL/BDa1BqTaa7WaE+r1
+1rKP5e6kcaUC4iu+Eu/uS093ReGfSnVo7sJ93mSE9+w+yDjHozxx520+WLbPgqjz
+w0jxIzZAIWrDeJPDLHzEBp/Xtp9UYb0y2xKi4Xa2ICyteLX/w2o+ES+rO7JYfNWm
+YjeA0zp5l+ec1vsnDNTxlQ6e3GRnCSiqCKT0OO1sQZm5Sk8MSzdI5DvrFa2wkFL7
+kJ0jmKIYjbY2xFTJj7cr/DI5JlbqlFYSi8sHPimnBUqYuBJjqsIQ7gktc+yXOlrm
+xY16C6dGuN8JzmyGI9C1THM1aG1/3sAlEnq2oLtu5LMK5Ns+ZqBFGk5DbmJ+2rRD
+I3Lvv9P4Trvqyr6vFFZFWtkI
+=oiPx
 -----END PGP SIGNATURE-----
 
---===============4799991479732686852==
+--===============7230260790844640488==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-11991a06d652-649e328a7b3b.txt
+Content-Disposition: attachment; filename=revlist-00142bfd5a91-f89fd04323f7.txt
 
 06e472acf964649a58b7de35fc9cdc3151acb970 scsi: mpt3sas: Remove usage of dma_get_required_mask() API
 d347a951906b506c485ee9ffb76fe473b41f3e10 scsi: mpi3mr: Remove usage of dma_get_required_mask() API
@@ -917,9 +917,6 @@ c88a3114706429c9edf89e0bf2cd6757270c00f8 Merge tag 'driver-core-6.2-rc5' of git:
 f67144022885344375ad03593e7a290cc614da34 Merge tag 'char-misc-6.2-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc
 95f184d0e1e14e6fd4368a804db5f870e5f841d2 Merge tag 'io_uring-6.2-2023-01-21' of git://git.kernel.dk/linux
 2241ab53cbb5cdb08a6b2d4688feb13971058f65 Linux 6.2-rc5
-26ce0d6b54e4563091c5b525f219ee899ad71b7b readfile: implement readfile syscall
-30a98d6834c27eb2aebc6a25aafd9098a1e9f68d arch: wire up the readfile syscall
-3877453f6e96d8a6d4bb23d9304a2fcd673e3cb0 selftests: add readfile(2) selftests
-649e328a7b3b888546cab42839425cb429576b0a readfile.2: new page describing readfile(2)
+f89fd04323f755e7437a0113d986812c3fffe03d Merge 6.2-rc5 into driver-core-next
 
---===============4799991479732686852==--
+--===============7230260790844640488==--
