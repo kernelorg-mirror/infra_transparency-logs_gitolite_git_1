@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5813754660463170079=="
+Content-Type: multipart/mixed; boundary="===============1329679049619928942=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Sun, 22 Jan 2023 11:57:57 -0000
-Message-Id: <167438867710.31100.2432982183083379546@gitolite.kernel.org>
+Date: Sun, 22 Jan 2023 11:58:03 -0000
+Message-Id: <167438868358.31206.5443515657147895257@gitolite.kernel.org>
 
---===============5813754660463170079==
+--===============1329679049619928942==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-linus
-    old: 739790605705ddcf18f21782b9c99ad7d53a8c11
-    new: 2241ab53cbb5cdb08a6b2d4688feb13971058f65
-    log: revlist-739790605705-2241ab53cbb5.txt
+  - ref: refs/heads/driver-core-next
+    old: 00142bfd5a916a0b3899cc709bf8f5042cf3d084
+    new: f89fd04323f755e7437a0113d986812c3fffe03d
+    log: revlist-00142bfd5a91-f89fd04323f7.txt
 
---===============5813754660463170079==
+--===============1329679049619928942==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1674388676 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1674388681 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1674388674-83cf95bb6258f55f09b48cee199b1cd6d2d1cc22
+nonce 1674388680-6717e8e6f9841101de5da7d96c5ce3d4d48aa8cb
 
-739790605705ddcf18f21782b9c99ad7d53a8c11 2241ab53cbb5cdb08a6b2d4688feb13971058f65 refs/heads/driver-core-linus
+00142bfd5a916a0b3899cc709bf8f5042cf3d084 f89fd04323f755e7437a0113d986812c3fffe03d refs/heads/driver-core-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPNJMQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Y/0P/18VVEvsrYmfQa7f0kAs
-FFOX4ickNrsDEWHlI/8fLssynDVgEKXUxm0SapK3vuqjMRcpXWloi9+uLA36DrAj
-+CJkILKenml8iYVKvqFm2e3chzZvuKNHkqCAzbvGgRwrXFRmzphOu/Jr/uq1kmOL
-xS5nAfTmTbLmZneRBZAK7EM5WuFhYffr2dKlkRfb4/tqlSR6tTXI9ZotrW+scys0
-udN2C9Vi79CneIsuPNxQAk6Uihwvk0LWleu7kIfMa5j3jjnwCsF5x4aUG+xl2Jgl
-cj2m2i63s8QT7rPQlgdhsnzZgnrajvTtmYQ1JO0s+PL0IFWnAMlxvpkLCJUmguKV
-gX4wDyPxmFgk66T3AruEk7+mg9JgKyUDMHvFhIdkEVh7CBctmN6U9I0zRnqRcuti
-kKBuK+QKl4IpLmRAj/JFagZTWe6bDSDwxbuQzKjN2pE7AiZp0xWSslCaDfp2fSRU
-nD4Gs6af4Uq+hl4vy9gHN1gptX76YOePB1i35ssfxCC/9xSuLNDGJ/iEhqTdg0rj
-DIdQXYGNi2r2OB58qzOXxf2Cu90cWPV7ywR7zqwBTga9RNh0u7K0kq9ljXsZ+wQ0
-Pk6tU/dIV3vzogR2ybHo/BfRqWnTTHVv2oBZuUkmmRTmWxBCa3GRq6o0BuT+SbHs
-2OQQZuDxXRCh4fdy/ehwr8It
-=jRdH
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPNJMkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Ee4QANQYGWiDkecoqr4TWhKZ
+mEYUMYus2IRfMj2TJNkkyI+bpXxluCOlD1xbJZO9EFmslqRK+1Gp6u2rVWWFji3Z
+jhNVCDy0bW6FHTgyIbLGtvyVxGAKAkC7qWmKTlJpGAJG+0z8gPHhzive3trC4W+3
+n0y3a1+G/ncPOSLCF+AeuAdWSxKx8ICw7DpGgk4YPaAPfsF5mXCxcN7ArMuHON2k
+3lNFjcFBNhPYbUA/VFx1/oe4VSMWJcmgmJIU+bMcxIQVDxoycsrkq7rQ3V1BpwpH
+4DYdhBl3bxdM5wbM2jzIlhMn6J3jmZcVCj6TR0uCGE2SONfGyHtebKqq4k+bTbgY
+ucSWUYY0ijneYHA/mltea9qwZT0m0zKZp0oqciPslXLqhZlhDZBRzrWmtSotxmeL
+8m630Ii23H0IyTJepiEA1u3d3uepOjkHSfGO1OROGAM91p7AN4fmlxDivK5P7Yip
+0h9HnuImHwYUffRcxKXi+ruT4JMrz/FjSnVUNbc0RuRtsbtvd2zxVpR9HV0zSfa8
+pE/vTk5fEjDt1lvkzJeN5htbSYDiED61wGIOosSKoEP789nVEhdT1MEmQUCaazjR
+PXmenO0Ww5H8WsQHTk2LJUn8+s9cqf+DeHrekvcFL0SWtRuWoBykln8ZwDpZH/Dp
+Iba5Jdi8cg3aASNNdAr0AHAY
+=YY12
 -----END PGP SIGNATURE-----
 
---===============5813754660463170079==
+--===============1329679049619928942==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-739790605705-2241ab53cbb5.txt
+Content-Disposition: attachment; filename=revlist-00142bfd5a91-f89fd04323f7.txt
 
 06e472acf964649a58b7de35fc9cdc3151acb970 scsi: mpt3sas: Remove usage of dma_get_required_mask() API
 d347a951906b506c485ee9ffb76fe473b41f3e10 scsi: mpi3mr: Remove usage of dma_get_required_mask() API
@@ -827,6 +827,7 @@ c0a4a1eafbd48e02829045bba3e6163c03037276 nvme-apple: only reset the controller w
 55ba18dc62deff5910c0fa64486dea1ff20832ff octeontx2-pf: Fix the use of GFP_KERNEL in atomic context on rt
 7d80dbd708c18c683dd34f79b600a05307707ce8 usb: dwc3: fix extcon dependency
 95e5fda3b5f9ed8239b145da3fa01e641cf5d53c ptdma: pt_core_execute_cmd() should use spinlock
+39af728649b05e88a2b40e714feeee6451c3f18e device property: fix of node refcount leak in fwnode_graph_get_next_endpoint()
 b8caf69a6946e18ffebad49847e258f5b6d52ac2 tty: serial: qcom-geni-serial: fix slab-out-of-bounds on RX FIFO buffer
 e8914b52e5b024e4af3d810a935fe0805eee8a36 serial: pch_uart: Pass correct sg to dma_unmap_sg()
 4f39aca2360c82dccd2f5179d77e94aab665bea6 serial: amba-pl011: fix high priority character transmission in rs486 mode
@@ -840,6 +841,7 @@ f24771b62a83239f0dce816bddf0f6807f436235 serial: stm32: Merge hard IRQ and threa
 2efb6edd52dc50273f5e68ad863dd1b1fb2f2d1c comedi: adv_pci1760: Fix PWM instruction handling
 25d5648802f12ae486076ceca5d7ddf1fef792b2 w1: fix deadloop in __w1_remove_master_device()
 36225a7c72e9e3e1ce4001b6ce72849f5c9a2d3b w1: fix WARNING after calling w1_process()
+9be182da0a7526f1b9a3777a336f83baa2e64d23 driver core: Fix test_async_probe_init saves device in wrong array
 8ccc99362b60c6f27bb46f36fdaaccf4ef0303de net/ulp: use consistent error code when blocking ULP
 903848249a781d76d59561d51676c95b3a4d7162 selftests/net: toeplitz: fix race on tpacket_v3 block close
 6c977c5c2e4c5d8ad1b604724cc344e38f96fe9b net: dsa: microchip: ksz9477: port map correction in ALU table entry register
@@ -905,6 +907,7 @@ edc00350d205d2de8871b514c8f9b403d588e5d1 Merge tag 'block-6.2-2023-01-20' of git
 8440ffcd68c644e846ce6b23ff13b348d49b2abf Merge tag 'pinctrl-v6.2-2' of git://git.kernel.org/pub/scm/linux/kernel/git/linusw/linux-pinctrl
 4e31badaa188d0e2923f5082c041083c05bda3ff Merge tag '6.2-rc4-smb3-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
 f883675bf6522b52cd75dc3de791680375961769 Merge tag 'gpio-fixes-for-v6.2-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
+739790605705ddcf18f21782b9c99ad7d53a8c11 prlimit: do_prlimit needs to have a speculation check
 f3bbac32475b27f49be201f896d98d4009de1562 ext4: deal with legacy signed xattr name hash values
 83cd5fd014c0abfd3cf6d8e4189333d099630845 Merge tag 'kbuild-fixes-v6.2-3' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 e67da28898e9e219176412f2fd2f415dece474ab Merge tag 'usb-6.2-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb
@@ -914,5 +917,6 @@ c88a3114706429c9edf89e0bf2cd6757270c00f8 Merge tag 'driver-core-6.2-rc5' of git:
 f67144022885344375ad03593e7a290cc614da34 Merge tag 'char-misc-6.2-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc
 95f184d0e1e14e6fd4368a804db5f870e5f841d2 Merge tag 'io_uring-6.2-2023-01-21' of git://git.kernel.dk/linux
 2241ab53cbb5cdb08a6b2d4688feb13971058f65 Linux 6.2-rc5
+f89fd04323f755e7437a0113d986812c3fffe03d Merge 6.2-rc5 into driver-core-next
 
---===============5813754660463170079==--
+--===============1329679049619928942==--
