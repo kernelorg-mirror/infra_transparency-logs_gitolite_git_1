@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/devicetree/devicetree-rebasing
-Date: Sun, 22 Jan 2023 07:41:09 -0000
-Message-Id: <167437326945.11969.11396550344255604460@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gfs2/linux-gfs2
+Date: Sun, 22 Jan 2023 08:46:54 -0000
+Message-Id: <167437721431.22598.15013141679816595715@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/devicetree/devicetree-rebasing
-user: ijc
+repo: pub/scm/linux/kernel/git/gfs2/linux-gfs2
+user: agruen
 changes:
-  - ref: refs/tags/v6.2-rc5-dts
-    old: 0000000000000000000000000000000000000000
-    new: 9c44c7646531bf633e089b39a3bb95f121fd6fd0
+  - ref: refs/heads/fixes
+    old: f68c8c37a8d65ee3ac6af978464ea32f96fac553
+    new: 95ecbd0f162fc06ef4c4045a66f653f47b62a2d3
+    log: |
+         95ecbd0f162fc06ef4c4045a66f653f47b62a2d3 Revert "gfs2: stop using generic_writepages in gfs2_ail1_start_one"
+         
