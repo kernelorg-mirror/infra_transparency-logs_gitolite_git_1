@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8411686810849476667=="
+Content-Type: multipart/mixed; boundary="===============5466661481437440801=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Sun, 22 Jan 2023 21:19:11 -0000
-Message-Id: <167442235159.17328.12408265646625936003@gitolite.kernel.org>
+Date: Sun, 22 Jan 2023 21:19:49 -0000
+Message-Id: <167442238957.17610.9830168888268545610@gitolite.kernel.org>
 
---===============8411686810849476667==
+--===============5466661481437440801==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
-  - ref: refs/heads/perf/core
-    old: 1962ab6f6e0b39e4216206205bda14aff87705f3
+  - ref: refs/heads/tmp.perf/core
+    old: a5792f1ce4b775bf45adbecab5ba69e73bd35a27
     new: 5670ebf54bd26482f57a094c53bdc562c106e0a9
-    log: revlist-1962ab6f6e0b-5670ebf54bd2.txt
+    log: revlist-a5792f1ce4b7-5670ebf54bd2.txt
 
---===============8411686810849476667==
+--===============5466661481437440801==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1962ab6f6e0b-5670ebf54bd2.txt
+Content-Disposition: attachment; filename=revlist-a5792f1ce4b7-5670ebf54bd2.txt
 
 1b69346e7a0bd18a9c3b00bdd6219d4d8ad73466 perf test: Add Symbols test
 c2d066c090c9fec5de99ae051e97e0f448cbc229 perf symbols: Factor out get_plt_sizes()
@@ -46,4 +46,4 @@ c2b6a8969c82990626cfb9a1af0532b06cdb5716 perf pmu: Add function to check if a pm
 a7fe9a443b6064c68f86a2ee09bdfa7736660ef3 perf cs_etm: Set the time field in the synthetic samples
 5670ebf54bd26482f57a094c53bdc562c106e0a9 perf cs-etm: Ensure that Coresight timestamps don't go backwards
 
---===============8411686810849476667==--
+--===============5466661481437440801==--
