@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5448330888199922591=="
+Content-Type: multipart/mixed; boundary="===============5754737101673948913=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
-Date: Sun, 22 Jan 2023 18:17:22 -0000
-Message-Id: <167441144234.28291.18082299507119009061@gitolite.kernel.org>
+Date: Sun, 22 Jan 2023 18:17:38 -0000
+Message-Id: <167441145874.28448.12138961008652370971@gitolite.kernel.org>
 
---===============5448330888199922591==
+--===============5754737101673948913==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/s390/linux
 user: heiko
 changes:
-  - ref: refs/heads/features
-    old: 706a91be38837451977491aa7465e98edf6d35d8
-    new: 7cb7636a1ac158c00f9da8f09e333c1ddd881eca
-    log: revlist-706a91be3883-7cb7636a1ac1.txt
+  - ref: refs/heads/for-next
+    old: 33f34442fd7c7d09fe604a4ac6d339d9c3143668
+    new: 309c79867932209cd2a11b730720bdda7fcf706c
+    log: revlist-33f34442fd7c-309c79867932.txt
 
---===============5448330888199922591==
+--===============5754737101673948913==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-706a91be3883-7cb7636a1ac1.txt
+Content-Disposition: attachment; filename=revlist-33f34442fd7c-309c79867932.txt
 
 c313094491150bae23b02270e83c72bb97ef2ab2 s390/ipl: use kstrtobool() instead of strtobool()
 ca34cda73fd4c8fd93c488addc2eeb20af9e923f s390/cio: evaluate devices with non-operational paths
@@ -41,5 +41,7 @@ d924ecdb703765cdc75be5f28aaa1140b9106f84 s390/cpum_sf: diagnostic sampling buffe
 5a42b348adf9fbdd24166351046fc9fe317d1d0f s390/vfio_ap: verify ZAPQ completion after return of response code zero
 51d4d9877087685ac577a4a314f85e1b2046cae6 s390/vfio_ap: fix handling of error response codes
 7cb7636a1ac158c00f9da8f09e333c1ddd881eca s390/vfio_ap: increase max wait time for reset verification
+9283a142406ae63b68dbcdf130799febbe9f6cb8 Merge branch 'fixes' into for-next
+309c79867932209cd2a11b730720bdda7fcf706c Merge branch 'features' into for-next
 
---===============5448330888199922591==--
+--===============5754737101673948913==--
