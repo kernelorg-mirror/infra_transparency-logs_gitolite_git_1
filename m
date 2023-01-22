@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8760584703216188438=="
+Content-Type: multipart/mixed; boundary="===============3586948813275826074=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Sun, 22 Jan 2023 11:56:22 -0000
-Message-Id: <167438858215.30264.441535847563705210@gitolite.kernel.org>
+Date: Sun, 22 Jan 2023 11:56:30 -0000
+Message-Id: <167438859094.30376.9322961402983435219@gitolite.kernel.org>
 
---===============8760584703216188438==
+--===============3586948813275826074==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-linus
-    old: 14ee78d5932afeb710c8305196a676a715bfdea8
-    new: 2241ab53cbb5cdb08a6b2d4688feb13971058f65
-    log: revlist-14ee78d5932a-2241ab53cbb5.txt
+  - ref: refs/heads/tty-next
+    old: 05e2600cb0a4d73b0779cf29512819616252aeeb
+    new: 7a6aa989f2e844a22cfab5c8ff30e77d17dabb2f
+    log: revlist-05e2600cb0a4-7a6aa989f2e8.txt
 
---===============8760584703216188438==
+--===============3586948813275826074==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1674388581 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1674388589 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1674388579-4e90a86998697215fd1369d5f7f55b423f15c553
+nonce 1674388588-285dbb5ddc89f8e9b2728fd6a7c0f0a1d150cf48
 
-14ee78d5932afeb710c8305196a676a715bfdea8 2241ab53cbb5cdb08a6b2d4688feb13971058f65 refs/heads/tty-linus
+05e2600cb0a4d73b0779cf29512819616252aeeb 7a6aa989f2e844a22cfab5c8ff30e77d17dabb2f refs/heads/tty-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPNJGUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+k/wP/3P6jfWJONEgCr9OmzVJ
-L7MCN5mNTrQ6FGcbzZg135tpf42XMS+h21Aia97GJgz/vpEnh2d4sURDSgbNe8lw
-Uhc7j1WQ7BKfD8eDLkqM//n0eBIyVb7KpEJ+/Ak+U/sA3IkMZmriZETuw5ic4FHr
-milj7Fq+iqkc71bsSVA3AV3Ye4pJzJ8wIQxQlfHUGF/TvEG9D+hK/ceO2ZF5aE6q
-cAWn4tzEuEHIEzJKZAzOfQkRDauRKG5QZz7jSF7kEJp+f+CmLC+dgPw/FgMDmLuM
-3R2S3W761YsOfSczEF82K5yCMohSmGQTArQ7MyYiJUGuX149XyaXyUsWdHNzEVTu
-BJ3wc3LqbMRgRZLwnsxzAZwLc1HLr8OuC6LTtgVV76BRII+TJ7lucBYnGs6tX/c2
-gUz2wq3y6RYtLbXIIgw75BUTOc7Dr7W2pbEs1SYGi5EOCmVC+sv/oSOtE4ih9RPN
-EmJ4WNCGZ20ANcZf3xzD4JVm2NJUhmdY1JAI8Y+vvYPYt9k8vikvweV9NP6Z/p6/
-GtTwwqAuqxMmRGfYMaUQ2MeDxJOzaAG9Ms4t/DRUq12mZAqxrsdoNUi4BekDmUMe
-FjrRH+FH1W7moxB+rUGvw4n8+XbGqOZNxeaVyuDdm5NheHnkpjGvMv8qTAby6uIg
-Oew0eras4JZAeQT3Xsfb6w8/
-=hbfV
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPNJG0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+WWIP/ijdPuJLRwC9cFrAgkoG
+95ilZYVw0u9xYIFYz0QDzDt86ebK1JM9MB/VMwtNm+FDWEL4+hg0ePhMouCEnXAk
+XB0YeOu5vEHrH7HCkutIkqBzUDEGtbTYPNZTDy3Eu5jqedu/SFY/BKgeQl4MMZ/n
+eu+qRTAByHkStcQS71YLHKlOjZCkf593dUPVpLrDyC6NAIYts2JmH8ePC34MoOYZ
+yR/hAaD2Ne3gbjUBANgkY/IGjbDvNzBdpSC3zMRMDwgm7S3AD3FNt95XhzHsyNvM
+eXrDuGmU524xozLrzoYrOwyVPLTPw5AcjREgo8fsz6q0O4OkcOIf/gyWxlscuCBL
+9rKMLo51AyOrnRLBoUd1/2CwPJhBT7ccjdJzuKyaFXBzTpn5SzQlEUPBlMZbRwaf
+9e9l+RcMdXq/9tP60ycGdK0jMjX1dwqNL5apkb/Jl3g9UD490BjvbshmUhnBikP1
+apu4mT1fLQItuqiS5yRfHIYyHfe/ppQyzQMdt8ZIl0RD+bucbdpg9Hk/8/jit5sO
+GlwSqh78RUq45BfCeJUrNEMufocvMFu9lNuUI4KII+E7pq/ctTAZLg9rXesJvvj+
+TdUSJhlCaoSPkgFciOS+rdaplo9GGMpr04MSdULOgUygD0/VnY4MaX11Kx8VVjnd
+5CMps092jmBiVzAfc5ffLEeA
+=NySK
 -----END PGP SIGNATURE-----
 
---===============8760584703216188438==
+--===============3586948813275826074==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-14ee78d5932a-2241ab53cbb5.txt
+Content-Disposition: attachment; filename=revlist-05e2600cb0a4-7a6aa989f2e8.txt
 
 c28f3d80383571d3630df1a0e89500d23e855924 thunderbolt: Do not report errors if on-board retimers are found
 827e0920dbfb0d92416e56081d70745597403446 memory: omap-gpmc: fix wait pin validation
@@ -438,8 +438,15 @@ c0a4a1eafbd48e02829045bba3e6163c03037276 nvme-apple: only reset the controller w
 7d80dbd708c18c683dd34f79b600a05307707ce8 usb: dwc3: fix extcon dependency
 95e5fda3b5f9ed8239b145da3fa01e641cf5d53c ptdma: pt_core_execute_cmd() should use spinlock
 39af728649b05e88a2b40e714feeee6451c3f18e device property: fix of node refcount leak in fwnode_graph_get_next_endpoint()
+b8caf69a6946e18ffebad49847e258f5b6d52ac2 tty: serial: qcom-geni-serial: fix slab-out-of-bounds on RX FIFO buffer
+e8914b52e5b024e4af3d810a935fe0805eee8a36 serial: pch_uart: Pass correct sg to dma_unmap_sg()
+4f39aca2360c82dccd2f5179d77e94aab665bea6 serial: amba-pl011: fix high priority character transmission in rs486 mode
+f24771b62a83239f0dce816bddf0f6807f436235 serial: stm32: Merge hard IRQ and threaded IRQ handling into single IRQ handler
 21493c6e96e550509ead696ecca9f0d7196ee91c Merge branch 'rework/console-list-lock' into for-linus
 5c312574e683a3e59d86fa99f2822c0c7aa74be6 Merge tag 'mlx5-fixes-2023-01-18' of git://git.kernel.org/pub/scm/linux/kernel/git/saeed/linux
+5abbeebd8296c2301023b8dc4b5a6c0d5229b4f5 tty: fix possible null-ptr-defer in spk_ttyio_release
+5bfdd3c654bd879bff50c2e85e42f85ae698b42f serial: atmel: fix incorrect baudrate setup
+5342ab0af45064cbdc773645b93ab70c24ee161f tty: serial: qcom_geni: avoid duplicate struct member init
 423d5081d0451faa59a707e57373801da5b40141 io_uring/msg_ring: move double lock/unlock helpers higher up
 2efb6edd52dc50273f5e68ad863dd1b1fb2f2d1c comedi: adv_pci1760: Fix PWM instruction handling
 25d5648802f12ae486076ceca5d7ddf1fef792b2 w1: fix deadloop in __w1_remove_master_device()
@@ -472,6 +479,7 @@ fdfc76a116b5e9d3e98e6c96fe83b42d011d21d4 net: stmmac: enable all safety features
 b7b0742883e0839e6d81f0538735bf9a9a1e7d6f Merge tag 'stm32-dt-for-v6.2-fixes-1' of git://git.kernel.org/pub/scm/linux/kernel/git/atorgue/stm32 into arm/fixes
 aca5d87d934384f81cc948e34c01052367d67788 Merge tag 'at91-fixes-6.2' of https://git.kernel.org/pub/scm/linux/kernel/git/at91/linux into arm/fixes
 d2c865553adb7ad9abf3894cbb209cf1bc95484a firmware: zynqmp: fix declarations for gcc-13
+2cbafffbf69addd7509072f4be5917f81d238cf6 Revert "serial: stm32: Merge hard IRQ and threaded IRQ handling into single IRQ handler"
 732065df5deb5d565f66780a97990e77fc9bc49f Merge tag 'icc-6.2-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/djakov/icc into char-misc-linus
 a43866856125c3c432e2fbb6cc63cee1539ec4a7 mei: bus: fix unlink on bus in error path
 0c4d68261717f89fa8c4f98a6967c3832fcb3ad0 mei: me: add meteor lake point M DID
@@ -482,6 +490,7 @@ a43866856125c3c432e2fbb6cc63cee1539ec4a7 mei: bus: fix unlink on bus in error pa
 a769b05eeed7accc4019a1ed9799dd72067f1ce8 gsmi: fix null-deref in gsmi_get_variable
 aaca766c77fcf5aabda846d3372a1d40b0d4735d misc: fastrpc: Pass bitfield into qcom_scm_assign_mem
 3daed6345d5880464f46adab871d208e1baa2f3a VMCI: Use threaded irqs instead of tasklets
+14ee78d5932afeb710c8305196a676a715bfdea8 serial: exar: Add support for Sealevel 7xxxC serial cards
 d3e599c090fc6977331150c5f0a69ab8ce87da21 bnxt: Do not read past the end of test names
 300b655db1b5152d6101bcb6801d50899b20c2d6 tcp: fix rate_app_limited to default to 1
 5d3d01ae15d2f37ed0325c99ab47ef0ae5d05f3c usb: host: ehci-fsl: Fix module alias
@@ -518,5 +527,6 @@ c88a3114706429c9edf89e0bf2cd6757270c00f8 Merge tag 'driver-core-6.2-rc5' of git:
 f67144022885344375ad03593e7a290cc614da34 Merge tag 'char-misc-6.2-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc
 95f184d0e1e14e6fd4368a804db5f870e5f841d2 Merge tag 'io_uring-6.2-2023-01-21' of git://git.kernel.dk/linux
 2241ab53cbb5cdb08a6b2d4688feb13971058f65 Linux 6.2-rc5
+7a6aa989f2e844a22cfab5c8ff30e77d17dabb2f Merge 6.2-rc5 into tty-next
 
---===============8760584703216188438==--
+--===============3586948813275826074==--
