@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7237283542484987292=="
+Content-Type: multipart/mixed; boundary="===============6615388447937580191=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Sun, 22 Jan 2023 07:07:49 -0000
-Message-Id: <167437126975.22317.8240415843054967663@gitolite.kernel.org>
+Date: Sun, 22 Jan 2023 07:07:55 -0000
+Message-Id: <167437127501.22379.921540143948452699@gitolite.kernel.org>
 
---===============7237283542484987292==
+--===============6615388447937580191==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: b7bfaa761d760e72a969d116517eaa12e404c262
+  - ref: refs/heads/usb-linus
+    old: 14ff7460bb58662d86aa50298943cc7d25532e28
     new: 2241ab53cbb5cdb08a6b2d4688feb13971058f65
-    log: revlist-b7bfaa761d76-2241ab53cbb5.txt
+    log: revlist-14ff7460bb58-2241ab53cbb5.txt
 
---===============7237283542484987292==
+--===============6615388447937580191==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1674371265 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1674371274 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1674371265-637ec497fd6c6c39824c8bca3a337b3e5ea8cdcb
+nonce 1674371273-5ac4d67e3f8ee5739a2c2dd6c2e9f8767d07f7aa
 
-b7bfaa761d760e72a969d116517eaa12e404c262 2241ab53cbb5cdb08a6b2d4688feb13971058f65 refs/heads/main
+14ff7460bb58662d86aa50298943cc7d25532e28 2241ab53cbb5cdb08a6b2d4688feb13971058f65 refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPM4MEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+bi8P/1SIT7nA37eHAVG5rzvy
-zFUp667ekUrXLih2fmVNdheQQcEHoi5nUCwRaFjjZbMZSklGZPqMHWsXsi1Tsp7m
-deTMFpI4muMpLjfNbqB/a1afeX0QFq/an1g2QBnNLY7qH6PJ+NuE+x4Km4g7LwiY
-aNSvTBE8g8Tin7Vyxvsfm/iqQkDtW5/TCwu904Zq4I8mNBVWV3AZGqQ+WwCdFKyo
-2FqcPghz3uWmyg4yuyziTJ4axAASKQ1XVg8M8UhA7/mC30/uGICYHdF3PoTPHKsS
-q7t4V8tOHG9YhzCRFeYNW7SzYRrVvquetjywKV8Et2bkHmrj3AwnQOvgMR4z76b/
-FIU3Zootwo+Ng0NBvFQpnLFoiZoi9yAWXmM0z+Rs1jCQtUAIoxW8szzf/AwjrVvw
-5oosPs6pLlH7nqXC/iSkmPyu4svGxhCqCwUvGIemDjvPWm4oi7Cv7gzsx1EJe/t+
-WnNEP6RX810JLsOXD75lScjXkqnUJzZ5kUU/qI+fN5e8YWSu2S3wB/EAedefM/rA
-VJXOLq8J12leYRppQ1EMqNcPRvaLtyfRj544szp4jYArk5liOluois6luhj26CD0
-VtCz2FrB/5ySEIC9i30HrTyO00qKerxZCT2S8wq8DiiirHYRDuQN8X3Qs6wh4A75
-XUx4wUvDeWswwCe+HoApP1pU
-=2JrR
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPM4MobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+igQQAKRaPu5yp5hyN2BmzygP
+/e/LbLRWnnJnVgDrXmJI+wBvzINvEyaWbHrJbYgw6//cTny9Xq/BoB2yW7AqqPXK
+2MIoPGhXLAlAQM3THUHGD1q1wRjVpQCcdbkhsGti1f7GOajaf3MB5mM2LO16tpNg
+7f1P2HWrxLQVgF0yYnYSMC1+8yV1t/2mAmNISvH44LOTYJhDcS05+XdfqGLcdiSW
+mIIAQQOr/6aMmUu3t7EA4TgF4StXJ16bknjNu75zN5ZgykuTUC7wBgX2iY/hcpF+
+9c4yT35ViKweWAv6Gu3YdUb5fi2uUlmzMyQdYCwqCk8f6mMchrL4sSUlnbaauqcv
+1S07/KJhWGncp53XuXMPTncQpLFlDvgK2pw6LK/IYIY1AfbWgRFUHBdRYIis6WO3
+Ss+JiWCtFA2KcCcE1IrmyJUefeXQSU6WA/QjJqm5pfRo1ADQpIeRvdMY9xe0Xppz
+SYYWxSxEo7IxYkjnrY7qL/kOGWoofKeBS8/bGtYm+aP/JPXhTkV/7hYg3z1auloh
+kpUGTc+8X11Z5nNEnFlr6zdiWNXSa+MTCt87cfe/xTPSf7Cy4WMjr8nr8jlXGazf
+5IuOkfs2ZJ3VmWNXZC17VrXrcwGUj64mmfU7zKXLSlBb05/RrgptLJOFzBDLqNtY
+/rZFnIuelZw/JUd7CTNqqa8t
+=FAtn
 -----END PGP SIGNATURE-----
 
---===============7237283542484987292==
+--===============6615388447937580191==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-b7bfaa761d76-2241ab53cbb5.txt
+Content-Disposition: attachment; filename=revlist-14ff7460bb58-2241ab53cbb5.txt
 
 06e472acf964649a58b7de35fc9cdc3151acb970 scsi: mpt3sas: Remove usage of dma_get_required_mask() API
 d347a951906b506c485ee9ffb76fe473b41f3e10 scsi: mpi3mr: Remove usage of dma_get_required_mask() API
@@ -86,7 +86,6 @@ ce9ef749a2fa9048c1ebacc3194b17a9628512f5 ASoC: SOF: Fixes for suspend after firm
 f5f94b9c8b805d87ff185caf9779c3a4d07819e3 cpufreq: CPPC: Add u64 casts to avoid overflowing
 1a6a8b0080b09bf14a7d45abfe8020bd63306c17 cpufreq: qcom-hw: Fix reading "reg" with address/size-cells != 2
 01c5bb0cc2a39fbc56ff9a5ef28b79447f0c2351 cpufreq: Add Tegra234 to cpufreq-dt-platdev blocklist
-c28f3d80383571d3630df1a0e89500d23e855924 thunderbolt: Do not report errors if on-board retimers are found
 827e0920dbfb0d92416e56081d70745597403446 memory: omap-gpmc: fix wait pin validation
 ef86b2c2807f41c045e5534d8513a8b83f63bc39 memory: tegra: Remove clients SID override programming
 340cb392a038cf70540a4cdf2e98a247c66b6df4 memory: atmel-sdramc: Fix missing clk_disable_unprepare in atmel_ramc_probe()
@@ -294,9 +293,6 @@ a5a36720c3f650f859f5e9535dd62d06f13f4f3b brcmfmac: Prefer DT board type over DMI
 7871f54e3deed68a27111dda162c4fe9b9c65f8f gro: take care of DODGY packets
 76761babaa984fce8ecd87d87a68d920f24df438 net: lan966x: Allow to add rules in TCAM even if not enabled
 7d6ceeb1875cc08dc3d1e558e191434d94840cd5 af_unix: selftest: Fix the size of the parameter to connect()
-23257cfc1cb7202fd0065e9f4a6a0aac1c04c4a9 thunderbolt: Do not call PM runtime functions in tb_retimer_scan()
-e8ff07fb33026c5c1bb5b81293496faba5d68059 thunderbolt: Use correct function to calculate maximum USB3 link rate
-84ee211c83212f4d35b56e0603acdcc41f860f1b thunderbolt: Disable XDomain lane 1 only in software connection manager
 74905e3de8adf0e6b5d7f455dcd32cdec13dfb6c KVM: nSVM: clarify recalc_intercepts() wrt CR8
 45e966fcca03ecdcccac7cb236e16eea38cc18af KVM: x86: Do not return host topology information from KVM_GET_SUPPORTED_CPUID
 87ca4f9efbd7cc649ff43b87970888f2812945b8 sched/core: Fix use-after-free bug in dup_user_cpus_ptr()
@@ -533,8 +529,6 @@ be53771c87f4e322a9835d3faa9cd73a4ecdec5b r8152: add vendor/device ID pair for Mi
 16199ad9eb6db60a6b10794a09fc1ac6d09312ff btrfs: do not abort transaction on failure to write log tree when syncing log
 09e44868f1e03c7825ca4283256abedc95e249a3 btrfs: do not abort transaction on failure to update log root
 a152d05ae4a71d802d50cf9177dba34e8bb09f68 cifs: Fix uninitialized memory read for smb311 posix symlink create
-bb78654b0b46316dac687fd4b7dc7cce636f46cd USB: serial: option: add Quectel EM05-G (CS) modem
-6c331f32e32ac71eb3e8b93fceda2802d7ecb889 USB: serial: option: add Quectel EM05-G (GR) modem
 36c2b9d6710427f802494ba070621cb415198293 platform/x86: touchscreen_dmi: Add info for the CSL Panther Tab HD
 6e5aedb9324aab1c14a23fae3d8eeb64a679c20e io_uring/poll: attempt request issue after racy poll wakeup
 3d25b1e8369273d76f5f2634f164236ba9e40d32 Merge tag 'nvme-6.2-2023-01-12' of git://git.infradead.org/nvme into block-6.2
@@ -636,11 +630,6 @@ f0f70ddb8f3bdbe670b1fab07271dd772e54c341 Merge tag 'x86_urgent_for_v6.2_rc4' of 
 5dc4c995db9eb45f6373a956eb1f69460e69e6d4 Linux 6.2-rc4
 a608da3bd730d718f2d3ebec1c26f9865f8f17ce zonefs: Detect append writes at invalid locations
 216f764716f34fe68cedc7296ae2043a7727e640 block, bfq: switch 'bfqg->ref' to use atomic refcount apis
-b72d13977689f0c717444010e108c4f20658dfee USB: serial: option: add Quectel EM05-G (RS) modem
-d9bbb15881046bd76f8710c76e26a740eee997ef USB: serial: option: add Quectel EC200U modem
-3f9e76e31704a325170e5aec2243c8d084d74854 USB: serial: cp210x: add SCALANCE LPE-9000 device id
-1541dd0097c0f8f470e76eddf5120fc55a7e3101 USB: serial: option: add Quectel EM05CN (SG) modem
-71dfd381a7c051f16a61f82fbd38a4cca563bdca USB: serial: option: add Quectel EM05CN modem
 e5464277625c1aca5c002e0f470377cdd6816dcf gpio: mxc: Protect GPIO irqchip RMW with bgpio spinlock
 8e88a0feebb241cab0253698b2f7358b6ebec802 gpio: mxc: Always set GPIOs used as interrupt source to INPUT mode
 88bcc6fa5eaea9b4b520c429f806eb87c639909b Merge tag 'mvebu-fixes-6.2-1' of git://git.kernel.org/pub/scm/linux/kernel/git/gclement/mvebu into arm/fixes
@@ -696,35 +685,8 @@ c7bf714f875531f227f2ef1fdcc8f4d44e7c7d9d HID: check empty report_list in bigben_
 732dbcf52f74b254a7ddd4226e0b9638e1e7aeff ARM: dts: stm32: Fix qspi pinctrl phandle for stm32mp157c-emstamp-argon
 175281f80695569c7f9cf062e5d0ddc4addc109f ARM: dts: stm32: Fix qspi pinctrl phandle for stm32mp151a-prtt1l
 cbf44580ce6b310272a73e3e794233fd064330bd HID: revert CHERRY_MOUSE_000C quirk
-b1f02c6a26bc2cec3d2c4f9b7cc007d69a78aed6 Merge tag 'thunderbolt-for-v6.2-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/westeri/thunderbolt into usb-linus
 9d6033e350694a67885605674244d43c9559dc36 block/rnbd-clt: fix wrong max ID in ida_alloc_max
-1301c7b9f7efad2f11ef924e317c18ebd714fc9a usb: cdns3: remove fetched trb from cache before dequeuing
-d18dcfe9860e842f394e37ba01ca9440ab2178f4 USB: gadgetfs: Fix race between mounting and unmounting
-dbd24ec17b85b45f4e823d1aa5607721920f2b05 usb-storage: apply IGNORE_UAS only for HIKSEMI MD202 on RTL9210
 8565c502e7c156d190d8e6d36e443f51b257f165 drm/i915/display: Check source height is > 0
-93915a4170e9defd56a767a18e6c4076f3d18609 xhci-pci: set the dma max_seg_size
-e8fb5bc76eb86437ab87002d4a36d6da02165654 usb: xhci: Check endpoint is valid before dereferencing it
-a2bc47c43e70cf904b1af49f76d572326c08bca7 xhci: Fix null pointer dereference when host dies
-23a3b8d5a2365653fd9bc5a9454d1e7f4facbf85 xhci: Add update_hub_device override for PCI xHCI hosts
-0522b9a1653048440da5f21747f21e498b9220d1 xhci: Add a flag to disable USB3 lpm on a xhci root port level.
-cd702d18c882d5a4ea44bbdb38edd5d5577ef640 usb: acpi: add helper to check port lpm capability using acpi _DSM
-74622f0a81d0c2bcfc39f9192b788124e8c7f0af xhci: Detect lpm incapable xHC USB3 roothub ports from ACPI tables
-f96c0384047257365371a8ac217107c0371586f1 usb: chipidea: core: fix possible constant 0 if use IS_ERR(ci->role_switch)
-bd449ad8cee9d4b523abbdfa73e1a2a08333f331 usb: musb: fix error return code in omap2430_probe()
-fac4b8633fd682ecc8e9cff61cb3e33374a1c7e5 usb: ucsi: Ensure connector delayed work items are flushed
-e5854355d76b8d768cea8e4fc3ce6dfdba25518a usb: misc: onboard_hub: Invert driver registration order
-cde37881e2e14590675d0acdfbad408300d9ca95 usb: misc: onboard_hub: Move 'attach' work to the driver
-6a19da111057f69214b97c62fb0ac59023970850 usb: gadget: f_fs: Prevent race during ffs_ep0_queue_wait
-ce405d561b020e5a46340eb5146805a625dcacee usb: gadget: f_fs: Ensure ep0req is dequeued before free_request
-582836e3cfab4faafbdc93bbec96fce036a08ee1 usb: typec: altmodes/displayport: Add pin assignment helper
-9682b41e52cc9f42f5c33caf410464392adaef04 usb: typec: altmodes/displayport: Fix pin assignment calculation
-85af23df903ee14bfcba60c53e4f3b640f2310f8 usb: typec: altmodes/displayport: Use proper macro for pin assignment check
-e95765e97d9cb93258a4840440d410fa6ff7e819 usb: gadget: g_webcam: Send color matching descriptor per frame
-36f78477ac2c89e9a2eed4a31404a291a3450b5d usb: typec: tcpm: Fix altmode re-registration causes sysfs create fail
-7c07553807c5125c89de242d35c10c206fd8e6bb USB: gadget: Add ID numbers to configfs-gadget driver names
-c6ec929595c7443250b2a4faea988c62019d5cd2 usb: gadget: f_ncm: fix potential NULL ptr deref in ncm_bitrate()
-11cefeb2058f9f2322713b2683be9301556705e2 USB: fix misleading usb_set_intfdata() kernel doc
-7171b0e261b17de96490adf053b8bb4b00061bcf usb: core: hub: disable autosuspend for TI TUSB8041
 7746564793978fe2f43b18a302b22dca0ad3a0e8 block: fix hctx checks for batch allocation
 2bbb0674c93f9373f12048786b4638b055243112 Merge tag 'tomoyo-pr-20230117' of git://git.osdn.net/gitroot/tomoyo/tomoyo-test1
 c1649ec55708ae42091a2f1bca1ab49ecd722d55 Merge tag 'nfsd-6.2-4' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
@@ -825,7 +787,6 @@ c0a4a1eafbd48e02829045bba3e6163c03037276 nvme-apple: only reset the controller w
 1c5842085851f786eba24a39ecd02650ad892064 nvme-pci: fix timeout request state check
 3f4ca5fafc08881d7a57daa20449d171f2887043 tcp: avoid the lookup process failing to get sk in ehash table
 55ba18dc62deff5910c0fa64486dea1ff20832ff octeontx2-pf: Fix the use of GFP_KERNEL in atomic context on rt
-7d80dbd708c18c683dd34f79b600a05307707ce8 usb: dwc3: fix extcon dependency
 95e5fda3b5f9ed8239b145da3fa01e641cf5d53c ptdma: pt_core_execute_cmd() should use spinlock
 39af728649b05e88a2b40e714feeee6451c3f18e device property: fix of node refcount leak in fwnode_graph_get_next_endpoint()
 b8caf69a6946e18ffebad49847e258f5b6d52ac2 tty: serial: qcom-geni-serial: fix slab-out-of-bounds on RX FIFO buffer
@@ -847,7 +808,6 @@ f24771b62a83239f0dce816bddf0f6807f436235 serial: stm32: Merge hard IRQ and threa
 6c977c5c2e4c5d8ad1b604724cc344e38f96fe9b net: dsa: microchip: ksz9477: port map correction in ALU table entry register
 e12d7a46f65ae4b7d58a5e0c1cbfa825cf8d830d io_uring/msg_ring: fix missing lock on overflow for IOPOLL
 081edded9b38ba6a3a8fa045cfa0d374343da08a Merge tag 'zonefs-6.2-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/dlemoal/zonefs
-dcbf1742ed10ede31b2e68c1412503db9fc6cfaf Merge tag 'usb-serial-6.2-rc5' of https://git.kernel.org/pub/scm/linux/kernel/git/johan/usb-serial into usb-linus
 6c54b7bc8a31ce0f7cc7f8deef05067df414f1d8 thermal: core: call put_device() only after device_register() fails
 46f0cba31ccc28cfb3e65d0ab49a9a7e58c0ef9f Merge tag 'slab-for-6.2-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/vbabka/slab
 a03df4ec37291de74987e4fbfbbcaebb5a8f9a2e Merge tag 's390-6.2-3' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
@@ -883,8 +843,6 @@ aaca766c77fcf5aabda846d3372a1d40b0d4735d misc: fastrpc: Pass bitfield into qcom_
 14ee78d5932afeb710c8305196a676a715bfdea8 serial: exar: Add support for Sealevel 7xxxC serial cards
 d3e599c090fc6977331150c5f0a69ab8ce87da21 bnxt: Do not read past the end of test names
 300b655db1b5152d6101bcb6801d50899b20c2d6 tcp: fix rate_app_limited to default to 1
-5d3d01ae15d2f37ed0325c99ab47ef0ae5d05f3c usb: host: ehci-fsl: Fix module alias
-14ff7460bb58662d86aa50298943cc7d25532e28 USB: misc: iowarrior: fix up header size for USB_DEVICE_ID_CODEMERCS_IOW100
 955bc12299b17aa60325e1748336e1fd1e664ed0 Merge tag 'nvme-6.2-2023-01-20' of git://git.infradead.org/nvme into block-6.2
 45a919bbb21c642e0c34dac483d1e003560159dc Revert "Merge branch 'octeontx2-af-CPT'"
 56d8e3180c065c9b78ed77afcd0cf99677a4e22f io_uring/msg_ring: fix flagging remote execution
@@ -918,4 +876,4 @@ f67144022885344375ad03593e7a290cc614da34 Merge tag 'char-misc-6.2-rc5' of git://
 95f184d0e1e14e6fd4368a804db5f870e5f841d2 Merge tag 'io_uring-6.2-2023-01-21' of git://git.kernel.dk/linux
 2241ab53cbb5cdb08a6b2d4688feb13971058f65 Linux 6.2-rc5
 
---===============7237283542484987292==--
+--===============6615388447937580191==--
