@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3972139398246749918=="
+Content-Type: multipart/mixed; boundary="===============5087904687900893698=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Sun, 22 Jan 2023 07:07:43 -0000
-Message-Id: <167437126396.22139.17796436499153206247@gitolite.kernel.org>
+Date: Sun, 22 Jan 2023 07:07:48 -0000
+Message-Id: <167437126842.22218.1165729681191236290@gitolite.kernel.org>
 
---===============3972139398246749918==
+--===============5087904687900893698==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-linus
-    old: 3daed6345d5880464f46adab871d208e1baa2f3a
+  - ref: refs/heads/main
+    old: 5dc4c995db9eb45f6373a956eb1f69460e69e6d4
     new: 2241ab53cbb5cdb08a6b2d4688feb13971058f65
-    log: revlist-3daed6345d58-2241ab53cbb5.txt
+    log: revlist-5dc4c995db9e-2241ab53cbb5.txt
 
---===============3972139398246749918==
+--===============5087904687900893698==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1674371259 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1674371267 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1674371257-7dd09500c29322f205179f7a443562fa639f030a
+nonce 1674371266-e61f1a0241038c9701d2ed49f55c972bbad88917
 
-3daed6345d5880464f46adab871d208e1baa2f3a 2241ab53cbb5cdb08a6b2d4688feb13971058f65 refs/heads/char-misc-linus
+5dc4c995db9eb45f6373a956eb1f69460e69e6d4 2241ab53cbb5cdb08a6b2d4688feb13971058f65 refs/heads/main
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPM4LsbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+cOsP/1NLYyVIjVyoGHRkWJGG
-57vRME8kDgXU8r/v5a+QoNS7TmQAC+WReAqmETWgMHndvCYi9bXR8TKZQ4nHaOxx
-lWZrOrLgVBNxQw5kXCeOKSEcUJWNz3xiDk/zmaiwK8KcKRlAY73TxIm/EB5jN4vH
-qgCiqMTzex5f8snA1IuA3yhAJXI8l/cel1wtfrjaYqucEg+khXNJbAQAKCJR8fn7
-pBJxKVmVeMnKV+1xaw1PmbJaFQNX2DlcfT6OlpbXZRZUOgoc/x0B/4tDsx1LDABf
-GiKGrHk1bV/5E4ge/iucGBRCJsL/u5yG6NjK0ItQVfRfH0JJSkHEslfWH34jThN4
-f4xU4a5rrgO13c2zZGocKNwB4UpW+kM9U1xVAtYCOPfKX44y0nzpnoZDGfOFbM4v
-J3b4kTqjx4Geh14JztULqeaF45Tsfyk4usTqufXLiRPoHwXfHpvtKw7R8DLPVgqO
-zb+9xcYmJoFvXgWo/Pvhfog/W+B+CJmpYlCnrhm9NKIYSn3wG2bvjeLmQE6ay+A5
-nPEuf9k9i6+mzJNg3SQ6qbJBP0e9CdYE9zRPxlzbI/eih8erZ7P3K1xPk1Vp5PXx
-/AIz9fyxXum7w1etwLepohmv4xMPJoslGcwRtc8O86sqwbmGcxsXCJPzMj+fWdbj
-qznzIIFTbRcUnxVjGgdETQuB
-=Ah/g
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPM4MMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+5z0P/1yxL9cEUWCrBIvT6NdL
+0DC6+tsQfu6lajJXRf5wj0lKNWp/+FlSSUbbTxq162OgDtLaNu8+jaM48PiL15pu
+BHgQufuQJ3F9kE547a6hdmRePPnUxaelHN0Jrw8iGSWbTZPgv/oB32BCBIw6nCoX
+pGnQvcb8FkW7KBP+hCkEoQj+M/btCRzqCwWok7mRVAJEsZQMSMFwi9jLkqNPCa82
+4mxfVTld294nmDrvBM/2xzPjik1s1dCZXKt7GrW2xQy3Sa5R8jKCgVcOnv6UUq/X
+Wfcg1+Bix9cBDVt/NNjCyXKRbnckhGZtoOsuWNFrjXlZBk31FiHJc15QfC7TzXm9
+SRxEtsOhfWmnJ7G24KpO6J0b4FMhb+86JdiWRSdfQP7/hM8PLA5cSwNRPrFwybpw
+T0HD7w5MdZnPeEyMZS764KTT8F9jlBH1fERCJUMvB8h0G1pmPhgASFZ3lZCsic1g
+cMNskMR4YbPHk69vk2zM0rCgpn59zX3dqkeP+hda5nbXM464ZMQ6j/nQ3y3fNEr3
+PVxW5N/YDodGdtuff1h2TtE7i511SWiSrRcaCQeDfiSESPt3QdmMKdxMB9akUPXP
+J92sYcXrH9MB6pKwtocLySFOA06eQQbdYrxwnK6b++4EtQmni5g/xD5fjYL8zl78
+NsJxoQmb/cJFn/sjygmxpOXE
+=nWD1
 -----END PGP SIGNATURE-----
 
---===============3972139398246749918==
+--===============5087904687900893698==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3daed6345d58-2241ab53cbb5.txt
+Content-Disposition: attachment; filename=revlist-5dc4c995db9e-2241ab53cbb5.txt
 
 c28f3d80383571d3630df1a0e89500d23e855924 thunderbolt: Do not report errors if on-board retimers are found
 827e0920dbfb0d92416e56081d70745597403446 memory: omap-gpmc: fix wait pin validation
@@ -108,6 +108,10 @@ ad78b81a1077f7d956952cd8bdfe1e61504e3eb8 firmware: arm_scmi: Harden shared memor
 9bae076cd4e3e3c3dc185cae829d80b2dddec86e firmware: arm_scmi: Harden shared memory access in fetch_notification
 e325285de2cd82fbdcc4df8898e4c6a597674816 firmware: arm_scmi: Fix virtio channels cleanup on shutdown
 937e7a39068d806c1a951f19e38e1326be20f1b0 pinctrl: nomadik: Add missing header(s)
+df875276d8c69b27e1ed242d3cee6bc23d3b7f43 dt-bindings: interconnect: Add UFS clocks to MSM8996 A2NoC
+60426ff08af6a21275d9c879c0dfb09406469868 interconnect: qcom: msm8996: Provide UFS clocks to A2NoC
+4be39d5d86c690c60e2afe55787fc5ec4409d0f0 interconnect: qcom: msm8996: Fix regmap max_register values
+dd42ec8ea5b979edcebbf0ba05807d866884b567 interconnect: qcom: rpm: Use _optional func for provider clocks
 c45219cba101f32853d011da2ba46a1b2338dc4c Revert "arm64: dts: meson-sm1-odroid-hc4: disable unused USB PHY0"
 2a33ad4a0ba5a527b92aeef9a313aefec197fe28 HID: amd_sfh: Fix warning unwind goto
 d3178e8a434b58678d99257c0387810a24042fb6 bpf: Skip invalid kfunc call in backtrack_insn
@@ -444,6 +448,9 @@ f24771b62a83239f0dce816bddf0f6807f436235 serial: stm32: Merge hard IRQ and threa
 5bfdd3c654bd879bff50c2e85e42f85ae698b42f serial: atmel: fix incorrect baudrate setup
 5342ab0af45064cbdc773645b93ab70c24ee161f tty: serial: qcom_geni: avoid duplicate struct member init
 423d5081d0451faa59a707e57373801da5b40141 io_uring/msg_ring: move double lock/unlock helpers higher up
+2efb6edd52dc50273f5e68ad863dd1b1fb2f2d1c comedi: adv_pci1760: Fix PWM instruction handling
+25d5648802f12ae486076ceca5d7ddf1fef792b2 w1: fix deadloop in __w1_remove_master_device()
+36225a7c72e9e3e1ce4001b6ce72849f5c9a2d3b w1: fix WARNING after calling w1_process()
 9be182da0a7526f1b9a3777a336f83baa2e64d23 driver core: Fix test_async_probe_init saves device in wrong array
 8ccc99362b60c6f27bb46f36fdaaccf4ef0303de net/ulp: use consistent error code when blocking ULP
 903848249a781d76d59561d51676c95b3a4d7162 selftests/net: toeplitz: fix race on tpacket_v3 block close
@@ -473,6 +480,16 @@ b7b0742883e0839e6d81f0538735bf9a9a1e7d6f Merge tag 'stm32-dt-for-v6.2-fixes-1' o
 aca5d87d934384f81cc948e34c01052367d67788 Merge tag 'at91-fixes-6.2' of https://git.kernel.org/pub/scm/linux/kernel/git/at91/linux into arm/fixes
 d2c865553adb7ad9abf3894cbb209cf1bc95484a firmware: zynqmp: fix declarations for gcc-13
 2cbafffbf69addd7509072f4be5917f81d238cf6 Revert "serial: stm32: Merge hard IRQ and threaded IRQ handling into single IRQ handler"
+732065df5deb5d565f66780a97990e77fc9bc49f Merge tag 'icc-6.2-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/djakov/icc into char-misc-linus
+a43866856125c3c432e2fbb6cc63cee1539ec4a7 mei: bus: fix unlink on bus in error path
+0c4d68261717f89fa8c4f98a6967c3832fcb3ad0 mei: me: add meteor lake point M DID
+5023adc364df004bd8e57afe89a4bd8019485c3d misc: fastrpc: fix error code in fastrpc_req_mmap()
+9446fa1683a7e3937d9970248ced427c1983a1c5 misc: fastrpc: Fix use-after-free and race in fastrpc_map_find
+5bb96c8f9268e2fdb0e5321cbc358ee5941efc15 misc: fastrpc: Don't remove map on creater_process and device_release
+96b328d119eca7563c1edcc4e1039a62e6370ecb misc: fastrpc: Fix use-after-free race condition for maps
+a769b05eeed7accc4019a1ed9799dd72067f1ce8 gsmi: fix null-deref in gsmi_get_variable
+aaca766c77fcf5aabda846d3372a1d40b0d4735d misc: fastrpc: Pass bitfield into qcom_scm_assign_mem
+3daed6345d5880464f46adab871d208e1baa2f3a VMCI: Use threaded irqs instead of tasklets
 14ee78d5932afeb710c8305196a676a715bfdea8 serial: exar: Add support for Sealevel 7xxxC serial cards
 d3e599c090fc6977331150c5f0a69ab8ce87da21 bnxt: Do not read past the end of test names
 300b655db1b5152d6101bcb6801d50899b20c2d6 tcp: fix rate_app_limited to default to 1
@@ -511,4 +528,4 @@ f67144022885344375ad03593e7a290cc614da34 Merge tag 'char-misc-6.2-rc5' of git://
 95f184d0e1e14e6fd4368a804db5f870e5f841d2 Merge tag 'io_uring-6.2-2023-01-21' of git://git.kernel.dk/linux
 2241ab53cbb5cdb08a6b2d4688feb13971058f65 Linux 6.2-rc5
 
---===============3972139398246749918==--
+--===============5087904687900893698==--
