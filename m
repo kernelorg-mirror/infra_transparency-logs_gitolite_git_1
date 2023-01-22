@@ -1,56 +1,27 @@
-Content-Type: multipart/mixed; boundary="===============7761259369174547325=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Sun, 22 Jan 2023 14:20:26 -0000
-Message-Id: <167439722685.32135.6434217885988522013@gitolite.kernel.org>
-
---===============7761259369174547325==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/pinchartl/linux
+Date: Sun, 22 Jan 2023 14:22:39 -0000
+Message-Id: <167439735933.419.7598491329620891725@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/pinchartl/linux
+user: pinchartl
 changes:
-  - ref: refs/heads/master
-    old: 5d5851142c1860907d0f198330429c8dffe80bcd
-    new: 10652e1852e5d8c93d219a303b484a84236e40fe
+  - ref: refs/heads/next/media/imx-pxp
+    old: 9d897cb5bd1960525faff87ee468bd766f37daca
+    new: d44c8749bd7301b899baf7a7a4f6c73c074521ff
     log: |
-         10652e1852e5d8c93d219a303b484a84236e40fe 4.14-stable patches
+         00a219c04f79f77fcb55467dcdcdebd7bff23e96 media: imx-pxp: Sort headers alphabetically
+         4a270eb5fde490d6d9c574983c87e78a86a1721b media: imx-pxp: Don't set bus_info manually in .querycap()
+         c1ffa3ce7d920f14bee9855acb5e5097b8de7c8a media: imx-pxp: Add media controller support
+         9a4f447bc71745f2dd91adc11451a8a835b1161f media: imx-pxp: Pass pixel format value to find_format()
+         6b003fe7b36dc69caee5059e9a48c182d3b0ac51 media: imx-pxp: Implement frame size enumeration
+         ddade7c4099fa10abb40a0a6551ffaae00f6251f media: imx-pxp: Introduce pxp_read() and pxp_write() wrappers
+         e7cf41e02abea8b4042a3f1c71633c9ac0e96b43 media: imx-pxp: Use non-threaded IRQ
+         835473dc06eb8143a43ebcf39e46fb4a8efcf286 media: imx-pxp: convert to regmap
+         d44c8749bd7301b899baf7a7a4f6c73c074521ff ARM: dts: imx7d: add node for PXP
          
-
---===============7761259369174547325==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1674397226 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1674397225-e90c5ebbd56b7d9149805738f305c5bc1603a09c
-
-5d5851142c1860907d0f198330429c8dffe80bcd 10652e1852e5d8c93d219a303b484a84236e40fe refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPNRiobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ABsQALjSPDfvGNHHMen6yQUV
-PHXL+M+dzDWiHiHHGyBAGoAr0XHADoGpzJQ/ycPcIgZJx6Cn2K9kZxLlbKAXXMpt
-a38OgXg+0AS6nqF6j6NLMjQsyxMoNBnuLN6sJTpoOhJ/QXm6MY0EgV8exWDouusG
-JG7/+YhRGIGhzx9ituGB9AJdvkjcDrAOliH6Fx+aCL3qWNWnbpinlGmQyfsMPvMf
-I1kWQS5Hgnb8gGZ4IdRZNqaZymX2i0G04TqEVX8TfAHrFsuHgmWKKwFxzwwdO1zF
-V1RHrHYla6OTn9Z1WhAPT6khgr5HkDCUNgUO6klOE64yfWuzA+CnsqmA8YfdjOfw
-v2GFYhznz89u8+MGy1Paaoor7cDnnJQWS+PCtNbMabCsaq/KByephKRUkIeeDf2o
-Sl6KFLA9sckuK0KHNymHsA3Sa65WQ8zsfWSd8GtrPljBAopY/xwnEkX07yBCZTds
-GVieVJgx8uCemM0vteumHgVtOdGPmAnmZFx10ajUNiYCxg5sUAKYulDy6nrixLpf
-jZLa8kAmvN8TjH1vKVg2sfcEwmHezviG/dA0fTSEBNNXM9OIwihePuDQoBD0MJ2Q
-huiKRn0W9sUj5YbH2DbX8moLzMDCxjdGv5BJxuQ7Yr2Dv/zg5MkoVsjbokVnTWAL
-MYzWYvlF4K2EYhnKWFDFyLAk
-=L8Dm
------END PGP SIGNATURE-----
-
---===============7761259369174547325==--
