@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ti/linux
-Date: Sun, 22 Jan 2023 08:53:07 -0000
-Message-Id: <167437758787.26308.14469677378172782791@gitolite.kernel.org>
+Date: Sun, 22 Jan 2023 08:53:27 -0000
+Message-Id: <167437760709.26494.4289762580532265926@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,7 +11,7 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ti/linux
 user: vigneshr
 changes:
-  - ref: refs/heads/ti-k3-dts-next
+  - ref: refs/heads/ti-next
     old: 880932e657ffc677c1b053a947afa87ffed1b29d
     new: 9ae21ac445e911e3541985c20052fc05d60f6879
     log: |
