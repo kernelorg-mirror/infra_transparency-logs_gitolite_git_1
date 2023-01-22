@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8258631757494217474=="
+Content-Type: multipart/mixed; boundary="===============0641632012280662471=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Sun, 22 Jan 2023 16:42:32 -0000
-Message-Id: <167440575251.29518.1696398775771862739@gitolite.kernel.org>
+Date: Sun, 22 Jan 2023 16:42:37 -0000
+Message-Id: <167440575736.29629.9273605452088261502@gitolite.kernel.org>
 
---===============8258631757494217474==
+--===============0641632012280662471==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: c8a567e12e9205f360f5f33dbf94cef6ad184ca4
-    new: 1815a4712498bb21a0d17239cd68ee22c774c5d4
-    log: revlist-c8a567e12e92-1815a4712498.txt
+  - ref: refs/heads/m68k-queue
+    old: 79f38d14726bfe087eec464ff3a335b38f7c0cf1
+    new: 2bb27b09849d6d6a9db633ab66a5dad13d1326ee
+    log: revlist-79f38d14726b-2bb27b09849d.txt
 
---===============8258631757494217474==
+--===============0641632012280662471==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c8a567e12e92-1815a4712498.txt
+Content-Disposition: attachment; filename=revlist-79f38d14726b-2bb27b09849d.txt
 
 c28f3d80383571d3630df1a0e89500d23e855924 thunderbolt: Do not report errors if on-board retimers are found
 827e0920dbfb0d92416e56081d70745597403446 memory: omap-gpmc: fix wait pin validation
@@ -496,6 +496,8 @@ c88a3114706429c9edf89e0bf2cd6757270c00f8 Merge tag 'driver-core-6.2-rc5' of git:
 f67144022885344375ad03593e7a290cc614da34 Merge tag 'char-misc-6.2-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc
 95f184d0e1e14e6fd4368a804db5f870e5f841d2 Merge tag 'io_uring-6.2-2023-01-21' of git://git.kernel.dk/linux
 2241ab53cbb5cdb08a6b2d4688feb13971058f65 Linux 6.2-rc5
-1815a4712498bb21a0d17239cd68ee22c774c5d4 Merge tag 'v6.2-rc5'
+69bdaf8717e2dfd32dbdaa94221077be4038adf4 m68k: atari: usb: Add ISP1160 USB host controller support
+3da94f79b49fb81a3c07cd792cb3e43f8ae86bf9 m68k: atari: Update Kconfig.bus help text
+2bb27b09849d6d6a9db633ab66a5dad13d1326ee m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============8258631757494217474==--
+--===============0641632012280662471==--
