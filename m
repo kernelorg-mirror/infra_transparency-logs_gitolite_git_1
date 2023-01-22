@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3721329463736662830=="
+Content-Type: multipart/mixed; boundary="===============3695361158985494308=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Sun, 22 Jan 2023 12:41:25 -0000
-Message-Id: <167439128556.28456.4828089801646745887@gitolite.kernel.org>
+Date: Sun, 22 Jan 2023 12:41:44 -0000
+Message-Id: <167439130407.28642.16594486432027167924@gitolite.kernel.org>
 
---===============3721329463736662830==
+--===============3695361158985494308==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/debugfs_lookup_fix
-    old: 6d36ea7d1146389f3019e1bbd1370f4d1025395c
-    new: 05a9a83cf229681c6cc6672649820a3d9a1a91d0
-    log: revlist-6d36ea7d1146-05a9a83cf229.txt
+  - ref: refs/heads/kobject-const
+    old: 03bfdbb25247a8fadb0f6cfbfd70841513978a49
+    new: 84fda274806a747dacf6be72b342d9dcb0c48737
+    log: revlist-03bfdbb25247-84fda274806a.txt
 
---===============3721329463736662830==
+--===============3695361158985494308==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1674391283 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1674391301 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1674391283-0de1654c4fc878e6479cb7a451b865cae1419097
+nonce 1674391300-76e3a8718a77512653c2c582c7e92daf7dd4f423
 
-6d36ea7d1146389f3019e1bbd1370f4d1025395c 05a9a83cf229681c6cc6672649820a3d9a1a91d0 refs/heads/debugfs_lookup_fix
+03bfdbb25247a8fadb0f6cfbfd70841513978a49 84fda274806a747dacf6be72b342d9dcb0c48737 refs/heads/kobject-const
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPNLvMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+MoAP/0qj6v8BtbOJ9rQ2TN+s
-7GYlumDKB29Eo9wKrU64tErYyOzp3r36gxH+e2Zo8IjUraAmfCbaMrbZ8pvn0x8a
-akGFshEJZtOMHJoLgkU5WMEoEEWbW25saBZ5v2XpLkGGQSoef+Zjr1dzFQlzq+lz
-Tn6T+IefnjJzU143VKWDl61yUWCuWDoGFzOiUrjxaHG9mZgVnYHJJTz1mmsTh0+7
-SvU1kk1tKeCvGeYQYqncAqjYaAffWwOBZ17r8gRYZbaBUuBx5Jjqp2I89ditpv3r
-p/oC4ueP4Za2N0gTrusCu9Lz4G1dWnjY38Wyrk2XQsEZrKNLbDcDjYh5Sh6+ZdmL
-YhAKo54KdqxBZbLOjcPp4WcLfbcgRxrcprDQ6c8ZaVRKNgK358nMkHTs8De+HBYo
-ugE+/j962ZfWzLRYt4GepquZ2tvZCSPqwcMyv6b6sF8KFxLsklBKPWxOdUyeATFZ
-tC9CdmirkCc29ep1xaasyC6soNo6aoA0eUCZ6ZVGJn4kK6EJPJ6ALkdVhgz9fZYV
-yl3Tc7hitqOkISEUCc9rDyy7rWrB8NO7AIYF9bFK7svh0RDut2PZzM2CMHDtWtXt
-aiEu3BOK2x9nHbLHsyYHOaA7gjf7pJ+vJeFF93nwde/p7GJBcZukE36vqoog+D0p
-q4/D5ztgKeMyJafh2VhAbosS
-=Wvu4
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPNLwUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+slkQAKqHqG5Tm67OVVZaKhQQ
+h5WxGeYDiw4/3E5+NGmrnGX4W7gsgAxkO0LNHf2K4h/diEvePQ8PAwG8pTFLt2sM
+RAbjAb3cO8J5eE1JpPsD1UPA3zlATLTUXqsvMjuPl8DD+FwwLppsZNcldvHJXCyQ
+hPrX0kbCTxO219jNFh8auIsRjLa+vDpaPtHhzcmTgZ93Iw0uVSaOZxXmbwd5fXJG
+1YbERDVVuItJPLtQbaI9ijR7elD0JjseN+7VbVCcb8TfTeIUgdFXK60GgT0fZgD3
+0p58ykqOWY2Vla/Me77luCYEmhvE63GX9iaejnGEtNjMIF7jLXjAyFc7LEowS4s5
+p/FaR7S6TbsHHKspO981G8NLAPs74vsVh5ik9aZu98RekubH6SckupJ//jB8gaNb
+D+OELwuupa7X2QIntZyPD+4ld9qzkmqoT9VXtmy+3unUhCmxieihLrKo5FOmFslt
+oFIL6z25T91naZ3XewI0mF6l85sv+O7+xZw+hhvxeFxMXy3CSz6/VyNE4gNcO/N7
+Wzyqc7elp7sZpMIhxlIOEoGf3n6MwQkDJa1Iv6pNqhShMbYWyBECw+MBrlCfyIBG
+TmZAHHWXhi7imm85eXjM5T+89zbIGloRnnUqXuZaH7jZONKNzRYoc+KDO3iyojyM
+KHwdQ8HxfwSGC7Syb6Z70h7B
+=wh1d
 -----END PGP SIGNATURE-----
 
---===============3721329463736662830==
+--===============3695361158985494308==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-6d36ea7d1146-05a9a83cf229.txt
+Content-Disposition: attachment; filename=revlist-03bfdbb25247-84fda274806a.txt
 
 06e472acf964649a58b7de35fc9cdc3151acb970 scsi: mpt3sas: Remove usage of dma_get_required_mask() API
 d347a951906b506c485ee9ffb76fe473b41f3e10 scsi: mpi3mr: Remove usage of dma_get_required_mask() API
@@ -732,8 +732,6 @@ c1649ec55708ae42091a2f1bca1ab49ecd722d55 Merge tag 'nfsd-6.2-4' of git://git.ker
 7d83299351fe7c812c529f5e39fe63b5312e4233 staging: vchiq_arm: fix enum vchiq_status return types
 8026a31df6d59265553e7874cf3c2b560138a407 tools headers UAPI: Sync linux/kvm.h with the kernel sources
 effa76856f2d7111f8c44de49f15ebdfccea8ccc tools headers UAPI: Sync x86's asm/kvm.h with the kernel sources
-c3719bd9eeb2edf84bd263d662e36ca0ba262a23 cacheinfo: Use RISC-V's init_cache_level() as generic OF implementation
-8844c3df001bc1d8397fddea341308da63855d53 cacheinfo: Return error code in init_of_cache_level()
 c410cb974f2ba562920ecb8492ee66945dcf88af netfilter: conntrack: handle tcp challenge acks during connection reuse
 2185e0fdbb2137f22a9dd9fcbf6481400d56299b Bluetooth: Fix a buffer overflow in mgmt_mesh_add()
 3a4d29b6d631bb00236a98887e1039bbfc1b6ab5 Bluetooth: hci_sync: Fix use HCI_OP_LE_READ_BUFFER_SIZE_V2
@@ -762,11 +760,6 @@ e4d38c454ae57e649f09a354d5a9dae063a26ee3 net/mlx5e: Protect global IPsec ASO
 febb2c0d7c69c0396aa32d5ab425a4163473961a HID: uclogic: Add support for XP-PEN Deco 01 V2
 74cb485f68eb3dff6802ee446a602607b03f4fc9 HID: playstation: sanity check DualShock4 calibration data.
 ccf1e1626d37745d0a697db67407beec9ae9d4b8 HID: playstation: sanity check DualSense calibration data.
-de0df442ee49cb1f6ee58f3fec5dcb5e5eb70aab cacheinfo: Check 'cache-unified' property to count cache leaves
-fa4d566a605bc4cf32d69f16ef8cf9696635f75a ACPI: PPTT: Remove acpi_find_cache_levels()
-bd500361a937c03a3da57178287ce543c8f3681b ACPI: PPTT: Update acpi_find_last_cache_level() to acpi_get_cache_info()
-5944ce092b97caed5d86d961e963b883b5c44ee2 arch_topology: Build cacheinfo from primary CPU
-198102c9103fc78d8478495971947af77edb05c1 cacheinfo: Fix shared_cpu_map to handle shared caches at different levels
 96b3bb18f6cbe259ef4e0bed3135911b7e8d2af5 dmaengine: lgm: Move DT parsing after initialization
 6437a549ae178a3f5a5c03e983f291ebcdc2bbc7 drm/panfrost: fix GENERIC_ATOMIC64 dependency
 57054fe516d59d03a7bcf1888e82479ccc244f87 Add exception protection processing for vd in axi_chan_handle_err function
@@ -834,7 +827,6 @@ c0a4a1eafbd48e02829045bba3e6163c03037276 nvme-apple: only reset the controller w
 55ba18dc62deff5910c0fa64486dea1ff20832ff octeontx2-pf: Fix the use of GFP_KERNEL in atomic context on rt
 7d80dbd708c18c683dd34f79b600a05307707ce8 usb: dwc3: fix extcon dependency
 95e5fda3b5f9ed8239b145da3fa01e641cf5d53c ptdma: pt_core_execute_cmd() should use spinlock
-52af7863508e94f3e05e43a3f2f3943a71dcffab device property: Make fwnode_graph_for_each_endpoint() consistent
 39af728649b05e88a2b40e714feeee6451c3f18e device property: fix of node refcount leak in fwnode_graph_get_next_endpoint()
 b8caf69a6946e18ffebad49847e258f5b6d52ac2 tty: serial: qcom-geni-serial: fix slab-out-of-bounds on RX FIFO buffer
 e8914b52e5b024e4af3d810a935fe0805eee8a36 serial: pch_uart: Pass correct sg to dma_unmap_sg()
@@ -846,7 +838,6 @@ f24771b62a83239f0dce816bddf0f6807f436235 serial: stm32: Merge hard IRQ and threa
 5bfdd3c654bd879bff50c2e85e42f85ae698b42f serial: atmel: fix incorrect baudrate setup
 5342ab0af45064cbdc773645b93ab70c24ee161f tty: serial: qcom_geni: avoid duplicate struct member init
 423d5081d0451faa59a707e57373801da5b40141 io_uring/msg_ring: move double lock/unlock helpers higher up
-95b2a034784658c4512db846918475d4954901d6 kernfs: remove an unused if statement in kernfs_path_from_node_locked()
 2efb6edd52dc50273f5e68ad863dd1b1fb2f2d1c comedi: adv_pci1760: Fix PWM instruction handling
 25d5648802f12ae486076ceca5d7ddf1fef792b2 w1: fix deadloop in __w1_remove_master_device()
 36225a7c72e9e3e1ce4001b6ce72849f5c9a2d3b w1: fix WARNING after calling w1_process()
@@ -890,17 +881,8 @@ a769b05eeed7accc4019a1ed9799dd72067f1ce8 gsmi: fix null-deref in gsmi_get_variab
 aaca766c77fcf5aabda846d3372a1d40b0d4735d misc: fastrpc: Pass bitfield into qcom_scm_assign_mem
 3daed6345d5880464f46adab871d208e1baa2f3a VMCI: Use threaded irqs instead of tasklets
 14ee78d5932afeb710c8305196a676a715bfdea8 serial: exar: Add support for Sealevel 7xxxC serial cards
-2e4a4e36285fa9739cb45a26206c958037d6b773 Merge tag 'archtopo-cacheinfo-updates-6.3' of git://git.kernel.org/pub/scm/linux/kernel/git/sudeep.holla/linux into driver-core-next
 d3e599c090fc6977331150c5f0a69ab8ce87da21 bnxt: Do not read past the end of test names
-1ad5288f2bd37818fc90b77635611110c44df104 test_firmware: use kernel-doc struct notation
-f7d85515bd21902b218370a1a6301f76e4e636ff test_firmware: Use kstrtobool() instead of strtobool()
-7c09f4281cb6ec0fc202f53924ed6c389c61bf0e drivers/base/memory: Fix comments for phys_index_show()
-6977b1a5d67097eaa4d02b0c126c04cc6e8917c0 driver core: fix resource leak in device_add()
-0d150f967e8410e1e6712484543eec709356a65d driver core: location: Free struct acpi_pld_info *pld before return false
-a86367803838b369fe5486ac18771d14723c258c drivers: base: transport_class: fix possible memory leak
-e5da06b27ff5a148e42265c8e306670a9d913969 drivers: base: transport_class: fix resource leak when transport_add_device() fails
 300b655db1b5152d6101bcb6801d50899b20c2d6 tcp: fix rate_app_limited to default to 1
-00142bfd5a916a0b3899cc709bf8f5042cf3d084 kernels/ksysfs.c: export kernel address bits
 5d3d01ae15d2f37ed0325c99ab47ef0ae5d05f3c usb: host: ehci-fsl: Fix module alias
 14ff7460bb58662d86aa50298943cc7d25532e28 USB: misc: iowarrior: fix up header size for USB_DEVICE_ID_CODEMERCS_IOW100
 955bc12299b17aa60325e1748336e1fd1e664ed0 Merge tag 'nvme-6.2-2023-01-20' of git://git.infradead.org/nvme into block-6.2
@@ -936,38 +918,22 @@ f67144022885344375ad03593e7a290cc614da34 Merge tag 'char-misc-6.2-rc5' of git://
 95f184d0e1e14e6fd4368a804db5f870e5f841d2 Merge tag 'io_uring-6.2-2023-01-21' of git://git.kernel.dk/linux
 2241ab53cbb5cdb08a6b2d4688feb13971058f65 Linux 6.2-rc5
 f89fd04323f755e7437a0113d986812c3fffe03d Merge 6.2-rc5 into driver-core-next
-b11523a4e833a047f91e6537b74aefdca8c7aca0 USB: fix memory leak with using debugfs_lookup()
-57fc6d9a5e8fc6f222a150bb4a2028f34be82682 mtd: spi-nor: fix memory leak when using debugfs_lookup()
-435235a2dd4bb6d95c1dcf19249ab55ac11d0c27 i915: debugfs_lookup() fix
-974a20aa4b0d816e6b9e72f32563defb37564ccb tty: pcn_uart: debugfs_lookup() fix
-6d2fe3e39a70d88e1d5a2666dce9cf0bdfa4df4b staging: pi433: debugfs_lookup() fix
-da208552c624ce0d6e10c7ff369d098b32faa18b misc: vmw_balloon: debugfs_lookup() fix
-b30b0d5924bf6b3791525a9425ed81bd48333538 scsi: snic: debugfs_lookup() fix
-e31320efdaab97e8c7257ce32b7bfb6e03c668f6 drivers: base: component:: debugfs_lookup() fix
-33897ba500930caf38c43e485a69f133b00a34cb drivers: base: dd: debugfs_lookup() fix
-e56e77e4186c308428db2519df0baad64c4fd9ac drivers: base: power debugfs_lookup() fix
-d68405a0d2b78bcc8d984d9ed2876aff087ad47e mm/slub: debugfs_lookup() fix
-fcdbd119c440ef62e19410661b8067a41dd5bce6 trace/blktrace: debugfs_lookup() fix
-fa6ab071ff0c546f031eb9f1a1c370324fa8ea6a ppc: iommu: debugfs_lookup() fix
-b968f5d5a49b60e7dd95ee3301ad9958a163d862 kernel/fail_function: debugfs_lookup() fix
-28ef0e7880b03b20b53b97c29e96214c814bbbba kernel/irq/irqdomain.c: debugfs_lookup() fix
-2ff556288547006b92baf7beb7d7283fed4cb33d kernel/power/energy_model.c: debugfs_lookup() fix
-ae6e0db0ddd114d47d12dcb6de2044b046372a9d kernel/printk/index.c: debugfs_lookup() fix
-c6d09de1893574474ed5674e10ae54f781be4e6f kernel/time/test_udelay.c: debugfs_lookup() fix
-584fee2218b07fe22ecac066afec76df401ec237 USB: chipidea: debugfs_lookup() fix
-2732d88ebeb5a4695594ed9102b46425e383aec3 USB: ULPI: debugfs_lookup() fix
-7275a1c8f9842f415a1037677484306decfdb39d USB: dwc3: debugfs_lookup() fix
-76b9bc01dffc3d27a266061277f4062120944ee7 USB: uhci: debugfs_lookup() fix
-a690a091dc061baf415a1f75d85d35fe70ec33ce USB: sl811: debugfs_lookup() fix
-56ff3b286c4170cbc46403818332e3801c56eb3c USB: fotg210: debugfs_lookup() fix
-5a3298f7d4cf35a97f1bbb0aae56f7c3b255779d USB: isp116x: debugfs_lookup() fix
-3d308b86aa4b0fecda4358dba1da12cbe98c7cbc USB: isp1362: debugfs_lookup() fix
-eb326d27eec5c156523dc54d6cce3c463a6221e6 USB: gadget: gr_udc: debugfs_lookup() fix
-ca1731b536410fae32cabd00761b07045ae0cfb3 USB: gadget: bcm63xx_udc: debugfs_lookup() fix
-7aee77c5dc607b1e79b20b0236607d042fd540a5 USB: gadget: lpc32xx_udc: debugfs_lookup() fix
-89d8947299720b7798c1cd49d89306ab91f1f2a2 USB: gadget: pxa25x_udc: debugfs_lookup() fix
-500201148a28ff955aa28d8da907005a185324a1 USB: gadget: pxa27x_udc: debugfs_lookup() fix
-095e8de82259ce18e8aa526afa352ff41dd075b1 USB: gadget: s3c2410_udc: debugfs_lookup() fix
-05a9a83cf229681c6cc6672649820a3d9a1a91d0 HV: hv_balloon: debugfs_lookup() fix
+ca96846905d14ee988bf4dfafd1338e1a1834603 of: device: make of_device_uevent_modalias() take a const device *
+2982e6353f8fb235025572b130011785e1a357ef i3c: move dev_to_i3cdev() to use container_of_const()
+320e89581d24e62f5ae8993398e1684cf18ee2ba platform/surface: aggregator: move to_ssam_device() to use container_of_const()
+23ff8d26ac4ef7ee15b2e93135f8761e5f17dcc8 firewire: move fw_device() and fw_unit() to use container_of_const()
+021a379fbb7a2e5157b73712d2db65914a628e6d driver core: make struct device_type.uevent() take a const *
+dfac91eefabb995d6680dc910ee5fcfb275cbaff driver core: make struct device_type.devnode() take a const *
+ccf910e865b36d649e1a58543c92404025233578 driver core: device_get_devnode() should take a const *
+661c2e5f4ac73ea862fc0e95bbbacae55d93f28e vio: move to_vio_dev() to use container_of_const()
+5ee13d67ae0d44db931bf8a2fddfafc719b35271 platform/x86: wmi: move dev_to_wblock() and dev_to_wdev to use container_of_const()
+576d81fa3f0fbf44ac9198b2b202196c6fe02382 drivers: hv: move device_to_hv_device to use container_of_const()
+ad19f225df5222610589a651bc2cf685ceee873a virtio: move dev_to_virtio() to use container_of_const()
+adc4262b99fdf3e459cf56c7c05d88a852a4303f drm/mipi-dsi: move to_mipi_dsi_device() to use container_of_const()
+f48184996a44ea5d7598fbe63750300aca36bc0a mcb: move to_mcb_device() to use container_of_const()
+a284d8d428fb312206755e9e7821ff5026cc1e8b xen/xenbus: move to_xenbus_device() to use container_of_const()
+bce33adc3ff51c0da312090c040f6bdae97799e5 driver core: make struct bus_type.uevent() take a const *
+168b64c80fc3f82c69459d2c46e3b8866730ac39 kobject: kset_uevent_ops: make uevent() callback take a const *
+84fda274806a747dacf6be72b342d9dcb0c48737 bus: step 1
 
---===============3721329463736662830==--
+--===============3695361158985494308==--
