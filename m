@@ -1,16 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/geoff/ps3-linux
-Date: Sun, 22 Jan 2023 01:50:36 -0000
-Message-Id: <167435223689.11579.15939622357679391704@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jpoimboe/linux
+Date: Sun, 22 Jan 2023 02:02:31 -0000
+Message-Id: <167435295194.18207.17820520513836685408@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/geoff/ps3-linux
-user: geoff
+repo: pub/scm/linux/kernel/git/jpoimboe/linux
+user: jpoimboe
 changes:
-  - ref: refs/heads/ps3-queue-gelic-rework
-    old: 0000000000000000000000000000000000000000
-    new: 3d088f2cd5ee935aa0f7560f9df4f99660e0489f
+  - ref: refs/heads/klp-ppc-module-repatch-fix
+    old: 5fdc889f6558b06b1c348f19adb98459d0d493d9
+    new: d9d59cc5768aa7186b674202ffedc6839efc380f
+    log: |
+         0b8db131502fce9361c673ffe415a2d2fed20f0a powerpc/module_64: Change restore_r2() return semantics
+         d9d59cc5768aa7186b674202ffedc6839efc380f powerpc/module_64: Fix "expected nop" error on module re-patching
+         
