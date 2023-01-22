@@ -1,16 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gfs2/linux-gfs2
-Date: Sun, 22 Jan 2023 08:58:59 -0000
-Message-Id: <167437793925.29751.6355152345575464865@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ogabbay/linux
+Date: Sun, 22 Jan 2023 09:37:38 -0000
+Message-Id: <167438025835.22302.16955840971999875366@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gfs2/linux-gfs2
-user: agruen
+repo: pub/scm/linux/kernel/git/ogabbay/linux
+user: ogabbay
 changes:
-  - ref: refs/tags/gfs2-v6.2-rc4-fix
-    old: d1b5957d03a6a5d067729a110824907076883f8d
-    new: 3e828ce0cce99f8673103ae7e2630860e906ebcc
+  - ref: refs/heads/habanalabs-next
+    old: f65c5dac2073222b2836f0ca1fcaa989fe36245a
+    new: 0b905aa14498709d15be787f92c1a82df3af961d
+    log: |
+         efb8afc4074718c27df1790d34e1fccc7d329d47 Documentation: accel: escape wildcard in special file path
+         0b905aa14498709d15be787f92c1a82df3af961d habanalabs: Fix list of /sys/class/habanalabs/hl<n>/status
+         
