@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9112232643262653713=="
+Content-Type: multipart/mixed; boundary="===============8071528994979871043=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geoff/ps3-linux
-Date: Sun, 22 Jan 2023 16:14:00 -0000
-Message-Id: <167440404076.10213.15376386149248092148@gitolite.kernel.org>
+Date: Sun, 22 Jan 2023 16:14:34 -0000
+Message-Id: <167440407474.10506.8538500476987530219@gitolite.kernel.org>
 
---===============9112232643262653713==
+--===============8071528994979871043==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geoff/ps3-linux
 user: geoff
 changes:
-  - ref: refs/heads/ps3-queue-gelic-rework
-    old: cef6a81cb3e8878a47db0a778ce104f9df5017cc
+  - ref: refs/heads/gelic-rework
+    old: 551df78fa679c25ee738053e499b6322d03e5225
     new: 0afc258b41e98c7f98ed64636386f81959ba25b0
-    log: revlist-cef6a81cb3e8-0afc258b41e9.txt
+    log: revlist-551df78fa679-0afc258b41e9.txt
 
---===============9112232643262653713==
+--===============8071528994979871043==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cef6a81cb3e8-0afc258b41e9.txt
+Content-Disposition: attachment; filename=revlist-551df78fa679-0afc258b41e9.txt
 
 c28f3d80383571d3630df1a0e89500d23e855924 thunderbolt: Do not report errors if on-board retimers are found
 827e0920dbfb0d92416e56081d70745597403446 memory: omap-gpmc: fix wait pin validation
@@ -519,4 +519,4 @@ e79ad66270d44aff661ff7c3e8eecf6b2e2a5caa local: ps3_petitboot_nfs_defconfig: ip=
 9a3e6d5a1aab73736c96308f49832d900a696d92 ps3_defconfig: Cut down version
 0afc258b41e98c7f98ed64636386f81959ba25b0 gelic: sync to old
 
---===============9112232643262653713==--
+--===============8071528994979871043==--
