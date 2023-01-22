@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pinchartl/linux
-Date: Sun, 22 Jan 2023 14:55:11 -0000
-Message-Id: <167439931113.24513.15498174778837432627@gitolite.kernel.org>
+Date: Sun, 22 Jan 2023 14:55:12 -0000
+Message-Id: <167439931239.24573.16868650481760490288@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/pinchartl/linux
 user: pinchartl
 changes:
-  - ref: refs/heads/next/media/misc
-    old: d1c36bbb42d23742c1b17799749f637ed11ee98e
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/next/media/imx-pxp
+    old: d44c8749bd7301b899baf7a7a4f6c73c074521ff
+    new: 835473dc06eb8143a43ebcf39e46fb4a8efcf286
