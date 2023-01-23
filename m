@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2428848768128594680=="
+Content-Type: multipart/mixed; boundary="===============5163171685709326508=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Mon, 23 Jan 2023 09:49:07 -0000
-Message-Id: <167446734761.11654.9404019555554071583@gitolite.kernel.org>
+Date: Mon, 23 Jan 2023 09:49:09 -0000
+Message-Id: <167446734958.11718.17197979121897926320@gitolite.kernel.org>
 
---===============2428848768128594680==
+--===============5163171685709326508==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,72 +16,84 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.14.y
-    old: a6d71d85fd0f5c89a0e3aa52de437d22485dfa61
-    new: ed199ef623462bbda0fe583b59df41bed67f9567
-    log: revlist-a6d71d85fd0f-ed199ef62346.txt
+  - ref: refs/heads/linux-4.19.y
+    old: f9f90bbcdb210bd6d0535a24f15019a5ddccf11a
+    new: de8db55b044b27fa44af436416e08715dd59ae22
+    log: revlist-f9f90bbcdb21-de8db55b044b.txt
 
---===============2428848768128594680==
+--===============5163171685709326508==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1674467346 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1674467348 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1674467344-5171bbf8db6c0718851b2abc48ab62477061ed66
+nonce 1674467346-bf158a899c4eecd3eee091242a50464ed35e3d31
 
-a6d71d85fd0f5c89a0e3aa52de437d22485dfa61 ed199ef623462bbda0fe583b59df41bed67f9567 refs/heads/linux-4.14.y
+f9f90bbcdb210bd6d0535a24f15019a5ddccf11a de8db55b044b27fa44af436416e08715dd59ae22 refs/heads/linux-4.19.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPOWBIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+aYgP/0wkRwGJnsuHdGMN5D0S
-H18VIVFFsujY60XMzx+J9D5GwntVTGugG9zfQQ1jmtyVt3wIRTEZwgGop0fdhiv/
-+lWto/6U8wODMHZ+dDV8gZjK9bf52YpLO44gc/d1NgGBjggGtfjMfnlWdAyGQYYn
-r0TY1hyjvA8OyuYRsw+xNJssr2QyZ6/wHrTiEMAwxjQfc1++kpzB5xpYYaPUykYp
-2VYsaXA3FliY+BY9rBILhNabmem7tLhY21TmrzU/GIaTorEqKmz1EhHzhgUKplOD
-scTQkbJjSRj9WzcRDpj75XjR9zf7OTSOKb2LV/+/il+uBwCnAnmFmCD9jUUtE1us
-j03cPjlyxZH6CAM3jsFIhJSccJN9LmEtDdUJakrTizxqiqexMVaNCTeE7bxkdJKH
-Lbs3WtuYBc8UKw9p60zJ7ZjoYg3Bvzr43+5KI2e+LhNe0fsyGysMWG0msq6Es3cC
-mXhwwQI7QMBHklxqTijnFGSpO4B9Kh38PTRRRrLsl0VCAhL8gB26JkVTGAtf9t4d
-dzNGXuccvjloobn9TlPRYFI4xoOTxuPQLGoc/VtnFZe28fXsGw8lDzO3mIc+JpDH
-NoTXgYWhDeX7CnB8LDHSPhRAwnQfMlIHAVzCOyo33AcZVx01xl7grjei0K34Js7n
-XZgWmb1F0dr0LeUx5ooy+NIt
-=+ekI
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPOWBQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+tr8P/1Ky721jOjvcHCB/8UIU
+dPadOMYdr4Mq8INkWK2nIiXWNKc7ex6LSuwRkHCYBjMeCyOOMc4xBUBI/2IF3OQS
+hwwtWcoAhOXKiV1S6uh9waVwLNP/4kkzBPpdwHiFuypkj8E5LurQ9DldEvxuFVGE
+/+Z00FFq1gP0lP0rceF1Y6ugIb8+XEaFmujeLZhlE9AXTLnSwmvvaN9tse28LKA8
+KRZTpAckUvGqsI/3+7vzRQpA+ewwoWYpF6fvL2b9vmI+yaXu8VADfluQGLDeV+xE
+y1+IHK1fwAOZiWVmzb6i++g0Ksh3yzd6EHQBDNbfq9uMlLeB5oRPsnXK7vB31KpP
+GohGYaw+f/8gzLqE7Bi0mo2aWnpPkYgr2fdxa5eKmq5Xv8M7/9RN5nLx229Vh5tq
+npcL6UQLYlNSOM5xxlr7JYxHqdHtI6GgTVMjNgJNsHJiZVePvVQUWBXsEU2sl2hM
+MGFGPDsFnkob6Cb1XQzlTxdjUbHF0yo32lw51YdPRd8nv1BEOA4NpKGnihX1a4It
+0elf7CY49T+26WSchrOGlZw+vvrBUSWDH043IAHdOnwPq56euDPNuvgUWs2yYySP
+MX5eT7RDtgZGYyLmp2uJkdHc/APf9IwrgDngTEjp/Y0N3jer5KkLfyDXePC3ENO8
+N5e/LPN0rhIkA1QGRSqUP2HU
+=kx/2
 -----END PGP SIGNATURE-----
 
---===============2428848768128594680==
+--===============5163171685709326508==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a6d71d85fd0f-ed199ef62346.txt
+Content-Disposition: attachment; filename=revlist-f9f90bbcdb21-de8db55b044b.txt
 
-b6636f5cbe3405f1a7de45f3514cf199e43f335f pNFS/filelayout: Fix coalescing test for single DS
-ebc61e64e084ff989d68062c3c063fcdbd3c1676 net/ethtool/ioctl: return -EOPNOTSUPP if we have no phy stats
-0d5521f9486c08aad8480ed2f6f920f3d038b76f RDMA/srp: Move large values to a new enum for gcc13
-4d3e73474986778c3d20c54fd0dea310635b8cfa f2fs: let's avoid panic if extent_tree is not created
-ce116523aee584dfcc48ee473a4620d12acb0602 nilfs2: fix general protection fault in nilfs_btree_insert()
-c0f447da9792da98f3b39f0887340d68359c217d xhci-pci: set the dma max_seg_size
-e5c8b2bc997839f8c4c9a6786a4face9b2dd4910 usb: xhci: Check endpoint is valid before dereferencing it
-38ef2a455f19f910a28891ef9398b5d413a074cb prlimit: do_prlimit needs to have a speculation check
-863f5e6cc4109798324660a46a953b11103cb333 USB: serial: option: add Quectel EM05-G (GR) modem
-5648b9ce6093828197700e28bb4521f3950be740 USB: serial: option: add Quectel EM05-G (CS) modem
-34f8b079e55e1da5151a5500fa0c273b0dc11e8f USB: serial: option: add Quectel EM05-G (RS) modem
-053b924becf8f292cafb9d2058d1d3d1cecf22b3 USB: serial: option: add Quectel EC200U modem
-737d9ba7801176edaec7b37e4d4eaf23dad4f11d USB: serial: option: add Quectel EM05CN (SG) modem
-dd5deaa38306c059e9cbe58425d3dfa3300e6312 USB: serial: option: add Quectel EM05CN modem
-f67a0e2f3c44a36d2b7b27206fd54d4844529b78 USB: misc: iowarrior: fix up header size for USB_DEVICE_ID_CODEMERCS_IOW100
-4ad92639e6ba05b50ea2c43acfeb72d645c7b4ef usb: core: hub: disable autosuspend for TI TUSB8041
-583a1538b85477f79aafd5774212dc1f4ceaff63 USB: serial: cp210x: add SCALANCE LPE-9000 device id
-705b5c761610f0070c60a6f53272dc3449601a1b usb: host: ehci-fsl: Fix module alias
-6177b6635f7ee3955cc51ff2a014ed580924a3ae usb: gadget: g_webcam: Send color matching descriptor per frame
-91de15392353b3d5c3381592288781b4201117cf usb: gadget: f_ncm: fix potential NULL ptr deref in ncm_bitrate()
-302d9f17f652f7251cb458e132e0c631570b613e usb-storage: apply IGNORE_UAS only for HIKSEMI MD202 on RTL9210
-e7c70ad9963e03e256f615ef553e2adeac0f0c26 serial: pch_uart: Pass correct sg to dma_unmap_sg()
-ad8bcee6b394d308bd6a35f73eaf687b7d97849f serial: atmel: fix incorrect baudrate setup
-c82f75984de089669296a4b04a3355f07feff1cc gsmi: fix null-deref in gsmi_get_variable
-d8226b4f122fc0dc1985ac90d317bfbe08d4a91a x86/fpu: Use _Alignof to avoid undefined behavior in TYPE_ALIGN
-ed199ef623462bbda0fe583b59df41bed67f9567 Linux 4.14.304-rc1
+bd84380dc224be5bee1b4e685a6753c7f43c0faa pNFS/filelayout: Fix coalescing test for single DS
+e7e561c149afed634a6d8e2bde1152c6c32e5166 net/ethtool/ioctl: return -EOPNOTSUPP if we have no phy stats
+6e1cc6e3b920aa8f66b7196b7824b980e46e0784 RDMA/srp: Move large values to a new enum for gcc13
+a10e922da2e5e69a95848e7f858eb82434ae5399 f2fs: let's avoid panic if extent_tree is not created
+0ef11cf2c5063043aa9ab09348e6097089868741 Add exception protection processing for vd in axi_chan_handle_err function
+0795ad60f2e8dda239a3ad7ee2753c7526e683b5 nilfs2: fix general protection fault in nilfs_btree_insert()
+3f7eb297873e8d2dba68f1f50a25f5958cc2ea7c xhci-pci: set the dma max_seg_size
+38fce8e31348bbb34bc983e304a1d1bcc437d509 usb: xhci: Check endpoint is valid before dereferencing it
+7f15f987330ad56bd6164d4539cde2d2ccdca71f xhci: Fix null pointer dereference when host dies
+efe476fd8eae587d1433108d3f8fd5d0c3d1a1a3 xhci: Add a flag to disable USB3 lpm on a xhci root port level.
+28ae8f41ab57ff1dc710a444485747ef24a4e290 prlimit: do_prlimit needs to have a speculation check
+d7e4bd3f61fc72c7f002a2af950ab21d9413c2c3 USB: serial: option: add Quectel EM05-G (GR) modem
+61a2a4df2e9d7db82dc8f1aa6d270ecb18219ecf USB: serial: option: add Quectel EM05-G (CS) modem
+7a06162960beae819bb8c77eb93f4021dc066a1d USB: serial: option: add Quectel EM05-G (RS) modem
+6f747a4f9193ef8e1c03b5840023006f78d59d54 USB: serial: option: add Quectel EC200U modem
+7a3814b1e43bb4e8f86e97506b57679f1938afdc USB: serial: option: add Quectel EM05CN (SG) modem
+4b0222718493341d85a103325844efcf731a8396 USB: serial: option: add Quectel EM05CN modem
+15ea18747bb371b818cf23e2c45296848439bcf9 USB: misc: iowarrior: fix up header size for USB_DEVICE_ID_CODEMERCS_IOW100
+afc71ba6e3a703a893fd367e49fc4c30649ac661 usb: core: hub: disable autosuspend for TI TUSB8041
+9a691a44c066a97016ac377c80f7530571194da8 comedi: adv_pci1760: Fix PWM instruction handling
+a57be1e38b663d296091484e894240eb8973bd2f mmc: sunxi-mmc: Fix clock refcount imbalance during unbind
+381268b5e4b8dfd72b9c3d166d1963e4c3c1298b cifs: do not include page data when checking signature
+d63ad207db206b350e0a3978377199406eec7b00 USB: serial: cp210x: add SCALANCE LPE-9000 device id
+477e780018bf7c76e81707c0720e480615e42568 usb: host: ehci-fsl: Fix module alias
+bc1740a1e7ea1ed18e204dc0ed60ae1a8871a112 usb: typec: altmodes/displayport: Add pin assignment helper
+3a6eec71d4f9b0b034107ab9e77dfd8ba9628298 usb: typec: altmodes/displayport: Fix pin assignment calculation
+c0f80be5e5ed927854612f1bdd77edbce691041b usb: gadget: g_webcam: Send color matching descriptor per frame
+c9ac620d7ef54862c09fb5a668eefc9633d69b28 usb: gadget: f_ncm: fix potential NULL ptr deref in ncm_bitrate()
+bfadc78aec8ba64b47c3d94f705f8d25110110ff usb-storage: apply IGNORE_UAS only for HIKSEMI MD202 on RTL9210
+ca2a4777480bd1acf6eeab35525fb85d0fa10502 serial: pch_uart: Pass correct sg to dma_unmap_sg()
+a1d20c2c7825451044c2fd65015bddd05b9a27ae serial: atmel: fix incorrect baudrate setup
+71ca7598f221e994c3e3181e1b5ee8105104ba43 gsmi: fix null-deref in gsmi_get_variable
+a6ac32da01ed0eefac72f985b1e7784376e8792a Revert "ext4: fix delayed allocation bug in ext4_clu_mapped for bigalloc + inline"
+efd4952abfe132308b28c4a4fee7b80d877004a5 Revert "ext4: fix reserved cluster accounting at delayed write time"
+ea94b17d23f33094be6c61986bcfbec6e46907df Revert "ext4: add new pending reservation mechanism"
+c739d45315bb9e9407c218fdd1b40f066898e17a Revert "ext4: generalize extents status tree search functions"
+402b8359ebaa377d1a1ac427fdcca8ac91644bc9 x86/fpu: Use _Alignof to avoid undefined behavior in TYPE_ALIGN
+de8db55b044b27fa44af436416e08715dd59ae22 Linux 4.19.271-rc1
 
---===============2428848768128594680==--
+--===============5163171685709326508==--
