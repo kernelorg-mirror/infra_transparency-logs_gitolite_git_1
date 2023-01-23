@@ -1,43 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============0040619605478067812=="
+Content-Type: multipart/mixed; boundary="===============8407559112379875116=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
-Date: Mon, 23 Jan 2023 22:54:46 -0000
-Message-Id: <167451448655.16789.5282097966863342675@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless-testing
+Date: Mon, 23 Jan 2023 23:00:53 -0000
+Message-Id: <167451485346.21769.13851629455678594582@gitolite.kernel.org>
 
---===============0040619605478067812==
+--===============8407559112379875116==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ardb/linux
-user: ardb
+repo: pub/scm/linux/kernel/git/wireless/wireless-testing
+user: bcopeland
 changes:
-  - ref: refs/heads/for-kernelci
-    old: 82eb1545652b4fe7ad133f7434024a7d686417fe
-    new: 8b30ec8d5eb17bf60bbd0fa8c45d03ad0b9d8a15
-    log: revlist-82eb1545652b-8b30ec8d5eb1.txt
+  - ref: refs/heads/master
+    old: 0f89f4a0bf71ee2f68699fdd66a21f605fcc6131
+    new: c2af1702d15e8034307afa49bfec1443c8a49a7d
+    log: revlist-0f89f4a0bf71-c2af1702d15e.txt
 
---===============0040619605478067812==
+--===============8407559112379875116==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-82eb1545652b-8b30ec8d5eb1.txt
+Content-Disposition: attachment; filename=revlist-0f89f4a0bf71-c2af1702d15e.txt
 
-b7a1cd243839cc1459fbc83a7a62e3b57f29f497 efi/earlycon: Replace open coded strnchrnul()
-2a5b4ccf0de17e47e9ad13ee0fda9436d5de0a35 efi/earlycon: Speed up scrolling by disregarding empty space
-ade7fd908d710d0ab865c273df782c75528636ef efi: efivars: drop kobject from efivars_register()
-2cf9e278efeff8f8bbb9580e2d6760e19795e310 efi: efivars: make efivar_supports_writes() return bool
-ab03e91e60ce457a90e6aa2c97ca2fa139b73f55 efi: memmap: Disregard bogus entries instead of returning them
-aca1d27ac38a61d7db4b56418386992cb96b63f0 efi: xen: Implement memory descriptor lookup based on hypercall
-c0fecaa44dc341d86e4ce96efcda9ea8b4c106af efi: Apply allowlist to EFI configuration tables when running under Xen
-01de145dc7fbb5e6aba98655c062908a74fa511c efi: Actually enable the ESRT under Xen
-fa7bee867db1913560435a7486d17d95500a62dc efi: Warn if trying to reserve memory under Xen
-beeb107c5b354f4eaea17a9bca6ca8762f60effc efi: efivars: add efivars printk prefix
-c3fd71b428b8fa709b09f2c7763d72788b86ff0b efivarfs: always register filesystem
-ed32817e92d2d1ffce6be8f46dcdf585c8ad7280 efi: verify that variable services are supported
-8b30ec8d5eb17bf60bbd0fa8c45d03ad0b9d8a15 efi: efivars: prevent double registration
+40e0b09081420853542571c38875b48b60404ebb net/sock: Introduce trace_sk_data_ready()
+2b30f8291a30305eeedcd787b4d0e352410f7268 net: ethtool: add support for MAC Merge layer
+3700000479f000c1254a53182b4b2c5b184ff171 docs: ethtool-netlink: document interface for MAC Merge layer
+04692c9020b76939715d6f2b4ff84d832246e0fc net: ethtool: netlink: retrieve stats from multiple sources (eMAC, pMAC)
+c319df10a4c854bb2e1085c01e7a9f1dadd810a2 docs: ethtool: document ETHTOOL_A_STATS_SRC and ETHTOOL_A_PAUSE_STATS_SRC
+449c5459641ad72a504884abb9fb9b19ee31397b net: ethtool: add helpers for aggregate statistics
+dd1c41645039d3820a7dde40e11f601c56240c40 net: ethtool: add helpers for MM fragment size translation
+5f6c2d498ad97cf9f85b81c0fbb205abbcdfe3f8 net: dsa: add plumbing for changing and getting MAC merge layer state
+1a733bbddfad466e2561acc8d86b9e5df2985c95 net: mscc: ocelot: allow ocelot_stat_layout elements with no name
+497eea9f8ed5987ade08e23725fdb0f25cd2ffcd net: mscc: ocelot: hide access to ocelot_stats_layout behind a helper
+ab3f97a9610a8d90dc9934517e82c3272d4e98a0 net: mscc: ocelot: export ethtool MAC Merge stats for Felix VSC9959
+6505b68056558357dc979d11921ed45cfd68ed69 net: mscc: ocelot: add MAC Merge layer support for VSC9959
+f3c6e128936e11e62d0af3c52f756194d79cf2e2 Merge branch 'ethtool-mac-merge'
+e3972399bb57f3c0172f69010bc7613b13f513a4 net: enetc: build common object files into a separate module
+94557a9a73b4fa01c77a1a7409e9376e55d7bb99 net: enetc: detect frame preemption hardware capability
+9c949e0b2f9ce2556287a82b5a95730e5cd370b5 net: enetc: add definition for offset between eMAC and pMAC regs
+219355f1b093526fc980a202e4d48e8469c9a29c net: enetc: stop configuring pMAC in lockstep with eMAC
+12717decb570ea457b2baa5ad36758c0c967c306 net: enetc: implement software lockstep for port MAC registers
+086cc0803550c49c4a802707e40c1878f7c9a469 net: enetc: stop auto-configuring the port pMAC
+7a98143118799411cc09e3dfc0b2a6f12628f7db Merge branch 'enetc-mac-merge-prep'
+dc0b98a1758f0d2296349ca23ac88804b922e88d ethtool: Add and use ethnl_update_bool.
+d408ec0b5d9acc2d2f276946adf167095eb59740 net: mdiobus: Convert to use fwnode_device_is_compatible()
+32e54254bab86529f6adcfd7fec6fae29a6ed4ff net: mdio: mux-meson-g12a: use devm_clk_get_enabled to simplify the code
+7f5fd4807567d768e0ae8f8d3a53e74593ce73e0 Merge remote-tracking branch 'net-next/master'
+148812752a841c1a889a1281f07b0ff155722ba2 Merge remote-tracking branch 'wireless-next/main'
+c2af1702d15e8034307afa49bfec1443c8a49a7d Add localversion to identify builds from this tree
 
---===============0040619605478067812==--
+--===============8407559112379875116==--
