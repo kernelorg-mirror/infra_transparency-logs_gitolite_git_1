@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Mon, 23 Jan 2023 12:57:01 -0000
-Message-Id: <167447862156.8134.5881986393742941117@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/libgpiod/libgpiod
+Date: Mon, 23 Jan 2023 13:02:19 -0000
+Message-Id: <167447893988.11432.17045895627712794401@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/brgl/linux
+repo: pub/scm/libs/libgpiod/libgpiod
 user: brgl
 changes:
-  - ref: refs/heads/gpio/for-next
-    old: e464c96eae336dd2f81a1926c30523f061469f64
-    new: dfb8d4212510bb0c602285d55269e45bbc9a27ac
+  - ref: refs/heads/master
+    old: 5d7f8bec974c2b98803512d0e33c582046cbefac
+    new: f04e058f1f1bda1f66139ce1583713e4dc6b2d28
     log: |
-         dfb8d4212510bb0c602285d55269e45bbc9a27ac gpio: zevio: Add missing header
+         f04e058f1f1bda1f66139ce1583713e4dc6b2d28 README: update for libgpiod v2
          
