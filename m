@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/abelloni/linux
-Date: Mon, 23 Jan 2023 23:40:17 -0000
-Message-Id: <167451721715.15476.11641578986197815102@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pinchartl/linux
+Date: Mon, 23 Jan 2023 23:54:28 -0000
+Message-Id: <167451806887.24204.2177277000237558980@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/abelloni/linux
-user: abelloni
+repo: pub/scm/linux/kernel/git/pinchartl/linux
+user: pinchartl
 changes:
-  - ref: refs/heads/rtc-next
-    old: 473a8ce756fdbd6e9fc0ffbf3ceb88394058763e
-    new: c690048ed59b5f7df91899507f210ba6591c0d8f
+  - ref: refs/heads/drm/compile-test
+    old: ac2ff1e9fb5162127c092c1f7dc86b4eb7537b09
+    new: 316f541f6872b3dd6eb7d7bf216656c76f74cc2a
     log: |
-         c690048ed59b5f7df91899507f210ba6591c0d8f dt-bindings: rtc: Move rv3028 from trivial-rtc.yaml into own schema file
+         f9997209c78f55098976360359082ef08d3b7732 drm/tegra: Include linux/vmalloc.h
+         9b19cb2f48e8cb6be9816d97727314b40b8218f2 drm/tegra: Enable COMPILE_TEST on all architectures
+         316f541f6872b3dd6eb7d7bf216656c76f74cc2a drm/tilcdc: Enable COMPILE_TEST on all ARM64 platforms
          
