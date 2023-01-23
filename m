@@ -1,53 +1,40 @@
-Content-Type: multipart/mixed; boundary="===============6894946091383452876=="
+Content-Type: multipart/mixed; boundary="===============2649216960716786720=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Mon, 23 Jan 2023 13:53:13 -0000
-Message-Id: <167448199312.12776.5509284187247508082@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Mon, 23 Jan 2023 13:58:15 -0000
+Message-Id: <167448229553.15815.7229345829142296172@gitolite.kernel.org>
 
---===============6894946091383452876==
+--===============2649216960716786720==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/staging
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: hansg
 changes:
-  - ref: refs/tags/staging-6.2-rc5
-    old: 19041b55aa7a1877f11a928b85118a1499763075
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/review-hans
+    old: c6a41c14a9691ff356b7d3e0d8da3f9afd4b72cc
+    new: 9f8615416a7e30dcc583f7ff1249282784d1a143
+    log: revlist-c6a41c14a969-9f8615416a7e.txt
 
---===============6894946091383452876==
+--===============2649216960716786720==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-c6a41c14a969-9f8615416a7e.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1674481992 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1674481992-a54300f03af6cf42f67ff5c1a82b9df7938fd8aa
+ad1b61cca1a2b6cea2d46393aa8544f186db52f4 platform/x86: dell-wmi: Add a keymap for KEY_MUTE in type 0x0010 table
+b7fad163ea8bff45c7d956e3a0b171d047ee3c4e platform/x86: hp-wmi: Handle Omen Key event
+28fd8aa53eab32fe0a2c9c15048bdf8f666edd6a platform/x86: gigabyte-wmi: add support for B450M DS3H WIFI-CF
+60654a99535159d058ccddccc9dd74d7b0c165d6 platform/x86: asus-wmi: Fix kbd_dock_devid tablet-switch reporting
+cc74c573b183187b9affdbbac39d42a88d64df21 platform/x86/amd: pmc: Disable IRQ1 wakeup for RN/CZN
+9314c6616d2b3c73f0a6974713bb5851be5a93af platform/x86/amd: pmc: Add a module parameter to disable workarounds
+59751dbfe4b8058ce13ee3138dfe77626087d57c platform/x86: hp-wmi: Fix cast to smaller integer type warning
+bb4a31d53b4b6520367eda2fcf6060c8087ca215 platform/x86: acerhdf: Drop empty platform remove function
+9e8ce291fc23438af2f483149bf0403fe5035bba platform/x86: intel: oaktrail: Drop empty platform remove function
+9f8615416a7e30dcc583f7ff1249282784d1a143 platform/x86: intel: punit_ipc: Drop empty platform remove function
 
-19041b55aa7a1877f11a928b85118a1499763075 0000000000000000000000000000000000000000 refs/tags/staging-6.2-rc5
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPOkUgbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk++UYP/AjxVmCOJGH/wgslitYH
-0k9qdSa1mNBzDndryTQjrOJe9zWW+wNPWedPCv/a43d89EuM/huJ0wMcPvAV3Fzg
-DZviQ6hiOKz1juxc7Ln7RSsdY7d7hnlzRZfIz3eq2oauKlE/RPHqxQ9Xs+coPwGK
-3hYy4SIxyEYd4VOKiPCiKGtDVKrYjsMX+kbYp/oaXNGWRgySc9FT5XoFtliA3+7p
-zXUXM5M/1kX+02epw2pV8AIWiYImXSvZQ9LahKAEGTBETFJkF6kZEsZoh4SEBabF
-LrCKLdsR360Zu3fYGKNy1fg6vuRwVL51a0C2MzFL9vb12nkPx6GiNQNUyt3vasI1
-gWqnf8HiGRSGVuGH1Sq7pz3eOzc+5TirQBAQoA/2J5MMvilzYgjiwS9sEWNbC+4r
-keum692YfsyqswF5OeQypVeL6wRGZVF3P9424lncm0Ei+OKXc5yoFHhecxI4Yf/d
-M5NyN4vJimDwsgMAHwPdwqHcEtPKu8FLoBgD2X0WcUQ+quW6CMZN9SLYSx/LiW7A
-41DVfhM4HFuJ3NoMbA85Tc/ogxb56tCmmcRZwcaUboVteZlUjp8F7ocOtRrU5DRE
-JOgaVRAcplafkhYWbtSXFW6V5LCIQB6+kvu2vmD7o8V9Xf0/8fZx6FtU0yN96kS8
-KjYfM7jmVkrxe+fcHcWt414N
-=7IGm
------END PGP SIGNATURE-----
-
---===============6894946091383452876==--
+--===============2649216960716786720==--
