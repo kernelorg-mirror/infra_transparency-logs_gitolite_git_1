@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============6558108434284858782=="
+Content-Type: multipart/mixed; boundary="===============0798937508830127895=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux
-Date: Mon, 23 Jan 2023 20:31:18 -0000
-Message-Id: <167450587898.19832.7161754255108835507@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
+Date: Mon, 23 Jan 2023 20:31:28 -0000
+Message-Id: <167450588846.19940.14497854450687522477@gitolite.kernel.org>
 
---===============6558108434284858782==
+--===============0798937508830127895==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux
+repo: pub/scm/linux/kernel/git/amlogic/linux
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -23,7 +23,7 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: 4cc398054ac8efe0ff832c82c7caacbdd992312a
 
---===============6558108434284858782==
+--===============0798937508830127895==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -479,4 +479,4 @@ ab2f408731cc7e03ef2e5dc7dada649220e4dcd2 Merge tag 'edac_urgent_for_v6.2_rc6' of
 9946f0981ff8698848ee79d739f432a2a3e68eed Merge tag 'efi-fixes-for-v6.2-2' of git://git.kernel.org/pub/scm/linux/kernel/git/efi/efi
 7bf70dbb18820b37406fdfa2aaf14c2f5c71a11a Merge tag 'vfio-v6.2-rc6' of https://github.com/awilliam/linux-vfio
 
---===============6558108434284858782==--
+--===============0798937508830127895==--
