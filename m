@@ -1,25 +1,42 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Mon, 23 Jan 2023 13:58:53 -0000
-Message-Id: <167448233392.16097.285822414240562336@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============3610830653085182739=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kas/linux
+Date: Mon, 23 Jan 2023 14:00:31 -0000
+Message-Id: <167448243104.18222.1168364979199946502@gitolite.kernel.org>
+
+--===============3610830653085182739==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: hansg
+repo: pub/scm/linux/kernel/git/kas/linux
+user: kas
 changes:
-  - ref: refs/heads/fixes
-    old: fde5f74ccfc771941b018b5415fa9664426e10ad
-    new: 59751dbfe4b8058ce13ee3138dfe77626087d57c
-    log: |
-         ad1b61cca1a2b6cea2d46393aa8544f186db52f4 platform/x86: dell-wmi: Add a keymap for KEY_MUTE in type 0x0010 table
-         b7fad163ea8bff45c7d956e3a0b171d047ee3c4e platform/x86: hp-wmi: Handle Omen Key event
-         28fd8aa53eab32fe0a2c9c15048bdf8f666edd6a platform/x86: gigabyte-wmi: add support for B450M DS3H WIFI-CF
-         60654a99535159d058ccddccc9dd74d7b0c165d6 platform/x86: asus-wmi: Fix kbd_dock_devid tablet-switch reporting
-         cc74c573b183187b9affdbbac39d42a88d64df21 platform/x86/amd: pmc: Disable IRQ1 wakeup for RN/CZN
-         9314c6616d2b3c73f0a6974713bb5851be5a93af platform/x86/amd: pmc: Add a module parameter to disable workarounds
-         59751dbfe4b8058ce13ee3138dfe77626087d57c platform/x86: hp-wmi: Fix cast to smaller integer type warning
-         
+  - ref: refs/heads/lam
+    old: e1bb0effe87d7fd260a8ea1db2486f3bce91a4f8
+    new: e0812d887ef26fe73f2e432ad6274cc6da3b7bab
+    log: revlist-e1bb0effe87d-e0812d887ef2.txt
+
+--===============3610830653085182739==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-e1bb0effe87d-e0812d887ef2.txt
+
+5733a4cf961ecdfff2bfd7846906172576dbf4c7 x86/uaccess: Provide untagged_addr() and remove tags before address check
+82b7ac8d80ae6196c77153528db80137238143cb x86/mm: Provide arch_prctl() interface for LAM
+5e399a2b059bca236a2f744f52eb24a76c38efac x86/mm: Reduce untagged_addr() overhead for systems without LAM
+4c774f31d212407db1f2f492c0fe0ed01198878d mm: Expose untagging mask in /proc/$PID/status
+44dee0981a13b5da596ba5666186ce2a076a6347 iommu/sva: Replace pasid_valid() helper with mm_valid_pasid()
+9631581ec256999799cfa85fdd33156c2c793017 x86/mm/iommu/sva: Make LAM and SVA mutually exclusive
+29904a04f56349b1a7ee0f92eabf54d29381b41e selftests/x86/lam: Add malloc and tag-bits test cases for linear-address masking
+b072247d8ffcb8a6f0f0db9298e7a226e9100b9a selftests/x86/lam: Add mmap and SYSCALL test cases for linear-address masking
+c1e4b7223c3bade692a6116ac46adb15c70d0a71 selftests/x86/lam: Add io_uring test cases for linear-address masking
+b361ad68fc362f311cac8e137b238cdfcecfb702 selftests/x86/lam: Add inherit test cases for linear-address masking
+df56cb9cba9c765327a54f921cda56424ebc9c28 selftests/x86/lam: Add ARCH_FORCE_TAGGED_SVA test cases for linear-address masking
+e0812d887ef26fe73f2e432ad6274cc6da3b7bab selftests/x86/lam: Add test cases for LAM vs thread creation
+
+--===============3610830653085182739==--
