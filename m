@@ -1,56 +1,53 @@
-Content-Type: multipart/mixed; boundary="===============3189969687639312098=="
+Content-Type: multipart/mixed; boundary="===============6894946091383452876=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Mon, 23 Jan 2023 13:51:21 -0000
-Message-Id: <167448188172.12160.1863117385494650524@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
+Date: Mon, 23 Jan 2023 13:53:13 -0000
+Message-Id: <167448199312.12776.5509284187247508082@gitolite.kernel.org>
 
---===============3189969687639312098==
+--===============6894946091383452876==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/driver-core
+repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-testing
-    old: f89fd04323f755e7437a0113d986812c3fffe03d
-    new: 0b2a1a3938aad80fb19cb53cbbd4679eeb37e3a8
-    log: |
-         0b2a1a3938aad80fb19cb53cbbd4679eeb37e3a8 driver core: class: Clear private pointer on registration failures
-         
+  - ref: refs/tags/staging-6.2-rc5
+    old: 19041b55aa7a1877f11a928b85118a1499763075
+    new: 0000000000000000000000000000000000000000
 
---===============3189969687639312098==
+--===============6894946091383452876==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1674481880 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1674481879-7f796801bc88a4b5e69727c29e77b901b4c143ee
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1674481992 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
+nonce 1674481992-a54300f03af6cf42f67ff5c1a82b9df7938fd8aa
 
-f89fd04323f755e7437a0113d986812c3fffe03d 0b2a1a3938aad80fb19cb53cbbd4679eeb37e3a8 refs/heads/driver-core-testing
+19041b55aa7a1877f11a928b85118a1499763075 0000000000000000000000000000000000000000 refs/tags/staging-6.2-rc5
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPOkNgbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+kWUQAL8b8dCtJ8Z/fJzdpZMa
-RP4aX6lcyJz1z4jt7Ec7CctGX90sCqmxzOyOUrMVSlE+acIFfJnLUXgVGWM7qL9A
-uF2KH6Gb5kf1PKDcGDelXQFPZyAltZn7mfemssHcz11kFwqRpbS3eYuGvWCSyGdo
-CICrOIVKJWWXxiFUqSU35I/8K8Z8TGfuQp4tu+e68oFoIjyUIo0MNdX1v5SqYqmr
-iHx+NfZZ7PON68/s7xxmcTsjwAyR1nlNx6kHrVsxAj3t9ccAT1pmh4b63JcKR6XS
-wJyAyrCZ+Xr1sF0Y+nuJ/Z/JE55UpEzfP0HfAtzsT2PJsScSPUkgKzbe7lZthOVk
-tdCatLVVslGox3djLmPoRirYEQefiAasjj4L4IDjJSMwTxgIfh1X+WBxTBbD3Xwi
-RNyLHtogzD8rVimcJWbmK7MtcWQ8t2Qj/s5VGkkmzpWdxRcxW/gm24+W12kmlln6
-0WiVgz6QI8mmvWikJ3TDOkYX1e5Q/8JioILLaDl8EfmhsuodjWt0jn2DCeOtiW6q
-NDfb6UFXpKAs1QmWleUjfpsV6Va+BVY6KjPhxVDM7ZsFIzcH/xk/td+4iWEpXIEU
-HjpvMFXJGZp7RQpOSP3tHlwR+I3CquinVhc7jcxssoxjBAnCE2rRwtuBhuALubLg
-Uj/knBmCnt0YYItnKXDhtbQx
-=ho8v
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPOkUgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk++UYP/AjxVmCOJGH/wgslitYH
+0k9qdSa1mNBzDndryTQjrOJe9zWW+wNPWedPCv/a43d89EuM/huJ0wMcPvAV3Fzg
+DZviQ6hiOKz1juxc7Ln7RSsdY7d7hnlzRZfIz3eq2oauKlE/RPHqxQ9Xs+coPwGK
+3hYy4SIxyEYd4VOKiPCiKGtDVKrYjsMX+kbYp/oaXNGWRgySc9FT5XoFtliA3+7p
+zXUXM5M/1kX+02epw2pV8AIWiYImXSvZQ9LahKAEGTBETFJkF6kZEsZoh4SEBabF
+LrCKLdsR360Zu3fYGKNy1fg6vuRwVL51a0C2MzFL9vb12nkPx6GiNQNUyt3vasI1
+gWqnf8HiGRSGVuGH1Sq7pz3eOzc+5TirQBAQoA/2J5MMvilzYgjiwS9sEWNbC+4r
+keum692YfsyqswF5OeQypVeL6wRGZVF3P9424lncm0Ei+OKXc5yoFHhecxI4Yf/d
+M5NyN4vJimDwsgMAHwPdwqHcEtPKu8FLoBgD2X0WcUQ+quW6CMZN9SLYSx/LiW7A
+41DVfhM4HFuJ3NoMbA85Tc/ogxb56tCmmcRZwcaUboVteZlUjp8F7ocOtRrU5DRE
+JOgaVRAcplafkhYWbtSXFW6V5LCIQB6+kvu2vmD7o8V9Xf0/8fZx6FtU0yN96kS8
+KjYfM7jmVkrxe+fcHcWt414N
+=7IGm
 -----END PGP SIGNATURE-----
 
---===============3189969687639312098==--
+--===============6894946091383452876==--
