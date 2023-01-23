@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5163171685709326508=="
+Content-Type: multipart/mixed; boundary="===============0655493682684483639=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Mon, 23 Jan 2023 09:49:09 -0000
-Message-Id: <167446734958.11718.17197979121897926320@gitolite.kernel.org>
+Date: Mon, 23 Jan 2023 09:49:13 -0000
+Message-Id: <167446735314.11818.16290192422424159538@gitolite.kernel.org>
 
---===============5163171685709326508==
+--===============0655493682684483639==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,84 +16,98 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.19.y
-    old: f9f90bbcdb210bd6d0535a24f15019a5ddccf11a
-    new: de8db55b044b27fa44af436416e08715dd59ae22
-    log: revlist-f9f90bbcdb21-de8db55b044b.txt
+  - ref: refs/heads/linux-5.4.y
+    old: 79cbaf4448f3092cb32b0236a68a80a33a4b8244
+    new: c4ab8d7671d5c73e2b9882577257409b6364ba7a
+    log: revlist-79cbaf4448f3-c4ab8d7671d5.txt
 
---===============5163171685709326508==
+--===============0655493682684483639==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1674467348 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1674467351 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1674467346-bf158a899c4eecd3eee091242a50464ed35e3d31
+nonce 1674467350-7abedc6180334fc35b64b4fb021d99eb900700c8
 
-f9f90bbcdb210bd6d0535a24f15019a5ddccf11a de8db55b044b27fa44af436416e08715dd59ae22 refs/heads/linux-4.19.y
+79cbaf4448f3092cb32b0236a68a80a33a4b8244 c4ab8d7671d5c73e2b9882577257409b6364ba7a refs/heads/linux-5.4.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPOWBQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+tr8P/1Ky721jOjvcHCB/8UIU
-dPadOMYdr4Mq8INkWK2nIiXWNKc7ex6LSuwRkHCYBjMeCyOOMc4xBUBI/2IF3OQS
-hwwtWcoAhOXKiV1S6uh9waVwLNP/4kkzBPpdwHiFuypkj8E5LurQ9DldEvxuFVGE
-/+Z00FFq1gP0lP0rceF1Y6ugIb8+XEaFmujeLZhlE9AXTLnSwmvvaN9tse28LKA8
-KRZTpAckUvGqsI/3+7vzRQpA+ewwoWYpF6fvL2b9vmI+yaXu8VADfluQGLDeV+xE
-y1+IHK1fwAOZiWVmzb6i++g0Ksh3yzd6EHQBDNbfq9uMlLeB5oRPsnXK7vB31KpP
-GohGYaw+f/8gzLqE7Bi0mo2aWnpPkYgr2fdxa5eKmq5Xv8M7/9RN5nLx229Vh5tq
-npcL6UQLYlNSOM5xxlr7JYxHqdHtI6GgTVMjNgJNsHJiZVePvVQUWBXsEU2sl2hM
-MGFGPDsFnkob6Cb1XQzlTxdjUbHF0yo32lw51YdPRd8nv1BEOA4NpKGnihX1a4It
-0elf7CY49T+26WSchrOGlZw+vvrBUSWDH043IAHdOnwPq56euDPNuvgUWs2yYySP
-MX5eT7RDtgZGYyLmp2uJkdHc/APf9IwrgDngTEjp/Y0N3jer5KkLfyDXePC3ENO8
-N5e/LPN0rhIkA1QGRSqUP2HU
-=kx/2
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPOWBcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+QjYP/iMKedOC/0xt56ZF9fQS
+u4MQKC2pdexwCzJ0L8VLrv0ThlrEPQJF6+XAyiw8XpzAKwP5KbbcjjSH+lRdKwoc
+0yTCE8Zd4cga+zoVbGvgUck4xjKzyqx4rdH2DlGrQE9Nt9aHpnfSihH66r6hMbaA
+A39Dxl3RS/cfgpzbTv9qD5DSCm97kG52HygRaE9ewxENW35nWp2msmmiKCkmK0Or
+9RiKeYSL5uyddVUHanKljO5TPi4gyQa6jsao4k73O7b7l1406/EH0wyfSZK2iOG0
+Os/TbtvA+y7179LFguCEIn+vSsEUO19Tv44Qu4kII9z/iTfu1Kn7WxdtzO+XOdsV
+d+PZOaW32BURvds5U9V+KbAR4bb6PEUygcAbzRrfyDLQA9GjcUA71xdm1q+65pnC
+2ep3BHIaKUgKZ92nzM4icMxjwj3zq+B1Z9y6GF1XexrS3eqX5LuBtISomZCdInyw
+h4boz63Nkn1D+bXZNckLllqz0H/P+HPxP4xVDKooNzJcSc1j9TDROA0Un07VEVgB
+LN3OSit3Ug3s5iYuoegTOglI0EE+8xbUppkJb5FEi1dlOj6M0xoZ+Rcru6GYD8GN
+chwS8UkxOFwWGIlg3e1d9MlqMQQXf2z0CTAvb/B0QVZgSuwxzavFAr+KI0BW4UHN
+TEF0nATNFPOR5q2EHwG0wsV9
+=UOAT
 -----END PGP SIGNATURE-----
 
---===============5163171685709326508==
+--===============0655493682684483639==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f9f90bbcdb21-de8db55b044b.txt
+Content-Disposition: attachment; filename=revlist-79cbaf4448f3-c4ab8d7671d5.txt
 
-bd84380dc224be5bee1b4e685a6753c7f43c0faa pNFS/filelayout: Fix coalescing test for single DS
-e7e561c149afed634a6d8e2bde1152c6c32e5166 net/ethtool/ioctl: return -EOPNOTSUPP if we have no phy stats
-6e1cc6e3b920aa8f66b7196b7824b980e46e0784 RDMA/srp: Move large values to a new enum for gcc13
-a10e922da2e5e69a95848e7f858eb82434ae5399 f2fs: let's avoid panic if extent_tree is not created
-0ef11cf2c5063043aa9ab09348e6097089868741 Add exception protection processing for vd in axi_chan_handle_err function
-0795ad60f2e8dda239a3ad7ee2753c7526e683b5 nilfs2: fix general protection fault in nilfs_btree_insert()
-3f7eb297873e8d2dba68f1f50a25f5958cc2ea7c xhci-pci: set the dma max_seg_size
-38fce8e31348bbb34bc983e304a1d1bcc437d509 usb: xhci: Check endpoint is valid before dereferencing it
-7f15f987330ad56bd6164d4539cde2d2ccdca71f xhci: Fix null pointer dereference when host dies
-efe476fd8eae587d1433108d3f8fd5d0c3d1a1a3 xhci: Add a flag to disable USB3 lpm on a xhci root port level.
-28ae8f41ab57ff1dc710a444485747ef24a4e290 prlimit: do_prlimit needs to have a speculation check
-d7e4bd3f61fc72c7f002a2af950ab21d9413c2c3 USB: serial: option: add Quectel EM05-G (GR) modem
-61a2a4df2e9d7db82dc8f1aa6d270ecb18219ecf USB: serial: option: add Quectel EM05-G (CS) modem
-7a06162960beae819bb8c77eb93f4021dc066a1d USB: serial: option: add Quectel EM05-G (RS) modem
-6f747a4f9193ef8e1c03b5840023006f78d59d54 USB: serial: option: add Quectel EC200U modem
-7a3814b1e43bb4e8f86e97506b57679f1938afdc USB: serial: option: add Quectel EM05CN (SG) modem
-4b0222718493341d85a103325844efcf731a8396 USB: serial: option: add Quectel EM05CN modem
-15ea18747bb371b818cf23e2c45296848439bcf9 USB: misc: iowarrior: fix up header size for USB_DEVICE_ID_CODEMERCS_IOW100
-afc71ba6e3a703a893fd367e49fc4c30649ac661 usb: core: hub: disable autosuspend for TI TUSB8041
-9a691a44c066a97016ac377c80f7530571194da8 comedi: adv_pci1760: Fix PWM instruction handling
-a57be1e38b663d296091484e894240eb8973bd2f mmc: sunxi-mmc: Fix clock refcount imbalance during unbind
-381268b5e4b8dfd72b9c3d166d1963e4c3c1298b cifs: do not include page data when checking signature
-d63ad207db206b350e0a3978377199406eec7b00 USB: serial: cp210x: add SCALANCE LPE-9000 device id
-477e780018bf7c76e81707c0720e480615e42568 usb: host: ehci-fsl: Fix module alias
-bc1740a1e7ea1ed18e204dc0ed60ae1a8871a112 usb: typec: altmodes/displayport: Add pin assignment helper
-3a6eec71d4f9b0b034107ab9e77dfd8ba9628298 usb: typec: altmodes/displayport: Fix pin assignment calculation
-c0f80be5e5ed927854612f1bdd77edbce691041b usb: gadget: g_webcam: Send color matching descriptor per frame
-c9ac620d7ef54862c09fb5a668eefc9633d69b28 usb: gadget: f_ncm: fix potential NULL ptr deref in ncm_bitrate()
-bfadc78aec8ba64b47c3d94f705f8d25110110ff usb-storage: apply IGNORE_UAS only for HIKSEMI MD202 on RTL9210
-ca2a4777480bd1acf6eeab35525fb85d0fa10502 serial: pch_uart: Pass correct sg to dma_unmap_sg()
-a1d20c2c7825451044c2fd65015bddd05b9a27ae serial: atmel: fix incorrect baudrate setup
-71ca7598f221e994c3e3181e1b5ee8105104ba43 gsmi: fix null-deref in gsmi_get_variable
-a6ac32da01ed0eefac72f985b1e7784376e8792a Revert "ext4: fix delayed allocation bug in ext4_clu_mapped for bigalloc + inline"
-efd4952abfe132308b28c4a4fee7b80d877004a5 Revert "ext4: fix reserved cluster accounting at delayed write time"
-ea94b17d23f33094be6c61986bcfbec6e46907df Revert "ext4: add new pending reservation mechanism"
-c739d45315bb9e9407c218fdd1b40f066898e17a Revert "ext4: generalize extents status tree search functions"
-402b8359ebaa377d1a1ac427fdcca8ac91644bc9 x86/fpu: Use _Alignof to avoid undefined behavior in TYPE_ALIGN
-de8db55b044b27fa44af436416e08715dd59ae22 Linux 4.19.271-rc1
+49bc20d911a932e64f853efd5d952255efccca7f pNFS/filelayout: Fix coalescing test for single DS
+d15c65bc647b738a1457811bcd99962648d75e56 selftests/bpf: check null propagation only neither reg is PTR_TO_BTF_ID
+335f5501397972a9157473f8dbc475a789c6d3cb net/ethtool/ioctl: return -EOPNOTSUPP if we have no phy stats
+4dc6d030baa04e4a6cf7668cc957afc80b9e7dc9 RDMA/srp: Move large values to a new enum for gcc13
+e272737ecf0e28f73ac77e0d873723f0860103c9 f2fs: let's avoid panic if extent_tree is not created
+cb95ed281d41f5c8fc10ddd2f64ba589274409d2 wifi: brcmfmac: fix regression for Broadcom PCIe wifi devices
+f13dc3a93051e9f24a17315d6649398b66e4d30e Add exception protection processing for vd in axi_chan_handle_err function
+4f0da18b780f3588f0f1cc44f4ba484d50eb7b42 nilfs2: fix general protection fault in nilfs_btree_insert()
+8b7f3f9d78763b9fe707c9eda6fcd544c6568d1a efi: fix userspace infinite retry read efivars after EFI runtime services page fault
+5c3f0eb94563871a628018a8094e1a6c2cf8bf33 drm/i915/gt: Reset twice
+534c922e9d813618f24ede7e93476cde06e8fabd ALSA: hda/realtek - Turn on power early
+bfecd6d9d8b23e8f45d6022dc09aec425898c9b8 xhci-pci: set the dma max_seg_size
+f8fb2c6192319cfae59cab5103784e2475314436 usb: xhci: Check endpoint is valid before dereferencing it
+718f2bb946426e137ea89a129e036567968a0c89 xhci: Fix null pointer dereference when host dies
+4b798e0d094e14ecd6a8991921eb8f1b3dca95f9 xhci: Add update_hub_device override for PCI xHCI hosts
+32dd795a454b73a2136221021840111b30478c0d xhci: Add a flag to disable USB3 lpm on a xhci root port level.
+55d8953abce0ed20423ae2c89092c97fd34d132a usb: acpi: add helper to check port lpm capability using acpi _DSM
+82564027d6a541f9eec5ea0ddd75fae5cef9c225 xhci: Detect lpm incapable xHC USB3 roothub ports from ACPI tables
+874fe30391cac6bf17186a9f05facd8c763e8e97 prlimit: do_prlimit needs to have a speculation check
+5174d9593cf2661e5aa60e8d71a3c3da084ea13f USB: serial: option: add Quectel EM05-G (GR) modem
+4973124057b244ad28540fb7b6fc54ad6a8dd73f USB: serial: option: add Quectel EM05-G (CS) modem
+ac74c21d89c6323840c2f426c1216c836840264f USB: serial: option: add Quectel EM05-G (RS) modem
+dd875f45e014a8d1b80ce4654260c89aa821b789 USB: serial: option: add Quectel EC200U modem
+b9f5a14a1af7a49ca37f3288c15521b393d42832 USB: serial: option: add Quectel EM05CN (SG) modem
+00e068e57e20f6de1f56925a509d42982ffaa3f2 USB: serial: option: add Quectel EM05CN modem
+5372a24ff0ad446c97f446b39b42c8c4204a31bf USB: misc: iowarrior: fix up header size for USB_DEVICE_ID_CODEMERCS_IOW100
+6cd3cc25be97413b36d3447a62749bf7819cc61f misc: fastrpc: Don't remove map on creater_process and device_release
+6ca58223d639bd60bc55d12f13515265372f30a6 misc: fastrpc: Fix use-after-free race condition for maps
+060062cea1125dd899886c8a1c9ba901aa6b0aeb usb: core: hub: disable autosuspend for TI TUSB8041
+7a9cd90c732c17764ace2dc7f78ab773723e8ca9 comedi: adv_pci1760: Fix PWM instruction handling
+9117835890eb0bc811dd9a2776aad68f64585415 mmc: sunxi-mmc: Fix clock refcount imbalance during unbind
+c544d7c89c35c31d01c6abf50b6d031389c114f9 btrfs: fix race between quota rescan and disable leading to NULL pointer deref
+567530c8ff01b3fc5de39bceceda165aaf82d1ed cifs: do not include page data when checking signature
+13ab20dfd53f5173ad3287c94035d6077dccc11e USB: gadgetfs: Fix race between mounting and unmounting
+0ea44097ef21754334e0c6c085fcf7af3cf93fe6 USB: serial: cp210x: add SCALANCE LPE-9000 device id
+8120faae7933959d30e107c321290fdf858751cf usb: host: ehci-fsl: Fix module alias
+d9276b6d58ce1068b6ab50fd353d753fbad4261d usb: typec: altmodes/displayport: Add pin assignment helper
+05767b7776243fd9ef0ca898ec1b7c68f4ebd161 usb: typec: altmodes/displayport: Fix pin assignment calculation
+e19f9ca995f7fc16ca61e2f961fc7cb06243ed0d usb: gadget: g_webcam: Send color matching descriptor per frame
+b6b5919726e33881c2cef3e84a723031d7231faf usb: gadget: f_ncm: fix potential NULL ptr deref in ncm_bitrate()
+6ce76207d75384ac1d9315ad32c8548515671cd0 usb-storage: apply IGNORE_UAS only for HIKSEMI MD202 on RTL9210
+b13efaf85cfd802da3ad37584b79af611267e9f1 dt-bindings: phy: g12a-usb3-pcie-phy: fix compatible string documentation
+91f075d0e79e1e4ca18cbf7d5732886dc8ca9a78 serial: pch_uart: Pass correct sg to dma_unmap_sg()
+4ba8385e7f5e1376da6142443f7ad868885293f1 dmaengine: tegra210-adma: fix global intr clear
+2502ed288618b01b5de6d21fa9fc5980bb47aa0b serial: atmel: fix incorrect baudrate setup
+b3b370aafb2fc819758694efe689142c30030d7b gsmi: fix null-deref in gsmi_get_variable
+ce8af0d2a81f3496c3e8cbb7e55994250920b66e drm/i915: re-disable RC6p on Sandy Bridge
+dfb5f94ed3c3713aec7088f67c90e6d1c6a613d4 drm/amd/display: Fix set scaling doesn's work
+dd4d29547ac38dbc4d452d9e90883b1202f4f8dd drm/amd/display: Fix COLOR_SPACE_YCBCR2020_TYPE matrix
+f46b7bb09a9a452448542b7eff0c2aa9c1f324da x86/fpu: Use _Alignof to avoid undefined behavior in TYPE_ALIGN
+c281e4abf44a0a3f297e4a51782ce169f851ecd9 mm/khugepaged: fix collapse_pte_mapped_thp() to allow anon_vma
+c4ab8d7671d5c73e2b9882577257409b6364ba7a Linux 5.4.230-rc2
 
---===============5163171685709326508==--
+--===============0655493682684483639==--
