@@ -1,24 +1,32 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Mon, 23 Jan 2023 11:08:28 -0000
-Message-Id: <167447210834.32047.2114342608794942338@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tegra/linux
+Date: Mon, 23 Jan 2023 11:08:42 -0000
+Message-Id: <167447212215.32220.17688075314314870835@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/peterz/queue
-user: peterz
+repo: pub/scm/linux/kernel/git/tegra/linux
+user: thierry.reding
 changes:
-  - ref: refs/heads/sched/core
-    old: 23be8bccd11420692d5fdfde8e572c3803d173e2
-    new: 704247fbb375e62539f406b4b5e667351d27e8aa
+  - ref: refs/heads/for-6.3/dt-bindings
+    old: 7924889dc7b5b3013083a223309bcee88610fabf
+    new: 5d9016a46df6fcc18c7b58d87e9a296431df7999
     log: |
-         4c8db55b767e61b2c2529d2030c5bde46c47e7bd x86: Always inline arch_atomic64
-         4b24470e6d3767717cd445a3e56f576d5bfc129d x86/pvclock: improve atomic update of last_value in pvclock_clocksource_read
-         0ded74d60210d9e5a757e375a65dcd82b58eeda1 ftrace/x86: Warn and ignore graph tracing when RCU is disabled
-         ed260b3ac79d43a1c890d6c961285a11848ce5de x86: Mark sched_clock() noinstr
-         e77e820cf5c6418a2e73b5b2ad9b122fc7ac24d4 sched/clock: Make local_clock() noinstr
-         704247fbb375e62539f406b4b5e667351d27e8aa cpuidle: Fix poll_idle() noinstr annotation
+         5d9016a46df6fcc18c7b58d87e9a296431df7999 dt-bindings: tegra: Allow #{address,size}-cells = <2>
          
+  - ref: refs/heads/for-next
+    old: 8ed4a4e82113efd50655cb47624ec494d47895ca
+    new: 473cf86078a7a7cde0374ec31fa092e3dd0777c8
+    log: |
+         5d9016a46df6fcc18c7b58d87e9a296431df7999 dt-bindings: tegra: Allow #{address,size}-cells = <2>
+         d1e34a8abfd6c5ac196f278ac2c5633e3e35ee22 ARM: tegra: Sort nodes by unit-address, then alphabetically
+         2b516fe440c2dd1741c3d02a5c8b011f80435668 Merge branch for-6.3/dt-bindings into for-next
+         16ff0e4aaaa95c9d165ba934dc2c89ebe206d936 Merge branch for-6.3/arm/dt into for-next
+         473cf86078a7a7cde0374ec31fa092e3dd0777c8 Merge branch for-6.3/arm64/dt into for-next
+         
+  - ref: refs/heads/for-6.3/arm/dt
+    old: 0000000000000000000000000000000000000000
+    new: d1e34a8abfd6c5ac196f278ac2c5633e3e35ee22
