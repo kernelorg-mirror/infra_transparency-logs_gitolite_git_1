@@ -1,25 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Mon, 23 Jan 2023 13:31:20 -0000
-Message-Id: <167448068059.30833.12305340458222238252@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mark/linux
+Date: Mon, 23 Jan 2023 13:33:20 -0000
+Message-Id: <167448080044.31539.3246811769065648955@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/mark/linux
+user: mark
 changes:
-  - ref: refs/heads/20230110_yangyingliang_spi_atmel_switch_to_use_modern_name
-    old: 0000000000000000000000000000000000000000
-    new: ccbc6554ed66dc37778b8ed823bcaaabfb1731cf
-  - ref: refs/heads/file9rNpQV
-    old: 0000000000000000000000000000000000000000
-    new: f337703b229f6031a40199dfe050e04065cea0e8
-  - ref: refs/heads/filernDeCv
-    old: 0000000000000000000000000000000000000000
-    new: 025aea27732d3354b9bb797df8158a439f143bf4
-  - ref: refs/heads/filexcDANZ
-    old: 0000000000000000000000000000000000000000
-    new: dcff8b7ca92d724bdaf474a3fa37a7748377813a
+  - ref: refs/heads/arm64/ftrace/per-callsite-ops
+    old: 97085602da765c4df570d162fed7b32df9527de5
+    new: 83ba48f4a4dbb6ff3f14171aaa9132beebd8c142
+    log: |
+         83ba48f4a4dbb6ff3f14171aaa9132beebd8c142 arm64: Implement HAVE_DYNAMIC_FTRACE_WITH_CALL_OPS
+         
