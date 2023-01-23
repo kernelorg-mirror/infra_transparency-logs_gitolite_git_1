@@ -1,42 +1,27 @@
-Content-Type: multipart/mixed; boundary="===============2486410822353824344=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Mon, 23 Jan 2023 12:50:22 -0000
-Message-Id: <167447822217.4369.6098244740729418310@gitolite.kernel.org>
-
---===============2486410822353824344==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/tomba/linux
+Date: Mon, 23 Jan 2023 12:53:40 -0000
+Message-Id: <167447842069.5463.558719537809783121@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: davem
+repo: pub/scm/linux/kernel/git/tomba/linux
+user: tomba
 changes:
-  - ref: refs/heads/master
-    old: 40e0b09081420853542571c38875b48b60404ebb
-    new: f3c6e128936e11e62d0af3c52f756194d79cf2e2
-    log: revlist-40e0b0908142-f3c6e128936e.txt
-
---===============2486410822353824344==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-40e0b0908142-f3c6e128936e.txt
-
-2b30f8291a30305eeedcd787b4d0e352410f7268 net: ethtool: add support for MAC Merge layer
-3700000479f000c1254a53182b4b2c5b184ff171 docs: ethtool-netlink: document interface for MAC Merge layer
-04692c9020b76939715d6f2b4ff84d832246e0fc net: ethtool: netlink: retrieve stats from multiple sources (eMAC, pMAC)
-c319df10a4c854bb2e1085c01e7a9f1dadd810a2 docs: ethtool: document ETHTOOL_A_STATS_SRC and ETHTOOL_A_PAUSE_STATS_SRC
-449c5459641ad72a504884abb9fb9b19ee31397b net: ethtool: add helpers for aggregate statistics
-dd1c41645039d3820a7dde40e11f601c56240c40 net: ethtool: add helpers for MM fragment size translation
-5f6c2d498ad97cf9f85b81c0fbb205abbcdfe3f8 net: dsa: add plumbing for changing and getting MAC merge layer state
-1a733bbddfad466e2561acc8d86b9e5df2985c95 net: mscc: ocelot: allow ocelot_stat_layout elements with no name
-497eea9f8ed5987ade08e23725fdb0f25cd2ffcd net: mscc: ocelot: hide access to ocelot_stats_layout behind a helper
-ab3f97a9610a8d90dc9934517e82c3272d4e98a0 net: mscc: ocelot: export ethtool MAC Merge stats for Felix VSC9959
-6505b68056558357dc979d11921ed45cfd68ed69 net: mscc: ocelot: add MAC Merge layer support for VSC9959
-f3c6e128936e11e62d0af3c52f756194d79cf2e2 Merge branch 'ethtool-mac-merge'
-
---===============2486410822353824344==--
+  - ref: refs/heads/renesas/work
+    old: a2e443cf217ad765aab38cd268143125a21735c1
+    new: 526f7a6b562aead3eb00f2c56a2b8e5744b925c6
+    log: |
+         58df351b76a0844d910e8a0e24450eaa8c62f5f6 drm: rcar-du: dsi: add 'select RESET_CONTROLLER'
+         d0d01254749b6d098c94922a986c64c24ca3826e drm: rcar-du: lvds: Add runtime PM
+         bb69b0d8bb0a2be5efbde63588f051f4541778dc drm: rcar-du: lvds: Add reset control
+         3465c4ff58e78c69bb85eb1dbfd6a4ceeef2c53d drm: rcar-du: lvds: Fix stop sequence
+         d912850a4384ecba5bfc6b03f540f5e1aea52a77 drm: rcar-du: Add quirk for H3 ES1.x pclk workaround
+         263e61cad84922e756c2ce04f8ecf01a3f0b8e3e drm: rcar-du: Fix setting a reserved bit in DPLLCR
+         96b6ca7a641c5a040f2305a1549a6704fdf6463d drm: rcar-du: Stop accessing non-existant registers on gen4
+         d29cbb907c0a8275b1590f2d1e7c69465ecb3cf1 media: renesas: vsp1: Add underrun debug print
+         526f7a6b562aead3eb00f2c56a2b8e5744b925c6 WIP: fixing lvds enable/disable
+         
