@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3279356023001301583=="
+Content-Type: multipart/mixed; boundary="===============3133268513501024945=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 23 Jan 2023 00:23:55 -0000
-Message-Id: <167443343516.8117.6095298523246301765@gitolite.kernel.org>
+Date: Mon, 23 Jan 2023 00:24:47 -0000
+Message-Id: <167443348706.8456.10133535403952117307@gitolite.kernel.org>
 
---===============3279356023001301583==
+--===============3133268513501024945==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,20 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
+  - ref: refs/heads/auto-latest
+    old: 7e32e203f5fac199334e7c818c113a6c0d975258
+    new: e5c645984a3884c92e124717c8c85635ba7a1057
+    log: revlist-7e32e203f5fa-e5c645984a38.txt
   - ref: refs/heads/master
-    old: 118fa07b1ccdfb2e345e32e03389a68fdc2b55ca
-    new: 13a6604c26f375e0d27b71b581d234eaa88bcaf7
-    log: revlist-118fa07b1ccd-13a6604c26f3.txt
-  - ref: refs/tags/perf_urgent_for_v6.2_rc4
-    old: 0000000000000000000000000000000000000000
-    new: a69f07e50d291afe3f53ba73be53d2c4e31de415
+    old: 13a6604c26f375e0d27b71b581d234eaa88bcaf7
+    new: e5c645984a3884c92e124717c8c85635ba7a1057
+    log: revlist-13a6604c26f3-e5c645984a38.txt
 
---===============3279356023001301583==
+--===============3133268513501024945==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-118fa07b1ccd-13a6604c26f3.txt
+Content-Disposition: attachment; filename=revlist-7e32e203f5fa-e5c645984a38.txt
 
 c28f3d80383571d3630df1a0e89500d23e855924 thunderbolt: Do not report errors if on-board retimers are found
 827e0920dbfb0d92416e56081d70745597403446 memory: omap-gpmc: fix wait pin validation
@@ -425,10 +426,53 @@ f67144022885344375ad03593e7a290cc614da34 Merge tag 'char-misc-6.2-rc5' of git://
 95f184d0e1e14e6fd4368a804db5f870e5f841d2 Merge tag 'io_uring-6.2-2023-01-21' of git://git.kernel.dk/linux
 2241ab53cbb5cdb08a6b2d4688feb13971058f65 Linux 6.2-rc5
 95ecbd0f162fc06ef4c4045a66f653f47b62a2d3 Revert "gfs2: stop using generic_writepages in gfs2_ail1_start_one"
+27b5de622ea3fe0ad5a31a0ebd9f7a0a276932d1 x86/build: Move '-mindirect-branch-cs-prefix' out of GCC-only block
 3c006ad74d68be45ee36ca68fd9c053974fb6b0f Merge tag 'gfs2-v6.2-rc4-fix' of git://git.kernel.org/pub/scm/linux/kernel/git/gfs2/linux-gfs2
 2b299a1cd43271ffb582342a2a3c227aea0f32ac Merge tag 'perf_urgent_for_v6.2_rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 ab2f408731cc7e03ef2e5dc7dada649220e4dcd2 Merge tag 'edac_urgent_for_v6.2_rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/ras/ras
 2475bf0250dee99b477e0c56d7dc9d7ac3f04117 Merge tag 'sched_urgent_for_v6.2_rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-13a6604c26f375e0d27b71b581d234eaa88bcaf7 Merge branch 'linus'
+b2233df7a57de0a2cd4b1481c8f6934717117133 Merge branch into tip/master: 'irq/urgent'
+54d3202c57f3f6d837ed07fa3a9371c17c83b4d5 Merge branch into tip/master: 'x86/urgent'
+c6dd95b15b33f464c9289eb9dbb12d59aa87c8c4 Merge branch into tip/master: 'irq/core'
+18b57ad06a2c6cbd7dbc88c699ae3907695bf927 Merge branch into tip/master: 'locking/core'
+055cf8c73671dcd0f16b92454059c2e4c8e153ca Merge branch into tip/master: 'objtool/core'
+8ec3b138e220d4c8e9488a5bf20239e407e48857 Merge branch into tip/master: 'perf/core'
+8042c022d0e74098d65cb41a76bb3ee37e6ed90c Merge branch into tip/master: 'ras/core'
+ba7e0833763255160d7d1c2a58aed4979d9d681a Merge branch into tip/master: 'sched/core'
+0e5bd46b5bd6d75738822e3581e3e9e4db4d2fab Merge branch into tip/master: 'timers/core'
+2c29888cfdf15af5abdd15d25bdbb513515b1512 Merge branch into tip/master: 'x86/alternatives'
+abd0456ce09ef29f13a1eedd18e61a94f1db079e Merge branch into tip/master: 'x86/asm'
+ee5f9c4e42e54252fdc6bc6d8f1f3a1fd1651c4a Merge branch into tip/master: 'x86/boot'
+f0aea57bb284e22b93e709450715cb17253217d8 Merge branch into tip/master: 'x86/cleanups'
+62e4ce52b5ca96d57756c3d39250e49e650efa5d Merge branch into tip/master: 'x86/core'
+3abe035a2d832b3885b27fd808ec38c58e07b35b Merge branch 'x86/cpu'
+e8bea8da44d9c0aae10b547d521d668587619a34 Merge branch into tip/master: 'x86/fpu'
+9de282a986f3a177503137d5c0f385acc28b37ca Merge branch into tip/master: 'x86/microcode'
+e5c645984a3884c92e124717c8c85635ba7a1057 Merge branch into tip/master: 'x86/platform'
 
---===============3279356023001301583==--
+--===============3133268513501024945==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-13a6604c26f3-e5c645984a38.txt
+
+b2233df7a57de0a2cd4b1481c8f6934717117133 Merge branch into tip/master: 'irq/urgent'
+54d3202c57f3f6d837ed07fa3a9371c17c83b4d5 Merge branch into tip/master: 'x86/urgent'
+c6dd95b15b33f464c9289eb9dbb12d59aa87c8c4 Merge branch into tip/master: 'irq/core'
+18b57ad06a2c6cbd7dbc88c699ae3907695bf927 Merge branch into tip/master: 'locking/core'
+055cf8c73671dcd0f16b92454059c2e4c8e153ca Merge branch into tip/master: 'objtool/core'
+8ec3b138e220d4c8e9488a5bf20239e407e48857 Merge branch into tip/master: 'perf/core'
+8042c022d0e74098d65cb41a76bb3ee37e6ed90c Merge branch into tip/master: 'ras/core'
+ba7e0833763255160d7d1c2a58aed4979d9d681a Merge branch into tip/master: 'sched/core'
+0e5bd46b5bd6d75738822e3581e3e9e4db4d2fab Merge branch into tip/master: 'timers/core'
+2c29888cfdf15af5abdd15d25bdbb513515b1512 Merge branch into tip/master: 'x86/alternatives'
+abd0456ce09ef29f13a1eedd18e61a94f1db079e Merge branch into tip/master: 'x86/asm'
+ee5f9c4e42e54252fdc6bc6d8f1f3a1fd1651c4a Merge branch into tip/master: 'x86/boot'
+f0aea57bb284e22b93e709450715cb17253217d8 Merge branch into tip/master: 'x86/cleanups'
+62e4ce52b5ca96d57756c3d39250e49e650efa5d Merge branch into tip/master: 'x86/core'
+3abe035a2d832b3885b27fd808ec38c58e07b35b Merge branch 'x86/cpu'
+e8bea8da44d9c0aae10b547d521d668587619a34 Merge branch into tip/master: 'x86/fpu'
+9de282a986f3a177503137d5c0f385acc28b37ca Merge branch into tip/master: 'x86/microcode'
+e5c645984a3884c92e124717c8c85635ba7a1057 Merge branch into tip/master: 'x86/platform'
+
+--===============3133268513501024945==--
