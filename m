@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1620554911762578187=="
+Content-Type: multipart/mixed; boundary="===============7680208743490852354=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Mon, 23 Jan 2023 18:49:09 -0000
-Message-Id: <167449974922.16587.4331649005114631355@gitolite.kernel.org>
+Date: Mon, 23 Jan 2023 18:49:18 -0000
+Message-Id: <167449975879.16726.11862367838928885117@gitolite.kernel.org>
 
---===============1620554911762578187==
+--===============7680208743490852354==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: martin.lau
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: 84150795a49ae26cf8096517b543f4cd2ed5e87f
     new: 74d23931f4096efcdef1bc12cc828585e49e99ce
     log: revlist-84150795a49a-74d23931f409.txt
 
---===============1620554911762578187==
+--===============7680208743490852354==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -45,4 +45,4 @@ bc8d405b1ba92b9a71f9a94f3c08906e9d8c452c net/mlx5e: Support RX XDP metadata
 297a3f1241550f6969f65a5efeee9162241daae5 selftests/bpf: Simple program to dump XDP RX metadata
 74d23931f4096efcdef1bc12cc828585e49e99ce Merge branch 'xdp: hints via kfuncs'
 
---===============1620554911762578187==--
+--===============7680208743490852354==--
