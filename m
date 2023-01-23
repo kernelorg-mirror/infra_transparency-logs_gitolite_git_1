@@ -1,42 +1,40 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
-Date: Mon, 23 Jan 2023 15:39:07 -0000
-Message-Id: <167448834716.18180.2103485968368008650@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============3135415113443739285=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Mon, 23 Jan 2023 15:41:44 -0000
+Message-Id: <167448850455.20525.7516135502516997906@gitolite.kernel.org>
+
+--===============3135415113443739285==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux
-user: krzk
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: hansg
 changes:
-  - ref: refs/heads/for-next
-    old: af010c38765ad511c90b65c0c5d3bfe7ae9abcc4
-    new: e67be70d5f4d59f999f1ba5504a7102f54b5566a
-    log: |
-         e0962736d66a1504f160bd6e8f9dd4ca22249a2b ARM: dts: exynos: add ports in HDMI bridge in Exynos4412 Midas
-         fca9acd1a9d9922e316fe906d6facfb493cd2c36 ARM: dts: exynos: add panel supply in Tiny4412
-         502497a1fd1efcb3958c57ffb3fa498fcacf67fa ARM: dts: exynos: add backlight supply in P4 Note
-         177c86fa30fa2acce4a6d085b7b4d1d6624fea81 ARM: dts: exynos: align HSOTG/USB node names
-         88e7764497d48836f0f6684bda379c1c469b163b ARM: dts: exynos: correct SATA clocks in Exynos5250
-         18d5a7fddbd7d5e8bd09ff18432208a47ef9ff30 ARM: dts: exynos: correct HS200 property in Exynos5260
-         c27e7d263a9aa390760edd0a8f43789a4c855378 ARM: dts: exynos: correct HSI2C properties in Exynos5410 Odroid XU
-         5d5aa219a790d61cad2c38e1aa32058f16ad2f0b ARM: dts: exynos: Use Exynos5420 compatible for the MIPI video phy
-         3ff52ed2e812ef8db61e2be72975b22b83cef6da ARM: dts: exynos: Use Exynos5422 compatible for the DSI controller
-         e67be70d5f4d59f999f1ba5504a7102f54b5566a Merge branch 'next/dt' into for-next
-         
-  - ref: refs/heads/next/dt
-    old: 234b8dac096d74e330ed1266956c756efddf3676
-    new: 3ff52ed2e812ef8db61e2be72975b22b83cef6da
-    log: |
-         e0962736d66a1504f160bd6e8f9dd4ca22249a2b ARM: dts: exynos: add ports in HDMI bridge in Exynos4412 Midas
-         fca9acd1a9d9922e316fe906d6facfb493cd2c36 ARM: dts: exynos: add panel supply in Tiny4412
-         502497a1fd1efcb3958c57ffb3fa498fcacf67fa ARM: dts: exynos: add backlight supply in P4 Note
-         177c86fa30fa2acce4a6d085b7b4d1d6624fea81 ARM: dts: exynos: align HSOTG/USB node names
-         88e7764497d48836f0f6684bda379c1c469b163b ARM: dts: exynos: correct SATA clocks in Exynos5250
-         18d5a7fddbd7d5e8bd09ff18432208a47ef9ff30 ARM: dts: exynos: correct HS200 property in Exynos5260
-         c27e7d263a9aa390760edd0a8f43789a4c855378 ARM: dts: exynos: correct HSI2C properties in Exynos5410 Odroid XU
-         5d5aa219a790d61cad2c38e1aa32058f16ad2f0b ARM: dts: exynos: Use Exynos5420 compatible for the MIPI video phy
-         3ff52ed2e812ef8db61e2be72975b22b83cef6da ARM: dts: exynos: Use Exynos5422 compatible for the DSI controller
-         
+  - ref: refs/heads/review-hans
+    old: 9f8615416a7e30dcc583f7ff1249282784d1a143
+    new: a8a30b07e471a2694e15db69e098b607991e8082
+    log: revlist-9f8615416a7e-a8a30b07e471.txt
+
+--===============3135415113443739285==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-9f8615416a7e-a8a30b07e471.txt
+
+416abe095e9dec376c3d9ad7354cd7668956231b platform/x86: apple_gmux: Fix Kconfig dependencies
+1553543abac9212b75aed7cde091be4f6eed52bc platform/surface: aggregator: Improve documentation and handling of message target and source IDs
+89be46369bcdf501e8c15d0e62d9e41cb8aa3d13 platform/surface: aggregator: Add target and source IDs to command trace events
+8886764da12533ae47b2c10c997c33a314ec8710 platform/surface: aggregator_hub: Use target-ID enum instead of hard-coding values
+d04396ba812bc6441bcac923fb66945f7298fe21 platform/surface: aggregator_tabletsw: Use target-ID enum instead of hard-coding values
+c552fb805dfa2bf16085d5010327cd29fd42ec01 platform/surface: dtx: Use target-ID enum instead of hard-coding values
+fb5cf092d9d593e906d4d890d23cf7d5ab929097 HID: surface-hid: Use target-ID enum instead of hard-coding values
+46c1c75296d7dda2acf32b1f36ebf6bd92db46d1 platform/surface: aggregator: Enforce use of target-ID enum in device ID macros
+1b1ea2a634c118f384676af2c6b505bcc9bb00b0 platform/surface: aggregator_registry: Fix target-ID of base-hub
+a8a30b07e471a2694e15db69e098b607991e8082 platform/surface: aggregator: Rename top-level request functions to avoid ambiguities
+
+--===============3135415113443739285==--
