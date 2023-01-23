@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3561906430363279148=="
+Content-Type: multipart/mixed; boundary="===============2002020245115836531=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Mon, 23 Jan 2023 20:06:03 -0000
-Message-Id: <167450436388.3044.4494255957903602693@gitolite.kernel.org>
+Date: Mon, 23 Jan 2023 20:06:20 -0000
+Message-Id: <167450438096.3192.9769881707362426764@gitolite.kernel.org>
 
---===============3561906430363279148==
+--===============2002020245115836531==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: dborkman
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: 7525daeefc8c20902bac63f89603096c76808fe0
     new: ea403bb7b3151aed007220b9dd4acd1763c33dd4
     log: revlist-7525daeefc8c-ea403bb7b315.txt
 
---===============3561906430363279148==
+--===============2002020245115836531==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -53,4 +53,4 @@ a0426216a32004bbb1c96dbffaeca7ac261960cf libbpf: Define riscv syscall regs spec 
 a4d325ae461c5d8e3c5e222082e0b5755b7b9b7f libbpf: Clean up now not needed __PT_PARM{1-6}_SYSCALL_REG defaults
 ea403bb7b3151aed007220b9dd4acd1763c33dd4 Merge branch 'libbpf-extend-arguments-tracing'
 
---===============3561906430363279148==--
+--===============2002020245115836531==--
