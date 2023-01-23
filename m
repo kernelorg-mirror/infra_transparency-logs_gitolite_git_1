@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/helgaas/pci
-Date: Mon, 23 Jan 2023 18:07:03 -0000
-Message-Id: <167449722392.20594.3778576296925228853@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/ell/ell
+Date: Mon, 23 Jan 2023 18:10:15 -0000
+Message-Id: <167449741506.23108.7400120576213429597@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/helgaas/pci
-user: helgaas
+repo: pub/scm/libs/ell/ell
+user: denkenz
 changes:
-  - ref: refs/heads/pci/host/qcom
-    old: 677accaee6c3f9953576c81daa34e2b98959627d
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/pci/host/uniphier
-    old: 90ccb044c191a3cf4f4bfef06085747acd988ade
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/master
+    old: f1c916d71411deb335c93c380a56bb225bbd92af
+    new: 38b431bf77d418b9ea38279a1ac89c76eadd5674
+    log: |
+         7b3ac120e9d76e0b8318c3e6b5393777f198b404 ell: Add l_util_hexstringv and l_util_hexstringv_upper
+         38b431bf77d418b9ea38279a1ac89c76eadd5674 unit: Add unit test for l_util_hexstringv
+         
