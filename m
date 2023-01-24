@@ -1,16 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Tue, 24 Jan 2023 09:09:13 -0000
-Message-Id: <167455135358.3246.1686347413751087288@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-drivers
+Date: Tue, 24 Jan 2023 09:14:22 -0000
+Message-Id: <167455166201.6357.13231817028725841693@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/brgl/linux
-user: brgl
+repo: pub/scm/linux/kernel/git/geert/renesas-drivers
+user: geert
 changes:
-  - ref: refs/heads/gpio/for-current
-    old: de5f701724ac1078deaf19ca2aa8dbf4bcd4b04f
-    new: d63f11c02b8d3e54bdb65d8c309f73b7f474aec4
+  - ref: refs/heads/renesas-clk
+    old: 1c052043c79af5f70e80e2acd4dd70904ae08666
+    new: 584d29912db27e56eaaccd225e283e1f429e4f83
+    log: |
+         584d29912db27e56eaaccd225e283e1f429e4f83 clk: renesas: r8a779g0: Add custom clock for PLL2
+         
+  - ref: refs/heads/renesas-clk-for-v6.3
+    old: 1c052043c79af5f70e80e2acd4dd70904ae08666
+    new: 584d29912db27e56eaaccd225e283e1f429e4f83
+    log: |
+         584d29912db27e56eaaccd225e283e1f429e4f83 clk: renesas: r8a779g0: Add custom clock for PLL2
+         
