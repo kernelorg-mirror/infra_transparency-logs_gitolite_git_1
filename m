@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/coresight/linux
-Date: Tue, 24 Jan 2023 10:38:52 -0000
-Message-Id: <167455673276.11824.9615627862764153978@gitolite.kernel.org>
+Date: Tue, 24 Jan 2023 10:42:18 -0000
+Message-Id: <167455693809.14400.11326656320418019014@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/coresight/linux
 user: suzukikp
 changes:
   - ref: refs/heads/next
-    old: 705159622cb8d7896a0c052deebd91e616da9bbf
-    new: 0c507af711df7e7b114fa6ec188e6d860cae29c1
+    old: 0c507af711df7e7b114fa6ec188e6d860cae29c1
+    new: a646ca099b1811f23a7c1eee58aaf38628ec5e83
     log: |
-         0c507af711df7e7b114fa6ec188e6d860cae29c1 coresight: Fix uninitialised variable use in coresight_disable
+         a646ca099b1811f23a7c1eee58aaf38628ec5e83 coresight: perf: Output trace id only once
          
