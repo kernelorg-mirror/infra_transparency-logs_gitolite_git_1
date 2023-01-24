@@ -1,21 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 24 Jan 2023 09:22:59 -0000
-Message-Id: <167455217987.13621.9459429118877410540@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Tue, 24 Jan 2023 09:30:29 -0000
+Message-Id: <167455262915.18999.6166052635315707822@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: pabeni
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/master
-    old: d7bf56e0c591e189141430dc8bf4a1b4d0f117a2
-    new: 5cf6c22b5b7b75caa804c6454932f2f48f7ddb1c
+  - ref: refs/heads/for-linus
+    old: 87978e6ad45a16835cc58234451111091be3c59a
+    new: 6a28a25d358079b7d0d144689f850aecacf63cba
     log: |
-         0a974b1fff7f8c685a0370a25d6e7150460f7b7d net: ethernet: ti: am65-cpsw: Delete unreachable error handling code
-         4ad8766cd3982744e53f107f378d2c65b76ff9a8 net: ethernet: ti: am65-cpsw/cpts: Fix CPTS release action
-         5cf6c22b5b7b75caa804c6454932f2f48f7ddb1c Merge branch 'fix-cpts-release-action-in-am65-cpts-driver'
+         6a28a25d358079b7d0d144689f850aecacf63cba ALSA: hda/realtek: Add Acer Predator PH315-54
+         
+  - ref: refs/heads/master
+    old: 9405d8e2f6bed7ff672c78b74524b53f887dabd8
+    new: bd486fbc59757df779751e77fd50c132f8e5d344
+    log: |
+         6a28a25d358079b7d0d144689f850aecacf63cba ALSA: hda/realtek: Add Acer Predator PH315-54
+         bd486fbc59757df779751e77fd50c132f8e5d344 Merge branch 'for-linus'
          
