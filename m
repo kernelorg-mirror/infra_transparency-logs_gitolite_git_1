@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7697047157972569693=="
+Content-Type: multipart/mixed; boundary="===============2295247239748692259=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/virt/kvm/kvm
-Date: Tue, 24 Jan 2023 10:59:27 -0000
-Message-Id: <167455796711.25917.2555341749471840640@gitolite.kernel.org>
+Date: Tue, 24 Jan 2023 11:09:10 -0000
+Message-Id: <167455855034.31924.15216341075160010052@gitolite.kernel.org>
 
---===============7697047157972569693==
+--===============2295247239748692259==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,40 +16,40 @@ repo: pub/scm/virt/kvm/kvm
 user: bonzini
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/next
-    old: fc471e831016c1741f3e8042997969ace0b5a013
-    new: edd731d73221277cb384efeb66da76dae0a68dfa
-    log: revlist-fc471e831016-edd731d73221.txt
+  - ref: refs/heads/queue
+    old: de60733246ff4545a0483140c1f21426b8d7cb7f
+    new: f15a87c006901e02727bf8ac75b0251cdf8e0ecc
+    log: revlist-de60733246ff-f15a87c00690.txt
 
---===============7697047157972569693==
+--===============2295247239748692259==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Paolo Bonzini <pbonzini@redhat.com> 1674557963 -0500
+pusher Paolo Bonzini <pbonzini@redhat.com> 1674558548 -0500
 pushee gitolite.kernel.org:/pub/scm/virt/kvm/kvm.git
-nonce 1674557960-57258dad1d37772f65099663a7dd1517a1812a58
+nonce 1674558545-7f8615784a48af543db66cd0ca197c1a5baffe54
 
-fc471e831016c1741f3e8042997969ace0b5a013 edd731d73221277cb384efeb66da76dae0a68dfa refs/heads/next
+de60733246ff4545a0483140c1f21426b8d7cb7f f15a87c006901e02727bf8ac75b0251cdf8e0ecc refs/heads/queue
 -----BEGIN PGP SIGNATURE-----
 
-iQFIBAABCAAyFiEE8TM4V0tmI4mGbHaCv/vSX3jHroMFAmPPugsUHHBib256aW5p
-QHJlZGhhdC5jb20ACgkQv/vSX3jHroORXwgAmHrfICx35j/iucGJDnAsHEQe5n/J
-kCe0f4raVgGHG2WI5TnC8RAAW4Emv1yeF/lVz/nc5gsdHYKyc8MTlTfej37Hnfiq
-YGBDdTXBnhHhHGOXnO7Yi5RHBQZYfxdANbhMIEZKQo039jdgrzs98jNhX/t/4PSA
-T9f25LCL/TLT6jSIM1Q796PzRLVhj5nA3rCBSI2BHUKQvA3NUIfadmun4Bb+uNZZ
-MNKejibHcbTxvajs1GV2dCkUQmsUJ7LTZwEDRiLGN8DcJaApPL9D/CP49dA0PqG4
-3yId5O53J9cSknjs5lbkdiPBY4ZJLWbvPB0y9m40KpWIvVjATLMqAooIpg==
-=lhYb
+iQFIBAABCAAyFiEE8TM4V0tmI4mGbHaCv/vSX3jHroMFAmPPvFQUHHBib256aW5p
+QHJlZGhhdC5jb20ACgkQv/vSX3jHroPJpAgArmd4+R6O90OUtbSEmBiTi5rrm82L
+h/NsGxBCLY0Cytnr4roX0ncFdIEPv0WRmqwiw14Ks+oozXIRCHh5jBC34dR5RpIA
+5H57uNbNVpbl2qDwPysCvisIbvHOeCZx9zs43pOn8ExMSM9JKYRXoJNqhPT+uGQv
+WrXsx6qPbjJ2iKTfTLJmSSo+QjNrCee/AvtPINtS15rjmvyAbRHNSGZzvPhHJ6wK
+7lU525cBRC/1gD2LU1D44fTggLOECdiN6OeYHX8t++9GmyAKTtaQJNIBV6ZOTixS
+f16L0L6YW+Ni38B+AdV6bTfBxk0JrsNv0pHV0Skwf9VcczRuENBsTE5GNA==
+=yY5J
 -----END PGP SIGNATURE-----
 
---===============7697047157972569693==
+--===============2295247239748692259==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fc471e831016-edd731d73221.txt
+Content-Disposition: attachment; filename=revlist-de60733246ff-f15a87c00690.txt
 
 2b01281273738bf2d6551da48d65db2df3f28998 KVM: Register /dev/kvm as the _very_ last thing during initialization
 5910ccf03de4fd6d321cf30cab7a06f1436a2053 KVM: Initialize IRQ FD after arch hardware setup
@@ -102,5 +102,7 @@ e6fb7d6eb4217badb018169ec2871da8e92f6555 KVM: Make hardware_enable_failed a loca
 441f7bfa99fe2b8a7e504aa72047e20579e88a5d KVM: Opt out of generic hardware enabling on s390 and PPC
 9f1a4c004869d3c8061f286fec4d8096dd099b84 KVM: Clean up error labels in kvm_init()
 edd731d73221277cb384efeb66da76dae0a68dfa Merge branch 'kvm-hw-enable-refactor' into HEAD
+dc7c31e922787466957cadf2c0ad21c0f9a4091f Merge branch 'kvm-v6.2-rc4-fixes' into HEAD
+f15a87c006901e02727bf8ac75b0251cdf8e0ecc Merge branch 'kvm-lapic-fix-and-cleanup' into HEAD
 
---===============7697047157972569693==--
+--===============2295247239748692259==--
