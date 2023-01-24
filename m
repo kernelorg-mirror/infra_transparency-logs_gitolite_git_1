@@ -1,27 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 24 Jan 2023 10:32:32 -0000
-Message-Id: <167455635231.8179.9470759876798534975@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
+Date: Tue, 24 Jan 2023 10:35:48 -0000
+Message-Id: <167455654828.10736.16705755209092335217@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: pabeni
+repo: pub/scm/linux/kernel/git/krzk/linux
+user: krzk
 changes:
-  - ref: refs/heads/master
-    old: d961bee454f2bfbd0a330c27217b4b19705417dc
-    new: c554520f2cbec9ccb5b7301f0602ac65c4d95d53
+  - ref: refs/heads/for-next
+    old: e67be70d5f4d59f999f1ba5504a7102f54b5566a
+    new: bde44f5373c9a68259b295b2b3dd9ec21d59b292
     log: |
-         9d6a65079c98f55fa2249c50e517d133d137c251 docs: add more netlink docs (incl. spec docs)
-         e616c07ca51817ebdb1423807d52cac72d1c22fa netlink: add schemas for YAML specs
-         be5bea1cc0bf663aa0a45a2c0021dfcfb6cca976 net: add basic C code generators for Netlink
-         4eb77b4ecd3c5eaab83adf76e67e0a7ed2a24418 netlink: add a proto specification for FOU
-         3a330496baa87f334159fdf2388e44f42f619ab5 net: fou: regenerate the uAPI from the spec
-         08d323234d10eab077cbf0093eeb5991478a261a net: fou: rename the source for linking
-         1d562c32e4392cc091c940918ee1ffd7bfcb9e96 net: fou: use policy and operation tables generated from the spec
-         e4b48ed460d369070ce1d491800acf50ab9701d2 tools: ynl: add a completely generic client
-         c554520f2cbec9ccb5b7301f0602ac65c4d95d53 Merge branch 'netlink-protocol-specs'
+         5f8d9a0c2ee2d2fe2d59135261a0835a0a688fa5 dt-bindings: arm: samsung: Add compatible for Samsung Galaxy S5 (SM-G900H)
+         75b976c46cbe13dc8accc1173ceee6faddb83112 ARM: dts: exynos: Add Samsung Galaxy S5 (SM-G900H) board
+         bde44f5373c9a68259b295b2b3dd9ec21d59b292 Merge branch 'next/dt' into for-next
+         
+  - ref: refs/heads/next/dt
+    old: 3ff52ed2e812ef8db61e2be72975b22b83cef6da
+    new: 75b976c46cbe13dc8accc1173ceee6faddb83112
+    log: |
+         5f8d9a0c2ee2d2fe2d59135261a0835a0a688fa5 dt-bindings: arm: samsung: Add compatible for Samsung Galaxy S5 (SM-G900H)
+         75b976c46cbe13dc8accc1173ceee6faddb83112 ARM: dts: exynos: Add Samsung Galaxy S5 (SM-G900H) board
          
