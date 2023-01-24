@@ -1,44 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============4628908345009840993=="
+Content-Type: multipart/mixed; boundary="===============6578366645296389491=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Tue, 24 Jan 2023 03:39:10 -0000
-Message-Id: <167453155025.15445.2994034156583242853@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Tue, 24 Jan 2023 03:39:19 -0000
+Message-Id: <167453155931.15607.10327821204727296625@gitolite.kernel.org>
 
---===============4628908345009840993==
+--===============6578366645296389491==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
   - ref: refs/heads/master
     old: 691781f561e9868a94c3ed7daf4adad7f8af5d16
     new: a54df7622717a40ddec95fd98086aff8ba7839a6
     log: revlist-691781f561e9-a54df7622717.txt
-  - ref: refs/heads/stable
-    old: 2475bf0250dee99b477e0c56d7dc9d7ac3f04117
-    new: 7bf70dbb18820b37406fdfa2aaf14c2f5c71a11a
-    log: |
-         895c0747f726bb50c9b7a805613a61d1b6f9fa06 vfio/type1: Respect IOMMU reserved regions in vfio_test_domain_fgsp()
-         8a9a1a18731eb123e35f48176380a18b9782845e arm64: efi: Avoid workqueue to check whether EFI runtime is live
-         7ea55715c421d22c1b63f7129cae6a654091b695 arm64: efi: Account for the EFI runtime stack in stack unwinder
-         e1fabbc83cb1dd4ba63932faa86c9cacb8bf791e efi: Remove Matthew Garrett as efivarfs maintainer
-         51cdc8bc120ef6e42f6fb758341f5d91bc955952 kvm/vfio: Fix potential deadlock on vfio group_lock
-         9946f0981ff8698848ee79d739f432a2a3e68eed Merge tag 'efi-fixes-for-v6.2-2' of git://git.kernel.org/pub/scm/linux/kernel/git/efi/efi
-         7bf70dbb18820b37406fdfa2aaf14c2f5c71a11a Merge tag 'vfio-v6.2-rc6' of https://github.com/awilliam/linux-vfio
-         
-  - ref: refs/tags/next-20221024
-    old: 418ebef9329a383fe202e55b3eb72f20072e08dd
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20230124
     old: 0000000000000000000000000000000000000000
     new: ca2aa53dd8885d949477a1912c7660716f207752
 
---===============4628908345009840993==
+--===============6578366645296389491==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1069,4 +1054,4 @@ d89e3d0adcaccb8174411ec6c2afe46d965732bf Merge branch 'for-next' of git://git.ke
 8fdda809029b4911f4b723b42fa7f414e1bcb64d Merge branch 'mm-everything' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 a54df7622717a40ddec95fd98086aff8ba7839a6 Add linux-next specific files for 20230124
 
---===============4628908345009840993==--
+--===============6578366645296389491==--
