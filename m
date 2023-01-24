@@ -1,25 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netfilter/nf
-Date: Tue, 24 Jan 2023 08:52:14 -0000
-Message-Id: <167455033437.25876.17303488312562270953@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
+Date: Tue, 24 Jan 2023 09:09:13 -0000
+Message-Id: <167455135358.3246.1686347413751087288@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netfilter/nf
-user: pablo
+repo: pub/scm/linux/kernel/git/brgl/linux
+user: brgl
 changes:
-  - ref: refs/tags/v6.2-rc1
-    old: 0000000000000000000000000000000000000000
-    new: e05dec85e78317f251eddd27e0357b2253d9dfc4
-  - ref: refs/tags/v6.2-rc2
-    old: 0000000000000000000000000000000000000000
-    new: e4ef62bcce9737cf3a2bb1b797b64dc25cbbfbb4
-  - ref: refs/tags/v6.2-rc3
-    old: 0000000000000000000000000000000000000000
-    new: d4245d7ef91d67fe3d21e2faab131fdeab636209
-  - ref: refs/tags/v6.2-rc4
-    old: 0000000000000000000000000000000000000000
-    new: 9b4ccd95c99918fe8ad32bc136fa36eab55af10b
+  - ref: refs/heads/gpio/for-current
+    old: de5f701724ac1078deaf19ca2aa8dbf4bcd4b04f
+    new: d63f11c02b8d3e54bdb65d8c309f73b7f474aec4
