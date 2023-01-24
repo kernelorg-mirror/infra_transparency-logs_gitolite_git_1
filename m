@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2463541984068902561=="
+Content-Type: multipart/mixed; boundary="===============3822195165641563748=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 24 Jan 2023 16:36:17 -0000
-Message-Id: <167457817747.24505.8753565392077835473@gitolite.kernel.org>
+Date: Tue, 24 Jan 2023 16:36:58 -0000
+Message-Id: <167457821889.24832.1784284447704621054@gitolite.kernel.org>
 
---===============2463541984068902561==
+--===============3822195165641563748==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: 32e54254bab86529f6adcfd7fec6fae29a6ed4ff
-    new: c554520f2cbec9ccb5b7301f0602ac65c4d95d53
-    log: revlist-32e54254bab8-c554520f2cbe.txt
+  - ref: refs/heads/dev-queue
+    old: 8a13b896a600d7820004c49d14114987c76649b7
+    new: 92757d76530a99b06d6b02c9598e001e9ba25df4
+    log: revlist-8a13b896a600-92757d76530a.txt
 
---===============2463541984068902561==
+--===============3822195165641563748==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-32e54254bab8-c554520f2cbe.txt
+Content-Disposition: attachment; filename=revlist-8a13b896a600-92757d76530a.txt
 
 18425d7d74c5be88b13b970a21e52e2498abf4ba wifi: mt76: mt7915: add missing of_node_put()
 aec4cf2ea0797e28f18f8dbe01943a56d987fe56 wifi: mt76: mt7921s: fix slab-out-of-bounds access in sdio host
@@ -178,5 +178,77 @@ be5bea1cc0bf663aa0a45a2c0021dfcfb6cca976 net: add basic C code generators for Ne
 1d562c32e4392cc091c940918ee1ffd7bfcb9e96 net: fou: use policy and operation tables generated from the spec
 e4b48ed460d369070ce1d491800acf50ab9701d2 tools: ynl: add a completely generic client
 c554520f2cbec9ccb5b7301f0602ac65c4d95d53 Merge branch 'netlink-protocol-specs'
+fdee2d691056b301cda30efe9141986e43e89d03 ice: Add GPIO pin support for E823 products
+14e09d0aedff0a27cefe02cea09dbc62b9b20edb ice: Add crosstimestamping on E823 devices
+3699de0755bc377b402c68d9d2acf5f976c9e5df ice: Fix off by one in ice_tc_forward_to_queue()
+a7940d7c1db54c402f7d41c32ea5230dd17eba89 iavf: Fix shutdown pci callback to match the remove one
+2eea8b0d0fd69b0347ca88fb860ed5e8213a10b9 ice: move devlink port creation/deletion
+b602cade2eb48a9418716b2e18cde8d01f8b2375 igc: Clean up and optimize watchdog task
+ac0bd0630dc7c7d4e35fa47dd60d2bea233a0710 intel/igbvf: free irq on the error path in igbvf_request_msix()
+7860b6b1bd3db436640d003ed0899a9d6fc7055b igb: Enable SR-IOV after reinit
+d9bd9e6b088a6fe0df613c5642087d90124ff47c ice: Fix broken link in ice NAPI doc
+f62b5bb739c4d1601db55f157719c9482e06074d ice: Enable extended PTP support for E823L & E823C devices
+0c54d27d4f262af9e616aafc0c12949f39aa0921 igbvf: Regard vf reset nack as success
+919983967df8cf6d285f1fcab3fe20b5b137e270 ice: Add more usage of existing function ice_get_vf_vsi(vf)
+11a7d22d4fb4d0f1a9c18f5ba995f5e4fbd9407a igb: conditionalize I2C bit banging on external thermal sensor support
+f219c9a14f67826bcd2fd4c4e04b273da8424ab5 ice: switch: fix potential memleak in ice_add_adv_recipe()
+435b1ff87839c110c1c616614ca86279e288ff70 igc: Add qbv_config_change_errors counter
+c5db117cc8496389e295ddd6ef669c8cf14694f3 ice: Prevent set_channel from changing queues while RDMA active
+b63bca40f80a976b6a1500e3e0e5f19330e9c3d6 ice: double lock on adev_mutex
+af0eec6fc22c15102bb1ca7048ae0646eb1b6288 igc: offload queue max SDU from tc-taprio
+825cd5b407990b763424269c9d6778cf78d1cb70 virtchnl: remove unused structure declaration
+bcad12e480eb5cbbe23cd99e1fb992ac9183e48d virtchnl: update header and increase header clarity
+b64f6d3b28758e51a883c5e8e583d2bdac3a2dcc virtchnl: do structure hardening
+4ff4b4e480a89a531a06a980e5a52a0713700366 virtchnl: i40e/ice/iavf: rename iwarp to rdma
+9fd1ebfc1f55bf3e68018c4e7f11f8fb2abcca8c ice: move RDMA init to ice_idc.c
+3fdddb05cc7a15a0df8f7649059c3315c55ecef0 ice: alloc id for RDMA using xa_array
+ec44268f3f80c64028a4bf6e9efef774efb6fced ice: cleanup in VSI config/deconfig code
+9ca3ab3ea38933f8b61cb262a4898bc191848173 ice: split ice_vsi_setup into smaller functions
+3f6458eb0c78336a65fcee99aca021b56dd14eb0 ice: stop hard coding the ICE_VSI_CTRL location
+6161d440173ac1f3211b9939fa516e2e090a0e9e ice: split probe into smaller functions
+4bb5c71c78407f5a7b5a52f4cd36355eddf27119 ice: sync netdev filters after clearing VSI
+e77960fcdb6e9d1a57fbd9f275134beac43cb1bb ice: move VSI delete outside deconfig
+575590e328f3cd8774297e93fd4c983ef956fd3c ice: update VSI instead of init in some case
+74d8b1532bb0ba531339fd3148e2c06d6f221d86 ice: implement devlink reinit action
+1fcfa6a591189bb41aa8de408e3c65d39795c8a4 i40e: Add flag for disabling VF source pruning
+6673b2900b5b16243a9cb73932677d06eaa2c0b3 ice: fix out-of-bounds KASAN warning in virtchnl
+8b23ecb93f65c806edbc3b16b5c4e42fdeee907d ice: Change ice_vsi_realloc_stat_arrays() to void
+119a656e90e357ed0b865016433001efdcec5908 net/i40e: Replace 0-length array with flexible array
+f90ad0207edeacfd5c312f73c7a36f753ea309f1 i40e: Remove unused i40e status codes
+3743ca49d4139953205f99c5753a8c7ab865df61 i40e: Remove string printing for i40e_status
+2dd855377cb30c18794a84df7c55d209c9992db9 i40e: use int for i40e_status
+e1c4a87303e524d6110d8761579ae5f7b90bbdf1 i40e: remove i40e_status
+d70a816205d33f335f871528d7191e2f62c041cc i40e: use ERR_PTR error print in i40e messages
+fc603fa72cfa90772c46a8fc512d3c437e6d01f3 iavf: fix temporary deadlock and failure to set MAC address
+1063bb582d4d42dae6dbaf7174d4f789837267b4 iavf: Move netdev_update_features() into watchdog task
+e0154561bcd52484fb5b7c2fd3ab40f30ffd93a9 iavf: schedule watchdog immediately when changing primary MAC
+c9daa06a5d058cd00bf653f9472f41310af753df igc: Add ndo_tx_timeout support
+5238001fed2fd3f3423f9dfedf92f56a4c9b2717 ice: avoid bonding causing auxiliary plug/unplug under RTNL lock
+d7fdc8a4cc8ab23f1c29e74a263336df6d6df75d igc: return an error if the mac type is unknown in igc_ptp_systim_to_hwtstamp()
+bb1b0a837ce0d0e3d7446c3700e28f1353890dc8 ice: Fix disabling Rx VLAN filtering with port VLAN enabled
+2aa36e217391edfbe8345fcba46d8c855af0c828 i40e: Fix crash when rebuild fails in i40e_xdp_setup
+1cfba5be67ee23045fb532965168e26dbb038f33 ice: Mention CEE DCBX in code comment
+9833f2b3d501d10c707da71632525e3b6fd1a643 ice: Do not use WQ_MEM_RECLAIM flag for workqueue
+9d4f015da2d3eddef986f5d78a3186095fe2171d ice: fix function comment referring to ice_vsi_alloc
+cb565ac9c11974c848cc427260ec7811e602b30c ice: drop unnecessary VF parameter from several VSI functions
+fd70694e707749a3f48c5c4d1c392c16167f8a03 ice: refactor VSI setup to use parameter structure
+d035c22b1c0169df7cc150c7ac9216ebc010ab9e ice: move vsi_type assignment from ice_vsi_alloc to ice_vsi_cfg
+a709ccee45df611f734456eab4adc687d680ac71 ice: Fix RDMA latency issue by allowing write-combining
+13cccb5963e322de9650617f9a39aafafe25bca3 ice: move ice_vf_vsi_release into ice_vf_lib.c
+c140ace77cbc96ee6c72ab2973524e10c8281ab9 ice: Pull common tasks into ice_vf_post_vsi_rebuild
+5f65e9dbf9c21788371db609faf599edf3e78d34 ice: add a function to initialize vf entry
+f887ab771a0080a2cc6e80cd7946098c73d23f09 ice: introduce ice_vf_init_host_cfg function
+b005c9f1db31052d7e7011e8b295534e03821f8f ice: convert vf_ops .vsi_rebuild to .create_vsi
+5dffa6494d195e5d608ba73e7dc26043b83bea81 ice: introduce clear_reset_state operation
+2c699b57d69c40af96723f1c51d57743e9b28505 ice: introduce .irq_close VF operation
+ef0c211fd8c968904ccf94b686b240eef8a156b0 ice: remove unnecessary virtchnl_ether_addr struct use
+0de3b50f0b5829b0be8d840ab152eb3975bf30bd e1000e: Remove redundant pci_enable_pcie_error_reporting()
+9813e4fa5e392bec998fc878b406a07767f188e8 fm10k: Remove redundant pci_enable_pcie_error_reporting()
+975a41d6df70e83ce0cf20aaefe6f7cbe0dee6e1 i40e: Remove redundant pci_enable_pcie_error_reporting()
+98484975aff46216f9b9939d7569842204945961 iavf: Remove redundant pci_enable_pcie_error_reporting()
+04515c528ea3302459519055c1de3d7cdfffafb2 ice: Remove redundant pci_enable_pcie_error_reporting()
+8370990bee062e58fb362d939b6cd86c10b67c65 igb: Remove redundant pci_enable_pcie_error_reporting()
+efbfc24bf22a236c73222863a03da2bb100e7577 igc: Remove redundant pci_enable_pcie_error_reporting()
+92757d76530a99b06d6b02c9598e001e9ba25df4 ixgbe: Remove redundant pci_enable_pcie_error_reporting()
 
---===============2463541984068902561==--
+--===============3822195165641563748==--
