@@ -1,28 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
-Date: Tue, 24 Jan 2023 10:35:48 -0000
-Message-Id: <167455654828.10736.16705755209092335217@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec
+Date: Tue, 24 Jan 2023 10:37:37 -0000
+Message-Id: <167455665730.11381.11864873474351460839@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux
-user: krzk
+repo: pub/scm/linux/kernel/git/klassert/ipsec
+user: klassert
 changes:
-  - ref: refs/heads/for-next
-    old: e67be70d5f4d59f999f1ba5504a7102f54b5566a
-    new: bde44f5373c9a68259b295b2b3dd9ec21d59b292
+  - ref: refs/heads/master
+    old: eb6c59b735aa6cca77cdbb59cc69d69a0d63d986
+    new: b6ee896385380aa621102e8ea402ba12db1cabff
     log: |
-         5f8d9a0c2ee2d2fe2d59135261a0835a0a688fa5 dt-bindings: arm: samsung: Add compatible for Samsung Galaxy S5 (SM-G900H)
-         75b976c46cbe13dc8accc1173ceee6faddb83112 ARM: dts: exynos: Add Samsung Galaxy S5 (SM-G900H) board
-         bde44f5373c9a68259b295b2b3dd9ec21d59b292 Merge branch 'next/dt' into for-next
-         
-  - ref: refs/heads/next/dt
-    old: 3ff52ed2e812ef8db61e2be72975b22b83cef6da
-    new: 75b976c46cbe13dc8accc1173ceee6faddb83112
-    log: |
-         5f8d9a0c2ee2d2fe2d59135261a0835a0a688fa5 dt-bindings: arm: samsung: Add compatible for Samsung Galaxy S5 (SM-G900H)
-         75b976c46cbe13dc8accc1173ceee6faddb83112 ARM: dts: exynos: Add Samsung Galaxy S5 (SM-G900H) board
+         b6ee896385380aa621102e8ea402ba12db1cabff xfrm/compat: prevent potential spectre v1 gadget in xfrm_xlate32_attr()
          
