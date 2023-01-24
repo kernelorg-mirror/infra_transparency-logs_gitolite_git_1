@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7290308693796218348=="
+Content-Type: multipart/mixed; boundary="===============2830484176006373811=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
-Date: Tue, 24 Jan 2023 01:02:07 -0000
-Message-Id: <167452212768.8353.16178652534317165668@gitolite.kernel.org>
+Date: Tue, 24 Jan 2023 01:06:36 -0000
+Message-Id: <167452239691.11561.4937692599248019040@gitolite.kernel.org>
 
---===============7290308693796218348==
+--===============2830484176006373811==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,22 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/xiang/erofs
 user: xiang
 changes:
-  - ref: refs/heads/master
-    old: 88603b6dc419445847923fcb7fe5080067a30f98
-    new: 2241ab53cbb5cdb08a6b2d4688feb13971058f65
-    log: revlist-88603b6dc419-2241ab53cbb5.txt
+  - ref: refs/heads/dev-test
+    old: d2503ec21b59c115aafdb90874244d9e5fdd153d
+    new: e809f631b128a8cfd0834f47bc76b64f3f6be0a3
+    log: revlist-d2503ec21b59-e809f631b128.txt
+  - ref: refs/tags/v6.2-rc4
+    old: 0000000000000000000000000000000000000000
+    new: 9b4ccd95c99918fe8ad32bc136fa36eab55af10b
+  - ref: refs/tags/v6.2-rc5
+    old: 0000000000000000000000000000000000000000
+    new: 4cc398054ac8efe0ff832c82c7caacbdd992312a
 
---===============7290308693796218348==
+--===============2830484176006373811==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-88603b6dc419-2241ab53cbb5.txt
+Content-Disposition: attachment; filename=revlist-d2503ec21b59-e809f631b128.txt
 
 f96a483f8e131de50ebf30589ffba1a4f6bd12f7 MAINTAINERS: update Jie Hai's email address
 9deb1e9fb88b1120a908676fa33bdf9e2eeaefce net/ethtool/ioctl: return -EOPNOTSUPP if we have no phy stats
@@ -509,8 +515,6 @@ aa96d6aa7563ec2948195d1f5892cb7a2caa88e3 nvme-apple: add NVME_QUIRK_IDENTIFY_CNS
 313c08c72ee7f87c54e34baec5cc4f4005e8800d nvme: don't allow unprivileged passthrough on partitions
 c7c0644ead24c59cc5e0f2ff0ade89b21783614a MAINTAINERS: stop nvme matching for nvmem files
 de1ccb9e61728dd941fe0e955a7a129418657267 ALSA: hda/hdmi: Add a HP device 0x8715 to force connect list
-6acd87d50998ef0afafc441613aeaf5a8f5c9eff erofs/zmap.c: Fix incorrect offset calculation
-12724ba38992bd045e92a9a88a868a530f89d13e erofs: fix kvcalloc() misuse with __GFP_NOFAIL
 e59370b2e96eb8e7e057a2a16e999ff385a3f2fb selftests/net: l2_tos_ttl_inherit.sh: Set IPv6 addresses with "nodad".
 c53cb00f7983a5474f2d36967f84908b85af9159 selftests/net: l2_tos_ttl_inherit.sh: Run tests in their own netns.
 d68ff8ad3351b8fc8d6f14b9a4f5cc8ba3e8bd13 selftests/net: l2_tos_ttl_inherit.sh: Ensure environment cleanup on failure.
@@ -791,8 +795,6 @@ c4d48a58f32c5972174a1d01c33b296fe378cce0 l2tp: convert l2tp_tunnel_list to idr
 0b2c59720e65885a394a017d0cf9cab118914682 l2tp: close all race conditions in l2tp_tunnel_register()
 4101971aaf0989b9ad04ea4c37c72645a6cc3ce4 Merge branch 'l2tp-races'
 87b93b678e95c7d93fe6a55b0e0fbda26d8c7760 octeontx2-pf: Avoid use of GFP_KERNEL in atomic context
-b22c7b97189d461d7143052da83b36390c623b54 erofs: add documentation for 'domain_id' mount option
-e02ac3e7329f76c5de40cba2746cbe165f571dff erofs: clean up parsing of fscache related options
 1132d1c834d6185c89aef07c860fc143a6f2db93 wifi: mt76: dma: do not increment queue head if mt76_dma_add_buf fails
 e5c3ac895750b39ef53b84ff4814617ecd69d556 wifi: mt76: handle possible mt76_rx_token_consume failures
 953519b35227d5dbbb5c5724f1f539735fbf7781 wifi: mt76: dma: fix a regression in adding rx buffers
@@ -1050,5 +1052,9 @@ c88a3114706429c9edf89e0bf2cd6757270c00f8 Merge tag 'driver-core-6.2-rc5' of git:
 f67144022885344375ad03593e7a290cc614da34 Merge tag 'char-misc-6.2-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc
 95f184d0e1e14e6fd4368a804db5f870e5f841d2 Merge tag 'io_uring-6.2-2023-01-21' of git://git.kernel.dk/linux
 2241ab53cbb5cdb08a6b2d4688feb13971058f65 Linux 6.2-rc5
+f9a219eefabff4665c49020433fab6f9e58fd635 erofs: clean up erofs_iget()
+79595df374912c2ff3d7da9b536ab275952cf9f6 erofs: remove linux/buffer_head.h dependency
+6954b4a0d932e53f6301c7f0be198abf6fc82589 erofs: get rid of debug_one_dentry()
+e809f631b128a8cfd0834f47bc76b64f3f6be0a3 erofs: simplify iloc()
 
---===============7290308693796218348==--
+--===============2830484176006373811==--
