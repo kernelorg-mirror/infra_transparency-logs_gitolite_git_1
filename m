@@ -1,23 +1,35 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Tue, 24 Jan 2023 16:41:40 -0000
-Message-Id: <167457850057.27981.3880250935952565731@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Tue, 24 Jan 2023 16:48:31 -0000
+Message-Id: <167457891109.561.12630418723305343239@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/heads/master
-    old: 32457b5efa5d4541a7d01bed9686a4f51952cd5b
-    new: 60c3686b816505b6b891fda7b140d5ec52f4d18d
+  - ref: refs/heads/bleeding-edge
+    old: fd0f0613ad1db1deb3e1003dc587817769e45abd
+    new: f22786346a7aa94655d955877b578c1539d95ce4
     log: |
-         216d8b054f7b4ccc80afbba4b7e4f96ccda11379 lib/sysfs: add function blkdev_is_removable
-         3d59c7660cf47a14734b5f007712810c5d37056c lib/sysfs: add TODO about removable usb devices
-         a2486a0b0c175279a200d9242ba338a9105f965a eject: also use sysfs_blkdev_is_removable
-         156c45b7c0c084a44e061fb4efe3f1d7a0b922be lib/sysfs: fix semantics of blkdev_is_hotpluggable
-         60c3686b816505b6b891fda7b140d5ec52f4d18d lsblk: use sysfs_blkdev_is_removable()
+         1964f8a61edfd2d17c75f882d64100601afe3d90 thermal: intel: int340x: Fix unitialized variable error
+         c37ccd8381598ce7a31a9606ba2dd1c1da289990 Merge branch 'thermal-intel' into linux-next
+         f22786346a7aa94655d955877b578c1539d95ce4 Merge branch 'thermal/bleeding-edge' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/thermal/linux into bleeding-edge
+         
+  - ref: refs/heads/linux-next
+    old: 06f503868b964d4833db2465c13e0ab1efff1a5d
+    new: c37ccd8381598ce7a31a9606ba2dd1c1da289990
+    log: |
+         1964f8a61edfd2d17c75f882d64100601afe3d90 thermal: intel: int340x: Fix unitialized variable error
+         c37ccd8381598ce7a31a9606ba2dd1c1da289990 Merge branch 'thermal-intel' into linux-next
+         
+  - ref: refs/heads/testing
+    old: 06f503868b964d4833db2465c13e0ab1efff1a5d
+    new: c37ccd8381598ce7a31a9606ba2dd1c1da289990
+    log: |
+         1964f8a61edfd2d17c75f882d64100601afe3d90 thermal: intel: int340x: Fix unitialized variable error
+         c37ccd8381598ce7a31a9606ba2dd1c1da289990 Merge branch 'thermal-intel' into linux-next
          
