@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5368062908786614795=="
+Content-Type: multipart/mixed; boundary="===============9044600313606866526=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
-Date: Wed, 25 Jan 2023 20:52:21 -0000
-Message-Id: <167467994189.4843.12770116708380124981@gitolite.kernel.org>
+Date: Wed, 25 Jan 2023 20:52:40 -0000
+Message-Id: <167467996030.5000.7972941758735393041@gitolite.kernel.org>
 
---===============5368062908786614795==
+--===============9044600313606866526==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/s390/linux
 user: heiko
 changes:
-  - ref: refs/heads/features
-    old: 7cb7636a1ac158c00f9da8f09e333c1ddd881eca
-    new: 2213d44e140f979f4b60c3c0f8dd56d151cc8692
-    log: revlist-7cb7636a1ac1-2213d44e140f.txt
+  - ref: refs/heads/for-next
+    old: 309c79867932209cd2a11b730720bdda7fcf706c
+    new: fe27e533c967b718c6efeb6ec82caad58c9e9aa8
+    log: revlist-309c79867932-fe27e533c967.txt
 
---===============5368062908786614795==
+--===============9044600313606866526==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7cb7636a1ac1-2213d44e140f.txt
+Content-Disposition: attachment; filename=revlist-309c79867932-fe27e533c967.txt
 
 7a725b770271deba6c288d075abc8dc9d5aa61d0 s390/cache: change type from unsigned long long to unsigned long
 1ce357cb825f184519cf1d3c2b01581a0b97663c s390/cpum_cf: simplify hw_perf_event_destroy()
@@ -39,5 +39,7 @@ e9c9cb90e76ffaabcc7ca8f275d9e82195fd6367 s390: discard .interp section
 2e4532d4ac0e9675769258a85030b3ec89708af2 s390/syscalls: move __S390_SYS_STUBx() macro
 0efc5d58bd28260b42d934e95092e26bdf2a4724 s390/syscalls: remove trailing semicolon
 2213d44e140f979f4b60c3c0f8dd56d151cc8692 s390/syscalls: get rid of system call alias functions
+840252a13ed163804369666d13bec4c44f8e67c7 Merge branch 'fixes' into for-next
+fe27e533c967b718c6efeb6ec82caad58c9e9aa8 Merge branch 'features' into for-next
 
---===============5368062908786614795==--
+--===============9044600313606866526==--
