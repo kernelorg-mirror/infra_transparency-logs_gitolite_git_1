@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 25 Jan 2023 09:56:55 -0000
-Message-Id: <167464061507.20904.17837226234973363180@gitolite.kernel.org>
+Date: Wed, 25 Jan 2023 09:57:55 -0000
+Message-Id: <167464067562.21288.7743666388282513631@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: davem
 changes:
   - ref: refs/heads/master
-    old: 99db6fb04317c289528e0d51d65c41938a375621
-    new: c96de136329b38172f21214021fc30d67f05c399
+    old: c96de136329b38172f21214021fc30d67f05c399
+    new: f5be9caf7bf022ab550f62ea68f1c1bb8f5287ee
     log: |
-         c96de136329b38172f21214021fc30d67f05c399 net: ethtool: fix NULL pointer dereference in stats_prepare_data()
+         f5be9caf7bf022ab550f62ea68f1c1bb8f5287ee net: ethtool: fix NULL pointer dereference in pause_prepare_data()
          
