@@ -1,20 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Wed, 25 Jan 2023 14:24:20 -0000
-Message-Id: <167465666021.3817.18365853224766388655@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
+Date: Wed, 25 Jan 2023 14:36:53 -0000
+Message-Id: <167465741307.12247.4725129496493516726@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/cel/linux
+user: cel
 changes:
-  - ref: refs/heads/fileWlMtF8
-    old: de1e8a397245db0cab67ec2f98d7d1037232decb
-    new: 636be128d659131739df62e08455bbf6678fc58b
+  - ref: refs/heads/nfsd-next
+    old: acf282e4032c9cca64998193f6b42b44cc4f84c6
+    new: f1291b416498d5a3bec6d824676ef713cef9551d
     log: |
-         01270f905eea786f418cbc2040f7a52b969ef377 ASoC: qcom: lpass-platform: Use SNDRV_DMA_TYPE_NONCOHERENT page allocation
-         636be128d659131739df62e08455bbf6678fc58b ASoC: Kconfig: fix spelling of "up to"
+         d744aa8e51c797a9cdbbdfc22c59be83c54b22fa NFSD: fix leaked reference count of nfsd4_ssc_umount_item
+         ae24814648644234f9b73f8ab0d0634133042128 nfsd: remove fs/nfsd/fault_inject.c
+         12d57f74263eb793efa90a0ce7d74e6fd4eb8e9e SUNRPC: Clean up the svc_xprt_flags() macro
+         f1291b416498d5a3bec6d824676ef713cef9551d SUNRPC: Remove ->xpo_secure_port()
          
