@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8306726379447852150=="
+Content-Type: multipart/mixed; boundary="===============3373531281578903665=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Wed, 25 Jan 2023 14:43:48 -0000
-Message-Id: <167465782898.16092.158022696133359378@gitolite.kernel.org>
+Date: Wed, 25 Jan 2023 14:44:34 -0000
+Message-Id: <167465787418.16397.7349507493485791670@gitolite.kernel.org>
 
---===============8306726379447852150==
+--===============3373531281578903665==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,41 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-testing
-    old: 9e6f4c8b880bb34851c21db3869e3096d113ccbf
-    new: e538e3614c5c5a9a692c96a76e9b06e552dc9b6c
+    old: e538e3614c5c5a9a692c96a76e9b06e552dc9b6c
+    new: 5442e7912050bff9f866d03ee5005731dbd7a708
     log: |
-         e538e3614c5c5a9a692c96a76e9b06e552dc9b6c usb: fotg210: fix a Kconfig spelling mistake
+         353a17ec62f48495a0ba8ffaac7f5ea3cebe5039 dt-bindings: usb: snps,dwc3: Allow power-domains property
+         5442e7912050bff9f866d03ee5005731dbd7a708 dt-bindings: usb: rockchip,dwc3: Move RK3399 to its own schema
          
 
---===============8306726379447852150==
+--===============3373531281578903665==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1674657827 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1674657872 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1674657826-38af6c7e8887e5e263ba399e7c4441787f8c9e23
+nonce 1674657871-cb58074880fa9577608f9b079eb971fced6f9631
 
-9e6f4c8b880bb34851c21db3869e3096d113ccbf e538e3614c5c5a9a692c96a76e9b06e552dc9b6c refs/heads/usb-testing
+e538e3614c5c5a9a692c96a76e9b06e552dc9b6c 5442e7912050bff9f866d03ee5005731dbd7a708 refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPRQCMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+E/gP/A6RcNGh0EtR3saIOVfS
-GcdGOmNej6PpJZTsBf9jIQ1vy7yTHdl3YL3+zt3ENW//Uzoenn/A1EgZ6x0Vrx8C
-KbR+fBlIPct3bDR7peXIhsI4tixMZRMUKrWwluNQUY4j6wZXOwJsEeW9pdtmw+Mf
-EBA7X/mYmEIO9lJcBwLG7xyW1Yp/k8XDwyStafXtmND1iqPov8LSIHjgy3Unc7FV
-kz4JT4EuN6fkXbC6a9iYSeLUX41vKvw32ekBXjmonE2qOdkrBI6AjNX2+Pk1yaD8
-C/x49DZTwq4w1dh15FkliA89HMqX8y6Z/eZXnQMUE53NgJ07fqucqnzJ329mYA/1
-jc3O5ewV+Oog2+j0qkMIyfi24brHVRnRCejG1u3/574zmdn8IJZrjgpRXSl+67VN
-TQp8ZU1ygS0COvYbQeXvKj4Ev15ad2mtICdComIW3Zr1zrNYb979CD8ZKx30V7tJ
-j/9X38aM8b5oQRGrRNyErTWjetfw5aExPofTyCSiYbzKJc+y4hy55R6jRa7qZmjz
-7DN9esZO8cRWdgsplc6rPKmAsJ2wbRYkx6I9SpZ6UDnem06xGTwREBolxuRaAr+U
-GBhC/2+oVfzcfzx3ig7D+gixhBZWxCr+FVcBGS3QPF3tsLhM7E25IxH6Ya+i2My6
-3v+obrtwbcKIcnJIfL7IVDBl
-=/u+C
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPRQFAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+4e8P/i4VfaHOgz8IOvVmzdc+
+yVyMP56b43zcJRLu5/+A35tR4MPDu0PfOUui8DzXApbhhzpNgpSJgVWstW3EOr8t
+Puf6bjeA/NCbhznQE3Xd5W5jm3uNUnotxE/ZWCWxXH/koCKfLIemGOjr1s2FwyRb
+3WdDLa2D72t5HEeXgFokerHzkO6l6nLakE3cbS8vR/Ix65wp3zgDp8DCdawRA3gO
+POPvKmvhTVVlnxaFK55U+pGkQY11X33cbzG/847+g/2Ib/PvzO/c3eEae2R1NfeT
+1vX365xSC+h8VNoKAU30sS+AZiLgCzp90041kvNW8an+s9pKYQdo2zSubRsIljpD
+zeb28UfBgBPqcKvsqsOSRu6/bqFwPPy3BljUjd6hCmmTHO1XYmK/FCaERkG45YEf
+iiI7SsP2p0wADhEMP5cFQSJAqpfaAoemJeKEm4itwmPbOHI0i0BjRGhYZoYpab4W
+utEeebugSkhw7ijmaLyN3IMaHeMbddktlvBqO2uMMFAMybUFljkkIVl209/cjfA5
+gLcuULvisZ+gvShM3smRb3PF/0Q5YUB+T+IUTIR/eSJW4rurGKMIG9XO1gzriHOf
+NcDe4FUYPr95SBSOH5tYHwsZUt74xKZXMmIiu/K5vawYdhfKNS8JOV1KC2sTiG+E
+v19i8nzO+3dmwRUHWGP198Lx
+=WjxS
 -----END PGP SIGNATURE-----
 
---===============8306726379447852150==--
+--===============3373531281578903665==--
