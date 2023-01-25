@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Wed, 25 Jan 2023 12:33:41 -0000
-Message-Id: <167465002196.26953.16578695424501453147@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Wed, 25 Jan 2023 12:38:18 -0000
+Message-Id: <167465029855.29959.2921099675655350717@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/brgl/linux
-user: brgl
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
-  - ref: refs/heads/gpio/for-current
-    old: d63f11c02b8d3e54bdb65d8c309f73b7f474aec4
-    new: 37870358616ca7fdb1e90ad1cdd791655ec54414
+  - ref: refs/heads/master
+    old: ee4b51a59fb816e0732d54c75cc1ddb1ee2cf55d
+    new: 5854e9b571289fa3a1b8a72b8f6bb470ea697f4f
     log: |
-         37870358616ca7fdb1e90ad1cdd791655ec54414 gpio: mxc: Unlock on error path in mxc_flip_edge()
+         85e56ba6213e9cae44063cd412fcf8644009c1b9 tools/config-gen: improve fuzzers
+         5854e9b571289fa3a1b8a72b8f6bb470ea697f4f libblkid: align nilfs superblock [OSS-Fuzz 55382]
          
