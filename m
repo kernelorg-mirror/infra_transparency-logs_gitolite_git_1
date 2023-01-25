@@ -1,23 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mark/linux
-Date: Wed, 25 Jan 2023 16:33:59 -0000
-Message-Id: <167466443912.25551.5204738873360870635@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
+Date: Wed, 25 Jan 2023 16:37:42 -0000
+Message-Id: <167466466212.28186.13141389023524028985@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mark/linux
-user: mark
+repo: pub/scm/linux/kernel/git/peterz/queue
+user: peterz
 changes:
-  - ref: refs/heads/arm64/pnmi/cleanup
-    old: e460c7557b23caec5ce4f2434dc9d5912696bc0c
-    new: 87a9c01e8ad5db4b4f73469093d2a19a89e42230
+  - ref: refs/heads/sched/core
+    old: 704247fbb375e62539f406b4b5e667351d27e8aa
+    new: 3823c2a0fb4c1994d821c783f83e38b6cdc1d30a
     log: |
-         eff5d5c653c96bf19cbe1e01955e53a09ade7743 arm64: rename ARM64_HAS_SYSREG_GIC_CPUIF to ARM64_HAS_GIC_CPUIF_SYSREGS
-         c830aa5032dd2681ebb1d4ca1e03aa18b7e461c0 arm64: rename ARM64_HAS_IRQ_PRIO_MASKING to ARM64_HAS_GIC_PRIO_MASKING
-         25e3a138c336356d067e9fae950e3c478fe3c1ad arm64: make ARM64_HAS_GIC_PRIO_MASKING depend on ARM64_HAS_GIC_PRIO_MASKING
-         a75b252944e4e34092e611619caa87167f027722 arm64: add ARM64_HAS_GIC_PRIO_RELAXED_SYNC cpucap
-         87a9c01e8ad5db4b4f73469093d2a19a89e42230 arm64: irqflags: use alternative branches for pseudo-NMI logic
+         634d39872b898b87e81dde730a4349cb03555bd9 bug: Disable rcu_is_watching() during WARN/BUG
+         572e80401836f28101bd71cdc50db7de7a6569d3 tracing: Warn about !rcu_is_watching()
+         b2f226e20867aec2309edf303d6a835aaf7943b3 tracing, preempt: Squash _rcuidle tracing
+         228415a645a874431e3b27ff278e899da142345a x86: Always inline arch_atomic64
+         9df64464d781d84f051df79cd2d314818110c066 x86/pvclock: improve atomic update of last_value in pvclock_clocksource_read
+         f31e86a6b5ffb5f441dc20a8ebac397ec124a733 x86: Mark sched_clock() noinstr
+         864a91da22c670c760dc26ffb7acb184f3bb06f0 sched/clock: Make local_clock() noinstr
+         3823c2a0fb4c1994d821c783f83e38b6cdc1d30a cpuidle: Fix poll_idle() noinstr annotation
          
