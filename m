@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 25 Jan 2023 09:57:55 -0000
-Message-Id: <167464067562.21288.7743666388282513631@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
+Date: Wed, 25 Jan 2023 10:20:39 -0000
+Message-Id: <167464203984.4805.12331727983152139038@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: davem
+repo: pub/scm/linux/kernel/git/hid/hid
+user: bentiss
 changes:
-  - ref: refs/heads/master
-    old: c96de136329b38172f21214021fc30d67f05c399
-    new: f5be9caf7bf022ab550f62ea68f1c1bb8f5287ee
-    log: |
-         f5be9caf7bf022ab550f62ea68f1c1bb8f5287ee net: ethtool: fix NULL pointer dereference in pause_prepare_data()
-         
+  - ref: refs/heads/for-6.3/logitech
+    old: 0000000000000000000000000000000000000000
+    new: e7a909d510fb96411f2d49809b01ea0d8531bb5a
