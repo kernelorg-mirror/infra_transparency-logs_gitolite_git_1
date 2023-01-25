@@ -1,32 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============5294283282112969180=="
+Content-Type: multipart/mixed; boundary="===============0236915556530111887=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Wed, 25 Jan 2023 03:34:50 -0000
-Message-Id: <167461769029.13019.17393450358433338734@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Wed, 25 Jan 2023 03:35:00 -0000
+Message-Id: <167461770042.13121.7127760884000745302@gitolite.kernel.org>
 
---===============5294283282112969180==
+--===============0236915556530111887==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
   - ref: refs/heads/master
     old: a54df7622717a40ddec95fd98086aff8ba7839a6
     new: 9fbee811e479aca2f3523787cae1f46553141b40
     log: revlist-a54df7622717-9fbee811e479.txt
-  - ref: refs/tags/next-20221025
-    old: 73c5607b226e59ea6d4dd5b504c0be92931a83a3
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20230125
     old: 0000000000000000000000000000000000000000
     new: b095152c7d8fc8a1513ed86389f64d29324b5a12
 
---===============5294283282112969180==
+--===============0236915556530111887==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1057,4 +1054,4 @@ c15f51f3be1f6e3ba4d86ecb06dc32139152f23f Merge branch 'for-next' of git://git.ke
 e76b37018edc494caa83f0778423f521ddd89443 fix up for "mm: add folio_estimated_mapcount()"
 9fbee811e479aca2f3523787cae1f46553141b40 Add linux-next specific files for 20230125
 
---===============5294283282112969180==--
+--===============0236915556530111887==--
