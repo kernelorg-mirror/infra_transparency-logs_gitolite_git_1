@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Wed, 25 Jan 2023 17:41:36 -0000
-Message-Id: <167466849628.7117.9408980029018175557@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Wed, 25 Jan 2023 17:47:11 -0000
+Message-Id: <167466883189.11743.341532732446780397@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
   - ref: refs/heads/master
-    old: 948ef7bb70c4acaf74d87420ea3a1190862d4548
-    new: 7c46948a6e9cf47ed03b0d489fde894ad46f1437
+    old: a95df86415762a2b9dcc08b7f2738f6f93b440bc
+    new: a0db161f3f7f69aa184ffc202858e5153a686503
     log: |
-         facd61053cff100973921d4d45d47cf53c747ec6 fuse: fixes after adapting to new posix acl api
-         7c46948a6e9cf47ed03b0d489fde894ad46f1437 Merge tag 'fs.fuse.acl.v6.2-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/idmapping
+         a0db161f3f7f69aa184ffc202858e5153a686503 Wed Jan 25 05:46:23 PM UTC 2023
          
