@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
-Date: Wed, 25 Jan 2023 02:44:45 -0000
-Message-Id: <167461468503.11883.12697257982165010255@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Wed, 25 Jan 2023 02:55:08 -0000
+Message-Id: <167461530853.21228.2611677009034327454@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/palmer/linux
-user: palmer
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/for-next
-    old: 6be1ff430dab9fc047762b10b2c9669399ea1f37
-    new: 9d5567ccf96fb2f1eb83d531eee23ead4aa8f2a3
+  - ref: refs/heads/master
+    old: 458e279f861d3f61796894cd158b780765a1569f
+    new: 418e53401e478a743cf33b1c32ea0728f0afef66
     log: |
-         451fb217cdca0ead3f396f00f8da331401344950 RISC-V: Kconfig: Remove trailing whitespace
-         9d5567ccf96fb2f1eb83d531eee23ead4aa8f2a3 riscv: fix jal offsets in patched alternatives
+         418e53401e478a743cf33b1c32ea0728f0afef66 ice: move devlink port creation/deletion
          
