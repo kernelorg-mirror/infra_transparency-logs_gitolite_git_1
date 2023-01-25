@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0028342207951359004=="
+Content-Type: multipart/mixed; boundary="===============0965650733916441628=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Wed, 25 Jan 2023 14:45:20 -0000
-Message-Id: <167465792040.18492.17132265519421500341@gitolite.kernel.org>
+Date: Wed, 25 Jan 2023 14:46:37 -0000
+Message-Id: <167465799760.20127.7926023469623962410@gitolite.kernel.org>
 
---===============0028342207951359004==
+--===============0965650733916441628==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,44 +17,42 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-testing
-    old: 5442e7912050bff9f866d03ee5005731dbd7a708
-    new: ec13100fcf2374f013ac836f806d1eb0abf06194
+    old: ec13100fcf2374f013ac836f806d1eb0abf06194
+    new: 331df1f3bbbc5e783dbf6f6100daabd40e12fb87
     log: |
-         60c4da9f3c3c6e8fcd3a12452bcd14181e17cb2c dt-bindings: usb: Remove obsolete brcm,bcm3384-usb.txt
-         4aa466190a2d49a90fa7a6f9dac2dd10e46fdece dt-bindings: usb: Convert multiple "usb-ohci" bindings to DT schema
-         76ea4926dc8d1d68d611ebcd8a2790bc846589e6 dt-bindings: usb: Convert OMAP OHCI/EHCI bindings to schema
-         c1140ebfd7bf64dbd8dae25a92a6bf8aa97276f8 dt-bindings: usb: Convert Marvell Orion EHCI to DT schema
-         ec13100fcf2374f013ac836f806d1eb0abf06194 dt-bindings: usb: Convert Nuvoton EHCI to DT schema
+         173bee52a0f15572e4df8e2d2b4d53c34f0bee9c dt-bindings: usb: tegra-xudc: Add dma-coherent for Tegra194
+         f816267867f01ea7e8b80941ec7ba853e2901002 dt-bindings: usb: tegra-xudc: Add Tegra234 XUDC support
+         331df1f3bbbc5e783dbf6f6100daabd40e12fb87 usb: gadget: tegra-xudc: Add Tegra234 support
          
 
---===============0028342207951359004==
+--===============0965650733916441628==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1674657919 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1674657996 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1674657918-3a7f1cc0bbeeafe0ce912129212f6304d19f0b94
+nonce 1674657995-1f221961a167d0c750fba89b42d9c95452ee644c
 
-5442e7912050bff9f866d03ee5005731dbd7a708 ec13100fcf2374f013ac836f806d1eb0abf06194 refs/heads/usb-testing
+ec13100fcf2374f013ac836f806d1eb0abf06194 331df1f3bbbc5e783dbf6f6100daabd40e12fb87 refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPRQH8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+1NkP/A0TlqfQ4Sf7J9h+17Ti
-Rfwwtf94kJs6U1MXHkUR7rF+NQ6pF9IQhtswc+amK1xtWceNQvOJ2ptrM8XCRRvZ
-9mWp53n3YcdUFIXwEfn/s7jehl163elqUtpmeIXCM2+ZP10PxjpOnmTIil0JOgF4
-7z4qTyzJlqTl/BxR1xxOIi07sgSgBZSfb6ApAx1ndamsR6LZIUUmtQvx5yNY2sGr
-L8BvyDsHduAFqubFLaOu2f9dMwa+auGsXA1nhS8w8YhHUKduXZEUxcWjRb95Bv4W
-Ntrbxd8mRoMM3ep5ZeYsxbh7SfNVOB6w7CpRJVB7rwP+W6F7mdCkeUWw3wBQAeVi
-I3oWiZn19Y3lQ3LpP5P0/H22CWHrS1NVixv87ae+L+yYVj3CUouoQG4klXXX1ReY
-rdS7EjPRuns9n27i3spt2bMJz5rTxBVkEoIVrc6YdFyEwaZ1UZEHR9GUSS4TCJoy
-fm/GdoxoTeipKQpQiFvs0d5ua6XQeeOcNSE8zAodAcA5vhVV25Fp4VlE4VtaG8Vh
-VaiJu/BH4CgkL8xliUUOnBJ6UBzsdpGHL+JdI+nJfQuE1Q+os8p5rdD3b5mGOaBw
-tVEKkw4ixShg4CqVma8qFNb/MFBpA8VIQ3p4JG/rHn6fd/Wks8792ZgmL4v5xBjb
-G+v+lo7tAsTXEe0lkCgmPK+P
-=AVpj
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPRQMwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+mIAQAIgmKfyg50a4TQTNMpKo
+xFfo+6ESF/GGdnS0lO4jlQIfQHW3tz8MDtQ3fNDAL6pSbmXCjY675/8aLdQvryL+
+cOH6JfKtwbF85xKUQZVE9AYdleTrQSloZueIvyV3lDLTZ6I87yQxym99v2Yxn8aK
+75M60sf2k5FtuR5STCnk2oli9dIYb49Z3TdP9FfWwU+NuIkxRG0EMnal/eEXT20U
+XCpbI6nJx1SyCW7lz4QgTetlp5hHXPdOPPrwfbwjek8sDBOLTPNu73daXwO0sOfN
+C7eUmsJtb9uIFUx2TQ4kcceeQC1w47+5GtZv3WLXuFqJxJFSSsKmf4Ww6cQKy0d/
+/bmgdQEU/axNc/1YpCABHW29JaQnwUCsiqQkXJXCjnpAxhxl+5Jfwow2nJXBDg8B
+terXbPjKG3K7Kt6UZeaGhijh2QmXveDx022/2n8gG71xEKp1OhIKN5D2gMY8LdsW
+ZZe+gRH7sm9TbY22Qs91DQTjbqb6PUR9Fb6tCl8nCmFSHg3Vn00FcbU+MD4Q9gMW
+xu5tbBetkvr+kOzph+wlGqjgwafT/PoJLFuL7foFBvFs3DuXojt7UTEzdVZBjyJ3
+ZV/U7tozu1QnEkpPsDRPmVRYxmsEAoHCDMUhryvP5tvwi34ow+6XDAMeBEii6O3k
+/5JDcVrAtGcp2wd1Ppnq25jT
+=6jIi
 -----END PGP SIGNATURE-----
 
---===============0028342207951359004==--
+--===============0965650733916441628==--
