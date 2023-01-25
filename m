@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Wed, 25 Jan 2023 17:26:05 -0000
-Message-Id: <167466756512.29815.11408356032837530407@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Wed, 25 Jan 2023 17:28:26 -0000
+Message-Id: <167466770618.30574.15731977983568170555@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: dborkman
 changes:
-  - ref: refs/heads/lkmm-srcu.2023.01.20a
-    old: f0d4b328e12cdc7f34c11f7c82b28a16e097f769
-    new: 814560bb2c4c7df117d237a94d475b639a04f7b3
+  - ref: refs/heads/master
+    old: 0cea651d6fdbcb279a1c5441a419a2f437896e7b
+    new: 13e07691a16ff31b209fbfce25c01ff296b05e45
     log: |
-         814560bb2c4c7df117d237a94d475b639a04f7b3 tools/memory-model Flag suspicious use of srcu cookies
+         af03299d8536d62b49c7f3cb929349eb2d66bcd5 tools/resolve_btfids: Install subcmd headers
+         13e07691a16ff31b209fbfce25c01ff296b05e45 tools/resolve_btfids: Alter how HOSTCC is forced
          
