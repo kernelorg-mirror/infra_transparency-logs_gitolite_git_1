@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/libgpiod/libgpiod
-Date: Wed, 25 Jan 2023 13:06:18 -0000
-Message-Id: <167465197878.17869.9997954019583119217@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
+Date: Wed, 25 Jan 2023 13:06:29 -0000
+Message-Id: <167465198987.17965.1875453134576639183@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/libgpiod/libgpiod
+repo: pub/scm/linux/kernel/git/brgl/linux
 user: brgl
 changes:
-  - ref: refs/heads/v1.6.x
-    old: 3c461786feb1d5aa1ed2a911942a5f9fbc8b8086
-    new: e9a04f6a1c216afc836ceecf4a30f7b2323a9153
+  - ref: refs/heads/gpio/for-current
+    old: 37870358616ca7fdb1e90ad1cdd791655ec54414
+    new: 216f37366e86a6ddd34ed842cac3354f579ef48e
     log: |
-         e9a04f6a1c216afc836ceecf4a30f7b2323a9153 tests: fix a null-pointer dereference
+         0f04cdbdb210000a97c773b28b598fa8ac3aafa4 gpio: ep93xx: Fix port F hwirq numbers in handler
+         216f37366e86a6ddd34ed842cac3354f579ef48e gpio: ep93xx: Make irqchip immutable
          
