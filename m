@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3961880587013280234=="
+Content-Type: multipart/mixed; boundary="===============7111197282869738038=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Wed, 25 Jan 2023 14:49:44 -0000
-Message-Id: <167465818447.21404.6539820133428814072@gitolite.kernel.org>
+Date: Wed, 25 Jan 2023 14:49:50 -0000
+Message-Id: <167465819024.21531.6152167484269421969@gitolite.kernel.org>
 
---===============3961880587013280234==
+--===============7111197282869738038==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,49 +16,60 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-testing
-    old: 331df1f3bbbc5e783dbf6f6100daabd40e12fb87
-    new: c52c9acc415eb6ff54f658492f8c53da0fc3528a
-    log: |
-         e696d70f600abbe2b7fe81008bcb24d239a74672 dt-bindings: usb: renesas,usb-xhci: Document RZ/V2M support
-         29218d6ce4da741f8a1a86974999e8790683c23b dt-bindings: usb: renesas,usb3-peri: Update reset, clock-name and interrupts properties
-         2c5502a4dc9ffb9145ef80e642be0f1f03c037e8 dt-bindings: usb: renesas,usb3-peri: Document RZ/V2MA bindings
-         9486e56c49be7dc771ecae9bf67b1034cd440d10 dt-bindings: usb: Add RZ/V2M USB3DRD binding
-         9cad72dfc5567c66ab0e5a0a2474c5f36c268694 usb: gadget: Add support for RZ/V2M USB3DRD driver
-         3827fa1ef38f52d9de7ec6e52b4f724dd7b60bb2 usb: gadget: udc: renesas_usb3: Add role switch support for RZ/V2M
-         8c6e8b09617915e8af3ab7dbfecd8f0a9c7cf94f usb: host: xhci-plat: Improve clock handling in probe()
-         224eb5311d6a8c180932465873d809b48a2470bf usb: host: xhci-plat: Add reset support
-         c52c9acc415eb6ff54f658492f8c53da0fc3528a xhci: host: Add Renesas RZ/V2M SoC support
-         
+  - ref: refs/heads/usb-next
+    old: e3e9fc7fa7ad221cc2e7b207d514cc84ed393251
+    new: 9e6f4c8b880bb34851c21db3869e3096d113ccbf
+    log: revlist-e3e9fc7fa7ad-9e6f4c8b880b.txt
 
---===============3961880587013280234==
+--===============7111197282869738038==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1674658182 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1674658189 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1674658182-7160bd02a5340ccff254a3e0b78e157923b5414b
+nonce 1674658188-086438802e23fc80edd8cacc153f35dee6228c0d
 
-331df1f3bbbc5e783dbf6f6100daabd40e12fb87 c52c9acc415eb6ff54f658492f8c53da0fc3528a refs/heads/usb-testing
+e3e9fc7fa7ad221cc2e7b207d514cc84ed393251 9e6f4c8b880bb34851c21db3869e3096d113ccbf refs/heads/usb-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPRQYYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+QUQP/1PCrAxYRtXEu9NSSL54
-qrfPRNOKf4gpRN3fPUh/Z7oXRXTLWO4BrwKazSwpyphBc9ReaI6ix5LUwf6ZCUyy
-G5OJBeV2wKnn1Q7r1d/mSA9SzjnLLNQ5n2Ld5sffZ1FPh3GXOyfL92CQmwDerUMu
-ikXhphOmSDc6W/D2I84X9kvmt7gKTFcNKYa9pUHZ/IxyX0yjVVJ++5CzvoQRaXkx
-I8GKmTA/O0ZQKlhZV/72Yi4eQRj+yD6c27j5HaVu6vRNaK94oGSfms4mi3Tqsmk5
-v3GzZeQv0gY0QILdZAoU0MeA9VD+lDcCVGZR9UtvelEy80L/XmOvD5wcvSJo0n8D
-YJkNPuA9jy/lQHBVVb9X/WOB7fBAD+D+h3OVTWGYSu/03d1vV+VKmdpddUbgcVwk
-qIx789WTOyYFCQAg5/eufISHeF6BNv/g8x5Vk4BAIVo4URuqm99XZ69rPz/7Y7Xn
-2zg/qgJ+15EDXJ99U7w8ZfCVZdm+Zj5SQEdat92k6Kcxd0VfZXNNBq4LO+jTgL/3
-G5vwLPhwkd9TcW1fqzl5forITcD65rfTzKQZQPpWmSiuRH5cUANiORsedkdzrJ1Y
-+84wmuvq777ahp9OdpKYb8wnKe5yqrkbYuy5R5iCl3ZVyjXv7TVPNRmO5IUw7PLu
-0vetNX0+EpixlwsNIgXQ5Q6L
-=ld27
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPRQY0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+0mIQAKtEx/R0NUy5NKZQs6tb
+fo/KC7LX7T/8WYYMcc9hGIpcCP7wyzKxkD1pXVgkoR0h+9eJlk8flJPcZ9i6E07D
+X8CtEZsHCT7xfsy28rrlG2QQo4Tu3H40PA89Kpy2Jl/PAL4t4ejVKmHwFugCvquq
+hZueJ13GS6bzaHffNZaQneHtwDQn/fAYj2PQ1Rir8qkAUbkIthHJXCYdHk/LlYxI
+7WRabx4SQDDiVnns+GtMSIoEtZ350rO4+u5EkAt3NYfcgkGpJALQOakBphLCEoeH
+buLHSEAYv/ya6VWY63R1LXNN4HnRSoWimJO6FPvMjgrSe9s1+tDnZ9jb/4lpGqtn
+IENtmk/QLxkUOpn5QidzSpcQvgr0tGcqaIWSiVe0LnhpWPvQjivU69PDXDGutOab
+ck5OfezRLAfJDTdekm0p3vq03l9xxzHqbXDHcomprSe0S826hdBxuMSYXysV3t4P
+4PRZ1gw/o/dY3Z+HrIWQbXLIoC3idJUTXVr76L158LpLyTkVWNk0c/j1LX9Gxs4M
+o/ncexIjJfjxmXSRXvEWotg4KM2rNByWBuBsq/C3MrOf8kABpBjelGL1BVvPMtCx
+A1/UMP/76cCUQsLYIduKJRygx224lcTthTTOUZcApiCbL/dW6mVn5LLjKcwvmyKK
+OW6b9xn/B2LbTNC7fTG/X6nx
+=4rq+
 -----END PGP SIGNATURE-----
 
---===============3961880587013280234==--
+--===============7111197282869738038==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-e3e9fc7fa7ad-9e6f4c8b880b.txt
+
+4ba2e7cd986270dbb44eb693199a9d3dd3edf984 usb: host: ehci-fsl: Use DRV_NAME
+e55f67391fa986f7357edba0ca59e668d99c3a5f fotg210-udc: Add missing completion handler
+76d62981b5bc2397bff3478a62514c7ec488dc60 fotg210-udc: Introduce and use a fotg210_ack_int function
+c5d4297f0c20dd8650019786ab7e94296e6b8647 fotg210-udc: Improve device initialization
+861fa1c3fafffe47e6845ce95c847b2422792fcc usb: fotg210-hcd: use sysfs_emit() to instead of scnprintf()
+7159deb7622741efc1730ffb24df707384db73bb usb: fotg210-hcd: Don't shadow error codes in store()
+6a426eb418791975c39680b7abd5f26dc2c4f66e usb: fotg210-udc: remove redundant error logging
+6df3d3aadb6474b9cda105576d042d5d31adec0c usb: fotg210: Switch to use dev_err_probe()
+c05ad0fb639c10cce0a92757f9777ec48ceafef2 usb: fotg210: use devm_platform_get_and_ioremap_resource()
+b39483d66af1a6244927e02e4433569a8fb90b17 dt-bindings: usb: Introduce GPIO-based SBU mux
+065ded319d39ce91a3785fa15020cd5a17c6c5d2 usb: typec: mux: Introduce GPIO-based SBU mux
+6f7fb48d2478091e5d7a49d331c230715c4dc65e usb: gadget: Move kstrtox() out of lock
+25d6d1bfc213bce03d2e34c9e43477e01ffba7c3 usb: typec: altmodes/displayport: Update active state
+9e6f4c8b880bb34851c21db3869e3096d113ccbf usb: typec: tcpm: Remove altmode active state updates
+
+--===============7111197282869738038==--
