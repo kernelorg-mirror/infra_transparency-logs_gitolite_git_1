@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1473909606739552014=="
+Content-Type: multipart/mixed; boundary="===============7698551767144042222=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Wed, 25 Jan 2023 16:45:47 -0000
-Message-Id: <167466514714.2964.5569757789736513646@gitolite.kernel.org>
+Date: Wed, 25 Jan 2023 16:46:21 -0000
+Message-Id: <167466518150.3338.17832816985841089055@gitolite.kernel.org>
 
---===============1473909606739552014==
+--===============7698551767144042222==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: d968117a7e8e5572762eacbdbca13bc96710e9a3
-    new: ac8d986cbf0b0ffdbf2c707fe59cf4a71d933a18
-    log: revlist-d968117a7e8e-ac8d986cbf0b.txt
+  - ref: refs/heads/dev-queue
+    old: ed4131accca8013358d2665ff263b5c2e87f6913
+    new: 6751d19944b2dc872b602da5313c7105cfa31a80
+    log: revlist-ed4131accca8-6751d19944b2.txt
 
---===============1473909606739552014==
+--===============7698551767144042222==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d968117a7e8e-ac8d986cbf0b.txt
+Content-Disposition: attachment; filename=revlist-ed4131accca8-6751d19944b2.txt
 
 a9993591fa94246b16b444eea55d84c54608282a netfilter: conntrack: fix vtag checks for ABORT/SHUTDOWN_COMPLETE
 98ee0077452527f971567db01386de3c3d97ce13 netfilter: conntrack: fix bug in for_each_sctp_chunk
@@ -43,5 +43,17 @@ de8a6b15d9654c3e4f672d76da9d9df8ee06331d net: mctp: add an explicit reference fr
 6e54ea37e344f145665c2dc3cc534b92529e8de5 net: mctp: hold key reference when looking up a general key
 b98e1a04e27fddfdc808bf46fe78eca30db89ab3 net: mctp: mark socks as dead on unhash, prevent re-add
 ac8d986cbf0b0ffdbf2c707fe59cf4a71d933a18 Merge branch 'mptcp-fixes'
+709df383c6fda17d434a0111fe0c109a24294400 intel/igbvf: free irq on the error path in igbvf_request_msix()
+6f39247f83d86a9e52f48e16fa413468e15c096d igb: Enable SR-IOV after reinit
+cd31292b8a45ce927c604d367e1a5d1fb46d527e ice: Fix broken link in ice NAPI doc
+7302e7f3f3c0cdd982e04bcd8ae2425f2fbcf5c3 igbvf: Regard vf reset nack as success
+db74423202e4dfc8fef54bf78ecf03ccd5371c55 igb: conditionalize I2C bit banging on external thermal sensor support
+8fed9a1b7bc6fc192922d7362ef0f8e1b3926e9b ice: switch: fix potential memleak in ice_add_adv_recipe()
+6b059795de6e39e1108b11396991faf007c6fe0c ice: fix out-of-bounds KASAN warning in virtchnl
+a1876f44f068535fb983cd93681da2bbe4f49059 ice: avoid bonding causing auxiliary plug/unplug under RTNL lock
+3b55cad2671a8168847445b039c6d64e7157cc90 igc: return an error if the mac type is unknown in igc_ptp_systim_to_hwtstamp()
+86137a5aba63c52a4fefa60b40053b3fa5fa421d ice: Fix disabling Rx VLAN filtering with port VLAN enabled
+1dd6b2beff4f71cbdd8b074f06a852494e65386b i40e: Fix crash when rebuild fails in i40e_xdp_setup
+6751d19944b2dc872b602da5313c7105cfa31a80 ice: Do not use WQ_MEM_RECLAIM flag for workqueue
 
---===============1473909606739552014==--
+--===============7698551767144042222==--
