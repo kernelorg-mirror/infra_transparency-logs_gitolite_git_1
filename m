@@ -1,22 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pinchartl/linux
-Date: Wed, 25 Jan 2023 22:36:34 -0000
-Message-Id: <167468619458.9208.1938140107407086144@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Wed, 25 Jan 2023 22:50:03 -0000
+Message-Id: <167468700346.19397.8095473070681019634@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pinchartl/linux
-user: pinchartl
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/media/devel/pdata
-    old: dfcff14e3c02e734577623803a111297d41484b6
-    new: 0cd793bbb5f352e51e9f40e8ef2bb3f48f22cee2
+  - ref: refs/heads/master
+    old: 948ef7bb70c4acaf74d87420ea3a1190862d4548
+    new: 7c46948a6e9cf47ed03b0d489fde894ad46f1437
     log: |
-         004f11e8946ed60fc6434cdd429fd5c6eca58830 media: i2c: Drop unused noon010pc30 camera sensor driver
-         59d92066d371d16c2725fbbbc33dec388f303e5e media: i2c: Drop unused s5k6aa camera sensor driver
-         682e977a05806e64cb45783a61ad79b703fec12c media: i2c: Drop unused sr030pc30 camera sensor driver
-         0cd793bbb5f352e51e9f40e8ef2bb3f48f22cee2 media: i2c: Drop unused vs6624 camera sensor driver
+         facd61053cff100973921d4d45d47cf53c747ec6 fuse: fixes after adapting to new posix acl api
+         7c46948a6e9cf47ed03b0d489fde894ad46f1437 Merge tag 'fs.fuse.acl.v6.2-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/idmapping
          
