@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5839463994424049074=="
+Content-Type: multipart/mixed; boundary="===============2132196361502178629=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/utils/patatt/patatt
-Date: Wed, 25 Jan 2023 20:06:14 -0000
-Message-Id: <167467717430.5669.13301038804994788750@gitolite.kernel.org>
+Date: Wed, 25 Jan 2023 20:06:29 -0000
+Message-Id: <167467718988.5806.12889546045284676559@gitolite.kernel.org>
 
---===============5839463994424049074==
+--===============2132196361502178629==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,28 +16,31 @@ repo: pub/scm/utils/patatt/patatt
 user: mricon
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/v0.6.3
-    old: 0000000000000000000000000000000000000000
-    new: 52078d5d0c3fec20f251e046a8abe13bbaf5bf50
+  - ref: refs/notes/signatures/tar
+    old: 6d085a618ee7c8d8edc84c6080fcc8778d91ef23
+    new: a94293e1a70ea6db150b0699731d02a1338ff10b
+    log: |
+         a94293e1a70ea6db150b0699731d02a1338ff10b Notes added by 'git notes add'
+         
 
---===============5839463994424049074==
+--===============2132196361502178629==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher B6C41CE35664996C! 1674677174 -0500
+pusher B6C41CE35664996C! 1674677189 -0500
 pushee gitolite.kernel.org:pub/scm/utils/patatt/patatt
-nonce 1674677174-b8c919b0ac10d0afcd886bc067a310f83bc86676
+nonce 1674677189-09faab184d77d555967d36bc8b147bbe4deb060e
 
-0000000000000000000000000000000000000000 52078d5d0c3fec20f251e046a8abe13bbaf5bf50 refs/tags/v0.6.3
+6d085a618ee7c8d8edc84c6080fcc8778d91ef23 a94293e1a70ea6db150b0699731d02a1338ff10b refs/notes/signatures/tar
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCY9GLtgAKCRC2xBzjVmSZ
-bDBNAP9tBcminPrr75y89Jogu/ClUz5Y4y8IWbYw+pO2tW2A1QEAtuUGRO9v9kLU
-wcue/JOmwx4iBaVWtplX96T5HHnbvQg=
-=sLZI
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCY9GLxQAKCRC2xBzjVmSZ
+bMigAQDETLG3GXbJ6G9kUXQ9tIZOQPgjIQqyE6Q/fqPnv5cN2gEAn7zuCM44iC9T
+G2WXARJX9CMZntMz3wLW+Ngibd2Y/AM=
+=8tWK
 -----END PGP SIGNATURE-----
 
---===============5839463994424049074==--
+--===============2132196361502178629==--
