@@ -1,20 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Wed, 25 Jan 2023 12:38:18 -0000
-Message-Id: <167465029855.29959.2921099675655350717@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
+Date: Wed, 25 Jan 2023 12:38:59 -0000
+Message-Id: <167465033928.30209.1875765937606189681@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/firmware/linux-firmware
+user: jwboyer
 changes:
-  - ref: refs/heads/master
-    old: ee4b51a59fb816e0732d54c75cc1ddb1ee2cf55d
-    new: 5854e9b571289fa3a1b8a72b8f6bb470ea697f4f
+  - ref: refs/heads/main
+    old: bb2d42dceff755623d6d59a32a743ccf87cbb6b9
+    new: 3435843535f747e5d68c7b084d234254dcd74f55
     log: |
-         85e56ba6213e9cae44063cd412fcf8644009c1b9 tools/config-gen: improve fuzzers
-         5854e9b571289fa3a1b8a72b8f6bb470ea697f4f libblkid: align nilfs superblock [OSS-Fuzz 55382]
+         d11eb6f9ac2950b6c96bc54df791dcd7f170cd3c iwlwifi: remove old unsupported older than 4.14 LTS
+         fa3a6d5651db160911ffa373ba9c1c080044ffff iwlwifi: remove 4.19 and 5.4 intermediate old firmwares
+         177c593173817f58ee3d5cd604c04599006ad367 iwlwifi: remove 5.4 and 5.10 intermediate old firmwares
+         494389cbc3b3f080bbe4ee921f1b08eae3b6fdbf iwlwifi: remove 5.10 and 5.15 intermediate old firmwares
+         3435843535f747e5d68c7b084d234254dcd74f55 iwlwifi: remove old intermediate 5.15+ firmwares
          
