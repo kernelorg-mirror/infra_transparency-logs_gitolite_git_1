@@ -1,16 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/helgaas/pci
-Date: Wed, 25 Jan 2023 23:12:46 -0000
-Message-Id: <167468836615.32359.6182539137530003035@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Wed, 25 Jan 2023 23:13:13 -0000
+Message-Id: <167468839374.32631.16386956264105902346@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/helgaas/pci
-user: helgaas
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: martin.lau
 changes:
-  - ref: refs/heads/pci/ctrl/dwc
-    old: 0000000000000000000000000000000000000000
-    new: ecadcaed4ef7d229c388563ac6a9558ad7904652
+  - ref: refs/heads/master
+    old: a5f6b9d577eba18601c14bba2dbff4a9b76af962
+    new: 0164776a2ce782a342b66b7980055e96efff746c
+    log: |
+         2ab42c7b871f4e85f21e1a85dfa3f87e4d31221d bpf: Check the protocol of a sock to agree the calls to bpf_setsockopt().
+         d1246f93602316e2dda1000f185e8d13dd611871 selftests/bpf: Calls bpf_setsockopt() on a ktls enabled socket.
+         0164776a2ce782a342b66b7980055e96efff746c Merge branch 'Enable bpf_setsockopt() on ktls enabled sockets.'
+         
