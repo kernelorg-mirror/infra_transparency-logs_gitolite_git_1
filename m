@@ -1,23 +1,31 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
-Date: Wed, 25 Jan 2023 12:38:59 -0000
-Message-Id: <167465033928.30209.1875765937606189681@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Wed, 25 Jan 2023 12:39:40 -0000
+Message-Id: <167465038068.30533.16194517399828950455@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/firmware/linux-firmware
-user: jwboyer
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/main
-    old: bb2d42dceff755623d6d59a32a743ccf87cbb6b9
-    new: 3435843535f747e5d68c7b084d234254dcd74f55
-    log: |
-         d11eb6f9ac2950b6c96bc54df791dcd7f170cd3c iwlwifi: remove old unsupported older than 4.14 LTS
-         fa3a6d5651db160911ffa373ba9c1c080044ffff iwlwifi: remove 4.19 and 5.4 intermediate old firmwares
-         177c593173817f58ee3d5cd604c04599006ad367 iwlwifi: remove 5.4 and 5.10 intermediate old firmwares
-         494389cbc3b3f080bbe4ee921f1b08eae3b6fdbf iwlwifi: remove 5.10 and 5.15 intermediate old firmwares
-         3435843535f747e5d68c7b084d234254dcd74f55 iwlwifi: remove old intermediate 5.15+ firmwares
-         
+  - ref: refs/heads/fileb3lZtU
+    old: 0000000000000000000000000000000000000000
+    new: 8966a72c1964f74e5a415fee8629f698ccb13342
+  - ref: refs/heads/fileScORcm
+    old: 0000000000000000000000000000000000000000
+    new: 22913a63b477c5f167012d4f1265d023a102c1fe
+  - ref: refs/heads/fileveS1fT
+    old: 0000000000000000000000000000000000000000
+    new: 100c94ffde489ee11e23400f2a07b236144b048f
+  - ref: refs/heads/fileWlMtF8
+    old: 0000000000000000000000000000000000000000
+    new: de1e8a397245db0cab67ec2f98d7d1037232decb
+  - ref: refs/heads/v2_20230124_quic_bjorande_regulator_add_maxim_max20411_support
+    old: 0000000000000000000000000000000000000000
+    new: 047ebaffd8171a47eb5462aec0f6006416fbe62e
+  - ref: refs/heads/v3_20230123_quic_srivasam_update_lpass_dt_bindings
+    old: 0000000000000000000000000000000000000000
+    new: 2276561c87e0a36a81a68ad3aa451adb0e687dab
