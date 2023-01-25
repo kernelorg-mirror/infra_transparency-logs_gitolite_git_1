@@ -1,19 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/shemminger/iproute2
-Date: Wed, 25 Jan 2023 18:27:32 -0000
-Message-Id: <167467125221.5491.6727111084021696612@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Wed, 25 Jan 2023 18:27:37 -0000
+Message-Id: <167467125764.5614.6770514347221849327@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/shemminger/iproute2
-user: shemminger
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: ast
 changes:
-  - ref: refs/heads/main
-    old: d7f81def84013202f27cf84ee455f644ff685443
-    new: 55738f8ee1ebd5a83f66622e57e12805e8cc33df
+  - ref: refs/heads/master
+    old: 2514a31241e1e9067d379e0fbdb60e4bc2bf4659
+    new: a5f6b9d577eba18601c14bba2dbff4a9b76af962
     log: |
-         55738f8ee1ebd5a83f66622e57e12805e8cc33df macsec: Fix Macsec packet number attribute print
+         1e12d3ef47d228e4e7d30f9bc5e6744ede90319c bpf: Allow BPF_PROG_TYPE_STRUCT_OPS programs to be sleepable
+         913b2255c3d876254e968f1e8e2c817cca283a29 libbpf: Support sleepable struct_ops.s section
+         51a52a29ebaa8395de090fa415c6e1b2899a50f1 bpf: Pass const struct bpf_prog * to .check_member
+         7dd880592a88799f3ef48fda507849a75f11cbf0 bpf/selftests: Verify struct_ops prog sleepable behavior
+         a5f6b9d577eba18601c14bba2dbff4a9b76af962 Merge branch 'Enable struct_ops programs to be sleepable'
          
