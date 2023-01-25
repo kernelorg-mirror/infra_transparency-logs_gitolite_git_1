@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 25 Jan 2023 04:36:23 -0000
-Message-Id: <167462138339.23266.3656707564413591836@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
+Date: Wed, 25 Jan 2023 05:38:55 -0000
+Message-Id: <167462513528.30538.2579177845993554275@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/palmer/linux
+user: palmer
 changes:
-  - ref: refs/heads/master
-    old: 28113cfada8bce91c627b057f68cd723cac2cf73
-    new: 4373a023e0388fc19e27d37f61401bce6ff4c9d7
+  - ref: refs/heads/fixes
+    old: 5b89c6f9b2df2b7cf6da8e0b2b87c8995b378cad
+    new: ca0254998be4d74cf6add70ccfab0d2dbd362a10
     log: |
-         4373a023e0388fc19e27d37f61401bce6ff4c9d7 devlink: remove a dubious assumption in fmsg dumping
+         ca0254998be4d74cf6add70ccfab0d2dbd362a10 riscv/kprobe: Fix instruction simulation of JALR
          
