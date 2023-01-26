@@ -1,38 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
-Date: Thu, 26 Jan 2023 10:17:33 -0000
-Message-Id: <167472825335.3880.13198942974795763272@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/libgpiod/libgpiod
+Date: Thu, 26 Jan 2023 10:21:36 -0000
+Message-Id: <167472849654.6693.10001065650232701154@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux
-user: krzk
+repo: pub/scm/libs/libgpiod/libgpiod
+user: brgl
 changes:
-  - ref: refs/heads/for-next
-    old: bde44f5373c9a68259b295b2b3dd9ec21d59b292
-    new: 5e8b8afd175eed020b077fb4dad7368193d8a6a7
+  - ref: refs/heads/master
+    old: 2c0bdce53aeb9d3ff32c726062053c2283556aef
+    new: 78ac5249a6da6235e42211228b5a880521ee712b
     log: |
-         af1c89ddb74f170eccd5a57001d7317560b638ea ARM: dts: exynos: correct HDMI phy compatible in Exynos4
-         7bac2cd7fff73dc2b3600c83aeb1c57100cafe70 ARM: dts: exynos: use generic node names for phy
-         9ca5a7ce492d182c25ea2e785eeb72cee1d5056b ARM: dts: exynos: use lowercase hex addresses
-         5cff13f07eec38ecb70e6839060d0a795b690a53 arm64: dts: exynos: use lowercase hex addresses
-         0f1ea25b74f791d7f6f72c96611183f135fbda22 Merge branch 'next/dt' into for-next
-         5e8b8afd175eed020b077fb4dad7368193d8a6a7 Merge branch 'next/dt64' into for-next
-         
-  - ref: refs/heads/next/dt
-    old: 75b976c46cbe13dc8accc1173ceee6faddb83112
-    new: 9ca5a7ce492d182c25ea2e785eeb72cee1d5056b
-    log: |
-         af1c89ddb74f170eccd5a57001d7317560b638ea ARM: dts: exynos: correct HDMI phy compatible in Exynos4
-         7bac2cd7fff73dc2b3600c83aeb1c57100cafe70 ARM: dts: exynos: use generic node names for phy
-         9ca5a7ce492d182c25ea2e785eeb72cee1d5056b ARM: dts: exynos: use lowercase hex addresses
-         
-  - ref: refs/heads/next/dt64
-    old: 662009c7f4aac7bb415e75e197ff6cd83863d5ab
-    new: 5cff13f07eec38ecb70e6839060d0a795b690a53
-    log: |
-         5cff13f07eec38ecb70e6839060d0a795b690a53 arm64: dts: exynos: use lowercase hex addresses
+         4a6591a33422195153f04d3ebfceb5cd9852578a core: provide gpiod_line_config_set_output_values()
+         7d55dfd77e65dd4f920ac599ea617bbff0922f26 gpioset: use gpiod_line_config_set_output_values()
+         36aa6a00ae771c3128db561dff11a8f8e5be74c3 bindings: cxx: add line_config.set_output_values()
+         27a69b0bfd4b6812f5a31848c5433069b7940151 bindings: python: add the output_values argument to Chip.request_lines()
+         fa358c22683707429a012aa215d385fa28cbe69a bindings: rust: make mutators return &mut self
+         78ac5249a6da6235e42211228b5a880521ee712b bindings: rust: provide line_config.set_output_values()
          
