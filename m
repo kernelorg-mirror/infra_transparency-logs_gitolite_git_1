@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5378776187221133127=="
+Content-Type: multipart/mixed; boundary="===============8327948735763142446=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec-next
-Date: Thu, 26 Jan 2023 09:38:42 -0000
-Message-Id: <167472592253.27819.10730800150673945084@gitolite.kernel.org>
+Date: Thu, 26 Jan 2023 09:39:20 -0000
+Message-Id: <167472596056.14372.4460172677940052040@gitolite.kernel.org>
 
---===============5378776187221133127==
+--===============8327948735763142446==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/klassert/ipsec-next
 user: klassert
 changes:
-  - ref: refs/heads/testing
+  - ref: refs/heads/master
     old: 7e68dd7d07a28faa2e6574dd6b9dbd90cdeaae91
     new: 9f92752788d719a4978d31082c98300274dd6ffc
     log: revlist-7e68dd7d07a2-9f92752788d7.txt
 
---===============5378776187221133127==
+--===============8327948735763142446==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ f274a659fb08da5e7c88ba934a4aee0e5de17510 net: microchip: sparx5: Add IS0 VCAP mo
 52df82cc919945f58c10c24b799822e9e6e0359f net: microchip: sparx5: Add support for IS0 VCAP CVLAN TC keys
 9f92752788d719a4978d31082c98300274dd6ffc Merge branch 'adding-sparx5-is0-vcap-support'
 
---===============5378776187221133127==--
+--===============8327948735763142446==--
