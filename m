@@ -1,46 +1,41 @@
-Content-Type: multipart/mixed; boundary="===============2839412466820921457=="
+Content-Type: multipart/mixed; boundary="===============4800339833519313129=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/b4/b4
-Date: Thu, 26 Jan 2023 17:25:51 -0000
-Message-Id: <167475395177.31240.12866646246799988356@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/helgaas/pci
+Date: Thu, 26 Jan 2023 17:40:14 -0000
+Message-Id: <167475481446.8296.5097743500553961962@gitolite.kernel.org>
 
---===============2839412466820921457==
+--===============4800339833519313129==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/b4/b4
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/helgaas/pci
+user: helgaas
 changes:
-  - ref: refs/notes/signatures/tar
-    old: 08bdf12531cc8d295462528e0a2b5d0088f7dcbd
-    new: 26414e2f5591caa212ce107b01394026e74014ee
-    log: |
-         26414e2f5591caa212ce107b01394026e74014ee Notes added by 'git notes add'
-         
+  - ref: refs/heads/pci/ctrl/dwc
+    old: ecadcaed4ef7d229c388563ac6a9558ad7904652
+    new: 934cb2db838711f74b0b465f79fb087be824625e
+    log: revlist-ecadcaed4ef7-934cb2db8387.txt
 
---===============2839412466820921457==
+--===============4800339833519313129==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-ecadcaed4ef7-934cb2db8387.txt
 
-certificate version 0.1
-pusher B6C41CE35664996C! 1674753951 -0500
-pushee gitolite.kernel.org:pub/scm/utils/b4/b4
-nonce 1674753951-1103d36767209e1defe0e28e718773620ac64b9d
+11ff5387149730066c0ac0de136e7289cdd377ca dmaengine: dw-edma: Fix readq_ch() return value truncation
+8a8b926f5c8270c57ec776bf1896da283205ea2c dmaengine: dw-edma: Use non-atomic io-64 methods
+9319ac43eb526727a7b887a4056aa8a0cac04c8e dmaengine: dw-edma: Drop DT-region allocation
+2d1504dbe41e949048d9f2a2ade9bb5410d3c57b dmaengine: dw-edma: Replace chip ID number with device name
+255a8b62debe3b0c6add79a6fee3147670bcfe89 dmaengine: dw-edma: Skip cleanup procedure if no private data found
+e2a9b609d74b9663dcc7da95d1413b93965b863c dmaengine: dw-edma: Add mem-mapped LL-entries support
+a6f7aa57074cc4f842550f43cad2373472df2c24 dmaengine: dw-edma: Depend on DW_EDMA instead of selecting it
+db5fcd6d5bfc8ec9b4ecca6d8665842a245056e7 dmaengine: dw-edma: Prepare dw_edma_probe() for builtin callers
+7bb6afb9c7eae86e9c6b49f4e8a3001430dd4aa3 PCI: dwc: Restrict only coherent DMA mask for MSI address allocation
+6f7b279a6ed714ffc24178a008635ac37d067ade PCI: bt1: Set 64-bit DMA mask
+934cb2db838711f74b0b465f79fb087be824625e PCI: dwc: Add Root Port and Endpoint controller eDMA engine support
 
-08bdf12531cc8d295462528e0a2b5d0088f7dcbd 26414e2f5591caa212ce107b01394026e74014ee refs/notes/signatures/tar
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCY9K3nwAKCRC2xBzjVmSZ
-bPJkAQCSKyP0N3rJytdNN3+45Ibx7iSnuKQ57xW2Ux85Cbd/QgD+MTtiRSQStTgY
-CixLVg0rsVpMIJ5y6774l3l7WuiI5gs=
-=rGrF
------END PGP SIGNATURE-----
-
---===============2839412466820921457==--
+--===============4800339833519313129==--
