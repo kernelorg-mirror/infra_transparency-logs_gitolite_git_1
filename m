@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Thu, 26 Jan 2023 19:19:49 -0000
-Message-Id: <167476078982.8889.4013191792458709924@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chrome-platform/linux
+Date: Thu, 26 Jan 2023 19:42:41 -0000
+Message-Id: <167476216174.23363.3392597949077176520@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: leon
+repo: pub/scm/linux/kernel/git/chrome-platform/linux
+user: pmalani
 changes:
-  - ref: refs/heads/wip/leon-for-rc
-    old: 6601fc0d15ffc20654e39486f9bef35567106d68
-    new: e632291a2dbce45a24cddeb5fe28fe71d724ba43
+  - ref: refs/heads/for-next
+    old: 6514bac4a321daaf2fdf3a116a644c77e4908f20
+    new: 478f32ab4daae8a9bae3723d1040c6e4e3a09bc5
     log: |
-         e632291a2dbce45a24cddeb5fe28fe71d724ba43 IB/IPoIB: Fix legacy IPoIB due to wrong number of queues
+         13aba1e532f047459a683f76439ad90fb29eab05 platform/chrome: cros_ec_typec: allow deferred probe of switch handles
+         478f32ab4daae8a9bae3723d1040c6e4e3a09bc5 platform/chrome: cros_typec_vdm: Fix VDO copy
          
