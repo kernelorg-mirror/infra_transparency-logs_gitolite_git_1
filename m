@@ -1,30 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Thu, 26 Jan 2023 09:52:53 -0000
-Message-Id: <167472677373.19471.3578622644643025612@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Thu, 26 Jan 2023 10:06:40 -0000
+Message-Id: <167472760029.28221.1504967920501934337@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/soc/soc
-user: arnd
+repo: pub/scm/linux/kernel/git/tip/tip
+user: bp
 changes:
-  - ref: refs/heads/arm/dt
-    old: 4f848f23f5ffcd73e538a003626350c2930be06a
-    new: 42bea43c1f91b30cc9bba1cd98725d9341e82121
+  - ref: refs/heads/x86/cpu
+    old: e12ad468c22065a2826b2fc4c11d2113a7975301
+    new: 8c19b6f257fa71ed3a7a9df6ce466c6be31ca04c
     log: |
-         f72ef0cfda421971d03dc43a82c68ea7d5115fb9 ARM: dts: ste: align LED node names with dtschema
-         80b3303221a0a3d3731076e1c52e93f69c657d3b ARM: dts: ux500: Add clkout-clock node
-         42bea43c1f91b30cc9bba1cd98725d9341e82121 Merge tag 'ux500-dts-v6.3' of git://git.kernel.org/pub/scm/linux/kernel/git/linusw/linux-nomadik into arm/dt
-         
-  - ref: refs/heads/for-next
-    old: 1ccaf10cbb077c183b320b67853641417f61d175
-    new: 822f49f2891e0d743ee52c05f22a98318fe91ce0
-    log: |
-         f72ef0cfda421971d03dc43a82c68ea7d5115fb9 ARM: dts: ste: align LED node names with dtschema
-         80b3303221a0a3d3731076e1c52e93f69c657d3b ARM: dts: ux500: Add clkout-clock node
-         42bea43c1f91b30cc9bba1cd98725d9341e82121 Merge tag 'ux500-dts-v6.3' of git://git.kernel.org/pub/scm/linux/kernel/git/linusw/linux-nomadik into arm/dt
-         822f49f2891e0d743ee52c05f22a98318fe91ce0 Merge branch 'arm/dt' into for-next
+         8415a74852d7c24795007ee9862d25feb519007c x86/cpu, kvm: Add support for CPUID_80000021_EAX
+         c35ac8c4bf600ee23bacb20f863aa7830efb23fb KVM: x86: Move open-coded CPUID leaf 0x80000021 EAX bit propagation code
+         a9dc9ec5a1fafc3d2fe7a7b594eefaeaccf89a6b x86/cpu, kvm: Add the NO_NESTED_DATA_BP feature
+         84168ae786f8a15a7eb0f79d34f20b8d261ce2f5 x86/cpu, kvm: Move X86_FEATURE_LFENCE_RDTSC to its native leaf
+         5b909d4ae59aedc711b7a432da021be0e82c95a0 x86/cpu, kvm: Add the Null Selector Clears Base feature
+         faabfcb194a8d0686396e3fff6a5b42911f65191 x86/cpu, kvm: Add the SMM_CTL MSR not present feature
+         e7862eda309ecfccc36bb5558d937ed3ace07f3f x86/cpu: Support AMD Automatic IBRS
+         8c19b6f257fa71ed3a7a9df6ce466c6be31ca04c KVM: x86: Propagate the AMD Automatic IBRS feature to the guest
          
