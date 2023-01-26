@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/libgpiod/libgpiod
-Date: Thu, 26 Jan 2023 12:50:06 -0000
-Message-Id: <167473740606.8157.2932436214095592210@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Thu, 26 Jan 2023 12:56:10 -0000
+Message-Id: <167473777007.11668.6349009830619841966@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/libgpiod/libgpiod
-user: brgl
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/heads/master
-    old: 78ac5249a6da6235e42211228b5a880521ee712b
-    new: 78020eae9d28cba9c4790ccfd6bdeb93be633706
+  - ref: refs/heads/thermal-intel-test
+    old: 97cc8e93dd1a82e0cb47c3437e02d17d7e081788
+    new: d30483e35c19c74668f822a8d04be33f1a010175
     log: |
-         bbc0fe913fdd97e6cffc624e94eb7f8dbcab8413 bindings: cxx: remove unused code
-         39b2d3e152c6e6bca0c76e4f2198a42b61dc84b3 bindings: cxx: don't shift raw pointers around
-         78020eae9d28cba9c4790ccfd6bdeb93be633706 bindings: cxx: remove duplicate mapping helper
+         d30483e35c19c74668f822a8d04be33f1a010175 thermal: ACPI: Initialize trips if temperature is out of range
          
