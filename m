@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3099620518461918410=="
+Content-Type: multipart/mixed; boundary="===============3853317191785970523=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Thu, 26 Jan 2023 15:46:03 -0000
-Message-Id: <167474796315.28087.4059859431171389676@gitolite.kernel.org>
+Date: Thu, 26 Jan 2023 15:46:18 -0000
+Message-Id: <167474797882.28365.10806318539018931219@gitolite.kernel.org>
 
---===============3099620518461918410==
+--===============3853317191785970523==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/master
-    old: 917aa385e262d0294eed2b6dfd5f7415f16e5c1b
+  - ref: refs/heads/next
+    old: f1f94dd2a5f5fec1f4a9203915ebc7f3dc1ea513
     new: 9e01d7dc0796610445d60d89942c0cdc0b2e16c9
-    log: revlist-917aa385e262-9e01d7dc0796.txt
+    log: revlist-f1f94dd2a5f5-9e01d7dc0796.txt
 
---===============3099620518461918410==
+--===============3853317191785970523==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-917aa385e262-9e01d7dc0796.txt
+Content-Disposition: attachment; filename=revlist-f1f94dd2a5f5-9e01d7dc0796.txt
 
 06e472acf964649a58b7de35fc9cdc3151acb970 scsi: mpt3sas: Remove usage of dma_get_required_mask() API
 d347a951906b506c485ee9ffb76fe473b41f3e10 scsi: mpi3mr: Remove usage of dma_get_required_mask() API
@@ -950,4 +950,4 @@ b4c45ccd5fcb732e925bc8108ed94837e886ca1b certs: make blacklisted hash available 
 d5c71a221b6bf609ba7e68c695b476a391963739 tpm: tpm_i2c_nuvoton: Convert to i2c's .probe_new()
 9e01d7dc0796610445d60d89942c0cdc0b2e16c9 tpm: tis_i2c: Convert to i2c's .probe_new()
 
---===============3099620518461918410==--
+--===============3853317191785970523==--
