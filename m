@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============4222176892242942391=="
+Content-Type: multipart/mixed; boundary="===============0101564451246780632=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Thu, 26 Jan 2023 17:05:03 -0000
-Message-Id: <167475270371.17018.5677401524377471369@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Thu, 26 Jan 2023 17:05:10 -0000
+Message-Id: <167475271022.17115.7752464035374143663@gitolite.kernel.org>
 
---===============4222176892242942391==
+--===============0101564451246780632==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.3
+  - ref: refs/heads/asoc-6.3
     old: 636be128d659131739df62e08455bbf6678fc58b
     new: 892e0d3f42e7dabc874c734e80e4e12276470332
     log: |
@@ -28,28 +28,28 @@ changes:
          892e0d3f42e7dabc874c734e80e4e12276470332 Update lpass dt-bindings
          
 
---===============4222176892242942391==
+--===============0101564451246780632==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1674752701 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1674752700-6c2557c46fcb694c81cac97de956e5f7cf3bdb39
+pusher C3F436CA30F5D8EB 1674752708 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1674752708-e31451deba026884198f102381571fac1b1b8e79
 
-636be128d659131739df62e08455bbf6678fc58b 892e0d3f42e7dabc874c734e80e4e12276470332 refs/heads/for-6.3
+636be128d659131739df62e08455bbf6678fc58b 892e0d3f42e7dabc874c734e80e4e12276470332 refs/heads/asoc-6.3
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmPSsr0ACgkQJNaLcl1U
-h9BA8Af/SF3JT3SvlX6T/cNUkKLrejUZrvX67M5C8vGz/EqV6kd1HD5MnINDZLno
-Gt0kz4B7gDWtnkPeLYsK9a03fZub5nJtmh9eIToTuKGwQcXUs9F7AlfHy7/pX4n+
-iz/MrUjCJA9DZX5dQZPFQclVe1Zrs0+5rQQyXH3ikrYVrx2HIEKYx0kjNCBoJWpI
-NS8F2AR1+PwGjzA6F+qm0gM/xC9lIl+oVfQfSsfukFjeDkNXkXy81TOcYZLI1pCu
-1gfpnWkmwS4eO99AyOfY3rJSciRp0Lwkht8fry+hgAlRXRAuFLFZ5WKwT/5HrB8I
-UwEivO2Qof9St9+JrIRcqLWsLMdgEQ==
-=rT/y
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmPSssQACgkQJNaLcl1U
+h9CTTwf9FkY0OFKs+zItXQpAsJP2hKDtF6nvPjDiDI8xVncdPl1UQUUUwk1O6wdy
+/RgIO4SuYYmq8iF0QrorQAdQsllqPFQ4jesaBZovDOLXQHFEGXJoxm9KotNDiI2C
+764d79rfGxNKbHq90rfpVNavroUvegAJsd7NP2GbgaA/dAApVnNcjFvGUSGfxrOD
+/bbIP0zMWNdBLNjyoPp17YvGM8rELu8HKi/QXLW2fXBfTwmikRRQDt8ucs7dC4Q3
+14UYdjMJxMULbmqxBUJRlHL2zcOKhiOcyDeH+LykUlSTRhe+yiXX/bq3gjvTZfEJ
+86i0Wu6OiAL5rmX4K5MJz8I/l0i1Ng==
+=kPpf
 -----END PGP SIGNATURE-----
 
---===============4222176892242942391==--
+--===============0101564451246780632==--
