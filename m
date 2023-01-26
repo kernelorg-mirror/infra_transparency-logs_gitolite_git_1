@@ -1,28 +1,28 @@
-Content-Type: multipart/mixed; boundary="===============7093669938193092281=="
+Content-Type: multipart/mixed; boundary="===============6472482705894914855=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Thu, 26 Jan 2023 00:27:55 -0000
-Message-Id: <167469287554.17704.10919218641293852845@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Thu, 26 Jan 2023 00:28:02 -0000
+Message-Id: <167469288234.17784.8362656171195846563@gitolite.kernel.org>
 
---===============7093669938193092281==
+--===============6472482705894914855==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.2
+  - ref: refs/heads/asoc-6.2
     old: dcff8b7ca92d724bdaf474a3fa37a7748377813a
     new: 100c94ffde489ee11e23400f2a07b236144b048f
     log: |
          100c94ffde489ee11e23400f2a07b236144b048f ASoC: codecs: wsa883x: correct playback min/max rates
          
-  - ref: refs/heads/for-6.3
+  - ref: refs/heads/asoc-6.3
     old: f337703b229f6031a40199dfe050e04065cea0e8
     new: 636be128d659131739df62e08455bbf6678fc58b
     log: |
@@ -37,29 +37,29 @@ changes:
          636be128d659131739df62e08455bbf6678fc58b ASoC: Kconfig: fix spelling of "up to"
          
 
---===============7093669938193092281==
+--===============6472482705894914855==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1674692873 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1674692873-22c2321de0dd029c339a420a8ac4f7847f458d32
+pusher C3F436CA30F5D8EB 1674692880 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1674692880-1e0d0ecea98626f8c7920244b126db370706ceb1
 
-dcff8b7ca92d724bdaf474a3fa37a7748377813a 100c94ffde489ee11e23400f2a07b236144b048f refs/heads/for-6.2
-f337703b229f6031a40199dfe050e04065cea0e8 636be128d659131739df62e08455bbf6678fc58b refs/heads/for-6.3
+dcff8b7ca92d724bdaf474a3fa37a7748377813a 100c94ffde489ee11e23400f2a07b236144b048f refs/heads/asoc-6.2
+f337703b229f6031a40199dfe050e04065cea0e8 636be128d659131739df62e08455bbf6678fc58b refs/heads/asoc-6.3
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmPRyQkACgkQJNaLcl1U
-h9CesAf/c6teDj2bdXesC61wYGm7A2+LLIq/B/+JNkrXfXthlwr3HEEbZSOrf88J
-zcsw2BeSIWuv2NVnWs2WKIvGrp5t2CIYCMbl4lMpXtOF0MK5kOQGUWo5Y7Dn6rO4
-PyovqUK7DZLfkRl5odM9wUoWxC43/HlZ7eanu4E16ffyoHTyiXSkoLATRRQoP7DX
-Dht+vsAfG0GtSfifGLpmzuaqSJAaCUpOFhZMneGUktATNCzDnxamYcyDjO4VNkai
-VUrBDn8pSou4bHPSKxz87ls9h0Vlz2Ea09ny2rQCmQ2YNOXFs+ZpOvscGPzgyRUV
-/wwkpc2J1uwQiX+mBeBbyyF7GQJ2kA==
-=lYB8
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmPRyRAACgkQJNaLcl1U
+h9Bf4wf/aEDs6VlYyc8d3KNJMDDHG7VX++Vg8IX3dEZqaayo5jf4SFXCigrJMD/Z
+02v3tkwgEhO/dbDOUsrE29RztSaxuCVVhKysUv7Jo55tV/bzf2KzMGnJWiYQ49xA
+Rb70tFtBbC5Xw2SQ8LFZeDTKWoP4HqhhVLVBDDtWFwia5+CAGNhhcaICw0RjbaAr
+Fm9JGV3nu+yPs+XuACoAOctSHQTRUZniVomwWg5QMDD/yefhNQKYjjCIdVMClkgz
+9JMB3pOX0roXB5gUU/6VPfXmo+1zQWwx/kPnwzGArsQQ5W9rFQnGITbgESt8zDzd
+cqRFooWVhzq4Z+H7dKFZ9rOljz5d+A==
+=Guk9
 -----END PGP SIGNATURE-----
 
---===============7093669938193092281==--
+--===============6472482705894914855==--
