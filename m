@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6933694319044841747=="
+Content-Type: multipart/mixed; boundary="===============6972872034304302038=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Thu, 26 Jan 2023 03:48:46 -0000
-Message-Id: <167470492666.25273.8484902174575353105@gitolite.kernel.org>
+Date: Thu, 26 Jan 2023 03:48:57 -0000
+Message-Id: <167470493761.25415.4853192844712546795@gitolite.kernel.org>
 
---===============6933694319044841747==
+--===============6972872034304302038==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/kbuild
+  - ref: refs/heads/for-next
     old: 52bbb0f44e7dcd326ac3de322a755af2ac45c4e1
     new: fd43a7525d8017b3b7123be0b75efb144889e63e
     log: revlist-52bbb0f44e7d-fd43a7525d80.txt
 
---===============6933694319044841747==
+--===============6972872034304302038==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -55,4 +55,4 @@ f3db8be4bf6788fa84c997f63143717138ab6b9f kbuild: do not re-run setlocalversion f
 3d5ec3b36aac056ac60a2d09cf3318f350a26ef5 powerpc/vdso: Filter clang's auto var init zero enabler when linking
 fd43a7525d8017b3b7123be0b75efb144889e63e kbuild: fix trivial typo in comment
 
---===============6933694319044841747==--
+--===============6972872034304302038==--
