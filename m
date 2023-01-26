@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
-Date: Thu, 26 Jan 2023 20:25:16 -0000
-Message-Id: <167476471602.21415.12847656678239115084@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
+Date: Thu, 26 Jan 2023 20:26:14 -0000
+Message-Id: <167476477493.21788.397857793931601004@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/qcom/linux
-user: andersson
+repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
+user: shuah
 changes:
-  - ref: refs/tags/qcom-arm64-for-6.3
+  - ref: refs/tags/linux-kselftest-fixes-6.2-rc6
     old: 0000000000000000000000000000000000000000
-    new: da3e0e502ca84ef4b797d62b85f800b8b534ad63
+    new: 17ef8991e37a1a34a3056ab2d78814a36d0ed1f8
