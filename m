@@ -1,14 +1,14 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/helgaas/pci
-Date: Thu, 26 Jan 2023 23:39:49 -0000
-Message-Id: <167477638929.19103.14064544602695215739@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Thu, 26 Jan 2023 23:39:54 -0000
+Message-Id: <167477639484.19177.17225463022175491720@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/helgaas/pci
+repo: pub/scm/linux/kernel/git/pci/pci
 user: helgaas
 changes:
   - ref: refs/heads/for-linus
