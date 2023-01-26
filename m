@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Thu, 26 Jan 2023 00:27:34 -0000
-Message-Id: <167469285445.17484.10803391392790366849@gitolite.kernel.org>
+Date: Thu, 26 Jan 2023 00:27:41 -0000
+Message-Id: <167469286152.17563.268938276451963667@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/fileb3lZtU
-    old: 8966a72c1964f74e5a415fee8629f698ccb13342
+  - ref: refs/heads/v2_20230124_quic_bjorande_regulator_add_maxim_max20411_support
+    old: 047ebaffd8171a47eb5462aec0f6006416fbe62e
     new: 0000000000000000000000000000000000000000
