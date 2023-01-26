@@ -1,45 +1,43 @@
-Content-Type: multipart/mixed; boundary="===============7510364232599067488=="
+Content-Type: multipart/mixed; boundary="===============5903397727187787108=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dhowells/linux-fs
-Date: Thu, 26 Jan 2023 14:21:55 -0000
-Message-Id: <167474291515.4337.17913947355018846800@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/lee/mfd
+Date: Thu, 26 Jan 2023 14:30:58 -0000
+Message-Id: <167474345844.10177.4571528557604331296@gitolite.kernel.org>
 
---===============7510364232599067488==
+--===============5903397727187787108==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dhowells/linux-fs
-user: dhowells
+repo: pub/scm/linux/kernel/git/lee/mfd
+user: lee
 changes:
-  - ref: refs/heads/iov-cifs
-    old: 4335b4c632870604a3b2abf37753d9762adad5f7
-    new: 5e4413e6cbbaa87ac7bc833f2df7d21f0af25493
-    log: revlist-4335b4c63287-5e4413e6cbba.txt
+  - ref: refs/heads/for-mfd-next
+    old: 153e461670b97d42225399aecadd838e7b7a941d
+    new: dd77f5fa97d3b2b066743647aad080314c476d74
+    log: revlist-153e461670b9-dd77f5fa97d3.txt
 
---===============7510364232599067488==
+--===============5903397727187787108==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4335b4c63287-5e4413e6cbba.txt
+Content-Disposition: attachment; filename=revlist-153e461670b9-dd77f5fa97d3.txt
 
-3c00a73edb57002c99980c295111c920cafa2e45 iov_iter: Define flags to qualify page extraction.
-03755adfcb7627dab4fa64d46d682e2513d06e87 iov_iter: Add a function to extract a page list from an iterator
-9f3d6140ebbc992a494416ac73f6d55d568e5b1b netfs: Add a function to extract a UBUF or IOVEC into a BVEC iterator
-58a68a0995f4737c1263a7b080812a4ee35c85fa netfs: Add a function to extract an iterator into a scatterlist
-fc895170c8ce8be722a1497425b06974bf9f596d cifs: Fix oops due to uncleared server->smbd_conn in reconnect
-12929e4996a5d4e8a4679eb8f7baeb84d354c17d cifs: Implement splice_read to pass down ITER_BVEC not ITER_PIPE
-372ec960b8c9e5e9214884064c3f4f3abff2f973 cifs: Add a function to build an RDMA SGE list from an iterator
-32365050a7e9942d4692de87c1c38f8af5b33bba cifs: Add a function to Hash the contents of an iterator
-7f36eedaeeb9804bca2e82bd5c5a3422eb72cb9e cifs: Add some helper functions
-5acb43f63edfb7168fd36d32642aac6fd3da5a51 cifs: Add a function to read into an iter from a socket
-9f77fe4631af9cc7e82407c9c467b7e0a48271c2 cifs: Change the I/O paths to use an iterator rather than a page list
-ec747c20f96231dee30cfdc3a46d02e6affd5bfe cifs: Build the RDMA SGE list directly from an iterator
-edbf56003193785b2ca007416c8ae05d30af7959 cifs: Remove unused code
-2fea0e53624a48d10d64ea3deb60ab216ab5865d cifs: Fix problem with encrypted RDMA data read
-5e4413e6cbbaa87ac7bc833f2df7d21f0af25493 cifs: DIO to/from KVEC-type iterators should now work
+b58e90e3727ade0d58b866b4c7b37f0476f89574 mfd: qcom-pm8xxx: Remove set but unused variable 'rev'
+8b172e7afda2fb833688b2e09f1fb00728e2cb45 mfd: max8925: Remove the unused function irq_to_max8925()
+e45e61a828ae94340afb6014d71439d0a3018321 mfd: core: Spelling s/compement/complement/
+35b31967550b611a38aba12df9c749a128b2032c mfd: axp20x: Switch to the sys-off handler API
+fa6bf511cee6bc80d4b5343c6045cd8977879d87 mfd: simple-mfd-i2c: Fix incoherent comment regarding DT registration
+ebf0ef0bd26f5b3019c8ad859cefd4df71146ade dt-bindings: mfd: qcom,tcsr: Add compatible for MSM8226
+93da4768b0ff5ed1636855b37d780113dc7aa395 dt-bindings: mfd: syscon: Add amd,pensando-elba-syscon compatible
+a845c8e9cb7c2e291d82e0815261f263abc8a31e backlight: ili922x: Fix kernel-doc warnings
+071ac3edf650e34a57929e9a426d4e57e1f11481 dt-bindings: mfd/syscon: Add resets property
+93f415985bd32b839415f3f77b1cdcd314858447 mfd: syscon: Allow reset control for syscon devices
+6a81e84150062b124485e31b73c642d2423df4c2 mfd: arizona: Use pm_runtime_resume_and_get() to prevent refcnt leak
+cd4589d241faaca08b179392f82843ade237ab6e mfd: Remove htc-pasic3 driver
+dd77f5fa97d3b2b066743647aad080314c476d74 mfd: Remove toshiba tmio drivers
 
---===============7510364232599067488==--
+--===============5903397727187787108==--
