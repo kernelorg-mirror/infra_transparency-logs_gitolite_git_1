@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8438032601071862309=="
+Content-Type: multipart/mixed; boundary="===============4952042602028731205=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Fri, 27 Jan 2023 03:11:54 -0000
-Message-Id: <167478911421.4226.3920110584039938355@gitolite.kernel.org>
+Date: Fri, 27 Jan 2023 03:12:11 -0000
+Message-Id: <167478913127.4401.17922159432524393840@gitolite.kernel.org>
 
---===============8438032601071862309==
+--===============4952042602028731205==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,41 +16,77 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/fixes
-    old: 0bfe63d075789456e9589457b29d6f9c279e3252
-    new: 15600159bcc6abbeae6b33a849bef90dca28b78f
-    log: |
-         2542fc9578d49b3b376231269d4c7c7d4cffd62a scsi: core: Fix the scsi_device_put() might_sleep annotation
-         15600159bcc6abbeae6b33a849bef90dca28b78f scsi: Revert "scsi: core: map PQ=1, PDT=other values to SCSI_SCAN_TARGET_PRESENT"
-         
+  - ref: refs/tags/mkp-scsi-queue
+    old: fd755b6af6d07214d8fecca2b55bef732901015b
+    new: fdf1976af911a0bb27e2f3a6b4e84e6148e62f06
+    log: revlist-fd755b6af6d0-fdf1976af911.txt
 
---===============8438032601071862309==
+--===============4952042602028731205==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1674789102 -0500
+pusher 75C5DE3D 1674789118 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1674789102-0c56dd00545a40739f53d9858e709fc1bb3b9cc1
+nonce 1674789118-97d28db19dd15acfff71969cdaa0b06f1b6872c0
 
-0bfe63d075789456e9589457b29d6f9c279e3252 15600159bcc6abbeae6b33a849bef90dca28b78f refs/heads/fixes
+fd755b6af6d07214d8fecca2b55bef732901015b fdf1976af911a0bb27e2f3a6b4e84e6148e62f06 refs/tags/mkp-scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmPTQO4ACgkQ7ulgGnXF
-3j3otg/5ASNBZcpDsq7L2AVK/zg0Rk0xIoqI43LlqaYYnDgKeKs0X3Ju9+137las
-ngL3pe9doWp1xyJV0njsR2NcQunidUnU0V/OdDqbeFS0rYGGnesk0xvqf2EbhWt8
-1C0p9qC/ugZca17YNaJja/nL8s0OsNImVMjSX5Rz+lYfGVz//ZWWKgXBIjPgX6w3
-PI1hlW7j3MZrmNfp/CBCj97w1Rmfzb8vdegbRmejhSedCpu4YyfprHVcqMnSVvS1
-rDd35PXDhg41dEf4m//MUF8+L8KemQ7ViKuYpJAcIz0zWnjZL9IalHlvKHV3JUWE
-a3rM5AWBLehD7CnhJfbNce8Md0wEfCKJQ/r0T/xQb2tdQiOCPfK9M1D/kMr6id3S
-XrSV3EZidQm8TkOTdAOISWSRvT085A4kUjvJgUmJAkh1HhWvbQFrUSEcrhvag5/t
-uCBTOcT1CHm8RA/5ZjtZFhRfgFc84M0cemOWw5JPgdmBnLbaag1xgg++CI7gEPMq
-g4umXOZeXjMnGtetbVS6e0xVVfbRBdogDRtLQ/9lT8Bb8a7JgHraOEeY42X/X+M7
-gTRmpHrCFxPOoJMIQMcGAm/r766JUT/OVVtGZOVDzX5TFcLF4qJRTrQpnAn+nFUb
-miCHXTcIV0u90SbBNrKZO5NbwwHxQ8/Hs8d2sl3LQBJAUq3ItWU=
-=3Xt6
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmPTQP4ACgkQ7ulgGnXF
+3j3uGBAAtes53+dAVBN4toqbDs1K4CwobsXcGQYbxg30k+cHvh+letNVaIfIuwmj
+bZPWTT9ywYjFhNURn+93m/uVOtUPT86i+6QH72bq4pDHVyYdSrASXwGbfHYeAFRc
+A7+cQgrTI4VXoH3+O09nLOfalZE+0qfNj0S246uIqVzL3BJw4CvQtc86KpRAQx/m
+x/E+lpO09GfcDY8gRiMHA/PCQ62EqrgO5yDIGoLfMXG1sGA7+XjhebfdIzN4NVgt
+L1Ki3tXoIxI7TlAbxcI1Ynuz9SItwHUzlmijpcF5qxI1iVGGbL2Co/k3nLQd2hoT
+Nr20PMlSHeypHRIDmfz6PI8n3PVNu9/clNMCjCqEWBRjP0dHeHOXkJAB7vmiAk+C
+gX7cwXVm1GeRS3aVbqd1FXQSY1090Cl0PHwX8iSlRRgKBLbByUCPyNuGvj4gF+Gk
+pi8qRMojBB37OUYvCo8xSQmOX60UKFlh/bQjoh30hLtJS3VOzoZT9Yh2tD/lKyrD
+9d2ZZfwzegH7FDqjAOAQsYm9K5UVzwBPjIXSjb7RH5kBQrYs2kUTYWXJyTKI98Ui
+hrFiXWGdBDkkJGBG+5rLtj7mfA/9JYHEjeLTty+rdUca7a2bUMMMmOEFTlTEHOb/
+0ntzjo3Xy83pQmZZUFNlY+okPFs79EytXFS/4j+8pxTcx7YGvb4=
+=F8Sy
 -----END PGP SIGNATURE-----
 
---===============8438032601071862309==--
+--===============4952042602028731205==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-fd755b6af6d0-fdf1976af911.txt
+
+d0949565811f0896c1c7e781ab2ad99d34273fdf scsi: core: Add struct for args to execution functions
+5fa7b072677513e934242eab85772c0bfc84859b scsi: ata: libata-scsi: Convert to scsi_execute_cmd()
+08e95a2ba4bbbb968e7ee0cc946e7d2c51742e92 scsi: hwmon: drivetemp: Convert to scsi_execute_cmd()
+ed226f0889a3c79d059564ba3fc1dcf5825f655c scsi: ch: Convert to scsi_execute_cmd()
+31fc28c6b13eedb6da2c60414088c007432436d1 scsi: scsi_dh: Convert to scsi_execute_cmd()
+7dfe0b5e7ca67c659475883712c1d0449f900f9c scsi: core: Convert to scsi_execute_cmd()
+c9ee828aad6919b7eee7ef2059489c7221edf68a scsi: spi: Convert to scsi_execute_cmd()
+af16cd63d9d3b790ecfce3c053595a98f181e025 scsi: sd: Convert to scsi_execute_cmd()
+6ff236e847aa7817a985122ccef7e0f422eb8564 scsi: zbc: Convert to scsi_execute_cmd()
+ae4145a5f25e56b0248b38f913c5cc370cde723a scsi: ses: Convert to scsi_execute_cmd()
+49d33b6245d91a2ca20755cd4edf86dd0e49649e scsi: sr: Convert to scsi_execute_cmd()
+5314ce761fbf3bef2b5aae5e5562e782a5026e7c scsi: virtio_scsi: Convert to scsi_execute_cmd()
+e335795f27d0ab5260e4681f14be8f8c915ac1a7 scsi: target: target_core_pscsi: Convert to scsi_execute_cmd()
+1035c9893f15e801456dddd547ea52ae8f6a1e1f scsi: cxlflash: Convert to scsi_execute_cmd()
+946a10511f6588c20bbd312be15d64cc3c3fc796 scsi: core: Remove scsi_execute_req()/scsi_execute() functions
+0c0d806908bd1a230fe3d6faef898e84a616c17c Merge patch series "scsi: Add struct for args to execution functions"
+a9a3629592ab7442a2e9d40281420b51c453ea9b scsi: megaraid_sas: Add flexible array member for SGLs
+3730bea883cd8f74fd9b2b31d51665c74cf73362 scsi: ufs: ufs: Remove duplicate entry
+fd5df558c31e2212b5bdd7a71afcc48f3e2c62dd scsi: MAINTAINERS: Add entry for Exynos UFS driver
+d794a23113b1a198e3d05f144aeba5b6ac87fe99 scsi: qla2xxx: Fix printk() format string
+1eeedfad9a14898dd1522a6c77d8b33ac2e4b780 scsi: mpt3sas: Demote log level for trace buffer allocation to info
+7edd053b3327a3d4e3378c9f932cf959d3249c7f scsi: ips: Replace kmap_atomic() with kmap_local_page()
+a3e2e248fd77a00931320875910ef73e071ac7dd scsi: ipr: Replace kmap() with kmap_local_page()
+54c51253b3d5544943fc3ec072cd0194915bac30 scsi: qla2xxx: Make qla_trim_buf() and __qla_adjust_buf() static
+85e182b48a33a44f3e0cfe6e7ee9da15baa0afce scsi: ufs: qcom: dt-bindings: Allow 'dma-coherent' property
+2aa0f83edb1c5a341f0aca209b0ecd74672fb3fa scsi: elx: libefc_sli: Use "/*" for non-kernel-doc comment
+4fd62973739de61cf4c83b960db7d1824bd854a3 scsi: qla2xxx: Use a variable for repeated mem_size computation
+5a5ef64f28edda2d62109e9dfc87a9212f06bf5b scsi: qla2xxx: Simplify if condition evaluation
+86bd0c4a2a5dc4265884648cb92c681646509692 scsi: ufs: exynos: Fix DMA alignment for PAGE_SIZE != 4096
+9a80bc5debf74b09f3a8bbc02cfba8d04e2048d0 scsi: ufs: exynos: Fix the maximum segment size
+13f87983fb91454e4a534bb41b5b2b43afe97798 scsi: ufs: core: Enable DMA clustering
+5adca38c0b97502e35e4df00d9edf4e85ba21dab Merge patch series "Enable DMA clustering in the UFS driver"
+
+--===============4952042602028731205==--
