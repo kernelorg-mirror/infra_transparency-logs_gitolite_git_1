@@ -1,24 +1,42 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ulfh/mmc
-Date: Fri, 27 Jan 2023 10:56:19 -0000
-Message-Id: <167481697911.1719.2398939809612032335@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============3446914862057081779=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/herbert/cryptodev-2.6
+Date: Fri, 27 Jan 2023 11:07:10 -0000
+Message-Id: <167481763097.8089.2138975492988221517@gitolite.kernel.org>
+
+--===============3446914862057081779==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ulfh/mmc
-user: ulfh
+repo: pub/scm/linux/kernel/git/herbert/cryptodev-2.6
+user: herbert
 changes:
-  - ref: refs/heads/next
-    old: b1d908e6c71ea7cf2d7952e97461f320a0c6277f
-    new: 2cda1de0cb578900de6ac17a32d1d859f4798b99
-    log: |
-         124a4c13a84d98ca6cbe950a591c3b3acaee7694 dt-bindings: mmc: sdhci-msm: Document the IPQ9574 compatible
-         d5d4a2bc5fb83266a0a488767cad49da23c087a1 dt-bindings: mmc: sdhci-msm: add IPQ5332 compatible
-         eca5bd666b0aa7dc0bca63292e4778968241134e mmc: atmel-mci: fix race between stop command and start of next command
-         388dcd9505a40dbff7016a01ae02de4e946acf82 dt-bindings: mmc: uniphier-sd: Add socionext,syscon-uhs-mode property
-         1c325ed9f95ad283926753558d364df1cd73410a mmc: uniphier-sd: Add control of UHS mode using SD interface logic
-         2cda1de0cb578900de6ac17a32d1d859f4798b99 mmc: uniphier-sd: Add control to switch UHS speed
-         
+  - ref: refs/heads/master
+    old: d6b7ec11062e116f44a504f73f16c97e1cc53bd0
+    new: 42a9a08b9aa69134981d1564f95eb06c0469eff3
+    log: revlist-d6b7ec11062e-42a9a08b9aa6.txt
+
+--===============3446914862057081779==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-d6b7ec11062e-42a9a08b9aa6.txt
+
+675c39196ce3b47307dfc339dade6e6946ee1e1b crypto: ccp - Provide MMIO register naming for documenation
+4fc790d7d6b15eb4b90d297eb8c93589748e0c49 crypto: ccp - Add a firmware definition for EPYC gen 4 processors
+a482b02d6ae0d82c3c616ec0fb2a7b3080707e48 dt-bindings: rng: Add StarFive TRNG module
+c388f458bc34eb3a5728b67f6614f9375cd99087 hwrng: starfive - Add TRNG driver for StarFive SoC
+1b4744e107e3d6eeda6473fefee5e2b904b85b8b crypto: testmgr - disallow certain DRBG hash functions in FIPS mode
+aaf16cdca641267c93aa0826de5f13582304bcb8 crypto: aspeed - change aspeed_acry_akcipher_algs to static
+e9040736d24852a618602300beec1f35fe0c42f8 crypto: aspeed - Use devm_platform_get_and_ioremap_resource()
+e16dda2b69ba36c01522735221f08e9dd8f438d3 crypto: cryptd - Remove unnecessary skcipher_request_zero
+654627ad0beeb8658cbb809028a0e17df961ee9d crypto: bcm - Use subrequest for fallback
+4bc713a49d7f97f7328e5a595b8f5d231d9ebfca crypto: caam - Use ahash_request_complete
+51c082514c2dedf2711c99d93c196cc4eedceb40 crypto: xts - Handle EBUSY correctly
+42a9a08b9aa69134981d1564f95eb06c0469eff3 crypto: engine - Fix excess parameter doc warning
+
+--===============3446914862057081779==--
