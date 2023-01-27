@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chunkuang.hu/linux
-Date: Fri, 27 Jan 2023 14:52:58 -0000
-Message-Id: <167483117873.28886.7192599072273149571@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/lee/mfd
+Date: Fri, 27 Jan 2023 14:59:51 -0000
+Message-Id: <167483159111.32510.11198911645649446379@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chunkuang.hu/linux
-user: chunkuang.hu
+repo: pub/scm/linux/kernel/git/lee/mfd
+user: lee
 changes:
-  - ref: refs/heads/mediatek-drm-next
-    old: 4deef811828e87e26a978d5d6433b261d4713849
-    new: 5bf1e3bd7da625ccf9a22c8cb7d65271e6e47f4c
-    log: |
-         5bf1e3bd7da625ccf9a22c8cb7d65271e6e47f4c drm/mediatek: mtk_drm_crtc: Add checks for devm_kcalloc
-         
+  - ref: refs/heads/ib-mfd-fpga-hwmon-6.3
+    old: 0000000000000000000000000000000000000000
+    new: 869b9eddf0b38a22c27a400e2fa849d2ff2aa7e1
