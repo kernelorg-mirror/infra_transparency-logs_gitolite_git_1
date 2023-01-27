@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lee/leds
-Date: Fri, 27 Jan 2023 14:44:01 -0000
-Message-Id: <167483064165.21452.14810591720415874948@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chunkuang.hu/linux
+Date: Fri, 27 Jan 2023 14:52:58 -0000
+Message-Id: <167483117873.28886.7192599072273149571@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lee/leds
-user: lee
+repo: pub/scm/linux/kernel/git/chunkuang.hu/linux
+user: chunkuang.hu
 changes:
-  - ref: refs/heads/ib-leds-led_get-6.3
-    old: 0000000000000000000000000000000000000000
-    new: abc3100fcba6827444ef4bdb17065ac3b6619dff
+  - ref: refs/heads/mediatek-drm-next
+    old: 4deef811828e87e26a978d5d6433b261d4713849
+    new: 5bf1e3bd7da625ccf9a22c8cb7d65271e6e47f4c
+    log: |
+         5bf1e3bd7da625ccf9a22c8cb7d65271e6e47f4c drm/mediatek: mtk_drm_crtc: Add checks for devm_kcalloc
+         
