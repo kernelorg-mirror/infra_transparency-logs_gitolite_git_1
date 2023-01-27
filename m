@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
-Date: Fri, 27 Jan 2023 20:40:41 -0000
-Message-Id: <167485204159.4421.3712109688014663650@gitolite.kernel.org>
+Date: Fri, 27 Jan 2023 20:41:09 -0000
+Message-Id: <167485206922.4640.13506299054066176018@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/kees/linux
 user: kees
 changes:
-  - ref: refs/heads/for-next/hardening
-    old: a5f5ee7c49da5aeee225c1bdc5bab78a5f40e6ce
-    new: a8c55407a7230798eb157ed2cf5398a6a2b123b6
+  - ref: refs/heads/for-next/kspp
+    old: 4ac407f73b40f60db7014fc60a6420219dd92d3f
+    new: 82737f3d012853ec0407861121492074db969f3d
     log: |
          4076ea2419cf15bc1e1580f8b24ddf675fbdb02c drm/nouveau/disp: Fix nvif_outp_acquire_dp() argument size
          16a738f2f6b31f9edf0691e0f357539f7ac66662 i915/gvt: Replace one-element array with flexible-array member
@@ -22,4 +22,5 @@ changes:
          8500689095a39a8c245ba62709f5e8735668e535 net/i40e: Replace 0-length array with flexible array
          aa85923a954e7704bc9d3847dabeb8540aa98d13 crypto: hisilicon: Wipe entire pool on error
          a8c55407a7230798eb157ed2cf5398a6a2b123b6 lib/string: Use strchr() in strpbrk()
+         82737f3d012853ec0407861121492074db969f3d Merge branches 'for-linus/hardening' and 'for-next/hardening' into for-next/kspp
          
