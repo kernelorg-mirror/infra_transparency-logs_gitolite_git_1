@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4104781642125283321=="
+Content-Type: multipart/mixed; boundary="===============5512048304305529513=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Fri, 27 Jan 2023 03:47:00 -0000
-Message-Id: <167479122006.29065.10906307768541141318@gitolite.kernel.org>
+Date: Fri, 27 Jan 2023 03:47:19 -0000
+Message-Id: <167479123930.29302.17362848834039587583@gitolite.kernel.org>
 
---===============4104781642125283321==
+--===============5512048304305529513==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jejb/scsi
 user: jejb
 changes:
-  - ref: refs/heads/misc
-    old: 201e0a7c7f36ccb70b532e04ea2f48031f219e74
-    new: 85e182b48a33a44f3e0cfe6e7ee9da15baa0afce
-    log: revlist-201e0a7c7f36-85e182b48a33.txt
+  - ref: refs/heads/for-next
+    old: 4be502c27dba8c0d451e550f71fab8e6061c78c3
+    new: e9f87b59c685600bf02d544b9575464951821ce2
+    log: revlist-4be502c27dba-e9f87b59c685.txt
 
---===============4104781642125283321==
+--===============5512048304305529513==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-201e0a7c7f36-85e182b48a33.txt
+Content-Disposition: attachment; filename=revlist-4be502c27dba-e9f87b59c685.txt
 
 64b6deadc938b37717aa1338715cb7ef5e7d444c scsi: uapi: Replace 0-length array with flexible array
 6e1d850acff9477ae4c18a73c19ef52841ac2010 scsi: ufs: core: Probe for EXT_IID support
@@ -72,5 +72,16 @@ d794a23113b1a198e3d05f144aeba5b6ac87fe99 scsi: qla2xxx: Fix printk() format stri
 a3e2e248fd77a00931320875910ef73e071ac7dd scsi: ipr: Replace kmap() with kmap_local_page()
 54c51253b3d5544943fc3ec072cd0194915bac30 scsi: qla2xxx: Make qla_trim_buf() and __qla_adjust_buf() static
 85e182b48a33a44f3e0cfe6e7ee9da15baa0afce scsi: ufs: qcom: dt-bindings: Allow 'dma-coherent' property
+bbbd25499100c810ceaf5193c3cfcab9f7402a33 scsi: hpsa: Fix allocation size for scsi_host_alloc()
+ba81043753fffbc2ad6e0c5ff2659f12ac2f46b4 scsi: ufs: core: Fix devfreq deadlocks
+6f1d64b13097e85abda0f91b5638000afc5f9a06 scsi: iscsi_tcp: Fix UAF during logout when accessing the shost ipaddress
+f484a794e4ee2a9ce61f52a78e810ac45f3fe3b3 scsi: iscsi_tcp: Fix UAF during login when accessing the shost ipaddress
+0bfe63d075789456e9589457b29d6f9c279e3252 scsi: device_handler: alua: Remove a might_sleep() annotation
+69cedd0fb08e6064bdd507c9ae5ac9c989c7a853 Merge branch 'misc' into for-next
+a866b27fe4656ef64f7394837c86e0f39490a7ba Merge branch 'fixes' into for-next
+2542fc9578d49b3b376231269d4c7c7d4cffd62a scsi: core: Fix the scsi_device_put() might_sleep annotation
+15600159bcc6abbeae6b33a849bef90dca28b78f scsi: Revert "scsi: core: map PQ=1, PDT=other values to SCSI_SCAN_TARGET_PRESENT"
+3869e16d03b81cdf702cdd92970e1f2cc62b5b1f Merge branch 'misc' into for-next
+e9f87b59c685600bf02d544b9575464951821ce2 Merge branch 'fixes' into for-next
 
---===============4104781642125283321==--
+--===============5512048304305529513==--
