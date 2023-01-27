@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0525148246970707985=="
+Content-Type: multipart/mixed; boundary="===============5004608883940077306=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Fri, 27 Jan 2023 09:05:17 -0000
-Message-Id: <167481031762.11425.15583533220834241415@gitolite.kernel.org>
+Date: Fri, 27 Jan 2023 09:05:32 -0000
+Message-Id: <167481033271.11566.17726078458459512430@gitolite.kernel.org>
 
---===============0525148246970707985==
+--===============5004608883940077306==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,41 +16,41 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-testing
+  - ref: refs/heads/driver-core-next
     old: 0b2a1a3938aad80fb19cb53cbbd4679eeb37e3a8
     new: 8e3938a5d2d89d8a4b9688ba9cbec500640d401d
     log: |
          8e3938a5d2d89d8a4b9688ba9cbec500640d401d docs: embargoed-hardware-issues: add embargoed HW contact for Samsung
          
 
---===============0525148246970707985==
+--===============5004608883940077306==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1674810316 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1674810332 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1674810314-795c6d1dd6e1b70ea6df552920feb354312eefc2
+nonce 1674810330-47b5fe1e854b58a2d03f8056856b34e2bfe634dd
 
-0b2a1a3938aad80fb19cb53cbbd4679eeb37e3a8 8e3938a5d2d89d8a4b9688ba9cbec500640d401d refs/heads/driver-core-testing
+0b2a1a3938aad80fb19cb53cbbd4679eeb37e3a8 8e3938a5d2d89d8a4b9688ba9cbec500640d401d refs/heads/driver-core-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPTk8wbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ksoP/R6GeByHCVSGmkkxP8OC
-cHamIyyC6udxZWK8KRP7RSYjyXJxLJgU2tSx9muY9Grn6qykrxCU8yoeQakqZYTO
-EnidXV+AdQbSQTac39y1Zvp3XiQxiIxa9ujKD0E2me2AKHPS3gC054e0apHRpMFL
-/fSvSKia+S/FxLZW2pIqFnoNmO1cVN9EnbSJXRr0cw7/OR/SwoJw2Fn62eBYYmld
-ku+1MaW3l7OOt0ZtqDuGLoU9xvE+MesVS7wKSxKpaOOzhSGaqYvP1FgQ39V5zcXQ
-VracJDEX+FM9hgdhpMiMhcXYlQ5nxn9sWkXbP8EuGC367bWW+XokxRjCWvUor2Mx
-6IdRx0R37wj65J3/40zQOSvOlQ0/xn0q5O8PKHmpReEK1xnKBFHaDXbcVQU09/Wm
-AGFzeKpyi85+eFSrh9UQxD9emWwZ+FFnW+SvfUXPZeVU0OYql7n/Ume3bK+v9IeA
-YKrv6rIBBA0in9S28ReoWOjA5ryH4QEuzaSYa7JEVAEl+vdUZsJZ+c8AoPoGKzUg
-NYh+LVTA7WrB1e65Zw2iO6wwZ9YgroAwnhmsHXJBhUkj27HU435bt4FSptuQc6Kw
-ohxRbZK/qkuTMd6knNjcchHTxynEftowQn01csIcFGSk92PAGBwy2dlRc0fakYQF
-gjCpsFIcs3pjpQZlVLqsBDtZ
-=Xli7
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPTk9wbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+E0cP/Rq6vRVZ11Sw8Lvqlz5/
+Nj8mJ/YTh4edZKv3lm8lvT8FbbAmqmNqRmdoRqnDcJB47au/sIVKABwJB4L4AKzm
+sfNkRJXtlpFg0inpgz6P6aycprKeX+CO8SfkaVMHe5YnKEDwGb2Qn66gpVeZ/p7T
+HRFdl3W8heISXOo1sgq38t+GXKxYPI5wpRCyoTbUDhyg55bmAktBpuaNCCb/BCgx
+Cbi8Cm2Eu26huoaA4pnqVWj0+TB+Skcp1JALmdr2+OQYcg96/ESI3rSXirlDn17+
+x5M/4wh1NRv4w1gR1vB76TqqWmcnkb8TJ1ydKdhNWiZ4cNhCFJ8PuERicdsOAzhX
+vM+3bA8xfWE8PGFCV1I1dIFGzS3o1ov7wPEVA+7yev7+vtpktykTjPG5b0cBo6sB
+K5R1BC9Zxd1ugze8KLtDzKbJ5gfLyLoKwtpsZrDrClwzZyDQpzYxK4V70htWar02
+slrLTk8hJxwSFex/BeDlnAV6WaR+m5YjV+n3jx0Sn/n5VjzznbP3ELl8xYNi14DD
+5EirfIi5JWglRNj+L2+vbdpc5oswdaTroxsyHPlYOEe3BksGiToMBpzmy3Do47bw
+6AwljpZUvyZnvHzq3PE2/yZSWZKmf34jWunpA+l7lLaAcAam4uwiSUPRhA8Kxlfs
+xvg4Lsiriqlo8O39whpnlTll
+=5cbF
 -----END PGP SIGNATURE-----
 
---===============0525148246970707985==--
+--===============5004608883940077306==--
