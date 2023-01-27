@@ -1,22 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rppt/linux
-Date: Fri, 27 Jan 2023 09:55:18 -0000
-Message-Id: <167481331891.26246.17741077787198449395@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec
+Date: Fri, 27 Jan 2023 10:11:58 -0000
+Message-Id: <167481431874.3534.14980481305181429574@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rppt/linux
-user: rppt
+repo: pub/scm/linux/kernel/git/klassert/ipsec
+user: klassert
 changes:
-  - ref: refs/heads/misc/pfn_valid/v2
-    old: 5a8be8cb33efc2dc2260a66a748d3d9dd1ee0895
-    new: d155b3698ab1a295c1db9d8729ce2645147739f8
-    log: |
-         319585aaed391355e04ac4ed0050804f16e9832c arm: include asm-generic/memory_model.h from page.h rather than memory.h
-         c2fee188238d324994481300b19a8e5147bfcd83 m68k: use asm-generic/memory_model.h for both MMU and !MMU
-         b36a8bd452f6baf290a9fd8a45195f86bd798d73 mips: drop definition of pfn_valid() for DISCONTIGMEM
-         d155b3698ab1a295c1db9d8729ce2645147739f8 mm, arch: add generic implementation of pfn_valid() for FLATMEM
-         
+  - ref: refs/heads/testing
+    old: a8778608120c0f9aed41dde40c3e96e361e6dcec
+    new: 0a9e5794b21e2d1303759ff8fe5f9215db7757ba
