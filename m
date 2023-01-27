@@ -1,28 +1,61 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mani/mhi
-Date: Fri, 27 Jan 2023 07:02:11 -0000
-Message-Id: <167480293190.26714.8302295580657532091@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============5151245014794554437=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Fri, 27 Jan 2023 07:12:29 -0000
+Message-Id: <167480354912.394.10457970809471441268@gitolite.kernel.org>
+
+--===============5151245014794554437==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mani/mhi
-user: mani
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/mhi-next
-    old: 1fd1028934567d34a6a745d4de4ec0859e748945
-    new: 62c0f48fa940d5c9f96b55b79c6c1b9cec6d0d45
+  - ref: refs/heads/master
+    old: a51f52ff9572a8c5f2d719828d13e85ae480934e
+    new: 20bfbebcfe83fd0823b0eced9fc7ca4edf0642b3
     log: |
-         1501da7696b23c9a211aca732801156b90d3e4ba bus: mhi: Update Makefile to used Kconfig flags
-         a33ca17426c0dcd21d9266f708de0559a936e229 bus: mhi: host: Update mhi driver description
-         47a1dcaea07367c84238e71c08244ae3ed48c1cc bus: mhi: ep: Power up/down MHI stack during MHI RESET
-         6de4941c0215ac1ea54918ace695a28f4a5ca89b bus: mhi: ep: Check if the channel is supported by the controller
-         e6cebcc27519dcf1652e604c73b9fd4f416987c0 bus: mhi: ep: Only send -ENOTCONN status if client driver is available
-         8e697fcfdb9809634e268058ca743369c216b7ac bus: mhi: ep: Fix the debug message for MHI_PKT_TYPE_RESET_CHAN_CMD cmd
-         8d6a1fea53864cd9545741f48f4ae4df804db557 bus: mhi: ep: Move chan->lock to the start of processing queued ch ring
-         8a1c24bb908f9ecbc4be0fea014df67d43161551 bus: mhi: ep: Save channel state locally during suspend and resume
-         1ddc7618294084fff8d673217a9479550990ee84 bus: mhi: ep: Change state_lock to mutex
-         62c0f48fa940d5c9f96b55b79c6c1b9cec6d0d45 bus: mhi: ep: Fix off by one in mhi_ep_process_cmd_ring()
+         8bc0abca577b5777b5d7ab6061cefa923ddf2bd7 4.14-stable patches
+         4c35d58632f8ef151b72f8b277e62668376515e2 4.19-stable patches
+         6b468bdc30fb3206b0493fe4f5db465c303163cc 5.4-stable patches
+         770c4fadfef8839b235e798a82305bcd49081f60 5.10-stable patches
+         cd68d7a48077e86c38fb15ed4463892abdb1b66d 5.15-stable patches
+         20bfbebcfe83fd0823b0eced9fc7ca4edf0642b3 Merge branch 'master' of gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue
          
+
+--===============5151245014794554437==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1674803548 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1674803546-a4d877dac2d2096e19ab313a85ece29cafb92d62
+
+a51f52ff9572a8c5f2d719828d13e85ae480934e 20bfbebcfe83fd0823b0eced9fc7ca4edf0642b3 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPTeVwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+sjQP+wYRn1aLB2FuUgpnzhzt
+9Nc+IhyVfCUehUvA+DGkqNoTvqa4OzuAOegh0zwTD2GfkLCXotewjVJTWucTf3oy
+BomdlLL1J/JlNIJU35tAdSVIo8FZ3422IFHApAq+8Z8eExaQctrNhFKQ/Zxz5pIe
+dMKCKVqwjKgfsibcaBU6z1uzlTpKif2MFb6tWtv5SdsbkwM6/k8/3uT9mW1y+hZ7
+JUJkWrEhrQlDZf1NL6lxbQjc5CBxiDfpD0ZY5k7JrhbWk21QLLAkwThNWcsTompT
+9vmpVAUixlctGna+jnGMtrHgW6MKFfgTUib+ulmbwNhpCk3BeYhapxdTtJwb4mbw
+alvEuFE4M7O0E+BEQYfVTwCRWMOC+u8jJQ2cRaDjGvj9GZcg3/SESDDQQ67aHsi5
+nO0rHVUwlNugMeJgjwCv3DGKp/nIsoStzrLxh4uQpxJNxBmeFVJqPnS37hnQ1XxB
+cNEVAyYNTPTNo6fx7OZuGNl4NKwaIPdoQG8OmMA+8+gN9V/pME+kf5ocK88QtstO
+Ltziy6XrKZ+hzO4O8nPAfeFXaDy2XGYz+GtJltySlczbkm6fZLh2n3gzTPkqd4+h
+tFWO9I988M5G6QYjvrO9etIn4X92Au0t0TTQGHlpEmEkqPPidWx4DbL3SEeuY3eq
+DKJWrcclijQlyUFf7O7u2yGi
+=eydy
+-----END PGP SIGNATURE-----
+
+--===============5151245014794554437==--
