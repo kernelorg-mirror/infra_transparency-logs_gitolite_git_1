@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6608906359500377699=="
+Content-Type: multipart/mixed; boundary="===============4786262591221762362=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Fri, 27 Jan 2023 03:11:24 -0000
-Message-Id: <167478908403.3932.18338812603567402275@gitolite.kernel.org>
+Date: Fri, 27 Jan 2023 03:11:39 -0000
+Message-Id: <167478909916.4080.5436304769608114121@gitolite.kernel.org>
 
---===============6608906359500377699==
+--===============4786262591221762362==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,41 +16,41 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-fixes
-    old: 93690168ee6e541bdab54d4c64aba3f31494801f
-    new: 6702037d1b3148c137a57605f1b6950feaff75c7
+  - ref: refs/heads/6.2/scsi-fixes
+    old: 0bfe63d075789456e9589457b29d6f9c279e3252
+    new: 15600159bcc6abbeae6b33a849bef90dca28b78f
     log: |
          2542fc9578d49b3b376231269d4c7c7d4cffd62a scsi: core: Fix the scsi_device_put() might_sleep annotation
          15600159bcc6abbeae6b33a849bef90dca28b78f scsi: Revert "scsi: core: map PQ=1, PDT=other values to SCSI_SCAN_TARGET_PRESENT"
          
 
---===============6608906359500377699==
+--===============4786262591221762362==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1674789065 -0500
+pusher 75C5DE3D 1674789087 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1674789064-9e7e78391182393c90b97caa5d74ab8a38138d3f
+nonce 1674789087-8e86698488c248ec3977f4bb64054ce912b781ee
 
-93690168ee6e541bdab54d4c64aba3f31494801f 6702037d1b3148c137a57605f1b6950feaff75c7 refs/tags/mkp-scsi-fixes
+0bfe63d075789456e9589457b29d6f9c279e3252 15600159bcc6abbeae6b33a849bef90dca28b78f refs/heads/6.2/scsi-fixes
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmPTQMkACgkQ7ulgGnXF
-3j0fmxAAmKzJKOFGUsCcF+O4/Jhj54QQrEwvWGFUE/2wMqYb3mOURa7m1kevtfRT
-nZiVygBtptj3nFM4tSLzlvoEP1CCMFyvBMzsq+MmlHutj+f2ELFH9Q9VSQKlUuqY
-3WT3mIYQRYscvcs76vd6QmxUL6INmz5ps7dF4wTjMv1aAeUUUYhmS8jyngyesbet
-jK+ZhZgI68aaBf5WNZFBqFD/N07LWd0W1eyoPglbZ1vv8IN9eT2DV7F+sMzFnSZb
-nilcJ1modNo/Qtt47EnNUtJN0fH2D839SrBax0sol9SVuwBZ/clp82xd3TLJCQDC
-geGvN+jsGswPuszOEFKhLhp2gok2eTT4s0U+EzHpOZy63X2GVHZY+NFt5s1DVKPR
-jrOFCOnDFCgfG6Uq4ngXOP+GAWCNLByDWnFSOp49nGH6hMKZkczebyAjZ9HMpVRp
-5bNHvvioyRTvtU04rBMEq4pfsvf967WaIxbLXDvniDIP9Ehipx7O2GXXAx/hAzQA
-xQOfRqo3XT6C1R4apyacwVxPkbFRKc2N01WjhcJxtTAq6qPRA2I5GnGmeeJATWKh
-mixE+qfEN99WGDLfXYoLRHDZVw49YFU/h6WppIOaCjL6J3+nkRUPfONw0pHIG1UM
-dBh43NHX+R0RQnp4/bcAmq8TM7v91PHu+heU9uy4Qo/G4348Dmc=
-=0m/j
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmPTQN8ACgkQ7ulgGnXF
+3j30TA/9GIN0+sYuIjsgzdq4eqnIfTMId2XiUjn6LgDZhRM3xL0WeaWqpnrGBqhr
+ix4ZYro66zQEOMKSfBI9xtaZKp42Gb7MmlpKJvNXy29N4o8nAncEmFOCxSb+ej+8
+RgQERMiuZiNb8HWXUo0qZARDHZSPUq0qG+cUGhUgBBbBsRdlS46aS4dz37MoC9Hl
+x/kHSR9Zl1OZZjZZRaqSQxaCV638Jh9Ez8gqGrbZPQoGg2m306bQmZi/Wvm//qhm
+mbGHcS6K1QiH8mbbH9/W3VujnQWpruBvQt73yWGY16uhBDKqnLG0fFTaFNsvtUH1
+oZDs5oaUnFdQrW8WB5Sk4nSA+SialDJSJ1YljWgj8mbxrdbE3A0K64nbvd4wJcoE
+pHcG66mWxWz0tv3hRhDH50IB+EKlcxksJ6QBwLsR+ict9jlXmYdSWh+Mkqhr4IoD
+cs0Oxl782GiD4TLSIy9KJYlKL5FMifoX8Ce8L1dlKf4L65pdVXfk44TRkVoa2CZJ
+Z4saw2FVtYplNzAUcZNPCfZusgtznEwGiVZcH/hUQnXOmqcIgM/TLIRiswQgSu/p
+ypYsymViVJT/OFbkuRU5TD3iz65KUV3H5/jMvlBzvfn+cCWhGvHVJ5lBP7A433aP
+3atFzgpA6PQ01+/U5nGNR1f7nZaaCQ2AjHnM6B8cpAfs2tQrc1A=
+=jWVl
 -----END PGP SIGNATURE-----
 
---===============6608906359500377699==--
+--===============4786262591221762362==--
