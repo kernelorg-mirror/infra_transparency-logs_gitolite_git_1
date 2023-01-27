@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Fri, 27 Jan 2023 22:04:43 -0000
-Message-Id: <167485708315.27678.4830743132644791447@gitolite.kernel.org>
+Date: Fri, 27 Jan 2023 22:05:55 -0000
+Message-Id: <167485715523.29636.10429280791616567917@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,10 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: dborkman
 changes:
-  - ref: refs/heads/for-next
-    old: d8285883fd4157a51045287647c5f2e8cb9d3b72
-    new: e4ce876f10a21fb4e550d1743468791021a430f5
-    log: |
-         139df64d26fd5bb83cd04b330f7a849eefa1a889 libbpf: Fix malformed documentation formatting
-         e4ce876f10a21fb4e550d1743468791021a430f5 libbpf: Add documentation to map pinning API functions
-         
+  - ref: refs/tags/for-netdev
+    old: 0000000000000000000000000000000000000000
+    new: 7236f015cc82d0fe6c809a7d802839d5127e1f6c
