@@ -1,31 +1,57 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Fri, 27 Jan 2023 12:21:11 -0000
-Message-Id: <167482207162.25744.12357468774467611896@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============7905897196400451535=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Fri, 27 Jan 2023 12:24:38 -0000
+Message-Id: <167482227855.26882.9691645385536442329@gitolite.kernel.org>
+
+--===============7905897196400451535==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/20230125_amadeuszx_slawinski_asoc_topology_fixes_and_cleanups
-    old: 0000000000000000000000000000000000000000
-    new: f91603f7f9b78feec1ba1b00fcab280c367d9cec
-  - ref: refs/heads/20230127_peter_ujfalusi__from_644473b181f0f310e428301a2ed459f912eec7ea_mon_sep_17_00_00_00_2001
-    old: 0000000000000000000000000000000000000000
-    new: 251a2b11851531526260db1dbc5673a7d6177895
-  - ref: refs/heads/filebkZgcS
-    old: 0000000000000000000000000000000000000000
-    new: 0f6d2cee58f1ff2ebf66f0bceb113d79f66ecb07
-  - ref: refs/heads/filecOlkyf
-    old: 0000000000000000000000000000000000000000
-    new: aa9ff6a4955fdba02b54fbc4386db876603703b7
-  - ref: refs/heads/fileZQES7L
-    old: 0000000000000000000000000000000000000000
-    new: fad8ddda1c40c00bff4ac45eb9b85e1f717f17f4
-  - ref: refs/heads/v3_20230123_astrid_rost_asoc_simple_card_utils_create_jack_inputs_for_aux_devs
-    old: 0000000000000000000000000000000000000000
-    new: 087b9dda8658052a33031ef82a8d8ef77a7c94ea
+  - ref: refs/heads/bus_cleanup
+    old: f89fd04323f755e7437a0113d986812c3fffe03d
+    new: 8e3938a5d2d89d8a4b9688ba9cbec500640d401d
+    log: |
+         0b2a1a3938aad80fb19cb53cbbd4679eeb37e3a8 driver core: class: Clear private pointer on registration failures
+         8e3938a5d2d89d8a4b9688ba9cbec500640d401d docs: embargoed-hardware-issues: add embargoed HW contact for Samsung
+         
+
+--===============7905897196400451535==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1674822275 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1674822275-3bbb6f2d281928953767b13f329efadae0d981f7
+
+f89fd04323f755e7437a0113d986812c3fffe03d 8e3938a5d2d89d8a4b9688ba9cbec500640d401d refs/heads/bus_cleanup
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPTwoQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+4AYP/0eHq6pUL9bdp9E7EIGJ
+8QCdfUjRGQTgiZaTNNLpQ9HlM+lF7UI+px6bQP2Ief1u6CvSZb+tr6Ifv5vM8esQ
+MYN795cV+4+fgQMTgnGBJNE/YRAu5uv1mvKCA6yM1w6eoglo1R8b4L8ZWQTxnPYH
+j+yJPpMCDqgOVGjl27eXSrSbwQiAWaEu641waZns5VQqGjGuWSQ8w4uorY0jQbH5
+rWkTbTc2+lXe4h/hDjkxJ9lE/ZvqNoQiuPZ2OON8Oe4SJ5t+4t/Y9aSQXzQ1W2Yd
+K2DcWmgk5N1wLoqzhA8wFCCxh3uKJ1umL2DRzdcdoV+EtpEftFMnnRZ/FqnrFgAo
+VqjrhGwNQHLtARXZ59PWlfZgJVVug6ih/yoGAYXY3vdZOY1Ir6iQw6WiWjuVHT+J
+oxtyD95YoJ99cSX/V8eWjsD/nqhQHbmOKZA//XxawTZGEq1Ho4rrhbrgX4JIvJV9
+CL2oBm3mBV2bJDYqyI4CVlfBaqhCZhuE1yssC95t2DmuV+VHkv9gBQMhTrlU84w0
+FIG1FXQ3QnXQ7NO1l9E6IdheFo7CJ5IBm8IdMG7J8+nOCVpZ8VniIjLdHrCKJk9+
+ejHRF1a/SHRw1K/l5eykUnKiQ0agNqeAELMdiqbn6bx3QXtzOycbJnmQ7tAstue3
+nVBbdynQL6Z50IqvSof53Nyx
+=AWlE
+-----END PGP SIGNATURE-----
+
+--===============7905897196400451535==--
