@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4952042602028731205=="
+Content-Type: multipart/mixed; boundary="===============8654017859552723366=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Fri, 27 Jan 2023 03:12:11 -0000
-Message-Id: <167478913127.4401.17922159432524393840@gitolite.kernel.org>
+Date: Fri, 27 Jan 2023 03:12:26 -0000
+Message-Id: <167478914645.4550.9428126828509459333@gitolite.kernel.org>
 
---===============4952042602028731205==
+--===============8654017859552723366==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-queue
-    old: fd755b6af6d07214d8fecca2b55bef732901015b
-    new: fdf1976af911a0bb27e2f3a6b4e84e6148e62f06
-    log: revlist-fd755b6af6d0-fdf1976af911.txt
+  - ref: refs/heads/6.3/scsi-queue
+    old: 7084eadf62ca17540040a1116ac0a155c31b066a
+    new: 5adca38c0b97502e35e4df00d9edf4e85ba21dab
+    log: revlist-7084eadf62ca-5adca38c0b97.txt
 
---===============4952042602028731205==
+--===============8654017859552723366==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1674789118 -0500
+pusher 75C5DE3D 1674789134 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1674789118-97d28db19dd15acfff71969cdaa0b06f1b6872c0
+nonce 1674789134-9c2d2378d6b8383360524c4acfd05d3060980e38
 
-fd755b6af6d07214d8fecca2b55bef732901015b fdf1976af911a0bb27e2f3a6b4e84e6148e62f06 refs/tags/mkp-scsi-queue
+7084eadf62ca17540040a1116ac0a155c31b066a 5adca38c0b97502e35e4df00d9edf4e85ba21dab refs/heads/6.3/scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmPTQP4ACgkQ7ulgGnXF
-3j3uGBAAtes53+dAVBN4toqbDs1K4CwobsXcGQYbxg30k+cHvh+letNVaIfIuwmj
-bZPWTT9ywYjFhNURn+93m/uVOtUPT86i+6QH72bq4pDHVyYdSrASXwGbfHYeAFRc
-A7+cQgrTI4VXoH3+O09nLOfalZE+0qfNj0S246uIqVzL3BJw4CvQtc86KpRAQx/m
-x/E+lpO09GfcDY8gRiMHA/PCQ62EqrgO5yDIGoLfMXG1sGA7+XjhebfdIzN4NVgt
-L1Ki3tXoIxI7TlAbxcI1Ynuz9SItwHUzlmijpcF5qxI1iVGGbL2Co/k3nLQd2hoT
-Nr20PMlSHeypHRIDmfz6PI8n3PVNu9/clNMCjCqEWBRjP0dHeHOXkJAB7vmiAk+C
-gX7cwXVm1GeRS3aVbqd1FXQSY1090Cl0PHwX8iSlRRgKBLbByUCPyNuGvj4gF+Gk
-pi8qRMojBB37OUYvCo8xSQmOX60UKFlh/bQjoh30hLtJS3VOzoZT9Yh2tD/lKyrD
-9d2ZZfwzegH7FDqjAOAQsYm9K5UVzwBPjIXSjb7RH5kBQrYs2kUTYWXJyTKI98Ui
-hrFiXWGdBDkkJGBG+5rLtj7mfA/9JYHEjeLTty+rdUca7a2bUMMMmOEFTlTEHOb/
-0ntzjo3Xy83pQmZZUFNlY+okPFs79EytXFS/4j+8pxTcx7YGvb4=
-=F8Sy
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmPTQQ4ACgkQ7ulgGnXF
+3j1Inw//fqtA87Mx0uFOhFnQdi6VPLyYXzT6OcpxKCJaohEaU/mFEQnm+b6p6Do5
+Mrat4/uYrs/zwVlbe3yqO93J+z2g5KNIouWZXCLM//wFtSC04WNRlanvRCBr8sru
+Uo54xEpiThGVxpENn2xTY4WxV//MvQBAkvF5eGy+2B0VefxrTtSH69hGKPkNyH91
+GEd09KA+6CI4t3/2pjiTRL2L/+JNHngRyq/Ubu8VOE/Hc/gKT534bnkMH2kZDTY8
+tskxh+QsC+6zJdFP4n6gu4QweejiRJKggmk93K9moojen6puhIUMTNQ9uYlCvGJo
+CmJjo2eO8UBqGuQg/EmN36anr6tQQKsapDv6O8sBoUBZ0dom8+q51wAAD27rCL/L
+TCIsfWvSmsGcdV/R/6ybhwcy+l4pQuLecEGBDN1To3tWiX9LsCeTsRi8sod1Mo3U
+xlJLdkBrntQNxRo7u/6Z8GFUp/CU9KjYqM6dcPjgiskzZWiZvPeYlXpfKDd6Jo9R
+yEEGRpmFEzlMfLsYMuU3YuTRShqoRVYqzrXUxwKNDa6JJF5DhLwnFPQLT+ABUjud
+3VgFIDAKeyBzJ6JEnGepoITcmbNKqofWLShPbmzsTb4aJmlbx+/NzrZwUGmt0PmA
+kW80GgDvSabW4+o1zijgT9HEYVSamV/qFEAoglGXgp0gyO0i96g=
+=Gr6U
 -----END PGP SIGNATURE-----
 
---===============4952042602028731205==
+--===============8654017859552723366==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fd755b6af6d0-fdf1976af911.txt
+Content-Disposition: attachment; filename=revlist-7084eadf62ca-5adca38c0b97.txt
 
 d0949565811f0896c1c7e781ab2ad99d34273fdf scsi: core: Add struct for args to execution functions
 5fa7b072677513e934242eab85772c0bfc84859b scsi: ata: libata-scsi: Convert to scsi_execute_cmd()
@@ -89,4 +89,4 @@ a3e2e248fd77a00931320875910ef73e071ac7dd scsi: ipr: Replace kmap() with kmap_loc
 13f87983fb91454e4a534bb41b5b2b43afe97798 scsi: ufs: core: Enable DMA clustering
 5adca38c0b97502e35e4df00d9edf4e85ba21dab Merge patch series "Enable DMA clustering in the UFS driver"
 
---===============4952042602028731205==--
+--===============8654017859552723366==--
