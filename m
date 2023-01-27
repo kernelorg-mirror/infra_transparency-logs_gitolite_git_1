@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
-Date: Fri, 27 Jan 2023 22:48:37 -0000
-Message-Id: <167485971769.25773.4480808618972374208@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sunxi/linux
+Date: Fri, 27 Jan 2023 22:50:12 -0000
+Message-Id: <167485981293.28142.6945865256338721673@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ebiggers/linux
-user: ebiggers
+repo: pub/scm/linux/kernel/git/sunxi/linux
+user: jernej
 changes:
-  - ref: refs/heads/fsverity-pending
+  - ref: refs/tags/sunxi-dt-for-6.3-1
     old: 0000000000000000000000000000000000000000
-    new: 2afbdd76f4dce4eb1c95a7316887ca8b416c3ca3
+    new: 220b0a1110a4e1c451185960cf28f1c4914e33f0
