@@ -1,38 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-dt
-Date: Fri, 27 Jan 2023 09:46:01 -0000
-Message-Id: <167481276140.20286.17746694094880997134@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rppt/linux
+Date: Fri, 27 Jan 2023 09:55:18 -0000
+Message-Id: <167481331891.26246.17741077787198449395@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux-dt
-user: krzk
+repo: pub/scm/linux/kernel/git/rppt/linux
+user: rppt
 changes:
-  - ref: refs/heads/for-next
-    old: 9fac79ef28652a706c02de1cc978274492b93b49
-    new: da78e3f85ff218ae63d8be7adb8c9bf7fd4b144b
+  - ref: refs/heads/misc/pfn_valid/v2
+    old: 5a8be8cb33efc2dc2260a66a748d3d9dd1ee0895
+    new: d155b3698ab1a295c1db9d8729ce2645147739f8
     log: |
-         5ad30c5fc0a72c2aaa1d26f9e4061d8646231adb arm64: dts: realtek: align UART node name with bindings
-         b8081b9a80945158e21e62ad31f50b704990cd8a arm64: dts: hisilicon: align UART node name with bindings
-         0a9b7bee0056dd686da688f530ebd7f00ec4652d arm64: dts: synaptics: align UART node name with bindings
-         2ba4ff82f9dd312fb9f77168f159698c93f4841b ARM: dts: berlin: align UART node name with bindings
-         a2876a20d2d5aa3be4fb21907e9247648f4b4f29 Merge branch 'next/dt' into for-next
-         da78e3f85ff218ae63d8be7adb8c9bf7fd4b144b Merge branch 'next/dt64' into for-next
-         
-  - ref: refs/heads/next/dt
-    old: d2468138927cc18ac9923146d49e2a5d06377d1d
-    new: 2ba4ff82f9dd312fb9f77168f159698c93f4841b
-    log: |
-         2ba4ff82f9dd312fb9f77168f159698c93f4841b ARM: dts: berlin: align UART node name with bindings
-         
-  - ref: refs/heads/next/dt64
-    old: 91fef8a860faa1ab4c36ab04a789ab60f8caea56
-    new: 0a9b7bee0056dd686da688f530ebd7f00ec4652d
-    log: |
-         5ad30c5fc0a72c2aaa1d26f9e4061d8646231adb arm64: dts: realtek: align UART node name with bindings
-         b8081b9a80945158e21e62ad31f50b704990cd8a arm64: dts: hisilicon: align UART node name with bindings
-         0a9b7bee0056dd686da688f530ebd7f00ec4652d arm64: dts: synaptics: align UART node name with bindings
+         319585aaed391355e04ac4ed0050804f16e9832c arm: include asm-generic/memory_model.h from page.h rather than memory.h
+         c2fee188238d324994481300b19a8e5147bfcd83 m68k: use asm-generic/memory_model.h for both MMU and !MMU
+         b36a8bd452f6baf290a9fd8a45195f86bd798d73 mips: drop definition of pfn_valid() for DISCONTIGMEM
+         d155b3698ab1a295c1db9d8729ce2645147739f8 mm, arch: add generic implementation of pfn_valid() for FLATMEM
          
