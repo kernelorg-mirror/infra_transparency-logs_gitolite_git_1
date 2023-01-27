@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1867208805915644627=="
+Content-Type: multipart/mixed; boundary="===============2370025245598324525=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Fri, 27 Jan 2023 09:12:21 -0000
-Message-Id: <167481074199.15261.13572493357937633310@gitolite.kernel.org>
+Date: Fri, 27 Jan 2023 09:13:10 -0000
+Message-Id: <167481079054.15577.10310244640774081991@gitolite.kernel.org>
 
---===============1867208805915644627==
+--===============2370025245598324525==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,56 +17,43 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/staging-testing
-    old: f9a8a192300026b8729d3498fc9134ea9bf9368f
-    new: ed9700c1657dc3be4ff72497626dab712ea0e2ed
-    log: revlist-f9a8a1923000-ed9700c1657d.txt
+    old: ed9700c1657dc3be4ff72497626dab712ea0e2ed
+    new: 88c190736580b2b3f2a830e465e5a0915b90a922
+    log: |
+         cbfc31a71d664bece503190f890b897e76d708f8 staging: r8188eu: usb_read_port_complete needs no regs parameter
+         3dc04d5b5327eae02b0a237df4676973acd9cce6 staging: r8188eu: remove defines that strip regs parameter
+         e39c36d0d01cc586dfe3df7a1727ba80f4feeba6 staging: r8188eu: remove unused defines
+         88c190736580b2b3f2a830e465e5a0915b90a922 staging: r8188eu: remove usb_ops_linux.h
+         
 
---===============1867208805915644627==
+--===============2370025245598324525==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1674810740 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1674810789 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1674810739-d7a7fbdadb1fe8166c43c6610306c94aca135be7
+nonce 1674810788-f0973e7b8a781dd4b3cd8f76ff3b0c9eca90961d
 
-f9a8a192300026b8729d3498fc9134ea9bf9368f ed9700c1657dc3be4ff72497626dab712ea0e2ed refs/heads/staging-testing
+ed9700c1657dc3be4ff72497626dab712ea0e2ed 88c190736580b2b3f2a830e465e5a0915b90a922 refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPTlXQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+74YP/iqV9gdEr+IQ0w4Qvnr4
-BPSMngQiRct3HNL6W3Xd2RZ4UdAsUXfIn9gnOsm7UhlvT45WbLKwUEfsEcAs56Bh
-1cp10N5LQuSM2dSuaftu/gTL3aCVy707msSfpKv/iQiygWVXlbkXUl827GbNFISY
-vv/Le2aGlV+r7uSBqximCV6DxJoiGzuRzwpf9lQKigucCxtGJbuujYO44RGVyRlc
-3OPSQXFgV0LWJpDDKgRW547bzECgB5cr7BMMtooU9/P0l6DdZLF4/U8cepJz9hDl
-I+vzg/eml/dwx7c5IOUbL8hFcAfDpeqxdYZ60eqxnlURY8m2CGRanM4ppkKJxyCX
-i+KhoXpUNc17511cP5Kzj37r01jp5b9Z6o18rQfu+KlvADg7LOGqwcdvi5Cw+ujg
-Z3McIO/2FbrvLIg8Nlq0H3XuAjNXNM/OVJt4ZQydZlddayxxwY99Vlex0jFeGh0w
-suova6B3Dz4bn81Hypy5MPfOPek+SD3ZZFCpb48tD7iN6TRDBkLTeTNMKFQ0XWh+
-O5hF/opT82xr72/LJMSx5dPHP/3I6bOgIbzQOQ2xp1gTw3xH7Eyeedh3+TDi1xtB
-aLVdctmMkOCJ2w4qmw4dFnKjzoGO5FXuEUkRPccwesAHMnxU97MO7LxFKLn/dhrn
-9jEGpxuxKMOBIcGO46VFGk+a
-=nqn1
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPTlaUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+YcwP/R5ixviMwcBzfjJuCsPi
+zH+4Re8ChNUDDHTmT7PpgoSCcy3Fk7TiLFPRJURnafm3i39t30kvkOpSPttyJYT1
+zhmiygl6mEiBVvNcfAyo+dJyFfsNCtfUqbj1+6s9AVr5q2voMhVxAFtfKaJfHgeH
+XzfXNagmhMHFsvWVDqpk0Wj9cYe2ZieBz+B2PGv6k6E3uwznIOZJeO7OCFdLPAiY
+EPICUA3R0qP6Tpi7lbuzLSeMHZdpNYH3o8ovmo8cJdWZX9fAGZxWcAeUf4NDWCNp
+Dr1WKakLFX8FWpyKvDCqxpS2AAdVNqRc88LddfwG8FESBT5FOMMPanu908GsCFL6
+QmQwqjN8WvrW7GzZ+Yh/iACfc3cbhoPf9VjCrC9rCRW+QMXd5GIqRWwVEsUu8ZOu
+Nhy9o0gXN9YmEi64eOEO6Wp7RNUzwdG2dWGndlVGSf1xtT7QgUoo9twRaGlIhK7N
+63g5sAhVzwuqYHgZ8ncoGwgr2gG74M2szKWAbfw8p9Sa9enb7/gk+M0pUx/ZaT9Q
+r01wix12WJeV9cxsssUK14uSY/BzdwDNLrwQE76X2lNA699ZBe3Y3bN8XXpMTpme
++vRvcavlMsYcZvt9F9mYwsGVP9rpMUaC/XrxE0jK8InSGyhoToQhAvve3NI0r6p5
+b3/17eCBhj8AsKhcsafZuLY9
+=xlPP
 -----END PGP SIGNATURE-----
 
---===============1867208805915644627==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f9a8a1923000-ed9700c1657d.txt
-
-29c6d9394874dbccef61482c72ae3e9f6177fbe0 staging: rtl8192e: Remove unused variables rxrdu and rxok
-baa988e1b711cbcede35e2c53d40b8871d1f5081 staging: rtl8192e: Remove unused variables rxdatacrcerr and rxmgmtcrcerr
-3690e799821ef8227d31275209ead7ed03e236ab staging: rtl8192e: Remove unused variables rxcrcerrmin and friends
-58e7509dac66c008a9085c490127590cc9ab0fa2 staging: rtl8192e: Remove unused variables numpacket.. and received_pre..
-a4a2a256a70261a3751bffdce93d38cafc17ec07 staging: rtl8192e: Remove unused variables numqry_..
-0d55d6ec2e286cfa04babd41183c06a712237ab1 staging: rtl8192e: Remove unused variables num_proc.., recei.. and rxov..
-f345b9779b8a58efc990c3c5c0e11eb258ba11dc staging: rtl8192e: Remove unused variables rxint, ints and shints
-576a1948326457fa435810a1eaebd8c4879e44e2 staging: rtl8192e: Remove unused variables txov.., txbeokint and txbkokint
-5f08cb0d9a51b3d87ebc0de70343c148c3dcdb01 staging: rtl8192e: Remove unused variables txviok.., txvook.. and txbea..
-1faee1c4d02f7fb4b43fb9d83d6073a32e194c27 staging: rtl8192e: Remove unused variables txbeac.., txman.. and txcmdp..
-ed9700c1657dc3be4ff72497626dab712ea0e2ed staging: rtl8192e: Remove unused variables txbytes.., txbyt.. and signa..
-
---===============1867208805915644627==--
+--===============2370025245598324525==--
