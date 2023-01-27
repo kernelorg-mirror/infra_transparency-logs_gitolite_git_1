@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pablo/linux-ft
-Date: Fri, 27 Jan 2023 12:13:38 -0000
-Message-Id: <167482161826.18938.15066121912532543023@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Fri, 27 Jan 2023 12:20:57 -0000
+Message-Id: <167482205782.25587.5581559553123341050@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pablo/linux-ft
-user: pablo
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: davem
 changes:
-  - ref: refs/heads/nft-bulk-v6.2-1
-    old: bcc4ae97e03f393c5bee0f84099e5955ab9a9d40
-    new: e2341549102fb5cddecd3ad10d88e1a3518e64a6
+  - ref: refs/heads/master
+    old: b34fc158d56620fd2f5db40e39326424082b2683
+    new: c766e077d927e1775902c18827205ea2ade3a35d
     log: |
-         8c8ecf88e65b0478d0f6848ca0fa460d74404421 netfilter: flowtable: add xfrm support
-         7dde482628da55f092eccfb4656c266169e9572f netfilter: flowtable: add xfrm support for IPv6
-         e2341549102fb5cddecd3ad10d88e1a3518e64a6 xfrm: add fill forward path for xfrm interface
+         e03cea60c3db8c6b011cc36ecef9281dff8377f3 net: dsa: qca8k: add QCA8K_ATU_TABLE_SIZE define for fdb access
+         c766e077d927e1775902c18827205ea2ade3a35d net: dsa: qca8k: convert to regmap read/write API
          
