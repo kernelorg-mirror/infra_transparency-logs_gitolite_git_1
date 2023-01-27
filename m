@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7542995434504774031=="
+Content-Type: multipart/mixed; boundary="===============4001061106190961811=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Fri, 27 Jan 2023 03:12:57 -0000
-Message-Id: <167478917774.4834.2328739108979715041@gitolite.kernel.org>
+Date: Fri, 27 Jan 2023 03:13:13 -0000
+Message-Id: <167478919303.4987.15428769168393696801@gitolite.kernel.org>
 
---===============7542995434504774031==
+--===============4001061106190961811==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,9 +16,9 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-staging
-    old: 339e29312589511a0d00615a9c3b4140b760d676
-    new: f6c1f93e6cc779b69375855a2e8a2392d3a73ff5
+  - ref: refs/heads/6.3/scsi-staging
+    old: 85e182b48a33a44f3e0cfe6e7ee9da15baa0afce
+    new: 5adca38c0b97502e35e4df00d9edf4e85ba21dab
     log: |
          2aa0f83edb1c5a341f0aca209b0ecd74672fb3fa scsi: elx: libefc_sli: Use "/*" for non-kernel-doc comment
          4fd62973739de61cf4c83b960db7d1824bd854a3 scsi: qla2xxx: Use a variable for repeated mem_size computation
@@ -29,33 +29,33 @@ changes:
          5adca38c0b97502e35e4df00d9edf4e85ba21dab Merge patch series "Enable DMA clustering in the UFS driver"
          
 
---===============7542995434504774031==
+--===============4001061106190961811==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1674789166 -0500
+pusher 75C5DE3D 1674789181 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1674789165-a464573113005fc9fc0ac9873f7a2a5ff5bf67da
+nonce 1674789181-e77f495bd088a5a3a2b13ef826b7099a848d77c7
 
-339e29312589511a0d00615a9c3b4140b760d676 f6c1f93e6cc779b69375855a2e8a2392d3a73ff5 refs/tags/mkp-scsi-staging
+85e182b48a33a44f3e0cfe6e7ee9da15baa0afce 5adca38c0b97502e35e4df00d9edf4e85ba21dab refs/heads/6.3/scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmPTQS4ACgkQ7ulgGnXF
-3j1iDxAArEovcxX++ausdVKb42Ho00hzrwlMfT2/zAoefxoTKFx/BzMTsO4ERByW
-4kJkt5t1lZXdQ4s4fzCSoF5nOfQOlVC+9ND4+JS8KlePagMIgbNrSvoTWgBbBG3a
-MEYBOAJYPOKoFiI06aMSoINXqyyU5OvxLAFNwBkCxzYbYxuYNISY5R5XtEDH83Wp
-phqRuwxb/KTfWpQKP1f51nVbOmLenj+3v/Df7EKZYBixQpVQA4nuN9dhyk2xbTlA
-eg+3ryx5i4seI4rBP/Ym/i5+OmH69Zvi/jCzPfJd1zYCxEC9K2JoaFGqGX7XuJ7a
-7vBMDUfiZadOBnxC/epNVGYS0j4eck7OeaQSgKndkn39eLajl4DgUjO4UG7ytV7p
-Kreqme3JXXZMP99wYLZNcCayHehFY5yxpIz4p30L6/uJ1ZUy5O1uRLnz8gLPLdDH
-OK1liiImIHA74X9S7IXD819C9XCsSyxBEfqQcf/4ywPbaJyyiEKKeaWKSmDJQP2c
-nZhNIdwqPRth1pI7+NRjUbYWccXsQOVA1vqToyDbEvKlqc7f9DCSXlYapPqdb33Y
-uYVivELwt20gwGvGZALm/dJvqWhnmuV/zrlmxIlUAQOJ2mKt3OilyHUU3jrAW2Ps
-mtQjhYYSGg2VJk87HzOo2rBlBvq1qVh+XeXzXBLbco4KIclklbE=
-=Dxq7
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmPTQT0ACgkQ7ulgGnXF
+3j1Fjw/+Nux2OtJGfYMYlulTewaGqU1oE8PbuNKHHx/3dDheLac7ctAfn8vK+UNl
+c+C1LE5Ya9YW0YLF5Q7UOD8rCeV/VxZatx+IvnWD9X1XmaUZYRc9IyP0LBT9wIXk
+nb3pcQiYiInNMIYSCQOa5dTSvf7NOEuDctLP24010gTTgDXaiV/GqNWzp264WyaP
+9MAJ2cohRYAYUnhPiL6bU5UKY73aJkC/vfmmvafJoX9o/0du+yHa7vi4phRHqbDK
+aozVDwstJ74gNIq9fEQoZOvB8GqhHW2cQNlWrnMZUpMkmpnkBXS2vv+jFTI7vZXJ
+sf4L4O0lcRGfdwV++jWy+GG7Kaz8ZR+KtP+grAmnbIzFFDUk9xTMDYPko+HzPMpf
+EazDP2/lCs6ktplGslkk0m/v/2vZWIU7BQ+M0HJmFOMAA89UVnxX4rTkEEueQSEq
+nzLDphZPezh2NDUz2gEhddPLeMDwGGzQE3fDxyEkQ8z4ICLT6yVTZ/hALbz/lgaQ
+tPSgSZ5M3j4eIr8VKUDL6wWFeYY2+Sz2E1hlrREg5xPhowo715rVLb2OXE3ambBH
+pM77KqTJajxuLRwBi6z/thz9Z7WqIUt6e61wDJ0DPqxvf6seK0NFgCfiLBlyU7Lm
+8AFr7Pqg7h+pyP/4ApjJGJMQ7t+afKm+aT1Td4mD/tISNDVUzaM=
+=fcdp
 -----END PGP SIGNATURE-----
 
---===============7542995434504774031==--
+--===============4001061106190961811==--
