@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
-Date: Fri, 27 Jan 2023 13:45:52 -0000
-Message-Id: <167482715232.17737.6106450443131844594@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Fri, 27 Jan 2023 13:50:03 -0000
+Message-Id: <167482740370.20690.12992447287202093823@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/liburing
+repo: pub/scm/linux/kernel/git/axboe/linux-block
 user: axboe
 changes:
-  - ref: refs/heads/master
-    old: 328cad5e53a38b07139c9059cdff6cee359a5313
-    new: 3c84437869609caec4e42058069463d166a31e3c
+  - ref: refs/heads/io_uring-6.2
+    old: b00c51ef8f72ced0965d021a291b98ff822c5337
+    new: ef5c600adb1d985513d2b612cc90403a148ff287
     log: |
-         8f3463fefa0abfc015555013c510df396e0e9a0e add a test using drain with IORING_SETUP_DEFER_TASKRUN
-         3c84437869609caec4e42058069463d166a31e3c run link_drain test with defer_taskrun too
+         ef5c600adb1d985513d2b612cc90403a148ff287 io_uring: always prep_async for drain requests
          
