@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lee/mfd
-Date: Fri, 27 Jan 2023 15:10:23 -0000
-Message-Id: <167483222397.8245.15519389997649047489@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mszeredi/vfs
+Date: Fri, 27 Jan 2023 15:12:56 -0000
+Message-Id: <167483237608.9087.17889734986714130369@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lee/mfd
-user: lee
+repo: pub/scm/linux/kernel/git/mszeredi/vfs
+user: mszeredi
 changes:
-  - ref: refs/tags/ib-mfd-fpga-hwmon-v6.3
-    old: 3911f21d822d1c7850badeec5dd8c11d1b47cf78
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/ovl-fixes-6.2-rc6
+    old: 0000000000000000000000000000000000000000
+    new: 6e84616a3087163e12a88382b5f929e392f341de
