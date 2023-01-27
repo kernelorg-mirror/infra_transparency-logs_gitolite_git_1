@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6190843282672503531=="
+Content-Type: multipart/mixed; boundary="===============5057741488417088822=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Fri, 27 Jan 2023 03:13:28 -0000
-Message-Id: <167478920805.5125.14426006105681051832@gitolite.kernel.org>
+Date: Fri, 27 Jan 2023 03:13:43 -0000
+Message-Id: <167478922304.5271.469871758252835846@gitolite.kernel.org>
 
---===============6190843282672503531==
+--===============5057741488417088822==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,7 +16,7 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging
+  - ref: refs/heads/for-next
     old: 85e182b48a33a44f3e0cfe6e7ee9da15baa0afce
     new: 5adca38c0b97502e35e4df00d9edf4e85ba21dab
     log: |
@@ -29,33 +29,33 @@ changes:
          5adca38c0b97502e35e4df00d9edf4e85ba21dab Merge patch series "Enable DMA clustering in the UFS driver"
          
 
---===============6190843282672503531==
+--===============5057741488417088822==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1674789196 -0500
+pusher 75C5DE3D 1674789211 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1674789196-a83523c64e4b49059ea442910dccf91b9bf9c190
+nonce 1674789211-e9045328702bfd5b54b1e8710b9c720ab613f832
 
-85e182b48a33a44f3e0cfe6e7ee9da15baa0afce 5adca38c0b97502e35e4df00d9edf4e85ba21dab refs/heads/staging
+85e182b48a33a44f3e0cfe6e7ee9da15baa0afce 5adca38c0b97502e35e4df00d9edf4e85ba21dab refs/heads/for-next
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmPTQUwACgkQ7ulgGnXF
-3j2JOw/6AhNWddBndcPgeNNjN9yT9l17rY/TFfcSwDYzS784/eJiuCScPGS3z+HQ
-LEP9NX/zOqx9HWapTmOSmuM7KDjMz8Ib1iiCFdnuRe4MFiOt9yKrQ9w+oBoLL+ir
-jyfg0H+M8OrDbH2cn6H4Y+Trn5fYuuKaezC3ooJbOOt+AUa6zodabOdQM4e5vqPN
-i2I5409RUVC1XlQJCtQOmO0pgoiwf8Gg6FGrPBTilHCxjMny8ylqu49OQWngNJjT
-ifQFBJdnIVjUOiJiFIcrE/IVsWeH2cO5KtzmTXC88fUCwsj/gmVukl/j/mwKhHLs
-5W8G80WjT/2KRCUg17Ycy068VW04J503Um3SDGLLJunFFxfAzHTUiOdrtj/S0mTR
-Y+kmOz+qoTnxPHfrrWQ0+5e4cVUQRy2RjvyKJLTj9bueUBsvKbEhOVVjedNan28y
-hySz9wrXNeCMSHRLM4ycyreE7diVDW5EMKSbYqmdrxRdyigCUqq9xlczD15FnFS4
-B7yjNuOP8sIOCAo6J+fTBxPFn7JGnhgsQmXGXAmg7kGtorpoCRtrYRRsBsMUQwa5
-cVJvrlrQy0jwwtScvn+CB/3VSjRbDxqt8P/D7vPGBhbCc6v7N3aknKB/uOEkBOJu
-lZrgt/vz8KL6BI9OqcpkqVO2qaJiUK0lKi28Ve71S2crA/rgwBc=
-=Qoul
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmPTQVsACgkQ7ulgGnXF
+3j0mzw/8DE2Tu/w+19Ie44loybsysrv6dZ54whLULrU73gkQp7NVj1gFh2LnXYDA
+tVQxVXr58s9cs/hKNYqRiU0IgRI/2F8R9BpappyYyVavf8zuOD917gImBPvAIvSX
+LAQyWi5za2qwKmSTfEYfQ2K3eed2Xkntg0vgvGPkG/E1aLnat2xx8ZJqYU/2mSiC
+77QEvs3TUsVwOreb8WOc80MucH0D7NWN8OAdtTel5UMlIFB8kcYka9O2Lo1XiQQw
+3xp/JheRhSWpUb/mzLqFCdoqn49gP9UzR+tBY9HPtqAQ9w5sXTIJenbUJihI/CTX
+e1WKwUBCEaq1j4XY21pFNXA6R8aMaJmiDg/bQeY/arOKeqPmf4iBBdZwt7G5Es57
+IifFY2W1afEjt4v26g06EVWYlvJ7NlBOOej9KOGeMnpc+bQLbPwCxc6bc0Xb3sjm
+Zya9Tb106yX6fBP5k/g58RflX0QhtwWlIBpZRdeL6VQj12FPHvomU2dDm6kJGS/H
+aGdEKv1wJNPfhZnhvDH4E6AwGPi7XDcZuaf8dgP3TpnsMn50qw/uP5B1FP+PMV7b
+QSl94X32xNDLzjJU/ELojQpEdhKs7iHIo6OYh/K9T+B9TsN3NlUxV/cPArixh7gj
+SDvAwIeVdAJMkejYYq2Psq7RGcjhFXuFE8Q1j6V80DMMZvGh8F8=
+=ZegL
 -----END PGP SIGNATURE-----
 
---===============6190843282672503531==--
+--===============5057741488417088822==--
