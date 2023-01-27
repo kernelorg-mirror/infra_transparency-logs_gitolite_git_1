@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/coresight/linux
-Date: Fri, 27 Jan 2023 17:11:14 -0000
-Message-Id: <167483947447.26703.17106720777254664125@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wsa/linux
+Date: Fri, 27 Jan 2023 17:11:49 -0000
+Message-Id: <167483950965.26975.4197916482159005217@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/coresight/linux
-user: suzukikp
+repo: pub/scm/linux/kernel/git/wsa/linux
+user: wsa
 changes:
-  - ref: refs/heads/next
-    old: a646ca099b1811f23a7c1eee58aaf38628ec5e83
-    new: 0c1ccc158bbc4d14fe1a52e99f3933f34f309dac
-    log: |
-         0c1ccc158bbc4d14fe1a52e99f3933f34f309dac Coresight: tpda/tpdm: remove incorrect __exit annotation
-         
+  - ref: refs/heads/renesas/bsp61/rpcif-update
+    old: 0000000000000000000000000000000000000000
+    new: ea7f5d4b55ba4a579dfbec5febe68ce5a3d4edca
