@@ -1,26 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
-Date: Fri, 27 Jan 2023 13:20:49 -0000
-Message-Id: <167482564941.1281.15519424548162088487@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
+Date: Fri, 27 Jan 2023 13:45:52 -0000
+Message-Id: <167482715232.17737.6106450443131844594@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/amlogic/linux
-user: narmstrong
+repo: pub/scm/linux/kernel/git/axboe/liburing
+user: axboe
 changes:
-  - ref: refs/heads/for-next
-    old: 43b0fcdef2e312c9d7e52e450dca419b6a2307d3
-    new: 177c2db2f4320dbc0059b786604e9e03fdd86f2f
+  - ref: refs/heads/master
+    old: 328cad5e53a38b07139c9059cdff6cee359a5313
+    new: 3c84437869609caec4e42058069463d166a31e3c
     log: |
-         ce43ea00b927805c1fd0450ccc9b4b6069e292c5 arm64: dts: meson: radxa-zero: allow usb otg mode
-         177c2db2f4320dbc0059b786604e9e03fdd86f2f Merge branch 'v6.3/arm64-dt' into for-next
-         
-  - ref: refs/heads/v6.3/arm64-dt
-    old: 527c9552f5f8a99b6c31bfb39e9470cec07faf49
-    new: ce43ea00b927805c1fd0450ccc9b4b6069e292c5
-    log: |
-         ce43ea00b927805c1fd0450ccc9b4b6069e292c5 arm64: dts: meson: radxa-zero: allow usb otg mode
+         8f3463fefa0abfc015555013c510df396e0e9a0e add a test using drain with IORING_SETUP_DEFER_TASKRUN
+         3c84437869609caec4e42058069463d166a31e3c run link_drain test with defer_taskrun too
          
