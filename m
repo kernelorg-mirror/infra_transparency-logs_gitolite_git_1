@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Fri, 27 Jan 2023 02:50:03 -0000
-Message-Id: <167478780378.23540.14833562508611976096@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
+Date: Fri, 27 Jan 2023 02:54:29 -0000
+Message-Id: <167478806987.24975.13929023035479361105@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
+repo: pub/scm/linux/kernel/git/axboe/liburing
 user: axboe
 changes:
-  - ref: refs/heads/5.15-stable
-    old: 46b49301a4b495618ef683d7bee7e8b38b14c552
-    new: 9a4e6f808d75dd5ec821375e3a16734985d6454a
+  - ref: refs/heads/master
+    old: 3832ea016fe119488812205aae758ab720fc4ef5
+    new: 328cad5e53a38b07139c9059cdff6cee359a5313
     log: |
-         9a4e6f808d75dd5ec821375e3a16734985d6454a io_uring: add REQ_F_NOWAIT flag to control waitqueue wakeups
+         328cad5e53a38b07139c9059cdff6cee359a5313 test/poll: add test case with a ton of poll requests for the ring itself
          
