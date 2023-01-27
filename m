@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3004687643101857104=="
+Content-Type: multipart/mixed; boundary="===============3333918089126564078=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mst/vhost
-Date: Fri, 27 Jan 2023 11:19:05 -0000
-Message-Id: <167481834504.16395.10125554115720910987@gitolite.kernel.org>
+Date: Fri, 27 Jan 2023 11:20:45 -0000
+Message-Id: <167481844547.18469.16221770313876312538@gitolite.kernel.org>
 
---===============3004687643101857104==
+--===============3333918089126564078==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,25 +15,65 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mst/vhost
 user: mst
 changes:
-  - ref: refs/heads/linux-next
-    old: 66c78aa2b9ba0b1c504e15e636351f94b340fd1d
-    new: 70ebfab5cc05dcbc82f769ee527e2803d5f43a74
-    log: revlist-66c78aa2b9ba-70ebfab5cc05.txt
-  - ref: refs/heads/test
-    old: 66c78aa2b9ba0b1c504e15e636351f94b340fd1d
-    new: 70ebfab5cc05dcbc82f769ee527e2803d5f43a74
-    log: revlist-66c78aa2b9ba-70ebfab5cc05.txt
-  - ref: refs/heads/vhost
-    old: 66c78aa2b9ba0b1c504e15e636351f94b340fd1d
-    new: 70ebfab5cc05dcbc82f769ee527e2803d5f43a74
-    log: revlist-66c78aa2b9ba-70ebfab5cc05.txt
+  - ref: refs/tags/for_linus
+    old: 3bc66b7c0eafe367a5e1f4c19b3cd278b2def701
+    new: f728b810f263daaddbdfc62e0f8f569ac6b73b5d
+    log: revlist-3bc66b7c0eaf-f728b810f263.txt
 
---===============3004687643101857104==
+--===============3333918089126564078==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-66c78aa2b9ba-70ebfab5cc05.txt
+Content-Disposition: attachment; filename=revlist-3bc66b7c0eaf-f728b810f263.txt
 
+2d3dd559751ce19ba84f9690c6c7c5a4b39129df ASoC: dt-bindings: mt8186-mt6366: add new compatible for max98360a
+8a54f666db581bbf07494cca44a0124acbced581 ASoC: mediatek: mt8186: Add machine support for max98357a
+7161bd540eebebae2bbe8c79de25d8caf12dbf78 ASoC: rt9120: Make dev PM runtime bind AsoC component PM
+a0dd7fcab5cd221fa960f594c586e1f9f16c02c0 ASoC: amd: yc: Add ASUS M5402RA into DMI table
+810948f45d99c46b60852ef2a5a2777c12d6bb3e ASoC: support machine driver with max98360
+74b91a1bdb994dfaed0074154ca7d493aeb735a6 arm64: dts: qcom: sm8350: correct SDHCI interconnect arguments
+1551ed5a178ca030adc92b1eb29157b5e92bf134 Merge tag 'nvme-6.2-2022-12-29' of git://git.infradead.org/nvme into block-6.2
+2258c2dc850b8605cb66b3383e50b9dddd1c6580 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
+472a6309c6467af89dbf660a8310369cc9cb041f ASoC: wm8904: fix wrong outputs volume after power reactivation
+efd58edd8445685b5e7dcb81e5926e0865ece1ff Add new AMP MAX98360A for RT5682S
+69fb073b5ba6d7c9358a04115ed61b78c73790ce Merge tag 'linux-kselftest-kunit-fixes-6.2-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
+ac787ffa5a246e53675ae93294420ea948600818 Merge tag 'io_uring-6.2-2022-12-29' of git://git.kernel.dk/linux
+bff687b3dad6e0e56b27f4d3ed8a9695f35c7b1a Merge tag 'block-6.2-2022-12-29' of git://git.kernel.dk/linux
+936a192f974018b4f6040f6f77b1cc1e75bd8666 tcp: Add TIME_WAIT sockets in bhash2.
+2c042e8e54efb2b8e25ed0cb28224e79948dc8ce tcp: Add selftest for bind() and TIME_WAIT.
+0798311cfd8739bbfba0b454dc828fe35dfa4d72 Merge branch 'tcp-bhash2-fixes'
+6b57bffa5f675a01c7981ed271e8521e87441abd net: ethernet: broadcom: bcm63xx_enet: Drop empty platform remove function
+af691c94d022440476b76560d310d6fea790cc60 net: ethernet: freescale: enetc: Drop empty platform remove function
+fec7352117fa301bfbc31bacc14bb9a579376b36 net: hns3: refine the handling for VF heartbeat
+d530ece70f16f912e1d1bfeea694246ab78b0a4b net: amd-xgbe: add missed tasklet_kill
+a512807c24bc561f5892ae05abdf360482fb3fe2 Merge tag 'mlx5-fixes-2022-12-28' of git://git.kernel.org/pub/scm/linux/kernel/git/saeed/linux
+1573c6882018f69991aead951d09423ce978adac selftests: net: fix cmsg_so_mark.sh test hang
+332b49ff637d6c1a75b971022a8b992cf3c57db1 net: ena: Fix toeplitz initial hash value
+9c9e539956fa67efb8a65e32b72a853740b33445 net: ena: Don't register memory info on XDP exchange
+c7f5e34d906320fdc996afa616676161c029cc02 net: ena: Account for the number of processed bytes in XDP
+59811faa2c54dbcf44d575b5a8f6e7077da88dc2 net: ena: Use bitmask to indicate packet redirection
+c7062aaee099f2f43d6f07a71744b44b94b94b34 net: ena: Fix rx_copybreak value update
+e712f3e4920b3a1a5e6b536827d118e14862896c net: ena: Set default value for RX interrupt moderation
+a8ee104f986e720cea52133885cc822d459398c7 net: ena: Update NUMA TPH hint register upon NUMA node update
+72f299b0ca3be44650a5607368329a5d9666c0e3 Merge branch 'ena-fixes'
+d039535850ee47079d59527e96be18d8e0daa84b net: phy: xgmiitorgmii: Fix refcount leak in xgmiitorgmii_probe
+c5bc073668206c73c20798eb6d978b5e9db5b16f drm/i915: fix TLB invalidation for Gen12.50 video and compute engines
+fff758698842fb6722be37498d8773e0fb47f000 drm/i915: Remove __maybe_unused from mtl_info
+3f882f2d4f689627c1566c2c92087bc3ff734953 drm/i915: improve the catch-all evict to handle lock contention
+11ce8fd8fd8718247f17475802639cd7e2d3765c drm/i915/uc: Fix two issues with over-size firmware files
+99cb0d917ffa1ab628bb67364ca9b162c07699b1 arch: fix broken BuildID for arm64 and riscv
+924d28b39e3b62ad5e97751585aed7c89f8c43ee .gitignore: ignore *.rpm
+9c9b55a59416a87fc73c479d78cb3218076dbc30 kbuild: add a missing line for help message
+63ffe00d8c939eda1a8fa87484ca4537e13a20b7 kbuild: Fix running modpost with musl libc
+02a893bc99757d75b7abb43b74f210dfa3df8c4b kbuild: rpm-pkg: add libelf-devel as alternative for BuildRequires
+aa4847dbcdabfe80a1cff96480e4b3c8076a0356 kbuild: sort single-targets alphabetically again
+6a5e25fc3e0b94301734e8abb1d311a1e02d360d fixdep: remove unneeded <stdarg.h> inclusion
+963bbdb32b47cfa67a449e715e1dcc525fbd01fc drm/i915/dsi: add support for ICL+ native MIPI GPIO sequence
+6217e9f05a74df48c77ee68993d587cdfdb1feb7 drm/i915/dsi: fix MIPI_BKLT_EN_1 native GPIO index
+a23529989a8f56d23680c4f2d14011bc9c9457c9 crypto: caam - fix CAAM io mem access in blob_gen
+736f88689c6912f05d0116917910603a7ba97de7 crypto: arm64/sm4 - fix possible crash with CFI enabled
+ba2dc1cb5491712a6946d0595cf11ba463f50e64 gpiolib: Fix using uninitialized lookup-flags on ACPI platforms
+90fee3dd5bfc1b9f4c8c0ba6cd2a35c9d79ca4de gpio: pca953x: avoid to use uninitialized value pinctrl
 e84077437902ec99eba0a6b516df772653f142c7 EDAC/device: Fix period calculation in edac_device_reset_delay_period()
 2788938b794633fc1865c805764bed196e01f97e gpio: eic-sprd: Make the irqchip immutable
 be43eea7de5a3977ac3d13fbfb9e505fab475e97 gpio: pmic-eic-sprd: Make the irqchip immutable
@@ -1010,53 +1050,5 @@ f67144022885344375ad03593e7a290cc614da34 Merge tag 'char-misc-6.2-rc5' of git://
 3f7b75abf41cc4143aa295f62acbb060a012868d tools/virtio: fix the vringh test for virtio ring changes
 6dd88fd59da84631b5fe5c8176931c38cfa3b265 vhost-scsi: unbreak any layout for response
 6b04456e248761cf68f562f2fd7c04e591fcac94 vdpa: ifcvf: Do proper cleanup if IFCVF init fails
-37ea82437cda7cda3d0ca73fd8f375183734d0a7 virtio_pmem: populate numa information
-dc5990962adb46954f7eaf9942d97d956b0e01e0 docs: driver-api: virtio: virtio on Linux
-106cdd7071a4476df1b3a473945da3275747d5eb virtio-blk: add support for zoned block devices
-361849df6d5e05c6f05734e9b2e35f131dfad68a virtio_blk: temporary variable type tweak
-6f5b3cf3a11a76a8cff7c63427d64098d999199d virtio_blk: zone append in header type tweak
-64eabdc8405f29d2390d1a434b4bc0afd0d5a73d virtio_blk: mark all zone fields LE
-7a310ea3b0f5af5ed2a6d64b941f36684f4715ec virtio_blk: add VIRTIO_BLK_F_LIFETIME feature support
-2fc56ffe58345bd890082b334aedeec78b3ae5bf vdpa/mlx5: Move some definitions to a new header file
-4668fb0a30114887dd0f7b87242d23cd27530aee vdpa/mlx5: Add debugfs subtree
-b76208083380f551f61ec6a150f14880e0f4b70a vdpa/mlx5: Add RX counters to debugfs
-56504eb2751641b981f33829d44e23c0919c902c vDPA/ifcvf: decouple hw features manipulators from the adapter
-9b323354d24969b3b89eb9155b3898ff7a838fa8 vDPA/ifcvf: decouple config space ops from the adapter
-cb6002f70943f764df7c9d81b8d5875f55315c98 vDPA/ifcvf: alloc the mgmt_dev before the adapter
-6c94398bd5f0cfb6a79143aaa7f7c51314ff6478 vDPA/ifcvf: decouple vq IRQ releasers from the adapter
-77c8422d4e590a898b8a66106c20d01e9cabbeb2 vDPA/ifcvf: decouple config IRQ releaser from the adapter
-33ed1324f2b3e3c624a4dad9c129b66b3013bb72 vDPA/ifcvf: decouple vq irq requester from the adapter
-5bd869f3109286b3e1dcf6f32b2860b7a7f248e1 vDPA/ifcvf: decouple config/dev IRQ requester and vectors allocator from the adapter
-8e60950a118fc4fdfae915223a96878b318b7bba vDPA/ifcvf: ifcvf_request_irq works on ifcvf_hw
-2481743d5a073080ebc775f68ad882b79e10bbfe vDPA/ifcvf: manage ifcvf_hw in the mgmt_dev
-552c21cffaa0eeb467730f9274c6c6e5a6ecf8e0 vDPA/ifcvf: allocate the adapter in dev_add()
-1885f68d0f51714583d53864eea47e8bd9ef32b7 vDPA/ifcvf: retire ifcvf_private_to_vf
-5fcdf14bdcb93517187df0f0050810c7532b9b64 vDPA/ifcvf: implement features provisioning
-8fba27a00a97b976d0d160ff260ad95887f27b7a vdpa_sim_net: Offer VIRTIO_NET_F_STATUS
-06c119ab354121b2c7c6a67654f0767593feaf23 PCI: Add SolidRun vendor ID
-5778e8f1624bd8b69ef99f8fd922c17a366546de PCI: Avoid FLR for SolidRun SNET DPU rev 1
-b835782e319dd35e492ba58095da470ac643da73 virtio: vdpa: new SolidNET DPU driver.
-40312c704dce8f0b0d615e38cc8785a44ef351f9 vdpa: Add resume operation
-0c3d0216c204fe9d0160c685293db43015c14a65 vhost-vdpa: Introduce RESUME backend feature bit
-745a6d222059998e724a980d3cafe8ddb371411a vhost-vdpa: uAPI to resume the device
-345e366e4741d26cd994bb4a074779ff2f6a8f70 vdpa_sim: Implement resume vdpa op
-d805ad81578639d605be2bf742e98deec5411c17 docs: driver-api: virtio: parenthesize external reference targets
-bb57f5a776c7a39cd1afc8b6cabda17ad45e2c47 docs: driver-api: virtio: slightly reword virtqueues allocation paragraph
-3af20d1f460b71fba55996c7047e25abf75e4357 docs: driver-api: virtio: commentize spec version checking
-7c80b954cdcc388a8ebecf2f03539fc9538a89dc virtio-blk: set req->state to MQ_RQ_COMPLETE after polling I/O is finished
-c1ebf7af2d500c4d5da0fe53de53c3923ea89b6b virtio-blk: support completion batching for the IRQ path
-c239558d455377d24f8f031df79b2a84c4782380 vdpa_sim: use weak barriers
-afe9cfb70fbc688a1b19716e1419846523c77357 vdpa_sim: switch to use __vdpa_alloc_device()
-fe904f37acc3ebca45907f2a6b3c01c29dba6468 vdpasim: customize allocation size
-41ebeb5104d9b3d2d79a3ce71e125a3bd752a806 vdpa_sim: support vendor statistics
-f28b5986c0869d5f94b6e0ce6762f5c2bba37d0d vdpa_sim_net: vendor satistics
-44d42e8261f21b4bfbb98f4d14b7192620f0ff3c vdpa_sim: get rid of DMA ops
-a66c49b4ca47e3e17effd5c5f79f7c4df71cba3c vhost-test: remove meaningless debug info
-b4191778ebeb490aa86c0ad27379b6c8a4924b89 vhost: remove unused paramete
-2520d613eaff6e5d41dc4e82599e8f36ba1397fc virtio_ring: per virtqueue dma device
-37b09a8ec6864e9dce07c3e5d97b6f66fb0cae08 vdpa: introduce get_vq_dma_device()
-6918dbfe8decfc9d590144d1b3d35d33ee74006d virtio-vdpa: support per vq dma device
-8d90351b938ccc1276ec7ab71a0cb2b99d6c884b vdpa: set dma mask for vDPA device
-70ebfab5cc05dcbc82f769ee527e2803d5f43a74 vdpa: mlx5: support per virtqueue dma device
 
---===============3004687643101857104==--
+--===============3333918089126564078==--
