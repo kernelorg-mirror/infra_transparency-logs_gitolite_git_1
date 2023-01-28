@@ -1,30 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-dt
-Date: Sat, 28 Jan 2023 10:16:55 -0000
-Message-Id: <167490101509.3107.8132999721943578439@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
+Date: Sat, 28 Jan 2023 10:17:11 -0000
+Message-Id: <167490103175.3277.15952963714460212388@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux-dt
+repo: pub/scm/linux/kernel/git/krzk/linux
 user: krzk
 changes:
   - ref: refs/heads/for-next
-    old: da78e3f85ff218ae63d8be7adb8c9bf7fd4b144b
-    new: e912da7a88758d2c41f03ca386c3744d1e57c9f7
+    old: 5e8b8afd175eed020b077fb4dad7368193d8a6a7
+    new: 8ee90899e93c06bc42c30eb92332a0870d434271
     log: |
-         d105729968404fd42a624bfea01b2f8e46a4947a arm64: dts: microchip: use "okay" for status
-         2f3086577f41a4569de4842049bff12f0926b71b arm64: dts: apm: use "okay" for status
-         9f2c9170934eace462499ba0bfe042cc72900173 arm64: dts: amd: use "okay" for status
-         e912da7a88758d2c41f03ca386c3744d1e57c9f7 Merge branch 'next/dt64' into for-next
-         
-  - ref: refs/heads/next/dt64
-    old: 0a9b7bee0056dd686da688f530ebd7f00ec4652d
-    new: 9f2c9170934eace462499ba0bfe042cc72900173
-    log: |
-         d105729968404fd42a624bfea01b2f8e46a4947a arm64: dts: microchip: use "okay" for status
-         2f3086577f41a4569de4842049bff12f0926b71b arm64: dts: apm: use "okay" for status
-         9f2c9170934eace462499ba0bfe042cc72900173 arm64: dts: amd: use "okay" for status
+         5f762c4008e886d8dfa755b2d6d29a3d2cd9935a arm64: dts: exynos: disable non-working GPU on Exynos7 Espresso
+         682319f63d80df6460388d0da8f7601761b86c14 arm64: dts: exynos: add ADC supply on Exynos7 Espresso
+         2bbd69327ab67eb00a641ec66f08a98fc4aa36ef arm64: dts: exynos: correct Bluetooth LED triger on E850-96
+         b838792a624244bbd972ca691c4fd5272ccfdcf8 arm64: dts: exynos: add VPH_PWR regulator on TM2
+         d7cd5b50ea7a75771bbbf046ada668f5a497834e arm64: dts: exynos: add interrupt-controller to WM5110 on TM2
+         db00347974e68b3820ae57575d1f94fe75ce9deb arm64: dts: exynos: correct wlf,micd-dbtime on TM2
+         987414b1cfffa30b42bafb7063b20a616c54eec7 arm64: dts: exynos: use lowercase hex addresses
+         8ee90899e93c06bc42c30eb92332a0870d434271 Merge branch 'next/dt64' into for-next
          
