@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3819809185238540219=="
+Content-Type: multipart/mixed; boundary="===============3547197373825631049=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Sat, 28 Jan 2023 16:18:21 -0000
-Message-Id: <167492270126.12316.8867090176543562939@gitolite.kernel.org>
+Date: Sat, 28 Jan 2023 16:18:32 -0000
+Message-Id: <167492271239.12429.7705981597416975802@gitolite.kernel.org>
 
---===============3819809185238540219==
+--===============3547197373825631049==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/kbuild
+  - ref: refs/heads/for-next
     old: b01aae86512af6dcea5e2f4f54eb608808907f1b
     new: f65abd04df2b112ac78f6dce32828fc331802c9e
     log: revlist-b01aae86512a-f65abd04df2b.txt
 
---===============3819809185238540219==
+--===============3547197373825631049==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -39,4 +39,4 @@ caf4b55f703b086148a2098ce5c765c2c2bfd1a4 kbuild: do not automatically add -w opt
 f3a40602adac7bad150d2e5174f74e15a47aea68 kbuild: fix trivial typo in comment
 f65abd04df2b112ac78f6dce32828fc331802c9e kbuild: remove --include-dir MAKEFLAG from top Makefile
 
---===============3819809185238540219==--
+--===============3547197373825631049==--
