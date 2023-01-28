@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5960401609698800461=="
+Content-Type: multipart/mixed; boundary="===============2971708288833952513=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Sat, 28 Jan 2023 16:22:45 -0000
-Message-Id: <167492296583.15272.15265153034157256737@gitolite.kernel.org>
+Date: Sat, 28 Jan 2023 16:22:52 -0000
+Message-Id: <167492297214.15389.2102997042886498327@gitolite.kernel.org>
 
---===============5960401609698800461==
+--===============2971708288833952513==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: 16809afdcbad5fa45f34622f62873c7d7114cde5
     new: 70eb3911d80f548a76fb9a40c8a3fd93ac061a42
     log: revlist-16809afdcbad-70eb3911d80f.txt
 
---===============5960401609698800461==
+--===============2971708288833952513==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ d8afe2f8a92d2aac3df645772f6ee61b0b2fc147 netpoll: Remove 4s sleep during carrier
 2d104c390f0d3901c4915dcb141cb96da96cffe7 Merge tag 'for-netdev' of https://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf-next
 70eb3911d80f548a76fb9a40c8a3fd93ac061a42 net: netlink: recommend policy range validation
 
---===============5960401609698800461==--
+--===============2971708288833952513==--
