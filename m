@@ -1,55 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============1125673554819282445=="
+Content-Type: multipart/mixed; boundary="===============0052140365928218097=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Sat, 28 Jan 2023 10:46:36 -0000
-Message-Id: <167490279690.23065.4980520278212786822@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Sat, 28 Jan 2023 10:47:33 -0000
+Message-Id: <167490285366.23475.12987447661460108937@gitolite.kernel.org>
 
---===============1125673554819282445==
+--===============0052140365928218097==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.3
-    old: aa326917f58fa577bfba8976da214080bdec2699
-    new: 3d0690140f37dbdad956c5bb18eb2854161ec44f
-    log: revlist-aa326917f58f-3d0690140f37.txt
+  - ref: refs/heads/for-next
+    old: 51a56d3e1a9165f7249aed6bc199844a2446616c
+    new: 9733402bbaf3153f2889fea90e55cb8779be6341
+    log: revlist-51a56d3e1a91-9733402bbaf3.txt
 
---===============1125673554819282445==
+--===============0052140365928218097==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1674902795 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1674902794-6fcceb75c7a6ef463a928fe5ce95424427dcbab3
-
-aa326917f58fa577bfba8976da214080bdec2699 3d0690140f37dbdad956c5bb18eb2854161ec44f refs/heads/asoc-6.3
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmPU/QsACgkQJNaLcl1U
-h9CPiQf+NpvXz3RfLwGACH1qXgTtQhFoo1NzEwk73eMSKq5c3uMiYlyA9LNabhYz
-IeS+stLcoK/VIsooWedOSECGWKSig0q7s+PG5F3hjxS7aSocsQ3PwcfYDMhOnj1M
-Sp3LKS8lVU14D+OtnCrxsyrLd1zLMsdnilGg5t0J0xxO5FTcTS5wP6KWJdk610ky
-zm2DiTNNMjCkRyqGnQUhafRYaoQzfjylUqnRTMBn22hJug2q1RuIXWnuz+UPBd+H
-T5KzBGC1IpSScKuyo/otrfontYO8b8RFdsV1silX7iiIIO89I9tVwAHkaI9536gM
-lnxjZh0N34j9/e6uQQNK7vmSYBMHoQ==
-=88Tv
------END PGP SIGNATURE-----
-
---===============1125673554819282445==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-aa326917f58f-3d0690140f37.txt
+Content-Disposition: attachment; filename=revlist-51a56d3e1a91-9733402bbaf3.txt
 
 aa9ff6a4955fdba02b54fbc4386db876603703b7 ASoC: soc-compress: Reposition and add pcm_mutex
 9a62d87acee94919af1fe92f2412fff83dcbcda0 ASoC: SOF: ipc4-topology: No need to unbind routes within a pipeline
@@ -75,5 +50,6 @@ df55122ba0955951a85ef3ffb19f0dcb0ad3ffbb ASoC: soc-component: add get_jack_type
 087b9dda8658052a33031ef82a8d8ef77a7c94ea ASoC: ts3a227e: add set_jack and get_jack_type
 6c9802b82f368cfe1dbd0611d0f9ac0b7cfd1ca0 ASoC: simple-card-utils: create jack inputs for
 3d0690140f37dbdad956c5bb18eb2854161ec44f ASoC: SOF: ipc4: Multi-stream playback and capture support
+9733402bbaf3153f2889fea90e55cb8779be6341 Merge remote-tracking branch 'asoc/for-6.3' into asoc-next
 
---===============1125673554819282445==--
+--===============0052140365928218097==--
