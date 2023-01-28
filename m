@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5437658203504035209=="
+Content-Type: multipart/mixed; boundary="===============1164392955204826035=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Sat, 28 Jan 2023 20:48:24 -0000
-Message-Id: <167493890452.28794.9078767414703102419@gitolite.kernel.org>
+Date: Sat, 28 Jan 2023 20:48:30 -0000
+Message-Id: <167493891026.28894.15340980943034919466@gitolite.kernel.org>
 
---===============5437658203504035209==
+--===============1164392955204826035==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: 1d3cab43f4c73936ba55820a0501469e36ed6dd3
     new: 07dcbd7325cee92d5798536f417b9b1da497f9da
     log: revlist-1d3cab43f4c7-07dcbd7325ce.txt
 
---===============5437658203504035209==
+--===============1164392955204826035==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -52,4 +52,4 @@ e85465e420be1e408f9465f8b6fd9e2f7b17aea1 libbpf: Simplify barrier_var()
 49f67f393ff264e8d83f6fcec0728a6aa8eed102 bpf: btf: Add BTF_FMODEL_SIGNED_ARG flag
 07dcbd7325cee92d5798536f417b9b1da497f9da s390/bpf: Fix a typo in a comment
 
---===============5437658203504035209==--
+--===============1164392955204826035==--
