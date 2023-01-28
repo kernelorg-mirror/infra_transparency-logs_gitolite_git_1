@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Sat, 28 Jan 2023 17:45:40 -0000
-Message-Id: <167492794019.6110.12811987422441236207@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Sat, 28 Jan 2023 17:48:29 -0000
+Message-Id: <167492810961.7871.18173566424096757666@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jic23/iio
-user: jic23
+repo: pub/scm/linux/kernel/git/broonie/misc
+user: broonie
 changes:
-  - ref: refs/heads/fixes-togreg
-    old: 701c875aded880013aacac608832995c4b052257
-    new: 6327a930ab7bfa1ab33bcdffd5f5f4b1e7131504
+  - ref: refs/heads/b4/synquacer-boot
+    old: 84bc564e239324cd3e638e491226821466c808a1
+    new: e86eb9fc3893ec7c675bf8f4203b2bef5818a869
     log: |
-         6327a930ab7bfa1ab33bcdffd5f5f4b1e7131504 drivers: iio: adc: ltc2497: fix LSB shift
+         ecc0e3eb41a71a79070d585bfa0523a849010ffb To: Rob Herring <robh+dt@kernel.org> To: Frank Rowand <frowand.list@gmail.com> Cc: Rob Herring <robh@kernel.org> Cc: devicetree@vger.kernel.org Cc: linux-kernel@vger.kernel.org Signed-off-by: Mark Brown <broonie@kernel.org>
+         e86eb9fc3893ec7c675bf8f4203b2bef5818a869 of/address: Return an error when no valid dma-ranges are found
          
