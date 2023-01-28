@@ -1,20 +1,35 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Sat, 28 Jan 2023 10:47:46 -0000
-Message-Id: <167490286601.23591.13766707676517730292@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Sat, 28 Jan 2023 10:47:55 -0000
+Message-Id: <167490287552.23733.2451513110286772282@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 changes:
-  - ref: refs/heads/for-next
-    old: e3d31788f630b7b9c2bb7739f0ad5ff9280c3c28
-    new: 092e02a1e9883c9227d3be2987edafb57d8f60dd
+  - ref: refs/heads/for-linus
+    old: 9bab63a3e9498afd6a29cd3a43cf3ad4a4612b85
+    new: eede42c9459b58b71edc99303dad65216a655810
     log: |
-         fad8ddda1c40c00bff4ac45eb9b85e1f717f17f4 regulator: max20411: Convert to i2c's .probe_new()
-         092e02a1e9883c9227d3be2987edafb57d8f60dd Merge remote-tracking branch 'regulator/for-6.3' into regulator-next
+         a720416d94634068951773cb9e9d6f1b73769e5b spi: spidev: fix a race condition when accessing spidev->spi
+         6b35b173dbc1711f8d272e3f322d2ad697015919 spi: spidev: remove debug messages that access spidev->spi without locking
+         b442990d244ba2ffe926c6603c42deb6fcc3b0db spi: Merge rename of spi-cs-setup-ns DT property
+         c63b8fd14a7db719f8252038a790638728c4eb66 spi: dw: Fix wrong FIFO level setting for long xfers
+         eede42c9459b58b71edc99303dad65216a655810 spi: spidev: fix a recursive locking error
+         
+  - ref: refs/heads/for-next
+    old: 44eb7d6da222ee061111443debe21271343bea15
+    new: ecd48fd34c8d169d70445f53b6dcf7aed26a5953
+    log: |
+         a720416d94634068951773cb9e9d6f1b73769e5b spi: spidev: fix a race condition when accessing spidev->spi
+         6b35b173dbc1711f8d272e3f322d2ad697015919 spi: spidev: remove debug messages that access spidev->spi without locking
+         b442990d244ba2ffe926c6603c42deb6fcc3b0db spi: Merge rename of spi-cs-setup-ns DT property
+         0f6d2cee58f1ff2ebf66f0bceb113d79f66ecb07 spi: correct spelling
+         c63b8fd14a7db719f8252038a790638728c4eb66 spi: dw: Fix wrong FIFO level setting for long xfers
+         eede42c9459b58b71edc99303dad65216a655810 spi: spidev: fix a recursive locking error
+         ecd48fd34c8d169d70445f53b6dcf7aed26a5953 Merge remote-tracking branch 'spi/for-6.3' into spi-next
          
