@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8221469148503309446=="
+Content-Type: multipart/mixed; boundary="===============2085929811971341590=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Sat, 28 Jan 2023 01:16:24 -0000
-Message-Id: <167486858433.26543.2304268898644290794@gitolite.kernel.org>
+Date: Sat, 28 Jan 2023 01:16:37 -0000
+Message-Id: <167486859712.26690.2584086059240196403@gitolite.kernel.org>
 
---===============8221469148503309446==
+--===============2085929811971341590==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/kbuild
+  - ref: refs/heads/for-next
     old: 78e8bc291b8d9fc6b9d1a1ff4a6b6cbe6a3e14a8
     new: 1ff7a57125e926aa4d05a53a9bb7eff92c687de4
     log: revlist-78e8bc291b8d-1ff7a57125e9.txt
 
---===============8221469148503309446==
+--===============2085929811971341590==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -39,4 +39,4 @@ b28b2953a96b57e532e803163332c72dbb742cfd setlocalversion: use only the correct r
 b01aae86512af6dcea5e2f4f54eb608808907f1b kbuild: fix trivial typo in comment
 1ff7a57125e926aa4d05a53a9bb7eff92c687de4 setlocalversion: remove unneeded check and set -e
 
---===============8221469148503309446==--
+--===============2085929811971341590==--
