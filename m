@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Sat, 28 Jan 2023 01:44:25 -0000
-Message-Id: <167487026592.10092.6304790820638917523@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Sat, 28 Jan 2023 02:01:43 -0000
+Message-Id: <167487130399.22730.17337002471793230369@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
   - ref: refs/heads/master
-    old: 90aaef4e35c4a74b0f1593d06e39eda867ef13d3
-    new: 5af6ce7049365952f7f023155234fe091693ead1
+    old: 866c615a5b3cd93a35e56426b145d79efffa0e98
+    new: c3258229a86255fd3587a18b223116b7d755885c
     log: |
-         b7ab9161cf5ddc42a288edf9d1a61f3bdffe17c7 cifs: Fix oops due to uncleared server->smbd_conn in reconnect
-         5af6ce7049365952f7f023155234fe091693ead1 Merge tag '6.2-rc5-smb3-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
+         c3258229a86255fd3587a18b223116b7d755885c Sat Jan 28 02:00:56 AM UTC 2023
          
