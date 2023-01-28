@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Sat, 28 Jan 2023 17:48:29 -0000
-Message-Id: <167492810961.7871.18173566424096757666@gitolite.kernel.org>
+Date: Sat, 28 Jan 2023 17:48:53 -0000
+Message-Id: <167492813389.8081.1128069882812001360@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,10 +11,15 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 changes:
-  - ref: refs/heads/b4/synquacer-boot
-    old: 84bc564e239324cd3e638e491226821466c808a1
-    new: e86eb9fc3893ec7c675bf8f4203b2bef5818a869
-    log: |
-         ecc0e3eb41a71a79070d585bfa0523a849010ffb To: Rob Herring <robh+dt@kernel.org> To: Frank Rowand <frowand.list@gmail.com> Cc: Rob Herring <robh@kernel.org> Cc: devicetree@vger.kernel.org Cc: linux-kernel@vger.kernel.org Signed-off-by: Mark Brown <broonie@kernel.org>
-         e86eb9fc3893ec7c675bf8f4203b2bef5818a869 of/address: Return an error when no valid dma-ranges are found
-         
+  - ref: refs/tags/sent/arm64-kselftest-ssve-za-v1
+    old: 0000000000000000000000000000000000000000
+    new: 29cc0639dfce9ad7b31d231a4c32bc1791eedf78
+  - ref: refs/tags/sent/b4-test-v1
+    old: 0000000000000000000000000000000000000000
+    new: f7c798ed0e7b12f83738d4dd5613569819942464
+  - ref: refs/tags/sent/synquacer-boot-v1
+    old: 0000000000000000000000000000000000000000
+    new: 873e695c2b2029f6289551ec2c8d346abcdb467a
+  - ref: refs/tags/sent/synquacer-boot-v2
+    old: 0000000000000000000000000000000000000000
+    new: fb3f05e8b41f5b8f626614be0404c1d94eaf7dcf
