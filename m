@@ -1,25 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
-Date: Sat, 28 Jan 2023 10:17:28 -0000
-Message-Id: <167490104835.3443.16219485618504632861@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/brauner/linux
+Date: Sat, 28 Jan 2023 10:30:32 -0000
+Message-Id: <167490183226.11879.4023579329945621844@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux
-user: krzk
+repo: pub/scm/linux/kernel/git/brauner/linux
+user: brauner
 changes:
-  - ref: refs/heads/next/dt64
-    old: 5cff13f07eec38ecb70e6839060d0a795b690a53
-    new: 987414b1cfffa30b42bafb7063b20a616c54eec7
+  - ref: refs/heads/prctl.pr_hide_self_exe
+    old: bafa339eda3f79d567386e1fae59bb0537156c96
+    new: 2372745ea25a5139a5f0d071f0b9fc7fc51822e7
     log: |
-         5f762c4008e886d8dfa755b2d6d29a3d2cd9935a arm64: dts: exynos: disable non-working GPU on Exynos7 Espresso
-         682319f63d80df6460388d0da8f7601761b86c14 arm64: dts: exynos: add ADC supply on Exynos7 Espresso
-         2bbd69327ab67eb00a641ec66f08a98fc4aa36ef arm64: dts: exynos: correct Bluetooth LED triger on E850-96
-         b838792a624244bbd972ca691c4fd5272ccfdcf8 arm64: dts: exynos: add VPH_PWR regulator on TM2
-         d7cd5b50ea7a75771bbbf046ada668f5a497834e arm64: dts: exynos: add interrupt-controller to WM5110 on TM2
-         db00347974e68b3820ae57575d1f94fe75ce9deb arm64: dts: exynos: correct wlf,micd-dbtime on TM2
-         987414b1cfffa30b42bafb7063b20a616c54eec7 arm64: dts: exynos: use lowercase hex addresses
+         966eb1ba050db12b4f9a01c3ebadaa1b24701e8b exec: add PR_HIDE_SELF_EXE prctl
+         2372745ea25a5139a5f0d071f0b9fc7fc51822e7 selftests: add tests for prctl(SET_HIDE_SELF_EXE)
          
