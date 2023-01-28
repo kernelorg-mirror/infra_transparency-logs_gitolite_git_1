@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Sat, 28 Jan 2023 12:37:33 -0000
-Message-Id: <167490945352.29368.16887563381565572229@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sschmidt/wpan-next
+Date: Sat, 28 Jan 2023 13:11:51 -0000
+Message-Id: <167491151124.19471.1355163579570198609@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
-user: broonie
+repo: pub/scm/linux/kernel/git/sschmidt/wpan-next
+user: sschmidt
 changes:
-  - ref: refs/heads/b4/synquacer-boot
-    old: 2248dbcb3a029a54836c280096e2572041d9879d
-    new: 84bc564e239324cd3e638e491226821466c808a1
+  - ref: refs/heads/master
+    old: 57588c71177f0bfc08509c2c3a9bfe32850c0786
+    new: 3accf4762734a69ebd03cba989249c78ac7dfc7e
     log: |
-         79f80e7f011f77b5723a54dce2173401fbcf75da To: Rob Herring <robh+dt@kernel.org> To: Frank Rowand <frowand.list@gmail.com> Cc: Rob Herring <robh@kernel.org> Cc: devicetree@vger.kernel.org Cc: linux-kernel@vger.kernel.org Signed-off-by: Mark Brown <broonie@kernel.org>
-         84bc564e239324cd3e638e491226821466c808a1 of/address: Return an error when no valid dma-ranges are found
+         9bc114504b07207d671593f6f6d787d55dcf91bd ieee802154: Add support for user beaconing requests
+         3accf4762734a69ebd03cba989249c78ac7dfc7e mac802154: Handle basic beaconing
          
