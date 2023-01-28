@@ -1,25 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Sat, 28 Jan 2023 17:18:32 -0000
-Message-Id: <167492631249.20299.7247036906968100633@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Sat, 28 Jan 2023 17:18:42 -0000
+Message-Id: <167492632233.20475.16249124150499124233@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/regulator
 user: broonie
 changes:
   - ref: refs/heads/for-next
-    old: 9733402bbaf3153f2889fea90e55cb8779be6341
-    new: 373e159a7bf14265c1b244287b11f03d1fd1d26b
+    old: 092e02a1e9883c9227d3be2987edafb57d8f60dd
+    new: d8cdb28cebe4fdc1d8be5050bffc0a825f8090ca
     log: |
-         18e16350558ac42c8cc55c5df714fd28412452ad ASoC: fsl-asoc-card: constify fsl_asoc_card_dai
-         68cd394efd0fdce25d0def8d6cb1b8898b2c13d9 ASoC: The Iron Device SMA1303 is a boosted Class-D audio amplifier.
-         dcf6d2ef0e823346a3c1eae3f96e733e92ca656c ASoC: Modified the schema binding and added the vendor prefixes.
-         362e8d0f27c40864b4f8994624409f7b4316d2dd ASoC: imx-hdmi: Use dev_err_probe
-         b3bcedc0402fcdc5c8624c433562d9d1882749d8 ASoC: kirkwood: Iterate over array indexes instead of using pointer math
-         ffe4c0f0bfaa571a676a0e946d4a6a0607f94294 ASoC: soc-compress.c: fixup private_data on snd_soc_new_compress()
-         373e159a7bf14265c1b244287b11f03d1fd1d26b Merge remote-tracking branch 'asoc/for-6.3' into asoc-next
+         4fd8bcec5fd7c0d586206fa2f42bd67b06cdaa7e regulator: max77802: Bounds check regulator id against opmode
+         d8cdb28cebe4fdc1d8be5050bffc0a825f8090ca Merge remote-tracking branch 'regulator/for-6.3' into regulator-next
          
