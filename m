@@ -1,53 +1,70 @@
-Content-Type: multipart/mixed; boundary="===============8854263873149444907=="
+Content-Type: multipart/mixed; boundary="===============8660306103178227577=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/geoff/ps3-linux
-Date: Sun, 29 Jan 2023 20:41:33 -0000
-Message-Id: <167502489303.2834.14319337617183804189@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
+Date: Sun, 29 Jan 2023 20:44:40 -0000
+Message-Id: <167502508069.3879.12824478905682597502@gitolite.kernel.org>
 
---===============8854263873149444907==
+--===============8660306103178227577==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/geoff/ps3-linux
-user: geoff
+repo: pub/scm/linux/kernel/git/cip/linux-cip
+user: iwamatsu
 changes:
-  - ref: refs/heads/ps3-queue
-    old: ed81d3b6c6de94bed19793328868a1367ef542a1
-    new: 2b62dbc9b48466155e26f1dcb730a61ebe4e4ece
-    log: revlist-ed81d3b6c6de-2b62dbc9b484.txt
+  - ref: refs/heads/linux-4.19.y-cip
+    old: 8cbf38242b91f4f98d6fc776bae10cc74740eff2
+    new: 6cd0670e124d09e80f2daaf2ecb13922a603f30d
+    log: revlist-8cbf38242b91-6cd0670e124d.txt
 
---===============8854263873149444907==
+--===============8660306103178227577==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ed81d3b6c6de-2b62dbc9b484.txt
+Content-Disposition: attachment; filename=revlist-8cbf38242b91-6cd0670e124d.txt
 
-b93302a8d1eb2af1e2304c83981154233d68d397 net/ps3_gelic_net: Fix RX sk_buff length
-be8fbcd2790f6e28dc52a1d0cc687ef324942b61 net/ps3_gelic_net: Use dma_mapping_error
-dcf761a075bed6c2e2b0c1ff07d9c8946fdf4116 [PATCH net-next] ps3_gelic_net: Add gelic_descr structures
-39352e6da1498e2cd0643e81eca56e8a42c401a5 [PATCH net-next] ps3_gelic_net: Use local dev variable
-12e8645902caa5b6c99a43d529bdc29f32c37e30 [PATCH net-next] ps3_gelic_net: Add vlan_id structure
-34adcc88d084e088f3a17c5d2bc4891bf8822599 [PATCH net-next] ps3_gelic_net: Add new routine gelic_unmap_link
-7704a5737780536f841617680f15a82f07c2d069 [PATCH net-next] ps3_gelic_net: Add new routine gelic_work_to_card
-25566022fca5d9ca0441f126bcdee14b7327e269 [PATCH net-next] ps3_gelic_net: Whitespace cleanups
-88be8fabd6bb46bb83a38d02babe2acb256deb80 [PATCH net-next] ps3_gelic_net: Debugging cleanups
-2f407de3d6b095793a399c680b0eea44c4fe474f ps3_gelic_net: sync to old
-c8dd7e2e940430aeb888259f8135dc563cff10a5 ps3vram: remove bio splitting
-aad1d9af89cd563dbe6e0d0cab20e7af8c5b4c80 powerpc/ps3: Change updateboltedpp panic to info
-708c15820980ae558f4a7ec7e0f8162961371047 powerpc/ps3: Refresh ps3_defconfig
-5a6201d70cfe10331465b4f3cbc2847ac461bf12 hvc_console: Allow backends to set I/O buffer size
-20c7d661383295f80af6d41575b0001894d62c12 ps3-debugging: Enable CONFIG_IKCONFIG_PROC
-11c282526d364375baaf2e60580169f0421d6432 ps3-debugging: Setup DABR register
-60d8ebbdb760675869935b80312ba14af92c5e85 local: Add ps3_nfs_defconfig
-6a04283bf25102e6a9e6d6cc5f85f8ed7ebdd922 local: ps3_nfs_defconfig: Cut down version
-7d3761f34172704d250edc70d715e2703d5ca1e0 local: Refresh ps3_nfs_defconfig
-3a481851e165f3b5e5322ad6ec20237df65bc997 local: Add ps3_petitboot_defconfig
-e56fde3e0dcf8213fde71de9379f91b2b45f9dba local: Add ps3_petitboot_nfs_defconfig
-b3d0410c0b90a66f566b3ba512fe37b4001daca7 local: ps3_petitboot_nfs_defconfig: ip=dhcp
-2b62dbc9b48466155e26f1dcb730a61ebe4e4ece ps3_defconfig: Cut down version
+d22031d040bdab4c2ad1add0cd0aeabaf8100ce5 pNFS/filelayout: Fix coalescing test for single DS
+2cf8dd47089fed40b263fb26be58e4e4da28a8a8 net/ethtool/ioctl: return -EOPNOTSUPP if we have no phy stats
+4f79b0110320e5180cf1a76ad0487ec29b16917f RDMA/srp: Move large values to a new enum for gcc13
+ff85a1dbd90d29f73033177ff8d8de4a27d9721c f2fs: let's avoid panic if extent_tree is not created
+f534dc438828cc3f1f8c6895b8bdfbef079521fb Add exception protection processing for vd in axi_chan_handle_err function
+d9fde9eab1766170ff2ade67d09178d2cfd78749 nilfs2: fix general protection fault in nilfs_btree_insert()
+5b13ffee54216d97c34d5c5967c45870bf4fff96 xhci-pci: set the dma max_seg_size
+2d2820d5f375563690c96e60676855205abfb7f5 usb: xhci: Check endpoint is valid before dereferencing it
+6fac4b5cecb3928a0a81069aaa815a2edc8dd5a1 xhci: Fix null pointer dereference when host dies
+30f9ad9fb34e26f2a079d3b4fa424036b03c2e12 xhci: Add a flag to disable USB3 lpm on a xhci root port level.
+d3ee91e50a6b3c5a45398e3dcb912a8a264f575c prlimit: do_prlimit needs to have a speculation check
+8a3e50379e78eb01cec6dc92f803f47133d3657d USB: serial: option: add Quectel EM05-G (GR) modem
+17a8936bd458485f970d9b3ff4f9b749c8d7a0e3 USB: serial: option: add Quectel EM05-G (CS) modem
+3f6319c761613b16fef0fbeb7e8ac9d410dda47a USB: serial: option: add Quectel EM05-G (RS) modem
+74302819b67f4367bbc92bcc8f363fa7c0b431a8 USB: serial: option: add Quectel EC200U modem
+b3d80364ead37360f7b1cc1c21ec37e972794be5 USB: serial: option: add Quectel EM05CN (SG) modem
+40a8d5650e085a624594ff5d61be73076a3a3885 USB: serial: option: add Quectel EM05CN modem
+1f09d79557072bed2437cf1b9b9712f9912e2c33 USB: misc: iowarrior: fix up header size for USB_DEVICE_ID_CODEMERCS_IOW100
+3be567d8972a8808c6d1dd0e661683ae7d437444 usb: core: hub: disable autosuspend for TI TUSB8041
+a794e308d7674513bd02687f7317804c93a6a460 comedi: adv_pci1760: Fix PWM instruction handling
+fb55f08387d96b519a31cfd612ffb8dafa031be8 mmc: sunxi-mmc: Fix clock refcount imbalance during unbind
+19f0577dd34b250e1595f8dd577d9c2b6c1dc85d cifs: do not include page data when checking signature
+91fe49242140231bcf7e36d99efbb22f3d3465d0 USB: serial: cp210x: add SCALANCE LPE-9000 device id
+e8432afdf79c3dc77369681fcde7dea91161e549 usb: host: ehci-fsl: Fix module alias
+eea0e7af440ac0d36d624e2d750bfde0e37ee64d usb: typec: altmodes/displayport: Add pin assignment helper
+223496587af90e0fc6ba76eeb58a2ff07daa2ac5 usb: typec: altmodes/displayport: Fix pin assignment calculation
+7c94c99b9b0119de7982098d97b25f786cd7cbd6 usb: gadget: g_webcam: Send color matching descriptor per frame
+63d161f29cd39c050e8873aa36e0c9fc013bb763 usb: gadget: f_ncm: fix potential NULL ptr deref in ncm_bitrate()
+a24cbfc16746abd9c1ced0e8cf05f28010b5abce usb-storage: apply IGNORE_UAS only for HIKSEMI MD202 on RTL9210
+fe85083b284b4653d7beb2065e3f601375a527ed serial: pch_uart: Pass correct sg to dma_unmap_sg()
+8ee291ae493d607be269fb76d2bab5ad39c039f7 serial: atmel: fix incorrect baudrate setup
+32313c11bdc8a02c577abaf865be3664ab30410a gsmi: fix null-deref in gsmi_get_variable
+0ce15000dee0ecd6f235f925a327803e2ef489c6 Revert "ext4: fix delayed allocation bug in ext4_clu_mapped for bigalloc + inline"
+f83391339d8493b9ff24167516aaa5a5e88d8f81 Revert "ext4: fix reserved cluster accounting at delayed write time"
+432021b82923bd1f306177533a726762bab86d3f Revert "ext4: add new pending reservation mechanism"
+55d7561d38da7e6660638a3159315bfbab6fec15 Revert "ext4: generalize extents status tree search functions"
+a00d020f18dbe0666e221d929846f1b591b27c20 x86/fpu: Use _Alignof to avoid undefined behavior in TYPE_ALIGN
+b17faf2c4e88ac0deb894f068bda67ace57e9c0a Linux 4.19.271
+02f677e09faee80cf0250f5d4281e2192e59bf7f Merge tag 'v4.19.271' into linux-4.19.y-cip
+6cd0670e124d09e80f2daaf2ecb13922a603f30d CIP: Bump version suffix to -cip90 after merge from stable
 
---===============8854263873149444907==--
+--===============8660306103178227577==--
