@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Sun, 29 Jan 2023 18:44:28 -0000
-Message-Id: <167501786861.21864.16852788971455454963@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kvmarm/kvmarm
+Date: Sun, 29 Jan 2023 18:52:56 -0000
+Message-Id: <167501837636.29156.1060475429899605240@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/groeck/linux-staging
-user: groeck
+repo: pub/scm/linux/kernel/git/kvmarm/kvmarm
+user: maz
 changes:
-  - ref: refs/heads/hwmon-next
-    old: f9b70de51c899be761b9270ca618597ecc877402
-    new: 8a2b1b3820ec23c0c9d929957f824388e59f83ee
-    log: |
-         8a2b1b3820ec23c0c9d929957f824388e59f83ee hwmon: (asus-ec-sensors) add zenith ii extreme alpha
-         
+  - ref: refs/tags/kvmarm-fixes-6.2-3
+    old: 0000000000000000000000000000000000000000
+    new: 1f7b82fc52ab137dbd73141ff2a6b19bb446f8fb
