@@ -1,24 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Sun, 29 Jan 2023 16:50:03 -0000
-Message-Id: <167501100381.15018.14035265500067511077@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/abelvesa/linux
+Date: Sun, 29 Jan 2023 18:23:54 -0000
+Message-Id: <167501663416.9414.13009145058947255935@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/abelvesa/linux
+user: abelvesa
 changes:
-  - ref: refs/heads/master
-    old: 5af6ce7049365952f7f023155234fe091693ead1
-    new: c96618275234ad03d44eafe9f8844305bb44fda4
+  - ref: refs/heads/clk/imx
+    old: 1b929c02afd37871d5afb9d498426f83432e71c2
+    new: 9d5c84c8a2a85676fbbe706ec14dd43552ad4e18
     log: |
-         0d0d4680db22eda1eea785c47bbf66a9b33a8b16 ksmbd: add max connections parameter
-         5fde3c21cf33830eda7bfd006dc7f4bf07ec9fe6 ksmbd: do not sign response to session request for guest login
-         62c487b53a7ff31e322cf2874d3796b8202c54a5 ksmbd: limit pdu length size according to connection status
-         a34dc4a9b9e2fb3a45c179a60bb0b26539c96189 ksmbd: downgrade ndr version error message to debug
-         2543fdbd5cd3bb7d72a6c810b431ba17778a607d Merge tag '6.2-rc5-ksmbd-server-fixes' of git://git.samba.org/ksmbd
-         c96618275234ad03d44eafe9f8844305bb44fda4 Fix up more non-executable files marked executable
+         ca6fee1ebc941f8861a37da546c2e45eac0be64f clk: imx: avoid memory leak
+         fbd02877746a1943aa687796b7e9da876197b628 clk: imx: get stdout clk count from device tree
+         5a6a8a138369c8fd255561d22b23702a84770708 clk: imx: remove clk_count of imx_register_uart_clocks
+         df411ea2e630d09f0e4dacfee80686834ed2288c clk: imx: imx93: invoke imx_register_uart_clocks
+         2adf68296082274582a170ecf6825f9beb0c21be clk: imx6sll: add proper spdx license identifier
+         9d5c84c8a2a85676fbbe706ec14dd43552ad4e18 dt-bindings: imx8ulp: clock: no spaces before tabs
          
