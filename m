@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Sun, 29 Jan 2023 19:55:51 -0000
-Message-Id: <167502215143.6116.415865516311386434@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/geoff/ps3-linux
+Date: Sun, 29 Jan 2023 19:57:52 -0000
+Message-Id: <167502227251.6779.8344690256509729732@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/groeck/linux-staging
-user: groeck
+repo: pub/scm/linux/kernel/git/geoff/ps3-linux
+user: geoff
 changes:
-  - ref: refs/heads/hwmon-next
-    old: 8a2b1b3820ec23c0c9d929957f824388e59f83ee
-    new: 8d5d704085bcece54cefe507879f54eddc714a85
+  - ref: refs/heads/gelic-rework-2
+    old: bac6c430705dea791b0f5018428526a25c5e8c32
+    new: 1b622e5f6234542ca965441f404bed3da7694779
     log: |
-         c7420afbf94cde3d52f9abf7ecd8a8aaa6d5854e dt-bindings: trivial-devices: Add Infineon TDA38640 Voltage Regulator
-         8d5d704085bcece54cefe507879f54eddc714a85 hwmon: (pmbus/tda38640) Add driver for Infineon TDA38640 Voltage Regulator
+         1fb14004afbb6ca8b6283655946e754dcda1511e net/ps3_gelic_net: Fix RX sk_buff length
+         1b622e5f6234542ca965441f404bed3da7694779 net/ps3_gelic_net: Use dma_mapping_error
          
