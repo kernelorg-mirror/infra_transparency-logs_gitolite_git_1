@@ -1,50 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============2604520780102580028=="
+Content-Type: multipart/mixed; boundary="===============2953492759583915743=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Mon, 30 Jan 2023 19:32:54 -0000
-Message-Id: <167510717455.4779.4715882353821416286@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Mon, 30 Jan 2023 19:33:00 -0000
+Message-Id: <167510718084.4888.3330502187076694582@gitolite.kernel.org>
 
---===============2604520780102580028==
+--===============2953492759583915743==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.2
-    old: e18c6da62edc780e4f4f3c9ce07bdacd69505182
-    new: 2036890282d56bcbf7f915ba9e04bf77967ab231
+  - ref: refs/heads/for-6.3
+    old: 0f6d2cee58f1ff2ebf66f0bceb113d79f66ecb07
+    new: d4bde04318c0d33705e9a77d4c7df72f262011e0
     log: |
-         2036890282d56bcbf7f915ba9e04bf77967ab231 ASoC: rt715-sdca: fix clock stop prepare timeout issue
+         d4bde04318c0d33705e9a77d4c7df72f262011e0 spi: dw_bt1: fix MUX_MMIO dependencies
          
 
---===============2604520780102580028==
+--===============2953492759583915743==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1675107173 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1675107172-127dacae6ceb965966b5a71c01f7408f120f35b2
+pusher C3F436CA30F5D8EB 1675107179 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1675107178-fdccdbacffa01895d1fadb14b74099fc70f99744
 
-e18c6da62edc780e4f4f3c9ce07bdacd69505182 2036890282d56bcbf7f915ba9e04bf77967ab231 refs/heads/asoc-6.2
+0f6d2cee58f1ff2ebf66f0bceb113d79f66ecb07 d4bde04318c0d33705e9a77d4c7df72f262011e0 refs/heads/for-6.3
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmPYG2UACgkQJNaLcl1U
-h9DXMQf/X1VbziDKyZNhCZfe/CrQc44ZtnbRHudYM/3GKkwfTi+8a+3WvB/wjcGe
-E/K3gixKzJUnuMuLugDCLvhlfgSr/kktLNskAYpvejFwTvbcsFmzY/RBBRN2UdNd
-oLAVmQRtRvNN8RELoRybKtIP0sSTQ2Wds7Qhsu2Euyn4mdmu0zJXJIph5b7O6ZYs
-zF5klltYdwj6g69nvQuI2GW3eChxnEyUevQPE6IIlgZBd8Nn1GLpxcpRWxLB5VzZ
-v328YvMKbflNzKNlhj2PxvUh9bf1cIGCCcUygLrkpZEdmiiWLVnhKk/PAA/6Vx3X
-b5yvDPbGgwmHS0D1N/7JutY/HL7uvg==
-=9lyd
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmPYG2sACgkQJNaLcl1U
+h9BTnQf/Wl6QE/BCtWPoEB1SQAWd/0EG8Ka2BnzlDF94KecBiy5GM1GvTEgHhYem
+l7X+/9YgR7PcZz5RMedrMumRrxUE//dzjCuP2xaCeovhCewvd2E1abWoSS/1UbzY
+6yXEsO86Xms4B5LxcRV+YkCfiCIyKUOCqGfOUKa0g+poUezl64qQgeW1+B62PSwD
+K2qbkC460IM5BrBPMMEh5LSB7uvqUBaVAxbYK5kzRb0AbU6jNEhqO+jSFqLbC5S/
+uQxbQt+HPGT0OfDcEfaOE9FvRGm9rkW2NIej1lMgE7z/tiINTClQoi3jjOLHeKeK
+ta5cQLC52AZoL32SO0sz2LazKydE3w==
+=ouRY
 -----END PGP SIGNATURE-----
 
---===============2604520780102580028==--
+--===============2953492759583915743==--
