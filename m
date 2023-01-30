@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Mon, 30 Jan 2023 07:23:27 -0000
-Message-Id: <167506340701.12007.6268492956263829595@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Mon, 30 Jan 2023 07:31:00 -0000
+Message-Id: <167506386085.17342.18107504482278462987@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: davem
 changes:
   - ref: refs/heads/master
-    old: 468ba54bd616db995514f9671ac116eb4b62e0ea
-    new: 5c0862c2c962052ed5055220a00ac1cefb92fbcd
+    old: 54aa39a513dbf2164ca462a19f04519b2407a224
+    new: 611792920925fb088ddccbe2783c7f92fdfb6b64
     log: |
-         5c0862c2c962052ed5055220a00ac1cefb92fbcd net: bcmgenet: Add a check for oversized packets
+         611792920925fb088ddccbe2783c7f92fdfb6b64 netrom: Fix use-after-free caused by accept on already connected socket
          
