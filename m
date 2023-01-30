@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Mon, 30 Jan 2023 07:21:43 -0000
-Message-Id: <167506330330.11409.7889855801615657344@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Mon, 30 Jan 2023 07:23:27 -0000
+Message-Id: <167506340701.12007.6268492956263829595@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: davem
 changes:
   - ref: refs/heads/master
-    old: a6efc42a86c0c87cfe2f1c3d1f09a4c9b13ba890
-    new: 54aa39a513dbf2164ca462a19f04519b2407a224
+    old: 468ba54bd616db995514f9671ac116eb4b62e0ea
+    new: 5c0862c2c962052ed5055220a00ac1cefb92fbcd
     log: |
-         54aa39a513dbf2164ca462a19f04519b2407a224 net: stmmac: do not stop RX_CLK in Rx LPI state for qcs404 SoC
+         5c0862c2c962052ed5055220a00ac1cefb92fbcd net: bcmgenet: Add a check for oversized packets
          
