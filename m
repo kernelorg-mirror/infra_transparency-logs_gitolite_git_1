@@ -1,27 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Mon, 30 Jan 2023 11:51:22 -0000
-Message-Id: <167507948273.11799.16283886621688133239@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============3884825559967035194=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 30 Jan 2023 11:57:32 -0000
+Message-Id: <167507985220.15176.13791326154666782941@gitolite.kernel.org>
+
+--===============3884825559967035194==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-user: masahiroy
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-next
-    old: d1ce1d4d0c05325ceda8a4125ca1f0c11e23f5f6
-    new: 1ea5dd72a4c6abc472b25736ecc35a896fc95735
+  - ref: refs/heads/master
+    old: 9828eaa89442bc475e934b24b168b5f4e1daa83b
+    new: 06518acaf85135966222dafd4c3dbbdd4fcd1c13
     log: |
-         dcfbcb1033bbd705ef554daab89bb5fd5484c3e5 setlocalversion: use only the correct release tag for git-describe
-         e1b6c69081d63b062f66f704da1deb2861682e1b setlocalversion: absorb $(KERNELVERSION)
-         14c08aee29a0bafd0ecdbbec51f27c5f1f82e5ee kbuild: save overridden KERNELRELEASE in include/config/kernel.release
-         9f34a8dfd366846cdf76ebcd5ec1894301d09c4b kbuild: do not re-run setlocalversion for kernelrelease
-         7c03fc7dca4af0d47c2779e62c32f8ba692ab2c7 kbuild: deb-pkg: add --source-option=-sP
-         62b32c558e74a20a488b3754a6a274164baeb8bf powerpc/vdso: Filter clang's auto var init zero enabler when linking
-         844d7000e6f5e7c1bfaee82badd8592160017c68 kbuild: do not automatically add -w option to modpost
-         e1f3b0626d370e6b581b6fdc4841b138272b0807 kbuild: fix trivial typo in comment
-         1ea5dd72a4c6abc472b25736ecc35a896fc95735 kbuild: remove --include-dir MAKEFLAG from top Makefile
+         06518acaf85135966222dafd4c3dbbdd4fcd1c13 5.4-stable patches
          
+
+--===============3884825559967035194==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1675079851 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1675079849-1dc9c24d7963a22b03dc4982a4da08f61c2e1a5e
+
+9828eaa89442bc475e934b24b168b5f4e1daa83b 06518acaf85135966222dafd4c3dbbdd4fcd1c13 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPXsKsbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Rr8QAIe0EugHA+MVG1yEw7b8
+Mj2KRScpMQfnmnCGf9DEAIJch6ZjBQNejEJK5o89SCU2H6JtfNAB1UH7wbB2Xcce
+8KTgswwThnVnzNjKSIfqMDf3gPlsAnp4OWyZusV4sLycg4MnnUNytuP5plvO6o/i
+HqdWDjKWUbsCh9zbUh+iHYfa+sSkKpHLSnOaACdrJZ15+X4/O9PT+N6XGOnt308P
+qOPIy7T2ccwSNon8AjIuDwPoX10yfACR6ihGd+mZlfA8EnknzQO3Ofrf0OwW9g+j
+dxNKqXjOXKghdrx98NuKc9ZlxPptcYuAwGnSDDm4Kq3g0c1lDPOiIPaxuZezkMsA
+gsNjRow0QIJgwrZuT3I8SrZxFS6VV/kwGoCQQEjzGRxN7gXCJkgXJzJfyheIpY7b
+c4Q6rmyKcrSvFtHd+avW10EV8hnh0lMk+PQU7JVTU0Pxk5MUoIqf6P3jBq6blgiO
+OlEaQ9O+83t3LWXWwWe3eDa0haWHifgLsILQyanOv8NI4OYxUWcU81SKE2shS6+V
+rlAexPIoMbLqBpd7inb5g4d176J98Yj/8DGykuFChmzH0p1kbnVPF5PuNTkLa1kk
+5fmVY/jXf4P33zWHvDcug+fZc0moQ4JDkOcJw6ZkAk10cWP1AAJp/X00Fh8AsH+Q
+7wrKohNHh/130OOz1mfxPfYt
+=vzQn
+-----END PGP SIGNATURE-----
+
+--===============3884825559967035194==--
