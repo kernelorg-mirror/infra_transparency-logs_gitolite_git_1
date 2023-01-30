@@ -1,70 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/daeinki/drm-exynos
-Date: Mon, 30 Jan 2023 04:57:53 -0000
-Message-Id: <167505467323.12972.10607550400552300270@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============5335564904349575564=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 30 Jan 2023 05:39:23 -0000
+Message-Id: <167505716335.6546.5071682119279500684@gitolite.kernel.org>
+
+--===============5335564904349575564==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/daeinki/drm-exynos
-user: daeinki
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/tags/drm-fixes-2022-09-30
-    old: 0000000000000000000000000000000000000000
-    new: a5c105fb633df021b9e0a337fed44155d922f21a
-  - ref: refs/tags/drm-fixes-2022-09-30-1
-    old: 0000000000000000000000000000000000000000
-    new: fe20f3233e80eab9f3bd805d9488bcf9e61f241e
-  - ref: refs/tags/drm-fixes-2022-10-01
-    old: 0000000000000000000000000000000000000000
-    new: 2b130ab69718dcbfddf643f42fae4411efe9fa8d
-  - ref: refs/tags/drm-fixes-2022-10-21
-    old: 0000000000000000000000000000000000000000
-    new: 7529f6787882f3ac19d0c27d47052624d326db42
-  - ref: refs/tags/drm-fixes-2022-10-28
-    old: 0000000000000000000000000000000000000000
-    new: 291389521733566f494493440f02eafbff3ce5e7
-  - ref: refs/tags/drm-fixes-2022-11-04-1
-    old: 0000000000000000000000000000000000000000
-    new: bf9feb3cbfc650d8dd06f2c2445b71221bc3d0af
-  - ref: refs/tags/drm-fixes-2022-11-11
-    old: 0000000000000000000000000000000000000000
-    new: ffca862fdf12787f25fa9a87fa9a5579ea2ffd2a
-  - ref: refs/tags/drm-fixes-2022-11-19
-    old: 0000000000000000000000000000000000000000
-    new: 95c6da0e38a165ff622184f6f60a4a8684fee078
-  - ref: refs/tags/drm-fixes-2022-11-25
-    old: 0000000000000000000000000000000000000000
-    new: 0aee02a489e54bfec94495e054a91c9a1b38b87e
-  - ref: refs/tags/drm-fixes-2022-12-02
-    old: 0000000000000000000000000000000000000000
-    new: 64906fa860dcfe9990935ce8320ad0b3d9c2cb0e
-  - ref: refs/tags/drm-fixes-2022-12-09
-    old: 0000000000000000000000000000000000000000
-    new: ece020effccf999c6e530e60bb0b983e03746caa
-  - ref: refs/tags/drm-fixes-2023-01-01
-    old: 0000000000000000000000000000000000000000
-    new: 47d8811da253f2ee126d01ee89022e29efdd01f6
-  - ref: refs/tags/drm-next-2022-10-05
-    old: 0000000000000000000000000000000000000000
-    new: fee8f9a25e406dacc447768ee5ff5626225dbabc
-  - ref: refs/tags/drm-next-2022-10-07-1
-    old: 0000000000000000000000000000000000000000
-    new: dab87ddb3ae5e3c095cb200b4635d5d150be1460
-  - ref: refs/tags/drm-next-2022-10-14
-    old: 0000000000000000000000000000000000000000
-    new: 3c1b6111948e5351fb112b4b24c6e839e0e66e60
-  - ref: refs/tags/drm-next-2022-12-13
-    old: 0000000000000000000000000000000000000000
-    new: 375b8f534cc99ecedffcd644810f61442b507109
-  - ref: refs/tags/drm-next-2022-12-23
-    old: 0000000000000000000000000000000000000000
-    new: 9cbb06ae38170bbe8d4d7836eb30c2d269ac8bd7
-  - ref: refs/tags/exynos-drm-next-for-v6.3
-    old: 0000000000000000000000000000000000000000
-    new: 20d07db0f7a3d865cc61be83a5e5d99cdddc0c25
-  - ref: refs/tags/test_tag
-    old: 0000000000000000000000000000000000000000
-    new: 744ce0a9f76f606428a794520d0f7623fbbf0fc5
+  - ref: refs/heads/master
+    old: 755cf53561646b9d39bf9b2aacdf9d2ab8b4159a
+    new: 3e89e19cde65e6a40b4a75341fbe90d481a801ca
+    log: |
+         3e89e19cde65e6a40b4a75341fbe90d481a801ca 6.1-stable patches
+         
+
+--===============5335564904349575564==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1675057162 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1675057161-dc849b18e312aeda4a0423013a720e0c80b9ca02
+
+755cf53561646b9d39bf9b2aacdf9d2ab8b4159a 3e89e19cde65e6a40b4a75341fbe90d481a801ca refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPXWAobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+tmIQAKjew+JLI7yTeOCjY6VN
+z+lOQplFGv3EeJW0973qOGNdoKHoOtdWKU9kZx8O24BxNValSzxGhOW+NTkG6pmc
+FrVFwKUeJolMSSJN7cUFSCELQNjIUGjyWJ2wJU0tNs5xHI2UpTqGcZgdO+VQMf5D
+YgTLFmnwDLeK+tbcOv+wLlWH0cmhBaHEUmQxnDu4mqrhzFmF3HJLXNy6ID7n1eGL
+4FLpJNLEXKVXT+O4r/oeSyu6sDF1C8gXKRsnLqJdEgE9vsz9Cd32+7X5Ez+2jnrI
+c565oLAcxGRuskMf+DJ2NUXc8+alD40oI2d++t7eH3SUzRdv1t1/BDX2yG4+kYvC
+zja6I55cejHNjqeRLCe2tKAaL3G+y1pJsH3BCg7blYh46rGci/7OiIcerE77Vs9t
+A07QGd7KiHxFOansWoSiqzJowv0e5XQrJHEYEu9Cz7GhlN99WZ9Fm991ie9ViOcY
+5Io5HKRW2Cl1cjL6dBWUTNd4SbH5CfPlxnlfqn0z93P81hNUnhjdjEm28btscVop
+7Gkj6mV5eiFkUHXrpb6N6ElXHUKk717wsWYw1TwjeAZJEaI0XSlthOtS+YJ6pmuc
+s0xOgbSwphBYRs18Xt1ZS5IWGwUg2FzQzXKbRJ5SRRS45QWNnathdgwUpeTU86oR
+z0AMa5PCyAYgv75kopg51Ify
+=yw+Z
+-----END PGP SIGNATURE-----
+
+--===============5335564904349575564==--
