@@ -1,56 +1,53 @@
-Content-Type: multipart/mixed; boundary="===============8026623462460217202=="
+Content-Type: multipart/mixed; boundary="===============0484869228417511292=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Mon, 30 Jan 2023 13:25:39 -0000
-Message-Id: <167508513938.12550.4276343739483901475@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Mon, 30 Jan 2023 13:29:50 -0000
+Message-Id: <167508539049.14010.11194710768308546725@gitolite.kernel.org>
 
---===============8026623462460217202==
+--===============0484869228417511292==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
+repo: pub/scm/linux/kernel/git/broonie/spi
+user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: bd2a3af5e7ecf7533d6d4f24cad7c0e51c5dde87
-    new: 38cf9cc211887cb468c0be3ab7359e2399a38083
+  - ref: refs/heads/for-6.2
+    old: eede42c9459b58b71edc99303dad65216a655810
+    new: 35bba23e6732a593722c96cbe03ced627f0d8831
     log: |
-         38cf9cc211887cb468c0be3ab7359e2399a38083 4.19-stable patches
+         819cfea7d69d5561f89c4957ff94afc6cad76356 spi: SPI core CS delay property rename From: Hector Martin <marcan@marcan.st> Date: Wed, 04 Jan 2023 18:36:26 +0900 Message-Id: <20230104093631.15611-1-marcan@marcan.st> MIME-Version: 1.0 Content-Type: text/plain; charset="utf-8" Content-Transfer-Encoding: 7bit
+         1f4d2dd45b6ef9c047f620d2812326a7813d2354 spi: spidev: fix a race condition when accessing spidev->spi
+         50028988403ab8e031093655af9c6919ecba3aa6 spi: spidev: remove debug messages that access spidev->spi without locking
+         35bba23e6732a593722c96cbe03ced627f0d8831 Merge remote-tracking branch 'spi/for-6.2' into spi-6.2
          
 
---===============8026623462460217202==
+--===============0484869228417511292==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1675085138 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1675085135-9aebe74696719032564bd458a5f8b43138fac9aa
+pusher C3F436CA30F5D8EB 1675085389 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1675085388-a367447594d712a50646d61058b7340cd4085854
 
-bd2a3af5e7ecf7533d6d4f24cad7c0e51c5dde87 38cf9cc211887cb468c0be3ab7359e2399a38083 refs/heads/master
+eede42c9459b58b71edc99303dad65216a655810 35bba23e6732a593722c96cbe03ced627f0d8831 refs/heads/for-6.2
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPXxVIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+3W4P/27GZHcdf/ZCx08uCk/5
-zjdsl3Tumjtu8z5R3tpg5DhGv0Edj82a5YOSVc4wBayVsO3WRoKIld6UZeJQTC30
-KsYaIn8ajW4rhUoM+NHOShzd7UX0V2MJCdEJFO94D51t1vkKjUqGoUIxC64/fTO6
-heFohw030juesPxi/2a8zD7LcBwNUVc6dYIbgym8Q1u6YDm9jWE/uBW30ou0SmF/
-6E+b69dKi6SifhHODABCy7/eUHFqiHie1sVAqPe2LnvKakMteG4wBprh66/tI3Xe
-vX99Ox5yJmcHxizQ0tl6g/PO57SVi5YGbN4TEEnwhmuSfblukaJIH6NuDGmYHHBJ
-CU5FOtrN4pes/pjdNu8OuOsPhAKJ2zKLKrJwyuBq4Ol+jEM4IYc7utgmNluNtYYl
-Qe8/uieCT2hB/cTtJyo0KOAb8zAG8elHwKfVjnuYqJoF3XA381doNi+4LGMowpre
-y8TSVryU6CbFZKHgTNF+4ehaOvGFEEnJTCXb5nLyh3DLYH+xIMQ6J3RIFFtGDtrN
-oxH7zu7LkacVec7u2359l82Ley9BhAFgkr/Vg9zp0wIuLPQFt3n517AudfihAmhy
-0/kurujefWhs/p8tHbpQSs0aDtcv7AifdhAxQWxspSKYxd5RpUuFfVHMM07Bx3Pt
-w+ugWD07kMMEfuVlU8GIm+Op
-=ecW8
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmPXxk0ACgkQJNaLcl1U
+h9A76wf+LqD5YEUbj027IysE0GqZsoXUQgLfR03mdTXQ9Fb0+H8/gS4ud7gUmcVU
+4UaK20YaOQghvdIL45wRhRRwFualbpkpBaYi4O6uorYUr9n0CI4TqFowYblLRy8T
+qvRxTKk1Ct4TbWk7GogBlpY86PKxUBGdPf3m9VoEiHnJrkO0nS+aXoAtJle5uUem
+LlD9ugY5mwFRDVbL3D+j8nIAxlmydQweVckAu0v8bOU5gUDkPZl3hgdZYgeingMs
+bOD/kPN216DCaj2MiWI1GMC4WZElHdXoHpsAZZRgsOunQ/5PpyKR+He0e7/dOaj/
+bCc98s+E5CXh7mX+ZpYoYtflgyTHGQ==
+=ntx6
 -----END PGP SIGNATURE-----
 
---===============8026623462460217202==--
+--===============0484869228417511292==--
