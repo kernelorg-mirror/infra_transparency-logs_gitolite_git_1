@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Mon, 30 Jan 2023 07:18:37 -0000
-Message-Id: <167506311743.8815.2440073522495847455@gitolite.kernel.org>
+Date: Mon, 30 Jan 2023 07:20:24 -0000
+Message-Id: <167506322494.10954.10840248430417572005@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: davem
 changes:
   - ref: refs/heads/master
-    old: 70eb3911d80f548a76fb9a40c8a3fd93ac061a42
-    new: 453d9fdc364b87601df168c962e93407fbe5e91a
+    old: 453d9fdc364b87601df168c962e93407fbe5e91a
+    new: 468ba54bd616db995514f9671ac116eb4b62e0ea
     log: |
-         453d9fdc364b87601df168c962e93407fbe5e91a net: mdio: mux-meson-g12a: use __clk_is_enabled to simplify the code
+         468ba54bd616db995514f9671ac116eb4b62e0ea fec: convert to gpio descriptor
          
