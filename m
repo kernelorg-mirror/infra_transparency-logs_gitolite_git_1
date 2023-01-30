@@ -1,29 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/srini/nvmem
-Date: Mon, 30 Jan 2023 15:33:32 -0000
-Message-Id: <167509281293.4003.10384688588162745242@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============5652432522618878339=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Mon, 30 Jan 2023 15:34:12 -0000
+Message-Id: <167509285286.4297.6584937070398603011@gitolite.kernel.org>
+
+--===============5652432522618878339==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/srini/nvmem
-user: srini
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-next
-    old: ee0a7b467d3abadfad65a20ed88418a278d8da36
-    new: 7a8419b8e2aaae4df2566bc40fd3576d73cb40d4
+  - ref: refs/heads/kobject-const
+    old: 65c7f4eba7bf98c3e2574f40e44ba40fcac64567
+    new: 68321be0c8d95bae5bc709895dcc42674a9ba511
     log: |
-         f89a551048b4a0d62d24c735deff5bc7d38c122e nvmem: core: return -ENOENT if nvmem cell is not found
-         dea6feb7a964329b8b9067ba3f593002bd766fb8 nvmem: layouts: Fix spelling mistake "platforn" -> "platform"
-         750147ba8ee206d6239b954e0c4b7a2a6fb474eb dt-bindings: nvmem: Fix spelling mistake "platforn" -> "platform"
-         c29886c911fd56c0453879fc109da3dfadf978b8 nvmem: core: fix nvmem_layout_get_match_data()
-         0a37e22da31afc60b47426f93f56018a044b7f68 nvmem: stm32: add OP-TEE support for STM32MP13x
-         82a832ae6c9a43118a61984825595a12027821c6 nvmem: stm32: detect bsec pta presence for STM32MP15x
-         d63140efb9083c819573be8d4aa30882531d6662 nvmem: rave-sp-eeprm: fix kernel-doc bad line warning
-         dba5fba854f971339180a1e556b84dc87caf0166 of: property: fix #nvmem-cell-cells parsing
-         d2c9dca2d2f1cd72e68a6f0926f6d7b1917125f3 nvmem: qcom-spmi-sdam: register at device init time
-         e2650df3574f2d1bc2d978cdaaf4962311e5fbf8 dt-bindings: nvmem: qfprom: add IPQ8074 compatible
-         7a8419b8e2aaae4df2566bc40fd3576d73cb40d4 nvmem: stm32: fix OPTEE dependency
+         68321be0c8d95bae5bc709895dcc42674a9ba511 bus: remove the "p" pointer in struct bus_type
          
+
+--===============5652432522618878339==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1675092845 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1675092844-b3a8d9f6f560eb2bf7a8b600ebe4f7e29b8fcfed
+
+65c7f4eba7bf98c3e2574f40e44ba40fcac64567 68321be0c8d95bae5bc709895dcc42674a9ba511 refs/heads/kobject-const
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPX420bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+eAIP/ithBmZprEy7+OJllWgt
+jcRggY7ZEiyrfg5zZ4uBm/I/UkAyfQiuBpoaaW+BT/KqLU8lY3bS45tejtLDq+62
+vYK8SSak+qqqxSx3wqHwA1XZ8l1wXgqdYPlzvqSS2NjzO5ub9CbE5SLTu8+NG7/y
+4TETo4SfvCqb763P9cjQrI9AYlRxo+ntTFd04QvNGkKf/gji9etVNIezQiIFd2Ul
+mzC1lOwqlq5RAULcTscqRgLuaFd9qL2g+9vNZYOZ+PT16ncRKGSqYblDxO0nRmkN
+bXoNp33IXyoBAtQgBgOmeAP8+nLmDfbjnyeQYkpqKiG6l0dGz8m7fAj1hqt6+mDn
+e+5TBrod8CgqStH0xDZgmtOLmZAgKNBvXjonHUhiBeQI20TaPpRlPJjS5pLypXch
+q5ghY59XPwYKj7p/RDlJRjtSs1H0RNLjQFCsX3ubb+TfD/WOUojy0B4+OsI93oHn
+B0iKEfM05vIilHIyXPZk+dhkao/LXKb3cpleYJ/pET+iD3e0KblGQurfydyafRPq
+cNre4J4DmhDCtqbK5w45+M78fW8migI1zi4gnW3YJLAcwuOpLvoeBc/Dr/ZLKQSp
+8PLhZl1q6gnZmM39woZGwvzMNLwE4ouFjXjT9cqX8bsyZXY1OXZHra8p/jsFiyWF
+oI0k9U2Qy4WAA2ug/corhfI3
+=32TY
+-----END PGP SIGNATURE-----
+
+--===============5652432522618878339==--
