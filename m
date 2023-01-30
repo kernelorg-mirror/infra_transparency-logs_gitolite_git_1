@@ -1,46 +1,70 @@
-Content-Type: multipart/mixed; boundary="===============0031900752212194116=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dtor/input
-Date: Mon, 30 Jan 2023 04:37:36 -0000
-Message-Id: <167505345621.31601.1099143538219561347@gitolite.kernel.org>
-
---===============0031900752212194116==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/daeinki/drm-exynos
+Date: Mon, 30 Jan 2023 04:57:53 -0000
+Message-Id: <167505467323.12972.10607550400552300270@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dtor/input
-user: dtor
+repo: pub/scm/linux/kernel/git/daeinki/drm-exynos
+user: daeinki
 changes:
-  - ref: refs/heads/master
-    old: 21617de3b4647175a4c6a2a58f40515a94a13df4
-    new: 04f8b4ea20c85f579e8bbcd9da138779e9d4d36f
-    log: revlist-21617de3b464-04f8b4ea20c8.txt
-  - ref: refs/heads/next
-    old: 21617de3b4647175a4c6a2a58f40515a94a13df4
-    new: 04f8b4ea20c85f579e8bbcd9da138779e9d4d36f
-    log: revlist-21617de3b464-04f8b4ea20c8.txt
-
---===============0031900752212194116==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-21617de3b464-04f8b4ea20c8.txt
-
-d50584d783313c8b05b84d0b07a2142f1bde46dd Input: ads7846 - don't report pressure for ads7845
-13f82ca3878db8284a70ef9711d7f710a31eb562 Input: ads7846 - always set last command to PWRDOWN
-fa9f4275b20ec7b2a8fb05c66362d10b36f9efec Input: ads7846 - don't check penirq immediately for 7845
-6cb86b0a87bedd42b2c77c2714d66f812cf6fe74 Input: altera_ps2 - use devm_platform_get_and_ioremap_resource()
-12b11142ee95e68891211268ce6a826f3396e870 Input: apbps2 - use devm_platform_get_and_ioremap_resource()
-24b915d1664a90f1871a96df426721b99bae7265 Input: arc_ps2 - use devm_platform_get_and_ioremap_resource()
-492ec555a59a674c030ba1b429fb2d50e1b8de67 Input: olpc_apsp - use devm_platform_get_and_ioremap_resource()
-27d5e05be4fde8dcaa833a4faded4de13e18e7e2 Input: spear-keyboard - use devm_platform_get_and_ioremap_resource()
-babc94da39eca0eafec5f180c07a963ef27881e7 Input: st-keyscan - use devm_platform_get_and_ioremap_resource()
-83ea7df6e72b464aaf572984e269e38fea9f53b5 Input: tegra-kbc - use devm_platform_get_and_ioremap_resource()
-62c5e854b457c319c794a75cb378a7b47624e153 Input: edt-ft5x06 - fix typo in a comment
-04f8b4ea20c85f579e8bbcd9da138779e9d4d36f Input: pmic8xxx-keypad - fix a Kconfig spelling mistake & hyphenation
-
---===============0031900752212194116==--
+  - ref: refs/tags/drm-fixes-2022-09-30
+    old: 0000000000000000000000000000000000000000
+    new: a5c105fb633df021b9e0a337fed44155d922f21a
+  - ref: refs/tags/drm-fixes-2022-09-30-1
+    old: 0000000000000000000000000000000000000000
+    new: fe20f3233e80eab9f3bd805d9488bcf9e61f241e
+  - ref: refs/tags/drm-fixes-2022-10-01
+    old: 0000000000000000000000000000000000000000
+    new: 2b130ab69718dcbfddf643f42fae4411efe9fa8d
+  - ref: refs/tags/drm-fixes-2022-10-21
+    old: 0000000000000000000000000000000000000000
+    new: 7529f6787882f3ac19d0c27d47052624d326db42
+  - ref: refs/tags/drm-fixes-2022-10-28
+    old: 0000000000000000000000000000000000000000
+    new: 291389521733566f494493440f02eafbff3ce5e7
+  - ref: refs/tags/drm-fixes-2022-11-04-1
+    old: 0000000000000000000000000000000000000000
+    new: bf9feb3cbfc650d8dd06f2c2445b71221bc3d0af
+  - ref: refs/tags/drm-fixes-2022-11-11
+    old: 0000000000000000000000000000000000000000
+    new: ffca862fdf12787f25fa9a87fa9a5579ea2ffd2a
+  - ref: refs/tags/drm-fixes-2022-11-19
+    old: 0000000000000000000000000000000000000000
+    new: 95c6da0e38a165ff622184f6f60a4a8684fee078
+  - ref: refs/tags/drm-fixes-2022-11-25
+    old: 0000000000000000000000000000000000000000
+    new: 0aee02a489e54bfec94495e054a91c9a1b38b87e
+  - ref: refs/tags/drm-fixes-2022-12-02
+    old: 0000000000000000000000000000000000000000
+    new: 64906fa860dcfe9990935ce8320ad0b3d9c2cb0e
+  - ref: refs/tags/drm-fixes-2022-12-09
+    old: 0000000000000000000000000000000000000000
+    new: ece020effccf999c6e530e60bb0b983e03746caa
+  - ref: refs/tags/drm-fixes-2023-01-01
+    old: 0000000000000000000000000000000000000000
+    new: 47d8811da253f2ee126d01ee89022e29efdd01f6
+  - ref: refs/tags/drm-next-2022-10-05
+    old: 0000000000000000000000000000000000000000
+    new: fee8f9a25e406dacc447768ee5ff5626225dbabc
+  - ref: refs/tags/drm-next-2022-10-07-1
+    old: 0000000000000000000000000000000000000000
+    new: dab87ddb3ae5e3c095cb200b4635d5d150be1460
+  - ref: refs/tags/drm-next-2022-10-14
+    old: 0000000000000000000000000000000000000000
+    new: 3c1b6111948e5351fb112b4b24c6e839e0e66e60
+  - ref: refs/tags/drm-next-2022-12-13
+    old: 0000000000000000000000000000000000000000
+    new: 375b8f534cc99ecedffcd644810f61442b507109
+  - ref: refs/tags/drm-next-2022-12-23
+    old: 0000000000000000000000000000000000000000
+    new: 9cbb06ae38170bbe8d4d7836eb30c2d269ac8bd7
+  - ref: refs/tags/exynos-drm-next-for-v6.3
+    old: 0000000000000000000000000000000000000000
+    new: 20d07db0f7a3d865cc61be83a5e5d99cdddc0c25
+  - ref: refs/tags/test_tag
+    old: 0000000000000000000000000000000000000000
+    new: 744ce0a9f76f606428a794520d0f7623fbbf0fc5
