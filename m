@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vfs/idmapping
-Date: Mon, 30 Jan 2023 16:42:50 -0000
-Message-Id: <167509697000.19144.14319867019429178577@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
+Date: Mon, 30 Jan 2023 16:42:55 -0000
+Message-Id: <167509697567.19226.13419180801366728552@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vfs/idmapping
-user: brauner
+repo: pub/scm/linux/kernel/git/soc/soc
+user: arnd
 changes:
-  - ref: refs/heads/b4/fs-acl-remove-generic-xattr-handlers
-    old: fff235ab3027b7d42aa64650220da49b3b9d4ddd
-    new: d62ca8f8268fbd7f6e1c53dff832a4a46ef7ac2c
-    log: |
-         d62ca8f8268fbd7f6e1c53dff832a4a46ef7ac2c acl: remove generic posix acl handlers from all xattr handlers
-         
+  - ref: refs/heads/amlogic/drivers
+    old: 0000000000000000000000000000000000000000
+    new: fcdc53aceed413dce3ef1d0166a8e9348d5a9c94
