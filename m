@@ -1,62 +1,48 @@
-Content-Type: multipart/mixed; boundary="===============3923276519231276020=="
+Content-Type: multipart/mixed; boundary="===============3716861436098717138=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Mon, 30 Jan 2023 22:22:35 -0000
-Message-Id: <167511735541.22136.15859688827504714197@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
+Date: Mon, 30 Jan 2023 22:51:05 -0000
+Message-Id: <167511906549.9133.6787080037441173047@gitolite.kernel.org>
 
---===============3923276519231276020==
+--===============3716861436098717138==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/soc/soc
-user: arnd
+repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
+user: jaegeuk
 changes:
-  - ref: refs/heads/soc/drivers
-    old: 0d01e09022c558c54fa2d5fb7fe7e32b7a9a8554
-    new: 0ad2185dcb5ed3f3c26be8262e4180d5d97f244f
-    log: revlist-0d01e09022c5-0ad2185dcb5e.txt
+  - ref: refs/heads/dev
+    old: 7a2b15cfa8dbbd54beb4e2ce7b2f42eb0ad00425
+    new: b7dc77eb9ca4ec04845e18d37de9b2b6b270492c
+    log: revlist-7a2b15cfa8db-b7dc77eb9ca4.txt
 
---===============3923276519231276020==
+--===============3716861436098717138==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0d01e09022c5-0ad2185dcb5e.txt
+Content-Disposition: attachment; filename=revlist-7a2b15cfa8db-b7dc77eb9ca4.txt
 
-1caf002efa223f930ba508159535cf82ad4b2811 dt-bindings: sifive,ccache0: Support StarFive JH7110 SoC
-6635e91648ce0868481fd6dd591d5ac796d8a635 soc: sifive: ccache: Add StarFive JH7110 support
-cd556e1e950cea8e4fba88facf24288099925e7b bus: imx-weim: use devm_platform_get_and_ioremap_resource()
-9d3975f27e12c89327fbac84c3d8552ecdb72a35 soc: imx: add Kconfig symbols for blk-ctrl drivers
-f4b3948e5a90f49b33e89b019d3c641ab9a6fc59 soc: imx: imx8mp-blk-ctrl: add instance specific probe function
-2cbee26e5d592da942a995ddee78ea3eb97ad2fa soc: imx: imx8mp-blk-ctrl: expose high performance PLL clock
-06a9a229b1592abeb10728c8564492f0729f4b83 soc: imx: imx8m-blk-ctrl: set LCDIF panic read hurry level
-083dab5e69f3dc9a3c85b2d690ff91cfed57e926 soc: imx: imx93-pd: No need to set device_driver owner
-3c047887243c72e7835a17e90361ed19e8354bf5 soc: imx: imx93-src: No need to set device_driver owner
-a439267609f9d57b15991c55550956d7cc5404d8 dt-bindings: reset: meson-g12a: Add missing NNA reset
-340ea839b4306335bd627fe0dd6789df803aef58 dt-bindings: power: Add G12A NNA power domain
-b95f1be74baeb847e15e4703cc8148d75ca58500 Merge branch 'v6.3/bindings' of https://git.kernel.org/pub/scm/linux/kernel/git/amlogic/linux into HEAD
-9a217b7e895313a4d42f7a6c48b6237a595945f4 soc: amlogic: meson-pwrc: Add NNA power domain for A311D
-658a8ef679435959f550a45f7312afaebb9e20a8 dt-bindings: firmware: convert meson_sm.txt to dt-schema
-bc5998b92b9ee8818cc0f7fe02604751389a154e dt-bindings: power: amlogic,meson-gx-pwrc: mark bindings as deprecated
-fcdc53aceed413dce3ef1d0166a8e9348d5a9c94 firmware: meson_sm: stop using 0 as NULL pointer
-94214f145bdf91bd5a60657c71ca6df6ec0fd0b6 soc: bcm: bcm2835-power: Drop empty platform remove function
-73b7d7f2dcf4f729028deec3f5e434af19270fda soc: sunxi: sram: Only iterate over SRAM children
-1fc7606d5083f79a20eb9cfd77c0dbd9299421c1 dt-bindings: power: Add starfive,jh7110-pmu
-08b9a94e8654d402bfd1f5496b077503d69aa2cf soc: starfive: Add StarFive JH71XX pmu driver
-f3460326e38d6a084fb5b3348125a802567a3690 Merge patch series "JH7110 PMU Support"
-0c56f949f626e59ef7c5b18e2706fed2a6afc4a2 soc: renesas: Add PWC support for RZ/V2M
-84def5abbb5252681bb5aa7e3e253c37b75ed9e7 dt-bindings: power: Add Allwinner D1 PPU
-0e30ca5ab0a80fdc7f1055f63c1436dfdc4d317d soc: sunxi: Add Allwinner D1 PPU driver
-9ec590a8a1bbf6610f72124ad79231f2c5875fc9 soc: imx: imx8mp-blk-ctrl: set HDMI LCDIF panic read hurry level
-75dae633c9c0c8d106e97bcf17bec79f652feb2c Merge tag 'riscv-soc-for-v6.3-mw0' of https://git.kernel.org/pub/scm/linux/kernel/git/conor/linux into soc/drivers
-80dea24a49798700ed83b493c5d6e22a6a723b11 Merge tag 'renesas-drivers-for-v6.3-tag2' of git://git.kernel.org/pub/scm/linux/kernel/git/geert/renesas-devel into soc/drivers
-d5d39b46f0231e3120d78bc79c4cc23075ac1610 Merge tag 'sunxi-drivers-for-6.3-1' of https://git.kernel.org/pub/scm/linux/kernel/git/sunxi/linux into soc/drivers
-938370c6684f005da58476202582ab247aff0cbe Merge tag 'arm-soc/for-6.3/drivers' of https://github.com/Broadcom/stblinux into soc/drivers
-e0530b9ea708d7d8d2e7764536e95fed15019476 Merge tag 'imx-drivers-6.3' of git://git.kernel.org/pub/scm/linux/kernel/git/shawnguo/linux into soc/drivers
-050bbd6e5822fc5c9da0fc70e52eb9f0cfa406fb Merge tag 'amlogic-drivers-for-v6.3' of https://git.kernel.org/pub/scm/linux/kernel/git/amlogic/linux into soc/drivers
-0ad2185dcb5ed3f3c26be8262e4180d5d97f244f soc: sunxi: select CONFIG_PM
+193a639fed92793ad10e327cfb2be7175be01425 f2fs: add iostat support for flush
+c5f9db2548d0ac988df81aa34cc63f3b2ed374f9 f2fs: drop useless initializer and unneeded local variable
+120e0ea12d90ad15127ad50944975fc8c81666b7 f2fs: introduce discard_io_aware_gran sysfs node
+2f3a9ae990a7881c9a57a073bb52ebe34fdc3160 f2fs: introduce trace_f2fs_replace_atomic_write_block
+0e8d040bfa4c476d7d2a23119527c744c7de13cd f2fs: clear atomic_write_task in f2fs_abort_atomic_write()
+f4c49874a80b3634e3b97d0220cfbbe7394b84ea f2fs: fix to avoid race condition of f2fs_abort_atomic_write()
+f571253668a9a4966eeb279e329f02e97254047c f2fs: fix to avoid race condition of atomic write
+8abe4be451321e013cb227983a3562f0aab6f929 f2fs: remove unneeded f2fs_cp_error() in f2fs_create_whiteout()
+14c42b75ee1481df6e7262245e5ef3a167325c33 f2fs: fix to do sanity check on extent cache correctly
+d6a19f96326741067f823eb7948c996f4307b0af f2fs: fix to show discard_unit mount opt
+9adc6c8ff3da77866c33ed28ed354799b68b89bb f2fs: clarify compress level bit offset
+255699a4d8762e6d0a39d72367612be18e75f9ae f2fs: return true if all cmd were issued or no cmd need to be issued for f2fs_issue_discard_timeout()
+3d41b70411d0e581490a46ae8eb766670c49b902 f2fs: fix to check warm_data_age_threshold
+85bcabfa354d8e4cd18f747e8c184e388d3876bb fs: f2fs: initialize fsdata in pagecache_write()
+638ce54378673c87afeefa048dee9a46080d0bc0 f2fs: fix information leak in f2fs_move_inline_dirents()
+0f837b84b2af390a17546e7b4ab5ef48ecf2d8e6 f2fs: allow set compression option of files without blocks
+81712a1f56dcdfc00e2c2458bfb3bd367e4c505c f2fs: synchronize atomic write aborts
+b7dc77eb9ca4ec04845e18d37de9b2b6b270492c f2fs: fix to abort atomic write only during do_exist()
 
---===============3923276519231276020==--
+--===============3716861436098717138==--
