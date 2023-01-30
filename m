@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/shawnguo/linux
-Date: Mon, 30 Jan 2023 02:01:18 -0000
-Message-Id: <167504407842.25080.1433282547059400279@gitolite.kernel.org>
+Date: Mon, 30 Jan 2023 02:06:11 -0000
+Message-Id: <167504437193.28159.12915344557820925737@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,11 +11,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/shawnguo/linux
 user: shawnguo
 changes:
-  - ref: refs/tags/imx-dt-6.3
-    old: 1878908eba969d3213d99864e7acf2003f67e7df
-    new: 6188a771fb5ee6f64d6791680eb17459ee8b3ce4
+  - ref: refs/heads/imx/dt64
+    old: af27686c44ec6f549cda2aed70953e0f61dd39aa
+    new: 46e828026cc8daf29b251efca27b93eaaf906081
     log: |
-         611b6c891e403b099d39717afa3d098712b58473 ARM: dts: imx6ull-dhcom: Add DH electronics DHCOM i.MX6ULL SoM and PDK2 board
-         bae9847e120aee3a101fb3e42f9ac131d93351ac ARM: dts: imx6ull-dhcom: Add DHCOM based PicoITX board
-         addaaf0a18b7964913a289f5933f618974a408b3 ARM: dts: imx6ull-dhcom: Add DHSOM based DRC02 board
+         52eb0c6511218f831c4aa78e7e1a698dc0ebf2ff arm64: dts: imx8q: use generic node name for rave-sp
+         a1558dc19976e3d39e608c3d0904d1fee7f9b8cf arm64: dts: imx8mm-verdin: Add yavia carrier board
+         b694fbe2ff40fedca0ef6f6649391f3c40e44df7 arm64: dts: imx8mp-verdin: Add yavia carrier board
+         46e828026cc8daf29b251efca27b93eaaf906081 arm64: ls1046ardb: Use in-band-status for SFP module
          
