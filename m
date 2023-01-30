@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mtd/linux
-Date: Mon, 30 Jan 2023 16:18:03 -0000
-Message-Id: <167509548364.3492.18169688937793474539@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/wireless/iwd
+Date: Mon, 30 Jan 2023 16:20:03 -0000
+Message-Id: <167509560327.5459.190689113106480227@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mtd/linux
-user: mraynal
+repo: pub/scm/network/wireless/iwd
+user: denkenz
 changes:
-  - ref: refs/heads/nand/next
-    old: 724ef01569519d1e7a95231688b6a5f8eaba29f2
-    new: b56265257d38af5abf43bd5461ca166b401c35a5
+  - ref: refs/heads/master
+    old: 07c3b4d8397b817dede0b41d3ea3c9b4e51038a6
+    new: ce3507558c9f7b7da676bed142e64e97257abe46
     log: |
-         b56265257d38af5abf43bd5461ca166b401c35a5 mtd: rawnand: fsl_elbc: Propagate HW ECC settings to HW
+         ce3507558c9f7b7da676bed142e64e97257abe46 eap-tls: Add FastReauthentication setting
          
