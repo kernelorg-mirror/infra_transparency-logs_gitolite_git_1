@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3716861436098717138=="
+Content-Type: multipart/mixed; boundary="===============8816860264266333886=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Mon, 30 Jan 2023 22:51:05 -0000
-Message-Id: <167511906549.9133.6787080037441173047@gitolite.kernel.org>
+Date: Mon, 30 Jan 2023 22:54:38 -0000
+Message-Id: <167511927804.10253.2272314245181552757@gitolite.kernel.org>
 
---===============3716861436098717138==
+--===============8816860264266333886==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
 user: jaegeuk
 changes:
-  - ref: refs/heads/dev
-    old: 7a2b15cfa8dbbd54beb4e2ce7b2f42eb0ad00425
-    new: b7dc77eb9ca4ec04845e18d37de9b2b6b270492c
-    log: revlist-7a2b15cfa8db-b7dc77eb9ca4.txt
+  - ref: refs/heads/dev-test
+    old: c16dc0bfc6d36f782db8ba54da5c8dbceecdc7d1
+    new: ec11bdb427500d07f95c44d3faf1da18364f462c
+    log: revlist-c16dc0bfc6d3-ec11bdb42750.txt
 
---===============3716861436098717138==
+--===============8816860264266333886==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7a2b15cfa8db-b7dc77eb9ca4.txt
+Content-Disposition: attachment; filename=revlist-c16dc0bfc6d3-ec11bdb42750.txt
 
 193a639fed92793ad10e327cfb2be7175be01425 f2fs: add iostat support for flush
 c5f9db2548d0ac988df81aa34cc63f3b2ed374f9 f2fs: drop useless initializer and unneeded local variable
@@ -44,5 +44,12 @@ d6a19f96326741067f823eb7948c996f4307b0af f2fs: fix to show discard_unit mount op
 0f837b84b2af390a17546e7b4ab5ef48ecf2d8e6 f2fs: allow set compression option of files without blocks
 81712a1f56dcdfc00e2c2458bfb3bd367e4c505c f2fs: synchronize atomic write aborts
 b7dc77eb9ca4ec04845e18d37de9b2b6b270492c f2fs: fix to abort atomic write only during do_exist()
+f78b5ca4f05dade8c9f05eea2e89f74f8e4b6cc1 f2fs: remove __add_sum_entry
+f45b6148e2f1f8f3e9824472a89ba568e418f8fa f2fs: simplify do_checkpoint
+8b8b162ffb2db8cca99db21fc0acaadbe15f762d f2fs: add a f2fs_curseg_valid_blocks helper
+11d839d48ab0c0493cedf2a57a3f1e74df84f3ce f2fs: refactor __allocate_new_segment
+e21640984cd77ac3e5b67c2b6f5ba8ea5d64ad87 f2fs: remove __allocate_new_section
+137cd430f6cb8735302e8a9d9acf3e60fdef475e f2fs: refactor next blk selection
+ec11bdb427500d07f95c44d3faf1da18364f462c f2fs: remove __has_curseg_space
 
---===============3716861436098717138==--
+--===============8816860264266333886==--
