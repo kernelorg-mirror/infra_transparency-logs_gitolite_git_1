@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2284061156197378896=="
+Content-Type: multipart/mixed; boundary="===============0487943695907523056=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Mon, 30 Jan 2023 13:13:31 -0000
-Message-Id: <167508441176.2169.13110822255662770414@gitolite.kernel.org>
+Date: Mon, 30 Jan 2023 13:13:34 -0000
+Message-Id: <167508441495.2273.15909952101091364617@gitolite.kernel.org>
 
---===============2284061156197378896==
+--===============0487943695907523056==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,89 +16,111 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.14.y
-    old: 823527e83906633f9116b432bf407b51fcf4347d
-    new: 090c6c9bd945960eb4ff4a130fc81b4924d0260e
-    log: revlist-823527e83906-090c6c9bd945.txt
+  - ref: refs/heads/linux-4.19.y
+    old: 377f822c8a53aa5bdfd12b40bfbed2c72c9706b0
+    new: 1d49b81a4c1af316e10c3a1f6463f7650c571d20
+    log: revlist-377f822c8a53-1d49b81a4c1a.txt
 
---===============2284061156197378896==
+--===============0487943695907523056==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1675084409 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1675084412 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1675084406-acd6ee49746d308a252f4932173d2ab29b0945c0
+nonce 1675084409-fbc4bb38224477898d7b066c0dba13459456cff5
 
-823527e83906633f9116b432bf407b51fcf4347d 090c6c9bd945960eb4ff4a130fc81b4924d0260e refs/heads/linux-4.14.y
+377f822c8a53aa5bdfd12b40bfbed2c72c9706b0 1d49b81a4c1af316e10c3a1f6463f7650c571d20 refs/heads/linux-4.19.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPXwnkbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+IdkP/jopTA2AyfXeSMJ8xRHN
-NKoF6avpypwd5nB/dJFRkD/xuHITlLI25kwoLA2diblRnCvYnEtcHIhHNjXcHiJa
-DCXLW/wBFbZG28XZjBThYG38rgoJeobQTaRcgOwQ2GsR3kDAClOFkw+ZHCl9KJHA
-uG8d+qPllg9/KN+D3f6YZFeWShobod/lRqr9zoA9og/7WJ5qI0XCpOY9wzbC310T
-4/0MY7cqEh+nxQit11oEuoQ9Lq0+w44wLwDAGTczVGO8/4+d35W/6C9Cwr3dosk7
-TGnpqmWImSYb9LVSHHlpl1d5wXL8xQBL8zsniAFjI7kEj+cSjrnIJzzifbXFBQz1
-gcMcJcguXdeBwA++vnvA90yhInRUsepYulo5GgZoETOywyZzwn1EV4AEhO7k6bIR
-7vcMJZ+hSZsWUfyT7BDpboTW/AWPf6n/ghEb60eV9tFwIX5AIYIlOKCdFhmEpMhL
-3FCAnR28b1rzwXpz5J6wtjGtE5JsvmSX5W0l3v/2L13jpTRzD7HZcJzfiRncEXEV
-6DUGlfI6S2/yu6ruw/5O3JWJsGiOnKD8kvmvwH5C5o4jsLNP8M15EE1s/+K2NtgL
-AUWz6qoq0LEl+XSq1MYkukC/tAM/uds/PQI0aVDHWh4nHSmxbseYWBcfkfJ9ITJe
-98aqUxsQJEL+nSuGxD3+kFsi
-=GAsH
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPXwnwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+z8IP/i59lV661dVyNyZBIocu
+UarGpxjyf32Eo/O7e/jIvEZBWizjq7kWipG2HJTKsqkMvgf1ANW5SeN/x06FPlzn
+La+MTKza0AgaBf56jN0DBv+3T6HKKadcW72OJCcHkP+HkvR/zx7v0E5hvyUfQKVD
+O8400nzGAL6rLI4oOT6ruwFRNbErFHlwjht5HqoMj/U+q/pM0sBDCrBXaTJSZV8L
+eRbx1jVy/NXe8qotke/c6XUk/ZkyMuIizHshF4beBY1bhzJ26olxkiZ9/JkeZKzz
+ZAp2eT3Ge/mXh2Tm/+OADqgqwExFRN8LWCYaKz1nd5Gbi1OKRicuCtshFZWCnBJu
+9IrTq+2yKwihFmQfwSxQVCiwKGWX5n4d8TH54/++6UcchWl16394wsg5nolwU5O3
+l3AGCAOzsx6BBhViXoDa1WHSHpUmxUbKPx+BBriYwFBRrixm3mz/cTtr4YefjjTB
+bdn+6W4z77pUx/8Dz9e0QoT05yYxBKJJeW2WTtmqkjdIWD8xCrJ4rRsY7S7yfCid
+h3O85t8AsERw8bM53tcyugbsUjJmSdisnb5K0qxpnUWxuOzfkDMlkzLsSXFi64e9
+/9bcqoZGJTqcqn9jD/ja89wd771+iyHYuPXRsQM9Khv9/NRHHfyC+UkBm6yUtsMh
+JjRvhpVSlMdv2GJWcWLwd19e
+=0hG9
 -----END PGP SIGNATURE-----
 
---===============2284061156197378896==
+--===============0487943695907523056==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-823527e83906-090c6c9bd945.txt
+Content-Disposition: attachment; filename=revlist-377f822c8a53-1d49b81a4c1a.txt
 
-c5db096a9763c42e29d5fc48bde74716f76ca9b7 ARM: dts: imx6qdl-gw560x: Remove incorrect 'uart-has-rtscts'
-ee24609ff831237f0f4f1e11d30dcc0923ffdddc HID: intel_ish-hid: Add check for ishtp_dma_tx_map
-3e368519b3d1b54cfb283b172fddb30a5e0c9d06 EDAC/highbank: Fix memory leak in highbank_mc_probe()
-7fb1014418503a1df1fa7fe880373b98fc048945 tomoyo: fix broken dependency on *.conf.default
-2682401079f7d0d34946c68909314d950be351cc IB/hfi1: Reject a zero-length user expected buffer
-723356b579dba2303a71e9d8c730ddda8e5081a0 IB/hfi1: Reserve user expected TIDs
-cd4c413c1cd1d0a64a1e8df8b8af4ba33e3e0afb affs: initialize fsdata in affs_truncate()
-641c844f474516ec4be98a830db7c1601a09ecac amd-xgbe: TX Flow Ctrl Registers are h/w ver dependent
-74e4f1d3418911a23cb195ccbc6d00eb4d037f9e phy: rockchip-inno-usb2: Fix missing clk_disable_unprepare() in rockchip_usb2phy_power_on()
-e6baff9ad128e29dbcd2a341b2f5dadb7148b63d net: nfc: Fix use-after-free in local_cleanup()
-0d519641a140b86fab90c801f62b0d8b9112a300 wifi: rndis_wlan: Prevent buffer overflow in rndis_query_oid
-3aa081e8140074efaef483762bec13d4c026d8e8 net: usb: sr9700: Handle negative len
-761597c3e6075deea95fa9b05af102740b5869d1 net: mdio: validate parameter addr in mdiobus_get_phy()
-a447fb8192e73cbde131e19b9295795ea0287778 HID: check empty report_list in hid_validate_values()
-62bed0cd2349469e9b3c7c7f4688f66fe4d405a5 usb: gadget: f_fs: Prevent race during ffs_ep0_queue_wait
-c5c06f6aa39cab7cd7b7522a24205c15f7455c37 usb: gadget: f_fs: Ensure ep0req is dequeued before free_request
-3b63a1b981f371c6b4dbbde38983c4ac0e08d19f net: mlx5: eliminate anonymous module_init & module_exit
-3e1ea56a39aac51cce5673c9249f132f77d19b3f dmaengine: Fix double increment of client_count in dma_chan_get()
-4f7b3512f762317d253d9536555ee9883b11351a HID: betop: check shape of output reports
-7d4b5cd3fc8ac919d24b3d2a1ebbdf8a4f5980ac w1: fix deadloop in __w1_remove_master_device()
-b02c6739cedfb68faf629cb9eccb2eca6120ea2d w1: fix WARNING after calling w1_process()
-6982aadb4a90a788067aa05fab5a591b86ba5133 comedi: adv_pci1760: Fix PWM instruction handling
-d30e4fa5ee34764d0f60c498d893333a33119712 fs: reiserfs: remove useless new_opts in reiserfs_remount
-7c7ea2604f77e00051ca16ef80cd46427fb76403 Bluetooth: hci_sync: cancel cmd_timer if hci_open failed
-6d46578af571f4b86f6b84298fb2fe86cdb1d6c0 scsi: hpsa: Fix allocation size for scsi_host_alloc()
-36ac6f31bd89f3e72e6bb1620cb9492bb42d2ed9 module: Don't wait for GOING modules
-5b302251ecd0fa4fc00568cb1a24eaaad099efd4 tracing: Make sure trace_printk() can output as soon as it can be used
-24347dcd7d69cd6990be2697973361fb7e323d50 ARM: 9280/1: mm: fix warning on phys_addr_t to void pointer assignment
-f88715c22c263b83ef3cb20932ed9bc90c7df40d EDAC/device: Respect any driver-supplied workqueue polling value
-aa405e6dfb1e7d1a06cead6f9bdf31eb1974f213 netlink: annotate data races around dst_portid and dst_group
-25c2fbc201d6d87d7bd7199adc528dc965761c92 netlink: annotate data races around sk_state
-6732c127e146870a64423c24fa4f466236d02a62 netfilter: conntrack: fix vtag checks for ABORT/SHUTDOWN_COMPLETE
-3a643fdc2e90495953a080d544c4f5333217684a netfilter: conntrack: fix bug in for_each_sctp_chunk
-246dcc2632391a329297e1f01354ad8c9c9ca410 netrom: Fix use-after-free of a listening socket.
-6677ec4d8f46bcca85020959dd176a84a29fb322 sctp: fail if no bound addresses can be used for a given scope
-d732f1f80da5c043ddc0c428cbe5df573743413f net: ravb: Fix possible hang if RIS2_QFF1 happen
-8431bc45b832248ae22be47e14b7a55943da683f net/tg3: resolve deadlock in tg3_reset_task() during EEH
-d3139118e42a982ab1620f39902e284246453e11 Revert "Input: synaptics - switch touchpad on HP Laptop 15-da3001TU to RMI mode"
-a487aa6d0df2a3fab53903a4019f6a2f1c93c2ec x86/i8259: Mark legacy PIC interrupts with IRQ_LEVEL
-e5c50291b16b82c303622e4cff0acc5ca3421a27 wifi: brcmfmac: fix up incorrect 4.14.y backport for brcmf_fw_map_chip_to_name()
-9e3a6d929e9e24d7c026e6fc7a329e1accbd9185 xen: Fix up build warning with xen_init_time_ops() reference
-77283b7883ab54b326d65d6d832e5f14ffd4efcb drm/radeon/dp: make radeon_dp_get_dp_link_config static
-090c6c9bd945960eb4ff4a130fc81b4924d0260e Linux 4.14.305-rc1
+9022cf34c3acc6523b24ca2e87053548594091be memory: atmel-sdramc: Fix missing clk_disable_unprepare in atmel_ramc_probe()
+97abaf6c0e03ce1340055343bb116eff525e77f1 memory: mvebu-devbus: Fix missing clk_disable_unprepare in mvebu_devbus_probe()
+6c9b881677f124615e990b3d7abdd63adf5d34bf ARM: dts: imx6qdl-gw560x: Remove incorrect 'uart-has-rtscts'
+f8b1f1f86ce118790186fd5151e10f6c1e0c5acf HID: intel_ish-hid: Add check for ishtp_dma_tx_map
+7c6c8b5e2b4cbde92e0fa759baccd08fffed1c66 EDAC/highbank: Fix memory leak in highbank_mc_probe()
+6df4c6920d5e35fa1080bed438a5bd32c5784c34 tomoyo: fix broken dependency on *.conf.default
+4af58aa42f5269c17955a1fef3c7d25322f24532 IB/hfi1: Reject a zero-length user expected buffer
+414c912664c18f61ba2e5554e4cbbdb763881fa2 IB/hfi1: Reserve user expected TIDs
+5414ff94db75687b076675a93b636e306bac0095 IB/hfi1: Fix expected receive setup error exit issues
+f97996ef443d420a9ab0e0f1b751652c511b5a72 affs: initialize fsdata in affs_truncate()
+0fb36e4aa23441879a2c1096df7403837ae5cd93 amd-xgbe: TX Flow Ctrl Registers are h/w ver dependent
+917cf067a4169d70694306d17406f8a31b8ee9e8 amd-xgbe: Delay AN timeout during KR training
+98fa3d07232a7fcc58eea1e6c46e673ffbff60b7 bpf: Fix pointer-leak due to insufficient speculative store bypass mitigation
+2751b9e251ebcfdae62e097a8d59c545a2fc780b phy: rockchip-inno-usb2: Fix missing clk_disable_unprepare() in rockchip_usb2phy_power_on()
+368fde3da2835d03dc40e189782ddacce8a1d584 net: nfc: Fix use-after-free in local_cleanup()
+10c7a4a4051f9485557e02cc794ffab34e28ed6d wifi: rndis_wlan: Prevent buffer overflow in rndis_query_oid
+5b95bf4de0cf06417cc73b12130a549e9be1be3a net: usb: sr9700: Handle negative len
+45d591dc585ee949305b4e09f543f26505a55d26 net: mdio: validate parameter addr in mdiobus_get_phy()
+f45d629a76ef12a20a6fb42d18219d18b2a40642 HID: check empty report_list in hid_validate_values()
+628e7a82d987735d8b9333b39a703b7b6fb952d6 usb: gadget: f_fs: Prevent race during ffs_ep0_queue_wait
+94c7506b45619e8be829558d455a9d7fd2769bf0 usb: gadget: f_fs: Ensure ep0req is dequeued before free_request
+054fbb40e578fd3a7f45446f3aef29595054d858 net: mlx5: eliminate anonymous module_init & module_exit
+fbe818c6170018d90fd64783c9ba5d5dd42b1a19 dmaengine: Fix double increment of client_count in dma_chan_get()
+0f8ed4d0a5a8c0246c3d6d052970e81b448549e2 net: macb: fix PTP TX timestamp failure due to packet padding
+2085235fafe929d6ef9f53a9f1d3953fc5f576c6 HID: betop: check shape of output reports
+c3b88f401a194e2ec14900617cffa678c2c371a9 dmaengine: xilinx_dma: commonize DMA copy size calculation
+4835761311247fba038ac6541e20bb24db1bdba9 dmaengine: xilinx_dma: program hardware supported buffer length
+b489879e6c62faa6c5204b4f1a6732f02f680768 dmaengine: xilinx_dma: Fix devm_platform_ioremap_resource error handling
+142b7746e7bc39f0074eee398a3ef2c9e7996c49 dmaengine: xilinx_dma: call of_node_put() when breaking out of for_each_child_of_node()
+55cb31bd77e3cd2f7eb7ad57460166b40ca04f56 tcp: avoid the lookup process failing to get sk in ehash table
+a6a65ad00047c9773ddd165c15a30ebfb2845b54 w1: fix deadloop in __w1_remove_master_device()
+04edf75f794714f44d8bf2eee27d15007b0650d8 w1: fix WARNING after calling w1_process()
+38f7d45301afb3b9b8a0cfb1f16153ce2cc43ac5 mmc: sdhci-esdhc-imx: clear ESDHC_STD_TUNING_EN for manual tuning method
+19e78eb241c099ffd9f20900fa7e85e8762f76ad mmc: sdhci-esdhc-imx: clear pending interrupt and halt cqhci
+43079a40161ef6b6dbb9c96da062ae162bd6b5f2 mmc: sdhci-esdhc-imx: disable the CMD CRC check for standard tuning
+25c579931c13fd28bbaac102ad45224c9fcb4a17 mmc: sdhci-esdhc-imx: correct the tuning start tap and step setting
+3a65c6bc393a358f557601ae76d3e5b38c706e60 netfilter: conntrack: do not renew entry stuck in tcp SYN_SENT state
+22a24da447702c8d0f353dafa6e817cd4203253b block: fix and cleanup bio_check_ro
+9d4401aaa77a5bde787722936250771dfb1f4fcf perf env: Do not return pointers to local variables
+bf2f13dfe5d8b7d415f0b84d64fe3a81e2091fbc fs: reiserfs: remove useless new_opts in reiserfs_remount
+ef35f3fa4bf006cfe356638618d86cbced17340d Bluetooth: hci_sync: cancel cmd_timer if hci_open failed
+05c9f777682e45df822c57bd7f8fedfac4560850 scsi: hpsa: Fix allocation size for scsi_host_alloc()
+b599d7c1fd7fbf260d6ceb8e89e531bc05c02054 module: Don't wait for GOING modules
+dcdbb4e74a4677503bab5bcc1658d28fdd377006 tracing: Make sure trace_printk() can output as soon as it can be used
+f95eefb5a11e19556dcdd603a36700981c615c0e trace_events_hist: add check for return value of 'create_hist_field'
+7d5b7dbcea1712bfd5e9944f0989df836a8b3f2f smbd: Make upper layer decide when to destroy the transport
+cc17a4634044b92c98d55d63a456807c0ee48ff8 cifs: Fix oops due to uncleared server->smbd_conn in reconnect
+2fcfb15f85d18f03f5a2fb1d24d46174246bc3fc ARM: 9280/1: mm: fix warning on phys_addr_t to void pointer assignment
+75ecb8d511e33d95209284a78d3d6e3b7b8dfb37 EDAC/device: Respect any driver-supplied workqueue polling value
+aa1ad4debe1d302640235067ea7fee7644ce9fbe net: fix UaF in netns ops registration error path
+11dc60291ff44208479d7bcc8aa97ec89de8a373 netfilter: nft_set_rbtree: skip elements in transaction from garbage collection
+3e0ae4a7cb3070859e53dd40adffe47e80063366 netlink: remove hash::nelems check in netlink_insert
+295d3c7fe19590a18626463e542439b2dcf4a1d6 netlink: annotate data races around nlk->portid
+a710027ed07104d7ba245a21426a60434bc1d134 netlink: annotate data races around dst_portid and dst_group
+ca028f673a16f27fbc0ca99d3ff5570357c2491b netlink: annotate data races around sk_state
+553608d840d1b4164b98ca47343729b6f83c199a ipv4: prevent potential spectre v1 gadget in ip_metrics_convert()
+4e31397087f4e953a4d3ca28f860e870126d8157 netfilter: conntrack: fix vtag checks for ABORT/SHUTDOWN_COMPLETE
+f355d9a0636b0112a360730aa5db46652f421014 netfilter: conntrack: fix bug in for_each_sctp_chunk
+4118d135d3b52563b929c74c1587ffb486af5b43 netrom: Fix use-after-free of a listening socket.
+cd58b5e48111e7af89dbe74d3eb0971218f3f72a sctp: fail if no bound addresses can be used for a given scope
+d3ba6cfeec0e00b2fca07af9ff1aa8d3efaae374 net: ravb: Fix possible hang if RIS2_QFF1 happen
+4df2776c3b6eaf5a25b382749ebfa655e4b96769 net/tg3: resolve deadlock in tg3_reset_task() during EEH
+266e73f63b7989bdc88522535e9d893171f06894 Revert "Input: synaptics - switch touchpad on HP Laptop 15-da3001TU to RMI mode"
+9ac8c474762114e1eabfd10aa4cf90036208fe4d x86/i8259: Mark legacy PIC interrupts with IRQ_LEVEL
+1d49b81a4c1af316e10c3a1f6463f7650c571d20 Linux 4.19.272-rc1
 
---===============2284061156197378896==--
+--===============0487943695907523056==--
