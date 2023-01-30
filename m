@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Mon, 30 Jan 2023 14:42:28 -0000
-Message-Id: <167508974834.1840.8749819484508627312@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mark/boot-wrapper-aarch64
+Date: Mon, 30 Jan 2023 14:43:16 -0000
+Message-Id: <167508979639.2146.2005564231621307898@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/soc/soc
-user: arnd
+repo: pub/scm/linux/kernel/git/mark/boot-wrapper-aarch64
+user: mark
 changes:
-  - ref: refs/heads/soc/drivers
-    old: 0000000000000000000000000000000000000000
-    new: 0d01e09022c558c54fa2d5fb7fe7e32b7a9a8554
+  - ref: refs/heads/tmp/xen
+    old: afa63c7bb6357e4f39e177b456962092dcd21a1f
+    new: 0000000000000000000000000000000000000000
