@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Mon, 30 Jan 2023 07:20:24 -0000
-Message-Id: <167506322494.10954.10840248430417572005@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Mon, 30 Jan 2023 07:21:43 -0000
+Message-Id: <167506330330.11409.7889855801615657344@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: davem
 changes:
   - ref: refs/heads/master
-    old: 453d9fdc364b87601df168c962e93407fbe5e91a
-    new: 468ba54bd616db995514f9671ac116eb4b62e0ea
+    old: a6efc42a86c0c87cfe2f1c3d1f09a4c9b13ba890
+    new: 54aa39a513dbf2164ca462a19f04519b2407a224
     log: |
-         468ba54bd616db995514f9671ac116eb4b62e0ea fec: convert to gpio descriptor
+         54aa39a513dbf2164ca462a19f04519b2407a224 net: stmmac: do not stop RX_CLK in Rx LPI state for qcs404 SoC
          
