@@ -1,27 +1,68 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Mon, 30 Jan 2023 03:25:24 -0000
-Message-Id: <167504912464.16951.4843445715994694889@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============2819387723455791900=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Mon, 30 Jan 2023 03:50:04 -0000
+Message-Id: <167505060404.901.7652599747417615591@gitolite.kernel.org>
+
+--===============2819387723455791900==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
+  - ref: refs/heads/for-6.3/block
+    old: f1c006f1c6850c14040f8337753a63119bba39b9
+    new: 323745a3aa9ba172582d4549689146298fb68405
+    log: revlist-f1c006f1c685-323745a3aa9b.txt
   - ref: refs/heads/for-next
-    old: 07dcbd7325cee92d5798536f417b9b1da497f9da
-    new: c1a3daf7363b48c6c4b86aee2efa2287f695f649
-    log: |
-         7ce878ca81bca7811e669db4c394b86780e0dbe4 selftests/bpf: Fix sk_assign on s390x
-         bb4ef8fc3d193ed8d5583fb47cbeff5d8fb8302f s390/bpf: Add expoline to tail calls
-         f1d5df84cd8c3ec6460c78f5b86be7c84577a83f s390/bpf: Implement bpf_arch_text_poke()
-         528eb2cb87bc1353235a6384696b4849bde8b0ba s390/bpf: Implement arch_prepare_bpf_trampoline()
-         dd691e847d28ac5f8b8e3005be44fd0e46722809 s390/bpf: Implement bpf_jit_supports_subprog_tailcalls()
-         63d7b53ab59f0dd8540e672b49836493d1fa0a79 s390/bpf: Implement bpf_jit_supports_kfunc_call()
-         af320fb7ddb091a401a407bb256a9abd85587624 selftests/bpf: Fix s390x vmlinux path
-         ee105d5a50d4075be81b2d924bfc630e0d7cdb90 selftests/bpf: Trim DENYLIST.s390x
-         c1a3daf7363b48c6c4b86aee2efa2287f695f649 Merge branch 'Support bpf trampoline for s390x'
-         
+    old: 6432b3e8237842262b6c72d75bd3992e1b025122
+    new: 08c30da8e5559feadfe077ab7bc04386f400be48
+    log: revlist-6432b3e82378-08c30da8e555.txt
+
+--===============2819387723455791900==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-f1c006f1c685-323745a3aa9b.txt
+
+f1591a8bb3e02713f4ee2efe20df0d84ed80da48 sbitmap: remove unnecessary calculation of alloc_hint in __sbitmap_get_shallow
+903e86f3a64d9573352bbab2f211fdbbaa5772b7 sbitmap: remove redundant check in __sbitmap_queue_get_batch
+08470a98a7d7e32c787b23b87353f13b03c23195 sbitmap: rewrite sbitmap_find_bit_in_index to reduce repeat code
+678418c6128f112fc5584beb5cdd21fbc225badf sbitmap: add sbitmap_find_bit to remove repeat code in __sbitmap_get/__sbitmap_get_shallow
+b5fcf7871acb7f9a3a8ed341a68bd86aba3e254a sbitmap: correct wake_batch recalculation to avoid potential IO hung
+0c3e09e8854bcd3f7c45de85007ed283342b3464 block, bfq: correctly raise inject limit in bfq_choose_bfqq_for_injection
+bebeb9e582e8040944b12942ccc56f4ebacaa9f8 block, bfq: remove unsed parameter reason in bfq_bfqq_is_slow
+1c970450a7fd8be0298758c4e2c631e4a739292d block, bfq: initialize bfqq->decrease_time_jif correctly
+8ac2e43c3559f29513377df8aff7a22a8277fcf8 block, bfq: use helper macro RQ_BFQQ to get bfqq of request
+86f8382e6d3a74f783c23a3d773285e2637b8bc2 block, bfq: remove unnecessary dereference to get async_bfqq
+433d4b03e722bdfb1b6a75563cb45e8dca6784e7 block, bfq: remove redundant check in bfq_put_cooperator
+87c971de8157b90494490d7c869a21b7f2123305 block, bfq: remove unnecessary goto tag in bfq_dispatch_rq_from_bfqq
+323745a3aa9ba172582d4549689146298fb68405 block, bfq: remove unused bfq_wr_max_time in struct bfq_data
+
+--===============2819387723455791900==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-6432b3e82378-08c30da8e555.txt
+
+f1591a8bb3e02713f4ee2efe20df0d84ed80da48 sbitmap: remove unnecessary calculation of alloc_hint in __sbitmap_get_shallow
+903e86f3a64d9573352bbab2f211fdbbaa5772b7 sbitmap: remove redundant check in __sbitmap_queue_get_batch
+08470a98a7d7e32c787b23b87353f13b03c23195 sbitmap: rewrite sbitmap_find_bit_in_index to reduce repeat code
+678418c6128f112fc5584beb5cdd21fbc225badf sbitmap: add sbitmap_find_bit to remove repeat code in __sbitmap_get/__sbitmap_get_shallow
+b5fcf7871acb7f9a3a8ed341a68bd86aba3e254a sbitmap: correct wake_batch recalculation to avoid potential IO hung
+0c3e09e8854bcd3f7c45de85007ed283342b3464 block, bfq: correctly raise inject limit in bfq_choose_bfqq_for_injection
+bebeb9e582e8040944b12942ccc56f4ebacaa9f8 block, bfq: remove unsed parameter reason in bfq_bfqq_is_slow
+1c970450a7fd8be0298758c4e2c631e4a739292d block, bfq: initialize bfqq->decrease_time_jif correctly
+8ac2e43c3559f29513377df8aff7a22a8277fcf8 block, bfq: use helper macro RQ_BFQQ to get bfqq of request
+86f8382e6d3a74f783c23a3d773285e2637b8bc2 block, bfq: remove unnecessary dereference to get async_bfqq
+433d4b03e722bdfb1b6a75563cb45e8dca6784e7 block, bfq: remove redundant check in bfq_put_cooperator
+87c971de8157b90494490d7c869a21b7f2123305 block, bfq: remove unnecessary goto tag in bfq_dispatch_rq_from_bfqq
+323745a3aa9ba172582d4549689146298fb68405 block, bfq: remove unused bfq_wr_max_time in struct bfq_data
+08c30da8e5559feadfe077ab7bc04386f400be48 Merge branch 'for-6.3/block' into for-next
+
+--===============2819387723455791900==--
