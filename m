@@ -1,28 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Mon, 30 Jan 2023 23:47:13 -0000
-Message-Id: <167512243392.14867.3441047434896256372@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jpoimboe/linux
+Date: Tue, 31 Jan 2023 00:02:55 -0000
+Message-Id: <167512337589.24200.3595016131282180575@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
-user: broonie
+repo: pub/scm/linux/kernel/git/jpoimboe/linux
+user: jpoimboe
 changes:
-  - ref: refs/tags/sent/arm64-fix-sme2-clang-v1
-    old: 0000000000000000000000000000000000000000
-    new: aa62e5274ac4a64470d7f4dd365fef8370787982
-  - ref: refs/tags/sent/arm64-kselftest-clang-v1
-    old: 0000000000000000000000000000000000000000
-    new: 1d112f48b308a30c580eeee9a15e1acf93909555
-  - ref: refs/tags/sent/arm64-kselftest-ptrace-max-vl-v1
-    old: 0000000000000000000000000000000000000000
-    new: 07070211cac64c26fdfb8f616539a836b09823e1
-  - ref: refs/tags/sent/arm64-sme2-v5
-    old: 0000000000000000000000000000000000000000
-    new: b8f9660214d65c95412e4a656a53e2ed1b3bfa9d
-  - ref: refs/tags/sent/kselftest-lib-clang-fix-v1
-    old: 0000000000000000000000000000000000000000
-    new: 979cec9c3fae81cc0ccf3b7fc90caa882d5b9f93
+  - ref: refs/heads/objtool/core
+    old: 49512234bf3baaf25905adafe841e3a5145c7e33
+    new: 97fababcfd0a1fdb98929111bcdba9f3dd66c0f1
+    log: |
+         5016db4d07755d35cd3378ec4fd314c75ced9d89 objtool: Make struct entries[] static and const
+         f5efd8a207d9c7f6f70d7a15a7228689f3fd75cc objtool: Make struct check_options static
+         c7c05a16c831d48cbc4baa705e0a2c81389eb750 objtool: Allocate multiple structures with calloc()
+         c9e7c38893f0126434f18e8b1e3918023ff0656d objtool: Optimize layout of struct symbol
+         97fababcfd0a1fdb98929111bcdba9f3dd66c0f1 objtool: Optimize layout of struct special_alt
+         
