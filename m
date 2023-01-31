@@ -1,90 +1,21 @@
-Content-Type: multipart/mixed; boundary="===============7605845452264111797=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Tue, 31 Jan 2023 17:08:17 -0000
-Message-Id: <167518489711.16096.17914974000939667627@gitolite.kernel.org>
-
---===============7605845452264111797==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/lee/mfd
+Date: Tue, 31 Jan 2023 17:17:43 -0000
+Message-Id: <167518546330.23431.6983656692265048843@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
-user: broonie
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/lee/mfd
+user: lee
 changes:
-  - ref: refs/heads/asoc-6.3
-    old: 01b17067f4f31a9c243ee06f4826279dae97abf2
-    new: 98fda42a85b4324b6c404ec163940371c63625df
-    log: revlist-01b17067f4f3-98fda42a85b4.txt
-
---===============7605845452264111797==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1675184895 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1675184894-528199aeca6635b28f44d269be4a09a46e776397
-
-01b17067f4f31a9c243ee06f4826279dae97abf2 98fda42a85b4324b6c404ec163940371c63625df refs/heads/asoc-6.3
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmPZSv8ACgkQJNaLcl1U
-h9AVYAf/Z73fPhVtmbLEaHmYJmcE+1Aax4MtcnCXYtFB29c2QR+Quq+nlJhLYiqZ
-hMgIFs34vMPVLnVoxzSD1bHx+5zhzPPGLiW5dGi4ceTrvrDjGA9bkMRCXAy1Awrn
-L7CWM4HFM73V2Es2vrcNLg3mALMba09BvBNlPcQMFq3s0eL4eqyLEQy5q3DMbkDc
-FdjBaKTzcVafIpBV8wkziEExMSe5WzFHglYHDRMXKL10JOh0xhSuFhohUOtwOnLe
-MQAkwIgEUt94JhA/GTSWLrzvnM2GIVNJyHWXgghfTf9FVMZznttWyRKBXZW2vDRG
-RgDHMBzn9iIOUn58Yv2pIEUzrquUNw==
-=YgX0
------END PGP SIGNATURE-----
-
---===============7605845452264111797==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-01b17067f4f3-98fda42a85b4.txt
-
-37ed123689968fa7f733598d9a6966e8a2db66fb ASoC: soc-dai.h: add missing snd_soc_dai_set_widget()
-60df5935c27e19cc6595bd1740479a60f1880a32 ASoC: soc-dai.h: add snd_soc_dai_dma_data_set/get() for low level
-d4c0326e6ea038cf99fde6f22296e4e68de4f2b5 ASoC: soc-dai.h: add snd_soc_dai_tdm_mask_set/get() helper
-944d721ee5defb376410c7054a7db0a0ef5ff584 ASoC: soc-dai.h: add snd_soc_dai_get/set_widget_playback/capture() helper
-2e5f86174e31cc1eda92b308f23f3b29684b339e ASoC: soc.h: add snd_soc_card_is_instantiated() helper
-c59331b39045fcc9ed3c66cb5c80a8ef3ade820f ASoC: hdmi-codec: use helper function
-5bf13408fd06068aeef751597748c9d0569c3708 ASoC: hda: use helper function
-812c2852c59f1f532ea9b53d9bbe86231dd83fea ASoC: max: use helper function
-8ec352362848d8cc9500ccfb051810597c0abf8a ASoC: rt: use helper function
-0e478b88b257049e1e22077b880419a431595645 ASoC: cirrus: use helper function
-c4d78c4127f9371dcfc77e71417addddcc5a9533 ASoC: spear: use helper function
-e87abb83fc24a481ba490d8596969e1de3a16384 ASoC: sdw-mockup: use helper function
-ec4b2099c6e01342e5c3289a906615c3abef85b8 ASoC: intel: use helper function
-0df2ec8e4706a6adc36d12cc5cf8e1fa7485fbf5 ASoC: mediatek: use helper function
-c765ceda78f0bd9df1217f9beaefea58ecf3865c ASoC: meson: use helper function
-67cc242679b106909be52f8476e372dbb03c0a88 ASoC: rockchip: use helper function
-323f09a61d43da2aff9b71e8a4764f4c9a88a5e0 ASoC: sof: use helper function
-1c1a778401b8ad04ae618eb8baa9a34a8b7e3d50 ASoC: tegra: use helper function
-2abde57fb82b4259b790212135b2194f2fd4dc7c ASoC: ti: use helper function
-9024bae4bb229c38522bb8c5dc45b82f9c27e0fc ASoC: soc-core.c: use helper function
-6855ec72102921814aaa43eab305b541af3e9757 ASoC: soc-dapm.c: use helper function
-8ede4b7109f618b3267a9577083b38984857a267 ASoC: soc-dai.c: use helper function
-e15ff262e212387a05316dc465d754c0a62d9691 ASoC: soc-pcm.c: use helper function
-2b34c1359cca4812d7c8253ff70c394871c22590 ASoC: soc-topology.c: use helper function
-3653480c68120dc16ebfeb80e529200dbbd98f92 ASoC: soc-dai.h: cleanup Playback/Capture data for snd_soc_dai
-43f1a7f905fcc796620c6488a7098068a05484ca soundwire: stream: Add specific prep/deprep commands to port_prep callback
-b558c6fd08f59b78166828c342beb2a36258e9fe ASoC: cs42l42: Add SOFT_RESET_REBOOT register
-17cb563baef9c4f2d244035a95e361dd673941fa ASoC: cs42l42: Ensure MCLKint is a multiple of the sample rate
-7209d5ebb34aff3fbdd504c7deeb9b74df632086 ASoC: cs42l42: Separate ASP config from PLL config
-0998816ab2d85d67ebace9993b5a97e79a24d816 ASoC: cs42l42: Export some functions for SoundWire
-90f6a2a20bd2e88bd7ea4b4f99509b831c5c1c47 ASoC: cs42l42: Add SoundWire support
-e0bd53a4d1d5afa7d3a3bf46e2f0ec7940f94710 ASoC: cs42l42: Don't set idle_bias_on
-16838bfbf6e70b7a3381ab302248bd18c085aba5 ASoC: cs42l42: Wait for debounce interval after resume
-6570befb4fccce7ba49e5c74adbdae9bba5d9824 ASoC: use helper function and cleanup
-98fda42a85b4324b6c404ec163940371c63625df ASoC: cs42l42: Add SoundWire support
-
---===============7605845452264111797==--
+  - ref: refs/heads/for-mfd-next
+    old: a561a980c024193e342b6878f62e02ff9d018285
+    new: a5f31a668da16af7e6736500868bcfc30e91a3cf
+    log: |
+         07e3a517de22141105e98ab1ebcd97488cc85729 mfd: ntxec: Add version number for EC in Tolino Vision
+         4d3ab9d9ef9c05608b914e7ea88a31b08dcfd8ba dt-bindings: mfd: Add NXP BBNSM
+         a5f31a668da16af7e6736500868bcfc30e91a3cf dt-bindings: mfd: qcom,tcsr: Add compatible for IPQ5332
+         
