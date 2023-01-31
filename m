@@ -1,21 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/matthias.bgg/linux
-Date: Tue, 31 Jan 2023 11:28:34 -0000
-Message-Id: <167516451430.12979.17489806553955636312@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dlemoal/libata
+Date: Tue, 31 Jan 2023 11:31:45 -0000
+Message-Id: <167516470566.15552.8206932796553274120@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/matthias.bgg/linux
-user: matthias.bgg
+repo: pub/scm/linux/kernel/git/dlemoal/libata
+user: dlemoal
 changes:
-  - ref: refs/heads/v6.2-next/soc
-    old: b74952aba6c3f47e7f2c5165abaeefa44c377140
-    new: 78ce3093f055a695bf1dbe1f30adf48b8b19772b
+  - ref: refs/heads/for-6.3
+    old: 38d431229bfbe175b41274faa856e5b0a1ebe70d
+    new: 72f2b0b2185099dce354c805009f591dda3ab73d
     log: |
-         c200774a6df47cfc1053334c98ab777563de5bd8 soc: mediatek: Introduce mediatek-regulator-coupler driver
-         1873da264caedf6b84417ff8cb0f843659f75dac dt-bindings: arm: mediatek: mmsys: Add support for MT8195 VPPSYS
-         78ce3093f055a695bf1dbe1f30adf48b8b19772b soc: mediatek: mmsys: add support for MT8195 VPPSYS
+         246a1c4c6b7ffba88a2553d2b88f7b6280f253a2 ata: pata_parport: add driver (PARIDE replacement)
+         7750d8b51061467d9de8407a17c26cba9e15da10 drivers/block: Remove PARIDE core and high-level protocols
+         72f2b0b2185099dce354c805009f591dda3ab73d drivers/block: Move PARIDE protocol modules to drivers/ata/pata_parport
          
