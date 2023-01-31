@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Tue, 31 Jan 2023 01:37:33 -0000
-Message-Id: <167512905365.27754.2520436085706514953@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jfern/linux
+Date: Tue, 31 Jan 2023 02:06:44 -0000
+Message-Id: <167513080458.14912.13507118676048710482@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/jfern/linux
+user: jfern
 changes:
-  - ref: refs/heads/master
-    old: 6d796c50f84ca79f1722bb131799e5a5710c4700
-    new: 22b8077d0fcec86c6ed0e0fce9f7e7e5a4c2d56a
+  - ref: refs/heads/sched/rt-throttle
+    old: a6217e7a07d61a26a68fe9994eeef82f591f1bf7
+    new: 3a0f881d40e38c3d1852e84c7783db3224a7afac
     log: |
-         8226e37d82f43657da34dd770e2b38f20242ada7 fscache: Use wait_on_bit() to wait for the freeing of relinquished volume
-         3288666c72568fe1cc7f5c5ae33dfd3ab18004c8 fscache: Use clear_and_wake_up_bit() in fscache_create_volume_work()
-         22b8077d0fcec86c6ed0e0fce9f7e7e5a4c2d56a Merge tag 'fscache-fixes-20230130' of git://git.kernel.org/pub/scm/linux/kernel/git/dhowells/linux-fs
+         3a0f881d40e38c3d1852e84c7783db3224a7afac fixup! rt: Do not dequeue throttled tasks from a throttled rt_rq
          
