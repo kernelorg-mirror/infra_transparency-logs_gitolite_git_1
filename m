@@ -1,21 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dlemoal/libata
-Date: Tue, 31 Jan 2023 11:32:02 -0000
-Message-Id: <167516472227.15695.10810012321148408285@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wbg/counter
+Date: Tue, 31 Jan 2023 11:44:00 -0000
+Message-Id: <167516544036.22505.3553997755660352533@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dlemoal/libata
-user: dlemoal
+repo: pub/scm/linux/kernel/git/wbg/counter
+user: wbg
 changes:
-  - ref: refs/heads/for-next
-    old: 38d431229bfbe175b41274faa856e5b0a1ebe70d
-    new: 72f2b0b2185099dce354c805009f591dda3ab73d
-    log: |
-         246a1c4c6b7ffba88a2553d2b88f7b6280f253a2 ata: pata_parport: add driver (PARIDE replacement)
-         7750d8b51061467d9de8407a17c26cba9e15da10 drivers/block: Remove PARIDE core and high-level protocols
-         72f2b0b2185099dce354c805009f591dda3ab73d drivers/block: Move PARIDE protocol modules to drivers/ata/pata_parport
-         
+  - ref: refs/tags/counter-updates-for-6.3a
+    old: 0000000000000000000000000000000000000000
+    new: abdf668625643c397c5a3e4403873edfb65f970d
