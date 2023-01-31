@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1148425799652785058=="
+Content-Type: multipart/mixed; boundary="===============0386381662025667054=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Tue, 31 Jan 2023 09:40:47 -0000
-Message-Id: <167515804725.5493.13033418524667049640@gitolite.kernel.org>
+Date: Tue, 31 Jan 2023 09:41:06 -0000
+Message-Id: <167515806696.5689.31260168619365606@gitolite.kernel.org>
 
---===============1148425799652785058==
+--===============0386381662025667054==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,42 +17,42 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-testing
-    old: e225947035bcd15f95e6f340e708fa37f309c2c3
-    new: 33bb1a9459989ef501bda9b127b38173fb2224c9
+    old: 33bb1a9459989ef501bda9b127b38173fb2224c9
+    new: 49814e2c9c5776c7dc7cfd151aba15bd91804c3c
     log: |
-         3a1bd0494352bd89ec50ee595ababfe180f2d63e usb: chipidea: ci_hdrc_imx: use dev_err_probe
-         903261c68b947cd0c70a32dd671839e9034c0fdb dt-bindings: usb: mediatek,mtu3: add MT8365 SoC bindings
-         33bb1a9459989ef501bda9b127b38173fb2224c9 dt-bindings: usb: mediatek,mtk-xhci: add MT8365 SoC bindings
+         a4a97ab3db5c081eb6e7dba91306adefb461e0bd usb: early: xhci-dbc: Fix a potential out-of-bound memory access
+         e662c16f822fe93ae11769cffb8bf0d867417633 usb: early: xhci-dbc: Optimize early_xdbc_write()
+         49814e2c9c5776c7dc7cfd151aba15bd91804c3c usb: early: xhci-dbc: Use memcpy_and_pad()
          
 
---===============1148425799652785058==
+--===============0386381662025667054==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1675158045 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1675158065 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1675158045-8e5697b56cfebca9bc4b22d8c59bf45fd7a5af78
+nonce 1675158064-b20ba458e3c904c7a7a65f0132cbc4cdf7ccc7fe
 
-e225947035bcd15f95e6f340e708fa37f309c2c3 33bb1a9459989ef501bda9b127b38173fb2224c9 refs/heads/usb-testing
+33bb1a9459989ef501bda9b127b38173fb2224c9 49814e2c9c5776c7dc7cfd151aba15bd91804c3c refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPY4h0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+WGoQAJjX/zbZpkjLfS5zbZOj
-xE7Do4X9Xsk27glIBOCHT9cMWanmf+QcF8EL9z1uZHV+1l45VE/WlQTqEr3cCi6L
-DyvMwPfGw/h/6ItrVjqG8z2tZnRjVZjkO81sZezdl/5n1PjVwP5p3xiHSt2veO4y
-n/oPcZIPtaAWjFcxtN9U26AXAmxKtTs7KyV4k2aZVYPEGLE1wqBhuCR/YbD4xXg2
-g5jVEI7qPv2Q/LXT057PNy4MldPjXXID4wuWtB4gch023G7wxDxn794cnb56DW3T
-bIMEYhvNsNzdezXLcxGGGrkAImthwTPZ8Nz18izojqAXLGSVhNJllYRX+ffkpaye
-bPES+0w8ysowo2IcJqmoc8es7nY+B8YUulGYfqNQtmgdimRs7nw+4qjSgyw6gGzO
-Z3lrvqESBOb6ZtkKWxjQwglM6u9UN9u0cU72hMv96qaVe6/GemRmUHn1/CdXXRcO
-zEl9dRARcLHLTrthaYqnq5LPERe9kFwVSvOsDOkcDrMffWGZS0B2baI8qlmoKj+R
-GbU+EipvH7BfGsBRzinjGlTFnyINa7fLzH8OSfVD8zWz5Pxk/shvc7ziK9247RGw
-Ed7kLwUrJd3ujktqkqYc6p9/ARkGflDoLJKahZAVueLm3vkV63b/sJn6PVV1o0xD
-IUX59BVnbk4HHc8rve0sgkcs
-=bbfm
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPY4jEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+VO4P/0/jOMzfMOg2LarhmXx7
+SMmPDfLZruU+caF9QZ18JaboSGZ25ifr9d9dtcyHnNvEk/EdAS2MMS1WrwfIcCc/
+rAHDoCaAT0d62exLeFezVoNmK1yXMmedplrMQxYupzOdMUPC4m2EgyKe40HE1Rx8
+L5T8aU8k5AHLTPiNXAAFr5Kst70g4C9Cew179puejeEFQn1jQiz4VlSHR242Vn5Y
+rkk3aPPIaHbdmGUAYh9n9NZ3dhgcYzW8DTpa5ZySgQ55pcbvIeB91x+pFXpAu1xY
+yvUoWfdiAA/ruglXg0I5qh+uK7eBAWCjFBY+rBLsjDwzr8LfOwTng0OTNJEZ51JX
+3jmVuRFx0vQCjMAfI1IPjfKimyrTnFE3wFL6Rm7MUVmjg+UWEENrxhd9HHEJ7itw
+06t4J6E9GvkCBMltRrFQ6YnEUPkSpXXayW3gD68Sllju95lo+pnmeMetdKDKA93n
+zrs/jqYarkYYfgehFM/ihxtSBJGk16gTKsvQfiT2ZkwZHaBWyrACWNz3gvHHYsJ1
+yBeBraKtS3hiGuB2ogdR/CKTSqWxOvr9GKn8Vedin+ambwV5MuWGSuz50jkaJFYD
+qL24SwI0EoSfko1LMkg2GuDB/p9zyublRBBiBaXilKQmJAJaOmk5Djguc190UptZ
+PNPKWDGJgde1bVzQEVKTYkqe
+=UOL2
 -----END PGP SIGNATURE-----
 
---===============1148425799652785058==--
+--===============0386381662025667054==--
