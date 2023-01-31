@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Tue, 31 Jan 2023 11:54:21 -0000
-Message-Id: <167516606166.30706.3118534553978750798@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/matthias.bgg/linux
+Date: Tue, 31 Jan 2023 11:56:53 -0000
+Message-Id: <167516621378.640.2335631409119467064@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/man-pages/man-pages
-user: alx
+repo: pub/scm/linux/kernel/git/matthias.bgg/linux
+user: matthias.bgg
 changes:
-  - ref: refs/heads/master
-    old: 5ca33533d86c5603c3851f2108a75404f60d538e
-    new: 9730a612846aede946fd1653894fa82bd71d59fc
-    log: |
-         9730a612846aede946fd1653894fa82bd71d59fc bpf-helpers.7: Refresh page
-         
+  - ref: refs/heads/v6.2-next/dts32
+    old: 61114f31c02a973e743ff23d7b77aa214b258008
+    new: f104d74bbf4859a628c2234d6f86a53949b9b1b8
