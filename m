@@ -1,23 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/devel/pahole/pahole
-Date: Tue, 31 Jan 2023 00:42:04 -0000
-Message-Id: <167512572430.17841.5513204761265889587@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Tue, 31 Jan 2023 01:07:39 -0000
+Message-Id: <167512725954.6652.4748205417451863378@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/devel/pahole/pahole
+repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
-  - ref: refs/heads/tmp.master
-    old: 45c044860c2abce78b888800cc1dafe005123221
-    new: 283b896154635e1aed48b15b28e58cf6b1c21d60
+  - ref: refs/heads/tmp.perf/core
+    old: ffc4cbcd32b53447385939f920aba7cdd0563e33
+    new: c6535b6ba93477c491e3816af5eed845813c6f3b
     log: |
-         04674fa3abb44531dbde8774e9d6f459f9c189b3 dwarf_loader: Help spotting functions with optimized-out parameters
-         c0189def94f227c9fb980379be2f93e8f73a57bc btf_encoder: Refactor function addition into dedicated btf_encoder__add_func
-         909e907784cd5121fd05b8783054b496f5403c6f btf_encoder: Rework btf_encoders__*() API to allow traversal of encoders
-         71e7425c6bd9e851aed57434b152b00a6c0c6865 btf_encoder: Represent "."-suffixed functions (".isra.0") in BTF
-         283b896154635e1aed48b15b28e58cf6b1c21d60 btf_encoder: Delay function addition to check for function prototype inconsistencies
+         0b58d89b1e7ca46ca4f7457a6aacb2ce6ce75051 perf tools: Add Ian Rogers to MAINTAINERS as a reviewer
+         6bc75b4c9042325e62fe43f73161b17b5687be6c perf cs-etm: Improve missing sink warning message
+         86569c0ab166abdd268032a25ecd369cf0959d2b perf mem/c2c: Document that SPE is used for mem and c2c on ARM
+         22e06e682537193a426ef13e57c34d52c45c5581 perf buildid: Avoid copy of uninitialized memory
+         dfadf8b315f5cf5d0077181d9882a7e1f3da1749 perf test: Fix DWARF unwind test by adding non-inline to expected function in a backtrace
+         c6535b6ba93477c491e3816af5eed845813c6f3b perf cs-etm: Update decoder code for OpenCSD version 1.4
          
