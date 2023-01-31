@@ -1,56 +1,44 @@
-Content-Type: multipart/mixed; boundary="===============4493470635978576547=="
+Content-Type: multipart/mixed; boundary="===============4430503357268729799=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Tue, 31 Jan 2023 11:57:05 -0000
-Message-Id: <167516622560.805.3357018679145846995@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/matthias.bgg/linux
+Date: Tue, 31 Jan 2023 11:57:25 -0000
+Message-Id: <167516624534.955.6941209915583522189@gitolite.kernel.org>
 
---===============4493470635978576547==
+--===============4430503357268729799==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/matthias.bgg/linux
+user: matthias.bgg
 changes:
-  - ref: refs/heads/char-misc-testing
-    old: bbdd665d7bc484fbcda60da04740d229969f8f50
-    new: 6e492094625a1745e5fd8820e91d5b07900be1dc
-    log: |
-         6e492094625a1745e5fd8820e91d5b07900be1dc firmware: coreboot: framebuffer: Ignore reserved pixel color bits
-         
+  - ref: refs/heads/for-next
+    old: eb6fd30ef65f749549d02d0fbe9063ad70f477a5
+    new: c9d891bb9a88568ddbe84ff467231c23eb719adf
+    log: revlist-eb6fd30ef65f-c9d891bb9a88.txt
 
---===============4493470635978576547==
+--===============4430503357268729799==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-eb6fd30ef65f-c9d891bb9a88.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1675166224 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1675166223-9d01a86d6820f9fdb20d2a306ca2f794c354cc10
+c200774a6df47cfc1053334c98ab777563de5bd8 soc: mediatek: Introduce mediatek-regulator-coupler driver
+1873da264caedf6b84417ff8cb0f843659f75dac dt-bindings: arm: mediatek: mmsys: Add support for MT8195 VPPSYS
+78ce3093f055a695bf1dbe1f30adf48b8b19772b soc: mediatek: mmsys: add support for MT8195 VPPSYS
+900785741289abbcf8cb4c090416715f0c1c8e08 arm64: defconfig: Enable missing configs for mt8192-asurada
+09ea26f1bf31c381faf4504774326755d8c47108 arm64: defconfig: Enable DMA_RESTRICTED_POOL
+cc4f0b13a887b483faa45084616998a21b63889d arm64: dts: mt8195: Fix CPU map for single-cluster SoC
+160ce54d635455ffb5e9b42c5ba9cb9aaa98cdb2 arm64: dts: mt8192: Fix CPU map for single-cluster SoC
+1c473804b0c8a68c6ef2cf519b38ec6725ca4aa5 arm64: dts: mt8186: Fix CPU map for single-cluster SoC
+66fe2431faa227e75a16c2ee2f90b2bb6665b2b3 arm64: dts: mt8195: Change idle states names to reflect actual function
+f3ca158008afc6531daccd9a49cb2e16b3dacedf arm64: dts: mt8186: Change idle states names to reflect actual function
+090bd20c6021976400b8ba3faf9ca9a75173f7ea arm64: dts: mt8192: Change idle states names to reflect actual function
+d84eeebd2581bd5905625a0c7c34e1a4a504adad Merge branch 'v6.2-next/dts32' into for-next
+6364d962f841426a370e9a069cfbbbe981399a81 Merge branch 'v6.2-next/dts64' into for-next
+c9d891bb9a88568ddbe84ff467231c23eb719adf Merge branch 'v6.2-next/soc' into for-next
 
-bbdd665d7bc484fbcda60da04740d229969f8f50 6e492094625a1745e5fd8820e91d5b07900be1dc refs/heads/char-misc-testing
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPZAhAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+9QkP/1/aWk2Wasuf9SCWsaEC
-j6VjgtWksZlXe8rlNu5kYSdnfJ/XIUMuyZTWJmIio9Z/CWYCATOy2VlvrfLVzvcR
-5nMz/R3bWSYTl1BzxLezc5CpIdhieGvdyhhf231UX0pR6E4Fa5y3MEDdCIjLq7EK
-Sl9hOtRTOJ5xBD8FW+3OJBEPxalEqNEZqY8UrfYg4OwFxoJ6ek2Lr/Smjm0buz3J
-DD63a3InspvoLa4nUCnB8XtVsQiqZEXdq0m0F+9Ys1MAD0DRTYVWvGdbkbWSl+CP
-Npnq6zgMkpHzeF5P9MH+DGllt9OfOekR4TbTpFwURZcCCJc+jSRIyi0wNSZffA/6
-cKmNE7XbR6kThuodq+5hJWAIBDg+rwcHPrACI3n6qT6wbuSWsAeJE0DsgYI2YFFb
-dyqjZmOcudAFrAP7Ue7kJxBPXTfGy4DZa6xI1qLWoP/OLynlWzLwMVoRFKNZVOqW
-gaV0ccjnPz6CyYKtwjhxiiAisYaK2SkF44oEafhp+Q6Xa1nTJ4g4M8GkA+ueucuP
-u+CC78E/Y/jCVLD/RSuLA7BKO+n97esUPdB8NheKH60n/73XD2J+ZSynpB9TWiLq
-KLCakcrRwNBJoBOvFpEZLt/PfWgs9eOeLCRm59vUbtaTHQSHKXTBufU5901FODJr
-V1QJd3582MYPRpIJIS5tNi/F
-=iVKZ
------END PGP SIGNATURE-----
-
---===============4493470635978576547==--
+--===============4430503357268729799==--
