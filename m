@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4238190166712294925=="
+Content-Type: multipart/mixed; boundary="===============1982723555942781939=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Tue, 31 Jan 2023 09:38:38 -0000
-Message-Id: <167515791845.21796.17147125107565422932@gitolite.kernel.org>
+Date: Tue, 31 Jan 2023 09:39:48 -0000
+Message-Id: <167515798835.32492.16847471871080395726@gitolite.kernel.org>
 
---===============4238190166712294925==
+--===============1982723555942781939==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,44 +17,43 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-testing
-    old: e4157519ad46c7bd81b1c1e76d634aa0033d00e5
-    new: 8cb9c36b812591e36405708d0ee693b1c135fcbd
+    old: 8cb9c36b812591e36405708d0ee693b1c135fcbd
+    new: e225947035bcd15f95e6f340e708fa37f309c2c3
     log: |
-         2bf40502badf9bc15a487244dd23ce0b08c306c0 usb: gadget: Use correct APIs and data types for UUID handling
-         582cef438551ca6373f8c3901a15947b2c9643b9 usg: gadget: Move validation out of lock in webusb_bcdVersion_store()
-         7194e5e0907b802ca76c9297399ab540fbf0513d dt-bindings: usb: qcom,dwc3: allow required-opps
-         ff826648e1059606f8418f12b69a4b15a1eed1ba USB: MAX3421: Handle USB NAK correctly
-         8cb9c36b812591e36405708d0ee693b1c135fcbd dt-bindings: usb: vialab,vl817: Cleanup compatible, reset-gpios and required
+         21ef9c91f0ab4f11d31fddbdc6d886fed114be74 usb: fotg210: fix return value check in fotg210_probe()
+         d4f6b987f3986ea67bf8ac5fbf5923bd681c8761 dt-bindings: usb: samsung,exynos-dwc3: allow unit address in DTS
+         c2c304dfc983060085c92153071d0e0f4cb12a37 dt-bindings: usb: phy: nop: Fix a typo ("specifiy")
+         e225947035bcd15f95e6f340e708fa37f309c2c3 dt-bindings: usb: fsa4480: Use generic node name
          
 
---===============4238190166712294925==
+--===============1982723555942781939==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1675157916 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1675157987 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1675157915-481857ae00d749246d0f5f86bb4ce7e141a46bdf
+nonce 1675157986-77cd905257dc6d6cd0bac4ac32206dac7d60fead
 
-e4157519ad46c7bd81b1c1e76d634aa0033d00e5 8cb9c36b812591e36405708d0ee693b1c135fcbd refs/heads/usb-testing
+8cb9c36b812591e36405708d0ee693b1c135fcbd e225947035bcd15f95e6f340e708fa37f309c2c3 refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPY4ZwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+fQgP/A41mWCZIglT094zZsUt
-746SBRVwtuADKcbwdHjXCFsSBSGKjAqfNs8iikxb7YJbhYHKhMVOhzt6pklTeMtR
-OPA7RouA5p1qgx2rJfE5r7MxQbwE8+lU9zNdhiIR58A17ztXvnFBAXraM5i3URU8
-KBmfiDc9A80iwr3onYb7/7AQq9L1I7gyI5dqhUlwdB2rWdI151+Dq6nJMoE4uNhR
-snwSOZC6a58FD3eaBQqUCHoTTY6m5YH/UkRMZAaz5UrUczqGY14a57ApSon07TrV
-IjSZwewIsEzG46/yN0WO5Oy9UNhAd9wPlmg5sWEgIBE3yGpk40pLPmvSijxlH414
-MK94sfwEeZKEK0qLKdGFeIrXqPFYo1ieoc/jprIgSsUzENJh+/14lGdJERPf3o2L
-uVlbMdcx871OkwQtOEZbABQp3lMSO+Y501ZKkqEkbqctIkuj7P5H+U4QM5OlTihB
-1IF2WwzBSGueNGJ02075nhEpwXQByUEQ1YBJ96hLNPoTBy8LHWf0WcU4qxuIpbCk
-VhZ2XLYwlkMboyIiC7wJCATugYaOeY68bc9W0uBLgSur7AHdl86908u3EmpJbpMY
-bY1bpBkcSuwqOj6YvzZUsg/lTwxCxD/ueeMefRksw0nDkjTvusv+eavRkFxZMYML
-DmfAUNHh/HUcrPd+ZxE+Wpxj
-=IyTI
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPY4eMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk++skQALC/cEt8ijTV+AfYVo6F
+WX/VaVmZXE+Z2AbLu4r2iE+iZEtdR/IndCqK1v6gdft0BregqbbP69pJENBdGg2Y
+4fHtdSqMjEU17GbuNfrLnk6o+qJweYIJgZI73XZn0tJE9RJ0GwTNOGAXn4kn3Bsj
+OngP5Ij/ND8evhHmhqlZdr6GBvMHwl6gxUhbCJCzdAD3+rQi2UDK5IgTYSY/XByP
+CrgUlxq023MUmojSvCZMPqufO410xX4z8BLtEOFRzX8CAJV9bf8BdJaYKVSuMJZ3
+G3rWuD8U/WjMJowFnAEmPJmC9TvV0SuzEuexOne+NoWkddhVWhScIq5420tp8gsO
+RqYuDTKeZSHXPlzHMqjO6D56bMXazRCbxQSyeikLG7iDZp7XBFb4ppUeDDwV/y1d
+UIwM53Y9mPJ/Ha7PJ1vAqAscQbIDoj7qH1NvrDuS4vpIdV6uV0CaFHWaMmdgg49c
+rHvf2dG7twm/5JTecOAtkAmw9XwLOt+Zj3/5b8AAyLXKaCmGbDgbXYVau3etIE9U
+4utKc9EHoKFXiKI4KoYqSYPBJ/SKLpZOt6eDw6AULntQQ/CAGzWOuPK1qDW4amSF
+eObZWhH0tWcodF578eDFti2vUFDoVj9I1Lvhcs+5eZLisMLsmcwiD6F1Yfqjx51T
+cXohGyX+CuupE49WMLM6SsS7
+=t3WM
 -----END PGP SIGNATURE-----
 
---===============4238190166712294925==--
+--===============1982723555942781939==--
