@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7258626755077072277=="
+Content-Type: multipart/mixed; boundary="===============5841633480972081459=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 31 Jan 2023 14:19:18 -0000
-Message-Id: <167517475875.31138.106550851045002319@gitolite.kernel.org>
+Date: Tue, 31 Jan 2023 14:21:03 -0000
+Message-Id: <167517486311.857.12220865578833403099@gitolite.kernel.org>
 
---===============7258626755077072277==
+--===============5841633480972081459==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,19 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/auto-latest
     old: 8ebbd2508233cef100654e40fc8f09463ff412ac
     new: 3d7a2038964916fd1fcc8021e078e6ba6f6a0043
     log: revlist-8ebbd2508233-3d7a20389649.txt
+  - ref: refs/heads/master
+    old: 3d7a2038964916fd1fcc8021e078e6ba6f6a0043
+    new: 6157d388b1164e4402c367836fb812ab97fc6c4a
+    log: |
+         cbdb1f163af2bb90d01be1f0263df1d8d5c9d9d3 vdso/bits.h: Add BIT_ULL() for the sake of consistency
+         6157d388b1164e4402c367836fb812ab97fc6c4a Merge branch into tip/master: 'timers/core'
+         
 
---===============7258626755077072277==
+--===============5841633480972081459==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -42,4 +49,4 @@ ac0ee0a9560c97fa5fe1409e450c2425d4ebd17a x86/alternatives: Teach text_poke_bp() 
 923510c88d2b7d947c4217835fd9ca6bd65cc56c x86/static_call: Add support for Jcc tail-calls
 3d7a2038964916fd1fcc8021e078e6ba6f6a0043 Merge branch into tip/master: 'x86/alternatives'
 
---===============7258626755077072277==--
+--===============5841633480972081459==--
