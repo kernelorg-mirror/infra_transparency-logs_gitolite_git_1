@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Tue, 31 Jan 2023 19:18:25 -0000
-Message-Id: <167519270556.6832.13831287503227207377@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Tue, 31 Jan 2023 19:19:15 -0000
+Message-Id: <167519275598.7139.765263989922309310@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/peterz/queue
-user: peterz
+repo: pub/scm/linux/kernel/git/tip/tip
+user: bp
 changes:
-  - ref: refs/heads/sched/urgent
-    old: 4f4d0b01796a0e1cae148d96b32520ebabb3951f
-    new: b11c9534995c332b5d86f5eca8a6578c51dda22b
+  - ref: refs/heads/x86/cpu
+    old: 8c19b6f257fa71ed3a7a9df6ce466c6be31ca04c
+    new: 7914695743d598b189d549f2f57af24aa5633705
     log: |
-         b11c9534995c332b5d86f5eca8a6578c51dda22b cpuset: Fix cpuset_cpus_allowed() to not filter offline CPUs
+         7914695743d598b189d549f2f57af24aa5633705 x86/amd: Cache debug register values in percpu variables
          
