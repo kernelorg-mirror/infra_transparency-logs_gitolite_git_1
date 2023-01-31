@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 31 Jan 2023 05:07:16 -0000
-Message-Id: <167514163602.5228.4747588104188386065@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tzungbi/chrome-platform
+Date: Tue, 31 Jan 2023 05:11:34 -0000
+Message-Id: <167514189487.8116.11317989470147746105@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/tzungbi/chrome-platform
+user: tzungbi
 changes:
-  - ref: refs/heads/master
-    old: 2083656bb30df231caad56abb4f1c2a6366f5923
-    new: 3c1dc22162d673d595855d24f95200ed2643f88f
+  - ref: refs/heads/for-next
+    old: 4bc9dce47146f611c8ac51238731e3202d2047c6
+    new: bac2e576c36d3f7e7bb2ee3b6cbbd06d140e7c5d
     log: |
-         4104a713204d62aca482eebb0c6226d82a0721eb net: phy: fix the spelling problem of Sentinel
-         3c1dc22162d673d595855d24f95200ed2643f88f net: phy: motorcomm: change the phy id of yt8521 and yt8531s to lowercase
+         582472c7b3064309d10e3eb8798024f2c2bdb54e platform/chrome: cros_ec_typec: allow deferred probe of switch handles
+         bac2e576c36d3f7e7bb2ee3b6cbbd06d140e7c5d platform/chrome: cros_typec_vdm: Fix VDO copy
          
