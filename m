@@ -1,36 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============2251813475147326243=="
+Content-Type: multipart/mixed; boundary="===============4029286465993613420=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Tue, 31 Jan 2023 03:58:02 -0000
-Message-Id: <167513748204.23771.17891934382360201304@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Tue, 31 Jan 2023 03:58:13 -0000
+Message-Id: <167513749347.23947.8367474747742976601@gitolite.kernel.org>
 
---===============2251813475147326243==
+--===============4029286465993613420==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
   - ref: refs/heads/master
     old: ae0c77e1bc6963c67c6c09e8c72959fcb1ed8d5f
     new: 80bd9028fecadae4e8e3a278cd32d74badc2a6e0
     log: revlist-ae0c77e1bc69-80bd9028feca.txt
-  - ref: refs/heads/pending-fixes
-    old: 0a49732f057b28a62652502dafc8e5810ce788ee
-    new: 70d29276a90d181584b2ed5c83079fad7e2cd6b6
-    log: revlist-0a49732f057b-70d29276a90d.txt
-  - ref: refs/tags/next-20221031
-    old: 37edfc2f0f7dd5339d74d2976f07a315fb56ea51
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20230131
     old: 0000000000000000000000000000000000000000
     new: 008ce905a834e3ab97d22cd2f16f8e3fb96c7bbe
 
---===============2251813475147326243==
+--===============4029286465993613420==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1061,79 +1054,4 @@ c3f4a9dad5124b480dd2ca965278253164b8bd69 Merge branch 'mm-nonmm-stable' of git:/
 988500f09e17419943181dcd1041cb9fde0808a5 Merge branch 'mm-everything' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 80bd9028fecadae4e8e3a278cd32d74badc2a6e0 Add linux-next specific files for 20230131
 
---===============2251813475147326243==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0a49732f057b-70d29276a90d.txt
-
-819cfea7d69d5561f89c4957ff94afc6cad76356 spi: SPI core CS delay property rename From: Hector Martin <marcan@marcan.st> Date: Wed, 04 Jan 2023 18:36:26 +0900 Message-Id: <20230104093631.15611-1-marcan@marcan.st> MIME-Version: 1.0 Content-Type: text/plain; charset="utf-8" Content-Transfer-Encoding: 7bit
-1f4d2dd45b6ef9c047f620d2812326a7813d2354 spi: spidev: fix a race condition when accessing spidev->spi
-50028988403ab8e031093655af9c6919ecba3aa6 spi: spidev: remove debug messages that access spidev->spi without locking
-f71eaf2708be7831428eacae7db25d8ec6b8b4c5 bus: sunxi-rsb: Fix error handling in sunxi_rsb_init()
-2f440c4f04ca28e3ddf4bb6f3d25f7613abe2873 arm64: dts: imx8mm: Reinstate GPIO watchdog always-running property on eDM SBC
-fca053893e8d5be8173c92876c6329cbee78b880 arm64: dts: imx8m-venice: Remove incorrect 'uart-has-rtscts'
-cfb47bf5a470bdd80e8ac2f7b2f3a34563ecd4ea arm64: dts: freescale: imx8dxl: fix sc_pwrkey's property name linux,keycode
-47123900f3e4a7f769631d6ec15abf44086276f6 arm64: dts: imx8mm: Fix pad control for UART1_DTE_RX
-52219e719f53c792cc10296178e7e38e9e1412aa MAINTAINERS: match freescale ARM64 DT directory in i.MX entry
-39c95d0c357d7ef76aea958c1bece6b24f9b2e7e arm64: dts: imx8mm-verdin: Do not power down eth-phy
-1febf88ef907b142fdde34f7c64ed3535d9339e4 ARM: dts: imx7d-smegw01: Fix USB host over-current polarity
-195e4aac74ce67385f95432301da6db3c2cfc72a xfrm: consistently use time64_t in xfrm_timer_handler()
-0a9e5794b21e2d1303759ff8fe5f9215db7757ba xfrm: annotate data-race around use_time
-54aa39a513dbf2164ca462a19f04519b2407a224 net: stmmac: do not stop RX_CLK in Rx LPI state for qcs404 SoC
-611792920925fb088ddccbe2783c7f92fdfb6b64 netrom: Fix use-after-free caused by accept on already connected socket
-73a876022273cbc9c1db7869a54444ce8b9d085e net: phy: fix null dereference in phy_attach_direct
-35bba23e6732a593722c96cbe03ced627f0d8831 Merge remote-tracking branch 'spi/for-6.2' into spi-6.2
-2036890282d56bcbf7f915ba9e04bf77967ab231 ASoC: rt715-sdca: fix clock stop prepare timeout issue
-c5258d39fc4cbed37e20945715e7eb102f26d65b platform/x86/amd/pmf: Add helper routine to update SPS thermals
-16909aa8c9cc284085f1202c6403ecb9814af812 platform/x86/amd/pmf: Add helper routine to check pprof is balanced
-3dfe28c936f87373a2b6ada750be4c52c0f249f3 platform/x86/amd/pmf: update to auto-mode limits only after AMT event
-635f79bc73cf3d40c4198a20b3a0e7016dd6f0d3 platform/x86/amd/pmf: Fix to update SPS default pprof thermals
-f21bf62290dd4d769594dcf0e6a688783d74f6a0 platform/x86/amd/pmf: Fix to update SPS thermals when power supply change
-e0c40529ff942a985eb0f3dacf18d35ee4dbb03d platform/x86/amd/pmf: Ensure mutexes are initialized before use
-abce209d18fd26e865b2406cc68819289db973f9 platform/x86/amd: pmc: add CONFIG_SERIO dependency
-eebf82012dddbdcb09e4e49d3cdfafb93bc66eb2 platform/x86: thinkpad_acpi: Fix thinklight LED brightness returning 255
-fe8973a3ad0905cb9ba2d42db42ed51de14737df watchdog: diag288_wdt: do not use stack buffers for hardware data
-32e40f9506b9e32917eb73154f93037b443124d1 watchdog: diag288_wdt: fix __diag288() inline assembly
-d2591298b9ab576b568f0c49d60a7f21d0c8d1e2 MAINTAINERS: amd: drop inactive Brijesh Singh
-a6e6ceb28a268a2a0ec9a2ebe4081ec1d1799228 Merge tag 'sunxi-fixes-for-6.2-1' of https://git.kernel.org/pub/scm/linux/kernel/git/sunxi/linux into arm/fixes
-8a74191c899efd3a0e942632f31dad0ea7eb4c7f Merge tag 'imx-fixes-6.2-2' of git://git.kernel.org/pub/scm/linux/kernel/git/shawnguo/linux into arm/fixes
-41d419382ec7e257e54b7b6ff0d3623aafb1316d drm/i915: Avoid potential vm use-after-free
-87b04e53daf806945c415e94de9f90943d434aed drm/i915/guc: Fix locking when searching for a hung request
-86d8ddc74124c3fdfc139f246ba6da15e45e86e3 drm/i915: Fix request ref counting during error capture & debugfs dump
-5bc4b43d5c6c9692ddc7b96116650cdf9406f3da drm/i915: Fix up locking around dumping requests lists
-7057a8f126f14f14b040faecfa220fd27c6c2f85 drm/i915: Fix potential bit_17 double-free
-47a2bd9d985bfdb55900f313603619fc9234f317 drm/i915/adlp: Fix typo for reference clock
-dd2f0a0a2f751b7aafaea5cbba8e65a55fd12f94 kunit: fix bug in KUNIT_EXPECT_MEMEQ
-5eaeb2914e64db802b6b666fbc576c033cd5c8df Merge branch 'mm-hotfixes-unstable' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
-08d3544a65fc8e3c9c60b736573da98ab307a3c5 Merge branch 'arm/fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc.git
-e8f9fb673e4ee465559d953aef30d3dbbd118145 Merge branch 'fixes' of https://git.linaro.org/people/jens.wiklander/linux-tee.git
-92fbe918c4f7b719c315062f084a2bfa0c2a4b74 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux.git
-3f4a301dd67586fcccb89f3fabc7ff21d8464a32 Merge branch 'master' of git://git.kernel.org/pub/scm/linux/kernel/git/davem/sparc.git
-5f73a46e76c500b120fca5b3635db17b38715048 Merge branch 'master' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net.git
-f2cf20af702f11c42fde2356d414e814f5476a02 Merge branch 'master' of git://git.kernel.org/pub/scm/linux/kernel/git/klassert/ipsec.git
-a751994f9346549e21616e2122f51de093bd921b Merge branch 'for-rc' of git://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma.git
-3d589a118daed0a5da969c6644d14b1eb6d6dd83 Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound.git
-209d4f11e32b4e9a4bd0dd9b0d5325ac94e9cb38 Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-9c6e9d4b600b6f53f67b998a0365860c5817eb29 Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-ab98e7aa6361c1b53b1b83b9b8d21422f88848c3 Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/helgaas/pci.git
-ceebefc8f793492025cf2d3ecc8727084ef74fa8 Merge branch 'usb-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb.git
-7f9c70eb059985a23698b578d7f3c639f70617a3 Merge branch 'fixes-togreg' of git://git.kernel.org/pub/scm/linux/kernel/git/jic23/iio.git
-bc93d94f5b1fc0ffb4a683d45555947ef08f4903 Merge branch 'char-misc-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc.git
-766626609d68da8d316cae504a76ce1b8272fc96 Merge branch 'fixes' of git://linuxtv.org/mchehab/media-next.git
-9a8c1e16723bef569c1f320d3040e6c6e1c91032 Merge branch 'hwmon' of git://git.kernel.org/pub/scm/linux/kernel/git/groeck/linux-staging.git
-7177991bd2c5956a41f57a24bdbfad991723732d Merge branch 'libnvdimm-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/nvdimm/nvdimm.git
-c1bb60feaaf3d6a4d914e874966b3f645525b088 Merge branch 'next-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux.git
-229a4125d17745dd08d38bf2658dd36a76dc87d2 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs.git
-150744bd0713991cd411ff0966dc187aa2fa8b47 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
-26338d2742c732a8e9dbe9f3e696aeb0af5b2f88 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/mkp/scsi.git
-0817de6a6bd0eb985bee293dc9afeb653b9c4383 Merge branch 'for-linux-next-fixes' of git://anongit.freedesktop.org/drm-intel
-bd1e5632d12c24d69d5a494bd4b38eb338ab12bb Merge branch 'rtc-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/abelloni/linux.git
-9e3596da0d0436b2a32ae895461e5a4cabfb6a72 Merge branch 'riscv-soc-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/conor/linux.git
-a707dfdd4d25486ca5c154ca9ff149c3112800b2 Merge branch 'kunit-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest.git
-c94864e32b97210d0e5801e8ee542e8599797d93 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/rw/ubifs.git
-65fef6915b095c4e323feb2643cf1ae09e7f482b Merge branch 'zstd-linus' of https://github.com/terrelln/linux.git
-36e9f1d66c9802608e6d620ba6bf0f90fe62b649 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/sre/linux-power-supply.git
-70d29276a90d181584b2ed5c83079fad7e2cd6b6 Merge branch 'for-linux-next-fixes' of git://anongit.freedesktop.org/drm/drm-misc
-
---===============2251813475147326243==--
+--===============4029286465993613420==--
