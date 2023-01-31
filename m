@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1471981642153482590=="
+Content-Type: multipart/mixed; boundary="===============3726574755700419663=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Tue, 31 Jan 2023 08:37:00 -0000
-Message-Id: <167515422006.13427.16005295261981413886@gitolite.kernel.org>
+Date: Tue, 31 Jan 2023 08:40:11 -0000
+Message-Id: <167515441152.16003.2924511518089894273@gitolite.kernel.org>
 
---===============1471981642153482590==
+--===============3726574755700419663==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-testing
+  - ref: refs/heads/usb-next
     old: c52c9acc415eb6ff54f658492f8c53da0fc3528a
     new: 745656a39ee40e2888ffb1a108511be296e267e9
     log: revlist-c52c9acc415e-745656a39ee4.txt
 
---===============1471981642153482590==
+--===============3726574755700419663==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1675154218 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1675154410 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1675154217-01a7b92cb7baad1e67707ac0629efc63ec6ce846
+nonce 1675154409-d9a336ef0d1869a51fec8dacd09996bd19824427
 
-c52c9acc415eb6ff54f658492f8c53da0fc3528a 745656a39ee40e2888ffb1a108511be296e267e9 refs/heads/usb-testing
+c52c9acc415eb6ff54f658492f8c53da0fc3528a 745656a39ee40e2888ffb1a108511be296e267e9 refs/heads/usb-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPY0yobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+4P0P/3Sj+hyt0Z20T6tl99EP
-lXpEthGwlI8yeLrUzgcBDf5HJg0Wp7T8geZL4D5j0M67cJvedxTPeepKuFgynphX
-bG2+hMJOHQbCfAEqTinsX39P5fXEQuCBgaT2wAV5gZu/PE3NMyOQw4PZ2IjOlY0a
-+XC+anRwS3WcsYWmX9MVac/s5X8TGNF53aWk0+FUQEVgtdW+Kj4GxpFMUnOB+rEk
-PdBqbulJyHe/8fJOmo8DmjCQ6NfH+tMKI3m3kCMutgw+RXj7JV6+4eJ3OYeYWDQ+
-aTgPpb+I0Rb23IKoQWHSizHvTQvz/v3iAVK4tHPSk056hiVaUMZJke0q+F3z3Ov7
-sdAuMnY9DCeoz8HwhtMwgoSQ19qKxzxS9mlOF23SxrWa0PK+M8FgKGnwvtxKsJm7
-3pKDXmrKkGQ/hrRD/weHj4j8vDQUYM64YLIUFXTxUEjJrBZVkC5lTaVIWTVkmUgb
-ZlTqMSPXK2EaDsEjc3SCyfuraHRSa5ChDUlcyuP0V6hP2ijWEInJ+Wjm8Abi97yV
-E46nlzCKRhNxEv/KX9+cbxoiQSVaFJZmeBeuL18ZitS0Wi/EIoKW0GgRxNXYUTJD
-NQ+sGHoRbBuny4kl8SjXQDRQgO6B5Wxtdoa7dHBAp+VEcaG1LWvJ9qYSmxwff98h
-ut2oRgjYnB1c5vcsIO3CEF9X
-=kKio
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPY0+sbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+5cUQALKyd13/3ZA65sFNyGLZ
+MjoOnIEknFset0+hasgTDtHBF4eDXRFvIzikMgZm1eN81ZwutFx1vyq8+6Z2ObZh
+lM0cTZdkPzz/j85UO2zgAwkjCcYS4QY5/+7igmpeS0hZ3DeB30lPNsLDVnNi5bR3
+oW0nQAX+jCuSSywhs/9Cwf4gw5HPF0EUSx8kZpN4d1im0TVUtyiAwWPYmgcRqRP1
+MDjwb9EbdzFj/lW+TBnMhXX8AVuIYaoUzR8ulYMyPurLnTiXQMihVh0s685h6EW3
+hRdqycYpuJPlhvht/REXsseHPbKjebodlaugcryDeoSQL8+sbWIgArp3ctaakNin
+U7gWHa5FjvaMexL0th8VOp3S4QVzzsjvrQR3Xu07U8vzXcaLRS37YcEamJiyx6un
+iK3sP6lhBBTkB7t9VqAJiRqfbRxjqS9AOqH2hB0rJ13+Gh3F6YWn9tlu1ms+/ota
+0MQPiDHRY9ZUxPd+xMzIH8V+7Slmd+spK7zYoofpY1/FPfrE67WyhBOTeh+/M/rd
+2JFJu5ZIsS0PWOvzEWBtCf1b7U/sExVmw3QokqInrseuwGAb3NuSIA0oR1sfzGTz
+dDCxEvdk0A+Tpb6T6JXhzmq4YvlrA0Pyx4JZk4nQ4oUPVlsAhCZcbtOMkEWmX91I
+fsa44kiEVdT9ZhAwAoMbHTo4
+=hFQd
 -----END PGP SIGNATURE-----
 
---===============1471981642153482590==
+--===============3726574755700419663==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -86,4 +86,4 @@ a7c28150af42798263a30bedbe46f201b46fb486 media: uvcvideo: Fix power line control
 b839212988575c701aab4d3d9ca15e44c87e383c media: uvcvideo: Silence memcpy() run-time false positive warnings
 745656a39ee40e2888ffb1a108511be296e267e9 Merge tag 'media-uvc-next-20230115' of git://git.kernel.org/pub/scm/linux/kernel/git/pinchartl/linux into usb-next
 
---===============1471981642153482590==--
+--===============3726574755700419663==--
