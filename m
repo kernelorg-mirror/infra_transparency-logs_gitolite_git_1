@@ -1,21 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Tue, 31 Jan 2023 15:14:42 -0000
-Message-Id: <167517808253.3638.12660027460649589916@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jfern/linux
+Date: Tue, 31 Jan 2023 15:21:06 -0000
+Message-Id: <167517846668.10036.9264356968257284363@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/groeck/linux-staging
-user: groeck
+repo: pub/scm/linux/kernel/git/jfern/linux
+user: jfern
 changes:
-  - ref: refs/heads/hwmon-next
-    old: 62485d4ae451f8d74b1709f24575b1ef8a466d79
-    new: 5e5c0d0341059c332284384df9dece084713f5ac
-    log: |
-         96131d6a6c29c6153a7922c9e500a3b8f25ba279 hwmon: intel-m10-bmc-hwmon: Add N6000 sensors
-         9a720fc646f2ad221fbadc03719b98ce55038a1a hwmon: (iio_hwmon) use dev_err_probe
-         5e5c0d0341059c332284384df9dece084713f5ac hwmon: (aquacomputer_d5next) Add support for Aquacomputer Poweradjust 3
-         
+  - ref: refs/heads/sched/rt-throttle.jan30
+    old: 0000000000000000000000000000000000000000
+    new: 363a995d6d6ab7f1678ae34a34867c61e9ac4d8e
