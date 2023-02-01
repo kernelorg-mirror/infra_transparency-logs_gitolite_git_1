@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4444050822676205263=="
+Content-Type: multipart/mixed; boundary="===============3022751628377654494=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Wed, 01 Feb 2023 22:33:36 -0000
-Message-Id: <167529081649.10873.13881525070064195083@gitolite.kernel.org>
+Date: Wed, 01 Feb 2023 22:33:52 -0000
+Message-Id: <167529083251.11025.7740992825024546452@gitolite.kernel.org>
 
---===============4444050822676205263==
+--===============3022751628377654494==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: dborkman
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: c1a3daf7363b48c6c4b86aee2efa2287f695f649
     new: 10d1b0e4dacccd617c502a926cd6299a19d40b65
     log: revlist-c1a3daf7363b-10d1b0e4dacc.txt
 
---===============4444050822676205263==
+--===============3022751628377654494==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -41,4 +41,4 @@ f4db7b314dd54ab9335bb449640484a6f27baf28 ice: Remove next_{dd,rs} fields from ic
 a24b4c6e9aab4f39982d40cfeb7c142e93310f8b ice: xsk: Do not convert to buff to frame for XDP_TX
 10d1b0e4dacccd617c502a926cd6299a19d40b65 Merge branch 'xdp-ice-mbuf'
 
---===============4444050822676205263==--
+--===============3022751628377654494==--
