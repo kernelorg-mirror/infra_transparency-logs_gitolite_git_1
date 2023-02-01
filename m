@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/libgpiod/libgpiod
-Date: Wed, 01 Feb 2023 08:49:23 -0000
-Message-Id: <167524136332.32009.18315592958923010930@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Wed, 01 Feb 2023 10:25:18 -0000
+Message-Id: <167524711855.11622.16324221664773254866@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/libgpiod/libgpiod
-user: brgl
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/master
-    old: 36d04dc18785b0809029387333fd1a3bdb2b0783
-    new: 5bde6b3dafa21e12c04b4a99f1353def1761d1eb
+  - ref: refs/heads/file2P7Fm3
+    old: c4a0356db99907772bce2d8d2e288736a75e94ff
+    new: 86b753a86f6dc31ca9bccb489ebde1968d26c89b
     log: |
-         cc8495f45579c31f2f95885a6dfb5287b93b8041 tests: add a missing call to parent's implementation of .constructed()
-         5bde6b3dafa21e12c04b4a99f1353def1761d1eb tests: drop the .dispose() method from gpiosim-glib's chip class
+         cbfa85a5c5ab123f4dc99efae1b0182d2f8d956c ASoC: cs42l42: use helper function
+         86b753a86f6dc31ca9bccb489ebde1968d26c89b ASoC: qcom: apq8096: set driver name correctly
          
