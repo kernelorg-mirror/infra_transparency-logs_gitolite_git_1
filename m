@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1192576143219599343=="
+Content-Type: multipart/mixed; boundary="===============2431537012008055004=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Wed, 01 Feb 2023 08:24:49 -0000
-Message-Id: <167523988988.15107.7346023264972842550@gitolite.kernel.org>
+Date: Wed, 01 Feb 2023 08:33:30 -0000
+Message-Id: <167524041076.20768.9038841561724178044@gitolite.kernel.org>
 
---===============1192576143219599343==
+--===============2431537012008055004==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/bus_cleanup
-    old: 65ac2291e891e0fabb353c0ba805d5c6ca603ae2
-    new: 71a505c1d24a36a1a3bc23828a3ef94b52bc3b1e
+    old: 71a505c1d24a36a1a3bc23828a3ef94b52bc3b1e
+    new: 550fa899e11259aaff290f6f82165e7e49e6685f
     log: |
-         71a505c1d24a36a1a3bc23828a3ef94b52bc3b1e driver core: bus: move lock_class_key into dynamic structure
+         550fa899e11259aaff290f6f82165e7e49e6685f driver core: bus: move lock_class_key into dynamic structure
          
 
---===============1192576143219599343==
+--===============2431537012008055004==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1675239885 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1675240409 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1675239884-310d9e886a4bd8757d35cc8e3a33a264e354fd74
+nonce 1675240408-98c17d6bcb5d3881705d025c34e98b200f93ffda
 
-65ac2291e891e0fabb353c0ba805d5c6ca603ae2 71a505c1d24a36a1a3bc23828a3ef94b52bc3b1e refs/heads/bus_cleanup
+71a505c1d24a36a1a3bc23828a3ef94b52bc3b1e 550fa899e11259aaff290f6f82165e7e49e6685f refs/heads/bus_cleanup
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPaIc0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk++psP/RWe3HM2tp/SZIMxbpC4
-YnLjx2Y1M/ypo5kXencmXmJak6loAZBbMlgwOiqCdyxaw73Q8FuUqpQXY+6BvPgA
-5cI8njZNG67oF1qHKK5gfYlWc4Z2NPUg5TFtzK9QPBJYmfRQjczQzCgGjNWli+lL
-ZqAycq7+SIwnGMO/Tkrr3kkmTZk6zNTnbC9fAggelHw6UhnkyHSh5qjrbElZc0Yj
-HTdtjAB2yribwY2vjRIrIm7gLyAoCbIMrzx0BrWUz1Tp8xdKoSD89GZMwvmdSq9i
-Sb3kmecUTEKhv1iNkedkS6d2IbaWGO0fnEGvFLIfS4MMcGhFTmU69e/Pj2JuXt5K
-A0FygITilipbbFFy72214RwiShiisJjUyBGOuCHLIBcM19CGBmSc4bvQWS8ZnUs8
-pJttLKpdgtvjxiny0j7q1vXONkMBBtmg0YBs7CFHC+H4MM9UINte44OkJzr5cPAu
-ySH7cb0V1xOXuX2IXu14FsvmL6xFEQV6HpAHZMoBfQok9ziAsp8IUVxT3ZXg2nFu
-vt0Lt//3teKCwAd/cPH1Mr8z3b6oMTmWUldpivINIDNUlZFmv33vL2Z19ohUsS5o
-0AMdbRfw5z3Yh9XuiSd2sYlZ5DyHNCMifyYn1ApYtC/9s9jF5KclxzHZCdtfxDUT
-lZ3K6k/jBoIIa3wrR/V37RLI
-=fuai
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPaI9kbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Yj8P/RjbTV3zGRuz/Fmh6ViU
+63c5SzisN423ojifFNXPsmOfYjGWey8znQxCPeR/9Scm2ljpyfuHk2c0cfTpNZsx
+ce/9bFQpBoPmNiTFD9RAit0WDSXYphzHgOeLj/LYQ5M/KHv7CVrtZlqzv+QenpsU
+DhG5VOf6W7NPEPfPnIBaaQD9qhTix8bDOp7lXCKPCABUzcua6+4TfvV16zE4sE08
+KZKdwuggYCkAWCEErGQpWpIvCn5iG7+eIJ5bl0ISpFLWNrodvYzJIc9qMY7yw5a+
+kDU22eGYdGAYuLAjxL3KVmFsjLgBOp4EBXyzJk+OSMyaYR40iQpGl2raPw34GNvG
+xrSDnVzOn3MVRQZU2CVPdAYteA6BAlhgtxV76b2han9QdTNuxcVVz6V43wj/XDfU
+Hy7c0xITy/ZiMdHMW2I/aCyz8nrI0LBU/6+5gCi2vnmHgQIFTbKmFrCx8gqqeW9W
+b+WU0YIidhRfSiTeG7QDGTBSomZkBI9s6nOFDmlnUDdeOJexjyEsnnuWfbhJ+eRM
+j1eKegJ0+RMNm1DPy8XdPrIZ5DNseL+qUYus+C2Ca6N6zR8C95RtImEVFFAP0JUu
+P1TL4rald55luxM8UDF2JRg2cfmAQ8EFMl3c7zAEUCgEoiY8HFfS7uQ05kFyRJm3
+A+gMLpxOzQZV1k0kTtJ8S884
+=O7jT
 -----END PGP SIGNATURE-----
 
---===============1192576143219599343==--
+--===============2431537012008055004==--
