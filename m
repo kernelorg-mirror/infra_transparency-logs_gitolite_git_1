@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7076682954155107354=="
+Content-Type: multipart/mixed; boundary="===============9219131139464420116=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Wed, 01 Feb 2023 13:02:43 -0000
-Message-Id: <167525656359.17481.12758502173553729103@gitolite.kernel.org>
+Date: Wed, 01 Feb 2023 13:09:24 -0000
+Message-Id: <167525696428.21012.12859284195129644677@gitolite.kernel.org>
 
---===============7076682954155107354==
+--===============9219131139464420116==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,41 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-next
-    old: 921e672dee91af86f8f9e44a067c735ebac0744b
-    new: a69ea7a76d52353b17d7bedf43818c2578517e9e
+  - ref: refs/heads/driver-core-testing
+    old: a69ea7a76d52353b17d7bedf43818c2578517e9e
+    new: 40b3880dc29b89c39139eba11eba2b3107dc2e38
     log: |
-         a69ea7a76d52353b17d7bedf43818c2578517e9e maple: remove unneeded maple_bus_uevent() callback.
+         b4ce0bf7ab02c46676276ca1e8d4c5789528b439 driver core: platform: removed unneeded variable from __platform_driver_probe()
+         40b3880dc29b89c39139eba11eba2b3107dc2e38 driver core: platform: simplify __platform_driver_probe()
          
 
---===============7076682954155107354==
+--===============9219131139464420116==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1675256563 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1675256962 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1675256562-95cdb91b974b5ab85705255fa12538b24bca7b65
+nonce 1675256962-66ed0ab7e056a2ec1a8a89206d9044e3fa497b34
 
-921e672dee91af86f8f9e44a067c735ebac0744b a69ea7a76d52353b17d7bedf43818c2578517e9e refs/heads/driver-core-next
+a69ea7a76d52353b17d7bedf43818c2578517e9e 40b3880dc29b89c39139eba11eba2b3107dc2e38 refs/heads/driver-core-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPaYvMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+tAwP/RA+hbADuZnx/KFC1Rte
-uWyC6Naiuko+ybI270Fcef7Z1xb0atB1jNfq1auoznxFsYpZT03Dx5Eoih7l2N/s
-vYDyZQRuzkrpvAte91Zv7QLxXLldoIQTIHFaXpRtPEXD5m4loBtIuEsKqPBLch1b
-otV5aB67eqfchg8Nhs3Xs/sYf3CMqpgz0QxYilek4GSZmH/44HaTIHmYKm05W5pQ
-gt2sAJsNVP8i7t7yuIC/KGlzHLZmrGBVJNPzsv5fG0emaBlRgkIuX4oWGIazAsvQ
-slOvfon6qNIHAuO735sb9lA2LoxTSEhVf8Uhezoo/cTz7orLSF4ZANf6YJ5VfvP8
-fV57MvYKCJu9n9iBjB6SnUIjLoWdbCzux0YYCdUz9WKkh5N+Q80ICxebO+N2lt9X
-T78z1laHIyssGYFIHWec67twUdQFj3UrTRxO/uU8Se44O/N3HmYS9Yvp40KqUBcF
-xGJOS4UYKLH1uxu5EKbpyqwJSlVn7ATMt3pJGPR+kLdWOQRkfPn7hTR2ITD4euq2
-siFJo/yUWgmLki5T+1zDlDkKsT6W6XU8hbO6N/5iECESvG0k8ZjtSbRUMkdbaWry
-j+g0PwUhLzEl820qQ0dZ0JHaRuHpGili949bEAk5jsGDQ5vxBnWrHFpmFdqFO21c
-Q3gw8nu8K3W/06z31nklNGe3
-=x8rB
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPaZIIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+GacQAM8CsQFhnKlISKK4T8ho
+v1jvZqfJWIRyzbLDGqprp89E1TY6WhUXbXp6xTl4EuMnG99upqJIc9f3DGordUdL
+k2a+nHDrexozT4R7w+g8xGjgNq8EVCCiJ84gcHrO0y4S8HI4d54KoiaLDiTOgQrH
+fEGw8H2TDiJE27AOp3dPXNrjgqcrryuHHtfy2v3IhsVLdfqeNuSiSXACks8GyYOZ
+APAIpXnqqxjrBRBukxMFzQ9p37U/rZ1eby2ic48asqHBePnKfp1M3nX7rdBtaVnH
+ap9spSc2ppi0lEAXgLbqGO9CvVpGwp9G3wyU2pt7ls9NI4XHXUCnMbwkBzZ+Wfzo
+E0adih0nRCAJNIjL2urUfqJIYTZba7JrYD5VHgb7KK2LNIqFPbbROa+h6bPuXRoT
+c17alN3JbHWZ1z48crkttOpNhLc2U6uikG5C+1KK1oF3FryoSigYhmfmOCJ/9swn
+ISKDBb2HAMrfLmcaDTYgLX4fFPUNtTZa3ekvcDyqgG6v+vI9XVYr2w0JrasjO6sP
+e5TEmWsNvKEhFpEBHWvyk0qh0Ffl1WEMRnCUSxjHsvXv0wzeuWI6A83hjHpe2rc4
+0glDA9d96gKMBacBoSnuM7ljDFjDPNywtwtAWwrOV3+LfbjqhTmy7kyzysktwJDl
+IfnBv2ybv7Kq37a8GCDlYe9a
+=E1zG
 -----END PGP SIGNATURE-----
 
---===============7076682954155107354==--
+--===============9219131139464420116==--
