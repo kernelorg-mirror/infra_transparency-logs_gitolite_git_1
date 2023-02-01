@@ -1,16 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mmind/linux-rockchip
-Date: Wed, 01 Feb 2023 23:00:42 -0000
-Message-Id: <167529244200.30011.8958134262480529473@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Wed, 01 Feb 2023 23:26:56 -0000
+Message-Id: <167529401673.14448.13431411378865778780@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mmind/linux-rockchip
-user: mmind
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: dborkman
 changes:
-  - ref: refs/tags/v6.3-rockchip-dts64-1
-    old: 0000000000000000000000000000000000000000
-    new: 5cacc2757f51076bb38cdb5a0ac8e5b7b6919b89
+  - ref: refs/heads/master
+    old: 10d1b0e4dacccd617c502a926cd6299a19d40b65
+    new: 36b0fb13b5474b2f5412435e3c62c639dc626689
+    log: |
+         57e7c169cd6afa093d858b8edfb9bceaf2e1c93b bpf: Add __bpf_kfunc tag for marking kernel functions as kfuncs
+         98e6ab7a04353c95b1f4bad345d156ded865fd96 bpf: Document usage of the new __bpf_kfunc macro
+         400031e05adfcef9e80eca80bdfc3f4b63658be4 bpf: Add __bpf_kfunc tag to all kfuncs
+         6aed15e330bfec6a423f40582b2a8b53d9ce1757 selftests/bpf: Add testcase for static kfunc with unused arg
+         36b0fb13b5474b2f5412435e3c62c639dc626689 Merge branch 'kfunc-annotation'
+         
