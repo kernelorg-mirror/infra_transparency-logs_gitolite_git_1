@@ -1,23 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/bluetooth/bluez
-Date: Wed, 01 Feb 2023 01:09:07 -0000
-Message-Id: <167521374761.17836.11689356387106249124@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
+Date: Wed, 01 Feb 2023 01:22:53 -0000
+Message-Id: <167521457392.29451.9200992709027935110@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/bluetooth/bluez
-user: vudentz
+repo: pub/scm/linux/kernel/git/robh/linux
+user: robh
 changes:
-  - ref: refs/heads/master
-    old: ca6546fe521360fcf905bc115b893f322e706cb2
-    new: dcbdf5e67f3e4cba29f2fb9f0e5fcdad06540738
+  - ref: refs/heads/for-next
+    old: 8da765cca292a812988077ca8fbef8be151c2d0b
+    new: 18b616d0c0ff51136b775429dfb2b9432459fe47
     log: |
-         17bcd2a37629cc12b683cc92dc51d124e0ab3fe1 profiles: Add Support for Metadata, CID and VID
-         33d99e12c37f6075d2b3819c30c1cf17fa52c57f client/player: Add support for Company ID, Vendor ID
-         be5c49385e4d8403d773b2838369a5987e732ff0 shared/util: Check arguments on util_memcpy
-         d611a40ffc7bdc6b2e727550369a5aee7ffdb4cf media-api: Make Vendor a uint32_t
-         dcbdf5e67f3e4cba29f2fb9f0e5fcdad06540738 media: Rework support of Vendor to use uint32_t as type
+         dbc2af0ace20a0b60f97ed763edd8cfc2c71aab3 dt-bindings: display: msm: Drop type from 'memory-region'
+         0be465c61d4623e49672a2e7942d9d101184b8f8 dt-bindings: interrupt-controller: brcm,bcm7120-l2-intc: Fix 'brcm,int-fwd-mask' differing type
+         92ec34fecc5d0f652f5adeb0c19e051981c15b42 dt-bindings: PCI: ti,j721e-pci-host: Simplify 'device-id' schema
+         18b616d0c0ff51136b775429dfb2b9432459fe47 dt-bindings: reserved-memory: Refine 'size' and 'alignment' types
          
