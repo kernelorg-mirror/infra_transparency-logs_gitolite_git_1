@@ -1,27 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/ethtool/ethtool
-Date: Wed, 01 Feb 2023 16:29:10 -0000
-Message-Id: <167526895073.25516.6369850786552044291@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/song/md
+Date: Wed, 01 Feb 2023 16:35:40 -0000
+Message-Id: <167526934080.30595.6907121720924921045@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/ethtool/ethtool
-user: mkubecek
+repo: pub/scm/linux/kernel/git/song/md
+user: song
 changes:
-  - ref: refs/heads/master
-    old: 0da165ab4c1da658fee31597a71dd568515c92c3
-    new: f546f15e68bd3af6a0983b6ef9e1b8eb11190deb
+  - ref: refs/heads/md-next
+    old: 1039f5b0d20252a957d3eadd955c30be30c09dcd
+    new: 2787df434da8229fbee4b0d6690e4949f4220a6b
     log: |
-         bd67f809c1f2fe5ee8c461b0af33ccb80d6502fd Fixing boolean value output for Netlink reported values in JSON format
-         af0b9d9783df8005672e7cd986b997b7e40a9ed1 JSON output support for Netlink implementation of --show-ring option
-         0b09751eb84178d19e4f92543b7fb1e4f162c236 uapi: Bring in if.h
-         3ecec13406c62a36ffaac24b285c852eb016006b netlink: Fix maybe uninitialized 'meters' variable
-         41be533331fc3c6b711dbe532405782d3b8be5d1 marvell.c: Fix build with musl-libc
-         d139d369c1506d72ddff2909b16a9f8fa7cae46c Move code that print rss info into common file
-         ffab99c1f3820e21d65686e030dcf2c4fd0a8bd0 netlink: add netlink handler for get rss (-x)
-         2ce19707f6690a520aaa826537de09b39381a715 Merge branch 'review/build-fixes-v2' into master
-         f546f15e68bd3af6a0983b6ef9e1b8eb11190deb Merge branch 'review/get-rss-v6' into master
+         e152a05fa054170c05f1d5e04e93e2e75ea11405 loop: Improve the hw_queue_depth kernel module parameter implementation
+         1d1f25bfda432a6b61bd0205d426226bbbd73504 md: don't update recovery_cp when curr_resync is ACTIVE
+         d19329133d25ad3dc32f8a62635692cb2f189014 md: Factor out is_md_suspended helper
+         72adae23a72cb12e2ef0dcd7c0aa042867f27998 md: Change active_io to percpu
+         07dbb13542cc022677b64acc6e0bd0d8a2cbf4dc md: Free writes_pending in md_stop
+         48827cecbd5913bd76e4baf343051c51964cc490 md: use MD_RESYNC_* whenever possible
+         2787df434da8229fbee4b0d6690e4949f4220a6b md/raid0: Add mddev->io_acct_cnt for raid0_quiesce
          
