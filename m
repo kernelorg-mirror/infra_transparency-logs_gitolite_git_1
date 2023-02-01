@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ti/linux
-Date: Wed, 01 Feb 2023 17:34:34 -0000
-Message-Id: <167527287460.5266.15218459895972815997@gitolite.kernel.org>
+Date: Wed, 01 Feb 2023 17:40:48 -0000
+Message-Id: <167527324854.10198.6130436828820960517@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,11 +11,11 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ti/linux
 user: vigneshr
 changes:
-  - ref: refs/heads/ti-next
-    old: 175357d1deedfacba8770edc706c6d96c8a09b2b
-    new: 9150819794d2fb2a9cf2954f072e728314853065
+  - ref: refs/heads/ti-k3-dts-next
+    old: 9150819794d2fb2a9cf2954f072e728314853065
+    new: 47d72bbb6c0f7dc0901d7601d1aa6b1419282049
     log: |
-         cff83673d7088e04106b9db88da3f370e9c89629 dt-bindings: arm: ti: Add binding for AM69 Starter Kit
-         313bfa3e8f45d49c4fdd3288ea614addbde577a1 arch: arm64: dts: Add support for AM69 Starter Kit
-         9150819794d2fb2a9cf2954f072e728314853065 arm64: dts: ti: Makefile: Rearrange entries alphabetically
+         aec7cb182db703dc493274090640daad3fb56a95 dt-bindings: arm: ti: Add binding for AM69 Starter Kit
+         635fb18ba00893f4d9ca468326277d445533f05e arch: arm64: dts: Add support for AM69 Starter Kit
+         47d72bbb6c0f7dc0901d7601d1aa6b1419282049 arm64: dts: ti: Makefile: Rearrange entries alphabetically
          
