@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Wed, 01 Feb 2023 22:18:27 -0000
-Message-Id: <167528990702.1009.7926776527736221321@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Wed, 01 Feb 2023 22:29:11 -0000
+Message-Id: <167529055132.7874.15436989111282871398@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
-  - ref: refs/heads/dev
-    old: 1c6d306af363befca676f61d10bb8e11701e9176
-    new: bed78d51a1d4688db327b39d21309eee476e562e
+  - ref: refs/heads/master
+    old: d5625dd2ecb76ee2b328903e285c4f7666c34396
+    new: 32869da5f09806baa758f7061176cebbf66efdcd
     log: |
-         bed78d51a1d4688db327b39d21309eee476e562e clocksource: Enable TSC watchdog checking of HPET and PMTMR only when requested
+         32869da5f09806baa758f7061176cebbf66efdcd Wed Feb  1 10:28:00 PM UTC 2023
          
-  - ref: refs/heads/paronl.2023.02.01a
-    old: 0000000000000000000000000000000000000000
-    new: 05792727280c094a8dcd1aa4950a61a2d214ddb8
