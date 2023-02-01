@@ -1,21 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/joel/bmc
-Date: Wed, 01 Feb 2023 04:47:44 -0000
-Message-Id: <167522686493.3745.13267242583787827551@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Wed, 01 Feb 2023 05:00:48 -0000
+Message-Id: <167522764834.12516.9336413182083622307@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/joel/bmc
-user: joel
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/for-next
-    old: 82f423102f9b8bdcfaf46e91d2626a3b0f0487dd
-    new: 390f8b8da66446920b1816ace3a0463776a1a459
+  - ref: refs/heads/master
+    old: 1b98ac0fc841e8f87ea96acd9654bd40470f4ef0
+    new: 88b49402faa8f65251904dd7fa77d7475e2162fe
     log: |
-         1480bcf074d34e754990204240f8473cdbef0072 ARM: dts: aspeed: p10bmc: Enable UART2
-         4072f5baa79ad8b2ac8bcd203a7667e5f8c3426b ARM: Add wpcm450_defconfig for Nuvoton WPCM450
-         390f8b8da66446920b1816ace3a0463776a1a459 soc: nuvoton: Add SoC info driver for WPCM450
+         cc732d235126887cf445801a01ce54096820ceef dt-bindings: net: add amlogic gxl mdio multiplexer
+         9a24e1ff4326c9c25dc2daf9dab3cc93ed9b8ab9 net: mdio: add amlogic gxl mdio mux support
+         88b49402faa8f65251904dd7fa77d7475e2162fe Merge branch 'net-mdio-add-amlogic-gxl-mdio-mux-support'
          
