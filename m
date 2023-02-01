@@ -1,43 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============5334691800452357110=="
+Content-Type: multipart/mixed; boundary="===============2265721255703521059=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Wed, 01 Feb 2023 12:53:14 -0000
-Message-Id: <167525599468.11443.3194986024498211867@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Wed, 01 Feb 2023 13:01:59 -0000
+Message-Id: <167525651915.17183.12806391339832329659@gitolite.kernel.org>
 
---===============5334691800452357110==
+--===============2265721255703521059==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-user: masahiroy
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/kbuild
-    old: a753df4a3705e476accffd2d62016638bd641cb5
-    new: 6dc1e3eecc3ccb0b0194cbb1b03c510fff077869
-    log: revlist-a753df4a3705-6dc1e3eecc3c.txt
+  - ref: refs/heads/driver-core-testing
+    old: 921e672dee91af86f8f9e44a067c735ebac0744b
+    new: a69ea7a76d52353b17d7bedf43818c2578517e9e
+    log: |
+         a69ea7a76d52353b17d7bedf43818c2578517e9e maple: remove unneeded maple_bus_uevent() callback.
+         
 
---===============5334691800452357110==
+--===============2265721255703521059==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a753df4a3705-6dc1e3eecc3c.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-572dce294f2690f423b3bfa940194523060d262b kbuild: save overridden KERNELRELEASE in include/config/kernel.release
-cc900d716a5f7b71f98807428b1fcb8c53ffb3ef kbuild: deb-pkg: add --source-option=-sP
-6b6240b29defc0cc05f9c9ceb9d0723ef4aeeab5 powerpc/vdso: Filter clang's auto var init zero enabler when linking
-8fc912dfae96b95907caffa60ee90f4ee4d7f4e5 kbuild: do not automatically add -w option to modpost
-05788ba9ff250c2f0e3c9e2697936557b02ef6dc kbuild: fix trivial typo in comment
-7ac22a525ad7a748912bb3890b5aa474d224c1e4 kbuild: remove --include-dir MAKEFLAG from top Makefile
-83552a5c641e209cb75d57afb822e7c1da25c963 .gitignore: ignore *.cover and *.mbx
-1fc763eda9bfece4f75cde95c887792581a3d25d setlocalversion: do not append git commit hash if localversion* exists
-1e770f2cdb0f96e05a40c9baa7b25ac18d2b098a kbuild: add a tool to generate a list of files ignored by git
-cec6125b428e28435aa9530234afb9829a8392f6 kbuild: deb-pkg: create source package without cleaning
-198076a43322db6ba1a52946f4767509c92aec53 kbuild: rpm-pkg: build binary packages from source rpm
-db1975fedf11d9a553ca9c55013b55186ad99ddc kbuild: srcrpm-pkg: create source package without cleaning
-6dc1e3eecc3ccb0b0194cbb1b03c510fff077869 kbuild: deb-pkg: hide KDEB_SOURCENAME from Makefile
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1675256517 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1675256516-0287687f11e4d52e5b03d9b6e65488d5c5302557
 
---===============5334691800452357110==--
+921e672dee91af86f8f9e44a067c735ebac0744b a69ea7a76d52353b17d7bedf43818c2578517e9e refs/heads/driver-core-testing
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPaYsYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+PpsQAMH6OqhSX5nBtHVfE2Fp
+2AofOaNjiRahfqF7WZgVIEqW7rigJKN5KkUaXIkMiucV8lN8XlvhugKNm9EdSXZ+
+nv2asEhb75HhTP1D6itSF/p3FaIU8ClmSY9SwEYXP3ormpF7QG55FA5ItSkakFmR
+pPWnyCuHkdVtw/IXpBPosi+7Wr93hM4sX/DdeCE46T9z0lmrIeddOlx85ozDaCy+
+0vn4Xwh+/zIaEjhsUdY2czuOmI62KIaO/agG3+uLly4JiGa8YA9mbiGfsr6JzTka
+K/WNwN8XhxCn8OhpnKnisf/UhQsaDTgzlFX4G16hEOjZjQkOuQ2OFVcFWt29Ijxp
+T0nkBm/glqkCGbi7GxiyOZrvwyfyflN2qSSWsdRv0splBOTi09hKM0c5s/8P8Hjj
+yhonWfopYtr4v+vv0BeBcsjUQug6VphlOXktonbZkEWCVhWTXi4Zy5BsZRzgJdRc
+Wbh2BzwC0I5YuEhKdflyjhFepQzIkkcxlmI/Fkh4OUoJCC91MpMVjNbVKG+qEEId
+8RSt8JLlk8tl3e9qWw4Q8Pg6LR07MntUg6piB1SH0+CHDK7hH6dxvbQAvWuRuLtA
+3XCacQni1y4TWKCoU/QZxZV84zQ1amxrEncRvn6KhKNe/zho3ciu91e86KPeaxky
+jHDEaNgttJ4ovMDkHmWiRtDD
+=fikX
+-----END PGP SIGNATURE-----
+
+--===============2265721255703521059==--
