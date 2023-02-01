@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7778706888611012360=="
+Content-Type: multipart/mixed; boundary="===============3208766082854683453=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Wed, 01 Feb 2023 19:31:38 -0000
-Message-Id: <167527989860.19855.12396978696332060969@gitolite.kernel.org>
+Date: Wed, 01 Feb 2023 19:44:34 -0000
+Message-Id: <167528067459.26719.15855205103818590627@gitolite.kernel.org>
 
---===============7778706888611012360==
+--===============3208766082854683453==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,43 +17,41 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/kobject-const-2
-    old: d93346d07bfb4c2c59a327c23ca8ce52ebfb1f42
-    new: f1ab6983b0c95a9bf981379f0f8785f2e585268e
+    old: f1ab6983b0c95a9bf981379f0f8785f2e585268e
+    new: f25360916b9bd3a74617750610582980edb0f92d
     log: |
-         38187ac2aaf3b196f681d76bce6bc25d7396c708 driver core: bus: sysfs function cleanups
-         76b1166515967c1de6a43463e6f65d5326c421cb driver core: bus: bus_add/probe/remove_device() cleanups
-         7d0794361c75ec7237b576a18334981c6873741f driver core: bus: bus_register/unregister() cleanups
-         f1ab6983b0c95a9bf981379f0f8785f2e585268e driver core: bus: subsys_interface_register/unregister() cleanups
+         a813893a151183b52e8c00365e29db7a4100cccf driver core: bus: bus_get_kset() cleanup
+         f25360916b9bd3a74617750610582980edb0f92d driver core: bus: bus_register/unregister_notifier() cleanups
          
 
---===============7778706888611012360==
+--===============3208766082854683453==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1675279894 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1675280670 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1675279893-fe4441b094639621d1eab30a20f0fdea5144fa4f
+nonce 1675280670-9294a59b2bf7c6b391815cac4e1587479e930627
 
-d93346d07bfb4c2c59a327c23ca8ce52ebfb1f42 f1ab6983b0c95a9bf981379f0f8785f2e585268e refs/heads/kobject-const-2
+f1ab6983b0c95a9bf981379f0f8785f2e585268e f25360916b9bd3a74617750610582980edb0f92d refs/heads/kobject-const-2
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPavhYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+T7UP/0BIbAMkHwKlLNc5VPqx
-11sINwWgxvMFT+K6z9MvSxd6r1/NRU32BS9ceLCWZHHIw/5xxyYBOm0xmGyWEo4x
-7qHku98d87HEEGnvuDEY7ca8DekVQqMXYQHn61m152QvhiUOsAZW46glRHPp79lG
-2wPEvCmn0y93idu1t9lTjur7DmXLPEgbc8G7odOg1OFEJkLkvdWk4qEF/gp+TZYO
-5MwoCEdtslqGGBDGyNk9rCLx1vT/7jMvboJPh7sRex6fJuEAAjeUTiuNzIGzXuH4
-WWlRVQD4IZYpuhSod0XRNCy9n/8zxmRsF/dCQkIv1RdOHbMeC+vWqNYAmnbgkLrz
-6WUjbF5tmrIZGNKmMXBUazCmTaDi6vUdiQsYcKmcg/sccYtRcP0hwO7J8Ygi8wWR
-5ppWyfSntNKl1md429paOsSDYcay06hvUDMyAPX7x0xHh35wNWKnurkzw1Iocb/M
-EK2lH3ObNaQrTHD/FdEPCozxzQcVA/NDr/kuVywhDtwPstNHHwOJXF95K97YUT6T
-B5W37zMcbfArjseAZxjpDdc7//U+LbZ9w7sU4ft7VJvRhTB3d/Lh09CLzHvwXQNd
-v4N9MOgk+IzzmgGoK6AU+xxqUxh63sPIruzboE1FzEGj/nfPpo7wV5XXyuFwtRfP
-QwxidTFyhS3BL3KvdB7WyrHS
-=QkOw
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPawR4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ABkQAJRxGHVeRLU4pM3E7GPi
+qYhjCmAu0yMvDd1jUvGDQsQzdG6BXQIT31InuRF8GlvqIFkhqvNMsoSlHgzFPGZ9
+TzdoRb6otGx3vXZxevHL1rGbeyzxjykGWhi53Zu5cC9+nCUlfaigrtX3hY1yRGqq
+PuKY/cHR9YPd3pMF2UNYDtsQF5n1jg1sEhQCbgVLk30PHVHTmbAJnaOZq+hlq8vr
+2mwc+e/iVciytfXL2ljupgO3161T98IdZwkRwZ+I3Ijx5AWiw9uE3xmpQidgMLJK
+CtKy6iF3QUgieVuqO9gDHcu60vStKDMARRqsj3vmXjlgzKok0fSet+wp0uCshZaK
+Miwc1hj0SQkBWARQLruMG8Nyo4K43khsEV8kxpSBitnD8GSA8SyuPoHvZto9mdu1
+FBHuYVgYK5ZQX0vcqSMnhbGiGc0va7Y3X1/VVKcnjr/npxgHbvJxBHpwwmwjAEc9
+szaoj6QdlfFQwX+n1Uan0sEa4kjDNU+hvdHz63tHxuH3g0Gm43MxpAwAyI3zar5r
+jAdhVPg+0rYXMnH+erIFWCf3s+Uk6QSy88q4a3WxJHmSwZcQoh9Tu0B60xm5ksRK
+jUu1U0jOSDWURvA0GX9u7kQwWOZOByjvJFssHUN9+GvETDovXkMofm+4dsf/md96
+7u7PcCNgzunKAzBQXr3XHzCs
+=X/gC
 -----END PGP SIGNATURE-----
 
---===============7778706888611012360==--
+--===============3208766082854683453==--
