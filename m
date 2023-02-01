@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/matthias.bgg/linux
-Date: Wed, 01 Feb 2023 17:55:02 -0000
-Message-Id: <167527410217.19774.2082375328989617796@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/song/md
+Date: Wed, 01 Feb 2023 18:00:54 -0000
+Message-Id: <167527445455.24204.12522207804606828469@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/matthias.bgg/linux
-user: matthias.bgg
+repo: pub/scm/linux/kernel/git/song/md
+user: song
 changes:
-  - ref: refs/tags/v6.2-next-dts64
-    old: 0000000000000000000000000000000000000000
-    new: 045b0e454c4929814e597d57938e005d64116398
+  - ref: refs/heads/md-next
+    old: 2787df434da8229fbee4b0d6690e4949f4220a6b
+    new: ed821cf84e7b969fb5b63598c89d3428a30d8d31
+    log: |
+         ed821cf84e7b969fb5b63598c89d3428a30d8d31 md: use MD_RESYNC_* whenever possible
+         
