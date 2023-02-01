@@ -1,44 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============6883849917304178275=="
+Content-Type: multipart/mixed; boundary="===============6882698152542894787=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
-Date: Wed, 01 Feb 2023 07:28:23 -0000
-Message-Id: <167523650380.11292.10013822614910290660@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
+Date: Wed, 01 Feb 2023 07:28:38 -0000
+Message-Id: <167523651811.11433.17782079293302100854@gitolite.kernel.org>
 
---===============6883849917304178275==
+--===============6882698152542894787==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/palmer/linux
-user: palmer
+repo: pub/scm/linux/kernel/git/stable/linux
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-next
-    old: 75ab93a244a516d1d3c03c4e27d5d0deff76ebfb
-    new: 34278446321f7f85f3d05b480f7243c0503e5ef2
-    log: revlist-75ab93a244a5-34278446321f.txt
+  - ref: refs/notes/signatures/tar
+    old: 9204affb5023f66688581dd155294c0237763c7e
+    new: 16d3335870f8d31cd21ba63a214a7237c8d39812
+    log: |
+         16d3335870f8d31cd21ba63a214a7237c8d39812 Notes added by 'git notes add'
+         
 
---===============6883849917304178275==
+--===============6882698152542894787==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-75ab93a244a5-34278446321f.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-958ebde472811db5a130a51380a0468d44832982 riscv: move riscv_noncoherent_supported() out of ZICBOM probe
-9b8e6bb28d8bbb0a39df46e44214fafea33dcd8c riscv: cpufeature: detect RISCV_ALTERNATIVES_EARLY_BOOT earlier
-d46dd26a3aadb6bfcc049c45813242dd3262adc5 riscv: hwcap: make ISA extension ids can be used in asm
-5dd4500588b341c8282e29eb927ac8b644d14ad0 riscv: cpufeature: extend riscv_cpufeature_patch_func to all ISA extensions
-ea40f7cb8f86b07aaeee208777801a834eb99a68 riscv: introduce riscv_has_extension_[un]likely()
-936ec294f72adff2f1fa6f11be0cbc4d6b22da70 riscv: fpu: switch has_fpu() to riscv_has_extension_likely()
-3f64269c15a8d5a9e2169d8326ceb3798505bd62 riscv: module: move find_section to module.h
-20650b39f63ef2d58ec461a457f850771d4bfbdf riscv: module: Add ADD16 and SUB16 rela types
-596af22e35e2c098120b788ce1275dfc1718bcd8 riscv: switch to relative alternative entries
-3664296c154319b51261a4704ab5d5b7c4df7883 riscv: alternative: patch alternatives in the vDSO
-7df29bcf66dd6c6f5b3d04198b12620eab76b1e9 riscv: cpu_relax: switch to riscv_has_extension_likely()
-8f45a154d7817bf0df0648ef85d564117f9dcf18 riscv: KVM: Switch has_svinval() to riscv_has_extension_unlikely()
-39c0a1dd855ce5cc1d8d2966fde17d7cff418e30 riscv: remove riscv_isa_ext_keys[] array and related usage
-34278446321f7f85f3d05b480f7243c0503e5ef2 Merge patch series "riscv: improve boot time isa extensions handling"
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1675236517 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
+nonce 1675236515-96475979b56762c74e59a36cc186627219f08f08
 
---===============6883849917304178275==--
+9204affb5023f66688581dd155294c0237763c7e 16d3335870f8d31cd21ba63a214a7237c8d39812 refs/notes/signatures/tar
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPaFKUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+YxgP/0unSCYy7IYzIKdnafc3
+YUsW/HG2kcOlDzGnzpMDOysNUg6+AULiZHk6I3FXOT0bHGljWXXdYjl43h2LIfGS
+D72Q8NY+pzvX0LdIkOvxe4i2jhgfglGSwE3ThNPhqWtK1BjNWIaIZrpT4Xq1AbZ9
+eXiXboA6Rg5AOVFxaN9Cg1DNd7/rkYcK173sdET8FiZFlMByO0ii6fOU4bhzKqmb
+E0FEaD0wgAghsXN+AodWydIpW0gDRDIlpr/t36U0TBO5+qTMnCdg80xcjJiznZtb
+wPU7DlDG0kmpgc2zexi9dcgzIdN46hro1s9NvrORixgxK1SpZaPvfua95HqF/UOf
+Z65EjpsYX21xcOdZpfjG6SzT7IT6mJ+Sv/Lc590gWmhSUmodCI7BmIOJKAgoXO1s
+GhgqaiSVstOSFU0yAM5isyWj6DCNQkLCtlHoVmhgVhIPX0J1nb2wNfEBBuz5y8RM
+a7onvcC01tB8occwT6h4Gsz9tXTG4z04m/R3FHkOzMpvnXtRykSThJv6L50qcH6b
+aLvkhH0OCwOcXz+xwu4ls9pURHyaPw9Lo7TcxqSI+/Q8GDOM1cTMDlhQlboL58LR
+Ra8RCljvO/I+Wph+QeVdfHXW/pwqwPRB8P0yV/DC+tSzr1HIOtMudyejBTGMfkq8
+YuxCk+aPSIq0KBWQLx/E5cns
+=kSMu
+-----END PGP SIGNATURE-----
+
+--===============6882698152542894787==--
