@@ -1,59 +1,59 @@
-Content-Type: multipart/mixed; boundary="===============6552730810282388511=="
+Content-Type: multipart/mixed; boundary="===============4883037101870062323=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Wed, 01 Feb 2023 05:08:31 -0000
-Message-Id: <167522811189.16612.3584567144517074818@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Wed, 01 Feb 2023 05:09:57 -0000
+Message-Id: <167522819712.17130.17210153311124218848@gitolite.kernel.org>
 
---===============6552730810282388511==
+--===============4883037101870062323==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-next
-    old: dd08ebe761328de4f894a4909e01e145bc68ef4c
-    new: 5e6a51787fef20b849682d8c49ec9c2beed5c373
+  - ref: refs/heads/driver-core-next
+    old: 90be1f15c39858a4f0f4346c39fa150697d231c1
+    new: 921e672dee91af86f8f9e44a067c735ebac0744b
     log: |
-         cc3db79bb1389b3e95e84a4ef73d85f2a1cb8fe0 misc: isl29003: Use sysfs_emit() to instead of sprintf()
-         31d5f93454f2efb7152a70fb736afa858aafc6ae drivers: misc: ti-st: Fix a typo ("unknow")
-         e6acaf25cba14661211bb72181c35dd13b24f5b3 firmware: coreboot: framebuffer: Ignore reserved pixel color bits
-         5e6a51787fef20b849682d8c49ec9c2beed5c373 uuid: Decouple guid_t and uuid_le types and respective macros
+         2b8e35337605ca581f777cad73d7a6ac2ccbf6ec container_of: Update header inclusions
+         ecaef469920fd6d2c7687f19081946f47684a423 cacheinfo: Initialize variables in fetch_cache_info()
+         d931b83e62b1dd352fc326c0b1cf3be3ef19e113 cacheinfo: Make default acpi_get_cache_info() return an error
+         921e672dee91af86f8f9e44a067c735ebac0744b cacheinfo: Remove unused check in init_cache_level()
          
 
---===============6552730810282388511==
+--===============4883037101870062323==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1675228111 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1675228110-9423d071b651f4f35387a3c91ffc2d0abfe6f6f4
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1675228196 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1675228195-f04be94f6e381c894810a3312df4f69c26fa65ce
 
-dd08ebe761328de4f894a4909e01e145bc68ef4c 5e6a51787fef20b849682d8c49ec9c2beed5c373 refs/heads/char-misc-next
+90be1f15c39858a4f0f4346c39fa150697d231c1 921e672dee91af86f8f9e44a067c735ebac0744b refs/heads/driver-core-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPZ888bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+8VkP/0x+Zj5/dHHVTbkCAsRc
-JZ+z6SiGidF6bLFqtzWYDxilifZmfUdkN5AkThyJhZFwTEsRM2guAtD/i66EKqUq
-N704JVq4c6LsDTeird3pc2C/qs3FWvRDUoihKriJcHflSk8nLdIld/t/MHLePxbv
-KegrFAE/46h7/KoZp9FoeyXzXEDo0QqaJMc5YauR22As03j/rAEkyhqWjNDIQmVj
-OFhMCQiY44cjgXYOTULXbQQGMf5NnxfOSZoh13GCRLVdCZAJETVXy4hyELiK/grn
-CrBJ19981LL2UnouaRwtKui4GnxgJZlprnM3vwIGH9COYIQ28mmvZ5UZ7rTXeVlh
-PRTvA8RymJ1dme2WeRIsm2nkW9gliqo46Or4fuEBMlvSpGL6XnAV9j5ejCVXgzeT
-t3VumY0GL14Zk2Po9kUFJgQwTLvnmwsyMl5SLaX7M+r4ygrMXUn6wdEXXZnQlKc1
-CHbySFlrjQhp7PMiDhYf7iWJeRLLFMuoOSxTcjh+L+4rB6JvFmnlkg/m8G3PtueF
-QmXJSuHk3LubWdNiX8tuVhH+4atFq1xzk0UVfjv4KMqZv809N7WUcUC/DelJwAXb
-h0MIqytVA6LehnI8+/COcjc85Q3/1w/iAD7NAej1T6/s0DP3vYtJYzT661rypWIm
-IJN2mzwk7OsC+hD13P5AznB6
-=VYwz
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPZ9CQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+x0kQAKN/22BI7qdXqhsQsmoa
+t/c7+iGPem9Mf7SamznCEvln6lrO8F2AJ5yrcUbVzkVu/cMhQoy6waO95xwRpkOI
+xxf+eTFcYrVseLKk74jFISEUdC//YNeZhRLpkBYysoxyiB4IOlrD+NSE5RrTXkyq
+QH8WSa+ULc/soOLMiZc5jk6hNsdj2pCgj20QDW0TVEHhpffSS4a3t9F67/zRcI1t
+KNiN9zA6tHqSL7hc0IPqw0dwgf5oRNdvKuzu1b8FNAJjK9ajavgqopqkqCeoQPnk
+odPrmqqAcAhIzRZ49Rr9E7JITAepaBR+Lx28nFn6yDXXSLu5BKtdkhABepEdoqOX
+rNFOzcd03+mRdOjoDwmpwYynn2R9AhXoqs0XNaXYBxcyv6wNkmYn/oNkT3pNaCmg
+yxVWH11FQ2JYWJRuxfpKsR2DgzCoTmpvYoiOfZPhEHiAVl7Zku69TWj/5fhvetij
+TZllcNzyZGdhNTrHp4K27ZKkiWs/bEVIarU8nvUe6e1lsKOrp3Kp6MMvf0Xsn/BE
+uUbcq4KoXEllVdwPo6ra/7iP4PvppLHFouaiVvXOdOxukB0EvsVkL15vEW8oqROs
+8rqJpfgU55Oe7bKLsx+DiCvKiqn5ImabEXwKdVuIONDP29yyJmPviJFdm+qv4hfv
+RM9pKMVNVFej7YiEtRQ7GQj/
+=ZSo4
 -----END PGP SIGNATURE-----
 
---===============6552730810282388511==--
+--===============4883037101870062323==--
