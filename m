@@ -1,96 +1,59 @@
-Content-Type: multipart/mixed; boundary="===============5647257861553719155=="
+Content-Type: multipart/mixed; boundary="===============7778706888611012360=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/arm64/linux
-Date: Wed, 01 Feb 2023 19:30:28 -0000
-Message-Id: <167527982898.19417.712051305422867269@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Wed, 01 Feb 2023 19:31:38 -0000
+Message-Id: <167527989860.19855.12396978696332060969@gitolite.kernel.org>
 
---===============5647257861553719155==
+--===============7778706888611012360==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/arm64/linux
-user: cmarinas
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-kernelci
-    old: f57a12aa375cb6e2f80df7b38a26e76a591d68d2
-    new: ca72d58361ee2e0d246385d21474b283f67416b9
-    log: revlist-f57a12aa375c-ca72d58361ee.txt
-  - ref: refs/heads/for-next/core
-    old: 8154ffb7a51882c00730952ed21d80ed76f165d7
-    new: 7294f24db4fa5ebb5a6bde104f08d3345ecee053
-    log: revlist-8154ffb7a518-7294f24db4fa.txt
-  - ref: refs/heads/for-next/kselftest
-    old: 89ff30b9b72079a1c677500218bdc511eac246d4
-    new: a7db82f18cd3d85ea8ef70fca5946b441187ed6d
+  - ref: refs/heads/kobject-const-2
+    old: d93346d07bfb4c2c59a327c23ca8ce52ebfb1f42
+    new: f1ab6983b0c95a9bf981379f0f8785f2e585268e
     log: |
-         4365eec8190c237aea723e6ac9529789215558e1 kselftest/arm64: Don't require FA64 for streaming SVE tests
-         5f389238534ac8ca4ee3ab12eeb89d3984d303a1 kselftest/arm64: Fix enumeration of systems without 128 bit SME
-         a7db82f18cd3d85ea8ef70fca5946b441187ed6d kselftest/arm64: Fix enumeration of systems without 128 bit SME for SSVE+ZA
+         38187ac2aaf3b196f681d76bce6bc25d7396c708 driver core: bus: sysfs function cleanups
+         76b1166515967c1de6a43463e6f65d5326c421cb driver core: bus: bus_add/probe/remove_device() cleanups
+         7d0794361c75ec7237b576a18334981c6873741f driver core: bus: bus_register/unregister() cleanups
+         f1ab6983b0c95a9bf981379f0f8785f2e585268e driver core: bus: subsys_interface_register/unregister() cleanups
          
-  - ref: refs/heads/for-next/sysreg-hwcaps
-    old: 0000000000000000000000000000000000000000
-    new: bfffd469e5296b86418aacf6a0142bdef860b22d
-  - ref: refs/heads/for-next/signal
-    old: 0000000000000000000000000000000000000000
-    new: ad678be4238720384fa9e21b9b08b5540ac7ca5d
 
---===============5647257861553719155==
+--===============7778706888611012360==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f57a12aa375c-ca72d58361ee.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-4365eec8190c237aea723e6ac9529789215558e1 kselftest/arm64: Don't require FA64 for streaming SVE tests
-5f389238534ac8ca4ee3ab12eeb89d3984d303a1 kselftest/arm64: Fix enumeration of systems without 128 bit SME
-a7db82f18cd3d85ea8ef70fca5946b441187ed6d kselftest/arm64: Fix enumeration of systems without 128 bit SME for SSVE+ZA
-9b074bb1ea3a0c3fe9183076dbaa337fb0776724 Merge branches 'for-next/sysreg', 'for-next/compat-hwcap' and 'for-next/sme2' into for-next/sysreg-hwcaps
-a55d1425fb2f4000a415164ba08712de9c1b7755 arm64/sysreg: Allow enumerations to be declared as signed or unsigned
-c3ac60aa1cfeee4f3976392a9d1d32e79e78d207 arm64/sysreg: Initial annotation of signed ID registers
-ad16d4cf0b4f88b54085036102476588ea0e7626 arm64/sysreg: Initial unsigned annotations for ID registers
-82c5acefc9cb8478413610acf5904cec73ddd343 arm64/cpufeature: Always use symbolic name for feature value in hwcaps
-bfffd469e5296b86418aacf6a0142bdef860b22d arm64/cpufeature: Use helper macros to specify hwcaps
-ea776e4932302b965a2800e7905d9fa48c0d9e85 Merge branches 'for-next/tpidr2' and 'for-next/sme2' into for-next/signal
-92f14518cc43dcaebfb281dfff2fe14b87633cf4 arm64/signal: Don't redundantly verify FPSIMD magic
-0eb23720f29e4e7010c4b5195cf0d6500921a146 arm64/signal: Remove redundant size validation from parse_user_sigframe()
-4e4e93045fe1ad83dce7448690458b7f73669044 arm64/signal: Make interface for restore_fpsimd_context() consistent
-b57682b315588aab496439e317c0f433f28600ae arm64/signal: Avoid rereading context frame sizes
-f3ac48aa3a58b0d0b1104416a652dc7da9c03b4a arm64/signal: Only read new data when parsing the SVE context
-24d68345a02aee155b22deb26fde3e08332d8f88 arm64/signal: Only read new data when parsing the ZA context
-ad678be4238720384fa9e21b9b08b5540ac7ca5d arm64/signal: Only read new data when parsing the ZT context
-13c0a41d2cb2265661c7178cbe986592c906ef0b Merge branches 'for-next/sysreg', 'for-next/sme', 'for-next/kselftest', 'for-next/misc', 'for-next/sme2', 'for-next/tpidr2', 'for-next/scs', 'for-next/compat-hwcap', 'for-next/ftrace', 'for-next/efi-boot-mmu-on', 'for-next/ptrauth' and 'for-next/pseudo-nmi' into for-next/core
-5110fd22ac8ce510d94b79a72dc591bc69f5fb39 Merge branch 'for-next/sysreg-hwcaps' into for-next/core
-7294f24db4fa5ebb5a6bde104f08d3345ecee053 Merge branch 'for-next/signal' into for-next/core
-ca72d58361ee2e0d246385d21474b283f67416b9 Merge branch 'for-next/core' into for-kernelci
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1675279894 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1675279893-fe4441b094639621d1eab30a20f0fdea5144fa4f
 
---===============5647257861553719155==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8154ffb7a518-7294f24db4fa.txt
+d93346d07bfb4c2c59a327c23ca8ce52ebfb1f42 f1ab6983b0c95a9bf981379f0f8785f2e585268e refs/heads/kobject-const-2
+-----BEGIN PGP SIGNATURE-----
 
-4365eec8190c237aea723e6ac9529789215558e1 kselftest/arm64: Don't require FA64 for streaming SVE tests
-5f389238534ac8ca4ee3ab12eeb89d3984d303a1 kselftest/arm64: Fix enumeration of systems without 128 bit SME
-a7db82f18cd3d85ea8ef70fca5946b441187ed6d kselftest/arm64: Fix enumeration of systems without 128 bit SME for SSVE+ZA
-9b074bb1ea3a0c3fe9183076dbaa337fb0776724 Merge branches 'for-next/sysreg', 'for-next/compat-hwcap' and 'for-next/sme2' into for-next/sysreg-hwcaps
-a55d1425fb2f4000a415164ba08712de9c1b7755 arm64/sysreg: Allow enumerations to be declared as signed or unsigned
-c3ac60aa1cfeee4f3976392a9d1d32e79e78d207 arm64/sysreg: Initial annotation of signed ID registers
-ad16d4cf0b4f88b54085036102476588ea0e7626 arm64/sysreg: Initial unsigned annotations for ID registers
-82c5acefc9cb8478413610acf5904cec73ddd343 arm64/cpufeature: Always use symbolic name for feature value in hwcaps
-bfffd469e5296b86418aacf6a0142bdef860b22d arm64/cpufeature: Use helper macros to specify hwcaps
-ea776e4932302b965a2800e7905d9fa48c0d9e85 Merge branches 'for-next/tpidr2' and 'for-next/sme2' into for-next/signal
-92f14518cc43dcaebfb281dfff2fe14b87633cf4 arm64/signal: Don't redundantly verify FPSIMD magic
-0eb23720f29e4e7010c4b5195cf0d6500921a146 arm64/signal: Remove redundant size validation from parse_user_sigframe()
-4e4e93045fe1ad83dce7448690458b7f73669044 arm64/signal: Make interface for restore_fpsimd_context() consistent
-b57682b315588aab496439e317c0f433f28600ae arm64/signal: Avoid rereading context frame sizes
-f3ac48aa3a58b0d0b1104416a652dc7da9c03b4a arm64/signal: Only read new data when parsing the SVE context
-24d68345a02aee155b22deb26fde3e08332d8f88 arm64/signal: Only read new data when parsing the ZA context
-ad678be4238720384fa9e21b9b08b5540ac7ca5d arm64/signal: Only read new data when parsing the ZT context
-13c0a41d2cb2265661c7178cbe986592c906ef0b Merge branches 'for-next/sysreg', 'for-next/sme', 'for-next/kselftest', 'for-next/misc', 'for-next/sme2', 'for-next/tpidr2', 'for-next/scs', 'for-next/compat-hwcap', 'for-next/ftrace', 'for-next/efi-boot-mmu-on', 'for-next/ptrauth' and 'for-next/pseudo-nmi' into for-next/core
-5110fd22ac8ce510d94b79a72dc591bc69f5fb39 Merge branch 'for-next/sysreg-hwcaps' into for-next/core
-7294f24db4fa5ebb5a6bde104f08d3345ecee053 Merge branch 'for-next/signal' into for-next/core
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPavhYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+T7UP/0BIbAMkHwKlLNc5VPqx
+11sINwWgxvMFT+K6z9MvSxd6r1/NRU32BS9ceLCWZHHIw/5xxyYBOm0xmGyWEo4x
+7qHku98d87HEEGnvuDEY7ca8DekVQqMXYQHn61m152QvhiUOsAZW46glRHPp79lG
+2wPEvCmn0y93idu1t9lTjur7DmXLPEgbc8G7odOg1OFEJkLkvdWk4qEF/gp+TZYO
+5MwoCEdtslqGGBDGyNk9rCLx1vT/7jMvboJPh7sRex6fJuEAAjeUTiuNzIGzXuH4
+WWlRVQD4IZYpuhSod0XRNCy9n/8zxmRsF/dCQkIv1RdOHbMeC+vWqNYAmnbgkLrz
+6WUjbF5tmrIZGNKmMXBUazCmTaDi6vUdiQsYcKmcg/sccYtRcP0hwO7J8Ygi8wWR
+5ppWyfSntNKl1md429paOsSDYcay06hvUDMyAPX7x0xHh35wNWKnurkzw1Iocb/M
+EK2lH3ObNaQrTHD/FdEPCozxzQcVA/NDr/kuVywhDtwPstNHHwOJXF95K97YUT6T
+B5W37zMcbfArjseAZxjpDdc7//U+LbZ9w7sU4ft7VJvRhTB3d/Lh09CLzHvwXQNd
+v4N9MOgk+IzzmgGoK6AU+xxqUxh63sPIruzboE1FzEGj/nfPpo7wV5XXyuFwtRfP
+QwxidTFyhS3BL3KvdB7WyrHS
+=QkOw
+-----END PGP SIGNATURE-----
 
---===============5647257861553719155==--
+--===============7778706888611012360==--
