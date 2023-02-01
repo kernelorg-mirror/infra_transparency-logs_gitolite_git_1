@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Wed, 01 Feb 2023 16:13:20 -0000
-Message-Id: <167526800002.14206.14321975174954134682@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
+Date: Wed, 01 Feb 2023 16:16:00 -0000
+Message-Id: <167526816055.17948.614926870549193401@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/maz/arm-platforms
+user: maz
 changes:
-  - ref: refs/heads/fileWBTyO9
+  - ref: refs/heads/kvm-arm64/nv-6.3-prefix
     old: 0000000000000000000000000000000000000000
-    new: 36acae192d65195342d02595f45e404cc0f2eca0
+    new: f05d5204b5167c04547810aabe0702acff1ef0dc
