@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Wed, 01 Feb 2023 17:32:00 -0000
-Message-Id: <167527272012.4315.17004118773294278257@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ti/linux
+Date: Wed, 01 Feb 2023 17:34:17 -0000
+Message-Id: <167527285735.5076.7480156089643049353@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
-user: broonie
+repo: pub/scm/linux/kernel/git/ti/linux
+user: vigneshr
 changes:
-  - ref: refs/heads/for-next
-    old: fa1e6024a09cc22ef84fe6d338f88da612a873b4
-    new: e33d4c4f1e2de74cfea556d75eef0886d5b7d472
+  - ref: refs/heads/ti-k3-dts-next
+    old: 175357d1deedfacba8770edc706c6d96c8a09b2b
+    new: 9150819794d2fb2a9cf2954f072e728314853065
     log: |
-         36acae192d65195342d02595f45e404cc0f2eca0 ASoC: codecs/jz4760: add digital gain controls
-         e33d4c4f1e2de74cfea556d75eef0886d5b7d472 Merge remote-tracking branch 'asoc/for-6.3' into asoc-next
+         cff83673d7088e04106b9db88da3f370e9c89629 dt-bindings: arm: ti: Add binding for AM69 Starter Kit
+         313bfa3e8f45d49c4fdd3288ea614addbde577a1 arch: arm64: dts: Add support for AM69 Starter Kit
+         9150819794d2fb2a9cf2954f072e728314853065 arm64: dts: ti: Makefile: Rearrange entries alphabetically
          
