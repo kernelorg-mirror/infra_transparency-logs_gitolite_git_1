@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Wed, 01 Feb 2023 15:23:15 -0000
-Message-Id: <167526499535.14286.17227158266706890970@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
+Date: Wed, 01 Feb 2023 15:32:14 -0000
+Message-Id: <167526553490.20213.9039871842538471305@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/robh/linux
+user: robh
 changes:
-  - ref: refs/heads/20230201_peter_ujfalusi_asoc_sof_topology_regression_fixes_for_next
+  - ref: refs/heads/dtc
     old: 0000000000000000000000000000000000000000
-    new: 0849839b7a384983db7d430bcd0548e5e79d9bc1
+    new: d2782e1dcd3c4ad28ff9a7aa721c51ac0269f2d5
