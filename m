@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-Date: Wed, 01 Feb 2023 00:04:24 -0000
-Message-Id: <167520986489.1958.13240116847860860304@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Wed, 01 Feb 2023 00:05:13 -0000
+Message-Id: <167520991327.3782.5253154028288937451@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-user: vudentz
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
   - ref: refs/heads/master
-    old: 70fe6c1eb82273789ef58cb188cf57da02be575e
-    new: d2e9c401579a6500af2c8d71c8cecd6f4e52f2c4
+    old: 58706f7fb045b7019bada81fa17f372189315fe5
+    new: c0b67534c95c537f7a506a06b98e5e85d72e2b7d
     log: |
-         d2e9c401579a6500af2c8d71c8cecd6f4e52f2c4 Bluetooth: MGMT: add CIS feature bits to controller information
+         e5ae8803847b80fe9d744a3174abe2b7bfed222a cgroup/cpuset: Fix wrong check in update_parent_subparts_cpumask()
+         c0b67534c95c537f7a506a06b98e5e85d72e2b7d Merge tag 'cgroup-for-6.2-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/cgroup
          
