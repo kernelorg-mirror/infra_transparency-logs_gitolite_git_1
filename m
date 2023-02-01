@@ -1,25 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/song/md
-Date: Wed, 01 Feb 2023 16:35:40 -0000
-Message-Id: <167526934080.30595.6907121720924921045@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
+Date: Wed, 01 Feb 2023 16:35:48 -0000
+Message-Id: <167526934835.30675.10834488828528158432@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/song/md
-user: song
+repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
+user: snitzer
 changes:
-  - ref: refs/heads/md-next
-    old: 1039f5b0d20252a957d3eadd955c30be30c09dcd
-    new: 2787df434da8229fbee4b0d6690e4949f4220a6b
+  - ref: refs/heads/for-next
+    old: 22c40e134c4c7a828ac09d25a5a8597b1e45c031
+    new: f2852426a85c6299ea9155b68f57e321889d1173
     log: |
-         e152a05fa054170c05f1d5e04e93e2e75ea11405 loop: Improve the hw_queue_depth kernel module parameter implementation
-         1d1f25bfda432a6b61bd0205d426226bbbd73504 md: don't update recovery_cp when curr_resync is ACTIVE
-         d19329133d25ad3dc32f8a62635692cb2f189014 md: Factor out is_md_suspended helper
-         72adae23a72cb12e2ef0dcd7c0aa042867f27998 md: Change active_io to percpu
-         07dbb13542cc022677b64acc6e0bd0d8a2cbf4dc md: Free writes_pending in md_stop
-         48827cecbd5913bd76e4baf343051c51964cc490 md: use MD_RESYNC_* whenever possible
-         2787df434da8229fbee4b0d6690e4949f4220a6b md/raid0: Add mddev->io_acct_cnt for raid0_quiesce
+         f50714b57aecb6b3dc81d578e295f86d9c73f078 dm flakey: don't corrupt the zero page
+         8eb29c4fbf9661e6bd4dd86197a37ffe0ecc9d50 dm flakey: fix a bug with 32-bit highmem systems
+         0e766389cedc0643fc071aef76261bdb3d28aa7e dm flakey: fix logic when corrupting a bio
+         53c118c116b71e11dd0e920e720ed422969f06a7 dm ioctl: drop always-false condition
+         bebb3352ca8aa76a9ce4f1bef4254dd6f8a0bdcf dm crypt: Slightly simplify crypt_set_keyring_key()
+         f2852426a85c6299ea9155b68f57e321889d1173 dm integrity: Remove bi_sector that's only used by commented debug code
          
