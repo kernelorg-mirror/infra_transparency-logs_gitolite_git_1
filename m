@@ -1,55 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============2799414465283803758=="
+Content-Type: multipart/mixed; boundary="===============0567311777817316253=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Wed, 01 Feb 2023 15:22:43 -0000
-Message-Id: <167526496398.13992.293410741625567171@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Wed, 01 Feb 2023 15:22:54 -0000
+Message-Id: <167526497485.14113.8626877394408507028@gitolite.kernel.org>
 
---===============2799414465283803758==
+--===============0567311777817316253==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.3
-    old: 86b753a86f6dc31ca9bccb489ebde1968d26c89b
-    new: c2bc65274a307e11743d0f56a762f8e57f279b9e
-    log: revlist-86b753a86f6d-c2bc65274a30.txt
+  - ref: refs/heads/for-next
+    old: a1ee31e81479cb28b28ab5fba14a9bc3a18d29e3
+    new: fa1e6024a09cc22ef84fe6d338f88da612a873b4
+    log: revlist-a1ee31e81479-fa1e6024a09c.txt
 
---===============2799414465283803758==
+--===============0567311777817316253==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1675264962 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1675264961-ebfaefbcd464a3c6431d9dcb6314b81140461ed9
-
-86b753a86f6dc31ca9bccb489ebde1968d26c89b c2bc65274a307e11743d0f56a762f8e57f279b9e refs/heads/asoc-6.3
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmPag8IACgkQJNaLcl1U
-h9AjgAf/Sx4GRiE0Tv6KCPC/LDnyzg/C3KSuHRo+fk+/gRJNNTdK8cVQMtDC441J
-rxmJnRJ+oep2Lmys0LV3vOfP0N68jy30bIB1e/Oz7G7uf7zDR9DQ3E9IFFyuPH9w
-4Mm5C2bBBj2JJZ+cfZOIyhBAYpP4ynsT20Z9di88He7UNfbWkL7rKAuxfa56jZHR
-/Y4v1Kdupg0LGdoC1UtUD5s/twssHjPhHEx8GxdkVwh2N+JNFLP8nRcUUqESsehR
-rJyS3KW9dfCmU/9Z9GEd+Lm0kvoghbFHZ4Hq40ZzLoQU0ANUM2Fiyri0FGWnlkQq
-hBfpZeJIZscU3YTD2OzUGN6Hrobxrg==
-=5c+6
------END PGP SIGNATURE-----
-
---===============2799414465283803758==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-86b753a86f6d-c2bc65274a30.txt
+Content-Disposition: attachment; filename=revlist-a1ee31e81479-fa1e6024a09c.txt
 
 68a410aff971e59b9e94aa22c4c5cb6a6af30729 ASoC: rsnd: check whether playback/capture property exists
 49123b51cd896e00b256a27c2ce9e6bfe1bbc22f ASoC: rsnd: fixup #endif position
@@ -66,5 +41,6 @@ c20bc7c9ce3a3ad8d51b26823e2ad2ba9b8bb447 ASoC: rsnd: tidyup rsnd_dma_addr()
 beab0aad7276795952d4bb52f88fe6bd2406404c ASoC: rsnd: dma.c: tidyup rsnd_dma_probe()
 f76fec606d07b43d21475a0dda6294613379e224 ASoC: dt-bindings: renesas: add R8A779G0 V4H
 c2bc65274a307e11743d0f56a762f8e57f279b9e ASoC: rsnd: add R-Car Gen4 Sound support
+fa1e6024a09cc22ef84fe6d338f88da612a873b4 Merge remote-tracking branch 'asoc/for-6.3' into asoc-next
 
---===============2799414465283803758==--
+--===============0567311777817316253==--
