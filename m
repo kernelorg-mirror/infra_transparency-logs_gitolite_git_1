@@ -1,24 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Wed, 01 Feb 2023 16:35:54 -0000
-Message-Id: <167526935438.30794.99906334846582997@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/ext2/e2fsprogs
+Date: Wed, 01 Feb 2023 16:39:29 -0000
+Message-Id: <167526956957.31956.17406600047010682565@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
-user: snitzer
+repo: pub/scm/fs/ext2/e2fsprogs
+user: tytso
 changes:
-  - ref: refs/heads/dm-6.3
-    old: 22c40e134c4c7a828ac09d25a5a8597b1e45c031
-    new: f2852426a85c6299ea9155b68f57e321889d1173
+  - ref: refs/heads/maint
+    old: 0bc1e30fcd5fb174d029f2b52921f9138e0efb33
+    new: 42cb22f40c96f7df796436aba979721b88cf2105
     log: |
-         f50714b57aecb6b3dc81d578e295f86d9c73f078 dm flakey: don't corrupt the zero page
-         8eb29c4fbf9661e6bd4dd86197a37ffe0ecc9d50 dm flakey: fix a bug with 32-bit highmem systems
-         0e766389cedc0643fc071aef76261bdb3d28aa7e dm flakey: fix logic when corrupting a bio
-         53c118c116b71e11dd0e920e720ed422969f06a7 dm ioctl: drop always-false condition
-         bebb3352ca8aa76a9ce4f1bef4254dd6f8a0bdcf dm crypt: Slightly simplify crypt_set_keyring_key()
-         f2852426a85c6299ea9155b68f57e321889d1173 dm integrity: Remove bi_sector that's only used by commented debug code
+         af37d677e507a97f4ade39b247cf7ff26d9e0624 libext2fs: reject opening a file system where the blocks per group < 8
+         a22e7f16d0f4b894e8408cf21990c89b12064a25 Add option to enable/disable largefile support
+         674d844c52cba11a5a80cb864161b97f1529fe5c ext2fs: Use 64bit lseek when _FILE_OFFSET_BITS is 64
+         c4efea445e952c06a410cc3b0b89763cc4650fb7 fuse2fs: support "fuse2fs -o offset=<bytes>"
+         5c04fdf8ce4dfc35cd36084d7feeca1a11dfedab badblocks: print a more explanatory message when a parameter is too large
+         513e559bfccc1a909900a47841a4367bdfff1470 badblocks: fix mis-printed error from block size check
+         8c48a46ebd63d213ab8fb55564f7a1ba5782efbe badblocks: separate and improve error messages for blocks_at_once
+         42cb22f40c96f7df796436aba979721b88cf2105 badblocks: fix operation with large-ish block sizes and/or counts
          
