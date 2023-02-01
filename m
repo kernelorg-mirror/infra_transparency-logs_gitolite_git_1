@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/ethtool/ethtool
-Date: Wed, 01 Feb 2023 17:49:41 -0000
-Message-Id: <167527378122.16025.15462429577586831065@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mmind/linux-rockchip
+Date: Wed, 01 Feb 2023 17:52:32 -0000
+Message-Id: <167527395242.18455.12087712767553177816@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/ethtool/ethtool
-user: mkubecek
+repo: pub/scm/linux/kernel/git/mmind/linux-rockchip
+user: mmind
 changes:
-  - ref: refs/heads/master
-    old: f546f15e68bd3af6a0983b6ef9e1b8eb11190deb
-    new: 97bbcba3ec8dbd206fdab615f8be504ecc5cca5f
-    log: |
-         97bbcba3ec8dbd206fdab615f8be504ecc5cca5f pretty: fix RSS attribute constants
-         
+  - ref: refs/tags/v6.3-rockchip-dts32-1
+    old: 0000000000000000000000000000000000000000
+    new: 34ee7550e869a88eae4e192efab136bbebe49c47
