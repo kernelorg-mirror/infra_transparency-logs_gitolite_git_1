@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============3383432515129426550=="
+Content-Type: multipart/mixed; boundary="===============0241216266871131888=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Thu, 02 Feb 2023 15:37:00 -0000
-Message-Id: <167535222008.31216.7759559496814398960@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Thu, 02 Feb 2023 15:37:05 -0000
+Message-Id: <167535222584.31346.17581423639871646936@gitolite.kernel.org>
 
---===============3383432515129426550==
+--===============0241216266871131888==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.3
+  - ref: refs/heads/asoc-6.3
     old: 2a096315be7d8ccad883203876c4b53e7b024f12
     new: 1d78f19d90d1932c83d8c96c6f86fbb06c05e29a
     log: |
@@ -29,28 +29,28 @@ changes:
          1d78f19d90d1932c83d8c96c6f86fbb06c05e29a Fix default DMIC gain on AMD PDM drivers
          
 
---===============3383432515129426550==
+--===============0241216266871131888==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1675352218 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1675352218-a072fc2cff19b1d713c074207f6d2cfdb69c54fb
+pusher C3F436CA30F5D8EB 1675352224 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1675352223-7580e5d8208dbfe3f20a432949c83997f34c7f16
 
-2a096315be7d8ccad883203876c4b53e7b024f12 1d78f19d90d1932c83d8c96c6f86fbb06c05e29a refs/heads/for-6.3
+2a096315be7d8ccad883203876c4b53e7b024f12 1d78f19d90d1932c83d8c96c6f86fbb06c05e29a refs/heads/asoc-6.3
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmPb2JoACgkQJNaLcl1U
-h9DF7Qf/U3jrOlAuyIMOVEGHhx0pM9vV5QmV2OIMJXy8FxNJjv5zIA7fztZeLLUe
-pRQTBgua9vEQRRNBWnkVoBqnZSBkPh2S5EzMM3Wo9Zt5NpNMWSHO2kwobbaECoaO
-QIXAweYbBYsTFZYrk5yHlqv9eoXbXA1TvmkHrkAy4KVF+IUHsPID/bi9nxPUNiGe
-ckahXQhVFvw0C8RSJPZO06APIADC/idWIM0iYDUlM4hR/TBu0GzPi9zPjIQwptKA
-FbHNj4B1HIQmSMHzkXq01ozruIUghL6YvY4AdrI1pFdKgSLrD93nTy7tWcxoQOXH
-tYalJhtZVZOjNuipeCq5o70uj8G8aQ==
-=BkNF
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmPb2KAACgkQJNaLcl1U
+h9BVIAf9FppRxXOsLN7ub+KFpOg2MtEwRtPwSrwd2+AzQqZSUIMHJjG1oQ9o2Aw4
+lDExTy2CBh9jW5g5xyzN1VEq4cQzcmpcSYOelBcJ+btZxvQLAbUK1rGPlRG+Hcrr
+i9XkwlTXie0PJnhn9ZiWjxiMWs3eD0Vgy52e/Nl8lhbZVHMlG2oqmu4lFPjqYNdv
+d/1ossPMSBsnF6e5MyBRq1eewEBpIl2pW21ccTfaV7cYVbKhA9WQFN2/H64jLri0
+2aONNTNyWtnceNLyIIfFyxQZCDttgXqE7+KmyQKBa63IBVbjztjH0DMoUsFYfwvw
+R3wylWY6Ocz9VlQUh/QfUBe2D9DQug==
+=YV77
 -----END PGP SIGNATURE-----
 
---===============3383432515129426550==--
+--===============0241216266871131888==--
