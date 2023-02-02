@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Thu, 02 Feb 2023 17:31:42 -0000
-Message-Id: <167535910215.12343.17761336961306909540@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/efi/efi
+Date: Thu, 02 Feb 2023 17:33:12 -0000
+Message-Id: <167535919266.12855.17406023744130202873@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
-user: broonie
+repo: pub/scm/linux/kernel/git/efi/efi
+user: ardb
 changes:
-  - ref: refs/tags/sent/arm64-kselftest-sve-za-fa64-v1
-    old: 0000000000000000000000000000000000000000
-    new: 2f6605de494565b2f1640857c205f9b06bf4c59c
+  - ref: refs/heads/urgent
+    old: e1fabbc83cb1dd4ba63932faa86c9cacb8bf791e
+    new: 636ab417a7aec4ee993916e688eb5c5977570836
+    log: |
+         636ab417a7aec4ee993916e688eb5c5977570836 efi: Accept version 2 of memory attributes table
+         
