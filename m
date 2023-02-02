@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Thu, 02 Feb 2023 16:49:03 -0000
-Message-Id: <167535654348.15345.4676511233967383782@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Thu, 02 Feb 2023 16:52:08 -0000
+Message-Id: <167535672806.17880.3318287776090011336@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jic23/iio
-user: jic23
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/heads/fixes-togreg
-    old: 6327a930ab7bfa1ab33bcdffd5f5f4b1e7131504
-    new: d9b540ee461cca7edca0dd2c2a42625c6b9ffb8f
+  - ref: refs/heads/bleeding-edge
+    old: ecfa35aafad74dbe7f218732ddef24b622d4531b
+    new: f24bb5858fe63bcdab4f0680e7648f907304789c
     log: |
-         d9b540ee461cca7edca0dd2c2a42625c6b9ffb8f iio: adis16480: select CONFIG_CRC32
+         d72e3f28acfd1c078eb223a6e030840a628edd2c thermal: intel: quark_dts: Use generic trip points
+         f24bb5858fe63bcdab4f0680e7648f907304789c Merge branch 'thermal-intel' into bleeding-edge
          
