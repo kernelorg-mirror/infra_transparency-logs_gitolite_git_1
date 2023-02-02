@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mani/mhi
-Date: Thu, 02 Feb 2023 17:16:22 -0000
-Message-Id: <167535818240.2228.10877449317887550333@gitolite.kernel.org>
+Date: Thu, 02 Feb 2023 17:17:35 -0000
+Message-Id: <167535825561.2673.13056233054796788656@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,5 +12,5 @@ repo: pub/scm/linux/kernel/git/mani/mhi
 user: mani
 changes:
   - ref: refs/tags/mhi-for-v6.3
-    old: 22fd90378595ffa6749f17f3f161160a5f3ed11a
-    new: 0000000000000000000000000000000000000000
+    old: 0000000000000000000000000000000000000000
+    new: 22fd90378595ffa6749f17f3f161160a5f3ed11a
