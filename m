@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1506889641111714847=="
+Content-Type: multipart/mixed; boundary="===============0186939944138132261=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Thu, 02 Feb 2023 10:15:08 -0000
-Message-Id: <167533290809.7560.5944615454974744912@gitolite.kernel.org>
+Date: Thu, 02 Feb 2023 10:16:00 -0000
+Message-Id: <167533296097.9179.6733996897441765168@gitolite.kernel.org>
 
---===============1506889641111714847==
+--===============0186939944138132261==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,45 +17,44 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-testing
-    old: 45bf39f8df7f05efb83b302c65ae3b9bc92b7065
-    new: 89e7252d6c7e7eeb31971cd7df987316ecc64ff5
+    old: 89e7252d6c7e7eeb31971cd7df987316ecc64ff5
+    new: 1f6d59f7f82d3b0a629326c6d043273a84bfc61f
     log: |
-         ba883de971d1ad018f3083d9195b8abe54d87407 usb: musb: mediatek: don't unregister something that wasn't registered
-         ec5499d338ece9db9b7590649d3cfcc4d7f9603d xhci: split out rcar/rz support from xhci-plat.c
-         56774e274574af8396d7b16618363aabe3a5582d dt-bindings: usb: sunxi-musb: add F1C100s MUSB compatible string
-         d4b2c2852091c9e1c1fa03553e81f5712471578c usb: musb: sunxi: add support for the F1C100s MUSB controller
-         196774960ba176f1f5a506dc6b5b51fd0b2e0e9b usb: musb: sunxi: Introduce config struct
-         89e7252d6c7e7eeb31971cd7df987316ecc64ff5 usb: gadget: configfs: Restrict symlink creation is UDC already binded
+         fb9a1b80e68b2a16ff41b644e2a2e559461c6440 dt-bindings: usb: Add Cypress cypd4226 Type-C controller
+         f510b0a3565b9231e828e23a7e0f9790b97edf96 i2c: nvidia-gpu: Add ACPI property to align with device-tree
+         6d9e0669099f59473799f529b3c19a55fa164c92 usb: typec: ucsi_ccg: Add OF support
+         430b38764fbb931c6dbd1af13c8b2e4508994662 i2c: nvidia-gpu: Remove ccgx,firmware-build property
+         1f6d59f7f82d3b0a629326c6d043273a84bfc61f arm64: defconfig: Enable UCSI support
          
 
---===============1506889641111714847==
+--===============0186939944138132261==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1675332906 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1675332959 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1675332905-330bf89ab5eea3ad1e34b30a15a9d510f5eee568
+nonce 1675332958-22982956dcd8b1173e4808009848f5fa0b5d4349
 
-45bf39f8df7f05efb83b302c65ae3b9bc92b7065 89e7252d6c7e7eeb31971cd7df987316ecc64ff5 refs/heads/usb-testing
+89e7252d6c7e7eeb31971cd7df987316ecc64ff5 1f6d59f7f82d3b0a629326c6d043273a84bfc61f refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPbjSobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+nn0P/RHpa2FCRryDtOxRzUK3
-n7Ep3NUT4SkSvj8cjiKjNTu33j8RdD8Oyaab92Viazc3MlGdFLx4zyJBjPMNCj3I
-NMTTd3Cr/2gnK76IVgk4zIcPRwMQgZxoeRPU1qkz8QC6Li4yVFYeKFAeVsheD6u0
-CCSI57kxA28cR38NKKrDRHRlhBQpZXlHV2Uxxz65kOnjKv5aufZiuRGvQAgbCqlW
-2HX46ZDzOk0IlKnrvSaT/S9lrvt++K8UJIMs0lRr88L/sQyw+jdfZYDdMBDZlNaX
-9aqD3kDih9omTXeoeZOOwhh0F4k0+Pq7KPkKjXJ3hPuKuNvPFdizR3GwU5K+znHo
-AvZPVvJ8EeVeMrEnZ20IQaT1K8IO3NEdmuL7blhKv98BJ+H4o6qzggFp3N9RcTxl
-UxxshZdb06Ddn9PfcSrx7dFJck3Rx2TVUF/CwDDcvRCEXUgxAqmPyD2cxptnSWaB
-eLhhgYTIG0Qb0MTSOaSXtgsndCKlEaP3XZFKEyLz2BmNERBwhQzrv1a/sbFsjGyq
-v29nTs1kZbNUI6YbqBpU5NA4odD6pQ6VsbcPtgGksysGJByEqBxR3PdzYo6kAgvS
-LOA+WYFLq+Dgrff1wwUM0zknUaTm1orcPfr6ukm4mtOZF1eiwB3HX2PgooRHJWFg
-w4gpWxK3yBW2IjVgD9dwZ2V+
-=BwgD
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPbjV8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+XhEQALOyPTupbfAyn4QOjYcz
+KoBZlx1W5v1agK2DwMbcbqluztTmO+4xJ1mDVhI2h/wnnI3GmLjUQnyYQYufZW9R
+vxS1eE65AMJD35EOECjSjKYLctbUYoQOCOshAhClh9PwmFOWPdrQb2mC7YirfAoK
+fRDCbPG4JvTY4S3fVlXvV1I3GbBjR84wg3eLR9Xk1trmNOrU97RoRoxIuv76WXqL
+9Ccl3YmkkET5Hb1wKcP+GB19vcDUrkhwJ0nAFYrFPRNpJxQxRjRSwYhOkkmeSQar
+jqtBY5K6T/1nVzRYoGbDzp27+DpBbQnco6oihr4iPteL5xO2fCIoIojRLq8C//X9
++oaCnzxfi/PF9WVr6djsr4UXq/1ZZG/oXaAgU7pGkuQptuX9azpxGEnAG8xO5UVU
+UZIgogWOVJ/1/zjOZftY4ek+WrU3JaUhnCibgzpalRJohCUAuASReYXJRTr+fZ5V
+eI/l0NOnUqDZ6hySySbOroX5JsGzGCXBWpyV/rg2RGaao8J1+gY5Ycl5NKgmDtkx
+xMuOs1S3vKV6rkGTA3eR5yUTmsJJmnqUeXWK88LeIxWMXcCPOyInpd3wOxFUkW3a
+5OhAQxP9J5StfhnItcXLObmI5XpWmRasFKUWMaMAXyk3AwuiVbuZTBo0zUvS/Jud
+EfBCeq2n57SDHo8DGu59NyeB
+=+3w/
 -----END PGP SIGNATURE-----
 
---===============1506889641111714847==--
+--===============0186939944138132261==--
