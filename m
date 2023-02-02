@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Thu, 02 Feb 2023 15:37:34 -0000
-Message-Id: <167535225493.31693.12502573385756491015@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
+Date: Thu, 02 Feb 2023 15:43:14 -0000
+Message-Id: <167535259401.2634.3267496294624886852@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
+user: shuah
 changes:
-  - ref: refs/heads/fileFN8ZEj
+  - ref: refs/tags/linux-kselftest-kunit-fixes-6.2-rc7
     old: 0000000000000000000000000000000000000000
-    new: 2e7c6652f9b86c01cbd4e988057a746a3a461969
+    new: bae56832c449ee9d7ddfe2c714b00438652404fd
