@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0471245157462656542=="
+Content-Type: multipart/mixed; boundary="===============4933820331659400329=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Thu, 02 Feb 2023 08:18:50 -0000
-Message-Id: <167532593084.15711.15183270191249144622@gitolite.kernel.org>
+Date: Thu, 02 Feb 2023 08:19:05 -0000
+Message-Id: <167532594518.15876.6759444078989823320@gitolite.kernel.org>
 
---===============0471245157462656542==
+--===============4933820331659400329==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/debugfs_cleanup
-    old: d22a837189d720a679f16eb2b20842d77e41de5a
-    new: 4114994f887e46f98ce64a9d31d15daf2652992a
-    log: revlist-d22a837189d7-4114994f887e.txt
+  - ref: refs/heads/debugfs_lookup_fix
+    old: c395ade38ae2f2aa40ef8006c3f0f974b12e7db7
+    new: 563645679b37db6bf6b735d999f3180fe007c73a
+    log: revlist-c395ade38ae2-563645679b37.txt
 
---===============0471245157462656542==
+--===============4933820331659400329==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1675325928 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1675325943 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1675325928-40261a75b4542713d877a81648121f55da6aa76d
+nonce 1675325942-dd11656ac84acedc2fd125002673748d07824c5e
 
-d22a837189d720a679f16eb2b20842d77e41de5a 4114994f887e46f98ce64a9d31d15daf2652992a refs/heads/debugfs_cleanup
+c395ade38ae2f2aa40ef8006c3f0f974b12e7db7 563645679b37db6bf6b735d999f3180fe007c73a refs/heads/debugfs_lookup_fix
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPbcekbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+2JoP/2QOmyALAcRTWNF0SiIL
-oLAnJ3a4HTugaObc5F9KLFqkaMnAeC71EdK2RuFVC6jWwzpuUL0VJ/5J+FEVzGUk
-mCcCOjvXhyZ0NBmJMb++nWPLdJbydH0wD0LXZ6fBdDiUWG4PCk/EUAI5sbyPHszi
-ZVhZ/nZvj1be5PuhrJytHYlUoOE9pmjDBnbS3Gxln66n7RyyPN7NFQpvu8fDbpzf
-cR8Cr0aG0Uq96TR3GD+66/JAEPCsW+DVf4EolFq3HuNT9iSbUDrmUK1CZqJt9C1z
-aYZo1fpb2NklRaG8GngF0km4FZpCqa4qiuotCp5BPJ0khRJTvOSsVE+3Sx3LvYAN
-xeB2KGjmgMBgPYpkoXKkRdy/yvNgQpJ+jiu46Qozrd4C/0+pQsvt1R/XVDwY+IT5
-yrNaeT6RL43I1VBj3bUEhSZjRK1xvbhqd6ZRqIjujK1utU4+FRVbS3XGCZjQ4zZB
-hyTja9kFKHXRSkBQvHIPkWL9JZP7Cr6JO9D/9TZxE4cWly+5jwAkb/vOpq3LIT1q
-OtTTdw188tn+zqABmKKhe1zSif+uAgbbbYpLUCix7Plq2LFj3JxmsBFPf5vw3ox2
-5vOLM8gP47CUD9Ya0NnOFJGgLqXAmCQ19apNtIXK8/tFoAb2AlZnruX3c1a0i+xz
-u/vwc2FcrIwrYY49TO///597
-=Mx5v
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPbcfcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+71cP/0f+H0VWuJxnOqmvkP+b
+CqcbfMJ+Zgy0uYBAIrc0CaGZab901gRQnrCdT9MO6Lb0DC/GZocdlfu0uDsUIP+6
+Jll1we5rpIrC27RcwzPJl8CnTRrZcj0eG93qE2CpMrqOsIkgjjFJGBkHQnFDOuiC
+smUs5ezv8Mr+K7NB0v8ehQejWCrJtxg2cLxaKH9NmtYSqh43vdTGkbLJsOfG6Mia
+HjUl25dVfOXRqAA8GDNbYXkMdDRFZY75TJL955qZ90bapAUEfYqXquWwJgLFoQOf
+B5PbjhPfODeXBobMRXI1+a63sDJLKzz4/4L1lXHfI/Y5sLmabMqBw/VhmKuleTpk
+u+b++QIGQdVpPe/32cwRJDTrIHCsJ0URJacxRV1juBWoUGn4y9sfzuWUSWSExZiD
+dVuH5EoMRYf9RVd2hDQUQfqmHkQz9M4+0zJmR6hksQvl+ohVgcTjWgHVB4XzodkM
+oxqRHLtjzF/Ttmnz/BwI3/7Y29j8MJurr7cAmargykUXYfhEZYepo0soLM7lCswO
+OgzwIBy9dEPs1ywboYG6TNb6GYszDO5eK6H3fTDQFfplnIbqHTe6Dv+o4dH0tNQs
+dY97aTdx30ik/f59EWlBqKbuPpS+osW3zh4lsdQMBHw877hmbeUrfcP1m0wsiwqM
+eIhWtua3nqzLaUoLLauFtzoo
+=sZdU
 -----END PGP SIGNATURE-----
 
---===============0471245157462656542==
+--===============4933820331659400329==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d22a837189d7-4114994f887e.txt
+Content-Disposition: attachment; filename=revlist-c395ade38ae2-563645679b37.txt
 
 a77ad4bf792652340ab334956e69b46ec2fdaefb of: device: make of_device_uevent_modalias() take a const device *
 fa838c8ce53714eba788ea877520788bc72c27bd i3c: move dev_to_i3cdev() to use container_of_const()
@@ -83,12 +83,38 @@ a69ea7a76d52353b17d7bedf43818c2578517e9e maple: remove unneeded maple_bus_uevent
 b4ce0bf7ab02c46676276ca1e8d4c5789528b439 driver core: platform: removed unneeded variable from __platform_driver_probe()
 40b3880dc29b89c39139eba11eba2b3107dc2e38 driver core: platform: simplify __platform_driver_probe()
 37e98d9bedb50644654fd196e38acad49903fadc driver core: bus: move lock_class_key into dynamic structure
-08833b638f3481b5bc31032b3259f40850677f96 driver core: remove devm_device_add_groups()
-d76e78e8cbdea52e73a06100780a510790a81ffb sysfs: do not create empty directories if no attributes are present
-f2a52170ef0dbcce0dcea1241745815e2ed8d0f6 soundwire: sysfs: move sdw_slave_dev_attr_group into the existing list of groups
-d460df841f22b01c119666cb20d7286c492c414f soundwire: sysfs: cleanup the logic for creating the dp0 sysfs attributes
-3a91685d0397cf73d5711e252cec0a81c9e24be9 soundwire: sysfs: have the driver core handle the creation of the device groups
-156ad6931fd4d4b08aa9620aa8ea26f64714dad6 soundwire: sysfs: remove sdw_slave_sysfs_init()
-4114994f887e46f98ce64a9d31d15daf2652992a soundwire: sysfs: remove unneeded ATTRIBUTE_GROUPS() comments
+a69dea857aecfb3117760d64ecf287b1e6dc55f8 USB: fix memory leak with using debugfs_lookup()
+c69a9ef2e9f7f91fb11e033e334b2342fd43379b mtd: spi-nor: fix memory leak when using debugfs_lookup()
+64b4230de473bd48ac35200e3416717821a90e67 i915: debugfs_lookup() fix
+2fc3610b482019f2e1f91962966068bd988de743 tty: pcn_uart: debugfs_lookup() fix
+c5fa82e530533b19253e5c51cfd9964f99028bf9 staging: pi433: debugfs_lookup() fix
+b55480b48b575a9de0d005a9973b566408fcfb21 misc: vmw_balloon: debugfs_lookup() fix
+a5d75b77bcea5e0f3744b320bef3a93d52ad67a2 scsi: snic: debugfs_lookup() fix
+b32391bb55d0982cd1f6f42d51dbdd774bb8f85a drivers: base: component:: debugfs_lookup() fix
+5db3bd6f35cc676ba9b39a45f46047d373081596 drivers: base: dd: debugfs_lookup() fix
+ce2c594be7d05bf794100e48f44de3951d68c0c9 drivers: base: power debugfs_lookup() fix
+4742714946add5a2bcf770f8adf3c60ae3eceabe mm/slub: debugfs_lookup() fix
+2b50ba9639809200d811539b17b77329283a2427 trace/blktrace: debugfs_lookup() fix
+a91629d80175316a7d3db972f865083e571960f8 ppc: iommu: debugfs_lookup() fix
+b9f54213b8e1bbfbb398d308667047b669a668cd kernel/fail_function: debugfs_lookup() fix
+1f29dcd7127d2603c6ed6cc2d7dbc95da1365e93 kernel/irq/irqdomain.c: debugfs_lookup() fix
+102b62bd50d488aec8e7dd7d573ec3845df7e25c kernel/power/energy_model.c: debugfs_lookup() fix
+8c2785f6b89ac9020e2601873162b3e453d7101c kernel/printk/index.c: debugfs_lookup() fix
+48490b7928d90ca0212eb55736ea09c38b716224 kernel/time/test_udelay.c: debugfs_lookup() fix
+a186771f61fe7a11c4353b4f4665e9116b8a5c65 USB: chipidea: debugfs_lookup() fix
+7e2432b28c4529bcd2188d03e3c00757732ae708 USB: ULPI: debugfs_lookup() fix
+48b13ada90149345b21a58df91ac7f64849287e9 USB: dwc3: debugfs_lookup() fix
+5a88bdc9767d757ae39c3d3c58be3e54f2072c97 USB: uhci: debugfs_lookup() fix
+d73ad3a8a2e3c723427ce662a3010ff2994b487a USB: sl811: debugfs_lookup() fix
+44787c8ddb87d8ac315e54b84f761917c5f05b38 USB: fotg210: debugfs_lookup() fix
+27b14a3b5b5b43bceaf65d3d014b4fc137ab4142 USB: isp116x: debugfs_lookup() fix
+de9d44cb02604afb0a5d3a2a94818a9655b6614a USB: isp1362: debugfs_lookup() fix
+6b045a892ce3b959b3590768a06d9536ffd2d163 USB: gadget: gr_udc: debugfs_lookup() fix
+6f494dc87892cdccaa23daaa37ed0a3d3bebfb09 USB: gadget: bcm63xx_udc: debugfs_lookup() fix
+eb5e1a945d16b7ef76a9a0e15256633559d6f596 USB: gadget: lpc32xx_udc: debugfs_lookup() fix
+9a86adf91c5c95fac376acbeff0f5c95339fd404 USB: gadget: pxa25x_udc: debugfs_lookup() fix
+e3a88a4f818fd090790c64e3aa9631393395e56e USB: gadget: pxa27x_udc: debugfs_lookup() fix
+e4758d9cddf165e6733ff0d40aa6dae23102380d USB: gadget: s3c2410_udc: debugfs_lookup() fix
+563645679b37db6bf6b735d999f3180fe007c73a HV: hv_balloon: debugfs_lookup() fix
 
---===============0471245157462656542==--
+--===============4933820331659400329==--
