@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
-Date: Thu, 02 Feb 2023 17:37:40 -0000
-Message-Id: <167535946025.16156.561935277613089446@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
+Date: Thu, 02 Feb 2023 17:38:01 -0000
+Message-Id: <167535948146.16327.18276610373743201928@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/liburing
-user: axboe
+repo: pub/scm/linux/kernel/git/jic23/iio
+user: jic23
 changes:
-  - ref: refs/heads/master
-    old: ba3fc7385614b4d6d491dd328cb6fc81b072ea4c
-    new: c3880f82e2f9640e73fb1936c817cc5980329497
-    log: |
-         c3880f82e2f9640e73fb1936c817cc5980329497 test/fd-pass: add tests with different target/source fd values
-         
+  - ref: refs/tags/iio-for-6.3a
+    old: 0000000000000000000000000000000000000000
+    new: 727587f7e1bacfe409b5c7946b6be1688ba7ea66
