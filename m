@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0769199434698589143=="
+Content-Type: multipart/mixed; boundary="===============6287618950329771098=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Thu, 02 Feb 2023 10:17:11 -0000
-Message-Id: <167533303121.9707.704418120616268167@gitolite.kernel.org>
+Date: Thu, 02 Feb 2023 10:28:48 -0000
+Message-Id: <167533372833.16127.2252722228642574193@gitolite.kernel.org>
 
---===============0769199434698589143==
+--===============6287618950329771098==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,43 +16,41 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-testing
-    old: 1f6d59f7f82d3b0a629326c6d043273a84bfc61f
-    new: 130c4dcbe8c79595a6ca2e69be9f01411201aa92
+  - ref: refs/heads/usb-linus
+    old: 30d09b3131f5b1b9d54ad9b7ee171a45e21362b3
+    new: f82060da749c611ed427523b6d1605d87338aac1
     log: |
-         3078212cafaece5dfebc7bd57d8c395be7862a5c usb: gadget: uvc: Rename uvc_control_ep
-         a36afe7804612c524396e59f9521ed06e39bf62c usb: gadget: uvc: Add new enable_interrupt_ep attribute
-         130c4dcbe8c79595a6ca2e69be9f01411201aa92 usb: gadget: uvc: Disable interrupt endpoint by default
+         f82060da749c611ed427523b6d1605d87338aac1 usb: typec: ucsi: Don't attempt to resume the ports before they exist
          
 
---===============0769199434698589143==
+--===============6287618950329771098==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1675333029 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1675333727 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1675333028-40c09dbefd113bdbde78c30e894c506e03ebb677
+nonce 1675333725-7baa5786e7c73177e75f59e8bd97200ad70e0b06
 
-1f6d59f7f82d3b0a629326c6d043273a84bfc61f 130c4dcbe8c79595a6ca2e69be9f01411201aa92 refs/heads/usb-testing
+30d09b3131f5b1b9d54ad9b7ee171a45e21362b3 f82060da749c611ed427523b6d1605d87338aac1 refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPbjaUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+0mgQALgGzjU72kQHMbIs+vLG
-efPzqHRkPRRZNs01Yq92l4SXzxtsUwGyeftSqNj9yojsHPvef6tYeStEVv7UvQ19
-Fou27yMSxJV6/eNqfNuYrIOfCA2QcEQSNdp67MkGTrvmwLtRIi5aVRSFUyb8v4ok
-R3oGyMvhHeZ3z09FKRWKooaJJdLHprMA3MBIJAE+DKF/e0FNamVMf1l/Ogq43hgz
-obCYQRacUk8iD07ZrbWL/sAK9DjQsm9eIxPiSE80GiGZsarngNewrzzPjbJWt//+
-YJxrTNwGX6XBNLfGtrFIpz+VNJIV3WiZ6tktLIQoniUHEXuFjQ/6R9EGHI9tuWuR
-eHC7XYJ041Lydc4K0q/KHZSHtbCxttEcAA5oTf1wZw6vyy9z46ZNqTYUJEIeXxil
-2fLZGB1R9qwy4X+5CQB9gQowI/pR49knFEYC5xe1Syxuyb6FQ2hWjwjCcT9Se2Ux
-HZ0PW/PhDO+stxuv6hjUSuTMvShIzEKZFrcpACoEV6glfXnfe/0/qjKvOJi8VSA/
-lYUFVIUKuv8oOyRJYvkk48KVOQ/JsTm9crVpQDdTqpAitC8wPv7VJH06K0OvxmOL
-UWIH8VV+84f/5a/uBmGRJA8p/XamsCQWkzLSEQgpUScrOgj7NBpP/u9zdfGp7FVZ
-UObxcFEBS8kGQ3Fum2JM2czR
-=buHe
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPbkF8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+R7YP/1a8QVCM3xOtNsgnXf+f
+0+Xav4JJRWTHCiIpXhky35V3awr6sRoazrP9Z5pWlMx4DYI07Dv9Qa3A2oib/bB6
+yZRwEoipBL8Ep72r/G1cbrNLTs74cAAkZgCrMtPEeOdF0Nx2IWmEz+GBYbDnW4pQ
+zmb3Ov/2Ho+qO3oumwyGoa3wSXindErbgDdveIh1AugUq/nxwtr3hUfqJRcEJsoi
+ia9U6Gj/xKBrWwRM1gqfYZ9p1OZDcnQG2w22cAwxeQ8iWAB5wtHQKnNZrW8GSxTN
+04ePq9v9t1N5nhvTvm7s1HRkZKqkR9vlHLWeAOwMpfbck6Fyk4umd1vZ2ccErNB4
+24IHwyrl48/WOxRvGKXw9Fu3uTX4+PQxa6KhLKRmqkN+sst30GtdoySQKzsXD9Pv
+ieuL+VoccBlldKIQ7Uq/MUzQ5WOAUjeEUqbPGO3Ecg7X0Xtg5gmHmb39K453nyvd
+7GFACoAAX4euV2KmrQt2m/Su7aiTPavXLYjyLrCH64LRSB/46quEqethqCVHqrA5
+goaDgC53TeCDpOZkDNFpnzfte0Wri0lFC3Gc8HcvCmBRuF9azGAuLndQ3xUXXSom
+jVYhLl64xDeYo9fu13lx88k6B7HZhOQi3T0VDXAic4S5O4MHjK3ZyCU9nMpwA6xh
+1eGACH1HtFgoqkvcPfXANtDY
+=6BKs
 -----END PGP SIGNATURE-----
 
---===============0769199434698589143==--
+--===============6287618950329771098==--
