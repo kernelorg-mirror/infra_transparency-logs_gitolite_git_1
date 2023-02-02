@@ -1,41 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============3288667230504385824=="
+Content-Type: multipart/mixed; boundary="===============7174708214039772649=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Thu, 02 Feb 2023 20:15:02 -0000
-Message-Id: <167536890271.22759.6722615424840104056@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Thu, 02 Feb 2023 20:15:08 -0000
+Message-Id: <167536890818.23789.8717339687706208896@gitolite.kernel.org>
 
---===============3288667230504385824==
+--===============7174708214039772649==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rafael/linux-pm
-user: rafael
+repo: pub/scm/linux/kernel/git/broonie/misc
+user: broonie
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/bleeding-edge
-    old: f24bb5858fe63bcdab4f0680e7648f907304789c
-    new: dcb17d36bed40f2ab07d6ffb318a5277b6c3378d
-    log: revlist-f24bb5858fe6-dcb17d36bed4.txt
+  - ref: refs/heads/asoc-6.3
+    old: 1d78f19d90d1932c83d8c96c6f86fbb06c05e29a
+    new: 218674a45930c700486d27b765bf2f1b43f8cbf7
+    log: |
+         218674a45930c700486d27b765bf2f1b43f8cbf7 ASoC: mchp-spdifrx: Fix uninitialized use of mr in mchp_spdifrx_hw_params()
+         
 
---===============3288667230504385824==
+--===============7174708214039772649==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f24bb5858fe6-dcb17d36bed4.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-35c87f948d315ebc820a8784a962a506c1a3d299 thermal: intel: intel_pch: Fold two functions into their callers
-c5f43242f48ac81d57f50592acf7d425640d9f83 thermal: intel: intel_pch: Fold suspend and resume routines into their callers
-ae98e57a6e829dee26c1573134a24709d2cb82a3 thermal: intel: intel_pch: Rename board ID symbols
-2153a87ff9ef5537b8a96e7c94a9d79a78c7a30c thermal: intel: intel_pch: Drop struct board_info
-8e47363588377e1bdb65e2b020b409cfb44dd260 thermal: intel: powerclamp: Fix cur_state for multi package system
-bbfc3349c4e77a27ea83c765bf593d935f8f5599 powercap: idle_inject: Export symbols
-acbc661032b8aa0e8359ac77074769ade34a176c powercap: idle_inject: Add update callback
-6829cbe0e18d293d95a5d6ccb77cd7207d73d169 thermal: intel: powerclamp: Use powercap idle-inject feature
-d66f90a8e3550c14ca227aa0ce85334efa07d499 thermal: intel: quark_dts: Use generic trip points
-96b97b223724934f499998049028f357f7a2c8df Merge branch 'thermal-intel' into bleeding-edge
-dcb17d36bed40f2ab07d6ffb318a5277b6c3378d Merge branch 'pm-tools' into bleeding-edge
+certificate version 0.1
+pusher C3F436CA30F5D8EB 1675368906 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1675368906-bc749248341ef0e20c5e39842eaae645f5a902e2
 
---===============3288667230504385824==--
+1d78f19d90d1932c83d8c96c6f86fbb06c05e29a 218674a45930c700486d27b765bf2f1b43f8cbf7 refs/heads/asoc-6.3
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmPcGcoACgkQJNaLcl1U
+h9AEAwf7BoG3EyuodtGvlp9D3/VCPkG3MasT8gUrX30Adq7wUo+St4MHfRD54soj
+9yvZ1H94EQ+4ZDl+zHPeN9qticFd3Eij8Via4/kZFKOiXTWHoFwjzORLPPHldoxd
+QNR1B0Cuz8Yjnrk8pgZC5LpVyYcVfC2QKUIA+mTeqgVqxv6sfq9Nh7wWRzIDGRgU
+amE+S6pbnSlLXfTaUTM0k2TMbanIZ5p4w0QT/lLTtBRhZdGmLp/C+rYAvj2enxEJ
+WUm00OxUDLa2ocO/IGJaSdAqYXtZfC2/G7mZ+Ti1Ih6Z34B3SQhc8zUjKeFHzrNk
+hIeCQ2BYjcjDKt1B2wdRh6REUV9nVw==
+=aA3r
+-----END PGP SIGNATURE-----
+
+--===============7174708214039772649==--
