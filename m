@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 02 Feb 2023 17:50:08 -0000
-Message-Id: <167536020876.25981.12877399209892931322@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Thu, 02 Feb 2023 17:54:10 -0000
+Message-Id: <167536045025.27259.5460106057853404110@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/net-queue
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
   - ref: refs/heads/dev-queue
-    old: af7c4c869651c5f431b7c32afd56e17438bb91b2
-    new: 51aff8464e1aae93ddf60c0db1eb9d17058dbafc
+    old: a8c95cf3664b6ddd472d0c177109c36ae284f4f2
+    new: fe42d7325dd4c2a1ab4db6d65e9ddcb5352c6923
     log: |
-         51aff8464e1aae93ddf60c0db1eb9d17058dbafc igb: Fix PPS input and output using 3rd and 4th SDP
+         40b6b18c95ca8944fb3621eb4965314192ab0062 i40e: Add checking for null for nlmsg_find_attr()
+         fe42d7325dd4c2a1ab4db6d65e9ddcb5352c6923 igb: Fix PPS input and output using 3rd and 4th SDP
          
