@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Thu, 02 Feb 2023 14:59:49 -0000
-Message-Id: <167534998915.3222.10145654285460887628@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/matthias.bgg/linux
+Date: Thu, 02 Feb 2023 15:02:59 -0000
+Message-Id: <167535017913.5842.15856981488530352009@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
-user: broonie
+repo: pub/scm/linux/kernel/git/matthias.bgg/linux
+user: matthias.bgg
 changes:
-  - ref: refs/heads/for-next
-    old: 9665cc521171e21a0cdc1fbd17e8134325745aef
-    new: 6437d7e4505debf3e2ea6cf1d04e9f8afd834445
+  - ref: refs/heads/v6.3-tmp/soc
+    old: 38582e1325fbd150d1f24ece4ef30a8eaef7ce13
+    new: a62eb94e774f4159c31ddccb155c5fb3b7364efd
     log: |
-         b4c58d540777124f31ab0cb37a14c6573438d381 spi: intel: Fix device private data and PR_NUM for Broxton controllers
-         7c62a2279b9e88f2cbfa3b92dc49c8b7806c56f8 spi: intel: Add support for controllers
-         6437d7e4505debf3e2ea6cf1d04e9f8afd834445 Merge remote-tracking branch 'spi/for-6.3' into spi-next
+         6c7174fd90a4690e2154a6a77ad2ffa119166217 soc: mediatek: mtk-svs: use svs get efuse common function
+         a62eb94e774f4159c31ddccb155c5fb3b7364efd soc: mediatek: mtk-svs: use common function to disable restore voltages
          
