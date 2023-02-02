@@ -1,23 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Thu, 02 Feb 2023 19:28:41 -0000
-Message-Id: <167536612170.25068.16249759051215961077@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 02 Feb 2023 19:35:17 -0000
+Message-Id: <167536651707.30151.12025459844559792858@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
-user: snitzer
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/dm-6.3
-    old: 6f30cc248507ee96c22ff4c3cbc86099ff12b7a9
-    new: c25da5b7baf1d243e6612ba2b97e2a2c4a1376f6
+  - ref: refs/heads/master
+    old: 63b114042d8a9c02d9939889177c36dbdb17a588
+    new: 0c598aed445eb45b0ee7ba405f7ece99ee349c30
     log: |
-         aa56b9b75996ff4c76a0a4181c2fa0206c3d91cc dm flakey: fix logic when corrupting a bio
-         151d812251202aa0dce1fdeabd64794292d40b75 dm ioctl: drop always-false condition
-         fc772580a349f2b1349e85629be97e59f6347cdb dm crypt: Slightly simplify crypt_set_keyring_key()
-         5cd6d1d53a1f74222e73d8b42ab7ecf28ee2f34f dm integrity: Remove bi_sector that's only used by commented debug code
-         c25da5b7baf1d243e6612ba2b97e2a2c4a1376f6 dm verity: stop using WQ_UNBOUND for verify_wq
+         a1f47752fd6275b2502fb075945022d6cf264855 net: ethernet: mtk_eth_soc: disable hardware DSA untagging for second MAC
+         0c598aed445eb45b0ee7ba405f7ece99ee349c30 net: openvswitch: fix flow memory leak in ovs_flow_cmd_new
          
