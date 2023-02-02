@@ -1,24 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Thu, 02 Feb 2023 06:04:41 -0000
-Message-Id: <167531788130.23539.17574100559783426745@gitolite.kernel.org>
+Subject: post-receive: pub/scm/git/git
+Date: Thu, 02 Feb 2023 06:05:55 -0000
+Message-Id: <167531795552.25482.10576269929209899568@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-user: masahiroy
+repo: pub/scm/git/git
+user: junio
 changes:
-  - ref: refs/heads/kbuild
-    old: 2ca44054ed4bf9b9dc4e11f84653893e4b72d6cc
-    new: a9bf9dcd9d338d7e99bf2697cce776460c592eb2
+  - ref: refs/heads/seen
+    old: 079eebbe12944c643c2dc580befd8a09b26e1361
+    new: 8af422dc1e10393b066ae6e42837fbcb39b7122e
     log: |
-         919bbebb248f52d332dc80f36703537535929c80 kbuild: add a tool to generate a list of files ignored by git
-         7fc2e9f686aa0a58c9cdb73190b17b9f1c24cd27 kbuild: deb-pkg: create source package without cleaning
-         2cf8b892db328984ae2415114bbb6c1f8eea76f3 kbuild: rpm-pkg: build binary packages from source rpm
-         4587383a5dbbd7eb22ef212babb9cd8abd94e68b kbuild: srcrpm-pkg: create source package without cleaning
-         5668f210627dac3d3799eef4a228739b602db7e0 kbuild: deb-pkg: hide KDEB_SOURCENAME from Makefile
-         a9bf9dcd9d338d7e99bf2697cce776460c592eb2 kbuild: deb-pkg: switch over to format 3.0 (quilt)
+         592bcab61b86dbbac6fd2366039b4837b306ed66 compat/winansi: check for errors of CreateThread() correctly
+         43a2fe52db3f5b09e0549d9e2437e09dc7274c53 delta-islands: free island_marks and bitmaps
+         40f443b7b7e1aac44824abb8e9a68ea253195ca4 mingw: remove duplicate `USE_NED_ALLOCATOR` directive
+         ad30084e888792e530b35f115c0748f0f45e2bf5 mingw: remove msysGit/MSYS1 support
+         9f1d4d37e2304488f599f34dbe63ae5cd46d6d74 Merge branch 'ew/free-island-marks' into seen
+         4115405be06f5c98a2495cda0da66a40097ac44e Merge branch 'sk/winansi-createthread-fix' into seen
+         8af422dc1e10393b066ae6e42837fbcb39b7122e Merge branch 'hj/remove-msys-support' into seen
          
