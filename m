@@ -1,50 +1,41 @@
-Content-Type: multipart/mixed; boundary="===============2613074602421051251=="
+Content-Type: multipart/mixed; boundary="===============3288667230504385824=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
 Date: Thu, 02 Feb 2023 20:15:02 -0000
-Message-Id: <167536890217.22197.11414688607959434075@gitolite.kernel.org>
+Message-Id: <167536890271.22759.6722615424840104056@gitolite.kernel.org>
 
---===============2613074602421051251==
+--===============3288667230504385824==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
-user: broonie
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/heads/for-6.3
-    old: 1d78f19d90d1932c83d8c96c6f86fbb06c05e29a
-    new: 218674a45930c700486d27b765bf2f1b43f8cbf7
-    log: |
-         218674a45930c700486d27b765bf2f1b43f8cbf7 ASoC: mchp-spdifrx: Fix uninitialized use of mr in mchp_spdifrx_hw_params()
-         
+  - ref: refs/heads/bleeding-edge
+    old: f24bb5858fe63bcdab4f0680e7648f907304789c
+    new: dcb17d36bed40f2ab07d6ffb318a5277b6c3378d
+    log: revlist-f24bb5858fe6-dcb17d36bed4.txt
 
---===============2613074602421051251==
+--===============3288667230504385824==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-f24bb5858fe6-dcb17d36bed4.txt
 
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1675368900 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1675368900-4878680af6f51e0b1f854d752bb405611f1b2689
+35c87f948d315ebc820a8784a962a506c1a3d299 thermal: intel: intel_pch: Fold two functions into their callers
+c5f43242f48ac81d57f50592acf7d425640d9f83 thermal: intel: intel_pch: Fold suspend and resume routines into their callers
+ae98e57a6e829dee26c1573134a24709d2cb82a3 thermal: intel: intel_pch: Rename board ID symbols
+2153a87ff9ef5537b8a96e7c94a9d79a78c7a30c thermal: intel: intel_pch: Drop struct board_info
+8e47363588377e1bdb65e2b020b409cfb44dd260 thermal: intel: powerclamp: Fix cur_state for multi package system
+bbfc3349c4e77a27ea83c765bf593d935f8f5599 powercap: idle_inject: Export symbols
+acbc661032b8aa0e8359ac77074769ade34a176c powercap: idle_inject: Add update callback
+6829cbe0e18d293d95a5d6ccb77cd7207d73d169 thermal: intel: powerclamp: Use powercap idle-inject feature
+d66f90a8e3550c14ca227aa0ce85334efa07d499 thermal: intel: quark_dts: Use generic trip points
+96b97b223724934f499998049028f357f7a2c8df Merge branch 'thermal-intel' into bleeding-edge
+dcb17d36bed40f2ab07d6ffb318a5277b6c3378d Merge branch 'pm-tools' into bleeding-edge
 
-1d78f19d90d1932c83d8c96c6f86fbb06c05e29a 218674a45930c700486d27b765bf2f1b43f8cbf7 refs/heads/for-6.3
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmPcGcQACgkQJNaLcl1U
-h9DPEQf+LcJUF9M0OkC4udjO2aqG+jjRs9dBN/mndS/SJI6akk6g2ef3vd7Ja8lo
-CK/WSBR31raSDg2tCXPUIpMzdmumhNL7b51x/S8ti2rqZ5jdZ22vSTEN3kgD2slM
-Av/T306LgxPkiT8QZ6AOAHhZhVexyaBXE9ukHSm6l1gon0psHey+7GwwMm++9797
-/1zmE7SpMtcD+lWln4NwlqqpVIfqClgG0bzI/YuYkjWro4EeuOSWGbRx1cVVoHcH
-gxas9UBZceA1Ug3wtZ93Z6tYMu3y79zYqvPHAuyUsMKdkPGUGa/mTfkKz/hV9Tzj
-rJwjfRYAZxnXuLCaDrvFweWQoK3gTw==
-=8Ie7
------END PGP SIGNATURE-----
-
---===============2613074602421051251==--
+--===============3288667230504385824==--
