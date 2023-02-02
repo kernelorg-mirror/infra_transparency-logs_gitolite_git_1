@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
-Date: Thu, 02 Feb 2023 17:22:21 -0000
-Message-Id: <167535854173.6023.3419510051704737771@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mani/mhi
+Date: Thu, 02 Feb 2023 17:23:06 -0000
+Message-Id: <167535858612.6311.18323741848067400638@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/riscv/linux
-user: palmer
+repo: pub/scm/linux/kernel/git/mani/mhi
+user: mani
 changes:
-  - ref: refs/heads/2f394c0e7d1129a35156e492bc8f445fb20f43ac
-    old: f0293cd1f4fcc4fbdcd65a5a7b3b318a6d471f78
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/mhi-next
+    old: a4816c8972e8d926a60ddb8d89593aab1d243a36
+    new: 3c54a3ff0a2cdcd902482a62fef813f1d46e5eaf
+    log: |
+         3c54a3ff0a2cdcd902482a62fef813f1d46e5eaf bus: mhi: ep: Fix off by one in mhi_ep_process_cmd_ring()
+         
