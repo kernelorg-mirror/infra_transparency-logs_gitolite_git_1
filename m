@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-drivers
-Date: Thu, 02 Feb 2023 12:51:31 -0000
-Message-Id: <167534229190.15827.15901065049313943551@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/atorgue/stm32
+Date: Thu, 02 Feb 2023 12:51:37 -0000
+Message-Id: <167534229718.15942.1493624100529664862@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/geert/renesas-drivers
-user: geert
+repo: pub/scm/linux/kernel/git/atorgue/stm32
+user: atorgue
 changes:
-  - ref: refs/tags/renesas-bsp-rebase-v6.1-pfc-dts-psci
-    old: 3262dd830912560a5624d4fa8db5b59b2789c70e
-    new: d17b474e0e567a9341fe1d1f631317816f1b20fc
+  - ref: refs/tags/stm32-dt-for-v6.3-1
+    old: 0000000000000000000000000000000000000000
+    new: 2ddab52f9550999790708e5feff4c42e91b66c62
