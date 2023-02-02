@@ -1,94 +1,72 @@
-Content-Type: multipart/mixed; boundary="===============7207631024428951972=="
+Content-Type: multipart/mixed; boundary="===============7073162870584808574=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Thu, 02 Feb 2023 15:44:15 -0000
-Message-Id: <167535265545.3020.326524051015677447@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Thu, 02 Feb 2023 15:45:06 -0000
+Message-Id: <167535270648.4950.6920196254096503004@gitolite.kernel.org>
 
---===============7207631024428951972==
+--===============7073162870584808574==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/driver-core
+repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/debugfs_lookup_fix
-    old: fb06e149f48c1bd826b2ebeb3ebfa961d63000a7
-    new: 16568c7b18e2d7122aa7c1e0fe3d34ecf534d1dd
-    log: revlist-fb06e149f48c-16568c7b18e2.txt
+  - ref: refs/heads/usb-testing
+    old: 130c4dcbe8c79595a6ca2e69be9f01411201aa92
+    new: b0425784b942fffbbdb804896197f1dbccda37c5
+    log: revlist-130c4dcbe8c7-b0425784b942.txt
 
---===============7207631024428951972==
+--===============7073162870584808574==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1675352651 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1675352649-806866bfd16655522cd20c4490d904615c697e81
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1675352703 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1675352702-4d964704be42a04acad331820a669db6f4c01ab4
 
-fb06e149f48c1bd826b2ebeb3ebfa961d63000a7 16568c7b18e2d7122aa7c1e0fe3d34ecf534d1dd refs/heads/debugfs_lookup_fix
+130c4dcbe8c79595a6ca2e69be9f01411201aa92 b0425784b942fffbbdb804896197f1dbccda37c5 refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPb2ksbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ysYQAKJzPqOjIay0tj1yxpYb
-WLbPVyINXGLTtjiF2df1hdN7huTo0aHrcj87/h3p6dz1G5+CWYCFAgGC6Ls1qr2M
-oSgBAgclNMs5+x0f+9Rfa4xe6aryYKrfeWW6NxzYcPojsWfVZyhJlrpRSw5u35qa
-kH5VUXssFyS+2JdEyOVIL7yZpmMEseYEDi1BsFIwAlEgisxHVVIp/hczWNkSnc4M
-VNONAL+O5rEdYcvvmGfASYQ1jMT01LiyQCNERedyA3puXPlobFlJ2twdxDexcWg4
-Tc4QkmCOxeW4OrvKtZsqlXTTDowyE00aa5Uw4O7704lwQMHw3MHG81GHBYR+uXxX
-OdZ6rDUb60jHMuJOeoKVSVSHCub+e0pCAc1JuJ5VtrrIQA28kpBg1EF0lS30E3Ij
-5O7BQ1fyEZ4U6KxVc+Pv8nYg1T1wQ66gVxDSyUoSZwUA1ERStWekSfwplHfrJ0Gy
-UV+s8DVLQNq+ll+9B5yAtLWzxAtXLUBfUbAfbus4g+xHGUmTDB3xCY2q/2q9SAWG
-GVWifz1MXcgWcuaPdxERai5WDen2RKal2UFIbc9DoWo+E9g2lqzdSgOdZ3ab8Za5
-VuYM3aQseKOpqMzBwzwAbLeyAvLFR8I3yUexDRttmupjzXC/MN16pRz0McaTMTjo
-9bLM08/uFemPfWeQWLcMQQiP
-=cpgD
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPb2n8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+wRQQAKeQ1YFM5cq7nXrhf1Yp
+YxVBZHFTrczTMpENzYuvC4MPGHpAwN0ci8veQVirJ8yvrNI+zf2a/Vww0Bsrj12a
+yff3DFHyMW/KnKV98RwNQLgK6QdVcG1GtWU19hqUJMqSRLba+nGEDw8TNfBBJjju
+C6wvM7uKF6BCsowj6G9GZTNDqcH8qnVEHTKo5jb3TA86SOpdLec7wTXJdon44Gp7
+EEEXZk5l/YjqaO60HXv9Hy9XJJUE88lV53WgeP54eduYMpF30oLEAaI3m0tIPcFT
+fPA4EZvjEkb49/QMoW/TVCwocMOhrcF2ravKtlzJPnUSDb+3pKb0YlzuGIeBz+Et
+gGq8Pt9RgKrYSTWsvopAnNj54GMtnJ2C1r6kfe4Oa62Ie18wkOFsXJ8EpGz/EiVc
+NJUnn1feVxRgmu+6PCwruqBWN+2EX0AsFX3nbM0cywanfWsWsET+9NB0n70cgTG6
+ZwkL7BWl85dSAy3mt2UNTTZfr60712kNQT64c4ABJ+eOfjGuzn6oJDfH82SGeNy8
+fCvNZQtr0INGXS1jb4vExjDcGLx8s4JNNzYQDSayd9q1pkw4hLm7aapSyDe4UzPU
+on28+jNfiUJtFUwh9F1YxqL5c05djqFLK39Fkun08QF5/mjWdOnqI58RYcuiv32e
+pzFTMWTlKH81PX3TCcTO7REg
+=NlyI
 -----END PGP SIGNATURE-----
 
---===============7207631024428951972==
+--===============7073162870584808574==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fb06e149f48c-16568c7b18e2.txt
+Content-Disposition: attachment; filename=revlist-130c4dcbe8c7-b0425784b942.txt
 
-289bea51b333e17e08acc42cc5fe18cdb9944cae USB: fix memory leak with using debugfs_lookup()
-6f9ef0f7836fcfffa22061fa42eb6d55fa53b851 USB: dwc3: fix memory leak with using debugfs_lookup()
-9de762bb22c218e19cac4d74ef8f4b2f51bc5b8b HV: hv_balloon: fix memory leak with using debugfs_lookup()
-b3b144ff22d997b789d7bc489c78286f26c362a3 scsi: snic: fix memory leak with using debugfs_lookup()
-41919a5dbfd766c892ad4d79e7918a2c9976c44e misc: vmw_balloon: fix memory leak with using debugfs_lookup()
-ed009b5cc9d06379548256a2d0780dc720dfa6a4 staging: pi433: fix memory leak with using debugfs_lookup()
-80986b5e9612eef2aacc7e6ca80790cf6785852f tty: pcn_uart: fix memory leak with using debugfs_lookup()
-405f06e3b42efc0b313d6f6c61bb04b27fe262e6 i915: fix memory leak with using debugfs_lookup()
-ac69c240bd4c50996b17eb96abcf719e802f8211 drivers: base: power: fix memory leak with using debugfs_lookup()
-693efda2e620df265f5c75f29b8a58fd223061a4 drivers: base: component: fix memory leak with using debugfs_lookup()
-e69d976b7496e446d5a52fd246086bb0303673d8 drivers: base: dd: fix memory leak with using debugfs_lookup()
-7a5239db3e51da9361ba51c2fafb12b17f06d5e3 ppc: iommu: fix memory leak with using debugfs_lookup()
-7a96e9c6e8830e4cc39630b644e6d9eb5cd1e5b5 trace/blktrace: fix memory leak with using debugfs_lookup()
-10994dc347241352a905249757c853e60592820a mm/slub: fix memory leak with using debugfs_lookup()
-7977867c3ba010725b3a7f2bc5eb98def0f6249e kernel/time/test_udelay.c: fix memory leak with using debugfs_lookup()
-b8a4d56b43222a88c63ba1e89a5c7bc47b2db536 kernel/printk/index.c: fix memory leak with using debugfs_lookup()
-d4fa4a32e46a7b6336f3e63d7241599fbb3d3701 kernel/power/energy_model.c: fix memory leak with using debugfs_lookup()
-2df0866862b524a2a046e3f7c8f666e6413eb666 kernel/irq/irqdomain.c: fix memory leak with using debugfs_lookup()
-16dd06230ee0cfa0b5d6b44b5524c3d14ecb4980 kernel/fail_function: fix memory leak with using debugfs_lookup()
-969d08dc962457f6dc1606722173ca90823fed4b USB: chipidea: fix memory leak with using debugfs_lookup()
-577b771ae2b4680c6417db19e0adb17866a93744 USB: ULPI: fix memory leak with using debugfs_lookup()
-99c8f9e1abea9cfbbb3757a816c59b97dfbc28c0 USB: uhci: fix memory leak with using debugfs_lookup()
-d77d1d6c85b45785573c1ee9b29ddb4549bb9140 USB: sl811: fix memory leak with using debugfs_lookup()
-e6fab9fec85c06dd1570fc23398b686b2316b604 USB: fotg210: fix memory leak with using debugfs_lookup()
-6224762b921dcd7aca281d7ef32c89de9d87bcf8 USB: isp116x: fix memory leak with using debugfs_lookup()
-a2b6b6c08ea26af21731dbf167d9794daa836f96 USB: isp1362: fix memory leak with using debugfs_lookup()
-ae17f700511f5d1f11aada845d92977db2313247 USB: gadget: gr_udc: fix memory leak with using debugfs_lookup()
-0d0e71d5de303309ffce0c773fb118c30da1d0b6 USB: gadget: bcm63xx_udc: fix memory leak with using debugfs_lookup()
-5ba84c547c771f5437cb76f53ad038fe8385b0c3 USB: gadget: lpc32xx_udc: fix memory leak with using debugfs_lookup()
-652c6940d83a6c7125b61a67a6ba2869e998ac01 USB: gadget: pxa25x_udc: fix memory leak with using debugfs_lookup()
-e774b272acacbbe81746b87a22880bc4e8e0f206 USB: gadget: pxa27x_udc: fix memory leak with using debugfs_lookup()
-4e13f023c0383bafedb4a83da01bf9187c106aec USB: gadget: s3c2410_udc: fix memory leak with using debugfs_lookup()
-16568c7b18e2d7122aa7c1e0fe3d34ecf534d1dd mtd: spi-nor: fix memory leak when using debugfs_lookup()
+8c1cbec9db1ab044167a7594c88bb5906c9d3ee4 xhci: fix event ring segment table related masks and variables in header
+54f9927dfe2266402a226d5f51d38236bdca0590 xhci: remove xhci_test_trb_in_td_math early development check
+b17a57f89f69069458d0a9d9b04281ce48da7ebb xhci: Refactor interrupter code for initial multi interrupter support.
+52dd0483e822d097fd6f522af2438a9b6f6eb0a9 xhci: add helpers for enabling and disabling interrupters
+faaae0190dcd1e230616c85bbc3b339f27ba5b81 xhci: cleanup xhci_hub_control port references
+a66095a957ce3ce2a5154f7981845942f26e477d xhci: pass port pointer as parameter to xhci_set_port_power()
+2996e9fc00c378987c18ecbafe5624581b18c0d6 xhci: move port specific items such as state completions to port structure
+6baf7e749ab3aa4fcfeef3a26e8ec2306572cd05 xhci: Pass port structure as parameter to xhci_disable_port().
+a909d629ae77b97b6288bc3cfe68560454bf79c6 xhci: rename resume_done to resume_timestamp
+0e6275452ce26d7ff274a5c1b15ed581a26f7986 xhci: clear usb2 resume related variables in one place.
+b0425784b942fffbbdb804896197f1dbccda37c5 xhci: decouple usb2 port resume and get_port_status request handling
 
---===============7207631024428951972==--
+--===============7073162870584808574==--
