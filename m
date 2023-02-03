@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-power-supply
-Date: Fri, 03 Feb 2023 12:45:58 -0000
-Message-Id: <167542835859.24070.13202063464502124548@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cem/xfsprogs-dev
+Date: Fri, 03 Feb 2023 12:58:10 -0000
+Message-Id: <167542909082.31099.4373676076545899043@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sre/linux-power-supply
-user: sre
+repo: pub/scm/linux/kernel/git/cem/xfsprogs-dev
+user: cem
 changes:
   - ref: refs/heads/for-next
-    old: e2b018cb55151cbee2c4b8f48ef731f0a683b9b6
-    new: 3639dbd74e2e827d544bdb28b663a44449c014e1
+    old: d8eab7600f470fbd09013eb90cbc7c5e271da4e5
+    new: e9f1424863be2201711ba7fc97f9a628a8358535
     log: |
-         3639dbd74e2e827d544bdb28b663a44449c014e1 power: supply: test-power: use strscpy() instead of strncpy()
+         77e8ce78c111f16105a4cf1b67e8f42f88a383f5 xfs_admin: correctly parse IO_OPTS parameters
+         e9f1424863be2201711ba7fc97f9a628a8358535 xfs_admin: get/set label of mounted filesystem
          
