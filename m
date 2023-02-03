@@ -1,65 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============5971863800019108792=="
+Content-Type: multipart/mixed; boundary="===============2214018225697270399=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Fri, 03 Feb 2023 13:51:54 -0000
-Message-Id: <167543231451.2920.6270207547635034847@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/phy/linux-phy
+Date: Fri, 03 Feb 2023 13:52:28 -0000
+Message-Id: <167543234885.3155.9133173770765225913@gitolite.kernel.org>
 
---===============5971863800019108792==
+--===============2214018225697270399==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rafael/linux-pm
-user: rafael
+repo: pub/scm/linux/kernel/git/phy/linux-phy
+user: vkoul
 changes:
-  - ref: refs/heads/bleeding-edge
-    old: dcb17d36bed40f2ab07d6ffb318a5277b6c3378d
-    new: 34f2cf2f45417adbc696de5e37eb64586c0bf18e
+  - ref: refs/heads/fixes
+    old: 2241ab53cbb5cdb08a6b2d4688feb13971058f65
+    new: 49ebb0024bb3eedb546500bb38f5303575e0705b
     log: |
-         8526eb7fc75abcd09d8bd061610215baf0ca948a thermal: intel: powerclamp: Use powercap idle-inject feature
-         72ffc28f2fe8bce4e5b682caedf7a26c4998c756 thermal: intel: quark_dts: Use generic trip points
-         9a125a626297ec2582da5c8fcc64f443776e82c3 Merge branch 'pm-tools' into linux-next
-         a9dd827a6e77dec5b861c924206d85b63156df16 Merge branch 'thermal-intel' into linux-next
-         34f2cf2f45417adbc696de5e37eb64586c0bf18e Merge branch 'thermal/bleeding-edge' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/thermal/linux into bleeding-edge
+         49ebb0024bb3eedb546500bb38f5303575e0705b phy: rockchip-typec: fix tcphy_get_mode error case
          
-  - ref: refs/heads/linux-next
-    old: e09c4cd579105a55d4014420fdf8af20378de87a
-    new: a9dd827a6e77dec5b861c924206d85b63156df16
-    log: revlist-e09c4cd57910-a9dd827a6e77.txt
-  - ref: refs/heads/testing
-    old: e09c4cd579105a55d4014420fdf8af20378de87a
-    new: a9dd827a6e77dec5b861c924206d85b63156df16
-    log: revlist-e09c4cd57910-a9dd827a6e77.txt
+  - ref: refs/heads/next
+    old: b41499a1085b9278d73c6132d49849a6a86a81bc
+    new: d1abd69534bec16c43c633313e8e937af1354a7a
+    log: revlist-b41499a1085b-d1abd69534be.txt
 
---===============5971863800019108792==
+--===============2214018225697270399==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e09c4cd57910-a9dd827a6e77.txt
+Content-Disposition: attachment; filename=revlist-b41499a1085b-d1abd69534be.txt
 
-dd3b3d160ea7004091051da60e86f36f40970888 thermal: ACPI: Make helpers retrieve temperature only
-be014c789c717a4328f49d58b53170923bc475f8 thermal: intel: int340x: Assorted minor cleanups
-67c6945867145edda3092c336aa4cf56f9986ed7 thermal: intel: int340x: Rename variable in int340x_thermal_zone_add()
-d0009d14e9853bb5f553a36df9fb7791deffc594 thermal: intel: int340x: Drop pointless cast to unsigned long
-1bcebcab887ba4c4d790d7ccb055303c5dc7dbbb thermal: intel: int340x: Improve int340x_thermal_set_trip_temp()
-2cee73568e8d2f9d63793cf84e9aa65c9dfd85e2 thermal: intel: intel_pch: Make pch_wpt_add_acpi_psv_trip() return int
-558718f4d3798fa80a9288addc09240910c07df1 thermal: intel: intel_pch: Eliminate redundant return pointers
-1aa4f925d80c44bd70442a8e94718fc921b8a55f thermal: intel: intel_pch: Rename device operations callbacks
-86cb1004b6f71b2f79f5fb08502a5bd10c852bf5 thermal: intel: intel_pch: Eliminate device operations object
-cf3e0251868c56b10ccb3e0b3628fcfb0c9c4ec5 PM: tools: use canonical ftrace path
-35c87f948d315ebc820a8784a962a506c1a3d299 thermal: intel: intel_pch: Fold two functions into their callers
-c5f43242f48ac81d57f50592acf7d425640d9f83 thermal: intel: intel_pch: Fold suspend and resume routines into their callers
-ae98e57a6e829dee26c1573134a24709d2cb82a3 thermal: intel: intel_pch: Rename board ID symbols
-2153a87ff9ef5537b8a96e7c94a9d79a78c7a30c thermal: intel: intel_pch: Drop struct board_info
-8e47363588377e1bdb65e2b020b409cfb44dd260 thermal: intel: powerclamp: Fix cur_state for multi package system
-bbfc3349c4e77a27ea83c765bf593d935f8f5599 powercap: idle_inject: Export symbols
-acbc661032b8aa0e8359ac77074769ade34a176c powercap: idle_inject: Add update callback
-8526eb7fc75abcd09d8bd061610215baf0ca948a thermal: intel: powerclamp: Use powercap idle-inject feature
-72ffc28f2fe8bce4e5b682caedf7a26c4998c756 thermal: intel: quark_dts: Use generic trip points
-9a125a626297ec2582da5c8fcc64f443776e82c3 Merge branch 'pm-tools' into linux-next
-a9dd827a6e77dec5b861c924206d85b63156df16 Merge branch 'thermal-intel' into linux-next
+fdb5a86287c178df3d1ea064b93264dda3a7f697 dt-bindings: phy: Add QMP UFS PHY comptible for SM8550
+2df32d96f2e306d2b7ea3a00fa8ee638a71ef3da phy: qcom-qmp: qserdes-com: Add v6 register offsets
+ddf070f6c9cb8af8e9e4003c31947a3e0e3255d9 phy: qcom-qmp: qserdes-txrx: Add v6 register offsets
+c9736600a64f7d9b374838d065ef85f6bf6c3dd4 phy: qcom-qmp: qserdes-txrx-ufs: Add v6 register offsets
+5b8154ce500944c6d70c5d3189341c47e5efb4f8 phy: qcom-qmp: pcs-ufs: Add v6 register offsets
+1679bfef906f1a722be6e79071a0a7889d21875f phy: qcom-qmp-ufs: Add SM8550 support
+49094d928618309877c50e589f23e639a3b0c453 phy: mediatek: remove temporary variable @mask_
+5e2714556fa2b4e6ba684e4ebcbdd27c7ea65b22 dt-bindings: phy: qcom,qmp-usb3-dp: Add sm6350 compatible
+05bd18348b8898aaeb894da6c8cbf9ae36599d0b phy: qcom-qmp-combo: Add config for SM6350
+1bd9a7b4afd5e0b938868a90b16d514c19808e6c phy: Remove unused phy_optional_get()
+59c3d3d00d60b6d75ef3faf3b24e6aac037c1085 doc: phy: Document devm_of_phy_get()
+d02aa181ee595c81738b6bd7ebad6025fbee035a phy: Add devm_of_phy_optional_get() helper
+a6ebcae7de16f3af3c328e8fba7c77aac8a910e9 net: fman: memac: Convert to devm_of_phy_optional_get()
+9da87c6ef770f5a407952ea2baa0680e7df5ebd9 net: lan966x: Convert to devm_of_phy_optional_get()
+a80becc56d274fc5d6226f74eaab1811c3984390 PCI: tegra: Convert to devm_of_phy_optional_get()
+86a176840c627bd5b676b6dff9a0b98f3fe5fafc usb: host: ehci-exynos: Convert to devm_of_phy_optional_get()
+41a435e30eb007ca2c8f71db734af6ec3509af4d usb: host: ohci-exynos: Convert to devm_of_phy_optional_get()
+cc94cc1c341811baa6b507fc0d4f2f66eac6e0ab Merge tag 'phy-devm_of_phy_optional_get' into next
+052bfe6ec72c8fd3d14968da36816f97772b5a54 dt-bindings: phy: tegra-xusb: Add support for Tegra234
+d1abd69534bec16c43c633313e8e937af1354a7a phy: qcom-qmp: Introduce Kconfig symbols for discrete drivers
 
---===============5971863800019108792==--
+--===============2214018225697270399==--
