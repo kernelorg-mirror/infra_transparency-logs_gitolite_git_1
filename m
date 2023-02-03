@@ -1,16 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Fri, 03 Feb 2023 01:30:56 -0000
-Message-Id: <167538785642.13025.7823551186565684135@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Fri, 03 Feb 2023 01:50:50 -0000
+Message-Id: <167538905032.26688.12792340272689016429@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: sashal
 changes:
-  - ref: refs/heads/clocksource.2023.02.02a
-    old: 0000000000000000000000000000000000000000
-    new: 2ff7dacc88b0c7592650e8f62d9e4c13cdc31ea5
+  - ref: refs/heads/master
+    old: 70a5feeb7785e3bfcbb023f867cae94118fea20e
+    new: eb10768f38a3fd4568a04fbceaba7e1f9074c26e
+    log: |
+         d28b536da2be4b0d804e28d4ece0577f586e7e41 Fixes for 6.1
+         eb10768f38a3fd4568a04fbceaba7e1f9074c26e Fixes for 5.4
+         
