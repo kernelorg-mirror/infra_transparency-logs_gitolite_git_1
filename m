@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4718965881225862518=="
+Content-Type: multipart/mixed; boundary="===============7814482473678689391=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 03 Feb 2023 01:05:57 -0000
-Message-Id: <167538635743.26950.4187642416899798437@gitolite.kernel.org>
+Date: Fri, 03 Feb 2023 01:13:29 -0000
+Message-Id: <167538680970.31094.13503888045452922865@gitolite.kernel.org>
 
---===============4718965881225862518==
+--===============7814482473678689391==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/dev-queue
-    old: fe42d7325dd4c2a1ab4db6d65e9ddcb5352c6923
-    new: 4707de48df9d97bd313405c431ed5372d8075935
-    log: revlist-fe42d7325dd4-4707de48df9d.txt
+  - ref: refs/heads/100GbE
+    old: 8fe45173bae955f7d857ff988fb6413f6b27db06
+    new: 84966beda86a349cf53b8f1298a638686e4ec162
+    log: revlist-8fe45173bae9-84966beda86a.txt
 
---===============4718965881225862518==
+--===============7814482473678689391==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fe42d7325dd4-4707de48df9d.txt
+Content-Disposition: attachment; filename=revlist-8fe45173bae9-84966beda86a.txt
 
 3c44e2b6cde674797b76e76d3a903a63ce8a18bb Revert "Input: synaptics - switch touchpad on HP Laptop 15-da3001TU to RMI mode"
 71a06f1034b91e15d3ba6b5539c7d3a2d7f13030 mac802154: Fix possible double free upon parsing error
@@ -243,6 +243,7 @@ abce209d18fd26e865b2406cc68819289db973f9 platform/x86/amd: pmc: add CONFIG_SERIO
 eebf82012dddbdcb09e4e49d3cdfafb93bc66eb2 platform/x86: thinkpad_acpi: Fix thinklight LED brightness returning 255
 fe8973a3ad0905cb9ba2d42db42ed51de14737df watchdog: diag288_wdt: do not use stack buffers for hardware data
 32e40f9506b9e32917eb73154f93037b443124d1 watchdog: diag288_wdt: fix __diag288() inline assembly
+8395406b3495235d73c7aa86ef8df97830e036d6 rxrpc: Fix trace string
 d2591298b9ab576b568f0c49d60a7f21d0c8d1e2 MAINTAINERS: amd: drop inactive Brijesh Singh
 a6e6ceb28a268a2a0ec9a2ebe4081ec1d1799228 Merge tag 'sunxi-fixes-for-6.2-1' of https://git.kernel.org/pub/scm/linux/kernel/git/sunxi/linux into arm/fixes
 8a74191c899efd3a0e942632f31dad0ea7eb4c7f Merge tag 'imx-fixes-6.2-2' of git://git.kernel.org/pub/scm/linux/kernel/git/shawnguo/linux into arm/fixes
@@ -257,6 +258,18 @@ de5ca4c3852f896cacac2bf259597aab5e17d9e3 net: sched: sch: Bounds check priority
 2b272bb558f1d3a5aa95ed8a82253786fd1a48ba netfilter: br_netfilter: disable sabotage_in hook after first suppression
 bd0e06f0def75ba26572a94e5350324474a55562 Revert "netfilter: conntrack: fix bug in for_each_sctp_chunk"
 254c71374a70051a043676b67ba4f7ad392b5fe6 kunit: fix kunit_test_init_section_suites(...)
+371e68ba0306f6279b03990c2e721e7634f0fe33 rxrpc: Remove whitespace before ')' in trace header
+828bebc80a031b9c07c0d5f2465910b6350cd616 rxrpc: Shrink the tabulation in the rxrpc trace header a bit
+223f59016fa2b6d01814dc53ace1c146857ba236 rxrpc: Convert call->recvmsg_lock to a spinlock
+af094824f20b454ee23b7b5a860b3ba58f4e6938 rxrpc: Allow a delay to be injected into packet reception
+84e28aa513af814807a5e9a0e5f3cab773946f3c rxrpc: Generate extra pings for RTT during heavy-receive call
+5bbf953382bec6d3b7003e9389668c1d0863db31 rxrpc: De-atomic call->ackr_window and call->ackr_nr_unacked
+f21e93485bcbfa2753d1447b6198604a2c3d57be rxrpc: Simplify ACK handling
+b30d61f4b12899101f754238f02069ff4d6161c2 rxrpc: Don't lock call->tx_lock to access call->tx_buffer
+e7f40f4a701b67ada4a843bcc253711d8a34b1f1 rxrpc: Remove local->defrag_sem
+f20fe3ff82b321287ba59cab12e4f34eec9a7e10 rxrpc: Show consumed and freed packets as non-dropped in dropwatch
+83836eb4df75d9d0bfb1a5c508130658b8d13244 rxrpc: Change rx_packet tracepoint to display securityIndex not type twice
+550130a0ce303f7cd754c7067b0a971ca179db63 rxrpc: Kill service bundle
 7ab41c2c08a32132ba8c14624910e2fe8ce4ba4b s390/decompressor: specify __decompress() buf len to avoid overflow
 88b356e19199dca700b1180adc0b843a3228d4a0 Merge tag 'media/v6.2-3' of git://git.kernel.org/pub/scm/linux/kernel/git/mchehab/linux-media
 58706f7fb045b7019bada81fa17f372189315fe5 Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
@@ -271,12 +284,36 @@ b459861783a909f66120814b34fa38d409d1e6af MAINTAINERS: Update entry for MediaTek 
 5efb648042a1c3d1734e69ebbae2fe9477f4fc4d ARM: dts: wpcm450: Add nuvoton,shm = <&shm> to FIU node
 ce18d3aa6a232ec80ece60ad5d6eb17bcac1744e Merge tag 'sound-6.2-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
 9f266ccaa2f5228bfe67ad58a94ca4e0109b954a Merge tag 'for_linus' of git://git.kernel.org/pub/scm/linux/kernel/git/mst/vhost
+c3a4fd5718ea6756f2289f4d89468b54ad3d02aa devlink: rename devlink_nl_instance_iter_dump() to "dumpit"
+f87445953d4c1cbcaa110f95dfd64193756f7353 devlink: remove "gen" from struct devlink_gen_cmd name
+8589ba4e642aa257fa46ee82c975921e19db47d5 devlink: rename and reorder instances of struct devlink_cmd
+074dd3b35aaa4807306268c1654200d3608ebbf3 Merge branch 'devlink-trivial-names-cleanup'
 23ca0c2c93406bdb1150659e720bda1cec1fad04 ip/ip6_gre: Fix changing addr gen mode not generating IPv6 link local address
 30e2291f61f93f7132c060190f8360df52644ec1 ip/ip6_gre: Fix non-point-to-point tunnel not generating IPv6 link local address
 cca6e9ff22f79e37da3d73f60c38a84d8ed0c162 Merge branch 'ip-ip6_gre-fix-gre-tunnels-not-generating-ipv6-link-local-addresses'
+bc61761394ce0f0cc35c6fc60426f08d83d0d488 ipv6: ICMPV6: Use swap() instead of open coding it
 9c6b9cbafdc010b38f4077c8252654381eb46028 nfp: flower: avoid taking mutex in atomic context
+ca3daf437d9c261ca498f518090c3ddbf1bf824f nfp: correct cleanup related to DCB resources
+7c06458c102ee66068c03780527fcfc9b954ad91 virtio_net: disable VIRTIO_NET_F_STANDBY if VIRTIO_NET_F_MAC is not set
+9f62d221a4b0aa6a8d2a18053a0ca349c025297c virtio_net: notify MAC address change on device initialization
+d8673afbf51036ed1d72d9828d0d679035bb0d54 Merge branch 'virtio_net-vdpa-update-mac-address-when-it-is-generated-by-virtio-net'
+058a8f7f73aae1cc22b53fcefec031b9e391b54d net: add a couple of helpers for iph tot_len
+46abd17302ba6be2e06818088e40a568e8f9e7af bridge: use skb_ip_totlen in br netfilter
+ec84c955a0d06cef31664bae328d94be7a3e2f03 openvswitch: use skb_ip_totlen in conntrack
+043e397e48c58b4442ea5124dc1bdc95367a0a33 net: sched: use skb_ip_totlen and iph_totlen
+a13fbf5ed5b4fc9095f12e955ca3a59b5507ff01 netfilter: use skb_ip_totlen and iph_totlen
+7eb072be41ba4d8ecea17092dece50c7375d8980 cipso_ipv4: use iph_set_totlen in skbuff_setattr
+50e6fb5c6efb2b33b15ea490dfe355cb312f6eb5 ipvlan: use skb_ip_totlen in ipvlan_get_L3_hdr
+8e08bb75b60f7f9ed319185cef80188b87d9b43a packet: add TP_STATUS_GSO_TCP for tp_status
+9eefedd58ae1daece2ba907849a44db2941fb4b0 net: add gso_ipv4_max_size and gro_ipv4_max_size per device
+b1a78b9b98862cda167b643690e43662ea060625 net: add support for ipv4 big tcp
+983f507c3043e90b2c6429cd67903c4ca8208b5c Merge branch 'net-support-ipv4-big-tcp'
+62e395f82d04510b0f86e5e603e29412be88596f neighbor: fix proxy_delay usage when it is zero
+028fb19c6ba743ed308ba99ac325afa968795e0f netlink: provide an ability to set default extack message
 a2df8463e15c10a8a882090f3d7a760fdb7b189d igc: return an error if the mac type is unknown in igc_ptp_systim_to_hwtstamp()
 917d5e04d4dd2bbbf36fc6976ba442e284ccc42d octeontx2-af: Fix devlink unregister
+981f14d42a7f1610292a1ef0f7cd00138fff361d virtio-net: fix possible unsigned integer overflow
+609aa68d60965f70485655def733d533f99b341b octeontx2-af: Removed unnecessary debug messages.
 99f1c46011cc0feb47d4f4f7bee70a0341442d14 hv_netvsc: Fix missed pagebuf entries in netvsc_dma_map/unmap()
 d0553680f94c49bbe0e39eb50d033ba563b4212d can: j1939: fix errant WARN_ON_ONCE in j1939_session_deactivate
 3793301cbaa4a62d83e21f685307da7671f812ab can: raw: fix CAN FD frame transmissions over CAN XL devices
@@ -284,10 +321,18 @@ d0553680f94c49bbe0e39eb50d033ba563b4212d can: j1939: fix errant WARN_ON_ONCE in 
 4f027cba8216f42a18b544842efab134f8b1f9f4 can: isotp: split tx timer into transmission and timeout
 1613fff7a32e1d9e2ac09db73feba0e71a188445 can: mcp251xfd: mcp251xfd_ring_set_ringparam(): assign missing tx_obj_num_coalesce_irq
 eecf2acd4a580e9364e5087daf0effca60a240b7 platform/x86: touchscreen_dmi: Add Chuwi Vi8 (CWI501) DMI match
+a8248fc4ad9b815c9345deb73873cc72a543d148 Merge tag 'rxrpc-next-20230131' of git://git.kernel.org/pub/scm/linux/kernel/git/dhowells/linux-fs
+52cf89f78c01bf39973f3e70d366921d70faff7a net/sched: transition act_pedit to rcu and percpu stats
+95b069382351826c0ae37938070aa82dbeaf288d net/sched: simplify tcf_pedit_act
+8b6f322e47ba4ac95b63bff1fcdd0d3f85fbc61b Merge branch 'net-sched-transition-act_pedit-to-rcu-and-percpu-stats'
 c03c80e3a03ffb4f790901d60797e9810539d946 selftests: net: udpgso_bench_rx: Fix 'used uninitialized' compiler warning
 db9b47ee9f5f375ab0c5daeb20321c75b4fa657d selftests: net: udpgso_bench_rx/tx: Stop when wrong CLI args are provided
 dafe93b9ee21028d625dce347118b82659652eff selftests: net: udpgso_bench: Fix racing bug between the rx/tx programs
 329c9cd769c2e306957df031efff656c40922c76 selftests: net: udpgso_bench_tx: Cater for pending datagrams zerocopy benchmarking
+3ee217c47b8b7d18c7c6afa62a5451d5da16d7f5 amd-xgbe: add 2.5GbE support to 10G BaseT mode
+4f3b20bfbb75289c18729b6eb2da3f3c5e7f58b0 amd-xgbe: add support for rx-adaptation
+886d2278a6db0db06486faa7c47c58f38171d2e6 Merge branch 'amd-xgbe-add-support-for-2-5gbe-and-rx-adaptation'
+b18ea3d9d214dfb23b0b6bd2acc121cb0d0fa2c5 net: dsa: Use sysfs_emit() to instead of sprintf()
 63b114042d8a9c02d9939889177c36dbdb17a588 virtio-net: Keep stop() to follow mirror sequence of open()
 a1f47752fd6275b2502fb075945022d6cf264855 net: ethernet: mtk_eth_soc: disable hardware DSA untagging for second MAC
 0c598aed445eb45b0ee7ba405f7ece99ee349c30 net: openvswitch: fix flow memory leak in ovs_flow_cmd_new
@@ -307,64 +352,15 @@ addfba11b314824e3b4fb70448b339dcb21be5bf Merge tag 's390-6.2-4' of git://git.ker
 e7368fd30165ced757d64da48e2091c83815ce5c Merge tag 'linux-kselftest-kunit-fixes-6.2-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
 edb9b8f380c3413bf783475279b1a941c7e5cec1 Merge tag 'net-6.2-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 82b4a9412b4de2f68679f1403f1d229390ace27e Merge git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
-7f3a73d3a6b8f9526976972adc7eb2fb218458f2 ice: Add GPIO pin support for E823 products
-3d85fe10c0a563d41f009b41f630f5fdd0cda209 ice: Add crosstimestamping on E823 devices
-d6ac3738ba49c7f0db1b2f258181974d25d1e1c2 ice: Fix off by one in ice_tc_forward_to_queue()
-94773e17c693a5fc7c85a910ece908aceb0dcaae igc: Clean up and optimize watchdog task
-39497422aaa354f238055e8ecd50d39c857cb5ce intel/igbvf: free irq on the error path in igbvf_request_msix()
-a5bc1ea67effb5d59045161b71bd13d2bc4e05a1 igb: Enable SR-IOV after reinit
-63d1929a107596b6d8a805d14f61238891c7580c ice: Enable extended PTP support for E823L & E823C devices
-13f7301432cf9c3c768e992692bbce3c7cd8e500 igbvf: Regard vf reset nack as success
-16e4415496e088c8c39be8200039641c399e6bdb ice: Add more usage of existing function ice_get_vf_vsi(vf)
-1f48ef4a34c1b1a6cf64561c148322eca011f65d igb: conditionalize I2C bit banging on external thermal sensor support
-6f213fea592f389fb2d46b8e4a0b25546026a0c6 ice: switch: fix potential memleak in ice_add_adv_recipe()
-7a30cf5058b736f6e05d82ee3fe66d3ccbe82e2e igc: Add qbv_config_change_errors counter
-354d7b2ed010bfdaf3e3eba110394596a8f77df3 igc: offload queue max SDU from tc-taprio
-5416cd72b74721145480145b493f2f2a84220eb3 ice: move RDMA init to ice_idc.c
-48dcf3467fa7a98adadc01b5b53959484e321338 ice: alloc id for RDMA using xa_array
-e3b5fffd4cb9e7932be2895885fcacfe5045d268 ice: cleanup in VSI config/deconfig code
-c93e755d97af0258c8db483d2514b55aa5f024a8 ice: split ice_vsi_setup into smaller functions
-ef7316ab3c5ff88fbe7cc23815e820b3d2a141a3 ice: stop hard coding the ICE_VSI_CTRL location
-333db773132f4b18ce1e1b9cb47e01d34ea06c64 ice: split probe into smaller functions
-05c30a6a0c996cd76784203949135fb48511a182 ice: sync netdev filters after clearing VSI
-7a5e6f8d95353a18c85c7c01e79adc4b80204cf1 ice: move VSI delete outside deconfig
-3509c035b4385867ce63b1b33259b191cfbb256c ice: update VSI instead of init in some case
-21eef35fdb0d07584b1cf56ad89c70d11b47eb7b ice: implement devlink reinit action
-204e9c181970a764ff7b7913843719ea0430ddca i40e: Add flag for disabling VF source pruning
-14e18f3d6afcfc0495d347a6b384c7434092a532 ice: fix out-of-bounds KASAN warning in virtchnl
-90a18daf6ddba9d30d6348de9119f9ce3a28e149 ice: Change ice_vsi_realloc_stat_arrays() to void
-38c1b97a50851cead2b2fe1892fc4126b229f7d9 net/i40e: Replace 0-length array with flexible array
-1adf6c9b40e17e2e3a532200733897f9b982083e i40e: Remove unused i40e status codes
-4d60e0ad42f7c41d97a3042f470a4d305a37616b i40e: Remove string printing for i40e_status
-58468998ab5b3598edf000609244aed33fc19f4f i40e: use int for i40e_status
-fbd9ffedb6588a8b65fa2038de15d76b7fb60354 i40e: remove i40e_status
-98bda96d511f7e7b3ea6b7679eb7d6fdb1f1fbae i40e: use ERR_PTR error print in i40e messages
-4d6d55b880da42d6adf18d55cbae87a4b0aa210f igc: Add ndo_tx_timeout support
-4f60e8f651837973806c9e4f16ac4507a0f987c6 ice: avoid bonding causing auxiliary plug/unplug under RTNL lock
-9a09f1be9344a0d0ead63eb8785b15f1188e5857 ice: Fix disabling Rx VLAN filtering with port VLAN enabled
-849be0c55cf5cdae279147ce5a0fa24af80d7f4d ice: Mention CEE DCBX in code comment
-cd06c626e74696f554ec1ff73a2ef76e2f1a85f6 ice: fix function comment referring to ice_vsi_alloc
-053e794c883c2bb4241148e9b656598fe43e1f41 ice: drop unnecessary VF parameter from several VSI functions
-f23f8cbec0225393f5c7850e4efcf2d0e9f525db ice: refactor VSI setup to use parameter structure
-278fe34ce675acefcb6d3b66ea11934ccd452a76 ice: move vsi_type assignment from ice_vsi_alloc to ice_vsi_cfg
-0c618558c8b533c410147187640f982c01b1849b ice: move ice_vf_vsi_release into ice_vf_lib.c
-7cddff95732580ba17cdfba63493c45032490032 ice: Pull common tasks into ice_vf_post_vsi_rebuild
-096a1ddb97c24502faf9569b6045b4db9123d909 ice: add a function to initialize vf entry
-731b02a153ead3ec2df96e37ea96cadca9966c8c ice: introduce ice_vf_init_host_cfg function
-b999f886f9e229eee1fdaf95b70f0db1af72ee13 ice: convert vf_ops .vsi_rebuild to .create_vsi
-f3b4f5042dc6b65c6f1c43d50d45592de97537d9 ice: introduce clear_reset_state operation
-95f4b1f8ca8c820a424bd6df30bdebe23efd8b97 ice: introduce .irq_close VF operation
-4dab661f671a5290dc09a2323e66485c46633bb4 ice: remove unnecessary virtchnl_ether_addr struct use
-3fd820550174472bd38d468706bb18da404b58ce ice/ptp: fix the PTP worker retrying indefinitely if the link went down
-1217bc694b9c546f6367a41d408fd56a7b09bc86 ice: remove FW logging code
-2b53d461f54b24eb4c509a7fd1933e03aa2670a2 ice: enable devlink to check FW logging status
-9b121fc108f7c16124812f2790057e39e02e9624 ice: add ability to query/set FW log level and resolution
-981fd86edbebd820e94563a8e86fce32dd3b9de7 ice: disable FW logging on driver unload
-a3862397f11a7fb58659a724b4d919ed7aff3824 ice: use debugfs to output FW log data
-ff705e8bc30cbfaab85b5f57e844331a8eb034b6 ice: Fix check for weight and priority of a scheduling node
-1244ece158e20a0d0553fcd74a1f7478fce5f466 ice: Do not use WQ_MEM_RECLAIM flag for workqueue
-5c93bd9923a38bc9549033ffe63d2bd0f0d7acc4 ice: Fix DSCP PFC TLV creation
-a5ca922e995826c547107d6cc78becacf80655a7 i40e: Add checking for null for nlmsg_find_attr()
-4707de48df9d97bd313405c431ed5372d8075935 igb: Fix PPS input and output using 3rd and 4th SDP
+0668a4affde46e378ba83269ccaf74deb9b279b9 ice: move RDMA init to ice_idc.c
+24742ca66579b69e9eb132eebcc15dc853a70eea ice: alloc id for RDMA using xa_array
+109482ebcffe13d0190f3dc0c7702ba2a409151a ice: cleanup in VSI config/deconfig code
+9fb4f10c6dae1811a92ab01cfff33c634a7eed6f ice: split ice_vsi_setup into smaller functions
+f58204e578fe3a33281103af72bc345959cd6b23 ice: stop hard coding the ICE_VSI_CTRL location
+6c897aa741ca0f67f2572af17ac2c135327fedff ice: split probe into smaller functions
+72f028ce34f9b3b43f2354703014436e0b6670e5 ice: sync netdev filters after clearing VSI
+10b6e8527e1453e9aab4d7b80b9bc0ec6d0209d5 ice: move VSI delete outside deconfig
+86c93b8887b980d16c60346176d64c8878063eef ice: update VSI instead of init in some case
+84966beda86a349cf53b8f1298a638686e4ec162 ice: implement devlink reinit action
 
---===============4718965881225862518==--
+--===============7814482473678689391==--
