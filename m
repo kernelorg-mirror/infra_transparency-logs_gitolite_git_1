@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ti/linux
-Date: Fri, 03 Feb 2023 09:37:31 -0000
-Message-Id: <167541705181.12317.7063078931339746323@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pinchartl/linux
+Date: Fri, 03 Feb 2023 09:46:37 -0000
+Message-Id: <167541759719.811.3977649882981632073@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ti/linux
-user: vigneshr
+repo: pub/scm/linux/kernel/git/pinchartl/linux
+user: pinchartl
 changes:
-  - ref: refs/tags/ti-k3-dt-for-v6.3
+  - ref: refs/tags/media-imx-isi-next-20230203
     old: 0000000000000000000000000000000000000000
-    new: 74cb7af316a0da211f0f25cbd662aff82d6f1103
+    new: 26a476fdbd20238d2a50e84eab0267140b46a1e9
