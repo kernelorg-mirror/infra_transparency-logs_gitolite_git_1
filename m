@@ -1,43 +1,28 @@
-Content-Type: multipart/mixed; boundary="===============7377051176106500190=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jgg/iommufd
-Date: Fri, 03 Feb 2023 19:48:24 -0000
-Message-Id: <167545370421.14262.6543184964476361459@gitolite.kernel.org>
-
---===============7377051176106500190==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Fri, 03 Feb 2023 19:48:28 -0000
+Message-Id: <167545370862.14345.10644523055304532147@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jgg/iommufd
-user: jgg
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/for-next
-    old: 84798f2849942bb5e8817417adfdfa6241df2835
-    new: 18fa61c40b5c4f95d3138b1b92ade78582f8c5af
-    log: revlist-84798f284994-18fa61c40b5c.txt
-
---===============7377051176106500190==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-84798f284994-18fa61c40b5c.txt
-
-1369459b2e219a6f4c861404c4f195cd81dcbb40 iommu: Add a gfp parameter to iommu_map()
-4dc6376af596d9b2a46fa9baf94c9f2fa5a3d246 iommu: Remove iommu_map_atomic()
-f2b2c051be6262edc3c6fce50d3d4f01b59ba228 iommu: Add a gfp parameter to iommu_map_sg()
-96d57808808595d33f98cef5b3c0f75dde6a72f2 iommu/dma: Use the gfp parameter in __iommu_dma_alloc_noncontiguous()
-e787a38e31e57c35682d363e71891956d804f7e3 iommufd: Use GFP_KERNEL_ACCOUNT for iommu_map()
-2552d3a2292aa9bc14e84afe846027e9bd98eb78 iommu/intel: Add a gfp parameter to alloc_pgtable_page()
-2d4d767659ff4d48464836a0a6de47e7540c6b13 iommu/intel: Support the gfp argument to the map_pages op
-4951eb262384c24602b61b97d0bedcb54c3e4c9f iommu/intel: Use GFP_KERNEL in sleepable contexts
-d3b82825217aab0ed56e2426a0d07af2e2ebd7df iommu/s390: Push the gfp parameter to the kmem_cache_alloc()'s
-429f27e36874e34727a1f8495be2ea3a7060732c iommu/s390: Use GFP_KERNEL in sleepable contexts
-fd9f2a912255106d3b53163d816a4bd99ba29664 Merge branch 'iommu-memory-accounting' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/joro/iommu intoiommufd/for-next
-c9a397cee9f5c93a7f48e18038b14057044db6ba vfio: Support VFIO_NOIOMMU with iommufd
-18fa61c40b5c4f95d3138b1b92ade78582f8c5af Merge brnach 'vfio-no-iommu' into iommufd.git for-next
-
---===============7377051176106500190==--
+  - ref: refs/heads/master
+    old: 7b753a909f426f2789d9db6f357c3d59180a9354
+    new: 0136d86b78522bbd5755f8194c97a987f0586ba5
+    log: |
+         b600de2d7d3a16f9007fad1bdae82a3951a26af2 block, bfq: fix uaf for bfqq in bic_set_bfqq()
+         29baef789c838bd5c02f50c88adbbc6b955aaf61 block: ublk: extending queue_size to fix overflow
+         81ea42b9c3d61ea34d82d900ed93f4b4851f13b0 block: Fix the blk_mq_destroy_queue() documentation
+         0cab4404874f2de52617de8400c844891c6ea1ce nvme-fc: fix a missing queue put in nvmet_fc_ls_create_association
+         fd62678ab55cb01e11a404d302cdade222bf4022 nvme: clear the request_queue pointers on failure in nvme_alloc_admin_tag_set
+         6fbf13c0e24fd86ab2e4477cd8484a485b687421 nvme: clear the request_queue pointers on failure in nvme_alloc_io_tag_set
+         bd97a59da6a866e3dee5d2a2d582ec71dbbc84cd nvme-auth: use workqueue dedicated to authentication
+         0416f3be58c6b1ea066cd52e354b857693feb01e blk-cgroup: don't update io stat for root cgroup
+         e02bbac74cdde25f71a80978f5daa1d8a0aa6fc3 Merge tag 'nvme-6.2-2023-02-02' of git://git.infradead.org/nvme into block-6.2
+         0136d86b78522bbd5755f8194c97a987f0586ba5 Merge tag 'block-6.2-2023-02-03' of git://git.kernel.dk/linux
+         
