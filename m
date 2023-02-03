@@ -1,37 +1,51 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mst/vhost
-Date: Fri, 03 Feb 2023 09:33:37 -0000
-Message-Id: <167541681725.9544.11561813523206352554@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============0056699722557099679=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Fri, 03 Feb 2023 09:37:30 -0000
+Message-Id: <167541705001.12259.12268085671831875256@gitolite.kernel.org>
+
+--===============0056699722557099679==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mst/vhost
-user: mst
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: davem
 changes:
-  - ref: refs/heads/linux-next
-    old: 0045f8afe23be654c66a529667e4ab686d252d7e
-    new: 0abb6759a5522ad379bc3d24da167db1de25a8ca
-    log: |
-         cf76ef6bca4e76c03f00c6eb5f4e62aa2dd3e844 vhost-scsi: convert sysfs snprintf and sprintf to sysfs_emit
-         cec561e5928783709192960de74edab9f64cc5ff vhost-net: support VIRTIO_F_RING_RESET
-         0abb6759a5522ad379bc3d24da167db1de25a8ca vdpa: Fix a couple of spelling mistakes in some messages
-         
-  - ref: refs/heads/test
-    old: 0045f8afe23be654c66a529667e4ab686d252d7e
-    new: 0abb6759a5522ad379bc3d24da167db1de25a8ca
-    log: |
-         cf76ef6bca4e76c03f00c6eb5f4e62aa2dd3e844 vhost-scsi: convert sysfs snprintf and sprintf to sysfs_emit
-         cec561e5928783709192960de74edab9f64cc5ff vhost-net: support VIRTIO_F_RING_RESET
-         0abb6759a5522ad379bc3d24da167db1de25a8ca vdpa: Fix a couple of spelling mistakes in some messages
-         
-  - ref: refs/heads/vhost
-    old: 0045f8afe23be654c66a529667e4ab686d252d7e
-    new: 0abb6759a5522ad379bc3d24da167db1de25a8ca
-    log: |
-         cf76ef6bca4e76c03f00c6eb5f4e62aa2dd3e844 vhost-scsi: convert sysfs snprintf and sprintf to sysfs_emit
-         cec561e5928783709192960de74edab9f64cc5ff vhost-net: support VIRTIO_F_RING_RESET
-         0abb6759a5522ad379bc3d24da167db1de25a8ca vdpa: Fix a couple of spelling mistakes in some messages
-         
+  - ref: refs/heads/master
+    old: 2798e36dc233a409a5d3f26f73029596dc504020
+    new: 8065c0e13f9875f597920a2af47e5dc2940a9c4f
+    log: revlist-2798e36dc233-8065c0e13f98.txt
+
+--===============0056699722557099679==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-2798e36dc233-8065c0e13f98.txt
+
+b46f1e5793298c67efc2f1b917350a2cefacf9d6 net: renesas: rswitch: Simplify struct phy * handling
+c16a5033f77b9ee7e5317efe288e97159f32108b net: renesas: rswitch: Convert to phy_device
+0df024d0f1d3e556e38e5418fc3577a2c7263764 net: renesas: rswitch: Add host_interfaces setting
+5cb630925b49dd13bf3aa43f299b11615c8fe9cd net: renesas: rswitch: Add phy_power_{on,off}() calling
+04c77d9130b693e56a477364af1e1be4379b1b49 net: renesas: rswitch: Add "max-speed" handling
+64e09d04b9562eb1cae8bd06afff0f73ae315102 Merge branch 'rswitch-SERDES-PHY-init'
+942814840127a7d6307d0aaf087dbd3cfdeb2a2d net: lan966x: Add VCAP debugFS support
+29744a10c59ede4f996c0c893127ac11bcc85c0c net: flow_offload: provision conntrack info in ct_metadata
+0eb5acb16418898c3d813e2c2d59a7ea7763a824 netfilter: flowtable: fixup UDP timeout depending on ct state
+8f84780b84d645d6e35467f4a6f3236b20d7f4b2 netfilter: flowtable: allow unidirectional rules
+1a441a9b8be8849957a01413a144f84932c324cb netfilter: flowtable: cache info of last offload
+d5774cb6c55c8721c2daf57cc5e5345e3af286ea net/sched: act_ct: set ctinfo in meta action depending on ct state
+6a9bad0069cf306f3df6ac53cf02438d4e15f296 net/sched: act_ct: offload UDP NEW connections
+df25455e5a489764508942b77b77de8f550e92cd netfilter: nf_conntrack: allow early drop of offloaded UDP conns
+18390581d0d4da50eeaceee903b4965254dd5802 Merge branch 'act_ct-UDP-NEW'
+cf08dfe8ae7e32e33eb16e6001f45f940cecbfac dt-bindings: net: Add Motorcomm yt8xxx ethernet phy
+4869a146cd60fc8115230f0a45e15e534c531922 net: phy: Add BIT macro for Motorcomm yt8521/yt8531 gigabit ethernet phy
+a6e68f0f8769f79c67cdcfb6302feecd36197dec net: phy: Add dts support for Motorcomm yt8521 gigabit ethernet phy
+36152f87dda4af221b16258751451d9cd3d0fb0b net: phy: Add dts support for Motorcomm yt8531s gigabit ethernet phy
+4ac94f728a588e7096dd5010cd7141a309ea7805 net: phy: Add driver for Motorcomm yt8531 gigabit ethernet phy
+8065c0e13f9875f597920a2af47e5dc2940a9c4f Merge branch 'yt8531-support'
+
+--===============0056699722557099679==--
