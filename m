@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
-Date: Fri, 03 Feb 2023 21:12:33 -0000
-Message-Id: <167545875341.4486.9008887041187115191@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Fri, 03 Feb 2023 21:14:16 -0000
+Message-Id: <167545885613.5068.12430399743054386745@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/qcom/linux
-user: andersson
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
-  - ref: refs/heads/for-next
-    old: 7abdc183e9e09449633ccf66106d6dbb3293423f
-    new: 6f04f4b5fde6d4cddf31b2db047285c0f9a487e4
+  - ref: refs/heads/master
+    old: 0c6e7ef03a3a5ce0f4d8339dff65c7cf30687a3e
+    new: 1fe450ab2027f390f88a8409789f942886a565a3
     log: |
-         e27f38e6255306527e32af85592d805f3360ff94 arm64: dts: qcom: sm8450-nagara: Correct firmware paths
-         6f04f4b5fde6d4cddf31b2db047285c0f9a487e4 Merge branches 'arm64-for-6.3' and 'drivers-for-6.3' into for-next
+         1fe450ab2027f390f88a8409789f942886a565a3 Fri Feb  3 09:12:52 PM UTC 2023
          
