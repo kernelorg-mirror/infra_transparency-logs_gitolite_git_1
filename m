@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-power-supply
-Date: Fri, 03 Feb 2023 12:59:41 -0000
-Message-Id: <167542918177.31638.11283124789408668308@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
+Date: Fri, 03 Feb 2023 13:06:23 -0000
+Message-Id: <167542958388.4466.4854554762021246061@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sre/linux-power-supply
-user: sre
+repo: pub/scm/linux/kernel/git/soc/soc
+user: arnd
 changes:
-  - ref: refs/heads/for-next
-    old: 3639dbd74e2e827d544bdb28b663a44449c014e1
-    new: 301cfbc1249759415ff864bdf46e15c7e103279b
-    log: |
-         301cfbc1249759415ff864bdf46e15c7e103279b power: supply: max1721x: Use strscpy() is more robust and safer
-         
+  - ref: refs/heads/mediatek/dt
+    old: 0000000000000000000000000000000000000000
+    new: f104d74bbf4859a628c2234d6f86a53949b9b1b8
