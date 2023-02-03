@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============2722567188765700197=="
+Content-Type: multipart/mixed; boundary="===============2359459786862178190=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux
-Date: Fri, 03 Feb 2023 18:47:33 -0000
-Message-Id: <167545005382.6283.4399073388348705102@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
+Date: Fri, 03 Feb 2023 18:47:48 -0000
+Message-Id: <167545006882.6442.1312310651779627533@gitolite.kernel.org>
 
---===============2722567188765700197==
+--===============2359459786862178190==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux
+repo: pub/scm/linux/kernel/git/amlogic/linux
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -23,7 +23,7 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: d68cd3a82e80628f13a69e51ce459de12870f5b9
 
---===============2722567188765700197==
+--===============2359459786862178190==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -461,4 +461,4 @@ a30df1ea94ad35c7b42d44199fe1376b4d648862 Merge tag 'riscv-for-linus-6.2-rc7' of 
 a0880c33794ba417687822482ffb0d3b797f0a04 Merge tag 'efi-fixes-for-v6.2-3' of git://git.kernel.org/pub/scm/linux/kernel/git/efi/efi
 7b753a909f426f2789d9db6f357c3d59180a9354 Merge tag 'ceph-for-6.2-rc7' of https://github.com/ceph/ceph-client
 
---===============2722567188765700197==--
+--===============2359459786862178190==--
