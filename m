@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/abelvesa/linux
-Date: Fri, 03 Feb 2023 10:18:26 -0000
-Message-Id: <167541950642.23594.5833757536148176429@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/livepatching/livepatching
+Date: Fri, 03 Feb 2023 10:24:35 -0000
+Message-Id: <167541987597.26976.5980449202211892148@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/abelvesa/linux
-user: abelvesa
+repo: pub/scm/linux/kernel/git/livepatching/livepatching
+user: pmladek
 changes:
-  - ref: refs/tags/clk-imx-6.3
+  - ref: refs/heads/for-6.2/cleanup-relocations
     old: 0000000000000000000000000000000000000000
-    new: 6ca3637dfe1e277ee3fe0143ebc5abe0d6828b13
+    new: e1a1ccef7a4f3a3058cd6c039a56b4c2c98479f1
