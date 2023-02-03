@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Fri, 03 Feb 2023 04:35:38 -0000
-Message-Id: <167539893829.6302.8792642569738245795@gitolite.kernel.org>
+Date: Fri, 03 Feb 2023 04:40:23 -0000
+Message-Id: <167539922377.9307.7342668361625610514@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,10 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/for-next
-    old: d9e44c324ce625065a33366fb575c87efb00b443
-    new: 158e5e9eeaa0d7a86f2278313746ef6c8521790d
+  - ref: refs/heads/master
+    old: 158e5e9eeaa0d7a86f2278313746ef6c8521790d
+    new: 150809082aab95f7078f343c1c82770d6c9ebe68
     log: |
-         158e5e9eeaa0d7a86f2278313746ef6c8521790d bpf: Drop always true do_idr_lock parameter to bpf_map_free_id
+         e2bd9742989b6af873371de48c228a9ac1e87cba tools/bpf: Use tab instead of white spaces to sync bpf.h
+         150809082aab95f7078f343c1c82770d6c9ebe68 selftests/bpf: Use semicolon instead of comma in test_verifier.c
          
