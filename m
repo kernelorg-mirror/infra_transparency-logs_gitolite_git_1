@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Fri, 03 Feb 2023 17:43:17 -0000
-Message-Id: <167544619784.26528.14917173942571609382@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Fri, 03 Feb 2023 17:43:52 -0000
+Message-Id: <167544623206.26811.290560682533058499@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
-user: broonie
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/for-next
-    old: 78169d8f07995d6c6d59637f479fb1eddb7cd4eb
-    new: e4b37538f6f7c24a13d6bede4e75f60f213bd2ea
+  - ref: refs/heads/dev
+    old: a767d58cf3a56424ab8b0825641e739c58c26d87
+    new: 38c1e8adc5c51fdd2acb9c4362765e78fed2979b
     log: |
-         0365df81145a4cfaae5f4da896160de512256e6d regulator: tps65219: use generic set_bypass()
-         e4b37538f6f7c24a13d6bede4e75f60f213bd2ea Merge remote-tracking branch 'regulator/for-6.3' into regulator-next
+         38c1e8adc5c51fdd2acb9c4362765e78fed2979b rcutorture: Create nocb kthreads only when testing rcu in CONFIG_RCU_NOCB_CPU=y kernels
          
