@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Fri, 03 Feb 2023 14:41:46 -0000
-Message-Id: <167543530643.3335.15635330609239953587@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Fri, 03 Feb 2023 14:43:54 -0000
+Message-Id: <167543543400.4017.16694403344625789983@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: jgg
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/for-rc
-    old: c956940a4ab73a87d0165e911c001dbdd2c8200f
-    new: f9c47b2caa7ffc903ec950b454b59c209afe3182
-    log: |
-         f9c47b2caa7ffc903ec950b454b59c209afe3182 IB/hfi1: Assign npages earlier
-         
+  - ref: refs/heads/fileQCK2Ne
+    old: 96ebccb2356da5f28726746e53719c5f494e08a7
+    new: 0000000000000000000000000000000000000000
