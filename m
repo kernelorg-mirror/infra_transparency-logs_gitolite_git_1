@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/perfbook
-Date: Fri, 03 Feb 2023 20:03:36 -0000
-Message-Id: <167545461664.23731.7123329554601177320@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jfern/linux
+Date: Fri, 03 Feb 2023 20:22:07 -0000
+Message-Id: <167545572717.4397.12385970746552135189@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/perfbook
-user: paulmck
+repo: pub/scm/linux/kernel/git/jfern/linux
+user: jfern
 changes:
-  - ref: refs/heads/master
-    old: 35a7791778053a0bdb1c3b0bccae61eaadf43603
-    new: 819ad31400802d4611920bbfbd55465fcc1db0e0
+  - ref: refs/heads/staging
+    old: 4fa7458760a07559a7afbad8fbfd36506bf66993
+    new: 9d56dcc31babadcb02fd32d15d9a57b2d10383ef
     log: |
-         855dc947d18b1f3e23446596c543bf6939d791bc Bibliography update
-         819ad31400802d4611920bbfbd55465fcc1db0e0 howto: Add Mara Bos's Rust Concurrency book
+         9d56dcc31babadcb02fd32d15d9a57b2d10383ef tools/memory-model: Restrict to-r to read-read address dependency
          
