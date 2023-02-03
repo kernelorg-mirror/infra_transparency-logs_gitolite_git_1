@@ -1,47 +1,42 @@
-Content-Type: multipart/mixed; boundary="===============8689592754222367981=="
+Content-Type: multipart/mixed; boundary="===============3628345604636900099=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Fri, 03 Feb 2023 20:56:08 -0000
-Message-Id: <167545776834.26971.14860239586640134378@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Fri, 03 Feb 2023 21:00:57 -0000
+Message-Id: <167545805715.30078.16670376553289449352@gitolite.kernel.org>
 
---===============8689592754222367981==
+--===============3628345604636900099==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
-user: acme
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/heads/tmp.perf/core
-    old: ab397971c7f9f98c2def0d89f812099ea2a9a0c8
-    new: 17f248aa8664ff5b3643491136283e73b5c18166
-    log: revlist-ab397971c7f9-17f248aa8664.txt
+  - ref: refs/heads/bleeding-edge
+    old: 34f2cf2f45417adbc696de5e37eb64586c0bf18e
+    new: 6c08dffbc02b6d339abcebb393bbadbf81c560ed
+    log: revlist-34f2cf2f4541-6c08dffbc02b.txt
 
---===============8689592754222367981==
+--===============3628345604636900099==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ab397971c7f9-17f248aa8664.txt
+Content-Disposition: attachment; filename=revlist-34f2cf2f4541-6c08dffbc02b.txt
 
-96d2a74618e35c67b1c2245bb927b7d7fbdae526 perf pmu-events: Separate the metrics from events for no jevents
-d9dc8874d6ce46ccb3a0761e1540927ea07408ea perf pmu-events: Remove now unused event and metric variables
-6f8f98ab6c16101b0694ef7e70425ded9d7af30e perf stat: Remove evsel metric_name/expr
-9f587cc93fe98e8d1e6527e18685635e0155fd08 perf jevents: Combine table prefix and suffix writing
-f8ea2c1524de42a6bae55cef5713d1229030324b perf pmu-events: Introduce pmu_metrics_table
-62774db2a05dc878c83824afd8e6594ff277b91a perf jevents: Generate metrics and events as separate tables
-5a09b1fd1b1fadf70cbf02a8daa49046e870a7aa perf jevents: Add model list option
-3340a08354ac286e252738436cf0fbf0d9e72449 perf pmu-events: Fix testing with JEVENTS_ARCH=all
-d2e3dc829e389d686194d06f0a64adda4158faae perf jevents: Correct bad character encoding
-e30f34053e5bc552829249941120ad042ba27723 tools build: Add test echo-cmd
-b777b3d2555feeaa2bf39d6541ed9198e2d2d728 perf jevents: Run metric_test.py at compile-time
-7105311c2d3bce8f52653dbfe87de475a251892b perf arm-spe: Add raw decoding for SPEv1.2 previous branch address
-492fef218a6606c53bbb979a65b8f827c5ea02ce perf lock contention: Factor out lock_contention_get_name()
-16cad1d3597d32e470a4115f11c5e61cce6cd81b perf lock contention: Use lock_stat_find{,new}
-ebab291641bed48f62c608e3bf29071c435c2d9b perf lock contention: Support filters for different aggregation
-d7d213e04cf83318681f24870f1144e50d5c91bb perf report: Support Retire Latency
-17f248aa8664ff5b3643491136283e73b5c18166 perf script: Support Retire Latency
+7bc1fcd399018245575974508c26e882da0bd915 ACPI: CPPC: Add AMD pstate energy performance preference cppc control
+e22abc6bb97cee240200d037a16b73951df16f9a Documentation: amd-pstate: add EPP profiles introduction
+36c5014e5460963ad7766487c0e22a7ff28681fc cpufreq: amd-pstate: optimize driver working mode selection in amd_pstate_param()
+ffa5096a7c338641f70fb06d4778e8cf400181a8 cpufreq: amd-pstate: implement Pstate EPP support for the AMD processors
+d4da12f8033a123353eccf993cb95ee5bff21e7c cpufreq: amd-pstate: implement amd pstate cpu online and offline callback
+50ddd2f7826927e6dc111a43b3a183f53c260fa4 cpufreq: amd-pstate: implement suspend and resume callbacks
+abd61c08ef349af08df0bf587d33f5bde5996a89 cpufreq: amd-pstate: add driver working mode switch support
+92e6088427c5da7ef8dc92d6ab2f0f8f6a01fab7 Documentation: amd-pstate: add amd pstate driver mode introduction
+5014603e409b01001bfbeae090a16733f61a7640 Documentation: introduce amd pstate active mode kernel command line options
+3ec32b6d17c5b229c6f5d05849932af1f0c6f523 cpufreq: amd-pstate: convert sprintf with sysfs_emit()
+b9e6a2d47b2565eb450d3ee900fba49cc9b25cbd Documentation: amd-pstate: introduce new global sysfs attributes
+6c08dffbc02b6d339abcebb393bbadbf81c560ed Merge branch 'pm-cpufreq' into bleeding-edge
 
---===============8689592754222367981==--
+--===============3628345604636900099==--
