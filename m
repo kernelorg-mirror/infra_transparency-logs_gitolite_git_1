@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cem/xfsprogs-dev
-Date: Fri, 03 Feb 2023 12:58:10 -0000
-Message-Id: <167542909082.31099.4373676076545899043@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-power-supply
+Date: Fri, 03 Feb 2023 12:59:41 -0000
+Message-Id: <167542918177.31638.11283124789408668308@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cem/xfsprogs-dev
-user: cem
+repo: pub/scm/linux/kernel/git/sre/linux-power-supply
+user: sre
 changes:
   - ref: refs/heads/for-next
-    old: d8eab7600f470fbd09013eb90cbc7c5e271da4e5
-    new: e9f1424863be2201711ba7fc97f9a628a8358535
+    old: 3639dbd74e2e827d544bdb28b663a44449c014e1
+    new: 301cfbc1249759415ff864bdf46e15c7e103279b
     log: |
-         77e8ce78c111f16105a4cf1b67e8f42f88a383f5 xfs_admin: correctly parse IO_OPTS parameters
-         e9f1424863be2201711ba7fc97f9a628a8358535 xfs_admin: get/set label of mounted filesystem
+         301cfbc1249759415ff864bdf46e15c7e103279b power: supply: max1721x: Use strscpy() is more robust and safer
          
