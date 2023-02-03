@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
-Date: Fri, 03 Feb 2023 17:00:48 -0000
-Message-Id: <167544364831.31854.3689548940238612473@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Fri, 03 Feb 2023 17:01:48 -0000
+Message-Id: <167544370889.32316.139230584447950762@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
-user: shuah
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: ast
 changes:
-  - ref: refs/heads/next
-    old: 77c4f1d60b99ab28a42f116a0c28d1399e16920c
-    new: b23b16d35135d8c067abde6a6e1467127c3dea87
+  - ref: refs/heads/master
+    old: 377c16fa3f3c60d21e4b05314c8be034ce37f2eb
+    new: 16c294a6aad862d79fc6b8170c45aac11670e9a1
     log: |
-         b23b16d35135d8c067abde6a6e1467127c3dea87 selftests/ftrace: Fix bash specific "==" operator
+         16c294a6aad862d79fc6b8170c45aac11670e9a1 bpf/docs: Document kfunc lifecycle / stability expectations
          
