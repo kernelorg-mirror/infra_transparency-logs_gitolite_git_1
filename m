@@ -1,40 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-dt
-Date: Fri, 03 Feb 2023 07:17:06 -0000
-Message-Id: <167540862608.16196.3347614311780302069@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============1929212611307532577=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Fri, 03 Feb 2023 07:26:28 -0000
+Message-Id: <167540918813.21983.6384860709083485453@gitolite.kernel.org>
+
+--===============1929212611307532577==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux-dt
-user: krzk
+repo: pub/scm/linux/kernel/git/gregkh/usb
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-next
-    old: e912da7a88758d2c41f03ca386c3744d1e57c9f7
-    new: b2dfb5b7b044189419a6c60ccc7e4d99d5f94dde
+  - ref: refs/heads/usb-testing
+    old: b0425784b942fffbbdb804896197f1dbccda37c5
+    new: 4f6dfc2136fb2e8dc3f571a5caff6b6e88281fc0
     log: |
-         91d04c759c85f1fc2d3ed7d1b5bc1a7dbab87f92 dt-bindings: pinctrl: qcom,sm8350: add input-disable
-         792349083a7307bf34de26516bc047cfd5c6296b dt-bindings: pinctrl: qcom,msm8226: correct GPIO name pattern
-         87b93dd1fbb23b9bbae461bb2c01f6d93c7524d9 dt-bindings: pinctrl: qcom,msm8909: correct GPIO name pattern and example
-         a51c1f0244c84e482f1ceb4701c38aaa4b224baf dt-bindings: pinctrl: qcom,sm6375: correct GPIO name pattern and example
-         913137a1cd1e792587e8ae2a43d31389fdbaddf6 dt-bindings: pinctrl: qcom,msm8953: correct GPIO name pattern
-         5c7069712c9be01d1bf9061a7ef5ce78df0af0a5 dt-bindings: pinctrl: qcom,sdx55: correct GPIO name pattern
-         174668bf5f6c2dd03441a4660e249cc5e2c78b95 dt-bindings: pinctrl: qcom,msm8994: correct number of GPIOs
-         6f4e10ffa8fbccf220f7c5c869e8373065b9ef7d dt-bindings: pinctrl: qcom: correct gpio-ranges in examples
-         b2dfb5b7b044189419a6c60ccc7e4d99d5f94dde Merge branch 'next/qcom-pinctrl' into for-next
+         4f6dfc2136fb2e8dc3f571a5caff6b6e88281fc0 usb: remove the dead USB_OHCI_SH option
          
-  - ref: refs/heads/next/qcom-pinctrl
-    old: 5b8c304c94d79f44aea8ee273ce70ca380804156
-    new: 6f4e10ffa8fbccf220f7c5c869e8373065b9ef7d
-    log: |
-         91d04c759c85f1fc2d3ed7d1b5bc1a7dbab87f92 dt-bindings: pinctrl: qcom,sm8350: add input-disable
-         792349083a7307bf34de26516bc047cfd5c6296b dt-bindings: pinctrl: qcom,msm8226: correct GPIO name pattern
-         87b93dd1fbb23b9bbae461bb2c01f6d93c7524d9 dt-bindings: pinctrl: qcom,msm8909: correct GPIO name pattern and example
-         a51c1f0244c84e482f1ceb4701c38aaa4b224baf dt-bindings: pinctrl: qcom,sm6375: correct GPIO name pattern and example
-         913137a1cd1e792587e8ae2a43d31389fdbaddf6 dt-bindings: pinctrl: qcom,msm8953: correct GPIO name pattern
-         5c7069712c9be01d1bf9061a7ef5ce78df0af0a5 dt-bindings: pinctrl: qcom,sdx55: correct GPIO name pattern
-         174668bf5f6c2dd03441a4660e249cc5e2c78b95 dt-bindings: pinctrl: qcom,msm8994: correct number of GPIOs
-         6f4e10ffa8fbccf220f7c5c869e8373065b9ef7d dt-bindings: pinctrl: qcom: correct gpio-ranges in examples
-         
+
+--===============1929212611307532577==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1675409186 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1675409184-e01a8158ec8277314e23319c481da81999671606
+
+b0425784b942fffbbdb804896197f1dbccda37c5 4f6dfc2136fb2e8dc3f571a5caff6b6e88281fc0 refs/heads/usb-testing
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPctyIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+WlcP/iHC1gJc5lNMxZHLCY1q
+QixSSWqosQpDI2g6a4DoZnfMgCeTsFH/L9aJijDAPUcs1AFfQa7+4RqzYaB7bSnx
+fNUgo6V0FHmYU0GjuyOglLmh5OjtXnqjsFtUoQWMs135SZgzjyuO3cU2UP22odiE
+QQsX6YZgKu/0D6ybr4QZ75vNqNDbL7xoa2/inzYtkcBC5kKWH1FvKQeoPUQgBO0n
+n4npyibvyxdnFQhw4XiM4inmk/HwR2DVZPeFpa+NbTlTRxReo1sPTX6qNeBRYZKN
+Pdff0oaUWEeYHEqKKLqwa66hgJ2kVdVPkiaq9UsyXOyrPR1wVVr8zSyj1FFas2Aa
+hGRE6PQR8lvmrBUmx6RFP+l5GoadXzVr3eJsFNEm+POBlZWDpDChJj26MfGK6+YQ
+eADT6V0FfqFger/xzaVdhcxrAqiCfuVN7BBm4V2R6Fifehmzk+eLVFmsZt8bgzZZ
+74+Eggdk5Szh/DoVZr+umTa1F3v7yc0zpsv9b1VtGQgdZ42QLGBtpj0rKtkFBSju
+4tevZvLbUq0KkOPmMavWIYLIx9esiNXuAf6O81YgGQHOe7jC5Ak6NCWrp+kB9f/n
+D1qBD2sifzSq/BIPlPBumiI9vfA8MUIS9OwErNwNDoPi/3v/+GUnUuoL4+ZrWBvB
+8TlJgPD8ZeafDOpfSgLBJsF0
+=59e4
+-----END PGP SIGNATURE-----
+
+--===============1929212611307532577==--
