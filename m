@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3019515158274115242=="
+Content-Type: multipart/mixed; boundary="===============5833682717988246370=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Fri, 03 Feb 2023 06:01:26 -0000
-Message-Id: <167540408620.30319.2714524860467086743@gitolite.kernel.org>
+Date: Fri, 03 Feb 2023 06:05:00 -0000
+Message-Id: <167540430013.31473.4094879055802165044@gitolite.kernel.org>
 
---===============3019515158274115242==
+--===============5833682717988246370==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,56 +17,117 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/char-misc-next
-    old: d45fed4ff61c48890e55a590bdd7a9fb22457be8
-    new: cbce3de28c37fdd7531526d8dbb0ae2187667dfe
-    log: revlist-d45fed4ff61c-cbce3de28c37.txt
+    old: cbce3de28c37fdd7531526d8dbb0ae2187667dfe
+    new: 196db6bb44738b76d7401c33aadadcea307894c2
+    log: revlist-cbce3de28c37-196db6bb4473.txt
 
---===============3019515158274115242==
+--===============5833682717988246370==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1675404085 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1675404297 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1675404085-c0e4680c3fe96f728cc30abdc14735bb3304494e
+nonce 1675404296-8ff0f2314364ca35eccd47307afbda21eba5e60c
 
-d45fed4ff61c48890e55a590bdd7a9fb22457be8 cbce3de28c37fdd7531526d8dbb0ae2187667dfe refs/heads/char-misc-next
+cbce3de28c37fdd7531526d8dbb0ae2187667dfe 196db6bb44738b76d7401c33aadadcea307894c2 refs/heads/char-misc-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPcozUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+nmEP/0+rL4U04khuDBVetETT
-PHSJcN3by52utss1x3vwAnT36SjRj1znwEp5yOV+AfYwjLikFlH278uiWtUtWcUQ
-8SlDLBh53hsWoKw/txtlEMz3b83zQp7T5HJ/sKcaQVMnluqLkXb7NgBenbqSY1UM
-Da0+5/H4SCBAjIeVdcsVOQFET9UdFgxc8+SLEYKXVkwE4ergAn6WrE6rYM5ZyXNU
-H5Ax+yVbDS8eEfarQcDMZFm+b7AT3raXx7OTwII/Bl58X2W7nJtfQHNQgfTBCQ1Q
-oLuuwqGscoilFPmycowXS42wQ60nl5PQbabxneeiEVZ6LJpfbi23DDVI4TwKwj+f
-trvlZvNrb3Ljdogprv/Sbfzr2pti3PQQOEuiIKqS1N0VGYxnWPkJXws9gkhryOhP
-y5VCDYSI9kwIyvuxgHucmJLt5uBZqgYeBuaSZ8PWqWQpMAiekQqdEljerJfJZgMs
-bh77Jv+FpwIl8xUEtR8Qt8gRT9iTl7zQ1J+jq0WTN+oIuFZp7JVmTwPTpYq6A+By
-8NydUC+7Z8aUDhX+4hqsSP4Esofonj5hWtDqE8+2t7YmjwNCoEBM3PF6ytdO0vH9
-vRLmr6lBONvNR7SK0v4cQ1QNs6bN8qiJpnzpJ7C5uLRyUzUFMxuWcGh3dAiiTx5Y
-DDWUfaYtMzVk+LaWUHx72I6R
-=CSUj
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPcpAkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+jZUP/0pl6LiQrRF9aI9ozs7j
+N65vcm3G+9y2egUZwGHHjkddX4pHljpNlsAkH1LLNaPjPtPAhqB0Jqz1px8pD2b4
+90eEE682QWXt8S2Xh3pgObgnV8a/LqRw3TGCpOSgXLWMaaRXRXUeBvt9Y2cnQK9T
+enIPZ2woVmEGXnX03RLxcBDM4EF4nbc4hRSJbsczQvGn4JDU4LsjdX8ha7OK/TUo
+xNMyFtJ/bGaMZWDl0BXP8QudDywVNnxSYMXqwOWfeXE6r4fIAFSNW+thi6navzEO
+vopRx3pKYzyXUSS7BUoKym5ep6CPu6PoVhyZmckEpcsRWEHTqRJS41/L9ePOiatT
+wei8T/JA0Ph0X5IxjrTd6WgU2WnyDD6XR3/+n6sKpjmrz+42t3ps5xDLWkK37M+N
+n8hXgHpShYWOetdw5gM3TNOGyKZxo8OE8JtIvPIe4CNz0Ju+Gd4CdB9ewZTEL6J9
+1zLbo/qPpSCqhaqTkDEBKlwcCzxkgxMxwYXc7Xi/T0ZwALTwjrTxqb+6EihrS8Wd
+aUAfvZofKufHvKSjfkbr/M/Lw2LveU6O5zGJ19kXH5dNb/iKMygVZCwegsgT6JB1
+xDozJEvfJy+Dj0wq+nxZNh3Jyhiyja77VHDMDErjQF8Q+dn2h8wF7Y3VvSaSnmv+
+bKLuM3zmSb6erczUmDVOPTMd
+=6gZy
 -----END PGP SIGNATURE-----
 
---===============3019515158274115242==
+--===============5833682717988246370==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d45fed4ff61c-cbce3de28c37.txt
+Content-Disposition: attachment; filename=revlist-cbce3de28c37-196db6bb4473.txt
 
-1501da7696b23c9a211aca732801156b90d3e4ba bus: mhi: Update Makefile to used Kconfig flags
-a33ca17426c0dcd21d9266f708de0559a936e229 bus: mhi: host: Update mhi driver description
-47a1dcaea07367c84238e71c08244ae3ed48c1cc bus: mhi: ep: Power up/down MHI stack during MHI RESET
-6de4941c0215ac1ea54918ace695a28f4a5ca89b bus: mhi: ep: Check if the channel is supported by the controller
-e6cebcc27519dcf1652e604c73b9fd4f416987c0 bus: mhi: ep: Only send -ENOTCONN status if client driver is available
-8e697fcfdb9809634e268058ca743369c216b7ac bus: mhi: ep: Fix the debug message for MHI_PKT_TYPE_RESET_CHAN_CMD cmd
-8d6a1fea53864cd9545741f48f4ae4df804db557 bus: mhi: ep: Move chan->lock to the start of processing queued ch ring
-8a1c24bb908f9ecbc4be0fea014df67d43161551 bus: mhi: ep: Save channel state locally during suspend and resume
-1ddc7618294084fff8d673217a9479550990ee84 bus: mhi: ep: Change state_lock to mutex
-3c54a3ff0a2cdcd902482a62fef813f1d46e5eaf bus: mhi: ep: Fix off by one in mhi_ep_process_cmd_ring()
-cbce3de28c37fdd7531526d8dbb0ae2187667dfe Merge tag 'mhi-for-v6.3' of git://git.kernel.org/pub/scm/linux/kernel/git/mani/mhi into char-misc-next
+08f01cc1d6e240092a6d9bfa21652622657f38f0 iio: add struct declaration for iio types
+fbb6d04eab99020c63810225bdbd1fa40f02e6b9 dt-bindings: iio: magnetometer: add ti tmag5273 documentation file
+866a1389174bbb71591bb0c927f1d63e7cc469c8 iio: magnetometer: add ti tmag5273 driver
+c9d8b868f4a37bf2589b0148f366cc753735ead7 dt-bindings: iio: adc: ti,adc081c: Document the binding
+51f3e9696c8e784f74a4c1f9fe2e9d5ff9641a8d dt-bindings: iio: adc: add TI LMP92064 controller
+627198942641dae28024ad686066311f1aeedcf2 iio: adc: add ADC driver for the TI LMP92064 controller
+611370fe482bf611ef61d2343b92742e4b2dc5a3 dt-bindings: iio: dac: ad5686: Add an entry for AD5337
+58c2630020c5f820d63e2d03aa2341d19d4c0c5b iio: dac: ad5686: Add support for AD5337
+7ae267954af798f51985629dc795fba616af37cd iio: adc: at91-sama5d2_adc: use sysfs_emit() to instead of scnprintf()
+f9e51aacc740935bd0201565e040fd7b36f645aa iio: common: scmi_iio: use sysfs_emit() to instead of scnprintf()
+4da9438d293d30def46b2801fa00e176c59883d2 iio: accel: bma400: Use devm_regulator_bulk_get_enable()
+122ef59a2a16e4542705913b905d841704e239e9 iio: pressure: ms5611: Use devm_regulator_get_enable()
+caa6693e408eb87169ac18db6073a326829ce7ad iio: pressure: ms5611: Switch to fully devm_ managed registration.
+22cd9320b11a2eb05e5d490863a4219ca32e8ec9 iio: light: max44009: Convert to i2c's .probe_new()
+027641b52fe37b64af61025298ce160c8b9b7a73 iio: light: tsl2563: Do not hardcode interrupt trigger type
+3c183534f2784484182e51c8019c1e9f0638ef8a iio: light: tsl2563: Use i2c_smbus_write_word_data() in tsl2563_configure()
+aca68c027322fd7c63c05b308569727a618c47a7 iio: light: tsl2563: Configure INT in one place
+b90619c4efee915c6419373b1ec024878ee7e38c iio: light: tsl2563: Make use of the macros from bits.h
+bbabf9199126d7eb950ccc369543c462cc58e1b7 iio: light: tsl2563: Drop unused defintion(s)
+2080c8d34602a6ad86286a04e5b8b40f40505215 iio: light: tsl2563: Simplify with dev_err_probe
+1f5e408f6a000be980872b8065e547e2dbef6acc iio: light: tsl2563: Drop legacy platform data code
+85a6b728eff68647746629b9332434e237a53100 iio: light: tsl2563: Utilise temporary variable for struct device
+571b97fd8777234fcd1f94ed36781bed39f1e20d iio: light: tsl2563: Use dev_get_drvdata() directly in PM callbacks
+3582a83b1f338d9be7b4461ff2ed8033d2ff9c6d iio: light: tsl2563: sort header inclusion alphabetically
+c12f0148f14bcac79c100e1eff9309744eed6684 iio: light: tsl2563: Keep Makefile sorted by module name
+5d1c74b155cb40606dce6f8db2f79537c11fcd71 iio: imu: kmx61: Fix spelling mistake "Errow" -> "Error"
+04104842736fb29d2e1b5c71dd93f87f428506f0 iio: adc: qcom-spmi-adc5: Suppress probe-deferral error message
+610813655932359e50900337f7fd24b684e7a476 dt-bindings: iio: adc: max1238: Fix a typo in the description
+bbd9b7e19be9709f5feef23c1994ab4302c454d1 dt-bindings: iio: adc: maxim,max1363: fix interface typo
+471a444fff21dfbc665704eb3bbab072409a7bcb dt-bindings: iio/adc: qcom,spmi-iadc: document PM8226 compatible
+08025a3bd9e0b975c1c2b59e31aa7c18d27786b7 dt-bindings: iio: adc: ep93xx: Add cirrus,ep9301-adc description
+80cbddf59009933274989cb39d52eb8f0a43839f iio: adc: ep93xx: Add OF support
+b7b81d1c65bffb759c68d04b5e5450cf4e301f62 iio: adc: ep93xx: Enable wider build testing with COMPILE_TEST
+d5f0da0c6972199a39d692309d9e0e09c57a3844 iio: adc: ti-adc128s052: Switch to use spi_get_device_match_data()
+c87d5e94fca8e2fc681a808608bddfb01878f791 iio: adc: ti-adc128s052: Drop anti-pattern of ACPI_PTR() use
+4b570fe0d4c9f326fb87b1c58abebb8f0376eaa9 iio: adc: ti-adc128s052: Sort headers
+591a6bc7f40d3ea6492527f595f1588e127d0b54 iio: adc: max11410: Use asm intead of asm-generic
+eae3e6f1c86f4499325cdaa3df4b90cd1f32464c drivers: iio: cdc: Drop redundant if check
+4aaf3e40272d9699d84b04f09aa6c2166b7e4aba dt-bindings: iio: st-sensors: Add LSM303C accelerometer+magnetometer
+23fd6f0bd6cbf010216a078a99dcbaa30c8bb5ae iio: accel: st_accel: Add LSM303C
+721a2a7edcdd10f55ef7d3cf74fc276b0d4177e8 iio: magnetometer: st_magn: Add LSM303C
+14e5b7ab196e6f18f76191cae4a4f6b41c0bfadd iio: adc: qcom-spmi-adc5: define ADC5_BAT_ID_100K_PU channel
+bfcae956d9b50ea0e221cefc171604c569017d7e iio: adc: stm32-dfsdm: add id registers support
+ebda75fbfa95ea825557325962f1ed6724d557d0 iio: chemical: scd30_core: use sysfs_emit() to instead of scnprintf()
+c44e031bcff1fa3483374fba7b053825f57dac8e iio: chemical: scd30_core: Switch to use dev_err_probe()
+cd19fbfedca524947d0df9cab820c21237005de2 iio: adc: xilinx-ams: Convert to use fwnode_device_is_compatible()
+122fb8736efce9a1bab0433ff330f3bf03d4a00e iio: core: Replace iio_sysfs_match_string_with_gaps() by __sysfs_match_string()
+05f59aba3906ff4c0a70e302711d81043f15114d iio: core: Sort headers
+f2edf0c819a4823cd6c288801ce737e8d4fcde06 tools/iio/iio_utils:fix memory leak
+ba56b46d1c6d412ae8c079e67c01a1f7bbd5c079 iio: dac: add support for max5522
+3b5eea320db5d9d2499accfc1884b4f221cd4223 dt-bindings: iio: dac: Maxim max5522 DAC
+3a52d32a7497fa21b2dcedf5051cca7b46a7921f iio: light: vcnl4000: Prepare for more generic setup
+bfb6cfeeb83f314dd4a09ad6c9a24678f66c3b3b iio: light: vcnl4000: Make irq handling more generic
+546676121cb9d1c77862042611533e721b86565e iio: light: vcnl4000: Add interrupt support for vcnl4040
+677a33b51f7fbe39e9bff17d1e5718087dfa9ede iio: imu: st_lsm6dsx: fix naming of 'struct iio_info' in st_lsm6dsx_shub.c.
+d354a2ee3915ada7a10a2c6634c78e9aadfb3db9 iio: imu: st_lsm6dsx: add 'mount_matrix' sysfs entry to gyro channel.
+4d82b2f98a25882481a53faca0ca5a2169f9b563 iio: adc: ti-ads7924: add Texas Instruments ADS7924 driver
+2315b5cea407a8dc543df2a29ea39debdb1130a2 dt-bindings: iio: adc: add Texas Instruments ADS7924
+7d02296ac8b835ff3ffa355eab3c73d3cba921f8 iio: adc: add imx93 adc support
+354f23ac2c8703d170354577738edad159a7d37b dt-bindings: iio: adc: Add NXP IMX93 ADC
+34d1e754155be8f9bcf3e5f0fb0ed2d2450762f0 dt-bindings: iio: drop unneeded quotes
+5c4712316ac9d34c91c54210bded55351e621dfc dt-bindings: iio: minor whitespace cleanups
+46908557a59ef8f470e4689e94a9cb06b284abb3 dt-bindings: iio: correct node names in examples
+57b73eb9a3522910479f690e7e6aebedb60cd0e6 dt-bindings: iio: use lowercase hex in examples
+f14ed2f378bc35ba3fca39523766ef46b82d3dea dt-bindings: iio: cleanup examples - indentation
+20d889a91ce94abfc9c240d19294ac1f2e716780 iio: adc: imx93: Fix spelling mistake "geting" -> "getting"
+c612bcb75fa17807f17ef2dbb1b56fde7234bd9f iio: imu: fix spdx format
+b186b18efdff219002298f3d87714cf5784b1926 dt-bindings: iio/proximity: semtech,sx9360: Fix 'semtech,resolution' type
+e56d2c34ce9dc122b1a618172ec0e05e50adb9e9 iio: accel: mma9551_core: Prevent uninitialized variable in mma9551_read_status_word()
+64a68158738ec8f520347144352f7a09bdb9e169 iio: accel: mma9551_core: Prevent uninitialized variable in mma9551_read_config_word()
+4ae612e4af95d72e36f478cad66d47c06b86de68 iio: adc: ad7291: Fix indentation error by adding extra spaces
+196db6bb44738b76d7401c33aadadcea307894c2 Merge tag 'iio-for-6.3a' of https://git.kernel.org/pub/scm/linux/kernel/git/jic23/iio into char-misc-next
 
---===============3019515158274115242==--
+--===============5833682717988246370==--
