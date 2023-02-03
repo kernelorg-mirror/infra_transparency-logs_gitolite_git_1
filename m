@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1975115671451125916=="
+Content-Type: multipart/mixed; boundary="===============4101633201881885071=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Fri, 03 Feb 2023 10:03:52 -0000
-Message-Id: <167541863265.11812.2320637526990600813@gitolite.kernel.org>
+Date: Fri, 03 Feb 2023 10:03:56 -0000
+Message-Id: <167541863674.11893.5823812387358511805@gitolite.kernel.org>
 
---===============1975115671451125916==
+--===============4101633201881885071==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,75 +16,109 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-6.1.y
-    old: 68a95455c153f8adc513e5b688f4b348daa7c1b1
-    new: 924f9ad0eb9ea7d3c8b000d0369da7c53cf09d0c
-    log: revlist-68a95455c153-924f9ad0eb9e.txt
+  - ref: refs/heads/linux-4.14.y
+    old: 3949d16100044eeb6723eca03b1038b469fb9ae8
+    new: 67a9fb674da43351bf3823cc043de3d78ae0fd57
+    log: revlist-3949d1610004-67a9fb674da4.txt
 
---===============1975115671451125916==
+--===============4101633201881885071==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1675418631 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1675418633 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1675418628-84f83bb1bc65a6699718af6939709d62d4e84bf7
+nonce 1675418631-7bf94ec108b8dd94be6b1643bbcba8a2066e7073
 
-68a95455c153f8adc513e5b688f4b348daa7c1b1 924f9ad0eb9ea7d3c8b000d0369da7c53cf09d0c refs/heads/linux-6.1.y
+3949d16100044eeb6723eca03b1038b469fb9ae8 67a9fb674da43351bf3823cc043de3d78ae0fd57 refs/heads/linux-4.14.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPc3AcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+KdYP/Rp1FhTthb4ldXjqIts0
-3mvdZeVkCoBA94i6D6buzF/bc5B7ctdVkE91/BFNSHj+y8IfnWPNFyy/5rmiM3oN
-1s5XVq++zepO8PJkN6UrpPkIgn53jpFAeK0EsPHswlm79sayltIxtCVH7qpRCTtk
-qRi1dpWVgzD1ftvefKa5G3kv9oHcbBxv5K1OFIiJ9UHKWiYgSmIIcELntOYSac0Z
-M6JHclYvXQh3J/3s1S+gLsWlelgTCdHR44iHe6HoHj2L9/ZyKFmn+aVzakKhpSS8
-XaPf0aIRLQB+S8tr1gcm13jxMMgE8+ebuIZJV+B7eVxvofjkNbLYtWwEicFEQ19K
-a04RJnnqOzsFeW65kdSdusrmQU/2JJp6m8Q8ah+CORnN69ycjTderR1378lsiDr6
-FmeAtESX2fd11IT+eiCwLPfiw0q+UZCA2tJn2TUL/D8eiQeLpviEniXNg6xpkLyh
-hnAmHTySMgcyu+rIZ/3ztkI6EgPDLONsUn0DgXYMssqMn5lgclv3FhIcX671q12+
-tjws9qG5XBC3Otv2vTHRu/peJi31c/utQ6YHU0YD96UwpCjq7LbO7PgfY4vlb6kQ
-w6lSeY1T1phhmzuAxaMwo3I6t3W3H9gCd4tfWnNVgBM1mL8Xjz0ddX7cFWEZDlm2
-//DK8IZD0196X8o72vWlxxUf
-=g+cT
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPc3AkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+xlYP/0IbKejS2i24JBEWtLfM
+Xi1SYQ6w/mpnoxDa7xDnqT0It8ivGkRPOctEUs9iyLGbOxTApYBZ9PILTJzwfSkg
+ApCsNTjsepQwiALv/mF4TZNPhjbTwuiHLY8nKDU4K3VzBObyzQjOEKPiDPYCU5Ka
+bzH+DttrMCJ3KO8xog6wHsnmouXKOs4Sj3NdJAWUN+hbtdl1H+yHDQUoekyBrTnL
+hx6Dmse12/itRETAySz8H9zOG17IcbXKbYBpGn9DsDr+omZzwqAJPWhZg/Q/8uTD
+h2SQmZtVwgzJ8B0yN0kpM5Y0VorEiFHHyn3fa6DINQhb9puoKiZVGFXWoXhH7MnG
+59aifvnvEc19PhYUOlNj6ajazKB09VtawP7uRBJZ81X74kderJdFhQXpzTFJyrHG
+A6weW3/sO6AAnKrUkzrfWWjPDgCd0i9WZNsNY5dNya9zxKdcTMxN6l8KApVROHjW
+i1NQdR6qpwXtHDq2YZ4bSCHJUZoJO7uLu/X2IKND0ubrSez4A18RBcUDcOoiIUKX
+Z4NDvHq+Jgs4nmB8o6eOdzzF0EeBDpX2rwX6Xg1H6J8z4u1DjsRomoUyITvXzDoT
+DmJtB1iTibhmpo5qqbmWbFplITZuW4kUP2jSWz66lt+IY+EmW+5hHd25i+oeAKCv
+5fRTRQXXLRyaDYtH9h7woGzY
+=h7xz
 -----END PGP SIGNATURE-----
 
---===============1975115671451125916==
+--===============4101633201881885071==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-68a95455c153-924f9ad0eb9e.txt
+Content-Disposition: attachment; filename=revlist-3949d1610004-67a9fb674da4.txt
 
-3219a1efe27098566c23bcfc523f09d5617a97b0 ARM: dts: imx: Fix pca9547 i2c-mux node name
-3d2c280f177e3bdcc29779bb71e425c3ac1a7ec1 ARM: dts: vf610: Fix pca9548 i2c-mux node names
-3ad56aeb3131693cd16420c84bc6a41bf8b795b3 arm64: dts: freescale: Fix pca954x i2c-mux node names
-c9a3653dad62cde113393f2bca245f3eb31467a6 arm64: dts: imx8mq-thor96: fix no-mmc property for SDHCI
-104b80675cd5aaaff1c4e83f54400e41da399e14 firmware: arm_scmi: Clear stale xfer->hdr.status
-fc37d68555364a0efaaec0a75f484715d901327c bpf: Skip task with pid=1 in send_signal_common()
-1d7154b952de603f43c61e13529898970560629b erofs/zmap.c: Fix incorrect offset calculation
-d18b60885fee6dc084e2e48747e6ee221dcd481f mac80211: Fix MLO address translation for multiple bss case
-91b85ed6792a01a4876ed63219c6f62d4d9d5072 arm64: dts: msm8994-angler: fix the memory map
-678a894272f99d7ca3e67a573b5de6388a84f529 ARM: omap1: fix building gpio15xx
-c25c6f98e9f7f7f43807a7a9960cf5ccc2553c9f kselftest: Fix error message for unconfigured LLVM builds
-9466472ed3f510e13cf32bf1cb98b7ae32a59ccc erofs: clean up parsing of fscache related options
-ee6809ddf10dd008808a3e5f2915c35836387e49 blk-cgroup: fix missing pd_online_fn() while activating policy
-bfd442c8e806d8e2491ee7f26b59645dffbf657c LoongArch: Get frame info in unwind_start() when regs is not available
-8b8e2dae82829e557e9238064610f9f99c30d157 ACPI: video: Add backlight=native DMI quirk for Acer Aspire 4810T
-9e588c16893157bfcd0192e4fec5f75a83063444 block: fix hctx checks for batch allocation
-9b2266e0542474b9d555454b8eced34cbf2f10c3 s390: workaround invalid gcc-11 out of bounds read warning
-fd85f1255edb0f5d18c2a71c9c616283873b101a HID: uclogic: Add support for XP-PEN Deco 01 V2
-5a43208277ab600c814b552178af0a46887e10b8 HID: playstation: sanity check DualSense calibration data.
-af860e976ca4382a45a719b50150c6c781d64b71 dmaengine: imx-sdma: Fix a possible memory leak in sdma_transfer_init
-d5ecf78e610c770060153a3d279e28e503458373 gpiolib: acpi: Allow ignoring wake capability on pins that aren't in _AEI
-af7e06a9207cdfe482719de33d1d79e47699585a cifs: fix return of uninitialized rc in dfs_cache_update_tgthint()
-b1b60473446f6d191f04c297aaa09a84111f325f nvme-apple: only reset the controller when RTKit is running
-d241da248e4a3f72c8063c5450fb429fe9e03572 gpiolib: acpi: Add a ignore wakeup quirk for Clevo NL5xRU
-af6f23778bbed5137e2756bb4f9787092cac1f24 gpiolib-acpi: Don't set GPIOs for wakeup in S3 mode
-bb54c93920ef19bd425ff78e5f5836284d4c078a net: fix NULL pointer in skb_segment_list
-7f6b892bd145282ff420fef40f9dcee74748cd07 rust: print: avoid evaluating arguments in `pr_*` macros in `unsafe` blocks
-40b8482faba4ac46f91ddfb943ddb9266cb4300c net: mctp: purge receive queues on sk destruction
-924f9ad0eb9ea7d3c8b000d0369da7c53cf09d0c Linux 6.1.10-rc1
+bac177f960004169394e61e77e9849fb7e124c74 ARM: dts: imx6qdl-gw560x: Remove incorrect 'uart-has-rtscts'
+979ece7fcb1a8c7263f14abf2ed0aaa0522f1653 HID: intel_ish-hid: Add check for ishtp_dma_tx_map
+8aef09bf8acf03f94d9e58a67021fec3478d0644 EDAC/highbank: Fix memory leak in highbank_mc_probe()
+8e3662c4b45cdac80d5671d6e332fcf663653050 tomoyo: fix broken dependency on *.conf.default
+45b15179801101d6c8e36939c2fc411fbe77308d IB/hfi1: Reject a zero-length user expected buffer
+8a32b2a607918d304bbe6c12c847dcfd2af6a6e5 IB/hfi1: Reserve user expected TIDs
+81a8266cff2cd44273cf6e0f65f74820119b8cf6 affs: initialize fsdata in affs_truncate()
+872d02cc18b6481b23395b6f6b8dfbff2a332fe1 amd-xgbe: TX Flow Ctrl Registers are h/w ver dependent
+dfe877f233e1a80050934e488e9a608f928f5964 phy: rockchip-inno-usb2: Fix missing clk_disable_unprepare() in rockchip_usb2phy_power_on()
+6e874475f2ef84c838ecf0de3e3d29df64e40880 net: nfc: Fix use-after-free in local_cleanup()
+7549c77cf99a1715a84e7e07babdbfb9cc8901c6 wifi: rndis_wlan: Prevent buffer overflow in rndis_query_oid
+58eda3db2a0f910ea56d87750607c614f8dedef5 net: usb: sr9700: Handle negative len
+9e1bc9077b12446ef981480887bf88cfb8cd47cd net: mdio: validate parameter addr in mdiobus_get_phy()
+db8797ef4e319ec589a74fdbacd4aa2af904b7f2 HID: check empty report_list in hid_validate_values()
+6b2c40a36098876239697af9eeae76974d8a5521 usb: gadget: f_fs: Prevent race during ffs_ep0_queue_wait
+f5f9ccd2bb10a320c12215571e112f3e65a92509 usb: gadget: f_fs: Ensure ep0req is dequeued before free_request
+f6b857fd8cae5401ab5366447846025807503b40 net: mlx5: eliminate anonymous module_init & module_exit
+ec5f76d22d8484f98bd6e8a2f3e154dfae74a97d dmaengine: Fix double increment of client_count in dma_chan_get()
+fc80c0fcfeabea19663a0632f680248919a01c9d HID: betop: check shape of output reports
+2e28755a8bd6f5851ee635a58377b956dcfeaddc w1: fix deadloop in __w1_remove_master_device()
+46d313d4c71fca31388004f0199bab0e6d412ffd w1: fix WARNING after calling w1_process()
+21de1eb56b19af9ab5a824650aa845fe4e2021bb comedi: adv_pci1760: Fix PWM instruction handling
+8923ac51a9e88fefdb841fa1de1180e872923232 fs: reiserfs: remove useless new_opts in reiserfs_remount
+3fc9664b3e607e2c5cf079fde54a7ab79068a82d Bluetooth: hci_sync: cancel cmd_timer if hci_open failed
+a21620c165396e1be2f6390aace6d6ddbb70fe5d scsi: hpsa: Fix allocation size for scsi_host_alloc()
+62b1551a00b78925c05c330f091dcb16cb84a866 module: Don't wait for GOING modules
+49f2a8c1967be318072ff25cc6129cee1f53efc9 tracing: Make sure trace_printk() can output as soon as it can be used
+796e2f11e22dbcf95394de4881ad6a026b086aaf ARM: 9280/1: mm: fix warning on phys_addr_t to void pointer assignment
+fe653ebfcacb93f7656dbbd5cd23d9d5ee440ded EDAC/device: Respect any driver-supplied workqueue polling value
+2566c95128f0b1744fce6d084f2ef7b1291c8a75 netlink: annotate data races around dst_portid and dst_group
+e46c98f9ca00e588d4b09aafdf595386ad699795 netlink: annotate data races around sk_state
+af08bf9266e366cbab6a7274df4859baac7df3d8 netfilter: conntrack: fix vtag checks for ABORT/SHUTDOWN_COMPLETE
+4d379863b07c50ba6f87876ec3273903cae6e109 netrom: Fix use-after-free of a listening socket.
+69de82a1f9a3dbea586c9c5876132d44e48f4773 sctp: fail if no bound addresses can be used for a given scope
+78ca9c5733ea1f545df4926c8a1a443be0fdd22e net: ravb: Fix possible hang if RIS2_QFF1 happen
+8cd1f3ee0ffbe2e60d6ed28ce9ba7f17375b5f40 net/tg3: resolve deadlock in tg3_reset_task() during EEH
+1b7c217577f313883cdf5b533c2d880ff65e961b Revert "Input: synaptics - switch touchpad on HP Laptop 15-da3001TU to RMI mode"
+a0d3d0c5d76fdae78128457304c6737eeb3c9784 x86/i8259: Mark legacy PIC interrupts with IRQ_LEVEL
+6db4d7b56c6ac9136d7ff2bbf78404e70f732144 wifi: brcmfmac: fix up incorrect 4.14.y backport for brcmf_fw_map_chip_to_name()
+5949d36d1fe2e081ca4d3c56a2497668f6b76055 xen: Fix up build warning with xen_init_time_ops() reference
+83974403c871a5752789819add4aa382992b3ad6 drm/radeon/dp: make radeon_dp_get_dp_link_config static
+141dc377f319614b083b1e16a3dbd739c8414820 scsi: qla2xxx: don't break the bsg-lib abstractions
+e75c34e05f85fab7adfbdc134649d6a5e86e26c3 x86/asm: Fix an assembler warning with current binutils
+e4a7829e82613fb52ae5354333bf706f60bf8762 x86/entry/64: Add instruction suffix to SYSRET
+d612ade2d37f9dc50a5c6f658c04d11fcdccc591 sysctl: add a new register_sysctl_init() interface
+2d3a87508ca923556b61622ca6b8be53fa453d52 panic: unset panic_on_warn inside panic()
+e46a974fd64b19afe123b78e2edee1b9c05ca614 exit: Add and use make_task_dead.
+f2a0f9470ecb96cf516782e2e3cc092f8f6b7917 objtool: Add a missing comma to avoid string concatenation
+9d516d32cc5b7d1961efddde2224fc3197746c5b hexagon: Fix function name in die()
+f360363bf2c94e61847d84ae8193e64c7f6dd72c h8300: Fix build errors from do_exit() to make_task_dead() transition
+a84395c39d9b8370a9881fc84a83c9bba9ca84f0 ia64: make IA64_MCA_RECOVERY bool instead of tristate
+f1e86b704b848d24ef7016014d950a0dbfd2a1c4 exit: Put an upper limit on how often we can oops
+6181289447e280f682d61abdf3a6671666565c0c exit: Expose "oops_count" to sysfs
+77031a1e3f1e6a58f2576b8f529c3e8a043e5706 exit: Allow oops_limit to be disabled
+5727d6052a26ba82c5881e2fec77d4d410884599 panic: Consolidate open-coded panic_on_warn checks
+70193c38169d4082c73aba2b3bea0890caeba0d1 panic: Introduce warn_limit
+46b0ff65e8cfdd592bc2696340cb4876d4e26e7f panic: Expose "warn_count" to sysfs
+ffa392448df91a6c89158d678469decaca4abd18 docs: Fix path paste-o for /sys/kernel/warn_count
+dc225522758995690fd6c17042663ff0e5280399 exit: Use READ_ONCE() for all oops/warn limit reads
+cec0b15ba0e5f0dce217bbc614474fa06ba57119 mm: kvmalloc does not fallback to vmalloc for incompatible gfp flags
+a2ce51467cc92d6957b545ff3f779cdff4da216b ipv6: ensure sane device mtu in tunnels
+0e026115c9a29354b91d8f63d40f8562ce32ce09 usb: host: xhci-plat: add wakeup entry at sysfs
+67a9fb674da43351bf3823cc043de3d78ae0fd57 Linux 4.14.305-rc1
 
---===============1975115671451125916==--
+--===============4101633201881885071==--
