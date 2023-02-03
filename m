@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/efi/efi
-Date: Fri, 03 Feb 2023 15:54:12 -0000
-Message-Id: <167543965234.19581.14454011233963558904@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Fri, 03 Feb 2023 16:01:24 -0000
+Message-Id: <167544008413.24870.4478262131548718436@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/efi/efi
-user: ardb
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
+user: tnguy
 changes:
-  - ref: refs/heads/next
-    old: 1294a9e76024dd5f265efe4a130a724b64b0f673
-    new: ace013a543067ed33cf593144b18c6dbeb517cee
+  - ref: refs/heads/master
+    old: edb9b8f380c3413bf783475279b1a941c7e5cec1
+    new: ce93fdb5f2ca5c9e2a9668411cc39091507f8dc9
     log: |
-         ace013a543067ed33cf593144b18c6dbeb517cee efi: zboot: Use EFI protocol to remap code/data with the right attributes
+         ce93fdb5f2ca5c9e2a9668411cc39091507f8dc9 net: phylink: move phy_device_free() to correctly release phy device
          
