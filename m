@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pchotard/sti
-Date: Fri, 03 Feb 2023 13:43:53 -0000
-Message-Id: <167543183347.28093.16723699410157674864@gitolite.kernel.org>
+Date: Fri, 03 Feb 2023 13:44:27 -0000
+Message-Id: <167543186795.28327.14720058808673800683@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/pchotard/sti
 user: pchotard
 changes:
-  - ref: refs/tags/sti-dt-for-6.3-round1
+  - ref: refs/heads/sti-dt-for-6.3
     old: 0000000000000000000000000000000000000000
-    new: 183df03ede245d87ffe6e4912b5bbfd54c9ed16a
+    new: 4722dd4029c63f10414ffd8d3ffdd6c748391cd7
