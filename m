@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Fri, 03 Feb 2023 18:59:12 -0000
-Message-Id: <167545075219.13234.7613046700226309135@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/fio
+Date: Fri, 03 Feb 2023 19:05:05 -0000
+Message-Id: <167545110546.18175.13399392243365615639@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/robh/linux
-user: robh
+repo: pub/scm/linux/kernel/git/axboe/fio
+user: axboe
 changes:
-  - ref: refs/heads/dt/next
-    old: f3531d1acb4b7177c049211994807b74b231e870
-    new: df4fdd0db4756f8d08285e4a93fa40056aefefbe
+  - ref: refs/heads/master
+    old: 3a6ae7b7c086964e9a0bb4d298be90f9494d6360
+    new: d72b10e3ca2f7e3b7ef4e54ea98e4e964a67192d
     log: |
-         df4fdd0db4756f8d08285e4a93fa40056aefefbe dt-bindings: firmware: arm,scmi: Restrict protocol child node properties
+         d72b10e3ca2f7e3b7ef4e54ea98e4e964a67192d fio: add FIO_RO_NEEDS_RW_OPEN ioengine flag
          
