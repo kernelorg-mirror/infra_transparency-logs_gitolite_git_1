@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1103503540161637914=="
+Content-Type: multipart/mixed; boundary="===============8564940596033817965=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Fri, 03 Feb 2023 10:10:09 -0000
-Message-Id: <167541900997.17202.16818854817645248150@gitolite.kernel.org>
+Date: Fri, 03 Feb 2023 10:10:12 -0000
+Message-Id: <167541901206.17285.6492329901744079373@gitolite.kernel.org>
 
---===============1103503540161637914==
+--===============8564940596033817965==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,50 +16,67 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.10.y
-    old: a426e3be6b6e929b564b4b75e7d8a122321302a5
-    new: 6278b8c9832e3a5adb841ca9e2cfebadb522f304
-    log: |
-         831548c1c9558e4befedd2ad1b247033fc617c46 ARM: dts: imx: Fix pca9547 i2c-mux node name
-         39ba28df30d12a5c80993f5266aa3d07f662cea3 ARM: dts: vf610: Fix pca9548 i2c-mux node names
-         5978d4382f1753f2492b84e101d4541d693d3986 arm64: dts: imx8mq-thor96: fix no-mmc property for SDHCI
-         987869b6299e22e9ae690d321d0eaf6cb50d6555 bpf: Skip task with pid=1 in send_signal_common()
-         c6c72648dc4e5d74c13cee46141ded9d561aacbf blk-cgroup: fix missing pd_online_fn() while activating policy
-         34d558b968d042c8ab81842fff4e72a37d8d7233 dmaengine: imx-sdma: Fix a possible memory leak in sdma_transfer_init
-         d49d22ca0863eb55ac5c293f07045332ecd7c433 ACPI: processor idle: Practically limit "Dummy wait" workaround to old Intel systems
-         9a387825d49ee635f283a0cdfbab60edd39c43cd Bluetooth: fix null ptr deref on hci_sync_conn_complete_evt
-         bc46c02c83dce1b241ba48d2739d1f385b6cc12e net: fix NULL pointer in skb_segment_list
-         6278b8c9832e3a5adb841ca9e2cfebadb522f304 Linux 5.10.167-rc1
-         
+  - ref: refs/heads/linux-5.15.y
+    old: c0c647976234fa8918eccde35bf9e2df01a8f0a7
+    new: c8466dc0f6290e0ea087f808e9b4a29da36e82ca
+    log: revlist-c0c647976234-c8466dc0f629.txt
 
---===============1103503540161637914==
+--===============8564940596033817965==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1675419009 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1675419010 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1675419007-6c31fb1a87fb7b9ecb43b2b6b691b31cb90929c2
+nonce 1675419009-90a5f279706fc75fc6f2cbcfc0fd8044675fd8a0
 
-a426e3be6b6e929b564b4b75e7d8a122321302a5 6278b8c9832e3a5adb841ca9e2cfebadb522f304 refs/heads/linux-5.10.y
+c0c647976234fa8918eccde35bf9e2df01a8f0a7 c8466dc0f6290e0ea087f808e9b4a29da36e82ca refs/heads/linux-5.15.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPc3YEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+XU0QAM1Q/TLRjxX4dzrqxR5A
-cou0iuzE8ypLFeW2HYN/8bQxEI2e3tXifZ1ov7h5gi1y5gSAEurjWl5e+AvTQ3Sf
-b6Gout3DdXxOUsuWM+dK/850uRN4/ajq8f6+mEAmtNwxqHTYUWUz4gVQCbtFk7fb
-RXkWPg7hzG2wTpoSDqERNiSft+020giRiv9O+o4gS7RdvceqWZqXeB/J+pqIQjN8
-COgNhaSx6aiY4Eqgfn/I2GFgSyW8a/UH6+NhNDeyt5930ziO194en60NDnZ7EG5F
-skMUc+jqo0J5mqJ+o6Aqx+horoxbzflhEj81AUMbc7FFZmrOSN+Hpo7j1Dbhgshx
-3uKw5zmvl9A7tlaqLg59nLuZz4OFjfH87LHQkGre9+9/rVQrd2pfR+sztAi8DGpy
-cYfAGMh0rnkrSS8CEqa5CkmynFjIkTU7SB76pCes8HMKvFoq/1DlO1QXfo/6opux
-O6p6qJ9cewm31hAbL427cLEbh5CsTe5ohjOk6GaOei2ScK7XUIC8XObmq0C72m+q
-K84/nAJ/Ke81IE+kzx/v424Xg3Oy0ZNsRscj7jbMdFZLqVRIBYYN6DkyuQ9qMdcj
-4rgwJ0rOMleW+EdPft22TqzzDaPyA2gtagTGGP6XxD3aDgozZEm1MCqAALdPWi6E
-7Cz5dr3XeIRtsptekygn0qOA
-=GADo
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPc3YIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+26kQAIhNIXjmPz++cs/SgV88
+ORBghcux7g6NuxrFawKt5KJfT1d3LgJkxBCteZwDAaw30uVVMaqMhCwzfFBzCVZj
+CVQixPbgydorkmQF4UmlMueGAWGyQHjHjTgsgctDJUn2OajK5vok0QJlxYB1dnHW
+MvEqmSklbLAEL1cMhFQBAZtIDbEbuebYAnR26TC4n8dG/UuIWlqc6iF0RWQDM2mq
+7/aprlIS1l1EoB/PjKcIs4c77d5rV/niWoorPULjouNMJ2VRqEAX0qkLWqUoILSi
+ZQChtkcFnE1XrmXd7c3/x7B7uqYiqNKN99vjG7AzjLr1OPN7X1/6Vmrw099B4ZoX
+TscQ6YDBHPzBIvxVkvP/BWCaZShUUbjrntgxb0mDICLMNCrRnKy+BX68djYG7NVK
+fBJ1Yob8QTANc0JaYPyHHzGgGHJ7c/N9cQnZOXA3AWA68dwHJX2XRhf9b88HKLaE
+iqjFK4Fxc8WGIuYmyskLp/wQdHuEo8KbxcytfRbghWnNCUDJfRBFY5OZdwVgGaKo
+DHhpvj1GEu/NyO0eC8Z50BaoMsrT4s3emtT1a1iR+FOxyj1StXm4mituFljt2e0E
+q18MSw0I89kpD3TuJnkvsrWFbaRafLQ3e4tRON/jOKpkysWZAZ0ca1hrZd/68dxz
+LtLOp12KW5xjcYxneCaWRfw3
+=TYPc
 -----END PGP SIGNATURE-----
 
---===============1103503540161637914==--
+--===============8564940596033817965==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-c0c647976234-c8466dc0f629.txt
+
+11c9fc054f122254ebe3151fe0095133d199310a ARM: dts: imx: Fix pca9547 i2c-mux node name
+869afd938ddc897819492fca374e72b72809a479 ARM: dts: vf610: Fix pca9548 i2c-mux node names
+463c1c46535d4dd404e944c47866271ad88d889a arm64: dts: freescale: Fix pca954x i2c-mux node names
+2e9c533d4a18980e0b53fcb302f186d2e0043bc2 arm64: dts: imx8mq-thor96: fix no-mmc property for SDHCI
+154f0052979c4af13ff4d5e9f2bcc46d5e4d57a3 firmware: arm_scmi: Clear stale xfer->hdr.status
+6f9928a8d21a47d824fadc0116308be5f27ee696 bpf: Skip task with pid=1 in send_signal_common()
+d1d740c2e8c41d63c07bb7dcd94d03135b00816a erofs/zmap.c: Fix incorrect offset calculation
+d19c2e71ae129d963384c3596066c41cc8b4a13a blk-cgroup: fix missing pd_online_fn() while activating policy
+af92aa58071de0ebb26b681992fa11d4737c74ee HID: playstation: sanity check DualSense calibration data.
+cf9a7818b4f33bfbda8841f356354eedc419e80d dmaengine: imx-sdma: Fix a possible memory leak in sdma_transfer_init
+d2c13e26e6a197726609793b684edc3845dd62da cifs: fix return of uninitialized rc in dfs_cache_update_tgthint()
+13a4294e6e1f0668df18f5844e8e18f6b4c9c24b ext4: fix bad checksum after online resize
+6ca2e9b0982e0f8b299178fb66e21dafbcca8c1d extcon: usbc-tusb320: fix kernel-doc warning
+3eceb4805a8a3bbe795aae5cd444d2c04bf272c6 ACPI: processor idle: Practically limit "Dummy wait" workaround to old Intel systems
+ede2c707b4f6fcf5d148e7f2dfa32d837bc5161f Bluetooth: fix null ptr deref on hci_sync_conn_complete_evt
+77fccdced3ed61e5690c3234cc1d8c1dd4610db9 tools: fix ARRAY_SIZE defines in tools and selftests hdrs
+c455fd532569c90f611be6428798e51b3946d1b2 selftests/vm: remove ARRAY_SIZE define from individual tests
+ae41eaf115a24c2a023e24c78e58d24510997245 selftests: Provide local define of __cpuid_count()
+bb7a1b99c52fbb11f29ed33dc3e73ad41fe99a9b net: fix NULL pointer in skb_segment_list
+513518554db617f9a12ce88aed97cc6ca5ba9756 net: mctp: purge receive queues on sk destruction
+c8466dc0f6290e0ea087f808e9b4a29da36e82ca Linux 5.15.92-rc1
+
+--===============8564940596033817965==--
