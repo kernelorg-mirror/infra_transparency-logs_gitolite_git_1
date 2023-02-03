@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Fri, 03 Feb 2023 21:54:38 -0000
-Message-Id: <167546127881.32099.17937173333487574690@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/song/md
+Date: Fri, 03 Feb 2023 21:58:32 -0000
+Message-Id: <167546151282.2488.9644670851335699710@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/song/md
+user: song
 changes:
-  - ref: refs/heads/master
-    old: 1fe450ab2027f390f88a8409789f942886a565a3
-    new: 3058c47deb9a8c0e6ac0672cf9d4e5510e886dbb
+  - ref: refs/heads/new_module_alloc_build_test
+    old: 6231a21c672da8ce79a614c9a286285844e41ef3
+    new: 9e278a4880d5bee01bab987f06b709da7d532e93
     log: |
-         3058c47deb9a8c0e6ac0672cf9d4e5510e886dbb Fri Feb  3 09:53:47 PM UTC 2023
+         9e278a4880d5bee01bab987f06b709da7d532e93 module: replace module_layout with module_memory
          
