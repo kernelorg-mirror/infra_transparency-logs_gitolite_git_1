@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5255272836234727916=="
+Content-Type: multipart/mixed; boundary="===============1975115671451125916=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Fri, 03 Feb 2023 10:03:49 -0000
-Message-Id: <167541862968.11740.16384680273151578900@gitolite.kernel.org>
+Date: Fri, 03 Feb 2023 10:03:52 -0000
+Message-Id: <167541863265.11812.2320637526990600813@gitolite.kernel.org>
 
---===============5255272836234727916==
+--===============1975115671451125916==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,67 +16,75 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.15.y
-    old: 9cf4111cdf9420fa99792ae16c8de23242bb2e0b
-    new: c0c647976234fa8918eccde35bf9e2df01a8f0a7
-    log: revlist-9cf4111cdf94-c0c647976234.txt
+  - ref: refs/heads/linux-6.1.y
+    old: 68a95455c153f8adc513e5b688f4b348daa7c1b1
+    new: 924f9ad0eb9ea7d3c8b000d0369da7c53cf09d0c
+    log: revlist-68a95455c153-924f9ad0eb9e.txt
 
---===============5255272836234727916==
+--===============1975115671451125916==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1675418628 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1675418631 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1675418624-0544875e29260acaf05bc555d094fedbd012f472
+nonce 1675418628-84f83bb1bc65a6699718af6939709d62d4e84bf7
 
-9cf4111cdf9420fa99792ae16c8de23242bb2e0b c0c647976234fa8918eccde35bf9e2df01a8f0a7 refs/heads/linux-5.15.y
+68a95455c153f8adc513e5b688f4b348daa7c1b1 924f9ad0eb9ea7d3c8b000d0369da7c53cf09d0c refs/heads/linux-6.1.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPc3AQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+JeoP/ReEANak82mf4u68jG5A
-T4TqWNGK9gHyiUEJqkpN9xJ1RT0DdXNMvKCkxBPhzoFwTbJO04DhU3zQ7K2hXUTM
-yzHc3AHH/JC54oU/kF08dkGdX0Fs43rmp9eBttoSbpP0kBathikl+70JHUu8WuZD
-X5l+5/ccgqikp5Guj1ZD30Y8ta5vbwYGYgxbHXLEEsYyuWo+KI7vjxfyD8OsbfV2
-ofYHQ7yU1dZ7EjxymWe7jjFm9wNrTgF4HUpW+k5BMl0EHMfIqfwOMuIVk7eOfSvg
-OOGbYFVu5YYnkfvzitTSwdoHyiRZhNjfyATAJ21jfOiOKIQCEbegIBLi0xORP67i
-3BNa8/7OteZrVhr4AriiBmC9PUAIG6krSwHapvhBz56S6gsIx2W2cFxqEumZi5YL
-rTeJn+BP0xl4M8lhusRK4kMpCP/oJxGxkSsMa3gJ98xDUEE+diJqFvK4P4O8DCQA
-3EwYb6IbRipiOuYZV+LOPPisKHs75Rr2cyoxAkOlSAyB+w2FeOgqyCy27cUL+dmo
-FXt4IN30Sdzhn+eg4kX6e812ruk18N8/4rUTgMt5Onir86n0uQwp+DpybklYn0cF
-D2R9kew5vYlT5gW8IgS0Bw0bfRrY4rV5V63Nshc61ocBRvxErUYym9twMx4XH5NE
-/mTH5+sAxz5zy+mI3TAoz0EJ
-=tEWf
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPc3AcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+KdYP/Rp1FhTthb4ldXjqIts0
+3mvdZeVkCoBA94i6D6buzF/bc5B7ctdVkE91/BFNSHj+y8IfnWPNFyy/5rmiM3oN
+1s5XVq++zepO8PJkN6UrpPkIgn53jpFAeK0EsPHswlm79sayltIxtCVH7qpRCTtk
+qRi1dpWVgzD1ftvefKa5G3kv9oHcbBxv5K1OFIiJ9UHKWiYgSmIIcELntOYSac0Z
+M6JHclYvXQh3J/3s1S+gLsWlelgTCdHR44iHe6HoHj2L9/ZyKFmn+aVzakKhpSS8
+XaPf0aIRLQB+S8tr1gcm13jxMMgE8+ebuIZJV+B7eVxvofjkNbLYtWwEicFEQ19K
+a04RJnnqOzsFeW65kdSdusrmQU/2JJp6m8Q8ah+CORnN69ycjTderR1378lsiDr6
+FmeAtESX2fd11IT+eiCwLPfiw0q+UZCA2tJn2TUL/D8eiQeLpviEniXNg6xpkLyh
+hnAmHTySMgcyu+rIZ/3ztkI6EgPDLONsUn0DgXYMssqMn5lgclv3FhIcX671q12+
+tjws9qG5XBC3Otv2vTHRu/peJi31c/utQ6YHU0YD96UwpCjq7LbO7PgfY4vlb6kQ
+w6lSeY1T1phhmzuAxaMwo3I6t3W3H9gCd4tfWnNVgBM1mL8Xjz0ddX7cFWEZDlm2
+//DK8IZD0196X8o72vWlxxUf
+=g+cT
 -----END PGP SIGNATURE-----
 
---===============5255272836234727916==
+--===============1975115671451125916==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9cf4111cdf94-c0c647976234.txt
+Content-Disposition: attachment; filename=revlist-68a95455c153-924f9ad0eb9e.txt
 
-6158840170931fc6e209435d727c2fd57dd71ac1 ARM: dts: imx: Fix pca9547 i2c-mux node name
-fcc91be9484d097394d34b826a9fedf1e09bdd1c ARM: dts: vf610: Fix pca9548 i2c-mux node names
-01a7a436e70af3ea7dd170617ac156121876e7ee arm64: dts: freescale: Fix pca954x i2c-mux node names
-e7d2a9c450596e25fd6c7e01674077da811b993e arm64: dts: imx8mq-thor96: fix no-mmc property for SDHCI
-eda3aacc41ad37235fa720d18c40a5c6390799ad firmware: arm_scmi: Clear stale xfer->hdr.status
-3d6860e8feb91e9e713d475cc933de09afdd5fab bpf: Skip task with pid=1 in send_signal_common()
-5beb2359a5bfac5df4b9afa970680382f79995e1 erofs/zmap.c: Fix incorrect offset calculation
-9634b3c70e2c2373046153eb45c07f3ca5e96042 blk-cgroup: fix missing pd_online_fn() while activating policy
-ca72dc86686f4c63847f57de71f68ba70cbea4a3 HID: playstation: sanity check DualSense calibration data.
-5148a14aff70dba548f8aaf5d1c9743d47c72329 dmaengine: imx-sdma: Fix a possible memory leak in sdma_transfer_init
-6a2146a0e5dcf8b41cccb86900164f6d80e13681 cifs: fix return of uninitialized rc in dfs_cache_update_tgthint()
-4eca71694a6da42c0b64117297b893dcf3c82cc5 ext4: fix bad checksum after online resize
-f1ae8aaf3e78fa863a41c17313c5cdb17b4538ae extcon: usbc-tusb320: fix kernel-doc warning
-a4aaa2a763950e6a58f5cd92970679170f17dd91 ACPI: processor idle: Practically limit "Dummy wait" workaround to old Intel systems
-d7d5795cf5623615dd085b63828c92804988fc6a Bluetooth: fix null ptr deref on hci_sync_conn_complete_evt
-f0cc0f082f170d2b195ea36b18c8c92cb236a637 tools: fix ARRAY_SIZE defines in tools and selftests hdrs
-beafaa8ffc8db40ca31a3b09a2906aeb0ec4895f selftests/vm: remove ARRAY_SIZE define from individual tests
-53f2ffba95eaff68253a45ac3e957fd3a7cafd55 selftests: Provide local define of __cpuid_count()
-a9761d3f12cd99ead88c3b37e5d0952eee2bcfa8 net: fix NULL pointer in skb_segment_list
-25e85099fcde96c3456bcc78f090e0e7f019ebe6 net: mctp: purge receive queues on sk destruction
-c0c647976234fa8918eccde35bf9e2df01a8f0a7 Linux 5.15.92-rc1
+3219a1efe27098566c23bcfc523f09d5617a97b0 ARM: dts: imx: Fix pca9547 i2c-mux node name
+3d2c280f177e3bdcc29779bb71e425c3ac1a7ec1 ARM: dts: vf610: Fix pca9548 i2c-mux node names
+3ad56aeb3131693cd16420c84bc6a41bf8b795b3 arm64: dts: freescale: Fix pca954x i2c-mux node names
+c9a3653dad62cde113393f2bca245f3eb31467a6 arm64: dts: imx8mq-thor96: fix no-mmc property for SDHCI
+104b80675cd5aaaff1c4e83f54400e41da399e14 firmware: arm_scmi: Clear stale xfer->hdr.status
+fc37d68555364a0efaaec0a75f484715d901327c bpf: Skip task with pid=1 in send_signal_common()
+1d7154b952de603f43c61e13529898970560629b erofs/zmap.c: Fix incorrect offset calculation
+d18b60885fee6dc084e2e48747e6ee221dcd481f mac80211: Fix MLO address translation for multiple bss case
+91b85ed6792a01a4876ed63219c6f62d4d9d5072 arm64: dts: msm8994-angler: fix the memory map
+678a894272f99d7ca3e67a573b5de6388a84f529 ARM: omap1: fix building gpio15xx
+c25c6f98e9f7f7f43807a7a9960cf5ccc2553c9f kselftest: Fix error message for unconfigured LLVM builds
+9466472ed3f510e13cf32bf1cb98b7ae32a59ccc erofs: clean up parsing of fscache related options
+ee6809ddf10dd008808a3e5f2915c35836387e49 blk-cgroup: fix missing pd_online_fn() while activating policy
+bfd442c8e806d8e2491ee7f26b59645dffbf657c LoongArch: Get frame info in unwind_start() when regs is not available
+8b8e2dae82829e557e9238064610f9f99c30d157 ACPI: video: Add backlight=native DMI quirk for Acer Aspire 4810T
+9e588c16893157bfcd0192e4fec5f75a83063444 block: fix hctx checks for batch allocation
+9b2266e0542474b9d555454b8eced34cbf2f10c3 s390: workaround invalid gcc-11 out of bounds read warning
+fd85f1255edb0f5d18c2a71c9c616283873b101a HID: uclogic: Add support for XP-PEN Deco 01 V2
+5a43208277ab600c814b552178af0a46887e10b8 HID: playstation: sanity check DualSense calibration data.
+af860e976ca4382a45a719b50150c6c781d64b71 dmaengine: imx-sdma: Fix a possible memory leak in sdma_transfer_init
+d5ecf78e610c770060153a3d279e28e503458373 gpiolib: acpi: Allow ignoring wake capability on pins that aren't in _AEI
+af7e06a9207cdfe482719de33d1d79e47699585a cifs: fix return of uninitialized rc in dfs_cache_update_tgthint()
+b1b60473446f6d191f04c297aaa09a84111f325f nvme-apple: only reset the controller when RTKit is running
+d241da248e4a3f72c8063c5450fb429fe9e03572 gpiolib: acpi: Add a ignore wakeup quirk for Clevo NL5xRU
+af6f23778bbed5137e2756bb4f9787092cac1f24 gpiolib-acpi: Don't set GPIOs for wakeup in S3 mode
+bb54c93920ef19bd425ff78e5f5836284d4c078a net: fix NULL pointer in skb_segment_list
+7f6b892bd145282ff420fef40f9dcee74748cd07 rust: print: avoid evaluating arguments in `pr_*` macros in `unsafe` blocks
+40b8482faba4ac46f91ddfb943ddb9266cb4300c net: mctp: purge receive queues on sk destruction
+924f9ad0eb9ea7d3c8b000d0369da7c53cf09d0c Linux 6.1.10-rc1
 
---===============5255272836234727916==--
+--===============1975115671451125916==--
