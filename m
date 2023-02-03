@@ -1,56 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============1929212611307532577=="
+Content-Type: multipart/mixed; boundary="===============8499561911537607002=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Fri, 03 Feb 2023 07:26:28 -0000
-Message-Id: <167540918813.21983.6384860709083485453@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Fri, 03 Feb 2023 07:44:32 -0000
+Message-Id: <167541027294.31896.4865955717681417620@gitolite.kernel.org>
 
---===============1929212611307532577==
+--===============8499561911537607002==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
+repo: pub/scm/linux/kernel/git/stable/stable-queue
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-testing
-    old: b0425784b942fffbbdb804896197f1dbccda37c5
-    new: 4f6dfc2136fb2e8dc3f571a5caff6b6e88281fc0
+  - ref: refs/heads/master
+    old: eb10768f38a3fd4568a04fbceaba7e1f9074c26e
+    new: ca5e5bbf0e44be076e9bf48f2baedce79c73349d
     log: |
-         4f6dfc2136fb2e8dc3f571a5caff6b6e88281fc0 usb: remove the dead USB_OHCI_SH option
+         ca5e5bbf0e44be076e9bf48f2baedce79c73349d 4.19-stable patches
          
 
---===============1929212611307532577==
+--===============8499561911537607002==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1675409186 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1675409184-e01a8158ec8277314e23319c481da81999671606
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1675410271 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1675410269-26f89dbe908f8c643e71395edf159cf484239339
 
-b0425784b942fffbbdb804896197f1dbccda37c5 4f6dfc2136fb2e8dc3f571a5caff6b6e88281fc0 refs/heads/usb-testing
+eb10768f38a3fd4568a04fbceaba7e1f9074c26e ca5e5bbf0e44be076e9bf48f2baedce79c73349d refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPctyIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+WlcP/iHC1gJc5lNMxZHLCY1q
-QixSSWqosQpDI2g6a4DoZnfMgCeTsFH/L9aJijDAPUcs1AFfQa7+4RqzYaB7bSnx
-fNUgo6V0FHmYU0GjuyOglLmh5OjtXnqjsFtUoQWMs135SZgzjyuO3cU2UP22odiE
-QQsX6YZgKu/0D6ybr4QZ75vNqNDbL7xoa2/inzYtkcBC5kKWH1FvKQeoPUQgBO0n
-n4npyibvyxdnFQhw4XiM4inmk/HwR2DVZPeFpa+NbTlTRxReo1sPTX6qNeBRYZKN
-Pdff0oaUWEeYHEqKKLqwa66hgJ2kVdVPkiaq9UsyXOyrPR1wVVr8zSyj1FFas2Aa
-hGRE6PQR8lvmrBUmx6RFP+l5GoadXzVr3eJsFNEm+POBlZWDpDChJj26MfGK6+YQ
-eADT6V0FfqFger/xzaVdhcxrAqiCfuVN7BBm4V2R6Fifehmzk+eLVFmsZt8bgzZZ
-74+Eggdk5Szh/DoVZr+umTa1F3v7yc0zpsv9b1VtGQgdZ42QLGBtpj0rKtkFBSju
-4tevZvLbUq0KkOPmMavWIYLIx9esiNXuAf6O81YgGQHOe7jC5Ak6NCWrp+kB9f/n
-D1qBD2sifzSq/BIPlPBumiI9vfA8MUIS9OwErNwNDoPi/3v/+GUnUuoL4+ZrWBvB
-8TlJgPD8ZeafDOpfSgLBJsF0
-=59e4
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPcu18bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+qjAQAMfzB83usRttyKwk+Hmh
+Yqc25Ja/Nz6/58IWCMt9CUPiAntFmVf41jK7BIYgEr4AtZVg67MLBfQ8jW8m8Reo
+Xg+8P72IsOwIelbpbilPb1FeSy3OuEsiicXMdS8fYUFs5DMArYTkMUMlJBfu+5ZG
+/fjE1VybGM9oKU4pNIUvgWfI4d97mmdaA4CdpUYkcLrcuIUi8Hqt0bVx73IWd08o
+wszQ14SM/xYUjqRTZmu3UoQ1wskQkc0zT5m2DjxszZ9+GUeKaxf2LsiX5GIi++ZC
+IqpcVCDBvgLGRC/1ghQ3lJPXySD0K4fbgX2MPgx/p83kjSg6nv2/IV4RvVCQruns
+kdcYH0qChohOYIMSr4ZZDOQM29yeq12lPTOIcs0CkUen1QOIbWJ7e2aelcl6ilmi
+hny86witBoMngtMeTr5rm45M8wYXHDJslhgFB+UdDuTJU+V0urkr3KTu9bVmrpi6
+hAsg7uRh9mIryr/uPrm3YOEyrEdYlxVEvBlWyvsiLsE+avr91aXv2pi7kCW53VWd
+Q0qrCVCup1iwmjWZWAeRCONZuYHnuYRDeY5ASKIIbXPf/83Q7dxC9RZQEVffJNXq
++xBjHJE/YKG/0aE9z3lNMs/qQO2HrBXHkny6Ak/Q7Lso+O4vxX5hY4qLM5MySaz5
+282RDHhU1eJf1AjI5bL9AAsq
+=roeT
 -----END PGP SIGNATURE-----
 
---===============1929212611307532577==--
+--===============8499561911537607002==--
