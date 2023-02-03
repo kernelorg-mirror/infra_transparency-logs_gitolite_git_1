@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/efi/efi
-Date: Fri, 03 Feb 2023 17:52:43 -0000
-Message-Id: <167544676374.1966.9761864640104049002@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/perfbook
+Date: Fri, 03 Feb 2023 17:54:02 -0000
+Message-Id: <167544684226.2403.11246014669670396848@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/efi/efi
-user: ardb
+repo: pub/scm/linux/kernel/git/paulmck/perfbook
+user: paulmck
 changes:
-  - ref: refs/heads/next
-    old: ace013a543067ed33cf593144b18c6dbeb517cee
-    new: 1758817e7ea822b1a7d1b95f0c35dd80d120805b
+  - ref: refs/heads/master
+    old: 1c1affe8377e9f59a47fc1f39ab16b4a92d85963
+    new: 35a7791778053a0bdb1c3b0bccae61eaadf43603
     log: |
-         234fa51db95f3236a049557db735606908747f38 efi: Drop minimum EFI version check at boot
-         1758817e7ea822b1a7d1b95f0c35dd80d120805b efi: Use standard format for printing the EFI revision
+         35a7791778053a0bdb1c3b0bccae61eaadf43603 autodate.sh: Add graceful fallback of commitid-only mode for shallow clone
          
