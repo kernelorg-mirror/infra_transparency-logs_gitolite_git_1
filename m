@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/efi/efi
-Date: Fri, 03 Feb 2023 14:06:49 -0000
-Message-Id: <167543320945.12487.6777021971747138226@gitolite.kernel.org>
+Date: Fri, 03 Feb 2023 14:09:30 -0000
+Message-Id: <167543337067.13307.8074490593895576871@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/efi/efi
 user: ardb
 changes:
-  - ref: refs/heads/urgent
-    old: 636ab417a7aec4ee993916e688eb5c5977570836
-    new: 966d47e1f27c45507c5df82b2a2157e5a4fd3909
-    log: |
-         966d47e1f27c45507c5df82b2a2157e5a4fd3909 efi: fix potential NULL deref in efi_mem_reserve_persistent
-         
+  - ref: refs/tags/efi-fixes-for-v6.2-3
+    old: 0000000000000000000000000000000000000000
+    new: dd2b357897e9810a37021d0843a6e51b82f81d6e
