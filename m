@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Sat, 04 Feb 2023 01:55:24 -0000
-Message-Id: <167547572489.28977.6366737267990440464@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jfern/linux
+Date: Sat, 04 Feb 2023 02:21:48 -0000
+Message-Id: <167547730846.13660.2282198207890329991@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/jfern/linux
+user: jfern
 changes:
-  - ref: refs/heads/master
-    old: 22b91b9e7283760f402e9728370559b0c9b2d4d0
-    new: 9489d29521f00d8f4df4c828a22e4537d4c3bad6
+  - ref: refs/heads/staging
+    old: 9d56dcc31babadcb02fd32d15d9a57b2d10383ef
+    new: a9d2d4035620c3acf2d3e67cd8ade6027fac6f39
     log: |
-         0d8fe397a5c0fcf29ebd10e23c2939e3be7f7e04 foo
-         0ec2eab039aba2959efddce40039805db7b4f52d foo
-         9489d29521f00d8f4df4c828a22e4537d4c3bad6 foo
+         a9d2d4035620c3acf2d3e67cd8ade6027fac6f39 rcu/tree: Improve comment in rcu_report_qs_rdp()
          
