@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/deller/linux-fbdev
-Date: Sat, 04 Feb 2023 13:30:40 -0000
-Message-Id: <167551744010.10269.12238559580288089549@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Sat, 04 Feb 2023 13:48:09 -0000
+Message-Id: <167551848969.21285.9376357169108321869@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/deller/linux-fbdev
-user: deller
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: sashal
 changes:
-  - ref: refs/heads/for-next
-    old: ee9fffdc3887a46eab3209bc46b228b543c75fa6
-    new: 2b09d5d364986f724f17001ccfe4126b9b43a0be
+  - ref: refs/heads/master
+    old: 73cf60239784ffbf967f1165fd8e7c2f7bb8b2cc
+    new: 311b8aa30c6ac9b804284e3d8c1e4e610ab39729
     log: |
-         2b09d5d364986f724f17001ccfe4126b9b43a0be fbcon: Check font dimension limits
+         311b8aa30c6ac9b804284e3d8c1e4e610ab39729 Fix up queue-5.4/exit-add-and-use-make_task_dead.patch
          
