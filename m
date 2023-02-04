@@ -1,22 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Sat, 04 Feb 2023 08:38:26 -0000
-Message-Id: <167549990656.32318.14242082302202621498@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
+Date: Sat, 04 Feb 2023 09:43:52 -0000
+Message-Id: <167550383255.23241.9615473456331692567@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/xiang/erofs
+user: xiang
 changes:
-  - ref: refs/heads/master
-    old: 08d6645e9d91308abc048018af30afa65269685c
-    new: f3bab954f89b4f68fd98c0c0cb44faff2f62b71c
+  - ref: refs/heads/dev-test
+    old: e809f631b128a8cfd0834f47bc76b64f3f6be0a3
+    new: 55262d32779907c171eb0e590e5558626f842011
     log: |
-         d045bceff5a904bd79d71dede9f927c00ce4906f ALSA: hda: Fix the control element identification for multiple codecs
-         0d9eb7ed958a71296c6829869f6304ddfdca64df ALSA: fireface: add field for the number of messages copied to user space
-         69218b59be20689cc62ee87cd2890c58c41bae15 kselftest/alsa: Run PCM tests for multiple cards in parallel
-         f3bab954f89b4f68fd98c0c0cb44faff2f62b71c Merge branch 'for-next'
+         bb543f77783d1488a3e641062c16c1c24048c454 erofs: get rid of erofs_inode_datablocks()
+         70910d9b9f18b41b7d475b39205ed0ec3886e66c erofs: avoid tagged pointers to mark sync decompression
+         d8285e7d3d476cf82fc26f696c842e6aa62ec8f2 erofs: remove tagged pointer helpers
+         70c9ab9f122c4b24e2fbab613609c5c8caf43877 erofs: move zdata.h into zdata.c
+         ef71cfa7ca8a2b769652890112751c5b2ddb7412 erofs: get rid of z_erofs_do_map_blocks() forward declaration
+         55262d32779907c171eb0e590e5558626f842011 erofs: tidy up internal.h
          
