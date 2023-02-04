@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Sat, 04 Feb 2023 03:24:48 -0000
-Message-Id: <167548108899.21865.7291382670551661293@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Sat, 04 Feb 2023 03:25:02 -0000
+Message-Id: <167548110215.22148.16534079173339222566@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/master
-    old: ce93fdb5f2ca5c9e2a9668411cc39091507f8dc9
-    new: cbe83191d40d8925b7a99969d037d2a0caf69294
+    old: 8065c0e13f9875f597920a2af47e5dc2940a9c4f
+    new: d795527d50796b18c08462188e555139bdd6f967
     log: |
-         cbe83191d40d8925b7a99969d037d2a0caf69294 bonding: fix error checking in bond_debug_reregister()
+         d795527d50796b18c08462188e555139bdd6f967 net: dsa: use NL_SET_ERR_MSG_WEAK_MOD() more consistently
          
