@@ -1,56 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============0419416523741015353=="
+Content-Type: multipart/mixed; boundary="===============5758834233469983111=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Sat, 04 Feb 2023 08:11:37 -0000
-Message-Id: <167549829781.15178.7349010396939160726@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
+Date: Sat, 04 Feb 2023 08:20:32 -0000
+Message-Id: <167549883272.22232.13738901272916526944@gitolite.kernel.org>
 
---===============0419416523741015353==
+--===============5758834233469983111==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
+repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-next
-    old: b0425784b942fffbbdb804896197f1dbccda37c5
-    new: 4f6dfc2136fb2e8dc3f571a5caff6b6e88281fc0
+  - ref: refs/heads/char-misc-next
+    old: 196db6bb44738b76d7401c33aadadcea307894c2
+    new: f5b3c341a46ec55d93332ee5c254a278af902ffe
     log: |
-         4f6dfc2136fb2e8dc3f571a5caff6b6e88281fc0 usb: remove the dead USB_OHCI_SH option
+         f5b3c341a46ec55d93332ee5c254a278af902ffe mei: Move uuid_le_cmp() to its only user
          
 
---===============0419416523741015353==
+--===============5758834233469983111==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1675498296 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1675498296-b073a403119b4a0c3cb5a69d40a7ee55b63de0bb
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1675498831 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
+nonce 1675498831-2f9b139dff99cb7ba4dd5099cdf574a74722c145
 
-b0425784b942fffbbdb804896197f1dbccda37c5 4f6dfc2136fb2e8dc3f571a5caff6b6e88281fc0 refs/heads/usb-next
+196db6bb44738b76d7401c33aadadcea307894c2 f5b3c341a46ec55d93332ee5c254a278af902ffe refs/heads/char-misc-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPeEzgbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+WxEP/itrQbRH8x9OIp2vXfZt
-F3PAunSE42XvmsLfNTofIePTHr3rZ6GdkyJtOvOmBVNuG8OWkW8ZnDMax8hw7hdV
-McFf6HNHh6h0CMSN/ME8bdqpYbkM2vp70c/Icy/MXFYwn8S70sLfyhYXXW3Y0/sQ
-OetjjoJ5Cv8EMab1nL8LzlnLwomUchzSOpoTcgIogi7qAnMrdJX+L4n4jb6+YigD
-8cxhnCm/l1DTEn89lYT04pOhu3YlPQRDiRCTAU2xyuWeySyptvDGqB5k94VGaJeC
-3vnZd4cf28+GRg4FbCgI+GYSAry9yjPu3UnMMMbBSFDnTS4Ueed6j+TPNMi9GVL9
-TYnDG5AjhZd1TDm4dbYu0wgK/p+Kd0HDFY15Ca0fJ/WfM/+72e7alQv2Lva8X9fQ
-uGIAkQ2rvz3SVk6isNKBCK3QHd81sP7oGjVssJgx7r9qoYIEtqfHGZUxjaWVHep3
-ByZt/NG/lFHI0h1jn8Wv2kyvT5MHLgCiWpuEEF+QwKmRLGgGOkKV5UJvmLr/gfED
-u3QOIaAwlK5GCZIUQPUBjfDR+10EKa4v074SI9MLoF1UUcBTabOH2xnnjJL4z2dv
-aC2EEOiNwJ26qY8Zzb3oacNy47iyaWaVoEm9mPysltuiZcOG8b0KyKdT7+uCPYba
-Uzu8kV0XhixemEKjQKAmTHE5
-=ASoF
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPeFU8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+YLAP/0NJxABSwPxsG/im1B7A
+jZ+ps/sBk5otAdGzQacXKhFMVsapq7eiS4aEpiAUrHifcAT7LcAeNfmHAekzUc3D
+0SmvetuE0YP3jw9DAsznfeOXcfvLOQ7Mo2KVbOq+tXet9oDOWoiBxpoVnQ9Ms6cv
+bnW76dIQB72N1aXeV0sLt+H5VTgFrfLWroqp9Ymw4b6QxYUwq2MD+Ynlq1OdQJWx
+u1Et7R+wzI8pGMdBrAvpJheC2pbUjl3zj9unRsMWhO7tiPWN9e0vW8rWNSitLa2d
+/DfNOS7yqzAtPYpGq7TMz7eKLezYlrFqhc/aUDGB7t4a3HyxwDUncKeBQxhT4jMw
+NnB99XkfporI3o670XVIT6SOF0o7ylH2r5cmeaiO5x0L1mMnB7xFE/L4VTPlNjLA
+tj9/6aWs6QApps5BEfpISb3TatTE1g9n23nwImhdXphzg0lFp3ZWi3HCgOSkS6I0
+i3ly0udr/xncLI+MnyW04Ukp+I6pUPUoninOMGaQWv/tdawGXKSwMSygsZ0sAHub
+KkKz8XaKjJZnKbh1OR/Jf07Fi4Yqv2to6L3E60tstMObytdyV33SRHFBEVfKNyY5
+gjq53E2f4oFi2DZ3p9GLQvKCHYkI/9z7ug+GieTb13vboAxHN9XzSL7oD9euYE+J
+E0OmUnUrlsnretWLOTjhk2je
+=zOp6
 -----END PGP SIGNATURE-----
 
---===============0419416523741015353==--
+--===============5758834233469983111==--
