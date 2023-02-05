@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Sun, 05 Feb 2023 13:48:43 -0000
-Message-Id: <167560492308.1427.1316265416761011623@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mips/linux
+Date: Sun, 05 Feb 2023 14:23:19 -0000
+Message-Id: <167560699934.23647.12810436065960075644@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/man-pages/man-pages
-user: alx
+repo: pub/scm/linux/kernel/git/mips/linux
+user: tsbogend
 changes:
-  - ref: refs/heads/master
-    old: fd0e0d342de093001b034905acd5496069fed888
-    new: 5c231dc6d4ce6388eb899195aeb297efbed80829
+  - ref: refs/heads/mips-next
+    old: 109d587a4b4d7ccca2200ab1f808f43ae23e2585
+    new: e8254a8ec901b78d939d8ab11a56bc98eb7862db
     log: |
-         c3a61645ecb457ce338d9bd24682611e948e9d8c landlock.7: ffix
-         5c231dc6d4ce6388eb899195aeb297efbed80829 landlock.7: tfix
+         4cd81356f8a0b0fe81d01c083dc623578aba57db MIPS: dts: lantiq: Remove bogus interrupt-parent; line
+         0cb4228f6cc9ed0ca2be0d9ddf29168a8e3a3905 MIPS: DTS: CI20: fix otg power gpio
+         e8254a8ec901b78d939d8ab11a56bc98eb7862db mips: ralink: make SOC_MT7621 select PINCTRL_MT7621 and fix help section
          
