@@ -1,16 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/xfs/xfstests-dev
-Date: Sun, 05 Feb 2023 13:21:15 -0000
-Message-Id: <167560327581.16544.4516188896553461073@gitolite.kernel.org>
+Subject: post-receive: pub/scm/docs/man-pages/man-pages
+Date: Sun, 05 Feb 2023 13:48:43 -0000
+Message-Id: <167560492308.1427.1316265416761011623@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/xfs/xfstests-dev
-user: zlang
+repo: pub/scm/docs/man-pages/man-pages
+user: alx
 changes:
-  - ref: refs/tags/v2023.02.05
-    old: 0000000000000000000000000000000000000000
-    new: dd12a498e6f7fbefc8e20639ba3f4c23ea1d4324
+  - ref: refs/heads/master
+    old: fd0e0d342de093001b034905acd5496069fed888
+    new: 5c231dc6d4ce6388eb899195aeb297efbed80829
+    log: |
+         c3a61645ecb457ce338d9bd24682611e948e9d8c landlock.7: ffix
+         5c231dc6d4ce6388eb899195aeb297efbed80829 landlock.7: tfix
+         
