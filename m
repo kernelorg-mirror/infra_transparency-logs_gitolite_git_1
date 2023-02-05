@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Sun, 05 Feb 2023 14:32:35 -0000
-Message-Id: <167560755533.29753.13215330499804042331@gitolite.kernel.org>
+Date: Sun, 05 Feb 2023 14:40:10 -0000
+Message-Id: <167560801054.2754.11738597051429446836@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/docs/man-pages/man-pages
 user: alx
 changes:
   - ref: refs/heads/master
-    old: 1d057b789085e13147a643b6f794c14c92b243f9
-    new: 3aabcc0f7dda611dc2d2e43ede0a7a27b82f9be5
+    old: 3aabcc0f7dda611dc2d2e43ede0a7a27b82f9be5
+    new: 1f9949d11f499e5758f7e213e528b022cd8ad8f1
     log: |
-         3aabcc0f7dda611dc2d2e43ede0a7a27b82f9be5 namespaces.7: ffix
+         1f9949d11f499e5758f7e213e528b022cd8ad8f1 sscanf.3: BUGS: Document the UB in some conversion specifiers
          
