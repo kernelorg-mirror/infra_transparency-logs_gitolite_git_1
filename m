@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8104098505664280453=="
+Content-Type: multipart/mixed; boundary="===============0678059517582791858=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Sun, 05 Feb 2023 12:18:48 -0000
-Message-Id: <167559952865.7657.14592850328387538788@gitolite.kernel.org>
+Date: Sun, 05 Feb 2023 12:19:02 -0000
+Message-Id: <167559954295.7763.12835637792343157151@gitolite.kernel.org>
 
---===============8104098505664280453==
+--===============0678059517582791858==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/kbuild
-    old: a9bf9dcd9d338d7e99bf2697cce776460c592eb2
+  - ref: refs/heads/for-next
+    old: 1fc763eda9bfece4f75cde95c887792581a3d25d
     new: 55700b39d5bb6d6b08fa607c2313d23cae4572dc
-    log: revlist-a9bf9dcd9d33-55700b39d5bb.txt
+    log: revlist-1fc763eda9bf-55700b39d5bb.txt
 
---===============8104098505664280453==
+--===============0678059517582791858==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a9bf9dcd9d33-55700b39d5bb.txt
+Content-Disposition: attachment; filename=revlist-1fc763eda9bf-55700b39d5bb.txt
 
 992ebfab2a75c276fe27f7fd7a3fb326ccd7225b setlocalversion: simplify the construction of the short version
 75280bdf49b2f563fb5404df7c7b735c118695fe setlocalversion: make indentation shallower
@@ -39,4 +39,4 @@ feb113ad8be1bafcd0a3b93bae639be939af563c kbuild: fix trivial typo in comment
 eed36d77517786e4b3a9f17c6a66c6df2fc99442 setlocalversion: clean up the construction of version output
 55700b39d5bb6d6b08fa607c2313d23cae4572dc setlocalversion: use only the correct release tag for git-describe
 
---===============8104098505664280453==--
+--===============0678059517582791858==--
