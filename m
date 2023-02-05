@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rw/ubifs
-Date: Sun, 05 Feb 2023 21:36:49 -0000
-Message-Id: <167563300988.15065.6573619826639531680@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Sun, 05 Feb 2023 22:07:38 -0000
+Message-Id: <167563485894.2311.7865249086798756485@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rw/ubifs
-user: rw
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
-  - ref: refs/heads/next
-    old: 3432e57493c278c1cb48abc2d69c6c055a19723e
-    new: 0b3bc49c936c1e6f399fcd2028ce24c3de9e7e59
+  - ref: refs/heads/master
+    old: 3f75e4ff30e6ac49594b29c43bd959bf766fcb8e
+    new: 49dd1cba58696580dd9902c8cb7b3cd00405d60a
     log: |
-         91cc8fbcc8c705310fc6e39899e6e6685531935b ubi: block: set BLK_MQ_F_BLOCKING
-         0b3bc49c936c1e6f399fcd2028ce24c3de9e7e59 ubi: use correct names in function kernel-doc comments
+         49dd1cba58696580dd9902c8cb7b3cd00405d60a Sun Feb  5 10:06:49 PM UTC 2023
          
