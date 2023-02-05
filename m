@@ -1,21 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mips/linux
-Date: Sun, 05 Feb 2023 14:23:19 -0000
-Message-Id: <167560699934.23647.12810436065960075644@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/ext2/e2fsprogs
+Date: Sun, 05 Feb 2023 14:27:49 -0000
+Message-Id: <167560726907.26545.17817573627445759568@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mips/linux
-user: tsbogend
+repo: pub/scm/fs/ext2/e2fsprogs
+user: tytso
 changes:
-  - ref: refs/heads/mips-next
-    old: 109d587a4b4d7ccca2200ab1f808f43ae23e2585
-    new: e8254a8ec901b78d939d8ab11a56bc98eb7862db
+  - ref: refs/heads/maint
+    old: 20523ce9c451ada3b3439de8abb3f1f48228dbb8
+    new: c51c0395887eb258e6ebbf09ae65a3855ff98789
     log: |
-         4cd81356f8a0b0fe81d01c083dc623578aba57db MIPS: dts: lantiq: Remove bogus interrupt-parent; line
-         0cb4228f6cc9ed0ca2be0d9ddf29168a8e3a3905 MIPS: DTS: CI20: fix otg power gpio
-         e8254a8ec901b78d939d8ab11a56bc98eb7862db mips: ralink: make SOC_MT7621 select PINCTRL_MT7621 and fix help section
+         c51c0395887eb258e6ebbf09ae65a3855ff98789 Fix date in the release notes for v1.46.6
+         
+  - ref: refs/heads/web
+    old: 7cd5f3fcc8b19dbf0a61f3fda5d9dcc7115d5b21
+    new: f727e5e1ad7ffc73bb3bac8200676939a77fb0fb
+    log: |
+         58f7e801c857de913247a10551d23b502703de2e Update for the 1.46.5 release
+         f727e5e1ad7ffc73bb3bac8200676939a77fb0fb Update for the 1.46.6 release
          
