@@ -1,21 +1,31 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Sun, 05 Feb 2023 14:31:05 -0000
-Message-Id: <167560746562.29161.8108025704366003019@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/ext2/e2fsprogs
+Date: Sun, 05 Feb 2023 14:32:34 -0000
+Message-Id: <167560755412.29695.17392711000538133892@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/man-pages/man-pages
-user: alx
+repo: pub/scm/fs/ext2/e2fsprogs
+user: tytso
 changes:
   - ref: refs/heads/master
-    old: 5c231dc6d4ce6388eb899195aeb297efbed80829
-    new: 1d057b789085e13147a643b6f794c14c92b243f9
+    old: 711f699cebdd573daf699d0b091d3ff203dd9cf8
+    new: b58650e321f9fea2889c258fe6e6fdf204247ff6
     log: |
-         aa0ee342ead7dfcec74264e9fc981d73aa105530 perf_event_open.2: Update recent changes
-         b9bd2720f14e9c29721d2788d043e9ebadd6a063 charsets.7: wfix
-         1d057b789085e13147a643b6f794c14c92b243f9 regex.3: tfix
+         76f2e8d11582ee48e73dc93aced246167c879593 debian: remove package-specific copyright notices
+         20523ce9c451ada3b3439de8abb3f1f48228dbb8 Update e2fsprogs.lsm for 1.46.6 release
+         c51c0395887eb258e6ebbf09ae65a3855ff98789 Fix date in the release notes for v1.46.6
+         b58650e321f9fea2889c258fe6e6fdf204247ff6 Merge branch 'maint' into next
+         
+  - ref: refs/heads/next
+    old: 711f699cebdd573daf699d0b091d3ff203dd9cf8
+    new: b58650e321f9fea2889c258fe6e6fdf204247ff6
+    log: |
+         76f2e8d11582ee48e73dc93aced246167c879593 debian: remove package-specific copyright notices
+         20523ce9c451ada3b3439de8abb3f1f48228dbb8 Update e2fsprogs.lsm for 1.46.6 release
+         c51c0395887eb258e6ebbf09ae65a3855ff98789 Fix date in the release notes for v1.46.6
+         b58650e321f9fea2889c258fe6e6fdf204247ff6 Merge branch 'maint' into next
          
