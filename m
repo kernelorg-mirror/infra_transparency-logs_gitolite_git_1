@@ -1,53 +1,42 @@
-Content-Type: multipart/mixed; boundary="===============5299326038948188165=="
+Content-Type: multipart/mixed; boundary="===============8104098505664280453=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Sun, 05 Feb 2023 11:48:40 -0000
-Message-Id: <167559772029.20313.5295674072300584209@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+Date: Sun, 05 Feb 2023 12:18:48 -0000
+Message-Id: <167559952865.7657.14592850328387538788@gitolite.kernel.org>
 
---===============5299326038948188165==
+--===============8104098505664280453==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+user: masahiroy
 changes:
-  - ref: refs/tags/char-misc-6.2-rc7
-    old: 0000000000000000000000000000000000000000
-    new: 295ead4ba525fd6426a9b1c28bf80552d40ceda3
+  - ref: refs/heads/kbuild
+    old: a9bf9dcd9d338d7e99bf2697cce776460c592eb2
+    new: 55700b39d5bb6d6b08fa607c2313d23cae4572dc
+    log: revlist-a9bf9dcd9d33-55700b39d5bb.txt
 
---===============5299326038948188165==
+--===============8104098505664280453==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-a9bf9dcd9d33-55700b39d5bb.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1675597719 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1675597718-62e7d79f49a18696f8cd0b63213b5081809771c5
+992ebfab2a75c276fe27f7fd7a3fb326ccd7225b setlocalversion: simplify the construction of the short version
+75280bdf49b2f563fb5404df7c7b735c118695fe setlocalversion: make indentation shallower
+ec31f868ec674edfcf653cc7c82b365c6f570cd9 setlocalversion: absorb $(KERNELVERSION)
+1cb86b6c313623486038165f90f4067578c2f5d5 kbuild: save overridden KERNELRELEASE in include/config/kernel.release
+58e0e5c85e31b0b30f16ac835d537ba0b7ff7d37 kbuild: deb-pkg: add --source-option=-sP
+4e3feaad6ff8a7a57e3bf3308a93c93e3a2e17a6 powerpc/vdso: Filter clang's auto var init zero enabler when linking
+5573b4daa26a0cf15aa0fecd7f1be16e0b6157bc kbuild: do not automatically add -w option to modpost
+feb113ad8be1bafcd0a3b93bae639be939af563c kbuild: fix trivial typo in comment
+67d7c3023a672c2b73d19d6d23684df670fce648 kbuild: remove --include-dir MAKEFLAG from top Makefile
+534066a983df0935847061c844eb178f8a53a9e7 .gitignore: ignore *.cover and *.mbx
+eed36d77517786e4b3a9f17c6a66c6df2fc99442 setlocalversion: clean up the construction of version output
+55700b39d5bb6d6b08fa607c2313d23cae4572dc setlocalversion: use only the correct release tag for git-describe
 
-0000000000000000000000000000000000000000 295ead4ba525fd6426a9b1c28bf80552d40ceda3 refs/tags/char-misc-6.2-rc7
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPfl5cbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+2DAP/1qqrPZon5xgcu8wfKOs
-IjKRY/RdJzIKulg+/IHGRtq7lC/8Y4MpB+wXuQ7YxMoP3KD03ErS+5NZsZEajeSZ
-FLiXsiqjFRbmLJ91yjMdEUcv16b2YA9TMqQyUH13Ws0hAuvo+kU6RN8Ud2IMxVrb
-veEzbAgGAmbDQ/8NkvPhG+WqfxlSTidWHdtk8/hTbVfufiITbgdpKemgpIN+diGw
-l5A2tg0Rvm9vk8d4jVBhRFegFa37NacmC/maO/mzyLZqY8Lq21xTiDYmOoEA5O2t
-xVeMVN4QH8/y+S+L2nIWGJfbmk/T/H0nVVsATxIc2WKxSHVqNUfLXi7Rh+nC0UJg
-0FQPaw5v8a8ZgjJE6pelLJPQzJeN8aSoNzsIC5jjvSbnVi6aKYwSIplkJGNm9cnj
-ue5DEx2x3tdenD2hT3Uta9bk2hr0HNBMnULPTulqH9UJxwMoSBalTEA3+9W7g2I/
-aSNRSt/rqOCfb0VC4wdOZu+eGZ8ElL+h9Tyk8xRhdAKxa7vMgDcF0q4+4bG3vjeR
-nMEj3CLw4cSDZhtKFRa9eFiv6cHd7qTMo+FAuMCxHAlWe20HXPQXHzF33VR3TRQT
-pkloGu3HxbkHC2qJ1x1ma8utypmUzwKIj/S3FefLD8Bm+c15n/U75TpvuzHkCki1
-zwV1PFuGhCU/M1XAxvUJ08mb
-=EzEz
------END PGP SIGNATURE-----
-
---===============5299326038948188165==--
+--===============8104098505664280453==--
