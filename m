@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8457953101251760195=="
+Content-Type: multipart/mixed; boundary="===============5598172034090263781=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/fs/xfs/xfstests-dev
-Date: Sun, 05 Feb 2023 13:19:38 -0000
-Message-Id: <167560317806.14429.1302185138270105372@gitolite.kernel.org>
+Date: Sun, 05 Feb 2023 13:20:54 -0000
+Message-Id: <167560325407.16372.8351028651607254856@gitolite.kernel.org>
 
---===============8457953101251760195==
+--===============5598172034090263781==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,28 +15,28 @@ service: git-receive-pack
 repo: pub/scm/fs/xfs/xfstests-dev
 user: zlang
 changes:
-  - ref: refs/heads/master
-    old: e64416195116eb99011d8db1b1c66db234eddb9c
-    new: 3aa3a26e075c6bc087076ee083392e13ca208abc
-    log: revlist-e64416195116-3aa3a26e075c.txt
+  - ref: refs/heads/for-next
+    old: 3aa3a26e075c6bc087076ee083392e13ca208abc
+    new: f6ab376b553d7b3e0fa0d9bc3306ea81052d1231
+    log: revlist-3aa3a26e075c-f6ab376b553d.txt
 
---===============8457953101251760195==
+--===============5598172034090263781==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e64416195116-3aa3a26e075c.txt
+Content-Disposition: attachment; filename=revlist-3aa3a26e075c-f6ab376b553d.txt
 
-81e6f62844992ad2d9e1f6439577a84277282941 generic: update setgid tests
-c08fcc7fb71c36867120b278ff68a8dff4d07499 generic/692: generalize the test for non-4K Merkle tree block sizes
-bbfa08730c1ec051134e16db04691d0dffe13949 xfs: fix dax inode flag test failures
-8f8ba51412a09888ce9aae30cad6c96ddef1bdea xfs: fix reflink test failures when dax is enabled
-11afd20ba354bcd5c5259bb123a3cec4aad9d78b xfs/182: fix spurious direct write failure
-28aadc29ed2f387549821df25f8b41c83190f96a xfs: skip fragmentation tests when alwayscow mode is enabled
-1cb825fdefd71e3c54a41326780998743ecca331 xfs/{080,329,434,436}: add missing check for fallocate support
-49da0ed4079432cfa508da90fad6be921968ff9a various: test is not appropriate for always_cow mode
-116804dc92d234838d3ad06dc2e4f1769c0f4687 populate: ensure btree directories are created reliably
-3ea9a3274403ad1cc07fde4d08bde9688b2875f1 populate: remove file creation loops that take forever
-39bb1e3d3b2c78005fdb4053b06a361cd4ff4c65 populate: improve attr creation runtime
-3aa3a26e075c6bc087076ee083392e13ca208abc xfstests: add fuse support
+d3db87166a6d21a0d1279b15675edb7630dba3dd btrfs/299: update kernel commit hash and subject
+276e00a966b3e221dfe8dbc15b4deea194356fad btrfs: test send optimal cloning behaviour
+e100e9dfd87b2dd8bd38ada669c950eb87dabff3 xfs: add helper to create fake root inode
+6a19144c851c23d471c95b29abe6cf41ae0bce12 xfs: test xfsrestore on multi-level dumpfiles with wrong root
+da69ce70dfcdbd88d6f940d7c1ab346d5a1e5f82 generic/707: Test moving directory while being grown
+82961ee6b44f320f30dc923f566c33a3ff1a102b generic/038: set a maximum runtime on this test
+c7c1063809efe4c3ff157282510dc87d0e54bd67 generic/500: skip this test if formatting fails
+7fa8a9a25bd1415c67e7bf0ed6c02727ba94fc40 fstests: doio.c, fix missing initialization of -C arg
+8d8d05a8e222658931310f55dfbe65edd8e80932 fstests: fstest.c, fix compile warnings replace sprintf with snprintf
+c569ebf561802dd43492ccb47df90528645dc7c6 fstests: t_getcwd.c, fix a warning related to buffer overflow
+1f12612b7c294af83b201f9c9056f8d4de0acb30 fstests: aiodio_sparse2.c, fix compiler warning buffer overflow
+f6ab376b553d7b3e0fa0d9bc3306ea81052d1231 xfs/191: fix xattr leaf block emptying on 64k blocksized fses
 
---===============8457953101251760195==--
+--===============5598172034090263781==--
