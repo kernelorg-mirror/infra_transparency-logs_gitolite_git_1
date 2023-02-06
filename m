@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Mon, 06 Feb 2023 22:51:45 -0000
-Message-Id: <167572390551.4782.15767980289292038808@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Mon, 06 Feb 2023 22:59:52 -0000
+Message-Id: <167572439295.8732.779325423674189564@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: andrii
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
-  - ref: refs/heads/for-next
-    old: d1d7730ff8756c6db20ff82096b577d8cfbaf547
-    new: 8306829bf845186ec8c470c771243016c30c3d74
+  - ref: refs/heads/master
+    old: 028189774f8afb43113caf62764aa0c19c7dfc24
+    new: 47ec9221a180843e212844f87896a752003968ad
     log: |
-         8306829bf845186ec8c470c771243016c30c3d74 selftests/bpf: Fix spelling mistake "detecion" -> "detection"
+         47ec9221a180843e212844f87896a752003968ad Mon Feb  6 10:58:59 PM UTC 2023
          
