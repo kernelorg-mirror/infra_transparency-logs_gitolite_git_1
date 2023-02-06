@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs-tools
-Date: Mon, 06 Feb 2023 03:42:02 -0000
-Message-Id: <167565492203.32399.17955285794395381420@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
+Date: Mon, 06 Feb 2023 03:43:05 -0000
+Message-Id: <167565498576.390.9991966925397278211@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jaegeuk/f2fs-tools
+repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
 user: jaegeuk
 changes:
-  - ref: refs/heads/dev-test
-    old: fb6575e583c9aeca1e719ee373cb448f629dfd47
-    new: 2e47ecce62b43446f3fbef8e0d15cbbfd264f62b
+  - ref: refs/heads/dev
+    old: 844545c51a5b2a524b22a2fe9d0b353b827d24b4
+    new: 04d7a7ae43fc4eed800efadbb4a18059172afb19
     log: |
-         a27fd7eb3fc86464b5546b4b7fd7af6f06c9f89e f2fs-tools: Remove deprecated f2fstat
-         2e47ecce62b43446f3fbef8e0d15cbbfd264f62b fsck.f2fs: relocate chksum verification step during f2fs_do_mount()
+         04d7a7ae43fc4eed800efadbb4a18059172afb19 f2fs: fix f2fs_show_options to show nogc_merge mount option
          
