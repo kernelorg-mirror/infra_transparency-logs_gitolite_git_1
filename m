@@ -1,16 +1,68 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Mon, 06 Feb 2023 21:48:15 -0000
-Message-Id: <167572009525.26565.13884416422212742259@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============4791445113670036183=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Mon, 06 Feb 2023 21:48:23 -0000
+Message-Id: <167572010332.26687.12328080326509484867@gitolite.kernel.org>
+
+--===============4791445113670036183==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/fileRVKk84
-    old: 941811980df00161fe639c252dabe6488875887c
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/for-6.3
+    old: 7c62a2279b9e88f2cbfa3b92dc49c8b7806c56f8
+    new: 941811980df00161fe639c252dabe6488875887c
+    log: revlist-7c62a2279b9e-941811980df0.txt
+
+--===============4791445113670036183==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher C3F436CA30F5D8EB 1675720101 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1675720101-d727351f208e0303f899a277c16f5e952c0cd8e5
+
+7c62a2279b9e88f2cbfa3b92dc49c8b7806c56f8 941811980df00161fe639c252dabe6488875887c refs/heads/for-6.3
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmPhdaUACgkQJNaLcl1U
+h9Dquwf/XqRwz0jmWNOWuTQMW/ClkqjeHJBq9hQ4w4efVtj+ET/FElgVLmZZHQjS
+ZL/pU4P0FrOZL0GWSaC+m5UtVBPo8fr9m7Qahx20CHlFl6e7p5HGXevxmFA2z+AN
+Cv8c893yacJaXrA9rvkt017vp1iYZoDLCFEiIP+4z4nrYdj4yP+dtVK2o6fywfqn
+218ASGfCetdrEeSucK1Pxn8IY1yT5TY/idCo4zE/J3Ttyxd0+1fZ662Ldq7jgkVy
+kjc2m7hRl4DC/sKdoT5I9fwFDwAcyGdEnUCet0FxME5jf/oYvG7jlQ6m/KiOqPLh
+EnMUJuQMXeWsInpj0TWklT9owMPkSA==
+=7eO4
+-----END PGP SIGNATURE-----
+
+--===============4791445113670036183==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-7c62a2279b9e-941811980df0.txt
+
+b24cded8c065d7cef8690b2c7b82b828cce57708 spi: mediatek: Enable irq before the spi registration
+e8bb8f19e73a1e855e54788f8673b9b49e46b5cd spi: cadence: Fix busy cycles calculation
+819cfea7d69d5561f89c4957ff94afc6cad76356 spi: SPI core CS delay property rename From: Hector Martin <marcan@marcan.st> Date: Wed, 04 Jan 2023 18:36:26 +0900 Message-Id: <20230104093631.15611-1-marcan@marcan.st> MIME-Version: 1.0 Content-Type: text/plain; charset="utf-8" Content-Transfer-Encoding: 7bit
+1f4d2dd45b6ef9c047f620d2812326a7813d2354 spi: spidev: fix a race condition when accessing spidev->spi
+50028988403ab8e031093655af9c6919ecba3aa6 spi: spidev: remove debug messages that access spidev->spi without locking
+a720416d94634068951773cb9e9d6f1b73769e5b spi: spidev: fix a race condition when accessing spidev->spi
+6b35b173dbc1711f8d272e3f322d2ad697015919 spi: spidev: remove debug messages that access spidev->spi without locking
+b442990d244ba2ffe926c6603c42deb6fcc3b0db spi: Merge rename of spi-cs-setup-ns DT property
+c63b8fd14a7db719f8252038a790638728c4eb66 spi: dw: Fix wrong FIFO level setting for long xfers
+eede42c9459b58b71edc99303dad65216a655810 spi: spidev: fix a recursive locking error
+35bba23e6732a593722c96cbe03ced627f0d8831 Merge remote-tracking branch 'spi/for-6.2' into spi-6.2
+f8f5a7c902776c18598963b359046ddf0728be84 spi: Merge fixes
+941811980df00161fe639c252dabe6488875887c spi: spidev: Fix double unlock in spidev_sync()
+
+--===============4791445113670036183==--
