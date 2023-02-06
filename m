@@ -1,22 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
-Date: Mon, 06 Feb 2023 13:30:32 -0000
-Message-Id: <167569023268.15129.4323121601077791132@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 06 Feb 2023 13:36:03 -0000
+Message-Id: <167569056374.18417.2374695979653057735@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/hid/hid
-user: bentiss
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: sashal
 changes:
-  - ref: refs/heads/for-next
-    old: 4d42083105d3caf8088d0b8cca0895f6a213dcd0
-    new: b8afbe55b28f76cb9ffb46efca3177d843bce1c9
+  - ref: refs/heads/master
+    old: 8ffd6aa1ab32d82318539cfea32a516545939a47
+    new: ce6494bddc729f1015b3ae41428043ac60059ddc
     log: |
-         ea427a222d8bdf2bc1a8a6da3ebe247f7dced70c HID: core: Fix deadloop in hid_apply_multiplier.
-         690eb7dec72ae52d1d710d14a451844b4d0f4f19 HID: logitech: Disable hi-res scrolling on USB
-         7bcfdab3f0c6672ca52be3cb65a0550d8b99554b HID: amd_sfh: if no sensors are enabled, clean up
-         b8afbe55b28f76cb9ffb46efca3177d843bce1c9 Merge branch 'for-6.2/upstream-fixes' into for-next
+         8732fdbdfe475ace1e259aa6a8043acb5ed9108b Fixes for 6.1
+         0d1571f494625372ab5d7410fbe2067b52394b28 Fixes for 5.15
+         cdf6455f035af3d84ee1d89b21f66efe6e590dd3 Fixes for 5.10
+         4853cfe485451bbf642d261d7a45f30677f2273b Fixes for 5.4
+         13cc78bfad2a36fbbba3e8651805df9ce7e728fc Fixes for 4.19
+         ce6494bddc729f1015b3ae41428043ac60059ddc Fixes for 4.14
          
