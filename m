@@ -1,50 +1,47 @@
-Content-Type: multipart/mixed; boundary="===============6816418621190996947=="
+Content-Type: multipart/mixed; boundary="===============2934915139263939087=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 06 Feb 2023 09:09:03 -0000
-Message-Id: <167567454387.17663.3318718611767495036@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Mon, 06 Feb 2023 09:13:54 -0000
+Message-Id: <167567483470.20697.8970372365214279053@gitolite.kernel.org>
 
---===============6816418621190996947==
+--===============2934915139263939087==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: davem
 changes:
   - ref: refs/heads/master
-    old: 8a675b93ea918d975ea4de17d70b85ada1217314
-    new: 091ed7563795c667903a385de66a41c463b07516
-    log: revlist-8a675b93ea91-091ed7563795.txt
+    old: cb3086cee65646b05d6ea62398a70d46ec0573be
+    new: 637bc8f09b0492f979992d38dfae0ebc17799529
+    log: revlist-cb3086cee656-637bc8f09b04.txt
 
---===============6816418621190996947==
+--===============2934915139263939087==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8a675b93ea91-091ed7563795.txt
+Content-Disposition: attachment; filename=revlist-cb3086cee656-637bc8f09b04.txt
 
-21dbd74d6f44cb0554b5bd262956f9fa8fd39ba1 Merge branch into tip/master: 'irq/core'
-926d22a0571deba731e1e6f122ea8dbd021e0506 Merge branch into tip/master: 'locking/core'
-ff7555ccdf8e86425d6c1034c1931ba957f90a10 Merge branch into tip/master: 'objtool/core'
-832a92a48ba552237598be99537ee1d2303dbd1c Merge branch into tip/master: 'perf/core'
-a678f9f93e7aa7a25818487479cffc6d52d9a5ac Merge branch into tip/master: 'ras/core'
-840aa97c3eca6dcb3db6e515079bed420c10ae0d Merge branch into tip/master: 'sched/core'
-280b75c9e0bfcbf86c46506efafbbf74a489683c Merge branch into tip/master: 'timers/core'
-877d5e98d0e343a74227e97f06b451cc21287a22 Merge branch into tip/master: 'x86/alternatives'
-bf0da49ed7a6c9a303668c9a08c83ebe24445094 Merge branch into tip/master: 'x86/asm'
-74b435e986a6825ab7ad6931da03436b1b46bc72 Merge branch into tip/master: 'x86/boot'
-38302aa176e1d5c273923bba1e3100c83292e55c Merge branch into tip/master: 'x86/cache'
-eb748d04eb6cfad25782110f0efc0cd3abbd722c Merge branch into tip/master: 'x86/cleanups'
-f90d3c7acaa7bf16c35be6f2d28c0ccc526373f3 Merge branch into tip/master: 'x86/core'
-78b3eb25ff5091b9a8b3c27c38457e37e311cd18 Merge branch 'x86/cpu'
-c4e03ea768ceed0fe9f8f7749f9adc1ce2134392 Merge branch into tip/master: 'x86/fpu'
-1e35fa0df25076839f81b21ecf0635468e0ab108 Merge branch into tip/master: 'x86/microcode'
-ee854155e70d299a1ec3d132ecb52ead6629c677 Merge branch into tip/master: 'x86/mm'
-6d8ab05fa3ae1c0412cfad4fbbbd646941393050 Merge branch into tip/master: 'x86/platform'
-3f2d4fc8174f98e77bf444f806fbc101f16ce3e6 Merge branch 'x86/tdx'
-091ed7563795c667903a385de66a41c463b07516 Merge branch into tip/master: 'x86/vdso'
+2afcfae77a0798fa0de4e575dc1ab202c153993c net/mlx5: Lag, Update multiport eswitch check to log an error
+9a49a64ea7edbe070d39d945f6fc99c41a011268 net/mlx5: Lag, Use mlx5_lag_dev() instead of derefering pointers
+b399b066e27e82aa04e6281b7e12803063987c7f net/mlx5: Lag, Remove redundant bool allocation on the stack
+6a80313d24ac0417e2e12620c10be42c0a07da0e net/mlx5: Lag, Use flag to check for shared FDB mode
+199abf33f4145947c872987be60b6fb3e2dc7279 net/mlx5: Lag, Move mpesw related definitions to mpesw.h
+f2d51e579359b708d7063eef543bec6a57d2b5e9 net/mlx5: Separate mlx5 driver documentation into multiple pages
+a12ba19269d727a4f9f68365a8d4542513c369d8 net/mlx5: Update Kconfig parameter documentation
+e12ebbf0cc55c98c7bdd30099b1833bc729cbe83 net/mlx5: Document previously implemented mlx5 tracepoints
+8ce3b586faa471ab750bd201c0fd063c2a29e515 net/mlx5: Add counter information to mlx5 driver documentation
+04937a0f68911a62dfd0a84bb383dcbf0a19d8c8 net/mlx5: Document support for RoCE HCA disablement capability
+b63636b6c170aaf0becd67d14ba7c538d1f8d4f5 net/mlx5: Add firmware support for MTUTC scaled_ppm frequency adjustments
+7eef93003e5d20e1a6a6e59e12d914b5431cbda2 net/mlx5: Enhance debug print in page allocation failure
+ce231772da8c7bc4c31d6171379957cd4b2b7a5f net/mlx5e: IPoIB, Add support for XDR speed
+a7385187a386d0fc4721727e2cbe4a70a9cff6f7 net/mlx5e: IPsec, support upper protocol selector field offload
+79efecb41f58430454cbb5809fa7b3135150da6d net/mlx5e: Trigger NAPI after activating an SQ
+27369c9c2b722617063d6b80c758ab153f1d95d4 virtio-net: Maintain reverse cleanup order
+637bc8f09b0492f979992d38dfae0ebc17799529 Merge tag 'mlx5-updates-2023-02-04' of git://git.kernel.org/pub/scm/linux/kernel/git/saeed/linux
 
---===============6816418621190996947==--
+--===============2934915139263939087==--
