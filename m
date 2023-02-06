@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Mon, 06 Feb 2023 22:31:38 -0000
-Message-Id: <167572269878.23229.6353113409896322074@gitolite.kernel.org>
+Date: Mon, 06 Feb 2023 22:51:43 -0000
+Message-Id: <167572390365.4725.2176898187428930649@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: andrii
 changes:
-  - ref: refs/heads/for-next
-    old: 17c9b4e1a7d14719378c3eedefc2960018f5a7bb
-    new: d1d7730ff8756c6db20ff82096b577d8cfbaf547
+  - ref: refs/heads/master
+    old: d1d7730ff8756c6db20ff82096b577d8cfbaf547
+    new: 8306829bf845186ec8c470c771243016c30c3d74
     log: |
-         d1d7730ff8756c6db20ff82096b577d8cfbaf547 libbpf: Correctly set the kernel code version in Debian kernel.
+         8306829bf845186ec8c470c771243016c30c3d74 selftests/bpf: Fix spelling mistake "detecion" -> "detection"
          
