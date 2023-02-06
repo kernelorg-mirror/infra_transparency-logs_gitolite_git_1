@@ -1,20 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/deller/parisc-linux
-Date: Mon, 06 Feb 2023 13:25:53 -0000
-Message-Id: <167568995347.12104.11932307971151401617@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
+Date: Mon, 06 Feb 2023 13:30:32 -0000
+Message-Id: <167569023268.15129.4323121601077791132@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/deller/parisc-linux
-user: deller
+repo: pub/scm/linux/kernel/git/hid/hid
+user: bentiss
 changes:
   - ref: refs/heads/for-next
-    old: 17657347ef113cf3bea2ab7e5d7296df4d6326be
-    new: a41793f54ee6e49389207ccd11dff2da6babe272
+    old: 4d42083105d3caf8088d0b8cca0895f6a213dcd0
+    new: b8afbe55b28f76cb9ffb46efca3177d843bce1c9
     log: |
-         76008c1008dca3cdd7709f4a468b0c3ff9787632 parisc: Add checks to verify page alignment in cache
-         a41793f54ee6e49389207ccd11dff2da6babe272 fs/readdir: Give kernel warning if an application uses the 32-bit getdents syscall
+         ea427a222d8bdf2bc1a8a6da3ebe247f7dced70c HID: core: Fix deadloop in hid_apply_multiplier.
+         690eb7dec72ae52d1d710d14a451844b4d0f4f19 HID: logitech: Disable hi-res scrolling on USB
+         7bcfdab3f0c6672ca52be3cb65a0550d8b99554b HID: amd_sfh: if no sensors are enabled, clean up
+         b8afbe55b28f76cb9ffb46efca3177d843bce1c9 Merge branch 'for-6.2/upstream-fixes' into for-next
          
