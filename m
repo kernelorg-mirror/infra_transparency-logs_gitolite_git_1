@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7428243584405563900=="
+Content-Type: multipart/mixed; boundary="===============7924797762335147235=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Mon, 06 Feb 2023 18:06:34 -0000
-Message-Id: <167570679482.6296.5691049335383375048@gitolite.kernel.org>
+Date: Mon, 06 Feb 2023 18:08:43 -0000
+Message-Id: <167570692377.7026.8668497727357923278@gitolite.kernel.org>
 
---===============7428243584405563900==
+--===============7924797762335147235==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,78 +16,68 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-next
-    old: d38e781ea035456c742605fb21d0dd3c755b7b0b
-    new: 3b65010018ec9a228416c4ccda193af6e8d74676
-    log: revlist-d38e781ea035-3b65010018ec.txt
+  - ref: refs/heads/char-misc-testing
+    old: 3b65010018ec9a228416c4ccda193af6e8d74676
+    new: 1dc7e37bb0ec1c997fac82031332a38c7610352f
+    log: revlist-3b65010018ec-1dc7e37bb0ec.txt
 
---===============7428243584405563900==
+--===============7924797762335147235==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1675706794 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1675706920 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1675706793-43df933cce28247ac6e069dce7e5f0976196aad1
+nonce 1675706920-990191c6de4d9b375c3f02085ac10c6e4888c0ed
 
-d38e781ea035456c742605fb21d0dd3c755b7b0b 3b65010018ec9a228416c4ccda193af6e8d74676 refs/heads/char-misc-next
+3b65010018ec9a228416c4ccda193af6e8d74676 1dc7e37bb0ec1c997fac82031332a38c7610352f refs/heads/char-misc-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPhQaobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+S7wP/0PVzVdBIzbeiq3JAJ1e
-SX7dbqeWD9gQZY0tGE6FZbzVbMM8+cj6dJppd53sbntPseGI9kJELKAHT2Ly7HeS
-2GmIgit4Zm5PgmlHAYj5Sf7iobx3y4vxIUjkatsti9XHrG/1DnMYGD2dOToCF9W7
-ZJgW2Xvvl2bpeQ8rhfy453xF3yg8UtHtllJSO/N6aJZ/jhCn+DOq58HAL8SAMPUq
-ZppOavaG0avOTM8qAlhDWXFksq6xkYS0bMmkve7XlqjdmmmsOAMFtkc4FljABDz3
-kCBMNOZbWBYF+KX9lXD88FKdovyRnTDRWsbahSNSuC4tkhvrcg0+7pBa7wd5XZk5
-4HVtnATp6d4fZbd2SV4y+WUGzV/ep5mbSLJnjZ6krE/s3BmWvFMrFUb+3rpAmBpA
-L0VWDc0VlSD31Im0VFAr+vpOgT84T6iDX6hCtqUwYFEhPFBqIIcfqkyOWyH2iFTZ
-dcMp33ecv0tCu8X/bkZMRKdbjlTTM1Nh3Nq3sSmqgtj1xG4FAYnRC0iPhdEMYP7u
-6wPzKDYP8yys6ie7sD1jDaoK15m6XmqiftJ3RVerJ5FRwdyfc+elK6K9Wihtfrkj
-PBvXrssU4etBeXclI8HiRHliTTbN9IU1V2QVsCCwoBpXDhbI42P1JuvVvNAm/cKD
-eHre4FJdgbZsFgtUHtewL0er
-=fXCg
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPhQikbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+FuUQAJSWuE8y+sEKrgAGP0bl
+vJUfTzV/3HzYEvTxL4v3Z2NM3/wCbWxRAlehsuP74Jb0MmWqpuy4/gND5H8UbkQB
+vUSMEcfANjPBfzsc0p9T6GnFUDOgd93yUn9DXmwZif3lXNu+y9cm43Lu3kzhDqJ4
+o6yO9pabPrWQl5YdVsA10CfA3MzemaJJEiDvC4ohTG1bdhN1CT+FDp0tjuyFAkzF
+kAUmRggvK1MEAfRSVwJxfqy/e5KZa5dBbnpND5VGffLmbTT5dpV0Q0a8xYyaBjCg
+dqdSwycejUPr1EBJYepgQdVoAxupztpSDclnceEy4EERhHSw4DcvDVRcpWr9FcQ6
+YRwEP45p94R70WBNTUdgsL40yNXS5SnVUjziO6lmpQHRg5lIs/lTDOAlHfocYoZj
+w+mw2o/l3W3J6uLuroh6Ul17Xh3SR4trZMM8gW3EKSQToh3DNoTTJsLabYpKWmba
+LO6K82PIwBG+Ys1yavcC9utgY6vmIBcTpfMSxBKnbcJzqDwhBHSnnTOcxYzLsWkc
+YQ02wuZNSqAGFKc+xkEi/Mhj5fVyXJ9C7mZU06xf7ejbE5zFfezwwSiaF5DC78/+
+05P1WR9AqPWGmOL801MJJ/8ZzGh0Dr4gwrvEzOo5GVcneRWpuHwVoyGgrUjxBkzM
+dChShVsZblVM4KLzNbkylJTz
+=jPag
 -----END PGP SIGNATURE-----
 
---===============7428243584405563900==
+--===============7924797762335147235==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d38e781ea035-3b65010018ec.txt
+Content-Disposition: attachment; filename=revlist-3b65010018ec-1dc7e37bb0ec.txt
 
-66773faf054b9d8c11e126f47e24b1dabdadb4d8 dt-bindings: interconnect: Add Qualcomm SM8550
-e6f0d6a30f734e74929510a563e5d1eeb9575fa1 interconnect: qcom: Add SM8550 interconnect provider driver
-179918b0b76e2ec999182f3ecd14d0a03b34a92a Merge branch 'icc-sm8550-immutable' into icc-next
-991f1372d028ddc135c732f97bf909d72ca8b0b0 dt-bindings: interconnect: Add QDU1000/QRU1000 devices
-1f51339f7dd0e723eaec4dc4b4bfb4f64cdcaa2d interconnect: qcom: Add QDU1000/QRU1000 interconnect driver
-163ea2048dc8cff2146036e61137107d229e972b Merge branch 'icc-qdu1000' into icc-next
-7d6d7bfd4cb901120c9ffb0703b23faa9bb169fb interconnect: qcom: sdx55: drop IP0 remnants
-1c0c93d04efbbb7b141eef4ecc2fa8d0ba7815de interconnect: qcom: sc7180: drop IP0 remnants
-88387e21d224923eaa0074e3eef699a30f437e62 interconnect: move ignore_list out of of_count_icc_providers()
-a532439199369b86cf7323f84d1946b7d0634c53 interconnect: qcom: sm8150: Drop IP0 interconnects
-10d13cb5959a93638aef39df6d91d5c4e1ffd199 interconnect: qcom: sm8250: Drop IP0 interconnects
-c4801e244132d41f8225266afe69f31e136ea012 interconnect: qcom: sc8180x: Drop IP0 interconnects
-b136d257ee0b7ad129812898dd7735d186551a10 interconnect: qcom: sc8280xp: Drop IP0 interconnects
-2f0f1d98e708db2a39ce1d4756b5d4512274c215 dt-bindings: interconnect: qcom: Remove ipa-virt compatibles
-e51c94dd9c7af3d84b19d1753ee118f999c6c8dd dt-bindings: interconnect: qcom: drop IPA_CORE related defines
-f8a363c43bc7ff9ac6ee78222f978a66b9be903d dt-bindings: interconnect: split SC7280 to own schema
-45e68388ba0ed25ae419acbfa80133f9038ab386 dt-bindings: interconnect: split SC8280XP to own schema
-2fafc335141c114a19dd4226074d07ebfc992a44 dt-bindings: interconnect: split SM8450 to own schema
-16ceb986c942b389e828f32c516405ac1595a89c dt-bindings: interconnect: qcom-bwmon: document SM8550 compatibles
-62a4545614630dc65b130b84d69ce64dbff95523 dt-bindings: interconnect: OSM L3: Add SM6350 OSM L3 compatible
-81ccf4557105068eff754b5764c44c0f16c3ca66 dt-bindings: interconnect: add sdm670 interconnects
-7e438e18874e396f4a30657087e932b5a524729c interconnect: qcom: add sdm670 interconnects
-2579af94c813d16bfabd81797f492fdfba25d088 dt-bindings: interconnect: qcom: document the interconnects for sa8775p
-3655a63f9661b1fff313d8795200ff420282a87b interconnect: qcom: add a driver for sa8775p
-16700acc328efde9801691b9794266dfcee31d4b dt-bindings: interconnect: Exclude all non msm8939 from snoc-mm
-a402d2d55d8b89602c2650d55a51fb076c6ad8bc dt-bindings: interconnect: qcom,sa8775p-rpmh: fix a typo
-3e0df6916f6c85174b4deda08726afea2918b367 dt-bindings: interconnect: samsung,exynos-bus: allow opp-table
-863ed40ea903568b8af9a91e3ca1884a778e79a5 Merge branch 'icc-ip0-migration' into icc-next
-b9544fb577288e7f81218fc6f50d74c248bc20a4 Merge branch 'icc-sdm670' into icc-next
-b1f5e7ff0c4eddebbc8a598ae4a1c3f3bf1ebad4 Merge branch 'icc-sa8775p' into icc-next
-7bf0008a52930e4d11ff1d6083cf13d9879bd2d0 Merge branch 'icc-dt' into icc-next
-3b65010018ec9a228416c4ccda193af6e8d74676 Merge tag 'icc-6.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/djakov/icc into char-misc-next
+c9dde85d25d3d59068bdb1e8cc5a4b7be5530bd4 nvmem: sunxi_sid: Drop the workaround on A64
+31ce495a4ceadb9f396af56214acee7ed283d157 dt-bindings: nvmem: Fix qcom,qfprom compatibles enum ordering
+226198d001df163b05fc4f3052f68c2a0348fb2f dt-bindings: nvmem: Add compatible for MSM8976
+a1e63b63763d7f272173026d79d941ca53a64152 dt-bindings: nvmem: qfprom: add sdm670 compatible
+3644df5050c186b44dfdde52ae4dca31148f8ccc dt-bindings: nvmem: Add compatible for SM8150
+e3d2a936fcb014160a840b96a132cb05b456c5cf dt-bindings: nvmem: Add compatible for SM8250
+2e8dc541ae207349b51c65391be625ffe1f86e0c nvmem: core: remove spurious white space
+7390609b0121a1b982c5ecdfcd72dc328e5784ee net: add helper eth_addr_add()
+c5d264d4b527c96ae8903376a4b195df47b05203 of: base: add of_parse_phandle_with_optional_args()
+ff24fed10ba414d19579e26e60b126fad2f2bb07 of: property: make #.*-cells optional for simple props
+e2d8172043d2e50df19fcd59c11e5593de8188d7 of: property: add #nvmem-cell-cells property
+5d8e6e6c10a3d37486d263b16ddc15991a7e4a88 nvmem: core: add an index parameter to the cell
+fbd03d27776c6121a483921601418e3c8f0ff37e nvmem: core: move struct nvmem_cell_info to nvmem-provider.h
+cc5bdd323dde6494623f3ffe3a5b887fa21cd375 nvmem: core: drop the removal of the cells in nvmem_add_cells()
+2ded6830d376d5e7bf43d59f7f7fdf1a59abc676 nvmem: core: add nvmem_add_one_cell()
+50014d659617dc58780a5d31ceb76c82779a9d8b nvmem: core: use nvmem_add_one_cell() in nvmem_add_cells_from_of()
+6a0bc3522e746025e2d9a63ab2cb5d7062c2d39c nvmem: stm32: add OP-TEE support for STM32MP13x
+df2f34ef1d924125ffaf29dfdaf7cdbd3183c321 nvmem: stm32: detect bsec pta presence for STM32MP15x
+3e5ac22aa564026e99defc3a8e02082521a5b231 nvmem: rave-sp-eeprm: fix kernel-doc bad line warning
+eb7dda20f42a9137e9ee53d5ed3b743d49338cb5 nvmem: qcom-spmi-sdam: register at device init time
+62d3cfd2a978313f08e31bce60308404d60eb50c dt-bindings: nvmem: qfprom: add IPQ8074 compatible
+1dc7e37bb0ec1c997fac82031332a38c7610352f nvmem: stm32: fix OPTEE dependency
 
---===============7428243584405563900==--
+--===============7924797762335147235==--
