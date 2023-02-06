@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2019455699317698102=="
+Content-Type: multipart/mixed; boundary="===============8180224269027697981=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Mon, 06 Feb 2023 07:34:39 -0000
-Message-Id: <167566887929.18610.11097692447162117657@gitolite.kernel.org>
+Date: Mon, 06 Feb 2023 07:34:44 -0000
+Message-Id: <167566888450.18698.870577131395549421@gitolite.kernel.org>
 
---===============2019455699317698102==
+--===============8180224269027697981==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 2241ab53cbb5cdb08a6b2d4688feb13971058f65
+  - ref: refs/heads/usb-linus
+    old: f82060da749c611ed427523b6d1605d87338aac1
     new: 4ec5183ec48656cec489c49f989c508b68b518e3
-    log: revlist-2241ab53cbb5-4ec5183ec486.txt
+    log: revlist-f82060da749c-4ec5183ec486.txt
 
---===============2019455699317698102==
+--===============8180224269027697981==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1675668878 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1675668883 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1675668877-4c015a15b786b8b10fb3b761e360aa038be94280
+nonce 1675668882-60d8e910f482875f9af100856c93355491ae6e52
 
-2241ab53cbb5cdb08a6b2d4688feb13971058f65 4ec5183ec48656cec489c49f989c508b68b518e3 refs/heads/main
+f82060da749c611ed427523b6d1605d87338aac1 4ec5183ec48656cec489c49f989c508b68b518e3 refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPgrY4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+kPsP/2U7vWasuqxmXj9CfI9z
-GYLAfrfiItezpum0RHBRmS/0FCZw2DVtd53oRDjtVFl4IOhaAbGmZTwulZL0ktkl
-jRrTj9gKhfIf8JXia4q0L+MrHayIITQb4VUfrzd3E3vWB8W+9v92ZX1AkNFrBQe6
-wkk8ElR81LsdbT9zb63TMaMcbvbKQnNtqbHIPUGhYr7P/J32+KH+4w1+vM9cPfln
-tL3xS/yF06cgMyjuVl5SYf4YzJZFCkfNcZ6Tjk5nJVqzXv3AvUH0IJoyYla2otXH
-ZaMfl3AknVsp2feSeMnItNqbh2gOqZ5Tk9E+tqsOpwIQ4sQIW5GuAHIwBEsdeQzh
-OS/AimHPF3J7M9gnSBiIPPVB8QIi+CBW0a9Tr50G37bi5IzlLX3gdXdHahkYTKAn
-P/gRtLUlDv2oE8nYDnvPgox0+HVknv4GuzQIO6xyajhzj5Q06DA33rRGP17a2jkp
-LmFFSei9AIDk0dV2ZJ48V+5mAUM5X/3ozAPCeasbzpFbqPaBEoFQ0+SEiZbPp8Vd
-U0+CMJneFMeBo4/OWW40guRABhz1FpDOTG/urpaMX53WMwXOgpmftf+hBW/JGvrM
-ei6n5cx+6sNiv0q9y95wL6V8gmBlmFxHUEioOQDJUQv/3OvGlH1+vsK6f0xfqo8S
-g2ASd7iGFM88q3EwWrCWnZ7N
-=yh4z
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPgrZMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+lGIQAMXp4hlt8h8YV0OSLgcn
+d84Qn16Ki2rLCHAEf8Q6AzqNi0IxNe1VEtWbTme/bA5XixoctqvKDt1TnI+2sFHj
+RyJTo/67n2w3FwTNeC6f+jUhtQbkJFmRhhlCaCDTp5Gtbe1izN6pzhRukxLVK5Xe
+Z4pyc2LadTkFD8T/SqT0GNoxwRnYYt3qFUvqhU6ZONb1Oxds07UMuatO51bzJOa0
+Qzs5tvKIIssCflH10wITXVq5bA7bedsbqFHkMfFFBneiWuksj3/DUOM+9gujADKs
+icK9mmM8Nq9dQNMq2GbT9YirlhXXX5cxOLKNxLyckidQyu0gH+hzH8cseFLGiAIz
+DXhQfYaqlja0KaWfGvhlz7CxadBL0yzfCaKN/BKjfsQoC5im/EFOnXsUmK+zgisv
+iT1Ud48gwQZLtn37CdsQ4UE63XUz8BlkNpJrYzgS7j9QxNHvQ7qMvQwTEylLN4+m
+uO6FWZhPjCQBcWG3oKhGCkwuGJuK3Vw+Brkl+tqvOMzYyz8yxIEjSL1aew8LkXYP
+tAXv7Jrae3iTWbrYTNVS7LmG4nHuNWAKWhlfYeBvoGgUFsAf8CE1fkf9R7NWKhSa
+/mQOB5xrRSqU2iEkpWNra+15KPyv975xolhU1v/++lUCkvN7ZHkOZhAZ9m7HO2GL
+4f5WjrQmuT/xHMDmFH3vU1wx
+=EJV3
 -----END PGP SIGNATURE-----
 
---===============2019455699317698102==
+--===============8180224269027697981==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2241ab53cbb5-4ec5183ec486.txt
+Content-Disposition: attachment; filename=revlist-f82060da749c-4ec5183ec486.txt
 
 3c44e2b6cde674797b76e76d3a903a63ce8a18bb Revert "Input: synaptics - switch touchpad on HP Laptop 15-da3001TU to RMI mode"
 71a06f1034b91e15d3ba6b5539c7d3a2d7f13030 mac802154: Fix possible double free upon parsing error
@@ -260,9 +260,6 @@ facd61053cff100973921d4d45d47cf53c747ec6 fuse: fixes after adapting to new posix
 8be9fbd5345da52f4a74f7f81d55ff9fa0a2958e ftrace: Export ftrace_free_filter() to modules
 3bb06eb6e9acf7c4a3e1b5bc87aed398ff8e2253 tracing: Make sure trace_printk() can output as soon as it can be used
 d968117a7e8e5572762eacbdbca13bc96710e9a3 Revert "Merge branch 'ethtool-mac-merge'"
-fa003a3c11efff1c42a0edbe8eee86fb1ebe6d7a MAINTAINERS: Add myself as UVC Gadget Maintainer
-eb320f76e31dc835b9f57f04af1a2353b13bb7d8 usb: dwc3: qcom: enable vbus override when in OTG dr-mode
-921deb9da15851425ccbb6ee409dc2fd8fbdfe6b usb: gadget: f_fs: Fix unbalanced spinlock in __ffs_ep0_queue_wait
 7ae4ba7195b1bac04a4210a499da9d8c63b0ba9c ftrace/scripts: Update the instructions for ftrace-bisect.sh
 ac28d0a0f40782d216f6aaaf22e0d8bded06a435 tracing: Kconfig: Fix spelling/grammar/punctuation
 5a5754a4997c372292e57ed631807131c63cebaf nvme-pci: flush initial scan_work for async probe
@@ -306,7 +303,6 @@ de8a6b15d9654c3e4f672d76da9d9df8ee06331d net: mctp: add an explicit reference fr
 b98e1a04e27fddfdc808bf46fe78eca30db89ab3 net: mctp: mark socks as dead on unhash, prevent re-add
 ac8d986cbf0b0ffdbf2c707fe59cf4a71d933a18 Merge branch 'mptcp-fixes'
 acd7e9ee57c880b99671dd99680cb707b7b5b0ee thermal: intel: int340x: Add locking to int340x_thermal_get_trip_type()
-2fa89458af9993fab8054daf827f38881e2ad473 usb: gadget: f_uac2: Fix incorrect increment of bNumEndpoints
 c1d6105869464635d8a2bcf87a43c05f4c0cfca4 riscv: Move call to init_cpu_topology() to later initialization stage
 d5090d91ec929a79b52e5a98144d85dea40d4438 tracing/filter: fix kernel-doc warnings
 34226fc6889e0e2fe8480bf3a0b43ac992bbee94 ftrace: Maintain samples/ftrace
@@ -554,13 +550,11 @@ cca6e9ff22f79e37da3d73f60c38a84d8ed0c162 Merge branch 'ip-ip6_gre-fix-gre-tunnel
 a2df8463e15c10a8a882090f3d7a760fdb7b189d igc: return an error if the mac type is unknown in igc_ptp_systim_to_hwtstamp()
 917d5e04d4dd2bbbf36fc6976ba442e284ccc42d octeontx2-af: Fix devlink unregister
 99f1c46011cc0feb47d4f4f7bee70a0341442d14 hv_netvsc: Fix missed pagebuf entries in netvsc_dma_map/unmap()
-30d09b3131f5b1b9d54ad9b7ee171a45e21362b3 usb: gadget: udc: do not clear gadget driver.bus
 d0553680f94c49bbe0e39eb50d033ba563b4212d can: j1939: fix errant WARN_ON_ONCE in j1939_session_deactivate
 3793301cbaa4a62d83e21f685307da7671f812ab can: raw: fix CAN FD frame transmissions over CAN XL devices
 823b2e42720f96f277940c37ea438b7c5ead51a4 can: isotp: handle wait_event_interruptible() return values
 4f027cba8216f42a18b544842efab134f8b1f9f4 can: isotp: split tx timer into transmission and timeout
 1613fff7a32e1d9e2ac09db73feba0e71a188445 can: mcp251xfd: mcp251xfd_ring_set_ringparam(): assign missing tx_obj_num_coalesce_irq
-f82060da749c611ed427523b6d1605d87338aac1 usb: typec: ucsi: Don't attempt to resume the ports before they exist
 eecf2acd4a580e9364e5087daf0effca60a240b7 platform/x86: touchscreen_dmi: Add Chuwi Vi8 (CWI501) DMI match
 69f2c9346313ba3d3dfa4091ff99df26c67c9021 ata: libata: Fix sata_down_spd_limit() when no link speed is reported
 c03c80e3a03ffb4f790901d60797e9810539d946 selftests: net: udpgso_bench_rx: Fix 'used uninitialized' compiler warning
@@ -618,4 +612,4 @@ dc0ce181af6d1989192b973eae5f916cb6ce47f0 Merge tag 'tty-6.2-rc7' of git://git.ke
 c608f6b58f306ce0e4f459af69a196f5ed6ccf45 Merge tag 'usb-6.2-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb
 4ec5183ec48656cec489c49f989c508b68b518e3 Linux 6.2-rc7
 
---===============2019455699317698102==--
+--===============8180224269027697981==--
