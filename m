@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2865053797193379051=="
+Content-Type: multipart/mixed; boundary="===============5971395123520889563=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Mon, 06 Feb 2023 15:04:07 -0000
-Message-Id: <167569584743.13236.15916602944397463680@gitolite.kernel.org>
+Date: Mon, 06 Feb 2023 15:05:56 -0000
+Message-Id: <167569595661.15376.1019291146370232811@gitolite.kernel.org>
 
---===============2865053797193379051==
+--===============5971395123520889563==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cel/linux
 user: cel
 changes:
-  - ref: refs/heads/master
-    old: 6d796c50f84ca79f1722bb131799e5a5710c4700
-    new: 4ec5183ec48656cec489c49f989c508b68b518e3
-    log: revlist-6d796c50f84c-4ec5183ec486.txt
-  - ref: refs/tags/v6.2-rc7
-    old: 0000000000000000000000000000000000000000
-    new: 53b3c6467004c627f42d96ef839b223a749bcdd9
+  - ref: refs/heads/nfsd-next
+    old: c2abab2b888b0766f8cdc1d6789b7d512a50ee9a
+    new: 3da20567632c6c0075d868e8aa1d066c36f4f5d7
+    log: revlist-c2abab2b888b-3da20567632c.txt
 
---===============2865053797193379051==
+--===============5971395123520889563==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6d796c50f84c-4ec5183ec486.txt
+Content-Disposition: attachment; filename=revlist-c2abab2b888b-3da20567632c.txt
 
 71a06f1034b91e15d3ba6b5539c7d3a2d7f13030 mac802154: Fix possible double free upon parsing error
 cc3304052a89ab6ac887ed9224420a27e3d354e1 iio: adc: stm32-dfsdm: fill module aliases
@@ -367,5 +364,122 @@ d3feaff4d9492aa05b94167e170858da81159654 Merge tag 'char-misc-6.2-rc7' of git://
 dc0ce181af6d1989192b973eae5f916cb6ce47f0 Merge tag 'tty-6.2-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/tty
 c608f6b58f306ce0e4f459af69a196f5ed6ccf45 Merge tag 'usb-6.2-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb
 4ec5183ec48656cec489c49f989c508b68b518e3 Linux 6.2-rc7
+95aa1b9e7132590dabd9eb3f0fd33ad6aae83b83 NFSD: Teach nfsd_mountpoint() auto mounts
+e282851eb84a7d788b656d1f0bfaf35ff58e70c2 fs: namei: Allow follow_down() to uncover auto mounts
+41b1d59af59c6b2b5f1735fd8b6828a7226f1ec4 NFS: nfs_encode_fh: Remove S_AUTOMOUNT check
+9317e596a56e4566a18d73d99e82542e3d9b80d8 SUNRPC: Push svcxdr_init_decode() into svc_process_common()
+86548eecf7e9917fff8a16750f3bcdbffe385f63 SUNRPC: Move svcxdr_init_decode() into ->accept methods
+aeec9b1ab7cadae5c332d00c30f0960a28f02778 SUNRPC: Add an XDR decoding helper for struct opaque_auth
+7ce8a56f4179bda3d0d2c114e6bc2891b71a5168 SUNRPC: Convert svcauth_null_accept() to use xdr_stream
+4da04156f0a4f5cb5c600c04c76d04161674f44c SUNRPC: Convert svcauth_unix_accept() to use xdr_stream
+316e181ed5d7f226cfced1ee31955f57e75b57c9 SUNRPC: Convert svcauth_tls_accept() to use xdr_stream
+eed806160b5b6a7e9ae306e5d0c45305d4237ab9 SUNRPC: Move the server-side GSS upcall to a noinline function
+a6b92ef244477558a78d2c16a70c5afef45916ab SUNRPC: Hoist common verifier decoding code into svcauth_gss_proc_init()
+a314d30cfdd0c33169a4e61a5cb7b97545fec720 SUNRPC: Remove gss_read_common_verf()
+ad7dcff03b006febb75076314011960a698d8733 SUNRPC: Remove gss_read_verf()
+a0c8c9d62b5b6b25aec7de76c7ffa1559482eb60 SUNRPC: Convert server-side GSS upcall helpers to use xdr_stream
+254c71d5150a45dc6d21271c9dda72afef5fb0e7 SUNRPC: Replace read_u32_from_xdr_buf() with existing XDR helper
+f020d82907dcf369e0e65858aaaa8755d6b5f30c SUNRPC: Rename automatic variables in unwrap_integ_data()
+b46575db911f490595237ddf5b68c41ccbe5b2b3 SUNRPC: Convert unwrap_integ_data() to use xdr_stream
+59a78d375669d4246ead42fdc869bf515a779dde SUNRPC: Rename automatic variables in unwrap_priv_data()
+072c2023f8a2cb851e78bbf9c55f76f3ab9cc260 SUNRPC: Convert unwrap_priv_data() to use xdr_stream
+c27fd982750385471f98c17c35351de3c5bcade6 SUNRPC: Convert gss_verify_header() to use xdr_stream
+7ea8bc00650ccd2de5cb84171f0caa0de6b33936 SUNRPC: Clean up svcauth_gss_accept's NULL procedure check
+3e131bad2e8c5c75b41ffcace6959270d61f579f SUNRPC: Convert the svcauth_gss_accept() pre-amble to use xdr_stream
+92da81799a15372b15dd35b4910610ebbe5d6d01 SUNRPC: Hoist init_decode out of svc_authenticate()
+852dfd45692a324e5edbaa2457a318098df2e549 SUNRPC: Re-order construction of the first reply fields
+74b31ace1824a09a389c376606ba92d5845aabba SUNRPC: Eliminate unneeded variable
+9a37cd418c1f3e8241e18c933a7fc7129e2c5245 SUNRPC: Decode most of RPC header with xdr_stream
+70a46932c34039f3003221f009f47969c83cd40c SUNRPC: Remove svc_process_common's argv parameter
+f7eb661aa6405ecac050a558536c7d6338b55ae9 SUNRPC: Hoist svcxdr_init_decode() into svc_process()
+8b747d90cda9620dea0a7b7caa60fff34493987f NFSD: enhance inter-server copy cleanup
+6670837efd54316cad1a786d3d99c0e9414eaceb nfsd: allow nfsd_file_get to sanely handle a NULL pointer
+63e05e8a7c8ed6deb2e37eca69a71f3930b4806d nfsd: fix potential race in nfs4_find_file
+90cf93814db6fbe7be77234d404dc9f72ceee547 SUNRPC: Clean up svcauth_gss_release()
+641356159943df535c43430f1ad86ddd428cc505 SUNRPC: Rename automatic variables in svcauth_gss_wrap_resp_integ()
+75501ff0386c3b39f85cd30c7d0c6c79c6502b14 SUNRPC: Record gss_get_mic() errors in svcauth_gss_wrap_integ()
+3a67d751ad824446cd6e46191164182f718df052 SUNRPC: Replace checksum construction in svcauth_gss_wrap_integ()
+77761cd8ceb6ebce2a1ede83ccf5a336dd12ca52 SUNRPC: Convert svcauth_gss_wrap_integ() to use xdr_stream()
+bf83a724ac16d914273944062084ce804781b741 SUNRPC: Rename automatic variables in svcauth_gss_wrap_resp_priv()
+d182f9292a2116e17236b41ac39a2402ed54109d SUNRPC: Record gss_wrap() errors in svcauth_gss_wrap_priv()
+e1007a40e784095f70753dc9aab37b75d8d0f8d5 SUNRPC: Add @head and @tail variables in svcauth_gss_wrap_priv()
+aa8e57a322cc051019d1fed4e19362caf8f77c71 SUNRPC: Convert svcauth_gss_wrap_priv() to use xdr_stream()
+108908822c41232f7a94b3a30fb94a1a18865ebd SUNRPC: Check rq_auth_stat when preparing to wrap a response
+7b2c04f503897f07b7a5873eccc1982ac9fcef82 SUNRPC: Remove the rpc_stat variable in svc_process_common()
+88d6b3f4d2e636888a873c92bbfd31e796aeaca8 SUNRPC: Add XDR encoding helper for opaque_auth
+7dbd9cae52f34e9a8da2143b643f84357be0ca81 SUNRPC: Push svcxdr_init_encode() into svc_process_common()
+613110bf05643087ef22b85e9d0938bf91d4dd14 SUNRPC: Move svcxdr_init_encode() into ->accept methods
+5e016b5061662e084fc19779e2eceb1b1c334ecb SUNRPC: Use xdr_stream to encode Reply verifier in svcauth_null_accept()
+57b8f668b0d7a3fe2d28db2099fa9ea4ae2eaf2b SUNRPC: Use xdr_stream to encode Reply verifier in svcauth_unix_accept()
+9a01a9d716d42f231465bcb044a49179436bae44 SUNRPC: Use xdr_stream to encode Reply verifier in svcauth_tls_accept()
+cc9476b1c921865b7e9b5332a072ca5eebda689d SUNRPC: Convert unwrap data paths to use xdr_stream for replies
+6a8ec6a86a95118ed9aae7cfc354a6070b8a59cb SUNRPC: Use xdr_stream to encode replies in server-side GSS upcall helpers
+b1622b1507c14827b6dc5a8614ed941788183db8 SUNRPC: Use xdr_stream for encoding GSS reply verifiers
+e1472b90301bf6bf4b6776174b091281cef91b9a SUNRPC: Hoist init_encode out of svc_authenticate()
+381b54d2800231f32b988d03b13f9006512c1692 SUNRPC: Convert RPC Reply header encoding to use xdr_stream
+f45452c1ca8ee280a8aaf29c0ff6254aec3f491e SUNRPC: Final clean-up of svc_process_common()
+d6c23492a418d286536d92aa61ba4f885dddf2d0 SUNRPC: Remove no-longer-used helper functions
+39c171cdbc5c430d539385de2f34a4d2c97c2c80 SUNRPC: Refactor RPC server dispatch method
+d1e254f67fa1238a1d20fd7a02f7d0d06ff6a8e5 SUNRPC: Set rq_accept_statp inside ->accept methods
+e53abc075cfe5a5635edc4cd2caee89436869d52 SUNRPC: Go back to using gsd->body_start
+fb6e9e4e0afedb39081551201b10ba5176dd8462 nfsd: move reply cache initialization into nfsd startup
+8aed72097a40e6219c28880f3a63da0d31524152 SUNRPC: Use per-CPU counters to tally server RPC counts
+a4efc2657e0f8be820a92795b27282bdf4b1a53c SUNRPC: Replace pool stats with per-CPU variables
+73f774444fb4638a77788de35abcb30a5d26010d SUNRPC: Add header ifdefs to linux/sunrpc/gss_krb5.h
+7f42320449f463296943220973279379b2a9dbb3 SUNRPC: Remove .blocksize field from struct gss_krb5_enctype
+e87656a1e7d4acc7b857ec645f7225a92d70a19a SUNRPC: Remove .conflen field from struct gss_krb5_enctype
+7ca0fe85c02284d91c6e03d32967a000dbcfdc69 SUNRPC: Improve Kerberos confounder generation
+a38469f3396ceb69979218297734b7120c149dc6 SUNRPC: Obscure Kerberos session key
+cba13bda98a343b448bb5578b10fa4946aa6f1b0 SUNRPC: Refactor set-up for aux_cipher
+7c458c5502731853d4894a14bece67cd37263336 SUNRPC: Obscure Kerberos encryption keys
+32c68075b90d7242181344947b226f522267b375 SUNRPC: Obscure Kerberos signing keys
+78eeaad61178ef9462f9000d1f266d00230a0eb6 SUNRPC: Obscure Kerberos integrity keys
+c9cfb8a5463a5e9387e52c6d183d5f1079894c3a SUNRPC: Refactor the GSS-API Per Message calls in the Kerberos mechanism
+3362fcc53d30be5acdcb2692c8cb4a02fa39b155 SUNRPC: Remove another switch on ctx->enctype
+7b70ed1f60bb113961a3dae57155a49c7e531b43 SUNRPC: Add /proc/net/rpc/gss_krb5_enctypes file
+f45dea574394b63678637eecc5fc3128811471c4 NFSD: Replace /proc/fs/nfsd/supported_krb5_enctypes with a symlink
+99b872915c859ad3d4b0890767bd62d6901cfd40 SUNRPC: Replace KRB5_SUPPORTED_ENCTYPES macro
+05fcf99dd8ff80aff5c78a32d7de79a13a0ae2bc SUNRPC: Enable rpcsec_gss_krb5.ko to be built without CRYPTO_DES
+7ae633e9546465e08d74431296cbfaac1bbb422b SUNRPC: Remove ->encrypt and ->decrypt methods from struct gss_krb5_enctype
+eae03e179f1d7b67233d6888fc43f058852ccf16 SUNRPC: Rename .encrypt_v2 and .decrypt_v2 methods
+7f6ed0d9d0fd9e4a21f3db3ac9f12e40cdd77dfd SUNRPC: Hoist KDF into struct gss_krb5_enctype
+00138f2fa94b4073d1fc48b86330319d163b396c SUNRPC: Clean up cipher set up for v1 encryption types
+e0e2eac9371e7167f66b71afc94095dc72dc63db SUNRPC: Parametrize the key length passed to context_v2_alloc_cipher()
+4dddd3ae2951fc6346e877a2ea675dcc72220e64 SUNRPC: Add new subkey length fields
+997e9f754c37adb54df77ef24886f1a220d705ce SUNRPC: Refactor CBC with CTS into helpers
+4ff521ae971983bbd0167d49f0a5ed35e8e2b83d SUNRPC: Add gk5e definitions for RFC 8009 encryption types
+fb855f227988abf5200985f96c51ed7c966d985a SUNRPC: Add KDF-HMAC-SHA2
+ad462e5fad9df43aec77a87e77a6eb6e34fe73c4 SUNRPC: Add RFC 8009 encryption and decryption functions
+4782e58b086cb7749700a55627c28b207e805ebd SUNRPC: Advertise support for RFC 8009 encryption types
+9e7879a4635de78a1afecfd689376c648ee07e2a SUNRPC: Support the Camellia enctypes
+b1e8fef3ddd6c520f019d9bfa9ca8d601f7bfe1d SUNRPC: Add KDF_FEEDBACK_CMAC
+8952890fffc0c6d91c90bb7dada8d66cd64ca061 SUNRPC: Advertise support for the Camellia encryption types
+41a9c5e5e577fdcf3feb80715a6975f0ba50f467 SUNRPC: Move remaining internal definitions to gss_krb5_internal.h
+fe72e52275f3ccfcc97a0672dbd5080aa7f38b0d SUNRPC: Add KUnit tests for rpcsec_krb5.ko
+c887bbf8d2e9cd58d0a7bcd5aef8b3e72b4caf92 SUNRPC: Export get_gss_krb5_enctype()
+abcaf9f48017fb2fd0bf9fb96f35d085379dbb85 SUNRPC: Add KUnit tests RFC 3961 Key Derivation
+97bd6c706d00da28e739e4288bf58bfe50643252 SUNRPC: Add Kunit tests for RFC 3962-defined encryption/decryption
+c2fbce56b4a532e21fb18ffa8a2a8a341a85574b SUNRPC: Add KDF KUnit tests for the RFC 6803 encryption types
+1ab135b86aca6d2a044829791376c5c7abd54253 SUNRPC: Add checksum KUnit tests for the RFC 6803 encryption types
+66344c1662d4db13429eef4e9c63eb6cb31a9082 SUNRPC: Add encryption KUnit tests for the RFC 6803 encryption types
+0dcdfb568b46a53e556fb30496395e04e26cabb5 SUNRPC: Add KDF-HMAC-SHA2 Kunit tests
+a5352731a54d0b9cda095139d5b4b1eda13a2997 SUNRPC: Add RFC 8009 checksum KUnit tests
+9f8c0f96fcff34a86216cb178234b037d7f3c1d2 SUNRPC: Add RFC 8009 encryption KUnit tests
+c1989c65a67e4c00d8d1ec02e1239d836d840f0a SUNRPC: Add encryption self-tests
+bacd9dc4778586356f4c5ccf4391c81432e86a14 nfsd: don't take nfsd4_copy ref for OP_OFFLOAD_STATUS
+54a2954fe2f6fcb79caff6a8029ffcc7e5cac1d7 nfsd: eliminate find_deleg_file_locked
+51bcde2df64a2a198be7712315b09bfbb2db1528 nfsd: add some kerneldoc comments for stateid preprocessing functions
+9f0f29ac3022a605ddf2c5b1ea35765e7c689ea0 nfsd: eliminate __nfs4_get_fd
+016a1ba96a224cb5055f70288083f3e751505dd1 SUNRPC: Fix whitespace damage in svcauth_unix.c
+f1c1b549ee3724bdaaececf862adf6a56e4af62e nfsd: zero out pointers after putting nfsd_files on COPY setup error
+40f3844b30ac207023efa5ce02f54b4504e5c072 nfsd: clean up potential nfsd_file refcount leaks in COPY codepath
+dac56184be375d3223c30169f66333dcb699ea19 NFSD: fix leaked reference count of nfsd4_ssc_umount_item
+4ba15958eb7c0e01eeedce1e8ea651536b0fe6dc nfsd: remove fs/nfsd/fault_inject.c
+0b5a847ea2c9808c9f663652f3c7c601bffadfdb SUNRPC: Clean up the svc_xprt_flags() macro
+e7aef6fb5cf86ddf226f7fd0d9220e45a31d84a8 SUNRPC: Remove ->xpo_secure_port()
+f9fb1a9781d1a1333052e2d8be99d298e8f6226e nfsd: don't hand out delegation on setuid files being opened for write
+30dba10d2cbcd54a14ee28ed62e73fb5b8567dfb nfsd: fix race to check ls_layouts
+68a354a11b76f70bc7e7d65a75cbb9a98955b0a1 NFSD: fix problems with cleanup on errors in nfsd4_copy
+3da20567632c6c0075d868e8aa1d066c36f4f5d7 nfsd: fix courtesy client with deny mode handling in nfs4_upgrade_open
 
---===============2865053797193379051==--
+--===============5971395123520889563==--
