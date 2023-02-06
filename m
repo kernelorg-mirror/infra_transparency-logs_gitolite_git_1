@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/libgpiod/libgpiod
-Date: Mon, 06 Feb 2023 08:40:30 -0000
-Message-Id: <167567283006.31421.5933839372625188898@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mtd/linux
+Date: Mon, 06 Feb 2023 08:42:09 -0000
+Message-Id: <167567292967.31991.12696049938244207787@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/libgpiod/libgpiod
-user: brgl
+repo: pub/scm/linux/kernel/git/mtd/linux
+user: tudor.ambarus
 changes:
-  - ref: refs/heads/master
-    old: 5bde6b3dafa21e12c04b4a99f1353def1761d1eb
-    new: daaa6964c9e5292f94c0131722749768b17864bb
+  - ref: refs/heads/spi-nor/next
+    old: 59273180299ad264d086135e8199c1b05ea51b69
+    new: 893fd950c89d516a7cf365700b2bd7bb3efc15a5
     log: |
-         79187b8c433aaa0e69b13c037907c69416ad0b55 Revert "tests: consistently use GLib types in tests"
-         daaa6964c9e5292f94c0131722749768b17864bb tests: rework error handling and stop overusing g_error()
+         f0f0cfdc3a024e21161714f2e05f0df3b84d42ad mtd: spi-nor: Fix shift-out-of-bounds in spi_nor_set_erase_type
+         893fd950c89d516a7cf365700b2bd7bb3efc15a5 mtd: spi-nor: Sort headers alphabetically
          
