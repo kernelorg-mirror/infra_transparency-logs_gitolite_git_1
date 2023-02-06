@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
-Date: Mon, 06 Feb 2023 15:24:20 -0000
-Message-Id: <167569706026.26937.16618998960819992559@gitolite.kernel.org>
+Date: Mon, 06 Feb 2023 15:25:37 -0000
+Message-Id: <167569713734.28934.1266456381168301872@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/hid/hid
 user: bentiss
 changes:
-  - ref: refs/heads/for-6.3/hid-core
-    old: e04955db6a7c3fc4a1e6978649b61a6f5f8028e3
-    new: 3f16ba1c0768de6cdc6f65105757ef04dbfd8e5c
+  - ref: refs/heads/for-next
+    old: f9522dc5ec768c376ffe20762acee958485528f2
+    new: cf24468d0d69df549122ef5602e437732f70d2dc
     log: |
          65b7015bfe168aa86a600821cd289e7fcd610cc6 HID: amd_sfh: Constify lowlevel HID driver
          d38213a911c5a5eacd7cc5854c0477d308bef0cb HID: hyperv: Constify lowlevel HID driver
@@ -25,4 +25,5 @@ changes:
          783c3394b493243e7df8b801e754d545247f4833 platform/x86: asus-tf103c-dock: Constify toprow keymap
          ff17bb87601453bb9d50e625d45356f07bcb101c staging: greybus: hid: Constify lowlevel HID driver
          3f16ba1c0768de6cdc6f65105757ef04dbfd8e5c HID: use standard debug APIs
+         cf24468d0d69df549122ef5602e437732f70d2dc Merge branch 'for-6.3/hid-core' into for-next
          
