@@ -1,43 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-pinctrl
-Date: Mon, 06 Feb 2023 11:32:20 -0000
-Message-Id: <167568314092.31468.9610101315920402055@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mtd/linux
+Date: Mon, 06 Feb 2023 11:55:29 -0000
+Message-Id: <167568452986.14921.16888132419525526541@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/linusw/linux-pinctrl
-user: linusw
+repo: pub/scm/linux/kernel/git/mtd/linux
+user: mraynal
 changes:
-  - ref: refs/heads/devel
-    old: 4b6b185599273ecf980e3892006a7a29c5ad653b
-    new: ff51053424ec6dcaae95e02ce900cc8cbe1c3ed6
+  - ref: refs/heads/mtd/next
+    old: c705e63a323a1a6c8d5830c2c3992586ef5fba26
+    new: 84549c816dc317f012798e706e58669b3b013604
     log: |
-         1c4e5c470a56f7f7c649c0c70e603abc1eab15c4 pinctrl: at91: use devm_kasprintf() to avoid potential leaks
-         268e97ccc311492707f3bc4b761e77605effcfb2 dt-bindings: pinctrl: qcom,sm8550-lpass-lpi-pinctrl: add SM8550 LPASS
-         5a6ca1f240d6a268e1f63387a676b2cf9669fe21 pinctrl: qcom: pinctrl-sm8550-lpass-lpi: add SM8550 LPASS
-         2e7851437731cf51010568118efccfd13ee97de0 dt-bindings: pinctrl: qcom: add IPQ5332 pinctrl
-         7ccd197f6108efcfbc63a590ff7c7c4f95b69249 pinctrl: qcom: Introduce IPQ5332 TLMM driver
-         ff51053424ec6dcaae95e02ce900cc8cbe1c3ed6 dt-bindings: pinctrl: rockchip,pinctrl: mark gpio sub nodes of pinctrl as deprecated
+         84549c816dc317f012798e706e58669b3b013604 mtd: parsers: ofpart: add workaround for #size-cells 0
          
-  - ref: refs/heads/fixes
-    old: 606d4ef4922662ded34aa7218288c3043ce0a41a
-    new: 5921b250f43870e7d8044ca14e402292ceb3e3a8
+  - ref: refs/heads/nand/next
+    old: 4d21176f48124e06c3251af38350b05a50ac4b01
+    new: ef3e6327ff04af8527b3558e023e99f1cc241bce
     log: |
-         5921b250f43870e7d8044ca14e402292ceb3e3a8 pinctrl: qcom: sm8450-lpass-lpi: correct swr_rx_data group
-         
-  - ref: refs/heads/for-next
-    old: 1b56e1d64807eb06ad901abe5e8de6e3b3b07f36
-    new: 58378dd700d48851bad511a765e112d055962f7d
-    log: |
-         1c4e5c470a56f7f7c649c0c70e603abc1eab15c4 pinctrl: at91: use devm_kasprintf() to avoid potential leaks
-         5921b250f43870e7d8044ca14e402292ceb3e3a8 pinctrl: qcom: sm8450-lpass-lpi: correct swr_rx_data group
-         268e97ccc311492707f3bc4b761e77605effcfb2 dt-bindings: pinctrl: qcom,sm8550-lpass-lpi-pinctrl: add SM8550 LPASS
-         5a6ca1f240d6a268e1f63387a676b2cf9669fe21 pinctrl: qcom: pinctrl-sm8550-lpass-lpi: add SM8550 LPASS
-         2e7851437731cf51010568118efccfd13ee97de0 dt-bindings: pinctrl: qcom: add IPQ5332 pinctrl
-         7ccd197f6108efcfbc63a590ff7c7c4f95b69249 pinctrl: qcom: Introduce IPQ5332 TLMM driver
-         ff51053424ec6dcaae95e02ce900cc8cbe1c3ed6 dt-bindings: pinctrl: rockchip,pinctrl: mark gpio sub nodes of pinctrl as deprecated
-         58378dd700d48851bad511a765e112d055962f7d Merge branch 'devel' into for-next
+         3998a4611e8be2e9b5833e7aae29619ea0305437 mtd: rawnand: sunxi: Update OOB layout to match hardware
+         ac1c7072e38e492b27353a6e7b144e64cbbf9495 mtd: rawnand: sunxi: Embed sunxi_nand_hw_ecc by value
+         ef3e6327ff04af8527b3558e023e99f1cc241bce mtd: rawnand: sunxi: Precompute the ECC_CTL register value
          
