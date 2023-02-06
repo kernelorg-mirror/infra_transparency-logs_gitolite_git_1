@@ -1,56 +1,43 @@
-Content-Type: multipart/mixed; boundary="===============8658707220412858901=="
+Content-Type: multipart/mixed; boundary="===============1803892519529718794=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Mon, 06 Feb 2023 18:11:43 -0000
-Message-Id: <167570710337.9521.4682460643204893278@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/devicetree/devicetree-rebasing
+Date: Mon, 06 Feb 2023 18:20:00 -0000
+Message-Id: <167570760043.14952.9946119909605587602@gitolite.kernel.org>
 
---===============8658707220412858901==
+--===============1803892519529718794==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/devicetree/devicetree-rebasing
+user: ijc
 changes:
-  - ref: refs/heads/usb-testing
-    old: f5e7bdd34aca0ed92a2bef913151dd234e86cb33
-    new: 41070a7027e9c4493791266fa38e59ded6aea7b4
-    log: |
-         41070a7027e9c4493791266fa38e59ded6aea7b4 usb: gadget: uvc: Correct documentation formatting
-         
+  - ref: refs/heads/master
+    old: 2d58781196e06039be6e6ae60281e8e54e888054
+    new: 081cf2b1cf75e6dd5a8dc42122ab4e8e6250db3c
+    log: revlist-2d58781196e0-081cf2b1cf75.txt
 
---===============8658707220412858901==
+--===============1803892519529718794==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-2d58781196e0-081cf2b1cf75.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1675707101 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1675707100-4ffe60e7f80a07f1bcd7d9704fdaddeeaa9bcb63
+3be1f8e43c7d70b2f915d59a2c60eadee6907a66 arm64: dts: imx8mm: Reinstate GPIO watchdog always-running property on eDM SBC
+09f6179e254e787d9325b409a78983f6aab965f8 arm64: dts: imx8m-venice: Remove incorrect 'uart-has-rtscts'
+69cfbb1b25f06d6597dd55953f364502a14bd65e arm64: dts: freescale: imx8dxl: fix sc_pwrkey's property name linux,keycode
+a886c663d21c7f3b9e2bfa85f2715155bb7601e4 dt-bindings: rtc: qcom-pm8xxx: allow 'wakeup-source' property
+8e17ec925c234e76d6d338ab4de36ad9c5a78bdc ARM: dts: aspeed: Fix pca9849 compatible
+c5581249d9a321dedcbef55790b8f28c2516e8d2 arm64: dts: imx8mm: Fix pad control for UART1_DTE_RX
+1f24cf7a34f387e73bbcc46db3a0f31e4d949d64 arm64: dts: imx8mm-verdin: Do not power down eth-phy
+b37cfd33045fd46d057bc8408b4dbf3be8cc0f35 ARM: dts: imx7d-smegw01: Fix USB host over-current polarity
+e19442b3814e887035df5be1c70fc277fc533882 Merge tag 'imx-fixes-6.2-2' of git://git.kernel.org/pub/scm/linux/kernel/git/shawnguo/linux into arm/fixes
+e27a1c68f12074bd61ccddece756c765d703ec9a ARM: dts: wpcm450: Add nuvoton,shm = <&shm> to FIU node
+f23fc31f4774a1841edc67caecb36385c28ed246 Merge tag 'soc-fixes-6.2-3' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
+4a5d7a4419913e907299072c3787f4f7c7fb7524 Merge tag 'rtc-6.2-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/abelloni/linux
+081cf2b1cf75e6dd5a8dc42122ab4e8e6250db3c Merge tag 'v6.2-rc7-dts-raw'
 
-f5e7bdd34aca0ed92a2bef913151dd234e86cb33 41070a7027e9c4493791266fa38e59ded6aea7b4 refs/heads/usb-testing
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPhQt0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+DUQP/20XweInja5+kTxVSaEc
-B/L+Lo335IGK88gyCynNANPJEekdGHqDIdvRhe8npD/8BWYP7SJ/5w/ZsSHd277n
-NzRdSnPAtZ71r8uxPVWAAF1+k5KfH+hlvRoIbBk9BR2Qr4auj5IHNQL4P//GN5mv
-uKFcbFDlEAWH1A0VK9EGC9EOZOg3HunBbugQCZoq+8CC82XaykHcbZg0cBDYWkiN
-Rsob95QBJzO4oZyTKj0bvxDcvamqXvyh9oGfR/pboqye3dGf+7HP1GZQ+Vu22orn
-aA47ZQkezEtq2c7NF1V3nm4ip7r/UcE+fAPr8s37aVf0s+nM3L/TqI7c8reHRGKi
-efBv1mfoTSEqYh58dGhXie/xygnXbPgu52GDXPxClrNB9EUlq6bn7qdKbOQtHyoU
-cyF+4z3dpLY3FGUh/INjrco6HqnzcZ5XR1CW8I3PGbcDtl+2mexlq4PUPLXtiI95
-q0rCD8PcoC2MkC8x/WQQDqqAJFKztEW92XJisn9FMBThB6JpJZ6c89+c9CtSfoJ0
-jpvrknf+K7wgAcY5v+qwpxwUHL+QImipdDB4eTg7U9hpG+c38YOnkEHxz65HIlfN
-p5ljdJ4AOlIMOeIOwyZZpNr7uQCO1J0AgVnQlB3Yfm2H7Jo5tn9YSc6y94lp4BIQ
-5zLXUGBdjidN2lQ51wnQLzGu
-=p41u
------END PGP SIGNATURE-----
-
---===============8658707220412858901==--
+--===============1803892519529718794==--
