@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Mon, 06 Feb 2023 14:42:05 -0000
-Message-Id: <167569452579.30764.11703204750530270962@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Mon, 06 Feb 2023 14:42:46 -0000
+Message-Id: <167569456633.31026.15625353611856747128@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
-user: acme
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: hansg
 changes:
-  - ref: refs/heads/tmp.perf/core
-    old: c711a5a68400a3c0142da2123de0789ad7aaaec6
-    new: ee739f132f716f28c9fbe70a230e35085c197dd5
+  - ref: refs/heads/review-hans
+    old: 42684d44a7f211d1c1ca64737dfc00470e5fa4a3
+    new: 23d18a20723b115460014a92c4e9ce631d6455c5
     log: |
-         ee739f132f716f28c9fbe70a230e35085c197dd5 perf test bpf: Check for libtraceevent support
+         23d18a20723b115460014a92c4e9ce631d6455c5 platform/x86: int3472/discrete: Drop unnecessary obj->type == string check
          
