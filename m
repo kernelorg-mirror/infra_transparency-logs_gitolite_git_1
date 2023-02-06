@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/zohar/linux-integrity
-Date: Mon, 06 Feb 2023 14:40:34 -0000
-Message-Id: <167569443415.30240.505343958776095107@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Mon, 06 Feb 2023 14:42:05 -0000
+Message-Id: <167569452579.30764.11703204750530270962@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/zohar/linux-integrity
-user: zohar
+repo: pub/scm/linux/kernel/git/acme/linux
+user: acme
 changes:
-  - ref: refs/heads/next-integrity
-    old: b8dc57947379ca02500540bf942ecb42a30bfe92
-    new: 4958db3245fa655bf18251bd2a83bcc164071c39
+  - ref: refs/heads/tmp.perf/core
+    old: c711a5a68400a3c0142da2123de0789ad7aaaec6
+    new: ee739f132f716f28c9fbe70a230e35085c197dd5
     log: |
-         8250865c164e3ddb930953523c93b3c821bdd322 evm: call dump_security_xattr() in all cases to remove code duplication
-         4971c268b85e1c7a734a61622fc0813c86e2362e ima: Align ima_file_mmap() parameters with mmap_file LSM hook
-         4958db3245fa655bf18251bd2a83bcc164071c39 ima: Introduce MMAP_CHECK_REQPROT hook
+         ee739f132f716f28c9fbe70a230e35085c197dd5 perf test bpf: Check for libtraceevent support
          
