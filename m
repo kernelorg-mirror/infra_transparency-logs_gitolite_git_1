@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============5007631002707608537=="
+Content-Type: multipart/mixed; boundary="===============6015742176771515377=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Mon, 06 Feb 2023 21:37:00 -0000
-Message-Id: <167571942045.18387.9705200846255985581@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 06 Feb 2023 21:37:06 -0000
+Message-Id: <167571942644.18507.12493083851577117775@gitolite.kernel.org>
 
---===============5007631002707608537==
+--===============6015742176771515377==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.2
+  - ref: refs/heads/asoc-6.2
     old: 2e7c6652f9b86c01cbd4e988057a746a3a461969
     new: 95ff4aadf1326633e157dbf9c59260465dde9513
     log: |
@@ -26,28 +26,28 @@ changes:
          95ff4aadf1326633e157dbf9c59260465dde9513 Two bug fixes for tas5805m codec driver
          
 
---===============5007631002707608537==
+--===============6015742176771515377==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1675719419 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1675719418-263f545f6097dbdc096e1d25229b75d034d52a10
+pusher C3F436CA30F5D8EB 1675719425 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1675719424-b917e6c30c1458d8817d251b5b490eef3f6b5c88
 
-2e7c6652f9b86c01cbd4e988057a746a3a461969 95ff4aadf1326633e157dbf9c59260465dde9513 refs/heads/for-6.2
+2e7c6652f9b86c01cbd4e988057a746a3a461969 95ff4aadf1326633e157dbf9c59260465dde9513 refs/heads/asoc-6.2
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmPhcvsACgkQJNaLcl1U
-h9DNdQf6Au05TKKliTJI2MJshf/wTp2oM0pfaYKmYi8ii7yl44VwmxX6TxSqAyp8
-Xxna7Bc4G1Q4togrb7tUWvIHvmn9+jTw/Cce0ZAWdrcG8Vw8Mq5P+FNgJ1Of7a/y
-btK/TnxZYCKR1wFkQAULpgu88hIlhYsHyCdHkDKHJuaMXQxfk3OKgOUiVwbu4RhO
-+AH6gX2gesrlB2fcorDDBjPYgOSlnvji6kzs5ONYrMfb8btfWgEbA88OoVMXFX7Q
-wxmWAFGOAOHdbCNpAnvPDd0gsA0GEp29ONTnNFTX0breXFibsKjFI7SkzSMlT+2k
-pKFzNTpuv7/V8a/W5jDcGuDqa64vpQ==
-=a1yJ
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmPhcwEACgkQJNaLcl1U
+h9BTYQf/VVuheXSdIXSXkWGAsE83ob6LUxfvBePv6+6/e0k+ukQ9thft5+sD/BU6
+Y3CR1Fw7Adfr67B/6j1uM+ghIMyx+nfrmUyZYyk7oC0pcGBo/NBdbtTrg2U/eNAd
+A+J3Q8/Fh/GfnvuStAI12ux6scvBbcRQDFPcndGbGeaaMTkEFWtioZlo/tVWh1XD
+G7H66j6BZHYbgi1SNKs7049vNVH/5qc/SznXRj2+LauwBVBVUa/3Tu3WQhYHdv+c
+pk6NkB/mo7ofuGLG40uPqfv7F57tM3ewzpfe/7Eet7DgBQWbvMFUHJvMdNQpIpi2
+YVUsMhwObNqcmQgTApuIwZpsbiHeoA==
+=bioh
 -----END PGP SIGNATURE-----
 
---===============5007631002707608537==--
+--===============6015742176771515377==--
