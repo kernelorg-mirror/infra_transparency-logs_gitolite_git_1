@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8615049812363972959=="
+Content-Type: multipart/mixed; boundary="===============2332093665900291056=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Mon, 06 Feb 2023 07:36:39 -0000
-Message-Id: <167566899924.21119.17972611484850679922@gitolite.kernel.org>
+Date: Mon, 06 Feb 2023 07:36:47 -0000
+Message-Id: <167566900781.21209.9359335626207904683@gitolite.kernel.org>
 
---===============8615049812363972959==
+--===============2332093665900291056==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,66 +16,52 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 2241ab53cbb5cdb08a6b2d4688feb13971058f65
+  - ref: refs/heads/char-misc-linus
+    old: d83d7ed260283560700d4034a80baad46620481b
     new: 4ec5183ec48656cec489c49f989c508b68b518e3
-    log: revlist-2241ab53cbb5-4ec5183ec486.txt
+    log: revlist-d83d7ed26028-4ec5183ec486.txt
 
---===============8615049812363972959==
+--===============2332093665900291056==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1675668998 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1675669007 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1675668997-e4c6a719bb2158e0b2edcfe850fb9dabce308357
+nonce 1675669002-83c0fec3afb861bfb5daa5986fdbb10b596f48d5
 
-2241ab53cbb5cdb08a6b2d4688feb13971058f65 4ec5183ec48656cec489c49f989c508b68b518e3 refs/heads/main
+d83d7ed260283560700d4034a80baad46620481b 4ec5183ec48656cec489c49f989c508b68b518e3 refs/heads/char-misc-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPgrgYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+9z0P/21asmuQBScv1xnj3lY7
-uRLrUWvDzopCL9fetJGST8w9CTPWVQRELKA+gRtvZibv4tK4kewgqlreDWXdmsDV
-f9FUe7P+bFUyU6EXxQXX04NzTaOvlzonH5QiOUpaRgOpP8Q1uLE8nBBXoCtRT3xo
-Tdk7dk1P9Q7qVHQnRTxf9TdiLd/lV2A5lYH5LiVQeBYF772bg8Et+zSTXLrNgesY
-2BVAVNU6xKT+kzdhQITYnG0ZxNjvUlUA+pCjhhkQ2xkhi4irDpV8sxyzG9N65qQE
-LzZQFm8MWym1onnihb21H6hBi6ypk2PSUKp57WsDvpkxiB2YT+R0TBX6mXZC5f7W
-dlbqAFcwSwKniAm6PFqIHujveTm2XHJNwEMG2wxC2Cp4KVlAgveMw/5etoeMkDmz
-J5mdWm4WN54VJAT+bzE9qctHvs9i5c+UfNNIgGyMc0cxkqXS7dhyzJdWdK89DuWh
-dE1XFq641uYwO0x5h/MYjqDKZnPPNiibJwIe09oP9gbEz8N8v5BjHrFk9LMhYq9I
-TrZX3e5XaBS8AIlQS5pqv3wWYj8r1HN3o8NG3GZtO+fdxx8PPwKfxAvtZFo3a6K+
-mqUDgEFbG17coJv7O0YMegH1XIANcJSvL09DIuh+/yFbDuLEG+DFSAjm6LsVgnQ9
-Frr/iJSGyC87dvWYIZ7bIlz3
-=CD5q
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPgrg8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+U84P/j9Ir5xivKnJV01KUYyv
+EzG8qBsjww2+gwaOU1bZc7Q2IMWyGVF+fXyoirfaSYy1+2/++yVts8fKWq9o3rHj
+8newwmGrjZZk5KDxgpNh6b1SDXttMHMY5pScVlpSv3A3l/enDiOrSgDDJsqcVRd8
+qwg7tlgiqu0YWqEWaB6et4bpEssbvRRp8jyZwRc6DbAI8OQXU3kghhKpZa+rxlK3
+rwnruQZTpekeKwINHbzFvDzTm4D4WfJAU6pD5OQvMVkXv0u+3iDRyVzLSupalxMu
+tIgqrDoPF5JSz1xDVE71cMCyJSzjLL7e/xPQJOT3DdK8DlM6CtJHFHRlTR+v7EKW
+3P/DxUV59gRKVqnzZvEv4FOgMhlXF6hmr9wlp9xjLAgva1E1d9E784tS7yQ7J6PU
+dmlMJ04G7LYIJ+wxgqLEPc3z8VDxX19Gf69QLJccBQCpUaBqSa6kzaeTKtulCXge
+il1KujfuRNANPNqAY1xJvm4V1wHwJFrYvmOAlyfUCXfqxWczelS+Q7pZU8wXt4AA
+JIQgGYzVVVVtDU1jhfaKdApGkg0Hyqmpn4GhqCT9qCVYMe9BD6RRLzjOQpPYRrf5
+9+EsddlJxYCpqh81K07QxOnVyAqXgzhhJzPgbxET/ZuyKmYMGG2DQEEJxaik1Ebz
++iJbw32bBeMAJ3QNBUrY/FY1
+=jjy6
 -----END PGP SIGNATURE-----
 
---===============8615049812363972959==
+--===============2332093665900291056==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2241ab53cbb5-4ec5183ec486.txt
+Content-Disposition: attachment; filename=revlist-d83d7ed26028-4ec5183ec486.txt
 
 3c44e2b6cde674797b76e76d3a903a63ce8a18bb Revert "Input: synaptics - switch touchpad on HP Laptop 15-da3001TU to RMI mode"
 71a06f1034b91e15d3ba6b5539c7d3a2d7f13030 mac802154: Fix possible double free upon parsing error
-cc3304052a89ab6ac887ed9224420a27e3d354e1 iio: adc: stm32-dfsdm: fill module aliases
-cbd3a0153cd18a2cbef6bf3cf31bb406c3fc9f55 iio: adc: berlin2-adc: Add missing of_node_put() in error path
-6794ed0cfcc6ce737240eccc48b3e8190df36703 iio: adc: xilinx-ams: fix devm_krealloc() return value check
-0fc3562a993c3dc41d1177b3983d9300d0db1d4d iio: imx8qxp-adc: fix irq flood when call imx8qxp_adc_read_raw()
-f804bd0dc28683a93a60f271aaefb2fc5b0853dd iio:adc:twl6030: Enable measurements of VUSB, VBAT and others
-429e1e8ec696e0e7a0742904e3dc2f83b7b23dfb iio: imu: fxos8700: fix map label of channel type to MAGN sensor
-c68b44bc7d9b1469774a1c985ee71d2cbc5ebef5 iio: imu: fxos8700: fix swapped ACCEL and MAGN channels readback
-37a94d86d7050665d6d01378b2c916c28e454f10 iio: imu: fxos8700: fix incomplete ACCEL and MAGN channels readback
-a53f945879c0cb9de3a4c05a665f5157884b5208 iio: imu: fxos8700: fix IMU data bits returned to user space
-9d61c1820598a5ea474576ed55318a6dadee37ed iio: imu: fxos8700: fix ACCEL measurement range selection
-bffb7d9d1a3dbd09e083b88aefd093b3b10abbfb iio:adc:twl6030: Enable measurement of VAC
-65ea840afd508194b0ee903256162aa87e46ec30 fpga: stratix10-soc: Fix return value check in s10_ops_write_init()
-60ce26d10e5850f33cc76fce52f5377045e75a15 fpga: m10bmc-sec: Fix probe rollback
 ec64efc4966edf19fa1bc398a26bddfbadc1605f dt-bindings: riscv: fix underscore requirement for multi-letter extensions
 a943385aa80151c6b2611d3a1cf8338af2b257a1 dt-bindings: riscv: fix single letter canonical order
 6710e07f01b54b2d93e81cfe1c207d39d4fdb9a8 Merge patch series "riscv,isa fixups"
-c9c1d6d82091f05b4dabf2c624bdaeba19bdf893 iio: imu: st_lsm6dsx: fix build when CONFIG_IIO_TRIGGERED_BUFFER=m
 f71eaf2708be7831428eacae7db25d8ec6b8b4c5 bus: sunxi-rsb: Fix error handling in sunxi_rsb_init()
 2f440c4f04ca28e3ddf4bb6f3d25f7613abe2873 arm64: dts: imx8mm: Reinstate GPIO watchdog always-running property on eDM SBC
 fca053893e8d5be8173c92876c6329cbee78b880 arm64: dts: imx8m-venice: Remove incorrect 'uart-has-rtscts'
@@ -112,8 +98,6 @@ e26fd28db82899be71b4b949527373d0a6be1e65 sched/uclamp: Fix a uninitialized varia
 da07d2f9c153e457e845d4dcfdd13568d71d18a4 sched/fair: Fixes for capacity inversion detection
 f89d783d68dcc6b2ce4fe3bda972ae0f84df0dca ASoC: Intel: avs: Implement PCI shutdown
 84ed64b1a7a7fcd507598dee7708c1f225123711 scsi: target: core: Fix warning on RT kernels
-f7b23d1c35d8b8de1425bdfccaefd01f3b7c9d1c iio: hid: fix the retval in accel_3d_capture_sample
-eb50cd5bfdac61627a5026566cf3b90ced7b141c iio: hid: fix the retval in gyro_3d_capture_sample
 6618d69aa129a8fc613e64775d5019524c6f231b rust: print: avoid evaluating arguments in `pr_*` macros in `unsafe` blocks
 67a90bccad3d20829bea35cb38ad744d9b6e30f4 fbdev: fbmon: fix function name in kernel-doc
 ee9fffdc3887a46eab3209bc46b228b543c75fa6 fbdev: omapfb: Use kstrtobool() instead of strtobool()
@@ -189,11 +173,6 @@ fd941bd64f0776e4c51d8934f8e666cfbe14406a net: ethernet: renesas: rswitch: Fix et
 71ab9c3e2253619136c31c89dbb2c69305cc89b1 net: fix UaF in netns ops registration error path
 c3b37c2d77a2c735857c55492ee81e88e855497d KVM: arm64: Pass the actual page address to mte_clear_page_tags()
 ef3691683d7bfd0a2acf48812e4ffe894f10bfa8 KVM: arm64: GICv4.1: Fix race with doorbell on VPE activation/deactivation
-ee3c5b644a0fdcfed27515a39fb2dd3a016704c1 iio: light: cm32181: Fix PM support on system with 2 I2C resources
-78ad6864e9e012cdba7c353d044d21ffcfd5f34b iio: imu: fxos8700: fix incorrect ODR mode readback
-eb6d8f8705bc19141bac81d8161461f9e256948a iio: imu: fxos8700: fix failed initialization ODR mode assignment
-ff5e2cd92ffda9a25ffa2cbdb3a0cf17650172a6 iio: imu: fxos8700: remove definition FXOS8700_CTRL_ODR_MIN
-2acd031347f645871959a799238a7caf6803aa18 iio: imu: fxos8700: fix MAGN sensor scale and unit
 a1550700629f30c5bd554161524f14f14600d554 media: v4l2-ctrls-api.c: move ctrl->is_new = 1 to the correct line
 d732cbf78d616c0b63201eb9e5e4af3fe9b90dc4 Merge tag 'kvmarm-fixes-6.2-2' of git://git.kernel.org/pub/scm/linux/kernel/git/kvmarm/kvmarm into HEAD
 95ecbd0f162fc06ef4c4045a66f653f47b62a2d3 Revert "gfs2: stop using generic_writepages in gfs2_ail1_start_one"
@@ -401,18 +380,7 @@ ffffd2454a7a1bc9f7242b12c4cc0b05c12692b4 sfc: correctly advertise tunneled IPv6 
 364d0221f1788e5225006ba7a0026e5968431c29 net: wwan: t7xx: Fix Runtime PM resume sequence
 e3d6d152a1cbdee25f2e3962009a2751b54e2297 net: wwan: t7xx: Fix Runtime PM initialization
 906ad3c9bf66e3c6dd4ebe14a7af1b339a2afacf Merge branch 't7xx-pm-fixes'
-b0576ade3aaf24b376ea1a4406ae138e2a22b0c0 nvmem: brcm_nvram: Add check for kzalloc
-c151d5ed8e8fe0474bd61dce7f2076ca5916c683 nvmem: sunxi_sid: Always use 32-bit MMIO reads
-3bd747c7ea13cb145f0d84444e00df928b0842d9 nvmem: core: initialise nvmem->id early
-569653f022a29a1a44ea9de5308b657228303fa5 nvmem: core: remove nvmem_config wp_gpio
-560181d3ace61825f4ca9dd3481d6c0ee6709fa8 nvmem: core: fix cleanup after dev_set_name()
-ab3428cfd9aa2f3463ee4b2909b5bb2193bd0c4a nvmem: core: fix registration vs use race
-edcf2fb660526b5ed29f93bd17328a2b4835c8b2 nvmem: core: fix device node refcounting
-db3546d58b5a0fa581d9c9f2bdc2856fa6c5e43e nvmem: core: fix cell removal on error
-0c4862b1c1465e473bc961a02765490578bf5c20 nvmem: core: fix return value
-1ca7fca349316231bbaa68d16f819a08d683c5a7 nvmem: qcom-spmi-sdam: fix module autoloading
 a6efc42a86c0c87cfe2f1c3d1f09a4c9b13ba890 selftest: net: Improve IPV6_TCLASS/IPV6_HOPLIMIT tests apparmor compatibility
-bf29ce87ba137307a4465c45be5bfe633ccf6074 Merge tag 'fpga-for-6.2-final' of git://git.kernel.org/pub/scm/linux/kernel/git/fpga/linux-fpga into char-misc-linus
 2543fdbd5cd3bb7d72a6c810b431ba17778a607d Merge tag '6.2-rc5-ksmbd-server-fixes' of git://git.samba.org/ksmbd
 c96618275234ad03d44eafe9f8844305bb44fda4 Fix up more non-executable files marked executable
 95e7a450b8190673675836bfef236262ceff084a Revert "mm/compaction: fix set skip in fast_find_migrateblock"
@@ -471,7 +439,6 @@ b1c3d2beed8ef3699fab106340e33a79052df116 certs: Fix build error when PKCS#11 URI
 22e46f6480e83bcf49b6d5e6b66c81872c97a902 kbuild: modinst: Fix build error when CONFIG_MODULE_SIG_KEY is a PKCS#11 URI
 f3eceaed9edd7c0e0d9fb057613131f92973626f net: ethernet: mtk_eth_soc: Avoid truncating allocation
 de5ca4c3852f896cacac2bf259597aab5e17d9e3 net: sched: sch: Bounds check priority
-9944028659e638587c2c27aaaf5ebd7531ebe0fa Merge tag 'iio-fixes-for-6.2a' of https://git.kernel.org/pub/scm/linux/kernel/git/jic23/iio into char-misc-next
 3f6c02fa712bd453871877fe1d1969625617471e serial: stm32: Merge hard IRQ and threaded IRQ handling into single IRQ handler
 31352811e13dc2313f101b890fd4b1ce760b5fe7 serial: 8250_dma: Fix DMA Rx completion race
 57e9af7831dcf211c5c689c2a6f209f4abdf0bce serial: 8250_dma: Fix DMA Rx rearm race
@@ -593,8 +560,6 @@ edb9b8f380c3413bf783475279b1a941c7e5cec1 Merge tag 'net-6.2-rc7' of git://git.ke
 abf301e14e42702c11ab20331aa4d0ab87a777ca Merge tag 'drm-misc-fixes-2023-02-02' of git://anongit.freedesktop.org/drm/drm-misc into drm-fixes
 74d6c8ea183e73031db635a96f67bc30ae1fc2ee Merge tag 'drm-intel-fixes-2023-02-02' of git://anongit.freedesktop.org/drm/drm-intel into drm-fixes
 f1a9e82a1203802df3c917dd7ab1b5a5ded55793 Merge tag 'amd-drm-fixes-6.2-2023-02-01' of https://gitlab.freedesktop.org/agd5f/linux into drm-fixes
-6dfb0771429a63db8561d44147f2bb76f93e1c86 HV: hv_balloon: fix memory leak with using debugfs_lookup()
-d83d7ed260283560700d4034a80baad46620481b kernel/irq/irqdomain.c: fix memory leak with using debugfs_lookup()
 966d47e1f27c45507c5df82b2a2157e5a4fd3909 efi: fix potential NULL deref in efi_mem_reserve_persistent
 0c272a1d33965627653f4fafd6eab55d0d50f21f Merge tag 'mm-hotfixes-stable-2023-02-02-19-24-2' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 bffede38f82c27cf5e203a2c659fcc9b581dd7b8 Merge tag 'drm-fixes-2023-02-03' of git://anongit.freedesktop.org/drm/drm
@@ -618,4 +583,4 @@ dc0ce181af6d1989192b973eae5f916cb6ce47f0 Merge tag 'tty-6.2-rc7' of git://git.ke
 c608f6b58f306ce0e4f459af69a196f5ed6ccf45 Merge tag 'usb-6.2-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb
 4ec5183ec48656cec489c49f989c508b68b518e3 Linux 6.2-rc7
 
---===============8615049812363972959==--
+--===============2332093665900291056==--
