@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7833036750979821677=="
+Content-Type: multipart/mixed; boundary="===============8501206014712210999=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 06 Feb 2023 12:16:48 -0000
-Message-Id: <167568580816.28975.1386559152920648308@gitolite.kernel.org>
+Date: Mon, 06 Feb 2023 12:16:56 -0000
+Message-Id: <167568581697.29124.3682514506380109142@gitolite.kernel.org>
 
---===============7833036750979821677==
+--===============8501206014712210999==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: 6aee36105369223c6859cc6cf042d262caa1068f
-    new: 29f28f8b826d7684e6b05df0f5de38dfcceb77c4
-    log: revlist-6aee36105369-29f28f8b826d.txt
+  - ref: refs/heads/m68k-queue
+    old: 470eb6333f2a4eb73f2389a592e910eeaadd2c0e
+    new: 16fad1f3c1a7e7df2be8703b30f06ac9d0d9f3f1
+    log: revlist-470eb6333f2a-16fad1f3c1a7.txt
 
---===============7833036750979821677==
+--===============8501206014712210999==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6aee36105369-29f28f8b826d.txt
+Content-Disposition: attachment; filename=revlist-470eb6333f2a-16fad1f3c1a7.txt
 
 71a06f1034b91e15d3ba6b5539c7d3a2d7f13030 mac802154: Fix possible double free upon parsing error
 cc3304052a89ab6ac887ed9224420a27e3d354e1 iio: adc: stm32-dfsdm: fill module aliases
@@ -364,7 +364,12 @@ d3feaff4d9492aa05b94167e170858da81159654 Merge tag 'char-misc-6.2-rc7' of git://
 dc0ce181af6d1989192b973eae5f916cb6ce47f0 Merge tag 'tty-6.2-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/tty
 c608f6b58f306ce0e4f459af69a196f5ed6ccf45 Merge tag 'usb-6.2-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb
 4ec5183ec48656cec489c49f989c508b68b518e3 Linux 6.2-rc7
-3f932301a9fb0ca86bcb4cb57d0a8730fd50d562 Merge tag 'v6.2-rc7'
-29f28f8b826d7684e6b05df0f5de38dfcceb77c4 m68k: fix livelock in uaccess
+8f7819eb778251b5e4d87189c1cd42a8edc42ac4 m68k: q40: Do not initialise statics to 0
+20dd80d74c375130b41dfedb42522a22dd7d81d8 m68k: Check syscall_trace_enter() return code
+df2459e97822b08355553ceaa30720b6ddae5b08 m68k: Add kernel seccomp support
+0c8a94c7f503b83dfafbf0aa89daabfa0c19f239 selftests/seccomp: Add m68k support
+8b2bfdbb8619fa7e51d8e68d6cdfe2993c6d7a7c m68k: atari: usb: Add ISP1160 USB host controller support
+eabb2e0f818e4efc835de22bafa6cca1e074b095 m68k: atari: Update Kconfig.bus help text
+16fad1f3c1a7e7df2be8703b30f06ac9d0d9f3f1 m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============7833036750979821677==--
+--===============8501206014712210999==--
