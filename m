@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Mon, 06 Feb 2023 14:42:46 -0000
-Message-Id: <167569456633.31026.15625353611856747128@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Mon, 06 Feb 2023 14:49:18 -0000
+Message-Id: <167569495866.3951.16229819665840271432@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: hansg
+repo: pub/scm/linux/kernel/git/tip/tip
+user: tglx
 changes:
-  - ref: refs/heads/review-hans
-    old: 42684d44a7f211d1c1ca64737dfc00470e5fa4a3
-    new: 23d18a20723b115460014a92c4e9ce631d6455c5
+  - ref: refs/heads/x86/vdso
+    old: 4c382d723edce1b3c72b55b1b505cf5526a56afc
+    new: 5646bbd6684acf5c9b9dedb863b7d2f6f5a330fb
     log: |
-         23d18a20723b115460014a92c4e9ce631d6455c5 platform/x86: int3472/discrete: Drop unnecessary obj->type == string check
+         717cce3bdcf34705417f641bf2fcdf9b038ec36c x86/cpu: Provide the full setup for getcpu() on x86-32
+         92d33063c081a82d25dd08a9cce03947c8ed9164 x86/vdso: Provide getcpu for x86-32.
+         5646bbd6684acf5c9b9dedb863b7d2f6f5a330fb selftests: Emit a warning if getcpu() is missing on 32bit
          
