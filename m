@@ -1,47 +1,37 @@
-Content-Type: multipart/mixed; boundary="===============1900539776133473326=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vbabka/slab
-Date: Mon, 06 Feb 2023 15:36:00 -0000
-Message-Id: <167569776042.3134.17635067062775937167@gitolite.kernel.org>
-
---===============1900539776133473326==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Mon, 06 Feb 2023 15:50:03 -0000
+Message-Id: <167569860395.13363.14502511828538660100@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vbabka/slab
-user: vbabka
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/slab/for-6.3/fixes
-    old: 0000000000000000000000000000000000000000
-    new: aa4a86055b6fd76c414c3ab2af5a1dbd93dd6c93
-
---===============1900539776133473326==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1675697759 +0100
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/slab.git
-nonce 1675697758-2f3bf2288826aafe580bd01372b312d75af55cad
-
-0000000000000000000000000000000000000000 aa4a86055b6fd76c414c3ab2af5a1dbd93dd6c93 refs/heads/slab/for-6.3/fixes
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCAAdFiEEjUuTAak14xi+SF7M4CHKc/GJqRAFAmPhHl8ACgkQ4CHKc/GJ
-qRBsRwf8CCiEQ7lVbF/vwQXIkTPDZqZI78Fbq3rr/hGz/hUWFAuuXsK3J41NbpS1
-sJt31w2D9vWVDUhR7K7i2ikJG6CZ9GmqhdVC7A9jOzdM3+1Cx1xo7p8tYMSYtjSB
-2YlEEjzZrjX/uYs0UQJtG7Ltdo0klQ0eyH89bbCKIevL2xCu6P6rnwbRFAJ38fRM
-+stofLq/Os6n1tHQHs8STAVoFWAQbO07VgruB5NI004eNmuRZZgM91A7iFpbLX+E
-aCpkp2uStMjDqiRkqVWamxZuW4HBDJa3UOz/06rneSKUe4NkL1yhjqS8uKI1GW44
-+8pUPhYHXg1xAqgBe411aOf9g9qIXw==
-=I4p+
------END PGP SIGNATURE-----
-
---===============1900539776133473326==--
+  - ref: refs/heads/for-6.3/block
+    old: 1eb9cd15004fa91b6d1911af9fbaff299d8e9e45
+    new: e81cd5a983bb35dabd38ee472cf3fea1c63e0f23
+    log: |
+         28e538a3093833cbac3e28dd511a8b74629d737a blk-cgroup: fix freeing NULL blkg in blkg_create
+         e81cd5a983bb35dabd38ee472cf3fea1c63e0f23 block: stub out and deprecated the capability attribute on the gendisk
+         
+  - ref: refs/heads/for-6.3/io_uring
+    old: 0ffae640ad83de46865c6b8dc3fda370823e4f1d
+    new: 2f2bb1ffc9983e227424d0787289da5483b0c74f
+    log: |
+         2f2bb1ffc9983e227424d0787289da5483b0c74f io_uring: mark task TASK_RUNNING before handling resume/task work
+         
+  - ref: refs/heads/for-next
+    old: 99bd489eac97dd3a4a41660fd3c9ad127ec3e4fd
+    new: d0aeddf67eb44e599a0d11ad66cf692a6bff52f0
+    log: |
+         2f2bb1ffc9983e227424d0787289da5483b0c74f io_uring: mark task TASK_RUNNING before handling resume/task work
+         e16e5a33719b0ce4110f8d1bf11d6fffee762e07 Merge branch 'for-6.3/io_uring' into for-next
+         28e538a3093833cbac3e28dd511a8b74629d737a blk-cgroup: fix freeing NULL blkg in blkg_create
+         c45a72d812d75ccfb7190f4d360e745a6d6be8d1 Merge branch 'for-6.3/block' into for-next
+         e81cd5a983bb35dabd38ee472cf3fea1c63e0f23 block: stub out and deprecated the capability attribute on the gendisk
+         d0aeddf67eb44e599a0d11ad66cf692a6bff52f0 Merge branch 'for-6.3/block' into for-next
+         
