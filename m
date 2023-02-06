@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0965981577402860804=="
+Content-Type: multipart/mixed; boundary="===============0556620310055687385=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Mon, 06 Feb 2023 09:49:41 -0000
-Message-Id: <167567698195.27258.1891894596186719129@gitolite.kernel.org>
+Date: Mon, 06 Feb 2023 09:49:48 -0000
+Message-Id: <167567698826.27323.11884848186225516226@gitolite.kernel.org>
 
---===============0965981577402860804==
+--===============0556620310055687385==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-linus
-    old: 226fae124b2dac217ea5436060d623ff3385bc34
-    new: 4ec5183ec48656cec489c49f989c508b68b518e3
-    log: revlist-226fae124b2d-4ec5183ec486.txt
+  - ref: refs/heads/tty-next
+    old: fbe7e38f3e57e38916ae7f248fd6efafeb9ecdd3
+    new: f6b2ce79b5fbbb330f56262f0f4373d6af60b602
+    log: revlist-fbe7e38f3e57-f6b2ce79b5fb.txt
 
---===============0965981577402860804==
+--===============0556620310055687385==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1675676981 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1675676986 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1675676980-1d55dd8f17e6272efee8b71f4e268efed0cf48c4
+nonce 1675676985-393c9edf456cf09117a22bcc6a843f06e7f9cb91
 
-226fae124b2dac217ea5436060d623ff3385bc34 4ec5183ec48656cec489c49f989c508b68b518e3 refs/heads/tty-linus
+fbe7e38f3e57e38916ae7f248fd6efafeb9ecdd3 f6b2ce79b5fbbb330f56262f0f4373d6af60b602 refs/heads/tty-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPgzTUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+RWwQAMFn95Xf70wc89ZTyH8z
-tTDyVmcaKfqWy1sh3phTUUzRrz3nIsDPUf/lOipvhG062jldtIDQY84CtlFDB0WD
-Z+dXHh8IS8w0j9EJr9/sMyNDwHCWYZVcDLbvyuC3g6W6QviyMOb+625lGrSs0am1
-9lMt8LXrqb7N18f+J8N3uXGY3mjWmsLSgeddG6vzMwaEf6hiG8lmR5tYIABj/zkA
-Kv70mgCLFe+ZQYHAwAjhg08rhbUwV/VVidhqXQQi8zgAKy7XdZVB2x6kNu/yjIm0
-NlqzLH/AZJ8/eAII+C58y1LbjEG5LCiTS17dSgxrZQknXvXp4dEqs+zbslshyK/W
-bcdb3yNfs0QDHpPnUouUIzOQujIh65pGbMOTJp90jr6MM4JJNh1ibHYIJN7ALgNo
-IT5iiyz1KQ9yBtBw5tlRpBqUTot36Pv+fRtooY54U4O91ZJB6HcFXIHJiYhrMXuf
-+IK6Z67AJZGjVhgFwJ5h60GAgtvugG2v0YBOHVqzzTu37I0++KALk+ytPJu96exT
-dplX26sX+oy3WPdZG9beZZw7zAk8oduV+3xWL6Zph8AkUz19D5IQf0vIKJpbvPzY
-UrnQViNr/jtGOpoNvr+lD0yTiAtIi59QjEucoIF3STRWuRAix7DR2mrpcNPQExmK
-meqJqf8R1yLyws+EoQPvFujZ
-=TeMl
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPgzTobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ulgQAM4cCawseOom/8vTwsKQ
+iDtsVEcpVzp5paZ2mbiRL3khEYXaB+IX0KKY4Zi4eSAmahIdvxBeTnDo6Fn5eRsi
+CBTQI7vVX5RvexLLJlU3uIEd4IeSZOw4BgTYv7NUxKMKwdMy4+bHGmeTadUObnpO
+kyQ5UVUcRbbMH3JMQBihYGVhgmBDUJRDtZkM8YAXQ5JdQtUCyj82pL9PfD7DbDpt
+sdTNHJzOkRHlx4p6Gc0Js6Bd36+ZzyReXKDfPJ8M1fkGA0sd+j+1jA1w72JXXVJX
+9zJZd9IZPnUX2cyvFfJhPJxW06W2eU2/g3xRg8DJjENuDxVs+h83936lqJMGKogp
+EPm+MPQDZAm/qFLl8TJ47qfD4C+hf7OXThdr27ZOoQYw+S2SHuXBcBNYin1Dqcib
+xdmc62GUhGRyQWWqD9S6GXElZyILu8oP3DNOoTBn0d3/bIz3Bu6xRagI6+Kq+Dc8
+/JCOODR4+GbEzkNzBoElwjsfGlRoSMf8NPt62uz15HCx2tvU4k3B5ZwZc61WMrJW
+eWvGLe7F1+hK28nh0rktumYdj5VMMdpKeBxBPDizARn8PwJWO7Vqn+bwKHZpmrAD
+IGGCth5bvM1QnTuOqxA4WlD0BwolrhCoHlRquUByKLa/sbgFhPPkdGYDDWRnz2lz
+vgbjDTkvvol7xKTf58oNpdNL
+=728B
 -----END PGP SIGNATURE-----
 
---===============0965981577402860804==
+--===============0556620310055687385==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-226fae124b2d-4ec5183ec486.txt
+Content-Disposition: attachment; filename=revlist-fbe7e38f3e57-f6b2ce79b5fb.txt
 
 3c44e2b6cde674797b76e76d3a903a63ce8a18bb Revert "Input: synaptics - switch touchpad on HP Laptop 15-da3001TU to RMI mode"
 71a06f1034b91e15d3ba6b5539c7d3a2d7f13030 mac802154: Fix possible double free upon parsing error
@@ -472,12 +472,16 @@ b1c3d2beed8ef3699fab106340e33a79052df116 certs: Fix build error when PKCS#11 URI
 f3eceaed9edd7c0e0d9fb057613131f92973626f net: ethernet: mtk_eth_soc: Avoid truncating allocation
 de5ca4c3852f896cacac2bf259597aab5e17d9e3 net: sched: sch: Bounds check priority
 9944028659e638587c2c27aaaf5ebd7531ebe0fa Merge tag 'iio-fixes-for-6.2a' of https://git.kernel.org/pub/scm/linux/kernel/git/jic23/iio into char-misc-next
+3f6c02fa712bd453871877fe1d1969625617471e serial: stm32: Merge hard IRQ and threaded IRQ handling into single IRQ handler
+31352811e13dc2313f101b890fd4b1ce760b5fe7 serial: 8250_dma: Fix DMA Rx completion race
+57e9af7831dcf211c5c689c2a6f209f4abdf0bce serial: 8250_dma: Fix DMA Rx rearm race
 7294194b47e994753a86eee8cf1c61f3f36458a3 powerpc/kexec_file: Fix division by zero in extra size estimation
 98d0219e043e09013e883eacde3b93e0b2bf944d powerpc/64s/radix: Fix crash with unaligned relocated kernel
 111bcb37385353f0510e5847d5abcd1c613dba23 powerpc/64s/radix: Fix RWX mapping with relocated kernel
 9d2c7203ffdb846399b82b0660563c89e918c751 x86/debug: Fix stack recursion caused by wrongly ordered DR7 accesses
 2b272bb558f1d3a5aa95ed8a82253786fd1a48ba netfilter: br_netfilter: disable sabotage_in hook after first suppression
 bd0e06f0def75ba26572a94e5350324474a55562 Revert "netfilter: conntrack: fix bug in for_each_sctp_chunk"
+226fae124b2dac217ea5436060d623ff3385bc34 vc_screen: move load of struct vc_data pointer in vcs_read() to avoid UAF
 29baef789c838bd5c02f50c88adbbc6b955aaf61 block: ublk: extending queue_size to fix overflow
 0a2742bf5899bf3bc46d16e4cc7dd7352ce771fd MAINTAINERS: Update OpenRISC mailing list
 254c71374a70051a043676b67ba4f7ad392b5fe6 kunit: fix kunit_test_init_section_suites(...)
@@ -613,5 +617,6 @@ d3feaff4d9492aa05b94167e170858da81159654 Merge tag 'char-misc-6.2-rc7' of git://
 dc0ce181af6d1989192b973eae5f916cb6ce47f0 Merge tag 'tty-6.2-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/tty
 c608f6b58f306ce0e4f459af69a196f5ed6ccf45 Merge tag 'usb-6.2-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb
 4ec5183ec48656cec489c49f989c508b68b518e3 Linux 6.2-rc7
+f6b2ce79b5fbbb330f56262f0f4373d6af60b602 Merge 6.2-rc7 into tty-next
 
---===============0965981577402860804==--
+--===============0556620310055687385==--
