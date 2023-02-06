@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============7344993439041037207=="
+Content-Type: multipart/mixed; boundary="===============2528022126591533331=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Mon, 06 Feb 2023 08:52:18 -0000
-Message-Id: <167567353831.7521.15013707329678730573@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Mon, 06 Feb 2023 08:52:34 -0000
+Message-Id: <167567355448.7708.13231284779963516491@gitolite.kernel.org>
 
---===============7344993439041037207==
+--===============2528022126591533331==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: leon
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: 4ec5183ec48656cec489c49f989c508b68b518e3
     log: revlist-6d796c50f84c-4ec5183ec486.txt
 
---===============7344993439041037207==
+--===============2528022126591533331==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -365,4 +365,4 @@ dc0ce181af6d1989192b973eae5f916cb6ce47f0 Merge tag 'tty-6.2-rc7' of git://git.ke
 c608f6b58f306ce0e4f459af69a196f5ed6ccf45 Merge tag 'usb-6.2-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb
 4ec5183ec48656cec489c49f989c508b68b518e3 Linux 6.2-rc7
 
---===============7344993439041037207==--
+--===============2528022126591533331==--
