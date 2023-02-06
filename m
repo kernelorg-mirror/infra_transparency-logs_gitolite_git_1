@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5489049798121643618=="
+Content-Type: multipart/mixed; boundary="===============1816072799995727708=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Mon, 06 Feb 2023 19:49:22 -0000
-Message-Id: <167571296289.11726.9516981221518341784@gitolite.kernel.org>
+Date: Mon, 06 Feb 2023 19:51:34 -0000
+Message-Id: <167571309465.13998.4694622608813395672@gitolite.kernel.org>
 
---===============5489049798121643618==
+--===============1816072799995727708==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,27 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/100GbE
-    old: 31c8db2c4fa799f5981451a6ce2b38320069d8ef
-    new: e0645311e1abc6120d2cf18e7611e1c272fdcc88
-    log: revlist-31c8db2c4fa7-e0645311e1ab.txt
+  - ref: refs/heads/40GbE
+    old: 07ce664bb5ecfb8cb1bc99762fc787aea94a76cd
+    new: bfb553b7c371634d277626a1bf17cac25b10802c
+    log: revlist-07ce664bb5ec-bfb553b7c371.txt
 
---===============5489049798121643618==
+--===============1816072799995727708==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-31c8db2c4fa7-e0645311e1ab.txt
+Content-Disposition: attachment; filename=revlist-07ce664bb5ec-bfb553b7c371.txt
 
+2b8db6afbc95258175da69f31c9bfbea539aaa74 ice: move RDMA init to ice_idc.c
+2be29286ed9f6b035e1f87514953aa1c75cb045b ice: alloc id for RDMA using xa_array
+0db66d20f9cf35a4a2347574af53cfe3472caf44 ice: cleanup in VSI config/deconfig code
+6624e780a577fc59678853be7959a153558e11b1 ice: split ice_vsi_setup into smaller functions
+a696d61528f08d2fac221dcb618495f43cccdcb3 ice: stop hard coding the ICE_VSI_CTRL location
+5b246e533d0177775c64b40a2af1e62aff5d279b ice: split probe into smaller functions
+70fbc15a655cc9df29189a8145885c59a720865d ice: sync netdev filters after clearing VSI
+227bf4500aaaec1e06b527317e05adf42f0da8b4 ice: move VSI delete outside deconfig
+ccf531b2d670cf805787e007196a02321b03b68e ice: update VSI instead of init in some case
+31c8db2c4fa799f5981451a6ce2b38320069d8ef ice: implement devlink reinit action
 d795527d50796b18c08462188e555139bdd6f967 net: dsa: use NL_SET_ERR_MSG_WEAK_MOD() more consistently
 dbeeca81bd9399fc60ae69ff944836280b4fd094 devlink: Split out dev get and dump code
 c6ed7d6ef929a4502cc89c90a3c57e8814f4fcc9 devlink: Move devlink dev reload code to dev
@@ -127,18 +137,11 @@ b601135e8d704f3218efaf07cdb2ebf310aedc2a Merge branch 'ENETC-mqprio-taprio-clean
 a096ccca6e503a5c575717ff8a36ace27510ab0a tun: tun_chr_open(): correctly initialize socket uid
 66b2c338adce580dfce2199591e65e2bab889cff tap: tap_open(): correctly initialize socket uid
 c21adf256f8dcfbc07436d45be4ba2edf7a6f463 Merge branch 'tuntap-socket-uid'
-772dec645934d7788e333cc05f19ac8c1b78f517 ice: Add more usage of existing function ice_get_vf_vsi(vf)
-a2ca73eae33f4a15304b7f4a71246bb66ded0b80 ice: fix function comment referring to ice_vsi_alloc
-157acda5b1faf896cbe46e8860be02baac2b7f83 ice: drop unnecessary VF parameter from several VSI functions
-5e509ab237f175a0985e9ca7d696fbdc62434e56 ice: refactor VSI setup to use parameter structure
-e15881970692f9e65175e9dcb1f4d2dba0672861 ice: move vsi_type assignment from ice_vsi_alloc to ice_vsi_cfg
-1efee0734b98fd3242508e942b4d11bdcc83e916 ice: move ice_vf_vsi_release into ice_vf_lib.c
-aeead3d04fa050a94ed314cc5de97125a957dc9f ice: Pull common tasks into ice_vf_post_vsi_rebuild
-b5dcff1fd57ac0b67229bc008223b6a67176940a ice: add a function to initialize vf entry
-b1b5694235efcc0b7d724961e8300c9a8cae993d ice: introduce ice_vf_init_host_cfg function
-5531bb851fba2a93ed0c1de1873ea563d8c1da76 ice: convert vf_ops .vsi_rebuild to .create_vsi
-fa4a15c85c849e92257da6dbffeb1e3a6399fd7b ice: introduce clear_reset_state operation
-537dfe06accad68123fe780ce4f883549a73db37 ice: introduce .irq_close VF operation
-e0645311e1abc6120d2cf18e7611e1c272fdcc88 ice: remove unnecessary virtchnl_ether_addr struct use
+2b17b5951908119c7e2dd37328ca7ae64f807d55 i40e: Add flag for disabling VF source pruning
+0162d83d9df2b4f459f190ab1d684ed4697a590f i40e: Remove unused i40e status codes
+57088e37c92c6dee271c445a97783d28e29d2a6c i40e: Remove string printing for i40e_status
+09edf69aa61e5966ed0d949b6ebadf33f6530509 i40e: use int for i40e_status
+a8fd15683186e1d8847c7509632e2a79cb6f9b85 i40e: use ERR_PTR error print in i40e messages
+bfb553b7c371634d277626a1bf17cac25b10802c net/i40e: Replace 0-length array with flexible array
 
---===============5489049798121643618==--
+--===============1816072799995727708==--
