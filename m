@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 06 Feb 2023 23:54:11 -0000
-Message-Id: <167572765198.12422.4189258504358417370@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/namhyung/linux-perf
+Date: Mon, 06 Feb 2023 23:56:40 -0000
+Message-Id: <167572780043.14704.7042438960434704265@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/namhyung/linux-perf
+user: namhyung
 changes:
-  - ref: refs/heads/auto-latest
-    old: d67c17ddc89943480da8cd3bfd383d087de45908
-    new: 24b38b34a41fd38c35c3bb834b41c3f210c68da5
+  - ref: refs/heads/perf/lock-owner-v2
+    old: 0000000000000000000000000000000000000000
+    new: 8f5260a1067e412878ddc2cb4d902b878e116606
