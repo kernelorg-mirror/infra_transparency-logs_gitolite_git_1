@@ -1,19 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Tue, 07 Feb 2023 22:59:29 -0000
-Message-Id: <167581076975.17696.9753915898281656799@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/backports/backports
+Date: Tue, 07 Feb 2023 23:07:32 -0000
+Message-Id: <167581125207.23254.9936802920012616723@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/backports/backports
+user: hauke
 changes:
   - ref: refs/heads/master
-    old: 441ae38fbf04e843186cb291f43dd7892805e037
-    new: 30558d3e1c91229aa1b011aaa7eb4ed0a01d6286
+    old: e1867d552f108f403725067c72ad2dc87535b935
+    new: dfe0f60ca8a1065e63b4db703b3bd2708ee23a0e
     log: |
-         30558d3e1c91229aa1b011aaa7eb4ed0a01d6286 foo
+         d90adcaa60d2d3b0375ec00b20d39e8412480b06 backports: Add usb_find_common_endpoints()
+         dfe0f60ca8a1065e63b4db703b3bd2708ee23a0e patches: Refresh on top of kernel 5.15.92
          
+  - ref: refs/tags/v5.15.92-1
+    old: 0000000000000000000000000000000000000000
+    new: e1c7929497467c077daf0ce4e9b19261d3367949
