@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8827509243723644357=="
+Content-Type: multipart/mixed; boundary="===============4086806265346061914=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 07 Feb 2023 17:55:56 -0000
-Message-Id: <167579255673.11098.8871613960535708944@gitolite.kernel.org>
+Date: Tue, 07 Feb 2023 17:56:34 -0000
+Message-Id: <167579259434.11370.13563894128927557437@gitolite.kernel.org>
 
---===============8827509243723644357==
+--===============4086806265346061914==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: c21adf256f8dcfbc07436d45be4ba2edf7a6f463
-    new: 61d731e6538dc44abf2dca6e77098ec6e85f7cc2
-    log: revlist-c21adf256f8d-61d731e6538d.txt
+  - ref: refs/heads/dev-queue
+    old: 8168aec92e129262421c77821475f0f681944cab
+    new: 5444bf1ab6306df5052f1be6a3f9351114697643
+    log: revlist-8168aec92e12-5444bf1ab630.txt
 
---===============8827509243723644357==
+--===============4086806265346061914==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c21adf256f8d-61d731e6538d.txt
+Content-Disposition: attachment; filename=revlist-8168aec92e12-5444bf1ab630.txt
 
 d80d88b0dfff5829ab31030692672ba6fe9cde48 bnxt_en: Add auxiliary driver support
 6d758147c7b80a46465f72e9e6294d244ee98a21 RDMA/bnxt_re: Use auxiliary driver interface
@@ -91,5 +91,53 @@ bbe641866318b2693e2778862e3b8ed6ccd0843b amd-xgbe: fix mismatched prototype
 15ea59a0e9bf0dce546b6fcab5b00af8b35b870d net: openvswitch: reduce cpu_used_mask memory
 ca8e4cbff6d5360efc2ced519c4609e02e88cc59 ethtool: mm: fix get_mm() return code not propagating to user space
 61d731e6538dc44abf2dca6e77098ec6e85f7cc2 Merge tag 'linux-can-next-for-6.3-20230206' of git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can-next
+651a06152e3c07554811c82c4bc2e1977d13b0d8 ice: Add GPIO pin support for E823 products
+38edf8628020a62ffdbbdb763dda7ab03941cb2f ice: Add crosstimestamping on E823 devices
+95d962cb1288eec22cc07ef2276a43f55e60f8ea ice: Fix off by one in ice_tc_forward_to_queue()
+49a5e687419545cc9194ea41f8c0729858aceff1 igc: Clean up and optimize watchdog task
+a99a581bc671249b6fa85c9a719a51391514ac28 intel/igbvf: free irq on the error path in igbvf_request_msix()
+3e89e373f42b6d4a486b41d42d4f838c9ae94302 igb: Enable SR-IOV after reinit
+132a7aebf35ce7fb9f012dfcc217293afd58f6fe igbvf: Regard vf reset nack as success
+695e8fb8b24b06418eaa981ebc60bc9e68ed8d4c ice: Add more usage of existing function ice_get_vf_vsi(vf)
+c4026bd392668bc034d91115615ad8936ef58b1d igb: conditionalize I2C bit banging on external thermal sensor support
+d93aa4a0a0f13d9d444f0385a1079dce93b51b0c ice: switch: fix potential memleak in ice_add_adv_recipe()
+632713287bc828b1fd3fc250070ed12f48d44924 igc: Add qbv_config_change_errors counter
+18f6d83a54c27d700e346731202e171d00caea4e i40e: Add flag for disabling VF source pruning
+b53b93557906538e13e713b141b060c6cc2f1a0b ice: fix out-of-bounds KASAN warning in virtchnl
+ba0d440c5153faea26d3a9e31f48d50e3c66c77b ice: Change ice_vsi_realloc_stat_arrays() to void
+c42d8844e474b6f304397979ad5e1994a1ebf91c net/i40e: Replace 0-length array with flexible array
+5647321d4534fd56b5298d40319a6a0f3a7cf3e8 i40e: Remove unused i40e status codes
+718461ee0d3e7b517446ddd362e27c2a12ac5336 i40e: Remove string printing for i40e_status
+04f963851ce40a9ab004c918739f650e0c97aeb1 i40e: use int for i40e_status
+9f3ea25459186d94f4e3b3b8578f3d0f91a0711c i40e: remove i40e_status
+e4adab7245ff911898ed7d45f6bdb1e144f51468 i40e: use ERR_PTR error print in i40e messages
+10960a041ee32a2c1b3718f18fbc845f68d50e6d igc: Add ndo_tx_timeout support
+f9960cd5ca0e3fad4999814e517994721909c5b2 ice: avoid bonding causing auxiliary plug/unplug under RTNL lock
+743178b964cc13a9ac2db0c3d4340445c88283a5 ice: Fix disabling Rx VLAN filtering with port VLAN enabled
+64b24085b73725622108905a8316d3a23e801ba1 ice: Mention CEE DCBX in code comment
+28672fd69b0f8bf9a97340010ff706e9a0a51028 ice: fix function comment referring to ice_vsi_alloc
+6101bda044306561d057424a54821775be3e83b1 ice: drop unnecessary VF parameter from several VSI functions
+ae975e992895404af45302c8a41fba9954313fb1 ice: refactor VSI setup to use parameter structure
+7ac0eaa9029c1ad625a3e786d4b10543f8461799 ice: move vsi_type assignment from ice_vsi_alloc to ice_vsi_cfg
+166e2293600fd971ddfb121284fe39c5397ec321 ice: move ice_vf_vsi_release into ice_vf_lib.c
+83671a4c7eae8352fe1d3b4b0694ee05f07f20e5 ice: Pull common tasks into ice_vf_post_vsi_rebuild
+23e8aa8fb7c9d1d5cc0a8f70daa34e7561a16ae8 ice: add a function to initialize vf entry
+0467b27837f3634a5bd5774eece5f571fc21c5c5 ice: introduce ice_vf_init_host_cfg function
+869c6a12ebdd9dc3e81298cdb0d5bd1c5ec6054b ice: convert vf_ops .vsi_rebuild to .create_vsi
+bc8331cc08cdd656ef1f4da9fd17e26b03449a54 ice: introduce clear_reset_state operation
+95961922d39aa3c339a57759843138b94d8bf6f3 ice: introduce .irq_close VF operation
+12140177b5f1a44ace8193f0fad8457220140b73 ice: remove unnecessary virtchnl_ether_addr struct use
+dbb6e96dc340575dd1a49b1426cf4e264aa8f1bd ice/ptp: fix the PTP worker retrying indefinitely if the link went down
+fd3d75762a89e8635af5bfefa77a51271b78a837 ice: remove FW logging code
+4c043bc5d8152a06e701a81830e2f41e205dc627 ice: enable devlink to check FW logging status
+aa818c28bd829515f14d96f116e9dd7bbdbd76b2 ice: add ability to query/set FW log level and resolution
+382483364b9e79998096f1bd9f133bac4077f5a7 ice: disable FW logging on driver unload
+05e22fbc73e75b03b78ef25e925b21363bcebc26 ice: use debugfs to output FW log data
+6b2a1812d23d03b3c0ea10c3dd8fa3ca9586ba1f ice: Fix check for weight and priority of a scheduling node
+39d89eb4ed3253376674d173b37f651612ce9166 ice: Do not use WQ_MEM_RECLAIM flag for workqueue
+e7e5a870c0bc0a6fd6b19ce42725466077dad618 ice: Fix DSCP PFC TLV creation
+07c189051bea1cd3fafbe985306cdcacff4d3fc0 i40e: Add checking for null for nlmsg_find_attr()
+b18e7484ea7fce515a635544c0e70dfe2ea31b9e igb: Fix PPS input and output using 3rd and 4th SDP
+5444bf1ab6306df5052f1be6a3f9351114697643 ice: fix lost multicast packets in promisc mode
 
---===============8827509243723644357==--
+--===============4086806265346061914==--
