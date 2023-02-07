@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0197526199852428539=="
+Content-Type: multipart/mixed; boundary="===============3273774909641116598=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Tue, 07 Feb 2023 23:23:58 -0000
-Message-Id: <167581223849.1958.14884163773811983607@gitolite.kernel.org>
+Date: Tue, 07 Feb 2023 23:24:21 -0000
+Message-Id: <167581226110.2156.419051633254754537@gitolite.kernel.org>
 
---===============0197526199852428539==
+--===============3273774909641116598==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/next
     old: b0474a20b153b2b640c7d60af3cdaa267742a1bc
     new: 7577451310fc17ecd52dcf546b0291d8a482c7c5
     log: revlist-b0474a20b153-7577451310fc.txt
 
---===============0197526199852428539==
+--===============3273774909641116598==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -571,4 +571,4 @@ f602b2ebb5aa64df9fc776484b2c9d79c5764fc7 tpm: tis_i2c: Convert to i2c's .probe_n
 66064f5dd6505cc46433b909746f480964c34a92 tpm: Use managed allocation for bios event log
 7577451310fc17ecd52dcf546b0291d8a482c7c5 tpm: Add reserved memory event log
 
---===============0197526199852428539==--
+--===============3273774909641116598==--
