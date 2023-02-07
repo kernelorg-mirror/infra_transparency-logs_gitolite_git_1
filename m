@@ -1,35 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/iproute2/iproute2-next
-Date: Tue, 07 Feb 2023 16:13:07 -0000
-Message-Id: <167578638763.5870.18090458708401617133@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/fio
+Date: Tue, 07 Feb 2023 16:20:06 -0000
+Message-Id: <167578680605.12465.13094193759629814347@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/iproute2/iproute2-next
-user: dsahern
+repo: pub/scm/linux/kernel/git/axboe/fio
+user: axboe
 changes:
-  - ref: refs/heads/main
-    old: 6035995665b7845c8ddf2c3a44f46c283f26f449
-    new: b96b06830fe1f51a13f1e09c7a155bc5561db14a
-    log: |
-         55738f8ee1ebd5a83f66622e57e12805e8cc33df macsec: Fix Macsec packet number attribute print
-         d8070310fe159e26717b83ddb98c43da5642bd69 ip-rule.8: Bring synopsis in line with description
-         65e09a46868a82c8bc844b663ea1b6a1b465dcc4 Merge branch 'main' into next
-         94aeaf9cb12c88afa8fba8027a0e714aa4fec841 Update kernel headers
-         4300ee77e8077eb9f79303e9ae53f11dd6290257 bridge: Add support for mcast_n_groups, mcast_max_groups
-         b96b06830fe1f51a13f1e09c7a155bc5561db14a man: man8: bridge: Describe mcast_max_groups
-         
   - ref: refs/heads/master
-    old: 6035995665b7845c8ddf2c3a44f46c283f26f449
-    new: b96b06830fe1f51a13f1e09c7a155bc5561db14a
+    old: 6d7f8d9a31f9ecdeab0eed8f23c63b9a94ec61f6
+    new: f0c8ab1c36369d8d6aa214fba572dacefa3a8677
     log: |
-         55738f8ee1ebd5a83f66622e57e12805e8cc33df macsec: Fix Macsec packet number attribute print
-         d8070310fe159e26717b83ddb98c43da5642bd69 ip-rule.8: Bring synopsis in line with description
-         65e09a46868a82c8bc844b663ea1b6a1b465dcc4 Merge branch 'main' into next
-         94aeaf9cb12c88afa8fba8027a0e714aa4fec841 Update kernel headers
-         4300ee77e8077eb9f79303e9ae53f11dd6290257 bridge: Add support for mcast_n_groups, mcast_max_groups
-         b96b06830fe1f51a13f1e09c7a155bc5561db14a man: man8: bridge: Describe mcast_max_groups
+         06ec57ef41e1530d578f22bb8cc57c5ecd07e5d9 Revert "engines/libzbc: set FIO_RO_NEEDS_RW_OPEN engine flag"
+         57cbfced8c837b3b95746359ac6ba34514d68e3c engines/libzbc: for read workloads always open devices with O_RDONLY flag
+         f0c8ab1c36369d8d6aa214fba572dacefa3a8677 ioengines: clarify FIO_RO_NEEDS_RW_OPEN flag
          
