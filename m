@@ -1,27 +1,50 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
-Date: Tue, 07 Feb 2023 14:13:30 -0000
-Message-Id: <167577921048.22214.12327395026003825932@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============8876603526457841335=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vbabka/slab
+Date: Tue, 07 Feb 2023 14:28:47 -0000
+Message-Id: <167578012718.32676.7173617454685382468@gitolite.kernel.org>
+
+--===============8876603526457841335==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kdave/linux
-user: kdave
+repo: pub/scm/linux/kernel/git/vbabka/slab
+user: vbabka
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/master
-    old: d2d11f342b179f1894a901f143ec7c008caba43e
-    new: 05ecb680708a1dbe6554d6fc17e5d9a8a7cb5e6a
+  - ref: refs/heads/slab/for-6.3/cleanups
+    old: 81ce2ebd194cf32027854ce1c703b7fd129c86b8
+    new: cc9ea9cf51471b5d2e312da218687dd87b120436
     log: |
-         f7c11affde9e29316d24b6736d16faeaac8278f2 btrfs: raid56: fix stripes if vertical errors are found
-         3c538de0f2a74d50aff7278c092f88ae59cee688 btrfs: limit device extents to the device size
-         eadd7deca0ad8a83edb2b894d8326c78e78635d6 btrfs: zlib: zero-initialize zlib workspace
-         33e17b3f5ab74af12aca58c515bc8424ff69a343 btrfs: send: limit number of clones and allocated memory size
-         a9ad4d87aa263de36895402b66115a3a4b88bf1c btrfs: raid56: make error_bitmap update atomic
-         3fb906e7fabbb5b76c3c5256b10dc46ef80a0bfe cgroup/cpuset: Don't filter offline CPUs in cpuset_cpus_allowed() for top cpuset tasks
-         7a2127e66a00e073db8d90f9aac308f4a8a64226 cpuset: Call set_cpus_allowed_ptr() with appropriate mask for task
-         66fcf74e5c0d771a456b96ec9aebfb53d648eede Merge tag 'for-6.2-rc7-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
-         05ecb680708a1dbe6554d6fc17e5d9a8a7cb5e6a Merge tag 'cgroup-for-6.2-rc7-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/cgroup
+         cc9ea9cf51471b5d2e312da218687dd87b120436 mm, slab/slub: Ensure kmem_cache_alloc_bulk() is available early
          
+
+--===============8876603526457841335==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1675780125 +0100
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/slab.git
+nonce 1675780125-90788271b7581d7d1cc6a733b7730d9149310c19
+
+81ce2ebd194cf32027854ce1c703b7fd129c86b8 cc9ea9cf51471b5d2e312da218687dd87b120436 refs/heads/slab/for-6.3/cleanups
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCAAdFiEEjUuTAak14xi+SF7M4CHKc/GJqRAFAmPiYB0ACgkQ4CHKc/GJ
+qRCPbwf+I1/2A/xR63M+JOTbpKhEmMmGCRo2+M9tDwmRgcyvav10jsnC+8eBTMsd
+bL+TD/LJuOaGWvsrVIflEtPG6eN7Bve3VbIbIrwlC30Ac6GwG4DyTMSQWDcZDA4/
+ut/Zw323ydTMGbHFrnaA3Fa694FGnX62GeXUTyBHsSxjNisJY69XBd3FIKTl3FkZ
+L4n+Txe0oI964QMqRYcjDi0Td6hqHfNgtgrRZXo69pd2WOvJHdl4G74ppzHK9TjQ
+gAJve69p+qi3rbEsjDmstUXmH5Z7DFB9+rBTb6GGShf6MUpVOOadIlAtzk/cGWiS
+B08QVk9DelE6gqYs8esVOclVe+qHyQ==
+=v/Di
+-----END PGP SIGNATURE-----
+
+--===============8876603526457841335==--
