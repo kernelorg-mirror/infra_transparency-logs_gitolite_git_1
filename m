@@ -1,85 +1,83 @@
-Content-Type: multipart/mixed; boundary="===============3294000695194331688=="
+Content-Type: multipart/mixed; boundary="===============6530334762220364073=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Tue, 07 Feb 2023 06:53:24 -0000
-Message-Id: <167575280456.4524.9111692348571571559@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
+Date: Tue, 07 Feb 2023 06:53:43 -0000
+Message-Id: <167575282349.4691.12078111496271656289@gitolite.kernel.org>
 
---===============3294000695194331688==
+--===============6530334762220364073==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
+repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-next
-    old: 25746a3fa2dad79a6dfc42522b5bb38b4bdec844
-    new: 41070a7027e9c4493791266fa38e59ded6aea7b4
-    log: revlist-25746a3fa2da-41070a7027e9.txt
+  - ref: refs/heads/char-misc-next
+    old: 3b65010018ec9a228416c4ccda193af6e8d74676
+    new: 1dc7e37bb0ec1c997fac82031332a38c7610352f
+    log: revlist-3b65010018ec-1dc7e37bb0ec.txt
 
---===============3294000695194331688==
+--===============6530334762220364073==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1675752804 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1675752803-bdf6bdb404b1eb009a330d980ccafbdc6ce18557
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1675752822 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
+nonce 1675752822-c301912c8305b91ff0ab1695688272583abf73c0
 
-25746a3fa2dad79a6dfc42522b5bb38b4bdec844 41070a7027e9c4493791266fa38e59ded6aea7b4 refs/heads/usb-next
+3b65010018ec9a228416c4ccda193af6e8d74676 1dc7e37bb0ec1c997fac82031332a38c7610352f refs/heads/char-misc-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPh9WQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+0wMP/3q+NtcsMeg6ZIk8sKMA
-aBI6aY0h7AMGRXqEV3EuBGM5P5EpHf/V2k72dUv0rupi6AcuY5MHR23VPV+R3wWU
-VMuNd0wjhXnRiTMVkdUvbMus3QMIJmf4qgOBgvKEGBUZD+TCIpDGiC9aSmEiwsaK
-A+663f+g7OmqNJKc+NQIu6POnnYliQ9L33gEQXvO2Wxa90uV13ldeGFN9I9/cKmW
-C5tu6jMYLUNKOfON5tXM2BYExsCb5OKI/QWyGkQiqmUhl8uVhh/JZ/e0sIl64w8v
-X3Irfubk5ef3M56ukTWqYnJKxp1bBw42izQ4113ahmWos96MH8uIkmLbJfWmFigt
-lVeABrOo/0QBH0FKys5e+m91HFzG0ZtypvxjCfTc28Sice3IGxjab4XxfsawH0cv
-ylXEUvCxQhnJ/hSfiW6NtyXr4G5HUBUDadCtlP7Pdj2Ad51aHpZZzlxcjCBIB6i5
-lmJ1OelhukfQLJmWogpx5pkGbdRmua2tUh7nX8QqYdu32F92vWdfKUdls2ZsSMD4
-pnuP0ovS2wKVU7jXPDbPP0TDjjwvtsxqfXXsfiz9rhpjUPirGRDIg6BAl5lcSoYc
-3DQpUobDx6fE1sY72NFTzGeiOx+aE6J7BuJb497bBA8V+9x0JF2XgPMJwVR3VmuE
-ZUkigGweyxoSQd4dvIITnrBi
-=TprJ
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPh9XYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+knoP/iTga/y4jByVlqac8lmL
+6g3fcF6SWps07U9ZBOQ8shmnRCm3T3HE0+m1GkwWjj+5GQ94rikPhlRK8lN9kK1n
+nDLaIr+qUgknCeu124pVhb8dWl/QPLLfsfaqJWEgU18ojETNLZvFYDj5vtyEVlvM
+cRAvRrcpHBKMW130ddvg0XS1G0Bd8gEAs6+TmA3uurHyWQDLcfesg9yqmVntNuB4
+ze+hleBiTQFML7uNbQshvMAmIMIQAhUo2eEvOzb26FjocYp6xjWrJ8k0cBJW4o5N
++mafvSEO4ENXwGoVX7dr7X6Mg/jj57FaWs/UhSf/JpwJVZimMad6a6DzTsNkkqvH
+CnDiODinMvzH0wTgfZbUrKpuErKqECm0vQdDCSWRzffD7F711O0+4dS3BJTjXw0A
+i7vCWHclcu+1xHloCLnFGkRgGc7gh4wwBdH9IX4KgBhltIVzoQQ2x9hKX79oEXri
+vKp1X3v+I0Y3weeYEUX1OiWkfQqOk3eu8hvJYaDYhwsIWSXJqbZNKiA4NqobN5Pe
+MsWU6Fd6bZLKvZ7gn6VsJRLHjcETXcr1qV6J63/8n+AWLjwIQap66LXIRKBhLjvM
+cRDsrf7xnopLYiZQxEhhx7/Nvl/VYG2U42Jw2iPE/wgobAtVl7SAJDrv55rCAnq3
+UusAfMzGuQPN8HSWPqtcwa5R
+=av9f
 -----END PGP SIGNATURE-----
 
---===============3294000695194331688==
+--===============6530334762220364073==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-25746a3fa2da-41070a7027e9.txt
+Content-Disposition: attachment; filename=revlist-3b65010018ec-1dc7e37bb0ec.txt
 
-be308d68785b205e483b3a0c61ba3a82da468f2c USB: dwc3: fix memory leak with using debugfs_lookup()
-9c0e6fbda803dfd66c05c1f683069b46bd4cbba0 usb: gadget: configfs: Use memcpy_and_pad()
-93fd565919cf897adf7e1da81cace1a46e4db7f4 net: USB: Fix wrong-direction WARNING in plusb.c
-ff35f3ea3baba5b81416ac02d005cfbf6dd182fa USB: chipidea: fix memory leak with using debugfs_lookup()
-8f4d25eba599c4bd4b5ea8ae8752cda480a9d563 USB: ULPI: fix memory leak with using debugfs_lookup()
-0a3f82c79c86278e7f144564b1cb6cc5c3657144 USB: uhci: fix memory leak with using debugfs_lookup()
-e1523c4dbc54e164638ff8729d511cf91e27be04 USB: sl811: fix memory leak with using debugfs_lookup()
-6b4040f452037a7e95472577891d57c6b18c89c5 USB: fotg210: fix memory leak with using debugfs_lookup()
-a95f62d5813facbec20ec087472eb313ee5fa8af USB: isp116x: fix memory leak with using debugfs_lookup()
-c26e682afc14caa87d44beed271eec8991e93c65 USB: isp1362: fix memory leak with using debugfs_lookup()
-73f4451368663ad28daa67980c6dd11d83b303eb USB: gadget: gr_udc: fix memory leak with using debugfs_lookup()
-a91c99b1fe5c6f7e52fb932ad9e57ec7cfe913ec USB: gadget: bcm63xx_udc: fix memory leak with using debugfs_lookup()
-e3965acaf3739fde9d74ad82979b46d37c6c208f USB: gadget: lpc32xx_udc: fix memory leak with using debugfs_lookup()
-7a038a681b7df78362d9fc7013e5395a694a9d3a USB: gadget: pxa25x_udc: fix memory leak with using debugfs_lookup()
-7a6952fa0366d4408eb8695af1a0578c39ec718a USB: gadget: pxa27x_udc: fix memory leak with using debugfs_lookup()
-0fbd2cda92cdb00f72080665554a586f88bca821 usb: host: xhci: mvebu: Iterate over array indexes instead of using pointer math
-ce33e64c1788912976b61314b56935abd4bc97ef USB: ene_usb6250: Allocate enough memory for full object
-e16cab9c1596e251761d2bfb5e1467950d616963 usb: uvc: Enumerate valid values for color matching
-744eb7b821f61eceed60eb4f64227162853c9d5e usb: gadget: uvc: Add struct for color matching in configs
-e187408cc1de933851d03eb128c25a742bc92ecc usb: gadget: uvc: Copy color matching descriptor for each frame
-4e8a720e2ed24324d2e84daad86874c47c3cbd4d usb: gadget: uvc: Remove the hardcoded default color matching
-58f227871f798825ba44d149d578e8ffbd0d3d6d usb: gadget: uvc: Make color matching attributes read/write
-f5e7bdd34aca0ed92a2bef913151dd234e86cb33 usb: gadget: uvc: Allow creating new color matching descriptors
-41070a7027e9c4493791266fa38e59ded6aea7b4 usb: gadget: uvc: Correct documentation formatting
+c9dde85d25d3d59068bdb1e8cc5a4b7be5530bd4 nvmem: sunxi_sid: Drop the workaround on A64
+31ce495a4ceadb9f396af56214acee7ed283d157 dt-bindings: nvmem: Fix qcom,qfprom compatibles enum ordering
+226198d001df163b05fc4f3052f68c2a0348fb2f dt-bindings: nvmem: Add compatible for MSM8976
+a1e63b63763d7f272173026d79d941ca53a64152 dt-bindings: nvmem: qfprom: add sdm670 compatible
+3644df5050c186b44dfdde52ae4dca31148f8ccc dt-bindings: nvmem: Add compatible for SM8150
+e3d2a936fcb014160a840b96a132cb05b456c5cf dt-bindings: nvmem: Add compatible for SM8250
+2e8dc541ae207349b51c65391be625ffe1f86e0c nvmem: core: remove spurious white space
+7390609b0121a1b982c5ecdfcd72dc328e5784ee net: add helper eth_addr_add()
+c5d264d4b527c96ae8903376a4b195df47b05203 of: base: add of_parse_phandle_with_optional_args()
+ff24fed10ba414d19579e26e60b126fad2f2bb07 of: property: make #.*-cells optional for simple props
+e2d8172043d2e50df19fcd59c11e5593de8188d7 of: property: add #nvmem-cell-cells property
+5d8e6e6c10a3d37486d263b16ddc15991a7e4a88 nvmem: core: add an index parameter to the cell
+fbd03d27776c6121a483921601418e3c8f0ff37e nvmem: core: move struct nvmem_cell_info to nvmem-provider.h
+cc5bdd323dde6494623f3ffe3a5b887fa21cd375 nvmem: core: drop the removal of the cells in nvmem_add_cells()
+2ded6830d376d5e7bf43d59f7f7fdf1a59abc676 nvmem: core: add nvmem_add_one_cell()
+50014d659617dc58780a5d31ceb76c82779a9d8b nvmem: core: use nvmem_add_one_cell() in nvmem_add_cells_from_of()
+6a0bc3522e746025e2d9a63ab2cb5d7062c2d39c nvmem: stm32: add OP-TEE support for STM32MP13x
+df2f34ef1d924125ffaf29dfdaf7cdbd3183c321 nvmem: stm32: detect bsec pta presence for STM32MP15x
+3e5ac22aa564026e99defc3a8e02082521a5b231 nvmem: rave-sp-eeprm: fix kernel-doc bad line warning
+eb7dda20f42a9137e9ee53d5ed3b743d49338cb5 nvmem: qcom-spmi-sdam: register at device init time
+62d3cfd2a978313f08e31bce60308404d60eb50c dt-bindings: nvmem: qfprom: add IPQ8074 compatible
+1dc7e37bb0ec1c997fac82031332a38c7610352f nvmem: stm32: fix OPTEE dependency
 
---===============3294000695194331688==--
+--===============6530334762220364073==--
