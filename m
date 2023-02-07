@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Tue, 07 Feb 2023 17:31:05 -0000
-Message-Id: <167579106547.26508.4397162994992353524@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Tue, 07 Feb 2023 17:37:46 -0000
+Message-Id: <167579146688.30044.10056757223754139733@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/pci/pci
+user: helgaas
 changes:
-  - ref: refs/heads/master
-    old: 47ec9221a180843e212844f87896a752003968ad
-    new: afd82cf6e3dc532af885f62ce53bdf1c986281db
+  - ref: refs/heads/pci/resource
+    old: c2535ac980caebe700eee4c5af38122e203bf3d0
+    new: 7180c1d08639f28e63110ad35815f7a1785b8a19
     log: |
-         afd82cf6e3dc532af885f62ce53bdf1c986281db Tue Feb  7 05:30:13 PM UTC 2023
+         08f0a15ee8adb4846b08ca5d5c175fbf0f652bc9 PCI: Align extra resources for hotplug bridges properly
+         9db0b9b6a14249ef65a5f1e5e3b37762af96f425 PCI: Take other bus devices into account when distributing resources
+         7180c1d08639f28e63110ad35815f7a1785b8a19 PCI: Distribute available resources for root buses, too
          
