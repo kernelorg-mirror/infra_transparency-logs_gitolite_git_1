@@ -1,39 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============1895292892075374696=="
+Content-Type: multipart/mixed; boundary="===============9034455717453063943=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Tue, 07 Feb 2023 05:22:49 -0000
-Message-Id: <167574736928.10269.12174299252383144674@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Tue, 07 Feb 2023 05:22:59 -0000
+Message-Id: <167574737912.10385.10208156357218899909@gitolite.kernel.org>
 
---===============1895292892075374696==
+--===============9034455717453063943==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
   - ref: refs/heads/master
     old: 129af770823407ee115a56c69a04b440fd2fbe61
     new: 49a8133221c71b935f36a7c340c0271c2a9ee2db
     log: revlist-129af7708234-49a8133221c7.txt
-  - ref: refs/heads/stable
-    old: 4ec5183ec48656cec489c49f989c508b68b518e3
-    new: d2d11f342b179f1894a901f143ec7c008caba43e
-    log: |
-         9c7417b5ec440242bb5b64521acd53d4e19130c1 coredump: Move dump_emit_page() to kill unused warning
-         d2d11f342b179f1894a901f143ec7c008caba43e Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
-         
-  - ref: refs/tags/next-20221107
-    old: 5c66ea3d6d25a8cbde3be36b17f36de9eca2934c
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20230207
     old: 0000000000000000000000000000000000000000
     new: 28fb990472a65c248d33b7a5851dc9ff9c571e8e
 
---===============1895292892075374696==
+--===============9034455717453063943==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -996,4 +986,4 @@ c09f95fa137f19a401c1e266f9af8ed1d9435cb7 Merge branch 'mm-everything' of git://g
 df35cfe5051d89db0e9c2e39050f733882342f41 Revert "mm/gup: move private gup FOLL_ flags to internal.h"
 49a8133221c71b935f36a7c340c0271c2a9ee2db Add linux-next specific files for 20230207
 
---===============1895292892075374696==--
+--===============9034455717453063943==--
