@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/matttbe/net-next
-Date: Tue, 07 Feb 2023 10:41:19 -0000
-Message-Id: <167576647934.7993.7091863001471288011@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Tue, 07 Feb 2023 10:57:19 -0000
+Message-Id: <167576743908.18978.7818208106722621869@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/matttbe/net-next
-user: matttbe
+repo: pub/scm/linux/kernel/git/netdev/net
+user: pabeni
 changes:
-  - ref: refs/heads/b4/upstream-net-20230207-various-fix-6-2
-    old: 0000000000000000000000000000000000000000
-    new: e32ec8823be4c1ca3e159a4123f39536a5731054
+  - ref: refs/heads/master
+    old: 811d581194f7412eda97acc03d17fc77824b561f
+    new: 0b6d6425103a676e2b6a81f3fd35d7ea4f9b90ec
+    log: |
+         0b6d6425103a676e2b6a81f3fd35d7ea4f9b90ec net: dsa: mt7530: don't change PVC_EG_TAG when CPU port becomes VLAN-aware
+         
