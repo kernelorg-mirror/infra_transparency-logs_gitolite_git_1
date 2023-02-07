@@ -1,35 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-pinctrl
-Date: Tue, 07 Feb 2023 09:14:29 -0000
-Message-Id: <167576126939.31141.4960735351185307607@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Tue, 07 Feb 2023 09:15:25 -0000
+Message-Id: <167576132565.879.10314390130165321019@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/linusw/linux-pinctrl
-user: linusw
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/devel
-    old: ff51053424ec6dcaae95e02ce900cc8cbe1c3ed6
-    new: 3465e5219bc836c26e20222863dfc9b81803885f
+  - ref: refs/heads/for-linus
+    old: 7a17e8423a133a6ac238462126d7f88faaccc681
+    new: 6c4715aa5b0ab1c0d35780b7c552e952dbb5515d
     log: |
-         560722cbc6d49d1ca53a4f4a2339e7421a21d42d dt-bindings: pinctrl: add bindings for MT7981 SoC
-         3465e5219bc836c26e20222863dfc9b81803885f pinctrl: add mt7981 pinctrl driver
+         6c4715aa5b0ab1c0d35780b7c552e952dbb5515d ALSA: hda/realtek: fix mute/micmute LEDs don't work for a HP platform.
          
-  - ref: refs/heads/fixes
-    old: 5921b250f43870e7d8044ca14e402292ceb3e3a8
-    new: a8520be3ffef3d25b53bf171a7ebe17ee0154175
+  - ref: refs/heads/master
+    old: f16fed90f747e2e66020f2ff7c2e89355052170b
+    new: 3f5169cc246c2f13567485308124c33b4d83e7d3
     log: |
-         a8520be3ffef3d25b53bf171a7ebe17ee0154175 pinctrl: intel: Restore the pins that used to be in Direct IRQ mode
-         
-  - ref: refs/heads/for-next
-    old: 58378dd700d48851bad511a765e112d055962f7d
-    new: e48ce58f2125f1b1f466e6284bd4ef4318be52de
-    log: |
-         560722cbc6d49d1ca53a4f4a2339e7421a21d42d dt-bindings: pinctrl: add bindings for MT7981 SoC
-         3465e5219bc836c26e20222863dfc9b81803885f pinctrl: add mt7981 pinctrl driver
-         a8520be3ffef3d25b53bf171a7ebe17ee0154175 pinctrl: intel: Restore the pins that used to be in Direct IRQ mode
-         e48ce58f2125f1b1f466e6284bd4ef4318be52de Merge branch 'devel' into for-next
+         6c4715aa5b0ab1c0d35780b7c552e952dbb5515d ALSA: hda/realtek: fix mute/micmute LEDs don't work for a HP platform.
+         3f5169cc246c2f13567485308124c33b4d83e7d3 Merge branch 'for-linus'
          
