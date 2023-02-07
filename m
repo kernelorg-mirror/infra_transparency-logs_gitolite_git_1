@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 07 Feb 2023 06:36:26 -0000
-Message-Id: <167575178636.25330.16527271818672872629@gitolite.kernel.org>
+Date: Tue, 07 Feb 2023 06:36:54 -0000
+Message-Id: <167575181477.25535.9313606654906418324@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/master
-    old: 9ac543c06fd3b657b6f6aec6c5bb00c514c2e367
-    new: bbe641866318b2693e2778862e3b8ed6ccd0843b
+    old: bbe641866318b2693e2778862e3b8ed6ccd0843b
+    new: 15ea59a0e9bf0dce546b6fcab5b00af8b35b870d
     log: |
-         b1ca2f1b04b8e89629c3c37430213267fd56c956 net: mscc: ocelot: un-export unused regmap symbols
-         bbe641866318b2693e2778862e3b8ed6ccd0843b amd-xgbe: fix mismatched prototype
+         15ea59a0e9bf0dce546b6fcab5b00af8b35b870d net: openvswitch: reduce cpu_used_mask memory
          
