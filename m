@@ -1,26 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Tue, 07 Feb 2023 17:50:03 -0000
-Message-Id: <167579220350.7656.15361670388593227864@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/helgaas/pci
+Date: Tue, 07 Feb 2023 17:52:14 -0000
+Message-Id: <167579233409.8395.11198572828205047751@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/helgaas/pci
+user: helgaas
 changes:
-  - ref: refs/heads/for-6.3/block
-    old: 455944e4e439efc280da5f59ca6f5b014ac7b242
-    new: f37bf75ca73d523ebaa7ceb44c45d8ecd05374fe
+  - ref: refs/heads/pci/resource
+    old: b3fa1166679a805cd28a664734342ce26ca9c7ff
+    new: 7180c1d08639f28e63110ad35815f7a1785b8a19
     log: |
-         f37bf75ca73d523ebaa7ceb44c45d8ecd05374fe block, bfq: cleanup 'bfqg->online'
-         
-  - ref: refs/heads/for-next
-    old: 602ddc4a6c2caaec9eea422be10228185c72a2da
-    new: 2e56848bec5b74c133b4bcdeaf7925698ac153cc
-    log: |
-         f37bf75ca73d523ebaa7ceb44c45d8ecd05374fe block, bfq: cleanup 'bfqg->online'
-         2e56848bec5b74c133b4bcdeaf7925698ac153cc Merge branch 'for-6.3/block' into for-next
+         08f0a15ee8adb4846b08ca5d5c175fbf0f652bc9 PCI: Align extra resources for hotplug bridges properly
+         9db0b9b6a14249ef65a5f1e5e3b37762af96f425 PCI: Take other bus devices into account when distributing resources
+         7180c1d08639f28e63110ad35815f7a1785b8a19 PCI: Distribute available resources for root buses, too
          
