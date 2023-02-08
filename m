@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0974847059794297438=="
+Content-Type: multipart/mixed; boundary="===============6455695816890783134=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Wed, 08 Feb 2023 16:54:07 -0000
-Message-Id: <167587524730.2976.18387065724375414630@gitolite.kernel.org>
+Date: Wed, 08 Feb 2023 16:54:41 -0000
+Message-Id: <167587528153.3225.5609402868953350374@gitolite.kernel.org>
 
---===============0974847059794297438==
+--===============6455695816890783134==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: 811d581194f7412eda97acc03d17fc77824b561f
-    new: 965bffd2dd8a2c769ae17e5344545ba03d584176
-    log: revlist-811d581194f7-965bffd2dd8a.txt
+  - ref: refs/heads/dev-queue
+    old: f0bf8bc5b200eafc5c911fcdd98058ad3bf53416
+    new: 5cbf6cc1d80d3262296260c2e8a63e794bd601ba
+    log: revlist-f0bf8bc5b200-5cbf6cc1d80d.txt
 
---===============0974847059794297438==
+--===============6455695816890783134==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-811d581194f7-965bffd2dd8a.txt
+Content-Disposition: attachment; filename=revlist-f0bf8bc5b200-5cbf6cc1d80d.txt
 
 4d159f7884f78b1aacb99b4fc37d1e3cb1194e39 ice: Do not use WQ_MEM_RECLAIM flag for workqueue
 b2dbde3ad44f290ded319f00b71dccec90083a50 ice: fix out-of-bounds KASAN warning in virtchnl
@@ -54,5 +54,15 @@ ad2171009d968104ccda9dc517f5a3ba891515db mptcp: fix locking for in-kernel listen
 a635a8c3df66ab68dc088c08a4e9e955e22c0e64 selftests: mptcp: allow more slack for slow test-case
 070d6dafacbaa9d1f2e4e3edc263853d194af15e selftests: mptcp: stop tests earlier
 965bffd2dd8a2c769ae17e5344545ba03d584176 Merge branch 'mptcp-fixes'
+1997e5cd38b1a553d89fbbabcb44a7575311de98 intel/igbvf: free irq on the error path in igbvf_request_msix()
+aa9186cf49699e1be7fbc45994bf156696481e2f igb: Enable SR-IOV after reinit
+8ea302ed64e212ae0e6e7172700a72360d8305d0 igbvf: Regard vf reset nack as success
+cfd80759aeaa149555ce556b88ca63a7654cc39f igb: conditionalize I2C bit banging on external thermal sensor support
+deaf264ab40790dd15d8552e397158d6b0520fd2 ice: avoid bonding causing auxiliary plug/unplug under RTNL lock
+582d8c42a68fc5cced258ce2f0e4ef362391bdc0 ice: Fix check for weight and priority of a scheduling node
+5fa503ceea4f04f841dc59dfc55ae8467e85aa9b ice: Fix DSCP PFC TLV creation
+4eb9d84fdfa20ecf49c5c3ab89f8af6cb3d4f1bf i40e: Add checking for null for nlmsg_find_attr()
+f1922234138f30b147cc40e9ece8f90eb95e3033 igb: Fix PPS input and output using 3rd and 4th SDP
+5cbf6cc1d80d3262296260c2e8a63e794bd601ba ice: fix lost multicast packets in promisc mode
 
---===============0974847059794297438==--
+--===============6455695816890783134==--
