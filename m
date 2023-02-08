@@ -1,64 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-integrator
-Date: Wed, 08 Feb 2023 09:37:22 -0000
-Message-Id: <167584904294.22685.5112553848622510810@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Wed, 08 Feb 2023 09:39:54 -0000
+Message-Id: <167584919432.8947.15024447947198639155@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/linusw/linux-integrator
-user: linusw
+repo: pub/scm/linux/kernel/git/netdev/net
+user: davem
 changes:
-  - ref: refs/tags/v6.0
-    old: 0000000000000000000000000000000000000000
-    new: 45eb8ae5370d5df1ee8236f45df3f29103ba6e12
-  - ref: refs/tags/v6.0-rc4
-    old: 0000000000000000000000000000000000000000
-    new: 96e1a1037aedb9f9596e2af5a6fcaa8053dafe4f
-  - ref: refs/tags/v6.0-rc5
-    old: 0000000000000000000000000000000000000000
-    new: 52868a8b445605ea56831f92b5607ae3183f09bd
-  - ref: refs/tags/v6.0-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 3447cb6c198e59b5b4275ecc6d4400a49b9dbaba
-  - ref: refs/tags/v6.0-rc7
-    old: 0000000000000000000000000000000000000000
-    new: b81e85a3efdc3d610f733fffc6f821f03d8fd490
-  - ref: refs/tags/v6.1
-    old: 0000000000000000000000000000000000000000
-    new: 7614896350aa20764c5eca527262d9eb0a57da63
-  - ref: refs/tags/v6.1-rc1
-    old: 0000000000000000000000000000000000000000
-    new: e0e492cebef25c13fc29b174f01b5178662f1652
-  - ref: refs/tags/v6.1-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 0d8d9e948ba8d5e1a826935d8d1c4aace65dd185
-  - ref: refs/tags/v6.1-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 0083e89728f57eae559c1ed1ac1e44487565feb1
-  - ref: refs/tags/v6.1-rc4
-    old: 0000000000000000000000000000000000000000
-    new: cc17e0a6a1b0c4708af1f5d81edc87e2cb5ffbf8
-  - ref: refs/tags/v6.1-rc5
-    old: 0000000000000000000000000000000000000000
-    new: 40747115a02c06d398d801301015db7ea182f7f0
-  - ref: refs/tags/v6.1-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 4446246354c3c11d4cbc8cf3515c92c3a880fc8e
-  - ref: refs/tags/v6.1-rc7
-    old: 0000000000000000000000000000000000000000
-    new: 1791be4df87a0d69008ba46c5a03be2e4cfbe3d5
-  - ref: refs/tags/v6.1-rc8
-    old: 0000000000000000000000000000000000000000
-    new: 586cbada421761e98ada6f7de24426456352bfd6
-  - ref: refs/tags/v6.2-rc1
-    old: 0000000000000000000000000000000000000000
-    new: e05dec85e78317f251eddd27e0357b2253d9dfc4
-  - ref: refs/tags/v6.2-rc2
-    old: 0000000000000000000000000000000000000000
-    new: e4ef62bcce9737cf3a2bb1b797b64dc25cbbfbb4
-  - ref: refs/tags/v6.2-rc3
-    old: 0000000000000000000000000000000000000000
-    new: d4245d7ef91d67fe3d21e2faab131fdeab636209
+  - ref: refs/heads/master
+    old: 1a3245fe0cf84e630598da4ab110a5f8a2d6730d
+    new: 965bffd2dd8a2c769ae17e5344545ba03d584176
+    log: |
+         d4e85922e3e7ef2071f91f65e61629b60f3a9cf4 mptcp: do not wait for bare sockets' timeout
+         21e43569685de4ad773fb060c11a15f3fd5e7ac4 mptcp: fix locking for setsockopt corner-case
+         ad2171009d968104ccda9dc517f5a3ba891515db mptcp: fix locking for in-kernel listener creation
+         1249db44a102d9d3541ed7798d4b01ffdcf03524 mptcp: be careful on subflow status propagation on errors
+         a635a8c3df66ab68dc088c08a4e9e955e22c0e64 selftests: mptcp: allow more slack for slow test-case
+         070d6dafacbaa9d1f2e4e3edc263853d194af15e selftests: mptcp: stop tests earlier
+         965bffd2dd8a2c769ae17e5344545ba03d584176 Merge branch 'mptcp-fixes'
+         
