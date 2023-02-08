@@ -1,46 +1,83 @@
-Content-Type: multipart/mixed; boundary="===============7559720776328693558=="
+Content-Type: multipart/mixed; boundary="===============5495618649467875654=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 08 Feb 2023 09:49:17 -0000
-Message-Id: <167584975793.12548.13843672403357905466@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Wed, 08 Feb 2023 09:55:34 -0000
+Message-Id: <167585013429.17569.7423539021463137487@gitolite.kernel.org>
 
---===============7559720776328693558==
+--===============5495618649467875654==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: davem
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: 6da13bf9765789e6b9e683d15aa0163adbb33381
-    new: e6ebe6c12355538e9238e2051bd6757b12dbfe9c
-    log: revlist-6da13bf97657-e6ebe6c12355.txt
+  - ref: refs/heads/kobject-const-2
+    old: 09e4a243ccd18f974cc5a974afb6bfc94b87db6e
+    new: b95f8e74c9aeec3b81eade877037335b5ae7abbf
+    log: revlist-09e4a243ccd1-b95f8e74c9ae.txt
 
---===============7559720776328693558==
+--===============5495618649467875654==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6da13bf97657-e6ebe6c12355.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-ecc0cc98632ac80ead7821997fdd5ad9cdede9de net/sched: taprio: delete peek() implementation
-1638bbbe4ececa615b273497d347d59ad71060a2 net/sched: taprio: continue with other TXQs if one dequeue() failed
-92f966674f6a257eddfa60a85f9b6741d6087ccb net/sched: taprio: refactor one skb dequeue from TXQ to separate function
-4c22942734f0814d3c928c25a80f48df0a6ce45e net/sched: taprio: avoid calling child->ops->dequeue(child) twice
-2f530df76c8cb5551d7d9395c77eb02282c3dc68 net/sched: taprio: give higher priority to higher TCs in software dequeue mode
-a306a90c8ffe1c4a29f8e8a1221d1c000e58a410 net/sched: taprio: calculate tc gate durations
-e5517551112ff2395611e552443932152f83672d net/sched: taprio: rename close_time to end_time
-d2ad689dec10d4f61647f6963e2c94113049ed6c net/sched: taprio: calculate budgets per traffic class
-a1e6ad30fa193962b5aa61ea4d12ee83a7ce9020 net/sched: taprio: calculate guard band against actual TC gate close time
-1f62879e36324d710dfd5ab92833fb1c51d8334a net/sched: make stab available before ops->init() call
-a3d91b2c6f6b8ef88785bf8d2fba74916af6c7c5 net/sched: taprio: warn about missing size table
-a878fd46fe43ec97f3f8664173fe1d23984c3453 net/sched: keep the max_frm_len information inside struct sched_gate_list
-fed87cc6718ad5f80aa739fee3c5979a8b09d3a6 net/sched: taprio: automatically calculate queueMaxSDU based on TC gate durations
-2d5e8071c47a03218f3f658ed13b8a9ff703b396 net/sched: taprio: split segmentation logic from qdisc_enqueue()
-39b02d6d104a285836d98be2ad00c7f484d43a16 net/sched: taprio: don't segment unnecessarily
-e6ebe6c12355538e9238e2051bd6757b12dbfe9c Merge branch 'taprio-auto-qmaxsdu-new-tx'
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1675850127 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1675850126-f51fa1c61e35c7aa88bcd3e7893558817276b050
 
---===============7559720776328693558==--
+09e4a243ccd18f974cc5a974afb6bfc94b87db6e b95f8e74c9aeec3b81eade877037335b5ae7abbf refs/heads/kobject-const-2
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPjcY8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+GIUP/RMvXMLXJVe9j7YkuJA6
+O1uECGH5b8B5ho4gHzz2zzBGD/VOvrPA7itBNdXvHDANX7VOd7eOfvWInt+4D5ys
+/VSl/FkKWQPCmgC93UszLfyma+oqKF1lNGjM7KgtZbIMvK3js+oQGeyGPq0nmoyi
+X1mdZFYda8ZQPt6AjdY9i6yaUVtvi5P0J36zZG5IJWKXsrfhdMre78IEO2Je3c/S
+iO0hvn6BCAbod85rcvKZV4M/UKiZMCIiWMzWuR3zBbN9SZMvphfEMz02lUF2aIdw
+YgHbM+9xlwFPbiWMuiVkgSJW98Y6D27KyK43tOYRD0eFgagwW4WQaLXNJgu6xYYb
+YSD0WpsDV7GPMwf8cGQeME9eiy1EelK1tjZS92WFXBMRVX5+6NotQDz5+JVPjEyi
+gcAnU3OfAZOvQgAE5/7lkxKT3BA/HIGB723jNcKzDlcrNAi/K2SILLXv+dwCcSrJ
+7Yz0qEmSaBfPNXDfrr8mopw409EOMNzyZGu9vLUautilCajpH6qoeswPnvURmFpd
+3ipALWOSGCb8SG1fJUo/n3Y3/WBDCQn1iHcC95CTRqLfYHtjatiZv75wUl0SXYeG
+3VAyWD3/GWXmGbK48U8Hox10LiBX/JAAzduDtpTl1LkBhZUSrFYfu/DmRK7zzfYL
+RKrN5IP3a5fDE1QMNlc6pHIp
+=HLv7
+-----END PGP SIGNATURE-----
+
+--===============5495618649467875654==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-09e4a243ccd1-b95f8e74c9ae.txt
+
+5cdc03c5cf471a215c57e540cc86be613c0ba457 devtmpfs: convert to pr_fmt
+7667301fa5f8dac8900954023bb289365a08b162 driver core: add local subsys_get and subsys_put functions
+1ad957468707b61745e11e2957d8b17aef15aa36 driver core: bus: implement bus_get/put() without the private pointer
+3b7029657d6183497254c84a40bd84ab8083786d driver core: bus: constantify the bus_find_* functions
+d126d19856ecd3a128b528d682a4a017ea523c1a driver core: bus: convert bus_create/remove_file to be constant
+cf17093268befb8db6336890a3646eb64f5cdd1a driver core: bus: sysfs function cleanups
+e35bb7e594a38a797fcaa1c18f898bce36e253d5 driver core: bus: bus_add/probe/remove_device() cleanups
+0aaf1dea4b7501621b023d2d4488c927d2c8d2e5 driver core: bus: bus_register/unregister() cleanups
+6b3b6501845cd30b77752a1807ea5ed93bd23805 driver core: bus: subsys_interface_register/unregister() cleanups
+2f2b8871663164a949fb4ef521ac74dfa2f3f9fb driver core: bus: bus_get_kset() cleanup
+833a4bf8c0c89035d6da49fee068daf2ab4dd95d driver core: bus: bus_register/unregister_notifier() cleanups
+394a6409ce66de96d0dfbede386b9fd7466082de driver core: bus: bus_add/remove_driver() cleanups
+4576ea1a16030335279c39950cc2a75b3030527c driver core: bus: bus iterator cleanups
+d0b3bd9c163f01ab46d154f94abfda55b6a923ee driver core: bus: clean up bus_sort_breadthfirst()
+1cfb580b5f1ef9f15e741f1e0144f1145cbf9cab driver core: move driver_find() to bus.c
+685acf429944d15e9e2a4004ff2022515ea91724 driver core: bus: clean up driver_find()
+a3ffc9ed0a55982c057ea91db589ee68ec821019 driver core: create bus_is_registered()
+c832414d9b73374248240fa9419813fcd4a5bcaf driver core: remove private pointer from struct bus_type
+4d49f51f9042cd78d6f7880b36aa7d5d757e5d7a driver core: bus: constify bus_register/unregister_notifier()
+1f659db439fa2b4298b5df2ac1013c1bd013c51a driver core: bus: constify bus_get_kset()
+10d062872f39344c4dd39902feeb248470573ff5 driver core: bus: constify some internal functions
+b95f8e74c9aeec3b81eade877037335b5ae7abbf driver core: bus: constify bus_unregister()
+
+--===============5495618649467875654==--
