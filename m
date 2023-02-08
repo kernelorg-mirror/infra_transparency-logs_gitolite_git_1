@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/kernel/kmod/kmod
-Date: Wed, 08 Feb 2023 17:14:02 -0000
-Message-Id: <167587644210.15255.4475459228780270225@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Wed, 08 Feb 2023 17:24:48 -0000
+Message-Id: <167587708855.23071.10431912517372860206@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/kernel/kmod/kmod
-user: demarchi
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: ast
 changes:
   - ref: refs/heads/master
-    old: 883d931d1bd04b089b85b554d1df6f41dcf5fbf5
-    new: 06fadcc6b17c3b9a534540dd6d74b0c5fb1d948d
+    old: a92adde8d3d466e4d945bc4b684795543d0b6594
+    new: 27b53b7364e3e925703f3b9e6837ac28b95752bc
     log: |
-         06fadcc6b17c3b9a534540dd6d74b0c5fb1d948d man/rmmod: explain why modprobe -r is more useful
+         27b53b7364e3e925703f3b9e6837ac28b95752bc bpf/docs: Update design QA to be consistent with kfunc lifecycle docs
          
