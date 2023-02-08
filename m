@@ -1,50 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============5415759827461101028=="
+Content-Type: multipart/mixed; boundary="===============2824521708959206095=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Wed, 08 Feb 2023 18:20:39 -0000
-Message-Id: <167588043974.29148.7401427441874666779@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Wed, 08 Feb 2023 18:20:46 -0000
+Message-Id: <167588044672.29245.6389684091580473227@gitolite.kernel.org>
 
---===============5415759827461101028==
+--===============2824521708959206095==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.3
+  - ref: refs/heads/asoc-6.3
     old: 677e3ab71f83c71e1482d9698bd8159c44fed93d
     new: 65f0a8ea90d2fc2e79a616143f844047e25057c8
     log: |
          65f0a8ea90d2fc2e79a616143f844047e25057c8 ASoC: dt-bindings: meson: convert axg sound card control to schema
          
 
---===============5415759827461101028==
+--===============2824521708959206095==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1675880438 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1675880437-6b4eb4250fef29011559ef6e7f03145300150f5d
+pusher C3F436CA30F5D8EB 1675880445 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1675880444-65a275ae3580858d46d35d55f78d75aa995e2071
 
-677e3ab71f83c71e1482d9698bd8159c44fed93d 65f0a8ea90d2fc2e79a616143f844047e25057c8 refs/heads/for-6.3
+677e3ab71f83c71e1482d9698bd8159c44fed93d 65f0a8ea90d2fc2e79a616143f844047e25057c8 refs/heads/asoc-6.3
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmPj5/YACgkQJNaLcl1U
-h9CPuwgAgp/FDWMyN9FIPx+EmgNbLxpxhchT5WGmY6lsbkyOhc4iC8cUK4rwZZSY
-NOgR5e+q6dF6N3Vi0lG/AGfC/I3ZELaYgz3RCfBlk27FNv7mPiK9sWqJaJE6KLct
-RFNmehosn9uBMb1hYkqqHGeejOOlnTOmKya9dK78Zb7ncMFURXJLXblX04z6dPSS
-ws3SYXx2vtWhk/orX7tBEA9pKWaMWG9GE20AYOLPNlWptwQYiQkGXinPg34P2hc0
-0QciMkjH89pXxsa06YvO2bRU0mJ1NHBVDARH01dEJJjS18LBGJdKLn8kOL9p/6SC
-CUWSLoh8MxVy+4OewVXnjN9iXSZL5A==
-=GTvP
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmPj5/0ACgkQJNaLcl1U
+h9B1aAf/a0hSgrpMPvps6Fr2IjyHiRAB5VEGmVrQdp8y9R6MOf2RLc70+xBtEOQo
+2QYGZwvExYlP/xSqoysEmcayw5FpU7ct6Tc/OUIKGPmYU2kBzpaWxio9/4EEhNge
+4JSr76Cq4ezapC50Y/tBrEIWY/gqX1P4+H/MsSz/PaFTFYjcbr7kxZk2OtFuCfyZ
+sVZJdc/V27n177Lz+gdwkowOQcgFt5IwQ0BTP7CpjzVD4+BW8DXMYJcUWMerfxdr
+tCburxmqAq9c4NR6VYOVHDlEFTkzeXYi4vkM7y23Io7Gdq25tL4lUdq41H17zuuR
++7CeyLPI2yyoKcQ/RWYTocMMNAoBIA==
+=4Aas
 -----END PGP SIGNATURE-----
 
---===============5415759827461101028==--
+--===============2824521708959206095==--
