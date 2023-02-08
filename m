@@ -1,25 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Wed, 08 Feb 2023 09:39:54 -0000
-Message-Id: <167584919432.8947.15024447947198639155@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
+Date: Wed, 08 Feb 2023 09:45:21 -0000
+Message-Id: <167584952196.9990.18344239588316766383@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: davem
+repo: pub/scm/linux/kernel/git/xiang/erofs
+user: xiang
 changes:
-  - ref: refs/heads/master
-    old: 1a3245fe0cf84e630598da4ab110a5f8a2d6730d
-    new: 965bffd2dd8a2c769ae17e5344545ba03d584176
+  - ref: refs/heads/dev-test
+    old: 55262d32779907c171eb0e590e5558626f842011
+    new: d8a650adf429722006c36ecb4e0782bdb4f166c9
     log: |
-         d4e85922e3e7ef2071f91f65e61629b60f3a9cf4 mptcp: do not wait for bare sockets' timeout
-         21e43569685de4ad773fb060c11a15f3fd5e7ac4 mptcp: fix locking for setsockopt corner-case
-         ad2171009d968104ccda9dc517f5a3ba891515db mptcp: fix locking for in-kernel listener creation
-         1249db44a102d9d3541ed7798d4b01ffdcf03524 mptcp: be careful on subflow status propagation on errors
-         a635a8c3df66ab68dc088c08a4e9e955e22c0e64 selftests: mptcp: allow more slack for slow test-case
-         070d6dafacbaa9d1f2e4e3edc263853d194af15e selftests: mptcp: stop tests earlier
-         965bffd2dd8a2c769ae17e5344545ba03d584176 Merge branch 'mptcp-fixes'
+         155e51740dd77d0360f0b51a87aa6f1414b459bb erofs: get rid of erofs_inode_datablocks()
+         0f3af80cffe78b718380834ed5766a7abfdfc00e erofs: avoid tagged pointers to mark sync decompression
+         19a9ca4122eb5963390dd550cbfd6c6328c91105 erofs: remove tagged pointer helpers
+         4bd5dd3377bb5607fe17c28051c7e2f8e3839496 erofs: move zdata.h into zdata.c
+         0fcd95ef05e2b06b83e1fb0c6ecce62b9ae1b686 erofs: get rid of z_erofs_do_map_blocks() forward declaration
+         9be46b0d0d7873c4a93ccd12e7db4a422a412867 erofs: tidy up internal.h
+         d8a650adf429722006c36ecb4e0782bdb4f166c9 erofs: add per-cpu threads for decompression as an option
          
