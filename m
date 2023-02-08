@@ -1,26 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Wed, 08 Feb 2023 08:26:14 -0000
-Message-Id: <167584477464.8158.16867869494317621210@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Wed, 08 Feb 2023 08:26:31 -0000
+Message-Id: <167584479159.8314.13080747887581992645@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: leon
 changes:
-  - ref: refs/heads/for-linus
-    old: 02f64ed06670120d35b5352a67ebd7a4cc104546
-    new: 88d18b8896bd98e636b632f805b7e84e61458255
+  - ref: refs/heads/for-next
+    old: 283861a4c52c1ea4df3dd1b6fc75a50796ce3524
+    new: 8e6e49ccf1a0f2b3257394dc8610bb6d48859d3f
     log: |
-         88d18b8896bd98e636b632f805b7e84e61458255 ALSA: hda/realtek: Add Positivo N14KP6-TG
-         
-  - ref: refs/heads/master
-    old: db9b21871c85dacf259e4c7eed35cf90cdd6b0fe
-    new: 746c83fc26aff7056aba5a1a561de07deef398ed
-    log: |
-         88d18b8896bd98e636b632f805b7e84e61458255 ALSA: hda/realtek: Add Positivo N14KP6-TG
-         746c83fc26aff7056aba5a1a561de07deef398ed Merge branch 'for-linus'
+         68e416255b29c25cbf20018d55849bcb8505c858 RDMA/restrack: Correct spelling
+         8e6e49ccf1a0f2b3257394dc8610bb6d48859d3f RDMA/mlx5: Check reg_create() create for errors
          
