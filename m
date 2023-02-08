@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 08 Feb 2023 18:26:18 -0000
-Message-Id: <167588077885.32695.8938261805006242886@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Wed, 08 Feb 2023 18:32:23 -0000
+Message-Id: <167588114316.3791.2921044420267545593@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: daveh
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: martin.lau
 changes:
-  - ref: refs/heads/x86/urgent
-    old: 9d2c7203ffdb846399b82b0660563c89e918c751
-    new: bd467ddd80ab3ecdd846ac148274603e1214ae73
+  - ref: refs/heads/master
+    old: d00d5b82f0734205c718aa1acf7cc9b183fd6751
+    new: 9b0651e429a04b58c29f2133da4ccc70f81263b8
     log: |
-         bd467ddd80ab3ecdd846ac148274603e1214ae73 x86/kprobes: Fix 1 byte conditional jump target
+         9b0651e429a04b58c29f2133da4ccc70f81263b8 sfc: move xdp_features configuration in efx_pci_probe_post_io()
          
