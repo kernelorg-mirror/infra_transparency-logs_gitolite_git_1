@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2727875357926606801=="
+Content-Type: multipart/mixed; boundary="===============7164115605414630609=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Wed, 08 Feb 2023 17:35:50 -0000
-Message-Id: <167587775033.31169.5850451144559729015@gitolite.kernel.org>
+Date: Wed, 08 Feb 2023 17:45:49 -0000
+Message-Id: <167587834995.6217.2519004981665707634@gitolite.kernel.org>
 
---===============2727875357926606801==
+--===============7164115605414630609==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,82 +15,30 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/100GbE
-    old: e0645311e1abc6120d2cf18e7611e1c272fdcc88
-    new: 738c0972625e567f1cd7dbc8535361937da98521
-    log: revlist-e0645311e1ab-738c0972625e.txt
+  - ref: refs/heads/dev-queue
+    old: 5444bf1ab6306df5052f1be6a3f9351114697643
+    new: b5326f08f450b7f64ff7c25488d4f263e20e4fdd
+    log: revlist-5444bf1ab630-b5326f08f450.txt
 
---===============2727875357926606801==
+--===============7164115605414630609==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e0645311e1ab-738c0972625e.txt
+Content-Disposition: attachment; filename=revlist-5444bf1ab630-b5326f08f450.txt
 
-d80d88b0dfff5829ab31030692672ba6fe9cde48 bnxt_en: Add auxiliary driver support
-6d758147c7b80a46465f72e9e6294d244ee98a21 RDMA/bnxt_re: Use auxiliary driver interface
-dafcdf5e2bd0bba594a51fe335694d4b44d8b8da bnxt_en: Remove usage of ulp_id
-63669ab384eadebefd1e2a60a15a5431ee874fab bnxt_en: Use direct API instead of indirection
-3b65e9456c29217429158203bfdce4361f45e0be bnxt_en: Use auxiliary bus calls over proprietary calls
-848dc857c8dee61972abdb05ce81f12f0d0e05e4 bnxt_en: Remove struct bnxt access from RoCE driver
-a43c26fa2e6ca724360927856c326ebd3247b843 RDMA/bnxt_re: Remove the sriov config callback
-30343221132430c24b468493c861f71e2bad131f bnxt_en: Remove runtime interrupt vector allocation
-2a30b2bd01c23a7eeace3a3f82c2817227099805 can: gw: give feedback on missing CGW_FLAGS_CAN_IIF_TX_OK flag
-c6adf659a8ba85913e16a571d5a9bcd17d3d1234 can: isotp: check CAN address family in isotp_bind()
-2e8ca20b40e5ba556cd38495df418b2d0c568195 can: mcp251xfd: regmap: optimizing transfer size for CRC transfers size 1
-e8b98168761fab16ff35eac0d27d9ca21eb42788 dt-bindings: can: renesas,rcar-canfd: R-Car V3U is R-Car Gen4
-3e17dc91c8a33b4f90b80243a59b7b2ac8e92533 dt-bindings: can: renesas,rcar-canfd: Document R-Car V4H support
-a707d44dfb4786fdd6444653abf36fc3eb21d503 dt-bindings: can: renesas,rcar-canfd: Add transceiver support
-0a016639ef92b28eb74ba4fed21bee1f1328513a can: rcar_canfd: Fix R-Car V3U CAN mode selection
-9be8c5583581244d8a77e41afa16b8b0a5ddabc0 can: rcar_canfd: Fix R-Car V3U GAFLCFG field accesses
-bbf6681d1f0f74a737e0804ab586ac016b2f4ccb can: rcar_canfd: Abstract out DCFG address differences
-8716e6e79a148f58852a393340326ad72fd62a00 can: rcar_canfd: Add support for R-Car Gen4
-0424281688f11bfe79b9461420ca3465995178cc can: rcar_canfd: Fix R-Car Gen4 DCFG.DSJW field width
-3e73d3df4d3861265367b4df6dd7fc5789e05d3c can: rcar_canfd: Fix R-Car Gen4 CFCC.CFTML field width
-d506b151bb95c2a80c15e19c4d4686245af0fccb can: rcar_canfd: Sort included header files
-114246e81fc6e6f3c092ba1cc1dec9f0a91c3cbd can: rcar_canfd: Add helper variable dev
-e3825a3007735c531bf0fb446ccd020b800c8d6d Merge patch series "can: rcar_canfd: Add support for R-Car V4H systems"
-2b9ed3b9aaee323511b018a1a05adfcebd986dfc can: ems_pci: Fix code style, copyright and email address
-f5ef4d4f5365d3fd633e4827abf1ab2848965413 can: ems_pci: Add Asix AX99100 definitions
-f94a4f97f001d0b665723698c4b4b49174d60b90 can: ems_pci: Initialize BAR registers
-bb89159ce33101abeabd0d67309cf6bdd7691aaa can: ems_pci: Add read/write register and post irq functions
-79ca81e700f4c171e21aeaf1a1d29dfcdb961d75 can: ems_pci: Initialize CAN controller base addresses
-8b4339f76da76c3c907659189eb627e0fd03b4cf can: ems_pci: Add IRQ enable
-946c4135fd486f7036b8270207d14628b634097e can: ems_pci: Deassert hardware reset
-d5cd5d7fbd8cfb417d6473cd59136f24c7681972 can: ems_pci: Add myself as module author
-e9ac502cd25edab49959f19bf3f5b712de1825b9 Merge patch series "can: ems_pci: Add support for CPC-PCIe v3"
-404ffaa95a3e88f844461d3f92e03d3423ee9920 can: peak_usb: rename device_id to CAN channel ID
-517ad5e6761feca12f0fc78e7c6304560da853f4 can: peak_usb: add callback to read CAN channel ID of PEAK CAN-FD devices
-e7a7b3d22503d79ccd0c2536080ed3f7b10a23f6 can: peak_usb: allow flashing of the CAN channel ID
-e1bd882252439dae49c40cfe80997cde5955939f can: peak_usb: replace unregister_netdev() with unregister_candev()
-36d007c6fc7962cb70ff4b1496d1e24f8b1c1300 can: peak_usb: add ethtool interface to user-configurable CAN channel identifier
-6d02f6daeb44c0099ace2e3597d56420eecfaeb2 can: peak_usb: export PCAN CAN channel ID as sysfs device attribute
-09ce908e50c9ee43732015c36c32b18efe7b9ab6 can: peak_usb: align CAN channel ID format in log with sysfs attribute
-73019de17732ec2edde007930407912e491a1c0f can: peak_usb: Reorder include directives alphabetically
-36207c34d17fb573ddaa7c024d2c9c6eef1b8532 Merge patch series "can: peak_usb: Introduce configurable CAN channel ID"
-89cfa63565606bf462b4fdc0bd3e91a7cece1380 can: bittiming(): replace open coded variants of can_bit_time()
-9cf670dbe69d11c6f29284aa80d78741f038ecd4 can: bittiming: can_fixup_bittiming(): use CAN_SYNC_SEG instead of 1
-52375446f2b52cfafa1804fc11570c992b894d94 can: bittiming: can_fixup_bittiming(): set effective tq
-8e0a0b32c4ff7a5c2654a5f8fc37a9f1b6f58816 can: bittiming: can_get_bittiming(): use direct return and remove unneeded else
-d58ac89d0d388da82630bb9d3823420cddbdabb2 can: dev: register_candev(): ensure that bittiming const are valid
-a3db542410af3dd639166ffcb2cdc5936b2950ad can: dev: register_candev(): bail out if both fixed bit rates and bit timing constants are provided
-73335cfab7fd7c2bfd1696730733b8b952545951 can: netlink: can_validate(): validate sample point for CAN and CAN-FD
-1494d27f64f0855086bfefa0391f4e9f29315699 can: netlink: can_changelink(): convert from netdev_err() to NL_SET_ERR_MSG_FMT()
-286c0e09e8e07de0f116a01aa234b05d9956dcf5 can: bittiming: can_changelink() pass extack down callstack
-5988bf737deed86d6186a21e73e2fc253a4ff466 can: bittiming: factor out can_sjw_set_default() and can_sjw_check()
-de82d6185b82193e5f798592ed350a3788b78a15 can: bittiming: can_fixup_bittiming(): report error via netlink and harmonize error value
-0c017f0910a7f4d90708df853b629f487c8ba739 can: bittiming: can_sjw_check(): report error via netlink and harmonize error value
-b5a3d0864ee7e43a6ef8a2820f901d60bf4e0703 can: bittiming: can_sjw_check(): check that SJW is not longer than either Phase Buffer Segment
-80bcf5ec9927f0a8056495d746b74f57b1e1ad8b can: bittiming: can_sjw_set_default(): use Phase Seg2 / 2 as default for SJW
-c7650728a7024e4f835dcbbb4214740939179596 can: bittiming: can_calc_bittiming(): clean up SJW handling
-06742086a3d225cafa3ee9d7704bbfd28a0d01d4 can: bittiming: can_calc_bittiming(): convert from netdev_err() to NL_SET_ERR_MSG_FMT()
-6d7934719f2654587b96cbae5e326c7e33c24da8 can: bittiming: can_validate_bitrate(): report error via netlink
-3dafbe5cc1409dd2e3fc2955b0026c1ba7dfa323 Merge patch series "can: bittiming: cleanups and rework SJW handling"
-9ac543c06fd3b657b6f6aec6c5bb00c514c2e367 Merge branch 'aux-bus-v11' of https://github.com/ajitkhaparde1/linux
-b1ca2f1b04b8e89629c3c37430213267fd56c956 net: mscc: ocelot: un-export unused regmap symbols
-bbe641866318b2693e2778862e3b8ed6ccd0843b amd-xgbe: fix mismatched prototype
-15ea59a0e9bf0dce546b6fcab5b00af8b35b870d net: openvswitch: reduce cpu_used_mask memory
-ca8e4cbff6d5360efc2ced519c4609e02e88cc59 ethtool: mm: fix get_mm() return code not propagating to user space
-61d731e6538dc44abf2dca6e77098ec6e85f7cc2 Merge tag 'linux-can-next-for-6.3-20230206' of git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can-next
+772dec645934d7788e333cc05f19ac8c1b78f517 ice: Add more usage of existing function ice_get_vf_vsi(vf)
+a2ca73eae33f4a15304b7f4a71246bb66ded0b80 ice: fix function comment referring to ice_vsi_alloc
+157acda5b1faf896cbe46e8860be02baac2b7f83 ice: drop unnecessary VF parameter from several VSI functions
+5e509ab237f175a0985e9ca7d696fbdc62434e56 ice: refactor VSI setup to use parameter structure
+e15881970692f9e65175e9dcb1f4d2dba0672861 ice: move vsi_type assignment from ice_vsi_alloc to ice_vsi_cfg
+1efee0734b98fd3242508e942b4d11bdcc83e916 ice: move ice_vf_vsi_release into ice_vf_lib.c
+aeead3d04fa050a94ed314cc5de97125a957dc9f ice: Pull common tasks into ice_vf_post_vsi_rebuild
+b5dcff1fd57ac0b67229bc008223b6a67176940a ice: add a function to initialize vf entry
+b1b5694235efcc0b7d724961e8300c9a8cae993d ice: introduce ice_vf_init_host_cfg function
+5531bb851fba2a93ed0c1de1873ea563d8c1da76 ice: convert vf_ops .vsi_rebuild to .create_vsi
+fa4a15c85c849e92257da6dbffeb1e3a6399fd7b ice: introduce clear_reset_state operation
+537dfe06accad68123fe780ce4f883549a73db37 ice: introduce .irq_close VF operation
+e0645311e1abc6120d2cf18e7611e1c272fdcc88 ice: remove unnecessary virtchnl_ether_addr struct use
 115f1a5c42bdad9a9ea356fc0b4a39ec7537947f net: add SKB_HEAD_ALIGN() helper
 65998d2bf857b9ae5acc1f3b70892bd1b429ccab net: remove osize variable in __alloc_skb()
 5c0e820cbbbe2d1c4cea5cd2bfc1302c123436df net: factorize code in kmalloc_reserve()
@@ -138,10 +86,39 @@ fed87cc6718ad5f80aa739fee3c5979a8b09d3a6 net/sched: taprio: automatically calcul
 2d5e8071c47a03218f3f658ed13b8a9ff703b396 net/sched: taprio: split segmentation logic from qdisc_enqueue()
 39b02d6d104a285836d98be2ad00c7f484d43a16 net/sched: taprio: don't segment unnecessarily
 e6ebe6c12355538e9238e2051bd6757b12dbfe9c Merge branch 'taprio-auto-qmaxsdu-new-tx'
-88f4df5158f5bcf197e8d7c3213743229e970855 ice: remove FW logging code
-3a80bc7a4c2c2088bd1540b120d44f54f6917b79 ice: enable devlink to check FW logging status
-13d64576186830122bd265b902cb7bc43cab4469 ice: add ability to query/set FW log level and resolution
-55a563fee3e0c33e0ff1621a62386bcda0fdb022 ice: disable FW logging on driver unload
-738c0972625e567f1cd7dbc8535361937da98521 ice: use debugfs to output FW log data
+3b3c9edf0889fe21c506c96a85f6c9eb8f95df68 ice: Add GPIO pin support for E823 products
+725b810a3763054ac0f9aed953f3db2a7aba9535 ice: Add crosstimestamping on E823 devices
+79a705d9d6fa39490f09bc5d7e0e4f8273f2b03a ice: Fix off by one in ice_tc_forward_to_queue()
+fa5e29aa58da90b2227b1264bf23ad4acbf4fc8b igc: Clean up and optimize watchdog task
+122325d1f25e7a376b300c5f89ff35fc02da51d8 intel/igbvf: free irq on the error path in igbvf_request_msix()
+7b2ac2936310ed55fd48fc88da6d242c55d0b487 igb: Enable SR-IOV after reinit
+3fb58585e110305961e5e22399e78773d03762da igbvf: Regard vf reset nack as success
+5c4acc05d002786223ddb5e21f418a692eb2b3bb igb: conditionalize I2C bit banging on external thermal sensor support
+1122a7c6357803af4c0ac6ff8f038c2eb20023db ice: switch: fix potential memleak in ice_add_adv_recipe()
+a896d621c5e275f1c5b9b5460cc4331127b007a9 igc: Add qbv_config_change_errors counter
+6a54887768f934f0494e9ecc95b17d78be7c8000 i40e: Add flag for disabling VF source pruning
+75e099e0a7c0314fdbb1dcbe8c1be906694d6ece ice: fix out-of-bounds KASAN warning in virtchnl
+2f9099e8d7f643097f181a796ed27c4f27fe6712 ice: Change ice_vsi_realloc_stat_arrays() to void
+d1ab311440df81ee15868184688cf3932be394be net/i40e: Replace 0-length array with flexible array
+4b2feff40e88b37e6a1d7ee7cb6fff1f33bd8e88 i40e: Remove unused i40e status codes
+d2068a610610eef43d13b4ff73a494c079d73ccf i40e: Remove string printing for i40e_status
+ad54ac0ff4b81f3a7c74a9d7e13ad72f7a3edd5a i40e: use int for i40e_status
+c18198c3dd8da8b570b692763e1a121b8a66235e i40e: remove i40e_status
+6e0e8941f6185c83c1c43203a79c555e128b24b2 i40e: use ERR_PTR error print in i40e messages
+1fcbc51b7af61d8e3506f77e509622939e3de28f igc: Add ndo_tx_timeout support
+4a5bd3b5ca357fe8587ba4860ed1a70fdaba85d5 ice: Fix disabling Rx VLAN filtering with port VLAN enabled
+91fee1cdf6770f7cbd0195434bbfb47e233e360d ice: Mention CEE DCBX in code comment
+ecb3ca3ede9eaac6a784e7ad4d0e42465ed4511a ice/ptp: fix the PTP worker retrying indefinitely if the link went down
+c727c0ed11dd2041187ca9c11e9f82468963f739 ice: remove FW logging code
+fcd30b53ae93e9ec0da05a266e30d10cf34e0a4c ice: enable devlink to check FW logging status
+b71b81e4891de7647281909bcae081d431cd3709 ice: add ability to query/set FW log level and resolution
+54a5fd9f247a494e712b59fa094fb0b3fac2e10d ice: disable FW logging on driver unload
+c9d1ad119662740497f22439eee17f66b1f2d3ac ice: use debugfs to output FW log data
+5e53750402107512e1592b4fb02bc454ec6b817b ice: Fix check for weight and priority of a scheduling node
+d53d3fc611a480c94f9fbc530c1ead34e02f8e7a ice: Do not use WQ_MEM_RECLAIM flag for workqueue
+36180ef4646c2496f94f1f3f1af2ca4e7811d138 ice: Fix DSCP PFC TLV creation
+ef802c268399fbb57d0e6ef39089f6876960d0f4 i40e: Add checking for null for nlmsg_find_attr()
+4ebe8206ae55a1fad8d5ca7706e34ec0bd97a365 igb: Fix PPS input and output using 3rd and 4th SDP
+b5326f08f450b7f64ff7c25488d4f263e20e4fdd ice: fix lost multicast packets in promisc mode
 
---===============2727875357926606801==--
+--===============7164115605414630609==--
