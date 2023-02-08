@@ -1,24 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Wed, 08 Feb 2023 14:49:35 -0000
-Message-Id: <167586777517.17388.16543364085523864814@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
+Date: Wed, 08 Feb 2023 14:53:38 -0000
+Message-Id: <167586801815.20172.5005314626486126882@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/peterz/queue
+user: peterz
 changes:
-  - ref: refs/heads/master
-    old: 0bb87795ff7596a8d2229dd4b0dbbb080c932510
-    new: 8c8715c75388e602c2566a8155af8a54b70644a3
+  - ref: refs/heads/x86/core
+    old: 1ac78aa7ce333d2d9107d418f27be934a057bf21
+    new: e0185b5cdf59efcadb027d6009e81b7f1288f9eb
     log: |
-         3a25bd653475dd2da0c802e73d4d84e82cd086a7 lsfd: skip test mkfds-netns in qemu-user
-         07c7f3740ef965637e74d30724fce09700a25c1e lsfd: run netfs test
-         44f9aec7477c2be90d3119292e6978cd70528e71 lsfd: make self_netns_sb static
-         7f7b36bed75ca5f6bac5468176308162028a5a2f lsfd: don't require nsfs to be mounted
-         d77cf6f3111f4c2f3dd39bd04d80876202b6ac76 Fix minor typo in comment.
-         8c8715c75388e602c2566a8155af8a54b70644a3 Merge branch 'fix_comment_in_scriptlive' of https://github.com/8vasu/util-linux
+         9afd9cb4d895bfbdd973aa57e0e2289f6a0142bf x86/alternative: Make debug-alternative selective
+         e49a38d301efa6455c249fd44e9d70b294bc36d0 x86/alternative: Support relocations in alternatives
+         64daea0bbad69f9a4f93ac0d0a2f05ecda23fc90 x86/alternative: Rewrite optimize_nops() some
+         e0185b5cdf59efcadb027d6009e81b7f1288f9eb x86/alternative: Complicate optimize_nops() some more
          
