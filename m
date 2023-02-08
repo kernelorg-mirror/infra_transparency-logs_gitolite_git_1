@@ -1,36 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============2123646341091738467=="
+Content-Type: multipart/mixed; boundary="===============8136199165815050580=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Wed, 08 Feb 2023 03:26:51 -0000
-Message-Id: <167582681111.5290.18416532703254941651@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Wed, 08 Feb 2023 03:27:00 -0000
+Message-Id: <167582682052.5406.13348687308571252020@gitolite.kernel.org>
 
---===============2123646341091738467==
+--===============8136199165815050580==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
   - ref: refs/heads/master
     old: 49a8133221c71b935f36a7c340c0271c2a9ee2db
     new: 38d2b86a665b5e86371a1a30228bce259aa6c101
     log: revlist-49a8133221c7-38d2b86a665b.txt
-  - ref: refs/heads/stable
-    old: d2d11f342b179f1894a901f143ec7c008caba43e
-    new: 513c1a3d3f1982fb850c910937099525b0d35e24
-    log: revlist-d2d11f342b17-513c1a3d3f19.txt
-  - ref: refs/tags/next-20221108
-    old: 0c8a2b59970ac96e47d6a0c1e96861176f6942cc
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20230208
     old: 0000000000000000000000000000000000000000
     new: 8cc1df596a0608f9fcb331196bad6b8738c7577c
 
---===============2123646341091738467==
+--===============8136199165815050580==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -856,22 +849,4 @@ e170474806b4721ce59af580557b68c8aa586e8a Merge branch 'mm-stable' of git://git.k
 5c491f1591aadbde824a7314b479c9dfa6bacc0b Merge branch 'mm-everything' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 38d2b86a665b5e86371a1a30228bce259aa6c101 Add linux-next specific files for 20230208
 
---===============2123646341091738467==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d2d11f342b17-513c1a3d3f19.txt
-
-f7c11affde9e29316d24b6736d16faeaac8278f2 btrfs: raid56: fix stripes if vertical errors are found
-3c538de0f2a74d50aff7278c092f88ae59cee688 btrfs: limit device extents to the device size
-eadd7deca0ad8a83edb2b894d8326c78e78635d6 btrfs: zlib: zero-initialize zlib workspace
-33e17b3f5ab74af12aca58c515bc8424ff69a343 btrfs: send: limit number of clones and allocated memory size
-a9ad4d87aa263de36895402b66115a3a4b88bf1c btrfs: raid56: make error_bitmap update atomic
-3e46d910d8acf94e5360126593b68bf4fee4c4a1 tracing: Fix poll() and select() do not work on per_cpu trace_pipe and trace_pipe_raw
-3fb906e7fabbb5b76c3c5256b10dc46ef80a0bfe cgroup/cpuset: Don't filter offline CPUs in cpuset_cpus_allowed() for top cpuset tasks
-7a2127e66a00e073db8d90f9aac308f4a8a64226 cpuset: Call set_cpus_allowed_ptr() with appropriate mask for task
-66fcf74e5c0d771a456b96ec9aebfb53d648eede Merge tag 'for-6.2-rc7-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
-05ecb680708a1dbe6554d6fc17e5d9a8a7cb5e6a Merge tag 'cgroup-for-6.2-rc7-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/cgroup
-513c1a3d3f1982fb850c910937099525b0d35e24 Merge tag 'trace-v6.2-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
-
---===============2123646341091738467==--
+--===============8136199165815050580==--
