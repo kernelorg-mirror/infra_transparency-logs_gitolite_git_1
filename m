@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5930539236968677231=="
+Content-Type: multipart/mixed; boundary="===============5348897020579479560=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Wed, 08 Feb 2023 18:35:04 -0000
-Message-Id: <167588130424.6286.2981657516233235457@gitolite.kernel.org>
+Date: Wed, 08 Feb 2023 18:35:11 -0000
+Message-Id: <167588131108.6390.14200680559623126221@gitolite.kernel.org>
 
---===============5930539236968677231==
+--===============5348897020579479560==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
 user: snitzer
 changes:
-  - ref: refs/heads/dm-6.3
+  - ref: refs/heads/for-next
     old: bd8cdf9d1fb7847892f8b28c2fa46466029d6fb6
     new: 562b62f8738f012247b1ed6de84087f7d0e63412
     log: revlist-bd8cdf9d1fb7-562b62f8738f.txt
 
---===============5930539236968677231==
+--===============5348897020579479560==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -66,4 +66,4 @@ db1b621c29aa6316866a168f77917c8121f3e21d dm ioctl: prefer strscpy() instead of s
 ab176675d5e002a056494ff1901612cdea9539a3 dm: declare variables static when sensible
 562b62f8738f012247b1ed6de84087f7d0e63412 dm clone: prefer kvmalloc_array()
 
---===============5930539236968677231==--
+--===============5348897020579479560==--
