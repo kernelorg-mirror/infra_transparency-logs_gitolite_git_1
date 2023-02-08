@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3468524940928399742=="
+Content-Type: multipart/mixed; boundary="===============2088028445644278744=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Wed, 08 Feb 2023 12:37:06 -0000
-Message-Id: <167585982650.26279.2932492581879465000@gitolite.kernel.org>
+Date: Wed, 08 Feb 2023 12:41:19 -0000
+Message-Id: <167586007996.29127.15138682789849877267@gitolite.kernel.org>
 
---===============3468524940928399742==
+--===============2088028445644278744==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,42 +17,57 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/driver-core-testing
-    old: 862f6a84d1bf01435fdd6aa8b2811c88ab1f06f4
-    new: 2bb3669f576559db273efe49e0e69f82450efbca
-    log: |
-         5f5139974c2030e0937d3ae01f17da1238281f11 kernel/time/test_udelay.c: fix memory leak with using debugfs_lookup()
-         a0bc3f78d0fffa8be1a73bf945a43bfe1c2871c1 kernel/power/energy_model.c: fix memory leak with using debugfs_lookup()
-         2bb3669f576559db273efe49e0e69f82450efbca kernel/fail_function: fix memory leak with using debugfs_lookup()
-         
+    old: 2bb3669f576559db273efe49e0e69f82450efbca
+    new: fb42378dcc7f247df56f0ecddfdae85487495fbc
+    log: revlist-2bb3669f5765-fb42378dcc7f.txt
 
---===============3468524940928399742==
+--===============2088028445644278744==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1675859825 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1675860076 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1675859824-a1aecce46ac8a05553edff4e559dde79abb940e4
+nonce 1675860075-2fab1d12aed913cec55474cb2ec396f0d581eecd
 
-862f6a84d1bf01435fdd6aa8b2811c88ab1f06f4 2bb3669f576559db273efe49e0e69f82450efbca refs/heads/driver-core-testing
+2bb3669f576559db273efe49e0e69f82450efbca fb42378dcc7f247df56f0ecddfdae85487495fbc refs/heads/driver-core-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPjl3EbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+xysP/2dC2iK08T7giNFtA2uo
-z+Y9opc6DnHICRv0NHkRkyGdmg8UrfGxeXcw7ltY+BEfX55Y72zPsUbbNFXLeZS3
-MSjA0/7dMwkpMzvBTj1dSHExBx0aIcxPdlGhSB6SEiikF4VaJhgPWkksy33E1CQf
-qmgH2REIUzFxmqKefDpUeX+NCylQIPaAZ8coWswXDUHu0JXyRgGZ5CWBzxPJqjz1
-AU3zZqiAN1IyugpKVaZWfTwjM/pbuOJX7nHdTGwx8IEzkpcb9Hi7sDnAehgXV4HA
-Gl38Ss2ju6i9XLCZ6dWHoWpSRiTP72BeZRfkKviVuU5hv5gosN6e3wXkbk8ycVK/
-r/5TudMfTPxqhJ6IAgx1GVocdlS9/IdoCPAbRK1UT8e6zHba8xHUZfYRze+WR/1l
-llSd9P347IOiea2PjZRksHTjukOHSyRJRpOMPMp2vg5CFmST5C9kM25O2fdR1R9y
-AKHb6eE+j8hK/alwlD+a0oOw/9x+LcAAm9nMnrov0Z/BIiWZDcySsDVM4fiqruZG
-JphOIH0NzekBBWaapYc5wUvYW/Z3wIyEmHIHJr7timfFQxyW6FRIIBsj7zmMdCoN
-0ft3ofctgbb2PPa3C6xVO914tJj4MX0WK7t0uoK8GQW49oqZzacuAlygYTfUmJwM
-ZBDVxFpcYPB/0c9cDiAeYAJr
-=/XzZ
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPjmGwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+3cYP/0AhLz09Zd30GJzgoAVl
+9k2D5MUK2DaFHgVM6hPOtWRMpASnk1BHHsV5tQ4969tvpKSJMw896mHEDplBsNxH
+9msRtTum+KeeTRkqiwkURHw7u2Nhk8zBu45YY4sLjdrCdUm4YhHmLIKQ4YirlDNP
+C5Z04JUSK0yJGYqQcQfk2zXksak96CJYgr68CJUeQD49OFqLNsrfqW/FTPmgQDxq
+K+Qs9C4y6F1bYBIkIUzH57i+I3uGIqIgKsfNWvD6zz/R9aVy7AZ+G78EmxQ9sZ/G
+AMe+4hOgS1ZQwS2QmbNgULz4MBVyZ2RYFU3XIxGKIyhTOQpup0Uej3JR/r5A5AZr
+JAsThAqmg+JYQVv4htvLvv0PAL/3SKFnvywi2/W/RuEvU8IIz2rqgn0U3NNk4kDm
+Y1GKR1jqi+JUP9F9/yys/ndBVSpZtmc68ag++QWiwdFyuJ49KbHVFOkdTRP2hWT+
+D4vsGDbexnquwoPqeJyolbLNYyj/Tc+22wDwiuSmbzpY2Kkw0Le+Frh7BQSccle1
+hyWVCs+TGNG2OBZyKcu0w0qnZpLo81I3Q8a/VT6c8q/k0m8TAuMQczPpPaRdO5Yd
+b3NLfZ82JG9KLRJh2NnBGtgs9uYbrIhZO1ab2Vg37wxPtJxBwjy5qOdQzbiPsozJ
+gcH4c+53J/aiFkCKhxixTPDq
+=LA93
 -----END PGP SIGNATURE-----
 
---===============3468524940928399742==--
+--===============2088028445644278744==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-2bb3669f5765-fb42378dcc7f.txt
+
+3a2dbc510c437ca392516b0105bad8e7970e6614 driver core: fw_devlink: Don't purge child fwnode's consumer links
+411c0d58ca6faa9bc4b9f5382118a31c7bb92a6f driver core: fw_devlink: Improve check for fwnode with no device/driver
+8640166f01fe42f2e4a73ab92c797b97b467927d soc: renesas: Move away from using OF_POPULATED for fw_devlink
+38dfa56b3db354b4bd399fc686c3e74ad32ffa57 gpiolib: Clear the gpio_device's fwnode initialized flag before adding
+67cad5c67019c38126b749621665b6723d3ae7e6 driver core: fw_devlink: Add DL_FLAG_CYCLE support to device links
+6a6dfdf8b3ff337be5a447e9f4e71969f18370ad driver core: fw_devlink: Allow marking a fwnode link as being part of a cycle
+cd115c0409f283edde94bd5a9a42dc42bee0aba8 driver core: fw_devlink: Consolidate device link flag computation
+3fb16866b51ded6c016b664caad53f8d4fd9dc56 driver core: fw_devlink: Make cycle detection more robust
+4a032827daa89350365166b19d14d82fe8219128 of: property: Simplify of_link_to_phandle()
+e2bbea770cafb7e19bbb6cd77fad3c1c6fb4cca5 irqchip/irq-imx-gpcv2: Mark fwnode device as not initialized
+96da4a99ce507bb98e2ba77018a2f91999c8c12b firmware: arm_scmi: Set fwnode for the scmi_device
+fb42378dcc7f247df56f0ecddfdae85487495fbc mtd: mtdpart: Don't create platform device that'll never probe
+
+--===============2088028445644278744==--
