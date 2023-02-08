@@ -1,16 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/westeri/thunderbolt
-Date: Wed, 08 Feb 2023 07:15:00 -0000
-Message-Id: <167584050023.24268.14081236369714016589@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tzungbi/chrome-platform
+Date: Wed, 08 Feb 2023 07:19:47 -0000
+Message-Id: <167584078763.28731.6651351724717820963@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/westeri/thunderbolt
-user: westeri
+repo: pub/scm/linux/kernel/git/tzungbi/chrome-platform
+user: tzungbi
 changes:
-  - ref: refs/tags/thunderbolt-for-v6.3-rc1
-    old: 0000000000000000000000000000000000000000
-    new: f4a4a4ff03f83cecb8c7902b36b0d64c94305f2b
+  - ref: refs/heads/for-next
+    old: bac2e576c36d3f7e7bb2ee3b6cbbd06d140e7c5d
+    new: 7f67f5f8c1fa4ad50bef3bdbe4de637028b51063
+    log: |
+         1542a91fddfe248d076dfa38aa9f29022dc69539 platform/chrome: cros_ec: Add VDM attention headers
+         7f67f5f8c1fa4ad50bef3bdbe4de637028b51063 platform/chrome: cros_typec_vdm: Add Attention support
+         
