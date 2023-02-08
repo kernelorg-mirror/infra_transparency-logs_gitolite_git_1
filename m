@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1056386595888594740=="
+Content-Type: multipart/mixed; boundary="===============0190372491258177599=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Wed, 08 Feb 2023 12:34:06 -0000
-Message-Id: <167585964628.23698.15159395907371808456@gitolite.kernel.org>
+Date: Wed, 08 Feb 2023 12:35:27 -0000
+Message-Id: <167585972737.25671.17959837678513901754@gitolite.kernel.org>
 
---===============1056386595888594740==
+--===============0190372491258177599==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,42 +17,42 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/driver-core-testing
-    old: 5cdc03c5cf471a215c57e540cc86be613c0ba457
-    new: 8518e9db9f95d7beb453e46ee97e1a630680c4b5
+    old: 8518e9db9f95d7beb453e46ee97e1a630680c4b5
+    new: 862f6a84d1bf01435fdd6aa8b2811c88ab1f06f4
     log: |
-         8deb87b1e810dd558371e88ffd44339fbef27870 drivers: base: component: fix memory leak with using debugfs_lookup()
-         36c893d3a759ae7c91ee7d4871ebfc7504f08c40 drivers: base: dd: fix memory leak with using debugfs_lookup()
-         8518e9db9f95d7beb453e46ee97e1a630680c4b5 const_structs.checkpatch.pl: add kobj_type
+         dda6b81f17ad8e72f8bc151c876cd335a471e268 kobject: make dynamic_kobj_ktype and kset_ktype const
+         c83d9ab42f1ef70d81bb3c637a12c098a9a05057 driver core: make kobj_type structures constant
+         862f6a84d1bf01435fdd6aa8b2811c88ab1f06f4 samples/kobject: make kobj_type structure constant
          
 
---===============1056386595888594740==
+--===============0190372491258177599==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1675859644 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1675859724 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1675859644-f7ecbf380c5da09bccf7050688e535253fae4a45
+nonce 1675859723-443fe4ed581d648d7db9262ebe00e687c8a68665
 
-5cdc03c5cf471a215c57e540cc86be613c0ba457 8518e9db9f95d7beb453e46ee97e1a630680c4b5 refs/heads/driver-core-testing
+8518e9db9f95d7beb453e46ee97e1a630680c4b5 862f6a84d1bf01435fdd6aa8b2811c88ab1f06f4 refs/heads/driver-core-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPjlrwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+UfUP/0TMglxSCkp8FnJ0UMnK
-5ZUnteCpIZFSLAN5P7wikooKToH8JKt4xW51QekojQopPN2HfXuFH+ZjDwuQvWsn
-8OHIWfvbHMBTsi/CrPGTMvf2JYHRKdGCk3T/RT+CBqymF4wuskFmOj8i9d03Wo8u
-YYgaPfpqAvuthBBg3ow9HVpbNZj8P9lyA8OUzfCgcWTomQwnaN8WXwHj6aNbGb+U
-ex6662oG7RugMoS/z6HIqcKogP3/VGkGtUyv9Cq0ImVm4KBLDBwooQiDRAdNqTh/
-Ag36uyT1g4o5XiMg+btwFcFuVw5rWoxHtdMBLVqU8MNF53NDxTQubeWticxhEmAp
-99rHDWFe5dQwWUU8HXSZGFmAPUyJuwGth9es9+apUbMArHLmapy1OWRk26XdptmN
-zLRdHGE+1ma4sOYIUUKNt/hgsMAKTH77krYl1bPVQ3XtIeMDV9uRTcrHsr5YMbgL
-BgedMxgnpQktfGc4sgxSX3RvqxpQBoWhlX87knbT3AkgD9/KBW6jDeqXLldkmkMH
-07rRvpkGQ5sJORHFQPcfFGotT/sJ4HD2a7v9IzwZz/Uti+2bE1zoX4MfVSBURs3F
-Bx3vYvxH1NsRMIfEU+WXyiw6b6r8ZBeOpBxG1k7mgA//7o2wMQfssCaH2vr9n/ED
-FcgCUqWEagd40y+hK9VP/H9u
-=OxuZ
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPjlwwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Bc0P/2e7htbzx8zE0s+gQX8a
+2KnGxVgwHsKVWeFHU4p8R+XFFx6gHahWGn8wHobLYZlwaFUlQbQ6C1RJ3H33QC4y
+Cd9sucfImTgqJDdT4CCz3IrwJX6F1TqtmnlHGpTdMDBWTKssUKK4KkZPTiKR4Pmc
+gPfYH6sbe75/D4rGFC/PMVAybJWJ/9TicejP6e71dyeNDxueOGmxHmy44QCGPOmT
+QU8MrH0NqqOBpjeP4G0c2rw59vS4pm8R7KB3O1ZONKJsWgFr4p7w045b36zJHUbX
++WmnccSKsxo6/oylTh9qq4bNT7vPHgPy0WoV70euvmsNJ+0t26jsfm6jt9QvmHq/
+jsOxXtbw3j3NxvOM3AWnlHc+VMV97lmy+NDIpAuPy+eCbRXct0qwcOuNhda9ORfw
+NGFJOcVDTUHxNkLDyq7XYRUhyMOekkaFAHpNfN1HAsy5Simq7TA7yHfhQF+nzNf0
+D65N+EjSrXvxoU+d+2dKFtVYx81zVz32nIb3Gs2qd4WLsfmIDh3XdcTkvj/6dydE
+3U8MBByMEMSMpfpbwOmMjwOVcLrZBHwwJ5+ApHhLBAMgTdPUDlTRajrHgWbBa+E+
+orz1Hc3154qIPMl4PevA3uX42/6xuNXSyx9ouq1ueIEjgiOVAPlIL5FkcAP+5cmg
+LNZrlEKUSTXKMwY4m2q3cu54
+=CYSZ
 -----END PGP SIGNATURE-----
 
---===============1056386595888594740==--
+--===============0190372491258177599==--
