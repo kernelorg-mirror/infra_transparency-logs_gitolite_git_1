@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7807041724606693885=="
+Content-Type: multipart/mixed; boundary="===============4763422982092711912=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Wed, 08 Feb 2023 12:30:26 -0000
-Message-Id: <167585942652.22434.17663822441855137595@gitolite.kernel.org>
+Date: Wed, 08 Feb 2023 12:32:34 -0000
+Message-Id: <167585955419.23137.3168099103754369897@gitolite.kernel.org>
 
---===============7807041724606693885==
+--===============4763422982092711912==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,46 +17,48 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/staging-testing
-    old: 0fb449c5749ce5a6238a53f69bf178405862473e
-    new: 7652f95f52c06fbd3b243fe3f8d14e95c23212c3
+    old: 7652f95f52c06fbd3b243fe3f8d14e95c23212c3
+    new: 5cd73e7c60a9cab27b2eb3270b7fd4a79dafee25
     log: |
-         aec9b5bb8f653277a96818d580035f8325de443c staging: r8188eu: merge do_queue_select into its only caller
-         f141c234cbc87a3189cdad67c6d547b77967e715 staging: r8188eu: simplify rtw_alloc_xmitframe
-         b7c269aef0f130273381e70b7b6055908e73d000 staging: r8188eu: remove unused frametag defines
-         b5e9b074275fe80b8483260e81979fef720bb73a staging: r8188eu: xmit_buf's ff_hwaddr is not used
-         2bc00bac61ddc253d67da266372a04a23be08bd2 staging: r8188eu: simplify xmit_buf flags
-         fd48124e09825797bdc8ff0120f2401030c618ee staging: r8188eu: simplify rtw_get_ff_hwaddr
-         7652f95f52c06fbd3b243fe3f8d14e95c23212c3 staging: r8188eu: bagg_pkt parameter is not used
+         ec0eb562a7305073b954d8c8e91f453308351cfa staging: rtl8192e: Rename AcmHw_ViqEn, AcmHw_VoqEn and ANAPAR_FOR_8192PciE
+         766e9d4ae73fd6ad75ca19dd1abac97f5c49ebae staging: rtl8192e: Remove blank lines in r8192E_hw.h, rtl_core.h and ..
+         0e8696f0e93ceb6d6804352ab04080062cb6209a staging: rtl8192e: Rename MacBlkCtrl and remove double definition
+         410a384532238ef13363756948fa7d9bbcbdee25 staging: rtl8192e: Rename OFDM_Table.., CCK_Table_.. and RxPathSelecti..
+         1af6ddaba5421a2375acb87778f76e6329447a2c staging: rtl8192e: Rename RxPathSelectio.., RateAdaptive.. and RateAdap..
+         2c3a5d3ed344d5c6de7f90e140be92ed851a9c95 staging: rtl8192e: Rename RateAdaptiveTH.., VeryLowRSSI and WAIotTHVal
+         a89fbd4b9c890a384b2cb0881fd26bcc5174f13e staging: rtl8192e: Rename Enable, cck_Rx_path and SS_TH_low
+         44414e625c35a307707e7963fa608bc02ce5d2fc staging: rtl8192e: Rename diff_TH and disabledRF
+         5cd73e7c60a9cab27b2eb3270b7fd4a79dafee25 staging: rtl8192e: Rename DM_RxPathSelTable
          
 
---===============7807041724606693885==
+--===============4763422982092711912==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1675859424 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1675859551 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1675859423-cf21cd9e6f222e83e89ad0a7a377b21860a62162
+nonce 1675859550-848ca9546d2cdbd60151b595f0bc636886825553
 
-0fb449c5749ce5a6238a53f69bf178405862473e 7652f95f52c06fbd3b243fe3f8d14e95c23212c3 refs/heads/staging-testing
+7652f95f52c06fbd3b243fe3f8d14e95c23212c3 5cd73e7c60a9cab27b2eb3270b7fd4a79dafee25 refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPjleAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+PUsP/2sieD9Qw7z+847ToPlR
-NwLTJcBKgMAu0PY14qbXRJwIaz8tpoVCZxta5nYFkvhlXR/nzRK3pSCHzNGhQC1q
-mnUbzLJWKjWI6jcws5rjLknVhw85iSWFlSQYj8k0c7wM5ug0yyseiGR6cB0DGj9k
-8E2XoQlI22bPRgJVSrGllTZOpEDcMayrfkSm8X6u4ZArUAXyPb2fDsYftqJucp5u
-5TEavjFwjINidsoqQYUIIBAWD31dhapQArP4rksftE/zjD1llBZ5yYblfptycBWU
-tLN8q3Yntrp3FJfnzwuMWLzSQtVeNPvC6WkLB6J4ab4oiH661sMNn7yaqwnpkeN4
-nwPy0VnTdZNZGk66QOF9GsKfIZavH3Hmr/3tBiUkry7VMUFKhxQ7AcA0QI+V8mYg
-Y2DHRZhw1K+Vgb8riMPhjTl5OK0sj/C8aNz/XdDTH6JLbEQxKRXT+CJDXN3fpHBP
-/dczIQlbWmK/ELzP6XT8sp57OURublwMhtpEolcFGyJp2kgwbtDMPD8EdxPMy0vT
-i9CsjzpmvS+t2V97sPgka/77UEpqhEvXpLCOFLHf4RxPKZ47D2Jye8R2uw4MBgzG
-/d/ty+OxGPGpmpzWD1P6GhtuCq4tlUZdyzSVvCIpRWZcFmoFYycs6785T4Eyu4sm
-zgjPAPviGCcieHFhWxE19voL
-=Wupt
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPjlmAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+qQcP/2WcehFXPTVypJENihCc
+yPWWNlUdM5zq3+iu3s4mDXr890LyJRs9yfZms7kc9p8zF6E4Frv09miAkR0AAc4r
+tgAN8fBwv54E6UqVRYdWlgIQBLAAeHAn+LXsys3MsrgDI1bxYngSWy+bmlfCK7tN
+zW4Jptiexh9s9u0s8BLLSGCo7gtkGqIUE31m27LnQt40vS2vc8UUqqBSkW+mbTWI
+ISCl+OAz3L0I2GSN3Vohz7+YQ3jHtTU2Lby6/G1gw1MDauwkxrlfUcDFEuD6MIgw
+GPp7OjEsO5H10oK6PoGYWy+F9bSi/C5db/fRQzRk6qJ3as1j1oTx43/lZd+OhDvu
+vQdBPfeZ3FDppkcO8TndWFrRSmHGrqMgTShKdP3wQIIOQ2WFKxLuTIQc9Qp3Entj
+WnZK8g0R0+9uwrK5DadpXeZc7YaQYSN5/TO86rrkfZTWPAhWweHbTvnX6SO37LTL
+P20hwyEt28W/Eh+UUE5ff64tluWHz4nWaIJv3T/v+ZkpgbZ5nKUvWivEi5Acn8dS
+AoR+ki6rQ4VNUzgOyKbQK9gcEc5rCzwJkmwME5vOxfHEFZh0NHCDuqyMykJJz17y
+DoO3vI3hBiegdxMc9pDYSCZlsTVYhLlmAMNB7tgf5w+Jifsfx4rhYTAVDv1cfDlw
+HqI0wXL/bb7V6sNuXxom7T1w
+=2XHa
 -----END PGP SIGNATURE-----
 
---===============7807041724606693885==--
+--===============4763422982092711912==--
