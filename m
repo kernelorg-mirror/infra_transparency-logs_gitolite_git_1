@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/devel/pahole/pahole
-Date: Wed, 08 Feb 2023 20:56:51 -0000
-Message-Id: <167588981134.3135.8369088941146898313@gitolite.kernel.org>
+Date: Wed, 08 Feb 2023 21:00:13 -0000
+Message-Id: <167589001359.5815.4997049794544337039@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,8 +11,8 @@ service: git-receive-pack
 repo: pub/scm/devel/pahole/pahole
 user: acme
 changes:
-  - ref: refs/heads/tmp.master
-    old: 283b896154635e1aed48b15b28e58cf6b1c21d60
+  - ref: refs/heads/next
+    old: b1576cf15106efd78d9834764d0f815e0364e52e
     new: 5639d5a1acd118ccd0ef9168763fe5460cfac3fc
     log: |
          a4018910f31025e1daf6cd5a43b796e13bc185ac pahole: Sync with libbpf-1.1
