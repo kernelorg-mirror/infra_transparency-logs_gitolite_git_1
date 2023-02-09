@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3830383555868454419=="
+Content-Type: multipart/mixed; boundary="===============7933289238691477506=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Thu, 09 Feb 2023 02:46:00 -0000
-Message-Id: <167591076063.12179.10937179931247755343@gitolite.kernel.org>
+Date: Thu, 09 Feb 2023 02:46:15 -0000
+Message-Id: <167591077587.12422.9937027833860538492@gitolite.kernel.org>
 
---===============3830383555868454419==
+--===============7933289238691477506==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-staging
-    old: f6c1f93e6cc779b69375855a2e8a2392d3a73ff5
-    new: 3b640ecc10da95b39bb574198593c693786a4c3a
-    log: revlist-f6c1f93e6cc7-3b640ecc10da.txt
+  - ref: refs/heads/6.3/scsi-staging
+    old: 5adca38c0b97502e35e4df00d9edf4e85ba21dab
+    new: 833f7d4819a88f027033e0033ea44f7ae3e45a9b
+    log: revlist-5adca38c0b97-833f7d4819a8.txt
 
---===============3830383555868454419==
+--===============7933289238691477506==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1675910747 -0500
+pusher 75C5DE3D 1675910764 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1675910747-1288878ecaf7c112f050432a8a9ffafb34eb99e4
+nonce 1675910763-26b8910b2d73938beabf6fa4abb5c09f9c6ae3f8
 
-f6c1f93e6cc779b69375855a2e8a2392d3a73ff5 3b640ecc10da95b39bb574198593c693786a4c3a refs/tags/mkp-scsi-staging
+5adca38c0b97502e35e4df00d9edf4e85ba21dab 833f7d4819a88f027033e0033ea44f7ae3e45a9b refs/heads/6.3/scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmPkXlsACgkQ7ulgGnXF
-3j2REw//Z3BkKa8rPp3DfZQUrhSg3+gxa6u7IECo6vV6f4zOe2wmfdm2l9W2a2cd
-NvSf339UEzbqzJunnXzhMPHOwP5uTnijnoFWZvv0mtn3Yg8+h0Cextqzql6PnZIR
-ZCjJUtXS4o23gEqxvM3wEZf1f8tNsXVD4FmgBq4qJ1IRNXLthAfiT5H+S/aK/rvB
-1x8jtt8TJslVZ8LTmqPpk7K8tschLen8+x0TfQ3QqBUz36tyjnbrADHOXJ/8Yajh
-oZN8/5jwlwBYJFkZrmZYqz7LxsdL/wQ9FJ0WlY+IWnUeTk5RHZHZpyI2BHjUgWW1
-TfcjF+deGg50wjAuDmziKiiOD/8PMGwJ+jqngptB2CddHrOElm/8NcEQoQPw6zM8
-sPMOzYVyXP2bzPzkTp9g9qWbn949UFyRVf3o6K7gGLz55lXa+2jQPxXnzbMRySay
-hIEAlcav06Q7G4D+W0rcf495v8cFEeMkDfM1CbcKY3HDaikoPhGcYSAG1k06xAWv
-/s+Y7Ph0l7XO5AaBPQR0mXhTWQuDQmmUUmJ/rDD0uPENvcpBJ3M/HQLL+1RCKxC2
-xv+Adi+rIZw18kiCvRzIrESmibDuZnoGidE+bIwOOl25ByWPFLro3BPs4/N3y76D
-6UZ4uz8g1E5OR2ImCxSEdjqb6ESqfSJOCccnT2qa6SuxnmwfjOk=
-=fBjf
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmPkXmwACgkQ7ulgGnXF
+3j35dQ//XYgalNxsIqQ0I7sx3gc53Xz4/8HDzOvS8IaA8LuBlWEmd+8PlsaYK4lU
+pme5tOtBQHa/lZe95V2JM1XDz4o5jbCMIveZAlRFeJjTlxNpdeX8pov8thX/WDgV
+8Av9AELvO9WTUhOMTy+cnoBHuGlMOPGdi++C8Vg0vBxyl8GZW6lDn8jno76a3kaG
+SkocEMm5srUYQ/phBG6oGQ3hsPKh9M2mS7KI3gqKeq+83w3cjd3ptKSs3Ro0ZzpL
+MHUSO7yGtWde6Hk4wUdtNgz8R1RnZySHVn+ux9d70BR1wUetNTmXf3Sv3iV0y8Fv
+uuimX0CXp9SJBSna01RwtWQcjNUCH8D3DeDy8UukF9mooCWmKgCOLFS8ZjB/AScr
+bl1rm+KmfvQJpzoDED/B2XrbFn+UARSzUKM8/D/Yovy/O/u7AX1+cJ09/l+1o0M8
+DiSx0ob8dEDbL2iWMALZGCKkInxT9SeRmDceT5BZKJVoL0aw3iYoGsbDQX1HkexL
+uWOPWpxOBRXJIL3fLWH6yf8c9c58fG2usp8suetfpxCfSnT6/3EvBZqGGeMc0X43
+iXSUr1jezNxuZWHqJkmgFPIcwYWXKd9bQEbA1RJ8fSsguzUj6xgULpo6Tqv3FBxR
+cfYkjsWX2G+6HetdpV4qcruw1GqR5Y4MQpTNdLUxl0azV1VhWro=
+=F0EV
 -----END PGP SIGNATURE-----
 
---===============3830383555868454419==
+--===============7933289238691477506==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f6c1f93e6cc7-3b640ecc10da.txt
+Content-Disposition: attachment; filename=revlist-5adca38c0b97-833f7d4819a8.txt
 
 49f262bc3c7ab90bdb3491a659b28c0b397d52e8 scsi: ufs: qcom: fix platform_msi_domain_free_irqs() reference
 9c02aa24bf404a39ec509d9f50539056b9b128f7 scsi: ufs: ufs-qcom: Clear qunipro_g4_sel for HW version major 5
@@ -75,4 +75,4 @@ ead821268c14a8f87b5cb1079aed10bb16373fe8 scsi: smartpqi: Replace one-element arr
 36822124f9de200cedc2f42516301b50d386a6cd scsi: ufs: core: Fix device management cmd timeout flow
 833f7d4819a88f027033e0033ea44f7ae3e45a9b scsi: ufs: core: Fix an error handling path in ufshcd_read_desc_param()
 
---===============3830383555868454419==--
+--===============7933289238691477506==--
