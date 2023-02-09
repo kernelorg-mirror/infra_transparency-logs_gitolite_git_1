@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
-Date: Thu, 09 Feb 2023 01:09:09 -0000
-Message-Id: <167590494946.10274.4046314771269369143@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tzungbi/chrome-platform
+Date: Thu, 09 Feb 2023 01:14:19 -0000
+Message-Id: <167590525982.14659.11257744367373126541@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
-user: shuah
+repo: pub/scm/linux/kernel/git/tzungbi/chrome-platform
+user: tzungbi
 changes:
-  - ref: refs/heads/kunit
-    old: 789538c61fc11dbe8b6456cfb365d52156a7b133
-    new: 82649c7c0da431d147a75c6ae768ee42c1053f53
+  - ref: refs/heads/for-next
+    old: 7f67f5f8c1fa4ad50bef3bdbe4de637028b51063
+    new: 6d16e6b5aca0d174531c056bffb1f866e195d614
     log: |
-         82649c7c0da431d147a75c6ae768ee42c1053f53 kunit: Add printf attribute to fail_current_test_impl
+         6d16e6b5aca0d174531c056bffb1f866e195d614 platform/chrome: cros_ec_typec: Fix spelling mistake
          
