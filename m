@@ -1,58 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============4222745428480326577=="
+Content-Type: multipart/mixed; boundary="===============5228805933395126173=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Thu, 09 Feb 2023 12:24:19 -0000
-Message-Id: <167594545932.16803.14423670465548784437@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
+Date: Thu, 09 Feb 2023 12:27:36 -0000
+Message-Id: <167594565676.19324.8563264444971493690@gitolite.kernel.org>
 
---===============4222745428480326577==
+--===============5228805933395126173==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
+repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-linus
-    old: 4ec5183ec48656cec489c49f989c508b68b518e3
-    new: 303e724d7b1e1a0a93daf0b1ab5f7c4f53543b34
+  - ref: refs/heads/tty-testing
+    old: 684ae4f9513c2bb9443794608b7fc754c4ca2483
+    new: 491581f40e4c52c4b36c83e8c75b2210ed7c358a
     log: |
-         bb07bd68fa0983e3915f83c471382868860389fe Revert "usb: gadget: u_ether: Do not make UDC parent of the net device"
-         54e5c00a4eb0a4c663445b245f641bbfab142430 usb: typec: altmodes/displayport: Fix probe pin assign check
-         303e724d7b1e1a0a93daf0b1ab5f7c4f53543b34 usb: core: add quirk for Alcor Link AK9563 smartcard reader
+         491581f40e4c52c4b36c83e8c75b2210ed7c358a soc: qcom: geni-se: Move qcom-geni-se.h to linux/soc/qcom/geni-se.h
          
 
---===============4222745428480326577==
+--===============5228805933395126173==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1675945457 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1675945455-2d6a9443372c5c8cdb425c0434c460399382df33
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1675945653 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
+nonce 1675945652-642ddf4c784ce58a63bcdab06a911e4945ea734f
 
-4ec5183ec48656cec489c49f989c508b68b518e3 303e724d7b1e1a0a93daf0b1ab5f7c4f53543b34 refs/heads/usb-linus
+684ae4f9513c2bb9443794608b7fc754c4ca2483 491581f40e4c52c4b36c83e8c75b2210ed7c358a refs/heads/tty-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPk5fEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+lpEQAIcgGp+IK+9sUvYgSa7W
-knZ56YZkXhnufiFC4D5EmAMq0vp5dvRA/Hv7XKyO0jGVxgALJgaaqC4NprcSp+Ou
-tp+RV4dQJrCKGTYeRvNhFRMlicMexZVE4QHLWZr7KC1WnhfdDPowcr7SEacogBLv
-sGbYWarqE32iIo1ZxMMiHS6jJvpgPj3bK7Gv/FrXv0IQpW7Z5ZI8FfQeIQRveNZ1
-Ypq8akV/SirOchgSx7U1i9Mtqd8kl1HVoNpq9cuEESNDi8OpBnI/j7CBR0kHeUSL
-+3Tn7xq68ORiPHN4eJr2G2kiDoozw0T8+KND8utY289BDHgnCIH0uVHCQptebvOw
-CQGELXkB+636AiJYQPsLgRYrFzAYCxfayNCCbTEzRsQeY+G/N294vpQuDSzBXzWj
-OI6tG1VacKYdgyMixUhJRuvd2eMKooU1C3Nrt+GO/k8HrzaB2IvKIw/+SMHjQayp
-yi4bHfwiRewgrCKkDFTTUJUWemorOh8JJZLLaq+YWLZ4HSRR2LcohqmroLeq4F1/
-zLVdOto7fIR61/vfibdpTnKHdbmK6egfmMFVaJhu95gdbTKeSRUZ/iTAoiT5bj/K
-bqNGALTimQ5wCDs/g0E74mvbIzGtqbdW3/MamL1g0VqW8wikv3bT9RtoQ08G/Tqi
-7ww5HoRHDVuxdv8iKN8DKTlw
-=aGEP
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPk5rUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+dPYQAMUnTGnZ1YmtyLploYOa
+dy3NXBRNy30zbNUqOYj+P8oYskA+qftsdaFbWplIkZvT/J0M33DZdKXKa8dZecf6
+swuPlh+e1QmOZS21yyUj9ykIn0vU4qut8SCkzjVIz9dsvGqpH2K4S5tUo5rdFUOt
+4GEUdKbIdHcSZ7wiuTziC5xE03Ntn9Ax2StIi17Ri5vL5Vep9WmUhCofXGpM4Qqy
+1d0/dW6/JE0vOSQ5HRh1zhhnO66ZMmXD+NIe9iOY2GQaAmycxWfxyY3JzqAY+nzW
+A2vEE/91YnJcc7pY8Q29wrPrn6XdGz1PcUPlxio1ZLMoYUZZNvPuqvMWMSqK0cme
+Y9o71sHqWeMRl4Z6jCj6VLISoboAhbV8QSL9zRDJvSU3HnwpV9VHd4vpLa4TaF7C
+VZGN3IZ7dTYnxy7y/o66xGWknkxwROjElkXUn0wOqvuNRSa0jq6nK7DPIjBGtxhz
+4DUmCBTq+m701jmw6AROleUre0veyentmZ5Vqu2XFE19jo6h2IWpcePRr8D1ncGR
+O14B1xFgtmvrPU0c+MoZwAaFfAjIYZmAgsZSvs3V9iADlqSOt+BAbZQ/1fkEVyVG
+ce7EDzGLVbRkFCgaeltMp+BaJowpf2rqlkjIUJuzpScmlbfEmm51+En9WHtuwgZq
+R/x9EJIIxh2+uasI7k1PshHm
+=Nteu
 -----END PGP SIGNATURE-----
 
---===============4222745428480326577==--
+--===============5228805933395126173==--
