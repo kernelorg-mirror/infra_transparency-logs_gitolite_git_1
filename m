@@ -1,42 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============2415154897683271145=="
+Content-Type: multipart/mixed; boundary="===============3479630011228282167=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Thu, 09 Feb 2023 03:47:42 -0000
-Message-Id: <167591446237.20328.11713562479522423967@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Thu, 09 Feb 2023 03:47:52 -0000
+Message-Id: <167591447208.20478.2401370237909371707@gitolite.kernel.org>
 
---===============2415154897683271145==
+--===============3479630011228282167==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
   - ref: refs/heads/master
     old: 38d2b86a665b5e86371a1a30228bce259aa6c101
     new: 20f513df926fac0594a3b65f79d856bd64251861
     log: revlist-38d2b86a665b-20f513df926f.txt
-  - ref: refs/heads/stable
-    old: 513c1a3d3f1982fb850c910937099525b0d35e24
-    new: 0983f6bf2bfc0789b51ddf7315f644ff4da50acb
-    log: |
-         241d2fb56a18473af5f2ff0d512992a996eb64dd of: Make OF framebuffer device names unique
-         f6933c01e42d2fc83b9133ed755609e4aac6eadd of/address: Return an error when no valid dma-ranges are found
-         08f379d98731a7014ee6987508d1228cb56ce694 dt-bindings: Fix .gitignore
-         707344c8a188bb1d6704d3546229fc7a07c01a63 dt-bindings: interrupt-controller: arm,gic-v3: Fix typo in description of msi-controller property
-         0983f6bf2bfc0789b51ddf7315f644ff4da50acb Merge tag 'devicetree-fixes-for-6.2-2' of git://git.kernel.org/pub/scm/linux/kernel/git/robh/linux
-         
-  - ref: refs/tags/next-20221109
-    old: 5ede0fb9ee935f7588448dd7154cf4c6b02f2576
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20230209
     old: 0000000000000000000000000000000000000000
     new: 20acea11fde24e695aa587a329accc1ad0d184fb
 
---===============2415154897683271145==
+--===============3479630011228282167==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -724,4 +711,4 @@ b558d3333919c005d4306fc411dfa649c1d6dd22 Merge branch 'for-next/kspp' of git://g
 be7a8940019b7289b452f15d1241af60a42e143b ALSA: ppc: fix unused function local variable
 20f513df926fac0594a3b65f79d856bd64251861 Add linux-next specific files for 20230209
 
---===============2415154897683271145==--
+--===============3479630011228282167==--
