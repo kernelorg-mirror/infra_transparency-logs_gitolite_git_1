@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
-Date: Thu, 09 Feb 2023 19:41:22 -0000
-Message-Id: <167597168220.21647.13436189099384406883@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Thu, 09 Feb 2023 19:46:52 -0000
+Message-Id: <167597201223.26266.1421282129967764572@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/palmer/linux
-user: palmer
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
-  - ref: refs/heads/fixes
-    old: 616aab77485ed2427bd530cfab4b8b21a79ea41d
-    new: 950b879b7f0251317d26bae0687e72592d607532
+  - ref: refs/heads/master
+    old: 6e50f20a3e2078b50d3845553bb2ade131c26e93
+    new: 9546d5520ff9f2cde4a49b40ea6c33c874c18df0
     log: |
-         950b879b7f0251317d26bae0687e72592d607532 riscv: Fixup race condition on PG_dcache_clean in flush_icache_pte
+         9546d5520ff9f2cde4a49b40ea6c33c874c18df0 Thu Feb  9 07:46:03 PM UTC 2023
          
