@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jack/linux-fs
-Date: Thu, 09 Feb 2023 09:46:26 -0000
-Message-Id: <167593598616.12527.442009365873236317@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 09 Feb 2023 09:48:01 -0000
+Message-Id: <167593608159.13036.7147236715971872375@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jack/linux-fs
-user: jack
+repo: pub/scm/linux/kernel/git/netdev/net
+user: pabeni
 changes:
-  - ref: refs/heads/for_next
-    old: 6f053baeb3e92be353e7282f7c66ac5f91a86469
-    new: 90e4f9e498261170f0e2e07e86d2c99d0f9c86a1
+  - ref: refs/heads/master
+    old: 646be03ec46cc736d78ca4db2e0b00fa84446d77
+    new: f753a68980cf4b59a80fe677619da2b1804f526d
     log: |
-         df97f64dfa317a5485daf247b6c043a584ef95f9 udf: Avoid directory type conversion failure due to ENOMEM
-         90e4f9e498261170f0e2e07e86d2c99d0f9c86a1 Pull udf fixup for syzbot allocation failure handling bug.
+         f753a68980cf4b59a80fe677619da2b1804f526d rds: rds_rm_zerocopy_callback() use list_first_entry()
          
