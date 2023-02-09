@@ -1,25 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/horms/ipvs
-Date: Thu, 09 Feb 2023 17:52:42 -0000
-Message-Id: <167596516271.12907.15101217624230333083@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
+Date: Thu, 09 Feb 2023 17:52:44 -0000
+Message-Id: <167596516457.12966.3935246789433556022@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/horms/ipvs
-user: horms
+repo: pub/scm/linux/kernel/git/groeck/linux-staging
+user: groeck
 changes:
-  - ref: refs/heads/main
-    old: bbb253b206b9c417928a6c827d038e457f3012e9
-    new: 92f3e96d642f5e05b9dc710c06fedc669f1b4f00
+  - ref: refs/heads/watchdog-next
+    old: e86ec1f70352ff7024bb58ecbfb29259202c7d16
+    new: a017685ec96ad44a4f8a3f6753bf07c9e512cb31
     log: |
-         92f3e96d642f5e05b9dc710c06fedc669f1b4f00 netfilter: nf_tables: allow to fetch set elements when table has an owner
-         
-  - ref: refs/heads/master
-    old: bbb253b206b9c417928a6c827d038e457f3012e9
-    new: 92f3e96d642f5e05b9dc710c06fedc669f1b4f00
-    log: |
-         92f3e96d642f5e05b9dc710c06fedc669f1b4f00 netfilter: nf_tables: allow to fetch set elements when table has an owner
+         a017685ec96ad44a4f8a3f6753bf07c9e512cb31 watchdog: sbsa_wdog: Make sure the timeout programming is within the limits
          
