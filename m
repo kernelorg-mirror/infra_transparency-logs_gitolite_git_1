@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Thu, 09 Feb 2023 00:51:52 -0000
-Message-Id: <167590391292.28598.7449395064835734710@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 09 Feb 2023 00:54:12 -0000
+Message-Id: <167590405278.29384.6079309716909507707@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: andrii
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/for-next
-    old: ab8684b8cecf711cc9e47c1cbb1a8f4b549f8893
-    new: 06744f24696e1e7598412c3df61a538b57ebec22
+  - ref: refs/heads/master
+    old: 965bffd2dd8a2c769ae17e5344545ba03d584176
+    new: b963d9d5b9437a6b99504987310f98537c9e77d4
     log: |
-         06744f24696e1e7598412c3df61a538b57ebec22 samples/bpf: Add openat2() enter/exit tracepoint to syscall_tp sample
+         b963d9d5b9437a6b99504987310f98537c9e77d4 selftests: Fix failing VXLAN VNI filtering test
          
