@@ -1,27 +1,58 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/devel/pahole/pahole
-Date: Thu, 09 Feb 2023 12:19:41 -0000
-Message-Id: <167594518127.13792.1889734595593808299@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============4222745428480326577=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Thu, 09 Feb 2023 12:24:19 -0000
+Message-Id: <167594545932.16803.14423670465548784437@gitolite.kernel.org>
+
+--===============4222745428480326577==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/devel/pahole/pahole
-user: acme
+repo: pub/scm/linux/kernel/git/gregkh/usb
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/tmp.master
-    old: 5639d5a1acd118ccd0ef9168763fe5460cfac3fc
-    new: b53d430aeab416e74dd394d646a9e9b21dc7a324
+  - ref: refs/heads/usb-linus
+    old: 4ec5183ec48656cec489c49f989c508b68b518e3
+    new: 303e724d7b1e1a0a93daf0b1ab5f7c4f53543b34
     log: |
-         2b5cb9bc0e905811eb1904e73323591ecd49e7a2 pahole: Sync with libbpf-1.1
-         75939e655a7978966206022dced614818fc8b6ca dwarf_loader: Help spotting functions with optimized-out parameters
-         52b25808e44a8e7f3c6be1631a6f94e2bf4d98bd btf_encoder: Store type_id_off, unspecified type in encoder
-         d381cc7458c53fdf08d92981d688fd3a2c6100f2 btf_encoder: Refactor function addition into dedicated btf_encoder__add_func
-         c8e8dbcd7150761895017bdb275646eed4d144e0 btf_encoder: Rework btf_encoders__*() API to allow traversal of encoders
-         6d95d162c6c804c4eac53ad76905ba98288bf230 btf_encoder: Represent "."-suffixed functions (".isra.0") in BTF
-         f104790698ae93f960ad80681984fbefa0292b6d btf_encoder: Support delaying function addition to check for function prototype inconsistencies
-         a3b47e41656d21e717e2b7e20a9cc1c5f858a6b7 CMakeList.txt: Bump version to the upcoming 1.25 release, not out of the door yet
-         b53d430aeab416e74dd394d646a9e9b21dc7a324 btf_encoder: Ensure ELF function representation is fully initialized
+         bb07bd68fa0983e3915f83c471382868860389fe Revert "usb: gadget: u_ether: Do not make UDC parent of the net device"
+         54e5c00a4eb0a4c663445b245f641bbfab142430 usb: typec: altmodes/displayport: Fix probe pin assign check
+         303e724d7b1e1a0a93daf0b1ab5f7c4f53543b34 usb: core: add quirk for Alcor Link AK9563 smartcard reader
          
+
+--===============4222745428480326577==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1675945457 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1675945455-2d6a9443372c5c8cdb425c0434c460399382df33
+
+4ec5183ec48656cec489c49f989c508b68b518e3 303e724d7b1e1a0a93daf0b1ab5f7c4f53543b34 refs/heads/usb-linus
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPk5fEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+lpEQAIcgGp+IK+9sUvYgSa7W
+knZ56YZkXhnufiFC4D5EmAMq0vp5dvRA/Hv7XKyO0jGVxgALJgaaqC4NprcSp+Ou
+tp+RV4dQJrCKGTYeRvNhFRMlicMexZVE4QHLWZr7KC1WnhfdDPowcr7SEacogBLv
+sGbYWarqE32iIo1ZxMMiHS6jJvpgPj3bK7Gv/FrXv0IQpW7Z5ZI8FfQeIQRveNZ1
+Ypq8akV/SirOchgSx7U1i9Mtqd8kl1HVoNpq9cuEESNDi8OpBnI/j7CBR0kHeUSL
++3Tn7xq68ORiPHN4eJr2G2kiDoozw0T8+KND8utY289BDHgnCIH0uVHCQptebvOw
+CQGELXkB+636AiJYQPsLgRYrFzAYCxfayNCCbTEzRsQeY+G/N294vpQuDSzBXzWj
+OI6tG1VacKYdgyMixUhJRuvd2eMKooU1C3Nrt+GO/k8HrzaB2IvKIw/+SMHjQayp
+yi4bHfwiRewgrCKkDFTTUJUWemorOh8JJZLLaq+YWLZ4HSRR2LcohqmroLeq4F1/
+zLVdOto7fIR61/vfibdpTnKHdbmK6egfmMFVaJhu95gdbTKeSRUZ/iTAoiT5bj/K
+bqNGALTimQ5wCDs/g0E74mvbIzGtqbdW3/MamL1g0VqW8wikv3bT9RtoQ08G/Tqi
+7ww5HoRHDVuxdv8iKN8DKTlw
+=aGEP
+-----END PGP SIGNATURE-----
+
+--===============4222745428480326577==--
