@@ -1,53 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============2401745692593954624=="
+Content-Type: multipart/mixed; boundary="===============5778648771405271029=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dhowells/linux-fs
-Date: Thu, 09 Feb 2023 10:11:50 -0000
-Message-Id: <167593751001.28109.14595153839944907568@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Thu, 09 Feb 2023 10:25:16 -0000
+Message-Id: <167593831676.5720.8546286027739796448@gitolite.kernel.org>
 
---===============2401745692593954624==
+--===============5778648771405271029==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dhowells/linux-fs
-user: dhowells
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/iov-extract
-    old: 986f457b1b221e8342bc3274a130ca3fb3540558
-    new: 3221d1ffa7da8cf67bac83108e9abb8a209a5d48
-    log: revlist-986f457b1b22-3221d1ffa7da.txt
-  - ref: refs/tags/iov-extract-base
-    old: 1364c910ef79be80f15c72a6b16f984bead880ba
-    new: 7e7088f1951a810abfeaad39356b61bb8f831aad
+  - ref: refs/heads/master
+    old: 0d155973aa5185b7a12988fe125219c129aca041
+    new: c4d36720ed250179376374636f3e9e697421fe5a
     log: |
-         7bd991043dc718b7194e4507d1c6dfccfb9506a3 splice: Fix O_DIRECT file read splice to avoid reversion of ITER_PIPE
-         09540a204baf7a487db54ab978a06566011eae24 mm: Pass info, not iter, into filemap_get_pages() and unstatic it
-         931ee0d322f3ba8ff328f1e7c4c9e1a082643b9a splice: Do splice read from a buffered file without using ITER_PIPE
-         71fc7c9e0a1e50bef7c067880d477acf78e539af iov_iter: Kill ITER_PIPE
-         499e8255f98e154546c27fed351f6b6f169801f3 iov_iter: Define flags to qualify page extraction.
-         7e7088f1951a810abfeaad39356b61bb8f831aad iov_iter: Add a function to extract a page list from an iterator
+         92d881bfe5364b4533438480be1d4f48e1379f92 drop queue-6.1/selftests-vm-remove-__use_gnu-in-hugetlb-madvise.c.patch
+         c4d36720ed250179376374636f3e9e697421fe5a drop udf patch from 5.4 and 5.10
          
 
---===============2401745692593954624==
+--===============5778648771405271029==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-986f457b1b22-3221d1ffa7da.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-7bd991043dc718b7194e4507d1c6dfccfb9506a3 splice: Fix O_DIRECT file read splice to avoid reversion of ITER_PIPE
-09540a204baf7a487db54ab978a06566011eae24 mm: Pass info, not iter, into filemap_get_pages() and unstatic it
-931ee0d322f3ba8ff328f1e7c4c9e1a082643b9a splice: Do splice read from a buffered file without using ITER_PIPE
-71fc7c9e0a1e50bef7c067880d477acf78e539af iov_iter: Kill ITER_PIPE
-499e8255f98e154546c27fed351f6b6f169801f3 iov_iter: Define flags to qualify page extraction.
-7e7088f1951a810abfeaad39356b61bb8f831aad iov_iter: Add a function to extract a page list from an iterator
-fc85a9b58b7960a74b295f34a76a9958a210e7a2 iomap: Don't get an reference on ZERO_PAGE for direct I/O block zeroing
-c65855f9ba301276137576b5ff9cf6249293015c block: Fix bio_flagged() so that gcc can better optimise it
-87bf884bc2857346d6c782ebc1dd130ff6c2fd8f block: Replace BIO_NO_PAGE_REF with BIO_PAGE_REFFED with inverted logic
-9c1a28cf5a6f2e3f260472ca9be04802280f0465 block: Add BIO_PAGE_PINNED and associated infrastructure
-5b9b456b81b0a70a5e3577cd188b67cfccb20f1f block: Convert bio_iov_iter_get_pages to use iov_iter_extract_pages
-3221d1ffa7da8cf67bac83108e9abb8a209a5d48 block: convert bio_map_user_iov to use iov_iter_extract_pages
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1675938313 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1675938309-bba0f7850045328ce14b6d0bbc27fc243e77a03f
 
---===============2401745692593954624==--
+0d155973aa5185b7a12988fe125219c129aca041 c4d36720ed250179376374636f3e9e697421fe5a refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPkygkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+O9AP/iaqlDAMY+IRPZjcyzI6
+YYrZa+Vm2Au6YbQFUE5Q0FEbJMrH2sCUElbVBzoMZ40I8u0ftQXpdu1gvYXaE58C
+kly7pZ6HrqO8yLQjgfE8Hp1wlRKvsQQIaMNlVIO1eeepcpb7wQUYzcPBfuoYV0pk
+lsSI1FGtjtj85FY/gr2+67xzmfTYJI2IQD830G16nyMrpiY+szDdRAOwjxhFjh4O
+uSBKwbKL9h8cnbqUX2RRX5ykfdwbvt5GqS8PmCDv12Lw449KzGAepcILb6Gs/Omr
+8xGOCkukraXrHOKHAd2wm/iKL9fw1iNCnVHibpf694yGw1ss8QlV5LBgOIA4hGQO
+VcUp652/7PNPvWvL267XGncGSfi+Uuq1+CXK18ayaCpo1QNHzacYjTPReRQ8Qbj1
+Cx5ZtW4shLbypKsaLdyyr9FVvzYSSkibk5LNrIvA71/RhkTfGy7gNTzwTucK9MOX
+/jDnfHzrWOGxtJW39xy349ttG3Dt0lqcjo9eZzvo+89uF9OJFazx7cZ5hq5s+RWr
+BaF3yg8glG7/80ZluNJ0F2VPXOlBQ76ngyHjh0TZ7AkC+SWN3db06N65c4erQVQL
+n1IBKjJk48TQxKq9UMbUYGpwbWbuO7K+F/hQBiU+RxdaXFHSBTXbSrHuS0vpvjR/
+WbIElbDU3/P4d3WqXxq0m8lK
+=H8RE
+-----END PGP SIGNATURE-----
+
+--===============5778648771405271029==--
