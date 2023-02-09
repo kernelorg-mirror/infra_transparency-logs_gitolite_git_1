@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
-Date: Thu, 09 Feb 2023 14:20:40 -0000
-Message-Id: <167595244011.32712.11798356713354275158@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Thu, 09 Feb 2023 14:25:54 -0000
+Message-Id: <167595275479.3494.10301482759252834076@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/hid/hid
-user: bentiss
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/tags/for-linus-2023020901
+  - ref: refs/heads/20230209_srinivas_kandagatla_asoc_qcom_q6dsp_and_lpass_codec_stablity_fixes
     old: 0000000000000000000000000000000000000000
-    new: 2254285f2292009403f4ea372c0621ce59208b6d
+    new: 777af241a7ce6ed95f8d3fcb028c08f9b40addb6
