@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 09 Feb 2023 09:48:01 -0000
-Message-Id: <167593608159.13036.7147236715971872375@gitolite.kernel.org>
+Date: Thu, 09 Feb 2023 10:00:03 -0000
+Message-Id: <167593680364.21308.17172364588090997133@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net
 user: pabeni
 changes:
   - ref: refs/heads/master
-    old: 646be03ec46cc736d78ca4db2e0b00fa84446d77
-    new: f753a68980cf4b59a80fe677619da2b1804f526d
+    old: f753a68980cf4b59a80fe677619da2b1804f526d
+    new: 2fcde9fe258ec8b88d41def38e43ca4da32c0a9a
     log: |
-         f753a68980cf4b59a80fe677619da2b1804f526d rds: rds_rm_zerocopy_callback() use list_first_entry()
+         2fcde9fe258ec8b88d41def38e43ca4da32c0a9a net: mscc: ocelot: fix all IPv6 getting trapped to CPU when PTP timestamping is used
          
