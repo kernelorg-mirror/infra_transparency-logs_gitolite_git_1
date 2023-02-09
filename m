@@ -1,14 +1,14 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/samsung
-Date: Thu, 09 Feb 2023 13:13:46 -0000
-Message-Id: <167594842683.17130.10393435262680814069@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
+Date: Thu, 09 Feb 2023 13:14:05 -0000
+Message-Id: <167594844523.17328.15167635369763152139@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pinctrl/samsung
+repo: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
 user: krzk
 changes:
   - ref: refs/tags/v5.14-rc1
