@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jolsa/perf
-Date: Thu, 09 Feb 2023 13:51:48 -0000
-Message-Id: <167595070824.12140.2863426356804958188@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
+Date: Thu, 09 Feb 2023 14:00:16 -0000
+Message-Id: <167595121650.18638.1247884429194443799@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jolsa/perf
-user: jolsa
+repo: pub/scm/linux/kernel/git/hid/hid
+user: bentiss
 changes:
-  - ref: refs/heads/inode_build_id
-    old: 0000000000000000000000000000000000000000
-    new: 47faadc39234f84517a2889139fe4480e09d13fb
+  - ref: refs/heads/for-6.3/multitouch
+    old: a2f416bf062a38bb76cccd526d2d286b8e4db4d9
+    new: 03a86105556e23650e4470c09f91cf7c360d5e28
+    log: |
+         03a86105556e23650e4470c09f91cf7c360d5e28 HID: retain initial quirks set up when creating HID devices
+         
