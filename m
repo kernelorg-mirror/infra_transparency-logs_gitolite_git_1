@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============7197739306617174803=="
+Content-Type: multipart/mixed; boundary="===============3347089162054728683=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Thu, 09 Feb 2023 16:06:07 -0000
-Message-Id: <167595876766.5022.18442042313093128296@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Thu, 09 Feb 2023 16:06:13 -0000
+Message-Id: <167595877387.5123.14241299500995321381@gitolite.kernel.org>
 
---===============7197739306617174803==
+--===============3347089162054728683==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.3
+  - ref: refs/heads/asoc-6.3
     old: 65f0a8ea90d2fc2e79a616143f844047e25057c8
     new: 2512839dd648ffa2c2a752e1403aaeb928cff71a
     log: |
@@ -25,28 +25,28 @@ changes:
          2512839dd648ffa2c2a752e1403aaeb928cff71a ASoC: SMA1303: Remove the sysclk setting in devicetree
          
 
---===============7197739306617174803==
+--===============3347089162054728683==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1675958766 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1675958765-f84580ae2efdf133b29067da410cadb88800d963
+pusher C3F436CA30F5D8EB 1675958772 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1675958771-04b92b75f92983ff729dcab862fa2fa389d2982c
 
-65f0a8ea90d2fc2e79a616143f844047e25057c8 2512839dd648ffa2c2a752e1403aaeb928cff71a refs/heads/for-6.3
+65f0a8ea90d2fc2e79a616143f844047e25057c8 2512839dd648ffa2c2a752e1403aaeb928cff71a refs/heads/asoc-6.3
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmPlGe4ACgkQJNaLcl1U
-h9A8Dgf+KRE1MSiv6kuSVK6Cbj2+SC9Ttckcf2EHxCmXd8zU9m0J+6TsNd9Ib0lq
-AqPFmyTMtTqOxEh4mup2j3NwxhHjI2ghyF+oqMiDFah04Fi9+72gEhT4/KbWULBC
-+EY8xneCvbS9Dc7TP2S5Abch3uJJe3MeTczx2dCmWLBXtqbJtDFPtQ2nlslsk/3o
-Wo0AWT7FEVbQwE6uC0pxM70vXz163sox0i28CIculPoSDTXs4mDmNbAk0MBZgjpz
-oRZBEOtvF6eR/DtKMa2NSbO1klWCGyeEP01weJ07xaU+3S28v4WIiyxs8DQfm3A2
-dcR0mKVL1/uY6rjjvDUpeYMXwXN3aQ==
-=a8I0
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmPlGfQACgkQJNaLcl1U
+h9ArMQf/Xatb+Rhvx4lL5kGpocXI7Fh1I3Db+EvHHIRFyg483hN8Bkl5+pTHh2Oz
+SqERFRxzl8WYwst3c9R1mTl1OjmqB0wfYU2/SIDLBjS9h1teMGGFg+SRCYikPxV1
+Fne4WrhnqvGFY4bc2zyOtUWopi8BxWQHwfNMDqhNH0JhchiLNJ5fb1lGE4BxuwJ7
+6rkaqkpRRICAmyg9RTtMy1lWTdxFytwna1FmXSe229NsFhX5exDIzACtLsgc2dga
+c7RRcpITB6QqeU5j28nxF1755M9+5z4tpkI0ELETiBr3iJLnVSGfWtVSYlEJZXMo
+D25gGybV6Ok+32WF0hgdZ5dqR4QaeQ==
+=rLux
 -----END PGP SIGNATURE-----
 
---===============7197739306617174803==--
+--===============3347089162054728683==--
