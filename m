@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Thu, 09 Feb 2023 11:31:19 -0000
-Message-Id: <167594227931.14990.7666115986737909526@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/efi/efi
+Date: Thu, 09 Feb 2023 11:39:13 -0000
+Message-Id: <167594275369.18858.6728660712137839638@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/efi/efi
+user: ardb
 changes:
-  - ref: refs/heads/fileDTNqhu
-    old: 0000000000000000000000000000000000000000
-    new: 2512839dd648ffa2c2a752e1403aaeb928cff71a
-  - ref: refs/heads/v3_20230202_amit_kumar_mahapatra_spi_add_support_for_stacked_parallel_memories
-    old: 0000000000000000000000000000000000000000
-    new: b1bff13bcb2439c0ba5142fb0851ad602f3a4a02
+  - ref: refs/heads/urgent
+    old: 966d47e1f27c45507c5df82b2a2157e5a4fd3909
+    new: 190233164cd77115f8dea718cbac561f557092c6
+    log: |
+         190233164cd77115f8dea718cbac561f557092c6 arm64: efi: Force the use of SetVirtualAddressMap() on eMAG and Altra Max machines
+         
