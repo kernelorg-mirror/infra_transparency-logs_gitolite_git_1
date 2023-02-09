@@ -1,84 +1,82 @@
-Content-Type: multipart/mixed; boundary="===============4357899988879573763=="
+Content-Type: multipart/mixed; boundary="===============2057513853873444189=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Thu, 09 Feb 2023 08:26:01 -0000
-Message-Id: <167593116163.10313.17731089498315958023@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Thu, 09 Feb 2023 08:26:56 -0000
+Message-Id: <167593121697.10675.3972274942999824857@gitolite.kernel.org>
 
---===============4357899988879573763==
+--===============2057513853873444189==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/tty
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-next
-    old: f6b2ce79b5fbbb330f56262f0f4373d6af60b602
-    new: 684ae4f9513c2bb9443794608b7fc754c4ca2483
-    log: revlist-f6b2ce79b5fb-684ae4f9513c.txt
+  - ref: refs/heads/driver-core-next
+    old: 5cdc03c5cf471a215c57e540cc86be613c0ba457
+    new: fb42378dcc7f247df56f0ecddfdae85487495fbc
+    log: revlist-5cdc03c5cf47-fb42378dcc7f.txt
 
---===============4357899988879573763==
+--===============2057513853873444189==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1675931161 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1675931160-cc4678cf3ce7b70b8c83baf684fc737f96521e03
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1675931216 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1675931215-5259c34b2d0412589fc58335776660cbe182e23a
 
-f6b2ce79b5fbbb330f56262f0f4373d6af60b602 684ae4f9513c2bb9443794608b7fc754c4ca2483 refs/heads/tty-next
+5cdc03c5cf471a215c57e540cc86be613c0ba457 fb42378dcc7f247df56f0ecddfdae85487495fbc refs/heads/driver-core-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPkrhkbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+50QP/0zk+MZW6hFLNYisptmp
-m8YsvzPCwG6XiHDRpMly65Ml24WbWBkQpoR6Pd17RuWVJ281YJxx+cHh8TScQWUS
-9lpypOeLC3Bh1WGeSYHALnHil2lld4+foFEXiNfFxZig9XMYiTHdn9hpy/5WMn6t
-aNaQDBk6+lx+y81GEGGezs+AC7oeE1JIdbrzlvy2rE5PAmsDTQ68xSHagGaK812c
-qWgthHb85HQH3m2Pyxy7JhxpDrhxjSMvGws+97t+w3uXLhC5zu/DGJIC0eA9TdPy
-6xVPDbhkKsQpYfvPFET3/1wdzwUdPHpK1SdtRKUzaq/Tpif4kIwE8PXlekmT+fJe
-cIpzafPJPOxyG/kCXBjjdukpuFa8D2Uwcd8pTGTfG/LjjpWlx0O20J7/Wkt0srgy
-lguKIevlhS9G2mSohK+t2RapCjwaIsasw7VFfK0Zvu4oIsDtiI3sS8r6mQqVvg+9
-8gW5s21Vf75kqDuFsW5t5thxnvhTX/NRGx1M2vZ/k53ZXkkwEKwdHA9DYQP3p7K+
-rVU39BSjm/bI5vmjjXCGsxnNbvqwVzuBmJoe7mMw9pnY7SfpF0l0FYEzcfx4+lWc
-ww3N3xnSaxjKWEs7PbDV1WTXglRLcKF7d2c/rl6GFYSIr15PPe93nYzsktgWmd2Y
-S2Tx9m2Kis2bQU8ssL1jTFDe
-=TN72
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPkrlAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+I/UQAKLHhTg+2oxAMZFjJn60
+HDek3fC9oWLQ1WoqdhPfTpmUTADT2cTUueSxGVwpRDXHM6OKWF+T9C3vljNnZuo1
+aTaDI3G0rGlhjlQGXGuDsQScl0AnsR/bG+76HaoB3OuvUj71kl1BYdZMjRJDo8e/
+IxGDlkcm8I7VlEt0EzdP5eOCKeN1tZy5fu0rFSfA5fhEJlZZds08ygArUf3mwyX4
+OuYFxnwzX0/HRGoMOH+Dp282lcF44SSxD+29AmmvnohlwO1KD/UuEqRyjwisTIwx
+VZ71hy9F6BPu7XT8K17xlv1hR0vN/ykts3xJUXKUQ3Z4q4wzdEdTLVhha6R/UPUp
+6L/thSUaIo8qGn6tf8cfr7Escj6CZGwRwVO+LumlwQO7QUiJ8Pp19AeZIS2sa8uA
+7f2a86YiR/rUpZfFjYbl/GT09avRAdrkIVxJ6aaBRiyBCiOXiTaum0dWIUTzF6Rx
+HGl7/y7Dz41C0kr85Fj8EiS8e9QIEmir/IW3lIo/vJR9LlgQOeHqGXzrNFnFuj4c
+6sM0Pv2HCzQ9hSAVs6qirRYlUUimk0JRiyQA3GdaYQX18t8QRekqwkd1FbF0t4b4
+tWFVhgbdF/lDXmuAvN/dkX4XJg4KQYOWKDVuv2xubdE/vJonRrXJpoYX8W67bpK/
+f1VEOb9l7gxeyVXQ/0NFhiqG
+=E9ei
 -----END PGP SIGNATURE-----
 
---===============4357899988879573763==
+--===============2057513853873444189==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f6b2ce79b5fb-684ae4f9513c.txt
+Content-Disposition: attachment; filename=revlist-5cdc03c5cf47-fb42378dcc7f.txt
 
-3957b9501a5a8fa709ae4a47483714491471f6db serial: fsl_lpuart: fix RS485 RTS polariy inverse issue
-ef25e16ea9674b713a68c3bda821556ce9901254 tty: serial: imx: disable Ageing Timer interrupt request irq
-760aa5e81f33e0da82512c4288489739a6d1c556 hvcs: Use dev_groups to manage hvcs device attributes
-503a90dd619d52dcac2cc68bd742aa914c7cd47a hvcs: Use driver groups to manage driver attributes
-3a8d3b366ce47024bf274eac783f8af5df2780f5 hvcs: Get reference to tty in remove
-d432228bc7b1b3f0ed06510278ff5a77b3749fe6 hvcs: Use vhangup in hotplug remove
-28d49f8cbe9c7966f91ee1b5ec2f997f6e55bf9f hvcs: Synchronize hotplug remove with port free
-04a189c720aa2b6091442113ce9b9bc93552dff8 tty: pcn_uart: fix memory leak with using debugfs_lookup()
-0348386dab3711b8caa0422c2a4852913b8bf4d7 serial: 8250_pci: Add serial8250_pci_setup_port definition in 8250_pcilib.c
-32bb477fa7bf386ce87837691c4672854a5231e4 serial: 8250_pci1xxxx: Add driver for quad-uart support
-08cedda0b3852c0f47a94e64eb586b5507d797f1 serial: 8250_pci1xxxx: Add RS485 support to quad-uart driver
-8cf31a99d3a53a68f7032452cb7de3203b8200c8 serial: 8250_pci1xxxx: Add power management functions to quad-uart driver
-d45fb2e430e54fac6af3cabb39c36171c4bf3f52 serial: imx: factor-out common code to imx_uart_soft_reset()
-496a4471b7c3ae5c0be1a3fccd69e7debc127e08 serial: imx: work-around for hardware RX flood
-e1c6a7e5f87d66fce5c6890845400f8425acda4f serial: imx: do not sysrq broken chars
-fbf971701d03ede858f5ca8b8b8e328671ab04f4 serial: imx: do not break from FIFO reading loop prematurely
-0fbca4798af88c20a2b9e4c98ac762408a24b668 serial: imx: remove redundant USR2 read from FIFO reading loop
-53701b6d2ce7202cff88943ee812917c896a8e90 serial: imx: stop using USR2 in FIFO reading loop
-2af4b918848b4102f0bf5761057e2506258e0bb8 serial: imx: refine local variables in rxint()
-f2d9fbb6f4a7175ce41afe292d46685ef7752a67 serial: imx: get rid of registers shadowing
-9bd6dcb8ccb1a7d18534a88ff0d11e466a3a98a4 tty: n_gsm: mark unusable ioctl structure fields accordingly
-42ec0b93e47f72bc701799330e67e4cef2df02c5 tty: n_gsm: add RING/CD control support
-684ae4f9513c2bb9443794608b7fc754c4ca2483 tty: n_gsm: add TIOCMIWAIT support
+8deb87b1e810dd558371e88ffd44339fbef27870 drivers: base: component: fix memory leak with using debugfs_lookup()
+36c893d3a759ae7c91ee7d4871ebfc7504f08c40 drivers: base: dd: fix memory leak with using debugfs_lookup()
+8518e9db9f95d7beb453e46ee97e1a630680c4b5 const_structs.checkpatch.pl: add kobj_type
+dda6b81f17ad8e72f8bc151c876cd335a471e268 kobject: make dynamic_kobj_ktype and kset_ktype const
+c83d9ab42f1ef70d81bb3c637a12c098a9a05057 driver core: make kobj_type structures constant
+862f6a84d1bf01435fdd6aa8b2811c88ab1f06f4 samples/kobject: make kobj_type structure constant
+5f5139974c2030e0937d3ae01f17da1238281f11 kernel/time/test_udelay.c: fix memory leak with using debugfs_lookup()
+a0bc3f78d0fffa8be1a73bf945a43bfe1c2871c1 kernel/power/energy_model.c: fix memory leak with using debugfs_lookup()
+2bb3669f576559db273efe49e0e69f82450efbca kernel/fail_function: fix memory leak with using debugfs_lookup()
+3a2dbc510c437ca392516b0105bad8e7970e6614 driver core: fw_devlink: Don't purge child fwnode's consumer links
+411c0d58ca6faa9bc4b9f5382118a31c7bb92a6f driver core: fw_devlink: Improve check for fwnode with no device/driver
+8640166f01fe42f2e4a73ab92c797b97b467927d soc: renesas: Move away from using OF_POPULATED for fw_devlink
+38dfa56b3db354b4bd399fc686c3e74ad32ffa57 gpiolib: Clear the gpio_device's fwnode initialized flag before adding
+67cad5c67019c38126b749621665b6723d3ae7e6 driver core: fw_devlink: Add DL_FLAG_CYCLE support to device links
+6a6dfdf8b3ff337be5a447e9f4e71969f18370ad driver core: fw_devlink: Allow marking a fwnode link as being part of a cycle
+cd115c0409f283edde94bd5a9a42dc42bee0aba8 driver core: fw_devlink: Consolidate device link flag computation
+3fb16866b51ded6c016b664caad53f8d4fd9dc56 driver core: fw_devlink: Make cycle detection more robust
+4a032827daa89350365166b19d14d82fe8219128 of: property: Simplify of_link_to_phandle()
+e2bbea770cafb7e19bbb6cd77fad3c1c6fb4cca5 irqchip/irq-imx-gpcv2: Mark fwnode device as not initialized
+96da4a99ce507bb98e2ba77018a2f91999c8c12b firmware: arm_scmi: Set fwnode for the scmi_device
+fb42378dcc7f247df56f0ecddfdae85487495fbc mtd: mtdpart: Don't create platform device that'll never probe
 
---===============4357899988879573763==--
+--===============2057513853873444189==--
