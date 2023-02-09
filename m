@@ -1,21 +1,67 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
-Date: Thu, 09 Feb 2023 13:50:03 -0000
-Message-Id: <167595060360.11272.6292886899223916493@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============2558786875579249028=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
+Date: Thu, 09 Feb 2023 13:50:30 -0000
+Message-Id: <167595063074.11574.8484185660417841364@gitolite.kernel.org>
+
+--===============2558786875579249028==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/hid/hid
-user: bentiss
+repo: pub/scm/linux/kernel/git/soc/soc
+user: arnd
 changes:
-  - ref: refs/heads/for-6.3/i2c-hid
-    old: 4122abfed2193e752485282370abf5c419f05cad
-    new: eb16f59e8e584e94d68098da86e70f9c4e54fa86
-    log: |
-         557e05fa9fdd0184890ca206cdec250cdd30375e HID: i2c-hid: goodix: Stop tying the reset line to the regulator
-         1d18c1f3b7d938bdefc44289d137b4e6c7a3d502 dt-bindings: HID: i2c-hid: goodix: Add mainboard-vddio-supply
-         eb16f59e8e584e94d68098da86e70f9c4e54fa86 HID: i2c-hid: goodix: Add mainboard-vddio-supply
-         
+  - ref: refs/heads/for-next
+    old: 33f4b11d49520b7fa3b33ee2820327d329daa417
+    new: 78a9f460e33d103256f3abb38f02f4759710c7dc
+    log: revlist-33f4b11d4952-78a9f460e33d.txt
+
+--===============2558786875579249028==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-33f4b11d4952-78a9f460e33d.txt
+
+abe38831a5ff77336df008cbc831d7302bb51e14 dt-bindings: arm: aspeed: add Facebook Greatlakes board
+c3769d87f3fc1773dfadbeb63f4e3b3110159587 ARM: dts: aspeed: greatlakes: Add Facebook greatlakes (AST2600) BMC
+2ee2a66ae5092281e3b3e6ddda91734dbb54e527 ARM: dts: aspeed: ethanolx: Enable VUART
+a7b322d164cffce24b69fa3e49a3ed9eebd01238 ARM: dts: aspeed: ethanolx: Correct EEPROM device name
+59e099e877d41b3a3ba79e6be425b73965f1aee9 ARM: dts: aspeed: ethanolx: Add label for the master partition
+9664e1ba47fd27e2f21132ba6798c34adcaea288 ARM: dts: aspeed: ethanolx: Enable CTS/RTS pins on UART1
+03d24e12749281f51545c9011fc953ac844df413 ARM: dts: aspeed: ethanolx: Add BIOS flash chip
+107fb95f7ba14f38003218c7e340d8431c2e1d50 ARM: dts: aspeed: bletchley: Rename flash1 label
+c021d9fe410adadf35a835098073e4528f2db728 ARM: dts: aspeed: bletchley: Enable wdtrst1
+8803d9438ef65c96b03ae95472e19b3ac072c930 arm: dts: aspeed: tyan s8036: Enable kcs interrupts
+4fa180f7fc1921e235f80e4672c80b560b4946c7 dt-bindings: vendor-prefixes: Add prefix for Ufi Space
+64e4f2412f548a8537b9da44267f7490e294edf8 dt-bindings: arm: aspeed: document Ufispace NCPLite BMC
+28cfb03afcb20a841e96e821ba20870a7c437034 ARM: dts: aspeed: Add device tree for Ufispace NCPLite BMC
+1480bcf074d34e754990204240f8473cdbef0072 ARM: dts: aspeed: p10bmc: Enable UART2
+250d6747fdd8f347cebd81f9fa932b75a841cea2 ARM: dts: at91: sam9x60: Fix the label numbering for the flexcom functions
+84f23f3284d5e7c85d9240382b536c4aaea90469 ARM: dts: at91: sam9x60: move flexcom definitions
+35052e8bc848399592905bd8dd4d239e19c51436 ARM: dts: at91: sam9x60: fix spi4 node
+bfbde8f751cc2a9bbc184853066c927173d147df ARM: dts: at91: sam9x60: Specify the FIFO size for the Flexcom UART
+4be5375b3c351b5c3d7d54d7a9b541d7c589bf94 ARM: dts: at91: sam9x60: Add DMA bindings for the flexcom nodes
+99c8083358772362bcf157b752cec9a00445d97a ARM: dts: at91: sam9x60: Add missing flexcom definitions
+6f712a3081c952f75f55414695902263d70628eb dt-bindings: arm: at91: Add info on sam9x60 curiosity
+3048a4deee801c549259fe044f71a3fcd55591a8 ARM: dts: at91: sam9x60_curiosity: Add device tree for sam9x60 curiosity board
+153927e6f6c9e14bf167538ffaba315559e8a342 Merge tag 'aspeed-6.3-devicetree' of git://git.kernel.org/pub/scm/linux/kernel/git/joel/bmc into arm/dt
+2a03c600fe7e0258df654a0c21a23231dba25b9a ARM: dts: uniphier: Align node names for SoC-dependent controller and PHYs with bindings
+2d1bf1fc778b8795cb478f261013b662bc62101a ARM: dts: uniphier: Add missing reg properties for glue layer
+76b2cb8a7023c48cc3d4a14089b2b2fa59d7c87d ARM: dts: uniphier: Add syscon compatible string to soc-glue-debug
+1ae6e6bc7227ced299db13457579b0ce1526c78d ARM: dts: uniphier: Add syscon-uhs-mode to SD node
+5ebfa90bdd3d78f4967dc0095daf755989a999e0 arm64: dts: uniphier: Align node names for SoC-dependent controller and PHYs with bindings
+f45d6207159583175a07c947b69a46e3f9a261b6 arm64: dts: uniphier: Add missing reg properties for glue layer nodes
+f4d624a174880dec7eefdd26f860d5c92cbeff9a arm64: dts: uniphier: Add syscon compatible string to soc-glue-debug
+a8d3f2d9d2cc3e420ce58b4888cfc4bf4a53a38e arm64: dts: uniphier: Add syscon-uhs-mode to SD node
+2508d5efd7a588d07915a762e1731173854525f9 arm64: dts: uniphier: Fix property name in PXs3 USB node
+306b8201b0bb625853efd6da5c5d7a22a1ecc123 Merge tag 'at91-dt-6.3-2' of https://git.kernel.org/pub/scm/linux/kernel/git/at91/linux into arm/dt
+637581ce60403a27712c657453a210c8fd17cc66 memory: renesas-rpc-if: Remove redundant division of dummy
+37702f08cca39f390b9f9d480c2b77e1b305dc89 Merge branch 'soc/drivers' into for-next
+127cd064a4c66b97412aa43ad34aa76ab9c78762 Merge branch 'arm/dt' into for-next
+78a9f460e33d103256f3abb38f02f4759710c7dc soc: document merges
+
+--===============2558786875579249028==--
