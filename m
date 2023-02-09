@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1848762590010450426=="
+Content-Type: multipart/mixed; boundary="===============4415558610265510145=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Thu, 09 Feb 2023 16:28:16 -0000
-Message-Id: <167596009635.20463.16601470929737687172@gitolite.kernel.org>
+Date: Thu, 09 Feb 2023 16:28:52 -0000
+Message-Id: <167596013291.20771.14741805743392181342@gitolite.kernel.org>
 
---===============1848762590010450426==
+--===============4415558610265510145==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: e6ebe6c12355538e9238e2051bd6757b12dbfe9c
-    new: 5131a053f2927158fb42880c69b5dc0d2e28ddee
-    log: revlist-e6ebe6c12355-5131a053f292.txt
+  - ref: refs/heads/dev-queue
+    old: 8d6224a783cda9387f3203729a4726ed90b34fdc
+    new: fc16b3b9f378b0a3899c4ae092d28bc008381d5b
+    log: revlist-8d6224a783cd-fc16b3b9f378.txt
 
---===============1848762590010450426==
+--===============4415558610265510145==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e6ebe6c12355-5131a053f292.txt
+Content-Disposition: attachment; filename=revlist-8d6224a783cd-fc16b3b9f378.txt
 
 9b2e3723728efe03433be5c13b31da451d88ee3d net/mlx5: Introduce CQE error syndrome
 7802886274cc850a205e9e334c5a1b1b743ea71c mlx5: reduce stack usage in mlx5_setup_tc
@@ -52,5 +52,43 @@ f978fa41f66dadae8a4563aadcfdc6ca25691f54 net: libwx: clean up one inconsistent i
 3ca11619a3cb7e4aa154fb5d89beb8706b5ff403 net: libwx: Remove unneeded semicolon
 9245b518c89fcc38f189a734cd0b78ba61a68d89 Merge tag 'mlx5-next-netdev-deadlock' of git://git.kernel.org/pub/scm/linux/kernel/git/mellanox/linux
 5131a053f2927158fb42880c69b5dc0d2e28ddee Merge tag 'linux-can-next-for-6.3-20230208' of git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can-next
+bc61327cc6a2ca6de39a9f964fd31c1c3908e3e7 ice: Add GPIO pin support for E823 products
+10a114f315859fbc69d2515d1f086f02dfd98cfa ice: Add crosstimestamping on E823 devices
+4c76e56f4ccc5c3a5c4eeebcea9b8b98cdc099d1 ice: Fix off by one in ice_tc_forward_to_queue()
+f966bc8e8aec582d083bb8dcd0e1602034b5e539 igc: Clean up and optimize watchdog task
+f9f61a9017568645658f42b29fdc0f1da2de360b intel/igbvf: free irq on the error path in igbvf_request_msix()
+885dcae67e3db94e8014e72104883beb0d800e59 igb: Enable SR-IOV after reinit
+e268ed614f0f7a930171c437d6a4ae9e499bb3fc igbvf: Regard vf reset nack as success
+10aa8fc091d63462e536c6fb6c5a42867c4699ab igb: conditionalize I2C bit banging on external thermal sensor support
+8400afce8c836df6a4afcc122e37512908d38de3 ice: switch: fix potential memleak in ice_add_adv_recipe()
+b427f0b2f837e6a3c272a1bfb2ef5d6b4a8c9ba9 igc: Add qbv_config_change_errors counter
+e35c65e9b9c37a15c9db8efe1a3feb7585cb28e6 i40e: Add flag for disabling VF source pruning
+31fd3bb948da21423f233008bd544f6b932a75ca ice: fix out-of-bounds KASAN warning in virtchnl
+c1d2080931a4ace44ad38e297348624df788f6d5 ice: Change ice_vsi_realloc_stat_arrays() to void
+cdb661ca760c1031f7c60793497d56d2dfbeb6bc net/i40e: Replace 0-length array with flexible array
+7408ee705cae30885885c81f4c91d59f194e8872 i40e: Remove unused i40e status codes
+b48d76744d33e3c262aac524e61185ec526b92c0 i40e: Remove string printing for i40e_status
+a3b32f247d531ac5454c8d6cad53faa20bdbc23b i40e: use int for i40e_status
+149df5039fe9fa36ae263e2551a274adba40a5a6 i40e: remove i40e_status
+4fc5f12fb7a6e018e985d173824c3ded8a5c7b41 i40e: use ERR_PTR error print in i40e messages
+ce1ada0665a91f95525177e59427f9ab27736746 igc: Add ndo_tx_timeout support
+2d17fbd91f806a740095d53a0c4b554a337e0fff ice: Fix disabling Rx VLAN filtering with port VLAN enabled
+4d151f86bb992e7521e19bf22238ca4e2e823f3e ice: Mention CEE DCBX in code comment
+e32482115245fd81ef75dbe738886dc377c07a84 ice/ptp: fix the PTP worker retrying indefinitely if the link went down
+f1731a931f15a9eeee16396f3c11daf89ef55817 ice: remove FW logging code
+96b2a0d788432b92e973c7a4cf94b18ec9c6198f ice: enable devlink to check FW logging status
+9f68b3aa6917d6c3361ce238d7ea7bcec78fe108 ice: add ability to query/set FW log level and resolution
+c19b6dd57b54e5e254fda9b41a5ec60f86231213 ice: disable FW logging on driver unload
+41bcae2867a7b965010f950bd5d3371612f9687a ice: use debugfs to output FW log data
+782ae0adabdbfa6f7e3827a404aca0182f1ba43a ice: Fix check for weight and priority of a scheduling node
+d476403642255fe598533d801b203550724b964a ice: Do not use WQ_MEM_RECLAIM flag for workqueue
+2251ce11245b5aadf6b15355712132dc7af6242f ice: Fix DSCP PFC TLV creation
+89fa9c0a6f798289731f78a829f5239b05572cd6 i40e: Add checking for null for nlmsg_find_attr()
+7ce3ff5bf730df89cba4217ee6c2be0f92d27481 igb: Fix PPS input and output using 3rd and 4th SDP
+50b92f0d11b481aa51e4e262b6f286d4504f70ee ice: fix lost multicast packets in promisc mode
+6462d6bccce7faeee625c1852da4b2715a2dd4ef ice: add support BIG TCP on IPv6
+ae730763137f240b581d49403477acd0785df912 ixgbe: allow to increase MTU to 3K with XDP enabled
+30a03be101405ae5cd10744521d3b94f7af555c1 i40e: add double of VLAN header when computing the max MTU
+fc16b3b9f378b0a3899c4ae092d28bc008381d5b ixgbe: add double of VLAN header when computing the max MTU
 
---===============1848762590010450426==--
+--===============4415558610265510145==--
