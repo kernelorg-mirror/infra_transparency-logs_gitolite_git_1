@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 09 Feb 2023 10:00:03 -0000
-Message-Id: <167593680364.21308.17172364588090997133@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mark/linux
+Date: Thu, 09 Feb 2023 10:02:56 -0000
+Message-Id: <167593697637.22237.8624327105513911479@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: pabeni
+repo: pub/scm/linux/kernel/git/mark/linux
+user: mark
 changes:
-  - ref: refs/heads/master
-    old: f753a68980cf4b59a80fe677619da2b1804f526d
-    new: 2fcde9fe258ec8b88d41def38e43ca4da32c0a9a
-    log: |
-         2fcde9fe258ec8b88d41def38e43ca4da32c0a9a net: mscc: ocelot: fix all IPv6 getting trapped to CPU when PTP timestamping is used
-         
+  - ref: refs/heads/arm64/sysreg
+    old: 5744d345981ae0b0f998d284adde8b335dffbeb6
+    new: 0000000000000000000000000000000000000000
