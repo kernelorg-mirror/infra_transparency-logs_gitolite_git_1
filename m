@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jpoimboe/linux
-Date: Thu, 09 Feb 2023 19:11:02 -0000
-Message-Id: <167596986238.871.3823321587946745117@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Thu, 09 Feb 2023 19:12:42 -0000
+Message-Id: <167596996299.1546.7483021615354142998@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jpoimboe/linux
-user: jpoimboe
+repo: pub/scm/linux/kernel/git/tip/tip
+user: tglx
 changes:
-  - ref: refs/heads/klp-need-resched
-    old: f5a8c3580a7eb9049c53580d143cd910ee3d4ef6
-    new: 76622971662bbd42abc9a1b25a73a8c3ac929ca3
+  - ref: refs/heads/timers/core
+    old: 915d4ad3830aa1a2dafda9b737749fb410cb9790
+    new: 5b268d8abaec6cbd4bd70d062e769098d96670aa
     log: |
-         58cd637f7557e829142a2eb255daa91fa57e6321 livepatch,sched: Add livepatch task switching to cond_resched()
-         76622971662bbd42abc9a1b25a73a8c3ac929ca3 vhost: Fix livepatch timeouts in vhost_worker()
+         5b268d8abaec6cbd4bd70d062e769098d96670aa time/debug: Fix memory leak with using debugfs_lookup()
          
