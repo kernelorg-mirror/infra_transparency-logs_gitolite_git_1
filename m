@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Thu, 09 Feb 2023 19:27:33 -0000
-Message-Id: <167597085349.12498.1469571863914626428@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
+Date: Thu, 09 Feb 2023 19:30:28 -0000
+Message-Id: <167597102895.15023.1723777080242742502@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/riscv/linux
+user: palmer
 changes:
-  - ref: refs/heads/master
-    old: 9393203ff3653d761036ab47428c13f27f61bf81
-    new: 6e50f20a3e2078b50d3845553bb2ade131c26e93
+  - ref: refs/heads/fixes
+    old: 2f394c0e7d1129a35156e492bc8f445fb20f43ac
+    new: cb80242cc679d6397e77d8a964deeb3ff218d2b5
     log: |
-         6e50f20a3e2078b50d3845553bb2ade131c26e93 Thu Feb  9 07:25:56 PM UTC 2023
+         f0293cd1f4fcc4fbdcd65a5a7b3b318a6d471f78 riscv: mm: Implement pmdp_collapse_flush for THP
+         cb80242cc679d6397e77d8a964deeb3ff218d2b5 riscv: stacktrace: Fix missing the first frame
          
