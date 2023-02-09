@@ -1,58 +1,46 @@
-Content-Type: multipart/mixed; boundary="===============5359060008249080190=="
+Content-Type: multipart/mixed; boundary="===============7997927406415765695=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Thu, 09 Feb 2023 14:54:19 -0000
-Message-Id: <167595445944.21691.8914092571009830157@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
+Date: Thu, 09 Feb 2023 14:56:48 -0000
+Message-Id: <167595460834.23953.13952603631227630637@gitolite.kernel.org>
 
---===============5359060008249080190==
+--===============7997927406415765695==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/driver-core
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/kdave/linux
+user: kdave
 changes:
-  - ref: refs/heads/kobject-const-2
-    old: 84431021ab88f4e6809cfa1c1a38adbcd38a4f68
-    new: 1a8e29e728f7bcf69518e6e123f093fbf8c21480
-    log: |
-         60bc304e2877c9c499c900e317a094284f975d39 sh: dma-sysfs: move to use bus_get_dev_root()
-         f4194b29902e7fdd2ced65ab89208c7b3415e5d8 s390/topology: move to use bus_get_dev_root()
-         1a8e29e728f7bcf69518e6e123f093fbf8c21480 s390/smp: move to use bus_get_dev_root()
-         
+  - ref: refs/heads/for-next
+    old: 80af816e04b5db5bfa7c7ad5e22ac011479480fb
+    new: 8732217021da07789ce2a510e021879af009285a
+    log: revlist-80af816e04b5-8732217021da.txt
 
---===============5359060008249080190==
+--===============7997927406415765695==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-80af816e04b5-8732217021da.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1675954455 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1675954454-701ea43e82d0ae19591bd7f69785334293cb2ab9
+4bee6b3d242fc89fddaa70be6b75778749fc52f8 btrfs: raid56: simplify error handling and code flow in raid56_parity_write
+9702fe35f481ac6f8fcf242eb8e75d677bae0ecd btrfs: raid56: simplify code flow in rmw_rbio
+e0b8235f3ac2172774d24f0eccf6ea0eb5661954 btrfs: raid56: wait for I/O completion in submit_read_bios
+9addea71b07fba94822f1f443257eac3a9366892 btrfs: raid56: add a bio_list_put helper
+a6ea2d8ea67e30cbd61099ce81700e9ec92be9d5 btrfs: raid56: fold recover_assemble_read_bios into recover_rbio
+e9c603d5e43b58396889e66b94a3fac7fa55d80b btrfs: raid56: fold rmw_read_wait_recover into rmw_read_bios
+57380c8383dcc071ca2d6a42ff0dd3a8d43dbc3e btrfs: raid56: submit the read bios from scrub_assemble_read_bios
+71c7e18af8732f404432c44c959a3caa082dcd60 btrfs: raid56: handle endio in rmw_rbio
+dcecec80f444169dec24c4f504c642cc6a8c06b4 btrfs: raid56: handle endio in recover_rbio
+f0d705729af8b40014d2e1f2547f0c5a8bf5622f btrfs: raid56: handle endio in scrub_rbio
+0ae9d951532360d49fdc15344f36e515cb0cb542 btrfs: locking: use atomic for DREW lock writers
+03757550d9c346c37e1fa11ffa29e4afa6b85c56 Merge branch 'misc-next' into for-next-next-v6.2-20230209
+777e285c057db868b028fa9a00db1653f00ef53e Merge branch 'misc-6.2' into for-next-current-v6.1-20230209
+a3a2df61868958d351936b798941098e8a18d8ab Merge branch 'dev/drew-lock-atomic' into for-next-next-v6.2-20230209
+26efc383471e4719706e4f8f07a3e38191e9cc48 Merge branch 'for-next-current-v6.1-20230209' into for-next-20230209
+8732217021da07789ce2a510e021879af009285a Merge branch 'for-next-next-v6.2-20230209' into for-next-20230209
 
-84431021ab88f4e6809cfa1c1a38adbcd38a4f68 1a8e29e728f7bcf69518e6e123f093fbf8c21480 refs/heads/kobject-const-2
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPlCRcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+qqMQALZgjFVW87N82TG/m7Tz
-gu5OKFH/QUbibcws65Q/JMF/+ioBuNxFp8Ik6sJqlmbSQeS9IIF8U8HBgYYdG/m+
-VqtbZls4/lJBp/IRESl2eCBr3a+4VPCEnjHaJ/Ivn1rhUIQbofMHTmdOUsRxwdxD
-0hlvs3aO+wjIynvAq3c91GFC9SnncBjOtrEENxvrmxo+TyRhoUuS8+aiU3k4yP6u
-hryI0+MTEh9T2xUn+5hexHyYztXhRSJ5GvbBFg4MqCaZP2Gp/os+dXdfUc35AtT1
-Y05UHTIxi7JDtYq1EQZCTuDpWz03kMh4S53JNeRnOXRG7kbtyGT+wd4OWCbpt112
-Aat4iiaw9acYGnx1TZKTzrLbUnWHQ3eTu1A0AD0tDMmWGg+/ihOR9dTkL3WgphHJ
-m+x1y6sM5n7bShyeZRMUw88X3yZdkjHBFGJkglPxD3kTd4CIkxETES/ESjijUQRq
-J7S09NueGLS9N9mDdyBv6OL8h4AoS4vpM5GiVSSiGOKQpN1V50tg6ZgkgWLb/dZu
-jTVmYR8UWk7UXtE5r0Mz7rOJWoPSbTheT56lgUlDN/l1T2kXcszfXFWh3WbTGvmk
-SRmHcYRukoBGOC5VZhJE0WNor8Zhlb6WaklSiam3+VQwqB9pjQDW52ZJrI6kpKL/
-KiG6mVWGbljpeylFbfPJ0IWf
-=bOev
------END PGP SIGNATURE-----
-
---===============5359060008249080190==--
+--===============7997927406415765695==--
