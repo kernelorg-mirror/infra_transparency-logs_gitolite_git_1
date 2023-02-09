@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0648973999014702441=="
+Content-Type: multipart/mixed; boundary="===============7166745631404664649=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
-Date: Thu, 09 Feb 2023 20:53:17 -0000
-Message-Id: <167597599782.5108.259248633625866232@gitolite.kernel.org>
+Date: Thu, 09 Feb 2023 20:53:32 -0000
+Message-Id: <167597601268.5264.7375713095200344929@gitolite.kernel.org>
 
---===============0648973999014702441==
+--===============7166745631404664649==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/s390/linux
 user: heiko
 changes:
-  - ref: refs/heads/features
-    old: 20e6ce4818b965463d629e690b23d321722f6e09
-    new: 2f09c2ea6c649cb010e0782aed3c96108e693cff
-    log: revlist-20e6ce4818b9-2f09c2ea6c64.txt
+  - ref: refs/heads/for-next
+    old: e00a786462f7f9d1d24f1a84e65d0aca472eacad
+    new: 5cae0b6797dff9f6b614382aa9d5e4d9e3852717
+    log: revlist-e00a786462f7-5cae0b6797df.txt
 
---===============0648973999014702441==
+--===============7166745631404664649==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-20e6ce4818b9-2f09c2ea6c64.txt
+Content-Disposition: attachment; filename=revlist-e00a786462f7-5cae0b6797df.txt
 
 13f62e84385fa0241fc6a2178da50af02189121b s390/cmpxchg: use symbolic names for inline assembly operands
 ce968f654570dbd9cac7de694681640061559d3b s390/cmpxchg: make variables local to each case label
@@ -44,5 +44,7 @@ b0b7b43fcc4666232b4ed65d2c8fa08aff1b6042 s390/vx: add 64 and 128 bit members to 
 a02d584e72aa44eb825fb8fddc008bf93f0dfe85 s390/vx: use simple assignments to access __vector128 members
 be76ea61446095c045641404128bc6862545cda1 s390/idle: remove arch_cpu_idle_time() and corresponding code
 2f09c2ea6c649cb010e0782aed3c96108e693cff Revert "s390/mem_detect: do not update output parameters on failure"
+1315cf6b0a891b3452dc555edee848be7325819e Merge branch 'fixes' into for-next
+5cae0b6797dff9f6b614382aa9d5e4d9e3852717 Merge branch 'features' into for-next
 
---===============0648973999014702441==--
+--===============7166745631404664649==--
