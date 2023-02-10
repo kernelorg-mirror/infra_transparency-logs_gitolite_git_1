@@ -1,57 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============1998078223958403628=="
+Content-Type: multipart/mixed; boundary="===============0117199127386925935=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Fri, 10 Feb 2023 07:26:23 -0000
-Message-Id: <167601398300.8102.2242509755468198754@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
+Date: Fri, 10 Feb 2023 07:28:45 -0000
+Message-Id: <167601412544.8878.2541197875652582132@gitolite.kernel.org>
 
---===============1998078223958403628==
+--===============0117199127386925935==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/staging
+repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-next
-    old: 5cd73e7c60a9cab27b2eb3270b7fd4a79dafee25
-    new: eec8ccab1b5760ae2221bc8235c09eb05a1132c6
+  - ref: refs/heads/tty-next
+    old: 684ae4f9513c2bb9443794608b7fc754c4ca2483
+    new: 370f696e44745b321054496fa351dade03fc4bd9
     log: |
-         296e7dff61cbaf88846ed0aab05be6141ae106d1 staging: rtl8192e: Use BIT() instead of << for bit field MSR_LINK_MASK
-         eec8ccab1b5760ae2221bc8235c09eb05a1132c6 most: add maintainer entry
+         491581f40e4c52c4b36c83e8c75b2210ed7c358a soc: qcom: geni-se: Move qcom-geni-se.h to linux/soc/qcom/geni-se.h
+         370f696e44745b321054496fa351dade03fc4bd9 dt-bindings: serial: snps-dw-apb-uart: add dma & dma-names properties
          
 
---===============1998078223958403628==
+--===============0117199127386925935==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1676013982 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1676013981-09dd4b33ee4777ace54c91bce4db3d1a8622e2f6
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1676014124 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
+nonce 1676014124-f7e8e32d0b42303a41764e1904c1ef1e38c53dd9
 
-5cd73e7c60a9cab27b2eb3270b7fd4a79dafee25 eec8ccab1b5760ae2221bc8235c09eb05a1132c6 refs/heads/staging-next
+684ae4f9513c2bb9443794608b7fc754c4ca2483 370f696e44745b321054496fa351dade03fc4bd9 refs/heads/tty-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPl8Z4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+w18P/R+O7NyDZgWDL9DY6QwP
-Ur2n/wwHqbES0m7bmGGCT5PF1cF8hAjmEO8qnDqef/tcIuzU69p/fPvDmV1jHu/V
-cyKg7Xuusvn3kcJSbwm6Argu7YsxjoPryW7SYs2fi6q6mPqkHanhMyqma1/lncQ4
-uz22t+y1DlVPw0sHwGALfzPO/Cq3+h8gUJQrTwwmz29xusGjsHLvUw06CoIc/Muu
-0b8fFXvMQBfciQYetdou8Y/lApCxyIqBdEremfSokQGOG6zpPCJ53BcyBB4P2loE
-tl/MmU8zxiDfopwP9oO6CWHn+gVC0Rc0XzRfkc1j710QM76po6GEaSxtBiXzq38j
-DRd2rDp9ZuUXBc2f+n0oSF9BbX1x80pq9FCMmS8yqoPwPHjtiXTOvMlSkoOIqSG0
-0Xy5DbTyKOQTTvQj5buWVb0cfUwMVkpwCQMPLjqiOx+LK8Zaa4XtUs3EdoSHUfJ/
-x3gGfZOauTovfl43tz2lMqpfnH7hDsHu0ZeynmuApgcpoSe2CLDrQn5TWaNaLj9a
-ZKIKXoLZ7Vx2fEzLT1nTox6cGm/t3J9SMpgHV0iQeb5nJXgg5oxS1IJfXAg15vir
-88lV73zuAgpf1RrmtWDug6qsUA0gB2hteoOJ22QbptJwDWb0NlWmgA0eVuzV5wQh
-ph4okjAMETSdN0Znut4Z8T52
-=nZhA
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPl8iwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+yWMP/2Fm9CeMuWOTOxpt3eEw
+GSpIVhUI6EfmHt+ftZCjiQLIB6aZ2Hr/me79s2TUAEutKZfmjci3fc7tSjo0eHMy
+BRMNTlHAYEQzuojVQOh6TMxQ6+D9wd1la45Gh+VgsduU+NMMT99Q4GnOLsKrAyFT
+qkWm+tLJcIT5nv67sutXTBLiqVaKyhAXWW0DTv3A+WpBDroYjuQ4PCvAUmU1832d
+abD/lq91+eKsa309GjfLdd7XUmfdCZbkeuih0iSPr0+SKTI9Eu8nN0kmgnAzPXIg
+f0Q6Yn6kQBR2skxORaE8HKvvAonowiu9LxxWjAJldO4qJo0wkcP9wxqhLk4+jG1L
+Y0ny9xcTtZ2CNTKjY8a3bet7E4jP95DCl7lEwS+qOuxwRSyCQWo7v6CiVthDVRjE
+U0MeUoVOe03qVMrehGJzYpoBfydqNKqpwnG0EAUVzIIntzPRkbZSL3RD3upQSn4n
+AGiAzGPhMUa7Lx9SZ3flNhwRU3W4q2uk674Vv/xhOOH9ocqIU/jf1OfFZY6DI1or
+Qkx7oWmScOK5OWIvmo2Gwrd8jo7Lq+TeMrkZN9a+izp1qz95nDKCKVNLim7zeaiw
+70avuQSvakvprK/oB4RLKb4C9bcxQWEae2HoyDcLmRVoGMRXk+fqDbt3IUUR9u1+
+PDQeczVC6rp+Y/kQCMURQmRh
+=eet2
 -----END PGP SIGNATURE-----
 
---===============1998078223958403628==--
+--===============0117199127386925935==--
