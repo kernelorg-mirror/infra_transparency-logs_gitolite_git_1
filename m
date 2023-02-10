@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Fri, 10 Feb 2023 09:25:08 -0000
-Message-Id: <167602110830.23979.3591993787770253791@gitolite.kernel.org>
+Date: Fri, 10 Feb 2023 09:25:19 -0000
+Message-Id: <167602111968.24121.10029278299197099172@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,14 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/sched/core
-    old: 4d627628d7584f3d3add1d53342d0f01aa878e04
-    new: 9f85e9f830f13e32fab79f328c7dea9214cf1fbd
+  - ref: refs/heads/perf/core
+    old: 5d515ee40cb57ea5331998f27df7946a69f14dc3
+    new: f48ad8e865ca26f93ba5ddb4de1e37b0de714b3b
     log: |
-         584626bbdf65aede3a8d4d6507a027ac777640c3 objtool: mem*() are not uaccess safe
-         9f6188297df35112139f961265faf02c0c4d338e sched/fair: unlink misfit task from cpu overutilized
-         9918932ef78a796df590dabd0b36d836896dbf0c sched/fair: Remove capacity inversion detection
-         7e018fa06248f5e7cd41d40134d6fc7866ee595f sched/fair: sanitize vruntime of entity being placed
-         3cf667c86cd3b3dfbf8d32da0216b917d88fc423 sched/deadline: Add more reschedule cases to prio_changed_dl()
-         9f85e9f830f13e32fab79f328c7dea9214cf1fbd sched/rt: pick_next_rt_entity(): check list_entry
+         f48ad8e865ca26f93ba5ddb4de1e37b0de714b3b perf/x86/intel/ds: Fix the conversion from TSC to perf time
          
