@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
-Date: Fri, 10 Feb 2023 19:32:53 -0000
-Message-Id: <167605757318.23103.17233895761003810280@gitolite.kernel.org>
+Date: Fri, 10 Feb 2023 19:34:50 -0000
+Message-Id: <167605769043.23787.9734896822821970091@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,10 @@ repo: pub/scm/linux/kernel/git/firmware/linux-firmware
 user: jwboyer
 changes:
   - ref: refs/heads/main
-    old: 1d62bd00aace1f6d1873edfea97487f68717f262
-    new: 748e967e81720624b184b99e287f149a643146e3
+    old: 748e967e81720624b184b99e287f149a643146e3
+    new: c9e7ae98c737e3ea7f1325e2e19e5423f42b538b
     log: |
-         c1181ae796970b6b48218bd2bdb9392fab0e070f i915: Add DMC v2.11 for MTL
-         748e967e81720624b184b99e287f149a643146e3 Merge branch 'dmc-mtl_2.11' of git://anongit.freedesktop.org/drm/drm-firmware
+         a60d908ace17c455bbd56e21f6b673752fad7013 linux-firmware: Add missing tuning files for HP Laptops using Cirrus Amps
+         2fd61bc5d6d33e6804810418da96b58a0f00a41a linux-firmware: Add firmware for Cirrus CS35L41 on UM3402 ASUS Laptop
+         c9e7ae98c737e3ea7f1325e2e19e5423f42b538b Merge branch 'for-upstream' of https://github.com/CirrusLogic/linux-firmware
          
