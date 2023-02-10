@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6284050445931562000=="
+Content-Type: multipart/mixed; boundary="===============8650078667098709255=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/powerpc/linux
-Date: Fri, 10 Feb 2023 12:58:15 -0000
-Message-Id: <167603389555.16648.13529948795297322734@gitolite.kernel.org>
+Date: Fri, 10 Feb 2023 12:59:39 -0000
+Message-Id: <167603397999.17170.8528792790528063376@gitolite.kernel.org>
 
---===============6284050445931562000==
+--===============8650078667098709255==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/powerpc/linux
 user: mpe
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/next
+  - ref: refs/heads/next-test
     old: 6acecfa485d3de955c35a18730c106ddf1e7600e
-    new: 231635a26513955fea98638e79e0a43734976c3b
-    log: revlist-6acecfa485d3-231635a26513.txt
+    new: 46395332e2c68a37a7067996665e9863e5cbf0e9
+    log: revlist-6acecfa485d3-46395332e2c6.txt
 
---===============6284050445931562000==
+--===============8650078667098709255==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Michael Ellerman <mpe@ellerman.id.au> 1676033883 +1100
+pusher Michael Ellerman <mpe@ellerman.id.au> 1676033977 +1100
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/powerpc/linux
-nonce 1676033882-64921d255b3f2495da5f3a9d1246abbb2570c5dc
+nonce 1676033975-27652a7fb880980a7653fc44b515ded6eaf4bb02
 
-6acecfa485d3de955c35a18730c106ddf1e7600e 231635a26513955fea98638e79e0a43734976c3b refs/heads/next
+6acecfa485d3de955c35a18730c106ddf1e7600e 46395332e2c68a37a7067996665e9863e5cbf0e9 refs/heads/next-test
 -----BEGIN PGP SIGNATURE-----
 
-iQJHBAABCAAxFiEEJFGtCPCthwEv2Y/bUevqPMjhpYAFAmPmP1sTHG1wZUBlbGxl
-cm1hbi5pZC5hdQAKCRBR6+o8yOGlgDy1D/94uJIMQcjTsGXYXZF3zc+QrbKTsns/
-dfMOlTyJsSVWL9Bem/mtdoQ+clur/cdKdx/hiDSQXHaH7+INQfLfBcR3so9Hwt2h
-v+4JtQ9uUO1IzFMt7H8RB1ycLJB3ljGaQGKPhU1W7aS8RVav+LREsQ1bhw52cTeG
-45QwlkpM4hLY3tXRwS0zVtAaFnJ1Rodp+fjcVbwZDeFncDnqyOyrKMkOafiVcbhy
-E8+xOqrnMZm70DJyO3EpCRAEfmIG1Cpt3LIiuvePSzTJhJeNQNQ5jbQEQdJVbxAe
-KNklJL9fomlTUUG14v2Rig63qbY3+aTAjvjlfT06KJzUPt3YBqck8AecnOcBo9jp
-wwn+UcAkF1QJ11DTbOVR48sj8pfYaO+yg5LVk7Ag4iquki3Oy8QYVnti8b4EIRLf
-W7HJX/1RAdi/+xicWHDWEOoAq8TqHTUmFCKb/+xyeYajkS0nIrKFPuhhc4nKd2nk
-blb37lBHGXpJKF2u7ngEkXPjvBpF4md6BTXLbjROjGSTIHJoVBbMsKEJwfUoMbrp
-JOR+IJc4w63RFXnDNBJYoVoXN7z9eVb91TdlvJiNGBBogGlt8iKFBjRWiZb9mu15
-FFOekvp4L0AR5gqYugQ3uefBUBDnleYloaSNmuPsXT4jKJEq+/TtCQRU9ZxepQlV
-rxT3NYwD/5oEjQ==
-=Axsc
+iQJHBAABCAAxFiEEJFGtCPCthwEv2Y/bUevqPMjhpYAFAmPmP7kTHG1wZUBlbGxl
+cm1hbi5pZC5hdQAKCRBR6+o8yOGlgHgYEACYiHVJLvO4hyP0SWivZteO9ZVDMZqv
+DHeR775onZYPz/A1+rfoDECSdWwGFT3bx1EyuT6Mlc73ikzzo5k0sYB4VvpFMJZV
+ePT+/g7gmJ6TRdFAwySreT4e8krzpONeWdTc3SBE1juZHS5INOrLagYkdTbZYPii
+j+ZQiv2DxXDbgnpb+vnxlE7M83PoS3dcU6Q8A7ZSWijm9Fl35GHLl+c4N22Let4O
+vrOpywFjeZdKhySuz+uIwAhxfejtk03JB9NeWEl2kBnBuSbXbsF2V7EQ7rEPci7+
+RTIUSDVimgrODh5cMUqrDGZzFOhvSjnj0wNwKBg6LvXLBUkDqyzMDgezKorvMX2q
+t9oBJ8McFI3pE0f1etWO2D6Sc9UlthYEQff1YvKZ8+i33XtIOIsB0xgMP2JkyWJq
+4ZZoYT6VaT9+KTu6Mt4KXYjOB6vQBM1tIokD1sTfAFmML0w+mfX3eu8xEo3vVHvb
+yMZc65MWbEFQs3NtFQgZDBU+OoF/ONQQ6cT1pY6ib4h0/ewrjRXvX8sK1f9qDv/2
+yrkrOs9Phw6cMDhfEWi0H2i8JEV/pdUZV9/OfZfrv2DFFPlw8KsTspig4SQh5hGN
+y0QMqDIQPBvOcsKqRIy+3F3GNTtP++27B26KXJhWx04EumdXcM6wF2n+Q89fnDW/
+nRJycI23DUqnOQ==
+=Jr2s
 -----END PGP SIGNATURE-----
 
---===============6284050445931562000==
+--===============8650078667098709255==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6acecfa485d3-231635a26513.txt
+Content-Disposition: attachment; filename=revlist-6acecfa485d3-46395332e2c6.txt
 
 2115732e548304e52ca1bbdb714f45f4a2461653 powerpc/mce: log the error for all unrecoverable errors
 d9ab6da64fd15608c9feb20d769d8df1a32fe212 powerpc: Remove __kernel_text_address() in show_instructions()
@@ -84,5 +84,8 @@ dc222fa7737212fe0da513e5b8937c156d02225d powerpc/64: Move paca allocation to ear
 b6e259297a6bffb882d55715284bb5219eefda42 powerpc/kcsan: Memory barriers semantics
 4f8e09106f6e457c6e9a4ce597fa9ae2bda032c3 powerpc/kcsan: Prevent recursive instrumentation with IRQ save/restores
 231635a26513955fea98638e79e0a43734976c3b powerpc/kcsan: Add KCSAN Support
+c2f2b02e6574a204c6c3dcd479686a02c0c8ea7a drm/amdgpu: drop the long-double-128 powerpc check/hack
+40ecc2f183e980125056a49951ff4fbb6cb0b1d2 powerpc/ps3: Change updateboltedpp() panic to info
+46395332e2c68a37a7067996665e9863e5cbf0e9 powerpc/ps3: Refresh ps3_defconfig
 
---===============6284050445931562000==--
+--===============8650078667098709255==--
