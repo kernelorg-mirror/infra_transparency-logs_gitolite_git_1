@@ -1,90 +1,82 @@
-Content-Type: multipart/mixed; boundary="===============1145448346249621651=="
+Content-Type: multipart/mixed; boundary="===============1932102002802321252=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 10 Feb 2023 21:27:18 -0000
-Message-Id: <167606443833.3883.102628173756513884@gitolite.kernel.org>
+Subject: post-receive: pub/scm/git/git
+Date: Fri, 10 Feb 2023 21:29:13 -0000
+Message-Id: <167606455344.4582.5025884495942345228@gitolite.kernel.org>
 
---===============1145448346249621651==
+--===============1932102002802321252==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/next-queue
-user: tnguy
+repo: pub/scm/git/git
+user: junio
 changes:
-  - ref: refs/heads/dev-queue
-    old: fe48d853421c3fb994a6bbac3b28f843fe4c5f7a
-    new: 101e948648d5aa686220308ac349d3ed5d2a1a74
-    log: revlist-fe48d853421c-101e948648d5.txt
+  - ref: refs/heads/next
+    old: 21b0678d19ca98d422ed7f3fad3e2875a54a19af
+    new: 059bc956aa15839586f075b69114f5be3ce6dffa
+    log: |
+         b2182a8730a2ad0a214f9118b5bd5d1f39c89544 name-rev: fix names by dropping taggerdate workaround
+         059bc956aa15839586f075b69114f5be3ce6dffa Merge branch 'en/name-rev-make-taggerdate-much-less-important' into next
+         
+  - ref: refs/heads/seen
+    old: c310514e2aabad876567ec81e7ffe3b12350b8b7
+    new: 981acd0fd44ab15ead01fd03aee9775d4d73f989
+    log: revlist-c310514e2aab-981acd0fd44a.txt
 
---===============1145448346249621651==
+--===============1932102002802321252==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fe48d853421c-101e948648d5.txt
+Content-Disposition: attachment; filename=revlist-c310514e2aab-981acd0fd44a.txt
 
-16d5677ef1041beee18b5709bf5759611ec82875 rxrpc: Use consume_skb() rather than kfree_skb_reason()
-a33395ab85b9b9cff83948a03a1d6d96347935d8 rxrpc: Fix overwaking on call poking
-f789bff2deb3ddae08950f8e4a1e6f41b916c520 rxrpc: Trace ack.rwind
-5a2c5a5b0829ef8bcb5d868145c1d8c1221c5637 rxrpc: Reduce unnecessary ack transmission
-135746c61fa6d7f66dc079027304eaa4d35fe942 net-sysctl: factor out cpumask parsing helper
-370ca718fd5e1fd45ccfdf7a9d76d010f561e607 net-sysctl: factor-out rpm mask manipulation helpers
-605cfa1b1090b5d9e227d8a8f7d08fdd04f07724 net: introduce default_rps_mask netns attribute
-c12e0d5f267d7eb45a2f8eaa9fd44eaa2871a95e self-tests: introduce self-tests for RPS default mask
-2894d3530948acd30f2cc5366728a6967fc6569f Merge branch 'net-introduce-rps_default_mask'
-436396f26d502ada54281958db0a9f6fc12ff256 nfp: support IPsec offloading for NFP3800
-a136391ae4216a5713f9527c8a05e9364f059a31 net: micrel: Cable Diagnostics feature for lan8841 PHY
-f1db99c07b4f0a9edc45f3498d4d13d13a41836a string_helpers: Move string_is_valid() to the header
-d4545bf9c33baa482daea845ddf8d5fdb26daee3 genetlink: Use string_is_terminated() helper
-5c72b4c644eb68843b3538f452a0a89db7011015 openvswitch: Use string_is_terminated() helper
-dc8c41320130b2295af3764913f7d1e4df61edaf net: pcs: rzn1-miic: remove unused struct members and use miic variable
-21119e2c6e8461677c86decc9cdbcfb14bde0741 Merge tag 'rxrpc-next-20230208' of git://git.kernel.org/pub/scm/linux/kernel/git/dhowells/linux-fs
-47400aaea4ffdc306f0fd698f8c13b02e133130e net: microchip: vcap: Add tc flower keys for lan966x
-2df181f09c961377a55510a864216d48d787fe49 net: ipa: generic command param fix
-38028e6f392349702270843cecc4ff80cdd81f03 net: ipa: get rid of ipa->reg_addr
-3aac8ec1c028fb362d60462ade605587b5bbcd9b net: ipa: add some new IPA versions
-d86603e940ae5107a1669952070027726054142f net: ipa: tighten up IPA register validity checking
-c5ebba75c7625e5cb62cb5423883cc3764779420 net: ipa: use bitmasks for GSI IRQ values
-0ec573ef2a1be1437291aa9ce1f752de1b929549 net: ipa: GSI register cleanup
-81772e444dbe89ca76d947f6d1e870d00b29c521 net: ipa: start generalizing "ipa_reg"
-fc4cecf70675a7d64b76aad190821283306949d6 net: ipa: generalize register offset functions
-f1470fd790b04d0f4624a6ade84d10f8db885c39 net: ipa: generalize register field functions
-01a7ee36e7649b3b12212e6648eb017e7f7e1269 Merge branch 'net-ipa-GSI'
-025a785ff083729819dc82ac81baf190cb4aee5c net: skbuff: drop the word head from skb cache
-f3b28e7aa5027bcad261fbfdb9d1f6e57b29d3f7 ice: Add GPIO pin support for E823 products
-c4d5c45949fc1499bc3075df05dd5072c9a9bd67 ice: Add crosstimestamping on E823 devices
-d7e7909b3a722b05217ee3fc89731ffed76b9e2e igc: Clean up and optimize watchdog task
-e5bc9e38948012f37e8f696134c122ac249f9764 intel/igbvf: free irq on the error path in igbvf_request_msix()
-dd8862344b11973120c9b0619e8a9b339c580a8b igb: Enable SR-IOV after reinit
-f4b6a5cabd36fa32333ed98f0e44234e455335d8 igbvf: Regard vf reset nack as success
-9c9acca1f8e1c3f2f1c73806fdeb6c50386aa49d igb: conditionalize I2C bit banging on external thermal sensor support
-e29512487523b02a49d7dc04ed29f7981fa57850 igc: Add qbv_config_change_errors counter
-e0dd4d3d176d0a434f4839d2ae598d87e5f509a4 i40e: Add flag for disabling VF source pruning
-d5fbd7d2aa55753684a151624502b33bcfddbc20 ice: Change ice_vsi_realloc_stat_arrays() to void
-f68bc7df0edc1901f997c10983e35a2f044c1750 net/i40e: Replace 0-length array with flexible array
-eabdc36b9bd4dfb459e2e479c1b4e38de16ab05a i40e: Remove unused i40e status codes
-f964fdc4b1b71fd0493faed86804f5d00297fec3 i40e: Remove string printing for i40e_status
-d36eb5f4e4919f9b968d3b4377c1c64e33c01f3b i40e: use int for i40e_status
-3c77a4d0058167cc1954ebd1f68c16f907a3d020 i40e: remove i40e_status
-0b9ea9c6aabd36149e2ba2346b02dc6a9077dd85 i40e: use ERR_PTR error print in i40e messages
-927b026649959dcb9b80b3f1c43cff3476279674 ice: Mention CEE DCBX in code comment
-07d5b1c5afcacd72905430c69122fca0632ad18d ice/ptp: fix the PTP worker retrying indefinitely if the link went down
-69073d0ce7c3ceea56531e1283b79b4089fa6076 ice: remove FW logging code
-d35cb08bf9036116a57516bee9f8a62b9f959514 ice: enable devlink to check FW logging status
-c63b80288c15c52adc40ea08c5d12bf2f32a6a2f ice: add ability to query/set FW log level and resolution
-1951c4baa1653a561c85829d3f562ed308eda0c2 ice: disable FW logging on driver unload
-c4dd942f3ab5246c2d878698aa0c0db1625f7bee ice: use debugfs to output FW log data
-8c5814e79da45686172e219ba6d213242173dc72 ice: Fix check for weight and priority of a scheduling node
-a292697cdbacd2ed773a1e28bc9f14b3c4685d51 ice: Fix DSCP PFC TLV creation
-5197cee0976b85f115bd9ae8c3005630f55a6e82 i40e: Add checking for null for nlmsg_find_attr()
-4ec44a5b9c8fd8fff6d7a55d63dd48253384f170 igb: Fix PPS input and output using 3rd and 4th SDP
-63331e1ef032e3be548b2aa0b939060c851e6604 ice: fix lost multicast packets in promisc mode
-73ca0ee0b2d32cee3d658d01c7949f8a8f6dcf51 ice: add support BIG TCP on IPv6
-44e912bd5cc09db83d86c0f8b563183d2a2bf343 ixgbe: allow to increase MTU to 3K with XDP enabled
-f141c4092ba8d25a5a1065dc48ed12afa623da08 i40e: add double of VLAN header when computing the max MTU
-101e948648d5aa686220308ac349d3ed5d2a1a74 ixgbe: add double of VLAN header when computing the max MTU
+6193aaa9f91117922264ac577301d7df0e666131 builtin/rm.c: use narrower "USE_THE_INDEX_VARIABLE"
+cec13b9514868cf38b41330bbc3ea91a7961dd00 cocci & cache.h: fully apply "active_nr" part of index-compatibility
+babed893f52a44771dd9d85329ee3bd64438adfb cocci & cache.h: apply pending "index_cache_pos" rule
+99370863e20131627f0ea0481b7006d0d2125c93 cocci & cache-tree.h: migrate "write_cache_as_tree" to "*_index_*"
+fcb864bce70573380e6409c4ca25d1bdf16b0841 cache-tree API: remove redundant update_main_cache_tree()
+dfd0a89374c6eba332dfa3f5670a29eaf96efa3b cocci & cache.h: remove "USE_THE_INDEX_COMPATIBILITY_MACROS"
+93ea118bedf3f6d300520718250bf64d0e09a4ec cache-tree: fix strbuf growth in prime_cache_tree_rec()
+ce424d2ff790946bcb0784c6eb4e0d9f63a4b349 Merge branch 'cb/grep-fallback-failing-jit' into jch
+e9452c564bc9985eac11ab66cab7d2cac4e298b9 Merge branch 'ds/bundle-uri-5' into jch
+df3210cc32d13e293c9a113d12a18ad36b52eee9 Merge branch 'ab/sequencer-unleak' into jch
+5bb2131f7bc14abaedbd9ad96d5b86991c484536 Merge branch 'po/attributes-text' into jch
+7d8eb6819b60d18b7df15d6198bf8d1fe6cabb14 Merge branch 'ar/userdiff-java-update' into jch
+1e913dbcd0ff9beabaf4bb89407f3d1cb3e9ac1d Merge branch 'wl/new-command-doc' into jch
+c0575c960d8623e978bdf06f9fee0b6c1eb695bb Merge branch 'kf/t5000-modernise' into jch
+93505b6d8243094bba54ccd085394124fe0d44b1 Merge branch 'rs/size-t-fixes' into jch
+a3460eec85476fec5c7cc3e5d48c8fa14d150e6a Merge branch 'ab/retire-scripted-add-p' into jch
+d5ab1737df440eb7dc347cf099435e8f2e38b998 Merge branch 'ab/config-h-remove-unused' into jch
+c3c5a727a20ddb2ac46136032fba4b3d13669354 Merge branch 'cw/doc-pushurl-vs-url' into jch
+2c58a9ac2f9a5166f5dba128d7ee56a1734975d8 Merge branch 'en/name-rev-make-taggerdate-much-less-important' into jch
+3f14d654f6ebebf9ad551c6523b97483b8506ca1 ### match next
+a51cd16738fa41e3b7166096b3e1158737b21f06 Merge branch 'ja/worktree-orphan' into jch
+fe2b1500e55d116ca0dfa49c5b4cbf70afbd1439 Merge branch 'jc/spell-id-in-both-caps-in-message-id' into jch
+8e06c07d82b03ee20e9e204bf97be07bc78fdd12 Merge branch 'ad/test-record-count-when-harness-is-in-use' into jch
+f73f428ee9a053414e2ca204f257874ca9b10134 Merge branch 'ab/avoid-losing-exit-codes-in-tests' into jch
+1de4864c72318ee351ac6b75d234fb71d7dbe165 Merge branch 'ab/various-leak-fixes' into jch
+7408d9f595285ee198eff56eab0988dd11c7745f Merge branch 'rd/doc-default-date-format' into jch
+68748e2ab430ab2074572ef8f434473f45db9f92 Merge branch 'ab/imap-send-requires-curl' into jch
+daae19e8eeeaa95c0614e947b7d8e5da1aa8c76a Merge branch 'rj/branch-unborn-in-other-worktrees' into jch
+117a09f48661e30a4805c8e69a1afa4e950c1461 Merge branch 'ab/hook-api-with-stdin' into jch
+cd74f44b862a2171b173429f0931d008016a2595 Merge branch 'jc/t5559-workaround' into jch
+b8daf787c48b55e0ae865c032f3e1b2be9067957 Merge branch 'ab/config-multi-and-nonbool' into seen
+5fad31d10153ccb9e737a967e618f2f46f3665d1 Merge branch 'tl/notes--blankline' into seen
+83a69d4c9eeee0167962e6124ef754a146376a59 Merge branch 'ed/fsmonitor-inotify' into seen
+22d00dafc4d46d35a8a83e4669db948a9986ba33 Merge branch 'ab/tag-object-type-errors' into seen
+c3595d0d7d9978db3fe854ec4a3a3bebe4fa721e Merge branch 'so/diff-merges-more' into seen
+4fcff03a755d88083c14fde22f07102e2322485d Merge branch 'ms/send-email-feed-header-to-validate-hook' into seen
+8d39fbdd30e02e00c2f77311b6db24b468889972 Merge branch 'tc/cat-file-z-use-cquote' into seen
+f337c26aa24ebeb83a91a15b4c8241bd984bd6a6 Merge branch 'cw/submodule-status-in-parallel' into seen
+68243d0eff9ec16aeea01aff8b352f6aae633701 Merge branch 'cb/checkout-same-branch-twice' into seen
+8458b8a51d39614a1e87911bd9729a598994f3b9 Merge branch 'rj/bisect-already-used-branch' into seen
+df16a62a9ea8e46fd5eafbbb3efffc5d3ae5c6f2 Merge branch 'rj/avoid-switching-to-already-used-branch' into seen
+976188248d0f00117fa8d52a0f4443040e513317 Merge branch 'mc/credential-helper-www-authenticate' into seen
+732199cc1ac0a0663f4d5b9e4c79820da0dfc53a Merge branch 'jc/gpg-lazy-init' into seen
+9db2e267694ae3088e1699a48d82db9d6e36d2cf Merge branch 'ab/the-index-compatibility' into seen
+981acd0fd44ab15ead01fd03aee9775d4d73f989 Merge branch 'rs/cache-tree-strbuf-growth-fix' into seen
 
---===============1145448346249621651==--
+--===============1932102002802321252==--
