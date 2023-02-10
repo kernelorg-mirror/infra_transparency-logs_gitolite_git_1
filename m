@@ -1,60 +1,71 @@
-Content-Type: multipart/mixed; boundary="===============8952176409280928450=="
+Content-Type: multipart/mixed; boundary="===============8395197778125105609=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Fri, 10 Feb 2023 07:19:54 -0000
-Message-Id: <167601359434.3026.827197987524029356@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/deller/parisc-linux
+Date: Fri, 10 Feb 2023 07:20:44 -0000
+Message-Id: <167601364493.4868.866232373858334167@gitolite.kernel.org>
 
---===============8952176409280928450==
+--===============8395197778125105609==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/deller/parisc-linux
+user: deller
 changes:
-  - ref: refs/heads/usb-next
-    old: 88e054e8df1db32cea4ccb911b67dba22f1ddfa2
-    new: f87b564686ee47c480ccacc3922b38a8c54a6945
-    log: |
-         8488a831e0c4d59528d20713a14cb8958af15bfe usb: gadget: configfs: Fix set but not used variable warning
-         553bd29700145e1849698985e9800f14e967da49 of: device: Ignore modalias of reused nodes
-         2295bed9bebe8d1eef276194fed5b5fbe89c5363 of: device: Do not ignore error code in of_device_uevent_modalias
-         e2ffae3ed92a9f768902c1cf82642c3a09cd0345 usb: host: fsl-mph-dr-of: reuse device_set_of_node_from_dev
-         f87b564686ee47c480ccacc3922b38a8c54a6945 dt-bindings: usb: amlogic,meson-g12a-usb-ctrl: make G12A usb3-phy0 optional
-         
+  - ref: refs/heads/master
+    old: e544a07438522ab3688416e6e2e34bf0ee6d8755
+    new: 38c1e0c65865426676123cc9a127526fa02bcac6
+    log: revlist-e544a0743852-38c1e0c65865.txt
 
---===============8952176409280928450==
+--===============8395197778125105609==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-e544a0743852-38c1e0c65865.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1676013593 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1676013593-8a8139f41019383e572c0e34cb5f73ee00d15c0d
+6601fc0d15ffc20654e39486f9bef35567106d68 IB/hfi1: Restore allocated resources on failed copyout
+e632291a2dbce45a24cddeb5fe28fe71d724ba43 IB/IPoIB: Fix legacy IPoIB due to wrong number of queues
+5d9745cead1f121974322b94ceadfb4d1e67960e RDMA/irdma: Fix potential NULL-ptr-dereference
+b7e08a5a63a11627601915473c3b569c1f6c6c06 RDMA/usnic: use iommu_map_atomic() under spin_lock()
+c956940a4ab73a87d0165e911c001dbdd2c8200f RDMA/umem: Use dma-buf locked API to solve deadlock
+f9c47b2caa7ffc903ec950b454b59c209afe3182 IB/hfi1: Assign npages earlier
+9f8b3706eb23bed26f7898af3c6f7fe3858564a1 drm/amdgpu: fix memory leak in amdgpu_cs_sync_rings
+563ca0e9eab8acc8a1309e8b440108ff8d23e951 RDMA/mana_ib: Prevent array underflow in mana_ib_create_qp_raw()
+90d5e8301ac24550be80d193aa5582cab56c29fc drm/i915: Don't do the WM0->WM1 copy w/a if WM1 is already enabled
+039a72ce7e570c56713fe7758a0658034dc48c9b drm/i915/fbdev: Implement fb_dirty for intel custom fb helper
+251e8c5b1b1fadcc387a8e618c7437d330bdac3e drm/i915: Move fd_install after last use of fence
+44e4c5684fcc82d8f099656c4ea39d9571e2a8ac drm/i915: Initialize the obj flags for shmem objects
+8f20660f053cefd4693e69cfff9cf58f4f7c4929 drm/virtio: exbuf->fence_fd unmodified on interrupted wait
+04119ab1a49fc41cb70f0472be5455af268fa260 nvidiafb: detect the hardware support before removing console.
+85e26dd5100a182bf8448050427539c0a66ab793 drm/client: fix circular reference counting issue
+2de49fb1c9bb8bfe283070fef2e9304d9842a30c RDMA/rtrs: Don't call kobject_del for srv_path->kobj
+6a7ff131f17f44c593173c5ee30e2c03ef211685 drm/i915: Fix VBT DSI DVO port handling
+877f26bf3ca65447e923e86305a7f2a20d059e21 drm/amd/display: disable S/G display on DCN 2.1.0
+077e9659581acab70f2dcc04b5bc799aca3a056b drm/amd/display: disable S/G display on DCN 3.1.2/3
+5c4e8c71d1202cd84d870e7e5cb8d6b52f9c3507 drm/amd/display: properly handling AGP aperture in vm setup
+7ece674cd9468ce740494f6108c39831cfc7eb4e Revert "drm/amd/display: disable S/G display on DCN 3.1.4"
+5630a35024d12432827bd7e7986dd60cfe2f983b drm/amd/amdgpu: enable athub cg 11.0.3
+49d0555976f0972af68397ed996375c135b38ba7 drm/amd/display: fix cursor offset on rotation 180
+0e763afcb50814e256ecb780fcc0f3bade2e1a0c drm/amd/pm: add SMU 13.0.7 missing GetPptLimit message mapping
+9874cc2df4e892c8744aa0472866cbf7c3cf1862 drm/amd/pm: bump SMU 13.0.0 driver_if header version
+dc38b996db968f51f0fe45845a519c5cd7f6bd04 drm/amd/pm: bump SMU 13.0.7 driver_if header version
+c108a18462949fe709ebd6b0be68398d643bc285 drm/amdgpu: Add unique_id support for GC 11.0.1/2
+e53448e0a1efa5133c7db78f1df1f4caf177676b drm/amdgpu: Use the TGID for trace_amdgpu_vm_update_ptes
+5ad7bbf3dba5c4a684338df1f285080f2588b535 drm/amdgpu/fence: Fix oops due to non-matching drm_sched init/fini
+6c1a6d0b64e1a15016ba7450cce8629f94de56c7 amd/amdgpu: remove test ib on hw ring
+c6ac406cd8ff610a2d5da298b1d3071acfcde7f0 drm/amdgpu/smu: skip pptable init under sriov
+4684f5ce839ab27f5f0414c08084468098363d27 Merge tag 'amd-drm-fixes-6.2-2023-02-08' of https://gitlab.freedesktop.org/agd5f/linux into drm-fixes
+4693e852f19a1338a49e540fb99fe3b2898d8594 drm/amdgpu: add S/G display parameter
+9734a75cd99d448814e64feca133dc9a6e3f65f2 Revert "drm/amd/display: disable S/G display on DCN 3.1.2/3"
+1b7ac7989ad82f8df6365cd6338df0d9937e0119 Revert "drm/amd/display: disable S/G display on DCN 2.1.0"
+e7d636476ba73e61460619bd8822e16af3cba509 Revert "drm/amd/display: disable S/G display on DCN 3.1.5"
+337d5b5edc3d03a30a972aead75cc6be5dcebbf6 Merge tag 'drm-misc-fixes-2023-02-09' of git://anongit.freedesktop.org/drm/drm-misc into drm-fixes
+0ed904169f85efcf9f82bd960597aac46260537f Merge tag 'drm-intel-fixes-2023-02-09' of git://anongit.freedesktop.org/drm/drm-intel into drm-fixes
+777c1e01cb7e1947765fb0c3b9b71dab18e53e46 Merge tag 'amd-drm-fixes-6.2-2023-02-09' of https://gitlab.freedesktop.org/agd5f/linux into drm-fixes
+1424c3e309bbdcf2d93977bf2840cc00ef9b6208 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma
+38c1e0c65865426676123cc9a127526fa02bcac6 Merge tag 'drm-fixes-2023-02-10' of git://anongit.freedesktop.org/drm/drm
 
-88e054e8df1db32cea4ccb911b67dba22f1ddfa2 f87b564686ee47c480ccacc3922b38a8c54a6945 refs/heads/usb-next
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPl8BkbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+6ugQALz08oZgf/qX1k5gEe83
-OkjgiVThUxANJt3gAyQVjry/0lS4D3ZSpbTFqv2PcX9s3kEk3M9ZOZhfkONgnCB0
-09KT3Lx/dz80K/REv+k87eM0oq0jhs8mVRFBIvha84O8yhAmN49V7gKjdaH6lX1j
-fbDoAyyjr4MQ37kd1hwdIpQn5oqAjgMSWKbIf5VilcJr5bZ+BaTjteFwdyJ9ocFF
-Cj2eUSDMrxmnx3/hO0IOcmNyBCgd1a5XyvTcaNON/BiCAFChLwoo8s+4aMZfZTT+
-Xgxm5NK37GcM5KXGCz5icRck6FekKNlfPc5HXexD53JHuZHX4DbXDZIRsa07mXff
-g/eu5hwf5O8bYXJXP1Qju98jtK6TM30hNrKQnx/0c2KlPEOhyY2dvET/Q6x0Dtgp
-AMkpy7VdBDxH36UuZbl/ZzSDfLzBLenhXUpWNf8cFDP50inlPdxHJR8Bp4SUKICa
-GBOdS1QoOzNZFJpvuWRjHjG/7SaNkRdsFz7JPxy7jxOofCA2SqpHztHeb4PGwSOo
-VL89KoDIU2rIae0zXzQeuqDC2FpB535bDF+S2EJOpdT1iyrQBRW9clX/AEqSDt1y
-OL1sanpI9r51BLOmg49ZRsjY76gym2JdREZvJ28BbO6F/Ld2T9UcljiapSnEg1X2
-cALXDrydE19q7W+DBmwzrzeU
-=Oxkx
------END PGP SIGNATURE-----
-
---===============8952176409280928450==--
+--===============8395197778125105609==--
