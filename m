@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
-Date: Fri, 10 Feb 2023 08:27:40 -0000
-Message-Id: <167601766052.15928.16823249729082422812@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mic/linux
+Date: Fri, 10 Feb 2023 08:43:15 -0000
+Message-Id: <167601859515.25193.7599745812917112081@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
-user: krzk
+repo: pub/scm/linux/kernel/git/mic/linux
+user: mic
 changes:
-  - ref: refs/heads/for-next
-    old: 682a91c4375f853ec1be943797f530916c1b73ec
-    new: 957b573ea840b5f2a440ec858886916d9bc7df33
-  - ref: refs/heads/mem-ctrl-next
-    old: cb1ed99d9520892616c6d566efbe2d92a84a576a
-    new: bbaf6624f23d6e538401382be97ba3d4bcba963e
+  - ref: refs/heads/next
+    old: 8677e555f17f51321d0730b945aeb7d4b95f998f
+    new: 1c1ea1c3e21d5ba0867f84f6ad04090bd477df25
+    log: |
+         1c1ea1c3e21d5ba0867f84f6ad04090bd477df25 MAINTAINERS: Update Landlock repository
+         
