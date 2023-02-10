@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8650078667098709255=="
+Content-Type: multipart/mixed; boundary="===============1425957825159845456=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/powerpc/linux
-Date: Fri, 10 Feb 2023 12:59:39 -0000
-Message-Id: <167603397999.17170.8528792790528063376@gitolite.kernel.org>
+Date: Fri, 10 Feb 2023 13:04:00 -0000
+Message-Id: <167603424025.20149.12601852133001792403@gitolite.kernel.org>
 
---===============8650078667098709255==
+--===============1425957825159845456==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,75 +17,90 @@ user: mpe
 git_push_cert_status: G
 changes:
   - ref: refs/heads/next-test
-    old: 6acecfa485d3de955c35a18730c106ddf1e7600e
-    new: 46395332e2c68a37a7067996665e9863e5cbf0e9
-    log: revlist-6acecfa485d3-46395332e2c6.txt
+    old: 46395332e2c68a37a7067996665e9863e5cbf0e9
+    new: e4d432f204d77e853b9d55810ebc877fa6d69a3d
+    log: revlist-46395332e2c6-e4d432f204d7.txt
 
---===============8650078667098709255==
+--===============1425957825159845456==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Michael Ellerman <mpe@ellerman.id.au> 1676033977 +1100
+pusher Michael Ellerman <mpe@ellerman.id.au> 1676034236 +1100
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/powerpc/linux
-nonce 1676033975-27652a7fb880980a7653fc44b515ded6eaf4bb02
+nonce 1676034235-013b6726d0b0bec10cf20d9b184ce3be23b37bcd
 
-6acecfa485d3de955c35a18730c106ddf1e7600e 46395332e2c68a37a7067996665e9863e5cbf0e9 refs/heads/next-test
+46395332e2c68a37a7067996665e9863e5cbf0e9 e4d432f204d77e853b9d55810ebc877fa6d69a3d refs/heads/next-test
 -----BEGIN PGP SIGNATURE-----
 
-iQJHBAABCAAxFiEEJFGtCPCthwEv2Y/bUevqPMjhpYAFAmPmP7kTHG1wZUBlbGxl
-cm1hbi5pZC5hdQAKCRBR6+o8yOGlgHgYEACYiHVJLvO4hyP0SWivZteO9ZVDMZqv
-DHeR775onZYPz/A1+rfoDECSdWwGFT3bx1EyuT6Mlc73ikzzo5k0sYB4VvpFMJZV
-ePT+/g7gmJ6TRdFAwySreT4e8krzpONeWdTc3SBE1juZHS5INOrLagYkdTbZYPii
-j+ZQiv2DxXDbgnpb+vnxlE7M83PoS3dcU6Q8A7ZSWijm9Fl35GHLl+c4N22Let4O
-vrOpywFjeZdKhySuz+uIwAhxfejtk03JB9NeWEl2kBnBuSbXbsF2V7EQ7rEPci7+
-RTIUSDVimgrODh5cMUqrDGZzFOhvSjnj0wNwKBg6LvXLBUkDqyzMDgezKorvMX2q
-t9oBJ8McFI3pE0f1etWO2D6Sc9UlthYEQff1YvKZ8+i33XtIOIsB0xgMP2JkyWJq
-4ZZoYT6VaT9+KTu6Mt4KXYjOB6vQBM1tIokD1sTfAFmML0w+mfX3eu8xEo3vVHvb
-yMZc65MWbEFQs3NtFQgZDBU+OoF/ONQQ6cT1pY6ib4h0/ewrjRXvX8sK1f9qDv/2
-yrkrOs9Phw6cMDhfEWi0H2i8JEV/pdUZV9/OfZfrv2DFFPlw8KsTspig4SQh5hGN
-y0QMqDIQPBvOcsKqRIy+3F3GNTtP++27B26KXJhWx04EumdXcM6wF2n+Q89fnDW/
-nRJycI23DUqnOQ==
-=Jr2s
+iQJHBAABCAAxFiEEJFGtCPCthwEv2Y/bUevqPMjhpYAFAmPmQLwTHG1wZUBlbGxl
+cm1hbi5pZC5hdQAKCRBR6+o8yOGlgLl/D/9+yZ1d6rR5T7nhTGk744NI6QHyFL6o
+st6LYsX/QXQ7caSmiLNcBHg36E8M6eLj7GysOiYz9r1fWqHetczUwj8TcqR19xYk
+bpeEJwnPDDE7IbhZXsQNaBqEZSVSraPuu4fNfZfqPeRFFyvJDWCNdnh7cIfoO/YE
+JmdXTlD7fJAQQt52TuWGtq9T06kQQEV2U7ocb/XOVAdPPRvVntzTDEHw4EzRnEQ/
+4aq3uTkbaNQnKr/a5NyElJCjXIFy0WDSeT4JU+/SrR2281M927esZpOS2n5Awnay
+9NTNFpIHLM3I12NZ5Y3y9+jow2NsRv3GhIH689yLsB+S67BLeRRPzVF+XwNQQWM6
+D2Rc0RRcx93bxvSmtfxYANeyDv37iXIYNJ44Kkqwg2uCxfkdu0pNLks7pNGIkxbo
+oxgZZUSstYoeVwYc8ovsARh9TyKXb0q+ZBIDnFn8k8KqJ4X+jo/JO2AInoLRA574
+O7yBlJ/e3sTe0Lx/88/tVvdJZYBayP+I+T6+ulEGb5Om1PS61+hK42UqJqZNzSg7
+5RiCySip7cXEqiTt8PXlWWW738+zbee+RIva1Sh0CUnWdlJfX+rWmT1ScVnZCW1h
+qIya50lEFDgE6AK4aWnbTIUWcR91NTNeHK6BrZZwFzhFtpBBGQ1mxboKMfaIJz3Y
+Fr6J+VcLjw/w2g==
+=8+OS
 -----END PGP SIGNATURE-----
 
---===============8650078667098709255==
+--===============1425957825159845456==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6acecfa485d3-46395332e2c6.txt
+Content-Disposition: attachment; filename=revlist-46395332e2c6-e4d432f204d7.txt
 
-2115732e548304e52ca1bbdb714f45f4a2461653 powerpc/mce: log the error for all unrecoverable errors
-d9ab6da64fd15608c9feb20d769d8df1a32fe212 powerpc: Remove __kernel_text_address() in show_instructions()
-6376ed8feca829039d31a208216b958f0e439d87 powerpc/bpf/32: No need to zeroise r4 when not doing tail call
-d084dcf256bc4565b4b1af9b00297ac7b51c7049 powerpc/bpf/32: Only set a stack frame when necessary
-7dd0e2848764306d7a70943b97584ffdc7754708 powerpc/bpf/32: BPF prog is never called with more than one arg
-85e031154c7c14edee0705532a9ffc8a2fe591d0 powerpc/bpf: Perform complete extra passes to update addresses
-d3921cbb6cd663193cecf04f0b170a30c6d0e390 powerpc/bpf: Only pad length-variable code at initial pass
-8616045fe785229b53a24b8698631826298d1500 powerpc/bpf/32: Optimise some particular const operations
-c88da29b4d2ce8d0070646b8f99729e9b355a4bf powerpc/bpf/32: introduce a second source register for ALU operations
-19daf0aef84f33bde9c742ed41b4ded567b8dfbf powerpc/bpf/32: perform three operands ALU operations
-60bd7936f99fd8cdbeca67180f80ea13d8b97a76 powerpc/hv-24x7: Fix pvr check when setting interface version
-fb3b72a3f483f81a33a9693ed03dc62158a6f77e powerpc: Consolidate 32-bit and 64-bit interrupt_enter_prepare
-5c4b710a8157ec271fac4806562ee1aa1b44a53d powerpc/32: implement HAVE_CONTEXT_TRACKING_USER support
-01f135506e2ed0403512c2467bd50746bdbd576d powerpc/32: select HAVE_VIRT_CPU_ACCOUNTING_GEN
-e64e71056f323a1e178dccf04d4c0f032d84436c powerpc/powernv/ioda: Skip unallocated resources when mapping to PE
-26d53a9c89a8486c5c637cc587e1933a786747d0 crypto: powerpc - Use address generation helper for asm
-58f24eea5278cb6078552e16063fdd8b0a1b9676 powerpc/64s: Refactor initialisation after prom
-ffc8e90decc531a2dd59ef9e1e6f16a52057ab62 powerpc/64e: Simplify address calculation in secondary hold loop
-dea18da459922d70692ae1e5736d1c760040cb07 powerpc/64s: Fix stress_hpt memblock alloc alignment
-9fa24404f5044967753a6cd3e5e36f57686bec6e powerpc/64: Fix task_cpu in early boot when booting non-zero cpuid
-dc222fa7737212fe0da513e5b8937c156d02225d powerpc/64: Move paca allocation to early_setup()
-1ee4e35076e36724a62ba2fa29b722fb53eb68f2 powerpc: Skip stack validation checking alternate stacks if they are not allocated
-2fb857bc9f9e106439017ed323f522cc785395bb powerpc/kcsan: Add exclusions from instrumentation
-2a7ce82dc46c591c9244057d89a6591c9639b9b9 powerpc/kcsan: Exclude udelay to prevent recursive instrumentation
-b6e259297a6bffb882d55715284bb5219eefda42 powerpc/kcsan: Memory barriers semantics
-4f8e09106f6e457c6e9a4ce597fa9ae2bda032c3 powerpc/kcsan: Prevent recursive instrumentation with IRQ save/restores
-231635a26513955fea98638e79e0a43734976c3b powerpc/kcsan: Add KCSAN Support
-c2f2b02e6574a204c6c3dcd479686a02c0c8ea7a drm/amdgpu: drop the long-double-128 powerpc check/hack
-40ecc2f183e980125056a49951ff4fbb6cb0b1d2 powerpc/ps3: Change updateboltedpp() panic to info
-46395332e2c68a37a7067996665e9863e5cbf0e9 powerpc/ps3: Refresh ps3_defconfig
+3287ebd7fd01e853ca4da8be675322429400e2bd powerpc/boot: Fix incorrect version calculation issue in ld_version
+76d588dddc459fefa1da96e0a081a397c5c8e216 powerpc/imc-pmu: Fix use of mutex in IRQs disabled section
+f12cd06109f47c2fb4b23a45ab55404c47ef7fae powerpc/64s/hash: Make stress_hpt_timer_fn() static
+8afffce6aa3bddc940ac1909627ff1e772b6cbf1 powerpc/85xx: Fix unannotated intra-function call warning
+fe6de81b610e5d0b9d2231acff2de74a35482e7d powerpc/kvm: Fix unannotated intra-function call warning
+bc88ef663265676419555df2dc469a471c0add31 powerpc/64s: Fix local irq disable when PMIs are disabled
+c28548012ee2bac55772ef7685138bd1124b80c3 powerpc/64: Fix perf profiling asynchronous interrupt handlers
+ad53db4acb415976761d7302f5b02e97f2bd097e powerpc/imc-pmu: Revert nest_init_lock to being a mutex
+7294194b47e994753a86eee8cf1c61f3f36458a3 powerpc/kexec_file: Fix division by zero in extra size estimation
+98d0219e043e09013e883eacde3b93e0b2bf944d powerpc/64s/radix: Fix crash with unaligned relocated kernel
+111bcb37385353f0510e5847d5abcd1c613dba23 powerpc/64s/radix: Fix RWX mapping with relocated kernel
+fc546faa559538fb312c77e055243ece18ab3288 powerpc/kexec_file: Count hot-pluggable memory in FDT estimate
+1665c027afb225882a5a0b014c45e84290b826c2 powerpc/64s: Reconnect tlb_flush() to hash__tlb_flush()
+e33416fca8a2313b8650bd5807aaf34354d39a4c powerpc: Don't select ARCH_WANTS_NO_INSTR
+97e45d469eb180a7bd2809e4e079331552c73e42 powerpc/kexec_file: fix implicit decl error
+2ea31e2e62bbc4d11c411eeb36f1b02841dbcab1 powerpc/64s/interrupt: Fix interrupt exit race with security mitigation switch
+bfcc95f05c8af4d8d8ff19422446e5e28a2f08b4 powerpc/ps3: Change updateboltedpp() panic to info
+cc05046283f20d99bdba2842c94bc19a76901e87 powerpc/ps3: Refresh ps3_defconfig
+f003537651e0d808528882db26cf06a31d3b16a1 Merge branch 'fixes' into next
+711daaa9748bb58702f0010ecb3bf950ad11c508 powerpc/pseries: Fix handling of PLPKS object flushing timeout
+7195eab49baab78ce852cfb139864439b394ce90 powerpc/pseries: Fix alignment of PLPKS structures and buffers
+5f8b3fb09601d2e4860820887eb195663f9ba8bc powerpc/secvar: Fix incorrect return in secvar_sysfs_load()
+e59d9b55d85305236e15e77e35e9b85108177fde powerpc/secvar: Use u64 in secvar_operations
+dd1e3ac7d369e161cabd7a2a0969c553c9e5ebb9 powerpc/secvar: Warn and error if multiple secvar ops are set
+8973424cbf4793e89209ffde7403dd11b242ce99 powerpc/secvar: Use sysfs_emit() instead of sprintf()
+28788f57b7d154a9062bba388aed950b2c49de0a powerpc/secvar: Handle format string in the consumer
+b2539990145d240d9da3dd24acce036102686e32 powerpc/secvar: Handle max object size in the consumer
+a5242fa2620313de5a0834b09c2ed9326f833cb7 powerpc/secvar: Clean up init error messages
+1b494578baa4c1dc8fee21bdfb7238ae62314c5e powerpc/secvar: Extend sysfs to include config vars
+e0670da3278110cc95bec0a4431bf59d5a1a2c17 powerpc/secvar: Allow backend to populate static list of variable names
+a0fbe8f5fb2802fd9b85e027f099dca738fd3c17 powerpc/secvar: Warn when PAGE_SIZE is smaller than max object size
+5ac6738f20dc25b6dfef97db906e9130ba2b4a89 powerpc/secvar: Don't print error on ENOENT when reading variables
+90f0db45a93cc35e7cef87b7487cd892035f44c3 powerpc/pseries: Move plpks.h to include directory
+d158b873d2747514a2561333a3d31c43db236455 powerpc/pseries: Move PLPKS constants to header file
+372d21e9fceba7e59587c710cc145515e9105214 powerpc/pseries: Expose PLPKS config values, support additional fields
+c1e5a5a7064ef66b9317e2630b29cee056db6a6b powerpc/pseries: Implement signed update for PLPKS objects
+f34e2692cae8cae23a668a366417e4a293ed13dc powerpc/pseries: Log hcall return codes for PLPKS debug
+06730a78d4b398dd98cbfd9c351255fcc0e3691c powerpc/pseries: Make caller pass buffer to plpks_read_var()
+0df935a95bcdf62f743c50abfc855642cc1f85dc powerpc/pseries: Turn PSERIES_PLPKS into a hidden option
+fcbdca242418e7b97c83b93776cd5eb0d870c42b powerpc/pseries: Clarify warning when PLPKS password already set
+ab423233c15d2145e46043ebdea382f2a9659aed powerpc/pseries: Add helper to get PLPKS password length
+4b28a155c62ae1462fbf1931522916e732137ba9 powerpc/pseries: Pass PLPKS password on kexec
+32cad1496aafeaf91e8877ec62e9fa1cb72c37c5 powerpc/pseries: Implement secvars for dynamic secure boot
+32b22de4d680c9d56e7c9e6450c117cc35d355b9 integrity/powerpc: Improve error handling & reporting when loading certs
+e4d432f204d77e853b9d55810ebc877fa6d69a3d integrity/powerpc: Support loading keys from PLPKS
 
---===============8650078667098709255==--
+--===============1425957825159845456==--
