@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6351750516155075750=="
+Content-Type: multipart/mixed; boundary="===============4215898570950085988=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Fri, 10 Feb 2023 23:07:16 -0000
-Message-Id: <167607043621.5899.4441413677170387927@gitolite.kernel.org>
+Date: Fri, 10 Feb 2023 23:15:37 -0000
+Message-Id: <167607093752.11862.12953991649182207204@gitolite.kernel.org>
 
---===============6351750516155075750==
+--===============4215898570950085988==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,26 +16,29 @@ repo: pub/scm/linux/kernel/git/pci/pci
 user: helgaas
 changes:
   - ref: refs/heads/controller/dwc
-    old: 2a7c8239abd0b3ec899a206920c0db7ca78b16d0
-    new: ca7f6d8a27016f8e05866307c28f0c71e0383a83
-    log: revlist-2a7c8239abd0-ca7f6d8a2701.txt
+    old: ca7f6d8a27016f8e05866307c28f0c71e0383a83
+    new: 174b49964144c9934bc9fb9e57040f3d88a4163a
+    log: revlist-ca7f6d8a2701-174b49964144.txt
 
---===============6351750516155075750==
+--===============4215898570950085988==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2a7c8239abd0-ca7f6d8a2701.txt
+Content-Disposition: attachment; filename=revlist-ca7f6d8a2701-174b49964144.txt
 
-6c2f25387ec61799c2ed238c5ea7ed85270d22f9 dmaengine: dw-edma: Fix readq_ch() return value truncation
-b50cc0477694ff07901eecba6e3a775b82dbf6e6 dmaengine: dw-edma: Use non-atomic io-64 methods
-3d5a0e4f65ab15cc24a4856152af3bbbf68e3f97 dmaengine: dw-edma: Drop DT-region allocation
-93fb367711a25b96de4ca7e52006052f26c955a2 dmaengine: dw-edma: Replace chip ID number with device name
-3f8ab41f4589dea88b4c35b3e530922a8c041cbf dmaengine: dw-edma: Skip cleanup procedure if no private data found
-87bfb5c5b27332f57266497768664c9ea074e1b1 dmaengine: dw-edma: Add mem-mapped LL-entries support
-7ead2febf8423c08281bba7543cae401b3fb67fd dmaengine: dw-edma: Depend on DW_EDMA instead of selecting it
-38d1919740f0a1bdd9b1cd3664b4ee314ff7a352 dmaengine: dw-edma: Prepare dw_edma_probe() for builtin callers
-0692e343c8627e121e01a145778f319795a8f0a1 PCI: dwc: Restrict only coherent DMA mask for MSI address allocation
-66ecfed3f6c449819d3f5801b8ef70747d58a32e PCI: bt1: Set 64-bit DMA mask
-ca7f6d8a27016f8e05866307c28f0c71e0383a83 PCI: dwc: Add Root Port and Endpoint controller eDMA engine support
+d0152168538ea05695a403bc424da3e65aca67f3 dmaengine: dw-edma: Move eDMA data pointer to debugfs node descriptor
+3883d64449ffe80661a3280323bd89c0eb496fe3 dmaengine: dw-edma: Join read/write channels into a single device
+6cb6e9c6050ac32c33466899b6488d5b6dd1d8e8 dmaengine: dw-edma: Use DMA engine device debugfs subdirectory
+5fdca4a995bcd4cf61bda40af154a730589dc524 dmaengine: dw-edma: Fix readq_ch() return value truncation
+b73bdc5054742d3945ae6e4daa18234c13871240 dmaengine: dw-edma: Use non-atomic io-64 methods
+7119685cf49033b777c559ae4da093be2a9b225c dmaengine: dw-edma: Drop DT-region allocation
+53c0e2f9b808fafaea7bec91eeec48046bcaaba0 dmaengine: dw-edma: Replace chip ID number with device name
+4ac1662105926c963d19e66caab16c77de01e681 dmaengine: dw-edma: Skip cleanup procedure if no private data found
+b47364a830545ee2a1b1b67dbe3055f47f72b36d dmaengine: dw-edma: Add mem-mapped LL-entries support
+157ce95927c13db7bcb4f8ab96f1f9660867ec71 dmaengine: dw-edma: Depend on DW_EDMA instead of selecting it
+536e6529e975c976f9835e109eb19da1c3b4ea2a dmaengine: dw-edma: Prepare dw_edma_probe() for builtin callers
+cb6d463c28d01072e4684e57a4e4e9b5734022aa PCI: dwc: Restrict only coherent DMA mask for MSI address allocation
+daea000ae10af41409f7f15b02a59c6e99b522cd PCI: bt1: Set 64-bit DMA mask
+174b49964144c9934bc9fb9e57040f3d88a4163a PCI: dwc: Add Root Port and Endpoint controller eDMA engine support
 
---===============6351750516155075750==--
+--===============4215898570950085988==--
