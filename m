@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5818600674970351170=="
+Content-Type: multipart/mixed; boundary="===============1145448346249621651=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 10 Feb 2023 21:26:42 -0000
-Message-Id: <167606440242.3654.17751754493638203734@gitolite.kernel.org>
+Date: Fri, 10 Feb 2023 21:27:18 -0000
+Message-Id: <167606443833.3883.102628173756513884@gitolite.kernel.org>
 
---===============5818600674970351170==
+--===============1145448346249621651==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: 8697a258ae24703267d2a37d91ab757c91ef027e
-    new: 025a785ff083729819dc82ac81baf190cb4aee5c
-    log: revlist-8697a258ae24-025a785ff083.txt
+  - ref: refs/heads/dev-queue
+    old: fe48d853421c3fb994a6bbac3b28f843fe4c5f7a
+    new: 101e948648d5aa686220308ac349d3ed5d2a1a74
+    log: revlist-fe48d853421c-101e948648d5.txt
 
---===============5818600674970351170==
+--===============1145448346249621651==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8697a258ae24-025a785ff083.txt
+Content-Disposition: attachment; filename=revlist-fe48d853421c-101e948648d5.txt
 
 16d5677ef1041beee18b5709bf5759611ec82875 rxrpc: Use consume_skb() rather than kfree_skb_reason()
 a33395ab85b9b9cff83948a03a1d6d96347935d8 rxrpc: Fix overwaking on call poking
@@ -54,5 +54,37 @@ fc4cecf70675a7d64b76aad190821283306949d6 net: ipa: generalize register offset fu
 f1470fd790b04d0f4624a6ade84d10f8db885c39 net: ipa: generalize register field functions
 01a7ee36e7649b3b12212e6648eb017e7f7e1269 Merge branch 'net-ipa-GSI'
 025a785ff083729819dc82ac81baf190cb4aee5c net: skbuff: drop the word head from skb cache
+f3b28e7aa5027bcad261fbfdb9d1f6e57b29d3f7 ice: Add GPIO pin support for E823 products
+c4d5c45949fc1499bc3075df05dd5072c9a9bd67 ice: Add crosstimestamping on E823 devices
+d7e7909b3a722b05217ee3fc89731ffed76b9e2e igc: Clean up and optimize watchdog task
+e5bc9e38948012f37e8f696134c122ac249f9764 intel/igbvf: free irq on the error path in igbvf_request_msix()
+dd8862344b11973120c9b0619e8a9b339c580a8b igb: Enable SR-IOV after reinit
+f4b6a5cabd36fa32333ed98f0e44234e455335d8 igbvf: Regard vf reset nack as success
+9c9acca1f8e1c3f2f1c73806fdeb6c50386aa49d igb: conditionalize I2C bit banging on external thermal sensor support
+e29512487523b02a49d7dc04ed29f7981fa57850 igc: Add qbv_config_change_errors counter
+e0dd4d3d176d0a434f4839d2ae598d87e5f509a4 i40e: Add flag for disabling VF source pruning
+d5fbd7d2aa55753684a151624502b33bcfddbc20 ice: Change ice_vsi_realloc_stat_arrays() to void
+f68bc7df0edc1901f997c10983e35a2f044c1750 net/i40e: Replace 0-length array with flexible array
+eabdc36b9bd4dfb459e2e479c1b4e38de16ab05a i40e: Remove unused i40e status codes
+f964fdc4b1b71fd0493faed86804f5d00297fec3 i40e: Remove string printing for i40e_status
+d36eb5f4e4919f9b968d3b4377c1c64e33c01f3b i40e: use int for i40e_status
+3c77a4d0058167cc1954ebd1f68c16f907a3d020 i40e: remove i40e_status
+0b9ea9c6aabd36149e2ba2346b02dc6a9077dd85 i40e: use ERR_PTR error print in i40e messages
+927b026649959dcb9b80b3f1c43cff3476279674 ice: Mention CEE DCBX in code comment
+07d5b1c5afcacd72905430c69122fca0632ad18d ice/ptp: fix the PTP worker retrying indefinitely if the link went down
+69073d0ce7c3ceea56531e1283b79b4089fa6076 ice: remove FW logging code
+d35cb08bf9036116a57516bee9f8a62b9f959514 ice: enable devlink to check FW logging status
+c63b80288c15c52adc40ea08c5d12bf2f32a6a2f ice: add ability to query/set FW log level and resolution
+1951c4baa1653a561c85829d3f562ed308eda0c2 ice: disable FW logging on driver unload
+c4dd942f3ab5246c2d878698aa0c0db1625f7bee ice: use debugfs to output FW log data
+8c5814e79da45686172e219ba6d213242173dc72 ice: Fix check for weight and priority of a scheduling node
+a292697cdbacd2ed773a1e28bc9f14b3c4685d51 ice: Fix DSCP PFC TLV creation
+5197cee0976b85f115bd9ae8c3005630f55a6e82 i40e: Add checking for null for nlmsg_find_attr()
+4ec44a5b9c8fd8fff6d7a55d63dd48253384f170 igb: Fix PPS input and output using 3rd and 4th SDP
+63331e1ef032e3be548b2aa0b939060c851e6604 ice: fix lost multicast packets in promisc mode
+73ca0ee0b2d32cee3d658d01c7949f8a8f6dcf51 ice: add support BIG TCP on IPv6
+44e912bd5cc09db83d86c0f8b563183d2a2bf343 ixgbe: allow to increase MTU to 3K with XDP enabled
+f141c4092ba8d25a5a1065dc48ed12afa623da08 i40e: add double of VLAN header when computing the max MTU
+101e948648d5aa686220308ac349d3ed5d2a1a74 ixgbe: add double of VLAN header when computing the max MTU
 
---===============5818600674970351170==--
+--===============1145448346249621651==--
