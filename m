@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Fri, 10 Feb 2023 16:50:25 -0000
-Message-Id: <167604782587.12727.14268584288789901517@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/fio
+Date: Fri, 10 Feb 2023 17:00:06 -0000
+Message-Id: <167604840649.18742.5971271343192720622@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
-user: broonie
+repo: pub/scm/linux/kernel/git/axboe/fio
+user: axboe
 changes:
-  - ref: refs/heads/for-next
-    old: 336426db041595c72105c523c2552c71d1de14dd
-    new: 839d863e81d8adc0c9678d94d3074ee6f2dd8161
+  - ref: refs/heads/master
+    old: 0f85dc841d9220f3a0b45d0b104d5277ea962199
+    new: b65023f3c8849e122b2a223838ae9fdaed994e84
     log: |
-         1ad059a15707cfb066ae3d7342d59770f04aac5a ASoC: rsnd: core.c: indicate warning if strange TDM width was set
-         e093e74b819b38074f07289da9933f9c413337ab ASoC: rt712-sdca: fix coding style and unconditionally return issues
-         839d863e81d8adc0c9678d94d3074ee6f2dd8161 Merge remote-tracking branch 'asoc/for-6.3' into asoc-next
+         b8d07a36d0391fa4530349f92fd74d0e13d540ba Suppress sync engine QD > 1 warning if io_submit_mode is offload
+         b65023f3c8849e122b2a223838ae9fdaed994e84 Merge branch 'msg-Modify_QD_Sync_Warning_For_offload' of https://github.com/horshack-dpreview/fio
          
