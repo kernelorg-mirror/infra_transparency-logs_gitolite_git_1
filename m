@@ -1,22 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Fri, 10 Feb 2023 23:48:14 -0000
-Message-Id: <167607289497.1464.16008443822221683560@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Fri, 10 Feb 2023 23:50:03 -0000
+Message-Id: <167607300372.3667.14478876379774458883@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/arm64-defconfigs
-    old: cc1f543eb96b0783998383c52782bf94600f028d
-    new: caa9315dabfb86696bf1e0bec79824a195b4bfde
+  - ref: refs/heads/for-6.3/io_uring
+    old: 2bd59885eb9c2094d118b4321d5f74e12e77ef0f
+    new: fbe870a72fd1ddc5e08c23764e23e5766f54aa87
     log: |
-         1d2238883a20bdcd2f3a7fda7ddd389aba917760 arm64: configs: Provide slimmed down configuration for guests
-         91fabd14c77ead634c47ce9c0fe71af190c0e284 scripts: merge_config: Add option to suppress warning on overrides
-         d85b97c2c2f3b79dfce42adc222c8b25bcf43514 kbuild: Provide a version of merge_into_defconfig without override warnings
-         caa9315dabfb86696bf1e0bec79824a195b4bfde arm64: configs: Add virtconfig
+         fbe870a72fd1ddc5e08c23764e23e5766f54aa87 io_uring,audit: don't log IORING_OP_MADVISE
+         
+  - ref: refs/heads/for-next
+    old: d1366359ff515c28ff7c63f6ec7153f8719c1468
+    new: aa5050594b9f2585af6e4472fdac6f2b3e46d93e
+    log: |
+         fbe870a72fd1ddc5e08c23764e23e5766f54aa87 io_uring,audit: don't log IORING_OP_MADVISE
+         6938b812a638d9f02d3eb4fd07c7aab4fd44076d Merge branch 'for-6.3/io_uring' into for-next
+         501053535caca01f20a9323d3c8dec9ecb7a06b1 Merge branch 'for-6.3/iov-extract' into for-next
+         aa5050594b9f2585af6e4472fdac6f2b3e46d93e Merge branch 'for-6.3/block' into for-next
          
