@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1359124774445567553=="
+Content-Type: multipart/mixed; boundary="===============8161636513771191983=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Fri, 10 Feb 2023 08:26:01 -0000
-Message-Id: <167601756151.15251.9447230005727393319@gitolite.kernel.org>
+Date: Fri, 10 Feb 2023 08:26:32 -0000
+Message-Id: <167601759256.15482.2087591894218642134@gitolite.kernel.org>
 
---===============1359124774445567553==
+--===============8161636513771191983==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,48 +16,47 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/debugfs_cleanup
-    old: 4114994f887e46f98ce64a9d31d15daf2652992a
-    new: 27471e50f701cf97979bb7dc68c91b76e8d72467
-    log: revlist-4114994f887e-27471e50f701.txt
+  - ref: refs/heads/debugfs_lookup_fix
+    old: c97269478bc0b5d5c34428b499e1338b41f7aa59
+    new: c5388f712c9bfbdd7863b1d01438269227a0e4d1
+    log: revlist-c97269478bc0-c5388f712c9b.txt
 
---===============1359124774445567553==
+--===============8161636513771191983==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1676017559 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1676017591 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1676017558-0ea7c994fdbacb072d2e25951b8c47206038eae6
+nonce 1676017590-4e9c3e6e9cd3148dd5e2499cb82ecf77c9f8329e
 
-4114994f887e46f98ce64a9d31d15daf2652992a 27471e50f701cf97979bb7dc68c91b76e8d72467 refs/heads/debugfs_cleanup
+c97269478bc0b5d5c34428b499e1338b41f7aa59 c5388f712c9bfbdd7863b1d01438269227a0e4d1 refs/heads/debugfs_lookup_fix
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPl/5cbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+HPQP+QFiMZ9fvGx2zWI0Yb3n
-0qcusYYtkV3tNptFg4z5Vx7tEFpLke4q/XehdwSS9bD9CYhipds88CzmM42ngHWe
-843pu8QyckHWIrSueLdEv5BgHDVgK81+eH0JDtQjDByIURB2TvupdDqQyIwTzmjZ
-NBKIS9gExbUOwXBV1AJPD0XINRhMSc7RhHCJtsWPOlczn9rmpppDn5XGAFf3VO7H
-IP8coPz90ybSnV5ytKjLuNKQ7g1X2bFlo0OnikpRlWt9wzlHNVYD1CoOWgBT2BFs
-0Nij3QTkE9mDpnFG6+U52oKM69EJk/RkQ3pJs2+W8Qny07D/DHSQW9tsTtuH+aVE
-hQM7m90QItYbZWlVHZWPrS5oJUtw7+mmea++X4XZoT+Qpl8ZCQ1td+U7z2UcyUY1
-Wy1wOtzzDT0MXQKdwoOVgzYETVmWjHPws8XTecpWiZbLopjQJ7Iu9iRV49h3jMYz
-5yGqft98roCvMzc0niY/EheLxUaOrzMktGPh2Mt+qsjDlTOoTRns8EANZgk9FLCv
-0buu0C6oaSFwN3lUGvOrTWg8GkgGwnqP9iDCT0uf+0szEh7KW15uxHVkju6fmKp8
-v6UGQl/o6C2MM2PFfJnR9+CHs5BppG+3VHrzChmFWSHpn/KRvB2xad1dxiAk3Tf0
-lvn7x2fjKYiRk1lJMf4Kp1wA
-=4GU5
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPl/7cbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+figP/1OErFfQnnUA2oqF5JKu
+Lq7G9sJQZUKKmM7ak529q9MB+Gtp7XwWQTyqAB+bOwzEJ2Hp/K0R80Da+eMxkioT
+NjZfzX7tzpSl5S8axQu9YHAyxhOnKUyUiCU/LREJ0aT+IDogeF+aPdbAP+/Imd6I
+YRl3XgOcodItcVGujKSzYozKAopMrOmWgZiC18zNjZiWWukpOwhw53aEwUwQUIaS
+rS0/rhFlkvP/a0kX0eQIiJRr77vo9io2tBdQ+/4KJCjcynEPKonOBKQloNzjif9W
+5CO9h1UhxgmbO5HMIQPno6aGOSRqShx5fiH5pG7wjdeUYwiDC7VEH1tHncBKoXmf
+r9ehGYVZDv/Tws5rM7svok6t6oSqdlrYCbKIfoPIEOFzxBXAnoo7OXHzYnufats0
+v2YIcsshHI1dhTsekhxk1rbmmekYQT2rq/BYJfMahfHgNJMOlO600fDqcLb7fuGK
+qoR5iqbzPK1d62/q49KCmHd4m7qXbcqDEG18aGnoncaOVuNzk93MyLt3RWeykUVt
+p5bJZ0x9FtCEOhPEfneVDgk0T4sAR1yfYXxhBjmmMikP6zHILlu1ghKLyVwqlv/N
+clfD6tD3IuAbDFa7MiVOshjhGqldePnnbSioCHB2xqBdrrMlhqAM6w3sZn3gKGfP
+a9R2uJhveTZmT5ug4V4CRxlx
+=F8w+
 -----END PGP SIGNATURE-----
 
---===============1359124774445567553==
+--===============8161636513771191983==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4114994f887e-27471e50f701.txt
+Content-Disposition: attachment; filename=revlist-c97269478bc0-c5388f712c9b.txt
 
-5cdc03c5cf471a215c57e540cc86be613c0ba457 devtmpfs: convert to pr_fmt
 8deb87b1e810dd558371e88ffd44339fbef27870 drivers: base: component: fix memory leak with using debugfs_lookup()
 36c893d3a759ae7c91ee7d4871ebfc7504f08c40 drivers: base: dd: fix memory leak with using debugfs_lookup()
 8518e9db9f95d7beb453e46ee97e1a630680c4b5 const_structs.checkpatch.pl: add kobj_type
@@ -100,12 +99,33 @@ bc8b7931012f0511f016e2f048d1f4222db8e08f driver core: bus: constify bus_register
 f91482be9b480dfce2616f5ba3fa548b8ed41efb driver core: bus: constify bus_get_kset()
 4dd1f3f8f99ec51dbcfeffe95b8ab68161a332a4 driver core: bus: constify some internal functions
 ad8685d0f61a6fc1dc2e5874f4924ff5028c5954 driver core: bus: constify bus_unregister()
-3dae010099634ee33d61a713efc1eeb0842b3f82 driver core: remove devm_device_add_groups()
-aac79468da9ef9e55c7ff9af52be8448c4a964f9 sysfs: do not create empty directories if no attributes are present
-cb7b1802ee4470e0963c092c08432c6cb4dea242 soundwire: sysfs: move sdw_slave_dev_attr_group into the existing list of groups
-e22f82b127ae87de780e31b76d2b1a5b641dba49 soundwire: sysfs: cleanup the logic for creating the dp0 sysfs attributes
-ac5afb2e9ee6e120fecdcd3db11e091d2a670173 soundwire: sysfs: have the driver core handle the creation of the device groups
-ad9c390d77f9aca05c267a80c9796f5416aba14d soundwire: sysfs: remove sdw_slave_sysfs_init()
-27471e50f701cf97979bb7dc68c91b76e8d72467 soundwire: sysfs: remove unneeded ATTRIBUTE_GROUPS() comments
+e43070a7ab12e5e54a72e4182b6b5433ad28866c USB: fix memory leak with using debugfs_lookup()
+424658f2145cd88a49e1e2ce70dff8a6fc758072 USB: dwc3: fix memory leak with using debugfs_lookup()
+0de81257aa2fba03c47adbeef5c65908de153383 HV: hv_balloon: fix memory leak with using debugfs_lookup()
+4969692c6fe5bcb01a3070c0680505015646c499 scsi: snic: fix memory leak with using debugfs_lookup()
+6554a18db90e69cb5e4052765b14a9316493b384 misc: vmw_balloon: fix memory leak with using debugfs_lookup()
+796e7f4d162c6183cb4327d2b6ad897606666a9f staging: pi433: fix memory leak with using debugfs_lookup()
+56e173ec3cce83450f02979ddc9e55ad7ff019af tty: pcn_uart: fix memory leak with using debugfs_lookup()
+3d1ac1685f1af30619add1e9b9fa90b6863fd321 i915: fix memory leak with using debugfs_lookup()
+b3185413c53499278e3df6f1ef6829e4477311d6 drivers: base: power: fix memory leak with using debugfs_lookup()
+f106366a9a88e104e0e61147618230ebe52a2f64 ppc: iommu: fix memory leak with using debugfs_lookup()
+69a142a2a4300bb607b8db06e96dc7e55f266574 trace/blktrace: fix memory leak with using debugfs_lookup()
+4a3f4a4f3970f857a20371e5a3021b257743de24 mm/slub: fix memory leak with using debugfs_lookup()
+af93b97b0b85dc6cb46586a5c572d9055e4eb29a kernel/printk/index.c: fix memory leak with using debugfs_lookup()
+192f9b6caa174f4cdcc91b216a8693f34f85e39f kernel/irq/irqdomain.c: fix memory leak with using debugfs_lookup()
+d7a40018efe1ddb5fb04edcfe960a7ef2bdd78a0 USB: chipidea: fix memory leak with using debugfs_lookup()
+eb582e4d4c2c55912ffb2540bc56dfc40e2404c2 USB: ULPI: fix memory leak with using debugfs_lookup()
+f4daa669a80207c46df81e5973562deb94bafa5a USB: uhci: fix memory leak with using debugfs_lookup()
+c313d3d2a8647c6937af591d3864a564d0241f44 USB: sl811: fix memory leak with using debugfs_lookup()
+bbc5ed580d838fd27d28b16eb8e91a75e0527e2f USB: fotg210: fix memory leak with using debugfs_lookup()
+ddf0b91802607775db9ed8ce4845922a27f8b877 USB: isp116x: fix memory leak with using debugfs_lookup()
+2a4c5baa21b4a85a3b68630fffaefc94410a9541 USB: isp1362: fix memory leak with using debugfs_lookup()
+7fa84cf640b258af3d01b003c75983f19836edf2 USB: gadget: gr_udc: fix memory leak with using debugfs_lookup()
+710c81ee137efcac158ffe64893e691647667f08 USB: gadget: bcm63xx_udc: fix memory leak with using debugfs_lookup()
+6198d3af3fa65ac5add193c9eaff2e9c05a1387d USB: gadget: lpc32xx_udc: fix memory leak with using debugfs_lookup()
+538c8fece4e147d29339fb66afc9ffcdf72315cc USB: gadget: pxa25x_udc: fix memory leak with using debugfs_lookup()
+1a57ebde589dc1b4180cbad58f39ec0cf7f89026 USB: gadget: pxa27x_udc: fix memory leak with using debugfs_lookup()
+8eb2f784e095e713203b338b2930b508726ff4f0 USB: gadget: s3c2410_udc: fix memory leak with using debugfs_lookup()
+c5388f712c9bfbdd7863b1d01438269227a0e4d1 mtd: spi-nor: fix memory leak when using debugfs_lookup()
 
---===============1359124774445567553==--
+--===============8161636513771191983==--
