@@ -1,56 +1,27 @@
-Content-Type: multipart/mixed; boundary="===============4142328520199709238=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Fri, 10 Feb 2023 09:17:01 -0000
-Message-Id: <167602062183.18207.13236155757497256318@gitolite.kernel.org>
-
---===============4142328520199709238==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
+Date: Fri, 10 Feb 2023 09:24:32 -0000
+Message-Id: <167602107261.22061.4248619075568770521@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/driver-core
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/peterz/queue
+user: peterz
 changes:
-  - ref: refs/heads/driver-core-testing
-    old: ad8685d0f61a6fc1dc2e5874f4924ff5028c5954
-    new: 8c99377e614f8abfd881c34611002b2af5ab1ee8
+  - ref: refs/heads/objtool/core
+    old: a20717aca33b1ff133f513721050fe6c3d7f97b5
+    new: 5e25e686a415496cf5c4692080ff4aba200e8e6a
     log: |
-         8c99377e614f8abfd881c34611002b2af5ab1ee8 driver core: bus: add bus_get_dev_root() function
+         1b977d9f0ddb67da62aa5e2288b3135101077ab7 objtool: Change arch_decode_instruction() signature
+         0d468cfc9adae9ddef43e04954a180f46ee8cbb2 objtool: Make instruction::stack_ops a single-linked list
+         73aeb0c675152c98896444e8b753e0ab11ce6956 objtool: Make instruction::alts a single-linked list
+         f8f4702037f04ca2bd470a275581c502fd031af3 objtool: Shrink instruction::{type,visited}
+         698c5e70f5189258f8871a303096e2bf4a4dd5f5 objtool: Remove instruction::reloc
+         ec5a3b1feb8d8163ecf9c8df52e088fa9ad4bcb8 objtool: Union instruction::{call_dest,jump_table}
+         e9d3a7218404c3a6f76a1d80dd80d389fc930700 objtool: Fix overlapping alternatives
+         c325cd7721b2a9caaa8486cd11df67b96e19b495 x86: Fix FILL_RETURN_BUFFER
+         5e25e686a415496cf5c4692080ff4aba200e8e6a objtool: Remove instruction::list
          
-
---===============4142328520199709238==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1676020619 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1676020618-9683468a9bcfe4ae7808f37cec83a0497191e341
-
-ad8685d0f61a6fc1dc2e5874f4924ff5028c5954 8c99377e614f8abfd881c34611002b2af5ab1ee8 refs/heads/driver-core-testing
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPmC4sbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+S0wQAKCbbIoMm4Ole+01vksm
-k75KvIhRa4wZkUbrJPs6wcmVZsUKbLndIWPunTtP+59FFxv4PjUAPYUldDW8dV1Q
-2Xm4L+sPHQ8gIIhCQe+wq5Bro8AxPDBVHo7mYq70EuHzSKsQJ83WIu5irEdgvMXB
-oSGMFBqNEcuy58h/POWolZ/5Rv0Cnwb4VIjSZtMY5BdxqV63hjL2qAjAo6Lc1dpI
-mTRAUmsJnmeYq/S+fsWFIoTGSd8XTpJOAVO1oV62uDnFX/TuJLMVxJKzSFRkWP3g
-w5b7f1WmKLpaGQqAy5NYXOWnbVCaqzeQMx5uLUzJDkPwbgrsYkUseSRvcaHih66E
-n4kWojNuVNOXnZWFbsfeZJfpMgQ3FSMANN379QRXx5j2+SW9wLIQagZRnGCk01JS
-IM5SJzymZZoMitPhY5SKGqOJ8qM5vPfQ8VhS6V/XGU/Ke0MF1865FKsYKDSnRdyv
-MjA6ZKeQpSCT56Eht/sjah0HwQziGMBWlcnLE2Np0ZFEImS7FJMId0cafAir5Xsx
-/LGw94YEMsx7pXvHhuGkX3Z/5HNlxanvhd1P6FslzfimD84gHQz3Hz7SwXyHGMFz
-Q6dsqv8zo0+56Unu5/yudxmcBkNgpLDXzIEkTEx5U9o0HjkkI6LFnNM6FI8YybtR
-qs1Pp1Bn4GJe/CjnAkVmjfvZ
-=U1dC
------END PGP SIGNATURE-----
-
---===============4142328520199709238==--
