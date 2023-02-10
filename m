@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Fri, 10 Feb 2023 16:09:20 -0000
-Message-Id: <167604536026.14271.15536719830120305561@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Fri, 10 Feb 2023 16:11:20 -0000
+Message-Id: <167604548017.16558.2801346159140727072@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/peterz/queue
-user: peterz
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: hansg
 changes:
-  - ref: refs/heads/debug/experimental
-    old: 0000000000000000000000000000000000000000
-    new: 9b708bf7d1e4015fc3c5bbec61d8ffafd486b10b
+  - ref: refs/heads/review-hans
+    old: 23d18a20723b115460014a92c4e9ce631d6455c5
+    new: b919540aeb58bc164192b07e64fd45eea4f39b91
+    log: |
+         b919540aeb58bc164192b07e64fd45eea4f39b91 platform/x86: int3472/discrete: add LEDS_CLASS dependency
+         
