@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4279064009060389128=="
+Content-Type: multipart/mixed; boundary="===============6897086497006745651=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Fri, 10 Feb 2023 08:25:13 -0000
-Message-Id: <167601751320.14867.13339581612173520453@gitolite.kernel.org>
+Date: Fri, 10 Feb 2023 08:25:39 -0000
+Message-Id: <167601753939.15093.5594815821837315045@gitolite.kernel.org>
 
---===============4279064009060389128==
+--===============6897086497006745651==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,51 +16,88 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/kobject-const-2
-    old: 0be8abebbd476395ee73f4a83d4988dc9958f83c
-    new: 2fd0d1a1b573c2fd4e668c36a6fcbe08b4ac03f3
-    log: |
-         550c33490d6333fc45bcfff1aacf3144d9f8212f sh: intc: move to use bus_get_dev_root()
-         052968dd82ff34e1b093301edf4372eef39c9b7e s390/topology: move to use bus_get_dev_root()
-         a0e9b030efd1ddaeadcb0fdf69ad088e1875b5ef s390/smp: move to use bus_get_dev_root()
-         5264994fc26c7fcf3def5cbe94f7d72d9a40b40c driver core: bus: move dev_root out of struct bus_type
-         b82a3205557f74fcdc032033c9aeed2691230da6 driver core: bus: mark the struct bus_type for sysfs callbacks as constant
-         b0e9e24b70da341a8c15c1609d76ce287410f828 driver core: bus: constantify bus_register()
-         7063eb18ae33e548c56444fca5212ffc1e6af0d2 driver core: bus: constify bus_rescan_devices()
-         947d7c76c4c3438d5d07b7d69cde8910d4b47d36 driver core: bus: constify driver_find()
-         fa848a163fa022852a6f7f13ef75b1eda1509617 driver core: bus: constify bus_get()
-         218dc66f6a9803523c1079ca240f7dc62b6eb448 driver core: make the bus_type in struct device_driver constant
-         2fd0d1a1b573c2fd4e668c36a6fcbe08b4ac03f3 driver core: mark struct device's bus_type as const.
-         
+  - ref: refs/heads/bus_cleanup
+    old: 5cdc03c5cf471a215c57e540cc86be613c0ba457
+    new: ad8685d0f61a6fc1dc2e5874f4924ff5028c5954
+    log: revlist-5cdc03c5cf47-ad8685d0f61a.txt
 
---===============4279064009060389128==
+--===============6897086497006745651==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1676017509 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1676017538 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1676017508-5e0f3626dd9d8ab321f9ddd5868cd45cdf6f0094
+nonce 1676017538-a218ce5ac27b6064c4076ddf1cb9fcdf49b54324
 
-0be8abebbd476395ee73f4a83d4988dc9958f83c 2fd0d1a1b573c2fd4e668c36a6fcbe08b4ac03f3 refs/heads/kobject-const-2
+5cdc03c5cf471a215c57e540cc86be613c0ba457 ad8685d0f61a6fc1dc2e5874f4924ff5028c5954 refs/heads/bus_cleanup
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPl/2UbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+mngP/j+5L5dJQmIVJFgrsGGy
-sYC47xfrM/4/A28z1pTPbdK+rdgUFCvh6PlaHDOaNe6eWPLXJu09pt4bC9HDSZvG
-Mdej+vorDOIlHabW74yBASAP2GmN3Us/ttulnh/m14SwWd0SUmRvHzpFQ8C89Dcj
-nYVxlZA1wP5M/NS0u1AYa9dAoesstvOB5Ar4y0YjszH7ZpPkKIED5MvdvFkeIIwb
-56lZDVBBnfxWFwHFmoMcp2LIWXLvjM5aVngzbZD/5SbWJo7yEZ176hITuv2IeqWl
-4n79hJ1G5LKLNlqOIKbww+CbgaEnVDalLhcuXujfZZPmyL/BX/SBJkaXd+kMliYS
-hbgheCy3YFGs4pNm7nLHrPW7bLNzrk/bZ6EMxy7JdtCon+CHfU5lEpo4T4G4pFS5
-ooDl8BdWt+NSnwvWAudegM1d2ckWMjJlQz5Cbq+jQTv8BxIEQ5ClWF7a3JagPO4g
-fnvQwa05YaVb3TnnkEwViQYRmAZwOE648X7mBKEx1Pgb4dZWu+SSb2XKEKyoiRWP
-Ior1f/hvIg3AuqsmXWfgec3BQFHZ9Ku19GeZqgyJNtctpW0OcCog3Zee9ohM7lBS
-hsEmyHAqqwePiJ0liEwd+XWQOkBk/uXX+VcJmx31aJcvA52CvW6OtinM8WJNNzri
-BQNfbqboaSxoxYMG+1DBC2NN
-=i12a
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPl/4IbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+K9YP/1LVkMqWinX85ZBrHQKJ
+qqVhuYgJlPHQ+t5jfnbiu7fYhkAVNOEcAhbROiYx3tl4T0NjPGQbeh1W2sSC17s5
+1DObZZLZv7BU8DiJDcpsYwi6LiE94kt8srcuby0X4dUnQzAssna6bS4JXipzhciH
+Ru/UAZ8o85fQggaS3gvtIkvAtmawBgjc8xSexHEPfq6TV4Moo6ajkhv1jAfJIWMG
+iftnIqTiYc6mIbKVJwbiFcQqExde386C+YBm2MfbyBtoGemCz6H9krH6yVv9W2Y0
+ZU2CdHhfFGUwd4nXjPUQv13SzztHbcUJYwltwy6y3mowInbTt/VA4TYiIVO76zok
+1ID+AJI8hZW6HDsJWPjzCbbxwLi0NzFrQOw45wx0i0G8x2hXIPW6vgzsF1564m8l
+c66w/y2bnsXhCpMg8yUT1FY6FlZsnfSAfRxdOc/sxnxSrJ81rL9oJNCOfFfQdpbn
+cMA7wKd+R+W5MP3bSVekJ6j0/DF7tD9EPGnPfKYr4jA/9LFfYQ6HOY9dNvbPzbNn
+QcAHQmedhzrPLbAL6UM+cZUFFd4eewKxl5EAPHchh86rjmu7tGhSif2/wXIE8FoP
+U6XBTLgVuG+z62FSNoc6KJqxeJSLK6bVZg1Kby5nRRviWfFuTNrdjoMlqxAKjLup
+gMhQAb+PKJKDLF1uj4Q7sbKD
+=T+J7
 -----END PGP SIGNATURE-----
 
---===============4279064009060389128==--
+--===============6897086497006745651==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-5cdc03c5cf47-ad8685d0f61a.txt
+
+8deb87b1e810dd558371e88ffd44339fbef27870 drivers: base: component: fix memory leak with using debugfs_lookup()
+36c893d3a759ae7c91ee7d4871ebfc7504f08c40 drivers: base: dd: fix memory leak with using debugfs_lookup()
+8518e9db9f95d7beb453e46ee97e1a630680c4b5 const_structs.checkpatch.pl: add kobj_type
+dda6b81f17ad8e72f8bc151c876cd335a471e268 kobject: make dynamic_kobj_ktype and kset_ktype const
+c83d9ab42f1ef70d81bb3c637a12c098a9a05057 driver core: make kobj_type structures constant
+862f6a84d1bf01435fdd6aa8b2811c88ab1f06f4 samples/kobject: make kobj_type structure constant
+5f5139974c2030e0937d3ae01f17da1238281f11 kernel/time/test_udelay.c: fix memory leak with using debugfs_lookup()
+a0bc3f78d0fffa8be1a73bf945a43bfe1c2871c1 kernel/power/energy_model.c: fix memory leak with using debugfs_lookup()
+2bb3669f576559db273efe49e0e69f82450efbca kernel/fail_function: fix memory leak with using debugfs_lookup()
+3a2dbc510c437ca392516b0105bad8e7970e6614 driver core: fw_devlink: Don't purge child fwnode's consumer links
+411c0d58ca6faa9bc4b9f5382118a31c7bb92a6f driver core: fw_devlink: Improve check for fwnode with no device/driver
+8640166f01fe42f2e4a73ab92c797b97b467927d soc: renesas: Move away from using OF_POPULATED for fw_devlink
+38dfa56b3db354b4bd399fc686c3e74ad32ffa57 gpiolib: Clear the gpio_device's fwnode initialized flag before adding
+67cad5c67019c38126b749621665b6723d3ae7e6 driver core: fw_devlink: Add DL_FLAG_CYCLE support to device links
+6a6dfdf8b3ff337be5a447e9f4e71969f18370ad driver core: fw_devlink: Allow marking a fwnode link as being part of a cycle
+cd115c0409f283edde94bd5a9a42dc42bee0aba8 driver core: fw_devlink: Consolidate device link flag computation
+3fb16866b51ded6c016b664caad53f8d4fd9dc56 driver core: fw_devlink: Make cycle detection more robust
+4a032827daa89350365166b19d14d82fe8219128 of: property: Simplify of_link_to_phandle()
+e2bbea770cafb7e19bbb6cd77fad3c1c6fb4cca5 irqchip/irq-imx-gpcv2: Mark fwnode device as not initialized
+96da4a99ce507bb98e2ba77018a2f91999c8c12b firmware: arm_scmi: Set fwnode for the scmi_device
+fb42378dcc7f247df56f0ecddfdae85487495fbc mtd: mtdpart: Don't create platform device that'll never probe
+789be03a600842ef461968cc5a2d458f51f319b2 driver core: add local subsys_get and subsys_put functions
+273afac615adccf97bd4e70ebfb27074f1ff22b9 driver core: bus: implement bus_get/put() without the private pointer
+e0766ea4c8f8f94a605e291aa3672a703dc1d2e4 driver core: bus: constantify the bus_find_* functions
+0396f2863f7af3c588033d270f7d979d11cd4708 driver core: bus: convert bus_create/remove_file to be constant
+a00fdb988d81200e4d81b81e525b8f90e7d51591 driver core: bus: sysfs function cleanups
+5221b82d46f26903cf3161fb7d1fc006170811e0 driver core: bus: bus_add/probe/remove_device() cleanups
+3465e2e4a24eef9bc9f21aa29d83fd7000c1da48 driver core: bus: bus_register/unregister() cleanups
+adac0375380a7d3e50194cc5b03b676b0321bded driver core: bus: subsys_interface_register/unregister() cleanups
+beea7892d4339e50f15e5131d51a95503678fdf6 driver core: bus: bus_get_kset() cleanup
+32a8121a19c4936672440c96371f6a8c2b0c3d4d driver core: bus: bus_register/unregister_notifier() cleanups
+e4f056825ff5939254701d02ff3833ff27116225 driver core: bus: bus_add/remove_driver() cleanups
+83b9148df2c95e23d0fcf1f714dec88ce5a0468b driver core: bus: bus iterator cleanups
+b5aaecb82ac0d008ddec8132979398b9b4e925fc driver core: bus: clean up bus_sort_breadthfirst()
+adc18506941dcafe216aba80766ab51c890358e8 driver core: move driver_find() to bus.c
+fb451966ae7d7e6d6802de39bda5fa2f15781244 driver core: bus: clean up driver_find()
+63b823d7d3cd275c3347233f95bdf966a595dbc8 driver core: create bus_is_registered()
+d2bf38c088e0d5467a0e8a2055d6f95dff5c2125 driver core: remove private pointer from struct bus_type
+bc8b7931012f0511f016e2f048d1f4222db8e08f driver core: bus: constify bus_register/unregister_notifier()
+f91482be9b480dfce2616f5ba3fa548b8ed41efb driver core: bus: constify bus_get_kset()
+4dd1f3f8f99ec51dbcfeffe95b8ab68161a332a4 driver core: bus: constify some internal functions
+ad8685d0f61a6fc1dc2e5874f4924ff5028c5954 driver core: bus: constify bus_unregister()
+
+--===============6897086497006745651==--
