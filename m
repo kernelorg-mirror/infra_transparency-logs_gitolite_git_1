@@ -1,56 +1,44 @@
-Content-Type: multipart/mixed; boundary="===============8634502240462653785=="
+Content-Type: multipart/mixed; boundary="===============1547719641811314396=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Sat, 11 Feb 2023 10:53:05 -0000
-Message-Id: <167611278581.28668.8006178208279650590@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Sat, 11 Feb 2023 10:54:03 -0000
+Message-Id: <167611284373.29082.3828347033760494453@gitolite.kernel.org>
 
---===============8634502240462653785==
+--===============1547719641811314396==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/driver-core
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/heads/kobject-const
-    old: d8645e28ff0a448d98ecd0b5219452e40f281ccd
-    new: ea0d1202075c08b9df42d18f14813c740cf5440a
-    log: |
-         ea0d1202075c08b9df42d18f14813c740cf5440a driver core: mark struct device's bus_type as const.
-         
+  - ref: refs/heads/master
+    old: 59ff0a6e4af93b06c26dc15add46c2afa4f79f85
+    new: a0a4308f9b7f12b8a9ff0c033274611084fe53a6
+    log: revlist-59ff0a6e4af9-a0a4308f9b7f.txt
 
---===============8634502240462653785==
+--===============1547719641811314396==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-59ff0a6e4af9-a0a4308f9b7f.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1676112784 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1676112783-611dcbc3e38b740a18fc88d78bdaa1eb7e4956fd
+851026a2bf54e739a2e13723bf3c4513f3cbcdc9 x86/cacheinfo: Remove unused trace variable
+8fe6d84947582e2c076abc6253b80709fb047935 x86/tsc: Make recalibrate_cpu_khz() export GPL only
+6b8d5dde5b6903baf82fc7400e0b3376b10805b4 x86/tsc: Do feature check as the very first thing
+443ed4c302fff6a26af980300463343a7adc9ee8 objtool: mem*() are not uaccess safe
+e5ed0550c04c5469ecdc1634d8aa18c8609590f0 sched/fair: unlink misfit task from cpu overutilized
+a2e90611b9f425adbbfcdaa5b5e49958ddf6f61b sched/fair: Remove capacity inversion detection
+829c1651e9c4a6f78398d3e67651cef9bb6b42cc sched/fair: sanitize vruntime of entity being placed
+7ea98dfa44917a201e76d4fe96bf61d76e60f524 sched/deadline: Add more reschedule cases to prio_changed_dl()
+7c4a5b89a0b5a57a64b601775b296abf77a9fe97 sched/rt: pick_next_rt_entity(): check list_entry
+89e97eb8cec0f1af5ebf2380308913256ca7915a perf/x86/intel/ds: Fix the conversion from TSC to perf time
+fd636b6a9bc6034f2e5bb869658898a2b472c037 x86/perf/zhaoxin: Add stepping check for ZXC
+cc6a98928a06fa006ab8e5c8b18619e5f84f021c Merge branch into tip/master: 'perf/core'
+a58c54f9a533858c2e9360c8d09fd3f1179db2b5 Merge branch into tip/master: 'sched/core'
+a0a4308f9b7f12b8a9ff0c033274611084fe53a6 Merge branch into tip/master: 'x86/cleanups'
 
-d8645e28ff0a448d98ecd0b5219452e40f281ccd ea0d1202075c08b9df42d18f14813c740cf5440a refs/heads/kobject-const
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPnc5AbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+LskP/RazIxy8xCf8Q75K68V/
-uRCh1sQbKK+/YpmUGtV6KNn8C5HSJhgejdQryUnU+6jbunCSbNPKbD9yfye8Q5j4
-wbCzPepp3aE+C7duw8vilYoIlZuFCQrZil/DM3xgQtVWJrp/9VGl4ccOYNF7aEyD
-IewHC8DC4ul3w7/ho8M8uOP39fM9vG9NAl7/0531SVlW9GfDdrBXtxuajkKM5ahq
-k7cv0JW+RYuwi1Z9KwJ8JsHSpc8YzpQvRhcXbsdQc0J8gTbnLYhZKh7nJbmAenPe
-i3p6s9/dndc9bAk5msAtTEqwv2Zccphliqjia6RYCB5XCsLHtgEq2ePfwdOSx/1a
-ht+t8YDqwChM4G7J6qqwvC0E0dgucUNkZn2OYFTRncsGHcbkgdn/s7ppHSCxYYrl
-A9Gh89+DyDX/pXGCJ5/qsoJ8w7RJQnZZioMcSWc+A4uTkutxNdsHXKXpq6wn4wgd
-/TEFjSKVUwVzHKA1RUq4DFtBGHjGAx/t2Ru0TzBgZEV2RgZXw9HLZaGFfhYL31R3
-27NzOUEV9UVUKsMwrlqNA1Q9jW3sIddh7XM4cpCcVrFd8nua/DRvh33KyZsM+a7K
-zRTDHnRYCypptbVXuT68qJ6mMAMD+MCGF03wuWD2fL4z/iex09wA6V4Zn8lgCeuL
-eFzh372+sZcsr91Q444odLo6
-=q0qP
------END PGP SIGNATURE-----
-
---===============8634502240462653785==--
+--===============1547719641811314396==--
