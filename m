@@ -1,42 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============0924433064673272231=="
+Content-Type: multipart/mixed; boundary="===============1974423643390491477=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
-Date: Sat, 11 Feb 2023 11:39:14 -0000
-Message-Id: <167611555431.26264.4150115167781280548@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Sat, 11 Feb 2023 11:42:50 -0000
+Message-Id: <167611577039.28926.18230320693034396728@gitolite.kernel.org>
 
---===============0924433064673272231==
+--===============1974423643390491477==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
-user: chenhuacai
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/loongarch-next
-    old: e740350dad03f76fc4c63f8d786f25272d7a2409
-    new: 2d94a107d0419cb47fa7860f35ac529c80f90d40
-    log: revlist-e740350dad03-2d94a107d041.txt
+  - ref: refs/heads/master
+    old: d95903971171f737d8eed0bb726c502b3630d8b9
+    new: 52335131b829cbb67e10cf6542c7cdcd9f9dcb86
+    log: |
+         52335131b829cbb67e10cf6542c7cdcd9f9dcb86 5.4-stable patches
+         
 
---===============0924433064673272231==
+--===============1974423643390491477==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e740350dad03-2d94a107d041.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-c5a58b3eaf747a4d193c22b216201aa5514d9a65 LoongArch: Fix Chinese comma in cpu.h
-95d0492215ed9e2ae7189c1c2d4d91ca8952f8ac LoongArch: Only call get_timer_irq() once in constant_clockevent_init()
-a023b55c66cc273da31e37ecf19d350a5295f6ec LoongArch: Make -mstrict-align configurable
-3e9ad0377cfe2b30a83e1a4db9ba7d3ded640028 LoongArch: Simulate branch and PC* instructions
-97d5064b690487c5a765914c6ac1565bc6aabeb1 LoongArch: Add kprobes support
-1911b5156648edc29e8977e1f18e1f892caeaa26 LoongArch: Add kretprobes support
-03dc5fc7ef4542c3cbf59ff74662513891f7a014 LoongArch: Add kprobes on ftrace support
-6c909e2bdaa29b2c423d7354adbbee54f56c4efe LoongArch: Mark some assembler symbols as non-kprobe-able
-e762fd49241da665650acc0b0b7933616bf682e3 samples/kprobes: Add LoongArch support
-7a6d2a90a9bd7efc49ca2bb4bb6e310c66dbd981 tools: Add LoongArch build infrastructure
-7fe5de188cadeafdbc145868f1a1c9af012c1537 selftests/seccomp: Add LoongArch selftesting support
-2d94a107d0419cb47fa7860f35ac529c80f90d40 selftests/ftrace: Add LoongArch kprobe args string tests support
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1676115769 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1676115767-b093de9d6c9045b04cbbdda1a7692202f0a701c0
 
---===============0924433064673272231==--
+d95903971171f737d8eed0bb726c502b3630d8b9 52335131b829cbb67e10cf6542c7cdcd9f9dcb86 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPnfzkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+fvgP/0B/p4cj3qplmUC3XElD
+S8jdirtu96l6m+1wFcoKmuWPFTSxNpUxJIE76XPDbMpK3GlAoqmWeNyaDAWDERlz
+KOEpmwOophqRKj61P6kSMTjCpDc3iiyUZevtOPm+1fwVIPLjhrXTPtROtbjAyXK/
+3kem3Kpi8PODoadQ9+Ltwclch4P0r5hxUB36jVd+QMcTKXOAw+hsXJnR7btJwxem
+LDSoysdaB9SnprGhQgr7rtlH3go55tk+QrekQO0ETEtS6dUzonmXvI1EQv7tUeBI
+Y7kg/Llj+QgnRE5h1azwpTcIqJgMk8Cz7CQO0U0QcLn7OWPeV8YmWXuNu13zw26j
+92cOVUiOICmxz/UUV55PEKFKwiFHDRtK2Wtrcu1NSYvCXktbIvuv6udo+w9r4MaE
+Phj/KeNiQ7lX5LqgZfYkA2R0CjFX+flCsU26ZVfjCxlNgksHkxvFdmdMOMcOgO5V
+Q1Oabk4ZKezRNfkWpg8+NGM8LhT5gGANPkuUdgMgOu872NAmq/nNCuimf+c3Ik/I
+D5SBzx9jU1Ir/QWELojq58FXYmw/SrW5/T+KAQeBhgjQ0zCPO5XmpPw81VupPpEs
+6GoIevrSagxvDB71HRYGM+45vhHvLi4o+pB8yxj0OzheYUQUF82+U1KJgRF6AuFh
+o2zDQ5qkvnGlV0g27yV882G6
+=+xWr
+-----END PGP SIGNATURE-----
+
+--===============1974423643390491477==--
