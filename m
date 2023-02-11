@@ -1,52 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============3632346681775565468=="
+Content-Type: multipart/mixed; boundary="===============8634502240462653785=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sat, 11 Feb 2023 10:52:30 -0000
-Message-Id: <167611275057.28358.16824795152621592980@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Sat, 11 Feb 2023 10:53:05 -0000
+Message-Id: <167611278581.28668.8006178208279650590@gitolite.kernel.org>
 
---===============3632346681775565468==
+--===============8634502240462653785==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: 09939b40271714a8af583cacc499f1b985fbdb00
-    new: 59ff0a6e4af93b06c26dc15add46c2afa4f79f85
-    log: revlist-09939b402717-59ff0a6e4af9.txt
+  - ref: refs/heads/kobject-const
+    old: d8645e28ff0a448d98ecd0b5219452e40f281ccd
+    new: ea0d1202075c08b9df42d18f14813c740cf5440a
+    log: |
+         ea0d1202075c08b9df42d18f14813c740cf5440a driver core: mark struct device's bus_type as const.
+         
 
---===============3632346681775565468==
+--===============8634502240462653785==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-09939b402717-59ff0a6e4af9.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-7257da72891e038048dcd93176cc87d91c65ba4e Merge branch into tip/master: 'locking/urgent'
-f551c6ba0b9ac0aed9f16ff48407d6be970b51ba Merge branch into tip/master: 'x86/urgent'
-f7195075cddedec30c1567493b35db81e7017724 Merge branch into tip/master: 'irq/core'
-3bbdb8045c20839d73caf13aa215021299a14513 Merge branch into tip/master: 'locking/core'
-f3d64a7baf9f94e042347ca041613a8f1318b78e Merge branch into tip/master: 'objtool/core'
-dbd37b93156afe11ab53598413138af3ae99f8d5 Merge branch into tip/master: 'perf/core'
-464a88f1dfd6efc5cbf60f5f561638e2e9e28cd7 Merge branch into tip/master: 'ras/core'
-a5dbe9bec233bc079e77627d4940a4a8145c9ee6 Merge branch into tip/master: 'sched/core'
-c78b9a8d9213b2003edf81e23c5b4d3508a72ed0 Merge branch into tip/master: 'timers/core'
-8dd1c6be8ebefeff54fac932d0435d1b06e09222 Merge branch into tip/master: 'x86/alternatives'
-bddab64e36ae34b3237f574dd3a7cc334a9c569c Merge branch into tip/master: 'x86/asm'
-79dec632631abb88a639da1e2b4b6a5bcf833320 Merge branch into tip/master: 'x86/boot'
-5944baedfdfdf6f56f9d5793399ff56706c7ff26 Merge branch into tip/master: 'x86/cache'
-e1e1baf28abe1b84125b77cd6792482985ccdc7b Merge branch into tip/master: 'x86/cleanups'
-a0a4f1f978ff9c0e6cac63a3b8e76eccef82b069 Merge branch into tip/master: 'x86/core'
-cc273da338cf1a1373f80ae3075fe5ecba58bd9d Merge branch 'x86/cpu'
-8a564971a25036a64391fb815a3127e446096fc5 Merge branch into tip/master: 'x86/fpu'
-40d953e83abd632f4e306fce2f1930811099f8bf Merge branch into tip/master: 'x86/microcode'
-eb1f6e3c2168303878178cced98edbbaaff73813 Merge branch into tip/master: 'x86/mm'
-bae604bd4bc45c79df6d663067b92bcf3d536ee8 Merge branch into tip/master: 'x86/platform'
-43a5138dbed9bf07914acbb81f6539b7dbd37ed0 Merge branch 'x86/tdx'
-59ff0a6e4af93b06c26dc15add46c2afa4f79f85 Merge branch into tip/master: 'x86/vdso'
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1676112784 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1676112783-611dcbc3e38b740a18fc88d78bdaa1eb7e4956fd
 
---===============3632346681775565468==--
+d8645e28ff0a448d98ecd0b5219452e40f281ccd ea0d1202075c08b9df42d18f14813c740cf5440a refs/heads/kobject-const
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPnc5AbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+LskP/RazIxy8xCf8Q75K68V/
+uRCh1sQbKK+/YpmUGtV6KNn8C5HSJhgejdQryUnU+6jbunCSbNPKbD9yfye8Q5j4
+wbCzPepp3aE+C7duw8vilYoIlZuFCQrZil/DM3xgQtVWJrp/9VGl4ccOYNF7aEyD
+IewHC8DC4ul3w7/ho8M8uOP39fM9vG9NAl7/0531SVlW9GfDdrBXtxuajkKM5ahq
+k7cv0JW+RYuwi1Z9KwJ8JsHSpc8YzpQvRhcXbsdQc0J8gTbnLYhZKh7nJbmAenPe
+i3p6s9/dndc9bAk5msAtTEqwv2Zccphliqjia6RYCB5XCsLHtgEq2ePfwdOSx/1a
+ht+t8YDqwChM4G7J6qqwvC0E0dgucUNkZn2OYFTRncsGHcbkgdn/s7ppHSCxYYrl
+A9Gh89+DyDX/pXGCJ5/qsoJ8w7RJQnZZioMcSWc+A4uTkutxNdsHXKXpq6wn4wgd
+/TEFjSKVUwVzHKA1RUq4DFtBGHjGAx/t2Ru0TzBgZEV2RgZXw9HLZaGFfhYL31R3
+27NzOUEV9UVUKsMwrlqNA1Q9jW3sIddh7XM4cpCcVrFd8nua/DRvh33KyZsM+a7K
+zRTDHnRYCypptbVXuT68qJ6mMAMD+MCGF03wuWD2fL4z/iex09wA6V4Zn8lgCeuL
+eFzh372+sZcsr91Q444odLo6
+=q0qP
+-----END PGP SIGNATURE-----
+
+--===============8634502240462653785==--
