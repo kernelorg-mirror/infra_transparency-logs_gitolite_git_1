@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5131437423253960830=="
+Content-Type: multipart/mixed; boundary="===============4265338610897455541=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cxl/cxl
-Date: Sat, 11 Feb 2023 02:44:12 -0000
-Message-Id: <167608345213.17961.6263397510497308222@gitolite.kernel.org>
+Date: Sat, 11 Feb 2023 02:44:24 -0000
+Message-Id: <167608346467.18094.8002623808798113019@gitolite.kernel.org>
 
---===============5131437423253960830==
+--===============4265338610897455541==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cxl/cxl
 user: djbw
 changes:
-  - ref: refs/heads/pending
-    old: 3ad0b8d3a98e8c657ad713eca5f4efbb569fc4fd
+  - ref: refs/heads/next
+    old: dbe9f7d1e155b97a42f7da81e22acc98fe0a9072
     new: b8b9ffced017528bcdd262730ab10bc5084c3bb4
-    log: revlist-3ad0b8d3a98e-b8b9ffced017.txt
+    log: revlist-dbe9f7d1e155-b8b9ffced017.txt
 
---===============5131437423253960830==
+--===============4265338610897455541==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3ad0b8d3a98e-b8b9ffced017.txt
+Content-Disposition: attachment; filename=revlist-dbe9f7d1e155-b8b9ffced017.txt
 
 d874297bc7c8bb69f9fcbe6422ac5623c5897977 cxl/mem: Correct full ID range allocation
 2345df54249c6fb7779e2a72b427ee79ed3eaad5 cxl/memdev: Fix endpoint port removal
@@ -54,4 +54,4 @@ af73370dcbe584f44168872b0bacac899f3c48f2 cxl/mem: Fix UAPI command comment
 dfd423e0a3256f88b8ea622fbbe04f91594195b6 Merge branch 'for-6.3/cxl' into cxl/next
 b8b9ffced017528bcdd262730ab10bc5084c3bb4 Merge branch 'for-6.3/cxl-ram-region' into cxl/next
 
---===============5131437423253960830==--
+--===============4265338610897455541==--
