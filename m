@@ -1,44 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============1547719641811314396=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sat, 11 Feb 2023 10:54:03 -0000
-Message-Id: <167611284373.29082.3828347033760494453@gitolite.kernel.org>
-
---===============1547719641811314396==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
+Date: Sat, 11 Feb 2023 11:00:44 -0000
+Message-Id: <167611324471.1921.12105015462134945802@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
+user: chenhuacai
 changes:
-  - ref: refs/heads/master
-    old: 59ff0a6e4af93b06c26dc15add46c2afa4f79f85
-    new: a0a4308f9b7f12b8a9ff0c033274611084fe53a6
-    log: revlist-59ff0a6e4af9-a0a4308f9b7f.txt
-
---===============1547719641811314396==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-59ff0a6e4af9-a0a4308f9b7f.txt
-
-851026a2bf54e739a2e13723bf3c4513f3cbcdc9 x86/cacheinfo: Remove unused trace variable
-8fe6d84947582e2c076abc6253b80709fb047935 x86/tsc: Make recalibrate_cpu_khz() export GPL only
-6b8d5dde5b6903baf82fc7400e0b3376b10805b4 x86/tsc: Do feature check as the very first thing
-443ed4c302fff6a26af980300463343a7adc9ee8 objtool: mem*() are not uaccess safe
-e5ed0550c04c5469ecdc1634d8aa18c8609590f0 sched/fair: unlink misfit task from cpu overutilized
-a2e90611b9f425adbbfcdaa5b5e49958ddf6f61b sched/fair: Remove capacity inversion detection
-829c1651e9c4a6f78398d3e67651cef9bb6b42cc sched/fair: sanitize vruntime of entity being placed
-7ea98dfa44917a201e76d4fe96bf61d76e60f524 sched/deadline: Add more reschedule cases to prio_changed_dl()
-7c4a5b89a0b5a57a64b601775b296abf77a9fe97 sched/rt: pick_next_rt_entity(): check list_entry
-89e97eb8cec0f1af5ebf2380308913256ca7915a perf/x86/intel/ds: Fix the conversion from TSC to perf time
-fd636b6a9bc6034f2e5bb869658898a2b472c037 x86/perf/zhaoxin: Add stepping check for ZXC
-cc6a98928a06fa006ab8e5c8b18619e5f84f021c Merge branch into tip/master: 'perf/core'
-a58c54f9a533858c2e9360c8d09fd3f1179db2b5 Merge branch into tip/master: 'sched/core'
-a0a4308f9b7f12b8a9ff0c033274611084fe53a6 Merge branch into tip/master: 'x86/cleanups'
-
---===============1547719641811314396==--
+  - ref: refs/heads/loongarch-next
+    old: c3eedc8653b9fce46ba28cb4b29ac988b484ec50
+    new: e740350dad03f76fc4c63f8d786f25272d7a2409
+    log: |
+         4b120c40566eb177cdae890813e90d4d730b9da1 LoongArch: Fix Chinese comma in cpu.h
+         78cc1f8785bf3b21c745d90e2e8cbb42f5278db1 LoongArch: Make -mstrict-align configurable
+         0f6fadaffcd645b578711962cf8a04c580bdf992 LoongArch: Simulate branch and PC* instructions
+         577ce6400ea7948092916ef8a20cecdd549026fd LoongArch: Add kprobes support
+         844fae6539fc5129f85a78a121a8de2b5ca59d0d LoongArch: Add kretprobes support
+         4c87af9cf65169c2ccfb15a12ad3f6d6f82fecf6 LoongArch: Add kprobes on ftrace support
+         61145e64d252b7010d52017ae567856c8a20abe0 LoongArch: Mark some assembler symbols as non-kprobe-able
+         78ffb154b19be2d00d8f20abfb96deee725ae14a samples/kprobes: Add LoongArch support
+         e2c1ba0c72ead127f763fb60727ac156158cef91 tools: Add LoongArch build infrastructure
+         908e8d92a219eb6153420acef594b15d54c54306 selftests/seccomp: Add LoongArch selftesting support
+         e740350dad03f76fc4c63f8d786f25272d7a2409 selftests/ftrace: Add LoongArch kprobe args string tests support
+         
