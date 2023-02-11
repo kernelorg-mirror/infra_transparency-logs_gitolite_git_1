@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6748267283449727463=="
+Content-Type: multipart/mixed; boundary="===============8305106367185901010=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Sat, 11 Feb 2023 02:35:58 -0000
-Message-Id: <167608295824.13724.6015226340527716952@gitolite.kernel.org>
+Date: Sat, 11 Feb 2023 02:36:04 -0000
+Message-Id: <167608296475.13850.15833680589358217123@gitolite.kernel.org>
 
---===============6748267283449727463==
+--===============8305106367185901010==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: 17bcd27a08a21397698edf143084d7c87ce17946
     new: de4287336794f49323a5223c8b6e131f4840a866
     log: revlist-17bcd27a08a2-de4287336794.txt
 
---===============6748267283449727463==
+--===============8305106367185901010==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1046,4 +1046,4 @@ c0c3ab63de603b40f89a9c0d7217209a8840d053 net: create nf_conntrack_ovs for ovs an
 d12f9ad028062ff3ee2bfca3247f8812269d1f06 Documentation: isdn: correct spelling
 de4287336794f49323a5223c8b6e131f4840a866 Daniel Borkmann says:
 
---===============6748267283449727463==--
+--===============8305106367185901010==--
