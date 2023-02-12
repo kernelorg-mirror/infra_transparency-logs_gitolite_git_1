@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/klibc/klibc
-Date: Sun, 12 Feb 2023 17:12:56 -0000
-Message-Id: <167622197642.25989.15547532056695433504@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Sun, 12 Feb 2023 18:25:20 -0000
+Message-Id: <167622632023.9362.1691618832494844451@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/klibc/klibc
-user: bwh
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: leon
 changes:
-  - ref: refs/heads/master
-    old: 12f259dda1ef59b5f1f2fb67631dcbf94c18c56c
-    new: 896e7e1546626e239135be80553000c62117ebb0
+  - ref: refs/heads/for-next
+    old: 8e6e49ccf1a0f2b3257394dc8610bb6d48859d3f
+    new: 9cd9842c46996ef62173c36619c746f57416bcb0
     log: |
-         896e7e1546626e239135be80553000c62117ebb0 [klibc] 2.0.12 released, next version is 2.0.13
+         9cd9842c46996ef62173c36619c746f57416bcb0 RDMA/irdma: Cap MSIX used to online CPUs + 1
          
-  - ref: refs/tags/klibc-2.0.12
-    old: 0000000000000000000000000000000000000000
-    new: 8531ce740d36d5219b84e0c66d3f641bb1d4479d
