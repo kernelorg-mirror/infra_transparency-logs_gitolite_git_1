@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2287926675926514462=="
+Content-Type: multipart/mixed; boundary="===============0508967812492000716=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Sun, 12 Feb 2023 15:21:18 -0000
-Message-Id: <167621527809.19476.9883529551626434881@gitolite.kernel.org>
+Date: Sun, 12 Feb 2023 15:21:26 -0000
+Message-Id: <167621528658.19611.2718974776545435169@gitolite.kernel.org>
 
---===============2287926675926514462==
+--===============0508967812492000716==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
 user: snitzer
 changes:
-  - ref: refs/heads/dm-6.3
+  - ref: refs/heads/for-next
     old: 4dc55f03cc00102adce4b89c29b1daa32e3f433a
     new: 8f74d6cda669cb7189c2caec3cad2d1740a9c051
     log: revlist-4dc55f03cc00-8f74d6cda669.txt
 
---===============2287926675926514462==
+--===============0508967812492000716==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -69,4 +69,4 @@ eb25fbe7e1fb8bc5001e87d36572e381f3219e8e dm: fix suspect indent whitespace
 d3f2a861e434bb704b944bd259c61da92d4053ce dm: declare variables static when sensible
 8f74d6cda669cb7189c2caec3cad2d1740a9c051 dm clone: prefer kvmalloc_array()
 
---===============2287926675926514462==--
+--===============0508967812492000716==--
