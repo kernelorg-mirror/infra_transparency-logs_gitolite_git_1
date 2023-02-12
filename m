@@ -1,53 +1,59 @@
-Content-Type: multipart/mixed; boundary="===============5306761576292936951=="
+Content-Type: multipart/mixed; boundary="===============4587254167549714702=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/powerpc/linux
-Date: Sun, 12 Feb 2023 07:01:04 -0000
-Message-Id: <167618526447.4432.11461231485312741561@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Sun, 12 Feb 2023 07:19:52 -0000
+Message-Id: <167618639258.15853.10131421412946587666@gitolite.kernel.org>
 
---===============5306761576292936951==
+--===============4587254167549714702==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/powerpc/linux
-user: mpe
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
+user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/powerpc-6.2-5
-    old: 0000000000000000000000000000000000000000
-    new: 44350563fed34e3f57f275cdb9f0f6e7a72a96ea
+  - ref: refs/heads/driver-core-next
+    old: ccfc901f01170721554963745f7bd94c15235c96
+    new: 2bc19066bda340540468ff88c2b1a798983bfd28
+    log: |
+         31b4b6730fd4f5d503c9f23619c920ce7b794754 driver core: add error handling for devtmpfs_create_node()
+         90a9d5ff225267b3376f73c19f21174e3b6d7746 devtmpfs: add debug info to handle()
+         9d3fe6aa6b9517408064c7c3134187e8ec77dbf7 devtmpfs: remove return value of devtmpfs_delete_node()
+         2bc19066bda340540468ff88c2b1a798983bfd28 driver core: cpu: don't hand-override the uevent bus_type callback.
+         
 
---===============5306761576292936951==
+--===============4587254167549714702==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Michael Ellerman <mpe@ellerman.id.au> 1676185261 +1100
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/powerpc/linux
-nonce 1676185260-42c4d995d54768dc856e8820911970f08f1aba96
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1676186391 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1676186391-652f2a2580ad29b10746c0884636aff7182c79a2
 
-0000000000000000000000000000000000000000 44350563fed34e3f57f275cdb9f0f6e7a72a96ea refs/tags/powerpc-6.2-5
+ccfc901f01170721554963745f7bd94c15235c96 2bc19066bda340540468ff88c2b1a798983bfd28 refs/heads/driver-core-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJHBAABCAAxFiEEJFGtCPCthwEv2Y/bUevqPMjhpYAFAmPojq0THG1wZUBlbGxl
-cm1hbi5pZC5hdQAKCRBR6+o8yOGlgHl+EACxBnLgTmPD4FpHIS+d2BjYnxVqBnQp
-fFnYSKDfeYRMOg8qIJh5eEOldBTu5gey0ad8mc7RpV/2YQFxepYPsjOaJbJ5L2uF
-nTXRlA1aZW8whB7r3uIqCcwdYXlUwf9goWnnLAoqmZrYwWQfQi4qqPIPBq8UoZyl
-fhva8EeeT5ThUiCFqGgDfgpcreYTzeOPS++UZppo04JmJZxAlCwZOES1QAX3uuvx
-rzCqqWO2hcGrjICtHLkd4B+ItOaYqkVLyHn3usW1cnmYoA9q3soT9u6eI58SQoPn
-6JX/ANmHn8+PvBWpxvM10zRqcHyelKK5U+cnb5rpi0xyuDw2hj9YEWs8BGvfIjVk
-lt/L9oEgTRnBMOUPmjxK59rQyVr7PLB+O+sODsC94CfLhpHyuF6R1K9VKDKfwsvH
-EDjqvIcMYcaVf4pRU+pjO3sSGOJxAJUxJMkfPbLJ1qfQ5s9c4M63g1F6suNyg21o
-wJS/0/+hiFPoae9D1UeAvqg9hSxvu5DYeBK1HbKzqcBwKn6n7Rt94r6HoqIT7dNn
-W+FJV3r1+vDAPgF+VEzJmZg7WJvgFuWVVZJ8xi2Q1Cv1kgYwGK3gomJjWVw6QZOI
-nKvzf+DYz4WfxxJMKQuiQOuzQJsW7OxnpjY1YihcXKy1trMbWwUQ2xpaSPXIvkDw
-mY9Ry9ya1O7CjQ==
-=WKGN
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPokxcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+aUoP/iEQhJF1mUeXd+Cje4dO
+xMqoEVEYWQyR+IQgofRqRS7X9cItgbU+F53lJqo0GtbbXqF3dE4mER/EH/1cPtn4
+d/zMVDHLhM/VHT60l8zSkb1hJYviJn623TluwqPB4itcpHa/dPAfo/EFc2pfdTRX
+48A5kxey+R2vPekcfdrn1ES5eSemAxFK4I+QGVrQgIx0f7R7/Y7t+IvKQLQZN+fy
+6xYj7EG1DLBDQkhQj7p8MbFIIGQoVRxuakkYUTUQPgJnBjAi4IX9SCFEn00lFqrz
+Sfyjm/d7NGId1tbDPO+8dtd+RTMaXnm9wC1JXD+1UibRQPHqmh+yk1Zxs/b7sif9
+pEHBtNzbzhYoulw8JqQIvjvHw7QGK5S8zHJia7pDCHXhgoGXW/c5ksIfVmYsycpN
+UuBCMLQcNvr8YB8eDrCX1NPOhOmJZLWCQQL4cemAfdDbxatBCGwijI/Tq5X7lPS3
+bXq4zGw2yXcDT52Hyyklm9MS48+SO1P1JpBQJEan/5EAvjj10xQFWip+19gbLubz
++v5LDs2GHOiwZbHhfDOLswDJBocgkNQqFe3oXqORIl0eoQvAQpPb7y8Xd1j3q2y2
+HlJ0mXn/Rsnrm2DjljoguU9f0OStphGaRqEAKfSf2duMgAXOgBVvFSt9w9xoC3Yk
+EimYBuCMN9aiahvpyVNNRlrB
+=PfAy
 -----END PGP SIGNATURE-----
 
---===============5306761576292936951==--
+--===============4587254167549714702==--
