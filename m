@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bwh/klibc-maint
-Date: Sun, 12 Feb 2023 22:49:55 -0000
-Message-Id: <167624219508.21817.16878014671014737423@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Sun, 12 Feb 2023 23:03:39 -0000
+Message-Id: <167624301932.30547.7973675624593282707@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bwh/klibc-maint
-user: bwh
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
   - ref: refs/heads/master
-    old: 9e9960d5a20d07433237e3ab2ae48ed2b2465c32
-    new: 81c93ed662cd8b3f38871bc002582f5abee9b99f
+    old: 2cbab3fdde8990f9395def4f54b87bc0c96885a4
+    new: 781b0dbc9af0509a0c5d70c84fe21317e7c3c95b
     log: |
-         a640efa79ef73b5c2943c42abc027f78fadf57b9 status.md: Add versions 2.0.11, 2.0.12
-         81c93ed662cd8b3f38871bc002582f5abee9b99f status.md: Add results with QEMU 7.2
+         781b0dbc9af0509a0c5d70c84fe21317e7c3c95b Sun Feb 12 11:02:48 PM UTC 2023
          
