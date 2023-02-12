@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/mdadm/mdadm
-Date: Sun, 12 Feb 2023 20:17:35 -0000
-Message-Id: <167623305571.20157.16631133684479974688@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/remoteproc/linux
+Date: Sun, 12 Feb 2023 20:19:33 -0000
+Message-Id: <167623317342.20782.1558551458564837217@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/mdadm/mdadm
-user: jes
+repo: pub/scm/linux/kernel/git/remoteproc/linux
+user: mjp
 changes:
-  - ref: refs/heads/master
-    old: 36a707824eb1dafbb990f5daf1cbbe0e37dbbefb
-    new: 28a083955c6f58f8e582734c8c82aff909a7d461
+  - ref: refs/heads/rproc-next
+    old: 57f72170a2b2a362c35bb9407fc844eac5afdec1
+    new: 640587182066f75d3e8b62522685041f00ffbbbb
     log: |
-         28a083955c6f58f8e582734c8c82aff909a7d461 Revert "mdadm/systemd: remove KillMode=none from service file"
+         640587182066f75d3e8b62522685041f00ffbbbb remoteproc: mediatek: Check the SCP image format
          
