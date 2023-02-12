@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/libs/libcap/libcap
-Date: Sun, 12 Feb 2023 05:06:30 -0000
-Message-Id: <167617839027.27245.8749814958621139887@gitolite.kernel.org>
+Date: Sun, 12 Feb 2023 05:19:05 -0000
+Message-Id: <167617914524.3092.13026076329177256003@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/libs/libcap/libcap
 user: morgan
 changes:
   - ref: refs/heads/master
-    old: ddbaa98412398a6766552285c8e3c0dcdf632dbb
-    new: 7e41da10505189b8dbee93b25dea1dfb07a89d9b
+    old: 7e41da10505189b8dbee93b25dea1dfb07a89d9b
+    new: 5c6c1fbebc12a08868c7590e51a736e814b6d2b7
     log: |
-         7e41da10505189b8dbee93b25dea1dfb07a89d9b Simplify and refactor the bug215510 code.
+         5c6c1fbebc12a08868c7590e51a736e814b6d2b7 Drop vendor directory and clean up extra gcc...sh file
          
