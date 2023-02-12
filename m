@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Sun, 12 Feb 2023 18:25:56 -0000
-Message-Id: <167622635696.9599.10998732254029457617@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
+Date: Sun, 12 Feb 2023 18:40:15 -0000
+Message-Id: <167622721526.18406.4450573792556355770@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: leon
+repo: pub/scm/linux/kernel/git/axboe/liburing
+user: axboe
 changes:
-  - ref: refs/heads/wip/leon-for-next
-    old: 9cd9842c46996ef62173c36619c746f57416bcb0
-    new: 91d088a0304941b88c915cc800617ff4068cdd39
+  - ref: refs/heads/master
+    old: d32d53b65377d846635387ce6c1cd2ed0d700f92
+    new: 7b09481f27fa86e8828f774ddca92ce14f14fafe
     log: |
-         91d088a0304941b88c915cc800617ff4068cdd39 RDMA/umem: Remove unused 'work' member from struct ib_umem
+         51bd0ed59faf298d7ff57a473fae0df88606b61c use make --no-print-directory to generate version string
+         7b09481f27fa86e8828f774ddca92ce14f14fafe Merge branch 'bart/make-no-print-directory' of https://github.com/bartman/liburing
          
