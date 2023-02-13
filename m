@@ -1,28 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Mon, 13 Feb 2023 11:23:59 -0000
-Message-Id: <167628743926.25524.5084515813235649306@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============1988290751047327095=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 13 Feb 2023 11:24:14 -0000
+Message-Id: <167628745459.25702.10197331620047361128@gitolite.kernel.org>
+
+--===============1988290751047327095==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: davem
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 79cdf17e5131ccdee0792f6f25d3db0e34861998
-    new: 9b0bf4f77162e5423bc08aff7be0cb80134a2884
+    old: 21a02e370364284362208b6560fb1dcec60553a4
+    new: 14dd7019936e34d9c3ee54ddf4f5e9ff21cbdb9f
     log: |
-         69d3b36ca045582356fc3d2c92366b200506f936 net: dsa: microchip: enable EEE support
-         14e47d1fb8f9596acc90a06a66808657a9c512b5 net: phy: add genphy_c45_read_eee_abilities() function
-         48fb19940f2ba6b50dfea70f671be9340fb63d60 net: phy: micrel: add ksz9477_get_features()
-         cf9f6079696840093aa6ea3c0ee405a553afe2fb net: phy: export phy_check_valid() function
-         022c3f87f88e2d68e90be7687d981c9cb893a3b1 net: phy: add genphy_c45_ethtool_get/set_eee() support
-         9b01c885be364526d8c05794f8358b3e563b7ff8 net: phy: c22: migrate to genphy_c45_write_eee_adv()
-         5827b168125d16d93fe14284c2c377f32d13fce6 net: phy: c45: migrate to genphy_c45_write_eee_adv()
-         6340f9fd43d503ed5675facd5f9958a063651482 net: phy: migrate phy_init_eee() to genphy_c45_eee_is_active()
-         8b68710a3121e0475b123a20c4220f66a728770e net: phy: start using genphy_c45_ethtool_get/set_eee()
-         9b0bf4f77162e5423bc08aff7be0cb80134a2884 Merge branch 'ksz9477-eee-support'
+         14dd7019936e34d9c3ee54ddf4f5e9ff21cbdb9f 4.19-stable patches
          
+
+--===============1988290751047327095==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1676287453 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1676287452-0c310f7dd1a74d2d03ec53455795c91c2e8609b4
+
+21a02e370364284362208b6560fb1dcec60553a4 14dd7019936e34d9c3ee54ddf4f5e9ff21cbdb9f refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPqHd0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+13gQANKBCTZA+ICQKUYlTwj4
+/k5V9Bp4Q7EQd80CdLpGjnUlEJKBuFl4rOZ+PmE6GAP1uvEpNMTmHj6VZIdOjiIj
++LRRoJ6FFZYae4FGxbFSNoNxdZHH1HCwhIMJTEGihwfnl3RHkePIlwgEhoj0LJfs
+MR+CQD5fkGBuQPkt9fbwNmrY03QY9q6CksFvbnQr8i833NnBGd+JzNbEDH5Z0Wpu
+k679KJehUZLrBfzG09LMxbLaJXLC6C3OqZTzaIVpm9gH2dCIzvXZcPTJVYYhts0c
+Z9utH/7q0pBdZd6I0MMYYY2XIufcDqG6xbcKmAiq+CYwYRRqF25KssEL6usdHY7e
+P4N73KJYoAqLeWvySWaY8qfQxvgJugp3+cjs0kUb/ekKgqWR4vqpl/tWp5U7JiTA
+jrowSrog6UFpUZojgKBSfHE4Azq3AXB91+MGuLXbXVb2MN43nNjFnjZ73PGKn+SY
+v4epC2tK/mH0Q2lcviiMWl4bTe04PMeGMVWR2uBvpyCblQBI4emgBr81gIhez3s/
+MEjSmpMM+RWsPJbHRb/rLISNZ8lRQ8GbmxyrCnISdwCvKI7IufR8bTfDJ3uNElUS
+1Jez6N8izg65f9nCK3X6navHYCrfD1a1hdx/tfkZL8RQ/zh/EKVm91N/OKPu950d
+oQUz3S2jLUcTAEwnlZ6BOHSh
+=r+VX
+-----END PGP SIGNATURE-----
+
+--===============1988290751047327095==--
