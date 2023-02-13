@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2847124354736935051=="
+Content-Type: multipart/mixed; boundary="===============0130084816198492069=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Mon, 13 Feb 2023 16:41:24 -0000
-Message-Id: <167630648407.14131.11935402551010311845@gitolite.kernel.org>
+Date: Mon, 13 Feb 2023 16:47:21 -0000
+Message-Id: <167630684154.18903.17309483183094870126@gitolite.kernel.org>
 
---===============2847124354736935051==
+--===============0130084816198492069==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: 025a785ff083729819dc82ac81baf190cb4aee5c
-    new: 9b0bf4f77162e5423bc08aff7be0cb80134a2884
-    log: revlist-025a785ff083-9b0bf4f77162.txt
+  - ref: refs/heads/dev-queue
+    old: 101e948648d5aa686220308ac349d3ed5d2a1a74
+    new: 8799c740024eff1bd549a68e1c1a6849be61ce21
+    log: revlist-101e948648d5-8799c740024e.txt
 
---===============2847124354736935051==
+--===============0130084816198492069==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-025a785ff083-9b0bf4f77162.txt
+Content-Disposition: attachment; filename=revlist-101e948648d5-8799c740024e.txt
 
 cb4a21ea592f5753ab54cd8688306cf6423783a8 bpf: Build-time assert that cpumask offset is zero
 1d3cab43f4c73936ba55820a0501469e36ed6dd3 Documentation: bpf: correct spelling
@@ -208,5 +208,30 @@ cf9f6079696840093aa6ea3c0ee405a553afe2fb net: phy: export phy_check_valid() func
 6340f9fd43d503ed5675facd5f9958a063651482 net: phy: migrate phy_init_eee() to genphy_c45_eee_is_active()
 8b68710a3121e0475b123a20c4220f66a728770e net: phy: start using genphy_c45_ethtool_get/set_eee()
 9b0bf4f77162e5423bc08aff7be0cb80134a2884 Merge branch 'ksz9477-eee-support'
+aadc09c76b542e0df3965811a1515c5df67ec601 ice: Add GPIO pin support for E823 products
+511fda1a7910806f1b804c6c00b4d33173e9fa0b ice: Add crosstimestamping on E823 devices
+c4cd617c43f28b5c8247ca4041383dbde8ccf59f igc: Clean up and optimize watchdog task
+7f20723a4145abc1cbae742a184abcce18a8df19 intel/igbvf: free irq on the error path in igbvf_request_msix()
+370e545e5245d56fca96a6c2faac0b79454d931a igb: Enable SR-IOV after reinit
+4e1cbc5870d55569e8ee5481c450ddae91419a9b igbvf: Regard vf reset nack as success
+b214dd2ff80c77e6556612102002ced4aa8dc198 igb: conditionalize I2C bit banging on external thermal sensor support
+d70a650bf904b8f35beb76d6f9b25a51c39dddfb igc: Add qbv_config_change_errors counter
+a7decf532749aa39ff9bf2d42a8effb6de660eb3 ice: Change ice_vsi_realloc_stat_arrays() to void
+538b56fffa3982b502402df3afe5c9e33c0d0a67 ice: Mention CEE DCBX in code comment
+24751831064206bd132e9a1d90efc8652d9d511e ice/ptp: fix the PTP worker retrying indefinitely if the link went down
+b72d4d639e6ff3bb7683f280616897ba775dcf2d ice: remove FW logging code
+5eaf75f5b5e42d3f8920201aaaef1d1728206db2 ice: enable devlink to check FW logging status
+99a4692c8c7d3575a0623050b6f9eef396efd45c ice: add ability to query/set FW log level and resolution
+acb0f35a8943dd7d2f41061ee3fa531596f2b573 ice: disable FW logging on driver unload
+683e2530982968e0d5451042882b84e3919368d8 ice: use debugfs to output FW log data
+25979bf61d91221657f5aa0435ee81a650341dc6 ice: Fix check for weight and priority of a scheduling node
+00301280dff2b0359304f2369fc0b46819dec1a6 ice: Fix DSCP PFC TLV creation
+65b2e888b49c1d87077eee43df4d07068d38482b i40e: Add checking for null for nlmsg_find_attr()
+5277e42986b76014dc53c3c5aa42c5cdb0f23795 igb: Fix PPS input and output using 3rd and 4th SDP
+24f7db8fe2c5ba6b4919c94b595e211fbaf260cc ice: fix lost multicast packets in promisc mode
+9370c049b2479cda695292f55dbaad0e7e749238 ice: add support BIG TCP on IPv6
+226754584aa907c86498f3f294a11ea3fe49afd6 ixgbe: allow to increase MTU to 3K with XDP enabled
+a93ee8d0b77b28ee37dd35a3a613c27f204a79df i40e: add double of VLAN header when computing the max MTU
+8799c740024eff1bd549a68e1c1a6849be61ce21 ixgbe: add double of VLAN header when computing the max MTU
 
---===============2847124354736935051==--
+--===============0130084816198492069==--
