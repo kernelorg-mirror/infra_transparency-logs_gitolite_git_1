@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/mm
-Date: Mon, 13 Feb 2023 19:54:49 -0000
-Message-Id: <167631808992.13096.10135263474017287574@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/libgpiod/libgpiod
+Date: Mon, 13 Feb 2023 19:58:56 -0000
+Message-Id: <167631833606.15889.7654001300275885493@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/mm
-user: akpm
+repo: pub/scm/libs/libgpiod/libgpiod
+user: brgl
 changes:
-  - ref: refs/tags/mm-everything-2023-02-13-19-54
-    old: 0000000000000000000000000000000000000000
-    new: 76d23a923e5c4496356011cfc184b670d108d023
-  - ref: refs/tags/v6.2-rc8
-    old: 0000000000000000000000000000000000000000
-    new: 51c32cc368b00aae605286cad9150cefa0adbf2d
+  - ref: refs/heads/master
+    old: dfb18bc62a9236dedd7b1398c5c4ff79eb142335
+    new: 8b99eb43f210194fe7f34b6d9a57b287b26fb771
+    log: |
+         ddc3f7b62a3fdd4d34ec87be884ff4882021b259 bindings: python: pass DESTDIR to setup.py
+         8b99eb43f210194fe7f34b6d9a57b287b26fb771 bindings: python: don't pass GPIOD_WITH_TESTS to 'setup.py install'
+         
