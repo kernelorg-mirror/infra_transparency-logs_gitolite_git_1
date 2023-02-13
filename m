@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0666693296465850029=="
+Content-Type: multipart/mixed; boundary="===============2372784000378572074=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/powerpc/linux
-Date: Mon, 13 Feb 2023 12:31:22 -0000
-Message-Id: <167629148246.6825.11685498300302876507@gitolite.kernel.org>
+Date: Mon, 13 Feb 2023 12:31:39 -0000
+Message-Id: <167629149917.6987.8502634894703158881@gitolite.kernel.org>
 
---===============0666693296465850029==
+--===============2372784000378572074==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,77 +16,46 @@ repo: pub/scm/linux/kernel/git/powerpc/linux
 user: mpe
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: f339c2597ebb00e738f2b6328c14804ed19f5d57
-    new: ceaa837f96adb69c0df0397937cd74991d5d821a
-    log: revlist-f339c2597ebb-ceaa837f96ad.txt
-  - ref: refs/heads/next-test
-    old: 2b42c8057a19768a3f203feee8fe16965ff119b5
-    new: 631bb79c0c5654bdd79b6df186f9e41981a2b1fa
-    log: revlist-2b42c8057a19-631bb79c0c56.txt
+  - ref: refs/heads/next
+    old: 99dcb8a071130d5a5d33d255416debf7f5a92a06
+    new: 08273c9f619cb32fb041935724f576e607101f3b
+    log: revlist-99dcb8a07113-08273c9f619c.txt
 
---===============0666693296465850029==
+--===============2372784000378572074==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Michael Ellerman <mpe@ellerman.id.au> 1676291469 +1100
+pusher Michael Ellerman <mpe@ellerman.id.au> 1676291496 +1100
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/powerpc/linux
-nonce 1676291467-c72d8a098cb411cc4f40751b0b7107d7e38ecdac
+nonce 1676291495-41e60beaa702b40f3efef627894ebd7842e433f8
 
-f339c2597ebb00e738f2b6328c14804ed19f5d57 ceaa837f96adb69c0df0397937cd74991d5d821a refs/heads/master
-2b42c8057a19768a3f203feee8fe16965ff119b5 631bb79c0c5654bdd79b6df186f9e41981a2b1fa refs/heads/next-test
+99dcb8a071130d5a5d33d255416debf7f5a92a06 08273c9f619cb32fb041935724f576e607101f3b refs/heads/next
 -----BEGIN PGP SIGNATURE-----
 
-iQJHBAABCAAxFiEEJFGtCPCthwEv2Y/bUevqPMjhpYAFAmPqLY0THG1wZUBlbGxl
-cm1hbi5pZC5hdQAKCRBR6+o8yOGlgMf4D/9ivAWxIVK97I37ihB9D+2BfkYguXio
-/THdohG5mkVDlJUxMAalZxIFO7DGMrKd80WADacEWM5fa6gJLffqW0PH83BnVPOz
-bG8K9wZ4JG8+F5uOWBddVSqTerWWmu9Nx59TCSB/qIhNSZSoPX1AscZJUl6O4WAF
-V2jvZxFSoU7ttFgfQ0nEX7HFcY6RwN/GJpr1vceNABVv6Dut1lebA62cWpD3UOSn
-0U6UZ0GY/1TGitsX0iXqN3oiFNpGK5+fP4htrsWJDjG4EwZQKWLin9ZoaQacV11U
-sAaLcbXmL94u74h9l1kiYWpLPSZB4rMEvnHOjBkezHS6CSJ9DHJTpJKV5IIGqJRt
-G3Hu5bY2FCdtvfFpCYlHtyq9wd8jYB76FTvxPkBu1FsR5GaU3+Tlcp8dvHGpuExx
-UxV3OxybdiNJaeHixKfjbYI+tgSmNQYvSA9kORuJHVoBOvCEybEWNsgP9mxBmqag
-F0CJPKNRF27JRTSzfjd0puRZaIp6XiEYhvBFlu9sitVIeP2bk/VXLfyxdSupLR8G
-OTVGfJ/s+C0+OUJw4ueb2s8Iigq94PySiMaHZ4PdsYE95T48/q4b44DOcc36ltRC
-qBs44pmR+X9Em5b7JyS91eC+c4wCFO5C7cgP1/ER69tBvx/NIg7MJI2hqqMPN8Aq
-4ZEfLcrzmkl0Zw==
-=F/uV
+iQJHBAABCAAxFiEEJFGtCPCthwEv2Y/bUevqPMjhpYAFAmPqLagTHG1wZUBlbGxl
+cm1hbi5pZC5hdQAKCRBR6+o8yOGlgPrWD/40coW3iOT4gXrnV2gaCqiN/Z82k0eK
++UTBGm0VAgMwng0wIhPEFs59gePwRtUaSX3OLtCEeg74SymSva5geSagSwzu+3rT
+3YdH9s39bL2HcD2mq+nwcnKp7penWbr39SR+M4SonU0Rp45DSx2OIku95+E8+56h
+7XsqsV91gvrAU4wTAxFtKgb8QgrfzoyW3hkSS8m31xf5Mx/90dd2kQoXAsn3XFL3
+e7ftkrKhxs4CAmU6QME2Z8QPyKNGd4TqBk9gZiSzTAOZYj5UzOLNow0fqwbjFRrS
+r2vEBp2zDCs7jGnuhGpGIzexJ0zWpABE0Hw5VUFzpmtaCS9+MuuWRCNrIf+YkuCI
+Ia9O643w/Un9x9suggKWJNOWqB1Z16R5CsQz5E9KakcomTfAXLdex3Teemf5HuB6
+3F6T4d53WXpMd/Hzi88T5nfdsoYjw2EFwtqwmXyBm6oppnKLjq1GTk6LMz3n1qzq
+d9rVcCuSRfYLSsccYFeX9NqKUfBcKeRZ/gc1BNO0HiFGf83GeACH1RgRsMui9eTf
+NwrwYDzYHapoG/Y/qU2tVib9noM+m/eNpcVSFQSdwS2Ek7+mqtsQZcvXAo9rUTXv
+6KJkpMizXQpVMNQJQjcsfivvpX9kIywo0iz10+zk/9taSs0Gk1FL8cpZt5pQ2pwv
+2SSlIsh0MyHK1Q==
+=j0Co
 -----END PGP SIGNATURE-----
 
---===============0666693296465850029==
+--===============2372784000378572074==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f339c2597ebb-ceaa837f96ad.txt
-
-e33416fca8a2313b8650bd5807aaf34354d39a4c powerpc: Don't select ARCH_WANTS_NO_INSTR
-97e45d469eb180a7bd2809e4e079331552c73e42 powerpc/kexec_file: fix implicit decl error
-6afaed53cc9adde69d8a76ff5b4d740d5efbc54c btrfs: simplify update of last_dir_index_offset when logging a directory
-2ea31e2e62bbc4d11c411eeb36f1b02841dbcab1 powerpc/64s/interrupt: Fix interrupt exit race with security mitigation switch
-190233164cd77115f8dea718cbac561f557092c6 arm64: efi: Force the use of SetVirtualAddressMap() on eMAG and Altra Max machines
-bb07bd68fa0983e3915f83c471382868860389fe Revert "usb: gadget: u_ether: Do not make UDC parent of the net device"
-54e5c00a4eb0a4c663445b245f641bbfab142430 usb: typec: altmodes/displayport: Fix probe pin assign check
-303e724d7b1e1a0a93daf0b1ab5f7c4f53543b34 usb: core: add quirk for Alcor Link AK9563 smartcard reader
-519b7e13b5ae8dd38da1e52275705343be6bb508 btrfs: lock the inode in shared mode before starting fiemap
-5f58d783fd7823b2c2d5954d1126e702f94bfc4c btrfs: free device in btrfs_close_devices for a single device filesystem
-b6c7abd1c28a63ad633433d037ee15a1bc3023ba tracing: Fix TASK_COMM_LEN in trace event format file
-462a8e08e0e6287e5ce13187257edbf24213ed03 Fix page corruption caused by racy check in __free_pages
-49a0bdb0a38e222d35c50644468856e2408764f0 Merge tag 'powerpc-6.2-5' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
-dd78af9fde7aeae427adf4bac6cf62ed84e8f898 Merge tag 'efi-fixes-for-v6.2-4' of git://git.kernel.org/pub/scm/linux/kernel/git/efi/efi
-e2bca0ebf775453bb3c6b9c2149fb4712621493a Merge tag 'usb-6.2-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb
-711e9a4d52bf4e477e51c7135e1e6188c42018d0 Merge tag 'for-6.2-rc7-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
-5e98e916f95bdc50e90f3199d7f3d74b94fa5976 Merge tag 'trace-v6.2-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
-80510b63f7b6bdd30e07b3a42115d0a324e20cd6 MAINTAINERS: Add myself as maintainer for arch/sh (SUPERH)
-ceaa837f96adb69c0df0397937cd74991d5d821a Linux 6.2-rc8
-
---===============0666693296465850029==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2b42c8057a19-631bb79c0c56.txt
+Content-Disposition: attachment; filename=revlist-99dcb8a07113-08273c9f619c.txt
 
 ccadf154cb00b9ee9618d209aa3efc54b35a34b4 powerpc/pseries: Implement secvars for dynamic secure boot
 3c8069b0c3832674abd80a5cf019c913e62de9a5 integrity/powerpc: Improve error handling & reporting when loading certs
@@ -111,12 +80,5 @@ fff9846be00c467b4a277492af5be8487b6540e9 powerpc/pseries/lparcfg: convert to pap
 e58d9e17b11b776e32b1d3d80bdc63d39de3463d powerpc/pseries/lpar: convert to papr_sysparm API
 716bfc97bd5fb7b442cdd06081f49df097f2e27b powerpc/rtas: introduce rtas_function_token() API
 08273c9f619cb32fb041935724f576e607101f3b powerpc/rtas: arch-wide function token lookup conversions
-dedeb493123f1c3386cca00f0502a05af518326b selftests/powerpc: Fix incorrect kernel headers search path
-babb1dc8bd00a1ea50acf6e6a8b4c3477b13200e powerpc/eeh: Set channel state after notifying the drivers
-83bb3e3db7bf88fe2628133ca58eec7c0d3f8da5 powerpc: Pass correct CPU reference to assembler
-d782838e8a9220df8ef45dca0f2c900c6ece72b3 powerpc/64: Replace -mcpu=e500mc64 by -mcpu=e5500
-d0b3a06b4877913df462dad2cefc6a8c5a1aaf6e powerpc: Remove cpu-as-y completely
-837986fca4a1e29408b13c68f8e60aca7aa5457c powerpc/epapr: Don't use wrteei on non booke
-631bb79c0c5654bdd79b6df186f9e41981a2b1fa powerpc/nohash: Fix build error with binutils >= 2.38
 
---===============0666693296465850029==--
+--===============2372784000378572074==--
