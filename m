@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Mon, 13 Feb 2023 21:27:40 -0000
-Message-Id: <167632366090.10892.18017311361505219255@gitolite.kernel.org>
+Date: Mon, 13 Feb 2023 21:27:44 -0000
+Message-Id: <167632366459.10960.8025460246264697004@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -9,8 +9,11 @@ Content-Transfer-Encoding: 7bit
 ---
 service: git-receive-pack
 repo: pub/scm/linux/kernel/git/pci/pci
-user: kwilczynski
+user: helgaas
 changes:
-  - ref: refs/tags/v6.2-rc8
-    old: 51c32cc368b00aae605286cad9150cefa0adbf2d
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/enumeration
+    old: 8b3517f88ff2983f52698893519227c10aac90b2
+    new: 1f759083a209f5f76160d7a221af6a2aef23baa8
+    log: |
+         1f759083a209f5f76160d7a221af6a2aef23baa8 PCI: Honor firmware's device disabled status
+         
