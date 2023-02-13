@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Mon, 13 Feb 2023 15:37:32 -0000
-Message-Id: <167630265234.3245.725423745739141014@gitolite.kernel.org>
+Date: Mon, 13 Feb 2023 15:37:43 -0000
+Message-Id: <167630266307.3398.8790514584804735845@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,16 +11,14 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/objtool/core
-    old: 5a10ca6e6400d472553fda72e51e5ba598d24e1f
-    new: 1a776f81bc280e34f1d432711748d9ecaaea8827
+  - ref: refs/heads/x86/core
+    old: ce3ba2af9695e4bd64d797e0026321e5dca29dd3
+    new: 5a07f32eba3ca799b5d1c0fbd581bacbe3df2ce3
     log: |
-         dd7224bba14a76273fe5d470172b00194d78b198 objtool: Rework arch_dest_reloc_offset()
-         70d1dee460263420d13254fce078f8058664b137 objtool: Add reloc_addend()
-         5023b1f1411f059956c5a12211386e5e7d4164ff objtool: Introduce reloc_offset()
-         118d102cbaea96becead2f065cb64431083629ca objtool: Introduce reloc_type()
-         e37b1a953a750d3ad87210a76a364a30bf7fd811 objtool: Remove reloc::offset
-         8479fe5c73266cf5db5c05063ce236860106e623 objtool: Remove reloc::type
-         2c82ab5bd379bb955fc3d1e184107b8f97f75fc7 objtool: Remove reloc::addend
-         1a776f81bc280e34f1d432711748d9ecaaea8827 objtool: Single-linked reloc_list(s)
+         1e2100d888668e220a50151fccd8bfd967b3798e x86/alternative: Make debug-alternative selective
+         594e6c2a8144c2422a648be1b994cec81a79ce57 x86/alternative: Support relocations in alternatives
+         376d51bfef78d0d29f93b5b20a078be7768f1b24 x86/alternative: Rewrite optimize_nops() some
+         cdeca5a92d1abe9ef6d42a42874d0c5916aaf2f9 x86_64: Longer NOPs
+         5f98d62a7ce3bf863da7f5399494bdc0e3cb146b x86: Shorten RESET_CALL_DEPTH
+         5a07f32eba3ca799b5d1c0fbd581bacbe3df2ce3 x86/alternative: Complicate optimize_nops() some more
          
