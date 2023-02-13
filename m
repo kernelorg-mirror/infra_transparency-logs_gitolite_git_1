@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec
-Date: Mon, 13 Feb 2023 11:17:38 -0000
-Message-Id: <167628705889.21933.5594644414527673244@gitolite.kernel.org>
+Date: Mon, 13 Feb 2023 11:17:56 -0000
+Message-Id: <167628707604.22096.16620144164218914784@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,7 +11,7 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/klassert/ipsec
 user: klassert
 changes:
-  - ref: refs/heads/testing
+  - ref: refs/heads/master
     old: 20ab8432420e51f1adce23027121efd5478d0ba3
     new: 2038cc592811209de20c4e094ca08bfb1e6fbc6c
     log: |
