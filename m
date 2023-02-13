@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6479344904215458651=="
+Content-Type: multipart/mixed; boundary="===============0086748961763139895=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Mon, 13 Feb 2023 08:08:33 -0000
-Message-Id: <167627571322.4118.409849658556736674@gitolite.kernel.org>
+Date: Mon, 13 Feb 2023 08:08:48 -0000
+Message-Id: <167627572816.4279.11288760915309957110@gitolite.kernel.org>
 
---===============6479344904215458651==
+--===============0086748961763139895==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/next
     old: 8203ae4a36c4b1485a449ff0406c0cf2b137358c
     new: b290ab1b7997850fb562561997bb4d794ad42756
     log: revlist-8203ae4a36c4-b290ab1b7997.txt
 
---===============6479344904215458651==
+--===============0086748961763139895==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -40,4 +40,4 @@ ce9074669507b6d6119368d51db652b5390dd123 certs: make blacklisted hash available 
 c2d5dbea668dafef9685e912e6f32f5bed488794 tpm: Add reserved memory event log
 b290ab1b7997850fb562561997bb4d794ad42756 tpm: add vendor flag to command code validation
 
---===============6479344904215458651==--
+--===============0086748961763139895==--
