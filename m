@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6252142204688281345=="
+Content-Type: multipart/mixed; boundary="===============3825932605008543610=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 13 Feb 2023 10:35:20 -0000
-Message-Id: <167628452047.24003.441568837428126989@gitolite.kernel.org>
+Date: Mon, 13 Feb 2023 10:35:38 -0000
+Message-Id: <167628453838.24169.17409976991878228322@gitolite.kernel.org>
 
---===============6252142204688281345==
+--===============3825932605008543610==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,28 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/for-next
-    old: be6c50d315f92071e481eacd1c0260cb4f7c325f
-    new: 1e5b5df65af99013b4d31607ddb3ca5731dbe44d
-    log: |
-         1e5b5df65af99013b4d31607ddb3ca5731dbe44d m68k: /proc/hardware should depend on PROC_FS
-         
-  - ref: refs/heads/for-v6.3
-    old: be6c50d315f92071e481eacd1c0260cb4f7c325f
-    new: 1e5b5df65af99013b4d31607ddb3ca5731dbe44d
-    log: |
-         1e5b5df65af99013b4d31607ddb3ca5731dbe44d m68k: /proc/hardware should depend on PROC_FS
-         
-  - ref: refs/heads/master
-    old: 29f28f8b826d7684e6b05df0f5de38dfcceb77c4
-    new: b997879e7c2e1205eaf3b546b4de696fe049cd9d
-    log: revlist-29f28f8b826d-b997879e7c2e.txt
+  - ref: refs/heads/m68k-queue
+    old: 16fad1f3c1a7e7df2be8703b30f06ac9d0d9f3f1
+    new: e6959985c6f6ca0e25bef4ae7646b10a4ac72491
+    log: revlist-16fad1f3c1a7-e6959985c6f6.txt
 
---===============6252142204688281345==
+--===============3825932605008543610==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-29f28f8b826d-b997879e7c2e.txt
+Content-Disposition: attachment; filename=revlist-16fad1f3c1a7-e6959985c6f6.txt
 
 8c3313e8556b8a817e7b4bc9c249b58855a7e49c arm64: dts: rockchip: use correct reset names for rk3399 crypto nodes
 b0355dbbf13c0052931dd14c38c789efed64d3de Fix XFRM-I support for nested ESP tunnels
@@ -273,7 +261,13 @@ e2bca0ebf775453bb3c6b9c2149fb4712621493a Merge tag 'usb-6.2-rc8' of git://git.ke
 5e98e916f95bdc50e90f3199d7f3d74b94fa5976 Merge tag 'trace-v6.2-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 80510b63f7b6bdd30e07b3a42115d0a324e20cd6 MAINTAINERS: Add myself as maintainer for arch/sh (SUPERH)
 ceaa837f96adb69c0df0397937cd74991d5d821a Linux 6.2-rc8
-0238a7ac2e875fe7ecdd753b8d33f896b9978ed7 Merge tag 'v6.2-rc8'
-b997879e7c2e1205eaf3b546b4de696fe049cd9d m68k: /proc/hardware should depend on PROC_FS
+b8d47449e0a1bb8a4474f2334c1fae8331f610d8 m68k: q40: Do not initialise statics to 0
+2ed0418aa455bb45bd7760e8197ec744718ecf7a m68k: Check syscall_trace_enter() return code
+19568a235186b088fc5d4209203b946bdb12f610 m68k: Add kernel seccomp support
+d646fc76f00f0693dd25b03802c1a68bc7590fc1 selftests/seccomp: Add m68k support
+d9e17e3909067af10753aea48289b02963e19f23 m68k: /proc/hardware should depend on PROC_FS
+c270c517d1f624a8c6e16baff715785a23d45d08 m68k: atari: usb: Add ISP1160 USB host controller support
+aa6ad1bebe2cfda07a448263530777806f8cdf5f m68k: atari: Update Kconfig.bus help text
+e6959985c6f6ca0e25bef4ae7646b10a4ac72491 m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============6252142204688281345==--
+--===============3825932605008543610==--
