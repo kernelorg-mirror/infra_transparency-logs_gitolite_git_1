@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Mon, 13 Feb 2023 22:41:28 -0000
-Message-Id: <167632808860.27828.853360535350305488@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Mon, 13 Feb 2023 22:53:58 -0000
+Message-Id: <167632883824.3926.5116514584921184556@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: helgaas
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: ast
 changes:
-  - ref: refs/heads/resource
-    old: 7180c1d08639f28e63110ad35815f7a1785b8a19
-    new: 9d8ba74a181b1c81def21168795ed96cbe6f05ed
+  - ref: refs/heads/master
+    old: 39c536acc3cf89b49c22f9e7f3f6578d3332944e
+    new: 6a3cd3318ff65622415e34e8ee39d76331e7c869
     log: |
-         9d8ba74a181b1c81def21168795ed96cbe6f05ed PCI: Fix dropping valid root bus resources with .end = zero
+         6a3cd3318ff65622415e34e8ee39d76331e7c869 bpf: Migrate release_on_unlock logic to non-owning ref semantics
          
