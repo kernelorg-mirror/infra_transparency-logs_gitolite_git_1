@@ -1,23 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Mon, 13 Feb 2023 11:05:31 -0000
-Message-Id: <167628633106.13074.13157673802763584242@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Mon, 13 Feb 2023 11:07:16 -0000
+Message-Id: <167628643613.13807.13064919884357570012@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: davem
+repo: pub/scm/linux/kernel/git/tip/tip
+user: peterz
 changes:
-  - ref: refs/heads/master
-    old: 8024edf3590c83f467374857d7c3082d4b3bf079
-    new: 79cdf17e5131ccdee0792f6f25d3db0e34861998
+  - ref: refs/heads/objtool/core
+    old: fc8fb04d7be0be76407f6542e2779dcac7604cef
+    new: 5a10ca6e6400d472553fda72e51e5ba598d24e1f
     log: |
-         7bb990097db7ade1467c731fe4d80223e00004d8 ionic: remove unnecessary indirection
-         896de449f80476dc64b9167c41284532a4cccfec ionic: remove unnecessary void casts
-         5b4e9a7a71ab912d150cb2276cb23af51c863150 net: ethtool: extend ringparam set/get APIs for rx_push
-         40bc471dc714036c8ed223f9aa04b1b2072fb9db ionic: add tx/rx-push support with device Component Memory Buffers
-         79cdf17e5131ccdee0792f6f25d3db0e34861998 Merge branch 'ionic-on-chip-desc'
+         a6267fd5dda7e93abeb96277c63cae595eeab6ee objtool: Change arch_decode_instruction() signature
+         e4947e3df118ce83107e868357bf1ada0b4c7531 objtool: Make instruction::stack_ops a single-linked list
+         d15b41e98079755f21e49a2e60465ded7b910ba2 objtool: Make instruction::alts a single-linked list
+         627e45a4d618a958f8fd0de76d845b41e6d6b250 objtool: Shrink instruction::{type,visited}
+         bea0e38288dd36f81de4fd332086b99654d5f389 objtool: Remove instruction::reloc
+         2f586f32286e33ab97730696244737cec84c4bbe objtool: Union instruction::{call_dest,jump_table}
+         339b90b37d80ff2f4064bf072584031f3b1b5838 objtool: Fix overlapping alternatives
+         2db38eca62cb9e893e7c0bfe0f6c5d327d990680 x86: Fix FILL_RETURN_BUFFER
+         5a10ca6e6400d472553fda72e51e5ba598d24e1f objtool: Remove instruction::list
          
