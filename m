@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
-Date: Mon, 13 Feb 2023 17:06:55 -0000
-Message-Id: <167630801583.31658.12820797991351129832@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/ofono/ofono
+Date: Mon, 13 Feb 2023 17:07:10 -0000
+Message-Id: <167630803009.31782.5741124621928494309@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
-user: shuah
+repo: pub/scm/network/ofono/ofono
+user: denkenz
 changes:
-  - ref: refs/heads/next
-    old: 9e34fad00fc889abbb99d751a4c22cf2bded10df
-    new: 6e81461b06b6a4a24bf97fca37d9b89f72ce8126
+  - ref: refs/heads/master
+    old: 0a286f6482eea30a62f89aa6494d3b80f016a2f7
+    new: 0f24601c553f3183a0843b50f6f271fd0eee174f
     log: |
-         6e81461b06b6a4a24bf97fca37d9b89f72ce8126 selftests/ptp: Remove clean target from Makefile
+         0f24601c553f3183a0843b50f6f271fd0eee174f plugins: quectel: re-organize code for ussd & lte init
          
