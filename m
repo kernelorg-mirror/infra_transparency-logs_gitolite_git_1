@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Mon, 13 Feb 2023 23:01:00 -0000
-Message-Id: <167632926041.9338.1624534209364170883@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jfern/linux
+Date: Mon, 13 Feb 2023 23:09:17 -0000
+Message-Id: <167632975739.13365.14293083042465530800@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/jfern/linux
+user: jfern
 changes:
-  - ref: refs/heads/master
-    old: c1b7a07266dcfa49c0e0d9a1bde3e8ac56cb013f
-    new: 2f96498bc49f5e6470b7a8e61ddac7995658a157
+  - ref: refs/heads/sched/rt-throttle
+    old: 7aedf712d506a716f3ee80a05a19b62b32c6a489
+    new: 76f3ee9a77cea5d6f5f04f3bbc620b863bb06e1e
     log: |
-         2f96498bc49f5e6470b7a8e61ddac7995658a157 Mon Feb 13 11:00:02 PM UTC 2023
+         a26ae1dc5eecb524323cad06982558a6a3baa877 fixup: Fix compilation errors with CONFIG_RT_GROUP_SCHED
+         76f3ee9a77cea5d6f5f04f3bbc620b863bb06e1e fixup! fixup! fixup! sched/rt: Keep throttled rt_rqs on the runqueue
          
