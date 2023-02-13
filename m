@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Mon, 13 Feb 2023 21:27:44 -0000
-Message-Id: <167632366459.10960.8025460246264697004@gitolite.kernel.org>
+Date: Mon, 13 Feb 2023 21:30:47 -0000
+Message-Id: <167632384795.13536.7785073857670907786@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,9 @@ repo: pub/scm/linux/kernel/git/pci/pci
 user: helgaas
 changes:
   - ref: refs/heads/enumeration
-    old: 8b3517f88ff2983f52698893519227c10aac90b2
-    new: 1f759083a209f5f76160d7a221af6a2aef23baa8
+    old: 1f759083a209f5f76160d7a221af6a2aef23baa8
+    new: 6fffbc7ae1373e10b989afe23a9eeb9c49fe15c3
     log: |
-         1f759083a209f5f76160d7a221af6a2aef23baa8 PCI: Honor firmware's device disabled status
+         c768f8c5f40fcdc6f058cc2f02592163d6c6716c PCI: loongson: Add more devices that need MRRS quirk
+         6fffbc7ae1373e10b989afe23a9eeb9c49fe15c3 PCI: Honor firmware's device disabled status
          
