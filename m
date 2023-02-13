@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============5398198910837857172=="
+Content-Type: multipart/mixed; boundary="===============1089127571081250120=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux
-Date: Mon, 13 Feb 2023 21:56:12 -0000
-Message-Id: <167632537218.30277.12752648165851493724@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
+Date: Mon, 13 Feb 2023 21:56:20 -0000
+Message-Id: <167632538030.30399.16385227784045494658@gitolite.kernel.org>
 
---===============5398198910837857172==
+--===============1089127571081250120==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux
+repo: pub/scm/linux/kernel/git/amlogic/linux
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -26,7 +26,7 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: 51c32cc368b00aae605286cad9150cefa0adbf2d
 
---===============5398198910837857172==
+--===============1089127571081250120==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -379,4 +379,4 @@ e2bca0ebf775453bb3c6b9c2149fb4712621493a Merge tag 'usb-6.2-rc8' of git://git.ke
 ceaa837f96adb69c0df0397937cd74991d5d821a Linux 6.2-rc8
 b408817d48840847c00052ae0e02a54311913073 Merge tag 'platform-drivers-x86-v6.2-5' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 
---===============5398198910837857172==--
+--===============1089127571081250120==--
