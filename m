@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1162657751504656644=="
+Content-Type: multipart/mixed; boundary="===============6635617222412535968=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Mon, 13 Feb 2023 08:11:27 -0000
-Message-Id: <167627588794.6745.15035615592232878351@gitolite.kernel.org>
+Date: Mon, 13 Feb 2023 08:11:39 -0000
+Message-Id: <167627589945.6875.13089423914444485257@gitolite.kernel.org>
 
---===============1162657751504656644==
+--===============6635617222412535968==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/next
     old: b290ab1b7997850fb562561997bb4d794ad42756
     new: 85b93bbd1c9768d09adebbe9f33bab0d4ec94404
     log: revlist-b290ab1b7997-85b93bbd1c97.txt
 
---===============1162657751504656644==
+--===============6635617222412535968==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -40,4 +40,4 @@ d5ae2f4760c5b332a805f1caae9eb10101152ddd tpm: tpm_i2c_infineon: Convert to i2c's
 1e2714bb83fc783d58701967391bea242c65eaff tpm: Add reserved memory event log
 85b93bbd1c9768d09adebbe9f33bab0d4ec94404 tpm: add vendor flag to command code validation
 
---===============1162657751504656644==--
+--===============6635617222412535968==--
