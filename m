@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-drivers
-Date: Mon, 13 Feb 2023 09:43:28 -0000
-Message-Id: <167628140867.17568.10331757546884344014@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Mon, 13 Feb 2023 09:46:24 -0000
+Message-Id: <167628158412.21614.1146653890545266999@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/geert/renesas-drivers
-user: geert
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: davem
 changes:
-  - ref: refs/tags/renesas-clk-for-v6.3-tag3
-    old: d328859ac440bc784b70fe3c2c9cac115d6e6b39
-    new: 3de23fa46576e42fee800abcf358ebcb197f14fd
+  - ref: refs/heads/master
+    old: 6d86bb0a5cb82bd459b017f180bdc47bec561b2d
+    new: 170677fee45baa955b3f7c1f41e6031d1d1e2272
+    log: |
+         170677fee45baa955b3f7c1f41e6031d1d1e2272 nfp: ethtool: supplement nfp link modes supported
+         
