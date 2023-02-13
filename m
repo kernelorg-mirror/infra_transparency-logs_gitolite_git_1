@@ -1,27 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ericvh/v9fs
-Date: Mon, 13 Feb 2023 00:51:12 -0000
-Message-Id: <167624947270.4653.9528653526699275931@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/perfbook
+Date: Mon, 13 Feb 2023 00:57:07 -0000
+Message-Id: <167624982759.8003.6273152649562868873@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ericvh/v9fs
-user: ericvh
+repo: pub/scm/linux/kernel/git/paulmck/perfbook
+user: paulmck
 changes:
-  - ref: refs/heads/ericvh/for-next
-    old: 32a145a90935cb4d755125c9caec0be16173bdd0
-    new: 291ca06aad937245badbcf59517b700c0184035f
+  - ref: refs/heads/master
+    old: 14440e232cc1b2580dc1a73f873dc29fe3aea02b
+    new: 34cc066b1d95477d92c072f3f12a249e2bfcae06
     log: |
-         c40afc026c209ce1f43b3352f13f1d416211a74b fs/9p: Consolidate file operations and add readahead and writeback
-         140a9ff2382bbc92f0bc77076223abe98fd1dca6 fs/9p: Remove unnecessary superblock flags
-         ce664e2f2d96db7b07e8854fc30d8bf223ee82fa fs/9p: allow disable of xattr support on mount
-         afd109703704501cae35307e882bc3b12d6036f0 net/9p: fix bug in client create for .L
-         123383e5961af4e533df0be813cbb7d836c35afc 9p: Add additional debug flags and open modes
-         358d7ba16504bd64e221d7bd892b759463acaedb fs/9p: Add new mount modes
-         cf672333a90946c0cc1dd969cd4b852c0fe86977 fs/9p: fix error reporting in v9fs_dir_release
-         1db463b64e4c7c5522b3360895dfecb9ff87f0d4 fs/9p: writeback mode fixes
-         291ca06aad937245badbcf59517b700c0184035f fs/9p: Fix revalidate
+         c82369bef3f67a17f6107b56e1e735b6e8d21f21 cpu: Add a QQz citing table E.1
+         68bc697cc2895a8c00e0d8779a168570616c41e0 debugging: Use \qco{} for 'time' output examples
+         bdb557a4e87c7762e5cf4c4e10b06a343909da5e debugging: Use \co{} and \qco{} for 'git' and 'Fixes:', respectively
+         46f1bb289d23de080ba0f41b85e175c3883b41b7 debugging: Remove unnecessary space in a sentence
+         547865149fb7d56c2f4334a30c23aec644fcbd87 debugging: Remove redundant following sections introduction
+         34cc066b1d95477d92c072f3f12a249e2bfcae06 cpu: Add a QQz on table E.1
          
