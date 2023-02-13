@@ -1,21 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rw/ubifs
-Date: Mon, 13 Feb 2023 21:57:12 -0000
-Message-Id: <167632543278.30736.2682128772132767565@gitolite.kernel.org>
+Subject: post-receive: pub/scm/bluetooth/bluez
+Date: Mon, 13 Feb 2023 22:10:07 -0000
+Message-Id: <167632620717.7022.10105328972471823454@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rw/ubifs
-user: rw
+repo: pub/scm/bluetooth/bluez
+user: vudentz
 changes:
-  - ref: refs/heads/next
-    old: 0b3bc49c936c1e6f399fcd2028ce24c3de9e7e59
-    new: 22d74bc26bbfde150f602b2a6e93fb11df30ce0b
+  - ref: refs/heads/master
+    old: 7b1b1a499cf334efa6b190ccaa8fb9ef223f66b4
+    new: f2a29899297aa55307fe12521dca637f9080f683
     log: |
-         1ecf9e390452e73a362ea7fbde8f3f0db83de856 mtd: ubi: wire-up parent MTD device
-         05b8773ca33253ea562be145cf3145b05ef19f86 mtd: ubi: block: wire-up device parent
-         22d74bc26bbfde150f602b2a6e93fb11df30ce0b ubifs: make kobj_type structures constant
+         3e2e3aa739040605e0fb0f8f1e69bfd9a7e607d1 doc: remove unimplemented Quality Report from MGMT settings
+         97ad0ecbfdd4934860e46984dc83aa876d7e448c doc: add MGMT setting for CIS features
+         c35d32b19989a26a584d87e2639fe8abd0f7e63c lib: Add defines for MGMT setting bits for CIS feature support
+         0f2f7a8fe270e30c49343849a284eb29116b5487 monitor: add MGMT setting bit names for CIS feature support
+         6f131929b832e9b9fbb2df301d31b4154a1b213b tools/btmgmt: add MGMT setting bit names for CIS feature support
+         94af45bc09a79443322e8f8bbbe0e7875856188f adapter: Add function for checking adapter settings
+         f2a29899297aa55307fe12521dca637f9080f683 media: Check adapter CIS support to add BAP in SupportedUUIDs
          
