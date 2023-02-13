@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6097402355652661311=="
+Content-Type: multipart/mixed; boundary="===============2818530370683677455=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Mon, 13 Feb 2023 08:01:00 -0000
-Message-Id: <167627526043.32482.7127123307237419240@gitolite.kernel.org>
+Date: Mon, 13 Feb 2023 08:01:18 -0000
+Message-Id: <167627527823.32647.51806344767163698@gitolite.kernel.org>
 
---===============6097402355652661311==
+--===============2818530370683677455==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/master
-    old: f0b7e2241bb643c7ee1f9d8f9fbeb8cde7396c1a
+  - ref: refs/heads/next
+    old: 4da4ab33922be46cc2140b015d90091ceb60045d
     new: 8203ae4a36c4b1485a449ff0406c0cf2b137358c
-    log: revlist-f0b7e2241bb6-8203ae4a36c4.txt
+    log: revlist-4da4ab33922b-8203ae4a36c4.txt
 
---===============6097402355652661311==
+--===============2818530370683677455==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f0b7e2241bb6-8203ae4a36c4.txt
+Content-Disposition: attachment; filename=revlist-4da4ab33922b-8203ae4a36c4.txt
 
 c63b8fd14a7db719f8252038a790638728c4eb66 spi: dw: Fix wrong FIFO level setting for long xfers
 eede42c9459b58b71edc99303dad65216a655810 spi: spidev: fix a recursive locking error
@@ -63,4 +63,4 @@ b31a8036fe71204913fc101b1a6af9a0bb3b3c18 tpm_crb: Add support for CRB devices ba
 75915ba547d855c303b2f404e9c58bda2c7c4494 tpm: Add reserved memory event log
 8203ae4a36c4b1485a449ff0406c0cf2b137358c tpm: add vendor flag to command code validation
 
---===============6097402355652661311==--
+--===============2818530370683677455==--
