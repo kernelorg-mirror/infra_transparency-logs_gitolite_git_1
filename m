@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8211846282852735663=="
+Content-Type: multipart/mixed; boundary="===============2047783450879617329=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec-next
-Date: Mon, 13 Feb 2023 09:04:40 -0000
-Message-Id: <167627908038.9394.5055229898387342712@gitolite.kernel.org>
+Date: Mon, 13 Feb 2023 09:05:09 -0000
+Message-Id: <167627910970.11122.13812964123273835629@gitolite.kernel.org>
 
---===============8211846282852735663==
+--===============2047783450879617329==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/klassert/ipsec-next
 user: klassert
 changes:
-  - ref: refs/heads/testing
+  - ref: refs/heads/master
     old: 9f92752788d719a4978d31082c98300274dd6ffc
     new: 75da437a2f172759b2273091a938772e687242d0
     log: revlist-9f92752788d7-75da437a2f17.txt
 
---===============8211846282852735663==
+--===============2047783450879617329==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ dde8769b12110b7f636053bb70febfe25a9502c0 s390/qeth: Convert sysfs sprintf to sys
 f6075feec4f976cf8c749ba12fba82915f7ac56b Merge branch 's390-net-updates-2023-02-06'
 75da437a2f172759b2273091a938772e687242d0 Merge branch '40GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/next-queue
 
---===============8211846282852735663==--
+--===============2047783450879617329==--
