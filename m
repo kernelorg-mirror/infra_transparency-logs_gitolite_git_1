@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Mon, 13 Feb 2023 15:27:11 -0000
-Message-Id: <167630203185.28482.9253932192929289094@gitolite.kernel.org>
+Date: Mon, 13 Feb 2023 15:27:23 -0000
+Message-Id: <167630204328.28599.17084034617417609536@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,16 +11,14 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/objtool/core
-    old: 5a10ca6e6400d472553fda72e51e5ba598d24e1f
-    new: f3e88c7a66400b05c9272b031496c01b7f94388e
+  - ref: refs/heads/x86/core
+    old: ce3ba2af9695e4bd64d797e0026321e5dca29dd3
+    new: db682ed17e228063cf716062769c6f83491c50ed
     log: |
-         2a500a3bc6ce2f3b8471fc0369222b8d914b18c7 objtool: Rework arch_dest_reloc_offset()
-         acfc4a392eaec9c71e33b3ead9201be860b45521 objtool: Add reloc_addend()
-         e51806456fc744d1424da89c2e22d7dd5f986649 objtool: Introduce reloc_offset()
-         2441e2c07bc9cc948751b6ca1136c1c8dce76ca2 objtool: Introduce reloc_type()
-         896ad6d90e94e31330b50894e4cac4a233b770ac objtool: Remove reloc::offset
-         bd489d084d61b623faf02a241b968a8aa4fbfb6c objtool: Remove reloc::type
-         6c628ccc0d00712f92b869e9efa6b8022cd8ec36 objtool: Remove reloc::addend
-         f3e88c7a66400b05c9272b031496c01b7f94388e objtool: Single-linked reloc_list(s)
+         507d6158528d048f313c4d2a6f0be60508202a3a x86/alternative: Make debug-alternative selective
+         f8d9371eefb8af309fd9322e2529c4cbde5febc4 x86/alternative: Support relocations in alternatives
+         74c42fba47858440cddcbb8799c0fda771f550ef x86/alternative: Rewrite optimize_nops() some
+         28205345ec27d29892ad7c9e4bd3cfe9b37d73ca x86_64: Longer NOPs
+         242cbbe1542a287e8a62e7772aaad2e5b7482108 x86: Shorten RESET_CALL_DEPTH
+         db682ed17e228063cf716062769c6f83491c50ed x86/alternative: Complicate optimize_nops() some more
          
