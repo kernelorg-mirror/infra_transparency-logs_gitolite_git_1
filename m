@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1550176790893253301=="
+Content-Type: multipart/mixed; boundary="===============6060477228863721362=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/xen/tip
-Date: Mon, 13 Feb 2023 05:40:38 -0000
-Message-Id: <167626683824.4645.15262170640600228529@gitolite.kernel.org>
+Date: Mon, 13 Feb 2023 05:53:56 -0000
+Message-Id: <167626763629.13072.5691790121196790843@gitolite.kernel.org>
 
---===============1550176790893253301==
+--===============6060477228863721362==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,23 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/xen/tip
 user: jgross
 changes:
-  - ref: refs/heads/master
-    old: 5dc4c995db9eb45f6373a956eb1f69460e69e6d4
-    new: ceaa837f96adb69c0df0397937cd74991d5d821a
-    log: revlist-5dc4c995db9e-ceaa837f96ad.txt
+  - ref: refs/heads/linux-next
+    old: ca0d80778e48f207d139ce91eb2371e47489f21e
+    new: c70b7741dda7586529cc270e0f2c4cae3921b9b1
+    log: revlist-ca0d80778e48-c70b7741dda7.txt
 
---===============1550176790893253301==
+--===============6060477228863721362==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5dc4c995db9e-ceaa837f96ad.txt
+Content-Disposition: attachment; filename=revlist-ca0d80778e48-c70b7741dda7.txt
 
-84ed64b1a7a7fcd507598dee7708c1f225123711 scsi: target: core: Fix warning on RT kernels
-ee16c404f9bd03c6e083f76d45be0b6a774c0d14 Merge branch 'md-fixes' of https://git.kernel.org/pub/scm/linux/kernel/git/song/md into block-6.2
-4bb4db7f3187c6e3de6b229ffc87cdb30a2d22b6 net: nfc: Fix use-after-free in local_cleanup()
-488e0bf7f34af3d42d1d5e56f7a5a7beaff188a3 net: wan: Add checks for NULL for utdm in undo_uhdlc_init and unmap_si_regs
-3c463721a73bdb57a913e0d3124677a3758886fc net: enetc: avoid deadlock in enetc_tx_onestep_tstamp()
-925f3deb45df73173a33e1e81db77575f4ffde39 net: lan966x: add missing fwnode_handle_put() for ports node
 6bc1fe7dd748ba5e76e7917d110837cafe7b931c mptcp: explicitly specify sock family at subflow creation time
 fb00ee4f3343acb2b9222ca9b73b47dd1e1a8efc mptcp: netlink: respect v4/v6-only sockets
 4656d72c1efa495a58ad6d8b073a60907073e4e6 selftests: mptcp: userspace: validate v4-v6 subflows mix
@@ -1050,5 +1044,11 @@ e2bca0ebf775453bb3c6b9c2149fb4712621493a Merge tag 'usb-6.2-rc8' of git://git.ke
 5e98e916f95bdc50e90f3199d7f3d74b94fa5976 Merge tag 'trace-v6.2-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 80510b63f7b6bdd30e07b3a42115d0a324e20cd6 MAINTAINERS: Add myself as maintainer for arch/sh (SUPERH)
 ceaa837f96adb69c0df0397937cd74991d5d821a Linux 6.2-rc8
+415dab3c179632d098aadc756b39cebceb977978 drivers/xen/hypervisor: Expose Xen SIF flags to userspace
+336f560a8917fd60bcdb71b97263257611411453 x86/xen: don't let xen_pv_play_dead() return
+f697cb00afa90b68748f246540270b5865c801ba x86/xen: mark xen_pv_play_dead() as __noreturn
+caea091e48ed9d3951506507abf26e9918d08e35 x86/xen/time: prefer tsc as clocksource when it is invariant
+3e8cd711c3da6c3d724076048038cd666bdbb2b5 xen: Allow platform PCI interrupt to be shared
+c70b7741dda7586529cc270e0f2c4cae3921b9b1 xen/pvcalls-back: fix permanently masked event channel
 
---===============1550176790893253301==--
+--===============6060477228863721362==--
