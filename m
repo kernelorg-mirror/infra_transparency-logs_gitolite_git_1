@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8507682707226888276=="
+Content-Type: multipart/mixed; boundary="===============4563419662454393113=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Tue, 14 Feb 2023 13:37:36 -0000
-Message-Id: <167638185693.18881.8596603574583487898@gitolite.kernel.org>
+Date: Tue, 14 Feb 2023 13:41:51 -0000
+Message-Id: <167638211109.21716.16711944399758255052@gitolite.kernel.org>
 
---===============8507682707226888276==
+--===============4563419662454393113==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,41 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-testing
-    old: c4a07e264d38d5cad5d77298957cbd7d7db70b1f
-    new: 77191db5ba7bd321fbbf4315675ee774a2b5a362
+    old: 77191db5ba7bd321fbbf4315675ee774a2b5a362
+    new: 5ec63fdbca604568890c577753c6f66c5b3ef0b5
     log: |
-         77191db5ba7bd321fbbf4315675ee774a2b5a362 xhci: host: potential NULL dereference in xhci_generic_plat_probe()
+         7ebb605d2283fb2647b4fa82030307ce00bee436 usb: gadget: uvc: fix missing mutex_unlock() if kstrtou8() fails
+         5ec63fdbca604568890c577753c6f66c5b3ef0b5 usb: gadget: u_serial: Add null pointer check in gserial_resume
          
 
---===============8507682707226888276==
+--===============4563419662454393113==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1676381855 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1676382109 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1676381855-99edb31fa6716c8df5d19dcabde952c675178c33
+nonce 1676382108-624fed014f5d693b4f86a710405252d87d3dd151
 
-c4a07e264d38d5cad5d77298957cbd7d7db70b1f 77191db5ba7bd321fbbf4315675ee774a2b5a362 refs/heads/usb-testing
+77191db5ba7bd321fbbf4315675ee774a2b5a362 5ec63fdbca604568890c577753c6f66c5b3ef0b5 refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPrjp8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+R3gQAInze1UIlynkIyR+gD0S
-3EcRWj1sSNvCclxo2Hh7q1rLgT+nRo03t1wmT7/hVk7vkcsj212X2HZ1xeiZgN0S
-xQNtExZ7yFvau/zGyzQdRcbjysovtIlowfdhrBK8Z5UbFQ4E0ncGEIPImfCwHynb
-Z9UB4fAMcEK6br4qxEpwvegNqzr+TeRC6hiBl9M91lAhE77JGrGx+PnwiZ9351wk
-5cbsDsYY4xxocf2kXtkPwjGj/EIjFQLxlddeAX1HVa06DtjJAIbkHhCGwSvHO6qa
-I4ZRDZ7QHMtIN2ZvR8o0IrF/Z3rlWydGTmVDZZczF2dsQh4Yk89ewPNRiObQHtOh
-lLJmJKH9zJNiKwIIk9hkEA7my6T6/Hrw2pwWApiKUhujz0j/CS/qE8msIE/fpNjn
-9ZrG3q+qPqfRNx+cWIXcKaYPRshlCMJ7SrtrJ4KdEuiUrPBvCp1rEzIK9p/I894m
-baprRsytIA4XJP6l16800UM/7mNDdT5O9ST/nQfiEDnuYEEZbAUHleZ3+P8oqOxN
-0TENKhxOSWmfWsgZXgwPOL7cvC591GZ8fjttBzGt6UyYWt+kHoTjP2zvIEvUtmzD
-eGYo5N7hwQAJVUlaavKW4ikF+v5WWrd1VKeZ5Tgd8tNf6Rsa2jNldutv/qVgocO2
-sBYrC7PqrM0dtNdAwOkI5YDP
-=8qvT
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPrj50bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Wa4P/RATdYySdwWClnew1T1O
+wAFLJOQSxLr3DnF8pbI9tcGOWV7pZDox23/RT8StQx9AYoN3VGgK5Pofhsm34JE/
+jLx/YbzM0BrpyOh2vyO7k0jvUgFN30DBj0PvibBsjpoAE/fZ3UvlxCP1KW/2dQgU
+wRHUDvkU0ewWizEYHfaP2BxgaslOSO9+xsS9d470LXYPHw1PewI0nZotrN39ip3u
+X9fa2/DK/Q+sXAv3hSPizcfs2xHH0yIwM1uXxsvMK84Q1eetoUUATOdY2AAUm7ZR
+6Po1fdbELXWbnH9OPrFCp8NzDXXEAlAkrvnsC90T6EzJ40hW3kqsq6JcnjzwfX6r
+kU37idpnkA+WVzLaMzxwG8hu9znqJXLSCFdGCXgNJka8OrblY4wYeRFuA3Z6scyE
+FaBRcCQX+paXsO7JYRND++ABmuBEYXtJeabL/gyPbKQHj1CEENTLTkxJR+xVMhQA
+wHsLKGfwMtOCuhofXEfL069jc3mr0Sac9YKVF6GEDNaoj5EDHxgO4pZjV29mN5vx
+rAYC6RCMTrDjs/GPXNmD9dg80o69ufZlKMtda2RfpaFTo3o50TP4bkylKWDXsMb9
+PPIV2ZnVwgr+c+saPNM6fi/JtzoZpY2UMbv+h45hysGvNT8y9bUb08xFobUA3/+q
+SL/Ozm6ZdhggmBZJ/NwsiE2D
+=Ndto
 -----END PGP SIGNATURE-----
 
---===============8507682707226888276==--
+--===============4563419662454393113==--
