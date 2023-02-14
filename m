@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Tue, 14 Feb 2023 18:11:37 -0000
-Message-Id: <167639829707.12439.6501625753500068683@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Tue, 14 Feb 2023 18:11:51 -0000
+Message-Id: <167639831104.12604.3068791711350315877@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
-user: jaegeuk
+repo: pub/scm/linux/kernel/git/pci/pci
+user: helgaas
 changes:
-  - ref: refs/heads/dev-test
-    old: 5b3a09137319840df16c060a7b135516a25ebb94
-    new: a46bebd502fe1a3bd1d22f64cedd93e7e7702693
+  - ref: refs/heads/virtualization
+    old: 63ba51db24ed1b8f8088a897290eb6c036c5435d
+    new: a2b9b123ccac913e9f9b80337d687a2fe786a634
     log: |
-         f2e357893cb7d15994e4ec10838ebb4dccf7eb6e f2fs: export ipu policy in debugfs
-         dda7d77bcd424ce5da80dd5a7ec92ead00279c02 f2fs: replace si->sbi w/ sbi in stat_show()
-         7e986855fe13de2c8290c1102292d8e5f29dd769 f2fs: fix wrong segment count
-         a46bebd502fe1a3bd1d22f64cedd93e7e7702693 f2fs: synchronize atomic write aborts
+         a2b9b123ccac913e9f9b80337d687a2fe786a634 PCI: Add ACS quirk for Wangxun NICs
          
