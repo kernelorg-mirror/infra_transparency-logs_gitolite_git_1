@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Tue, 14 Feb 2023 18:09:15 -0000
-Message-Id: <167639815523.10036.7117529349850251742@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/matthias.bgg/linux
+Date: Tue, 14 Feb 2023 18:09:19 -0000
+Message-Id: <167639815992.10150.5777269871560358647@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
-user: jaegeuk
+repo: pub/scm/linux/kernel/git/matthias.bgg/linux
+user: matthias.bgg
 changes:
-  - ref: refs/heads/dev
-    old: 273a51e5521213a13e5852e762cc9c03c66b9baa
-    new: a46bebd502fe1a3bd1d22f64cedd93e7e7702693
+  - ref: refs/heads/v6.3-tmp/dts32
+    old: 9d8e60a4ec3099bccb1a607884b2323c6132a72a
+    new: 7aa875062efeee282bbd7bbc6768c6121674f4ec
     log: |
-         f2e357893cb7d15994e4ec10838ebb4dccf7eb6e f2fs: export ipu policy in debugfs
-         dda7d77bcd424ce5da80dd5a7ec92ead00279c02 f2fs: replace si->sbi w/ sbi in stat_show()
-         7e986855fe13de2c8290c1102292d8e5f29dd769 f2fs: fix wrong segment count
-         a46bebd502fe1a3bd1d22f64cedd93e7e7702693 f2fs: synchronize atomic write aborts
+         7aa875062efeee282bbd7bbc6768c6121674f4ec arm: dts: mt7623: disable home key on Bananapi BPI-R2
          
