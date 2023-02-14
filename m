@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7053658462356084813=="
+Content-Type: multipart/mixed; boundary="===============7405256578472929424=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jpoimboe/linux
-Date: Tue, 14 Feb 2023 19:16:30 -0000
-Message-Id: <167640219005.23678.15261453270894499757@gitolite.kernel.org>
+Date: Tue, 14 Feb 2023 19:18:02 -0000
+Message-Id: <167640228240.24216.18269139773562913172@gitolite.kernel.org>
 
---===============7053658462356084813==
+--===============7405256578472929424==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jpoimboe/linux
 user: jpoimboe
 changes:
-  - ref: refs/heads/objtool/core
-    old: 60d527353da8c99d4cf13b6473131d46719ed16d
+  - ref: refs/heads/arch-cpu-idle-dead-noreturn
+    old: 7621e5aafcf6ee18fef67bcea60843336b341fea
     new: 78a61657ee5ece4553db7f8e89acbcfed22020b2
-    log: revlist-60d527353da8-78a61657ee5e.txt
+    log: revlist-7621e5aafcf6-78a61657ee5e.txt
 
---===============7053658462356084813==
+--===============7405256578472929424==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-60d527353da8-78a61657ee5e.txt
+Content-Disposition: attachment; filename=revlist-7621e5aafcf6-78a61657ee5e.txt
 
 a6267fd5dda7e93abeb96277c63cae595eeab6ee objtool: Change arch_decode_instruction() signature
 e4947e3df118ce83107e868357bf1ada0b4c7531 objtool: Make instruction::stack_ops a single-linked list
@@ -61,4 +61,4 @@ a2836ed1c7cb4831685e8dca2c019cf988a85e3a init: Make arch_call_rest_init() and re
 08a06463b16e1336c03b4a1103d79f76b035e14e x86/cpu: Expose arch_cpu_idle_dead()'s prototype definition
 78a61657ee5ece4553db7f8e89acbcfed22020b2 sched/idle: Mark arch_cpu_idle_dead() __noreturn
 
---===============7053658462356084813==--
+--===============7405256578472929424==--
