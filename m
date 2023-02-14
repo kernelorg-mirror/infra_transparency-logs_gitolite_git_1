@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1705593282773255189=="
+Content-Type: multipart/mixed; boundary="===============1025906559122086474=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Tue, 14 Feb 2023 17:13:04 -0000
-Message-Id: <167639478404.775.14984387885077299215@gitolite.kernel.org>
+Date: Tue, 14 Feb 2023 17:13:32 -0000
+Message-Id: <167639481255.969.5221439947007234641@gitolite.kernel.org>
 
---===============1705593282773255189==
+--===============1025906559122086474==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jejb/scsi
 user: jejb
 changes:
-  - ref: refs/heads/misc
-    old: 85e182b48a33a44f3e0cfe6e7ee9da15baa0afce
-    new: 833f7d4819a88f027033e0033ea44f7ae3e45a9b
-    log: revlist-85e182b48a33-833f7d4819a8.txt
+  - ref: refs/heads/for-next
+    old: e9f87b59c685600bf02d544b9575464951821ce2
+    new: 1a10df75c93ff11bc7712474f1e571652f9c4bcf
+    log: revlist-e9f87b59c685-1a10df75c93f.txt
 
---===============1705593282773255189==
+--===============1025906559122086474==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-85e182b48a33-833f7d4819a8.txt
+Content-Disposition: attachment; filename=revlist-e9f87b59c685-1a10df75c93f.txt
 
 2aa0f83edb1c5a341f0aca209b0ecd74672fb3fa scsi: elx: libefc_sli: Use "/*" for non-kernel-doc comment
 4fd62973739de61cf4c83b960db7d1824bd854a3 scsi: qla2xxx: Use a variable for repeated mem_size computation
@@ -51,5 +51,6 @@ ead821268c14a8f87b5cb1079aed10bb16373fe8 scsi: smartpqi: Replace one-element arr
 32fe45274edb5926abc0fac7263d9f889d02d9cf scsi: aic94xx: Add missing check for dma_map_single()
 36822124f9de200cedc2f42516301b50d386a6cd scsi: ufs: core: Fix device management cmd timeout flow
 833f7d4819a88f027033e0033ea44f7ae3e45a9b scsi: ufs: core: Fix an error handling path in ufshcd_read_desc_param()
+1a10df75c93ff11bc7712474f1e571652f9c4bcf Merge branch 'misc' into for-next
 
---===============1705593282773255189==--
+--===============1025906559122086474==--
