@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 14 Feb 2023 08:15:12 -0000
-Message-Id: <167636251299.20804.4959334290883592135@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/libgpiod/libgpiod
+Date: Tue, 14 Feb 2023 08:18:54 -0000
+Message-Id: <167636273423.23132.2788091671879341700@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: pabeni
+repo: pub/scm/libs/libgpiod/libgpiod
+user: brgl
 changes:
   - ref: refs/heads/master
-    old: 21c167aa0ba943a7cac2f6969814f83bb701666b
-    new: 05d7623a892a9da62da0e714428e38f09e4a64d8
+    old: 8b99eb43f210194fe7f34b6d9a57b287b26fb771
+    new: 5e111df2fca56d57193a1825e45e78dd8b76c0f1
     log: |
-         05d7623a892a9da62da0e714428e38f09e4a64d8 net: stmmac: Restrict warning on disabling DMA store and fwd mode
+         5e111df2fca56d57193a1825e45e78dd8b76c0f1 gpiosim: use twalk() instead of twalk_r()
          
