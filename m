@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Tue, 14 Feb 2023 18:29:47 -0000
-Message-Id: <167639938725.23258.6430143721261600336@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Tue, 14 Feb 2023 18:36:26 -0000
+Message-Id: <167639978653.28378.12849212781091357836@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
-user: snitzer
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
-  - ref: refs/heads/for-next
-    old: 68fb709113077f1f367d8a55deb01d2d6bf23b0f
-    new: cd4afc85b39c1b9dd63715c591829f67b07c86a8
+  - ref: refs/heads/master
+    old: 942906afb7990192ac142895de3cb3058249e9fe
+    new: 5560f475aa1711cdde875b6a2b8a29e3573d114d
     log: |
-         cd4afc85b39c1b9dd63715c591829f67b07c86a8 dm: update targets using system workqueues to use a local workqueue
+         5560f475aa1711cdde875b6a2b8a29e3573d114d Tue Feb 14 06:35:37 PM UTC 2023
          
