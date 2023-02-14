@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-power-supply
-Date: Tue, 14 Feb 2023 22:06:54 -0000
-Message-Id: <167641241447.7003.10972441533530829402@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Tue, 14 Feb 2023 22:07:20 -0000
+Message-Id: <167641244022.7225.11035380288448689913@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sre/linux-power-supply
-user: sre
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/for-next
-    old: 469bb6093f8e963aab3b1836dc9eb86135c14163
-    new: cec3b46b8bda0cdc93d3ab2bdd14aae5d30ecfd9
-    log: |
-         cec3b46b8bda0cdc93d3ab2bdd14aae5d30ecfd9 power: reset: add Odroid Go Ultra poweroff driver
-         
+  - ref: refs/heads/jpoimboe.2023.02.14a
+    old: 0000000000000000000000000000000000000000
+    new: 67ae934689db2dafd81824e7e356212b07fdceb2
