@@ -1,55 +1,53 @@
-Content-Type: multipart/mixed; boundary="===============6835366563178020581=="
+Content-Type: multipart/mixed; boundary="===============7712518712043255695=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless-next
-Date: Tue, 14 Feb 2023 12:36:33 -0000
-Message-Id: <167637819316.11304.8036599833987966115@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Tue, 14 Feb 2023 12:43:45 -0000
+Message-Id: <167637862556.15058.16549710926382785853@gitolite.kernel.org>
 
---===============6835366563178020581==
+--===============7712518712043255695==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wireless/wireless-next
-user: jberg
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/gregkh/usb
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: d99975c4953eb79e389d4630e848435c700e2dfc
-    new: daf8fb4295dccc032515cdc1bd3873370063542b
-    log: |
-         daf8fb4295dccc032515cdc1bd3873370063542b wifi: mac80211: Don't translate MLD addresses for multicast
-         
+  - ref: refs/tags/usb-6.2-rc8
+    old: 35200aae4318fd1ed83b663c160ca6f8b2b63d3b
+    new: 0000000000000000000000000000000000000000
 
---===============6835366563178020581==
+--===============7712518712043255695==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 7BF9099A 1676378173 +0100
-pushee ssh+git://korg/pub/scm/linux/kernel/git/wireless/wireless-next.git
-nonce 1676378173-fe1a92b2c1874cfdc835d29778ee44b1f02b8ca9
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1676378623 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1676378622-c1d2facb77fc62ed7576519d1756a1d58dd79b03
 
-d99975c4953eb79e389d4630e848435c700e2dfc daf8fb4295dccc032515cdc1bd3873370063542b refs/heads/main
+35200aae4318fd1ed83b663c160ca6f8b2b63d3b 0000000000000000000000000000000000000000 refs/tags/usb-6.2-rc8
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCgAdFiEEpeA8sTs3M8SN2hR410qiO8sPaAAFAmPrgD0ACgkQ10qiO8sP
-aABn8A/9ElERIDQDtbcFOAarQ2AS75CYC9E5HvPKZN+mJPTLpYh06tbVbNCk9Seb
-gPguUCx61ZL+rMHRBdrcVvq3O2PWnAayLWv6dI4ZeoulaBu+iMj+Ui0tDAVbyUcN
-AOOGlClUOSCLZ4uriVnm4TuoSVVys1Pdi06Nkua2axG59HSfMalXafDEQ0aKhn0j
-DT8qL8Wu8/Raqjeh0kWqD12g2VcR5c7vC/sFTHFccpM0NjLXRAXWDxT/rddr9FAl
-1OAadasWDcUinqmBOsS+7YdwsRkz5Hk29Gc/TAmxFxbTipe8XhF6nsaGu7m/5K59
-/yR2lrCQ27UD9S4+FN9RPCvBsQT5v/QWbvcPvNR9RHKLzZBXL0KSSBk3mUMjxdqt
-2LuJLwbPKDe42qFUH7jUMjv0iyV07UdtAkbNbHTRX9f3ydGtrseGhFRRpUJ6yTMZ
-RdkbgAme8rQEnhb2nJ9DOH2qXv+pn0sBBnplwdKwJaWRu8sju9FcvSGPf6nqaopY
-aeDunP/dSSf8jumMedYdtQtWX+Fm4jEO8Y09pofiVEiDcqk8isVlQNhIpGwUH21y
-nYGKr6IcRWgEtFJj181wuko++NpaL0Es77sZ/z5L5XN6+V009sKAVfEU9hbuxbyc
-WKXrt7IF4qGs8ptBIWxWq8BIw2H9EZgp71dO1KklzlI3FsdA1/Y=
-=Zpws
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPrgf8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+HlIP/2ByLSJ/H07QvtnYtRoh
+vuzCBhAN3wsW7ED6DgAHVINstTh32F8Qoc0E7TIlBBc2A4i+RlX3zloWl2P2u1qy
+Ild0J0Ac98oW3Rx9JntB2FhFsoxexf8wmQ9hIhRGoDKpAo/jRfj7qRANJ2XYDJmn
+vU2D0ZxN5PiprEef9c+g8jir2WNmBM4ZIbK1oDv5r8jHwWTYc41Dt9zeojb43Z0S
+pR4xID/ykzDOeY6WQokiz/2bv600/KwsEgRZMtA5zRnnnI66PIua7GfGGIm19G1A
+uhwPFNeiV69F1IG5eJyT6+LY7sEK1LYznbQMPjPikLjU1Ve27OxdYj4o8phjElo/
+Fq9hLzk1St36d6If2fA4QUf0NrKIda5E1ZU6rijBh+vJj4z3+HjNCpQUbALs35SS
+Cz24OjEFZ434qicdzBjlY3iEEWEV1ykY+/zMN5mivj4oKttLAeI3xvEYB0ydLBHK
+U7azfG1JM5drqG+vniMgyhuwPI+dMKlLiwnO1ur0KoV4jbmvUtEjDDrEyMvw0jEi
+knYJoNHhQrd8i8xvl8R6bJzTkOUBqRkl0mdIlt9/x7wIfnhTmqBa7mzjCC/y+5NJ
+11XzuB6RhvRbPYrHaj5fdYaOONqH6tMKEL/YWQpzzZOPhmNQGdWvekfXCzvvUavC
+tN+d0b8eIw6rqKrajRwOxIyd
+=bEl8
 -----END PGP SIGNATURE-----
 
---===============6835366563178020581==--
+--===============7712518712043255695==--
