@@ -1,55 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============0716258921453438114=="
+Content-Type: multipart/mixed; boundary="===============7649806035644592136=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless-next
-Date: Tue, 14 Feb 2023 13:45:12 -0000
-Message-Id: <167638231248.24586.9345688835364287709@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Tue, 14 Feb 2023 13:46:59 -0000
+Message-Id: <167638241992.26333.2469818528001339333@gitolite.kernel.org>
 
---===============0716258921453438114==
+--===============7649806035644592136==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wireless/wireless-next
-user: jberg
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/gregkh/usb
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: daf8fb4295dccc032515cdc1bd3873370063542b
-    new: 1d8d4af4347420d657be448f8be4c39c558f3b5d
+  - ref: refs/heads/usb-testing
+    old: f430e60b78c6359ba4cb4e521d7df7f9a0484e03
+    new: 096ae0b5137ba5c8fb26439e9fcdbcc95c91ec84
     log: |
-         1d8d4af4347420d657be448f8be4c39c558f3b5d wifi: mac80211: avoid u32_encode_bits() warning
+         997584577be5b2d5a89c91efece4cc78c2878042 usb: gadget: u_ether: Convert prints to device prints
+         096ae0b5137ba5c8fb26439e9fcdbcc95c91ec84 usb: gadget: u_ether: Don't warn in gether_setup_name_default()
          
 
---===============0716258921453438114==
+--===============7649806035644592136==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 7BF9099A 1676382292 +0100
-pushee ssh+git://korg/pub/scm/linux/kernel/git/wireless/wireless-next.git
-nonce 1676382291-0e7bc283e45268cdd7b86865d0946e9c7c95ce82
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1676382418 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1676382418-09cb6f221b47883ae3b1e0948858215284344f5c
 
-daf8fb4295dccc032515cdc1bd3873370063542b 1d8d4af4347420d657be448f8be4c39c558f3b5d refs/heads/main
+f430e60b78c6359ba4cb4e521d7df7f9a0484e03 096ae0b5137ba5c8fb26439e9fcdbcc95c91ec84 refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCgAdFiEEpeA8sTs3M8SN2hR410qiO8sPaAAFAmPrkFQACgkQ10qiO8sP
-aADJchAAkMwjYauwox/tWb7/oxZViOIEOSulpO8wdZpzxjvb4bTeglQOGmIWrZhF
-HISnMC226hrRyw3afGzrPdAfqXX1qSG229ktbgp6pG0pbVz0yQTqrmgFGp3dq7z0
-O+XYXL7WbDvAzRyuRb6EVYomq8eBORThXnyxLNLmhd6R6hPxQBdjLy0H261UnPt/
-5T7mfp04SAoPUImBd90aXFg5EVgxvzTWG+Ha3MLMCpGCXpBwX/I2XXz4mH8weUBh
-RiQgAoHLiqTKB2Si1+MM/L+EzD3iS4QMHbbfkPbv/Rae22rOITBfe5JZGe+82Pzf
-RL9bXsXWS0n1Ut4jhETtBIzRBOqiTWHS989DSEuD6n8nbAd5IdOiUziYBva3iwYM
-GwkwTAJWa8BZEm2GkxblrBq3AcxhzaMPJ/XYpQr9a2BrfmJkTpZDafvKwl/DDqnP
-AUNVObJPoNaRIJaw8FX5bKxMbO0ZBMultbDsvitwt0S3VwTC4m6WhqA6oZFn0J94
-d5UKMcP3m0EfQEMCqceCVB631Oh8dwlIh5Y5gXf/YmfBP5wuGJKX2G+dui42prhH
-9ZlLbB6hSxnAkmw1dkjLK4xflYh/yPH7LoicWvTLdYe9cmJPfa4MFz8cg9Wtsu2O
-I5xjpqGuoxHVd6r7gyqHyinwIn4jFAUuK1GLNLMH7KyULBIcKuY=
-=p1Et
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPrkNIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+xi8P/0EE3LmH8fK+DWtZGAoy
+C08UVefuLoFQZnwOwdvW7bPfmgnmNpGTLESMNlFCrF6+1hEX7BVLySVHkQ/EbpM/
+92f6J3J/ElhjVuPayCboI6DxyMlG8cR9yKlnG8iUSVWci9BdTp1UKtJFh11sEBlt
+cQHn9VX+ztIFy+rCwgyfTTJ0XCQxDzlfa/ZnynyD55Ha8IPcWmcJdlGhnt9W8BsP
+oD9VkS1Ib0Yyis2yFHir/vt4ie1pk4nVOf7+ecRwHun/V3FYbKQUt20hqHbRqS3N
+0PzEeNqO8sZR9fr6PfaKy69Uv0mv/EyFo8zHZWk1GEIH0J/i7bUBPfxr+WMTgB0r
+DJ5xIZ7vv4holMJtkJfCLJnMoYwQIOEZx2CQfAeBy0XSP9d2i69BnTMyfOxMWFP/
+eB9Mzzgb9p/VcwQyTEWIKiAanSLN7ZyB6Gdd+1d7jhZwSlswoc9tsUuk8KfxZAtO
+qWzBfiC0HSoKe/6/JPlu/wW/ghrUJ9oOil3q92A0iFiw4BYdkNeLmWtm4Ij7Eq0E
+4AsNw9dkc89pw7Yuedj20dC7JPI/TGGnSkuyj4Ngv/5FZT7OJXkspovfzIBZSMYk
+i2ly6aqzqjApgG8JC+EVQRKHTwlauO4iHiegzwxnCQLRFXW7bZcQThcMbKwFhcce
++ZnnjbSwpvbcYGerom2Al7IO
+=os6T
 -----END PGP SIGNATURE-----
 
---===============0716258921453438114==--
+--===============7649806035644592136==--
