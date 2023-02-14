@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3383092946277419254=="
+Content-Type: multipart/mixed; boundary="===============9065422836167732618=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/trace/linux-trace
-Date: Tue, 14 Feb 2023 01:05:46 -0000
-Message-Id: <167633674694.29802.7014885361791034181@gitolite.kernel.org>
+Date: Tue, 14 Feb 2023 01:08:30 -0000
+Message-Id: <167633691052.30856.4904259382032624367@gitolite.kernel.org>
 
---===============3383092946277419254==
+--===============9065422836167732618==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/trace/linux-trace
 user: rostedt
 changes:
-  - ref: refs/heads/trace/for-next
-    old: dc513fd5321d4c15ac1f820c224b2e5220b6e14f
-    new: 9c1c251d670bc107b9ce600a2c20adb08b4849e9
-    log: revlist-dc513fd5321d-9c1c251d670b.txt
+  - ref: refs/heads/for-next
+    old: 9f58b99c9c4060cdfb9b036e431586f0c80d30bf
+    new: 01b6e24110cafc8760abe2df5495f160d98dcaf2
+    log: revlist-9f58b99c9c40-01b6e24110ca.txt
 
---===============3383092946277419254==
+--===============9065422836167732618==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-dc513fd5321d-9c1c251d670b.txt
+Content-Disposition: attachment; filename=revlist-9f58b99c9c40-01b6e24110ca.txt
 
 b18c58af29e465d21d4cd9e8c5008ae0e0147384 tracing/osnoise: No need for schedule_hrtimeout range
 a2ff84a5d1e65c7d1178f24ecf39fc55283fbd14 tracing/histogram: Wrap remaining shell snippets in code blocks
@@ -37,5 +37,6 @@ cb1f98c5e5742273bca39410d504430793ab701a tracing: Add creation of instances at b
 c4846480831ea526bcab0ca0bf6364bfa6ed4227 tracing: Add enabling of events to boot instances
 d503b8f7474fe7ac616518f7fc49773cbab49f36 tracing: Add trace_array_puts() to write into instance
 9c1c251d670bc107b9ce600a2c20adb08b4849e9 tracing: Allow boot instances to have snapshot buffers
+01b6e24110cafc8760abe2df5495f160d98dcaf2 Merge remote-tracking branch 'ftrace/probes/for-next' into trace/for-next
 
---===============3383092946277419254==--
+--===============9065422836167732618==--
