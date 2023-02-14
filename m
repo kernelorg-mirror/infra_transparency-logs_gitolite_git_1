@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/bluetooth/bluez
-Date: Tue, 14 Feb 2023 20:36:02 -0000
-Message-Id: <167640696276.11485.10956930606186683674@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
+Date: Tue, 14 Feb 2023 20:36:53 -0000
+Message-Id: <167640701348.11842.14269365861414785560@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/bluetooth/bluez
-user: vudentz
+repo: pub/scm/linux/kernel/git/palmer/linux
+user: palmer
 changes:
-  - ref: refs/heads/master
-    old: f2a29899297aa55307fe12521dca637f9080f683
-    new: 89f535894e59b66e70213ec9ab33fd158e8f54f1
+  - ref: refs/heads/for-next
+    old: ccff00ded4ff7d4ebb86d0679727f40f18ad43da
+    new: deea8013872bd6868b30610fa43b73b6987a7eaf
     log: |
-         5d63ee2a58c60fdd9f73298d0686e63ef9e16273 mgmt: Use BIT macro when defining bitfields
-         89f535894e59b66e70213ec9ab33fd158e8f54f1 gatttool: Use consistent spacing before brackets
+         deea8013872bd6868b30610fa43b73b6987a7eaf RISC-V: re-order Kconfig selects alphanumerically
          
