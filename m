@@ -1,38 +1,24 @@
-Content-Type: multipart/mixed; boundary="===============3595026223593180594=="
+Content-Type: multipart/mixed; boundary="===============3858091368264445604=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Tue, 14 Feb 2023 03:32:39 -0000
-Message-Id: <167634555957.29159.13206138051785360406@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Tue, 14 Feb 2023 03:32:50 -0000
+Message-Id: <167634557078.29334.18133809647002492450@gitolite.kernel.org>
 
---===============3595026223593180594==
+--===============3858091368264445604==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
   - ref: refs/heads/master
     old: 09e41676e35ab06e4bce8870ea3bf1f191c3cb90
     new: 3ebb0ac55efaf1d0fb1b106f852c114e5021f7eb
     log: revlist-09e41676e35a-3ebb0ac55efa.txt
-  - ref: refs/heads/stable
-    old: 711e9a4d52bf4e477e51c7135e1e6188c42018d0
-    new: b408817d48840847c00052ae0e02a54311913073
-    log: |
-         eb4b55f2f26fc8a7b7dc6f06f1de91480d53485b platform/x86/intel/vsec: Add support for Meteor Lake
-         b6c7abd1c28a63ad633433d037ee15a1bc3023ba tracing: Fix TASK_COMM_LEN in trace event format file
-         5e98e916f95bdc50e90f3199d7f3d74b94fa5976 Merge tag 'trace-v6.2-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
-         80510b63f7b6bdd30e07b3a42115d0a324e20cd6 MAINTAINERS: Add myself as maintainer for arch/sh (SUPERH)
-         ceaa837f96adb69c0df0397937cd74991d5d821a Linux 6.2-rc8
-         b408817d48840847c00052ae0e02a54311913073 Merge tag 'platform-drivers-x86-v6.2-5' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-         
-  - ref: refs/tags/next-20221114
-    old: 145f0fa9a2ffcfc93562333ed7ce8727eeec0b12
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20230214
     old: 0000000000000000000000000000000000000000
     new: 0081a146b30351a093add5c31dc43312e6267eea
@@ -40,7 +26,7 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: 51c32cc368b00aae605286cad9150cefa0adbf2d
 
---===============3595026223593180594==
+--===============3858091368264445604==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1036,4 +1022,4 @@ cff0bddb89be420f931d837b7d5c1767863028e3 Merge branch 'for-next' of git://git.ke
 19bb14578b07ac8ffd1ddac7561bb37126494594 Merge branch 'mm-everything' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 3ebb0ac55efaf1d0fb1b106f852c114e5021f7eb Add linux-next specific files for 20230214
 
---===============3595026223593180594==--
+--===============3858091368264445604==--
