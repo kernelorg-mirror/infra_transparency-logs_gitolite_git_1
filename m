@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 14 Feb 2023 04:05:15 -0000
-Message-Id: <167634751584.19206.15843758756617323872@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/namhyung/linux-perf
+Date: Tue, 14 Feb 2023 04:17:45 -0000
+Message-Id: <167634826549.28395.16025275468028817628@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/namhyung/linux-perf
+user: namhyung
 changes:
-  - ref: refs/heads/master
-    old: 2038cc592811209de20c4e094ca08bfb1e6fbc6c
-    new: 4562c65ec852067c6196abdcf2d925f08841dcbc
-    log: |
-         4562c65ec852067c6196abdcf2d925f08841dcbc net: stmmac: fix order of dwmac5 FlexPPS parametrization sequence
-         
+  - ref: refs/heads/perf/bpf-filter-v1
+    old: 0000000000000000000000000000000000000000
+    new: aa3c102feb2f0f3e70279f1eb5dbe992f11a8b8e
