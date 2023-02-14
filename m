@@ -1,38 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Tue, 14 Feb 2023 14:07:59 -0000
-Message-Id: <167638367900.6841.2705972423411972899@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Tue, 14 Feb 2023 14:09:07 -0000
+Message-Id: <167638374784.7271.4795128091065225095@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/for-linus
-    old: 5007b848ff2234ff7ea55755cb315766888988da
-    new: 9251584af09285133bec0595e5c7218fe2e595c9
-    log: |
-         9251584af09285133bec0595e5c7218fe2e595c9 ALSA: hda/realtek: Enable mute/micmute LEDs and speaker support for HP Laptops
-         
-  - ref: refs/heads/for-next
-    old: aacdac35b906e476b175a8ffc057165eca563076
-    new: 5791c7699ff1b8be24e1e3b2c08b180598d3ba28
-    log: |
-         943f4e64ee177cf44d7f2c235281fcda7c32bb28 ALSA: hda: cs35l41: Correct error condition handling
-         cd40dad2ca9196631dcd48e1b991244ab3940d83 ALSA: hda: cs35l41: Ensure firmware/tuning pairs are always loaded
-         5791c7699ff1b8be24e1e3b2c08b180598d3ba28 ALSA: hda: cs35l41: Enable Amp High Pass Filter
-         
-  - ref: refs/heads/master
-    old: 1102b9dbc2fb675cae366b89535ab0bad93de560
-    new: 4743b5b7b5f16ea6cbcc7cac8a08d2c0baf09f72
-    log: |
-         943f4e64ee177cf44d7f2c235281fcda7c32bb28 ALSA: hda: cs35l41: Correct error condition handling
-         cd40dad2ca9196631dcd48e1b991244ab3940d83 ALSA: hda: cs35l41: Ensure firmware/tuning pairs are always loaded
-         5791c7699ff1b8be24e1e3b2c08b180598d3ba28 ALSA: hda: cs35l41: Enable Amp High Pass Filter
-         a54161dd5294c4c481230b5cd6e6a401c19a3b40 Merge branch 'for-next'
-         9251584af09285133bec0595e5c7218fe2e595c9 ALSA: hda/realtek: Enable mute/micmute LEDs and speaker support for HP Laptops
-         4743b5b7b5f16ea6cbcc7cac8a08d2c0baf09f72 Merge branch 'for-linus'
-         
+  - ref: refs/heads/20230214_peter_ujfalusi_asoc_sof_intel_ipc4_support_for_low_power_playback_d0i3
+    old: 0000000000000000000000000000000000000000
+    new: 6611b975eb87d7793e4632575649308762e7d01e
+  - ref: refs/heads/fileJXv2lm
+    old: 0000000000000000000000000000000000000000
+    new: 7ec844a2c7535e4c4991e7e453baca85e156f7c1
+  - ref: refs/heads/filesey6IU
+    old: 0000000000000000000000000000000000000000
+    new: 7464145862d606cf9835f24080341a397cbc0669
+  - ref: refs/heads/filetH9YrO
+    old: 0000000000000000000000000000000000000000
+    new: ec285cb999c145f70631f13a284b4696102d06ef
+  - ref: refs/heads/v2_20230125_d_gole_stig_mode_fixes_for_spi_cadence_qspi_driver
+    old: 0000000000000000000000000000000000000000
+    new: d403fb6e76bf854ef0f7d84e797e51b9494788e0
