@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9182233846765506521=="
+Content-Type: multipart/mixed; boundary="===============2973681593825391188=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Tue, 14 Feb 2023 19:23:30 -0000
-Message-Id: <167640261084.27619.10007417646625535266@gitolite.kernel.org>
+Date: Tue, 14 Feb 2023 19:23:36 -0000
+Message-Id: <167640261673.27736.18299929957826366198@gitolite.kernel.org>
 
---===============9182233846765506521==
+--===============2973681593825391188==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
 user: snitzer
 changes:
-  - ref: refs/heads/for-next
+  - ref: refs/heads/dm-6.3
     old: 406d387ec2b84fbf3e4ecf90fb69386ad447dda0
     new: b0bbd86a288ab35234edb704935982c20f74628d
     log: revlist-406d387ec2b8-b0bbd86a288a.txt
 
---===============9182233846765506521==
+--===============2973681593825391188==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -70,4 +70,4 @@ f0ac1598712ff0f7b985d58546449e232487ee0e dm clone: prefer kvmalloc_array()
 a7e8f7fbe2adc132c0222fea96a18610337e2775 dm: update targets using system workqueues to use a local workqueue
 b0bbd86a288ab35234edb704935982c20f74628d dm sysfs: make kobj_type structure constant
 
---===============9182233846765506521==--
+--===============2973681593825391188==--
