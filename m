@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============6611178880309047830=="
+Content-Type: multipart/mixed; boundary="===============1816275095173528713=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Tue, 14 Feb 2023 18:04:24 -0000
-Message-Id: <167639786422.6678.14491960543061139495@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 14 Feb 2023 18:04:30 -0000
+Message-Id: <167639787057.6761.366142472957742405@gitolite.kernel.org>
 
---===============6611178880309047830==
+--===============1816275095173528713==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.3
+  - ref: refs/heads/spi-6.3
     old: 937ca916bf4de427242fb78105a0089af0dd43b3
     new: e97622254420ce5f03f3f3e6ad6ecbf86da248d9
     log: |
@@ -29,28 +29,28 @@ changes:
          e97622254420ce5f03f3f3e6ad6ecbf86da248d9 spi: STIG Mode Fixes for spi-cadence-qspi driver
          
 
---===============6611178880309047830==
+--===============1816275095173528713==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1676397862 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1676397862-00bbc6adde45d6a03b65c4aa56752e0c6cb63512
+pusher C3F436CA30F5D8EB 1676397869 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1676397868-ce2717802fd7242e3f26f6baf6d6ad2279b21bef
 
-937ca916bf4de427242fb78105a0089af0dd43b3 e97622254420ce5f03f3f3e6ad6ecbf86da248d9 refs/heads/for-6.3
+937ca916bf4de427242fb78105a0089af0dd43b3 e97622254420ce5f03f3f3e6ad6ecbf86da248d9 refs/heads/spi-6.3
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmPrzSYACgkQJNaLcl1U
-h9C5cwf/XSevhp1FwirQ/p8c39TWTiF2Fj1BLr/YtwTBVfeEQ+hOYRaz5aQcvKM6
-BQaDB4qpQ+Lct1ZB+kcmJ9mTi/1lCIFS0GMIPUvJ36U586tMYCJhjv/WqfhkjWIe
-H6xs9dbfg5/vA6U9Utr7YfmN4nDdOpB47R1tXMZItT8JTRlN+Id2D6JcHtgN/fjQ
-D9y9qyLBHwtxsANk6asoUV3JACes8BmLPILs60lVVnt1vLcoA8Dho6RcB+tpA3Mo
-PCG5TAnO0OdvMhWK6+Q1yMm4Lew7JrvngBNRTiLugA5oslARBSGMM2wCJFfly7g0
-uu+whUMonzZ/zLhcqVLIIQgC/qv5ig==
-=Q42x
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmPrzS0ACgkQJNaLcl1U
+h9AGagf+LPJdxwa1J2F6YscjJV9aVgEv+b65p/Bf/XIfMiKEyidgSaJbu8YRz/9s
+ka3Sl/mLWNH6t8P03fkE86C5xd1DEw+NOu8yqKMBBcqhx8KqqQunkXqOoty64/oi
+UQEinRfSq4mo5NV+OR7tl2ohAoBTMjaoKAEPIr/KcRgB7pDPlhD0U3+/DdcI5luO
+NauEgCieg6bP2Jk5IlVnZeySqY94Epk4+WKKehXfLK0IiYHglyLLC/ojmAmKUmEy
+EA+jozeYa8bYBm3wbUyA1xKjuJe4ny95tjiGMrRhoxvpW8Yo/Odu6o9IOZE1MPHt
+KwBs3DTpwxSI8BRhcjXDGjsRsK5NfA==
+=g4zJ
 -----END PGP SIGNATURE-----
 
---===============6611178880309047830==--
+--===============1816275095173528713==--
