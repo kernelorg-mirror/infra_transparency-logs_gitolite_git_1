@@ -1,50 +1,42 @@
-Content-Type: multipart/mixed; boundary="===============6387237381316009287=="
+Content-Type: multipart/mixed; boundary="===============7022293342493407868=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Tue, 14 Feb 2023 18:01:04 -0000
-Message-Id: <167639766497.5077.12958813336556758376@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Tue, 14 Feb 2023 18:01:15 -0000
+Message-Id: <167639767513.5204.13796609011730387912@gitolite.kernel.org>
 
---===============6387237381316009287==
+--===============7022293342493407868==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/regmap-6.3
-    old: 7b3c4c370c09313e22b555e79167e73d233611d1
-    new: 7464145862d606cf9835f24080341a397cbc0669
-    log: |
-         7464145862d606cf9835f24080341a397cbc0669 regmap: Reorder fields in 'struct regmap_bus' to save some memory
-         
+  - ref: refs/heads/for-next
+    old: 137a99fdd706776d0fe7040541aac19d997e1687
+    new: 8e2d6e37949240c0f39d967be064e23cca221350
+    log: revlist-137a99fdd706-8e2d6e379492.txt
 
---===============6387237381316009287==
+--===============7022293342493407868==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-137a99fdd706-8e2d6e379492.txt
 
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1676397663 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1676397663-071e8e78a76a7085ed1536d8fb1f83a13da66823
+167ca6a4fd87726e044df2db38fe86f6cb0fb907 ASoC: SOF: Introduce a new set_pm_gate() IPC PM op
+3c168838fb0d64dd64f7d65cdbd7d127ce6112ef ASoC: SOF: Intel: hda-dsp: use set_pm_gate according to ipc version
+1c91e927e55cef17bafd8903cb34a7d12968ae6d ASoC: SOF: ipc4: Wake up dsp core before sending ipc msg
+3e6b6ed34bda047a818003a8c06d368eb3596bba ASoC: SOF: Intel: Enable d0i3 work for ipc4
+6611b975eb87d7793e4632575649308762e7d01e ASoC: SOF: Intel: hda-dsp: Set streaming flag for d0i3
+f7d00a9be147d9c6feeb19591b39f8102f70cc45 SoC: rt5682s: Disable jack detection interrupt during suspend
+88541443497d47313ec4de1ecc1946288ae0ed16 ASoC: imx-pcm-rpmsg: Remove unused variable
+7af4222832a10c2726a93c2600652090ae06ecb9 ASoC: tlv320adcx140: extend list of supported samplerates
+1fd61d018aefc9bf366fd73eddc868163f2ed7da ASoC: Intel: Skylake: Fix struct definition
+ec285cb999c145f70631f13a284b4696102d06ef ASoC: codecs: wcd934x: Use min macro for comparison and assignment
+f81dc982fde7f36bbf1de80cb4eb98586a76070b ASoC: SOF: Intel/ipc4: Support for low power playback
+8e2d6e37949240c0f39d967be064e23cca221350 Merge remote-tracking branch 'asoc/for-6.3' into asoc-next
 
-7b3c4c370c09313e22b555e79167e73d233611d1 7464145862d606cf9835f24080341a397cbc0669 refs/heads/regmap-6.3
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmPrzF8ACgkQJNaLcl1U
-h9AxGAf/c6S+zP+nsgOpXcxgbjPNetKyr/Bz7m62Fd7aloBRkyHwvGAeysjtYAx9
-92c4EY5V04Fw9Lllfxk+RieZ5b3Aqg7RKiJjJF2/ewWy4lRey61Ho7TtScMEI3vY
-NpV2SivcM3DoG/NJSFn88P7E6iwhsFknlOyPeeDtW3L8h/jYJ+rZ5Om4/1M7tzbf
-XKD+Fx0zCA3DSrWgvdWfweZsc38kmEpLXbODTG5ob2WMNpGG09EPc5mPmgTRQjlI
-jZslEc1dxcks2Ag6ZuseeqXj/2zqI0D/A7E4fbxGlpvllOTwNFUX8a4oLb+fP6vf
-6AMRPzF2lQbc3m6r2G+msP57UMoTeA==
-=4KNA
------END PGP SIGNATURE-----
-
---===============6387237381316009287==--
+--===============7022293342493407868==--
