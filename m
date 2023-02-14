@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5000577653145566171=="
+Content-Type: multipart/mixed; boundary="===============7054704345896018630=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Tue, 14 Feb 2023 12:45:29 -0000
-Message-Id: <167637872952.17551.187324365952677121@gitolite.kernel.org>
+Date: Tue, 14 Feb 2023 12:45:40 -0000
+Message-Id: <167637874086.17972.17790109035328282458@gitolite.kernel.org>
 
---===============5000577653145566171==
+--===============7054704345896018630==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-linus
-    old: 303e724d7b1e1a0a93daf0b1ab5f7c4f53543b34
-    new: ceaa837f96adb69c0df0397937cd74991d5d821a
-    log: revlist-303e724d7b1e-ceaa837f96ad.txt
+  - ref: refs/heads/usb-next
+    old: f87b564686ee47c480ccacc3922b38a8c54a6945
+    new: c4a07e264d38d5cad5d77298957cbd7d7db70b1f
+    log: revlist-f87b564686ee-c4a07e264d38.txt
 
---===============5000577653145566171==
+--===============7054704345896018630==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1676378728 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1676378735 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1676378728-b2998adca3482198743ad3dcd66984e1fc40975d
+nonce 1676378734-5a7e26d4c90218037cc1d2c8ebc213babe8c41f5
 
-303e724d7b1e1a0a93daf0b1ab5f7c4f53543b34 ceaa837f96adb69c0df0397937cd74991d5d821a refs/heads/usb-linus
+f87b564686ee47c480ccacc3922b38a8c54a6945 c4a07e264d38d5cad5d77298957cbd7d7db70b1f refs/heads/usb-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPrgmgbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+iGcQAMHIPcLk6QTOpIqxdJNf
-xFPnXnXg266KTUIqD2Nb8dXBUqn9eXUqo+NPrTNTpZXnowDIjUTFLa1+6v+3DpWG
-deNe5V9OFh5QO7CDhvaaS5C7s5QxYmyxSRtfwQaJFPqOsZbBMsB/vxtxWDZw8G/k
-PUffow76I5sY5gO86jVFTToOVoThxDSANKsfOGAZsy73lrIpW5064gbxDx3o2u4Y
-5hKPl5putmVfDjjqrvgwldgfFeKVOJy4qgpdKwHn5gSQM0H+OOEwcC6LWYBYfFAI
-bLOm1kOmHdAVsY6prUB+/J777GhnULm/FuKqwn27wj89PzjZbboFkmOQiaI7hsu3
-qUfo2Vhfg8DkoveHGdp775CRpBwkd294kkn4HYiHq3TyJpzTr6uKjs9tbvhsu3TM
-gQ6S/kv9IooPvvTy0ujUq/z8XHuEkGkORQWSu8/QXtxe7TdIHs2BDk8Ra3elC3G1
-PRRbN8M+WtC11KGojsV4ERfU0VdVoRdDD4U+F3OsAe4/EhvSNs8SW+PjsmeBU2yH
-btyl0/Im0miybbLE7nnKTOrRuHWtIKA5hwdM4IK9JYNevAmXFVR8m/TEKhMf7LC0
-vaKovaX1i0Y9WMoKdVhH7ya8PLFYP/0ZYXvtdaR8XiL5DyoPGnPXlHwp6zBTu/IB
-NCbw8zvknVxb1d3Bw6YEnErQ
-=t5k3
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPrgm8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Dk0P/jjbK09blMX9u50QDCTR
+HHIJdyM/Fh61qeqv5T3vy5qC3cHF62InsqjK2jeZ/U/R1D5YRpV/4LQrtCd6/kaQ
+M/iGsd19lcKztVtDxD3S4Lh8tpYnvZsKg1mtVPtiK3aAdQtq8dkWkRq+0EN1MKmK
+J5OeFt1Kk+c0R57cIWML8XTTSa9qBC51i5pCNYo3TznceHh6V2RpVwtnn3RGL1Lm
+sKzTV3kcAvUGgnX8249ibBoWkpgHQ0FvyI0rj9Q3TREBsRqvSf5jetuEGYcvd07o
+Ajto1GThjcxErh/biHY0ltC3oHVopZNQLcz/bJHxUgNcGRHncjr09+Zg18GYnNQt
+N+m6uja18Tpbl0qt8WunJHsJ+OO1cmZZsR6LuoIf90l4gCK6s+de+4U/ONAf+N1N
+kPRr+qVeFHkbXuD2/QRPqPVlDW7/ATi7EpgxCepmVbMfmQBMRdu0OtMX/KF2WMqX
+VQ3ED88MGaCGgnELN+vegLqmB1+BbNRf6RsKEQ0mcXSQe8VoPbF0LWAOOeYSZZtD
+F8A5xkx7Gjw9vMcMe7Sdkp5qI+B/lT33u8LiqCBP/FxaQeOEAm865PoXQX0+g3IL
+98JK0lLzDI+lfOeqrvSKKaP1Y2BSm0YuRId9kqBGaFFnhlfbFHxGBx7/qaYbBxag
+maySepER2qykh/aZCgOOwxdK
+=w1w7
 -----END PGP SIGNATURE-----
 
---===============5000577653145566171==
+--===============7054704345896018630==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-303e724d7b1e-ceaa837f96ad.txt
+Content-Disposition: attachment; filename=revlist-f87b564686ee-c4a07e264d38.txt
 
 8c3313e8556b8a817e7b4bc9c249b58855a7e49c arm64: dts: rockchip: use correct reset names for rk3399 crypto nodes
 b0355dbbf13c0052931dd14c38c789efed64d3de Fix XFRM-I support for nested ESP tunnels
@@ -242,6 +242,9 @@ f753a68980cf4b59a80fe677619da2b1804f526d rds: rds_rm_zerocopy_callback() use lis
 2fcde9fe258ec8b88d41def38e43ca4da32c0a9a net: mscc: ocelot: fix all IPv6 getting trapped to CPU when PTP timestamping is used
 3a082086aa200852545cf15159213582c0c80eba selftests: forwarding: lib: quote the sysctl values
 190233164cd77115f8dea718cbac561f557092c6 arm64: efi: Force the use of SetVirtualAddressMap() on eMAG and Altra Max machines
+bb07bd68fa0983e3915f83c471382868860389fe Revert "usb: gadget: u_ether: Do not make UDC parent of the net device"
+54e5c00a4eb0a4c663445b245f641bbfab142430 usb: typec: altmodes/displayport: Fix probe pin assign check
+303e724d7b1e1a0a93daf0b1ab5f7c4f53543b34 usb: core: add quirk for Alcor Link AK9563 smartcard reader
 38c33ece232019c5b18b4d5ec0254807cac06b7c Merge tag 'nvme-6.2-2023-02-09' of git://git.infradead.org/nvme into block-6.2
 4693e852f19a1338a49e540fb99fe3b2898d8594 drm/amdgpu: add S/G display parameter
 9734a75cd99d448814e64feca133dc9a6e3f65f2 Revert "drm/amd/display: disable S/G display on DCN 3.1.2/3"
@@ -289,5 +292,6 @@ e2bca0ebf775453bb3c6b9c2149fb4712621493a Merge tag 'usb-6.2-rc8' of git://git.ke
 5e98e916f95bdc50e90f3199d7f3d74b94fa5976 Merge tag 'trace-v6.2-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 80510b63f7b6bdd30e07b3a42115d0a324e20cd6 MAINTAINERS: Add myself as maintainer for arch/sh (SUPERH)
 ceaa837f96adb69c0df0397937cd74991d5d821a Linux 6.2-rc8
+c4a07e264d38d5cad5d77298957cbd7d7db70b1f Merge 6.2-rc8 into usb-next
 
---===============5000577653145566171==--
+--===============7054704345896018630==--
