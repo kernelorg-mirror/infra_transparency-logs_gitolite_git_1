@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 14 Feb 2023 13:01:54 -0000
-Message-Id: <167637971479.28732.452425271439204946@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec
+Date: Tue, 14 Feb 2023 13:05:08 -0000
+Message-Id: <167637990848.31289.9077616561860070223@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: pabeni
+repo: pub/scm/linux/kernel/git/klassert/ipsec
+user: klassert
 changes:
   - ref: refs/heads/master
-    old: 991cbd4f34b1d2d4e4cc41aed6eb4799186c3887
-    new: dca5161f9bd052e9e73be90716ffd57e8762c697
+    old: 2038cc592811209de20c4e094ca08bfb1e6fbc6c
+    new: 8222d5910dae08213b6d9d4bc9a7f8502855e624
     log: |
-         dca5161f9bd052e9e73be90716ffd57e8762c697 hv_netvsc: Check status in SEND_RNDIS_PKT completion message
+         8222d5910dae08213b6d9d4bc9a7f8502855e624 xfrm: Zero padding when dumping algos and encap
          
