@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rw/ubifs
-Date: Tue, 14 Feb 2023 14:18:23 -0000
-Message-Id: <167638430317.14995.13758423775254081704@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 14 Feb 2023 14:25:06 -0000
+Message-Id: <167638470607.20070.7616966020552231882@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rw/ubifs
-user: rw
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: pabeni
 changes:
-  - ref: refs/heads/next
-    old: 22d74bc26bbfde150f602b2a6e93fb11df30ce0b
-    new: 8fcf2d012c8641c18adcd139dba6a1e556338d36
+  - ref: refs/heads/master
+    old: dca5161f9bd052e9e73be90716ffd57e8762c697
+    new: 2edd92570441dd33246210042dc167319a5cf7e3
     log: |
-         8fcf2d012c8641c18adcd139dba6a1e556338d36 ubi: block: Fix a possible use-after-free bug in ubiblock_create()
+         2edd92570441dd33246210042dc167319a5cf7e3 devlink: don't allow to change net namespace for FW_ACTIVATE reload action
          
