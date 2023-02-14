@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jgg/iommufd
-Date: Tue, 14 Feb 2023 20:50:07 -0000
-Message-Id: <167640780785.22054.14867619396355443905@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/remoteproc/linux
+Date: Tue, 14 Feb 2023 20:54:36 -0000
+Message-Id: <167640807624.23432.10351810377411806735@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jgg/iommufd
-user: jgg
+repo: pub/scm/linux/kernel/git/remoteproc/linux
+user: andersson
 changes:
-  - ref: refs/heads/for-next
-    old: 45b0d65e455e4aae5b7813600804ed681afbef26
-    new: b3551ead616318ea155558cdbe7e91495b8d9b33
+  - ref: refs/heads/hwspinlock-next
+    old: ec5c05e5ac8bcb4a6bcd92970e15494a85400d34
+    new: 25d10262ed8aae71cd2f0b3c0a90d06a6b79fba2
     log: |
-         b3551ead616318ea155558cdbe7e91495b8d9b33 iommufd: Make sure to zero vfio_iommu_type1_info before copying to user
+         25d10262ed8aae71cd2f0b3c0a90d06a6b79fba2 dt-bindings: hwlock: sun6i: Add missing #hwlock-cells
          
