@@ -1,73 +1,67 @@
-Content-Type: multipart/mixed; boundary="===============2973681593825391188=="
+Content-Type: multipart/mixed; boundary="===============2437055079499212774=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Tue, 14 Feb 2023 19:23:36 -0000
-Message-Id: <167640261673.27736.18299929957826366198@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Tue, 14 Feb 2023 19:24:50 -0000
+Message-Id: <167640269070.28194.17477608998508703560@gitolite.kernel.org>
 
---===============2973681593825391188==
+--===============2437055079499212774==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
-user: snitzer
+repo: pub/scm/linux/kernel/git/pci/pci
+user: helgaas
 changes:
-  - ref: refs/heads/dm-6.3
-    old: 406d387ec2b84fbf3e4ecf90fb69386ad447dda0
-    new: b0bbd86a288ab35234edb704935982c20f74628d
-    log: revlist-406d387ec2b8-b0bbd86a288a.txt
+  - ref: refs/heads/next
+    old: 0beef8b93899294f00180b932604e3f0f50e2f27
+    new: 34d61afab69100e7240ba031e53b2a997a6ba580
+    log: revlist-0beef8b93899-34d61afab691.txt
 
---===============2973681593825391188==
+--===============2437055079499212774==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-406d387ec2b8-b0bbd86a288a.txt
+Content-Disposition: attachment; filename=revlist-0beef8b93899-34d61afab691.txt
 
-7533afa1d27ba1234146d31d2402c195cf195962 dm: send just one event on resize, not two
-3bd940030752a33ff665eefdd74a1cdb74a4f9b0 dm: add missing SPDX-License-Indentifiers
-0d78954a2d80e648cfed1d306fffe52c6211c432 dm: prefer kmap_local_page() instead of deprecated kmap_atomic()
-238d991f054a553e823d12b0ffd52aaeedd65f70 dm: use fsleep() instead of msleep() for deterministic sleep duration
-86a3238c7b9b759cb864f4f768ab2e24687dc0e6 dm: change "unsigned" to "unsigned int"
-d715fa23577cd5d36830c4ecd7e2bfcb4750b351 dm: avoid assignment in if conditions
-44bc08ed63db7a852bd1ba16611b700ee666091c dm: enclose complex macros into parentheses where possible
-2f06cd12e11422e4a44ad4cb856c3ef0be9bd208 dm: avoid initializing static variables
-96422281baf57f4d9418581fdfaca9617bb805e1 dm: address space issues relative to switch/while/for/...
-255e2646496fcbf836a3dfe1b535692f09f11b45 dm: address indent/space issues
-a4a82ce3d24d4409143a7b7b980072ada6e20b2a dm: correct block comments format.
-43be9c743c2553519c2093d1798b542f28095a51 dm: fix undue/missing spaces
-03b18887703c5fa342896e52e873812ea33d964b dm: fix trailing statements
-ced6e475c3754dad3b63966d79f375d8f7193750 dm crypt: correct 'foo*' to 'foo *'
-beecc8438c6c2089b0a1f82720530c82da5765bc dm block-manager: avoid not required parentheses
-8ca817c43e12847be182e0bbff9b59398373a3b8 dm: avoid spaces before function arguments or in favour of tabs
-02f10ba178e7a43faf7107cd15111e0f81e6ac70 dm: add argument identifier names
-0ef0b4717aa6849d251b23ae1efe93ca93af540b dm: add missing empty lines
-2d0f25cbc0d948e01573cc8ff5967e81bd98a4a1 dm: remove unnecessary braces from single statement blocks
-2e84fecf19e1694338deec8bf6c90ff84f8f31fb dm: avoid split of quoted strings where possible
-aa07f9d806f994f7cf42494c2b99573e77cdae21 dm: adjust EXPORT_SYMBOL() to follow functions immediately
-1c13188669282dac48f1e67d77f07a746a4899d7 dm: prefer '"%s...", __func__'
-6a808034724b5a36f8e0b712427bfbe9e667d296 dm: avoid using symbolic permissions
-f8922a48291d40c4fb07d66ef88c69ea415d8cd9 dm: favour __aligned(N) versus "__attribute__ (aligned(N))"
-ae99111ecf70c3003b4b1ba38b95fbe35410b2a6 dm: favour __packed versus "__attribute__ ((packed))"
-1c3fe2fa946342a784a1375a63be6eb5a25acd76 dm: avoid useless 'else' after 'break' or return'
-b30f1607146c736684c069fe92dc39607d77d15f dm: add missing blank line after declarations/fix those
-9bfeac5d33d8500332d75e32abe32c0df4910add dm: avoid inline filenames
-a6ba79c0144f449fcf65aa829ca8d7341811f83a dm: don't indent labels
-5cae0aa77397015f530aeb34f3ced32db6ac2875 dm ioctl: have constant on the right side of the test
-fb99e87b44ff8e77fe1406796361db194c17aedd dm log: avoid trailing semicolon in macro
-dcdd467915de0435bbaf99396f20293166b3d3a4 dm log: avoid multiple line dereference
-6cc435fa76cc1786ef460c08c31b1d27c13e9cff dm: avoid 'do {} while(0)' loop in single statement macros
-8d1058fb2ac29644d8a427eb3d3eeff2fd88f0a7 dm: fix use of sizeof() macro
-ba287d7ccb9b4afb69ce67743db5211c49b35d8b dm integrity: change macros min/max() -> min_t/max_t where appropriate
-b39b73243dd40b8b55a80cce7520745c9559a08d dm: avoid void function return statements
-22a8b84945e9a5027174e06ec5c8ce3d978844d6 dm ioctl: prefer strscpy() instead of strlcpy()
-23fda2effbb1f2f1d2fb0640a4729e6d08ad6e6e dm: fix suspect indent whitespace
-774f13ac2b567207f04eb34d25188f5daec57f9e dm: declare variables static when sensible
-f0ac1598712ff0f7b985d58546449e232487ee0e dm clone: prefer kvmalloc_array()
-0b22ff5360f5c4e11050b89206370fdf7dc0a226 dm: remove flush_scheduled_work() during local_exit()
-a7e8f7fbe2adc132c0222fea96a18610337e2775 dm: update targets using system workqueues to use a local workqueue
-b0bbd86a288ab35234edb704935982c20f74628d dm sysfs: make kobj_type structure constant
+c768f8c5f40fcdc6f058cc2f02592163d6c6716c PCI: loongson: Add more devices that need MRRS quirk
+6fffbc7ae1373e10b989afe23a9eeb9c49fe15c3 PCI: Honor firmware's device disabled status
+da87d35a6e51480703d6f055e7a1b52c85731d7e PCI: dra7xx: Use threaded IRQ handler for "dra7xx-pcie-main" IRQ
+c2cc5cdda46c0a94ff82bf61016ada2e120f1a3f PCI: tegra194: Move dw_pcie_ep_linkup() to threaded IRQ handler
+d6dd5bafaabf98a99a76227ab8dc9a89e76a198f PCI: endpoint: Use a separate lock for protecting epc->pci_epf list
+838125b07e7706b1a9069079a73507fd3df244f7 PCI: endpoint: Use callback mechanism for passing events from EPC to EPF
+f5edd8715e2ea672e6119c3764041743761fb178 PCI: endpoint: Use link_up() callback in place of LINK_UP notifier
+9d8ba74a181b1c81def21168795ed96cbe6f05ed PCI: Fix dropping valid root bus resources with .end = zero
+a2b9b123ccac913e9f9b80337d687a2fe786a634 PCI: Add ACS quirk for Wangxun NICs
+ff0132f7cf11307deb79a37622b11a16c0a294ed dt-bindings: PCI: qcom: Add MSM8998 specific compatible
+0b93acc60cf36b35132ee8d959e7779db2fcf35b dt-bindings: PCI: qcom: Unify MSM8996 and MSM8998 clock order
+a0754633c32171be7b2a9b8717022f7848efd0c5 dt-bindings: PCI: qcom-ep: Correct qcom,perst-regs
+89a7adad3c0dfccf01643913bde7244feea85f59 dt-bindings: PCI: qcom: Add SM8350
+720e0d91c9772b60a87eb361da02deb3c0c628e4 PCI: qcom: Add SM8350 support
+997e010de9134474dbfde52be03efd7d1bce902d PCI: qcom: Fix host-init error handling
+371a6106b71aeda94a6fcdb8f7cb674dd3c34a96 dt-bindings: PCI: qcom: Sort compatibles alphabetically
+2b1c46ce137b66d38a08aff924137a6fc4e9700e dt-bindings: PCI: qcom: Add IPQ8074 Gen3 port
+f356132229b18ceef5d5ef9103bbaa9bdeb84c8d PCI: qcom: Add IPQ8074 Gen3 port support
+82b34b0800af8c9fc9988c290cdc813e0ca0df31 PCI: pciehp: Add Qualcomm quirk for Command Completed erratum
+e4c9f3d0720a7e14827d1a303f3b356e0917163b Merge branch 'pci/aer'
+3c71e9340a643e02f3caf857d484ee696f8ac7b4 Merge branch 'pci/enumeration'
+b0be948aba70361fda751a32591a5a608e96261d Merge branch 'pci/hotplug'
+a3a2439dac13e519f3497bd1cd6dda0cae5461ca Merge branch 'pci/iov'
+cd5c3ce4c0fc67ef47933b6d92136e7dd902e610 Merge branch 'pci/pm'
+93b7b2aec9a970c8c46fc963e7f80a67890a8e4b Merge branch 'pci/reset'
+95f7fcdcb49fcf262ad2c6038ee0a01e3a040bdc Merge branch 'pci/resource'
+d05cf44e5de095fc698f9b59264b89a294c0b7bf Merge branch 'pci/virtualization'
+0e159888fa3b75c8d9bddb1186552c5bd1496816 Merge branch 'pci/endpoint'
+87616c47e354eec4e64baffa1779ba2b30e51120 Merge branch 'pci/controller/dwc'
+3bf0f4f85dd22c47008226e69649ab40ba8c6124 Merge branch 'pci/controller/imx6'
+608df525a7e9104500bfb84b19406d8c45c7a926 Merge branch 'pci/controller/mt7621'
+c51b1767b4df2c81270ab6942ab84675341c21ed Merge branch 'pci/controller/mvebu'
+ee6bc9df8cc82944a7cc2d80ae13ead7f730a174 Merge branch 'pci/controller/qcom'
+1d67534b742f0a9aeebca8f7d24471be1cdd079d Merge branch 'pci/controller/switchtec'
+5586c57b8ce65f011daed5f60f48b0439dbab50f Merge branch 'pci/controller/uniphier'
+698c690a755f912a49b51e8e41de8b90ebced80f Merge branch 'pci/controller/vmd'
+34d61afab69100e7240ba031e53b2a997a6ba580 Merge branch 'pci/misc'
 
---===============2973681593825391188==--
+--===============2437055079499212774==--
