@@ -1,42 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============9065422836167732618=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/trace/linux-trace
-Date: Tue, 14 Feb 2023 01:08:30 -0000
-Message-Id: <167633691052.30856.4904259382032624367@gitolite.kernel.org>
-
---===============9065422836167732618==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Tue, 14 Feb 2023 01:09:50 -0000
+Message-Id: <167633699055.31406.4837832214635350957@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/trace/linux-trace
-user: rostedt
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/for-next
-    old: 9f58b99c9c4060cdfb9b036e431586f0c80d30bf
-    new: 01b6e24110cafc8760abe2df5495f160d98dcaf2
-    log: revlist-9f58b99c9c40-01b6e24110ca.txt
-
---===============9065422836167732618==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9f58b99c9c40-01b6e24110ca.txt
-
-b18c58af29e465d21d4cd9e8c5008ae0e0147384 tracing/osnoise: No need for schedule_hrtimeout range
-a2ff84a5d1e65c7d1178f24ecf39fc55283fbd14 tracing/histogram: Wrap remaining shell snippets in code blocks
-a9c4bdd505630469f93f5efedfc7a9ca254996c8 tracing: Acquire buffer from temparary trace sequence
-01678fbce3dd2e3042077cf71b68157e733614a0 samples: ftrace: Include the nospec-branch.h only for x86
-f94fe7048a352ff8914232a18e2e2f18f8a5ac81 ftrace: sample: avoid open-coded 64-bit division
-aef70ebd624cf2959c531b652365da83f2b19352 samples: ftrace: Make some global variables static
-9971c3f944489ff7aacb9d25e0cde841a5f6018a tracing: Fix trace_event_raw_event_synth() if else statement
-cb1f98c5e5742273bca39410d504430793ab701a tracing: Add creation of instances at boot command line
-c4846480831ea526bcab0ca0bf6364bfa6ed4227 tracing: Add enabling of events to boot instances
-d503b8f7474fe7ac616518f7fc49773cbab49f36 tracing: Add trace_array_puts() to write into instance
-9c1c251d670bc107b9ce600a2c20adb08b4849e9 tracing: Allow boot instances to have snapshot buffers
-01b6e24110cafc8760abe2df5495f160d98dcaf2 Merge remote-tracking branch 'ftrace/probes/for-next' into trace/for-next
-
---===============9065422836167732618==--
+  - ref: refs/tags/lkmm.2023.02.14a
+    old: 0000000000000000000000000000000000000000
+    new: 2c57d0a8c70ea4a5f1f4276ce616a6a7ab3a0477
+  - ref: refs/tags/nmi.2023.02.14a
+    old: 0000000000000000000000000000000000000000
+    new: 7bc45599cde218fe82a287977acd886b3c849d5b
+  - ref: refs/tags/rcu.2023.02.10a
+    old: 0000000000000000000000000000000000000000
+    new: 7980fe7e7af8ba6b42801c1df5954babddf6e4ea
