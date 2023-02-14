@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/efi/efi
-Date: Tue, 14 Feb 2023 14:16:56 -0000
-Message-Id: <167638421677.14511.2187446067077509381@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rw/ubifs
+Date: Tue, 14 Feb 2023 14:18:23 -0000
+Message-Id: <167638430317.14995.13758423775254081704@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/efi/efi
-user: ardb
+repo: pub/scm/linux/kernel/git/rw/ubifs
+user: rw
 changes:
-  - ref: refs/tags/efi-next-for-v6.3
-    old: 0000000000000000000000000000000000000000
-    new: 49ee54e029d3438e04037ea63994e08e30269b85
+  - ref: refs/heads/next
+    old: 22d74bc26bbfde150f602b2a6e93fb11df30ce0b
+    new: 8fcf2d012c8641c18adcd139dba6a1e556338d36
+    log: |
+         8fcf2d012c8641c18adcd139dba6a1e556338d36 ubi: block: Fix a possible use-after-free bug in ubiblock_create()
+         
