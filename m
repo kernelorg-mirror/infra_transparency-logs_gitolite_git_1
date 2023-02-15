@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============2234023938963732577=="
+Content-Type: multipart/mixed; boundary="===============0646153329509052571=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Wed, 15 Feb 2023 12:16:10 -0000
-Message-Id: <167646337052.5421.17632523482223368229@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Wed, 15 Feb 2023 12:16:24 -0000
+Message-Id: <167646338453.5552.12695950230647617747@gitolite.kernel.org>
 
---===============2234023938963732577==
+--===============0646153329509052571==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: leon
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: ceaa837f96adb69c0df0397937cd74991d5d821a
     log: revlist-4ec5183ec486-ceaa837f96ad.txt
 
---===============2234023938963732577==
+--===============0646153329509052571==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -262,4 +262,4 @@ e2bca0ebf775453bb3c6b9c2149fb4712621493a Merge tag 'usb-6.2-rc8' of git://git.ke
 80510b63f7b6bdd30e07b3a42115d0a324e20cd6 MAINTAINERS: Add myself as maintainer for arch/sh (SUPERH)
 ceaa837f96adb69c0df0397937cd74991d5d821a Linux 6.2-rc8
 
---===============2234023938963732577==--
+--===============0646153329509052571==--
