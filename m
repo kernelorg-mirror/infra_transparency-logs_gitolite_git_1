@@ -1,36 +1,54 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Wed, 15 Feb 2023 00:11:11 -0000
-Message-Id: <167641987177.24503.16574749756799456732@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============4304136854707489430=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
+Date: Wed, 15 Feb 2023 00:11:50 -0000
+Message-Id: <167641991066.24793.4563341076217283973@gitolite.kernel.org>
+
+--===============4304136854707489430==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/xiang/erofs
+user: xiang
 changes:
-  - ref: refs/heads/master
-    old: c60da54243adf49d78ee3bd2f0d7cf82cccbab46
-    new: 42f003f66ef3d19709a8c1e49830c5f6bdc884cd
-    log: |
-         18bad48ef2364d0c2c3c2d801a9aa7d6a63e11ab foo
-         42da0e3fce31bb3dd32fc1ffc2b53f27e22a3770 foo
-         96d6a51572ecadddf4c1d430c013ed1393ad7ac7 foo
-         89684894bc01e24b79dfde282f5f07c10dfdd4e4 foo
-         f6d95210a8a7071faeeef99587dcbc283fbb90ea foo
-         efc1cbfc97f2e505eb496254e2978043df1d96d4 foo
-         a5c70d6fa4c2fd8307d727b1e3f678ef7592555e foo
-         7e688e9323f28e783ccf768be14b1896e8c34500 foo
-         c7874246b26d09b4a208701146ae5fa4d29d950d foo
-         e6b2b2cfae7fcf302ab8bdf145d4c6ccda8f0dd3 foo
-         3a4d4181e3cb36ed92c911d6fde9b6205f3fc3be foo
-         7ddbaf0c095e1ba1d2851985de59b31c72cd99f3 foo
-         9ca2a5355795cfb554567b9d8229ae862c82197d foo
-         b0c96abb045f0e709f886a109fb0127737a3ef3a foo
-         7b229b869e909645f8c0f6a944f64f55fb06db82 foo
-         e9cf704a77f4264c766663407f90dd9a8be5916d foo
-         1d62eff46778439922dbd81a2e2871f28ddafa8b foo
-         42f003f66ef3d19709a8c1e49830c5f6bdc884cd foo
-         
+  - ref: refs/heads/dev
+    old: 944e4bd7beeb68ce2eae4d5c3e5c0ef554311679
+    new: 61fef98945d0b2fea522ef958f57a783e2a072a9
+    log: revlist-944e4bd7beeb-61fef98945d0.txt
+  - ref: refs/heads/dev-test
+    old: 944e4bd7beeb68ce2eae4d5c3e5c0ef554311679
+    new: 61fef98945d0b2fea522ef958f57a783e2a072a9
+    log: revlist-944e4bd7beeb-61fef98945d0.txt
+
+--===============4304136854707489430==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-944e4bd7beeb-61fef98945d0.txt
+
+7c3511a2c82005642265a254e6dd578cb38684b2 erofs: clean up erofs_iget()
+768bb10afb99803d1ea3ae2f00afcf53a8e02e5f erofs: remove linux/buffer_head.h dependency
+e324eaa9790614577c93e819651e0a83963dac79 erofs: get rid of debug_one_dentry()
+b780d3fc6107464dcc43631a6208c43b6421f1e6 erofs: simplify iloc()
+4efdec36dc9907628e590a68193d6d8e5e74d032 erofs: get rid of erofs_inode_datablocks()
+cdba55067f2f9fdc7870ffcb6aef912d3468cff8 erofs: avoid tagged pointers to mark sync decompression
+b1ed220c6262bff63cdcb53692e492be0b05206c erofs: remove tagged pointer helpers
+a9a94d9373349e1a53f149d2015eb6f03a8517cf erofs: move zdata.h into zdata.c
+999f2f9a63f475192d837a2b8595eb0962984d21 erofs: get rid of z_erofs_do_map_blocks() forward declaration
+557afdd94cf853885ac3b5c218bdf49c021f7323 erofs: tidy up internal.h
+3fffb589b9a6e331e39cb75373ee7691acd7b109 erofs: add per-cpu threads for decompression as an option
+339bc4d3cd251e8d05e44abebadba5ff9baa1d68 erofs: make kobj_type structures constant
+d60b87600d134d1b76436e555546ff5403f1a2f9 erofs: update print symbols for various flags in trace
+8b58f9f02162124c2149779af401c8115c70b649 erofs: remove unused EROFS_GET_BLOCKS_RAW flag
+6967f6cbcae552c9f3405bd70681c6283d41c315 Documentation/ABI: sysfs-fs-erofs: update supported features
+b7fa1de09f92671ac30424765d655873fb606f89 MAINTAINERS: erofs: Add Documentation/ABI/testing/sysfs-fs-erofs
+bdfa90142eb1f1272d2efc00dda6c0f35814e36a erofs: remove unused device mapping in meta routine
+2dfb8c3b122fad4504a92c34ba68f2fe4444b3f6 erofs: maintain cookies of share domain in self-contained list
+7032809a44d752b9e2275833787e0aa88a7540af erofs: relinquish volume with mutex held
+61fef98945d0b2fea522ef958f57a783e2a072a9 erofs: unify anonymous inodes for blob
+
+--===============4304136854707489430==--
