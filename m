@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Wed, 15 Feb 2023 17:48:27 -0000
-Message-Id: <167648330729.31759.3817739307001860065@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
+Date: Wed, 15 Feb 2023 17:49:43 -0000
+Message-Id: <167648338380.32205.7573380052212179287@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/man-pages/man-pages
-user: alx
+repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
+user: jaegeuk
 changes:
-  - ref: refs/heads/master
-    old: 27473422c721479acdfc848532eaaaa85bc1480a
-    new: 7c6483b50699e318a846292a92ff622f353f515e
+  - ref: refs/heads/dev-test
+    old: a9838116c95c1f3ffb22e7870622477c845d9515
+    new: ddf1eca4fc5a4038cb323306f51fbba34ce3f4d2
     log: |
-         7c6483b50699e318a846292a92ff622f353f515e printf.h.3head: ffix
+         c7dbc06688292db34c1bb9c715e29ac4935af994 f2fs: Revert "f2fs: truncate blocks in batch in __complete_revoke_list()"
+         ddf1eca4fc5a4038cb323306f51fbba34ce3f4d2 f2fs: drop unnecessary arg for f2fs_ioc_*()
          
