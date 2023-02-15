@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6306275835433593179=="
+Content-Type: multipart/mixed; boundary="===============7832622159064844087=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Wed, 15 Feb 2023 11:36:47 -0000
-Message-Id: <167646100744.10733.13977217489959815559@gitolite.kernel.org>
+Date: Wed, 15 Feb 2023 11:37:23 -0000
+Message-Id: <167646104388.11039.1507696879743645922@gitolite.kernel.org>
 
---===============6306275835433593179==
+--===============7832622159064844087==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,45 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-testing
-    old: 096ae0b5137ba5c8fb26439e9fcdbcc95c91ec84
+  - ref: refs/heads/usb-next
+    old: c4a07e264d38d5cad5d77298957cbd7d7db70b1f
     new: 19ac99072e679f1e3807603206e3f3b1a7c14729
     log: |
+         77191db5ba7bd321fbbf4315675ee774a2b5a362 xhci: host: potential NULL dereference in xhci_generic_plat_probe()
+         7ebb605d2283fb2647b4fa82030307ce00bee436 usb: gadget: uvc: fix missing mutex_unlock() if kstrtou8() fails
+         5ec63fdbca604568890c577753c6f66c5b3ef0b5 usb: gadget: u_serial: Add null pointer check in gserial_resume
          938fc645317632d79c048608689683b5437496ea usb: gadget: u_ether: Convert prints to device prints
          19ac99072e679f1e3807603206e3f3b1a7c14729 usb: gadget: u_ether: Don't warn in gether_setup_name_default()
          
 
---===============6306275835433593179==
+--===============7832622159064844087==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1676461006 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1676461043 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1676461005-f3baca8bdc8d684f093a991b3d90d4373ac3d729
+nonce 1676461042-804dc310cb7f061de07f3eb7bcedd0e811f4c44d
 
-096ae0b5137ba5c8fb26439e9fcdbcc95c91ec84 19ac99072e679f1e3807603206e3f3b1a7c14729 refs/heads/usb-testing
+c4a07e264d38d5cad5d77298957cbd7d7db70b1f 19ac99072e679f1e3807603206e3f3b1a7c14729 refs/heads/usb-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPsw84bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+juAQAJlbKLNo3NtwJKFU+B2T
-Oah41NAmyMiWVuBXaTVvIynK7+mUs1p4KSsKi787Sa/S8FZG6b+sUFgyYIwlg0cO
-HpYM0iR2s+c8CUW/OYOgKseKE2WYAt3luBp+bZCRTT956AYSbWGbNkEXgztd5+Lr
-SsVGf/YYBSFX/RwQvvFZRSmb2RAbtgAcg7o4swLOTYDv4LalZrh1PliYlofK9uaD
-Gqvp0Y4cVrf6zhOeh1os1xDppRO5Zi5XMnNYmfrZvW4PxX1uT2gyZZQas2JO4SQT
-7dkTfankrT1NJ1k7qtyfLz6LCB8tYxdOzZ7rhzRQZ4Mbbak3ZcDntM87N+6VZPL6
-4AOHCh7ZEvbyDZtWpSS6pRts0lvq5Qy1yKhNuKL/48822xKc1XKOV4RUoAWCczxK
-F32T2OoDDyLRyfN/NTwAKdQM9WDnLJjew9mCZ81NnXe+xYpng2Qg7uA58ias9zxv
-jbzn/+qzohF5QIpvZnB0kGkMwN9g1UxG/JhGtzKLMXOINFE5B1atb+z4V4pGn2fs
-IOvmJu7gZgAeMgB5XzzMqopjbct+yUCleiDpgNi4dfCO1pVLOxyxJaDnUGNJbeU2
-HRiCEca9IdanDLqbcCCv8v1pbIxY+TvctthUJsGWbG4B0WTetaMCgi/rDJ2+s1i8
-wvpNH+VwlX8EF+qkIQmUWfdz
-=SMHT
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPsw/MbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+iosQAM3Vo8Yjugx955MsGGas
+ZX2NRHwdvkyX8JCyZjsuPp48Ran82E6ESYYlmjJEjKnd0avOP1eDKMnB+90+7d+Z
+HBcWIyaJAWld97D5lKkymo6mov1DMjIp7Bw+frMj80YM2werbYAsE2KY15Bpp29E
+FYN2z7TPKF/pWuGURiiQQJoZTCHVj0ORFI3Hrfm4VVKbIr00LrWzQoI6KmJM1lpu
+9g2/Fe/zXomIr1j/ylTphWkaKIFNPY+0x4DAkr3v1Mo1j0ACeDH44AiFyZO7EeOP
+GqFyUkg9YXnYBBuGpOv4k2Xzg+OvKbPSpgrfKfhF5/q+w2YARDLFczJk/Fn6dqyC
+kaHV1z6LZH2cNYi1j4LMeOiaW8H9UW/OmhVq/v7PLJJgMndV+ISWnNO3qRi11Dll
+8uw7KcqS8DhI3dA2JNA+zkNYMGB/WRkqsk4qJBxrpMjeeMct8W1yo5a/xxBObT7f
+oJUruZQ51UygWc8EY78YVeEaFvwebdfsFvuc5Whx8IZ+Qx3ZhNaxdfluPGqjKF1e
+z5OtgfH+mCKguxg8zllbpaxB/DKOqhq2ISDWjeO5VjdyEIdPJ8rhxk2FQMque0Qp
+hBdtoUa1LffWDQWOXd9YOxoJuHh3RYoyz4hpF5Wr4GnwqWsfu0ydK5V62QwamG+G
+BUL6kwG/FAGYBHwM+zEhfdqE
+=FT2r
 -----END PGP SIGNATURE-----
 
---===============6306275835433593179==--
+--===============7832622159064844087==--
