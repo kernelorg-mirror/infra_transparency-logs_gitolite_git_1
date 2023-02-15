@@ -1,60 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============7832622159064844087=="
+Content-Type: multipart/mixed; boundary="===============8679696804421712875=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Wed, 15 Feb 2023 11:37:23 -0000
-Message-Id: <167646104388.11039.1507696879743645922@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Wed, 15 Feb 2023 11:37:29 -0000
+Message-Id: <167646104978.11126.6698467135555521284@gitolite.kernel.org>
 
---===============7832622159064844087==
+--===============8679696804421712875==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-next
-    old: c4a07e264d38d5cad5d77298957cbd7d7db70b1f
-    new: 19ac99072e679f1e3807603206e3f3b1a7c14729
+  - ref: refs/heads/driver-core-next
+    old: 779aeb73d925586945b5dacab7453824766f149d
+    new: ade1229caed9433921b69e20bd6fadf1bba9558e
     log: |
-         77191db5ba7bd321fbbf4315675ee774a2b5a362 xhci: host: potential NULL dereference in xhci_generic_plat_probe()
-         7ebb605d2283fb2647b4fa82030307ce00bee436 usb: gadget: uvc: fix missing mutex_unlock() if kstrtou8() fails
-         5ec63fdbca604568890c577753c6f66c5b3ef0b5 usb: gadget: u_serial: Add null pointer check in gserial_resume
-         938fc645317632d79c048608689683b5437496ea usb: gadget: u_ether: Convert prints to device prints
-         19ac99072e679f1e3807603206e3f3b1a7c14729 usb: gadget: u_ether: Don't warn in gether_setup_name_default()
+         ade1229caed9433921b69e20bd6fadf1bba9558e dma-mapping: no need to pass a bus_type into get_arch_dma_ops()
          
 
---===============7832622159064844087==
+--===============8679696804421712875==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1676461043 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1676461042-804dc310cb7f061de07f3eb7bcedd0e811f4c44d
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1676461049 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1676461048-a84cf8a505b791859a450a05bde77f4488b34037
 
-c4a07e264d38d5cad5d77298957cbd7d7db70b1f 19ac99072e679f1e3807603206e3f3b1a7c14729 refs/heads/usb-next
+779aeb73d925586945b5dacab7453824766f149d ade1229caed9433921b69e20bd6fadf1bba9558e refs/heads/driver-core-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPsw/MbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+iosQAM3Vo8Yjugx955MsGGas
-ZX2NRHwdvkyX8JCyZjsuPp48Ran82E6ESYYlmjJEjKnd0avOP1eDKMnB+90+7d+Z
-HBcWIyaJAWld97D5lKkymo6mov1DMjIp7Bw+frMj80YM2werbYAsE2KY15Bpp29E
-FYN2z7TPKF/pWuGURiiQQJoZTCHVj0ORFI3Hrfm4VVKbIr00LrWzQoI6KmJM1lpu
-9g2/Fe/zXomIr1j/ylTphWkaKIFNPY+0x4DAkr3v1Mo1j0ACeDH44AiFyZO7EeOP
-GqFyUkg9YXnYBBuGpOv4k2Xzg+OvKbPSpgrfKfhF5/q+w2YARDLFczJk/Fn6dqyC
-kaHV1z6LZH2cNYi1j4LMeOiaW8H9UW/OmhVq/v7PLJJgMndV+ISWnNO3qRi11Dll
-8uw7KcqS8DhI3dA2JNA+zkNYMGB/WRkqsk4qJBxrpMjeeMct8W1yo5a/xxBObT7f
-oJUruZQ51UygWc8EY78YVeEaFvwebdfsFvuc5Whx8IZ+Qx3ZhNaxdfluPGqjKF1e
-z5OtgfH+mCKguxg8zllbpaxB/DKOqhq2ISDWjeO5VjdyEIdPJ8rhxk2FQMque0Qp
-hBdtoUa1LffWDQWOXd9YOxoJuHh3RYoyz4hpF5Wr4GnwqWsfu0ydK5V62QwamG+G
-BUL6kwG/FAGYBHwM+zEhfdqE
-=FT2r
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPsw/kbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+yq4QAMzrSnYLuJ/P7lCwOr2F
+Hx8mJ7PKUJ/KeGx8EDeqECuy00onp9tu14EtAiwE9nfmd8j5s3EbeS9tmOI3k49o
+U1ar/oPevEEnqm58gcppsk2uBrHjH53A06wcw++3kRig1deMP5MRO6mlyvIsp2We
+cIhGqBXzOM+VpTi87Xw6JT0tT9xdwRlSWFp7J+cW3m8+nJhZz9CBa3wg6AtH+oyq
+SWyO4OHC8Y4KtDeFCd5SAGIML/NtnXvTKDKuW6qNmw4PESCYq82D7o37dZYFr8Z5
+7ds0waQBdtQpF5WJu0eL16lawj4gvFAV61B9jrsfsPuTWcXwNLVLvZUdbPWwXJ4F
+OLRLKayXjCpnO8/9fo615kety1/Jb5aZGVXFJ/PJQsvOKiyBjAEZcb6nTcq+Cd3g
+kszJMPKlDQYe+Y0r/iHO+57xMUPQ0cuUqz2fztEznnvzTNh0JhmLVgRinfaZtDhV
+G87bhG1bi4xMMuPR/r+t8Kw+TpFyLr8c6T3MdYhX9jWzQO6ZLb7/zdmTRiCkIwYn
++EP5ImQdii6/I0lDHBx2P5jtJgr90Ol0YmFamRWZpZNPUUygy/O/LU1ptjgmST8X
+bkEe4Qz+pyK1XnnYoxE4PiezCMpzIFyv13fPITtR6nRU5VleeLFPPaHcUDgsXkKV
+RMXKt9R8NtXVQr19Rf+cbe2q
+=8p+q
 -----END PGP SIGNATURE-----
 
---===============7832622159064844087==--
+--===============8679696804421712875==--
