@@ -1,101 +1,114 @@
-Content-Type: multipart/mixed; boundary="===============2488222557454905373=="
+Content-Type: multipart/mixed; boundary="===============8780437629105532774=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Wed, 15 Feb 2023 14:11:37 -0000
-Message-Id: <167647029721.16632.8895368010637731024@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mst/vhost
+Date: Wed, 15 Feb 2023 14:14:50 -0000
+Message-Id: <167647049089.17692.6042982363242229565@gitolite.kernel.org>
 
---===============2488222557454905373==
+--===============8780437629105532774==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/soc/soc
-user: arnd
+repo: pub/scm/linux/kernel/git/mst/vhost
+user: mst
 changes:
-  - ref: refs/heads/arm/dt
-    old: 7dbdc16fc85bcd89a2f3698df37a7202ea266454
-    new: 18b68c695ca6f35c24a016c5751bfdefda1d3a3a
-    log: revlist-7dbdc16fc85b-18b68c695ca6.txt
-  - ref: refs/heads/for-next
-    old: 954ca45433dc0ba3a6a8cd0d4150c76fa170d6b9
-    new: 14c61d2100377dde2f6338395325b4090279d6a7
-    log: revlist-954ca45433dc-14c61d210037.txt
-  - ref: refs/heads/soc/defconfig
-    old: c6cd63f5af3921c484be5789cf23e0f276de3a2f
-    new: af16544d4abe283e4a1ead6563ae883b9bb35429
-    log: |
-         85d81e15862a95d1a0de5a60f5ac8caba7068b9b arm64: defconfig: Enable DisplayPort on SC8280XP laptops
-         687bcd03a047e65fcf12ae2b693043ee44acad4c arm64: defconfig: enable drivers required by the Qualcomm SA8775P platform
-         af16544d4abe283e4a1ead6563ae883b9bb35429 Merge tag 'qcom-arm64-defconfig-for-6.3-3' of https://git.kernel.org/pub/scm/linux/kernel/git/qcom/linux into soc/defconfig
-         
-  - ref: refs/heads/soc/drivers
-    old: 4ec98e6db9f24a9f4716685c62c9f6c348fec45b
-    new: 524af30c931382726b6a46ee4f392fb6e60f8a03
-    log: |
-         29e8142b5623b5949587bcc4f591c4e6595c4aca power: supply: Introduce Qualcomm PMIC GLINK power supply
-         524af30c931382726b6a46ee4f392fb6e60f8a03 Merge tag 'qcom-drivers-for-6.3-3' of https://git.kernel.org/pub/scm/linux/kernel/git/qcom/linux into soc/drivers
-         
+  - ref: refs/heads/linux-next
+    old: 1713a5212af5b28322923bffc666f8138efd90eb
+    new: c6604d092d45926c9bc4a436b1533b57bbd60e41
+    log: revlist-1713a5212af5-c6604d092d45.txt
+  - ref: refs/heads/test
+    old: 1713a5212af5b28322923bffc666f8138efd90eb
+    new: c6604d092d45926c9bc4a436b1533b57bbd60e41
+    log: revlist-1713a5212af5-c6604d092d45.txt
+  - ref: refs/heads/vhost
+    old: 1713a5212af5b28322923bffc666f8138efd90eb
+    new: c6604d092d45926c9bc4a436b1533b57bbd60e41
+    log: revlist-1713a5212af5-c6604d092d45.txt
 
---===============2488222557454905373==
+--===============8780437629105532774==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7dbdc16fc85b-18b68c695ca6.txt
+Content-Disposition: attachment; filename=revlist-1713a5212af5-c6604d092d45.txt
 
-f5f6bd58186afa4ec1ebcd074bc30255826e8480 arm64: dts: qcom: sm8350: reorder device nodes
-1417372f4f846fbc28b4306370eb011d1f0853ca arm64: dts: qcom: sm8350: move more nodes to correct place
-51f83fbbf1c8d7a09885099f9a8f25b3c9139797 arm64: dts: qcom: sm8350: finish reordering nodes
-54af0ceb75958a8b7e62138646cfa6c114e71a77 arm64: dts: qcom: sm8350: add GPU, GMU, GPU CC and SMMU nodes
-a8ecd17bb681d1743309b0d2a4622b643b61d69c arm64: dts: qcom: sm8350-hdk: enable GPU
-19d3bb90754ff11e2cd69e2c8f1124dd5b9e40fa arm64: dts: qcom: sc8280xp: Add USB-C-related DP blocks
-bc9a747ae91f148f97a63ade8b56b81f63bd39ad arm64: dts: qcom: sc8280xp-crd: Introduce pmic_glink
-8fcff430faee2a2e99df80c6e9b09175a0fa5002 arm64: dts: qcom: sc8280xp-x13s: Enable external display
-c0ee8e0ba5cc17623e63349a168b41e407b1eef0 arm64: dts: qcom: pmk8350: Use the correct PON compatible
-65aedb0b48c09595065c81722d9cca53760f7220 arm64: dts: qcom: sm7225-fairphone-fp4: move status property down
-574f2ffd45dc786dc443c5e11ea477420ffa5f52 arm64: dts: qcom: sm7225-fairphone-fp4: enable remaining i2c busses
-2d5cab9232ba6bac734186f3e74fb106793bc738 arm64: dts: qcom: sc8280xp-pmics: Specify interrupt parent explicitly
-f15c1b1bd3c2b3a688d1139593be6c620bb9af6f arm64: dts: qcom: sc7280: Adjust zombie PWM frequency
-26e95ff8a912fd787a65ae1ae4cc4684f5f84fce arm64: dts: qcom: sm8550: remove invalid interconnect property from cryptobam
-679ee73bbee28cab441008f8cca38160cc8f3d05 arm64: dts: qcom: ipq6018: align RPM G-Link node with bindings
-7bf30eb441b3bdaa368e65837a03f9fbba033180 arm64: dts: qcom: qcs404: align RPM G-Link node with bindings
-407ef897bd0275e38ae33d410857e71c092679bd arm64: dts: qcom: msm8996: align RPM G-Link clock-controller node with bindings
-18b68c695ca6f35c24a016c5751bfdefda1d3a3a Merge tag 'qcom-arm64-for-6.3-3' of https://git.kernel.org/pub/scm/linux/kernel/git/qcom/linux into arm/dt
+d5ff73bbb03e69bd92f1f7f134bbfa16624ad42b virtio_pmem: populate numa information
+d16c0cd27331179daa86a3a489f50ce409121c80 docs: driver-api: virtio: virtio on Linux
+95bfec41bd3d39b7659cba65b72080420bf5691e virtio-blk: add support for zoned block devices
+04e5421e6f61538f510aae9329e77d010159863f virtio_blk: temporary variable type tweak
+2a9c844e896b2895cde9fc0276f6243c68d82e70 virtio_blk: zone append in header type tweak
+b16a1756c716235891e298beabd68f3cd6bb5952 virtio_blk: mark all zone fields LE
+a30f454b00ac3d09d45cfafc300cd3429ef69606 virtio_blk: add VIRTIO_BLK_F_LIFETIME feature support
+47b58b144a0a2689795702675a3238fe10509526 vdpa/mlx5: Move some definitions to a new header file
+fbaf7bcf30730ae5901ddda9e345c890015537af vdpa/mlx5: Add debugfs subtree
+0dee5b6e4ba3f8951aec821c51be3dd1edd73676 vdpa/mlx5: Add RX counters to debugfs
+7fd679da25c3447e101fbf4278d5dc603306585a vDPA/ifcvf: decouple hw features manipulators from the adapter
+7acb17a60216edcb058a18426f2c7278c187d746 vDPA/ifcvf: decouple config space ops from the adapter
+1970028f03e3f3e3980298254bcf42c38aa54920 vDPA/ifcvf: alloc the mgmt_dev before the adapter
+bfd7dae8d0855d082b7d741744eb93e52f66556e vDPA/ifcvf: decouple vq IRQ releasers from the adapter
+d71a9a51f52550dcda72461780631beefa32bb2b vDPA/ifcvf: decouple config IRQ releaser from the adapter
+b4cd1f1c47bc5dce05253ed28a378e1bcda45b69 vDPA/ifcvf: decouple vq irq requester from the adapter
+34529d35972e1a597adeeea298229f27538f5c14 vDPA/ifcvf: decouple config/dev IRQ requester and vectors allocator from the adapter
+0c370f2659ca4d18af4ce4ff8c51244b1d2f5b53 vDPA/ifcvf: ifcvf_request_irq works on ifcvf_hw
+4ed2165fa5a9969754a3542320d09c4148943626 vDPA/ifcvf: manage ifcvf_hw in the mgmt_dev
+ad1bf392d251553e1b41a036dc22b6a6b9f8a5d0 vDPA/ifcvf: allocate the adapter in dev_add()
+52941ef2470687ac6a1a9bcf96904ceb2a5fee26 vDPA/ifcvf: retire ifcvf_private_to_vf
+5a66b39595e688258a20abbc85cdbc96cafa9185 vDPA/ifcvf: implement features provisioning
+eb21e9622391de950e4e5d9e3cd81f12e97077e1 vdpa_sim_net: Offer VIRTIO_NET_F_STATUS
+a79749c3340e2b528cafa0b1ee1260bd5b127ca3 PCI: Add SolidRun vendor ID
+b27188a8abf05286a503e60e540ff155e4754590 PCI: Avoid FLR for SolidRun SNET DPU rev 1
+45c7db17a1b5f8ed1e60399bf0b7310283d484c2 virtio: vdpa: new SolidNET DPU driver.
+2a9a7884bb714245883ff5d0a30cdecc7aca6a87 vdpa: Add resume operation
+678c3dde3760741734922625454e90ff98135e90 vhost-vdpa: Introduce RESUME backend feature bit
+0c2b98f0c80408bc841fec2aa0ee0241494a2b19 vhost-vdpa: uAPI to resume the device
+27473ddc9342faeed89f7c2c3fe0cc2613364bdb vdpa_sim: Implement resume vdpa op
+a32a4b7789e7e79d3d4194c932b92245183fe840 docs: driver-api: virtio: parenthesize external reference targets
+6dcfb2bdf039b9081540091b06aa1d616ca8bfe0 docs: driver-api: virtio: slightly reword virtqueues allocation paragraph
+98e65d7dfb89d52aa617f4e9f3d697d216b09097 docs: driver-api: virtio: commentize spec version checking
+13e90d463e073bdf9d13dfe6abb163e1c276f883 virtio-blk: set req->state to MQ_RQ_COMPLETE after polling I/O is finished
+364be0743e9f5fba5e7a6f589055c7ef2d000efc virtio-blk: support completion batching for the IRQ path
+5b44566606210fd626dccda1bed1ee807ae46313 vdpa_sim: use weak barriers
+b50b5096db3e3dbdb7e41e5ec2791142cab8809f vdpa_sim: switch to use __vdpa_alloc_device()
+4d3f58fa23afadfca7567ab84646746c846856b5 vdpasim: customize allocation size
+e93ac7a5ada8176d364bcd73102a7ce52bb92607 vdpa_sim: support vendor statistics
+f3c632e8891a821c94b285b4fd04c1649a40bf18 vdpa_sim_net: vendor satistics
+e8444cb27515c2842567ce80fb13667909713c9f vdpa_sim: get rid of DMA ops
+dc2e4a7a2d039b2ba7cfb5542a36b52743c764f4 vhost-test: remove meaningless debug info
+61a0edc05e9415bbb182ab025c12744a523733dd vhost: remove unused paramete
+b0e504e5505d184b0be248b7dcdbe50b79f03758 virtio_ring: per virtqueue dma device
+44813536686719b221ad046bbb0eaadcf007be95 vdpa: introduce get_vq_dma_device()
+0322aec0126aea5ab97847b7385882d2245516a8 virtio-vdpa: support per vq dma device
+c67f3231c8318bd47025b0d775abd5e9dfb82f19 vdpa: set dma mask for vDPA device
+e4bdd6a908a0f230def6a03efeaab7ee46501270 vdpa: mlx5: support per virtqueue dma device
+3183b691e601d32f738ce76a3d25a2d69278641b vhost-scsi: convert sysfs snprintf and sprintf to sysfs_emit
+e99f426072a5af29812fd20e570d93b5337e42a3 vhost-net: support VIRTIO_F_RING_RESET
+d15084160aa9c1050c9a20ad487466ceb931f159 vdpa: Fix a couple of spelling mistakes in some messages
+95b3cd68e922ea659a6ef59f87a0bf425ceede5a scsi: virtio_scsi: fix handling of kmalloc failure
+50c49751c450f27a3b08648ab9cd6bc3fcc19815 vhost-vdpa: print warning when vhost_vdpa_alloc_domain fails
+1dcf0180fb0fddd8d3e053aedfce9ad5e74093a4 vringh: fix a typo in comments for vringh_kiov
+a06ce0d39e2305e56f21373eae8cacbb65217250 tools/virtio: enable to build with retpoline
+8730b683287e9617dc39a7e54eca262bbb21a35b vdpa/mlx5: Directly assign memory key
+ae431c429b7ceb619dde5c30b034b551d2f6fd54 vdpa/mlx5: Don't clear mr struct on destroy MR
+9e3743921c6c61518374c5fb864f5323cb75de0c vdpa/mlx5: Initialize CVQ iotlb spinlock
+97c94ad23f490bfa3ca7ab3dda2f6ac8910c6356 vdpa: fix improper error message when adding vdpa dev
+a547c62bd9f3414e791a6273c5c5ca4caf75177e vdpa: conditionally read STATUS in config space
+cab62585ba46ef4703c1506d51ec3f20dac393f2 vdpa: validate provisioned device features against specified attribute
+e2c3fa147089579d3cd7b29faeadac57287ed706 vdpa: validate device feature provisioning against supported class
+1dd743d05df7c96d66ec444df92610a1903d7a7f vdpa/mlx5: make MTU/STATUS presence conditional on feature bits
+d4e251dd6044b1c56093304dc9652f476c0459df vdpa/mlx5: support device features provisioning
+3a66bc342f5480f841f58c34667eb5189e360eef vp_vdpa: fix the crash in hot unplug with vp_vdpa
+980475b2d8eae08b9e5770c649a49131872d2d82 vhost/vdpa: Add MSI translation tables to iommu for software-managed MSI
+cf965d707e9fdf9368860ee71f699842c5fefa3f virtio_ring: split: refactor virtqueue_add_split() for premapped
+9daaf4bd5eaf9128c6e993e76b5c9859e70b45bd virtio_ring: packed: separate prepare code from virtuque_add_indirect_packed()
+6e1f9b89a6436acbe383d38f628ea81091ec26f2 virtio_ring: packed: refactor virtqueue_add_packed() for premapped
+8cb734afc1fc3020bb3493ee88363ebc7f9f19ea virtio_ring: split: introduce virtqueue_add_split_premapped()
+8a1ebdc021f8c08de49171e5e7929374b3ca18c2 virtio_ring: packed: introduce virtqueue_add_packed_premapped()
+e15adc037e569dec17cc811d933fcac326a01879 virtio_ring: introduce virtqueue_add_inbuf_premapped()
+d6845df8e06dce85692d55744edd0ab996cfbac6 virtio_ring: add api virtio_dma_map() for advance dma
+0e02cbbac83bce56b70e16851ac62e326ec65605 virtio_ring: introduce dma sync api for virtio
+19fd794c8104b048abcd1af0604c8fe7c511ac3a virtio_ring: correct the expression of the description of virtqueue_resize()
+c6604d092d45926c9bc4a436b1533b57bbd60e41 virtio_ring: introduce virtqueue_reset()
 
---===============2488222557454905373==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-954ca45433dc-14c61d210037.txt
-
-29e8142b5623b5949587bcc4f591c4e6595c4aca power: supply: Introduce Qualcomm PMIC GLINK power supply
-f5f6bd58186afa4ec1ebcd074bc30255826e8480 arm64: dts: qcom: sm8350: reorder device nodes
-1417372f4f846fbc28b4306370eb011d1f0853ca arm64: dts: qcom: sm8350: move more nodes to correct place
-51f83fbbf1c8d7a09885099f9a8f25b3c9139797 arm64: dts: qcom: sm8350: finish reordering nodes
-54af0ceb75958a8b7e62138646cfa6c114e71a77 arm64: dts: qcom: sm8350: add GPU, GMU, GPU CC and SMMU nodes
-a8ecd17bb681d1743309b0d2a4622b643b61d69c arm64: dts: qcom: sm8350-hdk: enable GPU
-19d3bb90754ff11e2cd69e2c8f1124dd5b9e40fa arm64: dts: qcom: sc8280xp: Add USB-C-related DP blocks
-bc9a747ae91f148f97a63ade8b56b81f63bd39ad arm64: dts: qcom: sc8280xp-crd: Introduce pmic_glink
-8fcff430faee2a2e99df80c6e9b09175a0fa5002 arm64: dts: qcom: sc8280xp-x13s: Enable external display
-85d81e15862a95d1a0de5a60f5ac8caba7068b9b arm64: defconfig: Enable DisplayPort on SC8280XP laptops
-c0ee8e0ba5cc17623e63349a168b41e407b1eef0 arm64: dts: qcom: pmk8350: Use the correct PON compatible
-65aedb0b48c09595065c81722d9cca53760f7220 arm64: dts: qcom: sm7225-fairphone-fp4: move status property down
-574f2ffd45dc786dc443c5e11ea477420ffa5f52 arm64: dts: qcom: sm7225-fairphone-fp4: enable remaining i2c busses
-2d5cab9232ba6bac734186f3e74fb106793bc738 arm64: dts: qcom: sc8280xp-pmics: Specify interrupt parent explicitly
-f15c1b1bd3c2b3a688d1139593be6c620bb9af6f arm64: dts: qcom: sc7280: Adjust zombie PWM frequency
-26e95ff8a912fd787a65ae1ae4cc4684f5f84fce arm64: dts: qcom: sm8550: remove invalid interconnect property from cryptobam
-687bcd03a047e65fcf12ae2b693043ee44acad4c arm64: defconfig: enable drivers required by the Qualcomm SA8775P platform
-679ee73bbee28cab441008f8cca38160cc8f3d05 arm64: dts: qcom: ipq6018: align RPM G-Link node with bindings
-7bf30eb441b3bdaa368e65837a03f9fbba033180 arm64: dts: qcom: qcs404: align RPM G-Link node with bindings
-407ef897bd0275e38ae33d410857e71c092679bd arm64: dts: qcom: msm8996: align RPM G-Link clock-controller node with bindings
-524af30c931382726b6a46ee4f392fb6e60f8a03 Merge tag 'qcom-drivers-for-6.3-3' of https://git.kernel.org/pub/scm/linux/kernel/git/qcom/linux into soc/drivers
-18b68c695ca6f35c24a016c5751bfdefda1d3a3a Merge tag 'qcom-arm64-for-6.3-3' of https://git.kernel.org/pub/scm/linux/kernel/git/qcom/linux into arm/dt
-af16544d4abe283e4a1ead6563ae883b9bb35429 Merge tag 'qcom-arm64-defconfig-for-6.3-3' of https://git.kernel.org/pub/scm/linux/kernel/git/qcom/linux into soc/defconfig
-2425a983761596603edfe1d8dbc01d526bb28589 Merge branch 'soc/defconfig' into for-next
-491a4ce54443854bc2ca60b09107dc7c9e97886a Merge branch 'soc/drivers' into for-next
-e0f7c26592a207962910c3c289057ecb6766dfe1 Merge branch 'arm/dt' into for-next
-14c61d2100377dde2f6338395325b4090279d6a7 soc: document merges
-
---===============2488222557454905373==--
+--===============8780437629105532774==--
