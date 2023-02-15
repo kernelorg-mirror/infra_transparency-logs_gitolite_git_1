@@ -1,26 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Wed, 15 Feb 2023 17:08:48 -0000
-Message-Id: <167648092810.4460.3436374257745332288@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
+Date: Wed, 15 Feb 2023 17:18:01 -0000
+Message-Id: <167648148191.11680.5882735158371358867@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
-user: broonie
+repo: pub/scm/linux/kernel/git/ardb/linux
+user: ardb
 changes:
-  - ref: refs/heads/for-linus
-    old: 35bba23e6732a593722c96cbe03ced627f0d8831
-    new: 574fbb95cd9d88bdc9c9c4c64223a38a61d7de9a
+  - ref: refs/heads/remove-ia64
+    old: 18c1386838717179c4098ef919b9c4f84ee032a5
+    new: 268b7078a4832184f0e057958fd3a2cbe142b7fb
     log: |
-         574fbb95cd9d88bdc9c9c4c64223a38a61d7de9a spi: intel: Check number of chip selects after reading the descriptor
-         
-  - ref: refs/heads/for-next
-    old: 1dd46599f83ac5323a175d32955b1270e95cd11b
-    new: 1fdc332dfe50fd63f6d1bd61c2156b9ab4c50e76
-    log: |
-         574fbb95cd9d88bdc9c9c4c64223a38a61d7de9a spi: intel: Check number of chip selects after reading the descriptor
-         1fdc332dfe50fd63f6d1bd61c2156b9ab4c50e76 Merge remote-tracking branch 'spi/for-6.3' into spi-next
+         268b7078a4832184f0e057958fd3a2cbe142b7fb fixup! kernel: Drop IA64 support from sig_fault handlers
          
