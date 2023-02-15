@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/trace/linux-trace
-Date: Wed, 15 Feb 2023 20:00:07 -0000
-Message-Id: <167649120725.23981.2031413591552466824@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/libgpiod/libgpiod
+Date: Wed, 15 Feb 2023 20:06:19 -0000
+Message-Id: <167649157937.27431.10351201440036093865@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/trace/linux-trace
-user: rostedt
+repo: pub/scm/libs/libgpiod/libgpiod
+user: brgl
 changes:
-  - ref: refs/heads/trace/urgent
-    old: 70b5339caf847b8b6097b6dfab0c5a99b40713c8
-    new: 8843e06f67b14f71c044bf6267b2387784c7e198
+  - ref: refs/heads/master
+    old: 628f04490445bad627a42cc7617a2eb6468b0905
+    new: 85c9dc8f525407cd3a4ee1bfae3407a59da42761
     log: |
-         8843e06f67b14f71c044bf6267b2387784c7e198 ring-buffer: Handle race between rb_move_tail and rb_check_pages
+         85c9dc8f525407cd3a4ee1bfae3407a59da42761 libgpiod v2.0-rc2
          
