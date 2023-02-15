@@ -1,56 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============5378259891868583625=="
+Content-Type: multipart/mixed; boundary="===============6306275835433593179=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Wed, 15 Feb 2023 11:36:45 -0000
-Message-Id: <167646100529.10672.10390935747290358312@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Wed, 15 Feb 2023 11:36:47 -0000
+Message-Id: <167646100744.10733.13977217489959815559@gitolite.kernel.org>
 
---===============5378259891868583625==
+--===============6306275835433593179==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/driver-core
+repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-testing
-    old: 779aeb73d925586945b5dacab7453824766f149d
-    new: ade1229caed9433921b69e20bd6fadf1bba9558e
+  - ref: refs/heads/usb-testing
+    old: 096ae0b5137ba5c8fb26439e9fcdbcc95c91ec84
+    new: 19ac99072e679f1e3807603206e3f3b1a7c14729
     log: |
-         ade1229caed9433921b69e20bd6fadf1bba9558e dma-mapping: no need to pass a bus_type into get_arch_dma_ops()
+         938fc645317632d79c048608689683b5437496ea usb: gadget: u_ether: Convert prints to device prints
+         19ac99072e679f1e3807603206e3f3b1a7c14729 usb: gadget: u_ether: Don't warn in gether_setup_name_default()
          
 
---===============5378259891868583625==
+--===============6306275835433593179==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1676461003 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1676461003-7dece032c34057167b14676db5204710677030b8
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1676461006 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1676461005-f3baca8bdc8d684f093a991b3d90d4373ac3d729
 
-779aeb73d925586945b5dacab7453824766f149d ade1229caed9433921b69e20bd6fadf1bba9558e refs/heads/driver-core-testing
+096ae0b5137ba5c8fb26439e9fcdbcc95c91ec84 19ac99072e679f1e3807603206e3f3b1a7c14729 refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPsw8sbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+0R4QAJ/CqB6lhWWJujV7l2WQ
-LWWwp9KEOxzn+LEmf3BPiDQSXwFbLIMfDSCaeexM0lwDzBj759a2iGgg+Q1VLDDr
-Hld6LqoJ1K6fd3JVnqPZUWp0sfoEeNNIzgogJpAatKqgHhLYLZVzhtoOKln1K1he
-bp4j42TSIvXzuz7D6YDYERuEtFgmspVKs0aaxKBAghM9xrVWAcPla+dXsgB9aixR
-k/EaltsZpXcBKDfJ7tMd9v3eYfE7WJpF/i1cMJcscLlDqKrT+wBik6GYo88ctrkj
-zaManZIoF9pA0wavYZVVnoz7rJCtvYZZWCY1wSUeGBqa2htvQ5LjkTLCvoLg1LVB
-oOabEz67eW5RP6iO6NvR2cr0U+0ls0tYzxv7aYCBO4Icb9S2qLm+QhLcqMZbc4jN
-DNPmHDQQdCWCzlz6xNDCJBxCuHxqn/NJfUWhB1U0p9gYDlsbfu9BU9xPeu6xKGlG
-C+JOMUD/RB04UvUaJXZaLpWqo3FVFi3tYFRar2E1z2Oz/uvDvC2LSV7st1rqofnf
-cDWZtyqBqsMeasW7oJJEtb9WEfcIMw/EwQH6JplELCeZQZGXJWpNxhZIBYCqN10S
-49kqoNAFTnNtjlIQ0Exl3OMOSXvk3PoFDOf+s4ivJCKfYtDqzT9p5EtOrHEoCYCa
-nzYM1DXxMo0doay4pO3f2oNr
-=gEcs
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPsw84bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+juAQAJlbKLNo3NtwJKFU+B2T
+Oah41NAmyMiWVuBXaTVvIynK7+mUs1p4KSsKi787Sa/S8FZG6b+sUFgyYIwlg0cO
+HpYM0iR2s+c8CUW/OYOgKseKE2WYAt3luBp+bZCRTT956AYSbWGbNkEXgztd5+Lr
+SsVGf/YYBSFX/RwQvvFZRSmb2RAbtgAcg7o4swLOTYDv4LalZrh1PliYlofK9uaD
+Gqvp0Y4cVrf6zhOeh1os1xDppRO5Zi5XMnNYmfrZvW4PxX1uT2gyZZQas2JO4SQT
+7dkTfankrT1NJ1k7qtyfLz6LCB8tYxdOzZ7rhzRQZ4Mbbak3ZcDntM87N+6VZPL6
+4AOHCh7ZEvbyDZtWpSS6pRts0lvq5Qy1yKhNuKL/48822xKc1XKOV4RUoAWCczxK
+F32T2OoDDyLRyfN/NTwAKdQM9WDnLJjew9mCZ81NnXe+xYpng2Qg7uA58ias9zxv
+jbzn/+qzohF5QIpvZnB0kGkMwN9g1UxG/JhGtzKLMXOINFE5B1atb+z4V4pGn2fs
+IOvmJu7gZgAeMgB5XzzMqopjbct+yUCleiDpgNi4dfCO1pVLOxyxJaDnUGNJbeU2
+HRiCEca9IdanDLqbcCCv8v1pbIxY+TvctthUJsGWbG4B0WTetaMCgi/rDJ2+s1i8
+wvpNH+VwlX8EF+qkIQmUWfdz
+=SMHT
 -----END PGP SIGNATURE-----
 
---===============5378259891868583625==--
+--===============6306275835433593179==--
