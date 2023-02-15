@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jfern/linux
-Date: Wed, 15 Feb 2023 13:45:00 -0000
-Message-Id: <167646870061.29346.12840754261224482576@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
+Date: Wed, 15 Feb 2023 13:50:15 -0000
+Message-Id: <167646901569.3083.6568136228619302499@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jfern/linux
-user: jfern
+repo: pub/scm/linux/kernel/git/hid/hid
+user: bentiss
 changes:
-  - ref: refs/heads/sched/rt-throttle
-    old: c1e05123d055e0ece33b5d553dc6da5e43e497a4
-    new: 375231e2fbede667aa515df1412642d847920ccf
+  - ref: refs/heads/for-6.3/logitech
+    old: a47a3b7af7501c3b6cee6621ccc4a7dd3de52631
+    new: 1b136aeb3c4a122fcca014db09c4db9766403c86
     log: |
-         375231e2fbede667aa515df1412642d847920ccf fix call to list_for_each_entry
+         586e8fede7953b1695b5ccc6112eff9b052e79ac HID: logitech-hidpp: Retry commands when device is busy
+         1b136aeb3c4a122fcca014db09c4db9766403c86 HID: logitech-hidpp: Add myself to authors
          
