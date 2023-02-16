@@ -1,41 +1,41 @@
-Content-Type: multipart/mixed; boundary="===============4923358000758592067=="
+Content-Type: multipart/mixed; boundary="===============6573825095487068195=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Thu, 16 Feb 2023 08:24:00 -0000
-Message-Id: <167653584004.31007.3648621020652800792@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Thu, 16 Feb 2023 08:24:29 -0000
+Message-Id: <167653586968.31267.5042651952959170815@gitolite.kernel.org>
 
---===============4923358000758592067==
+--===============6573825095487068195==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-user: masahiroy
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: pabeni
 changes:
-  - ref: refs/heads/kbuild
-    old: 0aee6bec0f44dd344c2637632cb13828990524e2
-    new: bf3a52637d300db4d375c55c5d2f3868d7c3f243
-    log: revlist-0aee6bec0f44-bf3a52637d30.txt
+  - ref: refs/heads/master
+    old: 72bc7f163179cb0b39e1a18dbf69e175267ce500
+    new: 8fdf6659974d697ef09acd216ffff34706a1b83a
+    log: revlist-72bc7f163179-8fdf6659974d.txt
 
---===============4923358000758592067==
+--===============6573825095487068195==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0aee6bec0f44-bf3a52637d30.txt
+Content-Disposition: attachment; filename=revlist-72bc7f163179-8fdf6659974d.txt
 
-5c3d1d0abb12a6915d0f43233837053945621a89 kbuild: add a tool to list files ignored by git
-8e86cf502d2643c94784c1912490f0878a7b9b6f kbuild: deb-pkg: create source package without cleaning
-af43446a979f599ab75e2b1433958a9196aa318e kbuild: rpm-pkg: build binary packages from source rpm
-2deb59274290b0f900fe30ca976be11ea5e8f727 kbuild: srcrpm-pkg: create source package without cleaning
-80deb16015b0c69144598300f501946fd15121bc kbuild: deb-pkg: hide KDEB_SOURCENAME from Makefile
-257ff93e0a4631cfd0baf632452d2b27bc027407 kbuild: deb-pkg: make .orig tarball a hard link if possible
-dca0ea561fe25ccc32165fbeed69f30892c14afa kbuild: deb-pkg: switch over to source format 3.0 (quilt)
-dac52d3327411cfa4b2ab33a0fae88df551a16a9 kbuild: make perf-tar*-src-pkg work without relying on git
-9780d59959aea8f87c69c5eed786cce6bcbf3135 kbuild: tar-pkg: use tar rules in scripts/Makefile.package
-40c794548241dee307820db29d41d669b5348106 kbuild: deb-pkg: fix binary-arch and clean in debian/rules
-bf3a52637d300db4d375c55c5d2f3868d7c3f243 kbuild: deb-pkg: improve the usability of source package
+65b6625069a42edf2a813dd1c50604c6c6236fe5 net: microchip: sparx5: Discard frames with SMAC multicast addresses
+d7953da4f2935039430322a31b9da93f978fcc86 net: microchip: sparx5: Clear rule counter even if lookup is disabled
+38f6408c6071f1233644cc1d23e34ec5b36700d7 net: microchip: sparx5: Egress VLAN TPID configuration follows IFH
+0518e914f34ae539a1a6f4a19ead3b1d5d9881f4 net: microchip: sparx5: Use chain ids without offsets when enabling rules
+b5b0c364598835739451e6cd8a9dd84d41089c02 net: microchip: sparx5: Improve the error handling for linked rules
+a5cc98adf3cbb187a7b9063ccb2b1c7065a05401 net: microchip: sparx5: Add ES0 VCAP model and updated KUNIT VCAP model
+f2a77dd69f51358ab6fb169f5582c329a2315e6c net: microchip: sparx5: Updated register interface with VCAP ES0 access
+3cbe7537a7f1aaafc4eebc124dfcc8eaf67f1ec7 net: microchip: sparx5: Add ES0 VCAP keyset configuration for Sparx5
+52b28a93c45d2eb6177f073665ca5e4b2f6a229a net: microchip: sparx5: Add TC support for the ES0 VCAP
+ebf44ded76e92e0812e0e4a2acd20c7f86550e2c net: microchip: sparx5: Add TC vlan action support for the ES0 VCAP
+8fdf6659974d697ef09acd216ffff34706a1b83a Merge branch 'adding-sparx5-es0-vcap-support'
 
---===============4923358000758592067==--
+--===============6573825095487068195==--
