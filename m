@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0971936908201127800=="
+Content-Type: multipart/mixed; boundary="===============6108424012344030981=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Thu, 16 Feb 2023 16:30:19 -0000
-Message-Id: <167656501994.13512.18137503950481558986@gitolite.kernel.org>
+Date: Thu, 16 Feb 2023 16:30:55 -0000
+Message-Id: <167656505549.13756.15825904587762796766@gitolite.kernel.org>
 
---===============0971936908201127800==
+--===============6108424012344030981==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: 0f19f514dea1837caff0b40c3e966ecedc95fec8
-    new: 40967f77dfa9fa728b7f36a5d2eb432f39de185c
-    log: revlist-0f19f514dea1-40967f77dfa9.txt
+  - ref: refs/heads/dev-queue
+    old: a0286962c89d6e9a6566aa007b5834b9e8b500a5
+    new: 6b86804e383ffa245634c7b8f9c64c9aa1699736
+    log: revlist-a0286962c89d-6b86804e383f.txt
 
---===============0971936908201127800==
+--===============6108424012344030981==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0f19f514dea1-40967f77dfa9.txt
+Content-Disposition: attachment; filename=revlist-a0286962c89d-6b86804e383f.txt
 
 634d841dbfa7c530e54db936db05b8bc3a44f429 ice: Add GPIO pin support for E823 products
 fcc2cef37fed567564f5b94a9c0aba733bb159ab ice/ptp: fix the PTP worker retrying indefinitely if the link went down
@@ -78,5 +78,21 @@ f5b12be34249e8fd0f866927bc978f9e08fc9770 net: dsa: ocelot: fix selecting MFD_OCE
 bdf3c0b9c10b44c9355dd68f359bad25489445b6 seg6: add PSP flavor support for SRv6 End behavior
 5198cb408fcfc0b49c418314570423efe2217754 selftests: seg6: add selftest for PSP flavor in SRv6 End behavior
 40967f77dfa9fa728b7f36a5d2eb432f39de185c Merge branch 'seg6-add-psp-flavor-support-for-srv6-end-behavior'
+5d997327ac5c2a7f22e5e12be78f96eb1f885f59 igc: Clean up and optimize watchdog task
+c792efe1f677b19fe2f608eee542c23e26cfd96e intel/igbvf: free irq on the error path in igbvf_request_msix()
+31023666ce8c4cf8de0d94d75f0a435ddffa17fb igb: Enable SR-IOV after reinit
+c8aa4885e39eaa4c7579de93726c2344e084da76 igbvf: Regard vf reset nack as success
+72514e98d692446d31ee3c7d76e7ff491e4c2099 igb: conditionalize I2C bit banging on external thermal sensor support
+f057fbcd0fd65967f3a380d247967f8291c8628c ice: Fix check for weight and priority of a scheduling node
+bfa5c2715a89402841b18ea5f5bf60618ca02589 ice: Fix DSCP PFC TLV creation
+139278a00d68546f0416b6866d863e9682913ffd i40e: Add checking for null for nlmsg_find_attr()
+270c10efa5f2e8a2a7d7d0ebd75ae1de2b2f5cab igb: Fix PPS input and output using 3rd and 4th SDP
+a0f147911bfe2645a196d8b11487e682002a8281 ice: fix lost multicast packets in promisc mode
+a825d879b62522b99a8164d479823fb97c6fdcea ixgbe: allow to increase MTU to 3K with XDP enabled
+439ed6e1ba155d0efdcd59b63856e094624edd95 i40e: add double of VLAN header when computing the max MTU
+f010c679a8596e642e4d325266abdc4d73b57b3c ixgbe: add double of VLAN header when computing the max MTU
+1b7f00560771a64dd77a7628a424b99474ba0be5 ice: add FDIR counter reset in FDIR init stage
+45a7722cd08a520b64c28106ce67e9988ff40670 ice: Fix missing cleanup routine in the case of partial memory allocation
+6b86804e383ffa245634c7b8f9c64c9aa1699736 ice: don't ignore return codes in VSI related code
 
---===============0971936908201127800==--
+--===============6108424012344030981==--
