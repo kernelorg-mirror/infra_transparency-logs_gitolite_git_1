@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pablo/linux-ft
-Date: Wed, 15 Feb 2023 23:48:53 -0000
-Message-Id: <167650493397.12409.14325533281263043373@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
+Date: Thu, 16 Feb 2023 00:07:47 -0000
+Message-Id: <167650606779.24107.16807893461677111692@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pablo/linux-ft
-user: pablo
+repo: pub/scm/linux/kernel/git/saeed/linux
+user: saeed
 changes:
-  - ref: refs/heads/nft-bulk-v6.2-2-veth
+  - ref: refs/tags/mlx5-updates-2023-02-15
     old: 0000000000000000000000000000000000000000
-    new: 3a46025bb558757f6d3d2fde85743d22b0f98dea
+    new: fb30d28baed4d5958a2d72c4eeb7e234d897a1ec
