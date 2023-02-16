@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jfern/linux
-Date: Thu, 16 Feb 2023 02:17:28 -0000
-Message-Id: <167651384869.18720.7448900041209050231@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jpoimboe/linux
+Date: Thu, 16 Feb 2023 02:23:58 -0000
+Message-Id: <167651423827.22205.8640966651854212985@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jfern/linux
-user: jfern
+repo: pub/scm/linux/kernel/git/jpoimboe/linux
+user: jpoimboe
 changes:
-  - ref: refs/heads/timers/dyn_hrtimer
-    old: e03013bff6c45c1c6361b75c28c6723e0c1bda71
-    new: 6c6c32845db34e033bf1818442388e4287074f1e
+  - ref: refs/heads/klp-need-resched
+    old: 76622971662bbd42abc9a1b25a73a8c3ac929ca3
+    new: dc2b18d0fcb3e9fe535a30d99521770a2c938785
     log: |
-         6c6c32845db34e033bf1818442388e4287074f1e HACK: Only expire tick_sched_timer and run hrtimers via wheel
+         0e786d11435832296f5bef551fb558e967c224ad livepatch: Skip task_call_func() for current task
+         bfdb52e12377598504dcd9ec820a7c681ff3a269 livepatch,sched: Add livepatch task switching to cond_resched()
+         dc2b18d0fcb3e9fe535a30d99521770a2c938785 vhost: Fix livepatch timeouts in vhost_worker()
          
