@@ -1,37 +1,50 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Thu, 16 Feb 2023 13:20:57 -0000
-Message-Id: <167655365708.16149.6678311517393644946@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============7833400762291373077=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Thu, 16 Feb 2023 13:22:46 -0000
+Message-Id: <167655376653.16768.12031242420811154765@gitolite.kernel.org>
+
+--===============7833400762291373077==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/broonie/sound
+user: broonie
+git_push_cert_status: G
 changes:
-  - ref: refs/tags/foo
-    old: 0000000000000000000000000000000000000000
-    new: 6d439a086eb9d505f4326b4749f72102079aca22
-  - ref: refs/tags/test/midi20-rev-v2
-    old: 0000000000000000000000000000000000000000
-    new: 5a66d5a02b0af105b47277bd03fb1bce23c89252
-  - ref: refs/tags/v6.2-rc3
-    old: 0000000000000000000000000000000000000000
-    new: d4245d7ef91d67fe3d21e2faab131fdeab636209
-  - ref: refs/tags/v6.2-rc4
-    old: 0000000000000000000000000000000000000000
-    new: 9b4ccd95c99918fe8ad32bc136fa36eab55af10b
-  - ref: refs/tags/v6.2-rc5
-    old: 0000000000000000000000000000000000000000
-    new: 4cc398054ac8efe0ff832c82c7caacbdd992312a
-  - ref: refs/tags/v6.2-rc6
-    old: 0000000000000000000000000000000000000000
-    new: d68cd3a82e80628f13a69e51ce459de12870f5b9
-  - ref: refs/tags/v6.2-rc7
-    old: 0000000000000000000000000000000000000000
-    new: 53b3c6467004c627f42d96ef839b223a749bcdd9
-  - ref: refs/tags/v6.2-rc8
-    old: 0000000000000000000000000000000000000000
-    new: 51c32cc368b00aae605286cad9150cefa0adbf2d
+  - ref: refs/heads/for-6.3
+    old: 76f5aaabce492aa6991c28c96bb78b00b05d06c5
+    new: 7fde88eda855952766a74026c181c6270b3392fc
+    log: |
+         7fde88eda855952766a74026c181c6270b3392fc ASoC: da7219: Improve the IRQ process to increase the stability
+         
+
+--===============7833400762291373077==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher C3F436CA30F5D8EB 1676553765 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
+nonce 1676553764-da7bb3bbe50d84838a03c7223be3ef186e47f4ab
+
+76f5aaabce492aa6991c28c96bb78b00b05d06c5 7fde88eda855952766a74026c181c6270b3392fc refs/heads/for-6.3
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmPuLiUACgkQJNaLcl1U
+h9DPBAf6AjEYRM4XLkSd8Q0JGYCkOkeyOIObb6qtXb7PdW8cb2p5s9CHYezO2qDO
+1AQtyh9TCL0lm7A4E+Sw1TSnIEVmWLJY6Sf+7at0Qg7q+aR3+Px4BhUZiqJq4Mpf
+Z3QCABwVawda3YBU8g1H0WCSi72PzSx2gjca4OHpbkQPqHa2GjvjSMTmpdcqzCdh
+xGahYW+y7Y50VI5h7DTdtftw2JVmVlSoCmJKVsWVzbbjwp7TvC11PrqHXybZXtxk
+c14FXXZ5g4NYYR5Y8pnHFXRTwWdZdwyk1FsS9qPbhLbYK7IvvEI6+8To6TyCsb4Q
+xjHDcMx4eeb5mff4bYtKYrYUmEQUMg==
+=zyGA
+-----END PGP SIGNATURE-----
+
+--===============7833400762291373077==--
