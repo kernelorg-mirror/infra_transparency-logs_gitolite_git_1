@@ -1,23 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Thu, 16 Feb 2023 01:09:47 -0000
-Message-Id: <167650978721.3375.1583490524358599047@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/kernel/ndctl/ndctl
+Date: Thu, 16 Feb 2023 01:18:17 -0000
+Message-Id: <167651029754.11933.11504010563669328166@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
-user: broonie
+repo: pub/scm/utils/kernel/ndctl/ndctl
+user: vishal
 changes:
-  - ref: refs/heads/for-next
-    old: d98e2e206a20ebbc33129e0cafe31562b02ffe15
-    new: fddf607f75304b80d263036f1eb3f37b48da775e
+  - ref: refs/heads/pending
+    old: 423ca1e4fd95cf399532542a21d489bb9580011b
+    new: a88bdcfb4202c73aadfee6f83c5502eb5121cbd9
     log: |
-         4dac6f5abc02ffeeb10459c575aba2343363d4ee ASoC: cs35l45: Remove separate tables module
-         926505cf14258376c3cd244e891c7d739a2a049a ASoC: cs35l45: Remove separate namespace for tables
-         fdff966bfde7cf0c85562d2bfb1ff1ba83da5f7b ASoC: soc-dapm.h: fixup warning struct snd_pcm_substream not declared
-         76f5aaabce492aa6991c28c96bb78b00b05d06c5 ASoC: soc-ac97: Return correct error codes
-         fddf607f75304b80d263036f1eb3f37b48da775e Merge remote-tracking branch 'asoc/for-6.3' into asoc-next
+         15e60801a4c8cd659b0a3b0c91d12c0c84e4ebf6 libndctl/msft: Remove NDN_MSFT_SMART_*_VALID defines.
+         a0955adab7bab5f417c440946e04a8061662c026 libndctl/msft: Replace nonsense NDN_MSFT_CMD_SMART command
+         cf85848aa67cc8d222a6566186c1b2af786c2ef1 libndctl/msft: Add custom cmd_is_supported() method
+         a88bdcfb4202c73aadfee6f83c5502eb5121cbd9 libndctl/msft: Improve smart state reporting
          
