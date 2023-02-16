@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Thu, 16 Feb 2023 05:35:00 -0000
-Message-Id: <167652570084.18200.6376478750988329469@gitolite.kernel.org>
+Date: Thu, 16 Feb 2023 05:39:04 -0000
+Message-Id: <167652594469.21003.13027147637069982730@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/master
-    old: 1b8d1c5088efa5af881e8e78c80bd1197dc4c420
-    new: f58531716ced8975a4ade108ef4af35f98722af7
+    old: f58531716ced8975a4ade108ef4af35f98722af7
+    new: affb6a3fd8f44e4848f17989417415d158c1b8c4
     log: |
-         f58531716ced8975a4ade108ef4af35f98722af7 selftests: forwarding: tc_actions: cleanup temporary files when test is aborted
+         affb6a3fd8f44e4848f17989417415d158c1b8c4 dt-bindings: net: snps,dwmac: Fix snps,reset-delays-us dependency
          
