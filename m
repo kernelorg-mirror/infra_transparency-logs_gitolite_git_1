@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3589804212944831477=="
+Content-Type: multipart/mixed; boundary="===============0564034549365880227=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/fs/xfs/xfs-linux
-Date: Thu, 16 Feb 2023 17:11:00 -0000
-Message-Id: <167656746031.7622.16994331487550145826@gitolite.kernel.org>
+Date: Thu, 16 Feb 2023 17:14:04 -0000
+Message-Id: <167656764461.8617.13582898410179236052@gitolite.kernel.org>
 
---===============3589804212944831477==
+--===============0564034549365880227==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,23 +15,16 @@ service: git-receive-pack
 repo: pub/scm/fs/xfs/xfs-linux
 user: djwong
 changes:
-  - ref: refs/heads/for-next
-    old: dd07bb8b6baf2389caff221f043d9188ce6bab8c
-    new: 60b730a40c43fbcc034970d3e77eb0f25b8cc1cf
-    log: revlist-dd07bb8b6baf-60b730a40c43.txt
-  - ref: refs/heads/xfs-6.3-merge
-    old: dd07bb8b6baf2389caff221f043d9188ce6bab8c
-    new: 60b730a40c43fbcc034970d3e77eb0f25b8cc1cf
-    log: revlist-dd07bb8b6baf-60b730a40c43.txt
-  - ref: refs/tags/xfs-6.3-merge-3
-    old: 0000000000000000000000000000000000000000
-    new: 366c335fad94c854d28c28c9bb91a8623bfc5af3
+  - ref: refs/heads/whatamess
+    old: aa51db08f84f578329fe7012666885a0a6268b03
+    new: d849a6a0b87970b8cbfb6faa652a01688cd54821
+    log: revlist-aa51db08f84f-d849a6a0b879.txt
 
---===============3589804212944831477==
+--===============0564034549365880227==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-dd07bb8b6baf-60b730a40c43.txt
+Content-Disposition: attachment; filename=revlist-aa51db08f84f-d849a6a0b879.txt
 
 1dd0510f6d4b85616a36aabb9be38389467122d9 xfs: fix low space alloc deadlock
 f08f984c63e9980614ae3a0a574b31eaaef284b2 xfs: prefer free inodes at ENOSPC over chunk allocation
@@ -77,5 +70,7 @@ f8f1ed1ab3babad46b25e2dbe8de43b33fe7aaa6 xfs: return a referenced perag from fil
 bd4f5d09cc93c8ca51e4efea86ac90a4bb553d6e xfs: refactor the filestreams allocator pick functions
 571dc9ae4eefb452d32cfb3761a87089e8f37ca7 Merge tag 'xfs-alloc-perag-conversion' of git://git.kernel.org/pub/scm/linux/kernel/git/dgc/linux-xfs into xfs-6.3-merge-A
 60b730a40c43fbcc034970d3e77eb0f25b8cc1cf xfs: fix uninitialized variable access
+683802dafeab9816e2571989c18b29f68f1c95e7 Merged korg/iomap-for-next at Thu Feb 16 09:13:50 PST 2023.
+d849a6a0b87970b8cbfb6faa652a01688cd54821 Merged korg/for-next at Thu Feb 16 09:13:51 PST 2023.
 
---===============3589804212944831477==--
+--===============0564034549365880227==--
