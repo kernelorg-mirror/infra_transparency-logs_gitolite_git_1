@@ -1,22 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Fri, 17 Feb 2023 19:50:50 -0000
-Message-Id: <167666345044.14375.11947234272553623109@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/rteval/rteval
+Date: Fri, 17 Feb 2023 19:54:10 -0000
+Message-Id: <167666365074.15410.14591022385647872769@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
-user: snitzer
+repo: pub/scm/utils/rteval/rteval
+user: jkacur
 changes:
-  - ref: refs/heads/for-next
-    old: f77692d65d54665d81815349cc727baa85e8b71d
-    new: a2f998a78a425edde5a1a1973c1d4854fe9d019f
+  - ref: refs/heads/main
+    old: 0f39c69610985b07ce2aa41142d2f0481da8e3a4
+    new: 4ab5a1ba824e6e37c1b440640819444e1f512aeb
     log: |
-         e4f80303c2353952e6e980b23914e4214487f2a6 dm thin: add cond_resched() to various workqueue loops
-         76227f6dc805e9e960128bcc6276647361e0827c dm cache: add cond_resched() to various workqueue loops
-         69868bebfe8e9a47b0d8a12f7473b8a3b7239ef3 dm ioctl: assert _hash_lock is held in __hash_remove
-         a2f998a78a425edde5a1a1973c1d4854fe9d019f dm ioctl: remove unnecessary check when using dm_get_mdptr()
+         3668830581ac13b9ea7cd065a86e7de60408e591 rteval: Use sysconfig instead of deprecated distutils
+         0027e086cdd2202df3570ebbfceefef17bdad10c rteval: setup: Remove distutils and clean-ups
+         4ab5a1ba824e6e37c1b440640819444e1f512aeb rteval: Update version number to v3.6
          
+  - ref: refs/tags/v3.6
+    old: 0000000000000000000000000000000000000000
+    new: ab67c4d2f9ee50b09eb15ef382eab5c428cb6db1
