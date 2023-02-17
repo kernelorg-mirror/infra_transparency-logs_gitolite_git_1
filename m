@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netfilter/nf-next
-Date: Fri, 17 Feb 2023 12:05:11 -0000
-Message-Id: <167663551178.30603.14786737038420747937@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
+Date: Fri, 17 Feb 2023 12:35:53 -0000
+Message-Id: <167663735374.17839.7281024687205193227@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netfilter/nf-next
-user: pablo
+repo: pub/scm/linux/kernel/git/brgl/linux
+user: brgl
 changes:
-  - ref: refs/heads/master
-    old: 46b5be95b5cbf839dffcac3005a57e962a9913f9
-    new: 2954fe60e33da0f4de4d81a4c95c7dddb517d00c
-    log: |
-         2954fe60e33da0f4de4d81a4c95c7dddb517d00c netfilter: let reset rules clean out conntrack entries
-         
+  - ref: refs/tags/gpio-fixes-for-v6.2-part2
+    old: 0000000000000000000000000000000000000000
+    new: b7589fdfcf3198def8f0009067fe648fbc6246c3
