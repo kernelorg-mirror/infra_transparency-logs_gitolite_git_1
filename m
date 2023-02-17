@@ -1,22 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Fri, 17 Feb 2023 22:59:23 -0000
-Message-Id: <167667476386.9026.313552613144292276@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cxl/cxl
+Date: Fri, 17 Feb 2023 23:03:49 -0000
+Message-Id: <167667502948.12047.5599405049132146160@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/cxl/cxl
+user: djbw
 changes:
-  - ref: refs/heads/master
-    old: 03dad2f0c781443558a510316a5c22fdd2aa312b
-    new: dbeed98d89ea91ae68ff6dce6060671726292e85
+  - ref: refs/heads/next
+    old: a5fcd228ca1db9810ba1ed461c90b6ee933b9daf
+    new: e686c32590f40bffc45f105c04c836ffad3e531a
     log: |
-         4302abc628fc0dc08e5855f21bbfaed407a72bc3 powerpc/64s: Prevent fallthrough to hash TLB flush when using radix
-         896e090eefedeb8a715ea19938a2791c32679cc9 Revert "NFSv4.2: Change the default KConfig value for READ_PLUS"
-         75cc9c4716a7a398139805e62ccc3e0d14d00540 Merge tag 'nfs-for-6.2-3' of git://git.linux-nfs.org/projects/trondmy/linux-nfs
-         dbeed98d89ea91ae68ff6dce6060671726292e85 Merge tag 'powerpc-6.2-6' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
+         0c8393dcdb1ef4dc358d95a2523297175135874b cxl/trace: Standardize device information output
+         cd0570172dd8427e0bf36b4d70f0b595616da55d cxl/trace: Add host output to trace points
+         279676c9aa5e5f11377dddfdecfd22df526ee9b8 cxl/trace: Add serial number to trace points
+         1bb31131231ddef851bd01299f19603d38a111de cxl/mem: Add kdoc param for event log driver state
+         23c198e3dfaabbc891681aecb0855b9e0ac791e1 Merge branch 'for-6.3/cxl-events' into cxl/next
+         e686c32590f40bffc45f105c04c836ffad3e531a dax/kmem: Fix leak of memory-hotplug resources
          
