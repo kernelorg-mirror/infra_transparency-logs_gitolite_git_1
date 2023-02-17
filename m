@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/efi/efi
-Date: Fri, 17 Feb 2023 15:33:29 -0000
-Message-Id: <167664800978.5978.14830269272921935980@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Fri, 17 Feb 2023 15:49:57 -0000
+Message-Id: <167664899785.16772.10115338371808241951@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/efi/efi
-user: ardb
+repo: pub/scm/linux/kernel/git/pci/pci
+user: helgaas
 changes:
-  - ref: refs/heads/next
-    old: 45d5165426ae3ceb35e2c35ad675e7dacd2aa59e
-    new: 685c6689bdf8001cd0261b6210063ee0910bf368
+  - ref: refs/heads/kbuild
+    old: 24052f2e470f2fd44dcb22b62d650efe71fe9a6b
+    new: f98954b293d0a0f9646117af75c82c1b89191c53
     log: |
-         cc4fad925eeb7de2b1e0cba673ca9971d2c969c5 arm64: efi: Make efi_rt_lock a raw_spinlock
-         685c6689bdf8001cd0261b6210063ee0910bf368 firmware/efi sysfb_efi: Add quirk for Lenovo IdeaPad Duet 3
+         f98954b293d0a0f9646117af75c82c1b89191c53 PCI: Remove MODULE_LICENSE so boolean drivers don't look like modules
          
