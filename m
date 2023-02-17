@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mips/linux
-Date: Fri, 17 Feb 2023 11:01:36 -0000
-Message-Id: <167663169659.21056.2795685849316331520@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
+Date: Fri, 17 Feb 2023 11:03:05 -0000
+Message-Id: <167663178596.21573.537563073942269739@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mips/linux
-user: tsbogend
+repo: pub/scm/linux/kernel/git/brgl/linux
+user: brgl
 changes:
-  - ref: refs/heads/mips-next
-    old: 159c610af8cdf2b3c915e59162fc867b557cbe7e
-    new: 097fc054b0244ddc87c94097b490e534f6e4cbdd
+  - ref: refs/heads/gpio/for-current
+    old: b8b3b0bfb742f0cbb006c66b10216b724ce42e25
+    new: 79eeab1d85e0fee4c0bc36f3b6ddf3920f39f74b
     log: |
-         09e61efd884ca68a768717d60858f138685b161b mips: dts: align LED node names with dtschema
-         bae833414bfe6a33f6d55d5e0eb38e5989c6fe7b mips: dts: ralink: mt7621: add port@5 as CPU port
-         097fc054b0244ddc87c94097b490e534f6e4cbdd MIPS: dts: Boston: Fix dtc 'pci_device_reg' warning
+         79eeab1d85e0fee4c0bc36f3b6ddf3920f39f74b gpio: sim: fix a memory leak
          
