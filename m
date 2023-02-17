@@ -1,57 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============0806070297378914577=="
+Content-Type: multipart/mixed; boundary="===============3215302469848690356=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Fri, 17 Feb 2023 01:53:04 -0000
-Message-Id: <167659878469.2286.14329825351711531324@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Fri, 17 Feb 2023 01:53:11 -0000
+Message-Id: <167659879112.2385.7357236193519933407@gitolite.kernel.org>
 
---===============0806070297378914577==
+--===============3215302469848690356==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/regulator
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.2
-    old: 5afc7eefe41645259da84898fc55f6f46cb4de47
-    new: 1f810d2b6b2fbdc5279644d8b2c140b1f7c9d43d
+  - ref: refs/heads/for-6.3
+    old: 9d1c73191f94c79076b5f46a31b8a1e12b18bc79
+    new: 7f62cb8861190e7cc1018ff37597fc49b2eaafa8
     log: |
-         1f810d2b6b2fbdc5279644d8b2c140b1f7c9d43d ASoC: SOF: Intel: hda-dai: fix possible stream_tag leak
-         
-  - ref: refs/heads/asoc-6.3
-    old: 4932b1fa61322b737dc3615a298aafdc42f97f79
-    new: 22ce6843abec19270bf69b176d7ee0a4ef781da5
-    log: |
-         22ce6843abec19270bf69b176d7ee0a4ef781da5 ASoC: amd: yp: Add OMEN by HP Gaming Laptop 16z-n000 to quirks
+         7f62cb8861190e7cc1018ff37597fc49b2eaafa8 regulator: max597x: Align for simple_mfd_i2c driver
          
 
---===============0806070297378914577==
+--===============3215302469848690356==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1676598783 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1676598782-5d1bd2b29946ca6c3a8d1d7922e4bc764eb919fe
+pusher C3F436CA30F5D8EB 1676598789 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
+nonce 1676598789-4191f96698d02d862c061ec506c1dce5c1f493bb
 
-5afc7eefe41645259da84898fc55f6f46cb4de47 1f810d2b6b2fbdc5279644d8b2c140b1f7c9d43d refs/heads/asoc-6.2
-4932b1fa61322b737dc3615a298aafdc42f97f79 22ce6843abec19270bf69b176d7ee0a4ef781da5 refs/heads/asoc-6.3
+9d1c73191f94c79076b5f46a31b8a1e12b18bc79 7f62cb8861190e7cc1018ff37597fc49b2eaafa8 refs/heads/for-6.3
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmPu3f8ACgkQJNaLcl1U
-h9C23wgAhEjahNNrc/qXGP0d5O8Ih3SS4OevEAwuBu3r8BItLUX0/ikJHjSpuOXz
-nQ3bzMau9viC4pv8SxQKNJs26N/f/r+Fk7caO4jNnlHwpATiseXlm8buGITF1QbP
-LM949lXHHVvXWbvYC5eKnirKvIH11Xis1jsWE7h7ocLOCaqEvpLy26Ueytwlbwcn
-kaNIyVwrDVcemj8XtpYtABqVefRs94P9OaePKd2yp5foTe4yD8nYllC/rF4pNSKE
-vY8dHPkMo8mI74uHMstY9DJIlU+UCSJAZb2XgbEoaJgOgYyladAUOmtWQ/u6XovY
-EBnvPyQ5cIfe3iR9PgUzx98n76J38A==
-=1Qgz
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmPu3gUACgkQJNaLcl1U
+h9AaxAf+KsxNywGTjk0JIIyso5OoVdyiAJ2vg6ViURqV5z2eAKkYmab+leN0ks0F
+E37l736qRCiCMllfba1Pk7Er4OQXKBFt3AiDXTePr5EL1rZ2lgy9EFOnvhFo3FT7
+iGoNLy1LVaE3QsMSYwcqh3RUsULArQyi9aIv5AjlZpiy8W9APiV96VY2MfwibIbX
+I6LmTYzQC+n5ZISosUu80sVwAR2C+b5hCy7UcCBRVzeRZ6sRUK+Ofrj9wCtuEQv2
+duHSuEIpzNWU6HrIgdyoM3H+BqFFO1gWmV2ReX2EKNf7QzLAHv8kuyHsc7D0uo1l
+PwdPnHoJOlCqzP6KfHO1imIGrnqYbQ==
+=Rjnw
 -----END PGP SIGNATURE-----
 
---===============0806070297378914577==--
+--===============3215302469848690356==--
