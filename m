@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/melver/linux
-Date: Fri, 17 Feb 2023 12:49:53 -0000
-Message-Id: <167663819373.26804.13921265530510722869@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/libgpiod/libgpiod
+Date: Fri, 17 Feb 2023 13:29:22 -0000
+Message-Id: <167664056251.19720.15290940385832095529@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/melver/linux
-user: melver
+repo: pub/scm/libs/libgpiod/libgpiod
+user: brgl
 changes:
-  - ref: refs/heads/kasan/dev
-    old: d23c6132b3e7757f5196793cc68a6a98ae468e58
-    new: 51a48384206c79b8b5d0c727ba56742e730594b9
+  - ref: refs/heads/master
+    old: 85c9dc8f525407cd3a4ee1bfae3407a59da42761
+    new: 96534002eff8d3cc9c823886fdff1487ccbafc92
     log: |
-         51a48384206c79b8b5d0c727ba56742e730594b9 kasan, x86: Don't rename memintrinsics in uninstrumented files
+         e3408e9518efa85e3c1452f926222e3303bf63fb tools: remove unused defines
+         968c7c875213746638029b26a7ec7fea5e79b0d9 gpiosim: remove unused define
+         2fced031a3287c992a8ed90b57af78909c616488 bindings: cxx: remove unused define
+         96534002eff8d3cc9c823886fdff1487ccbafc92 bindings: cxx: use C++-style compiler attributes
          
