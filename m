@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Fri, 17 Feb 2023 20:27:10 -0000
-Message-Id: <167666563019.5530.13000708105282790603@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Fri, 17 Feb 2023 20:29:42 -0000
+Message-Id: <167666578275.6359.17101851375968895893@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: martin.lau
+repo: pub/scm/linux/kernel/git/acme/linux
+user: acme
 changes:
-  - ref: refs/heads/for-next
-    old: e2b5cfc978f871996d1f8667515c0e06b33e620e
-    new: 181127fb76e62d06ab17a75fd610129688612343
+  - ref: refs/heads/perf/core
+    old: 7e55b95651d88e60368087c243525a0d97d43d3d
+    new: f9fa0778ee7349a9aa3d2ea10e9f2ab843a0b44e
     log: |
-         181127fb76e62d06ab17a75fd610129688612343 Revert "bpf, test_run: fix &xdp_frame misplacement for LIVE_FRAMES"
+         cf26e043c2a9213805d7ea9e8cf3e1d7166a62a4 perf vendor events power10: Add JSON metric events to present CPI stall cycles in powerpc
+         f9fa0778ee7349a9aa3d2ea10e9f2ab843a0b44e perf tests stat_all_metrics: Change true workload to sleep workload for system wide check
          
