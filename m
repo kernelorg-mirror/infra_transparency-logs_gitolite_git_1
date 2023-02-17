@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Fri, 17 Feb 2023 00:08:57 -0000
-Message-Id: <167659253781.24214.15611765134002646892@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
+Date: Fri, 17 Feb 2023 00:12:49 -0000
+Message-Id: <167659276968.26986.17109327414741537619@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/conor/linux
+user: conor
 changes:
-  - ref: refs/heads/fileIqcNR5
+  - ref: refs/heads/auto-update-v1
     old: 0000000000000000000000000000000000000000
-    new: c74e7af1245b2073930afc9a2a340d91e08f0f14
+    new: 628a2979ba4fcbc35ed5fb75991cec7b080053bd
