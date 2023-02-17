@@ -1,25 +1,32 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Fri, 17 Feb 2023 13:46:18 -0000
-Message-Id: <167664157810.32321.3955970992565402293@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Fri, 17 Feb 2023 13:50:03 -0000
+Message-Id: <167664180349.2522.5516085973345893650@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/master
-    old: 2198b2c75a1ad7d6d500b2e92bff6ca281256e33
-    new: a6c81d6103d1e6acda4c6473b258cc785628671b
+  - ref: refs/heads/for-6.3/block
+    old: 0ac12f4afb4d0a6a2c4e42b350b6b9d71b88fa35
+    new: e5cfefa97bccf956ea0bb6464c1f6c84fd7a8d9f
     log: |
-         1aa51066f5a316a0fa3d20cc01c89f7c4bdee029 cal: add test for vertical colors
-         c8332ec371da30050457d32940dc2f61f65c9d17 cal: add test for vertical week color
-         f31049f99ecaac77097acdc4d019f99b9fcf731c cal: use escape codes from color-names.h
-         f0175fe280bee86aa43cf4ca7bdfe6e9d0ec4816 lib/colors: introduce color_get_disable_sequence()
-         6013e1eb3b414f44065ee38b60e35e8aec839e92 cal: convert existing highlight logic to color lib
-         6398485b48ae484eaf69df1b7f3d88637265757b Merge branch 'cal/colors' of https://github.com/t-8ch/util-linux
-         a6c81d6103d1e6acda4c6473b258cc785628671b cal: add workday and weekday colors
+         0aa2988e4fd23c0c8b33999d7b47dfbc5e6bf24b brd: use radix_tree_maybe_preload instead of radix_tree_preload
+         9ec041ea40dbc6425c0ee6ae15786e5ab1d6aad6 sed-opal: add support flag for SUM in status ioctl
+         0f77b29ad14e34a89961f32edc87b92db623bb37 block: Revert "block: Do not reread partition table on exclusively open device"
+         e5cfefa97bccf956ea0bb6464c1f6c84fd7a8d9f block: fix scan partition for exclusively open device again
+         
+  - ref: refs/heads/for-next
+    old: 54541dc8f02d0937b522d6af76f2eccc137f0312
+    new: a5438e4eca8d16e2bd372e319775ee43aa723447
+    log: |
+         0aa2988e4fd23c0c8b33999d7b47dfbc5e6bf24b brd: use radix_tree_maybe_preload instead of radix_tree_preload
+         9ec041ea40dbc6425c0ee6ae15786e5ab1d6aad6 sed-opal: add support flag for SUM in status ioctl
+         0f77b29ad14e34a89961f32edc87b92db623bb37 block: Revert "block: Do not reread partition table on exclusively open device"
+         e5cfefa97bccf956ea0bb6464c1f6c84fd7a8d9f block: fix scan partition for exclusively open device again
+         a5438e4eca8d16e2bd372e319775ee43aa723447 Merge branch 'for-6.3/block' into for-next
          
