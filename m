@@ -1,50 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============6848122410677855259=="
+Content-Type: multipart/mixed; boundary="===============3701824231078864914=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Fri, 17 Feb 2023 01:53:24 -0000
-Message-Id: <167659880421.2582.4346815051042560235@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Fri, 17 Feb 2023 01:53:31 -0000
+Message-Id: <167659881112.2675.3164697111318778405@gitolite.kernel.org>
 
---===============6848122410677855259==
+--===============3701824231078864914==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.3
+  - ref: refs/heads/spi-6.3
     old: 97b7cea04f52c3263a74b945a4738f678181b117
     new: a46ce4f884817c66d0dc303b663b53b37d2baa24
     log: |
          a46ce4f884817c66d0dc303b663b53b37d2baa24 spi: spidev: drop the incorrect notice from Kconfig
          
 
---===============6848122410677855259==
+--===============3701824231078864914==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1676598802 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1676598802-66045047ea8f6feacf4ed98a0171d0467d57f6b6
+pusher C3F436CA30F5D8EB 1676598809 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1676598809-c3d5c470ceb03c8d6c8d4a31624526d52dc434c4
 
-97b7cea04f52c3263a74b945a4738f678181b117 a46ce4f884817c66d0dc303b663b53b37d2baa24 refs/heads/for-6.3
+97b7cea04f52c3263a74b945a4738f678181b117 a46ce4f884817c66d0dc303b663b53b37d2baa24 refs/heads/spi-6.3
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmPu3hIACgkQJNaLcl1U
-h9DCkQf/UY+E9EKmX8K1cu//7JQMzpUPjAjKxVWaOzwffQV1cG74EIr055OSiLvE
-pGsCMm3V8yIpUiNFpazB4ldUF8Lz4TUMcK+THJEfpJu/8D0OavnX1q9o8va8LZZT
-WgZdYKjSYc8DjYUguM+f/J3OvZK4ZRnOvla9mlmcDq98dnWgTYskM6YJbTzXuaza
-sCEkSn4WK+Ft7R+Nw++If5s7h17ayfdvaZ5yhNeCdyIsvrMqiPAzgwuEqGlL4sPt
-Qd4CLvpjN+4kordOEjWCRl8imaCz6+zLbFCHNrm44GiE6g1vMq4ofsVxlPMvRdYu
-3I32zpZu/z8HZzr5lMoerzduzZkmuA==
-=RuuE
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmPu3hkACgkQJNaLcl1U
+h9AZAAf+J6igqraDuO1MATVyOu7ehIAAqomXK86waC4j5BzG0tcac9IxwKWL1hH3
+n1mUoY7Bxum6mbPLT9BPulcp/4EeABAxNL29Dg5w6NLsEVs0/9ddCriuFt3lXH29
+Zpd+JesF14TO7d/FQN70QeSruQWz+ESbvltY9nfZKDtYduu8pDq1QMYHDtdjLgdD
+BUGJBc3knuGA6k5erWKzTfc6TRWXJrCcEFnxd01u/WT5ELa5s1rqEi2u68Z9qZgQ
+XwNWQzkHRhWQdZQaoRulOMKVkv8FBFx0mVzWUQwzbCX2/Ozetg2dmkAEYYGwke8u
+xc0Z6XCS2YxaDW7QbKrjDzKH3xJMGw==
+=vG3r
 -----END PGP SIGNATURE-----
 
---===============6848122410677855259==--
+--===============3701824231078864914==--
