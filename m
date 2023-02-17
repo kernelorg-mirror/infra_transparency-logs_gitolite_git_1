@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8769257933351263851=="
+Content-Type: multipart/mixed; boundary="===============5898670297971952316=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 17 Feb 2023 07:43:46 -0000
-Message-Id: <167661982655.4229.13275142309589528469@gitolite.kernel.org>
+Date: Fri, 17 Feb 2023 07:45:06 -0000
+Message-Id: <167661990641.6333.6287280436927430184@gitolite.kernel.org>
 
---===============8769257933351263851==
+--===============5898670297971952316==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,20 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/auto-latest
     old: cf8bcc2d0f4c94bb429c8fd14efb1a08b064214b
-    new: 5ba930c100a00f6c0f4b52d3e2f168d3fd4fd536
-    log: revlist-cf8bcc2d0f4c-5ba930c100a0.txt
+    new: be97fc4ad26c6f74728b33e00787e485a952f299
+    log: revlist-cf8bcc2d0f4c-be97fc4ad26c.txt
+  - ref: refs/heads/master
+    old: 5ba930c100a00f6c0f4b52d3e2f168d3fd4fd536
+    new: be97fc4ad26c6f74728b33e00787e485a952f299
+    log: revlist-5ba930c100a0-be97fc4ad26c.txt
 
---===============8769257933351263851==
+--===============5898670297971952316==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cf8bcc2d0f4c-5ba930c100a0.txt
+Content-Disposition: attachment; filename=revlist-cf8bcc2d0f4c-be97fc4ad26c.txt
 
 f276aacf5d2f7fb57e400db44c807ea3b9525fd6 spi: Use a 32-bit DT property for spi-cs-setup-delay-ns
 6b77b16de75a6efc0870b1fa467209387cbee8f3 drm/vc4: Fix YUV plane handling when planes are in different buffers
@@ -97,6 +101,60 @@ caa068c9bb2bc86e6da2caf8508f3fda24d4dea0 Merge tag 'amd-drm-fixes-6.2-2023-02-15
 a2a04b515562bbb040e8ae3decae8c1e9ef05327 Merge tag 'drm-misc-fixes-2023-02-16' of git://anongit.freedesktop.org/drm/drm-misc into drm-fixes
 f7597e3c58eeb9ce534993f53c982f2e91e6dd4d Merge tag 'drm-intel-fixes-2023-02-16' of git://anongit.freedesktop.org/drm/drm-intel into drm-fixes
 ec35307e18ba8174e2a3f701956059f6a36f22fb Merge tag 'drm-fixes-2023-02-17' of git://anongit.freedesktop.org/drm/drm
-5ba930c100a00f6c0f4b52d3e2f168d3fd4fd536 Merge branch 'linus'
+aebf9c0d01bab9c8036d3d86ea2c32b766388b27 Merge branch into tip/master: 'irq/urgent'
+2a5598daf613a04c5fa4f820967b88f8b32da259 Merge branch into tip/master: 'sched/urgent'
+8ab730abea615b9f58f87b24dc8e6fcaea8ccd80 Merge branch into tip/master: 'timers/urgent'
+9f419455350b9a69f2c8eb33af71e053e4386cde Merge branch into tip/master: 'x86/urgent'
+ec3cd140f0b047de52b7993d13c0c27f2ac1475e Merge branch into tip/master: 'irq/core'
+5cce9eed5aebc1ed49bf694efeaf82ec603647fa Merge branch into tip/master: 'locking/core'
+d3a60eaa9a9aa41c8a3e3bb3a406105bdbaafc1b Merge branch into tip/master: 'objtool/core'
+e60c09f301b947da7396a90ee69461d5ab39057c Merge branch into tip/master: 'perf/core'
+605be835e6816eecbb1411caffa2e7fd75b35b1d Merge branch into tip/master: 'ras/core'
+59593baa57cba325f9a67f86c95114ff490e3963 Merge branch into tip/master: 'timers/core'
+9246f3d2abc1a433453581e2156e091e962f0b3f Merge branch into tip/master: 'x86/alternatives'
+613f3bce2c048f03b394a569e31d28a3878d12ea Merge branch into tip/master: 'x86/asm'
+fc8b78772ed8274f40d8c7df7e2c73296f9362e7 Merge branch into tip/master: 'x86/boot'
+7577408c91becad849098d221275d2a44a3910db Merge branch into tip/master: 'x86/build'
+1ef19fe13a0bac9e254982c6398c1c9801afe06a Merge branch into tip/master: 'x86/cache'
+ef5870cbfc02c4c235a10e86f33f6ae9e5382e34 Merge branch into tip/master: 'x86/cleanups'
+6c663fc3df6c4713e6e1ffa68820a2626b10240d Merge branch into tip/master: 'x86/core'
+2e12b281c4eae9a1ff3e94afa9063e0cce257b2a Merge branch 'x86/cpu'
+0d606bf05d55e979e34011dd97cb5dba7480cc5d Merge branch into tip/master: 'x86/fpu'
+26f4cf0a7fd63c7dc6489742e633d8acc91aa747 Merge branch into tip/master: 'x86/microcode'
+79d6b2605105290d59766cae70136c21c2edc417 Merge branch into tip/master: 'x86/mm'
+8d41066733ad811bdf7cf40143b237b5ba3bd1b6 Merge branch into tip/master: 'x86/platform'
+b0e9f60c1ad415dd64c1430d7a6540f83f0029a3 Merge branch 'x86/tdx'
+be97fc4ad26c6f74728b33e00787e485a952f299 Merge branch into tip/master: 'x86/vdso'
 
---===============8769257933351263851==--
+--===============5898670297971952316==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-5ba930c100a0-be97fc4ad26c.txt
+
+aebf9c0d01bab9c8036d3d86ea2c32b766388b27 Merge branch into tip/master: 'irq/urgent'
+2a5598daf613a04c5fa4f820967b88f8b32da259 Merge branch into tip/master: 'sched/urgent'
+8ab730abea615b9f58f87b24dc8e6fcaea8ccd80 Merge branch into tip/master: 'timers/urgent'
+9f419455350b9a69f2c8eb33af71e053e4386cde Merge branch into tip/master: 'x86/urgent'
+ec3cd140f0b047de52b7993d13c0c27f2ac1475e Merge branch into tip/master: 'irq/core'
+5cce9eed5aebc1ed49bf694efeaf82ec603647fa Merge branch into tip/master: 'locking/core'
+d3a60eaa9a9aa41c8a3e3bb3a406105bdbaafc1b Merge branch into tip/master: 'objtool/core'
+e60c09f301b947da7396a90ee69461d5ab39057c Merge branch into tip/master: 'perf/core'
+605be835e6816eecbb1411caffa2e7fd75b35b1d Merge branch into tip/master: 'ras/core'
+59593baa57cba325f9a67f86c95114ff490e3963 Merge branch into tip/master: 'timers/core'
+9246f3d2abc1a433453581e2156e091e962f0b3f Merge branch into tip/master: 'x86/alternatives'
+613f3bce2c048f03b394a569e31d28a3878d12ea Merge branch into tip/master: 'x86/asm'
+fc8b78772ed8274f40d8c7df7e2c73296f9362e7 Merge branch into tip/master: 'x86/boot'
+7577408c91becad849098d221275d2a44a3910db Merge branch into tip/master: 'x86/build'
+1ef19fe13a0bac9e254982c6398c1c9801afe06a Merge branch into tip/master: 'x86/cache'
+ef5870cbfc02c4c235a10e86f33f6ae9e5382e34 Merge branch into tip/master: 'x86/cleanups'
+6c663fc3df6c4713e6e1ffa68820a2626b10240d Merge branch into tip/master: 'x86/core'
+2e12b281c4eae9a1ff3e94afa9063e0cce257b2a Merge branch 'x86/cpu'
+0d606bf05d55e979e34011dd97cb5dba7480cc5d Merge branch into tip/master: 'x86/fpu'
+26f4cf0a7fd63c7dc6489742e633d8acc91aa747 Merge branch into tip/master: 'x86/microcode'
+79d6b2605105290d59766cae70136c21c2edc417 Merge branch into tip/master: 'x86/mm'
+8d41066733ad811bdf7cf40143b237b5ba3bd1b6 Merge branch into tip/master: 'x86/platform'
+b0e9f60c1ad415dd64c1430d7a6540f83f0029a3 Merge branch 'x86/tdx'
+be97fc4ad26c6f74728b33e00787e485a952f299 Merge branch into tip/master: 'x86/vdso'
+
+--===============5898670297971952316==--
