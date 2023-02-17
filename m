@@ -1,23 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Fri, 17 Feb 2023 10:46:08 -0000
-Message-Id: <167663076882.11234.9065229253954628873@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-drivers
+Date: Fri, 17 Feb 2023 10:53:43 -0000
+Message-Id: <167663122337.15383.13365530711895329337@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/geert/renesas-drivers
+user: geert
 changes:
-  - ref: refs/heads/master
-    old: 77bc38ced48a4e098e18546e456029731ea0588e
-    new: 2198b2c75a1ad7d6d500b2e92bff6ca281256e33
+  - ref: refs/heads/topic/renesas-bsp-rebase-v6.1
+    old: 3d8bfcc6f610a6fb2c76358fb82d4635fa2ddc21
+    new: 88d86cd67ecbfb7ac638c0c144e89709f5cf1c00
     log: |
-         d6d340eba3d66a3c71e481b31d352d0fb616e007 lsfd: prepare enough large buffer when reading /proc/net/unix
-         eeaf7677e1471df737aa39779675c48ec55a276c lsfd: read the UNIX socket path including white spaces correctly
-         26c9eb354c0f67a95eb09e47cc8e683da3562607 documentation: link to HTML versions of kernel docs on docs.kernel.org
-         665c9694ce655c2f0b0703a1164c3e7eee9a6a92 Merge branch 'lsfd-unix-including-spaces-in-path' of https://github.com/masatake/util-linux
-         2198b2c75a1ad7d6d500b2e92bff6ca281256e33 Merge branch 'kernel-doc-links' of https://github.com/nl6720/util-linux
+         88d86cd67ecbfb7ac638c0c144e89709f5cf1c00 BSP rebase: Ignore one more UIO-related commit
          
+  - ref: refs/tags/renesas-bsp-rebase-v6.1-ipmmu-id
+    old: 0000000000000000000000000000000000000000
+    new: 49f1fc15d6f42c7ce23f526cbc796d5e8b9bb50e
