@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
-Date: Fri, 17 Feb 2023 06:59:19 -0000
-Message-Id: <167661715963.8313.16013661717716678611@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Fri, 17 Feb 2023 07:40:24 -0000
+Message-Id: <167661962403.3148.13121719522728850159@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf
-user: martin.lau
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/heads/master
-    old: b963d9d5b9437a6b99504987310f98537c9e77d4
-    new: 92a3f9895236a83785c30e1b0f4fd9459a6817ab
-    log: |
-         92a3f9895236a83785c30e1b0f4fd9459a6817ab xsk: check IFF_UP earlier in Tx path
-         
+  - ref: refs/tags/sched-urgent-2023-02-17
+    old: 0000000000000000000000000000000000000000
+    new: fe6baba0cec7c217763fa219e8592afe4479f5f4
