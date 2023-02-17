@@ -1,27 +1,68 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/git/git
-Date: Fri, 17 Feb 2023 22:16:10 -0000
-Message-Id: <167667217069.14060.9136607804681318468@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============8320466305398896806=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wsa/linux
+Date: Fri, 17 Feb 2023 22:19:09 -0000
+Message-Id: <167667234910.15087.17778081895272832628@gitolite.kernel.org>
+
+--===============8320466305398896806==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/git/git
-user: junio
+repo: pub/scm/linux/kernel/git/wsa/linux
+user: wsa
 changes:
-  - ref: refs/heads/seen
-    old: 524a66011d59ddea16570cf66b21af47506f15ce
-    new: 01a1f7de5dc0b9bbeffd878449e6fef12cafd255
-    log: |
-         c61b314c99d01f7bd58c9250197fa95b4ae78f97 credential: new attribute password_expiry_utc
-         03675aa1e85defe2b5e1c3b1d21400a841127ca4 diff: consolidate diff algorithm option parsing
-         66126e1eeb97933c5a06fb046aa029f9714543f0 diff: teach diff to read algorithm from diff driver
-         58ee4a14ddbc47dbde727dd568e25ce2a6d20f9d Merge branch 'tk/pull-conflict-suggest-rebase-merge-not-rebase-true' into seen
-         ac87ccb5cbc5ec1d663abca2037bc51a86f18627 Merge branch 'jc/diff-algo-attribute' into seen
-         9459b9f2ebe7eb4c63efed70b897389329227f85 Merge branch 'jk/http-proxy-tests' into seen
-         ac32e5bc28e27e9ac884fbc8e174809917c28adc Merge branch 'tb/drop-dir-iterator-follow-symlink-bit' into seen
-         d3e9a17f73b7207ccc75dd6c83563a4fe372f2fa SQUASH???
-         01a1f7de5dc0b9bbeffd878449e6fef12cafd255 Merge branch 'mh/credential-password-expiry' into seen
-         
+  - ref: refs/heads/i2c/for-mergewindow
+    old: 38bd413638b245246fb35b5e94c63e0f0b791256
+    new: e8444bb9fd77f153adcc263eab28e3c2bc1cf540
+    log: revlist-38bd413638b2-e8444bb9fd77.txt
+  - ref: refs/heads/i2c/for-next
+    old: 0a644cbebd3f3c3f355ea0514a96943c8deb6bcc
+    new: dc67b2d9043871add05cbe9c584d8d736f3c4d2f
+    log: revlist-0a644cbebd3f-dc67b2d90438.txt
+
+--===============8320466305398896806==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-38bd413638b2-e8444bb9fd77.txt
+
+dd2d18b5c04099698dfe9ead149f9247a2d5c489 i2c: i801: Add i801_simple_transaction(), complementing i801_block_transaction()
+63fd342fd121c3eea5ff209ec5fc0128214bb017 i2c: i801: Handle SMBAUXCTL_E32B in i801_block_transaction_by_block only
+24592482d2351071a05d782c9b2be20342e0d1d2 i2c: i801: Centralize configuring non-block commands in i801_simple_transaction
+a3989dc0b059a513ad9e12bab8470edc1cec027f i2c: i801: Centralize configuring block commands in i801_block_transaction
+1f760b87e54cf56a25ab68f8dc625e339f6e46d5 i2c: i801: Call i801_check_pre() from i801_access()
+de461a2607c69c4075c5dc4be86f75c6417dda3a i2c: i801: Call i801_check_post() from i801_access()
+deca7db82bdebfe4713de28574245276cd5e3023 dt-bindings: i2c: xiic: Add 'xlnx,axi-iic-2.1' to compatible
+9b97cd61ee1ca7ba9a7005afd52f963a811b492c i2c: xiic: Update compatible with new IP version
+6d8ffbe6618c47021c48cfff31f5d9d354ca44b9 i2c: xiic: Add SCL frequency configuration support
+8c266d060894a1c979ccc7b233f34ef545e48b09 i2c: xiic: Remove some dead code
+681f87ddf90964cbf7f2cfe094f82d0f9f6437a3 dt-bindings: i2c: Add hpe,gxp-i2c
+4a55ed6f89f5a877a39b7d06620457f0c4913c42 i2c: Add GXP SoC I2C Controller
+e8444bb9fd77f153adcc263eab28e3c2bc1cf540 MAINTAINERS: Add HPE GXP I2C Support
+
+--===============8320466305398896806==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-0a644cbebd3f-dc67b2d90438.txt
+
+dd2d18b5c04099698dfe9ead149f9247a2d5c489 i2c: i801: Add i801_simple_transaction(), complementing i801_block_transaction()
+63fd342fd121c3eea5ff209ec5fc0128214bb017 i2c: i801: Handle SMBAUXCTL_E32B in i801_block_transaction_by_block only
+24592482d2351071a05d782c9b2be20342e0d1d2 i2c: i801: Centralize configuring non-block commands in i801_simple_transaction
+a3989dc0b059a513ad9e12bab8470edc1cec027f i2c: i801: Centralize configuring block commands in i801_block_transaction
+1f760b87e54cf56a25ab68f8dc625e339f6e46d5 i2c: i801: Call i801_check_pre() from i801_access()
+de461a2607c69c4075c5dc4be86f75c6417dda3a i2c: i801: Call i801_check_post() from i801_access()
+deca7db82bdebfe4713de28574245276cd5e3023 dt-bindings: i2c: xiic: Add 'xlnx,axi-iic-2.1' to compatible
+9b97cd61ee1ca7ba9a7005afd52f963a811b492c i2c: xiic: Update compatible with new IP version
+6d8ffbe6618c47021c48cfff31f5d9d354ca44b9 i2c: xiic: Add SCL frequency configuration support
+8c266d060894a1c979ccc7b233f34ef545e48b09 i2c: xiic: Remove some dead code
+681f87ddf90964cbf7f2cfe094f82d0f9f6437a3 dt-bindings: i2c: Add hpe,gxp-i2c
+4a55ed6f89f5a877a39b7d06620457f0c4913c42 i2c: Add GXP SoC I2C Controller
+e8444bb9fd77f153adcc263eab28e3c2bc1cf540 MAINTAINERS: Add HPE GXP I2C Support
+dc67b2d9043871add05cbe9c584d8d736f3c4d2f Merge branch 'i2c/for-mergewindow' into i2c/for-next
+
+--===============8320466305398896806==--
