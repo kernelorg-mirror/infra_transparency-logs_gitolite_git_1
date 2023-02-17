@@ -1,16 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Fri, 17 Feb 2023 19:50:03 -0000
-Message-Id: <167666340354.13956.7060272022402444885@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
+Date: Fri, 17 Feb 2023 19:50:43 -0000
+Message-Id: <167666344335.14253.16671068960079009317@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
+user: snitzer
 changes:
-  - ref: refs/heads/for-6.3/io_uring
-    old: ad48df261a1a95754f7aac4c079bd9b6f43f27d9
-    new: a3e70137863ea88681aab5cc928817f18fda4ba4
+  - ref: refs/heads/dm-6.3
+    old: f77692d65d54665d81815349cc727baa85e8b71d
+    new: a2f998a78a425edde5a1a1973c1d4854fe9d019f
+    log: |
+         e4f80303c2353952e6e980b23914e4214487f2a6 dm thin: add cond_resched() to various workqueue loops
+         76227f6dc805e9e960128bcc6276647361e0827c dm cache: add cond_resched() to various workqueue loops
+         69868bebfe8e9a47b0d8a12f7473b8a3b7239ef3 dm ioctl: assert _hash_lock is held in __hash_remove
+         a2f998a78a425edde5a1a1973c1d4854fe9d019f dm ioctl: remove unnecessary check when using dm_get_mdptr()
+         
