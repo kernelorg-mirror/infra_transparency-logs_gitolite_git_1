@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0850306610115741390=="
+Content-Type: multipart/mixed; boundary="===============0745702128295721489=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
-Date: Fri, 17 Feb 2023 10:12:21 -0000
-Message-Id: <167662874156.19680.6010062886751702490@gitolite.kernel.org>
+Date: Fri, 17 Feb 2023 10:12:36 -0000
+Message-Id: <167662875638.19831.15674032020704653332@gitolite.kernel.org>
 
---===============0850306610115741390==
+--===============0745702128295721489==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,18 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/krzk/linux
 user: krzk
 changes:
-  - ref: refs/heads/fixes
-    old: 1b929c02afd37871d5afb9d498426f83432e71c2
-    new: a3583e92d188ec6c58c7f603ac5e72dd8a11c21a
-    log: revlist-1b929c02afd3-a3583e92d188.txt
+  - ref: refs/heads/for-next
+    old: da8d67f035b7f47bf53de17a8b1629c876255cb3
+    new: dd3d835d31ed9b1147c3774e98102d78837e034e
+    log: revlist-da8d67f035b7-dd3d835d31ed.txt
 
---===============0850306610115741390==
+--===============0745702128295721489==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1b929c02afd3-a3583e92d188.txt
+Content-Disposition: attachment; filename=revlist-da8d67f035b7-dd3d835d31ed.txt
 
-f7b23d1c35d8b8de1425bdfccaefd01f3b7c9d1c iio: hid: fix the retval in accel_3d_capture_sample
 eb50cd5bfdac61627a5026566cf3b90ced7b141c iio: hid: fix the retval in gyro_3d_capture_sample
 7c698440524117dca7534592db0e7f465ae4d0bb Merge tag 'iommu-fixes-v6.2-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/joro/iommu
 b1d63f0c777b6df1ab53c5597d5fc25753f52f07 Merge tag 'powerpc-6.2-3' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
@@ -1050,5 +1049,6 @@ ceaa837f96adb69c0df0397937cd74991d5d821a Linux 6.2-rc8
 9372eca505e7a19934d750b4b4c89a3652738e66 ARM: dts: exynos: correct TMU phandle in Odroid XU
 2e3d0e20d8456f876607a8af61fdb83dfbf98cb6 ARM: dts: exynos: correct TMU phandle in Odroid HC1
 a3583e92d188ec6c58c7f603ac5e72dd8a11c21a ARM: dts: exynos: correct TMU phandle in Odroid XU3 family
+dd3d835d31ed9b1147c3774e98102d78837e034e Merge branch 'fixes' into for-next
 
---===============0850306610115741390==--
+--===============0745702128295721489==--
