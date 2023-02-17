@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
-Date: Fri, 17 Feb 2023 14:51:16 -0000
-Message-Id: <167664547635.12111.14035150197432874386@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Fri, 17 Feb 2023 15:05:59 -0000
+Message-Id: <167664635983.21112.10247885885637643107@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ardb/linux
-user: ardb
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: dborkman
 changes:
-  - ref: refs/heads/crypto-aes-cfb-library
-    old: 6ca476ab9aa1aefae1e6e75d5b25cba758cafd38
-    new: 0cbaeb42b504304d7269e4010abc3502b0170ebc
+  - ref: refs/heads/master
+    old: df71a42cc37a44cdc7682f57aecf14ff44391eed
+    new: 1596dae2f17ec5c6e8c8f0e3fec78c5ae55c1e0b
     log: |
-         0cbaeb42b504304d7269e4010abc3502b0170ebc crypto: lib - implement library version of AES in CFB mode
+         1596dae2f17ec5c6e8c8f0e3fec78c5ae55c1e0b xsk: check IFF_UP earlier in Tx path
          
