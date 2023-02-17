@@ -1,22 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless-next
-Date: Fri, 17 Feb 2023 09:39:55 -0000
-Message-Id: <167662679593.3742.10290925697576469530@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-drivers
+Date: Fri, 17 Feb 2023 10:03:21 -0000
+Message-Id: <167662820120.13986.4711910842443511067@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wireless/wireless-next
-user: kvalo
+repo: pub/scm/linux/kernel/git/geert/renesas-drivers
+user: geert
 changes:
-  - ref: refs/heads/main
-    old: 84cb1b53cdbad52642571e31a8aee301206d2043
-    new: 3a156b52c73c9491441799bbbac18075bf96480e
+  - ref: refs/heads/topic/renesas-bsp-rebase-v6.1
+    old: 768fdc7eafc626f11f953db80a0005362c37c912
+    new: 3d8bfcc6f610a6fb2c76358fb82d4635fa2ddc21
     log: |
-         4a267bc5ea8f159b614d0549030216d0434eccca wifi: rtw88: use RTW_FLAG_POWERON flag to prevent to power on/off twice
-         0731d0b664f26f54b6293421af54da15b9eb1c8c wifi: rtw89: fix AP mode authentication transmission failed
-         d9fcf94b8f68f4a0b440d26a1143932525c2f3dd wifi: iwlwifi: mvm: remove unused iwl_dbgfs_is_match()
-         3a156b52c73c9491441799bbbac18075bf96480e wifi: iwlegacy: avoid fortify warning
+         07ae9d3e9bfb8356b8278d96bf9b5e3423f63357 Revert "arm64: dts: renesas: r8a779g0: whitehawk: Add R-Car Sound support"
+         7c709e6532fbd1b06e558440606c2c448e257737 arm64: dts: renesas: r8a779g0: whitehawk: Add R-Car Sound support
+         68949c7d02527b3774bdbbf7e650dadd698fe953 BSP rebase: tidyup White Hawk Sound
+         5630becd5cc0245a541c2b7bb1c3606f9a5b08b2 BSP rebase: Add one more ignored Defconfig entry
+         3d8bfcc6f610a6fb2c76358fb82d4635fa2ddc21 BSP rebase: Ignore minor cpu capacity-dmips-mhz updates
          
+  - ref: refs/tags/renesas-bsp-rebase-v6.1-defconfig-capacity
+    old: 0000000000000000000000000000000000000000
+    new: 6a5cc1ec56c46ebe34f2c997183e7c1ad2f12d8b
