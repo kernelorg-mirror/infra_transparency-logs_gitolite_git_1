@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/trace/linux-trace
-Date: Sat, 18 Feb 2023 19:36:06 -0000
-Message-Id: <167674896603.22894.15974569205157723401@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Sat, 18 Feb 2023 19:56:24 -0000
+Message-Id: <167675018421.3945.13052582349825828131@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/trace/linux-trace
-user: rostedt
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
-  - ref: refs/heads/trace/for-next
-    old: d8f0ae3ebed416728077fe94698983c30d409241
-    new: 7568a21e52f60930ba8ae7897c2521bdab3ef5a4
+  - ref: refs/heads/master
+    old: ebd144b33a62f8c352898b6b9d17b45c3a56ea61
+    new: 9e46480bc537e721d864d6fe4e14491e5f3bfb1c
     log: |
-         2455f0e124d317dd08d337a7550a78a224d4ba41 tracing: Always use canonical ftrace path
-         e7bb66f79a7b19a47b3eff745ea9f7ba1ae76032 tracepoint: Allow livepatch module add trace event
-         7568a21e52f60930ba8ae7897c2521bdab3ef5a4 tracing: Remove unnecessary NULL assignment
+         9e46480bc537e721d864d6fe4e14491e5f3bfb1c Sat Feb 18 07:55:32 PM UTC 2023
          
