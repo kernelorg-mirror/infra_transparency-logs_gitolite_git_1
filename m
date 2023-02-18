@@ -1,27 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Sat, 18 Feb 2023 09:01:39 -0000
-Message-Id: <167671089991.14318.12671205939624532326@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============5159591647545615674=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Sat, 18 Feb 2023 10:30:58 -0000
+Message-Id: <167671625820.20842.2007593619893206114@gitolite.kernel.org>
+
+--===============5159591647545615674==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/saeed/linux
-user: saeed
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/tags/mlx5-updates-2023-02-15
-    old: ac883d8c2b9d99f8236b738521cd0497b21b53f9
-    new: b20b3f78d2e945c160bf84eb5d3e311e4f22fb6e
+  - ref: refs/heads/master
+    old: d487fe728e7703f014f3cda5680cbdc4cbbcee28
+    new: 26db37ed6b55e75c3d7efb391035ec840b4f2978
     log: |
-         53ee9142717714881fe0b4292b237e1707246f2c net/mlx5e: Switch to using napi_build_skb()
-         bfc63c9796900b4f72a0700ac68e4c6306017833 net/mlx5e: Remove redundant page argument in mlx5e_xmit_xdp_buff()
-         9da5294e2c6adc7169ccdfa5bef87f9e893d5a12 net/mlx5e: Remove redundant page argument in mlx5e_xdp_handle()
-         3ac0b6aa892a1961d3bc62c87e3e3c9646e9d309 net/mlx5: Simplify eq list traversal
-         94ceffb48eac7692677d8093dcde6965b70c4b35 net/mlx5e: Implement CT entry update
-         f869bcb0d28ec981dd5f6d1958c607c457c1bb26 net/mlx5e: Allow offloading of ct 'new' match
-         b5618a6b19c9dfead5133b72c40112f343b55d76 net/mlx5e: Remove unused function mlx5e_sq_xmit_simple
-         afce9271facb4cd41ffdf063cc6dd3d67341e723 net/mlx5e: Fix outdated TLS comment
-         993fd9bd656a082c9b713171622c70f72f0af59f net/mlx5e: RX, Remove doubtful unlikely call
+         26db37ed6b55e75c3d7efb391035ec840b4f2978 5.15-stable patches
          
+
+--===============5159591647545615674==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1676716257 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1676716256-015a99502cb64e55b3a6e27b6dbf9a73ebcac471
+
+d487fe728e7703f014f3cda5680cbdc4cbbcee28 26db37ed6b55e75c3d7efb391035ec840b4f2978 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPwqOEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+4ToP/0WDCSG9a8WyJddbLaRy
+4ZGWJJjixy0vzqUQkXthFcQXWIF2n0lQVrv5v6sM9SytdyWgYdGpijcLKl8DJhYx
+16/9aipYWvWJ7ryCoukZ5lJzMxckS+WwaGNYvHLQbkyiw5q9MwE/p/YwKpLe7R5e
+EVyoZrZI+azR3VJzHrOy/2Xiq1gK2AxZyDMAE9Gxz+2y+oqXMejziJmg/OJZLQhR
+WZiHXYGrBEpg/LjiDOD1DS363R4MNC2NKZ9BlUi6+euAei0dvdzrZQ2mqEwO/Jmh
+YyNBTxCY4IDk/CvGn5O5qvG/qabvy/d4nHCucR6xoB90YKv4DAqsqPspL8eGBrD+
+G+ngHblIR7/pZ/nMZ7kU2DEV0PXvgG/ejyqM1k8JHOAeq5S/qQqqPnoUlcRNsqN4
+wISWTb2n8bfwzG5uJuuhogVqy8aw1WOkOM+K8x0HfPfkOgXXLk4rvQzEFGMbE6ey
+4+sgJqnd0kw0a0vH1c19PCjYjZya9PsKyfGZrCnbWsqM+8fT9yRI7OpTPbDsyupl
+H9iqh5pcA9Y4heVKL8nhYkZlxj3ZPhSei+/ZB7GjPkr+Xi1MhJVKR/ZBh54Abnpp
+lwvtzusFGPxWa6Sl+ytMWH5M2PsWLA00UjkqwTzIveGUlBPPJArfcE0uD81SLUQj
+P/l7nQLuoSSWiSu/xuVtIFJN
+=J1lk
+-----END PGP SIGNATURE-----
+
+--===============5159591647545615674==--
