@@ -1,33 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/joro/iommu
-Date: Sat, 18 Feb 2023 16:39:12 -0000
-Message-Id: <167673835281.3726.15780647925939552850@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
+Date: Sat, 18 Feb 2023 16:53:27 -0000
+Message-Id: <167673920786.14214.3211428195298097383@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/joro/iommu
-user: joro
+repo: pub/scm/linux/kernel/git/jic23/iio
+user: jic23
 changes:
-  - ref: refs/heads/core
-    old: 4daa861174d56023c2068ddb03de0752f07fa199
-    new: 2cc73c5712f97de98c38c2fafc1f288354a9f3c3
+  - ref: refs/heads/fixes-togreg
+    old: 42ec40b0883c1cce58b06e8fa82049a61033151c
+    new: 0c6ef985a1fd8a74dcb5cad941ddcadd55cb8697
     log: |
-         2cc73c5712f97de98c38c2fafc1f288354a9f3c3 iommu: Attach device group to old domain in error path
-         
-  - ref: refs/heads/next
-    old: 659079695814e2c97a21d8cb9128c631bbe32579
-    new: bedd29d793da3312e1350a56245c4971a38d4453
-    log: |
-         2cc73c5712f97de98c38c2fafc1f288354a9f3c3 iommu: Attach device group to old domain in error path
-         f451c7a5a3b818ecfeba2ba258570769998baf3a iommu/amd: Skip attach device domain is same as new domain
-         bedd29d793da3312e1350a56245c4971a38d4453 Merge branches 'apple/dart', 'arm/exynos', 'arm/renesas', 'arm/smmu', 'x86/vt-d', 'x86/amd' and 'core' into next
-         
-  - ref: refs/heads/x86/amd
-    old: 996d120b4de2b0d6b592bd9fbbe6e244b81ab3cc
-    new: f451c7a5a3b818ecfeba2ba258570769998baf3a
-    log: |
-         f451c7a5a3b818ecfeba2ba258570769998baf3a iommu/amd: Skip attach device domain is same as new domain
+         b5184a26a28fac1d708b0bfeeb958a9260c2924c iio: buffer: correctly return bytes written in output buffers
+         3da1814184582ed0faf039275a3f02e6f69944ee iio: buffer: make sure O_NONBLOCK is respected
+         0c6ef985a1fd8a74dcb5cad941ddcadd55cb8697 iio: adc: ad7791: fix IRQ flags
          
