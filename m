@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jfern/linux
-Date: Sat, 18 Feb 2023 03:06:49 -0000
-Message-Id: <167668960978.10020.1840414010097582020@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Sat, 18 Feb 2023 03:49:40 -0000
+Message-Id: <167669218086.5209.18200118569940280283@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jfern/linux
-user: jfern
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
-  - ref: refs/heads/timers/dyn_hrtimer
-    old: 621948fff66f3ce64f723a81566228363a29e3b5
-    new: 5e82ce95f04d084588ebaf0aad19608479a1d72e
+  - ref: refs/heads/master
+    old: a50a8a7b68b2ce792222358127394690fe8d79eb
+    new: ebd144b33a62f8c352898b6b9d17b45c3a56ea61
     log: |
-         5e82ce95f04d084588ebaf0aad19608479a1d72e Make sure tick_sched hrtimer is canceled before reinitializing
+         ebd144b33a62f8c352898b6b9d17b45c3a56ea61 Sat Feb 18 03:48:48 AM UTC 2023
          
