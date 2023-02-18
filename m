@@ -1,22 +1,42 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/devel/pahole/pahole
-Date: Sat, 18 Feb 2023 14:07:22 -0000
-Message-Id: <167672924258.2140.2888184291322605784@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============8651536305289956318=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kvmarm/kvmarm
+Date: Sat, 18 Feb 2023 14:09:06 -0000
+Message-Id: <167672934685.2717.88929567459295038@gitolite.kernel.org>
+
+--===============8651536305289956318==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/devel/pahole/pahole
-user: acme
+repo: pub/scm/linux/kernel/git/kvmarm/kvmarm
+user: maz
 changes:
   - ref: refs/heads/next
-    old: 431df45378ef00f33bb0f00efa1b9350a5ea62a3
-    new: ef68019c357845b41ae99c0af7a4d21194d3738b
-    log: |
-         a53c58158b761f8f9aae03e0cbfe74f187ba2505 dwarf_loader: Mark functions that do not use expected registers for params
-         9b2abc1c7a16c39d6ad1731dbd9e93e56951b42a btf_encoder: Exclude functions with unexpected param register use not optimizations
-         d58c61498ea78064be76f21fd9925f71dc5ba1eb pahole: Update descriptions for btf_gen_optimized, skip_encoding_btf_inconsistent_proto
-         ef68019c357845b41ae99c0af7a4d21194d3738b pahole: Update man page for options also
-         
+    old: 7121a2e1d1070913f692d32806a36b8b3b3f0008
+    new: 96a4627dbbd48144a65af936b321701c70876026
+    log: revlist-7121a2e1d107-96a4627dbbd4.txt
+
+--===============8651536305289956318==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-7121a2e1d107-96a4627dbbd4.txt
+
+3fb901cdc9e4ab01aa32abe93004f94cdfe75648 KVM: arm64: nv: Use reg_to_encoding() to get sysreg ID
+92425e058ab6ab1a4c4a9d384d2d86b810f57e23 Merge branch kvm/kvm-hw-enable-refactor into kvmarm/next
+619cec00857f21dbc6db5ef9e0b9c613479f3745 Merge branch arm64/for-next/sme2 into kvmarm/next
+e8789ab7047a824fa415948d511634fea0c3aea3 Merge branch kvm-arm64/virtual-cache-geometry into kvmarm/next
+52b603628a2c06be38648aa025daa81e4355a7fc Merge branch kvm-arm64/parallel-access-faults into kvmarm/next
+073988eb3247a4fd9ddefb3ae12e655359ce19cb Merge branch kvm-arm64/MAINTAINERS into kvmarm/next
+1b915210d9bed44512f6034eacda9e8dcd89bd93 Merge branch kvm-arm64/nv-timer-improvements into kvmarm/next
+3f1a14af5e17a8d03b2db2085861da68c8405ee3 Merge branch kvm-arm64/psci-relay-fixes into kvmarm/next
+e4f7417e9680a281a77f0328f1b835557a558b58 Merge branch kvm-arm64/apple-vgic-mi into kvmarm/next
+022d3f0800682f84e1437ad2a2f6fb85fc94abf6 Merge branch kvm-arm64/misc into kvmarm/next
+0d3b2b4d2364166a955d03407ddace9269c603a5 Merge branch kvm-arm64/nv-prefix into kvmarm/next
+96a4627dbbd48144a65af936b321701c70876026 Merge tag ' https://github.com/oupton/linux tags/kvmarm-6.3' from into kvmarm-master/next
+
+--===============8651536305289956318==--
