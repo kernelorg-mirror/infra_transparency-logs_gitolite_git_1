@@ -1,16 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
-Date: Sun, 19 Feb 2023 04:48:38 -0000
-Message-Id: <167678211820.25418.6032342076926323922@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xen/tip
+Date: Sun, 19 Feb 2023 05:24:38 -0000
+Message-Id: <167678427817.15989.4978033140599681807@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/qcom/linux
-user: andersson
+repo: pub/scm/linux/kernel/git/xen/tip
+user: jgross
 changes:
-  - ref: refs/tags/qcom-clk-for-6.3
-    old: 0000000000000000000000000000000000000000
-    new: 1f171d0c0b1b2fa849e17e7e7e03006cc2d85e80
+  - ref: refs/heads/for-linus-6.3
+    old: 9a0450ada86e842997db6296244e159879fb6ef9
+    new: 4ecc96cba8d93d86abf46d17067e9b4c96241a29
+    log: |
+         20e7da1bbba8474839157fb28fb538d2c058128d x86/Xen: drop leftover VM-assist uses
+         4ecc96cba8d93d86abf46d17067e9b4c96241a29 xen: sysfs: make kobj_type structure constant
+         
