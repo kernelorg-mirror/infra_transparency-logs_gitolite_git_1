@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5845983910601781074=="
+Content-Type: multipart/mixed; boundary="===============0662437637428775302=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Mon, 20 Feb 2023 16:59:54 -0000
-Message-Id: <167691239475.23638.16246638435143839121@gitolite.kernel.org>
+Date: Mon, 20 Feb 2023 17:09:12 -0000
+Message-Id: <167691295255.29603.17609014962733135392@gitolite.kernel.org>
 
---===============5845983910601781074==
+--===============0662437637428775302==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,46 +17,41 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/kobject-const
-    old: 117cc2e52e7144ecbe22331e095ca4c0dac0b8b1
-    new: 8c73544173f0e781bf39f13af04278e6fc0f8b4c
+    old: 8c73544173f0e781bf39f13af04278e6fc0f8b4c
+    new: de9d11ba9a2261b62a065a1b6539eecf8a6d81f5
     log: |
-         2f83d840e16aaed46d9ba603d9831d461af7e737 crypto: hisilicon/qm - make struct bus_type * const
-         071b5a8a1f4c08cc43e10834c257f11b1486b2e4 drm/i915/huc: use const struct bus_type pointers
-         402fed6b4c087b1099b1c3354173e793f159ac11 vhost-vdpa: vhost_vdpa_alloc_domain() should be using a const struct bus_type *
-         c6df57be7482fa7604ef616a1298e454eb2c7002 dmaengine: idxd: use const struct bus_type *
-         ccba137b4b7c1b07ac9c6a9dbbdd7596a10fe3ca ARM/dma-mapping: const a pointer to bus_type in arm_iommu_create_mapping()
-         98f645786ea3a43c427522a45af85dc3d6e05a83 iommu: make the pointer to struct bus_type constant
-         8c73544173f0e781bf39f13af04278e6fc0f8b4c driver core: device.h: make struct bus_type a const *
+         87fc28f683b987ccc1481c317a4d474c480d70c8 USB: mark all struct bus_type as const
+         de9d11ba9a2261b62a065a1b6539eecf8a6d81f5 driver core: platform: make platform_bus_type constant
          
 
---===============5845983910601781074==
+--===============0662437637428775302==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1676912388 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1676912950 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1676912388-d59a8a967e807a5369e1d000be3d6302cacc2fc6
+nonce 1676912950-8c12e3d11e099d61d7916d38c3a9680064e355f9
 
-117cc2e52e7144ecbe22331e095ca4c0dac0b8b1 8c73544173f0e781bf39f13af04278e6fc0f8b4c refs/heads/kobject-const
+8c73544173f0e781bf39f13af04278e6fc0f8b4c de9d11ba9a2261b62a065a1b6539eecf8a6d81f5 refs/heads/kobject-const
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPzpwQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+VJMP/iyiNhSWWuT/iyNbt1ni
-F66g1RnIjYSYhPPkVFnaKEO4LNFT20mINAd4BjrE+Uex7UKW9vNJJLCBV62ecBZT
-zHOOI8lDgx5PNB+2VgcEcPxZ5l0v7mZjXWxjAZjH7x+0iEsPlhkZWO6URwpPFLtl
-sF1nTpra8l9tqQArj051Y5IfLmlxP+8G3+yHcyMj0jNVkJDuUIVlR4szmzJxUHKX
-bF6HbwI7eRRx1QY20IgltqcxvAAt4+vly8LvFNZvSHf+5CNLudqMlvIMngAxb2NN
-PUXFDH9SJHRCXD8mkLHrRd9WAAzQqu/neuScuJUFiwyOnerUEcbaDyZWRZQ2t0xO
-73BJOugRaLKAGNdr8itj+OwixQyqpjl1CrvrA1Y/9MdBuUqwRWEvxgqoS9LAJtix
-mEh2DMlMaSDZs2KUXGcjlXMVqBlyPMSvRpOUJiMPOII1fb1+/hh7ZcrWi9lmjLea
-scWWUd1eV9FYq+LOFgwGo++cDjxZfIE67l8r5LEo8UduXCG+BOQlND2AwANm/nLV
-DxT3c5FQjsKWj94WdypP3KNFp5jD8oMNX0ugm29uyEBUS+lf0aAPVpL430oPFpUK
-jE8FtOC/RshyexS/U/hPQkluwpRBc4SVUP3FRNqOmhFFMmtyjZ7P1p5PWMVp77GY
-SiLInScdxHe19tok7TRtC75j
-=w4Rg
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPzqTYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+jy8P/ReSbMMHRB5NFISnBgrT
+NA6YN0XLPfxkCHJwL0jRmINowjc2xmH0jQtnpQLT3lzoINP4FZ8p++JbMQtJTFHR
+aMaRgZXx26jEk7DN9V5vWCVFLnwl601Y4KWgae9KMtYZahsLffVxFD9t1XopFB5K
+Aet0Zzbf1mrY9BsbGuwZiK4MuiMDoE7AlHmOn5r6wPD31tJX9bOkdAbP3Y10p58B
++vj4mTsiKe5gaVWoGDjRFiAwSGkx+42g0BwxMlia7bxUpjepLiedzjESrKEXTtEZ
+oZF6Ii4jMctG52gi1Yv8y9IgYEBUUHlubhzmC6P7QdvsgGyA3q2W/paykrlxSY+h
+xQ2dioVpy33/qrRAoP7g6PC/tyKZbuHyAeOqyndUOZgexMzBPAlcsOxfkZIvttGG
+m24HdvtSJBhCcm2At2ORTBhjq65++7D2dneQJGgKloZfxPaEHYiV1wtX3M6BWoKr
+TNJNxWz9gzfKHBMkGuo08Kkl5gHr1Zes0Fx++O2yax4hMEO2Ie+ZrEUrA8TJP9gB
+JEezDc+Fj/S1RLuWqwcSbAUQ1mMhR0kT/XnVLm6IPNjXY1I0gQUC3E/9Th2ad6fm
+XcZEdnSzQvTB3aZb74MBq9O9NHsbIl3URTRbjcFvsr1sQJ/l9rj2/BvlJ6ZVhkMF
+2HT9bfT2wea0XyTt68oBPb7T
+=gpmY
 -----END PGP SIGNATURE-----
 
---===============5845983910601781074==--
+--===============0662437637428775302==--
