@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============1594918601898954700=="
+Content-Type: multipart/mixed; boundary="===============4574804480550403791=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
-Date: Mon, 20 Feb 2023 07:55:55 -0000
-Message-Id: <167687975587.2001.4396339966665157983@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-dt
+Date: Mon, 20 Feb 2023 07:55:58 -0000
+Message-Id: <167687975802.2065.7181069109518675715@gitolite.kernel.org>
 
---===============1594918601898954700==
+--===============4574804480550403791==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
+repo: pub/scm/linux/kernel/git/krzk/linux-dt
 user: krzk
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: c9c3395d5e3dcc6daee66c6908354d47bf98cb0c
     log: revlist-1b929c02afd3-c9c3395d5e3d.txt
 
---===============1594918601898954700==
+--===============4574804480550403791==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ a33d946cbb8709339a856d7da406a7a670e86a60 Merge tag 'irq-urgent-2023-02-19' of gi
 925cf0457d7e62ce08878ffb789189ac08ca8677 Merge tag 'x86-urgent-2023-02-19' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 c9c3395d5e3dcc6daee66c6908354d47bf98cb0c Linux 6.2
 
---===============1594918601898954700==--
+--===============4574804480550403791==--
