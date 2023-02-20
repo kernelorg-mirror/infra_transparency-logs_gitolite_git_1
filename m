@@ -1,111 +1,141 @@
-Content-Type: multipart/mixed; boundary="===============8619705184257442695=="
+Content-Type: multipart/mixed; boundary="===============0940002122579904878=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Mon, 20 Feb 2023 20:19:14 -0000
-Message-Id: <167692435474.26660.11457701323150592988@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/mm
+Date: Mon, 20 Feb 2023 20:33:16 -0000
+Message-Id: <167692519642.3103.17449865819226703896@gitolite.kernel.org>
 
---===============8619705184257442695==
+--===============0940002122579904878==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/akpm/mm
+user: akpm
 changes:
-  - ref: refs/heads/master
-    old: c9c3395d5e3dcc6daee66c6908354d47bf98cb0c
-    new: 91bc559d8d3aed488b4b50e9eba1d7ebb1da7bbf
-    log: revlist-c9c3395d5e3d-91bc559d8d3a.txt
+  - ref: refs/heads/mm-everything
+    old: 23de16dd868f939a99bbf4095430d209ef4d0c79
+    new: 45364ba26b605e1a1c329d4dcfedfeefc8f69b38
+    log: revlist-23de16dd868f-45364ba26b60.txt
+  - ref: refs/heads/mm-hotfixes-unstable
+    old: 9aa923d2b9941054c958f5dc13db3bbcc10bfe6d
+    new: 9ff343544b57976d3e1c51aecdee2bf189e40e13
+    log: |
+         96a9c287e25d690fd9623b5133703b8e310fbed1 mm/migrate: fix wrongly apply write bit after mkdirty on sparc64
+         ec4288fe63966b26d53907212ecd05dfa81dd2cc hugetlb: check for undefined shift on 32 bit architectures
+         99b9402a36f0799f25feee4465bfa4b8dfa74b4d nilfs2: fix underflow in second superblock position calculations
+         492540b56232d88b20b63224014389356adaf879 mm/page_alloc.c: fix page corruption caused by racy check in __free_pages
+         9ff343544b57976d3e1c51aecdee2bf189e40e13 mailmap: map Georgi Djakov's old Linaro address to his current one
+         
+  - ref: refs/heads/mm-nonmm-unstable
+    old: 4cde7a809cb342e7c108668de320bacffb86e866
+    new: 60774e28255701ca698641cc26275ea594282282
+    log: |
+         60774e28255701ca698641cc26275ea594282282 delayacct: improve the average delay precision of getdelay tool to microsecond
+         
+  - ref: refs/heads/mm-unstable
+    old: ccd6a73daba9b7737822775f0656afcfd03ef29e
+    new: 50603e80d906212ca26e5804aa63c8113822437d
+    log: revlist-ccd6a73daba9-50603e80d906.txt
 
---===============8619705184257442695==
+--===============0940002122579904878==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c9c3395d5e3d-91bc559d8d3a.txt
+Content-Disposition: attachment; filename=revlist-23de16dd868f-45364ba26b60.txt
 
-4e1da8fe031303599e78f88e0dad9f44272e4f99 posix_acl: Use try_cmpxchg in get_acl
-5970e15dbcfeb0ed3a0bf1954f35bbe60a048754 filelock: move file locking definitions to separate header file
-c65454a947263dfdf482076388aaed60af84ca2f fs: remove locks_inode
-8909a80e3f684fb274a171489c16e8f10c482e83 rust: alloc: remove the `borrow` module (`ToOwned`, `Cow`)
-cb7d9defdafba4c1d463a09c9b09876066f81ee4 rust: compiler_builtins: make stubs non-global
-9dc04365500340e6d60a996333d562af747337b1 rust: sync: add `Arc` for ref-counted allocations
-53528772fb5a174c8606cdf0047ac4899ce05be7 rust: sync: allow type of `self` to be `Arc<T>` or variants
-f75cb6fce4c91847d3b7cf2c5fc7c8eb4bc2d8f0 rust: sync: allow coercion from `Arc<T>` to `Arc<U>`
-17f671602cc6a15e65869c387492c5753c6f3cd5 rust: sync: introduce `ArcBorrow`
-92a655ae00a2f15fdd80eb96cd23526c0d8f0bfd rust: sync: allow type of `self` to be `ArcBorrow<T>`
-70e42ebbf6416e8005d8e08ae521b7d5cc5a8b3a rust: sync: introduce `UniqueArc`
-0748424aba89811b85e6e0f958b8ccd47f5af47e rust: sync: add support for dispatching on Arc and ArcBorrow.
-dec1df547d812a5ced4de29e7eadcfa0484bec1e rust: prelude: prevent doc inline of external imports
-64b4cdf22f3b002af4a7cb9651036b6248390286 f2fs: project ids aren't idmapped
-abf08576afe31506b812c8c1be9714f78613f300 fs: port vfs_*() helpers to struct mnt_idmap
-c1632a0f11209338fc300c66252bcc4686e609e8 fs: port ->setattr() to pass mnt_idmap
-b74d24f7a74ffd2d42ca883d84b7422b8d545901 fs: port ->getattr() to pass mnt_idmap
-6c960e68aaed335a0040f16654f3c5e5bfcf9249 fs: port ->create() to pass mnt_idmap
-7a77db95511c39be4b2db2ceca152ef589adc2dc fs: port ->symlink() to pass mnt_idmap
-c54bd91e9eaba43f09aadc25b52ea869ff3b5587 fs: port ->mkdir() to pass mnt_idmap
-5ebb29bee8d5fc173b774e0755be8cb335503ee3 fs: port ->mknod() to pass mnt_idmap
-e18275ae55e07a2937e48134589c2f4c1d99a369 fs: port ->rename() to pass mnt_idmap
-011e2b717b1b921d3706a9d48ff83a025563e826 fs: port ->tmpfile() to pass mnt_idmap
-77435322777d8a8a08264a39111bef94e32b871b fs: port ->get_acl() to pass mnt_idmap
-13e83a4923bea7c4f2f6714030cb7e56d20ef7e5 fs: port ->set_acl() to pass mnt_idmap
-8782a9aea3ab4d697ad67d1f8ebca38a4e1c24ab fs: port ->fileattr_set() to pass mnt_idmap
-4609e1f18e19c3b302e1eb4858334bca1532f780 fs: port ->permission() to pass mnt_idmap
-39f60c1ccee72caa0104145b5dbf5d37cce1ea39 fs: port xattr to mnt_idmap
-700b7940526d31117fd20b7ed31156df134fbe7f fs: port acl to mnt_idmap
-f2d40141d5d90b882e2c35b226f9244a63b82b6e fs: port inode_init_owner() to mnt_idmap
-01beba7957a26f9b7179127e8ad56bb5a0f56138 fs: port inode_owner_or_capable() to mnt_idmap
-9452e93e6dae862d7aeff2b11236d79bde6f9b66 fs: port privilege checking helpers to mnt_idmap
-f861646a65623bcff91d544acbc4413d62d97b79 quota: port to mnt_idmap
-0dbe12f2e49c046444461b5f4be49df2cafb3a40 fs: port i_{g,u}id_{needs_}update() to mnt_idmap
-e67fe63341b8117d7e0d9acf0f1222d5138b9266 fs: port i_{g,u}id_into_vfs{g,u}id() to mnt_idmap
-c14329d39f2daa8132e1bbe5cc531da387bcf44a fs: port fs{g,u}id helpers to mnt_idmap
-4d7ca4090184c153f8ccb1a68ca5cf136dac108b fs: port vfs{g,u}id helpers to mnt_idmap
-3707d84c13670bf09b4a9a4dc6733326d8344b31 fs: move mnt_idmap
-7a80e5b8c6fa7d0ae6624bd6aedc4a6a1cfc62fa shmem: support idmapped mounts for tmpfs
-c5bc1b3ff35ae321d018d0c4ba66b062e4fb1e05 fs: uninline inode_query_iversion
-a3bb710383cbca2a0f1f4e5a1c7ef8dde14eff95 fs: clarify when the i_version counter must be updated
-a1175d6b1bdaf4f74eda47ab18eb44194f9cb796 vfs: plumb i_version handling into struct kstat
-61a968b4f05e3c8880cfb127f122d7a3af882afa nfs: report the inode version in getattr if requested
-f6102994338c950f55233643c90f334305996758 ceph: report the inode version in getattr if requested
-3139b1d79588f65977b3543149df01063dc3d323 nfsd: move nfsd4_change_attribute to nfsfh.c
-638e3e7d9493dadca16cac7ea66e7cf368d4065a nfsd: use the getattr operation to fetch i_version
-58a033c9a3e003e048a0431a296e58c6b363b02b nfsd: remove fetch_iversion export operation
-47d586913f2abec4d240bae33417f537fda987ec fs: Use CHECK_DATA_CORRUPTION() when kernel bugs are detected
-4d4692a2ff836487c17960a6211a4cce7094f09c rust: types: introduce `ScopeGuard`
-0fc4424d24a230c7fb539d5d708c81c68aafa9be rust: types: introduce `ForeignOwnable`
-26949bac1e8264c711a81f962845aa0538279c78 rust: types: implement `ForeignOwnable` for `Box<T>`
-7118594466b8ed7285adb1dc177f2c84bfa33265 rust: types: implement `ForeignOwnable` for the unit type
-0c7ae432576100ce3609bca0508b9fbcb686a5fe rust: types: implement `ForeignOwnable` for `Arc<T>`
-0d1fffdedae26809ad59168e24f7c7534bd54c3a rust: MAINTAINERS: Add the zulip link
-7ea01d3169a28d090fc8f22e7fcb4e4f1090c2d2 rust: delete rust-project.json when running make clean
-0f5d4a0b995faa6537c4de79973817a4f8da206a crypto: certs: fix FIPS selftest dependency
-4d2732882703791ea4b670df433f88fc4b40a5cb tpm_crb: Add support for CRB devices based on Pluton
-06b53b02945e3021addc6af2da3ac999d2221d23 certs: make blacklisted hash available in klog
-6c1976addf3623e979b7a954e216004d559bcb42 KEYS: Add new function key_create()
-c95e8f6fd157b45ef0685c221931561e943e82da certs: don't try to update blacklist keys
-10de7b54293995368c52d9aa153f3e7a359f04a1 KEYS: asymmetric: Fix ECDSA use via keyctl uapi
-376f88f44ec03e8df573888056f1992602498df1 tpm: st33zp24: Convert to i2c's .probe_new()
-d787c95b565fd72259082ca771bfdc1a55ae3960 tpm: tpm_i2c_atmel: Convert to i2c's .probe_new()
-d5ae2f4760c5b332a805f1caae9eb10101152ddd tpm: tpm_i2c_infineon: Convert to i2c's .probe_new()
-8f3fb73b8b8dbac9803952086710fc32de377b8e tpm: tpm_i2c_nuvoton: Convert to i2c's .probe_new()
-40078327f6045185775eb7442a02f8edad2dea52 tpm: tis_i2c: Convert to i2c's .probe_new()
-441b7152729f4a2bdb100135a58625fa0aeb69e4 tpm: Use managed allocation for bios event log
-1e2714bb83fc783d58701967391bea242c65eaff tpm: Add reserved memory event log
-85b93bbd1c9768d09adebbe9f33bab0d4ec94404 tpm: add vendor flag to command code validation
-f3837ab7adbc1799a3c5648d34e3e27eb70709a6 highmem: Enhance is_kmap_addr() to check kmap_local_page() mappings
-c83900393aa133d5fefdbf2ab3377c7fbeec0c07 tee: Remove vmalloc page support
-0249a75b365911f91b87935bc08a4795a6fa7dd0 tee: Remove call to get_kernel_pages()
-816477edfba6e7ab9411acec5f07cfa00e0882f7 mm: Remove get_kernel_pages()
-d644c670ef24189a93945528720ed545d77dc514 Merge tag 'remove-get_kernel_pages-for-6.3' of https://git.linaro.org/people/jens.wiklander/linux-tee
-69adb0bcb833963050d82e645b6a1a0747662490 Merge tag 'rust-6.3' of https://github.com/Rust-for-Linux/linux
-219ac97a486c1ad9c110cb96ebdad7ba068236fb Merge tag 'tpm-v6.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-575a7e0f812a4968ad1e0c00026692ede040e13f Merge tag 'locks-v6.3' of git://git.kernel.org/pub/scm/linux/kernel/git/jlayton/linux
-de630176bdf885eed442902afe94eb60d8f5f826 Merge tag 'iversion-v6.3' of git://git.kernel.org/pub/scm/linux/kernel/git/jlayton/linux
-05e6295f7b5e05f09e369a3eb2882ec5b40fff20 Merge tag 'fs.idmapped.v6.3' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/idmapping
-ea5aac6fae94bff4756051b0503f86e31ef6808b Merge tag 'fs.v6.3' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/idmapping
-91bc559d8d3aed488b4b50e9eba1d7ebb1da7bbf Merge tag 'fs.acl.v6.3' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/idmapping
+96a9c287e25d690fd9623b5133703b8e310fbed1 mm/migrate: fix wrongly apply write bit after mkdirty on sparc64
+ec4288fe63966b26d53907212ecd05dfa81dd2cc hugetlb: check for undefined shift on 32 bit architectures
+99b9402a36f0799f25feee4465bfa4b8dfa74b4d nilfs2: fix underflow in second superblock position calculations
+492540b56232d88b20b63224014389356adaf879 mm/page_alloc.c: fix page corruption caused by racy check in __free_pages
+9ff343544b57976d3e1c51aecdee2bf189e40e13 mailmap: map Georgi Djakov's old Linaro address to his current one
+3baf2006626e9597a843c23acd749c0bd33ff001 Merge branch 'mm-stable' into mm-unstable
+7fef5af7977d2b2080d5f461109978a9d34d55fb mm/khugepaged: recover from poisoned anonymous memory
+a061d5b13b0662ea95411574c2cef5459570f378 mm/khugepaged: recover from poisoned file-backed memory
+361ac59f6f8f0359af8e0c0f71e33fc75ad8811d ksm: abstract the function try_to_get_old_rmap_item
+b380a710e33c8b3713f3dfda73823f08dca1e8d1 ksm-abstract-the-function-try_to_get_old_rmap_item-v6
+fb675387fbe34603e9d5a7103bf1406f72dadb7b ksm: support unsharing zero pages placed by KSM
+aebba905fedf9ac105766789c68016336b9b95fe ksm: count all zero pages placed by KSM
+3ccd155674a360cebd323857e146585fc527c3eb ksm: count zero pages for each process
+d4e0b6af4deee18af8dbb6cb6634fc9a44cb22e9 ksm: add zero_pages_sharing documentation
+ab1795b4cf885530456a90e16c2a062dd5862f6b selftest: add testing unsharing and counting ksm zero page
+8026c6d122d67a59f0664571d4d69537433bad52 selftest-add-testing-unsharing-and-counting-ksm-zero-page-v6
+07d9890d91b6e1c686c2cd9107b8754365f3902b dmapool: add alloc/free performance test
+f63d2d95b5dfc410f80bf35ba95b4db535162f36 dmapool: remove checks for dev == NULL
+7beb18d787768a0844d5eaf78f0b7f3c5b17b64a dmapool: use sysfs_emit() instead of scnprintf()
+bb65fe3a60d6a7842be8528ae127e5d908e3fba4 dmapool: cleanup integer types
+b466322f93baf8be96badf1d05996e25b693cdd7 dmapool: speedup DMAPOOL_DEBUG with init_on_alloc
+56925905226f6662b380884143174f6a74d880e8 dmapool: move debug code to own functions
+3919ccb72d6add9020fd8b0c93e35f228fb5b587 dmapool: rearrange page alloc failure handling
+0b3f4ea272bcad606cf64fb4af4e80df5229c8ce dmapool: consolidate page initialization
+7877e05aea3e44de958708aaae277b866a5cc7ea dmapool: simplify freeing
+86821ba5887eeeab8ca7bb421f907291744f84fb dmapool: don't memset on free twice
+ad1aabbf7f612cce44c303263ffadac63ed1bab6 dmapool: link blocks across pages
+396bfe50050231871269e4e1e173cbe225b8b9ec dmapool: create/destroy cleanup
+23a0af3e93ce3553c63af20e969fbeae8c8cf5a2 mm: reduce lock contention of pcp buffer refill
+c94d2fc67add2ead977f2f25deaf487e838361a6 kasan: mark addr_has_metadata __always_inline
+deccba4bb539ccb0ff7b1bda08c901244077a00b kmsan: disable ftrace in kmsan core code
+8bf99683a0303315942e3bfcd5d6d03e69e15fb1 objtool: add UACCESS exceptions for __tsan_volatile_read/write
+49a21cd8e7e051a5ff3c219fed5d2b106f2f1521 mm: change to return bool for folio_isolate_lru()
+3b1906d73615ce7433a157ed90397d1bd60fa248 mm: change to return bool for isolate_lru_page()
+cb80ada31d3117858b5b8fe24b0312a7bcc670cc mm: hugetlb: change to return bool for isolate_hugetlb()
+8e11d7e53ddc6d2dfc8c90f90d24769039ef1078 mm-hugetlb-change-to-return-bool-for-isolate_hugetlb-fix
+d48ed84e594635106bddc6abd0188b30aa193dc0 mm: change to return bool for isolate_movable_page()
+5f81549686ec907bfd555e3622f72c377b9ba2c6 mm-change-to-return-bool-for-isolate_movable_page-fix
+06c2de9f1971b4e85e31a959e6298b04cdaa8d10 mm/uffd: fix comment in handling pte markers
+44f1509b9a1a4adcfc4a87814291d5f727deb752 mm/memory_hotplug: cleanup return value handing in do_migrate_range()
+50603e80d906212ca26e5804aa63c8113822437d include/linux/migrate.h: remove unneeded externs
+60774e28255701ca698641cc26275ea594282282 delayacct: improve the average delay precision of getdelay tool to microsecond
+45364ba26b605e1a1c329d4dcfedfeefc8f69b38 Merge branch 'mm-nonmm-unstable' into mm-everything
 
---===============8619705184257442695==--
+--===============0940002122579904878==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-ccd6a73daba9-50603e80d906.txt
+
+96a9c287e25d690fd9623b5133703b8e310fbed1 mm/migrate: fix wrongly apply write bit after mkdirty on sparc64
+ec4288fe63966b26d53907212ecd05dfa81dd2cc hugetlb: check for undefined shift on 32 bit architectures
+99b9402a36f0799f25feee4465bfa4b8dfa74b4d nilfs2: fix underflow in second superblock position calculations
+492540b56232d88b20b63224014389356adaf879 mm/page_alloc.c: fix page corruption caused by racy check in __free_pages
+9ff343544b57976d3e1c51aecdee2bf189e40e13 mailmap: map Georgi Djakov's old Linaro address to his current one
+3baf2006626e9597a843c23acd749c0bd33ff001 Merge branch 'mm-stable' into mm-unstable
+7fef5af7977d2b2080d5f461109978a9d34d55fb mm/khugepaged: recover from poisoned anonymous memory
+a061d5b13b0662ea95411574c2cef5459570f378 mm/khugepaged: recover from poisoned file-backed memory
+361ac59f6f8f0359af8e0c0f71e33fc75ad8811d ksm: abstract the function try_to_get_old_rmap_item
+b380a710e33c8b3713f3dfda73823f08dca1e8d1 ksm-abstract-the-function-try_to_get_old_rmap_item-v6
+fb675387fbe34603e9d5a7103bf1406f72dadb7b ksm: support unsharing zero pages placed by KSM
+aebba905fedf9ac105766789c68016336b9b95fe ksm: count all zero pages placed by KSM
+3ccd155674a360cebd323857e146585fc527c3eb ksm: count zero pages for each process
+d4e0b6af4deee18af8dbb6cb6634fc9a44cb22e9 ksm: add zero_pages_sharing documentation
+ab1795b4cf885530456a90e16c2a062dd5862f6b selftest: add testing unsharing and counting ksm zero page
+8026c6d122d67a59f0664571d4d69537433bad52 selftest-add-testing-unsharing-and-counting-ksm-zero-page-v6
+07d9890d91b6e1c686c2cd9107b8754365f3902b dmapool: add alloc/free performance test
+f63d2d95b5dfc410f80bf35ba95b4db535162f36 dmapool: remove checks for dev == NULL
+7beb18d787768a0844d5eaf78f0b7f3c5b17b64a dmapool: use sysfs_emit() instead of scnprintf()
+bb65fe3a60d6a7842be8528ae127e5d908e3fba4 dmapool: cleanup integer types
+b466322f93baf8be96badf1d05996e25b693cdd7 dmapool: speedup DMAPOOL_DEBUG with init_on_alloc
+56925905226f6662b380884143174f6a74d880e8 dmapool: move debug code to own functions
+3919ccb72d6add9020fd8b0c93e35f228fb5b587 dmapool: rearrange page alloc failure handling
+0b3f4ea272bcad606cf64fb4af4e80df5229c8ce dmapool: consolidate page initialization
+7877e05aea3e44de958708aaae277b866a5cc7ea dmapool: simplify freeing
+86821ba5887eeeab8ca7bb421f907291744f84fb dmapool: don't memset on free twice
+ad1aabbf7f612cce44c303263ffadac63ed1bab6 dmapool: link blocks across pages
+396bfe50050231871269e4e1e173cbe225b8b9ec dmapool: create/destroy cleanup
+23a0af3e93ce3553c63af20e969fbeae8c8cf5a2 mm: reduce lock contention of pcp buffer refill
+c94d2fc67add2ead977f2f25deaf487e838361a6 kasan: mark addr_has_metadata __always_inline
+deccba4bb539ccb0ff7b1bda08c901244077a00b kmsan: disable ftrace in kmsan core code
+8bf99683a0303315942e3bfcd5d6d03e69e15fb1 objtool: add UACCESS exceptions for __tsan_volatile_read/write
+49a21cd8e7e051a5ff3c219fed5d2b106f2f1521 mm: change to return bool for folio_isolate_lru()
+3b1906d73615ce7433a157ed90397d1bd60fa248 mm: change to return bool for isolate_lru_page()
+cb80ada31d3117858b5b8fe24b0312a7bcc670cc mm: hugetlb: change to return bool for isolate_hugetlb()
+8e11d7e53ddc6d2dfc8c90f90d24769039ef1078 mm-hugetlb-change-to-return-bool-for-isolate_hugetlb-fix
+d48ed84e594635106bddc6abd0188b30aa193dc0 mm: change to return bool for isolate_movable_page()
+5f81549686ec907bfd555e3622f72c377b9ba2c6 mm-change-to-return-bool-for-isolate_movable_page-fix
+06c2de9f1971b4e85e31a959e6298b04cdaa8d10 mm/uffd: fix comment in handling pte markers
+44f1509b9a1a4adcfc4a87814291d5f727deb752 mm/memory_hotplug: cleanup return value handing in do_migrate_range()
+50603e80d906212ca26e5804aa63c8113822437d include/linux/migrate.h: remove unneeded externs
+
+--===============0940002122579904878==--
