@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============7275621522278041984=="
+Content-Type: multipart/mixed; boundary="===============3931555168287257394=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/selinux
-Date: Mon, 20 Feb 2023 21:54:27 -0000
-Message-Id: <167693006766.24505.2774017721699689078@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/lsm
+Date: Mon, 20 Feb 2023 21:54:31 -0000
+Message-Id: <167693007196.24611.15680990945985679265@gitolite.kernel.org>
 
---===============7275621522278041984==
+--===============3931555168287257394==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pcmoore/selinux
+repo: pub/scm/linux/kernel/git/pcmoore/lsm
 user: pcmoore
 changes:
   - ref: refs/heads/main
-    old: bfb7614e52a5147a81460bd2c2560c428d8457e3
-    new: dd43102acca0836f5e50746c47c258be1ef9060c
-    log: revlist-bfb7614e52a5-dd43102acca0.txt
+    old: 6db30b652291a2c37fd45f9273847d12ac7ddf5f
+    new: 6498ef63134bad25c6a4c17c0f9dc4ef0eb30777
+    log: revlist-6db30b652291-6498ef63134b.txt
 
---===============7275621522278041984==
+--===============3931555168287257394==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bfb7614e52a5-dd43102acca0.txt
+Content-Disposition: attachment; filename=revlist-6db30b652291-6498ef63134b.txt
 
 e1fabbc83cb1dd4ba63932faa86c9cacb8bf791e efi: Remove Matthew Garrett as efivarfs maintainer
 febb2c0d7c69c0396aa32d5ab425a4163473961a HID: uclogic: Add support for XP-PEN Deco 01 V2
@@ -1049,6 +1049,6 @@ a33d946cbb8709339a856d7da406a7a670e86a60 Merge tag 'irq-urgent-2023-02-19' of gi
 0097c18e459c5ca5d169750eaed99fd272606c1a Merge tag 'timers-urgent-2023-02-19' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 925cf0457d7e62ce08878ffb789189ac08ca8677 Merge tag 'x86-urgent-2023-02-19' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 c9c3395d5e3dcc6daee66c6908354d47bf98cb0c Linux 6.2
-dd43102acca0836f5e50746c47c258be1ef9060c selinux: add a SELinux specific README.md and SECURITY.md
+6498ef63134bad25c6a4c17c0f9dc4ef0eb30777 lsm: add a LSM specific README.md and SECURITY.md
 
---===============7275621522278041984==--
+--===============3931555168287257394==--
