@@ -1,32 +1,72 @@
-Content-Type: multipart/mixed; boundary="===============0155727205515327231=="
+Content-Type: multipart/mixed; boundary="===============0651165111395577389=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Mon, 20 Feb 2023 13:03:25 -0000
-Message-Id: <167689820586.28182.6581132020069618248@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
+Date: Mon, 20 Feb 2023 13:03:31 -0000
+Message-Id: <167689821188.28257.8998996012934591101@gitolite.kernel.org>
 
---===============0155727205515327231==
+--===============0651165111395577389==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
+repo: pub/scm/linux/kernel/git/leon/linux-rdma
 user: leon
 changes:
-  - ref: refs/heads/wip/leon-for-rc
-    old: 2de49fb1c9bb8bfe283070fef2e9304d9842a30c
-    new: ceaa837f96adb69c0df0397937cd74991d5d821a
-    log: revlist-2de49fb1c9bb-ceaa837f96ad.txt
+  - ref: refs/heads/rdma-next
+    old: 1dcc3440ee53c688f19f579a051ded81a2aaa70a
+    new: b7bb646524e9893d19cafcf764af5f93c2225a20
+    log: revlist-1dcc3440ee53-b7bb646524e9.txt
+  - ref: refs/heads/rdma-rc
+    old: e4835b7abf98c61f93e0beaa98169e0ec76cf9a2
+    new: 45636787971e8fede4ca88c6f6747cbd15ec7de9
+    log: revlist-e4835b7abf98-45636787971e.txt
 
---===============0155727205515327231==
+--===============0651165111395577389==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2de49fb1c9bb-ceaa837f96ad.txt
+Content-Disposition: attachment; filename=revlist-1dcc3440ee53-b7bb646524e9.txt
 
-4bb4db7f3187c6e3de6b229ffc87cdb30a2d22b6 net: nfc: Fix use-after-free in local_cleanup()
+3f26a315f88274361aea86c2bcd6af4bb59b1a87 net/mlx5e: Fix trap event handling
+c7d4e6ab3165693342c21f6faf80d983137fee0c net/mlx5e: Propagate an internal event in case uplink netdev changes
+dca55da0a15717dde509d17163946e951bad56c4 RDMA/mlx5: Track netdev to avoid deadlock during netdev notifier unregister
+7368f221e09eac116050475bec5a292a85c5ea8a net/mlx5: Introduce new destination type TABLE_TYPE
+4f226b71f5edc33843e21f92ebe97b1561804d52 net/mlx5: Implement new destination type TABLE_TYPE
+f91ddd3aa4b313aa4b792d1588ccb63c3e4ace0b net/mlx5: Add IPSec priorities in RDMA namespaces
+899577600b25b338072095009d4c578fbd936177 net/mlx5: Configure IPsec steering for ingress RoCEv2 traffic
+22551e77e5507a06114c0af2b92bbf1a66ec33c5 net/mlx5: Configure IPsec steering for egress RoCEv2 traffic
+5ff31dfcd6d23f9c1bd5dd1a2c648ba499659357 Subject: RDMA/rxe: Handle zero length rdma
+876e480da2f74715fc70e37723e77ca16a631e35 RDMA/cma: Distinguish between sockaddr_in and sockaddr_in6 by size
+72a03627443d5bc7032ab98bd784740cd8a76f8a RDMA/rxe: Remove rxe_alloc()
+89d42b8c85b4c67d310c5ccaf491acbf71a260c3 RDMA/mana_ib: Fix a bug when the PF indicates more entries for registering memory on first packet
+a77a52385e9a761f896a88a4162e69fb7ccafe3f RDMA/rxe: Fix missing memory barriers in rxe_queue.h
+4b7296aa6c6618d6a6840fbe857e4990f626bd90 net/mlx5: Expose bits for querying special mkeys
+a419bfb7632095410adc3aecb1e863568f049add net/mlx5: Change define name for 0x100 lkey value
+1b1e4868836a4b5b375be75fd4c9583d29500517 net/mlx5e: Use query_special_contexts for mkeys
+594cac11ab6a1be8022a3c96d181dde7cfb0b8cf RDMA/mlx5: Use query_special_contexts for mkeys
+5ef17179da7b779b3029d9a7d3871ba09279d56c Merge mlx5-next into rdma.git for-next
+d2225b838ccad126045e048471441693c7bca217 RDMA/irdma: Add support for dmabuf pin memory regions
+a0d198f79a8d033bd46605b779859193649f1f99 IB/hfi1: Fix math bugs in hfi1_can_pin_pages()
+fd8958efe8779d3db19c9124fce593ce681ac709 IB/hfi1: Fix sdma.h tx->num_descs off-by-one errors
+66fb1d5df6ace316a4a6e2c31e13fc123ea2b644 IB/mlx5: Extend debug control for CC parameters
+4a8216e47dab55118234130842adc4e7016fa91b net/sched: Don't print dump stack in event of transmission timeout
+8b14b6e3f45f43c75f5f9362e0e8cd057240fc56 RDMA/core: Introduce peer memory interface
+fdf2386011576f8e56dfbde6fe1c469635cecb1b net/mlx5: Nullify qp->dbg pointer post destruction
+b52fb037545ae51de9535c2ff3783c5a709c8f67 RDMA/mlx5: Handling dct common resource destruction upon firmware failure
+3eb5680963506023e2c3d999c628607fc965c257 RDMA/mlx5: Return the firmware result upon destroying QP/RQ
+73415fd58c6ac0e6a7c6c4defff8a6f88d00e925 RDMA: Split kernel-only create QP flags from uverbs create QP flags
+1121252e0fb29ebcebe5457e046ea542f9b35272 genirq/msi: Free the fwnode created by msi_create_device_irq_domain()
+b7bb646524e9893d19cafcf764af5f93c2225a20 RDMA/mlx5: Initiate dropless RQ for RAW Ethernet functions
+
+--===============0651165111395577389==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-e4835b7abf98-45636787971e.txt
+
 488e0bf7f34af3d42d1d5e56f7a5a7beaff188a3 net: wan: Add checks for NULL for utdm in undo_uhdlc_init and unmap_si_regs
 3c463721a73bdb57a913e0d3124677a3758886fc net: enetc: avoid deadlock in enetc_tx_onestep_tstamp()
 925f3deb45df73173a33e1e81db77575f4ffde39 net: lan966x: add missing fwnode_handle_put() for ports node
@@ -1050,5 +1090,6 @@ e2bca0ebf775453bb3c6b9c2149fb4712621493a Merge tag 'usb-6.2-rc8' of git://git.ke
 5e98e916f95bdc50e90f3199d7f3d74b94fa5976 Merge tag 'trace-v6.2-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 80510b63f7b6bdd30e07b3a42115d0a324e20cd6 MAINTAINERS: Add myself as maintainer for arch/sh (SUPERH)
 ceaa837f96adb69c0df0397937cd74991d5d821a Linux 6.2-rc8
+45636787971e8fede4ca88c6f6747cbd15ec7de9 RDMA/cma: Allow UD qp_type to join multicast only
 
---===============0155727205515327231==--
+--===============0651165111395577389==--
