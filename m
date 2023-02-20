@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sschmidt/wpan-next
-Date: Mon, 20 Feb 2023 21:27:41 -0000
-Message-Id: <167692846113.6961.5009553785539959593@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Mon, 20 Feb 2023 21:30:35 -0000
+Message-Id: <167692863523.9486.17210005395826547946@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sschmidt/wpan-next
-user: sschmidt
+repo: pub/scm/linux/kernel/git/tip/tip
+user: tglx
 changes:
-  - ref: refs/tags/ieee802154-for-net-next-2023-02-20
-    old: 0000000000000000000000000000000000000000
-    new: ed9a8ad7d8a1a0eb7d4e1414d0a04ece7c2265df
-  - ref: refs/tags/v6.2-rc6
-    old: 0000000000000000000000000000000000000000
-    new: d68cd3a82e80628f13a69e51ce459de12870f5b9
-  - ref: refs/tags/v6.2-rc7
-    old: 0000000000000000000000000000000000000000
-    new: 53b3c6467004c627f42d96ef839b223a749bcdd9
+  - ref: refs/heads/irq/urgent
+    old: feabecaff5902f896531dde90646ca5dfa9d4f7d
+    new: 0af2795f936f1ea1f9f1497447145dfcc7ed2823
+    log: |
+         0af2795f936f1ea1f9f1497447145dfcc7ed2823 genirq/msi: Take the per-device MSI lock before validating the control structure
+         
