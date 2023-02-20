@@ -1,27 +1,69 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Mon, 20 Feb 2023 08:56:20 -0000
-Message-Id: <167688338045.9858.4937853701101098062@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============1774346724932997353=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kvalo/ath
+Date: Mon, 20 Feb 2023 09:05:15 -0000
+Message-Id: <167688391588.15693.4771109717686755685@gitolite.kernel.org>
+
+--===============1774346724932997353==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: davem
+repo: pub/scm/linux/kernel/git/kvalo/ath
+user: kvalo
 changes:
-  - ref: refs/heads/master
-    old: dd1b527831a3ed659afa01b672d8e1f7e6ca95a5
-    new: cf06eef0c86bd2088bafecb211e06a2855b4c327
-    log: |
-         7c9c8913f4523cda30a710736844d74bfee060a4 ipv6: icmp6: add drop reason support to ndisc_recv_ns()
-         3009f9ae21ec539985977dcaa0cebb628afeb181 ipv6: icmp6: add drop reason support to ndisc_recv_na()
-         243e37c642ac1d52858bc5f3559e380babf21169 ipv6: icmp6: add drop reason support to ndisc_recv_rs()
-         2f326d9d9ff46fb2e45fb3b6ae77eff04332dde6 ipv6: icmp6: add drop reason support to ndisc_router_discovery()
-         ec993edf05ca4eee5878edf51fdb5ffa2b1decc3 ipv6: icmp6: add drop reason support to ndisc_redirect_rcv()
-         784d4477f07b930df73bc77e842e03f1dacb83aa ipv6: icmp6: add SKB_DROP_REASON_IPV6_NDISC_BAD_OPTIONS
-         c34b8bb11ebc135e970653bd6fc8e3f863fb6a81 ipv6: icmp6: add SKB_DROP_REASON_IPV6_NDISC_NS_OTHERHOST
-         ac03694bc009703022cf45a9c90675d5505c584c ipv6: icmp6: add drop reason support to icmpv6_echo_reply()
-         cf06eef0c86bd2088bafecb211e06a2855b4c327 Merge branch 'icmp6-drop-reason'
-         
+  - ref: refs/heads/master-pending
+    old: ae3f5705c29d1df24d0a297ddb3b8d6d955b42e1
+    new: 3a359f9e1fedc02e38a944096623dd1fd3e9c12a
+    log: revlist-ae3f5705c29d-3a359f9e1fed.txt
+  - ref: refs/heads/pending
+    old: 9cbdad34b003c5e512baec2026651d0959ae8feb
+    new: e02095635d5ae4536803998a63c074df14a15161
+    log: revlist-9cbdad34b003-e02095635d5a.txt
+
+--===============1774346724932997353==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-ae3f5705c29d-3a359f9e1fed.txt
+
+8c464d16809fa02982f6341ea598ec5d07457f19 wifi: ath12k: use kfree_skb() instead of kfree()
+342fcde9d91460f01f65707e16368a1571271a3a wifi: ath11k: fix return value check in ath11k_ahb_probe()
+7654cc03eb699297130b693ec34e25f77b17c947 wifi: ath9k: hif_usb: fix memory leak of remain_skbs
+be8edad08cb9b6f3f7e105bb640cbe21758d2c55 Merge branch 'ath-next'
+93e2511365342ebfc574e5e3c1ffed7eb2cd1cd1 Merge remote-tracking branch 'mhi/mhi-next'
+0db33aa874a9a46b5105da38d3c4f55e57dff4e6 Add localversion-wireless-testing-ath
+5df0780a0fc963099c4e7e3a466ee2ba59e13bb6 wifi: ath12k: Handle lock during peer_id find
+dd0bbbef3bc45bb51d60fbc25570f9304cea203d wifi: ath12k: PCI ops for wakeup/release MHI
+907dd0803ae8d7e95eea3cf3b6a2413fb36c1fa2 wifi: ath11k: Use platform_get_irq() to get the interrupt
+674fafa4cced39c8b0b306fcdff4979de2449022 wifi: ath5k: Use platform_get_irq() to get the interrupt
+081841a583032ed85aaf541ffc1e1cf25df60e0b wifi: ath11k: allow system suspend to survive ath11k
+adf4f180f81bdaeb66bf005a1e31053a7ba3027a wifi: ath11k: fix SAC bug on peer addition with sta band migration
+b99ce74b59bac172a2b772261069b806df85d3e5 wifi: ath5k: fix an off by one check in ath5k_eeprom_read_freq_list()
+280a903d7cb3bc2fa25697041b470a830553cd0d wifi: ath10k: snoc: enable threaded napi on WCN3990
+e02095635d5ae4536803998a63c074df14a15161 wifi: ath10k: Remove redundant assignment to changed_flags
+3a359f9e1fedc02e38a944096623dd1fd3e9c12a Merge branch 'pending' into master-pending
+
+--===============1774346724932997353==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-9cbdad34b003-e02095635d5a.txt
+
+8c464d16809fa02982f6341ea598ec5d07457f19 wifi: ath12k: use kfree_skb() instead of kfree()
+342fcde9d91460f01f65707e16368a1571271a3a wifi: ath11k: fix return value check in ath11k_ahb_probe()
+7654cc03eb699297130b693ec34e25f77b17c947 wifi: ath9k: hif_usb: fix memory leak of remain_skbs
+5df0780a0fc963099c4e7e3a466ee2ba59e13bb6 wifi: ath12k: Handle lock during peer_id find
+dd0bbbef3bc45bb51d60fbc25570f9304cea203d wifi: ath12k: PCI ops for wakeup/release MHI
+907dd0803ae8d7e95eea3cf3b6a2413fb36c1fa2 wifi: ath11k: Use platform_get_irq() to get the interrupt
+674fafa4cced39c8b0b306fcdff4979de2449022 wifi: ath5k: Use platform_get_irq() to get the interrupt
+081841a583032ed85aaf541ffc1e1cf25df60e0b wifi: ath11k: allow system suspend to survive ath11k
+adf4f180f81bdaeb66bf005a1e31053a7ba3027a wifi: ath11k: fix SAC bug on peer addition with sta band migration
+b99ce74b59bac172a2b772261069b806df85d3e5 wifi: ath5k: fix an off by one check in ath5k_eeprom_read_freq_list()
+280a903d7cb3bc2fa25697041b470a830553cd0d wifi: ath10k: snoc: enable threaded napi on WCN3990
+e02095635d5ae4536803998a63c074df14a15161 wifi: ath10k: Remove redundant assignment to changed_flags
+
+--===============1774346724932997353==--
