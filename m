@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/efi/efi
-Date: Mon, 20 Feb 2023 18:26:58 -0000
-Message-Id: <167691761815.17241.11889453074974753856@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/teigland/linux-dlm
+Date: Mon, 20 Feb 2023 18:32:59 -0000
+Message-Id: <167691797985.20660.4634531897924677992@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/efi/efi
-user: ardb
+repo: pub/scm/linux/kernel/git/teigland/linux-dlm
+user: teigland
 changes:
-  - ref: refs/tags/efi-next-for-v6.3
-    old: a5edbf21339ad9532cb771a19ae222127ad209ca
-    new: 8e26d030873fed6d9f5b701ce09dde2868aa2eba
+  - ref: refs/tags/dlm-6.3
+    old: dbc65a019772e1e56760b793e3cc417de06bbcbd
+    new: 0000000000000000000000000000000000000000
