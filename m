@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6248289800515999176=="
+Content-Type: multipart/mixed; boundary="===============5794258479503230174=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 20 Feb 2023 11:44:28 -0000
-Message-Id: <167689346852.5794.6004990239741993019@gitolite.kernel.org>
+Date: Mon, 20 Feb 2023 11:45:57 -0000
+Message-Id: <167689355706.9138.10265669699065726810@gitolite.kernel.org>
 
---===============6248289800515999176==
+--===============5794258479503230174==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,24 +15,59 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
+  - ref: refs/heads/auto-latest
+    old: be97fc4ad26c6f74728b33e00787e485a952f299
+    new: 5ebaf1ccc06b89eb4476ecafb081d9e2f8d3d9d3
+    log: revlist-be97fc4ad26c-5ebaf1ccc06b.txt
   - ref: refs/heads/master
-    old: 135732efc2c04500d211deceddff69ca575e6045
-    new: d8bec0bb983216c398c429ebc32fd5366f83b6d4
-    log: revlist-135732efc2c0-d8bec0bb9832.txt
-  - ref: refs/tags/v6.2
-    old: 0000000000000000000000000000000000000000
-    new: 32758e7a720e4752a824c6062e75f107314e5598
+    old: d8bec0bb983216c398c429ebc32fd5366f83b6d4
+    new: 5ebaf1ccc06b89eb4476ecafb081d9e2f8d3d9d3
+    log: revlist-d8bec0bb9832-5ebaf1ccc06b.txt
 
---===============6248289800515999176==
+--===============5794258479503230174==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-135732efc2c0-d8bec0bb9832.txt
+Content-Disposition: attachment; filename=revlist-be97fc4ad26c-5ebaf1ccc06b.txt
 
+e740604232dc5c3097808f3e91fd02d9316010c5 irqchip/aspeed-scu-ic: Correctly initialise status and enable registers
+fc98adb9a8435cdb4e8349138ac0b728df80ade9 irqchip/loongson-liointc: Save/restore int_edge/int_pol registers during S3/S4
+835a486cd9f55790dee9f6b67ce0057d49f15da5 genirq: Add mechanism to multiplex a single HW IPI
+c19f897194288ec286bb52001b9ee9551876a614 irqchip/apple-aic: Move over to core ipi-mux
+6caa5a2b78f5f53c433d3a3781e53325da22f0ac irqchip: Fix refcount leak in platform_irqchip_probe
+071d068b89e95d1b078aa6bbcb9d0961b77d6aa1 irqchip/alpine-msi: Fix refcount leak in alpine_msix_init_domains
+9419e700021a393f67be36abd0c4f3acc6139041 irqchip/irq-mvebu-gicp: Fix refcount leak in mvebu_gicp_probe
+02298b7bae12936ca313975b02e7f98b06670d37 irqchip/ti-sci: Fix refcount leak in ti_sci_intr_irq_domain_probe
+9c1a7bfc2993112cfb3056b18301fcafe5c2fde5 irqchip/ls-scfg-msi: Simplify Kconfig dependencies
+3d812a0f27baa2d094f2c18298d48b012878dc0b genirq/ipi-mux: Use irq_domain_alloc_irqs()
+6360ec8f13f6aa1a1a38dca7ec6b9be580fbfc21 Merge branch irq/ipi-mux into irq/irqchip-next
+5f61c6931b18369798e561aa378d5ea6236bcdef Merge branch irq/refcount into irq/irqchip-next
+df2d85d0b0b5b1533d6db9079f0a0a7b73ef6a9e Merge branch irq/misc-6.3 into irq/irqchip-next
 5afc7eefe41645259da84898fc55f6f46cb4de47 ASoC: SOF: ops: refine parameters order in function snd_sof_dsp_update8
 18d7e16c917a08f08778ecf2b780d63648d5d923 ALSA: hda/conexant: add a new hda codec SN6180
 3af4a4f7a20c94009adba65764fa5a0269d70a82 ALSA: hda: Fix codec device field initializan
 2bdccfd290d421b50df4ec6a68d832dad1310748 ALSA: hda/realtek - fixed wrong gpio assigned
+b06730a571a9ff1ba5bd6b20bf9e50e5a12f1ec6 irqdomain: Fix association race
+3f883c38f5628f46b30bccf090faec054088e262 irqdomain: Fix disassociation race
+e3b7ab025e931accdc2c12acf9b75c6197f1c062 irqdomain: Drop bogus fwspec-mapping error handling
+6e6f75c9c98d2d246d90411ff2b6f0cd271f4cba irqdomain: Look for existing mapping only once
+d55f7f4c58c07beb5050a834bf57ae2ede599c7e irqdomain: Refactor __irq_domain_alloc_irqs()
+601363cc08da25747feb87c55573dd54de91d66a irqdomain: Fix mapping-creation race
+8932c32c3053accd50702b36e944ac2016cd103c irqdomain: Fix domain registration race
+47d1932f37de99bae3345bb93f098ac8750ab0fb irqdomain: Drop revmap mutex
+28a9ff23d8b56db09cb01cef174a205ea5e2ca49 irqdomain: Drop dead domain-name assignment
+4e0d86df9344bfd1951eb2571e4ef8f3d37000a4 irqdomain: Drop leftover brackets
+930a1bbbef01cdcd682d9c2b4bc9e36b9618fed3 irqdomain: Clean up irq_domain_push/pop_irq()
+bc1bc1b309b42ff3faea957df7ac9382366c5eef x86/ioapic: Use irq_domain_create_hierarchy()
+a14e7fdd43040a2a5da2cc979063b3c958015aa9 x86/uv: Use irq_domain_create_hierarchy()
+6c889231e04dffa4b668c1f0fbc26db679600147 irqchip/alpine-msi: Use irq_domain_add_hierarchy()
+e6e8cd62a56f9ed0dcdf8d01147709b59a111418 irqchip/gic-v2m: Use irq_domain_create_hierarchy()
+1e46e040decede1723a5b11f0689942134c29d9a irqchip/gic-v3-its: Use irq_domain_create_hierarchy()
+331f9aac03267f76a15776260eda4f47b81731f7 irqchip/gic-v3-mbi: Use irq_domain_create_hierarchy()
+6159c470f812eab0a2f1900c70acbb3ca7b9e14a irqchip/loongson-pch-msi: Use irq_domain_create_hierarchy()
+f743f54fa8d2bcb3f2891b783687d91b76a144f5 irqchip/mvebu-odmi: Use irq_domain_create_hierarchy()
+9dbb8e3452aba34e6fa4f63054b3adc66aceb7ec irqdomain: Switch to per-domain locking
+7135b35fc9596ec233ea016fc8cfb8c4d175d3bf Merge branch irq/irqdomain-locking into irq/irqchip-next
 6ea6b95a7e3ec2015954cb514ee9dbc6dc80ec8f mmc: meson-gx: fix SDIO mode if cap_sdio_irq isn't set
 605d9fb9556f8f5fb4566f4df1480f280f308ded mmc: sdio: fix possible resource leaks in some error paths
 cf4c9d2ac1e42c7d18b921bec39486896645b714 mmc: mmc_spi: fix error handling in mmc_spi_probe()
@@ -70,13 +105,63 @@ dbeed98d89ea91ae68ff6dce6060671726292e85 Merge tag 'powerpc-6.2-6' of git://git.
 ec4288fe63966b26d53907212ecd05dfa81dd2cc hugetlb: check for undefined shift on 32 bit architectures
 99b9402a36f0799f25feee4465bfa4b8dfa74b4d nilfs2: fix underflow in second superblock position calculations
 38f8ccde04a3fa317b51b05e63c3cb57e1641931 Merge tag 'mm-hotfixes-stable-2023-02-17-15-16-2' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
+94debe03e8afa1267f95a9001786a6aa506b9ff3 irqchip/irq-brcmstb-l2: Set IRQ_LEVEL for level triggered interrupts
+13a157b38ca5b4f9eed81442b8821db293755961 irqchip/irq-bcm7120-l2: Set IRQ_LEVEL for level triggered interrupts
+a83bf176fed4ee88dad84d59f77dde153b9a442a Merge branch irq/bcm-l2-fixes into irq/irqchip-next
 0e9fd589e61dace0dcc9848fbf6eb38f16d25f08 Merge tag 'block-6.2-2023-02-17' of git://git.kernel.dk/linux
 0c2822b116e300ca6e3b7f98623deb760a93a1d2 Merge tag 'arm64-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux
 5e725d112e1a54c2611d5dffd124a79415d0f0de Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
+6f3ee0e22b4c62f44b8fa3c8de6e369a4d112a75 Merge tag 'irqchip-6.3' of git://git.kernel.org/pub/scm/linux/kernel/git/maz/arm-platforms into irq/core
 a33d946cbb8709339a856d7da406a7a670e86a60 Merge tag 'irq-urgent-2023-02-19' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 0097c18e459c5ca5d169750eaed99fd272606c1a Merge tag 'timers-urgent-2023-02-19' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 925cf0457d7e62ce08878ffb789189ac08ca8677 Merge tag 'x86-urgent-2023-02-19' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 c9c3395d5e3dcc6daee66c6908354d47bf98cb0c Linux 6.2
-d8bec0bb983216c398c429ebc32fd5366f83b6d4 Merge branch 'linus'
+41fb89a5d8620172d3e6f27c605fe306b450467e Merge branch into tip/master: 'irq/core'
+5c0032a25f3f5f1ff69da8630156081f7f09811d Merge branch into tip/master: 'locking/core'
+7a342728fc8fc6f5f232bce538047b43ea956d07 Merge branch into tip/master: 'objtool/core'
+1201b06757fcab24296cd2fefc3e851bdbdddc98 Merge branch into tip/master: 'perf/core'
+86eae28b15a45d1533a3565a29775f6f3cce8cb8 Merge branch into tip/master: 'ras/core'
+904e929ae311532307ce8bcb13f76d8203614e38 Merge branch into tip/master: 'timers/core'
+4d68c41df88bd3f1af0f1fe6df04c9debafbe0bd Merge branch into tip/master: 'x86/alternatives'
+63a6d604f4c422921050be7dcc88df4cd3713f07 Merge branch into tip/master: 'x86/asm'
+10d0703c49a0150d4a33522e2a71693853fcc09d Merge branch into tip/master: 'x86/boot'
+9c0df6922b1924945c8e98a2fc2dabf04d110fa4 Merge branch into tip/master: 'x86/build'
+7ef4c667fe85f31716b4776a9628ee800d0d9384 Merge branch into tip/master: 'x86/cache'
+b0eb0b9046b4ccd29722f5891c96674f9baa62bb Merge branch into tip/master: 'x86/cleanups'
+4374b2d5d8328c4ae1816e73556b15c13cd0a7ee Merge branch into tip/master: 'x86/core'
+b54111b11ff07b2ebaba634bb474b27fc21e7551 Merge branch 'x86/cpu'
+a553a31fa7f058dccc806f93d1f97a497a1473d3 Merge branch into tip/master: 'x86/fpu'
+6aac2d3966be6fd7721be84a0e8698a211be6657 Merge branch into tip/master: 'x86/microcode'
+5687a32019fc798ecb2bef2cbcb031f0ef08f7b3 Merge branch into tip/master: 'x86/mm'
+1a54c450ae25725fb442e7e2e87f0bd406954adf Merge branch into tip/master: 'x86/platform'
+2d43b5de2ceefae1fb56bf202bd75387996cee47 Merge branch 'x86/tdx'
+5ebaf1ccc06b89eb4476ecafb081d9e2f8d3d9d3 Merge branch into tip/master: 'x86/vdso'
 
---===============6248289800515999176==--
+--===============5794258479503230174==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-d8bec0bb9832-5ebaf1ccc06b.txt
+
+41fb89a5d8620172d3e6f27c605fe306b450467e Merge branch into tip/master: 'irq/core'
+5c0032a25f3f5f1ff69da8630156081f7f09811d Merge branch into tip/master: 'locking/core'
+7a342728fc8fc6f5f232bce538047b43ea956d07 Merge branch into tip/master: 'objtool/core'
+1201b06757fcab24296cd2fefc3e851bdbdddc98 Merge branch into tip/master: 'perf/core'
+86eae28b15a45d1533a3565a29775f6f3cce8cb8 Merge branch into tip/master: 'ras/core'
+904e929ae311532307ce8bcb13f76d8203614e38 Merge branch into tip/master: 'timers/core'
+4d68c41df88bd3f1af0f1fe6df04c9debafbe0bd Merge branch into tip/master: 'x86/alternatives'
+63a6d604f4c422921050be7dcc88df4cd3713f07 Merge branch into tip/master: 'x86/asm'
+10d0703c49a0150d4a33522e2a71693853fcc09d Merge branch into tip/master: 'x86/boot'
+9c0df6922b1924945c8e98a2fc2dabf04d110fa4 Merge branch into tip/master: 'x86/build'
+7ef4c667fe85f31716b4776a9628ee800d0d9384 Merge branch into tip/master: 'x86/cache'
+b0eb0b9046b4ccd29722f5891c96674f9baa62bb Merge branch into tip/master: 'x86/cleanups'
+4374b2d5d8328c4ae1816e73556b15c13cd0a7ee Merge branch into tip/master: 'x86/core'
+b54111b11ff07b2ebaba634bb474b27fc21e7551 Merge branch 'x86/cpu'
+a553a31fa7f058dccc806f93d1f97a497a1473d3 Merge branch into tip/master: 'x86/fpu'
+6aac2d3966be6fd7721be84a0e8698a211be6657 Merge branch into tip/master: 'x86/microcode'
+5687a32019fc798ecb2bef2cbcb031f0ef08f7b3 Merge branch into tip/master: 'x86/mm'
+1a54c450ae25725fb442e7e2e87f0bd406954adf Merge branch into tip/master: 'x86/platform'
+2d43b5de2ceefae1fb56bf202bd75387996cee47 Merge branch 'x86/tdx'
+5ebaf1ccc06b89eb4476ecafb081d9e2f8d3d9d3 Merge branch into tip/master: 'x86/vdso'
+
+--===============5794258479503230174==--
