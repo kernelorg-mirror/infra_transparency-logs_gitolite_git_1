@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2000318606438446487=="
+Content-Type: multipart/mixed; boundary="===============7566268723769608947=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Mon, 20 Feb 2023 13:35:53 -0000
-Message-Id: <167690015319.18594.17290904031283695705@gitolite.kernel.org>
+Date: Mon, 20 Feb 2023 13:35:54 -0000
+Message-Id: <167690015435.18654.15492615045263625200@gitolite.kernel.org>
 
---===============2000318606438446487==
+--===============7566268723769608947==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,100 +16,104 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.14.y
-    old: f58d290336e88faed205ce5459b48ca2b3b52692
-    new: 2fbaf74fe65717ef42f395575562c1f594810941
-    log: revlist-f58d290336e8-2fbaf74fe657.txt
+  - ref: refs/heads/linux-5.10.y
+    old: a96fb51aec5ad38e2d2fe25277648f2ab876f42e
+    new: 7d11e4c4fc56eb25c5b41da93748dbcf21956316
+    log: revlist-a96fb51aec5a-7d11e4c4fc56.txt
 
---===============2000318606438446487==
+--===============7566268723769608947==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1676900151 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1676900152 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1676900150-20c220bbc18c681767eabcd2ef81426500a91435
+nonce 1676900152-cabb1634f6ec7ff48331f1c8221e80870e33b8a8
 
-f58d290336e88faed205ce5459b48ca2b3b52692 2fbaf74fe65717ef42f395575562c1f594810941 refs/heads/linux-4.14.y
+a96fb51aec5ad38e2d2fe25277648f2ab876f42e 7d11e4c4fc56eb25c5b41da93748dbcf21956316 refs/heads/linux-5.10.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPzdzcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+RHkP/jS98HEZaSjmCjfm48Bc
-4LOIWjcx3ISNeuyeUGNfYBMrYWKYWKdhla/dbpORzu95D2Lg0PkIiLomuwwZMQuc
-rkNr26mMFmi4Gflj5+roH9uNoCEL5ZOsNLkCcUOy89Ynqn6QOkwlWWie3dfVBwMJ
-oliL4QdwZl07bZwIXL7cAYQNVRpc7tmtxCQJVr4+6uJ2ryMygYA3zL9trzqkLrmX
-T/IWTWexXAE8j9KOlzU3RLheg3gdP7ysHckmNBo08VMsrhXLA4F/eNwLrsh/7nrQ
-XBiySAWlGFueU6shqvXrIseJ9PqaIpSGSHFIbO/YcNXZ0jUyDwWRB+PgFpT2dtYd
-v4HrDa4xjOS/96GflQz5wivx9MliDrWBmfi71OJ77imNSJq9y+66YMHRH+WKmLXG
-bjKUL1xLjNSfociqvcw0fPI0he7Bd3V59DoRSvdxr6UZjQVqCPraR6/SmYKk45iF
-YaF5VCdVdq6vKfzcEBbbCxpHyRJ/yMztMTQJqbEZhpRUxGgd/6AekbbOkIhDA3C0
-iIGyRTF8CIl5x4HEKSEuCJtr8o7PEGOmUSarvXNqx7tFW3uIsEFzMBEHOnBM+3mj
-+ECnZo6EAf9kGs7Z8jB/nDs5EwptwLgtcjoqx8fceIsqP4ZqcG2/0N10CIFJdk9x
-2J6g39G/Do8VggnOiphGWvAc
-=axTM
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmPzdzgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+s44QAKevZyd1omS1fBnwkay4
+o/zu2nvs03PKjRsM4xrejNKiBCrqNxB6ZrTbE1G91RNnBKrBZ9QUFLtin+KMLnJ+
+8+u9Ya8Hs8ZE8xHXNhBSooZZtPIewYXn7fRITmBCh3K6ONv9JWjH6qk+tRc+xTp1
+XByMfkq+ygIbu1Q64EhWpQqf+Ycfdn6hg9xSIB3lHvt3CldLuczpq30gSOnKosQM
+oK0hELUMTGJ6ZKDmSSm4MQ+eeGaEN8jpxoDeE4Pm9fmimr7dC3sp6V1BjTYiX6Nm
+zRdv7Nb8jc2MBYe3U1s01EEtm4oJYs+b7J70kG7ff5BJtV5fAaBpgdpr4YKUJLTb
+hDSrK5xTUKQgkb2optBtO5xBv48bFWa64RlCQs3Awi13wImkvvFqbmXxW4HibSW4
+iDIgr3aMu+KGcIYBexiEMZftLlohTy6AYhHidX5sER0b6v6QIbiosbM/DJ2i1Uwq
+XBSmmKPFlt3Xo9b9q7zNx8kNp1T/JRm8rbW7I69j+xVSFmArKudCyTnoQ9qZkTI6
+7YUjrXXrT4HnW/xEg8W0Udb/U7YOVpPhbrSG5+wdV8W0k9BGUtE19N9pFmpbosCa
+Vt0dN3cixj56jvbVY8SHexayoI5wB4Q3UIhEAta3TTc5mbmJK/JI6OEN5n2owFjt
+QpvbH45k5EBjlFzP0fpf0LGU
+=VXfa
 -----END PGP SIGNATURE-----
 
---===============2000318606438446487==
+--===============7566268723769608947==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f58d290336e8-2fbaf74fe657.txt
+Content-Disposition: attachment; filename=revlist-a96fb51aec5a-7d11e4c4fc56.txt
 
-47269cc35f579917412bed567369fea458932c49 firewire: fix memory leak for payload of request subaction to IEC 61883-1 FCP region
-9172a80d2b9de0dbe7ab8dbe2f9c50ef9c2cf622 bus: sunxi-rsb: Fix error handling in sunxi_rsb_init()
-d49b0c0dfbefbe88fa41a5a5bdf2947b078213cf ALSA: hda/via: Avoid potential array out-of-bound in add_secret_dac_path()
-c8a1a2bef36987ac778350f073b015cb77db5cdd netrom: Fix use-after-free caused by accept on already connected socket
-ab236427fe831feff7061d6205a5bda7e67c8a78 squashfs: harden sanity check in squashfs_read_xattr_id_table
-1556ae046eca65d9718e2bf609a16ae91d653671 sctp: do not check hb_timer.expires when resetting hb_timer
-c4c554e21050932a4c4e180e0639f652b4f77a16 net: openvswitch: fix flow memory leak in ovs_flow_cmd_new
-b939499f0f0b24c32ff64432d1d1a23871d524c0 scsi: target: core: Fix warning on RT kernels
-53ea000a9063278cc27233c0788a514753e19768 scsi: iscsi_tcp: Fix UAF during login when accessing the shost ipaddress
-75da6bc8c08482ef55b44b327d653e609ccb9a6f net/x25: Fix to not accept on connected socket
-58b174bf3a725074ea4a5360c2ef7ec20002407a usb: gadget: f_fs: Fix unbalanced spinlock in __ffs_ep0_queue_wait
-d6ceecf246708e32dacc96634b90e7393b64cc33 fbcon: Check font dimension limits
-a672ea013118e8327022868a7586b5427660a81f watchdog: diag288_wdt: do not use stack buffers for hardware data
-34bd78a0c062075ed278241e4c994f200f4140ff watchdog: diag288_wdt: fix __diag288() inline assembly
-f0b52a2082b8eb595f30975efba535de7cbe4425 efi: Accept version 2 of memory attributes table
-fd4922cd1d2734c40bde20056d4031256365b0a1 iio: hid: fix the retval in accel_3d_capture_sample
-9a6c8478505eb8c1fe87a7aebe8ab135ee2545e1 iio: adc: berlin2-adc: Add missing of_node_put() in error path
-b618ebcfede70d8d4f0cfd60d78879916d73ccb4 iio:adc:twl6030: Enable measurements of VUSB, VBAT and others
-91d3dfb348e57bf6732d356ace87740efcd91678 parisc: Fix return code of pdc_iodc_print()
-0587e4f4ff397de902a20c1fd7ca9583090f1340 parisc: Wire up PTRACE_GETREGS/PTRACE_SETREGS for compat case
-204217a696cfc3f43d208ba0d0fb6408ac699a51 mm: hugetlb: proc: check for hugetlb shared PMD in /proc/PID/smaps
-6221d2b6ce8d193b30cee60c7e2b6787fe63a293 mm/swapfile: add cond_resched() in get_swap_pages()
-5610d444165ead5dd7b9780c0b64dc47322b0a7d Squashfs: fix handling and sanity checking of xattr_ids count
-271698501d1b49c87e5a2432d8d5482358ce0dab serial: 8250_dma: Fix DMA Rx completion race
-a761b50a728b4d9d7a93eed0a26ba35be3189cf2 serial: 8250_dma: Fix DMA Rx rearm race
-879e93dc988e2f443d252839b35807df41bf2598 btrfs: limit device extents to the device size
-de72b77d4968b94ec79928f060ea5e41f39c67db ALSA: emux: Avoid potential array out-of-bound in snd_emux_xg_control()
-f5ffa849cf61653c71d115a542a8f6047242af69 ALSA: pci: lx6464es: fix a debug loop
-a191f9938dc3c449244470235f9a3146de54a56c pinctrl: aspeed: Fix confusing types in return value
-69bb6c4c03642f10279a500d9955c894d09e5a20 pinctrl: single: fix potential NULL dereference
-627f88b09c3c080892a4f1c26e7f28d6ee2a7676 net: USB: Fix wrong-direction WARNING in plusb.c
-7c08cc8461ce84039a0ebfe95876bd42df479585 usb: core: add quirk for Alcor Link AK9563 smartcard reader
-118fcc153c8ce3b38985e6cc684c433a0c643a98 migrate: hugetlb: check for hugetlb shared PMD in node migration
-a1a49a406fb316fda22081375f311c39c09ece30 tools/virtio: fix the vringh test for virtio ring changes
-9103a753b100f85481985a5c00bad87706f67655 net/rose: Fix to not accept on connected socket
-f3d0f2182d4baad1fae02b64997f0881e31688bd nvme-fc: fix a missing queue put in nvmet_fc_ls_create_association
-c8b3dd311699dfdcc432091a6bbd2f76c37e208c aio: fix mremap after fork null-deref
-f14662acbcbdb8c48945241898f171820f082b12 Revert "x86/fpu: Use _Alignof to avoid undefined behavior in TYPE_ALIGN"
-08ba14c5a9ead7b99810eab0bfe4873bed9cd209 mmc: sdio: fix possible resource leaks in some error paths
-a2e1f0c285b694fa648992f2594acb29fd93e7cf ALSA: hda/conexant: add a new hda codec SN6180
-4dd81675aad8d4e5a0845cf83e75d8261aacfdf6 hugetlb: check for undefined shift on 32 bit architectures
-60c517c8792b2c1fb4164655dac316f92e6a92ef revert "squashfs: harden sanity check in squashfs_read_xattr_id_table"
-9aa2af3e364e68eee33f1e953101a8310d74c0d5 i40e: add double of VLAN header when computing the max MTU
-8581c378d89d6d09ecb55c1828d1d6bc295bb0a7 net: bgmac: fix BCM5358 support by setting correct flags
-cc808d0042b4e514589b767d715634c604fb64c9 dccp/tcp: Avoid negative sk_forward_alloc by ipv6_pinfo.pktoptions.
-b3ab0811788468fe79d45ed04c00a7017494e64d net/usb: kalmia: Don't pass act_len in usb_bulk_msg error path
-8adb568c6e8d34cd62c9d35f20b478628345817b net: stmmac: Restrict warning on disabling DMA store and fwd mode
-e605946462096ecd895c7b9b71608b97ad3da0d8 net: mpls: fix stale pointer if allocation fails during device rename
-7a5ced425447ec145e6f7a944b9aa255bf266ef3 ipv6: Fix datagram socket connection with DSCP.
-a7a2f5bc8977b0381bd2244b0ccc2945133ab341 ipv6: Fix tcp socket connection with DSCP.
-6f5c7c91b24a3eb52d1edae62822338e51fee3af i40e: Add checking for null for nlmsg_find_attr()
-6d286344f14757423dde5445865043ae74674551 kvm: initialize all of the kvm_debugregs structure before sending it to userspace
-d2ca81075a1e7c3df0f8874e5f2c4fcb9ff1503b nilfs2: fix underflow in second superblock position calculations
-2fbaf74fe65717ef42f395575562c1f594810941 Linux 4.14.306-rc1
+1bf0f049a9b6ea7561b7753e4fa91f25b4675064 ASoC: Intel: sof_rt5682: always set dpcm_capture for amplifiers
+6e7c2d4e5d9278e9dfe90b01d14b5c506e2fd55e selftests/bpf: Verify copy_register_state() preserves parent/live fields
+e05b3827e0fd68ba04ce23a75237e477ef99a962 ALSA: hda: Do not unset preset when cleaning up codec
+baf43fbaeea41a502aae22aed2cf31a31ce0349f ASoC: cs42l56: fix DT probe
+fee3b30e16908c5d0815c2a6bcd881a45421a11f tools/virtio: fix the vringh test for virtio ring changes
+f64c22fff8048992c01c3c995b58848ff301421f net/rose: Fix to not accept on connected socket
+b22463172aac5abd9cfe7694cbd822f0efc02bef net: stmmac: do not stop RX_CLK in Rx LPI state for qcs404 SoC
+c54b9109bb197b114e451cdf6f9391687ab8d58c net: sched: sch: Bounds check priority
+a76cf3dea077ee31b4ae8a3971d619d7429f6bed s390/decompressor: specify __decompress() buf len to avoid overflow
+fbb42168966e9464c0603dc12127dae26fe1224d nvme-fc: fix a missing queue put in nvmet_fc_ls_create_association
+2a5872780d0f7446ad6499422e73d30ee8706476 platform/x86: touchscreen_dmi: Add Chuwi Vi8 (CWI501) DMI match
+64cf5fed74a929b2cb757dd7349de7bb422eb006 nvmem: core: add error handling for dev_set_name
+a643ab8c3ff9b6b815e4498524e7482203e00138 nvmem: core: remove nvmem_config wp_gpio
+f96c8cb7bc8a51ecd26b8a17a487ce8cdca85377 nvmem: core: fix cleanup after dev_set_name()
+a33873bf998227b1d962f52d70a0c906d270961b nvmem: core: fix registration vs use race
+fb6e2d9d765e8c564935f7e5af9afe1af5b0e644 aio: fix mremap after fork null-deref
+56a755fcf3656dad8f52086218700d657b71c75b s390/signal: fix endless loop in do_signal
+2b980a6b472fa2486d4e09573f392ec371f5637c ovl: remove privs in ovl_copyfile()
+8874047dbcb65bc789dde878f8c3e97520a8db95 ovl: remove privs in ovl_fallocate()
+b6a40c61b39e48b35fcf6df7746bfcd0db1e80a7 netfilter: nft_tproxy: restrict to prerouting hook
+a6bc648a64ecee298b20dae51086e2f3c1ae067b mmc: jz4740: Work around bug on JZ4760(B)
+124e4ff77a9d55ad4ec9eba214d3fa6005294536 mmc: sdio: fix possible resource leaks in some error paths
+b8d97989e2a9dadb4b9039147fb8a86f47f17999 mmc: mmc_spi: fix error handling in mmc_spi_probe()
+9aaa5f9e94c4e3d91e6db11eaaedf3084af39aa0 ALSA: hda/conexant: add a new hda codec SN6180
+23f62d247aed4e1d286efd46b6630fef1189f34b ALSA: hda/realtek - fixed wrong gpio assigned
+1517952901745c2a987aa059275f30bc33a29dcf sched/psi: Fix use-after-free in ep_remove_wait_queue()
+5d83b7ea861c012a22249436d9f9c1b46888b14f hugetlb: check for undefined shift on 32 bit architectures
+a54844411e1f1556f81e7e68a68a1b84ce815a9f Revert "mm: Always release pages to the buddy allocator in memblock_free_late()."
+123a97cc9c67d8459f83b5f2cc12498ba4538fd8 net: Fix unwanted sign extension in netdev_stats_to_stats64()
+cfcb94dd11870bf9fffb0fd6fa9a920be0248c34 revert "squashfs: harden sanity check in squashfs_read_xattr_id_table"
+11e4da555f3813df9e9d12d8c758d2471bd399d7 ixgbe: allow to increase MTU to 3K with XDP enabled
+520b147a93dd71cb85d1a172674a9b437543eb92 i40e: add double of VLAN header when computing the max MTU
+428c8b9f1794ec3e47d0ae9b4bb6146967a27f7c net: bgmac: fix BCM5358 support by setting correct flags
+cc1aa33c0dd456dce272dec94c9eff57165cde4a sctp: sctp_sock_filter(): avoid list_entry() on possibly empty list
+d92b0585e3ea5dcd0cefc5364c534a884ad264db net/sched: tcindex: update imperfect hash filters respecting rcu
+519dcc7ec367df4832a8a7aabfc9d53a02a26993 dccp/tcp: Avoid negative sk_forward_alloc by ipv6_pinfo.pktoptions.
+0d82e8dda137f489bc05fbb6dd4899c16b2a832d net/usb: kalmia: Don't pass act_len in usb_bulk_msg error path
+c0d84ccf4401948a2bea98ae7d67b613cd86832d net: openvswitch: fix possible memory leak in ovs_meter_cmd_set()
+079970506f41f39acfb3cc647cbb776eff84f464 net: stmmac: fix order of dwmac5 FlexPPS parametrization sequence
+2c6c84992f0effb1757d5d47a1050943bff8db87 bnxt_en: Fix mqprio and XDP ring checking logic
+0315f815eb43123c74ded82406fe13e95a613c71 net: stmmac: Restrict warning on disabling DMA store and fwd mode
+67d4508b21a4af9de3efc1e34160e2b3474775fa net: mpls: fix stale pointer if allocation fails during device rename
+f44277a4abf56af61c14c52b669bbc6216fe49ad ixgbe: add double of VLAN header when computing the max MTU
+856a91357949ff27f18f3839ffd0c3d08a1d4cd3 ipv6: Fix datagram socket connection with DSCP.
+31a84afee0d21be51e6e53e1401cb5e6a9c5cb14 ipv6: Fix tcp socket connection with DSCP.
+4d12f12fe967c43692fa40fb3ebc1010cd14df5b nilfs2: fix underflow in second superblock position calculations
+404cffbff53bfa20be39b2dc0acc1a9c7b5787ac drm/i915/gen11: Moving WAs to icl_gt_workarounds_init()
+af47f5d041df749313be9d1295bf67ef549e9658 drm/i915/gen11: Wa_1408615072/Wa_1407596294 should be on GT list
+fa1458acfde248260e97acce56215953b9c9694b flow_offload: fill flags to action structure
+6c080cd8d903c3c60e81b16fcbf177fc12b99525 net/sched: act_ctinfo: use percpu stats
+260fa683270cc23adf1a819bc73c63cc761313c9 i40e: Add checking for null for nlmsg_find_attr()
+0a0ff8f345b9794785b0ccf4b4027799ba1d62e4 net/sched: tcindex: search key must be 16 bits
+ded762b82f9b4c92517013972af11b670ecff81b kvm: initialize all of the kvm_debugregs structure before sending it to userspace
+4d2b56b4f7701cc187086ae305ed98e469a4da2f alarmtimer: Prevent starvation by small intervals and SIG_IGN
+9a4a7ce9e6624e0bdfb7d956b0543a1a1d02340b ASoC: SOF: Intel: hda-dai: fix possible stream_tag leak
+448db2caef3b53a017971a35d984ef14ec9f724d net: sched: sch: Fix off by one in htb_activate_prios()
+0e0091682af9fb7013d919cf063a2c9fe8397180 nvmem: core: fix return value
+7d11e4c4fc56eb25c5b41da93748dbcf21956316 Linux 5.10.169-rc1
 
---===============2000318606438446487==--
+--===============7566268723769608947==--
