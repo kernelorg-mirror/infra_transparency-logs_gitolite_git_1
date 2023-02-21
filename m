@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2158832734465038582=="
+Content-Type: multipart/mixed; boundary="===============9220462612640489889=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Tue, 21 Feb 2023 04:37:31 -0000
-Message-Id: <167695425151.3984.9959422074813374278@gitolite.kernel.org>
+Date: Tue, 21 Feb 2023 04:38:02 -0000
+Message-Id: <167695428202.4206.3693702735191595753@gitolite.kernel.org>
 
---===============2158832734465038582==
+--===============9220462612640489889==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: 168de0233586fb06c5c5c56304aa9a928a09b0ba
     new: f2b6cfda76d2119871e10fa01ecdc7178401ef22
     log: revlist-168de0233586-f2b6cfda76d2.txt
 
---===============2158832734465038582==
+--===============9220462612640489889==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -785,4 +785,4 @@ db4b49025c0c7116f1d2dfe8d5bbfc983ac054de net/sched: Rename user cookie and act c
 05b953a550625dc05652e15aeb9af34771c96325 Merge tag 'mlx5-updates-2023-02-15' of git://git.kernel.org/pub/scm/linux/kernel/git/saeed/linux
 f2b6cfda76d2119871e10fa01ecdc7178401ef22 net/mlx5e: Align IPsec ASO result memory to be as required by hardware
 
---===============2158832734465038582==--
+--===============9220462612640489889==--
