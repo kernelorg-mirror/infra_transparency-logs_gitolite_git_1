@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mic/linux
-Date: Tue, 21 Feb 2023 17:13:30 -0000
-Message-Id: <167699961076.28478.9234780629297757287@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Tue, 21 Feb 2023 17:14:23 -0000
+Message-Id: <167699966340.28841.9719217387066330100@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mic/linux
-user: mic
+repo: pub/scm/linux/kernel/git/acme/linux
+user: acme
 changes:
-  - ref: refs/heads/next
-    old: 1c1ea1c3e21d5ba0867f84f6ad04090bd477df25
-    new: be181daa9e657149f97daf5a663dbfae0f2c5a99
-    log: |
-         be181daa9e657149f97daf5a663dbfae0f2c5a99 landlock: Clarify documentation for the LANDLOCK_ACCESS_FS_REFER right
-         
+  - ref: refs/heads/tmp.perf/core
+    old: 484b2a8442d2ad413ac983775232544e2940fdd1
+    new: f9fa0778ee7349a9aa3d2ea10e9f2ab843a0b44e
