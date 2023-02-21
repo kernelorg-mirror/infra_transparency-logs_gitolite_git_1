@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/ethtool/ethtool
-Date: Tue, 21 Feb 2023 15:33:15 -0000
-Message-Id: <167699359541.26043.7474005765508664288@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Tue, 21 Feb 2023 15:34:09 -0000
+Message-Id: <167699364968.26387.9030956017666673120@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/ethtool/ethtool
-user: mkubecek
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
   - ref: refs/heads/master
-    old: 97bbcba3ec8dbd206fdab615f8be504ecc5cca5f
-    new: 82642de0751cb0122c73757a906a63f2a272a2d1
+    old: d9e595b524cf9ab76037daa362b2b3de10006c9e
+    new: b400f0cf0725375d87c35d800682a4dc1b6dfad4
     log: |
-         82642de0751cb0122c73757a906a63f2a272a2d1 Release version 6.2.
+         b400f0cf0725375d87c35d800682a4dc1b6dfad4 Tue Feb 21 03:30:37 PM UTC 2023
          
