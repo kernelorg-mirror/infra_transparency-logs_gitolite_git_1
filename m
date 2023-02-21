@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7491481508267938650=="
+Content-Type: multipart/mixed; boundary="===============2602769624987623163=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 21 Feb 2023 16:25:54 -0000
-Message-Id: <167699675476.29878.6943491880451649144@gitolite.kernel.org>
+Date: Tue, 21 Feb 2023 16:26:28 -0000
+Message-Id: <167699678810.30143.3658957324775595655@gitolite.kernel.org>
 
---===============7491481508267938650==
+--===============2602769624987623163==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: 675f176b4dcc2b75adbcea7ba0e9a649527f53bd
-    new: f2b6cfda76d2119871e10fa01ecdc7178401ef22
-    log: revlist-675f176b4dcc-f2b6cfda76d2.txt
+  - ref: refs/heads/dev-queue
+    old: 3a127e58112af46ebf9922a0cc2e52146bc931a4
+    new: 91bec28d24a75e67b2e14d444e77f73052faeab2
+    log: revlist-3a127e58112a-91bec28d24a7.txt
 
---===============7491481508267938650==
+--===============2602769624987623163==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-675f176b4dcc-f2b6cfda76d2.txt
+Content-Disposition: attachment; filename=revlist-3a127e58112a-91bec28d24a7.txt
 
 ed3557c947e1d4164d370cc2d69dd7eb92706f0a ieee802154: Add support for user scanning requests
 44def58f5835bbfaf81902c88460fd86a551f4b7 ieee802154: Define a beacon frame header
@@ -202,5 +202,19 @@ db4b49025c0c7116f1d2dfe8d5bbfc983ac054de net/sched: Rename user cookie and act c
 981f40458e7a6ffbdff1a09ece6099b3b49d08a5 Merge branch 'net-sched-cls_api-support-hardware-miss-to-tc-action'
 05b953a550625dc05652e15aeb9af34771c96325 Merge tag 'mlx5-updates-2023-02-15' of git://git.kernel.org/pub/scm/linux/kernel/git/saeed/linux
 f2b6cfda76d2119871e10fa01ecdc7178401ef22 net/mlx5e: Align IPsec ASO result memory to be as required by hardware
+d17157ecb1bb6e0893cd5b1e4c141cca6c3af699 igc: Clean up and optimize watchdog task
+5c8316c7ee7ff72cdaa57069eb06f199f23e5020 intel/igbvf: free irq on the error path in igbvf_request_msix()
+292e133d562b52af2394160235543bdda8281e62 igb: Enable SR-IOV after reinit
+4476c35a59680ee8bd3fbbdf867a402bc776bd8c igbvf: Regard vf reset nack as success
+9940661ba387e0ff215194f92fe91215090d3ac0 ice: Fix DSCP PFC TLV creation
+2486cf3267f4a1f0a62de3212f98917d44c422e9 ice: add FDIR counter reset in FDIR init stage
+107091fe7ce43351e07f25d34ace22ca7af48fb2 ice: Fix missing cleanup routine in the case of partial memory allocation
+06053b57e97a89e8da523816c9cd9e3aa86dfa8d ice: don't ignore return codes in VSI related code
+57c44aa884eb3f666e21ab986cb7ae3d982cb164 ethernet: ice: avoid gcc-9 integer overflow warning
+10bdd7d7d2cc0b81f7091a2b56f281f34cdacf4b i40e: Add ability to change VFs default MAC address
+7238e2408661371fb4cc4258cb7cec6bd8348a0e ice: xsk: disable txq irq before flushing hw
+c2174d90b0667e6d8ef3ea789fa465beed48645d igc: offload queue max SDU from tc-taprio
+547c5a42fe77e3bf23f3243e328a09e2409a05a9 igc: Add qbv_config_change_errors counter
+91bec28d24a75e67b2e14d444e77f73052faeab2 ice: Write all GNSS buffers instead of first one
 
---===============7491481508267938650==--
+--===============2602769624987623163==--
