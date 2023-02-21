@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Tue, 21 Feb 2023 15:32:43 -0000
-Message-Id: <167699356380.25808.13800276207950560522@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/ethtool/ethtool
+Date: Tue, 21 Feb 2023 15:33:15 -0000
+Message-Id: <167699359541.26043.7474005765508664288@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
-user: acme
+repo: pub/scm/network/ethtool/ethtool
+user: mkubecek
 changes:
-  - ref: refs/heads/tmp.perf/core
-    old: f9fa0778ee7349a9aa3d2ea10e9f2ab843a0b44e
-    new: 484b2a8442d2ad413ac983775232544e2940fdd1
+  - ref: refs/heads/master
+    old: 97bbcba3ec8dbd206fdab615f8be504ecc5cca5f
+    new: 82642de0751cb0122c73757a906a63f2a272a2d1
     log: |
-         7c0631d494b95fa5697d297ae443d7787321b5a1 perf test: Fix offcpu test prev_state check
-         484b2a8442d2ad413ac983775232544e2940fdd1 perf tools: Ensure evsel name is initialized
+         82642de0751cb0122c73757a906a63f2a272a2d1 Release version 6.2.
          
