@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
-Date: Tue, 21 Feb 2023 09:52:22 -0000
-Message-Id: <167697314226.29782.5585174311777539923@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Tue, 21 Feb 2023 11:11:41 -0000
+Message-Id: <167697790188.15679.13241128412610631176@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux
-user: krzk
+repo: pub/scm/linux/kernel/git/netdev/net
+user: pabeni
 changes:
-  - ref: refs/tags/samsung-dt-fixes-6.3
-    old: 0000000000000000000000000000000000000000
-    new: 9c43e4ab2533e9d8f6bda6e7f30e88cf89f920b3
+  - ref: refs/heads/master
+    old: 3a70e0d4c9d74cb00f7c0ec022f5599f9f7ba07d
+    new: b60417a9f2b890a8094477b2204d4f73c535725e
+    log: |
+         b60417a9f2b890a8094477b2204d4f73c535725e selftest: fib_tests: Always cleanup before exit
+         
