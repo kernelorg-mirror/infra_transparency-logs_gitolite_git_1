@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
-Date: Wed, 22 Feb 2023 05:01:59 -0000
-Message-Id: <167704211913.1127.13858891045341843799@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Wed, 22 Feb 2023 06:23:52 -0000
+Message-Id: <167704703276.21455.2306436465279932076@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf
-user: ast
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
   - ref: refs/heads/master
-    old: 5b7c4cabbb65f5c469464da6c5f614cbd7f730f2
-    new: 345d24a91c79f408e355c8b7e873ccde0f097eea
+    old: 150f81ee29519d664b9ec7cfc2cb603cc1dbcc45
+    new: 866cb99f959bcef733a8419ab7dbbb59e64b5517
     log: |
-         345d24a91c79f408e355c8b7e873ccde0f097eea bpf: Include missing nospec.h to avoid build error.
+         866cb99f959bcef733a8419ab7dbbb59e64b5517 Wed Feb 22 06:21:09 AM UTC 2023
          
