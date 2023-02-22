@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Wed, 22 Feb 2023 21:12:35 -0000
-Message-Id: <167710035516.8578.12470859172815008003@gitolite.kernel.org>
+Date: Wed, 22 Feb 2023 21:13:37 -0000
+Message-Id: <167710041791.8983.8722957065495010145@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
   - ref: refs/heads/master
-    old: df2ccc180a2e6f6e4343ebee99dcfab4f8af2816
-    new: d40c3847b485acc3522b62b020f77dcd38ca357f
+    old: d40c3847b485acc3522b62b020f77dcd38ca357f
+    new: 9fa02892857ae2b3b699630e5ede28f72106e7e7
     log: |
-         d40c3847b485acc3522b62b020f77dcd38ca357f riscv, bpf: Add kfunc support for RV64
+         9fa02892857ae2b3b699630e5ede28f72106e7e7 selftests/bpf: Fix BPF_FLOW_DISSECTOR_F_STOP_AT_FLOW_LABEL for empty flow label
          
