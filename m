@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8278684889210383807=="
+Content-Type: multipart/mixed; boundary="===============1576679726496074430=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
-Date: Wed, 22 Feb 2023 14:59:00 -0000
-Message-Id: <167707794074.16566.16739492738000255137@gitolite.kernel.org>
+Date: Wed, 22 Feb 2023 14:59:11 -0000
+Message-Id: <167707795187.16717.6177308815072277636@gitolite.kernel.org>
 
---===============8278684889210383807==
+--===============1576679726496074430==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ardb/linux
 user: ardb
 changes:
-  - ref: refs/heads/arm64-lpa2-v3a
+  - ref: refs/heads/for-kernelci
     old: f2648670abaa2b08ae0e2c1b3d6544287c2d93e7
     new: 0f87fbd67a5b15b7f19b865811f9f986311acc10
     log: revlist-f2648670abaa-0f87fbd67a5b.txt
 
---===============8278684889210383807==
+--===============1576679726496074430==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -70,4 +70,4 @@ d6517065699db85297fceb5c773d5a6e4b523875 arm64: mm: Add 5 level paging support t
 f913dc2abcf9a1b40b71279b4a203009e217a792 arm64: ptdump: Disregard unaddressable VA space
 0f87fbd67a5b15b7f19b865811f9f986311acc10 arm64: Enable 52-bit virtual addressing for 4k and 16k granule configs
 
---===============8278684889210383807==--
+--===============1576679726496074430==--
