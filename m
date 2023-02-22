@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Wed, 22 Feb 2023 15:23:12 -0000
-Message-Id: <167707939216.439.5486818467383206689@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
+Date: Wed, 22 Feb 2023 15:26:14 -0000
+Message-Id: <167707957455.3078.17386215014276779823@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
-user: acme
+repo: pub/scm/linux/kernel/git/qcom/linux
+user: andersson
 changes:
-  - ref: refs/tags/perf-tools-for-v6.3-1-2023-02-22
-    old: 0000000000000000000000000000000000000000
-    new: cc6e95e51c665955ed60177b708dc5dd194ad64a
+  - ref: refs/heads/clk-for-6.3
+    old: 7935b534d32a1823a7d5db449d340f56c201f284
+    new: c1855dd0a62b7ead360eb9231fb65c2108efaf47
+    log: |
+         c1855dd0a62b7ead360eb9231fb65c2108efaf47 clk: qcom: Revert sync_state based clk_disable_unused
+         
