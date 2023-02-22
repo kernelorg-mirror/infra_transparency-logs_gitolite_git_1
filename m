@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6147489793503321946=="
+Content-Type: multipart/mixed; boundary="===============7362300276822178751=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Wed, 22 Feb 2023 07:35:38 -0000
-Message-Id: <167705133836.3897.3091389912704622989@gitolite.kernel.org>
+Date: Wed, 22 Feb 2023 07:41:08 -0000
+Message-Id: <167705166879.7098.5169315597305336920@gitolite.kernel.org>
 
---===============6147489793503321946==
+--===============7362300276822178751==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,42 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/class_cleanup
-    old: 57d54572d48ba567ef2fb15069a74450e5831ec2
-    new: 029ee7921bd7a1995a230be32c7263b49c145165
+    old: 029ee7921bd7a1995a230be32c7263b49c145165
+    new: 3b894fc07e5df6c5646745777457c0c23b762df2
     log: |
-         4d5ad6100a95cabdc7b1813defd90411339f3ba6 driver core: class: make class_dev_iter_init() options const
-         44e8bbc42269fed87ee48712bcec9b3e89dd2cbf driver core: class: make class_for_each_device() options const
-         029ee7921bd7a1995a230be32c7263b49c145165 driver core: class: make class_find_device*() options const
+         3b894fc07e5df6c5646745777457c0c23b762df2 driver core: class: make class_create/remove_file*() options const
          
 
---===============6147489793503321946==
+--===============7362300276822178751==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1677051334 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1677051667 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1677051333-51697da5b3fb2c44f1925ab9b7e0b652d1b60a95
+nonce 1677051666-dea9cf718ac58660fc690841137de61cafa8c706
 
-57d54572d48ba567ef2fb15069a74450e5831ec2 029ee7921bd7a1995a230be32c7263b49c145165 refs/heads/class_cleanup
+029ee7921bd7a1995a230be32c7263b49c145165 3b894fc07e5df6c5646745777457c0c23b762df2 refs/heads/class_cleanup
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmP1xcYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+7qAQAKQT7ZjCsPB7OUFLby3f
-NcuuiVT7MOuDHai3iyrUNS8114eoAgcCGjJdfsC24Ux+i9JLqDTUyynOG8euxROF
-CzsQtYirdHHJYp2rTDJ86jqHJPMRITgoEAT8Y+S7Flz+WJE5JIvwHsrF3BfXRSgO
-zR8s05iia0U/WABppEPLeE0Nu1zEjm3PcbXP0N0dgDjEKqgwcae9NMaxG4l17ESt
-HOLxa9xORzsBxQCBUlMpr0NnMwGmnJOBlmPEIFPQvV392n80uNL/3v9gztfeMZPy
-OalZLds/7f/PNCwOE3OsjByEr5x9hJaqnaubpIPybRY8kCiPazvvI72IdOsCys/B
-St9wu56pTlP9RDhh2c1qS91oAPvGlGrQ+XnDalv6caTP754EdevwPOKSLyOXwSRY
-NE6Xrns1Ay4BDol1aDJrK5a9R9o0zHiGFp2yqFFoRM6W5JBz2Pt13CxChpXNDX87
-+q/p5wh1IiYr6Q9DYMzwPGsCrVa55yKARvRWkLIavk/yNp5644ePcY94BVjzLwQA
-Q8lFB8tdT4XRKC5XW61fu/VeOQioSAex0uKBf4zQIdTQx+M/dDQSRT1gXDxuQzX8
-RaG6XUGhBUDF4OlKiiDgQdqjjdG48Hz+kDEknMpbTCtFsTBl4fR1+g3WLclP46W0
-rQvp+ZbjIg98e5eU8HhUj7ee
-=c0cf
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmP1xxMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+uBYQAIEv3z8wXhkoIk8RB3O9
+9kNz7TTDAMLlkEPW1mvBowcXpDjjizrsduQ3yt0VpLg7rtmiv3mO1sx94LHvIGEs
+rRTNvJsS+ZO29yGgrvws8YoIyQ3YcVQsdztM9fCz/FSt/YeCg+vFbNBfoPvrVsYX
+Yn7EHa2gCttIl/UDxFL7DBC6mTnjiKjTBgnKXzEolHX+zKc/rGcUjwR99DHN6SUX
+KQKwc1dgSAz5pqVLkrukmCtULd+bOI9NGV4BTxAkPf9JUvTCfccBNJ80WS2ccpdc
+x/c3vLuIejoQHAuEMY7BhSXrs3QXhVEv0q1duOlENKk47fH9OdJo4tRWqNzzG5wS
+XOj97OL+/amQp0RDrjbJj6V44tL5j9VDfhyFknxZkcmjoEumYeXdWoEpwOd4mncY
+jmwwp1bo+dAxbK98cLHoZgZco4Zd/hw6bUMm2fcxxcU7TOwODMigQjLiC5kXNSjT
+fe/tfFSnLTZ8fMkkAe8ag6bqUgiErm2OkmQMvRZTMtnUFBPJriq6bf8hJ4pPIl/3
+IFLO0J1kaIN4CIaGtLy9x0d7k29Rd7/dsPswZ3w8gig/dnpOntGrI5cWOuncsbsD
+vYFkdvUBBbfPCfVoDiahcwCTRa51wWu6Pn4fNan/2rpvESbvBn1+Uv/aAwnsx85V
+DIMgwqH9XhhdYaiM64aWcUrU
+=tNMV
 -----END PGP SIGNATURE-----
 
---===============6147489793503321946==--
+--===============7362300276822178751==--
