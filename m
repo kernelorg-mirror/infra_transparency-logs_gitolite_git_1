@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pablo/linux-ft
-Date: Wed, 22 Feb 2023 21:05:35 -0000
-Message-Id: <167709993554.4584.10035735084115138503@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Wed, 22 Feb 2023 21:06:19 -0000
+Message-Id: <167709997911.4886.7433411391481868468@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pablo/linux-ft
-user: pablo
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: ast
 changes:
-  - ref: refs/heads/nft-bulk-v6.2-4-veth
-    old: 912bbf9121145e422335652a96056f12e342fb5a
-    new: 30c66a28323655f03ba7282f8be06ea9f205522c
+  - ref: refs/heads/master
+    old: 1f265d2aea0dff1f2f9ecd41f545d601869462c5
+    new: b539a287baaa8501b3af4f7f99aba3c0b1d822f8
     log: |
-         30c66a28323655f03ba7282f8be06ea9f205522c flowtable: fix xfrm datapath establishment
+         b539a287baaa8501b3af4f7f99aba3c0b1d822f8 selftests/bpf: Fix cross compilation with CLANG_CROSS_FLAGS
          
