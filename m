@@ -1,40 +1,29 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvalo/ath
-Date: Wed, 22 Feb 2023 10:19:56 -0000
-Message-Id: <167706119691.27761.13911784729437790288@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Wed, 22 Feb 2023 10:33:26 -0000
+Message-Id: <167706200654.4053.8527025578342215202@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvalo/ath
-user: kvalo
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
-  - ref: refs/heads/ath-next
-    old: 7654cc03eb699297130b693ec34e25f77b17c947
-    new: 60b7d62ba8cdbd073997bff0f1cdae8d844002c0
+  - ref: refs/heads/master
+    old: d02841bec3249e6c05c09a889f615f4349e6a17b
+    new: b7fe2b03e08ff372df56d88c15902fde2951ffa3
     log: |
-         95a389e2ff3212d866cc51c77d682d2934074eb8 wifi: ath12k: Handle lock during peer_id find
-         80e396586d0a94c42015dd9472176d89a3b0e4ca wifi: ath12k: PCI ops for wakeup/release MHI
-         f117276638b7600b981b3fe28550823cfbe1ef23 wifi: ath11k: Use platform_get_irq() to get the interrupt
-         95c95251d0547b46d6571e4fbd51b42865c15a4a wifi: ath5k: Use platform_get_irq() to get the interrupt
-         4c856ee12df85aabd437c3836ed9f68d94268358 wifi: ath5k: fix an off by one check in ath5k_eeprom_read_freq_list()
-         8c68fe00344c01bfba95b9f978af0aa236a821f7 wifi: ath10k: snoc: enable threaded napi on WCN3990
-         7c4c511f74ba65a18f0beeb9b2fc0e34f28ee79d wifi: ath10k: Remove redundant assignment to changed_flags
-         60b7d62ba8cdbd073997bff0f1cdae8d844002c0 wifi: ath11k: fix SAC bug on peer addition with sta band migration
-         
-  - ref: refs/heads/ath-qca
-    old: f6141b2c35a164ba19b3ab10430e2daec88f588b
-    new: 697cb64f671a9985e98e89f716254492cbfa258d
-    log: |
-         95a389e2ff3212d866cc51c77d682d2934074eb8 wifi: ath12k: Handle lock during peer_id find
-         80e396586d0a94c42015dd9472176d89a3b0e4ca wifi: ath12k: PCI ops for wakeup/release MHI
-         f117276638b7600b981b3fe28550823cfbe1ef23 wifi: ath11k: Use platform_get_irq() to get the interrupt
-         95c95251d0547b46d6571e4fbd51b42865c15a4a wifi: ath5k: Use platform_get_irq() to get the interrupt
-         4c856ee12df85aabd437c3836ed9f68d94268358 wifi: ath5k: fix an off by one check in ath5k_eeprom_read_freq_list()
-         8c68fe00344c01bfba95b9f978af0aa236a821f7 wifi: ath10k: snoc: enable threaded napi on WCN3990
-         7c4c511f74ba65a18f0beeb9b2fc0e34f28ee79d wifi: ath10k: Remove redundant assignment to changed_flags
-         60b7d62ba8cdbd073997bff0f1cdae8d844002c0 wifi: ath11k: fix SAC bug on peer addition with sta band migration
-         697cb64f671a9985e98e89f716254492cbfa258d Merge branch 'ath-next' into ath-qca
+         01a7f746f9d285acfcfcf8ea64fbeab187f65ca0 lsfd: (man) fix typos
+         1656da13b0e869e3bdbf1b4a8a3d5b648727af31 lsfd: use extra information loaded from /proc/net/tcp6
+         e023352c25e90ba6e4b226a54f53d9d6611c4927 lsfd: (man) write about TCP6 related columns
+         ca517a11e89c38af28ccdc9d5942b8fb0b2d1c8e tests: (mkfds) add tcp6 factory
+         5840d8297a0dbfc407790f5ee6e0557ec578c70d lsfd: (test) add a case for TCPv6 sockets
+         8ff22ccb4b11a17180a653f8c54fc4cbdd0adbb9 lsfd: specify variables instead of types in sizeof operator
+         b4e3984174692aa917a7dab527766343af15f435 lsfd: use PRIu16 instead of SCNu16 in xasprintf
+         f8cb4c0df925a45a55d3c2305af2b2f743798f8c Merge branch 'lsfd-tcp6' of https://github.com/masatake/util-linux
+         a0cf9105e0591904dec87aa4e37ed13f5e6ec2fa libblkid: check if device is OPAL locked on I/O error
+         b8889c0a214aeb3dd47bf1ab280fe5534b64d2aa libblkid: try LUKS2 first when probing
+         b7fe2b03e08ff372df56d88c15902fde2951ffa3 Merge branch 'blkid_opal_io' of https://github.com/bluca/util-linux
          
