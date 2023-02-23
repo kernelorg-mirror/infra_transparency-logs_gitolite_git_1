@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6332832873238654119=="
+Content-Type: multipart/mixed; boundary="===============8485352350236595624=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
 Date: Thu, 23 Feb 2023 14:15:42 -0000
-Message-Id: <167716174239.28522.10981444122078743634@gitolite.kernel.org>
+Message-Id: <167716174271.28657.2959819662533268122@gitolite.kernel.org>
 
---===============6332832873238654119==
+--===============8485352350236595624==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,12 +16,12 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-6.2.y
-    old: 7452ada133c291e5fe2dd7cfcd3d6e77e689fbc5
-    new: e81fdea0bf0d8e461d39e9eb1ffb2458509df8be
-    log: revlist-7452ada133c2-e81fdea0bf0d.txt
+  - ref: refs/heads/linux-5.4.y
+    old: f6008aaa9334cc770d217e8c968b6d378a5ddd14
+    new: ddf919a8b201b902ac977fb211a0191fcd2069d4
+    log: revlist-f6008aaa9334-ddf919a8b201.txt
 
---===============6332832873238654119==
+--===============8485352350236595624==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -32,43 +32,50 @@ pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1677161741 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
 nonce 1677161740-f51a3cb3bea40af6b78c0254e0e2ca5f287892f1
 
-7452ada133c291e5fe2dd7cfcd3d6e77e689fbc5 e81fdea0bf0d8e461d39e9eb1ffb2458509df8be refs/heads/linux-6.2.y
+f6008aaa9334cc770d217e8c968b6d378a5ddd14 ddf919a8b201b902ac977fb211a0191fcd2069d4 refs/heads/linux-5.4.y
 -----BEGIN PGP SIGNATURE-----
 
 iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmP3dQ0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+1lMP/1nuY+Q65rKzgx9a7mH+
-xRt9+8jZbUcc1F2NKoXKk5+ipWarQ/9+utj44p5lW3Oxp2723lb8JQyTwdxQCQNV
-0r+2ZXxsOq0pb2YTqZrP0HVMGpLU7DdJ3j6Qo9nLbHrePt3wz0j7YtU4DnUBP3mD
-llnlQmOzpaLSg5kzrADbSnwSHAPLEuyEZi/ubFp6z1tAuFEVw8O2Op0PurJ7riGN
-+8rHIq0vpC18ObBhmGGLtUqmnrnjjbVcHZmnAXVZlO5aYjTkyTFKfiODjV+ndhXn
-t/a6Q5qai7Z2ZCb0SxfF/UNUqdq8C95c2p1XRYaFpB5eX1sN7JwT2QN/nd+D6+18
-83sOB3dczUbim7qNA3P6zyJkSt2XSNpobHhX2OpGwvmTgS4YwytxWwg3eCVUwuFC
-T6yh3Jfv8xNfYRqDVW5c3Lv+NNfWeftpBAqnwRECazlsasaAziVgnyryyACoQDE8
-3JkBNxA0m+Nwv085vYOliAhH5GCjh2q1lYA4gT00PB06O4rl3FKQJhEAZXWxW5Pq
-t22CdkpVlskldFa5GnB062PPfmTwa4LJRuFAsBf8MgTZ83CwX0v7bHxG4s2/5q2q
-GEmDR/jhZzH/7CszTbdfaIKdoTepjeBwk5ec+DYmJr9nEGa+Qf0WB9rLqPI0SDmI
-hgHXnCyFHWLAPy+U3PmvY0PK
-=zfte
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+zfUP/26doaAjW4PDB8CNkoN5
+mK8dLvXyAHOgMM8AQcm5v7ZuB6kyZTGz/q4/ZQVjNpkfpJPJiWtzA+bEYbayCqSR
+dPfjHTu5Lnr1HT0DoUdTVFAjoyc4ASwGml9op96ynqJGH8gBqinSypk3GnD8kbp8
+p6dVS/VPK84zB1KQ3iGtg6OLcbk3kuivGGGHHZhNM4Awv2mJA9naMcq/mvGed5Jj
+OSxGzEunm2sPPm8/RNx8Flhcur8PLgjFi66ZcG5RBQjky1svDELKaYSgInjiCwV8
+xCAPx+nJJ+S/Ll0a8qGv9VSdHtOMeTTlJ+/D/6Fk2oQcVJ5fdBQe8nzL7HfhOQ0/
+HEMJHgC53ohj+Ypg6YYz7Rr1CdyoI5u0uyP2vGgqJ+iqQ+tvWdK7iyaXNcn+J4C9
+PSDjfAtdthA3ZvFibSu6qQJnStQf2kc8mQCCS+wyZocbzUHUQNElFuUB/BXvUSkJ
+oCZOwM8ywl7DL91HzJ+pFiim01w/OWP831E/6aEnJbLoZ4S/aB/szDUFQT3e6TXz
+j0W2IAJOyoIMKYV8VeZovhqxWTplFr+X3ASWFLm4dzVDz95HpTY3SVX8ZK97An/i
+lfMKke6AD7NIjA3mGhirpEWOdNqSPGoR5qwBDhJEoYACVhh56ZlCB0nPXCQZetON
+x6J0c3sj/F9tXiAhxmpVTzd6
+=L+c6
 -----END PGP SIGNATURE-----
 
---===============6332832873238654119==
+--===============8485352350236595624==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7452ada133c2-e81fdea0bf0d.txt
+Content-Disposition: attachment; filename=revlist-f6008aaa9334-ddf919a8b201.txt
 
-5c9d9a735be0ae2785ca1bea0624f3a796f35c76 uaccess: Add speculation barrier to copy_from_user()
-3da3dba53280df58fd2a2a4c6f5f02358ea4b21a x86/alternatives: Introduce int3_emulate_jcc()
-72c1fa2049ac308c57e804684b79b98623775488 x86/alternatives: Teach text_poke_bp() to patch Jcc.d32 instructions
-4a5f51bd0f1e8749cb38a2c95712e7d81b1827ac x86/static_call: Add support for Jcc tail-calls
-9ddc0e22e806cfba2ad668f949e492a151a6fa80 HID: mcp-2221: prevent UAF in delayed work
-e6d3efa4710c12e407841cfe7c585278a89c00f1 wifi: mwifiex: Add missing compatible string for SD8787
-fbb1ac1403a4aaf9561af17627ee6bfc1dfa09e0 audit: update the mailing list in MAINTAINERS
-aa5863dd1bb9a2cee212f81ed032f5feffc0f861 platform/x86/amd/pmf: Add depends on CONFIG_POWER_SUPPLY
-5d9693288e7556410a3260dfff2af89a224f57a9 platform/x86: nvidia-wmi-ec-backlight: Add force module parameter
-c6db98afefdadfc94fa3490fd53da12255b16bc8 ext4: Fix function prototype mismatch for ext4_feat_ktype
-f26552c1f873fac065306906519c360f236d3ecc randstruct: disable Clang 15 support
-1417bf863084fe6300827fcbf75016dd871a5d9c bpf: add missing header file include
-e81fdea0bf0d8e461d39e9eb1ffb2458509df8be Linux 6.2.1-rc2
+c0f893fe707ded14122feb52c316b41efee92966 dma-mapping: add generic helpers for mapping sgtable objects
+b4cf62e29f2e653f975256e319ae285260548d3f scatterlist: add generic wrappers for iterating over sgtable objects
+32230806b8bebe71d8db4de4df32c164c52534d2 drm: etnaviv: fix common struct sg_table related issues
+f3291ed1ec5fac2c83643f026376914e73ced2dd drm/etnaviv: don't truncate physical page address
+94105fb03e4871ec2ae69f9d7c1358e540e4c11f wifi: rtl8xxxu: gen2: Turn on the rate control
+262f8418facedfb21be4473e19bd83def35f1e93 powerpc: dts: t208x: Mark MAC1 and MAC2 as 10G
+dd6a287f240be7bda10073324291b5559f47c390 random: always mix cycle counter in add_latent_entropy()
+d12072364bee97a94f3f4debda864a9ba055ab57 KVM: x86: Fail emulation during EMULTYPE_SKIP on any exception
+4c4f62974c0d0c4d0c1c68f9c8f26a5225170bf0 KVM: VMX: Execute IBPB on emulated VM-exit when guest has IBRS
+47c968f5b077fdcf231a99d0d28495eb083975ba can: kvaser_usb: hydra: help gcc-13 to figure out cmd_len
+726266fe0b174e654f8db3f35227d00b0e018a34 powerpc: dts: t208x: Disable 10G on MAC1 and MAC2
+1fae1246f30ad7b17e97ffadcd0ff490b30648ce alarmtimer: Prevent starvation by small intervals and SIG_IGN
+3f72dfd65fcf05ca77f69d84bab60c7e01b6752c drm/i915/gvt: fix double free bug in split_2MB_gtt_entry
+86fdd47fc7ad3292165e024eaa9fbc8f70bdc18d mac80211: mesh: embedd mesh_paths and mpp_paths into ieee80211_if_mesh
+9ec9c5a02774259c57c31c0d78d93b150ab47198 uaccess: Add speculation barrier to copy_from_user()
+414ca2b464c333d30a9d525c334d2c7ab281c8f8 wifi: mwifiex: Add missing compatible string for SD8787
+218300cd16c223e54b41f944e2f7133625e6b4cd ext4: Fix function prototype mismatch for ext4_feat_ktype
+9df0d713807abe4a2723d1b79353d7a018689ddf Revert "net/sched: taprio: make qdisc_leaf() see the per-netdev-queue pfifo child qdiscs"
+1680847fa3656ff0fbc18957a1ba2f320122a83e bpf: add missing header file include
+ddf919a8b201b902ac977fb211a0191fcd2069d4 Linux 5.4.233-rc2
 
---===============6332832873238654119==--
+--===============8485352350236595624==--
