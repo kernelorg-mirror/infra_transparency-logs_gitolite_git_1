@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2590445460776940450=="
+Content-Type: multipart/mixed; boundary="===============0400139410083652853=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Thu, 23 Feb 2023 12:54:04 -0000
-Message-Id: <167715684402.2730.14171544288593780205@gitolite.kernel.org>
+Date: Thu, 23 Feb 2023 12:54:06 -0000
+Message-Id: <167715684602.2832.10265810015105504035@gitolite.kernel.org>
 
---===============2590445460776940450==
+--===============0400139410083652853==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,64 +16,71 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.4.y
-    old: 64121e2adf7d6fe2e684eec09ec9b9986d951d42
-    new: c55ce131b07a16aa4917efd8bde723e2b18007ce
-    log: revlist-64121e2adf7d-c55ce131b07a.txt
+  - ref: refs/heads/linux-5.10.y
+    old: 2ae73796985b582b79711dfed2941d190b571fb5
+    new: 4c8585abe6b89da37c2e121957587148fc9e6477
+    log: revlist-2ae73796985b-4c8585abe6b8.txt
 
---===============2590445460776940450==
+--===============0400139410083652853==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1677156842 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1677156844 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1677156842-fdf5bb2bf48aa005ae99de75e0716ab5be4eb84b
+nonce 1677156844-420978cf317240edcf1dff7bbec0db1a9f7d7336
 
-64121e2adf7d6fe2e684eec09ec9b9986d951d42 c55ce131b07a16aa4917efd8bde723e2b18007ce refs/heads/linux-5.4.y
+2ae73796985b582b79711dfed2941d190b571fb5 4c8585abe6b89da37c2e121957587148fc9e6477 refs/heads/linux-5.10.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmP3YeobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+iiIQAIV+kWFyEBEhCL/QshmJ
-iPEi6/RStk4EcdRfeC1fjqy5J+lrZjCee1pb2GO3jLhdEpUFsMZYzXtgQj8cTE0W
-9I6qIjuvWB1L3qY0wJCX7G1WSCmraCamb+DM5yCgh8zREFkNV97ah+Upu2a8uz97
-zQmpBMb6MjgaB+BojAV06k6ZFDoPCz9zPAdCJRaQP+3aDvz/qBuidkwww0SSvMwi
-SMKpbwyXWqLGjBLSySpfgRWlUxe4pt6GWfuyFSowzMt5+xXG+qBv4D7UdzOxzqM7
-ZtztSpoL0SIYN2+BXYEpqF4GyQcE3nPO+r1WqMhzv0G+nDKwUsOX3uGIULlQlyqs
-924rvs7QNbC23l8OYj3zH0TOoAf9aRxmHiQxSk7IcktATs3YE267YsWWG3k+MrzQ
-tSaWZ+7VXD86FDeZXcGGjXWerqQJY0/XPGJUw7aTGYtO89lofsuuwCtoJfPU84h9
-oLvJbSFt2QDOLOeNwL2FuZTWtWPLZfGFXmNJCs6DuaPw49ygjPPuGa2WeTagog1A
-88HVRseR2lTnKBjF97VWungTCp8NP/Mr31NKIu4Q+ZggfWy6tJC0VkZJFRlCuhNs
-fBGIVkvFoNQvFbEsD5TQ+OxpHSFN+ebM2rU2XhIa5c+ltvrXxZ9dd4bQYWBCGYaT
-jst/bEZ6tzPOy1XcW37HB86Y
-=c7wm
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmP3YewbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+IaIP/0gqIrVSvRm1Cj2ZqVJe
+EyFc/5C3jDr8/P9b6+u1BZKpH4oQ3GSTMOkWfaOCylQXGcS29HgihkTeFTFyoytq
+Rt9bCHh/mOOz/eJa5FexYKp/iq5KCxxKwpKHgIdFwfzLPk5FhSaiJTfhivHJr+NM
+fW4sCWSZwK5d4PyMX3/bnkvFN8sgzTXs+wCc9FuCZzxi2J75ilbujGWb03hDfZDx
+OSDQ/QpKVVJdOc9bq/XPT28guzOJ/wCVLaO8KLdur9alDpLz/JFBsTZ2NtNLLWaB
+i7TPHRg4QtzaK03bhDxhhGyaRc9CXnuZeZe9D87Zf/+zi7WAW4ZJjm0BvUlfyL+B
+23bCxmBMz2wrWmV9HyGR69MUVsyxN5AywQtrsf25SPjzAWmDjoObS8EnTzP3F8En
+BYLk9MpTxiXNgW2kqH8AlSIkbG8QUumqXnxd9vGDcEWBvuD+u4L6CvYZc5nRLcIn
+7OWxJZeXho3xVMyjxDwfEN/zc3y+ZGZvJ5sDMIqtdChrNcQpp8AtcGZgFlc1p8AB
+hLLBjKi79QjrNyaMF3H9VPrFO9/VqiN/Nb7HwqPTSJlnUV2FSV93YdG0oJaC/raW
+fUlfbUtxmX7wUFglRn/TzGHoT+n3Jtf/73KeQmxz0MmbCMNLr24xEC6Q2zXWNmZd
+uDJRFBPP/9GYWxRTjLyn4EPk
+=TxVX
 -----END PGP SIGNATURE-----
 
---===============2590445460776940450==
+--===============0400139410083652853==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-64121e2adf7d-c55ce131b07a.txt
+Content-Disposition: attachment; filename=revlist-2ae73796985b-4c8585abe6b8.txt
 
-ec618271889caed37606dcdcf1b4c4891a885134 dma-mapping: add generic helpers for mapping sgtable objects
-9a32944ba515839992bc249095b503637d58d357 scatterlist: add generic wrappers for iterating over sgtable objects
-37c9cc27d9fb60d730188f428374c32cd67ee158 drm: etnaviv: fix common struct sg_table related issues
-da4bb8e9c95d08d14f375a7208ec49dbb1c29d9f drm/etnaviv: don't truncate physical page address
-a0c4ca73cc30b026df5a6c1ffab94b0bd52c46d1 wifi: rtl8xxxu: gen2: Turn on the rate control
-98362e595e3e34f072d49722f285c073b3cd9750 powerpc: dts: t208x: Mark MAC1 and MAC2 as 10G
-35e25ba770ce0964cde8867c60ee2de6d7128e34 random: always mix cycle counter in add_latent_entropy()
-29dd52e1a9e47a127243e01e526ac2aabbfbad2f KVM: x86: Fail emulation during EMULTYPE_SKIP on any exception
-75c7347994f7f0ee51b86dc106dddbe9fbbb4469 KVM: VMX: Execute IBPB on emulated VM-exit when guest has IBRS
-100e0ffb80c2576e806511c8dd9056dd7d080c99 can: kvaser_usb: hydra: help gcc-13 to figure out cmd_len
-a6e172e959c4f6001ea2e17b2896c3b4a6b83986 powerpc: dts: t208x: Disable 10G on MAC1 and MAC2
-8baccb2ac5046d0069bfa4b434024a6ad29c2d8e alarmtimer: Prevent starvation by small intervals and SIG_IGN
-9cb268f4503bc3cda44a832ce87c900cf5cfceb3 drm/i915/gvt: fix double free bug in split_2MB_gtt_entry
-3417cee31c2fb2ce6fdf9a2e0e0b2cde427c279c mac80211: mesh: embedd mesh_paths and mpp_paths into ieee80211_if_mesh
-fee3230cc11ee867609741357a3a2fa07f1093db uaccess: Add speculation barrier to copy_from_user()
-e483845cd988b057cd2d6eb668ce061c7bfc8c49 wifi: mwifiex: Add missing compatible string for SD8787
-77be2bcb59b82135f0656b03014286bbe24672dd ext4: Fix function prototype mismatch for ext4_feat_ktype
-c55ce131b07a16aa4917efd8bde723e2b18007ce Linux 5.4.233-rc1
+430ffb1441f46aa833805849245fc5990ce42516 drm/etnaviv: don't truncate physical page address
+cf7792fe7ab7da4bb0341bdff56c554bbfc44420 wifi: rtl8xxxu: gen2: Turn on the rate control
+6944290ffd18e5e8a1a0562cad3f4602a246144c clk: mxl: Switch from direct readl/writel based IO to regmap based IO
+8c836fcbe5c65782a07e8ecc0c71070219e40ecd clk: mxl: Remove redundant spinlocks
+6c73a17814db6ddf59b935d1e879a7e133b9358d clk: mxl: Add option to override gate clks
+06153870d0042d1bc6fe3eb5d2d204cdca7b0e22 clk: mxl: Fix a clk entry by adding relevant flags
+f3e42ca58c9782e38e4cc48f21fde921f002eb01 powerpc: dts: t208x: Mark MAC1 and MAC2 as 10G
+532785c4a3903f710a11ec86b1debab09c31d7a8 clk: mxl: syscon_node_to_regmap() returns error pointers
+cf0783e5056dddf89a3855551aa7fd3102121c05 random: always mix cycle counter in add_latent_entropy()
+240d7372c7c6a4be41672b5c0bb06cd8944e8ede KVM: x86: Fail emulation during EMULTYPE_SKIP on any exception
+ea9f554bacbd64d1638e5ce8de5f24c6c5074909 KVM: SVM: Skip WRMSR fastpath on VM-Exit if next RIP isn't valid
+c20d4dacd9b255f800c911f599643ad04f2e4286 KVM: VMX: Execute IBPB on emulated VM-exit when guest has IBRS
+7f95636f3db1911a0a283350e69d89b77cd734d7 can: kvaser_usb: hydra: help gcc-13 to figure out cmd_len
+4094f51435ac2b0a3c15ca6189809d6b5194d8ba powerpc: dts: t208x: Disable 10G on MAC1 and MAC2
+4cfe484f10514528c5b1cc29945807fb20e32c75 drm/i915/gvt: fix double free bug in split_2MB_gtt_entry
+4a9f325617b8ae100f9a097eef22de188c60c01e mac80211: mesh: embedd mesh_paths and mpp_paths into ieee80211_if_mesh
+294106aad43a4dd0a9a205b5090cbb788f1d1df0 uaccess: Add speculation barrier to copy_from_user()
+5a87f11008cd9114b2babf3248b766b221e8952d Revert "Revert "block: nbd: add sanity check for first_minor""
+178b28927374db9b6e252920e75caab511405e4e nbd: fix max value for 'first_minor'
+34acef6f7093216c44fd3d7964dbbffc2afdc5c4 nbd: fix possible overflow for 'first_minor' in nbd_dev_add()
+2b2edcf2edee7ab9d3fceb487cd8c1af530ac292 nbd: fix possible overflow on 'first_minor' in nbd_dev_add()
+c31a3731eb20d3fe29fcdce6ab295cc5cc72b757 wifi: mwifiex: Add missing compatible string for SD8787
+d75e9ce605cacb5c600c2d5b6d8794e9cc600310 audit: update the mailing list in MAINTAINERS
+d65372bcc0a041490782ed05c259bd2ea232e332 ext4: Fix function prototype mismatch for ext4_feat_ktype
+4c8585abe6b89da37c2e121957587148fc9e6477 Linux 5.10.170-rc1
 
---===============2590445460776940450==--
+--===============0400139410083652853==--
