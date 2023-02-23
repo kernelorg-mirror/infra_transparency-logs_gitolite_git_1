@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1353478592776413782=="
+Content-Type: multipart/mixed; boundary="===============6433967646967948894=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Thu, 23 Feb 2023 14:17:09 -0000
-Message-Id: <167716182973.29987.4798802117677973807@gitolite.kernel.org>
+Date: Thu, 23 Feb 2023 14:19:55 -0000
+Message-Id: <167716199570.31031.750334220271399950@gitolite.kernel.org>
 
---===============1353478592776413782==
+--===============6433967646967948894==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,230 +16,235 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: bot-stable-queue
 changes:
   - ref: refs/heads/queue/4.14
-    old: e7a24defdeb6ef6ece99c36ad39283b0f8f00e49
-    new: 79a30f4f0e5cfc9f0e7cb434b59e94a84b0b4a96
+    old: 79a30f4f0e5cfc9f0e7cb434b59e94a84b0b4a96
+    new: 17fedbb5d79a4c366f520404b9980b6401d02a96
     log: |
-         26b2f30ce4ec4374dbecc56985cef709dd678d87 wifi: rtl8xxxu: gen2: Turn on the rate control
-         3aee98003fbba1ac4802348223de368f94d2f942 powerpc: dts: t208x: Mark MAC1 and MAC2 as 10G
-         72939b834be000e58023df17479ad62550455b17 random: always mix cycle counter in add_latent_entropy()
-         e9c755d458a9f8e943878d6e029fa32c74048593 powerpc: dts: t208x: Disable 10G on MAC1 and MAC2
-         125e7bc8f1caecd27fffb0e537b50b0316e3508d alarmtimer: Prevent starvation by small intervals and SIG_IGN
-         8aaf8009048ffe301b55ece5a1e01955d73cd36f uaccess: Add speculation barrier to copy_from_user()
-         79a30f4f0e5cfc9f0e7cb434b59e94a84b0b4a96 wifi: mwifiex: Add missing compatible string for SD8787
+         9e608feab7ae394ea21b86e7c0f8f1b2ef437e47 wifi: rtl8xxxu: gen2: Turn on the rate control
+         b7c119bd122a460137d56141f91bbf8ea905fac5 powerpc: dts: t208x: Mark MAC1 and MAC2 as 10G
+         b8f8bd0e774c5eaae50f2f2d3167fc3440df9bb5 random: always mix cycle counter in add_latent_entropy()
+         93ccdd8d5ce1497ee6ec3ace0ae1dda16007c8f3 powerpc: dts: t208x: Disable 10G on MAC1 and MAC2
+         39c7458cbfe8a907f185cad049fd25b7c015edf1 alarmtimer: Prevent starvation by small intervals and SIG_IGN
+         73c9f16c7b9e06fa94dda4a545ff449aad1e4810 uaccess: Add speculation barrier to copy_from_user()
+         17fedbb5d79a4c366f520404b9980b6401d02a96 wifi: mwifiex: Add missing compatible string for SD8787
          
   - ref: refs/heads/queue/4.19
-    old: 896534949c201784560277318fa74cc12eaa1066
-    new: e8c35f164170395b29390f242f1f161007431be4
-    log: revlist-896534949c20-e8c35f164170.txt
+    old: e8c35f164170395b29390f242f1f161007431be4
+    new: 2a476d74b6e3dc5cb7c2cd520ea6288085dfdb1f
+    log: revlist-e8c35f164170-2a476d74b6e3.txt
   - ref: refs/heads/queue/5.10
-    old: 125881a8b18bcd0ee14f300820d0d03c85333af4
-    new: 9c639c705f45a43689513bd42b8dc8c5b27777c0
-    log: revlist-125881a8b18b-9c639c705f45.txt
+    old: 9c639c705f45a43689513bd42b8dc8c5b27777c0
+    new: 0059daab31fd127c02e43dcb6d888c8fee7b7eda
+    log: revlist-9c639c705f45-0059daab31fd.txt
   - ref: refs/heads/queue/5.15
-    old: 28211161bb36398627db28b92b27701ebb39f9b2
-    new: d976333f74ee8442b7efdb144303609528d5dd30
-    log: revlist-28211161bb36-d976333f74ee.txt
+    old: d976333f74ee8442b7efdb144303609528d5dd30
+    new: f36966a8e1eaa78d406fd70b86272c8f2d6547b0
+    log: revlist-d976333f74ee-f36966a8e1ea.txt
   - ref: refs/heads/queue/5.4
-    old: 3311d7f52cc02692284311dcfc4dc151faf4cea2
-    new: c802f6ece511e7960c696ba903535a214bf42729
-    log: revlist-3311d7f52cc0-c802f6ece511.txt
+    old: c802f6ece511e7960c696ba903535a214bf42729
+    new: 37cd1c8a0438f44d6693d32c043586aaf05e23e9
+    log: revlist-c802f6ece511-37cd1c8a0438.txt
   - ref: refs/heads/queue/6.1
-    old: 0e1d6482dfa39b647d685f572a437bb43eeb896b
-    new: e1f59c04aa2ba365c62a0b6b798565793708de9a
-    log: revlist-0e1d6482dfa3-e1f59c04aa2b.txt
+    old: e1f59c04aa2ba365c62a0b6b798565793708de9a
+    new: 956877e98638ebd2c92a4c63c8eb23180599ef11
+    log: revlist-e1f59c04aa2b-956877e98638.txt
   - ref: refs/heads/queue/6.2
-    old: fa7a096f42c50c2b07dbebb3d5e7a05c84ec3cb0
-    new: 1fc5e38a0333f6019cbc843a2ffbd01e30ef3606
-    log: revlist-fa7a096f42c5-1fc5e38a0333.txt
+    old: 1fc5e38a0333f6019cbc843a2ffbd01e30ef3606
+    new: 27c07a51f942856afd20144e2fe98befaa868071
+    log: revlist-1fc5e38a0333-27c07a51f942.txt
 
---===============1353478592776413782==
+--===============6433967646967948894==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-896534949c20-e8c35f164170.txt
+Content-Disposition: attachment; filename=revlist-e8c35f164170-2a476d74b6e3.txt
 
-f615b5b72507a18d9ab826c7f58c02fdce08d49f wifi: rtl8xxxu: gen2: Turn on the rate control
-94a9b611dee4ed399da85619b1991c297f52500c powerpc: dts: t208x: Mark MAC1 and MAC2 as 10G
-1d33be77d7b57a5eddfefc197a52961b85f08a46 random: always mix cycle counter in add_latent_entropy()
-586a266e95e1395288cc4648c0291e74d6e90c70 can: kvaser_usb: hydra: help gcc-13 to figure out cmd_len
-5229d76fbbc1c428e17633dbb36b358b14c8155b powerpc: dts: t208x: Disable 10G on MAC1 and MAC2
-fc8d5bceb1198563a6beb10f79849c60ae774459 alarmtimer: Prevent starvation by small intervals and SIG_IGN
-8b1e93b4e5935eecd3bab4946c52a4b7434822ee drm/i915/gvt: fix double free bug in split_2MB_gtt_entry
-ee79088c850cd3474c71c71f173586c32df40dc5 mac80211: mesh: embedd mesh_paths and mpp_paths into ieee80211_if_mesh
-ae8a5e1b9fd351bb8492aaaef3eab320c9157134 uaccess: Add speculation barrier to copy_from_user()
-daa6b5c2833da96a435751124c8c9149c1001c7e wifi: mwifiex: Add missing compatible string for SD8787
-c52324c68628089a20a0da610461061423734009 ext4: Fix function prototype mismatch for ext4_feat_ktype
-e8c35f164170395b29390f242f1f161007431be4 bpf: add missing header file include
+1eb518a07af44b589d25c36c8c87d5735b810cdb wifi: rtl8xxxu: gen2: Turn on the rate control
+9739d28f8d54f3c1e7385864642c653b87a44eb4 powerpc: dts: t208x: Mark MAC1 and MAC2 as 10G
+b8947e2c82e14ecb4560a0f55f2e045d3104aad2 random: always mix cycle counter in add_latent_entropy()
+f8e2b640e669dc76b30cd9b9d2d7731a03307f30 can: kvaser_usb: hydra: help gcc-13 to figure out cmd_len
+88ff175aae720c690623a0f2f718043fe9956f98 powerpc: dts: t208x: Disable 10G on MAC1 and MAC2
+3edb2f689a0b0bc14e073167d6f1c743435a3f3a alarmtimer: Prevent starvation by small intervals and SIG_IGN
+39090aa999ebba6ce0e06e36080ca2a211f8e982 drm/i915/gvt: fix double free bug in split_2MB_gtt_entry
+768287ff61c3f2b258b1e82bef1f660662794215 mac80211: mesh: embedd mesh_paths and mpp_paths into ieee80211_if_mesh
+a5a7674a860d49cee914bf7efa826ba2467a7090 uaccess: Add speculation barrier to copy_from_user()
+da250973a1e410529ec96a21d46e8288a7183178 wifi: mwifiex: Add missing compatible string for SD8787
+b668210886ad1fa70c825a3efc22db6ccb2a93b2 ext4: Fix function prototype mismatch for ext4_feat_ktype
+2a476d74b6e3dc5cb7c2cd520ea6288085dfdb1f bpf: add missing header file include
 
---===============1353478592776413782==
+--===============6433967646967948894==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-125881a8b18b-9c639c705f45.txt
+Content-Disposition: attachment; filename=revlist-9c639c705f45-0059daab31fd.txt
 
-ea687ffe80fb92b14f0f6a6f41f34699a7f8fa19 drm/etnaviv: don't truncate physical page address
-fa4d265c9357cadebea97697d172cd4f7cc5882a wifi: rtl8xxxu: gen2: Turn on the rate control
-fdb45f47e4bcb03b73a292b4444c4459f470ae4c clk: mxl: Switch from direct readl/writel based IO to regmap based IO
-8b28baf9f71b9ce07ee4b13d40da9cb3f2bf7b91 clk: mxl: Remove redundant spinlocks
-306a1b1bd45fd8233318a12873685b81e0f1de11 clk: mxl: Add option to override gate clks
-78f2c5d464ca72df5fa9dd8068a7a44bf53776a8 clk: mxl: Fix a clk entry by adding relevant flags
-65e104d8156139e4242955c139a6ee50f0eafc21 powerpc: dts: t208x: Mark MAC1 and MAC2 as 10G
-6c896d8aea180b880912ab9afbd13de179ca9970 clk: mxl: syscon_node_to_regmap() returns error pointers
-4940bc325ed13adde053cffe2e1b8e2cafbe91d5 random: always mix cycle counter in add_latent_entropy()
-b5534d23dd343008e394cd2e4c4087a92885f57c KVM: x86: Fail emulation during EMULTYPE_SKIP on any exception
-3abeda9276323c47e5ce310eb46cbbaf5d49e3d8 KVM: SVM: Skip WRMSR fastpath on VM-Exit if next RIP isn't valid
-156da3a538c1d715486fddffd0322d7d5b033c68 KVM: VMX: Execute IBPB on emulated VM-exit when guest has IBRS
-577d278e04107219a82a92e686df75faee4da9ef can: kvaser_usb: hydra: help gcc-13 to figure out cmd_len
-99301c8b9a398100f884c8356852ccffc13e44f8 powerpc: dts: t208x: Disable 10G on MAC1 and MAC2
-c40c8222f60d9d5b918d4f13f7df0b21a621b6fd drm/i915/gvt: fix double free bug in split_2MB_gtt_entry
-db5188ea207cb9b925d4bf0526accc7b99f70113 mac80211: mesh: embedd mesh_paths and mpp_paths into ieee80211_if_mesh
-897f813c8872ec446fd1fa965eff28e252356bdd uaccess: Add speculation barrier to copy_from_user()
-ef9ded0b2e44b6dbcb7eaea8af9e0a66b2ba8f1c Revert "Revert "block: nbd: add sanity check for first_minor""
-6c59150daa09062f70faa88a666b3f7d6ffb8db8 nbd: fix max value for 'first_minor'
-3d640998ee5bc4fa620cddb4ba0e369f14ac7433 nbd: fix possible overflow for 'first_minor' in nbd_dev_add()
-6cc1b1715d750504a7e2db2688352d30947dd1f9 nbd: fix possible overflow on 'first_minor' in nbd_dev_add()
-871f15ad9f35266576952ed15186e8045b94f79f wifi: mwifiex: Add missing compatible string for SD8787
-e0a4939900ccf6f9a64e93f3a250deb069c9bd51 audit: update the mailing list in MAINTAINERS
-b686e424a9a4842d93a7e989e47c5d6571a0be4f ext4: Fix function prototype mismatch for ext4_feat_ktype
-9c639c705f45a43689513bd42b8dc8c5b27777c0 Revert "net/sched: taprio: make qdisc_leaf() see the per-netdev-queue pfifo child qdiscs"
+8f03271efcd104b4aeb36b2fecbd4974300e0280 drm/etnaviv: don't truncate physical page address
+35029570916f8f4cc499343f577833de2cbf6d94 wifi: rtl8xxxu: gen2: Turn on the rate control
+142ec1ff90031ac27d9541731793fbe28229fa2f clk: mxl: Switch from direct readl/writel based IO to regmap based IO
+422c2fb5e06b6e22aee55b276ccb5474509de00c clk: mxl: Remove redundant spinlocks
+1c0c89ad0779a4c4a1ee3b8280e36efaf4ec86c2 clk: mxl: Add option to override gate clks
+08b050b077bb3e863a6d6bca1d168270c0a34890 clk: mxl: Fix a clk entry by adding relevant flags
+d73fb5b6874f0f53c090553a89b7d6b7a6146e9e powerpc: dts: t208x: Mark MAC1 and MAC2 as 10G
+86ff3e973710899d62d70cd0124a2cdb28a37b60 clk: mxl: syscon_node_to_regmap() returns error pointers
+3209eb79798c01e32ee6271bdee39df48dc17c74 random: always mix cycle counter in add_latent_entropy()
+ab13882f7e2937adf5d23524d318d6a63d177437 KVM: x86: Fail emulation during EMULTYPE_SKIP on any exception
+eedfae74af7e4fb999ca591147651edb3c732747 KVM: SVM: Skip WRMSR fastpath on VM-Exit if next RIP isn't valid
+6c8709d950aa7cee75b534ae1580e3701a6ef6c1 KVM: VMX: Execute IBPB on emulated VM-exit when guest has IBRS
+dc932cc70b2fb0ba4cbf927eb0ef7eb959028ea9 can: kvaser_usb: hydra: help gcc-13 to figure out cmd_len
+85054b1531a48e5e6ba94349b23c05705aff874a powerpc: dts: t208x: Disable 10G on MAC1 and MAC2
+04520adc31582b0d38c5692c622a2362a6558726 drm/i915/gvt: fix double free bug in split_2MB_gtt_entry
+d4de79ff0c8a4cf656aa40eedf700723ff050ae4 mac80211: mesh: embedd mesh_paths and mpp_paths into ieee80211_if_mesh
+afb7bc726c7790e8c7ced79ea87dc04ca570b7cb uaccess: Add speculation barrier to copy_from_user()
+860e2151a64a29cd6c723aea0718cc7940a3d382 Revert "Revert "block: nbd: add sanity check for first_minor""
+5adc1d0d4787db59fa15c85a8d5f4882c91fdda6 nbd: fix max value for 'first_minor'
+afc5fc69ac3c5070b8b6473dc167c7d881e51c9c nbd: fix possible overflow for 'first_minor' in nbd_dev_add()
+62fadeb80a9e606e61e7cf7dddef7ddc5b3adf13 nbd: fix possible overflow on 'first_minor' in nbd_dev_add()
+aff022efd889f1f2ffcd4a11ff1f58e3971ae040 wifi: mwifiex: Add missing compatible string for SD8787
+a6c816b2b8518d69372eabb999021f4eca14ed60 audit: update the mailing list in MAINTAINERS
+3fa895ac2c2dae626d4a50aa147cb093fe6a6730 ext4: Fix function prototype mismatch for ext4_feat_ktype
+1dbd8218c8f3ac1628e44eb40355c67e8df730da Revert "net/sched: taprio: make qdisc_leaf() see the per-netdev-queue pfifo child qdiscs"
+0059daab31fd127c02e43dcb6d888c8fee7b7eda bpf: add missing header file include
 
---===============1353478592776413782==
+--===============6433967646967948894==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-28211161bb36-d976333f74ee.txt
+Content-Disposition: attachment; filename=revlist-d976333f74ee-f36966a8e1ea.txt
 
-d3dbb860b8807fead4de6d75aa8b3bc211fb0729 drm/etnaviv: don't truncate physical page address
-ed991c1fdb7e20ef188caaacd00b22a925b957a7 wifi: rtl8xxxu: gen2: Turn on the rate control
-5d2ad07052de2e2830c2a8a4093064b795f208f4 drm/edid: Fix minimum bpc supported with DSC1.2 for HDMI sink
-f22b0c7f6195f4abd232b2200944b0239ac3ef08 clk: mxl: Switch from direct readl/writel based IO to regmap based IO
-3e51de59d931c65a19532c26e50323b5fd225583 clk: mxl: Remove redundant spinlocks
-274170a011c5d284a1f83e518e3f6dbde56e6843 clk: mxl: Add option to override gate clks
-1de83773e3ef066264caac51c5db9091060c817c clk: mxl: Fix a clk entry by adding relevant flags
-3b6eb48975376f262f7d5acac6204254f0af9047 powerpc: dts: t208x: Mark MAC1 and MAC2 as 10G
-9d41f6edbf89e670f21a7ccd06c1b42133a3ac6f clk: mxl: syscon_node_to_regmap() returns error pointers
-4edf41928b92f5fabeee387b88975ef32ca23757 random: always mix cycle counter in add_latent_entropy()
-374d0f48598fac751403b12a66814cf3856f548f KVM: x86: Fail emulation during EMULTYPE_SKIP on any exception
-19e0488211d1a987c81789ffd2127c6ad62483aa KVM: SVM: Skip WRMSR fastpath on VM-Exit if next RIP isn't valid
-7cd5a292263ac23ea31d0dc6a9926976c03bcc9d KVM: VMX: Execute IBPB on emulated VM-exit when guest has IBRS
-8710f87d42e7118597959b2e22ca53b8a872b90b can: kvaser_usb: hydra: help gcc-13 to figure out cmd_len
-191f4c684e7c2e0f89ec2f86207f19c4ee7a3b8c powerpc: dts: t208x: Disable 10G on MAC1 and MAC2
-a56d616828cc4fc7db4d2ec32c0c979547099fd2 powerpc: use generic version of arch_is_kernel_initmem_freed()
-4db11e3371d16fa4f22cbc3f05c29d21fe4c6b3a powerpc/vmlinux.lds: Ensure STRICT_ALIGN_SIZE is at least page aligned
-5a1d98f7114fd40756f39ca0cf4160204ff315e0 powerpc/vmlinux.lds: Add an explicit symbol for the SRWX boundary
-c5aa08cafb683f26de3fb82b54a514c2ac0a623f powerpc/64s/radix: Fix crash with unaligned relocated kernel
-5efef2f61a5e29a819841342ea9f24bdaf19eba8 powerpc/64s/radix: Fix RWX mapping with relocated kernel
-7214d04136eb980a31a56b840b43c6a6641b5480 drm/i915/gvt: fix double free bug in split_2MB_gtt_entry
-8a780118c2fa4e30ed775cf464ad664a8d9033d8 uaccess: Add speculation barrier to copy_from_user()
-22554c98bd78c4518051de8ecf810415066c34c5 binder: read pre-translated fds from sender buffer
-d6aeafb5b51d85839c5b9b6e0e71a1c4a13939d1 binder: defer copies of pre-patched txn data
-c978f82d6a59b019da0d640bd1843515e38c0634 binder: fix pointer cast warning
-4d3e4e4caa17ba0f8ccceb9b256a7753344df97e binder: Address corner cases in deferred copy and fixup
-8b4c37e31c799b715fea3585c4c54f7bc12b575f binder: Gracefully handle BINDER_TYPE_FDA objects with num_fds=0
-861f35b3e1d7e1bb193296340b27e4741190c7d3 nbd: fix possible overflow on 'first_minor' in nbd_dev_add()
-eaa969431e841c066e0b11692eae729ed7d45ecc wifi: mwifiex: Add missing compatible string for SD8787
-3d145a084db60a4432972f84ba68100a33ac5e09 audit: update the mailing list in MAINTAINERS
-3af23d3946004f3c9ae757dffd8885e2bf1ef3b2 ext4: Fix function prototype mismatch for ext4_feat_ktype
-dc0908af389c6c0f45a933f4eaf13c3a20b70b36 kbuild: Add CONFIG_PAHOLE_VERSION
-a033c6cab7aff716167618d09d9639e313196d74 scripts/pahole-flags.sh: Use pahole-version.sh
-78e2efcfbf77740e95f2a64b229a6a67384a831b lib/Kconfig.debug: Use CONFIG_PAHOLE_VERSION
-b1a962dc69f779cdb06ed40b08b45d080339bc86 lib/Kconfig.debug: Allow BTF + DWARF5 with pahole 1.21+
-d976333f74ee8442b7efdb144303609528d5dd30 Revert "net/sched: taprio: make qdisc_leaf() see the per-netdev-queue pfifo child qdiscs"
+7e1530277fcf632e360b55efa0fee2f7e04b14ba drm/etnaviv: don't truncate physical page address
+e2bbe4be64a385bcf31da58e22b8e3fbce0fea74 wifi: rtl8xxxu: gen2: Turn on the rate control
+7100ae4f00d733b4663b7f8b671e8d1c63fdada6 drm/edid: Fix minimum bpc supported with DSC1.2 for HDMI sink
+0a73c0f9970ec579dcf09c6cab487cfbceb2b00b clk: mxl: Switch from direct readl/writel based IO to regmap based IO
+90f739c0e3988d8a353d5b3a69e40d3e655f08de clk: mxl: Remove redundant spinlocks
+ca928662b7bf78fd08c4278e01eeda21a715b782 clk: mxl: Add option to override gate clks
+b55a1d6d12d42e934f7509799766ca3290bde41b clk: mxl: Fix a clk entry by adding relevant flags
+ae713040a7f850df6ebf5c82d11c2920988f6804 powerpc: dts: t208x: Mark MAC1 and MAC2 as 10G
+2450d0e4f6f1a1a2fb1900342e17739be1643cf4 clk: mxl: syscon_node_to_regmap() returns error pointers
+c94428575b50783583f801afabcf827a0d663bd2 random: always mix cycle counter in add_latent_entropy()
+2ca7a848cc4b2813e6776e1e83982792dc262f3d KVM: x86: Fail emulation during EMULTYPE_SKIP on any exception
+b917515ccebb9812291bfb54391dd2ab35d85142 KVM: SVM: Skip WRMSR fastpath on VM-Exit if next RIP isn't valid
+c22dc8d0d6ed1ec274dd458b83b03efe9b114358 KVM: VMX: Execute IBPB on emulated VM-exit when guest has IBRS
+36dc9ea48861e8baf9e43a2f85aa0f304e03ab9c can: kvaser_usb: hydra: help gcc-13 to figure out cmd_len
+a91e8d07bbbb5f478815b932b0f9e21a811e9a51 powerpc: dts: t208x: Disable 10G on MAC1 and MAC2
+12a313ad82bbd740b1548725568115415335775a powerpc: use generic version of arch_is_kernel_initmem_freed()
+f98168556c1e265a85f16b92317b683596292dee powerpc/vmlinux.lds: Ensure STRICT_ALIGN_SIZE is at least page aligned
+4f728f86c049e412edd46e2cfc2f41c2b909333c powerpc/vmlinux.lds: Add an explicit symbol for the SRWX boundary
+5f3c13e9c2484c65b7d74cd5010896379738b576 powerpc/64s/radix: Fix crash with unaligned relocated kernel
+98e78b5b18b548e63dcc6d8ce048a78f74195370 powerpc/64s/radix: Fix RWX mapping with relocated kernel
+bd2dfa723b4dedcb4fd5c6bbd8b19956a18e08e4 drm/i915/gvt: fix double free bug in split_2MB_gtt_entry
+3db3bb7141ea8212361cc7612d27b7db6ef537ff uaccess: Add speculation barrier to copy_from_user()
+c886d5a26692896e014b28444e82c206f6460cb0 binder: read pre-translated fds from sender buffer
+8ac1bf5f8abfae47d52e1a6dc326fce4a463c7fe binder: defer copies of pre-patched txn data
+fe1aee8109d1394c5045498f1a0fdd13c1833c14 binder: fix pointer cast warning
+3f78bebdfae29c404532585dc42deb36584e20eb binder: Address corner cases in deferred copy and fixup
+240f693492b604a48a11bbb90cdfa730d473e455 binder: Gracefully handle BINDER_TYPE_FDA objects with num_fds=0
+6b84b307227b8466ae81e50bde681e4fb6ab94e9 nbd: fix possible overflow on 'first_minor' in nbd_dev_add()
+808cfcc832dc7b93072cf0de6dde07a3ffb34e57 wifi: mwifiex: Add missing compatible string for SD8787
+ae97b59be0ca4f152ec5f99a41fc92cc7b38e84f audit: update the mailing list in MAINTAINERS
+cf0aa3fce5d64aad47fe6949e1225aeed52ba71d ext4: Fix function prototype mismatch for ext4_feat_ktype
+c2bf9a1200ccb11458f9f26507784b28faf87aa5 kbuild: Add CONFIG_PAHOLE_VERSION
+15c94ef949e9b7501f984a32ffdad4a732524bf4 scripts/pahole-flags.sh: Use pahole-version.sh
+ff84d31b1e6a40195fa8f19dfd5223852512e6f5 lib/Kconfig.debug: Use CONFIG_PAHOLE_VERSION
+3fc1ba5a3ed130cd343fc2c44f2e993487ea84e5 lib/Kconfig.debug: Allow BTF + DWARF5 with pahole 1.21+
+63d352799ad0fbc0a15d7c012f7e9852cd59bfa2 Revert "net/sched: taprio: make qdisc_leaf() see the per-netdev-queue pfifo child qdiscs"
+f36966a8e1eaa78d406fd70b86272c8f2d6547b0 bpf: add missing header file include
 
---===============1353478592776413782==
+--===============6433967646967948894==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3311d7f52cc0-c802f6ece511.txt
+Content-Disposition: attachment; filename=revlist-c802f6ece511-37cd1c8a0438.txt
 
-09c85cda6254c645040811423b1eacc38014de7c dma-mapping: add generic helpers for mapping sgtable objects
-f6c869275c541eac320e1a19a9f49fa579bfb788 scatterlist: add generic wrappers for iterating over sgtable objects
-c74acc60fd066e3f0b82f61118ad19ec6e3f1529 drm: etnaviv: fix common struct sg_table related issues
-b3d167b1619e140c9e347fe9f79724acef04bc12 drm/etnaviv: don't truncate physical page address
-885cf107865e0ac9d940ad8e069add47886b4006 wifi: rtl8xxxu: gen2: Turn on the rate control
-315fedd33892ed9ba69949e00ad8314cd2d20dc6 powerpc: dts: t208x: Mark MAC1 and MAC2 as 10G
-20b5fe5d65f9c838bd806d55b148e2d0d50a41b8 random: always mix cycle counter in add_latent_entropy()
-7c574e59d4d784612d4647746ec29459f0c66169 KVM: x86: Fail emulation during EMULTYPE_SKIP on any exception
-e1414795b91188d68273cb352306da1fdf727cd6 KVM: VMX: Execute IBPB on emulated VM-exit when guest has IBRS
-e2fd039c4e5da0cd6c90f87776a30b16764930a9 can: kvaser_usb: hydra: help gcc-13 to figure out cmd_len
-1bdd4cbba280073a9519afb094a79942559eb47b powerpc: dts: t208x: Disable 10G on MAC1 and MAC2
-e9f3db39dbfb1e3289fd4f2ae1a4916fe5827e57 alarmtimer: Prevent starvation by small intervals and SIG_IGN
-1f54a26e682bf05ccf80626f6c8701c01bff828c drm/i915/gvt: fix double free bug in split_2MB_gtt_entry
-da3d362b8a9f2e5d82bbd6a3f687ee0c09a3da8f mac80211: mesh: embedd mesh_paths and mpp_paths into ieee80211_if_mesh
-43b0974865a601a66ce3b6df56112b8e57f086fa uaccess: Add speculation barrier to copy_from_user()
-43e81a10ae2d6bf08eb75b6df704dbbfd51f4338 wifi: mwifiex: Add missing compatible string for SD8787
-77ce8ab4be22155e742b0d684c1b728ab83b43aa ext4: Fix function prototype mismatch for ext4_feat_ktype
-c802f6ece511e7960c696ba903535a214bf42729 Revert "net/sched: taprio: make qdisc_leaf() see the per-netdev-queue pfifo child qdiscs"
+96ee996d37262b14d86b338a987c7b25d393e6d8 dma-mapping: add generic helpers for mapping sgtable objects
+cc194695d7c401de57cabdbb920fdb92bfe82012 scatterlist: add generic wrappers for iterating over sgtable objects
+50388bfc283ba988c040d0bc6c627b0ca3d970db drm: etnaviv: fix common struct sg_table related issues
+14f294f0eac670c01c9ffd105e5eb0cd2e88bef1 drm/etnaviv: don't truncate physical page address
+0f3b0178977caed92849b4c77df9d0a9f946ab99 wifi: rtl8xxxu: gen2: Turn on the rate control
+637782a5d93d308f31a2704e6f7451e6f4c0c263 powerpc: dts: t208x: Mark MAC1 and MAC2 as 10G
+188f42cd6b483e1664c5001e87ef55a33f15a2a7 random: always mix cycle counter in add_latent_entropy()
+d5869e35ac23c0567fa194c5df6b491217c75a72 KVM: x86: Fail emulation during EMULTYPE_SKIP on any exception
+38df37545dd0e6d9d02d1eb738cfbdab792f0a6d KVM: VMX: Execute IBPB on emulated VM-exit when guest has IBRS
+4c575435c3c480624fc05e72f3c55041a6a59ae4 can: kvaser_usb: hydra: help gcc-13 to figure out cmd_len
+1151ef668c6bbc7b1f37016b998b6631847f94c2 powerpc: dts: t208x: Disable 10G on MAC1 and MAC2
+eecefd18e709d9a7fd4448a14cabcf62fbffa8a8 alarmtimer: Prevent starvation by small intervals and SIG_IGN
+ebebae9d18a9823d157286c924d31091132b4b62 drm/i915/gvt: fix double free bug in split_2MB_gtt_entry
+40582e476088a266b9ce95b44b0be30e7f1aa283 mac80211: mesh: embedd mesh_paths and mpp_paths into ieee80211_if_mesh
+16e9802df65766c0ecb799e5ea059b3eea2d095f uaccess: Add speculation barrier to copy_from_user()
+68857dc8b1a93549832b3ee70208a4cae275aaa6 wifi: mwifiex: Add missing compatible string for SD8787
+e00dcada9ecb5b7fa585805c1bdbefa226e46782 ext4: Fix function prototype mismatch for ext4_feat_ktype
+36b3bba3c203e0624adf15f976b42e94f8a23637 Revert "net/sched: taprio: make qdisc_leaf() see the per-netdev-queue pfifo child qdiscs"
+37cd1c8a0438f44d6693d32c043586aaf05e23e9 bpf: add missing header file include
 
---===============1353478592776413782==
+--===============6433967646967948894==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0e1d6482dfa3-e1f59c04aa2b.txt
+Content-Disposition: attachment; filename=revlist-e1f59c04aa2b-956877e98638.txt
 
-8b53577f2b4b4852a37abaab934d4542a6724793 drm/etnaviv: don't truncate physical page address
-9e5a27faccbe37271528e0b7376b5ffd88ec9422 wifi: ath11k: fix warning in dma_free_coherent() of memory chunks while recovery
-40a76f840f14a1eb463f5d08d99f0f706e998ba5 wifi: rtl8xxxu: gen2: Turn on the rate control
-2feb1ced8e0b6b14c8cdfda28748c9007d16a35f drm/edid: Fix minimum bpc supported with DSC1.2 for HDMI sink
-e661fcfdf1592b910b2477c60e7aa33fc686a7f4 clk: mxl: Switch from direct readl/writel based IO to regmap based IO
-84efe00b8c97552ec19be2ffaad26bd093e9dfc9 clk: mxl: Remove redundant spinlocks
-2e581bacd78d802e6772bcc497d1b4862302a5f3 clk: mxl: Add option to override gate clks
-98bd72387f0077104b355b34ee51b6b4242fff4c clk: mxl: Fix a clk entry by adding relevant flags
-4fec5a079373f1ccbd7bd36afccc6c37144be9fa powerpc: dts: t208x: Mark MAC1 and MAC2 as 10G
-2a8c319bebea6c5ba6d5ae6553d0efa83d5604e8 clk: mxl: syscon_node_to_regmap() returns error pointers
-6cdc41b1a6c25688bd453c6f0def236e6cab7f0d sched/psi: Stop relying on timer_pending() for poll_work rescheduling
-812e4b8a393cd94f9197d879cf66d6ded413fbd7 random: always mix cycle counter in add_latent_entropy()
-9aaf2dc87af6e5f58fe70eb685cbc14c92ed3eac scsi: libsas: Add smp_ata_check_ready_type()
-9bdb1bb80a1798c64b995186fd489ece414167f8 scsi: hisi_sas: Fix SATA devices missing issue during I_T nexus reset
-559b49bcdd2fc580cf870ce41816198dc85c6b79 spi: mediatek: Enable irq when pdata is ready
-1983afee2ef7982fdb574fcd59f455d00f9d6b70 docs: perf: Fix PMU instance name of hisi-pcie-pmu
-2d6b45ba1d0dbbed23d3ee57c23000a20ca5646c KVM: x86: Fail emulation during EMULTYPE_SKIP on any exception
-683f67f4cf7afa706cdb74727933e578e138eb0f KVM: SVM: Skip WRMSR fastpath on VM-Exit if next RIP isn't valid
-5540186e4b8b099bf87382180509dde35d6097fa KVM: VMX: Execute IBPB on emulated VM-exit when guest has IBRS
-1491ddedf24d059956f47d29f8ae6edff71a0f27 can: kvaser_usb: hydra: help gcc-13 to figure out cmd_len
-fc27b10b3051e86afc53a6d501c12fa6e6347e6d powerpc: dts: t208x: Disable 10G on MAC1 and MAC2
-48cbd8e517651c970525d5fa1e6821c31fd46e9b spi: mediatek: Enable irq before the spi registration
-8dadd52050808de3fff7e3adb609fccf1f9287b0 drm/i915: Remove __maybe_unused from mtl_info
-6269acb4baed242fb2f2b00c8af15e1d8bca608c KVM: x86: fix deadlock for KVM_XEN_EVTCHN_RESET
-44ffcdd644c11275ab2c4afa2102391241a193d3 selftests: kvm: move declaration at the beginning of main()
-001eb1f029318bd17ad6cc1444d40aa17f958ce5 powerpc/64s/radix: Fix RWX mapping with relocated kernel
-0c07dc1445b18ff16bfa0c71fb1a49a3819f37f8 nfp: ethtool: support reporting link modes
-d745b1c1abb36c7cfa60b3242a9df679a9636ce0 nfp: ethtool: fix the bug of setting unsupported port speed
-4a0744628906fd9a0ec64823cbb136d62d8b2b3a uaccess: Add speculation barrier to copy_from_user()
-00c340157a72619771aa2081df515dd9334af792 x86/alternatives: Introduce int3_emulate_jcc()
-e030a488892bbc6454ddaf26e243c09a73d5285e x86/alternatives: Teach text_poke_bp() to patch Jcc.d32 instructions
-9cb99ad20d2073505f2e060475cd3e70d22bd09b x86/static_call: Add support for Jcc tail-calls
-eeb1f935babce9e125d9745a43952a7bc33da5d5 Bluetooth: btusb: Add more device IDs for WCN6855
-ca03081a50b690e8b3bdb8098af02a704e23f725 riscv: remove special treatment for the link order of head.o
-a9b2df33aa81e6eaf2c5876f9001a8848c7b41e5 arm64: remove special treatment for the link order of head.o
-e7e57a4892f7a093fac451d95ad18b43a6a500c7 arch: fix broken BuildID for arm64 and riscv
-9c4d05e6d407444adef61e45cd84fcea2de37724 powerpc/vmlinux.lds: Define RUNTIME_DISCARD_EXIT
-b8e424a621ff365e89b3b5a11a0fec6647d4f596 powerpc/vmlinux.lds: Don't discard .rela* for relocatable builds
-d4f07da8b45bffd5d4fc35090b67ca8314599c0a s390: define RUNTIME_DISCARD_EXIT to fix link error with GNU ld < 2.36
-261f6c12b0b91c10fb3bdddd9e0dc6ec0245278d sh: define RUNTIME_DISCARD_EXIT
-bb195d1d719383be5ca90a6a07dca50d4bcd2f8b wifi: mwifiex: Add missing compatible string for SD8787
-2a4d7c224245d12843ad307a3916422d1deb4631 audit: update the mailing list in MAINTAINERS
-57ab276aa60c12523e9d17d44165a08a6aea4054 platform/x86/amd/pmf: Add depends on CONFIG_POWER_SUPPLY
-d6377925afe30bee366d68372f35317b03cbdb7b platform/x86: nvidia-wmi-ec-backlight: Add force module parameter
-0163faf9785ea117ef3c64dc665e0d9322ba3da6 ext4: Fix function prototype mismatch for ext4_feat_ktype
-e1f59c04aa2ba365c62a0b6b798565793708de9a randstruct: disable Clang 15 support
+70671ed6191b35a32b48427fe26355897d17da8e drm/etnaviv: don't truncate physical page address
+a007293953ebb63819fefce79f6dfd61d3769dc8 wifi: ath11k: fix warning in dma_free_coherent() of memory chunks while recovery
+f5d5848bfa173cc7ebb55ef3c2ccaf5c0046c742 wifi: rtl8xxxu: gen2: Turn on the rate control
+83d0a2b564d14ca1735f6ff32abb25a511671abe drm/edid: Fix minimum bpc supported with DSC1.2 for HDMI sink
+8f4ea22be70cc1e886c82d8f3ef873bc83402a43 clk: mxl: Switch from direct readl/writel based IO to regmap based IO
+0564a4842623785792a84e8208a7048c363e827b clk: mxl: Remove redundant spinlocks
+a9e3e67049a2172995b1f2534e689b835609789b clk: mxl: Add option to override gate clks
+040527f86a4f8552b85e00319767b5fb835dcad6 clk: mxl: Fix a clk entry by adding relevant flags
+f2cd130473d0eec6efae8eadfc48b5b71abdb9e8 powerpc: dts: t208x: Mark MAC1 and MAC2 as 10G
+63c60f53a39905ca66d6cea9207c7a1b3d88a3c5 clk: mxl: syscon_node_to_regmap() returns error pointers
+baa57a7c80247268c661cbef8294e87de03d258b sched/psi: Stop relying on timer_pending() for poll_work rescheduling
+2f295e13d4cf5228dabbec62268964c5d890746f random: always mix cycle counter in add_latent_entropy()
+13059e958bf22b59159a6acef280a1f415784f9e scsi: libsas: Add smp_ata_check_ready_type()
+2b45fb9c0c2670c353842f7eb046868ba8a40e9b scsi: hisi_sas: Fix SATA devices missing issue during I_T nexus reset
+e0271fca58157aaf48c436aa4385ed0a400aba00 spi: mediatek: Enable irq when pdata is ready
+5c750282fc9a2cd7339c31f095cd605024b0a744 docs: perf: Fix PMU instance name of hisi-pcie-pmu
+c7057d533469b5125fc3e5e01bbe4fdf24652a8e KVM: x86: Fail emulation during EMULTYPE_SKIP on any exception
+e330659ce37efd734dbe696e59b59319dee2bada KVM: SVM: Skip WRMSR fastpath on VM-Exit if next RIP isn't valid
+feeb981732410fc3d668e84786009024ee78d9f6 KVM: VMX: Execute IBPB on emulated VM-exit when guest has IBRS
+f57ff3385b3801ff152a82bc05dfd21542fbe5d5 can: kvaser_usb: hydra: help gcc-13 to figure out cmd_len
+2abc70dc552c11eb4ae94021833a6cefa6be20a8 powerpc: dts: t208x: Disable 10G on MAC1 and MAC2
+3e4ac8e8e24c9e2abd0872d184011275409a3197 spi: mediatek: Enable irq before the spi registration
+40185f6ca055f43362ae88da9083e9200025cee4 drm/i915: Remove __maybe_unused from mtl_info
+22ff5f326edc44a37a66105c7dce9f7c2865cc99 KVM: x86: fix deadlock for KVM_XEN_EVTCHN_RESET
+280002e19f1f3188726eb98317b37501973967c7 selftests: kvm: move declaration at the beginning of main()
+f9246ff0608042e06e875491ed000067f3ee6ae2 powerpc/64s/radix: Fix RWX mapping with relocated kernel
+58097439707ce6e3720e6e299144ba6993aca4b4 nfp: ethtool: support reporting link modes
+d0c9285e0fec85d3e656ad6f8be0522e7cfb2e0b nfp: ethtool: fix the bug of setting unsupported port speed
+41d4f3fc8b835872b8d89949f380f921827b7d1e uaccess: Add speculation barrier to copy_from_user()
+96827b13c0a5ce50a1328aff72b0bc6e8b7b6ad1 x86/alternatives: Introduce int3_emulate_jcc()
+b1f645153261705a301900ee14aeaed9c1cba213 x86/alternatives: Teach text_poke_bp() to patch Jcc.d32 instructions
+59fac052d4863de0de71b72b9f57fd4152cafa34 x86/static_call: Add support for Jcc tail-calls
+cfd78907fa4fc503b11b796d08cc7081e62b3d73 Bluetooth: btusb: Add more device IDs for WCN6855
+48e391af822a31a8476027378dfbdeaecee4b402 riscv: remove special treatment for the link order of head.o
+8963e75a17e80918d9f487d6e3b805ed5a2bd91d arm64: remove special treatment for the link order of head.o
+0d0898ad89cb4d9697bbc6062c6c43d64ec0973a arch: fix broken BuildID for arm64 and riscv
+c51706217653411b3904c5eb58ffd6c29884fafe powerpc/vmlinux.lds: Define RUNTIME_DISCARD_EXIT
+7ad5b72128cf66f6db68e007a029754691d2107d powerpc/vmlinux.lds: Don't discard .rela* for relocatable builds
+5b1a2a83ae4bac98df73b6f7b3605d7549553f70 s390: define RUNTIME_DISCARD_EXIT to fix link error with GNU ld < 2.36
+b98db18b8526356301c5f0b373e754a803ed3ecc sh: define RUNTIME_DISCARD_EXIT
+c43916de5197dac196e59caace2b3874b280164c wifi: mwifiex: Add missing compatible string for SD8787
+09a7d24e23b9d74a74bb931d6e85a10d393b2e57 audit: update the mailing list in MAINTAINERS
+44adb0e19814276d2112fb4bc63e934c0c2354a3 platform/x86/amd/pmf: Add depends on CONFIG_POWER_SUPPLY
+a65ec4d64b999db7739f4e969e700728a26d2ee4 platform/x86: nvidia-wmi-ec-backlight: Add force module parameter
+7c8233c5a528135af49e78822d7aa39dfbf8fbb2 ext4: Fix function prototype mismatch for ext4_feat_ktype
+24309f9180dbf6e50f125d763c0060f28ea6f03e randstruct: disable Clang 15 support
+956877e98638ebd2c92a4c63c8eb23180599ef11 bpf: add missing header file include
 
---===============1353478592776413782==
+--===============6433967646967948894==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fa7a096f42c5-1fc5e38a0333.txt
+Content-Disposition: attachment; filename=revlist-1fc5e38a0333-27c07a51f942.txt
 
-7f541991ed73a17eef2abdedf1011ce7dd656872 uaccess: Add speculation barrier to copy_from_user()
-0df74b98b970fb351a58ffcde3e12d4631be87b8 x86/alternatives: Introduce int3_emulate_jcc()
-62e42a99af79a0b73672294a9961cf189198f14d x86/alternatives: Teach text_poke_bp() to patch Jcc.d32 instructions
-2c4847b4e761d223d965305e536e911f6cd56eb4 x86/static_call: Add support for Jcc tail-calls
-b5522e567a7f1d6d74f5970031c59f4eb8bb2aa8 HID: mcp-2221: prevent UAF in delayed work
-2edc23316647f25e2a83c78fb4cdfd1a9bd61e43 wifi: mwifiex: Add missing compatible string for SD8787
-d4d0bb9cb90a9af602bd2ab41f9d094c3c78e967 audit: update the mailing list in MAINTAINERS
-abe5d091dd5fa7adb0b2c7a17994b715231331b3 platform/x86/amd/pmf: Add depends on CONFIG_POWER_SUPPLY
-0e197243ad8de61909505c04c87f1addae5c4332 platform/x86: nvidia-wmi-ec-backlight: Add force module parameter
-36188b26aebb2a7b9c6ed89d6b023825f5a1cb0d ext4: Fix function prototype mismatch for ext4_feat_ktype
-1fc5e38a0333f6019cbc843a2ffbd01e30ef3606 randstruct: disable Clang 15 support
+6214cf122727f034b0c440ddd14bfd72a9959cf3 uaccess: Add speculation barrier to copy_from_user()
+7cf772d9b7b80439560601112737c60e31bc1b5e x86/alternatives: Introduce int3_emulate_jcc()
+76c31b238e05f0b9b49c99f72f434a6529e4e516 x86/alternatives: Teach text_poke_bp() to patch Jcc.d32 instructions
+d64a853f0b169824e9597cc31acb3d12fd784ea6 x86/static_call: Add support for Jcc tail-calls
+7dc440553486ec2cbd45ef000f84ede89aedc333 HID: mcp-2221: prevent UAF in delayed work
+bfa7423a234ee543c8785dc7d8b489d83d20f08e wifi: mwifiex: Add missing compatible string for SD8787
+9a959c8de5086a5fb4218001b763a2dfd4daaaf9 audit: update the mailing list in MAINTAINERS
+52ff07c59bfcb83a4bad736d823249012be2f279 platform/x86/amd/pmf: Add depends on CONFIG_POWER_SUPPLY
+4dd8b25127cdb36c67da51579e5dd583793e6d42 platform/x86: nvidia-wmi-ec-backlight: Add force module parameter
+06af0befcea37e72daa9d8df9c6ca8565269299c ext4: Fix function prototype mismatch for ext4_feat_ktype
+80b5c38441e40d2fcdfbbc4e466c85944bd19668 randstruct: disable Clang 15 support
+27c07a51f942856afd20144e2fe98befaa868071 bpf: add missing header file include
 
---===============1353478592776413782==--
+--===============6433967646967948894==--
