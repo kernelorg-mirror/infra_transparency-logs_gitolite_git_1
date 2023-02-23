@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 23 Feb 2023 21:01:07 -0000
-Message-Id: <167718606746.8181.13307591521780741614@gitolite.kernel.org>
+Subject: post-receive: pub/scm/bluetooth/bluez
+Date: Thu, 23 Feb 2023 21:02:52 -0000
+Message-Id: <167718617258.8788.439279906301877965@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/bluetooth/bluez
+user: vudentz
 changes:
-  - ref: refs/heads/main
-    old: ee0a735fd97ccde766ab557d1fc722c92cebacda
-    new: 68ba44639537de6f91fe32783766322d41848127
+  - ref: refs/heads/master
+    old: 1106b28be85ac9586d1758839226e163e9030ee2
+    new: 46a5d2beccb2ea73f28502950f52032cf4811d37
     log: |
-         68ba44639537de6f91fe32783766322d41848127 sctp: add a refcnt in sctp_stream_priorities to avoid a nested loop
+         46a5d2beccb2ea73f28502950f52032cf4811d37 device: wait GATT client ready before service accept() if no cache
          
