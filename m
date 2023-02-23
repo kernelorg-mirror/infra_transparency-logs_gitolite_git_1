@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jpoimboe/linux
-Date: Thu, 23 Feb 2023 05:49:03 -0000
-Message-Id: <167713134369.30592.12884905330469091251@gitolite.kernel.org>
+Date: Thu, 23 Feb 2023 06:04:08 -0000
+Message-Id: <167713224842.7446.1899160541195254045@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,8 @@ repo: pub/scm/linux/kernel/git/jpoimboe/linux
 user: jpoimboe
 changes:
   - ref: refs/heads/objtool-noreturn
-    old: 0179973523be19730edaba41163b30bf3b7e5d36
-    new: fe1416acb4d20dac29910dbba0e162d555cb105e
+    old: fe1416acb4d20dac29910dbba0e162d555cb105e
+    new: 657a17c5d9681364e6e2df29fcb8eee0848f9d9c
     log: |
-         bb7e3ac2b8ab628d493827f91345a293cf5f4d7a objtool: Add '--verbose' option for disassembling affected functions
-         fe1416acb4d20dac29910dbba0e162d555cb105e objtool: Combine '--backtrace' with '--verbose'
+         657a17c5d9681364e6e2df29fcb8eee0848f9d9c mips/smp: Add CONFIG_SMP guard for raw_smp_processor_id()
          
