@@ -1,23 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/ext2/xfstests-bld
-Date: Thu, 23 Feb 2023 19:58:40 -0000
-Message-Id: <167718232071.31439.14448490524746264522@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+Date: Thu, 23 Feb 2023 20:26:13 -0000
+Message-Id: <167718397369.17705.10277438388989026640@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/ext2/xfstests-bld
-user: tytso
+repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+user: vudentz
 changes:
   - ref: refs/heads/master
-    old: 988d7ee9b89231c638c8e9bed3a33c546d49dec0
-    new: e579f08c17a4043b34cab2595af196255cc9a52a
+    old: 58c6156a4d4bdf011a061ab814920e7e59f68328
+    new: 1fb7281c62c944405960a52a70b20a3bdb1a024a
     log: |
-         88dedee4b15b5f214548e748884b8c6b2e9374a8 build(deps): bump golang.org/x/text
-         f22dd9f8186bae0ea35a8abdc5d4c6b540e13bd0 build(deps): bump golang.org/x/text
-         1e57c8658403bddee9e15133a2a3f6691905adf5 Merge remote-tracking branch 'github/dependabot/go_modules/test-appliance/files/usr/local/lib/gce-server/kcs/golang.org/x/text-0.3.8'
-         3431c2b31ad69da7c769c967ce04def8d580fc9a Merge remote-tracking branch 'github/dependabot/go_modules/test-appliance/files/usr/local/lib/gce-server/ltm/golang.org/x/text-0.3.8'
-         e579f08c17a4043b34cab2595af196255cc9a52a kernel-build: add support to enable the DEPT feature
+         3e254b3e03b368206559c4ef6cd842d015fca8ee Bluetooth: hci_sync: Resume adv with no RPA when active scan
+         1fb7281c62c944405960a52a70b20a3bdb1a024a Bluetooth: btrtl: Add support for RTL8852BS
          
