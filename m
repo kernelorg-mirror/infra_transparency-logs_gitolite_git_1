@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Thu, 23 Feb 2023 00:37:29 -0000
-Message-Id: <167711264966.14214.8234915199821052994@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Thu, 23 Feb 2023 01:03:20 -0000
+Message-Id: <167711420097.2766.11760450517703614133@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
+user: tnguy
 changes:
-  - ref: refs/heads/dev
-    old: a680938f32b0e2006c3d88bce7eba21636f957e8
-    new: edc9d419ee8c22821ffd664466a5cf19208c3f02
+  - ref: refs/heads/dev-queue
+    old: 5af1fdeb2d3bc963c67fad47c321b2e952df5f33
+    new: 3ade1515102382b27ebca75badcdc41f0352cc4e
     log: |
-         edc9d419ee8c22821ffd664466a5cf19208c3f02 locktorture: Add raw_spinlock* torture tests for PREEMPT_RT kernels
+         3ade1515102382b27ebca75badcdc41f0352cc4e ice: remove unnecessary CONFIG_ICE_GNSS
          
