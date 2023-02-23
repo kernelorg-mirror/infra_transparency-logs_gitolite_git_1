@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/libgpiod/libgpiod
-Date: Thu, 23 Feb 2023 18:55:26 -0000
-Message-Id: <167717852676.21266.361110926082757555@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Thu, 23 Feb 2023 18:55:30 -0000
+Message-Id: <167717853058.21325.13973069499674137079@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/libgpiod/libgpiod
-user: brgl
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/tags/v2.0-rc3
+  - ref: refs/heads/asoc-mt8192-quick-fixes
     old: 0000000000000000000000000000000000000000
-    new: 6770b75ade16d750930d95bbd925a06d00cd74d8
+    new: da55691142ccddda2291c13d04fa76eb4ced8bee
