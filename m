@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2476615948755004558=="
+Content-Type: multipart/mixed; boundary="===============3279656281456335671=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Thu, 23 Feb 2023 14:15:45 -0000
-Message-Id: <167716174514.29004.628565373795693650@gitolite.kernel.org>
+Date: Thu, 23 Feb 2023 14:15:47 -0000
+Message-Id: <167716174760.29086.17217844439566780274@gitolite.kernel.org>
 
---===============2476615948755004558==
+--===============3279656281456335671==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,73 +16,84 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.10.y
-    old: ec426fa9fd72c4d4840ec581abe6a88d42330764
-    new: d4288b01f4e882fd7ba86ad1a570b7e420167eb0
-    log: revlist-ec426fa9fd72-d4288b01f4e8.txt
+  - ref: refs/heads/linux-5.15.y
+    old: 411bae8d489b6b513489dfc7de9dbd7c50764226
+    new: d6f4f9746d40c9ee6bccea52831ba1f57519754f
+    log: revlist-411bae8d489b-d6f4f9746d40.txt
 
---===============2476615948755004558==
+--===============3279656281456335671==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1677161743 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1677161745 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1677161742-5910e4bb9824388bfc994e3e612f385d4bbaba3b
+nonce 1677161745-7c5264efbf5a5fbc1b817e632dec10898f558e54
 
-ec426fa9fd72c4d4840ec581abe6a88d42330764 d4288b01f4e882fd7ba86ad1a570b7e420167eb0 refs/heads/linux-5.10.y
+411bae8d489b6b513489dfc7de9dbd7c50764226 d6f4f9746d40c9ee6bccea52831ba1f57519754f refs/heads/linux-5.15.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmP3dQ8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+RS8P/i6N9lkANVKrRes9/eNZ
-qVHaebdUD4AMFehVr9Dpwpcxb9JCHLfMzh1uhouKMoadJs8z2Zl3+XooileBGlCf
-/yesY8df8K9azxLfGUxiORYU2XPMnLPl4OROgRedNtrgoL9ZlJgFhBaS9Gf8gdqz
-W443epWAvRnRaVTWf62LP96u2l+rcZxyYrPRm19L4snOl8EIV/aOqfAucwi/3grJ
-lrhSgpQQ7hTsjtFCHYMcYDH7Plq/hcCQ+2I3g5rVaMhjGGml++3lQYvVqWY78MzH
-ioSZqsaFelizCZKh0sWS6n7+/OiEFfei8P6ZjrTnZXjuYmcEjtCUHowduQoZRxwq
-eMOypWRQMCG2XmScwooKLRSRfhQarabW5UpzDfWdLHGD0iEkYdEMoOzGpoIYcLMF
-Rng7mm+I+wqzxak2LAh18WFAcY+J/6zwl5NmdlZplJyBMJN0xZylIHOa94ibXjVA
-cJdZUa3COw1+8MwoztkA/vd9zw7kyLmvxu4qLCtARmo8ylOgz6BDep/6T5+y6XGC
-lnn8a4V39MXHs6qlWmGmm7O5iYpFt8PGqGBTDaHK3w2DvvwsEC4lpVrTAtLQbwvP
-pMJQK5CImM1AyOojfRoI3fUjvKDI+uUg5JlsqoJNNa4pU3ZBZEXqccwqmEJhwETD
-OJYcaU1vjiT8ZSXivpeRx1C3
-=Q3wA
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmP3dREbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+lakQAKjqD7m/sJ5E0iAyCHYU
+e1IHZ9dk/HP/n6i+ClxPu+zIOTsgRZx/zmujbuBgAiNgNdXgkx1bCVEalRVsnwpk
+ihUl1X3QrOEbZ6N5BQe0RA7ATp+xU727IsvKRvPCBZeaK/Fq2zJYPZKn9KQMA3Md
+WMd+ainsLEIdXXGVMrbBUenR1ghGFzMtHAtJuOPaynOd9CMUR9rWU71sxvIdEzEx
+sKRw27Ub9f97t0KCdsvHjIpSvc+mLZ134PSbQiZEaGo1CYxJoLQEMLtxjmVSYsqZ
+9Gombg2HJrWR0gzKBtOlIdKlrrhoMXTm7AYxLXhDOZidLepnIu/mFp2znMhq01Q9
+PEHSl5lTLyw7RtwtQt5eINqxt+AGUkY4e8EihG3x1ZSZ3C6oWmNHRAa8vHCe7FYD
+wSedflFWxgCfhyVObaEsfxULZdJqP/Y+I0Of9EuKv0GHL7FDiEL6Gga1yxIFiwWQ
+O+zT9VwqiW9ho/jR6XF1q6RknQC8QY8vh+nPTtflBJKsDN9YasleHMrTssm4JjPs
+SfPVQuWXpg9BE7FtdI0UC7DxfGfDclroFBDHIjupsLbgCHAkAXLOusRBOnV++6yb
+2hVtrpupYQFM2trf8l7cPaEzwHWZrE32BXALx4A4mST1Z9MTPflFFQ+QPoJwxRC2
+7NUgo+69MnzYc8rzQekKgb6O
+=ZXQk
 -----END PGP SIGNATURE-----
 
---===============2476615948755004558==
+--===============3279656281456335671==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ec426fa9fd72-d4288b01f4e8.txt
+Content-Disposition: attachment; filename=revlist-411bae8d489b-d6f4f9746d40.txt
 
-b2bbf59661259bbc17e28086e5824600bf886809 drm/etnaviv: don't truncate physical page address
-f9964d1ca6624308d007eb6b7d55e7b6f85f17a8 wifi: rtl8xxxu: gen2: Turn on the rate control
-5db99466a5cc9d57724025ff397ea3a0039927ff clk: mxl: Switch from direct readl/writel based IO to regmap based IO
-d15ca46f93766b4a3f16756385ead7bcf8bd06db clk: mxl: Remove redundant spinlocks
-ac3a9c59c532c02803bbe871ccc890829c00466a clk: mxl: Add option to override gate clks
-e4dc6f028791c4973d9a3e510ac3c8b7fd8815b4 clk: mxl: Fix a clk entry by adding relevant flags
-e3d82e1c2ae3bda4171226de63a1631471810cbf powerpc: dts: t208x: Mark MAC1 and MAC2 as 10G
-d4efe6b7bf9e47df73083e0c9b2e292c409a3502 clk: mxl: syscon_node_to_regmap() returns error pointers
-a9804ade354c5513b6f300f5eb0f72500ca547c7 random: always mix cycle counter in add_latent_entropy()
-79cd7d2ea01d55029b195df7fc01a2cc0def2a71 KVM: x86: Fail emulation during EMULTYPE_SKIP on any exception
-9099cdde902448879212a4a4647168d7a8f2a406 KVM: SVM: Skip WRMSR fastpath on VM-Exit if next RIP isn't valid
-cc17c00890e71ab052c18227e804852f616e816c KVM: VMX: Execute IBPB on emulated VM-exit when guest has IBRS
-a2eee0f1602c7c981783ce7da92542f473c5a258 can: kvaser_usb: hydra: help gcc-13 to figure out cmd_len
-d8358917311f230ee296c4db9d49f45b36014337 powerpc: dts: t208x: Disable 10G on MAC1 and MAC2
-5abd4dd594b566b0838a73c52eaae6a83f4665ef drm/i915/gvt: fix double free bug in split_2MB_gtt_entry
-80c11625786b94486a760775d5d2b4d435cec1e6 mac80211: mesh: embedd mesh_paths and mpp_paths into ieee80211_if_mesh
-f044ac5f90c8bbef464a700ebe932be97d9dab2e uaccess: Add speculation barrier to copy_from_user()
-5f7608c371482b902495574326aef341d88ff2d2 Revert "Revert "block: nbd: add sanity check for first_minor""
-aa798dc665ad3418935324662d71ebc69bbe9ec9 nbd: fix max value for 'first_minor'
-b575b209371825e533576edc1bc4c3449094e4d5 nbd: fix possible overflow for 'first_minor' in nbd_dev_add()
-9f1d68aa66ff0debb11490304ab8293c32f09986 nbd: fix possible overflow on 'first_minor' in nbd_dev_add()
-a4f1a468d90169c40e9dc522f6b29db6080eacd2 wifi: mwifiex: Add missing compatible string for SD8787
-71b3e640fa112d3b06a2aaa3fc963702436a00ee audit: update the mailing list in MAINTAINERS
-49266ea030e5ddcc9f403fa91d06661376f288af ext4: Fix function prototype mismatch for ext4_feat_ktype
-1aac0a8bf009487caac16f2c22287e52c98e06e7 Revert "net/sched: taprio: make qdisc_leaf() see the per-netdev-queue pfifo child qdiscs"
-4ac1eaad6eec5b459596d927d913fe1ba5a24fd3 bpf: add missing header file include
-d4288b01f4e882fd7ba86ad1a570b7e420167eb0 Linux 5.10.170-rc2
+3a0c5b484b2632948234af2cc741040622ba371d drm/etnaviv: don't truncate physical page address
+58e5e0d4b99963173dfcb1e5357b85cc21622fb4 wifi: rtl8xxxu: gen2: Turn on the rate control
+e9fb2f199316361724d7eb2efadd7f5d55dec1bd drm/edid: Fix minimum bpc supported with DSC1.2 for HDMI sink
+a4ed72a7acfd9264b0de40baa5cf527601d00097 clk: mxl: Switch from direct readl/writel based IO to regmap based IO
+20248967616ce1f50e89c5b6f4d504abc096ac35 clk: mxl: Remove redundant spinlocks
+fe61a7168b7999e49311a2356132e565706729e7 clk: mxl: Add option to override gate clks
+dbaae72d6e8cd4e5854025e35dc5e9d67d23a5d9 clk: mxl: Fix a clk entry by adding relevant flags
+b9792a5db228323cd5e458710f060008da93f680 powerpc: dts: t208x: Mark MAC1 and MAC2 as 10G
+058bf48f18377a920037af0d21a8799ca8328e0b clk: mxl: syscon_node_to_regmap() returns error pointers
+3a80dd66a8748a1b1617483ef43cc20194103808 random: always mix cycle counter in add_latent_entropy()
+255fd53d46383870ec53514a69912589127e7e07 KVM: x86: Fail emulation during EMULTYPE_SKIP on any exception
+760f2810e11c5b41dddd4afa67fa97526e726832 KVM: SVM: Skip WRMSR fastpath on VM-Exit if next RIP isn't valid
+1e40a4198c7057ab76903545976b9fab3235eebf KVM: VMX: Execute IBPB on emulated VM-exit when guest has IBRS
+cd4a289f16d9404e5efec9cb3aa4de6ffb5cab01 can: kvaser_usb: hydra: help gcc-13 to figure out cmd_len
+f083d2d2167ed2326d8be63f92412998d135b21a powerpc: dts: t208x: Disable 10G on MAC1 and MAC2
+3fab044deda7c3bf1e8b6bb9b18cab7a2233da50 powerpc: use generic version of arch_is_kernel_initmem_freed()
+dbbbc07f26510f9b60144bcf0951185d9f22a45d powerpc/vmlinux.lds: Ensure STRICT_ALIGN_SIZE is at least page aligned
+6c04bec037a5222052639a116be293e1423a5622 powerpc/vmlinux.lds: Add an explicit symbol for the SRWX boundary
+a01b155fb998616ea18a4aa6d7ae1ebf55620558 powerpc/64s/radix: Fix crash with unaligned relocated kernel
+22c2f1e3e5bb5089257a5280c8c2e994ef89d1ca powerpc/64s/radix: Fix RWX mapping with relocated kernel
+05f9c0a0121c479179f7273d9999bb234d3c9d2b drm/i915/gvt: fix double free bug in split_2MB_gtt_entry
+d70e4bf4951952b974af4a054e841170f8514d71 uaccess: Add speculation barrier to copy_from_user()
+e79545cda47336ab0cb91dcb73076ed5bd1e3b9d binder: read pre-translated fds from sender buffer
+f2e8927026b66ac063ab3a553732001d05937ba9 binder: defer copies of pre-patched txn data
+c1fabec7d6708a405bf696e135f0e5ab71a5e1d5 binder: fix pointer cast warning
+cfc25eec59e5749a81a3b36fb9deb2c3fb7e2b82 binder: Address corner cases in deferred copy and fixup
+f8c577bf089a4df25eb55eb18e8ee2af4b77e363 binder: Gracefully handle BINDER_TYPE_FDA objects with num_fds=0
+fa49be40406a31b5a950cae314c161c7f8a0cf39 nbd: fix possible overflow on 'first_minor' in nbd_dev_add()
+be268eed713c0b325abef09a665f389c768dc67c wifi: mwifiex: Add missing compatible string for SD8787
+0652b58352941446d80541017141750c8dcda2c0 audit: update the mailing list in MAINTAINERS
+fed898b279a0aab567be316cc76e10a3007ab274 ext4: Fix function prototype mismatch for ext4_feat_ktype
+54fab3cc806aec70d7ce8440e511d56bd53a4081 kbuild: Add CONFIG_PAHOLE_VERSION
+3b71915d64acd5990f8fca6b63effdfe99b6b162 scripts/pahole-flags.sh: Use pahole-version.sh
+9d838379b5f59fce80add3175a7fab49f425a4ba lib/Kconfig.debug: Use CONFIG_PAHOLE_VERSION
+d037c77b300c1a3091d8bc8d2f05fe64b517a688 lib/Kconfig.debug: Allow BTF + DWARF5 with pahole 1.21+
+7f130613d14471c5a8d542b73f5086adc444cd23 Revert "net/sched: taprio: make qdisc_leaf() see the per-netdev-queue pfifo child qdiscs"
+6f32cb14cedfc622a14408460de1322a280e003a bpf: add missing header file include
+d6f4f9746d40c9ee6bccea52831ba1f57519754f Linux 5.15.96-rc2
 
---===============2476615948755004558==--
+--===============3279656281456335671==--
