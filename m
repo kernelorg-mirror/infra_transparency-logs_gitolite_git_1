@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Thu, 23 Feb 2023 16:36:05 -0000
-Message-Id: <167717016597.24606.4313362585135730661@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/ext2/xfstests-bld
+Date: Thu, 23 Feb 2023 16:47:39 -0000
+Message-Id: <167717085901.32547.3411284517772908911@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+repo: pub/scm/fs/ext2/xfstests-bld
+user: tytso
 changes:
   - ref: refs/heads/master
-    old: 746ce767128598711a00d8df5713d4c3b3d9e9a7
-    new: d0093aaefa35b80990c05a424dad2396ba4549d7
+    old: 8b00bfe79274a96b9dbb407cdd0be8b07f488d3c
+    new: 988d7ee9b89231c638c8e9bed3a33c546d49dec0
     log: |
-         332ea1f697be148bd5e66475d82b5ecc5084da65 bpf: Add bpf_cgroup_from_id() kfunc
-         d0093aaefa35b80990c05a424dad2396ba4549d7 selftests/bpf: Add a test case for bpf_cgroup_from_id()
+         988d7ee9b89231c638c8e9bed3a33c546d49dec0 fstests-bld: use new git repo URL for fsverity-utils
          
