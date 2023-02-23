@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jfern/linux
-Date: Thu, 23 Feb 2023 14:40:18 -0000
-Message-Id: <167716321852.12420.13274889210108322654@gitolite.kernel.org>
+Date: Thu, 23 Feb 2023 14:40:49 -0000
+Message-Id: <167716324912.12633.7375210040846873523@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/jfern/linux
 user: jfern
 changes:
   - ref: refs/heads/rcu/rcutop
-    old: e8a656c31996ac1381c2c49cee1cd25f7f076764
-    new: afceed3ab61d4b3466a33a96afa7dbb498c57716
+    old: afceed3ab61d4b3466a33a96afa7dbb498c57716
+    new: 9617e0851ec17ab3ed416aa8d2aa17029cba7acd
     log: |
-         afceed3ab61d4b3466a33a96afa7dbb498c57716 debug: dynamic lazy wake debug
+         9617e0851ec17ab3ed416aa8d2aa17029cba7acd debug: dynamic lazy wake debug
          
