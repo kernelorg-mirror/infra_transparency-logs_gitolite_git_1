@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Thu, 23 Feb 2023 01:03:20 -0000
-Message-Id: <167711420097.2766.11760450517703614133@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Thu, 23 Feb 2023 01:05:42 -0000
+Message-Id: <167711434207.5259.13871293081634743610@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/next-queue
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
   - ref: refs/heads/dev-queue
-    old: 5af1fdeb2d3bc963c67fad47c321b2e952df5f33
-    new: 3ade1515102382b27ebca75badcdc41f0352cc4e
+    old: db7562c61ed6e90996772232314631259cc6b4f4
+    new: 302ea1554fbca5ca4d5b78429f6450de9ed6ab18
     log: |
-         3ade1515102382b27ebca75badcdc41f0352cc4e ice: remove unnecessary CONFIG_ICE_GNSS
+         302ea1554fbca5ca4d5b78429f6450de9ed6ab18 ice: remove unnecessary CONFIG_ICE_GNSS
          
