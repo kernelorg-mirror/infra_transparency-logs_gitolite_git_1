@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Thu, 23 Feb 2023 13:10:10 -0000
-Message-Id: <167715781070.16576.10728215347786364392@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jmondi/linux
+Date: Thu, 23 Feb 2023 13:25:41 -0000
+Message-Id: <167715874177.27291.624413022349012348@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/peterz/queue
-user: peterz
+repo: pub/scm/linux/kernel/git/jmondi/linux
+user: jmondi
 changes:
-  - ref: refs/heads/debug/experimental
+  - ref: refs/heads/jmondi/imx8mp/v6.2/icore-ar0521
     old: 0000000000000000000000000000000000000000
-    new: 85411006275f9b68c89aff6c459f0fa44f696e06
+    new: d20adc5b4362a3fece406d4ce668eb924cb1f1dc
