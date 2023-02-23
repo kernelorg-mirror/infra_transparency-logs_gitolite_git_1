@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3563276513168197545=="
+Content-Type: multipart/mixed; boundary="===============6766521023645829314=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Thu, 23 Feb 2023 13:04:28 -0000
-Message-Id: <167715746891.9994.13901707856652142129@gitolite.kernel.org>
+Date: Thu, 23 Feb 2023 13:04:29 -0000
+Message-Id: <167715746958.10041.12629044914636008182@gitolite.kernel.org>
 
---===============3563276513168197545==
+--===============6766521023645829314==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,12 +16,12 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.4.y
-    old: c55ce131b07a16aa4917efd8bde723e2b18007ce
-    new: f6008aaa9334cc770d217e8c968b6d378a5ddd14
-    log: revlist-c55ce131b07a-f6008aaa9334.txt
+  - ref: refs/heads/linux-6.2.y
+    old: a0c45ae41303ead617a3c3d73e974804de3d8b3b
+    new: 7452ada133c291e5fe2dd7cfcd3d6e77e689fbc5
+    log: revlist-a0c45ae41303-7452ada133c2.txt
 
---===============3563276513168197545==
+--===============6766521023645829314==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -32,49 +32,42 @@ pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1677157467 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
 nonce 1677157467-a46020ac893ad1819a4a01c296be8708254b34e6
 
-c55ce131b07a16aa4917efd8bde723e2b18007ce f6008aaa9334cc770d217e8c968b6d378a5ddd14 refs/heads/linux-5.4.y
+a0c45ae41303ead617a3c3d73e974804de3d8b3b 7452ada133c291e5fe2dd7cfcd3d6e77e689fbc5 refs/heads/linux-6.2.y
 -----BEGIN PGP SIGNATURE-----
 
 iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmP3ZFsbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+E5cQANF26+iicUH3jvBFNcSU
-IlojcMmmS3uQ5kRXUM8D3HjQv14GeXdu7xgG3TvpZF/RLGCNlB14CIt8vF5OPY79
-ItIYK/b4TZTzg/d5Qyw3V25yzXuAJiKSBu/ieIcdgGdUuUhXRY+pChH/1sKkkcXf
-2Xn1sx2FA+hW/X1sHYIUpXGhh/FpeVdVXNwvdYGqjZQpU09DTJUF6FvQmkV2mm25
-ecbWuvJ+dSuh8Gnz1bIpE1kx18K3zABTK2m3gDXO2oTbAT03W3EtjUSNDsTb1LnC
-r/2Ul0JvW6sHR121J3zITu4bOrCUPL7td9eDk5HJt8BG0+VTnH+89Q7qYYzY6cZU
-EbCOCmRkPBfim9a5Jj6oAPSKk8ZK7/vESYDAQ2hIzhd7BlJiXO8RnYSXT+BkdIQo
-1X4uBPBSgJ/RO3hjo8+ou5CFlqbG9SHCzU++1UlTs0Br9IECy8MhqYDLsZNYLLG9
-GHcfLzaKHpgFSg/RF4MMX0TwLWCt1HJsFgNsI0Zf+YnfD+urOuDDSp/yYhtf2yIT
-CuYaOILQejSepjE9ZPj6LDKkMWl9+jQaUH7ybDtOrsQNVaXDPHgqPeqHlLT6QBK5
-GHVPiY7NAFVUNuYcXAX0ljlpsG/z/1GkBtqlRU7Tad5W3TpLhKqSvyb1usqrtGJQ
-uI+WgmjkYnTpNaznYp5GsH/U
-=3HL8
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+LdcP/3jcHmqPuqVhU1VPqJW1
+vl/uE1Ew+WGR1tkMXYOQ2yRhhAoHy2+MIMPfKGDe32jZf8aHrFVERXs/2qZFQ+bK
+dZWA1dfwch+LorR+t58OMM1zDk1Fh74HBSvaSz6wlOBz2qEYRxE2XY668QU4uw2R
+bvBUmo2tfLGRJq8ZjC4U4nvaRFEI5LZPaBd4UyGd81yg3yxZijYp/eE3Rqfu6gyG
+bib4Z6MbRPquYkf6uqMLWf2VJmg8QyY2+puD/kjsxdRwwQG+4cHhixChcQ4UkeUV
+9kvVJKmIXk+fVQP163OgNnaDoRg1dBzdqOAb2wh+CxzIiEUHYOllN0Y5tPHk0dAs
+oj3su+S034njxyU95oznpbQkLAtBmESZYOqomLKv+s+2UD6yW79Y+cgisb3qkGFM
+tmDMrA6JYqyTwMoaDurO51qxcGOXRA66UsQEuW8AdIPVLSArOkQhaIAmZH+wke+C
+LvusjUroOX5ZgrZBf9uqoH1eZuffMOaKvlMIA5g0qSs5tfCdC/sxhKTIs6UhLQyN
+wQcLvtK+udhocaGxUfX+kZbtxz77rn7Ygegz1jlkNBgkvWha9UUjn1JwZ0yn+CLD
+l/TW9hJc9Lf9pA+rQV0sozNiB2TZ9NjD17BN9p91Ji1Giir/U7a38QUH1RYbQ+EF
+N5jlMIo3oQ716JhYkk2+fdyf
+=esql
 -----END PGP SIGNATURE-----
 
---===============3563276513168197545==
+--===============6766521023645829314==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c55ce131b07a-f6008aaa9334.txt
+Content-Disposition: attachment; filename=revlist-a0c45ae41303-7452ada133c2.txt
 
-6e0e5a350ba9a69fb7ecab77a811d7183bf45a02 dma-mapping: add generic helpers for mapping sgtable objects
-f22a24c7bd409d14b70c6037f5f973ea4b47edcb scatterlist: add generic wrappers for iterating over sgtable objects
-4647d6b896c37232d4fc5a22e1b1ccf370ff5dfd drm: etnaviv: fix common struct sg_table related issues
-59330d71a007787a808082666abbd4bc634ae04c drm/etnaviv: don't truncate physical page address
-bc701359f68a6677b5f8ba58039b7cd1068fd5a1 wifi: rtl8xxxu: gen2: Turn on the rate control
-19561ca1c6ca9375aa32c843d17a57f55661809a powerpc: dts: t208x: Mark MAC1 and MAC2 as 10G
-87d3b0ff5059ca8728356ef46ec3e5d9698bfc63 random: always mix cycle counter in add_latent_entropy()
-f112478e9158a75f7386ae7ffa2e68969d459b2a KVM: x86: Fail emulation during EMULTYPE_SKIP on any exception
-3223702f3b9f5856766de4185f9de822b1db9200 KVM: VMX: Execute IBPB on emulated VM-exit when guest has IBRS
-4016e4d09d4589eb5a9fc5d1a7730595a087a7e7 can: kvaser_usb: hydra: help gcc-13 to figure out cmd_len
-58d6407108469093f0b322749930d2126c34599f powerpc: dts: t208x: Disable 10G on MAC1 and MAC2
-d3e96fd3497f0b4b87fd14c8a2afe57f4f49ffaa alarmtimer: Prevent starvation by small intervals and SIG_IGN
-13b198add029269be2ead528af4d76ae6cec298a drm/i915/gvt: fix double free bug in split_2MB_gtt_entry
-144178d9f7b6a8c4e9eb8596ff47a1fac9b67801 mac80211: mesh: embedd mesh_paths and mpp_paths into ieee80211_if_mesh
-6f6aaf2a8dc33c5f544915f0bcb75d7468e9c799 uaccess: Add speculation barrier to copy_from_user()
-cfc0050013a432d53daef9fc8873cd3e6794ef7b wifi: mwifiex: Add missing compatible string for SD8787
-b27d8e5b68a8cff2c8c859ea657099925e9800eb ext4: Fix function prototype mismatch for ext4_feat_ktype
-a18524bab994405df302c067967efd6761b0fdfd Revert "net/sched: taprio: make qdisc_leaf() see the per-netdev-queue pfifo child qdiscs"
-f6008aaa9334cc770d217e8c968b6d378a5ddd14 Linux 5.4.233-rc1
+52069168021a0b9f21578fedfe49ec3302193d31 uaccess: Add speculation barrier to copy_from_user()
+1704d195c21ef725f62c914b74479f25d8cfa2e9 x86/alternatives: Introduce int3_emulate_jcc()
+a50dd8f20b869465422e046ca85f2913efbaf1ee x86/alternatives: Teach text_poke_bp() to patch Jcc.d32 instructions
+2d6d12ac721f414cc3b480ec9e7477984f9d6039 x86/static_call: Add support for Jcc tail-calls
+e2e999c7b5c0f0e72f036794b13300f0640e45e9 HID: mcp-2221: prevent UAF in delayed work
+3c2870baf9e43c9c9ccabfb86fb5c445372953e4 wifi: mwifiex: Add missing compatible string for SD8787
+34d5322b5834c656024cede4bd790f4b13a2f36b audit: update the mailing list in MAINTAINERS
+ac378a94a78250e88f66b9d4c5b3b733e9309813 platform/x86/amd/pmf: Add depends on CONFIG_POWER_SUPPLY
+3682d21c72c21250ee1d144956e9f47495b7d9a0 platform/x86: nvidia-wmi-ec-backlight: Add force module parameter
+b93e3e434ae0159789d34ae3741578e89b348a3c ext4: Fix function prototype mismatch for ext4_feat_ktype
+67060cf9db86296fded199cbc098204e24219bbe randstruct: disable Clang 15 support
+7452ada133c291e5fe2dd7cfcd3d6e77e689fbc5 Linux 6.2.1-rc1
 
---===============3563276513168197545==--
+--===============6766521023645829314==--
