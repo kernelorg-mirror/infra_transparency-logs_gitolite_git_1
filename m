@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1198166153450936057=="
+Content-Type: multipart/mixed; boundary="===============2990816702492575144=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Thu, 23 Feb 2023 12:53:19 -0000
-Message-Id: <167715679952.2282.14458835231034657099@gitolite.kernel.org>
+Date: Thu, 23 Feb 2023 12:54:01 -0000
+Message-Id: <167715684105.2548.1592668936130932718@gitolite.kernel.org>
 
---===============1198166153450936057==
+--===============2990816702492575144==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,58 +16,48 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-6.2.y
-    old: c9c3395d5e3dcc6daee66c6908354d47bf98cb0c
-    new: bfff4dcbd58a54fc7d090726cfc0a4040afb6f9b
-    log: revlist-c9c3395d5e3d-bfff4dcbd58a.txt
+  - ref: refs/heads/linux-4.14.y
+    old: 1e61bd26fa2cf667b8ffada212c8965efbd924ea
+    new: c4a078b0eda85fba0db8c4533d2f795071b59a87
+    log: |
+         bc440fc689fe40979cc53b950652f5d06d91f781 wifi: rtl8xxxu: gen2: Turn on the rate control
+         3a36c58377c2903c75f045dc4b417c7240b3f294 powerpc: dts: t208x: Mark MAC1 and MAC2 as 10G
+         79f36adc7e7e885865f1c1563f6145f52ed60bcb random: always mix cycle counter in add_latent_entropy()
+         7c8e0895c07d983dfde2fa6360faa947ce8e889f powerpc: dts: t208x: Disable 10G on MAC1 and MAC2
+         dcb1fd04f14625a98925210c2f5f01f167ae7741 alarmtimer: Prevent starvation by small intervals and SIG_IGN
+         5ac331814c3ee51f266111f07d95e51904cdc384 uaccess: Add speculation barrier to copy_from_user()
+         e75e323f2002d28e14a89c611d7185cc9461d779 wifi: mwifiex: Add missing compatible string for SD8787
+         c4a078b0eda85fba0db8c4533d2f795071b59a87 Linux 4.14.307-rc1
+         
 
---===============1198166153450936057==
+--===============2990816702492575144==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1677156798 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1677156839 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1677156797-66ac34daafe225005caae9059217940bc8055e1c
+nonce 1677156839-090472f601f7fab4ef9d8cda1bd7f5bb7e44fd33
 
-c9c3395d5e3dcc6daee66c6908354d47bf98cb0c bfff4dcbd58a54fc7d090726cfc0a4040afb6f9b refs/heads/linux-6.2.y
+1e61bd26fa2cf667b8ffada212c8965efbd924ea c4a078b0eda85fba0db8c4533d2f795071b59a87 refs/heads/linux-4.14.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmP3Yb4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+xE8P/jPOaGF9M1HpBe+0jqrP
-74Tvp1JXClLkgPk/2iNjwDaDHcuEITFRtt8FBc3FRv85hKv72ZxXV4JMfddl65Ra
-UC1oYwBejA1tfRZeSDaBKf3P8IThS2hW8Y8xp6wsTBe022XHsf1COIb6RJTKqRh0
-NmvqAlIfSmYIfzztSDGNcfRHg0/a/6IA3ep7EKhtDfcKA7eutCEfVb+uMDoqiQzH
-syq0OQMBVTmiJOlfCFmiO1zNuND/hcLug0GACeUhyBTg3q/9u69oSk5UaZWHbz1c
-VIfPhW+q0SUGVrR2zIFyW5iPSx4qcL3H3H8gKY3RnLYyyD4yuXHVPbZsdfG070G7
-i+KX6Ua8/ffkU6MoDfbgXj7ZibskawnLaxYspIuNvWHl3NzvuZs3eMcn1/0yhTbN
-HUAVUVo0aybnfIZf+QtkBQTLB/YrN+oulBed3lart/J4i7N070o8RauF6KGtR8EG
-O45HHiQBmnDDaNTQk4KsQeAzv4Ioym8d7HqjrooTg0ocGSov4LpSobFbFLIFf4Vl
-zpqQFTqkUrEoBDJlVmvgyu9WLocPlW3RTpYUKvAh+iys1e9FGxQr6LH3qrnJd7OS
-E/6D7a3I87uRqqdlE02DePVLfPCtXIrRCAlGXGJFARrlOI3gQ6RNe68REdOcKET9
-l3i3aLODWbxhCgIxGGBkfItl
-=1W5Q
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmP3YecbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+FJQP/2fmfjNEGAuhOBiCsEtN
+vKxw8gkis5IlfrakyKkCWtDFmPajimzRDEuXNM+KvtFaNXy3BvJjhx4P1Tjy3ED9
+f/G/PaNXKn5z5axykd0fHVh7CRb7dPtcCgQHu7bYfJqwJB6T9O0pg98dxe3OLzIJ
+IFBp3z21DhbFHqNuIkvezVue8dyYzwul+Cl8Wt5LDi9gW2FivF/iuSA1uwWB2xqX
+z9JNf4XGa2gYXrkomHVPZtpEr0iP5r1VILamk7WSh25ITxNoLcroFx6r/cWB1/fl
+oZSupazAbMa+vX1GHFUS+9I03NkIdhEdEyLrXr/SYqFpkzte/QRxBJ9B3GmuvNSG
+3h2akVR/fmTo9zHYmd2jH8CUbo2u1Zj25tKz7WbOd4sl5ni5x0WBCCzvTU1V6O1L
+WBbg7SFZKp+a8Zp+8RGkzQXk/XSj+Zzp61S7PC/VI29jXBACtlB52dzYd0I9OeuU
+Mb45N5aTzQ/P1YU03iEh2SyURXj1MhCbh4emXPoJtLwH/OevFvl4Hf3vwVYNGlow
+VVLHYT5udlXNJkESqH5K7GwkqeOOb3zH2D7g9AMjjsDVZUUWYuCO64/xWl6Uo/G2
+SKwblRguCR/0UBITlO7r9S9qASuyvBKlfSCqa5lrh1fm3NIQS7xQb6mCM1252Os6
+KTILwEq7HVuO1CexwaENIv0Y
+=RZy+
 -----END PGP SIGNATURE-----
 
---===============1198166153450936057==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c9c3395d5e3d-bfff4dcbd58a.txt
-
-b34b00dad0d15d991ec9095d179c08749c10f7c7 uaccess: Add speculation barrier to copy_from_user()
-00cbab847feb952f6c3d6224d44c151c563ab219 x86/alternatives: Introduce int3_emulate_jcc()
-4475285b31676976da02ff3cc38f869e04d1d3d3 x86/alternatives: Teach text_poke_bp() to patch Jcc.d32 instructions
-3ad090506db72ff18b49f1f84e872e4a33bbd5a0 x86/static_call: Add support for Jcc tail-calls
-bc3e146963d67106f734a890272a0503f6ad0555 HID: mcp-2221: prevent UAF in delayed work
-c4b25d7e76d1a24fae1874e1d6e38ef0fbde483a wifi: mwifiex: Add missing compatible string for SD8787
-c3434c8ff99b0db523d140e9f82f629a38a5545f audit: update the mailing list in MAINTAINERS
-8e0ea0bd66199bbd8f46b3c5f16030b3d0308dbd platform/x86/amd/pmf: Add depends on CONFIG_POWER_SUPPLY
-6a94d694de5c53ba86fff1af7dab3ff99fc90729 platform/x86: nvidia-wmi-ec-backlight: Add force module parameter
-a7e7f1ad52e18c320e61ee2f13a78992ff7111d2 ext4: Fix function prototype mismatch for ext4_feat_ktype
-aa3b0758a7aab03bd607f4ca52087c3722867fe0 randstruct: disable Clang 15 support
-bfff4dcbd58a54fc7d090726cfc0a4040afb6f9b Linux 6.2.1-rc1
-
---===============1198166153450936057==--
+--===============2990816702492575144==--
