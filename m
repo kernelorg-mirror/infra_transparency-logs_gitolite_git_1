@@ -1,19 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jfern/linux
-Date: Thu, 23 Feb 2023 14:40:49 -0000
-Message-Id: <167716324912.12633.7375210040846873523@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
+Date: Thu, 23 Feb 2023 14:45:36 -0000
+Message-Id: <167716353650.15995.13245164966225156112@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jfern/linux
-user: jfern
+repo: pub/scm/linux/kernel/git/hid/hid
+user: jikos
 changes:
-  - ref: refs/heads/rcu/rcutop
-    old: afceed3ab61d4b3466a33a96afa7dbb498c57716
-    new: 9617e0851ec17ab3ed416aa8d2aa17029cba7acd
+  - ref: refs/heads/for-6.3/upstream-fixes
+    old: 1c5d4221240a233df2440fe75c881465cdf8da07
+    new: 22ef7d7be4dc071712ddf0ae09df6ee39b4901a0
     log: |
-         9617e0851ec17ab3ed416aa8d2aa17029cba7acd debug: dynamic lazy wake debug
+         22ef7d7be4dc071712ddf0ae09df6ee39b4901a0 selftest: hid: fix hid_bpf not set in config
+         
+  - ref: refs/heads/for-next
+    old: 10382441eeb645b4f0908990703c7e934ba4071d
+    new: caa0544d9a800af860df34b2161c7f327bfa55e8
+    log: |
+         22ef7d7be4dc071712ddf0ae09df6ee39b4901a0 selftest: hid: fix hid_bpf not set in config
+         caa0544d9a800af860df34b2161c7f327bfa55e8 Merge branch 'for-6.3/upstream-fixes' into for-next
          
