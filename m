@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4087272557492445169=="
+Content-Type: multipart/mixed; boundary="===============6516911301173940397=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jpoimboe/linux
-Date: Thu, 23 Feb 2023 16:07:19 -0000
-Message-Id: <167716843913.4770.5347208376159046769@gitolite.kernel.org>
+Date: Thu, 23 Feb 2023 16:07:24 -0000
+Message-Id: <167716844472.4839.6487075136163639512@gitolite.kernel.org>
 
---===============4087272557492445169==
+--===============6516911301173940397==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,30 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jpoimboe/linux
 user: jpoimboe
 changes:
-  - ref: refs/heads/objtool-noreturn
-    old: 657a17c5d9681364e6e2df29fcb8eee0848f9d9c
-    new: 77ad70da97836482e0a8331bd66c6ad880d4c207
-    log: revlist-657a17c5d968-77ad70da9783.txt
+  - ref: refs/heads/objtool/core
+    old: 1752266e42d7c3152af095fb2727417155ef90cf
+    new: 568b01704a6e825fa753f5f338da3acda4c84b4a
+    log: revlist-1752266e42d7-568b01704a6e.txt
 
---===============4087272557492445169==
+--===============6516911301173940397==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-657a17c5d968-77ad70da9783.txt
+Content-Disposition: attachment; filename=revlist-1752266e42d7-568b01704a6e.txt
 
+03702d4d29be4e2510ec80b248dbbde4e57030d9 uapi: add missing ip/ipv6 header dependencies for linux/stddef.h
+d7d94b2612f5dc25d61dc7bf58aafe7b31f40191 net: microchip: sparx5: fix PTP init/deinit not checking all ports
+ea427a222d8bdf2bc1a8a6da3ebe247f7dced70c HID: core: Fix deadloop in hid_apply_multiplier.
+690eb7dec72ae52d1d710d14a451844b4d0f4f19 HID: logitech: Disable hi-res scrolling on USB
+811d581194f7412eda97acc03d17fc77824b561f net: USB: Fix wrong-direction WARNING in plusb.c
+7bcfdab3f0c6672ca52be3cb65a0550d8b99554b HID: amd_sfh: if no sensors are enabled, clean up
+2355370cd941cbb20882cc3f34460f9f2b8f9a18 x86/microcode/amd: Remove load_microcode_amd()'s bsp parameter
+c676aac66f5b2b03a1090bc6b1891486255f7159 s390/ipl: add DEFINE_GENERIC_LOADPARM()
+6bb361d5d8eb1dbc9e0b190eeee27a2ac4d1119f s390/ipl: add loadparm parameter to eckd ipl/reipl data
+03d4907396f30d1fbe37b67f16eaba9f0b6c3702 s390/hmcdrv: use strscpy() instead of strlcpy()
+3400c35a4090704e6c465449616ab7e67a9209e7 s390/mem_detect: fix detect_memory() error handling
+dfca37d36b746a066bf4d62bce3276c7639d8f09 s390/kasan: update kasan memory layout note
+108303b0a2d27cb14eed565e33e64ad9eefe5d7e s390/vmem: fix empty page tables cleanup under KASAN
 fb9293b9f32d01ee491606a3655054d539b89f66 s390/vmem: remove unnecessary KASAN checks
 1e2eb49bb14760cc7ec0c301c705410628bee8e9 s390/rethook: add local rethook header file
 18e5cb7a5ce30d0fd28c94551509afe43b100118 s390/diag: make __diag8c_tmp_amode31 static
@@ -1037,18 +1050,5 @@ e9290ae331c9f048d78df947213066e65669a3ea xtensa/cpu: Mark cpu_die() __noreturn
 1fb8d84fcaa57dc09a4ea3b1253ac6d0eddeab1a sched/idle: Make sure weak version of arch_cpu_idle_dead() doesn't return
 8d8c86d63dcbb7e35a3c62e39804626df81aa56e sched/idle: Mark arch_cpu_idle_dead() __noreturn
 568b01704a6e825fa753f5f338da3acda4c84b4a x86/cpu: Expose arch_cpu_idle_dead()'s prototype definition
-c0d013178bc8abb399974f0b093ac95306475b63 init: Make arch_call_rest_init() and rest_init() __noreturn
-a47f4f07805124fa263bdc0e73c016deb0daccd6 init: Make start_kernel() __noreturn
-afe397c99460bb7d68b74bc650c04d72e626630c x86/trap: Make exc_double_fault __noreturn
-33bca55ca783420174373526fdcfa68fbae29ce3 btrfs: Mark btrfs_assertfail() __noreturn
-e9fd60b6602319e21d69913ac4d599ff1f65ab8b arm64/cpu: Mark cpu_park_loop() __noreturn
-fbac70ed66fc2d03693083fed934fc49930a740c arm64/cpu: Mark local_cpu_stop() __noreturn
-e79c0bae3af3fbe2dbe9e0382eb06c9f3288e6f3 cpu: Mark panic_smp_self_stop() __noreturn
-756376d5dafc4f454d99f2f517f6986722d739e0 cpu: Mark nmi_panic_self_stop() __noreturn
-07a3dc7eb83f858d8501cc123fe2d7503bf38b20 objtool: Include weak functions in 'global_noreturns' check
-32e57252f846434b174fe32171ec43221379f21f objtool: Add per-function rate limiting for unreachable warnings
-6ba8352ce0d775366fd8b3fc5daf74b1b7ec8998 objtool: Add '--verbose' option for disassembling affected functions
-16dd03075ead05e12967223b6880d23938274554 objtool: Combine '--backtrace' with '--verbose'
-77ad70da97836482e0a8331bd66c6ad880d4c207 mips/smp: Add CONFIG_SMP guard for raw_smp_processor_id()
 
---===============4087272557492445169==--
+--===============6516911301173940397==--
