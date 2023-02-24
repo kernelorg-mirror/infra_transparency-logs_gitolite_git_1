@@ -1,22 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Fri, 24 Feb 2023 21:09:53 -0000
-Message-Id: <167727299375.11934.7018673493506890541@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+Date: Fri, 24 Feb 2023 21:10:04 -0000
+Message-Id: <167727300460.13583.17447975444077878625@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/net-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+user: vudentz
 changes:
-  - ref: refs/heads/dev-queue
-    old: 7a488bb4ba26fc96337b8b23eb83985d08f9e23d
-    new: 51cd73750d346367f408bd7b8ed93149c5ec95c4
+  - ref: refs/heads/master
+    old: 1fb7281c62c944405960a52a70b20a3bdb1a024a
+    new: fbfd2d6d43f8e701f89692e05fcb34e904b087b4
     log: |
-         c50a2c95c6912a76078bd21190db42c13566a537 ethernet: ice: avoid gcc-9 integer overflow warning
-         898118601929f32749316a58d24f91fda4264135 ice: xsk: disable txq irq before flushing hw
-         c21b0e00f25c12c518f9296a42bb6680b67f3b47 ice: Write all GNSS buffers instead of first one
-         51cd73750d346367f408bd7b8ed93149c5ec95c4 ice: remove unnecessary CONFIG_ICE_GNSS
+         2b291083eb0c49cd1633cddf95cc0e6e7303e43b Bluetooth: hci_sync: Resume adv with no RPA when active scan
+         fbfd2d6d43f8e701f89692e05fcb34e904b087b4 Bluetooth: btrtl: Add support for RTL8852BS
          
