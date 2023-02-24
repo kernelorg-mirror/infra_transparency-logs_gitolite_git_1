@@ -1,133 +1,62 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/frowand/linux
-Date: Fri, 24 Feb 2023 21:33:39 -0000
-Message-Id: <167727441947.28994.5260078577795090988@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============6253852330544970429=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Fri, 24 Feb 2023 21:41:37 -0000
+Message-Id: <167727489798.2277.16632429969769815929@gitolite.kernel.org>
+
+--===============6253852330544970429==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/frowand/linux
-user: frowand
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
+user: tnguy
 changes:
-  - ref: refs/tags/v5.18
-    old: 0000000000000000000000000000000000000000
-    new: 99cd00206e418c5fb0e9bd885ded84b8781194b7
-  - ref: refs/tags/v5.18-rc4
-    old: 0000000000000000000000000000000000000000
-    new: 83c145a5040cdf3d0f91e71580ace5cdabb54b46
-  - ref: refs/tags/v5.18-rc5
-    old: 0000000000000000000000000000000000000000
-    new: 207f04315aa6e008bf809dc5f4bdc60742798eea
-  - ref: refs/tags/v5.18-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 8de2dfa9e328cc9a5533f5feb043c89d7a8fb57e
-  - ref: refs/tags/v5.18-rc7
-    old: 0000000000000000000000000000000000000000
-    new: 56606d65a50beb4b7e3bbffcf5da88d7cdd5a038
-  - ref: refs/tags/v5.19
-    old: 0000000000000000000000000000000000000000
-    new: 2c1ad8d25ec27ecee5910b62b26b93074091a3e4
-  - ref: refs/tags/v5.19-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 15fd1bd1e8b4c33f1f249d02d15aa043df52271c
-  - ref: refs/tags/v5.19-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 91f5f37f5ce4ff7e0ba802f89cadd48b4040514a
-  - ref: refs/tags/v5.19-rc3
-    old: 0000000000000000000000000000000000000000
-    new: afdb472867d4677930236a864496939f496de1b9
-  - ref: refs/tags/v5.19-rc4
-    old: 0000000000000000000000000000000000000000
-    new: b9442c86eac959e20abb900442e6cc31d2d775d4
-  - ref: refs/tags/v5.19-rc5
-    old: 0000000000000000000000000000000000000000
-    new: 2235bc49f8edfaafc6269344aa80e6400931a4af
-  - ref: refs/tags/v5.19-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 8fcdc0ea4cc7ea79a1837f5040f5656f9be98f9f
-  - ref: refs/tags/v5.19-rc7
-    old: 0000000000000000000000000000000000000000
-    new: 99023ab67a130976ddcfb7cfb5ca01358045768f
-  - ref: refs/tags/v5.19-rc8
-    old: 0000000000000000000000000000000000000000
-    new: cb84a9aae2260636f12f10c7f60779eb69e82849
-  - ref: refs/tags/v6.0
-    old: 0000000000000000000000000000000000000000
-    new: 45eb8ae5370d5df1ee8236f45df3f29103ba6e12
-  - ref: refs/tags/v6.0-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 09e4144cab94d10fec58b9296d6fc22a8b42b30a
-  - ref: refs/tags/v6.0-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 59226d37effcc06e431f8d0ab609ddd3003666fe
-  - ref: refs/tags/v6.0-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 035064d655edeefd7ea1aa65dd12bac26ab1b3c3
-  - ref: refs/tags/v6.0-rc4
-    old: 0000000000000000000000000000000000000000
-    new: 96e1a1037aedb9f9596e2af5a6fcaa8053dafe4f
-  - ref: refs/tags/v6.0-rc5
-    old: 0000000000000000000000000000000000000000
-    new: 52868a8b445605ea56831f92b5607ae3183f09bd
-  - ref: refs/tags/v6.0-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 3447cb6c198e59b5b4275ecc6d4400a49b9dbaba
-  - ref: refs/tags/v6.0-rc7
-    old: 0000000000000000000000000000000000000000
-    new: b81e85a3efdc3d610f733fffc6f821f03d8fd490
-  - ref: refs/tags/v6.1
-    old: 0000000000000000000000000000000000000000
-    new: 7614896350aa20764c5eca527262d9eb0a57da63
-  - ref: refs/tags/v6.1-rc1
-    old: 0000000000000000000000000000000000000000
-    new: e0e492cebef25c13fc29b174f01b5178662f1652
-  - ref: refs/tags/v6.1-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 0d8d9e948ba8d5e1a826935d8d1c4aace65dd185
-  - ref: refs/tags/v6.1-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 0083e89728f57eae559c1ed1ac1e44487565feb1
-  - ref: refs/tags/v6.1-rc4
-    old: 0000000000000000000000000000000000000000
-    new: cc17e0a6a1b0c4708af1f5d81edc87e2cb5ffbf8
-  - ref: refs/tags/v6.1-rc5
-    old: 0000000000000000000000000000000000000000
-    new: 40747115a02c06d398d801301015db7ea182f7f0
-  - ref: refs/tags/v6.1-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 4446246354c3c11d4cbc8cf3515c92c3a880fc8e
-  - ref: refs/tags/v6.1-rc7
-    old: 0000000000000000000000000000000000000000
-    new: 1791be4df87a0d69008ba46c5a03be2e4cfbe3d5
-  - ref: refs/tags/v6.1-rc8
-    old: 0000000000000000000000000000000000000000
-    new: 586cbada421761e98ada6f7de24426456352bfd6
-  - ref: refs/tags/v6.2
-    old: 0000000000000000000000000000000000000000
-    new: 32758e7a720e4752a824c6062e75f107314e5598
-  - ref: refs/tags/v6.2-rc1
-    old: 0000000000000000000000000000000000000000
-    new: e05dec85e78317f251eddd27e0357b2253d9dfc4
-  - ref: refs/tags/v6.2-rc2
-    old: 0000000000000000000000000000000000000000
-    new: e4ef62bcce9737cf3a2bb1b797b64dc25cbbfbb4
-  - ref: refs/tags/v6.2-rc3
-    old: 0000000000000000000000000000000000000000
-    new: d4245d7ef91d67fe3d21e2faab131fdeab636209
-  - ref: refs/tags/v6.2-rc4
-    old: 0000000000000000000000000000000000000000
-    new: 9b4ccd95c99918fe8ad32bc136fa36eab55af10b
-  - ref: refs/tags/v6.2-rc5
-    old: 0000000000000000000000000000000000000000
-    new: 4cc398054ac8efe0ff832c82c7caacbdd992312a
-  - ref: refs/tags/v6.2-rc6
-    old: 0000000000000000000000000000000000000000
-    new: d68cd3a82e80628f13a69e51ce459de12870f5b9
-  - ref: refs/tags/v6.2-rc7
-    old: 0000000000000000000000000000000000000000
-    new: 53b3c6467004c627f42d96ef839b223a749bcdd9
-  - ref: refs/tags/v6.2-rc8
-    old: 0000000000000000000000000000000000000000
-    new: 51c32cc368b00aae605286cad9150cefa0adbf2d
+  - ref: refs/heads/dev-queue
+    old: cd0ca7272459260cce896ec5b20de29b5a1f8b64
+    new: cc616c162be7ce330e8748141e05fd0f0bb48093
+    log: revlist-cd0ca7272459-cc616c162be7.txt
+
+--===============6253852330544970429==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-cd0ca7272459-cc616c162be7.txt
+
+dc1b0a766d1a3b181947e27533e148f5cfff03d7 ice: don't ignore return codes in VSI related code
+0234077860e00472561b49e03974d6ebe7c904f2 ethernet: ice: avoid gcc-9 integer overflow warning
+f6bfda7e3ee6980970118fba1abb02a8f346b308 i40e: Add ability to change VFs default MAC address
+659e9966e2195224b9b6b65a15580fe4c51680f2 ice: xsk: disable txq irq before flushing hw
+428c5aba3d6e8f3364c4f9fc8772b896a5e6845d igc: offload queue max SDU from tc-taprio
+da3dd053a4f7c4a1a9f8f30b493a159078312fc0 igc: Add qbv_config_change_errors counter
+ef5b94e18bee78933b4eb139741992fe39400d9c ice: Write all GNSS buffers instead of first one
+917cbd6ba210b1978aa446f614e1813590444ddc i40e: consolidate maximum frame size calculation for vsi
+80f6e777e3db79a946ab0fb5d9f01bef59b7f497 i40e: change Rx buffer size for legacy-rx to support XDP multi-buffer
+05a5d3433b5276483ed16364f60e0c0cac68df52 i40e: add pre-xdp page_count in rx_buffer
+ed03b7cdc109db3e3fd5a60a8fcd324f0489163d i40e: Change size to truesize when using i40e_rx_buffer_flip()
+44f330062777b186c1dfe9e0f874e5c04238680c i40e: use frame_sz instead of recalculating truesize for building skb
+cc82cc977f452200f84ec66e0fb2d61b0e828572 i40e: introduce next_to_process to i40e_ring
+e6b427f02b3aa49f907347930fb9ace27cc92288 i40e: add xdp_buff to i40e_ring struct
+d96529325eeee4f9e480ca0ed8ad2eea395537b1 i40e: add support for XDP multi-buffer Rx
+4fcf18a70e2507f9d7a80df84fc95dca8098ec7b ice: re-order ice_mbx_reset_snapshot function
+e8713a7bd93ead125f7c015a7bb722a24f17b646 ice: convert ice_mbx_clear_malvf to void and use WARN
+e9876e938ff6eb5de4a351334f754b092fd3ffc5 ice: track malicious VFs in new ice_mbx_vf_info structure
+8b339f72562c8752511fc9ca195e9299174faada ice: move VF overflow message count into struct ice_mbx_vf_info
+f2c2fb9b23113d31e8b1524dc4310c448e2b1dff ice: remove ice_mbx_deinit_snapshot
+db58219606b9c018503f41aaf06408f6d291ef59 ice: merge ice_mbx_report_malvf with ice_mbx_vf_state_handler
+2c2b41630d079083a3417867eda178b5e75e5168 ice: initialize mailbox snapshot earlier in PF init
+745f5a57a7982ba5b9a49840408b1bd99de548bb ice: declare ice_vc_process_vf_msg in ice_virtchnl.h
+379bde5a00f5cd5b57c919b4c2eb914a45425e40 ice: always report VF overflowing mailbox even without PF VSI
+fa0b5341b30252d8b4a4ac9589601af02f0660e0 ice: remove unnecessary &array[0] and just use array
+41dcd3ffd5ebf74a6de6941ee1376de58a285709 ice: pass mbxdata to ice_is_malicious_vf()
+4541590346ae173f373045db3603ffe2c84f41c4 ice: print message if ice_mbx_vf_state_handler returns an error
+18d6f057dc33f5958af752ea507df59ce4e97630 ice: move ice_is_malicious_vf() to ice_virtchnl.c
+ac0c874a475629415ff46e5a532654eb054c2436 ice: call ice_is_malicious_vf() from ice_vc_process_vf_msg()
+98cd336f9b95c1653a52b6006746953bf052a480 ice: remove unnecessary CONFIG_ICE_GNSS
+e6ad2992ab467980b4b26ff52a5389158f4dc983 i40e: Fix kernel crash during reboot when adapter is in recovery mode
+cc616c162be7ce330e8748141e05fd0f0bb48093 igc: Remove obsolete DMA coalescing code
+
+--===============6253852330544970429==--
