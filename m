@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 24 Feb 2023 00:58:27 -0000
-Message-Id: <167720030746.3509.13536958717656900884@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/trace/linux-trace
+Date: Fri, 24 Feb 2023 01:07:23 -0000
+Message-Id: <167720084375.13513.12547433745167985085@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/next-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/trace/linux-trace
+user: mhiramat
 changes:
-  - ref: refs/heads/dev-queue
-    old: 8fe99f9369deb5b8f4b909744ed1b710c96c2b55
-    new: cd0ca7272459260cce896ec5b20de29b5a1f8b64
+  - ref: refs/heads/probes/for-next
+    old: c96abaec78f34366b3ddf1c6be52ca5c1241e15b
+    new: d01896d51d5857472596eef868ebec80630e6913
     log: |
-         cd0ca7272459260cce896ec5b20de29b5a1f8b64 ice: remove unnecessary CONFIG_ICE_GNSS
+         196b6389a363e0d7e6b6f2654b9889f9c821b9d3 kernel/trace: Introduce trace_probe_print_args and use it in *probes
+         672a2bf84061f0f19acfc5869f5b3689759a55a8 kernel/trace: Provide default impelentations defined in trace_probe_tmpl.h
+         d01896d51d5857472596eef868ebec80630e6913 kernel/trace: extract common part in process_fetch_insn
          
