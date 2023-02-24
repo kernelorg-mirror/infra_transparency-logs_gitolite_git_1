@@ -1,47 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============5675906613312338174=="
+Content-Type: multipart/mixed; boundary="===============7221083346635334105=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vbabka/linux
-Date: Fri, 24 Feb 2023 09:32:21 -0000
-Message-Id: <167723114123.21314.18078577397492834287@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Fri, 24 Feb 2023 10:21:22 -0000
+Message-Id: <167723408243.2773.4726092530334251815@gitolite.kernel.org>
 
---===============5675906613312338174==
+--===============7221083346635334105==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vbabka/linux
-user: vbabka
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/vma_merge_cleanup-v1r1
-    old: 0000000000000000000000000000000000000000
-    new: a35359268e5ac5300f3b04c04441f90ad2c5351a
+  - ref: refs/heads/master
+    old: bac53f0329df32c1d74bfed17de5be8c2bcf46a8
+    new: 97def95fa3dfbfd8b8b285e65b071a8fc6e2085f
+    log: |
+         97def95fa3dfbfd8b8b285e65b071a8fc6e2085f fix up permission error in queue-5.15/kbuild-add-config_pahole_version.patch
+         
 
---===============5675906613312338174==
+--===============7221083346635334105==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1677231138 +0100
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/linux.git
-nonce 1677231137-2522859e2f20297ef7580b7c3611a1c48b8ffa2c
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1677234077 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1677234075-3716ad5a68d5da0e84ea1fb2453f23893480b91a
 
-0000000000000000000000000000000000000000 a35359268e5ac5300f3b04c04441f90ad2c5351a refs/heads/vma_merge_cleanup-v1r1
+bac53f0329df32c1d74bfed17de5be8c2bcf46a8 97def95fa3dfbfd8b8b285e65b071a8fc6e2085f refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCAAdFiEEjUuTAak14xi+SF7M4CHKc/GJqRAFAmP4hCIACgkQ4CHKc/GJ
-qRAMIwgAitUaOk4QeLTM/cOfOLEHpn7K1V3moNR+ikGrkFHKGnx3TACGY1Bq41+B
-TZ5upBKg7Daw8LSg7z+IU1dzgqgmNT1yrvrmlXaQhdFtjGZXCwX0SQn5oD2Fp3up
-eHTIVRdS7OL90pOl2utVniocNk6MdJEvuaWW8JxutIg63RGwcKuUgkOr+Zd02Wnl
-gudeAQIpbAb00yhlHilH2LdJEiVOYowIk12HZV/PxF8t2U6bWIJdoP5nsZaLes3z
-aH65U5vs0ZEVwkPB9XyXS0at5UlsewuhFyZ4o3Gbq69eRZgkghjS/9muERu9ZrFT
-PAOkEKgURhhbT1CQ4o7Qsf4ke2jVxQ==
-=3Wap
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmP4j54bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+8XEQAKA+Sqo+u68a3dcRDiHQ
+Y7t/R2cwhoLkLFJqtEKzc/5ET7O0Hv08hTDjjoox1RVvRC9bY2JDEYeq6ZIRRdqZ
+nGGExWXFQ5B8e+JkWbBXT7kZxu031N6F88yiGEfN40ozSEOzBM+htaUnypdClB8s
+r03DYhyN9qMFi3NOpcsZt0/Ld8a9VbLfoIbSMaCAE98XODYfnqtEHGjcbfrJtb85
+6VGb958ZL19ziiUjFX9+m+VDKHtpP0lyd51WbzJkkS1Mci2e8daZHcbTopW6Tzsd
+2ECu2CpgTHeFBnuEVWHcYyklisM6KhgfFfuR8hD1+jvFTBzon/pXEgIPGfhn+MvJ
+KfENJOmoiQOLWie2eZ8mdRkMqE6zziEKVclMZ1yYwLb5fmDuK5914u5H70LhY0Q+
+bCieVbJU8DoUfYMBePVAO1ZGw/4TSB0VXojrlCzZvfxrWV6r8L0ZZ4IL7bm4h3BN
+/Q2SSIOq2V/hPZ60We1/NpeLOP8jLPJA54V0r5U9KF9DbqisFIvscKSYfG/k/wfO
+eVGjIJrqOja9vAN3arsohjPc3+bJbvLdqTj408DSXFfym92kOit+/6H1POJfuR3K
+elMBSBzvl1Ud6ZA2lEi+aAnI8qt9wmZKMNjC1flZBNkrSibNQK076mtGGsnN7GwV
+Ps/kFphN1+c6Sh5immk/Ryxt
+=YxvG
 -----END PGP SIGNATURE-----
 
---===============5675906613312338174==--
+--===============7221083346635334105==--
