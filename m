@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vkoul/soundwire
-Date: Fri, 24 Feb 2023 13:50:23 -0000
-Message-Id: <167724662340.11849.11513817779873023311@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
+Date: Fri, 24 Feb 2023 14:03:08 -0000
+Message-Id: <167724738873.18743.349647243201034696@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vkoul/soundwire
-user: vkoul
+repo: pub/scm/linux/kernel/git/conor/linux
+user: conor
 changes:
-  - ref: refs/tags/soundwire-6.3-rc1
+  - ref: refs/heads/riscv-enable_rust
     old: 0000000000000000000000000000000000000000
-    new: 436403d0b426c81f41bc14852342169a9d91b642
+    new: 235e801f19598a20de6646f1a6ef4492f2d6ac09
