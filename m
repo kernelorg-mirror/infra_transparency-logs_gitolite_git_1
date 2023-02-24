@@ -1,20 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/perfbook
-Date: Fri, 24 Feb 2023 19:02:36 -0000
-Message-Id: <167726535673.22938.7689183525038180753@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/kernel/ndctl/ndctl
+Date: Fri, 24 Feb 2023 19:12:34 -0000
+Message-Id: <167726595457.29009.758092362652858003@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/perfbook
-user: paulmck
+repo: pub/scm/utils/kernel/ndctl/ndctl
+user: vishal
 changes:
-  - ref: refs/heads/master
-    old: abc4079e97a352bc9e4dfea87a64b175030ce0b6
-    new: 07189dbfa2430587f4a29fd7ce871b3ae75e46f4
+  - ref: refs/heads/pending
+    old: cb4c8f9fd0afd926a6d72e8bfb3b258f055069cd
+    new: 96bae09f130805614ddd8ea0a016e65aaebd1e7c
     log: |
-         5659b93a1d118aca2a43678f003f90f71f4c5cde formal: Update RCU-test-ratio table as of v6.2
-         07189dbfa2430587f4a29fd7ce871b3ae75e46f4 memorder: Fix PowerPC's rmb() requirement
+         82884eed7fe57b70bf27e11b95193a9fe7c612a0 cxl/monitor: Make libtracefs dependency optional
+         a59866328ec5a988f7fa395cb567b6c34841cda9 cxl/monitor: fix include paths for tracefs and traceevent
+         21d9a08d886bcfb85870b5b01b49b61aca37e2d5 cxl/event-trace: use the wrapped util_json_new_u64()
+         96bae09f130805614ddd8ea0a016e65aaebd1e7c Merge branch 'for-76.1/build-fixes' into pending
          
