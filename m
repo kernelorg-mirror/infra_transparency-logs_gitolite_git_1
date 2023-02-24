@@ -1,27 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Fri, 24 Feb 2023 18:30:20 -0000
-Message-Id: <167726342004.1801.7397673840606840543@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jfern/linux
+Date: Fri, 24 Feb 2023 18:33:28 -0000
+Message-Id: <167726360863.2797.12076086710783249701@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
-user: broonie
+repo: pub/scm/linux/kernel/git/jfern/linux
+user: jfern
 changes:
-  - ref: refs/heads/for-linus
-    old: fad9f840d1d98bf3bc08223953d2dfc00e8cdc73
-    new: 4822fc06d054e76678f1d6d1b9f4629044204b5e
+  - ref: refs/heads/rcu/rcutop
+    old: 9617e0851ec17ab3ed416aa8d2aa17029cba7acd
+    new: 561427c949299c3f6b3a42b5fa4b035aa5bb419a
     log: |
-         047ee71ae4f412d8819e39e4b08c588fa299cfc2 spi: tegra210-quad: Fix validate combined sequence
-         4822fc06d054e76678f1d6d1b9f4629044204b5e Merge remote-tracking branch 'spi/for-6.2' into spi-linus
-         
-  - ref: refs/heads/for-next
-    old: fad9f840d1d98bf3bc08223953d2dfc00e8cdc73
-    new: 4822fc06d054e76678f1d6d1b9f4629044204b5e
-    log: |
-         047ee71ae4f412d8819e39e4b08c588fa299cfc2 spi: tegra210-quad: Fix validate combined sequence
-         4822fc06d054e76678f1d6d1b9f4629044204b5e Merge remote-tracking branch 'spi/for-6.2' into spi-linus
+         561427c949299c3f6b3a42b5fa4b035aa5bb419a debug: dynamic lazy wake debug
          
