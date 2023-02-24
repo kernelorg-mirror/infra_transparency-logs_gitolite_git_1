@@ -1,31 +1,79 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Fri, 24 Feb 2023 18:19:15 -0000
-Message-Id: <167726275550.25860.5201417150984507425@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Fri, 24 Feb 2023 18:20:53 -0000
+Message-Id: <167726285355.28004.7622938842984003670@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
-user: broonie
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/for-linus
-    old: de36391eda116fb905265508e6acaabd2dc137e4
-    new: 54bc59d1817867999317dd86166c2be5160f4cea
-    log: |
-         aaf5f0d76b6e1870e3674408de2b13a92a4d4059 ASoC: apple: mca: Fix final status read on SERDES reset
-         d8b3e396088d787771f19fd3b7949e080dc31d6f ASoC: apple: mca: Fix SERDES reset sequence
-         fb1847cc460c127b12720119eae5f438ffc62e85 ASoC: apple: mca: Improve handling of unavailable DMA channels
-         54bc59d1817867999317dd86166c2be5160f4cea Merge remote-tracking branch 'asoc/for-6.2' into asoc-linus
-         
-  - ref: refs/heads/for-next
-    old: de36391eda116fb905265508e6acaabd2dc137e4
-    new: 54bc59d1817867999317dd86166c2be5160f4cea
-    log: |
-         aaf5f0d76b6e1870e3674408de2b13a92a4d4059 ASoC: apple: mca: Fix final status read on SERDES reset
-         d8b3e396088d787771f19fd3b7949e080dc31d6f ASoC: apple: mca: Fix SERDES reset sequence
-         fb1847cc460c127b12720119eae5f438ffc62e85 ASoC: apple: mca: Improve handling of unavailable DMA channels
-         54bc59d1817867999317dd86166c2be5160f4cea Merge remote-tracking branch 'asoc/for-6.2' into asoc-linus
-         
+  - ref: refs/heads/kcsan.2023.02.22a
+    old: 0000000000000000000000000000000000000000
+    new: 6ba912f1c081448cf3d1fa9ada9115aae4594ac4
+  - ref: refs/tags/irq-core-2023-02-20
+    old: 0000000000000000000000000000000000000000
+    new: 7416573dccf988c6299c9f74fefc90900af272ce
+  - ref: refs/tags/kcsan.2023.02.24a
+    old: 0000000000000000000000000000000000000000
+    new: e3b904a2af0b86a8b64cf23b47951e466171187f
+  - ref: refs/tags/locking-core-2023-02-20
+    old: 0000000000000000000000000000000000000000
+    new: d56587d079d8effe258ed1c09b4608647b7257d2
+  - ref: refs/tags/perf-core-2023-02-20
+    old: 0000000000000000000000000000000000000000
+    new: dea8440c57e339a60d080b6f5b114d9804a34f44
+  - ref: refs/tags/ras_core_for_v6.3_rc1
+    old: 0000000000000000000000000000000000000000
+    new: 927170381bd824427bd3adc96a6c9e6f0e0410ca
+  - ref: refs/tags/sched-core-2023-02-20
+    old: 0000000000000000000000000000000000000000
+    new: dcfadc0caba51d7bac039149c0062dd7909da674
+  - ref: refs/tags/timers-core-2023-02-20
+    old: 0000000000000000000000000000000000000000
+    new: 4fb3137079258869d62c23bb9f427e9b83c4569c
+  - ref: refs/tags/x86-asm-2023-02-20
+    old: 0000000000000000000000000000000000000000
+    new: 958904495509061ed5bced364992c82520d2c9f0
+  - ref: refs/tags/x86-boot-2023-02-20
+    old: 0000000000000000000000000000000000000000
+    new: dfdc781e69b9000ede34e4c7b7d0ff60303a3953
+  - ref: refs/tags/x86-build-2023-02-20
+    old: 0000000000000000000000000000000000000000
+    new: f62cb192791e20c5a2efe8082ce277f8b1c391a0
+  - ref: refs/tags/x86-cleanups-2023-02-20
+    old: 0000000000000000000000000000000000000000
+    new: 63ac3e607d30ab9dc0c0256517ff919fd6e1b3a2
+  - ref: refs/tags/x86-core-2023-02-20
+    old: 0000000000000000000000000000000000000000
+    new: 734dc31828401611383e2272c82eff2522a2bc23
+  - ref: refs/tags/x86-fpu-2023-02-20
+    old: 0000000000000000000000000000000000000000
+    new: b9c9c5912ff6b473d131307971d3435f4c7dacab
+  - ref: refs/tags/x86-mm-2023-02-20
+    old: 0000000000000000000000000000000000000000
+    new: fc412b08edd81c700cdcc289b47f13e07bfbc875
+  - ref: refs/tags/x86-platform-2023-02-20
+    old: 0000000000000000000000000000000000000000
+    new: 59a23a1c220d24703ca609266fead51111fdb343
+  - ref: refs/tags/x86_alternatives_for_v6.3_rc1
+    old: 0000000000000000000000000000000000000000
+    new: 8cf8f242e98919372b6b27a3b8e43998f5e8c866
+  - ref: refs/tags/x86_cache_for_v6.3_rc1
+    old: 0000000000000000000000000000000000000000
+    new: 4520062e55d404484f64837a5e584cb76c7ef615
+  - ref: refs/tags/x86_cpu_for_v6.3_rc1
+    old: 0000000000000000000000000000000000000000
+    new: 335f80f8222903d79b70df75e0a3816ae11e521a
+  - ref: refs/tags/x86_microcode_for_v6.3_rc1
+    old: 0000000000000000000000000000000000000000
+    new: cbec957d9e6dfb0af9c8e6dcd2c75d3ee7fe76e4
+  - ref: refs/tags/x86_tdx_for_6.3
+    old: 0000000000000000000000000000000000000000
+    new: 2b7574cd39abd729ed98e58fa2f642dd518598c3
+  - ref: refs/tags/x86_vdso_for_v6.3_rc1
+    old: 0000000000000000000000000000000000000000
+    new: d6ab0eb1ad8f94a120bf15939295a50ae8f699b8
