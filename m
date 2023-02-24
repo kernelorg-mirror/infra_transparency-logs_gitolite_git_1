@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-integrator
-Date: Fri, 24 Feb 2023 14:56:05 -0000
-Message-Id: <167725056520.22195.935238249083505040@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/arm64/linux
+Date: Fri, 24 Feb 2023 15:05:15 -0000
+Message-Id: <167725111571.28096.12619986383141300470@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/linusw/linux-integrator
-user: linusw
+repo: pub/scm/linux/kernel/git/arm64/linux
+user: cmarinas
 changes:
-  - ref: refs/heads/kernel-in-vmalloc-v6.2-rc3-just-ttbr0-split
-    old: e6fc25ec2770c9db62486fb1f291b99531f86533
-    new: 35ac5a9a53d2554bda395cdfa3236d278715caac
+  - ref: refs/heads/for-next/core
+    old: b61b82f81e095fe265b0614045d17b08e6ee5c72
+    new: 1b561d3949f8478c5403c9752b5533211a757226
     log: |
-         764a42eab1bbf21d84c3a32570df9a390af20d43 debug prints
-         0bf7902c72bece7c368367ab29582834a7fff130 switch PGD/TTBR0 in <asm/uaccess-asm.h>
-         35ac5a9a53d2554bda395cdfa3236d278715caac hack passing kernel_init()
+         060a2c92d1b627c86c5c42ca69baf00457c00c5a arm64: mm: hugetlb: Disable HUGETLB_PAGE_OPTIMIZE_VMEMMAP
+         1b561d3949f8478c5403c9752b5533211a757226 arm64: acpi: Fix possible memory leak of ffh_ctxt
          
