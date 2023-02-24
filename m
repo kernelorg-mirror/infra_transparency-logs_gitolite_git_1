@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6927916867764092817=="
+Content-Type: multipart/mixed; boundary="===============7637128026251212172=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
-Date: Fri, 24 Feb 2023 16:12:36 -0000
-Message-Id: <167725515655.6396.7606577199021498256@gitolite.kernel.org>
+Date: Fri, 24 Feb 2023 16:24:01 -0000
+Message-Id: <167725584117.14276.3913530203430825134@gitolite.kernel.org>
 
---===============6927916867764092817==
+--===============7637128026251212172==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,69 +16,65 @@ repo: pub/scm/linux/kernel/git/ardb/linux
 user: ardb
 changes:
   - ref: refs/heads/arm64-lpa2-v3a
-    old: 0dde267cc28027241717fa71e70256f894fca998
-    new: fa2c260599a58d08c0847b0af41c111fabd80aab
-    log: revlist-0dde267cc280-fa2c260599a5.txt
+    old: fa2c260599a58d08c0847b0af41c111fabd80aab
+    new: e1658e2202d4e8b39a31fc2eb5ea0b81b8cc711a
+    log: revlist-fa2c260599a5-e1658e2202d4.txt
 
---===============6927916867764092817==
+--===============7637128026251212172==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0dde267cc280-fa2c260599a5.txt
+Content-Disposition: attachment; filename=revlist-fa2c260599a5-e1658e2202d4.txt
 
-fd67fa6cd827b9ec7aecb7fc0a4cd37f89ba90fd arm64: mm: Move PCI I/O emulation region above the vmemmap region
-1692adc5b0bde7ca6c8b593251b3094283f1676e arm64: mm: Move fixmap region above vmemmap region
-6874d07ab24fe6307671f264cb3fcd2655bed725 arm64: ptdump: Allow VMALLOC_END to be defined at boot
-92bc89911af71f42b59addbf382d18b5e74ac728 arm64: ptdump: Discover start of vmemmap region at runtime
-5f6d48185e6ba8e3010f5ae76b41a7e9debbd6fa arm64: mm: Reclaim unused vmemmap region for vmalloc use
-390a3efb0a63e48a46c8ba847c6866342256104b arm64: kaslr: Adjust randomization range dynamically
-3610e8738820ecdece3e7337bf7242219165783d arm64: mm: Avoid SWAPPER_BLOCK_xxx constants in FDT fixmap logic
-cea6fb0cefb3779b908d9c65a5197e451af38c3c arm64: kaslr: drop special case for ThunderX in kaslr_requires_kpti()
-f3b5220a223e3fa393895992508779d1ccb9443b arm64: kernel: Disable latent_entropy GCC plugin in early C runtime
-1723fa5f7e1d7d88a9b2e850c32e0536d6335c01 arm64: kernel: Manage absolute relocations in code built under pi/
-27863f0f88786bf45da2e85746971a9fbdab05a1 arm64: kernel: Don't rely on objcopy to make code under pi/ __init
-4355a7ccbd1896426f6e3d105d39248cc5d2ea3e arm64: head: move relocation handling to C code
-406d504640e05933d5abc32287f9dae39d44aff5 arm64: Turn kaslr_feature_override into a generic SW feature override
-09094ee87185cda9d21528b55b67e63188b8767b arm64: idreg-override: Omit non-NULL checks for override pointer
-bd4a461c53f892c797e08661cb0b73f4dc05c9a3 arm64: idreg-override: Prepare for place relative reloc patching
-e38fb2bb76b56ed947284cc5a03b844ec58c94f9 arm64: idreg-override: Avoid parameq() and parameqn()
-aeef35e364a8821b2c6bb55eaea09c6f923ba9a0 arm64: idreg-override: avoid strlen() to check for empty strings
-3ae311c62bffd7d3099f12a3490dc66b4cc220e7 arm64: idreg-override: Avoid sprintf() for simple string concatenation
-00cbe8fe7e22ee3f9e7c5dc42e21bdbeacc4166d arm64: idreg-override: Avoid kstrtou64() to parse a single hex digit
-d53aafe9e2e8003ecd2141c5866ace108b4050b1 arm64: idreg-override: Move to early mini C runtime
-e24a260ea5d774f69dd1a29289dce6e9f4d58c3e arm64: kernel: Remove early fdt remap code
-1a9ff52198d4ac1320c8422863e261c1d8a9fa33 arm64: head: Clear BSS and the kernel page tables in one go
-fad9231b801d14a26f228fa786dd4915b87024c1 arm64: Move feature overrides into the BSS section
-5a290de3cbd1786efa55e80853576d57853b5f29 arm64: head: Run feature override detection before mapping the kernel
-42af3486584861eadec42b7ed9e032c64579ed76 arm64: head: move dynamic shadow call stack patching into early C runtime
-b58487974363fbdcb76b374a6327148099f0f793 arm64: kaslr: Use feature override instead of parsing the cmdline again
-641d4b3b2e1feb0e3a9d79004f064d1dce798da3 arm64: idreg-override: Create a pseudo feature for rodata=off
-c1ac0f3d428a77e44388dd573131dcefea78f24c arm64: head: allocate more pages for the kernel mapping
-f6be64e9168e76a27516a92cf270914a0f34ff75 arm64: head: move memstart_offset_seed handling to C code
-cf01f6a9b3424bb0db4a241bd3b22d4fdb90a90b arm64: head: Move early kernel mapping routines into C code
-ccf7d0e7b9e748dab347b99bb19a6db8b0a141f2 arm64: mm: avoid fixmap for early swapper_pg_dir updates
-bb95fe4ef0e78607364cd003cba1c221107b7eb2 arm64: mm: omit redundant remap of kernel image
-4f1682ea0ec2d42fb83d03a2869c6844d625b6d6 arm64: Revert "mm: provide idmap pointer to cpu_replace_ttbr1()"
-d06a9747cb36d86b3b2978bc3402e4e2c70f2a69 arm64: mmu: Retire SWAPPER_BLOCK_xxx and related constants
-4243c29a4fcabe6294a901f520b8ef05cb51d89b arm64/mm: Add FEAT_LPA2 specific TCR_EL1.DS field
-c6feb92ca828cb55c7d298fb003eef2aa1af2e0f arm64/mm: Add FEAT_LPA2 specific ID_AA64MMFR0.TGRAN[2]
-5371725e22f19b0d4795f187a2b4273a557549c3 arm64: mm: get rid of kimage_vaddr global variable
-b7cb082f31ad0e7d6c8f771aee8be588754c7afd arm64: head: remove order argument from early mapping routine
-606f1fec8a1ccba9e3290f1b38d60a92b3abfd77 arm64: mm: Handle LVA support as a CPU feature
-5fc4bd73b0df462415dc25702e4805be9adb2d71 arm64: mm: Deal with potential ID map extension if VA_BITS > VA_BITS_MIN
-d5dde7511dca7096388cd9f54183ce0999e909df arm64: mm: Add feature override support for LVA
-6aae90eaa9bc7686467163415f50206ed07c3c23 arm64: mm: Wire up TCR.DS bit to PTE shareability fields
-9eb7ffddea1634195c0eea5450c907fb3ad63ba3 arm64: mm: Add LPA2 support to phys<->pte conversion routines
-06c50a696be2a17eae8fc3d27e506bf9d55b0d2d arm64: mm: Add definitions to support 5 levels of paging
-362dcb7928c543fcd4ff6f3ae688983393eb3922 arm64: mm: add LPA2 and 5 level paging support to G-to-nG conversion
-398afc87c2d674412c072e99869026c338bc4640 arm64: Enable LPA2 at boot if supported by the system
-cc90a61a8bd8d8d71c02a2f007c188c7f70e66c8 arm64: mm: Add 5 level paging support to fixmap and swapper handling
-bc6234085396969dcf06243e2bdffd730eb70a86 arm64: kasan: Reduce minimum shadow alignment and enable 5 level paging
-496819b6e0f8f5beedfa4c42c6527cf5d7599502 arm64: mm: Add support for folding PUDs at runtime
-c910c76a51d56f5f7a8c235e341349773c0d73ec arm64: ptdump: Disregard unaddressable VA space
-f58b66c0e0f46c86ca2755e03079707fc7827d37 arm64: Enable 52-bit virtual addressing for 4k and 16k granule configs
-6d210e1bfd367d7f1cf76f71a9e7c98d4c845386 mm: add arch hook to validate mmap() prot flags
-7facdfc6352457552a8ac3e802f6cc41aa00fc64 arm64: mm: add support for WXN memory translation attribute
-fa2c260599a58d08c0847b0af41c111fabd80aab fixup! arm64: kernel: Manage absolute relocations in code built under pi/
+32648467dbb84f874e871dd655d86b9b48371c34 arm64: ptdump: Discover start of vmemmap region at runtime
+964c33a470e115c26b2d922a83f1156080a960d4 arm64: mm: Reclaim unused vmemmap region for vmalloc use
+ac8737caf71566f594dfc521170f25028c53a09b arm64: kaslr: Adjust randomization range dynamically
+2d5ad50651a6d573fb17978e14d9513c3790e19a arm64: mm: Avoid SWAPPER_BLOCK_xxx constants in FDT fixmap logic
+e1218c4e6081b9e5c7fe4861a0dd7fcad3d33bf3 arm64: kaslr: drop special case for ThunderX in kaslr_requires_kpti()
+eeedb82b834c6b3375f319c4b1dd808830a434a2 arm64: kernel: Disable latent_entropy GCC plugin in early C runtime
+45f715562c825854361329f6f55d26aa5158f0f2 arm64: kernel: Manage absolute relocations in code built under pi/
+5de94a38b1628fb9c97b00b3644339ca48e873a2 arm64: kernel: Don't rely on objcopy to make code under pi/ __init
+be05a8447ff0d458a2657f605becdd5c47f02d46 arm64: head: move relocation handling to C code
+4ba07de332debde004bdf443f5d29a5f8a31971b arm64: Turn kaslr_feature_override into a generic SW feature override
+21f3946c2a78f7d16e7aa1cca279da176710bf13 arm64: idreg-override: Omit non-NULL checks for override pointer
+445da2f87d0371f85cd10e966bb95d72c46eac7f arm64: idreg-override: Prepare for place relative reloc patching
+5c34ceae8f28590bf894b8572250930e09c6ee0c arm64: idreg-override: Avoid parameq() and parameqn()
+dfb9bf0f742dcbe693b4285c815a5e26972e5593 arm64: idreg-override: avoid strlen() to check for empty strings
+f99ef44f22ae9c4f7c8340e4bc8b78a360ecffe4 arm64: idreg-override: Avoid sprintf() for simple string concatenation
+8d8f02a431a989c732fdcbb625209f0afb8d68d2 arm64: idreg-override: Avoid kstrtou64() to parse a single hex digit
+84eae6484191dfeaeac603a9e258bfcd05e2fb83 arm64: idreg-override: Move to early mini C runtime
+0e0b417b36ac860cbd51d5ffff010b7759225a38 arm64: kernel: Remove early fdt remap code
+bfb0ed35a7a5b85a0c9df0c2c11722d0795faf48 arm64: head: Clear BSS and the kernel page tables in one go
+c49fb7819458f0ad2f1ad7bcab0832a596a61304 arm64: Move feature overrides into the BSS section
+173a608cac4733d7ba0a18e05c76170ce641aa43 arm64: head: Run feature override detection before mapping the kernel
+e30fb6b8cfca0cc4f1cb1e8434716885209fb2e4 arm64: head: move dynamic shadow call stack patching into early C runtime
+d11e423e5e2e97d27ef9e28c1d356e8e92fce0ba arm64: kaslr: Use feature override instead of parsing the cmdline again
+7611dfc7b1695e71bd3592254cee8c4b5ad98529 arm64: idreg-override: Create a pseudo feature for rodata=off
+f7d80a90024252a0276729813f8ef4cfb109efe2 arm64: head: allocate more pages for the kernel mapping
+9f1ecffd0e7eed4d81167ad3a03e3a20648e909b arm64: head: move memstart_offset_seed handling to C code
+30c5ef245f0c225de2d0ba243dcc50cce0dd6cd7 arm64: head: Move early kernel mapping routines into C code
+59d6bde419a287e276a6bf127f9df4c558e15bb2 arm64: mm: avoid fixmap for early swapper_pg_dir updates
+4faa6d2986a5d439bd8792f034b58f13be073060 arm64: mm: omit redundant remap of kernel image
+43cb56442b00ba336c46e1dd464ff324a47968d6 arm64: Revert "mm: provide idmap pointer to cpu_replace_ttbr1()"
+44c4282f73139a26fdf414aa0e64bb4d5e97d83c arm64: mmu: Retire SWAPPER_BLOCK_xxx and related constants
+db18a0867eac384630e711671a6943ae9b26537a arm64/mm: Add FEAT_LPA2 specific TCR_EL1.DS field
+f0335d9752be4e5d6b44e6d6b89fc20b944765c9 arm64/mm: Add FEAT_LPA2 specific ID_AA64MMFR0.TGRAN[2]
+932e7fd5f73ddc78763cc9e572f12f0789126e77 arm64: mm: get rid of kimage_vaddr global variable
+9118216991b325ec37a2102f30b4f373a4780634 arm64: head: remove order argument from early mapping routine
+b3c1ea9ea4d734e445fa369281b0666eb8ce1e71 arm64: mm: Handle LVA support as a CPU feature
+820e547776174b34d7c285ce9a1a5b1de9375e99 arm64: mm: Deal with potential ID map extension if VA_BITS > VA_BITS_MIN
+af3d491c40bdf94b663997502400794df1a943f9 arm64: mm: Add feature override support for LVA
+b9abdc822bb9d819b2297e4da61b373cea08dd0f arm64: mm: Wire up TCR.DS bit to PTE shareability fields
+45940732f1b6457aaddd4a6f716433a548440a26 arm64: mm: Add LPA2 support to phys<->pte conversion routines
+4a827522c6d9b7fcf42d8bb8cdaaa7b4cee71ae5 arm64: mm: Add definitions to support 5 levels of paging
+d9501b476f841b750389d83ebe049b8049c89401 arm64: mm: add LPA2 and 5 level paging support to G-to-nG conversion
+ddae416154a633613b677a71ca8890f602e2a58a arm64: Enable LPA2 at boot if supported by the system
+a674489a86f8571bb8ce5dc3737942f175d19474 arm64: mm: Add 5 level paging support to fixmap and swapper handling
+4f22d7a62042f629a863a2e1e6dd3483f696803e arm64: kasan: Reduce minimum shadow alignment and enable 5 level paging
+ee702a571eb0ffc6752db324a90ae0c05df726de arm64: mm: Add support for folding PUDs at runtime
+50cdd6ef99bae0f78d0ee272f4a40bf812666e9e arm64: ptdump: Disregard unaddressable VA space
+ae88150ea7298c39e395f78d30b7eb0649d671cb arm64: Enable 52-bit virtual addressing for 4k and 16k granule configs
+b9513df04ab3847b8bf87d3532d86653cd2b76e0 mm: add arch hook to validate mmap() prot flags
+e1658e2202d4e8b39a31fc2eb5ea0b81b8cc711a arm64: mm: add support for WXN memory translation attribute
 
---===============6927916867764092817==--
+--===============7637128026251212172==--
