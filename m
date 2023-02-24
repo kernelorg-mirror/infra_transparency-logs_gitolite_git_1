@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6310444933654852728=="
+Content-Type: multipart/mixed; boundary="===============0533877931799010221=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Fri, 24 Feb 2023 00:44:44 -0000
-Message-Id: <167719948472.24989.13607142674580394442@gitolite.kernel.org>
+Date: Fri, 24 Feb 2023 00:45:42 -0000
+Message-Id: <167719954239.27445.17682885025275754440@gitolite.kernel.org>
 
---===============6310444933654852728==
+--===============0533877931799010221==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/main
     old: 5b7c4cabbb65f5c469464da6c5f614cbd7f730f2
     new: a6b811cb402f4beb7c8a56345a40bf6c65bd771d
     log: revlist-5b7c4cabbb65-a6b811cb402f.txt
 
---===============6310444933654852728==
+--===============0533877931799010221==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -50,4 +50,4 @@ ee0a735fd97ccde766ab557d1fc722c92cebacda net: sunhme: Fix region request
 3acd9db9293f3b33ac04e8d44ed05b604ad1ac26 octeontx2-pf: Use correct struct reference in test condition
 a6b811cb402f4beb7c8a56345a40bf6c65bd771d net/mlx5e: Remove hairpin write debugfs files
 
---===============6310444933654852728==--
+--===============0533877931799010221==--
