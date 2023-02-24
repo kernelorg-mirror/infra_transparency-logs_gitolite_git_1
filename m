@@ -1,52 +1,53 @@
-Content-Type: multipart/mixed; boundary="===============7132584876647727317=="
+Content-Type: multipart/mixed; boundary="===============6310444933654852728=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 24 Feb 2023 00:43:40 -0000
-Message-Id: <167719942010.24567.15916381571892449665@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Fri, 24 Feb 2023 00:44:44 -0000
+Message-Id: <167719948472.24989.13607142674580394442@gitolite.kernel.org>
 
---===============7132584876647727317==
+--===============6310444933654852728==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/next-queue
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/dev-queue
-    old: 682ca4538608dd30241f288e2577168126b20b86
-    new: 8fe99f9369deb5b8f4b909744ed1b710c96c2b55
-    log: revlist-682ca4538608-8fe99f9369de.txt
+  - ref: refs/heads/master
+    old: 5b7c4cabbb65f5c469464da6c5f614cbd7f730f2
+    new: a6b811cb402f4beb7c8a56345a40bf6c65bd771d
+    log: revlist-5b7c4cabbb65-a6b811cb402f.txt
 
---===============7132584876647727317==
+--===============6310444933654852728==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-682ca4538608-8fe99f9369de.txt
+Content-Disposition: attachment; filename=revlist-5b7c4cabbb65-a6b811cb402f.txt
 
-125401e0613854887f52ccace7f11fd298691dfe i40e: consolidate maximum frame size calculation for vsi
-17688460f27edf6fb5196a14c02393c0e1faaa36 i40e: change Rx buffer size for legacy-rx to support XDP multi-buffer
-01fbf3932680e4ad4f929048ff0d33294f3e03ac i40e: add pre-xdp page_count in rx_buffer
-d3dc93b96a6472e9d6a20e11bce7cc52839f0aab i40e: Change size to truesize when using i40e_rx_buffer_flip()
-c068646a9fc5ba4b4446564431a511f6a1a27248 i40e: use frame_sz instead of recalculating truesize for building skb
-4dd8e8830b175dff20687cd38ce290a8ccd06fc5 i40e: introduce next_to_process to i40e_ring
-b14edef91189db24841ff83956c1ee9653aa56d6 i40e: add xdp_buff to i40e_ring struct
-b8f51300188e455ad53e240cc3a207edb41879c8 i40e: add support for XDP multi-buffer Rx
-d725a4218575693f0f9f463b83bf309bcf2cd3ae ice: re-order ice_mbx_reset_snapshot function
-92705da36d01a1f8bf0bdde0c788d4be4a8d7c39 ice: convert ice_mbx_clear_malvf to void and use WARN
-9834ca5bc3227fff916d11a81ab8a47a6681e382 ice: track malicious VFs in new ice_mbx_vf_info structure
-5dd3cd9487227e5de3dc1254f439a52a76d5ce10 ice: move VF overflow message count into struct ice_mbx_vf_info
-21082337f3f633c6c45dccff7c8dcd95387665ba ice: remove ice_mbx_deinit_snapshot
-5e7a61999a7df099a9ffdd0078abfbc52fd66000 ice: merge ice_mbx_report_malvf with ice_mbx_vf_state_handler
-eab98f9f4692433b03ccca0d4a14622fbb5e7b75 ice: initialize mailbox snapshot earlier in PF init
-edf7975030e8bf4f18c0dfb9b79d69f42905201b ice: declare ice_vc_process_vf_msg in ice_virtchnl.h
-f46300eac72dff7bb885d399f417a4038d37fc16 ice: always report VF overflowing mailbox even without PF VSI
-10f7dd8f6d6b31f73d77f2e19d86bcfb694e7a4b ice: remove unnecessary &array[0] and just use array
-c746cbb3661f74083c5c7c32957e2d866c1da0cb ice: pass mbxdata to ice_is_malicious_vf()
-6696be0604539f2436b41c4eeaecfd99e9f13db3 ice: print message if ice_mbx_vf_state_handler returns an error
-696e67bff63d9947e1a146da78ff2d24f8c218cd ice: move ice_is_malicious_vf() to ice_virtchnl.c
-8fe99f9369deb5b8f4b909744ed1b710c96c2b55 ice: call ice_is_malicious_vf() from ice_vc_process_vf_msg()
+92f3e96d642f5e05b9dc710c06fedc669f1b4f00 netfilter: nf_tables: allow to fetch set elements when table has an owner
+ac4893980bbe79ce383daf9a0885666a30fe4c83 netfilter: ctnetlink: fix possible refcount leak in ctnetlink_create_conntrack()
+e6d57e9ff0aec323717ee36fc9ea34ad89217151 netfilter: conntrack: fix rmmod double-free race
+efb056e5f1f0036179b2f92c1c15f5ea7a891d70 netfilter: ip6t_rpfilter: Fix regression with VRF interfaces
+e58a171d35e32e6e8c37cfe0e8a94406732a331f netfilter: ebtables: fix table blob use-after-free
+05c07c0c6cc8ec2278ace9871618c41f1365d1f5 netfilter: xt_length: use skb len to match in length_mt6
+fdf6491193e411087ae77bcbc6468e3e1cff99ed netfilter: ctnetlink: make event listener tracking global
+0af8c09c896810879387decfba8c942994bb61f5 netfilter: x_tables: fix percpu counter block leak on error path when creating new netns
+67d93ffc0f3c47094750bde6d62e7c5765dc47a6 ptp: vclock: use mutex to fix "sleep on atomic" bug
+fd2a55e74a991ae5ff531c9da52963277dc7fbd5 Merge git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
+4cc59f386991ec9374cb4bc83dbe1c0b5a95033f ipv6: Add lwtunnel encap size of all siblings in nexthop calculation
+44bd0394fe10903757da0863e0cf62c2d9846ea6 selftests: fib_tests: Add test cases for IPv4/IPv6 in route notify
+c749e3f82a15e10a798bb55f60368ee102c793cb net/mlx5: Fix memory leak in IPsec RoCE creation
+e209519b623391465c0b37caca89bf0ffff91f53 net: phy: c45: use "supported_eee" instead of supported for access validation
+b6478b8c93304fa0483e4657779b44634a1711c7 net: phy: c45: add genphy_c45_an_config_eee_aneg() function
+3eeca4e199cee2066c65b872391cecee5cbbbb81 net: phy: do not force EEE support
+186b1da76b7271d65b48af5abae10a53d679c776 net: phy: c45: genphy_c45_ethtool_set_eee: validate EEE link modes
+1e30373ea59ef47a7aa406cab64c852200f4bac3 Merge branch 'net-phy-eee-fixes'
+edea0c5a994b7829c9ada8f5bc762c4e32f4f797 octeontx2-pf: Recalculate UDP checksum for ptp 1-step sync packet
+ee0a735fd97ccde766ab557d1fc722c92cebacda net: sunhme: Fix region request
+68ba44639537de6f91fe32783766322d41848127 sctp: add a refcnt in sctp_stream_priorities to avoid a nested loop
+3acd9db9293f3b33ac04e8d44ed05b604ad1ac26 octeontx2-pf: Use correct struct reference in test condition
+a6b811cb402f4beb7c8a56345a40bf6c65bd771d net/mlx5e: Remove hairpin write debugfs files
 
---===============7132584876647727317==--
+--===============6310444933654852728==--
