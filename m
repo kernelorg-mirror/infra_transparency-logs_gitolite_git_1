@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0533877931799010221=="
+Content-Type: multipart/mixed; boundary="===============1334551133556075343=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Fri, 24 Feb 2023 00:45:42 -0000
-Message-Id: <167719954239.27445.17682885025275754440@gitolite.kernel.org>
+Date: Fri, 24 Feb 2023 00:46:15 -0000
+Message-Id: <167719957539.28503.17843338370777841627@gitolite.kernel.org>
 
---===============0533877931799010221==
+--===============1334551133556075343==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 5b7c4cabbb65f5c469464da6c5f614cbd7f730f2
-    new: a6b811cb402f4beb7c8a56345a40bf6c65bd771d
-    log: revlist-5b7c4cabbb65-a6b811cb402f.txt
+  - ref: refs/heads/dev-queue
+    old: 302ea1554fbca5ca4d5b78429f6450de9ed6ab18
+    new: e6c9b29303df729bd5c64bd0b0c8533449ddb2ee
+    log: revlist-302ea1554fbc-e6c9b29303df.txt
 
---===============0533877931799010221==
+--===============1334551133556075343==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5b7c4cabbb65-a6b811cb402f.txt
+Content-Disposition: attachment; filename=revlist-302ea1554fbc-e6c9b29303df.txt
 
 92f3e96d642f5e05b9dc710c06fedc669f1b4f00 netfilter: nf_tables: allow to fetch set elements when table has an owner
 ac4893980bbe79ce383daf9a0885666a30fe4c83 netfilter: ctnetlink: fix possible refcount leak in ctnetlink_create_conntrack()
@@ -49,5 +49,14 @@ ee0a735fd97ccde766ab557d1fc722c92cebacda net: sunhme: Fix region request
 68ba44639537de6f91fe32783766322d41848127 sctp: add a refcnt in sctp_stream_priorities to avoid a nested loop
 3acd9db9293f3b33ac04e8d44ed05b604ad1ac26 octeontx2-pf: Use correct struct reference in test condition
 a6b811cb402f4beb7c8a56345a40bf6c65bd771d net/mlx5e: Remove hairpin write debugfs files
+25926f698f87eac5eef5e23847e8457ba3efb15b intel/igbvf: free irq on the error path in igbvf_request_msix()
+e7f776ec441ca2d46038bea74c7093d33d1755ca igb: Enable SR-IOV after reinit
+af34a4bf725fbdcb19be3e6199d8bacb5421c006 igbvf: Regard vf reset nack as success
+b7c38e63ed1b8b2461dec6cf9f6aaa33cbfcfc22 ice: Fix DSCP PFC TLV creation
+b3094bccd372af62c82af2d27e1a730bf23ae376 ice: add FDIR counter reset in FDIR init stage
+4883e5a3b1f7f24345c99c23fa409c88609b5b0b ice: Fix missing cleanup routine in the case of partial memory allocation
+693f10079874f55c5df6b0cb8cdc28db15ceb8b8 ethernet: ice: avoid gcc-9 integer overflow warning
+be8b0af699e8159700d4427637dc987276a34b64 ice: xsk: disable txq irq before flushing hw
+e6c9b29303df729bd5c64bd0b0c8533449ddb2ee ice: Write all GNSS buffers instead of first one
 
---===============0533877931799010221==--
+--===============1334551133556075343==--
