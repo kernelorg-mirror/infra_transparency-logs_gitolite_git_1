@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8941456794080824476=="
+Content-Type: multipart/mixed; boundary="===============0613830464759854894=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Sat, 25 Feb 2023 14:53:07 -0000
-Message-Id: <167733678756.22259.17361448531149908158@gitolite.kernel.org>
+Date: Sat, 25 Feb 2023 14:55:59 -0000
+Message-Id: <167733695905.24781.294775298862886668@gitolite.kernel.org>
 
---===============8941456794080824476==
+--===============0613830464759854894==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,70 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/bus_cleanup
-    old: e2970ba821954232a75defb254b3d0c260aab128
-    new: f3175b4c21c5aad39a313d86a5e551b1530f2555
-    log: revlist-e2970ba82195-f3175b4c21c5.txt
+  - ref: refs/heads/class_cleanup
+    old: 48d6c45162749713e88077e5e8cf6cd30f926fea
+    new: 6574bac68b4736a489daa6071c26f9a8730d87f8
+    log: revlist-48d6c4516274-6574bac68b47.txt
 
---===============8941456794080824476==
+--===============0613830464759854894==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1677336782 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1677336956 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1677336781-1eece3af32ded69dd4c55f3ba3f1282a98820324
+nonce 1677336955-68615ec45386826bbea11f41126f2841b08a71f2
 
-e2970ba821954232a75defb254b3d0c260aab128 f3175b4c21c5aad39a313d86a5e551b1530f2555 refs/heads/bus_cleanup
+48d6c45162749713e88077e5e8cf6cd30f926fea 6574bac68b4736a489daa6071c26f9a8730d87f8 refs/heads/class_cleanup
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmP6IM4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+sqcP/2ysK1LIUnf5E0jKkN7E
-gB2KjVQEkV8qx/ViZi3yFuvgUubbDKFKVQAOWhHjKa7uyofUvlqS1yugnDVGhUtS
-xo/BeOxobHnxr5hGZuHppRrXNK8Q7xBtTRt5uJpUQ1yvo0kgIK8qDSPIoC8xZThW
-FgKU+v7hhrH5xsoYz3iFLsKjrroQfAAo4FFJ+8UwQuOmb+mRKFjZHAUskajRUOKf
-DHaf3ShD+FyUMPPCaLe9q9CPbxWyOmQCjYK+T6JJnk7AbkQMB58Kpb2J1C9Avsyb
-6yke/Pr6YaADykEHuC78RUY6apEl95i0AEtiW+r9tD3IxnElPCdVcJV8zYiDlkel
-Is/cIyzo22L/yTclZ4OeBryiRRqB8sL8CKyAljs9v0eU5pRI6LsafAye+1saKNz+
-xMpIbYC/AvQj47LcN44RQxl1TqdgoWbFjH8CWY/2gMxc90NC5A2+PGwkPMj9WtEB
-OSPxRmR3B93SdNOI3aLFLe1xw/gWLEOIS9E2lUIsXiAri5r/9wMh+044kQI0I0Fa
-QeN7GKI5Y8Jewj0EgYe2fhg7TSmghUY3JBYiXwb/q40UunLPQ1YPrLDgWgJci9Wq
-yhL6hl22cf1V5g1tCC6YJEBGvGqRAjopLGVWjgE0a+eWA+sT9Z3gjimVlagv8bEL
-idPsEma/L0cb8N8e/A2QHx0p
-=MSig
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmP6IXwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+f5oQANc6pABqbD7VTeZY74cY
+M8qd8jZVw//H5FcZ1tYyxoQL7UyIysEPDdJ+GjIkr0gEhPNp/Ba7Lr7tE5RfdqUo
+7tHl5ngvWr1srAhlAmGuVhuuHvbmon+85+2ke6y3WcGTCbz8qWOc1TSUwucXx5Xl
+iTH43IXfLrJuzmor6Sym2s3aLzl8lzUmXEcK+pBfeys7mFK4O58ZOjprzDkXH01h
+I0kGDGcmJjA4Fjxqtyo1Y2+L+h9S+y5Cudctvb+o2mMb1JaN7tZUGOAFq0GwVOeb
+42NjZuVaZtx9bVFcAZxs91AWE02RdMOc5wo7YekamYncgO/ZYJ3ca6xLziIo14MC
+qFmWySIbeiO/MaUiaQCfPowDPT8Kz2ERkD6Nlc4ZAzN8JsND0JWyh6YDvvERo++k
+PSrAXEkCCzEJ7BM9U4vrRYZiV9ljHL1rP34h04iPFkWaP/Br+gM+GNSG3EBYYTyb
+/i/+hiH8Wy6MxZ/zuW632IQuHBlH+e38zWiKqByjQjaZGcUf6qQUFo0lVJbGGEf7
+0VQbspgKtaPHXVSNX51qYLhIH2/PhtHKfgPPOmnXFVAdc7aiyu8F8GR8vhPBpiLS
+MuGkvQpaNQRQAcDp8hFPFBuNBjYlJKJBTM0VmjHe7/WdR+qRdf+jist9CPaOMmKk
+Nr4FTBHEfj9BvTUiLPTAtiU2
+=0F+P
 -----END PGP SIGNATURE-----
 
---===============8941456794080824476==
+--===============0613830464759854894==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e2970ba82195-f3175b4c21c5.txt
+Content-Disposition: attachment; filename=revlist-48d6c4516274-6574bac68b47.txt
 
+d8a23ff6a755eccbebfa1b5173a951cfdd088c8c ice: Change ice_vsi_realloc_stat_arrays() to void
+13b599f15e1cb59d6cc907908532dc45bf048e3a ice: Mention CEE DCBX in code comment
+d5a1224aa68c8b124a4c5c390186e571815ed390 drm/i915/gen11: Wa_1408615072/Wa_1407596294 should be on GT list
+0438499a7f098c35e83134fc04899fe2188e4ef2 ASoC: dt-bindings: renesas,rsnd.yaml: drop "dmas/dma-names" from "rcar_sound,ssi"
+d67307b4147e51b00545e2e17c20bd2cc8e6c745 SUNRPC: make kobj_type structures constant
+1231039db31cf0703996d0b1797c2702e25a110a Revert "blk-cgroup: move the cgroup information to struct gendisk"
+b4e94f9c2c0822265a6942741d270aa16d229331 Revert "blk-cgroup: delay calling blkcg_exit_disk until disk_release"
+b6553bef8cdc2983943f60edb8dc5e49361ebb3b Revert "blk-cgroup: delay blk-cgroup initialization until add_disk"
+9a9c261e6b5512e0b8d9ae9b1c1746c743a15a48 Revert "blk-cgroup: pass a gendisk to blkg_lookup"
+a06377c5d01eeeaa52ad979b62c3c72efcc3eff0 Revert "blk-cgroup: pin the gendisk in struct blkcg_gq"
+a32327a3a02c6513feaeb122a6d8fb6e8d168365 net/mlx5: Lag, Control MultiPort E-Switch single FDB mode
+8ce81fc01b52a17073353e0d483a2434abd2e392 net/mlx5e: TC, Add peer flow in mpesw mode
+ab9fc405ffd9690266039662286ed69f98c11738 net/mlx5: E-Switch, rename bond update function to be reused
+73af3711c7028286136bb7e9422b19f5a016626d net/mlx5: Lag, set different uplink vport metadata in multiport eswitch mode
+27f9e0ccb6da0857a323c1d19a23b6666ddefe05 net/mlx5: Lag, Add single RDMA device in multiport mode
+197c00029294528e35ba97e4b8b54155c6654261 net/mlx5e: Use a simpler comparison for uplink rep
+b97653d87bda09441d521a448c69cccd3dd6649d net/mlx5e: TC, Remove redundant parse_attr argument
+29a299cb6b2051c1c7394da00c080df5cca7bfc3 net/mlx5: Remove outdated comment
+ccd672bcf3e53ecd666ed99d4901992ebd78fdd9 net/mlx5e: Pass mdev to mlx5e_devlink_port_register()
+bc1536f369f043fa362a25d51f84bf59f2f48489 net/mlx5e: Replace usage of mlx5e_devlink_get_dl_port() by netdev->devlink_port
+c30f3faa2a81bc6d7d05967eb07bbe3bd5b359e6 net/mlx5e: Move dl_port to struct mlx5e_dev
+6d6e71e6e5e3713d18c87b16af774b7db51a68c3 net/mlx5e: Move devlink port registration to be done before netdev alloc
+de411a8226df165a8cab9a426ceaaaafa9304ab9 net/mlx5e: Create auxdev devlink instance in the same ns as parent devlink
 5977ac3910f1cbaf44dca48179118b25c206ac29 net/mlx5: Remove "recovery" arg from mlx5_load_one() function
 72ed5d5624af384eaf74d84915810d54486a75e2 net/mlx5: Suspend auxiliary devices only in case of PCI device suspend
 fcb3a81d221750d2a54b4e3a82b3efbbeab8780c x86/hotplug: Remove incorrect comment about mwait_play_dead()
@@ -1046,40 +1069,17 @@ ab7362d04d7c14923420c1e19e889da512a65cd7 cifs: Fix cifs_writepages_region()
 0601f25d1c4937c678db786961705ce56fbd6bb6 Merge tag 'staging-6.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/staging
 693fed981eb9bf6e70bfda66bb872e2bb8155671 Merge tag 'char-misc-6.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc
 a93e884edf61f9debc9ca61ef9e545f0394ab666 Merge tag 'driver-core-6.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/driver-core
-964f7a8ffa61be479c09aa0bc79b0c19d1aeba7b EDAC/sysfs: move to use bus_get_dev_root()
-01abe8ea9c564ffef6eaf92534cc63d88eef31bd ACPI: LPIT: move to use bus_get_dev_root()
-990970a1e447cb7a46cc37a071da268ea29ad816 cpufreq: move to use bus_get_dev_root()
-5da2f58373a92ef607ceef3f740056abb7ec47d1 platform/x86: ibm_rtl: move to use bus_get_dev_root()
-cdc5551baa23156009ac41853b47ae72cb732987 platform/x86: intel-uncore-freq: move to use bus_get_dev_root()
-f0999b393cb026ca7fd399bbcabde72d58b1524b cpuidle: move to use bus_get_dev_root()
-79379745bf239adf4c5280406ea12a713247597f cpu/hotplug: move to use bus_get_dev_root()
-1214d3a45f6f1af90904b4fe313f8199a524d147 workqueue: move to use bus_get_dev_root()
-806163ca7fd42d51d9248ea1b37a9c71818ed135 x86/microcode: move to use bus_get_dev_root()
-6534472291976e45ebffcf27e2dc5fa667584cfd x86/umwait: move to use bus_get_dev_root()
-ed86dedfcb19dabc7f5660d00e6838e5ca1d575c arm64: cpufeature: move to use bus_get_dev_root()
-60f747d869b10db39c6dc94cd71b7db2c57bd0ea powerpc/sysfs: move to use bus_get_dev_root()
-d66ce4aa6a6e16ae26caa2f5376d0f6511b2ae37 powerpc/powernv: move to use bus_get_dev_root()
-b64820ee1baa204d08189e2019d1906a8ba04a4a powerpc/pseries: move to use bus_get_dev_root()
-b03ee2341cfa3790873bdf995731d2f87b36a11d powerpc/fsl: move to use bus_get_dev_root()
-4d45d4cd51e822ebb4c9d19515df39be8a133f76 sh: dma-sysfs: move to use bus_get_dev_root()
-0a8bf6715767527e5b4750d8ee54457b8ad73055 sh: intc: move to use bus_get_dev_root()
-1abadb5d38c265c1d69d9ce7c2d9ea83d2dbf507 s390/topology: move to use bus_get_dev_root()
-beccddaf313495d27da1563c3d30567a9ea72b11 s390/smp: move to use bus_get_dev_root()
-bcf80f65776967f9227718e2d42687f1a185dc26 driver core: bus: move dev_root out of struct bus_type
-3e83ea542f624efcbb28c1e3d154d1605331de2a driver core: bus: mark the struct bus_type for sysfs callbacks as constant
-e818854602d18405f32f068648d26102a449b45b driver core: bus: constantify bus_register()
-3573bfcd8e56e934bd0fc922dbf1b06185c4db29 driver core: bus: constify bus_rescan_devices()
-b7b9007f5520d9d526a1f0b77a2478f3110b14c0 driver core: bus: constify driver_find()
-8a771ed4556c2aae8b7649cef9f8ba29d30a2771 driver core: bus: constify bus_get()
-bb1f4a4f0f063df976e92079b686b007235b84fe driver core: make the bus_type in struct device_driver constant
-d66d9433eb2bb68c750f710a71f86bf8a22f1a9f crypto: hisilicon/qm - make struct bus_type * const
-b1f43bece9e3556c2588b6ea9ab62723cb75ff30 drm/i915/huc: use const struct bus_type pointers
-ca59441fd0c096cb01363f4ed969561326330b84 vhost-vdpa: vhost_vdpa_alloc_domain() should be using a const struct bus_type *
-116b58295735ea1b52dd04f1811d42cdfe8aaa0a dmaengine: idxd: use const struct bus_type *
-6200a539f0041e14c370480041fb0abddbb5257e ARM/dma-mapping: const a pointer to bus_type in arm_iommu_create_mapping()
-6ed3254da2367a6bbb0b66b6c7904329103560bc iommu: make the pointer to struct bus_type constant
-9c1bd3035cb58ff9e11f29f9ed2c2c34b67461ba driver core: device.h: make struct bus_type a const *
-914b8c3fc35bfc50c258b058257cfeec1a4b8ca4 USB: mark all struct bus_type as const
-f3175b4c21c5aad39a313d86a5e551b1530f2555 FIXME: driver core: platform: make platform_bus_type constant
+b273b2d38aa43442677b32ad27d85e7ff0bb2652 driver core: class: specify the module owner in __class_register()
+4e302596a564fc7e50eb2f283fa99155dce5086a drivers: remove struct module * setting from struct class
+11b6718f94233484c77f07f48374a3f59279db87 driver core: class: remove struct module owner out of struct class
+3280a378f6772f091b046850ed5134ecf41d65d1 driver core: class: remove module * from class_create()
+2a83f963955e9881476940232de3927e0af1cd9d driver core: class: make class_dev_iter_init() options const
+53973c1f6382a23bb7612ef9236d4f3406bc42cc driver core: class: make class_for_each_device() options const
+3c86a0a9c9c9ad186b30c4cb4f4b7464d0c4b654 driver core: class: make class_find_device*() options const
+8e7c3ebdf7580d35a15a0030f5ffcf340d6d4305 driver core: class: make class_create/remove_file*() options const
+7a40c362fb4960cd3ff1de08a1e7a15f88c2ed00 driver core: device: make device_destroy() take a const class *
+fa8aea3ab26086725630f3b332c0059ab8711e36 tpm: fix up the tpm_class shutdown_pre pointer when created
+1f368af4f72c9d9eec5fdbce786c19120c019ad0 driver core: device: mark struct class in struct device as constant
+6574bac68b4736a489daa6071c26f9a8730d87f8 driver core: device: make device_create*() take a const struct class *
 
---===============8941456794080824476==--
+--===============0613830464759854894==--
