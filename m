@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0613830464759854894=="
+Content-Type: multipart/mixed; boundary="===============6388796132292799017=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Sat, 25 Feb 2023 14:55:59 -0000
-Message-Id: <167733695905.24781.294775298862886668@gitolite.kernel.org>
+Date: Sat, 25 Feb 2023 14:56:25 -0000
+Message-Id: <167733698528.25017.15873409693088810673@gitolite.kernel.org>
 
---===============0613830464759854894==
+--===============6388796132292799017==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/class_cleanup
-    old: 48d6c45162749713e88077e5e8cf6cd30f926fea
-    new: 6574bac68b4736a489daa6071c26f9a8730d87f8
-    log: revlist-48d6c4516274-6574bac68b47.txt
+  - ref: refs/heads/debugfs_cleanup
+    old: 27471e50f701cf97979bb7dc68c91b76e8d72467
+    new: f003e90bbe28f94d6036009c8cabf8b5c8c4002d
+    log: revlist-27471e50f701-f003e90bbe28.txt
 
---===============0613830464759854894==
+--===============6388796132292799017==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1677336956 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1677336982 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1677336955-68615ec45386826bbea11f41126f2841b08a71f2
+nonce 1677336982-4eaa4659432efeced0e0e27d8284745d1c222575
 
-48d6c45162749713e88077e5e8cf6cd30f926fea 6574bac68b4736a489daa6071c26f9a8730d87f8 refs/heads/class_cleanup
+27471e50f701cf97979bb7dc68c91b76e8d72467 f003e90bbe28f94d6036009c8cabf8b5c8c4002d refs/heads/debugfs_cleanup
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmP6IXwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+f5oQANc6pABqbD7VTeZY74cY
-M8qd8jZVw//H5FcZ1tYyxoQL7UyIysEPDdJ+GjIkr0gEhPNp/Ba7Lr7tE5RfdqUo
-7tHl5ngvWr1srAhlAmGuVhuuHvbmon+85+2ke6y3WcGTCbz8qWOc1TSUwucXx5Xl
-iTH43IXfLrJuzmor6Sym2s3aLzl8lzUmXEcK+pBfeys7mFK4O58ZOjprzDkXH01h
-I0kGDGcmJjA4Fjxqtyo1Y2+L+h9S+y5Cudctvb+o2mMb1JaN7tZUGOAFq0GwVOeb
-42NjZuVaZtx9bVFcAZxs91AWE02RdMOc5wo7YekamYncgO/ZYJ3ca6xLziIo14MC
-qFmWySIbeiO/MaUiaQCfPowDPT8Kz2ERkD6Nlc4ZAzN8JsND0JWyh6YDvvERo++k
-PSrAXEkCCzEJ7BM9U4vrRYZiV9ljHL1rP34h04iPFkWaP/Br+gM+GNSG3EBYYTyb
-/i/+hiH8Wy6MxZ/zuW632IQuHBlH+e38zWiKqByjQjaZGcUf6qQUFo0lVJbGGEf7
-0VQbspgKtaPHXVSNX51qYLhIH2/PhtHKfgPPOmnXFVAdc7aiyu8F8GR8vhPBpiLS
-MuGkvQpaNQRQAcDp8hFPFBuNBjYlJKJBTM0VmjHe7/WdR+qRdf+jist9CPaOMmKk
-Nr4FTBHEfj9BvTUiLPTAtiU2
-=0F+P
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmP6IZYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+mLYP/iXTB7WVZiL3g61Ttqwz
+YAeDT3GMbWySETIXKyxDoc0cVJIWPB1ryQ1O6A7WAZDCxeLQcwlxG/97b1V07SeP
+43Qxs2yx+ZTqz0Y6W+LOnweApaLKfsZZ5TjM6UoQsSm23KKlnK2vqmQ5FZOyPfXi
+JM4hm43W6ewhshRodKX6Eww/GyGnijcajrWAOMVCDasVKhKLtJinltnzMtfbIAtD
+yXnUBuHVi+KEAZmIRQ4Qishtf7IhLcvMDOGiADF4apXvUdF0p3pwD5i/1MRJFawj
+2Y0/zgK2TWMl+OF3WNZk9xDBeHBJJAkAf1e8jLDKLCxl9Mn6E2lgxHfovuonGVml
+c3WLJ5J3NH0sb0fr2u+y3ppJq98UVOYpApEoW1X3SQy/sT4X703nvaZ8/D6y33qA
+tekq1zGJgSkTY/o7Dz2HcWvgsAtFCwXkX27VhSAnWZjZrUk9NptKLLC8AnyoK8bS
+ou6XulfDywUmozY77vgqG6Vdg+4z2ZvtfKjTVJOoH5DucyaN0QAONuG9tgQzNgiC
+7mt7qTp0x6MITnfDAYD2SyvbwYV+d/cucK4i2NZHmIBbO1mBB+UbbQrIbk4ND2vc
+Qb7BlTEVnlIIs4IBOPZe7VmrcVISoWm1GRdgxnDtideWxreGJU/orkiRoyDLnOpi
+sxnEbfG4u//Ro2hEy5u98i42
+=WgII
 -----END PGP SIGNATURE-----
 
---===============0613830464759854894==
+--===============6388796132292799017==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-48d6c4516274-6574bac68b47.txt
+Content-Disposition: attachment; filename=revlist-27471e50f701-f003e90bbe28.txt
 
 d8a23ff6a755eccbebfa1b5173a951cfdd088c8c ice: Change ice_vsi_realloc_stat_arrays() to void
 13b599f15e1cb59d6cc907908532dc45bf048e3a ice: Mention CEE DCBX in code comment
@@ -146,6 +146,7 @@ fda6c89fe3d9aca073495a664e1d5aea28cd4377 net: mpls: fix stale pointer if allocat
 894341ad3ad7dfbced8556efe92a9ebfd5924bd6 net: phylink: support validated pause and autoneg in fixed-link
 586e8fede7953b1695b5ccc6112eff9b052e79ac HID: logitech-hidpp: Retry commands when device is busy
 1b136aeb3c4a122fcca014db09c4db9766403c86 HID: logitech-hidpp: Add myself to authors
+ade1229caed9433921b69e20bd6fadf1bba9558e dma-mapping: no need to pass a bus_type into get_arch_dma_ops()
 938fc645317632d79c048608689683b5437496ea usb: gadget: u_ether: Convert prints to device prints
 19ac99072e679f1e3807603206e3f3b1a7c14729 usb: gadget: u_ether: Don't warn in gether_setup_name_default()
 971cecb9591a7b8ceae658252bf15240d7078a45 Documentation/hw-vuln: Fix rST warning
@@ -416,6 +417,9 @@ bdf3c0b9c10b44c9355dd68f359bad25489445b6 seg6: add PSP flavor support for SRv6 E
 40967f77dfa9fa728b7f36a5d2eb432f39de185c Merge branch 'seg6-add-psp-flavor-support-for-srv6-end-behavior'
 b8b3b0bfb742f0cbb006c66b10216b724ce42e25 Merge tag 'intel-gpio-v6.2-2' of git://git.kernel.org/pub/scm/linux/kernel/git/andy/linux-gpio-intel into gpio/for-current
 1470a108a60e8c0c4d19da10117c9b98f0078654 perf c2c: Add report option to show false sharing in adjacent cachelines
+007ed7900aae514986770f6e14069ebd99c4a4c6 i3c: fix device.h kernel-doc warnings
+d3002468cb5d5da11e22145c9af32facd5c34352 debugfs: update comment of debugfs_rename()
+9f467f6375afd3c7667dbabcfff35c22961e1c0b OPP: fix error checking in opp_migrate_dentry()
 3f92730eed57f8057e1e120a0a2e8ad04ba155d4 serial: imx: remove a redundant check
 72206cc730b5c9208e9a99ace1c619f542035312 tty: n_gsm: add keep alive support
 6ec363fc6142226b9ab5a6528f65333d729d2b6b scripts/tags.sh: fix incompatibility with PCRE2
@@ -657,6 +661,7 @@ f6aa90a7a94a64f8c7ad28e09c1339624a824506 Merge tag 'linux-can-next-for-6.3-20230
 fce10282a03db59bdb1cba6333d0564461d47bd6 devlink: drop leftover duplicate/unused code
 5f1eb1ff58ea122e24adf0bc940f268ed2227462 scm: add user copy checks to put_cmsg()
 3fcdf2dfefb6313ea0395519d1784808c0b6559b net: bcmgenet: Support wake-up from s2idle
+88cd618dcc7b63baa1478730b02eaba3e3148467 debugfs: drop inline constant formatting for ERR_PTR(-ERROR)
 50f5fdaea9cd6941e51ea6e07d8c15265917bb86 NFSD: Teach nfsd_mountpoint() auto mounts
 e1f19857f94be09f9526f180e64f20138bd4e394 fs: namei: Allow follow_down() to uncover auto mounts
 f78e44545814b26ab6af7cdd5b022293ceac867e NFS: nfs_encode_fh: Remove S_AUTOMOUNT check
@@ -1069,17 +1074,12 @@ ab7362d04d7c14923420c1e19e889da512a65cd7 cifs: Fix cifs_writepages_region()
 0601f25d1c4937c678db786961705ce56fbd6bb6 Merge tag 'staging-6.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/staging
 693fed981eb9bf6e70bfda66bb872e2bb8155671 Merge tag 'char-misc-6.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc
 a93e884edf61f9debc9ca61ef9e545f0394ab666 Merge tag 'driver-core-6.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/driver-core
-b273b2d38aa43442677b32ad27d85e7ff0bb2652 driver core: class: specify the module owner in __class_register()
-4e302596a564fc7e50eb2f283fa99155dce5086a drivers: remove struct module * setting from struct class
-11b6718f94233484c77f07f48374a3f59279db87 driver core: class: remove struct module owner out of struct class
-3280a378f6772f091b046850ed5134ecf41d65d1 driver core: class: remove module * from class_create()
-2a83f963955e9881476940232de3927e0af1cd9d driver core: class: make class_dev_iter_init() options const
-53973c1f6382a23bb7612ef9236d4f3406bc42cc driver core: class: make class_for_each_device() options const
-3c86a0a9c9c9ad186b30c4cb4f4b7464d0c4b654 driver core: class: make class_find_device*() options const
-8e7c3ebdf7580d35a15a0030f5ffcf340d6d4305 driver core: class: make class_create/remove_file*() options const
-7a40c362fb4960cd3ff1de08a1e7a15f88c2ed00 driver core: device: make device_destroy() take a const class *
-fa8aea3ab26086725630f3b332c0059ab8711e36 tpm: fix up the tpm_class shutdown_pre pointer when created
-1f368af4f72c9d9eec5fdbce786c19120c019ad0 driver core: device: mark struct class in struct device as constant
-6574bac68b4736a489daa6071c26f9a8730d87f8 driver core: device: make device_create*() take a const struct class *
+4dac5967d1cc4379a8db1d066c45da4de9c2aad9 driver core: remove devm_device_add_groups()
+a1d2e7e53ad1675b6682e9e95a9a18cd3a07239f sysfs: do not create empty directories if no attributes are present
+7a18b563ed9691110f72ef7e5ec15ce0c3415d61 soundwire: sysfs: move sdw_slave_dev_attr_group into the existing list of groups
+a49e056a0190b1c0ee03f58c3eb558bae5f2be1b soundwire: sysfs: cleanup the logic for creating the dp0 sysfs attributes
+06a15ecfaaf22b62775d91d42da15adc7194bfdf soundwire: sysfs: have the driver core handle the creation of the device groups
+a4be5950d22e317784169d41c459aa31e418593d soundwire: sysfs: remove sdw_slave_sysfs_init()
+f003e90bbe28f94d6036009c8cabf8b5c8c4002d soundwire: sysfs: remove unneeded ATTRIBUTE_GROUPS() comments
 
---===============0613830464759854894==--
+--===============6388796132292799017==--
