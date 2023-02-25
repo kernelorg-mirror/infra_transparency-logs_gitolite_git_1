@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4825522184199091175=="
+Content-Type: multipart/mixed; boundary="===============8316452804923792701=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Sat, 25 Feb 2023 07:17:38 -0000
-Message-Id: <167730945865.29860.68828283389554324@gitolite.kernel.org>
+Date: Sat, 25 Feb 2023 07:17:44 -0000
+Message-Id: <167730946450.29941.13604581468538236666@gitolite.kernel.org>
 
---===============4825522184199091175==
+--===============8316452804923792701==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,52 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-linus
-    old: ceaa837f96adb69c0df0397937cd74991d5d821a
+  - ref: refs/heads/usb-next
+    old: 1243741f6b02b5f2c06bca910f894c333838f994
     new: 489fa31ea873282b41046d412ec741f93946fc2d
-    log: revlist-ceaa837f96ad-489fa31ea873.txt
+    log: revlist-1243741f6b02-489fa31ea873.txt
 
---===============4825522184199091175==
+--===============8316452804923792701==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1677309457 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1677309463 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1677309456-1153d99a0816b813322cb1bfba96d745cca9d3f0
+nonce 1677309462-11cbf5a03c5d3d2d04c3908896b035cc9db8dc98
 
-ceaa837f96adb69c0df0397937cd74991d5d821a 489fa31ea873282b41046d412ec741f93946fc2d refs/heads/usb-linus
+1243741f6b02b5f2c06bca910f894c333838f994 489fa31ea873282b41046d412ec741f93946fc2d refs/heads/usb-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmP5thEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+gOUQAKl72TFWG1zUNShEs/oR
-0HPHS/vNmHRuIx1nFC0YxBUOEGGpU4VqYuTVhJzIiO11fGRRpyGbiZLzda5cNSHt
-9rZl31Ljke05FsbS8p3xrqfasmVECPHLKRNCZM7xJq0Fqy7+UkakMEpRssBhD86D
-nGeCBLUmUX57IE8HErPBQqUAUSlZyOoSsbunVGVQtCbNPE49tR2ox5rK6Gj6SGmo
-YjSfkG+tXAUK5VQN7DsxaNIzcaN7xpxEcjyiIEvPvCXv5uSHgloBljPLM/2Iddra
-posf3ADsgjcQPcnAXl/2cYsOhd6R+/XIBxaeySkUjkkGI6f8tQ9E1ZVool96+dfZ
-wnU7VuuE/wQlFUGYAOF06oC1G5ZP6L1BrixVRctbPPUUySdnKa/yth9hx1lb2Pd8
-yCDs06xfCNEPg2BZHA+uba7FkXWcg8SfGm2CaCEcp3PLJSsIj1H8mMCYJ0LulUXg
-10z7DTTQtMDXqkjW/0geXhKNORsy1DL7aWrHK4eEh6qH2NhTcHgDHcyHf9Oj/nYJ
-VCUuBZx4QY9nawEEGm8urC+hUgf9vDIdmCHjy/qrmMPxv5Hb5Xgrerdo9XK6Y0f0
-s7dzsaxe4Gi3uxAhEuQK8Hn+BsGGTqYa0YvB3pz1ho5/YlEjnTjFXWKGLmDmcTYt
-OVxMV9eXEHEyAgmIyE8vLdOr
-=Qc9g
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmP5thcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+DRwP/iMv3g7eyNcS9qsT3+hK
+6o60asT8er9NMvrrYzUdOGCxB/PkG0QdVPSOhnZgavQmrlAspujUtSaoayT7OlA8
+5OddFnGR9k8UeoYfsz+e8q2p5venta12woMpUjUeq1qgLfGkCAI5b7AnFh/JoVbm
+SbYCL3G92xrbfOFK5V0ZtlTGWhx9y0tDSIB43DLUAV2NpAQ1DtH3MeJjuQJlMKsf
+O9IN9kr8cj80MygT6MfbCKVhT21aOqQzh/OceucXx7Ecgjk2g9QaFiYWD/MRFq2G
+mIq90r9MXfLJEGC+rla9F0n+nvnGuepTeCexZjZoRE7NaMkuZMOyTmLwx+iRnr2q
+2eP1mr1kRV4hxOB0GghYt7p6IKdNHwylSmAtgQ6sFwBJjek5YqiAdMlFGYU/OACa
+Up4n3KJA5oidCjdcc74GgRDtt01oa/oprSoGkg1ls4CBZNTNeEcY1vdYVgemKC8y
+PzFbEhOmFsyzc4SnS8L1ta2/Id3bsB+DUr7C+QgU9AtOvk9kUKtEENvkPzV7Cfxv
+fbHPefo0AoYJSptj/VQsBEMMiY7Og/+S8uFRYHs9uers4s7ZKMKBsbB19ql7Rv9f
+sge0MJKRAfnm4PyuiTEPwaa6FhD4g3q8YNUUBBwFj+v2gTShWak+csK5YUVoFMZ/
+y67elryojDEMxdyEXGjOUWrL
+=0yls
 -----END PGP SIGNATURE-----
 
---===============4825522184199091175==
+--===============8316452804923792701==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ceaa837f96ad-489fa31ea873.txt
+Content-Disposition: attachment; filename=revlist-1243741f6b02-489fa31ea873.txt
 
+a69982c37cd0586e6832268155349301b87f2e35 gpiolib: acpi: Add a ignore wakeup quirk for Clevo NH5xAx
+7e71a13353ff7a3838416992197aa3f2eb0549ea Merge branches 'pm-cpuidle', 'pm-core' and 'pm-sleep'
+5bab56fff53ce161ed859d9559a10361d4f79578 NFS: fix disabling of swap
+fe7f56a7adfbb17bba2454fd97fd97caf9dbddd5 drm/i915/doc: Escape wildcard in method names
+679caae16175d17467ee1ad1f05dd72d8d4b0973 drm/i915: Fix memory leaks in scatterlist
 8f9f5fb94dbea843621740e6b25b3b430a83cf29 drm/i915: Fix VBT DSI DVO port handling
 14e591a1930c2790fe862af5b01ee3ca587f752f drm/i915: Populate encoder->devdata for DSI on icl+
 c90b155148e9632ae46e6778ee958c319457415f drm/i915: Pick the backlight controller based on VBT on ICP+
@@ -103,9 +108,6 @@ c38c701851011c94ce3be1ccb3593678d2933fd8 wifi: cfg80211: Set SSID if it is not a
 ab5f171e36063b33aba1dd4c7c6d5031b00b42aa wifi: mac80211: always initialize link_sta with sta
 4048a6a7380c8be2f06c1c386dd63d1bd3cdb0a0 wifi: cfg80211: remove gfp parameter from cfg80211_obss_color_collision_notify description
 3caf31e7b18a90b74a2709d761a0dfa423f2c2e4 wifi: mac80211: add documentation for amsdu_mesh_control
-8e5248c3a8778f3e394e9a19195bc7a48f567ca2 usb: dwc3: pci: add support for the Intel Meteor Lake-M
-e4e7b2dc27c4bb877d850eaff69d41410b2f4237 usb: typec: pd: Remove usb_suspend_supported sysfs from sink PDO
-c620f4d5b25bcbb851daa1f88edc764cf5f29cb6 usb: typec: pd: Add higher capability sysfs for sink PDO
 c48545debfff5624a1dd2581f6f8f2fa7fb5f287 btrfs: send: use the lru cache to implement the name cache
 ace79df8a44ae1f668615c7177fa1a7bdc04af7e btrfs: send: update size of roots array for backref cache entries
 3e49363be6330f49e670240e8f46e6fe0bf5628a btrfs: send: cache utimes operations for directories if possible
@@ -306,7 +308,6 @@ a6a15aca4207b5f5ed44f594ddd0ddeb6a495654 sfc: enumerate mports in ef100
 fa78b01718d2f1cc95ce052fad3aa49c46d024eb sfc: add support for devlink port_function_hw_addr_get in ef100
 3b6096c9b30b9d65d09f9f4ee5f473c8c28f45d0 sfc: add support for devlink port_function_hw_addr_set in ef100
 fa15072b650a1a90f811239f86fcbe081691a058 Merge branch 'sfc-devlink-support-for-ef100'
-e3eafcf0fabe67d0f854b238c0c247a4b0187e38 usb: dwc3: xilinx: Remove unused of_gpio,h
 f5b12be34249e8fd0f866927bc978f9e08fc9770 net: dsa: ocelot: fix selecting MFD_OCELOT
 525c65ff5696f7ccd8335edde1d9964420707910 seg6: factor out End lookup nexthop processing to a dedicated function
 bdf3c0b9c10b44c9355dd68f359bad25489445b6 seg6: add PSP flavor support for SRv6 End behavior
@@ -346,7 +347,6 @@ e922bbf37564a4c67efca9dd6133eaadbffb65f5 dmaengine: idma64: Update bytes_transfe
 194b3348bdbb7db65375c72f3f774aee4cc6614e iommu/vt-d: Fix PASID directory pointer coherency
 257ec290741924f8df678927d0dfecb1deebb9c5 iommu/vt-d: Allow to use flush-queue when first level is default
 7933b90b42896f5b6596e6a829bb31c5121fc2a9 Merge branch 'for-linus' into for-next
-1243741f6b02b5f2c06bca910f894c333838f994 Merge tag 'usb-serial-6.3-rc1' of https://git.kernel.org/pub/scm/linux/kernel/git/johan/usb-serial into usb-next
 b14033a3e6ba73a5c68974a80b05cba55553ed5b x86/hyperv: Fix hv_get/set_register for nested bringup
 3ce6a115980c019928fcd06e01f64003886af79c block: sync mixed merged request's failfast with 1st bio's
 8d1b80a79452630f157bf634ae9cfcd9f4eed161 erofs: fix an error code in z_erofs_init_zip_subsystem()
@@ -1082,4 +1082,4 @@ d6b9cf417c62601f26fa47f97d6c0681704bf0e3 Merge branch 'work.sysv' of git://git.k
 3df88c6a175d883b58fc3c31e36c94eb5e2ad180 Merge branch 'work.namespace' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
 489fa31ea873282b41046d412ec741f93946fc2d Merge branch 'work.misc' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
 
---===============4825522184199091175==--
+--===============8316452804923792701==--
