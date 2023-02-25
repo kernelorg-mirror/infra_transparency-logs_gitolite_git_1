@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6388796132292799017=="
+Content-Type: multipart/mixed; boundary="===============4675326992013500163=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Sat, 25 Feb 2023 14:56:25 -0000
-Message-Id: <167733698528.25017.15873409693088810673@gitolite.kernel.org>
+Date: Sat, 25 Feb 2023 14:57:52 -0000
+Message-Id: <167733707279.25596.7780061988909263650@gitolite.kernel.org>
 
---===============6388796132292799017==
+--===============4675326992013500163==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,51 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/debugfs_cleanup
-    old: 27471e50f701cf97979bb7dc68c91b76e8d72467
-    new: f003e90bbe28f94d6036009c8cabf8b5c8c4002d
-    log: revlist-27471e50f701-f003e90bbe28.txt
+  - ref: refs/heads/debugfs_lookup_fix
+    old: c5388f712c9bfbdd7863b1d01438269227a0e4d1
+    new: 18bd4569cf5392f08212812cb6f479ae26f9a16d
+    log: revlist-c5388f712c9b-18bd4569cf53.txt
 
---===============6388796132292799017==
+--===============4675326992013500163==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1677336982 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1677337070 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1677336982-4eaa4659432efeced0e0e27d8284745d1c222575
+nonce 1677337070-ac98bc7aa1f8d114cbc5ff1b00f59690ff8f95b6
 
-27471e50f701cf97979bb7dc68c91b76e8d72467 f003e90bbe28f94d6036009c8cabf8b5c8c4002d refs/heads/debugfs_cleanup
+c5388f712c9bfbdd7863b1d01438269227a0e4d1 18bd4569cf5392f08212812cb6f479ae26f9a16d refs/heads/debugfs_lookup_fix
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmP6IZYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+mLYP/iXTB7WVZiL3g61Ttqwz
-YAeDT3GMbWySETIXKyxDoc0cVJIWPB1ryQ1O6A7WAZDCxeLQcwlxG/97b1V07SeP
-43Qxs2yx+ZTqz0Y6W+LOnweApaLKfsZZ5TjM6UoQsSm23KKlnK2vqmQ5FZOyPfXi
-JM4hm43W6ewhshRodKX6Eww/GyGnijcajrWAOMVCDasVKhKLtJinltnzMtfbIAtD
-yXnUBuHVi+KEAZmIRQ4Qishtf7IhLcvMDOGiADF4apXvUdF0p3pwD5i/1MRJFawj
-2Y0/zgK2TWMl+OF3WNZk9xDBeHBJJAkAf1e8jLDKLCxl9Mn6E2lgxHfovuonGVml
-c3WLJ5J3NH0sb0fr2u+y3ppJq98UVOYpApEoW1X3SQy/sT4X703nvaZ8/D6y33qA
-tekq1zGJgSkTY/o7Dz2HcWvgsAtFCwXkX27VhSAnWZjZrUk9NptKLLC8AnyoK8bS
-ou6XulfDywUmozY77vgqG6Vdg+4z2ZvtfKjTVJOoH5DucyaN0QAONuG9tgQzNgiC
-7mt7qTp0x6MITnfDAYD2SyvbwYV+d/cucK4i2NZHmIBbO1mBB+UbbQrIbk4ND2vc
-Qb7BlTEVnlIIs4IBOPZe7VmrcVISoWm1GRdgxnDtideWxreGJU/orkiRoyDLnOpi
-sxnEbfG4u//Ro2hEy5u98i42
-=WgII
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmP6Ie4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+bsMQAIglnZrneMFs9sNPlejF
+R1laxEt7B9FXdXhKra0qq1bsuQExI6yx3CHLxlnXgwWDqtT3y3HLiJ5Sgn/gXk/Z
+1Ghakfi3b/HBQwM0InWjFyEQMwpzBvhC0XJrZV8czZa88reDfa3KaVNeHFBBVpmL
+YMuy8EVozYbnU8p+HmHlRuVVvxxlw04719EM1uTGxwx+w9XUJ8mLSzxZBKA9/ID3
+qWa26jDp+4AlO4C59de9DdzC3ufEBnHB3OahbSwoBY6xEFAWfxst9y16zrUPFLPV
+ime/4+RZzWbmLFL9qpslyhP14TvGLAfOBgf59rMFsIqgSvGvOwbv3zDu0LIakRl9
+adUDSuHaBL4C00nHXE8gOLLa1ALuXND501ItoPHcxavPuhYtiTnOi0Mf3UBQOtnm
+D+e/Xf+IOGqwN/AGBfotxh+OP/9kh/mnFc4zIrk2vy/sm8lvHQ9nYJPzE8i1J1f6
+ZR2DqihOVwbm3nUm0iSTxVu5JpTzUL5m26Vw1Rxm0d54MELuk0XejPZDOWcNvsea
+JJ1muztAarnQ5Y4uaoNJPem1xnDN5e+wbKpEGjgrrwJxVNvcGZ1tmF22v535IHn6
+H6hdytyKXiXuwjN5tM1GBVrwTQVYXzzvqPw6mjuk1SEX089FowIkCf1u2ef5Abic
+sxIz7UDDhR5mouX/O16J3oYw
+=l4xi
 -----END PGP SIGNATURE-----
 
---===============6388796132292799017==
+--===============4675326992013500163==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-27471e50f701-f003e90bbe28.txt
+Content-Disposition: attachment; filename=revlist-c5388f712c9b-18bd4569cf53.txt
 
+35f33086b1b9cf5d85f55b36c75b92f8cccfbf12 drm/amd/display: Add support for multiple overlay planes
+634d841dbfa7c530e54db936db05b8bc3a44f429 ice: Add GPIO pin support for E823 products
+fcc2cef37fed567564f5b94a9c0aba733bb159ab ice/ptp: fix the PTP worker retrying indefinitely if the link went down
+fce92dbc611727525e03c31547c715c65960e5ce ice: add support BIG TCP on IPv6
 d8a23ff6a755eccbebfa1b5173a951cfdd088c8c ice: Change ice_vsi_realloc_stat_arrays() to void
 13b599f15e1cb59d6cc907908532dc45bf048e3a ice: Mention CEE DCBX in code comment
 d5a1224aa68c8b124a4c5c390186e571815ed390 drm/i915/gen11: Wa_1408615072/Wa_1407596294 should be on GT list
@@ -1074,12 +1078,8 @@ ab7362d04d7c14923420c1e19e889da512a65cd7 cifs: Fix cifs_writepages_region()
 0601f25d1c4937c678db786961705ce56fbd6bb6 Merge tag 'staging-6.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/staging
 693fed981eb9bf6e70bfda66bb872e2bb8155671 Merge tag 'char-misc-6.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc
 a93e884edf61f9debc9ca61ef9e545f0394ab666 Merge tag 'driver-core-6.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/driver-core
-4dac5967d1cc4379a8db1d066c45da4de9c2aad9 driver core: remove devm_device_add_groups()
-a1d2e7e53ad1675b6682e9e95a9a18cd3a07239f sysfs: do not create empty directories if no attributes are present
-7a18b563ed9691110f72ef7e5ec15ce0c3415d61 soundwire: sysfs: move sdw_slave_dev_attr_group into the existing list of groups
-a49e056a0190b1c0ee03f58c3eb558bae5f2be1b soundwire: sysfs: cleanup the logic for creating the dp0 sysfs attributes
-06a15ecfaaf22b62775d91d42da15adc7194bfdf soundwire: sysfs: have the driver core handle the creation of the device groups
-a4be5950d22e317784169d41c459aa31e418593d soundwire: sysfs: remove sdw_slave_sysfs_init()
-f003e90bbe28f94d6036009c8cabf8b5c8c4002d soundwire: sysfs: remove unneeded ATTRIBUTE_GROUPS() comments
+c91dc4618fbd994c38307d0b736a4ddfe6be50c8 i915: fix memory leak with using debugfs_lookup()
+0259fc1e33953fa54061d0978fa5929e1b8f7cdb ppc: iommu: fix memory leak with using debugfs_lookup()
+18bd4569cf5392f08212812cb6f479ae26f9a16d mtd: spi-nor: fix memory leak when using debugfs_lookup()
 
---===============6388796132292799017==--
+--===============4675326992013500163==--
