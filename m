@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7350583405124499623=="
+Content-Type: multipart/mixed; boundary="===============4697902210389400724=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Sat, 25 Feb 2023 15:00:31 -0000
-Message-Id: <167733723161.28146.10375771536679890899@gitolite.kernel.org>
+Date: Sat, 25 Feb 2023 15:00:51 -0000
+Message-Id: <167733725108.28349.13305474256826021069@gitolite.kernel.org>
 
---===============7350583405124499623==
+--===============4697902210389400724==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,55 +16,47 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/sysfs_deprecation_removal
-    old: efe4da51a29833fbd051eb6190d45276beb6b592
-    new: eb9297627ace3d40ff1da0d0f010d9d85e75160d
-    log: revlist-efe4da51a298-eb9297627ace.txt
+  - ref: refs/heads/readfile
+    old: 649e328a7b3b888546cab42839425cb429576b0a
+    new: 35b8aa56eaa02132331d565361bda80edf06bf63
+    log: revlist-649e328a7b3b-35b8aa56eaa0.txt
 
---===============7350583405124499623==
+--===============4697902210389400724==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1677337229 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1677337248 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1677337228-0dbe3bf613e7db9f33eb9da85b493a3a55eb709c
+nonce 1677337248-41cb542fb982ac5a4e1cb9c395e247f767437549
 
-efe4da51a29833fbd051eb6190d45276beb6b592 eb9297627ace3d40ff1da0d0f010d9d85e75160d refs/heads/sysfs_deprecation_removal
+649e328a7b3b888546cab42839425cb429576b0a 35b8aa56eaa02132331d565361bda80edf06bf63 refs/heads/readfile
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmP6Io0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+nVgP/1KROPdTlW1U6e0encKI
-EtDtS2SC54xB3pK1dLglLXSCbY1F3Mk6cfl2k9HvFrFIupTOVVbKfdC11QjyUaOe
-TWRzTd2A+VR8tUr+1yosfGc5sdd68CiLon1xuB5n9UWKG6ZDxFmgZSuAuChGUG//
-HluywoOCuPynui8FObV0Y6ImMftFj5l/5tMM4ycnn3F+rdTgIJVPAzcjnirjr6X9
-651zZ5Vfr0YeXwHa12pfDiFdh6pTuxi46tJtFeqzFWeJlSaUgTs8LZUdhdEFtW1J
-qFzDktU5uVh63z7YMfLLL3B51pmos1EeknadABRj4X072Pr30bT4y1sMdLLUuU+M
-IDxCyoriuH3RzWL/MutFsd5D3mevcxCU+ReLAkQ1erWQgW3s7XdXQ10DufrdFWXZ
-kwhNVHG+yj34nSrvkrVrhtZrwk3141SZXpRnwGn+NgJ7ev43DE6szRC9SYkhEKO+
-RJmXyGjiN8dkHBLb6MSTXtoikIUqsPNaK6DwcsFGb2EyFCicZRGanVys/+hD83vi
-UK4YP5V/zL8nr9bKYZRRAiKT2gjLSsJwTSopQr6EfNAP/7XSNutE8vTxg1vuQKIW
-AgSMEkjJlpGYFkF62MSVJdUHbfpGMANpuqfOA0naVnna3xxf3tnMzBZa31m+f/MF
-S0VkzT1RiBgkx06+bQ6FwW4T
-=TANc
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmP6IqAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+DMkQAIHyzkzFvDjEaxqfkbiG
+5ze+l7pByHbJWmMQGclEzlQQsg4DTW7+7O5w18avlbahHkeo50em9s5Z58F68Hmd
+SYD6vV5aHOo5hHr50JTIJnAd4HnBNgmCshALPBbXnx+H65CDBHlaCBrcpQahR4cU
+vUd2YH4mB9LWD4OekMH1hptPYDs8Xz/jI9U8MCaM6wZWYHOu+sfZMRXAsxvoULO+
+k++tNd84R1CG+9qTiF5MdnsN+1V/mzUG9y1RN7UoG7CIVOBq28dynNeQex+HEMtr
+CdLRljNOstUZej7cjmOT8/e4y/luMu77w5Bvfo2QJjTjyCUxgHUjx3TAKf4mJPWR
+aeqVpCTCt2p7+9aM7G2RtKvJR9gHTAvviWr3LFoTotz9VOL61BcvK9n4uVSlRKtZ
+FwZvipxUMwXFjhzotRxGOTKIAPG/4Y6gZXDjVyI/08FH2ry6Uaq8ZLUee5s1r+7V
+onqs7cH4/Chtlet6YstYVXzF1h+yc++E4Pk5azezMPdTwOPUZCQvIkWyq9scZflM
+vU6Vc3KYqhAlhtrFvgS8DDlaaQ+b/MLWrNVsKQSpEMR9qHksGWTbIxlWt+4b2qBd
+0L4iqRGKbNvMGmAiV0fQMRsRAUed5IF2DvcpvZPkLKBm7Jd/mW3BfmuITd6mNFkg
+rpSHR/UFvlbZNbsWB7abEVdW
+=w44f
 -----END PGP SIGNATURE-----
 
---===============7350583405124499623==
+--===============4697902210389400724==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-efe4da51a298-eb9297627ace.txt
+Content-Disposition: attachment; filename=revlist-649e328a7b3b-35b8aa56eaa0.txt
 
-ee3916b45add7ba9fa59b0e9832a5d24d34047d7 drm/amd/display: Remove the unused variable ds_port
-48e99fe4d3ba83d6b7bf288e90b360f83e1c6924 drm/amd/display: Remove the unused variable pre_connection_type
-fa9b4155c3d4e8441ea57ad10ec98504845e54bb drm/amdgpu: Revert programming GRBM_GFX_* in RLCG interface to support GFX9
-ba7606846579ce6b1eca25b196e0f88de7e3becf drm/amd/display: Disable unbounded request mode during rotation
-6cfb6df2d645c00513ecf17832928e08979fa953 drm/amd/display: Fix FreeSync active bit issue
-9b0f51e8449f6f76170fda6a8dd9c417a43ce270 drm/amd/display: Update Z8 SR exit/enter latencies
-5ca38a18b5a47017d0e9a016661dad12322767fa drm/amd/display: move public dc link function implementation to dc_link_exports
-35f33086b1b9cf5d85f55b36c75b92f8cccfbf12 drm/amd/display: Add support for multiple overlay planes
 634d841dbfa7c530e54db936db05b8bc3a44f429 ice: Add GPIO pin support for E823 products
 fcc2cef37fed567564f5b94a9c0aba733bb159ab ice/ptp: fix the PTP worker retrying indefinitely if the link went down
 fce92dbc611727525e03c31547c715c65960e5ce ice: add support BIG TCP on IPv6
@@ -157,6 +149,7 @@ fda6c89fe3d9aca073495a664e1d5aea28cd4377 net: mpls: fix stale pointer if allocat
 894341ad3ad7dfbced8556efe92a9ebfd5924bd6 net: phylink: support validated pause and autoneg in fixed-link
 586e8fede7953b1695b5ccc6112eff9b052e79ac HID: logitech-hidpp: Retry commands when device is busy
 1b136aeb3c4a122fcca014db09c4db9766403c86 HID: logitech-hidpp: Add myself to authors
+ade1229caed9433921b69e20bd6fadf1bba9558e dma-mapping: no need to pass a bus_type into get_arch_dma_ops()
 938fc645317632d79c048608689683b5437496ea usb: gadget: u_ether: Convert prints to device prints
 19ac99072e679f1e3807603206e3f3b1a7c14729 usb: gadget: u_ether: Don't warn in gether_setup_name_default()
 971cecb9591a7b8ceae658252bf15240d7078a45 Documentation/hw-vuln: Fix rST warning
@@ -427,6 +420,9 @@ bdf3c0b9c10b44c9355dd68f359bad25489445b6 seg6: add PSP flavor support for SRv6 E
 40967f77dfa9fa728b7f36a5d2eb432f39de185c Merge branch 'seg6-add-psp-flavor-support-for-srv6-end-behavior'
 b8b3b0bfb742f0cbb006c66b10216b724ce42e25 Merge tag 'intel-gpio-v6.2-2' of git://git.kernel.org/pub/scm/linux/kernel/git/andy/linux-gpio-intel into gpio/for-current
 1470a108a60e8c0c4d19da10117c9b98f0078654 perf c2c: Add report option to show false sharing in adjacent cachelines
+007ed7900aae514986770f6e14069ebd99c4a4c6 i3c: fix device.h kernel-doc warnings
+d3002468cb5d5da11e22145c9af32facd5c34352 debugfs: update comment of debugfs_rename()
+9f467f6375afd3c7667dbabcfff35c22961e1c0b OPP: fix error checking in opp_migrate_dentry()
 3f92730eed57f8057e1e120a0a2e8ad04ba155d4 serial: imx: remove a redundant check
 72206cc730b5c9208e9a99ace1c619f542035312 tty: n_gsm: add keep alive support
 6ec363fc6142226b9ab5a6528f65333d729d2b6b scripts/tags.sh: fix incompatibility with PCRE2
@@ -668,6 +664,7 @@ f6aa90a7a94a64f8c7ad28e09c1339624a824506 Merge tag 'linux-can-next-for-6.3-20230
 fce10282a03db59bdb1cba6333d0564461d47bd6 devlink: drop leftover duplicate/unused code
 5f1eb1ff58ea122e24adf0bc940f268ed2227462 scm: add user copy checks to put_cmsg()
 3fcdf2dfefb6313ea0395519d1784808c0b6559b net: bcmgenet: Support wake-up from s2idle
+88cd618dcc7b63baa1478730b02eaba3e3148467 debugfs: drop inline constant formatting for ERR_PTR(-ERROR)
 50f5fdaea9cd6941e51ea6e07d8c15265917bb86 NFSD: Teach nfsd_mountpoint() auto mounts
 e1f19857f94be09f9526f180e64f20138bd4e394 fs: namei: Allow follow_down() to uncover auto mounts
 f78e44545814b26ab6af7cdd5b022293ceac867e NFS: nfs_encode_fh: Remove S_AUTOMOUNT check
@@ -1080,6 +1077,9 @@ ab7362d04d7c14923420c1e19e889da512a65cd7 cifs: Fix cifs_writepages_region()
 0601f25d1c4937c678db786961705ce56fbd6bb6 Merge tag 'staging-6.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/staging
 693fed981eb9bf6e70bfda66bb872e2bb8155671 Merge tag 'char-misc-6.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc
 a93e884edf61f9debc9ca61ef9e545f0394ab666 Merge tag 'driver-core-6.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/driver-core
-eb9297627ace3d40ff1da0d0f010d9d85e75160d driver core: remove CONFIG_SYSFS_DEPRECATED and CONFIG_SYSFS_DEPRECATED_V2
+af6e112d80ae42bcf96825fcca2e735e29e12b4f readfile: implement readfile syscall
+786a7828107466e543c18279352871a3c5e26eba arch: wire up the readfile syscall
+3650636e73800e7ea06054251ae47db14faab42c selftests: add readfile(2) selftests
+35b8aa56eaa02132331d565361bda80edf06bf63 readfile.2: new page describing readfile(2)
 
---===============7350583405124499623==--
+--===============4697902210389400724==--
