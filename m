@@ -1,84 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============5419089891524449729=="
+Content-Type: multipart/mixed; boundary="===============3552448643131999927=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/deller/linux-fbdev
-Date: Sat, 25 Feb 2023 16:32:58 -0000
-Message-Id: <167734277803.23739.5664455414411044215@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
+Date: Sat, 25 Feb 2023 16:54:02 -0000
+Message-Id: <167734404280.5814.4590157346739557144@gitolite.kernel.org>
 
---===============5419089891524449729==
+--===============3552448643131999927==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/deller/linux-fbdev
-user: deller
+repo: pub/scm/linux/kernel/git/groeck/linux-staging
+user: groeck
 changes:
-  - ref: refs/heads/master
-    old: 4ec5183ec48656cec489c49f989c508b68b518e3
-    new: 489fa31ea873282b41046d412ec741f93946fc2d
-    log: revlist-4ec5183ec486-489fa31ea873.txt
+  - ref: refs/heads/watchdog-next
+    old: 6e3dec4e1b356e6a4f3d3b4038ac444283155656
+    new: 7fa92c05cef7986c8eefeb995837f6d1166426e5
+    log: revlist-6e3dec4e1b35-7fa92c05cef7.txt
 
---===============5419089891524449729==
+--===============3552448643131999927==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4ec5183ec486-489fa31ea873.txt
+Content-Disposition: attachment; filename=revlist-6e3dec4e1b35-7fa92c05cef7.txt
 
-8f9f5fb94dbea843621740e6b25b3b430a83cf29 drm/i915: Fix VBT DSI DVO port handling
-14e591a1930c2790fe862af5b01ee3ca587f752f drm/i915: Populate encoder->devdata for DSI on icl+
-c90b155148e9632ae46e6778ee958c319457415f drm/i915: Pick the backlight controller based on VBT on ICP+
-eb66553d356b44c08db56fd5ecea162cfe4bf8fd drm/i915/bios: set default backlight controller index
-effc0905d741b4138806747407baf8de98390c72 drm/i915/pvc: Annotate two more workaround/tuning registers as MCR
-6a8b2e4984f73f8d00c8c16b87a8b115d34088e4 drm/i915: Fix GEN8_MISCCPCTL
-8038510b1fe443ffbc0e356db5f47cbb8678a594 drm/i915: Fix system suspend without fbdev being initialized
-2f43f6020cde9f5024d26f17e9fd9f9b5581c2f9 gpio: mlxbf2: select GPIOLIB_IRQCHIP
-4730515378a70064581b27ed112fcfc6f2a379ca nfs42: do not fail with EIO if ssc returns NFS4ERR_OFFLOAD_DENIED
-3e2a036827ccb33e93bc6faa66ca40991963593c Documentation: Fix sysfs path for the NFSv4 client identifier
-e6a0b671880207566e1ece983bf989dde60bc1d7 spi: synquacer: Fix timeout handling in synquacer_spi_transfer_one()
-28d4411fc3b58d7ef2cd00060c068a5d90ee9700 pNFS/filelayout: treat GETDEVICEINFO errors as layout failure
-c3bd6d539f34784b235c7070edba978f67516372 Merge branch 'thermal-core'
-fdff966bfde7cf0c85562d2bfb1ff1ba83da5f7b ASoC: soc-dapm.h: fixup warning struct snd_pcm_substream not declared
-76f5aaabce492aa6991c28c96bb78b00b05d06c5 ASoC: soc-ac97: Return correct error codes
-1683ed16ff1a51705f58e8083ed93a7428a543f2 fs/nfs: Replace kmap_atomic() with kmap_local_page() in dir.c
-badf1f90502d3fc627a18880dfafd8c636699baf Merge branch 'thermal-intel'
-a29cbd76aaf63f5493e962aa2fbaadcdc4615143 tools/lib/thermal: Fix thermal_sampling_exit()
-fad399ebdd67f602f306b524e6f62c3570943a48 thermal/drivers/mediatek: Relocate driver to mediatek folder
-498e2f7a6e69dcbca24715de2b4b97569fdfeff4 dt-bindings: thermal: mediatek: Add LVTS thermal controllers
-f5f633b18234cecb0e6ee6e5fbb358807dda15c3 thermal/drivers/mediatek: Add the Low Voltage Thermal Sensor driver
-4c27a32c67e11fbc4356f4107c9ca33abcf2af3b dt-bindings: thermal: rcar-gen3-thermal: Add r8a779g0 support
-883d1552997bedcf6e8eca3c65aa2dc5b28d160f thermal/drivers/rcar_gen3: Add support for R-Car V4H
-1c63f8cd018db726e6cddcbb5abd069fab0e9cea thermal/drivers/rcar_gen3_thermal: Do not call set_trips() when resuming
-aef43e04937ea819c6c1b35030b48f06f73488e0 thermal/drivers/rcar_gen3_thermal: Create device local ops struct
-47b2d3d2ed6c5c20f3521d5b615ffc92ed18b974 thermal/drivers/rcar_gen3_thermal: Fix device initialization
-15cc25829a97c3957e520e971868aacc84341317 thermal/drivers/hisi: Drop second sensor hi3660
-ef1ab1657fda1fd38a082b5652a2bbc6d510ffff tools/lib/thermal: Fix include path for libnl3 in pkg-config file.
-9272d2d43b6e532d0c0b6d3a597cf75c9ca1e183 thermal: Remove core header inclusion from drivers
-6828e402d06f7c574430b61c05db784cd847b19f thermal/drivers/st: Remove syscfg based driver
-e2d323a1f009cbeb4fbc0bad81bf44d6401bd359 Documentation: bpf: Add missing line break separator in node_data struct code block
-524581d1216411a807d34181cb880d991fcb4b96 selftests/bpf: Fix build error for LoongArch
-213aacb8a27b1a550edc7641aed818cffa8354b9 bpf, docs: Add myself to BPF docs MAINTAINERS entry
-5e53e5c7edc6d69b8cb48b3b370cfe531e4b4132 selftests/bpf: Cross-compile bpftool
-8843e06f67b14f71c044bf6267b2387784c7e198 ring-buffer: Handle race between rb_move_tail and rb_check_pages
-9fefb6201c4f8dd9f58c581b2a66e5cde2895ea2 HID: bigben: use spinlock to protect concurrent accesses
-27d2a2fd844ec7da70d19fabb482304fd1e0595b HID: bigben_worker() remove unneeded check on report_field
-76ca8da989c7d97a7f76c75d475fe95a584439d7 HID: bigben: use spinlock to safely schedule workers
-315c537068a13f0b5681d33dd045a912f4bece6f HID: asus: use spinlock to protect concurrent accesses
-4ab3a086d10eeec1424f2e8a968827a6336203df HID: asus: use spinlock to safely schedule workers
-62d101d5f422cde39b269f7eb4cbbe2f1e26f9d4 selftests/bpf: Fix map_kptr test.
-c38c701851011c94ce3be1ccb3593678d2933fd8 wifi: cfg80211: Set SSID if it is not already set
-0d846bdc11101ac0ba4d89c2be359af08cb9379b wifi: mac80211: pass 'sta' to ieee80211_rx_data_set_sta()
-ab5f171e36063b33aba1dd4c7c6d5031b00b42aa wifi: mac80211: always initialize link_sta with sta
-4048a6a7380c8be2f06c1c386dd63d1bd3cdb0a0 wifi: cfg80211: remove gfp parameter from cfg80211_obss_color_collision_notify description
-3caf31e7b18a90b74a2709d761a0dfa423f2c2e4 wifi: mac80211: add documentation for amsdu_mesh_control
-8e5248c3a8778f3e394e9a19195bc7a48f567ca2 usb: dwc3: pci: add support for the Intel Meteor Lake-M
-e4e7b2dc27c4bb877d850eaff69d41410b2f4237 usb: typec: pd: Remove usb_suspend_supported sysfs from sink PDO
-c620f4d5b25bcbb851daa1f88edc764cf5f29cb6 usb: typec: pd: Add higher capability sysfs for sink PDO
-c48545debfff5624a1dd2581f6f8f2fa7fb5f287 btrfs: send: use the lru cache to implement the name cache
-ace79df8a44ae1f668615c7177fa1a7bdc04af7e btrfs: send: update size of roots array for backref cache entries
-3e49363be6330f49e670240e8f46e6fe0bf5628a btrfs: send: cache utimes operations for directories if possible
-2b5463fcbdfb24e898916bcae2b1359042d26963 btrfs: hold block group refcount during async discard
 4e4488d4efd56951e6c1c0f60f1fc8e0f93b7964 btrfs: assert commit root semaphore is held when accessing backref cache
 e2fd83064a9bae368ce1c88a0cb9aee64ad4e124 btrfs: skip backref walking during fiemap if we know the leaf is shared
 67da05b3f28166b24316ecf675637f9b77661983 btrfs: fix spelling mistakes found using codespell
@@ -1050,5 +997,58 @@ d6b9cf417c62601f26fa47f97d6c0681704bf0e3 Merge branch 'work.sysv' of git://git.k
 10cc5d483ebc00e82d9a38d3419b2edc8b79b64d Merge branch 'work.alpha' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
 3df88c6a175d883b58fc3c31e36c94eb5e2ad180 Merge branch 'work.namespace' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
 489fa31ea873282b41046d412ec741f93946fc2d Merge branch 'work.misc' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
+a1062b2271bc984dd56e21a8da4019133514c857 dt-bindings: watchdog: mtk-wdt: Add reset-by-toprgu support
+c7a7be91b82336d62a25ec0d622089da24c9398b watchdog: mtk_wdt: Add reset_by_toprgu support
+421894a594b31bebd39505c50ac5ea81811d4459 watchdog: realtek_otto: Use devm_clk_get_enabled() helper
+91c8c134d57b327acd8a13c49a86d58205f0426d watchdog: pnx4008: Use devm_clk_get_enabled() helper
+82abc2c8643f1ec907fd10c750bfd02c8266e9c4 watchdog: pic32-wdt: Use devm_clk_get_enabled() helper
+12518df70e5eb396ee64557aa3b14ee7fcca72e2 watchdog: pic32-dmt: Use devm_clk_get_enabled() helper
+bc37746b16f6f488aec8aa7437186be3fc4efcc1 watchdog: lpc18xx: Use devm_clk_get_enabled() helper
+312f6d9566e8e54cf9c77a57f59678d1a9cb35bb watchdog: of_xilinx_wdt: Use devm_clk_get_enabled() helper
+778551509116bc7331dd7cc774a4b1a9a1d576b6 watchdog: imgpdc: Use devm_clk_get_enabled() helper
+1e12c8f1072af15dd01e8fbd2f4ee8747191ffac watchdog: cadence: Use devm_clk_get_enabled() helper
+100df66ee777c470427bff57d5d24c1f18a918a0 watchdog: meson_gxbb: Use devm_clk_get_enabled() helper
+7f5250a8dc31c1ce78d8e84689d3da39795a65ba watchdog: davinci: Use devm_clk_get_enabled() helper
+82bfb6a5aa07651b359a5b425862296514f303dc watchdog: imx7ulp: Use devm_clk_get_enabled() helper
+3df84d6f65b2114d04d57518587b45fb0afae86b watchdog: rtd119x: Use devm_clk_get_enabled() helper
+568644ecf215da516088d9b1cf4d88c4bcce48ff watchdog: bcm7038: Use devm_clk_get_enabled() helper
+c806d25f31590f3f8dba9c215210d7f3a15bb16d watchdog: armada_37xx: Use devm_clk_get_enabled() helper
+c7c5445df7c24672095b40ad6e66cf84d78e3ad2 watchdog: qcom: Use devm_clk_get_enabled() helper
+e2a874c7257207c5207bad192692d9a71cf7c4df watchdog: wdat_wdt: Avoid unimplemented get_timeleft
+5963503ea6026946dfeea53d04bbdb47f692fc81 watchdog: rzn1: Use devm_clk_get_enabled() helper
+f3db886d56ced2a7dfeae4868804d2877605bd92 watchdog: visconti: Use devm_clk_get_enabled() helper
+895bfe43760800e1e198b3db22e00918ecf1eb30 watchdog: apple: Use devm_clk_get_enabled() helper
+3c87738fba7bd13d8f65214d3b2f9e32901f82a2 watchdog: da9062: da9063: use unlocked xfer function in restart
+799a967cb4aeec8921da21c0c4fa6344a208236a dt-bindings: watchdog: allow "timer" as node name
+2f6b8cca70e9d25dc5fa70f08b9d986eda669ad0 watchdog: iTCO_wdt: Report firmware_version
+d2bb7931d8a023afc8a53ea5c477d8042b883725 watchdog: ziirave_wdt: Convert to i2c's .probe_new()
+41a67f5b3b6efd0d2135c97fd05751ce1dbdf8c6 watchdog: dw_wdt: stop on reboot
+e168d2a35313373042ef8b3a69f7c7689d427afb dt-bindings: watchdog: Convert GPIO binding to json-schema
+b52e3c650060dc68f60fa92cd229d0e5c6a55c91 dt-bindings: watchdog: convert meson-wdt.txt to dt-schema
+e198358f8a3f24853467fb542fbbcb455630a218 dt-bindings: watchdog: renesas,wdt: Document RZ/Five SoC
+35e994fedd6e95b158cbbf3542e81628f3d71794 dt-bindings: watchdog: Add MSM8994 watchdog timer
+e55ab6315df8a38339d707c664b293fd1a01ff77 watchdog: rzg2l_wdt: Issue a reset before we put the PM clocks
+88c466579a9c285754f674dcbdf42656ba721224 watchdog: rzg2l_wdt: Handle TYPE-B reset for RZ/V2M
+a6b679efc523dbe2e9fabbf87a82379e00feb779 watchdog: at91sam9_wdt: use devm_request_irq to avoid missing free_irq() in error path
+202e3c315ebd085630f183419bdc1754ee7c8f01 watchdog: Include <linux/kstrtox.h> when appropriate
+7677e457a9088a724ffc9fb044b1c9c82546d983 watchdog: Fix kmemleak in watchdog_cdev_register
+a2c7339c315dad5426cd3a9419086b0fae77cf74 dt-bindings: watchdog: qcom-wdt: require fallback for IPQ4019
+e5c5c20e21e537be99ff3ccb99cd9335efd5ecc9 dt-bindings: watchdog: qcom-wdt: do not allow fallback alone
+69d28cdcedf7fbaa967cb0f6d26f4500fa26f1cb dt-bindings: watchdog: qcom-wdt: fix list of MSM timer compatibles
+d1ba5e6e0df3b854d543a812388b3b89d48a04e7 dt-bindings: watchdog: qcom-wdt: add qcom,kpss-wdt-mdm9615
+fdac6c9533389a9d7c110cff948ea6da12bf0350 dt-bindings: watchdog: qcom-wdt: allow interrupts
+66c1b9e9457732287ada64d089adb30ce0fff240 dt-bindings: watchdog: qcom-wdt: merge MSM timer
+a68e178218deedf5951b8f018e1c3d676070a8c2 watchdog: pcwd_usb: Fix attempting to access uninitialized memory
+ae69ff01609af6c3b4c789c948901999d6e9ada4 watchdog: rzg2l_wdt: Fix reboot for RZ/V2M
+d659fb56b53b0906dc293a33d7da58f32d5e0aba watchdog: imx2_wdg: suspend watchdog in WAIT mode
+b054dcb9f506a908e2415bc699ea0ab61dd3973e dt-bindings: watchdog: fsl-imx: document suspend in wait mode
+2d2e27e0290168f76e0c03f6d09b30cc883cb434 watchdog: report fw_version in sysfs
+7b6c46aaf0c2134d4e15aa5109b276a6c0aeaf59 watchdog: report options in sysfs
+adb996b1cb9a25414e8668b8c8758398bc1e5fff dt-bindings: watchdog: qcom-wdt: add qcom,apss-wdt-sa8775p compatible
+0fd977a7a12ccee392c272eeeb2cbacd9f7beb98 watchdog: sbsa_wdog: Make sure the timeout programming is within the limits
+c3323016c62b89dfa3c4742c172d4345b9e77f89 dt-bindings: watchdog: mt7621-wdt: add phandle to access system controller registers
+90e3ea7cf9480bf6ce40e2fef057b5a486707439 watchdog: mt7621-wdt: avoid static global declarations
+6852e7c8c4f57cb8f0fb1543a0cdda05e335a192 watchdog: mt7621-wdt: avoid ralink architecture dependent code
+7fa92c05cef7986c8eefeb995837f6d1166426e5 watchdog: at91rm9200: Only warn once about problems in .remove()
 
---===============5419089891524449729==--
+--===============3552448643131999927==--
