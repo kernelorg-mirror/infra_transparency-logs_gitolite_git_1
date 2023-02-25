@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2704215079280430410=="
+Content-Type: multipart/mixed; boundary="===============2428190694970206057=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Sat, 25 Feb 2023 09:37:37 -0000
-Message-Id: <167731785708.26087.229823761418060199@gitolite.kernel.org>
+Date: Sat, 25 Feb 2023 09:37:41 -0000
+Message-Id: <167731786179.26176.1619980175704683382@gitolite.kernel.org>
 
---===============2704215079280430410==
+--===============2428190694970206057==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,52 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-linus
-    old: 2241ab53cbb5cdb08a6b2d4688feb13971058f65
+  - ref: refs/heads/driver-core-next
+    old: 88cd618dcc7b63baa1478730b02eaba3e3148467
     new: a93e884edf61f9debc9ca61ef9e545f0394ab666
-    log: revlist-2241ab53cbb5-a93e884edf61.txt
+    log: revlist-88cd618dcc7b-a93e884edf61.txt
 
---===============2704215079280430410==
+--===============2428190694970206057==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1677317856 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1677317860 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1677317855-6bdd6dbbabba9ae67ee41dfc1295f84b028e83ff
+nonce 1677317860-c5cbd392ddba3c2d4b06b80148f673e51373d780
 
-2241ab53cbb5cdb08a6b2d4688feb13971058f65 a93e884edf61f9debc9ca61ef9e545f0394ab666 refs/heads/driver-core-linus
+88cd618dcc7b63baa1478730b02eaba3e3148467 a93e884edf61f9debc9ca61ef9e545f0394ab666 refs/heads/driver-core-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmP51uAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+QkEP/0xvjngsqdCzz3LhSh8A
-MIligLhKIpykQYlZ42hpZnCgBDLF1F5QNHjbOvRfvNWnzC0TT+it5yHX7zxJ/lRR
-KWHzcdjGfFcG+bstugGK0+bTHbuZhNxNAJATqR3H5K2nxnQM/wmp1lLRfyArAbsD
-8bK/rOVKGJ5loku/cd6Az0xU4O55j7QqMlt0lmzrMhXiu0R1oKithIRG1CT8uIuv
-amw9xTnlwIeK49pFbNHSBdU+Xo48dNRUS3O5DHmSWbVgZmeNWBJ1/x77W1HUMbga
-aT3JhSkzAG6QMk+y9et0yCzZx6z0EWj42BX0qBL7PKLJDB+PmD+GhB8vruvm/N3U
-4DKDAjSfWqDz2J46WusbVgsNmLWwozy022cvFOuh4XoXl1JXUvQBykDewglTg57s
-v4tQfnepzPtDRwpZYJ6Z8LufskxCBaal7oidvBD66LrwBRAmm+InkHJAMnBmhx+n
-239DsnJkfvytdeEL4V1uV/0Kj0YskQVuzU6UuZfxez/rXA9fhJpIxM6Qq+tllqos
-9Y44yy3kLEGmF075UNmbSY+Nw8vlBLAFA6YSwIQ58JDqnlau+fr6JCe9bgMXgYkp
-qHCGe544Xyw3O4K7rc6xqDQtVVhC103XTVZkmgE5E9X2/bYopIXDuVsggHXFqHRG
-gXYKqoF86iLB92hQdq1V/kBx
-=1Knq
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmP51uUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+qGEP/jStGcbNgI4wc/1wOdAK
+QmFmOFmkUAyweBWZ+0km3zR/9gDS1hCMM3DZBxByb1R6qxt3aSSZMqu3eFJFG5O+
+v584i8jI5DMvjeECzegHZJtffJ4//d3z33xElrLveP8WFjVPvUsVL+YS1Pll1ZIm
+2N6+VWVmb0lRKTcEedCgD/i4RGigkfsAjO0qLvEkTPmjnc9ByhITEA8EaNuVPODe
+AIeF37NyZPJ4HMojx/v93dLhV31E2Hgmus51xiPDDSJbg0xIPrUYfsu1HqIFQtrN
+DQYnXb2COFDqMV8Nb2pPu5oe/vb6NIxAUbdOLmNMusNzv10qPqu8T0gKSfosEkPC
+xq/dvA9EC4ChtTeVfyWEG+gxoqhctdRE4eVuIvEFWF+/bK+cSeLJKRVjzEejlvhW
+J6F6RBQqqPM5urX0g7MUOSwjXk+oekgcFzi7OTXhGHO8Hghy921hBDBKr2qLhAfR
+G4I2ex8Wb+AYufM8cMhZk0JwEmCc5eA/wjJj9aTBtvWm6LIXfxd/BwOl6M1BVVoH
+KBXRlb6zbDwIy8E0XlmGIt2RzDwUqX6t2/ClY9xXTS2ccy3YfVpnFmgMOk2Zt1Pf
+MaPuY/5pVTsIzMoizq5tc+uFMs9x/Ew1oCXu4kZFfgWKWb/3oIoZxD6gReTEfQyz
+BmCOKWUwfTMUMlbvP1qcaN8Y
+=ppCo
 -----END PGP SIGNATURE-----
 
---===============2704215079280430410==
+--===============2428190694970206057==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2241ab53cbb5-a93e884edf61.txt
+Content-Disposition: attachment; filename=revlist-88cd618dcc7b-a93e884edf61.txt
 
+71c4ca2d3b079d0ba4d9b3033641fea906cebfb6 drm/amd/display: Remove stutter only configurations
+ee3916b45add7ba9fa59b0e9832a5d24d34047d7 drm/amd/display: Remove the unused variable ds_port
+48e99fe4d3ba83d6b7bf288e90b360f83e1c6924 drm/amd/display: Remove the unused variable pre_connection_type
+fa9b4155c3d4e8441ea57ad10ec98504845e54bb drm/amdgpu: Revert programming GRBM_GFX_* in RLCG interface to support GFX9
+ba7606846579ce6b1eca25b196e0f88de7e3becf drm/amd/display: Disable unbounded request mode during rotation
 6cfb6df2d645c00513ecf17832928e08979fa953 drm/amd/display: Fix FreeSync active bit issue
 9b0f51e8449f6f76170fda6a8dd9c417a43ce270 drm/amd/display: Update Z8 SR exit/enter latencies
 5ca38a18b5a47017d0e9a016661dad12322767fa drm/amd/display: move public dc link function implementation to dc_link_exports
@@ -153,7 +158,6 @@ fda6c89fe3d9aca073495a664e1d5aea28cd4377 net: mpls: fix stale pointer if allocat
 894341ad3ad7dfbced8556efe92a9ebfd5924bd6 net: phylink: support validated pause and autoneg in fixed-link
 586e8fede7953b1695b5ccc6112eff9b052e79ac HID: logitech-hidpp: Retry commands when device is busy
 1b136aeb3c4a122fcca014db09c4db9766403c86 HID: logitech-hidpp: Add myself to authors
-ade1229caed9433921b69e20bd6fadf1bba9558e dma-mapping: no need to pass a bus_type into get_arch_dma_ops()
 938fc645317632d79c048608689683b5437496ea usb: gadget: u_ether: Convert prints to device prints
 19ac99072e679f1e3807603206e3f3b1a7c14729 usb: gadget: u_ether: Don't warn in gether_setup_name_default()
 971cecb9591a7b8ceae658252bf15240d7078a45 Documentation/hw-vuln: Fix rST warning
@@ -424,9 +428,6 @@ bdf3c0b9c10b44c9355dd68f359bad25489445b6 seg6: add PSP flavor support for SRv6 E
 40967f77dfa9fa728b7f36a5d2eb432f39de185c Merge branch 'seg6-add-psp-flavor-support-for-srv6-end-behavior'
 b8b3b0bfb742f0cbb006c66b10216b724ce42e25 Merge tag 'intel-gpio-v6.2-2' of git://git.kernel.org/pub/scm/linux/kernel/git/andy/linux-gpio-intel into gpio/for-current
 1470a108a60e8c0c4d19da10117c9b98f0078654 perf c2c: Add report option to show false sharing in adjacent cachelines
-007ed7900aae514986770f6e14069ebd99c4a4c6 i3c: fix device.h kernel-doc warnings
-d3002468cb5d5da11e22145c9af32facd5c34352 debugfs: update comment of debugfs_rename()
-9f467f6375afd3c7667dbabcfff35c22961e1c0b OPP: fix error checking in opp_migrate_dentry()
 3f92730eed57f8057e1e120a0a2e8ad04ba155d4 serial: imx: remove a redundant check
 72206cc730b5c9208e9a99ace1c619f542035312 tty: n_gsm: add keep alive support
 6ec363fc6142226b9ab5a6528f65333d729d2b6b scripts/tags.sh: fix incompatibility with PCRE2
@@ -668,7 +669,6 @@ f6aa90a7a94a64f8c7ad28e09c1339624a824506 Merge tag 'linux-can-next-for-6.3-20230
 fce10282a03db59bdb1cba6333d0564461d47bd6 devlink: drop leftover duplicate/unused code
 5f1eb1ff58ea122e24adf0bc940f268ed2227462 scm: add user copy checks to put_cmsg()
 3fcdf2dfefb6313ea0395519d1784808c0b6559b net: bcmgenet: Support wake-up from s2idle
-88cd618dcc7b63baa1478730b02eaba3e3148467 debugfs: drop inline constant formatting for ERR_PTR(-ERROR)
 50f5fdaea9cd6941e51ea6e07d8c15265917bb86 NFSD: Teach nfsd_mountpoint() auto mounts
 e1f19857f94be09f9526f180e64f20138bd4e394 fs: namei: Allow follow_down() to uncover auto mounts
 f78e44545814b26ab6af7cdd5b022293ceac867e NFS: nfs_encode_fh: Remove S_AUTOMOUNT check
@@ -1082,4 +1082,4 @@ ab7362d04d7c14923420c1e19e889da512a65cd7 cifs: Fix cifs_writepages_region()
 693fed981eb9bf6e70bfda66bb872e2bb8155671 Merge tag 'char-misc-6.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc
 a93e884edf61f9debc9ca61ef9e545f0394ab666 Merge tag 'driver-core-6.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/driver-core
 
---===============2704215079280430410==--
+--===============2428190694970206057==--
