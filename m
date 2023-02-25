@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6826300219797614943=="
+Content-Type: multipart/mixed; boundary="===============7350583405124499623=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Sat, 25 Feb 2023 14:59:50 -0000
-Message-Id: <167733719045.26300.5563383772532309043@gitolite.kernel.org>
+Date: Sat, 25 Feb 2023 15:00:31 -0000
+Message-Id: <167733723161.28146.10375771536679890899@gitolite.kernel.org>
 
---===============6826300219797614943==
+--===============7350583405124499623==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,48 +16,47 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/kobject-const
-    old: e2970ba821954232a75defb254b3d0c260aab128
-    new: a93e884edf61f9debc9ca61ef9e545f0394ab666
-    log: revlist-e2970ba82195-a93e884edf61.txt
+  - ref: refs/heads/sysfs_deprecation_removal
+    old: efe4da51a29833fbd051eb6190d45276beb6b592
+    new: eb9297627ace3d40ff1da0d0f010d9d85e75160d
+    log: revlist-efe4da51a298-eb9297627ace.txt
 
---===============6826300219797614943==
+--===============7350583405124499623==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1677337189 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1677337229 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1677337189-c6cb8cdd2b4d546f73e614af38644a6857ca7266
+nonce 1677337228-0dbe3bf613e7db9f33eb9da85b493a3a55eb709c
 
-e2970ba821954232a75defb254b3d0c260aab128 a93e884edf61f9debc9ca61ef9e545f0394ab666 refs/heads/kobject-const
+efe4da51a29833fbd051eb6190d45276beb6b592 eb9297627ace3d40ff1da0d0f010d9d85e75160d refs/heads/sysfs_deprecation_removal
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmP6ImUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+r2oP/1JD5kuzT1S6gzHPSQgt
-RXZBeXyu8zRTlIhisLUGfllMRPLiL4rFM8N0e3JvHCV08hGStdW2LCKMy6FT5EJ/
-dhu6xNbGIx3E3Np+2ffFG3XVP69eLcX5e9mg2TS+pss8AwGJ4OSW4qdqhpkPZWEW
-Olp1c0GFha/Tf1LCfOTsu6xyWAKYSFHITmZ+FYqGPThvE4cW3/juglpdKE7yq5Sq
-0TXQGcxT3I044p35nqe7+tCEKN/NwhDBa38h3hSrroDtpBeLoTabMLeqdDxwvEd1
-atrpqzBvrwBlJfvqY3R7YMPHDBhMX36n+wJ1SvmH12qQ3xewhNo3fL9fPF7GDTt7
-+hJc4QDs8PgUgn6Ck8gB/WFKGaPGsrCyqVqWierYniWq7H8dqAydLNiLu81HEH1R
-8WAPHRoF1YszK3vdfWuP/fdIcwNayEYeJe/tjJLMeaxmdCIePGPQgDSd6SyzZawO
-z7lFrVWyrHTDCJNwx+rnbjlnlPyw3gASHqyCg9ejzTOk1I05kVvAT39U6uvpRmzP
-AxZi4+TZ4wOY7wM/CCXPVBqFiwztnIV9Athik9PN25/qpzsu+8WFZccNCaFkYkMZ
-AUmH/baqtAFveBni6X4SIfaz1nE5bufYO8AjKnrLwo7txWXmcqhVI7Y0BRXxf1+O
-0B2bokAP2IuCIVMGu21J+hsN
-=0ak6
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmP6Io0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+nVgP/1KROPdTlW1U6e0encKI
+EtDtS2SC54xB3pK1dLglLXSCbY1F3Mk6cfl2k9HvFrFIupTOVVbKfdC11QjyUaOe
+TWRzTd2A+VR8tUr+1yosfGc5sdd68CiLon1xuB5n9UWKG6ZDxFmgZSuAuChGUG//
+HluywoOCuPynui8FObV0Y6ImMftFj5l/5tMM4ycnn3F+rdTgIJVPAzcjnirjr6X9
+651zZ5Vfr0YeXwHa12pfDiFdh6pTuxi46tJtFeqzFWeJlSaUgTs8LZUdhdEFtW1J
+qFzDktU5uVh63z7YMfLLL3B51pmos1EeknadABRj4X072Pr30bT4y1sMdLLUuU+M
+IDxCyoriuH3RzWL/MutFsd5D3mevcxCU+ReLAkQ1erWQgW3s7XdXQ10DufrdFWXZ
+kwhNVHG+yj34nSrvkrVrhtZrwk3141SZXpRnwGn+NgJ7ev43DE6szRC9SYkhEKO+
+RJmXyGjiN8dkHBLb6MSTXtoikIUqsPNaK6DwcsFGb2EyFCicZRGanVys/+hD83vi
+UK4YP5V/zL8nr9bKYZRRAiKT2gjLSsJwTSopQr6EfNAP/7XSNutE8vTxg1vuQKIW
+AgSMEkjJlpGYFkF62MSVJdUHbfpGMANpuqfOA0naVnna3xxf3tnMzBZa31m+f/MF
+S0VkzT1RiBgkx06+bQ6FwW4T
+=TANc
 -----END PGP SIGNATURE-----
 
---===============6826300219797614943==
+--===============7350583405124499623==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e2970ba82195-a93e884edf61.txt
+Content-Disposition: attachment; filename=revlist-efe4da51a298-eb9297627ace.txt
 
-71c4ca2d3b079d0ba4d9b3033641fea906cebfb6 drm/amd/display: Remove stutter only configurations
 ee3916b45add7ba9fa59b0e9832a5d24d34047d7 drm/amd/display: Remove the unused variable ds_port
 48e99fe4d3ba83d6b7bf288e90b360f83e1c6924 drm/amd/display: Remove the unused variable pre_connection_type
 fa9b4155c3d4e8441ea57ad10ec98504845e54bb drm/amdgpu: Revert programming GRBM_GFX_* in RLCG interface to support GFX9
@@ -1081,5 +1080,6 @@ ab7362d04d7c14923420c1e19e889da512a65cd7 cifs: Fix cifs_writepages_region()
 0601f25d1c4937c678db786961705ce56fbd6bb6 Merge tag 'staging-6.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/staging
 693fed981eb9bf6e70bfda66bb872e2bb8155671 Merge tag 'char-misc-6.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc
 a93e884edf61f9debc9ca61ef9e545f0394ab666 Merge tag 'driver-core-6.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/driver-core
+eb9297627ace3d40ff1da0d0f010d9d85e75160d driver core: remove CONFIG_SYSFS_DEPRECATED and CONFIG_SYSFS_DEPRECATED_V2
 
---===============6826300219797614943==--
+--===============7350583405124499623==--
