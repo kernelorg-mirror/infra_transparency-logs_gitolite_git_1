@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3385512890758710432=="
+Content-Type: multipart/mixed; boundary="===============5673700824838610862=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Sat, 25 Feb 2023 07:50:50 -0000
-Message-Id: <167731145073.19727.17603200489924904178@gitolite.kernel.org>
+Date: Sat, 25 Feb 2023 07:50:56 -0000
+Message-Id: <167731145631.19812.6943355207377556883@gitolite.kernel.org>
 
---===============3385512890758710432==
+--===============5673700824838610862==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,50 @@ repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-linus
-    old: 2241ab53cbb5cdb08a6b2d4688feb13971058f65
+  - ref: refs/heads/staging-next
+    old: b5929325f06300d28696b9a030539a4009154788
     new: 489fa31ea873282b41046d412ec741f93946fc2d
-    log: revlist-2241ab53cbb5-489fa31ea873.txt
+    log: revlist-b5929325f063-489fa31ea873.txt
 
---===============3385512890758710432==
+--===============5673700824838610862==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1677311449 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1677311455 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1677311449-304068aef697c819090d3c6f77e4df3a1393cb96
+nonce 1677311454-6c32db2e323df61a09abded37bea2ad555a09e16
 
-2241ab53cbb5cdb08a6b2d4688feb13971058f65 489fa31ea873282b41046d412ec741f93946fc2d refs/heads/staging-linus
+b5929325f06300d28696b9a030539a4009154788 489fa31ea873282b41046d412ec741f93946fc2d refs/heads/staging-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmP5vdkbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+UlEQAJY6YBD6QA3DqhqsGB5k
-ZEAjHrcCmYyEQFhJjJgDYN+aJAzMAHk/sW0zvtB0KzWq+eTlVHuhAAde2W7EglV9
-PobOZkWjKPvwhMlQsbjdlIcweuvjFFFKt4QZ9bSiYq6YffArXdIOpcJ+ePSrKBAf
-hMdIuC5+NnLsejH81YfQy8VYZp9I2pkJzn8vPxtCFawsOTnRastQh6sgaQ9O9pP7
-LUxgVyCfS9BCoTWW9ZPWM2NMdg7z/6116BE5+fOLzJBHGRLyMLqR2AdJpQR2stpy
-PFf9n3bhXNO0qdr3uBfbwPQPXplthZldtiFJmYKM2d05GTDT5QO8Zt/OMCiHG/re
-a27qeh4iCEFzGdYRZicS/UaaXOSUTTdiFoy41/cag9cD2pG5R0xfWMRVFWck2xyL
-zaxoizkua/yyIaODa6bEbi66454ZDlRxWCC1sEZdV9kxxObr4aK1zu3OWilTn8qO
-C2gD3228NVRiSBsr4UFdCZ0H2fOCajQPkl10z7dC/sxQoyVTYnlRpS8Z4Z7b+2q8
-PF5ClVJYPzhgbI7fk+mzP+5xyftuKkoSHSyNPDPXcLHxmDuZL5v7VObZdHUGnV7d
-fO/OBQXLI3XgQw8Qrr1WNcTPW3tPpVn5D1a3DdVLWcMMYjFRODUvaI6VuURnN4L7
-SMAPEUTh8rosq+UO9dX0Pz7+
-=LCkQ
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmP5vd8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+IUIP/RnXvM2a1FIkH1X2RAUB
+tedAq7h6KX9fqoUuO1CdwIwKC0e5qcI28hXUNbdudeCqM4WRkt+EZLoMDAYiIJX8
+hvOVRB3TRNVtQy4kRTT7YStTZmLrC7UfP8M2ZdMzbiOTXMEoAhPNGKQ20h59T8TC
+7WfIhZi7TDPRfKuehbutsxfcAuXfffRWFa1ApQS/CaUZbhe+UcetwsOx6MCRRXu3
+GCKPQcuT4T3wrPCMMflHIsKlU63eUsHvgrfXMQ2mO7EEDSnp5XgRHur2/aGFt++9
+5XTDHlWNX4mBr7QrK+ddVg3oyO3Uxl/laRsTs+dkAEILObwDRnRM+iByu0rgEd8z
+hTmnLHCBnhcBgKFTQIwbDRiu6THuw7rdOuDeopgGuKwL+4Hp77wndhcQykuF3nwn
+Os0QXTBIDh+cA4/1YzHWuA9Iu2SHDdXls4wtYRTO6PIcxcbgntkr7UjLk2Db0P8e
+mDwTDnkPtg//G4GqNIUPIvjH4bMpp9lACxN85//KTwmBZI58lkg73rqS1pbfkKja
+Vl5Vtcm0bi0Zlf+Hy9ak9OgM0UwSBf/fopK5ypDlBCf48w9oDGmXmB42CFBFdMtq
+JmGM0+McaSzI8GHKMQXE1U2Yk2pJ3zknbmWdz71uTNfjMmXgzy904xFp41KGUptM
+nKQ+5zE2XCqbktHI/ZfBYrX8
+=joe3
 -----END PGP SIGNATURE-----
 
---===============3385512890758710432==
+--===============5673700824838610862==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2241ab53cbb5-489fa31ea873.txt
+Content-Disposition: attachment; filename=revlist-b5929325f063-489fa31ea873.txt
 
+5bab56fff53ce161ed859d9559a10361d4f79578 NFS: fix disabling of swap
+fe7f56a7adfbb17bba2454fd97fd97caf9dbddd5 drm/i915/doc: Escape wildcard in method names
+679caae16175d17467ee1ad1f05dd72d8d4b0973 drm/i915: Fix memory leaks in scatterlist
 8f9f5fb94dbea843621740e6b25b3b430a83cf29 drm/i915: Fix VBT DSI DVO port handling
 14e591a1930c2790fe862af5b01ee3ca587f752f drm/i915: Populate encoder->devdata for DSI on icl+
 c90b155148e9632ae46e6778ee958c319457415f drm/i915: Pick the backlight controller based on VBT on ICP+
@@ -320,9 +323,6 @@ d3002468cb5d5da11e22145c9af32facd5c34352 debugfs: update comment of debugfs_rena
 3f92730eed57f8057e1e120a0a2e8ad04ba155d4 serial: imx: remove a redundant check
 72206cc730b5c9208e9a99ace1c619f542035312 tty: n_gsm: add keep alive support
 6ec363fc6142226b9ab5a6528f65333d729d2b6b scripts/tags.sh: fix incompatibility with PCRE2
-da8b09464c59c7c09f7ca880b607b5d8d0cc90fe staging: r8188eu: merge _rtw_enqueue_cmd into its caller
-c17ffe008463d3a07b633dd0e956f7c1a3a7c347 staging: r8188eu: replace hand coded loop with list_for_each_entry
-b5929325f06300d28696b9a030539a4009154788 staging: r8188eu: Revert "staging: r8188eu: simplify rtw_get_ff_hwaddr"
 f765c59c5a72546a2d74a92ae5d0eb0329d8e247 phy: rockchip-typec: Fix unsigned comparison with less than zero
 a9b444988026528788c83c995ebb44eda5a54d8c dt-bindings: phy: amlogic,g12a-usb3-pcie-phy: add missing optional phy-supply property
 7d3fd88d61a41016da01889f076fd1c60c7298fc io_uring: Support calling io_uring_register with a registered ring fd
@@ -1082,4 +1082,4 @@ d6b9cf417c62601f26fa47f97d6c0681704bf0e3 Merge branch 'work.sysv' of git://git.k
 3df88c6a175d883b58fc3c31e36c94eb5e2ad180 Merge branch 'work.namespace' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
 489fa31ea873282b41046d412ec741f93946fc2d Merge branch 'work.misc' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
 
---===============3385512890758710432==--
+--===============5673700824838610862==--
