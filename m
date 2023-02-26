@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7010603840336075216=="
+Content-Type: multipart/mixed; boundary="===============6689286136576472216=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Sun, 26 Feb 2023 06:28:39 -0000
-Message-Id: <167739291977.27151.7877981203237096671@gitolite.kernel.org>
+Date: Sun, 26 Feb 2023 06:29:03 -0000
+Message-Id: <167739294321.27334.7842886046804750045@gitolite.kernel.org>
 
---===============7010603840336075216==
+--===============6689286136576472216==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/kbuild
+  - ref: refs/heads/for-next
     old: bf3a52637d300db4d375c55c5d2f3868d7c3f243
     new: 3eef9c4e9ff283aeca35fc5a894d9cf5520797c8
     log: revlist-bf3a52637d30-3eef9c4e9ff2.txt
 
---===============7010603840336075216==
+--===============6689286136576472216==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -40,4 +40,4 @@ ae41e0e41ba04b4b51641b504fb3b405aef7ec04 .gitattributes: use 'dts' diff driver f
 29cbe6ecfd97cb599883c68d3c6dbac11d0618b8 docs: kbuild: remove description of KBUILD_LDS_MODULE
 3eef9c4e9ff283aeca35fc5a894d9cf5520797c8 kbuild: rpm-pkg: remove unneeded KERNELRELEASE from modules/headers_install
 
---===============7010603840336075216==--
+--===============6689286136576472216==--
