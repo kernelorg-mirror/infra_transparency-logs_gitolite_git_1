@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Sun, 26 Feb 2023 16:27:59 -0000
-Message-Id: <167742887933.16165.4606775838157106510@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+Date: Sun, 26 Feb 2023 16:28:26 -0000
+Message-Id: <167742890660.16377.4667667149529761621@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs-utils
-user: xiang
+repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+user: masahiroy
 changes:
-  - ref: refs/heads/dev
-    old: a6b0c3029ef3e39dfef8d5a5aa2c9e74eae8c818
-    new: 926cb37699bb87a174d0c11709b82e25449dbf90
-    log: |
-         5bb1b74f9b3c7e91347f2ee2d2c23943cf55494c erofs-utils: manpage: add fragments extended option
-         926cb37699bb87a174d0c11709b82e25449dbf90 erofs-utils: manpage: add -Ededupe option
-         
+  - ref: refs/tags/kbuild-v6.3
+    old: 0000000000000000000000000000000000000000
+    new: 232afd01f223e1a9b9f0bec617fd3e489f8accfa
