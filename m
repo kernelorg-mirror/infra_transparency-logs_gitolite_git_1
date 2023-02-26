@@ -1,25 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Sun, 26 Feb 2023 16:22:00 -0000
-Message-Id: <167742852056.12629.13580306744510199533@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Sun, 26 Feb 2023 16:24:39 -0000
+Message-Id: <167742867921.13539.12957976618930562989@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/peterz/queue
-user: peterz
+repo: pub/scm/linux/kernel/git/netdev/net
+user: davem
 changes:
-  - ref: refs/heads/locking/core
-    old: 6c17797b554c635c394d7de0ceb49b705d182340
-    new: 960c2df3fcc87426e5df47f2f2b2266339028447
+  - ref: refs/heads/main
+    old: 25ff6f8a5a3b8dc48e8abda6f013e8cc4b14ffea
+    new: 5064561090fda0ca059d2961f9922e2b7afea36a
     log: |
-         fe37bfe995ee509ea3c984c5ee5148328a6f1908 locking/rwsem: Minor code refactoring in rwsem_mark_wake()
-         50260dca6155baf765c172258be66ecd62a45650 locking/rwsem: Enforce queueing when HANDOFF
-         4c2d32c79d067dc7f31349238181b594a14abdc8 locking/rwsem: Rework writer wakeup
-         4bd4705a75e3bf3bda1ce73f8f07bd9ebb0a9ba8 locking/rwsem: Simplify rwsem_writer_wake()
-         d4ae9283effa714e3c67376a0dc2a3ad2e8e60ea locking/rwsem: Split out rwsem_reader_wake()
-         1119c6affe30b11ff0478c399b0c015830256dfa locking/rwsem: Unify wait loop
-         960c2df3fcc87426e5df47f2f2b2266339028447 locking/rwsem: Use the force
+         0483a16bc493075bb9f6483497786fed41d27b94 net/mlx5: Remove NULL check before dev_{put, hold}
+         bfeda9683dcd697dc84bbd5ce375f659e9590bf5 net/mlx5e: TC, fix return value check in mlx5e_tc_act_stats_create()
+         e435941b1da1a0be4ff8a7ae425774c76a5ac514 mlx5: fix skb leak while fifo resync and push
+         3a50cf1e8e5157b82268eee7e330dbe5736a0948 mlx5: fix possible ptp queue fifo use-after-free
+         e1ed30c8c09abc85a01c897845bdbd08c0333353 net/mlx5: ECPF, wait for VF pages only after disabling host PFs
+         1bf8b0dae8dde6f02520a5ea34fdaa3b39342e69 net/mlx5e: Verify flow_source cap before using it
+         d28a06d7dbedc598a06bd1e53a28125f87ca5d0c net/mlx5: Geneve, Fix handling of Geneve object id as error code
+         5064561090fda0ca059d2961f9922e2b7afea36a Merge tag 'mlx5-fixes-2023-02-24' of git://git.kernel.org/pub/scm/linux/kernel/git/saeed/linux
          
