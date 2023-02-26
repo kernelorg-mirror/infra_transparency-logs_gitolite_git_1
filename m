@@ -1,26 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Sun, 26 Feb 2023 16:24:39 -0000
-Message-Id: <167742867921.13539.12957976618930562989@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
+Date: Sun, 26 Feb 2023 16:27:59 -0000
+Message-Id: <167742887933.16165.4606775838157106510@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: davem
+repo: pub/scm/linux/kernel/git/xiang/erofs-utils
+user: xiang
 changes:
-  - ref: refs/heads/main
-    old: 25ff6f8a5a3b8dc48e8abda6f013e8cc4b14ffea
-    new: 5064561090fda0ca059d2961f9922e2b7afea36a
+  - ref: refs/heads/dev
+    old: a6b0c3029ef3e39dfef8d5a5aa2c9e74eae8c818
+    new: 926cb37699bb87a174d0c11709b82e25449dbf90
     log: |
-         0483a16bc493075bb9f6483497786fed41d27b94 net/mlx5: Remove NULL check before dev_{put, hold}
-         bfeda9683dcd697dc84bbd5ce375f659e9590bf5 net/mlx5e: TC, fix return value check in mlx5e_tc_act_stats_create()
-         e435941b1da1a0be4ff8a7ae425774c76a5ac514 mlx5: fix skb leak while fifo resync and push
-         3a50cf1e8e5157b82268eee7e330dbe5736a0948 mlx5: fix possible ptp queue fifo use-after-free
-         e1ed30c8c09abc85a01c897845bdbd08c0333353 net/mlx5: ECPF, wait for VF pages only after disabling host PFs
-         1bf8b0dae8dde6f02520a5ea34fdaa3b39342e69 net/mlx5e: Verify flow_source cap before using it
-         d28a06d7dbedc598a06bd1e53a28125f87ca5d0c net/mlx5: Geneve, Fix handling of Geneve object id as error code
-         5064561090fda0ca059d2961f9922e2b7afea36a Merge tag 'mlx5-fixes-2023-02-24' of git://git.kernel.org/pub/scm/linux/kernel/git/saeed/linux
+         5bb1b74f9b3c7e91347f2ee2d2c23943cf55494c erofs-utils: manpage: add fragments extended option
+         926cb37699bb87a174d0c11709b82e25449dbf90 erofs-utils: manpage: add -Ededupe option
          
