@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Mon, 27 Feb 2023 10:40:39 -0000
-Message-Id: <167749443990.13549.12470950611226950821@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless-next
+Date: Mon, 27 Feb 2023 10:45:04 -0000
+Message-Id: <167749470495.16581.3780928340289229740@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/wireless/wireless-next
+user: kvalo
 changes:
-  - ref: refs/heads/master
-    old: 9796957aa6d9b9b02eb6ba1488f6c73050a65bc7
-    new: 06ee5267516761721ebfbdfa313980cef8e54c66
+  - ref: refs/heads/main
+    old: 0d1f7ff19d4f8a6da5a6b60d2afd1d34b5d5ebfc
+    new: ec52d77d077529f198fd874c550a26b9cc86a331
     log: |
-         06ee5267516761721ebfbdfa313980cef8e54c66 libmount: make mnt_match_options() more robust
+         0f485805d008aa56644f68179a7e6579fc1515e7 wifi: brcmfmac: acpi: Add support for fetching Apple ACPI properties
+         91918ce88d9fef408bb12c46a27c73d79b604c20 wifi: brcmfmac: pcie: Provide a buffer of random bytes to the device
+         ec52d77d077529f198fd874c550a26b9cc86a331 wifi: brcmfmac: support CQM RSSI notification with older firmware
          
