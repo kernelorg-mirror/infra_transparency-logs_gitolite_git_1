@@ -1,25 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/dtc/dtc
-Date: Mon, 27 Feb 2023 22:50:58 -0000
-Message-Id: <167753825802.18568.3773979868205031444@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
+Date: Mon, 27 Feb 2023 22:51:46 -0000
+Message-Id: <167753830651.18877.14940771646054807070@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/dtc/dtc
-user: dwg
+repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
+user: jaegeuk
 changes:
-  - ref: refs/heads/main
-    old: e3cde0613bfdd59d525770bc0e15c54e58b08412
-    new: 64a907f08b9bedd89833c1eee674148cff2343c6
-    log: |
-         64a907f08b9bedd89833c1eee674148cff2343c6 meson.build: bump version to 1.7.0
-         
-  - ref: refs/heads/master
-    old: e3cde0613bfdd59d525770bc0e15c54e58b08412
-    new: 64a907f08b9bedd89833c1eee674148cff2343c6
-    log: |
-         64a907f08b9bedd89833c1eee674148cff2343c6 meson.build: bump version to 1.7.0
-         
+  - ref: refs/tags/f2fs-for-6.3-rc1
+    old: 0000000000000000000000000000000000000000
+    new: f8420c281211c36576400f3e54c651faa9d0b4b5
