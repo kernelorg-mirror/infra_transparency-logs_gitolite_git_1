@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
-Date: Mon, 27 Feb 2023 06:33:40 -0000
-Message-Id: <167747962083.29935.5206762574591388268@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+Date: Mon, 27 Feb 2023 07:43:56 -0000
+Message-Id: <167748383691.10678.12219379863998580323@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ebiggers/linux
-user: ebiggers
+repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+user: jarkko
 changes:
-  - ref: refs/heads/crypto-pending
-    old: a7bdd269f6c3718d60a1c24ae8fa6cd9313ebbf5
-    new: d94a7b256318380aeaf5d403d1d665326e668913
+  - ref: refs/heads/master
+    old: 5b7c4cabbb65f5c469464da6c5f614cbd7f730f2
+    new: c6fbed5a393c33fa626079f3ce84de1a1e527672
     log: |
-         d94a7b256318380aeaf5d403d1d665326e668913 crypto: arm64/aes-neonbs - fix crash with CFI enabled
+         c6fbed5a393c33fa626079f3ce84de1a1e527672 tpm/eventlog: Don't abort tpm_read_log on faulty ACPI address
          
