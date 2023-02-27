@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
-Date: Mon, 27 Feb 2023 21:15:41 -0000
-Message-Id: <167753254111.18154.2793826426317193435@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
+Date: Mon, 27 Feb 2023 21:28:40 -0000
+Message-Id: <167753332029.25889.18082548181659605633@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf
-user: dborkman
+repo: pub/scm/linux/kernel/git/cel/linux
+user: cel
 changes:
-  - ref: refs/heads/master
-    old: a07484c083eabc809e45a198bd639bfd37ac70b6
-    new: 2d311f480b52eeb2e1fd432d64b78d82952c3808
+  - ref: refs/heads/nfsd-next
+    old: 428741523e034cf2564c9ed939419593e13eae42
+    new: fb5b855d9f34927579baa0a20b4d0d8ea3740abd
     log: |
-         2d311f480b52eeb2e1fd432d64b78d82952c3808 riscv, bpf: Fix patch_text implicit declaration
+         fe90151c3cc6dbc0836723995f65d371ef4ad514 SUNRPC: Let Kunit tests run with some enctypes compiled out
+         fb5b855d9f34927579baa0a20b4d0d8ea3740abd SUNRPC: Properly terminate test case arrays
          
