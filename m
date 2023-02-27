@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0994166024819624681=="
+Content-Type: multipart/mixed; boundary="===============8122630507691569416=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/linkinjeon/exfat
-Date: Mon, 27 Feb 2023 12:14:26 -0000
-Message-Id: <167750006617.10171.12640224158064286411@gitolite.kernel.org>
+Date: Mon, 27 Feb 2023 12:15:40 -0000
+Message-Id: <167750014086.12661.8985569441972251547@gitolite.kernel.org>
 
---===============0994166024819624681==
+--===============8122630507691569416==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,22 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/linkinjeon/exfat
 user: linkinjeon
 changes:
-  - ref: refs/heads/master
-    old: 2258c2dc850b8605cb66b3383e50b9dddd1c6580
-    new: c9c3395d5e3dcc6daee66c6908354d47bf98cb0c
-    log: revlist-2258c2dc850b-c9c3395d5e3d.txt
+  - ref: refs/heads/dev
+    old: 5742d6a467d1073b2515255c4a90287b2e87d4e6
+    new: 8258ef28001ad30c074e823124e10b9c75a965ff
+    log: revlist-5742d6a467d1-8258ef28001a.txt
 
---===============0994166024819624681==
+--===============8122630507691569416==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2258c2dc850b-c9c3395d5e3d.txt
+Content-Disposition: attachment; filename=revlist-5742d6a467d1-8258ef28001a.txt
 
-2c1e1b949024989e20907b84e11a731a50778416 net: mlx5: eliminate anonymous module_init & module_exit
-e1fabbc83cb1dd4ba63932faa86c9cacb8bf791e efi: Remove Matthew Garrett as efivarfs maintainer
-febb2c0d7c69c0396aa32d5ab425a4163473961a HID: uclogic: Add support for XP-PEN Deco 01 V2
-74cb485f68eb3dff6802ee446a602607b03f4fc9 HID: playstation: sanity check DualShock4 calibration data.
-ccf1e1626d37745d0a697db67407beec9ae9d4b8 HID: playstation: sanity check DualSense calibration data.
 96b3bb18f6cbe259ef4e0bed3135911b7e8d2af5 dmaengine: lgm: Move DT parsing after initialization
 6437a549ae178a3f5a5c03e983f291ebcdc2bbc7 drm/panfrost: fix GENERIC_ATOMIC64 dependency
 6795e558e9cc6123c24e2100a2ebe88e58a792bc perf/x86/intel: Add Emerald Rapids
@@ -1050,5 +1045,10 @@ a33d946cbb8709339a856d7da406a7a670e86a60 Merge tag 'irq-urgent-2023-02-19' of gi
 0097c18e459c5ca5d169750eaed99fd272606c1a Merge tag 'timers-urgent-2023-02-19' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 925cf0457d7e62ce08878ffb789189ac08ca8677 Merge tag 'x86-urgent-2023-02-19' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 c9c3395d5e3dcc6daee66c6908354d47bf98cb0c Linux 6.2
+6cb5d1a16a51d080fbc1649a5144cbc5ca7d6f88 exfat: fix unexpected EOF while reading dir
+706fdcac002316893434d753be8cfb549fe1d40d exfat: fix reporting fs error when reading dir beyond EOF
+bdaadfd343e3cba49ad0b009ff4b148dad0fa404 exfat: redefine DIR_DELETED as the bad cluster number
+39c1ce8eafc0ff64fb9e28536ccc7df6a8e2999d exfat: fix inode->i_blocks for non-512 byte sector size device
+8258ef28001ad30c074e823124e10b9c75a965ff exfat: handle unreconized benign secondary entries
 
---===============0994166024819624681==--
+--===============8122630507691569416==--
