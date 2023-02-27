@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0094439712336907077=="
+Content-Type: multipart/mixed; boundary="===============3810109273755446373=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Mon, 27 Feb 2023 17:32:20 -0000
-Message-Id: <167751914008.29562.5215898483212661554@gitolite.kernel.org>
+Date: Mon, 27 Feb 2023 17:33:17 -0000
+Message-Id: <167751919744.29898.9418234346089514634@gitolite.kernel.org>
 
---===============0094439712336907077==
+--===============3810109273755446373==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/main
     old: 766d1bdceb3290f83ecadd949cc0cd3ef08f8146
     new: aaa3c08ee0653beaa649d4adfb27ad562641cfd8
     log: revlist-766d1bdceb32-aaa3c08ee065.txt
 
---===============0094439712336907077==
+--===============3810109273755446373==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -41,4 +41,4 @@ cf871006c01709211f2620a33de37257362a05e8 ice: remove unnecessary CONFIG_ICE_GNSS
 5064561090fda0ca059d2961f9922e2b7afea36a Merge tag 'mlx5-fixes-2023-02-24' of git://git.kernel.org/pub/scm/linux/kernel/git/saeed/linux
 aaa3c08ee0653beaa649d4adfb27ad562641cfd8 qede: avoid uninitialized entries in coal_entry array
 
---===============0094439712336907077==--
+--===============3810109273755446373==--
