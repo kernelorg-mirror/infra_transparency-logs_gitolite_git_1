@@ -1,19 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Mon, 27 Feb 2023 22:50:03 -0000
-Message-Id: <167753820308.17664.177061463209035041@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/dtc/dtc
+Date: Mon, 27 Feb 2023 22:50:58 -0000
+Message-Id: <167753825802.18568.3773979868205031444@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/utils/dtc/dtc
+user: dwg
 changes:
-  - ref: refs/heads/master
-    old: 5ca26d6039a6b42341f7f5cc8d10d30ca1561a7b
-    new: 32ff6831cdecd828bd8be9cdfb6c4a3d1feb8f8a
+  - ref: refs/heads/main
+    old: e3cde0613bfdd59d525770bc0e15c54e58b08412
+    new: 64a907f08b9bedd89833c1eee674148cff2343c6
     log: |
-         32ff6831cdecd828bd8be9cdfb6c4a3d1feb8f8a kunit: Fix 'hooks.o' build by recursing into kunit
+         64a907f08b9bedd89833c1eee674148cff2343c6 meson.build: bump version to 1.7.0
+         
+  - ref: refs/heads/master
+    old: e3cde0613bfdd59d525770bc0e15c54e58b08412
+    new: 64a907f08b9bedd89833c1eee674148cff2343c6
+    log: |
+         64a907f08b9bedd89833c1eee674148cff2343c6 meson.build: bump version to 1.7.0
          
