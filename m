@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
-Date: Mon, 27 Feb 2023 13:44:45 -0000
-Message-Id: <167750548528.5488.9941703885139959666@gitolite.kernel.org>
+Date: Mon, 27 Feb 2023 13:45:22 -0000
+Message-Id: <167750552291.8109.5653060625402382871@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/firmware/linux-firmware
 user: jwboyer
 changes:
   - ref: refs/heads/main
-    old: 83f1d7781300b52785c062a8285da59042c0d1ff
-    new: 3653d692bd0da291af02e9e4a613049315e241b9
+    old: 3653d692bd0da291af02e9e4a613049315e241b9
+    new: c51488ffb1774a7239c5700f9f78a1e33c804af0
     log: |
-         3653d692bd0da291af02e9e4a613049315e241b9 rtl_bt: Add firmware and config files for RTL8821CS
+         c51488ffb1774a7239c5700f9f78a1e33c804af0 rtl_bt: Update RTL8852C BT USB firmware to 0xD7B8_FABF
          
