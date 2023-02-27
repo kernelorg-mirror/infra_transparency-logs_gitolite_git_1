@@ -1,21 +1,41 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
-Date: Mon, 27 Feb 2023 13:46:22 -0000
-Message-Id: <167750558244.9649.7703872195673878999@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============7643117682768313574=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
+Date: Mon, 27 Feb 2023 13:48:47 -0000
+Message-Id: <167750572727.10443.8088044284333061642@gitolite.kernel.org>
+
+--===============7643117682768313574==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/firmware/linux-firmware
-user: jwboyer
+repo: pub/scm/linux/kernel/git/soc/soc
+user: arnd
 changes:
-  - ref: refs/heads/main
-    old: c51488ffb1774a7239c5700f9f78a1e33c804af0
-    new: bd2525d9c53609c33da107baff111b338cc17e70
-    log: |
-         5148670daadc33f752371effceef1116e798347e rtw89: 8852b: update fw to v0.29.26.0
-         7375bcff3ffd9ba0c14c9bdff33f6d527607e26b rtw89: 8852b: update fw to v0.29.29.0
-         bd2525d9c53609c33da107baff111b338cc17e70 Merge https://github.com/pkshih/linux-firmware
-         
+  - ref: refs/heads/arm/fixes
+    old: afeff81765c62da857ff709309f7351a56113795
+    new: 9f79762ef8d90a6fab85e4ac0d153bdd8b4868ca
+    log: revlist-afeff81765c6-9f79762ef8d9.txt
+
+--===============7643117682768313574==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-afeff81765c6-9f79762ef8d9.txt
+
+8e4505e617a80f601e2f53a917611777f128f925 ARM: dts: exynos: correct TMU phandle in Exynos4
+408ab6786dbf6dd696488054c9559681112ef994 ARM: dts: exynos: correct TMU phandle in Exynos4210
+33e2c595e2e4016991ead44933a29d1ef93d5f26 ARM: dts: exynos: correct TMU phandle in Exynos5250
+9372eca505e7a19934d750b4b4c89a3652738e66 ARM: dts: exynos: correct TMU phandle in Odroid XU
+2e3d0e20d8456f876607a8af61fdb83dfbf98cb6 ARM: dts: exynos: correct TMU phandle in Odroid HC1
+a3583e92d188ec6c58c7f603ac5e72dd8a11c21a ARM: dts: exynos: correct TMU phandle in Odroid XU3 family
+0cd5780eb625cc4e49cf65df9ad29a6591658b74 arm64: defconfig: Fix unintentional disablement of PCI on i.MX
+e505e6bf4205255bf6e0daba9ea0f80b6391b936 arm64: defconfig: Add IOSCHED_BFQ to the default configs
+a8cef541dd5ef9445130660008c029205c4c5aa5 ARM: dts: aspeed: p10bmc: Update battery node name
+33a0c1b850c8c85f400531dab3a0b022cdb164b1 ARM: dts: spear320-hmi: correct STMPE GPIO compatible
+9f79762ef8d90a6fab85e4ac0d153bdd8b4868ca Merge tag 'samsung-dt-fixes-6.3' of https://git.kernel.org/pub/scm/linux/kernel/git/krzk/linux into arm/fixes
+
+--===============7643117682768313574==--
