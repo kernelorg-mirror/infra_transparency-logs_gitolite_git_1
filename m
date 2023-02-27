@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5660648646433988172=="
+Content-Type: multipart/mixed; boundary="===============7646628742081372143=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Mon, 27 Feb 2023 16:33:21 -0000
-Message-Id: <167751560129.22657.10017831369256050619@gitolite.kernel.org>
+Date: Mon, 27 Feb 2023 16:33:51 -0000
+Message-Id: <167751563170.22874.11132880948988332642@gitolite.kernel.org>
 
---===============5660648646433988172==
+--===============7646628742081372143==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,52 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/debugfs_cleanup
-    old: f003e90bbe28f94d6036009c8cabf8b5c8c4002d
-    new: 8531201c53e75f23000344a9ab9f46770801aae7
-    log: revlist-f003e90bbe28-8531201c53e7.txt
+  - ref: refs/heads/debugfs_lookup_fix
+    old: 18bd4569cf5392f08212812cb6f479ae26f9a16d
+    new: f7e918c1d1e5a0945d0693c4a787a547dcdfc3a6
+    log: revlist-18bd4569cf53-f7e918c1d1e5.txt
 
---===============5660648646433988172==
+--===============7646628742081372143==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1677515598 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1677515629 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1677515597-f8c15a85c90baeca4afb2a8cc7a60bbbe6444cfa
+nonce 1677515628-109f0411b69a7f95a03a45d28b8d67062cdb297e
 
-f003e90bbe28f94d6036009c8cabf8b5c8c4002d 8531201c53e75f23000344a9ab9f46770801aae7 refs/heads/debugfs_cleanup
+18bd4569cf5392f08212812cb6f479ae26f9a16d f7e918c1d1e5a0945d0693c4a787a547dcdfc3a6 refs/heads/debugfs_lookup_fix
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmP8204bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+AngQALrGlMqWPXksTWf0QIN0
-Dk3MRgpR8x2A0ckLkSbEG/RhiBZtYhRr9VRgsAfK8E9kXjWFzxUuN0y+FILKyF5r
-PdIig7cPHYnVIvfJJlC0su97YhN/9grKbGL3ngQnUGLmnas/RG3X9VmJZjoVc/qH
-XW4Oei3lchp1qtfZEHqDCcCQbYsapH7OA8Ld04wN4gegdRUG9tr/wxdmDUEkNlz1
-gZFYN0/8YJjPR5oC5u9XnkRktRglTJ7abHDxfYtquYY58F60QzulY8WUc+MvOr21
-oFARrtMesrAY4bgxrk3rUb1u5ua2QAU3P2dGBL0Ekevq2mA6U+8nlVBLGlta4Fek
-xjAJzEB3GVdkl6Wx/8AqrS3c2tu93+JHsPVTDGi+Hzb8t6Eprh7gAo3+PSQJ755M
-dSNoNUfCGr2Crtpd5hLDSaDqTHh7dVVWjYPLEMnPOgruJ3odrJ0kZih4ObHl466P
-6Pp5Hd/hPDxSXSqvwcBluxiMPYaUO3Pf8U6qg18mzBzXLnQtgNyopAaMVds8MBpZ
-hw021/+VdbJXbn78MtF2OjR1LfYS/60SUFv+AZlRZbcmCiu9WTqDJqa0v0CSAOSX
-tWG72TWIXcZc4uz5YxafHPW2kvU5PEkcl3NQHzT1nN3MJbgYILAbdU0QU21VxQsB
-nmVdMM+WltKtZ04tgRZ6DfRq
-=64UY
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmP8220bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+eNYQAJtVDSPef7sEVahBrDsn
+qOslAE/J0Wiel73D3BApnhSQ/C5C8yj75HTM/WMXgQlRLagu8CC/Jz5elaJm9Vsf
+5ftTVG+TEgkcdddfu1EMMeYb3LWGvvQjV/lCn6Z/ZmjxxBVMbjJX5UdkwdBipIBd
+NhhiN6j2NtI/NQ3mI8H7caqQnbeLj8STidMp+fWxlw79tPz4VQapjuLJUsjnggaE
+G0tYvC+quzt3UZUEoCjUBymGNa+TkpYV95zmsx908FqTkd/fqBw/A+lML8aGBKlK
+/My/r6KyxhWWqE6bkOrb5gf32O+oNaAmioPz4KC1YXE8tn6MG82izM4ublgUTWYT
+RXlSzrPvJETZ3PvKaydF5brIWjiAKj5XnlScrMxVlf7rtocaMq3zICDFu1CxRRax
+R5T2yZVb2lHrspdYgY3dhzUYj3psGJjkVGyR8V+aPhNae5y9m40+ywtFD85oCjte
+483fbiDDLYSOuCVJ1qcru0/fDLYKg9xjhymYOZwQu30WiMdrxox5J5tAVv4CIlDQ
+LWKnD1r991ebu/6pVAKs9R09O2kk6ofQPwMs/xu1/F5xs388TTITdGjG2cKsxEjK
+aT3yS/83fXCw+YCNXQsReX5G4lVl3i9Ux5UYQnYmfX9ezAne2BcM/X5Z4c1atwfx
+rK+tgYOJSLKlZ77GnTb7u+e4
+=eGd9
 -----END PGP SIGNATURE-----
 
---===============5660648646433988172==
+--===============7646628742081372143==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f003e90bbe28-8531201c53e7.txt
+Content-Disposition: attachment; filename=revlist-18bd4569cf53-f7e918c1d1e5.txt
 
+a80becc56d274fc5d6226f74eaab1811c3984390 PCI: tegra: Convert to devm_of_phy_optional_get()
+86a176840c627bd5b676b6dff9a0b98f3fe5fafc usb: host: ehci-exynos: Convert to devm_of_phy_optional_get()
+41a435e30eb007ca2c8f71db734af6ec3509af4d usb: host: ohci-exynos: Convert to devm_of_phy_optional_get()
+0cb2a8f3456ff1cc51d571e287a48e8fddc98ec2 PCI: mt7621: Delay phy ports initialization
+189d496b48b1731f21f19ff3b7109ec724f5dcb2 iommu/exynos: Add missing set_platform_dma_ops callback
 cf5c1c87c2391649e05e58ecc6dfc3dc5ebebc05 iommu/dart: Fix apple_dart_device_group for PCI groups
 cc94cc1c341811baa6b507fc0d4f2f66eac6e0ab Merge tag 'phy-devm_of_phy_optional_get' into next
 b6b26d86c61c441144c72f842f7469bb686e1211 iommu/amd: Add a length limitation for the ivrs_acpihid command-line parameter
@@ -1074,12 +1079,7 @@ d4563201f33a022fc0353033d9dfeb1606a88330 Documentation: simplify and clarify DCO
 9b0b0dd857652bf77d5350c6aec6cae767c48824 Merge tag 'hwlock-v6.3' of git://git.kernel.org/pub/scm/linux/kernel/git/remoteproc/linux
 cc38a46de76e15d20bea5768e99af17b65a9caeb Merge tag 'rpmsg-v6.3' of git://git.kernel.org/pub/scm/linux/kernel/git/remoteproc/linux
 f3a2439f20d918930cc4ae8f76fe1c1afd26958f Merge tag 'rproc-v6.3' of git://git.kernel.org/pub/scm/linux/kernel/git/remoteproc/linux
-ebd80c2b11889b7bec609694764b63809159a2ae driver core: remove devm_device_add_groups()
-e895948e1d45b2d25cc72b1e157eb3eee175bb1f sysfs: do not create empty directories if no attributes are present
-3e558c0b069bbb213680920bd57de3890daf0205 soundwire: sysfs: move sdw_slave_dev_attr_group into the existing list of groups
-2ede7fde02babaa5dca219db1463154fb6436873 soundwire: sysfs: cleanup the logic for creating the dp0 sysfs attributes
-4677532dea4ed71c77e788383bec5bd3bee4af2c soundwire: sysfs: have the driver core handle the creation of the device groups
-101569a4ecf18a6984a3ceca393c24c3f067d778 soundwire: sysfs: remove sdw_slave_sysfs_init()
-8531201c53e75f23000344a9ab9f46770801aae7 soundwire: sysfs: remove unneeded ATTRIBUTE_GROUPS() comments
+6b3661d6390cc330ec91aa23f0301ef4ddf9e3b9 i915: fix memory leak with using debugfs_lookup()
+f7e918c1d1e5a0945d0693c4a787a547dcdfc3a6 mtd: spi-nor: fix memory leak when using debugfs_lookup()
 
---===============5660648646433988172==--
+--===============7646628742081372143==--
