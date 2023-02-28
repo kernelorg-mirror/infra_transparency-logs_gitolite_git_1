@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3380432271867972112=="
+Content-Type: multipart/mixed; boundary="===============6305800781441664496=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 28 Feb 2023 16:22:50 -0000
-Message-Id: <167760137023.26256.16305781513469170110@gitolite.kernel.org>
+Date: Tue, 28 Feb 2023 16:23:52 -0000
+Message-Id: <167760143203.26670.3541748004488081668@gitolite.kernel.org>
 
---===============3380432271867972112==
+--===============6305800781441664496==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/main
     old: 5b7c4cabbb65f5c469464da6c5f614cbd7f730f2
     new: 5ca26d6039a6b42341f7f5cc8d10d30ca1561a7b
     log: revlist-5b7c4cabbb65-5ca26d6039a6.txt
 
---===============3380432271867972112==
+--===============6305800781441664496==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ ccf8f7d71424ce37394c8333482853dba4f33978 xen-netback: remove unused variables pe
 580f98cc33a260bb8c6a39ae2921b29586b84fdf tcp: tcp_check_req() can be called from process context
 5ca26d6039a6b42341f7f5cc8d10d30ca1561a7b Merge tag 'net-6.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 
---===============3380432271867972112==--
+--===============6305800781441664496==--
