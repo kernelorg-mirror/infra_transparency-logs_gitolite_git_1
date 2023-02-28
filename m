@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6305800781441664496=="
+Content-Type: multipart/mixed; boundary="===============6437577840330567353=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 28 Feb 2023 16:23:52 -0000
-Message-Id: <167760143203.26670.3541748004488081668@gitolite.kernel.org>
+Date: Tue, 28 Feb 2023 16:24:32 -0000
+Message-Id: <167760147264.26947.9401825036777774082@gitolite.kernel.org>
 
---===============6305800781441664496==
+--===============6437577840330567353==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,55 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 5b7c4cabbb65f5c469464da6c5f614cbd7f730f2
-    new: 5ca26d6039a6b42341f7f5cc8d10d30ca1561a7b
-    log: revlist-5b7c4cabbb65-5ca26d6039a6.txt
+  - ref: refs/heads/dev-queue
+    old: f75ed9add58c1bca6a615609a0f7f148c257e3c7
+    new: dd6ea984faa83c1f8f6e8ee5503df60bdd1b3f41
+    log: revlist-f75ed9add58c-dd6ea984faa8.txt
 
---===============6305800781441664496==
+--===============6437577840330567353==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-5b7c4cabbb65-5ca26d6039a6.txt
+Content-Disposition: attachment; filename=revlist-f75ed9add58c-dd6ea984faa8.txt
 
-4cbf76948c457f0beb9f184ebb21341c8235846a NFS: Remove unused function nfs_wb_page()
-54d99381b7371d2999566d1fb4ea88d46cf9d865 NFS: Convert nfs_write_begin/end to use folios
-4fa7a717b432c3311192aa85a34fedf5f8de4689 NFS: Fix up nfs_vm_page_mkwrite() for folios
-70e9db69f927bb378db9aaa807cc83ae550779a9 NFS: Clean up O_DIRECT request allocation
-96780ca55e3cbf4f150fd5a833a61492c9947b5b NFS: fix up nfs_release_folio() to try to release the page
-eb5654b3b89d5e836312cea9f3fdb49457852e89 NFS: Enable tracing of nfs_invalidate_folio() and nfs_launder_folio()
-256093fec1f0ae2f10eb3aae5903ecb689c55ecc NFS: Improve tracing of nfs_wb_folio()
-2de3d04b3bcba3ae0474373cbd0c85f4f09ed9d2 NFS: Remove unnecessary check in nfs_read_folio()
-3bd940030752a33ff665eefdd74a1cdb74a4f9b0 dm: add missing SPDX-License-Indentifiers
-0d78954a2d80e648cfed1d306fffe52c6211c432 dm: prefer kmap_local_page() instead of deprecated kmap_atomic()
-238d991f054a553e823d12b0ffd52aaeedd65f70 dm: use fsleep() instead of msleep() for deterministic sleep duration
-86a3238c7b9b759cb864f4f768ab2e24687dc0e6 dm: change "unsigned" to "unsigned int"
-d715fa23577cd5d36830c4ecd7e2bfcb4750b351 dm: avoid assignment in if conditions
-44bc08ed63db7a852bd1ba16611b700ee666091c dm: enclose complex macros into parentheses where possible
-2f06cd12e11422e4a44ad4cb856c3ef0be9bd208 dm: avoid initializing static variables
-96422281baf57f4d9418581fdfaca9617bb805e1 dm: address space issues relative to switch/while/for/...
-255e2646496fcbf836a3dfe1b535692f09f11b45 dm: address indent/space issues
-a4a82ce3d24d4409143a7b7b980072ada6e20b2a dm: correct block comments format.
-43be9c743c2553519c2093d1798b542f28095a51 dm: fix undue/missing spaces
-03b18887703c5fa342896e52e873812ea33d964b dm: fix trailing statements
-ced6e475c3754dad3b63966d79f375d8f7193750 dm crypt: correct 'foo*' to 'foo *'
-beecc8438c6c2089b0a1f82720530c82da5765bc dm block-manager: avoid not required parentheses
-8ca817c43e12847be182e0bbff9b59398373a3b8 dm: avoid spaces before function arguments or in favour of tabs
-02f10ba178e7a43faf7107cd15111e0f81e6ac70 dm: add argument identifier names
-0ef0b4717aa6849d251b23ae1efe93ca93af540b dm: add missing empty lines
-2d0f25cbc0d948e01573cc8ff5967e81bd98a4a1 dm: remove unnecessary braces from single statement blocks
-2e84fecf19e1694338deec8bf6c90ff84f8f31fb dm: avoid split of quoted strings where possible
-aa07f9d806f994f7cf42494c2b99573e77cdae21 dm: adjust EXPORT_SYMBOL() to follow functions immediately
-1c13188669282dac48f1e67d77f07a746a4899d7 dm: prefer '"%s...", __func__'
-6a808034724b5a36f8e0b712427bfbe9e667d296 dm: avoid using symbolic permissions
-f8922a48291d40c4fb07d66ef88c69ea415d8cd9 dm: favour __aligned(N) versus "__attribute__ (aligned(N))"
-ae99111ecf70c3003b4b1ba38b95fbe35410b2a6 dm: favour __packed versus "__attribute__ ((packed))"
-1c3fe2fa946342a784a1375a63be6eb5a25acd76 dm: avoid useless 'else' after 'break' or return'
-b30f1607146c736684c069fe92dc39607d77d15f dm: add missing blank line after declarations/fix those
-9bfeac5d33d8500332d75e32abe32c0df4910add dm: avoid inline filenames
-a6ba79c0144f449fcf65aa829ca8d7341811f83a dm: don't indent labels
-5cae0aa77397015f530aeb34f3ced32db6ac2875 dm ioctl: have constant on the right side of the test
-fb99e87b44ff8e77fe1406796361db194c17aedd dm log: avoid trailing semicolon in macro
 dcdd467915de0435bbaf99396f20293166b3d3a4 dm log: avoid multiple line dereference
 6cc435fa76cc1786ef460c08c31b1d27c13e9cff dm: avoid 'do {} while(0)' loop in single statement macros
 8d1058fb2ac29644d8a427eb3d3eeff2fd88f0a7 dm: fix use of sizeof() macro
@@ -1050,5 +1012,43 @@ ccf8f7d71424ce37394c8333482853dba4f33978 xen-netback: remove unused variables pe
 972074ea88402e9b1b29c3a8d3d6d1aadaff624e net: phy: c45: fix network interface initialization failures on xtensa, arm:cubieboard
 580f98cc33a260bb8c6a39ae2921b29586b84fdf tcp: tcp_check_req() can be called from process context
 5ca26d6039a6b42341f7f5cc8d10d30ca1561a7b Merge tag 'net-6.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
+5f34c5390dea36ffbfb65d06babe5324cf938a81 igc: Clean up and optimize watchdog task
+7936effee8cf223fcbad49c8cf7dfeb1e57d6819 intel/igbvf: free irq on the error path in igbvf_request_msix()
+7d0c6e26764bc1f3a854bacaa6736acb62f65508 igb: Enable SR-IOV after reinit
+2c6b6deb95072b619d5a72a10b4261aba9faee95 igbvf: Regard vf reset nack as success
+179a2292f6fb8cce4e33923dfcdb7aaeca243d3d ice: Fix DSCP PFC TLV creation
+17680bfadb7d93b1836a44dc4a60beaebcb55e76 ice: add FDIR counter reset in FDIR init stage
+6205179b0fcfa5cbd38ae53c460425f7be0d40da ice: don't ignore return codes in VSI related code
+5abed9ffc112a705590f0886741fd4f729d5faf1 ethernet: ice: avoid gcc-9 integer overflow warning
+825b498c3aed9031e8a90d3870cdf45d90c6e2de i40e: Add ability to change VFs default MAC address
+8cc6498e9c0391a626690aa4f5a149af244d15ff ice: xsk: disable txq irq before flushing hw
+c1783ea8b6cb0815740b5e8b0bb5b7c40fdbd885 igc: offload queue max SDU from tc-taprio
+920eccc6f963d16d9988b0856a47a9477962aa83 igc: Add qbv_config_change_errors counter
+e6853e45f00c2c83cb3029c74b8ce9d511bbfb06 ice: Write all GNSS buffers instead of first one
+d4243d013f57757188f8e6582012fc59405d93d7 i40e: consolidate maximum frame size calculation for vsi
+fea38da9bc7c1b635ea1758df3ee34ae997a68bc i40e: change Rx buffer size for legacy-rx to support XDP multi-buffer
+5d0a21a475eda9c4f8e7251740cc2f666b9b272d i40e: add pre-xdp page_count in rx_buffer
+170ac9ec78c4485cf4daf8262de1f64290d6d885 i40e: Change size to truesize when using i40e_rx_buffer_flip()
+e52566322baa169e4284915784ad9f619230c6d9 i40e: use frame_sz instead of recalculating truesize for building skb
+8aa0455535e46d6caeeb7a84ba8d486f9adc973e i40e: introduce next_to_process to i40e_ring
+5ee4adc382953dbe424fa5481184b2c8ab4a57c3 i40e: add xdp_buff to i40e_ring struct
+a5fc1b799ef80d6e362d67590b454c1151572283 i40e: add support for XDP multi-buffer Rx
+e45aec4c2f52aa629f2844fb5719469da679272a ice: re-order ice_mbx_reset_snapshot function
+bf5b904495ec3c916ab386313684bd387b7eea28 ice: convert ice_mbx_clear_malvf to void and use WARN
+516caa6e5ebba6681f0a128cd77c1e6d83b0330b ice: track malicious VFs in new ice_mbx_vf_info structure
+9979c63ce8b603a91bbcb827e71b1bd134b06a4a ice: move VF overflow message count into struct ice_mbx_vf_info
+1761c5236dfc688318002ef896d8b233da4c0655 ice: remove ice_mbx_deinit_snapshot
+f7366f4cd8e078c87cb304fbebf40b92f8a12026 ice: merge ice_mbx_report_malvf with ice_mbx_vf_state_handler
+4b97958825bd4688a204feb652c8e67896ff7041 ice: initialize mailbox snapshot earlier in PF init
+14e48ab06aae9ab20d121bdddc923a7d680530e8 ice: declare ice_vc_process_vf_msg in ice_virtchnl.h
+0567d4d7eb707929e9eef1ad15f3973dfcc5f9ba ice: always report VF overflowing mailbox even without PF VSI
+c81eacf44eab7e5a2f2de8d8890ea58de5c81b38 ice: remove unnecessary &array[0] and just use array
+16fcfed1ca4bfbe741665cd0fb14f4a3765ca024 ice: pass mbxdata to ice_is_malicious_vf()
+a9de67de6230cffe187b9de48699b299229371cd ice: print message if ice_mbx_vf_state_handler returns an error
+007d6487bf498f77446a787d4d6824b647546d8f ice: move ice_is_malicious_vf() to ice_virtchnl.c
+2eb0b45e10492e8ede96d86d426503b30d655cea ice: call ice_is_malicious_vf() from ice_vc_process_vf_msg()
+dc6130dd9cce72a3e1e600d39c7d563bdee6defe i40e: Fix kernel crash during reboot when adapter is in recovery mode
+74cf049e457159c4a3901215c6562126423fcee7 igc: Remove obsolete DMA coalescing code
+dd6ea984faa83c1f8f6e8ee5503df60bdd1b3f41 ice: avoid bonding causing auxiliary plug/unplug under RTNL lock
 
---===============6305800781441664496==--
+--===============6437577840330567353==--
