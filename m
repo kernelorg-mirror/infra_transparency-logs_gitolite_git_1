@@ -1,24 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Tue, 28 Feb 2023 20:32:56 -0000
-Message-Id: <167761637636.7097.13381682945488708353@gitolite.kernel.org>
+Subject: post-receive: pub/scm/devel/pahole/pahole
+Date: Tue, 28 Feb 2023 20:40:13 -0000
+Message-Id: <167761681344.12402.106339115083757550@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rafael/linux-pm
-user: rafael
+repo: pub/scm/devel/pahole/pahole
+user: acme
 changes:
-  - ref: refs/heads/bleeding-edge
-    old: 243d50840e68a096cfe5e136232898cddacb4e9f
-    new: 020c69c7d16fa3fafeaf05b78967e71baf96154a
+  - ref: refs/heads/next
+    old: ef68019c357845b41ae99c0af7a4d21194d3738b
+    new: 4ec4b64bd501986b67f78f89e1d30152a7cb7dd7
     log: |
-         e32d546c483a2a0f607687f5b521c2a2f942ffbe ACPI: x86: Drop quirk for HP Elitebook
-         8118a7f7a596348e82232a6716e6dab2f74d1baf Merge branch 'acpi-pm' into bleeding-edge
-         5bd289f69bc145fa10927a6883502a0e7cbcb811 cpufreq: intel_pstate: remove MODULE_LICENSE in non-modules
-         384879bb6a8e6cd14a5e68f7ea0c26635d47b754 Merge branch 'pm-cpufreq' into bleeding-edge
-         d25d01b4e59bde815df52a333f9b0f7558cc3281 powercap: remove MODULE_LICENSE in non-modules
-         020c69c7d16fa3fafeaf05b78967e71baf96154a Merge branch 'powercap' into bleeding-edge
+         721ca66d5be462b28ba07a79e72d48e5e5a6959e dwarf_loader: Fix detection of struct parameters
+         5851040e2468ba044bb88cb8ca48bdeb4b364991 dwarf_loader: Fix parameter location retrieval for location lists
+         111dfd2cee1188925cc070224f0f61f5fb3ed4f7 dwarf_loader: Only mark parameter as using an unexpected register when it does
+         4ec4b64bd501986b67f78f89e1d30152a7cb7dd7 CMakeLists.txt: Call cmake_minimum_required() before project()
          
