@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-integrator
-Date: Tue, 28 Feb 2023 10:49:25 -0000
-Message-Id: <167758136524.28737.9270286774554922368@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Tue, 28 Feb 2023 10:50:47 -0000
+Message-Id: <167758144768.30785.17620882007743252606@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/linusw/linux-integrator
-user: linusw
+repo: pub/scm/linux/kernel/git/netdev/net
+user: pabeni
 changes:
-  - ref: refs/heads/kernel-in-vmalloc-v6.2-rc3-just-ttbr0-split
-    old: 35ac5a9a53d2554bda395cdfa3236d278715caac
-    new: b9e824a65f7f576a929c736500bdad5e10ce74f6
+  - ref: refs/heads/main
+    old: f99e6d7c4ed3be2531bd576425a5bd07fb133bd7
+    new: 11f180a5d62a51b484e9648f9b310e1bd50b1a57
     log: |
-         b9e824a65f7f576a929c736500bdad5e10ce74f6 hack passing kernel_init()
+         11f180a5d62a51b484e9648f9b310e1bd50b1a57 nfc: fdp: add null check of devm_kmalloc_array in fdp_nci_i2c_read_device_properties
          
