@@ -1,31 +1,32 @@
-Content-Type: multipart/mixed; boundary="===============2803309296368695758=="
+Content-Type: multipart/mixed; boundary="===============4003757134065226426=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/livepatching/livepatching
-Date: Tue, 28 Feb 2023 15:51:30 -0000
-Message-Id: <167759949079.5327.7376568186447424060@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/printk/linux
+Date: Tue, 28 Feb 2023 15:53:06 -0000
+Message-Id: <167759958622.5915.7696455285761110564@gitolite.kernel.org>
 
---===============2803309296368695758==
+--===============4003757134065226426==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/livepatching/livepatching
+repo: pub/scm/linux/kernel/git/printk/linux
 user: pmladek
 changes:
   - ref: refs/heads/master
-    old: e1a1ccef7a4f3a3058cd6c039a56b4c2c98479f1
-    new: 7dd86cf80127aeef8a447c81228a77f0f25cc211
-    log: revlist-e1a1ccef7a4f-7dd86cf80127.txt
+    old: 98d0052d0d9dcd5323833482712b5799ed0bbb0b
+    new: d8763154455e92a2ffed256e48fa46bb35ef3bdf
+    log: revlist-98d0052d0d9d-d8763154455e.txt
 
---===============2803309296368695758==
+--===============4003757134065226426==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e1a1ccef7a4f-7dd86cf80127.txt
+Content-Disposition: attachment; filename=revlist-98d0052d0d9d-d8763154455e.txt
 
+dca5161f9bd052e9e73be90716ffd57e8762c697 hv_netvsc: Check status in SEND_RNDIS_PKT completion message
 2edd92570441dd33246210042dc167319a5cf7e3 devlink: don't allow to change net namespace for FW_ACTIVATE reload action
 167ca6a4fd87726e044df2db38fe86f6cb0fb907 ASoC: SOF: Introduce a new set_pm_gate() IPC PM op
 3c168838fb0d64dd64f7d65cdbd7d127ce6112ef ASoC: SOF: Intel: hda-dsp: use set_pm_gate according to ipc version
@@ -1049,6 +1050,5 @@ b72b5fecc1b8a2e595bd03d7d257c88ea3f9fd45 Merge tag 'trace-v6.3' of git://git.ker
 2b79eb73e2c4b362a2a261b7b2f718385fb478e4 Merge tag 'probes-v6.3' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 cd43b5068647f47d6936ffef4d15d99518fcab94 Merge tag 'slab-for-6.3' of git://git.kernel.org/pub/scm/linux/kernel/git/vbabka/slab
 d8763154455e92a2ffed256e48fa46bb35ef3bdf Merge tag 'printk-for-6.3' of git://git.kernel.org/pub/scm/linux/kernel/git/printk/linux
-7dd86cf80127aeef8a447c81228a77f0f25cc211 Merge tag 'livepatching-for-6.3' of git://git.kernel.org/pub/scm/linux/kernel/git/livepatching/livepatching
 
---===============2803309296368695758==--
+--===============4003757134065226426==--
