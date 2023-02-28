@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7616840074953818388=="
+Content-Type: multipart/mixed; boundary="===============8077946912556394370=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Tue, 28 Feb 2023 17:59:43 -0000
-Message-Id: <167760718374.32034.3466757737566797193@gitolite.kernel.org>
+Date: Tue, 28 Feb 2023 18:00:21 -0000
+Message-Id: <167760722166.1625.8130462807453059827@gitolite.kernel.org>
 
---===============7616840074953818388==
+--===============8077946912556394370==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -14,42 +14,21 @@ Content-Transfer-Encoding: 7bit
 service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.3
-    old: fb1847cc460c127b12720119eae5f438ffc62e85
-    new: e48223e36001980318ed886b2fdc1157009d280b
-    log: revlist-fb1847cc460c-e48223e36001.txt
+  - ref: refs/heads/for-linus
+    old: 54bc59d1817867999317dd86166c2be5160f4cea
+    new: f55b0f7c354b2fbb29a6d19711967d6802665f57
+    log: revlist-54bc59d18178-f55b0f7c354b.txt
+  - ref: refs/heads/for-next
+    old: 54bc59d1817867999317dd86166c2be5160f4cea
+    new: f55b0f7c354b2fbb29a6d19711967d6802665f57
+    log: revlist-54bc59d18178-f55b0f7c354b.txt
 
---===============7616840074953818388==
+--===============8077946912556394370==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1677607182 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1677607181-9fbc60ca7f2d13203af05a39b59afdb6c7dfa343
-
-fb1847cc460c127b12720119eae5f438ffc62e85 e48223e36001980318ed886b2fdc1157009d280b refs/heads/for-6.3
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmP+QQ4ACgkQJNaLcl1U
-h9CZ4wf/fQtz+iqpEAXVZaCM8cQGYPbwCHX4iJuNBM+OVSSx6Tyvb1o+lt0qiwug
-WCHTHSxdrKVxsZzUyPOuug11QkVwwOLSLPr6bvXtmcCK4PnL6c6ImvfP/kiC54uE
-ZJ71g8bzXG9EnMM9bkkrTbsDxHq/YVj//02F8HZbguLXrPFlS6lKFGA97IdFJoOz
-u/EXYi6oo31rsjqiw7TTskmIFmea4gHGyshN9DbLnd9oWw5nEc0Oh9N9EfW2el5Y
-U1y9Gku3H84G9ZRBGKEafF069cOYl+rxf8gzARe89w/F4WGADolszkMN7Adlm0bt
-/9fzUGiZLgENZH+yj80Eo/8e2q7tOg==
-=SeDr
------END PGP SIGNATURE-----
-
---===============7616840074953818388==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fb1847cc460c-e48223e36001.txt
+Content-Disposition: attachment; filename=revlist-54bc59d18178-f55b0f7c354b.txt
 
 3425ddaea57af77ca96a59a5b8eaa2f9e1b021ba ASoC: mt6358: Fix event generation for wake on voice stage 2 switch
 8e847a43c28fca0aaa11fba8f91da7dfd9d6936f ASoC: mt6358: Validate Wake on Voice 2 writes
@@ -70,5 +49,6 @@ e3e32993163056f1c4715fee2dad77c632a2394e ASoC: mt8192: Fixes from initial glance
 b201929904a5907fa2d533b80fecd5666a239570 ASoC: mt6358: Fixes from an initial glance at a
 11d4e474861aa3443e52251660e5928103380715 ASoC: mchp-pdmc: fix poc noises when starting
 e48223e36001980318ed886b2fdc1157009d280b ASoC: mt8183: Fixes from an initial glance at a
+f55b0f7c354b2fbb29a6d19711967d6802665f57 Merge remote-tracking branch 'asoc/for-6.2' into asoc-linus
 
---===============7616840074953818388==--
+--===============8077946912556394370==--
