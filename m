@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Tue, 28 Feb 2023 03:12:17 -0000
-Message-Id: <167755393766.3391.18385739331317027911@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Tue, 28 Feb 2023 03:21:12 -0000
+Message-Id: <167755447257.10658.8680073420766092116@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-user: jarkko
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
   - ref: refs/heads/master
-    old: c6fbed5a393c33fa626079f3ce84de1a1e527672
-    new: ffe4a34b29aa672f1fa05f49a7e4c3ea4ab4e12f
+    old: a0491d41076e0d692b7265d5276b02ef2aa83830
+    new: 1797a39d664eb58ae96dd8e2fe918ce161e11b78
     log: |
-         ffe4a34b29aa672f1fa05f49a7e4c3ea4ab4e12f tpm: disable hwrng for fTPM on some AMD designs
+         1797a39d664eb58ae96dd8e2fe918ce161e11b78 Tue Feb 28 03:20:21 AM UTC 2023
          
