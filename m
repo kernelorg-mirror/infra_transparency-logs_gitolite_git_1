@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7064194135398427296=="
+Content-Type: multipart/mixed; boundary="===============2286567904079002986=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 28 Feb 2023 07:13:42 -0000
-Message-Id: <167756842248.1540.9386289518078583158@gitolite.kernel.org>
+Date: Tue, 28 Feb 2023 07:14:12 -0000
+Message-Id: <167756845240.1784.16728354373997209757@gitolite.kernel.org>
 
---===============7064194135398427296==
+--===============2286567904079002986==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,25 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/auto-latest
     old: 9a9a7756f5cfe62a1f6b63be8bfeac5238b09d08
-    new: 4ba1e905f685105037b74656c4e1b41b5810f1b0
-    log: revlist-9a9a7756f5cf-4ba1e905f685.txt
+    new: edb4f8670f6e337bd34438fe53ccb9a4e44ecb23
+    log: revlist-9a9a7756f5cf-edb4f8670f6e.txt
+  - ref: refs/heads/master
+    old: 4ba1e905f685105037b74656c4e1b41b5810f1b0
+    new: edb4f8670f6e337bd34438fe53ccb9a4e44ecb23
+    log: |
+         3081a462c550ff0adf74af9df2e4229b70c62714 Merge branch into tip/master: 'irq/urgent'
+         78da372d2f84747ba8962b3c8561d0d23b310b25 Merge branch into tip/master: 'x86/urgent'
+         edb4f8670f6e337bd34438fe53ccb9a4e44ecb23 Merge branch into tip/master: 'objtool/core'
+         
 
---===============7064194135398427296==
+--===============2286567904079002986==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9a9a7756f5cf-4ba1e905f685.txt
+Content-Disposition: attachment; filename=revlist-9a9a7756f5cf-edb4f8670f6e.txt
 
-cba7217a9269e0c43cb858bdca33b291d6442068 wifi: nl80211: add MLO_LINK_ID to CMD_STOP_AP event
-08b74776a8acb02b7cabb77fc1ccbd93e147edfa wifi: mac80211_hwsim: Rename pid to portid to avoid confusion
 90b2c3cc4b718d7e5591e812313dd72677d9fad0 wifi: nl80211: return error message for malformed chandef
 b25413fed3d43e1ed3340df4d928971bb8639f66 wifi: cfg80211: move puncturing bitmap validation from mac80211
 d7c1a9a0ed180d8884798ce97afe7283622a484f wifi: nl80211: validate and configure puncturing bitmap
@@ -1049,6 +1055,8 @@ d6b9cf417c62601f26fa47f97d6c0681704bf0e3 Merge branch 'work.sysv' of git://git.k
 3df88c6a175d883b58fc3c31e36c94eb5e2ad180 Merge branch 'work.namespace' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
 489fa31ea873282b41046d412ec741f93946fc2d Merge branch 'work.misc' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
 d8e473182ab9e85708067be81d20424045d939fa Merge tag 'x86_tdx_for_6.3' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-4ba1e905f685105037b74656c4e1b41b5810f1b0 Merge branch 'linus'
+3081a462c550ff0adf74af9df2e4229b70c62714 Merge branch into tip/master: 'irq/urgent'
+78da372d2f84747ba8962b3c8561d0d23b310b25 Merge branch into tip/master: 'x86/urgent'
+edb4f8670f6e337bd34438fe53ccb9a4e44ecb23 Merge branch into tip/master: 'objtool/core'
 
---===============7064194135398427296==--
+--===============2286567904079002986==--
