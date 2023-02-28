@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0836788840090145820=="
+Content-Type: multipart/mixed; boundary="===============9096250546958478813=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Tue, 28 Feb 2023 07:42:47 -0000
-Message-Id: <167757016702.20788.9692260699983843571@gitolite.kernel.org>
+Date: Tue, 28 Feb 2023 07:43:02 -0000
+Message-Id: <167757018240.20934.4116964594982963915@gitolite.kernel.org>
 
---===============0836788840090145820==
+--===============9096250546958478813==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/debugfs_cleanup
-    old: 8531201c53e75f23000344a9ab9f46770801aae7
-    new: 99fb5efee0baa83a14ffa85da04f5fd8414ddeb6
-    log: revlist-8531201c53e7-99fb5efee0ba.txt
+  - ref: refs/heads/debugfs_lookup_fix
+    old: f7e918c1d1e5a0945d0693c4a787a547dcdfc3a6
+    new: dbc2f6da37b6ea70d6cc3ba626c2935dd24eae4c
+    log: revlist-f7e918c1d1e5-dbc2f6da37b6.txt
 
---===============0836788840090145820==
+--===============9096250546958478813==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1677570164 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1677570180 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1677570164-852f17a910560ad80e3807c5a8eed1944cf274ea
+nonce 1677570179-33d7c9b1a97b79b84bdca89a7994ce854d026a64
 
-8531201c53e75f23000344a9ab9f46770801aae7 99fb5efee0baa83a14ffa85da04f5fd8414ddeb6 refs/heads/debugfs_cleanup
+f7e918c1d1e5a0945d0693c4a787a547dcdfc3a6 dbc2f6da37b6ea70d6cc3ba626c2935dd24eae4c refs/heads/debugfs_lookup_fix
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmP9sHQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+fy8QAKy5Fpr+NcNliBriF+AB
-32oCIDzRYSjQOV6i/03MDfW2orJtG1YJeVzEneaJPvuB+BsJ18V6BaR3ddoyvlGp
-hLbp43N2GZq6zvDHt2KPEJMFzTJl5a4lP5BYTaTAMpr0+sRlQX6UwOfbHM/DNif/
-UtP64we1Fnw/wJ86OIm1+YjFAMDZ8XYFvYSopdnxA7Zi8p8hnOn7aqXn7odHEG6p
-lf+wiSJXfnyu+K0UqVlPUJ3w2yu16t4DyZQznU7BOpW0b9zQQ+EF0u0Y8dpZ9sdN
-Zb6r8PGoRVZ2hRG/X4chwWsZwV5YjcTu0cFumRpZ58DIDJ7MqQg+y74zbT5Nvplh
-+7TBehaqs7MgYh7IzyOQo8MydNbnl0I7MQ8RAamZgld1Dc0qqQGQzy5Quql2iWUf
-pokKczkfpq4oruCjrl4oQt+H89kCVzKHrUXvuYXVdc6yaLSfFYmFlVvVe8q1P7WN
-W7hIB1e7Y1bz59uEDZVD+gZUlJvKiWSasA3wCudAgezrxRiI0/rP4j8rk6t1VJYT
-n4UjIAj7Cr9fP/9Hwu8wp64OZ+ym2yp+kvufa+nk/pGFILgjEi6OAgHz7Rx/hRO5
-nKOFvaY4fUi0IlrDmrVHL5mungPnOipZyQOsOTws/Y0W6p+SlU80qSYiYhz5G5MJ
-COLp7LFcp4D4uiq4Aa+UIJYq
-=thrP
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmP9sIQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+GHEQAK88kQxfvDITFdiO5QXS
+sIHFXgIZBqK6n6CTtH3dA4lz52LrEUQ/I5jG9WKbWpoYNWoKB+cSb/Zd99ew0Lh2
+l8lw2hXfQnZLJKeA/M1pVNF1f7U6H62w3h85GjRV7yCQx9TZajDwNcxRFpk1P7gI
+7Gy5esnsx8RyQyv1I6Aq2eYHSjdwLngSnTfbxXWCBMm1Fov4i0kUDJjoab+vLasn
+doAFJ8L4+z0FODMxSEp36jgknPICi2EreqSybR27ZNWhqTo5hyve3GwUPcYFGYR5
+aURCTqKdbiaww9BonogAOJWk+StN17BiDr1jlAZYfoNGzPN0AsPEbu2KHw2rhcyn
+ENUlw5Ru+qDhH4NuLizcL2ySLpC9CS8tr8E6kvidrgLt8qKNtGuIrKV/N406bVJs
+lfZDjaI9/pmqjkMTHx1nf1rdL3mCSi3bZrN+O7BY1d6hJikdbW/ROZ/rNl9EdMdZ
+9L2z4j6dugzEwSpwGGe8lVOYwuUa1z1kzlIHLglcWrKZy2b0N0mChaOCcL+rGGYc
+/tndX2xzhrieDaMZcBR3mjUgEjoeqhRjjsc7I2o8Y6BD3U3H7zmO3VWzTaH214t4
+rh8qRvu5DhqJ6bzlR5N1mETRGzCMXMH0wcyO4ri2qdmTXBELbRxc50KVrKQOzfbg
+Gj7RmxedGjjDP0J8Bskfbd35
+=OpL/
 -----END PGP SIGNATURE-----
 
---===============0836788840090145820==
+--===============9096250546958478813==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-8531201c53e7-99fb5efee0ba.txt
+Content-Disposition: attachment; filename=revlist-f7e918c1d1e5-dbc2f6da37b6.txt
 
 0985cd52087d55cc7a85db1cbc48bf4ad3c3b475 dt-bindings: power: r8a779g0: Add missing A3DUL power domain
 bc2d02a7c96c0a27257307850f11a6e5f09b3c66 Merge tag 'renesas-r8a779g0-dt-binding-defs-tag2' into renesas-drivers-for-v6.3
@@ -485,12 +485,7 @@ ccf8f7d71424ce37394c8333482853dba4f33978 xen-netback: remove unused variables pe
 a4eecbae092759537748360299de03e434c9a956 capability: add cap_isidentical
 981ee95cc1f5905ae4936b0dd501085909cdc14f vfs: avoid duplicating creds in faccessat if possible
 ae3419fbac845b4d3f3a9fae4cc80c68d82cdf6e vc_screen: don't clobber return value in vcs_read
-4db3359cb16c1acd23543c399dd886f51e24a422 driver core: remove devm_device_add_groups()
-27eb2b4d81c482e4b7268428b311c4ea3ed8652e sysfs: do not create empty directories if no attributes are present
-abd54e75b3425d3d18caa2f35fed599a1212f3e7 soundwire: sysfs: move sdw_slave_dev_attr_group into the existing list of groups
-6234cee2a50b4b73e6dd04662ffba9fe09eb2981 soundwire: sysfs: cleanup the logic for creating the dp0 sysfs attributes
-0bad8922cf77f619e880700980d4c8e0f2ec53d0 soundwire: sysfs: have the driver core handle the creation of the device groups
-d47ca92e977367fb668fe699c8fb5359e8c600b8 soundwire: sysfs: remove sdw_slave_sysfs_init()
-99fb5efee0baa83a14ffa85da04f5fd8414ddeb6 soundwire: sysfs: remove unneeded ATTRIBUTE_GROUPS() comments
+a10473caf40e46b3773347c9af156e87530e8f43 i915: fix memory leak with using debugfs_lookup()
+dbc2f6da37b6ea70d6cc3ba626c2935dd24eae4c mtd: spi-nor: fix memory leak when using debugfs_lookup()
 
---===============0836788840090145820==--
+--===============9096250546958478813==--
