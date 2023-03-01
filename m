@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6616906853437486242=="
+Content-Type: multipart/mixed; boundary="===============4235463436864202718=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Wed, 01 Mar 2023 21:10:05 -0000
-Message-Id: <167770500559.2538.2315010406055763818@gitolite.kernel.org>
+Date: Wed, 01 Mar 2023 21:10:41 -0000
+Message-Id: <167770504172.2814.14128535738939303645@gitolite.kernel.org>
 
---===============6616906853437486242==
+--===============4235463436864202718==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,27 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: aaa3c08ee0653beaa649d4adfb27ad562641cfd8
-    new: 81563d8548b0478075c720666be348d4199b8591
-    log: revlist-aaa3c08ee065-81563d8548b0.txt
+  - ref: refs/heads/dev-queue
+    old: 3425f3d327c9d89d8d13718229b29b9cade76435
+    new: 9720e8b1250ff31687ada520211d3e5af5099a85
+    log: revlist-3425f3d327c9-9720e8b1250f.txt
 
---===============6616906853437486242==
+--===============4235463436864202718==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-aaa3c08ee065-81563d8548b0.txt
+Content-Disposition: attachment; filename=revlist-3425f3d327c9-9720e8b1250f.txt
 
-73c4f828ce6586b83f9d2a1824b5bf7a72acce62 alpha: Add some spaces to ensure format specification
-b6b17a8b3ecd878d98d5472a9023ede9e669ca72 alpha: fix R_ALPHA_LITERAL reloc for large modules
-9f416948706fd9831314e5747fad07b76916d471 alpha: update config files
-75078afebb48a16d042717fe26d204cdd2743ff8 alpha: remove unused __SLOW_DOWN_IO and SLOW_DOWN_IO definitions
-ff0132f7cf11307deb79a37622b11a16c0a294ed dt-bindings: PCI: qcom: Add MSM8998 specific compatible
-0b93acc60cf36b35132ee8d959e7779db2fcf35b dt-bindings: PCI: qcom: Unify MSM8996 and MSM8998 clock order
-a0754633c32171be7b2a9b8717022f7848efd0c5 dt-bindings: PCI: qcom-ep: Correct qcom,perst-regs
-89a7adad3c0dfccf01643913bde7244feea85f59 dt-bindings: PCI: qcom: Add SM8350
-720e0d91c9772b60a87eb361da02deb3c0c628e4 PCI: qcom: Add SM8350 support
-997e010de9134474dbfde52be03efd7d1bce902d PCI: qcom: Fix host-init error handling
 371a6106b71aeda94a6fcdb8f7cb674dd3c34a96 dt-bindings: PCI: qcom: Sort compatibles alphabetically
 2b1c46ce137b66d38a08aff924137a6fc4e9700e dt-bindings: PCI: qcom: Add IPQ8074 Gen3 port
 f356132229b18ceef5d5ef9103bbaa9bdeb84c8d PCI: qcom: Add IPQ8074 Gen3 port support
@@ -1050,5 +1040,15 @@ fb07390463c95e6eef254044d6dde050bfb9807a net/sched: act_connmark: handle errno o
 693aa2c0d9b6d5b1f2745d31b6e70d09dbbaf06e ila: do not generate empty messages in ila_xlat_nl_cmd_get_mapping()
 dfd2f0eb2347dbdf391fd5b8255fefc58a745472 net/sched: flower: fix fl_change() error recovery path
 81563d8548b0478075c720666be348d4199b8591 net: lan966x: Fix port police support using tc-matchall
+f467584ea3bbdbf6c9dc1d2558798ba678b890ab intel/igbvf: free irq on the error path in igbvf_request_msix()
+6c11cbacf1585a9eaf1f3ae8e535e7d16a933e0e igb: Enable SR-IOV after reinit
+77f0c83b9f07e039ede436454232d3b2084bbf22 igbvf: Regard vf reset nack as success
+6478deb1bafbe5700674bbc0ba13bc72623a5ea9 ice: Fix DSCP PFC TLV creation
+c5398f55311c47f847e96f5bf684b7c235d7ebbd ice: add FDIR counter reset in FDIR init stage
+3d4b835a710b3bed7a052720456393bef34f3547 ethernet: ice: avoid gcc-9 integer overflow warning
+84328edc4f7a3d979739bcddbeb42490f8ee6640 ice: xsk: disable txq irq before flushing hw
+7edc1eef39b9b9c36743c6ce7d5c1417ca82e233 ice: Write all GNSS buffers instead of first one
+ed966997d012654594afb222477cfe257fad50a6 i40e: Fix kernel crash during reboot when adapter is in recovery mode
+9720e8b1250ff31687ada520211d3e5af5099a85 ice: avoid bonding causing auxiliary plug/unplug under RTNL lock
 
---===============6616906853437486242==--
+--===============4235463436864202718==--
