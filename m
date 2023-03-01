@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5523414857130196441=="
+Content-Type: multipart/mixed; boundary="===============3030009862348043436=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Wed, 01 Mar 2023 12:33:56 -0000
-Message-Id: <167767403610.11710.4435579024799961365@gitolite.kernel.org>
+Date: Wed, 01 Mar 2023 12:34:10 -0000
+Message-Id: <167767405015.11835.10459402055046639829@gitolite.kernel.org>
 
---===============5523414857130196441==
+--===============3030009862348043436==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/class_cleanup
-    old: d1b589f6ba579032e06b3997657bdce209478b06
-    new: cb40533de595c7be51a749148220d19027b2a66e
-    log: revlist-d1b589f6ba57-cb40533de595.txt
+  - ref: refs/heads/debugfs_lookup_fix
+    old: dbc2f6da37b6ea70d6cc3ba626c2935dd24eae4c
+    new: 6c9bae12b288907e377182168dca9ed014493e6d
+    log: revlist-dbc2f6da37b6-6c9bae12b288.txt
 
---===============5523414857130196441==
+--===============3030009862348043436==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1677674033 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1677674048 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1677674033-971d6766d47e642f35294487fb0a42188ee8f44d
+nonce 1677674047-2d5a06a279bab4a41ca1642de422b54177ba70a5
 
-d1b589f6ba579032e06b3997657bdce209478b06 cb40533de595c7be51a749148220d19027b2a66e refs/heads/class_cleanup
+dbc2f6da37b6ea70d6cc3ba626c2935dd24eae4c 6c9bae12b288907e377182168dca9ed014493e6d refs/heads/debugfs_lookup_fix
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmP/RjEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+uO8P/RSRfO1LHatQSDrz7pG0
-XpyYblcbPQPvtgSnHPlmm0IdNTpVuQNOSRFrtldfi88azj4VaRMWpijtwnrdTmP/
-AN1HCw4SPyUcjopE9/N9Lj4dVz/OT5xFqq3p07S7vvAyyHeKU3SvxEppiLoFckGl
-ZDw/t8sAzm9t/Ic/AraCpLsVajjCX7WK62qApNrzgW4F4A+5rwzVexUUCzzmvk0E
-5nPp+0mYQZ2Vz/20zQ0nft7+r0RAUDw4bEYwYS99+/xcRZhXbVJm0HcebNBqnKRf
-+NSh4+c48ZcTQhOfXupYJTyOeWta0rdAYdYHh49MrytMpHIN/5ZGOa1UmzwLd5e5
-UPy/IQFUOSaSLUlVvqpeBHtDRoqZCCnXZ/qnrpN/hFCL4vpAyW/fdghLb78DZ9Mf
-ccLOJVYzTEdBLvMb3fRtt5lV9x4TE8a4L+eSWv1BWBcPoE+MQn5LiuCCpKjVkUw/
-g/fVecnNfNhe0a8aibOppaEqeKy4tDmbp4M/AWAz23kHn/Th+y5bjW3MgfhD3Otn
-VVny5Q9xL64+/dgn/MfEq8fMCTV8HmEOpgbAvRB2/OutSaxKphqJAjKS8scPs6IU
-Lt3tUqV52qQyU4q3Gn7NO3+wfPelv39dGdSfZ99nQFRrwaSbMlCBbf6ZNptIk8sj
-cM7+ucCU8Ss1PTQE14VY+Ubu
-=G4zo
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmP/RkAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ptkQAJC7iie4eIw2uE3KAlXV
+tYiZmu403ihhujxwbvDzVy8chGlEw+76EhRYvxJPKtuzxO8AK29d1NmFFZ4Q0X+O
+Y7D+lgvH/jQxkOye8KtKbGHZTyYl9cUZzLxndGdAyj/aOdw0ZNFvOM9hP81tynlO
+jBe7pOxgnFvVGxvy2qd+GKkEVg6enF3pHbjS3cvGtxOWbHxp1sM+lWD6mEDNDB4x
+Fq+1DofBZBNqkIhFENB9gUvyPYBpWKUrUEu3bcgNkItsLVaxFHv/78U1bIgIP1fQ
+oe2fXAKFmOGS9DQIbWWg+/ofu2eGunDqV/pXeg0MTijxuwjk1J6wCb0BB6NFlH8Z
+s5BQqBq1zQpNrtmJatW+6LUMZ7w7vgi5CMOxqIinjFB92US0I59qnhp+WE/YIYaw
+nLpk/gx5SENoe6ouFOht2TG5+TanVnvuM8Hc5jXUmEC2JhJoXgKzT0oZ/g8Nlb86
+yPjKgtKY5Wn2kxmgPimKPJQjXrO4gBLv6OTQLGKtfS0wlS/K3b/bQ1a+BWcPb0Pe
+N0J9XvKb6ZdTkwl6olIKj7mkxhtOQ+W3C26KqJpdrqwDdHrlyi19c/WVmGg25CDN
+sOOetvrEw5NHtG8y/vxXOkjMgwh7AFprnGH6bGxUVozp6HJ1YL/sgmR66jFRUDk6
+GFS0nTSWufGZceBQcfoCXXVt
+=TVdo
 -----END PGP SIGNATURE-----
 
---===============5523414857130196441==
+--===============3030009862348043436==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d1b589f6ba57-cb40533de595.txt
+Content-Disposition: attachment; filename=revlist-dbc2f6da37b6-6c9bae12b288.txt
 
 334c7b13d38321e47d1a51dba0bef9f4c403ec75 pwm: sifive: Always let the first pwm_apply_state succeed
 b3c650ad9bb88ecf36b9aeacf9e7eb7478258da7 pwm: Move pwm_capture() dummy to restore order
@@ -142,17 +142,7 @@ e492250d5252635b6c97d52eddf2792ec26f1ec1 Merge tag 'pwm/for-6.3-rc1' of git://gi
 b1f1382a110bca1ef52234e889246a90f9a0d69b Merge tag 'docs-6.3-2' of git://git.lwn.net/linux
 1899946aaf2566c577683ebe510a83c930cd3751 Merge tag 'i3c/for-6.3' of git://git.kernel.org/pub/scm/linux/kernel/git/i3c/linux
 c0927a7a5391f7d8e593e5e50ead7505a23cadf9 Merge tag 'xfs-6.3-merge-4' of git://git.kernel.org/pub/scm/fs/xfs/xfs-linux
-406943f67c807fab4146f927a879663524398a17 driver core: class: specify the module owner in __class_register()
-ee627560ef109eb2752679c9f6c0f704cc0f08a5 drivers: remove struct module * setting from struct class
-7c1c8d24521c8f686b2ab6940b1cc9f64ec91e1f driver core: class: remove struct module owner out of struct class
-fa73515bcfc4715a60196c4c6f05d8603bfa982f driver core: class: remove module * from class_create()
-144b946ff75084e3dced97801ff81b79e03bc0e9 driver core: class: make class_dev_iter_init() options const
-a002cace25e0ea7290205953169be3deede2440d driver core: class: make class_for_each_device() options const
-73fcfe94939a165ebbba090953846b745e095b5b driver core: class: make class_find_device*() options const
-c848e8e7f35a3e7144aec8e063c502bce8d5b576 driver core: class: make class_create/remove_file*() options const
-65f9d6a3008161929bb7efbe73df450171faedce driver core: device: make device_destroy() take a const class *
-4c14cd3acfd7b45c907815b56116c4cf7e455d60 tpm: fix up the tpm_class shutdown_pre pointer when created
-8899050e181a892e8b19032467627dfd188e4d51 driver core: device: mark struct class in struct device as constant
-cb40533de595c7be51a749148220d19027b2a66e driver core: device: make device_create*() take a const struct class *
+64922debcb3b163cd78b55c350815e86d0bee1a4 i915: fix memory leak with using debugfs_lookup()
+6c9bae12b288907e377182168dca9ed014493e6d mtd: spi-nor: fix memory leak when using debugfs_lookup()
 
---===============5523414857130196441==--
+--===============3030009862348043436==--
