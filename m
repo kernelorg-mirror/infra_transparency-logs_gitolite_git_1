@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0826445113898096491=="
+Content-Type: multipart/mixed; boundary="===============6014994139457593696=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Wed, 01 Mar 2023 12:29:03 -0000
-Message-Id: <167767374373.8547.6847465250879112776@gitolite.kernel.org>
+Date: Wed, 01 Mar 2023 12:33:39 -0000
+Message-Id: <167767401952.11542.4462055869019520733@gitolite.kernel.org>
 
---===============0826445113898096491==
+--===============6014994139457593696==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-testing
-    old: ae3419fbac845b4d3f3a9fae4cc80c68d82cdf6e
-    new: c0927a7a5391f7d8e593e5e50ead7505a23cadf9
-    log: revlist-ae3419fbac84-c0927a7a5391.txt
+  - ref: refs/heads/bus_cleanup
+    old: 5447398fb1728b20784bfde814b2d524b9cb051a
+    new: 3e181816389768d1490b562055db5f9d5b71908f
+    log: revlist-5447398fb172-3e1818163897.txt
 
---===============0826445113898096491==
+--===============6014994139457593696==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1677673743 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1677674017 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1677673742-25c26636c5d5a59d25fb7a716f3add78c4636f09
+nonce 1677674016-269b97716b298d70bd226b687c7c139e1073cbd9
 
-ae3419fbac845b4d3f3a9fae4cc80c68d82cdf6e c0927a7a5391f7d8e593e5e50ead7505a23cadf9 refs/heads/driver-core-testing
+5447398fb1728b20784bfde814b2d524b9cb051a 3e181816389768d1490b562055db5f9d5b71908f refs/heads/bus_cleanup
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmP/RQ8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+towP/j1KyuP0DeNhYmkzj28a
-lH18IpHhoqjdVW8oyBR20csCusOfiVdpoldnLoK41XfFSxfjNrWeCG7WtqVWzJMQ
-dSX5JAPUQ+k9E4IHO3DBkTcMEy97bVdvWu7fmX7sT8yYshGAmll/JDeIXqCZxAEB
-DEPMZBsGIrUKkzdKP/OIybRQs51aGirhtKmKkwOFlhEwNS5KnSDGsZw+Iu872z4n
-l3Ji+MA/q9Yw9VxmpKJElWcnmvbFssb9n6QyStCy0yk0aL3iwGAzY2zSBr7HAYDu
-SXhSUO0ClQSfTrmP4YAkGBshQYJpz1OFC5+7JgxsReHqlrsTBjeZy20+LLMhKsrB
-pOqSB5844tgkimO0ibmZ59zi8cm9KbKEbRoTvZKwpu7iaoxnVLX2SsmWbHD67mq1
-TK+5xPvxC/flytP7gwi/9UIjv0mcRUIsAONpJ1wKGYlzFWq4aZNRO+8vO3nv46t9
-YjCHNpiQK8e9SL48Twle12+Qb9E78wDFLh1l9g7NLihHW7vD9jd3DxqygB/RL6yO
-KFkyAB4N2cjubBINJd33yb+ID8eOWfSniECa7/1np9SQ4llwueRWlQ3nAGG/Br3M
-CgAID+xetktvnovZj5IZcQLuHNfJmDgRUtFXclK6aWlT2RRzRdEV7Uib/Wis7UcS
-skOYxNdoycrELcmoFKV5ND2G
-=a8+x
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmP/RiEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+XJ8P/RY+188yVHlp4Gdj6iwP
+B8GWMffWyp5I9ylV6j7rnx4z3mixbPue7rnbSTna8qjYe2YJFunyqXFFa64ff7UE
+bQ+4eRuhMvHF/pSvvY0oCw0m7vOyq+ctAq/C0sFciuDJBeCVvbDDsw8rdz5f7jO3
+fe67VlLfr4BBQVuXW5VZU1hvnHfHponCpSWn0w4GDGRWGkyn9hhSo6AQI6v84Su7
+DKV87lFobJGaIz9TR5meYaTjWuwCvzctGeR7oHYcCddsYyZokhoOsuLTTLUJ2ssK
+GGs9OdOqudms18DUGbXjqQE+r28dE3xiJBhHKZoXbcEnTLGfeVaTzkTA2L+GPfdl
+jqQviFZvLPOUvbw3SkllXK+jyoWe5PPWErsj7qCNbaRyKeWO09NtjRuunZxI1HtM
+/Drd0MWvqfzOxL0Is8R7pvtxR1HlCyqN7PJNol6s/5CO+DjxIzV5w1kZJhKfyzmN
+OEdgAOOEftyz5SIIFJ32MlG3DS3OVwBy8RggH0l/tzYV+6wczC9AoCWLtNcPuZ+C
+gY5EikR+orakKT4hWlqFmUnyZMA+tYANZh4vmW2bJL1yWiuf48lapNa6xm+lgXls
+4uehBaT46z70Q+eVA1iglt154omFerSvOor2Dpv4R8BBOvcEkHicw0Q1icfwvq68
+3IVx2l+DKSjkW2ujTzjJC52p
+=sCrh
 -----END PGP SIGNATURE-----
 
---===============0826445113898096491==
+--===============6014994139457593696==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ae3419fbac84-c0927a7a5391.txt
+Content-Disposition: attachment; filename=revlist-5447398fb172-3e1818163897.txt
 
 334c7b13d38321e47d1a51dba0bef9f4c403ec75 pwm: sifive: Always let the first pwm_apply_state succeed
 b3c650ad9bb88ecf36b9aeacf9e7eb7478258da7 pwm: Move pwm_capture() dummy to restore order
@@ -142,5 +142,41 @@ e492250d5252635b6c97d52eddf2792ec26f1ec1 Merge tag 'pwm/for-6.3-rc1' of git://gi
 b1f1382a110bca1ef52234e889246a90f9a0d69b Merge tag 'docs-6.3-2' of git://git.lwn.net/linux
 1899946aaf2566c577683ebe510a83c930cd3751 Merge tag 'i3c/for-6.3' of git://git.kernel.org/pub/scm/linux/kernel/git/i3c/linux
 c0927a7a5391f7d8e593e5e50ead7505a23cadf9 Merge tag 'xfs-6.3-merge-4' of git://git.kernel.org/pub/scm/fs/xfs/xfs-linux
+d99b08d6c99482f7134c8605b12151afa1db9144 EDAC/sysfs: move to use bus_get_dev_root()
+b42c8664bec4f5cd23f75f7de1feb3ebb0c35da2 ACPI: LPIT: move to use bus_get_dev_root()
+02c1789ea31d78c664bba330b13684c2fce11c9b cpufreq: move to use bus_get_dev_root()
+45dbf86f0438de7cbb31833608e05083f0869a03 platform/x86: ibm_rtl: move to use bus_get_dev_root()
+635bd474526f9ccfa6e084d8141ed4ff226a99c9 platform/x86: intel-uncore-freq: move to use bus_get_dev_root()
+5cc92b569982780f401690b7b2f5082f3c00bd79 cpuidle: move to use bus_get_dev_root()
+9e2523d3841939e3b3727acd7ed11cdd4b869011 cpu/hotplug: move to use bus_get_dev_root()
+b52ae59d85d92aff60e55c228a447670ddcb6aa7 workqueue: move to use bus_get_dev_root()
+664b50694f8b6a233f6a7764f270ead25d7a9c62 x86/microcode: move to use bus_get_dev_root()
+064d68842b75b040a972f351f1716a2c31de6405 x86/umwait: move to use bus_get_dev_root()
+80b41e3b35685f7c56f1a9e9cd2d9cf69ec9b583 arm64: cpufeature: move to use bus_get_dev_root()
+72f64d9779b6c0866a782589f9e6ecd0137c9cb2 powerpc/sysfs: move to use bus_get_dev_root()
+c3d010c9a50ddf9eeb4b72f4c95a21ec34a286ff powerpc/powernv: move to use bus_get_dev_root()
+2b77fe9afbecc8ca032549716623476caccd123a powerpc/pseries: move to use bus_get_dev_root()
+4f3d27cbdd3433fa07dcd234cbee18780672c39c powerpc/fsl: move to use bus_get_dev_root()
+efc7efa7fb65343fe2350cec7751e861a5720136 sh: dma-sysfs: move to use bus_get_dev_root()
+6796790ca4abc96751a98ac08e34ff4961856374 sh: intc: move to use bus_get_dev_root()
+6186b68eef4f6628e82364c7b69a003ba44bb065 s390/topology: move to use bus_get_dev_root()
+e8cd54473f85676d5ee2ba4418cdbc96303231db s390/smp: move to use bus_get_dev_root()
+a5d40a037400cff1137b4e245baf157835b302ef cpufreq: amd-pstate: move to use bus_get_dev_root()
+a71647f9972e21b7cb098c8299a808992cf332bc driver core: bus: move dev_root out of struct bus_type
+fcdb1100bcd13b3cffc0243fba0f0caa0e659c9a driver core: bus: mark the struct bus_type for sysfs callbacks as constant
+dec180abc01ed6fb3147ed16e865041f2d59537c driver core: bus: constantify bus_register()
+cdc8c9e2e528f99ee6ae9f1a3df028e64b454545 driver core: bus: constify bus_rescan_devices()
+71f7c0865559b3cb64e14b77285448744d0c2a35 driver core: bus: constify driver_find()
+5d4a9fe6acf15b8b512b9e62cca69674cede17b7 driver core: bus: constify bus_get()
+006719acdf66256c2f83c923352c141d25b10504 driver core: make the bus_type in struct device_driver constant
+9bc5f06b929ca1d72c6857e350e949f2e64d830e crypto: hisilicon/qm - make struct bus_type * const
+74d8b3cc44072e0c29f4493100eb149d637c0bb2 drm/i915/huc: use const struct bus_type pointers
+929fef0b12ab064a9c814b2c95853511a90ee73f vhost-vdpa: vhost_vdpa_alloc_domain() should be using a const struct bus_type *
+4cfa977edce1066e1614e15900ebd2006a2b8f76 dmaengine: idxd: use const struct bus_type *
+90881e14dc5acb0af36d484fe1951b445a51944d ARM/dma-mapping: const a pointer to bus_type in arm_iommu_create_mapping()
+6d42954ceee02331e14bee8b30e4578e150ba1de iommu: make the pointer to struct bus_type constant
+85963f0ffaaed734ca350714286fb97696f29e31 driver core: device.h: make struct bus_type a const *
+cacfc07fc82ee8ef288043d8963e925f5060dc82 USB: mark all struct bus_type as const
+3e181816389768d1490b562055db5f9d5b71908f FIXME: driver core: platform: make platform_bus_type constant
 
---===============0826445113898096491==--
+--===============6014994139457593696==--
