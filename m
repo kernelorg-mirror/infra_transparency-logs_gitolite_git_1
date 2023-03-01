@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6021388621081848014=="
+Content-Type: multipart/mixed; boundary="===============1119043285806577038=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Wed, 01 Mar 2023 23:40:17 -0000
-Message-Id: <167771401715.3964.16515574790701029555@gitolite.kernel.org>
+Date: Wed, 01 Mar 2023 23:40:34 -0000
+Message-Id: <167771403446.4165.18293833954574333236@gitolite.kernel.org>
 
---===============6021388621081848014==
+--===============1119043285806577038==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/next
     old: ffe4a34b29aa672f1fa05f49a7e4c3ea4ab4e12f
     new: 8699d5244e37f8b3bf0e1deaa8e17f94130677b0
     log: revlist-ffe4a34b29aa-8699d5244e37.txt
 
---===============6021388621081848014==
+--===============1119043285806577038==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ ee3f96b164688dae21e2466a57f2e806b64e8a37 Merge tag 'nfsd-6.3-1' of git://git.ker
 d7d7cf6ce842586b7c3cef05774cafa0060c8d87 tpm/eventlog: Don't abort tpm_read_log on faulty ACPI address
 8699d5244e37f8b3bf0e1deaa8e17f94130677b0 tpm: disable hwrng for fTPM on some AMD designs
 
---===============6021388621081848014==--
+--===============1119043285806577038==--
