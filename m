@@ -1,84 +1,116 @@
-Content-Type: multipart/mixed; boundary="===============2604555711132045924=="
+Content-Type: multipart/mixed; boundary="===============4911641525057514819=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/deller/parisc-linux
-Date: Wed, 01 Mar 2023 04:01:03 -0000
-Message-Id: <167764326372.18644.1994315164481443434@gitolite.kernel.org>
+Subject: post-receive: pub/scm/virt/kvm/mst/qemu
+Date: Wed, 01 Mar 2023 04:37:27 -0000
+Message-Id: <167764544710.9999.4525452416174126056@gitolite.kernel.org>
 
---===============2604555711132045924==
+--===============4911641525057514819==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/deller/parisc-linux
-user: deller
+repo: pub/scm/virt/kvm/mst/qemu
+user: mst
 changes:
-  - ref: refs/heads/master
-    old: e492250d5252635b6c97d52eddf2792ec26f1ec1
-    new: c0927a7a5391f7d8e593e5e50ead7505a23cadf9
-    log: revlist-e492250d5252-c0927a7a5391.txt
+  - ref: refs/heads/next
+    old: f5cb612867d3b10b86d6361ba041767e02c1b127
+    new: 3087e07dcbdba19d83d176c40a47bf524f29dc6f
+    log: revlist-f5cb612867d3-3087e07dcbdb.txt
+  - ref: refs/heads/pci
+    old: f5cb612867d3b10b86d6361ba041767e02c1b127
+    new: 3087e07dcbdba19d83d176c40a47bf524f29dc6f
+    log: revlist-f5cb612867d3-3087e07dcbdb.txt
 
---===============2604555711132045924==
-Content-Type: text/plain; charset="us-ascii"
+--===============4911641525057514819==
+Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e492250d5252-c0927a7a5391.txt
+Content-Transfer-Encoding: 8bit
+Content-Disposition: attachment; filename=revlist-f5cb612867d3-3087e07dcbdb.txt
 
-1dd0510f6d4b85616a36aabb9be38389467122d9 xfs: fix low space alloc deadlock
-f08f984c63e9980614ae3a0a574b31eaaef284b2 xfs: prefer free inodes at ENOSPC over chunk allocation
-d5753847b216db0e553e8065aa825cfe497ad143 xfs: block reservation too large for minleft allocation
-36b6ad2d9cb81b0d52ae1598286ca5809cd39003 xfs: drop firstblock constraints from allocation setup
-692b6cddeb65a5170c1e63d25b1ffb7822e80f7d xfs: t_firstblock is tracking AGs not blocks
-55d5c3a386d74d3f374023c8fa386f524a9192e8 xfs: don't assert fail on transaction cancel with deferred ops
-c4d5660afbdcd3f0fa3bbf563e059511fba8445f xfs: active perag reference counting
-368e2d09b41caa5b44a61bb518c362f46d6d615c xfs: rework the perag trace points to be perag centric
-498f0adbcdb6a68403bfb9645a7555b789a7fee4 xfs: convert xfs_imap() to take a perag
-dedab3e4379d298ed60b6c52a15168807b48d57a xfs: use active perag references for inode allocation
-bab8b795185bf37801a4f7ee5c321eee288c2f10 xfs: inobt can use perags in many more places than it does
-20a5eab49d354a2837e0af3f07f92a104de52804 xfs: convert xfs_ialloc_next_ag() to an atomic
-7ac2ff8bb3713c7cb43564c04384af2ee7cc1f8d xfs: perags need atomic operational state
-76257a15873ccce817e0c4441f6bb66fb8f8201c xfs: introduce xfs_for_each_perag_wrap()
-ecd788a92460eef44c5444290757bfd0f38d91b4 xfs: rework xfs_alloc_vextent()
-2edf06a50f5bbe664283f3c55c480fc013221d70 xfs: factor xfs_alloc_vextent_this_ag() for  _iterate_ags()
-4811c933ea1ab7de86507dc9f7c9d3d9d71cafb5 xfs: combine __xfs_alloc_vextent_this_ag and  xfs_alloc_ag_vextent
-74c36a8689d3d8ca9d9e96759c9bbf337e049097 xfs: use xfs_alloc_vextent_this_ag() where appropriate
-85843327094f9de9cf0129cd9a3a43128c6f5ac8 xfs: factor xfs_bmap_btalloc()
-319c9e874ac8721acdb6583e3459ef595e5ed0a6 xfs: use xfs_alloc_vextent_first_ag() where appropriate
-2a7f6d41d8b72412228ede538bdf0e81bf9738f4 xfs: use xfs_alloc_vextent_start_bno() where appropriate
-db4710fd12248e5d4c3842520cd13f034136576b xfs: introduce xfs_alloc_vextent_near_bno()
-5f36b2ce79f254dd00cdc88374271df7ce843d56 xfs: introduce xfs_alloc_vextent_exact_bno()
-74b9aa63193b288191d6f01b61c819cef2807138 xfs: introduce xfs_alloc_vextent_prepare()
-e4d174260779ff0e2dc5de951c2e235721b02b05 xfs: move allocation accounting to xfs_alloc_vextent_set_fsbno()
-230e8fe8462ffda0849ea40b61dcf9f233854076 xfs: fold xfs_alloc_ag_vextent() into callers
-8b81356825ffb96b3b167b4dabbbbdb506bb0e0b xfs: move the minimum agno checks into xfs_alloc_vextent_check_args
-3432ef6111997f39d2f708dd508159dfaca72942 xfs: convert xfs_alloc_vextent_iterate_ags() to use perag walker
-35bf2b1abc9a753321db3b3787f5b5de6bd2b370 xfs: convert trim to use for_each_perag_range
-89563e7dc099343bf7792515452e1a24005d98a6 xfs: factor out filestreams from xfs_bmap_btalloc_nullfb
-6b637ad0c7be85ecb795697ea51051039b753da2 xfs: get rid of notinit from xfs_bmap_longest_free_extent
-05cf492a8d01f48d4b8d8f0b93f2d75de7349f12 xfs: use xfs_bmap_longest_free_extent() in filestreams
-8f7747ad8c52cde585b9456f6dbd1984af7b97bc xfs: move xfs_bmap_btalloc_filestreams() to xfs_filestreams.c
-a52dc2ad363088d0e0ab05a71f0496e2377e5cc9 xfs: merge filestream AG lookup into xfs_filestream_select_ag()
-ba34de8defe013e4062bdc2ed57d748d6807a96a xfs: merge new filestream AG selection into xfs_filestream_select_ag()
-3e43877a9dac13771ac722462c87bea0bdc50759 xfs: remove xfs_filestream_select_ag() longest extent check
-f38b46bbfa76a854c4c2a27b1617d66fefbb3f80 xfs: factor out MRU hit case in xfs_filestream_select_ag
-3054face139f9c77566a90a0524dd85c2f38c7f2 xfs: track an active perag reference in filestreams
-eb70aa2d8ed9a6fc3525f305226c550524390cd2 xfs: use for_each_perag_wrap in xfs_filestream_pick_ag
-571e259282a43f58b1f70dcbf2add20d8c83a72b xfs: pass perag to filestreams tracing
-f8f1ed1ab3babad46b25e2dbe8de43b33fe7aaa6 xfs: return a referenced perag from filestreams allocator
-bd4f5d09cc93c8ca51e4efea86ac90a4bb553d6e xfs: refactor the filestreams allocator pick functions
-571dc9ae4eefb452d32cfb3761a87089e8f37ca7 Merge tag 'xfs-alloc-perag-conversion' of git://git.kernel.org/pub/scm/linux/kernel/git/dgc/linux-xfs into xfs-6.3-merge-A
-60b730a40c43fbcc034970d3e77eb0f25b8cc1cf xfs: fix uninitialized variable access
-01178ee713100c7d7e738992134545acff472d1d docs: locking: refer to the actual existing config names
-1481df6cbd0d606fa1a26b752e2e1aba0b650093 docs/sp_SP: Add process programming-language translation
-b8885e2615f4d623334855e7fad20e49b0e0f96d Documentation: front page: use recommended heading adornments
-901578a45950bcc4d5055a24e9016d61b84dc1a2 docs: recommend using Link: whenever using Reported-by:
-f195c470f2c2cf3737b2b157a5a2dbe182e374fa i3c: transfer pid from boardinfo to device info
-6e2985c938e8b765b3de299c561d87f98330c546 xfs: restore old agirotor behavior
-510d2358c466bf6588034f0d3b2266eed2bc0a51 i3c: master: dw: stop hardcoding initial speed
-b1f1382a110bca1ef52234e889246a90f9a0d69b Merge tag 'docs-6.3-2' of git://git.lwn.net/linux
-1899946aaf2566c577683ebe510a83c930cd3751 Merge tag 'i3c/for-6.3' of git://git.kernel.org/pub/scm/linux/kernel/git/i3c/linux
-c0927a7a5391f7d8e593e5e50ead7505a23cadf9 Merge tag 'xfs-6.3-merge-4' of git://git.kernel.org/pub/scm/fs/xfs/xfs-linux
+8d3de1f3693dc1ea9d278bc2582ff83991a88a4f hw/smbios: fix field corruption in type 4 table
+8dcaf71e45e8ecc70ef2aa74c013c1ccd48a2a65 shpc: disallow unplug when power indicator is blinking
+ee11a405a1fbdaefc08f306797e5e049be2b6338 hw/i386/acpi-build: Remove unused attributes
+e33156b32c4490bbc71cf3c68fa4002413f9f0aa hw/isa/isa-bus: Turn isa_build_aml() into qbus_build_aml()
+00b5efe64716b795efadb340fae3b064cc7431d1 hw/acpi/piix4: No need to #include "hw/southbridge/piix.h"
+ed585a88db019e676b859004e025b0d8a8ebc23d hw/acpi/acpi_dev_interface: Remove unused parameter from AcpiDeviceIfClass::madt_cpu
+fc3d6ca0d390cb9926c64d5a9dfd9fd3a4bdbd2e vhost-user: Correct a reference of TARGET_AARCH64
+f8f1412558d602df50e9c3e5599806f866b4e634 hw/pci-host: Use register definitions from PCI standard
+1884a86b703cfc76de06812bc94fa8b80b673d63 virtio-rng-pci: fix migration compat for vectors
+6d5d65775dfd6b6e1c7362e28da50ed4b7641bff intel-iommu: Document iova_tree
+366843f39c5d4145739bf90bec423dadce1c02a1 x86: don't let decompressed kernel image clobber setup_data
+6457080531de5565158031630e905962e803e4db tests: qtest: print device_add error before failing test
+7911a531573c4c8c9d660fdda47ac3cb224b5f3f tests: acpi: cleanup arguments to make them more readable
+ae1e825c876de22ff020582bb7781e8391024db1 tests: acpi: whitelist DSDT blobs for tests that use pci-bridges
+5af7c7db813266eb7dcfbf54578b4768514d74e8 tests: acpi: extend pcihp with nested bridges
+055e5c93ef74440ee2dba71c45fa110541842219 tests: acpi: update expected blobs
+79dbb152a81dce56031b556836b0746b46a09aa6 tests: acpi: cleanup use_uefi argument usage
+53bb265b91a3ef7d77493c013c97cc6ce129d1e3 pci_bridge: remove whitespace
+4f4e6548275b348faf53b6ee9ca22c4f4c3d86d1 x86: acpi: pcihp: clean up duplicate bridge_in_acpi assignment
+7b2bc5300e49ca5592a787955922e80d92ce70f4 pci: acpi hotplug: rename x-native-hotplug to x-do-not-expose-native-hotplug-cap
+36565e352dd581a92ca1a67b516842c30c19d73f pcihp: piix4: do not call acpi_pcihp_reset() when ACPI PCI hotplug is disabled
+5c38240abee129a0221858b6df0976008694612b pci: acpihp: assign BSEL only to coldplugged bridges
+2761c0ed40512113ebd9dfa55633517b42877500 x86: pcihp: fix invalid AML PCNT calls to hotplugged bridges
+4175b51813d79fc8f07113f46998213faab4c405 tests: boot_sector_test: avoid crashing if status is not available yet
+cc48d493e60058df836300522702f5eb0dcf5897 tests: acpi: extend bridge tests with hotplugged bridges
+c57e0fbeafc513c0915c83d78e4ee74fad37fa58 tests: boot_sector_test(): make it multi-shot
+db5c30c903c175d4c39cf8c9d0479242a22770d6 tests: acpi: add reboot cycle to bridge test
+a72c8ac7ecc968a70cb7b76edaa7533fd7441c7b tests: acpi: whitelist DSDT before refactoring acpi based PCI hotplug machinery
+01ad852de55919dba74b206ce162303175f9952e pcihp: drop pcihp_bridge_en dependency when composing PCNT method
+20e440ae258c471bbdf6f8e8c50fca62b7cedec5 tests: acpi: update expected blobs
+8110ffb3f4e3a098e50867b8c2cb2f4d2a351490 tests: acpi: whitelist DSDT before refactoring acpi based PCI hotplug machinery
+1146e3fa69f766ef35c21798b3a2691f713e3239 pcihp: compose PCNT callchain right before its user _GPE._E01
+af073cd548710dcb514cd8747fbfc961b9c4c31a pcihp: do not put empty PCNT in DSDT
+67601cfb0f5193324e810ec5608c1605d02d704e tests: acpi: update expected blobs
+d36a779d6f812dbb651ffdec7f0f071bb0d3eba5 whitelist DSDT before adding endpoint devices to bridge testcases
+010a8841f2ebfb97a726c940ba05d525ec3aee21 tests: acpi: add endpoint devices to bridges
+46ade7551e4e74adc39db203d9d9d77400697055 tests: acpi: update expected blobs
+bc033e8602438b42021f4bceead31ffba383039e x86: pcihp: acpi: prepare slot ignore rule to work with self describing bridges
+a0c3310d67fce54abad625ba694e05d55989a4fd pci: acpi: wire up AcpiDevAmlIf interface to generic bridge
+e21b627d2bb2a7543dd9f51bd438bcde8e96c0f3 pcihp: make bridge describe itself using AcpiDevAmlIfClass:build_dev_aml
+8dcbdac2d0c4eeb81d07a307bba66eeea9dc4fa9 pci: make sure pci_bus_is_express() won't error out with "discards ‘const’ qualifier"
+4c96528672b39bb5231fb33154275c5c3b582b77 pcihp: isolate rule whether slot should be described in DSDT
+41a512b7f39f7e851f475f4a4d14bac196f5af1c tests: acpi: whitelist DSDT before decoupling PCI hotplug code from basic slots description
+1cd3890e07d5fdbcb67303df4140b4a9a584f652 pcihp: acpi: decouple hotplug and generic slots description
+54d2895477ba37f3733b0e074d3235da08501a39 tests: acpi: update expected blobs
+a59b0023c66cbb48b8d27f90bb9e3c01aef1b845 tests: acpi: whitelist DSDT blobs before removing dynamic _DSM on coldplugged bridges
+71fc6a2f11be0cde7b07a6fb88d94fd70e407630 pcihp: acpi: ignore coldplugged bridges when composing hotpluggable slots
+6524dcba1c86afdd7881c9706be113363eaf0ee0 tests: acpi: update expected blobs
+8a60dfecff1263602c0773a51dba180aa4a554ac tests: acpi: whitelist DSDT before moving non-hotpluggble slots description from hotplug path
+fd709609c25bc978eebbb2defbbd3f44b5c6f169 pcihp: generate populated non-hotpluggble slot descriptions on non-hotplug path
+51c0ddbd9d677a185b60cb4bfabf315875928e4f tests: acpi: update expected blobs
+1d423d245483cfa0594fc90d40817b5084ca3e86 vhost-user: Skip unnecessary duplicated VHOST_USER_ADD/REM_MEM_REG requests
+dd1e787cd47c3878e081d894c5b8a29bf8aac405 hw: Use TYPE_PCI_BUS definition where appropriate
+2125cbcf0267338add1ced753b2e8b5fde295146 tests/qtest/bios-tables-test: Make the test less verbose by default
+b4e7108c4e8124e54e41356dfc1b89219d692e74 Revert "vhost-user: Monitor slave channel in vhost_user_read()"
+8c7b76d0e4909de29910a8b4826158162d6e5eb5 Revert "vhost-user: Introduce nested event loop in vhost_user_read()"
+434778c24c558c383a5f35087b04e7eaf450b92a docs/pcie.txt: Replace ioh3420 with pcie-root-port
+d2f5788c8668d58158839a8ec939cfba96fa798e Revert "x86: don't let decompressed kernel image clobber setup_data"
+842d5261e2376105088564d681f65d9481d7d4cf Revert "x86: do not re-randomize RNG seed on snapshot load"
+0dd55e6ecf99552af6184c602ba78c4ad94ee31d Revert "x86: re-initialize RNG seed when selecting kernel"
+f19461d385d463a46e1ec6a650aea43acff4c6eb Revert "x86: reinitialize RNG seed on system reboot"
+ea52de5e35dede2695f576e4af75a795f9ce5bec Revert "x86: use typedef for SetupData struct"
+7a799e15d4523117a68f4a9ccba7369f02d4e899 Revert "x86: return modified setup_data only if read as memory, not as file"
+e5e377e44bfa3da31cb2df4f959deba0907b78e0 Revert "hw/i386: pass RNG seed via setup_data entry"
+e1cd0ddc90742b7bc0879a3850b0fd3478ce9bcd virtio-net: clear guest_announce feature if no cvq backend
+258c7fa4bd00bf1c71b7c84662dd152689d2adc7 cryptodev: Introduce cryptodev.json
+733af6a7630bf7905db92ac8e63b5061a20bb351 cryptodev: Remove 'name' & 'model' fields
+cdecbd40a5b0c63be0a05ef54f9007338869bbe2 cryptodev: Introduce cryptodev alg type in QAPI
+feacf45ceeb591a94dac54f4412c0363def363a7 cryptodev: Introduce server type in QAPI
+ec871aa8256331d9db4acd82041fc2d514948efc cryptodev: Introduce 'query-cryptodev' QMP command
+8e7d242d38a2ddfe76a1edf90d845822cd184473 cryptodev-builtin: Detect akcipher capability
+abb67972152057da5e097e8d40873076ce4b0397 hmp: add cryptodev info command
+a1d5b5613224a62d04305b552ed8a447a0bc3727 cryptodev: Use CryptoDevBackendOpInfo for operation
+a5965db01040deb31d1f3e25940f2dc2e500efc3 cryptodev: Account statistics
+4ed9be24a7d14dfbdeb2717757141fa5bd92ead4 cryptodev: support QoS
+3b473ef7123cb8402f21704d6fc211bde5fde256 cryptodev: Support query-stats QMP command
+38ef08bad27a02a2fc729c9ed1d76fc68b3a81c7 MAINTAINERS: add myself as the maintainer for cryptodev
+69b8fb1b6d0c411158a000d87317920b815f6df4 backends/vhost-user: remove the ioeventfd check
+b6412262c9a90743358ee35061673640d56dad5d vhost-user-gpio: Configure vhost_dev when connecting
+7f7be5e18623eddf39bc1b8446aeec3373b83eac vhost-user-i2c: Back up vqs before cleaning up vhost_dev
+6bc38d7bf850b1f6d74ab605fdecf92d90198ed7 vhost-user-rng: Back up vqs before cleaning up vhost_dev
+3087e07dcbdba19d83d176c40a47bf524f29dc6f virtio-rng-pci: fix transitional migration compat for vectors
 
---===============2604555711132045924==--
+--===============4911641525057514819==--
