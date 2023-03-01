@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7344054868114897104=="
+Content-Type: multipart/mixed; boundary="===============6135894094658235193=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
 Date: Wed, 01 Mar 2023 18:04:14 -0000
-Message-Id: <167769385461.5582.4269387596000856844@gitolite.kernel.org>
+Message-Id: <167769385466.5592.7842400221251436418@gitolite.kernel.org>
 
---===============7344054868114897104==
+--===============6135894094658235193==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,12 +16,12 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-6.2.y
-    old: 8c20eb7e6a27b2c493b0bbb435e75cae7135634f
-    new: 9aa0104006970b0c030b34dd7d01277250de3a7a
-    log: revlist-8c20eb7e6a27-9aa010400697.txt
+  - ref: refs/heads/linux-4.14.y
+    old: 7878a41b6cc1ada4bb804eee96beb2c54322806c
+    new: 3f1ee349aa8c1bd118738e82391ead5c968bdc42
+    log: revlist-7878a41b6cc1-3f1ee349aa8c.txt
 
---===============7344054868114897104==
+--===============6135894094658235193==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -32,47 +32,42 @@ pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1677693853 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
 nonce 1677693853-2487f11656eac9208d707549c8c57a57e8bc18b1
 
-8c20eb7e6a27b2c493b0bbb435e75cae7135634f 9aa0104006970b0c030b34dd7d01277250de3a7a refs/heads/linux-6.2.y
+7878a41b6cc1ada4bb804eee96beb2c54322806c 3f1ee349aa8c1bd118738e82391ead5c968bdc42 refs/heads/linux-4.14.y
 -----BEGIN PGP SIGNATURE-----
 
 iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmP/k50bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+SqAQAJ+nhvxf9s17Hbga0cLY
-BdAbWE14PAKj/Nb94zkbbMTVNMqcfV2mPsYSOb5W6L4ad61jnkOYBS2lwOAunLvq
-LrF9TFZ2+DQwpnWzwkuE1gH4vq2m87K6HVNgPpRNdGdFWaQquSljJ4w7b6lsbCZg
-rzq2uGtXPblaD7MUThQpYk1LM/kdUn03nMJIWM1dyIj1cfJvoQnaBCIHLzCuCBzG
-XK3MOflEPKU9jbtgW+ojjN31MDF8ucrcsT2GDMfMYLtm7hJ9LdLF1abGvwL9Yt7X
-xz/bJXediA/rxUu13eAMdeqN0YPmpt+A+0vGOif5G9UBhmgJ9swkMGQWEevYUfKU
-cFFnofms9tYa+R5a9QKKCGw9fiX+CwTVPpR9AYcWpaJxyb7UjCJWUPUBsdDgHpQA
-MGYoLN3KZAZIOh+IE9hRWms4X0P85VnR3zHyTv6OaoDyjRulccQi0y3TiRspdM0V
-+X97uUmO2TBObcuRTUB2WPyrG28ZVFFmV0S0l+c+WhgCcqUsZq2XpEnkaJhQBz5O
-tkJvh2M1gepHjhVpZDOhnvB01qs3NioD+MLH4BwmHFQB7MU9X3mI8BHy1u9q5Vpc
-uLogtBy1LQfkGe5i2+mgnfx09cH9MZ301eo7ohvtZvUKdNQGq4W+ze7V+ITKlS2r
-oVTnWhwWpKhzAFcRMiPSIyRS
-=3y+K
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+D9wP/3ZS8jYZf+48P9Kg8zCZ
+GpLJehtHjimoizhsqohVNljT00Smq3crOavrajqV7s++YYl7uP5nAq5OBIL0jBy2
+jbn2TGVHBjXxToktDQ/VzaQyr+IfmzczQHIg+w81Amt8I6X6Qkal3ZK4RwlvvaGS
+GkBwOTndOg7DS5+sh6iJ26xvrqgxvv44lQu4P41fvXEr1QbBztHm+BhBmBYHaOhK
+S0iuXoYvt62XCuRVK1m80fZTMZ++mPMjK9wq/wy9NEFUqzUZSd7KWKW2WrdT9G6+
+aqywCmiGeRqKRcE9HEudfTyC10JbmRSGT1YTfarD8FKWXfzzs351TNACcQk3Iz6P
+m/rbrPFf7b7AmVm/ibOnFFnktt5lIDoNtcPrKfMX2894xVxahZ6XxRNODSfF9Np/
+2WCy+IBlvM7Q0CUbT8oUjloI5Ap+spXpCnNa3gIUeoQfhHEN/sn75Kh6tp2Sdf+R
+UgPTiN22rENwr3D5xyUfFLNWPqf4ZAmvXuPTC4wFRubx01vgJrp1jXoKbzinmaly
+sZxRstXLMtl4oN8RRXRZaU0clh3sL3GzioiVZIsctcWC0d7UufWY5PqcuYJG7aTO
+68PNEmBR50qD8neI8AMSe+w/FGUmZ4YrrkELxJ6GLFcjiufpdjrRuuNAIE5gvXTo
+U2Z2kCTi9nZg0g50aSmC7v+T
+=Znmr
 -----END PGP SIGNATURE-----
 
---===============7344054868114897104==
+--===============6135894094658235193==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8c20eb7e6a27-9aa010400697.txt
+Content-Disposition: attachment; filename=revlist-7878a41b6cc1-3f1ee349aa8c.txt
 
-de86495ccc8895f7e8e6c136a8c24f87f7325f31 ALSA: hda: cs35l41: Correct error condition handling
-45c8aef7cbb04cef247f1adfc59f5f5e5f59b63d crypto: arm64/sm4-gcm - Fix possible crash in GCM cryption
-f21c3a804ae393e2ddc05b5eed937a1b0c10099c bpf: bpf_fib_lookup should not return neigh in NUD_FAILED state
-71dcfa0657dfa2d136d68bf2414305b41e19dfd3 vc_screen: don't clobber return value in vcs_read
-9730ac06087c37828728050a582c86ba506d3f2f drm/amd/display: Move DCN314 DOMAIN power control to DMCUB
-49d0cf6c54d4a6e70002974b696defe6f9f18de0 drm/amd/display: Properly reuse completion structure
-fb0ecaab05ff6ad8571aaacde99304bb11142e1f scripts/tags.sh: fix incompatibility with PCRE2
-9fa853fcf5a8df322a1f6dd1fc4d787c4eaf05b9 wifi: rtw88: usb: Set qsel correctly
-6348d0bab1f2afc80da2dc3a30f3ba6a2483b9de wifi: rtw88: usb: send Zero length packets if necessary
-011250d57124e8d3470dfddbf3b3155e47b00da5 wifi: rtw88: usb: drop now unnecessary URB size check
-c76f147429318e4a246eb39020646466388d9af3 usb: dwc3: pci: add support for the Intel Meteor Lake-M
-0910b6bb429807fb2577945b143b51b353b35f1c USB: serial: option: add support for VW/Skoda "Carstick LTE"
-53dd3d3bfcdd24eaf9dfc1e23061f9b2b227a26d usb: gadget: u_serial: Add null pointer check in gserial_resume
-2704e5d962815d8b9c08e582bc034685be351e7f arm64: dts: uniphier: Fix property name in PXs3 USB node
-49c2640cf23d7441f2ba24ae1c7e8cab5736f74c usb: typec: pd: Remove usb_suspend_supported sysfs from sink PDO
-60bf6c7da6d8e72ab016945dd1ae1698aa351492 USB: core: Don't hold device lock while reading the "descriptors" sysfs file
-9aa0104006970b0c030b34dd7d01277250de3a7a Linux 6.2.2-rc1
+80211b4f53d86f8aca0dc5bd4965265b7171b2d7 ARM: dts: rockchip: add power-domains property to dp node on rk3288
+5922bc4313f9c958384aa933437293757bf94160 btrfs: send: limit number of clones and allocated memory size
+fda0e3bb900214e4599a4e9754d1a89f28ce16d1 IB/hfi1: Assign npages earlier
+1ddd1318870cbeab68d9de3394c82e8b54456c44 net: Remove WARN_ON_ONCE(sk->sk_forward_alloc) from sk_stream_kill_queues().
+051ca3c76958f80c4b82af14b7d3e416f2e2586d bpf: Do not use ax register in interpreter on div/mod
+e02d8dc1a3f6c1236e9a330a288a3113274b4bdd bpf: fix subprog verifier bypass by div/mod by 0 exception
+e1cf2c0052d34fb4339fc7d39903fda7d3d42e6d bpf: Fix 32 bit src register truncation on div/mod
+221a14aff314130f9d247e06b59fbb30a5462b49 bpf: Fix truncation handling for mod32 dst reg wrt zero
+c41c1df666bb9fe1061e3abc9aca8e7a6957bab9 dmaengine: sh: rcar-dmac: Check for error num after dma_set_max_seg_size
+62a385e594cf5284c2356808df94ec94ca4cd0d3 USB: serial: option: add support for VW/Skoda "Carstick LTE"
+4af96d4ac634d3f594a1baabe88132e535364668 USB: core: Don't hold device lock while reading the "descriptors" sysfs file
+3f1ee349aa8c1bd118738e82391ead5c968bdc42 Linux 4.14.308-rc1
 
---===============7344054868114897104==--
+--===============6135894094658235193==--
