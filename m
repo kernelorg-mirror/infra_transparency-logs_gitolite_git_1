@@ -1,22 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Wed, 01 Mar 2023 18:29:52 -0000
-Message-Id: <167769539257.24290.9927008214911112178@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Wed, 01 Mar 2023 18:32:41 -0000
+Message-Id: <167769556140.26810.7284476452022793659@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/heads/master
-    old: c4b5c5bad9f07e9074c7abde3289de71c4acac48
-    new: 6c18e375310560915dc10ef41f789f2dfdf838bf
+  - ref: refs/heads/bleeding-edge
+    old: 2e7155b1e18336cf381e99c42e6b83fde2fbc852
+    new: d49270398e6a60d554abe638b79e2f650153ed15
     log: |
-         65334e64a493c6a0976de7ad56bf8b7a9ff04b4a bpf: Support kptrs in percpu hashmap and percpu LRU hashmap
-         9db44fdd8105da00669d425acab887c668df75f6 bpf: Support kptrs in local storage maps
-         85521e1ea4d0d7d8e62bbb0999f91e31ae421d76 selftests/bpf: Add more tests for kptrs in maps
-         6c18e375310560915dc10ef41f789f2dfdf838bf Merge branch 'Add support for kptrs in more BPF maps'
+         1467fb960349dfa5e300658f1a409dde2cfb0c51 thermal: intel: BXT_PMIC: select REGMAP instead of depending on it
+         d49270398e6a60d554abe638b79e2f650153ed15 Merge branch 'thermal-intel' into bleeding-edge
          
