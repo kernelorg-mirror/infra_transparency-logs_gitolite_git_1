@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
-Date: Wed, 01 Mar 2023 19:21:02 -0000
-Message-Id: <167769846253.28423.10418267978564627167@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Wed, 01 Mar 2023 19:30:29 -0000
+Message-Id: <167769902940.2111.8153326028425968440@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/s390/linux
-user: heiko
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
-  - ref: refs/heads/for-next
-    old: 9b5c37bbf659fe4edb4804bc0aa99840d6798878
-    new: 6ca6b58107a8891e4b08087843188fdc5737ec08
+  - ref: refs/heads/master
+    old: 97933187afc5afc3a920ef17a31e20e66bf3a5c2
+    new: 2a59bea8229637f07e8689b07648a3a97d84f4ef
     log: |
-         8c42dd78df148c90e48efff204cce38743906a79 s390/extmem: return correct segment type in __segment_load()
-         6ca6b58107a8891e4b08087843188fdc5737ec08 s390/Kconfig: sort config S390 select list again
+         2a59bea8229637f07e8689b07648a3a97d84f4ef Wed Mar  1 07:28:16 PM UTC 2023
          
