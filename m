@@ -1,61 +1,78 @@
-Content-Type: multipart/mixed; boundary="===============6718853463836191415=="
+Content-Type: multipart/mixed; boundary="===============2032678621762901327=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jpoimboe/linux
-Date: Wed, 01 Mar 2023 18:20:38 -0000
-Message-Id: <167769483817.19679.12641277992216827824@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Wed, 01 Mar 2023 18:20:43 -0000
+Message-Id: <167769484364.19775.2579814267337023113@gitolite.kernel.org>
 
---===============6718853463836191415==
+--===============2032678621762901327==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jpoimboe/linux
-user: jpoimboe
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/objtool-noreturn
-    old: 375d11f7ece95290ace9421006e774782d576a70
-    new: fff92a1aba67d17acf04fc47dc63c28284a18528
-    log: revlist-375d11f7ece9-fff92a1aba67.txt
+  - ref: refs/heads/bus_cleanup
+    old: 3e181816389768d1490b562055db5f9d5b71908f
+    new: 0305756477497eb2bd9f63f4b9f201634831522b
+    log: revlist-3e1818163897-030575647749.txt
 
---===============6718853463836191415==
+--===============2032678621762901327==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-375d11f7ece9-fff92a1aba67.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-a1b367e4528f9ba68425d75660e49197db3e5a8d mips/smp: Add CONFIG_SMP guard for raw_smp_processor_id()
-eb2d43298465879dedd336fb7fb09ddbdd763191 mips/cpu: Expose play_dead()'s prototype definition
-ec11e5920ce0e3c0b4dcd8e5cd3cb0edc253bd74 mips/cpu: Make sure play_dead() doesn't return
-cf5b0c18941531b9bbc6d1b307868c35cb55e1e7 mips/cpu: Mark play_dead() __noreturn
-a61b2a917c5426a611cf9d695082d4d959368935 powerpc/cpu: Mark start_secondary_resume() __noreturn
-4a798256e4f874d9b15483c69f853ce502d58ff7 sh/cpu: Make sure play_dead() doesn't return
-ca6aec49c6fb5c1d7e3b95d12950e4c4575dcdb9 sh/cpu: Mark play_dead() __noreturn
-9a4becadb0df23cfba22ca2fd6ecdca11cf6da9a sh/cpu: Expose arch_cpu_idle_dead()'s prototype definition
-11384b19ae86aa0c4018c9d8d0ccbec6a0e988fb sparc/cpu: Mark cpu_play_dead() __noreturn
-5732cbb59a3e2d669edd6148e2c59ae5cbb318da x86/cpu: Make sure play_dead() doesn't return
-a2ef5cee92a1ab350cc72a4fedaff2287a32cb18 x86/cpu: Mark play_dead() __noreturn
-6bb6cf84153e808528313cd1710a0d342f514761 xtensa/cpu: Make sure cpu_die() doesn't return
-96147cf32550016ada9a6f67e97cfeaf71595608 xtensa/cpu: Mark cpu_die() __noreturn
-c9d797262a2af83e72cef3ab0b917847ad11121b sched/idle: Make sure weak version of arch_cpu_idle_dead() doesn't return
-ff52d4da6fba4bb7970ace4f6a0c5fe9c83c15fa sched/idle: Mark arch_cpu_idle_dead() __noreturn
-a266c499178ab6bccd75f092f0f4e6e1e5bb927d x86/cpu: Expose arch_cpu_idle_dead()'s prototype definition
-9b26e1aa04f146dc2e030e2d078e5cd34a8230a1 init: Make arch_call_rest_init() and rest_init() __noreturn
-e69dc993bfa47c5bf717d6d0bba6600afd8ed055 init: Make start_kernel() __noreturn
-73ddb49a41baa162659a26b1a9fc0c0a1255d85c x86/trap: Make exc_double_fault __noreturn
-2a44c0ea20f32f828de09eb714ba0734c3d2cd5f btrfs: Mark btrfs_assertfail() __noreturn
-4934dc0c24590c41326d0c3c267e9938d62f7250 arm64/cpu: Mark cpu_park_loop() __noreturn
-58cb0688cbfb47caf84b6f07b3a88e7b68bb45ef arm64/cpu: Mark local_cpu_stop() __noreturn
-e435d2b4d273dc3e8c7c5b148ea71c6f2c8abc38 cpu: Mark panic_smp_self_stop() __noreturn
-c06a6b3196edb422d949ea92d2345a32d3c4c7b8 cpu: Mark nmi_panic_self_stop() __noreturn
-7f2a5880cd80901358c876a4d643b2ff9c97566d objtool: Include weak functions in 'global_noreturns' check
-8456f4c6694338965f3e7c29677bc9a3f479d66f objtool: Add '--verbose' option for disassembling affected functions
-e4af76f066937344c610ae60587e2f0e21fc3dd0 objtool: Combine '--backtrace' with '--verbose'
-1e53723105253d3dfed11dd759aa4b4481469cf7 scsi: message: fusion: Mark mpt_halt_firmware() __noreturn
-5b428ce0c0533365c2c2f279827dc42b2e59a7c8 objtool: Remove superfluous dead_end_function() check
-62c0a54ea07d4e9db2acbce7964ecbcdf7950b4b objtool: Add per-function rate limiting for unreachable warnings
-fff92a1aba67d17acf04fc47dc63c28284a18528 objtool: Add "missing __noreturn" warning
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1677694839 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1677694838-a1dd3efd8bafaa36a3b26999497b7880968e8521
 
---===============6718853463836191415==--
+3e181816389768d1490b562055db5f9d5b71908f 0305756477497eb2bd9f63f4b9f201634831522b refs/heads/bus_cleanup
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmP/l3cbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+yFQP/Rf5Hju6aHbQHN65dani
+OUAnQxRlxkFuoW2YFR38BPU0nOsWmIIcWldDX9MnDgbfD2DIgxTRuoeCEVyO3vaY
+tmZNw8BhJGSY/H/6dO1zIuYIpYuAqETXJHXo55pkRPQBHPnKhG+Ts/0LDcVUWVYg
+bhV9dIm7+HbPKI5P7eMKn9TUgd8VWc1WrXsbkK3n0WtLouuweMxtnOI95ONkZJax
+85UT7gNTPPEgqhC3Cw/IllESF085QEVY1tCvV+X5coU+AmxXjrhJ8SAzBZntq8Lr
+a31GseAzBLzJoIiRDA39ic6eqc4R73EohEGqUTsqey+LNSOUSJFekxPimH5cWJxi
+Hj+tbCGSOBmEfkPcH7wh2K0eoPSedOBpJzlIRHapiNfjetO/YbA3q43uHKskcr5E
+yHMTdaRH5/MSRqaozs3ILvTwnBtdsP30SdeAHCNJfaRyOEW2eZrtjkYtFybT6S+1
+KVousSZy6m5c8to0LjVro4Ql9Zb6hgOQ2HYlnEeewQI8/n4KwdBxYkrUI5U9XpVO
+GzpWuroe2FbSXiIeyM6SqWDQ4j7MfqoxzqQRIUT0TH0ATMnN/j2MF9B+f+mjx0OV
+8LsgIiPG5dPXOczoMoY/Hkx1OjK5gjtmb8d7Y13MHmlJnyrruYsBnUQd/P5JS1ay
+mbIQRpIQ1aXp6D7E7MT6IHtE
+=Q7dO
+-----END PGP SIGNATURE-----
+
+--===============2032678621762901327==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-3e1818163897-030575647749.txt
+
+b8eacd472a95ef9fe182cfa76df24ee1aa593f9e irqchip/mbigen: move to use bus_get_dev_root()
+53aff84b6e9d4d6c6e7e2d957ab11a09a4ed6a81 driver core: bus: move dev_root out of struct bus_type
+88acbdb613dca79e83a0947fd9cd859ff56b4d2e driver core: bus: mark the struct bus_type for sysfs callbacks as constant
+4793d7e9cc4ebcddc8de64fe04ad63ce01ceac36 driver core: bus: constantify bus_register()
+315ea53cb4d48817016bff5ac815e3b8db2149a4 driver core: bus: constify bus_rescan_devices()
+5d361b314990e38b3848bc661610ec9d44c1f5c0 driver core: bus: constify driver_find()
+62a99a2b2ae78e0d8e02de6a75767c8525fb61f7 driver core: bus: constify bus_get()
+bfc039e8e98fe33805efe7d0ee1dd942a12e5d08 driver core: make the bus_type in struct device_driver constant
+78f8f5c129df11f2bbbfc8d5308eb68024947795 crypto: hisilicon/qm - make struct bus_type * const
+29df75ca4c2b6d608a69b6713cbaf81fc5dc8334 drm/i915/huc: use const struct bus_type pointers
+0527dfa3d1455831caf4fd51ee8674bb2e97efe0 vhost-vdpa: vhost_vdpa_alloc_domain() should be using a const struct bus_type *
+4d5ae485d36062bff725235a7188e0b9f689333a dmaengine: idxd: use const struct bus_type *
+dbece795124670196c20901f98658c9e1f5f7bbc ARM/dma-mapping: const a pointer to bus_type in arm_iommu_create_mapping()
+499d81a99b10c10d97bf979207b02e91c04685cd iommu: make the pointer to struct bus_type constant
+b84fd29e915d5f855fe8b39f9234fdc4c369de4f driver core: device.h: make struct bus_type a const *
+64963771896bde8ffda4346df6cff315329f2c89 USB: mark all struct bus_type as const
+0305756477497eb2bd9f63f4b9f201634831522b FIXME: driver core: platform: make platform_bus_type constant
+
+--===============2032678621762901327==--
