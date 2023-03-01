@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0655855536537987549=="
+Content-Type: multipart/mixed; boundary="===============4625424222704197937=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Wed, 01 Mar 2023 18:04:37 -0000
-Message-Id: <167769387770.6313.9423943108485558640@gitolite.kernel.org>
+Date: Wed, 01 Mar 2023 18:04:38 -0000
+Message-Id: <167769387826.6363.14303577824458739509@gitolite.kernel.org>
 
---===============0655855536537987549==
+--===============4625424222704197937==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,12 +16,12 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.10.y
-    old: 21ebc0d01eec80ec447d3f935a8de5921afbcf4b
-    new: b81359d0d6cf345bbed35bc47f91c03683414dc3
-    log: revlist-21ebc0d01eec-b81359d0d6cf.txt
+  - ref: refs/heads/linux-5.15.y
+    old: 8a43b8cf1ce4931fdfd9b98f89bdedf8bd893ba1
+    new: db2dd2547c3fbf70b0ca3d4eb466193a84c635a7
+    log: revlist-8a43b8cf1ce4-db2dd2547c3f.txt
 
---===============0655855536537987549==
+--===============4625424222704197937==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -30,52 +30,55 @@ Content-Disposition: attachment; filename=git-push-certificate.txt
 certificate version 0.1
 pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1677693876 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1677693875-c7085189ca3525c3312df2eb5232faa6fa876651
+nonce 1677693876-783a7aec924fc589d7ed1079b0c81471f58b3d4b
 
-21ebc0d01eec80ec447d3f935a8de5921afbcf4b b81359d0d6cf345bbed35bc47f91c03683414dc3 refs/heads/linux-5.10.y
+8a43b8cf1ce4931fdfd9b98f89bdedf8bd893ba1 db2dd2547c3fbf70b0ca3d4eb466193a84c635a7 refs/heads/linux-5.15.y
 -----BEGIN PGP SIGNATURE-----
 
 iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmP/k7QbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+VukQANP9R2A6XnRGZ3wvFI3u
-HYup3Diq5kCnXN1yXUEtJe3Xrn+4WnBJE5QQQluVGQ12Rm/8mpzVDMCtLrzUTDQv
-Uo14n3pb6EXcmrwYrtTJZYSqSzlVmzYb1pAYlypRt4BtKFGpQ8C8gk00kHULBF7/
-mzV7LwGQyz5ld7AWaSRUn98k9k4o/uyjMLXH+DRnMEeGYm+AquKorG30ouHyI1CC
-sadJh/3x5+3SeHbWnBSY/Y4jp4Sv05yFfAFttrJTCUl0b1KGtgSsGQBLAxz+D3zH
-4pI7zJ7cLlpWgZk2h0p06RTmOK7rIZGyuE01rcAKar84YaH6A9EnhaH6eHLka7bb
-Lw88pVxFZLdYk2IU6Wx/hENvfFb/kWyS733jCXnUfu0mfWFf49nO62XE0FsXB6Zd
-nmCSdeuIw7XVNVAwjTbAtLfIvaeRXtyzj4wIyftqZ0IOaQKaj+gYdPrMCE0gTN6G
-5Jag1CH7+soC6+9YCaFFoh0bLsJaJJknMqUkVaywoHnEOoa3XmRt3PdlWP/kKVMm
-hXSHmiZq4yel2HjRZGoqPQYPHgObScc3c4IQj2RXv1dtHS7I8XvJiUPncFQOzbXU
-zTL1s57V7talGhJmjmvoP/T688sixOnJK2SLEjYndLnzMS0pf/sMK/mvUw3YynVX
-DCqUP73dPJkQ7EaG/x1WGt2w
-=xuyf
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+DygP/j/nV9RhQcJyaXp/TvQ7
++cVD4OSQyRcK/4ErSU2rhk8gHdYV5Kz3XN5OMBv7YgsL29WG3pdO1umvncAce4fA
+0YN0XPRsxvde7KVnAbazJvuPvZz49mDYKW0VuUYP7nlWPa7FV4Y2gJtOMc9gqO8P
+/iFp0cIgqvawRckLmN9AruvvQRHhXYOnC5f+sTbjcNhhOZKMR4ds7cgjZobpZxsG
+EzqCmQ2FifNqXjhBaaxCgYqDKmUfFAmV+hPOyYJht5TSqb89sYMVWELXpXTUQge9
+edaw9DxyllVehcMnGG5++94mmBdBYwWpJYv3+re+eYmh9+skNrqoCuL/6Oj01tHL
+1N1mCzjjqGz+/GYXL5ueA6ch4T852h2riqCCyDXgapoGXyfKgsoFJUkpUJv7PaoE
+mrbYLPBVsHyV4yjO6/JUY1PrGxlYN3UXCunjh5aiy1rCmYxR5q/PifuHHW5Nt4Hx
+Nrt6LS6l9b+BbaVZ2096RYh2omu6rpJC3Dqmcs8LJf62hqkAOK87GSR4AuVPbg1Q
+2G3pycRaeJPaJzOgIW9CZItncUQzx9TjejvQoZIkSmI0bR6klcOQtD1dUfAAij+e
+gRjTAJo6y3z+mhC8fAdA5wd5Umr+kZIh8z6ZWlQxDPoKAVc6bkrX2M5XOB+MsJ55
+Kdfd1Bw2BNH1fj4gnO8NnuJP
+=xVZr
 -----END PGP SIGNATURE-----
 
---===============0655855536537987549==
+--===============4625424222704197937==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-21ebc0d01eec-b81359d0d6cf.txt
+Content-Disposition: attachment; filename=revlist-8a43b8cf1ce4-db2dd2547c3f.txt
 
-9d347e16601abbde548cf26ea3498bc41f4409e2 Fix XFRM-I support for nested ESP tunnels
-9c3669b1422b7da908fbf9c03c2e4a60caead377 arm64: dts: rockchip: drop unused LED mode property from rk3328-roc-cc
-0b5fbe25a7b89b591e20849cc83d26d916d931af ARM: dts: rockchip: add power-domains property to dp node on rk3288
-8e2f05d7ae2f8c6300dffd65e51329d86ea32e8b ACPI: NFIT: fix a potential deadlock during NFIT teardown
-4cac1a91c00fa04b84d6643ea9c5361701161402 btrfs: send: limit number of clones and allocated memory size
-adc4950012a9302bf60dfe1a56f490d57097f8c3 IB/hfi1: Assign npages earlier
-49998c899a6e1deef88938398b8ab0e5d82764e2 neigh: make sure used and confirmed times are valid
-aba3c000df4d54e507ba260656852f66035c6fe7 HID: core: Fix deadloop in hid_apply_multiplier.
-7790702399b857d9b0611af9421f15784eded56b bpf: bpf_fib_lookup should not return neigh in NUD_FAILED state
-aededfd88706e45442e5f6367e5d276fe4c2efa0 net: Remove WARN_ON_ONCE(sk->sk_forward_alloc) from sk_stream_kill_queues().
-8e1bc8fe54c2caecff469ad71e49c940a00df1a2 vc_screen: don't clobber return value in vcs_read
-de520769cd4599139b9ba4fa317dbec549318a91 md: Flush workqueue md_rdev_misc_wq in md_alloc()
-c6f152bb08cd6db00e36924686a9b13e45c08611 scripts/tags.sh: Invoke 'realpath' via 'xargs'
-5837b53cdcb47c5c68e077ca61a3a64160c2738e scripts/tags.sh: fix incompatibility with PCRE2
-e28c172050da298bc24a117267bddbeae1d2521a drm/virtio: Fix NULL vs IS_ERR checking in virtio_gpu_object_shmem_init
-fc3df9735dd8a03fd3b20d293ba1be7a480d80ba drm/virtio: Correct drm_gem_shmem_get_sg_table() error handling
-4b331cb7104b94274b7dcb9e3a646a304c4d9e2f USB: serial: option: add support for VW/Skoda "Carstick LTE"
-dc39a93cdf3872112b69256fd0658e00646b4567 usb: gadget: u_serial: Add null pointer check in gserial_resume
-9e198674fdb4f52c55b45cca550a84c7604c68b2 USB: core: Don't hold device lock while reading the "descriptors" sysfs file
-b81359d0d6cf345bbed35bc47f91c03683414dc3 Linux 5.10.171-rc1
+8e9e37ef76339ba798df9cbffde3bf79321032a2 ionic: refactor use of ionic_rx_fill()
+7649459acbca4fd47df6f81aab885e58737d4137 Fix XFRM-I support for nested ESP tunnels
+f002a640f04df31a50fa9d44edebe89de2d6be52 arm64: dts: rockchip: drop unused LED mode property from rk3328-roc-cc
+6b6906a611da383827253c950fe32e5ef7bff20e ARM: dts: rockchip: add power-domains property to dp node on rk3288
+0d3c64dfcb94de709ee77a85f0498049653447f8 HID: elecom: add support for TrackBall 056E:011C
+c8ee704fc4809f1d34004b692dba631091fc6ee4 ACPI: NFIT: fix a potential deadlock during NFIT teardown
+c3b246a9d134dedc440f5fa3e1d97be7dcfbf6f1 btrfs: send: limit number of clones and allocated memory size
+c547c3067aa994c0c2dc4a10a7cfe0f0ac6b584f ASoC: rt715-sdca: fix clock stop prepare timeout issue
+af72073bcafd21eb527d248f77d2b5436088e4d3 IB/hfi1: Assign npages earlier
+678f7cb225a27a0138d0205af5da6bffaed56ef8 neigh: make sure used and confirmed times are valid
+a8d49e2e926741c4e792a67c0d559e139784072c HID: core: Fix deadloop in hid_apply_multiplier.
+eb8fc44cef184b2961c45185de173f4236fe1720 x86/cpu: Add Lunar Lake M
+250ab2e7889c1ce164e1d5cdbb0c6cd07c6580db staging: mt7621-dts: change palmbus address to lower case
+305d35921786fbe760cef45ae30517bed89e55a6 bpf: bpf_fib_lookup should not return neigh in NUD_FAILED state
+0512f5d78162084a130ad1df18247f2a728ebb40 net: Remove WARN_ON_ONCE(sk->sk_forward_alloc) from sk_stream_kill_queues().
+03f358b21d261ee31c32c600a37a24cbbdd6a546 vc_screen: don't clobber return value in vcs_read
+8bd965e77c35ece688db1ac888608d0ec2992126 scripts/tags.sh: Invoke 'realpath' via 'xargs'
+8d7d14384e41cee09ff0de541af422ed91c9aa89 scripts/tags.sh: fix incompatibility with PCRE2
+3c4eb21166f4922517931f07407d21529de29a66 usb: dwc3: pci: add support for the Intel Meteor Lake-M
+d20c9c965c693f606650f756838698b3ec9fe05e USB: serial: option: add support for VW/Skoda "Carstick LTE"
+e92e98d7250ebbf5da1661037d0f376f566f91f6 usb: gadget: u_serial: Add null pointer check in gserial_resume
+04af3d26ac3af272edcd745c136c31fb496cac76 USB: core: Don't hold device lock while reading the "descriptors" sysfs file
+db2dd2547c3fbf70b0ca3d4eb466193a84c635a7 Linux 5.15.97-rc1
 
---===============0655855536537987549==--
+--===============4625424222704197937==--
