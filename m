@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ericvh/v9fs
-Date: Wed, 01 Mar 2023 16:35:48 -0000
-Message-Id: <167768854874.12080.7868442770883153776@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
+Date: Wed, 01 Mar 2023 16:42:32 -0000
+Message-Id: <167768895257.15643.15267118248373758668@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ericvh/v9fs
-user: ericvh
+repo: pub/scm/linux/kernel/git/palmer/linux
+user: palmer
 changes:
-  - ref: refs/tags/9p-6.3-for-linus-part1
-    old: 0000000000000000000000000000000000000000
-    new: 2296505c7eb3863275ea1a7c1aef6ea28e8aa81a
+  - ref: refs/heads/for-next
+    old: 5ffcd754f3e5b0419f86aaed396f600fd0584d39
+    new: ecf2d0d049c1417c032e5c999078bdaf0c49e8cc
+    log: |
+         ecf2d0d049c1417c032e5c999078bdaf0c49e8cc drivers/perf: RISC-V: Allow programming custom firmware events
+         
