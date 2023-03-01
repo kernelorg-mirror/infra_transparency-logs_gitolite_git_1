@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Wed, 01 Mar 2023 12:41:31 -0000
-Message-Id: <167767449164.17086.17351691697184802855@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Wed, 01 Mar 2023 12:44:35 -0000
+Message-Id: <167767467571.18096.13255998326161868877@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: hansg
+repo: pub/scm/linux/kernel/git/netdev/net
+user: davem
 changes:
-  - ref: refs/heads/review-hans
-    old: b07ce4bb4332b8c2231dea2b53848f4a7484ff9c
-    new: fae6490db9b1a58741c4ed0c4fce1a2485555b26
+  - ref: refs/heads/master
+    old: dfd2f0eb2347dbdf391fd5b8255fefc58a745472
+    new: 81563d8548b0478075c720666be348d4199b8591
     log: |
-         a066f41f3650810adc4739d3f23effbaeab68517 platform/x86: ISST: Increase range of valid mail box commands
-         fae6490db9b1a58741c4ed0c4fce1a2485555b26 platform/x86/intel/tpmi: Fix double free reported by Smatch
+         81563d8548b0478075c720666be348d4199b8591 net: lan966x: Fix port police support using tc-matchall
          
