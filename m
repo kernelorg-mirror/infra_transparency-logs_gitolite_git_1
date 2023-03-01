@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Wed, 01 Mar 2023 12:00:18 -0000
-Message-Id: <167767201834.22678.7385750174456970618@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/efi/efi
+Date: Wed, 01 Mar 2023 12:01:27 -0000
+Message-Id: <167767208787.23201.13239888758399597105@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/efi/efi
+user: ardb
 changes:
-  - ref: refs/heads/master
-    old: 63ed725fcc35cb3ec155b0a85a9ff0eac5b6da24
-    new: 253b16cb94bf24f13287048ea0827ccd87aa942d
+  - ref: refs/heads/urgent
+    old: 5aed793ff011549535e20b7b15bc705e828223b1
+    new: 94f7ac7ada8e2e02a8823daea92dc443bdb7e4b9
     log: |
-         512ba8c7341f38166d699ab8e7884de41600829f hardlink: (tests) do not assert amount of compared files
-         253b16cb94bf24f13287048ea0827ccd87aa942d Merge branch 'hardlink/options-failure' of https://github.com/t-8ch/util-linux
+         f1f3c28643f58313ae6bc23db8b47ed2877585e6 arm64: efi-runtime: Run SetVirtualAddressMap() on Ampere Altra machines
+         2825c547aabf4d99b5654ea7377adbba2c2882b6 efi: libstub: Drop Altra quirk and SMBIOS handling
+         94f7ac7ada8e2e02a8823daea92dc443bdb7e4b9 arm64: efi: Remap kernel image after moving it in memory
          
