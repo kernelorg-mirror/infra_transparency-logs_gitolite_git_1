@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
-Date: Wed, 01 Mar 2023 19:17:16 -0000
-Message-Id: <167769823658.25537.16799774275729791967@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Wed, 01 Mar 2023 19:17:53 -0000
+Message-Id: <167769827352.25814.16402149915172765689@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/palmer/linux
-user: palmer
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: andrii
 changes:
-  - ref: refs/heads/for-next
-    old: ecf2d0d049c1417c032e5c999078bdaf0c49e8cc
-    new: 9f828bc3fb900c5d39ec13ea150341d28fb1f158
+  - ref: refs/heads/master
+    old: 07e2193f106d61332e549b4e31d95da38261e718
+    new: d69b5a90e17dca24aad3311c6a020cc692d8711c
     log: |
-         9f828bc3fb900c5d39ec13ea150341d28fb1f158 drivers/perf: RISC-V: Allow programming custom firmware events
+         35cbf7f9156893f55b885f6fc678b2ab8b0d8918 selftests/bpf: Support custom per-test flags and multiple expected messages
+         d69b5a90e17dca24aad3311c6a020cc692d8711c Merge branch 'selftests/bpf: support custom per-test flags and multiple expected messages'
          
