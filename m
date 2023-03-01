@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Wed, 01 Mar 2023 19:17:53 -0000
-Message-Id: <167769827352.25814.16402149915172765689@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
+Date: Wed, 01 Mar 2023 19:20:48 -0000
+Message-Id: <167769844825.28276.7661950966615960959@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: andrii
+repo: pub/scm/linux/kernel/git/s390/linux
+user: heiko
 changes:
-  - ref: refs/heads/master
-    old: 07e2193f106d61332e549b4e31d95da38261e718
-    new: d69b5a90e17dca24aad3311c6a020cc692d8711c
+  - ref: refs/heads/features
+    old: 9b5c37bbf659fe4edb4804bc0aa99840d6798878
+    new: 6ca6b58107a8891e4b08087843188fdc5737ec08
     log: |
-         35cbf7f9156893f55b885f6fc678b2ab8b0d8918 selftests/bpf: Support custom per-test flags and multiple expected messages
-         d69b5a90e17dca24aad3311c6a020cc692d8711c Merge branch 'selftests/bpf: support custom per-test flags and multiple expected messages'
+         8c42dd78df148c90e48efff204cce38743906a79 s390/extmem: return correct segment type in __segment_load()
+         6ca6b58107a8891e4b08087843188fdc5737ec08 s390/Kconfig: sort config S390 select list again
          
