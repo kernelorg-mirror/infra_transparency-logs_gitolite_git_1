@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 02 Mar 2023 04:33:46 -0000
-Message-Id: <167773162615.12364.1385992627425955640@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Thu, 02 Mar 2023 05:39:44 -0000
+Message-Id: <167773558462.22053.12200458701370805376@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: andrii
 changes:
-  - ref: refs/heads/main
-    old: 81563d8548b0478075c720666be348d4199b8591
-    new: f3221361dc85d4de22586ce8441ec2c67b454f5d
+  - ref: refs/heads/master
+    old: b1d462bc30e70d89e7b729391d7585443f2910c8
+    new: c45eac537bd8b4977d335c123212140bc5257670
     log: |
-         49c47cc21b5b7a3d8deb18fc57b0aa2ab1286962 net: tls: fix possible race condition between do_tls_getsockopt_conf() and do_tls_setsockopt_conf()
-         f3221361dc85d4de22586ce8441ec2c67b454f5d net: tls: avoid hanging tasks on the tx_lock
+         c45eac537bd8b4977d335c123212140bc5257670 bpf: Fix bpf_dynptr_slice{_rdwr} to return NULL instead of 0
          
