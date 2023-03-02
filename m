@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============8028321737264257012=="
+Content-Type: multipart/mixed; boundary="===============7223393034096042733=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux
-Date: Thu, 02 Mar 2023 19:06:01 -0000
-Message-Id: <167778396186.13826.7019293990845019543@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
+Date: Thu, 02 Mar 2023 19:06:12 -0000
+Message-Id: <167778397299.13972.16131373979135237769@gitolite.kernel.org>
 
---===============8028321737264257012==
+--===============7223393034096042733==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux
+repo: pub/scm/linux/kernel/git/amlogic/linux
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -23,7 +23,7 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: 32758e7a720e4752a824c6062e75f107314e5598
 
---===============8028321737264257012==
+--===============7223393034096042733==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1054,4 +1054,4 @@ fd7ee8de984efcd31b8f5dce9e340ccd59eb436f Merge tag 'regulator-fix-v6.3' of git:/
 857f1268a591147f7be7509f249dbb3aba6fc65c Merge tag 'objtool-core-2023-03-02' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 04a357b1f6f0b6f7c8689361fa8802e8e35d02ad Merge tag 'mips_6.3_1' of git://git.kernel.org/pub/scm/linux/kernel/git/mips/linux
 
---===============8028321737264257012==--
+--===============7223393034096042733==--
