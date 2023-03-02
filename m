@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mcgrof/linux
-Date: Thu, 02 Mar 2023 01:04:07 -0000
-Message-Id: <167771904740.30024.18364182173416573438@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Thu, 02 Mar 2023 01:06:03 -0000
+Message-Id: <167771916323.32290.12743235563483566076@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mcgrof/linux
-user: mcgrof
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/sysctl-testing-opt
+  - ref: refs/heads/anna-maria.2023.03.01a
     old: 0000000000000000000000000000000000000000
-    new: 4ac91d63df04d5f5e9830394b6d266adb2a21585
+    new: 20f03bc947d96d9f39ba24f0f92b5f555b7e0b20
