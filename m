@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jfern/linux
-Date: Thu, 02 Mar 2023 17:24:36 -0000
-Message-Id: <167777787633.9840.10163199476292329477@gitolite.kernel.org>
+Date: Thu, 02 Mar 2023 17:26:42 -0000
+Message-Id: <167777800226.12050.14236891259281429696@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,10 +12,8 @@ repo: pub/scm/linux/kernel/git/jfern/linux
 user: jfern
 changes:
   - ref: refs/heads/sched/rt-throttle
-    old: 4cd8088f96afb641f4bb30db0188c1be4740cfe3
-    new: a35d0b488fd029bd34b6326d2712909f9b2bfc22
+    old: a35d0b488fd029bd34b6326d2712909f9b2bfc22
+    new: 3426c4b45d36b426432e250f667021e9b4b5356b
     log: |
-         6c138b029b603ef25ddaf0dc82b17d0dbac9b890 fixup! sched/rt: Keep throttled rt_rqs on the runqueue
-         c8255b85822c5027201577a5748a9f3094581f4a traces
-         a35d0b488fd029bd34b6326d2712909f9b2bfc22 debug bits
+         3426c4b45d36b426432e250f667021e9b4b5356b fixup: enqueue_top_rt_rq should not check for rq throttle status
          
