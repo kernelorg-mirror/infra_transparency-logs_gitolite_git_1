@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3862310514198295481=="
+Content-Type: multipart/mixed; boundary="===============8638210576201827787=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
-Date: Thu, 02 Mar 2023 12:42:07 -0000
-Message-Id: <167776092760.19205.16469222896105154692@gitolite.kernel.org>
+Date: Thu, 02 Mar 2023 12:44:54 -0000
+Message-Id: <167776109430.20110.3735121221579098311@gitolite.kernel.org>
 
---===============3862310514198295481==
+--===============8638210576201827787==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ardb/linux
 user: ardb
 changes:
-  - ref: refs/heads/arm64-lpa2-v3b
-    old: 3933c4761ac617cae0b9bdcb472f5849f46c569b
+  - ref: refs/heads/for-kernelci
+    old: bc7726ae291ba7636e7e9fce8d53db93cb01c764
     new: be31cc62ff9d0c49dba2350a03ce9bdaf604dd2e
-    log: revlist-3933c4761ac6-be31cc62ff9d.txt
+    log: revlist-bc7726ae291b-be31cc62ff9d.txt
 
---===============3862310514198295481==
+--===============8638210576201827787==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3933c4761ac6-be31cc62ff9d.txt
+Content-Disposition: attachment; filename=revlist-bc7726ae291b-be31cc62ff9d.txt
 
 f23191fdf4feee720825204ecb18d6f4adfd6fde arm64: vmemmap: Avoid base2 order of struct page size to size region
 7ad6a0ac0f14f5afaaa53f5595e9c7d688e2349e arm64: mm: Reclaim unused vmemmap region for vmalloc use
@@ -79,4 +79,4 @@ c1f11d11bed955474a2da38f611224c92c490ec6 arm64: ptdump: Deal with translation le
 d0bc3e28a9f69058e01dabb317e7cb655e550cfd mm: add arch hook to validate mmap() prot flags
 be31cc62ff9d0c49dba2350a03ce9bdaf604dd2e arm64: mm: add support for WXN memory translation attribute
 
---===============3862310514198295481==--
+--===============8638210576201827787==--
