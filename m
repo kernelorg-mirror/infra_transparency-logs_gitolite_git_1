@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2178860823144455417=="
+Content-Type: multipart/mixed; boundary="===============0523100186215511179=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Thu, 02 Mar 2023 10:26:24 -0000
-Message-Id: <167775278435.28697.6389543513788079250@gitolite.kernel.org>
+Date: Thu, 02 Mar 2023 10:26:40 -0000
+Message-Id: <167775280054.28869.9361916879082469061@gitolite.kernel.org>
 
---===============2178860823144455417==
+--===============0523100186215511179==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,48 +16,53 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/class_cleanup
-    old: cb40533de595c7be51a749148220d19027b2a66e
-    new: 41c1bf8d0dc4376b2d432e0fa898392debdf1d75
-    log: revlist-cb40533de595-41c1bf8d0dc4.txt
+  - ref: refs/heads/debugfs_cleanup
+    old: 99fb5efee0baa83a14ffa85da04f5fd8414ddeb6
+    new: faffe3a36ff06a8c62c2740627ded085b5fe74ac
+    log: revlist-99fb5efee0ba-faffe3a36ff0.txt
 
---===============2178860823144455417==
+--===============0523100186215511179==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1677752781 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1677752798 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1677752781-ef296cf4756c80fff375877f82ecd5f097eac27d
+nonce 1677752797-77851f9b459f38420dc2ff7d5ae2d341cb7a5087
 
-cb40533de595c7be51a749148220d19027b2a66e 41c1bf8d0dc4376b2d432e0fa898392debdf1d75 refs/heads/class_cleanup
+99fb5efee0baa83a14ffa85da04f5fd8414ddeb6 faffe3a36ff06a8c62c2740627ded085b5fe74ac refs/heads/debugfs_cleanup
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQAec0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+BFEP/RJQT8z2imxMuIiwqcYX
-P47/wVz+m5Xi80mZrPdJImr75dlXUiGZ4z+S4najOmbqxTUyW3q90w5EdVbugr3P
-qT5Rq44VKLI2bloHZ8nL0gu8eDZFPrFMDmdJtSIrwjAzjUlc/3fTnKzOJBCq0iCU
-W7Zk1hPa6Crw8FV4jUxezHp0Vo4RHqwU8eOAiQj5DFOjm6dAVUFT7MWaQJGY4ooN
-tZZfVuek18KfW05d+W2YRhlwx1IKvdIKGJ3vWpVAzxPXdhNKPMI9IxlyMCQOAFQI
-cte4CbmZEo3yvF8zR5Nmj9dYB8PLrdjlE0+r3nrUaMMrohcLJqi+1/IeNfl+HTI/
-XHqKP0NBJwnHYANJwqygYMokMxEBAaA+ri9h/RkLdLXXex+ls9AL5nNoTgru4eHI
-VU8QPumJ60zEuViFTTD7fzGgbt36gmImw527ioVeteZWybe9cpBM/o0UA8zSQMRq
-SNOKmAVLf14UBNKEW1+nkucx5dhFROvhwMBj41UdBESQr3+rQBCwGmC0YVMQOaSO
-0KELd8HibQxXAC7C4sA9i5uaY9uRX78Gx1WbfbEI0btUoHKgDoCZv8M6L+L0mKDK
-dsXHDaP/cbJOCaKd+DIzk7C+70Umzub4nCvm8hj9DZEwfGAAXk2iNtWKWo3/iteC
-RrYR6iqw6jplAybHChZmOO2D
-=cKaz
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQAed4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+XeMP/0UnoWr0F4zcBUYRfnl4
+wo7q7j8cWcYRv2qdIxPRMXZDn7gZp0Drc8XNqU77iKKS1XYiYUe1NwAdlHeRQ3HZ
+bzXr6+X5BjUFIGT1W2tsdIJw+vnhFhdrI5wUFeZjlzYXLoih/+vJVa4clDvb5yIU
+nNPzw7HM/UMyv1EUSiBzU7w8WhoL577zg6+C7HGsw3moEy2jqtokhEwPd9PJ0hL+
+nWeGPDy0fsFHqxqq4AYfJDDxGHNh9VZOWaR4156mXSTdk+ONuSqiYAR9iP1AwaTm
+fkikr3fp3Ne/wIP4L+NaGiN0dp5HPgn1WB4W4Lzn4T51qgZWgc1VNfP8wByFHQVL
+JHrtID1wY19zdCu3xX/L2uJfEq3Mh6OGB/mEucQpqMahZHbonm5Oep8oq7VDORU4
+OPdv1sspuYp9VhIPODpqdWdH+WiKt3Htm9Guq+wmbbr6IufGvHKdp+ZbAM+ZvS2Z
+W/3krockbz3qz+KnoYq3sCRWt2yWGQbVhCWFaFnMAmfeW/pQ9AUjBghstMJdXijF
+GLmZFiEKMqgED2uK1oiTUraieUt4SrcpwXdGJCcKJR7HQuG8w5yHjaJ5QUUCFJ/x
+d7P7q21gCKJXvPZRT8zNZUIv9LmyLU5N/VY4vsavnB0rmITJJFqpWrj3v+MhKUoL
+S9bG3wN/E90NHamrSj4RN/n8
+=8fha
 -----END PGP SIGNATURE-----
 
---===============2178860823144455417==
+--===============0523100186215511179==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cb40533de595-41c1bf8d0dc4.txt
+Content-Disposition: attachment; filename=revlist-99fb5efee0ba-faffe3a36ff0.txt
 
 fad376fce0af58deebc5075b8539dc05bf639af3 fs/jfs: fix shift exponent db_agl2size negative
+334c7b13d38321e47d1a51dba0bef9f4c403ec75 pwm: sifive: Always let the first pwm_apply_state succeed
+b3c650ad9bb88ecf36b9aeacf9e7eb7478258da7 pwm: Move pwm_capture() dummy to restore order
+3066bc2d58be31275afb51a589668f265e419c37 pwm: stm32-lp: fix the check on arr and cmp registers update
+3e98855ca0cf823330b27f51be41e92fdbaa9057 dt-bindings: pwm: mediatek: Convert pwm-mediatek to DT schema
+2781f8e9203685208c9f3717593601d4b4674372 pwm: lp3943: Drop unused i2c include
 a0a9ad95ddccaefa0f743d0af427cba936b9daac um: Remove the unneeded result variable
 28b2bb06a381816c2c111afba4984f8ea2c17e0f um: remove unneeded semicolon
 e0820368d0101452a9a35c903a549b7f32a6edff hostfs: Replace kmap() with kmap_local_page()
@@ -97,11 +102,56 @@ d5711ae52d5a548d16e5c177c92c15338ec63624 jffs2: Use function instead of macro wh
 3432e57493c278c1cb48abc2d69c6c055a19723e jffs2: Fix list_del corruption if compressors initialized failed
 91cc8fbcc8c705310fc6e39899e6e6685531935b ubi: block: set BLK_MQ_F_BLOCKING
 0b3bc49c936c1e6f399fcd2028ce24c3de9e7e59 ubi: use correct names in function kernel-doc comments
+3478c83cf26bbffd026ae6a56bcb1fe544f0834e ext4: improve xattr consistency checking and error reporting
+11768cfd98136dd8399480c60b7a5d3d3c7b109b ext4: use ext4_fc_tl_mem in fast-commit replay path
+934b0de1e9fdea93c4c7f2e18915c54fae67bdc6 ext4: don't show commit interval if it is zero
+1dd0510f6d4b85616a36aabb9be38389467122d9 xfs: fix low space alloc deadlock
+f08f984c63e9980614ae3a0a574b31eaaef284b2 xfs: prefer free inodes at ENOSPC over chunk allocation
+d5753847b216db0e553e8065aa825cfe497ad143 xfs: block reservation too large for minleft allocation
+36b6ad2d9cb81b0d52ae1598286ca5809cd39003 xfs: drop firstblock constraints from allocation setup
+692b6cddeb65a5170c1e63d25b1ffb7822e80f7d xfs: t_firstblock is tracking AGs not blocks
+55d5c3a386d74d3f374023c8fa386f524a9192e8 xfs: don't assert fail on transaction cancel with deferred ops
 905a77077573056d7af508f35373f66ed8b4a39e rust: arch/um: Use 'pie' relocation mode under UML
 8849818679478933dd1d9718741f4daa3f4e8b86 rust: arch/um: Disable FP/SIMD instruction to match x86
 0438aadfa69a345136f5ba4f582e0f769450ee0d rust: arch/um: Add support for CONFIG_RUST under x86_64 UML
 5541992e512de8c9133110809f767bd1b54ee10d x86: um: vdso: Add '%rcx' and '%r11' to the syscall clobber list
 2f2be5102480b1058182fa6c4b1e5c1732d6760c um: Make the definition of cpu_data more compatible
+c4d5660afbdcd3f0fa3bbf563e059511fba8445f xfs: active perag reference counting
+368e2d09b41caa5b44a61bb518c362f46d6d615c xfs: rework the perag trace points to be perag centric
+498f0adbcdb6a68403bfb9645a7555b789a7fee4 xfs: convert xfs_imap() to take a perag
+dedab3e4379d298ed60b6c52a15168807b48d57a xfs: use active perag references for inode allocation
+bab8b795185bf37801a4f7ee5c321eee288c2f10 xfs: inobt can use perags in many more places than it does
+20a5eab49d354a2837e0af3f07f92a104de52804 xfs: convert xfs_ialloc_next_ag() to an atomic
+7ac2ff8bb3713c7cb43564c04384af2ee7cc1f8d xfs: perags need atomic operational state
+76257a15873ccce817e0c4441f6bb66fb8f8201c xfs: introduce xfs_for_each_perag_wrap()
+ecd788a92460eef44c5444290757bfd0f38d91b4 xfs: rework xfs_alloc_vextent()
+2edf06a50f5bbe664283f3c55c480fc013221d70 xfs: factor xfs_alloc_vextent_this_ag() for  _iterate_ags()
+4811c933ea1ab7de86507dc9f7c9d3d9d71cafb5 xfs: combine __xfs_alloc_vextent_this_ag and  xfs_alloc_ag_vextent
+74c36a8689d3d8ca9d9e96759c9bbf337e049097 xfs: use xfs_alloc_vextent_this_ag() where appropriate
+85843327094f9de9cf0129cd9a3a43128c6f5ac8 xfs: factor xfs_bmap_btalloc()
+319c9e874ac8721acdb6583e3459ef595e5ed0a6 xfs: use xfs_alloc_vextent_first_ag() where appropriate
+2a7f6d41d8b72412228ede538bdf0e81bf9738f4 xfs: use xfs_alloc_vextent_start_bno() where appropriate
+db4710fd12248e5d4c3842520cd13f034136576b xfs: introduce xfs_alloc_vextent_near_bno()
+5f36b2ce79f254dd00cdc88374271df7ce843d56 xfs: introduce xfs_alloc_vextent_exact_bno()
+74b9aa63193b288191d6f01b61c819cef2807138 xfs: introduce xfs_alloc_vextent_prepare()
+e4d174260779ff0e2dc5de951c2e235721b02b05 xfs: move allocation accounting to xfs_alloc_vextent_set_fsbno()
+230e8fe8462ffda0849ea40b61dcf9f233854076 xfs: fold xfs_alloc_ag_vextent() into callers
+8b81356825ffb96b3b167b4dabbbbdb506bb0e0b xfs: move the minimum agno checks into xfs_alloc_vextent_check_args
+3432ef6111997f39d2f708dd508159dfaca72942 xfs: convert xfs_alloc_vextent_iterate_ags() to use perag walker
+35bf2b1abc9a753321db3b3787f5b5de6bd2b370 xfs: convert trim to use for_each_perag_range
+89563e7dc099343bf7792515452e1a24005d98a6 xfs: factor out filestreams from xfs_bmap_btalloc_nullfb
+6b637ad0c7be85ecb795697ea51051039b753da2 xfs: get rid of notinit from xfs_bmap_longest_free_extent
+05cf492a8d01f48d4b8d8f0b93f2d75de7349f12 xfs: use xfs_bmap_longest_free_extent() in filestreams
+8f7747ad8c52cde585b9456f6dbd1984af7b97bc xfs: move xfs_bmap_btalloc_filestreams() to xfs_filestreams.c
+a52dc2ad363088d0e0ab05a71f0496e2377e5cc9 xfs: merge filestream AG lookup into xfs_filestream_select_ag()
+ba34de8defe013e4062bdc2ed57d748d6807a96a xfs: merge new filestream AG selection into xfs_filestream_select_ag()
+3e43877a9dac13771ac722462c87bea0bdc50759 xfs: remove xfs_filestream_select_ag() longest extent check
+f38b46bbfa76a854c4c2a27b1617d66fefbb3f80 xfs: factor out MRU hit case in xfs_filestream_select_ag
+3054face139f9c77566a90a0524dd85c2f38c7f2 xfs: track an active perag reference in filestreams
+eb70aa2d8ed9a6fc3525f305226c550524390cd2 xfs: use for_each_perag_wrap in xfs_filestream_pick_ag
+571e259282a43f58b1f70dcbf2add20d8c83a72b xfs: pass perag to filestreams tracing
+f8f1ed1ab3babad46b25e2dbe8de43b33fe7aaa6 xfs: return a referenced perag from filestreams allocator
+bd4f5d09cc93c8ca51e4efea86ac90a4bb553d6e xfs: refactor the filestreams allocator pick functions
 2c4d3841a82b88ae8a7b518dc6206f84f68e705a um: Avoid pcap multiple definition errors
 910dba41239224069c17bb6c30c9d43c1ba229f1 um: Prevent building modules incompatible with MODVERSIONS
 6aa56115c73b37270e53aa91984bdb8b60164ec7 um: Use CFLAGS_vmlinux
@@ -121,6 +171,30 @@ abdeb4fa5e1b5b4918034f02236fd886f40c20c1 um: virtio_uml: move device breaking in
 05b8773ca33253ea562be145cf3145b05ef19f86 mtd: ubi: block: wire-up device parent
 22d74bc26bbfde150f602b2a6e93fb11df30ce0b ubifs: make kobj_type structures constant
 8fcf2d012c8641c18adcd139dba6a1e556338d36 ubi: block: Fix a possible use-after-free bug in ubiblock_create()
+571dc9ae4eefb452d32cfb3761a87089e8f37ca7 Merge tag 'xfs-alloc-perag-conversion' of git://git.kernel.org/pub/scm/linux/kernel/git/dgc/linux-xfs into xfs-6.3-merge-A
+60b730a40c43fbcc034970d3e77eb0f25b8cc1cf xfs: fix uninitialized variable access
+240930fb7e6b52229bdee5b1423bfeab0002fed2 ext4: dio take shared inode lock when overwriting preallocated blocks
+486dd4e846814016443abfcbfee0b8b3f3b35330 pwm: ab8500: Fix calculation of duty and period
+327437884e9a752ccbf759cbab641439ca708f5b pwm: ab8500: Implement .get_state()
+860793bbdcdfbeae684d552ce0121846cffc4803 pwm: iqs620a: Replace one remaining instance of regmap_update_bits()
+0f03bf300833c05d914ab7f5ab3d8bc8564e9912 dt-bindings: pwm: Document Synopsys DesignWare snps,pwm-dw-apb-timers-pwm2
+08abd0466ec9113908e674d042ec2a36dfc2875c ext4: remove dead code in updating backup sb
+1e9d62d252812575ded7c620d8fc67c32ff06c16 ext4: optimize ea_inode block expansion
+f31173c19901a96bb2ebf6bcfec8a08df7095c91 ext4: refuse to create ea block when umounted
+3f5424790d4377839093b68c12b130077a4e4510 ext4: fix inode tree inconsistency caused by ENOMEM
+7fc51f923ea6b1c6f304789965414149eaedb358 ext4: remove unnecessary variable initialization
+d99a55a94a0db8eda4a336a6f21730b844b8d2d2 ext4: fix function prototype mismatch for ext4_feat_ktype
+5cd740287ae5e3f9d1c46f5bfe8778972fd6d3fe ext4: fail ext4_iget if special inode unallocated
+3039d8b8692408438a618fac2776b629852663c3 ext4: update s_journal_inum if it changes after journal replay
+e6b9bd7290d334451ce054e98e752abc055e0034 jbd2: fix data missing when reusing bh which is ready to be checkpointed
+0f7bfd6f8164be32dbbdf36aa1e5d00485c53cd7 ext4: fix task hung in ext4_xattr_delete_inode
+f7c843d6d7f82d26ee9efe689f9b3208dbf7ed87 pwm: dwc: Change &pci->dev to dev in probe
+a357d1493f0c66ce8006dd28c07646d1f891259a pwm: dwc: Move memory allocation to own function
+cf70d01a62c712ee715df1f7892b58c77474bcfb pwm: dwc: Use devm_pwmchip_add()
+01178ee713100c7d7e738992134545acff472d1d docs: locking: refer to the actual existing config names
+1481df6cbd0d606fa1a26b752e2e1aba0b650093 docs/sp_SP: Add process programming-language translation
+b8885e2615f4d623334855e7fad20e49b0e0f96d Documentation: front page: use recommended heading adornments
+901578a45950bcc4d5055a24e9016d61b84dc1a2 docs: recommend using Link: whenever using Reported-by:
 2a03472262c05f965d7ba394ed35dc9867ba3095 net/9p: Adjust maximum MSIZE to account for p9 header
 344504e912ea49033d012dad9de3f68e20c07634 fs/9p: Expand setup of writeback cache to all levels
 f1956f4ec15195ec60976d9b5625326285ab102e 9p/xen: fix version parsing
@@ -152,6 +226,10 @@ a6484baa3b02b9d71bfd6016e7632dd1c02d5cba samples/kprobes: Add LoongArch support
 121ff07bdee06555835e26499f5c125223a6beb3 tools: Add LoongArch build infrastructure
 eb4071b988397144a35c4aa98061f587cbb3b467 selftests/seccomp: Add LoongArch selftesting support
 8883bf83127d533abb415b204eabc064863ae6c9 selftests/ftrace: Add LoongArch kprobe args string tests support
+172e344e6f82dc266cb65a69f4bed03428ea8a05 ext4: init error handle resource before init group descriptors
+0813299c586b175d7edb25f56412c54b812d0379 ext4: Fix possible corruption when moving a directory
+e3645d72f8865ffe36f9dc811540d40aa3c848d3 ext4: fix incorrect options show of original mount_opt and extend mount_opt2
+f195c470f2c2cf3737b2b157a5a2dbe182e374fa i3c: transfer pid from boardinfo to device info
 250870824c1cf199b032b1ef889c8e8d69d9123a sh: intc: Avoid spurious sizeof-pointer-div warning
 ff30bd6a6618e979b16977617371c0f28a95036e sh: clk: Fix clk_enable() to return 0 on NULL clk
 6cb5d1a16a51d080fbc1649a5144cbc5ca7d6f88 exfat: fix unexpected EOF while reading dir
@@ -159,11 +237,18 @@ ff30bd6a6618e979b16977617371c0f28a95036e sh: clk: Fix clk_enable() to return 0 o
 bdaadfd343e3cba49ad0b009ff4b148dad0fa404 exfat: redefine DIR_DELETED as the bad cluster number
 39c1ce8eafc0ff64fb9e28536ccc7df6a8e2999d exfat: fix inode->i_blocks for non-512 byte sector size device
 8258ef28001ad30c074e823124e10b9c75a965ff exfat: handle unreconized benign secondary entries
+6e2985c938e8b765b3de299c561d87f98330c546 xfs: restore old agirotor behavior
 fe90151c3cc6dbc0836723995f65d371ef4ad514 SUNRPC: Let Kunit tests run with some enctypes compiled out
 fb5b855d9f34927579baa0a20b4d0d8ea3740abd SUNRPC: Properly terminate test case arrays
 8d2909eeca5ef41f64365f700b1fdde361086609 exfat: remove unneeded code from exfat_alloc_cluster()
 3ce937cb8ca9becec406611c6072e93030fdde76 exfat: don't print error log in normal case
 d5c514b6a0c0b77ed7e5ef2484e8b20eb09c5f27 exfat: fix the newly allocated clusters are not freed in error handling
+b07ce43db665a6b5a622d5bb1447950d7e1e3fb1 Merge tag 'ext4_for_linus' of git://git.kernel.org/pub/scm/linux/kernel/git/tytso/ext4
+e492250d5252635b6c97d52eddf2792ec26f1ec1 Merge tag 'pwm/for-6.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/thierry.reding/linux-pwm
+510d2358c466bf6588034f0d3b2266eed2bc0a51 i3c: master: dw: stop hardcoding initial speed
+b1f1382a110bca1ef52234e889246a90f9a0d69b Merge tag 'docs-6.3-2' of git://git.lwn.net/linux
+1899946aaf2566c577683ebe510a83c930cd3751 Merge tag 'i3c/for-6.3' of git://git.kernel.org/pub/scm/linux/kernel/git/i3c/linux
+c0927a7a5391f7d8e593e5e50ead7505a23cadf9 Merge tag 'xfs-6.3-merge-4' of git://git.kernel.org/pub/scm/fs/xfs/xfs-linux
 e103ecedceb37b565962a199c75dd4df57742d50 Merge tag 'exfat-for-6.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/linkinjeon/exfat
 6e110580bc1ab84d02509750ce09277914174c6a Merge tag 'jfs-6.3' of https://github.com/kleikamp/linux-shaggy
 3808330b20ee0b23e1e3c192610c3a2ee65605e9 Merge tag '9p-6.3-for-linus-part1' of git://git.kernel.org/pub/scm/linux/kernel/git/ericvh/v9fs
@@ -174,17 +259,12 @@ a8356cdb5bd5abc74f814d76bd37900997fad35d Merge tag 'loongarch-6.3' of git://git.
 f122a08b197d076ccf136c73fae0146875812a88 capability: just use a 'u64' instead of a 'u32[2]' array
 92304df83b943776492309f42452effea0cc1089 power: supply: qcom_battmgr: remove bogus do_div()
 ee3f96b164688dae21e2466a57f2e806b64e8a37 Merge tag 'nfsd-6.3-1' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
-10993953384ee6db1f3d9d7f65f4134fd4a5e52f driver core: class: specify the module owner in __class_register()
-f4ea063952c7206cf616fd5036462bf6d44987c1 drivers: remove struct module * setting from struct class
-3824a6f344ebd24c014d945708f15c9a1ea19d70 driver core: class: remove struct module owner out of struct class
-7cc263434d932c4493612847854555c7375c0e79 driver core: class: remove module * from class_create()
-9cf4ecfef347441ca341ce0799d22a47530bb6ef driver core: class: make class_dev_iter_init() options const
-ba4c4b8640ca0a337582960c99b54598e7a3e9fe driver core: class: make class_for_each_device() options const
-b9535055cf4b3cc442a1c6e0dc0ed754e1d3a00f driver core: class: make class_find_device*() options const
-cd3fa57a84189e6f33b97c00f245240ab70ec8d1 driver core: class: make class_create/remove_file*() options const
-5fa9958c3f04dc13a6673e572d8f425c078bd0c8 driver core: device: make device_destroy() take a const class *
-f0723b8f7196898353e31b4a9acc24c49898fdde tpm: fix up the tpm_class shutdown_pre pointer when created
-7fe254e2e364ff4397699d89241d439b7c02f702 driver core: device: mark struct class in struct device as constant
-41c1bf8d0dc4376b2d432e0fa898392debdf1d75 driver core: device: make device_create*() take a const struct class *
+1c8eb07f5f7f5512d6398fdcad0d68abdf5eb603 driver core: remove devm_device_add_groups()
+cd904e68315f2d49b106e0d6bfb3fb82869a13e2 sysfs: do not create empty directories if no attributes are present
+bf158e605fb2a069e1a4b0d9b2a61e7acc3f9fbc soundwire: sysfs: move sdw_slave_dev_attr_group into the existing list of groups
+fe2184987436774429a3703264921eec7491c0c8 soundwire: sysfs: cleanup the logic for creating the dp0 sysfs attributes
+562dde5aee1a465b77913db73d552756277f698c soundwire: sysfs: have the driver core handle the creation of the device groups
+a1582c0a15de83cb5c4695b5d2dfc8ca60f31704 soundwire: sysfs: remove sdw_slave_sysfs_init()
+faffe3a36ff06a8c62c2740627ded085b5fe74ac soundwire: sysfs: remove unneeded ATTRIBUTE_GROUPS() comments
 
---===============2178860823144455417==--
+--===============0523100186215511179==--
