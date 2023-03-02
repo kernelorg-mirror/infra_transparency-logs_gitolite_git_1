@@ -1,49 +1,52 @@
-Content-Type: multipart/mixed; boundary="===============1105910192808504057=="
+Content-Type: multipart/mixed; boundary="===============2255768086686066917=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mcgrof/linux
-Date: Thu, 02 Mar 2023 21:57:53 -0000
-Message-Id: <167779427365.30371.7403083926937298170@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
+Date: Thu, 02 Mar 2023 22:16:39 -0000
+Message-Id: <167779539999.11136.13229288126167412656@gitolite.kernel.org>
 
---===============1105910192808504057==
+--===============2255768086686066917==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mcgrof/linux
-user: mcgrof
+repo: pub/scm/linux/kernel/git/ardb/linux
+user: ardb
 changes:
-  - ref: refs/heads/sysctl-testing
-    old: 6cb58406515372b4ec0a26e7cdbe41db9ac90a15
-    new: 44d3c6e161e99438bec145e1b18b830219e10925
-    log: revlist-6cb584065153-44d3c6e161e9.txt
+  - ref: refs/heads/arm64-lpa2-v3c
+    old: db12403db74bab910e0fec1b82724371c340ce75
+    new: a667c8ae6e6ed248f9d3745e01b72a77e3a5596f
+    log: revlist-db12403db74b-a667c8ae6e6e.txt
 
---===============1105910192808504057==
+--===============2255768086686066917==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6cb584065153-44d3c6e161e9.txt
+Content-Disposition: attachment; filename=revlist-db12403db74b-a667c8ae6e6e.txt
 
-c306364cb688fb40820f55d2a14fe4ec1cbc0712 userfaultfd: move unprivileged_userfaultfd sysctl to its own file
-7dae263967d517d404dada229dd181cbbfcc8095 proc_sysctl: update docs for __register_sysctl_table()
-6b8abeb707b86f1164f12298ed16dee41ae35b7a proc_sysctl: move helper which creates required subdirectories
-749d35edd0327eb8806d206a1553f4d227468d8f sysctl: clarify register_sysctl_init() base directory order
-a943213f661f83dfe304e676bbe9ad2ecbc083dd apparmor: simplify sysctls with register_sysctl_init()
-aa6a81634b7764c1ac9def63755b272ad2d51574 loadpin: simplify sysctls use with register_sysctl()
-18e42b4bbd81ec8ea89e56bc60f97cba3b37f7d9 yama: simplfy sysctls with register_sysctl()
-4351339a26a3afb2362060b95d012d776f5aaef3 seccomp: simplify sysctls with register_sysctl_init()
-1186e2a6841ae4564ece61c619387882aa28aed2 kernel: pid_namespace: simplify sysctls with register_sysctl()
-18cbc0aefb07bf55374987f9f77228dbd13b3777 fs-verity: simplify sysctls with register_sysctl()
-399b1e629ce50fa60946905a7189a787c24135e3 csky: simplify alignment sysctl registration
-4503df899e0ddfc4e119763b9921a92282d394ba proc_sysctl: deprecate register_sysctl_paths()
-fd7313fed6d7a80119a35a996f960a7777685a90 scsi: simplify sysctl registration with register_sysctl()
-3e307f94ea62cbbaf00198516a0c5d4c624e6852 ipmi: simplify sysctl registration
-1cee3f819bbd1173089ce912894e6f433ac3cf4c hv: simplify sysctl registration
-283f6d8f5337648ac0440c664def68e84b0dac94 md: simplify sysctl registration
-ec15cfe7314bb59999edd16cdc0ac975820a7383 sgi-xp: simplify sysctl registration
-73ee28be6b9056f580eac3a119988b04655d28e5 tty: simplify sysctl registration
-44d3c6e161e99438bec145e1b18b830219e10925 xen: simplify sysctl registration for balloon
+2b37bc53b8e07ea8c9ce7f03be8bc622355dcf27 arm64: kernel: Create initial ID map from C code
+3263b9d8989113c33a85ee9a0a19cc1a72bbd0f5 arm64: mm: avoid fixmap for early swapper_pg_dir updates
+0818e71155fe9dc3c446764e20527f64814c2c14 arm64: mm: omit redundant remap of kernel image
+685e36c1cbc4509a3349975f1c0549abb944c1a3 arm64: Revert "mm: provide idmap pointer to cpu_replace_ttbr1()"
+785a1f255d19b3a0234aa477a1f3d0fe3d0e5dcb arm64/mm: Add FEAT_LPA2 specific TCR_EL1.DS field
+7434cc6b497744ac3c47cfabc434118a4be7b73d arm64/mm: Add FEAT_LPA2 specific ID_AA64MMFR0.TGRAN[2]
+838f5d014585299acaa6cad690731a22adf7f242 arm64: mm: Handle LVA support as a CPU feature
+6d11823c0150749d3506c5ea0f37d1b6c1f15123 arm64: mm: Add feature override support for LVA
+74017c0e872a7b506b3e00d451cc66acd7d8ddea arm64: mm: Wire up TCR.DS bit to PTE shareability fields
+99854a17d6ea19bd27c55a699a0ac7bab29dac3c arm64: mm: Add LPA2 support to phys<->pte conversion routines
+3362c1d673d01f16ff8442631ffe41609d93df74 arm64: mm: Add definitions to support 5 levels of paging
+240ee84136e5f56ccc76dc83aa71461d44f7d225 arm64: mm: add LPA2 and 5 level paging support to G-to-nG conversion
+4bdbe911178af1248fab1748582200c26dd70251 arm64: Enable LPA2 at boot if supported by the system
+68db741665ce806486cb54faa2b2e061fbf22f58 arm64: mm: Add 5 level paging support to fixmap and swapper handling
+93319c2cf1a845ff0ff3290639e3c482583acda8 arm64: kasan: Reduce minimum shadow alignment and enable 5 level paging
+946bed5d1126bda561ca0defa6dec94803dd4b03 arm64: mm: Add support for folding PUDs at runtime
+16051294897e8efdddbf727597dde9c2497c1dda arm64: ptdump: Disregard unaddressable VA space
+018009a6b9beb92d52e032005e327ed79113fcde arm64: ptdump: Deal with translation levels folded at runtime
+08740cf2763237957d9e59410d1010fb59c0c49f arm64: Enable 52-bit virtual addressing for 4k and 16k granule configs
+984f64fd0b95e6e687a61f073366528e0b92043d arm64: defconfig: Enable LPA2 support
+57c7d721f93cba3687df738bc5ecbb5ceaf9af6e mm: add arch hook to validate mmap() prot flags
+a667c8ae6e6ed248f9d3745e01b72a77e3a5596f arm64: mm: add support for WXN memory translation attribute
 
---===============1105910192808504057==--
+--===============2255768086686066917==--
