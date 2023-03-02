@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8253167660832650275=="
+Content-Type: multipart/mixed; boundary="===============1438700291927201113=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs-stable
-Date: Thu, 02 Mar 2023 01:33:53 -0000
-Message-Id: <167772083309.18593.15111851936540623927@gitolite.kernel.org>
+Date: Thu, 02 Mar 2023 01:34:05 -0000
+Message-Id: <167772084573.18749.3718122800879045775@gitolite.kernel.org>
 
---===============8253167660832650275==
+--===============1438700291927201113==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,125 +15,94 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jaegeuk/f2fs-stable
 user: jaegeuk
 changes:
-  - ref: refs/heads/linux-5.4.y
-    old: 86190296f81fdde97e3f30cc127e52bfe9dfca64
-    new: 493f9241a6b8df703431ca8204a1dba1ccc05256
-    log: revlist-86190296f81f-493f9241a6b8.txt
-  - ref: refs/tags/6.3-rc1-5.10
-    old: 0000000000000000000000000000000000000000
+  - ref: refs/heads/linux-5.10.y
+    old: 24af2f08d60039427995f78150963743dcb080de
     new: 96c28582d8552c93401eab0b17b0e38a698d6db5
-  - ref: refs/tags/6.3-rc1-5.15
-    old: 0000000000000000000000000000000000000000
-    new: fff077f67a744fdf8b21379e7635406db54e0776
-  - ref: refs/tags/6.3-rc1-5.4
-    old: 0000000000000000000000000000000000000000
-    new: 493f9241a6b8df703431ca8204a1dba1ccc05256
-  - ref: refs/tags/6.3-rc1-6.1
-    old: 0000000000000000000000000000000000000000
-    new: 8ad9dfcf6fd53e9200fe739629c42b4cabb23444
-  - ref: refs/tags/f2fs-for-6.3-rc1
-    old: 0000000000000000000000000000000000000000
-    new: f8420c281211c36576400f3e54c651faa9d0b4b5
-  - ref: refs/tags/v6.2
-    old: 0000000000000000000000000000000000000000
-    new: 32758e7a720e4752a824c6062e75f107314e5598
-  - ref: refs/tags/v6.2-rc3
-    old: 0000000000000000000000000000000000000000
-    new: d4245d7ef91d67fe3d21e2faab131fdeab636209
-  - ref: refs/tags/v6.2-rc4
-    old: 0000000000000000000000000000000000000000
-    new: 9b4ccd95c99918fe8ad32bc136fa36eab55af10b
-  - ref: refs/tags/v6.2-rc5
-    old: 0000000000000000000000000000000000000000
-    new: 4cc398054ac8efe0ff832c82c7caacbdd992312a
-  - ref: refs/tags/v6.2-rc6
-    old: 0000000000000000000000000000000000000000
-    new: d68cd3a82e80628f13a69e51ce459de12870f5b9
-  - ref: refs/tags/v6.2-rc7
-    old: 0000000000000000000000000000000000000000
-    new: 53b3c6467004c627f42d96ef839b223a749bcdd9
-  - ref: refs/tags/v6.2-rc8
-    old: 0000000000000000000000000000000000000000
-    new: 51c32cc368b00aae605286cad9150cefa0adbf2d
+    log: revlist-24af2f08d600-96c28582d855.txt
 
---===============8253167660832650275==
+--===============1438700291927201113==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-86190296f81f-493f9241a6b8.txt
+Content-Disposition: attachment; filename=revlist-24af2f08d600-96c28582d855.txt
 
-f4afd9249475d051ade6cf7dc1dd977011d62d43 f2fs: file: drop useless initializer in expand_inode_data()
-678359850581fcb52cf11a24be3b50fd65436676 f2fs: remove unused PAGE_PRIVATE_ATOMIC_WRITE
-180efc4f4736d608da889062f6f1c7c4542da001 f2fs: rename F2FS_MAP_UNWRITTEN to F2FS_MAP_DELALLOC
-7bb0262b598a76973bb5eced2fe168f870fad923 f2fs: split __submit_bio
-39b1bb874128db5a1b9b1ebeac5525a3fd411902 f2fs: add a f2fs_lookup_extent_cache_block helper
-ee1f5fa2ba710987a862c1bf25bd495b21b8bfec f2fs: add a f2fs_get_block_locked helper
-75b2df701df2f5f0bc70226ec4bf517bb135e277 f2fs: f2fs_do_map_lock
-49438a35957b6665eba6a440cf5fffcb263dbf5a f2fs: reflow prepare_write_begin
-5bea4661322460b4b2e9b6823a940ac493a8343c f2fs: simplify __allocate_data_block
-2737c640d494ad827a83a32251eb7367da34f3aa docs: f2fs: fix html doc error
-77d8b27a681e7385a16bb83dff11e17ef6041f7a f2fs: remove f2fs_get_block
-591f1e7f313ddfc3d4287c619ece2337f10cb39a f2fs: remove the create argument to f2fs_map_blocks
-94ed2ee330c9a4e4fa2038eb57424180e92beb2d f2fs: factor a f2fs_map_blocks_cached helper
-653c484953a35492edc0373fcb7926c641baa039 f2fs: factor out a f2fs_map_no_dnode
-fffc649e030248915077477999058db81e1fe735 f2fs: refactor the hole reporting and allocation logic in f2fs_map_blocks
-2d5a0ec2020d8a9a6c447215788c149dd789c577 f2fs: introduce IS_F2FS_IPU_* macro
-8f81a1136d36bba16edf7ffbf08d09eda2d5393a f2fs: fix to avoid potential deadlock
-1b2a703cfe9793f30071df8ac78db6ad4cbaadd9 f2fs: add missing doc for fault injection sysfs
-105ea358c7a5d825fbd0cf74a6c97d8ff08d6119 f2fs: avoid to check PG_error flag
-9f4b5cea74127ad4c4cfefc564088488ab634335 f2fs: deliver the accumulated 'issued' to __issue_discard_cmd_orderly()
-be97cc63670434af30affbf8a181fb64fbaa3098 MAINTAINERS: Add f2fs's patchwork
-8c88d1f7d5b89670e99b7d3e5e401da273f6010b f2fs: start freeing cluster pages from the unused number
-2235f08cd5ce6ab2279ded920d35dc4d8f67e29f f2fs: judge whether discard_unit is section only when have CONFIG_BLK_DEV_ZONED
-0d244482c923659fa548820d22d520512f2ae82c f2fs: mark f2fs_init_compress_mempool w/ __init
-1133ee29b8a964f94942f75b1e2a4a625e999d99 f2fs: remove unnecessary blank lines
-fc4bcc90589da14bd87394a729e5156558903b46 f2fs: add a f2fs_ prefix to punch_hole() and expand_inode_data()
-c026152eaaad062a7a83357ea36978c6da3b5cd9 f2fs: merge f2fs_show_injection_info() into time_to_inject()
-27d28c08696b2fbfde3f756ea3bc21d1ca99884d f2fs: convert to use MIN_DISCARD_GRANULARITY macro
-0d78bd14e0184e2cb2b043db4505a1f15cf40c21 f2fs: convert discard_wake and gc_wake to bool type
-c6b813f0a7dc5af7779f1f69c1cceef755809b09 f2fs: drop useless initializer and unneeded local variable
-52f317242c105ea6f43b45d252775d58e5abda49 f2fs: introduce discard_io_aware_gran sysfs node
-e707d32c874240d3f0223e0a5d9d132d54bc0c98 f2fs: introduce trace_f2fs_replace_atomic_write_block
-98031a24d43a001f92b8a7ee847a67444efebf85 f2fs: clear atomic_write_task in f2fs_abort_atomic_write()
-d2405d7a1aea29d4564362f57f4ae050bd345e20 f2fs: remove unneeded f2fs_cp_error() in f2fs_create_whiteout()
-755042833ace2c00f5e377759d1b5a72c31522da f2fs: fix to do sanity check on extent cache correctly
-f1583603ff3fa0c0afd31f8c8f312321ffef455f f2fs: fix to show discard_unit mount opt
-fb665595463be9e5aa2c0b95e6a5154933f047bb f2fs: clarify compress level bit offset
-83f3b8ea89c394f8f1b159d12daca63a0c66ce17 f2fs: return true if all cmd were issued or no cmd need to be issued for f2fs_issue_discard_timeout()
-c4a3844a95640c84905d0259d0e5b9a78c9c87b3 f2fs: fix to check warm_data_age_threshold
-b3941cccade4569287eab9dc87f363f8d0f60e00 fs: f2fs: initialize fsdata in pagecache_write()
-80d515a114accc965c0676233107a2330ad7474c f2fs: fix information leak in f2fs_move_inline_dirents()
-cafbbf37e5f8163a7bd1676baa4f39af526a4909 f2fs: allow set compression option of files without blocks
-16401846c04407c28373b98207722a3b9afa4549 f2fs: fix to abort atomic write only during do_exist()
-6b839e23b27bd3940a987a256803e6a4d2409073 f2fs: remove __add_sum_entry
-91ef9671824a33a3dfb7ea219cc468fdecdf19d5 f2fs: simplify do_checkpoint
-231f8e8106baff179de8ede348debf404254d414 f2fs: add a f2fs_curseg_valid_blocks helper
-97d6d580741986e25fe7ef8d6b7cdb26e58b9bd6 f2fs: refactor __allocate_new_segment
-1ec9ee3ebff5e749f2c2ec747916e481208fed13 f2fs: remove __allocate_new_section
-f1777f7e8fa8b427233674adc6ad4f49f636315e f2fs: refactor next blk selection
-04c912651d7e46a5a52e7096e2d59d303baf8cf0 f2fs: remove __has_curseg_space
-5f194e87778514357907dcbad670ae841516c693 f2fs: reduce stack memory cost by using bitfield in struct f2fs_io_info
-5f9703d6b7680c0cc809d0d9d8d192a2cf7c52f5 f2fs: clean up i_compress_flag and i_compress_level usage
-6dd680de7bf2f3f59965564589ccad276ca7e85e f2fs: fix to handle F2FS_IOC_START_ATOMIC_REPLACE in f2fs_compat_ioctl()
-971a2c8d08e8938f7a42a0d9ac855193028a480d f2fs: retry to update the inode page given data corruption
-478714a46f04cd6c398108d6d8a1d4767175f507 f2fs: fix to avoid potential memory corruption in __update_iostat_latency()
-901bbe9a848f4522238c4e45e2c47e8946649eb6 f2fs: fix to update age extent correctly during truncation
-1e28d162acf74d1af1a79f5fc8ce4388a4dbc9bb f2fs: fix to update age extent in f2fs_do_zero_range()
-8f0a05886f742985c4216f1a3eb0e202212f0dba f2fs: fix wrong calculation of block age
-b9e68a9a814428dc9b00eb6d1b6ce15ccc4d06ba f2fs: fix cgroup writeback accounting with fs-layer encryption
-ddf3fbcb6703f8cf4f02e90c75875c7386bd80d5 f2fs: fix f2fs_show_options to show nogc_merge mount option
-ee48426a1f2230e461932631b1e81882ee404c3d f2fs: add sysfs nodes to set last_age_weight
-9e454be60806f554338ec1f5d7f0f862e20e715c f2fs: use iostat_lat_type directly as a parameter in the iostat_update_and_unbind_ctx()
-2c8474a85db640d957eb1460b37720e261af43d6 f2fs: fix kernel crash due to null io->bio
-209d061c68ac50ee759567817b4c6aae8b304fd4 f2fs: fix typos in comments
-846e2263466b8cb98cba7b5293862a437f12c61e f2fs: fix to set ipu policy
-b9cd484ef4d7fd73962d3e862e3547b270ca506f f2fs: add missing description for ipu_policy node
-0f5ca22eab472fef78ab5d94f73f2887f4d88a80 f2fs: fix to do sanity check on extent cache correctly
-396230a44d5150ba0f1574c145841e27195ce6e5 f2fs: export ipu policy in debugfs
-5e6dc7bc3578c9df6e048b519c779032a68ecbea f2fs: replace si->sbi w/ sbi in stat_show()
-f9300bb6501cded38f40397537b25f29f808cc77 f2fs: fix wrong segment count
-2daffa276085178e0ece89188583a286ec526167 f2fs: synchronize atomic write aborts
-0fc1062141c1e82ab948b830bb9f37c6276d2fb6 f2fs: Revert "f2fs: truncate blocks in batch in __complete_revoke_list()"
-493f9241a6b8df703431ca8204a1dba1ccc05256 f2fs: drop unnecessary arg for f2fs_ioc_*()
+eef6afba12b81b258bc2ce7663517809172d1539 f2fs: file: drop useless initializer in expand_inode_data()
+f2b976d510c81fb940b4f8a152f01ded9dd364f0 f2fs: remove unused PAGE_PRIVATE_ATOMIC_WRITE
+503e24bfe78e37795603f31d0bc38e952ef4eb60 f2fs: don't rely on F2FS_MAP_* in f2fs_iomap_begin
+fa933b491928d06806d0847b69665da87251202a f2fs: decouple F2FS_MAP_ from buffer head flags
+282dfe1aaa80e89958288d3470a6d905b04edaeb f2fs: rename F2FS_MAP_UNWRITTEN to F2FS_MAP_DELALLOC
+21d46a47d4ea1686c90f9cd5217407db20d67909 f2fs: split __submit_bio
+3c752a28a13d00bd9b5a391ec0f62e5f4cbaa403 f2fs: add a f2fs_lookup_extent_cache_block helper
+198e581c2638dbbd75bf44d60504e3d5cdc10d7d f2fs: add a f2fs_get_block_locked helper
+d6fe9cb6939bd04b9bfd9fd8204f812e0651ed69 f2fs: f2fs_do_map_lock
+641b2b62f04172bf862e98008682591814c65447 f2fs: reflow prepare_write_begin
+4decf1a3bae8a18b7868e75bf6276235aef627c3 f2fs: simplify __allocate_data_block
+60cc03d170a462c0aee34f3ef0cdb876d964617e docs: f2fs: fix html doc error
+2ea62dd4059a931d014c4d17342178b6a01e238f f2fs: remove f2fs_get_block
+491fc12c1ca9027e5edd4b635f63bf0eaadabe0b f2fs: remove the create argument to f2fs_map_blocks
+eb13dcc1334a8636dc4e5560117afe6d114776a6 f2fs: factor a f2fs_map_blocks_cached helper
+2d940179823465a8c508517f84f4ea80c4a618c1 f2fs: factor out a f2fs_map_no_dnode
+b78e53f68a1b1e95e148ae4465c341c8f882d26d f2fs: refactor the hole reporting and allocation logic in f2fs_map_blocks
+248c7f1f97391a8538b1f76a0d7f18b027eb8f22 f2fs: introduce IS_F2FS_IPU_* macro
+d8a3606017eb17ac4d90b332268f03dd47b89e97 f2fs: fix to avoid potential deadlock
+885057f75c4658baac1913c684852b14d8b88011 f2fs: add missing doc for fault injection sysfs
+a5ed02478e618dc48ff423f8dccc86e23c8136b2 f2fs: avoid to check PG_error flag
+00e844733db067d0aa48858730ce57cdb82fd554 f2fs: deliver the accumulated 'issued' to __issue_discard_cmd_orderly()
+ab5b2391640655cce0d517b146a68833e637c516 MAINTAINERS: Add f2fs's patchwork
+b0a34aa5efd8dfe90fe509c7990a1a625c14ebcf f2fs: start freeing cluster pages from the unused number
+6257315e262c727844373271eb584d4adbe8038b f2fs: judge whether discard_unit is section only when have CONFIG_BLK_DEV_ZONED
+fa91831ec51ef92bf9be25abb9f2b710b69646b5 f2fs: mark f2fs_init_compress_mempool w/ __init
+9aaa5dd337e5a620cd379eb86bdc2e5600bed365 f2fs: remove unnecessary blank lines
+96f38680c8a647dcfe0e35d358f79c502cf31c7e f2fs: add a f2fs_ prefix to punch_hole() and expand_inode_data()
+6e2a981146c1821510c157ff1d1fb2fd183ba5ae f2fs: merge f2fs_show_injection_info() into time_to_inject()
+1544ac37c30401997eb98e9d9df61decff98561b f2fs: convert to use MIN_DISCARD_GRANULARITY macro
+a1e9b4238878588f06ef0abcda0f1c778627d833 f2fs: convert discard_wake and gc_wake to bool type
+390b7533b87595918deec15de82f7cb987cdbab7 f2fs: support accounting iostat count and avg_bytes
+7267221e64dd6b6e2e39d86b8fd1c1cc15502a2b f2fs: add iostat support for flush
+7a97946a4778fa33d9a3ccbdbceb8926326035fd f2fs: drop useless initializer and unneeded local variable
+711e7eac5c2844d2c10f5b1195a15684914dbfa7 f2fs: introduce discard_io_aware_gran sysfs node
+7a43ce111def85e7c5d5730bd66becfad39aaa2d f2fs: introduce trace_f2fs_replace_atomic_write_block
+9cf3722c202b80d2fb3cb60e781c9416ec693d12 f2fs: clear atomic_write_task in f2fs_abort_atomic_write()
+3bae09c3bba0f9357ef2f144f94a6c6d98a96cf4 f2fs: remove unneeded f2fs_cp_error() in f2fs_create_whiteout()
+d22da44dd86a25bddc177cb3210b2d11090c4a71 f2fs: fix to do sanity check on extent cache correctly
+edac576fc373028c6473e09eb3b34f092898b207 f2fs: fix to show discard_unit mount opt
+8eed1d9fc87e4c54477b0b8979e5a906019a4a46 f2fs: clarify compress level bit offset
+36cc7c4863669a4f6ec1bc75f1fd4893257153f6 f2fs: return true if all cmd were issued or no cmd need to be issued for f2fs_issue_discard_timeout()
+136c81bd86c7c2c9b7b1113ca979138ea9da9a01 f2fs: fix to check warm_data_age_threshold
+d5cf568aa881b3ee9566af2b24b97f497a3f1cfe fs: f2fs: initialize fsdata in pagecache_write()
+1f7d2a0d98cfa7809b668e8604f8160befe25779 f2fs: fix information leak in f2fs_move_inline_dirents()
+706baa858c216883e2f7a2d1a6ff4d83af48767a f2fs: allow set compression option of files without blocks
+08720457b6a2401201ffbdbe166facea43788bd3 f2fs: fix to abort atomic write only during do_exist()
+7b6528309eabf58df3da051f90bceda0d43f108c f2fs: remove __add_sum_entry
+d221f42b3144dc45feb5f19144e3bf10a1b5c58a f2fs: simplify do_checkpoint
+166b1398c239bef6634f3ba0eff925079f2b5e5f f2fs: add a f2fs_curseg_valid_blocks helper
+874ec72913ca3776b1b540d6e6f3f89703b667eb f2fs: refactor __allocate_new_segment
+16a84a43c10723c5aaccac2ff404a56e97f46038 f2fs: remove __allocate_new_section
+cb1adf6ee1031eee851587715f70c328cc1155cf f2fs: refactor next blk selection
+6b0061e942946c2d0312c81b4624b79762150ef1 f2fs: remove __has_curseg_space
+cbab3fe1209b405828320b2c9d50a00ca6c884cb f2fs: factor the read/write tracing logic into a helper
+8d0c883a205c4f228d05233c61e81444b99b60ee f2fs: reduce stack memory cost by using bitfield in struct f2fs_io_info
+89807c3af2180b64c6eeb2b421801ae04aae14e3 f2fs: clean up i_compress_flag and i_compress_level usage
+85dec01a768861b2e9b5b245a46f57fbfc5f7a44 f2fs: fix to handle F2FS_IOC_START_ATOMIC_REPLACE in f2fs_compat_ioctl()
+79f881b3e13da90a5dc96356f85dd98996c7ae95 f2fs: retry to update the inode page given data corruption
+8612b5594851ea4948e1699e94a4afa413c0d8f7 f2fs: fix to avoid potential memory corruption in __update_iostat_latency()
+bdf293119e306d205ad4aacd965f3009396bb138 f2fs: fix to update age extent correctly during truncation
+bae6971ff65f2a04f77a598be569cc221f0c8f32 f2fs: fix to update age extent in f2fs_do_zero_range()
+7de8eb1e052d36938c82bb3e5eeea006307594c8 f2fs: fix wrong calculation of block age
+490fae61613ffc232ebe66ec7502a6406ecbf722 f2fs: fix cgroup writeback accounting with fs-layer encryption
+b621f0bf272269d9009c204b36229641276fbb26 f2fs: fix f2fs_show_options to show nogc_merge mount option
+58f0548a926e4fdd7b916f971098582832c5b488 f2fs: add sysfs nodes to set last_age_weight
+72386cd78c0c6c9393c3ac1a96fa02558948a620 f2fs: use iostat_lat_type directly as a parameter in the iostat_update_and_unbind_ctx()
+f3a6aa96df25976bfa8e5ece2dae930f74bc8b3c f2fs: fix kernel crash due to null io->bio
+5d08c9aa5e3e61dba5333aeb69865042a3868c93 f2fs: fix typos in comments
+68a2d0609fe6d60bb2e74e036abcb72c47d36827 f2fs: fix to set ipu policy
+05cedd09794051842bf167582c9dcaa5fd93a82f f2fs: add missing description for ipu_policy node
+ccabeb38e6aa2c9374817710c5ee3570d03a0fe9 f2fs: fix to do sanity check on extent cache correctly
+c97d73934244279767db18d205dc0d6973ac2184 f2fs: export ipu policy in debugfs
+0bb4ad15ca5b3a8d7359aec259514e1e69d7d4e6 f2fs: replace si->sbi w/ sbi in stat_show()
+ccc90d98268f9912e702805874663361f49a8209 f2fs: fix wrong segment count
+720709c3276220fdb70e9385d87c6169476f04e7 f2fs: synchronize atomic write aborts
+4cf3117cbe53e574744dfca8fc1f918c4e11ae1f f2fs: Revert "f2fs: truncate blocks in batch in __complete_revoke_list()"
+96c28582d8552c93401eab0b17b0e38a698d6db5 f2fs: drop unnecessary arg for f2fs_ioc_*()
 
---===============8253167660832650275==--
+--===============1438700291927201113==--
