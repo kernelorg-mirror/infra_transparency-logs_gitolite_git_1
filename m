@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Fri, 03 Mar 2023 05:58:23 -0000
-Message-Id: <167782310331.29012.17042160926531229613@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Fri, 03 Mar 2023 06:23:00 -0000
+Message-Id: <167782458044.13084.4007773122095277594@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/master
-    old: 1021d14e6df15a1c4aae5270fa719b8b24ea24e4
-    new: 842bef9d99266d948ef2af706de7a82c8c96b62f
+  - ref: refs/heads/main
+    old: 5c1ebbfabcd61142a4551bfc0e51840f9bdae7af
+    new: 9781e98a97110f5e76999058368b4be76a788484
     log: |
-         32410cb8a20234d0e6fb95b420abb76b9f341643 foo
-         5d1b01650d9db9c75948e080a2608bcba7607aa2 foo
-         842bef9d99266d948ef2af706de7a82c8c96b62f foo
+         e57cf3639c323eeed05d3725fd82f91b349adca8 net: lan78xx: fix accessing the LAN7800's internal phy specific registers from the MAC driver
+         9781e98a97110f5e76999058368b4be76a788484 net: caif: Fix use-after-free in cfusbl_device_notify()
          
