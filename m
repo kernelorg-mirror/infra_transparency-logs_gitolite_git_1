@@ -1,53 +1,65 @@
-Content-Type: multipart/mixed; boundary="===============0562864713329747219=="
+Content-Type: multipart/mixed; boundary="===============6418663364128892351=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Fri, 03 Mar 2023 10:40:35 -0000
-Message-Id: <167784003525.2922.13312159543735966944@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
+Date: Fri, 03 Mar 2023 10:40:51 -0000
+Message-Id: <167784005121.3087.16222427050725117309@gitolite.kernel.org>
 
---===============0562864713329747219==
+--===============6418663364128892351==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
+repo: pub/scm/linux/kernel/git/stable/linux
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/v4.19.275
-    old: 0000000000000000000000000000000000000000
-    new: 0d3152d9ff1bfdecd4a9236f207f20494b95e26c
+  - ref: refs/heads/linux-4.19.y
+    old: 2e3d9118e4e62b90603d61abd45d8bb29ebe7920
+    new: 5504146b2053f842426834d275002974109f39a6
+    log: |
+         5df89a6a1c1d6bcb4b0f5a641cb0b9f1e6ce48fc ARM: dts: rockchip: add power-domains property to dp node on rk3288
+         5f8401d7dba21e549306fe4a7a9ff8bf3bd8d56a ACPI: NFIT: fix a potential deadlock during NFIT teardown
+         09450e240a7a3de7cd0fbac13ce512dc2618d863 btrfs: send: limit number of clones and allocated memory size
+         11087f58e4f9aead523a7ca814e4cf46debd96f9 IB/hfi1: Assign npages earlier
+         9089260f9270abc99ef33ba2dc775ebcd9e534b2 net: Remove WARN_ON_ONCE(sk->sk_forward_alloc) from sk_stream_kill_queues().
+         e534b1ce31679ad447aa07690b5c327c767a6020 vc_screen: don't clobber return value in vcs_read
+         241bca3b7ca22a914272a2fbb5ac276015c9c860 dmaengine: sh: rcar-dmac: Check for error num after dma_set_max_seg_size
+         c04801c20b8ad126ba92c688bd10be87214104d9 USB: serial: option: add support for VW/Skoda "Carstick LTE"
+         5f35b5d3bd6914c68f743741443dfd3a64b0e455 USB: core: Don't hold device lock while reading the "descriptors" sysfs file
+         5504146b2053f842426834d275002974109f39a6 Linux 4.19.275
+         
 
---===============0562864713329747219==
+--===============6418663364128892351==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1677840034 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1677840033-570fb2286d4f4ababd8a21191c43850ce298c0bf
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1677840049 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
+nonce 1677840049-752b5277596092207bd6c565400b04a747044f3e
 
-0000000000000000000000000000000000000000 0d3152d9ff1bfdecd4a9236f207f20494b95e26c refs/tags/v4.19.275
+2e3d9118e4e62b90603d61abd45d8bb29ebe7920 5504146b2053f842426834d275002974109f39a6 refs/heads/linux-4.19.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQBzqIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk++AYQAJ4VNXNsftAvXmVnCFOd
-BRnnPxWPNJl0wRvuA6eehhoFa7o26jOfD+NtSVm/zDJceZX40ZGrCLuoSjkEJy1s
-6drwklBTrLMKo1a7HIMZXrjC6GoG2Zjq8hsFmwHOuoEF7URPuMvdpMUWMw1saXs1
-MKK29uYzIY6abpRkrEQF0NEZOx+hYQLRqIQvtE4kOGQcqIavf6ikuZlalTHKA1q0
-3PebKHy4oJmvhSPZStxkENEWjPzCdTt5T1zMgHgALsvArO7f6uPbAzNlBw4m/uyH
-N7WeIxel1tozaXjhcRUQqcN639xpKsexOsbOeNs/nZR4LyJcOdVuXz6siQtR7sfS
-3OkUWpctJqyyY5GV1d8vNkocNge2vytGh8JXyRfXUrfxd3ZaA56gEKX4xH0U5nJU
-x4cgx0RqOsSDpeJ8ufx11GLTd1SRYBxQMxVt5nzNmGktg4AL0c/gYpRMntIOJ0pX
-GnSmsVwJVyMigpz6Itt/GIgYVxsxGwfsLhvI9EypBOjxp9nf5S+pfnvOTTx5eBzI
-cHBzHWeCR3XamLPDFlfgfBElhh0FCdRHUIfYgT6SWAD7voYA6mI+/+N9k99K2n1y
-HO6KnX0d5VCMUC7FWToR6JlFH/JA3VFNA/EAeSDK9hBpjcfNrxU4l/YrfDBQBTJw
-BbNcp9O8/X3YtCtiTyAdwiri
-=k0fO
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQBzrIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ZaMQALuy6meMpxdlj+rcAZDj
+AC6rJYB1jbA138/51tBK3akrv1F/ymYJ9heSQwr0PnEgDWgg2Ee7co2jJ1IeE3pe
+BnQvLouQo2uCQLp3r65uAhEQXZpSRvprjUDEKpVagqfiOT+HfLhL2mrC4zOIx02+
+JRLfQt/zxO6FFmXjo6Lt47dg4xBOmr6g7Ha46HgL0nW7y50Ku/HvirA2ayu9FH0m
+BlOdlzB+0FijthAC2okoTRld3vcKjzAt890/yuVCLTfmrKLpSx6wM+7HW+SENcq8
+8BByg6HyGZUatpQpynPi6/Fd+oVYZQuzoXGsnuFtS8itnb8FaKlSaXD0TIBVgljF
+z6OaTgKnjtnCNVvSNJ794gvKWH1n3RhPj8AU1shOEzp2x/nnA/t5DWRqyKREShBL
+u6UxUbut8hd6ZFsgQLmiPcwMvbzxIRlnJxcUqYl9ROiEg1wvnNtv9OgnEJKQXR1+
+YRo1BOewEJvDnXTaeDWYMCAisq3zp0SPdHJxKfRFUG8HOqEKH72qNLwa5o0+Yip1
+acgTZfLb7ax6TtRyELq4r5YvztxbArHt+yE+bDKWkrL3rVTa0xoMOHXXozYdAlaX
+1A76H9aOzo2Oif7773N03Bq+6y0ZshxjUIQeB+WNeIavEi2hZNkaXNwI7yXOz1iU
+W0oz+78IdSql8pDYNBgVZKfR
+=djVt
 -----END PGP SIGNATURE-----
 
---===============0562864713329747219==--
+--===============6418663364128892351==--
