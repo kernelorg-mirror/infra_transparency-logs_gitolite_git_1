@@ -1,44 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============5399524549995707694=="
+Content-Type: multipart/mixed; boundary="===============3175414985013871437=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Fri, 03 Mar 2023 15:57:43 -0000
-Message-Id: <167785906394.19224.15110475850649323561@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Fri, 03 Mar 2023 15:57:52 -0000
+Message-Id: <167785907226.19375.7959759397193979168@gitolite.kernel.org>
 
---===============5399524549995707694==
+--===============3175414985013871437==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue/4.14
-    old: 8a7fa98443d7baa5cbb8f46960b910cfa0c16f29
-    new: 469dfa6f53b211ea75a81a2fad8d75d956720c1b
-    log: revlist-8a7fa98443d7-469dfa6f53b2.txt
+  - ref: refs/heads/master
+    old: 860c5a08f3ab03402efbd367ed477ce5c5ffbdfd
+    new: e165a09a263cb545f0a4b6652c922e1ef372dfe8
+    log: |
+         e165a09a263cb545f0a4b6652c922e1ef372dfe8 5.15-stable patches
+         
 
---===============5399524549995707694==
+--===============3175414985013871437==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8a7fa98443d7-469dfa6f53b2.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-37a8d225c2a4401e369a69b9bb2d2dd799dc62cd ARM: dts: rockchip: add power-domains property to dp node on rk3288
-8e1033a86f5b92d3e0399131ad3e67342e9bf406 btrfs: send: limit number of clones and allocated memory size
-2bf8945ad05688f4a4fa3d739fa3563cef224edc IB/hfi1: Assign npages earlier
-d56c7fec11fc63ac5f0ff132d9f21c6f74f13b1a net: Remove WARN_ON_ONCE(sk->sk_forward_alloc) from sk_stream_kill_queues().
-6b492aca16af214d4d3e6f3a96d57cbb6ff3cc27 bpf: Do not use ax register in interpreter on div/mod
-291ed860e4736da5152922f06c9a76d383b5a663 bpf: fix subprog verifier bypass by div/mod by 0 exception
-88d54eb01451d3d3bc4d3db4cbe03b1262008fda bpf: Fix 32 bit src register truncation on div/mod
-b012b6973faa24d2b6f935b7060603ba49f2a16e bpf: Fix truncation handling for mod32 dst reg wrt zero
-76723836a7a771092a3d8efffe7ad1ba8d7a738d dmaengine: sh: rcar-dmac: Check for error num after dma_set_max_seg_size
-65c7549f7f46c7e5d6a9ced653a7aefa6d15c84f USB: serial: option: add support for VW/Skoda "Carstick LTE"
-2a37b1b53cad1e31755b5ec125dbf522eb1685d5 USB: core: Don't hold device lock while reading the "descriptors" sysfs file
-2ad502cd8ba0740a4ca2871242b860dba0677f8e HID: asus: Remove check for same LED brightness on set
-2053ee7a7f34e663365175f9d0bc84450e187f03 HID: asus: use spinlock to protect concurrent accesses
-469dfa6f53b211ea75a81a2fad8d75d956720c1b HID: asus: use spinlock to safely schedule workers
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1677859071 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1677859070-4d54162229b5168b10ade0a973efd00b7316e480
 
---===============5399524549995707694==--
+860c5a08f3ab03402efbd367ed477ce5c5ffbdfd e165a09a263cb545f0a4b6652c922e1ef372dfe8 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQCGP8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+3BsP/31F+RkErsmj0p9SzWGR
+sNUoWMJqsHGMqDpPoZy471d1gbpiIJPqOPEtBeNnUHchvmckDrFE05CjoQ27CQFr
+1UHBlmGET6DMfEUBgTDFE7GIZUdA1LPQSZFYhkH3W3DkzKWyJIAmk9EmRGBXhkLU
+x/zALDyjTVo2ZpKGHrcmTL6ijHhMHfLOb5jXFIkES6nI5Ve+zUlkK43XmfDmQpB1
+XHRvtimwIldJqzMwaScIhDwQ3L4dfpIPu/k7c8dbgy0DmNc7tZfkLQY6ikZ2kRfF
+FM7L4AQwU3BVeESf4GvAK25urZAedKMsew133hfXa2vMZffEsTpuh6hD/T8wHCAm
+BmBpRZ3twS/vXMFiSZUMre/2zJZUKDpThqXE8///I+XoEy4QMl0sJ23iP82w7JsT
+udH1/W/juMwvdkVB/elZtbgKGV63O+bcg4Vb8YICxrRW1Au/FlCgQT+8ZClyWn6S
+NQqVB7RWzMki2MRIvOdfQMYUtCH825KPDea5Sw7fX7jA745ed2FXMqkMXm3AkA+7
+hXUJ7TYjRegs346xVfrX0oHrLMjxGOC/77BDC5xhV9h3d9feBRoq7VZX7e8v+s34
+CNM0XmLIna7v/QJbR99o++F6SocGtq/xIvFI2dp6lZA4VO6XHe6kz/JZc9cvH9kE
+teAL/wIxah2S6SESchU8QXTw
+=QKxx
+-----END PGP SIGNATURE-----
+
+--===============3175414985013871437==--
