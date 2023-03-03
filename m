@@ -1,27 +1,47 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/git/git
-Date: Fri, 03 Mar 2023 19:57:19 -0000
-Message-Id: <167787343928.17202.10223199978638523342@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============6637466304505236256=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/utils/b4/b4
+Date: Fri, 03 Mar 2023 20:00:07 -0000
+Message-Id: <167787360722.19748.12087072573830263969@gitolite.kernel.org>
+
+--===============6637466304505236256==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/git/git
-user: junio
+repo: pub/scm/utils/b4/b4
+user: mricon
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/seen
-    old: 49c458e4e3666f0bcfd29e5801c7c569a7e61166
-    new: bf3858f0dc7045e76a6ad561334af920b7b1affe
+  - ref: refs/heads/master
+    old: 57d5b5a85d063be8d4af2c454b2c19e46ca59b69
+    new: 221cc6ccd40d3e643bc65b34f2fca72ad2a69363
     log: |
-         94c4289435605a9c39951ccebaf82f131e07c255 format-patch: output header for empty commits
-         57e1d12a86744fb5a5d33bced88790d4ec139b99 config.c: plumb config_source through static fns
-         456ffe23d04f2c6ea5b190f8200819e6d0c36e1a config.c: don't assign to "cf" directly
-         f047a8749f80e8f25af68b8387bd80786b6ea06b config.c: create config_reader and the_reader
-         ef0e4235c2c4fa704c554d8d743c0f0c9b124e65 config.c: plumb the_reader through callbacks
-         764b4f2989667c9886a791206cfb291b75a7e7ae config.c: remove current_config_kvi
-         b6fd6b01a2cf80dd031e988a21392abbebcd29c4 config.c: remove current_parsing_scope
-         4e248a3b23c597d1598341dc96e105c9d642f3b2 Merge branch 'gc/config-parsing-cleanup' into seen
-         bf3858f0dc7045e76a6ad561334af920b7b1affe Merge branch 'jk/format-patch-change-format-for-empty-commits' into seen
+         1a8daaa8d8e3ae6e9b95d90f026009bf3ee8b65c ez: get_series_details: correctly compute 'base_commit' for all strategies
+         221cc6ccd40d3e643bc65b34f2fca72ad2a69363 Merge patch "ez: get_series_details: correctly compute 'base_commit' for all strategies"
          
+
+--===============6637466304505236256==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher B6C41CE35664996C! 1677873606 -0500
+pushee gitolite.kernel.org:pub/scm/utils/b4/b4
+nonce 1677873606-73b4b8446dc6ff140d2198b5d50f6a4f16582e33
+
+57d5b5a85d063be8d4af2c454b2c19e46ca59b69 221cc6ccd40d3e643bc65b34f2fca72ad2a69363 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCZAJRxgAKCRC2xBzjVmSZ
+bI9XAQCBAR0D0+u8hDaUBz+USx0pqUP0Yew5vKZlIq+LVm7IrgEAv+tRsKivgZrC
+yOAtZlqeBvd5zNIja3tILkBpwVdYjQE=
+=+viO
+-----END PGP SIGNATURE-----
+
+--===============6637466304505236256==--
