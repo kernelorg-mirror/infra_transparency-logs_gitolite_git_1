@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/colyli/bcache-patches
-Date: Fri, 03 Mar 2023 16:12:53 -0000
-Message-Id: <167785997339.29048.4863269058222029105@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/colyli/linux-bcache
+Date: Fri, 03 Mar 2023 16:13:57 -0000
+Message-Id: <167786003790.29471.11347609505929161963@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/colyli/bcache-patches
+repo: pub/scm/linux/kernel/git/colyli/linux-bcache
 user: colyli
 changes:
-  - ref: refs/heads/master
-    old: fc7e6f919ffdd3ecfe4a31a9c99969718b24dd50
-    new: 62192d0140511f8489265a1e81ca2543e20c37cd
+  - ref: refs/heads/nvdimm-meta
+    old: 7ae909b6dcf328bd8757e42861dcbadc29cca872
+    new: 8b7c8f80bbdc292b8b0c52659838fc7c63981554
     log: |
-         94559fbf1632bd111ccfdd449dcd346d36fe553c for-next: remove already merged patches
-         62192d0140511f8489265a1e81ca2543e20c37cd update for-next and for-test
+         46989f16e1367f1f20b815df7bcd8fbd26e2e053 bcache: rename "struct btree_keys *" type parameter from b to b_keys in bset.h and bset.c
+         4ddd763a3150bdd0ed45501b0c06b723831cf331 bcache: rename struct btree_iter member b to b_keys
+         8b7c8f80bbdc292b8b0c52659838fc7c63981554 bcache: rename struct btree member keys to b_keys
          
