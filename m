@@ -1,24 +1,42 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/colyli/mdadm
-Date: Fri, 03 Mar 2023 16:22:49 -0000
-Message-Id: <167786056936.4420.9401859024474130654@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============2761801821792358120=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kdave/btrfs-progs
+Date: Fri, 03 Mar 2023 16:24:41 -0000
+Message-Id: <167786068182.5070.14740955726421873104@gitolite.kernel.org>
+
+--===============2761801821792358120==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/colyli/mdadm
-user: colyli
+repo: pub/scm/linux/kernel/git/kdave/btrfs-progs
+user: kdave
 changes:
-  - ref: refs/heads/20230303-testing
-    old: 7e8ac4225ad6d9694d196990a3d5a52fea77e4b8
-    new: 3b27dfa25028baa9630e7b60f320537a3d730a85
-    log: |
-         228e7109c8f8ece1b99b6a11f6f50778df244fe0 util.c: reorder code lines in parse_layout_faulty()
-         bd0b2e022348a9b8c9f8375a85cee92f2f1ee050 util.c: fix memleak in parse_layout_faulty()
-         5773c1daf67a3d26b1739b16cd6c6883c88f5ac8 Detail.c: fix memleak in Detail()
-         daf1584fa307cd62fb18ac75dadc4858a1858a0a isuper-intel.c: fix double free in load_imsm_mpb()
-         cbfaeba6af2061c37b9dbaac991c5507d2254d11 super-intel.c: fix memleak in find_disk_attached_hba()
-         3b27dfa25028baa9630e7b60f320537a3d730a85 super-ddf.c: fix memleak in get_vd_num_of_subarray()
-         
+  - ref: refs/heads/master
+    old: 6439e92cba81c068afca76f8e010fb7175620176
+    new: 366cd079bc43241b27e0838be0c5369aa00716f8
+    log: revlist-6439e92cba81-366cd079bc43.txt
+
+--===============2761801821792358120==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-6439e92cba81-366cd079bc43.txt
+
+4fc291a46516a46c1750ce01d212ccbe195d72cf btrfs-progs: fix detection of accelerated implementation.
+bbcd5990625afdc60ec9c884b28edcad15fe032b btrfs-progs: hash-speedtest: benchmark the configured backend
+02d3723993553649f84518308ed0c8b3d3d88052 btrfs-progs: hash-vectest: verify vectors against configured implementation
+d8b66fe2e2945f40ebe530d577be6dc13f29b2fb btrfs-progs: ci: enable crypto backends on Tumbleweed image
+223fa4ca01228870eee8e727d0f3f867a090bb73 btrfs-progs: ci: enable crypto backends on Leap image
+9981a6767dd2da7c03d36c7f06dcd52a324fa732 btrfs-progs: ci: enable crypto backends on Centos images
+b79b330f62144175dc463a69efdf0c6da1da44a6 btrfs-progs: ci: enable crypto backends on alpine/musl image
+6984ee86b1da2b7f65051ea321be548c1b02df03 btrfs-progs: INSTALL: add minimal version of crypto libraries
+f09e9c9543ff4304b7b062539e0cd28710c77918 btrfs-progs: tests: add more targets to build test
+2aa6854bb0721b56ebb5ca4ed37962b3bcff3d93 btrfs-progs: crypto: add missing ssse3 header for blake2-sse2 implementation
+53d2375d22072dadbb81b37e3ff34d19a7fac71a btrfs-progs: update CHANGES for 6.2.1
+366cd079bc43241b27e0838be0c5369aa00716f8 Btrfs progs v6.2.1
+
+--===============2761801821792358120==--
