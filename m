@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3071223614165022008=="
+Content-Type: multipart/mixed; boundary="===============7780018860794786824=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/virt/kvm/mst/qemu
-Date: Fri, 03 Mar 2023 00:13:10 -0000
-Message-Id: <167780239078.21980.8974466743136559720@gitolite.kernel.org>
+Date: Fri, 03 Mar 2023 00:14:12 -0000
+Message-Id: <167780245243.22382.11994317393370545119@gitolite.kernel.org>
 
---===============3071223614165022008==
+--===============7780018860794786824==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,76 +16,84 @@ repo: pub/scm/virt/kvm/mst/qemu
 user: mst
 changes:
   - ref: refs/heads/next
-    old: 65888be0d4da746e2f99930e21018d801bf8995e
-    new: bfca06524198624966c62abf2b907abc0fc4a71a
-    log: revlist-65888be0d4da-bfca06524198.txt
+    old: bfca06524198624966c62abf2b907abc0fc4a71a
+    new: ee92a56b08d0b59016a4a9bc1bf3a3de1fbe3956
+    log: revlist-bfca06524198-ee92a56b08d0.txt
   - ref: refs/heads/pci
-    old: 65888be0d4da746e2f99930e21018d801bf8995e
-    new: bfca06524198624966c62abf2b907abc0fc4a71a
-    log: revlist-65888be0d4da-bfca06524198.txt
+    old: bfca06524198624966c62abf2b907abc0fc4a71a
+    new: ee92a56b08d0b59016a4a9bc1bf3a3de1fbe3956
+    log: revlist-bfca06524198-ee92a56b08d0.txt
   - ref: refs/tags/for_autotest
-    old: 75cc9a71eb80dd3d6f0477d00a7691cb03b58f0e
-    new: 61ab6d516418da5599ce7dbc1fc13ccecbb78d56
-    log: revlist-75cc9a71eb80-61ab6d516418.txt
+    old: 61ab6d516418da5599ce7dbc1fc13ccecbb78d56
+    new: e7e8256a553adc9977c13c9af9b155dfc1a388c0
+    log: revlist-61ab6d516418-e7e8256a553a.txt
   - ref: refs/tags/for_autotest_next
-    old: 75cc9a71eb80dd3d6f0477d00a7691cb03b58f0e
-    new: 61ab6d516418da5599ce7dbc1fc13ccecbb78d56
-    log: revlist-75cc9a71eb80-61ab6d516418.txt
+    old: 61ab6d516418da5599ce7dbc1fc13ccecbb78d56
+    new: e7e8256a553adc9977c13c9af9b155dfc1a388c0
+    log: revlist-61ab6d516418-e7e8256a553a.txt
   - ref: refs/tags/for_upstream
-    old: 75cc9a71eb80dd3d6f0477d00a7691cb03b58f0e
-    new: 61ab6d516418da5599ce7dbc1fc13ccecbb78d56
-    log: revlist-75cc9a71eb80-61ab6d516418.txt
+    old: 61ab6d516418da5599ce7dbc1fc13ccecbb78d56
+    new: e7e8256a553adc9977c13c9af9b155dfc1a388c0
+    log: revlist-61ab6d516418-e7e8256a553a.txt
 
---===============3071223614165022008==
+--===============7780018860794786824==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-65888be0d4da-bfca06524198.txt
+Content-Disposition: attachment; filename=revlist-bfca06524198-ee92a56b08d0.txt
 
-0756143772630737f2fe3829b056dbc7a4eaf43d chardev/char-socket: set s->listener = NULL in char_socket_finalize
-fddf39972d35156ef17ce49062c9e78d454a0ed3 memory: Optimize replay of guest mapping
-99a8cbeaf1fcad3504a61e0ce9564d717d25064e intel-iommu: fail MAP notifier without caching mode
-1d8da7a99b253c250acc116a517804a8d476c26d intel-iommu: fail DEVIOTLB_UNMAP without dt mode
-2259c7436f5874f50d3f38e4f7fb862fefd563e9 memory: introduce memory_region_unmap_iommu_notifier_range()
-dda9c48917a168562051175c34a53f057e478b29 smmu: switch to use memory_region_unmap_iommu_notifier_range()
-666c093fce2a663909f34d0f71283f21cb7e629c intel-iommu: send UNMAP notifications for domain or global inv desc
-f0f6072d380219a0fb7ce48a8d0940b7fc5bfbfd MAINTAINERS: Add Fan Ni as Compute eXpress Link QEMU reviewer
-506b57ac9a684f7659daa6cbcf22f54c6877bc1f hw/mem/cxl_type3: Improve error handling in realize()
-71ece5bebced5837e69483d956d31a63b10e77f2 hw/pci-bridge/cxl_downstream: Fix type naming mismatch
-3ab03adb9e73467e0702cdbbd31691fbed7e7f52 hw/cxl: set cxl-type3 device type to PCI_CLASS_MEMORY_CXL
-cb1458e6a28f601076b18b065de27248d16095bf hw/cxl: Add CXL_CAPACITY_MULTIPLIER definition
-fcdf29cfe5859da98a12fb22a67a356c437e015d tests/acpi: Allow update of q35/DSDT.cxl
-0930462725a3da9ccec2640749f9ee56859199dd hw/i386/acpi: Drop duplicate _UID entry for CXL root bridge
-18b91ac9199d1792c66dc91a246b191845983ae4 tests: acpi: Update q35/DSDT.cxl for removed duplicate UID
-495b1f2cd810a30345b31a1213d8bd0983459c5d qemu/bswap: Add const_le64()
-719d65c0c6fb1b36b71bb57487c7773f41f5a6a5 qemu/uuid: Add UUID static initializer
-2196693167763386984a24fb474979eb3360a739 hw/cxl/mailbox: Use new UUID network order define for cel_uuid
-bfca06524198624966c62abf2b907abc0fc4a71a tests/data/acpi/virt: drop (most) duplicate files.
+1768e97b9186b8ea416cb81952773837bf1df87a pcie: set power indicator to off on reset by default
+e4dd39c699b7d63a06f686ec06ded8adbee989c1 vhost: avoid a potential use of an uninitialized variable in vhost_svq_poll()
+9c1916057a8b14411116106e5a5c0c33d551cfeb libvhost-user: check for NULL when allocating a virtqueue element
+28566eab2dd147f93735bc986513fff5fa5a236d hw/pci: Trace IRQ routing on PCI topology
+b8a7f51f59e28d5a8e0c07ed3919cc9695560ed2 chardev/char-socket: set s->listener = NULL in char_socket_finalize
+6da24341866fa940fd7d575788a2319514941c77 memory: Optimize replay of guest mapping
+b8d78277c091f26fdd64f239bc8bb7e55d74cecf intel-iommu: fail MAP notifier without caching mode
+09adb0e021207b60a0c51a68939b4539d98d3ef3 intel-iommu: fail DEVIOTLB_UNMAP without dt mode
+7caebbf9ea534dc11ff52ba38f982da4962e6051 memory: introduce memory_region_unmap_iommu_notifier_range()
+98332f643ebf92523ad9128c0437d9fe964bfd09 smmu: switch to use memory_region_unmap_iommu_notifier_range()
+3e090e3489dbae7af65465d357a4772f012f4d90 intel-iommu: send UNMAP notifications for domain or global inv desc
+3456fedb77215dc42572ab7ec1d9ca0e324260ea MAINTAINERS: Add Fan Ni as Compute eXpress Link QEMU reviewer
+de8a7394f02e3fba3002242f04816cff33537dd8 hw/mem/cxl_type3: Improve error handling in realize()
+9518d8bc444f63f3925f2a586adfe9010758afa7 hw/pci-bridge/cxl_downstream: Fix type naming mismatch
+2ef5063610016a75351fe3cd32879f11323d5927 hw/cxl: set cxl-type3 device type to PCI_CLASS_MEMORY_CXL
+1c580bed9ab52c5207b49e15085f069b25d282a8 hw/cxl: Add CXL_CAPACITY_MULTIPLIER definition
+defebbdf4940a27e094c75d108b27fdce28aeb82 tests/acpi: Allow update of q35/DSDT.cxl
+ab99a33d6669a9fc3534cc368a944a8c218208d6 hw/i386/acpi: Drop duplicate _UID entry for CXL root bridge
+21063bcee849d2af9a65703f9c3438ad2d4dbd26 tests: acpi: Update q35/DSDT.cxl for removed duplicate UID
+845d80a8c7b187f3003819463b40df91527affb4 qemu/bswap: Add const_le64()
+845476cb677f40cf8d1ef1a1bd9f924d75a556ef qemu/uuid: Add UUID static initializer
+e16add2b6b888faa2591de035b6cda5f5aef7ae7 hw/cxl/mailbox: Use new UUID network order define for cel_uuid
+ee92a56b08d0b59016a4a9bc1bf3a3de1fbe3956 tests/data/acpi/virt: drop (most) duplicate files.
 
---===============3071223614165022008==
+--===============7780018860794786824==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-75cc9a71eb80-61ab6d516418.txt
+Content-Disposition: attachment; filename=revlist-61ab6d516418-e7e8256a553a.txt
 
-0756143772630737f2fe3829b056dbc7a4eaf43d chardev/char-socket: set s->listener = NULL in char_socket_finalize
-fddf39972d35156ef17ce49062c9e78d454a0ed3 memory: Optimize replay of guest mapping
-99a8cbeaf1fcad3504a61e0ce9564d717d25064e intel-iommu: fail MAP notifier without caching mode
-1d8da7a99b253c250acc116a517804a8d476c26d intel-iommu: fail DEVIOTLB_UNMAP without dt mode
-2259c7436f5874f50d3f38e4f7fb862fefd563e9 memory: introduce memory_region_unmap_iommu_notifier_range()
-dda9c48917a168562051175c34a53f057e478b29 smmu: switch to use memory_region_unmap_iommu_notifier_range()
-666c093fce2a663909f34d0f71283f21cb7e629c intel-iommu: send UNMAP notifications for domain or global inv desc
-f0f6072d380219a0fb7ce48a8d0940b7fc5bfbfd MAINTAINERS: Add Fan Ni as Compute eXpress Link QEMU reviewer
-506b57ac9a684f7659daa6cbcf22f54c6877bc1f hw/mem/cxl_type3: Improve error handling in realize()
-71ece5bebced5837e69483d956d31a63b10e77f2 hw/pci-bridge/cxl_downstream: Fix type naming mismatch
-3ab03adb9e73467e0702cdbbd31691fbed7e7f52 hw/cxl: set cxl-type3 device type to PCI_CLASS_MEMORY_CXL
-cb1458e6a28f601076b18b065de27248d16095bf hw/cxl: Add CXL_CAPACITY_MULTIPLIER definition
-fcdf29cfe5859da98a12fb22a67a356c437e015d tests/acpi: Allow update of q35/DSDT.cxl
-0930462725a3da9ccec2640749f9ee56859199dd hw/i386/acpi: Drop duplicate _UID entry for CXL root bridge
-18b91ac9199d1792c66dc91a246b191845983ae4 tests: acpi: Update q35/DSDT.cxl for removed duplicate UID
-495b1f2cd810a30345b31a1213d8bd0983459c5d qemu/bswap: Add const_le64()
-719d65c0c6fb1b36b71bb57487c7773f41f5a6a5 qemu/uuid: Add UUID static initializer
-2196693167763386984a24fb474979eb3360a739 hw/cxl/mailbox: Use new UUID network order define for cel_uuid
-bfca06524198624966c62abf2b907abc0fc4a71a tests/data/acpi/virt: drop (most) duplicate files.
+1768e97b9186b8ea416cb81952773837bf1df87a pcie: set power indicator to off on reset by default
+e4dd39c699b7d63a06f686ec06ded8adbee989c1 vhost: avoid a potential use of an uninitialized variable in vhost_svq_poll()
+9c1916057a8b14411116106e5a5c0c33d551cfeb libvhost-user: check for NULL when allocating a virtqueue element
+28566eab2dd147f93735bc986513fff5fa5a236d hw/pci: Trace IRQ routing on PCI topology
+b8a7f51f59e28d5a8e0c07ed3919cc9695560ed2 chardev/char-socket: set s->listener = NULL in char_socket_finalize
+6da24341866fa940fd7d575788a2319514941c77 memory: Optimize replay of guest mapping
+b8d78277c091f26fdd64f239bc8bb7e55d74cecf intel-iommu: fail MAP notifier without caching mode
+09adb0e021207b60a0c51a68939b4539d98d3ef3 intel-iommu: fail DEVIOTLB_UNMAP without dt mode
+7caebbf9ea534dc11ff52ba38f982da4962e6051 memory: introduce memory_region_unmap_iommu_notifier_range()
+98332f643ebf92523ad9128c0437d9fe964bfd09 smmu: switch to use memory_region_unmap_iommu_notifier_range()
+3e090e3489dbae7af65465d357a4772f012f4d90 intel-iommu: send UNMAP notifications for domain or global inv desc
+3456fedb77215dc42572ab7ec1d9ca0e324260ea MAINTAINERS: Add Fan Ni as Compute eXpress Link QEMU reviewer
+de8a7394f02e3fba3002242f04816cff33537dd8 hw/mem/cxl_type3: Improve error handling in realize()
+9518d8bc444f63f3925f2a586adfe9010758afa7 hw/pci-bridge/cxl_downstream: Fix type naming mismatch
+2ef5063610016a75351fe3cd32879f11323d5927 hw/cxl: set cxl-type3 device type to PCI_CLASS_MEMORY_CXL
+1c580bed9ab52c5207b49e15085f069b25d282a8 hw/cxl: Add CXL_CAPACITY_MULTIPLIER definition
+defebbdf4940a27e094c75d108b27fdce28aeb82 tests/acpi: Allow update of q35/DSDT.cxl
+ab99a33d6669a9fc3534cc368a944a8c218208d6 hw/i386/acpi: Drop duplicate _UID entry for CXL root bridge
+21063bcee849d2af9a65703f9c3438ad2d4dbd26 tests: acpi: Update q35/DSDT.cxl for removed duplicate UID
+845d80a8c7b187f3003819463b40df91527affb4 qemu/bswap: Add const_le64()
+845476cb677f40cf8d1ef1a1bd9f924d75a556ef qemu/uuid: Add UUID static initializer
+e16add2b6b888faa2591de035b6cda5f5aef7ae7 hw/cxl/mailbox: Use new UUID network order define for cel_uuid
+ee92a56b08d0b59016a4a9bc1bf3a3de1fbe3956 tests/data/acpi/virt: drop (most) duplicate files.
 
---===============3071223614165022008==--
+--===============7780018860794786824==--
