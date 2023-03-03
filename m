@@ -1,158 +1,62 @@
-Content-Type: multipart/mixed; boundary="===============8064447788032713804=="
+Content-Type: multipart/mixed; boundary="===============0858450079335807280=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/hansg/linux-firmware
-Date: Fri, 03 Mar 2023 20:48:08 -0000
-Message-Id: <167787648836.20848.4471979020596963353@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
+Date: Fri, 03 Mar 2023 21:00:14 -0000
+Message-Id: <167787721426.29440.9509415536793696415@gitolite.kernel.org>
 
---===============8064447788032713804==
+--===============0858450079335807280==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/hansg/linux-firmware
-user: hansg
+repo: pub/scm/linux/kernel/git/jejb/scsi
+user: jejb
 changes:
-  - ref: refs/heads/main
-    old: bd33d032843893bc14e650dc317afd7b6949be5b
-    new: 60971a6485ee604c47cc905ff77c583ae001f9df
-    log: revlist-bd33d0328438-60971a6485ee.txt
+  - ref: refs/tags/scsi-misc
+    old: f870d76e5aabc347fe70e72265daa9fee591f601
+    new: 04d0a752f225ac82734a0576f026cbbef7bd4685
+    log: revlist-f870d76e5aab-04d0a752f225.txt
 
---===============8064447788032713804==
+--===============0858450079335807280==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bd33d0328438-60971a6485ee.txt
+Content-Disposition: attachment; filename=revlist-f870d76e5aab-04d0a752f225.txt
 
-7f6279b3dd76ff955278fcd9e517eab85a4c97d6 i915: Add DMC v2.08 for DG2
-32d8681d21f2eef052cadfdfafc47e02eed6c2b2 QCA: Add Bluetooth firmware for WCN785x This commit will add required Bluetooth firmware files for QCA WCN785x. The image version is 2.0.0-00515.
-6de0c03ff0da762b05ad246e91b3c457ebbdd71d Merge branch 'dg2_dmc_v2.8' of git://anongit.freedesktop.org/drm/drm-firmware
-c85feb033901560ae2c988554902a42f86c7e4a8 Merge https://github.com/quicrjliao/qcabtfw
-80ed874a45664419b350bd7647028bbf46961946 amdgpu: update sdma_5.2.7 firmware
-16c9630e7d269f11da20df6f55b7e69852a781eb rtl_bt: Update RTL8821C BT(USB I/F) FW to 0x75b8_f098
-0707b2f2f1e9049a9fac46a796f43e3173161378 brcm: add/update firmware files for brcmfmac driver
-b4af754845ee8912b5950825ffb0abbb470df167 sr150 : Add NXP SR150 UWB firmware
-e9b83572ff4333e31354afc4ec5a8c36ed2f497b amdgpu: updated aldebaran firmware for amd-5.4
-13b9c945732fc559fd209f7f6530113ebc3adfaf amdgpu: updated navi12 firmware for amd-5.4
-5d1af6dc8503a1fe5e19a85eca53199da9bd9561 amdgpu: updated renoir firmware for amd-5.4
-dccfdf1fe2d019578885702b62b19f960d0d4a86 amdgpu: updated navi14 firmware for amd-5.4
-b77f53909743abe8c607bc933aab02234fa9f39a amdgpu: updated arcture firmware for amd-5.4
-f820cc3ef33573ad6891b896e5fc2ff2cc387dc3 amdgpu: updated sienna cichlid firmware for amd-5.4
-b7e83d922010cae9f4dd15818c14088ae3980239 amdgpu: updated green sardine firmware for amd-5.4
-edf96992cd074be891ccd6994bdcb9734baf5793 amdgpu: updated navy flounder firmware for amd-5.4
-5cb010e5dea0d9946044f1de8f2d2463d40cf658 amdgpu: updated picasso firmware for amd-5.4
-dd1225a6b7c26bcd8b9887f4d369207014bfb3ca amdgpu: updated vangogh firmware for amd-5.4
-6aa002341c51c1b3011ca848e8ca73497be59646 amdgpu: updated dimgrey cavefish firmware for amd-5.4
-225744765751328980f964e901944c6481b0ec6c amdgpu: updated beige goby firmware for amd-5.4
-1fc8f6c0f4c86dbd65219f2c1878b6312222b06a amdgpu: updated vega10 firmware for amd-5.4
-613db81ff85604559712faebebec3a47592bf073 amdgpu: add DCN 3.2.0 firmware for amd-5.4
-e32209f07556427c9b0b841bfb76ca71e8beab05 amdgpu: add GC 11.0.0 firmware for amd-5.4
-bb56d1a7593e34cfa0be867d0ec2a0381c5fb3c8 amdgpu: add PSP 13.0.0 firmware for amd-5.4
-0bef6bb16fb4fc7f842a2feb326eef052b866ded amdgpu: Add SDMA 6.0.0 firmware for amd-5.4
-a7351589f1ed784b6bac1804985194b7b4ca18f4 amdgpu: add SMU 13.0.0 firmware for amd-5.4
-31c5734950eb5a6acf11e83b36572a48e82b6c3e amdgpu: add VCN 4.0.0 firmware for amd-5.4
-75e3494be7e487e36e1348317cc3f6c9cd4e54ff amdgpu: updated PSP 13.0.5 firmware for amd-5.4
-c089dab8971aa4a04a001903730f4de2b953ffb1 amdgpu: updated vega20 firmware for amd-5.4
-7d43336f34f478234c9d3007b99f9fd480ee121c amdgpu: updated GC 10.3.7 RLC firmware for amd-5.4
-fc9a1c96cff494e37ca5e559b50012245ab3dd75 amdgpu: updated PSP 13.0.8 firmware for amd-5.4
-2b21c5e0b51e980405aa1a7d3d15fd25c0fffdcc amdgpu: updated raven firmware for amd-5.4
-b8aba705fef0447fbdcb8e7bfe0593de4c2013e3 amdgpu: updated raven2 firmware for amd-5.4
-ba115d4589ee2792f00b779aab3ea00de7911f30 amdgpu: updated yellow carp firmware for amd-5.4
-f3c283e198d3fb69f5183b8dea4fd32b8c3cbe76 amdgpu: updated navi10 firmware for amd-5.4
-9e91f0ce6f6a4b1e01027a61df5b7facb902c46e rtw89: 8852c: update fw to v0.27.56.8
-c9c19583f71721963b435fc6bc9d1eab49c73ad4 rtw89: 8852c: update fw to v0.27.56.9
-52261d0329b1a2e414ee394aae3c5ca36283730f Merge https://github.com/pkshih/linux-firmware
-4704e256ca4e2e7b4fc94b87d944dd211cf4ae01 qca: Update firmware files for BT chip WCN6750
-52e62d6af5c56b82ef49db415b12c8cfe4faf756 cxgb4: Update firmware to revision 1.27.1.0
-dee66e354e3cdfb9da229b1ec2639c7b6259bdb2 Merge branch 'main' of github.com:sampathnimmmala/bt_soc_FW
-91f4c6ba605ab71d328f06aa8d8da224ea88483e linux-firmware: update firmware for mediatek bluetooth chip (MT7922)
-ce7cc732e826987fa87a553896d69cb58a89ebb6 linux-firmware: update firmware for mediatek bluetooth chip (MT7921)
-e2d11744ef348107341e0fd9230beecf0f0815eb linux-firmware: update firmware for MT7922 WiFi device
-cee86df58710dd9fbefd9d79e79dd29e275abc49 linux-firmware: update firmware for MT7921 WiFi device
-4ee201478d3f063fd8296d773aeeaf0d72bfb80f Merge branch 'for-upstream' of http://git.chelsio.net/pub/git/linux-firmware
-d0598c3b82f24f3ed811f5505f4090924c4da626 amdgpu: update copyright date for LICENSE.amdgpu
-1ed02d510bab4f148fd965e7b13cfb2e44734894 amdgpu: Update renoir PSP firmware
-504b69117b0a6995230e0b7700ef8a3e78acfc57 amdgpu: update renoir DMCUB firmware
-e20a687969174b64ffa36b3ff179c84d6057611d iwlwifi: update 9000-family firmwares to core75-47
-8bbec220bf323808b7478df14be33a4680c0a466 iwlwifi: add new FWs from core75-47 release
-5630963e0feaad4d12bd28b2e9083cbf5f9f56ac iwlwifi: update cc/Qu/QuZ firmwares for core76-35 release
-c8ff1f4651a0a1a7b9720e9635a2b19aa2319df1 iwlwifi: add new FWs from core76-35 release
-76e72d36086d43ee38602c25e5712c2b862500a3 Merge tag 'iwlwifi-fw-2023-01-09' of http://git.kernel.org/pub/scm/linux/kernel/git/iwlwifi/linux-firmware
-bd1b7f7d89f78eeb81de11e4f9383951e38a51d4 amdgpu: update GC11.0.0 firmware from amd-5.4
-3e9169aae0c1f33de7214a7444aa0f17875917c2 amdgpu: update PSP13.0.0 firmware from amd-5.4
-604df78b9791842779e4c6b2efdc9b6646e5eb78 amdgpu: update SDMA6.0.0 firmware from amd-5.4
-66b34355484489e8e2f8e63f57e0b35a90140414 amdgpu: update SMU13.0.0 firmware from amd-5.4
-5c8e895aab1a28265a9f59b8dace94aaa1ce023e amdgpu: update VCN4.0.0 firmware from amd-5.4
-20c8060e0c3ac9c90afba64f010a7f71bfe1b608 amdgpu: add DCN3.2.1 firmware from amd-5.4
-32e7c93cde1cf233217b1323215b39c3f8ccc731 amdgpu: add GC11.0.2 firmware from amd-5.4
-19995fb22dc1b5e3fc4190abce28aebbbc80fa96 amdgpu: add PSP13.0.7 firmware from amd-5.4
-3a50eb8594381b119294ee74cb77850e191542e1 amdgpu: add SDMA6.0.2 firmware from amd-5.4
-9e01e17c70d60282354d12da52b2e4e74d8cba9b amdgpu: add SMU13.0.7 firmware from amd-5.4
-a1ad1d5b50626f2d126adf1964ce0e98cbb8b39d amdgpu: add VCN4.0.4 firmware from amd-5.4
-2ba1beaae0c649ce8a50baecc8df9e81cd524e65  QCA: Add Bluetooth firmware for QCA2066
-f40957e5d89a37796030def4fbf4d66580d973d0 Merge pull request #1 from tjiang1234/master
-fc5a25fa022c7e28ecfc2ced4ea309ad61ca142e rtw89: 8852c: update fw to v0.27.56.10
-7f626ef5292d6e69566307a994f780a221f0349b qcom: add firmware files for Adreno A200
-3723b48005db1a5c801a105abdb6ca9f564447da brcm: add configuration files for CyberTan WC121
-86b73ce662f5f4b444f26edd8dc6b1f659c8daef linux-firmware: Update firmware file for Intel Bluetooth 9260
-49e87fadd35cd3196c8528fd2af6c73e90a01c94 linux-firmware: Update firmware file for Intel Bluetooth 9560
-7101c577b30b35dfb808da9828e1c6dc12d2e7a7 linux-firmware: Update firmware file for Intel Bluetooth AX201
-becd3fcbecf4baf89ebff3e65cfdcd749f8feb8c linux-firmware: Update firmware file for Intel Bluetooth AX200
-fb34135b1ccf24432ad8c9ebd7757174a18d58a0 linux-firmware: Update firmware file for Intel Bluetooth AX210
-4219dac66c9c59292e96548b0ee8fb3135924228 linux-firmware: Update firmware file for Intel Bluetooth AX211
-8b5ddf4d570414d0a457daf7e6f2c7fdd3abf11f linux-firmware: Update firmware file for Intel Bluetooth AX211
-2da8a7a411390f8cf17379b18bacc8d8b1975718 linux-firmware: Update firmware file for Intel Bluetooth AX201
-32d3199a01e1bf882f5d978d41fd341fd35b470d linux-firmware: Update firmware file for Intel Bluetooth AX201
-fdf2320427148c8594736d0160603c0a0561728b Merge https://github.com/tjiang1234/btfw
-7e4f0eda76d58024f78ac68d4ffd6f87d63a3a29 Merge https://github.com/pkshih/linux-firmware
-f88f1f853aa18d133ad3f976f52cf62ff1626552 amdgpu: update vangogh firmware
-3f0f338dfc27a43ab86c75ac2db906ab1cfbdac1 linux-firmware: update firmware for mediatek bluetooth chip (MT7921)
-bb2d42dceff755623d6d59a32a743ccf87cbb6b9 linux-firmware: update firmware for MT7921 WiFi device
-d11eb6f9ac2950b6c96bc54df791dcd7f170cd3c iwlwifi: remove old unsupported older than 4.14 LTS
-fa3a6d5651db160911ffa373ba9c1c080044ffff iwlwifi: remove 4.19 and 5.4 intermediate old firmwares
-177c593173817f58ee3d5cd604c04599006ad367 iwlwifi: remove 5.4 and 5.10 intermediate old firmwares
-494389cbc3b3f080bbe4ee921f1b08eae3b6fdbf iwlwifi: remove 5.10 and 5.15 intermediate old firmwares
-3435843535f747e5d68c7b084d234254dcd74f55 iwlwifi: remove old intermediate 5.15+ firmwares
-2e93e4c91d7463479aa56ddc0f6b0460718cd701 amdgpu: Add DCN 3.1.4 firmware
-4535de679935a2be1afa0139746468a7eaad19cd amdgpu: Add GC 11.0.1 firmware
-a3332f8b1d48b9304666cc07774738b35820fc82 amdgpu: Add SDMA 6.0.1 fimware
-5fe2d73c3d624bc244fa19b771359eb889539721 amdgpu: Add PSP 13.0.4 firmware
-5c11a3742947810ee8bffbd476eb5a1b0c7999f2 amdgpu: Add VCN 4.0.2 firmware
-a5046f435699b88a20fe9f5803da2a5c2f604a7f i915: Add DMC v2.18 for ADLP
-a60d908ace17c455bbd56e21f6b673752fad7013 linux-firmware: Add missing tuning files for HP Laptops using Cirrus Amps
-2fd61bc5d6d33e6804810418da96b58a0f00a41a linux-firmware: Add firmware for Cirrus CS35L41 on UM3402 ASUS Laptop
-c1181ae796970b6b48218bd2bdb9392fab0e070f i915: Add DMC v2.11 for MTL
-c3f3baada1ccc9b4c8f4bd838036110be6400ce5 rtw88: 8822c: Update normal firmware to v9.9.14
-5aa0b27d923ac1d2ee4f1d7becfd21c5968769a1 brcm: restore previous firmware file for BCM4329 device
-1fd4c552696b6bf20c0eab1e6ef8fbc6d23d8e66 brcm: revert firmware files for Cypress devices
-f79e4ba7ed345c55b72faaaa94ff7430f4b9e1aa linux-firmware: Update AMD cpu microcode
-1d62bd00aace1f6d1873edfea97487f68717f262 Merge branch 'dmc-adlp_2.18' of git://anongit.freedesktop.org/drm/drm-firmware
-748e967e81720624b184b99e287f149a643146e3 Merge branch 'dmc-mtl_2.11' of git://anongit.freedesktop.org/drm/drm-firmware
-c9e7ae98c737e3ea7f1325e2e19e5423f42b538b Merge branch 'for-upstream' of https://github.com/CirrusLogic/linux-firmware
-bf4115c1aa2bee686ec675595271da50611684b5 Merge https://github.com/pkshih/linux-firmware
-4296b7afb28fe0357b0870e51a42ccc2006eb1eb intel: catpt: Add AudioDSP base firmware for BDW platforms
-c0a0bc2355d022fb05975649d76267b7731dbc2d amdgpu: Update GC 11.0.1 firmware
-a253a3723f8a0ee5bc5d4f551981a651ba660186 cnm: update chips&media wave521c firmware.
-024cc5eb2e722a78502e04e8f7368381da150ac4 ath10k: WCN3990 hw1.0: update board-2.bin
-15054afb19abbf893b2439f2650f7f322824bd0c ath10k: QCA6174 hw3.0: update firmware-sdio-6.bin to version WLAN.RMH.4.4.1-00174
-9dacec6dad172de168728f4e0bed8825d150db94 ath11k: IPQ5018 hw1.0: add board-2.bin
-f48fbe42c2c0d97048534db9dcf8e2c999b7ca89 ath11k: IPQ5018 hw1.0: add to WLAN.HK.2.6.0.1-00861-QCAHKSWPL_SILICONZ-1
-0e2486b12774a5860994554878b67fe9b7ef2217 ath11k: WCN6750 hw1.0: update board-2.bin
-6a4e7f679245f456167fa77fad6210a781e917f1 ath11k: WCN6855 hw2.0: update board-2.bin
-c7a57ef688f7d99d8338a5d8edddc8836ff0e6de ath11k: WCN6855 hw2.0: update to WLAN.HSP.1.1-03125-QCAHSPSWPL_V1_V2_SILICONZ_LITE-3.6510.23
-289e3a9777fd9aa9fb5ff721172bdb1f27e2d8c8 intel: avs: Add AudioDSP base firmware for SKL-based platforms
-284e55d982b5e2ca36fa3d4d4c1eeb31a168c786 intel: avs: Add AudioDSP base firmware for APL-based platforms
-23afbfe8a2e817079edc4f7eb0290951cab028c3 intel: avs: Add AudioDSP base firmware for CNL-based platforms
-b291c96794011e235212566d5a5e88329ed86a57 Merge branch 'for-upstream' of https://github.com/crojewsk-intel/linux-firmware
-83f1d7781300b52785c062a8285da59042c0d1ff Merge branch 'ath10k-20230215' of git://git.kernel.org/pub/scm/linux/kernel/git/kvalo/linux-firmware
-c6008409440f18da7109e20a3f8db0c6c0a0586b liquidio: remove lio_23xx_vsw.bin
-5148670daadc33f752371effceef1116e798347e rtw89: 8852b: update fw to v0.29.26.0
-7375bcff3ffd9ba0c14c9bdff33f6d527607e26b rtw89: 8852b: update fw to v0.29.29.0
-3653d692bd0da291af02e9e4a613049315e241b9 rtl_bt: Add firmware and config files for RTL8821CS
-c51488ffb1774a7239c5700f9f78a1e33c804af0 rtl_bt: Update RTL8852C BT USB firmware to 0xD7B8_FABF
-bd2525d9c53609c33da107baff111b338cc17e70 Merge https://github.com/pkshih/linux-firmware
-60971a6485ee604c47cc905ff77c583ae001f9df Merge branch 'liquidio-20230222' of https://github.com/dchickles/linux-firmware
+9b4f5028e493cb353a5c8f5c45073eeea0303abd scsi: ses: Fix slab-out-of-bounds in ses_enclosure_data_process()
+db95d4df71cb55506425b6e4a5f8d68e3a765b63 scsi: ses: Fix possible addl_desc_ptr out-of-bounds accesses
+801ab13d50cf3d26170ee073ea8bb4eececb76ab scsi: ses: Fix possible desc_ptr out-of-bounds accesses
+578797f0c8cbc2e3ec5fc0dab87087b4c7073686 scsi: ses: Fix slab-out-of-bounds in ses_intf_remove()
+3fe97ff3d94934649abb0652028dd7296170c8d0 scsi: ses: Don't attach if enclosure has no components
+64fd2ba977b1b6b073bcf4c71906f820bc531421 scsi: scsi_transport_fc: Add an additional flag to fc_host_fpin_rcv()
+473025a6b6f8a4a8de3120c78588d32cf4ba7324 scsi: ufs: Make the TC G210 driver dependent on CONFIG_OF
+7dafc3e007918384c8693ff8d70381b5c1e9c247 scsi: ufs: core: Initialize devfreq synchronously
+19873b03f1daeffd9d5e089b855dd926975ab5b7 scsi: ufs: ufs-mediatek: Guard power management functions with CONFIG_PM
+2076f57f2ca0a2034afac7832257b2bc509c1a87 scsi: ufs: mcq: Fix incorrectly set queue depth
+2b3795167e233dc9974f9f8239afb920f5cd4a32 scsi: sd: Remove unused sd_cdb_cache
+26a02d972bad946ecbaa12131736c8b6d28893f8 scsi: sd: Update DIX config every time sd_revalidate_disk() is called
+3a2d1efaf344c7351945532020774c3fcb134a0a scsi: ipr: Make ipr_probe_ioa_part2() return void
+ee4e7dfe4ffc9ca50c6875757bd119abfe22b5c5 scsi: ipr: Work around fortify-string warning
+c6f2e6b6eaaf883df482cb94f302acad9b80a2a4 scsi: mpi3mr: Replace 1-element array with flex-array
+ae7d45f5283d30274039b95d3e6d53d33c66e991 scsi: mpi3mr: Fix an issue found by KASAN
+fb428a2005fc1260d18b989cc5199f281617f44d scsi: mpi3mr: Fix issues in mpi3mr_get_all_tgt_info()
+eeb270aee3e085411399f129fc14fa04bd6d83cf scsi: mpi3mr: Remove unnecessary memcpy() to alltgt_info->dmi
+339e61565f81a6534afdc18fd854b2e2628bf5db scsi: mpi3mr: Use number of bits to manage bitmap sizes
+e39ea831ebad4ab15c4748cb62a397a8abcca36e scsi: mpi3mr: Fix missing mrioc->evtack_cmds initialization
+66b381d874fa440dbcd20e1a9078849f7dd2ff4c scsi: mpi3mr: Remove unneeded version.h include
+e0aa38c444f2fcf1fceb4fef7902209dd25b48ea scsi: qedi: Remove unneeded version.h include
+5794a3902bde986ade963cdf4db98b6baa433d20 scsi: cxgbi: Remove unneeded version.h include
+f4407e6033a69ff633ee9d6acf6d241223c7c9fb scsi: core: Fix a source code comment
+fc663711b94468f4e1427ebe289c9f05669699c9 scsi: core: Remove the /proc/scsi/${proc_name} directory earlier
+442336a5a999d4aae6221e3496dad071a152b1fb scsi: lpfc: Fix double word in comments
+35cd2f5542df569122d48caf606b972642012c50 scsi: core: Extend struct scsi_exec_args
+93bc4a5d00e472003ae983bb21febd2519a64f62 scsi: ufs: core: Rely on the block layer for setting RQF_PM
+2702812ae33b38898de6d950cdb6a03888d001af scsi: ufs: core: Simplify ufshcd_execute_start_stop()
+79f9abd64719cc71ba78a76574e21dc8266c65a3 scsi: zfcp: Make the type for accessing request hashtable buckets size_t
+3ab01810153b0ca26cfc846ba72996b250adde6d scsi: zfcp: Change the type of all fsf request id fields and variables to u64
+901b894af5b933cf6576eec05746f34b46e2ac83 scsi: zfcp: Trace when request remove fails after qdio send fails
 
---===============8064447788032713804==--
+--===============0858450079335807280==--
