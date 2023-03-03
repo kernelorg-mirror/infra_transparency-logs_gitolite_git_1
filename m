@@ -1,49 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/cryptsetup/cryptsetup
-Date: Fri, 03 Mar 2023 19:28:40 -0000
-Message-Id: <167787172045.30186.14646215787184272202@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
+Date: Fri, 03 Mar 2023 19:42:14 -0000
+Message-Id: <167787253428.6508.5046019957454787856@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/cryptsetup/cryptsetup
-user: mbroz
+repo: pub/scm/linux/kernel/git/sj/linux
+user: sj
 changes:
-  - ref: refs/heads/main
-    old: 045ed9d48572694a9e40a0bd4ed12d2424486b9b
-    new: 428c2f323b880a8018d08b7d32dc1d0914a3f3bb
+  - ref: refs/heads/damon/next
+    old: 807c019f7b27b90318fba6c304e180ed39ea1d1b
+    new: 41bfa2b6ebe76c508de7f4cd5c71e30f7988ffdb
     log: |
-         428c2f323b880a8018d08b7d32dc1d0914a3f3bb fuzz: Do not calculate checksum for too small headers.
-         
-  - ref: refs/heads/master
-    old: 045ed9d48572694a9e40a0bd4ed12d2424486b9b
-    new: 428c2f323b880a8018d08b7d32dc1d0914a3f3bb
-    log: |
-         428c2f323b880a8018d08b7d32dc1d0914a3f3bb fuzz: Do not calculate checksum for too small headers.
-         
-  - ref: refs/merge-requests/461/merge
-    old: 33e4afa63a2fadb296b05a0796b752afd304892d
-    new: 8cdba18dd8208f925e230b83cc59fa24e5d47d57
-    log: |
-         114a13af843cd5119958e453cdd35f046147e3bb Add support for meson build system.
-         045ed9d48572694a9e40a0bd4ed12d2424486b9b Update devel version.
-         8cdba18dd8208f925e230b83cc59fa24e5d47d57 Merge branch 'opal' into 'main'
-         
-  - ref: refs/merge-requests/490/merge
-    old: 8d7625d3740f3c077fd0629537e30f6941cb05c2
-    new: ec0902247c808d0b1ca6b71d3e9d732968aecff7
-    log: |
-         114a13af843cd5119958e453cdd35f046147e3bb Add support for meson build system.
-         045ed9d48572694a9e40a0bd4ed12d2424486b9b Update devel version.
-         ec0902247c808d0b1ca6b71d3e9d732968aecff7 Merge branch 'oom-workaround' into 'main'
-         
-  - ref: refs/merge-requests/492/merge
-    old: 22aaac85cdf1e016b6a8ef61b8d4f46a910cb28c
-    new: c2c43e6203fd2e31450edfca746cc0eb1035e803
-    log: |
-         114a13af843cd5119958e453cdd35f046147e3bb Add support for meson build system.
-         045ed9d48572694a9e40a0bd4ed12d2424486b9b Update devel version.
-         c2c43e6203fd2e31450edfca746cc0eb1035e803 Merge branch 'extend-keyring-support' into 'main'
+         43d9d60e9235ea5a9bcc3470ad5b87f143a58025 mm/damon/paddr: minor refactor of damon_pa_pageout()
+         9c6449209200a06bb75625e76f62b7333be12532 mm/damon/paddr: fix damon_pa_young()'s folio_size() call after folio_put()
+         41bfa2b6ebe76c508de7f4cd5c71e30f7988ffdb mm/damon/paddr: avoid damon_pa_mark_accessed_or_deactivate() accessing folio that already put
          
