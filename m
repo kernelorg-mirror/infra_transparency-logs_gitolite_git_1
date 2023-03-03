@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1692210342441881522=="
+Content-Type: multipart/mixed; boundary="===============5418690709280161865=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
-Date: Fri, 03 Mar 2023 11:18:37 -0000
-Message-Id: <167784231764.27372.4357700951774312011@gitolite.kernel.org>
+Date: Fri, 03 Mar 2023 11:18:43 -0000
+Message-Id: <167784232375.27474.12580727704674376899@gitolite.kernel.org>
 
---===============1692210342441881522==
+--===============5418690709280161865==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ardb/linux
 user: ardb
 changes:
-  - ref: refs/heads/for-kernelci
-    old: b7bedf824110c6de6b0b1b54054b297c7c78c33f
+  - ref: refs/heads/arm64-lpa2-v3c
+    old: 8280b9ab4fc750b3e79fc679a059ca82239c855a
     new: 1fec1034c637dc3656476fc1e011cee1fe64bcb6
-    log: revlist-b7bedf824110-1fec1034c637.txt
+    log: revlist-8280b9ab4fc7-1fec1034c637.txt
 
---===============1692210342441881522==
+--===============5418690709280161865==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b7bedf824110-1fec1034c637.txt
+Content-Disposition: attachment; filename=revlist-8280b9ab4fc7-1fec1034c637.txt
 
 c360206174f1398f53ef12b9bbd55b3de6cded81 arm64: mm: Reclaim unused vmemmap region for vmalloc use
 42fba949d70f2008675d45eabb4123708bfc20eb arm64: kaslr: Adjust randomization range dynamically
@@ -77,4 +77,4 @@ af33dc8b8f75feb3ed93c9d7fd56db1554828aad arm64: mm: Add support for folding PUDs
 04fadd259fb3259bc98b635270e772ce2c4bdf20 mm: add arch hook to validate mmap() prot flags
 1fec1034c637dc3656476fc1e011cee1fe64bcb6 arm64: mm: add support for WXN memory translation attribute
 
---===============1692210342441881522==--
+--===============5418690709280161865==--
