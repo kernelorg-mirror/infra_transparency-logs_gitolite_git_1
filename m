@@ -1,56 +1,41 @@
-Content-Type: multipart/mixed; boundary="===============7492374868598524517=="
+Content-Type: multipart/mixed; boundary="===============4937209175853851740=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Fri, 03 Mar 2023 14:15:53 -0000
-Message-Id: <167785295365.16098.16175015691517985184@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
+Date: Fri, 03 Mar 2023 14:16:12 -0000
+Message-Id: <167785297299.16326.18033393710353615036@gitolite.kernel.org>
 
---===============7492374868598524517==
+--===============4937209175853851740==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
+user: bot-stable-queue
 changes:
-  - ref: refs/notes/signatures/tar
-    old: 8d22a9fed5cfeb51bd7c95ae12b653d59da2c3c5
-    new: 1fc9ff10bfa551be2580e10aaff3fc255144f40d
-    log: |
-         1fc9ff10bfa551be2580e10aaff3fc255144f40d Notes added by 'git notes add'
-         
+  - ref: refs/heads/queue/4.14
+    old: 075ba016b5b414f1860bc5ec2e42bad7bd7defa7
+    new: 8a7fa98443d7baa5cbb8f46960b910cfa0c16f29
+    log: revlist-075ba016b5b4-8a7fa98443d7.txt
 
---===============7492374868598524517==
+--===============4937209175853851740==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-075ba016b5b4-8a7fa98443d7.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1677852951 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1677852950-88de9a709d580ff63892f14fa933b717bd732f16
+5880408b54f5f23e5d8db20eb4289134cdfd8945 ARM: dts: rockchip: add power-domains property to dp node on rk3288
+7cad1523b5022e0ba08f79612b90d1d661c763bb btrfs: send: limit number of clones and allocated memory size
+9cc7c9b94effb1240c95e6b68f4289af0b22131b IB/hfi1: Assign npages earlier
+d344e3245957990c69057531d7b6ad3f6ebb5337 net: Remove WARN_ON_ONCE(sk->sk_forward_alloc) from sk_stream_kill_queues().
+e14255148938fe3d84ec186cff62c3e87c0f0d64 bpf: Do not use ax register in interpreter on div/mod
+b99aeb600b6e9e615a3cd7bc61d4cd82a0755361 bpf: fix subprog verifier bypass by div/mod by 0 exception
+c053daf9a61c3fb1378ab8f285efbf0acecf2142 bpf: Fix 32 bit src register truncation on div/mod
+9e84d89ca49129da79cc453489838aa3d7ffb1ec bpf: Fix truncation handling for mod32 dst reg wrt zero
+a68045fcfa98bae4ec6437ecd560e787d8f35a27 dmaengine: sh: rcar-dmac: Check for error num after dma_set_max_seg_size
+83c3b4b2110bbadb28d67bf054c6617cbc2cff89 USB: serial: option: add support for VW/Skoda "Carstick LTE"
+8a7fa98443d7baa5cbb8f46960b910cfa0c16f29 USB: core: Don't hold device lock while reading the "descriptors" sysfs file
 
-8d22a9fed5cfeb51bd7c95ae12b653d59da2c3c5 1fc9ff10bfa551be2580e10aaff3fc255144f40d refs/notes/signatures/tar
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQCARcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+8YMQAKVpcpOh7lXWqLbw0gM5
-BvOt++7BvBW/Kvf/UXdXwrjy2dfO8HnVm/CaQSHe6bK8a4hl3mvbm1blRkMNcRlB
-dr+BzLoT5G4uQrqD4Q4flax0HYz7wZnqi2xB0o4RNUnUIWAIAKL+N/6N6YNgDbMY
-LXUnw//0jteEG8KSJiuwOzLLyY2zMlaTU2YyBX93mku8IV5rQENWUt/3dQ2WL95v
-dH27VZNRd+YrieYrad8BAcdeLq14krZE+1NKwRr+LA0Ph6dG0PYX+tTriOBIdZYN
-bZzIifiIXJbXugeujMHokWPKEeLpZb1tFQuowJibUKOcP3BsaJcP4rGWkPInovvQ
-IN7+VAH6x8WrEuYYwaOr23ty8rG2/rD+c3s4h7GNBI6ZzJtvqLNruMXs9SWxjHlZ
-4owyQvYb/ERakyk+SHKykYqbzK86JKP9oNWxbbWnXuST8pBLO5Z9ep+PZ0ap6ZH3
-ZjAPDTrw9JIPB+VXDGSIwpCEOiFc6AALgJYhry2I7KLfWqLcykYPK0slclrOTwD3
-YgTWmiEyCu2KMNzpRfpq+OV/naDAhqkb72bx6mjRkDuS4O0ADzIGhhd4sw0JeF74
-pDGMRds9OdpHM/QCGWkUTM+5wNo9tGvtx5aT5ibkfhcOub0Czw0+4s0fNdlC8pQw
-BsPTXsLyjJtiGxg0YLP2UPke
-=Psod
------END PGP SIGNATURE-----
-
---===============7492374868598524517==--
+--===============4937209175853851740==--
