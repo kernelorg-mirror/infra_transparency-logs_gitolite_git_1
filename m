@@ -1,55 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============3132306148711516754=="
+Content-Type: multipart/mixed; boundary="===============1071985329750762829=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
-Date: Fri, 03 Mar 2023 10:23:09 -0000
-Message-Id: <167783898923.23774.17609376430283468009@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Fri, 03 Mar 2023 10:40:32 -0000
+Message-Id: <167784003238.2814.15513194325060060806@gitolite.kernel.org>
 
---===============3132306148711516754==
+--===============1071985329750762829==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ardb/linux
-user: ardb
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/arm64-lpa2-v3c
-    old: f6d505f3c96f6ca867fc862bbe7dcef84742ec19
-    new: b43f3d8c03f0eccf20a95d827d35e83e13dedac7
-    log: revlist-f6d505f3c96f-b43f3d8c03f0.txt
+  - ref: refs/heads/master
+    old: a96be0802afa799b09099c9a6b6f9eefc4fa5a14
+    new: 4e6d7408fab6cde8481d802a5c00b0860e202991
+    log: |
+         a7b7598c86742754f97fcd107e70de04cc30a6c9 5.10-stable patches
+         4da9ddafb69b4d4748309e906a4e0a6586205cd2 5.15-stable patches
+         4e6d7408fab6cde8481d802a5c00b0860e202991 Linux 4.19.275
+         
 
---===============3132306148711516754==
+--===============1071985329750762829==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f6d505f3c96f-b43f3d8c03f0.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-591d95041a83a6c9e8519b2769055f5e9ab94b21 arm64: head: Move early kernel mapping routines into C code
-19183c4e3dbfa5fa9f06778d7e4ae46847f94496 arm64: mm: Use 48-bit virtual addressing for the permanent ID map
-5003fb88ff262ccbe768faf900ea22903406401d arm64: pgtable: Decouple PGDIR size macros from PGD/PUD/PMD levels
-4edf926f838710fcccc085422e4614c235d1dfa9 arm64: kernel: Create initial ID map from C code
-7c7a168aed06407f41849ac0c054aea8d66a9e89 arm64: mm: avoid fixmap for early swapper_pg_dir updates
-60b21a1734d42e734d74ba724590f04771cea6c8 arm64: mm: omit redundant remap of kernel image
-d921755dc2e8aa2232b07244645e54957e370197 arm64: Revert "mm: provide idmap pointer to cpu_replace_ttbr1()"
-03ae899984825595ed61c72ef0b3410549e90509 arm64/mm: Add FEAT_LPA2 specific TCR_EL1.DS field
-9ad31bb68544a15b6f30b3d6c7ceeb3b54a4a2da arm64/mm: Add FEAT_LPA2 specific ID_AA64MMFR0.TGRAN[2]
-85222705ddba8ee466ed4512a1796efb03e70048 arm64: mm: Handle LVA support as a CPU feature
-ad5352521b3657064e0a4dd3b170f70f0adc698b arm64: mm: Add feature override support for LVA
-436ec04b3a1dabba015e14c4e830c79eaf20d979 arm64: mm: Wire up TCR.DS bit to PTE shareability fields
-f982d504742c15af970ad7e136aec7c9f5213674 arm64: mm: Add LPA2 support to phys<->pte conversion routines
-5e72f91c07b759827d123dc87097a4183584cbef arm64: mm: Add definitions to support 5 levels of paging
-cff1fb0cde9532ae27f07fe98b2ef15aa49b235c arm64: mm: add LPA2 and 5 level paging support to G-to-nG conversion
-addcd0d359d9fa63b45ac29f3f45266395d74666 arm64: Enable LPA2 at boot if supported by the system
-3c62a90af4e3a0c11cdfe9f3e5ef00aecb50cacb arm64: mm: Add 5 level paging support to fixmap and swapper handling
-cbdc49ccfbc6f0c860e53f00f9418f00ff507e6b arm64: kasan: Reduce minimum shadow alignment and enable 5 level paging
-d66e140e63bb9d49fc910fdf0544d436b925d4a2 arm64: mm: Add support for folding PUDs at runtime
-fd3699bcf5b0b478141ef6fd34c8b164a6c656e4 arm64: ptdump: Disregard unaddressable VA space
-716dfe15dbb240a77dbacea0783fcbae46812c9c arm64: ptdump: Deal with translation levels folded at runtime
-0e6e2f01e1bc841e19b8bb2c7a94a6d71c242098 arm64: Enable 52-bit virtual addressing for 4k and 16k granule configs
-d17b0899698f55482cd14b490613e29628aa1b07 arm64: defconfig: Enable LPA2 support
-40a8cff319fcd562fdc082e658121e4668c51578 mm: add arch hook to validate mmap() prot flags
-b43f3d8c03f0eccf20a95d827d35e83e13dedac7 arm64: mm: add support for WXN memory translation attribute
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1677840031 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1677840030-a25844ffe0405f4481c4d0ad18b25027d566468c
 
---===============3132306148711516754==--
+a96be0802afa799b09099c9a6b6f9eefc4fa5a14 4e6d7408fab6cde8481d802a5c00b0860e202991 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQBzp8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ytUP/3jCDF+soXnKlEDXmHmG
+bmVRHstOTFtNI9KL3Qdn/M/UOqLF/Tt1ILNMOMABT8DY7T5VW4dKW2b7AGI1699O
+KLHJ5OoLdjaqpsDu//4eMb7QGchlMACAGuMPDAZyhiYcx7gdbjLn2uZm8jC6I9tm
+wkHTgDX7i5/uuuhf/i55hMkP/5ky4CfgcuCEJ0x+GuB/JYJwkClmTbdMCJ6PLPrS
+0Z7Bvy7ms96NuPdN76GsYj8ygK+yJcDJ5kUT3jM+iFmc5zslNiSOmhr5ymfynqou
+fp4i8EkZ3/UNMOnzBuQj8cvQbZD/mTQsfy1hDVhSt60K6k+qnSE4bL+e/fDkNkLd
+HgTKxx6JV+gsYSuhqi03ql28q8WzPjTadXFR0OTKnE/2OEsqazKBXz3FttUQ7FCB
+qWOhv/w2u0LyTKUzlGTSDnAzNcjgcPksrZR1F6d8hJI8GWZm0ILwdPxkv+CgAtkU
+y5noO1AuiIfSWQN57zQ3InCAKQA+jFqdczpovOBEC7G7GJTL0WA93bLOSlM+EEpx
+oU0htuK352aAFLtQPRxd94ta0biwmz1YcY+e23Y3haNRkVwZhfNVbb5AGFnXXAwf
+B3s9yKz6vIkQ4FRMEibSq87CVfCbhT0jbN0N4rnHeyPFsp0Lv7XDOdwU+h2CBMQf
+5iFmQtVGkl4/3547gtoX0Onu
+=SwMr
+-----END PGP SIGNATURE-----
+
+--===============1071985329750762829==--
