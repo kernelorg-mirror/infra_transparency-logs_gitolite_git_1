@@ -1,53 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============0030044711300201215=="
+Content-Type: multipart/mixed; boundary="===============4299549587990962300=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Fri, 03 Mar 2023 14:13:38 -0000
-Message-Id: <167785281880.12656.7857973211579979898@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
+Date: Fri, 03 Mar 2023 14:13:50 -0000
+Message-Id: <167785283099.12820.9248581902142040776@gitolite.kernel.org>
 
---===============0030044711300201215==
+--===============4299549587990962300==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
+repo: pub/scm/linux/kernel/git/stable/linux
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/v5.10.172
-    old: 0000000000000000000000000000000000000000
-    new: d21989e43005c664cb773a82c59110a696110df8
+  - ref: refs/heads/linux-5.10.y
+    old: a25aa776b0c49b17c67ee047e58537552f16776f
+    new: 9fd42770b50756c08f04b4070ab6572adb2d6e1b
+    log: |
+         da24142b1ef9fd5d36b76e36bab328a5b27523e8 io_uring: ensure that io_init_req() passes in the right issue_flags
+         9fd42770b50756c08f04b4070ab6572adb2d6e1b Linux 5.10.172
+         
 
---===============0030044711300201215==
+--===============4299549587990962300==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1677852818 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1677852817-9a7bc08dfd9c59e6ce98231bd310ae0e96b46c5e
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1677852830 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
+nonce 1677852829-ae6a1ed68c227bd535c2369c6a7c4dd8afc32cfa
 
-0000000000000000000000000000000000000000 d21989e43005c664cb773a82c59110a696110df8 refs/tags/v5.10.172
+a25aa776b0c49b17c67ee047e58537552f16776f 9fd42770b50756c08f04b4070ab6572adb2d6e1b refs/heads/linux-5.10.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQCAJIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+MkAP/0u/HwrCNWA0qM4dHFYi
-B5YGdVqSvwJ/4x15R3AqmQZDm1J/pYx3ZNSRSV0ZZtRJlj7lgSycGjpcKLhWzJbY
-KHiliiAJtNNA6mYlCvfhS2k/IQTjfR2SS2cHL2XXhfPqdezPBLqlghxr9bG0UOla
-35EslG1lg04B5LkGdLbnR3GvoHZocxBjd6WXtRgXskqGG2aZmZh2wZqWXxd8VnYi
-neTvce7omigg9u7BQ7rQNb2lL7SyMb9sCV/roHl3Z7BpaE3d9q7ihAoa1zGSE7yf
-7It0lXJJss/OP7FkzymJ4QhHZIrPpRUr2j3CTNhSxjJFAkfRFxfLFgbq3jJtsRL4
-ZZoWXId44V8poe/xyKXCqz0dqwOPCe3MfOAif8bLf0LUnaWaNEVohYdsk79TZPbH
-QnuGdoZ1uaZkCn9IQ4BJJ4ske07ieIkqh4EHJoV/gXH4Ur/xb48y3RGRm33iBSwY
-leeZM8WZqIZMDPjwnq2wsvOf2QZSUJEK+5FkOqTg5XMI6G6Hg0VkZA426wqQRPYU
-8uVvlUCNVxNYXHYuvzR64BinEpTCXKTWW93JKUfmhg+S7TwUsOF2WT0N9gK8scw+
-LCnx9HRocO6kwqWgtGIpEqCa7gDAnBfi7pSiBVkYsn+QdC1dpBMfdKuvDXOQG5sR
-J67NbQNunxZvAD1m/RB3RKn+
-=Ze2Y
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQCAJ4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+OAUP/AxQg8GWq6VFfjL5vdcP
+MLMk45pXHNu+vyiF29Lxk3buwKWwOqTKxWAKammX0O8h4GSEOGR9Dp0Dbh3JfG/l
+vGS5pzUMSa8Fxh74W/LMQfdOqOZnFoHRjwe/KWMYrSzp2XvjJfOKRZY9RpMl3q7/
+v/+36oDb/bTR4bUSAaoq2r1z59XkmCqVi0z2zujG7uZNpgD0s/UCvxK52Hol3V7+
+tzmbOZtXimUICEPgu6kKGykh9mowLCH5X26bbtypS7+x3yst946Gd4HuLCEmKNYu
+Urh5edSP+wgkHD1alSmjjty+IJ6j8joMjK6gJJq7yPukuQF0cpkz96gPcd1HO+T7
+4fF73aQRa4odSi29vkBis8JaSUGVjKJqHF8Dtahkkpef+5ymhPSm5pcD0qIMavPK
+avz7hcsmvtfb+O0N4wwQMKIzh2GbXprJ1lQXRaj/owq24+Tw6KQxPLWcYKvxaqjO
+EwVM/pqArbygVkFSdgp8EhWGEIHFakQqHeEu5x65lQMwJcrxyAUyHYqfdLtcRg+t
+QHh5ya8kimAOarlQqXj+YphOYLiA1tWY6cC2TcRkHXvCtV8ggQ86WpVD2o258GfX
+WdfyL0jUHaB5sv/sf/5RLOsTCGGVAB3qplWIvmsiQqQ6gDgw/SmlS4hs2K9p2tVg
+TfCr/UgFpqfPGHUAct48rD2L
+=JXT1
 -----END PGP SIGNATURE-----
 
---===============0030044711300201215==--
+--===============4299549587990962300==--
