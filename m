@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1864038434086397030=="
+Content-Type: multipart/mixed; boundary="===============8236060234354771549=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Fri, 03 Mar 2023 15:34:08 -0000
-Message-Id: <167785764802.2677.8642153981300725278@gitolite.kernel.org>
+Date: Fri, 03 Mar 2023 15:34:21 -0000
+Message-Id: <167785766136.2822.16674519317956267001@gitolite.kernel.org>
 
---===============1864038434086397030==
+--===============8236060234354771549==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/kobject-const
-    old: ee3f96b164688dae21e2466a57f2e806b64e8a37
-    new: 2eb29d59ddf02e39774abfb60b2030b0b7e27c1f
-    log: revlist-ee3f96b16468-2eb29d59ddf0.txt
+  - ref: refs/heads/readfile
+    old: d4f3319afe1d9fe403d18c48340e2e2119d683af
+    new: 3aa15aac41d15902e0326259eb6ec3273d73db79
+    log: revlist-d4f3319afe1d-3aa15aac41d1.txt
 
---===============1864038434086397030==
+--===============8236060234354771549==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1677857647 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1677857658 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1677857646-f0c038c01104fbd37e698bf68fc366c47cfd4b97
+nonce 1677857657-850babaf68ebe63f9d5c0622c83b755e168f4a4c
 
-ee3f96b164688dae21e2466a57f2e806b64e8a37 2eb29d59ddf02e39774abfb60b2030b0b7e27c1f refs/heads/kobject-const
+d4f3319afe1d9fe403d18c48340e2e2119d683af 3aa15aac41d15902e0326259eb6ec3273d73db79 refs/heads/readfile
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQCE28bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+fCIP/0vcMbE+1329FF63/dTh
-rNQDgDfWtMhkClNoAujhu/LP5w2STYTSvO0Q1UGy5KAQqeLQpJVHYhtsurGoP5fa
-0RmDscjRcgo0Ktz9NEYLLpEfNyuPRVQH/HNECAp0bqf/6oMXOxZsyS6utF+Ynvza
-cvtr8BryfPqpHbnxfnrcoLCfCb8y1D///Nn9j2z8ZT6B8gOsbfZMItXKnG3DcXq9
-WMeCRm/ngVhHlkf5l/6UggVAx1G9IpAfSYGJgXpbsTNSSkIRMZCv+w4VzWHWFebK
-Zb+/z2sw8bohU73ecEyLFMtVK+ELe5kWMNvIw1Qdb9U51q3JR33S4FiU5x1qti+E
-V+GInXRA/0mY0B+mbxSabpCMs3ZalK9MAa0Zv4/tpjt/U+0RxvAOuo9CBEDV8lz9
-KCTWxDXjWiCD31gnB/bPbIY9mNRCgrJ6A8BOMVxJNf5Ps9fsaJf5n9hsgm8N1D18
-16kvpZV7l06GjpxyI+J5F/odhjiLiL19peiYIxuHpFmkGI1d81gYmCF91rdlOzvo
-bKhbCLBSfftRV/R0KeXKLLdPp3eKrAymxzGibYQqR9V3wi3nyJnhWhgDMUVEtBr5
-H/NGk4ba8GQOOKLkLYutK66d91LbfRB+thx8bDKmQ5HDzLffGCmk1ViALqoR0Kxb
-VrvqgmepnPYF2v4oMcQQ+B8R
-=cQP0
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQCE3obHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk++d8P/RiR8/UE/+2q71qLPZEO
+jsxXuadbuaxWAdOvAS0UjAJXGJClag5fdGw/E5j6jnCWi5SGWAnYrQSrXC38KDOM
+wGvl+BV1jMUO+ObKgeWIZYjeWMbx5CSfP/8Qd1LZ9R197j3NsiwdpC1+3BM4/ncR
+1BWk3+1vSWk+6Ef1AJKKf9cGSsPiGQZxS9jJjJVivLZINU9dKDg/eNDzzgtctwiJ
+HzCCPxw2nuy2NtRx16Zolc3dJ/e3HIMjeqaOccpRXsBXzA9h5xJcky7vqXqm0gvL
+JU3DRgNg8DaFJrmHBmxTKJWPiHz//U2MQuM9ahlBRRlwvIVFhzZG+muMyfD3Sz3M
+l1jj1nx7USGrgaFcW1Kpt4CGUnX0ygh5Z9LQromGFfYGXXxpYndxq7HKf3eP3NvI
+Y1DJvlEnTU/60eBOg7FGbp3jMNAXOfi78C0xDf3ecwDvEbf0DTyRMkPeaZaIW49+
+zf5jcllx5E+7NOxWVSWotTTiCJnqrOGAcHowHY3cHJDiMmPchaXrz0CEfHy64q44
+qXHsKTY3ob0mQD6XW3sYXg2lWJY8Xbe/j7Kd5lcs4rle2xwewyG+JqeQ2xuMe0mP
+wBzqmA5DmWKBD/6K1rCz1v9auN7lGRfccBxG/S2kSxEKpLBveigtuiTRCFGwXLhX
+VroH3oa2h1jxdjpciKfmwOFO
+=1cQf
 -----END PGP SIGNATURE-----
 
---===============1864038434086397030==
+--===============8236060234354771549==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ee3f96b16468-2eb29d59ddf0.txt
+Content-Disposition: attachment; filename=revlist-d4f3319afe1d-3aa15aac41d1.txt
 
 ddf75a86aba2cfb7ec4497e8692b60c8c8fe0ee7 auxdisplay: hd44780: Fix potential memory leak in hd44780_remove()
 3da73f102309fe29150e5c35acd20dd82063ff67 objtool: Fix memory leak in create_static_call_sections()
@@ -219,5 +219,9 @@ a9a01e1238cf5b477ec6aa54855356e518998991 Merge tag 'linux-watchdog-6.3-rc1' of g
 54ceb92724a8cf5294c284d5e9f770fc763cdab2 Merge tag 'amd-drm-fixes-6.3-2023-03-02' of https://gitlab.freedesktop.org/agd5f/linux into drm-next
 39ce4395c3ba730341b067e1fb8abbdf9c47ca77 Merge tag 'arm64-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux
 2eb29d59ddf02e39774abfb60b2030b0b7e27c1f Merge tag 'drm-next-2023-03-03-1' of git://anongit.freedesktop.org/drm/drm
+1a8f102030c9dc34d51be84d1f593bfb44dea07a readfile: implement readfile syscall
+1ab7e67f0f19120eeb28e1ac15a3c6e4244382bf arch: wire up the readfile syscall
+f446c0aac73f7dffc50c410de348d12b7c18cf3d selftests: add readfile(2) selftests
+3aa15aac41d15902e0326259eb6ec3273d73db79 readfile.2: new page describing readfile(2)
 
---===============1864038434086397030==--
+--===============8236060234354771549==--
