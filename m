@@ -1,57 +1,47 @@
-Content-Type: multipart/mixed; boundary="===============7845368940038823644=="
+Content-Type: multipart/mixed; boundary="===============0956075131399505712=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Fri, 03 Mar 2023 14:15:35 -0000
-Message-Id: <167785293597.14846.18218091132629100028@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
+Date: Fri, 03 Mar 2023 14:15:37 -0000
+Message-Id: <167785293701.14905.16833539029604367067@gitolite.kernel.org>
 
---===============7845368940038823644==
+--===============0956075131399505712==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
+user: bot-stable-queue
 changes:
-  - ref: refs/heads/linux-5.15.y
-    old: bf7123dd26a00e222221696efb95b14c2875607c
-    new: d9b4a0c83a2d405dd85bf32d672686146b9bedff
+  - ref: refs/heads/queue/4.14
+    old: d511003425da6f030799568d3d9ba09b8b8ee46b
+    new: 075ba016b5b414f1860bc5ec2e42bad7bd7defa7
+    log: revlist-d511003425da-075ba016b5b4.txt
+  - ref: refs/heads/queue/5.15
+    old: cc16d1f07b2b87655d77f0e08d6e7e28848c9467
+    new: 8ef077b04d147737f1dfafb8fd9504aa0d9a8643
     log: |
-         937c15e27a63a071d1622928dea6edc8447db738 io_uring: ensure that io_init_req() passes in the right issue_flags
-         d9b4a0c83a2d405dd85bf32d672686146b9bedff Linux 5.15.98
+         8ef077b04d147737f1dfafb8fd9504aa0d9a8643 io_uring: ensure that io_init_req() passes in the right issue_flags
          
 
---===============7845368940038823644==
+--===============0956075131399505712==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-d511003425da-075ba016b5b4.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1677852935 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1677852934-4f91043b29175553fb8bb7fb65d88b33b59db8df
+6bc6401a2649d0d2eeba1992704f84eabbd5248c ARM: dts: rockchip: add power-domains property to dp node on rk3288
+89caf87fb0c8b158be4c0a62199115766da0aa77 btrfs: send: limit number of clones and allocated memory size
+ea73efd9eb940a6143095fcd9d1b5145475338f4 IB/hfi1: Assign npages earlier
+7c1d1c4b5dc1834d8cda16476f636d9ce2a74584 net: Remove WARN_ON_ONCE(sk->sk_forward_alloc) from sk_stream_kill_queues().
+ab39fbc1e85f32934ab5f8565696d62c2f7e8369 bpf: Do not use ax register in interpreter on div/mod
+85afbabea9f0301cb440f206afc99f63ecfcaf03 bpf: fix subprog verifier bypass by div/mod by 0 exception
+8b95094706b1ce48eced352a189cf8eb2733369c bpf: Fix 32 bit src register truncation on div/mod
+11ba1bdb4e6cb871a3eb207224405e6a73326815 bpf: Fix truncation handling for mod32 dst reg wrt zero
+24fe0327968840cf598de51411c99b0c325be5fc dmaengine: sh: rcar-dmac: Check for error num after dma_set_max_seg_size
+00d3755e0f99a65f2ee2b4f63e1cb6f8ffb17de1 USB: serial: option: add support for VW/Skoda "Carstick LTE"
+075ba016b5b414f1860bc5ec2e42bad7bd7defa7 USB: core: Don't hold device lock while reading the "descriptors" sysfs file
 
-bf7123dd26a00e222221696efb95b14c2875607c d9b4a0c83a2d405dd85bf32d672686146b9bedff refs/heads/linux-5.15.y
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQCAQcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+YmAQALPb/Hr51h0itKRrwLM1
-5BayoWHJhXw13S6cM/21XfLs4eBUOOGVGTELbsNl6oUCVJDzRXskEmHM7mBYi6Q0
-G3NdelOG04A2UIxOrHxs+rAYRDhVjSJBb/GtXZ1k2NgE+QbjAJkABuXmlYbh6LVy
-EA6uWXxixbsXPC/3mC+uJoHMyQkjQyEb5nQ8/ulp05FX5u6msW3s49V7pVqUYND+
-J8GUrECvGL1pjewLgOZ7tFcyuUk7WlozwVdQRi73Ug7PpN3gww+ImdIbtNJtFmk+
-GgiJQaCEI4uclTe8nomke7tQmixA1SDITETgZAw/LuF2jRWfjcSVcUNfTydd1OFD
-B+cz4gkUTxld8Rrx8IViaHwqqmmynMkF6UEp7QVcxIg3Lqm+sGNe9YwHH+3CjFCi
-yXwqkqRzVcOrbLPsw72avLKReILPA1vrCaFa4G6YCGw2LOguOFuDLjBr1q2aZ61r
-n4jt18x1IcOq/bPQGUCiljYU4chAgl9rK7/i/w8Nt1UEBM3zwRtmIgoQ/vtdwRCI
-ak826l4YhiliZM1vde+2ZzNAqgO5b7wYof6JFku1jwRSyS+Q03mM/WxTb91jDk7m
-Nb132Bg5+oFX/77i3owAhMlMvf3AohSh6KulUqhiPO0zxlegJGOrPKIHp4pBQUlV
-LK61ICqwzvszqxe1LYm5inN2
-=BTzz
------END PGP SIGNATURE-----
-
---===============7845368940038823644==--
+--===============0956075131399505712==--
