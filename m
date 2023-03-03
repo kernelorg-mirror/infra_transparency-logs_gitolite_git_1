@@ -1,260 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============7448717867941706067=="
+Content-Type: multipart/mixed; boundary="===============4772952864670995079=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Fri, 03 Mar 2023 15:10:13 -0000
-Message-Id: <167785621370.18826.3164103274806577086@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
+Date: Fri, 03 Mar 2023 15:29:42 -0000
+Message-Id: <167785738251.30653.9038718911339228184@gitolite.kernel.org>
 
---===============7448717867941706067==
+--===============4772952864670995079==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
+repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.14.y
-    old: af2631f3195f2d2cf2f0435e951de24d0ba98c8a
-    new: 7878a41b6cc1ada4bb804eee96beb2c54322806c
-  - ref: refs/heads/linux-4.19.y
-    old: c17367998a27f5908f6d793274690ef7f91fe0d3
-    new: 5504146b2053f842426834d275002974109f39a6
-    log: |
-         5df89a6a1c1d6bcb4b0f5a641cb0b9f1e6ce48fc ARM: dts: rockchip: add power-domains property to dp node on rk3288
-         5f8401d7dba21e549306fe4a7a9ff8bf3bd8d56a ACPI: NFIT: fix a potential deadlock during NFIT teardown
-         09450e240a7a3de7cd0fbac13ce512dc2618d863 btrfs: send: limit number of clones and allocated memory size
-         11087f58e4f9aead523a7ca814e4cf46debd96f9 IB/hfi1: Assign npages earlier
-         9089260f9270abc99ef33ba2dc775ebcd9e534b2 net: Remove WARN_ON_ONCE(sk->sk_forward_alloc) from sk_stream_kill_queues().
-         e534b1ce31679ad447aa07690b5c327c767a6020 vc_screen: don't clobber return value in vcs_read
-         241bca3b7ca22a914272a2fbb5ac276015c9c860 dmaengine: sh: rcar-dmac: Check for error num after dma_set_max_seg_size
-         c04801c20b8ad126ba92c688bd10be87214104d9 USB: serial: option: add support for VW/Skoda "Carstick LTE"
-         5f35b5d3bd6914c68f743741443dfd3a64b0e455 USB: core: Don't hold device lock while reading the "descriptors" sysfs file
-         5504146b2053f842426834d275002974109f39a6 Linux 4.19.275
-         
-  - ref: refs/heads/linux-5.10.y
-    old: 032c569d266c83563696ed018f5679bf7b5afe45
-    new: 9fd42770b50756c08f04b4070ab6572adb2d6e1b
-    log: revlist-032c569d266c-9fd42770b507.txt
-  - ref: refs/heads/linux-5.15.y
-    old: 6e657625508dd663e1229f6f6677c578cf36755c
-    new: d9b4a0c83a2d405dd85bf32d672686146b9bedff
-    log: revlist-6e657625508d-d9b4a0c83a2d.txt
-  - ref: refs/heads/linux-5.4.y
-    old: 71be0366b84f5ed2ce06bcc6feddf31053a41c73
-    new: a103859aaa718cf13cb5f55c3a33512dbab613f7
-    log: revlist-71be0366b84f-a103859aaa71.txt
-  - ref: refs/heads/linux-6.1.y
-    old: b6150251d4ddf8a80510c185d839631e252e6317
-    new: 42616e0f09fb4e9a6c59892a227f7bdefbd2d6d3
-    log: revlist-b6150251d4dd-42616e0f09fb.txt
-  - ref: refs/heads/linux-6.2.y
-    old: ea5e1e557437d270b79d7c4227ae1531d7feb775
-    new: 6ab3eda153b603d578a83e75dd1a58270ebfe3f2
-    log: revlist-ea5e1e557437-6ab3eda153b6.txt
-  - ref: refs/heads/master
+  - ref: refs/heads/main
     old: 489fa31ea873282b41046d412ec741f93946fc2d
     new: 2eb29d59ddf02e39774abfb60b2030b0b7e27c1f
     log: revlist-489fa31ea873-2eb29d59ddf0.txt
 
---===============7448717867941706067==
+--===============4772952864670995079==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1677856212 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc
-nonce 1677856211-dba6c8bb0e2e7f664c312797bb91ab0ee35e0129
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1677857381 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
+nonce 1677857381-5d63cbdaf937e2ba46b2b3b076ff2c031a3100fe
 
-af2631f3195f2d2cf2f0435e951de24d0ba98c8a 7878a41b6cc1ada4bb804eee96beb2c54322806c refs/heads/linux-4.14.y
-c17367998a27f5908f6d793274690ef7f91fe0d3 5504146b2053f842426834d275002974109f39a6 refs/heads/linux-4.19.y
-032c569d266c83563696ed018f5679bf7b5afe45 9fd42770b50756c08f04b4070ab6572adb2d6e1b refs/heads/linux-5.10.y
-6e657625508dd663e1229f6f6677c578cf36755c d9b4a0c83a2d405dd85bf32d672686146b9bedff refs/heads/linux-5.15.y
-71be0366b84f5ed2ce06bcc6feddf31053a41c73 a103859aaa718cf13cb5f55c3a33512dbab613f7 refs/heads/linux-5.4.y
-b6150251d4ddf8a80510c185d839631e252e6317 42616e0f09fb4e9a6c59892a227f7bdefbd2d6d3 refs/heads/linux-6.1.y
-ea5e1e557437d270b79d7c4227ae1531d7feb775 6ab3eda153b603d578a83e75dd1a58270ebfe3f2 refs/heads/linux-6.2.y
-489fa31ea873282b41046d412ec741f93946fc2d 2eb29d59ddf02e39774abfb60b2030b0b7e27c1f refs/heads/master
+489fa31ea873282b41046d412ec741f93946fc2d 2eb29d59ddf02e39774abfb60b2030b0b7e27c1f refs/heads/main
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQCDdQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+YqsP/j/dZxKeMOm5zlH2nJ6D
-FS9c8PLkBMr39cVt8y3Gf/DLzRCwdwE8A96USgdUSSCfNFuxAznFvQOi2xfs7wRJ
-Yn+7h3iXsR/TjkLRnO1OeLIrhc864zVLILQ5+RNTKfIBB3P+H4/+F4/sx6NEbYy9
-yQmlKY/t2s9RH7LUEM9+69Y0CEBTNs59G3WRI5HgcGy3ECUgYNgrItfF5BzMH1oS
-Iixvlo61XWFkfOy0TFLihtFPGKo7oXihNZ42ejil5dsmv1ruSIQAYrj4UExL3poN
-M38YsrRXN0atNjw0CA3nwGP12Cf8gw1KxEwzJOcpNx5F5u6r7kGcjpvWOCk4tjV6
-5cVYAYsNuJtucjRErkGCzogo5bRjre1AXlkEfPlQfr9xEAzhRKc27CR6Io8v9ah+
-lzAYvwHg8IE4j8PmQqXn6R3xAJgAfmrd4DUF/rYVH5kfgzGt+SgHgQtWDtAP7LBN
-BKA8PHRjcK+ByUMmZtYCpGB/WwLjLvbEoOUWnX7Aba6j6tCLpI6Zl6gVFsuBr/YE
-BYIQmbMbBeXTUGpHay2n12F8T4qxJkU5M6SFAf/y4prKOP0N2sLL+j1bIY17OvQs
-SarPkT1NHviNrwtKnK21J9b0rVM56xiXZ2+rtOMA63wqL6snTIEXHRPRVtLWI7IV
-2SLRkX14lwCJXpSF4ifL6qAZ
-=442K
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQCEmUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+eVYP/ApSj6HAtFc7C/Q/fUdU
+IPX2i/ol8QPK/IhSBWgYBjDbhdDFPYaWa6liAf3ePWPhn2IWPe3bguqvVRjI04zX
+M8He07jUnSSalboiZGNZdqsgZZQu25jaW8MxOb9+aLSxpMgjRqbP7fe1lDcaLp86
+fW3bYaPg7z6H2yofNgDBBhqNzdT6KzYG+56eyZAqgJ9q/9aI7eNJ1Hqfdtqq9BHK
+9gFHNk/HqlfVhSlN5O7D9pGbYnD7lkVSBni1mKZ1dInOvkaIoCgahWG/FuPmqfqV
+ZOxl0Km+7dSAF1KHHD9i1/bnNsUaVy5rsL6Fhcs/AF1yipGbUe1g0Q7FNrDKHnXy
+OSmDSC/ws2aJXEXuW4F7TAu0oXuVm8c7D1TyfLOZc78zHPPkk2pK4op/fIXXbwGb
+ZqQkjIgGK72BFnD288SdgfFz43BjUpQimz31ocv3CELpYayuc952uL3KTOf4BLye
+Id79t6s2lWK5ZHcTjYONZMEOb9VDA6jA3wRP+4DfqOzSaEMIU/QHWTq3TB1u3Qdx
+AorCmlmHARP8iCDTnR+T27wQAg4XMi9LZka4HIOKxvFLzEwnKIgF/yMGoxkLfu59
+oVC/0qvkgsBbncHTdd8pH/8hBL4MBTEiuv07B3VJv8oi/evDjmATW0VrISgV7aMD
+yw4od+DkpbJY7QepJX5e1e2F
+=//Es
 -----END PGP SIGNATURE-----
 
---===============7448717867941706067==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-032c569d266c-9fd42770b507.txt
-
-887975834dea744dde636dd73bbd1e597f211d7d Fix XFRM-I support for nested ESP tunnels
-1f3a209b2f4ec238d4b0c77b558527e7dab52aab arm64: dts: rockchip: drop unused LED mode property from rk3328-roc-cc
-abbf52efadebc1aba898d4493ffed22de5dc29f6 ARM: dts: rockchip: add power-domains property to dp node on rk3288
-8e833fe47f45c4e43f40f8bb6cf7088879dd3139 ACPI: NFIT: fix a potential deadlock during NFIT teardown
-6195cea4c738146f6665f71944325766daef1a5f btrfs: send: limit number of clones and allocated memory size
-065f6a66339226fe33d18998afa8533076751444 IB/hfi1: Assign npages earlier
-2fd5059f4fdf4df813414fe85f732187554528a3 neigh: make sure used and confirmed times are valid
-75fbe1e43505f3474d6f590314671e0e53a2afa7 HID: core: Fix deadloop in hid_apply_multiplier.
-a2957adbf3f5450f7425c545863da4a3287e06a1 bpf: bpf_fib_lookup should not return neigh in NUD_FAILED state
-3e4bbd1f38a8d35bd2d3aaffdb5f6ada546b669a net: Remove WARN_ON_ONCE(sk->sk_forward_alloc) from sk_stream_kill_queues().
-80653a6e6e287eb982be9aa9f60f94382b6767b5 vc_screen: don't clobber return value in vcs_read
-1c44109c30946e4e8dfad785bb006fafad9b3caf md: Flush workqueue md_rdev_misc_wq in md_alloc()
-65c07e15f2ce7f9e2cf68ea02bd2631cca53594e scripts/tags.sh: Invoke 'realpath' via 'xargs'
-a401ef0557da5b7f5b9c4baf0d861b33883d9228 scripts/tags.sh: fix incompatibility with PCRE2
-0a4181b23acf53e9c95b351df6a7891116b98f9b drm/virtio: Fix NULL vs IS_ERR checking in virtio_gpu_object_shmem_init
-87c647def389354c95263d6635c62ca0de7d12ca drm/virtio: Correct drm_gem_shmem_get_sg_table() error handling
-cebcd4300af9074e0e831090ca6c1b3154ef942a USB: serial: option: add support for VW/Skoda "Carstick LTE"
-c5360eec648bd506afa304ae4a71f82e13d41897 usb: gadget: u_serial: Add null pointer check in gserial_resume
-218925bfd5d1436e337c4f961e9c149fbe32de6d USB: core: Don't hold device lock while reading the "descriptors" sysfs file
-08681391b84da27133deefaaddefd0acfa90c2be io_uring: add missing lock in io_get_file_fixed
-a25aa776b0c49b17c67ee047e58537552f16776f Linux 5.10.171
-da24142b1ef9fd5d36b76e36bab328a5b27523e8 io_uring: ensure that io_init_req() passes in the right issue_flags
-9fd42770b50756c08f04b4070ab6572adb2d6e1b Linux 5.10.172
-
---===============7448717867941706067==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6e657625508d-d9b4a0c83a2d.txt
-
-765b3a0e0a8119b04f76541b8b36291b929c1e80 ionic: refactor use of ionic_rx_fill()
-503e3d93cf351254201812c24d18d937fa6900f7 Fix XFRM-I support for nested ESP tunnels
-839a9c0047a1cc8595c59cdbbd0b5e892b709466 arm64: dts: rockchip: drop unused LED mode property from rk3328-roc-cc
-6bd2f17543933aec3aff205fd5514fa08990e35d ARM: dts: rockchip: add power-domains property to dp node on rk3288
-435e8fabd19ac1edc8cc61e5632ff51a1a5742ae HID: elecom: add support for TrackBall 056E:011C
-d454a7212e17b8cad50030d1679ea2b44b9a6caa ACPI: NFIT: fix a potential deadlock during NFIT teardown
-e430f058d90cdf12ce67140752155f6b04b9fd6d btrfs: send: limit number of clones and allocated memory size
-4534ea429ed84bf62fea07725bd4a50ba6e8bcdc ASoC: rt715-sdca: fix clock stop prepare timeout issue
-2590058fb0589f20820e3246eed0bcb0edff17c3 IB/hfi1: Assign npages earlier
-f1ee470030752c806e1cc1bfee5158fd799401af neigh: make sure used and confirmed times are valid
-e1b09162f2688208011eb76ec19fa522ba4fd009 HID: core: Fix deadloop in hid_apply_multiplier.
-07f0c6f9c35731926a04f0f0753192dbc11cec57 x86/cpu: Add Lunar Lake M
-6dd1de27d7717b9e508fe01523a3657fa82bb3ab staging: mt7621-dts: change palmbus address to lower case
-16d319ec18b0c994c12dbdb991f35458788c4285 bpf: bpf_fib_lookup should not return neigh in NUD_FAILED state
-e7f460696340fe5caba5f21ddb262a44a2388af2 net: Remove WARN_ON_ONCE(sk->sk_forward_alloc) from sk_stream_kill_queues().
-06740b433d9dc76f4cdaf711064961d4810b365a vc_screen: don't clobber return value in vcs_read
-1aee4ab2c1075f858a338dfda175a3f84eac2987 scripts/tags.sh: Invoke 'realpath' via 'xargs'
-cc09a7d5a6a134e2707001c2497637a635817332 scripts/tags.sh: fix incompatibility with PCRE2
-02190d23b731b55e503ac2657c3eae12593f64e8 usb: dwc3: pci: add support for the Intel Meteor Lake-M
-2d72795ccde20cb17fdb70cc67dde73d8274d981 USB: serial: option: add support for VW/Skoda "Carstick LTE"
-3b24c980dc07be4550a9d1450ed7057f882530e5 usb: gadget: u_serial: Add null pointer check in gserial_resume
-77358093331e9769855140bf94a3f00ecdcf4bb1 USB: core: Don't hold device lock while reading the "descriptors" sysfs file
-cf7f9cd50013eb187867cd0c599aa184e6f59d54 io_uring: add missing lock in io_get_file_fixed
-bf7123dd26a00e222221696efb95b14c2875607c Linux 5.15.97
-937c15e27a63a071d1622928dea6edc8447db738 io_uring: ensure that io_init_req() passes in the right issue_flags
-d9b4a0c83a2d405dd85bf32d672686146b9bedff Linux 5.15.98
-
---===============7448717867941706067==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-71be0366b84f-a103859aaa71.txt
-
-da2bba879eca4d6d3f00187ca0221d5f4592ad7a arm64: dts: rockchip: drop unused LED mode property from rk3328-roc-cc
-785bde8459914f69760939afc694720629961f8e ARM: dts: rockchip: add power-domains property to dp node on rk3288
-ae03fa7ad3436ead92324debc2fe0915f8152ac1 ACPI: NFIT: fix a potential deadlock during NFIT teardown
-98e626c115f86284f9ae238c103a13bb8f9f4bce btrfs: send: limit number of clones and allocated memory size
-bc4601ad979acec4f23e3ffb4a018eb4eda70a87 IB/hfi1: Assign npages earlier
-93b17c7e1e1c0ef2941e2dcc8c6d38c76cc30676 neigh: make sure used and confirmed times are valid
-23affaed760b1454e1dbfc94a57a80509f325a36 HID: core: Fix deadloop in hid_apply_multiplier.
-db25b41eb53188d91e320a662ed1a9fa41c58709 bpf: bpf_fib_lookup should not return neigh in NUD_FAILED state
-ee8cd3abe7228161be143702efa3d03a65a757c8 net: Remove WARN_ON_ONCE(sk->sk_forward_alloc) from sk_stream_kill_queues().
-465ce31a2bcc6c016684f740473cd2c62073d2b3 vc_screen: don't clobber return value in vcs_read
-91c877d4311f28b4bd5e60561353e458a60ec9b7 dmaengine: sh: rcar-dmac: Check for error num after dma_set_max_seg_size
-96d380d2ae98b880b4d409b652162e16bb387cbb USB: serial: option: add support for VW/Skoda "Carstick LTE"
-a1e89c8b29d003a20ed2dae6bdae1598d1f23e42 USB: core: Don't hold device lock while reading the "descriptors" sysfs file
-a103859aaa718cf13cb5f55c3a33512dbab613f7 Linux 5.4.234
-
---===============7448717867941706067==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b6150251d4dd-42616e0f09fb.txt
-
-0b892d8fe90b82bbfbb8619e7ecf1ec91fb5256c Fix XFRM-I support for nested ESP tunnels
-fd606d611560435adbbdac54a766555c9b785072 arm64: dts: rockchip: reduce thermal limits on rk3399-pinephone-pro
-69eca8dd3c610099217bd723f9402a4578cd2634 arm64: dts: rockchip: drop unused LED mode property from rk3328-roc-cc
-59770f4b5237d2fa86746a43162b77833a59e01d ARM: dts: rockchip: add power-domains property to dp node on rk3288
-6a63f9795f6ef82098e271669829654dbda1442e arm64: dts: rockchip: add missing #interrupt-cells to rk356x pcie2x1
-860a9c0509dbcd287cf54704b9d11e3a0b476694 arm64: dts: rockchip: fix probe of analog sound card on rock-3a
-0773ecf7bcda9cea57e28ffc55297ea2c16bca3a HID: elecom: add support for TrackBall 056E:011C
-1b7730f203559481edefb06dca743bea01a6e138 HID: Ignore battery for Elan touchscreen on Asus TP420IA
-fdbcacfe495dc3faa9d49872a2c40f25fc069f27 ACPI: NFIT: fix a potential deadlock during NFIT teardown
-91210aca68f32c9c81587fbb711ff40ff11a144f pinctrl: amd: Fix debug output for debounce time
-07c5877e14441f259177a77c48535661a8eb8358 btrfs: send: limit number of clones and allocated memory size
-46abcdf96db26c2d90272100b3a76e9c8ade7445 arm64: dts: rockchip: align rk3399 DMC OPP table with bindings
-d06e776698adf02ea23463568e4952a303eeb5f2 ASoC: rt715-sdca: fix clock stop prepare timeout issue
-ce77f44cb9ad1b30af68f7ff0f4421df4a5d6dbc IB/hfi1: Assign npages earlier
-8988889aaeb5b352f358d1d93ddd331a0999daef powerpc: Don't select ARCH_WANTS_NO_INSTR
-39cdf021fa05ee695ea459a3d190e15426c1c053 ASoC: SOF: amd: Fix for handling spurious interrupts from DSP
-6595071a36045e503b575818cfc5f6d102b7da98 ARM: dts: stihxxx-b2120: fix polarity of reset line of tsin0 port
-b7641733a4a18c6142b88098f9839fd67c37dcff neigh: make sure used and confirmed times are valid
-0412fe1deab1789185e9a744c051ca262b3ee6b7 HID: core: Fix deadloop in hid_apply_multiplier.
-a03cc84f70a0cf13d5d29590fe7b699fba906415 ASoC: codecs: es8326: Fix DTS properties reading
-56b6ea55f1dcd6e5cd1266df27cb4d54c1b19d8b HID: Ignore battery for ELAN touchscreen 29DF on HP
-bcc84443631267ae49418e922584cd50ad04025c selftests: ocelot: tc_flower_chains: make test_vlan_ingress_modify() more comprehensive
-0c2f28f01fce6d5eb34f3e664824d50d563ee720 x86/cpu: Add Lunar Lake M
-f2173508b195958c97c4a1da28389dc7544d1bc1 PM: sleep: Avoid using pr_cont() in the tasks freezing code
-d879a777d148835b34a9aeb239eaf0f9571856c0 bpf: bpf_fib_lookup should not return neigh in NUD_FAILED state
-ea4c208efea491be93e37a85b1acd973dbe8594f net: Remove WARN_ON_ONCE(sk->sk_forward_alloc) from sk_stream_kill_queues().
-a595a81df673c69b9d2cb31f7b2ad8fdcf402d2d vc_screen: don't clobber return value in vcs_read
-4da108082a3290804ebbd42d70ce8535c00e4637 drm/amd/display: Move DCN314 DOMAIN power control to DMCUB
-075e2099c32cf4486b27266d2aecf61e95499ea4 drm/amd/display: Fix race condition in DPIA AUX transfer
-d9651c258d667305602ab785faa9dd6dfa0485a8 usb: dwc3: pci: add support for the Intel Meteor Lake-M
-ad5914431b7056a601c7db25c450e360f82b5c06 USB: serial: option: add support for VW/Skoda "Carstick LTE"
-ec357cd3e8af614855d286dd378725cdc7264df6 usb: gadget: u_serial: Add null pointer check in gserial_resume
-fb9a79557942c843c3e127725fb1300c77480368 arm64: dts: uniphier: Fix property name in PXs3 USB node
-c9d3eb6151b3c6d0c777f1b4586d90db0ae6ebc3 usb: typec: pd: Remove usb_suspend_supported sysfs from sink PDO
-118ad80d27d938868299ef184f7483b21f011f0b drm/amd/display: Properly reuse completion structure
-18c2750856dc907ccff05c747e079495f75ea35c attr: add in_group_or_capable()
-e44f23ef91605b61cb2f01994ab5d89e7daaf0ea fs: move should_remove_suid()
-c1df288f4495fa4b0e0224b2c413684d14c9cedb attr: add setattr_should_drop_sgid()
-89f5f21b960ee81f2cdffdb0c862e500b7d1d902 attr: use consistent sgid stripping checks
-a591d9fd7001f9a71d648ef17a42aef19a3fd9f1 fs: use consistent setgid checks in is_sxid()
-c49bd6c2dd1bd67abd2b638ae10deb65c4f4031e scripts/tags.sh: fix incompatibility with PCRE2
-c87fb861ec185fdc578b4fdc6a05920b6a843840 USB: core: Don't hold device lock while reading the "descriptors" sysfs file
-42616e0f09fb4e9a6c59892a227f7bdefbd2d6d3 Linux 6.1.15
-
---===============7448717867941706067==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ea5e1e557437-6ab3eda153b6.txt
-
-971acf26560ff34b2263b854ea9897b70726977e ALSA: hda: cs35l41: Correct error condition handling
-766651b3780bde37629dc75798e51ec9164b53ae crypto: arm64/sm4-gcm - Fix possible crash in GCM cryption
-d00615dc5053d7a8737c73cf6a3a3b1b8846ffae bpf: bpf_fib_lookup should not return neigh in NUD_FAILED state
-8417e002b7165bdde96ef6af48708ad8de6fe194 vc_screen: don't clobber return value in vcs_read
-9c591e6a027053460b61d63c239df4391fbce98f drm/amd/display: Move DCN314 DOMAIN power control to DMCUB
-83d403e773a851c9447e4d1847a6f1df91604d43 drm/amd/display: Properly reuse completion structure
-e29c9dbd99f2ec5dd7d07ef08426ebab9e065b88 scripts/tags.sh: fix incompatibility with PCRE2
-3bcc9db63336ee4a2d10b92a8ed15d64246cf910 wifi: rtw88: usb: Set qsel correctly
-b30dbecf891fb22c512d01ea40235cc45683971b wifi: rtw88: usb: send Zero length packets if necessary
-709f329ea51c229e56991076fa67f7046400d84e wifi: rtw88: usb: drop now unnecessary URB size check
-60f19e600d35d0004a715acd63c1f5d5dbdce3a8 usb: dwc3: pci: add support for the Intel Meteor Lake-M
-9942d418a3cff953f81a615d7ad8d091205ef328 USB: serial: option: add support for VW/Skoda "Carstick LTE"
-44e004f757a7ae13dfebaadbcfdb1a6f98c10377 usb: gadget: u_serial: Add null pointer check in gserial_resume
-0d4a8a7ec4eed7dae87cc58b77953cac8f498007 arm64: dts: uniphier: Fix property name in PXs3 USB node
-f2205558dd7832adda21467637a92174409672d8 usb: typec: pd: Remove usb_suspend_supported sysfs from sink PDO
-1bcb238c54a9c6dc4bded06b06ba7458a5eefa87 USB: core: Don't hold device lock while reading the "descriptors" sysfs file
-6ab3eda153b603d578a83e75dd1a58270ebfe3f2 Linux 6.2.2
-
---===============7448717867941706067==
+--===============4772952864670995079==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1285,4 +1082,4 @@ a9a01e1238cf5b477ec6aa54855356e518998991 Merge tag 'linux-watchdog-6.3-rc1' of g
 39ce4395c3ba730341b067e1fb8abbdf9c47ca77 Merge tag 'arm64-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux
 2eb29d59ddf02e39774abfb60b2030b0b7e27c1f Merge tag 'drm-next-2023-03-03-1' of git://anongit.freedesktop.org/drm/drm
 
---===============7448717867941706067==--
+--===============4772952864670995079==--
