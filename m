@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6899171888764401595=="
+Content-Type: multipart/mixed; boundary="===============0390503005496063988=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Fri, 03 Mar 2023 09:21:19 -0000
-Message-Id: <167783527946.2694.834349988711456386@gitolite.kernel.org>
+Date: Fri, 03 Mar 2023 09:21:24 -0000
+Message-Id: <167783528417.2761.9749907265572479627@gitolite.kernel.org>
 
---===============6899171888764401595==
+--===============0390503005496063988==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,50 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: a93e884edf61f9debc9ca61ef9e545f0394ab666
+  - ref: refs/heads/driver-core-linus
+    old: 0c058fb94ae0e2a68639f4569de1c3abf5df7ad7
     new: 2eb29d59ddf02e39774abfb60b2030b0b7e27c1f
-    log: revlist-a93e884edf61-2eb29d59ddf0.txt
+    log: revlist-0c058fb94ae0-2eb29d59ddf0.txt
 
---===============6899171888764401595==
+--===============0390503005496063988==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1677835278 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1677835283 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1677835278-aa54ae6837c5417e97884e902eeb227f4569d6bb
+nonce 1677835282-54f8c110f79a418c264b270f3ac8fe1b1f404bae
 
-a93e884edf61f9debc9ca61ef9e545f0394ab666 2eb29d59ddf02e39774abfb60b2030b0b7e27c1f refs/heads/main
+0c058fb94ae0e2a68639f4569de1c3abf5df7ad7 2eb29d59ddf02e39774abfb60b2030b0b7e27c1f refs/heads/driver-core-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQBvA4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+NfQP/A4qyJC+s8jgep2f2zDJ
-h1gkJUa7hXu6ySvql80kh9piojPWI3DIdIr0mtXzoKNaRqXGbFOWT6oqRTJCKcYR
-oMBafMQHX8BCD3VoiMYF2BbcESei+rBH8HtL1ipvDZwbRifR784fsR2LRLM8UBoI
-Xk/E0hZ8p/nc+UpswN7Yzx/gnNaOrrYPYi21fikJQXexjablwqGEVidEhxi5XF81
-SQp4+mzOQT5m67w4qBwCiNxTnqyb9IgWxz1IASErw4nxT6V6JfZA/4VHIMuTY7A1
-DMsZqKz+48Xc2jyJnbxE3QVWth0VhPC7LuWj/yfqKBIhD7uwLxkhS28h+dGfvfx4
-O7DWW73ucfYQYklDwRhHDP1ZXLbNfF1n1/dQmCjVDk639OfKricLNu0SCVquaHmD
-TOaXjSaQ3cAZ831TvZOD4x+4XTN6M8IWtOF8vKINSPs5oj5fdvj6rdBfZuB7xAV6
-XH/9dzQpsQR5caa5I+kBtD29aVIn/MeM0uH90rCqeHRVt5QylZIheWl9jdvdMAGN
-rzWL9aGUnRT/UdjDw+26acPR00YYAozmv5ZqcGoRXKjf5jYxscoeLtt6+XZVLizK
-HLrPguf2KVZcB2K1wLRngL0blVsr9ZdOryJtdSg2gg1i23eGHdFd5uUhJRgy4cqr
-kVEIidn5i70Vs6u087yyRAj9
-=wdUo
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQBvBMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+jIsP/1jd4YKt0uL9ESN3M2Px
+DxhS2/txSjJHjlQZOt5S0XYPqaNeF5tsSdxS50ZhmtW8BkGe07pW0E2Hq8gW8FaD
+4dmZG67kLkmAfPAdPiLLbBiFjLWV7uv4LMzUj6/030sKBoiZolp8Xpnzpgwwjxh9
+CzY3LvhBBE0dykY7tf70Yeax1mRGuQDlub2OOfrMR7KmqnsqrSEK1+xfYunkIiNi
+czmaGZq1LOVjkOpLZtDtox3GfF1RIHKe5oIH9jQq6ZbY8YPO+r9ISEhZvnXLVbJV
+cM2nqo9iWmC/5RpN+x+ohhKq5f97Rmjn+s+3OH8ApLiBDDczNG9YhbB0XpwZW3cJ
+rqXmgRGI2ksW8p7BWwPm8LpnKw+cH+jMGlb9CRsK2vss0m5EP4CdWExfytEzNKzJ
+WI/6kDrrDj9xxVSN9cwgfe/dXCYYzBEWu0JD+jVlqlt5R4Au6rd26d2TfmZcOE5/
+AVWrCYhSU4qJsjd0bbyNoyjA/d/E9S2zxssvCmmr2n2G1wmbDFn4XJr1oBt6AoUe
+zxYRUYAR+YKDx82XFRHD10iTE15pvscGN+7ntk93/7W/WsqPAfp6qWxtgjkmEwDh
+Mqt//c++i6IvQyoqaZsWIXtKcPX5QGu/3SyA1yYLqajmbdkowzBtVMCgt+N1TrOT
+6jSLn8rAhUIfHwW/ggDqBeon
+=yUnG
 -----END PGP SIGNATURE-----
 
---===============6899171888764401595==
+--===============0390503005496063988==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-a93e884edf61-2eb29d59ddf0.txt
+Content-Disposition: attachment; filename=revlist-0c058fb94ae0-2eb29d59ddf0.txt
 
+7dd0e2848764306d7a70943b97584ffdc7754708 powerpc/bpf/32: BPF prog is never called with more than one arg
+85e031154c7c14edee0705532a9ffc8a2fe591d0 powerpc/bpf: Perform complete extra passes to update addresses
+d3921cbb6cd663193cecf04f0b170a30c6d0e390 powerpc/bpf: Only pad length-variable code at initial pass
 8616045fe785229b53a24b8698631826298d1500 powerpc/bpf/32: Optimise some particular const operations
 c88da29b4d2ce8d0070646b8f99729e9b355a4bf powerpc/bpf/32: introduce a second source register for ALU operations
 19daf0aef84f33bde9c742ed41b4ded567b8dfbf powerpc/bpf/32: perform three operands ALU operations
@@ -899,9 +902,6 @@ a7acb188e874be1b2752461a445af935e0a47da7 alpha/boot/misc: trim unused declaratio
 050966666047b5013fe44944cef9e9605bdf6cfe alpha: lazy FPU switching
 290ec1d58049e6203062d5fc796c50852112ae00 alpha: in_irq() cleanup
 4093b0062f100e69c01812ff73bca2b7521f467f Merge 'pci/enumeration' into loongarch-next
-e8b812b3e515742a4faaf2e4722bdc5755b98f56 driver core: bus: Handle early calls to bus_to_subsys()
-6309872413f14f3d58c13ae4dc85b1a7004b4193 driver core: fw_devlink: Avoid spurious error message
-0c058fb94ae0e2a68639f4569de1c3abf5df7ad7 driver core: fw_devlink: Print full path and name of fwnode
 fd200632d09dcea9fd67714241155b7635505cd6 LoongArch: Fix Chinese comma in cpu.h
 bb7a78e343468873bf00b2b181fcfd3c02d8cb56 LoongArch: Only call get_timer_irq() once in constant_clockevent_init()
 41596803302d83a67a80dc1efef4e51ac46acabb LoongArch: Make -mstrict-align configurable
@@ -1082,4 +1082,4 @@ a9a01e1238cf5b477ec6aa54855356e518998991 Merge tag 'linux-watchdog-6.3-rc1' of g
 39ce4395c3ba730341b067e1fb8abbdf9c47ca77 Merge tag 'arm64-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux
 2eb29d59ddf02e39774abfb60b2030b0b7e27c1f Merge tag 'drm-next-2023-03-03-1' of git://anongit.freedesktop.org/drm/drm
 
---===============6899171888764401595==--
+--===============0390503005496063988==--
