@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3908083370649065503=="
+Content-Type: multipart/mixed; boundary="===============3132306148711516754=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
-Date: Fri, 03 Mar 2023 10:08:04 -0000
-Message-Id: <167783808435.13337.22684426994274564@gitolite.kernel.org>
+Date: Fri, 03 Mar 2023 10:23:09 -0000
+Message-Id: <167783898923.23774.17609376430283468009@gitolite.kernel.org>
 
---===============3908083370649065503==
+--===============3132306148711516754==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,38 +16,40 @@ repo: pub/scm/linux/kernel/git/ardb/linux
 user: ardb
 changes:
   - ref: refs/heads/arm64-lpa2-v3c
-    old: b7bedf824110c6de6b0b1b54054b297c7c78c33f
-    new: f6d505f3c96f6ca867fc862bbe7dcef84742ec19
-    log: revlist-b7bedf824110-f6d505f3c96f.txt
+    old: f6d505f3c96f6ca867fc862bbe7dcef84742ec19
+    new: b43f3d8c03f0eccf20a95d827d35e83e13dedac7
+    log: revlist-f6d505f3c96f-b43f3d8c03f0.txt
 
---===============3908083370649065503==
+--===============3132306148711516754==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b7bedf824110-f6d505f3c96f.txt
+Content-Disposition: attachment; filename=revlist-f6d505f3c96f-b43f3d8c03f0.txt
 
-6e8cdd9d5dff121ad24cefb8a03c18f21bd64271 arm64: pgtable: Decouple PGDIR size macros from PGD/PUD/PMD levels
-5fa3edcb008e92c81347599249cea8339e85a516 arm64: kernel: Create initial ID map from C code
-bd03c6bce272f5a6f9af119ad253cb906d8a9e8c arm64: mm: avoid fixmap for early swapper_pg_dir updates
-d1d64b51ed3ff518c328726d134927aa0b1ff79f arm64: mm: omit redundant remap of kernel image
-8c45ca5b473d3a66a96208adda6dbc75ca5cdcc8 arm64: Revert "mm: provide idmap pointer to cpu_replace_ttbr1()"
-83942df7bfdda6146db8d252b1a02c7e02e66f32 arm64/mm: Add FEAT_LPA2 specific TCR_EL1.DS field
-4acd1f28130ff8bf31b1f684248354ca316691ba arm64/mm: Add FEAT_LPA2 specific ID_AA64MMFR0.TGRAN[2]
-30506d2b10740d8e0e3ea638ccbe9e7252a1bdc5 arm64: mm: Handle LVA support as a CPU feature
-bffaf5e2779aaa8dcaa80c0eae45e00fc123ae94 arm64: mm: Add feature override support for LVA
-203b7b62e94bd588fa2b6cb254b14d3da34d3333 arm64: mm: Wire up TCR.DS bit to PTE shareability fields
-ebadc82a3ba6d4116ec39f20565ad77b65755c7a arm64: mm: Add LPA2 support to phys<->pte conversion routines
-4f9fba0cfda65f0bf766c50c19b092306c3e8a7f arm64: mm: Add definitions to support 5 levels of paging
-2b62bdd6af1391e93a2949463d6eecc19592ec70 arm64: mm: add LPA2 and 5 level paging support to G-to-nG conversion
-fe09f99efe9832c3584422605822af428d3c9a7d arm64: Enable LPA2 at boot if supported by the system
-3e982f47b64ef5c42165fb845657123275a93568 arm64: mm: Add 5 level paging support to fixmap and swapper handling
-c7bfc278c205210ecbf0b41aabcdeec451cc9076 arm64: kasan: Reduce minimum shadow alignment and enable 5 level paging
-c5f99642df71da646c505d2809747ce35f953be0 arm64: mm: Add support for folding PUDs at runtime
-9b7ea26562d65464b43674218612e0645acf9151 arm64: ptdump: Disregard unaddressable VA space
-1e31010d94b3f961be9b7518a9fbbd102a08fd47 arm64: ptdump: Deal with translation levels folded at runtime
-816847f217f7fb42738f3742f1220d352d71c75b arm64: Enable 52-bit virtual addressing for 4k and 16k granule configs
-1b782261375d88a7605cad06f5d9242ddc474548 arm64: defconfig: Enable LPA2 support
-d9f4fcb144d2eb518d81ce9b091a6ffac5264d88 mm: add arch hook to validate mmap() prot flags
-f6d505f3c96f6ca867fc862bbe7dcef84742ec19 arm64: mm: add support for WXN memory translation attribute
+591d95041a83a6c9e8519b2769055f5e9ab94b21 arm64: head: Move early kernel mapping routines into C code
+19183c4e3dbfa5fa9f06778d7e4ae46847f94496 arm64: mm: Use 48-bit virtual addressing for the permanent ID map
+5003fb88ff262ccbe768faf900ea22903406401d arm64: pgtable: Decouple PGDIR size macros from PGD/PUD/PMD levels
+4edf926f838710fcccc085422e4614c235d1dfa9 arm64: kernel: Create initial ID map from C code
+7c7a168aed06407f41849ac0c054aea8d66a9e89 arm64: mm: avoid fixmap for early swapper_pg_dir updates
+60b21a1734d42e734d74ba724590f04771cea6c8 arm64: mm: omit redundant remap of kernel image
+d921755dc2e8aa2232b07244645e54957e370197 arm64: Revert "mm: provide idmap pointer to cpu_replace_ttbr1()"
+03ae899984825595ed61c72ef0b3410549e90509 arm64/mm: Add FEAT_LPA2 specific TCR_EL1.DS field
+9ad31bb68544a15b6f30b3d6c7ceeb3b54a4a2da arm64/mm: Add FEAT_LPA2 specific ID_AA64MMFR0.TGRAN[2]
+85222705ddba8ee466ed4512a1796efb03e70048 arm64: mm: Handle LVA support as a CPU feature
+ad5352521b3657064e0a4dd3b170f70f0adc698b arm64: mm: Add feature override support for LVA
+436ec04b3a1dabba015e14c4e830c79eaf20d979 arm64: mm: Wire up TCR.DS bit to PTE shareability fields
+f982d504742c15af970ad7e136aec7c9f5213674 arm64: mm: Add LPA2 support to phys<->pte conversion routines
+5e72f91c07b759827d123dc87097a4183584cbef arm64: mm: Add definitions to support 5 levels of paging
+cff1fb0cde9532ae27f07fe98b2ef15aa49b235c arm64: mm: add LPA2 and 5 level paging support to G-to-nG conversion
+addcd0d359d9fa63b45ac29f3f45266395d74666 arm64: Enable LPA2 at boot if supported by the system
+3c62a90af4e3a0c11cdfe9f3e5ef00aecb50cacb arm64: mm: Add 5 level paging support to fixmap and swapper handling
+cbdc49ccfbc6f0c860e53f00f9418f00ff507e6b arm64: kasan: Reduce minimum shadow alignment and enable 5 level paging
+d66e140e63bb9d49fc910fdf0544d436b925d4a2 arm64: mm: Add support for folding PUDs at runtime
+fd3699bcf5b0b478141ef6fd34c8b164a6c656e4 arm64: ptdump: Disregard unaddressable VA space
+716dfe15dbb240a77dbacea0783fcbae46812c9c arm64: ptdump: Deal with translation levels folded at runtime
+0e6e2f01e1bc841e19b8bb2c7a94a6d71c242098 arm64: Enable 52-bit virtual addressing for 4k and 16k granule configs
+d17b0899698f55482cd14b490613e29628aa1b07 arm64: defconfig: Enable LPA2 support
+40a8cff319fcd562fdc082e658121e4668c51578 mm: add arch hook to validate mmap() prot flags
+b43f3d8c03f0eccf20a95d827d35e83e13dedac7 arm64: mm: add support for WXN memory translation attribute
 
---===============3908083370649065503==--
+--===============3132306148711516754==--
