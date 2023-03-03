@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Fri, 03 Mar 2023 12:10:16 -0000
-Message-Id: <167784541602.28996.10216665122452578405@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
+Date: Fri, 03 Mar 2023 12:15:22 -0000
+Message-Id: <167784572285.32450.920925717700841848@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/s390/linux
+user: heiko
 changes:
-  - ref: refs/heads/master
-    old: 7dcb35dd176443238859de18cc73f0906287b91d
-    new: 2af05775a12581020d8d83a0a55519f15fc74178
-    log: |
-         0ece530d83ef4167eee52720f14240a9431d4daa lsfd: optimize -i/--inet option
-         2af05775a12581020d8d83a0a55519f15fc74178 Merge branch 'lsfd--inet-optimize' of https://github.com/masatake/util-linux
-         
+  - ref: refs/tags/s390-6.3-2
+    old: 89832db4ac0814abfbb5446ad8ba2e58e2faa1a8
+    new: ecb1ec212090ee2df5fcddd000910fe3d2373479
