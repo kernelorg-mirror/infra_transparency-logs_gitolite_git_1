@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/linux-stable
-Date: Sat, 04 Mar 2023 14:54:27 -0000
-Message-Id: <167794166751.32044.8006592259985363167@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/pciutils/pciutils
+Date: Sat, 04 Mar 2023 15:04:51 -0000
+Message-Id: <167794229173.5929.12657987126542313792@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/linux-stable
-user: sashal
+repo: pub/scm/utils/pciutils/pciutils
+user: mj
 changes:
-  - ref: refs/heads/pending-6.2
-    old: 74fb778afe7eed9077443dfe8e3ec31f603cfd47
-    new: 1045e0f0a50b6133ecf3be34888db399fdf7fb27
+  - ref: refs/heads/master
+    old: 2d16e3a7875a9cb5abd60713bb2e39b536a7dec4
+    new: a9f51446fe43f39455df116723b64bb44c916c1e
+    log: |
+         a9f51446fe43f39455df116723b64bb44c916c1e Filters: Allow leading "0x" for backward compatibility
+         
