@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0848747517777439205=="
+Content-Type: multipart/mixed; boundary="===============4373719058262092481=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
-Date: Sat, 04 Mar 2023 20:26:34 -0000
-Message-Id: <167796159415.23078.1274973676651517081@gitolite.kernel.org>
+Date: Sat, 04 Mar 2023 20:26:47 -0000
+Message-Id: <167796160727.23202.16983088502877849083@gitolite.kernel.org>
 
---===============0848747517777439205==
+--===============4373719058262092481==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ardb/linux
 user: ardb
 changes:
-  - ref: refs/heads/arm64-lpa2-v3c
+  - ref: refs/heads/for-kernelci
     old: 1fec1034c637dc3656476fc1e011cee1fe64bcb6
     new: 56bffcc01f5749d51d5d7aa3be1feded61d8b8d1
     log: revlist-1fec1034c637-56bffcc01f57.txt
 
---===============0848747517777439205==
+--===============4373719058262092481==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ f4692c6afe03e6e075f8d77ef52e4b2c1f18e3b3 arm64: Enable 52-bit virtual addressing
 e0395e394fd268a06b334d9d42a3610895c1d111 mm: add arch hook to validate mmap() prot flags
 56bffcc01f5749d51d5d7aa3be1feded61d8b8d1 arm64: mm: add support for WXN memory translation attribute
 
---===============0848747517777439205==--
+--===============4373719058262092481==--
