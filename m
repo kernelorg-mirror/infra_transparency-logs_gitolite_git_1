@@ -1,21 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Sat, 04 Mar 2023 23:27:23 -0000
-Message-Id: <167797244360.13457.29938881381675715@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Sat, 04 Mar 2023 23:31:28 -0000
+Message-Id: <167797268825.16340.11710809219540926579@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/man-pages/man-pages
-user: alx
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
   - ref: refs/heads/master
-    old: 184ecd225079567aa3dede2b63c7ddf962cfdbdf
-    new: 04fdef68b96c6925301205252865b2218f840b5e
+    old: bb182a7ec8684d601d459e00a46a978e28aec035
+    new: fd52179c247a9b994c262d223adf5f8440b155eb
     log: |
-         5adb49824992b75b7624458995cfbd7a3e958300 install-man.mk: Add missing variable $man3constext
-         e0b0b71729051ff89b38b4da15b1155ee817606d install-man.mk: Fix link pages when installing in different mandirs
-         04fdef68b96c6925301205252865b2218f840b5e install-man.mk, src.mk: Respect user-specified man dirs
+         a1e739d624f5ed73af8e90d47587a09358e8af96 foo
+         daa6bc984d3dde45a6c7550ac67836b4dc3b84cc foo
+         fd52179c247a9b994c262d223adf5f8440b155eb foo
          
