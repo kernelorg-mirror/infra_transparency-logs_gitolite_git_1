@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7579834186952407547=="
+Content-Type: multipart/mixed; boundary="===============5631616582572950307=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Sat, 04 Mar 2023 13:11:04 -0000
-Message-Id: <167793546434.28876.927783181439711084@gitolite.kernel.org>
+Date: Sat, 04 Mar 2023 13:11:08 -0000
+Message-Id: <167793546802.28943.16765455124849099961@gitolite.kernel.org>
 
---===============7579834186952407547==
+--===============5631616582572950307==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-next
+  - ref: refs/heads/usb-testing
     old: 489fa31ea873282b41046d412ec741f93946fc2d
     new: 0988a0ea791999ebbf95693f2676381825b05033
     log: revlist-489fa31ea873-0988a0ea7919.txt
 
---===============7579834186952407547==
+--===============5631616582572950307==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1677935463 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1677935467 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1677935463-489998d2a0d7a98aaf3e5f27abcb1452bc89c50c
+nonce 1677935466-559385dfb7e92f9a64c9957862af3872417aa2aa
 
-489fa31ea873282b41046d412ec741f93946fc2d 0988a0ea791999ebbf95693f2676381825b05033 refs/heads/usb-next
+489fa31ea873282b41046d412ec741f93946fc2d 0988a0ea791999ebbf95693f2676381825b05033 refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQDQ2cbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+alsQAMnNFkS7fX2hrLDgUzLm
-rIxQm6LqpCsihsysFIVavPZ66cTFPwtK15Mtl7fYrU73IhuXKQSnsU5dXO4RTu2w
-CLo8rKkMenHZTSwAIXNypsDSgoCF11/7u113Ks3g48+VWiEYtUoOGPn+BNFGfHQF
-Co4PUAgCRLm4UpFzPefQ881m9hMGg7g4BR5xOpO0+AbrOHIGrsg2PGtlc+Au3eZv
-MsCXVpI3SmXW61ynF1XBJpaE9NtYoI84U35CnQ9MQHmIUr84TYkmhUAubTmcFV5s
-KeO5HNHK3jb+cHlgqUpiqp4x51SsHVk8LJ08Rg1xW3HY5xFX/6ivbK/XBcUGEBZP
-fpeHHHOr7BHIeKb5rQ4ONJqpaE/eahs0Pkt6M22jRqkDZ/8IQ7yREzhyBXCSteD4
-SuwogRxqwqcCXWUlzDujUdsn7KQ3MmjBZJeB3OvWqs22DAEhNVuhCPW4zNmWNTmT
-Yr/64lHUqBIIwdvFUuFLQrjEMhF3KVkJh89h6jDGLj4Z6UMy0VX1wtekNajQwNH8
-e+e/NlM9Iygo/+pTH1wm38o6wTmu5PY86x+9J6TpId3a67B65P7f63mGTFtjd2M2
-OiwRbmIQHcD87OoclAN/mdxwENy3M6uD/FLDnY/c5ZeZDjMuv6QavpUawunX3541
-1dsXOhScUVQDC4cKEbtwenQO
-=Yss8
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQDQ2sbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+dGkP/iznccPkwT7K79nsKEFK
+ClmXj9kxIGpWxRa82qjjcEFACLs/+Q+Plp3PV4Q8FpS5vWsk7fWAMQOFHgvYPCfK
+8MR7zDrMf1ZECejeXadHvw6CXSMCEB3Y3j/zaeaDbj1cc6E282MOS7bQSXnNPCnS
+szerupzuOJNUuTz04AorW+yKBNY4bszUoBnEK5lxO9VOh2YqGjOnu9l3Q0T68DTe
+1rNi0R9s2GLPOZ1hm6/GRyXORpnmq4ej4+7MlHjV/nLx+2yOz5G2aMwHiZfEDWsX
+nB3INZDLmKw34IACu/UGwMMAUISPRtFz2zskEJVpFimcX7vqgJm9MxyAoHUWA1ww
+T9T1poIi7xybXlkSEiWam0SNZdf5PgmCgQcgJRo7V3afGRQm9h9hX6b7yINMRwmu
+EDo9CLvw7LXJeSD0gyTAkEXoh7V771bSeVEHpc0IDLsl+890EzrnmuhPZdKMd2Ng
+5eRe77Cj5oGIxLd+oqH6qCXCoNMm/PaHo8DPfN9MVRh0puf6Vam5lsr+42eZjpaS
+tsjrhN9XkPYa2u/T94ToqKQLkveGVwGK37xVXfH6ikny3WHMDxalA3RAtmjDNbjs
+B8eYc3TLjb093sFGdVMbN6MGnd/529PjF2aQ22pyNhq8bElZp1tbpqffCekhm3L3
+/MFH7Um5xEPDbTDJZ1w/XmoN
+=1E37
 -----END PGP SIGNATURE-----
 
---===============7579834186952407547==
+--===============5631616582572950307==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1082,4 +1082,4 @@ e778361555713826481be6234fd1aa030bdb035e umh: simplify the capability pointer lo
 3162745aad939af6b8bc00951d1344ee872526a9 Merge tag '6.3-rc-smb3-client-fixes-part2' of git://git.samba.org/sfrench/cifs-2.6
 0988a0ea791999ebbf95693f2676381825b05033 Merge tag 'for-v6.3-part2' of git://git.kernel.org/pub/scm/linux/kernel/git/sre/linux-power-supply
 
---===============7579834186952407547==--
+--===============5631616582572950307==--
