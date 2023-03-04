@@ -1,19 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/pciutils/pciutils
-Date: Sat, 04 Mar 2023 22:53:14 -0000
-Message-Id: <167797039433.23367.4155294071852799504@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Sat, 04 Mar 2023 22:54:12 -0000
+Message-Id: <167797045247.23773.7927973059584444179@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/pciutils/pciutils
-user: mj
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
   - ref: refs/heads/master
-    old: ea404c2a8800e1dfef2c4165edae15c82530da00
-    new: 1249c980ab34c92fd50ce4001b3a0e8985414bfb
+    old: e77d587a2c04e82c6a0dffa4a32c874a4029385d
+    new: b01fe98d34f3bed944a93bd8119fed80c856fad8
     log: |
-         1249c980ab34c92fd50ce4001b3a0e8985414bfb Fix bug in previous commit
+         a76d19e6acb1ef16561b0682cd1a566463fa3d98 i2c: Disable I2C_APPLE when I2C_PASEMI is a builtin
+         1d092308ce223bb1403475737b8fb847e9e8704c i2c: gxp: remove "empty" switch statement
+         4b3dfb0ed6336dea4a763ce9fa30a42763eb3800 i2c: gxp: return proper error on address NACK
+         65609d3206f784489eb1ebd6fce64b84a42cc63c i2c: gxp: fix an error code in probe
+         b01fe98d34f3bed944a93bd8119fed80c856fad8 Merge tag 'i2c-for-6.3-rc1-part2' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
          
