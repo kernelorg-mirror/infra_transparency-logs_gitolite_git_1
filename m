@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6415817822811597926=="
+Content-Type: multipart/mixed; boundary="===============4708047136187427674=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Sat, 04 Mar 2023 13:11:28 -0000
-Message-Id: <167793548858.29196.4700006432960245204@gitolite.kernel.org>
+Date: Sat, 04 Mar 2023 13:11:39 -0000
+Message-Id: <167793549933.29309.14785109171858632137@gitolite.kernel.org>
 
---===============6415817822811597926==
+--===============4708047136187427674==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/kobject-const
-    old: 2eb29d59ddf02e39774abfb60b2030b0b7e27c1f
-    new: 0988a0ea791999ebbf95693f2676381825b05033
-    log: revlist-2eb29d59ddf0-0988a0ea7919.txt
+  - ref: refs/heads/readfile
+    old: 3aa15aac41d15902e0326259eb6ec3273d73db79
+    new: a6dabb99ad462cfee67a9807ae804dcb20d7bb28
+    log: revlist-3aa15aac41d1-a6dabb99ad46.txt
 
---===============6415817822811597926==
+--===============4708047136187427674==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1677935487 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1677935497 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1677935487-dfdef63bd8062e9c60207ee17a77f867d51deff4
+nonce 1677935496-de2b338be95d0aec4f129c5ae5b11bed242724fb
 
-2eb29d59ddf02e39774abfb60b2030b0b7e27c1f 0988a0ea791999ebbf95693f2676381825b05033 refs/heads/kobject-const
+3aa15aac41d15902e0326259eb6ec3273d73db79 a6dabb99ad462cfee67a9807ae804dcb20d7bb28 refs/heads/readfile
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQDQ38bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+VTIP/RPAHWOopy8s25xq1vMU
-KwIL3PFQJWG0qUwQ7QFQzVu0QhMhLimqsKh9Rxo8K4qGcGysLK4W32UVxHyuq/iq
-kXbJ9Qaj22aVhMhM8anmhhdpv2i8Ok9R1JkcqyMGqRgKW+TZ9pTe/03r2vwq1wqd
-yQGNAswOKBrvuEwkM8nLXDeddldOqqq/kkDwEpNvdiML36eqRHHPKJn0t4+nQJKU
-qaq8d9CcSV/gNV9lOweSirqf9da7CEVUmHj8XA0oiT4Nd53A3mT9SaNx8jumUsh1
-KhpzLrk0E8CwOliCPsnI0yyz5I931L2Kbs+16Le6/PZV7HnOvvQro1Wmt7LOoUpe
-GhI3SIu4+3E0HSihYd9ZqldzgEleuNQmTNMVMktoSly466F+nAVx37wro7obNBBh
-3jtJj039MM0PyiW8udfKbaxqmvr96iHsatdILqopEC5AoXjsrUUk0n9TFi7C1qWo
-UJKpNVvYLrnMxLGtR4NN4miflQLgfoJjnnfluJYUCSQY/NzyU7FAWc9Uw6mdnRzh
-Hhx8jlU1FTLUpITczcBKadXuL7MvY8oLhYc0JmCkVmHh6bAi+tt6QgckBNulxjwi
-OPonihK6nsjEebq6if3emzxlD/S2UJf9/RTuojc7wfjUilVDM2BE4Zep20xCog0n
-Qb1ROWNWTQ2XvgbYIAnXD09H
-=IRse
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQDQ4kbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+SREQAJchQRoEtAMLiAqOQ9gV
+Os6lhqjs9zpmVEQ3X+uQBSmr1+8q+nOb4seWH0hidZCJ081XG4adF6uNDdEQLIZK
+dAF5sx0+ekhaWakO4wpVgunByzS7pUaG7mB4dtDWkTjjeKdqtxElJ3q7UbGlhKHD
+jIk4iB8gJsfRaCt6gYtABYuBKPHffeU8e/iO0PMMLnMCGA7j4iwpTURaD2x4K9mg
+avN2R3yMhPT+vNFZ5jpNwCHkqDXA7KGLAP61gb3BNeY7nIRoAyH0gl9DJO5s7piS
+r4Jm0DoqvZpqF9Y2JbzLxzR8Ea5jjR5t7SfAkBIYyvXN6/Dz9Zmj3b4lJ8lcnWTH
+tfwv7DC0CqQktHsjUUqYEqqp/iKfeL6WK62uZjHWcnUIGX5AQUd8S+tx9biub/TE
+FmPDJR9iBoMRZtuswWWxo5ugMmPVWi58qSlQs8nCqGNZLrI3C2CHprUlRfIg86vQ
+SofGMxxJ3iv0DILRPi9wb4+oRqQIrVVpI2emxjaQw5o9ZCvoSm7T5/7v2MdX1/Sf
+suuFHkOEv5OGw0D7F/SvboTy0kGJImZZ0Bz7Ku47WCcGX5s1mMv7W8j7rpcah/2h
+5uJqXbnsTclaPeQ6ym+p5r4dQt6tQbJIqEQC2PYdfzykZQBu3rBf4Fqdd25vdbyI
+kuebofkXcoPoHQv7xXikhiRq
+=iSEm
 -----END PGP SIGNATURE-----
 
---===============6415817822811597926==
+--===============4708047136187427674==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2eb29d59ddf0-0988a0ea7919.txt
+Content-Disposition: attachment; filename=revlist-3aa15aac41d1-a6dabb99ad46.txt
 
 bab550371cb13fe7adc4105a57d0530565740fc6 coccinelle: api/atomic_as_refcounter: include message type in output
 4cd0ca1fe9a79d81a001ff14f14035531773fe43 rtc: ds1307: Convert to i2c's .probe_new()
@@ -247,5 +247,9 @@ fb35342f0a6875e52ad2903b215525b24e2f19b3 Merge tag 'cocci-for-6.3' of git://git.
 e778361555713826481be6234fd1aa030bdb035e umh: simplify the capability pointer logic
 3162745aad939af6b8bc00951d1344ee872526a9 Merge tag '6.3-rc-smb3-client-fixes-part2' of git://git.samba.org/sfrench/cifs-2.6
 0988a0ea791999ebbf95693f2676381825b05033 Merge tag 'for-v6.3-part2' of git://git.kernel.org/pub/scm/linux/kernel/git/sre/linux-power-supply
+c38c6795b39ac7e803bbf7cc08d67f290fae821f readfile: implement readfile syscall
+15d5ef5adc8ba8976eeddaff955d8acf1e578b18 arch: wire up the readfile syscall
+9d5b1ccb8de3188e160f6d82a83d09e440cf3048 selftests: add readfile(2) selftests
+a6dabb99ad462cfee67a9807ae804dcb20d7bb28 readfile.2: new page describing readfile(2)
 
---===============6415817822811597926==--
+--===============4708047136187427674==--
