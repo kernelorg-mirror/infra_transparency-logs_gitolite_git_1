@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Sat, 04 Mar 2023 21:45:31 -0000
-Message-Id: <167796633159.10401.13181759662818002400@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wsa/linux
+Date: Sat, 04 Mar 2023 21:59:50 -0000
+Message-Id: <167796719056.18920.2273105722055945431@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/wsa/linux
+user: wsa
 changes:
-  - ref: refs/heads/master
-    old: 766d9fa152721e2829816c7d547a88619a201d05
-    new: 216a7b9a9816c15a3fd67cb1066c1269073e262c
-    log: |
-         216a7b9a9816c15a3fd67cb1066c1269073e262c Sat Mar  4 09:44:11 PM UTC 2023
-         
+  - ref: refs/tags/i2c-for-6.3-rc1-part2
+    old: 0000000000000000000000000000000000000000
+    new: d61333abfa14ee5e4bdd700960dfcabf6120d6c1
