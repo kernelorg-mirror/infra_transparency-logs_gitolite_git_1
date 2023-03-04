@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6141030800102411046=="
+Content-Type: multipart/mixed; boundary="===============2158664439410932517=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Sat, 04 Mar 2023 13:09:44 -0000
-Message-Id: <167793538415.26847.8146886046538836795@gitolite.kernel.org>
+Date: Sat, 04 Mar 2023 13:09:48 -0000
+Message-Id: <167793538809.26922.14583609691791985519@gitolite.kernel.org>
 
---===============6141030800102411046==
+--===============2158664439410932517==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-next
+  - ref: refs/heads/driver-core-testing
     old: 2eb29d59ddf02e39774abfb60b2030b0b7e27c1f
     new: 0988a0ea791999ebbf95693f2676381825b05033
     log: revlist-2eb29d59ddf0-0988a0ea7919.txt
 
---===============6141030800102411046==
+--===============2158664439410932517==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1677935383 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1677935387 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1677935383-13858104381e77c39389b6122107be9005dc4d1e
+nonce 1677935386-64beebf25e3fed65b665edd027a3846a036eb9e6
 
-2eb29d59ddf02e39774abfb60b2030b0b7e27c1f 0988a0ea791999ebbf95693f2676381825b05033 refs/heads/driver-core-next
+2eb29d59ddf02e39774abfb60b2030b0b7e27c1f 0988a0ea791999ebbf95693f2676381825b05033 refs/heads/driver-core-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQDQxcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+kK8P/3x6wkuFL614BHhQlZd/
-1inFdg4AHcDxolt96gk6I6fVKxzPv62e3ssm5tHUSq30vyQDq/lr03Lxc5R47rx/
-/mF1jBWQID59tk5Wk6ALq38MQKBxjBs3agY/rsIj/lq67NpMKGy3u1AMeUT51FK2
-JE0n//NHVLvPb/bYyUIV4ybxINA/U8H+QrCdkqGZOjJawPVOb2AUNyjxq/uGMpkW
-cAs9CGueMBy4KlX3Rciv8//bBubkpou63nB2CZjgcGts9YibPHIsIwom9TA+phfj
-WbzvpS3/vgOr6nZ6v4xQiHx6vdNRhf4LklJAWfnat/s2jNwRUpUcltPD6EhlzRZT
-+nbFnorQmt2dvzR4lvf2PBnLrVnJXVKk6NR5V/SA3J+FxaIGZsQtLh3LSLkuS67y
-zwph8DxHMapOqPrpkaRg465DG+ZkMPzHGnAlEs1dNmUPpSIs0r353zu931jn6KL7
-tGp7pTffPVsOgSUIM9rKfF3z+XzytPHhRWyiNZEW4crBC9gi5giKJoh0FkNEgqif
-sODhTgFzZ/XadoWfYYxQ7ype//cSxzsbEqN57BD0+fIJvnVWOHmv0Fw/ee7LSqgq
-ooSMxcbcz0BNQN5oQipyaGdozealZnWoOA1o52UlQ7eqvOfFnzNcdEvgTnSw6q4z
-vpEF688hua9qizp2K0BMsfZ8
-=mHeG
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQDQxsbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Hz8QAJ2JXVwL/O/2TirrZ7yY
+u4T0cEInYH7OahgvtCx9bIJLM1gv7dsprLRGITSwlEXxP3s6vEP/za8ES+EcRzyn
+6vc+VpXQk3kyMm45ETy1ai0Nigx3b7Zp9CFRXePsJDzRmOATXqMlcXRhboGASdx9
+XR1btbw81GICL1unKP3haImkCNMcntPYwBO13mgtKkaX/dtVHbOYR8HkpEUh12zU
+t1mnh4wjMUbmxC9kFNXVgul4qXPsAYlK2MXFeXzY2d2MY87UiqRDjA2i+rFEn7WG
+38mzu7OJiKnehkJxq+/WVY3tvwvAjwUUYI35/MvAYe2tNCr9skwdq97aPZrgg2lE
+dz5lVLcsPzUZsPFySAIeoGu5GA5DsuGYd6EBUjSXEDlxmV2PctKyI/bG6g8x4/0Q
+YzlqZO13G5mmwvJFTc0X5fO7in9YnkgbALyzg60Jlp7syP/RErDEnpsFfnmD1FL9
+vgQYSivfrCp6YRUrLKqw0yog+MTFAArO0IkY4sUEb/NfLLyDVf0/+JCH1M+l4Qlh
+uOVP8+EZPe3z6/j4O20n97meOOOhCInHBEfsPvJNh3SYaq5H/PoambuRjAKHgzgV
+Arn4Airhwrz653gd2sQJw53wfQ42965PtIEi+9R50nD/K+Fqug+nwex0bVI+7jHx
+JpU/RaK0yFSoYxqM8zwhNL6g
+=N9CZ
 -----END PGP SIGNATURE-----
 
---===============6141030800102411046==
+--===============2158664439410932517==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -248,4 +248,4 @@ e778361555713826481be6234fd1aa030bdb035e umh: simplify the capability pointer lo
 3162745aad939af6b8bc00951d1344ee872526a9 Merge tag '6.3-rc-smb3-client-fixes-part2' of git://git.samba.org/sfrench/cifs-2.6
 0988a0ea791999ebbf95693f2676381825b05033 Merge tag 'for-v6.3-part2' of git://git.kernel.org/pub/scm/linux/kernel/git/sre/linux-power-supply
 
---===============6141030800102411046==--
+--===============2158664439410932517==--
