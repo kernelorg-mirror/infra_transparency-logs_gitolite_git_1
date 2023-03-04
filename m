@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Sat, 04 Mar 2023 02:03:23 -0000
-Message-Id: <167789540350.553.11742715362871489451@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/shemminger/iproute2
+Date: Sat, 04 Mar 2023 02:13:18 -0000
+Message-Id: <167789599882.6697.12857944919684138577@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/shemminger/iproute2
+user: shemminger
 changes:
-  - ref: refs/heads/master
-    old: 81f28a3486622ece13623dbcf83312829d999aaa
-    new: 766d9fa152721e2829816c7d547a88619a201d05
+  - ref: refs/heads/main
+    old: 70b9ebae63ce7e6f9911bdfbcf47a6d18f24159a
+    new: 2a98bc13169b0e96093172febba3b35f1a9fe85b
     log: |
-         766d9fa152721e2829816c7d547a88619a201d05 Sat Mar  4 02:02:24 AM UTC 2023
+         ce4068f22db4586163ebe38fc1beb39c24aa2ef7 man: tc-mqprio: extend prio-tc-queue mapping with examples
+         2a98bc13169b0e96093172febba3b35f1a9fe85b genl: print caps for all families
          
