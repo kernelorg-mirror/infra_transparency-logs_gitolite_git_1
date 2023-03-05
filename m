@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
-Date: Sun, 05 Mar 2023 14:35:03 -0000
-Message-Id: <167802690371.6001.6399351030722216784@gitolite.kernel.org>
+Date: Sun, 05 Mar 2023 14:36:49 -0000
+Message-Id: <167802700976.6617.17601988564844497110@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,13 +12,10 @@ repo: pub/scm/linux/kernel/git/axboe/liburing
 user: axboe
 changes:
   - ref: refs/heads/master
-    old: 54efde088cdef59269cf48319cb148dcbf0eb98c
-    new: 38d357b73791a31912c3ef13b42b74e568e71dbb
+    old: 38d357b73791a31912c3ef13b42b74e568e71dbb
+    new: 8103666fbbf2c3da8ea69047bf9a02b998895372
     log: |
-         3533273acbacdc5b120dce12d3aab5c8e56e6186 tests/fd-pass: close rings
-         209fb0e9b6a8f813276262790066c162e13975ac examples/send-zc: add defer taskrun support
-         bacbc4ca724c12d303395fb55a03e8d7a40c036b examples/send-zc: add affinity / CPU pinning
-         d0e68bc1132c52867649889570e86ae620604833 examples/send-zc: add multithreading
-         f1af5ff51a3320a8971c611368c693c1dec560c5 examples/send-zc: add the receive part
-         38d357b73791a31912c3ef13b42b74e568e71dbb examples/send-zc: kill sock bufs configuration
+         e709d2cf2f3930d398295a536918caa78832ff3f man: Add manpage for io_uring_register_buffers_sparse(), io_uring_register_buffers_update_tag() and io_uring_register_buffers_tags()
+         e628f65b6a6e5783b623a07b135df000999a583e man: Add manpage for io_uring_register_files_tags(), io_uring_register_files_update() and io_uring_register_files_update_tag()
+         8103666fbbf2c3da8ea69047bf9a02b998895372 Merge branch 'add-register-buffers-files-functions-man-pages' of https://github.com/heyrutvik/liburing
          
