@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0951178254079774132=="
+Content-Type: multipart/mixed; boundary="===============3159977070278926993=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
-Date: Sun, 05 Mar 2023 17:43:51 -0000
-Message-Id: <167803823131.30208.2623142399170639442@gitolite.kernel.org>
+Date: Sun, 05 Mar 2023 17:48:22 -0000
+Message-Id: <167803850225.2228.7872641313338944046@gitolite.kernel.org>
 
---===============0951178254079774132==
+--===============3159977070278926993==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,72 +16,64 @@ repo: pub/scm/linux/kernel/git/ardb/linux
 user: ardb
 changes:
   - ref: refs/heads/arm64-lpa2-v3c
-    old: f589a51fac9b03f186bbe9e84f42a5f9b4eafad4
-    new: c0cf847623444abdf02816200050ce5bfc619a36
-    log: revlist-f589a51fac9b-c0cf84762344.txt
+    old: c0cf847623444abdf02816200050ce5bfc619a36
+    new: e2f53977ecbc55e5cd5efad4f0f2209ea5d3510d
+    log: revlist-c0cf84762344-e2f53977ecbc.txt
 
---===============0951178254079774132==
+--===============3159977070278926993==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f589a51fac9b-c0cf84762344.txt
+Content-Disposition: attachment; filename=revlist-c0cf84762344-e2f53977ecbc.txt
 
-0551b408074dac1a6a754a43143b60db0539e5f9 arm64: mm: Move fixmap region above vmemmap region
-ba1d568592ee2909cc43f6ed0532e171a0431404 arm64: entry: Simplify tramp_alias macro
-4f8ad70b08857dc4064690f5ea952bf684767a37 arm64: ptdump: Allow VMALLOC_END to be defined at boot
-7665cc8b589b633a9621267f1b33b6fa279ef699 arm64: ptdump: Discover start of vmemmap region at runtime
-c7fc3e14622baf2cb8d46905ddffbd02358e4e1d arm64: vmemmap: Avoid base2 order of struct page size to size region
-c88f517953108732bd179c94a64d6e01c0842679 arm64: mm: Reclaim unused vmemmap region for vmalloc use
-5ea44f4c5cdc0554290f79c7ba6e8571fb738840 arm64: kaslr: Adjust randomization range dynamically
-0b181922e4a3a5693ed4414c53fa00f53a584416 arm64: kaslr: drop special case for ThunderX in kaslr_requires_kpti()
-590409483afc24bef033e75edc81933051239783 arm64: Turn kaslr_feature_override into a generic SW feature override
-89c2adcf867188b69c0c5bae4a6763e8e3424b5c arm64: kvm: honour 'nokaslr' command line option for the HYP VA space
-d3ac122acdffc82aa0fef2b6b5add9a164251eae arm64: kernel: Manage absolute relocations in code built under pi/
-d1254ac1feeccc3c5cd3b1905ac852019e805e75 arm64: kernel: Don't rely on objcopy to make code under pi/ __init
-930cc1ec0e751f4793a6093737c1aa4a687e2615 arm64: head: move relocation handling to C code
-1c8f11c6777015428c6a6b77cb10290290edc591 arm64: idreg-override: Omit non-NULL checks for override pointer
-99a847cdf0a0401c7f19cc0551a2dddd33f1872b arm64: idreg-override: Prepare for place relative reloc patching
-7d930072c1ccd86d74c006bfac8a5b9f1d73f8fa arm64: idreg-override: Avoid parameq() and parameqn()
-d5193bcf4c93ead43b9b6d24524041fb6e2536bf arm64: idreg-override: avoid strlen() to check for empty strings
-5114ccf6210de2234e1af35e55ca993ac8437cda arm64: idreg-override: Avoid sprintf() for simple string concatenation
-e09912c7a82dc055959999220b8170877bebea35 arm64: idreg-override: Avoid kstrtou64() to parse a single hex digit
-200a03a33ff713d97de9fd93197a14c0798eaff3 arm64: idreg-override: Move to early mini C runtime
-eb88e4091aed70126eca9cffa95433c2013f7f1f arm64: kernel: Remove early fdt remap code
-58dda6d4a8a96f691c8747b142b3cc51ea9695c7 arm64: head: Clear BSS and the kernel page tables in one go
-4c85537133e0fb5882fe063c0103366fd78017dd arm64: Move feature overrides into the BSS section
-b75dc80d28f2239a0c60e5ee9e5bfe8df11ec512 arm64: head: Run feature override detection before mapping the kernel
-1cd282686152855555e026f106d6da78eaafec83 arm64: head: move dynamic shadow call stack patching into early C runtime
-dbb27a16773c16fbd847d46c90d0ac5f5f5c8d90 arm64: kaslr: Use feature override instead of parsing the cmdline again
-fa8373c991ef6dd92c34a4eb4342f7e60ddc9985 arm64: idreg-override: Create a pseudo feature for rodata=off
-30e6206ed0714d70c6785bf3080fa64775f9ee51 arm64: Add helpers to probe local CPU for PAC/BTI/E0PD support
-ee6707bec763c6acfe1d4f765e29101dc962c61f arm64: head: allocate more pages for the kernel mapping
-b6f07f70c280ccb3444fe20561a8a915e09474e7 arm64: head: move memstart_offset_seed handling to C code
-52767dd94232a129c845abb26d5e72ab86f33eb8 arm64: head: Move early kernel mapping routines into C code
-f0e72a127bf136f4a78d1044b03b76c51fee1457 arm64: mm: Use 48-bit virtual addressing for the permanent ID map
-694e0513dc3f9438afbd75783cb43601391da720 arm64: pgtable: Decouple PGDIR size macros from PGD/PUD/PMD levels
-e0611f27a3c655fffaa0939d0a49293ba09792aa arm64: kernel: Create initial ID map from C code
-609d991d1978fcafaaa5502260253bacd331115b arm64: mm: avoid fixmap for early swapper_pg_dir updates
-63b681f5a581de7bf5dbd2b1d09fbb078acab90e arm64: mm: omit redundant remap of kernel image
-2ea0ae88932ee883cc927ae294e4caa0b5e1f96a arm64: Revert "mm: provide idmap pointer to cpu_replace_ttbr1()"
-2a440050f6399ab2b6a440de0c40c2ddf579f35a arm64/mm: Add FEAT_LPA2 specific TCR_EL1.DS field
-218494bc4804b33717426db8b51c80d5c7f5f018 arm64/mm: Add FEAT_LPA2 specific ID_AA64MMFR0.TGRAN[2]
-3282ea2ceba08cdc5d8a014b8318e35eaf7ac291 arm64: mm: Handle LVA support as a CPU feature
-c42e4c0b27f628470b3270a561aa7bdb48f726bd arm64: mm: Add feature override support for LVA
-d6a8d03da388949eca76b6c982c44e66e7256d98 arm64: mm: Wire up TCR.DS bit to PTE shareability fields
-2b2ed448baa2261fd5de80b100f27878bcebf8a2 arm64: mm: Add LPA2 support to phys<->pte conversion routines
-d3a4a8e51369212bc1fbe7d45a9145ba5bc51bcf arm64: mm: Add definitions to support 5 levels of paging
-70abda215a45c6090442f52b793ffc4365d137ee arm64: mm: add LPA2 and 5 level paging support to G-to-nG conversion
-4e01edff74678c58b068505e24b2805b55b05443 arm64: Enable LPA2 at boot if supported by the system
-7735cf261f4922c4772bb34309e556a93f929ae6 arm64: mm: Add 5 level paging support to fixmap and swapper handling
-a7aa56b70f174df00f04ba9fd0da74a409bf91c9 arm64: kasan: Reduce minimum shadow alignment and enable 5 level paging
-3a7ebc05d28ed8f9251531d819568bb5f033ae2b arm64: mm: Add support for folding PUDs at runtime
-efee052190049575f9fb1ecb5154f5fcf8ea58b3 arm64: ptdump: Disregard unaddressable VA space
-e4a16080a925b92af2688590ba743082372c39d4 arm64: ptdump: Deal with translation levels folded at runtime
-5f9421dc7a5c2774d160a79dcb88d1dc8c313045 arm64: kvm: avoid CONFIG_PGTABLE_LEVELS for runtime levels
-22b86caf0e3f9151341f78d2503502cfa3e581eb arm64: kvm: Limit HYP VA and host S2 range to 48 bits when LPA2 is in effect
-1a10c5821667ad083198b3ce3da395e1c16afe5a arm64: Enable 52-bit virtual addressing for 4k and 16k granule configs
-c345694a3199a0edace57d950979f3870ed4817e arm64: defconfig: Enable LPA2 support
-5ef38c38607bd9d648be78db141e7ee42580b810 mm: add arch hook to validate mmap() prot flags
-c0cf847623444abdf02816200050ce5bfc619a36 arm64: mm: add support for WXN memory translation attribute
+a775e70e036e4956064171f41e885369d41d5693 arm64: Turn kaslr_feature_override into a generic SW feature override
+d0b5147dfa8f82d6a6dbfbb032e94eb180aae071 arm64: kvm: honour 'nokaslr' command line option for the HYP VA space
+3208b674d3eebe8140f3696376612130d02aeff6 arm64: kernel: Manage absolute relocations in code built under pi/
+5a90defeb35f567f3d764958f67c0e97871a266f arm64: kernel: Don't rely on objcopy to make code under pi/ __init
+b7e7c82b57f7885fe63f4c86c952dfabea0c5548 arm64: head: move relocation handling to C code
+370d39d52933322e798becb29bfb9a57e8eef3b1 arm64: idreg-override: Omit non-NULL checks for override pointer
+896762765fc986cf26be655850f057d42a307d24 arm64: idreg-override: Prepare for place relative reloc patching
+612222e9508aa5e692dd5e5d7e2edb72a351db4e arm64: idreg-override: Avoid parameq() and parameqn()
+b5fc2ae386c4086468c92c87e636a02b1cf20e25 arm64: idreg-override: avoid strlen() to check for empty strings
+1e5c9f2a0200ec82a7b54e73d8785999833d60af arm64: idreg-override: Avoid sprintf() for simple string concatenation
+464226887872fe137cd8e2b7843f89172284b635 arm64: idreg-override: Avoid kstrtou64() to parse a single hex digit
+96583829c02a9bee122a27b7c952f940ac03b47e arm64: idreg-override: Move to early mini C runtime
+cfdbfd502eff72a5a9efd2442026eb6de21422e6 arm64: kernel: Remove early fdt remap code
+2a017c72904964454de108a9f3c626441bcda364 arm64: head: Clear BSS and the kernel page tables in one go
+213ee25d380066210d30a1bcc12ceae3fd8789c3 arm64: Move feature overrides into the BSS section
+265d0a397f871f15998ed1e78c99684d7326380f arm64: head: Run feature override detection before mapping the kernel
+6b1616a04c4193df65b758c726500283f721dbb4 arm64: head: move dynamic shadow call stack patching into early C runtime
+ba6a6e9461a81b3b8e00cec3d7c6c5c382537e6e arm64: kaslr: Use feature override instead of parsing the cmdline again
+39a5499281449e04f1b37e1bf4d3583c0ea175de arm64: idreg-override: Create a pseudo feature for rodata=off
+3e1ee418f375d1765ad22614249439f26e0e82f9 arm64: Add helpers to probe local CPU for PAC/BTI/E0PD support
+8127bfa1f065dfcdc592d38dbdb2ba328afc8ecf arm64: head: allocate more pages for the kernel mapping
+b1ef13e3cc99e8daec9085b2849182f1891e5af6 arm64: head: move memstart_offset_seed handling to C code
+a31e47c2645f8cb42cc05eb8b6ef227901690d17 arm64: head: Move early kernel mapping routines into C code
+8b17b1097f82ba7c0cee3fa5186743c0085bcb03 arm64: mm: Use 48-bit virtual addressing for the permanent ID map
+943548a43dd19ef0478ec3fe684999f8632c0e50 arm64: pgtable: Decouple PGDIR size macros from PGD/PUD/PMD levels
+afcb15d61af42440d6a316f376b86f847e4b30df arm64: kernel: Create initial ID map from C code
+c0edc57a3e3679c03c52869930c2a81ce242a294 arm64: mm: avoid fixmap for early swapper_pg_dir updates
+65aac2e7a62eb864a108fba9dbdeec2ff27bccfa arm64: mm: omit redundant remap of kernel image
+d835922548e0f5d86fb5f33c1ed3fc8788d98471 arm64: Revert "mm: provide idmap pointer to cpu_replace_ttbr1()"
+78761a0eb4c0a8f99a1327068de41e59d7726df8 arm64/mm: Add FEAT_LPA2 specific TCR_EL1.DS field
+88180032be9cc83fc31cb95b42e3118c960ed3f8 arm64/mm: Add FEAT_LPA2 specific ID_AA64MMFR0.TGRAN[2]
+6b87fa7bb94de41c6e3a050525eb7e69bdb0b9ca arm64: mm: Handle LVA support as a CPU feature
+53a91ba5419535f9b5f952d67abd486c641d03fc arm64: mm: Add feature override support for LVA
+465a7787b3cefe5f82c1789f007d19661f8dd2e3 arm64: mm: Wire up TCR.DS bit to PTE shareability fields
+a123fb61171004f8740dbd384fd5c4a5d8a2f6fe arm64: mm: Add LPA2 support to phys<->pte conversion routines
+d069aae36d14e1241dca39a5aff0a691481e03d5 arm64: mm: Add definitions to support 5 levels of paging
+efa613b4d851a1d056d6158f19b777d43fa8ca39 arm64: mm: add LPA2 and 5 level paging support to G-to-nG conversion
+9e57462df6695952f2d97301210d4363eb078cf3 arm64: Enable LPA2 at boot if supported by the system
+9503134fe1afb15864c0c5b77ea91d8ecc6a7c7a arm64: mm: Add 5 level paging support to fixmap and swapper handling
+52f449a47c234b53e426c9c1aa7d1271ce6a7764 arm64: kasan: Reduce minimum shadow alignment and enable 5 level paging
+e65d61e0a318ea5928d771a4457c3953ee2ee1dc arm64: mm: Add support for folding PUDs at runtime
+eec5e442869ed570be3f7ac25087602b19e63514 arm64: ptdump: Disregard unaddressable VA space
+1a1e2f482b7dbbb24e2e99c378055f8a6589040c arm64: ptdump: Deal with translation levels folded at runtime
+6ddcb4203bc11d674eed023e65b7932c399d98ae arm64: kvm: avoid CONFIG_PGTABLE_LEVELS for runtime levels
+99c29a55b0076071be774d9bd5c34cd404f1ae7f arm64: kvm: Limit HYP VA and host S2 range to 48 bits when LPA2 is in effect
+844953ba91aada87fc43361bb83d6d971cb52627 arm64: Enable 52-bit virtual addressing for 4k and 16k granule configs
+271cc2118592c9a81adc27318658ca75f8af86ee arm64: defconfig: Enable LPA2 support
+9cbd7e644f1aac6af3dc061d850f0bf05d5cd059 mm: add arch hook to validate mmap() prot flags
+e2f53977ecbc55e5cd5efad4f0f2209ea5d3510d arm64: mm: add support for WXN memory translation attribute
 
---===============0951178254079774132==--
+--===============3159977070278926993==--
