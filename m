@@ -1,34 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============4838392765454272755=="
+Content-Type: multipart/mixed; boundary="===============6499739405573618759=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dlemoal/libata
-Date: Sun, 05 Mar 2023 23:42:19 -0000
-Message-Id: <167805973953.6489.12206339304173851691@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Sun, 05 Mar 2023 23:42:26 -0000
+Message-Id: <167805974608.6586.12018271475924125527@gitolite.kernel.org>
 
---===============4838392765454272755==
+--===============6499739405573618759==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dlemoal/libata
-user: dlemoal
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/master
-    old: c9c3395d5e3dcc6daee66c6908354d47bf98cb0c
-    new: fe15c26ee26efa11741a7b632e9f23b01aca4cc6
-    log: revlist-c9c3395d5e3d-fe15c26ee26e.txt
+  - ref: refs/heads/alsa-log-ctl-name
+    old: 198eb7a567da13d976d47694f78ae2c7d4f3e710
+    new: 3df739f0efbfb2dbf09d8bf0f12e8fecd5e49951
+    log: revlist-198eb7a567da-3df739f0efbf.txt
 
---===============4838392765454272755==
+--===============6499739405573618759==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c9c3395d5e3d-fe15c26ee26e.txt
+Content-Disposition: attachment; filename=revlist-198eb7a567da-3df739f0efbf.txt
 
-ae6ad5d0b7901b301234143e93624417ac9fd9ef SUNRPC: Rename .encrypt_v2 and .decrypt_v2 methods
-2691a27d9b3e6a48adeb87a9dcf4e8a0ca84a26e SUNRPC: Hoist KDF into struct gss_krb5_enctype
-ec4aaab39afcec749ff7ed78e560213ff9e1c23c SUNRPC: Clean up cipher set up for v1 encryption types
 8b3a09f3454240cb2c2ab3da02b86f354aab0bd6 SUNRPC: Parametrize the key length passed to context_v2_alloc_cipher()
 af664fc9023e69d1a90800c0f815c296bf727e18 SUNRPC: Add new subkey length fields
 dfb632432a9b2548b5a4429598bb19edf58122f0 SUNRPC: Refactor CBC with CTS into helpers
@@ -1050,5 +1047,8 @@ b01fe98d34f3bed944a93bd8119fed80c856fad8 Merge tag 'i2c-for-6.3-rc1-part2' of gi
 f915322fe014c5c515119381e886faf07b3c9d31 Merge tag 'v6.3-p2' of git://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6
 596ff4a09b8981790e15572e8e7bc904df5835e7 cpumask: re-introduce constant-sized cpumask optimizations
 fe15c26ee26efa11741a7b632e9f23b01aca4cc6 Linux 6.3-rc1
+e64b1f1313a465d20287929c041b5d6ebf3b5eb3 kselftest/alsa: Log card and control information during startup
+6da7c1658fd28c4bb4abe8935c93c37cb37c0b46 kselftest/alsa - mixer: Always log control names
+3df739f0efbfb2dbf09d8bf0f12e8fecd5e49951 kselftest/alsa: Log card names during startup
 
---===============4838392765454272755==--
+--===============6499739405573618759==--
