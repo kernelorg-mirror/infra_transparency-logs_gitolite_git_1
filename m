@@ -1,79 +1,67 @@
-Content-Type: multipart/mixed; boundary="===============3159977070278926993=="
+Content-Type: multipart/mixed; boundary="===============1976151925827339185=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
-Date: Sun, 05 Mar 2023 17:48:22 -0000
-Message-Id: <167803850225.2228.7872641313338944046@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/linux-stable
+Date: Sun, 05 Mar 2023 17:54:59 -0000
+Message-Id: <167803889926.5816.14571313336173779553@gitolite.kernel.org>
 
---===============3159977070278926993==
+--===============1976151925827339185==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ardb/linux
-user: ardb
+repo: pub/scm/linux/kernel/git/sashal/linux-stable
+user: sashal
 changes:
-  - ref: refs/heads/arm64-lpa2-v3c
-    old: c0cf847623444abdf02816200050ce5bfc619a36
-    new: e2f53977ecbc55e5cd5efad4f0f2209ea5d3510d
-    log: revlist-c0cf84762344-e2f53977ecbc.txt
+  - ref: refs/heads/for-greg/6.1-107
+    old: f0c757bec871e1d01e55c190690d4050f3b56e5d
+    new: 9a634489d875594d7687a4d48543fad42de46ef4
+    log: revlist-f0c757bec871-9a634489d875.txt
+  - ref: refs/heads/for-greg/6.2-107
+    old: 9414308821029d04aa263bae8ba0430054006068
+    new: 760cac83ab5c9116b2d4f0d4d7d77ec5d0c31f05
+    log: revlist-941430882102-760cac83ab5c.txt
 
---===============3159977070278926993==
+--===============1976151925827339185==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c0cf84762344-e2f53977ecbc.txt
+Content-Disposition: attachment; filename=revlist-f0c757bec871-9a634489d875.txt
 
-a775e70e036e4956064171f41e885369d41d5693 arm64: Turn kaslr_feature_override into a generic SW feature override
-d0b5147dfa8f82d6a6dbfbb032e94eb180aae071 arm64: kvm: honour 'nokaslr' command line option for the HYP VA space
-3208b674d3eebe8140f3696376612130d02aeff6 arm64: kernel: Manage absolute relocations in code built under pi/
-5a90defeb35f567f3d764958f67c0e97871a266f arm64: kernel: Don't rely on objcopy to make code under pi/ __init
-b7e7c82b57f7885fe63f4c86c952dfabea0c5548 arm64: head: move relocation handling to C code
-370d39d52933322e798becb29bfb9a57e8eef3b1 arm64: idreg-override: Omit non-NULL checks for override pointer
-896762765fc986cf26be655850f057d42a307d24 arm64: idreg-override: Prepare for place relative reloc patching
-612222e9508aa5e692dd5e5d7e2edb72a351db4e arm64: idreg-override: Avoid parameq() and parameqn()
-b5fc2ae386c4086468c92c87e636a02b1cf20e25 arm64: idreg-override: avoid strlen() to check for empty strings
-1e5c9f2a0200ec82a7b54e73d8785999833d60af arm64: idreg-override: Avoid sprintf() for simple string concatenation
-464226887872fe137cd8e2b7843f89172284b635 arm64: idreg-override: Avoid kstrtou64() to parse a single hex digit
-96583829c02a9bee122a27b7c952f940ac03b47e arm64: idreg-override: Move to early mini C runtime
-cfdbfd502eff72a5a9efd2442026eb6de21422e6 arm64: kernel: Remove early fdt remap code
-2a017c72904964454de108a9f3c626441bcda364 arm64: head: Clear BSS and the kernel page tables in one go
-213ee25d380066210d30a1bcc12ceae3fd8789c3 arm64: Move feature overrides into the BSS section
-265d0a397f871f15998ed1e78c99684d7326380f arm64: head: Run feature override detection before mapping the kernel
-6b1616a04c4193df65b758c726500283f721dbb4 arm64: head: move dynamic shadow call stack patching into early C runtime
-ba6a6e9461a81b3b8e00cec3d7c6c5c382537e6e arm64: kaslr: Use feature override instead of parsing the cmdline again
-39a5499281449e04f1b37e1bf4d3583c0ea175de arm64: idreg-override: Create a pseudo feature for rodata=off
-3e1ee418f375d1765ad22614249439f26e0e82f9 arm64: Add helpers to probe local CPU for PAC/BTI/E0PD support
-8127bfa1f065dfcdc592d38dbdb2ba328afc8ecf arm64: head: allocate more pages for the kernel mapping
-b1ef13e3cc99e8daec9085b2849182f1891e5af6 arm64: head: move memstart_offset_seed handling to C code
-a31e47c2645f8cb42cc05eb8b6ef227901690d17 arm64: head: Move early kernel mapping routines into C code
-8b17b1097f82ba7c0cee3fa5186743c0085bcb03 arm64: mm: Use 48-bit virtual addressing for the permanent ID map
-943548a43dd19ef0478ec3fe684999f8632c0e50 arm64: pgtable: Decouple PGDIR size macros from PGD/PUD/PMD levels
-afcb15d61af42440d6a316f376b86f847e4b30df arm64: kernel: Create initial ID map from C code
-c0edc57a3e3679c03c52869930c2a81ce242a294 arm64: mm: avoid fixmap for early swapper_pg_dir updates
-65aac2e7a62eb864a108fba9dbdeec2ff27bccfa arm64: mm: omit redundant remap of kernel image
-d835922548e0f5d86fb5f33c1ed3fc8788d98471 arm64: Revert "mm: provide idmap pointer to cpu_replace_ttbr1()"
-78761a0eb4c0a8f99a1327068de41e59d7726df8 arm64/mm: Add FEAT_LPA2 specific TCR_EL1.DS field
-88180032be9cc83fc31cb95b42e3118c960ed3f8 arm64/mm: Add FEAT_LPA2 specific ID_AA64MMFR0.TGRAN[2]
-6b87fa7bb94de41c6e3a050525eb7e69bdb0b9ca arm64: mm: Handle LVA support as a CPU feature
-53a91ba5419535f9b5f952d67abd486c641d03fc arm64: mm: Add feature override support for LVA
-465a7787b3cefe5f82c1789f007d19661f8dd2e3 arm64: mm: Wire up TCR.DS bit to PTE shareability fields
-a123fb61171004f8740dbd384fd5c4a5d8a2f6fe arm64: mm: Add LPA2 support to phys<->pte conversion routines
-d069aae36d14e1241dca39a5aff0a691481e03d5 arm64: mm: Add definitions to support 5 levels of paging
-efa613b4d851a1d056d6158f19b777d43fa8ca39 arm64: mm: add LPA2 and 5 level paging support to G-to-nG conversion
-9e57462df6695952f2d97301210d4363eb078cf3 arm64: Enable LPA2 at boot if supported by the system
-9503134fe1afb15864c0c5b77ea91d8ecc6a7c7a arm64: mm: Add 5 level paging support to fixmap and swapper handling
-52f449a47c234b53e426c9c1aa7d1271ce6a7764 arm64: kasan: Reduce minimum shadow alignment and enable 5 level paging
-e65d61e0a318ea5928d771a4457c3953ee2ee1dc arm64: mm: Add support for folding PUDs at runtime
-eec5e442869ed570be3f7ac25087602b19e63514 arm64: ptdump: Disregard unaddressable VA space
-1a1e2f482b7dbbb24e2e99c378055f8a6589040c arm64: ptdump: Deal with translation levels folded at runtime
-6ddcb4203bc11d674eed023e65b7932c399d98ae arm64: kvm: avoid CONFIG_PGTABLE_LEVELS for runtime levels
-99c29a55b0076071be774d9bd5c34cd404f1ae7f arm64: kvm: Limit HYP VA and host S2 range to 48 bits when LPA2 is in effect
-844953ba91aada87fc43361bb83d6d971cb52627 arm64: Enable 52-bit virtual addressing for 4k and 16k granule configs
-271cc2118592c9a81adc27318658ca75f8af86ee arm64: defconfig: Enable LPA2 support
-9cbd7e644f1aac6af3dc061d850f0bf05d5cd059 mm: add arch hook to validate mmap() prot flags
-e2f53977ecbc55e5cd5efad4f0f2209ea5d3510d arm64: mm: add support for WXN memory translation attribute
+6df13d680c62b0044b61c6a3cef368b2796af351 soc: mediatek: mtk-svs: keep svs alive if CONFIG_DEBUG_FS not supported
+f6478174d2b389828ba11a1e5d6cf1f72aaac79c jffs2: correct logic when creating a hole in jffs2_write_begin
+ed85d36fbd74c634bd7ccbb9ecef9eff4c06b890 rust: arch/um: Disable FP/SIMD instruction to match x86
+9981db9b5153248b41764ffc2678cb0a516f1287 x86/entry: Fix unwinding from kprobe on PUSH/POP instruction
+96ccfc47aa1c0d1dc06963bea471be2f434bc72c ext4: fail ext4_iget if special inode unallocated
+eeb4c6fdee5b3ffffbb07379487b7fd35b862cd2 ext4: update s_journal_inum if it changes after journal replay
+aa55b1902abf98837f2729576f20a2cb39405d48 ext4: fix task hung in ext4_xattr_delete_inode
+595ca960442f14a76bd56267725481c74aa7e93e drm/amdkfd: Fix an illegal memory access
+eb483dc131609b1c79d614561e7932c765d3f828 net/9p: fix bug in client create for .L
+4419dede11017be665a67888647dca5aeab1edf0 LoongArch: Only call get_timer_irq() once in constant_clockevent_init()
+73160183eda7ff483ae783d9f306d5a7b5f13e5f sh: intc: Avoid spurious sizeof-pointer-div warning
+b2226e2fc08a5410d5f9c347afa14d0f10fae9b3 drm/amdgpu: fix ttm_bo calltrace warning in psp_hw_fini
+9a634489d875594d7687a4d48543fad42de46ef4 drm/amd/display: fix shift-out-of-bounds in CalculateVMAndRowBytes
 
---===============3159977070278926993==--
+--===============1976151925827339185==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-941430882102-760cac83ab5c.txt
+
+5c4db4b868fc48c007d6cd6a692896497546eee8 soc: mediatek: mtk-svs: keep svs alive if CONFIG_DEBUG_FS not supported
+28f5cc79b3412887a34a0b4cc4bec639a0306ec6 jffs2: correct logic when creating a hole in jffs2_write_begin
+44701b13a09f011902b8302867ed305d1d634d05 rust: arch/um: Disable FP/SIMD instruction to match x86
+817aad177efc0427d3c133a528901bdbcc57fda2 x86/entry: Fix unwinding from kprobe on PUSH/POP instruction
+97d3055f83124c9ff5b240fb5c574c499080b234 ext4: fail ext4_iget if special inode unallocated
+6640fcdfb362a76a249cd4ef906c1d0c2c1cd672 ext4: update s_journal_inum if it changes after journal replay
+254046cb458bbbdf566f5f2670294f878965826d ext4: fix task hung in ext4_xattr_delete_inode
+acec4e5105d580fc1d96b631da2ad66d0b409a0e drm/amdkfd: Fix an illegal memory access
+550099f8a907a35c3a35f4d08ff6442fa1d9afcc net/9p: fix bug in client create for .L
+26180b739cb0ae0adadeb944b7aea1c0837724a7 LoongArch: Only call get_timer_irq() once in constant_clockevent_init()
+2d0ce360979dbd05db016f363d12a32a81557b51 sh: intc: Avoid spurious sizeof-pointer-div warning
+e86652c55e919695326602ec9b66508cb3807aa1 drm/amdgpu: fix ttm_bo calltrace warning in psp_hw_fini
+760cac83ab5c9116b2d4f0d4d7d77ec5d0c31f05 drm/amd/display: fix shift-out-of-bounds in CalculateVMAndRowBytes
+
+--===============1976151925827339185==--
