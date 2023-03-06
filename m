@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1548673804284840783=="
+Content-Type: multipart/mixed; boundary="===============3471611135225509067=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andy/linux-gpio-intel
-Date: Mon, 06 Mar 2023 10:29:36 -0000
-Message-Id: <167809857691.10055.13630832309135141884@gitolite.kernel.org>
+Date: Mon, 06 Mar 2023 10:29:42 -0000
+Message-Id: <167809858252.10149.4155644699713998130@gitolite.kernel.org>
 
---===============1548673804284840783==
+--===============3471611135225509067==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andy/linux-gpio-intel
 user: andy
 changes:
-  - ref: refs/heads/fixes
-    old: a69982c37cd0586e6832268155349301b87f2e35
+  - ref: refs/heads/for-next
+    old: 1b929c02afd37871d5afb9d498426f83432e71c2
     new: fe15c26ee26efa11741a7b632e9f23b01aca4cc6
-    log: revlist-a69982c37cd0-fe15c26ee26e.txt
+    log: revlist-1b929c02afd3-fe15c26ee26e.txt
 
---===============1548673804284840783==
+--===============3471611135225509067==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a69982c37cd0-fe15c26ee26e.txt
+Content-Disposition: attachment; filename=revlist-1b929c02afd3-fe15c26ee26e.txt
 
 ae6ad5d0b7901b301234143e93624417ac9fd9ef SUNRPC: Rename .encrypt_v2 and .decrypt_v2 methods
 2691a27d9b3e6a48adeb87a9dcf4e8a0ca84a26e SUNRPC: Hoist KDF into struct gss_krb5_enctype
@@ -1051,4 +1051,4 @@ f915322fe014c5c515119381e886faf07b3c9d31 Merge tag 'v6.3-p2' of git://git.kernel
 596ff4a09b8981790e15572e8e7bc904df5835e7 cpumask: re-introduce constant-sized cpumask optimizations
 fe15c26ee26efa11741a7b632e9f23b01aca4cc6 Linux 6.3-rc1
 
---===============1548673804284840783==--
+--===============3471611135225509067==--
