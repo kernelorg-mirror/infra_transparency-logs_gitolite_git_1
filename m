@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5916339982487674975=="
+Content-Type: multipart/mixed; boundary="===============6831118807462164736=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/lsm
-Date: Mon, 06 Mar 2023 16:55:54 -0000
-Message-Id: <167812175476.21626.15758581002189958543@gitolite.kernel.org>
+Date: Mon, 06 Mar 2023 16:56:59 -0000
+Message-Id: <167812181970.22027.11404269358027922203@gitolite.kernel.org>
 
---===============5916339982487674975==
+--===============6831118807462164736==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/pcmoore/lsm
 user: pcmoore
 changes:
-  - ref: refs/heads/stable-6.3
+  - ref: refs/heads/next
     old: 88603b6dc419445847923fcb7fe5080067a30f98
     new: fe15c26ee26efa11741a7b632e9f23b01aca4cc6
     log: revlist-88603b6dc419-fe15c26ee26e.txt
 
---===============5916339982487674975==
+--===============6831118807462164736==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ f915322fe014c5c515119381e886faf07b3c9d31 Merge tag 'v6.3-p2' of git://git.kernel
 596ff4a09b8981790e15572e8e7bc904df5835e7 cpumask: re-introduce constant-sized cpumask optimizations
 fe15c26ee26efa11741a7b632e9f23b01aca4cc6 Linux 6.3-rc1
 
---===============5916339982487674975==--
+--===============6831118807462164736==--
