@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============3858204915910522376=="
+Content-Type: multipart/mixed; boundary="===============0502393803678198554=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/westeri/thunderbolt
-Date: Mon, 06 Mar 2023 09:16:27 -0000
-Message-Id: <167809418781.11676.9531575974195039807@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
+Date: Mon, 06 Mar 2023 09:17:33 -0000
+Message-Id: <167809425345.12065.1622156544405141310@gitolite.kernel.org>
 
---===============3858204915910522376==
+--===============0502393803678198554==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/westeri/thunderbolt
-user: westeri
+repo: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
+user: krzk
 changes:
-  - ref: refs/heads/next
-    old: 06cbcbfaa6510eed406e3b6d5d071386b9830689
+  - ref: refs/heads/fixes
+    old: cb8fd6f75775165390ededea8799b60d93d9fe3e
     new: fe15c26ee26efa11741a7b632e9f23b01aca4cc6
-    log: revlist-06cbcbfaa651-fe15c26ee26e.txt
+    log: revlist-cb8fd6f75775-fe15c26ee26e.txt
 
---===============3858204915910522376==
+--===============0502393803678198554==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-06cbcbfaa651-fe15c26ee26e.txt
+Content-Disposition: attachment; filename=revlist-cb8fd6f75775-fe15c26ee26e.txt
 
 ae6ad5d0b7901b301234143e93624417ac9fd9ef SUNRPC: Rename .encrypt_v2 and .decrypt_v2 methods
 2691a27d9b3e6a48adeb87a9dcf4e8a0ca84a26e SUNRPC: Hoist KDF into struct gss_krb5_enctype
@@ -1051,4 +1051,4 @@ f915322fe014c5c515119381e886faf07b3c9d31 Merge tag 'v6.3-p2' of git://git.kernel
 596ff4a09b8981790e15572e8e7bc904df5835e7 cpumask: re-introduce constant-sized cpumask optimizations
 fe15c26ee26efa11741a7b632e9f23b01aca4cc6 Linux 6.3-rc1
 
---===============3858204915910522376==--
+--===============0502393803678198554==--
