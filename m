@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2173199206007031620=="
+Content-Type: multipart/mixed; boundary="===============4443985557555921733=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/vfs/idmapping
-Date: Mon, 06 Mar 2023 09:28:42 -0000
-Message-Id: <167809492288.19786.14991547623342605576@gitolite.kernel.org>
+Date: Mon, 06 Mar 2023 09:28:44 -0000
+Message-Id: <167809492499.19848.8468262342083351806@gitolite.kernel.org>
 
---===============2173199206007031620==
+--===============4443985557555921733==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/vfs/idmapping
 user: brauner
 changes:
-  - ref: refs/heads/for-next
-    old: 9db35c4c2bc4492485f9fd72807de63350175021
+  - ref: refs/heads/fs.acl
+    old: 4e1da8fe031303599e78f88e0dad9f44272e4f99
     new: e499214ce3ef50c50522719e753a1ffc928c2ec1
-    log: revlist-9db35c4c2bc4-e499214ce3ef.txt
+    log: revlist-4e1da8fe0313-e499214ce3ef.txt
 
---===============2173199206007031620==
+--===============4443985557555921733==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9db35c4c2bc4-e499214ce3ef.txt
+Content-Disposition: attachment; filename=revlist-4e1da8fe0313-e499214ce3ef.txt
 
 3394682fba3b9010c6147e94f37633f044876e5e SUNRPC: Support the Camellia enctypes
 45b4ef46b5e88ced7edd4fba26b5fa0e3103de0b SUNRPC: Add KDF_FEEDBACK_CMAC
@@ -1051,4 +1051,4 @@ d9f892b9bdc22b12bc960837a09f014d5a324975 reiserfs: rework priv inode handling
 a1fbb607340d49f208e90cc0d7bdfff2141cce8d ovl: check for ->listxattr() support
 e499214ce3ef50c50522719e753a1ffc928c2ec1 acl: don't depend on IOP_XATTR
 
---===============2173199206007031620==--
+--===============4443985557555921733==--
