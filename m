@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============1958369489413941578=="
+Content-Type: multipart/mixed; boundary="===============5472463717739039665=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Mon, 06 Mar 2023 13:31:11 -0000
-Message-Id: <167810947139.9598.13745068631805673791@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 06 Mar 2023 13:31:17 -0000
+Message-Id: <167810947733.9696.2645262332562358110@gitolite.kernel.org>
 
---===============1958369489413941578==
+--===============5472463717739039665==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.4
+  - ref: refs/heads/spi-6.4
     old: e8e83f61b40ce6ad7da7648ea496112c8740d7a4
     new: b36cecf247157c36aa8f41b5783122820b2c5456
     log: |
@@ -31,28 +31,28 @@ changes:
          b36cecf247157c36aa8f41b5783122820b2c5456 Add Quad SPI driver for StarFive JH7110 SoC
          
 
---===============1958369489413941578==
+--===============5472463717739039665==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1678109469 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1678109469-8583adc2f20dd961a185b0365ff7cdb72b45cda4
+pusher C3F436CA30F5D8EB 1678109475 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1678109475-fd049ec5df40e0725d8585647a1e6365e3b9e8ac
 
-e8e83f61b40ce6ad7da7648ea496112c8740d7a4 b36cecf247157c36aa8f41b5783122820b2c5456 refs/heads/for-6.4
+e8e83f61b40ce6ad7da7648ea496112c8740d7a4 b36cecf247157c36aa8f41b5783122820b2c5456 refs/heads/spi-6.4
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmQF6x0ACgkQJNaLcl1U
-h9COLQf/ZUzgrmzPOaBdIn54HAdtdPVjYG60uwytfrFwYHiheQk0Skc9Mvf4upr+
-g5UuqC2hsyXwibbM4mgXxNnSOqY0w7dTLVBJj4zHk+roRbgsMK5J2dNr/f9LsGhS
-HHGokGlxYbpOKfg8E8rt+1JLqe9BcAvEA+s/osp4cXggzVjYFGk3n121REPGpl3t
-4pcUIfzov4f8k6k1VCdpc5PCjp9cvUU/kcdHz09ZniUgiXvjT4e/84NcNrUE547t
-WEpI55638cxt0QCJTbTSjV4CXaTJsovc8QhGMbtWHxAVJRrmXDLpZQm7eyuNtX6X
-+J7y+wjjy8rAPkhOYmvstXie+gvCsA==
-=vZWv
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmQF6yMACgkQJNaLcl1U
+h9D47wf/ZHim+nolWsByGwm7gjE5GtgqQfRBbMoV/EpsRQb9sJyiN4TWhDYv/Ngx
+LWx7Wy30tE5MABRGDqXjdPXjsvCceOMQ4kECxRrsLnHtQtheZh4H2ARQUmOqhcdC
+p0NO3Xj9xK41uk+9VWddYid36QShBThq9m5SHUikMBLuBYvxdxLfsUOZrUPBwNLe
+DQbNdjLnrHNCIZYXvK/UXiAc9KL/MTytNkHJZJHbWbgm8bb9z0jzn8/n6JsNR1s/
+OYDwOsaWYX5b+KbH7QyMKFPf6hb/01UT/VGLSkGsZrrf7tHYQ6CJGUYSSLvetYMf
+oNpcZ5iBVpz0fMuzkk9OfI02pjyV1w==
+=MLhw
 -----END PGP SIGNATURE-----
 
---===============1958369489413941578==--
+--===============5472463717739039665==--
