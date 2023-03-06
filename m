@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1072868596602278670=="
+Content-Type: multipart/mixed; boundary="===============3813954629901980724=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
-Date: Mon, 06 Mar 2023 04:21:01 -0000
-Message-Id: <167807646132.4906.11645682075356034469@gitolite.kernel.org>
+Date: Mon, 06 Mar 2023 04:24:07 -0000
+Message-Id: <167807664771.5942.6010386447354867270@gitolite.kernel.org>
 
---===============1072868596602278670==
+--===============3813954629901980724==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,19 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/viro/vfs
 user: viro
 changes:
-  - ref: refs/heads/work.ext2
-    old: 89ddc26f5ef97e4c0a1af98dc44dc40bc1e82412
-    new: 16a5ee2027b7f4208ea2b8ed9860e3401ac59cd5
-    log: revlist-89ddc26f5ef9-16a5ee2027b7.txt
+  - ref: refs/heads/for-next
+    old: e9f33f8668ab0982545b2b18b744fe93b7af869b
+    new: 3477cdf857dd3e7731f9976fb74a3b8039b7bae4
+    log: revlist-e9f33f8668ab-3477cdf857dd.txt
 
---===============1072868596602278670==
+--===============3813954629901980724==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-89ddc26f5ef9-16a5ee2027b7.txt
+Content-Disposition: attachment; filename=revlist-e9f33f8668ab-3477cdf857dd.txt
 
+af664fc9023e69d1a90800c0f815c296bf727e18 SUNRPC: Add new subkey length fields
+dfb632432a9b2548b5a4429598bb19edf58122f0 SUNRPC: Refactor CBC with CTS into helpers
 a40cf7530d3104793f9361e69e84ada7960724f2 SUNRPC: Add gk5e definitions for RFC 8009 encryption types
 ae2e4d2bae0007b040e8327f123911c0a6b24d68 SUNRPC: Add KDF-HMAC-SHA2
 0d5b5a0f32dfc9be3521803aba53e856759f0250 SUNRPC: Add RFC 8009 encryption and decryption functions
@@ -1044,11 +1046,9 @@ b01fe98d34f3bed944a93bd8119fed80c856fad8 Merge tag 'i2c-for-6.3-rc1-part2' of gi
 f915322fe014c5c515119381e886faf07b3c9d31 Merge tag 'v6.3-p2' of git://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6
 596ff4a09b8981790e15572e8e7bc904df5835e7 cpumask: re-introduce constant-sized cpumask optimizations
 fe15c26ee26efa11741a7b632e9f23b01aca4cc6 Linux 6.3-rc1
-522dad11d7a9eb642f8367bdb24bf11d29a499fd ext2_rename(): set_link and delete_entry may fail
-f5b3993737561edd6642344838ab1daa8d9b1bf2 ext2: use offset_in_page() instead of open-coding it as subtraction
-c7248e221fb5ece4c35501aa57774e02a35a49b3 ext2_get_page(): saner type
-470e54a09898e7a93543ef7d3da035bba1f0780e ext2_put_page(): accept any pointer within the page
-15abcc147cf7c4f3d71056475180f9667f09fe29 ext2_{set_link,delete_entry}(): don't bother with page_addr
-16a5ee2027b7f4208ea2b8ed9860e3401ac59cd5 ext2_find_entry()/ext2_dotdot(): callers don't need page_addr anymore
+eb2317b13b1884b07db23d986988620941b2f075 nios2: _TIF_ALLWORK_MASK is unused
+21f0ca593c503a6c42f0eff50f75814c7479df2a ocfs2: don't use write_one_page in ocfs2_duplicate_clusters_by_page
+0aaf08de8426f823bd0e36797445222e6392e374 __blockdev_direct_IO(): get rid of submit_io callback
+3477cdf857dd3e7731f9976fb74a3b8039b7bae4 Merge branches 'work.nios2', 'work.misc' and 'work.old-dio' into for-next
 
---===============1072868596602278670==--
+--===============3813954629901980724==--
