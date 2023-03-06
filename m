@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0868589389449786137=="
+Content-Type: multipart/mixed; boundary="===============6696638773182497459=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux
-Date: Mon, 06 Mar 2023 23:55:49 -0000
-Message-Id: <167814694928.18666.13241245208189124223@gitolite.kernel.org>
+Date: Mon, 06 Mar 2023 23:56:58 -0000
+Message-Id: <167814701850.19064.5338358509590697132@gitolite.kernel.org>
 
---===============0868589389449786137==
+--===============6696638773182497459==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/shuah/linux
 user: shuah
 changes:
-  - ref: refs/heads/vimc
+  - ref: refs/heads/linux-safety
     old: 1b929c02afd37871d5afb9d498426f83432e71c2
     new: fe15c26ee26efa11741a7b632e9f23b01aca4cc6
     log: revlist-1b929c02afd3-fe15c26ee26e.txt
 
---===============0868589389449786137==
+--===============6696638773182497459==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ f915322fe014c5c515119381e886faf07b3c9d31 Merge tag 'v6.3-p2' of git://git.kernel
 596ff4a09b8981790e15572e8e7bc904df5835e7 cpumask: re-introduce constant-sized cpumask optimizations
 fe15c26ee26efa11741a7b632e9f23b01aca4cc6 Linux 6.3-rc1
 
---===============0868589389449786137==--
+--===============6696638773182497459==--
