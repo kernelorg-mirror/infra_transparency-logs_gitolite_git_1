@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2352116301450798387=="
+Content-Type: multipart/mixed; boundary="===============6903881816922560780=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chrome-platform/linux
-Date: Mon, 06 Mar 2023 02:27:39 -0000
-Message-Id: <167806965943.25536.11169213558381087415@gitolite.kernel.org>
+Date: Mon, 06 Mar 2023 02:27:50 -0000
+Message-Id: <167806967024.25675.6452614787935496617@gitolite.kernel.org>
 
---===============2352116301450798387==
+--===============6903881816922560780==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,21 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/chrome-platform/linux
 user: tzungbi
 changes:
-  - ref: refs/heads/for-next
-    old: b0d8a67715dae445c065c83a40a581d6563a341f
-    new: fe15c26ee26efa11741a7b632e9f23b01aca4cc6
-    log: revlist-b0d8a67715da-fe15c26ee26e.txt
-  - ref: refs/tags/v6.3-rc1
-    old: 0000000000000000000000000000000000000000
-    new: d0656701c5a27a5a8a3a38bc07d18f2e157e963d
+  - ref: refs/heads/for-kernelci
+    old: 75a273974d7ac814b655eda546c62064a4b41d34
+    new: ad79d30ce40d8c5edf5e93b1d334162af3a15aac
+    log: revlist-75a273974d7a-ad79d30ce40d.txt
 
---===============2352116301450798387==
+--===============6903881816922560780==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b0d8a67715da-fe15c26ee26e.txt
+Content-Disposition: attachment; filename=revlist-75a273974d7a-ad79d30ce40d.txt
 
-ae6ad5d0b7901b301234143e93624417ac9fd9ef SUNRPC: Rename .encrypt_v2 and .decrypt_v2 methods
 2691a27d9b3e6a48adeb87a9dcf4e8a0ca84a26e SUNRPC: Hoist KDF into struct gss_krb5_enctype
 ec4aaab39afcec749ff7ed78e560213ff9e1c23c SUNRPC: Clean up cipher set up for v1 encryption types
 8b3a09f3454240cb2c2ab3da02b86f354aab0bd6 SUNRPC: Parametrize the key length passed to context_v2_alloc_cipher()
@@ -1053,5 +1049,6 @@ b01fe98d34f3bed944a93bd8119fed80c856fad8 Merge tag 'i2c-for-6.3-rc1-part2' of gi
 f915322fe014c5c515119381e886faf07b3c9d31 Merge tag 'v6.3-p2' of git://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6
 596ff4a09b8981790e15572e8e7bc904df5835e7 cpumask: re-introduce constant-sized cpumask optimizations
 fe15c26ee26efa11741a7b632e9f23b01aca4cc6 Linux 6.3-rc1
+ad79d30ce40d8c5edf5e93b1d334162af3a15aac KERNELCI: x86_64_defconfig: Enable support for Chromebooks devices
 
---===============2352116301450798387==--
+--===============6903881816922560780==--
