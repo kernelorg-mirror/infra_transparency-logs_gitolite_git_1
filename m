@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7818359255365948673=="
+Content-Type: multipart/mixed; boundary="===============3350203858985431609=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
-Date: Mon, 06 Mar 2023 23:52:21 -0000
-Message-Id: <167814674190.15461.10246453905485836157@gitolite.kernel.org>
+Date: Mon, 06 Mar 2023 23:52:51 -0000
+Message-Id: <167814677115.15676.11552675645589524845@gitolite.kernel.org>
 
---===============7818359255365948673==
+--===============3350203858985431609==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
 user: shuah
 changes:
-  - ref: refs/heads/kunit
-    old: 82649c7c0da431d147a75c6ae768ee42c1053f53
+  - ref: refs/heads/kunit-fixes
+    old: 254c71374a70051a043676b67ba4f7ad392b5fe6
     new: fe15c26ee26efa11741a7b632e9f23b01aca4cc6
-    log: revlist-82649c7c0da4-fe15c26ee26e.txt
+    log: revlist-254c71374a70-fe15c26ee26e.txt
 
---===============7818359255365948673==
+--===============3350203858985431609==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-82649c7c0da4-fe15c26ee26e.txt
+Content-Disposition: attachment; filename=revlist-254c71374a70-fe15c26ee26e.txt
 
 ae6ad5d0b7901b301234143e93624417ac9fd9ef SUNRPC: Rename .encrypt_v2 and .decrypt_v2 methods
 2691a27d9b3e6a48adeb87a9dcf4e8a0ca84a26e SUNRPC: Hoist KDF into struct gss_krb5_enctype
@@ -1051,4 +1051,4 @@ f915322fe014c5c515119381e886faf07b3c9d31 Merge tag 'v6.3-p2' of git://git.kernel
 596ff4a09b8981790e15572e8e7bc904df5835e7 cpumask: re-introduce constant-sized cpumask optimizations
 fe15c26ee26efa11741a7b632e9f23b01aca4cc6 Linux 6.3-rc1
 
---===============7818359255365948673==--
+--===============3350203858985431609==--
