@@ -1,66 +1,60 @@
-Content-Type: multipart/mixed; boundary="===============3027956158080034136=="
+Content-Type: multipart/mixed; boundary="===============4305967835450327880=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Mon, 06 Mar 2023 12:50:06 -0000
-Message-Id: <167810700640.13059.2942337274516740323@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 06 Mar 2023 12:50:14 -0000
+Message-Id: <167810701418.13171.11044483099474704924@gitolite.kernel.org>
 
---===============3027956158080034136==
+--===============4305967835450327880==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.3
-    old: 80d2c29e09e663761c2778167a625b25ffe01b6f
+  - ref: refs/heads/regulator-6.3
+    old: 7f62cb8861190e7cc1018ff37597fc49b2eaafa8
     new: fe15c26ee26efa11741a7b632e9f23b01aca4cc6
-    log: revlist-80d2c29e09e6-fe15c26ee26e.txt
-  - ref: refs/heads/for-6.4
-    old: fe15c26ee26efa11741a7b632e9f23b01aca4cc6
+    log: revlist-7f62cb886119-fe15c26ee26e.txt
+  - ref: refs/heads/regulator-6.4
+    old: 0000000000000000000000000000000000000000
     new: 4536f3b93a3373cac21911103cbaa8c4c2932c38
-    log: |
-         2e238605a9d631fc8b9b130ba79cd54f2a22df10 dt-bindings: regulator: Add Richtek RT5739
-         4536f3b93a3373cac21911103cbaa8c4c2932c38 regulator: Add support for Richtek RT5739 voltage regulator
-         
 
---===============3027956158080034136==
+--===============4305967835450327880==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1678107004 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
-nonce 1678107003-01b3e450d4f8358d4ef4a9c94264dc2d3093ea8f
+pusher C3F436CA30F5D8EB 1678107012 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1678107011-0b88123a0cb169fdb7501cb8f6b6c8b7bcd77ee9
 
-80d2c29e09e663761c2778167a625b25ffe01b6f fe15c26ee26efa11741a7b632e9f23b01aca4cc6 refs/heads/for-6.3
-fe15c26ee26efa11741a7b632e9f23b01aca4cc6 4536f3b93a3373cac21911103cbaa8c4c2932c38 refs/heads/for-6.4
+7f62cb8861190e7cc1018ff37597fc49b2eaafa8 fe15c26ee26efa11741a7b632e9f23b01aca4cc6 refs/heads/regulator-6.3
+0000000000000000000000000000000000000000 4536f3b93a3373cac21911103cbaa8c4c2932c38 refs/heads/regulator-6.4
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmQF4XwACgkQJNaLcl1U
-h9B6/Qf6AuydTj1nuRGKbTfuvqKi6wWqqXxL9h/1OLe1OF/Bp5UZ9qWAfgCJk35b
-gGrNmj/5CzVSq+xt3S6GMbSX3JpFIZTItWW1PrTSimdB1ENOMzfrv32mTXkRhQ4Z
-+7koiXMq9x3awsPq/1+M4awLGkhG45Zjci5c6MhvcjZwPtnW4HaMJhF6LmTmOyKK
-54YVI1VpLiHw/aaUSnehv+BRtqqpkGpaWZC+ysboLicUfqIyBd3vePALSWeh6lHt
-6qizke58bHpiRVzcPhI4JL5hek2nnKNRoB7eJN0BIJpKAZbu4/p+QuP4nN5csn6G
-O4OprAs/kHCaPvxlVUKMFRtZQEov/A==
-=tuWk
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmQF4YQACgkQJNaLcl1U
+h9B0AAf+PJtNMIUGl/xhTn4UKZHnjWNLMrn4wjtrXvYmep/HkuDC71Fx2HrVwIHQ
+uggzdD197/HGIE2C7gkrUi7v9nvehLkZjr3kHwQ6wWFkthWWUpop3gvIwzomb9SQ
+GKuVSvpKyqtBkwxLUW+I9qiXa/gWifpssB4rRUgK4VdyF1eskIlXHewA1jHZZ0Dw
+d2J+Cp+CTTm0/c6rwlEXueZfV/mzr5eH1Xrse2jK2m6dFT8qlROEgKKhukmBqAP/
+1+p7ELF6aF31HoAIamdp5BeinU03xyQVNMSIpVDqFONHPWBOIFneRqRVpeCsONLy
+ZVyBBh+J6qYWi2V+6rooPNH7cPO4Gg==
+=omYD
 -----END PGP SIGNATURE-----
 
---===============3027956158080034136==
+--===============4305967835450327880==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-80d2c29e09e6-fe15c26ee26e.txt
+Content-Disposition: attachment; filename=revlist-7f62cb886119-fe15c26ee26e.txt
 
-dfe9a123451a6e73306c988eab3dab12df001677 SUNRPC: Enable rpcsec_gss_krb5.ko to be built without CRYPTO_DES
-d50b8152c992ac88c5f1f0cc8ade6ee0aa0a3704 SUNRPC: Remove ->encrypt and ->decrypt methods from struct gss_krb5_enctype
 ae6ad5d0b7901b301234143e93624417ac9fd9ef SUNRPC: Rename .encrypt_v2 and .decrypt_v2 methods
 2691a27d9b3e6a48adeb87a9dcf4e8a0ca84a26e SUNRPC: Hoist KDF into struct gss_krb5_enctype
 ec4aaab39afcec749ff7ed78e560213ff9e1c23c SUNRPC: Clean up cipher set up for v1 encryption types
@@ -108,6 +102,7 @@ dcd779dc46540e174a6ac8d52fbed23593407317 nfsd: fix courtesy client with deny mod
 51c58a1ebc047acc4ac2a61a5f215c7a638a685b ASoC: SMA1303: Change the value for right output
 70d1d30355095a22c8aa98dba9ca12486deff020 ASoC: mediatek: mt8188: correct etdm control return value
 7e43b75d6a062197b3bf39ddd1b10ce2e2d2a9b0 ASoC: Intel: sof_rt5682: Add quirk for Rex board with mx98360a amplifier
+d0566564d483e6576868224286632fd95aafd4ac regulator: max597x: Fix error return code in max597x_get_status
 e8bf9b98d40dbdf4e39362e3b85a70c61da68cb7 ktest.pl: Fix missing "end_monitor" when machine check fails
 83d29d439cd3ef23041570d55841f814af2ecac0 ktest.pl: Give back console on Ctrt^C on monitor
 4e7d2a8f0b52abf23b1dc13b3d88bc0923383cd5 ktest.pl: Add RUN_TIMEOUT option with default unlimited
@@ -594,6 +589,7 @@ f4440abc08917d9a7032abb8a6a5d4b36ca979b6 Merge tag 'nand/for-6.3' into mtd/next
 4cc59f386991ec9374cb4bc83dbe1c0b5a95033f ipv6: Add lwtunnel encap size of all siblings in nexthop calculation
 44bd0394fe10903757da0863e0cf62c2d9846ea6 selftests: fib_tests: Add test cases for IPv4/IPv6 in route notify
 c749e3f82a15e10a798bb55f60368ee102c793cb net/mlx5: Fix memory leak in IPsec RoCE creation
+80d2c29e09e663761c2778167a625b25ffe01b6f regulator: core: Use ktime_get_boottime() to determine how long a regulator was off
 152ac60677aa3760d0850de0db33d495f55e8aba spi: cadence-quadspi: Fix cancel the indirect read mask
 078a5517d22342eb0474046d3e891427a2552e3c spi: spi-sn-f-ospi: fix duplicate flag while assigning to mode_bits
 33c25354939099b76ecb6c82d1c7c50400fbcca6 drm/i915/xelpmp: Consider GSI offset when doing MCR lookups
@@ -1084,4 +1080,4 @@ f915322fe014c5c515119381e886faf07b3c9d31 Merge tag 'v6.3-p2' of git://git.kernel
 596ff4a09b8981790e15572e8e7bc904df5835e7 cpumask: re-introduce constant-sized cpumask optimizations
 fe15c26ee26efa11741a7b632e9f23b01aca4cc6 Linux 6.3-rc1
 
---===============3027956158080034136==--
+--===============4305967835450327880==--
