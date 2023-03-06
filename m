@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0414374950592918008=="
+Content-Type: multipart/mixed; boundary="===============0427481421686737177=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/intel
-Date: Mon, 06 Mar 2023 10:29:18 -0000
-Message-Id: <167809855890.9857.2903309666838342892@gitolite.kernel.org>
+Date: Mon, 06 Mar 2023 10:29:23 -0000
+Message-Id: <167809856375.9929.10078456962539789548@gitolite.kernel.org>
 
---===============0414374950592918008==
+--===============0427481421686737177==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/pinctrl/intel
 user: andy
 changes:
-  - ref: refs/heads/fixes
-    old: ceaa837f96adb69c0df0397937cd74991d5d821a
+  - ref: refs/heads/for-next
+    old: 88f8ac47bddc1674b2840c733f1120a548037199
     new: fe15c26ee26efa11741a7b632e9f23b01aca4cc6
-    log: revlist-ceaa837f96ad-fe15c26ee26e.txt
+    log: revlist-88f8ac47bddc-fe15c26ee26e.txt
 
---===============0414374950592918008==
+--===============0427481421686737177==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ceaa837f96ad-fe15c26ee26e.txt
+Content-Disposition: attachment; filename=revlist-88f8ac47bddc-fe15c26ee26e.txt
 
 ae6ad5d0b7901b301234143e93624417ac9fd9ef SUNRPC: Rename .encrypt_v2 and .decrypt_v2 methods
 2691a27d9b3e6a48adeb87a9dcf4e8a0ca84a26e SUNRPC: Hoist KDF into struct gss_krb5_enctype
@@ -1051,4 +1051,4 @@ f915322fe014c5c515119381e886faf07b3c9d31 Merge tag 'v6.3-p2' of git://git.kernel
 596ff4a09b8981790e15572e8e7bc904df5835e7 cpumask: re-introduce constant-sized cpumask optimizations
 fe15c26ee26efa11741a7b632e9f23b01aca4cc6 Linux 6.3-rc1
 
---===============0414374950592918008==--
+--===============0427481421686737177==--
