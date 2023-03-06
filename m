@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============1446809564420369076=="
+Content-Type: multipart/mixed; boundary="===============2511836456863311766=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
-Date: Mon, 06 Mar 2023 23:54:41 -0000
-Message-Id: <167814688123.16484.5223320489455554753@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
+Date: Mon, 06 Mar 2023 23:54:48 -0000
+Message-Id: <167814688818.16564.14560730929959540432@gitolite.kernel.org>
 
---===============1446809564420369076==
+--===============2511836456863311766==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/palmer/linux
+repo: pub/scm/linux/kernel/git/riscv/linux
 user: palmer
 changes:
   - ref: refs/heads/fixes
@@ -20,7 +20,7 @@ changes:
     new: fe15c26ee26efa11741a7b632e9f23b01aca4cc6
     log: revlist-950b879b7f02-fe15c26ee26e.txt
 
---===============1446809564420369076==
+--===============2511836456863311766==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ f915322fe014c5c515119381e886faf07b3c9d31 Merge tag 'v6.3-p2' of git://git.kernel
 596ff4a09b8981790e15572e8e7bc904df5835e7 cpumask: re-introduce constant-sized cpumask optimizations
 fe15c26ee26efa11741a7b632e9f23b01aca4cc6 Linux 6.3-rc1
 
---===============1446809564420369076==--
+--===============2511836456863311766==--
