@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8943643576019740709=="
+Content-Type: multipart/mixed; boundary="===============3146830212005027640=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andy/linux-gpio-intel
-Date: Mon, 06 Mar 2023 10:32:47 -0000
-Message-Id: <167809876767.12901.12764776126689297621@gitolite.kernel.org>
+Date: Mon, 06 Mar 2023 10:33:05 -0000
+Message-Id: <167809878509.13090.10985142759040424034@gitolite.kernel.org>
 
---===============8943643576019740709==
+--===============3146830212005027640==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andy/linux-gpio-intel
 user: andy
 changes:
-  - ref: refs/heads/review-andy
+  - ref: refs/heads/for-next
     old: fe15c26ee26efa11741a7b632e9f23b01aca4cc6
     new: 380c7ba3923c6e471aff0f951a6cf42e8dec2c79
     log: revlist-fe15c26ee26e-380c7ba3923c.txt
 
---===============8943643576019740709==
+--===============3146830212005027640==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -45,4 +45,4 @@ e79098ac29a41526a50a83ea77306c634a74e904 gpio: regmap: Add missing header(s)
 5b1911976ccf83e892452afb0363500228b35d81 gpiolib: Group forward declarations in consumer.h
 380c7ba3923c6e471aff0f951a6cf42e8dec2c79 gpiolib: Clean up headers
 
---===============8943643576019740709==--
+--===============3146830212005027640==--
