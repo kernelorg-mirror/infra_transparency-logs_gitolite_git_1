@@ -1,31 +1,54 @@
-Content-Type: multipart/mixed; boundary="===============7037835110508873251=="
+Content-Type: multipart/mixed; boundary="===============1515365329229825578=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/geoff/ps3-linux
-Date: Mon, 06 Mar 2023 16:39:57 -0000
-Message-Id: <167812079797.8907.12662413668086972034@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/audit
+Date: Mon, 06 Mar 2023 16:55:45 -0000
+Message-Id: <167812174535.21449.11582255844765905816@gitolite.kernel.org>
 
---===============7037835110508873251==
+--===============1515365329229825578==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/geoff/ps3-linux
-user: geoff
+repo: pub/scm/linux/kernel/git/pcmoore/audit
+user: pcmoore
 changes:
-  - ref: refs/heads/ps3-queue
-    old: 44e14be35837f50202aa58bbf0504bda92f69ce6
-    new: 25b227b8922187bf9aefa6075f408519ef661036
-    log: revlist-44e14be35837-25b227b89221.txt
+  - ref: refs/heads/stable-6.3
+    old: 6c6cd913accd77008f74a1a9d57b816db3651daa
+    new: fe15c26ee26efa11741a7b632e9f23b01aca4cc6
+    log: revlist-6c6cd913accd-fe15c26ee26e.txt
 
---===============7037835110508873251==
+--===============1515365329229825578==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-44e14be35837-25b227b89221.txt
+Content-Disposition: attachment; filename=revlist-6c6cd913accd-fe15c26ee26e.txt
 
+ae6ad5d0b7901b301234143e93624417ac9fd9ef SUNRPC: Rename .encrypt_v2 and .decrypt_v2 methods
+2691a27d9b3e6a48adeb87a9dcf4e8a0ca84a26e SUNRPC: Hoist KDF into struct gss_krb5_enctype
+ec4aaab39afcec749ff7ed78e560213ff9e1c23c SUNRPC: Clean up cipher set up for v1 encryption types
+8b3a09f3454240cb2c2ab3da02b86f354aab0bd6 SUNRPC: Parametrize the key length passed to context_v2_alloc_cipher()
+af664fc9023e69d1a90800c0f815c296bf727e18 SUNRPC: Add new subkey length fields
+dfb632432a9b2548b5a4429598bb19edf58122f0 SUNRPC: Refactor CBC with CTS into helpers
+a40cf7530d3104793f9361e69e84ada7960724f2 SUNRPC: Add gk5e definitions for RFC 8009 encryption types
+ae2e4d2bae0007b040e8327f123911c0a6b24d68 SUNRPC: Add KDF-HMAC-SHA2
+0d5b5a0f32dfc9be3521803aba53e856759f0250 SUNRPC: Add RFC 8009 encryption and decryption functions
+f26ec6b1b15c5d84e4c8e5b361e2be119def498d SUNRPC: Advertise support for RFC 8009 encryption types
+3394682fba3b9010c6147e94f37633f044876e5e SUNRPC: Support the Camellia enctypes
+45b4ef46b5e88ced7edd4fba26b5fa0e3103de0b SUNRPC: Add KDF_FEEDBACK_CMAC
+6e6d9eee0e78b3d13018e0eb28102b67ad5a8e86 SUNRPC: Advertise support for the Camellia encryption types
+6e460c230d2dfb0e5a02b6e0995546bb4b9d208e SUNRPC: Move remaining internal definitions to gss_krb5_internal.h
+eebd8c2d1978f5cb6e76e4e3045220b67548cb79 SUNRPC: Add KUnit tests for rpcsec_krb5.ko
+ddd8c1f975ee7c2fc60ea836540b5b10f97ac919 SUNRPC: Export get_gss_krb5_enctype()
+6eb6b8a446a174586427d1a0ab0f7635b05b44f7 SUNRPC: Add KUnit tests RFC 3961 Key Derivation
+e1a9a3849dff9cd980fdccaa8f09cf9226f46a3a SUNRPC: Add Kunit tests for RFC 3962-defined encryption/decryption
+35f6e42e813e51fb3a40f74f23a99aa330254ce8 SUNRPC: Add KDF KUnit tests for the RFC 6803 encryption types
+02142b2ca8fc10d7771b650780ae082369632dc0 SUNRPC: Add checksum KUnit tests for the RFC 6803 encryption types
+b958cff6b27b763b824ed6eefb28979d8f459bf4 SUNRPC: Add encryption KUnit tests for the RFC 6803 encryption types
+fcbad14b585d706337f16300747069b34c77e630 SUNRPC: Add KDF-HMAC-SHA2 Kunit tests
+003caf4f8c6af53ac48759669f0bd0dd7f69e6f5 SUNRPC: Add RFC 8009 checksum KUnit tests
 4d2d15c0f1e05ef2478d4891b79570a87c5dd1a6 SUNRPC: Add RFC 8009 encryption KUnit tests
 c4a9f0552cf682489d370adccf2f3ee11a8ff272 SUNRPC: Add encryption self-tests
 fcb530973b3c48099108e6e2e7433db9188f7eeb nfsd: don't take nfsd4_copy ref for OP_OFFLOAD_STATUS
@@ -1027,28 +1050,5 @@ b01fe98d34f3bed944a93bd8119fed80c856fad8 Merge tag 'i2c-for-6.3-rc1-part2' of gi
 f915322fe014c5c515119381e886faf07b3c9d31 Merge tag 'v6.3-p2' of git://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6
 596ff4a09b8981790e15572e8e7bc904df5835e7 cpumask: re-introduce constant-sized cpumask optimizations
 fe15c26ee26efa11741a7b632e9f23b01aca4cc6 Linux 6.3-rc1
-f6d68bdced445494d47dda2b69f741c479e8a9ab net/ps3_gelic_net: Fix RX sk_buff length
-505efc81357f3c633fca1dcd03301011eea5df9d net/ps3_gelic_net: Use dma_mapping_error
-6209d1f8647f7a4594bd3340eb85352837d17a27 net/ps3_gelic_net: Cleanup RX sk_buff code
-24e086eca5a173d5e420332dd8d38b54bc2e4312 net/ps3_gelic_net: Cleanup dma_mapping_error
-51ce54d832ee0786e3df66f2f78a2a74534e177a net/ps3_gelic_net: Rename to descr_count
-b5d483daf3630e4706c97f9199816cf9b71b0dcb net/ps3_gelic_net: Rename to index
-817ce7ef35b89d41763d82f0dc636b706ad0c2c0 net/ps3_gelic_net: Add gelic_descr structures
-4caa7d13de77415dbe3cf7715385e7a9db167b84 net/ps3_gelic_net: Use local dev variable
-f3d0b9a8b46718dc571056002a94ce0ca08844f9 net/ps3_gelic_net: Add vlan_id structure
-11a0030ab6050fedacc7c4535e6c0a5e626cf391 net/ps3_gelic_net: Add new routine gelic_unmap_link
-0e9bb5462c41989b95050eca43ce2682764c3425 net/ps3_gelic_net: Add new routine gelic_work_to_card
-cd22539a9463f1940a7cd9f025c83cf95325df08 net/ps3_gelic_net: Whitespace cleanups
-a0811e60dac65a0b38208b76f6af5f5bb345bb88 net/ps3_gelic_net: Debugging cleanups
-bfe06a9fb80fe52526496ac46ea58c2a18b2efbb hvc_console: Allow backends to set I/O buffer size
-009c4bae774d4681838f6e52611348bf24eafda8 ps3-debugging: Enable CONFIG_IKCONFIG_PROC
-fcfc6f228f57ddc964a0a1398e0318ec2a65ffa0 ps3-debugging: Setup DABR register
-898f23f10262cd44dcb2db707416b169f047312c local: Add ps3_nfs_defconfig
-a40a54c52285ae0f23a7845183b3a65b0209f264 local: ps3_nfs_defconfig: Cut down version
-40d69fbb1b9b2cb30f004f363390af85f8133c81 local: Refresh ps3_nfs_defconfig
-1f22664891fb1f5e6df027164b42b6bca5b86e8f local: Add ps3_petitboot_defconfig
-39d5d6a2d988e248faf2424dea9120750914c912 local: Add ps3_petitboot_nfs_defconfig
-75697fe63a0504d08601b8ad8d50c948ab882f83 local: ps3_petitboot_nfs_defconfig: ip=dhcp
-25b227b8922187bf9aefa6075f408519ef661036 ps3_defconfig: Cut down version
 
---===============7037835110508873251==--
+--===============1515365329229825578==--
