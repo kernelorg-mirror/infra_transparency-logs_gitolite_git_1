@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1259409349969775183=="
+Content-Type: multipart/mixed; boundary="===============4918713384657776911=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
-Date: Mon, 06 Mar 2023 09:20:06 -0000
-Message-Id: <167809440632.14809.7306006948093055710@gitolite.kernel.org>
+Date: Mon, 06 Mar 2023 09:20:10 -0000
+Message-Id: <167809441080.14898.1494218434357264034@gitolite.kernel.org>
 
---===============1259409349969775183==
+--===============4918713384657776911==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/krzk/linux
 user: krzk
 changes:
-  - ref: refs/heads/next/clk
+  - ref: refs/heads/next/defconfig
     old: 1b929c02afd37871d5afb9d498426f83432e71c2
     new: fe15c26ee26efa11741a7b632e9f23b01aca4cc6
     log: revlist-1b929c02afd3-fe15c26ee26e.txt
 
---===============1259409349969775183==
+--===============4918713384657776911==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ f915322fe014c5c515119381e886faf07b3c9d31 Merge tag 'v6.3-p2' of git://git.kernel
 596ff4a09b8981790e15572e8e7bc904df5835e7 cpumask: re-introduce constant-sized cpumask optimizations
 fe15c26ee26efa11741a7b632e9f23b01aca4cc6 Linux 6.3-rc1
 
---===============1259409349969775183==--
+--===============4918713384657776911==--
