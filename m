@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============4088995467074923746=="
+Content-Type: multipart/mixed; boundary="===============3041006124451324875=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/intel
-Date: Mon, 06 Mar 2023 10:29:59 -0000
-Message-Id: <167809859903.10346.14141540147308714324@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Mon, 06 Mar 2023 10:30:16 -0000
+Message-Id: <167809861639.12089.3199980153639164734@gitolite.kernel.org>
 
---===============4088995467074923746==
+--===============3041006124451324875==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pinctrl/intel
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 user: andy
 changes:
   - ref: refs/heads/review-andy
-    old: 88f8ac47bddc1674b2840c733f1120a548037199
+    old: 85303db36b6e170917a7bc6aae4898c31a5272a0
     new: fe15c26ee26efa11741a7b632e9f23b01aca4cc6
-    log: revlist-88f8ac47bddc-fe15c26ee26e.txt
+    log: revlist-85303db36b6e-fe15c26ee26e.txt
 
---===============4088995467074923746==
+--===============3041006124451324875==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-88f8ac47bddc-fe15c26ee26e.txt
+Content-Disposition: attachment; filename=revlist-85303db36b6e-fe15c26ee26e.txt
 
 ae6ad5d0b7901b301234143e93624417ac9fd9ef SUNRPC: Rename .encrypt_v2 and .decrypt_v2 methods
 2691a27d9b3e6a48adeb87a9dcf4e8a0ca84a26e SUNRPC: Hoist KDF into struct gss_krb5_enctype
@@ -1051,4 +1051,4 @@ f915322fe014c5c515119381e886faf07b3c9d31 Merge tag 'v6.3-p2' of git://git.kernel
 596ff4a09b8981790e15572e8e7bc904df5835e7 cpumask: re-introduce constant-sized cpumask optimizations
 fe15c26ee26efa11741a7b632e9f23b01aca4cc6 Linux 6.3-rc1
 
---===============4088995467074923746==--
+--===============3041006124451324875==--
