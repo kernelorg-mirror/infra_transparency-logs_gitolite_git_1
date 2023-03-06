@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============1515365329229825578=="
+Content-Type: multipart/mixed; boundary="===============0990171650926593866=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/audit
-Date: Mon, 06 Mar 2023 16:55:45 -0000
-Message-Id: <167812174535.21449.11582255844765905816@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/selinux
+Date: Mon, 06 Mar 2023 16:55:48 -0000
+Message-Id: <167812174804.21511.9940145823244481751@gitolite.kernel.org>
 
---===============1515365329229825578==
+--===============0990171650926593866==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pcmoore/audit
+repo: pub/scm/linux/kernel/git/pcmoore/selinux
 user: pcmoore
 changes:
   - ref: refs/heads/stable-6.3
-    old: 6c6cd913accd77008f74a1a9d57b816db3651daa
+    old: 88603b6dc419445847923fcb7fe5080067a30f98
     new: fe15c26ee26efa11741a7b632e9f23b01aca4cc6
-    log: revlist-6c6cd913accd-fe15c26ee26e.txt
+    log: revlist-88603b6dc419-fe15c26ee26e.txt
 
---===============1515365329229825578==
+--===============0990171650926593866==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6c6cd913accd-fe15c26ee26e.txt
+Content-Disposition: attachment; filename=revlist-88603b6dc419-fe15c26ee26e.txt
 
 ae6ad5d0b7901b301234143e93624417ac9fd9ef SUNRPC: Rename .encrypt_v2 and .decrypt_v2 methods
 2691a27d9b3e6a48adeb87a9dcf4e8a0ca84a26e SUNRPC: Hoist KDF into struct gss_krb5_enctype
@@ -1051,4 +1051,4 @@ f915322fe014c5c515119381e886faf07b3c9d31 Merge tag 'v6.3-p2' of git://git.kernel
 596ff4a09b8981790e15572e8e7bc904df5835e7 cpumask: re-introduce constant-sized cpumask optimizations
 fe15c26ee26efa11741a7b632e9f23b01aca4cc6 Linux 6.3-rc1
 
---===============1515365329229825578==--
+--===============0990171650926593866==--
