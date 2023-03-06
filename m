@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3931998791123300707=="
+Content-Type: multipart/mixed; boundary="===============5701940946001316808=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 06 Mar 2023 07:45:21 -0000
-Message-Id: <167808872186.13690.5976493161026472399@gitolite.kernel.org>
+Date: Mon, 06 Mar 2023 07:48:32 -0000
+Message-Id: <167808891211.15871.899504056623867973@gitolite.kernel.org>
 
---===============3931998791123300707==
+--===============5701940946001316808==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,22 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
+  - ref: refs/heads/auto-latest
+    old: edb4f8670f6e337bd34438fe53ccb9a4e44ecb23
+    new: f918413697ac28e19f90fd028725367483e0b555
+    log: revlist-edb4f8670f6e-f918413697ac.txt
   - ref: refs/heads/master
-    old: 239b842d8c45ac8e0794189d2676eea409eab497
-    new: 9c3b40a92384d2cd9b433e6a69a76447fd3be35e
-    log: revlist-239b842d8c45-9c3b40a92384.txt
-  - ref: refs/tags/v6.3-rc1
-    old: 0000000000000000000000000000000000000000
-    new: d0656701c5a27a5a8a3a38bc07d18f2e157e963d
+    old: 9c3b40a92384d2cd9b433e6a69a76447fd3be35e
+    new: f918413697ac28e19f90fd028725367483e0b555
+    log: |
+         f918413697ac28e19f90fd028725367483e0b555 Merge branch into tip/master: 'x86/cleanups'
+         
 
---===============3931998791123300707==
+--===============5701940946001316808==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-239b842d8c45-9c3b40a92384.txt
+Content-Disposition: attachment; filename=revlist-edb4f8670f6e-f918413697ac.txt
 
 64ea30d1a192e2866397169ebfe3d0109878d040 clk: imx: fix compile testing imxrt1050
 01d63ce42546db93734949ba1cd44359f7f6ee02 dt-bindings: clock: add loongson-2 clock include file
@@ -923,6 +926,7 @@ b1f1382a110bca1ef52234e889246a90f9a0d69b Merge tag 'docs-6.3-2' of git://git.lwn
 1899946aaf2566c577683ebe510a83c930cd3751 Merge tag 'i3c/for-6.3' of git://git.kernel.org/pub/scm/linux/kernel/git/i3c/linux
 c0927a7a5391f7d8e593e5e50ead7505a23cadf9 Merge tag 'xfs-6.3-merge-4' of git://git.kernel.org/pub/scm/fs/xfs/xfs-linux
 81a1dd10b072fd432f37cd5dc9eb3ed6ec5d386e riscv, lib: Fix Zbb strncmp
+dd093fb08e8f8a958fec4eef36f9f09eac047f60 virt/sev-guest: Return -EIO if certificate buffer is not large enough
 23badca4248a9a467f630adbd1557f664585e1db ASoC: mediatek: mt8188: add missing initialization
 b56ec2992a2e43bc3e60d6db86849d31640e791f ASoC: mediatek: mt8195: add missing initialization
 326ac2c5133e5da7ccdd08d4f9c562f2323021aa Merge tag 'nvme-6.3-2022-03-01' of git://git.infradead.org/nvme into for-6.3/block
@@ -1051,7 +1055,6 @@ f915322fe014c5c515119381e886faf07b3c9d31 Merge tag 'v6.3-p2' of git://git.kernel
 596ff4a09b8981790e15572e8e7bc904df5835e7 cpumask: re-introduce constant-sized cpumask optimizations
 fe15c26ee26efa11741a7b632e9f23b01aca4cc6 Linux 6.3-rc1
 8c3223a50faf1d173e0159eff10a9de902407135 x86/entry: Change stale function name in comment to error_return()
-e086523b525d38629bc47b1a3825e167e4000683 Merge branch 'linus'
-9c3b40a92384d2cd9b433e6a69a76447fd3be35e Merge branch into tip/master: 'x86/cleanups'
+f918413697ac28e19f90fd028725367483e0b555 Merge branch into tip/master: 'x86/cleanups'
 
---===============3931998791123300707==--
+--===============5701940946001316808==--
