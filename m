@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-pinctrl
-Date: Mon, 06 Mar 2023 13:19:24 -0000
-Message-Id: <167810876475.32393.11814500647009221066@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ogabbay/linux
+Date: Mon, 06 Mar 2023 13:19:38 -0000
+Message-Id: <167810877894.32547.4301479177198705177@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/linusw/linux-pinctrl
-user: linusw
+repo: pub/scm/linux/kernel/git/ogabbay/linux
+user: ogabbay
 changes:
-  - ref: refs/tags/v6.2
-    old: 0000000000000000000000000000000000000000
-    new: 32758e7a720e4752a824c6062e75f107314e5598
-  - ref: refs/tags/v6.3-rc1
-    old: 0000000000000000000000000000000000000000
-    new: d0656701c5a27a5a8a3a38bc07d18f2e157e963d
+  - ref: refs/heads/habanalabs-next-6.4
+    old: bbf14b08e9faf9aa41987f9734eaf713fbbd4ecc
+    new: e174cf78642820ba623fd1786f6bfe9972732248
+    log: |
+         5400e22944faebd26c65cd60139e6c1aec08feed habanalabs/gaudi2: add uapi to stall/resume engine
+         2f835c8d42c3ed9e7b1cac6d4ce519bead6348f3 habanalabs/gaudi2: move soft-reset wait to soft-reset execute
+         e174cf78642820ba623fd1786f6bfe9972732248 habanalabs: postpone mem_mgr IDR destruction to hpriv_release()
+         
