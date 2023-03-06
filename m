@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5901801027187612513=="
+Content-Type: multipart/mixed; boundary="===============6028023348575993206=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mips/linux
-Date: Mon, 06 Mar 2023 11:03:20 -0000
-Message-Id: <167810060070.1917.2272605108128543054@gitolite.kernel.org>
+Date: Mon, 06 Mar 2023 11:03:44 -0000
+Message-Id: <167810062477.2083.14887841338205859008@gitolite.kernel.org>
 
---===============5901801027187612513==
+--===============6028023348575993206==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mips/linux
 user: tsbogend
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/mips-fixes
     old: 88603b6dc419445847923fcb7fe5080067a30f98
     new: fe15c26ee26efa11741a7b632e9f23b01aca4cc6
     log: revlist-88603b6dc419-fe15c26ee26e.txt
 
---===============5901801027187612513==
+--===============6028023348575993206==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ f915322fe014c5c515119381e886faf07b3c9d31 Merge tag 'v6.3-p2' of git://git.kernel
 596ff4a09b8981790e15572e8e7bc904df5835e7 cpumask: re-introduce constant-sized cpumask optimizations
 fe15c26ee26efa11741a7b632e9f23b01aca4cc6 Linux 6.3-rc1
 
---===============5901801027187612513==--
+--===============6028023348575993206==--
