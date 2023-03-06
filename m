@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5511713897979480423=="
+Content-Type: multipart/mixed; boundary="===============0475553627812234331=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/samsung
-Date: Mon, 06 Mar 2023 12:37:37 -0000
-Message-Id: <167810625759.1896.14560209578042307941@gitolite.kernel.org>
+Date: Mon, 06 Mar 2023 12:37:42 -0000
+Message-Id: <167810626203.1984.16609285471868896760@gitolite.kernel.org>
 
---===============5511713897979480423==
+--===============0475553627812234331==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/pinctrl/samsung
 user: krzk
 changes:
-  - ref: refs/heads/fixes
+  - ref: refs/heads/for-next
     old: 1b929c02afd37871d5afb9d498426f83432e71c2
     new: fe15c26ee26efa11741a7b632e9f23b01aca4cc6
     log: revlist-1b929c02afd3-fe15c26ee26e.txt
 
---===============5511713897979480423==
+--===============0475553627812234331==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ f915322fe014c5c515119381e886faf07b3c9d31 Merge tag 'v6.3-p2' of git://git.kernel
 596ff4a09b8981790e15572e8e7bc904df5835e7 cpumask: re-introduce constant-sized cpumask optimizations
 fe15c26ee26efa11741a7b632e9f23b01aca4cc6 Linux 6.3-rc1
 
---===============5511713897979480423==--
+--===============0475553627812234331==--
