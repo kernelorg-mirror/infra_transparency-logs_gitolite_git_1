@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============7473049413730563140=="
+Content-Type: multipart/mixed; boundary="===============0015363826310613942=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Mon, 06 Mar 2023 20:30:22 -0000
-Message-Id: <167813462229.8158.383701305695864277@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 06 Mar 2023 20:30:29 -0000
+Message-Id: <167813462961.8260.13417964526110091055@gitolite.kernel.org>
 
---===============7473049413730563140==
+--===============0015363826310613942==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.4
+  - ref: refs/heads/asoc-6.4
     old: 4740479e2d4800835b64840cbfc94ffa883c8f51
     new: ed3b4b8772783e840d93a079b2dbdd7f9c4b3c76
     log: |
@@ -28,28 +28,28 @@ changes:
          ed3b4b8772783e840d93a079b2dbdd7f9c4b3c76 Add CS35L41 shared boost feature
          
 
---===============7473049413730563140==
+--===============0015363826310613942==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1678134620 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1678134620-b50373882a6c6bb41ceb811f05c3d8f06c0a01e9
+pusher C3F436CA30F5D8EB 1678134628 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1678134627-5903e9d00be4491eb43a6c43b14d786100cb84a8
 
-4740479e2d4800835b64840cbfc94ffa883c8f51 ed3b4b8772783e840d93a079b2dbdd7f9c4b3c76 refs/heads/for-6.4
+4740479e2d4800835b64840cbfc94ffa883c8f51 ed3b4b8772783e840d93a079b2dbdd7f9c4b3c76 refs/heads/asoc-6.4
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmQGTVwACgkQJNaLcl1U
-h9AvjQf/W6z7I30oDGzUvbuGxZzUDj76dfA01EbVLX9fNoOI/6zQe+cxoCfp6kaQ
-3AoH2PNqYkVfpIjBaszVHsL5TDCi4FI/eOX6Z9VTOkQouUHnPpOHo8ALFuG3qvtb
-zf2SzfuaK4/5H3bHwT/8B49Uv79OEGMOXDg+ZjpUwZ5ZkXiji/9VJdoHyxcraSN0
-oISyLqXR1WBF6r1nGVhrHV64iSfJUomABmWHgVd5BGwVkro3/tfhln6CTmVoghu4
-RqUc8//8gUkVqSaWw4rNrLV4K0edysGzOCQWrVZOEqOSOBoYmG9IYb0D9jWvdIVK
-LYZuW3ny3PKt+k+xhBoHfgrT9Nmq5g==
-=qK0H
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmQGTWQACgkQJNaLcl1U
+h9DUWAgAgR0bFSFZ/jaGU2fnBi62zf8h4kASApgKkDbP56Z3eOvn7qLd9I8iksge
+LFlDQ4xwqwM047o4MDdKC3awBPtN/RMK1HCFWA4SpSi4oxyxEiUmEQ7DeQkXi0+7
+XLioP3qVUBgz+x6ffqUVHhzL5yaiOXfSF77YLbvSvIbef2HbFGPibZYZXOeui+zQ
+t9LKqgK/k1LzQNQ2WB+ZXx1lT04rq6DvzWNkzXQnhxXoW0n56Ht6GFaWfBUbZ4HP
+vVXBNsXW2nYswiNOGy7VpRskgLt1NgljbWKtxBX5PVPRTlDoJjdPG2Ja0GieDnag
+x1nZIqlEv5V5KI0fBFUAlqtzoZh3iA==
+=jPAJ
 -----END PGP SIGNATURE-----
 
---===============7473049413730563140==--
+--===============0015363826310613942==--
