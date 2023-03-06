@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Mon, 06 Mar 2023 21:32:55 -0000
-Message-Id: <167813837574.18320.204306904323149071@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/teigland/linux-dlm
+Date: Mon, 06 Mar 2023 21:50:27 -0000
+Message-Id: <167813942795.30995.13771343750224391672@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/teigland/linux-dlm
+user: teigland
 changes:
-  - ref: refs/heads/master
-    old: d89ca334636c2ee5c205e8802b8a0502d1cec3d7
-    new: bae35051ab3c9097f32ea67c32e9ead3b1a1b1ba
-    log: |
-         bae35051ab3c9097f32ea67c32e9ead3b1a1b1ba Mon Mar  6 09:32:01 PM UTC 2023
-         
+  - ref: refs/heads/next
+    old: 723b197bbdf1e0adbab772b8e5e022c40db6a9fe
+    new: 0000000000000000000000000000000000000000
