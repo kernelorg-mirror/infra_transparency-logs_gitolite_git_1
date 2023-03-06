@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Mon, 06 Mar 2023 12:36:03 -0000
-Message-Id: <167810616333.1038.1456234688065017948@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
+Date: Mon, 06 Mar 2023 12:36:24 -0000
+Message-Id: <167810618447.1271.10111010018858137932@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
-user: acme
+repo: pub/scm/linux/kernel/git/amlogic/linux
+user: narmstrong
 changes:
-  - ref: refs/heads/perf/urgent
-    old: 3ee7cb4fdf37e3763b3b10da2a7715b7a7a2a783
-    new: 14e998ed42208f60d5f848f5e025fa2c2e9667b0
+  - ref: refs/heads/v6.4/arm64-dt
+    old: 4dcc844c99d3e47820f574911b495b58f7da1d94
+    new: 914a3aa644cf50947a2dbb97738502ca9f025a10
     log: |
-         14e998ed42208f60d5f848f5e025fa2c2e9667b0 tools include UAPI: Sync linux/vhost.h with the kernel sources
+         815ad625ec4ea5de655f9c02ccf7f65ecf5e6e29 arm64: dts: meson: gxbb-kii-pro: sort and tidy the dts
+         dae485f52a65ce939b045cf480c401d434cacf2d arm64: dts: meson: gxbb-kii-pro: complete the bluetooth node
+         914a3aa644cf50947a2dbb97738502ca9f025a10 arm64: dts: meson: gxbb-kii-pro: add initial audio support
          
