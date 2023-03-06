@@ -1,98 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/cryptsetup/cryptsetup
-Date: Mon, 06 Mar 2023 10:58:35 -0000
-Message-Id: <167810031522.30931.5331662190454054034@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============3881197412057229860=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 06 Mar 2023 10:58:42 -0000
+Message-Id: <167810032233.31038.17503146934734582569@gitolite.kernel.org>
+
+--===============3881197412057229860==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/cryptsetup/cryptsetup
-user: mbroz
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/fix-autogen-ci
-    old: 6ccda83c16d8b4935b818b066428e10d9de0375a
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/main
-    old: 27f8e5c08f0e0054225c9a2b1eda5b4200d4565b
-    new: 8b3162069e57c123ad1212a6556d31f4e3251fce
-    log: |
-         8b3162069e57c123ad1212a6556d31f4e3251fce CI: move autogen.sh to specific build scripts.
-         
   - ref: refs/heads/master
-    old: 27f8e5c08f0e0054225c9a2b1eda5b4200d4565b
-    new: 8b3162069e57c123ad1212a6556d31f4e3251fce
+    old: 1694f07fb44a74b7e1b95362f37106d9d346c5e7
+    new: ad78a5a21dcbb489210026c2f28c88f16db16507
     log: |
-         8b3162069e57c123ad1212a6556d31f4e3251fce CI: move autogen.sh to specific build scripts.
+         ad78a5a21dcbb489210026c2f28c88f16db16507 6.1-stable patches
          
-  - ref: refs/heads/wip-openssl-argon2
-    old: c0f0c922a516c96f3cb45febff0e7f62be632d13
-    new: e40989a33c9f4e9e10c07bacfc7df07d1c356bf5
-    log: |
-         899bad8c06957a94a198d1eaa293ed8db205f1de Try to avoid OOM killer on low-memory systems without swap.
-         27f8e5c08f0e0054225c9a2b1eda5b4200d4565b Print warning when keyslot requires more memory than available
-         8b3162069e57c123ad1212a6556d31f4e3251fce CI: move autogen.sh to specific build scripts.
-         e40989a33c9f4e9e10c07bacfc7df07d1c356bf5 Test OpenSSL 3.2 Argon2 implementation.
-         
-  - ref: refs/merge-requests/434/head
-    old: c0f0c922a516c96f3cb45febff0e7f62be632d13
-    new: e40989a33c9f4e9e10c07bacfc7df07d1c356bf5
-    log: |
-         899bad8c06957a94a198d1eaa293ed8db205f1de Try to avoid OOM killer on low-memory systems without swap.
-         27f8e5c08f0e0054225c9a2b1eda5b4200d4565b Print warning when keyslot requires more memory than available
-         8b3162069e57c123ad1212a6556d31f4e3251fce CI: move autogen.sh to specific build scripts.
-         e40989a33c9f4e9e10c07bacfc7df07d1c356bf5 Test OpenSSL 3.2 Argon2 implementation.
-         
-  - ref: refs/merge-requests/434/merge
-    old: edb51a75622d52e69ee4d7e06389570cd4146466
-    new: b8fdb9961909e1538460f1e93885b6ce83676402
-    log: |
-         899bad8c06957a94a198d1eaa293ed8db205f1de Try to avoid OOM killer on low-memory systems without swap.
-         27f8e5c08f0e0054225c9a2b1eda5b4200d4565b Print warning when keyslot requires more memory than available
-         8b3162069e57c123ad1212a6556d31f4e3251fce CI: move autogen.sh to specific build scripts.
-         e40989a33c9f4e9e10c07bacfc7df07d1c356bf5 Test OpenSSL 3.2 Argon2 implementation.
-         b8fdb9961909e1538460f1e93885b6ce83676402 Merge branch 'wip-openssl-argon2' into 'main'
-         
-  - ref: refs/merge-requests/461/merge
-    old: b807c8df7a35de90aafdafbc9a65241b8b44a578
-    new: fd1db7bf220914e790b80a023b8fcad4cf974571
-    log: |
-         899bad8c06957a94a198d1eaa293ed8db205f1de Try to avoid OOM killer on low-memory systems without swap.
-         27f8e5c08f0e0054225c9a2b1eda5b4200d4565b Print warning when keyslot requires more memory than available
-         8b3162069e57c123ad1212a6556d31f4e3251fce CI: move autogen.sh to specific build scripts.
-         fd1db7bf220914e790b80a023b8fcad4cf974571 Merge branch 'opal' into 'main'
-         
-  - ref: refs/merge-requests/476/merge
-    old: b4f8de4a7340a733e9029c61986bf6618a21763e
-    new: f2dae6fb0617e439613bb5770c6480bb6da75382
-    log: |
-         899bad8c06957a94a198d1eaa293ed8db205f1de Try to avoid OOM killer on low-memory systems without swap.
-         27f8e5c08f0e0054225c9a2b1eda5b4200d4565b Print warning when keyslot requires more memory than available
-         f2dae6fb0617e439613bb5770c6480bb6da75382 Merge branch 'reencrypt-code-cleanups-and-fixes' into 'main'
-         
-  - ref: refs/merge-requests/492/merge
-    old: e2ab9a2e991a2e735ac8f9121fd1e9f744d9789d
-    new: f1c0ac4b44757ddba35538b635407395ed3a108b
-    log: |
-         62aa39220551dca7f825a22b8a65ace579808de7 Improve README.md.
-         899bad8c06957a94a198d1eaa293ed8db205f1de Try to avoid OOM killer on low-memory systems without swap.
-         27f8e5c08f0e0054225c9a2b1eda5b4200d4565b Print warning when keyslot requires more memory than available
-         8b3162069e57c123ad1212a6556d31f4e3251fce CI: move autogen.sh to specific build scripts.
-         f1c0ac4b44757ddba35538b635407395ed3a108b Merge branch 'extend-keyring-support' into 'main'
-         
-  - ref: refs/merge-requests/493/head
-    old: 6ccda83c16d8b4935b818b066428e10d9de0375a
-    new: 8b3162069e57c123ad1212a6556d31f4e3251fce
-    log: |
-         899bad8c06957a94a198d1eaa293ed8db205f1de Try to avoid OOM killer on low-memory systems without swap.
-         27f8e5c08f0e0054225c9a2b1eda5b4200d4565b Print warning when keyslot requires more memory than available
-         8b3162069e57c123ad1212a6556d31f4e3251fce CI: move autogen.sh to specific build scripts.
-         
-  - ref: refs/merge-requests/493/merge
-    old: be79027b9ce32a916fb8fdf6a5e16f604919b8c0
-    new: 8c5fbcda528f1eddc140cf6d3f3f870523320185
-    log: |
-         8b3162069e57c123ad1212a6556d31f4e3251fce CI: move autogen.sh to specific build scripts.
-         8c5fbcda528f1eddc140cf6d3f3f870523320185 Merge branch 'fix-autogen-ci' into 'main'
-         
+
+--===============3881197412057229860==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1678100321 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1678100320-4411dc950585517019629e211d9bfd1c23033735
+
+1694f07fb44a74b7e1b95362f37106d9d346c5e7 ad78a5a21dcbb489210026c2f28c88f16db16507 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQFx2EbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+iiUP/RWhxWdvztARwVPcHJTb
+tGctBgVnwk5JvkNzWPG3uzC40aEz7h1IRpSsnSvLS3ovmHJrilloMpFEgxgGhYp5
+dUBiRp/r8kGpU+IFWhvpc8ncR/1aR0s/xQzOI+HQygwtNlB/CXMn5X9Q5aL9PUS/
+1u7yBaQMEOtxsUyf/+BGtGoBQxqaMALy9z5Twiynx9bT2hyxtxO9m3qy7ck8Xjwa
+K4kQe2pZwHGZAT+4YS3rW9A6QI0qUWo8vvGFKy6nV6vhRaB83bH1wDul4ttzbc16
+EkFntp1+kimZhtnC/Ix9HSCl1IJjktezAaceG8swiG/aiNny6M4NyBelyJSlS/BL
+pjkHdKiQ0YrXlP5UUYVQpqZqcmfhWuDGfznHwLSLnFLVIkJwpNQ8pl459H/PIMlj
+m16jlr8Qz4bOf9IjenXVblVx9peIqw36vgJOSapNiiQQXiRroHQ0bkyIpG16vJmX
+PyRDJvLRJc5uQE/0qLrxii/gpYfGGeu+5UQ1NNcM/6IniyC7PdTypDzx0oQEOT0r
+olMv48dz9k8TDVA8SrdFc6NTFSztjjxNyoTHeMU+dmpIbPKqFdxDJBYXkHe5i+87
+QAJpDcmQeuG/YFRKKQXhFqpO1JK75q7aQGJWPCnYx53YeC5ZDy20mCB/sfZeiJYc
+9ik0WY9g9/uy8a9IqZNFh8Us
+=ntgX
+-----END PGP SIGNATURE-----
+
+--===============3881197412057229860==--
