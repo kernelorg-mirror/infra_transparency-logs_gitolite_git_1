@@ -1,60 +1,46 @@
-Content-Type: multipart/mixed; boundary="===============6536421400837668996=="
+Content-Type: multipart/mixed; boundary="===============2761172861259763913=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Mon, 06 Mar 2023 13:04:45 -0000
-Message-Id: <167810788557.21280.15398818420309989989@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Mon, 06 Mar 2023 13:04:58 -0000
+Message-Id: <167810789889.21425.9279092647784823636@gitolite.kernel.org>
 
---===============6536421400837668996==
+--===============2761172861259763913==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/spi-6.3
-    old: 7234d746a8339066313518bfa024fa03f363a55e
+  - ref: refs/heads/for-linus
+    old: 02f1ce0a27429ecd75e76cee75ab1b60d25b2623
     new: fe15c26ee26efa11741a7b632e9f23b01aca4cc6
-    log: revlist-7234d746a833-fe15c26ee26e.txt
-  - ref: refs/heads/spi-6.4
-    old: 0000000000000000000000000000000000000000
+    log: revlist-02f1ce0a2742-fe15c26ee26e.txt
+  - ref: refs/heads/for-next
+    old: 38c150751567c6ce14cbf5be67bac1901a936d01
     new: ae2ade4ba58167f165fbf3db19380f9b72c56db8
+    log: |
+         fc12d4bb3227f21e1e7d6d78231074ca542c060d spi: Replace spi_pcpu_stats_totalize() macro by a C function
+         f58ab0fa7a23e5e1f55c0c1df266bb0daf1c19cc spi/bcm63xx: Remove the unused function bcm_spi_readw()
+         d447fa6564788af2b8729f66157e1220ecf6d136 drivers/spi-rockchip.c : Use devm_platform_get_and_ioremap_resource makes code better
+         8c220e6c6da9c2f70a78ba8b3121893b3634a54c drivers/spi-rockchip.c : Remove redundant variable slave
+         ae2ade4ba58167f165fbf3db19380f9b72c56db8 spi: Reorder fields in 'struct spi_message'
+         
 
---===============6536421400837668996==
+--===============2761172861259763913==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-02f1ce0a2742-fe15c26ee26e.txt
 
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1678107883 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1678107883-03f049e8f7f724954f66a1f5b6d5010e1256b40f
-
-7234d746a8339066313518bfa024fa03f363a55e fe15c26ee26efa11741a7b632e9f23b01aca4cc6 refs/heads/spi-6.3
-0000000000000000000000000000000000000000 ae2ade4ba58167f165fbf3db19380f9b72c56db8 refs/heads/spi-6.4
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmQF5OsACgkQJNaLcl1U
-h9BkUgf6AwYeiIPTGxY+lnkThpNc+mqDgraljc2bocWSVo9stVuorXKqmqP5z8Xf
-yLpoWpMzzRGCiz721KlMrPkanhlhjhzvNQG7H9qDN8GlsylL+6UZgiKPXZxuhRL/
-qZiPPiM1xeV5N3Jw78j56RYqx/YZ72TGslUUVXyNz5F7gETXE+qRx5cF4rIjJofN
-jK/WYrplO/wgwQXTp2VspC5B7mFMt434QO1rPbCZzjAYaCEhXopVBO1dJ6FJHHWB
-GIZ3DkfQJR16ggXH7vvt8InSeFvKPchAIby/pgCGLLDaq7lhm/Zo2s3n5nTLUUXk
-yvZtSVq9LHfC1gfzT6N89/5k7+A3Ew==
-=itkV
------END PGP SIGNATURE-----
-
---===============6536421400837668996==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7234d746a833-fe15c26ee26e.txt
-
+bdb12fb157d8d6aea7becbe6eaacf6c7c9b73f5e SUNRPC: Add /proc/net/rpc/gss_krb5_enctypes file
+4df750c924f405fe773771add507117a80ae6203 NFSD: Replace /proc/fs/nfsd/supported_krb5_enctypes with a symlink
+17781b2ce41a8915163d7cdada021f809ccd49f0 SUNRPC: Replace KRB5_SUPPORTED_ENCTYPES macro
+dfe9a123451a6e73306c988eab3dab12df001677 SUNRPC: Enable rpcsec_gss_krb5.ko to be built without CRYPTO_DES
+d50b8152c992ac88c5f1f0cc8ade6ee0aa0a3704 SUNRPC: Remove ->encrypt and ->decrypt methods from struct gss_krb5_enctype
 ae6ad5d0b7901b301234143e93624417ac9fd9ef SUNRPC: Rename .encrypt_v2 and .decrypt_v2 methods
 2691a27d9b3e6a48adeb87a9dcf4e8a0ca84a26e SUNRPC: Hoist KDF into struct gss_krb5_enctype
 ec4aaab39afcec749ff7ed78e560213ff9e1c23c SUNRPC: Clean up cipher set up for v1 encryption types
@@ -590,8 +576,6 @@ f4440abc08917d9a7032abb8a6a5d4b36ca979b6 Merge tag 'nand/for-6.3' into mtd/next
 44bd0394fe10903757da0863e0cf62c2d9846ea6 selftests: fib_tests: Add test cases for IPv4/IPv6 in route notify
 c749e3f82a15e10a798bb55f60368ee102c793cb net/mlx5: Fix memory leak in IPsec RoCE creation
 80d2c29e09e663761c2778167a625b25ffe01b6f regulator: core: Use ktime_get_boottime() to determine how long a regulator was off
-152ac60677aa3760d0850de0db33d495f55e8aba spi: cadence-quadspi: Fix cancel the indirect read mask
-078a5517d22342eb0474046d3e891427a2552e3c spi: spi-sn-f-ospi: fix duplicate flag while assigning to mode_bits
 33c25354939099b76ecb6c82d1c7c50400fbcca6 drm/i915/xelpmp: Consider GSI offset when doing MCR lookups
 5e438bf7f9a1705ebcae5fa89cdbfbc6932a7871 drm/i915/quirks: Add inverted backlight quirk for HP 14-r206nv
 690e0ec8e63da9a29b39fedc6ed5da09c7c82651 drm/i915: Don't use stolen memory for ring buffers with LLC
@@ -607,7 +591,6 @@ edea0c5a994b7829c9ada8f5bc762c4e32f4f797 octeontx2-pf: Recalculate UDP checksum 
 ad32ab9604f29827494024828f527228e84fbd2c irqdomain: Add missing NULL pointer check in irq_domain_create_hierarchy()
 192a5e0a19712a079f456954c203ce9dd2b889fa Merge tag 'lkmm.2023.02.15a' of git://git.kernel.org/pub/scm/linux/kernel/git/paulmck/linux-rcu
 525445efacdfeed71329ce8bc5f558859a894b8b Merge tag 'nmi.2023.02.14a' of git://git.kernel.org/pub/scm/linux/kernel/git/paulmck/linux-rcu
-f7482d8285b638be87a594a30edaaf1341135c1a spi: tegra210-quad: set half duplex flag
 f01d4c8a22908956f4018ed334bb6713e41b37c1 Merge tag 'nolibc.2023.02.06a' of git://git.kernel.org/pub/scm/linux/kernel/git/paulmck/linux-rcu
 d6296cb65320be16dbf20f2fd584ddc25f3437cd Merge tag 'linux-kselftest-next-6.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
 89f1a2440a200918676f9e1eeb765b337f735d86 Merge tag 'linux-kselftest-kunit-6.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
@@ -698,7 +681,6 @@ c15fe55d14b3b4ded5af2a3260877460a6ffb8ad 9p/xen: fix connection sequence
 aaf5f0d76b6e1870e3674408de2b13a92a4d4059 ASoC: apple: mca: Fix final status read on SERDES reset
 d8b3e396088d787771f19fd3b7949e080dc31d6f ASoC: apple: mca: Fix SERDES reset sequence
 fb1847cc460c127b12720119eae5f438ffc62e85 ASoC: apple: mca: Improve handling of unavailable DMA channels
-047ee71ae4f412d8819e39e4b08c588fa299cfc2 spi: tegra210-quad: Fix validate combined sequence
 0483a16bc493075bb9f6483497786fed41d27b94 net/mlx5: Remove NULL check before dev_{put, hold}
 bfeda9683dcd697dc84bbd5ce375f659e9590bf5 net/mlx5e: TC, fix return value check in mlx5e_tc_act_stats_create()
 e435941b1da1a0be4ff8a7ae425774c76a5ac514 mlx5: fix skb leak while fifo resync and push
@@ -931,7 +913,6 @@ b373076f609993d333dbbc3283b65320c7a41834 ASoC: mt8192: Fix event generation for 
 ce40d93b062c0bdcd29218c12ab1dba544382dd8 ASoC: mt8192: Fix range for sidetone positive gain
 c769fb6bcc485d752d492064a9005525a8d5fa24 ASoC: sam9g20ek: Disable capture unless building with microphone input
 0de2cc3707b6b6e2ad40bd24ce09a5c1f65d01e1 ASoC: zl38060 add gpiolib dependency
-2449d436681d40bc63ec2c766fd51b632270d8a7 spi: tegra210-quad: Fix iterator outside loop
 d52279d5c9204a041e9ba02a66a353573b2f96e4 ASoC: amd: yc: Add DMI entries to support HP OMEN 16-n0xxx (8A43)
 6934cf8a3e0b4a8318ce8f1342348e967e29192f RISC-V: improve string-function assembly
 b07ce43db665a6b5a622d5bb1447950d7e1e3fb1 Merge tag 'ext4_for_linus' of git://git.kernel.org/pub/scm/linux/kernel/git/tytso/ext4
@@ -1080,4 +1061,4 @@ f915322fe014c5c515119381e886faf07b3c9d31 Merge tag 'v6.3-p2' of git://git.kernel
 596ff4a09b8981790e15572e8e7bc904df5835e7 cpumask: re-introduce constant-sized cpumask optimizations
 fe15c26ee26efa11741a7b632e9f23b01aca4cc6 Linux 6.3-rc1
 
---===============6536421400837668996==--
+--===============2761172861259763913==--
