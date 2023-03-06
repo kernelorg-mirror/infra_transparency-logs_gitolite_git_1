@@ -1,16 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Mon, 06 Mar 2023 17:05:58 -0000
-Message-Id: <167812235840.28671.16661899052043267956@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/andy/linux-gpio-intel
+Date: Mon, 06 Mar 2023 17:06:00 -0000
+Message-Id: <167812236084.28730.8138457662844361760@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
-user: broonie
+repo: pub/scm/linux/kernel/git/andy/linux-gpio-intel
+user: andy
 changes:
-  - ref: refs/tags/sent/20230221-phy-build-deps-760020d940c4-v1
-    old: 0000000000000000000000000000000000000000
-    new: 436e4f847a484313472ef811da93ba07ad8958a5
+  - ref: refs/heads/for-next
+    old: 380c7ba3923c6e471aff0f951a6cf42e8dec2c79
+    new: 9409d8cf78d9c5471cfd229e652f12050c6dbbde
+    log: |
+         d2c19e89e03cced2417175f48586648ae88f7cbf gpio: tangier: Introduce Intel Tangier GPIO driver
+         34840be53410c29d67ffb304588a258fab785fd7 gpio: merrifield: Adapt to Intel Tangier GPIO driver
+         dd0ccef23649d2e54aea1b317be36b2dbde0f329 gpio: merrifield: Use dev_err_probe()
+         dc537030647a451bca169209d05b50d2ca3fe4f6 gpio: merrifield: Utilise temporary variable for struct device
+         9409d8cf78d9c5471cfd229e652f12050c6dbbde gpio: elkhartlake: Introduce Intel Elkhart Lake PSE GPIO
+         
