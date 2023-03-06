@@ -1,31 +1,46 @@
-Content-Type: multipart/mixed; boundary="===============3090067519320131892=="
+Content-Type: multipart/mixed; boundary="===============7685334147557689884=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/matthias.bgg/linux
-Date: Mon, 06 Mar 2023 13:37:36 -0000
-Message-Id: <167810985620.14100.13792740100255117946@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Mon, 06 Mar 2023 13:37:44 -0000
+Message-Id: <167810986448.14209.17967492860481374216@gitolite.kernel.org>
 
---===============3090067519320131892==
+--===============7685334147557689884==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/matthias.bgg/linux
-user: matthias.bgg
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/for-next
-    old: 74ba8bb2bfb225b5e2c9bfdb345f8d021451999a
-    new: 9b2797522f320d5e32e3d96998a6635987f3702b
-    log: revlist-74ba8bb2bfb2-9b2797522f32.txt
+  - ref: refs/heads/upstream
+    old: ceaa837f96adb69c0df0397937cd74991d5d821a
+    new: fe15c26ee26efa11741a7b632e9f23b01aca4cc6
+    log: revlist-ceaa837f96ad-fe15c26ee26e.txt
 
---===============3090067519320131892==
+--===============7685334147557689884==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-74ba8bb2bfb2-9b2797522f32.txt
+Content-Disposition: attachment; filename=revlist-ceaa837f96ad-fe15c26ee26e.txt
 
+ae6ad5d0b7901b301234143e93624417ac9fd9ef SUNRPC: Rename .encrypt_v2 and .decrypt_v2 methods
+2691a27d9b3e6a48adeb87a9dcf4e8a0ca84a26e SUNRPC: Hoist KDF into struct gss_krb5_enctype
+ec4aaab39afcec749ff7ed78e560213ff9e1c23c SUNRPC: Clean up cipher set up for v1 encryption types
+8b3a09f3454240cb2c2ab3da02b86f354aab0bd6 SUNRPC: Parametrize the key length passed to context_v2_alloc_cipher()
+af664fc9023e69d1a90800c0f815c296bf727e18 SUNRPC: Add new subkey length fields
+dfb632432a9b2548b5a4429598bb19edf58122f0 SUNRPC: Refactor CBC with CTS into helpers
+a40cf7530d3104793f9361e69e84ada7960724f2 SUNRPC: Add gk5e definitions for RFC 8009 encryption types
+ae2e4d2bae0007b040e8327f123911c0a6b24d68 SUNRPC: Add KDF-HMAC-SHA2
+0d5b5a0f32dfc9be3521803aba53e856759f0250 SUNRPC: Add RFC 8009 encryption and decryption functions
+f26ec6b1b15c5d84e4c8e5b361e2be119def498d SUNRPC: Advertise support for RFC 8009 encryption types
+3394682fba3b9010c6147e94f37633f044876e5e SUNRPC: Support the Camellia enctypes
+45b4ef46b5e88ced7edd4fba26b5fa0e3103de0b SUNRPC: Add KDF_FEEDBACK_CMAC
+6e6d9eee0e78b3d13018e0eb28102b67ad5a8e86 SUNRPC: Advertise support for the Camellia encryption types
+6e460c230d2dfb0e5a02b6e0995546bb4b9d208e SUNRPC: Move remaining internal definitions to gss_krb5_internal.h
+eebd8c2d1978f5cb6e76e4e3045220b67548cb79 SUNRPC: Add KUnit tests for rpcsec_krb5.ko
 ddd8c1f975ee7c2fc60ea836540b5b10f97ac919 SUNRPC: Export get_gss_krb5_enctype()
 6eb6b8a446a174586427d1a0ab0f7635b05b44f7 SUNRPC: Add KUnit tests RFC 3961 Key Derivation
 e1a9a3849dff9cd980fdccaa8f09cf9226f46a3a SUNRPC: Add Kunit tests for RFC 3962-defined encryption/decryption
@@ -1035,20 +1050,5 @@ b01fe98d34f3bed944a93bd8119fed80c856fad8 Merge tag 'i2c-for-6.3-rc1-part2' of gi
 f915322fe014c5c515119381e886faf07b3c9d31 Merge tag 'v6.3-p2' of git://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6
 596ff4a09b8981790e15572e8e7bc904df5835e7 cpumask: re-introduce constant-sized cpumask optimizations
 fe15c26ee26efa11741a7b632e9f23b01aca4cc6 Linux 6.3-rc1
-0e3661de6a6593a2dd98cd0d5fe78210e260f823 arm64: dts: mediatek: Fix existing NAND controller node name
-981f808e641c624fdf4ece806b599ae66e875ee4 arm64: dts: mediatek: mt8195: add MMSYS configuration for VPPSYS
-018f1d4fa457af98c9618c0bd17a427745f872fa arm64: dts: mediatek: mt8195: add MUTEX configuration for VPPSYS
-404200964b24b19fe93325d24811f59a2a8b4de7 arm64: dts: mt8167: Align mmsys node name with dtschema
-90ae0327fb89f74024c46955dfc3184357bb5582 arm: dts: mediatek: Fix existing NAND controller node name
-6154a79fdcb3b80fb91c25b4528df18c538f080d arm: dts: mt7623: disable home key on Bananapi BPI-R2
-9f195f3a1e696b6576988c1e58fa7389beae3351 soc: mediatek: mtk-svs: use svs get efuse common function
-5061c47ebf6edaf024fed1eaf63499fe7183c54e soc: mediatek: mtk-svs: use common function to disable restore voltages
-7ceff25a184d64635ad911bc98f9497290708963 dt-bindings: soc: mediatek: Add support for MT8195 VPPSYS
-dd4f373ef94bd186e18a7366adfb7b98bc31b786 soc: mediatek: mmsys: add config api for RSZ switching and DCM
-c54d2b99c62ff6e371ce4a9ca925be22ed190de3 soc: mediatek: mutex: Add mtk_mutex_set_mod support to set MOD1
-549053b69c54aecc6f44ddefe6c245a35f162cf4 soc: mediatek: mutex: support MT8195 VPPSYS
-2ba4e3bd65213f3eae75fcd316ae38d4286d333e soc: mediatek: mtk-svs: delete node name check
-290bfa998892a0e499e62b1daf0630e597eb15d4 Merge branch 'v6.3-next/dts64' into for-next
-9b2797522f320d5e32e3d96998a6635987f3702b Merge branch 'v6.3-next/soc' into for-next
 
---===============3090067519320131892==--
+--===============7685334147557689884==--
