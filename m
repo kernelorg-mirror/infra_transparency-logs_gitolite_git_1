@@ -1,41 +1,39 @@
-Content-Type: multipart/mixed; boundary="===============6039979427993633917=="
+Content-Type: multipart/mixed; boundary="===============4026216816717555644=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regmap
-Date: Mon, 06 Mar 2023 12:44:57 -0000
-Message-Id: <167810669710.6376.2744949072164866252@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Mon, 06 Mar 2023 12:45:15 -0000
+Message-Id: <167810671540.8276.766690126000425462@gitolite.kernel.org>
 
---===============6039979427993633917==
+--===============4026216816717555644==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regmap
+repo: pub/scm/linux/kernel/git/broonie/regulator
 user: broonie
 changes:
   - ref: refs/heads/for-linus
-    old: 697c3892d825fb78f42ec8e53bed065dd728db3e
-    new: b025d682f8917ed27e40c176ef17068d252dd7f4
+    old: c361e8d45e52f48375cddf37f92f3e0e6b8b46c3
+    new: a71939aeaaeb37cb621b67d29664a1838c9220a4
     log: |
-         7b3c4c370c09313e22b555e79167e73d233611d1 regmap: Rework regmap_mdio_c45_{read|write} for new C45 API.
-         7464145862d606cf9835f24080341a397cbc0669 regmap: Reorder fields in 'struct regmap_bus' to save some memory
-         483e6ea1b35aaeffd9b6e6e660d756be49c2a9f5 regmap-irq: Remove unused type_invert flag
-         c74e7af1245b2073930afc9a2a340d91e08f0f14 regmap-irq: Remove unused mask_invert flag
-         b025d682f8917ed27e40c176ef17068d252dd7f4 Merge remote-tracking branch 'regmap/for-6.2' into regmap-linus
+         a71939aeaaeb37cb621b67d29664a1838c9220a4 Merge remote-tracking branch 'regulator/for-6.2' into regulator-linus
          
   - ref: refs/heads/for-next
-    old: 40f4b05868101e047a8502ebb94f05312186421b
-    new: a5587d528b7dbe83ae8601988e5711c245e5dd83
-    log: revlist-40f4b0586810-a5587d528b7d.txt
+    old: c361e8d45e52f48375cddf37f92f3e0e6b8b46c3
+    new: f10ee194661f858c39f561955d42f0c56a91e43f
+    log: revlist-c361e8d45e52-f10ee194661f.txt
 
---===============6039979427993633917==
+--===============4026216816717555644==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-40f4b0586810-a5587d528b7d.txt
+Content-Disposition: attachment; filename=revlist-c361e8d45e52-f10ee194661f.txt
 
+ae6ad5d0b7901b301234143e93624417ac9fd9ef SUNRPC: Rename .encrypt_v2 and .decrypt_v2 methods
+2691a27d9b3e6a48adeb87a9dcf4e8a0ca84a26e SUNRPC: Hoist KDF into struct gss_krb5_enctype
 ec4aaab39afcec749ff7ed78e560213ff9e1c23c SUNRPC: Clean up cipher set up for v1 encryption types
 8b3a09f3454240cb2c2ab3da02b86f354aab0bd6 SUNRPC: Parametrize the key length passed to context_v2_alloc_cipher()
 af664fc9023e69d1a90800c0f815c296bf727e18 SUNRPC: Add new subkey length fields
@@ -81,7 +79,6 @@ dcd779dc46540e174a6ac8d52fbed23593407317 nfsd: fix courtesy client with deny mod
 51c58a1ebc047acc4ac2a61a5f215c7a638a685b ASoC: SMA1303: Change the value for right output
 70d1d30355095a22c8aa98dba9ca12486deff020 ASoC: mediatek: mt8188: correct etdm control return value
 7e43b75d6a062197b3bf39ddd1b10ce2e2d2a9b0 ASoC: Intel: sof_rt5682: Add quirk for Rex board with mx98360a amplifier
-d0566564d483e6576868224286632fd95aafd4ac regulator: max597x: Fix error return code in max597x_get_status
 e8bf9b98d40dbdf4e39362e3b85a70c61da68cb7 ktest.pl: Fix missing "end_monitor" when machine check fails
 83d29d439cd3ef23041570d55841f814af2ecac0 ktest.pl: Give back console on Ctrt^C on monitor
 4e7d2a8f0b52abf23b1dc13b3d88bc0923383cd5 ktest.pl: Add RUN_TIMEOUT option with default unlimited
@@ -568,7 +565,6 @@ f4440abc08917d9a7032abb8a6a5d4b36ca979b6 Merge tag 'nand/for-6.3' into mtd/next
 4cc59f386991ec9374cb4bc83dbe1c0b5a95033f ipv6: Add lwtunnel encap size of all siblings in nexthop calculation
 44bd0394fe10903757da0863e0cf62c2d9846ea6 selftests: fib_tests: Add test cases for IPv4/IPv6 in route notify
 c749e3f82a15e10a798bb55f60368ee102c793cb net/mlx5: Fix memory leak in IPsec RoCE creation
-80d2c29e09e663761c2778167a625b25ffe01b6f regulator: core: Use ktime_get_boottime() to determine how long a regulator was off
 152ac60677aa3760d0850de0db33d495f55e8aba spi: cadence-quadspi: Fix cancel the indirect read mask
 078a5517d22342eb0474046d3e891427a2552e3c spi: spi-sn-f-ospi: fix duplicate flag while assigning to mode_bits
 33c25354939099b76ecb6c82d1c7c50400fbcca6 drm/i915/xelpmp: Consider GSI offset when doing MCR lookups
@@ -1058,7 +1054,7 @@ b01fe98d34f3bed944a93bd8119fed80c856fad8 Merge tag 'i2c-for-6.3-rc1-part2' of gi
 f915322fe014c5c515119381e886faf07b3c9d31 Merge tag 'v6.3-p2' of git://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6
 596ff4a09b8981790e15572e8e7bc904df5835e7 cpumask: re-introduce constant-sized cpumask optimizations
 fe15c26ee26efa11741a7b632e9f23b01aca4cc6 Linux 6.3-rc1
-b025d682f8917ed27e40c176ef17068d252dd7f4 Merge remote-tracking branch 'regmap/for-6.2' into regmap-linus
-a5587d528b7dbe83ae8601988e5711c245e5dd83 Merge branch 'regmap-linus' into regmap-next
+a71939aeaaeb37cb621b67d29664a1838c9220a4 Merge remote-tracking branch 'regulator/for-6.2' into regulator-linus
+f10ee194661f858c39f561955d42f0c56a91e43f Merge branch 'regulator-linus' into regulator-next
 
---===============6039979427993633917==--
+--===============4026216816717555644==--
