@@ -1,56 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============4342065361768979748=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Mon, 06 Mar 2023 17:56:12 -0000
-Message-Id: <167812537250.32191.510645140674780998@gitolite.kernel.org>
-
---===============4342065361768979748==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Mon, 06 Mar 2023 17:58:12 -0000
+Message-Id: <167812549224.425.2955854778910415074@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: andrii
 changes:
   - ref: refs/heads/master
-    old: 30171421df151b6436229f75f2c598ec05e59088
-    new: bd37763201433d67ad6847393ebc4c6fb0bafa44
+    old: fd4cb29f2a3d54ec7b4e012300321601af10bd68
+    new: 8f4c92f0024ff2a30f002e85f87e531d49dc023c
     log: |
-         bd37763201433d67ad6847393ebc4c6fb0bafa44 6.2-stable patches
+         f8b299bc6a0f8695d4005ecff29773c79a1d29af libbpf: Add support to set kprobe/uprobe attach mode
+         7391ec6391e2b129aeaee5462487c404f61157aa selftests/bpf: Split test_attach_probe into multi subtests
+         c7aec81b31e43a0aa94ee55d9bb33d70b1046f76 selftests/bpf: Add test for legacy/perf kprobe/uprobe attach mode
+         8f4c92f0024ff2a30f002e85f87e531d49dc023c Merge branch 'libbpf: allow users to set kprobe/uprobe attach mode'
          
-
---===============4342065361768979748==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1678125371 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1678125370-0752a082daf7c16ef97b9ef8cc8362b9017fd2d7
-
-30171421df151b6436229f75f2c598ec05e59088 bd37763201433d67ad6847393ebc4c6fb0bafa44 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQGKTsbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+9kAP/1iFWWvZCijJao/p8qyU
-7Z4d1WiPuc4jawg3dg+h32w9jvJu4uJJT4fwKigJmlxFrKrEc/rBSmAVzG19T+cn
-f+nRkStPSIaoebpt+Zznc6bvjrEe3s5anypHu1iLumfpCeDIrXYAmCE+tC51xS/F
-GMQofbzZsFX+JvQTtXi06/FtRKyH8rdB0JqPXFfIFzwztnXeAS6fNZXc4QmKJpuW
-vZTau6Xeu+9EjkXNANBddMla1TZ9waQXeG6b2BXwYoEUgstIvBQjHtk+1pA/5GUg
-jE9UgKNoDZxSVmIarnJJe0wLliQm6n9wB46O0m+2vmH0ZobapG3xPFwR8wMftU2L
-knfaZBV/wAkdyUIf+FNpU4QHw/MmYi9tsk4gtoY1l830NM4OHQGobmUpwprk68R0
-2QkKHJVbhE6VtEKIGcoeopNizDUlWO72Qq/qvFnxIxRsu8UFIcY8RIXI4S+zGJn2
-RyQJJbBl8fUO/NfARoZVRUrhfaLxPTr/cMOBf9c7MqJEQguRk+SMejvvfA0FwTTn
-b3xjtushSk4M/pag3EMZvU4Ses8dN4VzQBpXpkcOHcqErQVVKyC5B8FmL03FImnJ
-AFiBbrw6j4lMlOCpCyNzkvTbX9YoxqljQ177tRiTg27MMQzWBF+CUSH4H5wEra59
-MVThpM7FHkqnmO7JI0hZwvxl
-=Xnyr
------END PGP SIGNATURE-----
-
---===============4342065361768979748==--
