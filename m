@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6392245152292652500=="
+Content-Type: multipart/mixed; boundary="===============6914219392899189897=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Mon, 06 Mar 2023 08:26:25 -0000
-Message-Id: <167809118558.8921.9105212930237578657@gitolite.kernel.org>
+Date: Mon, 06 Mar 2023 08:26:32 -0000
+Message-Id: <167809119242.9003.2836561699388206411@gitolite.kernel.org>
 
---===============6392245152292652500==
+--===============6914219392899189897==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/brgl/linux
 user: brgl
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/at24/for-next
     old: 1b929c02afd37871d5afb9d498426f83432e71c2
     new: fe15c26ee26efa11741a7b632e9f23b01aca4cc6
     log: revlist-1b929c02afd3-fe15c26ee26e.txt
 
---===============6392245152292652500==
+--===============6914219392899189897==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ f915322fe014c5c515119381e886faf07b3c9d31 Merge tag 'v6.3-p2' of git://git.kernel
 596ff4a09b8981790e15572e8e7bc904df5835e7 cpumask: re-introduce constant-sized cpumask optimizations
 fe15c26ee26efa11741a7b632e9f23b01aca4cc6 Linux 6.3-rc1
 
---===============6392245152292652500==--
+--===============6914219392899189897==--
