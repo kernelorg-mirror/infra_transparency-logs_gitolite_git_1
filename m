@@ -1,19 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bp/bp
-Date: Mon, 06 Mar 2023 09:58:19 -0000
-Message-Id: <167809669928.21746.11144509703436857012@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless-next
+Date: Mon, 06 Mar 2023 10:11:02 -0000
+Message-Id: <167809746274.30213.11044863151146078048@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bp/bp
-user: bp
+repo: pub/scm/linux/kernel/git/wireless/wireless-next
+user: kvalo
 changes:
-  - ref: refs/heads/vp
-    old: 0b02a857ad82a73040076cc7d403bea468225b49
-    new: e50ee898eda5b1ac5214baa814f75b43f03e89c2
+  - ref: refs/heads/main
+    old: 1d5003d05f983eee28756896328e4949d9a97b7f
+    new: ff6f38eb920bd2b86e1d3157a01f409e2dce1320
     log: |
-         e50ee898eda5b1ac5214baa814f75b43f03e89c2 tip/tools/vp: Make misc checks more robust
+         5c48f9432d06bf85ca934d7c4ecb14a7ec0c7f5d wifi: rtw89: fix SER L1 might stop entering LPS issue
+         e5c3da9abd44bee298070d4e66b502067a8f1715 wifi: brcmfmac: pcie: Add 4359C0 firmware definition
+         b7ed9fa2cb76ca7a3c3cd4a6d35748fe1fbda9f6 wifi: rtw88: mac: Return the original error from rtw_pwr_seq_parser()
+         15c8e267dfa62f207ee1db666c822324e3362b84 wifi: rtw88: mac: Return the original error from rtw_mac_power_switch()
+         ff6f38eb920bd2b86e1d3157a01f409e2dce1320 wifi: rtlwifi: rtl8192se: Remove some unused variables
          
