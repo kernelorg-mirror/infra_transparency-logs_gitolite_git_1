@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2830479738126382657=="
+Content-Type: multipart/mixed; boundary="===============3659663505376397794=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/fs/xfs/xfs-linux
-Date: Mon, 06 Mar 2023 18:23:02 -0000
-Message-Id: <167812698256.18019.16904754114880808367@gitolite.kernel.org>
+Date: Mon, 06 Mar 2023 18:23:30 -0000
+Message-Id: <167812701027.18250.10156470916774041990@gitolite.kernel.org>
 
---===============2830479738126382657==
+--===============3659663505376397794==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,22 +15,16 @@ service: git-receive-pack
 repo: pub/scm/fs/xfs/xfs-linux
 user: djwong
 changes:
-  - ref: refs/heads/for-next
-    old: 6e2985c938e8b765b3de299c561d87f98330c546
+  - ref: refs/heads/whatamess
+    old: f78f6535b210d8cdb44620930ac12c853388d506
     new: 8ac5b996bf5199f15b7687ceae989f8b2a410dda
-    log: revlist-6e2985c938e8-8ac5b996bf51.txt
-  - ref: refs/heads/xfs-6.3-fixes
-    old: 0000000000000000000000000000000000000000
-    new: 8ac5b996bf5199f15b7687ceae989f8b2a410dda
-  - ref: refs/tags/xfs-6.3-fixes-1
-    old: 0000000000000000000000000000000000000000
-    new: 5928a43fd3b06b614b8ec8478104f0c4d62dc371
+    log: revlist-f78f6535b210-8ac5b996bf51.txt
 
---===============2830479738126382657==
+--===============3659663505376397794==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6e2985c938e8-8ac5b996bf51.txt
+Content-Disposition: attachment; filename=revlist-f78f6535b210-8ac5b996bf51.txt
 
 2691a27d9b3e6a48adeb87a9dcf4e8a0ca84a26e SUNRPC: Hoist KDF into struct gss_krb5_enctype
 ec4aaab39afcec749ff7ed78e560213ff9e1c23c SUNRPC: Clean up cipher set up for v1 encryption types
@@ -1057,4 +1051,4 @@ fe15c26ee26efa11741a7b632e9f23b01aca4cc6 Linux 6.3-rc1
 0c7273e494dd5121e20e160cb2f047a593ee14a8 xfs: quotacheck failure can race with background inode inactivation
 8ac5b996bf5199f15b7687ceae989f8b2a410dda xfs: fix off-by-one-block in xfs_discard_folio()
 
---===============2830479738126382657==--
+--===============3659663505376397794==--
