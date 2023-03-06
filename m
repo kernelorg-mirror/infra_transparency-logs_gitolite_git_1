@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6828512651186206887=="
+Content-Type: multipart/mixed; boundary="===============8873589187629024112=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Mon, 06 Mar 2023 06:44:59 -0000
-Message-Id: <167808509999.903.11187366822601133397@gitolite.kernel.org>
+Date: Mon, 06 Mar 2023 06:45:17 -0000
+Message-Id: <167808511723.16583.11295730084000871784@gitolite.kernel.org>
 
---===============6828512651186206887==
+--===============8873589187629024112==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/kobject-const
-    old: 0988a0ea791999ebbf95693f2676381825b05033
-    new: fe15c26ee26efa11741a7b632e9f23b01aca4cc6
-    log: revlist-0988a0ea7919-fe15c26ee26e.txt
+  - ref: refs/heads/readfile
+    old: a6dabb99ad462cfee67a9807ae804dcb20d7bb28
+    new: 7cc583a595c9347df8278873b839bcf8316ddadf
+    log: revlist-a6dabb99ad46-7cc583a595c9.txt
 
---===============6828512651186206887==
+--===============8873589187629024112==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1678085099 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1678085114 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1678085099-fe9c3c89f7655a5412f8a717748259beb9aa5658
+nonce 1678085114-6af85507dbcf7d86ee607d27a8d7ef83a55a4a03
 
-0988a0ea791999ebbf95693f2676381825b05033 fe15c26ee26efa11741a7b632e9f23b01aca4cc6 refs/heads/kobject-const
+a6dabb99ad462cfee67a9807ae804dcb20d7bb28 7cc583a595c9347df8278873b839bcf8316ddadf refs/heads/readfile
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQFi+sbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk++GQQAI6sJ+tS192MN6Jibkv3
-VNeUYkw/kQTSUPp93VxnR+x/8Drhnr0y8JiEtk808uTidqiZCB8f6UcB0NoOdoKF
-FqwrNDkGMzLl6jezfsFWjhUBZcaWQ+RCQCNAikMH5N0PoWBdwomlrp0yKLrvlSpA
-mmwKDevHH+CEaHSMuccw4fX68a3bi5zJviDQHERHjnebs7zN44v668J1jWH0xQH8
-7d+BUf7j7j3b1JiEBXihnG71RrIEticVwULKcz04XAztiWy7nCcbc+NdtUDX82Vl
-FGAOAioYe7JIWUPD7wY6eN+Dh/6/0xEexkialGyUpMOZseCQmjFiUdNdxTVzwqvd
-H9hN9ylDrbUGJh8uLQO/0zGOUxHo8xbBq8wE8HzDEQh806Y8VgkEGKv2erea1trn
-pYmbO7bGQgxVFADRFF4jrvizyuNHbPqj/s8zv3TzvGbwwYcMXogYWbiPym0EovTK
-QrM3/SuSv1eIzXk9VCdFsuwM0y7qNsq+Wxw80aadpLBIZh3vcmR/pxVjBV10WDKw
-wqKAj3BXX/Y1svBfc9kI4OodF/1pHVXsFbgehGFezWzOp4WMRwx/tYPimNDr04Kl
-MEPqavRpwnsRLganZHX04TbBoBm3q8EpM79kQT6T0f83u3k2PnTFf1c2ZgBBdBBg
-iB5EySHMAW/BuWLd89wbsUwH
-=ykC4
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQFi/obHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+eh8P/1JUIgpyCRxPMP+k0qQ3
+XjZXpA31V5S7fD/cCsWXTEuDqP5GwYhmcd1c7RXbQXRGzl6RzTG1fAn4DpIZ9qez
+tLubdG3TypJSY3wn44+rc6n/wkG8xjnp0tM2pbXM3cU/Si1f4+qf1YZI5vPpoVyl
+F/9ZAWW/Rr93KwvKPHXLt/V8nUmm10sT670WD/DOUZcfqHHGhs/BoQvjwBTncc55
+GK3tD/RJ6d0wr90toKRrbkECffL1LprJL5eEZaeNl2V/NM0vHXXvZ2HpdsbQL1co
+VK6iMfFP8ZxKQ7h3nslL6IJ77LJeVtVWDXd2Y7hw5itl7fhetyiGioMcXKcg3SD+
+QSehG1+jH+U6Nvh5y8p4VuJ4HmqSRDD7IzNO5nqDvCYT00xJi9gyq1ZitTfRE5AB
+c4cQ6CAM6uXl1HFnlcAcRrXXIhUD6O1JzToD+m3ZUDnfagmK263Winl6BuuWF5Jw
+xEBbxNKMGmndnqC7Ztc3eAllyagjPDPves8KycsQvowb6vqWc9qV4zpt3UL1bXQ7
+2o4qXRzNH1qA4xHRXYSyhtXyQCap478YFDqOWd8GNDGeOTl6nhSCU3fjPT6JY8VC
+w5eDP6M5AQCZBBdKJ3RHfpXtnG48RjoXVlQhPoUxHrklZwa/2CnpGjYhZUbScEvQ
+XEq2CFMLQGU0/vONMZMqxTX7
+=yGfQ
 -----END PGP SIGNATURE-----
 
---===============6828512651186206887==
+--===============8873589187629024112==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0988a0ea7919-fe15c26ee26e.txt
+Content-Disposition: attachment; filename=revlist-a6dabb99ad46-7cc583a595c9.txt
 
 7fde88eda855952766a74026c181c6270b3392fc ASoC: da7219: Improve the IRQ process to increase the stability
 4932b1fa61322b737dc3615a298aafdc42f97f79 ASoC: rsnd: adg: Fix BRG typos
@@ -155,5 +155,9 @@ b01fe98d34f3bed944a93bd8119fed80c856fad8 Merge tag 'i2c-for-6.3-rc1-part2' of gi
 f915322fe014c5c515119381e886faf07b3c9d31 Merge tag 'v6.3-p2' of git://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6
 596ff4a09b8981790e15572e8e7bc904df5835e7 cpumask: re-introduce constant-sized cpumask optimizations
 fe15c26ee26efa11741a7b632e9f23b01aca4cc6 Linux 6.3-rc1
+d7b0af8be8912850ef405b158b98b85d4d4fe611 readfile: implement readfile syscall
+61b002355ae927695ef87e5e2b32cdacae18734b arch: wire up the readfile syscall
+ce9a61ea743ca3494e2b41b265f1808507677b7f selftests: add readfile(2) selftests
+7cc583a595c9347df8278873b839bcf8316ddadf readfile.2: new page describing readfile(2)
 
---===============6828512651186206887==--
+--===============8873589187629024112==--
