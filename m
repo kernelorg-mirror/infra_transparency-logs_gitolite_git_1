@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3659663505376397794=="
+Content-Type: multipart/mixed; boundary="===============4147705101475596345=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/fs/xfs/xfs-linux
-Date: Mon, 06 Mar 2023 18:23:30 -0000
-Message-Id: <167812701027.18250.10156470916774041990@gitolite.kernel.org>
+Date: Mon, 06 Mar 2023 18:30:02 -0000
+Message-Id: <167812740287.22214.4707880164043995780@gitolite.kernel.org>
 
---===============3659663505376397794==
+--===============4147705101475596345==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,24 @@ service: git-receive-pack
 repo: pub/scm/fs/xfs/xfs-linux
 user: djwong
 changes:
-  - ref: refs/heads/whatamess
-    old: f78f6535b210d8cdb44620930ac12c853388d506
-    new: 8ac5b996bf5199f15b7687ceae989f8b2a410dda
-    log: revlist-f78f6535b210-8ac5b996bf51.txt
+  - ref: refs/heads/master
+    old: 1b929c02afd37871d5afb9d498426f83432e71c2
+    new: fe15c26ee26efa11741a7b632e9f23b01aca4cc6
+    log: revlist-1b929c02afd3-fe15c26ee26e.txt
+  - ref: refs/tags/v6.3-rc1
+    old: 0000000000000000000000000000000000000000
+    new: d0656701c5a27a5a8a3a38bc07d18f2e157e963d
+  - ref: refs/tags/v6.2
+    old: 0000000000000000000000000000000000000000
+    new: 32758e7a720e4752a824c6062e75f107314e5598
 
---===============3659663505376397794==
+--===============4147705101475596345==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f78f6535b210-8ac5b996bf51.txt
+Content-Disposition: attachment; filename=revlist-1b929c02afd3-fe15c26ee26e.txt
 
+ae6ad5d0b7901b301234143e93624417ac9fd9ef SUNRPC: Rename .encrypt_v2 and .decrypt_v2 methods
 2691a27d9b3e6a48adeb87a9dcf4e8a0ca84a26e SUNRPC: Hoist KDF into struct gss_krb5_enctype
 ec4aaab39afcec749ff7ed78e560213ff9e1c23c SUNRPC: Clean up cipher set up for v1 encryption types
 8b3a09f3454240cb2c2ab3da02b86f354aab0bd6 SUNRPC: Parametrize the key length passed to context_v2_alloc_cipher()
@@ -830,6 +837,7 @@ c0c33b94cfc23d21f67c7569a8785b33c74d6e3d nvme: fix sparse warning on effects mas
 8ee0d2fb4dfa3465ea2030dec59a6f6fe3005804 s390/setup: do not complain about parameters handled in decompressor
 ae4b60f6b7a8d25c7253cab104468d22efcecf1a s390/nmi: fix virtual-physical address confusion
 ebf95e884694b2c796ecb53d80d2b4cff8990d2f s390/ap,zcrypt,vfio: introduce and use ap_queue_status_reg union
+6e2985c938e8b765b3de299c561d87f98330c546 xfs: restore old agirotor behavior
 b6cc7a0436906b18f51c3e6b1f41d648bf645bd7 Merge tag 'csky-for-linus-6.3' of https://github.com/c-sky/csky-linux
 02a737f4bb22fd72bffb5b4008bbcb773218b5dd Merge tag 'm68knommu-for-v6.3' of git://git.kernel.org/pub/scm/linux/kernel/git/gerg/m68knommu
 5a6d92493bb2e6e0a2fbb4a8b2c7ed97b4a5652b Merge tag 'memblock-v6.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rppt/memblock
@@ -1048,7 +1056,5 @@ b01fe98d34f3bed944a93bd8119fed80c856fad8 Merge tag 'i2c-for-6.3-rc1-part2' of gi
 f915322fe014c5c515119381e886faf07b3c9d31 Merge tag 'v6.3-p2' of git://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6
 596ff4a09b8981790e15572e8e7bc904df5835e7 cpumask: re-introduce constant-sized cpumask optimizations
 fe15c26ee26efa11741a7b632e9f23b01aca4cc6 Linux 6.3-rc1
-0c7273e494dd5121e20e160cb2f047a593ee14a8 xfs: quotacheck failure can race with background inode inactivation
-8ac5b996bf5199f15b7687ceae989f8b2a410dda xfs: fix off-by-one-block in xfs_discard_folio()
 
---===============3659663505376397794==--
+--===============4147705101475596345==--
