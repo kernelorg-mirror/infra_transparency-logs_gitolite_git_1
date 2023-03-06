@@ -1,63 +1,55 @@
-Content-Type: multipart/mixed; boundary="===============5490150734694338688=="
+Content-Type: multipart/mixed; boundary="===============2331738167547274620=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regmap
-Date: Mon, 06 Mar 2023 14:08:44 -0000
-Message-Id: <167811172438.2717.650354217223285123@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 06 Mar 2023 14:08:50 -0000
+Message-Id: <167811173080.2852.254338946793309589@gitolite.kernel.org>
 
---===============5490150734694338688==
+--===============2331738167547274620==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regmap
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.3
+  - ref: refs/heads/regmap-6.3
     old: c74e7af1245b2073930afc9a2a340d91e08f0f14
     new: fe15c26ee26efa11741a7b632e9f23b01aca4cc6
     log: revlist-c74e7af1245b-fe15c26ee26e.txt
-  - ref: refs/heads/for-6.4
-    old: fe15c26ee26efa11741a7b632e9f23b01aca4cc6
+  - ref: refs/heads/regmap-6.4
+    old: 0000000000000000000000000000000000000000
     new: 054a0da568b94f6b69ccf34b80f7c41a6623eb11
-    log: |
-         6466b376e927d51ea3eadc1965714305d8c3c066 regmap: sdw: Update misleading comment
-         522272047dc631610dd180be0c3670043bcdf42e regmap: sdw: Remove 8-bit value size restriction
-         4d60cac951fd2dfbf261b83abb805748abc8b995 regmap-irq: Add no_status support
-         9b400171a69d2487c3196cc3b6de60de3b08e1ee regmap-irq: Place kernel doc of struct regmap_irq_chip in order
-         2614d66a03ddbf50edae36d9c4be4bf487eaaddb Minor SoundWire Regmap Tweaks
-         054a0da568b94f6b69ccf34b80f7c41a6623eb11 regmap: Add support for devices with no interrupt readback
-         
 
---===============5490150734694338688==
+--===============2331738167547274620==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1678111722 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regmap.git
-nonce 1678111721-01a3e9d60b53ee76a35c6354882fe6c122110a0c
+pusher C3F436CA30F5D8EB 1678111729 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1678111728-8ce2579d1db967d86aafc2ea2bb72ecc7cd8c9b9
 
-c74e7af1245b2073930afc9a2a340d91e08f0f14 fe15c26ee26efa11741a7b632e9f23b01aca4cc6 refs/heads/for-6.3
-fe15c26ee26efa11741a7b632e9f23b01aca4cc6 054a0da568b94f6b69ccf34b80f7c41a6623eb11 refs/heads/for-6.4
+c74e7af1245b2073930afc9a2a340d91e08f0f14 fe15c26ee26efa11741a7b632e9f23b01aca4cc6 refs/heads/regmap-6.3
+0000000000000000000000000000000000000000 054a0da568b94f6b69ccf34b80f7c41a6623eb11 refs/heads/regmap-6.4
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmQF8+oACgkQJNaLcl1U
-h9A0swf7BB8g7vKtIWQTlE7mrYS/khWVqF3pvOPL2WBxe6ZeTh5cBlGMjcZV4Knj
-J1Ohv9gHAQsHUdy/8+A1gN4qPuXhTY5pt66jUlIqN8lani+otDLoj3J3Ez3pgBqG
-NEDOr6jdyGq2lQ6u5jH/tk1mYjvfEeuWdBe6kGuRU0xcHjCSXGjYU1ORSotUrlWn
-KIi0veVjuwY6ncIc6vrvzB6MhhVatFiWaGNHTw2GRGJaS6eBP2Ja3V6+tLrwxXzg
-HZAFnyxu0HszLZr9NWVRYt9KnKcadeJXfZw3ACwoqqR26z0xwxZPiSaawqjiAKOs
-GVTecOnqqU38xRitT5YEoh8+Vct++g==
-=JXMu
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmQF8/EACgkQJNaLcl1U
+h9Dl3wf+M2szym90P1zNOYeTdQiIGVYUqGOFrr2j8DFGtA0wQoq49lrXTp0EZVLk
+lv4bXDdauimTPwuMOzf4wFXq9bqJzAudvpHO8OrMKXuANG4eszWECthi4FLXlB1u
+6hnkTCbiGMSrx/Uaw2RKq9RSBtRDj4Db6zINcVMLxkX0ZY1OCwgYarHARVFMNdcy
+6xJAG9ic/iqcBYljKea47iYGso9vQCHnyzYWL8yQLM4ORlwjcmX2wPJGgPN0cS0g
+3NLBJsmkx9FRyAN0EhriDaIw9+U+WH7EEM8wN1FvGgxKYVkrmXZRHqmnJbjEsOc4
+EZNfBIO1gn7BT3Ij9UiaZg2D+8uVHg==
+=ICNV
 -----END PGP SIGNATURE-----
 
---===============5490150734694338688==
+--===============2331738167547274620==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1088,4 +1080,4 @@ f915322fe014c5c515119381e886faf07b3c9d31 Merge tag 'v6.3-p2' of git://git.kernel
 596ff4a09b8981790e15572e8e7bc904df5835e7 cpumask: re-introduce constant-sized cpumask optimizations
 fe15c26ee26efa11741a7b632e9f23b01aca4cc6 Linux 6.3-rc1
 
---===============5490150734694338688==--
+--===============2331738167547274620==--
