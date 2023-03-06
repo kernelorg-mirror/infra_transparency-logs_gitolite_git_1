@@ -1,53 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============8060489243843676709=="
+Content-Type: multipart/mixed; boundary="===============2346181927911186225=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Mon, 06 Mar 2023 06:49:51 -0000
-Message-Id: <167808539136.5858.4446835686346526242@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Mon, 06 Mar 2023 06:52:27 -0000
+Message-Id: <167808554769.8234.7557325632562606155@gitolite.kernel.org>
 
---===============8060489243843676709==
+--===============2346181927911186225==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/v6.3-rc1
-    old: 0000000000000000000000000000000000000000
-    new: d0656701c5a27a5a8a3a38bc07d18f2e157e963d
+  - ref: refs/heads/driver-core-linus
+    old: fe15c26ee26efa11741a7b632e9f23b01aca4cc6
+    new: ec738ca127d07ecac6afae36e2880341ec89150e
+    log: |
+         ec738ca127d07ecac6afae36e2880341ec89150e mtd: spi-nor: fix memory leak when using debugfs_lookup()
+         
 
---===============8060489243843676709==
+--===============2346181927911186225==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1678085389 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc
-nonce 1678085388-5219a4d0508ff8d13127a378a223cf36f0affd05
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1678085545 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1678085545-5811dd0a3e914f34b8220f4ccec099122c6d1bf2
 
-0000000000000000000000000000000000000000 d0656701c5a27a5a8a3a38bc07d18f2e157e963d refs/tags/v6.3-rc1
+fe15c26ee26efa11741a7b632e9f23b01aca4cc6 ec738ca127d07ecac6afae36e2880341ec89150e refs/heads/driver-core-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQFjQ0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+09sP/2PnIl+gVgacxso3q7HN
-sDU3aX/PCzWmhB1XkzZTWQtxZ9R0sQ8Fdh1EJS/QDlWmFrgSOvu4xnp7+DR6bxqJ
-9dzSi0qymIrDtadxhuACLwzn1l3J9P7Y0mS9oUSKbLpVjAVosTtLvGu4hPwXcNRr
-KfBOUNb/jeQYjFjFIiTGaacu6Gh2o8uWQvVbNSQwgse70ujVqkTUVUsDuLj2rtMD
-zYnV47fjF+tvL2CC8xfady6vRrE1UlVTGuq5lWZ0oNNElEE4a8C8+6TsNFp89Grd
-AdmHLTGBOEBupjhJDmOqEwPb8f35jMWPY8Rq0Fc8y7DOO/u1bym3REK+XYKsrbCc
-iOuOeDJGtwtvXOOwjN/C8rdDZc1C0pWJQ+sUBD+peXsbz53MOykg8Dad4t+552Oq
-wPVhGso4IBzzWSS2AhXorwWVA1s0WZZed6CgC6ZWE7PjQFEdX61l5fCnTxGf13mG
-cVjvpfuBcbH9Gj0YYw70SVocg3Z8Uthi4DKdpFnDp5rcUs4sK+ADuSV04ll5elDL
-+b4rMCwncRiYl3hNlUYU87GZW3hSPynObPk/WX3D9AcAsYintNWq4pcFTF+RWIXY
-efdeuIcfT8WBOtQoFx4qdl5oetk19sm04+7SnyG/W1d5914RUkPwsjOo18pfbYHZ
-O0d1xrM7iV8HJsuii94dpP2X
-=EL4f
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQFjakbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+XGEP/AuT/f4BMNA0EUQjI2xu
+vVKpbefNBanPBH4SwmAle9+ZLS7LmcvvKBRsMr/dJZ677rulTVH/sAVlTIBO5ovQ
+aYO+wMUoW6t5Lr4Mb/vullGntJ3bytNbGUgCTfQx6xYqRQ9/V77Ubx0fApHcnsf0
+aMoVX2ewF9xtqm92DK/6ZZ21OKOaR2YeQtIOKT2xOflHLnQE6Ld9ebD8rtO4nbfS
+QghTZ+I1ak5VbuJQai6smnw+CtMZTeQNsCcC2nA7DWjYWsbFRCoTSIjqCOVMMWQV
+oaXl0ltkxLIER8I5DiFMRxT/XsWx9N+XxjwVbugdDFv5M17tMV65itbK6yNHgaoG
+BJSEkvmOTCQjRuJpObBxRE+c50Xb1p/vh7KQS0lrAAvtKS92F/Y+5OkK2OEmewbX
+lUqcE2VmgKbpNeLGhoYhtdHjy98hg+uwVEjJBrjAxGhgDBAiFtYIevgsY+FGRywB
+WsEn+Jg+hFz0UnQLc5vlL6CHUO0L/ZmqsdSknui4fgiWf0EDmBE1YIjEhjguNwFc
+S/QUMxNtSL+p318W3CkZYw36ZjbHawJnkTd+wU+oJtzi1rguUTiQveAuAI1s71aD
+ccvvcjxxvSqEmkMFNyGGYUn/yeGtp6sbfXoN6FZliMWVPdPy5qmyV88YVsTUhqL3
+rP0dT5kkdDj3zO4M5fIOSPfK
+=pZCi
 -----END PGP SIGNATURE-----
 
---===============8060489243843676709==--
+--===============2346181927911186225==--
