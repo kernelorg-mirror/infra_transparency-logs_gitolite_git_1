@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3577982272857165576=="
+Content-Type: multipart/mixed; boundary="===============6629009498662168601=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Mon, 06 Mar 2023 08:26:16 -0000
-Message-Id: <167809117655.8744.5245395292451814981@gitolite.kernel.org>
+Date: Mon, 06 Mar 2023 08:26:20 -0000
+Message-Id: <167809118093.8854.1067693839992366198@gitolite.kernel.org>
 
---===============3577982272857165576==
+--===============6629009498662168601==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/brgl/linux
 user: brgl
 changes:
-  - ref: refs/heads/gpio/for-next
-    old: 4827aae061337251bb91801b316157a78b845ec7
+  - ref: refs/heads/gpio/for-current
+    old: c9c3395d5e3dcc6daee66c6908354d47bf98cb0c
     new: fe15c26ee26efa11741a7b632e9f23b01aca4cc6
-    log: revlist-4827aae06133-fe15c26ee26e.txt
+    log: revlist-c9c3395d5e3d-fe15c26ee26e.txt
 
---===============3577982272857165576==
+--===============6629009498662168601==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4827aae06133-fe15c26ee26e.txt
+Content-Disposition: attachment; filename=revlist-c9c3395d5e3d-fe15c26ee26e.txt
 
 ae6ad5d0b7901b301234143e93624417ac9fd9ef SUNRPC: Rename .encrypt_v2 and .decrypt_v2 methods
 2691a27d9b3e6a48adeb87a9dcf4e8a0ca84a26e SUNRPC: Hoist KDF into struct gss_krb5_enctype
@@ -1051,4 +1051,4 @@ f915322fe014c5c515119381e886faf07b3c9d31 Merge tag 'v6.3-p2' of git://git.kernel
 596ff4a09b8981790e15572e8e7bc904df5835e7 cpumask: re-introduce constant-sized cpumask optimizations
 fe15c26ee26efa11741a7b632e9f23b01aca4cc6 Linux 6.3-rc1
 
---===============3577982272857165576==--
+--===============6629009498662168601==--
