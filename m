@@ -1,31 +1,61 @@
-Content-Type: multipart/mixed; boundary="===============7107585228976708262=="
+Content-Type: multipart/mixed; boundary="===============1072868596602278670=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/shawnguo/linux
-Date: Mon, 06 Mar 2023 03:19:41 -0000
-Message-Id: <167807278132.27823.16583592616151033978@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
+Date: Mon, 06 Mar 2023 04:21:01 -0000
+Message-Id: <167807646132.4906.11645682075356034469@gitolite.kernel.org>
 
---===============7107585228976708262==
+--===============1072868596602278670==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/shawnguo/linux
-user: shawnguo
+repo: pub/scm/linux/kernel/git/viro/vfs
+user: viro
 changes:
-  - ref: refs/heads/for-next
-    old: fd5368f6f08b283f15b162a4b6f3608fa974df60
-    new: b4c329e3122cd69313f446a9fe2d6f009420fbe6
-    log: revlist-fd5368f6f08b-b4c329e3122c.txt
+  - ref: refs/heads/work.ext2
+    old: 89ddc26f5ef97e4c0a1af98dc44dc40bc1e82412
+    new: 16a5ee2027b7f4208ea2b8ed9860e3401ac59cd5
+    log: revlist-89ddc26f5ef9-16a5ee2027b7.txt
 
---===============7107585228976708262==
+--===============1072868596602278670==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fd5368f6f08b-b4c329e3122c.txt
+Content-Disposition: attachment; filename=revlist-89ddc26f5ef9-16a5ee2027b7.txt
 
+a40cf7530d3104793f9361e69e84ada7960724f2 SUNRPC: Add gk5e definitions for RFC 8009 encryption types
+ae2e4d2bae0007b040e8327f123911c0a6b24d68 SUNRPC: Add KDF-HMAC-SHA2
+0d5b5a0f32dfc9be3521803aba53e856759f0250 SUNRPC: Add RFC 8009 encryption and decryption functions
+f26ec6b1b15c5d84e4c8e5b361e2be119def498d SUNRPC: Advertise support for RFC 8009 encryption types
+3394682fba3b9010c6147e94f37633f044876e5e SUNRPC: Support the Camellia enctypes
+45b4ef46b5e88ced7edd4fba26b5fa0e3103de0b SUNRPC: Add KDF_FEEDBACK_CMAC
+6e6d9eee0e78b3d13018e0eb28102b67ad5a8e86 SUNRPC: Advertise support for the Camellia encryption types
+6e460c230d2dfb0e5a02b6e0995546bb4b9d208e SUNRPC: Move remaining internal definitions to gss_krb5_internal.h
+eebd8c2d1978f5cb6e76e4e3045220b67548cb79 SUNRPC: Add KUnit tests for rpcsec_krb5.ko
+ddd8c1f975ee7c2fc60ea836540b5b10f97ac919 SUNRPC: Export get_gss_krb5_enctype()
+6eb6b8a446a174586427d1a0ab0f7635b05b44f7 SUNRPC: Add KUnit tests RFC 3961 Key Derivation
+e1a9a3849dff9cd980fdccaa8f09cf9226f46a3a SUNRPC: Add Kunit tests for RFC 3962-defined encryption/decryption
+35f6e42e813e51fb3a40f74f23a99aa330254ce8 SUNRPC: Add KDF KUnit tests for the RFC 6803 encryption types
+02142b2ca8fc10d7771b650780ae082369632dc0 SUNRPC: Add checksum KUnit tests for the RFC 6803 encryption types
+b958cff6b27b763b824ed6eefb28979d8f459bf4 SUNRPC: Add encryption KUnit tests for the RFC 6803 encryption types
+fcbad14b585d706337f16300747069b34c77e630 SUNRPC: Add KDF-HMAC-SHA2 Kunit tests
+003caf4f8c6af53ac48759669f0bd0dd7f69e6f5 SUNRPC: Add RFC 8009 checksum KUnit tests
+4d2d15c0f1e05ef2478d4891b79570a87c5dd1a6 SUNRPC: Add RFC 8009 encryption KUnit tests
+c4a9f0552cf682489d370adccf2f3ee11a8ff272 SUNRPC: Add encryption self-tests
+fcb530973b3c48099108e6e2e7433db9188f7eeb nfsd: don't take nfsd4_copy ref for OP_OFFLOAD_STATUS
+45ba66cc2ca22a492fb16474d1af804388757a35 nfsd: eliminate find_deleg_file_locked
+ee97e7301582e3100d396e1cf45c7f5a74c7be97 nfsd: add some kerneldoc comments for stateid preprocessing functions
+edd2f5526ea87cf6fc66a08bc8a1fbb6022a502f nfsd: eliminate __nfs4_get_fd
+ecfa3987731b1ceb7964075cdc0235da1765622a SUNRPC: Fix whitespace damage in svcauth_unix.c
+1f0001d43d0c0ac2a19a34a914f6595ad97cbc1d nfsd: zero out pointers after putting nfsd_files on COPY setup error
+6ba434cb1a8d403ea9aad1b667c3ea3ad8b3191f nfsd: clean up potential nfsd_file refcount leaks in COPY codepath
+34e8f9ec4c9ac235f917747b23a200a5e0ec857b NFSD: fix leaked reference count of nfsd4_ssc_umount_item
+4dbca1c3c6dd0f21b1b6c5898b7579d465d30468 nfsd: remove fs/nfsd/fault_inject.c
+fcebda5a5d0d53f5603e7b9c04b5b63abe4bac03 SUNRPC: Clean up the svc_xprt_flags() macro
+319951eba0fc412a78a8fe3d2ee5e143cc318c14 SUNRPC: Remove ->xpo_secure_port()
 826b67e6376c2a788e3a62c4860dcd79500a27d5 nfsd: don't hand out delegation on setuid files being opened for write
 fb610c4dbc996415d57d7090957ecddd4fd64fb6 nfsd: fix race to check ls_layouts
 81e722978ad21072470b73d8f6a50ad62c7d5b7d NFSD: fix problems with cleanup on errors in nfsd4_copy
@@ -1014,41 +1044,11 @@ b01fe98d34f3bed944a93bd8119fed80c856fad8 Merge tag 'i2c-for-6.3-rc1-part2' of gi
 f915322fe014c5c515119381e886faf07b3c9d31 Merge tag 'v6.3-p2' of git://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6
 596ff4a09b8981790e15572e8e7bc904df5835e7 cpumask: re-introduce constant-sized cpumask optimizations
 fe15c26ee26efa11741a7b632e9f23b01aca4cc6 Linux 6.3-rc1
-2ab3f84c18a94875c0fb0d474ced86619f6e550e dt-bindings: arm: fsl: Add i.MX8MM-EVKB
-c288f420e3c68df5ea750eec54a0aedba8ff59aa arm64: dts: imx8mm-evkb: add support for i.MX8MM-EVKB
-5e16360a01e6b58862a22711d5c6565f1a106b00 ARM: imx6q: skip ethernet refclock reconfiguration if enet_clk_ref is present
-e87f3be1c7f88ae10bbf100da1e6dc5939de7378 ARM: mach-imx: imx6ul: remove not optional ethernet refclock overwrite
-4a25aa8a308831f137a542e2cedf7a507301b0fc ARM: dts: imx7d: add node for PXP
-006ab3142f313129e505375f68a0e5fda1c5a5d4 ARM: dts: imx6qdl: use enet_clk_ref instead of enet_out for the FEC node
-d289654fd62b5fc21b81e23ead100e4d47ee2db7 ARM: dts: imx6dl-lanmcu: configure ethernet reference clock parent
-aad004c1382c186d1c787155f8ce8a5ee98a9974 ARM: dts: imx6dl-alti6p: configure ethernet reference clock parent
-5417c655b98ed385d18695a9fbb384883a0d1f47 ARM: dts: imx6dl-plybas: configure ethernet reference clock parent
-887185649c7ee8a9cc2d4e94de92bbbae6cd3747 ARM: dts: imx6dl-plym2m: configure ethernet reference clock parent
-03c8a3c719884cb6a7e0f1cb328d58ee13d445d7 ARM: dts: imx6dl-prtmvt: configure ethernet reference clock parent
-2c23a919d655700f2b567ced1ed0307bfdede05e ARM: dts: imx6dl-victgo: configure ethernet reference clock parent
-c812c91bda8d3b4d9ea23c52bf88a20de64f7487 ARM: dts: imx6q-prtwd2: configure ethernet reference clock parent
-c89614079e447824786a3064758ef7e53c3eddc3 ARM: dts: imx6qdl-skov-cpu: configure ethernet reference clock parent
-088e350d2bb29756671f73639e65ba2b897e57a4 ARM: dts: imx6dl-eckelmann-ci4x10: configure ethernet reference clock parent
-8940c105273fcde00a60023f68f8a5b75e1df0cc ARM: dts: imx6ul: set enet_clk_ref to CLK_ENETx_REF_SEL
-37c24ed660e4ddaa1a562c75b158128a5515571e ARM: dts: imx6ul-prti6g: configure ethernet reference clock parent
-189cfa849d22c6ec39e7fac8d573075b35f865a2 firmware: imx: scu: use dev_err_probe
-fd4334a06d452ce89a0bb831b03130c51331d927 arm64: dts: freescale: imx8-ss-lsio: Fix flexspi clock order
-2a88e4792c6df4b6a93f2bdb1eaf0df7408bd40d bus: imx-weim: Remove open coded "ranges" parsing
-916508c30e22f658f12dc736f8198d8a096cb24d Revert "arm64: dts: ls1028a: sl28: get MAC addresses from VPD"
-300bd129f93ffc4dccb591cdd5aef378f0461467 firmware: imx: scu-pd: add missed lvds lpi2c and pwm power domains
-87177d3be7270331f04a82df2aa604c257630684 dt-bindings: arm: fsl: add toradex,apalis-imx8 et al.
-c4c2332739e09f4bc389a65a9ffef3aa91095e8f arm64: dts: freescale: imx8-ss-lsio: add support for lsio_pwm0-3
-c827da1e2101089a6e159170eb626551510111fd arm64: dts: imx8-ss-dma: add io-channel-cells to adc nodes
-f2421ae4ab95e8794c5ca9611ad3f43f87caa78b arm64: dts: freescale: imx8-ss-dma: set lpspi0 max frequency to 60mhz
-a3478eb3b48452df0a6bea7e6cb921764b01eca2 arm64: dts: imx8qxp: add flexcan in adma
-2794b5aba0ee9c84d78f527e2ac737422fb08c70 arm64: dts: imx8qm: add can node in devicetree
-967af5bc085ef58cd5c0da4072dc9a9f9b02a4ae arm64: dts: imx8qm: add vpu decoder and encoder
-f31faf60bda1a6f37822190b31f06d310b0ed2fa arm64: dts: freescale: add initial apalis imx8 aka quadmax module support
-6d23f305b41712d4dd77730aed6e8bf484ec9410 arm64: dts: freescale: add apalis imx8 aka quadmax carrier board support
-1aa6733e919d8addea2febbebefe245a62903c06 Merge branch 'imx/drivers' into for-next
-b490ef25a38c6a9442969c0458e46fb4ea09476a Merge branch 'imx/soc' into for-next
-a678c1b2ff578e9033efae807ca37f6459063fda Merge branch 'imx/bindings' into for-next
-07c8c48ffcfdb7416eab08603a014857c7dfbb7d Merge branch 'imx/dt' into for-next
-b4c329e3122cd69313f446a9fe2d6f009420fbe6 Merge branch 'imx/dt64' into for-next
+522dad11d7a9eb642f8367bdb24bf11d29a499fd ext2_rename(): set_link and delete_entry may fail
+f5b3993737561edd6642344838ab1daa8d9b1bf2 ext2: use offset_in_page() instead of open-coding it as subtraction
+c7248e221fb5ece4c35501aa57774e02a35a49b3 ext2_get_page(): saner type
+470e54a09898e7a93543ef7d3da035bba1f0780e ext2_put_page(): accept any pointer within the page
+15abcc147cf7c4f3d71056475180f9667f09fe29 ext2_{set_link,delete_entry}(): don't bother with page_addr
+16a5ee2027b7f4208ea2b8ed9860e3401ac59cd5 ext2_find_entry()/ext2_dotdot(): callers don't need page_addr anymore
 
---===============7107585228976708262==--
+--===============1072868596602278670==--
