@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============8291926252758202870=="
+Content-Type: multipart/mixed; boundary="===============2150845138612511171=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/samsung
-Date: Mon, 06 Mar 2023 12:37:46 -0000
-Message-Id: <167810626660.2060.13049796435652807660@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
+Date: Mon, 06 Mar 2023 12:37:59 -0000
+Message-Id: <167810627901.2212.5771157142364881757@gitolite.kernel.org>
 
---===============8291926252758202870==
+--===============2150845138612511171==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pinctrl/samsung
+repo: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
 user: krzk
 changes:
-  - ref: refs/heads/pinctrl-next
-    old: 1b929c02afd37871d5afb9d498426f83432e71c2
+  - ref: refs/heads/for-next
+    old: 957b573ea840b5f2a440ec858886916d9bc7df33
     new: fe15c26ee26efa11741a7b632e9f23b01aca4cc6
-    log: revlist-1b929c02afd3-fe15c26ee26e.txt
+    log: revlist-957b573ea840-fe15c26ee26e.txt
 
---===============8291926252758202870==
+--===============2150845138612511171==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1b929c02afd3-fe15c26ee26e.txt
+Content-Disposition: attachment; filename=revlist-957b573ea840-fe15c26ee26e.txt
 
 ae6ad5d0b7901b301234143e93624417ac9fd9ef SUNRPC: Rename .encrypt_v2 and .decrypt_v2 methods
 2691a27d9b3e6a48adeb87a9dcf4e8a0ca84a26e SUNRPC: Hoist KDF into struct gss_krb5_enctype
@@ -1051,4 +1051,4 @@ f915322fe014c5c515119381e886faf07b3c9d31 Merge tag 'v6.3-p2' of git://git.kernel
 596ff4a09b8981790e15572e8e7bc904df5835e7 cpumask: re-introduce constant-sized cpumask optimizations
 fe15c26ee26efa11741a7b632e9f23b01aca4cc6 Linux 6.3-rc1
 
---===============8291926252758202870==--
+--===============2150845138612511171==--
