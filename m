@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3126398535226803114=="
+Content-Type: multipart/mixed; boundary="===============3207185642379698597=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 07 Mar 2023 21:28:27 -0000
-Message-Id: <167822450788.7570.6329123400353117214@gitolite.kernel.org>
+Date: Tue, 07 Mar 2023 21:29:05 -0000
+Message-Id: <167822454506.7846.8341065665004012467@gitolite.kernel.org>
 
---===============3126398535226803114==
+--===============3207185642379698597==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 5ca26d6039a6b42341f7f5cc8d10d30ca1561a7b
-    new: 36e5e391a25af28dc1f4586f95d577b38ff4ed72
-    log: revlist-5ca26d6039a6-36e5e391a25a.txt
+  - ref: refs/heads/dev-queue
+    old: dea8af15beea805a058f760993b6f816c4c45d08
+    new: e4519b03922f4f6388064e6069c1bf9e7a7aeffc
+    log: revlist-dea8af15beea-e4519b03922f.txt
 
---===============3126398535226803114==
+--===============3207185642379698597==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5ca26d6039a6-36e5e391a25a.txt
+Content-Disposition: attachment; filename=revlist-dea8af15beea-e4519b03922f.txt
 
 6715df8d5d24655b9fd368e904028112b54c7de1 bpf: Allow reads from uninit stack
 6338a94d5ab42a94e96ea36edc5f7df1fe73e68e selftests/bpf: Tests for uninitialized stack reads
@@ -122,5 +122,48 @@ f8b299bc6a0f8695d4005ecff29773c79a1d29af libbpf: Add support to set kprobe/uprob
 c7aec81b31e43a0aa94ee55d9bb33d70b1046f76 selftests/bpf: Add test for legacy/perf kprobe/uprobe attach mode
 8f4c92f0024ff2a30f002e85f87e531d49dc023c Merge branch 'libbpf: allow users to set kprobe/uprobe attach mode'
 36e5e391a25af28dc1f4586f95d577b38ff4ed72 Merge tag 'for-netdev' of https://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf-next
+3fd0b0123632e6c03cae88c275962e6c655c3d5f igc: Clean up and optimize watchdog task
+31c398bfe6ee9083b13f5e69b48440782cd2e22d intel/igbvf: free irq on the error path in igbvf_request_msix()
+5a5723178cd13f4d81459a6fef39e4653b40c747 igb: Enable SR-IOV after reinit
+32def9483c8f5e5a86224d83ebfba462e78e929e igbvf: Regard vf reset nack as success
+df9f00b3254ab6cff9d0182ce74a171a128cabf3 ice: Fix DSCP PFC TLV creation
+2ba42f708bb99ac1253b5f537ff66c6a196d2564 ice: add FDIR counter reset in FDIR init stage
+a571758589be261fd04ea45845d5431c8b8d158f ice: don't ignore return codes in VSI related code
+2ccbfc795eb46aa7d0999519b2a51efd8f58cee1 ethernet: ice: avoid gcc-9 integer overflow warning
+7c1be57cbccd9ffbecbd0863ee7e4d9fa9915a5a i40e: Add ability to change VFs default MAC address
+ebab054527c92aebb7f46b274ec4f2e6f818fe9f ice: xsk: disable txq irq before flushing hw
+6d364416929703e99dc2909ad9db89574b9408eb igc: offload queue max SDU from tc-taprio
+acc5b66f384108e9b8a2d8a941dd20c426bc39db igc: Add qbv_config_change_errors counter
+d6ff154a0df4a33d7efe825567ae36a77d7e7e5a ice: Write all GNSS buffers instead of first one
+b801661d8e79295ef1e62e01b2bcf5d6485d0038 i40e: consolidate maximum frame size calculation for vsi
+3abd74ef4bd11d48d1e7eacf3c2e12ead9fce1d4 i40e: change Rx buffer size for legacy-rx to support XDP multi-buffer
+7153fef32a5b393e0dc62f0cb388222ea986520e i40e: add pre-xdp page_count in rx_buffer
+2e4cdb45087881583bbb73c1b153db4f9712865a i40e: Change size to truesize when using i40e_rx_buffer_flip()
+604b46c19c6f5acc81a82ded82392270e06894c7 i40e: use frame_sz instead of recalculating truesize for building skb
+393f486ebf52202b7f2513957f1d971f515b14bf i40e: introduce next_to_process to i40e_ring
+b85a052108012468ed30cfeb109c025fcbb38d0f i40e: add xdp_buff to i40e_ring struct
+2d5aff4462ae7939c0d7a021ff1ced7b430d4b0e i40e: add support for XDP multi-buffer Rx
+caf7b41d0ff9e28ff6b78f1e3f92deef17202c8d ice: re-order ice_mbx_reset_snapshot function
+8453521bd85ed927607536f527ea7cadcd291811 ice: convert ice_mbx_clear_malvf to void and use WARN
+536bd8b3243572318e3d069682b5187fcaa0721c ice: track malicious VFs in new ice_mbx_vf_info structure
+5fd40e7625b8ec62132b9f3efa1d52740927a6bd ice: move VF overflow message count into struct ice_mbx_vf_info
+3e8c9893b259f5386d6d23bd9559d3fbd559e355 ice: remove ice_mbx_deinit_snapshot
+c5205ed38c3e6e4b88400f14c77f8efa25ee8b18 ice: merge ice_mbx_report_malvf with ice_mbx_vf_state_handler
+43dcd29d422fe40e0dd58dea380c9c03f82d1e95 ice: initialize mailbox snapshot earlier in PF init
+a50380384a6a0b56f69a3501d3015831df325df5 ice: declare ice_vc_process_vf_msg in ice_virtchnl.h
+db40f1613593c3ef30d30edecad41798c586f22b ice: always report VF overflowing mailbox even without PF VSI
+2e9a56d1f9ca7c0964275aebc4f394338e3d03a2 ice: remove unnecessary &array[0] and just use array
+09997b284bfa4906adf5b8edcf7c98370dab57eb ice: pass mbxdata to ice_is_malicious_vf()
+97eec0141935cbe5389270352884de9015ee41d1 ice: print message if ice_mbx_vf_state_handler returns an error
+49f088088cc7b59ad7be7b63a0d7db5374fd7059 ice: move ice_is_malicious_vf() to ice_virtchnl.c
+64e8eacb063b7a3d4fc3f0b70849731bca017f3c ice: call ice_is_malicious_vf() from ice_vc_process_vf_msg()
+b35a9eb28d582d213121b90a91f0a6ec27e89989 i40e: Fix kernel crash during reboot when adapter is in recovery mode
+a69e40370fae4261696c74ab637ab161d1647bcf igc: Remove obsolete DMA coalescing code
+c7e165c7a075b294be5a9ab4b0c1ac16a9375bb1 ice: avoid bonding causing auxiliary plug/unplug under RTNL lock
+0d5db733e906d999babaf577582e3ed7fa325453 ice: remove comment about not supporting driver reinit
+f1bf4b47a72b874e2a3a22f631b6bafb0f5f504c iavf: fix inverted Rx hash condition leading to disabled hash
+f90a956c054a72c41e2cef482e668bcbc1179837 iavf: fix non-tunneled IPv6 UDP packet type and hashing
+80362f6022bdd5b4158aaad75bc559c6e6718b6a ice: copy last block omitted in ice_get_module_eeprom()
+e4519b03922f4f6388064e6069c1bf9e7a7aeffc igbvf: add PCI reset handler functions
 
---===============3126398535226803114==--
+--===============3207185642379698597==--
