@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5219872897847377049=="
+Content-Type: multipart/mixed; boundary="===============2002039999985479856=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mmind/linux-rockchip
-Date: Tue, 07 Mar 2023 23:33:25 -0000
-Message-Id: <167823200594.26852.6049365123841432484@gitolite.kernel.org>
+Date: Tue, 07 Mar 2023 23:33:48 -0000
+Message-Id: <167823202832.27026.5641539917294034298@gitolite.kernel.org>
 
---===============5219872897847377049==
+--===============2002039999985479856==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,49 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mmind/linux-rockchip
 user: mmind
 changes:
-  - ref: refs/heads/master
-    old: 1b929c02afd37871d5afb9d498426f83432e71c2
-    new: fe15c26ee26efa11741a7b632e9f23b01aca4cc6
-    log: revlist-1b929c02afd3-fe15c26ee26e.txt
-  - ref: refs/heads/v6.4-armsoc/dts64
-    old: 0000000000000000000000000000000000000000
-    new: f94c11ade1461b9cbae1e8d2e03efa7d4dc178f0
-  - ref: refs/heads/v6.3-armsoc/dtsfixes
-    old: 0000000000000000000000000000000000000000
-    new: 78aedee18a86abb0bb8e31d994467c46656e9b5d
-  - ref: refs/heads/v6.4-clk/next
-    old: 0000000000000000000000000000000000000000
-    new: 933bf364e152cd60902cf9585c2ba310d593e69f
-  - ref: refs/tags/v6.3-rc1
-    old: 0000000000000000000000000000000000000000
-    new: d0656701c5a27a5a8a3a38bc07d18f2e157e963d
-  - ref: refs/tags/v6.2
-    old: 0000000000000000000000000000000000000000
-    new: 32758e7a720e4752a824c6062e75f107314e5598
-  - ref: refs/tags/v6.2-rc8
-    old: 0000000000000000000000000000000000000000
-    new: 51c32cc368b00aae605286cad9150cefa0adbf2d
-  - ref: refs/tags/v6.2-rc7
-    old: 0000000000000000000000000000000000000000
-    new: 53b3c6467004c627f42d96ef839b223a749bcdd9
+  - ref: refs/heads/for-next
+    old: cc2b5be472c0ade7b8a61e6c4b2c15a3bf67fe32
+    new: 2500bdb1b0b49a14250a07b6cc7b1df4d2683975
+    log: revlist-cc2b5be472c0-2500bdb1b0b4.txt
 
---===============5219872897847377049==
+--===============2002039999985479856==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1b929c02afd3-fe15c26ee26e.txt
+Content-Disposition: attachment; filename=revlist-cc2b5be472c0-2500bdb1b0b4.txt
 
-ae6ad5d0b7901b301234143e93624417ac9fd9ef SUNRPC: Rename .encrypt_v2 and .decrypt_v2 methods
-2691a27d9b3e6a48adeb87a9dcf4e8a0ca84a26e SUNRPC: Hoist KDF into struct gss_krb5_enctype
-ec4aaab39afcec749ff7ed78e560213ff9e1c23c SUNRPC: Clean up cipher set up for v1 encryption types
-8b3a09f3454240cb2c2ab3da02b86f354aab0bd6 SUNRPC: Parametrize the key length passed to context_v2_alloc_cipher()
-af664fc9023e69d1a90800c0f815c296bf727e18 SUNRPC: Add new subkey length fields
-dfb632432a9b2548b5a4429598bb19edf58122f0 SUNRPC: Refactor CBC with CTS into helpers
-a40cf7530d3104793f9361e69e84ada7960724f2 SUNRPC: Add gk5e definitions for RFC 8009 encryption types
-ae2e4d2bae0007b040e8327f123911c0a6b24d68 SUNRPC: Add KDF-HMAC-SHA2
-0d5b5a0f32dfc9be3521803aba53e856759f0250 SUNRPC: Add RFC 8009 encryption and decryption functions
-f26ec6b1b15c5d84e4c8e5b361e2be119def498d SUNRPC: Advertise support for RFC 8009 encryption types
-3394682fba3b9010c6147e94f37633f044876e5e SUNRPC: Support the Camellia enctypes
 45b4ef46b5e88ced7edd4fba26b5fa0e3103de0b SUNRPC: Add KDF_FEEDBACK_CMAC
 6e6d9eee0e78b3d13018e0eb28102b67ad5a8e86 SUNRPC: Advertise support for the Camellia encryption types
 6e460c230d2dfb0e5a02b6e0995546bb4b9d208e SUNRPC: Move remaining internal definitions to gss_krb5_internal.h
@@ -1071,5 +1039,16 @@ b01fe98d34f3bed944a93bd8119fed80c856fad8 Merge tag 'i2c-for-6.3-rc1-part2' of gi
 f915322fe014c5c515119381e886faf07b3c9d31 Merge tag 'v6.3-p2' of git://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6
 596ff4a09b8981790e15572e8e7bc904df5835e7 cpumask: re-introduce constant-sized cpumask optimizations
 fe15c26ee26efa11741a7b632e9f23b01aca4cc6 Linux 6.3-rc1
+0643bedf921efd88df73847fb0bb31f9f8692ce0 arm64: dts: rockchip: Fix rk3399 GICv3 ITS node name
+02c84f91adb9a64b75ec97d772675c02a3e65ed7 ARM: dts: rockchip: fix a typo error for rk3288 spdif node
+933bf364e152cd60902cf9585c2ba310d593e69f clk: rockchip: rk3399: allow clk_cifout to force clk_cifout_src to reparent
+5912b647bd0732ae8c78a6e5b259c82efd177d93 arm64: dts: rockchip: Lower sd speed on rk3566-soquartz
+78aedee18a86abb0bb8e31d994467c46656e9b5d arm64: dts: rockchip: Lower SD card speed on rk3399 Pinebook Pro
+dbe406d1397ffccd4a0f85daef456291f265505a arm64: dts: rockchip: Add sdmmc node to rk3588
+477ed3ade6a46e445b4e2348b710c51df4f6f4b1 arm64: dts: rockchip: Enable USB OTG for rk3566 Radxa CM3
+f94c11ade1461b9cbae1e8d2e03efa7d4dc178f0 arm64: dts: rockchip: Add display support to Odroid Go Super
+3ecb945c7fbd8d04b070f25e247eb5fd0774926a Merge branch 'v6.3-armsoc/dtsfixes' into for-next
+1c020f0ad576195d1a277cd195e51fb14f16651e Merge branch 'v6.4-armsoc/dts64' into for-next
+2500bdb1b0b49a14250a07b6cc7b1df4d2683975 Merge branch 'v6.4-clk/next' into for-next
 
---===============5219872897847377049==--
+--===============2002039999985479856==--
