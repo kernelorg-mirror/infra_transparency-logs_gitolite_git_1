@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6278039734530871118=="
+Content-Type: multipart/mixed; boundary="===============4563165372218778088=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Tue, 07 Mar 2023 11:11:13 -0000
-Message-Id: <167818747380.2546.5621231962950773625@gitolite.kernel.org>
+Date: Tue, 07 Mar 2023 11:11:31 -0000
+Message-Id: <167818749121.2718.18290854785568997072@gitolite.kernel.org>
 
---===============6278039734530871118==
+--===============4563165372218778088==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 user: hansg
 changes:
-  - ref: refs/heads/master
-    old: 9abf2313adc1ca1b6180c508c25f22f9395cc780
+  - ref: refs/heads/for-next
+    old: 0d9bdd8a550170306c2021b8d6766c5343b870c2
     new: fe15c26ee26efa11741a7b632e9f23b01aca4cc6
-    log: revlist-9abf2313adc1-fe15c26ee26e.txt
+    log: revlist-0d9bdd8a5501-fe15c26ee26e.txt
 
---===============6278039734530871118==
+--===============4563165372218778088==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9abf2313adc1-fe15c26ee26e.txt
+Content-Disposition: attachment; filename=revlist-0d9bdd8a5501-fe15c26ee26e.txt
 
 ae6ad5d0b7901b301234143e93624417ac9fd9ef SUNRPC: Rename .encrypt_v2 and .decrypt_v2 methods
 2691a27d9b3e6a48adeb87a9dcf4e8a0ca84a26e SUNRPC: Hoist KDF into struct gss_krb5_enctype
@@ -1051,4 +1051,4 @@ f915322fe014c5c515119381e886faf07b3c9d31 Merge tag 'v6.3-p2' of git://git.kernel
 596ff4a09b8981790e15572e8e7bc904df5835e7 cpumask: re-introduce constant-sized cpumask optimizations
 fe15c26ee26efa11741a7b632e9f23b01aca4cc6 Linux 6.3-rc1
 
---===============6278039734530871118==--
+--===============4563165372218778088==--
