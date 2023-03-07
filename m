@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5880482892427331038=="
+Content-Type: multipart/mixed; boundary="===============6168999383842630326=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Tue, 07 Mar 2023 16:19:54 -0000
-Message-Id: <167820599400.23226.4826782478877939102@gitolite.kernel.org>
+Date: Tue, 07 Mar 2023 16:20:52 -0000
+Message-Id: <167820605225.25143.13092227895958486290@gitolite.kernel.org>
 
---===============5880482892427331038==
+--===============6168999383842630326==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/main
     old: 528125268588a18a2f257002af051b62b14bb282
     new: 382e363d5bed0cec5807b35761d14e55955eee63
     log: revlist-528125268588-382e363d5bed.txt
 
---===============5880482892427331038==
+--===============6168999383842630326==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -50,4 +50,4 @@ c77737b736ceb50fdf150434347dbd81ec76dbb1 netfilter: conntrack: adopt safer max c
 418383e6ed6b4624a54ec05c535f13d184fbf33b net: usb: cdc_mbim: avoid altsetting toggling for Telit FE990
 382e363d5bed0cec5807b35761d14e55955eee63 net: usb: qmi_wwan: add Telit 0x1080 composition
 
---===============5880482892427331038==--
+--===============6168999383842630326==--
