@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
-Date: Tue, 07 Mar 2023 07:58:13 -0000
-Message-Id: <167817589394.20786.13721275528610104767@gitolite.kernel.org>
+Date: Tue, 07 Mar 2023 08:02:55 -0000
+Message-Id: <167817617535.23874.14032952983875647822@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,9 @@ repo: pub/scm/linux/kernel/git/amlogic/linux
 user: narmstrong
 changes:
   - ref: refs/heads/v6.4/arm64-dt
-    old: 914a3aa644cf50947a2dbb97738502ca9f025a10
-    new: c2e9012bb383f538186cf11d00d223d025d10c8d
+    old: c2e9012bb383f538186cf11d00d223d025d10c8d
+    new: 0262f2736978b1763363224698f47112a148dab0
     log: |
-         ea254644a228c90887a38de9637c414f7439bf66 arm64: dts: meson-a1: add gpio_intc node
-         c2e9012bb383f538186cf11d00d223d025d10c8d arm64: dts: amlogic: gxl: use gxl mdio multiplexer
+         92c0b261c294f12e329976a6d4ef72651e8f07f2 dt-bindings: arm: amlogic: Document the boards with the BPI-CM4 connected
+         0262f2736978b1763363224698f47112a148dab0 arm64: dts: amlogic: Add initial support for BPI-CM4 module with BPI-CM4IO baseboard
          
