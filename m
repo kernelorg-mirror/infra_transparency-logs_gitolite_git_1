@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0694311047573513869=="
+Content-Type: multipart/mixed; boundary="===============4711365017692971368=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Tue, 07 Mar 2023 05:57:00 -0000
-Message-Id: <167816862068.6314.3872733012822321653@gitolite.kernel.org>
+Date: Tue, 07 Mar 2023 05:57:09 -0000
+Message-Id: <167816862916.6439.16399412784793481631@gitolite.kernel.org>
 
---===============0694311047573513869==
+--===============4711365017692971368==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: 8f4c92f0024ff2a30f002e85f87e531d49dc023c
     new: 36e5e391a25af28dc1f4586f95d577b38ff4ed72
     log: revlist-8f4c92f0024f-36e5e391a25a.txt
 
---===============0694311047573513869==
+--===============4711365017692971368==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ ccf8f7d71424ce37394c8333482853dba4f33978 xen-netback: remove unused variables pe
 5ca26d6039a6b42341f7f5cc8d10d30ca1561a7b Merge tag 'net-6.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 36e5e391a25af28dc1f4586f95d577b38ff4ed72 Merge tag 'for-netdev' of https://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf-next
 
---===============0694311047573513869==--
+--===============4711365017692971368==--
