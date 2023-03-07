@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5644361640478956254=="
+Content-Type: multipart/mixed; boundary="===============6030771732854840400=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-drivers
-Date: Tue, 07 Mar 2023 13:21:46 -0000
-Message-Id: <167819530674.26905.17810201562995178082@gitolite.kernel.org>
+Date: Tue, 07 Mar 2023 13:22:25 -0000
+Message-Id: <167819534526.27198.3290422080177179986@gitolite.kernel.org>
 
---===============5644361640478956254==
+--===============6030771732854840400==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,20 +15,20 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/renesas-drivers
 user: geert
 changes:
-  - ref: refs/heads/renesas-clk
-    old: b1dec4e78599a2ce5bf8557056cd6dd72e1096b0
+  - ref: refs/heads/renesas-clk-for-v6.4
+    old: 6521cb4af294529a068e33b32731a415e7a64433
     new: 1f04b7939704fce82d2bb5ef5561e2499a91170a
-    log: revlist-b1dec4e78599-1f04b7939704.txt
-  - ref: refs/heads/renesas-pinctrl
-    old: 698485cd875be1109b2130e0ff6c927010a6b56b
+    log: revlist-6521cb4af294-1f04b7939704.txt
+  - ref: refs/heads/renesas-pinctrl-for-v6.4
+    old: 5fc2a7f14e3c29aff5336f141b8c58906e7193cb
     new: b37d57e1daccbc1a0393d9207d5c48f9181fe85a
-    log: revlist-698485cd875b-b37d57e1dacc.txt
+    log: revlist-5fc2a7f14e3c-b37d57e1dacc.txt
 
---===============5644361640478956254==
+--===============6030771732854840400==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b1dec4e78599-1f04b7939704.txt
+Content-Disposition: attachment; filename=revlist-6521cb4af294-1f04b7939704.txt
 
 0d5b5a0f32dfc9be3521803aba53e856759f0250 SUNRPC: Add RFC 8009 encryption and decryption functions
 f26ec6b1b15c5d84e4c8e5b361e2be119def498d SUNRPC: Advertise support for RFC 8009 encryption types
@@ -1055,11 +1055,11 @@ fe15c26ee26efa11741a7b632e9f23b01aca4cc6 Linux 6.3-rc1
 3c876432e772201dabe3d9d5585226be5f2b9a8c clk: renesas: r8a77980: Add VIN clocks
 1f04b7939704fce82d2bb5ef5561e2499a91170a clk: renesas: r8a77995: Fix VIN parent clock
 
---===============5644361640478956254==
+--===============6030771732854840400==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-698485cd875b-b37d57e1dacc.txt
+Content-Disposition: attachment; filename=revlist-5fc2a7f14e3c-b37d57e1dacc.txt
 
 af664fc9023e69d1a90800c0f815c296bf727e18 SUNRPC: Add new subkey length fields
 dfb632432a9b2548b5a4429598bb19edf58122f0 SUNRPC: Refactor CBC with CTS into helpers
@@ -2086,4 +2086,4 @@ a145c9a8674ac8fbfa1595276e1b6cbfc5139038 pinctrl: renesas: r8a779a0: Remove inco
 59e579a6af8c3f1cc73bc30f894abbb766113456 pinctrl: renesas: r8a779g0: Add Audio Clock pins, groups, and functions
 b37d57e1daccbc1a0393d9207d5c48f9181fe85a pinctrl: renesas: r8a779g0: Add Audio SSI pins, groups, and functions
 
---===============5644361640478956254==--
+--===============6030771732854840400==--
