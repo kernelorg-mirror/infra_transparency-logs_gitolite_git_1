@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5817835351646684225=="
+Content-Type: multipart/mixed; boundary="===============2689420599254666932=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 07 Mar 2023 02:33:46 -0000
-Message-Id: <167815642667.31709.13897749737601861544@gitolite.kernel.org>
+Date: Tue, 07 Mar 2023 02:34:03 -0000
+Message-Id: <167815644342.31863.11927099233055609802@gitolite.kernel.org>
 
---===============5817835351646684225==
+--===============2689420599254666932==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,62 +16,46 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue
-    old: 901b894af5b933cf6576eec05746f34b46e2ac83
-    new: fe15c26ee26efa11741a7b632e9f23b01aca4cc6
-    log: revlist-901b894af5b9-fe15c26ee26e.txt
+  - ref: refs/tags/mkp-scsi-staging
+    old: 7f21aaaf5d90cacd7e5ddb19d896b43b40aefb3e
+    new: da281226ce5e5dcb2338d98c4f01981633afe583
+    log: revlist-7f21aaaf5d90-da281226ce5e.txt
 
---===============5817835351646684225==
+--===============2689420599254666932==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1678156415 -0500
+pusher 75C5DE3D 1678156431 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1678156413-c3f93b3ad884f8dec1e48d72c53ed7a140246c4f
+nonce 1678156430-dbef38780ca083a40a44747d9a4932d3bb0355e1
 
-901b894af5b933cf6576eec05746f34b46e2ac83 fe15c26ee26efa11741a7b632e9f23b01aca4cc6 refs/heads/queue
+7f21aaaf5d90cacd7e5ddb19d896b43b40aefb3e da281226ce5e5dcb2338d98c4f01981633afe583 refs/tags/mkp-scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmQGon8ACgkQ7ulgGnXF
-3j2ayw//YHkTPeBX92DqOZFzyZXGzROSxd5bGA9HMz4b7njeoe0ojpUbR0p9fiY3
-8qHJTt8BPHea3FOIHzri/8e6wg/cfgIiV0hWcKB3bvXibR/m5w6qPIyzs+6cjaD8
-tZFEWg/VptoAwGzXOLI3TeRU16WYO1H0YDU7pnNhR4H8z00lf5zc1gjfxyyhiR6z
-zBBSdeUT7RuclThWP5DLRCIh0YkBcwXrKLZJ1jZOYbF/W/+J1Too8fg6qQIlM2Ty
-f7LmqZBtCAtH/IGb23+7/hrXmS1FCY2tBa2c7sDmusUeCRS2gbrdZtmau7xGrAez
-JbliHzumMBc2j5CVe+b7pvBc4X5Ysczq6Q59F16j/CgreDl3o4HeAGMlx0I7agNt
-AVJv2qeDAijzAi8dAm9UtlwU/rIsdvBkdBVC+Gzh1tBDy0hCzjw2m3VXd1KosNu0
-VuIQYKxXYHaKNAxYRa880qt9uhzbh1qRTe7SMKcNufl9KB91zWqOCnSmRLHWTNQZ
-GQ4XnMt23f21ahko9TPaEdtm4qT0JNibS539AfWfXEVQk/Ma1k+5dI2CKo8p/sIS
-/QkIH8c0ByuRzYCNWIPIue5flGqgG3mejYyp9Uq9gzNWx3hVh2u8wJQup+ag/ieQ
-JCdmkTBOzPFMLcPLkRlRX4xTvpntS9LVi7Y4kyeO5wVVwszSdzA=
-=Pju8
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmQGoo8ACgkQ7ulgGnXF
+3j0fHA//QWyBeY/hl/t/pVMl401rkcYxoeOFLIQ71wZUuRrjRv2a6z3xS6yIUpum
+JsSL5cjZljFBps7I7vNw9tUOI6uTWC2sN8WYFgXxqTThu+d1W39iXJm8sGcLZxmX
+JP5Zj2blmZQTJoxGDNdtT4PIwY37DwR/a726qRSXGhAG/PjV6Ouw13sMixM2dNB9
++OWibSxRLe3q7Y/YWYFj/qAhP0DEBEdhPgbzP/BF3eeMGWYm4Sdoe7q1RVMkQqBb
++7u95TRjIyND9PHChUqHa9mW4JPiJPz2MJB29uDOJQhsc6rWWL0UJGAieEyI5d2F
+n+yy3iZW67O2aPRUVFfSX6wVjjJbza1ebUgs2iKpS+5ITU0nR7+637BZUVB4VX1S
+Rsn8aSSspChXHcYZT+/zOZiyPsJZCnwl22fbu7Qp/j15a3Xuro+QJhaf604EzZJN
+Vph4s0fDPJyo1C635WWrtvXEv7rm/NO/hojezESImCIyE9FeVfHUObg9e1U5sCi6
+UVkkkrBBS9osgu2DAsQWst9xl3r+PhVekAxBj2Ivanf++2pftvjIEggS2m0yvN/y
+LHY6dzkK1E4lhIj5CvzHXRO7SfbT6QzAY3FoRTFzHRKdTwvpbhwCyVO7ASrxby/Y
+Cxr9tJrfob5bOvfugpKc148Tctsn/LKfhdvV2GFpsbbFrloXLm0=
+=gomu
 -----END PGP SIGNATURE-----
 
---===============5817835351646684225==
+--===============2689420599254666932==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-901b894af5b9-fe15c26ee26e.txt
+Content-Disposition: attachment; filename=revlist-7f21aaaf5d90-da281226ce5e.txt
 
-b2c88ca65ac829a9570a491bcf1b78f07b1e3841 SUNRPC: Use xdr_stream to encode Reply verifier in svcauth_null_accept()
-3b03f3c5d4dbed658ef9a76c3475b2fb37d46451 SUNRPC: Use xdr_stream to encode Reply verifier in svcauth_unix_accept()
-df18f9ccb98a90e51d2d3527d880375db15b1fc8 SUNRPC: Use xdr_stream to encode Reply verifier in svcauth_tls_accept()
-7bb0dfb2234725ba085cacfd35f34c187def92b2 SUNRPC: Convert unwrap data paths to use xdr_stream for replies
-b2f42f1d999d2b5f33de4b7cba052e356a8e28c2 SUNRPC: Use xdr_stream to encode replies in server-side GSS upcall helpers
-72a1e53a8bf6aef0fa5b10d8327f23b5759040fe SUNRPC: Use xdr_stream for encoding GSS reply verifiers
-fcef2afffe67db884f2970817b8e721d86df2986 SUNRPC: Hoist init_encode out of svc_authenticate()
-649a692e0f2bc4a3b3a2a67aec30e53548930b97 SUNRPC: Convert RPC Reply header encoding to use xdr_stream
-5f69d5f65a5468960291ff0c5dfe16b8072bab8a SUNRPC: Final clean-up of svc_process_common()
-5df25676de2e13b2cb67140fd43bcbfdd60ef0df SUNRPC: Remove no-longer-used helper functions
-cee4db19452467eef8ab93c6eb6a3a84d11d25d7 SUNRPC: Refactor RPC server dispatch method
-4bcf0343e8a69eb22f7e83bfa7cfce32a28c9d95 SUNRPC: Set rq_accept_statp inside ->accept methods
-db1d61656c78ccbeaa1b8741301bcd85a953f4b2 SUNRPC: Go back to using gsd->body_start
-f5f9d4a314da88c0a5faa6d168bf69081b7a25ae nfsd: move reply cache initialization into nfsd startup
-65ba3d2425bf51165b6e88509c632bd15d12883d SUNRPC: Use per-CPU counters to tally server RPC counts
-ccf08bed6e7a80519569456edd2ea21b7b1701c6 SUNRPC: Replace pool stats with per-CPU variables
 97648b94bd9dbb987fe7e4067deecdb47d4fd7e7 SUNRPC: Add header ifdefs to linux/sunrpc/gss_krb5.h
 f03640a1a9782f4bf7c1db63e2e6a9598c6d2c6e SUNRPC: Remove .blocksize field from struct gss_krb5_enctype
 4be416a5f2803d421c950cc48e8e0c1eaaa8c773 SUNRPC: Remove .conflen field from struct gss_krb5_enctype
@@ -1080,5 +1064,21 @@ b01fe98d34f3bed944a93bd8119fed80c856fad8 Merge tag 'i2c-for-6.3-rc1-part2' of gi
 f915322fe014c5c515119381e886faf07b3c9d31 Merge tag 'v6.3-p2' of git://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6
 596ff4a09b8981790e15572e8e7bc904df5835e7 cpumask: re-introduce constant-sized cpumask optimizations
 fe15c26ee26efa11741a7b632e9f23b01aca4cc6 Linux 6.3-rc1
+2c6ebf96dfdfd9c8c426544a1308aa8e4cf0ea5d scsi: mpt3sas: Reload SBR without rebooting HBA
+92c8de4a490d41ca67d0bd1918a085a54331262a scsi: mpt3sas: Update driver version to 45.100.00.00
+d091c69371de90f813343e6b69fec22172f5dcfe scsi: be2iscsi: Remove unused variable internal_page_offset
+497cf070d8d28c422ff8c9bbdd469502a0769790 scsi: message: fusion: Remove unused sas_persist_task work
+2e8b12900a15dbf69e53a1d5c78bf09d0dbade6c scsi: message: fusion: Avoid flush_scheduled_work() usage
+1ebe50dbafba24cbf23a59882bf9fe5f402c4939 scsi: lpfc: Prevent lpfc_debugfs_lockstat_write() buffer overflow
+029c618b89b4f56ba865a6c86cb8b6e689c65f77 scsi: lpfc: Reorder freeing of various DMA buffers and their list removal
+445ae513b3fe868e6ca4ca6bf3e90cc05f00d3cd scsi: lpfc: Fix lockdep warning for rx_monitor lock when unloading driver
+7dd4f16d48f3ed70db17659f25558006668cc049 scsi: lpfc: Record LOGO state with discovery engine even if aborted
+66efa75fab8ee0dfef47dd324487f82fc2458b47 scsi: lpfc: Defer issuing new PLOGI if received RSCN before completing REG_LOGIN
+8d10c6e211fcaa96bd96b5e386f8d467af8c68d9 scsi: lpfc: Correct used_rpi count when devloss tmo fires with no recovery
+e478d552794ac03cb1a9bb4cea101fa6a3c3a984 scsi: lpfc: Skip waiting for register ready bits when in unrecoverable state
+1c2b24686299a22f07005cbb81845b97a027dbd2 scsi: lpfc: Revise lpfc_error_lost_link() reason code evaluation logic
+c25f361e997c798869a4bfc097c32bb379a096f6 scsi: lpfc: Update lpfc version to 14.2.0.11
+98b9b2f799c880d5ee51aef37b92dc5d9d3420dd scsi: lpfc: Copyright updates for 14.2.0.11 patches
+ffba85603c627230d22bb39db5897b764690552f Merge patch series "lpfc: Update lpfc to revision 14.2.0.11"
 
---===============5817835351646684225==--
+--===============2689420599254666932==--
