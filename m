@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============8222418779414508127=="
+Content-Type: multipart/mixed; boundary="===============3362598464684040613=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Tue, 07 Mar 2023 16:46:57 -0000
-Message-Id: <167820761715.11526.13439926200864447265@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 07 Mar 2023 16:47:04 -0000
+Message-Id: <167820762484.11657.8406174061356607450@gitolite.kernel.org>
 
---===============8222418779414508127==
+--===============3362598464684040613==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.3
+  - ref: refs/heads/asoc-6.3
     old: e5e7e398f6bb7918dab0612eb6991f7bae95520d
     new: 38d408f5b1250d56f8a19d2f2ff65aa8c7b93ff4
     log: |
@@ -28,28 +28,28 @@ changes:
          38d408f5b1250d56f8a19d2f2ff65aa8c7b93ff4 ASoC: Intel: avs: Machine board fixes
          
 
---===============8222418779414508127==
+--===============3362598464684040613==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1678207615 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1678207614-8ea49d6a1468a74e22d063267bee4bb6cd5b933c
+pusher C3F436CA30F5D8EB 1678207623 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1678207622-cd58e4f2215a656946f84c3d9a927680575966b4
 
-e5e7e398f6bb7918dab0612eb6991f7bae95520d 38d408f5b1250d56f8a19d2f2ff65aa8c7b93ff4 refs/heads/for-6.3
+e5e7e398f6bb7918dab0612eb6991f7bae95520d 38d408f5b1250d56f8a19d2f2ff65aa8c7b93ff4 refs/heads/asoc-6.3
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmQHan8ACgkQJNaLcl1U
-h9AT0wf+PGD0dHDAkT3v2lrqJ7wxCKosasvMWNvrVxbZGJU8SxdH1GepfJf0YWJc
-EGGgHTplUsCM0QmQ2dN8gOevvdzXrNZwDu4THdJ+XXbbkYhi1K6RPruJU52PhVX7
-KGCH+8iGGa4PV3GAxRaQyYyIAehTOoj+zqWYRI1vmE5yLfl85JXksXTT/uD3x1Q8
-wlKKsJZK8LvSOlJTANr4iWnUBF0u4gOQ1Q5dgykEaSA5EHMI4j/6LwysDBNmDciz
-m4nIf0FmxoFw4SfuPT+LFJfAVtrMzqY37pO9G9tyVGlYcu17y1LlTkAGhnPZ36Sc
-hYo8Jy+lJNUIcaQzklG48F5fenojyw==
-=gy4y
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmQHaocACgkQJNaLcl1U
+h9CEuwf/eYIURlSYKj9wezKKrLD1vIW0hjWBaFGbWBxnx8dfF7vFDUoTC1+ttlhm
+jzPwakLA3CxqnE9gBHqPIxr9cIWBUVr47yzsbekKVdu8atsVjujzaHs2b4+UnYYV
+yS6KfT+iZjprDHBAVxIuWXrGd6blNVAAmVZlc3W7rA6sYBi5uiNg7s++pr///LdO
+s1sIGVY0WpvuSB/x2oTvB/Y5pgcKdIXLq3X0qjOlmKAfK/Yue5EDmvbH17Iunv8Y
+24Jk1LX2xeJox5TCQ9kqjkvPxQIyFYvCEwCBxXM9MwZ+sXdj7QH462R1K/7Lv78a
+DOjgQ+/gzBfhHgLzUv/WAi38ipJnEw==
+=q+0l
 -----END PGP SIGNATURE-----
 
---===============8222418779414508127==--
+--===============3362598464684040613==--
