@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 07 Mar 2023 21:45:13 -0000
-Message-Id: <167822551394.19386.5355531111531468022@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
+Date: Tue, 07 Mar 2023 21:47:08 -0000
+Message-Id: <167822562864.21227.425988487826451124@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/palmer/linux
+user: palmer
 changes:
-  - ref: refs/heads/main
-    old: b1649b0fe98c2c7eed156c957f6f524d5660d859
-    new: 37d9df224d1eec1b434fe9ffa40104c756478c29
+  - ref: refs/heads/not-for-next
+    old: e6de206969cd81687449258722ba2e40ec4861bd
+    new: ed4f02ef1dc4c33b8da00108ae8324580ae0ba22
     log: |
-         37d9df224d1eec1b434fe9ffa40104c756478c29 ynl: re-license uniformly under GPL-2.0 OR BSD-3-Clause
+         63355b9884b3d1677de6bd1517cd2b8a9bf53978 cpumask: be more careful with 'cpumask_setall()'
+         ed4f02ef1dc4c33b8da00108ae8324580ae0ba22 Merge commit '63355b9884b3d1677de6bd1517cd2b8a9bf53978' into not-for-next
          
