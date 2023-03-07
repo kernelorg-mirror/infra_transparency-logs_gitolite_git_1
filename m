@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Tue, 07 Mar 2023 14:37:15 -0000
-Message-Id: <167819983598.11588.5900283544875591147@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
+Date: Tue, 07 Mar 2023 14:37:52 -0000
+Message-Id: <167819987206.11871.7769424805442180567@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
-user: snitzer
+repo: pub/scm/linux/kernel/git/firmware/linux-firmware
+user: jwboyer
 changes:
-  - ref: refs/heads/for-next
-    old: d695e44157c8da8d298295d1905428fb2495bc8b
-    new: ae75a25bd83f7c541240449d2fff3a44433e506b
+  - ref: refs/heads/main
+    old: db6e357aeb5584d6be4d3bc732e3927b285c8d86
+    new: f49c572256bf2ad9a81790b4f617769a321fd4cb
     log: |
-         9bbf5feecc7eab2c370496c1c161bbfe62084028 dm thin: fix deadlock when swapping to thin device
-         fb294b1c0ba982144ca467a75e7d01ff26304e2b dm crypt: add cond_resched() to dmcrypt_write()
-         d9fe0a98a2e0a1cf585e8a6555afb33be968bd13 dm crypt: initialize tasklet in crypt_io_init()
-         ae75a25bd83f7c541240449d2fff3a44433e506b dm crypt: conditionally enable code needed for tasklet usecases
+         f49c572256bf2ad9a81790b4f617769a321fd4cb linux-firmware: update firmware for mediatek bluetooth chip (MT7921)
          
