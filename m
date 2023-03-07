@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rppt/linux
-Date: Tue, 07 Mar 2023 15:14:03 -0000
-Message-Id: <167820204392.8249.11644152966282240572@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
+Date: Tue, 07 Mar 2023 15:14:11 -0000
+Message-Id: <167820205115.8343.17628016977424845709@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rppt/linux
-user: rppt
+repo: pub/scm/linux/kernel/git/conor/linux
+user: conor
 changes:
-  - ref: refs/heads/unmapped-alloc/rfc-v1
-    old: 8f858a510e655a45b2ca39bcc63961a823c61189
-    new: d1cc346aca5bb7ab68a248c3f5a3d59b8a9d8319
+  - ref: refs/heads/riscv-dt-for-next
+    old: fe15c26ee26efa11741a7b632e9f23b01aca4cc6
+    new: 0e9b70c1e3623fa110fb6be553e644524228ef60
     log: |
-         535ffad42e09ff846dd86d38c0b59dae119dc7a2 mm/unmapped_alloc: add shrinker
-         c782952f0d4203c3f8734ab014341e3b8b21895a EXPERIMENTAL: x86: use __GFP_UNMAPPED for modele_alloc()
-         d1cc346aca5bb7ab68a248c3f5a3d59b8a9d8319 EXPERIMENTAL: mm/secretmem: use __GFP_UNMAPPED
+         0e9b70c1e3623fa110fb6be553e644524228ef60 riscv: dts: microchip: add mpfs specific macb reset support
          
