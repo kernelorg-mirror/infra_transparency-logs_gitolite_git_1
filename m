@@ -1,16 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Tue, 07 Mar 2023 17:29:17 -0000
-Message-Id: <167821015759.8549.1191066634759285061@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
+Date: Tue, 07 Mar 2023 17:30:20 -0000
+Message-Id: <167821022035.10565.3996605921558690557@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
+user: jaegeuk
 changes:
-  - ref: refs/heads/20230306_andriy_shevchenko_spi_mpc5xxx_psc_clean_up_even_more_and_fix
-    old: 3169c5816a55ba671e9c8a671c6c75818d30c657
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/dev
+    old: fe15c26ee26efa11741a7b632e9f23b01aca4cc6
+    new: c4ca1f7164734a1baf40d4ff1552172a07d4fc4d
+    log: |
+         8cac643eaa93fcac4bd0dcf2da5085e5551adff3 f2fs: fix unaligned field offset in 32-bits platform
+         3ccc99d5a4eac7ef3595d8d0cb284c7c5710daec f2fs: Fix f2fs_truncate_partial_nodes ftrace event
+         e6bd5463fce05532c17885a663bf08a7052405f0 f2fs: make f2fs_sync_inode_meta() static
+         a29f3722b1281e64b28447b6e1b4c47765ba6b5d f2fs: export compress_percent and compress_watermark entries
+         c4ca1f7164734a1baf40d4ff1552172a07d4fc4d f2fs: convert to use bitmap API
+         
