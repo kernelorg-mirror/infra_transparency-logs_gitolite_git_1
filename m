@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5592159449265176688=="
+Content-Type: multipart/mixed; boundary="===============3126398535226803114=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 07 Mar 2023 21:27:30 -0000
-Message-Id: <167822445053.7198.14255347877974914567@gitolite.kernel.org>
+Date: Tue, 07 Mar 2023 21:28:27 -0000
+Message-Id: <167822450788.7570.6329123400353117214@gitolite.kernel.org>
 
---===============5592159449265176688==
+--===============3126398535226803114==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/main
     old: 5ca26d6039a6b42341f7f5cc8d10d30ca1561a7b
     new: 36e5e391a25af28dc1f4586f95d577b38ff4ed72
     log: revlist-5ca26d6039a6-36e5e391a25a.txt
 
---===============5592159449265176688==
+--===============3126398535226803114==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -123,4 +123,4 @@ c7aec81b31e43a0aa94ee55d9bb33d70b1046f76 selftests/bpf: Add test for legacy/perf
 8f4c92f0024ff2a30f002e85f87e531d49dc023c Merge branch 'libbpf: allow users to set kprobe/uprobe attach mode'
 36e5e391a25af28dc1f4586f95d577b38ff4ed72 Merge tag 'for-netdev' of https://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf-next
 
---===============5592159449265176688==--
+--===============3126398535226803114==--
