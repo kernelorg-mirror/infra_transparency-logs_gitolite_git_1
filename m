@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Tue, 07 Mar 2023 16:46:17 -0000
-Message-Id: <167820757770.11161.13101950604914035182@gitolite.kernel.org>
+Date: Tue, 07 Mar 2023 16:46:24 -0000
+Message-Id: <167820758435.11270.4223806722913544331@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/fileNm9LWW
-    old: 20064c47f63e995216e0dfb0a6ea37b653ed534c
+  - ref: refs/heads/20230303_u_kleine_koenig_spi_convert_to_platform_remove_callback_returning_void
+    old: 3ffefa1d9c9eba60c7f8b4a9ce2df3e4c7f4a88e
     new: 0000000000000000000000000000000000000000
