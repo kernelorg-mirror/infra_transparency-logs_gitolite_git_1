@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4506507624984801585=="
+Content-Type: multipart/mixed; boundary="===============2830720553887596054=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Tue, 07 Mar 2023 08:28:23 -0000
-Message-Id: <167817770395.8587.5963611021732597511@gitolite.kernel.org>
+Date: Tue, 07 Mar 2023 08:28:39 -0000
+Message-Id: <167817771926.8728.7454130051708287529@gitolite.kernel.org>
 
---===============4506507624984801585==
+--===============2830720553887596054==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,38 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/sysfs_defferred_iomem_get_mapping
-    old: f06aff924f975881a6abf91d2af0078fc8cd37bf
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/sysfs_deprecation_removal
+    old: baebcdc267937efdf9a8a1878edbdcedcd79d454
+    new: 22fd6153c16a40d123d8c9936967d0a59e417129
+    log: |
+         721da5cee9d43901105f5b8bd33fcb9101b12fc3 driver core: remove CONFIG_SYSFS_DEPRECATED and CONFIG_SYSFS_DEPRECATED_V2
+         22fd6153c16a40d123d8c9936967d0a59e417129 driver core: class: fix block class problem when removing CONFIG_SYSFS_DEPRECATED*
+         
 
---===============4506507624984801585==
+--===============2830720553887596054==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1678177703 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1678177718 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1678177703-52e0dbf3b13061aa5ad15eb0f606d5dd76bdca5b
+nonce 1678177718-a4747bdcecdd5baa0615711a4904604af7202791
 
-f06aff924f975881a6abf91d2af0078fc8cd37bf 0000000000000000000000000000000000000000 refs/heads/sysfs_defferred_iomem_get_mapping
+baebcdc267937efdf9a8a1878edbdcedcd79d454 22fd6153c16a40d123d8c9936967d0a59e417129 refs/heads/sysfs_deprecation_removal
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQG9acbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+OOoP/1lg291yIRvPDgixuDuD
-FfTkdYjgaNkNPIheY7hlIeEksgA5rdifuLp/d8OosBNQ0sNSbL+Zcs9RaBXi1rJC
-fXxes4MfMuu9TXfkFLOFDzvsAkUJaI70Zii+fF/El9eiEvBSWn5s1xLoLwHKtlSG
-iHGo3nDouLXshB5RL2dvRMGLaM1NWy3F8plU5HnJ38wCcSfFR6ubz1REhP2UmkvT
-DopNZwKtWoZk44M5JisPwsnzXRGcchgStKJX1M+IjMT2PQF5pi/vd+bfJxj2jpcy
-p4SrJ7Qj0NQQ/vCzQkf2d1QrVH3kJUAijjIT613tu4/Ot1vQhaRuxRpXBnM+uvcs
-IUceu8ollc2GqbuLm+SjexIaDc6kQipq9qDr2lXu8Mm7Nt11v4wPfvFHEcBOyoGD
-88mR5/Ovm7Glx9sLgA3GlnO2wi/DDHkPXD8Z9q/R/SvOmgXbJ1Ug743RomjVyzsg
-9Pa8KMn4yXQ0qDDEcB768FX/3CcF2oLUjAdLJRicz9ieZdqwkb2VU6ETex630e4+
-P2UxpTYfk790qYbYun7Z1yRqY1TcY0SkU+MSrCBJNJk0nH/YeT3qFcEBMNxCE61h
-WzBlZezW47w85ZkFCBrbH+bBEzzVYa6PHS+ta8d+/R4vNQqTXvtquYelqm96/mAe
-rOSfj5r1GfBa8Kl6A4eQGkbW
-=Gir8
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQG9bYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+8A0P/ihg4upo4q3UHKSSMFUB
+VIQyF6GoU6HjIfZELogAN9VuReQlC1v2cVErimHdzvszQnOMdjANXUfCg4LjUiZp
+jlv0dYkhQlGZCJPPfWzGivg/d4iFsvQvtKZI9D0FEuiAjjo4Hbk5PrGsWRmEze5C
+IGcz3uZR7rJfbrkYyXU9+o92jkKDWNyjU/Lmmc0Km1w5rOZAcoVyBDEzNFZTTbUM
+SS7xtSbNiHivQMaLlNcuJHqK/YJR7pbob6ZQk+dlUt9na35k8Gr/eScU3dM0bRUD
+VFQ+B2nvd2jcdE3TM7r/hZ70mIuT49sDa8djSe5Po0B3/KLidATZCLLAimOyMiFh
+qB3EosXahkWJ2tw225kA5rtoMr+b92CSN6jJYAFU7lLHIe0M6Hafmh5XRtOWY0oX
+JTpRJOfJe/E3oAkZsuWsMiGVzNRGPv+DnzwirPT16NnSasNo8ykUuQTTZ0EnkWZW
+m3e3Pxqv31lcp64bvUZpO0UfKsuUc1Ns9Ox2OCLBiUNaya/gCfLXcu7JLFIMn2I8
+wD5KfBJkz3DMotR/PcFZEJtY5EputLaqfwKNGw+vX6VzqVmzmVZLhWfKC0DEUbel
+3pbxQOJLxy1/CCrAaNKFJTBN915X512QrmmPHXyWLVv7M7buQWwBunHt51wRh2OL
+5dnFDO6u6BYPXB0euVTS8WnV
+=sclX
 -----END PGP SIGNATURE-----
 
---===============4506507624984801585==--
+--===============2830720553887596054==--
