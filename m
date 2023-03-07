@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
-Date: Tue, 07 Mar 2023 20:28:06 -0000
-Message-Id: <167822088669.31790.13335178760732497111@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
+Date: Tue, 07 Mar 2023 20:32:20 -0000
+Message-Id: <167822114003.2372.5625904762464830481@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kdave/linux
-user: kdave
+repo: pub/scm/linux/kernel/git/palmer/linux
+user: palmer
 changes:
-  - ref: refs/heads/master
-    old: fe15c26ee26efa11741a7b632e9f23b01aca4cc6
-    new: 8ca09d5fa3549d142c2080a72a4c70ce389163cd
+  - ref: refs/heads/fixes
+    old: 676f63ac74df17aaa306fd83fc6fe79d0ec02929
+    new: b39da98ee6178f76c62d6d4c4a701a471f6a0c80
     log: |
-         80c16b2b121fbc3380dbffa9bab7559acbaaa2ed cpumask: Fix typo nr_cpumask_size --> nr_cpumask_bits
-         8ca09d5fa3549d142c2080a72a4c70ce389163cd cpumask: fix incorrect cpumask scanning result checks
+         e18048da9bc3f87acef4eb67a11b4fc55fe15424 RISC-V: Stop emitting attributes
+         b39da98ee6178f76c62d6d4c4a701a471f6a0c80 RISC-V: fix taking the text_mutex twice during sifive errata patching
          
