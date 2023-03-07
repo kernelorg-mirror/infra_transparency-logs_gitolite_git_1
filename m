@@ -1,36 +1,24 @@
-Content-Type: multipart/mixed; boundary="===============6731863285447088353=="
+Content-Type: multipart/mixed; boundary="===============7360133990588376863=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Tue, 07 Mar 2023 02:46:50 -0000
-Message-Id: <167815721008.9731.12917742484915880992@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Tue, 07 Mar 2023 02:46:58 -0000
+Message-Id: <167815721877.9855.16487551026671359377@gitolite.kernel.org>
 
---===============6731863285447088353==
+--===============7360133990588376863==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
   - ref: refs/heads/master
     old: dc837c1a5137a8cf2e9432c1891392b6a66f4d8d
     new: 709c6adf19dc558e44ab5c01659b09a16a2d3c82
     log: revlist-dc837c1a5137-709c6adf19dc.txt
-  - ref: refs/heads/stable
-    old: f915322fe014c5c515119381e886faf07b3c9d31
-    new: 8ca09d5fa3549d142c2080a72a4c70ce389163cd
-    log: |
-         596ff4a09b8981790e15572e8e7bc904df5835e7 cpumask: re-introduce constant-sized cpumask optimizations
-         fe15c26ee26efa11741a7b632e9f23b01aca4cc6 Linux 6.3-rc1
-         80c16b2b121fbc3380dbffa9bab7559acbaaa2ed cpumask: Fix typo nr_cpumask_size --> nr_cpumask_bits
-         8ca09d5fa3549d142c2080a72a4c70ce389163cd cpumask: fix incorrect cpumask scanning result checks
-         
-  - ref: refs/tags/next-20221207
-    old: 016c530a1dcfe5881db37a26e05f0ed68ff07f4f
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20230307
     old: 0000000000000000000000000000000000000000
     new: 70bb72872ba1b560252856c2cede6c51874b6543
@@ -38,7 +26,7 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: d0656701c5a27a5a8a3a38bc07d18f2e157e963d
 
---===============6731863285447088353==
+--===============7360133990588376863==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -833,4 +821,4 @@ e44d8b957584f64df3373075d99fa246a3493f19 Revert "arm64: dts: imx8mm-evkb: add su
 df18ae16f05abc8380be18a415828f70426c947b Revert "driver core: remove CONFIG_SYSFS_DEPRECATED and CONFIG_SYSFS_DEPRECATED_V2"
 709c6adf19dc558e44ab5c01659b09a16a2d3c82 Add linux-next specific files for 20230307
 
---===============6731863285447088353==--
+--===============7360133990588376863==--
