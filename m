@@ -1,33 +1,57 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 07 Mar 2023 09:21:18 -0000
-Message-Id: <167818087846.13795.5111328464225165769@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============2151341354197957236=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Tue, 07 Mar 2023 09:30:40 -0000
+Message-Id: <167818144048.19756.15254380207657791316@gitolite.kernel.org>
+
+--===============2151341354197957236==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/auto-latest
-    old: f918413697ac28e19f90fd028725367483e0b555
-    new: 64bf89978935197f3466e6f226d58f4d63569793
-    log: |
-         c9ae1b10d9561012a222e05f0d3ab4e93d301f06 x86/paravirt: Merge activate_mm() and dup_mmap() callbacks
-         7214b32b6f4c6c1385a52f2e3a7107f28349f505 x86/MCE/AMD: Make kobj_type structure constant
-         80c16b2b121fbc3380dbffa9bab7559acbaaa2ed cpumask: Fix typo nr_cpumask_size --> nr_cpumask_bits
-         8ca09d5fa3549d142c2080a72a4c70ce389163cd cpumask: fix incorrect cpumask scanning result checks
-         e32d3893aea5f77b6c9df45b044df42ecfbb9124 Merge branch into tip/master: 'ras/core'
-         f401e0830973bf071acb57f95bb78125842bde6a Merge branch into tip/master: 'x86/cleanups'
-         64bf89978935197f3466e6f226d58f4d63569793 Merge branch into tip/master: 'x86/paravirt'
-         
   - ref: refs/heads/master
-    old: e599ee8c1f387dbbf7b129be098b0482f2117035
-    new: 64bf89978935197f3466e6f226d58f4d63569793
+    old: 31e9eca62c8886399634e5167ae7e48fdfbe724d
+    new: 3d59bc24913492dfa9ffb827805c4ecf3415f22b
     log: |
-         e32d3893aea5f77b6c9df45b044df42ecfbb9124 Merge branch into tip/master: 'ras/core'
-         f401e0830973bf071acb57f95bb78125842bde6a Merge branch into tip/master: 'x86/cleanups'
-         64bf89978935197f3466e6f226d58f4d63569793 Merge branch into tip/master: 'x86/paravirt'
+         51c307e1d66deeaaa423905a649ffb8bdf7d1dae 5.10-stable patches
+         3d59bc24913492dfa9ffb827805c4ecf3415f22b 5.15-stable patches
          
+
+--===============2151341354197957236==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1678181439 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1678181437-04222951cdbd3617b38249369e6487b3f78e41df
+
+31e9eca62c8886399634e5167ae7e48fdfbe724d 3d59bc24913492dfa9ffb827805c4ecf3415f22b refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQHBD8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+DJoP/0Y3kWjQz3swKDYh4d4a
+FUz6yqUogON1jvweetM16FxWJLqvNkARnUXIAR05ay0rWfODw0A8j6AJoW0BZt0H
+oO+W5ljL+h0lLmhOOjqm0wV7+6PxGpCds1H6Yk/esmspMdg0YELAEQ7//HZ5cvOL
+tspcijBzP2lQJc1mWhzMmLHtBpMZfg56DY+HpAqdnxiSpOyMV20LrcbqpFn5ePtk
+2zRzMzY3eL29d+PmKNHW4eNwxdCidC+V3cx9K8OEV6y3yaTbnIMBFUCpuzYmIiv2
+7x3XgBCOCpRrEpRGQSWyUz6wJNFO6fv6dl1JPRUuq2Gh7lu2eBPxpKt4SmNh98tE
+WEe9NXrwOnOL+R2o64J0oHFITTC6IIWyHZMnCSzfTYhpA9FJB6q7MOwKrFrLAjSi
+eTXOAL1THKIeKb8yeJH8DRxF1ulki0XhYkBLt3d5PcBtZR0APi+8CT1Ft9KD+1Os
+6uFBgipz4tCr0sXH8aJHkuJWQ6dYr12UZQrErCyP09JhnBW9wED6AbTXBgwqng1t
+G4bSz4zhf0jJ1Nf58AwdzSveBtaAc7UOpVKeJJDXnHHztn1ThaS+oZgjpyAshzWQ
+YIynrZ62JPJrDcdag2+JM+1AHuC+P1bSbafCP++FaL38PpuqoMJB7qXC1wrb4T+V
+4xahd4WfYLhRdgydkSYJuhhl
+=ghv9
+-----END PGP SIGNATURE-----
+
+--===============2151341354197957236==--
