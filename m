@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
-Date: Tue, 07 Mar 2023 17:44:43 -0000
-Message-Id: <167821108337.18617.17473114186961762945@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/fio
+Date: Tue, 07 Mar 2023 17:45:05 -0000
+Message-Id: <167821110544.20384.12884651942288614284@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/palmer/linux
-user: palmer
+repo: pub/scm/linux/kernel/git/axboe/fio
+user: axboe
 changes:
-  - ref: refs/heads/fixes
-    old: e18048da9bc3f87acef4eb67a11b4fc55fe15424
-    new: 676f63ac74df17aaa306fd83fc6fe79d0ec02929
+  - ref: refs/heads/master
+    old: 051b5785bc47ab216fa3db9dceb6184073dcc88a
+    new: 557cfc51068921766e8cd6b242feb4c929cb45ea
     log: |
-         80c16b2b121fbc3380dbffa9bab7559acbaaa2ed cpumask: Fix typo nr_cpumask_size --> nr_cpumask_bits
-         8ca09d5fa3549d142c2080a72a4c70ce389163cd cpumask: fix incorrect cpumask scanning result checks
-         676f63ac74df17aaa306fd83fc6fe79d0ec02929 RISC-V: Stop emitting attributes
+         79201772c8091386077bf3bdc31f53211a0e020d t/zbd: rename logical_block_size to min_seq_write_size
+         557cfc51068921766e8cd6b242feb4c929cb45ea t/zbd: fix minimum write size to sequential write required zones
          
