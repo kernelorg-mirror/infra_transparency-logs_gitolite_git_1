@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-Date: Tue, 07 Mar 2023 21:21:24 -0000
-Message-Id: <167822408403.3632.2013695866749475479@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Tue, 07 Mar 2023 21:25:21 -0000
+Message-Id: <167822432158.6447.10867020111514820887@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-user: vudentz
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
   - ref: refs/heads/master
-    old: 4bbfb9fefadfcddb53b6d97acd95cf457166a2cf
-    new: 0e21956501c0d8a15f9fc4164b2eb7769dff7700
+    old: 8ca09d5fa3549d142c2080a72a4c70ce389163cd
+    new: 63355b9884b3d1677de6bd1517cd2b8a9bf53978
     log: |
-         eaa2b72585a3b796be1a369384c7ba42feb33ebd Bluetooth: Remove "Power-on" check from Mesh feature
-         0e21956501c0d8a15f9fc4164b2eb7769dff7700 Bluetooth: Convert MSFT filter HCI cmd to hci_sync
+         63355b9884b3d1677de6bd1517cd2b8a9bf53978 cpumask: be more careful with 'cpumask_setall()'
          
