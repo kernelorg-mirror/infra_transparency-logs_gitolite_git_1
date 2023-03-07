@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5624502792468368705=="
+Content-Type: multipart/mixed; boundary="===============2507905575139372585=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
-Date: Tue, 07 Mar 2023 00:43:08 -0000
-Message-Id: <167814978808.16340.14285811283739862437@gitolite.kernel.org>
+Date: Tue, 07 Mar 2023 00:46:43 -0000
+Message-Id: <167815000311.20394.13452466126058833733@gitolite.kernel.org>
 
---===============5624502792468368705==
+--===============2507905575139372585==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,24 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/viro/vfs
 user: viro
 changes:
-  - ref: refs/heads/work.fd
-    old: 05ab70fd1cc2b6e0fb790eba361f947d7de586fb
-    new: 792be394ebd3f30e973319f4a8019c294ca02ce2
-    log: revlist-05ab70fd1cc2-792be394ebd3.txt
+  - ref: refs/heads/work.old-dio
+    old: 193010cdc86da0126c58f58bbeacfcb5a15e6cee
+    new: 0aaf08de8426f823bd0e36797445222e6392e374
+    log: revlist-193010cdc86d-0aaf08de8426.txt
 
---===============5624502792468368705==
+--===============2507905575139372585==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-05ab70fd1cc2-792be394ebd3.txt
+Content-Disposition: attachment; filename=revlist-193010cdc86d-0aaf08de8426.txt
 
+2691a27d9b3e6a48adeb87a9dcf4e8a0ca84a26e SUNRPC: Hoist KDF into struct gss_krb5_enctype
+ec4aaab39afcec749ff7ed78e560213ff9e1c23c SUNRPC: Clean up cipher set up for v1 encryption types
+8b3a09f3454240cb2c2ab3da02b86f354aab0bd6 SUNRPC: Parametrize the key length passed to context_v2_alloc_cipher()
+af664fc9023e69d1a90800c0f815c296bf727e18 SUNRPC: Add new subkey length fields
+dfb632432a9b2548b5a4429598bb19edf58122f0 SUNRPC: Refactor CBC with CTS into helpers
+a40cf7530d3104793f9361e69e84ada7960724f2 SUNRPC: Add gk5e definitions for RFC 8009 encryption types
+ae2e4d2bae0007b040e8327f123911c0a6b24d68 SUNRPC: Add KDF-HMAC-SHA2
 0d5b5a0f32dfc9be3521803aba53e856759f0250 SUNRPC: Add RFC 8009 encryption and decryption functions
 f26ec6b1b15c5d84e4c8e5b361e2be119def498d SUNRPC: Advertise support for RFC 8009 encryption types
 3394682fba3b9010c6147e94f37633f044876e5e SUNRPC: Support the Camellia enctypes
@@ -1042,13 +1049,6 @@ b01fe98d34f3bed944a93bd8119fed80c856fad8 Merge tag 'i2c-for-6.3-rc1-part2' of gi
 f915322fe014c5c515119381e886faf07b3c9d31 Merge tag 'v6.3-p2' of git://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6
 596ff4a09b8981790e15572e8e7bc904df5835e7 cpumask: re-introduce constant-sized cpumask optimizations
 fe15c26ee26efa11741a7b632e9f23b01aca4cc6 Linux 6.3-rc1
-e5d20585c0fb7f075abbcc85f250b92024993290 convert setns(2) to fdget()/fdput()
-7949fd07d664a2d94ab0f47ed9eeb526bf12cb44 convert sgx_set_attribute() to fdget()/fdput()
-85b0ecafe6c7cc681ad056fda5caaa85f69f40a2 SVM-SEV: convert the rest of fget() uses to fdget() in there
-7b39d50f5dd3d62e663292da3d65e3ad8fb8eeba kill the last remaining user of proc_ns_fget()
-8e8973c0afe98a24f5f8fede52ffe48ab0d2f001 build_mount_idmapped(): switch to fdget()
-e93ed6d6d708e79632e89bdae8e1bf369c607e6e bpf: switch to fdget_raw()
-96416baecdcc05aa7bfe16986dd9955e613ed808 cgroup_get_from_fd(): switch to fdget_raw()
-792be394ebd3f30e973319f4a8019c294ca02ce2 fuse_dev_ioctl(): switch to fdget()
+0aaf08de8426f823bd0e36797445222e6392e374 __blockdev_direct_IO(): get rid of submit_io callback
 
---===============5624502792468368705==--
+--===============2507905575139372585==--
