@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5117102276103882638=="
+Content-Type: multipart/mixed; boundary="===============0342301970210985393=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Tue, 07 Mar 2023 17:38:16 -0000
-Message-Id: <167821069694.14596.10652586684577449232@gitolite.kernel.org>
+Date: Tue, 07 Mar 2023 17:38:27 -0000
+Message-Id: <167821070782.14749.4661141462848772432@gitolite.kernel.org>
 
---===============5117102276103882638==
+--===============0342301970210985393==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: 2d5bcdcda8799cf21f9ab84598c946dd320207a2
     new: a73dc912aa7e43f4f12003a26aeab839b500b86d
     log: revlist-2d5bcdcda879-a73dc912aa7e.txt
 
---===============5117102276103882638==
+--===============0342301970210985393==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -46,4 +46,4 @@ b4fd0d672bca001632d7291b5b162b08e065b815 bpf, net: xskmap memory usage
 6b4a6ea2c62d34272d64161d43a19c02355576e2 bpf: enforce all maps having memory usage callback
 a73dc912aa7e43f4f12003a26aeab839b500b86d Merge branch 'bpf: bpf memory usage'
 
---===============5117102276103882638==--
+--===============0342301970210985393==--
