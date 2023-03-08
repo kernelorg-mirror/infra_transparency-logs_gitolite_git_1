@@ -1,26 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============7954536607430588513=="
+Content-Type: multipart/mixed; boundary="===============6412070729320618223=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Wed, 08 Mar 2023 13:51:34 -0000
-Message-Id: <167828349455.8414.17732484141520015804@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Wed, 08 Mar 2023 13:51:41 -0000
+Message-Id: <167828350152.8529.13505332661316364903@gitolite.kernel.org>
 
---===============7954536607430588513==
+--===============6412070729320618223==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.3
+  - ref: refs/heads/asoc-6.3
     old: 38d408f5b1250d56f8a19d2f2ff65aa8c7b93ff4
     new: a7ee5b426fb66f5eab1790339f1c722060d3d6fc
     log: revlist-38d408f5b125-a7ee5b426fb6.txt
-  - ref: refs/heads/for-6.4
+  - ref: refs/heads/asoc-6.4
     old: ed3b4b8772783e840d93a079b2dbdd7f9c4b3c76
     new: f1fbb6a2667e2bb21c281a0fa4edb1ac8d1d0ab0
     log: |
@@ -35,32 +35,32 @@ changes:
          f1fbb6a2667e2bb21c281a0fa4edb1ac8d1d0ab0 ASoC: SOF: ipc4: Add core_id support from topology
          
 
---===============7954536607430588513==
+--===============6412070729320618223==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1678283492 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1678283491-63ee33c443552faea5df92110f0bfdb3d793dfa7
+pusher C3F436CA30F5D8EB 1678283499 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1678283498-e59d1dad1e498fc09b5f2827bc170df28d0a4e67
 
-38d408f5b1250d56f8a19d2f2ff65aa8c7b93ff4 a7ee5b426fb66f5eab1790339f1c722060d3d6fc refs/heads/for-6.3
-ed3b4b8772783e840d93a079b2dbdd7f9c4b3c76 f1fbb6a2667e2bb21c281a0fa4edb1ac8d1d0ab0 refs/heads/for-6.4
+38d408f5b1250d56f8a19d2f2ff65aa8c7b93ff4 a7ee5b426fb66f5eab1790339f1c722060d3d6fc refs/heads/asoc-6.3
+ed3b4b8772783e840d93a079b2dbdd7f9c4b3c76 f1fbb6a2667e2bb21c281a0fa4edb1ac8d1d0ab0 refs/heads/asoc-6.4
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmQIkuQACgkQJNaLcl1U
-h9AVxQf/UdstGB9bXmQv3zkWcrN1I3bRoNAEQiKneoGduGoVj62PzwjJtxTdEDuf
-Un7MgEKRVnhU1iq1mpJ2r2hrSWJ3Ko5A8VPD+YbtIEt+AZ89rQ/SaWdmCYY/BTZc
-kJbciQA3A3Jsx6zKa/KfNwER+vmCiqTQcAg+y5bVU53oF6HBqepDZvKfSKEqhc2O
-SaGHAAnl+mnjUXHgh+VH+qgX0eT+UDaMizUdz73txNl7DRDCdwk1zzhnXPgbPXLh
-dnQAK/f7qrgVUqFrZ2ajVK/Cck1qhRqY41W4KwgoCWAhrAmxOB/ZnrlfbutdSwsn
-kWF9XngzQBG/92MJDZ9oqfEkCUt0ow==
-=Wrwa
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmQIkusACgkQJNaLcl1U
+h9ASAQf/RI/nuvriAa9jH8uRtJNrGoaZ1vgHtzzXl7qUm6Kg83iYXfEFVTHi2tRh
+dGUoGfwivSnXO0nJJ7SJ9B2jzpHmQj8kGTrOyJPW/T5IEXL56xL9MWWGVGVKNvde
+JKIdZs2vbRm9MCeaebOX1GYnpdB6kbolVdY8phmGnJ4PoEfa8vSOux6cVJ5t+l0d
+Bxcor0ie623PO/juyKyZPkAGFzs2L5IxJO5WrAj5swEbQMEG8fPpu5L+HpuUkmsk
+fyP4+BM5UXCVz3hZlUG098BAPIwATJU/ttX65Mfgh2daR+KsXs9r6ZvQSDMagLJb
+fhx6qV1PHA73BOVJxs9VhZqKjetC0Q==
+=neIK
 -----END PGP SIGNATURE-----
 
---===============7954536607430588513==
+--===============6412070729320618223==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -83,4 +83,4 @@ c7e328f1cbf22efe23bc3cd7dd6bb14efccc28d0 ASoC: SOF: sof-audio: don't squelch err
 e45cd86c3a78bfb9875a5eb8ab5dab459b59bbe2 ASoC: SOF: IPC4: update gain ipc msg definition to align with fw
 a7ee5b426fb66f5eab1790339f1c722060d3d6fc SoC: SOF: Intel: FIx device descriptions (missing
 
---===============7954536607430588513==--
+--===============6412070729320618223==--
