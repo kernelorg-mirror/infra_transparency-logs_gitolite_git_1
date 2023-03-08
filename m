@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6479694068032373189=="
+Content-Type: multipart/mixed; boundary="===============4235667401873975003=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Wed, 08 Mar 2023 00:31:58 -0000
-Message-Id: <167823551811.2091.7857410425783847863@gitolite.kernel.org>
+Date: Wed, 08 Mar 2023 00:32:02 -0000
+Message-Id: <167823552227.2172.1747555649319777318@gitolite.kernel.org>
 
---===============6479694068032373189==
+--===============4235667401873975003==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,50 +15,28 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/robh/linux
 user: robh
 changes:
-  - ref: refs/heads/master
-    old: 8e5423e991e8cd0988d0c4a3f4ac4ca1af7d148a
-    new: 8ca09d5fa3549d142c2080a72a4c70ce389163cd
-    log: revlist-8e5423e991e8-8ca09d5fa354.txt
-  - ref: refs/tags/v6.1
-    old: 0000000000000000000000000000000000000000
-    new: 7614896350aa20764c5eca527262d9eb0a57da63
-  - ref: refs/tags/v6.2
-    old: 0000000000000000000000000000000000000000
-    new: 32758e7a720e4752a824c6062e75f107314e5598
-  - ref: refs/tags/v6.2-rc1
-    old: 0000000000000000000000000000000000000000
-    new: e05dec85e78317f251eddd27e0357b2253d9dfc4
-  - ref: refs/tags/v6.2-rc2
-    old: 0000000000000000000000000000000000000000
-    new: e4ef62bcce9737cf3a2bb1b797b64dc25cbbfbb4
-  - ref: refs/tags/v6.2-rc3
-    old: 0000000000000000000000000000000000000000
-    new: d4245d7ef91d67fe3d21e2faab131fdeab636209
-  - ref: refs/tags/v6.2-rc4
-    old: 0000000000000000000000000000000000000000
-    new: 9b4ccd95c99918fe8ad32bc136fa36eab55af10b
-  - ref: refs/tags/v6.2-rc5
-    old: 0000000000000000000000000000000000000000
-    new: 4cc398054ac8efe0ff832c82c7caacbdd992312a
-  - ref: refs/tags/v6.2-rc6
-    old: 0000000000000000000000000000000000000000
-    new: d68cd3a82e80628f13a69e51ce459de12870f5b9
-  - ref: refs/tags/v6.2-rc7
-    old: 0000000000000000000000000000000000000000
-    new: 53b3c6467004c627f42d96ef839b223a749bcdd9
-  - ref: refs/tags/v6.2-rc8
-    old: 0000000000000000000000000000000000000000
-    new: 51c32cc368b00aae605286cad9150cefa0adbf2d
-  - ref: refs/tags/v6.3-rc1
-    old: 0000000000000000000000000000000000000000
-    new: d0656701c5a27a5a8a3a38bc07d18f2e157e963d
+  - ref: refs/heads/dt/next
+    old: 1ba7dfb905b3975bdb8b9d1f7793efcdfc59385b
+    new: ab82b4f1bca42a293444b41773252913f5f80e5a
+    log: revlist-1ba7dfb905b3-ab82b4f1bca4.txt
+  - ref: refs/heads/for-next
+    old: 1ba7dfb905b3975bdb8b9d1f7793efcdfc59385b
+    new: ab82b4f1bca42a293444b41773252913f5f80e5a
+    log: revlist-1ba7dfb905b3-ab82b4f1bca4.txt
 
---===============6479694068032373189==
+--===============4235667401873975003==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8e5423e991e8-8ca09d5fa354.txt
+Content-Disposition: attachment; filename=revlist-1ba7dfb905b3-ab82b4f1bca4.txt
 
+bdb12fb157d8d6aea7becbe6eaacf6c7c9b73f5e SUNRPC: Add /proc/net/rpc/gss_krb5_enctypes file
+4df750c924f405fe773771add507117a80ae6203 NFSD: Replace /proc/fs/nfsd/supported_krb5_enctypes with a symlink
+17781b2ce41a8915163d7cdada021f809ccd49f0 SUNRPC: Replace KRB5_SUPPORTED_ENCTYPES macro
+dfe9a123451a6e73306c988eab3dab12df001677 SUNRPC: Enable rpcsec_gss_krb5.ko to be built without CRYPTO_DES
+d50b8152c992ac88c5f1f0cc8ade6ee0aa0a3704 SUNRPC: Remove ->encrypt and ->decrypt methods from struct gss_krb5_enctype
+ae6ad5d0b7901b301234143e93624417ac9fd9ef SUNRPC: Rename .encrypt_v2 and .decrypt_v2 methods
+2691a27d9b3e6a48adeb87a9dcf4e8a0ca84a26e SUNRPC: Hoist KDF into struct gss_krb5_enctype
 ec4aaab39afcec749ff7ed78e560213ff9e1c23c SUNRPC: Clean up cipher set up for v1 encryption types
 8b3a09f3454240cb2c2ab3da02b86f354aab0bd6 SUNRPC: Parametrize the key length passed to context_v2_alloc_cipher()
 af664fc9023e69d1a90800c0f815c296bf727e18 SUNRPC: Add new subkey length fields
@@ -162,10 +140,6 @@ f9366f4c2a29d14f5992b195e268240c2deb116e include/linux/migrate.h: remove unneede
 885ce48739189fac6645ff42d736ee0de0b5917d Merge tag 'for-6.3-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
 eca3a04f140a7380d8a7b4cd89d681706a69380c Merge tag 'dlm-6.3' of git://git.kernel.org/pub/scm/linux/kernel/git/teigland/linux-dlm
 0af2795f936f1ea1f9f1497447145dfcc7ed2823 genirq/msi: Take the per-device MSI lock before validating the control structure
-74df14cd301a1433947077e79ce2c610654a32e7 of: unittest: add node lifecycle tests
-23522dd7033ad8dcd818f75469907a8fdac8e8a4 of: do not use "%pOF" printk format on node with refcount of zero
-ec0b7e24d566a843e3cfba21a6471170fdb0f810 of: add consistency check to of_node_release()
-d9194e009efef9613f48022f3c885191c48120f9 of: dynamic: add lifecycle docbook info to node creation functions
 cce5fe5eda0581363a9c585dabf8a5923f15a708 Merge tag 'for-6.3/io_uring-2023-02-16' of git://git.kernel.dk/linux
 c1ef5003079531b5aae12467a350379496752334 Merge tag 'for-6.3/iter-ubuf-2023-02-16' of git://git.kernel.dk/linux
 553637f73c314c742243b8dc5ef072e9dadbe581 Merge tag 'for-6.3/dio-2023-02-16' of git://git.kernel.dk/linux
@@ -288,7 +262,6 @@ f2b6cfda76d2119871e10fa01ecdc7178401ef22 net/mlx5e: Align IPsec ASO result memor
 6e649d08568220ee88deef0a1ad8b3a935420cf2 Merge tag 'locking-core-2023-02-20' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 a2f0e7eee1344eb9f91b22bc72d9eb0a52b849c9 Merge tag 'perf-core-2023-02-20' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 1f2d9ffc7a5f916935749ffc6e93fb33bfe94d2f Merge tag 'sched-core-2023-02-20' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-65f81bbd9117cf2f2090998a1ff4345742678d26 dt-bindings: arm: Add Cortex-A715 and X3
 95e158ec843666d76c09900507db08b76d77ce3e dt-bindings: hwlock: sun6i: Add #hwlock-cells to example
 6be3dafc7c1d323debb5910d697c5cd2cb19825f Merge tag 'x86-asm-2023-02-20' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 35011c67c8b7ff96c4e2dd892099ba643f9ae11e Merge tag 'x86-boot-2023-02-20' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
@@ -313,10 +286,6 @@ ce7980ae9080f72f08d50355c4d9084d57aece63 genirq/irqdesc: Make kobj_type structur
 939204e4df962982cbc84acc26b29b421dd530a8 Merge tag 'v6.2' into iommufd.git for-next
 0246725d7399d7d6acc8fd5a1a0a1ffce9a1eaa3 Merge tag 'ras_core_for_v6.3_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 d9de5ce8a5ec8f97c9468244fd85ff1a10363b60 Merge tag 'edac_updates_for_v6.3' of git://git.kernel.org/pub/scm/linux/kernel/git/ras/ras
-0305c98c9e1595bf4e8b3597a65ace9de98f0b5f dt-bindings: interrupt-controller: convert loongson,ls1x-intc.txt to json-schema
-64d666a7bd85c6208bb7f6700b426ac8943a7fa3 dt-bindings: sram: qcom,imem: document sm8450
-fb4b06f521c1cdf04088151ed587c188862e3111 dt-bindings: drop Sagar Kadam from SiFive binding maintainership
-b4858dc61647e5439cbba79022bfc87328c1fb84 of: dynamic: Fix spelling mistake "kojbect" -> "kobject"
 9e0c7efa5ea231d85c0d41693a5115b3b971717c block: remove more NULL checks after bdev_get_queue()
 9c7c4bc986932218fd0df9d2a100509772028fb1 ublk: remove check IO_URING_F_SQE128 in ublk_ch_uring_cmd
 1adce1b9440cdf0c427419b99bc9db756b5ad931 Merge tag 'x86_alternatives_for_v6.3_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
@@ -350,7 +319,6 @@ db95d4df71cb55506425b6e4a5f8d68e3a765b63 scsi: ses: Fix possible addl_desc_ptr o
 3fe97ff3d94934649abb0652028dd7296170c8d0 scsi: ses: Don't attach if enclosure has no components
 74e19ef0ff8061ef55957c3abd71614ef0f42f47 uaccess: Add speculation barrier to copy_from_user()
 877934769e5b91798d304d4641647900ee614ce8 Merge tag 'x86_cpu_for_v6.3_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-1ba7dfb905b3975bdb8b9d1f7793efcdfc59385b dt-bindings: regulator: Add mps,mpq7932 power-management IC
 64fd2ba977b1b6b073bcf4c71906f820bc531421 scsi: scsi_transport_fc: Add an additional flag to fc_host_fpin_rcv()
 473025a6b6f8a4a8de3120c78588d32cf4ba7324 scsi: ufs: Make the TC G210 driver dependent on CONFIG_OF
 ac4893980bbe79ce383daf9a0885666a30fe4c83 netfilter: ctnetlink: fix possible refcount leak in ctnetlink_create_conntrack()
@@ -1081,7 +1049,10 @@ b01fe98d34f3bed944a93bd8119fed80c856fad8 Merge tag 'i2c-for-6.3-rc1-part2' of gi
 f915322fe014c5c515119381e886faf07b3c9d31 Merge tag 'v6.3-p2' of git://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6
 596ff4a09b8981790e15572e8e7bc904df5835e7 cpumask: re-introduce constant-sized cpumask optimizations
 fe15c26ee26efa11741a7b632e9f23b01aca4cc6 Linux 6.3-rc1
-80c16b2b121fbc3380dbffa9bab7559acbaaa2ed cpumask: Fix typo nr_cpumask_size --> nr_cpumask_bits
-8ca09d5fa3549d142c2080a72a4c70ce389163cd cpumask: fix incorrect cpumask scanning result checks
+7795c8d3c7f151ca2860a7b1b22f4d4ec35fdac3 dt-bindings: fpga: xilinx-pr-decoupler: convert bindings to json-schema
+9368eea6e7bbea3eb33678fcc137cc0869690242 dt-bindings: fpga: xilinx-spi: convert bindings to json-schema
+36b3ff496eb9db76c07868436d60c8b555779f79 dt-bindings: arm: Add Cortex-A78C and X1C
+844f5ed5f57af38e890b5237fc866d3088dea764 dt-bindings: display: bridge: parade,ps8622: convert to dtschema
+ab82b4f1bca42a293444b41773252913f5f80e5a dt-bindings: display/bridge: toshiba,tc358764: convert to dtschema
 
---===============6479694068032373189==--
+--===============4235667401873975003==--
