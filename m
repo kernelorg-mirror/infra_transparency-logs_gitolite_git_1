@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/kernel/kexec/kexec-tools
-Date: Wed, 08 Mar 2023 12:49:54 -0000
-Message-Id: <167827979453.28565.2514994115884315736@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ogabbay/linux
+Date: Wed, 08 Mar 2023 12:58:03 -0000
+Message-Id: <167828028355.1823.8569879959608901645@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/kernel/kexec/kexec-tools
-user: horms
+repo: pub/scm/linux/kernel/git/ogabbay/linux
+user: ogabbay
 changes:
-  - ref: refs/heads/main
-    old: 63e9a012112e418876413bf45440118d69d85189
-    new: a8de94e5f033afc1424dc37933c9d1ecb3dc1b9f
+  - ref: refs/heads/habanalabs-next
+    old: 39db83cec2d20efe66b1fe94039cf9a306fbfdd8
+    new: 0de87e47989e662a9b0273af43cab3475711cb7d
     log: |
-         4203eaccfa925dd11019163560297a5353b01638 kexec: __NR_kexec_file_load is set to undefined on LoongArch
-         a8de94e5f033afc1424dc37933c9d1ecb3dc1b9f LoongArch: kdump: Set up kernel image segment
+         0de87e47989e662a9b0273af43cab3475711cb7d habanalabs: make gaudi2_is_device_idle() static
          
