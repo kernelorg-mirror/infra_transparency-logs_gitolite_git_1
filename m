@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs-tools
-Date: Wed, 08 Mar 2023 19:10:52 -0000
-Message-Id: <167830265283.29362.3220298142704700290@gitolite.kernel.org>
+Subject: post-receive: pub/scm/docs/man-pages/man-pages
+Date: Wed, 08 Mar 2023 19:12:57 -0000
+Message-Id: <167830277784.30046.2914809150499663138@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jaegeuk/f2fs-tools
-user: jaegeuk
+repo: pub/scm/docs/man-pages/man-pages
+user: alx
 changes:
-  - ref: refs/heads/dev-test
-    old: 641be3225901d2e94262f3ff131a07315eb501c2
-    new: 0ac168e2109aed9e60ed7e44610a4f6dc54fa547
+  - ref: refs/heads/master
+    old: 7d5c5fd9846d4a1f2ce0fd5503e56caa2087eafc
+    new: bab8324d213362bbb59434748797a0cddcbefecd
     log: |
-         0ac168e2109aed9e60ed7e44610a4f6dc54fa547 f2fs-tools: relax zone size of power of 2
+         bab8324d213362bbb59434748797a0cddcbefecd tzfile.5, tzselect.8: sync from tzdb upstream
          
