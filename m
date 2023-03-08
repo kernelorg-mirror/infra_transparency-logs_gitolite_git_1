@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4093379948393881500=="
+Content-Type: multipart/mixed; boundary="===============3121255185550186355=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Wed, 08 Mar 2023 13:23:44 -0000
-Message-Id: <167828182484.19537.17986486774530191675@gitolite.kernel.org>
+Date: Wed, 08 Mar 2023 13:27:08 -0000
+Message-Id: <167828202844.22190.4881399361430290624@gitolite.kernel.org>
 
---===============4093379948393881500==
+--===============3121255185550186355==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: d27705afb699649c99b943540654571d250e3db6
-    new: dadf7e62cfb6a0bbb80eb87c5cde4432ba774076
+    old: dadf7e62cfb6a0bbb80eb87c5cde4432ba774076
+    new: 59f70e2cd119d122a332c5908408a21ae1bb881b
     log: |
-         dadf7e62cfb6a0bbb80eb87c5cde4432ba774076 4.14-stable patches
+         59f70e2cd119d122a332c5908408a21ae1bb881b fix up queue-4.14/kbuild-port-silent-mode-detection-to-future-gnu-make.patch
          
 
---===============4093379948393881500==
+--===============3121255185550186355==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1678281823 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1678282027 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1678281822-60fb4b19be0d999428a52ecfb338339ae910ebaf
+nonce 1678282024-dea7b8e09eeaba751af43bf0598c1ac173ce8f68
 
-d27705afb699649c99b943540654571d250e3db6 dadf7e62cfb6a0bbb80eb87c5cde4432ba774076 refs/heads/master
+dadf7e62cfb6a0bbb80eb87c5cde4432ba774076 59f70e2cd119d122a332c5908408a21ae1bb881b refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQIjF8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+vXUQAJTobWulTL09Mih7iqQa
-YH13XAGnrfXXqMN3ohyTSpETlJbH8jrVu5hy/P+oOmJhxTwO5gmfpKwnjIWxrcvg
-Y7angXwyK8ZYVeoGYMpDTz+TMRcBjoORY3K3QPC4NAY+Je/N5ij1/kPT+BaHFp8j
-lClf7/p2flDgvRO0AZqIj81GgdiEHc7OgzjSRM+CrhGGFVpOzINwmNCOpJLNvQXm
-wt+QcoR/kPcwr8MdAxcVQ5lDGpcwAvSmaMsGm3Erb+dPt8ejbt+GAOkPDwAZztvr
-RjSHj+jog2KsdsWFrpWwTYRWVdFrWyOEXCMxi47cB8XU/SI0UhvdMZurrnzmfxsJ
-6qwcuha5iaTEKdQL4ukve0UVAx+3+l3Q45/YYOE3cvNaEjkirCKvjslbhS2QFEMT
-RnljM6IBbw235eCoZxjl6CYtF1IPRmTV5MGOZATJ5UIqdI1wjMguwdlof7PdgrqI
-J9PZY78Vm2a9gpC/dzHdsJrIJ614RR+eStYZW/pq+97D8kz9SBXLy8vJSUFuJS2b
-NiOqTjB4DtGrNxL2DgpPrpZXNfw2XIv1TkgUTyjo0WuYzLKZDi1NaC8ZbgXSmqGG
-Ow64K5eZAyrOkPFuNsUHZqQA1O5K0624rlDuc4TcjDS8+jPdJnkFQcqHjY72/3ql
-8TIPn3IEFiWvhzk2+Ey1VAR4
-=Q94b
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQIjSsbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+XFcP/iSJBpPL5ZOU+PBtc+FY
+6Q9Mf7lTg7gUYhgACLPXfkCtg/NNt9lRxXeo7TpPd5IxnYzDZqhrwWsnaSYTdxIg
+vSwpVS0aZ8g8Zy6t9m2AymMigMfydl6B5NPR1u91aW3u3nPzJiv9yFxHuhxfwSYD
+CUqek29mi26IpGNOulG0B7KgqUzbin9J+rhMjFzMwhwl5JizCvGgxU86tJzgh+1J
+eq7EaMy0+ai40aN1ljeBk55+AGw0mhDo+3ZBdHK4dIjWzGXZ2brAd9dhRikPj75r
+76ShBa5iyR2PRKZvgiro8vBSWsPmLTQA6DCw2a4qiCQym6vDkb414m36vaSFO0DR
+kaunVxtzzdlC6TUwKuGgqfAFXOLijI2orNF36s/fcG8Mz9LiYxkEA5OAPDiFDtag
+svHj36c1Y25Z36NgOH5bxnIyj5Apv86jJQiuNpkOSnzsdV5HLhWDMmS0fCJmNNuW
+7sktc5LJ3Cs5YuAD5x1iaK5Jeo8dQnn/szVwMbS87KhTNlRymmszLMDhoq5zUOcn
+0EJRXx+RlqixR95gN0UlZBZaHVf0YvyBeD9sRbRhikivDF3XvciS5sVijdz7q36c
+EeIr7V2A0CufK8Hm6C0bkDfXMUvrb9rb8U4w66fkXal3mfboHC1rGcFQroccYXbZ
+s0MQ9C3LlQA7tgYOESQ0sYR7
+=576k
 -----END PGP SIGNATURE-----
 
---===============4093379948393881500==--
+--===============3121255185550186355==--
