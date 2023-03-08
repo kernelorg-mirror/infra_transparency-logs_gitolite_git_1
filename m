@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 08 Mar 2023 15:27:43 -0000
-Message-Id: <167828926380.8823.675497894801226680@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/andy/linux-gpio-intel
+Date: Wed, 08 Mar 2023 15:42:13 -0000
+Message-Id: <167829013335.17823.7954387326404574299@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: bp
+repo: pub/scm/linux/kernel/git/andy/linux-gpio-intel
+user: andy
 changes:
-  - ref: refs/heads/ras/core
-    old: 7214b32b6f4c6c1385a52f2e3a7107f28349f505
-    new: 554eec0b4a29d0dfe59065e2cf1d2568c7b4d5f0
+  - ref: refs/heads/review-andy
+    old: 8b057bd621703dfecadf5b32be01338824067d4b
+    new: a40afcb459675d606cbcad37b69e5340a3775e2d
     log: |
-         554eec0b4a29d0dfe59065e2cf1d2568c7b4d5f0 x86/mce: Always inline old MCA stubs
+         a40afcb459675d606cbcad37b69e5340a3775e2d gpio: ich: Use devm_gpiochip_add_data() to simplify remove path
          
