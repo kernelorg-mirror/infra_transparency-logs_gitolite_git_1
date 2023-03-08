@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/deller/linux-fbdev
-Date: Wed, 08 Mar 2023 22:06:09 -0000
-Message-Id: <167831316995.19091.3853986258001870998@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/lsm
+Date: Wed, 08 Mar 2023 22:06:47 -0000
+Message-Id: <167831320770.19351.1948101715417277717@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/deller/linux-fbdev
-user: deller
+repo: pub/scm/linux/kernel/git/pcmoore/lsm
+user: pcmoore
 changes:
-  - ref: refs/heads/for-next
-    old: 822242608545c2913436a1f2d254645b7663013e
-    new: cf9b8228d2d08ac8a9a54e0c539160ebc85f8f5c
+  - ref: refs/heads/next
+    old: b3816cf8138b6814375ec65673bcba91d368ee9f
+    new: f89f8e1661e6bef87073ad4934e1eede5f69f4b7
     log: |
-         6a49f43b8bd30ca06e2160b71ce586dc94d7f8e1 MAINTAINERS: orphan SIS FRAMEBUFFER DRIVER
-         cf9b8228d2d08ac8a9a54e0c539160ebc85f8f5c fbdev: tgafb: Fix potential divide by zero
+         f89f8e1661e6bef87073ad4934e1eede5f69f4b7 device_cgroup: Fix typo in devcgroup_css_alloc description
          
