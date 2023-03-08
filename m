@@ -1,86 +1,55 @@
-Content-Type: multipart/mixed; boundary="===============6412070729320618223=="
+Content-Type: multipart/mixed; boundary="===============1045806212181312049=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Wed, 08 Mar 2023 13:51:41 -0000
-Message-Id: <167828350152.8529.13505332661316364903@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Wed, 08 Mar 2023 13:51:50 -0000
+Message-Id: <167828351087.8661.10436747190539626003@gitolite.kernel.org>
 
---===============6412070729320618223==
+--===============1045806212181312049==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.3
-    old: 38d408f5b1250d56f8a19d2f2ff65aa8c7b93ff4
-    new: a7ee5b426fb66f5eab1790339f1c722060d3d6fc
-    log: revlist-38d408f5b125-a7ee5b426fb6.txt
-  - ref: refs/heads/asoc-6.4
-    old: ed3b4b8772783e840d93a079b2dbdd7f9c4b3c76
-    new: f1fbb6a2667e2bb21c281a0fa4edb1ac8d1d0ab0
+  - ref: refs/heads/for-6.4
+    old: 2289fa0704b8d074d256cfa43ceaa6ee620d5697
+    new: a96c3588cf7c90e0afdf588654b0ead99740e47a
     log: |
-         11f45690b3f6c6a2b5c57dbb036df3f838f7c016 ASoC: SOF: ipc4: Add macro to set the core_id in create_pipe message
-         05ade472278a1a2fccc465ace205d6cfa9b521d5 ASoC: SOF: ipc4-topology: Add support for core_id for pipelines
-         755ddc3acd50ca70e46b032c5c4a078e7b1b7d46 ASoC: SOF: ipc4-topology: add core token in each module extended token list
-         611fddf58862a9e77ae300605b2c00d54e973b1f ASoC: SOF: loader: Remove log prefixes for snd_sof_run_firmware
-         1d045d77756d07495ce379343455b1f829fe737d ASoC: SOF: Intel: hda-loader: use SOF helper for consistency
-         418d2b2fad7cdce5d39d0e2fdbe2460f584b5432 ASoC: SOF: Intel: mtl: Access MTL_HFPWRCTL from HDA_DSP_BAR
-         3c50211f2d534a5b766b1ff3c6cf6f7bd0bae753 ASoC: SOF: ipc4-topology: don't allocate blob if it will not be used
-         db97cc0f7459a2bee68e6e8bf0b2f7a286137fa8 ASoC: SOF: ipc4-mtrace: process pending logs upon FW crash
-         f1fbb6a2667e2bb21c281a0fa4edb1ac8d1d0ab0 ASoC: SOF: ipc4: Add core_id support from topology
+         ee493fa5d91dec02402239a072820b18beb36265 spi: mpc5xxx-psc: Correct error check for devm_platform_get_and_ioremap_resource()
+         208ee586f86237969a91ac60ea10f48db9135143 spi: mpc5xxx-psc: Return immediately if IRQ resource is unavailable
+         9e21720a49589304aef9e37e8b6c6a4196daf156 spi: mpc5xxx-psc: use devm_clk_get_enabled() for core clock
+         289c084ddc1317e6ed911911f95371679c10af1e spi: mpc5xxx-psc: Propagate firmware node
+         3169c5816a55ba671e9c8a671c6c75818d30c657 spi: mpc5xxx-psc: Consistently use device property APIs
+         a96c3588cf7c90e0afdf588654b0ead99740e47a spi: mpc5xxx-psc: Clean up even more and fix
          
 
---===============6412070729320618223==
+--===============1045806212181312049==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1678283499 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1678283498-e59d1dad1e498fc09b5f2827bc170df28d0a4e67
+pusher C3F436CA30F5D8EB 1678283508 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1678283507-da6428cfd5df70a0587140a42f88123baa4e90cc
 
-38d408f5b1250d56f8a19d2f2ff65aa8c7b93ff4 a7ee5b426fb66f5eab1790339f1c722060d3d6fc refs/heads/asoc-6.3
-ed3b4b8772783e840d93a079b2dbdd7f9c4b3c76 f1fbb6a2667e2bb21c281a0fa4edb1ac8d1d0ab0 refs/heads/asoc-6.4
+2289fa0704b8d074d256cfa43ceaa6ee620d5697 a96c3588cf7c90e0afdf588654b0ead99740e47a refs/heads/for-6.4
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmQIkusACgkQJNaLcl1U
-h9ASAQf/RI/nuvriAa9jH8uRtJNrGoaZ1vgHtzzXl7qUm6Kg83iYXfEFVTHi2tRh
-dGUoGfwivSnXO0nJJ7SJ9B2jzpHmQj8kGTrOyJPW/T5IEXL56xL9MWWGVGVKNvde
-JKIdZs2vbRm9MCeaebOX1GYnpdB6kbolVdY8phmGnJ4PoEfa8vSOux6cVJ5t+l0d
-Bxcor0ie623PO/juyKyZPkAGFzs2L5IxJO5WrAj5swEbQMEG8fPpu5L+HpuUkmsk
-fyP4+BM5UXCVz3hZlUG098BAPIwATJU/ttX65Mfgh2daR+KsXs9r6ZvQSDMagLJb
-fhx6qV1PHA73BOVJxs9VhZqKjetC0Q==
-=neIK
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmQIkvQACgkQJNaLcl1U
+h9DtMwf+KLMqUGETADMRAKLhYS/cjkvFjglh4ewVXClmQ14VBPkMRiyU6pYbJg9L
+aSgUtDgrslNNUNwemrByOJgaTU2aYMQgwglGYoLajaIfJtGWwiH+uSPtS5ixVb0N
+C26EfjKcXeI/S4ZnjfOMzmkZ3IAdsw+s9DheK+RnUyqkXs7hLZB5jTipWTFCvf5k
+fsUTmUOhk5Ob5fLdNX96UwITbEV1UNGlbRTaVkvZUfnm0B7J20ffgwBdjwog5J/t
+Ul8ZttiTbCpsKP6Mr58wsgAw05WuDI9lyrkm/bjg0wpFx/XhlD63ll337HmUE6WO
+1q5ifmPwSA5wZbXBy3WHdnlKymAjhg==
+=NaLb
 -----END PGP SIGNATURE-----
 
---===============6412070729320618223==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-38d408f5b125-a7ee5b426fb6.txt
-
-a659e35ca0af2765f567bdfdccfa247eff0cdab8 ASoC: SOF: Intel: MTL: Fix the device description
-9eb2b4cac223095d2079a6d52b8bbddc6e064288 ASoC: SOF: Intel: HDA: Fix device description
-1f320bdb29b644a2c9fb301a6fb2d6170e6417e9 ASoC: SOF: Intel: SKL: Fix device description
-376f79bbf521fc37b871b536276319951b5bef3a ASOC: SOF: Intel: pci-tgl: Fix device description
-989a3e4479177d0f4afab8be1960731bc0ffbbd0 ASoC: SOF: ipc3: Check for upper size limit for the received message
-9e269e3aa9006440de639597079ee7140ef5b5f3 ASoC: SOF: ipc4-topology: Fix incorrect sample rate print unit
-858a438a6cf919e5727d2a0f5f3f0e68b2d5354e ASoC: Intel: soc-acpi: fix copy-paste issue in topology names
-6ba8ddf86a3ada463e9952a19b069f978a70a748 ASoC: SOF: topology: Fix error handling in sof_widget_ready()
-ca09e2a351fbc7836ba9418304ff0c3e72addfe0 ASoC: SOF: Intel: pci-tng: revert invalid bar size setting
-b66bfc3a9810caed5d55dd8907110bdc8028b06b ASoC: SOF: sof-audio: Fix broken early bclk feature for SSP
-c99e48f4ce9b986ab7992ec7283a06dae875f668 ASoC: SOF: ipc4-topology: set dmic dai index from copier
-52a55779ed14792a150421339664193d6eb8e036 ASoC: SOF: Intel: hda-dsp: harden D0i3 programming sequence
-8bac40b8ed17ab1be9133e9620f65fae80262b7e ASoC: SOF: Intel: hda-ctrl: re-add sleep after entering and exiting reset
-c7e328f1cbf22efe23bc3cd7dd6bb14efccc28d0 ASoC: SOF: sof-audio: don't squelch errors in WIDGET_SETUP phase
-e45cd86c3a78bfb9875a5eb8ab5dab459b59bbe2 ASoC: SOF: IPC4: update gain ipc msg definition to align with fw
-a7ee5b426fb66f5eab1790339f1c722060d3d6fc SoC: SOF: Intel: FIx device descriptions (missing
-
---===============6412070729320618223==--
+--===============1045806212181312049==--
