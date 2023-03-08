@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ogabbay/linux
-Date: Wed, 08 Mar 2023 12:41:19 -0000
-Message-Id: <167827927994.22822.4563677913459898290@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/kernel/kexec/kexec-tools
+Date: Wed, 08 Mar 2023 12:49:54 -0000
+Message-Id: <167827979453.28565.2514994115884315736@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ogabbay/linux
-user: ogabbay
+repo: pub/scm/utils/kernel/kexec/kexec-tools
+user: horms
 changes:
-  - ref: refs/heads/habanalabs-next
-    old: d02701a5024f23b817589b96289dc8c62a331091
-    new: 39db83cec2d20efe66b1fe94039cf9a306fbfdd8
+  - ref: refs/heads/main
+    old: 63e9a012112e418876413bf45440118d69d85189
+    new: a8de94e5f033afc1424dc37933c9d1ecb3dc1b9f
     log: |
-         39db83cec2d20efe66b1fe94039cf9a306fbfdd8 habanalabs: Drop redundant pci_enable_pcie_error_reporting()
+         4203eaccfa925dd11019163560297a5353b01638 kexec: __NR_kexec_file_load is set to undefined on LoongArch
+         a8de94e5f033afc1424dc37933c9d1ecb3dc1b9f LoongArch: kdump: Set up kernel image segment
          
