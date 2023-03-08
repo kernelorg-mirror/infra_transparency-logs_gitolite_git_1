@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mtd/linux
-Date: Wed, 08 Mar 2023 13:44:11 -0000
-Message-Id: <167828305137.1009.13559159918760393559@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Wed, 08 Mar 2023 13:47:29 -0000
+Message-Id: <167828324958.5048.7840072990018287451@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mtd/linux
-user: mraynal
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/tags/mtd/core-fixes-before-nvmem-layouts-for-6.4
+  - ref: refs/heads/arm64-aa64pfr1-2022-12
     old: 0000000000000000000000000000000000000000
-    new: 825031978a066f9b2f5af449c5dc03bf6354ebb4
+    new: 5f97f5732df823dac1be58e52b05fb8ee69ed1ef
