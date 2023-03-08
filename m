@@ -1,21 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Wed, 08 Mar 2023 17:11:45 -0000
-Message-Id: <167829550587.14775.11298384891368564784@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Wed, 08 Mar 2023 17:31:33 -0000
+Message-Id: <167829669381.28198.16805579409775747343@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
-user: acme
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/perf/urgent
-    old: 14e998ed42208f60d5f848f5e025fa2c2e9667b0
-    new: 5b201a82cd9d0945d70562974ea6ad8e3b1861b5
+  - ref: refs/heads/dev
+    old: e4beed6287ce8ebd0baa96f87824e883b2cfacec
+    new: 3898e7642316732e23716ca902f9d122736f9805
     log: |
-         7d0930647c020f75592adde8712d2cb002b29387 tools headers x86 cpufeatures: Sync with the kernel sources
-         06a1574b94ee5272789eaea05a5bdddedea7cc0d tools headers UAPI: Sync linux/perf_event.h with the kernel sources
-         5b201a82cd9d0945d70562974ea6ad8e3b1861b5 perf tools: Add Adrian Hunter to MAINTAINERS as a reviewer
+         3898e7642316732e23716ca902f9d122736f9805 Revert "rcu/kvfree: Eliminate k[v]free_rcu() single argument macro"
+         
+  - ref: refs/heads/rcu/next
+    old: e4beed6287ce8ebd0baa96f87824e883b2cfacec
+    new: 3898e7642316732e23716ca902f9d122736f9805
+    log: |
+         3898e7642316732e23716ca902f9d122736f9805 Revert "rcu/kvfree: Eliminate k[v]free_rcu() single argument macro"
          
