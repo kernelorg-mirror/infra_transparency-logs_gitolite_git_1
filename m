@@ -1,46 +1,27 @@
-Content-Type: multipart/mixed; boundary="===============8832033987535834912=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/b4/b4
-Date: Wed, 08 Mar 2023 14:59:53 -0000
-Message-Id: <167828759330.20488.18217816546333227003@gitolite.kernel.org>
-
---===============8832033987535834912==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
+Date: Wed, 08 Mar 2023 15:05:18 -0000
+Message-Id: <167828791883.25804.1338416090369337931@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/b4/b4
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/robh/linux
+user: robh
 changes:
-  - ref: refs/heads/master
-    old: bd1bf7905f2f9c2340b75b5074285105a6fa35f3
-    new: 041d10b7f628fa082babdfa14def50b25b28f701
+  - ref: refs/heads/dt/next
+    old: ab82b4f1bca42a293444b41773252913f5f80e5a
+    new: d0dcd0ce8437ee8b99b123e8580e918542ac488c
     log: |
-         041d10b7f628fa082babdfa14def50b25b28f701 ez: add ability to use markdown headers in cover
+         20a72af11f411bb74c14bd424f33b02e03937cf6 dt-bindings: Fix SPI and I2C bus node names in examples
+         d0dcd0ce8437ee8b99b123e8580e918542ac488c dt-bindings: yamllint: Require a space after a comment '#'
          
-
---===============8832033987535834912==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher B6C41CE35664996C! 1678287592 -0500
-pushee gitolite.kernel.org:pub/scm/utils/b4/b4
-nonce 1678287592-7045c092fb96b85c7a14bde4c17ce33dfedf3ec9
-
-bd1bf7905f2f9c2340b75b5074285105a6fa35f3 041d10b7f628fa082babdfa14def50b25b28f701 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCZAii6AAKCRC2xBzjVmSZ
-bP/kAQDTq+CsoyBBWK8byZCXdB22VpGmDaLZPmvKsubVf7UuTgEA8YgiZU5q/XrW
-iM7QvKFckpeCTJABvUAauuq3jOpGNwI=
-=sHNA
------END PGP SIGNATURE-----
-
---===============8832033987535834912==--
+  - ref: refs/heads/for-next
+    old: ab82b4f1bca42a293444b41773252913f5f80e5a
+    new: d0dcd0ce8437ee8b99b123e8580e918542ac488c
+    log: |
+         20a72af11f411bb74c14bd424f33b02e03937cf6 dt-bindings: Fix SPI and I2C bus node names in examples
+         d0dcd0ce8437ee8b99b123e8580e918542ac488c dt-bindings: yamllint: Require a space after a comment '#'
+         
