@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/andy/linux-gpio-intel
-Date: Wed, 08 Mar 2023 15:42:13 -0000
-Message-Id: <167829013335.17823.7954387326404574299@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jack/linux-fs
+Date: Wed, 08 Mar 2023 15:43:36 -0000
+Message-Id: <167829021654.18334.1358024246498347858@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/andy/linux-gpio-intel
-user: andy
+repo: pub/scm/linux/kernel/git/jack/linux-fs
+user: jack
 changes:
-  - ref: refs/heads/review-andy
-    old: 8b057bd621703dfecadf5b32be01338824067d4b
-    new: a40afcb459675d606cbcad37b69e5340a3775e2d
+  - ref: refs/heads/for_next
+    old: 63bceed808c5cafbac4e20b5a40012a0ec6c6529
+    new: 62aeb94433fcec80241754b70d0d1836d5926b0a
     log: |
-         a40afcb459675d606cbcad37b69e5340a3775e2d gpio: ich: Use devm_gpiochip_add_data() to simplify remove path
+         e9cd1d9a34131fb56bef469d4e1cd31bd1b515e2 ext2: Correct maximum ext2 filesystem block size
+         62aeb94433fcec80241754b70d0d1836d5926b0a ext2: Check block size validity during mount
          
