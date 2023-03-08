@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Wed, 08 Mar 2023 12:31:08 -0000
-Message-Id: <167827866870.16217.893238817180587758@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ogabbay/linux
+Date: Wed, 08 Mar 2023 12:38:55 -0000
+Message-Id: <167827913554.20473.4347220074067239990@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/man-pages/man-pages
-user: alx
+repo: pub/scm/linux/kernel/git/ogabbay/linux
+user: ogabbay
 changes:
-  - ref: refs/heads/master
-    old: 82365306082a7888e0f3e5ac612b7ded10f30cef
-    new: 7d5c5fd9846d4a1f2ce0fd5503e56caa2087eafc
+  - ref: refs/heads/habanalabs-next
+    old: e174cf78642820ba623fd1786f6bfe9972732248
+    new: d02701a5024f23b817589b96289dc8c62a331091
     log: |
-         7d5c5fd9846d4a1f2ce0fd5503e56caa2087eafc string_copying.7: Modify implementation of stpecpy()
+         d02701a5024f23b817589b96289dc8c62a331091 habanalabs: Drop redundant pci_enable_pcie_error_reporting()
          
