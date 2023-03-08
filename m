@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6948760886049806840=="
+Content-Type: multipart/mixed; boundary="===============2438247043108800229=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Wed, 08 Mar 2023 16:10:36 -0000
-Message-Id: <167829183665.5580.5310745580900597870@gitolite.kernel.org>
+Date: Wed, 08 Mar 2023 16:11:31 -0000
+Message-Id: <167829189102.5896.9278222253029533114@gitolite.kernel.org>
 
---===============6948760886049806840==
+--===============2438247043108800229==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,41 @@ repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-linus
-    old: fe15c26ee26efa11741a7b632e9f23b01aca4cc6
-    new: fe413a074a93d56f89e322c786aad8639afe76b4
+  - ref: refs/heads/staging-testing
+    old: 4bd92a7714d19413eb477d4c02fbca4aae27abb5
+    new: fa0dcd5909ad9168bc51ad4f577f3631803d2ab2
     log: |
-         a98fc23cc2c1e4382a79ff137ca1a93d6a73b451 staging: rtl8192e: Remove function ..dm_check_ac_dc_power calling a script
-         fe413a074a93d56f89e322c786aad8639afe76b4 staging: rtl8192e: Remove call_usermodehelper starting RadioPower.sh
+         fa0dcd5909ad9168bc51ad4f577f3631803d2ab2 staging: rtl8192e: Change filename r8192E_hwimg.x to table.x
          
 
---===============6948760886049806840==
+--===============2438247043108800229==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1678291834 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1678291888 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1678291833-576dcb441ef370903d9694484f36c14eac865fd2
+nonce 1678291888-d1180a9666418ce3270155bef2bc57a6475a363d
 
-fe15c26ee26efa11741a7b632e9f23b01aca4cc6 fe413a074a93d56f89e322c786aad8639afe76b4 refs/heads/staging-linus
+4bd92a7714d19413eb477d4c02fbca4aae27abb5 fa0dcd5909ad9168bc51ad4f577f3631803d2ab2 refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQIs3obHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+BuEQAJ3kGwH2wPlbqsdW1ZiR
-OIEDboAis62eXUXCKMpwSO+9IFO5oW2lhVI6DiOcgt/wflyzJoqRKbivAVooQG8B
-zdsyknVRDQxtG+7kVyaLUarcXzLmXeW6IK5QBpRaznWRCp1zDAYhz4ECse6f8fI7
-do98fT5oamhNK5iJzehvRxXPFk3C7eDlngLH9tf4p7IJKXlYv+IX0uiYeFpi6uU9
-M7NjdXL05IEXJIoDYZTSsf2JueN3gJbbXxofEiJSt04vVur87cMNWawVn8PufJwr
-H5DczMnEcEyhP7q0rZVSR51rMfApD2CHNmxMx3q7a91YO/yhVR3CM92N2cr74hgb
-JEZOG1Kk8NlsYwQ0Kq/cqpxQ0/Nj11sVWXlGeEis0bPkq8aRHqVRO0BLyitQ3Cst
-uS/xl831d7tBU+kmq8xMbJ9aUBzcPE+H5hqjHlZ4QyC62whq1yNKghHpOKHah7eI
-Nu0qLgy+f4UsfXigyZrNYc+/1lfBrUHj1+kutkS1D/l7JX452SvFO6kF1nAb53yU
-kybeufdsf54u0GF52qm/7QmMq0mC95lC1W/D6Dx0DYJ+LdjbkUFmJZxYNYDaeCrr
-Rmm/O3oPQ02eCK6XH8y7gAl8RQNEK1gx7ibqB3b4JZPMT3pu2nh50JVAMQ2L4X7z
-t5g5TD827XiN95+0rZY3uanb
-=aph0
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQIs7AbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+jNUP+wY+TaDvb4cNVsWEaCSA
+YOqgcoLYU7cIhQj9R5BqDw7LcwVcHmRMtLbrfJV7Tjg6Vb8edJBM3thqTojdgos6
+D/8USeO5iMEr/4exn/zny4q7ahVDgmLBKx+MvTUhrgJ//87wnB/Wa6AHVzszaG+X
+Slajz2a2jvgMshBLgP0kO1hQDFzHbID1nDemhnG0LtVvvufsKt68Tws+ocEqPhti
+2hEN7RHeRsxn+6LU0frSWDaZmln62xi6wUk3wUR17XbKDudukFwwTYpb1hZ87Mhi
+SIf+RKIBokAZJI8hSiw2LL0YmDyEQbovnX9tPpErwJzyoG5yQZwsT9fx5hYqSdRJ
+tv2KA586AI0P0GfP4I07Z2H52+087z9DsBuQSRsMh/7TuIgWfxA+0IrUr4Xop/lD
+v59VwxnGrx0yFtMYyR6AprNOYVmjq9ZSnxnv/br0xH/bzlMnxr0fnEmtQnnwlqGr
+rljgnjBxeFeTl+7Jeco/W0sqZrkA/Bd3FLVsIiPSDlloyuqq97Rh6A/wCJDdtY0B
+sniVyF1t19R7Dk2mCKObnF7KiTNuKNTT9Is+hjrslzAaxE5XT8b+JVck9/VYjOMB
+hMRIoUZp7o6LFR91+YXwITa8o8XNnA/d4gWQrRmh7WnrMo0L6nZu1pLYN5t07/Lt
+YJggdKTDBVvAeLcXp3z3ZvIf
+=ItEh
 -----END PGP SIGNATURE-----
 
---===============6948760886049806840==--
+--===============2438247043108800229==--
