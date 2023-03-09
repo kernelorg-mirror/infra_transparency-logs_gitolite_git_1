@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8184078526758831130=="
+Content-Type: multipart/mixed; boundary="===============8286925775870830890=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 09 Mar 2023 09:05:18 -0000
-Message-Id: <167835271895.5968.9165333840584161244@gitolite.kernel.org>
+Date: Thu, 09 Mar 2023 09:05:51 -0000
+Message-Id: <167835275132.6237.10033140989699334764@gitolite.kernel.org>
 
---===============8184078526758831130==
+--===============8286925775870830890==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,26 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/auto-latest
     old: 9ff7fb2f2c41f89019a785407b2268e3df523131
-    new: 43ad6a240ac668f87e824acd4cb0900ed3f1acd1
-    log: revlist-9ff7fb2f2c41-43ad6a240ac6.txt
+    new: c268f567e8b4cea64214c05099712886f64c2509
+    log: revlist-9ff7fb2f2c41-c268f567e8b4.txt
+  - ref: refs/heads/master
+    old: 43ad6a240ac668f87e824acd4cb0900ed3f1acd1
+    new: c268f567e8b4cea64214c05099712886f64c2509
+    log: |
+         d49e6710a759850c2482075eace0b8b1e9b86816 Merge branch into tip/master: 'x86/urgent'
+         2d3e880be9f781aeb9db81e5d6e2a14c0ac6ec8f Merge branch into tip/master: 'ras/core'
+         31c52f9554415d7293734844dfca8b51885628c6 Merge branch into tip/master: 'x86/cleanups'
+         2ac295f82358542af9a4701c42e1cd0e4e803b8d Merge branch into tip/master: 'x86/misc'
+         c268f567e8b4cea64214c05099712886f64c2509 Merge branch into tip/master: 'x86/paravirt'
+         
 
---===============8184078526758831130==
+--===============8286925775870830890==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9ff7fb2f2c41-43ad6a240ac6.txt
+Content-Disposition: attachment; filename=revlist-9ff7fb2f2c41-c268f567e8b4.txt
 
 49854d3ccc55efd7e6873e0c39f360bdbe251c51 udf: Fix lost writes in udf_adinicb_writepage()
 cecb1f06541e12ec68805dbddb2013ee720dfe3d udf: Fix reading of in-ICB files
@@ -45,8 +55,10 @@ b0563468eeac88ebc70559d52a0b66efc37e4e9d x86/CPU/AMD: Disable XSAVES on AMD fami
 7fef099702527c3b2c5234a2ea6a24411485a13a x86/resctl: fix scheduler confusion with 'current'
 55ee6646b6ba86574d1411af275c61a82fdfe10e Merge tag 'platform-drivers-x86-v6.3-2' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 6a98c9cae232800c319ed69e1063480d31430887 Merge tag 'fs_for_v6.3-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/jack/linux-fs
-0d953ed2bb0d6593a6d70d7a21deca2cc3887df2 Merge branch into tip/master: 'x86/urgent'
-755a4699f4c047d1cdc2840188ad5435552b2f4e Merge branch into tip/master: 'ras/core'
-43ad6a240ac668f87e824acd4cb0900ed3f1acd1 Merge branch 'linus'
+d49e6710a759850c2482075eace0b8b1e9b86816 Merge branch into tip/master: 'x86/urgent'
+2d3e880be9f781aeb9db81e5d6e2a14c0ac6ec8f Merge branch into tip/master: 'ras/core'
+31c52f9554415d7293734844dfca8b51885628c6 Merge branch into tip/master: 'x86/cleanups'
+2ac295f82358542af9a4701c42e1cd0e4e803b8d Merge branch into tip/master: 'x86/misc'
+c268f567e8b4cea64214c05099712886f64c2509 Merge branch into tip/master: 'x86/paravirt'
 
---===============8184078526758831130==--
+--===============8286925775870830890==--
