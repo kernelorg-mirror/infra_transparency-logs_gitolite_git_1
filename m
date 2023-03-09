@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2868391555467721976=="
+Content-Type: multipart/mixed; boundary="===============6129131464498000830=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Thu, 09 Mar 2023 16:10:28 -0000
-Message-Id: <167837822824.14371.8536864195791550342@gitolite.kernel.org>
+Date: Thu, 09 Mar 2023 16:12:55 -0000
+Message-Id: <167837837579.15198.7896482966525777243@gitolite.kernel.org>
 
---===============2868391555467721976==
+--===============6129131464498000830==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,44 +16,44 @@ repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-linus
-    old: 32e293be736b853f168cd065d9cbc1b0c69f545d
-    new: 1a5ecc73b2bfeffe036212d4a6bfacee053ab0a1
+  - ref: refs/heads/tty-testing
+    old: fe15c26ee26efa11741a7b632e9f23b01aca4cc6
+    new: 46ce64bbfe0c84d1cf14fb325c8c7c323cabf3b8
     log: |
-         6e01f9a594ee0f69fb52cc8d11971612b4817f0b serial: 8250_fsl: fix handle_irq locking
-         5d943b5d69c032de7ce9cd625ac083a5c277b9c5 serial: 8250_pci1xxxx: Disable SERIAL_8250_PCI1XXXX config by default
-         1be6f2b15f902c02e055ae0b419ca789200473c9 tty: serial: fsl_lpuart: fix race on RX DMA shutdown
-         1a5ecc73b2bfeffe036212d4a6bfacee053ab0a1 serdev: Set fwnode for serdev devices
+         728648c7c8bb054023b9b9f367e349d5b0afafd8 tty: tty_ldisc: Remove the ret variable
+         cf8d4027a748b713d239cedaa77193e2e60b8811 dt-bindings: serial: imx: Document optional DMA properties
+         872eb918d8e10a6293240e0dd89a45842079c03c dt-bindings: serial: imx: Document mandatory clock properties
+         46ce64bbfe0c84d1cf14fb325c8c7c323cabf3b8 serial: imx: Drop a few unneeded casts
          
 
---===============2868391555467721976==
+--===============6129131464498000830==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1678378225 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1678378373 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1678378224-7367159fe0d6236b05cad4d5a429caf8281633b9
+nonce 1678378372-5082b5b7f6d3fa699a1824fd7b2a91077ec3c828
 
-32e293be736b853f168cd065d9cbc1b0c69f545d 1a5ecc73b2bfeffe036212d4a6bfacee053ab0a1 refs/heads/tty-linus
+fe15c26ee26efa11741a7b632e9f23b01aca4cc6 46ce64bbfe0c84d1cf14fb325c8c7c323cabf3b8 refs/heads/tty-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQKBPEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+TC4P/0SG2RlUdH/UKA9Dt1br
-01Yt9p+r79SjPm2dPX60plWhaA8JKhaKLuMi9xn7ZulZ8psyYROemD8fRCOl7RJZ
-Sw7kvfxGlVjCsYC6qE9nuDa/aBxFY90NSaOl0FVfCWZ2mGFU0J6X5O6pwsaPq1JJ
-ueAal34YWDZdkBcYRHRj4fVSp7EaYaKSVsewAkZtgngbz2/DBmllCBui0LM+XZ97
-7GovbkcgjHJt1L2bHbL9VAq2IqbkIQoeviCGpf4q/ExKkuqXghGeQVYTT7jPytiC
-wsSavRdgxIs6YKJqae7/wQfuuXX+4+qOLZj8UwNFuZcFwCbidLSsqvJ7Xr1yI6wh
-C18nk8BmCgVGaiXnd9qC6rtm1CnQ5v6JlWGuVMnBYV4E5i+EypAW5vJP3GJ2EVV4
-QAwEytgsuQh56P7WXoEYq3+ID1Tel5pc9eYz0ZiRTIZYo4PMVeyp/e+YkFIl7GOg
-7w9o8qd+3Kz0iz5pIBABI/jmMKRrN4Tyxr8gUeWTmiI+rhRemzl1pVcYSjPydiMF
-gpMIA+EKdDt07MO5i2qz43K4as/+EkQLuWYWjd6dZJb+UDfoPR/+Q2g+6SriFVAU
-XHTn0sigWm+xw1SYD7eRJcFEuyYKE+F2punOyQFG0M858n+qBTTBwGStcCsh9vXC
-EKkroS+45wTLsbvG/hWtdqPM
-=DROr
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQKBYUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+yxQQAMsRzqezSTtBbufepTJo
+pnGyw3BpOPEERXtOtAfBk6urRk/hc4nSpiMKuBH3yXEu6erh5ENPQdU4GGdUj0mM
+7WarEMBWhRa7q+SGAL6nuVDk7vQDTM4JEVoyigWhvud9/rR5cNTQtE04xhZqfVmJ
+kmrXtJXgKttg6IjRlpNxHDbdfzusYGRLSoy/q0g7LsHJa+zwQOAVdPLNimC4TRkF
+VMJc8qsKYQYYzPd2EMS7rkSB8aRrejZyrBWAjZAVJyJwTAZhSMXTbYtyR6H1xgT6
+33mBfOPqD2RkeER/qNCyQURFUj2/nbo+acL6hrBVgGASNu/1kl521bK2Zgo0HRXb
+lsnmTiSMxKLzFeJ0WRYYrN0pNTLZkOLD0zfC3gWd8AtTGNPV7nTgMn2zjuNNdy16
+F+G/bMt6shSZXEP8zij50wVEXrRYGD+WMXnd+ecvgIdWVY9FYXE0QJlGdo1jTwRG
+SasaGZuoZBPULy4xSom8vGQCfOL/8W7o/JGG6VRYBWSk8qthKmfiSQ6NvEt1y26j
+573cT2/mFJ7WeDfcVJVKxB90qvPGdQj2uFkRFQr926ggF+w5YPnVOivyR/dKmHeo
+nqQ8loG/zv2Rq/69AC19tv3g3ZyVtlcIP5zt/J5MyVv8dggMySIvtnEyP+Nc6FqH
+0X4gAK4YPLgehzFce0zSLO3p
+=Vrzz
 -----END PGP SIGNATURE-----
 
---===============2868391555467721976==--
+--===============6129131464498000830==--
