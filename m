@@ -1,28 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Thu, 09 Mar 2023 16:40:45 -0000
-Message-Id: <167838004507.3172.9265981817054119546@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
+Date: Thu, 09 Mar 2023 16:41:46 -0000
+Message-Id: <167838010628.3552.17306646957420610040@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs-utils
-user: xiang
+repo: pub/scm/linux/kernel/git/axboe/liburing
+user: axboe
 changes:
-  - ref: refs/heads/dev
-    old: 2dbd70db7659c2e7fc2c35afcbb85cea36daf93b
-    new: a2563d1c3a53b1215769db6e23fc20e70ab6325e
+  - ref: refs/heads/master
+    old: 9e4190aed43f25b2986155a2f6019fc2fc89920f
+    new: 6f5a00f9fb079e7743b6ab47794c24098f58d2ad
     log: |
-         281c097dcfe8b6572149d5ef2e2c80b9e160844e erofs-utils: optimize dedupe matching
-         53ee2c7a279080937aea649183567abcd26f9d2b erofs-utils: improve documentation for upcoming 1.6
-         a2563d1c3a53b1215769db6e23fc20e70ab6325e erofs-utils: lib: fix errors when building xattrs
-         
-  - ref: refs/heads/experimental
-    old: ca25b1ea6a2914ff22b70f3aba835d6734e976fe
-    new: a2563d1c3a53b1215769db6e23fc20e70ab6325e
-    log: |
-         53ee2c7a279080937aea649183567abcd26f9d2b erofs-utils: improve documentation for upcoming 1.6
-         a2563d1c3a53b1215769db6e23fc20e70ab6325e erofs-utils: lib: fix errors when building xattrs
+         a3a8289665437e9ac741439155baf72f402692d5 [GIT PULL] man/io_uring_buf_ring_cq_advance.3: correct word spelling
+         6f5a00f9fb079e7743b6ab47794c24098f58d2ad Merge branch 'master' of https://github.com/chimaoshu/liburing
          
