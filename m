@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0781438767850045133=="
+Content-Type: multipart/mixed; boundary="===============2170751808996967583=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/wbg/counter
-Date: Thu, 09 Mar 2023 15:28:54 -0000
-Message-Id: <167837573487.18143.2861540734461840247@gitolite.kernel.org>
+Date: Thu, 09 Mar 2023 15:30:29 -0000
+Message-Id: <167837582959.20301.7550895071393215860@gitolite.kernel.org>
 
---===============0781438767850045133==
+--===============2170751808996967583==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/wbg/counter
 user: wbg
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/counter-current
     old: 1b929c02afd37871d5afb9d498426f83432e71c2
     new: fe15c26ee26efa11741a7b632e9f23b01aca4cc6
     log: revlist-1b929c02afd3-fe15c26ee26e.txt
 
---===============0781438767850045133==
+--===============2170751808996967583==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ f915322fe014c5c515119381e886faf07b3c9d31 Merge tag 'v6.3-p2' of git://git.kernel
 596ff4a09b8981790e15572e8e7bc904df5835e7 cpumask: re-introduce constant-sized cpumask optimizations
 fe15c26ee26efa11741a7b632e9f23b01aca4cc6 Linux 6.3-rc1
 
---===============0781438767850045133==--
+--===============2170751808996967583==--
