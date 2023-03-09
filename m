@@ -1,55 +1,36 @@
-Content-Type: multipart/mixed; boundary="===============4359460446724336603=="
+Content-Type: multipart/mixed; boundary="===============4749731111982900448=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Thu, 09 Mar 2023 16:09:26 -0000
-Message-Id: <167837816601.12363.17766105203478867565@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Thu, 09 Mar 2023 16:09:36 -0000
+Message-Id: <167837817690.12492.15361628836687049301@gitolite.kernel.org>
 
---===============4359460446724336603==
+--===============4749731111982900448==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.4
-    old: b7f5c11761691a6f330411cb0490c6d0ee16c5f0
-    new: f6b16c308a6a00f88b4262e57f03b6861d4ce6df
-    log: revlist-b7f5c1176169-f6b16c308a6a.txt
+  - ref: refs/heads/for-linus
+    old: e329f27a234cf64d8068029fe5e3112c3d86744e
+    new: e041a2a550582106cba6a7c862c90dfc2ad14492
+    log: |
+         e041a2a550582106cba6a7c862c90dfc2ad14492 ASoC: hdmi-codec: only startup/shutdown on supported streams
+         
+  - ref: refs/heads/for-next
+    old: ea4cbaeaaa43920a51567c81cd80567b10141fff
+    new: 4e5bde708956b1113cdf5aa39013ec89e1aa5589
+    log: revlist-ea4cbaeaaa43-4e5bde708956.txt
 
---===============4359460446724336603==
+--===============4749731111982900448==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1678378164 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1678378163-81edefcdcce00cf6fc1dd3e0df39abc7122d354a
-
-b7f5c11761691a6f330411cb0490c6d0ee16c5f0 f6b16c308a6a00f88b4262e57f03b6861d4ce6df refs/heads/asoc-6.4
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmQKBLQACgkQJNaLcl1U
-h9CCvAf9GXi4ylINgIT49wVlaNxE40tTchOnsqoSkodUjCMtGoVsah/D2Bjkx4hd
-S2xPKEsMcFipgKQTWfNUkdAtUeraBj0rGUbdBuTXO66tbZ0BTWg64k2Qp+tQUoMb
-noFpowPN6BWIH5Z4Hc114zKenhLyzDXRciQOjbV+iMPoIEi1pjHwIlUGFBBrYxlj
-9y1UybyKbUq2SRhe709jeNnsh83xFlLuY6lvb3HVRFn8bzH5CKFmyksyOi0vPwWk
-0wzo3du36DgUgSAY8D1TNb9mJf5Ik0u7RPqJfsxtp5mn6hXeRtsGzkVm098kxEUS
-Pg7xnj4fAUJobR1jUMCxWTII89U8PQ==
-=WCoH
------END PGP SIGNATURE-----
-
---===============4359460446724336603==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b7f5c1176169-f6b16c308a6a.txt
+Content-Disposition: attachment; filename=revlist-ea4cbaeaaa43-4e5bde708956.txt
 
 274f8a3b4eb855bb14e38f6f12421ed32a2e670b ASoC: SOF: Intel: hda-dai: Remove BE DAI DRV ops for SSP DAI's
 a8310c0093f4ebeb3a317b4b70e864b91739fc50 ASoC: SOF: Intel: hda-dai: Remove hda_link_dma_params()
@@ -68,6 +49,8 @@ a492da0ce6450d6fdea49ec89006d7692c0c1382 ASoC: SOF: Intel: hda: Remove hda_ctrl_
 33a33005b2db0966c00d4f58dd2a36e5a44217db dt-bindings: soc: fsl: cpm_qe: cpm1-scc-qmc: Remove unneeded property
 0fb6f518cb46cf8bac7c30c29171050e355cd738 dt-bindings: soc: fsl: cpm_qe: cpm1-tsa: Remove unneeded property
 f37acbde076d8dbf5e4c694f29760e608fdffe11 soc: fsl: cpm1: qmc: Fix assigned timeslot masks
+e041a2a550582106cba6a7c862c90dfc2ad14492 ASoC: hdmi-codec: only startup/shutdown on supported streams
 f6b16c308a6a00f88b4262e57f03b6861d4ce6df ASoC: SOF: Intel: hda: Introduce HDA DAI abstraction
+4e5bde708956b1113cdf5aa39013ec89e1aa5589 Merge remote-tracking branch 'asoc/for-6.4' into asoc-next
 
---===============4359460446724336603==--
+--===============4749731111982900448==--
