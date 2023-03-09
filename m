@@ -1,46 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============2944029686264636178=="
+Content-Type: multipart/mixed; boundary="===============6203212255369547259=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
-Date: Thu, 09 Mar 2023 17:04:28 -0000
-Message-Id: <167838146830.18606.7484321700960835972@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Thu, 09 Mar 2023 17:05:26 -0000
+Message-Id: <167838152665.20488.5381867972943909044@gitolite.kernel.org>
 
---===============2944029686264636178==
+--===============6203212255369547259==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kdave/linux
-user: kdave
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: 63355b9884b3d1677de6bd1517cd2b8a9bf53978
-    new: 6a98c9cae232800c319ed69e1063480d31430887
-    log: revlist-63355b9884b3-6a98c9cae232.txt
+  - ref: refs/heads/driver-core-testing
+    old: 0a7413f455448108f04c7cec3c46f94037de258b
+    new: e15e1aad380dccbbc2f3071cc46918f351cce8d8
+    log: |
+         9d62c448334a92387eb48887aedd0f7df6d3550d device property: Clarify description of returned value in some functions
+         e15e1aad380dccbbc2f3071cc46918f351cce8d8 devres: Pass unique name of the resource to devm_add_action()
+         
 
---===============2944029686264636178==
+--===============6203212255369547259==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-63355b9884b3-6a98c9cae232.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-49854d3ccc55efd7e6873e0c39f360bdbe251c51 udf: Fix lost writes in udf_adinicb_writepage()
-cecb1f06541e12ec68805dbddb2013ee720dfe3d udf: Fix reading of in-ICB files
-63bceed808c5cafbac4e20b5a40012a0ec6c6529 udf: Warn if block mapping is done for in-ICB files
-24efcdf03d85bb73df0ba99f69c8d238e7ada0e5 platform/x86/amd: pmc: remove CONFIG_SUSPEND checks
-001f61c4688f1dad18cfaa35ae364b35fb3cd66c platform/x86: dell-ddv: Fix cache invalidation on resume
-0331b1b0ba65376ecf1c69414aa7696fef0930cb platform/x86: dell-ddv: Fix temperature scaling
-95ecf90158522269749f1b7ce98b1eed66ca087b platform/x86: ISST: Increase range of valid mail box commands
-6a192c0cbf38a6ba10847590d680975086844dbb platform/x86/intel/tpmi: Fix double free reported by Smatch
-03f5eb300ad1241f854269a3e521b119189a4493 platform: mellanox: select REGMAP instead of depending on it
-7e7e1541c91615e9950d0b96bcd1806d297e970e platform: x86: MLX_PLATFORM: select REGMAP instead of depending on it
-94e9cbda06a317f886f63fab511dedf441c81c54 platform/x86: ISST: Fix kernel documentation warnings
-e8059d393158e927e36898aca89986a52025b9f3 platform/x86: int3472: Add GPIOs to Surface Go 3 Board data
-1a0009abfa7893b9cfcd3884658af1cbee6b26ce platform: mellanox: mlx-platform: Initialize shift variable to 0
-7fef099702527c3b2c5234a2ea6a24411485a13a x86/resctl: fix scheduler confusion with 'current'
-55ee6646b6ba86574d1411af275c61a82fdfe10e Merge tag 'platform-drivers-x86-v6.3-2' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-6a98c9cae232800c319ed69e1063480d31430887 Merge tag 'fs_for_v6.3-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/jack/linux-fs
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1678381523 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1678381522-6e84b5360d702fb7ffa81c217fbb007766e904ad
 
---===============2944029686264636178==--
+0a7413f455448108f04c7cec3c46f94037de258b e15e1aad380dccbbc2f3071cc46918f351cce8d8 refs/heads/driver-core-testing
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQKEdMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+cpcQAICDRHNUJZaO15CI/rDU
+a+dv/nTmVZnrku0FHPMMSNHnoG8ZEo/p3qamk2LJ1jDSIFq5rVFt2AL4jey3b2PR
+ldAtbxJ9oIyLxiYQQpNQffYuBfncVjS03rinwyxDq2F+fZfqdTOUxnUBNkLs6RpQ
+aY1DhcTvMtK5WXlUf5loQRHI2Tp8aMglqPLNE0WZ3+88GkpHaxTGtDXtHSePPdQJ
+5Az1PifqpDbVCF+ed9KnqOsS8/wliMynZu03QN+ea3Ttb32+rw+FoUvXLJ2mcKN2
+kzgPuUldFgbc87+xJhKu0AHemGD8FEhqQXwXgBo7FIx037+JQcEM5L3llv/KWxAR
+3DbF7ix1vw5RrpYZtYZ3gavh3i0zlT0i8kdiWsTifgzeAfDfAnvyIBXzM5N5N8wT
+pNbepyoZaKVVZSWWtEPPn27xTyjjaGw5mDFoqQKHT40SG7VzW0rkW9zIikxE3kZf
+vBnRn1HERh4pc68a+q8timepUfuSFgtNMmggdrH8eas75ptep1YENAF+suV2QvdG
+ZDTk35GRCHsqLQkdmV1oCeANnxdapbh8SX4Fj+BsoLeD/Mmmq35b7UX2DXGh7WFK
+JJXWOm+TDcOge9ih55jGtRTH1fGiSeewMqUNwe6Ua7Z+WyN4eLheNf84IIh8VBGQ
+FynP+QSYvByuNtp08YrGQsAQ
+=mCC6
+-----END PGP SIGNATURE-----
+
+--===============6203212255369547259==--
