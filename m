@@ -1,22 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/virt/kvm/mst/qemu
-Date: Thu, 09 Mar 2023 14:46:33 -0000
-Message-Id: <167837319307.22824.290938739750101971@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
+Date: Thu, 09 Mar 2023 14:50:13 -0000
+Message-Id: <167837341363.25855.13404745515731475351@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/virt/kvm/mst/qemu
-user: mst
+repo: pub/scm/linux/kernel/git/hid/hid
+user: bentiss
 changes:
-  - ref: refs/tags/for_autotest
-    old: 96cb085897eb801562936edc6b64d2d0531d8051
-    new: f3b9e5a2f005c2d01eaa6a2a8c9793c46fd1fa20
-  - ref: refs/tags/for_autotest_next
-    old: 96cb085897eb801562936edc6b64d2d0531d8051
-    new: f3b9e5a2f005c2d01eaa6a2a8c9793c46fd1fa20
-  - ref: refs/tags/for_upstream
-    old: 96cb085897eb801562936edc6b64d2d0531d8051
-    new: f3b9e5a2f005c2d01eaa6a2a8c9793c46fd1fa20
+  - ref: refs/tags/for-linus-2023030901
+    old: 0000000000000000000000000000000000000000
+    new: edf5795dba99040e085b50b09c75394dc1ebe735
