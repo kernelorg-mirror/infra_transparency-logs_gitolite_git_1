@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6747330528485451745=="
+Content-Type: multipart/mixed; boundary="===============7085530408616259064=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Thu, 09 Mar 2023 13:40:26 -0000
-Message-Id: <167836922671.8314.9140354189258386217@gitolite.kernel.org>
+Date: Thu, 09 Mar 2023 13:41:51 -0000
+Message-Id: <167836931104.8828.2500383281009866499@gitolite.kernel.org>
 
---===============6747330528485451745==
+--===============7085530408616259064==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,42 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-linus
-    old: fe15c26ee26efa11741a7b632e9f23b01aca4cc6
-    new: 02d210f434249a7edbc160969b75df030dc6934d
+    old: 02d210f434249a7edbc160969b75df030dc6934d
+    new: 02c1820345e795148e6b497ef85090915401698e
     log: |
-         f87fb985452ab2083967103ac00bfd68fb182764 usb: ucsi: Fix NULL pointer deref in ucsi_connector_change()
-         0482c34ec6f8557e06cd0f8e2d0e20e8ede6a22c usb: ucsi: Fix ucsi->connector race
-         02d210f434249a7edbc160969b75df030dc6934d usb: ucsi_acpi: Increase the command completion timeout
+         02c1820345e795148e6b497ef85090915401698e usb: dwc3: Fix a typo in field name
          
 
---===============6747330528485451745==
+--===============7085530408616259064==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1678369224 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1678369309 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1678369224-e2db0572f6efb7a72375c1fd7ba662626ebbbfdf
+nonce 1678369308-3537aefc8c601d42cbd90fc5fa26cbd0c864d5c2
 
-fe15c26ee26efa11741a7b632e9f23b01aca4cc6 02d210f434249a7edbc160969b75df030dc6934d refs/heads/usb-linus
+02d210f434249a7edbc160969b75df030dc6934d 02c1820345e795148e6b497ef85090915401698e refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQJ4cgbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ZPMQAIbmbzwxUUSQfFXHJ5h8
-AkxwIXFKZvUiHRpFzIbb+7CGkXT0AxRkRoDzGeC/e7mJiGg6WvRgUYLFQCdjY7eY
-EIY3JtRP0SAQZcebTsQ8fNNepDlZwcgvxXCodRX3ysWvA4jMsd7QB2h50oX7Kdxp
-vPezufj6dI1xadvVYOt/gqLFpaM8abKRrGll1xxL7497HUug/t2pMqTegpZ7gehV
-VDEHYZVZulDJJk2zeyd2zysTC27hDcVpy0AQUsZ7edCKn9jM2tVIg8djuy4FpKX/
-B7ubWEOI2r7zBG20US28HAA68oj8N4PttMMCYY3NKD0UrP7VlxVhxB3ipRVKOTCF
-RYMpyXzfmgFV+EQsyaE/ZdlQT8Ya+Ll/97/jUTJIGqignTidIiyMW9q7Fw8p/LwP
-4W4MtBExGjc6DZidphHHNel6qbZ6OghIrMBp5+GIaVR62GA+D9FJItiPJ+Od8iv1
-nqu3e1NggGKUdFu7spUcLmfXU/9twYWWKVFepVCxWMSdedBMjJi9TuaGxkeMOl+j
-UdiVvjUBmw6lTT0DCKuleTNXbyJl7qxFCY74ZxmrvjU/njwEBGMJ3grY2Uxc8xL/
-/j0/5OnpnYyyxjxaL4/ugbqR7YP6+V9s+2D5C9PHwn+Wd8y6kWU4YOVCL7pgh7zd
-t885S3j9BstPpwkX0DkqhX+4
-=h6DN
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQJ4h0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+6bYP/jp0qlfI8UHOT2OT10wD
+D50fYO9Zx0xF/dWRCiwsfC+Rwf/Y5nEEm5L9OzLcrp+P0PjDvtajDkWaSwz5ghqm
+fvM5JAhtgFbgJIUtDySdt0lQt9L9QPPJlsRA7ZfWQ7J+WQQOzGgbLRkSWwHC0Nnh
+RO9noNgbqSTzW3Gg+npFk0IqfwVbpp5RGtzX0kDzRFINcm1q0THk0HMOJG5G0yR5
+Mj7NP6Zx1faVTgoaiplHdn6is0CpgVDXZzK1NmapZ6xbCqcv6G0xcg1n7qcxnEbK
+Krv/aYhrIgtpkNqHzivbycpnwNdRmOzHNjwniSoId+B0Em3yEhrkJmlh07/L3Uif
+IDhJBY1wbI5yOLXDdhUGwtzWQscwL7CIC7m3m5VA1BXBc9P94q+L+I6i/aKNtOP2
+7+ZMgqYeeM3sLRGp+rSuGfcqL63dnOYujp1B/rKqal/wH96HnbbZc6c/gBuLxWtM
+DEqcgJigcfDcIArWBEzJoLZPngtdyeXIk+eYCxSB1527ts897wkiPcuAhaX8e1sF
+98Ym9dyXHrX60IyXaWagcG8G+CGQmUiXh0UG/ehvKiFhtLCUJ4vkeQhQvoe/kx2Y
+Qz9pBjDAg+Ef+rfqt0mrBDxxoins+xNNjblWmMv+7dy9qDZaSdDEp4YQespbrd6g
+e3Je0m2n5BJVv04QfxtYRdc+
+=/1gd
 -----END PGP SIGNATURE-----
 
---===============6747330528485451745==--
+--===============7085530408616259064==--
