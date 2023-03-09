@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/niks/linux
-Date: Thu, 09 Mar 2023 09:14:42 -0000
-Message-Id: <167835328202.10676.537996681080980881@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vfs/idmapping
+Date: Thu, 09 Mar 2023 09:16:15 -0000
+Message-Id: <167835337504.14154.13224517999619050913@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/niks/linux
-user: niks
+repo: pub/scm/linux/kernel/git/vfs/idmapping
+user: brauner
 changes:
-  - ref: refs/heads/has_ioport_v3
-    old: 88531a05c1cf54fae93cea9ac2120de9da9783fd
-    new: 74753ca279ac0e793b76aa032b00fd1bff36f218
+  - ref: refs/heads/for-next
+    old: 1db05a6bdf0941a3699eb141c4c126d083b91687
+    new: 276a76edd834fd5f610e008a33c03c27c96fdb50
     log: |
-         0bead708ddc09a3b88671d56fe5d2c64bec4456a wireless: add HAS_IOPORT dependencies
-         74753ca279ac0e793b76aa032b00fd1bff36f218 asm-generic/io.h: drop inb() etc for HAS_IOPORT=n
+         c3a4aec055ec275c9f860e88d37e97248927d898 splice: Remove redundant assignment to ret
+         276a76edd834fd5f610e008a33c03c27c96fdb50 Merge branch 'fs.misc' into for-next
          
