@@ -1,26 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/ext2/e2fsprogs
-Date: Thu, 09 Mar 2023 03:08:29 -0000
-Message-Id: <167833130923.30234.10440820262979605046@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
+Date: Thu, 09 Mar 2023 05:36:10 -0000
+Message-Id: <167834017047.30601.4133196228573109994@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/ext2/e2fsprogs
-user: tytso
+repo: pub/scm/linux/kernel/git/xiang/erofs
+user: xiang
 changes:
-  - ref: refs/heads/debian/master
-    old: ad2272d065cf12c1b95bddf0f20363ffa8edad7f
-    new: 3fb3d18baba90e5d48d94f4c0b79b2d271b0c913
+  - ref: refs/heads/fixes
+    old: 83cf6dd6c187e6796de4c0faa39b2595dcbbe99a
+    new: d0be4d7e1b3e5f4ca40e2bce49f819029cd5367b
     log: |
-         1181f164c48574a4813bfa203dbd7b4123154021 Disable metadata_csum_seed and orphan_file by default for Debian
-         3fb3d18baba90e5d48d94f4c0b79b2d271b0c913 Update debian/changelog and debian/patches for the 1.47.0-2 release
-         
-  - ref: refs/heads/web
-    old: f727e5e1ad7ffc73bb3bac8200676939a77fb0fb
-    new: c86d21c2bded6494f4a3d4b84c113b03da2fea9a
-    log: |
-         c86d21c2bded6494f4a3d4b84c113b03da2fea9a Update for the 1.47.0 release
+         4bb0cbcc6d8345668903094e096eba3d209ad23a erofs: Revert "erofs: fix kvcalloc() misuse with __GFP_NOFAIL"
+         d0be4d7e1b3e5f4ca40e2bce49f819029cd5367b erofs: get rid of an useless DBG_BUGON
          
