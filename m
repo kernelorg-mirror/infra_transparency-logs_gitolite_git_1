@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/shemminger/iproute2
-Date: Thu, 09 Mar 2023 21:47:37 -0000
-Message-Id: <167839845760.14838.5680238974130510179@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
+Date: Thu, 09 Mar 2023 21:49:47 -0000
+Message-Id: <167839858752.15574.9556540556596516326@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/shemminger/iproute2
-user: shemminger
+repo: pub/scm/linux/kernel/git/kdave/linux
+user: kdave
 changes:
-  - ref: refs/heads/main
-    old: 7375ab684228cab7f909b84b94a007cd59f99453
-    new: 4ed150070d7170a2b255c5cac39256198e994da5
-    log: |
-         4ed150070d7170a2b255c5cac39256198e994da5 man/netem: rework man page
-         
+  - ref: refs/heads/for-6.3-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 675dfe1223a69e270b3d52cb0211c8a501455cec
