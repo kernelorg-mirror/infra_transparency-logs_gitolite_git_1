@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5381280015037295520=="
+Content-Type: multipart/mixed; boundary="===============5613187379283187214=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Thu, 09 Mar 2023 00:19:20 -0000
-Message-Id: <167832116024.10960.5779506325363464340@gitolite.kernel.org>
+Date: Thu, 09 Mar 2023 00:19:37 -0000
+Message-Id: <167832117740.11110.7296913585530789189@gitolite.kernel.org>
 
---===============5381280015037295520==
+--===============5613187379283187214==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: 12fabae03ca6474fd571bf6ddb37d009533305d6
     new: ed69e0667db5fd0f7eb1fdef329e0985939b0148
     log: revlist-12fabae03ca6-ed69e0667db5.txt
 
---===============5381280015037295520==
+--===============5613187379283187214==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -50,4 +50,4 @@ b3f4cd07dfb467a2ecaf7f5350333a45a23de551 Merge branch 'sparx5-tc-flower-template
 10369080454d87ee5b2db211ce947cb3118f0e13 net: reclaim skb->scm_io_uring bit
 ed69e0667db5fd0f7eb1fdef329e0985939b0148 Merge https://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf-next
 
---===============5381280015037295520==--
+--===============5613187379283187214==--
