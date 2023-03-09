@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Thu, 09 Mar 2023 07:23:03 -0000
-Message-Id: <167834658330.3664.6426269829030382777@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 09 Mar 2023 07:25:57 -0000
+Message-Id: <167834675775.6118.9692917016294578839@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: ed69e0667db5fd0f7eb1fdef329e0985939b0148
-    new: 6bf0ad7f29173869de6a5a359554426a7127c247
+    old: cdd28833100c18a469c85a1cc3de9f6bbbe6caa0
+    new: 8f14820801042c221bb9fe51643a2585cac5dec2
     log: |
-         6bf0ad7f29173869de6a5a359554426a7127c247 ravb: remove R-Car H3 ES1.* handling
+         c8b8a3c601f2cfad25ab5ce5b04df700048aef6e net: dsa: mt7530: permit port 5 to work without port 6 on MT7621 SoC
+         8f14820801042c221bb9fe51643a2585cac5dec2 eth: fealnx: bring back this old driver
          
