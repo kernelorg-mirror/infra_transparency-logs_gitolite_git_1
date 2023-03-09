@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============3611430997297619213=="
+Content-Type: multipart/mixed; boundary="===============3766768521020226830=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux
-Date: Thu, 09 Mar 2023 19:19:20 -0000
-Message-Id: <167838956029.11511.8187715315848329395@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
+Date: Thu, 09 Mar 2023 19:19:27 -0000
+Message-Id: <167838956782.11612.6665719685603191289@gitolite.kernel.org>
 
---===============3611430997297619213==
+--===============3766768521020226830==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux
+repo: pub/scm/linux/kernel/git/amlogic/linux
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: 44889ba56cbb3d51154660ccd15818bc77276696
     log: revlist-8ca09d5fa354-44889ba56cbb.txt
 
---===============3611430997297619213==
+--===============3766768521020226830==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -131,4 +131,4 @@ c70e9b8ea3936a60e2a696dd0ed9bb57885f6bec Merge tag 'm68k-for-v6.3-tag2' of git:/
 2653e3fe33f411227296552b2e5f9c2640924900 Merge tag 'for-linus-2023030901' of git://git.kernel.org/pub/scm/linux/kernel/git/hid/hid
 44889ba56cbb3d51154660ccd15818bc77276696 Merge tag 'net-6.3-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 
---===============3611430997297619213==--
+--===============3766768521020226830==--
