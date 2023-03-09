@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ribalda/linux
-Date: Thu, 09 Mar 2023 14:24:49 -0000
-Message-Id: <167837188957.5779.9512289541770908334@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
+Date: Thu, 09 Mar 2023 14:26:45 -0000
+Message-Id: <167837200558.7932.2628363725912062690@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ribalda/linux
-user: ribalda
+repo: pub/scm/linux/kernel/git/cel/linux
+user: cel
 changes:
-  - ref: refs/heads/b4/guenter-mini
+  - ref: refs/heads/upcall-v7
     old: 0000000000000000000000000000000000000000
-    new: 7d6c4a0e51825890f89bc5adb15bce8a77cf9fdc
+    new: eaedaa4ef2978fdb2a16c7c256411b967ce940de
