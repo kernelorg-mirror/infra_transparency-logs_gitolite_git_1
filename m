@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4108056743514095847=="
+Content-Type: multipart/mixed; boundary="===============8773832803856289629=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ulfh/mmc
-Date: Thu, 09 Mar 2023 15:00:41 -0000
-Message-Id: <167837404136.32300.9027640115041316828@gitolite.kernel.org>
+Date: Thu, 09 Mar 2023 15:00:59 -0000
+Message-Id: <167837405914.32455.18370557898392502654@gitolite.kernel.org>
 
---===============4108056743514095847==
+--===============8773832803856289629==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,20 +15,22 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ulfh/mmc
 user: ulfh
 changes:
-  - ref: refs/heads/next
-    old: 571f235163ac83407e212b78719175236962aede
-    new: a4607f35aa0828a0f3eaa9ce32ce49d26613f633
-    log: revlist-571f235163ac-a4607f35aa08.txt
-  - ref: refs/tags/v6.3-rc1
-    old: 0000000000000000000000000000000000000000
-    new: d0656701c5a27a5a8a3a38bc07d18f2e157e963d
+  - ref: refs/heads/fixes
+    old: 3f18c5046e633cc4bbad396b74c05d46d353033d
+    new: 92771cdd90de64b15e65f3c88d6c6199bd5f33f5
+    log: revlist-3f18c5046e63-92771cdd90de.txt
 
---===============4108056743514095847==
+--===============8773832803856289629==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-571f235163ac-a4607f35aa08.txt
+Content-Disposition: attachment; filename=revlist-3f18c5046e63-92771cdd90de.txt
 
+ec4aaab39afcec749ff7ed78e560213ff9e1c23c SUNRPC: Clean up cipher set up for v1 encryption types
+8b3a09f3454240cb2c2ab3da02b86f354aab0bd6 SUNRPC: Parametrize the key length passed to context_v2_alloc_cipher()
+af664fc9023e69d1a90800c0f815c296bf727e18 SUNRPC: Add new subkey length fields
+dfb632432a9b2548b5a4429598bb19edf58122f0 SUNRPC: Refactor CBC with CTS into helpers
+a40cf7530d3104793f9361e69e84ada7960724f2 SUNRPC: Add gk5e definitions for RFC 8009 encryption types
 ae2e4d2bae0007b040e8327f123911c0a6b24d68 SUNRPC: Add KDF-HMAC-SHA2
 0d5b5a0f32dfc9be3521803aba53e856759f0250 SUNRPC: Add RFC 8009 encryption and decryption functions
 f26ec6b1b15c5d84e4c8e5b361e2be119def498d SUNRPC: Advertise support for RFC 8009 encryption types
@@ -1046,12 +1048,7 @@ b01fe98d34f3bed944a93bd8119fed80c856fad8 Merge tag 'i2c-for-6.3-rc1-part2' of gi
 f915322fe014c5c515119381e886faf07b3c9d31 Merge tag 'v6.3-p2' of git://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6
 596ff4a09b8981790e15572e8e7bc904df5835e7 cpumask: re-introduce constant-sized cpumask optimizations
 fe15c26ee26efa11741a7b632e9f23b01aca4cc6 Linux 6.3-rc1
-a2aa2f6e30f3de52a05e5eee833ecdc5ccf8d23e mmc: sdhci-of-arasan: Add support to request the "gate" clock
-087592395a967db066e3f61ddc8f2b515aabe972 mmc: core: Allow invalid regulator in mmc_regulator_set_ocr()
 11440da77d6020831ee6f9ce4551b545dea789ee mmc: sdhci_am654: lower power-on failed message severity
 92771cdd90de64b15e65f3c88d6c6199bd5f33f5 mmc: dw_mmc-starfive: Fix initialization of prev_err
-3882e26e3ef02ccb5213920e8492204c53433f58 memstick: r592: Fix UAF bug in r592_remove due to race condition
-97071c85e3ab63fd2d9dd24bf445dd5c3f22cbcc mmc: renesas_sdhi: remove R-Car H3 ES1.* handling
-a4607f35aa0828a0f3eaa9ce32ce49d26613f633 mmc: Merge branch fixes into next
 
---===============4108056743514095847==--
+--===============8773832803856289629==--
