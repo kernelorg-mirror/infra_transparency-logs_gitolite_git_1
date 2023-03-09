@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2032484530003705646=="
+Content-Type: multipart/mixed; boundary="===============3447111610504207945=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Thu, 09 Mar 2023 19:54:50 -0000
-Message-Id: <167839169003.2695.13903981081844137108@gitolite.kernel.org>
+Date: Thu, 09 Mar 2023 19:55:46 -0000
+Message-Id: <167839174691.4560.5003940902553965756@gitolite.kernel.org>
 
---===============2032484530003705646==
+--===============3447111610504207945==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/main
     old: 10369080454d87ee5b2db211ce947cb3118f0e13
     new: db47fa2e4cbf180a39d8e6d6170962bd7d82e52d
     log: revlist-10369080454d-db47fa2e4cbf.txt
 
---===============2032484530003705646==
+--===============3447111610504207945==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -91,4 +91,4 @@ c9f9e3a3289f2f068db45ea1219aa5b295762f44 net: mtk_eth_soc: remove unnecessary ch
 42d452e7709fdb4d42376d2a97369e22cc80a5d2 sctp: add weighted fair queueing stream scheduler
 db47fa2e4cbf180a39d8e6d6170962bd7d82e52d Merge branch 'sctp-add-another-two-stream-schedulers'
 
---===============2032484530003705646==--
+--===============3447111610504207945==--
