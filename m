@@ -1,58 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============0355043598268662399=="
+Content-Type: multipart/mixed; boundary="===============4359460446724336603=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Thu, 09 Mar 2023 16:09:19 -0000
-Message-Id: <167837815925.12259.13013412442837275262@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Thu, 09 Mar 2023 16:09:26 -0000
+Message-Id: <167837816601.12363.17766105203478867565@gitolite.kernel.org>
 
---===============0355043598268662399==
+--===============4359460446724336603==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.3
-    old: af0f46e5b9a462aaa1d76e82781a5316f03828eb
-    new: e041a2a550582106cba6a7c862c90dfc2ad14492
-    log: |
-         e041a2a550582106cba6a7c862c90dfc2ad14492 ASoC: hdmi-codec: only startup/shutdown on supported streams
-         
-  - ref: refs/heads/for-6.4
+  - ref: refs/heads/asoc-6.4
     old: b7f5c11761691a6f330411cb0490c6d0ee16c5f0
     new: f6b16c308a6a00f88b4262e57f03b6861d4ce6df
     log: revlist-b7f5c1176169-f6b16c308a6a.txt
 
---===============0355043598268662399==
+--===============4359460446724336603==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1678378157 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1678378156-240dd1835d447531512d4a6c1e9f201a2c17314c
+pusher C3F436CA30F5D8EB 1678378164 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1678378163-81edefcdcce00cf6fc1dd3e0df39abc7122d354a
 
-af0f46e5b9a462aaa1d76e82781a5316f03828eb e041a2a550582106cba6a7c862c90dfc2ad14492 refs/heads/for-6.3
-b7f5c11761691a6f330411cb0490c6d0ee16c5f0 f6b16c308a6a00f88b4262e57f03b6861d4ce6df refs/heads/for-6.4
+b7f5c11761691a6f330411cb0490c6d0ee16c5f0 f6b16c308a6a00f88b4262e57f03b6861d4ce6df refs/heads/asoc-6.4
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmQKBK0ACgkQJNaLcl1U
-h9AtlAf7BjQlGGea16XHanae0XWjlqozcjOcGuTlSg4yxp+Kj+cDHyLpVVx598Kr
-RZlA/VUma6FKKnRw66QwIyscPJxln8hQg9abWop2yb73TYYbrhQ2Lz6QR/CxnWDH
-TN94CP/Ohjb/53ahlKu7fd1hbq3zUQyVAfvwVLBUz+Zhe0m+wbGXuIuHldhyAwyM
-Q98jgSamOuh715bRvCODu+3zG9fmZ+UHGJW24Z7Q7AEUSr2KW0nqr8eOzNT/nWY9
-AkpMt92LWLrEjFERFME6z3MqFMjUj7KIL+/erGwA7NLVeYYjAiaDHiq3RFHhbn+o
-bV301TLdSUxKLGm//EuEtmW3lW8H4Q==
-=uWGa
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmQKBLQACgkQJNaLcl1U
+h9CCvAf9GXi4ylINgIT49wVlaNxE40tTchOnsqoSkodUjCMtGoVsah/D2Bjkx4hd
+S2xPKEsMcFipgKQTWfNUkdAtUeraBj0rGUbdBuTXO66tbZ0BTWg64k2Qp+tQUoMb
+noFpowPN6BWIH5Z4Hc114zKenhLyzDXRciQOjbV+iMPoIEi1pjHwIlUGFBBrYxlj
+9y1UybyKbUq2SRhe709jeNnsh83xFlLuY6lvb3HVRFn8bzH5CKFmyksyOi0vPwWk
+0wzo3du36DgUgSAY8D1TNb9mJf5Ik0u7RPqJfsxtp5mn6hXeRtsGzkVm098kxEUS
+Pg7xnj4fAUJobR1jUMCxWTII89U8PQ==
+=WCoH
 -----END PGP SIGNATURE-----
 
---===============0355043598268662399==
+--===============4359460446724336603==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -77,4 +70,4 @@ a492da0ce6450d6fdea49ec89006d7692c0c1382 ASoC: SOF: Intel: hda: Remove hda_ctrl_
 f37acbde076d8dbf5e4c694f29760e608fdffe11 soc: fsl: cpm1: qmc: Fix assigned timeslot masks
 f6b16c308a6a00f88b4262e57f03b6861d4ce6df ASoC: SOF: Intel: hda: Introduce HDA DAI abstraction
 
---===============0355043598268662399==--
+--===============4359460446724336603==--
