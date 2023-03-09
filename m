@@ -1,57 +1,46 @@
-Content-Type: multipart/mixed; boundary="===============4144647380536667616=="
+Content-Type: multipart/mixed; boundary="===============2944029686264636178=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Thu, 09 Mar 2023 17:02:15 -0000
-Message-Id: <167838133538.17850.2707781430991525213@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
+Date: Thu, 09 Mar 2023 17:04:28 -0000
+Message-Id: <167838146830.18606.7484321700960835972@gitolite.kernel.org>
 
---===============4144647380536667616==
+--===============2944029686264636178==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/driver-core
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/kdave/linux
+user: kdave
 changes:
-  - ref: refs/heads/driver-core-testing
-    old: 9a516f52b2f63e607e2cb4256e9b5581051ecf4c
-    new: 0a7413f455448108f04c7cec3c46f94037de258b
-    log: |
-         430f3f20aff5db65e350dff4ad5dd1f1400ac8de driver core: Add fw_devlink.sync_state command line param
-         0a7413f455448108f04c7cec3c46f94037de258b driver core: Make state_synced device attribute writeable
-         
+  - ref: refs/heads/master
+    old: 63355b9884b3d1677de6bd1517cd2b8a9bf53978
+    new: 6a98c9cae232800c319ed69e1063480d31430887
+    log: revlist-63355b9884b3-6a98c9cae232.txt
 
---===============4144647380536667616==
+--===============2944029686264636178==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-63355b9884b3-6a98c9cae232.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1678381332 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1678381331-d479cf6bc8bedc06c7a81d16b98075483de69674
+49854d3ccc55efd7e6873e0c39f360bdbe251c51 udf: Fix lost writes in udf_adinicb_writepage()
+cecb1f06541e12ec68805dbddb2013ee720dfe3d udf: Fix reading of in-ICB files
+63bceed808c5cafbac4e20b5a40012a0ec6c6529 udf: Warn if block mapping is done for in-ICB files
+24efcdf03d85bb73df0ba99f69c8d238e7ada0e5 platform/x86/amd: pmc: remove CONFIG_SUSPEND checks
+001f61c4688f1dad18cfaa35ae364b35fb3cd66c platform/x86: dell-ddv: Fix cache invalidation on resume
+0331b1b0ba65376ecf1c69414aa7696fef0930cb platform/x86: dell-ddv: Fix temperature scaling
+95ecf90158522269749f1b7ce98b1eed66ca087b platform/x86: ISST: Increase range of valid mail box commands
+6a192c0cbf38a6ba10847590d680975086844dbb platform/x86/intel/tpmi: Fix double free reported by Smatch
+03f5eb300ad1241f854269a3e521b119189a4493 platform: mellanox: select REGMAP instead of depending on it
+7e7e1541c91615e9950d0b96bcd1806d297e970e platform: x86: MLX_PLATFORM: select REGMAP instead of depending on it
+94e9cbda06a317f886f63fab511dedf441c81c54 platform/x86: ISST: Fix kernel documentation warnings
+e8059d393158e927e36898aca89986a52025b9f3 platform/x86: int3472: Add GPIOs to Surface Go 3 Board data
+1a0009abfa7893b9cfcd3884658af1cbee6b26ce platform: mellanox: mlx-platform: Initialize shift variable to 0
+7fef099702527c3b2c5234a2ea6a24411485a13a x86/resctl: fix scheduler confusion with 'current'
+55ee6646b6ba86574d1411af275c61a82fdfe10e Merge tag 'platform-drivers-x86-v6.3-2' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+6a98c9cae232800c319ed69e1063480d31430887 Merge tag 'fs_for_v6.3-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/jack/linux-fs
 
-9a516f52b2f63e607e2cb4256e9b5581051ecf4c 0a7413f455448108f04c7cec3c46f94037de258b refs/heads/driver-core-testing
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQKERQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+sDgP/jBazPpoz8dg+ZtSh30g
-HiIgZSWNgrDLpfv/ADFI4ipCmaR43pK34rcy90fdXkWsLobY22bTj7Z/6/ST7qVu
-WA6St+WogW21NWo2039opOUbC6TJrKP3uADXEqubMxWJphqxB2m3LFuoPY0XHSnK
-i2lCAmNSEOQNMfOyzdAly0yPxrecBnZjkyAmDgS5mHm5VvjVC0ytaf5jsxeyf82Q
-n/Hr7UvP9ruc4DcM+KhgNgIrnW0PZYdaeDa3Mym0JasK3HZ0I1ZxR7ULu+H0/bRq
-hWkNi1emnF2pyV6o5+m6QmiLB0BEnVirE9JpEQxUaKy83cmb+r9Bciu1p/QKbf4e
-bUXP8Oo0LkwgLLRNo4zHQ+DhbqKIURkjG83FiUFmMrkfyVUvfxIKxe5TP0SF9GBj
-4/IRmsv1qXjNogkhlxx/WWYS5sv50go2C8W5GT5+zVK4W9adWxEMdOMriyoP1wDo
-WpQqolEnkjeh6va+L2XvENexOAv/kfYJsvlN50T5s9MGY/s2KuKXAL4dh5Tausxu
-Osaf44KHgp1FjQHqGv75mZWY+PNInA7rDl76uZPR9AuKd1Sa5//ODUr9XEKgwqAM
-eScFN5h9muHBiBMpmkTHfkl2Hsq7kiuW6NYbwg9By3VExkjsxWtlN1oLliGn353o
-fI30RnTOwHyDvtByTDtkjhuE
-=lx5+
------END PGP SIGNATURE-----
-
---===============4144647380536667616==--
+--===============2944029686264636178==--
