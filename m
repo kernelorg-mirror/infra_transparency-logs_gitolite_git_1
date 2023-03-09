@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dborkman/pw
-Date: Thu, 09 Mar 2023 10:01:02 -0000
-Message-Id: <167835606245.25057.6962345425499356657@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/livepatching/livepatching
+Date: Thu, 09 Mar 2023 10:04:54 -0000
+Message-Id: <167835629482.26261.619181874753586437@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dborkman/pw
-user: dborkman
+repo: pub/scm/linux/kernel/git/livepatching/livepatching
+user: pmladek
 changes:
-  - ref: refs/heads/master
-    old: 3d9e7d0745110f9ad47d002877d7400501fd2ad0
-    new: db5a4ec4c46a5311e7cdda4e7800f323d702bfa6
-    log: |
-         db5a4ec4c46a5311e7cdda4e7800f323d702bfa6 pw-request-pull: Add note about GPG_TTY=$(tty)
-         
+  - ref: refs/heads/for-6.4/cleanup
+    old: 7dd86cf80127aeef8a447c81228a77f0f25cc211
+    new: 0000000000000000000000000000000000000000
