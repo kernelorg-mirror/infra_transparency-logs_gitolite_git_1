@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Thu, 09 Mar 2023 21:33:46 -0000
-Message-Id: <167839762608.4199.4060816775094451371@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vfs/idmapping
+Date: Thu, 09 Mar 2023 21:37:44 -0000
+Message-Id: <167839786484.7016.12463836630634750563@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/vfs/idmapping
+user: brauner
 changes:
-  - ref: refs/heads/master
-    old: 24a4548c4d60a4d8bf16750fc7af5b76889e587c
-    new: 551447adebb2f88b29037953837afdba507ed43c
+  - ref: refs/heads/fs.misc
+    old: afb176cd50c4a8ac3e9069a94da4b041cf7f4c4a
+    new: 42d0c4bdf753063b6eec55415003184d3ca24f6e
     log: |
-         551447adebb2f88b29037953837afdba507ed43c Thu Mar  9 09:31:58 PM UTC 2023
+         42d0c4bdf753063b6eec55415003184d3ca24f6e filelocks: use mount idmapping for setlease permission check
          
