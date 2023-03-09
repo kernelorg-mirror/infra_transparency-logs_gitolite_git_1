@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
-Date: Thu, 09 Mar 2023 14:23:03 -0000
-Message-Id: <167837178399.5198.2164141233406208595@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ribalda/linux
+Date: Thu, 09 Mar 2023 14:24:49 -0000
+Message-Id: <167837188957.5779.9512289541770908334@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
-user: krzk
+repo: pub/scm/linux/kernel/git/ribalda/linux
+user: ribalda
 changes:
-  - ref: refs/heads/for-next
-    old: fe15c26ee26efa11741a7b632e9f23b01aca4cc6
-    new: d2456ddb2e7e1b89ed637e8190fcbbeadc7ea8a7
-    log: |
-         e63b0663f0028b265201798d74de163140ac124e memory: tegra: remove MODULE_LICENSE in non-modules
-         d2456ddb2e7e1b89ed637e8190fcbbeadc7ea8a7 memory: remove MODULE_LICENSE in non-modules
-         
+  - ref: refs/heads/b4/guenter-mini
+    old: 0000000000000000000000000000000000000000
+    new: 7d6c4a0e51825890f89bc5adb15bce8a77cf9fdc
