@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1609705454542534448=="
+Content-Type: multipart/mixed; boundary="===============5640555021915791014=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Thu, 09 Mar 2023 14:29:52 -0000
-Message-Id: <167837219268.9155.8440372312036163610@gitolite.kernel.org>
+Date: Thu, 09 Mar 2023 14:30:11 -0000
+Message-Id: <167837221164.10916.17983386717261942609@gitolite.kernel.org>
 
---===============1609705454542534448==
+--===============5640555021915791014==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-testing
-    old: fe15c26ee26efa11741a7b632e9f23b01aca4cc6
-    new: e1edf95e0f4274f4d68aa00387a03a92b51cbbe3
+    old: e1edf95e0f4274f4d68aa00387a03a92b51cbbe3
+    new: 1d8ce4d889643dd0e8dd196c8ff959d7cc2698c6
     log: |
-         e1edf95e0f4274f4d68aa00387a03a92b51cbbe3 usb: host: xhci-tegra: Drop using of_irq_parse_one()
+         1d8ce4d889643dd0e8dd196c8ff959d7cc2698c6 usb: host: oxu210hp-hcd: Replace fake flex-array with flexible-array member
          
 
---===============1609705454542534448==
+--===============5640555021915791014==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1678372190 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1678372209 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1678372189-1cc317f2ff841cb5c4e07c0029046080e8609906
+nonce 1678372208-6bd4d6dc5cf7810e38080e749e5b88475e2047ee
 
-fe15c26ee26efa11741a7b632e9f23b01aca4cc6 e1edf95e0f4274f4d68aa00387a03a92b51cbbe3 refs/heads/usb-testing
+e1edf95e0f4274f4d68aa00387a03a92b51cbbe3 1d8ce4d889643dd0e8dd196c8ff959d7cc2698c6 refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQJ7V4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+CcgQAJWKrWAs9aU1N/s3JN8v
-JJrlXOs5TyOaghG98qyvpFEWUhziFhqmSxU5PyArALtIUzuhYDZq6jdcE19Ps1y+
-smxH/cVvW3PfKB4jdBXr4ZMQMTMHzSR3Slcsac/sPMeqvT9JSwZaClA0xKiLNkLx
-jiaLcWMX7+whq+rkE6rpo/Jyh/YlZs/M1mf9hTM4kQlDv8Dk7M63vxKU4UbPVfxu
-R5/kgNHcUfuIsQ2efAdMwDC+OACgs9jrKc5+DwrBvX4fa9En0cF7k+yGKM2AZwNO
-y1P954H6HIAeS3J0IW3ZpTj//1o+aWJ44hry6uI9/tuZzCm/WvLbDbRMF206j/7C
-nE+jgl1AMvKcBAnGMhthAa6zA5MZcaAZiuA7q2AQ7hgsoDoN6W5W09d9tyzkgiwx
-NfOeot6VvrnGFb5VpUe3AezGfJgZurmvim3pl/6MZRnLappTR6cE+Q0ZbxOUbACb
-wok4xmJd5wpuKoEQTbMhpTAeGJMoyUoCAPCrAMYCrEBFTnrXZ0rleVz0fQ7uB7MG
-w9wYRL2nJhQ+dN1a8m+HMvbBNm4icZSSyBJtE0oMb3uEIEMqSDCm3Dm5ZzdDKa/b
-25RgYJD+tV6nkigC11dfY5fwBzUV/lyAKz2uUNQfe+Sp/nLbYk4F6CNjKiqMQ/TO
-FeMOZBpPZDFWpD9NtA+EXu5c
-=RaEp
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQJ7XEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+2pwP/RAI1uITgkG7TzQH23ii
+pnMrr20UrZjT/z37e2dcuS2V0l8sE3TFLQQabqS0D9v5vKvmyNjfI4lw2ygheit4
+3z75eQ/KuVzCxuSGSVuXr1fBPFl9AWgpS0Q/V4rEEqxGl3oV3MUJxFnoXOfxBKFf
+rWQqs92H2iQJ74pr0sU5RLUwlg9aj1qOCh72NbVO4sRFnjNaXlDd1ELBP1ZuPOe8
+GRp0T5iMQ7xf5NRIun/z/0k4GrQ9KJ21KiO+301lgCXg+2CHWd0qeCIt3cU5aMqh
+xsfVfj6/DtTt6D7rekC428Eozb7wPJhTtghW+pBo99Vw63r1K0BJKDyRXBKwIUf2
+TQBxX8rCow0waBJ+5+B2fgCYps5CystrS5pFjXDOkfOhM7YIktIWKp+hzea6MTLY
+i6N2CnnZSAvCaKcmeqnX5Jd346aam065lFcdjmPSibL4Mjt+7oYEuQYWiNPNw3lV
+s+Y4S9Lz3U4amM2xpTR2h1ziTo9wI5CCO4w1zqtwtiZ5k82mDj6cpqaPPehr+zL8
+3TcGTOubah2cPqKH23lqMWfmokV2/f7I1n2TIhPvUWxSqlIO+RiNosZHiDwk2yTr
+pArm7SL8oooTqcz2rzEQ1KAHZA1P/LRXW/GfJiZJavdXJuAuNmWFyNJiRwrzRy0/
+4Qq2HGGhKppUc/lIo/KHETlD
+=Ku45
 -----END PGP SIGNATURE-----
 
---===============1609705454542534448==--
+--===============5640555021915791014==--
