@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0094421422567019450=="
+Content-Type: multipart/mixed; boundary="===============5913025011187290806=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Fri, 10 Mar 2023 19:12:24 -0000
-Message-Id: <167847554488.26899.6760531508778153389@gitolite.kernel.org>
+Date: Fri, 10 Mar 2023 19:12:30 -0000
+Message-Id: <167847555033.26996.8268610795054352500@gitolite.kernel.org>
 
---===============0094421422567019450==
+--===============5913025011187290806==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: 4a54de65964d37c3929379271ab31355e93ccddf
     new: 4659fba121dac21a3516986a3c2cf8459c7ac3bc
     log: revlist-4a54de65964d-4659fba121da.txt
 
---===============0094421422567019450==
+--===============5913025011187290806==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -41,4 +41,4 @@ c0d63f309186d8492577c67c67984c714b6b72bc bpf: Add bpf_selem_free()
 1f443d0f2b5702bad5f03aab544858ddd33999b7 selftests/bpf: Check freeing sk->sk_local_storage with sk_local_storage->smap is NULL
 4659fba121dac21a3516986a3c2cf8459c7ac3bc selftests/bpf: Add local-storage-create benchmark
 
---===============0094421422567019450==--
+--===============5913025011187290806==--
