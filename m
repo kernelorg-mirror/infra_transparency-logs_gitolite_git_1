@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8867942873051686725=="
+Content-Type: multipart/mixed; boundary="===============1859028024090022153=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mbroz/linux
-Date: Fri, 10 Mar 2023 08:26:23 -0000
-Message-Id: <167843678300.23823.13192303849228661613@gitolite.kernel.org>
+Date: Fri, 10 Mar 2023 08:27:29 -0000
+Message-Id: <167843684900.24207.5600284974868226085@gitolite.kernel.org>
 
---===============8867942873051686725==
+--===============1859028024090022153==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mbroz/linux
 user: mbroz
 changes:
-  - ref: refs/heads/master
-    old: 8ca09d5fa3549d142c2080a72a4c70ce389163cd
-    new: 44889ba56cbb3d51154660ccd15818bc77276696
-    log: revlist-8ca09d5fa354-44889ba56cbb.txt
+  - ref: refs/heads/dm-cryptsetup
+    old: 7f96e00cee2f5a2492829f5642619ae48b4ed248
+    new: 614a321c6d0400073399804e76b478847886e615
+    log: revlist-7f96e00cee2f-614a321c6d04.txt
 
---===============8867942873051686725==
+--===============1859028024090022153==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8ca09d5fa354-44889ba56cbb.txt
+Content-Disposition: attachment; filename=revlist-7f96e00cee2f-614a321c6d04.txt
 
 b1a37ed00d7908a991c1d0f18a8cba3c2aa99bdc HID: core: Provide new max_buffer_size attribute to over-ride the default
 1c5d4221240a233df2440fe75c881465cdf8da07 HID: uhid: Over-ride the default maximum data buffer value with our own
@@ -130,5 +130,6 @@ c311aaa74ca18bd0781d1d3bebd08484799f840c tools: ynl: fix enum-as-flags in the ge
 c70e9b8ea3936a60e2a696dd0ed9bb57885f6bec Merge tag 'm68k-for-v6.3-tag2' of git://git.kernel.org/pub/scm/linux/kernel/git/geert/linux-m68k
 2653e3fe33f411227296552b2e5f9c2640924900 Merge tag 'for-linus-2023030901' of git://git.kernel.org/pub/scm/linux/kernel/git/hid/hid
 44889ba56cbb3d51154660ccd15818bc77276696 Merge tag 'net-6.3-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
+614a321c6d0400073399804e76b478847886e615 dm-zero, dm-error: support discards
 
---===============8867942873051686725==--
+--===============1859028024090022153==--
