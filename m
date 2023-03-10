@@ -1,23 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
-Date: Fri, 10 Mar 2023 02:21:29 -0000
-Message-Id: <167841488901.8885.15058957347097240312@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
+Date: Fri, 10 Mar 2023 02:55:23 -0000
+Message-Id: <167841692317.31453.8893312762144529245@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/riscv/linux
-user: palmer
+repo: pub/scm/linux/kernel/git/viro/vfs
+user: viro
 changes:
-  - ref: refs/heads/fixes
-    old: bf89b7ee52af5a5944fa3539e86089f72475055b
-    new: 9b7fef255c80db8fc33fc06f2ad6d8e3ced1389b
-    log: |
-         76950340cf03b149412fe0d5f0810e52ac1df8cb riscv: Use READ_ONCE_NOCHECK in imprecise unwinding stack mode
-         2a8db5ec4a28a0fce822d10224db9471a44b6925 RISC-V: Don't check text_mutex during stop_machine
-         e921050022f1f12d5029d1487a7dfc46cde15523 Revert "riscv: mm: notify remote harts about mmu cache updates"
-         82dd33fde0268cc622d3d1ac64971f3f61634142 riscv: asid: Fixup stale TLB entry cause application crash
-         9b7fef255c80db8fc33fc06f2ad6d8e3ced1389b Merge patch series "riscv: asid: switch to alternative way to fix stale TLB entries"
-         
+  - ref: refs/heads/work.csum-x86
+    old: 0000000000000000000000000000000000000000
+    new: 5fc0b572d75b20c680bb01e2aeff5765c0d3f3c8
