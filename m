@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Fri, 10 Mar 2023 12:44:19 -0000
-Message-Id: <167845225904.19964.15449753412216119360@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
+Date: Fri, 10 Mar 2023 12:44:35 -0000
+Message-Id: <167845227557.20207.10238189287194580514@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/firmware/linux-firmware
+user: jwboyer
 changes:
-  - ref: refs/tags/v2.39-rc1
+  - ref: refs/tags/20230310
     old: 0000000000000000000000000000000000000000
-    new: 48a08dabcb7c8eb86616b95625f0d08675337d1b
+    new: 702b0c7025cf59e0bdd447d585f5491e38bb10ba
