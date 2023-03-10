@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5394951759267810193=="
+Content-Type: multipart/mixed; boundary="===============1729740292634039733=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/utils/b4/b4
-Date: Fri, 10 Mar 2023 20:18:33 -0000
-Message-Id: <167847951389.8213.4617405127214676085@gitolite.kernel.org>
+Date: Fri, 10 Mar 2023 20:18:59 -0000
+Message-Id: <167847953960.8389.90146608753806559@gitolite.kernel.org>
 
---===============5394951759267810193==
+--===============1729740292634039733==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,31 +16,31 @@ repo: pub/scm/utils/b4/b4
 user: mricon
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: 7450e37af25f2678455905271f91b2d7f1cb4ca3
-    new: 1708ca8bab7f673fd681225fbf3a2cbec8262285
+  - ref: refs/heads/stable-0.12.y
+    old: baa3f1fedd1653a454ff9ef235bad37d263ae80f
+    new: 46192c03be2c149b1f5d6b95800ba3f79205cbef
     log: |
-         1708ca8bab7f673fd681225fbf3a2cbec8262285 Add Date: and Subject: to badtrailers
+         46192c03be2c149b1f5d6b95800ba3f79205cbef Add Date: and Subject: to badtrailers
          
 
---===============5394951759267810193==
+--===============1729740292634039733==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher B6C41CE35664996C! 1678479513 -0500
+pusher B6C41CE35664996C! 1678479539 -0500
 pushee gitolite.kernel.org:pub/scm/utils/b4/b4
-nonce 1678479513-eeccbc472776ff2b396b43b59bc683c3655a5a3b
+nonce 1678479539-f0450cd525bda1d90e396c31cdef542296f3d00b
 
-7450e37af25f2678455905271f91b2d7f1cb4ca3 1708ca8bab7f673fd681225fbf3a2cbec8262285 refs/heads/master
+baa3f1fedd1653a454ff9ef235bad37d263ae80f 46192c03be2c149b1f5d6b95800ba3f79205cbef refs/heads/stable-0.12.y
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCZAuQmQAKCRC2xBzjVmSZ
-bCNTAQCFdBckN8Tiqfmo/Qiv3fs1/TLxsHQ9RQ0rNoxO+in34wD+JGKSuHPyjp/5
-8xN8mfzcNPgNRCSciGGzsn2zT9JaFAU=
-=3gwH
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCZAuQswAKCRC2xBzjVmSZ
+bBgdAQD87H3PwOPZTQEUXfcwi8hRyWai+gaLJizfFj7rS+8g4AD9FnwXZ+c9y3xb
+29clFV15VFrx19s8x77yuvFDSYTb0wc=
+=Y0jg
 -----END PGP SIGNATURE-----
 
---===============5394951759267810193==--
+--===============1729740292634039733==--
