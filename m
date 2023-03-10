@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Fri, 10 Mar 2023 03:12:56 -0000
-Message-Id: <167841797676.10131.1413028321196228694@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jpoimboe/linux
+Date: Fri, 10 Mar 2023 03:20:43 -0000
+Message-Id: <167841844336.16975.11135700804497560570@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: andrii
+repo: pub/scm/linux/kernel/git/jpoimboe/linux
+user: jpoimboe
 changes:
-  - ref: refs/heads/for-next
-    old: c1cd734c1bb3f4d9db75c51c23306e29d8749783
-    new: 63d78b7e8ca2d0eb8c687a355fa19d01b6fcc723
+  - ref: refs/heads/static-call-null-3
+    old: 42d224aeea3da11460b34b148dd1226a5e53a9e8
+    new: c1bf07566259bd992bb42852a9f832e82ab426eb
     log: |
-         63d78b7e8ca2d0eb8c687a355fa19d01b6fcc723 selftests/bpf: Workaround verification failure for fexit_bpf2bpf/func_replace_return_code
+         c1bf07566259bd992bb42852a9f832e82ab426eb static_call: Make NULL static calls consistent
          
