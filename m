@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5108271922256601902=="
+Content-Type: multipart/mixed; boundary="===============6072198222352892248=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Fri, 10 Mar 2023 16:46:58 -0000
-Message-Id: <167846681801.28027.9730794324785989373@gitolite.kernel.org>
+Date: Fri, 10 Mar 2023 16:47:33 -0000
+Message-Id: <167846685304.28305.5943313794151763693@gitolite.kernel.org>
 
---===============5108271922256601902==
+--===============6072198222352892248==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 67eeadf2f95326f6344adacb70c880bf2ccff57b
-    new: bced3f7db95ff2e6ca29dc4d1c9751ab5e736a09
-    log: revlist-67eeadf2f953-bced3f7db95f.txt
+  - ref: refs/heads/dev-queue
+    old: f154671eef342e95f6b69a000d630e7b827ca78d
+    new: 5e209d340ba8aee27ec30c1b97158f90c7415526
+    log: revlist-f154671eef34-5e209d340ba8.txt
 
---===============5108271922256601902==
+--===============6072198222352892248==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-67eeadf2f953-bced3f7db95f.txt
+Content-Disposition: attachment; filename=revlist-f154671eef34-5e209d340ba8.txt
 
 ddf75a86aba2cfb7ec4497e8692b60c8c8fe0ee7 auxdisplay: hd44780: Fix potential memory leak in hd44780_remove()
 bab550371cb13fe7adc4105a57d0530565740fc6 coccinelle: api/atomic_as_refcounter: include message type in output
@@ -798,5 +798,18 @@ c70e9b8ea3936a60e2a696dd0ed9bb57885f6bec Merge tag 'm68k-for-v6.3-tag2' of git:/
 2653e3fe33f411227296552b2e5f9c2640924900 Merge tag 'for-linus-2023030901' of git://git.kernel.org/pub/scm/linux/kernel/git/hid/hid
 44889ba56cbb3d51154660ccd15818bc77276696 Merge tag 'net-6.3-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 bced3f7db95ff2e6ca29dc4d1c9751ab5e736a09 tcp: tcp_make_synack() can be called from process context
+0cd583fc826e30c5617cdc5c8adc730048695dfd intel/igbvf: free irq on the error path in igbvf_request_msix()
+2fafd2a245721878f1faf89735c9fc3c5771fb58 igb: Enable SR-IOV after reinit
+87ddbb598ff7b3a86051e4df45c03b92d52aa625 igbvf: Regard vf reset nack as success
+12f9361755aed1114efe7e01b87bc87163e8c6f2 ice: add FDIR counter reset in FDIR init stage
+5817d7569305e4556a224025b774a979783ca280 ice: xsk: disable txq irq before flushing hw
+21ff5d31f1a243dffa73b6412cdcff267b35bbc7 ice: Write all GNSS buffers instead of first one
+128dfa11a8e4d17308208b8c08c7d5ae6f751c11 i40e: Fix kernel crash during reboot when adapter is in recovery mode
+43be9994800deceddf21ec3a247ec752d08d0f24 ice: avoid bonding causing auxiliary plug/unplug under RTNL lock
+b2cacd709ad7d912058b20a1d1c028c2e3776c7e iavf: fix inverted Rx hash condition leading to disabled hash
+578fdc613e5b2933e5b4008b5032e68c2b776666 iavf: fix non-tunneled IPv6 UDP packet type and hashing
+f04a6c1b845c426c5af828818fb8e9b2a0ee0418 igb: revert rtnl_lock() that causes deadlock
+62d6c9a1b22fb4ece90d568b7d1b5045d62d7077 iavf: do not track VLAN 0 filters
+5e209d340ba8aee27ec30c1b97158f90c7415526 igc: fix the validation logic for taprio's gate list
 
---===============5108271922256601902==--
+--===============6072198222352892248==--
