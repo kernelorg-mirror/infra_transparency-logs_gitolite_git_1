@@ -1,81 +1,81 @@
-Content-Type: multipart/mixed; boundary="===============3389119093926826729=="
+Content-Type: multipart/mixed; boundary="===============5348462566328032211=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Fri, 10 Mar 2023 07:59:12 -0000
-Message-Id: <167843515247.4868.8813411054242819037@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Fri, 10 Mar 2023 08:05:29 -0000
+Message-Id: <167843552957.9884.13602962761745457811@gitolite.kernel.org>
 
---===============3389119093926826729==
+--===============5348462566328032211==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/tty
+repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-next
+  - ref: refs/heads/usb-next
     old: fe15c26ee26efa11741a7b632e9f23b01aca4cc6
-    new: 571079f5ba93f08ac2563d40e46d42d56615c096
-    log: revlist-fe15c26ee26e-571079f5ba93.txt
+    new: 3754c41c76867e41fe720555dc186ba4b3cccad9
+    log: revlist-fe15c26ee26e-3754c41c7686.txt
 
---===============3389119093926826729==
+--===============5348462566328032211==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1678435151 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1678435151-31c8126b89619cd1e7aa4a5dd0e76d9eb9b8ab8a
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1678435529 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1678435528-3924405e997d85ec30f8acf9d96d6a185e87dda9
 
-fe15c26ee26efa11741a7b632e9f23b01aca4cc6 571079f5ba93f08ac2563d40e46d42d56615c096 refs/heads/tty-next
+fe15c26ee26efa11741a7b632e9f23b01aca4cc6 3754c41c76867e41fe720555dc186ba4b3cccad9 refs/heads/usb-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQK408bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+AK0P/1l8JRoZUOIcu9bxudyj
-+/ItkcuWHyVzyooibsrpenawuvun0VeDNHCpg0dtrKRbQKFaVlLmjbVbyYSArUlW
-VZoLxPS59Tp5TrCX/hgitF1seY/IQ0yHOMCe5iHTsxenZESY5lVFKTvOZuHT0YV2
-rJ9KWTqBso5q310CZUyq15kkoh3EtuWYH9/QLFAxw2Cf4iyR3uv1N4hFwUz0uz1G
-xl8SHCPKx5MzDcJtlR29DDBXoocPOUIbKxXREnDhfgM6ruQdnl94CgpxiEN9lZ7O
-anDEyIMHvCfWbSbHU7u6wcNFNjceWu0e6S+pE9VNEGc+cfzulaT1LW1CmWmlwFuE
-ayGq2g+0BGKECL13KUQyojD+RalSbAygnGJdwdcdZD9QTCPIOc8lDhhAhFdxKpis
-PoFzR7+MGR6vIU9yehZiOz2JkAgtlVud0Usb66M/8cbkeKpZGm42CfAU+kzWzjvc
-GGKcbVWCv712qYuhIMzzrMN40M17jNc83/QkpWF9eOBkCJVIXcNAUC4v47tTWbH9
-c+I2EqbWyVjtfe26TJCEBzfZ0DjFw75Cs0EgYPtp6jc7WDWZuvjaDYopDb9+T1y7
-IDTjwH/K1cmeO8GlufTrTZyejWB4lV5wLnBLjUd5az28s3pH6WazUjHdKAbl65f6
-5rwBsB2zfJTv3y3sDsAWL70a
-=oRIK
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQK5MkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+WfkP/37TmAQU6lxdT+MwywJb
+caiH/hdlhATAKaTelLJyYNM5YhbxT2uhNrS2zv6O+fFS/+C5hASBElhMxmBoKju0
+EzimYeuaEXgYKzFDjO3LO1/T7YKlugd/Cx9P8a9CpxvcDY3aLt6kB88scyTynUkT
+Tl6qkDZk0qOHBDJAPr7jn/CYJS3kNcjV2jJuULVHCaD53dOsiFsOu697YWrOYKAR
+gCJ5mp/nuuXWx6eFA9Yip4s4ZLeWQoqYP0TMyCoxgPmMRsOXa5mWjCuKMM7cpO2A
+5u6kko9Ri+yhCNwIvOlZiP/Z0tvTWaTJGlWCghEaKEw1t7wh2TImr+xcTuNHGDVS
+tpSgky3X3dkp3cw1tDjStw0U0mA7QAkSAOs4xbHqYTT/aYJ+Ag1KOeW5FnoWZT6g
+RIEfNc/DduwutV9nOeK+BKuLIQv26FVJuV/bmPIsQ0M6GhX0CcwJSJ8me013vvmn
+OmAm6zaTyfGiJOixspyN36Yojm4NncaVqrEtpxrKE2POQpy1xMkoPvMJ9QUVPvxf
+RexmaTPt/XTtyEOxEQjWr0YZAWL6YsBznizfPux9uHsPwbtRYKbPAtEltWD0G4Ss
+31cmekd9lDQ3TEIziE3Q5wc5SNuxSOEtgK3Nhlyd94q3gJZTERnazPxa6zjYGdla
+0prAHBVWbgYTTOyUsNDvxZ/Y
+=n2n0
 -----END PGP SIGNATURE-----
 
---===============3389119093926826729==
+--===============5348462566328032211==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fe15c26ee26e-571079f5ba93.txt
+Content-Disposition: attachment; filename=revlist-fe15c26ee26e-3754c41c7686.txt
 
-728648c7c8bb054023b9b9f367e349d5b0afafd8 tty: tty_ldisc: Remove the ret variable
-cf8d4027a748b713d239cedaa77193e2e60b8811 dt-bindings: serial: imx: Document optional DMA properties
-872eb918d8e10a6293240e0dd89a45842079c03c dt-bindings: serial: imx: Document mandatory clock properties
-46ce64bbfe0c84d1cf14fb325c8c7c323cabf3b8 serial: imx: Drop a few unneeded casts
-6d12b774c9295a04695d52e38b1517e9a41f9881 tty: simplify sysctl registration
-b4fd0afaa07f9f46c733e7cf17e4b4cb45461c3c serial: stm32: Remove unused struct stm32_port txdone element
-c47527cbcc3c50800f34b8c684f29721f75de246 serial: stm32: Re-assert RTS/DE GPIO in RS485 mode only if more data are transmitted
-85bce38a7e1f392f5051e67fd5fcfbffe71e9b81 serial: 8250: Reorder fields in 'struct plat_serial8250_port'
-cb46a3e2d6b8e937f44f73a6991f7e3d60008449 dt-bindings: serial: mediatek,uart: add MT8365
-add5dfe87abe962cf9884193d9467f23d898fb8b dt-bindings: serial: amlogic,meson-uart: Add compatible string for G12A
-804e6d6998f7528d23e9cb16f9dbb357bfab5f77 tty: serial: meson: Add a new compatible string for the G12A SoC
-f335201ba28fc20f7878127455dbae6e2f8eb6de arm64: dts: meson-g12-common: Use the G12A UART compatible string
-302a22a4fa8a4e3216161b3cb63acc434afc87f5 serial: 8250_em: Fix UART port type
-6b5f1e2e22ffd562075eaf6e018607e7dffe154d serial: 8250_em: Simplify probe()
-e335354d2348ce2ea0d3e978b2f49c64354ca189 serial: 8250_em: Drop unused header file
-54769d865683e96eeca32e325f586978c11fbbb7 serial: 8250_em: Add missing break statement
-7eada8a122a2683ec63ad43982a4552b054d59ca serial: 8250_em: Use devm_clk_get_enabled()
-59d6558fb5fd750777edfde028ea1f9e7eed8a46 serial: 8250_em: Use pseudo offset for UART_FCR
-b22ea7df56b2ee1f9a0212210b51f83a3c2c75c6 serial: 8250_em: Add serial8250_em_{reg_update(),out_helper()}
-571079f5ba93f08ac2563d40e46d42d56615c096 Documentation/serial-console: Document the behavior when the last console= parameter is not used
+e1edf95e0f4274f4d68aa00387a03a92b51cbbe3 usb: host: xhci-tegra: Drop using of_irq_parse_one()
+1d8ce4d889643dd0e8dd196c8ff959d7cc2698c6 usb: host: oxu210hp-hcd: Replace fake flex-array with flexible-array member
+5d67f4861884762ebc2bddb5d667444e45f25782 usb: host: xhci-rcar: remove leftover quirk handling
+87b383f82e4ea8f7fb8e6d6c4d42d0e4a213dd7b usb: host: xhci-rcar: remove R-Car H3 ES1.* handling
+f3323cd03e5852e2a2f725d67f1b01777341c706 usb: gadget: udc: renesas_usb3: remove R-Car H3 ES1.* handling
+2da1b848e366bd8881137b5bdfc2bfaf4bee8b2d dt-bindings: usb: snps,dwc3: document extcon property
+f81a8591db7330a4caa0d430f50e54369a8520ca dt-bindings: usb: usb-device: make "compatible" optional
+aa78a736a94f1e2771d5400d4286d907624f5f8d dt-bindings: usb: allow evaluated properties in OHCI controllers
+487e6f420b7a3eed775118635d310ffa024ff7ef dt-bindings: usb: dwc3: Add snps,ulpi-ext-vbus-drv quirk
+b84ba26c922a99c7541d53ab1971f070b65264fe usb: dwc3: core: add external vBus supply support for ulpi phy
+4decf4060ecfee1f7a710999fcd421645ac0c419 usb: dwc3: gadget: Change condition for processing suspend event
+2ae4e0dea3b0c7b380821bac05e03a71da1f452f usb: gadget: composite: Draw 100mA current if not configured
+5aacc9d540cea790fe4419b61bfa8a1218a4474a usb: gadget: udc: add return value check of kzalloc in mv_udc_probe
+514c7ff5fe56164b769d2d105f0a382ca98c0851 usb: gadget: udc: replace kzalloc with devm_kzalloc in mv_udc_probe
+180bb831b232b43bbd658dcdb20a49020059c1b8 usb: gadget: f_fs: Fix incorrect version checking of OS descs
+195a58cb3617d46f274a8cb47ee151d74d39ce0e usb: cdns3: change trace event cdns3_ring() operation
+47ebfd604f9b48e44d2f88caf527180463a2fb2c usb: cdns3: change some trace event __dynamic_array() to __get_buf()
+f09d24aa463c51672ff37462fed17eff824b8b18 usb: dwc3: change some trace event __dynamic_array() to __get_buf()
+7d1a898f52288f068f163aa970f029872c21c031 usb: xhci: change some trace event __dynamic_array() to __get_buf()
+3754c41c76867e41fe720555dc186ba4b3cccad9 dt-bindings: usb: snps,dwc3: support i.MX8MQ
 
---===============3389119093926826729==--
+--===============5348462566328032211==--
