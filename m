@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andy/linux-gpio-intel
-Date: Fri, 10 Mar 2023 14:17:30 -0000
-Message-Id: <167845785050.23439.2990090876112140954@gitolite.kernel.org>
+Date: Fri, 10 Mar 2023 14:17:38 -0000
+Message-Id: <167845785863.23552.17378396193626237876@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,8 +11,8 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andy/linux-gpio-intel
 user: andy
 changes:
-  - ref: refs/heads/review-andy
-    old: 85013f64c744de9ea6b8bf82b7dc06abfdc4b6b4
+  - ref: refs/heads/for-next
+    old: eb68a7e9b39fa4f47582c0484125bec29eefc498
     new: 22f9fa11619d4eb7e78997935fcfb446f751d62a
     log: |
          424b21e01aafc98a9c086f00b3ad1874302b92fc mips: ar7: include linux/gpio/driver.h
