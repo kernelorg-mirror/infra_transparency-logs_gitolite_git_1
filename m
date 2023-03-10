@@ -1,59 +1,59 @@
-Content-Type: multipart/mixed; boundary="===============3771480881337969186=="
+Content-Type: multipart/mixed; boundary="===============8745785568394697967=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Fri, 10 Mar 2023 08:08:49 -0000
-Message-Id: <167843572923.11058.10596917341522026420@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Fri, 10 Mar 2023 08:23:43 -0000
+Message-Id: <167843662337.21407.9769233961439217687@gitolite.kernel.org>
 
---===============3771480881337969186==
+--===============8745785568394697967==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/driver-core
+repo: pub/scm/linux/kernel/git/stable/stable-queue
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-next
-    old: 22fd6153c16a40d123d8c9936967d0a59e417129
-    new: 0433686c6092f65b552eadad651f620e51b6aad1
+  - ref: refs/heads/master
+    old: 7eedf0f82032255cca4bd3e01a814fe69c36cbfa
+    new: 3e31841c13e4052f3b942fcce629169db827a119
     log: |
-         ffbe08a8e86d03513dc45b5389fab7f3477433b6 driver core: Add fw_devlink.sync_state command line param
-         f8fb576658a3e19796e2e1a12a5ec8f44dac02b6 driver core: Make state_synced device attribute writeable
-         295209ca7b5b3aa6375d6190311b2ae804dbcf65 device property: Clarify description of returned value in some functions
-         0433686c6092f65b552eadad651f620e51b6aad1 devres: Pass unique name of the resource to devm_add_action()
+         cc39fd6d2337808174b4b05866a61da4f55f9b98 6.1-stable patches
+         4fccc362cf931e26bd586ca2cbbb4e79ed312123 6.2-stable patches
+         e2c3d2bfb18454699d7c6b0c04c9439d738d2009 drop scsi-core-remove-the-proc-scsi-proc_name-directory-earlier.patch from everywhere
+         3e31841c13e4052f3b942fcce629169db827a119 drop tty-serial-qcom-geni-serial-stop-operations-in-progr.patch from everywhere
          
 
---===============3771480881337969186==
+--===============8745785568394697967==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1678435728 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1678435727-ee8db2f05b1fcfa3abe43f6ad5d6811b4847c207
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1678436619 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1678436616-e0aba80e3768cb62f2b9e8a70dec747e81a0ae19
 
-22fd6153c16a40d123d8c9936967d0a59e417129 0433686c6092f65b552eadad651f620e51b6aad1 refs/heads/driver-core-next
+7eedf0f82032255cca4bd3e01a814fe69c36cbfa 3e31841c13e4052f3b942fcce629169db827a119 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQK5ZAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+4eoP/RjFCpkUu7/ZQGlvs+4L
-wZHfeLUFUTXjDyVVWjkZvm61+kIj6CSjPsU4hKIIM9CvtRaeW44cW5B2wvKCZnTq
-vxdC/kJOY2jHEjgVPFc62wwEGBdN6PQGtHnOfASp4GlDQwqk4mHFnLVBbYSM28Ma
-FK9SF4hZ/RAAzhWNvjHE7KweYu//Kn6OtCen7wXMrSj0BCWSorLStuVPZuAx7+34
-HzbfYNSjTiF4D8uEDVd2PDcbDt1/UWRX6z1bxGTCgiLpFemBmgl9lH599w7tfIla
-Rc+uTxyoP1msDn7yfTrVRxTlkrHKjMqhMkkFvghpt+/h0I8GszM3eW0k7tpo9JRB
-NSE4gB8/Rg2M5lnrxDm/Cd0FJUYdrrbGw24MlL3zP9l9V6kY0XKo/5WJNbs9/cZY
-DFmuVonPMS//v5VIvjW0G95N69PwQEkEVwddEE//yLW2W+M5fcoh7FSnsmYzq2jG
-ze5eJ1g7oRySAp2+rzBee1Xm+iMouy7GAbDit8+FOix2qEhCg7XU/zxc6cBbYX03
-I7f/27NF5+gR8c1ItrubyeGYNRU1jtxB4eJtIhWF6zj71EVScSN88h8XCpwYovDc
-477B3zFIdHUtvcYIwKyMGhY2z3+rLmdxvuMSpUYA+tP51dxbxrkB/sXMfU+RryLS
-Pg970c2OsFwmRDUe/SSyMqop
-=Ff3w
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQK6QsbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Rf0P/A7Nu3Zbr+GXJNxM1rtc
+sCsUzaFwyMdPrhA2fobwmereBFL0Rcx8ZUHYZFJGUUJzx7tNvuRs6OLEIAmDIxpy
+5+xRPT9wTfprSqhXrn7DEjbsBmU2Y0s4/t1udOv/fRsJS9gUrpIxD+iFSR5Amm5E
+OwdYQj1pMR5VywIapw8937gIELeM098qPyqnOrceJSfkvFzItHcZqFDHZlHfolNp
+SxzoF29W/aV3h8L37mbHL6jbCbE2gyh4ogJAtEW8wDcVgLRfPsUnTMVjkf+YH9nC
+iBYrCzsGGnoYs0+S0D+Bycrgq0OREbKGutUzEjWT5JKUD1pBF8XgmhlE6/ZzraYw
+JTIPOTB/om/vA/nXIL7S5mE/wGY06DlciNaFDEHl1i4N6U2pnsjZauVhKgVyfhDC
+o8+5d4pPoLpQM8MJrXnCzwnw4Ke3YVFtwImrdRoGz7cZItVn/DQ1GBPSYDaupzfZ
+FZTOEWIZa6zB7lSWv7dFFytQw7JAmDAbptBESAsaAc+8MP5wVlE6gM0cPIyzhOGS
+TzhXK8KvWecFuqoOEF7GkAKcry1U7dm3Z1nCpjjTrRLLtn/YvrzO+kDYf5L4Oh2h
+2vR8SR8iDEu/n1TSg2QmEIt31r9iuTqohW2nz8yqvZlBSksUxvs2sF7rrREn7J2O
+FGa33V1SY59R/w/j9atATQ5X
+=jOFS
 -----END PGP SIGNATURE-----
 
---===============3771480881337969186==--
+--===============8745785568394697967==--
