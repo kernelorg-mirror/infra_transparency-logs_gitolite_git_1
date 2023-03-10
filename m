@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Fri, 10 Mar 2023 07:28:12 -0000
-Message-Id: <167843329290.16935.15242556652441634696@gitolite.kernel.org>
+Date: Fri, 10 Mar 2023 07:28:32 -0000
+Message-Id: <167843331233.17087.6037756839017843777@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: 513bdd9473888ba4b1441923c2711cb5ecd06cfd
-    new: 76b9bf965c98c9b53ef7420b3b11438dbd764f92
+    old: 76b9bf965c98c9b53ef7420b3b11438dbd764f92
+    new: b3a8df9f27c094dd41fe88b7b97f64d8dcb7d696
     log: |
-         62423bd2d2e231951245d77740a58027a2d81ef9 net: sched: remove qdisc_watchdog->last_expires
-         76b9bf965c98c9b53ef7420b3b11438dbd764f92 neighbour: delete neigh_lookup_nodev as not used
+         b3a8df9f27c094dd41fe88b7b97f64d8dcb7d696 net: ethernet: ti: am65-cpsw: Convert to devm_of_phy_optional_get()
          
