@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Fri, 10 Mar 2023 23:54:23 -0000
-Message-Id: <167849246319.26686.1272668119332392710@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mcgrof/linux
+Date: Fri, 10 Mar 2023 23:54:25 -0000
+Message-Id: <167849246502.26795.17654430457396808393@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/mcgrof/linux
+user: mcgrof
 changes:
-  - ref: refs/heads/main
-    old: bced3f7db95ff2e6ca29dc4d1c9751ab5e736a09
-    new: 484b7059796e3bc1cb527caa61dfc60da649b4f6
+  - ref: refs/heads/modules-next
+    old: 05777499a81298ef7e4a5e32a6f744f1f937a80c
+    new: 40cf65c2c7dfb5bd2e553e80c20f4693430b6d4d
     log: |
-         484b7059796e3bc1cb527caa61dfc60da649b4f6 nfc: pn533: initialize struct pn533_out_arg properly
+         557aafac11530a283bebf2dea4cec62765d8df0f kernel/module: add documentation for try_module_get()
+         40cf65c2c7dfb5bd2e553e80c20f4693430b6d4d dyndbg: cleanup dynamic usage in ib_srp.c
          
