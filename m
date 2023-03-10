@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2062585143720673998=="
+Content-Type: multipart/mixed; boundary="===============6113110281745974304=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/utils/b4/b4
-Date: Fri, 10 Mar 2023 20:48:37 -0000
-Message-Id: <167848131757.28965.15663153955599428946@gitolite.kernel.org>
+Date: Fri, 10 Mar 2023 20:48:51 -0000
+Message-Id: <167848133171.29399.6773046149155404886@gitolite.kernel.org>
 
---===============2062585143720673998==
+--===============6113110281745974304==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,31 +16,32 @@ repo: pub/scm/utils/b4/b4
 user: mricon
 git_push_cert_status: G
 changes:
-  - ref: refs/notes/signatures/tar
-    old: 26414e2f5591caa212ce107b01394026e74014ee
-    new: 4d9d9fc7514983f85fdabd89d2ef14b92abe78fe
+  - ref: refs/heads/stable-0.12.y
+    old: 46192c03be2c149b1f5d6b95800ba3f79205cbef
+    new: 0529d7ae380c46f8006892d8fffb563326e2d131
     log: |
-         4d9d9fc7514983f85fdabd89d2ef14b92abe78fe Notes added by 'git notes add'
+         aa86ce637bb58e69847114db2c746e4fade88a27 man: fix rst2man rendering
+         0529d7ae380c46f8006892d8fffb563326e2d131 Prepare for 0.12.2
          
 
---===============2062585143720673998==
+--===============6113110281745974304==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher B6C41CE35664996C! 1678481317 -0500
+pusher B6C41CE35664996C! 1678481331 -0500
 pushee gitolite.kernel.org:pub/scm/utils/b4/b4
-nonce 1678481317-4f2b033f71e1522635b4780502899a6ee1b778be
+nonce 1678481331-c9cef68f478c2e4bf26e41206a6fc64ee0b73e77
 
-26414e2f5591caa212ce107b01394026e74014ee 4d9d9fc7514983f85fdabd89d2ef14b92abe78fe refs/notes/signatures/tar
+46192c03be2c149b1f5d6b95800ba3f79205cbef 0529d7ae380c46f8006892d8fffb563326e2d131 refs/heads/stable-0.12.y
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCZAuXpQAKCRC2xBzjVmSZ
-bFUhAQDbvTq32JpZO5gcjr/LOYUxcVTQjOeUi6eSfViHBLv9ngD/YA8u0dLWIZWt
-KQsBIapT8Yrp9xQbMtJ5eYudlN6AuAw=
-=2luI
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCZAuXswAKCRC2xBzjVmSZ
+bMcOAQDY1epfyIi6snE0V8kYyXjCX2fcyKAQHr3aIsZtj1UwOAD/RBzC9soIPFA7
+ocIahsH4ZuDhK7H3q+mw50J4CfqxyAo=
+=7WzR
 -----END PGP SIGNATURE-----
 
---===============2062585143720673998==--
+--===============6113110281745974304==--
