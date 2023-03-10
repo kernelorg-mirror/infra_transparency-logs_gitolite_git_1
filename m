@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8689049928483045789=="
+Content-Type: multipart/mixed; boundary="===============5359809456554951765=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 10 Mar 2023 16:36:49 -0000
-Message-Id: <167846620912.20047.8614840368414003414@gitolite.kernel.org>
+Date: Fri, 10 Mar 2023 16:37:30 -0000
+Message-Id: <167846625019.20312.7200464265073537212@gitolite.kernel.org>
 
---===============8689049928483045789==
+--===============5359809456554951765==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: db47fa2e4cbf180a39d8e6d6170962bd7d82e52d
-    new: a1331535aeb41b08fe0c2c78af51885edc93615b
-    log: revlist-db47fa2e4cbf-a1331535aeb4.txt
+  - ref: refs/heads/dev-queue
+    old: 643b7521eea7eafb4fbe00bb1776ccffaf603c8a
+    new: 3590dca7139a4aa60ae42fe54bbc52339e42fc45
+    log: revlist-643b7521eea7-3590dca7139a.txt
 
---===============8689049928483045789==
+--===============5359809456554951765==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-db47fa2e4cbf-a1331535aeb4.txt
+Content-Disposition: attachment; filename=revlist-643b7521eea7-3590dca7139a.txt
 
 ddf75a86aba2cfb7ec4497e8692b60c8c8fe0ee7 auxdisplay: hd44780: Fix potential memory leak in hd44780_remove()
 bab550371cb13fe7adc4105a57d0530565740fc6 coccinelle: api/atomic_as_refcounter: include message type in output
@@ -895,5 +895,45 @@ d0928c1c5b3db0cd80e867eb49f171f096f03b8c Merge branch 'main' of git://git.kernel
 fd9c31f834416e3060061dbcb45ababaa25cdfe2 udp: introduce __sk_mem_schedule() usage
 8fbaced29dc0cef74728a69c4ec8b5534ba542ba Merge branch '1GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/next-queue
 a1331535aeb41b08fe0c2c78af51885edc93615b net: restore alpha order to Ethernet devices in config
+df1fee78bef65f7eeb2cddc4354c94fccae9c38f intel/igbvf: free irq on the error path in igbvf_request_msix()
+7b73ac4bc4417dabb6dbcf3891ec2744832865e2 igb: Enable SR-IOV after reinit
+bec4c034753bd58a229bda2149755637b8403ab3 igbvf: Regard vf reset nack as success
+0395dfaa638c8a9e4def1f4006fe9826763453eb ice: add FDIR counter reset in FDIR init stage
+b8d3cf02853fd745555a4ccd681daa4e3af6be09 i40e: Add ability to change VFs default MAC address
+38820df435923f8cb1bdd53542d838bfa24b305c ice: xsk: disable txq irq before flushing hw
+9f6913a59772ad1bd68551b89967543c7524a020 ice: Write all GNSS buffers instead of first one
+709de50723724bd2dd612f750a004a1bb851e129 i40e: consolidate maximum frame size calculation for vsi
+acd6e5437b3d7c7c4c68004f11dcf129bc3850ab i40e: change Rx buffer size for legacy-rx to support XDP multi-buffer
+182653fb4d877152f3df7d80d5c1fb62ee22d7d1 i40e: add pre-xdp page_count in rx_buffer
+a0b2396346114ee9c6da174cec7eaa3a16f0cd38 i40e: Change size to truesize when using i40e_rx_buffer_flip()
+ff836ccca824f625fb9dbb82737d0a27976a90bf i40e: use frame_sz instead of recalculating truesize for building skb
+922d314a0eff8b1c9849a0fda294b3e07cc0d625 i40e: introduce next_to_process to i40e_ring
+b6c4865cfeee171d334e2deec6567a75e616789b i40e: add xdp_buff to i40e_ring struct
+7ac207989617f0502513a70686b0c7154af83616 i40e: add support for XDP multi-buffer Rx
+5e21f5238a830676d1e65e4f7618db767089a811 ice: re-order ice_mbx_reset_snapshot function
+0afbb1362c98f606e645816cdb664b1fa72b423c ice: convert ice_mbx_clear_malvf to void and use WARN
+80f8168e52b58901b96061746ed81fdb13b35f13 ice: track malicious VFs in new ice_mbx_vf_info structure
+9b741ddfc2a5503c0216703e3152c72055798f91 ice: move VF overflow message count into struct ice_mbx_vf_info
+3e459452aa10e503098f7ae0c4c0662537472fda ice: remove ice_mbx_deinit_snapshot
+56e9953a3ee716987434f48e78e90b67ec2f0ebb ice: merge ice_mbx_report_malvf with ice_mbx_vf_state_handler
+542053fd78250502ab9d5f27e828a982c252cf63 ice: initialize mailbox snapshot earlier in PF init
+c358fbc457f05556c05cbb8626b16cbfc039f8e9 ice: declare ice_vc_process_vf_msg in ice_virtchnl.h
+f2cadf637e9b263bddf5bf2e5c42b9b24680fc01 ice: always report VF overflowing mailbox even without PF VSI
+e5d6e46153244af37b5ab9fc31ebd3437f76ebe4 ice: remove unnecessary &array[0] and just use array
+061d37a11f2fd8a69a352111c21b6d07a526ac8c ice: pass mbxdata to ice_is_malicious_vf()
+5e859488b394c210553c362867bffe73cb6f38dc ice: print message if ice_mbx_vf_state_handler returns an error
+bbfd2e1afa70afefad001a01ad62d5003135c670 ice: move ice_is_malicious_vf() to ice_virtchnl.c
+b346527d1c6c74d166214c3707c6a98840fd5315 ice: call ice_is_malicious_vf() from ice_vc_process_vf_msg()
+e9b9abdd282fea69c3c58ee72e643116fb0500fe i40e: Fix kernel crash during reboot when adapter is in recovery mode
+ee419b1dfe71d95260ee834b66ebbf0e95e16171 igc: Remove obsolete DMA coalescing code
+387e2c85d5af381e911d2b50d721410fdf5b1b98 ice: avoid bonding causing auxiliary plug/unplug under RTNL lock
+2100c12a0bf36e416ae424eb1a7ecbb17ec20f84 ice: remove comment about not supporting driver reinit
+0c5fd1bbc0f556a23a1c4701e7ac9db3c118ecf0 iavf: fix inverted Rx hash condition leading to disabled hash
+f208c9b3f4d51ab0860d0f4f7056b5dd0988345c iavf: fix non-tunneled IPv6 UDP packet type and hashing
+cb6f79a20b6e488b980d12211427faf20147a053 igbvf: add PCI reset handler functions
+6049660d85d9cb822ddb1153955b55aa1c126670 igb: revert rtnl_lock() that causes deadlock
+23b6d7624a36d18bde699a41a791ae410d697bee iavf: do not track VLAN 0 filters
+54a6dbadb0b6fb8bc2d3b8e80fd12798177db244 igc: fix the validation logic for taprio's gate list
+3590dca7139a4aa60ae42fe54bbc52339e42fc45 igb: refactor igb_ptp_adjfine_82580 to use diff_by_scaled_ppm
 
---===============8689049928483045789==--
+--===============5359809456554951765==--
