@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
-Date: Fri, 10 Mar 2023 20:28:44 -0000
-Message-Id: <167848012440.15246.13215219286718707922@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
+Date: Fri, 10 Mar 2023 20:43:10 -0000
+Message-Id: <167848099000.24207.2207572542649375665@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/viro/vfs
-user: viro
+repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
+user: shuah
 changes:
-  - ref: refs/tags/pull-highmem
-    old: 0000000000000000000000000000000000000000
-    new: bd67774363eeeb9aede3dbd295a596a7b2b22609
+  - ref: refs/heads/fixes
+    old: 2da789cda462bda93679f53ee38f9aa2309d47e8
+    new: 624c60f326c6e5a80b008e8a5c7feffe8c27dc72
+    log: |
+         624c60f326c6e5a80b008e8a5c7feffe8c27dc72 selftests: fix LLVM build for i386 and x86_64
+         
