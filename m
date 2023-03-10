@@ -1,44 +1,46 @@
-Content-Type: multipart/mixed; boundary="===============5913025011187290806=="
+Content-Type: multipart/mixed; boundary="===============2580797890559513419=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Fri, 10 Mar 2023 19:12:30 -0000
-Message-Id: <167847555033.26996.8268610795054352500@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/b4/b4
+Date: Fri, 10 Mar 2023 19:20:39 -0000
+Message-Id: <167847603911.1580.13696494631459469092@gitolite.kernel.org>
 
---===============5913025011187290806==
+--===============2580797890559513419==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+repo: pub/scm/utils/b4/b4
+user: mricon
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-next
-    old: 4a54de65964d37c3929379271ab31355e93ccddf
-    new: 4659fba121dac21a3516986a3c2cf8459c7ac3bc
-    log: revlist-4a54de65964d-4659fba121da.txt
+  - ref: refs/heads/master
+    old: 041d10b7f628fa082babdfa14def50b25b28f701
+    new: 2aa253e1e3b195df37227b8d8b2f7015948c5216
+    log: |
+         2aa253e1e3b195df37227b8d8b2f7015948c5216 Fix: wrong From attribution on trim_body required for attestation
+         
 
---===============5913025011187290806==
+--===============2580797890559513419==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4a54de65964d-4659fba121da.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-4cbd23cc92c49173e402753cab62b8a7754ed18f bpf: Move a few bpf_local_storage functions to static scope
-2ffcb6fc50174d1efc8f98633eb2647d84483c68 bpf: Refactor codes into bpf_local_storage_destroy
-62827d612ae525695799b3635a087cb49c55e977 bpf: Remove __bpf_local_storage_map_alloc
-121f31f3e00dfc1acbca43f6f35779e050b56cfc bpf: Remove the preceding __ from __bpf_selem_unlink_storage
-fc6652aab6ad545de70b772550da9043d0b47f1c bpf: Remember smap in bpf_local_storage
-a47eabf216f77cb6f22ceb38d46f1bb95968579c bpf: Repurpose use_trace_rcu to reuse_now in bpf_local_storage
-c609981342dca634e5dea8c6ca175b6533581261 bpf: Remove bpf_selem_free_fields*_rcu
-f8ccf30c179ec1ac16654f6e6ceb40cce1530b91 bpf: Add bpf_selem_free_rcu callback
-c0d63f309186d8492577c67c67984c714b6b72bc bpf: Add bpf_selem_free()
-1288aaa2786b1e58c9e88e53f7654d520ebe0f3b bpf: Add bpf_local_storage_rcu callback
-7e30a8477b0bdd13dfd0b24e4f32b26d22b96e6c bpf: Add bpf_local_storage_free()
-57ef77152b58770cbd54d624babd8f5d90805ea7 selftests/bpf: Replace CHECK with ASSERT in test_local_storage
-1f443d0f2b5702bad5f03aab544858ddd33999b7 selftests/bpf: Check freeing sk->sk_local_storage with sk_local_storage->smap is NULL
-4659fba121dac21a3516986a3c2cf8459c7ac3bc selftests/bpf: Add local-storage-create benchmark
+certificate version 0.1
+pusher B6C41CE35664996C! 1678476038 -0500
+pushee gitolite.kernel.org:pub/scm/utils/b4/b4
+nonce 1678476038-2bde04b633536be0c9051214ba81481a84c0a886
 
---===============5913025011187290806==--
+041d10b7f628fa082babdfa14def50b25b28f701 2aa253e1e3b195df37227b8d8b2f7015948c5216 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCZAuDBgAKCRC2xBzjVmSZ
+bKqcAQCKiENfH5x+WqbuNfDTLSI94m5cEeKrpMkUpCr7TcMU1wD8CcFqxIMEu1dY
+teEdW0fKa9E7dmJT5G2fYWt38wG1GAI=
+=1fSA
+-----END PGP SIGNATURE-----
+
+--===============2580797890559513419==--
