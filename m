@@ -1,29 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Fri, 10 Mar 2023 15:02:28 -0000
-Message-Id: <167846054838.21930.14842762111057971807@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ulfh/mmc
+Date: Fri, 10 Mar 2023 15:14:21 -0000
+Message-Id: <167846126147.28597.10419604606929732792@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
-user: broonie
+repo: pub/scm/linux/kernel/git/ulfh/mmc
+user: ulfh
 changes:
-  - ref: refs/heads/for-linus
-    old: fe15c26ee26efa11741a7b632e9f23b01aca4cc6
-    new: 8ca09d5fa3549d142c2080a72a4c70ce389163cd
+  - ref: refs/heads/next
+    old: a4607f35aa0828a0f3eaa9ce32ce49d26613f633
+    new: 46d19dc62b455849c3aa8146f6f7d7d3cdbc65a9
     log: |
-         80c16b2b121fbc3380dbffa9bab7559acbaaa2ed cpumask: Fix typo nr_cpumask_size --> nr_cpumask_bits
-         8ca09d5fa3549d142c2080a72a4c70ce389163cd cpumask: fix incorrect cpumask scanning result checks
-         
-  - ref: refs/heads/for-next
-    old: a96c3588cf7c90e0afdf588654b0ead99740e47a
-    new: 77ae1e2a8c62226b9f8c19794c606dff65de3fd2
-    log: |
-         80c16b2b121fbc3380dbffa9bab7559acbaaa2ed cpumask: Fix typo nr_cpumask_size --> nr_cpumask_bits
-         8ca09d5fa3549d142c2080a72a4c70ce389163cd cpumask: fix incorrect cpumask scanning result checks
-         21d19e601fd221cd61105286b0b6ec2f9c5a2576 spi: mpc5xxx-psc: Remove goto to the unexisted label
-         77ae1e2a8c62226b9f8c19794c606dff65de3fd2 Merge remote-tracking branch 'spi/for-6.4' into spi-next
+         a42dc551119fe529f9550f2b8f7b56231a8d3a4f mmc: sdhci-of-dwcmshc: properly determine max clock on Rockchip
+         43426dcefd2062873394e7cbbc94c74b927cf8ab mmc: arasan: Use of_property_present() for testing DT property presence
+         4fe72b371da861a885751779f17b1214c793c5f5 dt-bindings: mmc: mediatek,mtk-sd: add mt8365
+         c6d2672a29b05212a9c818f24a235e4f478ad9d0 mmc: Use of_property_read_bool() for boolean properties
+         46d19dc62b455849c3aa8146f6f7d7d3cdbc65a9 mmc: sdhci-pci-o2micro: Fix SDR50 mode timing issue
          
