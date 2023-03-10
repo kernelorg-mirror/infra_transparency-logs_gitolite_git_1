@@ -1,21 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Fri, 10 Mar 2023 11:43:12 -0000
-Message-Id: <167844859201.8185.779707473521579120@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netfilter/nf
+Date: Fri, 10 Mar 2023 11:44:11 -0000
+Message-Id: <167844865120.8613.17932401401383102148@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/man-pages/man-pages
-user: alx
+repo: pub/scm/linux/kernel/git/netfilter/nf
+user: pablo
 changes:
-  - ref: refs/heads/master
-    old: 604c5792d4092c2f64432b147d70fe396f496ac1
-    new: e728d5d1e639e5c803a84480ad727e7b02bac222
+  - ref: refs/heads/main
+    old: 37d9df224d1eec1b434fe9ffa40104c756478c29
+    new: 493924519b1fe3faab13ee621a43b0d0939abab1
     log: |
-         7c6ae1a3ee9a43124490b32d1b462e97cb38441b Makefile, lint-man.mk: lint-man-groff-preconv: Add preconv(1) to the groff(1) pipeline
-         250d9062591b3118298438227304d3ce98167ddf Makefile, lint-man.mk: Delete files on error
-         e728d5d1e639e5c803a84480ad727e7b02bac222 lint-man.mk: lint-man-groff-eqn: Fail if eqn(1) writes to stderr
+         068d82e75d537b444303b8c449a11e51ea659565 netfilter: nft_nat: correct length for loading protocol registers
+         ec2c5917eb858428b2083d1c74f445aabbe8316b netfilter: nft_masq: correct length for loading protocol registers
+         1f617b6b4c7a3d5ea7a56abb83a4c27733b60c2f netfilter: nft_redir: correct length for loading protocol registers
+         493924519b1fe3faab13ee621a43b0d0939abab1 netfilter: nft_redir: correct value of inet type `.maxattrs`
          
