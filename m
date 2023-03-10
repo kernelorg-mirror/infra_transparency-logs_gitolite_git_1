@@ -1,22 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
-Date: Fri, 10 Mar 2023 18:52:09 -0000
-Message-Id: <167847432994.14587.8892738683149451202@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jpoimboe/linux
+Date: Fri, 10 Mar 2023 18:53:52 -0000
+Message-Id: <167847443274.15187.175876253634512112@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/viro/vfs
-user: viro
+repo: pub/scm/linux/kernel/git/jpoimboe/linux
+user: jpoimboe
 changes:
-  - ref: refs/heads/for-next
-    old: 7a9506069a6232e6ae49da4b2a5685f3757a7f85
-    new: eeae4444bb5347330081a3b406c27cbf2f9cbdde
+  - ref: refs/heads/static-call-null-3
+    old: c1bf07566259bd992bb42852a9f832e82ab426eb
+    new: 432e4844ba65840af4a24f5e3f561aead867f6e7
     log: |
-         fd4e914764d6d1f6c83bbb7a8cc20a1959daf858 ufs: don't flush page immediately for DIRSYNC directories
-         2f48ea7c42bee8f6651a1e17f043bcf1c7fb326b ocfs2: don't use write_one_page in ocfs2_duplicate_clusters_by_page
-         f1a08fb5c3dcb3de34651a8cfc246980a602c765 mm,jfs: move write_one_page/folio_write_one to jfs
-         eeae4444bb5347330081a3b406c27cbf2f9cbdde Merge branches 'hch.write_one_page', 'work.nios2', 'work.misc' and 'work.old-dio' into for-next
+         016c1e9cbdf726a885a406ff6baed85087ad1213 static_call: Make NULL static calls consistent
+         999f0b7f8056dcb51476a6515a8601c9d6374aa2 static_call: Make NULL static calls return 0
+         7d549181d8a08444131baf05934f32052ea6b102 static_call: Remove static_call_cond() and its usages
+         82391676fd575d7123899d0dc44dcc07fe2ca2f7 static_call: Remove DEFINE_STATIC_CALL_RET0() and its uses
+         432e4844ba65840af4a24f5e3f561aead867f6e7 x86/kvm: Simplify static call handling
          
