@@ -1,56 +1,47 @@
-Content-Type: multipart/mixed; boundary="===============8656274084156035501=="
+Content-Type: multipart/mixed; boundary="===============7149573555203081509=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Fri, 10 Mar 2023 11:48:28 -0000
-Message-Id: <167844890831.13136.10389172628617745409@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pinchartl/linux
+Date: Fri, 10 Mar 2023 11:49:00 -0000
+Message-Id: <167844894009.13382.785678758521542645@gitolite.kernel.org>
 
---===============8656274084156035501==
+--===============7149573555203081509==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/pinchartl/linux
+user: pinchartl
 changes:
-  - ref: refs/heads/master
-    old: 42d18c0cb5a8236e43986615f93c9c5b8c3f6cdf
-    new: d11d89cfdcd26e9b41e80c035550b7a0d70f32fe
-    log: |
-         d11d89cfdcd26e9b41e80c035550b7a0d70f32fe 6.2-stable patches
-         
+  - ref: refs/heads/next/media/sensors/imx290
+    old: 1259dcb0a5c4a1388bc6b9b6e1a006f3d57643b6
+    new: 452b62cc23c27d531e0fd4e316a98394966c93bd
+    log: revlist-1259dcb0a5c4-452b62cc23c2.txt
 
---===============8656274084156035501==
+--===============7149573555203081509==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-1259dcb0a5c4-452b62cc23c2.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1678448907 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1678448905-1cd74948f5bc73274e414d5b6fe394af55fd662b
+68e87ebf2605643072264ed452f4e560417ddb1b media: v4l2-subdev.c: clear stream field
+3e62aba8284de0994a669d07983299242e68fe72 media: imx-mipi-csis: Check csis_fmt validity before use
+c3d44bb350f0a9def3d43a2ce50609e7bc6a8b1e media: dt-bindings: media: i2c: Add mono version to IMX290 bindings
+c135f376ce12b5773c70c87951f52943f5679e81 media: i2c: imx290: Add support for the mono sensor variant
+0e662ce01d0db47fc9e5890de1bcab9f9699e88e media: i2c: imx290: Match kernel coding style on whitespace
+8f549490d0f7f5fe96197ab7a23395b7f23427ad media: i2c: imx290: Set the colorspace fields in the format
+77c9c0a13aa3d5f7f7761f2fe8811266cd25336c media: i2c: imx290: Add V4L2_SUBDEV_FL_HAS_EVENTS and subscribe hooks
+362ab3c7886e446a6943cc5898007533a0182d71 media: i2c: imx290: Fix the pixel rate at 148.5Mpix/s
+34967247709f7652f2927055a3ee0741ccb5565f media: i2c: imx290: Support 60fps in 2 lane operation
+057486805735842662a941b2cfcccf0fc5af0e33 media: i2c: imx290: Use CSI timings as per datasheet
+a22d02916802467f67e1fca45505065c824aaef0 media: i2c: imx290: Convert V4L2_CID_HBLANK to read/write
+00a3b539dad5c14454c18f63a070f76a1adfbc94 media: i2c: imx290: Convert V4L2_CID_VBLANK to read/write
+965c46b6f9ecf23dd3252f559e4fd4985376f6ec media: i2c: imx290: VMAX is mode dependent
+88c2d2672827d7807ad9a648091f0ee33650f48d media: i2c: imx290: Remove duplicated write to IMX290_CTRL_07
+a13d5ef409c8eef94f30048b650099c7295a2373 media: i2c: imx290: Add support for 74.25MHz external clock
+e5749e344197ee6757fcfe056327564eb856f159 media: i2c: imx290: Add support for H & V Flips
+452b62cc23c27d531e0fd4e316a98394966c93bd media: i2c: imx290: Add the error code to logs in start_streaming
 
-42d18c0cb5a8236e43986615f93c9c5b8c3f6cdf d11d89cfdcd26e9b41e80c035550b7a0d70f32fe refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQLGQsbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+f+0QAJsfibuDrNMNQk/9uyrF
-MAU1O/mNjeg2FShA1tQ/7EjKjUWUcPTfqnQ/m8fiHa7ch9CpigFaRYW0JPWPKDKV
-sGwEREm5lbClBTCFN7oylrtFZtZgO7JrRt3uCcJPLAonojFjPenLhw4VDVEDN9Cn
-m2UibS0eoSYfHzWviCKg/0sfp7JANQXYIYnPNVl0agUKmeU2gk31/25X5zOadQnl
-k9HY+zsEzHY0gczxIOaYeyepuIUBBgmellDmziWIUMRgyCSYo47fl2EXnLfr2BCL
-9FwmRgZ2nXPko6w2C2xL9fJYlsfLjDvCnU7u5ih7fo2UO77sOMva/n/1KgFy0W04
-2DG5UuYDNZq/kC65sLKbz70bfp6IKwDlH+K3ynuShmIJFajaasLBitiqnYGRWrS9
-tI0757RDXXkdm/Y5Dzwwf0ADq8TP5vnddXfooZq8MdIMsdz9PGSd1j5QeKcdQ0gF
-VO/0acfFYtPwHAy1tD0GUx/pvQ5/N+prLjjUF/veFjwpR37QORjBc766puNdhK1k
-W7GOtujIFasW6q7UEEfbDFJFrefr+DzCqFsqQh/EM67eeqDTPihebAGeeyo3LrUp
-nvqVyrBfw19r59CcslZYZ6+Oj0r6TCjvuqAPkKVL3jnuDbmYFtx6SIq2cxzcZdkP
-e/vQw+xTYPV2ILZERPi6ixFE
-=/1YU
------END PGP SIGNATURE-----
-
---===============8656274084156035501==--
+--===============7149573555203081509==--
