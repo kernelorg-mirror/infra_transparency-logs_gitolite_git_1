@@ -1,43 +1,44 @@
-Content-Type: multipart/mixed; boundary="===============0621502959924733360=="
+Content-Type: multipart/mixed; boundary="===============0094421422567019450=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Fri, 10 Mar 2023 19:06:04 -0000
-Message-Id: <167847516429.23463.6803862290502787228@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Fri, 10 Mar 2023 19:12:24 -0000
+Message-Id: <167847554488.26899.6760531508778153389@gitolite.kernel.org>
 
---===============0621502959924733360==
+--===============0094421422567019450==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: ast
 changes:
-  - ref: refs/heads/dev
-    old: 3898e7642316732e23716ca902f9d122736f9805
-    new: 0043baa683a6f6e33705e5aa7a1fad2b0c4fd0cf
-    log: revlist-3898e7642316-0043baa683a6.txt
+  - ref: refs/heads/master
+    old: 4a54de65964d37c3929379271ab31355e93ccddf
+    new: 4659fba121dac21a3516986a3c2cf8459c7ac3bc
+    log: revlist-4a54de65964d-4659fba121da.txt
 
---===============0621502959924733360==
+--===============0094421422567019450==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3898e7642316-0043baa683a6.txt
+Content-Disposition: attachment; filename=revlist-4a54de65964d-4659fba121da.txt
 
-c2745cd31f80fb62afaea4518f694433f719541d EXP locking: Comment out virt_spin_lock() check in queued_spin_lock_slowpath()
-4b00456f0d97b660455244b69e23a8c83612b9d2 qspinlock: Diagnostics for excessive lock-drop wait loop time
-e1b7c620699cf66bfbcbc8d461dfae9c6a796dcc objtool: Fix for unreachable instruction warning
-a9936b63cdce31f5d5b0d9b660f13ab164e1575a qspinlock: Lockless diagnostics for excessive spin-drop wait loop time
-20c4bc1e07a5f139b72dc48399e304ea66475bde x86/nmi: Add a set_nmi_torture() function to control NMI testing
-25b0d9e7345860dbb8eabcd5757aa8658078adeb rcutorture: Test NMI diagnostics
-dc353f18915b685e2ed2a7dfcc3180c33389c78b EXP qspinlock: debugging
-15ecc70692a8422b349bbb110611bdb020056412 kcsan: Avoid READ_ONCE() in read_instrumented_memory()
-f21559db7db32665d73d69533272cd8158a9b642 squash! rcutorture: Test NMI diagnostics
-a92d6a6a81a6df86eb6b604451b975e1985beb1f arch/x86: Remove "select SRCU"
-5f418d098364ae0468f452b21e6c595f2ef442fc kvm: Remove "select SRCU"
-0ab8d05e9b0c70ea317437da0f550daa095e4f1e mm: Remove "select SRCU"
-0043baa683a6f6e33705e5aa7a1fad2b0c4fd0cf rcu: Remove CONFIG_SRCU
+4cbd23cc92c49173e402753cab62b8a7754ed18f bpf: Move a few bpf_local_storage functions to static scope
+2ffcb6fc50174d1efc8f98633eb2647d84483c68 bpf: Refactor codes into bpf_local_storage_destroy
+62827d612ae525695799b3635a087cb49c55e977 bpf: Remove __bpf_local_storage_map_alloc
+121f31f3e00dfc1acbca43f6f35779e050b56cfc bpf: Remove the preceding __ from __bpf_selem_unlink_storage
+fc6652aab6ad545de70b772550da9043d0b47f1c bpf: Remember smap in bpf_local_storage
+a47eabf216f77cb6f22ceb38d46f1bb95968579c bpf: Repurpose use_trace_rcu to reuse_now in bpf_local_storage
+c609981342dca634e5dea8c6ca175b6533581261 bpf: Remove bpf_selem_free_fields*_rcu
+f8ccf30c179ec1ac16654f6e6ceb40cce1530b91 bpf: Add bpf_selem_free_rcu callback
+c0d63f309186d8492577c67c67984c714b6b72bc bpf: Add bpf_selem_free()
+1288aaa2786b1e58c9e88e53f7654d520ebe0f3b bpf: Add bpf_local_storage_rcu callback
+7e30a8477b0bdd13dfd0b24e4f32b26d22b96e6c bpf: Add bpf_local_storage_free()
+57ef77152b58770cbd54d624babd8f5d90805ea7 selftests/bpf: Replace CHECK with ASSERT in test_local_storage
+1f443d0f2b5702bad5f03aab544858ddd33999b7 selftests/bpf: Check freeing sk->sk_local_storage with sk_local_storage->smap is NULL
+4659fba121dac21a3516986a3c2cf8459c7ac3bc selftests/bpf: Add local-storage-create benchmark
 
---===============0621502959924733360==--
+--===============0094421422567019450==--
