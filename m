@@ -1,21 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Fri, 10 Mar 2023 20:21:22 -0000
-Message-Id: <167847968235.11404.10705321560419584980@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
+Date: Fri, 10 Mar 2023 20:24:58 -0000
+Message-Id: <167847989802.12527.984286042432554644@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+repo: pub/scm/linux/kernel/git/peterz/queue
+user: peterz
 changes:
-  - ref: refs/heads/for-next
-    old: 4659fba121dac21a3516986a3c2cf8459c7ac3bc
-    new: 74843b57ec70af7b67b7e6153374834ee18d139f
+  - ref: refs/heads/sched/eevdf
+    old: c95166366b508e8a4a2c345b323704f98ef8b62e
+    new: 0dddbc0b54ad45b4b00d845c9d1134172c57e6fc
     log: |
-         b32a5dae44cc7346835839c2e92356ff4609c823 bpf: verifier: Rename kernel_type_name helper to btf_type_name
-         a4aa38897b6a6dad4318bed036edc7ed0c8a4578 bpf: btf: Remove unused btf_field_info_type enum
-         74843b57ec70af7b67b7e6153374834ee18d139f bpf: Change btf_record_find enum parameter to field_mask
+         b84a8f6b6fa3612dcf99ccc84ebdf5083ab50a0e sched: Introduce latency-nice as a per-task attribute
+         eea7fc6f13b43ad7823806a5cd05785f3c46421a sched/core: Propagate parent task's latency requirements to the child task
+         a143d2bcef655f9a4ab11e5dedcae52bb80c2191 sched: Allow sched_{get,set}attr to change latency_nice of the task
+         d9790468df14cf99305b20f4b8118bc48690d331 sched/fair: Add latency_offset
+         3d4d37acaba41926795dce405e3aea1fe35ed468 sched/fair: Add sched group latency support
+         707840ffc8fa099a9d9a415250798b6f3937aecf sched/fair: Add avg_vruntime
+         394af9db316bd641191f0a254a933ff91fd8cb44 sched/fair: Remove START_DEBIT
+         89b2a2ee0e9d609167b64a72669823506bc270c9 sched/fair: Add lag based placement
+         e3db9631d8caae2530a0ec69bde1d936f572a953 rbtree: Add rb_add_augmented_cached() helper
+         0dddbc0b54ad45b4b00d845c9d1134172c57e6fc sched/fair: Implement an EEVDF like policy
          
