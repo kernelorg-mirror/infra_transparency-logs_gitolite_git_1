@@ -1,56 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============7046133978113811693=="
+Content-Type: multipart/mixed; boundary="===============8119598026757279372=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Fri, 10 Mar 2023 09:56:30 -0000
-Message-Id: <167844219010.974.16521688296075308005@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Fri, 10 Mar 2023 10:06:10 -0000
+Message-Id: <167844277016.7145.9840482418412800887@gitolite.kernel.org>
 
---===============7046133978113811693==
+--===============8119598026757279372==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
+repo: pub/scm/linux/kernel/git/stable/stable-queue
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-linus
-    old: 38ed310c22e7a0fc978b1f8292136a4a4a8b3051
-    new: 06be62083c5308c76a891ca975d66d832e2afc07
+  - ref: refs/heads/master
+    old: 8233feeaa3bf203d6697b4933cddd67fe7057541
+    new: 42d6978132041a61316e6df41483779c8b51a798
     log: |
-         06be62083c5308c76a891ca975d66d832e2afc07 nvmem: core: return -ENOENT if nvmem cell is not found
+         42d6978132041a61316e6df41483779c8b51a798 4.14-stable patches
          
 
---===============7046133978113811693==
+--===============8119598026757279372==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1678442185 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1678442183-599f2e0e43cc4a437840a720de14c4ad77e8eaae
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1678442769 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1678442764-ac4e62bc70c2b72ae706e0e7197513112afb3194
 
-38ed310c22e7a0fc978b1f8292136a4a4a8b3051 06be62083c5308c76a891ca975d66d832e2afc07 refs/heads/char-misc-linus
+8233feeaa3bf203d6697b4933cddd67fe7057541 42d6978132041a61316e6df41483779c8b51a798 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQK/skbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ImkP/jT5JcIz9EVYxAiWJ0bt
-Wxtc8AmwWGpAWsK/U7HfD2QyJ9U9JiNqCDJ8BCjwh6YcGo4Ey01Bi2HkL4FB75Tx
-GQVl20NNI0tQOn4wpWahPBirkD0cX6eehXskWOY4fO2tlAwq0N9MALSN7yS1vGI9
-Nw3uhqgIu/KxpjE0pr4x3OMfrFBYXQw3qD5duwtJkEafpDKfFFHFLgpl0l/h4b/J
-N9GFqwjag5NuzfOOhJG9dbxoLsTLk+JeQfAtuKiTwKYPM8f7xs6XwaXJO3TNY3sA
-s97cEl4K+ppXzqkS2eeEWMayhOZUvziBFiWhmkOCWg37fSTzGjvb8s47HJlxumwH
-oWmgTFIDqt+JPidVp+6Mlgs3pJh4Q9SW5CnR7Lt3NXQ4sZkrXWEOJ84rVzIMA/pi
-UABpQVg5aUZD2psM4FrT3IjRqmhzzjWZ0MQkxzV8+tkbDkoWPTBUrrYi31IMgDOU
-2qTnZIIkxJonpTSuTxTKzRyamCxQJG5r7Wt+lARI9c20KV+pKBtkDp+3eU1K+9Mw
-p5r/lbalALw51Ysq05jThTxPbyIXmAUeAH8k6I6bUv3+J+9T1XTwM6v5/bJZdmjd
-9PCzwoLDc2Te3K8GYNJ+8bbqbrv5ivE2AI/IUp88T6BkiSWaT6TU7sO1mGtkoGF6
-PLU1UTTXkWy1KTtjp3CP2uml
-=lDpu
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQLAREbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+DQ8P/1p+Muzn23zOnOhsb5LA
+Elszc2eSuksFcr+4AcbMM9e2YOyjfZtOJxj8DpJv3y1S5g57x5gEieOGVwxbYZxX
+9pIclA8m9SOZYr3QlVPO4bTYzCUlXU5lNxyEFS9xIlSEPp+sgybd69jtdjxwVu7r
+Q3gIt9ZSm/kSMxdVn49EVGwC4crUrrvZ0yU9vikQBk92ARGsKCnLuXbvWS6C9ZgZ
+VUNSujtq3v2wpdQiA5r2130XDd5R6Jtnp8BIBZz5CHLVTYCKgmNUvTGxYFcUukyD
+Px3JKfTS7jHsecQLWA+8VnnxaEMUGoIoooulzBumUwza74ElAgAB5dAAr7iK9F+E
+ecc34VMwm3Prxuh/1uBj4VXPWATnCH5YZwsEYMYFreMbutS5PtEtH68+JEpGjewy
+7J74IpseDdM0DRkLI6PrbaSQfbZBl+xe/hhKJ2ZWEySwSVggI7TrA0GQHyrpiHep
+FI3CDX562vh2u2A2GXx9rBDCa+qdAIqIWZ9+n6ap3wX8LuVrhdv1scxK6q/QF0ju
+AykGm40oy82LOpKtTX07ffoa3Lgq5YcEtz1gDNvb59gDthJLD5Y1ayHXOKEPMc7/
+vyoTZ4TGKRGW1GbPzR5XfLWkHVD0RfD864fAsH4riE9k69XVOLQSiRyxejq6nhFU
+DiLB7+A9O/Ojp3uN6PuKAUGP
+=wP+l
 -----END PGP SIGNATURE-----
 
---===============7046133978113811693==--
+--===============8119598026757279372==--
