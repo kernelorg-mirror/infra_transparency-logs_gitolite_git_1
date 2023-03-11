@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Sat, 11 Mar 2023 13:32:50 -0000
-Message-Id: <167854157053.5798.2131486001452971335@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
+Date: Sat, 11 Mar 2023 13:40:32 -0000
+Message-Id: <167854203226.11237.9449234644606323562@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/man-pages/man-pages
-user: alx
+repo: pub/scm/linux/kernel/git/xiang/erofs-utils
+user: xiang
 changes:
-  - ref: refs/heads/master
-    old: 99c4cae5f74bba5b682ac6a2cce982a750e95542
-    new: 67950cc67d83c1d8c1f70ae1c68669e117ab10ef
+  - ref: refs/heads/experimental
+    old: 90e6a61c1691ca79b248772a978921e2fa121d10
+    new: df8af0c7eee44af235ea0e11cd6428b1f542c4a9
     log: |
-         67950cc67d83c1d8c1f70ae1c68669e117ab10ef INSTALL, Makefile: Document available variables.
+         df8af0c7eee44af235ea0e11cd6428b1f542c4a9 erofs-utils: release 1.6
          
