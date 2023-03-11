@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Sat, 11 Mar 2023 17:55:59 -0000
-Message-Id: <167855735975.20437.14363241000919224899@gitolite.kernel.org>
+Date: Sat, 11 Mar 2023 18:20:22 -0000
+Message-Id: <167855882235.4488.8666719912619823484@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/sashal/deps
 user: bot-stable-queue
 changes:
   - ref: refs/heads/master
-    old: 6cda6ccfb7f1cbc57a47637dc5b994c35c6bb1af
-    new: d13d34d91ba3645371e06ed555855d6f73e84347
+    old: d13d34d91ba3645371e06ed555855d6f73e84347
+    new: 29ac761651e6d2589d1f12222b6d02260b718377
     log: |
-         d13d34d91ba3645371e06ed555855d6f73e84347 Sat Mar 11 05:55:05 PM UTC 2023
+         29ac761651e6d2589d1f12222b6d02260b718377 Sat Mar 11 06:19:25 PM UTC 2023
          
