@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Sat, 11 Mar 2023 17:20:03 -0000
-Message-Id: <167855520326.29328.159568972157856018@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Sat, 11 Mar 2023 17:22:05 -0000
+Message-Id: <167855532576.30237.2455852792380089924@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/filelJ1u4o
-    old: 0000000000000000000000000000000000000000
-    new: 5d1f9ac1e3b57b3a8d7cf317153cc5d8600be33a
+  - ref: refs/heads/master
+    old: ef5f68cc1f829b492b19cd4df5af4454aa816b93
+    new: e25c54d17914b0df4f902d1f25cd52f54e20cfbf
+    log: |
+         e25c54d17914b0df4f902d1f25cd52f54e20cfbf ubi: block: Fix missing blk_mq_end_request
+         
