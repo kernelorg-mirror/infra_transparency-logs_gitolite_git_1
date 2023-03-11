@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4094153560212514068=="
+Content-Type: multipart/mixed; boundary="===============9088200280138217738=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Sat, 11 Mar 2023 10:04:30 -0000
-Message-Id: <167852907035.26293.12627965199393329565@gitolite.kernel.org>
+Date: Sat, 11 Mar 2023 10:04:35 -0000
+Message-Id: <167852907507.26380.13544653622347489049@gitolite.kernel.org>
 
---===============4094153560212514068==
+--===============9088200280138217738==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,43 +16,38 @@ repo: pub/scm/linux/kernel/git/stable/linux
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-6.1.y
-    old: 8a923980a19087421e8c99efb68ca0e4200daefd
-    new: 11585e2f8b9d5b4f0a4c51f12adcaab1573811f1
-    log: |
-         b5dae1cd0d8368b4338430ff93403df67f0b8bcc Revert "blk-cgroup: synchronize pd_free_fn() from blkg_free_workfn() and blkcg_deactivate_policy()"
-         deef2947d5f666210c3469e8b7e165c6111ae2fb Revert "blk-cgroup: dropping parent refcount after pd_free_fn() is done"
-         11585e2f8b9d5b4f0a4c51f12adcaab1573811f1 Linux 6.1.17
-         
+  - ref: refs/tags/v6.1.17
+    old: 0000000000000000000000000000000000000000
+    new: 88bf0d4c05a261ebdbc8786967256c9cf83d2a54
 
---===============4094153560212514068==
+--===============9088200280138217738==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1678529069 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1678529074 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1678529066-af5affcdf054d21e72eedb586ca38449007bac5c
+nonce 1678529071-b5d1d70e95b4cd5149a182be23295d8cfd606f63
 
-8a923980a19087421e8c99efb68ca0e4200daefd 11585e2f8b9d5b4f0a4c51f12adcaab1573811f1 refs/heads/linux-6.1.y
+0000000000000000000000000000000000000000 88bf0d4c05a261ebdbc8786967256c9cf83d2a54 refs/tags/v6.1.17
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQMUi0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+WpIP+gP401BtJZqo//GxrH6n
-zugueptJ8aTlFlzmjXWT2soFjLp4GmHzmGLXvq6xKtu88Qu0Qn8jfhyRLezihOyJ
-R5fQhjQkmE3llx6OR8QwKoo8769gRGQ0+ZdFv0NESeHaXE7kxJ74x6MZraWvB6BP
-pJGhfMLkq1X+33kAgVPyBy73Q30i1p9LgAIU40Xo7Tj10etUpG8THHHDnSvkfT0H
-wrX5UjPpa7NFCRQUUURWE3UARjFGEfwRFakbZd/4aiUCwU/hThfOA8U1kQ41rwBP
-leQDcVCeV24AsMPJ5Sc3ab0BUGrJ7mGjITzS0TIPNLGrd4LhOJt2k7I+kIelrys7
-IidssXLyxB8hxfEwJ9AnqUzY1oBxkAsp+smwXKGD1id2NYK7BuV1rSpyUOOZFLQh
-RWKZHIiba0NGAgyJszbUF0oMEoSCNJSBdHJRpxGVvMOSljX5zJGcOoEwhwb/LnBv
-oP+doZREhAlaYbfq3bpF/r63rT1mtySAGNRUoIitcFLMn02SsivYsZlnAnmncbA4
-/1dtABHwGkH2OOPgazoVrqDDTJh406XbaxWOJyMfyFcpFUR+dXfwbsbcGWknu1Nh
-vUYe0NXjqKd+aYg9GqvzpyEQaXGORdlJhnWeEuzzLLzF87Bwm/USLh+craosEUc1
-TdgmERkSyElF2wXFXK/uiMi0
-=7JZ+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQMUjIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ymEQAKNT6lKBrbRm5Ra/aZ15
+4sex67zNml1PzyzaHM1L92wesxD/A3dTP9ukQbpPLeSOmjy7VbyA4BZFUU1NBb4R
+ztsmVzP/hwgK6lP8ithC5XX3rIR09K3/JFQ/sl/sN/wR62L+2cHRJ/9zoVt+LFaP
+PeFPAl/ScRXSqFw/0bxTEqJ5+xgUGLD/f0vf9TZOKUUoezmIAhoN3VmxELP4lpGp
+YrWBuEqK7AEGm8QOxOuCONfS4Jv8AQZLnSi7ibj3vvD/Rcu1Wo4bZjggs6jp0ZWK
+hvgxx3oVohha5zuSF+pEmNbk+ewFd7AaNGRqRjRJRxtZeD+2F8tiGa8gK6q5vBYy
+WPdr1RS5RjML52bk+hyMB2vP/VxITcXV5N3lkELbHJyf19PqtvTOhB1YEO/2loDH
+TGzYY2XGkWWB+/WKEFdLRfq/66yZC8S2FhoyILuaAhVtnIY8ojhRIelxv0mv0aVU
+wgbNlQZuZasCF7eLh42SlsCkc8HeuJjpy4UpSUt6wRymCF4W0waZSrz5BYBuD+Yi
+swKveXwS1JnpEtIAgSrhHgbuZdfRkPtkhp1P1ypDqXPk1bunLdylFKoXyme077wy
+kUeSyZQoxQuOXkdh0EkyGmUiJWoC1eCqMdFrYs0JJWJLKCnAc0YVk+zbLT+I9Ygq
+IslyISkQ3ecWrqlOoAhYAN45
+=P0B3
 -----END PGP SIGNATURE-----
 
---===============4094153560212514068==--
+--===============9088200280138217738==--
