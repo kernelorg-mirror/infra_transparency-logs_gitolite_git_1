@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Sat, 11 Mar 2023 23:40:21 -0000
-Message-Id: <167857802170.20999.17649145599669170887@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jfern/linux
+Date: Sat, 11 Mar 2023 23:55:08 -0000
+Message-Id: <167857890892.31315.17966309777318895183@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/man-pages/man-pages
-user: alx
+repo: pub/scm/linux/kernel/git/jfern/linux
+user: jfern
 changes:
-  - ref: refs/heads/master
-    old: d7a062de4fe5209acb585df03d5f8a2ea27a730f
-    new: ffac8276df958046d6b38ef21829f7c8d39eca19
-    log: |
-         ffac8276df958046d6b38ef21829f7c8d39eca19 boot.7: ffix
-         
+  - ref: refs/heads/cros-chromeos-5.15.old
+    old: 0000000000000000000000000000000000000000
+    new: 561f1c7d514f2434cd39497cd9cf04f0cf073d9c
