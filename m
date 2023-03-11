@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6227600897296158124=="
+Content-Type: multipart/mixed; boundary="===============2925261031546197648=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Sat, 11 Mar 2023 13:05:22 -0000
-Message-Id: <167853992283.5883.10900438105053956765@gitolite.kernel.org>
+Date: Sat, 11 Mar 2023 13:05:39 -0000
+Message-Id: <167853993916.19592.18273767535150200099@gitolite.kernel.org>
 
---===============6227600897296158124==
+--===============2925261031546197648==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,24 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/locking/core
-    old: 3b4863fa5b7dd50dab1b10abbed938efd203752f
-    new: 63802adef67c6ea9a7fe4ce19328cc6e37f0abd7
-    log: revlist-3b4863fa5b7d-63802adef67c.txt
+  - ref: refs/heads/locking/rwsem
+    old: 31784cff7ee073b34d6eddabb95e3be2880a425c
+    new: 91deffc8269358475a1f06356cf382dae2a15c0d
+    log: revlist-31784cff7ee0-91deffc82693.txt
 
---===============6227600897296158124==
+--===============2925261031546197648==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3b4863fa5b7d-63802adef67c.txt
+Content-Disposition: attachment; filename=revlist-31784cff7ee0-91deffc82693.txt
 
-ae2e4d2bae0007b040e8327f123911c0a6b24d68 SUNRPC: Add KDF-HMAC-SHA2
-0d5b5a0f32dfc9be3521803aba53e856759f0250 SUNRPC: Add RFC 8009 encryption and decryption functions
-f26ec6b1b15c5d84e4c8e5b361e2be119def498d SUNRPC: Advertise support for RFC 8009 encryption types
-3394682fba3b9010c6147e94f37633f044876e5e SUNRPC: Support the Camellia enctypes
-45b4ef46b5e88ced7edd4fba26b5fa0e3103de0b SUNRPC: Add KDF_FEEDBACK_CMAC
-6e6d9eee0e78b3d13018e0eb28102b67ad5a8e86 SUNRPC: Advertise support for the Camellia encryption types
-6e460c230d2dfb0e5a02b6e0995546bb4b9d208e SUNRPC: Move remaining internal definitions to gss_krb5_internal.h
 eebd8c2d1978f5cb6e76e4e3045220b67548cb79 SUNRPC: Add KUnit tests for rpcsec_krb5.ko
 ddd8c1f975ee7c2fc60ea836540b5b10f97ac919 SUNRPC: Export get_gss_krb5_enctype()
 6eb6b8a446a174586427d1a0ab0f7635b05b44f7 SUNRPC: Add KUnit tests RFC 3961 Key Derivation
@@ -1050,5 +1043,12 @@ ce27b24cbf7f62b74c4cbf807a06f42a14ccf981 llist: simplify __llist_del_all
 bd1e2670ebd10ad727b92ddd424cca270314f5ee io_uring: use __xchg if possible
 9b579a841f9032a231e9b14a23dc6699cbe6d311 qed: use __xchg if possible
 63802adef67c6ea9a7fe4ce19328cc6e37f0abd7 drm/i915/gt: use __xchg instead of internal helper
+466ac44730f71aaf310c1e36dbcd036f94aaffc1 locking/rwsem: Minor code refactoring in rwsem_mark_wake()
+8259f823693eb3ed1615e35c75b0936a30174f59 locking/rwsem: Enforce queueing when HANDOFF
+f101ebb27c0f49ca2dd09896b0e9a4a75149d90b locking/rwsem: Rework writer wakeup
+267a28af76423463d445812dc6138cacf74cd292 locking/rwsem: Simplify rwsem_writer_wake()
+b5d7b30c4777d72ee96428911bf55428671727f9 locking/rwsem: Split out rwsem_reader_wake()
+4167d80cc3c5d2c4df91985c85010d5e4d65fe83 locking/rwsem: Unify wait loop
+91deffc8269358475a1f06356cf382dae2a15c0d locking/rwsem: Use the force
 
---===============6227600897296158124==--
+--===============2925261031546197648==--
