@@ -1,21 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Sat, 11 Mar 2023 02:14:34 -0000
-Message-Id: <167850087492.22380.10247676185352176849@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Sat, 11 Mar 2023 02:21:59 -0000
+Message-Id: <167850131947.29146.4691278715574281887@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: c568a8de6bb1cdf86badf01a1645e2efb433db21
-    new: 127cd68563925577f7f27a5b17a788be18c577e5
+    old: 71582371a5ee09272b4b4b0a07fa6eb78c9d2f90
+    new: 27c30b9b449aaee3b85006b63e08b33016cf7333
     log: |
-         f94b9bed12e8244717512941494fe83c94773a58 net: sfp: add A2h presence flag
-         5daed426f012a1c0db0048339e359ee98a2c8752 net: sfp: only use soft polling if we have A2h access
-         127cd68563925577f7f27a5b17a788be18c577e5 Merge branch 'rework-sfp-a2-access-conditionals'
+         f624bb6fad23df3270580b4fcef415c6e7bf7705 wifi: nl80211: fix NULL-ptr deref in offchan check
+         b27f07c50a73e34eefb6b1030b235192b7ded850 wifi: nl80211: fix puncturing bitmap policy
+         ce04abc3fcc62cd5640af981ebfd7c4dc3bded28 wifi: mac80211: check basic rates validity
+         96c069508377547f913e7265a80fffe9355de592 wifi: cfg80211: fix MLO connection ownership
+         27c30b9b449aaee3b85006b63e08b33016cf7333 Merge tag 'wireless-2023-03-10' of git://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless
          
