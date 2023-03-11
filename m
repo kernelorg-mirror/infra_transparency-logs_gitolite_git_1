@@ -1,22 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Sat, 11 Mar 2023 00:40:06 -0000
-Message-Id: <167849520695.25339.4429640590862520504@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+Date: Sat, 11 Mar 2023 00:46:15 -0000
+Message-Id: <167849557529.30190.13338403026998431604@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+user: vudentz
 changes:
-  - ref: refs/heads/for-next
-    old: c1f9e14e3b676eb88fe1c9488c0b5f4fc9108a1c
-    new: 49b5300f1f8f2b542b31d63043c2febd13edbe3a
+  - ref: refs/heads/master
+    old: 048379740637f105075884228e4f35f8d5580c8e
+    new: 1c991f006035c5db11b62f8f327eb683e949431e
     log: |
-         c8e18754091479fac3f5b6c053c6bc4be0b7fb11 bpf: Support __kptr to local kptrs
-         738c96d5e2e3700b370f02ac84a9dc159ca81f25 bpf: Allow local kptrs to be exchanged via bpf_kptr_xchg
-         5d8d6634cccf1ebd0db4e220e52e7128b030c7b4 selftests/bpf: Add local kptr stashing test
-         49b5300f1f8f2b542b31d63043c2febd13edbe3a Merge branch 'Support stashing local kptrs with bpf_kptr_xchg'
+         a89c65ffd928cd991c8ab7846387124f90bd9530 Bluetooth: L2CAP: Fix responding with wrong PDU type
+         1c991f006035c5db11b62f8f327eb683e949431e Bluetooth: L2CAP: Delay identity address updates
          
