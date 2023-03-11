@@ -1,19 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Sat, 11 Mar 2023 12:18:45 -0000
-Message-Id: <167853712596.19893.13214791408120367507@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Sat, 11 Mar 2023 12:37:17 -0000
+Message-Id: <167853823770.31633.9747702113576743382@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/asoc-6.3
-    old: e329f27a234cf64d8068029fe5e3112c3d86744e
-    new: e041a2a550582106cba6a7c862c90dfc2ad14492
-    log: |
-         e041a2a550582106cba6a7c862c90dfc2ad14492 ASoC: hdmi-codec: only startup/shutdown on supported streams
-         
+  - ref: refs/heads/fileBPDkgw
+    old: 0000000000000000000000000000000000000000
+    new: 5bd73a162bc881dbb98ff9909dd865286852ee2b
+  - ref: refs/heads/fileEijM29
+    old: 0000000000000000000000000000000000000000
+    new: 03adaa404a2c8f9ae0528eb963e86a962a3a2f39
+  - ref: refs/heads/fileOxdAKU
+    old: 0000000000000000000000000000000000000000
+    new: 2d2998b84330899bf88a0414f3356869be4a69eb
+  - ref: refs/heads/v6_20230310_amit_kumar_mahapatra_add_support_for_stacked_parallel_memories
+    old: 0000000000000000000000000000000000000000
+    new: 06b5e53c8b2b016e06a53ab6f01006ca7bbfa5df
