@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1665574715989236049=="
+Content-Type: multipart/mixed; boundary="===============7586018172518073325=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/abelvesa/linux
-Date: Sat, 11 Mar 2023 21:22:00 -0000
-Message-Id: <167856972015.25869.12824436197890009894@gitolite.kernel.org>
+Date: Sat, 11 Mar 2023 21:22:29 -0000
+Message-Id: <167856974967.26079.7936090897307562161@gitolite.kernel.org>
 
---===============1665574715989236049==
+--===============7586018172518073325==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/abelvesa/linux
 user: abelvesa
 changes:
-  - ref: refs/heads/clk/imx
+  - ref: refs/heads/for-next
     old: 4e197ee880c24ecb63f7fe17449b3653bc64b03c
     new: fe15c26ee26efa11741a7b632e9f23b01aca4cc6
     log: revlist-4e197ee880c2-fe15c26ee26e.txt
 
---===============1665574715989236049==
+--===============7586018172518073325==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ f915322fe014c5c515119381e886faf07b3c9d31 Merge tag 'v6.3-p2' of git://git.kernel
 596ff4a09b8981790e15572e8e7bc904df5835e7 cpumask: re-introduce constant-sized cpumask optimizations
 fe15c26ee26efa11741a7b632e9f23b01aca4cc6 Linux 6.3-rc1
 
---===============1665574715989236049==--
+--===============7586018172518073325==--
