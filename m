@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-power-supply
-Date: Sun, 12 Mar 2023 22:28:50 -0000
-Message-Id: <167866013065.23341.13718742627205654223@gitolite.kernel.org>
+Date: Sun, 12 Mar 2023 22:32:14 -0000
+Message-Id: <167866033439.26033.3792128736303499249@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sre/linux-power-supply
 user: sre
 changes:
-  - ref: refs/heads/fixes
-    old: 47c29d69212911f50bdcdd0564b5999a559010d4
-    new: 06615d11cc78162dfd5116efb71f29eb29502d37
+  - ref: refs/heads/for-next
+    old: 65cc52f3a91e5734cd1653da3b02ada94cda3ff6
+    new: ef6d10568ca9ca622a867e5d059982251bbccd6b
     log: |
-         06615d11cc78162dfd5116efb71f29eb29502d37 power: supply: da9150: Fix use after free bug in da9150_charger_remove due to race condition
+         ef6d10568ca9ca622a867e5d059982251bbccd6b power: reset: qcom-pon: drop of_match_ptr for ID table
          
