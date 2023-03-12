@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Sun, 12 Mar 2023 15:57:19 -0000
-Message-Id: <167863663937.23964.7565536384429372360@gitolite.kernel.org>
+Date: Sun, 12 Mar 2023 16:18:59 -0000
+Message-Id: <167863793929.5703.8045592645199531524@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,10 +12,9 @@ repo: pub/scm/linux/kernel/git/jic23/iio
 user: jic23
 changes:
   - ref: refs/heads/testing
-    old: 504eb485589d146e99a53cd982b52fe1728fc19e
-    new: 2e467c4edc7b08c3e4ad37c5d69a372f3bc59fad
+    old: 2e467c4edc7b08c3e4ad37c5d69a372f3bc59fad
+    new: 9ee6bc3a035a5882888d6a73a2c13e2f4e65793f
     log: |
-         0088dd6869579f7022b226d1266e6dc23789ed41 iio: addac: ad74413r: fix Current Input, Loop Powered Mode
-         18462d080171962d5003b12a7360357fa09b6aad iio: imu: st_lsm6dsx: add support to ASM330LHB
-         2e467c4edc7b08c3e4ad37c5d69a372f3bc59fad dt-bindings: iio: imu: st_lsm6dsx: add asm330lhb
+         b29c49026c3c05a11f845dba17cad0b3ba06836d iio: light: max44009: add missing OF device matching
+         9ee6bc3a035a5882888d6a73a2c13e2f4e65793f iio: proximity: sx9500: Reference ACPI and OF ID data
          
