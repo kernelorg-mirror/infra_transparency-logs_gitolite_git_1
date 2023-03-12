@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0601004202173929351=="
+Content-Type: multipart/mixed; boundary="===============7104580612890409383=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Sun, 12 Mar 2023 21:28:20 -0000
-Message-Id: <167865650094.15454.3350855429185212434@gitolite.kernel.org>
+Date: Sun, 12 Mar 2023 21:28:43 -0000
+Message-Id: <167865652346.15659.17667035627299891063@gitolite.kernel.org>
 
---===============0601004202173929351==
+--===============7104580612890409383==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/next
     old: 8699d5244e37f8b3bf0e1deaa8e17f94130677b0
     new: f1324bbc4011ed8aef3f4552210fc429bcd616da
     log: revlist-8699d5244e37-f1324bbc4011.txt
 
---===============0601004202173929351==
+--===============7104580612890409383==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -756,4 +756,4 @@ d3d0cac69fc509ece28a267c093d2f1094f88dba Merge tag 'x86_urgent_for_v6.3_rc2' of 
 80a6c216b16d7f5c584d2148c2e4345ea4eb06ce tpm/eventlog: Don't abort tpm_read_log on faulty ACPI address
 f1324bbc4011ed8aef3f4552210fc429bcd616da tpm: disable hwrng for fTPM on some AMD designs
 
---===============0601004202173929351==--
+--===============7104580612890409383==--
