@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/efi/efi
-Date: Sun, 12 Mar 2023 22:26:51 -0000
-Message-Id: <167866001118.22666.10779001092473278253@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-power-supply
+Date: Sun, 12 Mar 2023 22:28:50 -0000
+Message-Id: <167866013065.23341.13718742627205654223@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/efi/efi
-user: ardb
+repo: pub/scm/linux/kernel/git/sre/linux-power-supply
+user: sre
 changes:
-  - ref: refs/heads/urgent
-    old: 3c66bb1918c262dd52fb4221a8d372619c5da70a
-    new: 09c95e9f04b3be41b34ced6d0e406911a835f518
+  - ref: refs/heads/fixes
+    old: 47c29d69212911f50bdcdd0564b5999a559010d4
+    new: 06615d11cc78162dfd5116efb71f29eb29502d37
     log: |
-         09c95e9f04b3be41b34ced6d0e406911a835f518 efi: earlycon: Reprobe after parsing config tables
+         06615d11cc78162dfd5116efb71f29eb29502d37 power: supply: da9150: Fix use after free bug in da9150_charger_remove due to race condition
          
