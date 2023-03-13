@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4595324846390906882=="
+Content-Type: multipart/mixed; boundary="===============4908966282404894446=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Mon, 13 Mar 2023 16:31:23 -0000
-Message-Id: <167872508379.28939.9997236004305696995@gitolite.kernel.org>
+Date: Mon, 13 Mar 2023 16:32:21 -0000
+Message-Id: <167872514154.29336.7404788657588353057@gitolite.kernel.org>
 
---===============4595324846390906882==
+--===============4908966282404894446==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/main
     old: bced3f7db95ff2e6ca29dc4d1c9751ab5e736a09
     new: 064d70527aaab23ef46c2481df706451f6814106
     log: revlist-bced3f7db95f-064d70527aaa.txt
 
---===============4595324846390906882==
+--===============4908966282404894446==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -64,4 +64,4 @@ cee4034a3db1d30c3243dd51506a9d4ab1a849fa mptcp: fix lockdep false positive in mp
 dee85ac02c1ac5420ebb9a92c6ba3ab0e03a3f2e Merge branch 'mptcp-fixes-for-6-3'
 064d70527aaab23ef46c2481df706451f6814106 Merge git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
 
---===============4595324846390906882==--
+--===============4908966282404894446==--
