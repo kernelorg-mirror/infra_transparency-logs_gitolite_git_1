@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5357814038833029979=="
+Content-Type: multipart/mixed; boundary="===============3208574845217966870=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Mon, 13 Mar 2023 11:28:35 -0000
-Message-Id: <167870691527.15762.7570460766843307040@gitolite.kernel.org>
+Date: Mon, 13 Mar 2023 11:30:54 -0000
+Message-Id: <167870705464.18218.10361057408811795446@gitolite.kernel.org>
 
---===============5357814038833029979==
+--===============3208574845217966870==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,167 +16,169 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: bot-stable-queue
 changes:
   - ref: refs/heads/queue/4.14
-    old: e9dbb6dfd665d9a6ba984f4d97d7a65a43def0b8
-    new: aa6e8d3b52adb17f8b9169b8bc12a51a3ce37255
+    old: aa6e8d3b52adb17f8b9169b8bc12a51a3ce37255
+    new: 6d7c9fcecdaacccc9c841384d42559414742a4b8
     log: |
-         79dfd67006116593b65d2ae1c6ac5bdd5eff54b5 fs: prevent out-of-bounds array speculation when closing a file descriptor
-         16556f60ad49fa97c627bb68fa5cf7f06cb3fd3c x86/CPU/AMD: Disable XSAVES on AMD family 0x17
-         13cbe1313e8df26a56d97531faa071015d823afb ext4: fix RENAME_WHITEOUT handling for inline directories
-         537b9705608349c14a5cd60a7edc25690f349d4f ext4: fix another off-by-one fsmap error on 1k block filesystems
-         620a71c2b7b528d4dd59845cec828b7e9485f1a9 ext4: move where set the MAY_INLINE_DATA flag is set
-         89e446d6c2cdc2442e895c3a4a8a5e79acee8fd7 ext4: fix WARNING in ext4_update_inline_data
-         5ece3907a25b1f6723b349a8ce6f00183ebc5a02 ext4: zero i_disksize when initializing the bootloader inode
-         aa6e8d3b52adb17f8b9169b8bc12a51a3ce37255 nfc: change order inside nfc_se_io error path
+         cf17ccbfd375428e01ddab4d2c77aacf08a3794d fs: prevent out-of-bounds array speculation when closing a file descriptor
+         0e640514bd82d036719e605d035a768abe75e6d6 x86/CPU/AMD: Disable XSAVES on AMD family 0x17
+         2d0af97bb5f34dbab2fff8e2c7a18091d52cf6be ext4: fix RENAME_WHITEOUT handling for inline directories
+         20652baa4d17e4564631f33a6989a3a222b81e7c ext4: fix another off-by-one fsmap error on 1k block filesystems
+         a3902c0528cbfae84c743329236a83d9b9bdab39 ext4: move where set the MAY_INLINE_DATA flag is set
+         a3b1775044d85ecc55149c4daa9fc09d74ed677e ext4: fix WARNING in ext4_update_inline_data
+         be815bb6c7929b013147f63c23d50b037279a60e ext4: zero i_disksize when initializing the bootloader inode
+         6d7c9fcecdaacccc9c841384d42559414742a4b8 nfc: change order inside nfc_se_io error path
          
   - ref: refs/heads/queue/4.19
-    old: 8e89d4d3fc2b04c527319a2542bbbe397d9a459e
-    new: 52a16afe2145884cd5f343d8152f785735b61629
+    old: 52a16afe2145884cd5f343d8152f785735b61629
+    new: be6790d764920d0aa09f7a812f200e56dacaeb75
     log: |
-         823b4f70174331dcf805f2e401c02add1cdee7d0 fs: prevent out-of-bounds array speculation when closing a file descriptor
-         f0b99d4ee9984284619369a55ee324de24cb1707 x86/CPU/AMD: Disable XSAVES on AMD family 0x17
-         e4783fc410444b63eecf8f7e9c883ff6bc462b2e ext4: fix RENAME_WHITEOUT handling for inline directories
-         482b6987404abd2e3469b9a716315935896e3cf7 ext4: fix another off-by-one fsmap error on 1k block filesystems
-         db06be237ec2af48f32134f682b9722cfbfec6c2 ext4: move where set the MAY_INLINE_DATA flag is set
-         06e01ed79c343f9df4839676f820b39bfc4ee599 ext4: fix WARNING in ext4_update_inline_data
-         aa11b4fc30f13639f9044d3ca9cbad875d9be238 ext4: zero i_disksize when initializing the bootloader inode
-         52a16afe2145884cd5f343d8152f785735b61629 nfc: change order inside nfc_se_io error path
+         4670fbe0579fef2dfe65a805daf3c3e724bd1140 fs: prevent out-of-bounds array speculation when closing a file descriptor
+         f1267ba3c300d984acebd1022cf4308e82ab6a03 x86/CPU/AMD: Disable XSAVES on AMD family 0x17
+         68451b823afde4e1f3fd4e59e6f96bf9797a36cd ext4: fix RENAME_WHITEOUT handling for inline directories
+         9dcbfa8134e6e8c65b443b076ac78f1dd7abc9e8 ext4: fix another off-by-one fsmap error on 1k block filesystems
+         ca700cada5bf8842f8c71a4c65845cac58af97ab ext4: move where set the MAY_INLINE_DATA flag is set
+         857a621fc99c7415d056e8c86d746ecc5e8d5e76 ext4: fix WARNING in ext4_update_inline_data
+         c5e5e9e0f692290f86994f6e5341cba816be9c9b ext4: zero i_disksize when initializing the bootloader inode
+         be6790d764920d0aa09f7a812f200e56dacaeb75 nfc: change order inside nfc_se_io error path
          
   - ref: refs/heads/queue/5.10
-    old: 0a46d31f2f156a3d1fd2ebfe16e19af46958b1ab
-    new: f524041c2f3c5670da5dabe210c676283a8869b6
-    log: revlist-0a46d31f2f15-f524041c2f3c.txt
+    old: f524041c2f3c5670da5dabe210c676283a8869b6
+    new: 71ac7544e32cc1891c74e2370ea0977efc5ed4c9
+    log: revlist-f524041c2f3c-71ac7544e32c.txt
   - ref: refs/heads/queue/5.15
-    old: a509cdad6c70d02adceaaad49514b8f088e2303d
-    new: 0d69d99f8a18e743154cf0e4b0815f6e44439bd3
-    log: revlist-a509cdad6c70-0d69d99f8a18.txt
+    old: 0d69d99f8a18e743154cf0e4b0815f6e44439bd3
+    new: 8074411de87824a42426bc0cb25078e89da7dbe4
+    log: revlist-0d69d99f8a18-8074411de878.txt
   - ref: refs/heads/queue/5.4
-    old: 96e5e2e4fba48f552f27e14ac4774e9782bd0e5e
-    new: b17e3ed5a0dd3beabfcdfdbd99da5537c8eda092
+    old: b17e3ed5a0dd3beabfcdfdbd99da5537c8eda092
+    new: a8d2a1ed97d39ab53dee265148c469f77f69c513
     log: |
-         81fa9909dba7aef73c6e8fa861e0bc69a6520c7b fs: prevent out-of-bounds array speculation when closing a file descriptor
-         ea16156b31c845f2bfe07ff56420d6f7730b7712 x86/CPU/AMD: Disable XSAVES on AMD family 0x17
-         f114d019d76c670065d2df4cbf4a082698a5bfb6 drm/connector: print max_requested_bpc in state debugfs
-         78045ad56c7079a9ce04363d2facae0b230ae842 ext4: fix RENAME_WHITEOUT handling for inline directories
-         a91d252d231dcc4d4f96830f448ab80af6985e7e ext4: fix another off-by-one fsmap error on 1k block filesystems
-         0dd6af64237986bbc91c5b152ac398a5f9f7f1ef ext4: move where set the MAY_INLINE_DATA flag is set
-         fbd0f9350e3d08a032bf53fa712c210a3e56a93a ext4: fix WARNING in ext4_update_inline_data
-         a39282c5a57d9189c4504e8537b3df5e9541babe ext4: zero i_disksize when initializing the bootloader inode
-         b17e3ed5a0dd3beabfcdfdbd99da5537c8eda092 nfc: change order inside nfc_se_io error path
+         ef96045deeb9e5588c153d98cc450870c6912005 fs: prevent out-of-bounds array speculation when closing a file descriptor
+         ab8b0aab29fa742a69186ef80dc2ff78a96c2433 x86/CPU/AMD: Disable XSAVES on AMD family 0x17
+         d7f54417221a6d431dae508adf862793450bcccf drm/connector: print max_requested_bpc in state debugfs
+         7b2c5c3d9eba9875e3495cf093e4e8d180d04f96 ext4: fix RENAME_WHITEOUT handling for inline directories
+         44e629f6abbdc4e373db574d6e83b60b52ac2fd2 ext4: fix another off-by-one fsmap error on 1k block filesystems
+         88e71988701db95abd36dceb071a50874185e52a ext4: move where set the MAY_INLINE_DATA flag is set
+         38507bee6b6b1ddb92dd305c155d1df74eee492d ext4: fix WARNING in ext4_update_inline_data
+         cb037ce23720e633393f4d3d6ae0c6ed4b6fe508 ext4: zero i_disksize when initializing the bootloader inode
+         a8d2a1ed97d39ab53dee265148c469f77f69c513 nfc: change order inside nfc_se_io error path
          
   - ref: refs/heads/queue/6.1
-    old: a77429af97b2d2893ed29ce4f9842ca50bce4217
-    new: f9f260022efe6d928f10644970a0ce6290967d06
-    log: revlist-a77429af97b2-f9f260022efe.txt
+    old: f9f260022efe6d928f10644970a0ce6290967d06
+    new: 3045f753bfa523de07c28076f4b0820a16e79ebb
+    log: revlist-f9f260022efe-3045f753bfa5.txt
   - ref: refs/heads/queue/6.2
-    old: 07ad148bd22eab52d42527684fd94f3306b4ab50
-    new: 7033b20a88f6f3880088d7eb1c7068962f3b8234
-    log: revlist-07ad148bd22e-7033b20a88f6.txt
+    old: 7033b20a88f6f3880088d7eb1c7068962f3b8234
+    new: e692549c2a7808129bfe279f50f501d58b2a366e
+    log: revlist-7033b20a88f6-e692549c2a78.txt
 
---===============5357814038833029979==
+--===============3208574845217966870==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0a46d31f2f15-f524041c2f3c.txt
+Content-Disposition: attachment; filename=revlist-f524041c2f3c-71ac7544e32c.txt
 
-233946b99279891e50d30eda13ffb373977095e9 fs: prevent out-of-bounds array speculation when closing a file descriptor
-271fdae297c61746a35d709cc472484edd0cc20b fork: allow CLONE_NEWTIME in clone3 flags
-121a270d0ac1a61749731840c30855f323d0c30b x86/CPU/AMD: Disable XSAVES on AMD family 0x17
-bc67ef852537224ecc3999b8ebe47a35b6f90891 drm/amdgpu: fix error checking in amdgpu_read_mm_registers for soc15
-108d603624e9764b469c31d7420d71c3e358006a drm/connector: print max_requested_bpc in state debugfs
-5bdbb07d51e765679e862f442032e0a9efbececf ext4: fix cgroup writeback accounting with fs-layer encryption
-aa3bdf8f4482b021a69e172b16ce41f22e6592a6 ext4: fix RENAME_WHITEOUT handling for inline directories
-e5e60be6bbb75d8f7f39fbe33be39a6a3d728104 ext4: fix another off-by-one fsmap error on 1k block filesystems
-a459dc186484376d9d18a7e82a603caf84ad9f35 ext4: move where set the MAY_INLINE_DATA flag is set
-1b273147c4e26c91cee23adfbcbaad01aedd1406 ext4: fix WARNING in ext4_update_inline_data
-687a1b2baafa53ebe7d5e19dfef8330cbcc5665f ext4: zero i_disksize when initializing the bootloader inode
-f524041c2f3c5670da5dabe210c676283a8869b6 nfc: change order inside nfc_se_io error path
+f95f2fae05cca37b720e98d9d400b8b14a42e525 fs: prevent out-of-bounds array speculation when closing a file descriptor
+b92ce30777e7f3de39f6360cf2082d7521c7dd94 fork: allow CLONE_NEWTIME in clone3 flags
+face4b12174faca59c402df7a53f7e91aa95314c x86/CPU/AMD: Disable XSAVES on AMD family 0x17
+5ec5e4fe0ba9c983207205a15a35015865fe695a drm/amdgpu: fix error checking in amdgpu_read_mm_registers for soc15
+2e97b9fbbe4b559580b3c1411e7966049353966d drm/connector: print max_requested_bpc in state debugfs
+16caab096cccbfd7271f7cca5fc03647e635daea ext4: fix cgroup writeback accounting with fs-layer encryption
+7c3fcbef16e9d71762f98bf78ca52cd7a37c7447 ext4: fix RENAME_WHITEOUT handling for inline directories
+b542833bc794098da4d6252e814d53c0375abf63 ext4: fix another off-by-one fsmap error on 1k block filesystems
+7a08dcf6b4b06b7fde5339c0e0ce12ed97574485 ext4: move where set the MAY_INLINE_DATA flag is set
+f0732985c606a5e78a5a683033f659125bd149d6 ext4: fix WARNING in ext4_update_inline_data
+0b9c88a065816b29e937ae33bd46efabf4a011aa ext4: zero i_disksize when initializing the bootloader inode
+71ac7544e32cc1891c74e2370ea0977efc5ed4c9 nfc: change order inside nfc_se_io error path
 
---===============5357814038833029979==
+--===============3208574845217966870==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a509cdad6c70-0d69d99f8a18.txt
+Content-Disposition: attachment; filename=revlist-0d69d99f8a18-8074411de878.txt
 
-2c4338678c094f4184495ee02c36d630a083378e fs: prevent out-of-bounds array speculation when closing a file descriptor
-54ab8d69f15ece8bb58d9f2a5ba5da703a18009d btrfs: fix percent calculation for bg reclaim message
-aa162b5f15e45d9526bdf59c6304e89c7ccc2f9b perf inject: Fix --buildid-all not to eat up MMAP2
-4f8f71f9d5a9f96ae10ebba758f21086824c9da6 fork: allow CLONE_NEWTIME in clone3 flags
-fa314224d3d127dad0d61b783fa4dcb1333def0d x86/CPU/AMD: Disable XSAVES on AMD family 0x17
-d351871d7cf6aaef71c0a9fc25d8f8996451dde0 drm/amdgpu: fix error checking in amdgpu_read_mm_registers for soc15
-09816add36b974ec2f1113cfb684d854a995ae14 drm/connector: print max_requested_bpc in state debugfs
-ef68a657012c71892ea1f245c756de975a403b11 staging: rtl8723bs: Pass correct parameters to cfg80211_get_bss()
-38ae8c93bbc3ac9ff6220e89d7a3f6dd64a1c6c9 ext4: fix cgroup writeback accounting with fs-layer encryption
-ec3e6afd4055aa383af9363e72e475ce6a59fa3e ext4: fix RENAME_WHITEOUT handling for inline directories
-50c7772c17b89b383c7b6c638183a987c4dccacb ext4: fix another off-by-one fsmap error on 1k block filesystems
-9f03d5c6305a0f7aea6e2d816a82e53c924702fe ext4: move where set the MAY_INLINE_DATA flag is set
-0aacf52d79f9bbc028152d4a67ac52861b1b6ce9 ext4: fix WARNING in ext4_update_inline_data
-3bd57d69bd18dd32e17e11e82a57b41a164e0368 ext4: zero i_disksize when initializing the bootloader inode
-be2aae33ba413bef6ea83783f652840c65f47d61 nfc: change order inside nfc_se_io error path
-0d69d99f8a18e743154cf0e4b0815f6e44439bd3 irqdomain: Fix mapping-creation race
+9590da4e41a561eb21417be24b0f8fcc0fede467 fs: prevent out-of-bounds array speculation when closing a file descriptor
+1ecd008d16cde36b1bba9361594dea612299ba87 btrfs: fix percent calculation for bg reclaim message
+e68ecc9b0e4e34dac82bc3de39809e5c7a4ae189 perf inject: Fix --buildid-all not to eat up MMAP2
+441fba770c0d026926f440141ba0020645b6a8b1 fork: allow CLONE_NEWTIME in clone3 flags
+9e65759764dbeb6c37d27ef06de7c21f40fe5734 x86/CPU/AMD: Disable XSAVES on AMD family 0x17
+1d3590358cbb4de1b873c93463cb553438811dba drm/amdgpu: fix error checking in amdgpu_read_mm_registers for soc15
+6f6f8ae8306010dae8673ae5ea640742344ba6a8 drm/connector: print max_requested_bpc in state debugfs
+c3792d5c1cc8f80a87529433a4fd6aee767109ab staging: rtl8723bs: Pass correct parameters to cfg80211_get_bss()
+02d6a3cd4a6292304ef3861a0b6d100ba0fab86d ext4: fix cgroup writeback accounting with fs-layer encryption
+8c96840f8af90b7bb8bcf89997b1758a2d7b473d ext4: fix RENAME_WHITEOUT handling for inline directories
+3873ffdc5c77e308b660ec41b7ef6d838857689d ext4: fix another off-by-one fsmap error on 1k block filesystems
+ec35ae30ebc86d6f740b464261577fc48e63a16b ext4: move where set the MAY_INLINE_DATA flag is set
+cb46421127f11daaf2419a54d5bfbf4a7ed2dcde ext4: fix WARNING in ext4_update_inline_data
+e65a2a928dc6d8f9b3200e4a5a9c9314f51def24 ext4: zero i_disksize when initializing the bootloader inode
+91d986daff2ff811c91d2975d62f1206d4403cce nfc: change order inside nfc_se_io error path
+8074411de87824a42426bc0cb25078e89da7dbe4 irqdomain: Fix mapping-creation race
 
---===============5357814038833029979==
+--===============3208574845217966870==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a77429af97b2-f9f260022efe.txt
+Content-Disposition: attachment; filename=revlist-f9f260022efe-3045f753bfa5.txt
 
-838dea130cca07a6908e88131ff36be8096cba38 fs: prevent out-of-bounds array speculation when closing a file descriptor
-b97df926cf43ed7fd3d4312dfa82dc40114f6fb9 btrfs: fix unnecessary increment of read error stat on write error
-cf4f24845817a407e89b9d45de36b191a9a53044 btrfs: fix percent calculation for bg reclaim message
-6eb20a1f6e661ca89e6cf884ab76ddfd570609bd io_uring/uring_cmd: ensure that device supports IOPOLL
-06ccbcf2dfa35f35e03fcda35475648f7ba6f093 erofs: fix wrong kunmap when using LZMA on HIGHMEM platforms
-85b79fff86602c6576a20c33e96f69418f7ea8f9 perf inject: Fix --buildid-all not to eat up MMAP2
-7b984bc6b642696a15154b1dbf9f705990948175 fork: allow CLONE_NEWTIME in clone3 flags
-170104751ed7b55d3e776c4e5cefcbb1a54e8521 RISC-V: Stop emitting attributes
-40a01313564c4461f48608761f75291a4fbdd2ca x86/CPU/AMD: Disable XSAVES on AMD family 0x17
-35be7590f3b0657b3adde6403e31fa6bf14da21d drm/amdgpu: fix error checking in amdgpu_read_mm_registers for soc15
-adde4bda7b3daf6dbefd4383fdc8b0274439ab04 drm/amdgpu: fix error checking in amdgpu_read_mm_registers for soc21
-b8845e777cd4a5552a324cda0b42556d47d6cb22 drm/amdgpu: fix error checking in amdgpu_read_mm_registers for nv
-5ddfac9a83a85c28eadac23b86a89be472820469 drm/display: Don't block HDR_OUTPUT_METADATA on unknown EOTF
-7a16d4c727faacdcb201acb714e85defb35441df drm/connector: print max_requested_bpc in state debugfs
-6d27a0b59a4e429e343c0360cef3910e7576f143 staging: rtl8723bs: Fix key-store index handling
-e829742fa20830b3a542db1896294ce6f8042662 staging: rtl8723bs: Pass correct parameters to cfg80211_get_bss()
-8823957d03cfff9f64a8e38f70c94281613f1fed ext4: fix cgroup writeback accounting with fs-layer encryption
-6e7d9fec213c3448347b82f4a3224dae10888a35 ext4: fix RENAME_WHITEOUT handling for inline directories
-f2d3ddf5f1f52a4d0c441de0548a7fceff95217c ext4: fix another off-by-one fsmap error on 1k block filesystems
-14654a81ccf02be858f167710348c1524cae202c ext4: move where set the MAY_INLINE_DATA flag is set
-fe68a66a09dc60dbe766dac24c42bc4a5daee7b7 ext4: fix WARNING in ext4_update_inline_data
-99cf585e5c1978eab2dedf96f8fe3f977ff1503a ext4: zero i_disksize when initializing the bootloader inode
-9625744a648c1c5e8193de9eb6ffade1c86ca208 HID: core: Provide new max_buffer_size attribute to over-ride the default
-f9f260022efe6d928f10644970a0ce6290967d06 HID: uhid: Over-ride the default maximum data buffer value with our own
+a3695b32eda4a6ed853b767de4806fae68263af7 fs: prevent out-of-bounds array speculation when closing a file descriptor
+c54bb53e2a4b8c85b64ecf06af0ce88327d8a535 btrfs: fix unnecessary increment of read error stat on write error
+3b8182dd68692f7bc304184391e408bb39e1cc7a btrfs: fix percent calculation for bg reclaim message
+d30442f31b9a8efab840311ec677d1ff36ebd688 io_uring/uring_cmd: ensure that device supports IOPOLL
+bf3a70d66dba2abde36b2ad8b0486449148a37d0 erofs: fix wrong kunmap when using LZMA on HIGHMEM platforms
+d3d9dc1f46999b0e2ce31f9d6949b4942aeb3cfa perf inject: Fix --buildid-all not to eat up MMAP2
+8f210d25a4dc834826317956e0cda79b10ebb31e fork: allow CLONE_NEWTIME in clone3 flags
+ea1ee6eb1cd761956db20105f5b96e7290c97368 RISC-V: Stop emitting attributes
+4d0b49f136c047941f2990e2045a1731dafa501c x86/CPU/AMD: Disable XSAVES on AMD family 0x17
+b9b4751f5ba42bb90902b197c937a997e80fa8b1 drm/amdgpu: fix error checking in amdgpu_read_mm_registers for soc15
+b5c817c574c4d8010e4ab123822774a82a39adc7 drm/amdgpu: fix error checking in amdgpu_read_mm_registers for soc21
+10e0375212292e917d1bb340c5261ab8f5e3bdaa drm/amdgpu: fix error checking in amdgpu_read_mm_registers for nv
+7a989915fde21337cab5aadf5fdc1335ce5a78f7 drm/display: Don't block HDR_OUTPUT_METADATA on unknown EOTF
+4030e93ed12bbc4d7e638472d73ebbafaee604af drm/connector: print max_requested_bpc in state debugfs
+6e3160d28b03142a566d72a0b6fd51af36098d76 staging: rtl8723bs: Fix key-store index handling
+d8f7daa0d96e8c8444e35e68ac285c77541bcf0c staging: rtl8723bs: Pass correct parameters to cfg80211_get_bss()
+38d467d0f1819a8dccc201e9707c217ce8f2b1f1 ext4: fix cgroup writeback accounting with fs-layer encryption
+efbb296c288ecec6068c2ee9a0af44dc244dd02b ext4: fix RENAME_WHITEOUT handling for inline directories
+5296edb19d66d49ee815f23f4d3b3b1ea9ddb4d1 ext4: fix another off-by-one fsmap error on 1k block filesystems
+c0e4b197e5c778093c2a3a75224f67bcf3e15456 ext4: move where set the MAY_INLINE_DATA flag is set
+87c642faa19060d95edc843cd5523b39d705efb5 ext4: fix WARNING in ext4_update_inline_data
+b87a6466007149c4d99f156a1d2ccfb45b994dad ext4: zero i_disksize when initializing the bootloader inode
+65d82f85e1cb1bbd1109ce455b1542456a1c5cd0 HID: core: Provide new max_buffer_size attribute to over-ride the default
+a933abdcc2ef563c690174c20598a31c5097fe8d HID: uhid: Over-ride the default maximum data buffer value with our own
+3045f753bfa523de07c28076f4b0820a16e79ebb nfc: change order inside nfc_se_io error path
 
---===============5357814038833029979==
+--===============3208574845217966870==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-07ad148bd22e-7033b20a88f6.txt
+Content-Disposition: attachment; filename=revlist-7033b20a88f6-e692549c2a78.txt
 
-2ecfc3a695e60715bea65d4e0090fe44296da577 fs: prevent out-of-bounds array speculation when closing a file descriptor
-ad6ca6fbb1c747c05ecf927adaf1e91f1d1c9e1e btrfs: fix unnecessary increment of read error stat on write error
-30c2da45150462f9ca74a45c375108789e32207e btrfs: fix percent calculation for bg reclaim message
-0dc4a8bef8e183674c6e87a54fcf9b8a0709e13e btrfs: fix block group item corruption after inserting new block group
-133bf6e485d6f420549c12c58df89b32452886bc io_uring/uring_cmd: ensure that device supports IOPOLL
-dab9c69014b95c1217c4115531aa7037c1550bee erofs: fix wrong kunmap when using LZMA on HIGHMEM platforms
-9afea24f287dea05dd311b56f2bb0e2536a0a12d perf inject: Fix --buildid-all not to eat up MMAP2
-79f5ea289872b775e14da5bec82c6db00ab0c94b fork: allow CLONE_NEWTIME in clone3 flags
-525fac4f0e899f28e683d047e52cef571259962e RISC-V: Stop emitting attributes
-70233f8ba327beae383da4d716184f547c56c674 thermal: intel: int340x: processor_thermal: Fix deadlock
-2da5690175932ecf90647997fc5c3b5e7ff41213 x86/CPU/AMD: Disable XSAVES on AMD family 0x17
-401a687fd288af3cc1a9e32acd63f34a646cb024 drm/amdgpu: fix error checking in amdgpu_read_mm_registers for soc15
-c34b99820a0b362875eb67b36314a2915a236bc9 drm/amdgpu: fix error checking in amdgpu_read_mm_registers for soc21
-7da2ce06cf67af31055aaa159a45970206789a91 drm/amdgpu: fix error checking in amdgpu_read_mm_registers for nv
-c024b350ff708265a6c234c90331754e682f93a5 drm/display: Don't block HDR_OUTPUT_METADATA on unknown EOTF
-39294b96563877dd0b5a0a52ff1e00b662f2c904 drm/connector: print max_requested_bpc in state debugfs
-45a5be8fe58a9d0bc2ebdc1ef6537d0aa679004f drm/msm/adreno: fix runtime PM imbalance at unbind
-2cc87dafbef24b286b639cc7bf7def68d555fb44 staging: rtl8723bs: Fix key-store index handling
-e09c63b3ed8d3335089fdbcb1a5422d7073a6d3a staging: rtl8723bs: Pass correct parameters to cfg80211_get_bss()
-eca759b01046d389e0554cf5233a46ee07146522 ext4: fix cgroup writeback accounting with fs-layer encryption
-94c2c7a560056b25b46258ea6ec285aceba38b25 ext4: fix RENAME_WHITEOUT handling for inline directories
-7c51cead1478ee68495b41e7bc0bde71400078c6 ext4: fix another off-by-one fsmap error on 1k block filesystems
-7fa86af367f3f3f6ddce49c3b6a7d3cc9770d109 ext4: move where set the MAY_INLINE_DATA flag is set
-ae81eaf2e4b3477454920cf0965c0646be73707a ext4: fix WARNING in ext4_update_inline_data
-73a032ac896711884f2fb6ed896027f93a5fc5b3 ext4: zero i_disksize when initializing the bootloader inode
-c1ad03a6ec0b1b259732beeb357c073e01f5726c HID: core: Provide new max_buffer_size attribute to over-ride the default
-7033b20a88f6f3880088d7eb1c7068962f3b8234 HID: uhid: Over-ride the default maximum data buffer value with our own
+796f4c8b3eae0c17bf243ad142917a269d8e5ec1 fs: prevent out-of-bounds array speculation when closing a file descriptor
+52799f27e89bb83389a946536167dbaba4956ccb btrfs: fix unnecessary increment of read error stat on write error
+85225c84d7781c4a2c42c1979d2e667640ece004 btrfs: fix percent calculation for bg reclaim message
+c012999836fa2cbe3368590a6c3e53b2bcfbf8b4 btrfs: fix block group item corruption after inserting new block group
+02ff0fb0c29e6eaef61db3b99e3876b01fc45c3a io_uring/uring_cmd: ensure that device supports IOPOLL
+04c21c9de1d90cae9a6e84d726b17a155b7a4241 erofs: fix wrong kunmap when using LZMA on HIGHMEM platforms
+edf10cec0aa9cec00b22b46da9ce3998c65ffb35 perf inject: Fix --buildid-all not to eat up MMAP2
+888373f5087dc032b9a5795791294ef8db8c7bf3 fork: allow CLONE_NEWTIME in clone3 flags
+ff6625bda490f21b33f99727be676dbd9bc18e02 RISC-V: Stop emitting attributes
+27e51cda39d83e39a3c811eddc1b6d9eb6698eff thermal: intel: int340x: processor_thermal: Fix deadlock
+add1ce6be29625c6656a680b78b7624a1c618603 x86/CPU/AMD: Disable XSAVES on AMD family 0x17
+c8a491a43b4718835330e90be2b99a1bc819046b drm/amdgpu: fix error checking in amdgpu_read_mm_registers for soc15
+8f2242b334a95a291631977562de264f8e385b8d drm/amdgpu: fix error checking in amdgpu_read_mm_registers for soc21
+a8c5eb34a835caf39942dda09b8514c6acebb27a drm/amdgpu: fix error checking in amdgpu_read_mm_registers for nv
+4572bc050a00756512c9eba3e4330687c78107d5 drm/display: Don't block HDR_OUTPUT_METADATA on unknown EOTF
+18339d65fc6c3c0bfb4c5ad0c7b6a44790709750 drm/connector: print max_requested_bpc in state debugfs
+695f4b00de7d49ca8342ee5d1d9608b273c087df drm/msm/adreno: fix runtime PM imbalance at unbind
+97c10c0809c54c2961a14041f240e7d752d46ef8 staging: rtl8723bs: Fix key-store index handling
+e5045cbf5804e1b4f742d99ed98ff88b6b7eec44 staging: rtl8723bs: Pass correct parameters to cfg80211_get_bss()
+3870634ac30d8ac5872fcce039e421a286056ff0 ext4: fix cgroup writeback accounting with fs-layer encryption
+a1ee14deb4aa232f16ee975913a9d8aad69c0c82 ext4: fix RENAME_WHITEOUT handling for inline directories
+9cfa4b6aff04bb16d943903c746a2f09997a9113 ext4: fix another off-by-one fsmap error on 1k block filesystems
+70c1d231cd595cf8b53164baab480e441d8be18b ext4: move where set the MAY_INLINE_DATA flag is set
+d08f94fff543b3d253135e49cb7d0e2de3f15b53 ext4: fix WARNING in ext4_update_inline_data
+c99ff402b4fef16435fabb00ea2f0bcc80a264e7 ext4: zero i_disksize when initializing the bootloader inode
+d31da42723aab02444597ef67de9368265ddedb5 HID: core: Provide new max_buffer_size attribute to over-ride the default
+c72b435323cf70b4c33f6b9ad874ea3cee824832 HID: uhid: Over-ride the default maximum data buffer value with our own
+e692549c2a7808129bfe279f50f501d58b2a366e nfc: change order inside nfc_se_io error path
 
---===============5357814038833029979==--
+--===============3208574845217966870==--
