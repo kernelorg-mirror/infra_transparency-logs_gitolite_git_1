@@ -1,56 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============5058020412292233013=="
+Content-Type: multipart/mixed; boundary="===============4090046909048614605=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Mon, 13 Mar 2023 18:19:50 -0000
-Message-Id: <167873159059.4180.1382278495449982087@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Mon, 13 Mar 2023 18:20:12 -0000
+Message-Id: <167873161270.5950.12300231020828808215@gitolite.kernel.org>
 
---===============5058020412292233013==
+--===============4090046909048614605==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/spi-6.3
+  - ref: refs/heads/for-linus
     old: 8ca09d5fa3549d142c2080a72a4c70ce389163cd
     new: eeac8ede17557680855031c6f305ece2378af326
     log: revlist-8ca09d5fa354-eeac8ede1755.txt
-  - ref: refs/heads/spi-6.4
-    old: 7d4ae72edba715d8e2dbfb3851879d354d13a7b9
+  - ref: refs/heads/for-next
+    old: 2a87c2bbb7c5ba53a0c7832184f58ae7cae15537
     new: 4d8ff713e684ea58111a33ea7df2e7ddc30683cc
-    log: revlist-7d4ae72edba7-4d8ff713e684.txt
+    log: revlist-2a87c2bbb7c5-4d8ff713e684.txt
 
---===============5058020412292233013==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1678731588 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1678731588-b1b5fa1ac67227a6f5d76edb0d9c576a2c88524c
-
-8ca09d5fa3549d142c2080a72a4c70ce389163cd eeac8ede17557680855031c6f305ece2378af326 refs/heads/spi-6.3
-7d4ae72edba715d8e2dbfb3851879d354d13a7b9 4d8ff713e684ea58111a33ea7df2e7ddc30683cc refs/heads/spi-6.4
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmQPaUQACgkQJNaLcl1U
-h9AiUQf/aT3WrDmrG4mM8AWoUziFEDDSAexc8g9wUhpeLInQnZC5WImEUR39s01v
-oG31OKln9KALPUl7ubsxd8CjrEGettjQhih14a/S23rMNCXR5Iey0TldViv3VkDA
-9UmmZGxiOOV0/MslAxYxzueUfPOpz3WujpoOTSHV2fwpjazXlyq/tbpsIJ6UBgeh
-byayb5hUvhRpo4+xuz+VSvM62YpNeXH7jxdbSs06WR4kFESyHhfcE5MxSW7tiZEj
-bxiSCT8Zjcu3r/o3nkw3YRGf0ykg22FJclRxPMTY3FM+3vVPVVYo3xuv7Ff9FsS0
-a8HI0lanFRaXSNLF5x8g3YRhKAyHww==
-=ebfX
------END PGP SIGNATURE-----
-
---===============5058020412292233013==
+--===============4090046909048614605==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -337,11 +311,11 @@ c4ecd87f75ec4d5ac3006ef21ce07e812982e46e Merge tag 'tpm-v6.3-rc3' of git://git.k
 79d1ed5ca7db67d48e870c979f0e0f6b0947944a wifi: cfg80211: Partial revert "wifi: cfg80211: Fix use after free for wext"
 eeac8ede17557680855031c6f305ece2378af326 Linux 6.3-rc2
 
---===============5058020412292233013==
+--===============4090046909048614605==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-7d4ae72edba7-4d8ff713e684.txt
+Content-Disposition: attachment; filename=revlist-2a87c2bbb7c5-4d8ff713e684.txt
 
 7245e629dcaaf308f1868aeffa218e9849c77893 drm/cirrus: NULL-check pipe->plane.state->fb in cirrus_pipe_update()
 3638a820c5c3b52f327cebb174fd4274bee08aa7 drm/nouveau/kms/nv50: fix nv50_wndw_new_ prototype
@@ -452,13 +426,11 @@ c06016a02a6e316d861f7dddd4b70419a47ded2f btrfs: handle btrfs_del_item errors in 
 98e8d36a26c2ed22f78316df7d4bf33e554b9f9f btrfs: fix unnecessary increment of read error stat on write error
 95cd356ca23c3807b5f3503687161e216b1c520d btrfs: fix percent calculation for bg reclaim message
 e4cc1483f35940c9288c332dd275f6fad485f8d2 btrfs: fix extent map logging bit not cleared for split maps after dropping range
-80c16b2b121fbc3380dbffa9bab7559acbaaa2ed cpumask: Fix typo nr_cpumask_size --> nr_cpumask_bits
 294635a8165a31408a8b3a24f9c74849ca3d8701 bpf, test_run: fix &xdp_frame misplacement for LIVE_FRAMES
 66305069eb6d17d9190cbcd196f3f7487df47ae8 Merge tag 'drm-misc-fixes-2023-02-23' of git://anongit.freedesktop.org/drm/drm-misc into drm-fixes
 9b459804ff9973e173fabafba2a1319f771e85fa btf: fix resolving BTF_KIND_VAR after ARRAY, STRUCT, UNION, PTR
 dfdd608c3b365f0fd49d7e13911ebcde06b9865b selftests/bpf: check that modifier resolves after pointer
 32dfc59e43019e43deab7afbfff37a2f9f17a222 Merge branch 'fix resolving VAR after DATASEC'
-8ca09d5fa3549d142c2080a72a4c70ce389163cd cpumask: fix incorrect cpumask scanning result checks
 06a1574b94ee5272789eaea05a5bdddedea7cc0d tools headers UAPI: Sync linux/perf_event.h with the kernel sources
 5b201a82cd9d0945d70562974ea6ad8e3b1861b5 perf tools: Add Adrian Hunter to MAINTAINERS as a reviewer
 58aac3a2ef414fea6d7fdf823ea177744a087d13 net: phy: smsc: fix link up detection in forced irq mode
@@ -639,4 +611,4 @@ edfa970370a759c2c6a38b2884887937b1aea552 spi: rspi: Mark OF related data as mayb
 0762875674b969e35371ec5fe4b594d7a92ab364 spi: nxp-flexspi: Add i.MX platform dependency
 4d8ff713e684ea58111a33ea7df2e7ddc30683cc spi: struct spi_device constification
 
---===============5058020412292233013==--
+--===============4090046909048614605==--
