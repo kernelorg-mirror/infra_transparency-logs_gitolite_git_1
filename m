@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1448432242955125724=="
+Content-Type: multipart/mixed; boundary="===============8119249889780892948=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Mon, 13 Mar 2023 07:39:36 -0000
-Message-Id: <167869317662.5341.9913708374241962148@gitolite.kernel.org>
+Date: Mon, 13 Mar 2023 07:39:41 -0000
+Message-Id: <167869318121.5456.16949192593125047491@gitolite.kernel.org>
 
---===============1448432242955125724==
+--===============8119249889780892948==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: fe15c26ee26efa11741a7b632e9f23b01aca4cc6
+  - ref: refs/heads/staging-linus
+    old: fdf6c2309f425509cddd002f278c650ad0b7e34b
     new: eeac8ede17557680855031c6f305ece2378af326
-    log: revlist-fe15c26ee26e-eeac8ede1755.txt
+    log: revlist-fdf6c2309f42-eeac8ede1755.txt
 
---===============1448432242955125724==
+--===============8119249889780892948==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1678693175 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1678693180 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1678693175-2460fc78c2acb40de9b535ce15f738b6dad6a0ba
+nonce 1678693179-c45792bf99e3718d3e0a11049bce0cc6977d81b4
 
-fe15c26ee26efa11741a7b632e9f23b01aca4cc6 eeac8ede17557680855031c6f305ece2378af326 refs/heads/main
+fdf6c2309f425509cddd002f278c650ad0b7e34b eeac8ede17557680855031c6f305ece2378af326 refs/heads/staging-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQO0zgbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+HukQAJ3CiW9C9Y1ZA88PMPFe
-z/Zovau5CdXaQGyKBa6aMYZgYj/qzP98bfWuGppQHt3KphdNnAKw3HHuTV2kc4QC
-L2LmDs2acC1a+3syQibs+uRKW+HwXax09zaTnvTHTjPZY5KTwhpOF3xvimwHzhOR
-QAa5zM+1cVSmdLehtFP0gB7MMJ+3VQbs+h54u1SXRuFbdL0d5xp1HzxakORjfwhO
-iwJSlRhpAYqA15Tb1g4wtwC4HCzG8/g7d0HmoGnGTPC+sUht16iiPZHscgJ70LNY
-W/GjrFN0z+FO94nFf35hjk/iuetzkgTbdi043drRokXC1jLSsSRGW+nKepitYLGc
-UUgqU9yCAP3sk+6L9RNkE6XQz/zG9Tww+0OvsiAigtofR/hugBeKlGnYOCqCbQEw
-b4aSf19VlMStHP/AFOyFmokjnSp/UcbpKfWSJCMvd6HHRHk9GhYHvC3f1enjkSHH
-BR1ILumOKQPr9oFPOoJMjI1qcl1WIvkVYWpV9lJfAyHO2yhIAEZPmd844gpZ114E
-Y5xYaPO336ExDzogzB8QlZIXiRO1v5RaPp95gy89ZND3x2PpQailz7BdxFYtme5y
-bA3vZF97fOxnLQJ7duuN2O95xa67cdQrwZwOW5xf1oYY42TbFA92vUtjZlALoLTX
-YHWNA/jgXJA7uymCp7Zp0pof
-=ouC8
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQO0zwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+5MgP/2StGJduMxuUbADUNVD3
+aSo/OK5r+JVTVqGsYxzASipjqiFObl/AUahxRM8JlPsPzzSn/o+FEhRUMU638nGx
+E8q/cd6ddvfljwsjJZ5id0BdAPEDHshC92honTsKZBNXZke1yZEZ5QhPj+DSoj/4
+FZWVq6owKWzHXhpcRamyhEEEZ75thFawKtD6W+LACtriekdiu/NUwAN2lIE3b5vn
+YhuTo8kSYDvLfpMOscIwWVCD3gTAA/jcJpmSIePQsSh/iripFRGKI1/SB+kJb1T8
+trUtqgIAitTAvtsg1rEqsmFUIgOU9GvpBG+3TaaSUtEiidCUZRjzrtLmKBb6bFIn
+HIo8sQ+SsO3lE9L1ROQlOYkImjxT120jfaNlyvEx5LUx7RbuRkmCF8+l/SoLRUm6
+BILpWsDb7vWrg/Z1mgXiBKD5ATlqexJu47a6f6dvQIEkmeXNdV80DAL6l49xDoBJ
+uCZXfn/e2XIMtTsZmedTkKso26gvLT6gc55sd+qMPiXivSECvcW3Ej97K3rvbTcr
+nh3pwdcB/TXpCaQ56TRZidSS4vaam9y72MA+xeUooawEIO+U+/hOhc2cUC+TVPQH
+6ZsLJjwIf9yL/1HqIVPtheBaAQ9Tc1fKHYqgQTCqVY5KMBK0GebqvzPv6MFjjrt0
+/aLoJE5ahlWkP65QcM9RZ+Y3
+=fmmk
 -----END PGP SIGNATURE-----
 
---===============1448432242955125724==
+--===============8119249889780892948==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-fe15c26ee26e-eeac8ede1755.txt
+Content-Disposition: attachment; filename=revlist-fdf6c2309f42-eeac8ede1755.txt
 
 7245e629dcaaf308f1868aeffa218e9849c77893 drm/cirrus: NULL-check pipe->plane.state->fb in cirrus_pipe_update()
 3638a820c5c3b52f327cebb174fd4274bee08aa7 drm/nouveau/kms/nv50: fix nv50_wndw_new_ prototype
@@ -252,10 +252,6 @@ e2f2a39452c43b64ea3191642a2661cb8d03827a block, bfq: fix uaf for 'stable_merge_b
 5b8e5319affc977d24b8ce7edd295907e969e217 MAINTAINERS: repair a malformed T: entry in IDMAPPED MOUNTS
 01e68ce08a30db3d842ce7a55f7f6e0474a55f9a io_uring/io-wq: stop setting PF_NO_SETAFFINITY on io-wq workers
 b0563468eeac88ebc70559d52a0b66efc37e4e9d x86/CPU/AMD: Disable XSAVES on AMD family 0x17
-a98fc23cc2c1e4382a79ff137ca1a93d6a73b451 staging: rtl8192e: Remove function ..dm_check_ac_dc_power calling a script
-fe413a074a93d56f89e322c786aad8639afe76b4 staging: rtl8192e: Remove call_usermodehelper starting RadioPower.sh
-05cbcc415c9b8c8bc4f9a09f8e03610a89042f03 staging: rtl8723bs: Fix key-store index handling
-d17789edd6a8270c38459e592ee536a84c6202db staging: rtl8723bs: Pass correct parameters to cfg80211_get_bss()
 7fef099702527c3b2c5234a2ea6a24411485a13a x86/resctl: fix scheduler confusion with 'current'
 a722511b18268bd1f7084eee243af416b85f288f drm/msm: DEVFREQ_GOV_SIMPLE_ONDEMAND is no longer needed
 55ee6646b6ba86574d1411af275c61a82fdfe10e Merge tag 'platform-drivers-x86-v6.3-2' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
@@ -267,7 +263,6 @@ c8b8a3c601f2cfad25ab5ce5b04df700048aef6e net: dsa: mt7530: permit port 5 to work
 6517a60b0307abdcca80133c237551cc7cc8e6ae tools: ynl: move the enum classes to shared code
 c311aaa74ca18bd0781d1d3bebd08484799f840c tools: ynl: fix enum-as-flags in the generic CLI
 2d8cb0bfca6a05f1731d4570941e85d65c669386 Merge branch 'tools-ynl-fix-enum-as-flags-in-the-generic-cli'
-fdf6c2309f425509cddd002f278c650ad0b7e34b staging: r8188eu: delete driver
 c3a4aec055ec275c9f860e88d37e97248927d898 splice: Remove redundant assignment to ret
 dc592190a5543c559010e09e8130a1af3f9068d3 fs/locks: Remove redundant assignment to cmd
 67eeadf2f95326f6344adacb70c880bf2ccff57b Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
@@ -340,4 +335,4 @@ c4ecd87f75ec4d5ac3006ef21ce07e812982e46e Merge tag 'tpm-v6.3-rc3' of git://git.k
 79d1ed5ca7db67d48e870c979f0e0f6b0947944a wifi: cfg80211: Partial revert "wifi: cfg80211: Fix use after free for wext"
 eeac8ede17557680855031c6f305ece2378af326 Linux 6.3-rc2
 
---===============1448432242955125724==--
+--===============8119249889780892948==--
