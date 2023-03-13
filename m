@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/devicetree/devicetree-rebasing
-Date: Mon, 13 Mar 2023 18:28:20 -0000
-Message-Id: <167873210099.10080.16138911362317966280@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+Date: Mon, 13 Mar 2023 18:46:28 -0000
+Message-Id: <167873318885.23112.17488179325214815579@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/devicetree/devicetree-rebasing
-user: ijc
+repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+user: masahiroy
 changes:
-  - ref: refs/tags/v6.3-rc2-dts
-    old: 0000000000000000000000000000000000000000
-    new: 0c20d415aa60e7489545026594c5fccf1d2cd6e3
+  - ref: refs/heads/fixes
+    old: ced0f245ed951e2b8bd68f79c15238d7dd253662
+    new: ee06a3ef7e3cddb62b90ac40aa661d3c12f7cabc
+    log: |
+         ee06a3ef7e3cddb62b90ac40aa661d3c12f7cabc kconfig: Update config changed flag before calling callback
+         
