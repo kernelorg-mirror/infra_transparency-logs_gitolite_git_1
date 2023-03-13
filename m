@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5633764105010672723=="
+Content-Type: multipart/mixed; boundary="===============4657729213213210715=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
-Date: Mon, 13 Mar 2023 01:06:36 -0000
-Message-Id: <167866959698.3685.10849250996576541256@gitolite.kernel.org>
+Date: Mon, 13 Mar 2023 01:11:23 -0000
+Message-Id: <167866988341.7036.12081937842044824708@gitolite.kernel.org>
 
---===============5633764105010672723==
+--===============4657729213213210715==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/xiang/erofs
 user: xiang
 changes:
-  - ref: refs/heads/master
-    old: fe15c26ee26efa11741a7b632e9f23b01aca4cc6
-    new: eeac8ede17557680855031c6f305ece2378af326
-    log: revlist-fe15c26ee26e-eeac8ede1755.txt
-  - ref: refs/tags/v6.3-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 62f7115b1ddd72766123d3cdc6a0c4330da29f3b
+  - ref: refs/heads/dev-test
+    old: 8cc07139c3a8b5f1adec4dfd02bcb87ced24ea8e
+    new: 8abb522e5988e35dc60162401eedef732f85ca3f
+    log: revlist-8cc07139c3a8-8abb522e5988.txt
 
---===============5633764105010672723==
+--===============4657729213213210715==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-fe15c26ee26e-eeac8ede1755.txt
+Content-Disposition: attachment; filename=revlist-8cc07139c3a8-8abb522e5988.txt
 
 7245e629dcaaf308f1868aeffa218e9849c77893 drm/cirrus: NULL-check pipe->plane.state->fb in cirrus_pipe_update()
 3638a820c5c3b52f327cebb174fd4274bee08aa7 drm/nouveau/kms/nv50: fix nv50_wndw_new_ prototype
@@ -243,11 +240,6 @@ fdf6c2309f425509cddd002f278c650ad0b7e34b staging: r8188eu: delete driver
 c3a4aec055ec275c9f860e88d37e97248927d898 splice: Remove redundant assignment to ret
 dc592190a5543c559010e09e8130a1af3f9068d3 fs/locks: Remove redundant assignment to cmd
 67eeadf2f95326f6344adacb70c880bf2ccff57b Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
-a279adedbb5206ccadb6b2817838cbb1c834133d erofs: mark z_erofs_lzma_init/erofs_pcpubuf_init w/ __init
-8f121dfb15f7b4ab345992ce96003eb63fd608f4 erofs: fix wrong kunmap when using LZMA on HIGHMEM platforms
-647dd2c3f0e16b71a1a77897d038164d48eea154 erofs: Revert "erofs: fix kvcalloc() misuse with __GFP_NOFAIL"
-9ff471800b74f5f952c7e75a0355f1d30ee2b046 erofs: get rid of a useless DBG_BUGON
-3993f4f456309580445bb515fbc609d995b6a3ae erofs: use wrapper i_blocksize() in erofs_file_read_iter()
 03b3d6be73e81ddb7c2930d942cdd17f4cfd5ba5 io_uring/uring_cmd: ensure that device supports IOPOLL
 fa780334a8c392d959ae05eb19f2410b3a1e6cb0 io_uring: silence variable ‘prev’ set but not used warning
 573b22ccb7ce9ab7f0539a2e11a9d3609a8783f5 sh: sanitize the flags on sigreturn
@@ -311,5 +303,7 @@ f1324bbc4011ed8aef3f4552210fc429bcd616da tpm: disable hwrng for fTPM on some AMD
 c4ecd87f75ec4d5ac3006ef21ce07e812982e46e Merge tag 'tpm-v6.3-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 79d1ed5ca7db67d48e870c979f0e0f6b0947944a wifi: cfg80211: Partial revert "wifi: cfg80211: Fix use after free for wext"
 eeac8ede17557680855031c6f305ece2378af326 Linux 6.3-rc2
+5baee6cbb75a317d262af9e96bbbda6b6c862ae7 erofs: avoid hardcoded blocksize for subpage block support
+8abb522e5988e35dc60162401eedef732f85ca3f erofs: set block size to the on-disk block size
 
---===============5633764105010672723==--
+--===============4657729213213210715==--
