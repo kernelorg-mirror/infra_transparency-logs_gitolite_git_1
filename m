@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0109791961923468829=="
+Content-Type: multipart/mixed; boundary="===============1498040673021237298=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
 Date: Mon, 13 Mar 2023 08:05:50 -0000
-Message-Id: <167869475027.26143.15887206302249844399@gitolite.kernel.org>
+Message-Id: <167869475044.26179.11963411481307272296@gitolite.kernel.org>
 
---===============0109791961923468829==
+--===============1498040673021237298==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,17 +16,17 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.19.y
-    old: 6d511368d3791cf9dd689a3e5583a812caf3d399
-    new: c36e0f1dab8510f734a94a7fd273e9d3eaffd703
+  - ref: refs/heads/linux-5.4.y
+    old: 093f963cdc2019ef8f0dc7657db8a77f6f1c037b
+    new: f45c73ad9df5072965849576d36b398fba9d818f
     log: |
-         2fc39fde7295d90b99487a0c601ca1ca6dd05ac3 wifi: cfg80211: Partial revert "wifi: cfg80211: Fix use after free for wext"
-         8efb92c18362ed10c99e923f1425dd44cdcdd339 staging: rtl8192e: Remove function ..dm_check_ac_dc_power calling a script
-         447ae7a23e458e15950ec625fc37019e9d1772ef staging: rtl8192e: Remove call_usermodehelper starting RadioPower.sh
-         c36e0f1dab8510f734a94a7fd273e9d3eaffd703 Linux 4.19.277-rc1
+         9bce897030c14cd8a3d47e45236715c0f003feff wifi: cfg80211: Partial revert "wifi: cfg80211: Fix use after free for wext"
+         50d320f51151a2e93981b5da79f7a6ff77192081 staging: rtl8192e: Remove function ..dm_check_ac_dc_power calling a script
+         29485eef96124d4353832c605125bed4b3c606b9 staging: rtl8192e: Remove call_usermodehelper starting RadioPower.sh
+         f45c73ad9df5072965849576d36b398fba9d818f Linux 5.4.236-rc1
          
 
---===============0109791961923468829==
+--===============1498040673021237298==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -37,23 +37,23 @@ pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1678694749 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
 nonce 1678694749-9f449ed2d9f44640c6824c7b5767b84db07654a0
 
-6d511368d3791cf9dd689a3e5583a812caf3d399 c36e0f1dab8510f734a94a7fd273e9d3eaffd703 refs/heads/linux-4.19.y
+093f963cdc2019ef8f0dc7657db8a77f6f1c037b f45c73ad9df5072965849576d36b398fba9d818f refs/heads/linux-5.4.y
 -----BEGIN PGP SIGNATURE-----
 
 iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQO2V0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+PgMP/jj9Kz7vvVEyPppX7rO5
-RA+GRqU7vEBx5JCxrWDKAuARF6Eolo0hZU4/rADsnF6yt6m8bKotdEytHC+5XETW
-vjRmEsh2sint+9x+IOBoVJOLtq9oNhngjRzxWdKe6WMC1nEMAmQCCwtkWJtJZS/I
-bN+5lD6bh2bHZeXA4moFCKgE3/i9m2bsXzLIRhNh+4tmBb2jylUnl6Sc8fAkNolb
-+Ki2chH4iMlV2kMe2CKyjOl4ew4H3dC2A65pn46tRgSDCTz2uc02/8J4ikxClHle
-O3WIx2XRN/H16SQ+omZAfnWXNrv1AeFmJsPxJn8edzCCFeSDDRK0/T0Usc8dP7TP
-zR1csLW8ZvoKKxtz+tdy9ToTme5akilxN6SCR4/7EuaJM8W4RmVP2HvdO7iCw6Gm
-g9sF9jpndHpw8qJHQciIqWJ84cYD/8/qhyY5csckJKgQVXD7R6cd47mk69A8T1Uu
-SUtxb/aZhkYR/1SvMnprSZqCbTTZHBLlt70mqmctKxKXLbSW0Sh/y+Q3iBoUiyNY
-F1NYLzM/8V9+OApOsKhWIyGqi9XCUnLDgKa/NQtzFUOki6iySUpG/2zBdAqxWLpZ
-zri5XJPYNs8Mm+EqIvBDCxB7OSDfOGUWiUj9mvlTn+IjiDEJW5vbBqpeBbTY00yU
-u2KfVeP2Y+AN0uRTLfCFMbX9
-=ZSXB
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+gQoQAIqH2qa7kLLaKsG7lOqS
+nP5IwUqrHhcdhFKFwXl5GgwI5zaxExDuMtCIxeljRMHxjNbxND1P51MdHOBKdOdq
+E2LRefom1i8esC4ApldDkCqks/0lUQDOyiI3MDvncLq14ogCF7NRD7iSvY5T/t+P
+huUtQbVYv5mt0s9fSrbFh9tDByqDnkb/ZmcbSDThEjj72ZR3Qb2K2XkbVkl1c2Nq
+WhqlAMlcswT0bTSAlhFmRgSkgAplhD5ai7g4UFN+8PhwtAEoNZVTZeC8NW9voFz1
+IlEDTxCqo+PFh83YiO5vLYWr9+laribDxqA8+GLWFnUeHFa7+TcbZKb4lRt8jmaz
+Hgc1s4ngXpeaECqe/tzwga9kVmS1J6NIBON1PMULWyEwNXPdFjSJ7ATeyHvfeYPP
+JSwCMepnKMeYXqZYbXMqSiG+/N3+Nq2l7VNB3g0iBV9bsnIipnVGp2IBznTVASoO
+YqhRUB8al8p5kGHTZUSfuYpBX2AoRvIKB076+sfHqdAICiBYaDTIOq2mUnFrvja5
+/w4t+CrVS3ZCC8MpMtbiBkvNFpy3d71pbRlbqF1hqpQd7v1v2ftSr9jnZsTTf82T
+MhAtOKHk/Xvcd1QVFSflf794Qw/MLf/YHz4kwm3CKVR6dzR67L4/QamaWJPIjF0k
+4B/hV6TdlCrrOE2pHGxKTCdS
+=3J83
 -----END PGP SIGNATURE-----
 
---===============0109791961923468829==--
+--===============1498040673021237298==--
