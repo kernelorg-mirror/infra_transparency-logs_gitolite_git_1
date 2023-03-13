@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/libs/libgpiod/libgpiod
-Date: Mon, 13 Mar 2023 15:53:40 -0000
-Message-Id: <167872282030.3662.5147872117135983129@gitolite.kernel.org>
+Date: Mon, 13 Mar 2023 15:55:02 -0000
+Message-Id: <167872290231.4891.10927118224170715367@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/libs/libgpiod/libgpiod
 user: brgl
 changes:
-  - ref: refs/heads/master
-    old: b44ce359d5686950da9b32be8551b60b6835fcf5
-    new: 3c55c6f3e0c94333acf6f3da1e96ef17fd430887
+  - ref: refs/heads/v2.0.x
+    old: 5bf7c9653f795f195d75d8891737d624c4cd9823
+    new: 8b5ffc5912b9291fb6ff60c99fa7a0f4bbd60909
     log: |
-         3c55c6f3e0c94333acf6f3da1e96ef17fd430887 core: sanitize arguments in gpiod_line_config_set_output_values()
+         8b5ffc5912b9291fb6ff60c99fa7a0f4bbd60909 core: sanitize arguments in gpiod_line_config_set_output_values()
          
