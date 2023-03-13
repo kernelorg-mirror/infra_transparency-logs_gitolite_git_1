@@ -1,20 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Mon, 13 Mar 2023 23:16:46 -0000
-Message-Id: <167874940675.9447.2940879191249279929@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jolsa/perf
+Date: Mon, 13 Mar 2023 23:29:46 -0000
+Message-Id: <167875018677.16328.12938368223873895674@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/jolsa/perf
+user: jolsa
 changes:
-  - ref: refs/heads/main
-    old: ad4bf5f2406f6a2e29266bbad74e18f0d955ac4c
-    new: 4821c186b9c343760a293b455b603735291a7865
+  - ref: refs/heads/uprobe_multi_6
+    old: 04e91efe4c91ab2c6d53febc07616714ba385fcd
+    new: 3f2899fc03dd194fc538daca944ed9560d265fb3
     log: |
-         90c7dd32652bcfcc7716c762bc095a7d49ad85dd net: phy: smsc: use device_property_present in smsc_phy_probe
-         4821c186b9c343760a293b455b603735291a7865 net: hsr: Don't log netdev_err message on unknown prp dst node
+         5504bdb4b74ab9b9ad767a099abf67fff5b6ff33 libbpf: Add bpf_program__attach_uprobe_multi_opts function
+         d1a377c1c8626617f829910d38eb3af3890a062c libbpf: Add support for uprobe.multi/uprobe.multi program sections
+         92dd185334f9b583a5a716c263ffa00446b51c77 selftests/bpf: Add uprobe_multi test program
+         3f2899fc03dd194fc538daca944ed9560d265fb3 selftests/bpf: Add uprobe_multi test
          
