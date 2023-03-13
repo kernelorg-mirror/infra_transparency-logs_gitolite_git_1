@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============0583636000441386751=="
+Content-Type: multipart/mixed; boundary="===============8228600186864831709=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Mon, 13 Mar 2023 12:15:02 -0000
-Message-Id: <167870970270.14713.13303392149435299903@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Mon, 13 Mar 2023 12:15:21 -0000
+Message-Id: <167870972188.16089.5689053269268333936@gitolite.kernel.org>
 
---===============0583636000441386751==
+--===============8228600186864831709==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: leon
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: eeac8ede17557680855031c6f305ece2378af326
     log: revlist-c9c3395d5e3d-eeac8ede1755.txt
 
---===============0583636000441386751==
+--===============8228600186864831709==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ c4ecd87f75ec4d5ac3006ef21ce07e812982e46e Merge tag 'tpm-v6.3-rc3' of git://git.k
 79d1ed5ca7db67d48e870c979f0e0f6b0947944a wifi: cfg80211: Partial revert "wifi: cfg80211: Fix use after free for wext"
 eeac8ede17557680855031c6f305ece2378af326 Linux 6.3-rc2
 
---===============0583636000441386751==--
+--===============8228600186864831709==--
