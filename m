@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3352861460199020945=="
+Content-Type: multipart/mixed; boundary="===============1887917604824910109=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ras/ras
-Date: Mon, 13 Mar 2023 17:45:06 -0000
-Message-Id: <167872950672.13345.14028146955366089970@gitolite.kernel.org>
+Date: Mon, 13 Mar 2023 17:45:56 -0000
+Message-Id: <167872955699.14938.3145973463646388226@gitolite.kernel.org>
 
---===============3352861460199020945==
+--===============1887917604824910109==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ras/ras
 user: aegl
 changes:
-  - ref: refs/heads/edac-drivers
-    old: 28980db94742f9f2fb0f68ea35f2171b38007bae
+  - ref: refs/heads/edac-for-next
+    old: feac08675023d0450929758744e866a9b1a2dc4a
     new: 71b1e3ba3fed5a34c5fac6d3a15c2634b04c1eb7
-    log: revlist-28980db94742-71b1e3ba3fed.txt
+    log: revlist-feac08675023-71b1e3ba3fed.txt
 
---===============3352861460199020945==
+--===============1887917604824910109==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-28980db94742-71b1e3ba3fed.txt
+Content-Disposition: attachment; filename=revlist-feac08675023-71b1e3ba3fed.txt
 
 7ae9fb1b7ecbb5d85d07857943f677fd1a559b18 Merge branch 'next' into for-linus
 ccfd889acb06eab10b98deb4b5eef0ec74157ea0 smackfs: Added check catlen
@@ -1051,4 +1051,4 @@ c4ecd87f75ec4d5ac3006ef21ce07e812982e46e Merge tag 'tpm-v6.3-rc3' of git://git.k
 eeac8ede17557680855031c6f305ece2378af326 Linux 6.3-rc2
 71b1e3ba3fed5a34c5fac6d3a15c2634b04c1eb7 EDAC/skx: Fix overflows on the DRAM row address mapping arrays
 
---===============3352861460199020945==--
+--===============1887917604824910109==--
