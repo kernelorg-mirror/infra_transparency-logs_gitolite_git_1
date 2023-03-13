@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6736758952578307440=="
+Content-Type: multipart/mixed; boundary="===============0071954644256952718=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Mon, 13 Mar 2023 09:18:09 -0000
-Message-Id: <167869908939.11412.1227579071722867290@gitolite.kernel.org>
+Date: Mon, 13 Mar 2023 09:18:12 -0000
+Message-Id: <167869909204.11520.11880867988439314999@gitolite.kernel.org>
 
---===============6736758952578307440==
+--===============0071954644256952718==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,44 +16,38 @@ repo: pub/scm/linux/kernel/git/stable/linux
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.19.y
-    old: 6a98afd74b4c2016fb87f5c3b7ce1c53ac215c13
-    new: 4f95ee925a2ba6ca1a101e1d7b60656aa5067ea3
-    log: |
-         6e51ac81472b65b9fc0f0725d3b554c6611d258e wifi: cfg80211: Partial revert "wifi: cfg80211: Fix use after free for wext"
-         234ce2cd68945ec5cbac2e0e1a600aea4a08dcd8 staging: rtl8192e: Remove function ..dm_check_ac_dc_power calling a script
-         99bbc14cab7f64a7f48c65d833400e984151a3cc staging: rtl8192e: Remove call_usermodehelper starting RadioPower.sh
-         4f95ee925a2ba6ca1a101e1d7b60656aa5067ea3 Linux 4.19.277
-         
+  - ref: refs/tags/v4.19.277
+    old: 0000000000000000000000000000000000000000
+    new: 7d125febdff25905fcce1152957bf6a2b9e198df
 
---===============6736758952578307440==
+--===============0071954644256952718==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1678699088 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1678699091 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1678699087-5ea87ed23f913279cbfb67cbc3bc5d1c0f6a5208
+nonce 1678699090-2e9cd5174d2dc233b4764386e48a6cd1dc3ea52e
 
-6a98afd74b4c2016fb87f5c3b7ce1c53ac215c13 4f95ee925a2ba6ca1a101e1d7b60656aa5067ea3 refs/heads/linux-4.19.y
+0000000000000000000000000000000000000000 7d125febdff25905fcce1152957bf6a2b9e198df refs/tags/v4.19.277
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQO6lAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+huYP/RAydJD/5sZ/e1V550Yc
-vW0ErH9PV9jKYlCv+fKQI86R9YBQpWz1N93Bx4Ok3dl/LQxwWG7x4uVoG+UKZgQf
-T6B9CeOx1UK7Oxps9e2lYGWB5acdLfH0WtucTJRSvtN21Oxvh2ujLX3rtmGh1GsG
-6PDde0YWLMOAygaELeXLTBm9mZJKTMlSM7XvKT+lPh+AJ010KCIjm1FuAvUILDTX
-oxWZDRYfH5nQvsr6wKkSRhLXLlAFU5AaqUPZbsOoRd61yALmL9T2VDirXUDPa/m2
-1oi1Cb5nvFyNWlcdfMss/blrOLYdDT+yfHfhpTKCgykmBgrxk7vuaHsmNLGyITpK
-PXR63O71ZeLSj4K+6eER7VUzpt4V8xGjSXp6NsYC2nmRNUU3PvQIR4k4jbkNOnYk
-yObIWGF6rRB1IcRj64MG24bZZW505CDjbakSjAiVy2dgOg9o5uakdU3pf7Z2hhD9
-OU/QvJb/XlAk64/CIIoDJi59eUOWDFvhKYBrG9CsclOcxt2GxDzwBWjE9nFXGIwZ
-Q3CuIoCnWOD4Y2gyg3NHpHmu5Poge1YtlvWPwAXotMQ370fnDC7SQHWE306oc4Z5
-5qOwlgCx2TJJf/btryKrEjnbg6MYgd+nIDKfJ2ye5VOHMqXFgnsTTg7m52MK4Gpe
-ivGYb/geLRiHSpkiOVXj837U
-=76Ys
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQO6lMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+4JcQAMRkLf+f1f0z+kHadMxd
+LHV1ujaaZ1Xj8+0Dqe7SJbIUt9FhqpT6CVSfXk9D6NasYDwaP9vktbZEznUhWhWn
+uiPYXIJUh0B1GvuPHF35F6vf2o4FdlN2SYwk9wNfN0uSmSR1dN6FtjS16tWvekmC
+JJWBD2U4aO6Z4urxnByEesYrOeRZZGzlOeYkmsXR5I8jhL0b/B12slWezZT7NBuO
+oK6dpFlRiy5V8v66oUX1DYWulmhW1OWZagamYLNxZaSt3N+IB+YrOMqY8Be5al9s
+utwArdJMlu3LNV0cuMpM0LmaIxtiNA9Ljp9GLyGDqr7X329PYcipg71JPpCV0YCm
+Hb2cxuquloAfsv3q6JrDw9syQDIN7CmJJIaaETsEtD0RLa3vXKtaPOAuFoGkpOWY
+V5VZRNg3z05xs60r1DW6ZXcIlsTM+BT76Kuz4vS2MO0Y8/DeiikRi4kDhbWB5egR
+EMxcPxgdrQAKRM+tmPQvzrL87lQuUyCh8sJL789Ctd1WC/7hzFI/z0XHJC9oqtkE
+HQ4m5T4138R+uBhX2Lr6OuBWbaR5wBXHJpOT//CkwUoECxufdrAo6eyPXqrB13Ug
+yEze2dChDn5+M1Zgd4juCEL/8rwDe6EZ16eL8Kqb4xQOvcFMGiUQqoG0U+fUD9MU
+V02MMLEGsZYnYEx1dRsHblEo
+=Zzld
 -----END PGP SIGNATURE-----
 
---===============6736758952578307440==--
+--===============0071954644256952718==--
