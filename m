@@ -1,31 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Mon, 13 Mar 2023 09:22:11 -0000
-Message-Id: <167869933192.15566.905921721518720312@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============6068843654490630534=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 13 Mar 2023 09:26:07 -0000
+Message-Id: <167869956773.17028.9037300122770156626@gitolite.kernel.org>
+
+--===============6068843654490630534==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue/6.1
-    old: edae7d6aac936deebd95c5331ec5b34208f7a5b7
-    new: f06c457f50d70aaad6bbc57165883b3a480c9c5b
+  - ref: refs/heads/master
+    old: 42961a43efc8c17a4ea0d56ceeb31bcddb7f368f
+    new: c111e008d37524139fba23bb057f96d9588bc841
     log: |
-         232b36a93f6b2e52457cc4c80345e83f6c4af8b4 tpm: disable hwrng for fTPM on some AMD designs
-         22ae507d08cb94bf75af618721b53c55fefcda86 wifi: cfg80211: Partial revert "wifi: cfg80211: Fix use after free for wext"
-         a10411acc26488916932b4a27d0dc0b7abe1f0be staging: rtl8192e: Remove function ..dm_check_ac_dc_power calling a script
-         f06c457f50d70aaad6bbc57165883b3a480c9c5b staging: rtl8192e: Remove call_usermodehelper starting RadioPower.sh
+         c111e008d37524139fba23bb057f96d9588bc841 Linux 6.1.19
          
-  - ref: refs/heads/queue/6.2
-    old: 89562e73989e21168bc4004d837e03fe80f2cf98
-    new: b283c7ed6ddaea17238b7d86b62f81d2a79cc41a
-    log: |
-         e45b6dee954ad4c5975c8868dd80b252fae1d94b tpm: disable hwrng for fTPM on some AMD designs
-         b065102857bb90b2f43054a7b7a25b4009eeb01c wifi: cfg80211: Partial revert "wifi: cfg80211: Fix use after free for wext"
-         cc0d6b04ff24dadc6b746c71444bd1fff88c2b14 staging: rtl8192e: Remove function ..dm_check_ac_dc_power calling a script
-         b283c7ed6ddaea17238b7d86b62f81d2a79cc41a staging: rtl8192e: Remove call_usermodehelper starting RadioPower.sh
-         
+
+--===============6068843654490630534==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1678699566 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1678699565-8f6f43c50e4cc71384ce5951b812aee9f6ad244f
+
+42961a43efc8c17a4ea0d56ceeb31bcddb7f368f c111e008d37524139fba23bb057f96d9588bc841 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQO7C4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+VIEP/082Jphq6huWXQ31g6Zj
+2CT4BoXjdxx2UQpmCzWs9JrMeZ6qHPtyvjq1CN1DkoPmNkn7kEJ5hXb8zzWfewry
+3OmQHd/lAUlEFtDcqLrdKNxZWgsy8wf4RC0WQxwwYNmdd461Q7zNvQV412oVA784
+sDwbUmNu+vqzWJFPVgZy9mGncBjylBQh+ClA7RNDc37nxOmjYSZDAd4nuxs/kYSL
+lhnB07Gyab57dZ0iKeZl/22Az1IqZJwvfjzs60COa5RWmwVb4v/o276Z631qGmWx
+WKBLLWYZKz28U0E2hNjwjkZnI82LCxtlpivYHckD1AHHf3NdQ5QWkV0uj9RCY5Mu
+7b71/JTsJ19JKiQIuHcPNL/tovqK6yRPv9WXGVS2iFZTHNOS4TQFjRrIlqhWM6JJ
+JPgV8JNfITeS3ng2OHpKdiA0KREZNv87+eT5V7ch/Ew5YhEeOXEH2iylflGsCORn
+HAftkFv1nuBicIayxuoyTmSQZyYQFyn59h9vZDDedwe51f3WwELCkMe+ybONCus4
+t2MVU7EI113qOSEST/P1XOvqNtXOfq53ZV229I0EhL4gfAYwk+W9BIdTu78yoBT0
+DT+XPhXszkz5KBvDkOWbE3ZhOR77eDzaVFxsGCW+MtUacbtUL2DkDH+oA3bLM1/c
+1ZM6apVjFeJuQTin1YZ6vi8g
+=i8DS
+-----END PGP SIGNATURE-----
+
+--===============6068843654490630534==--
