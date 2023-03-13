@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============3052365740335923508=="
+Content-Type: multipart/mixed; boundary="===============4771839800885327247=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
-Date: Mon, 13 Mar 2023 01:11:54 -0000
-Message-Id: <167866991495.7380.10778217529290213636@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/geoff/ps3-linux
+Date: Mon, 13 Mar 2023 02:22:09 -0000
+Message-Id: <167867412953.23527.9982917107301263124@gitolite.kernel.org>
 
---===============3052365740335923508==
+--===============4771839800885327247==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs
-user: xiang
+repo: pub/scm/linux/kernel/git/geoff/ps3-linux
+user: geoff
 changes:
-  - ref: refs/heads/dev
-    old: 8cc07139c3a8b5f1adec4dfd02bcb87ced24ea8e
-    new: 8abb522e5988e35dc60162401eedef732f85ca3f
-    log: revlist-8cc07139c3a8-8abb522e5988.txt
+  - ref: refs/heads/ps3-queue
+    old: 25b227b8922187bf9aefa6075f408519ef661036
+    new: b7b36f1eedbca8731a1b4e9029666c3f69d8f57d
+    log: revlist-25b227b89221-b7b36f1eedbc.txt
 
---===============3052365740335923508==
+--===============4771839800885327247==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-8cc07139c3a8-8abb522e5988.txt
+Content-Disposition: attachment; filename=revlist-25b227b89221-b7b36f1eedbc.txt
 
 7245e629dcaaf308f1868aeffa218e9849c77893 drm/cirrus: NULL-check pipe->plane.state->fb in cirrus_pipe_update()
 3638a820c5c3b52f327cebb174fd4274bee08aa7 drm/nouveau/kms/nv50: fix nv50_wndw_new_ prototype
@@ -240,6 +240,11 @@ fdf6c2309f425509cddd002f278c650ad0b7e34b staging: r8188eu: delete driver
 c3a4aec055ec275c9f860e88d37e97248927d898 splice: Remove redundant assignment to ret
 dc592190a5543c559010e09e8130a1af3f9068d3 fs/locks: Remove redundant assignment to cmd
 67eeadf2f95326f6344adacb70c880bf2ccff57b Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
+a279adedbb5206ccadb6b2817838cbb1c834133d erofs: mark z_erofs_lzma_init/erofs_pcpubuf_init w/ __init
+8f121dfb15f7b4ab345992ce96003eb63fd608f4 erofs: fix wrong kunmap when using LZMA on HIGHMEM platforms
+647dd2c3f0e16b71a1a77897d038164d48eea154 erofs: Revert "erofs: fix kvcalloc() misuse with __GFP_NOFAIL"
+9ff471800b74f5f952c7e75a0355f1d30ee2b046 erofs: get rid of a useless DBG_BUGON
+3993f4f456309580445bb515fbc609d995b6a3ae erofs: use wrapper i_blocksize() in erofs_file_read_iter()
 03b3d6be73e81ddb7c2930d942cdd17f4cfd5ba5 io_uring/uring_cmd: ensure that device supports IOPOLL
 fa780334a8c392d959ae05eb19f2410b3a1e6cb0 io_uring: silence variable ‘prev’ set but not used warning
 573b22ccb7ce9ab7f0539a2e11a9d3609a8783f5 sh: sanitize the flags on sigreturn
@@ -303,7 +308,28 @@ f1324bbc4011ed8aef3f4552210fc429bcd616da tpm: disable hwrng for fTPM on some AMD
 c4ecd87f75ec4d5ac3006ef21ce07e812982e46e Merge tag 'tpm-v6.3-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 79d1ed5ca7db67d48e870c979f0e0f6b0947944a wifi: cfg80211: Partial revert "wifi: cfg80211: Fix use after free for wext"
 eeac8ede17557680855031c6f305ece2378af326 Linux 6.3-rc2
-5baee6cbb75a317d262af9e96bbbda6b6c862ae7 erofs: avoid hardcoded blocksize for subpage block support
-8abb522e5988e35dc60162401eedef732f85ca3f erofs: set block size to the on-disk block size
+2bec6050d13b301c211b68dd1def7040c08f7445 net/ps3_gelic_net: Fix RX sk_buff length
+e2251c7bd02753b62a7807656c77e4a0dc5abbeb net/ps3_gelic_net: Use dma_mapping_error
+1d7f9e8ebc8c9d8e5a8b63293b14e4cda4b88284 net/ps3_gelic_net: Cleanup RX sk_buff code
+a0cc7d2424218b2513a064533ad637f6558bdcc0 net/ps3_gelic_net: Cleanup dma_mapping_error
+86e16fcd4c3eb414a3983ddf19dd71a260bdd07c net/ps3_gelic_net: Rename to descr_count
+3f53eb7e86acb30031ae58115a1bba5262a074bf net/ps3_gelic_net: Rename to index
+44bb79f9ebee4a4d38d2d2ec6135f912adcaff00 net/ps3_gelic_net: Add gelic_descr structures
+71cfb26b1e14676f1bc5addbac24069b76bdd000 net/ps3_gelic_net: Use local dev variable
+447a310a82f7a504e1f50ba3c2099046332e50e7 net/ps3_gelic_net: Add vlan_id structure
+1ae96540c45a2ebc4c70c50ad9a4a3d11f31a4a7 net/ps3_gelic_net: Add new routine gelic_unmap_link
+54259bc4d9403daed3f234ef3c05912dd316b543 net/ps3_gelic_net: Add new routine gelic_work_to_card
+7a95def795b3c1556564f9434504727756a46ffd net/ps3_gelic_net: Whitespace cleanups
+3fbef4f72aa33713883d0bda72a25d7b66864f1a net/ps3_gelic_net: Debugging cleanups
+8ca552478f9afe5d42dd05104e4d5a8cc87b7a96 hvc_console: Allow backends to set I/O buffer size
+710cce799d19abec57c78433a2b0de1d50dcb56e ps3-debugging: Enable CONFIG_IKCONFIG_PROC
+370b2ed694e8fbb13daadc1f653d3eff52bb5c7b ps3-debugging: Setup DABR register
+089950b239a8cf917bd1acfe072eed2aa6d15bda local: Add ps3_nfs_defconfig
+f906e9b7d8db8bcbe361e11334fe10586a81128b local: ps3_nfs_defconfig: Cut down version
+4f18862bc79b7f40f1d346b756a64942597ec630 local: Refresh ps3_nfs_defconfig
+5523e7b884feaa4b45cf3706e3f5d5c30866b5a3 local: Add ps3_petitboot_defconfig
+18e2bf6a34643fcbc124abaa0863918c90dd6a09 local: Add ps3_petitboot_nfs_defconfig
+09d7b31058db803211bc68930b4992e6307bc322 local: ps3_petitboot_nfs_defconfig: ip=dhcp
+b7b36f1eedbca8731a1b4e9029666c3f69d8f57d ps3_defconfig: Cut down version
 
---===============3052365740335923508==--
+--===============4771839800885327247==--
