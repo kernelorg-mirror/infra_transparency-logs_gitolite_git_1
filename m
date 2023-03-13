@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1815232718900593151=="
+Content-Type: multipart/mixed; boundary="===============1888758979904859997=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec-next
-Date: Mon, 13 Mar 2023 10:31:39 -0000
-Message-Id: <167870349944.8546.7589724659539398854@gitolite.kernel.org>
+Date: Mon, 13 Mar 2023 10:32:17 -0000
+Message-Id: <167870353727.8831.11239005626526346219@gitolite.kernel.org>
 
---===============1815232718900593151==
+--===============1888758979904859997==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/klassert/ipsec-next
 user: klassert
 changes:
-  - ref: refs/heads/testing
+  - ref: refs/heads/master
     old: 75da437a2f172759b2273091a938772e687242d0
     new: 95b744508d4d5135ae2a096ff3f0ee882bcc52b3
     log: revlist-75da437a2f17-95b744508d4d.txt
 
---===============1815232718900593151==
+--===============1888758979904859997==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ bca93b20c3976ff5ca9fe373cf7acd0277492ae8 net: ethernet: ti: am65-cpsw: Update na
 05ccd8d8a15e6b9c99b86cf8a2fd78e3f0c60a84 sfc: support offloading TC VLAN push/pop actions to the MAE
 95b744508d4d5135ae2a096ff3f0ee882bcc52b3 qede: remove linux/version.h and linux/compiler.h
 
---===============1815232718900593151==--
+--===============1888758979904859997==--
