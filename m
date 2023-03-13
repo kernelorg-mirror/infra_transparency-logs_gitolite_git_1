@@ -1,45 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============8244485911390886299=="
+Content-Type: multipart/mixed; boundary="===============8471841683630685192=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
-Date: Mon, 13 Mar 2023 09:13:35 -0000
-Message-Id: <167869881506.6543.5376189627026164367@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 13 Mar 2023 09:16:45 -0000
+Message-Id: <167869900533.10487.16023920571541246098@gitolite.kernel.org>
 
---===============8244485911390886299==
+--===============8471841683630685192==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/s390/linux
-user: gor
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-next
-    old: eeac8ede17557680855031c6f305ece2378af326
-    new: 70cc5f4c53d5da9acadef91ecfb516295b7c61db
-    log: revlist-eeac8ede1755-70cc5f4c53d5.txt
+  - ref: refs/heads/master
+    old: 5481b4bdc6a07fd1cc3d3984851bab6d151ed0df
+    new: b10c087dd2ab091089b1c208ca9b57080cb97276
+    log: |
+         b10c087dd2ab091089b1c208ca9b57080cb97276 Linux 4.14.309
+         
 
---===============8244485911390886299==
+--===============8471841683630685192==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-eeac8ede1755-70cc5f4c53d5.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-a52e5cdbe8016d4e3e6322fd93d71afddb9a5af9 s390/ipl: add missing intersection check to ipl_report handling
-ab909509850b27fd39b8ba99e44cda39dbc3858c PCI: s390: Fix use-after-free of PCI resources with per-function hotplug
-d7a0bdbf17276b757d2b89f5351bbee9ecf58fe6 s390: update defconfigs
-fed626db8bc240678fd0fa8078aa767ad21d47fd s390/bp: add missing BPENTER to program check handler
-f33f2d4c7c80c641f6ca3dfe5e7dfe1f91543780 s390/bp: remove TIF_ISOLATE_BP
-9b63fd2fc8526e51444de35598927e406b1bb26f s390/bp: remove s390_isolate_bp_guest()
-69a407bf81a8d70d51e1b7787da577e67447c9ea s390/bp: remove __bpon()
-72c2112ce9d72e6c40dd893f32187a3d34453113 s390/zcrypt: remove unnecessary (void *) conversions
-fb77914a692d550a5bb0c7f71eac40e6da9c0e6d s390: trim ancient junk from copy_thread()
-029a4f4b9555ddb47f38f9589fd6d43277efb9c6 s390/setup: always inline gen_lpswe()
-ae83707f39e1b8f2a15af3868bba25ce4fa93364 s390/pci: only add specific device in zpci_bus_scan_device()
-b881208dcdae311734f172d61cf9ae6fcb108389 s390/pci: remove redundant pci_bus_add_devices() on new bus
-45e5f0c017e0d0dabb952db63428e31eca6be87e s390/pci: clean up left over special treatment for function zero
-ff6591dba9064d4c3a00f091242b2b70571ca0ac Merge branch 'fixes' into for-next
-70cc5f4c53d5da9acadef91ecfb516295b7c61db Merge branch 'features' into for-next
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1678699004 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1678699003-3dbf9249d0b6532be363906f740a9d7f1978cc87
 
---===============8244485911390886299==--
+5481b4bdc6a07fd1cc3d3984851bab6d151ed0df b10c087dd2ab091089b1c208ca9b57080cb97276 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQO6fwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+aDIQAK31EK4Hhg32GrZL4KQi
+gzEzJmC0dYlyne4gFkhE4ruegAtZnbH5X8HlMwPpVhKFp6DGMIJqByrSEL4w7FJF
+3SBlLSetpvUQt/JPEJtuBEuJ7tg8pptdeEHXcDrMT03l1nZlUnSumm2r8q1J9Egs
+HH1RyjF6FiJHDKK2H2w3ANfzRQnuRwZkICij+W81J8eXBxy65FCuo0c/4HAEKoql
+pFeToAjNYDCvvzWaR1kNk9Cq6yjHDs5uo5oQP0Q70RU4guSSEbxXWQgMH9PIo3cV
+0odBdVC5HNojSnO0Y4fdYR94qAqxS6zBHxV9pKrXuAqkslSZ+/dNOoxiyM+FXL8d
+rxHLg6AgkcogR4QBFJn9biF91fduoCH2c0rgzHQTOu3CvAtUvUvG87cKdce0oMFp
+smRRujufQ4HRjmCYlZ/3OnNOOjpRBNqIq8wLVw7TP9MLmWcbd7PZhuLyVtb2quEZ
+k5KDdZQ8mxV3EZLLpbY9OJSEvbkuZUajj7+ERLbMbU4k2JbJOsz4oDMeidR4o+fu
+Wicqdy8foLRXUGvI5YerGwV6ua7IB9UoGXdJNrpwCRlY06rcqq19DRw+gBovJNnL
+E4X7xoeEKAsxHEeRrV8HZ6AtdqUxikXNH6LFLr34NNW/C8tYOd7v1tACf2zgLBau
+arxgklexhfsD123ejPhPEOXa
+=iJPK
+-----END PGP SIGNATURE-----
+
+--===============8471841683630685192==--
