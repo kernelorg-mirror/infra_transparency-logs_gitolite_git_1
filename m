@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4783029711496005749=="
+Content-Type: multipart/mixed; boundary="===============1902551047562545683=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
-Date: Mon, 13 Mar 2023 08:14:46 -0000
-Message-Id: <167869528698.31346.38976190528007924@gitolite.kernel.org>
+Date: Mon, 13 Mar 2023 08:14:51 -0000
+Message-Id: <167869529158.31444.9065837406951846591@gitolite.kernel.org>
 
---===============4783029711496005749==
+--===============1902551047562545683==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/s390/linux
 user: gor
 changes:
-  - ref: refs/heads/fixes
+  - ref: refs/heads/for-next
     old: fe15c26ee26efa11741a7b632e9f23b01aca4cc6
     new: eeac8ede17557680855031c6f305ece2378af326
     log: revlist-fe15c26ee26e-eeac8ede1755.txt
 
---===============4783029711496005749==
+--===============1902551047562545683==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -309,4 +309,4 @@ c4ecd87f75ec4d5ac3006ef21ce07e812982e46e Merge tag 'tpm-v6.3-rc3' of git://git.k
 79d1ed5ca7db67d48e870c979f0e0f6b0947944a wifi: cfg80211: Partial revert "wifi: cfg80211: Fix use after free for wext"
 eeac8ede17557680855031c6f305ece2378af326 Linux 6.3-rc2
 
---===============4783029711496005749==--
+--===============1902551047562545683==--
