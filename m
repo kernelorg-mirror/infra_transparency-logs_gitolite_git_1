@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============7022185227976050944=="
+Content-Type: multipart/mixed; boundary="===============3305491884104489542=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regmap
-Date: Mon, 13 Mar 2023 19:07:23 -0000
-Message-Id: <167873444338.4658.12955735460412860275@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Mon, 13 Mar 2023 19:07:32 -0000
+Message-Id: <167873445236.4802.7090262358747536114@gitolite.kernel.org>
 
---===============7022185227976050944==
+--===============3305491884104489542==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regmap
+repo: pub/scm/linux/kernel/git/broonie/regulator
 user: broonie
 changes:
   - ref: refs/heads/for-linus
@@ -20,11 +20,11 @@ changes:
     new: eeac8ede17557680855031c6f305ece2378af326
     log: revlist-8ca09d5fa354-eeac8ede1755.txt
   - ref: refs/heads/for-next
-    old: 8cb47813a82c8ee7430f10dc43f77662a4966357
-    new: 24d80fde40c995b2e2faaf72034e12e60a416630
-    log: revlist-8cb47813a82c-24d80fde40c9.txt
+    old: 21beffab74b3a47b4e0c6afdd43313e49311eee8
+    new: 38cc873cb1cf27965dacbbc5957a7a8aee89679c
+    log: revlist-21beffab74b3-38cc873cb1cf.txt
 
---===============7022185227976050944==
+--===============3305491884104489542==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -311,11 +311,11 @@ c4ecd87f75ec4d5ac3006ef21ce07e812982e46e Merge tag 'tpm-v6.3-rc3' of git://git.k
 79d1ed5ca7db67d48e870c979f0e0f6b0947944a wifi: cfg80211: Partial revert "wifi: cfg80211: Fix use after free for wext"
 eeac8ede17557680855031c6f305ece2378af326 Linux 6.3-rc2
 
---===============7022185227976050944==
+--===============3305491884104489542==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-8cb47813a82c-24d80fde40c9.txt
+Content-Disposition: attachment; filename=revlist-21beffab74b3-38cc873cb1cf.txt
 
 7245e629dcaaf308f1868aeffa218e9849c77893 drm/cirrus: NULL-check pipe->plane.state->fb in cirrus_pipe_update()
 3638a820c5c3b52f327cebb174fd4274bee08aa7 drm/nouveau/kms/nv50: fix nv50_wndw_new_ prototype
@@ -597,8 +597,10 @@ f1324bbc4011ed8aef3f4552210fc429bcd616da tpm: disable hwrng for fTPM on some AMD
 c4ecd87f75ec4d5ac3006ef21ce07e812982e46e Merge tag 'tpm-v6.3-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 79d1ed5ca7db67d48e870c979f0e0f6b0947944a wifi: cfg80211: Partial revert "wifi: cfg80211: Fix use after free for wext"
 eeac8ede17557680855031c6f305ece2378af326 Linux 6.3-rc2
-83c05c97a325abdd8b4209b9c7165f1701081ba1 Merge tag 'v6.3-rc2' into regmap-6.4 to fix clock related boot issues
-fd883d79e4dcd2417c2b80756f22a2ff03b0f6e0 regmap: cache: Return error in cache sync operations for REGCACHE_NONE
-24d80fde40c995b2e2faaf72034e12e60a416630 regmap: cache: Silence checkpatch warning
+b9d0bb8f1c2e5dce9b8a54fb77d1af4aa64a4c01 Merge tag 'v6.3-rc2' into regulator-6.4 to fix clock related boot issues
+70b26bb55f719e2900404459128d41c8425c8dde regulator: lp872x: Mark OF related data as maybe unused
+4a5850865641d0b83caaad81ca0bbd722ac514fb regulator: max20086: Mark OF related data as maybe unused
+334e6b85a348a79bb018003f09e1cc94accd53a2 regulator: mp8859: Mark OF related data as maybe unused
+38cc873cb1cf27965dacbbc5957a7a8aee89679c regulator: mt6397-regulator: Mark OF related data as maybe unused
 
---===============7022185227976050944==--
+--===============3305491884104489542==--
