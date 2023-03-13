@@ -1,56 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============5059129669720199891=="
+Content-Type: multipart/mixed; boundary="===============5058020412292233013=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Mon, 13 Mar 2023 18:19:44 -0000
-Message-Id: <167873158400.4077.15706732375321127676@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 13 Mar 2023 18:19:50 -0000
+Message-Id: <167873159059.4180.1382278495449982087@gitolite.kernel.org>
 
---===============5059129669720199891==
+--===============5058020412292233013==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.3
+  - ref: refs/heads/spi-6.3
     old: 8ca09d5fa3549d142c2080a72a4c70ce389163cd
     new: eeac8ede17557680855031c6f305ece2378af326
     log: revlist-8ca09d5fa354-eeac8ede1755.txt
-  - ref: refs/heads/for-6.4
+  - ref: refs/heads/spi-6.4
     old: 7d4ae72edba715d8e2dbfb3851879d354d13a7b9
     new: 4d8ff713e684ea58111a33ea7df2e7ddc30683cc
     log: revlist-7d4ae72edba7-4d8ff713e684.txt
 
---===============5059129669720199891==
+--===============5058020412292233013==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1678731582 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1678731581-7b591f518fe6b1604858f5cd428e778680742ac1
+pusher C3F436CA30F5D8EB 1678731588 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1678731588-b1b5fa1ac67227a6f5d76edb0d9c576a2c88524c
 
-8ca09d5fa3549d142c2080a72a4c70ce389163cd eeac8ede17557680855031c6f305ece2378af326 refs/heads/for-6.3
-7d4ae72edba715d8e2dbfb3851879d354d13a7b9 4d8ff713e684ea58111a33ea7df2e7ddc30683cc refs/heads/for-6.4
+8ca09d5fa3549d142c2080a72a4c70ce389163cd eeac8ede17557680855031c6f305ece2378af326 refs/heads/spi-6.3
+7d4ae72edba715d8e2dbfb3851879d354d13a7b9 4d8ff713e684ea58111a33ea7df2e7ddc30683cc refs/heads/spi-6.4
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmQPaT4ACgkQJNaLcl1U
-h9AnWAf/WVB8PsMkLMTF45lkG/Bve4aFNNypiRpBEVGpYqlWtEpYO+Tn2tYMZWGm
-WEBJu8bNsykXSTaDpfmZcUTreCiv+U2mptG4CiToK8K6jzpGR6GRwmPFDsVDktEk
-EQS/qhuiqYnOheua9JkPVndBdmBat1Dk6JChCbR818UPhPWNPXFngaA50NzCgpFJ
-Wnhl0bcRNTwP3waLriw6KRDhGiGVYeXwSZVY19mK5bz+0Q4gx0K57hs/uxxJAfmn
-9wJ5jHjRLNDm110DyHEExllXl8bFfCQ32Zl4+UnGLP+3NhETtnVa5Z/NzzYbvLpy
-v5rc7hrjaoWxZv2fUNjp4Rcwzv1fzA==
-=5rtk
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmQPaUQACgkQJNaLcl1U
+h9AiUQf/aT3WrDmrG4mM8AWoUziFEDDSAexc8g9wUhpeLInQnZC5WImEUR39s01v
+oG31OKln9KALPUl7ubsxd8CjrEGettjQhih14a/S23rMNCXR5Iey0TldViv3VkDA
+9UmmZGxiOOV0/MslAxYxzueUfPOpz3WujpoOTSHV2fwpjazXlyq/tbpsIJ6UBgeh
+byayb5hUvhRpo4+xuz+VSvM62YpNeXH7jxdbSs06WR4kFESyHhfcE5MxSW7tiZEj
+bxiSCT8Zjcu3r/o3nkw3YRGf0ykg22FJclRxPMTY3FM+3vVPVVYo3xuv7Ff9FsS0
+a8HI0lanFRaXSNLF5x8g3YRhKAyHww==
+=ebfX
 -----END PGP SIGNATURE-----
 
---===============5059129669720199891==
+--===============5058020412292233013==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -337,7 +337,7 @@ c4ecd87f75ec4d5ac3006ef21ce07e812982e46e Merge tag 'tpm-v6.3-rc3' of git://git.k
 79d1ed5ca7db67d48e870c979f0e0f6b0947944a wifi: cfg80211: Partial revert "wifi: cfg80211: Fix use after free for wext"
 eeac8ede17557680855031c6f305ece2378af326 Linux 6.3-rc2
 
---===============5059129669720199891==
+--===============5058020412292233013==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -639,4 +639,4 @@ edfa970370a759c2c6a38b2884887937b1aea552 spi: rspi: Mark OF related data as mayb
 0762875674b969e35371ec5fe4b594d7a92ab364 spi: nxp-flexspi: Add i.MX platform dependency
 4d8ff713e684ea58111a33ea7df2e7ddc30683cc spi: struct spi_device constification
 
---===============5059129669720199891==--
+--===============5058020412292233013==--
