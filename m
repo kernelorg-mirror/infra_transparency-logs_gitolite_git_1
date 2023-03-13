@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8119249889780892948=="
+Content-Type: multipart/mixed; boundary="===============7604149755089921813=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Mon, 13 Mar 2023 07:39:41 -0000
-Message-Id: <167869318121.5456.16949192593125047491@gitolite.kernel.org>
+Date: Mon, 13 Mar 2023 07:39:48 -0000
+Message-Id: <167869318800.5544.308891641457050956@gitolite.kernel.org>
 
---===============8119249889780892948==
+--===============7604149755089921813==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-linus
-    old: fdf6c2309f425509cddd002f278c650ad0b7e34b
-    new: eeac8ede17557680855031c6f305ece2378af326
-    log: revlist-fdf6c2309f42-eeac8ede1755.txt
+  - ref: refs/heads/staging-next
+    old: 466123c54f3153b77c7460e08850c385fa4fe3fc
+    new: 458219ca9246076971961d695eef9eb56e05fcf7
+    log: revlist-466123c54f31-458219ca9246.txt
 
---===============8119249889780892948==
+--===============7604149755089921813==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1678693180 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1678693185 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1678693179-c45792bf99e3718d3e0a11049bce0cc6977d81b4
+nonce 1678693185-fddf1630493bbad54ad93452548c143725a8e529
 
-fdf6c2309f425509cddd002f278c650ad0b7e34b eeac8ede17557680855031c6f305ece2378af326 refs/heads/staging-linus
+466123c54f3153b77c7460e08850c385fa4fe3fc 458219ca9246076971961d695eef9eb56e05fcf7 refs/heads/staging-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQO0zwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+5MgP/2StGJduMxuUbADUNVD3
-aSo/OK5r+JVTVqGsYxzASipjqiFObl/AUahxRM8JlPsPzzSn/o+FEhRUMU638nGx
-E8q/cd6ddvfljwsjJZ5id0BdAPEDHshC92honTsKZBNXZke1yZEZ5QhPj+DSoj/4
-FZWVq6owKWzHXhpcRamyhEEEZ75thFawKtD6W+LACtriekdiu/NUwAN2lIE3b5vn
-YhuTo8kSYDvLfpMOscIwWVCD3gTAA/jcJpmSIePQsSh/iripFRGKI1/SB+kJb1T8
-trUtqgIAitTAvtsg1rEqsmFUIgOU9GvpBG+3TaaSUtEiidCUZRjzrtLmKBb6bFIn
-HIo8sQ+SsO3lE9L1ROQlOYkImjxT120jfaNlyvEx5LUx7RbuRkmCF8+l/SoLRUm6
-BILpWsDb7vWrg/Z1mgXiBKD5ATlqexJu47a6f6dvQIEkmeXNdV80DAL6l49xDoBJ
-uCZXfn/e2XIMtTsZmedTkKso26gvLT6gc55sd+qMPiXivSECvcW3Ej97K3rvbTcr
-nh3pwdcB/TXpCaQ56TRZidSS4vaam9y72MA+xeUooawEIO+U+/hOhc2cUC+TVPQH
-6ZsLJjwIf9yL/1HqIVPtheBaAQ9Tc1fKHYqgQTCqVY5KMBK0GebqvzPv6MFjjrt0
-/aLoJE5ahlWkP65QcM9RZ+Y3
-=fmmk
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQO00EbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+GB4QAJW6Wnjgir46F04dLZvj
+lEsWUS+7Ezgfm+AgN/VJROoUzHudkc7St9M0IzwlAgOR0B9yx8uatrEKSLmhAqlC
+Uinb277C3/m09/CwHtu7HWMLk3Plt/0HkQq9bfQfD9698mBApuy659zxoro7yzIO
+s6HDlqSl0jM5E+dZdwwVMv/b7DGagKlKTy0OSxDP6xvAP29iulqnmmkaZFeP+KCz
+IdePkYgsIfTx2Y++W5DSIsxqwCHSVd3v2rlZM5ksDt/8PYqfd8ad5T/s1EMNNLDD
+ZG6mp7US0da9Kd+a0Y7++4UAF9FXJEG3FQicRk5NbxijlJ09f+r2qR9VZa6PjYqI
+25LM3doCBExBkWLCtmHKATbszn7r7rgi/WAlCtRJv2zmhHcVItaiXs2vVf4T5+WS
+fuaEdvmxzZGBRG3seFQfLff9u68QZ6cM5gbb2CI0VTR7Hn3VJLLf+4pYkliJNNwg
+l3GVncI8u98coMhHUY9vQXfSF/pbUb8MqMSW4S1djTseDCuPPomwXDjz8TDDW7XW
+tylfHEfFvA8JjjijmXSSmC08sDsgr7HKF4w4dreQnAhethGMuI8aNALIEler3LK+
+7Ld/lFgi5Bc2ReMEARQnrl5QVcN9tPRN0FKWuaSojkbeFaGoXtasZziuD4n7gYNP
+kdzz3+AzxNjRtF2QOILzPGWk
+=3yWO
 -----END PGP SIGNATURE-----
 
---===============8119249889780892948==
+--===============7604149755089921813==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-fdf6c2309f42-eeac8ede1755.txt
+Content-Disposition: attachment; filename=revlist-466123c54f31-458219ca9246.txt
 
 7245e629dcaaf308f1868aeffa218e9849c77893 drm/cirrus: NULL-check pipe->plane.state->fb in cirrus_pipe_update()
 3638a820c5c3b52f327cebb174fd4274bee08aa7 drm/nouveau/kms/nv50: fix nv50_wndw_new_ prototype
@@ -252,6 +252,10 @@ e2f2a39452c43b64ea3191642a2661cb8d03827a block, bfq: fix uaf for 'stable_merge_b
 5b8e5319affc977d24b8ce7edd295907e969e217 MAINTAINERS: repair a malformed T: entry in IDMAPPED MOUNTS
 01e68ce08a30db3d842ce7a55f7f6e0474a55f9a io_uring/io-wq: stop setting PF_NO_SETAFFINITY on io-wq workers
 b0563468eeac88ebc70559d52a0b66efc37e4e9d x86/CPU/AMD: Disable XSAVES on AMD family 0x17
+a98fc23cc2c1e4382a79ff137ca1a93d6a73b451 staging: rtl8192e: Remove function ..dm_check_ac_dc_power calling a script
+fe413a074a93d56f89e322c786aad8639afe76b4 staging: rtl8192e: Remove call_usermodehelper starting RadioPower.sh
+05cbcc415c9b8c8bc4f9a09f8e03610a89042f03 staging: rtl8723bs: Fix key-store index handling
+d17789edd6a8270c38459e592ee536a84c6202db staging: rtl8723bs: Pass correct parameters to cfg80211_get_bss()
 7fef099702527c3b2c5234a2ea6a24411485a13a x86/resctl: fix scheduler confusion with 'current'
 a722511b18268bd1f7084eee243af416b85f288f drm/msm: DEVFREQ_GOV_SIMPLE_ONDEMAND is no longer needed
 55ee6646b6ba86574d1411af275c61a82fdfe10e Merge tag 'platform-drivers-x86-v6.3-2' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
@@ -263,6 +267,7 @@ c8b8a3c601f2cfad25ab5ce5b04df700048aef6e net: dsa: mt7530: permit port 5 to work
 6517a60b0307abdcca80133c237551cc7cc8e6ae tools: ynl: move the enum classes to shared code
 c311aaa74ca18bd0781d1d3bebd08484799f840c tools: ynl: fix enum-as-flags in the generic CLI
 2d8cb0bfca6a05f1731d4570941e85d65c669386 Merge branch 'tools-ynl-fix-enum-as-flags-in-the-generic-cli'
+fdf6c2309f425509cddd002f278c650ad0b7e34b staging: r8188eu: delete driver
 c3a4aec055ec275c9f860e88d37e97248927d898 splice: Remove redundant assignment to ret
 dc592190a5543c559010e09e8130a1af3f9068d3 fs/locks: Remove redundant assignment to cmd
 67eeadf2f95326f6344adacb70c880bf2ccff57b Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
@@ -334,5 +339,6 @@ f1324bbc4011ed8aef3f4552210fc429bcd616da tpm: disable hwrng for fTPM on some AMD
 c4ecd87f75ec4d5ac3006ef21ce07e812982e46e Merge tag 'tpm-v6.3-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 79d1ed5ca7db67d48e870c979f0e0f6b0947944a wifi: cfg80211: Partial revert "wifi: cfg80211: Fix use after free for wext"
 eeac8ede17557680855031c6f305ece2378af326 Linux 6.3-rc2
+458219ca9246076971961d695eef9eb56e05fcf7 Merge 6.3-rc2 into staging-next
 
---===============8119249889780892948==--
+--===============7604149755089921813==--
