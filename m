@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2158367216902630993=="
+Content-Type: multipart/mixed; boundary="===============2612750605264371384=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Mon, 13 Mar 2023 17:20:39 -0000
-Message-Id: <167872803975.30431.17446344287934118213@gitolite.kernel.org>
+Date: Mon, 13 Mar 2023 17:21:16 -0000
+Message-Id: <167872807676.30699.11932807847564558194@gitolite.kernel.org>
 
---===============2158367216902630993==
+--===============2612750605264371384==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: a1331535aeb41b08fe0c2c78af51885edc93615b
-    new: 95b744508d4d5135ae2a096ff3f0ee882bcc52b3
-    log: revlist-a1331535aeb4-95b744508d4d.txt
+  - ref: refs/heads/dev-queue
+    old: 3590dca7139a4aa60ae42fe54bbc52339e42fc45
+    new: 740b7e2f2db71b135aefe07962f080515f726d5e
+    log: revlist-3590dca7139a-740b7e2f2db7.txt
 
---===============2158367216902630993==
+--===============2612750605264371384==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a1331535aeb4-95b744508d4d.txt
+Content-Disposition: attachment; filename=revlist-3590dca7139a-740b7e2f2db7.txt
 
 59e6ded57cc1b3b5117cef66dabe6d7977208ba0 wifi: rtlwifi: rtl8192ce: fix dealing empty EEPROM values
 015bf4df8ea67080668ac8314e692076dea1ce6d wifi: wfx: Remove some dead code
@@ -132,5 +132,47 @@ bca93b20c3976ff5ca9fe373cf7acd0277492ae8 net: ethernet: ti: am65-cpsw: Update na
 494f642f8cddb49886b6442c9304b30a0c1ec084 Merge branch 'update-cpsw-bindings-for-serdes-phy'
 05ccd8d8a15e6b9c99b86cf8a2fd78e3f0c60a84 sfc: support offloading TC VLAN push/pop actions to the MAE
 95b744508d4d5135ae2a096ff3f0ee882bcc52b3 qede: remove linux/version.h and linux/compiler.h
+b05e42280445dd9b7ebbaddc0baef2ed05acf987 intel/igbvf: free irq on the error path in igbvf_request_msix()
+3f18541948ccbc7fb2b86ce976f7ed64c5f6db06 igb: Enable SR-IOV after reinit
+4d724c18ef5a43b72e558ef35aff6b32ac2d9886 igbvf: Regard vf reset nack as success
+89d563dd1d00274dba15eba7ec8738fa88ec4ceb i40e: Add ability to change VFs default MAC address
+9774166350758df55f7954f5dd8047ec846a8fa0 ice: xsk: disable txq irq before flushing hw
+56bfb8ef6cdcd8c176325a0a27d5188e662b8290 ice: Write all GNSS buffers instead of first one
+2b6e848ef1abb3943a25ab9634af35545b7e4c55 i40e: consolidate maximum frame size calculation for vsi
+2da3755ba63f9f742a06d65c52f572f50a8b6731 i40e: change Rx buffer size for legacy-rx to support XDP multi-buffer
+3d5e9ce9bdb35eda40e129afa8b998418b5c1e17 i40e: add pre-xdp page_count in rx_buffer
+839114e22f3ac87f87164fbee593022879cd9f0c i40e: Change size to truesize when using i40e_rx_buffer_flip()
+7348ad1e6f7416ff88283ee676a9ed4726626657 i40e: use frame_sz instead of recalculating truesize for building skb
+5064113d10fed1d9d003aec651a9cb0dea47f374 i40e: introduce next_to_process to i40e_ring
+57a85f7e16d8123c034e2967cacb9685013d0ad1 i40e: add xdp_buff to i40e_ring struct
+b5b84345cca50b3ec701c2683880ca80a51d2326 i40e: add support for XDP multi-buffer Rx
+e6776474a6b703a605b87599882b973f68e06595 ice: re-order ice_mbx_reset_snapshot function
+1437eeee37009f25af2fc954131ca1b07aaf005f ice: convert ice_mbx_clear_malvf to void and use WARN
+3693be961cd4797fcb1e3ae39fb7da1dc60f382e ice: track malicious VFs in new ice_mbx_vf_info structure
+293adc684a6bf223b05d8c0bd4c281b401667ae3 ice: move VF overflow message count into struct ice_mbx_vf_info
+350b5c305620e5570e2c68c6185636a760b902d1 ice: remove ice_mbx_deinit_snapshot
+0af9ad04309501bc44f18a8011f771bca9eb97ee ice: merge ice_mbx_report_malvf with ice_mbx_vf_state_handler
+dd3b45868f9551679ccd17690cb440c0851c1b85 ice: initialize mailbox snapshot earlier in PF init
+1703f3fce118b808dae974b259d52126131ffd08 ice: declare ice_vc_process_vf_msg in ice_virtchnl.h
+0f848d2988fa9ddc56f7a55e25b6d7be591b8760 ice: always report VF overflowing mailbox even without PF VSI
+f11470e0c5e988d9c20cf6a10e590c940ac50e85 ice: remove unnecessary &array[0] and just use array
+81e852bbcdccaf6f719b948eff8ac4c90ce257ec ice: pass mbxdata to ice_is_malicious_vf()
+ceeee7f29acb0201afc792197f4dfebec9e4e597 ice: print message if ice_mbx_vf_state_handler returns an error
+72214913ca6d579f0d8e95120adb09d357555708 ice: move ice_is_malicious_vf() to ice_virtchnl.c
+4039c33df03749d3ee277f9a557cce15676f9282 ice: call ice_is_malicious_vf() from ice_vc_process_vf_msg()
+c803fe19bbfe7275424dfdeb00b8efb911dedda9 i40e: Fix kernel crash during reboot when adapter is in recovery mode
+3db47b360ac50c7bdbf4c6d06cbd160272a76fbb igc: Remove obsolete DMA coalescing code
+7f05c651c0ada62746c9ed9cfa7d430f1882d9ec ice: avoid bonding causing auxiliary plug/unplug under RTNL lock
+3f0aa464d4b6227d2d25e026d4d2b865e4443827 ice: remove comment about not supporting driver reinit
+329df16361d05f933addccf4817f601de69a96de iavf: fix inverted Rx hash condition leading to disabled hash
+132ed424f04f9f2147014de1af35016711cde70a iavf: fix non-tunneled IPv6 UDP packet type and hashing
+c6240256498efad1e6612b1e5bacd44b8dbf8eaf igbvf: add PCI reset handler functions
+226b1cb6ce1ab5abe0c5451410c3de49ccbb1454 igb: revert rtnl_lock() that causes deadlock
+d6c447dcc6263c2c7c618ea233846f564ad3825a iavf: do not track VLAN 0 filters
+d2f115a7e5cc663db1c67a13870d7c53c0529f29 igc: fix the validation logic for taprio's gate list
+d7bdc0e7405625dc127a0bf3b0a8d248d2525b8f igb: refactor igb_ptp_adjfine_82580 to use diff_by_scaled_ppm
+17fe9fc5137df41facc007d1b7509ddc367e1a0b ixgbe: Panic during XDP_TX with > 64 CPUs
+1cd1c36186ca8207f0466578add904f8e0a32e44 ice: fix rx buffers handling for flow director packets
+740b7e2f2db71b135aefe07962f080515f726d5e ice: check if VF exists before mode check
 
---===============2158367216902630993==--
+--===============2612750605264371384==--
