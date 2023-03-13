@@ -1,56 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============6865380641184928771=="
+Content-Type: multipart/mixed; boundary="===============4089124329471859714=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Mon, 13 Mar 2023 19:06:31 -0000
-Message-Id: <167873439105.3804.13946730178812670934@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 13 Mar 2023 19:06:37 -0000
+Message-Id: <167873439790.3903.14541930548017964024@gitolite.kernel.org>
 
---===============6865380641184928771==
+--===============4089124329471859714==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.3
+  - ref: refs/heads/asoc-6.3
     old: e041a2a550582106cba6a7c862c90dfc2ad14492
     new: dda5c809d42389b82f37cbbe562044d8a29083c6
     log: revlist-e041a2a55058-dda5c809d423.txt
-  - ref: refs/heads/for-6.4
+  - ref: refs/heads/asoc-6.4
     old: 2d2998b84330899bf88a0414f3356869be4a69eb
     new: fe839119f0e9f69d0f49e63359382f4d1abd3eb7
     log: revlist-2d2998b84330-fe839119f0e9.txt
 
---===============6865380641184928771==
+--===============4089124329471859714==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1678734388 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1678734388-762f9600bc9f368809b4a213317d42b0eaa29218
+pusher C3F436CA30F5D8EB 1678734395 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1678734394-ee43ef17b2a7748601dfbd9a591dd95c6a3a2898
 
-e041a2a550582106cba6a7c862c90dfc2ad14492 dda5c809d42389b82f37cbbe562044d8a29083c6 refs/heads/for-6.3
-2d2998b84330899bf88a0414f3356869be4a69eb fe839119f0e9f69d0f49e63359382f4d1abd3eb7 refs/heads/for-6.4
+e041a2a550582106cba6a7c862c90dfc2ad14492 dda5c809d42389b82f37cbbe562044d8a29083c6 refs/heads/asoc-6.3
+2d2998b84330899bf88a0414f3356869be4a69eb fe839119f0e9f69d0f49e63359382f4d1abd3eb7 refs/heads/asoc-6.4
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmQPdDQACgkQJNaLcl1U
-h9Dgkwf+IeuJIfwVeTo5YP+ZGGmwBAt9J6HJtSWvIgVsuT7BSnwvUICifiCz1pW1
-XS8X6Hz9hg31/1rAzgo9QTli1gUQkZSTstFSm4SBDqdwu7nK7JYe3o1zt4ZEFg1A
-4AptrEEbW0tu6KJ1GH4MpDeDd7mNgRod/ccFMohqQUFrsRMtmgDW/eXRFsFbQ0e0
-VYK4WdG5YaGf8vc4ceLSaSkY7ssiSEsADpFkZjH4A5YuGj6BbyUzrcZXHiFhpnG2
-YO1WMElwF6zMNdics4KQnlCkxQyHXR12EPV5m1MMX/rPUppPl/1KHFenCjrhfHe5
-IPbsDZs+/2/ajnl56M9bUvKQGkSCdQ==
-=b/jH
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmQPdDsACgkQJNaLcl1U
+h9AM+wf/bWarh6pzYQ3zBgsQWKlwUYXuLY1NjA0zbe6keI/S6llywB/zFI5hjRCt
+Vd+FY8GwBxQkCC3Sm6DZwlnj0p1ZwkVuAuHaAw45jEQOKbPyOgF59oi7sM2QxAb+
+poDmWtGonv2Ti4i63UQo/g2TdegbRUiU9DzRjcj1oL+hojZnCTX5gB5Wi76qVv1N
+rokIGHIym+DWnyF4BjqyTMV49zfdCRAczvag+tm3yduktsvC1nDkHMuBUZojfxr/
+stFSBGUnKgrxM0dAiZFaYx7VI2Giz1V1e0CJ8R3o03TGLo/81R8gRKFDKnukosBD
+e8JtwmyZ8S8onx4cnxIf8G9k94mWsg==
+=geOB
 -----END PGP SIGNATURE-----
 
---===============6865380641184928771==
+--===============4089124329471859714==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -340,7 +340,7 @@ c4ecd87f75ec4d5ac3006ef21ce07e812982e46e Merge tag 'tpm-v6.3-rc3' of git://git.k
 eeac8ede17557680855031c6f305ece2378af326 Linux 6.3-rc2
 dda5c809d42389b82f37cbbe562044d8a29083c6 Merge tag 'v6.3-rc2' into asoc-6.3 to fix clock related failures
 
---===============6865380641184928771==
+--===============4089124329471859714==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -670,4 +670,4 @@ a9048d64fb9605eb68c9912724e4a1346db8ba1a ASoC: codecs: adau1977-spi: Mark OF rel
 da1f22825b4fec7e25431fa5238252452f3dce46 ASoC: codecs: zl38060: Mark OF related data as maybe unused
 fe839119f0e9f69d0f49e63359382f4d1abd3eb7 ASoC: mediatek: fix coverity problems
 
---===============6865380641184928771==--
+--===============4089124329471859714==--
