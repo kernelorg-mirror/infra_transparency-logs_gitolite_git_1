@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4908966282404894446=="
+Content-Type: multipart/mixed; boundary="===============2606894909647621806=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Mon, 13 Mar 2023 16:32:21 -0000
-Message-Id: <167872514154.29336.7404788657588353057@gitolite.kernel.org>
+Date: Mon, 13 Mar 2023 16:32:55 -0000
+Message-Id: <167872517571.29628.3906455337511027642@gitolite.kernel.org>
 
---===============4908966282404894446==
+--===============2606894909647621806==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: bced3f7db95ff2e6ca29dc4d1c9751ab5e736a09
-    new: 064d70527aaab23ef46c2481df706451f6814106
-    log: revlist-bced3f7db95f-064d70527aaa.txt
+  - ref: refs/heads/dev-queue
+    old: d81c8cfe6ccfe41602e7fc191ece739a0031b2f1
+    new: 7b87f65ef43b4b4bcd970a8b49da83b3d8a90507
+    log: revlist-d81c8cfe6ccf-7b87f65ef43b.txt
 
---===============4908966282404894446==
+--===============2606894909647621806==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bced3f7db95f-064d70527aaa.txt
+Content-Disposition: attachment; filename=revlist-d81c8cfe6ccf-7b87f65ef43b.txt
 
 068d82e75d537b444303b8c449a11e51ea659565 netfilter: nft_nat: correct length for loading protocol registers
 ec2c5917eb858428b2083d1c74f445aabbe8316b netfilter: nft_masq: correct length for loading protocol registers
@@ -63,5 +63,16 @@ b6985b9b82954caa53f862d6059d06c0526254f0 mptcp: use the workqueue to destroy una
 cee4034a3db1d30c3243dd51506a9d4ab1a849fa mptcp: fix lockdep false positive in mptcp_pm_nl_create_listen_socket()
 dee85ac02c1ac5420ebb9a92c6ba3ab0e03a3f2e Merge branch 'mptcp-fixes-for-6-3'
 064d70527aaab23ef46c2481df706451f6814106 Merge git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
+f9dfd4ac2482e4ffd3ab146f415e5e42c7a8fee2 intel/igbvf: free irq on the error path in igbvf_request_msix()
+db253207ab915beb157def77605afd1c9dc311a3 igb: Enable SR-IOV after reinit
+042992dfcdcd3405866761ab27d5f5e64d67dd13 igbvf: Regard vf reset nack as success
+64999f1d5a6aea17f914204613a74d357b2ab196 ice: xsk: disable txq irq before flushing hw
+ac6a870a34662af950ead600d57cd8ad7be502cc ice: Write all GNSS buffers instead of first one
+6767cc93a34ac4c058648ab31e9058f48ff18b05 ice: avoid bonding causing auxiliary plug/unplug under RTNL lock
+514601e56a5fd30cbea530e44dacf45ee1593504 iavf: fix inverted Rx hash condition leading to disabled hash
+692870e016aefb4226896781f4662bfcdaf312f6 iavf: fix non-tunneled IPv6 UDP packet type and hashing
+d5cf90f2691d15e7b0cfe4a04f4af5c8a1351288 igb: revert rtnl_lock() that causes deadlock
+144518134ddc8ab78a3c2a5cb4520dc013784f16 iavf: do not track VLAN 0 filters
+7b87f65ef43b4b4bcd970a8b49da83b3d8a90507 igc: fix the validation logic for taprio's gate list
 
---===============4908966282404894446==--
+--===============2606894909647621806==--
