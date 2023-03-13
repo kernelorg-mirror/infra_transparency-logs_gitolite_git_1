@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/remoteproc/linux
-Date: Mon, 13 Mar 2023 19:40:20 -0000
-Message-Id: <167873642053.26999.16139042753876947628@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/zx2c4/cgit
+Date: Mon, 13 Mar 2023 19:40:50 -0000
+Message-Id: <167873645084.27215.15354552993451749543@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/remoteproc/linux
-user: mjp
+repo: pub/scm/linux/kernel/git/zx2c4/cgit
+user: zx2c4
 changes:
-  - ref: refs/heads/for-next
-    old: fe15c26ee26efa11741a7b632e9f23b01aca4cc6
-    new: 408ec1ff0caa340c57eecf4cbd14ef0132036a50
+  - ref: refs/heads/ch/for-jason
+    old: 4dee601bb6042cf7db2472b9c34530850345f680
+    new: 2593cd813860d71bd85db48c919de3d6e41b8b57
     log: |
-         11bb42a94648af7d4fd570b7f7f26e74d9561ef0 remoteproc: imx_dsp_rproc: Add module parameter to ignore ready flag from remote processor
-         408ec1ff0caa340c57eecf4cbd14ef0132036a50 remoteproc: imx_dsp_rproc: Add custom memory copy implementation for i.MX DSP Cores
+         2593cd813860d71bd85db48c919de3d6e41b8b57 git: update to v2.40.0
          
