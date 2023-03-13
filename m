@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4657729213213210715=="
+Content-Type: multipart/mixed; boundary="===============3052365740335923508=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
-Date: Mon, 13 Mar 2023 01:11:23 -0000
-Message-Id: <167866988341.7036.12081937842044824708@gitolite.kernel.org>
+Date: Mon, 13 Mar 2023 01:11:54 -0000
+Message-Id: <167866991495.7380.10778217529290213636@gitolite.kernel.org>
 
---===============4657729213213210715==
+--===============3052365740335923508==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/xiang/erofs
 user: xiang
 changes:
-  - ref: refs/heads/dev-test
+  - ref: refs/heads/dev
     old: 8cc07139c3a8b5f1adec4dfd02bcb87ced24ea8e
     new: 8abb522e5988e35dc60162401eedef732f85ca3f
     log: revlist-8cc07139c3a8-8abb522e5988.txt
 
---===============4657729213213210715==
+--===============3052365740335923508==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -306,4 +306,4 @@ eeac8ede17557680855031c6f305ece2378af326 Linux 6.3-rc2
 5baee6cbb75a317d262af9e96bbbda6b6c862ae7 erofs: avoid hardcoded blocksize for subpage block support
 8abb522e5988e35dc60162401eedef732f85ca3f erofs: set block size to the on-disk block size
 
---===============4657729213213210715==--
+--===============3052365740335923508==--
