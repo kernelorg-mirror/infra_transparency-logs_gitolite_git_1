@@ -1,34 +1,34 @@
-Content-Type: multipart/mixed; boundary="===============6341104907094267677=="
+Content-Type: multipart/mixed; boundary="===============7022185227976050944=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Mon, 13 Mar 2023 19:07:14 -0000
-Message-Id: <167873443492.4553.5624952876506477752@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regmap
+Date: Mon, 13 Mar 2023 19:07:23 -0000
+Message-Id: <167873444338.4658.12955735460412860275@gitolite.kernel.org>
 
---===============6341104907094267677==
+--===============7022185227976050944==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/regmap
 user: broonie
 changes:
   - ref: refs/heads/for-linus
-    old: e041a2a550582106cba6a7c862c90dfc2ad14492
-    new: dda5c809d42389b82f37cbbe562044d8a29083c6
-    log: revlist-e041a2a55058-dda5c809d423.txt
+    old: 8ca09d5fa3549d142c2080a72a4c70ce389163cd
+    new: eeac8ede17557680855031c6f305ece2378af326
+    log: revlist-8ca09d5fa354-eeac8ede1755.txt
   - ref: refs/heads/for-next
-    old: bb4f34dd017628d493c6214b3adb8373d4188528
-    new: ddf943dfed0cb2bb2c4021d4de72fd6005a3138d
-    log: revlist-bb4f34dd0176-ddf943dfed0c.txt
+    old: 8cb47813a82c8ee7430f10dc43f77662a4966357
+    new: 24d80fde40c995b2e2faaf72034e12e60a416630
+    log: revlist-8cb47813a82c-24d80fde40c9.txt
 
---===============6341104907094267677==
+--===============7022185227976050944==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-e041a2a55058-dda5c809d423.txt
+Content-Disposition: attachment; filename=revlist-8ca09d5fa354-eeac8ede1755.txt
 
 7245e629dcaaf308f1868aeffa218e9849c77893 drm/cirrus: NULL-check pipe->plane.state->fb in cirrus_pipe_update()
 3638a820c5c3b52f327cebb174fd4274bee08aa7 drm/nouveau/kms/nv50: fix nv50_wndw_new_ prototype
@@ -139,13 +139,11 @@ c06016a02a6e316d861f7dddd4b70419a47ded2f btrfs: handle btrfs_del_item errors in 
 98e8d36a26c2ed22f78316df7d4bf33e554b9f9f btrfs: fix unnecessary increment of read error stat on write error
 95cd356ca23c3807b5f3503687161e216b1c520d btrfs: fix percent calculation for bg reclaim message
 e4cc1483f35940c9288c332dd275f6fad485f8d2 btrfs: fix extent map logging bit not cleared for split maps after dropping range
-80c16b2b121fbc3380dbffa9bab7559acbaaa2ed cpumask: Fix typo nr_cpumask_size --> nr_cpumask_bits
 294635a8165a31408a8b3a24f9c74849ca3d8701 bpf, test_run: fix &xdp_frame misplacement for LIVE_FRAMES
 66305069eb6d17d9190cbcd196f3f7487df47ae8 Merge tag 'drm-misc-fixes-2023-02-23' of git://anongit.freedesktop.org/drm/drm-misc into drm-fixes
 9b459804ff9973e173fabafba2a1319f771e85fa btf: fix resolving BTF_KIND_VAR after ARRAY, STRUCT, UNION, PTR
 dfdd608c3b365f0fd49d7e13911ebcde06b9865b selftests/bpf: check that modifier resolves after pointer
 32dfc59e43019e43deab7afbfff37a2f9f17a222 Merge branch 'fix resolving VAR after DATASEC'
-8ca09d5fa3549d142c2080a72a4c70ce389163cd cpumask: fix incorrect cpumask scanning result checks
 06a1574b94ee5272789eaea05a5bdddedea7cc0d tools headers UAPI: Sync linux/perf_event.h with the kernel sources
 5b201a82cd9d0945d70562974ea6ad8e3b1861b5 perf tools: Add Adrian Hunter to MAINTAINERS as a reviewer
 58aac3a2ef414fea6d7fdf823ea177744a087d13 net: phy: smsc: fix link up detection in forced irq mode
@@ -312,13 +310,12 @@ f1324bbc4011ed8aef3f4552210fc429bcd616da tpm: disable hwrng for fTPM on some AMD
 c4ecd87f75ec4d5ac3006ef21ce07e812982e46e Merge tag 'tpm-v6.3-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 79d1ed5ca7db67d48e870c979f0e0f6b0947944a wifi: cfg80211: Partial revert "wifi: cfg80211: Fix use after free for wext"
 eeac8ede17557680855031c6f305ece2378af326 Linux 6.3-rc2
-dda5c809d42389b82f37cbbe562044d8a29083c6 Merge tag 'v6.3-rc2' into asoc-6.3 to fix clock related failures
 
---===============6341104907094267677==
+--===============7022185227976050944==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-bb4f34dd0176-ddf943dfed0c.txt
+Content-Disposition: attachment; filename=revlist-8cb47813a82c-24d80fde40c9.txt
 
 7245e629dcaaf308f1868aeffa218e9849c77893 drm/cirrus: NULL-check pipe->plane.state->fb in cirrus_pipe_update()
 3638a820c5c3b52f327cebb174fd4274bee08aa7 drm/nouveau/kms/nv50: fix nv50_wndw_new_ prototype
@@ -429,13 +426,11 @@ c06016a02a6e316d861f7dddd4b70419a47ded2f btrfs: handle btrfs_del_item errors in 
 98e8d36a26c2ed22f78316df7d4bf33e554b9f9f btrfs: fix unnecessary increment of read error stat on write error
 95cd356ca23c3807b5f3503687161e216b1c520d btrfs: fix percent calculation for bg reclaim message
 e4cc1483f35940c9288c332dd275f6fad485f8d2 btrfs: fix extent map logging bit not cleared for split maps after dropping range
-80c16b2b121fbc3380dbffa9bab7559acbaaa2ed cpumask: Fix typo nr_cpumask_size --> nr_cpumask_bits
 294635a8165a31408a8b3a24f9c74849ca3d8701 bpf, test_run: fix &xdp_frame misplacement for LIVE_FRAMES
 66305069eb6d17d9190cbcd196f3f7487df47ae8 Merge tag 'drm-misc-fixes-2023-02-23' of git://anongit.freedesktop.org/drm/drm-misc into drm-fixes
 9b459804ff9973e173fabafba2a1319f771e85fa btf: fix resolving BTF_KIND_VAR after ARRAY, STRUCT, UNION, PTR
 dfdd608c3b365f0fd49d7e13911ebcde06b9865b selftests/bpf: check that modifier resolves after pointer
 32dfc59e43019e43deab7afbfff37a2f9f17a222 Merge branch 'fix resolving VAR after DATASEC'
-8ca09d5fa3549d142c2080a72a4c70ce389163cd cpumask: fix incorrect cpumask scanning result checks
 06a1574b94ee5272789eaea05a5bdddedea7cc0d tools headers UAPI: Sync linux/perf_event.h with the kernel sources
 5b201a82cd9d0945d70562974ea6ad8e3b1861b5 perf tools: Add Adrian Hunter to MAINTAINERS as a reviewer
 58aac3a2ef414fea6d7fdf823ea177744a087d13 net: phy: smsc: fix link up detection in forced irq mode
@@ -602,21 +597,8 @@ f1324bbc4011ed8aef3f4552210fc429bcd616da tpm: disable hwrng for fTPM on some AMD
 c4ecd87f75ec4d5ac3006ef21ce07e812982e46e Merge tag 'tpm-v6.3-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 79d1ed5ca7db67d48e870c979f0e0f6b0947944a wifi: cfg80211: Partial revert "wifi: cfg80211: Fix use after free for wext"
 eeac8ede17557680855031c6f305ece2378af326 Linux 6.3-rc2
-dda5c809d42389b82f37cbbe562044d8a29083c6 Merge tag 'v6.3-rc2' into asoc-6.3 to fix clock related failures
-32ef0f1a7f01b1832e108380bb2178270058f1f6 Merge tag 'v6.3-rc2' into asoc-6.4 to fix clock related boot issues
-4727d4d775654986913a21c35c7cfaf1ecdafd62 ASoC: Merge up fixes as a dependency for future SOF work
-ff728899065922534d80170685fb807194d6487b ASoC: mediatek: mt8195: add dai id check before accessing array
-1a3f0116b74ba2f9477c28fcf9d66ac7126455fd ASoC: mediatek: mt9195-mt6359: fix UNINIT problem
-9760e01b3851dc51d1901876668168328d34a647 ASoC: mediatek: mt6358: fix UNINIT problem
-3a60fa4c063dacc5eb66660aa23107f3cb8a477e ASoC: mediatek: mt6359: fix UNINIT problem
-8cd3cb17fcf216cb859f86a00fff428fbcecc1d8 ASoC: SOF: sof-audio: add support for setting up loopback routes
-d7d103d1779c3d0bc4d55f2802930a6b067450c0 ASoC: SMA1303: set sma_i2c_regmap storage-class-specifier to static
-a9048d64fb9605eb68c9912724e4a1346db8ba1a ASoC: codecs: adau1977-spi: Mark OF related data as maybe unused
-413beba1a336e6068119f31a4441c51a7aeb1b55 ASoC: codecs: pcm179x-spi: Mark OF related data as maybe unused
-0e8599a35823f05e90513918ff1201f8d210e315 ASoC: codecs: rt1019: Mark OF related data as maybe unused
-075a430db402eed0907b80493f1432d47a5120a7 ASoC: codecs: src4xxx-i2c: Mark OF related data as maybe unused
-da1f22825b4fec7e25431fa5238252452f3dce46 ASoC: codecs: zl38060: Mark OF related data as maybe unused
-fe839119f0e9f69d0f49e63359382f4d1abd3eb7 ASoC: mediatek: fix coverity problems
-ddf943dfed0cb2bb2c4021d4de72fd6005a3138d Merge remote-tracking branch 'asoc/for-6.4' into asoc-next
+83c05c97a325abdd8b4209b9c7165f1701081ba1 Merge tag 'v6.3-rc2' into regmap-6.4 to fix clock related boot issues
+fd883d79e4dcd2417c2b80756f22a2ff03b0f6e0 regmap: cache: Return error in cache sync operations for REGCACHE_NONE
+24d80fde40c995b2e2faaf72034e12e60a416630 regmap: cache: Silence checkpatch warning
 
---===============6341104907094267677==--
+--===============7022185227976050944==--
