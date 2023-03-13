@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============2187216571568646262=="
+Content-Type: multipart/mixed; boundary="===============8873664977809468067=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 13 Mar 2023 12:51:12 -0000
-Message-Id: <167871187286.10178.4812666433872816690@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/niks/linux
+Date: Mon, 13 Mar 2023 12:53:26 -0000
+Message-Id: <167871200610.10969.5930178513533947435@gitolite.kernel.org>
 
---===============2187216571568646262==
+--===============8873664977809468067==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: bp
+repo: pub/scm/linux/kernel/git/niks/linux
+user: niks
 changes:
-  - ref: refs/heads/x86/urgent
-    old: b0563468eeac88ebc70559d52a0b66efc37e4e9d
-    new: 72f7754dcf31c87c92c0c353dcf747814cc5ce10
-    log: revlist-b0563468eeac-72f7754dcf31.txt
+  - ref: refs/heads/has_ioport_v3
+    old: 5023bf9ceece763aa45fe88023ae291b871fb61a
+    new: e1d39597ee7ce5ec8370796310989d5a6e0cffc7
+    log: revlist-5023bf9ceece-e1d39597ee7c.txt
 
---===============2187216571568646262==
+--===============8873664977809468067==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-b0563468eeac-72f7754dcf31.txt
+Content-Disposition: attachment; filename=revlist-5023bf9ceece-e1d39597ee7c.txt
 
 7245e629dcaaf308f1868aeffa218e9849c77893 drm/cirrus: NULL-check pipe->plane.state->fb in cirrus_pipe_update()
 3638a820c5c3b52f327cebb174fd4274bee08aa7 drm/nouveau/kms/nv50: fix nv50_wndw_new_ prototype
@@ -220,6 +220,7 @@ cdd28833100c18a469c85a1cc3de9f6bbbe6caa0 net: microchip: sparx5: fix deletion of
 e2f2a39452c43b64ea3191642a2661cb8d03827a block, bfq: fix uaf for 'stable_merge_bfqq'
 5b8e5319affc977d24b8ce7edd295907e969e217 MAINTAINERS: repair a malformed T: entry in IDMAPPED MOUNTS
 01e68ce08a30db3d842ce7a55f7f6e0474a55f9a io_uring/io-wq: stop setting PF_NO_SETAFFINITY on io-wq workers
+b0563468eeac88ebc70559d52a0b66efc37e4e9d x86/CPU/AMD: Disable XSAVES on AMD family 0x17
 a98fc23cc2c1e4382a79ff137ca1a93d6a73b451 staging: rtl8192e: Remove function ..dm_check_ac_dc_power calling a script
 fe413a074a93d56f89e322c786aad8639afe76b4 staging: rtl8192e: Remove call_usermodehelper starting RadioPower.sh
 05cbcc415c9b8c8bc4f9a09f8e03610a89042f03 staging: rtl8723bs: Fix key-store index handling
@@ -307,12 +308,43 @@ f1324bbc4011ed8aef3f4552210fc429bcd616da tpm: disable hwrng for fTPM on some AMD
 c4ecd87f75ec4d5ac3006ef21ce07e812982e46e Merge tag 'tpm-v6.3-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 79d1ed5ca7db67d48e870c979f0e0f6b0947944a wifi: cfg80211: Partial revert "wifi: cfg80211: Fix use after free for wext"
 eeac8ede17557680855031c6f305ece2378af326 Linux 6.3-rc2
-d6fd48eff7506bb866a54e40369df8899f2078a9 virt/coco/sev-guest: Check SEV_SNP attribute at probe time
-970ab823743fb54b42002ec76c51481f67436444 virt/coco/sev-guest: Simplify extended guest request handling
-c5a338274bdb894f088767bea856be344d0ccaef virt/coco/sev-guest: Remove the disable_vmpck label in handle_guest_request()
-0fdb6cc7c89cb5e0cbc45dbdbafb8e3fb92ddc95 virt/coco/sev-guest: Carve out the request issuing logic into a helper
-d25bae7dc7b0668cb2a1325c64eb32d5fea4e5a9 virt/coco/sev-guest: Do some code style cleanups
-fa4ae42cc60a7dea30e8f2db444b808d80862345 virt/coco/sev-guest: Convert the sw_exit_info_2 checking to a switch-case
-72f7754dcf31c87c92c0c353dcf747814cc5ce10 virt/coco/sev-guest: Add throttling awareness
+5b7106f7135684cf397f0c9598c4adc969b72824 Kconfig: introduce HAS_IOPORT option and select it as necessary
+0d8a5e972362d9a10101fe121a29dc705ab9d1bc ata: add HAS_IOPORT dependencies
+22113dba24bc4350c92f53e4dc7c1bf2a3c9cf13 char: impi, tpm: depend on HAS_IOPORT
+e958e7c3f8bd78e1fbfb0e88b5f81de361282cc4 comedi: add HAS_IOPORT dependencies
+1521c816137c7fb157f48622c39a6b147006e835 counter: add HAS_IOPORT dependencies
+2c3ab34a1634901bb75cc269dc7c011b6e3cad77 /dev/port: don't compile file operations without CONFIG_DEVPORT
+fb8c75dd3fe82a516a6541f811aa6a53f1ad1eba drm: handle HAS_IOPORT dependencies
+ce64dc5c52e43af22b01973c9b17582b73bc924c firmware: dmi-sysfs: handle HAS_IOPORT=n
+4a224b1ba1fb590acba07ef730786ffcf0b93a20 gpio: add HAS_IOPORT dependencies
+2fc2db34f325a28b4a768bb7fe6c76d0232c6e46 hwmon: add HAS_IOPORT dependencies
+a20d10d819a7991c1c1ac51ed716657d8960431f i2c: add HAS_IOPORT dependencies
+6cff001893c5c707c0a94d860c376fb2290e51a5 iio: ad7606: Kconfig: add HAS_IOPORT dependencies
+4022b4e9776582228d75730152ee0797af9324bd Input: add HAS_IOPORT dependencies
+fd13b6324b117947811779ec6200e6e46559d597 Input: gameport: add ISA and HAS_IOPORT dependencies
+a227715e9844fd0be7897279d450832b98d0ebd8 leds: add HAS_IOPORT dependencies
+d717bb009c8c5a17583b7a083c2684676661b360 media: add HAS_IOPORT dependencies
+7b9c0763cc85f9f739b7c3e8792cdc56cc87697e misc: add HAS_IOPORT dependencies
+a085b195258ebd6b4272ac3be2158ffa1d35baaa mISDN: add HAS_IOPORT dependencies
+7ac25e2b7a7a966ede832bae8045e14c32debe29 mpt fusion: add HAS_IOPORT dependencies
+21bfd1b89209310f03150bb71afc517651d8ffa8 net: handle HAS_IOPORT dependencies
+618728b69d9e0e8f4201fefd7086585451e355c1 parport: PC style parport depends on HAS_IOPORT
+f7f470e42aa8010342de75693bdba37a9c881fd6 PCI: Make quirk using inw() depend on HAS_IOPORT
+cb0eff020219effe3b5f0b09de4a61bcd9d05ae0 PCI/sysfs: Make I/O resource depend on HAS_IOPORT
+2701a7f71d47543c43b14436c943db34980f6ddc pcmcia: add HAS_IOPORT dependencies
+1618896bf593adcd64ca300060d5dfd79e3a9809 platform: add HAS_IOPORT dependencies
+fe5f42bd24f200fbf778ad6e57bcd000ac53ecec pnp: add HAS_IOPORT dependencies
+a3898a0bc2dbba71af5be2afeed262b283d6a587 power: add HAS_IOPORT dependencies
+e8141db03c5c5859a3fe7ac7eca59545fb7affd7 rtc: add HAS_IOPORT dependencies
+0e6470406d8debfe3a8065b33daa54000063fd76 scsi: add HAS_IOPORT dependencies
+a7cfbebb61d8ba2757930481601f3a41a0090eee sound: add HAS_IOPORT dependencies
+934630d9b0d20af28dfc4dc4cf849f4089c2017e speakup: add HAS_IOPORT dependency for SPEAKUP_SERIALIO
+1dcf13e0eaaa09e06b435953faf6fe587b754a17 staging: add HAS_IOPORT dependencies
+5efb7cf0c8797cc0ba2ad0805dcc2a4a9f60d48f tty: serial: handle HAS_IOPORT dependencies
+342cff45568ab3ff08579665c12a91baf7b56051 usb: handle HAS_IOPORT dependencies
+7133666e4d363e25593cdc835c41403ec71d8ab8 video: handle HAS_IOPORT dependencies
+d935051c43ccc7168ba683771140dd6a7510c9a3 watchdog: add HAS_IOPORT dependencies
+ca581aa9a355b59343a2e7ddb188413b81478af8 wireless: add HAS_IOPORT dependencies
+e1d39597ee7ce5ec8370796310989d5a6e0cffc7 asm-generic/io.h: drop inb() etc for HAS_IOPORT=n
 
---===============2187216571568646262==--
+--===============8873664977809468067==--
