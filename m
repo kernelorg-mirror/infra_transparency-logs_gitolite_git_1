@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3408090292890840561=="
+Content-Type: multipart/mixed; boundary="===============4637717093617812155=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
-Date: Mon, 13 Mar 2023 11:01:06 -0000
-Message-Id: <167870526650.29993.8059348108056951182@gitolite.kernel.org>
+Date: Mon, 13 Mar 2023 11:01:15 -0000
+Message-Id: <167870527554.30114.14705826186998237582@gitolite.kernel.org>
 
---===============3408090292890840561==
+--===============4637717093617812155==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/johan/usb-serial
 user: johan
 changes:
-  - ref: refs/heads/usb-next
-    old: 617c331d91077f896111044628c096802551dc66
+  - ref: refs/heads/master
+    old: 4ec5183ec48656cec489c49f989c508b68b518e3
     new: eeac8ede17557680855031c6f305ece2378af326
-    log: revlist-617c331d9107-eeac8ede1755.txt
+    log: revlist-4ec5183ec486-eeac8ede1755.txt
 
---===============3408090292890840561==
+--===============4637717093617812155==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-617c331d9107-eeac8ede1755.txt
+Content-Disposition: attachment; filename=revlist-4ec5183ec486-eeac8ede1755.txt
 
 4a7d37e824f57dbace61abf62f53843800bd245c Merge tag 'hardening-v6.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
 7ae9fb1b7ecbb5d85d07857943f677fd1a559b18 Merge branch 'next' into for-linus
@@ -1051,4 +1051,4 @@ c4ecd87f75ec4d5ac3006ef21ce07e812982e46e Merge tag 'tpm-v6.3-rc3' of git://git.k
 79d1ed5ca7db67d48e870c979f0e0f6b0947944a wifi: cfg80211: Partial revert "wifi: cfg80211: Fix use after free for wext"
 eeac8ede17557680855031c6f305ece2378af326 Linux 6.3-rc2
 
---===============3408090292890840561==--
+--===============4637717093617812155==--
