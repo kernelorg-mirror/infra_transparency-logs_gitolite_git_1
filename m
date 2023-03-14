@@ -1,58 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============2854483015826860811=="
+Content-Type: multipart/mixed; boundary="===============3201813552324232040=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Tue, 14 Mar 2023 15:11:49 -0000
-Message-Id: <167880670949.10918.2878753155928006470@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 14 Mar 2023 15:11:58 -0000
+Message-Id: <167880671879.11091.2810268394164630460@gitolite.kernel.org>
 
---===============2854483015826860811==
+--===============3201813552324232040==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.3
+  - ref: refs/heads/asoc-6.3
     old: dda5c809d42389b82f37cbbe562044d8a29083c6
     new: 083a25b18d6ad9f1f540e629909aa3eaaaf01823
     log: |
          083a25b18d6ad9f1f540e629909aa3eaaaf01823 ASoC: soc-pcm: fix hw->formats cleared by soc_pcm_hw_init() for dpcm
          
-  - ref: refs/heads/for-6.4
+  - ref: refs/heads/asoc-6.4
     old: fe839119f0e9f69d0f49e63359382f4d1abd3eb7
     new: 9c3bd7904b9333fb8619246e636a3afb5146ac26
     log: revlist-fe839119f0e9-9c3bd7904b93.txt
 
---===============2854483015826860811==
+--===============3201813552324232040==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1678806707 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1678806706-192a94e323baef3af4926af2b579896c62d4c0d3
+pusher C3F436CA30F5D8EB 1678806716 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1678806715-5a35821d3684d4ed415963097eec702408b415d1
 
-dda5c809d42389b82f37cbbe562044d8a29083c6 083a25b18d6ad9f1f540e629909aa3eaaaf01823 refs/heads/for-6.3
-fe839119f0e9f69d0f49e63359382f4d1abd3eb7 9c3bd7904b9333fb8619246e636a3afb5146ac26 refs/heads/for-6.4
+dda5c809d42389b82f37cbbe562044d8a29083c6 083a25b18d6ad9f1f540e629909aa3eaaaf01823 refs/heads/asoc-6.3
+fe839119f0e9f69d0f49e63359382f4d1abd3eb7 9c3bd7904b9333fb8619246e636a3afb5146ac26 refs/heads/asoc-6.4
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmQQjrMACgkQJNaLcl1U
-h9CWlQgAgxEqsToYLDvHscgsgWP65oCty3WK9OTIG/BrJijJwrXzD+W5qJqCx31s
-KvctKWF1T11qqHh2/qOnHBKGNzgvvvSSw1r8dKWQWzJDnouASwDtA/ZKoajJV4qi
-I4VWR5KhK42FeFGXtdDAKF6Ax8Bke7ZTAiCa/zT8b7Nh2nEDx7selk7hHZ1sP8G3
-RT0cK7peZi9lu99Bt/hk18DtEX2STfo3pXlG2AmOLDpBzY7ArcIu42cSChl3cl2k
-L+seCG7irE4dfkkVsVAlB/7z3pUOOJQERK/vlQiEe9quTwEjqf98NjApVUEy9opQ
-76bsIEYttw84NhP7ECMUTDmnLNURFw==
-=WmI9
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmQQjrwACgkQJNaLcl1U
+h9Bt2Af/dW1stD9rSDLVwshXEi2dYftMIEeFBnu30ShZKtwaAz6DmmMzfrO6c1HX
+A8k0f3/eLOjz4a6E+On6mxG2F++e7vUL5yLEloosuFadYFGP6ILl76LxuIdFYyza
+uTDazx8P1xlxXrnmr16XfjmMIbWKhWFLvs2y0/XNW6x4ckIAcqfV7DMuPkfRYVCQ
+VSzq1AU+naLS7MK9H9VcUh6ESznkWaguY/KZ2pGt9bk22l8ngRJuMvFh8qzNNV3t
+TiVLAbHWMAwegyQJclE5olf5zT7zITkhCBvgVa5OOaefYlvXDx+Q08SYGVoIOYt3
+Y6kwBdjblK9AA0wV+0KNz+sNDVmQSA==
+=mZ+e
 -----END PGP SIGNATURE-----
 
---===============2854483015826860811==
+--===============3201813552324232040==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -80,4 +80,4 @@ ad70f2f0e6e38675d7805482d2c625fca5756a2e ASoC: SOF: ipc4-topology: Search only p
 bec88efd7fd158eef4fdda1007cf831926a95f16 ASoC: SOF: ipc4: Add support for bytes control
 9c3bd7904b9333fb8619246e636a3afb5146ac26 ASoC: SOF: ipc4: Add support for formats per pins
 
---===============2854483015826860811==--
+--===============3201813552324232040==--
