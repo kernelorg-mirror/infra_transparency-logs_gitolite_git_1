@@ -1,26 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-dt
-Date: Tue, 14 Mar 2023 15:35:31 -0000
-Message-Id: <167880813157.27951.16245812873781450551@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
+Date: Tue, 14 Mar 2023 15:38:02 -0000
+Message-Id: <167880828255.28817.8913589555804013176@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux-dt
-user: krzk
+repo: pub/scm/linux/kernel/git/snitzer/linux
+user: snitzer
 changes:
-  - ref: refs/heads/for-next
-    old: 3faf80d649e750b756b50252db9fad0b8c798e5b
-    new: a3e54f180247c3803ba4da8af9b7cd442496758b
+  - ref: refs/heads/2023-03-01-thin-concurrency-8
+    old: f08a7a33e1cce493e84911647996dcb3c2bf005e
+    new: 70d3f692ea07147ac1adc2c152035b3b183bcefe
     log: |
-         fce7defb8a46c31cf9384fee6e4b1e4920c46ff7 arm64: dts: marvell: armada-ap810: Fix GICv3 ITS node name
-         a3e54f180247c3803ba4da8af9b7cd442496758b Merge branch 'next/dt64' into for-next
-         
-  - ref: refs/heads/next/dt64
-    old: 8a922b7728a93d837954315c98b84f6b78de0c4f
-    new: fce7defb8a46c31cf9384fee6e4b1e4920c46ff7
-    log: |
-         fce7defb8a46c31cf9384fee6e4b1e4920c46ff7 arm64: dts: marvell: armada-ap810: Fix GICv3 ITS node name
+         70d3f692ea07147ac1adc2c152035b3b183bcefe [bufio] tweak do_global_cleanup()
          
