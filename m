@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Tue, 14 Mar 2023 04:42:25 -0000
-Message-Id: <167876894571.2669.9328100817999659221@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Tue, 14 Mar 2023 05:07:05 -0000
+Message-Id: <167877042570.19522.15061946186678357046@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: ast
 changes:
-  - ref: refs/heads/rcu/next
-    old: d9054d7e73c63c05cb6691e67a050f97bbd4918e
-    new: 6b1dda8e725c7e7dbfed029d9449c4dedc98cc10
+  - ref: refs/heads/master
+    old: 9e36a204bd43553a9cd4bd574612cd9a5df791ea
+    new: ab4c15feb2ebcf9f4abe31457d7cbc8f3de9c2ab
     log: |
-         63ccf1be567614f32decf4a71843545242a3e6e7 locktorture: Add long_hold to adjust lock-hold delays
-         6b1dda8e725c7e7dbfed029d9449c4dedc98cc10 Revert "rcu/kvfree: Eliminate k[v]free_rcu() single argument macro"
+         27d7fdf06fdb84455ff585b58c8034e2fab42583 bpf: use canonical ftrace path
+         ab4c15feb2ebcf9f4abe31457d7cbc8f3de9c2ab selftests/bpf: use canonical ftrace path
          
