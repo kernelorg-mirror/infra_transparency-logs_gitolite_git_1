@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/westeri/thunderbolt
-Date: Tue, 14 Mar 2023 14:23:19 -0000
-Message-Id: <167880379986.10934.10190717702948188596@gitolite.kernel.org>
+Date: Tue, 14 Mar 2023 14:23:50 -0000
+Message-Id: <167880383058.11150.6332173836925983340@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,10 +11,10 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/westeri/thunderbolt
 user: westeri
 changes:
-  - ref: refs/heads/fixes
-    old: c82510b1d87bdebfe916048857d2ef46f1778aa5
-    new: 005c26aa436af8b628d9e9badf4d264628635cc5
+  - ref: refs/heads/next
+    old: 988b18553f42cc2e123385f7856361e3afb3ce4e
+    new: ebde5ba27c640e08e92c83fe30be0d9fa224eea9
     log: |
-         62ba0ac58f2324887407b0547ff0ea083eb3f164 thunderbolt: Use const qualifier for `ring_interrupt_index`
-         005c26aa436af8b628d9e9badf4d264628635cc5 thunderbolt: Disable interrupt auto clear for rings
+         c8325b3227508459fab42f4f48fb232bc687f1ba thunderbolt: use `tb_eeprom_get_drom_offset` to discover DROM offset
+         ebde5ba27c640e08e92c83fe30be0d9fa224eea9 thunderbolt: Refactor DROM reading
          
