@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/efi/efi
-Date: Tue, 14 Mar 2023 09:49:19 -0000
-Message-Id: <167878735930.25231.8610007671340348844@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Tue, 14 Mar 2023 09:55:02 -0000
+Message-Id: <167878770293.29650.10488348431314476183@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/efi/efi
-user: ardb
+repo: pub/scm/linux/kernel/git/tip/tip
+user: peterz
 changes:
-  - ref: refs/heads/urgent
-    old: 7949368e93e48a15ac5976405def16f8c84c837b
-    new: ef3efc2af044f6da5bb8c55e99f2398081d99c09
+  - ref: refs/heads/locking/core
+    old: 63802adef67c6ea9a7fe4ce19328cc6e37f0abd7
+    new: f7faedffa92c35afbcfbf0a3dd73079e16b2b87f
     log: |
-         ef3efc2af044f6da5bb8c55e99f2398081d99c09 efi: libstub: Use relocated version of kernel's struct screen_info
+         f7faedffa92c35afbcfbf0a3dd73079e16b2b87f drm/i915/gt: use __xchg instead of internal helper
          
