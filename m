@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvmarm/kvmarm
-Date: Tue, 14 Mar 2023 18:07:55 -0000
-Message-Id: <167881727587.32715.3499326208729441612@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/andy/linux-gpio-intel
+Date: Tue, 14 Mar 2023 18:08:37 -0000
+Message-Id: <167881731760.511.11874953578547545926@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvmarm/kvmarm
-user: oupton
+repo: pub/scm/linux/kernel/git/andy/linux-gpio-intel
+user: andy
 changes:
-  - ref: refs/heads/fixes
-    old: f6da81f650fa47b61b847488f3938d43f90d093d
-    new: 13ec9308a85702af7c31f3638a2720863848a7f2
+  - ref: refs/heads/review-andy
+    old: 22f9fa11619d4eb7e78997935fcfb446f751d62a
+    new: 0928069402ec683f3dd2b0ddd8b22aa7e6655490
     log: |
-         13ec9308a85702af7c31f3638a2720863848a7f2 KVM: arm64: Retry fault if vma_lookup() results become invalid
+         0928069402ec683f3dd2b0ddd8b22aa7e6655490 gpio: mm-lantiq: Fix typo in the newly added header filename
          
