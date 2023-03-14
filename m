@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Tue, 14 Mar 2023 09:25:18 -0000
-Message-Id: <167878591832.29221.1873735642379266088@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/efi/efi
+Date: Tue, 14 Mar 2023 09:49:19 -0000
+Message-Id: <167878735930.25231.8610007671340348844@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: leon
+repo: pub/scm/linux/kernel/git/efi/efi
+user: ardb
 changes:
-  - ref: refs/heads/for-next
-    old: eeac8ede17557680855031c6f305ece2378af326
-    new: f2f6e1661d38fbce6163fc321395e9de24a9529b
+  - ref: refs/heads/urgent
+    old: 7949368e93e48a15ac5976405def16f8c84c837b
+    new: ef3efc2af044f6da5bb8c55e99f2398081d99c09
     log: |
-         c874ad879c2f29ebe040a34b974389875c0d81eb IB/hifi1: add a null check of kzalloc_node in hfi1_ipoib_txreq_init
-         271bfcfb83a9f77cbae3d6e1a16e3c14132922f0 RDMA/siw: Fix potential page_array out of range access
-         f2f6e1661d38fbce6163fc321395e9de24a9529b IB/rdmavt: Fix target union member for rvt_post_one_wr()
+         ef3efc2af044f6da5bb8c55e99f2398081d99c09 efi: libstub: Use relocated version of kernel's struct screen_info
          
