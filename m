@@ -1,28 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Tue, 14 Mar 2023 18:12:20 -0000
-Message-Id: <167881754071.3639.15638532309386300304@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
+Date: Tue, 14 Mar 2023 18:26:55 -0000
+Message-Id: <167881841542.14003.12522743576706466509@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/ardb/linux
+user: ardb
 changes:
-  - ref: refs/heads/master
-    old: fc89d7fb499b0162e081f434d45e8d1b47e82ece
-    new: 4979bf8668255a67449714653314662fbc7e5bdb
+  - ref: refs/heads/for-kernelci
+    old: 307a19a22eea94622a082f1bce0959cfb6f7d9f7
+    new: 59665d9ddbf3c349e9462669ef2e7834f175d10b
     log: |
-         5d89176af1ae201c01c10a89b68b27cfc683b76c sched/doc: supplement CPU capacity with RISC-V
-         74596085796fae0cfce3e42ee46bf4f8acbdac55 docs: Correct missing "d_" prefix for dentry_operations member d_weak_revalidate
-         38484a1d0c50596c8080a00c269466f60fa4a051 docs: programming-language: remove mention of the Intel compiler
-         0b02076f995332fe1e457da29dd61c3b66c862f7 docs: programming-language: add Rust programming language section
-         a414684e3b735a4114c19295a07e8cb2eb889dae docs: rebasing-and-merging: Drop wrong statement about git
-         3b80a03d455143cc9135dac86722bbdd079daff3 docs/mm: Physical Memory: fix a reference to a file that doesn't exist
-         87eae260995577d203a70d72d46976521a5687e1 docs/mm: hugetlbfs_reserv: fix a reference to a file that doesn't exist
-         42da2c00b91486980a724c05c29818a7e60a067e docs: process: typo fix
-         d7ba3657d5162bd551e5c653f67f941c94a7dc0a docs: vfio: fix header path
-         4979bf8668255a67449714653314662fbc7e5bdb Merge tag 'docs-6.3-fixes' of git://git.lwn.net/linux
+         c7d9e628b8ff4d52a365a441bdacb3209ee83c81 efi/libstub: zboot: Mark zboot EFI application as NX compatible
+         3c60f67b4bd1bc01fa9194e9dc925ac6cb56156c efi/libstub: arm64: Remap relocated image with strict permissions
+         3c66bb1918c262dd52fb4221a8d372619c5da70a arm64: efi: Set NX compat flag in PE/COFF header
+         8b3a149db461d3286d1e211112de3b44ccaeaf71 efi: earlycon: Reprobe after parsing config tables
+         ef3efc2af044f6da5bb8c55e99f2398081d99c09 efi: libstub: Use relocated version of kernel's struct screen_info
+         77fa99dd4741456da85049c13ec31a148f5f5ac0 arm64: efi-runtime: Run SetVirtualAddressMap() on Ampere Altra machines
+         217a2b3a46fc975ff7116f714f6c08f942870df4 ARM: vfp: Pass thread_info pointer to vfp_support_entry
+         3d9536f79d02467c335bd045b0bb01bfcdb7957c ARM: vfp: Pass successful return address via register R3
+         59665d9ddbf3c349e9462669ef2e7834f175d10b ARM: vfp: Fix broken softirq handling with instrumentation enabled
          
