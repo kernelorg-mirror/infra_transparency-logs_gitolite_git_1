@@ -1,52 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============8879456581779227009=="
+Content-Type: multipart/mixed; boundary="===============6810369569318081944=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Tue, 14 Mar 2023 16:24:34 -0000
-Message-Id: <167881107423.28284.13582543422536779186@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Tue, 14 Mar 2023 16:24:40 -0000
+Message-Id: <167881108040.28413.10331457878098662145@gitolite.kernel.org>
 
---===============8879456581779227009==
+--===============6810369569318081944==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/regulator
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.3
-    old: 083a25b18d6ad9f1f540e629909aa3eaaaf01823
-    new: 30549964ce67f6f363023ec680ddca9fac63904e
+  - ref: refs/heads/for-6.4
+    old: 38cc873cb1cf27965dacbbc5957a7a8aee89679c
+    new: 691c1fcda5351ed98a44610b7dccc0e3ee920020
     log: |
-         3c728b1bc5b99c5275ac5c7788ef814c0e51ef54 ASOC: Intel: sof_sdw: add quirk for Intel 'Rooks County' NUC M15
-         9c691a42b8926c8966561265cdae3ddc7464d3a2 ASoC: Intel: soc-acpi: add table for Intel 'Rooks County' NUC M15
-         30549964ce67f6f363023ec680ddca9fac63904e ASOC: Intel: add quirk for Intel 'Rooks County' NUC
+         691c1fcda5351ed98a44610b7dccc0e3ee920020 regulator: core: Shorten off-on-delay-us for always-on/boot-on by time since booted
          
 
---===============8879456581779227009==
+--===============6810369569318081944==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1678811072 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1678811072-cb22fa7ee5c7976952182416e6da9f0ec13e38db
+pusher C3F436CA30F5D8EB 1678811079 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
+nonce 1678811078-17989d680448492374ef192aa31ee2f0a7378d36
 
-083a25b18d6ad9f1f540e629909aa3eaaaf01823 30549964ce67f6f363023ec680ddca9fac63904e refs/heads/asoc-6.3
+38cc873cb1cf27965dacbbc5957a7a8aee89679c 691c1fcda5351ed98a44610b7dccc0e3ee920020 refs/heads/for-6.4
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmQQn8AACgkQJNaLcl1U
-h9B5NQgAhEfkG9MN09rzYGa9rZDKviLa4p1/0ill00iHevtVa+jeyfT1WcIkBuCp
-qhoAXOIbNnkZzOoqC+IMislplof5cjfbBVcTnCzWCPkpYmmDXsSX8QZ87uLm88yg
-3Vg9g69J74OVyhtUUKPDqWF+GKiMXmcPacYxI6FDvag/r1pdhO2UE0bK7UC8ITzb
-8VvcVv0iRbxpjMXh/9wHHloGp1L5M7fFZTTgsiXDD4mWn5ObnwfkFDPAbmCirZ98
-dYPl4A1BdVcllaCMh3lkeiNQx+FQkyJfAqg9ga2qm8GP9s0ipSJJHZLdkKclw0d2
-ckZ0sSR6Yx2fxIw/hojz+t+k3moGzg==
-=gPIM
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmQQn8cACgkQJNaLcl1U
+h9DjIgf9F5Uc0VD8m4REM3czP2ezWQDn5A/y1BkhbZWDCC35PB2qO/a9s0KOsl1R
+jScD3Ldy/pQdfCYohWt6KipKQyiybgFQVs0trD3zBlyM1HOeSxcSmVBPzfetkQTg
+tJ7YO7l6hupJxYu1LxYpG2LuTN24mqHVw4rgYQt3XO7ybMjJxpmss26fyVdIbbHD
+Rxzdg0LlItq2yM/OJBQUAZVNrtgWfM5pa1HOYxR82Gj6wHwWh0g6qUdlW7BPAEi3
+9viUSjEfQkw0+PIuiqrpYVGRa1IH4I6SV29CHrwHPiULUZAouXDsrIziGn5t10ZW
+ePMm0S5fekQwMdOfTuQpQzITctlNdA==
+=yOR0
 -----END PGP SIGNATURE-----
 
---===============8879456581779227009==--
+--===============6810369569318081944==--
