@@ -1,19 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/andy/linux-gpio-intel
-Date: Tue, 14 Mar 2023 18:08:43 -0000
-Message-Id: <167881732372.648.11095900575378979242@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
+Date: Tue, 14 Mar 2023 18:10:47 -0000
+Message-Id: <167881744704.3000.9726056135082654865@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/andy/linux-gpio-intel
-user: andy
+repo: pub/scm/linux/kernel/git/qcom/linux
+user: andersson
 changes:
-  - ref: refs/heads/for-next
-    old: 22f9fa11619d4eb7e78997935fcfb446f751d62a
-    new: 0928069402ec683f3dd2b0ddd8b22aa7e6655490
-    log: |
-         0928069402ec683f3dd2b0ddd8b22aa7e6655490 gpio: mm-lantiq: Fix typo in the newly added header filename
-         
+  - ref: refs/heads/arm64-defconfig-for-6.4
+    old: 0000000000000000000000000000000000000000
+    new: fe15c26ee26efa11741a7b632e9f23b01aca4cc6
+  - ref: refs/heads/arm64-for-6.4
+    old: 0000000000000000000000000000000000000000
+    new: 974fdcee488e11b63d203f60a2032fd18d1c17de
+  - ref: refs/heads/clk-for-6.4
+    old: 0000000000000000000000000000000000000000
+    new: ed8962b5e24e0a8bd5c2ed6b98fa37aba3a2ac54
+  - ref: refs/heads/drivers-for-6.4
+    old: 0000000000000000000000000000000000000000
+    new: fe8aa1ba078366ba23fc676efab57183b12a3a81
+  - ref: refs/heads/dts-for-6.4
+    old: 0000000000000000000000000000000000000000
+    new: b9745c275246a7e43c34d1b3be5ff9a9f3cf9305
