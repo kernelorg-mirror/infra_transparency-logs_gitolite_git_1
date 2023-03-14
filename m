@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Tue, 14 Mar 2023 17:52:37 -0000
-Message-Id: <167881635714.23478.17834397476762900632@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kvmarm/kvmarm
+Date: Tue, 14 Mar 2023 18:07:55 -0000
+Message-Id: <167881727587.32715.3499326208729441612@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rafael/linux-pm
-user: rafael
+repo: pub/scm/linux/kernel/git/kvmarm/kvmarm
+user: oupton
 changes:
-  - ref: refs/heads/bleeding-edge
-    old: d09d1f710039a2881b3fa765f9ad654d1e8f15c0
-    new: 940f0a3da1b4a56d3b217dcac04910840b3da157
+  - ref: refs/heads/fixes
+    old: f6da81f650fa47b61b847488f3938d43f90d093d
+    new: 13ec9308a85702af7c31f3638a2720863848a7f2
     log: |
-         6fa7f537351c8fad0e43e9279efe76dbc942bea0 pm-graph: sleepgraph: Avoid crashing on binary data in device names
-         940f0a3da1b4a56d3b217dcac04910840b3da157 Merge branch 'pm-tools' into bleeding-edge
+         13ec9308a85702af7c31f3638a2720863848a7f2 KVM: arm64: Retry fault if vma_lookup() results become invalid
          
