@@ -1,62 +1,36 @@
-Content-Type: multipart/mixed; boundary="===============3201813552324232040=="
+Content-Type: multipart/mixed; boundary="===============6467778852776089084=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Tue, 14 Mar 2023 15:11:58 -0000
-Message-Id: <167880671879.11091.2810268394164630460@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Tue, 14 Mar 2023 15:12:14 -0000
+Message-Id: <167880673479.11245.14732922947655534782@gitolite.kernel.org>
 
---===============3201813552324232040==
+--===============6467778852776089084==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.3
+  - ref: refs/heads/for-linus
     old: dda5c809d42389b82f37cbbe562044d8a29083c6
     new: 083a25b18d6ad9f1f540e629909aa3eaaaf01823
     log: |
          083a25b18d6ad9f1f540e629909aa3eaaaf01823 ASoC: soc-pcm: fix hw->formats cleared by soc_pcm_hw_init() for dpcm
          
-  - ref: refs/heads/asoc-6.4
-    old: fe839119f0e9f69d0f49e63359382f4d1abd3eb7
-    new: 9c3bd7904b9333fb8619246e636a3afb5146ac26
-    log: revlist-fe839119f0e9-9c3bd7904b93.txt
+  - ref: refs/heads/for-next
+    old: ddf943dfed0cb2bb2c4021d4de72fd6005a3138d
+    new: ce3506a5a9caa321effe556cf6205cb3572c82b5
+    log: revlist-ddf943dfed0c-ce3506a5a9ca.txt
 
---===============3201813552324232040==
+--===============6467778852776089084==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1678806716 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1678806715-5a35821d3684d4ed415963097eec702408b415d1
-
-dda5c809d42389b82f37cbbe562044d8a29083c6 083a25b18d6ad9f1f540e629909aa3eaaaf01823 refs/heads/asoc-6.3
-fe839119f0e9f69d0f49e63359382f4d1abd3eb7 9c3bd7904b9333fb8619246e636a3afb5146ac26 refs/heads/asoc-6.4
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmQQjrwACgkQJNaLcl1U
-h9Bt2Af/dW1stD9rSDLVwshXEi2dYftMIEeFBnu30ShZKtwaAz6DmmMzfrO6c1HX
-A8k0f3/eLOjz4a6E+On6mxG2F++e7vUL5yLEloosuFadYFGP6ILl76LxuIdFYyza
-uTDazx8P1xlxXrnmr16XfjmMIbWKhWFLvs2y0/XNW6x4ckIAcqfV7DMuPkfRYVCQ
-VSzq1AU+naLS7MK9H9VcUh6ESznkWaguY/KZ2pGt9bk22l8ngRJuMvFh8qzNNV3t
-TiVLAbHWMAwegyQJclE5olf5zT7zITkhCBvgVa5OOaefYlvXDx+Q08SYGVoIOYt3
-Y6kwBdjblK9AA0wV+0KNz+sNDVmQSA==
-=mZ+e
------END PGP SIGNATURE-----
-
---===============3201813552324232040==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fe839119f0e9-9c3bd7904b93.txt
+Content-Disposition: attachment; filename=revlist-ddf943dfed0c-ce3506a5a9ca.txt
 
 3eac8de3f51b3567c4ba6139736b59027da56285 ASoC: SOF: ipc3-control: Rename snd_sof_refresh_control()
 76fc628aebdb452e3c620d9ff5c5e9448d316754 ASoC: SOF: ipc3-control: Merge functions to handle bytes_ext get variants
@@ -77,7 +51,9 @@ f534a94c3d765bcd5bdf10271a265883be2b4030 ASoC: SOF: ipc4-topology: Remove the re
 4fdef47a44d6ff735902dfe740918f23932225ca ASoC: SOF: ipc4-topology: Add new tokens for input/output pin format count
 ad70f2f0e6e38675d7805482d2c625fca5756a2e ASoC: SOF: ipc4-topology: Search only pin 0 formats
 12e3b2848bfa8197062b7989eefb7c081d372fb8 ASoC: Intel: sof_rt5682: Enable Bluetooth offload on adl_rt1019_rt5682
+083a25b18d6ad9f1f540e629909aa3eaaaf01823 ASoC: soc-pcm: fix hw->formats cleared by soc_pcm_hw_init() for dpcm
 bec88efd7fd158eef4fdda1007cf831926a95f16 ASoC: SOF: ipc4: Add support for bytes control
 9c3bd7904b9333fb8619246e636a3afb5146ac26 ASoC: SOF: ipc4: Add support for formats per pins
+ce3506a5a9caa321effe556cf6205cb3572c82b5 Merge remote-tracking branch 'asoc/for-6.4' into asoc-next
 
---===============3201813552324232040==--
+--===============6467778852776089084==--
