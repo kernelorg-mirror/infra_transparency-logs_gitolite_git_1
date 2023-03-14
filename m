@@ -1,50 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============6810369569318081944=="
+Content-Type: multipart/mixed; boundary="===============0399856933239267062=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Tue, 14 Mar 2023 16:24:40 -0000
-Message-Id: <167881108040.28413.10331457878098662145@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 14 Mar 2023 16:24:46 -0000
+Message-Id: <167881108615.28490.16921129544875978177@gitolite.kernel.org>
 
---===============6810369569318081944==
+--===============0399856933239267062==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.4
+  - ref: refs/heads/regulator-6.4
     old: 38cc873cb1cf27965dacbbc5957a7a8aee89679c
     new: 691c1fcda5351ed98a44610b7dccc0e3ee920020
     log: |
          691c1fcda5351ed98a44610b7dccc0e3ee920020 regulator: core: Shorten off-on-delay-us for always-on/boot-on by time since booted
          
 
---===============6810369569318081944==
+--===============0399856933239267062==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1678811079 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
-nonce 1678811078-17989d680448492374ef192aa31ee2f0a7378d36
+pusher C3F436CA30F5D8EB 1678811084 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1678811084-3f6ad30cf269b32467db3693c33cc46f2c4b826b
 
-38cc873cb1cf27965dacbbc5957a7a8aee89679c 691c1fcda5351ed98a44610b7dccc0e3ee920020 refs/heads/for-6.4
+38cc873cb1cf27965dacbbc5957a7a8aee89679c 691c1fcda5351ed98a44610b7dccc0e3ee920020 refs/heads/regulator-6.4
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmQQn8cACgkQJNaLcl1U
-h9DjIgf9F5Uc0VD8m4REM3czP2ezWQDn5A/y1BkhbZWDCC35PB2qO/a9s0KOsl1R
-jScD3Ldy/pQdfCYohWt6KipKQyiybgFQVs0trD3zBlyM1HOeSxcSmVBPzfetkQTg
-tJ7YO7l6hupJxYu1LxYpG2LuTN24mqHVw4rgYQt3XO7ybMjJxpmss26fyVdIbbHD
-Rxzdg0LlItq2yM/OJBQUAZVNrtgWfM5pa1HOYxR82Gj6wHwWh0g6qUdlW7BPAEi3
-9viUSjEfQkw0+PIuiqrpYVGRa1IH4I6SV29CHrwHPiULUZAouXDsrIziGn5t10ZW
-ePMm0S5fekQwMdOfTuQpQzITctlNdA==
-=yOR0
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmQQn8wACgkQJNaLcl1U
+h9BZHQgAgXUnTWERyIFUrNaqY8SJPL0BKrCgHxm+6WTLweJ4fFqHuRSUTYTsifKM
+1XLir2GxacPHQU0LtjXtsXuUnmbtPozJJzz1AtW4SXFf9ZeBkQyLi73nI+hRk+wP
+1bVOgaaoNXO/navC4kbrL0tjb8FCHNxDY8N9eE3zk/5Z/0wdsliY9ju606/Dm2rA
+pKjqxrHYtWqVVgt+4Ll3pl6fqmvRRhy4KsaTZ/i/rOQiM/cuRiTDQr9NBBQHVJAE
+uatgmc6Q9OE57qr3bxVS9/5D1emSqbwcUVTrbK9ka/4BSwNSw4lTLud4024dN6g1
+zkV8EGsgK2qELebFA/iJ9Yze+AnZPA==
+=9HWk
 -----END PGP SIGNATURE-----
 
---===============6810369569318081944==--
+--===============0399856933239267062==--
