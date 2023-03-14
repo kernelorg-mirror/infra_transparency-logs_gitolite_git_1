@@ -1,23 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/remoteproc/linux
-Date: Tue, 14 Mar 2023 19:31:49 -0000
-Message-Id: <167882230974.24726.5143023784271818895@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Tue, 14 Mar 2023 19:38:49 -0000
+Message-Id: <167882272973.28393.14278200884022937401@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/remoteproc/linux
-user: mjp
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/heads/for-next
-    old: 408ec1ff0caa340c57eecf4cbd14ef0132036a50
-    new: 5dfb28c257b7c515624ba6b163410ceada451bf2
+  - ref: refs/heads/bleeding-edge
+    old: 940f0a3da1b4a56d3b217dcac04910840b3da157
+    new: 45b1e9aa507403b52aac7044eecaa770a23e5ae0
     log: |
-         f72f805e72882c361e2a612c64a6e549f3da7152 mailbox: zynqmp: Fix counts of child nodes
-         74ad37a30ffee3643bc34f9ca7225b20a66abaaf mailbox: zynqmp: Fix IPI isr handling
-         79963fbfc233759bd8a43462f120d15a1bd4f4fa mailbox: zynqmp: Fix typo in IPI documentation
-         81c18e08a609706c5c2887f267135fa0dece4119 drivers: remoteproc: xilinx: Fix carveout names
-         5dfb28c257b7c515624ba6b163410ceada451bf2 remoteproc: xilinx: Add mailbox channels for rpmsg
+         91d7b60a65d9f71230ea09b86d2058a884a3c2af ACPI: PPTT: Fix to avoid sleep in the atomic context when PPTT is absent
+         774c6aadb2cd7a5289efccbea1d20591659d5db4 Merge branch 'acpi-tables' into bleeding-edge
+         0bc23d8b2237a104d7f8379d687aa4cb82e2968b ACPI: tools: pfrut: Check if the input of level and type is in the right numeric range
+         45b1e9aa507403b52aac7044eecaa770a23e5ae0 Merge branch 'acpi-tools' into bleeding-edge
          
