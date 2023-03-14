@@ -1,23 +1,32 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Tue, 14 Mar 2023 22:25:19 -0000
-Message-Id: <167883271916.11633.15478960763261977370@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ti/linux
+Date: Tue, 14 Mar 2023 22:31:17 -0000
+Message-Id: <167883307704.15047.18103509982390839449@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+repo: pub/scm/linux/kernel/git/ti/linux
+user: nmenon
 changes:
-  - ref: refs/heads/for-next
-    old: 283b40c52d9ad850d204c447df69faaaf9d177f0
-    new: 5584d9e63eee25c6ccf36aa5d09efc113d762a05
+  - ref: refs/heads/ti-k3-dts-next
+    old: 21609ca1f13fc1feca7b4b4aa63d21d95b2e69e2
+    new: 436b288687176bf4d2c1cd25b86173e5a1649a60
     log: |
-         487deb3e3393cccff0f148c4703efb185d46e314 selftests/bpf: robustify test_xdp_do_redirect with more payload magics
-         2c854e5fcd7e243f5a7cf6a6afa0ef83060c903c net: page_pool, skbuff: make skb_mark_for_recycle() always available
-         9c94bbf9a87b264294f42e6cc0f76d87854733ec xdp: recycle Page Pool backed skbs built from XDP frames
-         d4e492338d11937c55841b1279287280d6e35894 xdp: remove unused {__,}xdp_release_frame()
-         5584d9e63eee25c6ccf36aa5d09efc113d762a05 Merge branch 'xdp: recycle Page Pool backed skbs built from XDP frames'
+         28c8f2189d80c8b37068c367e9864b5aa530f208 arm64: dts: ti: k3-am62-main: Fix GPIO numbers in DT
+         a1bc0d6084dba8a31831c65318a8a8e46f00906f arm64: dts: ti: k3-am62a7-sk: Fix DDR size to full 4GB
+         4f4b30a777d3e61603119297965343a37be36435 arm64: dts: ti: k3-j721e-main: Remove ti,strobe-sel property
+         436b288687176bf4d2c1cd25b86173e5a1649a60 arm64: dts: ti: k3-j784s4-*: Add 'ti,sci-dev-id' for NAVSS nodes
+         
+  - ref: refs/heads/ti-next
+    old: d0abd3ea07abde4de854defefe07d4e007d4521f
+    new: e2d18126b21e6939135bb408d9ed3b669ba54898
+    log: |
+         28c8f2189d80c8b37068c367e9864b5aa530f208 arm64: dts: ti: k3-am62-main: Fix GPIO numbers in DT
+         a1bc0d6084dba8a31831c65318a8a8e46f00906f arm64: dts: ti: k3-am62a7-sk: Fix DDR size to full 4GB
+         4f4b30a777d3e61603119297965343a37be36435 arm64: dts: ti: k3-j721e-main: Remove ti,strobe-sel property
+         436b288687176bf4d2c1cd25b86173e5a1649a60 arm64: dts: ti: k3-j784s4-*: Add 'ti,sci-dev-id' for NAVSS nodes
+         e2d18126b21e6939135bb408d9ed3b669ba54898 Merge branches 'ti-drivers-soc-next' and 'ti-k3-dts-next' into ti-next
          
