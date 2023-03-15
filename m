@@ -1,20 +1,79 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
-Date: Wed, 15 Mar 2023 20:35:48 -0000
-Message-Id: <167891254863.19939.15774842209319501819@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============1334441517043266198=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
+Date: Wed, 15 Mar 2023 20:38:02 -0000
+Message-Id: <167891268202.20710.3035383602085134327@gitolite.kernel.org>
+
+--===============1334441517043266198==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/liburing
-user: axboe
+repo: pub/scm/linux/kernel/git/cel/linux
+user: cel
 changes:
-  - ref: refs/heads/ring-buf-alloc
-    old: dd46a34a5c7770291e50c026072e6bf2a5ba4846
-    new: 8eee91b06e2526e6e6416fe1466c1c0a6ed94b9d
-    log: |
-         049ecf2eb0dc46213eb700d55618f971df2a4d3e Add helpers for alloc+register and unregister+free for ring buffers
-         8eee91b06e2526e6e6416fe1466c1c0a6ed94b9d test: convert tests to use the provided ring buffer init/free helpers
-         
+  - ref: refs/heads/topic-rpc-with-tls-upcall
+    old: 2153cdf0ee6c6f90a85ed1d0be1e8a943e31c268
+    new: d52c1c08d22117b84c3ba0c52757d45a69398a51
+    log: revlist-2153cdf0ee6c-d52c1c08d221.txt
+
+--===============1334441517043266198==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-2153cdf0ee6c-d52c1c08d221.txt
+
+68a84a127bb07d2a47e95c808520f742c54781c7 net: lan966x: Change lan966x_police_del return type
+b071af523579df7341cabf0f16fc661125e9a13f neighbour: annotate lockless accesses to n->nud_state
+c486640aa710ddd06c13a7f7162126e1552e8842 ipv6: remove one read_lock()/read_unlock() pair in rt6_check_neigh()
+575942a2e2d311c7f5abe17f9958abab45604cbd Merge branch 'ipv6-optimize-rt6_score_route'
+69444581d0022b8afced2c90c441b7b4d9b8eba9 net: dsa: microchip: add ksz_setup_tc_mode() function
+c570f861fa059ea653599415a7c8cc1dfaf16763 net: dsa: microchip: add ETS Qdisc support for KSZ9477 series
+c0a274151d3970ec7f3d07c8a1292733ed17d612 Merge branch 'dsa-microchip-tc-ets'
+dc54e450a5dd0fd9147dc9fea0684293569d3609 net: stmmac: qcom: drop of_match_ptr for ID table
+e6512465838bf634d147399c8c96612d3cb419b9 net: stmmac: generic: drop of_match_ptr for ID table
+69df36d524dbb6f0692252c5f9d41bed9a064ff5 net: marvell: pxa168_eth: drop of_match_ptr for ID table
+7f319fe4363c613f8b00b4bfab66c3659c38378b net: samsung: sxgbe: drop of_match_ptr for ID table
+7e9aa8cad0844b85a6877cd072c95ac2844eb666 net: ni: drop of_match_ptr for ID table
+a52ed50a04de179cc866c18bdd1b9a2f59d6bdfc nfc: trf7970a: mark OF related data as maybe unused
+6ea1e67788f30710d1991de42802cbdeb67afec4 net: dsa: lantiq_gswip: mark OF related data as maybe unused
+ced5c5a0a2ea5eec6ed6cf1fcdde719fdafed82c net: dsa: lan9303: drop of_match_ptr for ID table
+1eb8566dd08db9c7402a26b027086eaabc20ff2a net: dsa: seville_vsc9953: drop of_match_ptr for ID table
+00923ff2e1baf6bc9832f12e44f73439de5fcd72 net: dsa: ksz9477: drop of_match_ptr for ID table
+0f17b42827ae63aaf08cad875d9575b1bca1e066 net: dsa: ocelot: drop of_match_ptr for ID table
+b0b7d1b6260b3acb9f3f3bc7f3ca88a8898e95b1 net: phy: ks8995: drop of_match_ptr for ID table
+3df09beef650af667be5ec7eee88629e6e479a51 net: ieee802154: adf7242: drop of_match_ptr for ID table
+3896c40b7824c8874963e257afc0f464200d2d2c net: ieee802154: mcr20a: drop of_match_ptr for ID table
+32b7030681a488186bf1753b29a170f5d4644721 net: ieee802154: at86rf230: drop of_match_ptr for ID table
+cdfe4fc4d946e2a5d589f73985043674cf298ff6 net: ieee802154: ca8210: drop of_match_ptr for ID table
+059fa99723405b47833c7e14e062c7ba7066ca3c net: ieee802154: adf7242: drop owner from driver
+613a3c44a3737c9a2dfd9f70f9b79427459bb745 net: ieee802154: ca8210: drop owner from driver
+45ef71d108e6f1545e2981d8af03be13f2e39411 net: geneve: set IFF_POINTOPOINT with IFLA_GENEVE_INNER_PROTO_INHERIT
+f947568e258038d3c2f8f38a9a7dabaca36643ec net/smc: Introduce explicit check for v2 support
+298c91dc40e51395198533433716d0521ed10995 net/ism: Remove extra include
+c4216a83078bc46f9e0475ff810a0a798572b0ec Merge branch 'net-smc-updates'
+a02d83f9947d8f71904eda4de046630c3eb6802c scm: fix MSG_CTRUNC setting condition for SO_PASSSEC
+bdaf1dc8d1a9954080552dc95f2297237a2b652f net/handshake: Create a NETLINK service for handling handshake requests
+1daef8af2deecd9c894b8621cc1e833f293821da net/tls: Add kernel APIs for requesting a TLSv1.3 handshake
+a673b6c76187488ca653c5b7202bbc3e1d0e84fa NFS: Improvements for fs_context-related tracepoints
+237771cbf95d9110cd0ca3e633f71c4511a5843e SUNRPC: Plumb an API for setting transport layer security
+b965a199328f523f4f14428a8e05a685690f5904 SUNRPC: Trace the rpc_create_args
+2945f83c80f40ca2638f42e6c5eb87102456d48c SUNRPC: Refactor rpc_call_null_helper()
+78a9337838aecea866ecb201336b1946e1c70041 SUNRPC: Add RPC client support for the RPC_AUTH_TLS auth flavor
+1c7455f48a4df433c6b9912dd448266e7e4c2e16 SUNRPC: Ignore data_ready callbacks during TLS handshakes
+b08839bfbf93aef1780ef20868dde13bf178ae8d SUNRPC: Capture CMSG metadata on client-side receive
+dcc7447d9418673c01f8ca41d536023f5a801149 SUNRPC: Add a connect worker function for TLS
+a045a9779d9224c5215d73582411ebe70c62efb3 SUNRPC: Add RPC-with-TLS support to xprtsock.c
+60eab29f060e0d9bbe51c090c59c8721bf676eeb SUNRPC: Add RPC-with-TLS tracepoints
+2e84994fc46c5ec87a21e1106e3d7ab32239f459 NFS: Have struct nfs_client carry a TLS policy field
+0b53cf55aa21bdda83760ee348762b430b3ecf38 NFS: Add an "xprtsec=" NFS mount option
+28c90ca8f0971f4511eccc138d57fd5978ee218e NFS: Add mount options that specify TLS-related files
+521d1b96e9b82292e3b23ac8290d72c654c1f525 SUNRPC: Recognize control messages in server-side TCP socket code
+628579fbbe21ed6bfe3377e0cf10bf1cac8b62ac SUNRPC: Ensure server-side sockets have a sock->file
+6342d1d60e06bb4520b09813d0dbcc9371cc691b SUNRPC: Support TLS handshake in the server-side TCP socket code
+d52c1c08d22117b84c3ba0c52757d45a69398a51 NFSD: Handle new xprtsec= export option
+
+--===============1334441517043266198==--
