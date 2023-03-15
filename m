@@ -1,28 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
-Date: Wed, 15 Mar 2023 04:30:10 -0000
-Message-Id: <167885461083.2888.7334959717328702281@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+Date: Wed, 15 Mar 2023 06:14:41 -0000
+Message-Id: <167886088150.4352.9838578151524949748@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/palmer/linux
-user: palmer
+repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+user: masahiroy
 changes:
-  - ref: refs/heads/for-next
-    old: 73bde0ca0ab5923d4a4bef1580db500065d350fb
-    new: 9dacd6216c8a71a03f38a0f1d9d02527f0d6b0e8
+  - ref: refs/heads/fixes
+    old: 51ab7ee81f5f17433d35c021d7473ed9f352b53d
+    new: fed2dba2ed02135a077d7d61a3cfbb950d6e045c
     log: |
-         664d00e64c358d5b88946e1eada1d3f4a32c234e riscv: Allow to downgrade paging mode from the command line
-         0b2f658f5370d9818244682c76fd8f6a91b2b1af RISC-V: alternatives: Support patching multiple insns in assembly
-         8b05e7d0408ac99e2f05f3673f2f249e9a9e10ec RISC-V: Factor out body of riscv_init_cbom_blocksize loop
-         ea20f117ab99d7c7653df656ddb795e51d9f7733 dt-bindings: riscv: Document cboz-block-size
-         7ea5a73617e931230a46150dc7c1bbfd98f24c8e RISC-V: Add Zicboz detection and block size parsing
-         d25f256332cc795b0fe16ba541fe0c05f0eb2c59 RISC-V: cpufeatures: Put the upper 16 bits of patch ID to work
-         ab0f77465e3e4ec2d2583cd770b157b16cc22844 RISC-V: Use Zicboz in clear_page when available
-         665fd8862413f21cd924fc121eadcd32ea122c52 RISC-V: KVM: Provide UAPI for Zicboz block size
-         b20f67994f35d75758ff671cd5095ec0cfab6ff9 RISC-V: KVM: Expose Zicboz to the guest
-         9dacd6216c8a71a03f38a0f1d9d02527f0d6b0e8 Merge patch series "RISC-V: Apply Zicboz to clear_page"
+         cccfe9d72808a36db4484d34b7c2e5fde9517f74 kbuild: deb-pkg: make debian source package working again
+         974a9d07009e931107763ef0f2e538739bf4aa2f kbuild: deb-pkg: do not take KERNELRELEASE from the source version
+         a940d6997d5033d8736604fcc2d4633414350d53 kbuild: deb-pkg: set CROSS_COMPILE only when undefined
+         57fe35deda008cc10c830b4679c06c4621aa2eff kbuild: deb-pkg: split image and debug objects staging out into functions
+         fed2dba2ed02135a077d7d61a3cfbb950d6e045c kbuild: deb-pkg: use dh_listpackages to know enabled packages
          
