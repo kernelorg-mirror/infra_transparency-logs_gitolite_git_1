@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
-Date: Wed, 15 Mar 2023 19:51:18 -0000
-Message-Id: <167890987885.23204.3564594396570320822@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Wed, 15 Mar 2023 19:54:54 -0000
+Message-Id: <167891009462.24400.9140497322688607358@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/liburing
-user: axboe
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
-  - ref: refs/heads/ring-buf-alloc
-    old: 5c134b0270623e996370f2b7801c4787541c10bc
-    new: 8dbc93d17ee9fa100bb20fb5a2ee284700259ea5
+  - ref: refs/heads/master
+    old: d3ce7dbe37795dcbc15c0ae9eee6a103ee550d3d
+    new: d48b05173b8e168027c155e0612cbac16d9bd269
     log: |
-         ba492ca1d2efd7d78644f61a0f2ff4fe7fac7f98 Add helpers for alloc+register and unregister+free for ring buffers
-         8dbc93d17ee9fa100bb20fb5a2ee284700259ea5 test: convert tests to use the provided ring buffer init/free helpers
+         d48b05173b8e168027c155e0612cbac16d9bd269 Wed Mar 15 07:54:00 PM UTC 2023
          
