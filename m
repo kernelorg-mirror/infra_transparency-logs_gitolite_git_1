@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7341769107430281578=="
+Content-Type: multipart/mixed; boundary="===============1026308517854153188=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
-Date: Wed, 15 Mar 2023 02:28:36 -0000
-Message-Id: <167884731637.18079.4381190478327506183@gitolite.kernel.org>
+Date: Wed, 15 Mar 2023 02:28:41 -0000
+Message-Id: <167884732144.18199.13711420459959536831@gitolite.kernel.org>
 
---===============7341769107430281578==
+--===============1026308517854153188==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/qcom/linux
 user: andersson
 changes:
-  - ref: refs/heads/arm64-for-6.4
-    old: 974fdcee488e11b63d203f60a2032fd18d1c17de
-    new: d0af0537e28f6eace02deed63b585396de939213
-    log: revlist-974fdcee488e-d0af0537e28f.txt
+  - ref: refs/heads/for-next
+    old: 381ac26819c919a242ecb551cb18b25ca30fb1af
+    new: 686b5d5f04a1d82740cd1defbae6906b32e5a3a0
+    log: revlist-381ac26819c9-686b5d5f04a1.txt
 
---===============7341769107430281578==
+--===============1026308517854153188==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-974fdcee488e-d0af0537e28f.txt
+Content-Disposition: attachment; filename=revlist-381ac26819c9-686b5d5f04a1.txt
 
 32734bbd1802efbd60ea4f0c3c1d5500bd0b20fe arm64: dts: qcom: sm8550: Fix PCIe PHYs and controllers nodes
 fdaa922585f4474c88fbfaa129f8114f38200660 arm64: dts: qcom: pm8550b: Add eUSB2 repeater node
@@ -55,5 +55,6 @@ aec576821e6fd233ae895f4aa57ff1b511a71e8e arm64: dts: qcom: apq8096-db820c: fix i
 5d793ff40692c9b3f88df1820a79ac8ae7d9c80b arm64: dts: qcom: sa8775p: add cpufreq node
 d39469f5ce81b2cabf07b1cad3deddeafb7b8a8d arm64: dts: qcom: sm8450: Add IMEM and PIL info region
 d0af0537e28f6eace02deed63b585396de939213 arm64: dts: qcom: msm8996: Add missing DWC3 quirks
+686b5d5f04a1d82740cd1defbae6906b32e5a3a0 Merge branches 'arm64-fixes-for-6.3', 'arm64-for-6.4', 'clk-for-6.4', 'drivers-fixes-for-6.3', 'drivers-for-6.4', 'dts-fixes-for-6.3' and 'dts-for-6.4' into for-next
 
---===============7341769107430281578==--
+--===============1026308517854153188==--
