@@ -1,47 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============3029188393039959324=="
+Content-Type: multipart/mixed; boundary="===============4160033346860481275=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Wed, 15 Mar 2023 01:55:50 -0000
-Message-Id: <167884535051.29545.9797951282855398579@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Wed, 15 Mar 2023 01:55:59 -0000
+Message-Id: <167884535956.29698.15778290001332653218@gitolite.kernel.org>
 
---===============3029188393039959324==
+--===============4160033346860481275==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
   - ref: refs/heads/master
     old: ec0fa9a0a6fac454745c930bdb8619d0a354bac9
     new: 225b6b81afe63b3850b7cee0a3590f51144f2a75
     log: revlist-ec0fa9a0a6fa-225b6b81afe6.txt
-  - ref: refs/heads/stable
-    old: fc89d7fb499b0162e081f434d45e8d1b47e82ece
-    new: 4979bf8668255a67449714653314662fbc7e5bdb
-    log: |
-         5d89176af1ae201c01c10a89b68b27cfc683b76c sched/doc: supplement CPU capacity with RISC-V
-         74596085796fae0cfce3e42ee46bf4f8acbdac55 docs: Correct missing "d_" prefix for dentry_operations member d_weak_revalidate
-         38484a1d0c50596c8080a00c269466f60fa4a051 docs: programming-language: remove mention of the Intel compiler
-         0b02076f995332fe1e457da29dd61c3b66c862f7 docs: programming-language: add Rust programming language section
-         a414684e3b735a4114c19295a07e8cb2eb889dae docs: rebasing-and-merging: Drop wrong statement about git
-         3b80a03d455143cc9135dac86722bbdd079daff3 docs/mm: Physical Memory: fix a reference to a file that doesn't exist
-         87eae260995577d203a70d72d46976521a5687e1 docs/mm: hugetlbfs_reserv: fix a reference to a file that doesn't exist
-         42da2c00b91486980a724c05c29818a7e60a067e docs: process: typo fix
-         d7ba3657d5162bd551e5c653f67f941c94a7dc0a docs: vfio: fix header path
-         4979bf8668255a67449714653314662fbc7e5bdb Merge tag 'docs-6.3-fixes' of git://git.lwn.net/linux
-         
-  - ref: refs/tags/next-20221215
-    old: 2fc89389cbdd28c8ea592b8e360df4c6a913df48
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20230315
     old: 0000000000000000000000000000000000000000
     new: 0f01c81fabcbfaf4b88ec1387c2f06c208a66605
 
---===============3029188393039959324==
+--===============4160033346860481275==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -755,4 +737,4 @@ cc4bfed7a68e002daac2d21f3eec1a53ceb32824 Merge branch 'bitmap-for-next' of https
 50fb5a55b25b8c272e469c31e5f54fb0b41ea96c Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/jgg/iommufd.git
 225b6b81afe63b3850b7cee0a3590f51144f2a75 Add linux-next specific files for 20230315
 
---===============3029188393039959324==--
+--===============4160033346860481275==--
