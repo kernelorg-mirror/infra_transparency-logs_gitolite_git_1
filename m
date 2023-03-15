@@ -1,60 +1,61 @@
-Content-Type: multipart/mixed; boundary="===============1026308517854153188=="
+Content-Type: multipart/mixed; boundary="===============8478263427353324052=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
-Date: Wed, 15 Mar 2023 02:28:41 -0000
-Message-Id: <167884732144.18199.13711420459959536831@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Wed, 15 Mar 2023 02:40:47 -0000
+Message-Id: <167884804752.26573.1668789203330155954@gitolite.kernel.org>
 
---===============1026308517854153188==
+--===============8478263427353324052==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/qcom/linux
-user: andersson
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/for-next
-    old: 381ac26819c919a242ecb551cb18b25ca30fb1af
-    new: 686b5d5f04a1d82740cd1defbae6906b32e5a3a0
-    log: revlist-381ac26819c9-686b5d5f04a1.txt
+  - ref: refs/heads/master
+    old: 4979bf8668255a67449714653314662fbc7e5bdb
+    new: 6015b1aca1a233379625385feb01dd014aca60b5
+    log: revlist-4979bf866825-6015b1aca1a2.txt
 
---===============1026308517854153188==
+--===============8478263427353324052==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-381ac26819c9-686b5d5f04a1.txt
+Content-Disposition: attachment; filename=revlist-4979bf866825-6015b1aca1a2.txt
 
-32734bbd1802efbd60ea4f0c3c1d5500bd0b20fe arm64: dts: qcom: sm8550: Fix PCIe PHYs and controllers nodes
-fdaa922585f4474c88fbfaa129f8114f38200660 arm64: dts: qcom: pm8550b: Add eUSB2 repeater node
-749078e38e1ee28357e8fdcd4eac382a465bd1e7 arm64: dts: qcom: sm8550-mtp: Add eUSB2 repeater node
-d228efe884692742e3a614c2386ee006aeb6551d arm64: dts: qcom: sm8550-qrd: add QRD8550
-5a0c6d4349a7da252c9fa5fbc3d42b4e5ee1f334 arm64: dts: qcom: sm6375: Add RMTFS
-b5d08f08377218b1d2ab4026e427a7788b271c8e arm64: dts: qcom: msm8998: Fix stm-stimulus-base reg name
-0d589dc92fca4679186a949194fc7c452d37c575 arm64: dts: qcom: pm8998: Add a specific compatible for coincell chg
-603f96d4c9d0cb42f934fb0b99440bb9e8ba4385 arm64: dts: qcom: add initial support for qcom sa8775p-ride
-2af2ef08c0ba052aefca20609572d67e0633b1ef arm64: dts: qcom: sdm845: Supply clock from cpufreq node to CPUs
-667d8a2039608c4c848179cb45282204eadeb157 arm64: dts: qcom: sc7280: Supply clock from cpufreq node to CPUs
-afa34380d973491e87ab01d13c387528e2e1c476 arm64: dts: qcom: sm6350: Supply clock from cpufreq node to CPUs
-1b0911fe3edb0895c43db4c19729b3c300028189 arm64: dts: qcom: sm8550: Supply clock from cpufreq node to CPUs
-d78cb07dbc1d384a8665b08918d188ee670ec45b arm64: dts: qcom: sm8250: Supply clock from cpufreq node to CPUs
-fcca74d893f3511a1e95869b1b3db3abb69bfb3b arm64: dts: qcom: qdu1000: Supply clock from cpufreq node to CPUs
-7b39c98ff7e80f7e2bdf3c73829480e6ac123fb5 arm64: dts: qcom: sc7180: Supply clock from cpufreq node to CPUs
-fc7258948c4a9e5dd2670adfcc80b13c621fbcd1 arm64: dts: qcom: sm8150: Supply clock from cpufreq node to CPUs
-c2a18730f0aaa2088a259f123e5fedf05f8a7041 arm64: dts: qcom: sm8350: Supply clock from cpufreq node to CPUs
-2051f735b37d8e49f84914df11eb7b4a3a16349f arm64: dts: qcom: sc8280xp: Supply clock from cpufreq node to CPUs
-d9ab57eec39db8bf72951e00cde5ab117bcad6d8 arm64: dts: qcom: sm6375: Supply clock from cpufreq node to CPUs
-0e6538e2d973bdfdf4d65a7d4b8baf1b7cdf75f0 arm64: dts: qcom: sm6115: Supply clock from cpufreq node to CPUs
-c564b69984a78ce7811f22437794c9bb2afc11fd arm64: dts: qcom: sc7280: Add qcom,smmu-500 to Adreno SMMU
-3e5c00256881f35b8664e1cf0b9fbf42cd9f24a1 arm64: dts: qcom: sm8150: Add qcom,smmu-500 to Adreno SMMU
-8347b12e905b99f445067d09326e4a1cc490f9cc arm64: dts: qcom: sm8250: Add qcom,smmu-500 to Adreno SMMU
-78c61b6b2c33041940f2b22b47b058e83684b3f5 arm64: dts: qcom: sm8350: Add qcom,smmu-500 to Adreno SMMU
-5a1816cc2d8caa054aa8b254efea9739aa8a68c6 arm64: dts: qcom: msm8996: move WCD9335 audio codec to boards
-aec576821e6fd233ae895f4aa57ff1b511a71e8e arm64: dts: qcom: apq8096-db820c: fix indentation
-5d793ff40692c9b3f88df1820a79ac8ae7d9c80b arm64: dts: qcom: sa8775p: add cpufreq node
-d39469f5ce81b2cabf07b1cad3deddeafb7b8a8d arm64: dts: qcom: sm8450: Add IMEM and PIL info region
-d0af0537e28f6eace02deed63b585396de939213 arm64: dts: qcom: msm8996: Add missing DWC3 quirks
-686b5d5f04a1d82740cd1defbae6906b32e5a3a0 Merge branches 'arm64-fixes-for-6.3', 'arm64-for-6.4', 'clk-for-6.4', 'drivers-fixes-for-6.3', 'drivers-for-6.4', 'dts-fixes-for-6.3' and 'dts-for-6.4' into for-next
+c28cd1f3433c7e339315d1ddacaeacf0fdfbe252 clk: Mark a fwnode as initialized when using CLK_OF_DECLARE() macro
+9d941b8abf863751c1c634d96539c3fab220a99c kbuild, clk: bcm2835: remove MODULE_LICENSE in non-modules
+94511ebc6810142eb36c8b935e1713a15db94d28 kbuild, clk: remove MODULE_LICENSE in non-modules
+0ffad67784a097beccf34d297ddd1b0773b3b8a3 clk: HI655X: select REGMAP instead of depending on it
+26243872fe26ec0df7d81766253d00213990e382 MAINTAINERS: add missing clock driver coverage for Microchip FPGAs
+89dc65a7cc8a119c395c0931b12d7a514f9d2bcc clk: k210: remove an implicit 64-bit division
+780f6a9afe8b0e303406a39f6968cf1daa6c3d51 lib: zstd: Fix -Wstringop-overflow warning
+038505c41f0aad26ef101f4f7f6e111531c3914f lib: zstd: Backport fix for in-place decompression
+6906598f1ce93761716d780b6e3f171e13f0f4ce zstd: Fix definition of assert()
+63cf584203f3367c8b073d417c8e5cbbfc450506 mm: teach mincore_hugetlb about pte markers
+42b2af2c9b7eede8ef21d0943f84d135e21a32a3 mm/userfaultfd: propagate uffd-wp bit when PTE-mapping the huge zeropage
+af665b40dfa2b49f1e3e11ecd1096506ef40348d mailmap: updates for Jarkko Sakkinen
+071ca76d2c1dddc6bf2f4917a016207e00bcc8e3 mailmap: correct Dikshita Agarwal's Qualcomm email address
+89a004508081e1d1a498f10ea6d4f7f97a820438 .mailmap: add Alexandre Ghiti personal email address
+fb3592c41a4427601f9643b2a84e55bb99f5cd7c migrate_pages: fix deadlock in batched migration
+a21d2133215b58fbf254ea2bb77eb3143ffedf60 migrate_pages: move split folios processing out of migrate_pages_batch()
+2ef7dbb269902bde34c82f027806992195d1d1ee migrate_pages: try migrate in batch asynchronously firstly
+90410bcf873cf05f54a32183afff0161f44f9715 ocfs2: fix data corruption after failed write
+751688b8be9049f558f86982966ecaa61a9cbedf mm/damon/paddr: fix folio_size() call after folio_put() in damon_pa_young()
+dd52a61da0dd8bab8b90e808f0e5ad507b61ad6d mm/damon/paddr: fix folio_nr_pages() after folio_put() in damon_pa_mark_accessed_or_deactivate()
+5cf9d015be160e2d90d29ae74ef1364390e8fce8 clk: Avoid invalid function names in CLK_OF_DECLARE()
+e0213434fe3e4a0d118923dc98d31e7ff1cd9e45 tracing: Do not let histogram values have some modifiers
+9f116f76fa8c04c81aef33ad870dbf9a158e5b70 tracing: Check field value in hist_field_name()
+ee92fa443358f4fc0017c1d0d325c27b37802504 ftrace: Fix invalid address access in lookup_rec() when index is 0
+aa69f814920d85a2d4cfd5c294757c3d59d2fba6 ftrace,kcfi: Define ftrace_stub_graph conditionally
+c2679254b9c9980d9045f0f722cf093a2b1f7590 tracing: Make tracepoint lockdep check actually test something
+c0856b7c14b690ef9917cdb1d94e96169212e43b Merge tag 'clk-fixes-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
+ed38ff164fba98a21993c95d240013f32309ccab Merge tag 'zstd-linus-v6.3-rc3' of https://github.com/terrelln/linux
+29db00c252c7d0e015f3b436647b6f87d5854833 Merge tag 'trace-v6.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
+26e2878b3e18530c6198354a561be202235bd325 Merge tag 'mm-hotfixes-stable-2023-03-14-16-51' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
+6015b1aca1a233379625385feb01dd014aca60b5 sched_getaffinity: don't assume 'cpumask_size()' is fully initialized
 
---===============1026308517854153188==--
+--===============8478263427353324052==--
