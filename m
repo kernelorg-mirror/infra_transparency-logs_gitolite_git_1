@@ -1,23 +1,47 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Wed, 15 Mar 2023 14:27:05 -0000
-Message-Id: <167889042501.32319.6831248520133847536@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============0598347705257028206=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vbabka/linux
+Date: Wed, 15 Mar 2023 14:28:41 -0000
+Message-Id: <167889052192.488.850754296125736071@gitolite.kernel.org>
+
+--===============0598347705257028206==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/vbabka/linux
+user: vbabka
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/master
-    old: 50d216859f7ec6a5b200a8fb90c9a0870d12e018
-    new: 9004e76b4ba716022a7c851ffa7fbd9e9e4bf073
-    log: |
-         909afefcd33a44cc968d75ebfe738179108c2deb unshare: (man) fix example formatting
-         045cd329a15e3843098a979dbd3c80bf8d79ca1a lsfd: fix wrong format specifiers in snptinrf()
-         53de7fe79761c0d5b7b59384120f7fd8a18163b5 Merge branch 'lsfd--fix-wrong-format-specifier' of https://github.com/masatake/util-linux
-         7d08453551ccc5477f76f3e986c8351e8c5ab599 libmount: dont ignore autofs mounts by default
-         9004e76b4ba716022a7c851ffa7fbd9e9e4bf073 mount: ignore autofs entries in mount listing
-         
+  - ref: refs/heads/slab-remove-slob-v2r1
+    old: 0000000000000000000000000000000000000000
+    new: 392723bb920f5ae89bd50a7d5af3ceb327677b8f
+
+--===============0598347705257028206==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1678890517 +0100
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/linux.git
+nonce 1678890517-dea0efca80a2de90310a2d80400945f654d9454e
+
+0000000000000000000000000000000000000000 392723bb920f5ae89bd50a7d5af3ceb327677b8f refs/heads/slab-remove-slob-v2r1
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCAAdFiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmQR1hUACgkQu+CwddJF
+iJqhTAgAhtb34xq/FWYBqcLp14QS4vWRiFkdoEziWBbiQcP0KexSbAwvBA5Bimoz
+MJqiaNdGpXiAgVSDNDO8SW0+bcVOctZSpExkf1wduIK6SPwwOiwthC79O63RW8rh
+fJ4rbEf/TUe1NuGOqa47KZMi0uWmLe2FO2ryY3CY9hxREKQ9sivENTTvDBC+UR5t
+lMbyYzvjcGKrvQscpMd8oV7vlty6ulL2oDHi+ZGgjl9iTX31SxcM/a4AT9gL1TpX
+ojbrun7wBNostEJT9IsprS5gBlkc0pfLernPb6KUxQczXcicugmEda82MnIkv6dF
+OVz3wCXV8nzy4NRkBocIhV0pG3xNFg==
+=7X9P
+-----END PGP SIGNATURE-----
+
+--===============0598347705257028206==--
