@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7650299949684335615=="
+Content-Type: multipart/mixed; boundary="===============5328713760726719305=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/djwong/xfstests-dev
-Date: Wed, 15 Mar 2023 00:50:34 -0000
-Message-Id: <167884143440.12879.3467959067965789243@gitolite.kernel.org>
+Date: Wed, 15 Mar 2023 00:57:04 -0000
+Message-Id: <167884182457.16821.6763568458939276345@gitolite.kernel.org>
 
---===============7650299949684335615==
+--===============5328713760726719305==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,2469 +16,3994 @@ repo: pub/scm/linux/kernel/git/djwong/xfstests-dev
 user: djwong
 changes:
   - ref: refs/heads/defrag-freespace
-    old: a93ca79ddebc508ef0a5dbf45a8f018a09ddc963
-    new: 94a97103b131b03c2250d5ccddaff66202593b4f
-    log: revlist-a93ca79ddebc-94a97103b131.txt
+    old: 94a97103b131b03c2250d5ccddaff66202593b4f
+    new: c3284d13c671272211c6f2464e658156d329a981
+    log: revlist-94a97103b131-c3284d13c671.txt
   - ref: refs/heads/djwong-wtf
-    old: 8fea2566c75bf86b5de6ee7f99242bb3d5b15e06
-    new: 0c6a7b45a1f939aa009a34eafa8a73028b9cc269
-    log: revlist-8fea2566c75b-0c6a7b45a1f9.txt
+    old: 0c6a7b45a1f939aa009a34eafa8a73028b9cc269
+    new: 4ae541f5efe3c5a3ca57132823775e6a8a07f0f3
+    log: revlist-0c6a7b45a1f9-4ae541f5efe3.txt
   - ref: refs/heads/fuzz-baseline
-    old: 0eb0741e2bf07407d1e230c984d9ea920e504248
-    new: 252d09f535865014aeec131bbfb484a561144274
-    log: revlist-0eb0741e2bf0-252d09f53586.txt
-  - ref: refs/heads/master
-    old: b90914dfe3f63730b7bcfbe2300a7f6b9259c629
-    new: f7765774a1b5cb98c2f21a892e82b3421f40e791
-    log: revlist-b90914dfe3f6-f7765774a1b5.txt
+    old: 252d09f535865014aeec131bbfb484a561144274
+    new: 422872dd54a6df272d47fb3c5e289ecc736391dd
+    log: revlist-252d09f53586-422872dd54a6.txt
   - ref: refs/heads/metadir
-    old: 5ee3819a5a426ae60097b9cbb867eb7ea192f887
-    new: 0f7d59c9318f5478111678d6d02db1f8d7a15746
-    log: revlist-5ee3819a5a42-0f7d59c9318f.txt
+    old: 0f7d59c9318f5478111678d6d02db1f8d7a15746
+    new: dfff28f84a609505f9d8c8aa1e92bacefd6b5918
+    log: revlist-0f7d59c9318f-dfff28f84a60.txt
   - ref: refs/heads/metadir-baseline
-    old: d82f4453bb46272b78904491b516e8e522d46cad
-    new: debd441c309700797bc931963a4e448d3061f9a6
-    log: revlist-d82f4453bb46-debd441c3097.txt
+    old: debd441c309700797bc931963a4e448d3061f9a6
+    new: 15486b67ae5468f6e5d52b52c51ee503eab73c67
+    log: revlist-debd441c3097-15486b67ae54.txt
   - ref: refs/heads/metadump-external-devices
-    old: 7c54f5ec7a5aac7be4bd0cbfe18b97b984f706ff
-    new: 18bf91ea164c28a87dbcbda19078d704fc32d6e4
-    log: revlist-7c54f5ec7a5a-18bf91ea164c.txt
+    old: 18bf91ea164c28a87dbcbda19078d704fc32d6e4
+    new: 98c20a8ac153b402dc09f0779f5c287c2dca59b3
+    log: revlist-18bf91ea164c-98c20a8ac153.txt
   - ref: refs/heads/mkfs-scale-geo-on-ssds
-    old: df54d43d90f31e659ef8cf4c53d31f1a9148ffa6
-    new: fabf5dcd145d1d565e4c9727878f82fcfa099fbe
-    log: revlist-df54d43d90f3-fabf5dcd145d.txt
+    old: fabf5dcd145d1d565e4c9727878f82fcfa099fbe
+    new: 4c0118d037c31479403f5890cfcd9b260bfa56eb
+    log: revlist-fabf5dcd145d-4c0118d037c3.txt
   - ref: refs/heads/pptrs
-    old: 8ef071694a6a2a9bcbc0c5fc9c5258feb8323716
-    new: dd1acacf6060a0fcd25f20216d81f5c86b5e7d5d
-    log: revlist-8ef071694a6a-dd1acacf6060.txt
+    old: dd1acacf6060a0fcd25f20216d81f5c86b5e7d5d
+    new: cb0ca7bd9490d02b474dc8a45060e32ef3173b8e
+    log: revlist-dd1acacf6060-cb0ca7bd9490.txt
   - ref: refs/heads/pptrs-ioctl-flexarray
-    old: a3e258c7ecb06c6772e36a9eed24fb21ad65d4eb
-    new: 46aa10b510eb73dda13e24072841786db6f722a1
-    log: revlist-a3e258c7ecb0-46aa10b510eb.txt
+    old: 46aa10b510eb73dda13e24072841786db6f722a1
+    new: 6c0478d908e4e201170240b4d6e5b587e022e496
+    log: revlist-46aa10b510eb-6c0478d908e4.txt
   - ref: refs/heads/pptrs-name-in-attr-key
-    old: f49f916bbe8f48c600e3c298735e1e168c33d9c2
-    new: c5e1fc52452ae402041eef9cdfcfec96b817be44
-    log: revlist-f49f916bbe8f-c5e1fc52452a.txt
+    old: c5e1fc52452ae402041eef9cdfcfec96b817be44
+    new: dc24ccf06f9e396be613f120ce4f5f1f598529aa
+    log: revlist-c5e1fc52452a-dc24ccf06f9e.txt
   - ref: refs/heads/realtime-discard
-    old: a485789ac9d10dab156d27dbf2c78e48139fdbc8
-    new: 20bf67c10d5495560bfe05f0e8cdec31d6c8061a
-    log: revlist-a485789ac9d1-20bf67c10d54.txt
+    old: 20bf67c10d5495560bfe05f0e8cdec31d6c8061a
+    new: 6e0f6eea8a263a1adbccf54891f23cc61c3a9275
+    log: revlist-20bf67c10d54-6e0f6eea8a26.txt
   - ref: refs/heads/realtime-groups
-    old: f03808563b8f8164502a718b54598c835e5f03f0
-    new: f75eed08daa154344645a83426c3b056469d33fc
-    log: revlist-f03808563b8f-f75eed08daa1.txt
+    old: f75eed08daa154344645a83426c3b056469d33fc
+    new: d93697f0a0643abc9b2375119ea5304939b4157a
+    log: revlist-f75eed08daa1-d93697f0a064.txt
   - ref: refs/heads/realtime-quotas
-    old: 5fdbdb8bcd6d2bb00b86208603b652b513f2976b
-    new: 5b3c32b3611aa42624f0e353162a1d03b61ba59e
-    log: revlist-5fdbdb8bcd6d-5b3c32b3611a.txt
+    old: 5b3c32b3611aa42624f0e353162a1d03b61ba59e
+    new: c43deb86e7e2f0ecf1066f377a82f11c650f655a
+    log: revlist-5b3c32b3611a-c43deb86e7e2.txt
   - ref: refs/heads/realtime-reflink
-    old: a5a2b66362c0333c50aafb8efd8c6ecb4816a504
-    new: 78efe2e701b92fac8a18091021de4b83444e4c92
-    log: revlist-a5a2b66362c0-78efe2e701b9.txt
+    old: 78efe2e701b92fac8a18091021de4b83444e4c92
+    new: 6d0570ce372287949248561a40e7a32a1a1ced15
+    log: revlist-78efe2e701b9-6d0570ce3722.txt
   - ref: refs/heads/realtime-reflink-baseline
-    old: fa8e19eace775d376a256eadc404d959b57a57aa
-    new: 621755b246070dba55955fc50053620209da2d43
-    log: revlist-fa8e19eace77-621755b24607.txt
+    old: 621755b246070dba55955fc50053620209da2d43
+    new: 88516c14fe833bebba2ce274ea489cce8e9f8e9c
+    log: revlist-621755b24607-88516c14fe83.txt
   - ref: refs/heads/realtime-reflink-extsize
-    old: 91a9d714d5066aa75b76b91efd2d663472d89d2d
-    new: 7d1f5cc90c8b3f466735c9ec2e56b4ee9f66d5df
-    log: revlist-91a9d714d506-7d1f5cc90c8b.txt
+    old: 7d1f5cc90c8b3f466735c9ec2e56b4ee9f66d5df
+    new: 7d22511c41094896465ebfe66a79f0e20631f307
+    log: revlist-7d1f5cc90c8b-7d22511c4109.txt
   - ref: refs/heads/realtime-rmap
-    old: 10bbaf2f0497199b8d20a6b9b19b83d6abc750fb
-    new: d3facc8e97762b8aa85e4445db91e2a348d2c3a6
-    log: revlist-10bbaf2f0497-d3facc8e9776.txt
+    old: d3facc8e97762b8aa85e4445db91e2a348d2c3a6
+    new: 59dd66b4ffd465a52db5b448a23681c6cb40cb44
+    log: revlist-d3facc8e9776-59dd66b4ffd4.txt
   - ref: refs/heads/realtime-rmap-baseline
-    old: 357584e3429dbfce1c8280f56f8d0804578357ad
-    new: a8a65edf8b525a4b18a9246990ae218e3eb85421
-    log: revlist-357584e3429d-a8a65edf8b52.txt
+    old: a8a65edf8b525a4b18a9246990ae218e3eb85421
+    new: 36e5920adbd02c85d574f1619220f6b77bf06828
+    log: revlist-a8a65edf8b52-36e5920adbd0.txt
   - ref: refs/heads/repair-dirs
-    old: 566dcb47431ea4fa587ea9805b8267a185a14154
-    new: d6f2c6e0e88a5026aa20a9e35ac68e3e336eb0a2
-    log: revlist-566dcb47431e-d6f2c6e0e88a.txt
+    old: d6f2c6e0e88a5026aa20a9e35ac68e3e336eb0a2
+    new: d9cb58b671bcfce853e716f50c660a5e1ed88198
+    log: revlist-d6f2c6e0e88a-d9cb58b671bc.txt
   - ref: refs/heads/report-refcounts
-    old: 85f5a7b8450a6b9805dba7618e083e5f683dbf49
-    new: f961fb62429f00320f10eb77bbe5536cea53eacf
-    log: revlist-85f5a7b8450a-f961fb62429f.txt
+    old: f961fb62429f00320f10eb77bbe5536cea53eacf
+    new: 346a308c4e35c61ef8f2a2d8cb173bdcda72efd2
+    log: revlist-f961fb62429f-346a308c4e35.txt
   - ref: refs/heads/scrub-fstrim-minlen-freesp-histogram
-    old: 36da45e2e2bd1028d2d1c263f44c8c681274a625
-    new: 9d6e57d99439051b8286b149ed0289b3404a1728
-    log: revlist-36da45e2e2bd-9d6e57d99439.txt
+    old: 9d6e57d99439051b8286b149ed0289b3404a1728
+    new: 25393397b78452f014b3c7fdee797ea23bb2269e
+    log: revlist-9d6e57d99439-25393397b784.txt
   - ref: refs/heads/soak-duration
-    old: e227482f53239be57312233b6a51be71de065911
-    new: cd643df6e014bbcdc40e9b945dd483abedccd31b
-    log: revlist-e227482f5323-cd643df6e014.txt
+    old: cd643df6e014bbcdc40e9b945dd483abedccd31b
+    new: cba5b0163b485bcda4d6e66c9c10a58d798a8230
+    log: revlist-cd643df6e014-cba5b0163b48.txt
   - ref: refs/heads/test-swapfile-io
-    old: cadd35c287b1f78b7909ca1bc44ee6a4356752e1
-    new: 026053f45f3eedd049801daaa1272f2e24fb4fb8
-    log: revlist-cadd35c287b1-026053f45f3e.txt
+    old: 026053f45f3eedd049801daaa1272f2e24fb4fb8
+    new: 86a022bf8628046e9b161b89236b48a04d7b880f
+    log: revlist-026053f45f3e-86a022bf8628.txt
   - ref: refs/heads/upgrade-older-features
-    old: d173e5f0be668dd02f9e80fdc4a80da905d24fc7
-    new: 8b425e57b6d2e16605a4b5d267ac48269a0b066a
-    log: revlist-d173e5f0be66-8b425e57b6d2.txt
+    old: 8b425e57b6d2e16605a4b5d267ac48269a0b066a
+    new: e56c8eb1933658c280cb604595c1067980991f68
+    log: revlist-8b425e57b6d2-e56c8eb19336.txt
   - ref: refs/heads/vectorized-scrub
-    old: 21a0dcb7bd2c4c64aefda5ce02e4a1c12658d09c
-    new: 21d5f7c2a36a0802432cf65a84d44d1114d2e458
-    log: revlist-21a0dcb7bd2c-21d5f7c2a36a.txt
+    old: 21d5f7c2a36a0802432cf65a84d44d1114d2e458
+    new: c75bc4c866c71ea61394598afdccb244fa469335
+    log: revlist-21d5f7c2a36a-c75bc4c866c7.txt
   - ref: refs/heads/xunit-reporting-improvements
-    old: a76e919ed64be3b7c6330abac97c82dcbd6cb28e
-    new: 3c708060bb0c4357649b24c8feadb8dca96dc3e2
-    log: revlist-a76e919ed64b-3c708060bb0c.txt
-  - ref: refs/tags/v2023.03.05
-    old: 0000000000000000000000000000000000000000
-    new: 4cd82b831ba1ac062439bcfcaf33db8178b2fb11
-  - ref: refs/tags/xunit-reporting-improvements_2023-03-14
-    old: 0000000000000000000000000000000000000000
-    new: 13888d95ade1112449f6d59b8e45c29f33aab32c
-  - ref: refs/tags/mkfs-scale-geo-on-ssds_2023-03-14
-    old: 0000000000000000000000000000000000000000
-    new: b759975ede882dfc99ff2d14b5eb0c44cb4642cc
-  - ref: refs/tags/fuzz-baseline_2023-03-14
-    old: 0000000000000000000000000000000000000000
-    new: 4388dd3c676d7cd4f7b2e2766273d3afba794005
-  - ref: refs/tags/repair-dirs_2023-03-14
-    old: 0000000000000000000000000000000000000000
-    new: e85f6b8f99b7aeb105751b4ea6bf3be4d27bb8f8
-  - ref: refs/tags/scrub-fstrim-minlen-freesp-histogram_2023-03-14
-    old: 0000000000000000000000000000000000000000
-    new: 84ca0af08290d9a5c6572777769384c65fe128d7
-  - ref: refs/tags/upgrade-older-features_2023-03-14
-    old: 0000000000000000000000000000000000000000
-    new: 7594b0bb9bd7b3cec3f7caa8de1bc2398f9b32b1
-  - ref: refs/tags/metadir_2023-03-14
-    old: 0000000000000000000000000000000000000000
-    new: 55f7303f3ac52ef1a7d0b5d9efbcd7031d5bc94e
-  - ref: refs/tags/pptrs_2023-03-14
-    old: 0000000000000000000000000000000000000000
-    new: f00f47c6b62eb34d20fde9e55bf3573c7629f47c
-  - ref: refs/tags/pptrs-name-in-attr-key_2023-03-14
-    old: 0000000000000000000000000000000000000000
-    new: eee071f1a04f133593ebc2bec22444653f37fe4a
-  - ref: refs/tags/pptrs-ioctl-flexarray_2023-03-14
-    old: 0000000000000000000000000000000000000000
-    new: 7968f71058873672748c821aff6d4e4c3f10f919
-  - ref: refs/tags/metadir-baseline_2023-03-14
-    old: 0000000000000000000000000000000000000000
-    new: 137fd5cff9dc028538c4e89ec4a7f3f1a4bdfe32
-  - ref: refs/tags/metadump-external-devices_2023-03-14
-    old: 0000000000000000000000000000000000000000
-    new: dcdbd2d3ecdb7304dc30abf564206215c2663663
-  - ref: refs/tags/realtime-groups_2023-03-14
-    old: 0000000000000000000000000000000000000000
-    new: 57e8c8bdba1cc19c73082ccf89c75cd1c6f819b0
-  - ref: refs/tags/realtime-discard_2023-03-14
-    old: 0000000000000000000000000000000000000000
-    new: c4ddbdab4844a53b03a4fefd5b3ff4bb6c1ed8ac
-  - ref: refs/tags/realtime-rmap_2023-03-14
-    old: 0000000000000000000000000000000000000000
-    new: cba357993fbf1432926a305db3576f2f0070b5a9
-  - ref: refs/tags/realtime-rmap-baseline_2023-03-14
-    old: 0000000000000000000000000000000000000000
-    new: 151d087999c50528a76c037beb9818e4073d4df6
-  - ref: refs/tags/realtime-reflink_2023-03-14
-    old: 0000000000000000000000000000000000000000
-    new: 2837a70c26a9862d394e8e5d5a176b26d3d2a133
-  - ref: refs/tags/realtime-reflink-baseline_2023-03-14
-    old: 0000000000000000000000000000000000000000
-    new: df0179cf1c54a84b38a7e9cbc93bfe2ceab82636
-  - ref: refs/tags/realtime-reflink-extsize_2023-03-14
-    old: 0000000000000000000000000000000000000000
-    new: df5ead787646b75b3c7cd622eee9849cf60d1d0d
-  - ref: refs/tags/realtime-quotas_2023-03-14
-    old: 0000000000000000000000000000000000000000
-    new: b18aa0d92377a8c84ecf9e32281fd5952f79a860
-  - ref: refs/tags/vectorized-scrub_2023-03-14
-    old: 0000000000000000000000000000000000000000
-    new: 8fdf0b817c306be8fbc0ce414aa8046740e9b5a3
-  - ref: refs/tags/report-refcounts_2023-03-14
-    old: 0000000000000000000000000000000000000000
-    new: a3c7fe82363322631539cbe33c4fbbbcfdedd71d
-  - ref: refs/tags/test-swapfile-io_2023-03-14
-    old: 0000000000000000000000000000000000000000
-    new: 558d203b7a5d6db0b35c5afdb741db805039fa33
+    old: 3c708060bb0c4357649b24c8feadb8dca96dc3e2
+    new: 7e5db626c7e5f9adedff38e6fe2e4c3551e1007e
+    log: revlist-3c708060bb0c-7e5db626c7e5.txt
   - ref: refs/tags/defrag-freespace_2023-03-14
-    old: 0000000000000000000000000000000000000000
-    new: 3fb9b4cc51435a6c6fc14a0c59b06d52488256c0
-  - ref: refs/tags/soak-duration_2023-03-14
-    old: 0000000000000000000000000000000000000000
-    new: 74f165ddf9857e1fa157bbdf55d6fb831efc1a18
+    old: 3fb9b4cc51435a6c6fc14a0c59b06d52488256c0
+    new: f13d170012b5312bbd4c10c6b83ebd065845c53d
+    log: revlist-3fb9b4cc5143-f13d170012b5.txt
   - ref: refs/tags/djwong-wtf_2023-03-14
-    old: 0000000000000000000000000000000000000000
-    new: b74f65a53a90488044f519d7de1114bd2d7a6567
+    old: b74f65a53a90488044f519d7de1114bd2d7a6567
+    new: a1d28251eab74085e668621dbae937fd6fb48ed4
+    log: revlist-b74f65a53a90-a1d28251eab7.txt
+  - ref: refs/tags/fuzz-baseline_2023-03-14
+    old: 4388dd3c676d7cd4f7b2e2766273d3afba794005
+    new: 256fd3e3e088fccc8a7ddc55797f6a6c05fc2d91
+    log: revlist-4388dd3c676d-256fd3e3e088.txt
+  - ref: refs/tags/metadir-baseline_2023-03-14
+    old: 137fd5cff9dc028538c4e89ec4a7f3f1a4bdfe32
+    new: cb3744f6a7ba54435b6000f450e9c3cc640a376d
+    log: revlist-137fd5cff9dc-cb3744f6a7ba.txt
+  - ref: refs/tags/metadir_2023-03-14
+    old: 55f7303f3ac52ef1a7d0b5d9efbcd7031d5bc94e
+    new: 20ac946a55550748b5629ea460d8aa6b29d6b2f3
+    log: revlist-55f7303f3ac5-20ac946a5555.txt
+  - ref: refs/tags/metadump-external-devices_2023-03-14
+    old: dcdbd2d3ecdb7304dc30abf564206215c2663663
+    new: 0819dbc20f2ab7c26b41fdb41a015a05711d1d5d
+    log: revlist-dcdbd2d3ecdb-0819dbc20f2a.txt
+  - ref: refs/tags/mkfs-scale-geo-on-ssds_2023-03-14
+    old: b759975ede882dfc99ff2d14b5eb0c44cb4642cc
+    new: df184540c0274f6510f76dc67f9aa5d5b91acc11
+    log: revlist-b759975ede88-df184540c027.txt
+  - ref: refs/tags/pptrs-ioctl-flexarray_2023-03-14
+    old: 7968f71058873672748c821aff6d4e4c3f10f919
+    new: fc08d458ec231f88de3fe6db24a45d01dcf4d698
+    log: revlist-7968f7105887-fc08d458ec23.txt
+  - ref: refs/tags/pptrs-name-in-attr-key_2023-03-14
+    old: eee071f1a04f133593ebc2bec22444653f37fe4a
+    new: dfdcda49e2368a0ebe0e1dd7ae32f38f5eadde76
+    log: revlist-eee071f1a04f-dfdcda49e236.txt
+  - ref: refs/tags/pptrs_2023-03-14
+    old: f00f47c6b62eb34d20fde9e55bf3573c7629f47c
+    new: 2f70371657b570a9cabb084701eb478b5e3e2271
+    log: revlist-f00f47c6b62e-2f70371657b5.txt
+  - ref: refs/tags/realtime-discard_2023-03-14
+    old: c4ddbdab4844a53b03a4fefd5b3ff4bb6c1ed8ac
+    new: ef303352f7ce46f99c8b00a9e17d666099d3d465
+    log: revlist-c4ddbdab4844-ef303352f7ce.txt
+  - ref: refs/tags/realtime-groups_2023-03-14
+    old: 57e8c8bdba1cc19c73082ccf89c75cd1c6f819b0
+    new: c1eec72d08e8a45370b2b5878c1e1cf58ff6703d
+    log: revlist-57e8c8bdba1c-c1eec72d08e8.txt
+  - ref: refs/tags/realtime-quotas_2023-03-14
+    old: b18aa0d92377a8c84ecf9e32281fd5952f79a860
+    new: 1d5203c3cd11f7e53db57a9fc38c70eb87283b56
+    log: revlist-b18aa0d92377-1d5203c3cd11.txt
+  - ref: refs/tags/realtime-reflink-baseline_2023-03-14
+    old: df0179cf1c54a84b38a7e9cbc93bfe2ceab82636
+    new: acae80cae9b62af4ab48bcb471bbc287a3416471
+    log: revlist-df0179cf1c54-acae80cae9b6.txt
+  - ref: refs/tags/realtime-reflink-extsize_2023-03-14
+    old: df5ead787646b75b3c7cd622eee9849cf60d1d0d
+    new: f09ad80e5fafd428d2072681dc5f099e076fca0d
+    log: revlist-df5ead787646-f09ad80e5faf.txt
+  - ref: refs/tags/realtime-reflink_2023-03-14
+    old: 2837a70c26a9862d394e8e5d5a176b26d3d2a133
+    new: c7552ed7d14af3edc2146e36d373397c69dd590f
+    log: revlist-2837a70c26a9-c7552ed7d14a.txt
+  - ref: refs/tags/realtime-rmap-baseline_2023-03-14
+    old: 151d087999c50528a76c037beb9818e4073d4df6
+    new: a617d72e98292156cdf137fc65dd7304d756e650
+    log: revlist-151d087999c5-a617d72e9829.txt
+  - ref: refs/tags/realtime-rmap_2023-03-14
+    old: cba357993fbf1432926a305db3576f2f0070b5a9
+    new: c55c73bab72c1e394940c1faa21ab23d0a1b79b6
+    log: revlist-cba357993fbf-c55c73bab72c.txt
+  - ref: refs/tags/repair-dirs_2023-03-14
+    old: e85f6b8f99b7aeb105751b4ea6bf3be4d27bb8f8
+    new: 61a4148190d79730f2d5a3ef29a1ce1a98b28129
+    log: revlist-e85f6b8f99b7-61a4148190d7.txt
+  - ref: refs/tags/report-refcounts_2023-03-14
+    old: a3c7fe82363322631539cbe33c4fbbbcfdedd71d
+    new: 419f3a91be6ae547ba9a11d117fe05c49a5ef66a
+    log: revlist-a3c7fe823633-419f3a91be6a.txt
+  - ref: refs/tags/scrub-fstrim-minlen-freesp-histogram_2023-03-14
+    old: 84ca0af08290d9a5c6572777769384c65fe128d7
+    new: 8e9af8de34834e4e19245364559549eebe3aa8a1
+    log: revlist-84ca0af08290-8e9af8de3483.txt
+  - ref: refs/tags/soak-duration_2023-03-14
+    old: 74f165ddf9857e1fa157bbdf55d6fb831efc1a18
+    new: 6882dd432e0a270912cf12b7a87fc113b6e8028e
+    log: revlist-74f165ddf985-6882dd432e0a.txt
+  - ref: refs/tags/test-swapfile-io_2023-03-14
+    old: 558d203b7a5d6db0b35c5afdb741db805039fa33
+    new: cad09311cd1d981b700efe74e7c17b8fe3a7e9bc
+    log: revlist-558d203b7a5d-cad09311cd1d.txt
+  - ref: refs/tags/upgrade-older-features_2023-03-14
+    old: 7594b0bb9bd7b3cec3f7caa8de1bc2398f9b32b1
+    new: 5451a5d1745e026fa8f6d3ff687a9de4160028f5
+    log: revlist-7594b0bb9bd7-5451a5d1745e.txt
+  - ref: refs/tags/vectorized-scrub_2023-03-14
+    old: 8fdf0b817c306be8fbc0ce414aa8046740e9b5a3
+    new: 2790321be38c7c1b7dbc911879f64637957bca4a
+    log: revlist-8fdf0b817c30-2790321be38c.txt
+  - ref: refs/tags/xunit-reporting-improvements_2023-03-14
+    old: 13888d95ade1112449f6d59b8e45c29f33aab32c
+    new: 8a9ea21f4577736dd1f013a0a621839fd7067f7c
+    log: revlist-13888d95ade1-8a9ea21f4577.txt
 
---===============7650299949684335615==
+--===============5328713760726719305==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a93ca79ddebc-94a97103b131.txt
+Content-Disposition: attachment; filename=revlist-94a97103b131-c3284d13c671.txt
 
-e19c99400cfe67bd5f11d3cfe5587446ed3026ef xfs/122: fix for swapext log items
-5d2aea2b1f6dc3ac84909bbd3c155edccc131aae generic: test old xfs extent swapping ioctl
-815ea93652305f0ebba36b3e0ed48602235b9b1c generic: test new vfs swapext ioctl
-81cbafc4597a0cc59e87eeae99ab7a1c8f2a70e8 generic, xfs: test scatter-gather atomic file updates
-f02d41a7b5cade6bb7f9b4009e787b284283eccf generic: test that file privilege gets dropped with FIEXCHANGE_RANGE
-bf183828b8f4c3caf3d3fd1f96d9f396db7508e5 fsx: support FIEXCHANGE_RANGE
-ae5ac04996c581c9e8b70bacb663ff5708f65e18 fsstress: update for FIEXCHANGE_RANGE
-d8cf497797b015b68e2e60822ba3e5eb2bc5714e xfs: race fsstress with online repair of realtime summary files
-a199f989b6f187e28b789ac69f0dbe3a55c1d572 xfs: race fsstress with online repair of extended attribute data
-249f5a78d3094477c8615cb62fb49ef3aec4f785 xfs: ensure that online directory repairs don't hit EDQUOT
-0999380268abb51a7e9f1cec4da920f5a077bad5 xfs: race fsstress with online repair of dirs and parent pointers
-fc0a397e3ec479a5883fbaba7dea75fd5cbf5ebf xfs: test xfs_scrub dry run, preen, and repair mode
-b3096c996a48960160b72738e5599df808a53260 common/rc: don't clear superblock for zoned scratch pools
-f7765774a1b5cb98c2f21a892e82b3421f40e791 generic/020: fix really long attr test failure for ceph
-c9a8237d8c5fdc4ef2d25a56069ffdcce22b5d4b check: generate section reports between tests
-c4473e90a4fe1b6d0c7cf77d9fcdf22852aea1a3 report: derive an xml schema for the xunit report
-4e77406f99b4624a065d8290b8e45e29adb8b072 report: capture the time zone in the test report timestamp
-e7a36e5fbd4cff148b5642132af261c46bec8d28 report: clarify the meaning of the timestamp attribute
-d203e87a2bcb075677925fa93462a78324ba1423 report: record fstests start and report generation timestamps
-21d1f01c021d75e3faa824dbe6a8dfa2dd609e1a report: encode cdata sections correctly
-a5ee28a4ec13d186e41e461997a31fbf147d8532 report: encode the kernel log as a separate xml element
-959235b87703de1e98238656e84bae561c32b6f0 report: sort properties by name
-2c95da79fbf3a9c7146c1e2fd697f382fbbea069 report: pass property value to _xunit_add_property
-742e144fedcfb383e088eb8e4e484b0a6672dc26 report: encode xml entities in property values
-31dc2c91e727311b181403ecbe57a311eee58eb0 report: collect basic information about a test run
-9902ebd0e0fb4d6327686ffd17f4b40f60ba9f28 report: record optional environment variables
-e8e4bddd474609f0284389f3c2323d9bb6779e65 report: record xfs-specific information about a test run
-2f066c6808adb1d1a1f6682d2eb0740facfecd49 report: record ext*-specific information about a test run
-3c708060bb0c4357649b24c8feadb8dca96dc3e2 report: allow test runners to inject arbitrary values
-fabf5dcd145d1d565e4c9727878f82fcfa099fbe xfs: test scaling of the mkfs concurrency options
-c1d2b42fb29e2137e72393ec8d5bd20a29f4f40f xfs: online fuzz test known output
-9aa1f156168b48d39a62ce45f862a65d3de56f35 xfs: offline fuzz test known output
-6ec145e27e9a54dfde37c9db9875d68313c252b1 xfs: norepair fuzz test known output
-252d09f535865014aeec131bbfb484a561144274 xfs: bothrepair fuzz test known output
-a853d74252e154b561186f2fbc4edce09c1b83e1 misc: privatize the FIEXCHANGE ioctl for now
-ac3655b823541f3bbd6581baf2bbffc47c702c68 misc: update xfs_io swapext usage
-d6f2c6e0e88a5026aa20a9e35ac68e3e336eb0a2 part two of fsstress cycling parent pointers with online repair
-9d6e57d99439051b8286b149ed0289b3404a1728 xfs/004: fix column extraction code
-2b7243feadb791314040d4b868322554cd9940e8 common: make helpers for ttyprintk usage
-8b425e57b6d2e16605a4b5d267ac48269a0b066a xfs: test upgrading old features
-720cd44e24ffa461739e49781c8751c9b8cdc4b3 xfs/122: fix metadirino
-d2f50d13bac80bf92f0e42e70e1d185a483fcf4f various: fix finding metadata inode numbers when metadir is enabled
-3a9e26631305d3d5b7b02c1a1c0c81ee52bd6b3e xfs/{030,033,178}: forcibly disable metadata directory trees
-a590753c3caa28f4f405fc43ac9089a6bc545b32 common/repair: patch up repair sb inode value complaints
-94d91f71981306002c48f781f2fcb7775db3168e xfs/206: update for metadata directory support
-a1f12e21d3040b860e9a0306f1af69d1fed7ac24 xfs/{050,144,153,299,330}: update quota reports to leave out metadir files
-e80adde27d8463eb3b8541a4486258471dfaf95c xfs/856: add metadir upgrade to test matrix
-1c1766350573f7c4f4770a2a2c707a45fcc4b39e xfs/509: adjust inumbers accounting for metadata directories
-0f7d59c9318f5478111678d6d02db1f8d7a15746 xfs: create fuzz tests for metadata directories
-debd441c309700797bc931963a4e448d3061f9a6 xfs: baseline golden output for metadata directory fuzz tests
-b29ef644541b73302f1c837fc360c665ab8e9bc1 common/populate: refactor caching of metadumps to a helper
-2e05c670d52763cffb683dcdbd8ae41449cec1db common/xfs: wipe external logs during mdrestore operations
-b3a1c673f5c048207dfb88a852c6ce4fd0b4c920 common/ext4: reformat external logs during mdrestore operations
-18bf91ea164c28a87dbcbda19078d704fc32d6e4 common/xfs: capture external logs during metadump/mdrestore
-5db43b00908318341316d070852cba1bf6c3e33f xfs/122: update for rtgroups
-f255e694bbe314a3f83eb80d5ad849d668021b07 punch-alternating: detect xfs realtime files with large allocation units
-c0e0898b69ff971cee0bcee60f51da77ad44d497 xfs/206: update mkfs filtering for rt groups feature
-7a0494cf4e4abc035cd3c9cbb5410cde9c576fdc common: pass the realtime device to xfs_db when possible
-eaca8b4a5aca0b0f3ebcfdfda24c106d1e8e9290 common: filter rtgroups when we're disabling metadir
-42545dded44530dfd209d9a09360e20e11ceb668 xfs/185: update for rtgroups
-04365465c86b65a032143f4818c85b458a5a71e6 xfs/449: update test to know about xfs_db -R
-babd2b35aadcdec8b689a9496686a93b819a3453 xfs/122: update for rtbitmap headers
-87a611b7bacf494d7b4826305edfb8b164e8e7ac xfs/122: udpate test to pick up rtword/suminfo ondisk unions
-fb5bc27682e2515fa7e58383732c93f5e5f5da94 xfs/27[46],xfs/556: fix tests to deal with rtgroups output in bmap/fsmap commands
-f21098a98260b6ef51cde6e9a060a375639818c5 common/xfs: capture realtime devices during metadump/mdrestore
-f75eed08daa154344645a83426c3b056469d33fc common/fuzzy: adapt the scrub stress tests to support rtgroups
-9b8c374e47902fa305a5c713b58e9fb4502ad084 xfs: refactor statfs field extraction
-20bf67c10d5495560bfe05f0e8cdec31d6c8061a generic/260: compute maximum fitrim offset
-603f7fe264e2c0b650e4a54e455b5f93085bc826 xfs: fix tests that try to access the realtime rmap inode
-4e876ffec1e72f5be51fa91093e56737a6fbd7ae fuzz: for fuzzing the rtrmapbt, find the path to the rt rmap btree file
-c19e7c1c1a106dbb8e3cc44e9442ddfcfaa914f2 xfs: race fsstress with realtime rmap btree scrub and repair
-34522c16fe79b1c551e6fef8771ed4b766e27e9a xfs/856: add rtrmapbt upgrade to test matrix
-e44fe92a6b56c284a000a4776eb0bdd6d51d5507 xfs/122: update for rtgroups-based realtime rmap btrees
-c1bc17216efbae32cc9a893a37df70d37c4332c8 xfs: fix various problems with fsmap detecting the data device
-24d7998139332c63ea27d8588b4c5f50a61eceaa xfs/341: update test for rtgroup-based rmap
-619c45185c9e71ef9f28df59a8ace6327b050e39 xfs/3{43,32}: adapt tests for rt extent size greater than 1
-e4e0d5b25cf3cb70d211f7241ac0ab68f3a636e0 xfs: skip tests if formatting small filesystem fails
-dcfb16341bd917ebf40300486e50c80bd1fba25f xfs/443: use file allocation unit, not dbsize
-361003395f75e0651f1dc66341543e68e9b2a22d populate: adjust rtrmap calculations for rtgroups
-c75f6e6c2283644c4b63283baabb2b93bbc92f2e populate: check that we created a realtime rmap btree of the given height
-d3facc8e97762b8aa85e4445db91e2a348d2c3a6 fuzzy: create missing fuzz tests for rt rmap btrees
-a8a65edf8b525a4b18a9246990ae218e3eb85421 fuzzy: create known output for rt rmap btree fuzz tests
-89d3d26536cd219ceaa10947741da4d1778de7fb xfs/122: update fields for realtime reflink
-9373f3da6f443eed115814b4fa8ed7e2a303d42c common/populate: create realtime refcount btree
-a69804c1d785b393be78660bcedfbff63524e13f xfs: create fuzz tests for the realtime refcount btree
-c9ff465a55a0113e940f94908d271329b7a1241e xfs/27[24]: adapt for checking files on the realtime volume
-db1adfb83a7c40438979b32d81d587cf8bf9364b xfs/243: don't run when realtime storage is the default
-8c87c55e1541005dc7ce421cb2ef1059240987fc xfs: race fsstress with realtime refcount btree scrub and repair
-424b3346b6724469fda09ab9190e951b5b290b44 xfs: remove xfs/131 now that we allow reflink on realtime volumes
-56ebebafce6b05d3fbc17f786062dc973e516a90 xfs/856: add rtreflink upgrade to test matrix
-8379ca11722dfe043195d224bef2de92c4a6ea54 generic/331,xfs/240: support files that skip delayed allocation
-78efe2e701b92fac8a18091021de4b83444e4c92 common/xfs: fix _xfs_get_file_block_size when rtinherit is set and no rt section
-621755b246070dba55955fc50053620209da2d43 xfs: baseline golden output for rt refcount btree fuzz tests
-000c7df73f33f89b14af715410c3c4470cd3032e xfs: make sure that CoW will write around when rextsize > 1
-95166c4299584d5cf83e71abd537898aa8f77546 xfs: skip cowextsize hint fragmentation tests on realtime volumes
-8cc9c13ae7330065753c8cbf2f4c4f5fc4234dbc misc: add more congruent oplen testing
-7d1f5cc90c8b3f466735c9ec2e56b4ee9f66d5df generic/303: avoid test failures on weird rt extent sizes
-5b3c32b3611aa42624f0e353162a1d03b61ba59e xfs: regression testing of quota on the realtime device
-21d5f7c2a36a0802432cf65a84d44d1114d2e458 xfs/122: update for vectored scrub
-f961fb62429f00320f10eb77bbe5536cea53eacf xfs: test output of new FSREFCOUNTS ioctl
-94a97103b131b03c2250d5ccddaff66202593b4f xfs: test clearing of free space
+a20990a0481571d5cb2d2294c9449ebb317a2b2f check: generate section reports between tests
+7e8a291e3bdf25bd57498131d86925bdc380837d report: derive an xml schema for the xunit report
+36c554feac175a5967ef70bab6904315c190484c report: capture the time zone in the test report timestamp
+f7367629f92fe4e90fd1f0764a919a841515a44f report: clarify the meaning of the timestamp attribute
+36c275a1500e88a7c09cc5108437dcbc40e6faeb report: record fstests start and report generation timestamps
+fc9f173562f94ffbeb432db5c0665c4e2ac49737 report: encode cdata sections correctly
+46e9c212bf8ba024f7d0eb1293e90f4df40a3fbe report: encode the kernel log as a separate xml element
+b9b05ccd3ff760be88ab3a9814113d7a519fc71f report: sort properties by name
+de57f6161f14ac071178f663d0634f210c1224e8 report: pass property value to _xunit_add_property
+6c65bb263b3304691eac93ff871ab7f0a5af29ad report: encode xml entities in property values
+57c3db4f694fe0b6bfaccd43efefbed965857fb9 report: collect basic information about a test run
+68b87376a7c82e114ab0af81414a2d102c0e5757 report: record optional environment variables
+b2f466196d7f510f9f51595423b8096ca1b84351 report: record xfs-specific information about a test run
+dcbe83cc7e5aa5e4c84492626e0ac1fa5b10bdff report: record ext*-specific information about a test run
+7e5db626c7e5f9adedff38e6fe2e4c3551e1007e report: allow test runners to inject arbitrary values
+4c0118d037c31479403f5890cfcd9b260bfa56eb xfs: test scaling of the mkfs concurrency options
+ec1ffd84a6a3cf87ca11ffeb3e34d13b60438074 xfs: online fuzz test known output
+f4ce31788d2a084db43c1af26f74b8dad0f01d1a xfs: offline fuzz test known output
+7df0d95f9957e231d90a47e3d147b0ed9113b244 xfs: norepair fuzz test known output
+422872dd54a6df272d47fb3c5e289ecc736391dd xfs: bothrepair fuzz test known output
+ce72ac0fca3b751516f5fddc5f0df3d72372a472 misc: privatize the FIEXCHANGE ioctl for now
+7e67f2a222f333adbb86fe105be3ae0b1c4b5577 misc: update xfs_io swapext usage
+d9cb58b671bcfce853e716f50c660a5e1ed88198 xfs: stress test cycling parent pointers with online repair
+25393397b78452f014b3c7fdee797ea23bb2269e xfs/004: fix column extraction code
+9e2feaeb8d07259790db23cf18b8a9eea5b682fd common: make helpers for ttyprintk usage
+e56c8eb1933658c280cb604595c1067980991f68 xfs: test upgrading old features
+c65e4803dab28d7dbb7ae1e96df2db7bdee07b4d xfs/122: fix metadirino
+5af7921255b08b9eb3eca99b2d6fd5d166267b98 various: fix finding metadata inode numbers when metadir is enabled
+df5a1a3d37996f57ec165f98e2e024cca8ebd857 xfs/{030,033,178}: forcibly disable metadata directory trees
+07f8c92951954d0f1cdb1e6ee3a495d2b2df59a6 common/repair: patch up repair sb inode value complaints
+c98190fca1519fb1d908d89ce1b988dbe9ea2e11 xfs/206: update for metadata directory support
+7918167f182ca8eebb738d37af161a91c5278e04 xfs/{050,144,153,299,330}: update quota reports to leave out metadir files
+96962db6498f5a049b2073d5b21bace04ecdb7cb xfs/856: add metadir upgrade to test matrix
+550cbdb4c9ffa8a03e62fdd995affd230cb0a5ac xfs/509: adjust inumbers accounting for metadata directories
+dfff28f84a609505f9d8c8aa1e92bacefd6b5918 xfs: create fuzz tests for metadata directories
+15486b67ae5468f6e5d52b52c51ee503eab73c67 xfs: baseline golden output for metadata directory fuzz tests
+cb27bb41e76f3438f0afbece822efb97a18a19e7 common/populate: refactor caching of metadumps to a helper
+34064dd2ef5a5e990192e617e57ce3efefcf12b4 common/xfs: wipe external logs during mdrestore operations
+c93188aac558742f4c681f46f31820abbf0a7a1e common/ext4: reformat external logs during mdrestore operations
+98c20a8ac153b402dc09f0779f5c287c2dca59b3 common/xfs: capture external logs during metadump/mdrestore
+8859356f1abd784ca884250e7470e76fac59e85c xfs/122: update for rtgroups
+38533bab4a6974820f7a29af5b937ae54727ccd9 punch-alternating: detect xfs realtime files with large allocation units
+2e01db287abdf75ae928b8e5d17ec931d38bc72c xfs/206: update mkfs filtering for rt groups feature
+46f6c37fa56657d76f225acd17746ed3e2a30a8f common: pass the realtime device to xfs_db when possible
+89b1d9514a1c61291791ec6fb8e55ec4d7ca31a2 common: filter rtgroups when we're disabling metadir
+bf5451f7e9a29d3608702a70a7983b15fc54962f xfs/185: update for rtgroups
+f2dbe68e794433fd04046f0318edcf00cb4011fa xfs/449: update test to know about xfs_db -R
+d1baa9ac941e78b5824c792a8db8ef64c27db73c xfs/122: update for rtbitmap headers
+bbf8cf6c39c8d12e8dff3d06aa58f6d601015d39 xfs/122: udpate test to pick up rtword/suminfo ondisk unions
+4a80848e05d8b1bd37ab79dcaf941c6ccdcb638b xfs/27[46],xfs/556: fix tests to deal with rtgroups output in bmap/fsmap commands
+a6b97e330d99bc7e0b7c5c7e5ddf8a1fb9955a84 common/xfs: capture realtime devices during metadump/mdrestore
+d93697f0a0643abc9b2375119ea5304939b4157a common/fuzzy: adapt the scrub stress tests to support rtgroups
+679da0364e365cdd2501f66bb38d9e38eb09db22 xfs: refactor statfs field extraction
+6e0f6eea8a263a1adbccf54891f23cc61c3a9275 generic/260: compute maximum fitrim offset
+83d98674b6853cd0dfdee2dabb650d2c8e7a5203 xfs: fix tests that try to access the realtime rmap inode
+70ad7bdfeffec5bb8fd365f25190aa2a20c8c501 fuzz: for fuzzing the rtrmapbt, find the path to the rt rmap btree file
+fcb090021e93b1132f5aaae5a80d64c4f1cb3083 xfs: race fsstress with realtime rmap btree scrub and repair
+3d936cad3d66eace6fbac42e7b2c8529617b849a xfs/856: add rtrmapbt upgrade to test matrix
+3c00d5b3d20cf39e0a238ba9169992240ccec7dc xfs/122: update for rtgroups-based realtime rmap btrees
+3caafd18d5d91bf44ec34039d22c57b309db204e xfs: fix various problems with fsmap detecting the data device
+c39a763f81dcdcb2dc4dc17f7c7584b4b195dff1 xfs/341: update test for rtgroup-based rmap
+3d44cc3140ae7ff1321f37b060ffd837ba491ad3 xfs/3{43,32}: adapt tests for rt extent size greater than 1
+8c0441ea60fedf6cb1c9a7c676f697bf148d4514 xfs: skip tests if formatting small filesystem fails
+8eaac144ae2ea0b27bed28d099779adcbee1beaa xfs/443: use file allocation unit, not dbsize
+48e9f8cfeba46487f54aaa2fc4bacaceaa3876ca populate: adjust rtrmap calculations for rtgroups
+9176932df4ec160bb96b9a7c6672649c59df7cb7 populate: check that we created a realtime rmap btree of the given height
+59dd66b4ffd465a52db5b448a23681c6cb40cb44 fuzzy: create missing fuzz tests for rt rmap btrees
+36e5920adbd02c85d574f1619220f6b77bf06828 fuzzy: create known output for rt rmap btree fuzz tests
+618c9d2a3f8a1169ddaba8247cd147c42252cd2a xfs/122: update fields for realtime reflink
+509a7e1845f12a3ddca1ab17729c8d93b0118d52 common/populate: create realtime refcount btree
+a51c5f7d871a7518088fea129281173eca5df003 xfs: create fuzz tests for the realtime refcount btree
+69a64500b0230917c45d668fee4d955e5309855f xfs/27[24]: adapt for checking files on the realtime volume
+d7af74c5bf36bf1fae0a5b7831a97d8e04c709fc xfs/243: don't run when realtime storage is the default
+db2aa8b154fa57ca0243529ffd8283787714be13 xfs: race fsstress with realtime refcount btree scrub and repair
+666bfd9ee3c227f74c71d110fdeed46b6babf248 xfs: remove xfs/131 now that we allow reflink on realtime volumes
+9ba7b3c4a9f146625396638ea659eec4eadd6a72 xfs/856: add rtreflink upgrade to test matrix
+03b8e9a80abe15af1f97f128389a6240660e6d40 generic/331,xfs/240: support files that skip delayed allocation
+6d0570ce372287949248561a40e7a32a1a1ced15 common/xfs: fix _xfs_get_file_block_size when rtinherit is set and no rt section
+88516c14fe833bebba2ce274ea489cce8e9f8e9c xfs: baseline golden output for rt refcount btree fuzz tests
+8f655607b0b1e74fc9d1b26a5b1301f499d44773 xfs: make sure that CoW will write around when rextsize > 1
+e0d8c4406f8c202ae9e2de8362b05d371d2d8e05 xfs: skip cowextsize hint fragmentation tests on realtime volumes
+ec024ffc5011655dc58176a4bf4c5d860383e913 misc: add more congruent oplen testing
+7d22511c41094896465ebfe66a79f0e20631f307 generic/303: avoid test failures on weird rt extent sizes
+c43deb86e7e2f0ecf1066f377a82f11c650f655a xfs: regression testing of quota on the realtime device
+c75bc4c866c71ea61394598afdccb244fa469335 xfs/122: update for vectored scrub
+346a308c4e35c61ef8f2a2d8cb173bdcda72efd2 xfs: test output of new FSREFCOUNTS ioctl
+c3284d13c671272211c6f2464e658156d329a981 xfs: test clearing of free space
 
---===============7650299949684335615==
+--===============5328713760726719305==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8fea2566c75b-0c6a7b45a1f9.txt
+Content-Disposition: attachment; filename=revlist-0c6a7b45a1f9-4ae541f5efe3.txt
 
-e19c99400cfe67bd5f11d3cfe5587446ed3026ef xfs/122: fix for swapext log items
-5d2aea2b1f6dc3ac84909bbd3c155edccc131aae generic: test old xfs extent swapping ioctl
-815ea93652305f0ebba36b3e0ed48602235b9b1c generic: test new vfs swapext ioctl
-81cbafc4597a0cc59e87eeae99ab7a1c8f2a70e8 generic, xfs: test scatter-gather atomic file updates
-f02d41a7b5cade6bb7f9b4009e787b284283eccf generic: test that file privilege gets dropped with FIEXCHANGE_RANGE
-bf183828b8f4c3caf3d3fd1f96d9f396db7508e5 fsx: support FIEXCHANGE_RANGE
-ae5ac04996c581c9e8b70bacb663ff5708f65e18 fsstress: update for FIEXCHANGE_RANGE
-d8cf497797b015b68e2e60822ba3e5eb2bc5714e xfs: race fsstress with online repair of realtime summary files
-a199f989b6f187e28b789ac69f0dbe3a55c1d572 xfs: race fsstress with online repair of extended attribute data
-249f5a78d3094477c8615cb62fb49ef3aec4f785 xfs: ensure that online directory repairs don't hit EDQUOT
-0999380268abb51a7e9f1cec4da920f5a077bad5 xfs: race fsstress with online repair of dirs and parent pointers
-fc0a397e3ec479a5883fbaba7dea75fd5cbf5ebf xfs: test xfs_scrub dry run, preen, and repair mode
-b3096c996a48960160b72738e5599df808a53260 common/rc: don't clear superblock for zoned scratch pools
-f7765774a1b5cb98c2f21a892e82b3421f40e791 generic/020: fix really long attr test failure for ceph
-c9a8237d8c5fdc4ef2d25a56069ffdcce22b5d4b check: generate section reports between tests
-c4473e90a4fe1b6d0c7cf77d9fcdf22852aea1a3 report: derive an xml schema for the xunit report
-4e77406f99b4624a065d8290b8e45e29adb8b072 report: capture the time zone in the test report timestamp
-e7a36e5fbd4cff148b5642132af261c46bec8d28 report: clarify the meaning of the timestamp attribute
-d203e87a2bcb075677925fa93462a78324ba1423 report: record fstests start and report generation timestamps
-21d1f01c021d75e3faa824dbe6a8dfa2dd609e1a report: encode cdata sections correctly
-a5ee28a4ec13d186e41e461997a31fbf147d8532 report: encode the kernel log as a separate xml element
-959235b87703de1e98238656e84bae561c32b6f0 report: sort properties by name
-2c95da79fbf3a9c7146c1e2fd697f382fbbea069 report: pass property value to _xunit_add_property
-742e144fedcfb383e088eb8e4e484b0a6672dc26 report: encode xml entities in property values
-31dc2c91e727311b181403ecbe57a311eee58eb0 report: collect basic information about a test run
-9902ebd0e0fb4d6327686ffd17f4b40f60ba9f28 report: record optional environment variables
-e8e4bddd474609f0284389f3c2323d9bb6779e65 report: record xfs-specific information about a test run
-2f066c6808adb1d1a1f6682d2eb0740facfecd49 report: record ext*-specific information about a test run
-3c708060bb0c4357649b24c8feadb8dca96dc3e2 report: allow test runners to inject arbitrary values
-fabf5dcd145d1d565e4c9727878f82fcfa099fbe xfs: test scaling of the mkfs concurrency options
-c1d2b42fb29e2137e72393ec8d5bd20a29f4f40f xfs: online fuzz test known output
-9aa1f156168b48d39a62ce45f862a65d3de56f35 xfs: offline fuzz test known output
-6ec145e27e9a54dfde37c9db9875d68313c252b1 xfs: norepair fuzz test known output
-252d09f535865014aeec131bbfb484a561144274 xfs: bothrepair fuzz test known output
-a853d74252e154b561186f2fbc4edce09c1b83e1 misc: privatize the FIEXCHANGE ioctl for now
-ac3655b823541f3bbd6581baf2bbffc47c702c68 misc: update xfs_io swapext usage
-d6f2c6e0e88a5026aa20a9e35ac68e3e336eb0a2 part two of fsstress cycling parent pointers with online repair
-9d6e57d99439051b8286b149ed0289b3404a1728 xfs/004: fix column extraction code
-2b7243feadb791314040d4b868322554cd9940e8 common: make helpers for ttyprintk usage
-8b425e57b6d2e16605a4b5d267ac48269a0b066a xfs: test upgrading old features
-720cd44e24ffa461739e49781c8751c9b8cdc4b3 xfs/122: fix metadirino
-d2f50d13bac80bf92f0e42e70e1d185a483fcf4f various: fix finding metadata inode numbers when metadir is enabled
-3a9e26631305d3d5b7b02c1a1c0c81ee52bd6b3e xfs/{030,033,178}: forcibly disable metadata directory trees
-a590753c3caa28f4f405fc43ac9089a6bc545b32 common/repair: patch up repair sb inode value complaints
-94d91f71981306002c48f781f2fcb7775db3168e xfs/206: update for metadata directory support
-a1f12e21d3040b860e9a0306f1af69d1fed7ac24 xfs/{050,144,153,299,330}: update quota reports to leave out metadir files
-e80adde27d8463eb3b8541a4486258471dfaf95c xfs/856: add metadir upgrade to test matrix
-1c1766350573f7c4f4770a2a2c707a45fcc4b39e xfs/509: adjust inumbers accounting for metadata directories
-0f7d59c9318f5478111678d6d02db1f8d7a15746 xfs: create fuzz tests for metadata directories
-debd441c309700797bc931963a4e448d3061f9a6 xfs: baseline golden output for metadata directory fuzz tests
-b29ef644541b73302f1c837fc360c665ab8e9bc1 common/populate: refactor caching of metadumps to a helper
-2e05c670d52763cffb683dcdbd8ae41449cec1db common/xfs: wipe external logs during mdrestore operations
-b3a1c673f5c048207dfb88a852c6ce4fd0b4c920 common/ext4: reformat external logs during mdrestore operations
-18bf91ea164c28a87dbcbda19078d704fc32d6e4 common/xfs: capture external logs during metadump/mdrestore
-5db43b00908318341316d070852cba1bf6c3e33f xfs/122: update for rtgroups
-f255e694bbe314a3f83eb80d5ad849d668021b07 punch-alternating: detect xfs realtime files with large allocation units
-c0e0898b69ff971cee0bcee60f51da77ad44d497 xfs/206: update mkfs filtering for rt groups feature
-7a0494cf4e4abc035cd3c9cbb5410cde9c576fdc common: pass the realtime device to xfs_db when possible
-eaca8b4a5aca0b0f3ebcfdfda24c106d1e8e9290 common: filter rtgroups when we're disabling metadir
-42545dded44530dfd209d9a09360e20e11ceb668 xfs/185: update for rtgroups
-04365465c86b65a032143f4818c85b458a5a71e6 xfs/449: update test to know about xfs_db -R
-babd2b35aadcdec8b689a9496686a93b819a3453 xfs/122: update for rtbitmap headers
-87a611b7bacf494d7b4826305edfb8b164e8e7ac xfs/122: udpate test to pick up rtword/suminfo ondisk unions
-fb5bc27682e2515fa7e58383732c93f5e5f5da94 xfs/27[46],xfs/556: fix tests to deal with rtgroups output in bmap/fsmap commands
-f21098a98260b6ef51cde6e9a060a375639818c5 common/xfs: capture realtime devices during metadump/mdrestore
-f75eed08daa154344645a83426c3b056469d33fc common/fuzzy: adapt the scrub stress tests to support rtgroups
-9b8c374e47902fa305a5c713b58e9fb4502ad084 xfs: refactor statfs field extraction
-20bf67c10d5495560bfe05f0e8cdec31d6c8061a generic/260: compute maximum fitrim offset
-603f7fe264e2c0b650e4a54e455b5f93085bc826 xfs: fix tests that try to access the realtime rmap inode
-4e876ffec1e72f5be51fa91093e56737a6fbd7ae fuzz: for fuzzing the rtrmapbt, find the path to the rt rmap btree file
-c19e7c1c1a106dbb8e3cc44e9442ddfcfaa914f2 xfs: race fsstress with realtime rmap btree scrub and repair
-34522c16fe79b1c551e6fef8771ed4b766e27e9a xfs/856: add rtrmapbt upgrade to test matrix
-e44fe92a6b56c284a000a4776eb0bdd6d51d5507 xfs/122: update for rtgroups-based realtime rmap btrees
-c1bc17216efbae32cc9a893a37df70d37c4332c8 xfs: fix various problems with fsmap detecting the data device
-24d7998139332c63ea27d8588b4c5f50a61eceaa xfs/341: update test for rtgroup-based rmap
-619c45185c9e71ef9f28df59a8ace6327b050e39 xfs/3{43,32}: adapt tests for rt extent size greater than 1
-e4e0d5b25cf3cb70d211f7241ac0ab68f3a636e0 xfs: skip tests if formatting small filesystem fails
-dcfb16341bd917ebf40300486e50c80bd1fba25f xfs/443: use file allocation unit, not dbsize
-361003395f75e0651f1dc66341543e68e9b2a22d populate: adjust rtrmap calculations for rtgroups
-c75f6e6c2283644c4b63283baabb2b93bbc92f2e populate: check that we created a realtime rmap btree of the given height
-d3facc8e97762b8aa85e4445db91e2a348d2c3a6 fuzzy: create missing fuzz tests for rt rmap btrees
-a8a65edf8b525a4b18a9246990ae218e3eb85421 fuzzy: create known output for rt rmap btree fuzz tests
-89d3d26536cd219ceaa10947741da4d1778de7fb xfs/122: update fields for realtime reflink
-9373f3da6f443eed115814b4fa8ed7e2a303d42c common/populate: create realtime refcount btree
-a69804c1d785b393be78660bcedfbff63524e13f xfs: create fuzz tests for the realtime refcount btree
-c9ff465a55a0113e940f94908d271329b7a1241e xfs/27[24]: adapt for checking files on the realtime volume
-db1adfb83a7c40438979b32d81d587cf8bf9364b xfs/243: don't run when realtime storage is the default
-8c87c55e1541005dc7ce421cb2ef1059240987fc xfs: race fsstress with realtime refcount btree scrub and repair
-424b3346b6724469fda09ab9190e951b5b290b44 xfs: remove xfs/131 now that we allow reflink on realtime volumes
-56ebebafce6b05d3fbc17f786062dc973e516a90 xfs/856: add rtreflink upgrade to test matrix
-8379ca11722dfe043195d224bef2de92c4a6ea54 generic/331,xfs/240: support files that skip delayed allocation
-78efe2e701b92fac8a18091021de4b83444e4c92 common/xfs: fix _xfs_get_file_block_size when rtinherit is set and no rt section
-621755b246070dba55955fc50053620209da2d43 xfs: baseline golden output for rt refcount btree fuzz tests
-000c7df73f33f89b14af715410c3c4470cd3032e xfs: make sure that CoW will write around when rextsize > 1
-95166c4299584d5cf83e71abd537898aa8f77546 xfs: skip cowextsize hint fragmentation tests on realtime volumes
-8cc9c13ae7330065753c8cbf2f4c4f5fc4234dbc misc: add more congruent oplen testing
-7d1f5cc90c8b3f466735c9ec2e56b4ee9f66d5df generic/303: avoid test failures on weird rt extent sizes
-5b3c32b3611aa42624f0e353162a1d03b61ba59e xfs: regression testing of quota on the realtime device
-21d5f7c2a36a0802432cf65a84d44d1114d2e458 xfs/122: update for vectored scrub
-f961fb62429f00320f10eb77bbe5536cea53eacf xfs: test output of new FSREFCOUNTS ioctl
-94a97103b131b03c2250d5ccddaff66202593b4f xfs: test clearing of free space
-d7f9ef20b51294edbb1937b42030573ede360789 xfs/122: update for parent pointers
-d2e04c4c961f9d6fe14b4b96fb8278b5c48db05c populate: create hardlinks for parent pointers
-75e47e5cb0bde3933b5ebd6f2bdc8be462c373c2 xfs/021: adapt golden output files for parent pointers
-820806fd4e4d14380afeb1faf37237721cce9eb5 generic/050: adapt for parent pointers
-90814b32b14ef527c65176f655d7971063d07f4f xfs/018: disable parent pointers for this test
-aa219538584b372271f4ab991268cf9ce79a7deb xfs/306: fix formatting failures with parent pointers
-0edd96399c96e3ed1917ea8ff0b88179024409b2 common: add helpers for parent pointer tests
-948dc572e0bb22e363e5145c8e664a746346e70a xfs: add parent pointer test
-267ba94570b88f3f8da369a74aef5ae2ea9254fb xfs: add multi link parent pointer test
-c7e00e5bba9f54b94706defa858fc2bf86bc1538 xfs: add parent pointer inject test
-c07d828143139c6a1b4fab50747ec8f068221d66 common/parent: add license and copyright
-c552b1fb2bd9f77e260c7949fe968f3d1a6a6922 common/parent: don't _fail on missing parent pointer components
-3601850ded06adac8d13c1a2b7149e985a320afd common/parent: check xfs_io parent command paths
-dd1acacf6060a0fcd25f20216d81f5c86b5e7d5d xfs/851: test xfs_io parent -p too
-5edfcd982954fa09d97b566286760d69a702799d misc: adjust for parent pointers with namehashes
-31ff2043fcc85d07e2cd69e58fa306fe881ebd4a xfs/021: adjust for short parent pointers with hashes
-70760dc0f4246705b8be4d1f9bf63087893f9068 xfs/242: fix _filter_bmap for xfs_io bmap that does rt file properly
-c5e1fc52452ae402041eef9cdfcfec96b817be44 xfs/021: adjust for short valuelens
-46aa10b510eb73dda13e24072841786db6f722a1 xfs/122: adjust for flex-array XFS_IOC_GETPARENTS ioctl
-ad625330fcb5c6dc2371bbe15b55fa7d5b0c7d71 generic/476: reclassify this test as a long running soak stress test
-55e9195817406f8f29019dd9d6cb50c70e874a1d misc: add duration for long soak tests
-cd643df6e014bbcdc40e9b945dd483abedccd31b misc: add duration for recovery loop tests
-0ab68be2c4ca3a1697e0232d6770c86f63e86619 xfs/554: disable until merged
-026053f45f3eedd049801daaa1272f2e24fb4fb8 generic: test swapping process pages in and out of a swapfile
-7ed40f72a55a91b68ffcf9be84f28741a8d61c12 check: snapshot the test device before each test
-106afee51bd0334674e546d621f4790b82ecfdfe xfs/538: disable for now so that we don't trip scrub...?
-fde1be9182cc5c0b33e4bc565ba202c002e3c653 xfs/168: capture metadump on failure
-19e6926236715d767024b0434ae5e88151378a6f xfs: test for premature ENOSPC with large cow delalloc extents
-3d18e944f7779dde9ece887fc893d831cf6e16fe vfs/idmapped-mounts: fix unhandled EOVERFLOW in setattr_fix_968219708108
-2d3bd1b0e171ebbeb241598a102734a30f8f7f96 generic/471: disable broken test?
-b5b884b12894c8d4041741f175460f17219e485f common/xfs: force inodegc work before running xfs_scrub
-0c6a7b45a1f939aa009a34eafa8a73028b9cc269 fuzzy: disable scrub stress tests for non djwong-dev kernels
+a20990a0481571d5cb2d2294c9449ebb317a2b2f check: generate section reports between tests
+7e8a291e3bdf25bd57498131d86925bdc380837d report: derive an xml schema for the xunit report
+36c554feac175a5967ef70bab6904315c190484c report: capture the time zone in the test report timestamp
+f7367629f92fe4e90fd1f0764a919a841515a44f report: clarify the meaning of the timestamp attribute
+36c275a1500e88a7c09cc5108437dcbc40e6faeb report: record fstests start and report generation timestamps
+fc9f173562f94ffbeb432db5c0665c4e2ac49737 report: encode cdata sections correctly
+46e9c212bf8ba024f7d0eb1293e90f4df40a3fbe report: encode the kernel log as a separate xml element
+b9b05ccd3ff760be88ab3a9814113d7a519fc71f report: sort properties by name
+de57f6161f14ac071178f663d0634f210c1224e8 report: pass property value to _xunit_add_property
+6c65bb263b3304691eac93ff871ab7f0a5af29ad report: encode xml entities in property values
+57c3db4f694fe0b6bfaccd43efefbed965857fb9 report: collect basic information about a test run
+68b87376a7c82e114ab0af81414a2d102c0e5757 report: record optional environment variables
+b2f466196d7f510f9f51595423b8096ca1b84351 report: record xfs-specific information about a test run
+dcbe83cc7e5aa5e4c84492626e0ac1fa5b10bdff report: record ext*-specific information about a test run
+7e5db626c7e5f9adedff38e6fe2e4c3551e1007e report: allow test runners to inject arbitrary values
+4c0118d037c31479403f5890cfcd9b260bfa56eb xfs: test scaling of the mkfs concurrency options
+ec1ffd84a6a3cf87ca11ffeb3e34d13b60438074 xfs: online fuzz test known output
+f4ce31788d2a084db43c1af26f74b8dad0f01d1a xfs: offline fuzz test known output
+7df0d95f9957e231d90a47e3d147b0ed9113b244 xfs: norepair fuzz test known output
+422872dd54a6df272d47fb3c5e289ecc736391dd xfs: bothrepair fuzz test known output
+ce72ac0fca3b751516f5fddc5f0df3d72372a472 misc: privatize the FIEXCHANGE ioctl for now
+7e67f2a222f333adbb86fe105be3ae0b1c4b5577 misc: update xfs_io swapext usage
+d9cb58b671bcfce853e716f50c660a5e1ed88198 xfs: stress test cycling parent pointers with online repair
+25393397b78452f014b3c7fdee797ea23bb2269e xfs/004: fix column extraction code
+9e2feaeb8d07259790db23cf18b8a9eea5b682fd common: make helpers for ttyprintk usage
+e56c8eb1933658c280cb604595c1067980991f68 xfs: test upgrading old features
+c65e4803dab28d7dbb7ae1e96df2db7bdee07b4d xfs/122: fix metadirino
+5af7921255b08b9eb3eca99b2d6fd5d166267b98 various: fix finding metadata inode numbers when metadir is enabled
+df5a1a3d37996f57ec165f98e2e024cca8ebd857 xfs/{030,033,178}: forcibly disable metadata directory trees
+07f8c92951954d0f1cdb1e6ee3a495d2b2df59a6 common/repair: patch up repair sb inode value complaints
+c98190fca1519fb1d908d89ce1b988dbe9ea2e11 xfs/206: update for metadata directory support
+7918167f182ca8eebb738d37af161a91c5278e04 xfs/{050,144,153,299,330}: update quota reports to leave out metadir files
+96962db6498f5a049b2073d5b21bace04ecdb7cb xfs/856: add metadir upgrade to test matrix
+550cbdb4c9ffa8a03e62fdd995affd230cb0a5ac xfs/509: adjust inumbers accounting for metadata directories
+dfff28f84a609505f9d8c8aa1e92bacefd6b5918 xfs: create fuzz tests for metadata directories
+15486b67ae5468f6e5d52b52c51ee503eab73c67 xfs: baseline golden output for metadata directory fuzz tests
+cb27bb41e76f3438f0afbece822efb97a18a19e7 common/populate: refactor caching of metadumps to a helper
+34064dd2ef5a5e990192e617e57ce3efefcf12b4 common/xfs: wipe external logs during mdrestore operations
+c93188aac558742f4c681f46f31820abbf0a7a1e common/ext4: reformat external logs during mdrestore operations
+98c20a8ac153b402dc09f0779f5c287c2dca59b3 common/xfs: capture external logs during metadump/mdrestore
+8859356f1abd784ca884250e7470e76fac59e85c xfs/122: update for rtgroups
+38533bab4a6974820f7a29af5b937ae54727ccd9 punch-alternating: detect xfs realtime files with large allocation units
+2e01db287abdf75ae928b8e5d17ec931d38bc72c xfs/206: update mkfs filtering for rt groups feature
+46f6c37fa56657d76f225acd17746ed3e2a30a8f common: pass the realtime device to xfs_db when possible
+89b1d9514a1c61291791ec6fb8e55ec4d7ca31a2 common: filter rtgroups when we're disabling metadir
+bf5451f7e9a29d3608702a70a7983b15fc54962f xfs/185: update for rtgroups
+f2dbe68e794433fd04046f0318edcf00cb4011fa xfs/449: update test to know about xfs_db -R
+d1baa9ac941e78b5824c792a8db8ef64c27db73c xfs/122: update for rtbitmap headers
+bbf8cf6c39c8d12e8dff3d06aa58f6d601015d39 xfs/122: udpate test to pick up rtword/suminfo ondisk unions
+4a80848e05d8b1bd37ab79dcaf941c6ccdcb638b xfs/27[46],xfs/556: fix tests to deal with rtgroups output in bmap/fsmap commands
+a6b97e330d99bc7e0b7c5c7e5ddf8a1fb9955a84 common/xfs: capture realtime devices during metadump/mdrestore
+d93697f0a0643abc9b2375119ea5304939b4157a common/fuzzy: adapt the scrub stress tests to support rtgroups
+679da0364e365cdd2501f66bb38d9e38eb09db22 xfs: refactor statfs field extraction
+6e0f6eea8a263a1adbccf54891f23cc61c3a9275 generic/260: compute maximum fitrim offset
+83d98674b6853cd0dfdee2dabb650d2c8e7a5203 xfs: fix tests that try to access the realtime rmap inode
+70ad7bdfeffec5bb8fd365f25190aa2a20c8c501 fuzz: for fuzzing the rtrmapbt, find the path to the rt rmap btree file
+fcb090021e93b1132f5aaae5a80d64c4f1cb3083 xfs: race fsstress with realtime rmap btree scrub and repair
+3d936cad3d66eace6fbac42e7b2c8529617b849a xfs/856: add rtrmapbt upgrade to test matrix
+3c00d5b3d20cf39e0a238ba9169992240ccec7dc xfs/122: update for rtgroups-based realtime rmap btrees
+3caafd18d5d91bf44ec34039d22c57b309db204e xfs: fix various problems with fsmap detecting the data device
+c39a763f81dcdcb2dc4dc17f7c7584b4b195dff1 xfs/341: update test for rtgroup-based rmap
+3d44cc3140ae7ff1321f37b060ffd837ba491ad3 xfs/3{43,32}: adapt tests for rt extent size greater than 1
+8c0441ea60fedf6cb1c9a7c676f697bf148d4514 xfs: skip tests if formatting small filesystem fails
+8eaac144ae2ea0b27bed28d099779adcbee1beaa xfs/443: use file allocation unit, not dbsize
+48e9f8cfeba46487f54aaa2fc4bacaceaa3876ca populate: adjust rtrmap calculations for rtgroups
+9176932df4ec160bb96b9a7c6672649c59df7cb7 populate: check that we created a realtime rmap btree of the given height
+59dd66b4ffd465a52db5b448a23681c6cb40cb44 fuzzy: create missing fuzz tests for rt rmap btrees
+36e5920adbd02c85d574f1619220f6b77bf06828 fuzzy: create known output for rt rmap btree fuzz tests
+618c9d2a3f8a1169ddaba8247cd147c42252cd2a xfs/122: update fields for realtime reflink
+509a7e1845f12a3ddca1ab17729c8d93b0118d52 common/populate: create realtime refcount btree
+a51c5f7d871a7518088fea129281173eca5df003 xfs: create fuzz tests for the realtime refcount btree
+69a64500b0230917c45d668fee4d955e5309855f xfs/27[24]: adapt for checking files on the realtime volume
+d7af74c5bf36bf1fae0a5b7831a97d8e04c709fc xfs/243: don't run when realtime storage is the default
+db2aa8b154fa57ca0243529ffd8283787714be13 xfs: race fsstress with realtime refcount btree scrub and repair
+666bfd9ee3c227f74c71d110fdeed46b6babf248 xfs: remove xfs/131 now that we allow reflink on realtime volumes
+9ba7b3c4a9f146625396638ea659eec4eadd6a72 xfs/856: add rtreflink upgrade to test matrix
+03b8e9a80abe15af1f97f128389a6240660e6d40 generic/331,xfs/240: support files that skip delayed allocation
+6d0570ce372287949248561a40e7a32a1a1ced15 common/xfs: fix _xfs_get_file_block_size when rtinherit is set and no rt section
+88516c14fe833bebba2ce274ea489cce8e9f8e9c xfs: baseline golden output for rt refcount btree fuzz tests
+8f655607b0b1e74fc9d1b26a5b1301f499d44773 xfs: make sure that CoW will write around when rextsize > 1
+e0d8c4406f8c202ae9e2de8362b05d371d2d8e05 xfs: skip cowextsize hint fragmentation tests on realtime volumes
+ec024ffc5011655dc58176a4bf4c5d860383e913 misc: add more congruent oplen testing
+7d22511c41094896465ebfe66a79f0e20631f307 generic/303: avoid test failures on weird rt extent sizes
+c43deb86e7e2f0ecf1066f377a82f11c650f655a xfs: regression testing of quota on the realtime device
+c75bc4c866c71ea61394598afdccb244fa469335 xfs/122: update for vectored scrub
+346a308c4e35c61ef8f2a2d8cb173bdcda72efd2 xfs: test output of new FSREFCOUNTS ioctl
+c3284d13c671272211c6f2464e658156d329a981 xfs: test clearing of free space
+33364f4c7b67b53d042369a3d8905e0067ab0dad xfs/122: update for parent pointers
+6dbcb0ffd561be2fbf749438132c99129fa8283b populate: create hardlinks for parent pointers
+b8741313c541f98592424508dc6e6b221b15ecfc xfs/021: adapt golden output files for parent pointers
+d32b334245c9fdd814059833ffc46fb795f42bdb generic/050: adapt for parent pointers
+260e43317d4e413caa04d8fe245274daab59db07 xfs/018: disable parent pointers for this test
+ce25ef5ca039ee560b599e358b715448088e1a09 xfs/306: fix formatting failures with parent pointers
+c6007175b9ead4588e7260445f94baa6f7c76c97 common: add helpers for parent pointer tests
+a781cfd1f3ca1d6fb2253707505d0d6982b65784 xfs: add parent pointer test
+03f007bca20e8ad5d5fa5503e6f3c5a588133ad2 xfs: add multi link parent pointer test
+5da830b6e2e71c50e9da4621797547f13d0ca8fa xfs: add parent pointer inject test
+c7a778d36d06b811a988d4abce8f9f5cf97c9667 common/parent: add license and copyright
+3567763fd36d9d45ae87c0d048b41da56c5c836c common/parent: don't _fail on missing parent pointer components
+ce7b54532e127b16e41eb6e90391926fd2d61fb4 common/parent: check xfs_io parent command paths
+cb0ca7bd9490d02b474dc8a45060e32ef3173b8e xfs/851: test xfs_io parent -p too
+d93e13adaf6f16ad596b9f4c436b4dda69084954 misc: adjust for parent pointers with namehashes
+a3d2c0122507cd0e982a898368b379d81306809b xfs/021: adjust for short parent pointers with hashes
+9c1bbbe09792510ce29746cf03e37e134f6ef41d xfs/242: fix _filter_bmap for xfs_io bmap that does rt file properly
+dc24ccf06f9e396be613f120ce4f5f1f598529aa xfs/021: adjust for short valuelens
+6c0478d908e4e201170240b4d6e5b587e022e496 xfs/122: adjust for flex-array XFS_IOC_GETPARENTS ioctl
+d377a152fab26d2fcace8e954a0b56a86a4d9fa3 generic/476: reclassify this test as a long running soak stress test
+dcaa53cfb23d73d2476e6fb26bf9fd03db86da61 misc: add duration for long soak tests
+cba5b0163b485bcda4d6e66c9c10a58d798a8230 misc: add duration for recovery loop tests
+a9e0f2afa0797220e38d14656d93ade6941e8355 xfs/554: disable until merged
+86a022bf8628046e9b161b89236b48a04d7b880f generic: test swapping process pages in and out of a swapfile
+3d483a1f0012c4c5b4574c0793bc13a45c34c5c4 check: snapshot the test device before each test
+67e1538b249e082f4b27ae72468a37fa9944dc09 xfs/538: disable for now so that we don't trip scrub...?
+20a58ce301add728b02ac4e602e834875c16fdf0 xfs/168: capture metadump on failure
+9bd9eaf730661bffc5a9277eba9e32b8d9a460ab xfs: test for premature ENOSPC with large cow delalloc extents
+099f2069658fc50642739cc873e785fcd62ca2d0 vfs/idmapped-mounts: fix unhandled EOVERFLOW in setattr_fix_968219708108
+d214d2fc1ca4f573f9e93393fdd67fbef4431ac5 generic/471: disable broken test?
+16fa12f3b6a544b678ebc905f33c60cf667ba7be common/xfs: force inodegc work before running xfs_scrub
+4ae541f5efe3c5a3ca57132823775e6a8a07f0f3 fuzzy: disable scrub stress tests for non djwong-dev kernels
 
---===============7650299949684335615==
+--===============5328713760726719305==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0eb0741e2bf0-252d09f53586.txt
+Content-Disposition: attachment; filename=revlist-252d09f53586-422872dd54a6.txt
 
-e19c99400cfe67bd5f11d3cfe5587446ed3026ef xfs/122: fix for swapext log items
-5d2aea2b1f6dc3ac84909bbd3c155edccc131aae generic: test old xfs extent swapping ioctl
-815ea93652305f0ebba36b3e0ed48602235b9b1c generic: test new vfs swapext ioctl
-81cbafc4597a0cc59e87eeae99ab7a1c8f2a70e8 generic, xfs: test scatter-gather atomic file updates
-f02d41a7b5cade6bb7f9b4009e787b284283eccf generic: test that file privilege gets dropped with FIEXCHANGE_RANGE
-bf183828b8f4c3caf3d3fd1f96d9f396db7508e5 fsx: support FIEXCHANGE_RANGE
-ae5ac04996c581c9e8b70bacb663ff5708f65e18 fsstress: update for FIEXCHANGE_RANGE
-d8cf497797b015b68e2e60822ba3e5eb2bc5714e xfs: race fsstress with online repair of realtime summary files
-a199f989b6f187e28b789ac69f0dbe3a55c1d572 xfs: race fsstress with online repair of extended attribute data
-249f5a78d3094477c8615cb62fb49ef3aec4f785 xfs: ensure that online directory repairs don't hit EDQUOT
-0999380268abb51a7e9f1cec4da920f5a077bad5 xfs: race fsstress with online repair of dirs and parent pointers
-fc0a397e3ec479a5883fbaba7dea75fd5cbf5ebf xfs: test xfs_scrub dry run, preen, and repair mode
-b3096c996a48960160b72738e5599df808a53260 common/rc: don't clear superblock for zoned scratch pools
-f7765774a1b5cb98c2f21a892e82b3421f40e791 generic/020: fix really long attr test failure for ceph
-c9a8237d8c5fdc4ef2d25a56069ffdcce22b5d4b check: generate section reports between tests
-c4473e90a4fe1b6d0c7cf77d9fcdf22852aea1a3 report: derive an xml schema for the xunit report
-4e77406f99b4624a065d8290b8e45e29adb8b072 report: capture the time zone in the test report timestamp
-e7a36e5fbd4cff148b5642132af261c46bec8d28 report: clarify the meaning of the timestamp attribute
-d203e87a2bcb075677925fa93462a78324ba1423 report: record fstests start and report generation timestamps
-21d1f01c021d75e3faa824dbe6a8dfa2dd609e1a report: encode cdata sections correctly
-a5ee28a4ec13d186e41e461997a31fbf147d8532 report: encode the kernel log as a separate xml element
-959235b87703de1e98238656e84bae561c32b6f0 report: sort properties by name
-2c95da79fbf3a9c7146c1e2fd697f382fbbea069 report: pass property value to _xunit_add_property
-742e144fedcfb383e088eb8e4e484b0a6672dc26 report: encode xml entities in property values
-31dc2c91e727311b181403ecbe57a311eee58eb0 report: collect basic information about a test run
-9902ebd0e0fb4d6327686ffd17f4b40f60ba9f28 report: record optional environment variables
-e8e4bddd474609f0284389f3c2323d9bb6779e65 report: record xfs-specific information about a test run
-2f066c6808adb1d1a1f6682d2eb0740facfecd49 report: record ext*-specific information about a test run
-3c708060bb0c4357649b24c8feadb8dca96dc3e2 report: allow test runners to inject arbitrary values
-fabf5dcd145d1d565e4c9727878f82fcfa099fbe xfs: test scaling of the mkfs concurrency options
-c1d2b42fb29e2137e72393ec8d5bd20a29f4f40f xfs: online fuzz test known output
-9aa1f156168b48d39a62ce45f862a65d3de56f35 xfs: offline fuzz test known output
-6ec145e27e9a54dfde37c9db9875d68313c252b1 xfs: norepair fuzz test known output
-252d09f535865014aeec131bbfb484a561144274 xfs: bothrepair fuzz test known output
+a20990a0481571d5cb2d2294c9449ebb317a2b2f check: generate section reports between tests
+7e8a291e3bdf25bd57498131d86925bdc380837d report: derive an xml schema for the xunit report
+36c554feac175a5967ef70bab6904315c190484c report: capture the time zone in the test report timestamp
+f7367629f92fe4e90fd1f0764a919a841515a44f report: clarify the meaning of the timestamp attribute
+36c275a1500e88a7c09cc5108437dcbc40e6faeb report: record fstests start and report generation timestamps
+fc9f173562f94ffbeb432db5c0665c4e2ac49737 report: encode cdata sections correctly
+46e9c212bf8ba024f7d0eb1293e90f4df40a3fbe report: encode the kernel log as a separate xml element
+b9b05ccd3ff760be88ab3a9814113d7a519fc71f report: sort properties by name
+de57f6161f14ac071178f663d0634f210c1224e8 report: pass property value to _xunit_add_property
+6c65bb263b3304691eac93ff871ab7f0a5af29ad report: encode xml entities in property values
+57c3db4f694fe0b6bfaccd43efefbed965857fb9 report: collect basic information about a test run
+68b87376a7c82e114ab0af81414a2d102c0e5757 report: record optional environment variables
+b2f466196d7f510f9f51595423b8096ca1b84351 report: record xfs-specific information about a test run
+dcbe83cc7e5aa5e4c84492626e0ac1fa5b10bdff report: record ext*-specific information about a test run
+7e5db626c7e5f9adedff38e6fe2e4c3551e1007e report: allow test runners to inject arbitrary values
+4c0118d037c31479403f5890cfcd9b260bfa56eb xfs: test scaling of the mkfs concurrency options
+ec1ffd84a6a3cf87ca11ffeb3e34d13b60438074 xfs: online fuzz test known output
+f4ce31788d2a084db43c1af26f74b8dad0f01d1a xfs: offline fuzz test known output
+7df0d95f9957e231d90a47e3d147b0ed9113b244 xfs: norepair fuzz test known output
+422872dd54a6df272d47fb3c5e289ecc736391dd xfs: bothrepair fuzz test known output
 
---===============7650299949684335615==
+--===============5328713760726719305==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b90914dfe3f6-f7765774a1b5.txt
+Content-Disposition: attachment; filename=revlist-0f7d59c9318f-dfff28f84a60.txt
 
-e19c99400cfe67bd5f11d3cfe5587446ed3026ef xfs/122: fix for swapext log items
-5d2aea2b1f6dc3ac84909bbd3c155edccc131aae generic: test old xfs extent swapping ioctl
-815ea93652305f0ebba36b3e0ed48602235b9b1c generic: test new vfs swapext ioctl
-81cbafc4597a0cc59e87eeae99ab7a1c8f2a70e8 generic, xfs: test scatter-gather atomic file updates
-f02d41a7b5cade6bb7f9b4009e787b284283eccf generic: test that file privilege gets dropped with FIEXCHANGE_RANGE
-bf183828b8f4c3caf3d3fd1f96d9f396db7508e5 fsx: support FIEXCHANGE_RANGE
-ae5ac04996c581c9e8b70bacb663ff5708f65e18 fsstress: update for FIEXCHANGE_RANGE
-d8cf497797b015b68e2e60822ba3e5eb2bc5714e xfs: race fsstress with online repair of realtime summary files
-a199f989b6f187e28b789ac69f0dbe3a55c1d572 xfs: race fsstress with online repair of extended attribute data
-249f5a78d3094477c8615cb62fb49ef3aec4f785 xfs: ensure that online directory repairs don't hit EDQUOT
-0999380268abb51a7e9f1cec4da920f5a077bad5 xfs: race fsstress with online repair of dirs and parent pointers
-fc0a397e3ec479a5883fbaba7dea75fd5cbf5ebf xfs: test xfs_scrub dry run, preen, and repair mode
-b3096c996a48960160b72738e5599df808a53260 common/rc: don't clear superblock for zoned scratch pools
-f7765774a1b5cb98c2f21a892e82b3421f40e791 generic/020: fix really long attr test failure for ceph
+a20990a0481571d5cb2d2294c9449ebb317a2b2f check: generate section reports between tests
+7e8a291e3bdf25bd57498131d86925bdc380837d report: derive an xml schema for the xunit report
+36c554feac175a5967ef70bab6904315c190484c report: capture the time zone in the test report timestamp
+f7367629f92fe4e90fd1f0764a919a841515a44f report: clarify the meaning of the timestamp attribute
+36c275a1500e88a7c09cc5108437dcbc40e6faeb report: record fstests start and report generation timestamps
+fc9f173562f94ffbeb432db5c0665c4e2ac49737 report: encode cdata sections correctly
+46e9c212bf8ba024f7d0eb1293e90f4df40a3fbe report: encode the kernel log as a separate xml element
+b9b05ccd3ff760be88ab3a9814113d7a519fc71f report: sort properties by name
+de57f6161f14ac071178f663d0634f210c1224e8 report: pass property value to _xunit_add_property
+6c65bb263b3304691eac93ff871ab7f0a5af29ad report: encode xml entities in property values
+57c3db4f694fe0b6bfaccd43efefbed965857fb9 report: collect basic information about a test run
+68b87376a7c82e114ab0af81414a2d102c0e5757 report: record optional environment variables
+b2f466196d7f510f9f51595423b8096ca1b84351 report: record xfs-specific information about a test run
+dcbe83cc7e5aa5e4c84492626e0ac1fa5b10bdff report: record ext*-specific information about a test run
+7e5db626c7e5f9adedff38e6fe2e4c3551e1007e report: allow test runners to inject arbitrary values
+4c0118d037c31479403f5890cfcd9b260bfa56eb xfs: test scaling of the mkfs concurrency options
+ec1ffd84a6a3cf87ca11ffeb3e34d13b60438074 xfs: online fuzz test known output
+f4ce31788d2a084db43c1af26f74b8dad0f01d1a xfs: offline fuzz test known output
+7df0d95f9957e231d90a47e3d147b0ed9113b244 xfs: norepair fuzz test known output
+422872dd54a6df272d47fb3c5e289ecc736391dd xfs: bothrepair fuzz test known output
+ce72ac0fca3b751516f5fddc5f0df3d72372a472 misc: privatize the FIEXCHANGE ioctl for now
+7e67f2a222f333adbb86fe105be3ae0b1c4b5577 misc: update xfs_io swapext usage
+d9cb58b671bcfce853e716f50c660a5e1ed88198 xfs: stress test cycling parent pointers with online repair
+25393397b78452f014b3c7fdee797ea23bb2269e xfs/004: fix column extraction code
+9e2feaeb8d07259790db23cf18b8a9eea5b682fd common: make helpers for ttyprintk usage
+e56c8eb1933658c280cb604595c1067980991f68 xfs: test upgrading old features
+c65e4803dab28d7dbb7ae1e96df2db7bdee07b4d xfs/122: fix metadirino
+5af7921255b08b9eb3eca99b2d6fd5d166267b98 various: fix finding metadata inode numbers when metadir is enabled
+df5a1a3d37996f57ec165f98e2e024cca8ebd857 xfs/{030,033,178}: forcibly disable metadata directory trees
+07f8c92951954d0f1cdb1e6ee3a495d2b2df59a6 common/repair: patch up repair sb inode value complaints
+c98190fca1519fb1d908d89ce1b988dbe9ea2e11 xfs/206: update for metadata directory support
+7918167f182ca8eebb738d37af161a91c5278e04 xfs/{050,144,153,299,330}: update quota reports to leave out metadir files
+96962db6498f5a049b2073d5b21bace04ecdb7cb xfs/856: add metadir upgrade to test matrix
+550cbdb4c9ffa8a03e62fdd995affd230cb0a5ac xfs/509: adjust inumbers accounting for metadata directories
+dfff28f84a609505f9d8c8aa1e92bacefd6b5918 xfs: create fuzz tests for metadata directories
 
---===============7650299949684335615==
+--===============5328713760726719305==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5ee3819a5a42-0f7d59c9318f.txt
+Content-Disposition: attachment; filename=revlist-debd441c3097-15486b67ae54.txt
 
-e19c99400cfe67bd5f11d3cfe5587446ed3026ef xfs/122: fix for swapext log items
-5d2aea2b1f6dc3ac84909bbd3c155edccc131aae generic: test old xfs extent swapping ioctl
-815ea93652305f0ebba36b3e0ed48602235b9b1c generic: test new vfs swapext ioctl
-81cbafc4597a0cc59e87eeae99ab7a1c8f2a70e8 generic, xfs: test scatter-gather atomic file updates
-f02d41a7b5cade6bb7f9b4009e787b284283eccf generic: test that file privilege gets dropped with FIEXCHANGE_RANGE
-bf183828b8f4c3caf3d3fd1f96d9f396db7508e5 fsx: support FIEXCHANGE_RANGE
-ae5ac04996c581c9e8b70bacb663ff5708f65e18 fsstress: update for FIEXCHANGE_RANGE
-d8cf497797b015b68e2e60822ba3e5eb2bc5714e xfs: race fsstress with online repair of realtime summary files
-a199f989b6f187e28b789ac69f0dbe3a55c1d572 xfs: race fsstress with online repair of extended attribute data
-249f5a78d3094477c8615cb62fb49ef3aec4f785 xfs: ensure that online directory repairs don't hit EDQUOT
-0999380268abb51a7e9f1cec4da920f5a077bad5 xfs: race fsstress with online repair of dirs and parent pointers
-fc0a397e3ec479a5883fbaba7dea75fd5cbf5ebf xfs: test xfs_scrub dry run, preen, and repair mode
-b3096c996a48960160b72738e5599df808a53260 common/rc: don't clear superblock for zoned scratch pools
-f7765774a1b5cb98c2f21a892e82b3421f40e791 generic/020: fix really long attr test failure for ceph
-c9a8237d8c5fdc4ef2d25a56069ffdcce22b5d4b check: generate section reports between tests
-c4473e90a4fe1b6d0c7cf77d9fcdf22852aea1a3 report: derive an xml schema for the xunit report
-4e77406f99b4624a065d8290b8e45e29adb8b072 report: capture the time zone in the test report timestamp
-e7a36e5fbd4cff148b5642132af261c46bec8d28 report: clarify the meaning of the timestamp attribute
-d203e87a2bcb075677925fa93462a78324ba1423 report: record fstests start and report generation timestamps
-21d1f01c021d75e3faa824dbe6a8dfa2dd609e1a report: encode cdata sections correctly
-a5ee28a4ec13d186e41e461997a31fbf147d8532 report: encode the kernel log as a separate xml element
-959235b87703de1e98238656e84bae561c32b6f0 report: sort properties by name
-2c95da79fbf3a9c7146c1e2fd697f382fbbea069 report: pass property value to _xunit_add_property
-742e144fedcfb383e088eb8e4e484b0a6672dc26 report: encode xml entities in property values
-31dc2c91e727311b181403ecbe57a311eee58eb0 report: collect basic information about a test run
-9902ebd0e0fb4d6327686ffd17f4b40f60ba9f28 report: record optional environment variables
-e8e4bddd474609f0284389f3c2323d9bb6779e65 report: record xfs-specific information about a test run
-2f066c6808adb1d1a1f6682d2eb0740facfecd49 report: record ext*-specific information about a test run
-3c708060bb0c4357649b24c8feadb8dca96dc3e2 report: allow test runners to inject arbitrary values
-fabf5dcd145d1d565e4c9727878f82fcfa099fbe xfs: test scaling of the mkfs concurrency options
-c1d2b42fb29e2137e72393ec8d5bd20a29f4f40f xfs: online fuzz test known output
-9aa1f156168b48d39a62ce45f862a65d3de56f35 xfs: offline fuzz test known output
-6ec145e27e9a54dfde37c9db9875d68313c252b1 xfs: norepair fuzz test known output
-252d09f535865014aeec131bbfb484a561144274 xfs: bothrepair fuzz test known output
-a853d74252e154b561186f2fbc4edce09c1b83e1 misc: privatize the FIEXCHANGE ioctl for now
-ac3655b823541f3bbd6581baf2bbffc47c702c68 misc: update xfs_io swapext usage
-d6f2c6e0e88a5026aa20a9e35ac68e3e336eb0a2 part two of fsstress cycling parent pointers with online repair
-9d6e57d99439051b8286b149ed0289b3404a1728 xfs/004: fix column extraction code
-2b7243feadb791314040d4b868322554cd9940e8 common: make helpers for ttyprintk usage
-8b425e57b6d2e16605a4b5d267ac48269a0b066a xfs: test upgrading old features
-720cd44e24ffa461739e49781c8751c9b8cdc4b3 xfs/122: fix metadirino
-d2f50d13bac80bf92f0e42e70e1d185a483fcf4f various: fix finding metadata inode numbers when metadir is enabled
-3a9e26631305d3d5b7b02c1a1c0c81ee52bd6b3e xfs/{030,033,178}: forcibly disable metadata directory trees
-a590753c3caa28f4f405fc43ac9089a6bc545b32 common/repair: patch up repair sb inode value complaints
-94d91f71981306002c48f781f2fcb7775db3168e xfs/206: update for metadata directory support
-a1f12e21d3040b860e9a0306f1af69d1fed7ac24 xfs/{050,144,153,299,330}: update quota reports to leave out metadir files
-e80adde27d8463eb3b8541a4486258471dfaf95c xfs/856: add metadir upgrade to test matrix
-1c1766350573f7c4f4770a2a2c707a45fcc4b39e xfs/509: adjust inumbers accounting for metadata directories
-0f7d59c9318f5478111678d6d02db1f8d7a15746 xfs: create fuzz tests for metadata directories
+a20990a0481571d5cb2d2294c9449ebb317a2b2f check: generate section reports between tests
+7e8a291e3bdf25bd57498131d86925bdc380837d report: derive an xml schema for the xunit report
+36c554feac175a5967ef70bab6904315c190484c report: capture the time zone in the test report timestamp
+f7367629f92fe4e90fd1f0764a919a841515a44f report: clarify the meaning of the timestamp attribute
+36c275a1500e88a7c09cc5108437dcbc40e6faeb report: record fstests start and report generation timestamps
+fc9f173562f94ffbeb432db5c0665c4e2ac49737 report: encode cdata sections correctly
+46e9c212bf8ba024f7d0eb1293e90f4df40a3fbe report: encode the kernel log as a separate xml element
+b9b05ccd3ff760be88ab3a9814113d7a519fc71f report: sort properties by name
+de57f6161f14ac071178f663d0634f210c1224e8 report: pass property value to _xunit_add_property
+6c65bb263b3304691eac93ff871ab7f0a5af29ad report: encode xml entities in property values
+57c3db4f694fe0b6bfaccd43efefbed965857fb9 report: collect basic information about a test run
+68b87376a7c82e114ab0af81414a2d102c0e5757 report: record optional environment variables
+b2f466196d7f510f9f51595423b8096ca1b84351 report: record xfs-specific information about a test run
+dcbe83cc7e5aa5e4c84492626e0ac1fa5b10bdff report: record ext*-specific information about a test run
+7e5db626c7e5f9adedff38e6fe2e4c3551e1007e report: allow test runners to inject arbitrary values
+4c0118d037c31479403f5890cfcd9b260bfa56eb xfs: test scaling of the mkfs concurrency options
+ec1ffd84a6a3cf87ca11ffeb3e34d13b60438074 xfs: online fuzz test known output
+f4ce31788d2a084db43c1af26f74b8dad0f01d1a xfs: offline fuzz test known output
+7df0d95f9957e231d90a47e3d147b0ed9113b244 xfs: norepair fuzz test known output
+422872dd54a6df272d47fb3c5e289ecc736391dd xfs: bothrepair fuzz test known output
+ce72ac0fca3b751516f5fddc5f0df3d72372a472 misc: privatize the FIEXCHANGE ioctl for now
+7e67f2a222f333adbb86fe105be3ae0b1c4b5577 misc: update xfs_io swapext usage
+d9cb58b671bcfce853e716f50c660a5e1ed88198 xfs: stress test cycling parent pointers with online repair
+25393397b78452f014b3c7fdee797ea23bb2269e xfs/004: fix column extraction code
+9e2feaeb8d07259790db23cf18b8a9eea5b682fd common: make helpers for ttyprintk usage
+e56c8eb1933658c280cb604595c1067980991f68 xfs: test upgrading old features
+c65e4803dab28d7dbb7ae1e96df2db7bdee07b4d xfs/122: fix metadirino
+5af7921255b08b9eb3eca99b2d6fd5d166267b98 various: fix finding metadata inode numbers when metadir is enabled
+df5a1a3d37996f57ec165f98e2e024cca8ebd857 xfs/{030,033,178}: forcibly disable metadata directory trees
+07f8c92951954d0f1cdb1e6ee3a495d2b2df59a6 common/repair: patch up repair sb inode value complaints
+c98190fca1519fb1d908d89ce1b988dbe9ea2e11 xfs/206: update for metadata directory support
+7918167f182ca8eebb738d37af161a91c5278e04 xfs/{050,144,153,299,330}: update quota reports to leave out metadir files
+96962db6498f5a049b2073d5b21bace04ecdb7cb xfs/856: add metadir upgrade to test matrix
+550cbdb4c9ffa8a03e62fdd995affd230cb0a5ac xfs/509: adjust inumbers accounting for metadata directories
+dfff28f84a609505f9d8c8aa1e92bacefd6b5918 xfs: create fuzz tests for metadata directories
+15486b67ae5468f6e5d52b52c51ee503eab73c67 xfs: baseline golden output for metadata directory fuzz tests
 
---===============7650299949684335615==
+--===============5328713760726719305==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d82f4453bb46-debd441c3097.txt
+Content-Disposition: attachment; filename=revlist-18bf91ea164c-98c20a8ac153.txt
 
-e19c99400cfe67bd5f11d3cfe5587446ed3026ef xfs/122: fix for swapext log items
-5d2aea2b1f6dc3ac84909bbd3c155edccc131aae generic: test old xfs extent swapping ioctl
-815ea93652305f0ebba36b3e0ed48602235b9b1c generic: test new vfs swapext ioctl
-81cbafc4597a0cc59e87eeae99ab7a1c8f2a70e8 generic, xfs: test scatter-gather atomic file updates
-f02d41a7b5cade6bb7f9b4009e787b284283eccf generic: test that file privilege gets dropped with FIEXCHANGE_RANGE
-bf183828b8f4c3caf3d3fd1f96d9f396db7508e5 fsx: support FIEXCHANGE_RANGE
-ae5ac04996c581c9e8b70bacb663ff5708f65e18 fsstress: update for FIEXCHANGE_RANGE
-d8cf497797b015b68e2e60822ba3e5eb2bc5714e xfs: race fsstress with online repair of realtime summary files
-a199f989b6f187e28b789ac69f0dbe3a55c1d572 xfs: race fsstress with online repair of extended attribute data
-249f5a78d3094477c8615cb62fb49ef3aec4f785 xfs: ensure that online directory repairs don't hit EDQUOT
-0999380268abb51a7e9f1cec4da920f5a077bad5 xfs: race fsstress with online repair of dirs and parent pointers
-fc0a397e3ec479a5883fbaba7dea75fd5cbf5ebf xfs: test xfs_scrub dry run, preen, and repair mode
-b3096c996a48960160b72738e5599df808a53260 common/rc: don't clear superblock for zoned scratch pools
-f7765774a1b5cb98c2f21a892e82b3421f40e791 generic/020: fix really long attr test failure for ceph
-c9a8237d8c5fdc4ef2d25a56069ffdcce22b5d4b check: generate section reports between tests
-c4473e90a4fe1b6d0c7cf77d9fcdf22852aea1a3 report: derive an xml schema for the xunit report
-4e77406f99b4624a065d8290b8e45e29adb8b072 report: capture the time zone in the test report timestamp
-e7a36e5fbd4cff148b5642132af261c46bec8d28 report: clarify the meaning of the timestamp attribute
-d203e87a2bcb075677925fa93462a78324ba1423 report: record fstests start and report generation timestamps
-21d1f01c021d75e3faa824dbe6a8dfa2dd609e1a report: encode cdata sections correctly
-a5ee28a4ec13d186e41e461997a31fbf147d8532 report: encode the kernel log as a separate xml element
-959235b87703de1e98238656e84bae561c32b6f0 report: sort properties by name
-2c95da79fbf3a9c7146c1e2fd697f382fbbea069 report: pass property value to _xunit_add_property
-742e144fedcfb383e088eb8e4e484b0a6672dc26 report: encode xml entities in property values
-31dc2c91e727311b181403ecbe57a311eee58eb0 report: collect basic information about a test run
-9902ebd0e0fb4d6327686ffd17f4b40f60ba9f28 report: record optional environment variables
-e8e4bddd474609f0284389f3c2323d9bb6779e65 report: record xfs-specific information about a test run
-2f066c6808adb1d1a1f6682d2eb0740facfecd49 report: record ext*-specific information about a test run
-3c708060bb0c4357649b24c8feadb8dca96dc3e2 report: allow test runners to inject arbitrary values
-fabf5dcd145d1d565e4c9727878f82fcfa099fbe xfs: test scaling of the mkfs concurrency options
-c1d2b42fb29e2137e72393ec8d5bd20a29f4f40f xfs: online fuzz test known output
-9aa1f156168b48d39a62ce45f862a65d3de56f35 xfs: offline fuzz test known output
-6ec145e27e9a54dfde37c9db9875d68313c252b1 xfs: norepair fuzz test known output
-252d09f535865014aeec131bbfb484a561144274 xfs: bothrepair fuzz test known output
-a853d74252e154b561186f2fbc4edce09c1b83e1 misc: privatize the FIEXCHANGE ioctl for now
-ac3655b823541f3bbd6581baf2bbffc47c702c68 misc: update xfs_io swapext usage
-d6f2c6e0e88a5026aa20a9e35ac68e3e336eb0a2 part two of fsstress cycling parent pointers with online repair
-9d6e57d99439051b8286b149ed0289b3404a1728 xfs/004: fix column extraction code
-2b7243feadb791314040d4b868322554cd9940e8 common: make helpers for ttyprintk usage
-8b425e57b6d2e16605a4b5d267ac48269a0b066a xfs: test upgrading old features
-720cd44e24ffa461739e49781c8751c9b8cdc4b3 xfs/122: fix metadirino
-d2f50d13bac80bf92f0e42e70e1d185a483fcf4f various: fix finding metadata inode numbers when metadir is enabled
-3a9e26631305d3d5b7b02c1a1c0c81ee52bd6b3e xfs/{030,033,178}: forcibly disable metadata directory trees
-a590753c3caa28f4f405fc43ac9089a6bc545b32 common/repair: patch up repair sb inode value complaints
-94d91f71981306002c48f781f2fcb7775db3168e xfs/206: update for metadata directory support
-a1f12e21d3040b860e9a0306f1af69d1fed7ac24 xfs/{050,144,153,299,330}: update quota reports to leave out metadir files
-e80adde27d8463eb3b8541a4486258471dfaf95c xfs/856: add metadir upgrade to test matrix
-1c1766350573f7c4f4770a2a2c707a45fcc4b39e xfs/509: adjust inumbers accounting for metadata directories
-0f7d59c9318f5478111678d6d02db1f8d7a15746 xfs: create fuzz tests for metadata directories
-debd441c309700797bc931963a4e448d3061f9a6 xfs: baseline golden output for metadata directory fuzz tests
+a20990a0481571d5cb2d2294c9449ebb317a2b2f check: generate section reports between tests
+7e8a291e3bdf25bd57498131d86925bdc380837d report: derive an xml schema for the xunit report
+36c554feac175a5967ef70bab6904315c190484c report: capture the time zone in the test report timestamp
+f7367629f92fe4e90fd1f0764a919a841515a44f report: clarify the meaning of the timestamp attribute
+36c275a1500e88a7c09cc5108437dcbc40e6faeb report: record fstests start and report generation timestamps
+fc9f173562f94ffbeb432db5c0665c4e2ac49737 report: encode cdata sections correctly
+46e9c212bf8ba024f7d0eb1293e90f4df40a3fbe report: encode the kernel log as a separate xml element
+b9b05ccd3ff760be88ab3a9814113d7a519fc71f report: sort properties by name
+de57f6161f14ac071178f663d0634f210c1224e8 report: pass property value to _xunit_add_property
+6c65bb263b3304691eac93ff871ab7f0a5af29ad report: encode xml entities in property values
+57c3db4f694fe0b6bfaccd43efefbed965857fb9 report: collect basic information about a test run
+68b87376a7c82e114ab0af81414a2d102c0e5757 report: record optional environment variables
+b2f466196d7f510f9f51595423b8096ca1b84351 report: record xfs-specific information about a test run
+dcbe83cc7e5aa5e4c84492626e0ac1fa5b10bdff report: record ext*-specific information about a test run
+7e5db626c7e5f9adedff38e6fe2e4c3551e1007e report: allow test runners to inject arbitrary values
+4c0118d037c31479403f5890cfcd9b260bfa56eb xfs: test scaling of the mkfs concurrency options
+ec1ffd84a6a3cf87ca11ffeb3e34d13b60438074 xfs: online fuzz test known output
+f4ce31788d2a084db43c1af26f74b8dad0f01d1a xfs: offline fuzz test known output
+7df0d95f9957e231d90a47e3d147b0ed9113b244 xfs: norepair fuzz test known output
+422872dd54a6df272d47fb3c5e289ecc736391dd xfs: bothrepair fuzz test known output
+ce72ac0fca3b751516f5fddc5f0df3d72372a472 misc: privatize the FIEXCHANGE ioctl for now
+7e67f2a222f333adbb86fe105be3ae0b1c4b5577 misc: update xfs_io swapext usage
+d9cb58b671bcfce853e716f50c660a5e1ed88198 xfs: stress test cycling parent pointers with online repair
+25393397b78452f014b3c7fdee797ea23bb2269e xfs/004: fix column extraction code
+9e2feaeb8d07259790db23cf18b8a9eea5b682fd common: make helpers for ttyprintk usage
+e56c8eb1933658c280cb604595c1067980991f68 xfs: test upgrading old features
+c65e4803dab28d7dbb7ae1e96df2db7bdee07b4d xfs/122: fix metadirino
+5af7921255b08b9eb3eca99b2d6fd5d166267b98 various: fix finding metadata inode numbers when metadir is enabled
+df5a1a3d37996f57ec165f98e2e024cca8ebd857 xfs/{030,033,178}: forcibly disable metadata directory trees
+07f8c92951954d0f1cdb1e6ee3a495d2b2df59a6 common/repair: patch up repair sb inode value complaints
+c98190fca1519fb1d908d89ce1b988dbe9ea2e11 xfs/206: update for metadata directory support
+7918167f182ca8eebb738d37af161a91c5278e04 xfs/{050,144,153,299,330}: update quota reports to leave out metadir files
+96962db6498f5a049b2073d5b21bace04ecdb7cb xfs/856: add metadir upgrade to test matrix
+550cbdb4c9ffa8a03e62fdd995affd230cb0a5ac xfs/509: adjust inumbers accounting for metadata directories
+dfff28f84a609505f9d8c8aa1e92bacefd6b5918 xfs: create fuzz tests for metadata directories
+15486b67ae5468f6e5d52b52c51ee503eab73c67 xfs: baseline golden output for metadata directory fuzz tests
+cb27bb41e76f3438f0afbece822efb97a18a19e7 common/populate: refactor caching of metadumps to a helper
+34064dd2ef5a5e990192e617e57ce3efefcf12b4 common/xfs: wipe external logs during mdrestore operations
+c93188aac558742f4c681f46f31820abbf0a7a1e common/ext4: reformat external logs during mdrestore operations
+98c20a8ac153b402dc09f0779f5c287c2dca59b3 common/xfs: capture external logs during metadump/mdrestore
 
---===============7650299949684335615==
+--===============5328713760726719305==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7c54f5ec7a5a-18bf91ea164c.txt
+Content-Disposition: attachment; filename=revlist-fabf5dcd145d-4c0118d037c3.txt
 
-e19c99400cfe67bd5f11d3cfe5587446ed3026ef xfs/122: fix for swapext log items
-5d2aea2b1f6dc3ac84909bbd3c155edccc131aae generic: test old xfs extent swapping ioctl
-815ea93652305f0ebba36b3e0ed48602235b9b1c generic: test new vfs swapext ioctl
-81cbafc4597a0cc59e87eeae99ab7a1c8f2a70e8 generic, xfs: test scatter-gather atomic file updates
-f02d41a7b5cade6bb7f9b4009e787b284283eccf generic: test that file privilege gets dropped with FIEXCHANGE_RANGE
-bf183828b8f4c3caf3d3fd1f96d9f396db7508e5 fsx: support FIEXCHANGE_RANGE
-ae5ac04996c581c9e8b70bacb663ff5708f65e18 fsstress: update for FIEXCHANGE_RANGE
-d8cf497797b015b68e2e60822ba3e5eb2bc5714e xfs: race fsstress with online repair of realtime summary files
-a199f989b6f187e28b789ac69f0dbe3a55c1d572 xfs: race fsstress with online repair of extended attribute data
-249f5a78d3094477c8615cb62fb49ef3aec4f785 xfs: ensure that online directory repairs don't hit EDQUOT
-0999380268abb51a7e9f1cec4da920f5a077bad5 xfs: race fsstress with online repair of dirs and parent pointers
-fc0a397e3ec479a5883fbaba7dea75fd5cbf5ebf xfs: test xfs_scrub dry run, preen, and repair mode
-b3096c996a48960160b72738e5599df808a53260 common/rc: don't clear superblock for zoned scratch pools
-f7765774a1b5cb98c2f21a892e82b3421f40e791 generic/020: fix really long attr test failure for ceph
-c9a8237d8c5fdc4ef2d25a56069ffdcce22b5d4b check: generate section reports between tests
-c4473e90a4fe1b6d0c7cf77d9fcdf22852aea1a3 report: derive an xml schema for the xunit report
-4e77406f99b4624a065d8290b8e45e29adb8b072 report: capture the time zone in the test report timestamp
-e7a36e5fbd4cff148b5642132af261c46bec8d28 report: clarify the meaning of the timestamp attribute
-d203e87a2bcb075677925fa93462a78324ba1423 report: record fstests start and report generation timestamps
-21d1f01c021d75e3faa824dbe6a8dfa2dd609e1a report: encode cdata sections correctly
-a5ee28a4ec13d186e41e461997a31fbf147d8532 report: encode the kernel log as a separate xml element
-959235b87703de1e98238656e84bae561c32b6f0 report: sort properties by name
-2c95da79fbf3a9c7146c1e2fd697f382fbbea069 report: pass property value to _xunit_add_property
-742e144fedcfb383e088eb8e4e484b0a6672dc26 report: encode xml entities in property values
-31dc2c91e727311b181403ecbe57a311eee58eb0 report: collect basic information about a test run
-9902ebd0e0fb4d6327686ffd17f4b40f60ba9f28 report: record optional environment variables
-e8e4bddd474609f0284389f3c2323d9bb6779e65 report: record xfs-specific information about a test run
-2f066c6808adb1d1a1f6682d2eb0740facfecd49 report: record ext*-specific information about a test run
-3c708060bb0c4357649b24c8feadb8dca96dc3e2 report: allow test runners to inject arbitrary values
-fabf5dcd145d1d565e4c9727878f82fcfa099fbe xfs: test scaling of the mkfs concurrency options
-c1d2b42fb29e2137e72393ec8d5bd20a29f4f40f xfs: online fuzz test known output
-9aa1f156168b48d39a62ce45f862a65d3de56f35 xfs: offline fuzz test known output
-6ec145e27e9a54dfde37c9db9875d68313c252b1 xfs: norepair fuzz test known output
-252d09f535865014aeec131bbfb484a561144274 xfs: bothrepair fuzz test known output
-a853d74252e154b561186f2fbc4edce09c1b83e1 misc: privatize the FIEXCHANGE ioctl for now
-ac3655b823541f3bbd6581baf2bbffc47c702c68 misc: update xfs_io swapext usage
-d6f2c6e0e88a5026aa20a9e35ac68e3e336eb0a2 part two of fsstress cycling parent pointers with online repair
-9d6e57d99439051b8286b149ed0289b3404a1728 xfs/004: fix column extraction code
-2b7243feadb791314040d4b868322554cd9940e8 common: make helpers for ttyprintk usage
-8b425e57b6d2e16605a4b5d267ac48269a0b066a xfs: test upgrading old features
-720cd44e24ffa461739e49781c8751c9b8cdc4b3 xfs/122: fix metadirino
-d2f50d13bac80bf92f0e42e70e1d185a483fcf4f various: fix finding metadata inode numbers when metadir is enabled
-3a9e26631305d3d5b7b02c1a1c0c81ee52bd6b3e xfs/{030,033,178}: forcibly disable metadata directory trees
-a590753c3caa28f4f405fc43ac9089a6bc545b32 common/repair: patch up repair sb inode value complaints
-94d91f71981306002c48f781f2fcb7775db3168e xfs/206: update for metadata directory support
-a1f12e21d3040b860e9a0306f1af69d1fed7ac24 xfs/{050,144,153,299,330}: update quota reports to leave out metadir files
-e80adde27d8463eb3b8541a4486258471dfaf95c xfs/856: add metadir upgrade to test matrix
-1c1766350573f7c4f4770a2a2c707a45fcc4b39e xfs/509: adjust inumbers accounting for metadata directories
-0f7d59c9318f5478111678d6d02db1f8d7a15746 xfs: create fuzz tests for metadata directories
-debd441c309700797bc931963a4e448d3061f9a6 xfs: baseline golden output for metadata directory fuzz tests
-b29ef644541b73302f1c837fc360c665ab8e9bc1 common/populate: refactor caching of metadumps to a helper
-2e05c670d52763cffb683dcdbd8ae41449cec1db common/xfs: wipe external logs during mdrestore operations
-b3a1c673f5c048207dfb88a852c6ce4fd0b4c920 common/ext4: reformat external logs during mdrestore operations
-18bf91ea164c28a87dbcbda19078d704fc32d6e4 common/xfs: capture external logs during metadump/mdrestore
+a20990a0481571d5cb2d2294c9449ebb317a2b2f check: generate section reports between tests
+7e8a291e3bdf25bd57498131d86925bdc380837d report: derive an xml schema for the xunit report
+36c554feac175a5967ef70bab6904315c190484c report: capture the time zone in the test report timestamp
+f7367629f92fe4e90fd1f0764a919a841515a44f report: clarify the meaning of the timestamp attribute
+36c275a1500e88a7c09cc5108437dcbc40e6faeb report: record fstests start and report generation timestamps
+fc9f173562f94ffbeb432db5c0665c4e2ac49737 report: encode cdata sections correctly
+46e9c212bf8ba024f7d0eb1293e90f4df40a3fbe report: encode the kernel log as a separate xml element
+b9b05ccd3ff760be88ab3a9814113d7a519fc71f report: sort properties by name
+de57f6161f14ac071178f663d0634f210c1224e8 report: pass property value to _xunit_add_property
+6c65bb263b3304691eac93ff871ab7f0a5af29ad report: encode xml entities in property values
+57c3db4f694fe0b6bfaccd43efefbed965857fb9 report: collect basic information about a test run
+68b87376a7c82e114ab0af81414a2d102c0e5757 report: record optional environment variables
+b2f466196d7f510f9f51595423b8096ca1b84351 report: record xfs-specific information about a test run
+dcbe83cc7e5aa5e4c84492626e0ac1fa5b10bdff report: record ext*-specific information about a test run
+7e5db626c7e5f9adedff38e6fe2e4c3551e1007e report: allow test runners to inject arbitrary values
+4c0118d037c31479403f5890cfcd9b260bfa56eb xfs: test scaling of the mkfs concurrency options
 
---===============7650299949684335615==
+--===============5328713760726719305==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-df54d43d90f3-fabf5dcd145d.txt
+Content-Disposition: attachment; filename=revlist-dd1acacf6060-cb0ca7bd9490.txt
 
-e19c99400cfe67bd5f11d3cfe5587446ed3026ef xfs/122: fix for swapext log items
-5d2aea2b1f6dc3ac84909bbd3c155edccc131aae generic: test old xfs extent swapping ioctl
-815ea93652305f0ebba36b3e0ed48602235b9b1c generic: test new vfs swapext ioctl
-81cbafc4597a0cc59e87eeae99ab7a1c8f2a70e8 generic, xfs: test scatter-gather atomic file updates
-f02d41a7b5cade6bb7f9b4009e787b284283eccf generic: test that file privilege gets dropped with FIEXCHANGE_RANGE
-bf183828b8f4c3caf3d3fd1f96d9f396db7508e5 fsx: support FIEXCHANGE_RANGE
-ae5ac04996c581c9e8b70bacb663ff5708f65e18 fsstress: update for FIEXCHANGE_RANGE
-d8cf497797b015b68e2e60822ba3e5eb2bc5714e xfs: race fsstress with online repair of realtime summary files
-a199f989b6f187e28b789ac69f0dbe3a55c1d572 xfs: race fsstress with online repair of extended attribute data
-249f5a78d3094477c8615cb62fb49ef3aec4f785 xfs: ensure that online directory repairs don't hit EDQUOT
-0999380268abb51a7e9f1cec4da920f5a077bad5 xfs: race fsstress with online repair of dirs and parent pointers
-fc0a397e3ec479a5883fbaba7dea75fd5cbf5ebf xfs: test xfs_scrub dry run, preen, and repair mode
-b3096c996a48960160b72738e5599df808a53260 common/rc: don't clear superblock for zoned scratch pools
-f7765774a1b5cb98c2f21a892e82b3421f40e791 generic/020: fix really long attr test failure for ceph
-c9a8237d8c5fdc4ef2d25a56069ffdcce22b5d4b check: generate section reports between tests
-c4473e90a4fe1b6d0c7cf77d9fcdf22852aea1a3 report: derive an xml schema for the xunit report
-4e77406f99b4624a065d8290b8e45e29adb8b072 report: capture the time zone in the test report timestamp
-e7a36e5fbd4cff148b5642132af261c46bec8d28 report: clarify the meaning of the timestamp attribute
-d203e87a2bcb075677925fa93462a78324ba1423 report: record fstests start and report generation timestamps
-21d1f01c021d75e3faa824dbe6a8dfa2dd609e1a report: encode cdata sections correctly
-a5ee28a4ec13d186e41e461997a31fbf147d8532 report: encode the kernel log as a separate xml element
-959235b87703de1e98238656e84bae561c32b6f0 report: sort properties by name
-2c95da79fbf3a9c7146c1e2fd697f382fbbea069 report: pass property value to _xunit_add_property
-742e144fedcfb383e088eb8e4e484b0a6672dc26 report: encode xml entities in property values
-31dc2c91e727311b181403ecbe57a311eee58eb0 report: collect basic information about a test run
-9902ebd0e0fb4d6327686ffd17f4b40f60ba9f28 report: record optional environment variables
-e8e4bddd474609f0284389f3c2323d9bb6779e65 report: record xfs-specific information about a test run
-2f066c6808adb1d1a1f6682d2eb0740facfecd49 report: record ext*-specific information about a test run
-3c708060bb0c4357649b24c8feadb8dca96dc3e2 report: allow test runners to inject arbitrary values
-fabf5dcd145d1d565e4c9727878f82fcfa099fbe xfs: test scaling of the mkfs concurrency options
+a20990a0481571d5cb2d2294c9449ebb317a2b2f check: generate section reports between tests
+7e8a291e3bdf25bd57498131d86925bdc380837d report: derive an xml schema for the xunit report
+36c554feac175a5967ef70bab6904315c190484c report: capture the time zone in the test report timestamp
+f7367629f92fe4e90fd1f0764a919a841515a44f report: clarify the meaning of the timestamp attribute
+36c275a1500e88a7c09cc5108437dcbc40e6faeb report: record fstests start and report generation timestamps
+fc9f173562f94ffbeb432db5c0665c4e2ac49737 report: encode cdata sections correctly
+46e9c212bf8ba024f7d0eb1293e90f4df40a3fbe report: encode the kernel log as a separate xml element
+b9b05ccd3ff760be88ab3a9814113d7a519fc71f report: sort properties by name
+de57f6161f14ac071178f663d0634f210c1224e8 report: pass property value to _xunit_add_property
+6c65bb263b3304691eac93ff871ab7f0a5af29ad report: encode xml entities in property values
+57c3db4f694fe0b6bfaccd43efefbed965857fb9 report: collect basic information about a test run
+68b87376a7c82e114ab0af81414a2d102c0e5757 report: record optional environment variables
+b2f466196d7f510f9f51595423b8096ca1b84351 report: record xfs-specific information about a test run
+dcbe83cc7e5aa5e4c84492626e0ac1fa5b10bdff report: record ext*-specific information about a test run
+7e5db626c7e5f9adedff38e6fe2e4c3551e1007e report: allow test runners to inject arbitrary values
+4c0118d037c31479403f5890cfcd9b260bfa56eb xfs: test scaling of the mkfs concurrency options
+ec1ffd84a6a3cf87ca11ffeb3e34d13b60438074 xfs: online fuzz test known output
+f4ce31788d2a084db43c1af26f74b8dad0f01d1a xfs: offline fuzz test known output
+7df0d95f9957e231d90a47e3d147b0ed9113b244 xfs: norepair fuzz test known output
+422872dd54a6df272d47fb3c5e289ecc736391dd xfs: bothrepair fuzz test known output
+ce72ac0fca3b751516f5fddc5f0df3d72372a472 misc: privatize the FIEXCHANGE ioctl for now
+7e67f2a222f333adbb86fe105be3ae0b1c4b5577 misc: update xfs_io swapext usage
+d9cb58b671bcfce853e716f50c660a5e1ed88198 xfs: stress test cycling parent pointers with online repair
+25393397b78452f014b3c7fdee797ea23bb2269e xfs/004: fix column extraction code
+9e2feaeb8d07259790db23cf18b8a9eea5b682fd common: make helpers for ttyprintk usage
+e56c8eb1933658c280cb604595c1067980991f68 xfs: test upgrading old features
+c65e4803dab28d7dbb7ae1e96df2db7bdee07b4d xfs/122: fix metadirino
+5af7921255b08b9eb3eca99b2d6fd5d166267b98 various: fix finding metadata inode numbers when metadir is enabled
+df5a1a3d37996f57ec165f98e2e024cca8ebd857 xfs/{030,033,178}: forcibly disable metadata directory trees
+07f8c92951954d0f1cdb1e6ee3a495d2b2df59a6 common/repair: patch up repair sb inode value complaints
+c98190fca1519fb1d908d89ce1b988dbe9ea2e11 xfs/206: update for metadata directory support
+7918167f182ca8eebb738d37af161a91c5278e04 xfs/{050,144,153,299,330}: update quota reports to leave out metadir files
+96962db6498f5a049b2073d5b21bace04ecdb7cb xfs/856: add metadir upgrade to test matrix
+550cbdb4c9ffa8a03e62fdd995affd230cb0a5ac xfs/509: adjust inumbers accounting for metadata directories
+dfff28f84a609505f9d8c8aa1e92bacefd6b5918 xfs: create fuzz tests for metadata directories
+15486b67ae5468f6e5d52b52c51ee503eab73c67 xfs: baseline golden output for metadata directory fuzz tests
+cb27bb41e76f3438f0afbece822efb97a18a19e7 common/populate: refactor caching of metadumps to a helper
+34064dd2ef5a5e990192e617e57ce3efefcf12b4 common/xfs: wipe external logs during mdrestore operations
+c93188aac558742f4c681f46f31820abbf0a7a1e common/ext4: reformat external logs during mdrestore operations
+98c20a8ac153b402dc09f0779f5c287c2dca59b3 common/xfs: capture external logs during metadump/mdrestore
+8859356f1abd784ca884250e7470e76fac59e85c xfs/122: update for rtgroups
+38533bab4a6974820f7a29af5b937ae54727ccd9 punch-alternating: detect xfs realtime files with large allocation units
+2e01db287abdf75ae928b8e5d17ec931d38bc72c xfs/206: update mkfs filtering for rt groups feature
+46f6c37fa56657d76f225acd17746ed3e2a30a8f common: pass the realtime device to xfs_db when possible
+89b1d9514a1c61291791ec6fb8e55ec4d7ca31a2 common: filter rtgroups when we're disabling metadir
+bf5451f7e9a29d3608702a70a7983b15fc54962f xfs/185: update for rtgroups
+f2dbe68e794433fd04046f0318edcf00cb4011fa xfs/449: update test to know about xfs_db -R
+d1baa9ac941e78b5824c792a8db8ef64c27db73c xfs/122: update for rtbitmap headers
+bbf8cf6c39c8d12e8dff3d06aa58f6d601015d39 xfs/122: udpate test to pick up rtword/suminfo ondisk unions
+4a80848e05d8b1bd37ab79dcaf941c6ccdcb638b xfs/27[46],xfs/556: fix tests to deal with rtgroups output in bmap/fsmap commands
+a6b97e330d99bc7e0b7c5c7e5ddf8a1fb9955a84 common/xfs: capture realtime devices during metadump/mdrestore
+d93697f0a0643abc9b2375119ea5304939b4157a common/fuzzy: adapt the scrub stress tests to support rtgroups
+679da0364e365cdd2501f66bb38d9e38eb09db22 xfs: refactor statfs field extraction
+6e0f6eea8a263a1adbccf54891f23cc61c3a9275 generic/260: compute maximum fitrim offset
+83d98674b6853cd0dfdee2dabb650d2c8e7a5203 xfs: fix tests that try to access the realtime rmap inode
+70ad7bdfeffec5bb8fd365f25190aa2a20c8c501 fuzz: for fuzzing the rtrmapbt, find the path to the rt rmap btree file
+fcb090021e93b1132f5aaae5a80d64c4f1cb3083 xfs: race fsstress with realtime rmap btree scrub and repair
+3d936cad3d66eace6fbac42e7b2c8529617b849a xfs/856: add rtrmapbt upgrade to test matrix
+3c00d5b3d20cf39e0a238ba9169992240ccec7dc xfs/122: update for rtgroups-based realtime rmap btrees
+3caafd18d5d91bf44ec34039d22c57b309db204e xfs: fix various problems with fsmap detecting the data device
+c39a763f81dcdcb2dc4dc17f7c7584b4b195dff1 xfs/341: update test for rtgroup-based rmap
+3d44cc3140ae7ff1321f37b060ffd837ba491ad3 xfs/3{43,32}: adapt tests for rt extent size greater than 1
+8c0441ea60fedf6cb1c9a7c676f697bf148d4514 xfs: skip tests if formatting small filesystem fails
+8eaac144ae2ea0b27bed28d099779adcbee1beaa xfs/443: use file allocation unit, not dbsize
+48e9f8cfeba46487f54aaa2fc4bacaceaa3876ca populate: adjust rtrmap calculations for rtgroups
+9176932df4ec160bb96b9a7c6672649c59df7cb7 populate: check that we created a realtime rmap btree of the given height
+59dd66b4ffd465a52db5b448a23681c6cb40cb44 fuzzy: create missing fuzz tests for rt rmap btrees
+36e5920adbd02c85d574f1619220f6b77bf06828 fuzzy: create known output for rt rmap btree fuzz tests
+618c9d2a3f8a1169ddaba8247cd147c42252cd2a xfs/122: update fields for realtime reflink
+509a7e1845f12a3ddca1ab17729c8d93b0118d52 common/populate: create realtime refcount btree
+a51c5f7d871a7518088fea129281173eca5df003 xfs: create fuzz tests for the realtime refcount btree
+69a64500b0230917c45d668fee4d955e5309855f xfs/27[24]: adapt for checking files on the realtime volume
+d7af74c5bf36bf1fae0a5b7831a97d8e04c709fc xfs/243: don't run when realtime storage is the default
+db2aa8b154fa57ca0243529ffd8283787714be13 xfs: race fsstress with realtime refcount btree scrub and repair
+666bfd9ee3c227f74c71d110fdeed46b6babf248 xfs: remove xfs/131 now that we allow reflink on realtime volumes
+9ba7b3c4a9f146625396638ea659eec4eadd6a72 xfs/856: add rtreflink upgrade to test matrix
+03b8e9a80abe15af1f97f128389a6240660e6d40 generic/331,xfs/240: support files that skip delayed allocation
+6d0570ce372287949248561a40e7a32a1a1ced15 common/xfs: fix _xfs_get_file_block_size when rtinherit is set and no rt section
+88516c14fe833bebba2ce274ea489cce8e9f8e9c xfs: baseline golden output for rt refcount btree fuzz tests
+8f655607b0b1e74fc9d1b26a5b1301f499d44773 xfs: make sure that CoW will write around when rextsize > 1
+e0d8c4406f8c202ae9e2de8362b05d371d2d8e05 xfs: skip cowextsize hint fragmentation tests on realtime volumes
+ec024ffc5011655dc58176a4bf4c5d860383e913 misc: add more congruent oplen testing
+7d22511c41094896465ebfe66a79f0e20631f307 generic/303: avoid test failures on weird rt extent sizes
+c43deb86e7e2f0ecf1066f377a82f11c650f655a xfs: regression testing of quota on the realtime device
+c75bc4c866c71ea61394598afdccb244fa469335 xfs/122: update for vectored scrub
+346a308c4e35c61ef8f2a2d8cb173bdcda72efd2 xfs: test output of new FSREFCOUNTS ioctl
+c3284d13c671272211c6f2464e658156d329a981 xfs: test clearing of free space
+33364f4c7b67b53d042369a3d8905e0067ab0dad xfs/122: update for parent pointers
+6dbcb0ffd561be2fbf749438132c99129fa8283b populate: create hardlinks for parent pointers
+b8741313c541f98592424508dc6e6b221b15ecfc xfs/021: adapt golden output files for parent pointers
+d32b334245c9fdd814059833ffc46fb795f42bdb generic/050: adapt for parent pointers
+260e43317d4e413caa04d8fe245274daab59db07 xfs/018: disable parent pointers for this test
+ce25ef5ca039ee560b599e358b715448088e1a09 xfs/306: fix formatting failures with parent pointers
+c6007175b9ead4588e7260445f94baa6f7c76c97 common: add helpers for parent pointer tests
+a781cfd1f3ca1d6fb2253707505d0d6982b65784 xfs: add parent pointer test
+03f007bca20e8ad5d5fa5503e6f3c5a588133ad2 xfs: add multi link parent pointer test
+5da830b6e2e71c50e9da4621797547f13d0ca8fa xfs: add parent pointer inject test
+c7a778d36d06b811a988d4abce8f9f5cf97c9667 common/parent: add license and copyright
+3567763fd36d9d45ae87c0d048b41da56c5c836c common/parent: don't _fail on missing parent pointer components
+ce7b54532e127b16e41eb6e90391926fd2d61fb4 common/parent: check xfs_io parent command paths
+cb0ca7bd9490d02b474dc8a45060e32ef3173b8e xfs/851: test xfs_io parent -p too
 
---===============7650299949684335615==
+--===============5328713760726719305==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8ef071694a6a-dd1acacf6060.txt
+Content-Disposition: attachment; filename=revlist-46aa10b510eb-6c0478d908e4.txt
 
-e19c99400cfe67bd5f11d3cfe5587446ed3026ef xfs/122: fix for swapext log items
-5d2aea2b1f6dc3ac84909bbd3c155edccc131aae generic: test old xfs extent swapping ioctl
-815ea93652305f0ebba36b3e0ed48602235b9b1c generic: test new vfs swapext ioctl
-81cbafc4597a0cc59e87eeae99ab7a1c8f2a70e8 generic, xfs: test scatter-gather atomic file updates
-f02d41a7b5cade6bb7f9b4009e787b284283eccf generic: test that file privilege gets dropped with FIEXCHANGE_RANGE
-bf183828b8f4c3caf3d3fd1f96d9f396db7508e5 fsx: support FIEXCHANGE_RANGE
-ae5ac04996c581c9e8b70bacb663ff5708f65e18 fsstress: update for FIEXCHANGE_RANGE
-d8cf497797b015b68e2e60822ba3e5eb2bc5714e xfs: race fsstress with online repair of realtime summary files
-a199f989b6f187e28b789ac69f0dbe3a55c1d572 xfs: race fsstress with online repair of extended attribute data
-249f5a78d3094477c8615cb62fb49ef3aec4f785 xfs: ensure that online directory repairs don't hit EDQUOT
-0999380268abb51a7e9f1cec4da920f5a077bad5 xfs: race fsstress with online repair of dirs and parent pointers
-fc0a397e3ec479a5883fbaba7dea75fd5cbf5ebf xfs: test xfs_scrub dry run, preen, and repair mode
-b3096c996a48960160b72738e5599df808a53260 common/rc: don't clear superblock for zoned scratch pools
-f7765774a1b5cb98c2f21a892e82b3421f40e791 generic/020: fix really long attr test failure for ceph
-c9a8237d8c5fdc4ef2d25a56069ffdcce22b5d4b check: generate section reports between tests
-c4473e90a4fe1b6d0c7cf77d9fcdf22852aea1a3 report: derive an xml schema for the xunit report
-4e77406f99b4624a065d8290b8e45e29adb8b072 report: capture the time zone in the test report timestamp
-e7a36e5fbd4cff148b5642132af261c46bec8d28 report: clarify the meaning of the timestamp attribute
-d203e87a2bcb075677925fa93462a78324ba1423 report: record fstests start and report generation timestamps
-21d1f01c021d75e3faa824dbe6a8dfa2dd609e1a report: encode cdata sections correctly
-a5ee28a4ec13d186e41e461997a31fbf147d8532 report: encode the kernel log as a separate xml element
-959235b87703de1e98238656e84bae561c32b6f0 report: sort properties by name
-2c95da79fbf3a9c7146c1e2fd697f382fbbea069 report: pass property value to _xunit_add_property
-742e144fedcfb383e088eb8e4e484b0a6672dc26 report: encode xml entities in property values
-31dc2c91e727311b181403ecbe57a311eee58eb0 report: collect basic information about a test run
-9902ebd0e0fb4d6327686ffd17f4b40f60ba9f28 report: record optional environment variables
-e8e4bddd474609f0284389f3c2323d9bb6779e65 report: record xfs-specific information about a test run
-2f066c6808adb1d1a1f6682d2eb0740facfecd49 report: record ext*-specific information about a test run
-3c708060bb0c4357649b24c8feadb8dca96dc3e2 report: allow test runners to inject arbitrary values
-fabf5dcd145d1d565e4c9727878f82fcfa099fbe xfs: test scaling of the mkfs concurrency options
-c1d2b42fb29e2137e72393ec8d5bd20a29f4f40f xfs: online fuzz test known output
-9aa1f156168b48d39a62ce45f862a65d3de56f35 xfs: offline fuzz test known output
-6ec145e27e9a54dfde37c9db9875d68313c252b1 xfs: norepair fuzz test known output
-252d09f535865014aeec131bbfb484a561144274 xfs: bothrepair fuzz test known output
-a853d74252e154b561186f2fbc4edce09c1b83e1 misc: privatize the FIEXCHANGE ioctl for now
-ac3655b823541f3bbd6581baf2bbffc47c702c68 misc: update xfs_io swapext usage
-d6f2c6e0e88a5026aa20a9e35ac68e3e336eb0a2 part two of fsstress cycling parent pointers with online repair
-9d6e57d99439051b8286b149ed0289b3404a1728 xfs/004: fix column extraction code
-2b7243feadb791314040d4b868322554cd9940e8 common: make helpers for ttyprintk usage
-8b425e57b6d2e16605a4b5d267ac48269a0b066a xfs: test upgrading old features
-720cd44e24ffa461739e49781c8751c9b8cdc4b3 xfs/122: fix metadirino
-d2f50d13bac80bf92f0e42e70e1d185a483fcf4f various: fix finding metadata inode numbers when metadir is enabled
-3a9e26631305d3d5b7b02c1a1c0c81ee52bd6b3e xfs/{030,033,178}: forcibly disable metadata directory trees
-a590753c3caa28f4f405fc43ac9089a6bc545b32 common/repair: patch up repair sb inode value complaints
-94d91f71981306002c48f781f2fcb7775db3168e xfs/206: update for metadata directory support
-a1f12e21d3040b860e9a0306f1af69d1fed7ac24 xfs/{050,144,153,299,330}: update quota reports to leave out metadir files
-e80adde27d8463eb3b8541a4486258471dfaf95c xfs/856: add metadir upgrade to test matrix
-1c1766350573f7c4f4770a2a2c707a45fcc4b39e xfs/509: adjust inumbers accounting for metadata directories
-0f7d59c9318f5478111678d6d02db1f8d7a15746 xfs: create fuzz tests for metadata directories
-debd441c309700797bc931963a4e448d3061f9a6 xfs: baseline golden output for metadata directory fuzz tests
-b29ef644541b73302f1c837fc360c665ab8e9bc1 common/populate: refactor caching of metadumps to a helper
-2e05c670d52763cffb683dcdbd8ae41449cec1db common/xfs: wipe external logs during mdrestore operations
-b3a1c673f5c048207dfb88a852c6ce4fd0b4c920 common/ext4: reformat external logs during mdrestore operations
-18bf91ea164c28a87dbcbda19078d704fc32d6e4 common/xfs: capture external logs during metadump/mdrestore
-5db43b00908318341316d070852cba1bf6c3e33f xfs/122: update for rtgroups
-f255e694bbe314a3f83eb80d5ad849d668021b07 punch-alternating: detect xfs realtime files with large allocation units
-c0e0898b69ff971cee0bcee60f51da77ad44d497 xfs/206: update mkfs filtering for rt groups feature
-7a0494cf4e4abc035cd3c9cbb5410cde9c576fdc common: pass the realtime device to xfs_db when possible
-eaca8b4a5aca0b0f3ebcfdfda24c106d1e8e9290 common: filter rtgroups when we're disabling metadir
-42545dded44530dfd209d9a09360e20e11ceb668 xfs/185: update for rtgroups
-04365465c86b65a032143f4818c85b458a5a71e6 xfs/449: update test to know about xfs_db -R
-babd2b35aadcdec8b689a9496686a93b819a3453 xfs/122: update for rtbitmap headers
-87a611b7bacf494d7b4826305edfb8b164e8e7ac xfs/122: udpate test to pick up rtword/suminfo ondisk unions
-fb5bc27682e2515fa7e58383732c93f5e5f5da94 xfs/27[46],xfs/556: fix tests to deal with rtgroups output in bmap/fsmap commands
-f21098a98260b6ef51cde6e9a060a375639818c5 common/xfs: capture realtime devices during metadump/mdrestore
-f75eed08daa154344645a83426c3b056469d33fc common/fuzzy: adapt the scrub stress tests to support rtgroups
-9b8c374e47902fa305a5c713b58e9fb4502ad084 xfs: refactor statfs field extraction
-20bf67c10d5495560bfe05f0e8cdec31d6c8061a generic/260: compute maximum fitrim offset
-603f7fe264e2c0b650e4a54e455b5f93085bc826 xfs: fix tests that try to access the realtime rmap inode
-4e876ffec1e72f5be51fa91093e56737a6fbd7ae fuzz: for fuzzing the rtrmapbt, find the path to the rt rmap btree file
-c19e7c1c1a106dbb8e3cc44e9442ddfcfaa914f2 xfs: race fsstress with realtime rmap btree scrub and repair
-34522c16fe79b1c551e6fef8771ed4b766e27e9a xfs/856: add rtrmapbt upgrade to test matrix
-e44fe92a6b56c284a000a4776eb0bdd6d51d5507 xfs/122: update for rtgroups-based realtime rmap btrees
-c1bc17216efbae32cc9a893a37df70d37c4332c8 xfs: fix various problems with fsmap detecting the data device
-24d7998139332c63ea27d8588b4c5f50a61eceaa xfs/341: update test for rtgroup-based rmap
-619c45185c9e71ef9f28df59a8ace6327b050e39 xfs/3{43,32}: adapt tests for rt extent size greater than 1
-e4e0d5b25cf3cb70d211f7241ac0ab68f3a636e0 xfs: skip tests if formatting small filesystem fails
-dcfb16341bd917ebf40300486e50c80bd1fba25f xfs/443: use file allocation unit, not dbsize
-361003395f75e0651f1dc66341543e68e9b2a22d populate: adjust rtrmap calculations for rtgroups
-c75f6e6c2283644c4b63283baabb2b93bbc92f2e populate: check that we created a realtime rmap btree of the given height
-d3facc8e97762b8aa85e4445db91e2a348d2c3a6 fuzzy: create missing fuzz tests for rt rmap btrees
-a8a65edf8b525a4b18a9246990ae218e3eb85421 fuzzy: create known output for rt rmap btree fuzz tests
-89d3d26536cd219ceaa10947741da4d1778de7fb xfs/122: update fields for realtime reflink
-9373f3da6f443eed115814b4fa8ed7e2a303d42c common/populate: create realtime refcount btree
-a69804c1d785b393be78660bcedfbff63524e13f xfs: create fuzz tests for the realtime refcount btree
-c9ff465a55a0113e940f94908d271329b7a1241e xfs/27[24]: adapt for checking files on the realtime volume
-db1adfb83a7c40438979b32d81d587cf8bf9364b xfs/243: don't run when realtime storage is the default
-8c87c55e1541005dc7ce421cb2ef1059240987fc xfs: race fsstress with realtime refcount btree scrub and repair
-424b3346b6724469fda09ab9190e951b5b290b44 xfs: remove xfs/131 now that we allow reflink on realtime volumes
-56ebebafce6b05d3fbc17f786062dc973e516a90 xfs/856: add rtreflink upgrade to test matrix
-8379ca11722dfe043195d224bef2de92c4a6ea54 generic/331,xfs/240: support files that skip delayed allocation
-78efe2e701b92fac8a18091021de4b83444e4c92 common/xfs: fix _xfs_get_file_block_size when rtinherit is set and no rt section
-621755b246070dba55955fc50053620209da2d43 xfs: baseline golden output for rt refcount btree fuzz tests
-000c7df73f33f89b14af715410c3c4470cd3032e xfs: make sure that CoW will write around when rextsize > 1
-95166c4299584d5cf83e71abd537898aa8f77546 xfs: skip cowextsize hint fragmentation tests on realtime volumes
-8cc9c13ae7330065753c8cbf2f4c4f5fc4234dbc misc: add more congruent oplen testing
-7d1f5cc90c8b3f466735c9ec2e56b4ee9f66d5df generic/303: avoid test failures on weird rt extent sizes
-5b3c32b3611aa42624f0e353162a1d03b61ba59e xfs: regression testing of quota on the realtime device
-21d5f7c2a36a0802432cf65a84d44d1114d2e458 xfs/122: update for vectored scrub
-f961fb62429f00320f10eb77bbe5536cea53eacf xfs: test output of new FSREFCOUNTS ioctl
-94a97103b131b03c2250d5ccddaff66202593b4f xfs: test clearing of free space
-d7f9ef20b51294edbb1937b42030573ede360789 xfs/122: update for parent pointers
-d2e04c4c961f9d6fe14b4b96fb8278b5c48db05c populate: create hardlinks for parent pointers
-75e47e5cb0bde3933b5ebd6f2bdc8be462c373c2 xfs/021: adapt golden output files for parent pointers
-820806fd4e4d14380afeb1faf37237721cce9eb5 generic/050: adapt for parent pointers
-90814b32b14ef527c65176f655d7971063d07f4f xfs/018: disable parent pointers for this test
-aa219538584b372271f4ab991268cf9ce79a7deb xfs/306: fix formatting failures with parent pointers
-0edd96399c96e3ed1917ea8ff0b88179024409b2 common: add helpers for parent pointer tests
-948dc572e0bb22e363e5145c8e664a746346e70a xfs: add parent pointer test
-267ba94570b88f3f8da369a74aef5ae2ea9254fb xfs: add multi link parent pointer test
-c7e00e5bba9f54b94706defa858fc2bf86bc1538 xfs: add parent pointer inject test
-c07d828143139c6a1b4fab50747ec8f068221d66 common/parent: add license and copyright
-c552b1fb2bd9f77e260c7949fe968f3d1a6a6922 common/parent: don't _fail on missing parent pointer components
-3601850ded06adac8d13c1a2b7149e985a320afd common/parent: check xfs_io parent command paths
-dd1acacf6060a0fcd25f20216d81f5c86b5e7d5d xfs/851: test xfs_io parent -p too
+a20990a0481571d5cb2d2294c9449ebb317a2b2f check: generate section reports between tests
+7e8a291e3bdf25bd57498131d86925bdc380837d report: derive an xml schema for the xunit report
+36c554feac175a5967ef70bab6904315c190484c report: capture the time zone in the test report timestamp
+f7367629f92fe4e90fd1f0764a919a841515a44f report: clarify the meaning of the timestamp attribute
+36c275a1500e88a7c09cc5108437dcbc40e6faeb report: record fstests start and report generation timestamps
+fc9f173562f94ffbeb432db5c0665c4e2ac49737 report: encode cdata sections correctly
+46e9c212bf8ba024f7d0eb1293e90f4df40a3fbe report: encode the kernel log as a separate xml element
+b9b05ccd3ff760be88ab3a9814113d7a519fc71f report: sort properties by name
+de57f6161f14ac071178f663d0634f210c1224e8 report: pass property value to _xunit_add_property
+6c65bb263b3304691eac93ff871ab7f0a5af29ad report: encode xml entities in property values
+57c3db4f694fe0b6bfaccd43efefbed965857fb9 report: collect basic information about a test run
+68b87376a7c82e114ab0af81414a2d102c0e5757 report: record optional environment variables
+b2f466196d7f510f9f51595423b8096ca1b84351 report: record xfs-specific information about a test run
+dcbe83cc7e5aa5e4c84492626e0ac1fa5b10bdff report: record ext*-specific information about a test run
+7e5db626c7e5f9adedff38e6fe2e4c3551e1007e report: allow test runners to inject arbitrary values
+4c0118d037c31479403f5890cfcd9b260bfa56eb xfs: test scaling of the mkfs concurrency options
+ec1ffd84a6a3cf87ca11ffeb3e34d13b60438074 xfs: online fuzz test known output
+f4ce31788d2a084db43c1af26f74b8dad0f01d1a xfs: offline fuzz test known output
+7df0d95f9957e231d90a47e3d147b0ed9113b244 xfs: norepair fuzz test known output
+422872dd54a6df272d47fb3c5e289ecc736391dd xfs: bothrepair fuzz test known output
+ce72ac0fca3b751516f5fddc5f0df3d72372a472 misc: privatize the FIEXCHANGE ioctl for now
+7e67f2a222f333adbb86fe105be3ae0b1c4b5577 misc: update xfs_io swapext usage
+d9cb58b671bcfce853e716f50c660a5e1ed88198 xfs: stress test cycling parent pointers with online repair
+25393397b78452f014b3c7fdee797ea23bb2269e xfs/004: fix column extraction code
+9e2feaeb8d07259790db23cf18b8a9eea5b682fd common: make helpers for ttyprintk usage
+e56c8eb1933658c280cb604595c1067980991f68 xfs: test upgrading old features
+c65e4803dab28d7dbb7ae1e96df2db7bdee07b4d xfs/122: fix metadirino
+5af7921255b08b9eb3eca99b2d6fd5d166267b98 various: fix finding metadata inode numbers when metadir is enabled
+df5a1a3d37996f57ec165f98e2e024cca8ebd857 xfs/{030,033,178}: forcibly disable metadata directory trees
+07f8c92951954d0f1cdb1e6ee3a495d2b2df59a6 common/repair: patch up repair sb inode value complaints
+c98190fca1519fb1d908d89ce1b988dbe9ea2e11 xfs/206: update for metadata directory support
+7918167f182ca8eebb738d37af161a91c5278e04 xfs/{050,144,153,299,330}: update quota reports to leave out metadir files
+96962db6498f5a049b2073d5b21bace04ecdb7cb xfs/856: add metadir upgrade to test matrix
+550cbdb4c9ffa8a03e62fdd995affd230cb0a5ac xfs/509: adjust inumbers accounting for metadata directories
+dfff28f84a609505f9d8c8aa1e92bacefd6b5918 xfs: create fuzz tests for metadata directories
+15486b67ae5468f6e5d52b52c51ee503eab73c67 xfs: baseline golden output for metadata directory fuzz tests
+cb27bb41e76f3438f0afbece822efb97a18a19e7 common/populate: refactor caching of metadumps to a helper
+34064dd2ef5a5e990192e617e57ce3efefcf12b4 common/xfs: wipe external logs during mdrestore operations
+c93188aac558742f4c681f46f31820abbf0a7a1e common/ext4: reformat external logs during mdrestore operations
+98c20a8ac153b402dc09f0779f5c287c2dca59b3 common/xfs: capture external logs during metadump/mdrestore
+8859356f1abd784ca884250e7470e76fac59e85c xfs/122: update for rtgroups
+38533bab4a6974820f7a29af5b937ae54727ccd9 punch-alternating: detect xfs realtime files with large allocation units
+2e01db287abdf75ae928b8e5d17ec931d38bc72c xfs/206: update mkfs filtering for rt groups feature
+46f6c37fa56657d76f225acd17746ed3e2a30a8f common: pass the realtime device to xfs_db when possible
+89b1d9514a1c61291791ec6fb8e55ec4d7ca31a2 common: filter rtgroups when we're disabling metadir
+bf5451f7e9a29d3608702a70a7983b15fc54962f xfs/185: update for rtgroups
+f2dbe68e794433fd04046f0318edcf00cb4011fa xfs/449: update test to know about xfs_db -R
+d1baa9ac941e78b5824c792a8db8ef64c27db73c xfs/122: update for rtbitmap headers
+bbf8cf6c39c8d12e8dff3d06aa58f6d601015d39 xfs/122: udpate test to pick up rtword/suminfo ondisk unions
+4a80848e05d8b1bd37ab79dcaf941c6ccdcb638b xfs/27[46],xfs/556: fix tests to deal with rtgroups output in bmap/fsmap commands
+a6b97e330d99bc7e0b7c5c7e5ddf8a1fb9955a84 common/xfs: capture realtime devices during metadump/mdrestore
+d93697f0a0643abc9b2375119ea5304939b4157a common/fuzzy: adapt the scrub stress tests to support rtgroups
+679da0364e365cdd2501f66bb38d9e38eb09db22 xfs: refactor statfs field extraction
+6e0f6eea8a263a1adbccf54891f23cc61c3a9275 generic/260: compute maximum fitrim offset
+83d98674b6853cd0dfdee2dabb650d2c8e7a5203 xfs: fix tests that try to access the realtime rmap inode
+70ad7bdfeffec5bb8fd365f25190aa2a20c8c501 fuzz: for fuzzing the rtrmapbt, find the path to the rt rmap btree file
+fcb090021e93b1132f5aaae5a80d64c4f1cb3083 xfs: race fsstress with realtime rmap btree scrub and repair
+3d936cad3d66eace6fbac42e7b2c8529617b849a xfs/856: add rtrmapbt upgrade to test matrix
+3c00d5b3d20cf39e0a238ba9169992240ccec7dc xfs/122: update for rtgroups-based realtime rmap btrees
+3caafd18d5d91bf44ec34039d22c57b309db204e xfs: fix various problems with fsmap detecting the data device
+c39a763f81dcdcb2dc4dc17f7c7584b4b195dff1 xfs/341: update test for rtgroup-based rmap
+3d44cc3140ae7ff1321f37b060ffd837ba491ad3 xfs/3{43,32}: adapt tests for rt extent size greater than 1
+8c0441ea60fedf6cb1c9a7c676f697bf148d4514 xfs: skip tests if formatting small filesystem fails
+8eaac144ae2ea0b27bed28d099779adcbee1beaa xfs/443: use file allocation unit, not dbsize
+48e9f8cfeba46487f54aaa2fc4bacaceaa3876ca populate: adjust rtrmap calculations for rtgroups
+9176932df4ec160bb96b9a7c6672649c59df7cb7 populate: check that we created a realtime rmap btree of the given height
+59dd66b4ffd465a52db5b448a23681c6cb40cb44 fuzzy: create missing fuzz tests for rt rmap btrees
+36e5920adbd02c85d574f1619220f6b77bf06828 fuzzy: create known output for rt rmap btree fuzz tests
+618c9d2a3f8a1169ddaba8247cd147c42252cd2a xfs/122: update fields for realtime reflink
+509a7e1845f12a3ddca1ab17729c8d93b0118d52 common/populate: create realtime refcount btree
+a51c5f7d871a7518088fea129281173eca5df003 xfs: create fuzz tests for the realtime refcount btree
+69a64500b0230917c45d668fee4d955e5309855f xfs/27[24]: adapt for checking files on the realtime volume
+d7af74c5bf36bf1fae0a5b7831a97d8e04c709fc xfs/243: don't run when realtime storage is the default
+db2aa8b154fa57ca0243529ffd8283787714be13 xfs: race fsstress with realtime refcount btree scrub and repair
+666bfd9ee3c227f74c71d110fdeed46b6babf248 xfs: remove xfs/131 now that we allow reflink on realtime volumes
+9ba7b3c4a9f146625396638ea659eec4eadd6a72 xfs/856: add rtreflink upgrade to test matrix
+03b8e9a80abe15af1f97f128389a6240660e6d40 generic/331,xfs/240: support files that skip delayed allocation
+6d0570ce372287949248561a40e7a32a1a1ced15 common/xfs: fix _xfs_get_file_block_size when rtinherit is set and no rt section
+88516c14fe833bebba2ce274ea489cce8e9f8e9c xfs: baseline golden output for rt refcount btree fuzz tests
+8f655607b0b1e74fc9d1b26a5b1301f499d44773 xfs: make sure that CoW will write around when rextsize > 1
+e0d8c4406f8c202ae9e2de8362b05d371d2d8e05 xfs: skip cowextsize hint fragmentation tests on realtime volumes
+ec024ffc5011655dc58176a4bf4c5d860383e913 misc: add more congruent oplen testing
+7d22511c41094896465ebfe66a79f0e20631f307 generic/303: avoid test failures on weird rt extent sizes
+c43deb86e7e2f0ecf1066f377a82f11c650f655a xfs: regression testing of quota on the realtime device
+c75bc4c866c71ea61394598afdccb244fa469335 xfs/122: update for vectored scrub
+346a308c4e35c61ef8f2a2d8cb173bdcda72efd2 xfs: test output of new FSREFCOUNTS ioctl
+c3284d13c671272211c6f2464e658156d329a981 xfs: test clearing of free space
+33364f4c7b67b53d042369a3d8905e0067ab0dad xfs/122: update for parent pointers
+6dbcb0ffd561be2fbf749438132c99129fa8283b populate: create hardlinks for parent pointers
+b8741313c541f98592424508dc6e6b221b15ecfc xfs/021: adapt golden output files for parent pointers
+d32b334245c9fdd814059833ffc46fb795f42bdb generic/050: adapt for parent pointers
+260e43317d4e413caa04d8fe245274daab59db07 xfs/018: disable parent pointers for this test
+ce25ef5ca039ee560b599e358b715448088e1a09 xfs/306: fix formatting failures with parent pointers
+c6007175b9ead4588e7260445f94baa6f7c76c97 common: add helpers for parent pointer tests
+a781cfd1f3ca1d6fb2253707505d0d6982b65784 xfs: add parent pointer test
+03f007bca20e8ad5d5fa5503e6f3c5a588133ad2 xfs: add multi link parent pointer test
+5da830b6e2e71c50e9da4621797547f13d0ca8fa xfs: add parent pointer inject test
+c7a778d36d06b811a988d4abce8f9f5cf97c9667 common/parent: add license and copyright
+3567763fd36d9d45ae87c0d048b41da56c5c836c common/parent: don't _fail on missing parent pointer components
+ce7b54532e127b16e41eb6e90391926fd2d61fb4 common/parent: check xfs_io parent command paths
+cb0ca7bd9490d02b474dc8a45060e32ef3173b8e xfs/851: test xfs_io parent -p too
+d93e13adaf6f16ad596b9f4c436b4dda69084954 misc: adjust for parent pointers with namehashes
+a3d2c0122507cd0e982a898368b379d81306809b xfs/021: adjust for short parent pointers with hashes
+9c1bbbe09792510ce29746cf03e37e134f6ef41d xfs/242: fix _filter_bmap for xfs_io bmap that does rt file properly
+dc24ccf06f9e396be613f120ce4f5f1f598529aa xfs/021: adjust for short valuelens
+6c0478d908e4e201170240b4d6e5b587e022e496 xfs/122: adjust for flex-array XFS_IOC_GETPARENTS ioctl
 
---===============7650299949684335615==
+--===============5328713760726719305==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a3e258c7ecb0-46aa10b510eb.txt
+Content-Disposition: attachment; filename=revlist-c5e1fc52452a-dc24ccf06f9e.txt
 
-e19c99400cfe67bd5f11d3cfe5587446ed3026ef xfs/122: fix for swapext log items
-5d2aea2b1f6dc3ac84909bbd3c155edccc131aae generic: test old xfs extent swapping ioctl
-815ea93652305f0ebba36b3e0ed48602235b9b1c generic: test new vfs swapext ioctl
-81cbafc4597a0cc59e87eeae99ab7a1c8f2a70e8 generic, xfs: test scatter-gather atomic file updates
-f02d41a7b5cade6bb7f9b4009e787b284283eccf generic: test that file privilege gets dropped with FIEXCHANGE_RANGE
-bf183828b8f4c3caf3d3fd1f96d9f396db7508e5 fsx: support FIEXCHANGE_RANGE
-ae5ac04996c581c9e8b70bacb663ff5708f65e18 fsstress: update for FIEXCHANGE_RANGE
-d8cf497797b015b68e2e60822ba3e5eb2bc5714e xfs: race fsstress with online repair of realtime summary files
-a199f989b6f187e28b789ac69f0dbe3a55c1d572 xfs: race fsstress with online repair of extended attribute data
-249f5a78d3094477c8615cb62fb49ef3aec4f785 xfs: ensure that online directory repairs don't hit EDQUOT
-0999380268abb51a7e9f1cec4da920f5a077bad5 xfs: race fsstress with online repair of dirs and parent pointers
-fc0a397e3ec479a5883fbaba7dea75fd5cbf5ebf xfs: test xfs_scrub dry run, preen, and repair mode
-b3096c996a48960160b72738e5599df808a53260 common/rc: don't clear superblock for zoned scratch pools
-f7765774a1b5cb98c2f21a892e82b3421f40e791 generic/020: fix really long attr test failure for ceph
-c9a8237d8c5fdc4ef2d25a56069ffdcce22b5d4b check: generate section reports between tests
-c4473e90a4fe1b6d0c7cf77d9fcdf22852aea1a3 report: derive an xml schema for the xunit report
-4e77406f99b4624a065d8290b8e45e29adb8b072 report: capture the time zone in the test report timestamp
-e7a36e5fbd4cff148b5642132af261c46bec8d28 report: clarify the meaning of the timestamp attribute
-d203e87a2bcb075677925fa93462a78324ba1423 report: record fstests start and report generation timestamps
-21d1f01c021d75e3faa824dbe6a8dfa2dd609e1a report: encode cdata sections correctly
-a5ee28a4ec13d186e41e461997a31fbf147d8532 report: encode the kernel log as a separate xml element
-959235b87703de1e98238656e84bae561c32b6f0 report: sort properties by name
-2c95da79fbf3a9c7146c1e2fd697f382fbbea069 report: pass property value to _xunit_add_property
-742e144fedcfb383e088eb8e4e484b0a6672dc26 report: encode xml entities in property values
-31dc2c91e727311b181403ecbe57a311eee58eb0 report: collect basic information about a test run
-9902ebd0e0fb4d6327686ffd17f4b40f60ba9f28 report: record optional environment variables
-e8e4bddd474609f0284389f3c2323d9bb6779e65 report: record xfs-specific information about a test run
-2f066c6808adb1d1a1f6682d2eb0740facfecd49 report: record ext*-specific information about a test run
-3c708060bb0c4357649b24c8feadb8dca96dc3e2 report: allow test runners to inject arbitrary values
-fabf5dcd145d1d565e4c9727878f82fcfa099fbe xfs: test scaling of the mkfs concurrency options
-c1d2b42fb29e2137e72393ec8d5bd20a29f4f40f xfs: online fuzz test known output
-9aa1f156168b48d39a62ce45f862a65d3de56f35 xfs: offline fuzz test known output
-6ec145e27e9a54dfde37c9db9875d68313c252b1 xfs: norepair fuzz test known output
-252d09f535865014aeec131bbfb484a561144274 xfs: bothrepair fuzz test known output
-a853d74252e154b561186f2fbc4edce09c1b83e1 misc: privatize the FIEXCHANGE ioctl for now
-ac3655b823541f3bbd6581baf2bbffc47c702c68 misc: update xfs_io swapext usage
-d6f2c6e0e88a5026aa20a9e35ac68e3e336eb0a2 part two of fsstress cycling parent pointers with online repair
-9d6e57d99439051b8286b149ed0289b3404a1728 xfs/004: fix column extraction code
-2b7243feadb791314040d4b868322554cd9940e8 common: make helpers for ttyprintk usage
-8b425e57b6d2e16605a4b5d267ac48269a0b066a xfs: test upgrading old features
-720cd44e24ffa461739e49781c8751c9b8cdc4b3 xfs/122: fix metadirino
-d2f50d13bac80bf92f0e42e70e1d185a483fcf4f various: fix finding metadata inode numbers when metadir is enabled
-3a9e26631305d3d5b7b02c1a1c0c81ee52bd6b3e xfs/{030,033,178}: forcibly disable metadata directory trees
-a590753c3caa28f4f405fc43ac9089a6bc545b32 common/repair: patch up repair sb inode value complaints
-94d91f71981306002c48f781f2fcb7775db3168e xfs/206: update for metadata directory support
-a1f12e21d3040b860e9a0306f1af69d1fed7ac24 xfs/{050,144,153,299,330}: update quota reports to leave out metadir files
-e80adde27d8463eb3b8541a4486258471dfaf95c xfs/856: add metadir upgrade to test matrix
-1c1766350573f7c4f4770a2a2c707a45fcc4b39e xfs/509: adjust inumbers accounting for metadata directories
-0f7d59c9318f5478111678d6d02db1f8d7a15746 xfs: create fuzz tests for metadata directories
-debd441c309700797bc931963a4e448d3061f9a6 xfs: baseline golden output for metadata directory fuzz tests
-b29ef644541b73302f1c837fc360c665ab8e9bc1 common/populate: refactor caching of metadumps to a helper
-2e05c670d52763cffb683dcdbd8ae41449cec1db common/xfs: wipe external logs during mdrestore operations
-b3a1c673f5c048207dfb88a852c6ce4fd0b4c920 common/ext4: reformat external logs during mdrestore operations
-18bf91ea164c28a87dbcbda19078d704fc32d6e4 common/xfs: capture external logs during metadump/mdrestore
-5db43b00908318341316d070852cba1bf6c3e33f xfs/122: update for rtgroups
-f255e694bbe314a3f83eb80d5ad849d668021b07 punch-alternating: detect xfs realtime files with large allocation units
-c0e0898b69ff971cee0bcee60f51da77ad44d497 xfs/206: update mkfs filtering for rt groups feature
-7a0494cf4e4abc035cd3c9cbb5410cde9c576fdc common: pass the realtime device to xfs_db when possible
-eaca8b4a5aca0b0f3ebcfdfda24c106d1e8e9290 common: filter rtgroups when we're disabling metadir
-42545dded44530dfd209d9a09360e20e11ceb668 xfs/185: update for rtgroups
-04365465c86b65a032143f4818c85b458a5a71e6 xfs/449: update test to know about xfs_db -R
-babd2b35aadcdec8b689a9496686a93b819a3453 xfs/122: update for rtbitmap headers
-87a611b7bacf494d7b4826305edfb8b164e8e7ac xfs/122: udpate test to pick up rtword/suminfo ondisk unions
-fb5bc27682e2515fa7e58383732c93f5e5f5da94 xfs/27[46],xfs/556: fix tests to deal with rtgroups output in bmap/fsmap commands
-f21098a98260b6ef51cde6e9a060a375639818c5 common/xfs: capture realtime devices during metadump/mdrestore
-f75eed08daa154344645a83426c3b056469d33fc common/fuzzy: adapt the scrub stress tests to support rtgroups
-9b8c374e47902fa305a5c713b58e9fb4502ad084 xfs: refactor statfs field extraction
-20bf67c10d5495560bfe05f0e8cdec31d6c8061a generic/260: compute maximum fitrim offset
-603f7fe264e2c0b650e4a54e455b5f93085bc826 xfs: fix tests that try to access the realtime rmap inode
-4e876ffec1e72f5be51fa91093e56737a6fbd7ae fuzz: for fuzzing the rtrmapbt, find the path to the rt rmap btree file
-c19e7c1c1a106dbb8e3cc44e9442ddfcfaa914f2 xfs: race fsstress with realtime rmap btree scrub and repair
-34522c16fe79b1c551e6fef8771ed4b766e27e9a xfs/856: add rtrmapbt upgrade to test matrix
-e44fe92a6b56c284a000a4776eb0bdd6d51d5507 xfs/122: update for rtgroups-based realtime rmap btrees
-c1bc17216efbae32cc9a893a37df70d37c4332c8 xfs: fix various problems with fsmap detecting the data device
-24d7998139332c63ea27d8588b4c5f50a61eceaa xfs/341: update test for rtgroup-based rmap
-619c45185c9e71ef9f28df59a8ace6327b050e39 xfs/3{43,32}: adapt tests for rt extent size greater than 1
-e4e0d5b25cf3cb70d211f7241ac0ab68f3a636e0 xfs: skip tests if formatting small filesystem fails
-dcfb16341bd917ebf40300486e50c80bd1fba25f xfs/443: use file allocation unit, not dbsize
-361003395f75e0651f1dc66341543e68e9b2a22d populate: adjust rtrmap calculations for rtgroups
-c75f6e6c2283644c4b63283baabb2b93bbc92f2e populate: check that we created a realtime rmap btree of the given height
-d3facc8e97762b8aa85e4445db91e2a348d2c3a6 fuzzy: create missing fuzz tests for rt rmap btrees
-a8a65edf8b525a4b18a9246990ae218e3eb85421 fuzzy: create known output for rt rmap btree fuzz tests
-89d3d26536cd219ceaa10947741da4d1778de7fb xfs/122: update fields for realtime reflink
-9373f3da6f443eed115814b4fa8ed7e2a303d42c common/populate: create realtime refcount btree
-a69804c1d785b393be78660bcedfbff63524e13f xfs: create fuzz tests for the realtime refcount btree
-c9ff465a55a0113e940f94908d271329b7a1241e xfs/27[24]: adapt for checking files on the realtime volume
-db1adfb83a7c40438979b32d81d587cf8bf9364b xfs/243: don't run when realtime storage is the default
-8c87c55e1541005dc7ce421cb2ef1059240987fc xfs: race fsstress with realtime refcount btree scrub and repair
-424b3346b6724469fda09ab9190e951b5b290b44 xfs: remove xfs/131 now that we allow reflink on realtime volumes
-56ebebafce6b05d3fbc17f786062dc973e516a90 xfs/856: add rtreflink upgrade to test matrix
-8379ca11722dfe043195d224bef2de92c4a6ea54 generic/331,xfs/240: support files that skip delayed allocation
-78efe2e701b92fac8a18091021de4b83444e4c92 common/xfs: fix _xfs_get_file_block_size when rtinherit is set and no rt section
-621755b246070dba55955fc50053620209da2d43 xfs: baseline golden output for rt refcount btree fuzz tests
-000c7df73f33f89b14af715410c3c4470cd3032e xfs: make sure that CoW will write around when rextsize > 1
-95166c4299584d5cf83e71abd537898aa8f77546 xfs: skip cowextsize hint fragmentation tests on realtime volumes
-8cc9c13ae7330065753c8cbf2f4c4f5fc4234dbc misc: add more congruent oplen testing
-7d1f5cc90c8b3f466735c9ec2e56b4ee9f66d5df generic/303: avoid test failures on weird rt extent sizes
-5b3c32b3611aa42624f0e353162a1d03b61ba59e xfs: regression testing of quota on the realtime device
-21d5f7c2a36a0802432cf65a84d44d1114d2e458 xfs/122: update for vectored scrub
-f961fb62429f00320f10eb77bbe5536cea53eacf xfs: test output of new FSREFCOUNTS ioctl
-94a97103b131b03c2250d5ccddaff66202593b4f xfs: test clearing of free space
-d7f9ef20b51294edbb1937b42030573ede360789 xfs/122: update for parent pointers
-d2e04c4c961f9d6fe14b4b96fb8278b5c48db05c populate: create hardlinks for parent pointers
-75e47e5cb0bde3933b5ebd6f2bdc8be462c373c2 xfs/021: adapt golden output files for parent pointers
-820806fd4e4d14380afeb1faf37237721cce9eb5 generic/050: adapt for parent pointers
-90814b32b14ef527c65176f655d7971063d07f4f xfs/018: disable parent pointers for this test
-aa219538584b372271f4ab991268cf9ce79a7deb xfs/306: fix formatting failures with parent pointers
-0edd96399c96e3ed1917ea8ff0b88179024409b2 common: add helpers for parent pointer tests
-948dc572e0bb22e363e5145c8e664a746346e70a xfs: add parent pointer test
-267ba94570b88f3f8da369a74aef5ae2ea9254fb xfs: add multi link parent pointer test
-c7e00e5bba9f54b94706defa858fc2bf86bc1538 xfs: add parent pointer inject test
-c07d828143139c6a1b4fab50747ec8f068221d66 common/parent: add license and copyright
-c552b1fb2bd9f77e260c7949fe968f3d1a6a6922 common/parent: don't _fail on missing parent pointer components
-3601850ded06adac8d13c1a2b7149e985a320afd common/parent: check xfs_io parent command paths
-dd1acacf6060a0fcd25f20216d81f5c86b5e7d5d xfs/851: test xfs_io parent -p too
-5edfcd982954fa09d97b566286760d69a702799d misc: adjust for parent pointers with namehashes
-31ff2043fcc85d07e2cd69e58fa306fe881ebd4a xfs/021: adjust for short parent pointers with hashes
-70760dc0f4246705b8be4d1f9bf63087893f9068 xfs/242: fix _filter_bmap for xfs_io bmap that does rt file properly
-c5e1fc52452ae402041eef9cdfcfec96b817be44 xfs/021: adjust for short valuelens
-46aa10b510eb73dda13e24072841786db6f722a1 xfs/122: adjust for flex-array XFS_IOC_GETPARENTS ioctl
+a20990a0481571d5cb2d2294c9449ebb317a2b2f check: generate section reports between tests
+7e8a291e3bdf25bd57498131d86925bdc380837d report: derive an xml schema for the xunit report
+36c554feac175a5967ef70bab6904315c190484c report: capture the time zone in the test report timestamp
+f7367629f92fe4e90fd1f0764a919a841515a44f report: clarify the meaning of the timestamp attribute
+36c275a1500e88a7c09cc5108437dcbc40e6faeb report: record fstests start and report generation timestamps
+fc9f173562f94ffbeb432db5c0665c4e2ac49737 report: encode cdata sections correctly
+46e9c212bf8ba024f7d0eb1293e90f4df40a3fbe report: encode the kernel log as a separate xml element
+b9b05ccd3ff760be88ab3a9814113d7a519fc71f report: sort properties by name
+de57f6161f14ac071178f663d0634f210c1224e8 report: pass property value to _xunit_add_property
+6c65bb263b3304691eac93ff871ab7f0a5af29ad report: encode xml entities in property values
+57c3db4f694fe0b6bfaccd43efefbed965857fb9 report: collect basic information about a test run
+68b87376a7c82e114ab0af81414a2d102c0e5757 report: record optional environment variables
+b2f466196d7f510f9f51595423b8096ca1b84351 report: record xfs-specific information about a test run
+dcbe83cc7e5aa5e4c84492626e0ac1fa5b10bdff report: record ext*-specific information about a test run
+7e5db626c7e5f9adedff38e6fe2e4c3551e1007e report: allow test runners to inject arbitrary values
+4c0118d037c31479403f5890cfcd9b260bfa56eb xfs: test scaling of the mkfs concurrency options
+ec1ffd84a6a3cf87ca11ffeb3e34d13b60438074 xfs: online fuzz test known output
+f4ce31788d2a084db43c1af26f74b8dad0f01d1a xfs: offline fuzz test known output
+7df0d95f9957e231d90a47e3d147b0ed9113b244 xfs: norepair fuzz test known output
+422872dd54a6df272d47fb3c5e289ecc736391dd xfs: bothrepair fuzz test known output
+ce72ac0fca3b751516f5fddc5f0df3d72372a472 misc: privatize the FIEXCHANGE ioctl for now
+7e67f2a222f333adbb86fe105be3ae0b1c4b5577 misc: update xfs_io swapext usage
+d9cb58b671bcfce853e716f50c660a5e1ed88198 xfs: stress test cycling parent pointers with online repair
+25393397b78452f014b3c7fdee797ea23bb2269e xfs/004: fix column extraction code
+9e2feaeb8d07259790db23cf18b8a9eea5b682fd common: make helpers for ttyprintk usage
+e56c8eb1933658c280cb604595c1067980991f68 xfs: test upgrading old features
+c65e4803dab28d7dbb7ae1e96df2db7bdee07b4d xfs/122: fix metadirino
+5af7921255b08b9eb3eca99b2d6fd5d166267b98 various: fix finding metadata inode numbers when metadir is enabled
+df5a1a3d37996f57ec165f98e2e024cca8ebd857 xfs/{030,033,178}: forcibly disable metadata directory trees
+07f8c92951954d0f1cdb1e6ee3a495d2b2df59a6 common/repair: patch up repair sb inode value complaints
+c98190fca1519fb1d908d89ce1b988dbe9ea2e11 xfs/206: update for metadata directory support
+7918167f182ca8eebb738d37af161a91c5278e04 xfs/{050,144,153,299,330}: update quota reports to leave out metadir files
+96962db6498f5a049b2073d5b21bace04ecdb7cb xfs/856: add metadir upgrade to test matrix
+550cbdb4c9ffa8a03e62fdd995affd230cb0a5ac xfs/509: adjust inumbers accounting for metadata directories
+dfff28f84a609505f9d8c8aa1e92bacefd6b5918 xfs: create fuzz tests for metadata directories
+15486b67ae5468f6e5d52b52c51ee503eab73c67 xfs: baseline golden output for metadata directory fuzz tests
+cb27bb41e76f3438f0afbece822efb97a18a19e7 common/populate: refactor caching of metadumps to a helper
+34064dd2ef5a5e990192e617e57ce3efefcf12b4 common/xfs: wipe external logs during mdrestore operations
+c93188aac558742f4c681f46f31820abbf0a7a1e common/ext4: reformat external logs during mdrestore operations
+98c20a8ac153b402dc09f0779f5c287c2dca59b3 common/xfs: capture external logs during metadump/mdrestore
+8859356f1abd784ca884250e7470e76fac59e85c xfs/122: update for rtgroups
+38533bab4a6974820f7a29af5b937ae54727ccd9 punch-alternating: detect xfs realtime files with large allocation units
+2e01db287abdf75ae928b8e5d17ec931d38bc72c xfs/206: update mkfs filtering for rt groups feature
+46f6c37fa56657d76f225acd17746ed3e2a30a8f common: pass the realtime device to xfs_db when possible
+89b1d9514a1c61291791ec6fb8e55ec4d7ca31a2 common: filter rtgroups when we're disabling metadir
+bf5451f7e9a29d3608702a70a7983b15fc54962f xfs/185: update for rtgroups
+f2dbe68e794433fd04046f0318edcf00cb4011fa xfs/449: update test to know about xfs_db -R
+d1baa9ac941e78b5824c792a8db8ef64c27db73c xfs/122: update for rtbitmap headers
+bbf8cf6c39c8d12e8dff3d06aa58f6d601015d39 xfs/122: udpate test to pick up rtword/suminfo ondisk unions
+4a80848e05d8b1bd37ab79dcaf941c6ccdcb638b xfs/27[46],xfs/556: fix tests to deal with rtgroups output in bmap/fsmap commands
+a6b97e330d99bc7e0b7c5c7e5ddf8a1fb9955a84 common/xfs: capture realtime devices during metadump/mdrestore
+d93697f0a0643abc9b2375119ea5304939b4157a common/fuzzy: adapt the scrub stress tests to support rtgroups
+679da0364e365cdd2501f66bb38d9e38eb09db22 xfs: refactor statfs field extraction
+6e0f6eea8a263a1adbccf54891f23cc61c3a9275 generic/260: compute maximum fitrim offset
+83d98674b6853cd0dfdee2dabb650d2c8e7a5203 xfs: fix tests that try to access the realtime rmap inode
+70ad7bdfeffec5bb8fd365f25190aa2a20c8c501 fuzz: for fuzzing the rtrmapbt, find the path to the rt rmap btree file
+fcb090021e93b1132f5aaae5a80d64c4f1cb3083 xfs: race fsstress with realtime rmap btree scrub and repair
+3d936cad3d66eace6fbac42e7b2c8529617b849a xfs/856: add rtrmapbt upgrade to test matrix
+3c00d5b3d20cf39e0a238ba9169992240ccec7dc xfs/122: update for rtgroups-based realtime rmap btrees
+3caafd18d5d91bf44ec34039d22c57b309db204e xfs: fix various problems with fsmap detecting the data device
+c39a763f81dcdcb2dc4dc17f7c7584b4b195dff1 xfs/341: update test for rtgroup-based rmap
+3d44cc3140ae7ff1321f37b060ffd837ba491ad3 xfs/3{43,32}: adapt tests for rt extent size greater than 1
+8c0441ea60fedf6cb1c9a7c676f697bf148d4514 xfs: skip tests if formatting small filesystem fails
+8eaac144ae2ea0b27bed28d099779adcbee1beaa xfs/443: use file allocation unit, not dbsize
+48e9f8cfeba46487f54aaa2fc4bacaceaa3876ca populate: adjust rtrmap calculations for rtgroups
+9176932df4ec160bb96b9a7c6672649c59df7cb7 populate: check that we created a realtime rmap btree of the given height
+59dd66b4ffd465a52db5b448a23681c6cb40cb44 fuzzy: create missing fuzz tests for rt rmap btrees
+36e5920adbd02c85d574f1619220f6b77bf06828 fuzzy: create known output for rt rmap btree fuzz tests
+618c9d2a3f8a1169ddaba8247cd147c42252cd2a xfs/122: update fields for realtime reflink
+509a7e1845f12a3ddca1ab17729c8d93b0118d52 common/populate: create realtime refcount btree
+a51c5f7d871a7518088fea129281173eca5df003 xfs: create fuzz tests for the realtime refcount btree
+69a64500b0230917c45d668fee4d955e5309855f xfs/27[24]: adapt for checking files on the realtime volume
+d7af74c5bf36bf1fae0a5b7831a97d8e04c709fc xfs/243: don't run when realtime storage is the default
+db2aa8b154fa57ca0243529ffd8283787714be13 xfs: race fsstress with realtime refcount btree scrub and repair
+666bfd9ee3c227f74c71d110fdeed46b6babf248 xfs: remove xfs/131 now that we allow reflink on realtime volumes
+9ba7b3c4a9f146625396638ea659eec4eadd6a72 xfs/856: add rtreflink upgrade to test matrix
+03b8e9a80abe15af1f97f128389a6240660e6d40 generic/331,xfs/240: support files that skip delayed allocation
+6d0570ce372287949248561a40e7a32a1a1ced15 common/xfs: fix _xfs_get_file_block_size when rtinherit is set and no rt section
+88516c14fe833bebba2ce274ea489cce8e9f8e9c xfs: baseline golden output for rt refcount btree fuzz tests
+8f655607b0b1e74fc9d1b26a5b1301f499d44773 xfs: make sure that CoW will write around when rextsize > 1
+e0d8c4406f8c202ae9e2de8362b05d371d2d8e05 xfs: skip cowextsize hint fragmentation tests on realtime volumes
+ec024ffc5011655dc58176a4bf4c5d860383e913 misc: add more congruent oplen testing
+7d22511c41094896465ebfe66a79f0e20631f307 generic/303: avoid test failures on weird rt extent sizes
+c43deb86e7e2f0ecf1066f377a82f11c650f655a xfs: regression testing of quota on the realtime device
+c75bc4c866c71ea61394598afdccb244fa469335 xfs/122: update for vectored scrub
+346a308c4e35c61ef8f2a2d8cb173bdcda72efd2 xfs: test output of new FSREFCOUNTS ioctl
+c3284d13c671272211c6f2464e658156d329a981 xfs: test clearing of free space
+33364f4c7b67b53d042369a3d8905e0067ab0dad xfs/122: update for parent pointers
+6dbcb0ffd561be2fbf749438132c99129fa8283b populate: create hardlinks for parent pointers
+b8741313c541f98592424508dc6e6b221b15ecfc xfs/021: adapt golden output files for parent pointers
+d32b334245c9fdd814059833ffc46fb795f42bdb generic/050: adapt for parent pointers
+260e43317d4e413caa04d8fe245274daab59db07 xfs/018: disable parent pointers for this test
+ce25ef5ca039ee560b599e358b715448088e1a09 xfs/306: fix formatting failures with parent pointers
+c6007175b9ead4588e7260445f94baa6f7c76c97 common: add helpers for parent pointer tests
+a781cfd1f3ca1d6fb2253707505d0d6982b65784 xfs: add parent pointer test
+03f007bca20e8ad5d5fa5503e6f3c5a588133ad2 xfs: add multi link parent pointer test
+5da830b6e2e71c50e9da4621797547f13d0ca8fa xfs: add parent pointer inject test
+c7a778d36d06b811a988d4abce8f9f5cf97c9667 common/parent: add license and copyright
+3567763fd36d9d45ae87c0d048b41da56c5c836c common/parent: don't _fail on missing parent pointer components
+ce7b54532e127b16e41eb6e90391926fd2d61fb4 common/parent: check xfs_io parent command paths
+cb0ca7bd9490d02b474dc8a45060e32ef3173b8e xfs/851: test xfs_io parent -p too
+d93e13adaf6f16ad596b9f4c436b4dda69084954 misc: adjust for parent pointers with namehashes
+a3d2c0122507cd0e982a898368b379d81306809b xfs/021: adjust for short parent pointers with hashes
+9c1bbbe09792510ce29746cf03e37e134f6ef41d xfs/242: fix _filter_bmap for xfs_io bmap that does rt file properly
+dc24ccf06f9e396be613f120ce4f5f1f598529aa xfs/021: adjust for short valuelens
 
---===============7650299949684335615==
+--===============5328713760726719305==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f49f916bbe8f-c5e1fc52452a.txt
+Content-Disposition: attachment; filename=revlist-20bf67c10d54-6e0f6eea8a26.txt
 
-e19c99400cfe67bd5f11d3cfe5587446ed3026ef xfs/122: fix for swapext log items
-5d2aea2b1f6dc3ac84909bbd3c155edccc131aae generic: test old xfs extent swapping ioctl
-815ea93652305f0ebba36b3e0ed48602235b9b1c generic: test new vfs swapext ioctl
-81cbafc4597a0cc59e87eeae99ab7a1c8f2a70e8 generic, xfs: test scatter-gather atomic file updates
-f02d41a7b5cade6bb7f9b4009e787b284283eccf generic: test that file privilege gets dropped with FIEXCHANGE_RANGE
-bf183828b8f4c3caf3d3fd1f96d9f396db7508e5 fsx: support FIEXCHANGE_RANGE
-ae5ac04996c581c9e8b70bacb663ff5708f65e18 fsstress: update for FIEXCHANGE_RANGE
-d8cf497797b015b68e2e60822ba3e5eb2bc5714e xfs: race fsstress with online repair of realtime summary files
-a199f989b6f187e28b789ac69f0dbe3a55c1d572 xfs: race fsstress with online repair of extended attribute data
-249f5a78d3094477c8615cb62fb49ef3aec4f785 xfs: ensure that online directory repairs don't hit EDQUOT
-0999380268abb51a7e9f1cec4da920f5a077bad5 xfs: race fsstress with online repair of dirs and parent pointers
-fc0a397e3ec479a5883fbaba7dea75fd5cbf5ebf xfs: test xfs_scrub dry run, preen, and repair mode
-b3096c996a48960160b72738e5599df808a53260 common/rc: don't clear superblock for zoned scratch pools
-f7765774a1b5cb98c2f21a892e82b3421f40e791 generic/020: fix really long attr test failure for ceph
-c9a8237d8c5fdc4ef2d25a56069ffdcce22b5d4b check: generate section reports between tests
-c4473e90a4fe1b6d0c7cf77d9fcdf22852aea1a3 report: derive an xml schema for the xunit report
-4e77406f99b4624a065d8290b8e45e29adb8b072 report: capture the time zone in the test report timestamp
-e7a36e5fbd4cff148b5642132af261c46bec8d28 report: clarify the meaning of the timestamp attribute
-d203e87a2bcb075677925fa93462a78324ba1423 report: record fstests start and report generation timestamps
-21d1f01c021d75e3faa824dbe6a8dfa2dd609e1a report: encode cdata sections correctly
-a5ee28a4ec13d186e41e461997a31fbf147d8532 report: encode the kernel log as a separate xml element
-959235b87703de1e98238656e84bae561c32b6f0 report: sort properties by name
-2c95da79fbf3a9c7146c1e2fd697f382fbbea069 report: pass property value to _xunit_add_property
-742e144fedcfb383e088eb8e4e484b0a6672dc26 report: encode xml entities in property values
-31dc2c91e727311b181403ecbe57a311eee58eb0 report: collect basic information about a test run
-9902ebd0e0fb4d6327686ffd17f4b40f60ba9f28 report: record optional environment variables
-e8e4bddd474609f0284389f3c2323d9bb6779e65 report: record xfs-specific information about a test run
-2f066c6808adb1d1a1f6682d2eb0740facfecd49 report: record ext*-specific information about a test run
-3c708060bb0c4357649b24c8feadb8dca96dc3e2 report: allow test runners to inject arbitrary values
-fabf5dcd145d1d565e4c9727878f82fcfa099fbe xfs: test scaling of the mkfs concurrency options
-c1d2b42fb29e2137e72393ec8d5bd20a29f4f40f xfs: online fuzz test known output
-9aa1f156168b48d39a62ce45f862a65d3de56f35 xfs: offline fuzz test known output
-6ec145e27e9a54dfde37c9db9875d68313c252b1 xfs: norepair fuzz test known output
-252d09f535865014aeec131bbfb484a561144274 xfs: bothrepair fuzz test known output
-a853d74252e154b561186f2fbc4edce09c1b83e1 misc: privatize the FIEXCHANGE ioctl for now
-ac3655b823541f3bbd6581baf2bbffc47c702c68 misc: update xfs_io swapext usage
-d6f2c6e0e88a5026aa20a9e35ac68e3e336eb0a2 part two of fsstress cycling parent pointers with online repair
-9d6e57d99439051b8286b149ed0289b3404a1728 xfs/004: fix column extraction code
-2b7243feadb791314040d4b868322554cd9940e8 common: make helpers for ttyprintk usage
-8b425e57b6d2e16605a4b5d267ac48269a0b066a xfs: test upgrading old features
-720cd44e24ffa461739e49781c8751c9b8cdc4b3 xfs/122: fix metadirino
-d2f50d13bac80bf92f0e42e70e1d185a483fcf4f various: fix finding metadata inode numbers when metadir is enabled
-3a9e26631305d3d5b7b02c1a1c0c81ee52bd6b3e xfs/{030,033,178}: forcibly disable metadata directory trees
-a590753c3caa28f4f405fc43ac9089a6bc545b32 common/repair: patch up repair sb inode value complaints
-94d91f71981306002c48f781f2fcb7775db3168e xfs/206: update for metadata directory support
-a1f12e21d3040b860e9a0306f1af69d1fed7ac24 xfs/{050,144,153,299,330}: update quota reports to leave out metadir files
-e80adde27d8463eb3b8541a4486258471dfaf95c xfs/856: add metadir upgrade to test matrix
-1c1766350573f7c4f4770a2a2c707a45fcc4b39e xfs/509: adjust inumbers accounting for metadata directories
-0f7d59c9318f5478111678d6d02db1f8d7a15746 xfs: create fuzz tests for metadata directories
-debd441c309700797bc931963a4e448d3061f9a6 xfs: baseline golden output for metadata directory fuzz tests
-b29ef644541b73302f1c837fc360c665ab8e9bc1 common/populate: refactor caching of metadumps to a helper
-2e05c670d52763cffb683dcdbd8ae41449cec1db common/xfs: wipe external logs during mdrestore operations
-b3a1c673f5c048207dfb88a852c6ce4fd0b4c920 common/ext4: reformat external logs during mdrestore operations
-18bf91ea164c28a87dbcbda19078d704fc32d6e4 common/xfs: capture external logs during metadump/mdrestore
-5db43b00908318341316d070852cba1bf6c3e33f xfs/122: update for rtgroups
-f255e694bbe314a3f83eb80d5ad849d668021b07 punch-alternating: detect xfs realtime files with large allocation units
-c0e0898b69ff971cee0bcee60f51da77ad44d497 xfs/206: update mkfs filtering for rt groups feature
-7a0494cf4e4abc035cd3c9cbb5410cde9c576fdc common: pass the realtime device to xfs_db when possible
-eaca8b4a5aca0b0f3ebcfdfda24c106d1e8e9290 common: filter rtgroups when we're disabling metadir
-42545dded44530dfd209d9a09360e20e11ceb668 xfs/185: update for rtgroups
-04365465c86b65a032143f4818c85b458a5a71e6 xfs/449: update test to know about xfs_db -R
-babd2b35aadcdec8b689a9496686a93b819a3453 xfs/122: update for rtbitmap headers
-87a611b7bacf494d7b4826305edfb8b164e8e7ac xfs/122: udpate test to pick up rtword/suminfo ondisk unions
-fb5bc27682e2515fa7e58383732c93f5e5f5da94 xfs/27[46],xfs/556: fix tests to deal with rtgroups output in bmap/fsmap commands
-f21098a98260b6ef51cde6e9a060a375639818c5 common/xfs: capture realtime devices during metadump/mdrestore
-f75eed08daa154344645a83426c3b056469d33fc common/fuzzy: adapt the scrub stress tests to support rtgroups
-9b8c374e47902fa305a5c713b58e9fb4502ad084 xfs: refactor statfs field extraction
-20bf67c10d5495560bfe05f0e8cdec31d6c8061a generic/260: compute maximum fitrim offset
-603f7fe264e2c0b650e4a54e455b5f93085bc826 xfs: fix tests that try to access the realtime rmap inode
-4e876ffec1e72f5be51fa91093e56737a6fbd7ae fuzz: for fuzzing the rtrmapbt, find the path to the rt rmap btree file
-c19e7c1c1a106dbb8e3cc44e9442ddfcfaa914f2 xfs: race fsstress with realtime rmap btree scrub and repair
-34522c16fe79b1c551e6fef8771ed4b766e27e9a xfs/856: add rtrmapbt upgrade to test matrix
-e44fe92a6b56c284a000a4776eb0bdd6d51d5507 xfs/122: update for rtgroups-based realtime rmap btrees
-c1bc17216efbae32cc9a893a37df70d37c4332c8 xfs: fix various problems with fsmap detecting the data device
-24d7998139332c63ea27d8588b4c5f50a61eceaa xfs/341: update test for rtgroup-based rmap
-619c45185c9e71ef9f28df59a8ace6327b050e39 xfs/3{43,32}: adapt tests for rt extent size greater than 1
-e4e0d5b25cf3cb70d211f7241ac0ab68f3a636e0 xfs: skip tests if formatting small filesystem fails
-dcfb16341bd917ebf40300486e50c80bd1fba25f xfs/443: use file allocation unit, not dbsize
-361003395f75e0651f1dc66341543e68e9b2a22d populate: adjust rtrmap calculations for rtgroups
-c75f6e6c2283644c4b63283baabb2b93bbc92f2e populate: check that we created a realtime rmap btree of the given height
-d3facc8e97762b8aa85e4445db91e2a348d2c3a6 fuzzy: create missing fuzz tests for rt rmap btrees
-a8a65edf8b525a4b18a9246990ae218e3eb85421 fuzzy: create known output for rt rmap btree fuzz tests
-89d3d26536cd219ceaa10947741da4d1778de7fb xfs/122: update fields for realtime reflink
-9373f3da6f443eed115814b4fa8ed7e2a303d42c common/populate: create realtime refcount btree
-a69804c1d785b393be78660bcedfbff63524e13f xfs: create fuzz tests for the realtime refcount btree
-c9ff465a55a0113e940f94908d271329b7a1241e xfs/27[24]: adapt for checking files on the realtime volume
-db1adfb83a7c40438979b32d81d587cf8bf9364b xfs/243: don't run when realtime storage is the default
-8c87c55e1541005dc7ce421cb2ef1059240987fc xfs: race fsstress with realtime refcount btree scrub and repair
-424b3346b6724469fda09ab9190e951b5b290b44 xfs: remove xfs/131 now that we allow reflink on realtime volumes
-56ebebafce6b05d3fbc17f786062dc973e516a90 xfs/856: add rtreflink upgrade to test matrix
-8379ca11722dfe043195d224bef2de92c4a6ea54 generic/331,xfs/240: support files that skip delayed allocation
-78efe2e701b92fac8a18091021de4b83444e4c92 common/xfs: fix _xfs_get_file_block_size when rtinherit is set and no rt section
-621755b246070dba55955fc50053620209da2d43 xfs: baseline golden output for rt refcount btree fuzz tests
-000c7df73f33f89b14af715410c3c4470cd3032e xfs: make sure that CoW will write around when rextsize > 1
-95166c4299584d5cf83e71abd537898aa8f77546 xfs: skip cowextsize hint fragmentation tests on realtime volumes
-8cc9c13ae7330065753c8cbf2f4c4f5fc4234dbc misc: add more congruent oplen testing
-7d1f5cc90c8b3f466735c9ec2e56b4ee9f66d5df generic/303: avoid test failures on weird rt extent sizes
-5b3c32b3611aa42624f0e353162a1d03b61ba59e xfs: regression testing of quota on the realtime device
-21d5f7c2a36a0802432cf65a84d44d1114d2e458 xfs/122: update for vectored scrub
-f961fb62429f00320f10eb77bbe5536cea53eacf xfs: test output of new FSREFCOUNTS ioctl
-94a97103b131b03c2250d5ccddaff66202593b4f xfs: test clearing of free space
-d7f9ef20b51294edbb1937b42030573ede360789 xfs/122: update for parent pointers
-d2e04c4c961f9d6fe14b4b96fb8278b5c48db05c populate: create hardlinks for parent pointers
-75e47e5cb0bde3933b5ebd6f2bdc8be462c373c2 xfs/021: adapt golden output files for parent pointers
-820806fd4e4d14380afeb1faf37237721cce9eb5 generic/050: adapt for parent pointers
-90814b32b14ef527c65176f655d7971063d07f4f xfs/018: disable parent pointers for this test
-aa219538584b372271f4ab991268cf9ce79a7deb xfs/306: fix formatting failures with parent pointers
-0edd96399c96e3ed1917ea8ff0b88179024409b2 common: add helpers for parent pointer tests
-948dc572e0bb22e363e5145c8e664a746346e70a xfs: add parent pointer test
-267ba94570b88f3f8da369a74aef5ae2ea9254fb xfs: add multi link parent pointer test
-c7e00e5bba9f54b94706defa858fc2bf86bc1538 xfs: add parent pointer inject test
-c07d828143139c6a1b4fab50747ec8f068221d66 common/parent: add license and copyright
-c552b1fb2bd9f77e260c7949fe968f3d1a6a6922 common/parent: don't _fail on missing parent pointer components
-3601850ded06adac8d13c1a2b7149e985a320afd common/parent: check xfs_io parent command paths
-dd1acacf6060a0fcd25f20216d81f5c86b5e7d5d xfs/851: test xfs_io parent -p too
-5edfcd982954fa09d97b566286760d69a702799d misc: adjust for parent pointers with namehashes
-31ff2043fcc85d07e2cd69e58fa306fe881ebd4a xfs/021: adjust for short parent pointers with hashes
-70760dc0f4246705b8be4d1f9bf63087893f9068 xfs/242: fix _filter_bmap for xfs_io bmap that does rt file properly
-c5e1fc52452ae402041eef9cdfcfec96b817be44 xfs/021: adjust for short valuelens
+a20990a0481571d5cb2d2294c9449ebb317a2b2f check: generate section reports between tests
+7e8a291e3bdf25bd57498131d86925bdc380837d report: derive an xml schema for the xunit report
+36c554feac175a5967ef70bab6904315c190484c report: capture the time zone in the test report timestamp
+f7367629f92fe4e90fd1f0764a919a841515a44f report: clarify the meaning of the timestamp attribute
+36c275a1500e88a7c09cc5108437dcbc40e6faeb report: record fstests start and report generation timestamps
+fc9f173562f94ffbeb432db5c0665c4e2ac49737 report: encode cdata sections correctly
+46e9c212bf8ba024f7d0eb1293e90f4df40a3fbe report: encode the kernel log as a separate xml element
+b9b05ccd3ff760be88ab3a9814113d7a519fc71f report: sort properties by name
+de57f6161f14ac071178f663d0634f210c1224e8 report: pass property value to _xunit_add_property
+6c65bb263b3304691eac93ff871ab7f0a5af29ad report: encode xml entities in property values
+57c3db4f694fe0b6bfaccd43efefbed965857fb9 report: collect basic information about a test run
+68b87376a7c82e114ab0af81414a2d102c0e5757 report: record optional environment variables
+b2f466196d7f510f9f51595423b8096ca1b84351 report: record xfs-specific information about a test run
+dcbe83cc7e5aa5e4c84492626e0ac1fa5b10bdff report: record ext*-specific information about a test run
+7e5db626c7e5f9adedff38e6fe2e4c3551e1007e report: allow test runners to inject arbitrary values
+4c0118d037c31479403f5890cfcd9b260bfa56eb xfs: test scaling of the mkfs concurrency options
+ec1ffd84a6a3cf87ca11ffeb3e34d13b60438074 xfs: online fuzz test known output
+f4ce31788d2a084db43c1af26f74b8dad0f01d1a xfs: offline fuzz test known output
+7df0d95f9957e231d90a47e3d147b0ed9113b244 xfs: norepair fuzz test known output
+422872dd54a6df272d47fb3c5e289ecc736391dd xfs: bothrepair fuzz test known output
+ce72ac0fca3b751516f5fddc5f0df3d72372a472 misc: privatize the FIEXCHANGE ioctl for now
+7e67f2a222f333adbb86fe105be3ae0b1c4b5577 misc: update xfs_io swapext usage
+d9cb58b671bcfce853e716f50c660a5e1ed88198 xfs: stress test cycling parent pointers with online repair
+25393397b78452f014b3c7fdee797ea23bb2269e xfs/004: fix column extraction code
+9e2feaeb8d07259790db23cf18b8a9eea5b682fd common: make helpers for ttyprintk usage
+e56c8eb1933658c280cb604595c1067980991f68 xfs: test upgrading old features
+c65e4803dab28d7dbb7ae1e96df2db7bdee07b4d xfs/122: fix metadirino
+5af7921255b08b9eb3eca99b2d6fd5d166267b98 various: fix finding metadata inode numbers when metadir is enabled
+df5a1a3d37996f57ec165f98e2e024cca8ebd857 xfs/{030,033,178}: forcibly disable metadata directory trees
+07f8c92951954d0f1cdb1e6ee3a495d2b2df59a6 common/repair: patch up repair sb inode value complaints
+c98190fca1519fb1d908d89ce1b988dbe9ea2e11 xfs/206: update for metadata directory support
+7918167f182ca8eebb738d37af161a91c5278e04 xfs/{050,144,153,299,330}: update quota reports to leave out metadir files
+96962db6498f5a049b2073d5b21bace04ecdb7cb xfs/856: add metadir upgrade to test matrix
+550cbdb4c9ffa8a03e62fdd995affd230cb0a5ac xfs/509: adjust inumbers accounting for metadata directories
+dfff28f84a609505f9d8c8aa1e92bacefd6b5918 xfs: create fuzz tests for metadata directories
+15486b67ae5468f6e5d52b52c51ee503eab73c67 xfs: baseline golden output for metadata directory fuzz tests
+cb27bb41e76f3438f0afbece822efb97a18a19e7 common/populate: refactor caching of metadumps to a helper
+34064dd2ef5a5e990192e617e57ce3efefcf12b4 common/xfs: wipe external logs during mdrestore operations
+c93188aac558742f4c681f46f31820abbf0a7a1e common/ext4: reformat external logs during mdrestore operations
+98c20a8ac153b402dc09f0779f5c287c2dca59b3 common/xfs: capture external logs during metadump/mdrestore
+8859356f1abd784ca884250e7470e76fac59e85c xfs/122: update for rtgroups
+38533bab4a6974820f7a29af5b937ae54727ccd9 punch-alternating: detect xfs realtime files with large allocation units
+2e01db287abdf75ae928b8e5d17ec931d38bc72c xfs/206: update mkfs filtering for rt groups feature
+46f6c37fa56657d76f225acd17746ed3e2a30a8f common: pass the realtime device to xfs_db when possible
+89b1d9514a1c61291791ec6fb8e55ec4d7ca31a2 common: filter rtgroups when we're disabling metadir
+bf5451f7e9a29d3608702a70a7983b15fc54962f xfs/185: update for rtgroups
+f2dbe68e794433fd04046f0318edcf00cb4011fa xfs/449: update test to know about xfs_db -R
+d1baa9ac941e78b5824c792a8db8ef64c27db73c xfs/122: update for rtbitmap headers
+bbf8cf6c39c8d12e8dff3d06aa58f6d601015d39 xfs/122: udpate test to pick up rtword/suminfo ondisk unions
+4a80848e05d8b1bd37ab79dcaf941c6ccdcb638b xfs/27[46],xfs/556: fix tests to deal with rtgroups output in bmap/fsmap commands
+a6b97e330d99bc7e0b7c5c7e5ddf8a1fb9955a84 common/xfs: capture realtime devices during metadump/mdrestore
+d93697f0a0643abc9b2375119ea5304939b4157a common/fuzzy: adapt the scrub stress tests to support rtgroups
+679da0364e365cdd2501f66bb38d9e38eb09db22 xfs: refactor statfs field extraction
+6e0f6eea8a263a1adbccf54891f23cc61c3a9275 generic/260: compute maximum fitrim offset
 
---===============7650299949684335615==
+--===============5328713760726719305==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a485789ac9d1-20bf67c10d54.txt
+Content-Disposition: attachment; filename=revlist-f75eed08daa1-d93697f0a064.txt
 
-e19c99400cfe67bd5f11d3cfe5587446ed3026ef xfs/122: fix for swapext log items
-5d2aea2b1f6dc3ac84909bbd3c155edccc131aae generic: test old xfs extent swapping ioctl
-815ea93652305f0ebba36b3e0ed48602235b9b1c generic: test new vfs swapext ioctl
-81cbafc4597a0cc59e87eeae99ab7a1c8f2a70e8 generic, xfs: test scatter-gather atomic file updates
-f02d41a7b5cade6bb7f9b4009e787b284283eccf generic: test that file privilege gets dropped with FIEXCHANGE_RANGE
-bf183828b8f4c3caf3d3fd1f96d9f396db7508e5 fsx: support FIEXCHANGE_RANGE
-ae5ac04996c581c9e8b70bacb663ff5708f65e18 fsstress: update for FIEXCHANGE_RANGE
-d8cf497797b015b68e2e60822ba3e5eb2bc5714e xfs: race fsstress with online repair of realtime summary files
-a199f989b6f187e28b789ac69f0dbe3a55c1d572 xfs: race fsstress with online repair of extended attribute data
-249f5a78d3094477c8615cb62fb49ef3aec4f785 xfs: ensure that online directory repairs don't hit EDQUOT
-0999380268abb51a7e9f1cec4da920f5a077bad5 xfs: race fsstress with online repair of dirs and parent pointers
-fc0a397e3ec479a5883fbaba7dea75fd5cbf5ebf xfs: test xfs_scrub dry run, preen, and repair mode
-b3096c996a48960160b72738e5599df808a53260 common/rc: don't clear superblock for zoned scratch pools
-f7765774a1b5cb98c2f21a892e82b3421f40e791 generic/020: fix really long attr test failure for ceph
-c9a8237d8c5fdc4ef2d25a56069ffdcce22b5d4b check: generate section reports between tests
-c4473e90a4fe1b6d0c7cf77d9fcdf22852aea1a3 report: derive an xml schema for the xunit report
-4e77406f99b4624a065d8290b8e45e29adb8b072 report: capture the time zone in the test report timestamp
-e7a36e5fbd4cff148b5642132af261c46bec8d28 report: clarify the meaning of the timestamp attribute
-d203e87a2bcb075677925fa93462a78324ba1423 report: record fstests start and report generation timestamps
-21d1f01c021d75e3faa824dbe6a8dfa2dd609e1a report: encode cdata sections correctly
-a5ee28a4ec13d186e41e461997a31fbf147d8532 report: encode the kernel log as a separate xml element
-959235b87703de1e98238656e84bae561c32b6f0 report: sort properties by name
-2c95da79fbf3a9c7146c1e2fd697f382fbbea069 report: pass property value to _xunit_add_property
-742e144fedcfb383e088eb8e4e484b0a6672dc26 report: encode xml entities in property values
-31dc2c91e727311b181403ecbe57a311eee58eb0 report: collect basic information about a test run
-9902ebd0e0fb4d6327686ffd17f4b40f60ba9f28 report: record optional environment variables
-e8e4bddd474609f0284389f3c2323d9bb6779e65 report: record xfs-specific information about a test run
-2f066c6808adb1d1a1f6682d2eb0740facfecd49 report: record ext*-specific information about a test run
-3c708060bb0c4357649b24c8feadb8dca96dc3e2 report: allow test runners to inject arbitrary values
-fabf5dcd145d1d565e4c9727878f82fcfa099fbe xfs: test scaling of the mkfs concurrency options
-c1d2b42fb29e2137e72393ec8d5bd20a29f4f40f xfs: online fuzz test known output
-9aa1f156168b48d39a62ce45f862a65d3de56f35 xfs: offline fuzz test known output
-6ec145e27e9a54dfde37c9db9875d68313c252b1 xfs: norepair fuzz test known output
-252d09f535865014aeec131bbfb484a561144274 xfs: bothrepair fuzz test known output
-a853d74252e154b561186f2fbc4edce09c1b83e1 misc: privatize the FIEXCHANGE ioctl for now
-ac3655b823541f3bbd6581baf2bbffc47c702c68 misc: update xfs_io swapext usage
-d6f2c6e0e88a5026aa20a9e35ac68e3e336eb0a2 part two of fsstress cycling parent pointers with online repair
-9d6e57d99439051b8286b149ed0289b3404a1728 xfs/004: fix column extraction code
-2b7243feadb791314040d4b868322554cd9940e8 common: make helpers for ttyprintk usage
-8b425e57b6d2e16605a4b5d267ac48269a0b066a xfs: test upgrading old features
-720cd44e24ffa461739e49781c8751c9b8cdc4b3 xfs/122: fix metadirino
-d2f50d13bac80bf92f0e42e70e1d185a483fcf4f various: fix finding metadata inode numbers when metadir is enabled
-3a9e26631305d3d5b7b02c1a1c0c81ee52bd6b3e xfs/{030,033,178}: forcibly disable metadata directory trees
-a590753c3caa28f4f405fc43ac9089a6bc545b32 common/repair: patch up repair sb inode value complaints
-94d91f71981306002c48f781f2fcb7775db3168e xfs/206: update for metadata directory support
-a1f12e21d3040b860e9a0306f1af69d1fed7ac24 xfs/{050,144,153,299,330}: update quota reports to leave out metadir files
-e80adde27d8463eb3b8541a4486258471dfaf95c xfs/856: add metadir upgrade to test matrix
-1c1766350573f7c4f4770a2a2c707a45fcc4b39e xfs/509: adjust inumbers accounting for metadata directories
-0f7d59c9318f5478111678d6d02db1f8d7a15746 xfs: create fuzz tests for metadata directories
-debd441c309700797bc931963a4e448d3061f9a6 xfs: baseline golden output for metadata directory fuzz tests
-b29ef644541b73302f1c837fc360c665ab8e9bc1 common/populate: refactor caching of metadumps to a helper
-2e05c670d52763cffb683dcdbd8ae41449cec1db common/xfs: wipe external logs during mdrestore operations
-b3a1c673f5c048207dfb88a852c6ce4fd0b4c920 common/ext4: reformat external logs during mdrestore operations
-18bf91ea164c28a87dbcbda19078d704fc32d6e4 common/xfs: capture external logs during metadump/mdrestore
-5db43b00908318341316d070852cba1bf6c3e33f xfs/122: update for rtgroups
-f255e694bbe314a3f83eb80d5ad849d668021b07 punch-alternating: detect xfs realtime files with large allocation units
-c0e0898b69ff971cee0bcee60f51da77ad44d497 xfs/206: update mkfs filtering for rt groups feature
-7a0494cf4e4abc035cd3c9cbb5410cde9c576fdc common: pass the realtime device to xfs_db when possible
-eaca8b4a5aca0b0f3ebcfdfda24c106d1e8e9290 common: filter rtgroups when we're disabling metadir
-42545dded44530dfd209d9a09360e20e11ceb668 xfs/185: update for rtgroups
-04365465c86b65a032143f4818c85b458a5a71e6 xfs/449: update test to know about xfs_db -R
-babd2b35aadcdec8b689a9496686a93b819a3453 xfs/122: update for rtbitmap headers
-87a611b7bacf494d7b4826305edfb8b164e8e7ac xfs/122: udpate test to pick up rtword/suminfo ondisk unions
-fb5bc27682e2515fa7e58383732c93f5e5f5da94 xfs/27[46],xfs/556: fix tests to deal with rtgroups output in bmap/fsmap commands
-f21098a98260b6ef51cde6e9a060a375639818c5 common/xfs: capture realtime devices during metadump/mdrestore
-f75eed08daa154344645a83426c3b056469d33fc common/fuzzy: adapt the scrub stress tests to support rtgroups
-9b8c374e47902fa305a5c713b58e9fb4502ad084 xfs: refactor statfs field extraction
-20bf67c10d5495560bfe05f0e8cdec31d6c8061a generic/260: compute maximum fitrim offset
+a20990a0481571d5cb2d2294c9449ebb317a2b2f check: generate section reports between tests
+7e8a291e3bdf25bd57498131d86925bdc380837d report: derive an xml schema for the xunit report
+36c554feac175a5967ef70bab6904315c190484c report: capture the time zone in the test report timestamp
+f7367629f92fe4e90fd1f0764a919a841515a44f report: clarify the meaning of the timestamp attribute
+36c275a1500e88a7c09cc5108437dcbc40e6faeb report: record fstests start and report generation timestamps
+fc9f173562f94ffbeb432db5c0665c4e2ac49737 report: encode cdata sections correctly
+46e9c212bf8ba024f7d0eb1293e90f4df40a3fbe report: encode the kernel log as a separate xml element
+b9b05ccd3ff760be88ab3a9814113d7a519fc71f report: sort properties by name
+de57f6161f14ac071178f663d0634f210c1224e8 report: pass property value to _xunit_add_property
+6c65bb263b3304691eac93ff871ab7f0a5af29ad report: encode xml entities in property values
+57c3db4f694fe0b6bfaccd43efefbed965857fb9 report: collect basic information about a test run
+68b87376a7c82e114ab0af81414a2d102c0e5757 report: record optional environment variables
+b2f466196d7f510f9f51595423b8096ca1b84351 report: record xfs-specific information about a test run
+dcbe83cc7e5aa5e4c84492626e0ac1fa5b10bdff report: record ext*-specific information about a test run
+7e5db626c7e5f9adedff38e6fe2e4c3551e1007e report: allow test runners to inject arbitrary values
+4c0118d037c31479403f5890cfcd9b260bfa56eb xfs: test scaling of the mkfs concurrency options
+ec1ffd84a6a3cf87ca11ffeb3e34d13b60438074 xfs: online fuzz test known output
+f4ce31788d2a084db43c1af26f74b8dad0f01d1a xfs: offline fuzz test known output
+7df0d95f9957e231d90a47e3d147b0ed9113b244 xfs: norepair fuzz test known output
+422872dd54a6df272d47fb3c5e289ecc736391dd xfs: bothrepair fuzz test known output
+ce72ac0fca3b751516f5fddc5f0df3d72372a472 misc: privatize the FIEXCHANGE ioctl for now
+7e67f2a222f333adbb86fe105be3ae0b1c4b5577 misc: update xfs_io swapext usage
+d9cb58b671bcfce853e716f50c660a5e1ed88198 xfs: stress test cycling parent pointers with online repair
+25393397b78452f014b3c7fdee797ea23bb2269e xfs/004: fix column extraction code
+9e2feaeb8d07259790db23cf18b8a9eea5b682fd common: make helpers for ttyprintk usage
+e56c8eb1933658c280cb604595c1067980991f68 xfs: test upgrading old features
+c65e4803dab28d7dbb7ae1e96df2db7bdee07b4d xfs/122: fix metadirino
+5af7921255b08b9eb3eca99b2d6fd5d166267b98 various: fix finding metadata inode numbers when metadir is enabled
+df5a1a3d37996f57ec165f98e2e024cca8ebd857 xfs/{030,033,178}: forcibly disable metadata directory trees
+07f8c92951954d0f1cdb1e6ee3a495d2b2df59a6 common/repair: patch up repair sb inode value complaints
+c98190fca1519fb1d908d89ce1b988dbe9ea2e11 xfs/206: update for metadata directory support
+7918167f182ca8eebb738d37af161a91c5278e04 xfs/{050,144,153,299,330}: update quota reports to leave out metadir files
+96962db6498f5a049b2073d5b21bace04ecdb7cb xfs/856: add metadir upgrade to test matrix
+550cbdb4c9ffa8a03e62fdd995affd230cb0a5ac xfs/509: adjust inumbers accounting for metadata directories
+dfff28f84a609505f9d8c8aa1e92bacefd6b5918 xfs: create fuzz tests for metadata directories
+15486b67ae5468f6e5d52b52c51ee503eab73c67 xfs: baseline golden output for metadata directory fuzz tests
+cb27bb41e76f3438f0afbece822efb97a18a19e7 common/populate: refactor caching of metadumps to a helper
+34064dd2ef5a5e990192e617e57ce3efefcf12b4 common/xfs: wipe external logs during mdrestore operations
+c93188aac558742f4c681f46f31820abbf0a7a1e common/ext4: reformat external logs during mdrestore operations
+98c20a8ac153b402dc09f0779f5c287c2dca59b3 common/xfs: capture external logs during metadump/mdrestore
+8859356f1abd784ca884250e7470e76fac59e85c xfs/122: update for rtgroups
+38533bab4a6974820f7a29af5b937ae54727ccd9 punch-alternating: detect xfs realtime files with large allocation units
+2e01db287abdf75ae928b8e5d17ec931d38bc72c xfs/206: update mkfs filtering for rt groups feature
+46f6c37fa56657d76f225acd17746ed3e2a30a8f common: pass the realtime device to xfs_db when possible
+89b1d9514a1c61291791ec6fb8e55ec4d7ca31a2 common: filter rtgroups when we're disabling metadir
+bf5451f7e9a29d3608702a70a7983b15fc54962f xfs/185: update for rtgroups
+f2dbe68e794433fd04046f0318edcf00cb4011fa xfs/449: update test to know about xfs_db -R
+d1baa9ac941e78b5824c792a8db8ef64c27db73c xfs/122: update for rtbitmap headers
+bbf8cf6c39c8d12e8dff3d06aa58f6d601015d39 xfs/122: udpate test to pick up rtword/suminfo ondisk unions
+4a80848e05d8b1bd37ab79dcaf941c6ccdcb638b xfs/27[46],xfs/556: fix tests to deal with rtgroups output in bmap/fsmap commands
+a6b97e330d99bc7e0b7c5c7e5ddf8a1fb9955a84 common/xfs: capture realtime devices during metadump/mdrestore
+d93697f0a0643abc9b2375119ea5304939b4157a common/fuzzy: adapt the scrub stress tests to support rtgroups
 
---===============7650299949684335615==
+--===============5328713760726719305==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f03808563b8f-f75eed08daa1.txt
+Content-Disposition: attachment; filename=revlist-5b3c32b3611a-c43deb86e7e2.txt
 
-e19c99400cfe67bd5f11d3cfe5587446ed3026ef xfs/122: fix for swapext log items
-5d2aea2b1f6dc3ac84909bbd3c155edccc131aae generic: test old xfs extent swapping ioctl
-815ea93652305f0ebba36b3e0ed48602235b9b1c generic: test new vfs swapext ioctl
-81cbafc4597a0cc59e87eeae99ab7a1c8f2a70e8 generic, xfs: test scatter-gather atomic file updates
-f02d41a7b5cade6bb7f9b4009e787b284283eccf generic: test that file privilege gets dropped with FIEXCHANGE_RANGE
-bf183828b8f4c3caf3d3fd1f96d9f396db7508e5 fsx: support FIEXCHANGE_RANGE
-ae5ac04996c581c9e8b70bacb663ff5708f65e18 fsstress: update for FIEXCHANGE_RANGE
-d8cf497797b015b68e2e60822ba3e5eb2bc5714e xfs: race fsstress with online repair of realtime summary files
-a199f989b6f187e28b789ac69f0dbe3a55c1d572 xfs: race fsstress with online repair of extended attribute data
-249f5a78d3094477c8615cb62fb49ef3aec4f785 xfs: ensure that online directory repairs don't hit EDQUOT
-0999380268abb51a7e9f1cec4da920f5a077bad5 xfs: race fsstress with online repair of dirs and parent pointers
-fc0a397e3ec479a5883fbaba7dea75fd5cbf5ebf xfs: test xfs_scrub dry run, preen, and repair mode
-b3096c996a48960160b72738e5599df808a53260 common/rc: don't clear superblock for zoned scratch pools
-f7765774a1b5cb98c2f21a892e82b3421f40e791 generic/020: fix really long attr test failure for ceph
-c9a8237d8c5fdc4ef2d25a56069ffdcce22b5d4b check: generate section reports between tests
-c4473e90a4fe1b6d0c7cf77d9fcdf22852aea1a3 report: derive an xml schema for the xunit report
-4e77406f99b4624a065d8290b8e45e29adb8b072 report: capture the time zone in the test report timestamp
-e7a36e5fbd4cff148b5642132af261c46bec8d28 report: clarify the meaning of the timestamp attribute
-d203e87a2bcb075677925fa93462a78324ba1423 report: record fstests start and report generation timestamps
-21d1f01c021d75e3faa824dbe6a8dfa2dd609e1a report: encode cdata sections correctly
-a5ee28a4ec13d186e41e461997a31fbf147d8532 report: encode the kernel log as a separate xml element
-959235b87703de1e98238656e84bae561c32b6f0 report: sort properties by name
-2c95da79fbf3a9c7146c1e2fd697f382fbbea069 report: pass property value to _xunit_add_property
-742e144fedcfb383e088eb8e4e484b0a6672dc26 report: encode xml entities in property values
-31dc2c91e727311b181403ecbe57a311eee58eb0 report: collect basic information about a test run
-9902ebd0e0fb4d6327686ffd17f4b40f60ba9f28 report: record optional environment variables
-e8e4bddd474609f0284389f3c2323d9bb6779e65 report: record xfs-specific information about a test run
-2f066c6808adb1d1a1f6682d2eb0740facfecd49 report: record ext*-specific information about a test run
-3c708060bb0c4357649b24c8feadb8dca96dc3e2 report: allow test runners to inject arbitrary values
-fabf5dcd145d1d565e4c9727878f82fcfa099fbe xfs: test scaling of the mkfs concurrency options
-c1d2b42fb29e2137e72393ec8d5bd20a29f4f40f xfs: online fuzz test known output
-9aa1f156168b48d39a62ce45f862a65d3de56f35 xfs: offline fuzz test known output
-6ec145e27e9a54dfde37c9db9875d68313c252b1 xfs: norepair fuzz test known output
-252d09f535865014aeec131bbfb484a561144274 xfs: bothrepair fuzz test known output
-a853d74252e154b561186f2fbc4edce09c1b83e1 misc: privatize the FIEXCHANGE ioctl for now
-ac3655b823541f3bbd6581baf2bbffc47c702c68 misc: update xfs_io swapext usage
-d6f2c6e0e88a5026aa20a9e35ac68e3e336eb0a2 part two of fsstress cycling parent pointers with online repair
-9d6e57d99439051b8286b149ed0289b3404a1728 xfs/004: fix column extraction code
-2b7243feadb791314040d4b868322554cd9940e8 common: make helpers for ttyprintk usage
-8b425e57b6d2e16605a4b5d267ac48269a0b066a xfs: test upgrading old features
-720cd44e24ffa461739e49781c8751c9b8cdc4b3 xfs/122: fix metadirino
-d2f50d13bac80bf92f0e42e70e1d185a483fcf4f various: fix finding metadata inode numbers when metadir is enabled
-3a9e26631305d3d5b7b02c1a1c0c81ee52bd6b3e xfs/{030,033,178}: forcibly disable metadata directory trees
-a590753c3caa28f4f405fc43ac9089a6bc545b32 common/repair: patch up repair sb inode value complaints
-94d91f71981306002c48f781f2fcb7775db3168e xfs/206: update for metadata directory support
-a1f12e21d3040b860e9a0306f1af69d1fed7ac24 xfs/{050,144,153,299,330}: update quota reports to leave out metadir files
-e80adde27d8463eb3b8541a4486258471dfaf95c xfs/856: add metadir upgrade to test matrix
-1c1766350573f7c4f4770a2a2c707a45fcc4b39e xfs/509: adjust inumbers accounting for metadata directories
-0f7d59c9318f5478111678d6d02db1f8d7a15746 xfs: create fuzz tests for metadata directories
-debd441c309700797bc931963a4e448d3061f9a6 xfs: baseline golden output for metadata directory fuzz tests
-b29ef644541b73302f1c837fc360c665ab8e9bc1 common/populate: refactor caching of metadumps to a helper
-2e05c670d52763cffb683dcdbd8ae41449cec1db common/xfs: wipe external logs during mdrestore operations
-b3a1c673f5c048207dfb88a852c6ce4fd0b4c920 common/ext4: reformat external logs during mdrestore operations
-18bf91ea164c28a87dbcbda19078d704fc32d6e4 common/xfs: capture external logs during metadump/mdrestore
-5db43b00908318341316d070852cba1bf6c3e33f xfs/122: update for rtgroups
-f255e694bbe314a3f83eb80d5ad849d668021b07 punch-alternating: detect xfs realtime files with large allocation units
-c0e0898b69ff971cee0bcee60f51da77ad44d497 xfs/206: update mkfs filtering for rt groups feature
-7a0494cf4e4abc035cd3c9cbb5410cde9c576fdc common: pass the realtime device to xfs_db when possible
-eaca8b4a5aca0b0f3ebcfdfda24c106d1e8e9290 common: filter rtgroups when we're disabling metadir
-42545dded44530dfd209d9a09360e20e11ceb668 xfs/185: update for rtgroups
-04365465c86b65a032143f4818c85b458a5a71e6 xfs/449: update test to know about xfs_db -R
-babd2b35aadcdec8b689a9496686a93b819a3453 xfs/122: update for rtbitmap headers
-87a611b7bacf494d7b4826305edfb8b164e8e7ac xfs/122: udpate test to pick up rtword/suminfo ondisk unions
-fb5bc27682e2515fa7e58383732c93f5e5f5da94 xfs/27[46],xfs/556: fix tests to deal with rtgroups output in bmap/fsmap commands
-f21098a98260b6ef51cde6e9a060a375639818c5 common/xfs: capture realtime devices during metadump/mdrestore
-f75eed08daa154344645a83426c3b056469d33fc common/fuzzy: adapt the scrub stress tests to support rtgroups
+a20990a0481571d5cb2d2294c9449ebb317a2b2f check: generate section reports between tests
+7e8a291e3bdf25bd57498131d86925bdc380837d report: derive an xml schema for the xunit report
+36c554feac175a5967ef70bab6904315c190484c report: capture the time zone in the test report timestamp
+f7367629f92fe4e90fd1f0764a919a841515a44f report: clarify the meaning of the timestamp attribute
+36c275a1500e88a7c09cc5108437dcbc40e6faeb report: record fstests start and report generation timestamps
+fc9f173562f94ffbeb432db5c0665c4e2ac49737 report: encode cdata sections correctly
+46e9c212bf8ba024f7d0eb1293e90f4df40a3fbe report: encode the kernel log as a separate xml element
+b9b05ccd3ff760be88ab3a9814113d7a519fc71f report: sort properties by name
+de57f6161f14ac071178f663d0634f210c1224e8 report: pass property value to _xunit_add_property
+6c65bb263b3304691eac93ff871ab7f0a5af29ad report: encode xml entities in property values
+57c3db4f694fe0b6bfaccd43efefbed965857fb9 report: collect basic information about a test run
+68b87376a7c82e114ab0af81414a2d102c0e5757 report: record optional environment variables
+b2f466196d7f510f9f51595423b8096ca1b84351 report: record xfs-specific information about a test run
+dcbe83cc7e5aa5e4c84492626e0ac1fa5b10bdff report: record ext*-specific information about a test run
+7e5db626c7e5f9adedff38e6fe2e4c3551e1007e report: allow test runners to inject arbitrary values
+4c0118d037c31479403f5890cfcd9b260bfa56eb xfs: test scaling of the mkfs concurrency options
+ec1ffd84a6a3cf87ca11ffeb3e34d13b60438074 xfs: online fuzz test known output
+f4ce31788d2a084db43c1af26f74b8dad0f01d1a xfs: offline fuzz test known output
+7df0d95f9957e231d90a47e3d147b0ed9113b244 xfs: norepair fuzz test known output
+422872dd54a6df272d47fb3c5e289ecc736391dd xfs: bothrepair fuzz test known output
+ce72ac0fca3b751516f5fddc5f0df3d72372a472 misc: privatize the FIEXCHANGE ioctl for now
+7e67f2a222f333adbb86fe105be3ae0b1c4b5577 misc: update xfs_io swapext usage
+d9cb58b671bcfce853e716f50c660a5e1ed88198 xfs: stress test cycling parent pointers with online repair
+25393397b78452f014b3c7fdee797ea23bb2269e xfs/004: fix column extraction code
+9e2feaeb8d07259790db23cf18b8a9eea5b682fd common: make helpers for ttyprintk usage
+e56c8eb1933658c280cb604595c1067980991f68 xfs: test upgrading old features
+c65e4803dab28d7dbb7ae1e96df2db7bdee07b4d xfs/122: fix metadirino
+5af7921255b08b9eb3eca99b2d6fd5d166267b98 various: fix finding metadata inode numbers when metadir is enabled
+df5a1a3d37996f57ec165f98e2e024cca8ebd857 xfs/{030,033,178}: forcibly disable metadata directory trees
+07f8c92951954d0f1cdb1e6ee3a495d2b2df59a6 common/repair: patch up repair sb inode value complaints
+c98190fca1519fb1d908d89ce1b988dbe9ea2e11 xfs/206: update for metadata directory support
+7918167f182ca8eebb738d37af161a91c5278e04 xfs/{050,144,153,299,330}: update quota reports to leave out metadir files
+96962db6498f5a049b2073d5b21bace04ecdb7cb xfs/856: add metadir upgrade to test matrix
+550cbdb4c9ffa8a03e62fdd995affd230cb0a5ac xfs/509: adjust inumbers accounting for metadata directories
+dfff28f84a609505f9d8c8aa1e92bacefd6b5918 xfs: create fuzz tests for metadata directories
+15486b67ae5468f6e5d52b52c51ee503eab73c67 xfs: baseline golden output for metadata directory fuzz tests
+cb27bb41e76f3438f0afbece822efb97a18a19e7 common/populate: refactor caching of metadumps to a helper
+34064dd2ef5a5e990192e617e57ce3efefcf12b4 common/xfs: wipe external logs during mdrestore operations
+c93188aac558742f4c681f46f31820abbf0a7a1e common/ext4: reformat external logs during mdrestore operations
+98c20a8ac153b402dc09f0779f5c287c2dca59b3 common/xfs: capture external logs during metadump/mdrestore
+8859356f1abd784ca884250e7470e76fac59e85c xfs/122: update for rtgroups
+38533bab4a6974820f7a29af5b937ae54727ccd9 punch-alternating: detect xfs realtime files with large allocation units
+2e01db287abdf75ae928b8e5d17ec931d38bc72c xfs/206: update mkfs filtering for rt groups feature
+46f6c37fa56657d76f225acd17746ed3e2a30a8f common: pass the realtime device to xfs_db when possible
+89b1d9514a1c61291791ec6fb8e55ec4d7ca31a2 common: filter rtgroups when we're disabling metadir
+bf5451f7e9a29d3608702a70a7983b15fc54962f xfs/185: update for rtgroups
+f2dbe68e794433fd04046f0318edcf00cb4011fa xfs/449: update test to know about xfs_db -R
+d1baa9ac941e78b5824c792a8db8ef64c27db73c xfs/122: update for rtbitmap headers
+bbf8cf6c39c8d12e8dff3d06aa58f6d601015d39 xfs/122: udpate test to pick up rtword/suminfo ondisk unions
+4a80848e05d8b1bd37ab79dcaf941c6ccdcb638b xfs/27[46],xfs/556: fix tests to deal with rtgroups output in bmap/fsmap commands
+a6b97e330d99bc7e0b7c5c7e5ddf8a1fb9955a84 common/xfs: capture realtime devices during metadump/mdrestore
+d93697f0a0643abc9b2375119ea5304939b4157a common/fuzzy: adapt the scrub stress tests to support rtgroups
+679da0364e365cdd2501f66bb38d9e38eb09db22 xfs: refactor statfs field extraction
+6e0f6eea8a263a1adbccf54891f23cc61c3a9275 generic/260: compute maximum fitrim offset
+83d98674b6853cd0dfdee2dabb650d2c8e7a5203 xfs: fix tests that try to access the realtime rmap inode
+70ad7bdfeffec5bb8fd365f25190aa2a20c8c501 fuzz: for fuzzing the rtrmapbt, find the path to the rt rmap btree file
+fcb090021e93b1132f5aaae5a80d64c4f1cb3083 xfs: race fsstress with realtime rmap btree scrub and repair
+3d936cad3d66eace6fbac42e7b2c8529617b849a xfs/856: add rtrmapbt upgrade to test matrix
+3c00d5b3d20cf39e0a238ba9169992240ccec7dc xfs/122: update for rtgroups-based realtime rmap btrees
+3caafd18d5d91bf44ec34039d22c57b309db204e xfs: fix various problems with fsmap detecting the data device
+c39a763f81dcdcb2dc4dc17f7c7584b4b195dff1 xfs/341: update test for rtgroup-based rmap
+3d44cc3140ae7ff1321f37b060ffd837ba491ad3 xfs/3{43,32}: adapt tests for rt extent size greater than 1
+8c0441ea60fedf6cb1c9a7c676f697bf148d4514 xfs: skip tests if formatting small filesystem fails
+8eaac144ae2ea0b27bed28d099779adcbee1beaa xfs/443: use file allocation unit, not dbsize
+48e9f8cfeba46487f54aaa2fc4bacaceaa3876ca populate: adjust rtrmap calculations for rtgroups
+9176932df4ec160bb96b9a7c6672649c59df7cb7 populate: check that we created a realtime rmap btree of the given height
+59dd66b4ffd465a52db5b448a23681c6cb40cb44 fuzzy: create missing fuzz tests for rt rmap btrees
+36e5920adbd02c85d574f1619220f6b77bf06828 fuzzy: create known output for rt rmap btree fuzz tests
+618c9d2a3f8a1169ddaba8247cd147c42252cd2a xfs/122: update fields for realtime reflink
+509a7e1845f12a3ddca1ab17729c8d93b0118d52 common/populate: create realtime refcount btree
+a51c5f7d871a7518088fea129281173eca5df003 xfs: create fuzz tests for the realtime refcount btree
+69a64500b0230917c45d668fee4d955e5309855f xfs/27[24]: adapt for checking files on the realtime volume
+d7af74c5bf36bf1fae0a5b7831a97d8e04c709fc xfs/243: don't run when realtime storage is the default
+db2aa8b154fa57ca0243529ffd8283787714be13 xfs: race fsstress with realtime refcount btree scrub and repair
+666bfd9ee3c227f74c71d110fdeed46b6babf248 xfs: remove xfs/131 now that we allow reflink on realtime volumes
+9ba7b3c4a9f146625396638ea659eec4eadd6a72 xfs/856: add rtreflink upgrade to test matrix
+03b8e9a80abe15af1f97f128389a6240660e6d40 generic/331,xfs/240: support files that skip delayed allocation
+6d0570ce372287949248561a40e7a32a1a1ced15 common/xfs: fix _xfs_get_file_block_size when rtinherit is set and no rt section
+88516c14fe833bebba2ce274ea489cce8e9f8e9c xfs: baseline golden output for rt refcount btree fuzz tests
+8f655607b0b1e74fc9d1b26a5b1301f499d44773 xfs: make sure that CoW will write around when rextsize > 1
+e0d8c4406f8c202ae9e2de8362b05d371d2d8e05 xfs: skip cowextsize hint fragmentation tests on realtime volumes
+ec024ffc5011655dc58176a4bf4c5d860383e913 misc: add more congruent oplen testing
+7d22511c41094896465ebfe66a79f0e20631f307 generic/303: avoid test failures on weird rt extent sizes
+c43deb86e7e2f0ecf1066f377a82f11c650f655a xfs: regression testing of quota on the realtime device
 
---===============7650299949684335615==
+--===============5328713760726719305==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5fdbdb8bcd6d-5b3c32b3611a.txt
+Content-Disposition: attachment; filename=revlist-78efe2e701b9-6d0570ce3722.txt
 
-e19c99400cfe67bd5f11d3cfe5587446ed3026ef xfs/122: fix for swapext log items
-5d2aea2b1f6dc3ac84909bbd3c155edccc131aae generic: test old xfs extent swapping ioctl
-815ea93652305f0ebba36b3e0ed48602235b9b1c generic: test new vfs swapext ioctl
-81cbafc4597a0cc59e87eeae99ab7a1c8f2a70e8 generic, xfs: test scatter-gather atomic file updates
-f02d41a7b5cade6bb7f9b4009e787b284283eccf generic: test that file privilege gets dropped with FIEXCHANGE_RANGE
-bf183828b8f4c3caf3d3fd1f96d9f396db7508e5 fsx: support FIEXCHANGE_RANGE
-ae5ac04996c581c9e8b70bacb663ff5708f65e18 fsstress: update for FIEXCHANGE_RANGE
-d8cf497797b015b68e2e60822ba3e5eb2bc5714e xfs: race fsstress with online repair of realtime summary files
-a199f989b6f187e28b789ac69f0dbe3a55c1d572 xfs: race fsstress with online repair of extended attribute data
-249f5a78d3094477c8615cb62fb49ef3aec4f785 xfs: ensure that online directory repairs don't hit EDQUOT
-0999380268abb51a7e9f1cec4da920f5a077bad5 xfs: race fsstress with online repair of dirs and parent pointers
-fc0a397e3ec479a5883fbaba7dea75fd5cbf5ebf xfs: test xfs_scrub dry run, preen, and repair mode
-b3096c996a48960160b72738e5599df808a53260 common/rc: don't clear superblock for zoned scratch pools
-f7765774a1b5cb98c2f21a892e82b3421f40e791 generic/020: fix really long attr test failure for ceph
-c9a8237d8c5fdc4ef2d25a56069ffdcce22b5d4b check: generate section reports between tests
-c4473e90a4fe1b6d0c7cf77d9fcdf22852aea1a3 report: derive an xml schema for the xunit report
-4e77406f99b4624a065d8290b8e45e29adb8b072 report: capture the time zone in the test report timestamp
-e7a36e5fbd4cff148b5642132af261c46bec8d28 report: clarify the meaning of the timestamp attribute
-d203e87a2bcb075677925fa93462a78324ba1423 report: record fstests start and report generation timestamps
-21d1f01c021d75e3faa824dbe6a8dfa2dd609e1a report: encode cdata sections correctly
-a5ee28a4ec13d186e41e461997a31fbf147d8532 report: encode the kernel log as a separate xml element
-959235b87703de1e98238656e84bae561c32b6f0 report: sort properties by name
-2c95da79fbf3a9c7146c1e2fd697f382fbbea069 report: pass property value to _xunit_add_property
-742e144fedcfb383e088eb8e4e484b0a6672dc26 report: encode xml entities in property values
-31dc2c91e727311b181403ecbe57a311eee58eb0 report: collect basic information about a test run
-9902ebd0e0fb4d6327686ffd17f4b40f60ba9f28 report: record optional environment variables
-e8e4bddd474609f0284389f3c2323d9bb6779e65 report: record xfs-specific information about a test run
-2f066c6808adb1d1a1f6682d2eb0740facfecd49 report: record ext*-specific information about a test run
-3c708060bb0c4357649b24c8feadb8dca96dc3e2 report: allow test runners to inject arbitrary values
-fabf5dcd145d1d565e4c9727878f82fcfa099fbe xfs: test scaling of the mkfs concurrency options
-c1d2b42fb29e2137e72393ec8d5bd20a29f4f40f xfs: online fuzz test known output
-9aa1f156168b48d39a62ce45f862a65d3de56f35 xfs: offline fuzz test known output
-6ec145e27e9a54dfde37c9db9875d68313c252b1 xfs: norepair fuzz test known output
-252d09f535865014aeec131bbfb484a561144274 xfs: bothrepair fuzz test known output
-a853d74252e154b561186f2fbc4edce09c1b83e1 misc: privatize the FIEXCHANGE ioctl for now
-ac3655b823541f3bbd6581baf2bbffc47c702c68 misc: update xfs_io swapext usage
-d6f2c6e0e88a5026aa20a9e35ac68e3e336eb0a2 part two of fsstress cycling parent pointers with online repair
-9d6e57d99439051b8286b149ed0289b3404a1728 xfs/004: fix column extraction code
-2b7243feadb791314040d4b868322554cd9940e8 common: make helpers for ttyprintk usage
-8b425e57b6d2e16605a4b5d267ac48269a0b066a xfs: test upgrading old features
-720cd44e24ffa461739e49781c8751c9b8cdc4b3 xfs/122: fix metadirino
-d2f50d13bac80bf92f0e42e70e1d185a483fcf4f various: fix finding metadata inode numbers when metadir is enabled
-3a9e26631305d3d5b7b02c1a1c0c81ee52bd6b3e xfs/{030,033,178}: forcibly disable metadata directory trees
-a590753c3caa28f4f405fc43ac9089a6bc545b32 common/repair: patch up repair sb inode value complaints
-94d91f71981306002c48f781f2fcb7775db3168e xfs/206: update for metadata directory support
-a1f12e21d3040b860e9a0306f1af69d1fed7ac24 xfs/{050,144,153,299,330}: update quota reports to leave out metadir files
-e80adde27d8463eb3b8541a4486258471dfaf95c xfs/856: add metadir upgrade to test matrix
-1c1766350573f7c4f4770a2a2c707a45fcc4b39e xfs/509: adjust inumbers accounting for metadata directories
-0f7d59c9318f5478111678d6d02db1f8d7a15746 xfs: create fuzz tests for metadata directories
-debd441c309700797bc931963a4e448d3061f9a6 xfs: baseline golden output for metadata directory fuzz tests
-b29ef644541b73302f1c837fc360c665ab8e9bc1 common/populate: refactor caching of metadumps to a helper
-2e05c670d52763cffb683dcdbd8ae41449cec1db common/xfs: wipe external logs during mdrestore operations
-b3a1c673f5c048207dfb88a852c6ce4fd0b4c920 common/ext4: reformat external logs during mdrestore operations
-18bf91ea164c28a87dbcbda19078d704fc32d6e4 common/xfs: capture external logs during metadump/mdrestore
-5db43b00908318341316d070852cba1bf6c3e33f xfs/122: update for rtgroups
-f255e694bbe314a3f83eb80d5ad849d668021b07 punch-alternating: detect xfs realtime files with large allocation units
-c0e0898b69ff971cee0bcee60f51da77ad44d497 xfs/206: update mkfs filtering for rt groups feature
-7a0494cf4e4abc035cd3c9cbb5410cde9c576fdc common: pass the realtime device to xfs_db when possible
-eaca8b4a5aca0b0f3ebcfdfda24c106d1e8e9290 common: filter rtgroups when we're disabling metadir
-42545dded44530dfd209d9a09360e20e11ceb668 xfs/185: update for rtgroups
-04365465c86b65a032143f4818c85b458a5a71e6 xfs/449: update test to know about xfs_db -R
-babd2b35aadcdec8b689a9496686a93b819a3453 xfs/122: update for rtbitmap headers
-87a611b7bacf494d7b4826305edfb8b164e8e7ac xfs/122: udpate test to pick up rtword/suminfo ondisk unions
-fb5bc27682e2515fa7e58383732c93f5e5f5da94 xfs/27[46],xfs/556: fix tests to deal with rtgroups output in bmap/fsmap commands
-f21098a98260b6ef51cde6e9a060a375639818c5 common/xfs: capture realtime devices during metadump/mdrestore
-f75eed08daa154344645a83426c3b056469d33fc common/fuzzy: adapt the scrub stress tests to support rtgroups
-9b8c374e47902fa305a5c713b58e9fb4502ad084 xfs: refactor statfs field extraction
-20bf67c10d5495560bfe05f0e8cdec31d6c8061a generic/260: compute maximum fitrim offset
-603f7fe264e2c0b650e4a54e455b5f93085bc826 xfs: fix tests that try to access the realtime rmap inode
-4e876ffec1e72f5be51fa91093e56737a6fbd7ae fuzz: for fuzzing the rtrmapbt, find the path to the rt rmap btree file
-c19e7c1c1a106dbb8e3cc44e9442ddfcfaa914f2 xfs: race fsstress with realtime rmap btree scrub and repair
-34522c16fe79b1c551e6fef8771ed4b766e27e9a xfs/856: add rtrmapbt upgrade to test matrix
-e44fe92a6b56c284a000a4776eb0bdd6d51d5507 xfs/122: update for rtgroups-based realtime rmap btrees
-c1bc17216efbae32cc9a893a37df70d37c4332c8 xfs: fix various problems with fsmap detecting the data device
-24d7998139332c63ea27d8588b4c5f50a61eceaa xfs/341: update test for rtgroup-based rmap
-619c45185c9e71ef9f28df59a8ace6327b050e39 xfs/3{43,32}: adapt tests for rt extent size greater than 1
-e4e0d5b25cf3cb70d211f7241ac0ab68f3a636e0 xfs: skip tests if formatting small filesystem fails
-dcfb16341bd917ebf40300486e50c80bd1fba25f xfs/443: use file allocation unit, not dbsize
-361003395f75e0651f1dc66341543e68e9b2a22d populate: adjust rtrmap calculations for rtgroups
-c75f6e6c2283644c4b63283baabb2b93bbc92f2e populate: check that we created a realtime rmap btree of the given height
-d3facc8e97762b8aa85e4445db91e2a348d2c3a6 fuzzy: create missing fuzz tests for rt rmap btrees
-a8a65edf8b525a4b18a9246990ae218e3eb85421 fuzzy: create known output for rt rmap btree fuzz tests
-89d3d26536cd219ceaa10947741da4d1778de7fb xfs/122: update fields for realtime reflink
-9373f3da6f443eed115814b4fa8ed7e2a303d42c common/populate: create realtime refcount btree
-a69804c1d785b393be78660bcedfbff63524e13f xfs: create fuzz tests for the realtime refcount btree
-c9ff465a55a0113e940f94908d271329b7a1241e xfs/27[24]: adapt for checking files on the realtime volume
-db1adfb83a7c40438979b32d81d587cf8bf9364b xfs/243: don't run when realtime storage is the default
-8c87c55e1541005dc7ce421cb2ef1059240987fc xfs: race fsstress with realtime refcount btree scrub and repair
-424b3346b6724469fda09ab9190e951b5b290b44 xfs: remove xfs/131 now that we allow reflink on realtime volumes
-56ebebafce6b05d3fbc17f786062dc973e516a90 xfs/856: add rtreflink upgrade to test matrix
-8379ca11722dfe043195d224bef2de92c4a6ea54 generic/331,xfs/240: support files that skip delayed allocation
-78efe2e701b92fac8a18091021de4b83444e4c92 common/xfs: fix _xfs_get_file_block_size when rtinherit is set and no rt section
-621755b246070dba55955fc50053620209da2d43 xfs: baseline golden output for rt refcount btree fuzz tests
-000c7df73f33f89b14af715410c3c4470cd3032e xfs: make sure that CoW will write around when rextsize > 1
-95166c4299584d5cf83e71abd537898aa8f77546 xfs: skip cowextsize hint fragmentation tests on realtime volumes
-8cc9c13ae7330065753c8cbf2f4c4f5fc4234dbc misc: add more congruent oplen testing
-7d1f5cc90c8b3f466735c9ec2e56b4ee9f66d5df generic/303: avoid test failures on weird rt extent sizes
-5b3c32b3611aa42624f0e353162a1d03b61ba59e xfs: regression testing of quota on the realtime device
+a20990a0481571d5cb2d2294c9449ebb317a2b2f check: generate section reports between tests
+7e8a291e3bdf25bd57498131d86925bdc380837d report: derive an xml schema for the xunit report
+36c554feac175a5967ef70bab6904315c190484c report: capture the time zone in the test report timestamp
+f7367629f92fe4e90fd1f0764a919a841515a44f report: clarify the meaning of the timestamp attribute
+36c275a1500e88a7c09cc5108437dcbc40e6faeb report: record fstests start and report generation timestamps
+fc9f173562f94ffbeb432db5c0665c4e2ac49737 report: encode cdata sections correctly
+46e9c212bf8ba024f7d0eb1293e90f4df40a3fbe report: encode the kernel log as a separate xml element
+b9b05ccd3ff760be88ab3a9814113d7a519fc71f report: sort properties by name
+de57f6161f14ac071178f663d0634f210c1224e8 report: pass property value to _xunit_add_property
+6c65bb263b3304691eac93ff871ab7f0a5af29ad report: encode xml entities in property values
+57c3db4f694fe0b6bfaccd43efefbed965857fb9 report: collect basic information about a test run
+68b87376a7c82e114ab0af81414a2d102c0e5757 report: record optional environment variables
+b2f466196d7f510f9f51595423b8096ca1b84351 report: record xfs-specific information about a test run
+dcbe83cc7e5aa5e4c84492626e0ac1fa5b10bdff report: record ext*-specific information about a test run
+7e5db626c7e5f9adedff38e6fe2e4c3551e1007e report: allow test runners to inject arbitrary values
+4c0118d037c31479403f5890cfcd9b260bfa56eb xfs: test scaling of the mkfs concurrency options
+ec1ffd84a6a3cf87ca11ffeb3e34d13b60438074 xfs: online fuzz test known output
+f4ce31788d2a084db43c1af26f74b8dad0f01d1a xfs: offline fuzz test known output
+7df0d95f9957e231d90a47e3d147b0ed9113b244 xfs: norepair fuzz test known output
+422872dd54a6df272d47fb3c5e289ecc736391dd xfs: bothrepair fuzz test known output
+ce72ac0fca3b751516f5fddc5f0df3d72372a472 misc: privatize the FIEXCHANGE ioctl for now
+7e67f2a222f333adbb86fe105be3ae0b1c4b5577 misc: update xfs_io swapext usage
+d9cb58b671bcfce853e716f50c660a5e1ed88198 xfs: stress test cycling parent pointers with online repair
+25393397b78452f014b3c7fdee797ea23bb2269e xfs/004: fix column extraction code
+9e2feaeb8d07259790db23cf18b8a9eea5b682fd common: make helpers for ttyprintk usage
+e56c8eb1933658c280cb604595c1067980991f68 xfs: test upgrading old features
+c65e4803dab28d7dbb7ae1e96df2db7bdee07b4d xfs/122: fix metadirino
+5af7921255b08b9eb3eca99b2d6fd5d166267b98 various: fix finding metadata inode numbers when metadir is enabled
+df5a1a3d37996f57ec165f98e2e024cca8ebd857 xfs/{030,033,178}: forcibly disable metadata directory trees
+07f8c92951954d0f1cdb1e6ee3a495d2b2df59a6 common/repair: patch up repair sb inode value complaints
+c98190fca1519fb1d908d89ce1b988dbe9ea2e11 xfs/206: update for metadata directory support
+7918167f182ca8eebb738d37af161a91c5278e04 xfs/{050,144,153,299,330}: update quota reports to leave out metadir files
+96962db6498f5a049b2073d5b21bace04ecdb7cb xfs/856: add metadir upgrade to test matrix
+550cbdb4c9ffa8a03e62fdd995affd230cb0a5ac xfs/509: adjust inumbers accounting for metadata directories
+dfff28f84a609505f9d8c8aa1e92bacefd6b5918 xfs: create fuzz tests for metadata directories
+15486b67ae5468f6e5d52b52c51ee503eab73c67 xfs: baseline golden output for metadata directory fuzz tests
+cb27bb41e76f3438f0afbece822efb97a18a19e7 common/populate: refactor caching of metadumps to a helper
+34064dd2ef5a5e990192e617e57ce3efefcf12b4 common/xfs: wipe external logs during mdrestore operations
+c93188aac558742f4c681f46f31820abbf0a7a1e common/ext4: reformat external logs during mdrestore operations
+98c20a8ac153b402dc09f0779f5c287c2dca59b3 common/xfs: capture external logs during metadump/mdrestore
+8859356f1abd784ca884250e7470e76fac59e85c xfs/122: update for rtgroups
+38533bab4a6974820f7a29af5b937ae54727ccd9 punch-alternating: detect xfs realtime files with large allocation units
+2e01db287abdf75ae928b8e5d17ec931d38bc72c xfs/206: update mkfs filtering for rt groups feature
+46f6c37fa56657d76f225acd17746ed3e2a30a8f common: pass the realtime device to xfs_db when possible
+89b1d9514a1c61291791ec6fb8e55ec4d7ca31a2 common: filter rtgroups when we're disabling metadir
+bf5451f7e9a29d3608702a70a7983b15fc54962f xfs/185: update for rtgroups
+f2dbe68e794433fd04046f0318edcf00cb4011fa xfs/449: update test to know about xfs_db -R
+d1baa9ac941e78b5824c792a8db8ef64c27db73c xfs/122: update for rtbitmap headers
+bbf8cf6c39c8d12e8dff3d06aa58f6d601015d39 xfs/122: udpate test to pick up rtword/suminfo ondisk unions
+4a80848e05d8b1bd37ab79dcaf941c6ccdcb638b xfs/27[46],xfs/556: fix tests to deal with rtgroups output in bmap/fsmap commands
+a6b97e330d99bc7e0b7c5c7e5ddf8a1fb9955a84 common/xfs: capture realtime devices during metadump/mdrestore
+d93697f0a0643abc9b2375119ea5304939b4157a common/fuzzy: adapt the scrub stress tests to support rtgroups
+679da0364e365cdd2501f66bb38d9e38eb09db22 xfs: refactor statfs field extraction
+6e0f6eea8a263a1adbccf54891f23cc61c3a9275 generic/260: compute maximum fitrim offset
+83d98674b6853cd0dfdee2dabb650d2c8e7a5203 xfs: fix tests that try to access the realtime rmap inode
+70ad7bdfeffec5bb8fd365f25190aa2a20c8c501 fuzz: for fuzzing the rtrmapbt, find the path to the rt rmap btree file
+fcb090021e93b1132f5aaae5a80d64c4f1cb3083 xfs: race fsstress with realtime rmap btree scrub and repair
+3d936cad3d66eace6fbac42e7b2c8529617b849a xfs/856: add rtrmapbt upgrade to test matrix
+3c00d5b3d20cf39e0a238ba9169992240ccec7dc xfs/122: update for rtgroups-based realtime rmap btrees
+3caafd18d5d91bf44ec34039d22c57b309db204e xfs: fix various problems with fsmap detecting the data device
+c39a763f81dcdcb2dc4dc17f7c7584b4b195dff1 xfs/341: update test for rtgroup-based rmap
+3d44cc3140ae7ff1321f37b060ffd837ba491ad3 xfs/3{43,32}: adapt tests for rt extent size greater than 1
+8c0441ea60fedf6cb1c9a7c676f697bf148d4514 xfs: skip tests if formatting small filesystem fails
+8eaac144ae2ea0b27bed28d099779adcbee1beaa xfs/443: use file allocation unit, not dbsize
+48e9f8cfeba46487f54aaa2fc4bacaceaa3876ca populate: adjust rtrmap calculations for rtgroups
+9176932df4ec160bb96b9a7c6672649c59df7cb7 populate: check that we created a realtime rmap btree of the given height
+59dd66b4ffd465a52db5b448a23681c6cb40cb44 fuzzy: create missing fuzz tests for rt rmap btrees
+36e5920adbd02c85d574f1619220f6b77bf06828 fuzzy: create known output for rt rmap btree fuzz tests
+618c9d2a3f8a1169ddaba8247cd147c42252cd2a xfs/122: update fields for realtime reflink
+509a7e1845f12a3ddca1ab17729c8d93b0118d52 common/populate: create realtime refcount btree
+a51c5f7d871a7518088fea129281173eca5df003 xfs: create fuzz tests for the realtime refcount btree
+69a64500b0230917c45d668fee4d955e5309855f xfs/27[24]: adapt for checking files on the realtime volume
+d7af74c5bf36bf1fae0a5b7831a97d8e04c709fc xfs/243: don't run when realtime storage is the default
+db2aa8b154fa57ca0243529ffd8283787714be13 xfs: race fsstress with realtime refcount btree scrub and repair
+666bfd9ee3c227f74c71d110fdeed46b6babf248 xfs: remove xfs/131 now that we allow reflink on realtime volumes
+9ba7b3c4a9f146625396638ea659eec4eadd6a72 xfs/856: add rtreflink upgrade to test matrix
+03b8e9a80abe15af1f97f128389a6240660e6d40 generic/331,xfs/240: support files that skip delayed allocation
+6d0570ce372287949248561a40e7a32a1a1ced15 common/xfs: fix _xfs_get_file_block_size when rtinherit is set and no rt section
 
---===============7650299949684335615==
+--===============5328713760726719305==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a5a2b66362c0-78efe2e701b9.txt
+Content-Disposition: attachment; filename=revlist-621755b24607-88516c14fe83.txt
 
-e19c99400cfe67bd5f11d3cfe5587446ed3026ef xfs/122: fix for swapext log items
-5d2aea2b1f6dc3ac84909bbd3c155edccc131aae generic: test old xfs extent swapping ioctl
-815ea93652305f0ebba36b3e0ed48602235b9b1c generic: test new vfs swapext ioctl
-81cbafc4597a0cc59e87eeae99ab7a1c8f2a70e8 generic, xfs: test scatter-gather atomic file updates
-f02d41a7b5cade6bb7f9b4009e787b284283eccf generic: test that file privilege gets dropped with FIEXCHANGE_RANGE
-bf183828b8f4c3caf3d3fd1f96d9f396db7508e5 fsx: support FIEXCHANGE_RANGE
-ae5ac04996c581c9e8b70bacb663ff5708f65e18 fsstress: update for FIEXCHANGE_RANGE
-d8cf497797b015b68e2e60822ba3e5eb2bc5714e xfs: race fsstress with online repair of realtime summary files
-a199f989b6f187e28b789ac69f0dbe3a55c1d572 xfs: race fsstress with online repair of extended attribute data
-249f5a78d3094477c8615cb62fb49ef3aec4f785 xfs: ensure that online directory repairs don't hit EDQUOT
-0999380268abb51a7e9f1cec4da920f5a077bad5 xfs: race fsstress with online repair of dirs and parent pointers
-fc0a397e3ec479a5883fbaba7dea75fd5cbf5ebf xfs: test xfs_scrub dry run, preen, and repair mode
-b3096c996a48960160b72738e5599df808a53260 common/rc: don't clear superblock for zoned scratch pools
-f7765774a1b5cb98c2f21a892e82b3421f40e791 generic/020: fix really long attr test failure for ceph
-c9a8237d8c5fdc4ef2d25a56069ffdcce22b5d4b check: generate section reports between tests
-c4473e90a4fe1b6d0c7cf77d9fcdf22852aea1a3 report: derive an xml schema for the xunit report
-4e77406f99b4624a065d8290b8e45e29adb8b072 report: capture the time zone in the test report timestamp
-e7a36e5fbd4cff148b5642132af261c46bec8d28 report: clarify the meaning of the timestamp attribute
-d203e87a2bcb075677925fa93462a78324ba1423 report: record fstests start and report generation timestamps
-21d1f01c021d75e3faa824dbe6a8dfa2dd609e1a report: encode cdata sections correctly
-a5ee28a4ec13d186e41e461997a31fbf147d8532 report: encode the kernel log as a separate xml element
-959235b87703de1e98238656e84bae561c32b6f0 report: sort properties by name
-2c95da79fbf3a9c7146c1e2fd697f382fbbea069 report: pass property value to _xunit_add_property
-742e144fedcfb383e088eb8e4e484b0a6672dc26 report: encode xml entities in property values
-31dc2c91e727311b181403ecbe57a311eee58eb0 report: collect basic information about a test run
-9902ebd0e0fb4d6327686ffd17f4b40f60ba9f28 report: record optional environment variables
-e8e4bddd474609f0284389f3c2323d9bb6779e65 report: record xfs-specific information about a test run
-2f066c6808adb1d1a1f6682d2eb0740facfecd49 report: record ext*-specific information about a test run
-3c708060bb0c4357649b24c8feadb8dca96dc3e2 report: allow test runners to inject arbitrary values
-fabf5dcd145d1d565e4c9727878f82fcfa099fbe xfs: test scaling of the mkfs concurrency options
-c1d2b42fb29e2137e72393ec8d5bd20a29f4f40f xfs: online fuzz test known output
-9aa1f156168b48d39a62ce45f862a65d3de56f35 xfs: offline fuzz test known output
-6ec145e27e9a54dfde37c9db9875d68313c252b1 xfs: norepair fuzz test known output
-252d09f535865014aeec131bbfb484a561144274 xfs: bothrepair fuzz test known output
-a853d74252e154b561186f2fbc4edce09c1b83e1 misc: privatize the FIEXCHANGE ioctl for now
-ac3655b823541f3bbd6581baf2bbffc47c702c68 misc: update xfs_io swapext usage
-d6f2c6e0e88a5026aa20a9e35ac68e3e336eb0a2 part two of fsstress cycling parent pointers with online repair
-9d6e57d99439051b8286b149ed0289b3404a1728 xfs/004: fix column extraction code
-2b7243feadb791314040d4b868322554cd9940e8 common: make helpers for ttyprintk usage
-8b425e57b6d2e16605a4b5d267ac48269a0b066a xfs: test upgrading old features
-720cd44e24ffa461739e49781c8751c9b8cdc4b3 xfs/122: fix metadirino
-d2f50d13bac80bf92f0e42e70e1d185a483fcf4f various: fix finding metadata inode numbers when metadir is enabled
-3a9e26631305d3d5b7b02c1a1c0c81ee52bd6b3e xfs/{030,033,178}: forcibly disable metadata directory trees
-a590753c3caa28f4f405fc43ac9089a6bc545b32 common/repair: patch up repair sb inode value complaints
-94d91f71981306002c48f781f2fcb7775db3168e xfs/206: update for metadata directory support
-a1f12e21d3040b860e9a0306f1af69d1fed7ac24 xfs/{050,144,153,299,330}: update quota reports to leave out metadir files
-e80adde27d8463eb3b8541a4486258471dfaf95c xfs/856: add metadir upgrade to test matrix
-1c1766350573f7c4f4770a2a2c707a45fcc4b39e xfs/509: adjust inumbers accounting for metadata directories
-0f7d59c9318f5478111678d6d02db1f8d7a15746 xfs: create fuzz tests for metadata directories
-debd441c309700797bc931963a4e448d3061f9a6 xfs: baseline golden output for metadata directory fuzz tests
-b29ef644541b73302f1c837fc360c665ab8e9bc1 common/populate: refactor caching of metadumps to a helper
-2e05c670d52763cffb683dcdbd8ae41449cec1db common/xfs: wipe external logs during mdrestore operations
-b3a1c673f5c048207dfb88a852c6ce4fd0b4c920 common/ext4: reformat external logs during mdrestore operations
-18bf91ea164c28a87dbcbda19078d704fc32d6e4 common/xfs: capture external logs during metadump/mdrestore
-5db43b00908318341316d070852cba1bf6c3e33f xfs/122: update for rtgroups
-f255e694bbe314a3f83eb80d5ad849d668021b07 punch-alternating: detect xfs realtime files with large allocation units
-c0e0898b69ff971cee0bcee60f51da77ad44d497 xfs/206: update mkfs filtering for rt groups feature
-7a0494cf4e4abc035cd3c9cbb5410cde9c576fdc common: pass the realtime device to xfs_db when possible
-eaca8b4a5aca0b0f3ebcfdfda24c106d1e8e9290 common: filter rtgroups when we're disabling metadir
-42545dded44530dfd209d9a09360e20e11ceb668 xfs/185: update for rtgroups
-04365465c86b65a032143f4818c85b458a5a71e6 xfs/449: update test to know about xfs_db -R
-babd2b35aadcdec8b689a9496686a93b819a3453 xfs/122: update for rtbitmap headers
-87a611b7bacf494d7b4826305edfb8b164e8e7ac xfs/122: udpate test to pick up rtword/suminfo ondisk unions
-fb5bc27682e2515fa7e58383732c93f5e5f5da94 xfs/27[46],xfs/556: fix tests to deal with rtgroups output in bmap/fsmap commands
-f21098a98260b6ef51cde6e9a060a375639818c5 common/xfs: capture realtime devices during metadump/mdrestore
-f75eed08daa154344645a83426c3b056469d33fc common/fuzzy: adapt the scrub stress tests to support rtgroups
-9b8c374e47902fa305a5c713b58e9fb4502ad084 xfs: refactor statfs field extraction
-20bf67c10d5495560bfe05f0e8cdec31d6c8061a generic/260: compute maximum fitrim offset
-603f7fe264e2c0b650e4a54e455b5f93085bc826 xfs: fix tests that try to access the realtime rmap inode
-4e876ffec1e72f5be51fa91093e56737a6fbd7ae fuzz: for fuzzing the rtrmapbt, find the path to the rt rmap btree file
-c19e7c1c1a106dbb8e3cc44e9442ddfcfaa914f2 xfs: race fsstress with realtime rmap btree scrub and repair
-34522c16fe79b1c551e6fef8771ed4b766e27e9a xfs/856: add rtrmapbt upgrade to test matrix
-e44fe92a6b56c284a000a4776eb0bdd6d51d5507 xfs/122: update for rtgroups-based realtime rmap btrees
-c1bc17216efbae32cc9a893a37df70d37c4332c8 xfs: fix various problems with fsmap detecting the data device
-24d7998139332c63ea27d8588b4c5f50a61eceaa xfs/341: update test for rtgroup-based rmap
-619c45185c9e71ef9f28df59a8ace6327b050e39 xfs/3{43,32}: adapt tests for rt extent size greater than 1
-e4e0d5b25cf3cb70d211f7241ac0ab68f3a636e0 xfs: skip tests if formatting small filesystem fails
-dcfb16341bd917ebf40300486e50c80bd1fba25f xfs/443: use file allocation unit, not dbsize
-361003395f75e0651f1dc66341543e68e9b2a22d populate: adjust rtrmap calculations for rtgroups
-c75f6e6c2283644c4b63283baabb2b93bbc92f2e populate: check that we created a realtime rmap btree of the given height
-d3facc8e97762b8aa85e4445db91e2a348d2c3a6 fuzzy: create missing fuzz tests for rt rmap btrees
-a8a65edf8b525a4b18a9246990ae218e3eb85421 fuzzy: create known output for rt rmap btree fuzz tests
-89d3d26536cd219ceaa10947741da4d1778de7fb xfs/122: update fields for realtime reflink
-9373f3da6f443eed115814b4fa8ed7e2a303d42c common/populate: create realtime refcount btree
-a69804c1d785b393be78660bcedfbff63524e13f xfs: create fuzz tests for the realtime refcount btree
-c9ff465a55a0113e940f94908d271329b7a1241e xfs/27[24]: adapt for checking files on the realtime volume
-db1adfb83a7c40438979b32d81d587cf8bf9364b xfs/243: don't run when realtime storage is the default
-8c87c55e1541005dc7ce421cb2ef1059240987fc xfs: race fsstress with realtime refcount btree scrub and repair
-424b3346b6724469fda09ab9190e951b5b290b44 xfs: remove xfs/131 now that we allow reflink on realtime volumes
-56ebebafce6b05d3fbc17f786062dc973e516a90 xfs/856: add rtreflink upgrade to test matrix
-8379ca11722dfe043195d224bef2de92c4a6ea54 generic/331,xfs/240: support files that skip delayed allocation
-78efe2e701b92fac8a18091021de4b83444e4c92 common/xfs: fix _xfs_get_file_block_size when rtinherit is set and no rt section
+a20990a0481571d5cb2d2294c9449ebb317a2b2f check: generate section reports between tests
+7e8a291e3bdf25bd57498131d86925bdc380837d report: derive an xml schema for the xunit report
+36c554feac175a5967ef70bab6904315c190484c report: capture the time zone in the test report timestamp
+f7367629f92fe4e90fd1f0764a919a841515a44f report: clarify the meaning of the timestamp attribute
+36c275a1500e88a7c09cc5108437dcbc40e6faeb report: record fstests start and report generation timestamps
+fc9f173562f94ffbeb432db5c0665c4e2ac49737 report: encode cdata sections correctly
+46e9c212bf8ba024f7d0eb1293e90f4df40a3fbe report: encode the kernel log as a separate xml element
+b9b05ccd3ff760be88ab3a9814113d7a519fc71f report: sort properties by name
+de57f6161f14ac071178f663d0634f210c1224e8 report: pass property value to _xunit_add_property
+6c65bb263b3304691eac93ff871ab7f0a5af29ad report: encode xml entities in property values
+57c3db4f694fe0b6bfaccd43efefbed965857fb9 report: collect basic information about a test run
+68b87376a7c82e114ab0af81414a2d102c0e5757 report: record optional environment variables
+b2f466196d7f510f9f51595423b8096ca1b84351 report: record xfs-specific information about a test run
+dcbe83cc7e5aa5e4c84492626e0ac1fa5b10bdff report: record ext*-specific information about a test run
+7e5db626c7e5f9adedff38e6fe2e4c3551e1007e report: allow test runners to inject arbitrary values
+4c0118d037c31479403f5890cfcd9b260bfa56eb xfs: test scaling of the mkfs concurrency options
+ec1ffd84a6a3cf87ca11ffeb3e34d13b60438074 xfs: online fuzz test known output
+f4ce31788d2a084db43c1af26f74b8dad0f01d1a xfs: offline fuzz test known output
+7df0d95f9957e231d90a47e3d147b0ed9113b244 xfs: norepair fuzz test known output
+422872dd54a6df272d47fb3c5e289ecc736391dd xfs: bothrepair fuzz test known output
+ce72ac0fca3b751516f5fddc5f0df3d72372a472 misc: privatize the FIEXCHANGE ioctl for now
+7e67f2a222f333adbb86fe105be3ae0b1c4b5577 misc: update xfs_io swapext usage
+d9cb58b671bcfce853e716f50c660a5e1ed88198 xfs: stress test cycling parent pointers with online repair
+25393397b78452f014b3c7fdee797ea23bb2269e xfs/004: fix column extraction code
+9e2feaeb8d07259790db23cf18b8a9eea5b682fd common: make helpers for ttyprintk usage
+e56c8eb1933658c280cb604595c1067980991f68 xfs: test upgrading old features
+c65e4803dab28d7dbb7ae1e96df2db7bdee07b4d xfs/122: fix metadirino
+5af7921255b08b9eb3eca99b2d6fd5d166267b98 various: fix finding metadata inode numbers when metadir is enabled
+df5a1a3d37996f57ec165f98e2e024cca8ebd857 xfs/{030,033,178}: forcibly disable metadata directory trees
+07f8c92951954d0f1cdb1e6ee3a495d2b2df59a6 common/repair: patch up repair sb inode value complaints
+c98190fca1519fb1d908d89ce1b988dbe9ea2e11 xfs/206: update for metadata directory support
+7918167f182ca8eebb738d37af161a91c5278e04 xfs/{050,144,153,299,330}: update quota reports to leave out metadir files
+96962db6498f5a049b2073d5b21bace04ecdb7cb xfs/856: add metadir upgrade to test matrix
+550cbdb4c9ffa8a03e62fdd995affd230cb0a5ac xfs/509: adjust inumbers accounting for metadata directories
+dfff28f84a609505f9d8c8aa1e92bacefd6b5918 xfs: create fuzz tests for metadata directories
+15486b67ae5468f6e5d52b52c51ee503eab73c67 xfs: baseline golden output for metadata directory fuzz tests
+cb27bb41e76f3438f0afbece822efb97a18a19e7 common/populate: refactor caching of metadumps to a helper
+34064dd2ef5a5e990192e617e57ce3efefcf12b4 common/xfs: wipe external logs during mdrestore operations
+c93188aac558742f4c681f46f31820abbf0a7a1e common/ext4: reformat external logs during mdrestore operations
+98c20a8ac153b402dc09f0779f5c287c2dca59b3 common/xfs: capture external logs during metadump/mdrestore
+8859356f1abd784ca884250e7470e76fac59e85c xfs/122: update for rtgroups
+38533bab4a6974820f7a29af5b937ae54727ccd9 punch-alternating: detect xfs realtime files with large allocation units
+2e01db287abdf75ae928b8e5d17ec931d38bc72c xfs/206: update mkfs filtering for rt groups feature
+46f6c37fa56657d76f225acd17746ed3e2a30a8f common: pass the realtime device to xfs_db when possible
+89b1d9514a1c61291791ec6fb8e55ec4d7ca31a2 common: filter rtgroups when we're disabling metadir
+bf5451f7e9a29d3608702a70a7983b15fc54962f xfs/185: update for rtgroups
+f2dbe68e794433fd04046f0318edcf00cb4011fa xfs/449: update test to know about xfs_db -R
+d1baa9ac941e78b5824c792a8db8ef64c27db73c xfs/122: update for rtbitmap headers
+bbf8cf6c39c8d12e8dff3d06aa58f6d601015d39 xfs/122: udpate test to pick up rtword/suminfo ondisk unions
+4a80848e05d8b1bd37ab79dcaf941c6ccdcb638b xfs/27[46],xfs/556: fix tests to deal with rtgroups output in bmap/fsmap commands
+a6b97e330d99bc7e0b7c5c7e5ddf8a1fb9955a84 common/xfs: capture realtime devices during metadump/mdrestore
+d93697f0a0643abc9b2375119ea5304939b4157a common/fuzzy: adapt the scrub stress tests to support rtgroups
+679da0364e365cdd2501f66bb38d9e38eb09db22 xfs: refactor statfs field extraction
+6e0f6eea8a263a1adbccf54891f23cc61c3a9275 generic/260: compute maximum fitrim offset
+83d98674b6853cd0dfdee2dabb650d2c8e7a5203 xfs: fix tests that try to access the realtime rmap inode
+70ad7bdfeffec5bb8fd365f25190aa2a20c8c501 fuzz: for fuzzing the rtrmapbt, find the path to the rt rmap btree file
+fcb090021e93b1132f5aaae5a80d64c4f1cb3083 xfs: race fsstress with realtime rmap btree scrub and repair
+3d936cad3d66eace6fbac42e7b2c8529617b849a xfs/856: add rtrmapbt upgrade to test matrix
+3c00d5b3d20cf39e0a238ba9169992240ccec7dc xfs/122: update for rtgroups-based realtime rmap btrees
+3caafd18d5d91bf44ec34039d22c57b309db204e xfs: fix various problems with fsmap detecting the data device
+c39a763f81dcdcb2dc4dc17f7c7584b4b195dff1 xfs/341: update test for rtgroup-based rmap
+3d44cc3140ae7ff1321f37b060ffd837ba491ad3 xfs/3{43,32}: adapt tests for rt extent size greater than 1
+8c0441ea60fedf6cb1c9a7c676f697bf148d4514 xfs: skip tests if formatting small filesystem fails
+8eaac144ae2ea0b27bed28d099779adcbee1beaa xfs/443: use file allocation unit, not dbsize
+48e9f8cfeba46487f54aaa2fc4bacaceaa3876ca populate: adjust rtrmap calculations for rtgroups
+9176932df4ec160bb96b9a7c6672649c59df7cb7 populate: check that we created a realtime rmap btree of the given height
+59dd66b4ffd465a52db5b448a23681c6cb40cb44 fuzzy: create missing fuzz tests for rt rmap btrees
+36e5920adbd02c85d574f1619220f6b77bf06828 fuzzy: create known output for rt rmap btree fuzz tests
+618c9d2a3f8a1169ddaba8247cd147c42252cd2a xfs/122: update fields for realtime reflink
+509a7e1845f12a3ddca1ab17729c8d93b0118d52 common/populate: create realtime refcount btree
+a51c5f7d871a7518088fea129281173eca5df003 xfs: create fuzz tests for the realtime refcount btree
+69a64500b0230917c45d668fee4d955e5309855f xfs/27[24]: adapt for checking files on the realtime volume
+d7af74c5bf36bf1fae0a5b7831a97d8e04c709fc xfs/243: don't run when realtime storage is the default
+db2aa8b154fa57ca0243529ffd8283787714be13 xfs: race fsstress with realtime refcount btree scrub and repair
+666bfd9ee3c227f74c71d110fdeed46b6babf248 xfs: remove xfs/131 now that we allow reflink on realtime volumes
+9ba7b3c4a9f146625396638ea659eec4eadd6a72 xfs/856: add rtreflink upgrade to test matrix
+03b8e9a80abe15af1f97f128389a6240660e6d40 generic/331,xfs/240: support files that skip delayed allocation
+6d0570ce372287949248561a40e7a32a1a1ced15 common/xfs: fix _xfs_get_file_block_size when rtinherit is set and no rt section
+88516c14fe833bebba2ce274ea489cce8e9f8e9c xfs: baseline golden output for rt refcount btree fuzz tests
 
---===============7650299949684335615==
+--===============5328713760726719305==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fa8e19eace77-621755b24607.txt
+Content-Disposition: attachment; filename=revlist-7d1f5cc90c8b-7d22511c4109.txt
 
-e19c99400cfe67bd5f11d3cfe5587446ed3026ef xfs/122: fix for swapext log items
-5d2aea2b1f6dc3ac84909bbd3c155edccc131aae generic: test old xfs extent swapping ioctl
-815ea93652305f0ebba36b3e0ed48602235b9b1c generic: test new vfs swapext ioctl
-81cbafc4597a0cc59e87eeae99ab7a1c8f2a70e8 generic, xfs: test scatter-gather atomic file updates
-f02d41a7b5cade6bb7f9b4009e787b284283eccf generic: test that file privilege gets dropped with FIEXCHANGE_RANGE
-bf183828b8f4c3caf3d3fd1f96d9f396db7508e5 fsx: support FIEXCHANGE_RANGE
-ae5ac04996c581c9e8b70bacb663ff5708f65e18 fsstress: update for FIEXCHANGE_RANGE
-d8cf497797b015b68e2e60822ba3e5eb2bc5714e xfs: race fsstress with online repair of realtime summary files
-a199f989b6f187e28b789ac69f0dbe3a55c1d572 xfs: race fsstress with online repair of extended attribute data
-249f5a78d3094477c8615cb62fb49ef3aec4f785 xfs: ensure that online directory repairs don't hit EDQUOT
-0999380268abb51a7e9f1cec4da920f5a077bad5 xfs: race fsstress with online repair of dirs and parent pointers
-fc0a397e3ec479a5883fbaba7dea75fd5cbf5ebf xfs: test xfs_scrub dry run, preen, and repair mode
-b3096c996a48960160b72738e5599df808a53260 common/rc: don't clear superblock for zoned scratch pools
-f7765774a1b5cb98c2f21a892e82b3421f40e791 generic/020: fix really long attr test failure for ceph
-c9a8237d8c5fdc4ef2d25a56069ffdcce22b5d4b check: generate section reports between tests
-c4473e90a4fe1b6d0c7cf77d9fcdf22852aea1a3 report: derive an xml schema for the xunit report
-4e77406f99b4624a065d8290b8e45e29adb8b072 report: capture the time zone in the test report timestamp
-e7a36e5fbd4cff148b5642132af261c46bec8d28 report: clarify the meaning of the timestamp attribute
-d203e87a2bcb075677925fa93462a78324ba1423 report: record fstests start and report generation timestamps
-21d1f01c021d75e3faa824dbe6a8dfa2dd609e1a report: encode cdata sections correctly
-a5ee28a4ec13d186e41e461997a31fbf147d8532 report: encode the kernel log as a separate xml element
-959235b87703de1e98238656e84bae561c32b6f0 report: sort properties by name
-2c95da79fbf3a9c7146c1e2fd697f382fbbea069 report: pass property value to _xunit_add_property
-742e144fedcfb383e088eb8e4e484b0a6672dc26 report: encode xml entities in property values
-31dc2c91e727311b181403ecbe57a311eee58eb0 report: collect basic information about a test run
-9902ebd0e0fb4d6327686ffd17f4b40f60ba9f28 report: record optional environment variables
-e8e4bddd474609f0284389f3c2323d9bb6779e65 report: record xfs-specific information about a test run
-2f066c6808adb1d1a1f6682d2eb0740facfecd49 report: record ext*-specific information about a test run
-3c708060bb0c4357649b24c8feadb8dca96dc3e2 report: allow test runners to inject arbitrary values
-fabf5dcd145d1d565e4c9727878f82fcfa099fbe xfs: test scaling of the mkfs concurrency options
-c1d2b42fb29e2137e72393ec8d5bd20a29f4f40f xfs: online fuzz test known output
-9aa1f156168b48d39a62ce45f862a65d3de56f35 xfs: offline fuzz test known output
-6ec145e27e9a54dfde37c9db9875d68313c252b1 xfs: norepair fuzz test known output
-252d09f535865014aeec131bbfb484a561144274 xfs: bothrepair fuzz test known output
-a853d74252e154b561186f2fbc4edce09c1b83e1 misc: privatize the FIEXCHANGE ioctl for now
-ac3655b823541f3bbd6581baf2bbffc47c702c68 misc: update xfs_io swapext usage
-d6f2c6e0e88a5026aa20a9e35ac68e3e336eb0a2 part two of fsstress cycling parent pointers with online repair
-9d6e57d99439051b8286b149ed0289b3404a1728 xfs/004: fix column extraction code
-2b7243feadb791314040d4b868322554cd9940e8 common: make helpers for ttyprintk usage
-8b425e57b6d2e16605a4b5d267ac48269a0b066a xfs: test upgrading old features
-720cd44e24ffa461739e49781c8751c9b8cdc4b3 xfs/122: fix metadirino
-d2f50d13bac80bf92f0e42e70e1d185a483fcf4f various: fix finding metadata inode numbers when metadir is enabled
-3a9e26631305d3d5b7b02c1a1c0c81ee52bd6b3e xfs/{030,033,178}: forcibly disable metadata directory trees
-a590753c3caa28f4f405fc43ac9089a6bc545b32 common/repair: patch up repair sb inode value complaints
-94d91f71981306002c48f781f2fcb7775db3168e xfs/206: update for metadata directory support
-a1f12e21d3040b860e9a0306f1af69d1fed7ac24 xfs/{050,144,153,299,330}: update quota reports to leave out metadir files
-e80adde27d8463eb3b8541a4486258471dfaf95c xfs/856: add metadir upgrade to test matrix
-1c1766350573f7c4f4770a2a2c707a45fcc4b39e xfs/509: adjust inumbers accounting for metadata directories
-0f7d59c9318f5478111678d6d02db1f8d7a15746 xfs: create fuzz tests for metadata directories
-debd441c309700797bc931963a4e448d3061f9a6 xfs: baseline golden output for metadata directory fuzz tests
-b29ef644541b73302f1c837fc360c665ab8e9bc1 common/populate: refactor caching of metadumps to a helper
-2e05c670d52763cffb683dcdbd8ae41449cec1db common/xfs: wipe external logs during mdrestore operations
-b3a1c673f5c048207dfb88a852c6ce4fd0b4c920 common/ext4: reformat external logs during mdrestore operations
-18bf91ea164c28a87dbcbda19078d704fc32d6e4 common/xfs: capture external logs during metadump/mdrestore
-5db43b00908318341316d070852cba1bf6c3e33f xfs/122: update for rtgroups
-f255e694bbe314a3f83eb80d5ad849d668021b07 punch-alternating: detect xfs realtime files with large allocation units
-c0e0898b69ff971cee0bcee60f51da77ad44d497 xfs/206: update mkfs filtering for rt groups feature
-7a0494cf4e4abc035cd3c9cbb5410cde9c576fdc common: pass the realtime device to xfs_db when possible
-eaca8b4a5aca0b0f3ebcfdfda24c106d1e8e9290 common: filter rtgroups when we're disabling metadir
-42545dded44530dfd209d9a09360e20e11ceb668 xfs/185: update for rtgroups
-04365465c86b65a032143f4818c85b458a5a71e6 xfs/449: update test to know about xfs_db -R
-babd2b35aadcdec8b689a9496686a93b819a3453 xfs/122: update for rtbitmap headers
-87a611b7bacf494d7b4826305edfb8b164e8e7ac xfs/122: udpate test to pick up rtword/suminfo ondisk unions
-fb5bc27682e2515fa7e58383732c93f5e5f5da94 xfs/27[46],xfs/556: fix tests to deal with rtgroups output in bmap/fsmap commands
-f21098a98260b6ef51cde6e9a060a375639818c5 common/xfs: capture realtime devices during metadump/mdrestore
-f75eed08daa154344645a83426c3b056469d33fc common/fuzzy: adapt the scrub stress tests to support rtgroups
-9b8c374e47902fa305a5c713b58e9fb4502ad084 xfs: refactor statfs field extraction
-20bf67c10d5495560bfe05f0e8cdec31d6c8061a generic/260: compute maximum fitrim offset
-603f7fe264e2c0b650e4a54e455b5f93085bc826 xfs: fix tests that try to access the realtime rmap inode
-4e876ffec1e72f5be51fa91093e56737a6fbd7ae fuzz: for fuzzing the rtrmapbt, find the path to the rt rmap btree file
-c19e7c1c1a106dbb8e3cc44e9442ddfcfaa914f2 xfs: race fsstress with realtime rmap btree scrub and repair
-34522c16fe79b1c551e6fef8771ed4b766e27e9a xfs/856: add rtrmapbt upgrade to test matrix
-e44fe92a6b56c284a000a4776eb0bdd6d51d5507 xfs/122: update for rtgroups-based realtime rmap btrees
-c1bc17216efbae32cc9a893a37df70d37c4332c8 xfs: fix various problems with fsmap detecting the data device
-24d7998139332c63ea27d8588b4c5f50a61eceaa xfs/341: update test for rtgroup-based rmap
-619c45185c9e71ef9f28df59a8ace6327b050e39 xfs/3{43,32}: adapt tests for rt extent size greater than 1
-e4e0d5b25cf3cb70d211f7241ac0ab68f3a636e0 xfs: skip tests if formatting small filesystem fails
-dcfb16341bd917ebf40300486e50c80bd1fba25f xfs/443: use file allocation unit, not dbsize
-361003395f75e0651f1dc66341543e68e9b2a22d populate: adjust rtrmap calculations for rtgroups
-c75f6e6c2283644c4b63283baabb2b93bbc92f2e populate: check that we created a realtime rmap btree of the given height
-d3facc8e97762b8aa85e4445db91e2a348d2c3a6 fuzzy: create missing fuzz tests for rt rmap btrees
-a8a65edf8b525a4b18a9246990ae218e3eb85421 fuzzy: create known output for rt rmap btree fuzz tests
-89d3d26536cd219ceaa10947741da4d1778de7fb xfs/122: update fields for realtime reflink
-9373f3da6f443eed115814b4fa8ed7e2a303d42c common/populate: create realtime refcount btree
-a69804c1d785b393be78660bcedfbff63524e13f xfs: create fuzz tests for the realtime refcount btree
-c9ff465a55a0113e940f94908d271329b7a1241e xfs/27[24]: adapt for checking files on the realtime volume
-db1adfb83a7c40438979b32d81d587cf8bf9364b xfs/243: don't run when realtime storage is the default
-8c87c55e1541005dc7ce421cb2ef1059240987fc xfs: race fsstress with realtime refcount btree scrub and repair
-424b3346b6724469fda09ab9190e951b5b290b44 xfs: remove xfs/131 now that we allow reflink on realtime volumes
-56ebebafce6b05d3fbc17f786062dc973e516a90 xfs/856: add rtreflink upgrade to test matrix
-8379ca11722dfe043195d224bef2de92c4a6ea54 generic/331,xfs/240: support files that skip delayed allocation
-78efe2e701b92fac8a18091021de4b83444e4c92 common/xfs: fix _xfs_get_file_block_size when rtinherit is set and no rt section
-621755b246070dba55955fc50053620209da2d43 xfs: baseline golden output for rt refcount btree fuzz tests
+a20990a0481571d5cb2d2294c9449ebb317a2b2f check: generate section reports between tests
+7e8a291e3bdf25bd57498131d86925bdc380837d report: derive an xml schema for the xunit report
+36c554feac175a5967ef70bab6904315c190484c report: capture the time zone in the test report timestamp
+f7367629f92fe4e90fd1f0764a919a841515a44f report: clarify the meaning of the timestamp attribute
+36c275a1500e88a7c09cc5108437dcbc40e6faeb report: record fstests start and report generation timestamps
+fc9f173562f94ffbeb432db5c0665c4e2ac49737 report: encode cdata sections correctly
+46e9c212bf8ba024f7d0eb1293e90f4df40a3fbe report: encode the kernel log as a separate xml element
+b9b05ccd3ff760be88ab3a9814113d7a519fc71f report: sort properties by name
+de57f6161f14ac071178f663d0634f210c1224e8 report: pass property value to _xunit_add_property
+6c65bb263b3304691eac93ff871ab7f0a5af29ad report: encode xml entities in property values
+57c3db4f694fe0b6bfaccd43efefbed965857fb9 report: collect basic information about a test run
+68b87376a7c82e114ab0af81414a2d102c0e5757 report: record optional environment variables
+b2f466196d7f510f9f51595423b8096ca1b84351 report: record xfs-specific information about a test run
+dcbe83cc7e5aa5e4c84492626e0ac1fa5b10bdff report: record ext*-specific information about a test run
+7e5db626c7e5f9adedff38e6fe2e4c3551e1007e report: allow test runners to inject arbitrary values
+4c0118d037c31479403f5890cfcd9b260bfa56eb xfs: test scaling of the mkfs concurrency options
+ec1ffd84a6a3cf87ca11ffeb3e34d13b60438074 xfs: online fuzz test known output
+f4ce31788d2a084db43c1af26f74b8dad0f01d1a xfs: offline fuzz test known output
+7df0d95f9957e231d90a47e3d147b0ed9113b244 xfs: norepair fuzz test known output
+422872dd54a6df272d47fb3c5e289ecc736391dd xfs: bothrepair fuzz test known output
+ce72ac0fca3b751516f5fddc5f0df3d72372a472 misc: privatize the FIEXCHANGE ioctl for now
+7e67f2a222f333adbb86fe105be3ae0b1c4b5577 misc: update xfs_io swapext usage
+d9cb58b671bcfce853e716f50c660a5e1ed88198 xfs: stress test cycling parent pointers with online repair
+25393397b78452f014b3c7fdee797ea23bb2269e xfs/004: fix column extraction code
+9e2feaeb8d07259790db23cf18b8a9eea5b682fd common: make helpers for ttyprintk usage
+e56c8eb1933658c280cb604595c1067980991f68 xfs: test upgrading old features
+c65e4803dab28d7dbb7ae1e96df2db7bdee07b4d xfs/122: fix metadirino
+5af7921255b08b9eb3eca99b2d6fd5d166267b98 various: fix finding metadata inode numbers when metadir is enabled
+df5a1a3d37996f57ec165f98e2e024cca8ebd857 xfs/{030,033,178}: forcibly disable metadata directory trees
+07f8c92951954d0f1cdb1e6ee3a495d2b2df59a6 common/repair: patch up repair sb inode value complaints
+c98190fca1519fb1d908d89ce1b988dbe9ea2e11 xfs/206: update for metadata directory support
+7918167f182ca8eebb738d37af161a91c5278e04 xfs/{050,144,153,299,330}: update quota reports to leave out metadir files
+96962db6498f5a049b2073d5b21bace04ecdb7cb xfs/856: add metadir upgrade to test matrix
+550cbdb4c9ffa8a03e62fdd995affd230cb0a5ac xfs/509: adjust inumbers accounting for metadata directories
+dfff28f84a609505f9d8c8aa1e92bacefd6b5918 xfs: create fuzz tests for metadata directories
+15486b67ae5468f6e5d52b52c51ee503eab73c67 xfs: baseline golden output for metadata directory fuzz tests
+cb27bb41e76f3438f0afbece822efb97a18a19e7 common/populate: refactor caching of metadumps to a helper
+34064dd2ef5a5e990192e617e57ce3efefcf12b4 common/xfs: wipe external logs during mdrestore operations
+c93188aac558742f4c681f46f31820abbf0a7a1e common/ext4: reformat external logs during mdrestore operations
+98c20a8ac153b402dc09f0779f5c287c2dca59b3 common/xfs: capture external logs during metadump/mdrestore
+8859356f1abd784ca884250e7470e76fac59e85c xfs/122: update for rtgroups
+38533bab4a6974820f7a29af5b937ae54727ccd9 punch-alternating: detect xfs realtime files with large allocation units
+2e01db287abdf75ae928b8e5d17ec931d38bc72c xfs/206: update mkfs filtering for rt groups feature
+46f6c37fa56657d76f225acd17746ed3e2a30a8f common: pass the realtime device to xfs_db when possible
+89b1d9514a1c61291791ec6fb8e55ec4d7ca31a2 common: filter rtgroups when we're disabling metadir
+bf5451f7e9a29d3608702a70a7983b15fc54962f xfs/185: update for rtgroups
+f2dbe68e794433fd04046f0318edcf00cb4011fa xfs/449: update test to know about xfs_db -R
+d1baa9ac941e78b5824c792a8db8ef64c27db73c xfs/122: update for rtbitmap headers
+bbf8cf6c39c8d12e8dff3d06aa58f6d601015d39 xfs/122: udpate test to pick up rtword/suminfo ondisk unions
+4a80848e05d8b1bd37ab79dcaf941c6ccdcb638b xfs/27[46],xfs/556: fix tests to deal with rtgroups output in bmap/fsmap commands
+a6b97e330d99bc7e0b7c5c7e5ddf8a1fb9955a84 common/xfs: capture realtime devices during metadump/mdrestore
+d93697f0a0643abc9b2375119ea5304939b4157a common/fuzzy: adapt the scrub stress tests to support rtgroups
+679da0364e365cdd2501f66bb38d9e38eb09db22 xfs: refactor statfs field extraction
+6e0f6eea8a263a1adbccf54891f23cc61c3a9275 generic/260: compute maximum fitrim offset
+83d98674b6853cd0dfdee2dabb650d2c8e7a5203 xfs: fix tests that try to access the realtime rmap inode
+70ad7bdfeffec5bb8fd365f25190aa2a20c8c501 fuzz: for fuzzing the rtrmapbt, find the path to the rt rmap btree file
+fcb090021e93b1132f5aaae5a80d64c4f1cb3083 xfs: race fsstress with realtime rmap btree scrub and repair
+3d936cad3d66eace6fbac42e7b2c8529617b849a xfs/856: add rtrmapbt upgrade to test matrix
+3c00d5b3d20cf39e0a238ba9169992240ccec7dc xfs/122: update for rtgroups-based realtime rmap btrees
+3caafd18d5d91bf44ec34039d22c57b309db204e xfs: fix various problems with fsmap detecting the data device
+c39a763f81dcdcb2dc4dc17f7c7584b4b195dff1 xfs/341: update test for rtgroup-based rmap
+3d44cc3140ae7ff1321f37b060ffd837ba491ad3 xfs/3{43,32}: adapt tests for rt extent size greater than 1
+8c0441ea60fedf6cb1c9a7c676f697bf148d4514 xfs: skip tests if formatting small filesystem fails
+8eaac144ae2ea0b27bed28d099779adcbee1beaa xfs/443: use file allocation unit, not dbsize
+48e9f8cfeba46487f54aaa2fc4bacaceaa3876ca populate: adjust rtrmap calculations for rtgroups
+9176932df4ec160bb96b9a7c6672649c59df7cb7 populate: check that we created a realtime rmap btree of the given height
+59dd66b4ffd465a52db5b448a23681c6cb40cb44 fuzzy: create missing fuzz tests for rt rmap btrees
+36e5920adbd02c85d574f1619220f6b77bf06828 fuzzy: create known output for rt rmap btree fuzz tests
+618c9d2a3f8a1169ddaba8247cd147c42252cd2a xfs/122: update fields for realtime reflink
+509a7e1845f12a3ddca1ab17729c8d93b0118d52 common/populate: create realtime refcount btree
+a51c5f7d871a7518088fea129281173eca5df003 xfs: create fuzz tests for the realtime refcount btree
+69a64500b0230917c45d668fee4d955e5309855f xfs/27[24]: adapt for checking files on the realtime volume
+d7af74c5bf36bf1fae0a5b7831a97d8e04c709fc xfs/243: don't run when realtime storage is the default
+db2aa8b154fa57ca0243529ffd8283787714be13 xfs: race fsstress with realtime refcount btree scrub and repair
+666bfd9ee3c227f74c71d110fdeed46b6babf248 xfs: remove xfs/131 now that we allow reflink on realtime volumes
+9ba7b3c4a9f146625396638ea659eec4eadd6a72 xfs/856: add rtreflink upgrade to test matrix
+03b8e9a80abe15af1f97f128389a6240660e6d40 generic/331,xfs/240: support files that skip delayed allocation
+6d0570ce372287949248561a40e7a32a1a1ced15 common/xfs: fix _xfs_get_file_block_size when rtinherit is set and no rt section
+88516c14fe833bebba2ce274ea489cce8e9f8e9c xfs: baseline golden output for rt refcount btree fuzz tests
+8f655607b0b1e74fc9d1b26a5b1301f499d44773 xfs: make sure that CoW will write around when rextsize > 1
+e0d8c4406f8c202ae9e2de8362b05d371d2d8e05 xfs: skip cowextsize hint fragmentation tests on realtime volumes
+ec024ffc5011655dc58176a4bf4c5d860383e913 misc: add more congruent oplen testing
+7d22511c41094896465ebfe66a79f0e20631f307 generic/303: avoid test failures on weird rt extent sizes
 
---===============7650299949684335615==
+--===============5328713760726719305==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-91a9d714d506-7d1f5cc90c8b.txt
+Content-Disposition: attachment; filename=revlist-d3facc8e9776-59dd66b4ffd4.txt
 
-e19c99400cfe67bd5f11d3cfe5587446ed3026ef xfs/122: fix for swapext log items
-5d2aea2b1f6dc3ac84909bbd3c155edccc131aae generic: test old xfs extent swapping ioctl
-815ea93652305f0ebba36b3e0ed48602235b9b1c generic: test new vfs swapext ioctl
-81cbafc4597a0cc59e87eeae99ab7a1c8f2a70e8 generic, xfs: test scatter-gather atomic file updates
-f02d41a7b5cade6bb7f9b4009e787b284283eccf generic: test that file privilege gets dropped with FIEXCHANGE_RANGE
-bf183828b8f4c3caf3d3fd1f96d9f396db7508e5 fsx: support FIEXCHANGE_RANGE
-ae5ac04996c581c9e8b70bacb663ff5708f65e18 fsstress: update for FIEXCHANGE_RANGE
-d8cf497797b015b68e2e60822ba3e5eb2bc5714e xfs: race fsstress with online repair of realtime summary files
-a199f989b6f187e28b789ac69f0dbe3a55c1d572 xfs: race fsstress with online repair of extended attribute data
-249f5a78d3094477c8615cb62fb49ef3aec4f785 xfs: ensure that online directory repairs don't hit EDQUOT
-0999380268abb51a7e9f1cec4da920f5a077bad5 xfs: race fsstress with online repair of dirs and parent pointers
-fc0a397e3ec479a5883fbaba7dea75fd5cbf5ebf xfs: test xfs_scrub dry run, preen, and repair mode
-b3096c996a48960160b72738e5599df808a53260 common/rc: don't clear superblock for zoned scratch pools
-f7765774a1b5cb98c2f21a892e82b3421f40e791 generic/020: fix really long attr test failure for ceph
-c9a8237d8c5fdc4ef2d25a56069ffdcce22b5d4b check: generate section reports between tests
-c4473e90a4fe1b6d0c7cf77d9fcdf22852aea1a3 report: derive an xml schema for the xunit report
-4e77406f99b4624a065d8290b8e45e29adb8b072 report: capture the time zone in the test report timestamp
-e7a36e5fbd4cff148b5642132af261c46bec8d28 report: clarify the meaning of the timestamp attribute
-d203e87a2bcb075677925fa93462a78324ba1423 report: record fstests start and report generation timestamps
-21d1f01c021d75e3faa824dbe6a8dfa2dd609e1a report: encode cdata sections correctly
-a5ee28a4ec13d186e41e461997a31fbf147d8532 report: encode the kernel log as a separate xml element
-959235b87703de1e98238656e84bae561c32b6f0 report: sort properties by name
-2c95da79fbf3a9c7146c1e2fd697f382fbbea069 report: pass property value to _xunit_add_property
-742e144fedcfb383e088eb8e4e484b0a6672dc26 report: encode xml entities in property values
-31dc2c91e727311b181403ecbe57a311eee58eb0 report: collect basic information about a test run
-9902ebd0e0fb4d6327686ffd17f4b40f60ba9f28 report: record optional environment variables
-e8e4bddd474609f0284389f3c2323d9bb6779e65 report: record xfs-specific information about a test run
-2f066c6808adb1d1a1f6682d2eb0740facfecd49 report: record ext*-specific information about a test run
-3c708060bb0c4357649b24c8feadb8dca96dc3e2 report: allow test runners to inject arbitrary values
-fabf5dcd145d1d565e4c9727878f82fcfa099fbe xfs: test scaling of the mkfs concurrency options
-c1d2b42fb29e2137e72393ec8d5bd20a29f4f40f xfs: online fuzz test known output
-9aa1f156168b48d39a62ce45f862a65d3de56f35 xfs: offline fuzz test known output
-6ec145e27e9a54dfde37c9db9875d68313c252b1 xfs: norepair fuzz test known output
-252d09f535865014aeec131bbfb484a561144274 xfs: bothrepair fuzz test known output
-a853d74252e154b561186f2fbc4edce09c1b83e1 misc: privatize the FIEXCHANGE ioctl for now
-ac3655b823541f3bbd6581baf2bbffc47c702c68 misc: update xfs_io swapext usage
-d6f2c6e0e88a5026aa20a9e35ac68e3e336eb0a2 part two of fsstress cycling parent pointers with online repair
-9d6e57d99439051b8286b149ed0289b3404a1728 xfs/004: fix column extraction code
-2b7243feadb791314040d4b868322554cd9940e8 common: make helpers for ttyprintk usage
-8b425e57b6d2e16605a4b5d267ac48269a0b066a xfs: test upgrading old features
-720cd44e24ffa461739e49781c8751c9b8cdc4b3 xfs/122: fix metadirino
-d2f50d13bac80bf92f0e42e70e1d185a483fcf4f various: fix finding metadata inode numbers when metadir is enabled
-3a9e26631305d3d5b7b02c1a1c0c81ee52bd6b3e xfs/{030,033,178}: forcibly disable metadata directory trees
-a590753c3caa28f4f405fc43ac9089a6bc545b32 common/repair: patch up repair sb inode value complaints
-94d91f71981306002c48f781f2fcb7775db3168e xfs/206: update for metadata directory support
-a1f12e21d3040b860e9a0306f1af69d1fed7ac24 xfs/{050,144,153,299,330}: update quota reports to leave out metadir files
-e80adde27d8463eb3b8541a4486258471dfaf95c xfs/856: add metadir upgrade to test matrix
-1c1766350573f7c4f4770a2a2c707a45fcc4b39e xfs/509: adjust inumbers accounting for metadata directories
-0f7d59c9318f5478111678d6d02db1f8d7a15746 xfs: create fuzz tests for metadata directories
-debd441c309700797bc931963a4e448d3061f9a6 xfs: baseline golden output for metadata directory fuzz tests
-b29ef644541b73302f1c837fc360c665ab8e9bc1 common/populate: refactor caching of metadumps to a helper
-2e05c670d52763cffb683dcdbd8ae41449cec1db common/xfs: wipe external logs during mdrestore operations
-b3a1c673f5c048207dfb88a852c6ce4fd0b4c920 common/ext4: reformat external logs during mdrestore operations
-18bf91ea164c28a87dbcbda19078d704fc32d6e4 common/xfs: capture external logs during metadump/mdrestore
-5db43b00908318341316d070852cba1bf6c3e33f xfs/122: update for rtgroups
-f255e694bbe314a3f83eb80d5ad849d668021b07 punch-alternating: detect xfs realtime files with large allocation units
-c0e0898b69ff971cee0bcee60f51da77ad44d497 xfs/206: update mkfs filtering for rt groups feature
-7a0494cf4e4abc035cd3c9cbb5410cde9c576fdc common: pass the realtime device to xfs_db when possible
-eaca8b4a5aca0b0f3ebcfdfda24c106d1e8e9290 common: filter rtgroups when we're disabling metadir
-42545dded44530dfd209d9a09360e20e11ceb668 xfs/185: update for rtgroups
-04365465c86b65a032143f4818c85b458a5a71e6 xfs/449: update test to know about xfs_db -R
-babd2b35aadcdec8b689a9496686a93b819a3453 xfs/122: update for rtbitmap headers
-87a611b7bacf494d7b4826305edfb8b164e8e7ac xfs/122: udpate test to pick up rtword/suminfo ondisk unions
-fb5bc27682e2515fa7e58383732c93f5e5f5da94 xfs/27[46],xfs/556: fix tests to deal with rtgroups output in bmap/fsmap commands
-f21098a98260b6ef51cde6e9a060a375639818c5 common/xfs: capture realtime devices during metadump/mdrestore
-f75eed08daa154344645a83426c3b056469d33fc common/fuzzy: adapt the scrub stress tests to support rtgroups
-9b8c374e47902fa305a5c713b58e9fb4502ad084 xfs: refactor statfs field extraction
-20bf67c10d5495560bfe05f0e8cdec31d6c8061a generic/260: compute maximum fitrim offset
-603f7fe264e2c0b650e4a54e455b5f93085bc826 xfs: fix tests that try to access the realtime rmap inode
-4e876ffec1e72f5be51fa91093e56737a6fbd7ae fuzz: for fuzzing the rtrmapbt, find the path to the rt rmap btree file
-c19e7c1c1a106dbb8e3cc44e9442ddfcfaa914f2 xfs: race fsstress with realtime rmap btree scrub and repair
-34522c16fe79b1c551e6fef8771ed4b766e27e9a xfs/856: add rtrmapbt upgrade to test matrix
-e44fe92a6b56c284a000a4776eb0bdd6d51d5507 xfs/122: update for rtgroups-based realtime rmap btrees
-c1bc17216efbae32cc9a893a37df70d37c4332c8 xfs: fix various problems with fsmap detecting the data device
-24d7998139332c63ea27d8588b4c5f50a61eceaa xfs/341: update test for rtgroup-based rmap
-619c45185c9e71ef9f28df59a8ace6327b050e39 xfs/3{43,32}: adapt tests for rt extent size greater than 1
-e4e0d5b25cf3cb70d211f7241ac0ab68f3a636e0 xfs: skip tests if formatting small filesystem fails
-dcfb16341bd917ebf40300486e50c80bd1fba25f xfs/443: use file allocation unit, not dbsize
-361003395f75e0651f1dc66341543e68e9b2a22d populate: adjust rtrmap calculations for rtgroups
-c75f6e6c2283644c4b63283baabb2b93bbc92f2e populate: check that we created a realtime rmap btree of the given height
-d3facc8e97762b8aa85e4445db91e2a348d2c3a6 fuzzy: create missing fuzz tests for rt rmap btrees
-a8a65edf8b525a4b18a9246990ae218e3eb85421 fuzzy: create known output for rt rmap btree fuzz tests
-89d3d26536cd219ceaa10947741da4d1778de7fb xfs/122: update fields for realtime reflink
-9373f3da6f443eed115814b4fa8ed7e2a303d42c common/populate: create realtime refcount btree
-a69804c1d785b393be78660bcedfbff63524e13f xfs: create fuzz tests for the realtime refcount btree
-c9ff465a55a0113e940f94908d271329b7a1241e xfs/27[24]: adapt for checking files on the realtime volume
-db1adfb83a7c40438979b32d81d587cf8bf9364b xfs/243: don't run when realtime storage is the default
-8c87c55e1541005dc7ce421cb2ef1059240987fc xfs: race fsstress with realtime refcount btree scrub and repair
-424b3346b6724469fda09ab9190e951b5b290b44 xfs: remove xfs/131 now that we allow reflink on realtime volumes
-56ebebafce6b05d3fbc17f786062dc973e516a90 xfs/856: add rtreflink upgrade to test matrix
-8379ca11722dfe043195d224bef2de92c4a6ea54 generic/331,xfs/240: support files that skip delayed allocation
-78efe2e701b92fac8a18091021de4b83444e4c92 common/xfs: fix _xfs_get_file_block_size when rtinherit is set and no rt section
-621755b246070dba55955fc50053620209da2d43 xfs: baseline golden output for rt refcount btree fuzz tests
-000c7df73f33f89b14af715410c3c4470cd3032e xfs: make sure that CoW will write around when rextsize > 1
-95166c4299584d5cf83e71abd537898aa8f77546 xfs: skip cowextsize hint fragmentation tests on realtime volumes
-8cc9c13ae7330065753c8cbf2f4c4f5fc4234dbc misc: add more congruent oplen testing
-7d1f5cc90c8b3f466735c9ec2e56b4ee9f66d5df generic/303: avoid test failures on weird rt extent sizes
+a20990a0481571d5cb2d2294c9449ebb317a2b2f check: generate section reports between tests
+7e8a291e3bdf25bd57498131d86925bdc380837d report: derive an xml schema for the xunit report
+36c554feac175a5967ef70bab6904315c190484c report: capture the time zone in the test report timestamp
+f7367629f92fe4e90fd1f0764a919a841515a44f report: clarify the meaning of the timestamp attribute
+36c275a1500e88a7c09cc5108437dcbc40e6faeb report: record fstests start and report generation timestamps
+fc9f173562f94ffbeb432db5c0665c4e2ac49737 report: encode cdata sections correctly
+46e9c212bf8ba024f7d0eb1293e90f4df40a3fbe report: encode the kernel log as a separate xml element
+b9b05ccd3ff760be88ab3a9814113d7a519fc71f report: sort properties by name
+de57f6161f14ac071178f663d0634f210c1224e8 report: pass property value to _xunit_add_property
+6c65bb263b3304691eac93ff871ab7f0a5af29ad report: encode xml entities in property values
+57c3db4f694fe0b6bfaccd43efefbed965857fb9 report: collect basic information about a test run
+68b87376a7c82e114ab0af81414a2d102c0e5757 report: record optional environment variables
+b2f466196d7f510f9f51595423b8096ca1b84351 report: record xfs-specific information about a test run
+dcbe83cc7e5aa5e4c84492626e0ac1fa5b10bdff report: record ext*-specific information about a test run
+7e5db626c7e5f9adedff38e6fe2e4c3551e1007e report: allow test runners to inject arbitrary values
+4c0118d037c31479403f5890cfcd9b260bfa56eb xfs: test scaling of the mkfs concurrency options
+ec1ffd84a6a3cf87ca11ffeb3e34d13b60438074 xfs: online fuzz test known output
+f4ce31788d2a084db43c1af26f74b8dad0f01d1a xfs: offline fuzz test known output
+7df0d95f9957e231d90a47e3d147b0ed9113b244 xfs: norepair fuzz test known output
+422872dd54a6df272d47fb3c5e289ecc736391dd xfs: bothrepair fuzz test known output
+ce72ac0fca3b751516f5fddc5f0df3d72372a472 misc: privatize the FIEXCHANGE ioctl for now
+7e67f2a222f333adbb86fe105be3ae0b1c4b5577 misc: update xfs_io swapext usage
+d9cb58b671bcfce853e716f50c660a5e1ed88198 xfs: stress test cycling parent pointers with online repair
+25393397b78452f014b3c7fdee797ea23bb2269e xfs/004: fix column extraction code
+9e2feaeb8d07259790db23cf18b8a9eea5b682fd common: make helpers for ttyprintk usage
+e56c8eb1933658c280cb604595c1067980991f68 xfs: test upgrading old features
+c65e4803dab28d7dbb7ae1e96df2db7bdee07b4d xfs/122: fix metadirino
+5af7921255b08b9eb3eca99b2d6fd5d166267b98 various: fix finding metadata inode numbers when metadir is enabled
+df5a1a3d37996f57ec165f98e2e024cca8ebd857 xfs/{030,033,178}: forcibly disable metadata directory trees
+07f8c92951954d0f1cdb1e6ee3a495d2b2df59a6 common/repair: patch up repair sb inode value complaints
+c98190fca1519fb1d908d89ce1b988dbe9ea2e11 xfs/206: update for metadata directory support
+7918167f182ca8eebb738d37af161a91c5278e04 xfs/{050,144,153,299,330}: update quota reports to leave out metadir files
+96962db6498f5a049b2073d5b21bace04ecdb7cb xfs/856: add metadir upgrade to test matrix
+550cbdb4c9ffa8a03e62fdd995affd230cb0a5ac xfs/509: adjust inumbers accounting for metadata directories
+dfff28f84a609505f9d8c8aa1e92bacefd6b5918 xfs: create fuzz tests for metadata directories
+15486b67ae5468f6e5d52b52c51ee503eab73c67 xfs: baseline golden output for metadata directory fuzz tests
+cb27bb41e76f3438f0afbece822efb97a18a19e7 common/populate: refactor caching of metadumps to a helper
+34064dd2ef5a5e990192e617e57ce3efefcf12b4 common/xfs: wipe external logs during mdrestore operations
+c93188aac558742f4c681f46f31820abbf0a7a1e common/ext4: reformat external logs during mdrestore operations
+98c20a8ac153b402dc09f0779f5c287c2dca59b3 common/xfs: capture external logs during metadump/mdrestore
+8859356f1abd784ca884250e7470e76fac59e85c xfs/122: update for rtgroups
+38533bab4a6974820f7a29af5b937ae54727ccd9 punch-alternating: detect xfs realtime files with large allocation units
+2e01db287abdf75ae928b8e5d17ec931d38bc72c xfs/206: update mkfs filtering for rt groups feature
+46f6c37fa56657d76f225acd17746ed3e2a30a8f common: pass the realtime device to xfs_db when possible
+89b1d9514a1c61291791ec6fb8e55ec4d7ca31a2 common: filter rtgroups when we're disabling metadir
+bf5451f7e9a29d3608702a70a7983b15fc54962f xfs/185: update for rtgroups
+f2dbe68e794433fd04046f0318edcf00cb4011fa xfs/449: update test to know about xfs_db -R
+d1baa9ac941e78b5824c792a8db8ef64c27db73c xfs/122: update for rtbitmap headers
+bbf8cf6c39c8d12e8dff3d06aa58f6d601015d39 xfs/122: udpate test to pick up rtword/suminfo ondisk unions
+4a80848e05d8b1bd37ab79dcaf941c6ccdcb638b xfs/27[46],xfs/556: fix tests to deal with rtgroups output in bmap/fsmap commands
+a6b97e330d99bc7e0b7c5c7e5ddf8a1fb9955a84 common/xfs: capture realtime devices during metadump/mdrestore
+d93697f0a0643abc9b2375119ea5304939b4157a common/fuzzy: adapt the scrub stress tests to support rtgroups
+679da0364e365cdd2501f66bb38d9e38eb09db22 xfs: refactor statfs field extraction
+6e0f6eea8a263a1adbccf54891f23cc61c3a9275 generic/260: compute maximum fitrim offset
+83d98674b6853cd0dfdee2dabb650d2c8e7a5203 xfs: fix tests that try to access the realtime rmap inode
+70ad7bdfeffec5bb8fd365f25190aa2a20c8c501 fuzz: for fuzzing the rtrmapbt, find the path to the rt rmap btree file
+fcb090021e93b1132f5aaae5a80d64c4f1cb3083 xfs: race fsstress with realtime rmap btree scrub and repair
+3d936cad3d66eace6fbac42e7b2c8529617b849a xfs/856: add rtrmapbt upgrade to test matrix
+3c00d5b3d20cf39e0a238ba9169992240ccec7dc xfs/122: update for rtgroups-based realtime rmap btrees
+3caafd18d5d91bf44ec34039d22c57b309db204e xfs: fix various problems with fsmap detecting the data device
+c39a763f81dcdcb2dc4dc17f7c7584b4b195dff1 xfs/341: update test for rtgroup-based rmap
+3d44cc3140ae7ff1321f37b060ffd837ba491ad3 xfs/3{43,32}: adapt tests for rt extent size greater than 1
+8c0441ea60fedf6cb1c9a7c676f697bf148d4514 xfs: skip tests if formatting small filesystem fails
+8eaac144ae2ea0b27bed28d099779adcbee1beaa xfs/443: use file allocation unit, not dbsize
+48e9f8cfeba46487f54aaa2fc4bacaceaa3876ca populate: adjust rtrmap calculations for rtgroups
+9176932df4ec160bb96b9a7c6672649c59df7cb7 populate: check that we created a realtime rmap btree of the given height
+59dd66b4ffd465a52db5b448a23681c6cb40cb44 fuzzy: create missing fuzz tests for rt rmap btrees
 
---===============7650299949684335615==
+--===============5328713760726719305==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-10bbaf2f0497-d3facc8e9776.txt
+Content-Disposition: attachment; filename=revlist-a8a65edf8b52-36e5920adbd0.txt
 
-e19c99400cfe67bd5f11d3cfe5587446ed3026ef xfs/122: fix for swapext log items
-5d2aea2b1f6dc3ac84909bbd3c155edccc131aae generic: test old xfs extent swapping ioctl
-815ea93652305f0ebba36b3e0ed48602235b9b1c generic: test new vfs swapext ioctl
-81cbafc4597a0cc59e87eeae99ab7a1c8f2a70e8 generic, xfs: test scatter-gather atomic file updates
-f02d41a7b5cade6bb7f9b4009e787b284283eccf generic: test that file privilege gets dropped with FIEXCHANGE_RANGE
-bf183828b8f4c3caf3d3fd1f96d9f396db7508e5 fsx: support FIEXCHANGE_RANGE
-ae5ac04996c581c9e8b70bacb663ff5708f65e18 fsstress: update for FIEXCHANGE_RANGE
-d8cf497797b015b68e2e60822ba3e5eb2bc5714e xfs: race fsstress with online repair of realtime summary files
-a199f989b6f187e28b789ac69f0dbe3a55c1d572 xfs: race fsstress with online repair of extended attribute data
-249f5a78d3094477c8615cb62fb49ef3aec4f785 xfs: ensure that online directory repairs don't hit EDQUOT
-0999380268abb51a7e9f1cec4da920f5a077bad5 xfs: race fsstress with online repair of dirs and parent pointers
-fc0a397e3ec479a5883fbaba7dea75fd5cbf5ebf xfs: test xfs_scrub dry run, preen, and repair mode
-b3096c996a48960160b72738e5599df808a53260 common/rc: don't clear superblock for zoned scratch pools
-f7765774a1b5cb98c2f21a892e82b3421f40e791 generic/020: fix really long attr test failure for ceph
-c9a8237d8c5fdc4ef2d25a56069ffdcce22b5d4b check: generate section reports between tests
-c4473e90a4fe1b6d0c7cf77d9fcdf22852aea1a3 report: derive an xml schema for the xunit report
-4e77406f99b4624a065d8290b8e45e29adb8b072 report: capture the time zone in the test report timestamp
-e7a36e5fbd4cff148b5642132af261c46bec8d28 report: clarify the meaning of the timestamp attribute
-d203e87a2bcb075677925fa93462a78324ba1423 report: record fstests start and report generation timestamps
-21d1f01c021d75e3faa824dbe6a8dfa2dd609e1a report: encode cdata sections correctly
-a5ee28a4ec13d186e41e461997a31fbf147d8532 report: encode the kernel log as a separate xml element
-959235b87703de1e98238656e84bae561c32b6f0 report: sort properties by name
-2c95da79fbf3a9c7146c1e2fd697f382fbbea069 report: pass property value to _xunit_add_property
-742e144fedcfb383e088eb8e4e484b0a6672dc26 report: encode xml entities in property values
-31dc2c91e727311b181403ecbe57a311eee58eb0 report: collect basic information about a test run
-9902ebd0e0fb4d6327686ffd17f4b40f60ba9f28 report: record optional environment variables
-e8e4bddd474609f0284389f3c2323d9bb6779e65 report: record xfs-specific information about a test run
-2f066c6808adb1d1a1f6682d2eb0740facfecd49 report: record ext*-specific information about a test run
-3c708060bb0c4357649b24c8feadb8dca96dc3e2 report: allow test runners to inject arbitrary values
-fabf5dcd145d1d565e4c9727878f82fcfa099fbe xfs: test scaling of the mkfs concurrency options
-c1d2b42fb29e2137e72393ec8d5bd20a29f4f40f xfs: online fuzz test known output
-9aa1f156168b48d39a62ce45f862a65d3de56f35 xfs: offline fuzz test known output
-6ec145e27e9a54dfde37c9db9875d68313c252b1 xfs: norepair fuzz test known output
-252d09f535865014aeec131bbfb484a561144274 xfs: bothrepair fuzz test known output
-a853d74252e154b561186f2fbc4edce09c1b83e1 misc: privatize the FIEXCHANGE ioctl for now
-ac3655b823541f3bbd6581baf2bbffc47c702c68 misc: update xfs_io swapext usage
-d6f2c6e0e88a5026aa20a9e35ac68e3e336eb0a2 part two of fsstress cycling parent pointers with online repair
-9d6e57d99439051b8286b149ed0289b3404a1728 xfs/004: fix column extraction code
-2b7243feadb791314040d4b868322554cd9940e8 common: make helpers for ttyprintk usage
-8b425e57b6d2e16605a4b5d267ac48269a0b066a xfs: test upgrading old features
-720cd44e24ffa461739e49781c8751c9b8cdc4b3 xfs/122: fix metadirino
-d2f50d13bac80bf92f0e42e70e1d185a483fcf4f various: fix finding metadata inode numbers when metadir is enabled
-3a9e26631305d3d5b7b02c1a1c0c81ee52bd6b3e xfs/{030,033,178}: forcibly disable metadata directory trees
-a590753c3caa28f4f405fc43ac9089a6bc545b32 common/repair: patch up repair sb inode value complaints
-94d91f71981306002c48f781f2fcb7775db3168e xfs/206: update for metadata directory support
-a1f12e21d3040b860e9a0306f1af69d1fed7ac24 xfs/{050,144,153,299,330}: update quota reports to leave out metadir files
-e80adde27d8463eb3b8541a4486258471dfaf95c xfs/856: add metadir upgrade to test matrix
-1c1766350573f7c4f4770a2a2c707a45fcc4b39e xfs/509: adjust inumbers accounting for metadata directories
-0f7d59c9318f5478111678d6d02db1f8d7a15746 xfs: create fuzz tests for metadata directories
-debd441c309700797bc931963a4e448d3061f9a6 xfs: baseline golden output for metadata directory fuzz tests
-b29ef644541b73302f1c837fc360c665ab8e9bc1 common/populate: refactor caching of metadumps to a helper
-2e05c670d52763cffb683dcdbd8ae41449cec1db common/xfs: wipe external logs during mdrestore operations
-b3a1c673f5c048207dfb88a852c6ce4fd0b4c920 common/ext4: reformat external logs during mdrestore operations
-18bf91ea164c28a87dbcbda19078d704fc32d6e4 common/xfs: capture external logs during metadump/mdrestore
-5db43b00908318341316d070852cba1bf6c3e33f xfs/122: update for rtgroups
-f255e694bbe314a3f83eb80d5ad849d668021b07 punch-alternating: detect xfs realtime files with large allocation units
-c0e0898b69ff971cee0bcee60f51da77ad44d497 xfs/206: update mkfs filtering for rt groups feature
-7a0494cf4e4abc035cd3c9cbb5410cde9c576fdc common: pass the realtime device to xfs_db when possible
-eaca8b4a5aca0b0f3ebcfdfda24c106d1e8e9290 common: filter rtgroups when we're disabling metadir
-42545dded44530dfd209d9a09360e20e11ceb668 xfs/185: update for rtgroups
-04365465c86b65a032143f4818c85b458a5a71e6 xfs/449: update test to know about xfs_db -R
-babd2b35aadcdec8b689a9496686a93b819a3453 xfs/122: update for rtbitmap headers
-87a611b7bacf494d7b4826305edfb8b164e8e7ac xfs/122: udpate test to pick up rtword/suminfo ondisk unions
-fb5bc27682e2515fa7e58383732c93f5e5f5da94 xfs/27[46],xfs/556: fix tests to deal with rtgroups output in bmap/fsmap commands
-f21098a98260b6ef51cde6e9a060a375639818c5 common/xfs: capture realtime devices during metadump/mdrestore
-f75eed08daa154344645a83426c3b056469d33fc common/fuzzy: adapt the scrub stress tests to support rtgroups
-9b8c374e47902fa305a5c713b58e9fb4502ad084 xfs: refactor statfs field extraction
-20bf67c10d5495560bfe05f0e8cdec31d6c8061a generic/260: compute maximum fitrim offset
-603f7fe264e2c0b650e4a54e455b5f93085bc826 xfs: fix tests that try to access the realtime rmap inode
-4e876ffec1e72f5be51fa91093e56737a6fbd7ae fuzz: for fuzzing the rtrmapbt, find the path to the rt rmap btree file
-c19e7c1c1a106dbb8e3cc44e9442ddfcfaa914f2 xfs: race fsstress with realtime rmap btree scrub and repair
-34522c16fe79b1c551e6fef8771ed4b766e27e9a xfs/856: add rtrmapbt upgrade to test matrix
-e44fe92a6b56c284a000a4776eb0bdd6d51d5507 xfs/122: update for rtgroups-based realtime rmap btrees
-c1bc17216efbae32cc9a893a37df70d37c4332c8 xfs: fix various problems with fsmap detecting the data device
-24d7998139332c63ea27d8588b4c5f50a61eceaa xfs/341: update test for rtgroup-based rmap
-619c45185c9e71ef9f28df59a8ace6327b050e39 xfs/3{43,32}: adapt tests for rt extent size greater than 1
-e4e0d5b25cf3cb70d211f7241ac0ab68f3a636e0 xfs: skip tests if formatting small filesystem fails
-dcfb16341bd917ebf40300486e50c80bd1fba25f xfs/443: use file allocation unit, not dbsize
-361003395f75e0651f1dc66341543e68e9b2a22d populate: adjust rtrmap calculations for rtgroups
-c75f6e6c2283644c4b63283baabb2b93bbc92f2e populate: check that we created a realtime rmap btree of the given height
-d3facc8e97762b8aa85e4445db91e2a348d2c3a6 fuzzy: create missing fuzz tests for rt rmap btrees
+a20990a0481571d5cb2d2294c9449ebb317a2b2f check: generate section reports between tests
+7e8a291e3bdf25bd57498131d86925bdc380837d report: derive an xml schema for the xunit report
+36c554feac175a5967ef70bab6904315c190484c report: capture the time zone in the test report timestamp
+f7367629f92fe4e90fd1f0764a919a841515a44f report: clarify the meaning of the timestamp attribute
+36c275a1500e88a7c09cc5108437dcbc40e6faeb report: record fstests start and report generation timestamps
+fc9f173562f94ffbeb432db5c0665c4e2ac49737 report: encode cdata sections correctly
+46e9c212bf8ba024f7d0eb1293e90f4df40a3fbe report: encode the kernel log as a separate xml element
+b9b05ccd3ff760be88ab3a9814113d7a519fc71f report: sort properties by name
+de57f6161f14ac071178f663d0634f210c1224e8 report: pass property value to _xunit_add_property
+6c65bb263b3304691eac93ff871ab7f0a5af29ad report: encode xml entities in property values
+57c3db4f694fe0b6bfaccd43efefbed965857fb9 report: collect basic information about a test run
+68b87376a7c82e114ab0af81414a2d102c0e5757 report: record optional environment variables
+b2f466196d7f510f9f51595423b8096ca1b84351 report: record xfs-specific information about a test run
+dcbe83cc7e5aa5e4c84492626e0ac1fa5b10bdff report: record ext*-specific information about a test run
+7e5db626c7e5f9adedff38e6fe2e4c3551e1007e report: allow test runners to inject arbitrary values
+4c0118d037c31479403f5890cfcd9b260bfa56eb xfs: test scaling of the mkfs concurrency options
+ec1ffd84a6a3cf87ca11ffeb3e34d13b60438074 xfs: online fuzz test known output
+f4ce31788d2a084db43c1af26f74b8dad0f01d1a xfs: offline fuzz test known output
+7df0d95f9957e231d90a47e3d147b0ed9113b244 xfs: norepair fuzz test known output
+422872dd54a6df272d47fb3c5e289ecc736391dd xfs: bothrepair fuzz test known output
+ce72ac0fca3b751516f5fddc5f0df3d72372a472 misc: privatize the FIEXCHANGE ioctl for now
+7e67f2a222f333adbb86fe105be3ae0b1c4b5577 misc: update xfs_io swapext usage
+d9cb58b671bcfce853e716f50c660a5e1ed88198 xfs: stress test cycling parent pointers with online repair
+25393397b78452f014b3c7fdee797ea23bb2269e xfs/004: fix column extraction code
+9e2feaeb8d07259790db23cf18b8a9eea5b682fd common: make helpers for ttyprintk usage
+e56c8eb1933658c280cb604595c1067980991f68 xfs: test upgrading old features
+c65e4803dab28d7dbb7ae1e96df2db7bdee07b4d xfs/122: fix metadirino
+5af7921255b08b9eb3eca99b2d6fd5d166267b98 various: fix finding metadata inode numbers when metadir is enabled
+df5a1a3d37996f57ec165f98e2e024cca8ebd857 xfs/{030,033,178}: forcibly disable metadata directory trees
+07f8c92951954d0f1cdb1e6ee3a495d2b2df59a6 common/repair: patch up repair sb inode value complaints
+c98190fca1519fb1d908d89ce1b988dbe9ea2e11 xfs/206: update for metadata directory support
+7918167f182ca8eebb738d37af161a91c5278e04 xfs/{050,144,153,299,330}: update quota reports to leave out metadir files
+96962db6498f5a049b2073d5b21bace04ecdb7cb xfs/856: add metadir upgrade to test matrix
+550cbdb4c9ffa8a03e62fdd995affd230cb0a5ac xfs/509: adjust inumbers accounting for metadata directories
+dfff28f84a609505f9d8c8aa1e92bacefd6b5918 xfs: create fuzz tests for metadata directories
+15486b67ae5468f6e5d52b52c51ee503eab73c67 xfs: baseline golden output for metadata directory fuzz tests
+cb27bb41e76f3438f0afbece822efb97a18a19e7 common/populate: refactor caching of metadumps to a helper
+34064dd2ef5a5e990192e617e57ce3efefcf12b4 common/xfs: wipe external logs during mdrestore operations
+c93188aac558742f4c681f46f31820abbf0a7a1e common/ext4: reformat external logs during mdrestore operations
+98c20a8ac153b402dc09f0779f5c287c2dca59b3 common/xfs: capture external logs during metadump/mdrestore
+8859356f1abd784ca884250e7470e76fac59e85c xfs/122: update for rtgroups
+38533bab4a6974820f7a29af5b937ae54727ccd9 punch-alternating: detect xfs realtime files with large allocation units
+2e01db287abdf75ae928b8e5d17ec931d38bc72c xfs/206: update mkfs filtering for rt groups feature
+46f6c37fa56657d76f225acd17746ed3e2a30a8f common: pass the realtime device to xfs_db when possible
+89b1d9514a1c61291791ec6fb8e55ec4d7ca31a2 common: filter rtgroups when we're disabling metadir
+bf5451f7e9a29d3608702a70a7983b15fc54962f xfs/185: update for rtgroups
+f2dbe68e794433fd04046f0318edcf00cb4011fa xfs/449: update test to know about xfs_db -R
+d1baa9ac941e78b5824c792a8db8ef64c27db73c xfs/122: update for rtbitmap headers
+bbf8cf6c39c8d12e8dff3d06aa58f6d601015d39 xfs/122: udpate test to pick up rtword/suminfo ondisk unions
+4a80848e05d8b1bd37ab79dcaf941c6ccdcb638b xfs/27[46],xfs/556: fix tests to deal with rtgroups output in bmap/fsmap commands
+a6b97e330d99bc7e0b7c5c7e5ddf8a1fb9955a84 common/xfs: capture realtime devices during metadump/mdrestore
+d93697f0a0643abc9b2375119ea5304939b4157a common/fuzzy: adapt the scrub stress tests to support rtgroups
+679da0364e365cdd2501f66bb38d9e38eb09db22 xfs: refactor statfs field extraction
+6e0f6eea8a263a1adbccf54891f23cc61c3a9275 generic/260: compute maximum fitrim offset
+83d98674b6853cd0dfdee2dabb650d2c8e7a5203 xfs: fix tests that try to access the realtime rmap inode
+70ad7bdfeffec5bb8fd365f25190aa2a20c8c501 fuzz: for fuzzing the rtrmapbt, find the path to the rt rmap btree file
+fcb090021e93b1132f5aaae5a80d64c4f1cb3083 xfs: race fsstress with realtime rmap btree scrub and repair
+3d936cad3d66eace6fbac42e7b2c8529617b849a xfs/856: add rtrmapbt upgrade to test matrix
+3c00d5b3d20cf39e0a238ba9169992240ccec7dc xfs/122: update for rtgroups-based realtime rmap btrees
+3caafd18d5d91bf44ec34039d22c57b309db204e xfs: fix various problems with fsmap detecting the data device
+c39a763f81dcdcb2dc4dc17f7c7584b4b195dff1 xfs/341: update test for rtgroup-based rmap
+3d44cc3140ae7ff1321f37b060ffd837ba491ad3 xfs/3{43,32}: adapt tests for rt extent size greater than 1
+8c0441ea60fedf6cb1c9a7c676f697bf148d4514 xfs: skip tests if formatting small filesystem fails
+8eaac144ae2ea0b27bed28d099779adcbee1beaa xfs/443: use file allocation unit, not dbsize
+48e9f8cfeba46487f54aaa2fc4bacaceaa3876ca populate: adjust rtrmap calculations for rtgroups
+9176932df4ec160bb96b9a7c6672649c59df7cb7 populate: check that we created a realtime rmap btree of the given height
+59dd66b4ffd465a52db5b448a23681c6cb40cb44 fuzzy: create missing fuzz tests for rt rmap btrees
+36e5920adbd02c85d574f1619220f6b77bf06828 fuzzy: create known output for rt rmap btree fuzz tests
 
---===============7650299949684335615==
+--===============5328713760726719305==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-357584e3429d-a8a65edf8b52.txt
+Content-Disposition: attachment; filename=revlist-d6f2c6e0e88a-d9cb58b671bc.txt
 
-e19c99400cfe67bd5f11d3cfe5587446ed3026ef xfs/122: fix for swapext log items
-5d2aea2b1f6dc3ac84909bbd3c155edccc131aae generic: test old xfs extent swapping ioctl
-815ea93652305f0ebba36b3e0ed48602235b9b1c generic: test new vfs swapext ioctl
-81cbafc4597a0cc59e87eeae99ab7a1c8f2a70e8 generic, xfs: test scatter-gather atomic file updates
-f02d41a7b5cade6bb7f9b4009e787b284283eccf generic: test that file privilege gets dropped with FIEXCHANGE_RANGE
-bf183828b8f4c3caf3d3fd1f96d9f396db7508e5 fsx: support FIEXCHANGE_RANGE
-ae5ac04996c581c9e8b70bacb663ff5708f65e18 fsstress: update for FIEXCHANGE_RANGE
-d8cf497797b015b68e2e60822ba3e5eb2bc5714e xfs: race fsstress with online repair of realtime summary files
-a199f989b6f187e28b789ac69f0dbe3a55c1d572 xfs: race fsstress with online repair of extended attribute data
-249f5a78d3094477c8615cb62fb49ef3aec4f785 xfs: ensure that online directory repairs don't hit EDQUOT
-0999380268abb51a7e9f1cec4da920f5a077bad5 xfs: race fsstress with online repair of dirs and parent pointers
-fc0a397e3ec479a5883fbaba7dea75fd5cbf5ebf xfs: test xfs_scrub dry run, preen, and repair mode
-b3096c996a48960160b72738e5599df808a53260 common/rc: don't clear superblock for zoned scratch pools
-f7765774a1b5cb98c2f21a892e82b3421f40e791 generic/020: fix really long attr test failure for ceph
-c9a8237d8c5fdc4ef2d25a56069ffdcce22b5d4b check: generate section reports between tests
-c4473e90a4fe1b6d0c7cf77d9fcdf22852aea1a3 report: derive an xml schema for the xunit report
-4e77406f99b4624a065d8290b8e45e29adb8b072 report: capture the time zone in the test report timestamp
-e7a36e5fbd4cff148b5642132af261c46bec8d28 report: clarify the meaning of the timestamp attribute
-d203e87a2bcb075677925fa93462a78324ba1423 report: record fstests start and report generation timestamps
-21d1f01c021d75e3faa824dbe6a8dfa2dd609e1a report: encode cdata sections correctly
-a5ee28a4ec13d186e41e461997a31fbf147d8532 report: encode the kernel log as a separate xml element
-959235b87703de1e98238656e84bae561c32b6f0 report: sort properties by name
-2c95da79fbf3a9c7146c1e2fd697f382fbbea069 report: pass property value to _xunit_add_property
-742e144fedcfb383e088eb8e4e484b0a6672dc26 report: encode xml entities in property values
-31dc2c91e727311b181403ecbe57a311eee58eb0 report: collect basic information about a test run
-9902ebd0e0fb4d6327686ffd17f4b40f60ba9f28 report: record optional environment variables
-e8e4bddd474609f0284389f3c2323d9bb6779e65 report: record xfs-specific information about a test run
-2f066c6808adb1d1a1f6682d2eb0740facfecd49 report: record ext*-specific information about a test run
-3c708060bb0c4357649b24c8feadb8dca96dc3e2 report: allow test runners to inject arbitrary values
-fabf5dcd145d1d565e4c9727878f82fcfa099fbe xfs: test scaling of the mkfs concurrency options
-c1d2b42fb29e2137e72393ec8d5bd20a29f4f40f xfs: online fuzz test known output
-9aa1f156168b48d39a62ce45f862a65d3de56f35 xfs: offline fuzz test known output
-6ec145e27e9a54dfde37c9db9875d68313c252b1 xfs: norepair fuzz test known output
-252d09f535865014aeec131bbfb484a561144274 xfs: bothrepair fuzz test known output
-a853d74252e154b561186f2fbc4edce09c1b83e1 misc: privatize the FIEXCHANGE ioctl for now
-ac3655b823541f3bbd6581baf2bbffc47c702c68 misc: update xfs_io swapext usage
-d6f2c6e0e88a5026aa20a9e35ac68e3e336eb0a2 part two of fsstress cycling parent pointers with online repair
-9d6e57d99439051b8286b149ed0289b3404a1728 xfs/004: fix column extraction code
-2b7243feadb791314040d4b868322554cd9940e8 common: make helpers for ttyprintk usage
-8b425e57b6d2e16605a4b5d267ac48269a0b066a xfs: test upgrading old features
-720cd44e24ffa461739e49781c8751c9b8cdc4b3 xfs/122: fix metadirino
-d2f50d13bac80bf92f0e42e70e1d185a483fcf4f various: fix finding metadata inode numbers when metadir is enabled
-3a9e26631305d3d5b7b02c1a1c0c81ee52bd6b3e xfs/{030,033,178}: forcibly disable metadata directory trees
-a590753c3caa28f4f405fc43ac9089a6bc545b32 common/repair: patch up repair sb inode value complaints
-94d91f71981306002c48f781f2fcb7775db3168e xfs/206: update for metadata directory support
-a1f12e21d3040b860e9a0306f1af69d1fed7ac24 xfs/{050,144,153,299,330}: update quota reports to leave out metadir files
-e80adde27d8463eb3b8541a4486258471dfaf95c xfs/856: add metadir upgrade to test matrix
-1c1766350573f7c4f4770a2a2c707a45fcc4b39e xfs/509: adjust inumbers accounting for metadata directories
-0f7d59c9318f5478111678d6d02db1f8d7a15746 xfs: create fuzz tests for metadata directories
-debd441c309700797bc931963a4e448d3061f9a6 xfs: baseline golden output for metadata directory fuzz tests
-b29ef644541b73302f1c837fc360c665ab8e9bc1 common/populate: refactor caching of metadumps to a helper
-2e05c670d52763cffb683dcdbd8ae41449cec1db common/xfs: wipe external logs during mdrestore operations
-b3a1c673f5c048207dfb88a852c6ce4fd0b4c920 common/ext4: reformat external logs during mdrestore operations
-18bf91ea164c28a87dbcbda19078d704fc32d6e4 common/xfs: capture external logs during metadump/mdrestore
-5db43b00908318341316d070852cba1bf6c3e33f xfs/122: update for rtgroups
-f255e694bbe314a3f83eb80d5ad849d668021b07 punch-alternating: detect xfs realtime files with large allocation units
-c0e0898b69ff971cee0bcee60f51da77ad44d497 xfs/206: update mkfs filtering for rt groups feature
-7a0494cf4e4abc035cd3c9cbb5410cde9c576fdc common: pass the realtime device to xfs_db when possible
-eaca8b4a5aca0b0f3ebcfdfda24c106d1e8e9290 common: filter rtgroups when we're disabling metadir
-42545dded44530dfd209d9a09360e20e11ceb668 xfs/185: update for rtgroups
-04365465c86b65a032143f4818c85b458a5a71e6 xfs/449: update test to know about xfs_db -R
-babd2b35aadcdec8b689a9496686a93b819a3453 xfs/122: update for rtbitmap headers
-87a611b7bacf494d7b4826305edfb8b164e8e7ac xfs/122: udpate test to pick up rtword/suminfo ondisk unions
-fb5bc27682e2515fa7e58383732c93f5e5f5da94 xfs/27[46],xfs/556: fix tests to deal with rtgroups output in bmap/fsmap commands
-f21098a98260b6ef51cde6e9a060a375639818c5 common/xfs: capture realtime devices during metadump/mdrestore
-f75eed08daa154344645a83426c3b056469d33fc common/fuzzy: adapt the scrub stress tests to support rtgroups
-9b8c374e47902fa305a5c713b58e9fb4502ad084 xfs: refactor statfs field extraction
-20bf67c10d5495560bfe05f0e8cdec31d6c8061a generic/260: compute maximum fitrim offset
-603f7fe264e2c0b650e4a54e455b5f93085bc826 xfs: fix tests that try to access the realtime rmap inode
-4e876ffec1e72f5be51fa91093e56737a6fbd7ae fuzz: for fuzzing the rtrmapbt, find the path to the rt rmap btree file
-c19e7c1c1a106dbb8e3cc44e9442ddfcfaa914f2 xfs: race fsstress with realtime rmap btree scrub and repair
-34522c16fe79b1c551e6fef8771ed4b766e27e9a xfs/856: add rtrmapbt upgrade to test matrix
-e44fe92a6b56c284a000a4776eb0bdd6d51d5507 xfs/122: update for rtgroups-based realtime rmap btrees
-c1bc17216efbae32cc9a893a37df70d37c4332c8 xfs: fix various problems with fsmap detecting the data device
-24d7998139332c63ea27d8588b4c5f50a61eceaa xfs/341: update test for rtgroup-based rmap
-619c45185c9e71ef9f28df59a8ace6327b050e39 xfs/3{43,32}: adapt tests for rt extent size greater than 1
-e4e0d5b25cf3cb70d211f7241ac0ab68f3a636e0 xfs: skip tests if formatting small filesystem fails
-dcfb16341bd917ebf40300486e50c80bd1fba25f xfs/443: use file allocation unit, not dbsize
-361003395f75e0651f1dc66341543e68e9b2a22d populate: adjust rtrmap calculations for rtgroups
-c75f6e6c2283644c4b63283baabb2b93bbc92f2e populate: check that we created a realtime rmap btree of the given height
-d3facc8e97762b8aa85e4445db91e2a348d2c3a6 fuzzy: create missing fuzz tests for rt rmap btrees
-a8a65edf8b525a4b18a9246990ae218e3eb85421 fuzzy: create known output for rt rmap btree fuzz tests
+a20990a0481571d5cb2d2294c9449ebb317a2b2f check: generate section reports between tests
+7e8a291e3bdf25bd57498131d86925bdc380837d report: derive an xml schema for the xunit report
+36c554feac175a5967ef70bab6904315c190484c report: capture the time zone in the test report timestamp
+f7367629f92fe4e90fd1f0764a919a841515a44f report: clarify the meaning of the timestamp attribute
+36c275a1500e88a7c09cc5108437dcbc40e6faeb report: record fstests start and report generation timestamps
+fc9f173562f94ffbeb432db5c0665c4e2ac49737 report: encode cdata sections correctly
+46e9c212bf8ba024f7d0eb1293e90f4df40a3fbe report: encode the kernel log as a separate xml element
+b9b05ccd3ff760be88ab3a9814113d7a519fc71f report: sort properties by name
+de57f6161f14ac071178f663d0634f210c1224e8 report: pass property value to _xunit_add_property
+6c65bb263b3304691eac93ff871ab7f0a5af29ad report: encode xml entities in property values
+57c3db4f694fe0b6bfaccd43efefbed965857fb9 report: collect basic information about a test run
+68b87376a7c82e114ab0af81414a2d102c0e5757 report: record optional environment variables
+b2f466196d7f510f9f51595423b8096ca1b84351 report: record xfs-specific information about a test run
+dcbe83cc7e5aa5e4c84492626e0ac1fa5b10bdff report: record ext*-specific information about a test run
+7e5db626c7e5f9adedff38e6fe2e4c3551e1007e report: allow test runners to inject arbitrary values
+4c0118d037c31479403f5890cfcd9b260bfa56eb xfs: test scaling of the mkfs concurrency options
+ec1ffd84a6a3cf87ca11ffeb3e34d13b60438074 xfs: online fuzz test known output
+f4ce31788d2a084db43c1af26f74b8dad0f01d1a xfs: offline fuzz test known output
+7df0d95f9957e231d90a47e3d147b0ed9113b244 xfs: norepair fuzz test known output
+422872dd54a6df272d47fb3c5e289ecc736391dd xfs: bothrepair fuzz test known output
+ce72ac0fca3b751516f5fddc5f0df3d72372a472 misc: privatize the FIEXCHANGE ioctl for now
+7e67f2a222f333adbb86fe105be3ae0b1c4b5577 misc: update xfs_io swapext usage
+d9cb58b671bcfce853e716f50c660a5e1ed88198 xfs: stress test cycling parent pointers with online repair
 
---===============7650299949684335615==
+--===============5328713760726719305==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-566dcb47431e-d6f2c6e0e88a.txt
+Content-Disposition: attachment; filename=revlist-f961fb62429f-346a308c4e35.txt
 
-e19c99400cfe67bd5f11d3cfe5587446ed3026ef xfs/122: fix for swapext log items
-5d2aea2b1f6dc3ac84909bbd3c155edccc131aae generic: test old xfs extent swapping ioctl
-815ea93652305f0ebba36b3e0ed48602235b9b1c generic: test new vfs swapext ioctl
-81cbafc4597a0cc59e87eeae99ab7a1c8f2a70e8 generic, xfs: test scatter-gather atomic file updates
-f02d41a7b5cade6bb7f9b4009e787b284283eccf generic: test that file privilege gets dropped with FIEXCHANGE_RANGE
-bf183828b8f4c3caf3d3fd1f96d9f396db7508e5 fsx: support FIEXCHANGE_RANGE
-ae5ac04996c581c9e8b70bacb663ff5708f65e18 fsstress: update for FIEXCHANGE_RANGE
-d8cf497797b015b68e2e60822ba3e5eb2bc5714e xfs: race fsstress with online repair of realtime summary files
-a199f989b6f187e28b789ac69f0dbe3a55c1d572 xfs: race fsstress with online repair of extended attribute data
-249f5a78d3094477c8615cb62fb49ef3aec4f785 xfs: ensure that online directory repairs don't hit EDQUOT
-0999380268abb51a7e9f1cec4da920f5a077bad5 xfs: race fsstress with online repair of dirs and parent pointers
-fc0a397e3ec479a5883fbaba7dea75fd5cbf5ebf xfs: test xfs_scrub dry run, preen, and repair mode
-b3096c996a48960160b72738e5599df808a53260 common/rc: don't clear superblock for zoned scratch pools
-f7765774a1b5cb98c2f21a892e82b3421f40e791 generic/020: fix really long attr test failure for ceph
-c9a8237d8c5fdc4ef2d25a56069ffdcce22b5d4b check: generate section reports between tests
-c4473e90a4fe1b6d0c7cf77d9fcdf22852aea1a3 report: derive an xml schema for the xunit report
-4e77406f99b4624a065d8290b8e45e29adb8b072 report: capture the time zone in the test report timestamp
-e7a36e5fbd4cff148b5642132af261c46bec8d28 report: clarify the meaning of the timestamp attribute
-d203e87a2bcb075677925fa93462a78324ba1423 report: record fstests start and report generation timestamps
-21d1f01c021d75e3faa824dbe6a8dfa2dd609e1a report: encode cdata sections correctly
-a5ee28a4ec13d186e41e461997a31fbf147d8532 report: encode the kernel log as a separate xml element
-959235b87703de1e98238656e84bae561c32b6f0 report: sort properties by name
-2c95da79fbf3a9c7146c1e2fd697f382fbbea069 report: pass property value to _xunit_add_property
-742e144fedcfb383e088eb8e4e484b0a6672dc26 report: encode xml entities in property values
-31dc2c91e727311b181403ecbe57a311eee58eb0 report: collect basic information about a test run
-9902ebd0e0fb4d6327686ffd17f4b40f60ba9f28 report: record optional environment variables
-e8e4bddd474609f0284389f3c2323d9bb6779e65 report: record xfs-specific information about a test run
-2f066c6808adb1d1a1f6682d2eb0740facfecd49 report: record ext*-specific information about a test run
-3c708060bb0c4357649b24c8feadb8dca96dc3e2 report: allow test runners to inject arbitrary values
-fabf5dcd145d1d565e4c9727878f82fcfa099fbe xfs: test scaling of the mkfs concurrency options
-c1d2b42fb29e2137e72393ec8d5bd20a29f4f40f xfs: online fuzz test known output
-9aa1f156168b48d39a62ce45f862a65d3de56f35 xfs: offline fuzz test known output
-6ec145e27e9a54dfde37c9db9875d68313c252b1 xfs: norepair fuzz test known output
-252d09f535865014aeec131bbfb484a561144274 xfs: bothrepair fuzz test known output
-a853d74252e154b561186f2fbc4edce09c1b83e1 misc: privatize the FIEXCHANGE ioctl for now
-ac3655b823541f3bbd6581baf2bbffc47c702c68 misc: update xfs_io swapext usage
-d6f2c6e0e88a5026aa20a9e35ac68e3e336eb0a2 part two of fsstress cycling parent pointers with online repair
+a20990a0481571d5cb2d2294c9449ebb317a2b2f check: generate section reports between tests
+7e8a291e3bdf25bd57498131d86925bdc380837d report: derive an xml schema for the xunit report
+36c554feac175a5967ef70bab6904315c190484c report: capture the time zone in the test report timestamp
+f7367629f92fe4e90fd1f0764a919a841515a44f report: clarify the meaning of the timestamp attribute
+36c275a1500e88a7c09cc5108437dcbc40e6faeb report: record fstests start and report generation timestamps
+fc9f173562f94ffbeb432db5c0665c4e2ac49737 report: encode cdata sections correctly
+46e9c212bf8ba024f7d0eb1293e90f4df40a3fbe report: encode the kernel log as a separate xml element
+b9b05ccd3ff760be88ab3a9814113d7a519fc71f report: sort properties by name
+de57f6161f14ac071178f663d0634f210c1224e8 report: pass property value to _xunit_add_property
+6c65bb263b3304691eac93ff871ab7f0a5af29ad report: encode xml entities in property values
+57c3db4f694fe0b6bfaccd43efefbed965857fb9 report: collect basic information about a test run
+68b87376a7c82e114ab0af81414a2d102c0e5757 report: record optional environment variables
+b2f466196d7f510f9f51595423b8096ca1b84351 report: record xfs-specific information about a test run
+dcbe83cc7e5aa5e4c84492626e0ac1fa5b10bdff report: record ext*-specific information about a test run
+7e5db626c7e5f9adedff38e6fe2e4c3551e1007e report: allow test runners to inject arbitrary values
+4c0118d037c31479403f5890cfcd9b260bfa56eb xfs: test scaling of the mkfs concurrency options
+ec1ffd84a6a3cf87ca11ffeb3e34d13b60438074 xfs: online fuzz test known output
+f4ce31788d2a084db43c1af26f74b8dad0f01d1a xfs: offline fuzz test known output
+7df0d95f9957e231d90a47e3d147b0ed9113b244 xfs: norepair fuzz test known output
+422872dd54a6df272d47fb3c5e289ecc736391dd xfs: bothrepair fuzz test known output
+ce72ac0fca3b751516f5fddc5f0df3d72372a472 misc: privatize the FIEXCHANGE ioctl for now
+7e67f2a222f333adbb86fe105be3ae0b1c4b5577 misc: update xfs_io swapext usage
+d9cb58b671bcfce853e716f50c660a5e1ed88198 xfs: stress test cycling parent pointers with online repair
+25393397b78452f014b3c7fdee797ea23bb2269e xfs/004: fix column extraction code
+9e2feaeb8d07259790db23cf18b8a9eea5b682fd common: make helpers for ttyprintk usage
+e56c8eb1933658c280cb604595c1067980991f68 xfs: test upgrading old features
+c65e4803dab28d7dbb7ae1e96df2db7bdee07b4d xfs/122: fix metadirino
+5af7921255b08b9eb3eca99b2d6fd5d166267b98 various: fix finding metadata inode numbers when metadir is enabled
+df5a1a3d37996f57ec165f98e2e024cca8ebd857 xfs/{030,033,178}: forcibly disable metadata directory trees
+07f8c92951954d0f1cdb1e6ee3a495d2b2df59a6 common/repair: patch up repair sb inode value complaints
+c98190fca1519fb1d908d89ce1b988dbe9ea2e11 xfs/206: update for metadata directory support
+7918167f182ca8eebb738d37af161a91c5278e04 xfs/{050,144,153,299,330}: update quota reports to leave out metadir files
+96962db6498f5a049b2073d5b21bace04ecdb7cb xfs/856: add metadir upgrade to test matrix
+550cbdb4c9ffa8a03e62fdd995affd230cb0a5ac xfs/509: adjust inumbers accounting for metadata directories
+dfff28f84a609505f9d8c8aa1e92bacefd6b5918 xfs: create fuzz tests for metadata directories
+15486b67ae5468f6e5d52b52c51ee503eab73c67 xfs: baseline golden output for metadata directory fuzz tests
+cb27bb41e76f3438f0afbece822efb97a18a19e7 common/populate: refactor caching of metadumps to a helper
+34064dd2ef5a5e990192e617e57ce3efefcf12b4 common/xfs: wipe external logs during mdrestore operations
+c93188aac558742f4c681f46f31820abbf0a7a1e common/ext4: reformat external logs during mdrestore operations
+98c20a8ac153b402dc09f0779f5c287c2dca59b3 common/xfs: capture external logs during metadump/mdrestore
+8859356f1abd784ca884250e7470e76fac59e85c xfs/122: update for rtgroups
+38533bab4a6974820f7a29af5b937ae54727ccd9 punch-alternating: detect xfs realtime files with large allocation units
+2e01db287abdf75ae928b8e5d17ec931d38bc72c xfs/206: update mkfs filtering for rt groups feature
+46f6c37fa56657d76f225acd17746ed3e2a30a8f common: pass the realtime device to xfs_db when possible
+89b1d9514a1c61291791ec6fb8e55ec4d7ca31a2 common: filter rtgroups when we're disabling metadir
+bf5451f7e9a29d3608702a70a7983b15fc54962f xfs/185: update for rtgroups
+f2dbe68e794433fd04046f0318edcf00cb4011fa xfs/449: update test to know about xfs_db -R
+d1baa9ac941e78b5824c792a8db8ef64c27db73c xfs/122: update for rtbitmap headers
+bbf8cf6c39c8d12e8dff3d06aa58f6d601015d39 xfs/122: udpate test to pick up rtword/suminfo ondisk unions
+4a80848e05d8b1bd37ab79dcaf941c6ccdcb638b xfs/27[46],xfs/556: fix tests to deal with rtgroups output in bmap/fsmap commands
+a6b97e330d99bc7e0b7c5c7e5ddf8a1fb9955a84 common/xfs: capture realtime devices during metadump/mdrestore
+d93697f0a0643abc9b2375119ea5304939b4157a common/fuzzy: adapt the scrub stress tests to support rtgroups
+679da0364e365cdd2501f66bb38d9e38eb09db22 xfs: refactor statfs field extraction
+6e0f6eea8a263a1adbccf54891f23cc61c3a9275 generic/260: compute maximum fitrim offset
+83d98674b6853cd0dfdee2dabb650d2c8e7a5203 xfs: fix tests that try to access the realtime rmap inode
+70ad7bdfeffec5bb8fd365f25190aa2a20c8c501 fuzz: for fuzzing the rtrmapbt, find the path to the rt rmap btree file
+fcb090021e93b1132f5aaae5a80d64c4f1cb3083 xfs: race fsstress with realtime rmap btree scrub and repair
+3d936cad3d66eace6fbac42e7b2c8529617b849a xfs/856: add rtrmapbt upgrade to test matrix
+3c00d5b3d20cf39e0a238ba9169992240ccec7dc xfs/122: update for rtgroups-based realtime rmap btrees
+3caafd18d5d91bf44ec34039d22c57b309db204e xfs: fix various problems with fsmap detecting the data device
+c39a763f81dcdcb2dc4dc17f7c7584b4b195dff1 xfs/341: update test for rtgroup-based rmap
+3d44cc3140ae7ff1321f37b060ffd837ba491ad3 xfs/3{43,32}: adapt tests for rt extent size greater than 1
+8c0441ea60fedf6cb1c9a7c676f697bf148d4514 xfs: skip tests if formatting small filesystem fails
+8eaac144ae2ea0b27bed28d099779adcbee1beaa xfs/443: use file allocation unit, not dbsize
+48e9f8cfeba46487f54aaa2fc4bacaceaa3876ca populate: adjust rtrmap calculations for rtgroups
+9176932df4ec160bb96b9a7c6672649c59df7cb7 populate: check that we created a realtime rmap btree of the given height
+59dd66b4ffd465a52db5b448a23681c6cb40cb44 fuzzy: create missing fuzz tests for rt rmap btrees
+36e5920adbd02c85d574f1619220f6b77bf06828 fuzzy: create known output for rt rmap btree fuzz tests
+618c9d2a3f8a1169ddaba8247cd147c42252cd2a xfs/122: update fields for realtime reflink
+509a7e1845f12a3ddca1ab17729c8d93b0118d52 common/populate: create realtime refcount btree
+a51c5f7d871a7518088fea129281173eca5df003 xfs: create fuzz tests for the realtime refcount btree
+69a64500b0230917c45d668fee4d955e5309855f xfs/27[24]: adapt for checking files on the realtime volume
+d7af74c5bf36bf1fae0a5b7831a97d8e04c709fc xfs/243: don't run when realtime storage is the default
+db2aa8b154fa57ca0243529ffd8283787714be13 xfs: race fsstress with realtime refcount btree scrub and repair
+666bfd9ee3c227f74c71d110fdeed46b6babf248 xfs: remove xfs/131 now that we allow reflink on realtime volumes
+9ba7b3c4a9f146625396638ea659eec4eadd6a72 xfs/856: add rtreflink upgrade to test matrix
+03b8e9a80abe15af1f97f128389a6240660e6d40 generic/331,xfs/240: support files that skip delayed allocation
+6d0570ce372287949248561a40e7a32a1a1ced15 common/xfs: fix _xfs_get_file_block_size when rtinherit is set and no rt section
+88516c14fe833bebba2ce274ea489cce8e9f8e9c xfs: baseline golden output for rt refcount btree fuzz tests
+8f655607b0b1e74fc9d1b26a5b1301f499d44773 xfs: make sure that CoW will write around when rextsize > 1
+e0d8c4406f8c202ae9e2de8362b05d371d2d8e05 xfs: skip cowextsize hint fragmentation tests on realtime volumes
+ec024ffc5011655dc58176a4bf4c5d860383e913 misc: add more congruent oplen testing
+7d22511c41094896465ebfe66a79f0e20631f307 generic/303: avoid test failures on weird rt extent sizes
+c43deb86e7e2f0ecf1066f377a82f11c650f655a xfs: regression testing of quota on the realtime device
+c75bc4c866c71ea61394598afdccb244fa469335 xfs/122: update for vectored scrub
+346a308c4e35c61ef8f2a2d8cb173bdcda72efd2 xfs: test output of new FSREFCOUNTS ioctl
 
---===============7650299949684335615==
+--===============5328713760726719305==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-85f5a7b8450a-f961fb62429f.txt
+Content-Disposition: attachment; filename=revlist-9d6e57d99439-25393397b784.txt
 
-e19c99400cfe67bd5f11d3cfe5587446ed3026ef xfs/122: fix for swapext log items
-5d2aea2b1f6dc3ac84909bbd3c155edccc131aae generic: test old xfs extent swapping ioctl
-815ea93652305f0ebba36b3e0ed48602235b9b1c generic: test new vfs swapext ioctl
-81cbafc4597a0cc59e87eeae99ab7a1c8f2a70e8 generic, xfs: test scatter-gather atomic file updates
-f02d41a7b5cade6bb7f9b4009e787b284283eccf generic: test that file privilege gets dropped with FIEXCHANGE_RANGE
-bf183828b8f4c3caf3d3fd1f96d9f396db7508e5 fsx: support FIEXCHANGE_RANGE
-ae5ac04996c581c9e8b70bacb663ff5708f65e18 fsstress: update for FIEXCHANGE_RANGE
-d8cf497797b015b68e2e60822ba3e5eb2bc5714e xfs: race fsstress with online repair of realtime summary files
-a199f989b6f187e28b789ac69f0dbe3a55c1d572 xfs: race fsstress with online repair of extended attribute data
-249f5a78d3094477c8615cb62fb49ef3aec4f785 xfs: ensure that online directory repairs don't hit EDQUOT
-0999380268abb51a7e9f1cec4da920f5a077bad5 xfs: race fsstress with online repair of dirs and parent pointers
-fc0a397e3ec479a5883fbaba7dea75fd5cbf5ebf xfs: test xfs_scrub dry run, preen, and repair mode
-b3096c996a48960160b72738e5599df808a53260 common/rc: don't clear superblock for zoned scratch pools
-f7765774a1b5cb98c2f21a892e82b3421f40e791 generic/020: fix really long attr test failure for ceph
-c9a8237d8c5fdc4ef2d25a56069ffdcce22b5d4b check: generate section reports between tests
-c4473e90a4fe1b6d0c7cf77d9fcdf22852aea1a3 report: derive an xml schema for the xunit report
-4e77406f99b4624a065d8290b8e45e29adb8b072 report: capture the time zone in the test report timestamp
-e7a36e5fbd4cff148b5642132af261c46bec8d28 report: clarify the meaning of the timestamp attribute
-d203e87a2bcb075677925fa93462a78324ba1423 report: record fstests start and report generation timestamps
-21d1f01c021d75e3faa824dbe6a8dfa2dd609e1a report: encode cdata sections correctly
-a5ee28a4ec13d186e41e461997a31fbf147d8532 report: encode the kernel log as a separate xml element
-959235b87703de1e98238656e84bae561c32b6f0 report: sort properties by name
-2c95da79fbf3a9c7146c1e2fd697f382fbbea069 report: pass property value to _xunit_add_property
-742e144fedcfb383e088eb8e4e484b0a6672dc26 report: encode xml entities in property values
-31dc2c91e727311b181403ecbe57a311eee58eb0 report: collect basic information about a test run
-9902ebd0e0fb4d6327686ffd17f4b40f60ba9f28 report: record optional environment variables
-e8e4bddd474609f0284389f3c2323d9bb6779e65 report: record xfs-specific information about a test run
-2f066c6808adb1d1a1f6682d2eb0740facfecd49 report: record ext*-specific information about a test run
-3c708060bb0c4357649b24c8feadb8dca96dc3e2 report: allow test runners to inject arbitrary values
-fabf5dcd145d1d565e4c9727878f82fcfa099fbe xfs: test scaling of the mkfs concurrency options
-c1d2b42fb29e2137e72393ec8d5bd20a29f4f40f xfs: online fuzz test known output
-9aa1f156168b48d39a62ce45f862a65d3de56f35 xfs: offline fuzz test known output
-6ec145e27e9a54dfde37c9db9875d68313c252b1 xfs: norepair fuzz test known output
-252d09f535865014aeec131bbfb484a561144274 xfs: bothrepair fuzz test known output
-a853d74252e154b561186f2fbc4edce09c1b83e1 misc: privatize the FIEXCHANGE ioctl for now
-ac3655b823541f3bbd6581baf2bbffc47c702c68 misc: update xfs_io swapext usage
-d6f2c6e0e88a5026aa20a9e35ac68e3e336eb0a2 part two of fsstress cycling parent pointers with online repair
-9d6e57d99439051b8286b149ed0289b3404a1728 xfs/004: fix column extraction code
-2b7243feadb791314040d4b868322554cd9940e8 common: make helpers for ttyprintk usage
-8b425e57b6d2e16605a4b5d267ac48269a0b066a xfs: test upgrading old features
-720cd44e24ffa461739e49781c8751c9b8cdc4b3 xfs/122: fix metadirino
-d2f50d13bac80bf92f0e42e70e1d185a483fcf4f various: fix finding metadata inode numbers when metadir is enabled
-3a9e26631305d3d5b7b02c1a1c0c81ee52bd6b3e xfs/{030,033,178}: forcibly disable metadata directory trees
-a590753c3caa28f4f405fc43ac9089a6bc545b32 common/repair: patch up repair sb inode value complaints
-94d91f71981306002c48f781f2fcb7775db3168e xfs/206: update for metadata directory support
-a1f12e21d3040b860e9a0306f1af69d1fed7ac24 xfs/{050,144,153,299,330}: update quota reports to leave out metadir files
-e80adde27d8463eb3b8541a4486258471dfaf95c xfs/856: add metadir upgrade to test matrix
-1c1766350573f7c4f4770a2a2c707a45fcc4b39e xfs/509: adjust inumbers accounting for metadata directories
-0f7d59c9318f5478111678d6d02db1f8d7a15746 xfs: create fuzz tests for metadata directories
-debd441c309700797bc931963a4e448d3061f9a6 xfs: baseline golden output for metadata directory fuzz tests
-b29ef644541b73302f1c837fc360c665ab8e9bc1 common/populate: refactor caching of metadumps to a helper
-2e05c670d52763cffb683dcdbd8ae41449cec1db common/xfs: wipe external logs during mdrestore operations
-b3a1c673f5c048207dfb88a852c6ce4fd0b4c920 common/ext4: reformat external logs during mdrestore operations
-18bf91ea164c28a87dbcbda19078d704fc32d6e4 common/xfs: capture external logs during metadump/mdrestore
-5db43b00908318341316d070852cba1bf6c3e33f xfs/122: update for rtgroups
-f255e694bbe314a3f83eb80d5ad849d668021b07 punch-alternating: detect xfs realtime files with large allocation units
-c0e0898b69ff971cee0bcee60f51da77ad44d497 xfs/206: update mkfs filtering for rt groups feature
-7a0494cf4e4abc035cd3c9cbb5410cde9c576fdc common: pass the realtime device to xfs_db when possible
-eaca8b4a5aca0b0f3ebcfdfda24c106d1e8e9290 common: filter rtgroups when we're disabling metadir
-42545dded44530dfd209d9a09360e20e11ceb668 xfs/185: update for rtgroups
-04365465c86b65a032143f4818c85b458a5a71e6 xfs/449: update test to know about xfs_db -R
-babd2b35aadcdec8b689a9496686a93b819a3453 xfs/122: update for rtbitmap headers
-87a611b7bacf494d7b4826305edfb8b164e8e7ac xfs/122: udpate test to pick up rtword/suminfo ondisk unions
-fb5bc27682e2515fa7e58383732c93f5e5f5da94 xfs/27[46],xfs/556: fix tests to deal with rtgroups output in bmap/fsmap commands
-f21098a98260b6ef51cde6e9a060a375639818c5 common/xfs: capture realtime devices during metadump/mdrestore
-f75eed08daa154344645a83426c3b056469d33fc common/fuzzy: adapt the scrub stress tests to support rtgroups
-9b8c374e47902fa305a5c713b58e9fb4502ad084 xfs: refactor statfs field extraction
-20bf67c10d5495560bfe05f0e8cdec31d6c8061a generic/260: compute maximum fitrim offset
-603f7fe264e2c0b650e4a54e455b5f93085bc826 xfs: fix tests that try to access the realtime rmap inode
-4e876ffec1e72f5be51fa91093e56737a6fbd7ae fuzz: for fuzzing the rtrmapbt, find the path to the rt rmap btree file
-c19e7c1c1a106dbb8e3cc44e9442ddfcfaa914f2 xfs: race fsstress with realtime rmap btree scrub and repair
-34522c16fe79b1c551e6fef8771ed4b766e27e9a xfs/856: add rtrmapbt upgrade to test matrix
-e44fe92a6b56c284a000a4776eb0bdd6d51d5507 xfs/122: update for rtgroups-based realtime rmap btrees
-c1bc17216efbae32cc9a893a37df70d37c4332c8 xfs: fix various problems with fsmap detecting the data device
-24d7998139332c63ea27d8588b4c5f50a61eceaa xfs/341: update test for rtgroup-based rmap
-619c45185c9e71ef9f28df59a8ace6327b050e39 xfs/3{43,32}: adapt tests for rt extent size greater than 1
-e4e0d5b25cf3cb70d211f7241ac0ab68f3a636e0 xfs: skip tests if formatting small filesystem fails
-dcfb16341bd917ebf40300486e50c80bd1fba25f xfs/443: use file allocation unit, not dbsize
-361003395f75e0651f1dc66341543e68e9b2a22d populate: adjust rtrmap calculations for rtgroups
-c75f6e6c2283644c4b63283baabb2b93bbc92f2e populate: check that we created a realtime rmap btree of the given height
-d3facc8e97762b8aa85e4445db91e2a348d2c3a6 fuzzy: create missing fuzz tests for rt rmap btrees
-a8a65edf8b525a4b18a9246990ae218e3eb85421 fuzzy: create known output for rt rmap btree fuzz tests
-89d3d26536cd219ceaa10947741da4d1778de7fb xfs/122: update fields for realtime reflink
-9373f3da6f443eed115814b4fa8ed7e2a303d42c common/populate: create realtime refcount btree
-a69804c1d785b393be78660bcedfbff63524e13f xfs: create fuzz tests for the realtime refcount btree
-c9ff465a55a0113e940f94908d271329b7a1241e xfs/27[24]: adapt for checking files on the realtime volume
-db1adfb83a7c40438979b32d81d587cf8bf9364b xfs/243: don't run when realtime storage is the default
-8c87c55e1541005dc7ce421cb2ef1059240987fc xfs: race fsstress with realtime refcount btree scrub and repair
-424b3346b6724469fda09ab9190e951b5b290b44 xfs: remove xfs/131 now that we allow reflink on realtime volumes
-56ebebafce6b05d3fbc17f786062dc973e516a90 xfs/856: add rtreflink upgrade to test matrix
-8379ca11722dfe043195d224bef2de92c4a6ea54 generic/331,xfs/240: support files that skip delayed allocation
-78efe2e701b92fac8a18091021de4b83444e4c92 common/xfs: fix _xfs_get_file_block_size when rtinherit is set and no rt section
-621755b246070dba55955fc50053620209da2d43 xfs: baseline golden output for rt refcount btree fuzz tests
-000c7df73f33f89b14af715410c3c4470cd3032e xfs: make sure that CoW will write around when rextsize > 1
-95166c4299584d5cf83e71abd537898aa8f77546 xfs: skip cowextsize hint fragmentation tests on realtime volumes
-8cc9c13ae7330065753c8cbf2f4c4f5fc4234dbc misc: add more congruent oplen testing
-7d1f5cc90c8b3f466735c9ec2e56b4ee9f66d5df generic/303: avoid test failures on weird rt extent sizes
-5b3c32b3611aa42624f0e353162a1d03b61ba59e xfs: regression testing of quota on the realtime device
-21d5f7c2a36a0802432cf65a84d44d1114d2e458 xfs/122: update for vectored scrub
-f961fb62429f00320f10eb77bbe5536cea53eacf xfs: test output of new FSREFCOUNTS ioctl
+a20990a0481571d5cb2d2294c9449ebb317a2b2f check: generate section reports between tests
+7e8a291e3bdf25bd57498131d86925bdc380837d report: derive an xml schema for the xunit report
+36c554feac175a5967ef70bab6904315c190484c report: capture the time zone in the test report timestamp
+f7367629f92fe4e90fd1f0764a919a841515a44f report: clarify the meaning of the timestamp attribute
+36c275a1500e88a7c09cc5108437dcbc40e6faeb report: record fstests start and report generation timestamps
+fc9f173562f94ffbeb432db5c0665c4e2ac49737 report: encode cdata sections correctly
+46e9c212bf8ba024f7d0eb1293e90f4df40a3fbe report: encode the kernel log as a separate xml element
+b9b05ccd3ff760be88ab3a9814113d7a519fc71f report: sort properties by name
+de57f6161f14ac071178f663d0634f210c1224e8 report: pass property value to _xunit_add_property
+6c65bb263b3304691eac93ff871ab7f0a5af29ad report: encode xml entities in property values
+57c3db4f694fe0b6bfaccd43efefbed965857fb9 report: collect basic information about a test run
+68b87376a7c82e114ab0af81414a2d102c0e5757 report: record optional environment variables
+b2f466196d7f510f9f51595423b8096ca1b84351 report: record xfs-specific information about a test run
+dcbe83cc7e5aa5e4c84492626e0ac1fa5b10bdff report: record ext*-specific information about a test run
+7e5db626c7e5f9adedff38e6fe2e4c3551e1007e report: allow test runners to inject arbitrary values
+4c0118d037c31479403f5890cfcd9b260bfa56eb xfs: test scaling of the mkfs concurrency options
+ec1ffd84a6a3cf87ca11ffeb3e34d13b60438074 xfs: online fuzz test known output
+f4ce31788d2a084db43c1af26f74b8dad0f01d1a xfs: offline fuzz test known output
+7df0d95f9957e231d90a47e3d147b0ed9113b244 xfs: norepair fuzz test known output
+422872dd54a6df272d47fb3c5e289ecc736391dd xfs: bothrepair fuzz test known output
+ce72ac0fca3b751516f5fddc5f0df3d72372a472 misc: privatize the FIEXCHANGE ioctl for now
+7e67f2a222f333adbb86fe105be3ae0b1c4b5577 misc: update xfs_io swapext usage
+d9cb58b671bcfce853e716f50c660a5e1ed88198 xfs: stress test cycling parent pointers with online repair
+25393397b78452f014b3c7fdee797ea23bb2269e xfs/004: fix column extraction code
 
---===============7650299949684335615==
+--===============5328713760726719305==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-36da45e2e2bd-9d6e57d99439.txt
+Content-Disposition: attachment; filename=revlist-cd643df6e014-cba5b0163b48.txt
 
-e19c99400cfe67bd5f11d3cfe5587446ed3026ef xfs/122: fix for swapext log items
-5d2aea2b1f6dc3ac84909bbd3c155edccc131aae generic: test old xfs extent swapping ioctl
-815ea93652305f0ebba36b3e0ed48602235b9b1c generic: test new vfs swapext ioctl
-81cbafc4597a0cc59e87eeae99ab7a1c8f2a70e8 generic, xfs: test scatter-gather atomic file updates
-f02d41a7b5cade6bb7f9b4009e787b284283eccf generic: test that file privilege gets dropped with FIEXCHANGE_RANGE
-bf183828b8f4c3caf3d3fd1f96d9f396db7508e5 fsx: support FIEXCHANGE_RANGE
-ae5ac04996c581c9e8b70bacb663ff5708f65e18 fsstress: update for FIEXCHANGE_RANGE
-d8cf497797b015b68e2e60822ba3e5eb2bc5714e xfs: race fsstress with online repair of realtime summary files
-a199f989b6f187e28b789ac69f0dbe3a55c1d572 xfs: race fsstress with online repair of extended attribute data
-249f5a78d3094477c8615cb62fb49ef3aec4f785 xfs: ensure that online directory repairs don't hit EDQUOT
-0999380268abb51a7e9f1cec4da920f5a077bad5 xfs: race fsstress with online repair of dirs and parent pointers
-fc0a397e3ec479a5883fbaba7dea75fd5cbf5ebf xfs: test xfs_scrub dry run, preen, and repair mode
-b3096c996a48960160b72738e5599df808a53260 common/rc: don't clear superblock for zoned scratch pools
-f7765774a1b5cb98c2f21a892e82b3421f40e791 generic/020: fix really long attr test failure for ceph
-c9a8237d8c5fdc4ef2d25a56069ffdcce22b5d4b check: generate section reports between tests
-c4473e90a4fe1b6d0c7cf77d9fcdf22852aea1a3 report: derive an xml schema for the xunit report
-4e77406f99b4624a065d8290b8e45e29adb8b072 report: capture the time zone in the test report timestamp
-e7a36e5fbd4cff148b5642132af261c46bec8d28 report: clarify the meaning of the timestamp attribute
-d203e87a2bcb075677925fa93462a78324ba1423 report: record fstests start and report generation timestamps
-21d1f01c021d75e3faa824dbe6a8dfa2dd609e1a report: encode cdata sections correctly
-a5ee28a4ec13d186e41e461997a31fbf147d8532 report: encode the kernel log as a separate xml element
-959235b87703de1e98238656e84bae561c32b6f0 report: sort properties by name
-2c95da79fbf3a9c7146c1e2fd697f382fbbea069 report: pass property value to _xunit_add_property
-742e144fedcfb383e088eb8e4e484b0a6672dc26 report: encode xml entities in property values
-31dc2c91e727311b181403ecbe57a311eee58eb0 report: collect basic information about a test run
-9902ebd0e0fb4d6327686ffd17f4b40f60ba9f28 report: record optional environment variables
-e8e4bddd474609f0284389f3c2323d9bb6779e65 report: record xfs-specific information about a test run
-2f066c6808adb1d1a1f6682d2eb0740facfecd49 report: record ext*-specific information about a test run
-3c708060bb0c4357649b24c8feadb8dca96dc3e2 report: allow test runners to inject arbitrary values
-fabf5dcd145d1d565e4c9727878f82fcfa099fbe xfs: test scaling of the mkfs concurrency options
-c1d2b42fb29e2137e72393ec8d5bd20a29f4f40f xfs: online fuzz test known output
-9aa1f156168b48d39a62ce45f862a65d3de56f35 xfs: offline fuzz test known output
-6ec145e27e9a54dfde37c9db9875d68313c252b1 xfs: norepair fuzz test known output
-252d09f535865014aeec131bbfb484a561144274 xfs: bothrepair fuzz test known output
-a853d74252e154b561186f2fbc4edce09c1b83e1 misc: privatize the FIEXCHANGE ioctl for now
-ac3655b823541f3bbd6581baf2bbffc47c702c68 misc: update xfs_io swapext usage
-d6f2c6e0e88a5026aa20a9e35ac68e3e336eb0a2 part two of fsstress cycling parent pointers with online repair
-9d6e57d99439051b8286b149ed0289b3404a1728 xfs/004: fix column extraction code
+a20990a0481571d5cb2d2294c9449ebb317a2b2f check: generate section reports between tests
+7e8a291e3bdf25bd57498131d86925bdc380837d report: derive an xml schema for the xunit report
+36c554feac175a5967ef70bab6904315c190484c report: capture the time zone in the test report timestamp
+f7367629f92fe4e90fd1f0764a919a841515a44f report: clarify the meaning of the timestamp attribute
+36c275a1500e88a7c09cc5108437dcbc40e6faeb report: record fstests start and report generation timestamps
+fc9f173562f94ffbeb432db5c0665c4e2ac49737 report: encode cdata sections correctly
+46e9c212bf8ba024f7d0eb1293e90f4df40a3fbe report: encode the kernel log as a separate xml element
+b9b05ccd3ff760be88ab3a9814113d7a519fc71f report: sort properties by name
+de57f6161f14ac071178f663d0634f210c1224e8 report: pass property value to _xunit_add_property
+6c65bb263b3304691eac93ff871ab7f0a5af29ad report: encode xml entities in property values
+57c3db4f694fe0b6bfaccd43efefbed965857fb9 report: collect basic information about a test run
+68b87376a7c82e114ab0af81414a2d102c0e5757 report: record optional environment variables
+b2f466196d7f510f9f51595423b8096ca1b84351 report: record xfs-specific information about a test run
+dcbe83cc7e5aa5e4c84492626e0ac1fa5b10bdff report: record ext*-specific information about a test run
+7e5db626c7e5f9adedff38e6fe2e4c3551e1007e report: allow test runners to inject arbitrary values
+4c0118d037c31479403f5890cfcd9b260bfa56eb xfs: test scaling of the mkfs concurrency options
+ec1ffd84a6a3cf87ca11ffeb3e34d13b60438074 xfs: online fuzz test known output
+f4ce31788d2a084db43c1af26f74b8dad0f01d1a xfs: offline fuzz test known output
+7df0d95f9957e231d90a47e3d147b0ed9113b244 xfs: norepair fuzz test known output
+422872dd54a6df272d47fb3c5e289ecc736391dd xfs: bothrepair fuzz test known output
+ce72ac0fca3b751516f5fddc5f0df3d72372a472 misc: privatize the FIEXCHANGE ioctl for now
+7e67f2a222f333adbb86fe105be3ae0b1c4b5577 misc: update xfs_io swapext usage
+d9cb58b671bcfce853e716f50c660a5e1ed88198 xfs: stress test cycling parent pointers with online repair
+25393397b78452f014b3c7fdee797ea23bb2269e xfs/004: fix column extraction code
+9e2feaeb8d07259790db23cf18b8a9eea5b682fd common: make helpers for ttyprintk usage
+e56c8eb1933658c280cb604595c1067980991f68 xfs: test upgrading old features
+c65e4803dab28d7dbb7ae1e96df2db7bdee07b4d xfs/122: fix metadirino
+5af7921255b08b9eb3eca99b2d6fd5d166267b98 various: fix finding metadata inode numbers when metadir is enabled
+df5a1a3d37996f57ec165f98e2e024cca8ebd857 xfs/{030,033,178}: forcibly disable metadata directory trees
+07f8c92951954d0f1cdb1e6ee3a495d2b2df59a6 common/repair: patch up repair sb inode value complaints
+c98190fca1519fb1d908d89ce1b988dbe9ea2e11 xfs/206: update for metadata directory support
+7918167f182ca8eebb738d37af161a91c5278e04 xfs/{050,144,153,299,330}: update quota reports to leave out metadir files
+96962db6498f5a049b2073d5b21bace04ecdb7cb xfs/856: add metadir upgrade to test matrix
+550cbdb4c9ffa8a03e62fdd995affd230cb0a5ac xfs/509: adjust inumbers accounting for metadata directories
+dfff28f84a609505f9d8c8aa1e92bacefd6b5918 xfs: create fuzz tests for metadata directories
+15486b67ae5468f6e5d52b52c51ee503eab73c67 xfs: baseline golden output for metadata directory fuzz tests
+cb27bb41e76f3438f0afbece822efb97a18a19e7 common/populate: refactor caching of metadumps to a helper
+34064dd2ef5a5e990192e617e57ce3efefcf12b4 common/xfs: wipe external logs during mdrestore operations
+c93188aac558742f4c681f46f31820abbf0a7a1e common/ext4: reformat external logs during mdrestore operations
+98c20a8ac153b402dc09f0779f5c287c2dca59b3 common/xfs: capture external logs during metadump/mdrestore
+8859356f1abd784ca884250e7470e76fac59e85c xfs/122: update for rtgroups
+38533bab4a6974820f7a29af5b937ae54727ccd9 punch-alternating: detect xfs realtime files with large allocation units
+2e01db287abdf75ae928b8e5d17ec931d38bc72c xfs/206: update mkfs filtering for rt groups feature
+46f6c37fa56657d76f225acd17746ed3e2a30a8f common: pass the realtime device to xfs_db when possible
+89b1d9514a1c61291791ec6fb8e55ec4d7ca31a2 common: filter rtgroups when we're disabling metadir
+bf5451f7e9a29d3608702a70a7983b15fc54962f xfs/185: update for rtgroups
+f2dbe68e794433fd04046f0318edcf00cb4011fa xfs/449: update test to know about xfs_db -R
+d1baa9ac941e78b5824c792a8db8ef64c27db73c xfs/122: update for rtbitmap headers
+bbf8cf6c39c8d12e8dff3d06aa58f6d601015d39 xfs/122: udpate test to pick up rtword/suminfo ondisk unions
+4a80848e05d8b1bd37ab79dcaf941c6ccdcb638b xfs/27[46],xfs/556: fix tests to deal with rtgroups output in bmap/fsmap commands
+a6b97e330d99bc7e0b7c5c7e5ddf8a1fb9955a84 common/xfs: capture realtime devices during metadump/mdrestore
+d93697f0a0643abc9b2375119ea5304939b4157a common/fuzzy: adapt the scrub stress tests to support rtgroups
+679da0364e365cdd2501f66bb38d9e38eb09db22 xfs: refactor statfs field extraction
+6e0f6eea8a263a1adbccf54891f23cc61c3a9275 generic/260: compute maximum fitrim offset
+83d98674b6853cd0dfdee2dabb650d2c8e7a5203 xfs: fix tests that try to access the realtime rmap inode
+70ad7bdfeffec5bb8fd365f25190aa2a20c8c501 fuzz: for fuzzing the rtrmapbt, find the path to the rt rmap btree file
+fcb090021e93b1132f5aaae5a80d64c4f1cb3083 xfs: race fsstress with realtime rmap btree scrub and repair
+3d936cad3d66eace6fbac42e7b2c8529617b849a xfs/856: add rtrmapbt upgrade to test matrix
+3c00d5b3d20cf39e0a238ba9169992240ccec7dc xfs/122: update for rtgroups-based realtime rmap btrees
+3caafd18d5d91bf44ec34039d22c57b309db204e xfs: fix various problems with fsmap detecting the data device
+c39a763f81dcdcb2dc4dc17f7c7584b4b195dff1 xfs/341: update test for rtgroup-based rmap
+3d44cc3140ae7ff1321f37b060ffd837ba491ad3 xfs/3{43,32}: adapt tests for rt extent size greater than 1
+8c0441ea60fedf6cb1c9a7c676f697bf148d4514 xfs: skip tests if formatting small filesystem fails
+8eaac144ae2ea0b27bed28d099779adcbee1beaa xfs/443: use file allocation unit, not dbsize
+48e9f8cfeba46487f54aaa2fc4bacaceaa3876ca populate: adjust rtrmap calculations for rtgroups
+9176932df4ec160bb96b9a7c6672649c59df7cb7 populate: check that we created a realtime rmap btree of the given height
+59dd66b4ffd465a52db5b448a23681c6cb40cb44 fuzzy: create missing fuzz tests for rt rmap btrees
+36e5920adbd02c85d574f1619220f6b77bf06828 fuzzy: create known output for rt rmap btree fuzz tests
+618c9d2a3f8a1169ddaba8247cd147c42252cd2a xfs/122: update fields for realtime reflink
+509a7e1845f12a3ddca1ab17729c8d93b0118d52 common/populate: create realtime refcount btree
+a51c5f7d871a7518088fea129281173eca5df003 xfs: create fuzz tests for the realtime refcount btree
+69a64500b0230917c45d668fee4d955e5309855f xfs/27[24]: adapt for checking files on the realtime volume
+d7af74c5bf36bf1fae0a5b7831a97d8e04c709fc xfs/243: don't run when realtime storage is the default
+db2aa8b154fa57ca0243529ffd8283787714be13 xfs: race fsstress with realtime refcount btree scrub and repair
+666bfd9ee3c227f74c71d110fdeed46b6babf248 xfs: remove xfs/131 now that we allow reflink on realtime volumes
+9ba7b3c4a9f146625396638ea659eec4eadd6a72 xfs/856: add rtreflink upgrade to test matrix
+03b8e9a80abe15af1f97f128389a6240660e6d40 generic/331,xfs/240: support files that skip delayed allocation
+6d0570ce372287949248561a40e7a32a1a1ced15 common/xfs: fix _xfs_get_file_block_size when rtinherit is set and no rt section
+88516c14fe833bebba2ce274ea489cce8e9f8e9c xfs: baseline golden output for rt refcount btree fuzz tests
+8f655607b0b1e74fc9d1b26a5b1301f499d44773 xfs: make sure that CoW will write around when rextsize > 1
+e0d8c4406f8c202ae9e2de8362b05d371d2d8e05 xfs: skip cowextsize hint fragmentation tests on realtime volumes
+ec024ffc5011655dc58176a4bf4c5d860383e913 misc: add more congruent oplen testing
+7d22511c41094896465ebfe66a79f0e20631f307 generic/303: avoid test failures on weird rt extent sizes
+c43deb86e7e2f0ecf1066f377a82f11c650f655a xfs: regression testing of quota on the realtime device
+c75bc4c866c71ea61394598afdccb244fa469335 xfs/122: update for vectored scrub
+346a308c4e35c61ef8f2a2d8cb173bdcda72efd2 xfs: test output of new FSREFCOUNTS ioctl
+c3284d13c671272211c6f2464e658156d329a981 xfs: test clearing of free space
+33364f4c7b67b53d042369a3d8905e0067ab0dad xfs/122: update for parent pointers
+6dbcb0ffd561be2fbf749438132c99129fa8283b populate: create hardlinks for parent pointers
+b8741313c541f98592424508dc6e6b221b15ecfc xfs/021: adapt golden output files for parent pointers
+d32b334245c9fdd814059833ffc46fb795f42bdb generic/050: adapt for parent pointers
+260e43317d4e413caa04d8fe245274daab59db07 xfs/018: disable parent pointers for this test
+ce25ef5ca039ee560b599e358b715448088e1a09 xfs/306: fix formatting failures with parent pointers
+c6007175b9ead4588e7260445f94baa6f7c76c97 common: add helpers for parent pointer tests
+a781cfd1f3ca1d6fb2253707505d0d6982b65784 xfs: add parent pointer test
+03f007bca20e8ad5d5fa5503e6f3c5a588133ad2 xfs: add multi link parent pointer test
+5da830b6e2e71c50e9da4621797547f13d0ca8fa xfs: add parent pointer inject test
+c7a778d36d06b811a988d4abce8f9f5cf97c9667 common/parent: add license and copyright
+3567763fd36d9d45ae87c0d048b41da56c5c836c common/parent: don't _fail on missing parent pointer components
+ce7b54532e127b16e41eb6e90391926fd2d61fb4 common/parent: check xfs_io parent command paths
+cb0ca7bd9490d02b474dc8a45060e32ef3173b8e xfs/851: test xfs_io parent -p too
+d93e13adaf6f16ad596b9f4c436b4dda69084954 misc: adjust for parent pointers with namehashes
+a3d2c0122507cd0e982a898368b379d81306809b xfs/021: adjust for short parent pointers with hashes
+9c1bbbe09792510ce29746cf03e37e134f6ef41d xfs/242: fix _filter_bmap for xfs_io bmap that does rt file properly
+dc24ccf06f9e396be613f120ce4f5f1f598529aa xfs/021: adjust for short valuelens
+6c0478d908e4e201170240b4d6e5b587e022e496 xfs/122: adjust for flex-array XFS_IOC_GETPARENTS ioctl
+d377a152fab26d2fcace8e954a0b56a86a4d9fa3 generic/476: reclassify this test as a long running soak stress test
+dcaa53cfb23d73d2476e6fb26bf9fd03db86da61 misc: add duration for long soak tests
+cba5b0163b485bcda4d6e66c9c10a58d798a8230 misc: add duration for recovery loop tests
 
---===============7650299949684335615==
+--===============5328713760726719305==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e227482f5323-cd643df6e014.txt
+Content-Disposition: attachment; filename=revlist-026053f45f3e-86a022bf8628.txt
 
-e19c99400cfe67bd5f11d3cfe5587446ed3026ef xfs/122: fix for swapext log items
-5d2aea2b1f6dc3ac84909bbd3c155edccc131aae generic: test old xfs extent swapping ioctl
-815ea93652305f0ebba36b3e0ed48602235b9b1c generic: test new vfs swapext ioctl
-81cbafc4597a0cc59e87eeae99ab7a1c8f2a70e8 generic, xfs: test scatter-gather atomic file updates
-f02d41a7b5cade6bb7f9b4009e787b284283eccf generic: test that file privilege gets dropped with FIEXCHANGE_RANGE
-bf183828b8f4c3caf3d3fd1f96d9f396db7508e5 fsx: support FIEXCHANGE_RANGE
-ae5ac04996c581c9e8b70bacb663ff5708f65e18 fsstress: update for FIEXCHANGE_RANGE
-d8cf497797b015b68e2e60822ba3e5eb2bc5714e xfs: race fsstress with online repair of realtime summary files
-a199f989b6f187e28b789ac69f0dbe3a55c1d572 xfs: race fsstress with online repair of extended attribute data
-249f5a78d3094477c8615cb62fb49ef3aec4f785 xfs: ensure that online directory repairs don't hit EDQUOT
-0999380268abb51a7e9f1cec4da920f5a077bad5 xfs: race fsstress with online repair of dirs and parent pointers
-fc0a397e3ec479a5883fbaba7dea75fd5cbf5ebf xfs: test xfs_scrub dry run, preen, and repair mode
-b3096c996a48960160b72738e5599df808a53260 common/rc: don't clear superblock for zoned scratch pools
-f7765774a1b5cb98c2f21a892e82b3421f40e791 generic/020: fix really long attr test failure for ceph
-c9a8237d8c5fdc4ef2d25a56069ffdcce22b5d4b check: generate section reports between tests
-c4473e90a4fe1b6d0c7cf77d9fcdf22852aea1a3 report: derive an xml schema for the xunit report
-4e77406f99b4624a065d8290b8e45e29adb8b072 report: capture the time zone in the test report timestamp
-e7a36e5fbd4cff148b5642132af261c46bec8d28 report: clarify the meaning of the timestamp attribute
-d203e87a2bcb075677925fa93462a78324ba1423 report: record fstests start and report generation timestamps
-21d1f01c021d75e3faa824dbe6a8dfa2dd609e1a report: encode cdata sections correctly
-a5ee28a4ec13d186e41e461997a31fbf147d8532 report: encode the kernel log as a separate xml element
-959235b87703de1e98238656e84bae561c32b6f0 report: sort properties by name
-2c95da79fbf3a9c7146c1e2fd697f382fbbea069 report: pass property value to _xunit_add_property
-742e144fedcfb383e088eb8e4e484b0a6672dc26 report: encode xml entities in property values
-31dc2c91e727311b181403ecbe57a311eee58eb0 report: collect basic information about a test run
-9902ebd0e0fb4d6327686ffd17f4b40f60ba9f28 report: record optional environment variables
-e8e4bddd474609f0284389f3c2323d9bb6779e65 report: record xfs-specific information about a test run
-2f066c6808adb1d1a1f6682d2eb0740facfecd49 report: record ext*-specific information about a test run
-3c708060bb0c4357649b24c8feadb8dca96dc3e2 report: allow test runners to inject arbitrary values
-fabf5dcd145d1d565e4c9727878f82fcfa099fbe xfs: test scaling of the mkfs concurrency options
-c1d2b42fb29e2137e72393ec8d5bd20a29f4f40f xfs: online fuzz test known output
-9aa1f156168b48d39a62ce45f862a65d3de56f35 xfs: offline fuzz test known output
-6ec145e27e9a54dfde37c9db9875d68313c252b1 xfs: norepair fuzz test known output
-252d09f535865014aeec131bbfb484a561144274 xfs: bothrepair fuzz test known output
-a853d74252e154b561186f2fbc4edce09c1b83e1 misc: privatize the FIEXCHANGE ioctl for now
-ac3655b823541f3bbd6581baf2bbffc47c702c68 misc: update xfs_io swapext usage
-d6f2c6e0e88a5026aa20a9e35ac68e3e336eb0a2 part two of fsstress cycling parent pointers with online repair
-9d6e57d99439051b8286b149ed0289b3404a1728 xfs/004: fix column extraction code
-2b7243feadb791314040d4b868322554cd9940e8 common: make helpers for ttyprintk usage
-8b425e57b6d2e16605a4b5d267ac48269a0b066a xfs: test upgrading old features
-720cd44e24ffa461739e49781c8751c9b8cdc4b3 xfs/122: fix metadirino
-d2f50d13bac80bf92f0e42e70e1d185a483fcf4f various: fix finding metadata inode numbers when metadir is enabled
-3a9e26631305d3d5b7b02c1a1c0c81ee52bd6b3e xfs/{030,033,178}: forcibly disable metadata directory trees
-a590753c3caa28f4f405fc43ac9089a6bc545b32 common/repair: patch up repair sb inode value complaints
-94d91f71981306002c48f781f2fcb7775db3168e xfs/206: update for metadata directory support
-a1f12e21d3040b860e9a0306f1af69d1fed7ac24 xfs/{050,144,153,299,330}: update quota reports to leave out metadir files
-e80adde27d8463eb3b8541a4486258471dfaf95c xfs/856: add metadir upgrade to test matrix
-1c1766350573f7c4f4770a2a2c707a45fcc4b39e xfs/509: adjust inumbers accounting for metadata directories
-0f7d59c9318f5478111678d6d02db1f8d7a15746 xfs: create fuzz tests for metadata directories
-debd441c309700797bc931963a4e448d3061f9a6 xfs: baseline golden output for metadata directory fuzz tests
-b29ef644541b73302f1c837fc360c665ab8e9bc1 common/populate: refactor caching of metadumps to a helper
-2e05c670d52763cffb683dcdbd8ae41449cec1db common/xfs: wipe external logs during mdrestore operations
-b3a1c673f5c048207dfb88a852c6ce4fd0b4c920 common/ext4: reformat external logs during mdrestore operations
-18bf91ea164c28a87dbcbda19078d704fc32d6e4 common/xfs: capture external logs during metadump/mdrestore
-5db43b00908318341316d070852cba1bf6c3e33f xfs/122: update for rtgroups
-f255e694bbe314a3f83eb80d5ad849d668021b07 punch-alternating: detect xfs realtime files with large allocation units
-c0e0898b69ff971cee0bcee60f51da77ad44d497 xfs/206: update mkfs filtering for rt groups feature
-7a0494cf4e4abc035cd3c9cbb5410cde9c576fdc common: pass the realtime device to xfs_db when possible
-eaca8b4a5aca0b0f3ebcfdfda24c106d1e8e9290 common: filter rtgroups when we're disabling metadir
-42545dded44530dfd209d9a09360e20e11ceb668 xfs/185: update for rtgroups
-04365465c86b65a032143f4818c85b458a5a71e6 xfs/449: update test to know about xfs_db -R
-babd2b35aadcdec8b689a9496686a93b819a3453 xfs/122: update for rtbitmap headers
-87a611b7bacf494d7b4826305edfb8b164e8e7ac xfs/122: udpate test to pick up rtword/suminfo ondisk unions
-fb5bc27682e2515fa7e58383732c93f5e5f5da94 xfs/27[46],xfs/556: fix tests to deal with rtgroups output in bmap/fsmap commands
-f21098a98260b6ef51cde6e9a060a375639818c5 common/xfs: capture realtime devices during metadump/mdrestore
-f75eed08daa154344645a83426c3b056469d33fc common/fuzzy: adapt the scrub stress tests to support rtgroups
-9b8c374e47902fa305a5c713b58e9fb4502ad084 xfs: refactor statfs field extraction
-20bf67c10d5495560bfe05f0e8cdec31d6c8061a generic/260: compute maximum fitrim offset
-603f7fe264e2c0b650e4a54e455b5f93085bc826 xfs: fix tests that try to access the realtime rmap inode
-4e876ffec1e72f5be51fa91093e56737a6fbd7ae fuzz: for fuzzing the rtrmapbt, find the path to the rt rmap btree file
-c19e7c1c1a106dbb8e3cc44e9442ddfcfaa914f2 xfs: race fsstress with realtime rmap btree scrub and repair
-34522c16fe79b1c551e6fef8771ed4b766e27e9a xfs/856: add rtrmapbt upgrade to test matrix
-e44fe92a6b56c284a000a4776eb0bdd6d51d5507 xfs/122: update for rtgroups-based realtime rmap btrees
-c1bc17216efbae32cc9a893a37df70d37c4332c8 xfs: fix various problems with fsmap detecting the data device
-24d7998139332c63ea27d8588b4c5f50a61eceaa xfs/341: update test for rtgroup-based rmap
-619c45185c9e71ef9f28df59a8ace6327b050e39 xfs/3{43,32}: adapt tests for rt extent size greater than 1
-e4e0d5b25cf3cb70d211f7241ac0ab68f3a636e0 xfs: skip tests if formatting small filesystem fails
-dcfb16341bd917ebf40300486e50c80bd1fba25f xfs/443: use file allocation unit, not dbsize
-361003395f75e0651f1dc66341543e68e9b2a22d populate: adjust rtrmap calculations for rtgroups
-c75f6e6c2283644c4b63283baabb2b93bbc92f2e populate: check that we created a realtime rmap btree of the given height
-d3facc8e97762b8aa85e4445db91e2a348d2c3a6 fuzzy: create missing fuzz tests for rt rmap btrees
-a8a65edf8b525a4b18a9246990ae218e3eb85421 fuzzy: create known output for rt rmap btree fuzz tests
-89d3d26536cd219ceaa10947741da4d1778de7fb xfs/122: update fields for realtime reflink
-9373f3da6f443eed115814b4fa8ed7e2a303d42c common/populate: create realtime refcount btree
-a69804c1d785b393be78660bcedfbff63524e13f xfs: create fuzz tests for the realtime refcount btree
-c9ff465a55a0113e940f94908d271329b7a1241e xfs/27[24]: adapt for checking files on the realtime volume
-db1adfb83a7c40438979b32d81d587cf8bf9364b xfs/243: don't run when realtime storage is the default
-8c87c55e1541005dc7ce421cb2ef1059240987fc xfs: race fsstress with realtime refcount btree scrub and repair
-424b3346b6724469fda09ab9190e951b5b290b44 xfs: remove xfs/131 now that we allow reflink on realtime volumes
-56ebebafce6b05d3fbc17f786062dc973e516a90 xfs/856: add rtreflink upgrade to test matrix
-8379ca11722dfe043195d224bef2de92c4a6ea54 generic/331,xfs/240: support files that skip delayed allocation
-78efe2e701b92fac8a18091021de4b83444e4c92 common/xfs: fix _xfs_get_file_block_size when rtinherit is set and no rt section
-621755b246070dba55955fc50053620209da2d43 xfs: baseline golden output for rt refcount btree fuzz tests
-000c7df73f33f89b14af715410c3c4470cd3032e xfs: make sure that CoW will write around when rextsize > 1
-95166c4299584d5cf83e71abd537898aa8f77546 xfs: skip cowextsize hint fragmentation tests on realtime volumes
-8cc9c13ae7330065753c8cbf2f4c4f5fc4234dbc misc: add more congruent oplen testing
-7d1f5cc90c8b3f466735c9ec2e56b4ee9f66d5df generic/303: avoid test failures on weird rt extent sizes
-5b3c32b3611aa42624f0e353162a1d03b61ba59e xfs: regression testing of quota on the realtime device
-21d5f7c2a36a0802432cf65a84d44d1114d2e458 xfs/122: update for vectored scrub
-f961fb62429f00320f10eb77bbe5536cea53eacf xfs: test output of new FSREFCOUNTS ioctl
-94a97103b131b03c2250d5ccddaff66202593b4f xfs: test clearing of free space
-d7f9ef20b51294edbb1937b42030573ede360789 xfs/122: update for parent pointers
-d2e04c4c961f9d6fe14b4b96fb8278b5c48db05c populate: create hardlinks for parent pointers
-75e47e5cb0bde3933b5ebd6f2bdc8be462c373c2 xfs/021: adapt golden output files for parent pointers
-820806fd4e4d14380afeb1faf37237721cce9eb5 generic/050: adapt for parent pointers
-90814b32b14ef527c65176f655d7971063d07f4f xfs/018: disable parent pointers for this test
-aa219538584b372271f4ab991268cf9ce79a7deb xfs/306: fix formatting failures with parent pointers
-0edd96399c96e3ed1917ea8ff0b88179024409b2 common: add helpers for parent pointer tests
-948dc572e0bb22e363e5145c8e664a746346e70a xfs: add parent pointer test
-267ba94570b88f3f8da369a74aef5ae2ea9254fb xfs: add multi link parent pointer test
-c7e00e5bba9f54b94706defa858fc2bf86bc1538 xfs: add parent pointer inject test
-c07d828143139c6a1b4fab50747ec8f068221d66 common/parent: add license and copyright
-c552b1fb2bd9f77e260c7949fe968f3d1a6a6922 common/parent: don't _fail on missing parent pointer components
-3601850ded06adac8d13c1a2b7149e985a320afd common/parent: check xfs_io parent command paths
-dd1acacf6060a0fcd25f20216d81f5c86b5e7d5d xfs/851: test xfs_io parent -p too
-5edfcd982954fa09d97b566286760d69a702799d misc: adjust for parent pointers with namehashes
-31ff2043fcc85d07e2cd69e58fa306fe881ebd4a xfs/021: adjust for short parent pointers with hashes
-70760dc0f4246705b8be4d1f9bf63087893f9068 xfs/242: fix _filter_bmap for xfs_io bmap that does rt file properly
-c5e1fc52452ae402041eef9cdfcfec96b817be44 xfs/021: adjust for short valuelens
-46aa10b510eb73dda13e24072841786db6f722a1 xfs/122: adjust for flex-array XFS_IOC_GETPARENTS ioctl
-ad625330fcb5c6dc2371bbe15b55fa7d5b0c7d71 generic/476: reclassify this test as a long running soak stress test
-55e9195817406f8f29019dd9d6cb50c70e874a1d misc: add duration for long soak tests
-cd643df6e014bbcdc40e9b945dd483abedccd31b misc: add duration for recovery loop tests
+a20990a0481571d5cb2d2294c9449ebb317a2b2f check: generate section reports between tests
+7e8a291e3bdf25bd57498131d86925bdc380837d report: derive an xml schema for the xunit report
+36c554feac175a5967ef70bab6904315c190484c report: capture the time zone in the test report timestamp
+f7367629f92fe4e90fd1f0764a919a841515a44f report: clarify the meaning of the timestamp attribute
+36c275a1500e88a7c09cc5108437dcbc40e6faeb report: record fstests start and report generation timestamps
+fc9f173562f94ffbeb432db5c0665c4e2ac49737 report: encode cdata sections correctly
+46e9c212bf8ba024f7d0eb1293e90f4df40a3fbe report: encode the kernel log as a separate xml element
+b9b05ccd3ff760be88ab3a9814113d7a519fc71f report: sort properties by name
+de57f6161f14ac071178f663d0634f210c1224e8 report: pass property value to _xunit_add_property
+6c65bb263b3304691eac93ff871ab7f0a5af29ad report: encode xml entities in property values
+57c3db4f694fe0b6bfaccd43efefbed965857fb9 report: collect basic information about a test run
+68b87376a7c82e114ab0af81414a2d102c0e5757 report: record optional environment variables
+b2f466196d7f510f9f51595423b8096ca1b84351 report: record xfs-specific information about a test run
+dcbe83cc7e5aa5e4c84492626e0ac1fa5b10bdff report: record ext*-specific information about a test run
+7e5db626c7e5f9adedff38e6fe2e4c3551e1007e report: allow test runners to inject arbitrary values
+4c0118d037c31479403f5890cfcd9b260bfa56eb xfs: test scaling of the mkfs concurrency options
+ec1ffd84a6a3cf87ca11ffeb3e34d13b60438074 xfs: online fuzz test known output
+f4ce31788d2a084db43c1af26f74b8dad0f01d1a xfs: offline fuzz test known output
+7df0d95f9957e231d90a47e3d147b0ed9113b244 xfs: norepair fuzz test known output
+422872dd54a6df272d47fb3c5e289ecc736391dd xfs: bothrepair fuzz test known output
+ce72ac0fca3b751516f5fddc5f0df3d72372a472 misc: privatize the FIEXCHANGE ioctl for now
+7e67f2a222f333adbb86fe105be3ae0b1c4b5577 misc: update xfs_io swapext usage
+d9cb58b671bcfce853e716f50c660a5e1ed88198 xfs: stress test cycling parent pointers with online repair
+25393397b78452f014b3c7fdee797ea23bb2269e xfs/004: fix column extraction code
+9e2feaeb8d07259790db23cf18b8a9eea5b682fd common: make helpers for ttyprintk usage
+e56c8eb1933658c280cb604595c1067980991f68 xfs: test upgrading old features
+c65e4803dab28d7dbb7ae1e96df2db7bdee07b4d xfs/122: fix metadirino
+5af7921255b08b9eb3eca99b2d6fd5d166267b98 various: fix finding metadata inode numbers when metadir is enabled
+df5a1a3d37996f57ec165f98e2e024cca8ebd857 xfs/{030,033,178}: forcibly disable metadata directory trees
+07f8c92951954d0f1cdb1e6ee3a495d2b2df59a6 common/repair: patch up repair sb inode value complaints
+c98190fca1519fb1d908d89ce1b988dbe9ea2e11 xfs/206: update for metadata directory support
+7918167f182ca8eebb738d37af161a91c5278e04 xfs/{050,144,153,299,330}: update quota reports to leave out metadir files
+96962db6498f5a049b2073d5b21bace04ecdb7cb xfs/856: add metadir upgrade to test matrix
+550cbdb4c9ffa8a03e62fdd995affd230cb0a5ac xfs/509: adjust inumbers accounting for metadata directories
+dfff28f84a609505f9d8c8aa1e92bacefd6b5918 xfs: create fuzz tests for metadata directories
+15486b67ae5468f6e5d52b52c51ee503eab73c67 xfs: baseline golden output for metadata directory fuzz tests
+cb27bb41e76f3438f0afbece822efb97a18a19e7 common/populate: refactor caching of metadumps to a helper
+34064dd2ef5a5e990192e617e57ce3efefcf12b4 common/xfs: wipe external logs during mdrestore operations
+c93188aac558742f4c681f46f31820abbf0a7a1e common/ext4: reformat external logs during mdrestore operations
+98c20a8ac153b402dc09f0779f5c287c2dca59b3 common/xfs: capture external logs during metadump/mdrestore
+8859356f1abd784ca884250e7470e76fac59e85c xfs/122: update for rtgroups
+38533bab4a6974820f7a29af5b937ae54727ccd9 punch-alternating: detect xfs realtime files with large allocation units
+2e01db287abdf75ae928b8e5d17ec931d38bc72c xfs/206: update mkfs filtering for rt groups feature
+46f6c37fa56657d76f225acd17746ed3e2a30a8f common: pass the realtime device to xfs_db when possible
+89b1d9514a1c61291791ec6fb8e55ec4d7ca31a2 common: filter rtgroups when we're disabling metadir
+bf5451f7e9a29d3608702a70a7983b15fc54962f xfs/185: update for rtgroups
+f2dbe68e794433fd04046f0318edcf00cb4011fa xfs/449: update test to know about xfs_db -R
+d1baa9ac941e78b5824c792a8db8ef64c27db73c xfs/122: update for rtbitmap headers
+bbf8cf6c39c8d12e8dff3d06aa58f6d601015d39 xfs/122: udpate test to pick up rtword/suminfo ondisk unions
+4a80848e05d8b1bd37ab79dcaf941c6ccdcb638b xfs/27[46],xfs/556: fix tests to deal with rtgroups output in bmap/fsmap commands
+a6b97e330d99bc7e0b7c5c7e5ddf8a1fb9955a84 common/xfs: capture realtime devices during metadump/mdrestore
+d93697f0a0643abc9b2375119ea5304939b4157a common/fuzzy: adapt the scrub stress tests to support rtgroups
+679da0364e365cdd2501f66bb38d9e38eb09db22 xfs: refactor statfs field extraction
+6e0f6eea8a263a1adbccf54891f23cc61c3a9275 generic/260: compute maximum fitrim offset
+83d98674b6853cd0dfdee2dabb650d2c8e7a5203 xfs: fix tests that try to access the realtime rmap inode
+70ad7bdfeffec5bb8fd365f25190aa2a20c8c501 fuzz: for fuzzing the rtrmapbt, find the path to the rt rmap btree file
+fcb090021e93b1132f5aaae5a80d64c4f1cb3083 xfs: race fsstress with realtime rmap btree scrub and repair
+3d936cad3d66eace6fbac42e7b2c8529617b849a xfs/856: add rtrmapbt upgrade to test matrix
+3c00d5b3d20cf39e0a238ba9169992240ccec7dc xfs/122: update for rtgroups-based realtime rmap btrees
+3caafd18d5d91bf44ec34039d22c57b309db204e xfs: fix various problems with fsmap detecting the data device
+c39a763f81dcdcb2dc4dc17f7c7584b4b195dff1 xfs/341: update test for rtgroup-based rmap
+3d44cc3140ae7ff1321f37b060ffd837ba491ad3 xfs/3{43,32}: adapt tests for rt extent size greater than 1
+8c0441ea60fedf6cb1c9a7c676f697bf148d4514 xfs: skip tests if formatting small filesystem fails
+8eaac144ae2ea0b27bed28d099779adcbee1beaa xfs/443: use file allocation unit, not dbsize
+48e9f8cfeba46487f54aaa2fc4bacaceaa3876ca populate: adjust rtrmap calculations for rtgroups
+9176932df4ec160bb96b9a7c6672649c59df7cb7 populate: check that we created a realtime rmap btree of the given height
+59dd66b4ffd465a52db5b448a23681c6cb40cb44 fuzzy: create missing fuzz tests for rt rmap btrees
+36e5920adbd02c85d574f1619220f6b77bf06828 fuzzy: create known output for rt rmap btree fuzz tests
+618c9d2a3f8a1169ddaba8247cd147c42252cd2a xfs/122: update fields for realtime reflink
+509a7e1845f12a3ddca1ab17729c8d93b0118d52 common/populate: create realtime refcount btree
+a51c5f7d871a7518088fea129281173eca5df003 xfs: create fuzz tests for the realtime refcount btree
+69a64500b0230917c45d668fee4d955e5309855f xfs/27[24]: adapt for checking files on the realtime volume
+d7af74c5bf36bf1fae0a5b7831a97d8e04c709fc xfs/243: don't run when realtime storage is the default
+db2aa8b154fa57ca0243529ffd8283787714be13 xfs: race fsstress with realtime refcount btree scrub and repair
+666bfd9ee3c227f74c71d110fdeed46b6babf248 xfs: remove xfs/131 now that we allow reflink on realtime volumes
+9ba7b3c4a9f146625396638ea659eec4eadd6a72 xfs/856: add rtreflink upgrade to test matrix
+03b8e9a80abe15af1f97f128389a6240660e6d40 generic/331,xfs/240: support files that skip delayed allocation
+6d0570ce372287949248561a40e7a32a1a1ced15 common/xfs: fix _xfs_get_file_block_size when rtinherit is set and no rt section
+88516c14fe833bebba2ce274ea489cce8e9f8e9c xfs: baseline golden output for rt refcount btree fuzz tests
+8f655607b0b1e74fc9d1b26a5b1301f499d44773 xfs: make sure that CoW will write around when rextsize > 1
+e0d8c4406f8c202ae9e2de8362b05d371d2d8e05 xfs: skip cowextsize hint fragmentation tests on realtime volumes
+ec024ffc5011655dc58176a4bf4c5d860383e913 misc: add more congruent oplen testing
+7d22511c41094896465ebfe66a79f0e20631f307 generic/303: avoid test failures on weird rt extent sizes
+c43deb86e7e2f0ecf1066f377a82f11c650f655a xfs: regression testing of quota on the realtime device
+c75bc4c866c71ea61394598afdccb244fa469335 xfs/122: update for vectored scrub
+346a308c4e35c61ef8f2a2d8cb173bdcda72efd2 xfs: test output of new FSREFCOUNTS ioctl
+c3284d13c671272211c6f2464e658156d329a981 xfs: test clearing of free space
+33364f4c7b67b53d042369a3d8905e0067ab0dad xfs/122: update for parent pointers
+6dbcb0ffd561be2fbf749438132c99129fa8283b populate: create hardlinks for parent pointers
+b8741313c541f98592424508dc6e6b221b15ecfc xfs/021: adapt golden output files for parent pointers
+d32b334245c9fdd814059833ffc46fb795f42bdb generic/050: adapt for parent pointers
+260e43317d4e413caa04d8fe245274daab59db07 xfs/018: disable parent pointers for this test
+ce25ef5ca039ee560b599e358b715448088e1a09 xfs/306: fix formatting failures with parent pointers
+c6007175b9ead4588e7260445f94baa6f7c76c97 common: add helpers for parent pointer tests
+a781cfd1f3ca1d6fb2253707505d0d6982b65784 xfs: add parent pointer test
+03f007bca20e8ad5d5fa5503e6f3c5a588133ad2 xfs: add multi link parent pointer test
+5da830b6e2e71c50e9da4621797547f13d0ca8fa xfs: add parent pointer inject test
+c7a778d36d06b811a988d4abce8f9f5cf97c9667 common/parent: add license and copyright
+3567763fd36d9d45ae87c0d048b41da56c5c836c common/parent: don't _fail on missing parent pointer components
+ce7b54532e127b16e41eb6e90391926fd2d61fb4 common/parent: check xfs_io parent command paths
+cb0ca7bd9490d02b474dc8a45060e32ef3173b8e xfs/851: test xfs_io parent -p too
+d93e13adaf6f16ad596b9f4c436b4dda69084954 misc: adjust for parent pointers with namehashes
+a3d2c0122507cd0e982a898368b379d81306809b xfs/021: adjust for short parent pointers with hashes
+9c1bbbe09792510ce29746cf03e37e134f6ef41d xfs/242: fix _filter_bmap for xfs_io bmap that does rt file properly
+dc24ccf06f9e396be613f120ce4f5f1f598529aa xfs/021: adjust for short valuelens
+6c0478d908e4e201170240b4d6e5b587e022e496 xfs/122: adjust for flex-array XFS_IOC_GETPARENTS ioctl
+d377a152fab26d2fcace8e954a0b56a86a4d9fa3 generic/476: reclassify this test as a long running soak stress test
+dcaa53cfb23d73d2476e6fb26bf9fd03db86da61 misc: add duration for long soak tests
+cba5b0163b485bcda4d6e66c9c10a58d798a8230 misc: add duration for recovery loop tests
+a9e0f2afa0797220e38d14656d93ade6941e8355 xfs/554: disable until merged
+86a022bf8628046e9b161b89236b48a04d7b880f generic: test swapping process pages in and out of a swapfile
 
---===============7650299949684335615==
+--===============5328713760726719305==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cadd35c287b1-026053f45f3e.txt
+Content-Disposition: attachment; filename=revlist-8b425e57b6d2-e56c8eb19336.txt
 
-e19c99400cfe67bd5f11d3cfe5587446ed3026ef xfs/122: fix for swapext log items
-5d2aea2b1f6dc3ac84909bbd3c155edccc131aae generic: test old xfs extent swapping ioctl
-815ea93652305f0ebba36b3e0ed48602235b9b1c generic: test new vfs swapext ioctl
-81cbafc4597a0cc59e87eeae99ab7a1c8f2a70e8 generic, xfs: test scatter-gather atomic file updates
-f02d41a7b5cade6bb7f9b4009e787b284283eccf generic: test that file privilege gets dropped with FIEXCHANGE_RANGE
-bf183828b8f4c3caf3d3fd1f96d9f396db7508e5 fsx: support FIEXCHANGE_RANGE
-ae5ac04996c581c9e8b70bacb663ff5708f65e18 fsstress: update for FIEXCHANGE_RANGE
-d8cf497797b015b68e2e60822ba3e5eb2bc5714e xfs: race fsstress with online repair of realtime summary files
-a199f989b6f187e28b789ac69f0dbe3a55c1d572 xfs: race fsstress with online repair of extended attribute data
-249f5a78d3094477c8615cb62fb49ef3aec4f785 xfs: ensure that online directory repairs don't hit EDQUOT
-0999380268abb51a7e9f1cec4da920f5a077bad5 xfs: race fsstress with online repair of dirs and parent pointers
-fc0a397e3ec479a5883fbaba7dea75fd5cbf5ebf xfs: test xfs_scrub dry run, preen, and repair mode
-b3096c996a48960160b72738e5599df808a53260 common/rc: don't clear superblock for zoned scratch pools
-f7765774a1b5cb98c2f21a892e82b3421f40e791 generic/020: fix really long attr test failure for ceph
-c9a8237d8c5fdc4ef2d25a56069ffdcce22b5d4b check: generate section reports between tests
-c4473e90a4fe1b6d0c7cf77d9fcdf22852aea1a3 report: derive an xml schema for the xunit report
-4e77406f99b4624a065d8290b8e45e29adb8b072 report: capture the time zone in the test report timestamp
-e7a36e5fbd4cff148b5642132af261c46bec8d28 report: clarify the meaning of the timestamp attribute
-d203e87a2bcb075677925fa93462a78324ba1423 report: record fstests start and report generation timestamps
-21d1f01c021d75e3faa824dbe6a8dfa2dd609e1a report: encode cdata sections correctly
-a5ee28a4ec13d186e41e461997a31fbf147d8532 report: encode the kernel log as a separate xml element
-959235b87703de1e98238656e84bae561c32b6f0 report: sort properties by name
-2c95da79fbf3a9c7146c1e2fd697f382fbbea069 report: pass property value to _xunit_add_property
-742e144fedcfb383e088eb8e4e484b0a6672dc26 report: encode xml entities in property values
-31dc2c91e727311b181403ecbe57a311eee58eb0 report: collect basic information about a test run
-9902ebd0e0fb4d6327686ffd17f4b40f60ba9f28 report: record optional environment variables
-e8e4bddd474609f0284389f3c2323d9bb6779e65 report: record xfs-specific information about a test run
-2f066c6808adb1d1a1f6682d2eb0740facfecd49 report: record ext*-specific information about a test run
-3c708060bb0c4357649b24c8feadb8dca96dc3e2 report: allow test runners to inject arbitrary values
-fabf5dcd145d1d565e4c9727878f82fcfa099fbe xfs: test scaling of the mkfs concurrency options
-c1d2b42fb29e2137e72393ec8d5bd20a29f4f40f xfs: online fuzz test known output
-9aa1f156168b48d39a62ce45f862a65d3de56f35 xfs: offline fuzz test known output
-6ec145e27e9a54dfde37c9db9875d68313c252b1 xfs: norepair fuzz test known output
-252d09f535865014aeec131bbfb484a561144274 xfs: bothrepair fuzz test known output
-a853d74252e154b561186f2fbc4edce09c1b83e1 misc: privatize the FIEXCHANGE ioctl for now
-ac3655b823541f3bbd6581baf2bbffc47c702c68 misc: update xfs_io swapext usage
-d6f2c6e0e88a5026aa20a9e35ac68e3e336eb0a2 part two of fsstress cycling parent pointers with online repair
-9d6e57d99439051b8286b149ed0289b3404a1728 xfs/004: fix column extraction code
-2b7243feadb791314040d4b868322554cd9940e8 common: make helpers for ttyprintk usage
-8b425e57b6d2e16605a4b5d267ac48269a0b066a xfs: test upgrading old features
-720cd44e24ffa461739e49781c8751c9b8cdc4b3 xfs/122: fix metadirino
-d2f50d13bac80bf92f0e42e70e1d185a483fcf4f various: fix finding metadata inode numbers when metadir is enabled
-3a9e26631305d3d5b7b02c1a1c0c81ee52bd6b3e xfs/{030,033,178}: forcibly disable metadata directory trees
-a590753c3caa28f4f405fc43ac9089a6bc545b32 common/repair: patch up repair sb inode value complaints
-94d91f71981306002c48f781f2fcb7775db3168e xfs/206: update for metadata directory support
-a1f12e21d3040b860e9a0306f1af69d1fed7ac24 xfs/{050,144,153,299,330}: update quota reports to leave out metadir files
-e80adde27d8463eb3b8541a4486258471dfaf95c xfs/856: add metadir upgrade to test matrix
-1c1766350573f7c4f4770a2a2c707a45fcc4b39e xfs/509: adjust inumbers accounting for metadata directories
-0f7d59c9318f5478111678d6d02db1f8d7a15746 xfs: create fuzz tests for metadata directories
-debd441c309700797bc931963a4e448d3061f9a6 xfs: baseline golden output for metadata directory fuzz tests
-b29ef644541b73302f1c837fc360c665ab8e9bc1 common/populate: refactor caching of metadumps to a helper
-2e05c670d52763cffb683dcdbd8ae41449cec1db common/xfs: wipe external logs during mdrestore operations
-b3a1c673f5c048207dfb88a852c6ce4fd0b4c920 common/ext4: reformat external logs during mdrestore operations
-18bf91ea164c28a87dbcbda19078d704fc32d6e4 common/xfs: capture external logs during metadump/mdrestore
-5db43b00908318341316d070852cba1bf6c3e33f xfs/122: update for rtgroups
-f255e694bbe314a3f83eb80d5ad849d668021b07 punch-alternating: detect xfs realtime files with large allocation units
-c0e0898b69ff971cee0bcee60f51da77ad44d497 xfs/206: update mkfs filtering for rt groups feature
-7a0494cf4e4abc035cd3c9cbb5410cde9c576fdc common: pass the realtime device to xfs_db when possible
-eaca8b4a5aca0b0f3ebcfdfda24c106d1e8e9290 common: filter rtgroups when we're disabling metadir
-42545dded44530dfd209d9a09360e20e11ceb668 xfs/185: update for rtgroups
-04365465c86b65a032143f4818c85b458a5a71e6 xfs/449: update test to know about xfs_db -R
-babd2b35aadcdec8b689a9496686a93b819a3453 xfs/122: update for rtbitmap headers
-87a611b7bacf494d7b4826305edfb8b164e8e7ac xfs/122: udpate test to pick up rtword/suminfo ondisk unions
-fb5bc27682e2515fa7e58383732c93f5e5f5da94 xfs/27[46],xfs/556: fix tests to deal with rtgroups output in bmap/fsmap commands
-f21098a98260b6ef51cde6e9a060a375639818c5 common/xfs: capture realtime devices during metadump/mdrestore
-f75eed08daa154344645a83426c3b056469d33fc common/fuzzy: adapt the scrub stress tests to support rtgroups
-9b8c374e47902fa305a5c713b58e9fb4502ad084 xfs: refactor statfs field extraction
-20bf67c10d5495560bfe05f0e8cdec31d6c8061a generic/260: compute maximum fitrim offset
-603f7fe264e2c0b650e4a54e455b5f93085bc826 xfs: fix tests that try to access the realtime rmap inode
-4e876ffec1e72f5be51fa91093e56737a6fbd7ae fuzz: for fuzzing the rtrmapbt, find the path to the rt rmap btree file
-c19e7c1c1a106dbb8e3cc44e9442ddfcfaa914f2 xfs: race fsstress with realtime rmap btree scrub and repair
-34522c16fe79b1c551e6fef8771ed4b766e27e9a xfs/856: add rtrmapbt upgrade to test matrix
-e44fe92a6b56c284a000a4776eb0bdd6d51d5507 xfs/122: update for rtgroups-based realtime rmap btrees
-c1bc17216efbae32cc9a893a37df70d37c4332c8 xfs: fix various problems with fsmap detecting the data device
-24d7998139332c63ea27d8588b4c5f50a61eceaa xfs/341: update test for rtgroup-based rmap
-619c45185c9e71ef9f28df59a8ace6327b050e39 xfs/3{43,32}: adapt tests for rt extent size greater than 1
-e4e0d5b25cf3cb70d211f7241ac0ab68f3a636e0 xfs: skip tests if formatting small filesystem fails
-dcfb16341bd917ebf40300486e50c80bd1fba25f xfs/443: use file allocation unit, not dbsize
-361003395f75e0651f1dc66341543e68e9b2a22d populate: adjust rtrmap calculations for rtgroups
-c75f6e6c2283644c4b63283baabb2b93bbc92f2e populate: check that we created a realtime rmap btree of the given height
-d3facc8e97762b8aa85e4445db91e2a348d2c3a6 fuzzy: create missing fuzz tests for rt rmap btrees
-a8a65edf8b525a4b18a9246990ae218e3eb85421 fuzzy: create known output for rt rmap btree fuzz tests
-89d3d26536cd219ceaa10947741da4d1778de7fb xfs/122: update fields for realtime reflink
-9373f3da6f443eed115814b4fa8ed7e2a303d42c common/populate: create realtime refcount btree
-a69804c1d785b393be78660bcedfbff63524e13f xfs: create fuzz tests for the realtime refcount btree
-c9ff465a55a0113e940f94908d271329b7a1241e xfs/27[24]: adapt for checking files on the realtime volume
-db1adfb83a7c40438979b32d81d587cf8bf9364b xfs/243: don't run when realtime storage is the default
-8c87c55e1541005dc7ce421cb2ef1059240987fc xfs: race fsstress with realtime refcount btree scrub and repair
-424b3346b6724469fda09ab9190e951b5b290b44 xfs: remove xfs/131 now that we allow reflink on realtime volumes
-56ebebafce6b05d3fbc17f786062dc973e516a90 xfs/856: add rtreflink upgrade to test matrix
-8379ca11722dfe043195d224bef2de92c4a6ea54 generic/331,xfs/240: support files that skip delayed allocation
-78efe2e701b92fac8a18091021de4b83444e4c92 common/xfs: fix _xfs_get_file_block_size when rtinherit is set and no rt section
-621755b246070dba55955fc50053620209da2d43 xfs: baseline golden output for rt refcount btree fuzz tests
-000c7df73f33f89b14af715410c3c4470cd3032e xfs: make sure that CoW will write around when rextsize > 1
-95166c4299584d5cf83e71abd537898aa8f77546 xfs: skip cowextsize hint fragmentation tests on realtime volumes
-8cc9c13ae7330065753c8cbf2f4c4f5fc4234dbc misc: add more congruent oplen testing
-7d1f5cc90c8b3f466735c9ec2e56b4ee9f66d5df generic/303: avoid test failures on weird rt extent sizes
-5b3c32b3611aa42624f0e353162a1d03b61ba59e xfs: regression testing of quota on the realtime device
-21d5f7c2a36a0802432cf65a84d44d1114d2e458 xfs/122: update for vectored scrub
-f961fb62429f00320f10eb77bbe5536cea53eacf xfs: test output of new FSREFCOUNTS ioctl
-94a97103b131b03c2250d5ccddaff66202593b4f xfs: test clearing of free space
-d7f9ef20b51294edbb1937b42030573ede360789 xfs/122: update for parent pointers
-d2e04c4c961f9d6fe14b4b96fb8278b5c48db05c populate: create hardlinks for parent pointers
-75e47e5cb0bde3933b5ebd6f2bdc8be462c373c2 xfs/021: adapt golden output files for parent pointers
-820806fd4e4d14380afeb1faf37237721cce9eb5 generic/050: adapt for parent pointers
-90814b32b14ef527c65176f655d7971063d07f4f xfs/018: disable parent pointers for this test
-aa219538584b372271f4ab991268cf9ce79a7deb xfs/306: fix formatting failures with parent pointers
-0edd96399c96e3ed1917ea8ff0b88179024409b2 common: add helpers for parent pointer tests
-948dc572e0bb22e363e5145c8e664a746346e70a xfs: add parent pointer test
-267ba94570b88f3f8da369a74aef5ae2ea9254fb xfs: add multi link parent pointer test
-c7e00e5bba9f54b94706defa858fc2bf86bc1538 xfs: add parent pointer inject test
-c07d828143139c6a1b4fab50747ec8f068221d66 common/parent: add license and copyright
-c552b1fb2bd9f77e260c7949fe968f3d1a6a6922 common/parent: don't _fail on missing parent pointer components
-3601850ded06adac8d13c1a2b7149e985a320afd common/parent: check xfs_io parent command paths
-dd1acacf6060a0fcd25f20216d81f5c86b5e7d5d xfs/851: test xfs_io parent -p too
-5edfcd982954fa09d97b566286760d69a702799d misc: adjust for parent pointers with namehashes
-31ff2043fcc85d07e2cd69e58fa306fe881ebd4a xfs/021: adjust for short parent pointers with hashes
-70760dc0f4246705b8be4d1f9bf63087893f9068 xfs/242: fix _filter_bmap for xfs_io bmap that does rt file properly
-c5e1fc52452ae402041eef9cdfcfec96b817be44 xfs/021: adjust for short valuelens
-46aa10b510eb73dda13e24072841786db6f722a1 xfs/122: adjust for flex-array XFS_IOC_GETPARENTS ioctl
-ad625330fcb5c6dc2371bbe15b55fa7d5b0c7d71 generic/476: reclassify this test as a long running soak stress test
-55e9195817406f8f29019dd9d6cb50c70e874a1d misc: add duration for long soak tests
-cd643df6e014bbcdc40e9b945dd483abedccd31b misc: add duration for recovery loop tests
-0ab68be2c4ca3a1697e0232d6770c86f63e86619 xfs/554: disable until merged
-026053f45f3eedd049801daaa1272f2e24fb4fb8 generic: test swapping process pages in and out of a swapfile
+a20990a0481571d5cb2d2294c9449ebb317a2b2f check: generate section reports between tests
+7e8a291e3bdf25bd57498131d86925bdc380837d report: derive an xml schema for the xunit report
+36c554feac175a5967ef70bab6904315c190484c report: capture the time zone in the test report timestamp
+f7367629f92fe4e90fd1f0764a919a841515a44f report: clarify the meaning of the timestamp attribute
+36c275a1500e88a7c09cc5108437dcbc40e6faeb report: record fstests start and report generation timestamps
+fc9f173562f94ffbeb432db5c0665c4e2ac49737 report: encode cdata sections correctly
+46e9c212bf8ba024f7d0eb1293e90f4df40a3fbe report: encode the kernel log as a separate xml element
+b9b05ccd3ff760be88ab3a9814113d7a519fc71f report: sort properties by name
+de57f6161f14ac071178f663d0634f210c1224e8 report: pass property value to _xunit_add_property
+6c65bb263b3304691eac93ff871ab7f0a5af29ad report: encode xml entities in property values
+57c3db4f694fe0b6bfaccd43efefbed965857fb9 report: collect basic information about a test run
+68b87376a7c82e114ab0af81414a2d102c0e5757 report: record optional environment variables
+b2f466196d7f510f9f51595423b8096ca1b84351 report: record xfs-specific information about a test run
+dcbe83cc7e5aa5e4c84492626e0ac1fa5b10bdff report: record ext*-specific information about a test run
+7e5db626c7e5f9adedff38e6fe2e4c3551e1007e report: allow test runners to inject arbitrary values
+4c0118d037c31479403f5890cfcd9b260bfa56eb xfs: test scaling of the mkfs concurrency options
+ec1ffd84a6a3cf87ca11ffeb3e34d13b60438074 xfs: online fuzz test known output
+f4ce31788d2a084db43c1af26f74b8dad0f01d1a xfs: offline fuzz test known output
+7df0d95f9957e231d90a47e3d147b0ed9113b244 xfs: norepair fuzz test known output
+422872dd54a6df272d47fb3c5e289ecc736391dd xfs: bothrepair fuzz test known output
+ce72ac0fca3b751516f5fddc5f0df3d72372a472 misc: privatize the FIEXCHANGE ioctl for now
+7e67f2a222f333adbb86fe105be3ae0b1c4b5577 misc: update xfs_io swapext usage
+d9cb58b671bcfce853e716f50c660a5e1ed88198 xfs: stress test cycling parent pointers with online repair
+25393397b78452f014b3c7fdee797ea23bb2269e xfs/004: fix column extraction code
+9e2feaeb8d07259790db23cf18b8a9eea5b682fd common: make helpers for ttyprintk usage
+e56c8eb1933658c280cb604595c1067980991f68 xfs: test upgrading old features
 
---===============7650299949684335615==
+--===============5328713760726719305==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d173e5f0be66-8b425e57b6d2.txt
+Content-Disposition: attachment; filename=revlist-21d5f7c2a36a-c75bc4c866c7.txt
 
-e19c99400cfe67bd5f11d3cfe5587446ed3026ef xfs/122: fix for swapext log items
-5d2aea2b1f6dc3ac84909bbd3c155edccc131aae generic: test old xfs extent swapping ioctl
-815ea93652305f0ebba36b3e0ed48602235b9b1c generic: test new vfs swapext ioctl
-81cbafc4597a0cc59e87eeae99ab7a1c8f2a70e8 generic, xfs: test scatter-gather atomic file updates
-f02d41a7b5cade6bb7f9b4009e787b284283eccf generic: test that file privilege gets dropped with FIEXCHANGE_RANGE
-bf183828b8f4c3caf3d3fd1f96d9f396db7508e5 fsx: support FIEXCHANGE_RANGE
-ae5ac04996c581c9e8b70bacb663ff5708f65e18 fsstress: update for FIEXCHANGE_RANGE
-d8cf497797b015b68e2e60822ba3e5eb2bc5714e xfs: race fsstress with online repair of realtime summary files
-a199f989b6f187e28b789ac69f0dbe3a55c1d572 xfs: race fsstress with online repair of extended attribute data
-249f5a78d3094477c8615cb62fb49ef3aec4f785 xfs: ensure that online directory repairs don't hit EDQUOT
-0999380268abb51a7e9f1cec4da920f5a077bad5 xfs: race fsstress with online repair of dirs and parent pointers
-fc0a397e3ec479a5883fbaba7dea75fd5cbf5ebf xfs: test xfs_scrub dry run, preen, and repair mode
-b3096c996a48960160b72738e5599df808a53260 common/rc: don't clear superblock for zoned scratch pools
-f7765774a1b5cb98c2f21a892e82b3421f40e791 generic/020: fix really long attr test failure for ceph
-c9a8237d8c5fdc4ef2d25a56069ffdcce22b5d4b check: generate section reports between tests
-c4473e90a4fe1b6d0c7cf77d9fcdf22852aea1a3 report: derive an xml schema for the xunit report
-4e77406f99b4624a065d8290b8e45e29adb8b072 report: capture the time zone in the test report timestamp
-e7a36e5fbd4cff148b5642132af261c46bec8d28 report: clarify the meaning of the timestamp attribute
-d203e87a2bcb075677925fa93462a78324ba1423 report: record fstests start and report generation timestamps
-21d1f01c021d75e3faa824dbe6a8dfa2dd609e1a report: encode cdata sections correctly
-a5ee28a4ec13d186e41e461997a31fbf147d8532 report: encode the kernel log as a separate xml element
-959235b87703de1e98238656e84bae561c32b6f0 report: sort properties by name
-2c95da79fbf3a9c7146c1e2fd697f382fbbea069 report: pass property value to _xunit_add_property
-742e144fedcfb383e088eb8e4e484b0a6672dc26 report: encode xml entities in property values
-31dc2c91e727311b181403ecbe57a311eee58eb0 report: collect basic information about a test run
-9902ebd0e0fb4d6327686ffd17f4b40f60ba9f28 report: record optional environment variables
-e8e4bddd474609f0284389f3c2323d9bb6779e65 report: record xfs-specific information about a test run
-2f066c6808adb1d1a1f6682d2eb0740facfecd49 report: record ext*-specific information about a test run
-3c708060bb0c4357649b24c8feadb8dca96dc3e2 report: allow test runners to inject arbitrary values
-fabf5dcd145d1d565e4c9727878f82fcfa099fbe xfs: test scaling of the mkfs concurrency options
-c1d2b42fb29e2137e72393ec8d5bd20a29f4f40f xfs: online fuzz test known output
-9aa1f156168b48d39a62ce45f862a65d3de56f35 xfs: offline fuzz test known output
-6ec145e27e9a54dfde37c9db9875d68313c252b1 xfs: norepair fuzz test known output
-252d09f535865014aeec131bbfb484a561144274 xfs: bothrepair fuzz test known output
-a853d74252e154b561186f2fbc4edce09c1b83e1 misc: privatize the FIEXCHANGE ioctl for now
-ac3655b823541f3bbd6581baf2bbffc47c702c68 misc: update xfs_io swapext usage
-d6f2c6e0e88a5026aa20a9e35ac68e3e336eb0a2 part two of fsstress cycling parent pointers with online repair
-9d6e57d99439051b8286b149ed0289b3404a1728 xfs/004: fix column extraction code
-2b7243feadb791314040d4b868322554cd9940e8 common: make helpers for ttyprintk usage
-8b425e57b6d2e16605a4b5d267ac48269a0b066a xfs: test upgrading old features
+a20990a0481571d5cb2d2294c9449ebb317a2b2f check: generate section reports between tests
+7e8a291e3bdf25bd57498131d86925bdc380837d report: derive an xml schema for the xunit report
+36c554feac175a5967ef70bab6904315c190484c report: capture the time zone in the test report timestamp
+f7367629f92fe4e90fd1f0764a919a841515a44f report: clarify the meaning of the timestamp attribute
+36c275a1500e88a7c09cc5108437dcbc40e6faeb report: record fstests start and report generation timestamps
+fc9f173562f94ffbeb432db5c0665c4e2ac49737 report: encode cdata sections correctly
+46e9c212bf8ba024f7d0eb1293e90f4df40a3fbe report: encode the kernel log as a separate xml element
+b9b05ccd3ff760be88ab3a9814113d7a519fc71f report: sort properties by name
+de57f6161f14ac071178f663d0634f210c1224e8 report: pass property value to _xunit_add_property
+6c65bb263b3304691eac93ff871ab7f0a5af29ad report: encode xml entities in property values
+57c3db4f694fe0b6bfaccd43efefbed965857fb9 report: collect basic information about a test run
+68b87376a7c82e114ab0af81414a2d102c0e5757 report: record optional environment variables
+b2f466196d7f510f9f51595423b8096ca1b84351 report: record xfs-specific information about a test run
+dcbe83cc7e5aa5e4c84492626e0ac1fa5b10bdff report: record ext*-specific information about a test run
+7e5db626c7e5f9adedff38e6fe2e4c3551e1007e report: allow test runners to inject arbitrary values
+4c0118d037c31479403f5890cfcd9b260bfa56eb xfs: test scaling of the mkfs concurrency options
+ec1ffd84a6a3cf87ca11ffeb3e34d13b60438074 xfs: online fuzz test known output
+f4ce31788d2a084db43c1af26f74b8dad0f01d1a xfs: offline fuzz test known output
+7df0d95f9957e231d90a47e3d147b0ed9113b244 xfs: norepair fuzz test known output
+422872dd54a6df272d47fb3c5e289ecc736391dd xfs: bothrepair fuzz test known output
+ce72ac0fca3b751516f5fddc5f0df3d72372a472 misc: privatize the FIEXCHANGE ioctl for now
+7e67f2a222f333adbb86fe105be3ae0b1c4b5577 misc: update xfs_io swapext usage
+d9cb58b671bcfce853e716f50c660a5e1ed88198 xfs: stress test cycling parent pointers with online repair
+25393397b78452f014b3c7fdee797ea23bb2269e xfs/004: fix column extraction code
+9e2feaeb8d07259790db23cf18b8a9eea5b682fd common: make helpers for ttyprintk usage
+e56c8eb1933658c280cb604595c1067980991f68 xfs: test upgrading old features
+c65e4803dab28d7dbb7ae1e96df2db7bdee07b4d xfs/122: fix metadirino
+5af7921255b08b9eb3eca99b2d6fd5d166267b98 various: fix finding metadata inode numbers when metadir is enabled
+df5a1a3d37996f57ec165f98e2e024cca8ebd857 xfs/{030,033,178}: forcibly disable metadata directory trees
+07f8c92951954d0f1cdb1e6ee3a495d2b2df59a6 common/repair: patch up repair sb inode value complaints
+c98190fca1519fb1d908d89ce1b988dbe9ea2e11 xfs/206: update for metadata directory support
+7918167f182ca8eebb738d37af161a91c5278e04 xfs/{050,144,153,299,330}: update quota reports to leave out metadir files
+96962db6498f5a049b2073d5b21bace04ecdb7cb xfs/856: add metadir upgrade to test matrix
+550cbdb4c9ffa8a03e62fdd995affd230cb0a5ac xfs/509: adjust inumbers accounting for metadata directories
+dfff28f84a609505f9d8c8aa1e92bacefd6b5918 xfs: create fuzz tests for metadata directories
+15486b67ae5468f6e5d52b52c51ee503eab73c67 xfs: baseline golden output for metadata directory fuzz tests
+cb27bb41e76f3438f0afbece822efb97a18a19e7 common/populate: refactor caching of metadumps to a helper
+34064dd2ef5a5e990192e617e57ce3efefcf12b4 common/xfs: wipe external logs during mdrestore operations
+c93188aac558742f4c681f46f31820abbf0a7a1e common/ext4: reformat external logs during mdrestore operations
+98c20a8ac153b402dc09f0779f5c287c2dca59b3 common/xfs: capture external logs during metadump/mdrestore
+8859356f1abd784ca884250e7470e76fac59e85c xfs/122: update for rtgroups
+38533bab4a6974820f7a29af5b937ae54727ccd9 punch-alternating: detect xfs realtime files with large allocation units
+2e01db287abdf75ae928b8e5d17ec931d38bc72c xfs/206: update mkfs filtering for rt groups feature
+46f6c37fa56657d76f225acd17746ed3e2a30a8f common: pass the realtime device to xfs_db when possible
+89b1d9514a1c61291791ec6fb8e55ec4d7ca31a2 common: filter rtgroups when we're disabling metadir
+bf5451f7e9a29d3608702a70a7983b15fc54962f xfs/185: update for rtgroups
+f2dbe68e794433fd04046f0318edcf00cb4011fa xfs/449: update test to know about xfs_db -R
+d1baa9ac941e78b5824c792a8db8ef64c27db73c xfs/122: update for rtbitmap headers
+bbf8cf6c39c8d12e8dff3d06aa58f6d601015d39 xfs/122: udpate test to pick up rtword/suminfo ondisk unions
+4a80848e05d8b1bd37ab79dcaf941c6ccdcb638b xfs/27[46],xfs/556: fix tests to deal with rtgroups output in bmap/fsmap commands
+a6b97e330d99bc7e0b7c5c7e5ddf8a1fb9955a84 common/xfs: capture realtime devices during metadump/mdrestore
+d93697f0a0643abc9b2375119ea5304939b4157a common/fuzzy: adapt the scrub stress tests to support rtgroups
+679da0364e365cdd2501f66bb38d9e38eb09db22 xfs: refactor statfs field extraction
+6e0f6eea8a263a1adbccf54891f23cc61c3a9275 generic/260: compute maximum fitrim offset
+83d98674b6853cd0dfdee2dabb650d2c8e7a5203 xfs: fix tests that try to access the realtime rmap inode
+70ad7bdfeffec5bb8fd365f25190aa2a20c8c501 fuzz: for fuzzing the rtrmapbt, find the path to the rt rmap btree file
+fcb090021e93b1132f5aaae5a80d64c4f1cb3083 xfs: race fsstress with realtime rmap btree scrub and repair
+3d936cad3d66eace6fbac42e7b2c8529617b849a xfs/856: add rtrmapbt upgrade to test matrix
+3c00d5b3d20cf39e0a238ba9169992240ccec7dc xfs/122: update for rtgroups-based realtime rmap btrees
+3caafd18d5d91bf44ec34039d22c57b309db204e xfs: fix various problems with fsmap detecting the data device
+c39a763f81dcdcb2dc4dc17f7c7584b4b195dff1 xfs/341: update test for rtgroup-based rmap
+3d44cc3140ae7ff1321f37b060ffd837ba491ad3 xfs/3{43,32}: adapt tests for rt extent size greater than 1
+8c0441ea60fedf6cb1c9a7c676f697bf148d4514 xfs: skip tests if formatting small filesystem fails
+8eaac144ae2ea0b27bed28d099779adcbee1beaa xfs/443: use file allocation unit, not dbsize
+48e9f8cfeba46487f54aaa2fc4bacaceaa3876ca populate: adjust rtrmap calculations for rtgroups
+9176932df4ec160bb96b9a7c6672649c59df7cb7 populate: check that we created a realtime rmap btree of the given height
+59dd66b4ffd465a52db5b448a23681c6cb40cb44 fuzzy: create missing fuzz tests for rt rmap btrees
+36e5920adbd02c85d574f1619220f6b77bf06828 fuzzy: create known output for rt rmap btree fuzz tests
+618c9d2a3f8a1169ddaba8247cd147c42252cd2a xfs/122: update fields for realtime reflink
+509a7e1845f12a3ddca1ab17729c8d93b0118d52 common/populate: create realtime refcount btree
+a51c5f7d871a7518088fea129281173eca5df003 xfs: create fuzz tests for the realtime refcount btree
+69a64500b0230917c45d668fee4d955e5309855f xfs/27[24]: adapt for checking files on the realtime volume
+d7af74c5bf36bf1fae0a5b7831a97d8e04c709fc xfs/243: don't run when realtime storage is the default
+db2aa8b154fa57ca0243529ffd8283787714be13 xfs: race fsstress with realtime refcount btree scrub and repair
+666bfd9ee3c227f74c71d110fdeed46b6babf248 xfs: remove xfs/131 now that we allow reflink on realtime volumes
+9ba7b3c4a9f146625396638ea659eec4eadd6a72 xfs/856: add rtreflink upgrade to test matrix
+03b8e9a80abe15af1f97f128389a6240660e6d40 generic/331,xfs/240: support files that skip delayed allocation
+6d0570ce372287949248561a40e7a32a1a1ced15 common/xfs: fix _xfs_get_file_block_size when rtinherit is set and no rt section
+88516c14fe833bebba2ce274ea489cce8e9f8e9c xfs: baseline golden output for rt refcount btree fuzz tests
+8f655607b0b1e74fc9d1b26a5b1301f499d44773 xfs: make sure that CoW will write around when rextsize > 1
+e0d8c4406f8c202ae9e2de8362b05d371d2d8e05 xfs: skip cowextsize hint fragmentation tests on realtime volumes
+ec024ffc5011655dc58176a4bf4c5d860383e913 misc: add more congruent oplen testing
+7d22511c41094896465ebfe66a79f0e20631f307 generic/303: avoid test failures on weird rt extent sizes
+c43deb86e7e2f0ecf1066f377a82f11c650f655a xfs: regression testing of quota on the realtime device
+c75bc4c866c71ea61394598afdccb244fa469335 xfs/122: update for vectored scrub
 
---===============7650299949684335615==
+--===============5328713760726719305==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-21a0dcb7bd2c-21d5f7c2a36a.txt
+Content-Disposition: attachment; filename=revlist-3c708060bb0c-7e5db626c7e5.txt
 
-e19c99400cfe67bd5f11d3cfe5587446ed3026ef xfs/122: fix for swapext log items
-5d2aea2b1f6dc3ac84909bbd3c155edccc131aae generic: test old xfs extent swapping ioctl
-815ea93652305f0ebba36b3e0ed48602235b9b1c generic: test new vfs swapext ioctl
-81cbafc4597a0cc59e87eeae99ab7a1c8f2a70e8 generic, xfs: test scatter-gather atomic file updates
-f02d41a7b5cade6bb7f9b4009e787b284283eccf generic: test that file privilege gets dropped with FIEXCHANGE_RANGE
-bf183828b8f4c3caf3d3fd1f96d9f396db7508e5 fsx: support FIEXCHANGE_RANGE
-ae5ac04996c581c9e8b70bacb663ff5708f65e18 fsstress: update for FIEXCHANGE_RANGE
-d8cf497797b015b68e2e60822ba3e5eb2bc5714e xfs: race fsstress with online repair of realtime summary files
-a199f989b6f187e28b789ac69f0dbe3a55c1d572 xfs: race fsstress with online repair of extended attribute data
-249f5a78d3094477c8615cb62fb49ef3aec4f785 xfs: ensure that online directory repairs don't hit EDQUOT
-0999380268abb51a7e9f1cec4da920f5a077bad5 xfs: race fsstress with online repair of dirs and parent pointers
-fc0a397e3ec479a5883fbaba7dea75fd5cbf5ebf xfs: test xfs_scrub dry run, preen, and repair mode
-b3096c996a48960160b72738e5599df808a53260 common/rc: don't clear superblock for zoned scratch pools
-f7765774a1b5cb98c2f21a892e82b3421f40e791 generic/020: fix really long attr test failure for ceph
-c9a8237d8c5fdc4ef2d25a56069ffdcce22b5d4b check: generate section reports between tests
-c4473e90a4fe1b6d0c7cf77d9fcdf22852aea1a3 report: derive an xml schema for the xunit report
-4e77406f99b4624a065d8290b8e45e29adb8b072 report: capture the time zone in the test report timestamp
-e7a36e5fbd4cff148b5642132af261c46bec8d28 report: clarify the meaning of the timestamp attribute
-d203e87a2bcb075677925fa93462a78324ba1423 report: record fstests start and report generation timestamps
-21d1f01c021d75e3faa824dbe6a8dfa2dd609e1a report: encode cdata sections correctly
-a5ee28a4ec13d186e41e461997a31fbf147d8532 report: encode the kernel log as a separate xml element
-959235b87703de1e98238656e84bae561c32b6f0 report: sort properties by name
-2c95da79fbf3a9c7146c1e2fd697f382fbbea069 report: pass property value to _xunit_add_property
-742e144fedcfb383e088eb8e4e484b0a6672dc26 report: encode xml entities in property values
-31dc2c91e727311b181403ecbe57a311eee58eb0 report: collect basic information about a test run
-9902ebd0e0fb4d6327686ffd17f4b40f60ba9f28 report: record optional environment variables
-e8e4bddd474609f0284389f3c2323d9bb6779e65 report: record xfs-specific information about a test run
-2f066c6808adb1d1a1f6682d2eb0740facfecd49 report: record ext*-specific information about a test run
-3c708060bb0c4357649b24c8feadb8dca96dc3e2 report: allow test runners to inject arbitrary values
-fabf5dcd145d1d565e4c9727878f82fcfa099fbe xfs: test scaling of the mkfs concurrency options
-c1d2b42fb29e2137e72393ec8d5bd20a29f4f40f xfs: online fuzz test known output
-9aa1f156168b48d39a62ce45f862a65d3de56f35 xfs: offline fuzz test known output
-6ec145e27e9a54dfde37c9db9875d68313c252b1 xfs: norepair fuzz test known output
-252d09f535865014aeec131bbfb484a561144274 xfs: bothrepair fuzz test known output
-a853d74252e154b561186f2fbc4edce09c1b83e1 misc: privatize the FIEXCHANGE ioctl for now
-ac3655b823541f3bbd6581baf2bbffc47c702c68 misc: update xfs_io swapext usage
-d6f2c6e0e88a5026aa20a9e35ac68e3e336eb0a2 part two of fsstress cycling parent pointers with online repair
-9d6e57d99439051b8286b149ed0289b3404a1728 xfs/004: fix column extraction code
-2b7243feadb791314040d4b868322554cd9940e8 common: make helpers for ttyprintk usage
-8b425e57b6d2e16605a4b5d267ac48269a0b066a xfs: test upgrading old features
-720cd44e24ffa461739e49781c8751c9b8cdc4b3 xfs/122: fix metadirino
-d2f50d13bac80bf92f0e42e70e1d185a483fcf4f various: fix finding metadata inode numbers when metadir is enabled
-3a9e26631305d3d5b7b02c1a1c0c81ee52bd6b3e xfs/{030,033,178}: forcibly disable metadata directory trees
-a590753c3caa28f4f405fc43ac9089a6bc545b32 common/repair: patch up repair sb inode value complaints
-94d91f71981306002c48f781f2fcb7775db3168e xfs/206: update for metadata directory support
-a1f12e21d3040b860e9a0306f1af69d1fed7ac24 xfs/{050,144,153,299,330}: update quota reports to leave out metadir files
-e80adde27d8463eb3b8541a4486258471dfaf95c xfs/856: add metadir upgrade to test matrix
-1c1766350573f7c4f4770a2a2c707a45fcc4b39e xfs/509: adjust inumbers accounting for metadata directories
-0f7d59c9318f5478111678d6d02db1f8d7a15746 xfs: create fuzz tests for metadata directories
-debd441c309700797bc931963a4e448d3061f9a6 xfs: baseline golden output for metadata directory fuzz tests
-b29ef644541b73302f1c837fc360c665ab8e9bc1 common/populate: refactor caching of metadumps to a helper
-2e05c670d52763cffb683dcdbd8ae41449cec1db common/xfs: wipe external logs during mdrestore operations
-b3a1c673f5c048207dfb88a852c6ce4fd0b4c920 common/ext4: reformat external logs during mdrestore operations
-18bf91ea164c28a87dbcbda19078d704fc32d6e4 common/xfs: capture external logs during metadump/mdrestore
-5db43b00908318341316d070852cba1bf6c3e33f xfs/122: update for rtgroups
-f255e694bbe314a3f83eb80d5ad849d668021b07 punch-alternating: detect xfs realtime files with large allocation units
-c0e0898b69ff971cee0bcee60f51da77ad44d497 xfs/206: update mkfs filtering for rt groups feature
-7a0494cf4e4abc035cd3c9cbb5410cde9c576fdc common: pass the realtime device to xfs_db when possible
-eaca8b4a5aca0b0f3ebcfdfda24c106d1e8e9290 common: filter rtgroups when we're disabling metadir
-42545dded44530dfd209d9a09360e20e11ceb668 xfs/185: update for rtgroups
-04365465c86b65a032143f4818c85b458a5a71e6 xfs/449: update test to know about xfs_db -R
-babd2b35aadcdec8b689a9496686a93b819a3453 xfs/122: update for rtbitmap headers
-87a611b7bacf494d7b4826305edfb8b164e8e7ac xfs/122: udpate test to pick up rtword/suminfo ondisk unions
-fb5bc27682e2515fa7e58383732c93f5e5f5da94 xfs/27[46],xfs/556: fix tests to deal with rtgroups output in bmap/fsmap commands
-f21098a98260b6ef51cde6e9a060a375639818c5 common/xfs: capture realtime devices during metadump/mdrestore
-f75eed08daa154344645a83426c3b056469d33fc common/fuzzy: adapt the scrub stress tests to support rtgroups
-9b8c374e47902fa305a5c713b58e9fb4502ad084 xfs: refactor statfs field extraction
-20bf67c10d5495560bfe05f0e8cdec31d6c8061a generic/260: compute maximum fitrim offset
-603f7fe264e2c0b650e4a54e455b5f93085bc826 xfs: fix tests that try to access the realtime rmap inode
-4e876ffec1e72f5be51fa91093e56737a6fbd7ae fuzz: for fuzzing the rtrmapbt, find the path to the rt rmap btree file
-c19e7c1c1a106dbb8e3cc44e9442ddfcfaa914f2 xfs: race fsstress with realtime rmap btree scrub and repair
-34522c16fe79b1c551e6fef8771ed4b766e27e9a xfs/856: add rtrmapbt upgrade to test matrix
-e44fe92a6b56c284a000a4776eb0bdd6d51d5507 xfs/122: update for rtgroups-based realtime rmap btrees
-c1bc17216efbae32cc9a893a37df70d37c4332c8 xfs: fix various problems with fsmap detecting the data device
-24d7998139332c63ea27d8588b4c5f50a61eceaa xfs/341: update test for rtgroup-based rmap
-619c45185c9e71ef9f28df59a8ace6327b050e39 xfs/3{43,32}: adapt tests for rt extent size greater than 1
-e4e0d5b25cf3cb70d211f7241ac0ab68f3a636e0 xfs: skip tests if formatting small filesystem fails
-dcfb16341bd917ebf40300486e50c80bd1fba25f xfs/443: use file allocation unit, not dbsize
-361003395f75e0651f1dc66341543e68e9b2a22d populate: adjust rtrmap calculations for rtgroups
-c75f6e6c2283644c4b63283baabb2b93bbc92f2e populate: check that we created a realtime rmap btree of the given height
-d3facc8e97762b8aa85e4445db91e2a348d2c3a6 fuzzy: create missing fuzz tests for rt rmap btrees
-a8a65edf8b525a4b18a9246990ae218e3eb85421 fuzzy: create known output for rt rmap btree fuzz tests
-89d3d26536cd219ceaa10947741da4d1778de7fb xfs/122: update fields for realtime reflink
-9373f3da6f443eed115814b4fa8ed7e2a303d42c common/populate: create realtime refcount btree
-a69804c1d785b393be78660bcedfbff63524e13f xfs: create fuzz tests for the realtime refcount btree
-c9ff465a55a0113e940f94908d271329b7a1241e xfs/27[24]: adapt for checking files on the realtime volume
-db1adfb83a7c40438979b32d81d587cf8bf9364b xfs/243: don't run when realtime storage is the default
-8c87c55e1541005dc7ce421cb2ef1059240987fc xfs: race fsstress with realtime refcount btree scrub and repair
-424b3346b6724469fda09ab9190e951b5b290b44 xfs: remove xfs/131 now that we allow reflink on realtime volumes
-56ebebafce6b05d3fbc17f786062dc973e516a90 xfs/856: add rtreflink upgrade to test matrix
-8379ca11722dfe043195d224bef2de92c4a6ea54 generic/331,xfs/240: support files that skip delayed allocation
-78efe2e701b92fac8a18091021de4b83444e4c92 common/xfs: fix _xfs_get_file_block_size when rtinherit is set and no rt section
-621755b246070dba55955fc50053620209da2d43 xfs: baseline golden output for rt refcount btree fuzz tests
-000c7df73f33f89b14af715410c3c4470cd3032e xfs: make sure that CoW will write around when rextsize > 1
-95166c4299584d5cf83e71abd537898aa8f77546 xfs: skip cowextsize hint fragmentation tests on realtime volumes
-8cc9c13ae7330065753c8cbf2f4c4f5fc4234dbc misc: add more congruent oplen testing
-7d1f5cc90c8b3f466735c9ec2e56b4ee9f66d5df generic/303: avoid test failures on weird rt extent sizes
-5b3c32b3611aa42624f0e353162a1d03b61ba59e xfs: regression testing of quota on the realtime device
-21d5f7c2a36a0802432cf65a84d44d1114d2e458 xfs/122: update for vectored scrub
+a20990a0481571d5cb2d2294c9449ebb317a2b2f check: generate section reports between tests
+7e8a291e3bdf25bd57498131d86925bdc380837d report: derive an xml schema for the xunit report
+36c554feac175a5967ef70bab6904315c190484c report: capture the time zone in the test report timestamp
+f7367629f92fe4e90fd1f0764a919a841515a44f report: clarify the meaning of the timestamp attribute
+36c275a1500e88a7c09cc5108437dcbc40e6faeb report: record fstests start and report generation timestamps
+fc9f173562f94ffbeb432db5c0665c4e2ac49737 report: encode cdata sections correctly
+46e9c212bf8ba024f7d0eb1293e90f4df40a3fbe report: encode the kernel log as a separate xml element
+b9b05ccd3ff760be88ab3a9814113d7a519fc71f report: sort properties by name
+de57f6161f14ac071178f663d0634f210c1224e8 report: pass property value to _xunit_add_property
+6c65bb263b3304691eac93ff871ab7f0a5af29ad report: encode xml entities in property values
+57c3db4f694fe0b6bfaccd43efefbed965857fb9 report: collect basic information about a test run
+68b87376a7c82e114ab0af81414a2d102c0e5757 report: record optional environment variables
+b2f466196d7f510f9f51595423b8096ca1b84351 report: record xfs-specific information about a test run
+dcbe83cc7e5aa5e4c84492626e0ac1fa5b10bdff report: record ext*-specific information about a test run
+7e5db626c7e5f9adedff38e6fe2e4c3551e1007e report: allow test runners to inject arbitrary values
 
---===============7650299949684335615==
+--===============5328713760726719305==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a76e919ed64b-3c708060bb0c.txt
+Content-Disposition: attachment; filename=revlist-3fb9b4cc5143-f13d170012b5.txt
 
-e19c99400cfe67bd5f11d3cfe5587446ed3026ef xfs/122: fix for swapext log items
-5d2aea2b1f6dc3ac84909bbd3c155edccc131aae generic: test old xfs extent swapping ioctl
-815ea93652305f0ebba36b3e0ed48602235b9b1c generic: test new vfs swapext ioctl
-81cbafc4597a0cc59e87eeae99ab7a1c8f2a70e8 generic, xfs: test scatter-gather atomic file updates
-f02d41a7b5cade6bb7f9b4009e787b284283eccf generic: test that file privilege gets dropped with FIEXCHANGE_RANGE
-bf183828b8f4c3caf3d3fd1f96d9f396db7508e5 fsx: support FIEXCHANGE_RANGE
-ae5ac04996c581c9e8b70bacb663ff5708f65e18 fsstress: update for FIEXCHANGE_RANGE
-d8cf497797b015b68e2e60822ba3e5eb2bc5714e xfs: race fsstress with online repair of realtime summary files
-a199f989b6f187e28b789ac69f0dbe3a55c1d572 xfs: race fsstress with online repair of extended attribute data
-249f5a78d3094477c8615cb62fb49ef3aec4f785 xfs: ensure that online directory repairs don't hit EDQUOT
-0999380268abb51a7e9f1cec4da920f5a077bad5 xfs: race fsstress with online repair of dirs and parent pointers
-fc0a397e3ec479a5883fbaba7dea75fd5cbf5ebf xfs: test xfs_scrub dry run, preen, and repair mode
-b3096c996a48960160b72738e5599df808a53260 common/rc: don't clear superblock for zoned scratch pools
-f7765774a1b5cb98c2f21a892e82b3421f40e791 generic/020: fix really long attr test failure for ceph
-c9a8237d8c5fdc4ef2d25a56069ffdcce22b5d4b check: generate section reports between tests
-c4473e90a4fe1b6d0c7cf77d9fcdf22852aea1a3 report: derive an xml schema for the xunit report
-4e77406f99b4624a065d8290b8e45e29adb8b072 report: capture the time zone in the test report timestamp
-e7a36e5fbd4cff148b5642132af261c46bec8d28 report: clarify the meaning of the timestamp attribute
-d203e87a2bcb075677925fa93462a78324ba1423 report: record fstests start and report generation timestamps
-21d1f01c021d75e3faa824dbe6a8dfa2dd609e1a report: encode cdata sections correctly
-a5ee28a4ec13d186e41e461997a31fbf147d8532 report: encode the kernel log as a separate xml element
-959235b87703de1e98238656e84bae561c32b6f0 report: sort properties by name
-2c95da79fbf3a9c7146c1e2fd697f382fbbea069 report: pass property value to _xunit_add_property
-742e144fedcfb383e088eb8e4e484b0a6672dc26 report: encode xml entities in property values
-31dc2c91e727311b181403ecbe57a311eee58eb0 report: collect basic information about a test run
-9902ebd0e0fb4d6327686ffd17f4b40f60ba9f28 report: record optional environment variables
-e8e4bddd474609f0284389f3c2323d9bb6779e65 report: record xfs-specific information about a test run
-2f066c6808adb1d1a1f6682d2eb0740facfecd49 report: record ext*-specific information about a test run
-3c708060bb0c4357649b24c8feadb8dca96dc3e2 report: allow test runners to inject arbitrary values
+a20990a0481571d5cb2d2294c9449ebb317a2b2f check: generate section reports between tests
+7e8a291e3bdf25bd57498131d86925bdc380837d report: derive an xml schema for the xunit report
+36c554feac175a5967ef70bab6904315c190484c report: capture the time zone in the test report timestamp
+f7367629f92fe4e90fd1f0764a919a841515a44f report: clarify the meaning of the timestamp attribute
+36c275a1500e88a7c09cc5108437dcbc40e6faeb report: record fstests start and report generation timestamps
+fc9f173562f94ffbeb432db5c0665c4e2ac49737 report: encode cdata sections correctly
+46e9c212bf8ba024f7d0eb1293e90f4df40a3fbe report: encode the kernel log as a separate xml element
+b9b05ccd3ff760be88ab3a9814113d7a519fc71f report: sort properties by name
+de57f6161f14ac071178f663d0634f210c1224e8 report: pass property value to _xunit_add_property
+6c65bb263b3304691eac93ff871ab7f0a5af29ad report: encode xml entities in property values
+57c3db4f694fe0b6bfaccd43efefbed965857fb9 report: collect basic information about a test run
+68b87376a7c82e114ab0af81414a2d102c0e5757 report: record optional environment variables
+b2f466196d7f510f9f51595423b8096ca1b84351 report: record xfs-specific information about a test run
+dcbe83cc7e5aa5e4c84492626e0ac1fa5b10bdff report: record ext*-specific information about a test run
+7e5db626c7e5f9adedff38e6fe2e4c3551e1007e report: allow test runners to inject arbitrary values
+4c0118d037c31479403f5890cfcd9b260bfa56eb xfs: test scaling of the mkfs concurrency options
+ec1ffd84a6a3cf87ca11ffeb3e34d13b60438074 xfs: online fuzz test known output
+f4ce31788d2a084db43c1af26f74b8dad0f01d1a xfs: offline fuzz test known output
+7df0d95f9957e231d90a47e3d147b0ed9113b244 xfs: norepair fuzz test known output
+422872dd54a6df272d47fb3c5e289ecc736391dd xfs: bothrepair fuzz test known output
+ce72ac0fca3b751516f5fddc5f0df3d72372a472 misc: privatize the FIEXCHANGE ioctl for now
+7e67f2a222f333adbb86fe105be3ae0b1c4b5577 misc: update xfs_io swapext usage
+d9cb58b671bcfce853e716f50c660a5e1ed88198 xfs: stress test cycling parent pointers with online repair
+25393397b78452f014b3c7fdee797ea23bb2269e xfs/004: fix column extraction code
+9e2feaeb8d07259790db23cf18b8a9eea5b682fd common: make helpers for ttyprintk usage
+e56c8eb1933658c280cb604595c1067980991f68 xfs: test upgrading old features
+c65e4803dab28d7dbb7ae1e96df2db7bdee07b4d xfs/122: fix metadirino
+5af7921255b08b9eb3eca99b2d6fd5d166267b98 various: fix finding metadata inode numbers when metadir is enabled
+df5a1a3d37996f57ec165f98e2e024cca8ebd857 xfs/{030,033,178}: forcibly disable metadata directory trees
+07f8c92951954d0f1cdb1e6ee3a495d2b2df59a6 common/repair: patch up repair sb inode value complaints
+c98190fca1519fb1d908d89ce1b988dbe9ea2e11 xfs/206: update for metadata directory support
+7918167f182ca8eebb738d37af161a91c5278e04 xfs/{050,144,153,299,330}: update quota reports to leave out metadir files
+96962db6498f5a049b2073d5b21bace04ecdb7cb xfs/856: add metadir upgrade to test matrix
+550cbdb4c9ffa8a03e62fdd995affd230cb0a5ac xfs/509: adjust inumbers accounting for metadata directories
+dfff28f84a609505f9d8c8aa1e92bacefd6b5918 xfs: create fuzz tests for metadata directories
+15486b67ae5468f6e5d52b52c51ee503eab73c67 xfs: baseline golden output for metadata directory fuzz tests
+cb27bb41e76f3438f0afbece822efb97a18a19e7 common/populate: refactor caching of metadumps to a helper
+34064dd2ef5a5e990192e617e57ce3efefcf12b4 common/xfs: wipe external logs during mdrestore operations
+c93188aac558742f4c681f46f31820abbf0a7a1e common/ext4: reformat external logs during mdrestore operations
+98c20a8ac153b402dc09f0779f5c287c2dca59b3 common/xfs: capture external logs during metadump/mdrestore
+8859356f1abd784ca884250e7470e76fac59e85c xfs/122: update for rtgroups
+38533bab4a6974820f7a29af5b937ae54727ccd9 punch-alternating: detect xfs realtime files with large allocation units
+2e01db287abdf75ae928b8e5d17ec931d38bc72c xfs/206: update mkfs filtering for rt groups feature
+46f6c37fa56657d76f225acd17746ed3e2a30a8f common: pass the realtime device to xfs_db when possible
+89b1d9514a1c61291791ec6fb8e55ec4d7ca31a2 common: filter rtgroups when we're disabling metadir
+bf5451f7e9a29d3608702a70a7983b15fc54962f xfs/185: update for rtgroups
+f2dbe68e794433fd04046f0318edcf00cb4011fa xfs/449: update test to know about xfs_db -R
+d1baa9ac941e78b5824c792a8db8ef64c27db73c xfs/122: update for rtbitmap headers
+bbf8cf6c39c8d12e8dff3d06aa58f6d601015d39 xfs/122: udpate test to pick up rtword/suminfo ondisk unions
+4a80848e05d8b1bd37ab79dcaf941c6ccdcb638b xfs/27[46],xfs/556: fix tests to deal with rtgroups output in bmap/fsmap commands
+a6b97e330d99bc7e0b7c5c7e5ddf8a1fb9955a84 common/xfs: capture realtime devices during metadump/mdrestore
+d93697f0a0643abc9b2375119ea5304939b4157a common/fuzzy: adapt the scrub stress tests to support rtgroups
+679da0364e365cdd2501f66bb38d9e38eb09db22 xfs: refactor statfs field extraction
+6e0f6eea8a263a1adbccf54891f23cc61c3a9275 generic/260: compute maximum fitrim offset
+83d98674b6853cd0dfdee2dabb650d2c8e7a5203 xfs: fix tests that try to access the realtime rmap inode
+70ad7bdfeffec5bb8fd365f25190aa2a20c8c501 fuzz: for fuzzing the rtrmapbt, find the path to the rt rmap btree file
+fcb090021e93b1132f5aaae5a80d64c4f1cb3083 xfs: race fsstress with realtime rmap btree scrub and repair
+3d936cad3d66eace6fbac42e7b2c8529617b849a xfs/856: add rtrmapbt upgrade to test matrix
+3c00d5b3d20cf39e0a238ba9169992240ccec7dc xfs/122: update for rtgroups-based realtime rmap btrees
+3caafd18d5d91bf44ec34039d22c57b309db204e xfs: fix various problems with fsmap detecting the data device
+c39a763f81dcdcb2dc4dc17f7c7584b4b195dff1 xfs/341: update test for rtgroup-based rmap
+3d44cc3140ae7ff1321f37b060ffd837ba491ad3 xfs/3{43,32}: adapt tests for rt extent size greater than 1
+8c0441ea60fedf6cb1c9a7c676f697bf148d4514 xfs: skip tests if formatting small filesystem fails
+8eaac144ae2ea0b27bed28d099779adcbee1beaa xfs/443: use file allocation unit, not dbsize
+48e9f8cfeba46487f54aaa2fc4bacaceaa3876ca populate: adjust rtrmap calculations for rtgroups
+9176932df4ec160bb96b9a7c6672649c59df7cb7 populate: check that we created a realtime rmap btree of the given height
+59dd66b4ffd465a52db5b448a23681c6cb40cb44 fuzzy: create missing fuzz tests for rt rmap btrees
+36e5920adbd02c85d574f1619220f6b77bf06828 fuzzy: create known output for rt rmap btree fuzz tests
+618c9d2a3f8a1169ddaba8247cd147c42252cd2a xfs/122: update fields for realtime reflink
+509a7e1845f12a3ddca1ab17729c8d93b0118d52 common/populate: create realtime refcount btree
+a51c5f7d871a7518088fea129281173eca5df003 xfs: create fuzz tests for the realtime refcount btree
+69a64500b0230917c45d668fee4d955e5309855f xfs/27[24]: adapt for checking files on the realtime volume
+d7af74c5bf36bf1fae0a5b7831a97d8e04c709fc xfs/243: don't run when realtime storage is the default
+db2aa8b154fa57ca0243529ffd8283787714be13 xfs: race fsstress with realtime refcount btree scrub and repair
+666bfd9ee3c227f74c71d110fdeed46b6babf248 xfs: remove xfs/131 now that we allow reflink on realtime volumes
+9ba7b3c4a9f146625396638ea659eec4eadd6a72 xfs/856: add rtreflink upgrade to test matrix
+03b8e9a80abe15af1f97f128389a6240660e6d40 generic/331,xfs/240: support files that skip delayed allocation
+6d0570ce372287949248561a40e7a32a1a1ced15 common/xfs: fix _xfs_get_file_block_size when rtinherit is set and no rt section
+88516c14fe833bebba2ce274ea489cce8e9f8e9c xfs: baseline golden output for rt refcount btree fuzz tests
+8f655607b0b1e74fc9d1b26a5b1301f499d44773 xfs: make sure that CoW will write around when rextsize > 1
+e0d8c4406f8c202ae9e2de8362b05d371d2d8e05 xfs: skip cowextsize hint fragmentation tests on realtime volumes
+ec024ffc5011655dc58176a4bf4c5d860383e913 misc: add more congruent oplen testing
+7d22511c41094896465ebfe66a79f0e20631f307 generic/303: avoid test failures on weird rt extent sizes
+c43deb86e7e2f0ecf1066f377a82f11c650f655a xfs: regression testing of quota on the realtime device
+c75bc4c866c71ea61394598afdccb244fa469335 xfs/122: update for vectored scrub
+346a308c4e35c61ef8f2a2d8cb173bdcda72efd2 xfs: test output of new FSREFCOUNTS ioctl
+c3284d13c671272211c6f2464e658156d329a981 xfs: test clearing of free space
 
---===============7650299949684335615==--
+--===============5328713760726719305==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-b74f65a53a90-a1d28251eab7.txt
+
+a20990a0481571d5cb2d2294c9449ebb317a2b2f check: generate section reports between tests
+7e8a291e3bdf25bd57498131d86925bdc380837d report: derive an xml schema for the xunit report
+36c554feac175a5967ef70bab6904315c190484c report: capture the time zone in the test report timestamp
+f7367629f92fe4e90fd1f0764a919a841515a44f report: clarify the meaning of the timestamp attribute
+36c275a1500e88a7c09cc5108437dcbc40e6faeb report: record fstests start and report generation timestamps
+fc9f173562f94ffbeb432db5c0665c4e2ac49737 report: encode cdata sections correctly
+46e9c212bf8ba024f7d0eb1293e90f4df40a3fbe report: encode the kernel log as a separate xml element
+b9b05ccd3ff760be88ab3a9814113d7a519fc71f report: sort properties by name
+de57f6161f14ac071178f663d0634f210c1224e8 report: pass property value to _xunit_add_property
+6c65bb263b3304691eac93ff871ab7f0a5af29ad report: encode xml entities in property values
+57c3db4f694fe0b6bfaccd43efefbed965857fb9 report: collect basic information about a test run
+68b87376a7c82e114ab0af81414a2d102c0e5757 report: record optional environment variables
+b2f466196d7f510f9f51595423b8096ca1b84351 report: record xfs-specific information about a test run
+dcbe83cc7e5aa5e4c84492626e0ac1fa5b10bdff report: record ext*-specific information about a test run
+7e5db626c7e5f9adedff38e6fe2e4c3551e1007e report: allow test runners to inject arbitrary values
+4c0118d037c31479403f5890cfcd9b260bfa56eb xfs: test scaling of the mkfs concurrency options
+ec1ffd84a6a3cf87ca11ffeb3e34d13b60438074 xfs: online fuzz test known output
+f4ce31788d2a084db43c1af26f74b8dad0f01d1a xfs: offline fuzz test known output
+7df0d95f9957e231d90a47e3d147b0ed9113b244 xfs: norepair fuzz test known output
+422872dd54a6df272d47fb3c5e289ecc736391dd xfs: bothrepair fuzz test known output
+ce72ac0fca3b751516f5fddc5f0df3d72372a472 misc: privatize the FIEXCHANGE ioctl for now
+7e67f2a222f333adbb86fe105be3ae0b1c4b5577 misc: update xfs_io swapext usage
+d9cb58b671bcfce853e716f50c660a5e1ed88198 xfs: stress test cycling parent pointers with online repair
+25393397b78452f014b3c7fdee797ea23bb2269e xfs/004: fix column extraction code
+9e2feaeb8d07259790db23cf18b8a9eea5b682fd common: make helpers for ttyprintk usage
+e56c8eb1933658c280cb604595c1067980991f68 xfs: test upgrading old features
+c65e4803dab28d7dbb7ae1e96df2db7bdee07b4d xfs/122: fix metadirino
+5af7921255b08b9eb3eca99b2d6fd5d166267b98 various: fix finding metadata inode numbers when metadir is enabled
+df5a1a3d37996f57ec165f98e2e024cca8ebd857 xfs/{030,033,178}: forcibly disable metadata directory trees
+07f8c92951954d0f1cdb1e6ee3a495d2b2df59a6 common/repair: patch up repair sb inode value complaints
+c98190fca1519fb1d908d89ce1b988dbe9ea2e11 xfs/206: update for metadata directory support
+7918167f182ca8eebb738d37af161a91c5278e04 xfs/{050,144,153,299,330}: update quota reports to leave out metadir files
+96962db6498f5a049b2073d5b21bace04ecdb7cb xfs/856: add metadir upgrade to test matrix
+550cbdb4c9ffa8a03e62fdd995affd230cb0a5ac xfs/509: adjust inumbers accounting for metadata directories
+dfff28f84a609505f9d8c8aa1e92bacefd6b5918 xfs: create fuzz tests for metadata directories
+15486b67ae5468f6e5d52b52c51ee503eab73c67 xfs: baseline golden output for metadata directory fuzz tests
+cb27bb41e76f3438f0afbece822efb97a18a19e7 common/populate: refactor caching of metadumps to a helper
+34064dd2ef5a5e990192e617e57ce3efefcf12b4 common/xfs: wipe external logs during mdrestore operations
+c93188aac558742f4c681f46f31820abbf0a7a1e common/ext4: reformat external logs during mdrestore operations
+98c20a8ac153b402dc09f0779f5c287c2dca59b3 common/xfs: capture external logs during metadump/mdrestore
+8859356f1abd784ca884250e7470e76fac59e85c xfs/122: update for rtgroups
+38533bab4a6974820f7a29af5b937ae54727ccd9 punch-alternating: detect xfs realtime files with large allocation units
+2e01db287abdf75ae928b8e5d17ec931d38bc72c xfs/206: update mkfs filtering for rt groups feature
+46f6c37fa56657d76f225acd17746ed3e2a30a8f common: pass the realtime device to xfs_db when possible
+89b1d9514a1c61291791ec6fb8e55ec4d7ca31a2 common: filter rtgroups when we're disabling metadir
+bf5451f7e9a29d3608702a70a7983b15fc54962f xfs/185: update for rtgroups
+f2dbe68e794433fd04046f0318edcf00cb4011fa xfs/449: update test to know about xfs_db -R
+d1baa9ac941e78b5824c792a8db8ef64c27db73c xfs/122: update for rtbitmap headers
+bbf8cf6c39c8d12e8dff3d06aa58f6d601015d39 xfs/122: udpate test to pick up rtword/suminfo ondisk unions
+4a80848e05d8b1bd37ab79dcaf941c6ccdcb638b xfs/27[46],xfs/556: fix tests to deal with rtgroups output in bmap/fsmap commands
+a6b97e330d99bc7e0b7c5c7e5ddf8a1fb9955a84 common/xfs: capture realtime devices during metadump/mdrestore
+d93697f0a0643abc9b2375119ea5304939b4157a common/fuzzy: adapt the scrub stress tests to support rtgroups
+679da0364e365cdd2501f66bb38d9e38eb09db22 xfs: refactor statfs field extraction
+6e0f6eea8a263a1adbccf54891f23cc61c3a9275 generic/260: compute maximum fitrim offset
+83d98674b6853cd0dfdee2dabb650d2c8e7a5203 xfs: fix tests that try to access the realtime rmap inode
+70ad7bdfeffec5bb8fd365f25190aa2a20c8c501 fuzz: for fuzzing the rtrmapbt, find the path to the rt rmap btree file
+fcb090021e93b1132f5aaae5a80d64c4f1cb3083 xfs: race fsstress with realtime rmap btree scrub and repair
+3d936cad3d66eace6fbac42e7b2c8529617b849a xfs/856: add rtrmapbt upgrade to test matrix
+3c00d5b3d20cf39e0a238ba9169992240ccec7dc xfs/122: update for rtgroups-based realtime rmap btrees
+3caafd18d5d91bf44ec34039d22c57b309db204e xfs: fix various problems with fsmap detecting the data device
+c39a763f81dcdcb2dc4dc17f7c7584b4b195dff1 xfs/341: update test for rtgroup-based rmap
+3d44cc3140ae7ff1321f37b060ffd837ba491ad3 xfs/3{43,32}: adapt tests for rt extent size greater than 1
+8c0441ea60fedf6cb1c9a7c676f697bf148d4514 xfs: skip tests if formatting small filesystem fails
+8eaac144ae2ea0b27bed28d099779adcbee1beaa xfs/443: use file allocation unit, not dbsize
+48e9f8cfeba46487f54aaa2fc4bacaceaa3876ca populate: adjust rtrmap calculations for rtgroups
+9176932df4ec160bb96b9a7c6672649c59df7cb7 populate: check that we created a realtime rmap btree of the given height
+59dd66b4ffd465a52db5b448a23681c6cb40cb44 fuzzy: create missing fuzz tests for rt rmap btrees
+36e5920adbd02c85d574f1619220f6b77bf06828 fuzzy: create known output for rt rmap btree fuzz tests
+618c9d2a3f8a1169ddaba8247cd147c42252cd2a xfs/122: update fields for realtime reflink
+509a7e1845f12a3ddca1ab17729c8d93b0118d52 common/populate: create realtime refcount btree
+a51c5f7d871a7518088fea129281173eca5df003 xfs: create fuzz tests for the realtime refcount btree
+69a64500b0230917c45d668fee4d955e5309855f xfs/27[24]: adapt for checking files on the realtime volume
+d7af74c5bf36bf1fae0a5b7831a97d8e04c709fc xfs/243: don't run when realtime storage is the default
+db2aa8b154fa57ca0243529ffd8283787714be13 xfs: race fsstress with realtime refcount btree scrub and repair
+666bfd9ee3c227f74c71d110fdeed46b6babf248 xfs: remove xfs/131 now that we allow reflink on realtime volumes
+9ba7b3c4a9f146625396638ea659eec4eadd6a72 xfs/856: add rtreflink upgrade to test matrix
+03b8e9a80abe15af1f97f128389a6240660e6d40 generic/331,xfs/240: support files that skip delayed allocation
+6d0570ce372287949248561a40e7a32a1a1ced15 common/xfs: fix _xfs_get_file_block_size when rtinherit is set and no rt section
+88516c14fe833bebba2ce274ea489cce8e9f8e9c xfs: baseline golden output for rt refcount btree fuzz tests
+8f655607b0b1e74fc9d1b26a5b1301f499d44773 xfs: make sure that CoW will write around when rextsize > 1
+e0d8c4406f8c202ae9e2de8362b05d371d2d8e05 xfs: skip cowextsize hint fragmentation tests on realtime volumes
+ec024ffc5011655dc58176a4bf4c5d860383e913 misc: add more congruent oplen testing
+7d22511c41094896465ebfe66a79f0e20631f307 generic/303: avoid test failures on weird rt extent sizes
+c43deb86e7e2f0ecf1066f377a82f11c650f655a xfs: regression testing of quota on the realtime device
+c75bc4c866c71ea61394598afdccb244fa469335 xfs/122: update for vectored scrub
+346a308c4e35c61ef8f2a2d8cb173bdcda72efd2 xfs: test output of new FSREFCOUNTS ioctl
+c3284d13c671272211c6f2464e658156d329a981 xfs: test clearing of free space
+33364f4c7b67b53d042369a3d8905e0067ab0dad xfs/122: update for parent pointers
+6dbcb0ffd561be2fbf749438132c99129fa8283b populate: create hardlinks for parent pointers
+b8741313c541f98592424508dc6e6b221b15ecfc xfs/021: adapt golden output files for parent pointers
+d32b334245c9fdd814059833ffc46fb795f42bdb generic/050: adapt for parent pointers
+260e43317d4e413caa04d8fe245274daab59db07 xfs/018: disable parent pointers for this test
+ce25ef5ca039ee560b599e358b715448088e1a09 xfs/306: fix formatting failures with parent pointers
+c6007175b9ead4588e7260445f94baa6f7c76c97 common: add helpers for parent pointer tests
+a781cfd1f3ca1d6fb2253707505d0d6982b65784 xfs: add parent pointer test
+03f007bca20e8ad5d5fa5503e6f3c5a588133ad2 xfs: add multi link parent pointer test
+5da830b6e2e71c50e9da4621797547f13d0ca8fa xfs: add parent pointer inject test
+c7a778d36d06b811a988d4abce8f9f5cf97c9667 common/parent: add license and copyright
+3567763fd36d9d45ae87c0d048b41da56c5c836c common/parent: don't _fail on missing parent pointer components
+ce7b54532e127b16e41eb6e90391926fd2d61fb4 common/parent: check xfs_io parent command paths
+cb0ca7bd9490d02b474dc8a45060e32ef3173b8e xfs/851: test xfs_io parent -p too
+d93e13adaf6f16ad596b9f4c436b4dda69084954 misc: adjust for parent pointers with namehashes
+a3d2c0122507cd0e982a898368b379d81306809b xfs/021: adjust for short parent pointers with hashes
+9c1bbbe09792510ce29746cf03e37e134f6ef41d xfs/242: fix _filter_bmap for xfs_io bmap that does rt file properly
+dc24ccf06f9e396be613f120ce4f5f1f598529aa xfs/021: adjust for short valuelens
+6c0478d908e4e201170240b4d6e5b587e022e496 xfs/122: adjust for flex-array XFS_IOC_GETPARENTS ioctl
+d377a152fab26d2fcace8e954a0b56a86a4d9fa3 generic/476: reclassify this test as a long running soak stress test
+dcaa53cfb23d73d2476e6fb26bf9fd03db86da61 misc: add duration for long soak tests
+cba5b0163b485bcda4d6e66c9c10a58d798a8230 misc: add duration for recovery loop tests
+a9e0f2afa0797220e38d14656d93ade6941e8355 xfs/554: disable until merged
+86a022bf8628046e9b161b89236b48a04d7b880f generic: test swapping process pages in and out of a swapfile
+3d483a1f0012c4c5b4574c0793bc13a45c34c5c4 check: snapshot the test device before each test
+67e1538b249e082f4b27ae72468a37fa9944dc09 xfs/538: disable for now so that we don't trip scrub...?
+20a58ce301add728b02ac4e602e834875c16fdf0 xfs/168: capture metadump on failure
+9bd9eaf730661bffc5a9277eba9e32b8d9a460ab xfs: test for premature ENOSPC with large cow delalloc extents
+099f2069658fc50642739cc873e785fcd62ca2d0 vfs/idmapped-mounts: fix unhandled EOVERFLOW in setattr_fix_968219708108
+d214d2fc1ca4f573f9e93393fdd67fbef4431ac5 generic/471: disable broken test?
+16fa12f3b6a544b678ebc905f33c60cf667ba7be common/xfs: force inodegc work before running xfs_scrub
+4ae541f5efe3c5a3ca57132823775e6a8a07f0f3 fuzzy: disable scrub stress tests for non djwong-dev kernels
+
+--===============5328713760726719305==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-4388dd3c676d-256fd3e3e088.txt
+
+a20990a0481571d5cb2d2294c9449ebb317a2b2f check: generate section reports between tests
+7e8a291e3bdf25bd57498131d86925bdc380837d report: derive an xml schema for the xunit report
+36c554feac175a5967ef70bab6904315c190484c report: capture the time zone in the test report timestamp
+f7367629f92fe4e90fd1f0764a919a841515a44f report: clarify the meaning of the timestamp attribute
+36c275a1500e88a7c09cc5108437dcbc40e6faeb report: record fstests start and report generation timestamps
+fc9f173562f94ffbeb432db5c0665c4e2ac49737 report: encode cdata sections correctly
+46e9c212bf8ba024f7d0eb1293e90f4df40a3fbe report: encode the kernel log as a separate xml element
+b9b05ccd3ff760be88ab3a9814113d7a519fc71f report: sort properties by name
+de57f6161f14ac071178f663d0634f210c1224e8 report: pass property value to _xunit_add_property
+6c65bb263b3304691eac93ff871ab7f0a5af29ad report: encode xml entities in property values
+57c3db4f694fe0b6bfaccd43efefbed965857fb9 report: collect basic information about a test run
+68b87376a7c82e114ab0af81414a2d102c0e5757 report: record optional environment variables
+b2f466196d7f510f9f51595423b8096ca1b84351 report: record xfs-specific information about a test run
+dcbe83cc7e5aa5e4c84492626e0ac1fa5b10bdff report: record ext*-specific information about a test run
+7e5db626c7e5f9adedff38e6fe2e4c3551e1007e report: allow test runners to inject arbitrary values
+4c0118d037c31479403f5890cfcd9b260bfa56eb xfs: test scaling of the mkfs concurrency options
+ec1ffd84a6a3cf87ca11ffeb3e34d13b60438074 xfs: online fuzz test known output
+f4ce31788d2a084db43c1af26f74b8dad0f01d1a xfs: offline fuzz test known output
+7df0d95f9957e231d90a47e3d147b0ed9113b244 xfs: norepair fuzz test known output
+422872dd54a6df272d47fb3c5e289ecc736391dd xfs: bothrepair fuzz test known output
+
+--===============5328713760726719305==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-137fd5cff9dc-cb3744f6a7ba.txt
+
+a20990a0481571d5cb2d2294c9449ebb317a2b2f check: generate section reports between tests
+7e8a291e3bdf25bd57498131d86925bdc380837d report: derive an xml schema for the xunit report
+36c554feac175a5967ef70bab6904315c190484c report: capture the time zone in the test report timestamp
+f7367629f92fe4e90fd1f0764a919a841515a44f report: clarify the meaning of the timestamp attribute
+36c275a1500e88a7c09cc5108437dcbc40e6faeb report: record fstests start and report generation timestamps
+fc9f173562f94ffbeb432db5c0665c4e2ac49737 report: encode cdata sections correctly
+46e9c212bf8ba024f7d0eb1293e90f4df40a3fbe report: encode the kernel log as a separate xml element
+b9b05ccd3ff760be88ab3a9814113d7a519fc71f report: sort properties by name
+de57f6161f14ac071178f663d0634f210c1224e8 report: pass property value to _xunit_add_property
+6c65bb263b3304691eac93ff871ab7f0a5af29ad report: encode xml entities in property values
+57c3db4f694fe0b6bfaccd43efefbed965857fb9 report: collect basic information about a test run
+68b87376a7c82e114ab0af81414a2d102c0e5757 report: record optional environment variables
+b2f466196d7f510f9f51595423b8096ca1b84351 report: record xfs-specific information about a test run
+dcbe83cc7e5aa5e4c84492626e0ac1fa5b10bdff report: record ext*-specific information about a test run
+7e5db626c7e5f9adedff38e6fe2e4c3551e1007e report: allow test runners to inject arbitrary values
+4c0118d037c31479403f5890cfcd9b260bfa56eb xfs: test scaling of the mkfs concurrency options
+ec1ffd84a6a3cf87ca11ffeb3e34d13b60438074 xfs: online fuzz test known output
+f4ce31788d2a084db43c1af26f74b8dad0f01d1a xfs: offline fuzz test known output
+7df0d95f9957e231d90a47e3d147b0ed9113b244 xfs: norepair fuzz test known output
+422872dd54a6df272d47fb3c5e289ecc736391dd xfs: bothrepair fuzz test known output
+ce72ac0fca3b751516f5fddc5f0df3d72372a472 misc: privatize the FIEXCHANGE ioctl for now
+7e67f2a222f333adbb86fe105be3ae0b1c4b5577 misc: update xfs_io swapext usage
+d9cb58b671bcfce853e716f50c660a5e1ed88198 xfs: stress test cycling parent pointers with online repair
+25393397b78452f014b3c7fdee797ea23bb2269e xfs/004: fix column extraction code
+9e2feaeb8d07259790db23cf18b8a9eea5b682fd common: make helpers for ttyprintk usage
+e56c8eb1933658c280cb604595c1067980991f68 xfs: test upgrading old features
+c65e4803dab28d7dbb7ae1e96df2db7bdee07b4d xfs/122: fix metadirino
+5af7921255b08b9eb3eca99b2d6fd5d166267b98 various: fix finding metadata inode numbers when metadir is enabled
+df5a1a3d37996f57ec165f98e2e024cca8ebd857 xfs/{030,033,178}: forcibly disable metadata directory trees
+07f8c92951954d0f1cdb1e6ee3a495d2b2df59a6 common/repair: patch up repair sb inode value complaints
+c98190fca1519fb1d908d89ce1b988dbe9ea2e11 xfs/206: update for metadata directory support
+7918167f182ca8eebb738d37af161a91c5278e04 xfs/{050,144,153,299,330}: update quota reports to leave out metadir files
+96962db6498f5a049b2073d5b21bace04ecdb7cb xfs/856: add metadir upgrade to test matrix
+550cbdb4c9ffa8a03e62fdd995affd230cb0a5ac xfs/509: adjust inumbers accounting for metadata directories
+dfff28f84a609505f9d8c8aa1e92bacefd6b5918 xfs: create fuzz tests for metadata directories
+15486b67ae5468f6e5d52b52c51ee503eab73c67 xfs: baseline golden output for metadata directory fuzz tests
+
+--===============5328713760726719305==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-55f7303f3ac5-20ac946a5555.txt
+
+a20990a0481571d5cb2d2294c9449ebb317a2b2f check: generate section reports between tests
+7e8a291e3bdf25bd57498131d86925bdc380837d report: derive an xml schema for the xunit report
+36c554feac175a5967ef70bab6904315c190484c report: capture the time zone in the test report timestamp
+f7367629f92fe4e90fd1f0764a919a841515a44f report: clarify the meaning of the timestamp attribute
+36c275a1500e88a7c09cc5108437dcbc40e6faeb report: record fstests start and report generation timestamps
+fc9f173562f94ffbeb432db5c0665c4e2ac49737 report: encode cdata sections correctly
+46e9c212bf8ba024f7d0eb1293e90f4df40a3fbe report: encode the kernel log as a separate xml element
+b9b05ccd3ff760be88ab3a9814113d7a519fc71f report: sort properties by name
+de57f6161f14ac071178f663d0634f210c1224e8 report: pass property value to _xunit_add_property
+6c65bb263b3304691eac93ff871ab7f0a5af29ad report: encode xml entities in property values
+57c3db4f694fe0b6bfaccd43efefbed965857fb9 report: collect basic information about a test run
+68b87376a7c82e114ab0af81414a2d102c0e5757 report: record optional environment variables
+b2f466196d7f510f9f51595423b8096ca1b84351 report: record xfs-specific information about a test run
+dcbe83cc7e5aa5e4c84492626e0ac1fa5b10bdff report: record ext*-specific information about a test run
+7e5db626c7e5f9adedff38e6fe2e4c3551e1007e report: allow test runners to inject arbitrary values
+4c0118d037c31479403f5890cfcd9b260bfa56eb xfs: test scaling of the mkfs concurrency options
+ec1ffd84a6a3cf87ca11ffeb3e34d13b60438074 xfs: online fuzz test known output
+f4ce31788d2a084db43c1af26f74b8dad0f01d1a xfs: offline fuzz test known output
+7df0d95f9957e231d90a47e3d147b0ed9113b244 xfs: norepair fuzz test known output
+422872dd54a6df272d47fb3c5e289ecc736391dd xfs: bothrepair fuzz test known output
+ce72ac0fca3b751516f5fddc5f0df3d72372a472 misc: privatize the FIEXCHANGE ioctl for now
+7e67f2a222f333adbb86fe105be3ae0b1c4b5577 misc: update xfs_io swapext usage
+d9cb58b671bcfce853e716f50c660a5e1ed88198 xfs: stress test cycling parent pointers with online repair
+25393397b78452f014b3c7fdee797ea23bb2269e xfs/004: fix column extraction code
+9e2feaeb8d07259790db23cf18b8a9eea5b682fd common: make helpers for ttyprintk usage
+e56c8eb1933658c280cb604595c1067980991f68 xfs: test upgrading old features
+c65e4803dab28d7dbb7ae1e96df2db7bdee07b4d xfs/122: fix metadirino
+5af7921255b08b9eb3eca99b2d6fd5d166267b98 various: fix finding metadata inode numbers when metadir is enabled
+df5a1a3d37996f57ec165f98e2e024cca8ebd857 xfs/{030,033,178}: forcibly disable metadata directory trees
+07f8c92951954d0f1cdb1e6ee3a495d2b2df59a6 common/repair: patch up repair sb inode value complaints
+c98190fca1519fb1d908d89ce1b988dbe9ea2e11 xfs/206: update for metadata directory support
+7918167f182ca8eebb738d37af161a91c5278e04 xfs/{050,144,153,299,330}: update quota reports to leave out metadir files
+96962db6498f5a049b2073d5b21bace04ecdb7cb xfs/856: add metadir upgrade to test matrix
+550cbdb4c9ffa8a03e62fdd995affd230cb0a5ac xfs/509: adjust inumbers accounting for metadata directories
+dfff28f84a609505f9d8c8aa1e92bacefd6b5918 xfs: create fuzz tests for metadata directories
+
+--===============5328713760726719305==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-dcdbd2d3ecdb-0819dbc20f2a.txt
+
+a20990a0481571d5cb2d2294c9449ebb317a2b2f check: generate section reports between tests
+7e8a291e3bdf25bd57498131d86925bdc380837d report: derive an xml schema for the xunit report
+36c554feac175a5967ef70bab6904315c190484c report: capture the time zone in the test report timestamp
+f7367629f92fe4e90fd1f0764a919a841515a44f report: clarify the meaning of the timestamp attribute
+36c275a1500e88a7c09cc5108437dcbc40e6faeb report: record fstests start and report generation timestamps
+fc9f173562f94ffbeb432db5c0665c4e2ac49737 report: encode cdata sections correctly
+46e9c212bf8ba024f7d0eb1293e90f4df40a3fbe report: encode the kernel log as a separate xml element
+b9b05ccd3ff760be88ab3a9814113d7a519fc71f report: sort properties by name
+de57f6161f14ac071178f663d0634f210c1224e8 report: pass property value to _xunit_add_property
+6c65bb263b3304691eac93ff871ab7f0a5af29ad report: encode xml entities in property values
+57c3db4f694fe0b6bfaccd43efefbed965857fb9 report: collect basic information about a test run
+68b87376a7c82e114ab0af81414a2d102c0e5757 report: record optional environment variables
+b2f466196d7f510f9f51595423b8096ca1b84351 report: record xfs-specific information about a test run
+dcbe83cc7e5aa5e4c84492626e0ac1fa5b10bdff report: record ext*-specific information about a test run
+7e5db626c7e5f9adedff38e6fe2e4c3551e1007e report: allow test runners to inject arbitrary values
+4c0118d037c31479403f5890cfcd9b260bfa56eb xfs: test scaling of the mkfs concurrency options
+ec1ffd84a6a3cf87ca11ffeb3e34d13b60438074 xfs: online fuzz test known output
+f4ce31788d2a084db43c1af26f74b8dad0f01d1a xfs: offline fuzz test known output
+7df0d95f9957e231d90a47e3d147b0ed9113b244 xfs: norepair fuzz test known output
+422872dd54a6df272d47fb3c5e289ecc736391dd xfs: bothrepair fuzz test known output
+ce72ac0fca3b751516f5fddc5f0df3d72372a472 misc: privatize the FIEXCHANGE ioctl for now
+7e67f2a222f333adbb86fe105be3ae0b1c4b5577 misc: update xfs_io swapext usage
+d9cb58b671bcfce853e716f50c660a5e1ed88198 xfs: stress test cycling parent pointers with online repair
+25393397b78452f014b3c7fdee797ea23bb2269e xfs/004: fix column extraction code
+9e2feaeb8d07259790db23cf18b8a9eea5b682fd common: make helpers for ttyprintk usage
+e56c8eb1933658c280cb604595c1067980991f68 xfs: test upgrading old features
+c65e4803dab28d7dbb7ae1e96df2db7bdee07b4d xfs/122: fix metadirino
+5af7921255b08b9eb3eca99b2d6fd5d166267b98 various: fix finding metadata inode numbers when metadir is enabled
+df5a1a3d37996f57ec165f98e2e024cca8ebd857 xfs/{030,033,178}: forcibly disable metadata directory trees
+07f8c92951954d0f1cdb1e6ee3a495d2b2df59a6 common/repair: patch up repair sb inode value complaints
+c98190fca1519fb1d908d89ce1b988dbe9ea2e11 xfs/206: update for metadata directory support
+7918167f182ca8eebb738d37af161a91c5278e04 xfs/{050,144,153,299,330}: update quota reports to leave out metadir files
+96962db6498f5a049b2073d5b21bace04ecdb7cb xfs/856: add metadir upgrade to test matrix
+550cbdb4c9ffa8a03e62fdd995affd230cb0a5ac xfs/509: adjust inumbers accounting for metadata directories
+dfff28f84a609505f9d8c8aa1e92bacefd6b5918 xfs: create fuzz tests for metadata directories
+15486b67ae5468f6e5d52b52c51ee503eab73c67 xfs: baseline golden output for metadata directory fuzz tests
+cb27bb41e76f3438f0afbece822efb97a18a19e7 common/populate: refactor caching of metadumps to a helper
+34064dd2ef5a5e990192e617e57ce3efefcf12b4 common/xfs: wipe external logs during mdrestore operations
+c93188aac558742f4c681f46f31820abbf0a7a1e common/ext4: reformat external logs during mdrestore operations
+98c20a8ac153b402dc09f0779f5c287c2dca59b3 common/xfs: capture external logs during metadump/mdrestore
+
+--===============5328713760726719305==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-b759975ede88-df184540c027.txt
+
+a20990a0481571d5cb2d2294c9449ebb317a2b2f check: generate section reports between tests
+7e8a291e3bdf25bd57498131d86925bdc380837d report: derive an xml schema for the xunit report
+36c554feac175a5967ef70bab6904315c190484c report: capture the time zone in the test report timestamp
+f7367629f92fe4e90fd1f0764a919a841515a44f report: clarify the meaning of the timestamp attribute
+36c275a1500e88a7c09cc5108437dcbc40e6faeb report: record fstests start and report generation timestamps
+fc9f173562f94ffbeb432db5c0665c4e2ac49737 report: encode cdata sections correctly
+46e9c212bf8ba024f7d0eb1293e90f4df40a3fbe report: encode the kernel log as a separate xml element
+b9b05ccd3ff760be88ab3a9814113d7a519fc71f report: sort properties by name
+de57f6161f14ac071178f663d0634f210c1224e8 report: pass property value to _xunit_add_property
+6c65bb263b3304691eac93ff871ab7f0a5af29ad report: encode xml entities in property values
+57c3db4f694fe0b6bfaccd43efefbed965857fb9 report: collect basic information about a test run
+68b87376a7c82e114ab0af81414a2d102c0e5757 report: record optional environment variables
+b2f466196d7f510f9f51595423b8096ca1b84351 report: record xfs-specific information about a test run
+dcbe83cc7e5aa5e4c84492626e0ac1fa5b10bdff report: record ext*-specific information about a test run
+7e5db626c7e5f9adedff38e6fe2e4c3551e1007e report: allow test runners to inject arbitrary values
+4c0118d037c31479403f5890cfcd9b260bfa56eb xfs: test scaling of the mkfs concurrency options
+
+--===============5328713760726719305==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-7968f7105887-fc08d458ec23.txt
+
+a20990a0481571d5cb2d2294c9449ebb317a2b2f check: generate section reports between tests
+7e8a291e3bdf25bd57498131d86925bdc380837d report: derive an xml schema for the xunit report
+36c554feac175a5967ef70bab6904315c190484c report: capture the time zone in the test report timestamp
+f7367629f92fe4e90fd1f0764a919a841515a44f report: clarify the meaning of the timestamp attribute
+36c275a1500e88a7c09cc5108437dcbc40e6faeb report: record fstests start and report generation timestamps
+fc9f173562f94ffbeb432db5c0665c4e2ac49737 report: encode cdata sections correctly
+46e9c212bf8ba024f7d0eb1293e90f4df40a3fbe report: encode the kernel log as a separate xml element
+b9b05ccd3ff760be88ab3a9814113d7a519fc71f report: sort properties by name
+de57f6161f14ac071178f663d0634f210c1224e8 report: pass property value to _xunit_add_property
+6c65bb263b3304691eac93ff871ab7f0a5af29ad report: encode xml entities in property values
+57c3db4f694fe0b6bfaccd43efefbed965857fb9 report: collect basic information about a test run
+68b87376a7c82e114ab0af81414a2d102c0e5757 report: record optional environment variables
+b2f466196d7f510f9f51595423b8096ca1b84351 report: record xfs-specific information about a test run
+dcbe83cc7e5aa5e4c84492626e0ac1fa5b10bdff report: record ext*-specific information about a test run
+7e5db626c7e5f9adedff38e6fe2e4c3551e1007e report: allow test runners to inject arbitrary values
+4c0118d037c31479403f5890cfcd9b260bfa56eb xfs: test scaling of the mkfs concurrency options
+ec1ffd84a6a3cf87ca11ffeb3e34d13b60438074 xfs: online fuzz test known output
+f4ce31788d2a084db43c1af26f74b8dad0f01d1a xfs: offline fuzz test known output
+7df0d95f9957e231d90a47e3d147b0ed9113b244 xfs: norepair fuzz test known output
+422872dd54a6df272d47fb3c5e289ecc736391dd xfs: bothrepair fuzz test known output
+ce72ac0fca3b751516f5fddc5f0df3d72372a472 misc: privatize the FIEXCHANGE ioctl for now
+7e67f2a222f333adbb86fe105be3ae0b1c4b5577 misc: update xfs_io swapext usage
+d9cb58b671bcfce853e716f50c660a5e1ed88198 xfs: stress test cycling parent pointers with online repair
+25393397b78452f014b3c7fdee797ea23bb2269e xfs/004: fix column extraction code
+9e2feaeb8d07259790db23cf18b8a9eea5b682fd common: make helpers for ttyprintk usage
+e56c8eb1933658c280cb604595c1067980991f68 xfs: test upgrading old features
+c65e4803dab28d7dbb7ae1e96df2db7bdee07b4d xfs/122: fix metadirino
+5af7921255b08b9eb3eca99b2d6fd5d166267b98 various: fix finding metadata inode numbers when metadir is enabled
+df5a1a3d37996f57ec165f98e2e024cca8ebd857 xfs/{030,033,178}: forcibly disable metadata directory trees
+07f8c92951954d0f1cdb1e6ee3a495d2b2df59a6 common/repair: patch up repair sb inode value complaints
+c98190fca1519fb1d908d89ce1b988dbe9ea2e11 xfs/206: update for metadata directory support
+7918167f182ca8eebb738d37af161a91c5278e04 xfs/{050,144,153,299,330}: update quota reports to leave out metadir files
+96962db6498f5a049b2073d5b21bace04ecdb7cb xfs/856: add metadir upgrade to test matrix
+550cbdb4c9ffa8a03e62fdd995affd230cb0a5ac xfs/509: adjust inumbers accounting for metadata directories
+dfff28f84a609505f9d8c8aa1e92bacefd6b5918 xfs: create fuzz tests for metadata directories
+15486b67ae5468f6e5d52b52c51ee503eab73c67 xfs: baseline golden output for metadata directory fuzz tests
+cb27bb41e76f3438f0afbece822efb97a18a19e7 common/populate: refactor caching of metadumps to a helper
+34064dd2ef5a5e990192e617e57ce3efefcf12b4 common/xfs: wipe external logs during mdrestore operations
+c93188aac558742f4c681f46f31820abbf0a7a1e common/ext4: reformat external logs during mdrestore operations
+98c20a8ac153b402dc09f0779f5c287c2dca59b3 common/xfs: capture external logs during metadump/mdrestore
+8859356f1abd784ca884250e7470e76fac59e85c xfs/122: update for rtgroups
+38533bab4a6974820f7a29af5b937ae54727ccd9 punch-alternating: detect xfs realtime files with large allocation units
+2e01db287abdf75ae928b8e5d17ec931d38bc72c xfs/206: update mkfs filtering for rt groups feature
+46f6c37fa56657d76f225acd17746ed3e2a30a8f common: pass the realtime device to xfs_db when possible
+89b1d9514a1c61291791ec6fb8e55ec4d7ca31a2 common: filter rtgroups when we're disabling metadir
+bf5451f7e9a29d3608702a70a7983b15fc54962f xfs/185: update for rtgroups
+f2dbe68e794433fd04046f0318edcf00cb4011fa xfs/449: update test to know about xfs_db -R
+d1baa9ac941e78b5824c792a8db8ef64c27db73c xfs/122: update for rtbitmap headers
+bbf8cf6c39c8d12e8dff3d06aa58f6d601015d39 xfs/122: udpate test to pick up rtword/suminfo ondisk unions
+4a80848e05d8b1bd37ab79dcaf941c6ccdcb638b xfs/27[46],xfs/556: fix tests to deal with rtgroups output in bmap/fsmap commands
+a6b97e330d99bc7e0b7c5c7e5ddf8a1fb9955a84 common/xfs: capture realtime devices during metadump/mdrestore
+d93697f0a0643abc9b2375119ea5304939b4157a common/fuzzy: adapt the scrub stress tests to support rtgroups
+679da0364e365cdd2501f66bb38d9e38eb09db22 xfs: refactor statfs field extraction
+6e0f6eea8a263a1adbccf54891f23cc61c3a9275 generic/260: compute maximum fitrim offset
+83d98674b6853cd0dfdee2dabb650d2c8e7a5203 xfs: fix tests that try to access the realtime rmap inode
+70ad7bdfeffec5bb8fd365f25190aa2a20c8c501 fuzz: for fuzzing the rtrmapbt, find the path to the rt rmap btree file
+fcb090021e93b1132f5aaae5a80d64c4f1cb3083 xfs: race fsstress with realtime rmap btree scrub and repair
+3d936cad3d66eace6fbac42e7b2c8529617b849a xfs/856: add rtrmapbt upgrade to test matrix
+3c00d5b3d20cf39e0a238ba9169992240ccec7dc xfs/122: update for rtgroups-based realtime rmap btrees
+3caafd18d5d91bf44ec34039d22c57b309db204e xfs: fix various problems with fsmap detecting the data device
+c39a763f81dcdcb2dc4dc17f7c7584b4b195dff1 xfs/341: update test for rtgroup-based rmap
+3d44cc3140ae7ff1321f37b060ffd837ba491ad3 xfs/3{43,32}: adapt tests for rt extent size greater than 1
+8c0441ea60fedf6cb1c9a7c676f697bf148d4514 xfs: skip tests if formatting small filesystem fails
+8eaac144ae2ea0b27bed28d099779adcbee1beaa xfs/443: use file allocation unit, not dbsize
+48e9f8cfeba46487f54aaa2fc4bacaceaa3876ca populate: adjust rtrmap calculations for rtgroups
+9176932df4ec160bb96b9a7c6672649c59df7cb7 populate: check that we created a realtime rmap btree of the given height
+59dd66b4ffd465a52db5b448a23681c6cb40cb44 fuzzy: create missing fuzz tests for rt rmap btrees
+36e5920adbd02c85d574f1619220f6b77bf06828 fuzzy: create known output for rt rmap btree fuzz tests
+618c9d2a3f8a1169ddaba8247cd147c42252cd2a xfs/122: update fields for realtime reflink
+509a7e1845f12a3ddca1ab17729c8d93b0118d52 common/populate: create realtime refcount btree
+a51c5f7d871a7518088fea129281173eca5df003 xfs: create fuzz tests for the realtime refcount btree
+69a64500b0230917c45d668fee4d955e5309855f xfs/27[24]: adapt for checking files on the realtime volume
+d7af74c5bf36bf1fae0a5b7831a97d8e04c709fc xfs/243: don't run when realtime storage is the default
+db2aa8b154fa57ca0243529ffd8283787714be13 xfs: race fsstress with realtime refcount btree scrub and repair
+666bfd9ee3c227f74c71d110fdeed46b6babf248 xfs: remove xfs/131 now that we allow reflink on realtime volumes
+9ba7b3c4a9f146625396638ea659eec4eadd6a72 xfs/856: add rtreflink upgrade to test matrix
+03b8e9a80abe15af1f97f128389a6240660e6d40 generic/331,xfs/240: support files that skip delayed allocation
+6d0570ce372287949248561a40e7a32a1a1ced15 common/xfs: fix _xfs_get_file_block_size when rtinherit is set and no rt section
+88516c14fe833bebba2ce274ea489cce8e9f8e9c xfs: baseline golden output for rt refcount btree fuzz tests
+8f655607b0b1e74fc9d1b26a5b1301f499d44773 xfs: make sure that CoW will write around when rextsize > 1
+e0d8c4406f8c202ae9e2de8362b05d371d2d8e05 xfs: skip cowextsize hint fragmentation tests on realtime volumes
+ec024ffc5011655dc58176a4bf4c5d860383e913 misc: add more congruent oplen testing
+7d22511c41094896465ebfe66a79f0e20631f307 generic/303: avoid test failures on weird rt extent sizes
+c43deb86e7e2f0ecf1066f377a82f11c650f655a xfs: regression testing of quota on the realtime device
+c75bc4c866c71ea61394598afdccb244fa469335 xfs/122: update for vectored scrub
+346a308c4e35c61ef8f2a2d8cb173bdcda72efd2 xfs: test output of new FSREFCOUNTS ioctl
+c3284d13c671272211c6f2464e658156d329a981 xfs: test clearing of free space
+33364f4c7b67b53d042369a3d8905e0067ab0dad xfs/122: update for parent pointers
+6dbcb0ffd561be2fbf749438132c99129fa8283b populate: create hardlinks for parent pointers
+b8741313c541f98592424508dc6e6b221b15ecfc xfs/021: adapt golden output files for parent pointers
+d32b334245c9fdd814059833ffc46fb795f42bdb generic/050: adapt for parent pointers
+260e43317d4e413caa04d8fe245274daab59db07 xfs/018: disable parent pointers for this test
+ce25ef5ca039ee560b599e358b715448088e1a09 xfs/306: fix formatting failures with parent pointers
+c6007175b9ead4588e7260445f94baa6f7c76c97 common: add helpers for parent pointer tests
+a781cfd1f3ca1d6fb2253707505d0d6982b65784 xfs: add parent pointer test
+03f007bca20e8ad5d5fa5503e6f3c5a588133ad2 xfs: add multi link parent pointer test
+5da830b6e2e71c50e9da4621797547f13d0ca8fa xfs: add parent pointer inject test
+c7a778d36d06b811a988d4abce8f9f5cf97c9667 common/parent: add license and copyright
+3567763fd36d9d45ae87c0d048b41da56c5c836c common/parent: don't _fail on missing parent pointer components
+ce7b54532e127b16e41eb6e90391926fd2d61fb4 common/parent: check xfs_io parent command paths
+cb0ca7bd9490d02b474dc8a45060e32ef3173b8e xfs/851: test xfs_io parent -p too
+d93e13adaf6f16ad596b9f4c436b4dda69084954 misc: adjust for parent pointers with namehashes
+a3d2c0122507cd0e982a898368b379d81306809b xfs/021: adjust for short parent pointers with hashes
+9c1bbbe09792510ce29746cf03e37e134f6ef41d xfs/242: fix _filter_bmap for xfs_io bmap that does rt file properly
+dc24ccf06f9e396be613f120ce4f5f1f598529aa xfs/021: adjust for short valuelens
+6c0478d908e4e201170240b4d6e5b587e022e496 xfs/122: adjust for flex-array XFS_IOC_GETPARENTS ioctl
+
+--===============5328713760726719305==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-eee071f1a04f-dfdcda49e236.txt
+
+a20990a0481571d5cb2d2294c9449ebb317a2b2f check: generate section reports between tests
+7e8a291e3bdf25bd57498131d86925bdc380837d report: derive an xml schema for the xunit report
+36c554feac175a5967ef70bab6904315c190484c report: capture the time zone in the test report timestamp
+f7367629f92fe4e90fd1f0764a919a841515a44f report: clarify the meaning of the timestamp attribute
+36c275a1500e88a7c09cc5108437dcbc40e6faeb report: record fstests start and report generation timestamps
+fc9f173562f94ffbeb432db5c0665c4e2ac49737 report: encode cdata sections correctly
+46e9c212bf8ba024f7d0eb1293e90f4df40a3fbe report: encode the kernel log as a separate xml element
+b9b05ccd3ff760be88ab3a9814113d7a519fc71f report: sort properties by name
+de57f6161f14ac071178f663d0634f210c1224e8 report: pass property value to _xunit_add_property
+6c65bb263b3304691eac93ff871ab7f0a5af29ad report: encode xml entities in property values
+57c3db4f694fe0b6bfaccd43efefbed965857fb9 report: collect basic information about a test run
+68b87376a7c82e114ab0af81414a2d102c0e5757 report: record optional environment variables
+b2f466196d7f510f9f51595423b8096ca1b84351 report: record xfs-specific information about a test run
+dcbe83cc7e5aa5e4c84492626e0ac1fa5b10bdff report: record ext*-specific information about a test run
+7e5db626c7e5f9adedff38e6fe2e4c3551e1007e report: allow test runners to inject arbitrary values
+4c0118d037c31479403f5890cfcd9b260bfa56eb xfs: test scaling of the mkfs concurrency options
+ec1ffd84a6a3cf87ca11ffeb3e34d13b60438074 xfs: online fuzz test known output
+f4ce31788d2a084db43c1af26f74b8dad0f01d1a xfs: offline fuzz test known output
+7df0d95f9957e231d90a47e3d147b0ed9113b244 xfs: norepair fuzz test known output
+422872dd54a6df272d47fb3c5e289ecc736391dd xfs: bothrepair fuzz test known output
+ce72ac0fca3b751516f5fddc5f0df3d72372a472 misc: privatize the FIEXCHANGE ioctl for now
+7e67f2a222f333adbb86fe105be3ae0b1c4b5577 misc: update xfs_io swapext usage
+d9cb58b671bcfce853e716f50c660a5e1ed88198 xfs: stress test cycling parent pointers with online repair
+25393397b78452f014b3c7fdee797ea23bb2269e xfs/004: fix column extraction code
+9e2feaeb8d07259790db23cf18b8a9eea5b682fd common: make helpers for ttyprintk usage
+e56c8eb1933658c280cb604595c1067980991f68 xfs: test upgrading old features
+c65e4803dab28d7dbb7ae1e96df2db7bdee07b4d xfs/122: fix metadirino
+5af7921255b08b9eb3eca99b2d6fd5d166267b98 various: fix finding metadata inode numbers when metadir is enabled
+df5a1a3d37996f57ec165f98e2e024cca8ebd857 xfs/{030,033,178}: forcibly disable metadata directory trees
+07f8c92951954d0f1cdb1e6ee3a495d2b2df59a6 common/repair: patch up repair sb inode value complaints
+c98190fca1519fb1d908d89ce1b988dbe9ea2e11 xfs/206: update for metadata directory support
+7918167f182ca8eebb738d37af161a91c5278e04 xfs/{050,144,153,299,330}: update quota reports to leave out metadir files
+96962db6498f5a049b2073d5b21bace04ecdb7cb xfs/856: add metadir upgrade to test matrix
+550cbdb4c9ffa8a03e62fdd995affd230cb0a5ac xfs/509: adjust inumbers accounting for metadata directories
+dfff28f84a609505f9d8c8aa1e92bacefd6b5918 xfs: create fuzz tests for metadata directories
+15486b67ae5468f6e5d52b52c51ee503eab73c67 xfs: baseline golden output for metadata directory fuzz tests
+cb27bb41e76f3438f0afbece822efb97a18a19e7 common/populate: refactor caching of metadumps to a helper
+34064dd2ef5a5e990192e617e57ce3efefcf12b4 common/xfs: wipe external logs during mdrestore operations
+c93188aac558742f4c681f46f31820abbf0a7a1e common/ext4: reformat external logs during mdrestore operations
+98c20a8ac153b402dc09f0779f5c287c2dca59b3 common/xfs: capture external logs during metadump/mdrestore
+8859356f1abd784ca884250e7470e76fac59e85c xfs/122: update for rtgroups
+38533bab4a6974820f7a29af5b937ae54727ccd9 punch-alternating: detect xfs realtime files with large allocation units
+2e01db287abdf75ae928b8e5d17ec931d38bc72c xfs/206: update mkfs filtering for rt groups feature
+46f6c37fa56657d76f225acd17746ed3e2a30a8f common: pass the realtime device to xfs_db when possible
+89b1d9514a1c61291791ec6fb8e55ec4d7ca31a2 common: filter rtgroups when we're disabling metadir
+bf5451f7e9a29d3608702a70a7983b15fc54962f xfs/185: update for rtgroups
+f2dbe68e794433fd04046f0318edcf00cb4011fa xfs/449: update test to know about xfs_db -R
+d1baa9ac941e78b5824c792a8db8ef64c27db73c xfs/122: update for rtbitmap headers
+bbf8cf6c39c8d12e8dff3d06aa58f6d601015d39 xfs/122: udpate test to pick up rtword/suminfo ondisk unions
+4a80848e05d8b1bd37ab79dcaf941c6ccdcb638b xfs/27[46],xfs/556: fix tests to deal with rtgroups output in bmap/fsmap commands
+a6b97e330d99bc7e0b7c5c7e5ddf8a1fb9955a84 common/xfs: capture realtime devices during metadump/mdrestore
+d93697f0a0643abc9b2375119ea5304939b4157a common/fuzzy: adapt the scrub stress tests to support rtgroups
+679da0364e365cdd2501f66bb38d9e38eb09db22 xfs: refactor statfs field extraction
+6e0f6eea8a263a1adbccf54891f23cc61c3a9275 generic/260: compute maximum fitrim offset
+83d98674b6853cd0dfdee2dabb650d2c8e7a5203 xfs: fix tests that try to access the realtime rmap inode
+70ad7bdfeffec5bb8fd365f25190aa2a20c8c501 fuzz: for fuzzing the rtrmapbt, find the path to the rt rmap btree file
+fcb090021e93b1132f5aaae5a80d64c4f1cb3083 xfs: race fsstress with realtime rmap btree scrub and repair
+3d936cad3d66eace6fbac42e7b2c8529617b849a xfs/856: add rtrmapbt upgrade to test matrix
+3c00d5b3d20cf39e0a238ba9169992240ccec7dc xfs/122: update for rtgroups-based realtime rmap btrees
+3caafd18d5d91bf44ec34039d22c57b309db204e xfs: fix various problems with fsmap detecting the data device
+c39a763f81dcdcb2dc4dc17f7c7584b4b195dff1 xfs/341: update test for rtgroup-based rmap
+3d44cc3140ae7ff1321f37b060ffd837ba491ad3 xfs/3{43,32}: adapt tests for rt extent size greater than 1
+8c0441ea60fedf6cb1c9a7c676f697bf148d4514 xfs: skip tests if formatting small filesystem fails
+8eaac144ae2ea0b27bed28d099779adcbee1beaa xfs/443: use file allocation unit, not dbsize
+48e9f8cfeba46487f54aaa2fc4bacaceaa3876ca populate: adjust rtrmap calculations for rtgroups
+9176932df4ec160bb96b9a7c6672649c59df7cb7 populate: check that we created a realtime rmap btree of the given height
+59dd66b4ffd465a52db5b448a23681c6cb40cb44 fuzzy: create missing fuzz tests for rt rmap btrees
+36e5920adbd02c85d574f1619220f6b77bf06828 fuzzy: create known output for rt rmap btree fuzz tests
+618c9d2a3f8a1169ddaba8247cd147c42252cd2a xfs/122: update fields for realtime reflink
+509a7e1845f12a3ddca1ab17729c8d93b0118d52 common/populate: create realtime refcount btree
+a51c5f7d871a7518088fea129281173eca5df003 xfs: create fuzz tests for the realtime refcount btree
+69a64500b0230917c45d668fee4d955e5309855f xfs/27[24]: adapt for checking files on the realtime volume
+d7af74c5bf36bf1fae0a5b7831a97d8e04c709fc xfs/243: don't run when realtime storage is the default
+db2aa8b154fa57ca0243529ffd8283787714be13 xfs: race fsstress with realtime refcount btree scrub and repair
+666bfd9ee3c227f74c71d110fdeed46b6babf248 xfs: remove xfs/131 now that we allow reflink on realtime volumes
+9ba7b3c4a9f146625396638ea659eec4eadd6a72 xfs/856: add rtreflink upgrade to test matrix
+03b8e9a80abe15af1f97f128389a6240660e6d40 generic/331,xfs/240: support files that skip delayed allocation
+6d0570ce372287949248561a40e7a32a1a1ced15 common/xfs: fix _xfs_get_file_block_size when rtinherit is set and no rt section
+88516c14fe833bebba2ce274ea489cce8e9f8e9c xfs: baseline golden output for rt refcount btree fuzz tests
+8f655607b0b1e74fc9d1b26a5b1301f499d44773 xfs: make sure that CoW will write around when rextsize > 1
+e0d8c4406f8c202ae9e2de8362b05d371d2d8e05 xfs: skip cowextsize hint fragmentation tests on realtime volumes
+ec024ffc5011655dc58176a4bf4c5d860383e913 misc: add more congruent oplen testing
+7d22511c41094896465ebfe66a79f0e20631f307 generic/303: avoid test failures on weird rt extent sizes
+c43deb86e7e2f0ecf1066f377a82f11c650f655a xfs: regression testing of quota on the realtime device
+c75bc4c866c71ea61394598afdccb244fa469335 xfs/122: update for vectored scrub
+346a308c4e35c61ef8f2a2d8cb173bdcda72efd2 xfs: test output of new FSREFCOUNTS ioctl
+c3284d13c671272211c6f2464e658156d329a981 xfs: test clearing of free space
+33364f4c7b67b53d042369a3d8905e0067ab0dad xfs/122: update for parent pointers
+6dbcb0ffd561be2fbf749438132c99129fa8283b populate: create hardlinks for parent pointers
+b8741313c541f98592424508dc6e6b221b15ecfc xfs/021: adapt golden output files for parent pointers
+d32b334245c9fdd814059833ffc46fb795f42bdb generic/050: adapt for parent pointers
+260e43317d4e413caa04d8fe245274daab59db07 xfs/018: disable parent pointers for this test
+ce25ef5ca039ee560b599e358b715448088e1a09 xfs/306: fix formatting failures with parent pointers
+c6007175b9ead4588e7260445f94baa6f7c76c97 common: add helpers for parent pointer tests
+a781cfd1f3ca1d6fb2253707505d0d6982b65784 xfs: add parent pointer test
+03f007bca20e8ad5d5fa5503e6f3c5a588133ad2 xfs: add multi link parent pointer test
+5da830b6e2e71c50e9da4621797547f13d0ca8fa xfs: add parent pointer inject test
+c7a778d36d06b811a988d4abce8f9f5cf97c9667 common/parent: add license and copyright
+3567763fd36d9d45ae87c0d048b41da56c5c836c common/parent: don't _fail on missing parent pointer components
+ce7b54532e127b16e41eb6e90391926fd2d61fb4 common/parent: check xfs_io parent command paths
+cb0ca7bd9490d02b474dc8a45060e32ef3173b8e xfs/851: test xfs_io parent -p too
+d93e13adaf6f16ad596b9f4c436b4dda69084954 misc: adjust for parent pointers with namehashes
+a3d2c0122507cd0e982a898368b379d81306809b xfs/021: adjust for short parent pointers with hashes
+9c1bbbe09792510ce29746cf03e37e134f6ef41d xfs/242: fix _filter_bmap for xfs_io bmap that does rt file properly
+dc24ccf06f9e396be613f120ce4f5f1f598529aa xfs/021: adjust for short valuelens
+
+--===============5328713760726719305==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-f00f47c6b62e-2f70371657b5.txt
+
+a20990a0481571d5cb2d2294c9449ebb317a2b2f check: generate section reports between tests
+7e8a291e3bdf25bd57498131d86925bdc380837d report: derive an xml schema for the xunit report
+36c554feac175a5967ef70bab6904315c190484c report: capture the time zone in the test report timestamp
+f7367629f92fe4e90fd1f0764a919a841515a44f report: clarify the meaning of the timestamp attribute
+36c275a1500e88a7c09cc5108437dcbc40e6faeb report: record fstests start and report generation timestamps
+fc9f173562f94ffbeb432db5c0665c4e2ac49737 report: encode cdata sections correctly
+46e9c212bf8ba024f7d0eb1293e90f4df40a3fbe report: encode the kernel log as a separate xml element
+b9b05ccd3ff760be88ab3a9814113d7a519fc71f report: sort properties by name
+de57f6161f14ac071178f663d0634f210c1224e8 report: pass property value to _xunit_add_property
+6c65bb263b3304691eac93ff871ab7f0a5af29ad report: encode xml entities in property values
+57c3db4f694fe0b6bfaccd43efefbed965857fb9 report: collect basic information about a test run
+68b87376a7c82e114ab0af81414a2d102c0e5757 report: record optional environment variables
+b2f466196d7f510f9f51595423b8096ca1b84351 report: record xfs-specific information about a test run
+dcbe83cc7e5aa5e4c84492626e0ac1fa5b10bdff report: record ext*-specific information about a test run
+7e5db626c7e5f9adedff38e6fe2e4c3551e1007e report: allow test runners to inject arbitrary values
+4c0118d037c31479403f5890cfcd9b260bfa56eb xfs: test scaling of the mkfs concurrency options
+ec1ffd84a6a3cf87ca11ffeb3e34d13b60438074 xfs: online fuzz test known output
+f4ce31788d2a084db43c1af26f74b8dad0f01d1a xfs: offline fuzz test known output
+7df0d95f9957e231d90a47e3d147b0ed9113b244 xfs: norepair fuzz test known output
+422872dd54a6df272d47fb3c5e289ecc736391dd xfs: bothrepair fuzz test known output
+ce72ac0fca3b751516f5fddc5f0df3d72372a472 misc: privatize the FIEXCHANGE ioctl for now
+7e67f2a222f333adbb86fe105be3ae0b1c4b5577 misc: update xfs_io swapext usage
+d9cb58b671bcfce853e716f50c660a5e1ed88198 xfs: stress test cycling parent pointers with online repair
+25393397b78452f014b3c7fdee797ea23bb2269e xfs/004: fix column extraction code
+9e2feaeb8d07259790db23cf18b8a9eea5b682fd common: make helpers for ttyprintk usage
+e56c8eb1933658c280cb604595c1067980991f68 xfs: test upgrading old features
+c65e4803dab28d7dbb7ae1e96df2db7bdee07b4d xfs/122: fix metadirino
+5af7921255b08b9eb3eca99b2d6fd5d166267b98 various: fix finding metadata inode numbers when metadir is enabled
+df5a1a3d37996f57ec165f98e2e024cca8ebd857 xfs/{030,033,178}: forcibly disable metadata directory trees
+07f8c92951954d0f1cdb1e6ee3a495d2b2df59a6 common/repair: patch up repair sb inode value complaints
+c98190fca1519fb1d908d89ce1b988dbe9ea2e11 xfs/206: update for metadata directory support
+7918167f182ca8eebb738d37af161a91c5278e04 xfs/{050,144,153,299,330}: update quota reports to leave out metadir files
+96962db6498f5a049b2073d5b21bace04ecdb7cb xfs/856: add metadir upgrade to test matrix
+550cbdb4c9ffa8a03e62fdd995affd230cb0a5ac xfs/509: adjust inumbers accounting for metadata directories
+dfff28f84a609505f9d8c8aa1e92bacefd6b5918 xfs: create fuzz tests for metadata directories
+15486b67ae5468f6e5d52b52c51ee503eab73c67 xfs: baseline golden output for metadata directory fuzz tests
+cb27bb41e76f3438f0afbece822efb97a18a19e7 common/populate: refactor caching of metadumps to a helper
+34064dd2ef5a5e990192e617e57ce3efefcf12b4 common/xfs: wipe external logs during mdrestore operations
+c93188aac558742f4c681f46f31820abbf0a7a1e common/ext4: reformat external logs during mdrestore operations
+98c20a8ac153b402dc09f0779f5c287c2dca59b3 common/xfs: capture external logs during metadump/mdrestore
+8859356f1abd784ca884250e7470e76fac59e85c xfs/122: update for rtgroups
+38533bab4a6974820f7a29af5b937ae54727ccd9 punch-alternating: detect xfs realtime files with large allocation units
+2e01db287abdf75ae928b8e5d17ec931d38bc72c xfs/206: update mkfs filtering for rt groups feature
+46f6c37fa56657d76f225acd17746ed3e2a30a8f common: pass the realtime device to xfs_db when possible
+89b1d9514a1c61291791ec6fb8e55ec4d7ca31a2 common: filter rtgroups when we're disabling metadir
+bf5451f7e9a29d3608702a70a7983b15fc54962f xfs/185: update for rtgroups
+f2dbe68e794433fd04046f0318edcf00cb4011fa xfs/449: update test to know about xfs_db -R
+d1baa9ac941e78b5824c792a8db8ef64c27db73c xfs/122: update for rtbitmap headers
+bbf8cf6c39c8d12e8dff3d06aa58f6d601015d39 xfs/122: udpate test to pick up rtword/suminfo ondisk unions
+4a80848e05d8b1bd37ab79dcaf941c6ccdcb638b xfs/27[46],xfs/556: fix tests to deal with rtgroups output in bmap/fsmap commands
+a6b97e330d99bc7e0b7c5c7e5ddf8a1fb9955a84 common/xfs: capture realtime devices during metadump/mdrestore
+d93697f0a0643abc9b2375119ea5304939b4157a common/fuzzy: adapt the scrub stress tests to support rtgroups
+679da0364e365cdd2501f66bb38d9e38eb09db22 xfs: refactor statfs field extraction
+6e0f6eea8a263a1adbccf54891f23cc61c3a9275 generic/260: compute maximum fitrim offset
+83d98674b6853cd0dfdee2dabb650d2c8e7a5203 xfs: fix tests that try to access the realtime rmap inode
+70ad7bdfeffec5bb8fd365f25190aa2a20c8c501 fuzz: for fuzzing the rtrmapbt, find the path to the rt rmap btree file
+fcb090021e93b1132f5aaae5a80d64c4f1cb3083 xfs: race fsstress with realtime rmap btree scrub and repair
+3d936cad3d66eace6fbac42e7b2c8529617b849a xfs/856: add rtrmapbt upgrade to test matrix
+3c00d5b3d20cf39e0a238ba9169992240ccec7dc xfs/122: update for rtgroups-based realtime rmap btrees
+3caafd18d5d91bf44ec34039d22c57b309db204e xfs: fix various problems with fsmap detecting the data device
+c39a763f81dcdcb2dc4dc17f7c7584b4b195dff1 xfs/341: update test for rtgroup-based rmap
+3d44cc3140ae7ff1321f37b060ffd837ba491ad3 xfs/3{43,32}: adapt tests for rt extent size greater than 1
+8c0441ea60fedf6cb1c9a7c676f697bf148d4514 xfs: skip tests if formatting small filesystem fails
+8eaac144ae2ea0b27bed28d099779adcbee1beaa xfs/443: use file allocation unit, not dbsize
+48e9f8cfeba46487f54aaa2fc4bacaceaa3876ca populate: adjust rtrmap calculations for rtgroups
+9176932df4ec160bb96b9a7c6672649c59df7cb7 populate: check that we created a realtime rmap btree of the given height
+59dd66b4ffd465a52db5b448a23681c6cb40cb44 fuzzy: create missing fuzz tests for rt rmap btrees
+36e5920adbd02c85d574f1619220f6b77bf06828 fuzzy: create known output for rt rmap btree fuzz tests
+618c9d2a3f8a1169ddaba8247cd147c42252cd2a xfs/122: update fields for realtime reflink
+509a7e1845f12a3ddca1ab17729c8d93b0118d52 common/populate: create realtime refcount btree
+a51c5f7d871a7518088fea129281173eca5df003 xfs: create fuzz tests for the realtime refcount btree
+69a64500b0230917c45d668fee4d955e5309855f xfs/27[24]: adapt for checking files on the realtime volume
+d7af74c5bf36bf1fae0a5b7831a97d8e04c709fc xfs/243: don't run when realtime storage is the default
+db2aa8b154fa57ca0243529ffd8283787714be13 xfs: race fsstress with realtime refcount btree scrub and repair
+666bfd9ee3c227f74c71d110fdeed46b6babf248 xfs: remove xfs/131 now that we allow reflink on realtime volumes
+9ba7b3c4a9f146625396638ea659eec4eadd6a72 xfs/856: add rtreflink upgrade to test matrix
+03b8e9a80abe15af1f97f128389a6240660e6d40 generic/331,xfs/240: support files that skip delayed allocation
+6d0570ce372287949248561a40e7a32a1a1ced15 common/xfs: fix _xfs_get_file_block_size when rtinherit is set and no rt section
+88516c14fe833bebba2ce274ea489cce8e9f8e9c xfs: baseline golden output for rt refcount btree fuzz tests
+8f655607b0b1e74fc9d1b26a5b1301f499d44773 xfs: make sure that CoW will write around when rextsize > 1
+e0d8c4406f8c202ae9e2de8362b05d371d2d8e05 xfs: skip cowextsize hint fragmentation tests on realtime volumes
+ec024ffc5011655dc58176a4bf4c5d860383e913 misc: add more congruent oplen testing
+7d22511c41094896465ebfe66a79f0e20631f307 generic/303: avoid test failures on weird rt extent sizes
+c43deb86e7e2f0ecf1066f377a82f11c650f655a xfs: regression testing of quota on the realtime device
+c75bc4c866c71ea61394598afdccb244fa469335 xfs/122: update for vectored scrub
+346a308c4e35c61ef8f2a2d8cb173bdcda72efd2 xfs: test output of new FSREFCOUNTS ioctl
+c3284d13c671272211c6f2464e658156d329a981 xfs: test clearing of free space
+33364f4c7b67b53d042369a3d8905e0067ab0dad xfs/122: update for parent pointers
+6dbcb0ffd561be2fbf749438132c99129fa8283b populate: create hardlinks for parent pointers
+b8741313c541f98592424508dc6e6b221b15ecfc xfs/021: adapt golden output files for parent pointers
+d32b334245c9fdd814059833ffc46fb795f42bdb generic/050: adapt for parent pointers
+260e43317d4e413caa04d8fe245274daab59db07 xfs/018: disable parent pointers for this test
+ce25ef5ca039ee560b599e358b715448088e1a09 xfs/306: fix formatting failures with parent pointers
+c6007175b9ead4588e7260445f94baa6f7c76c97 common: add helpers for parent pointer tests
+a781cfd1f3ca1d6fb2253707505d0d6982b65784 xfs: add parent pointer test
+03f007bca20e8ad5d5fa5503e6f3c5a588133ad2 xfs: add multi link parent pointer test
+5da830b6e2e71c50e9da4621797547f13d0ca8fa xfs: add parent pointer inject test
+c7a778d36d06b811a988d4abce8f9f5cf97c9667 common/parent: add license and copyright
+3567763fd36d9d45ae87c0d048b41da56c5c836c common/parent: don't _fail on missing parent pointer components
+ce7b54532e127b16e41eb6e90391926fd2d61fb4 common/parent: check xfs_io parent command paths
+cb0ca7bd9490d02b474dc8a45060e32ef3173b8e xfs/851: test xfs_io parent -p too
+
+--===============5328713760726719305==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-c4ddbdab4844-ef303352f7ce.txt
+
+a20990a0481571d5cb2d2294c9449ebb317a2b2f check: generate section reports between tests
+7e8a291e3bdf25bd57498131d86925bdc380837d report: derive an xml schema for the xunit report
+36c554feac175a5967ef70bab6904315c190484c report: capture the time zone in the test report timestamp
+f7367629f92fe4e90fd1f0764a919a841515a44f report: clarify the meaning of the timestamp attribute
+36c275a1500e88a7c09cc5108437dcbc40e6faeb report: record fstests start and report generation timestamps
+fc9f173562f94ffbeb432db5c0665c4e2ac49737 report: encode cdata sections correctly
+46e9c212bf8ba024f7d0eb1293e90f4df40a3fbe report: encode the kernel log as a separate xml element
+b9b05ccd3ff760be88ab3a9814113d7a519fc71f report: sort properties by name
+de57f6161f14ac071178f663d0634f210c1224e8 report: pass property value to _xunit_add_property
+6c65bb263b3304691eac93ff871ab7f0a5af29ad report: encode xml entities in property values
+57c3db4f694fe0b6bfaccd43efefbed965857fb9 report: collect basic information about a test run
+68b87376a7c82e114ab0af81414a2d102c0e5757 report: record optional environment variables
+b2f466196d7f510f9f51595423b8096ca1b84351 report: record xfs-specific information about a test run
+dcbe83cc7e5aa5e4c84492626e0ac1fa5b10bdff report: record ext*-specific information about a test run
+7e5db626c7e5f9adedff38e6fe2e4c3551e1007e report: allow test runners to inject arbitrary values
+4c0118d037c31479403f5890cfcd9b260bfa56eb xfs: test scaling of the mkfs concurrency options
+ec1ffd84a6a3cf87ca11ffeb3e34d13b60438074 xfs: online fuzz test known output
+f4ce31788d2a084db43c1af26f74b8dad0f01d1a xfs: offline fuzz test known output
+7df0d95f9957e231d90a47e3d147b0ed9113b244 xfs: norepair fuzz test known output
+422872dd54a6df272d47fb3c5e289ecc736391dd xfs: bothrepair fuzz test known output
+ce72ac0fca3b751516f5fddc5f0df3d72372a472 misc: privatize the FIEXCHANGE ioctl for now
+7e67f2a222f333adbb86fe105be3ae0b1c4b5577 misc: update xfs_io swapext usage
+d9cb58b671bcfce853e716f50c660a5e1ed88198 xfs: stress test cycling parent pointers with online repair
+25393397b78452f014b3c7fdee797ea23bb2269e xfs/004: fix column extraction code
+9e2feaeb8d07259790db23cf18b8a9eea5b682fd common: make helpers for ttyprintk usage
+e56c8eb1933658c280cb604595c1067980991f68 xfs: test upgrading old features
+c65e4803dab28d7dbb7ae1e96df2db7bdee07b4d xfs/122: fix metadirino
+5af7921255b08b9eb3eca99b2d6fd5d166267b98 various: fix finding metadata inode numbers when metadir is enabled
+df5a1a3d37996f57ec165f98e2e024cca8ebd857 xfs/{030,033,178}: forcibly disable metadata directory trees
+07f8c92951954d0f1cdb1e6ee3a495d2b2df59a6 common/repair: patch up repair sb inode value complaints
+c98190fca1519fb1d908d89ce1b988dbe9ea2e11 xfs/206: update for metadata directory support
+7918167f182ca8eebb738d37af161a91c5278e04 xfs/{050,144,153,299,330}: update quota reports to leave out metadir files
+96962db6498f5a049b2073d5b21bace04ecdb7cb xfs/856: add metadir upgrade to test matrix
+550cbdb4c9ffa8a03e62fdd995affd230cb0a5ac xfs/509: adjust inumbers accounting for metadata directories
+dfff28f84a609505f9d8c8aa1e92bacefd6b5918 xfs: create fuzz tests for metadata directories
+15486b67ae5468f6e5d52b52c51ee503eab73c67 xfs: baseline golden output for metadata directory fuzz tests
+cb27bb41e76f3438f0afbece822efb97a18a19e7 common/populate: refactor caching of metadumps to a helper
+34064dd2ef5a5e990192e617e57ce3efefcf12b4 common/xfs: wipe external logs during mdrestore operations
+c93188aac558742f4c681f46f31820abbf0a7a1e common/ext4: reformat external logs during mdrestore operations
+98c20a8ac153b402dc09f0779f5c287c2dca59b3 common/xfs: capture external logs during metadump/mdrestore
+8859356f1abd784ca884250e7470e76fac59e85c xfs/122: update for rtgroups
+38533bab4a6974820f7a29af5b937ae54727ccd9 punch-alternating: detect xfs realtime files with large allocation units
+2e01db287abdf75ae928b8e5d17ec931d38bc72c xfs/206: update mkfs filtering for rt groups feature
+46f6c37fa56657d76f225acd17746ed3e2a30a8f common: pass the realtime device to xfs_db when possible
+89b1d9514a1c61291791ec6fb8e55ec4d7ca31a2 common: filter rtgroups when we're disabling metadir
+bf5451f7e9a29d3608702a70a7983b15fc54962f xfs/185: update for rtgroups
+f2dbe68e794433fd04046f0318edcf00cb4011fa xfs/449: update test to know about xfs_db -R
+d1baa9ac941e78b5824c792a8db8ef64c27db73c xfs/122: update for rtbitmap headers
+bbf8cf6c39c8d12e8dff3d06aa58f6d601015d39 xfs/122: udpate test to pick up rtword/suminfo ondisk unions
+4a80848e05d8b1bd37ab79dcaf941c6ccdcb638b xfs/27[46],xfs/556: fix tests to deal with rtgroups output in bmap/fsmap commands
+a6b97e330d99bc7e0b7c5c7e5ddf8a1fb9955a84 common/xfs: capture realtime devices during metadump/mdrestore
+d93697f0a0643abc9b2375119ea5304939b4157a common/fuzzy: adapt the scrub stress tests to support rtgroups
+679da0364e365cdd2501f66bb38d9e38eb09db22 xfs: refactor statfs field extraction
+6e0f6eea8a263a1adbccf54891f23cc61c3a9275 generic/260: compute maximum fitrim offset
+
+--===============5328713760726719305==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-57e8c8bdba1c-c1eec72d08e8.txt
+
+a20990a0481571d5cb2d2294c9449ebb317a2b2f check: generate section reports between tests
+7e8a291e3bdf25bd57498131d86925bdc380837d report: derive an xml schema for the xunit report
+36c554feac175a5967ef70bab6904315c190484c report: capture the time zone in the test report timestamp
+f7367629f92fe4e90fd1f0764a919a841515a44f report: clarify the meaning of the timestamp attribute
+36c275a1500e88a7c09cc5108437dcbc40e6faeb report: record fstests start and report generation timestamps
+fc9f173562f94ffbeb432db5c0665c4e2ac49737 report: encode cdata sections correctly
+46e9c212bf8ba024f7d0eb1293e90f4df40a3fbe report: encode the kernel log as a separate xml element
+b9b05ccd3ff760be88ab3a9814113d7a519fc71f report: sort properties by name
+de57f6161f14ac071178f663d0634f210c1224e8 report: pass property value to _xunit_add_property
+6c65bb263b3304691eac93ff871ab7f0a5af29ad report: encode xml entities in property values
+57c3db4f694fe0b6bfaccd43efefbed965857fb9 report: collect basic information about a test run
+68b87376a7c82e114ab0af81414a2d102c0e5757 report: record optional environment variables
+b2f466196d7f510f9f51595423b8096ca1b84351 report: record xfs-specific information about a test run
+dcbe83cc7e5aa5e4c84492626e0ac1fa5b10bdff report: record ext*-specific information about a test run
+7e5db626c7e5f9adedff38e6fe2e4c3551e1007e report: allow test runners to inject arbitrary values
+4c0118d037c31479403f5890cfcd9b260bfa56eb xfs: test scaling of the mkfs concurrency options
+ec1ffd84a6a3cf87ca11ffeb3e34d13b60438074 xfs: online fuzz test known output
+f4ce31788d2a084db43c1af26f74b8dad0f01d1a xfs: offline fuzz test known output
+7df0d95f9957e231d90a47e3d147b0ed9113b244 xfs: norepair fuzz test known output
+422872dd54a6df272d47fb3c5e289ecc736391dd xfs: bothrepair fuzz test known output
+ce72ac0fca3b751516f5fddc5f0df3d72372a472 misc: privatize the FIEXCHANGE ioctl for now
+7e67f2a222f333adbb86fe105be3ae0b1c4b5577 misc: update xfs_io swapext usage
+d9cb58b671bcfce853e716f50c660a5e1ed88198 xfs: stress test cycling parent pointers with online repair
+25393397b78452f014b3c7fdee797ea23bb2269e xfs/004: fix column extraction code
+9e2feaeb8d07259790db23cf18b8a9eea5b682fd common: make helpers for ttyprintk usage
+e56c8eb1933658c280cb604595c1067980991f68 xfs: test upgrading old features
+c65e4803dab28d7dbb7ae1e96df2db7bdee07b4d xfs/122: fix metadirino
+5af7921255b08b9eb3eca99b2d6fd5d166267b98 various: fix finding metadata inode numbers when metadir is enabled
+df5a1a3d37996f57ec165f98e2e024cca8ebd857 xfs/{030,033,178}: forcibly disable metadata directory trees
+07f8c92951954d0f1cdb1e6ee3a495d2b2df59a6 common/repair: patch up repair sb inode value complaints
+c98190fca1519fb1d908d89ce1b988dbe9ea2e11 xfs/206: update for metadata directory support
+7918167f182ca8eebb738d37af161a91c5278e04 xfs/{050,144,153,299,330}: update quota reports to leave out metadir files
+96962db6498f5a049b2073d5b21bace04ecdb7cb xfs/856: add metadir upgrade to test matrix
+550cbdb4c9ffa8a03e62fdd995affd230cb0a5ac xfs/509: adjust inumbers accounting for metadata directories
+dfff28f84a609505f9d8c8aa1e92bacefd6b5918 xfs: create fuzz tests for metadata directories
+15486b67ae5468f6e5d52b52c51ee503eab73c67 xfs: baseline golden output for metadata directory fuzz tests
+cb27bb41e76f3438f0afbece822efb97a18a19e7 common/populate: refactor caching of metadumps to a helper
+34064dd2ef5a5e990192e617e57ce3efefcf12b4 common/xfs: wipe external logs during mdrestore operations
+c93188aac558742f4c681f46f31820abbf0a7a1e common/ext4: reformat external logs during mdrestore operations
+98c20a8ac153b402dc09f0779f5c287c2dca59b3 common/xfs: capture external logs during metadump/mdrestore
+8859356f1abd784ca884250e7470e76fac59e85c xfs/122: update for rtgroups
+38533bab4a6974820f7a29af5b937ae54727ccd9 punch-alternating: detect xfs realtime files with large allocation units
+2e01db287abdf75ae928b8e5d17ec931d38bc72c xfs/206: update mkfs filtering for rt groups feature
+46f6c37fa56657d76f225acd17746ed3e2a30a8f common: pass the realtime device to xfs_db when possible
+89b1d9514a1c61291791ec6fb8e55ec4d7ca31a2 common: filter rtgroups when we're disabling metadir
+bf5451f7e9a29d3608702a70a7983b15fc54962f xfs/185: update for rtgroups
+f2dbe68e794433fd04046f0318edcf00cb4011fa xfs/449: update test to know about xfs_db -R
+d1baa9ac941e78b5824c792a8db8ef64c27db73c xfs/122: update for rtbitmap headers
+bbf8cf6c39c8d12e8dff3d06aa58f6d601015d39 xfs/122: udpate test to pick up rtword/suminfo ondisk unions
+4a80848e05d8b1bd37ab79dcaf941c6ccdcb638b xfs/27[46],xfs/556: fix tests to deal with rtgroups output in bmap/fsmap commands
+a6b97e330d99bc7e0b7c5c7e5ddf8a1fb9955a84 common/xfs: capture realtime devices during metadump/mdrestore
+d93697f0a0643abc9b2375119ea5304939b4157a common/fuzzy: adapt the scrub stress tests to support rtgroups
+
+--===============5328713760726719305==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-b18aa0d92377-1d5203c3cd11.txt
+
+a20990a0481571d5cb2d2294c9449ebb317a2b2f check: generate section reports between tests
+7e8a291e3bdf25bd57498131d86925bdc380837d report: derive an xml schema for the xunit report
+36c554feac175a5967ef70bab6904315c190484c report: capture the time zone in the test report timestamp
+f7367629f92fe4e90fd1f0764a919a841515a44f report: clarify the meaning of the timestamp attribute
+36c275a1500e88a7c09cc5108437dcbc40e6faeb report: record fstests start and report generation timestamps
+fc9f173562f94ffbeb432db5c0665c4e2ac49737 report: encode cdata sections correctly
+46e9c212bf8ba024f7d0eb1293e90f4df40a3fbe report: encode the kernel log as a separate xml element
+b9b05ccd3ff760be88ab3a9814113d7a519fc71f report: sort properties by name
+de57f6161f14ac071178f663d0634f210c1224e8 report: pass property value to _xunit_add_property
+6c65bb263b3304691eac93ff871ab7f0a5af29ad report: encode xml entities in property values
+57c3db4f694fe0b6bfaccd43efefbed965857fb9 report: collect basic information about a test run
+68b87376a7c82e114ab0af81414a2d102c0e5757 report: record optional environment variables
+b2f466196d7f510f9f51595423b8096ca1b84351 report: record xfs-specific information about a test run
+dcbe83cc7e5aa5e4c84492626e0ac1fa5b10bdff report: record ext*-specific information about a test run
+7e5db626c7e5f9adedff38e6fe2e4c3551e1007e report: allow test runners to inject arbitrary values
+4c0118d037c31479403f5890cfcd9b260bfa56eb xfs: test scaling of the mkfs concurrency options
+ec1ffd84a6a3cf87ca11ffeb3e34d13b60438074 xfs: online fuzz test known output
+f4ce31788d2a084db43c1af26f74b8dad0f01d1a xfs: offline fuzz test known output
+7df0d95f9957e231d90a47e3d147b0ed9113b244 xfs: norepair fuzz test known output
+422872dd54a6df272d47fb3c5e289ecc736391dd xfs: bothrepair fuzz test known output
+ce72ac0fca3b751516f5fddc5f0df3d72372a472 misc: privatize the FIEXCHANGE ioctl for now
+7e67f2a222f333adbb86fe105be3ae0b1c4b5577 misc: update xfs_io swapext usage
+d9cb58b671bcfce853e716f50c660a5e1ed88198 xfs: stress test cycling parent pointers with online repair
+25393397b78452f014b3c7fdee797ea23bb2269e xfs/004: fix column extraction code
+9e2feaeb8d07259790db23cf18b8a9eea5b682fd common: make helpers for ttyprintk usage
+e56c8eb1933658c280cb604595c1067980991f68 xfs: test upgrading old features
+c65e4803dab28d7dbb7ae1e96df2db7bdee07b4d xfs/122: fix metadirino
+5af7921255b08b9eb3eca99b2d6fd5d166267b98 various: fix finding metadata inode numbers when metadir is enabled
+df5a1a3d37996f57ec165f98e2e024cca8ebd857 xfs/{030,033,178}: forcibly disable metadata directory trees
+07f8c92951954d0f1cdb1e6ee3a495d2b2df59a6 common/repair: patch up repair sb inode value complaints
+c98190fca1519fb1d908d89ce1b988dbe9ea2e11 xfs/206: update for metadata directory support
+7918167f182ca8eebb738d37af161a91c5278e04 xfs/{050,144,153,299,330}: update quota reports to leave out metadir files
+96962db6498f5a049b2073d5b21bace04ecdb7cb xfs/856: add metadir upgrade to test matrix
+550cbdb4c9ffa8a03e62fdd995affd230cb0a5ac xfs/509: adjust inumbers accounting for metadata directories
+dfff28f84a609505f9d8c8aa1e92bacefd6b5918 xfs: create fuzz tests for metadata directories
+15486b67ae5468f6e5d52b52c51ee503eab73c67 xfs: baseline golden output for metadata directory fuzz tests
+cb27bb41e76f3438f0afbece822efb97a18a19e7 common/populate: refactor caching of metadumps to a helper
+34064dd2ef5a5e990192e617e57ce3efefcf12b4 common/xfs: wipe external logs during mdrestore operations
+c93188aac558742f4c681f46f31820abbf0a7a1e common/ext4: reformat external logs during mdrestore operations
+98c20a8ac153b402dc09f0779f5c287c2dca59b3 common/xfs: capture external logs during metadump/mdrestore
+8859356f1abd784ca884250e7470e76fac59e85c xfs/122: update for rtgroups
+38533bab4a6974820f7a29af5b937ae54727ccd9 punch-alternating: detect xfs realtime files with large allocation units
+2e01db287abdf75ae928b8e5d17ec931d38bc72c xfs/206: update mkfs filtering for rt groups feature
+46f6c37fa56657d76f225acd17746ed3e2a30a8f common: pass the realtime device to xfs_db when possible
+89b1d9514a1c61291791ec6fb8e55ec4d7ca31a2 common: filter rtgroups when we're disabling metadir
+bf5451f7e9a29d3608702a70a7983b15fc54962f xfs/185: update for rtgroups
+f2dbe68e794433fd04046f0318edcf00cb4011fa xfs/449: update test to know about xfs_db -R
+d1baa9ac941e78b5824c792a8db8ef64c27db73c xfs/122: update for rtbitmap headers
+bbf8cf6c39c8d12e8dff3d06aa58f6d601015d39 xfs/122: udpate test to pick up rtword/suminfo ondisk unions
+4a80848e05d8b1bd37ab79dcaf941c6ccdcb638b xfs/27[46],xfs/556: fix tests to deal with rtgroups output in bmap/fsmap commands
+a6b97e330d99bc7e0b7c5c7e5ddf8a1fb9955a84 common/xfs: capture realtime devices during metadump/mdrestore
+d93697f0a0643abc9b2375119ea5304939b4157a common/fuzzy: adapt the scrub stress tests to support rtgroups
+679da0364e365cdd2501f66bb38d9e38eb09db22 xfs: refactor statfs field extraction
+6e0f6eea8a263a1adbccf54891f23cc61c3a9275 generic/260: compute maximum fitrim offset
+83d98674b6853cd0dfdee2dabb650d2c8e7a5203 xfs: fix tests that try to access the realtime rmap inode
+70ad7bdfeffec5bb8fd365f25190aa2a20c8c501 fuzz: for fuzzing the rtrmapbt, find the path to the rt rmap btree file
+fcb090021e93b1132f5aaae5a80d64c4f1cb3083 xfs: race fsstress with realtime rmap btree scrub and repair
+3d936cad3d66eace6fbac42e7b2c8529617b849a xfs/856: add rtrmapbt upgrade to test matrix
+3c00d5b3d20cf39e0a238ba9169992240ccec7dc xfs/122: update for rtgroups-based realtime rmap btrees
+3caafd18d5d91bf44ec34039d22c57b309db204e xfs: fix various problems with fsmap detecting the data device
+c39a763f81dcdcb2dc4dc17f7c7584b4b195dff1 xfs/341: update test for rtgroup-based rmap
+3d44cc3140ae7ff1321f37b060ffd837ba491ad3 xfs/3{43,32}: adapt tests for rt extent size greater than 1
+8c0441ea60fedf6cb1c9a7c676f697bf148d4514 xfs: skip tests if formatting small filesystem fails
+8eaac144ae2ea0b27bed28d099779adcbee1beaa xfs/443: use file allocation unit, not dbsize
+48e9f8cfeba46487f54aaa2fc4bacaceaa3876ca populate: adjust rtrmap calculations for rtgroups
+9176932df4ec160bb96b9a7c6672649c59df7cb7 populate: check that we created a realtime rmap btree of the given height
+59dd66b4ffd465a52db5b448a23681c6cb40cb44 fuzzy: create missing fuzz tests for rt rmap btrees
+36e5920adbd02c85d574f1619220f6b77bf06828 fuzzy: create known output for rt rmap btree fuzz tests
+618c9d2a3f8a1169ddaba8247cd147c42252cd2a xfs/122: update fields for realtime reflink
+509a7e1845f12a3ddca1ab17729c8d93b0118d52 common/populate: create realtime refcount btree
+a51c5f7d871a7518088fea129281173eca5df003 xfs: create fuzz tests for the realtime refcount btree
+69a64500b0230917c45d668fee4d955e5309855f xfs/27[24]: adapt for checking files on the realtime volume
+d7af74c5bf36bf1fae0a5b7831a97d8e04c709fc xfs/243: don't run when realtime storage is the default
+db2aa8b154fa57ca0243529ffd8283787714be13 xfs: race fsstress with realtime refcount btree scrub and repair
+666bfd9ee3c227f74c71d110fdeed46b6babf248 xfs: remove xfs/131 now that we allow reflink on realtime volumes
+9ba7b3c4a9f146625396638ea659eec4eadd6a72 xfs/856: add rtreflink upgrade to test matrix
+03b8e9a80abe15af1f97f128389a6240660e6d40 generic/331,xfs/240: support files that skip delayed allocation
+6d0570ce372287949248561a40e7a32a1a1ced15 common/xfs: fix _xfs_get_file_block_size when rtinherit is set and no rt section
+88516c14fe833bebba2ce274ea489cce8e9f8e9c xfs: baseline golden output for rt refcount btree fuzz tests
+8f655607b0b1e74fc9d1b26a5b1301f499d44773 xfs: make sure that CoW will write around when rextsize > 1
+e0d8c4406f8c202ae9e2de8362b05d371d2d8e05 xfs: skip cowextsize hint fragmentation tests on realtime volumes
+ec024ffc5011655dc58176a4bf4c5d860383e913 misc: add more congruent oplen testing
+7d22511c41094896465ebfe66a79f0e20631f307 generic/303: avoid test failures on weird rt extent sizes
+c43deb86e7e2f0ecf1066f377a82f11c650f655a xfs: regression testing of quota on the realtime device
+
+--===============5328713760726719305==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-df0179cf1c54-acae80cae9b6.txt
+
+a20990a0481571d5cb2d2294c9449ebb317a2b2f check: generate section reports between tests
+7e8a291e3bdf25bd57498131d86925bdc380837d report: derive an xml schema for the xunit report
+36c554feac175a5967ef70bab6904315c190484c report: capture the time zone in the test report timestamp
+f7367629f92fe4e90fd1f0764a919a841515a44f report: clarify the meaning of the timestamp attribute
+36c275a1500e88a7c09cc5108437dcbc40e6faeb report: record fstests start and report generation timestamps
+fc9f173562f94ffbeb432db5c0665c4e2ac49737 report: encode cdata sections correctly
+46e9c212bf8ba024f7d0eb1293e90f4df40a3fbe report: encode the kernel log as a separate xml element
+b9b05ccd3ff760be88ab3a9814113d7a519fc71f report: sort properties by name
+de57f6161f14ac071178f663d0634f210c1224e8 report: pass property value to _xunit_add_property
+6c65bb263b3304691eac93ff871ab7f0a5af29ad report: encode xml entities in property values
+57c3db4f694fe0b6bfaccd43efefbed965857fb9 report: collect basic information about a test run
+68b87376a7c82e114ab0af81414a2d102c0e5757 report: record optional environment variables
+b2f466196d7f510f9f51595423b8096ca1b84351 report: record xfs-specific information about a test run
+dcbe83cc7e5aa5e4c84492626e0ac1fa5b10bdff report: record ext*-specific information about a test run
+7e5db626c7e5f9adedff38e6fe2e4c3551e1007e report: allow test runners to inject arbitrary values
+4c0118d037c31479403f5890cfcd9b260bfa56eb xfs: test scaling of the mkfs concurrency options
+ec1ffd84a6a3cf87ca11ffeb3e34d13b60438074 xfs: online fuzz test known output
+f4ce31788d2a084db43c1af26f74b8dad0f01d1a xfs: offline fuzz test known output
+7df0d95f9957e231d90a47e3d147b0ed9113b244 xfs: norepair fuzz test known output
+422872dd54a6df272d47fb3c5e289ecc736391dd xfs: bothrepair fuzz test known output
+ce72ac0fca3b751516f5fddc5f0df3d72372a472 misc: privatize the FIEXCHANGE ioctl for now
+7e67f2a222f333adbb86fe105be3ae0b1c4b5577 misc: update xfs_io swapext usage
+d9cb58b671bcfce853e716f50c660a5e1ed88198 xfs: stress test cycling parent pointers with online repair
+25393397b78452f014b3c7fdee797ea23bb2269e xfs/004: fix column extraction code
+9e2feaeb8d07259790db23cf18b8a9eea5b682fd common: make helpers for ttyprintk usage
+e56c8eb1933658c280cb604595c1067980991f68 xfs: test upgrading old features
+c65e4803dab28d7dbb7ae1e96df2db7bdee07b4d xfs/122: fix metadirino
+5af7921255b08b9eb3eca99b2d6fd5d166267b98 various: fix finding metadata inode numbers when metadir is enabled
+df5a1a3d37996f57ec165f98e2e024cca8ebd857 xfs/{030,033,178}: forcibly disable metadata directory trees
+07f8c92951954d0f1cdb1e6ee3a495d2b2df59a6 common/repair: patch up repair sb inode value complaints
+c98190fca1519fb1d908d89ce1b988dbe9ea2e11 xfs/206: update for metadata directory support
+7918167f182ca8eebb738d37af161a91c5278e04 xfs/{050,144,153,299,330}: update quota reports to leave out metadir files
+96962db6498f5a049b2073d5b21bace04ecdb7cb xfs/856: add metadir upgrade to test matrix
+550cbdb4c9ffa8a03e62fdd995affd230cb0a5ac xfs/509: adjust inumbers accounting for metadata directories
+dfff28f84a609505f9d8c8aa1e92bacefd6b5918 xfs: create fuzz tests for metadata directories
+15486b67ae5468f6e5d52b52c51ee503eab73c67 xfs: baseline golden output for metadata directory fuzz tests
+cb27bb41e76f3438f0afbece822efb97a18a19e7 common/populate: refactor caching of metadumps to a helper
+34064dd2ef5a5e990192e617e57ce3efefcf12b4 common/xfs: wipe external logs during mdrestore operations
+c93188aac558742f4c681f46f31820abbf0a7a1e common/ext4: reformat external logs during mdrestore operations
+98c20a8ac153b402dc09f0779f5c287c2dca59b3 common/xfs: capture external logs during metadump/mdrestore
+8859356f1abd784ca884250e7470e76fac59e85c xfs/122: update for rtgroups
+38533bab4a6974820f7a29af5b937ae54727ccd9 punch-alternating: detect xfs realtime files with large allocation units
+2e01db287abdf75ae928b8e5d17ec931d38bc72c xfs/206: update mkfs filtering for rt groups feature
+46f6c37fa56657d76f225acd17746ed3e2a30a8f common: pass the realtime device to xfs_db when possible
+89b1d9514a1c61291791ec6fb8e55ec4d7ca31a2 common: filter rtgroups when we're disabling metadir
+bf5451f7e9a29d3608702a70a7983b15fc54962f xfs/185: update for rtgroups
+f2dbe68e794433fd04046f0318edcf00cb4011fa xfs/449: update test to know about xfs_db -R
+d1baa9ac941e78b5824c792a8db8ef64c27db73c xfs/122: update for rtbitmap headers
+bbf8cf6c39c8d12e8dff3d06aa58f6d601015d39 xfs/122: udpate test to pick up rtword/suminfo ondisk unions
+4a80848e05d8b1bd37ab79dcaf941c6ccdcb638b xfs/27[46],xfs/556: fix tests to deal with rtgroups output in bmap/fsmap commands
+a6b97e330d99bc7e0b7c5c7e5ddf8a1fb9955a84 common/xfs: capture realtime devices during metadump/mdrestore
+d93697f0a0643abc9b2375119ea5304939b4157a common/fuzzy: adapt the scrub stress tests to support rtgroups
+679da0364e365cdd2501f66bb38d9e38eb09db22 xfs: refactor statfs field extraction
+6e0f6eea8a263a1adbccf54891f23cc61c3a9275 generic/260: compute maximum fitrim offset
+83d98674b6853cd0dfdee2dabb650d2c8e7a5203 xfs: fix tests that try to access the realtime rmap inode
+70ad7bdfeffec5bb8fd365f25190aa2a20c8c501 fuzz: for fuzzing the rtrmapbt, find the path to the rt rmap btree file
+fcb090021e93b1132f5aaae5a80d64c4f1cb3083 xfs: race fsstress with realtime rmap btree scrub and repair
+3d936cad3d66eace6fbac42e7b2c8529617b849a xfs/856: add rtrmapbt upgrade to test matrix
+3c00d5b3d20cf39e0a238ba9169992240ccec7dc xfs/122: update for rtgroups-based realtime rmap btrees
+3caafd18d5d91bf44ec34039d22c57b309db204e xfs: fix various problems with fsmap detecting the data device
+c39a763f81dcdcb2dc4dc17f7c7584b4b195dff1 xfs/341: update test for rtgroup-based rmap
+3d44cc3140ae7ff1321f37b060ffd837ba491ad3 xfs/3{43,32}: adapt tests for rt extent size greater than 1
+8c0441ea60fedf6cb1c9a7c676f697bf148d4514 xfs: skip tests if formatting small filesystem fails
+8eaac144ae2ea0b27bed28d099779adcbee1beaa xfs/443: use file allocation unit, not dbsize
+48e9f8cfeba46487f54aaa2fc4bacaceaa3876ca populate: adjust rtrmap calculations for rtgroups
+9176932df4ec160bb96b9a7c6672649c59df7cb7 populate: check that we created a realtime rmap btree of the given height
+59dd66b4ffd465a52db5b448a23681c6cb40cb44 fuzzy: create missing fuzz tests for rt rmap btrees
+36e5920adbd02c85d574f1619220f6b77bf06828 fuzzy: create known output for rt rmap btree fuzz tests
+618c9d2a3f8a1169ddaba8247cd147c42252cd2a xfs/122: update fields for realtime reflink
+509a7e1845f12a3ddca1ab17729c8d93b0118d52 common/populate: create realtime refcount btree
+a51c5f7d871a7518088fea129281173eca5df003 xfs: create fuzz tests for the realtime refcount btree
+69a64500b0230917c45d668fee4d955e5309855f xfs/27[24]: adapt for checking files on the realtime volume
+d7af74c5bf36bf1fae0a5b7831a97d8e04c709fc xfs/243: don't run when realtime storage is the default
+db2aa8b154fa57ca0243529ffd8283787714be13 xfs: race fsstress with realtime refcount btree scrub and repair
+666bfd9ee3c227f74c71d110fdeed46b6babf248 xfs: remove xfs/131 now that we allow reflink on realtime volumes
+9ba7b3c4a9f146625396638ea659eec4eadd6a72 xfs/856: add rtreflink upgrade to test matrix
+03b8e9a80abe15af1f97f128389a6240660e6d40 generic/331,xfs/240: support files that skip delayed allocation
+6d0570ce372287949248561a40e7a32a1a1ced15 common/xfs: fix _xfs_get_file_block_size when rtinherit is set and no rt section
+88516c14fe833bebba2ce274ea489cce8e9f8e9c xfs: baseline golden output for rt refcount btree fuzz tests
+
+--===============5328713760726719305==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-df5ead787646-f09ad80e5faf.txt
+
+a20990a0481571d5cb2d2294c9449ebb317a2b2f check: generate section reports between tests
+7e8a291e3bdf25bd57498131d86925bdc380837d report: derive an xml schema for the xunit report
+36c554feac175a5967ef70bab6904315c190484c report: capture the time zone in the test report timestamp
+f7367629f92fe4e90fd1f0764a919a841515a44f report: clarify the meaning of the timestamp attribute
+36c275a1500e88a7c09cc5108437dcbc40e6faeb report: record fstests start and report generation timestamps
+fc9f173562f94ffbeb432db5c0665c4e2ac49737 report: encode cdata sections correctly
+46e9c212bf8ba024f7d0eb1293e90f4df40a3fbe report: encode the kernel log as a separate xml element
+b9b05ccd3ff760be88ab3a9814113d7a519fc71f report: sort properties by name
+de57f6161f14ac071178f663d0634f210c1224e8 report: pass property value to _xunit_add_property
+6c65bb263b3304691eac93ff871ab7f0a5af29ad report: encode xml entities in property values
+57c3db4f694fe0b6bfaccd43efefbed965857fb9 report: collect basic information about a test run
+68b87376a7c82e114ab0af81414a2d102c0e5757 report: record optional environment variables
+b2f466196d7f510f9f51595423b8096ca1b84351 report: record xfs-specific information about a test run
+dcbe83cc7e5aa5e4c84492626e0ac1fa5b10bdff report: record ext*-specific information about a test run
+7e5db626c7e5f9adedff38e6fe2e4c3551e1007e report: allow test runners to inject arbitrary values
+4c0118d037c31479403f5890cfcd9b260bfa56eb xfs: test scaling of the mkfs concurrency options
+ec1ffd84a6a3cf87ca11ffeb3e34d13b60438074 xfs: online fuzz test known output
+f4ce31788d2a084db43c1af26f74b8dad0f01d1a xfs: offline fuzz test known output
+7df0d95f9957e231d90a47e3d147b0ed9113b244 xfs: norepair fuzz test known output
+422872dd54a6df272d47fb3c5e289ecc736391dd xfs: bothrepair fuzz test known output
+ce72ac0fca3b751516f5fddc5f0df3d72372a472 misc: privatize the FIEXCHANGE ioctl for now
+7e67f2a222f333adbb86fe105be3ae0b1c4b5577 misc: update xfs_io swapext usage
+d9cb58b671bcfce853e716f50c660a5e1ed88198 xfs: stress test cycling parent pointers with online repair
+25393397b78452f014b3c7fdee797ea23bb2269e xfs/004: fix column extraction code
+9e2feaeb8d07259790db23cf18b8a9eea5b682fd common: make helpers for ttyprintk usage
+e56c8eb1933658c280cb604595c1067980991f68 xfs: test upgrading old features
+c65e4803dab28d7dbb7ae1e96df2db7bdee07b4d xfs/122: fix metadirino
+5af7921255b08b9eb3eca99b2d6fd5d166267b98 various: fix finding metadata inode numbers when metadir is enabled
+df5a1a3d37996f57ec165f98e2e024cca8ebd857 xfs/{030,033,178}: forcibly disable metadata directory trees
+07f8c92951954d0f1cdb1e6ee3a495d2b2df59a6 common/repair: patch up repair sb inode value complaints
+c98190fca1519fb1d908d89ce1b988dbe9ea2e11 xfs/206: update for metadata directory support
+7918167f182ca8eebb738d37af161a91c5278e04 xfs/{050,144,153,299,330}: update quota reports to leave out metadir files
+96962db6498f5a049b2073d5b21bace04ecdb7cb xfs/856: add metadir upgrade to test matrix
+550cbdb4c9ffa8a03e62fdd995affd230cb0a5ac xfs/509: adjust inumbers accounting for metadata directories
+dfff28f84a609505f9d8c8aa1e92bacefd6b5918 xfs: create fuzz tests for metadata directories
+15486b67ae5468f6e5d52b52c51ee503eab73c67 xfs: baseline golden output for metadata directory fuzz tests
+cb27bb41e76f3438f0afbece822efb97a18a19e7 common/populate: refactor caching of metadumps to a helper
+34064dd2ef5a5e990192e617e57ce3efefcf12b4 common/xfs: wipe external logs during mdrestore operations
+c93188aac558742f4c681f46f31820abbf0a7a1e common/ext4: reformat external logs during mdrestore operations
+98c20a8ac153b402dc09f0779f5c287c2dca59b3 common/xfs: capture external logs during metadump/mdrestore
+8859356f1abd784ca884250e7470e76fac59e85c xfs/122: update for rtgroups
+38533bab4a6974820f7a29af5b937ae54727ccd9 punch-alternating: detect xfs realtime files with large allocation units
+2e01db287abdf75ae928b8e5d17ec931d38bc72c xfs/206: update mkfs filtering for rt groups feature
+46f6c37fa56657d76f225acd17746ed3e2a30a8f common: pass the realtime device to xfs_db when possible
+89b1d9514a1c61291791ec6fb8e55ec4d7ca31a2 common: filter rtgroups when we're disabling metadir
+bf5451f7e9a29d3608702a70a7983b15fc54962f xfs/185: update for rtgroups
+f2dbe68e794433fd04046f0318edcf00cb4011fa xfs/449: update test to know about xfs_db -R
+d1baa9ac941e78b5824c792a8db8ef64c27db73c xfs/122: update for rtbitmap headers
+bbf8cf6c39c8d12e8dff3d06aa58f6d601015d39 xfs/122: udpate test to pick up rtword/suminfo ondisk unions
+4a80848e05d8b1bd37ab79dcaf941c6ccdcb638b xfs/27[46],xfs/556: fix tests to deal with rtgroups output in bmap/fsmap commands
+a6b97e330d99bc7e0b7c5c7e5ddf8a1fb9955a84 common/xfs: capture realtime devices during metadump/mdrestore
+d93697f0a0643abc9b2375119ea5304939b4157a common/fuzzy: adapt the scrub stress tests to support rtgroups
+679da0364e365cdd2501f66bb38d9e38eb09db22 xfs: refactor statfs field extraction
+6e0f6eea8a263a1adbccf54891f23cc61c3a9275 generic/260: compute maximum fitrim offset
+83d98674b6853cd0dfdee2dabb650d2c8e7a5203 xfs: fix tests that try to access the realtime rmap inode
+70ad7bdfeffec5bb8fd365f25190aa2a20c8c501 fuzz: for fuzzing the rtrmapbt, find the path to the rt rmap btree file
+fcb090021e93b1132f5aaae5a80d64c4f1cb3083 xfs: race fsstress with realtime rmap btree scrub and repair
+3d936cad3d66eace6fbac42e7b2c8529617b849a xfs/856: add rtrmapbt upgrade to test matrix
+3c00d5b3d20cf39e0a238ba9169992240ccec7dc xfs/122: update for rtgroups-based realtime rmap btrees
+3caafd18d5d91bf44ec34039d22c57b309db204e xfs: fix various problems with fsmap detecting the data device
+c39a763f81dcdcb2dc4dc17f7c7584b4b195dff1 xfs/341: update test for rtgroup-based rmap
+3d44cc3140ae7ff1321f37b060ffd837ba491ad3 xfs/3{43,32}: adapt tests for rt extent size greater than 1
+8c0441ea60fedf6cb1c9a7c676f697bf148d4514 xfs: skip tests if formatting small filesystem fails
+8eaac144ae2ea0b27bed28d099779adcbee1beaa xfs/443: use file allocation unit, not dbsize
+48e9f8cfeba46487f54aaa2fc4bacaceaa3876ca populate: adjust rtrmap calculations for rtgroups
+9176932df4ec160bb96b9a7c6672649c59df7cb7 populate: check that we created a realtime rmap btree of the given height
+59dd66b4ffd465a52db5b448a23681c6cb40cb44 fuzzy: create missing fuzz tests for rt rmap btrees
+36e5920adbd02c85d574f1619220f6b77bf06828 fuzzy: create known output for rt rmap btree fuzz tests
+618c9d2a3f8a1169ddaba8247cd147c42252cd2a xfs/122: update fields for realtime reflink
+509a7e1845f12a3ddca1ab17729c8d93b0118d52 common/populate: create realtime refcount btree
+a51c5f7d871a7518088fea129281173eca5df003 xfs: create fuzz tests for the realtime refcount btree
+69a64500b0230917c45d668fee4d955e5309855f xfs/27[24]: adapt for checking files on the realtime volume
+d7af74c5bf36bf1fae0a5b7831a97d8e04c709fc xfs/243: don't run when realtime storage is the default
+db2aa8b154fa57ca0243529ffd8283787714be13 xfs: race fsstress with realtime refcount btree scrub and repair
+666bfd9ee3c227f74c71d110fdeed46b6babf248 xfs: remove xfs/131 now that we allow reflink on realtime volumes
+9ba7b3c4a9f146625396638ea659eec4eadd6a72 xfs/856: add rtreflink upgrade to test matrix
+03b8e9a80abe15af1f97f128389a6240660e6d40 generic/331,xfs/240: support files that skip delayed allocation
+6d0570ce372287949248561a40e7a32a1a1ced15 common/xfs: fix _xfs_get_file_block_size when rtinherit is set and no rt section
+88516c14fe833bebba2ce274ea489cce8e9f8e9c xfs: baseline golden output for rt refcount btree fuzz tests
+8f655607b0b1e74fc9d1b26a5b1301f499d44773 xfs: make sure that CoW will write around when rextsize > 1
+e0d8c4406f8c202ae9e2de8362b05d371d2d8e05 xfs: skip cowextsize hint fragmentation tests on realtime volumes
+ec024ffc5011655dc58176a4bf4c5d860383e913 misc: add more congruent oplen testing
+7d22511c41094896465ebfe66a79f0e20631f307 generic/303: avoid test failures on weird rt extent sizes
+
+--===============5328713760726719305==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-2837a70c26a9-c7552ed7d14a.txt
+
+a20990a0481571d5cb2d2294c9449ebb317a2b2f check: generate section reports between tests
+7e8a291e3bdf25bd57498131d86925bdc380837d report: derive an xml schema for the xunit report
+36c554feac175a5967ef70bab6904315c190484c report: capture the time zone in the test report timestamp
+f7367629f92fe4e90fd1f0764a919a841515a44f report: clarify the meaning of the timestamp attribute
+36c275a1500e88a7c09cc5108437dcbc40e6faeb report: record fstests start and report generation timestamps
+fc9f173562f94ffbeb432db5c0665c4e2ac49737 report: encode cdata sections correctly
+46e9c212bf8ba024f7d0eb1293e90f4df40a3fbe report: encode the kernel log as a separate xml element
+b9b05ccd3ff760be88ab3a9814113d7a519fc71f report: sort properties by name
+de57f6161f14ac071178f663d0634f210c1224e8 report: pass property value to _xunit_add_property
+6c65bb263b3304691eac93ff871ab7f0a5af29ad report: encode xml entities in property values
+57c3db4f694fe0b6bfaccd43efefbed965857fb9 report: collect basic information about a test run
+68b87376a7c82e114ab0af81414a2d102c0e5757 report: record optional environment variables
+b2f466196d7f510f9f51595423b8096ca1b84351 report: record xfs-specific information about a test run
+dcbe83cc7e5aa5e4c84492626e0ac1fa5b10bdff report: record ext*-specific information about a test run
+7e5db626c7e5f9adedff38e6fe2e4c3551e1007e report: allow test runners to inject arbitrary values
+4c0118d037c31479403f5890cfcd9b260bfa56eb xfs: test scaling of the mkfs concurrency options
+ec1ffd84a6a3cf87ca11ffeb3e34d13b60438074 xfs: online fuzz test known output
+f4ce31788d2a084db43c1af26f74b8dad0f01d1a xfs: offline fuzz test known output
+7df0d95f9957e231d90a47e3d147b0ed9113b244 xfs: norepair fuzz test known output
+422872dd54a6df272d47fb3c5e289ecc736391dd xfs: bothrepair fuzz test known output
+ce72ac0fca3b751516f5fddc5f0df3d72372a472 misc: privatize the FIEXCHANGE ioctl for now
+7e67f2a222f333adbb86fe105be3ae0b1c4b5577 misc: update xfs_io swapext usage
+d9cb58b671bcfce853e716f50c660a5e1ed88198 xfs: stress test cycling parent pointers with online repair
+25393397b78452f014b3c7fdee797ea23bb2269e xfs/004: fix column extraction code
+9e2feaeb8d07259790db23cf18b8a9eea5b682fd common: make helpers for ttyprintk usage
+e56c8eb1933658c280cb604595c1067980991f68 xfs: test upgrading old features
+c65e4803dab28d7dbb7ae1e96df2db7bdee07b4d xfs/122: fix metadirino
+5af7921255b08b9eb3eca99b2d6fd5d166267b98 various: fix finding metadata inode numbers when metadir is enabled
+df5a1a3d37996f57ec165f98e2e024cca8ebd857 xfs/{030,033,178}: forcibly disable metadata directory trees
+07f8c92951954d0f1cdb1e6ee3a495d2b2df59a6 common/repair: patch up repair sb inode value complaints
+c98190fca1519fb1d908d89ce1b988dbe9ea2e11 xfs/206: update for metadata directory support
+7918167f182ca8eebb738d37af161a91c5278e04 xfs/{050,144,153,299,330}: update quota reports to leave out metadir files
+96962db6498f5a049b2073d5b21bace04ecdb7cb xfs/856: add metadir upgrade to test matrix
+550cbdb4c9ffa8a03e62fdd995affd230cb0a5ac xfs/509: adjust inumbers accounting for metadata directories
+dfff28f84a609505f9d8c8aa1e92bacefd6b5918 xfs: create fuzz tests for metadata directories
+15486b67ae5468f6e5d52b52c51ee503eab73c67 xfs: baseline golden output for metadata directory fuzz tests
+cb27bb41e76f3438f0afbece822efb97a18a19e7 common/populate: refactor caching of metadumps to a helper
+34064dd2ef5a5e990192e617e57ce3efefcf12b4 common/xfs: wipe external logs during mdrestore operations
+c93188aac558742f4c681f46f31820abbf0a7a1e common/ext4: reformat external logs during mdrestore operations
+98c20a8ac153b402dc09f0779f5c287c2dca59b3 common/xfs: capture external logs during metadump/mdrestore
+8859356f1abd784ca884250e7470e76fac59e85c xfs/122: update for rtgroups
+38533bab4a6974820f7a29af5b937ae54727ccd9 punch-alternating: detect xfs realtime files with large allocation units
+2e01db287abdf75ae928b8e5d17ec931d38bc72c xfs/206: update mkfs filtering for rt groups feature
+46f6c37fa56657d76f225acd17746ed3e2a30a8f common: pass the realtime device to xfs_db when possible
+89b1d9514a1c61291791ec6fb8e55ec4d7ca31a2 common: filter rtgroups when we're disabling metadir
+bf5451f7e9a29d3608702a70a7983b15fc54962f xfs/185: update for rtgroups
+f2dbe68e794433fd04046f0318edcf00cb4011fa xfs/449: update test to know about xfs_db -R
+d1baa9ac941e78b5824c792a8db8ef64c27db73c xfs/122: update for rtbitmap headers
+bbf8cf6c39c8d12e8dff3d06aa58f6d601015d39 xfs/122: udpate test to pick up rtword/suminfo ondisk unions
+4a80848e05d8b1bd37ab79dcaf941c6ccdcb638b xfs/27[46],xfs/556: fix tests to deal with rtgroups output in bmap/fsmap commands
+a6b97e330d99bc7e0b7c5c7e5ddf8a1fb9955a84 common/xfs: capture realtime devices during metadump/mdrestore
+d93697f0a0643abc9b2375119ea5304939b4157a common/fuzzy: adapt the scrub stress tests to support rtgroups
+679da0364e365cdd2501f66bb38d9e38eb09db22 xfs: refactor statfs field extraction
+6e0f6eea8a263a1adbccf54891f23cc61c3a9275 generic/260: compute maximum fitrim offset
+83d98674b6853cd0dfdee2dabb650d2c8e7a5203 xfs: fix tests that try to access the realtime rmap inode
+70ad7bdfeffec5bb8fd365f25190aa2a20c8c501 fuzz: for fuzzing the rtrmapbt, find the path to the rt rmap btree file
+fcb090021e93b1132f5aaae5a80d64c4f1cb3083 xfs: race fsstress with realtime rmap btree scrub and repair
+3d936cad3d66eace6fbac42e7b2c8529617b849a xfs/856: add rtrmapbt upgrade to test matrix
+3c00d5b3d20cf39e0a238ba9169992240ccec7dc xfs/122: update for rtgroups-based realtime rmap btrees
+3caafd18d5d91bf44ec34039d22c57b309db204e xfs: fix various problems with fsmap detecting the data device
+c39a763f81dcdcb2dc4dc17f7c7584b4b195dff1 xfs/341: update test for rtgroup-based rmap
+3d44cc3140ae7ff1321f37b060ffd837ba491ad3 xfs/3{43,32}: adapt tests for rt extent size greater than 1
+8c0441ea60fedf6cb1c9a7c676f697bf148d4514 xfs: skip tests if formatting small filesystem fails
+8eaac144ae2ea0b27bed28d099779adcbee1beaa xfs/443: use file allocation unit, not dbsize
+48e9f8cfeba46487f54aaa2fc4bacaceaa3876ca populate: adjust rtrmap calculations for rtgroups
+9176932df4ec160bb96b9a7c6672649c59df7cb7 populate: check that we created a realtime rmap btree of the given height
+59dd66b4ffd465a52db5b448a23681c6cb40cb44 fuzzy: create missing fuzz tests for rt rmap btrees
+36e5920adbd02c85d574f1619220f6b77bf06828 fuzzy: create known output for rt rmap btree fuzz tests
+618c9d2a3f8a1169ddaba8247cd147c42252cd2a xfs/122: update fields for realtime reflink
+509a7e1845f12a3ddca1ab17729c8d93b0118d52 common/populate: create realtime refcount btree
+a51c5f7d871a7518088fea129281173eca5df003 xfs: create fuzz tests for the realtime refcount btree
+69a64500b0230917c45d668fee4d955e5309855f xfs/27[24]: adapt for checking files on the realtime volume
+d7af74c5bf36bf1fae0a5b7831a97d8e04c709fc xfs/243: don't run when realtime storage is the default
+db2aa8b154fa57ca0243529ffd8283787714be13 xfs: race fsstress with realtime refcount btree scrub and repair
+666bfd9ee3c227f74c71d110fdeed46b6babf248 xfs: remove xfs/131 now that we allow reflink on realtime volumes
+9ba7b3c4a9f146625396638ea659eec4eadd6a72 xfs/856: add rtreflink upgrade to test matrix
+03b8e9a80abe15af1f97f128389a6240660e6d40 generic/331,xfs/240: support files that skip delayed allocation
+6d0570ce372287949248561a40e7a32a1a1ced15 common/xfs: fix _xfs_get_file_block_size when rtinherit is set and no rt section
+
+--===============5328713760726719305==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-151d087999c5-a617d72e9829.txt
+
+a20990a0481571d5cb2d2294c9449ebb317a2b2f check: generate section reports between tests
+7e8a291e3bdf25bd57498131d86925bdc380837d report: derive an xml schema for the xunit report
+36c554feac175a5967ef70bab6904315c190484c report: capture the time zone in the test report timestamp
+f7367629f92fe4e90fd1f0764a919a841515a44f report: clarify the meaning of the timestamp attribute
+36c275a1500e88a7c09cc5108437dcbc40e6faeb report: record fstests start and report generation timestamps
+fc9f173562f94ffbeb432db5c0665c4e2ac49737 report: encode cdata sections correctly
+46e9c212bf8ba024f7d0eb1293e90f4df40a3fbe report: encode the kernel log as a separate xml element
+b9b05ccd3ff760be88ab3a9814113d7a519fc71f report: sort properties by name
+de57f6161f14ac071178f663d0634f210c1224e8 report: pass property value to _xunit_add_property
+6c65bb263b3304691eac93ff871ab7f0a5af29ad report: encode xml entities in property values
+57c3db4f694fe0b6bfaccd43efefbed965857fb9 report: collect basic information about a test run
+68b87376a7c82e114ab0af81414a2d102c0e5757 report: record optional environment variables
+b2f466196d7f510f9f51595423b8096ca1b84351 report: record xfs-specific information about a test run
+dcbe83cc7e5aa5e4c84492626e0ac1fa5b10bdff report: record ext*-specific information about a test run
+7e5db626c7e5f9adedff38e6fe2e4c3551e1007e report: allow test runners to inject arbitrary values
+4c0118d037c31479403f5890cfcd9b260bfa56eb xfs: test scaling of the mkfs concurrency options
+ec1ffd84a6a3cf87ca11ffeb3e34d13b60438074 xfs: online fuzz test known output
+f4ce31788d2a084db43c1af26f74b8dad0f01d1a xfs: offline fuzz test known output
+7df0d95f9957e231d90a47e3d147b0ed9113b244 xfs: norepair fuzz test known output
+422872dd54a6df272d47fb3c5e289ecc736391dd xfs: bothrepair fuzz test known output
+ce72ac0fca3b751516f5fddc5f0df3d72372a472 misc: privatize the FIEXCHANGE ioctl for now
+7e67f2a222f333adbb86fe105be3ae0b1c4b5577 misc: update xfs_io swapext usage
+d9cb58b671bcfce853e716f50c660a5e1ed88198 xfs: stress test cycling parent pointers with online repair
+25393397b78452f014b3c7fdee797ea23bb2269e xfs/004: fix column extraction code
+9e2feaeb8d07259790db23cf18b8a9eea5b682fd common: make helpers for ttyprintk usage
+e56c8eb1933658c280cb604595c1067980991f68 xfs: test upgrading old features
+c65e4803dab28d7dbb7ae1e96df2db7bdee07b4d xfs/122: fix metadirino
+5af7921255b08b9eb3eca99b2d6fd5d166267b98 various: fix finding metadata inode numbers when metadir is enabled
+df5a1a3d37996f57ec165f98e2e024cca8ebd857 xfs/{030,033,178}: forcibly disable metadata directory trees
+07f8c92951954d0f1cdb1e6ee3a495d2b2df59a6 common/repair: patch up repair sb inode value complaints
+c98190fca1519fb1d908d89ce1b988dbe9ea2e11 xfs/206: update for metadata directory support
+7918167f182ca8eebb738d37af161a91c5278e04 xfs/{050,144,153,299,330}: update quota reports to leave out metadir files
+96962db6498f5a049b2073d5b21bace04ecdb7cb xfs/856: add metadir upgrade to test matrix
+550cbdb4c9ffa8a03e62fdd995affd230cb0a5ac xfs/509: adjust inumbers accounting for metadata directories
+dfff28f84a609505f9d8c8aa1e92bacefd6b5918 xfs: create fuzz tests for metadata directories
+15486b67ae5468f6e5d52b52c51ee503eab73c67 xfs: baseline golden output for metadata directory fuzz tests
+cb27bb41e76f3438f0afbece822efb97a18a19e7 common/populate: refactor caching of metadumps to a helper
+34064dd2ef5a5e990192e617e57ce3efefcf12b4 common/xfs: wipe external logs during mdrestore operations
+c93188aac558742f4c681f46f31820abbf0a7a1e common/ext4: reformat external logs during mdrestore operations
+98c20a8ac153b402dc09f0779f5c287c2dca59b3 common/xfs: capture external logs during metadump/mdrestore
+8859356f1abd784ca884250e7470e76fac59e85c xfs/122: update for rtgroups
+38533bab4a6974820f7a29af5b937ae54727ccd9 punch-alternating: detect xfs realtime files with large allocation units
+2e01db287abdf75ae928b8e5d17ec931d38bc72c xfs/206: update mkfs filtering for rt groups feature
+46f6c37fa56657d76f225acd17746ed3e2a30a8f common: pass the realtime device to xfs_db when possible
+89b1d9514a1c61291791ec6fb8e55ec4d7ca31a2 common: filter rtgroups when we're disabling metadir
+bf5451f7e9a29d3608702a70a7983b15fc54962f xfs/185: update for rtgroups
+f2dbe68e794433fd04046f0318edcf00cb4011fa xfs/449: update test to know about xfs_db -R
+d1baa9ac941e78b5824c792a8db8ef64c27db73c xfs/122: update for rtbitmap headers
+bbf8cf6c39c8d12e8dff3d06aa58f6d601015d39 xfs/122: udpate test to pick up rtword/suminfo ondisk unions
+4a80848e05d8b1bd37ab79dcaf941c6ccdcb638b xfs/27[46],xfs/556: fix tests to deal with rtgroups output in bmap/fsmap commands
+a6b97e330d99bc7e0b7c5c7e5ddf8a1fb9955a84 common/xfs: capture realtime devices during metadump/mdrestore
+d93697f0a0643abc9b2375119ea5304939b4157a common/fuzzy: adapt the scrub stress tests to support rtgroups
+679da0364e365cdd2501f66bb38d9e38eb09db22 xfs: refactor statfs field extraction
+6e0f6eea8a263a1adbccf54891f23cc61c3a9275 generic/260: compute maximum fitrim offset
+83d98674b6853cd0dfdee2dabb650d2c8e7a5203 xfs: fix tests that try to access the realtime rmap inode
+70ad7bdfeffec5bb8fd365f25190aa2a20c8c501 fuzz: for fuzzing the rtrmapbt, find the path to the rt rmap btree file
+fcb090021e93b1132f5aaae5a80d64c4f1cb3083 xfs: race fsstress with realtime rmap btree scrub and repair
+3d936cad3d66eace6fbac42e7b2c8529617b849a xfs/856: add rtrmapbt upgrade to test matrix
+3c00d5b3d20cf39e0a238ba9169992240ccec7dc xfs/122: update for rtgroups-based realtime rmap btrees
+3caafd18d5d91bf44ec34039d22c57b309db204e xfs: fix various problems with fsmap detecting the data device
+c39a763f81dcdcb2dc4dc17f7c7584b4b195dff1 xfs/341: update test for rtgroup-based rmap
+3d44cc3140ae7ff1321f37b060ffd837ba491ad3 xfs/3{43,32}: adapt tests for rt extent size greater than 1
+8c0441ea60fedf6cb1c9a7c676f697bf148d4514 xfs: skip tests if formatting small filesystem fails
+8eaac144ae2ea0b27bed28d099779adcbee1beaa xfs/443: use file allocation unit, not dbsize
+48e9f8cfeba46487f54aaa2fc4bacaceaa3876ca populate: adjust rtrmap calculations for rtgroups
+9176932df4ec160bb96b9a7c6672649c59df7cb7 populate: check that we created a realtime rmap btree of the given height
+59dd66b4ffd465a52db5b448a23681c6cb40cb44 fuzzy: create missing fuzz tests for rt rmap btrees
+36e5920adbd02c85d574f1619220f6b77bf06828 fuzzy: create known output for rt rmap btree fuzz tests
+
+--===============5328713760726719305==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-cba357993fbf-c55c73bab72c.txt
+
+a20990a0481571d5cb2d2294c9449ebb317a2b2f check: generate section reports between tests
+7e8a291e3bdf25bd57498131d86925bdc380837d report: derive an xml schema for the xunit report
+36c554feac175a5967ef70bab6904315c190484c report: capture the time zone in the test report timestamp
+f7367629f92fe4e90fd1f0764a919a841515a44f report: clarify the meaning of the timestamp attribute
+36c275a1500e88a7c09cc5108437dcbc40e6faeb report: record fstests start and report generation timestamps
+fc9f173562f94ffbeb432db5c0665c4e2ac49737 report: encode cdata sections correctly
+46e9c212bf8ba024f7d0eb1293e90f4df40a3fbe report: encode the kernel log as a separate xml element
+b9b05ccd3ff760be88ab3a9814113d7a519fc71f report: sort properties by name
+de57f6161f14ac071178f663d0634f210c1224e8 report: pass property value to _xunit_add_property
+6c65bb263b3304691eac93ff871ab7f0a5af29ad report: encode xml entities in property values
+57c3db4f694fe0b6bfaccd43efefbed965857fb9 report: collect basic information about a test run
+68b87376a7c82e114ab0af81414a2d102c0e5757 report: record optional environment variables
+b2f466196d7f510f9f51595423b8096ca1b84351 report: record xfs-specific information about a test run
+dcbe83cc7e5aa5e4c84492626e0ac1fa5b10bdff report: record ext*-specific information about a test run
+7e5db626c7e5f9adedff38e6fe2e4c3551e1007e report: allow test runners to inject arbitrary values
+4c0118d037c31479403f5890cfcd9b260bfa56eb xfs: test scaling of the mkfs concurrency options
+ec1ffd84a6a3cf87ca11ffeb3e34d13b60438074 xfs: online fuzz test known output
+f4ce31788d2a084db43c1af26f74b8dad0f01d1a xfs: offline fuzz test known output
+7df0d95f9957e231d90a47e3d147b0ed9113b244 xfs: norepair fuzz test known output
+422872dd54a6df272d47fb3c5e289ecc736391dd xfs: bothrepair fuzz test known output
+ce72ac0fca3b751516f5fddc5f0df3d72372a472 misc: privatize the FIEXCHANGE ioctl for now
+7e67f2a222f333adbb86fe105be3ae0b1c4b5577 misc: update xfs_io swapext usage
+d9cb58b671bcfce853e716f50c660a5e1ed88198 xfs: stress test cycling parent pointers with online repair
+25393397b78452f014b3c7fdee797ea23bb2269e xfs/004: fix column extraction code
+9e2feaeb8d07259790db23cf18b8a9eea5b682fd common: make helpers for ttyprintk usage
+e56c8eb1933658c280cb604595c1067980991f68 xfs: test upgrading old features
+c65e4803dab28d7dbb7ae1e96df2db7bdee07b4d xfs/122: fix metadirino
+5af7921255b08b9eb3eca99b2d6fd5d166267b98 various: fix finding metadata inode numbers when metadir is enabled
+df5a1a3d37996f57ec165f98e2e024cca8ebd857 xfs/{030,033,178}: forcibly disable metadata directory trees
+07f8c92951954d0f1cdb1e6ee3a495d2b2df59a6 common/repair: patch up repair sb inode value complaints
+c98190fca1519fb1d908d89ce1b988dbe9ea2e11 xfs/206: update for metadata directory support
+7918167f182ca8eebb738d37af161a91c5278e04 xfs/{050,144,153,299,330}: update quota reports to leave out metadir files
+96962db6498f5a049b2073d5b21bace04ecdb7cb xfs/856: add metadir upgrade to test matrix
+550cbdb4c9ffa8a03e62fdd995affd230cb0a5ac xfs/509: adjust inumbers accounting for metadata directories
+dfff28f84a609505f9d8c8aa1e92bacefd6b5918 xfs: create fuzz tests for metadata directories
+15486b67ae5468f6e5d52b52c51ee503eab73c67 xfs: baseline golden output for metadata directory fuzz tests
+cb27bb41e76f3438f0afbece822efb97a18a19e7 common/populate: refactor caching of metadumps to a helper
+34064dd2ef5a5e990192e617e57ce3efefcf12b4 common/xfs: wipe external logs during mdrestore operations
+c93188aac558742f4c681f46f31820abbf0a7a1e common/ext4: reformat external logs during mdrestore operations
+98c20a8ac153b402dc09f0779f5c287c2dca59b3 common/xfs: capture external logs during metadump/mdrestore
+8859356f1abd784ca884250e7470e76fac59e85c xfs/122: update for rtgroups
+38533bab4a6974820f7a29af5b937ae54727ccd9 punch-alternating: detect xfs realtime files with large allocation units
+2e01db287abdf75ae928b8e5d17ec931d38bc72c xfs/206: update mkfs filtering for rt groups feature
+46f6c37fa56657d76f225acd17746ed3e2a30a8f common: pass the realtime device to xfs_db when possible
+89b1d9514a1c61291791ec6fb8e55ec4d7ca31a2 common: filter rtgroups when we're disabling metadir
+bf5451f7e9a29d3608702a70a7983b15fc54962f xfs/185: update for rtgroups
+f2dbe68e794433fd04046f0318edcf00cb4011fa xfs/449: update test to know about xfs_db -R
+d1baa9ac941e78b5824c792a8db8ef64c27db73c xfs/122: update for rtbitmap headers
+bbf8cf6c39c8d12e8dff3d06aa58f6d601015d39 xfs/122: udpate test to pick up rtword/suminfo ondisk unions
+4a80848e05d8b1bd37ab79dcaf941c6ccdcb638b xfs/27[46],xfs/556: fix tests to deal with rtgroups output in bmap/fsmap commands
+a6b97e330d99bc7e0b7c5c7e5ddf8a1fb9955a84 common/xfs: capture realtime devices during metadump/mdrestore
+d93697f0a0643abc9b2375119ea5304939b4157a common/fuzzy: adapt the scrub stress tests to support rtgroups
+679da0364e365cdd2501f66bb38d9e38eb09db22 xfs: refactor statfs field extraction
+6e0f6eea8a263a1adbccf54891f23cc61c3a9275 generic/260: compute maximum fitrim offset
+83d98674b6853cd0dfdee2dabb650d2c8e7a5203 xfs: fix tests that try to access the realtime rmap inode
+70ad7bdfeffec5bb8fd365f25190aa2a20c8c501 fuzz: for fuzzing the rtrmapbt, find the path to the rt rmap btree file
+fcb090021e93b1132f5aaae5a80d64c4f1cb3083 xfs: race fsstress with realtime rmap btree scrub and repair
+3d936cad3d66eace6fbac42e7b2c8529617b849a xfs/856: add rtrmapbt upgrade to test matrix
+3c00d5b3d20cf39e0a238ba9169992240ccec7dc xfs/122: update for rtgroups-based realtime rmap btrees
+3caafd18d5d91bf44ec34039d22c57b309db204e xfs: fix various problems with fsmap detecting the data device
+c39a763f81dcdcb2dc4dc17f7c7584b4b195dff1 xfs/341: update test for rtgroup-based rmap
+3d44cc3140ae7ff1321f37b060ffd837ba491ad3 xfs/3{43,32}: adapt tests for rt extent size greater than 1
+8c0441ea60fedf6cb1c9a7c676f697bf148d4514 xfs: skip tests if formatting small filesystem fails
+8eaac144ae2ea0b27bed28d099779adcbee1beaa xfs/443: use file allocation unit, not dbsize
+48e9f8cfeba46487f54aaa2fc4bacaceaa3876ca populate: adjust rtrmap calculations for rtgroups
+9176932df4ec160bb96b9a7c6672649c59df7cb7 populate: check that we created a realtime rmap btree of the given height
+59dd66b4ffd465a52db5b448a23681c6cb40cb44 fuzzy: create missing fuzz tests for rt rmap btrees
+
+--===============5328713760726719305==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-e85f6b8f99b7-61a4148190d7.txt
+
+a20990a0481571d5cb2d2294c9449ebb317a2b2f check: generate section reports between tests
+7e8a291e3bdf25bd57498131d86925bdc380837d report: derive an xml schema for the xunit report
+36c554feac175a5967ef70bab6904315c190484c report: capture the time zone in the test report timestamp
+f7367629f92fe4e90fd1f0764a919a841515a44f report: clarify the meaning of the timestamp attribute
+36c275a1500e88a7c09cc5108437dcbc40e6faeb report: record fstests start and report generation timestamps
+fc9f173562f94ffbeb432db5c0665c4e2ac49737 report: encode cdata sections correctly
+46e9c212bf8ba024f7d0eb1293e90f4df40a3fbe report: encode the kernel log as a separate xml element
+b9b05ccd3ff760be88ab3a9814113d7a519fc71f report: sort properties by name
+de57f6161f14ac071178f663d0634f210c1224e8 report: pass property value to _xunit_add_property
+6c65bb263b3304691eac93ff871ab7f0a5af29ad report: encode xml entities in property values
+57c3db4f694fe0b6bfaccd43efefbed965857fb9 report: collect basic information about a test run
+68b87376a7c82e114ab0af81414a2d102c0e5757 report: record optional environment variables
+b2f466196d7f510f9f51595423b8096ca1b84351 report: record xfs-specific information about a test run
+dcbe83cc7e5aa5e4c84492626e0ac1fa5b10bdff report: record ext*-specific information about a test run
+7e5db626c7e5f9adedff38e6fe2e4c3551e1007e report: allow test runners to inject arbitrary values
+4c0118d037c31479403f5890cfcd9b260bfa56eb xfs: test scaling of the mkfs concurrency options
+ec1ffd84a6a3cf87ca11ffeb3e34d13b60438074 xfs: online fuzz test known output
+f4ce31788d2a084db43c1af26f74b8dad0f01d1a xfs: offline fuzz test known output
+7df0d95f9957e231d90a47e3d147b0ed9113b244 xfs: norepair fuzz test known output
+422872dd54a6df272d47fb3c5e289ecc736391dd xfs: bothrepair fuzz test known output
+ce72ac0fca3b751516f5fddc5f0df3d72372a472 misc: privatize the FIEXCHANGE ioctl for now
+7e67f2a222f333adbb86fe105be3ae0b1c4b5577 misc: update xfs_io swapext usage
+d9cb58b671bcfce853e716f50c660a5e1ed88198 xfs: stress test cycling parent pointers with online repair
+
+--===============5328713760726719305==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-a3c7fe823633-419f3a91be6a.txt
+
+a20990a0481571d5cb2d2294c9449ebb317a2b2f check: generate section reports between tests
+7e8a291e3bdf25bd57498131d86925bdc380837d report: derive an xml schema for the xunit report
+36c554feac175a5967ef70bab6904315c190484c report: capture the time zone in the test report timestamp
+f7367629f92fe4e90fd1f0764a919a841515a44f report: clarify the meaning of the timestamp attribute
+36c275a1500e88a7c09cc5108437dcbc40e6faeb report: record fstests start and report generation timestamps
+fc9f173562f94ffbeb432db5c0665c4e2ac49737 report: encode cdata sections correctly
+46e9c212bf8ba024f7d0eb1293e90f4df40a3fbe report: encode the kernel log as a separate xml element
+b9b05ccd3ff760be88ab3a9814113d7a519fc71f report: sort properties by name
+de57f6161f14ac071178f663d0634f210c1224e8 report: pass property value to _xunit_add_property
+6c65bb263b3304691eac93ff871ab7f0a5af29ad report: encode xml entities in property values
+57c3db4f694fe0b6bfaccd43efefbed965857fb9 report: collect basic information about a test run
+68b87376a7c82e114ab0af81414a2d102c0e5757 report: record optional environment variables
+b2f466196d7f510f9f51595423b8096ca1b84351 report: record xfs-specific information about a test run
+dcbe83cc7e5aa5e4c84492626e0ac1fa5b10bdff report: record ext*-specific information about a test run
+7e5db626c7e5f9adedff38e6fe2e4c3551e1007e report: allow test runners to inject arbitrary values
+4c0118d037c31479403f5890cfcd9b260bfa56eb xfs: test scaling of the mkfs concurrency options
+ec1ffd84a6a3cf87ca11ffeb3e34d13b60438074 xfs: online fuzz test known output
+f4ce31788d2a084db43c1af26f74b8dad0f01d1a xfs: offline fuzz test known output
+7df0d95f9957e231d90a47e3d147b0ed9113b244 xfs: norepair fuzz test known output
+422872dd54a6df272d47fb3c5e289ecc736391dd xfs: bothrepair fuzz test known output
+ce72ac0fca3b751516f5fddc5f0df3d72372a472 misc: privatize the FIEXCHANGE ioctl for now
+7e67f2a222f333adbb86fe105be3ae0b1c4b5577 misc: update xfs_io swapext usage
+d9cb58b671bcfce853e716f50c660a5e1ed88198 xfs: stress test cycling parent pointers with online repair
+25393397b78452f014b3c7fdee797ea23bb2269e xfs/004: fix column extraction code
+9e2feaeb8d07259790db23cf18b8a9eea5b682fd common: make helpers for ttyprintk usage
+e56c8eb1933658c280cb604595c1067980991f68 xfs: test upgrading old features
+c65e4803dab28d7dbb7ae1e96df2db7bdee07b4d xfs/122: fix metadirino
+5af7921255b08b9eb3eca99b2d6fd5d166267b98 various: fix finding metadata inode numbers when metadir is enabled
+df5a1a3d37996f57ec165f98e2e024cca8ebd857 xfs/{030,033,178}: forcibly disable metadata directory trees
+07f8c92951954d0f1cdb1e6ee3a495d2b2df59a6 common/repair: patch up repair sb inode value complaints
+c98190fca1519fb1d908d89ce1b988dbe9ea2e11 xfs/206: update for metadata directory support
+7918167f182ca8eebb738d37af161a91c5278e04 xfs/{050,144,153,299,330}: update quota reports to leave out metadir files
+96962db6498f5a049b2073d5b21bace04ecdb7cb xfs/856: add metadir upgrade to test matrix
+550cbdb4c9ffa8a03e62fdd995affd230cb0a5ac xfs/509: adjust inumbers accounting for metadata directories
+dfff28f84a609505f9d8c8aa1e92bacefd6b5918 xfs: create fuzz tests for metadata directories
+15486b67ae5468f6e5d52b52c51ee503eab73c67 xfs: baseline golden output for metadata directory fuzz tests
+cb27bb41e76f3438f0afbece822efb97a18a19e7 common/populate: refactor caching of metadumps to a helper
+34064dd2ef5a5e990192e617e57ce3efefcf12b4 common/xfs: wipe external logs during mdrestore operations
+c93188aac558742f4c681f46f31820abbf0a7a1e common/ext4: reformat external logs during mdrestore operations
+98c20a8ac153b402dc09f0779f5c287c2dca59b3 common/xfs: capture external logs during metadump/mdrestore
+8859356f1abd784ca884250e7470e76fac59e85c xfs/122: update for rtgroups
+38533bab4a6974820f7a29af5b937ae54727ccd9 punch-alternating: detect xfs realtime files with large allocation units
+2e01db287abdf75ae928b8e5d17ec931d38bc72c xfs/206: update mkfs filtering for rt groups feature
+46f6c37fa56657d76f225acd17746ed3e2a30a8f common: pass the realtime device to xfs_db when possible
+89b1d9514a1c61291791ec6fb8e55ec4d7ca31a2 common: filter rtgroups when we're disabling metadir
+bf5451f7e9a29d3608702a70a7983b15fc54962f xfs/185: update for rtgroups
+f2dbe68e794433fd04046f0318edcf00cb4011fa xfs/449: update test to know about xfs_db -R
+d1baa9ac941e78b5824c792a8db8ef64c27db73c xfs/122: update for rtbitmap headers
+bbf8cf6c39c8d12e8dff3d06aa58f6d601015d39 xfs/122: udpate test to pick up rtword/suminfo ondisk unions
+4a80848e05d8b1bd37ab79dcaf941c6ccdcb638b xfs/27[46],xfs/556: fix tests to deal with rtgroups output in bmap/fsmap commands
+a6b97e330d99bc7e0b7c5c7e5ddf8a1fb9955a84 common/xfs: capture realtime devices during metadump/mdrestore
+d93697f0a0643abc9b2375119ea5304939b4157a common/fuzzy: adapt the scrub stress tests to support rtgroups
+679da0364e365cdd2501f66bb38d9e38eb09db22 xfs: refactor statfs field extraction
+6e0f6eea8a263a1adbccf54891f23cc61c3a9275 generic/260: compute maximum fitrim offset
+83d98674b6853cd0dfdee2dabb650d2c8e7a5203 xfs: fix tests that try to access the realtime rmap inode
+70ad7bdfeffec5bb8fd365f25190aa2a20c8c501 fuzz: for fuzzing the rtrmapbt, find the path to the rt rmap btree file
+fcb090021e93b1132f5aaae5a80d64c4f1cb3083 xfs: race fsstress with realtime rmap btree scrub and repair
+3d936cad3d66eace6fbac42e7b2c8529617b849a xfs/856: add rtrmapbt upgrade to test matrix
+3c00d5b3d20cf39e0a238ba9169992240ccec7dc xfs/122: update for rtgroups-based realtime rmap btrees
+3caafd18d5d91bf44ec34039d22c57b309db204e xfs: fix various problems with fsmap detecting the data device
+c39a763f81dcdcb2dc4dc17f7c7584b4b195dff1 xfs/341: update test for rtgroup-based rmap
+3d44cc3140ae7ff1321f37b060ffd837ba491ad3 xfs/3{43,32}: adapt tests for rt extent size greater than 1
+8c0441ea60fedf6cb1c9a7c676f697bf148d4514 xfs: skip tests if formatting small filesystem fails
+8eaac144ae2ea0b27bed28d099779adcbee1beaa xfs/443: use file allocation unit, not dbsize
+48e9f8cfeba46487f54aaa2fc4bacaceaa3876ca populate: adjust rtrmap calculations for rtgroups
+9176932df4ec160bb96b9a7c6672649c59df7cb7 populate: check that we created a realtime rmap btree of the given height
+59dd66b4ffd465a52db5b448a23681c6cb40cb44 fuzzy: create missing fuzz tests for rt rmap btrees
+36e5920adbd02c85d574f1619220f6b77bf06828 fuzzy: create known output for rt rmap btree fuzz tests
+618c9d2a3f8a1169ddaba8247cd147c42252cd2a xfs/122: update fields for realtime reflink
+509a7e1845f12a3ddca1ab17729c8d93b0118d52 common/populate: create realtime refcount btree
+a51c5f7d871a7518088fea129281173eca5df003 xfs: create fuzz tests for the realtime refcount btree
+69a64500b0230917c45d668fee4d955e5309855f xfs/27[24]: adapt for checking files on the realtime volume
+d7af74c5bf36bf1fae0a5b7831a97d8e04c709fc xfs/243: don't run when realtime storage is the default
+db2aa8b154fa57ca0243529ffd8283787714be13 xfs: race fsstress with realtime refcount btree scrub and repair
+666bfd9ee3c227f74c71d110fdeed46b6babf248 xfs: remove xfs/131 now that we allow reflink on realtime volumes
+9ba7b3c4a9f146625396638ea659eec4eadd6a72 xfs/856: add rtreflink upgrade to test matrix
+03b8e9a80abe15af1f97f128389a6240660e6d40 generic/331,xfs/240: support files that skip delayed allocation
+6d0570ce372287949248561a40e7a32a1a1ced15 common/xfs: fix _xfs_get_file_block_size when rtinherit is set and no rt section
+88516c14fe833bebba2ce274ea489cce8e9f8e9c xfs: baseline golden output for rt refcount btree fuzz tests
+8f655607b0b1e74fc9d1b26a5b1301f499d44773 xfs: make sure that CoW will write around when rextsize > 1
+e0d8c4406f8c202ae9e2de8362b05d371d2d8e05 xfs: skip cowextsize hint fragmentation tests on realtime volumes
+ec024ffc5011655dc58176a4bf4c5d860383e913 misc: add more congruent oplen testing
+7d22511c41094896465ebfe66a79f0e20631f307 generic/303: avoid test failures on weird rt extent sizes
+c43deb86e7e2f0ecf1066f377a82f11c650f655a xfs: regression testing of quota on the realtime device
+c75bc4c866c71ea61394598afdccb244fa469335 xfs/122: update for vectored scrub
+346a308c4e35c61ef8f2a2d8cb173bdcda72efd2 xfs: test output of new FSREFCOUNTS ioctl
+
+--===============5328713760726719305==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-84ca0af08290-8e9af8de3483.txt
+
+a20990a0481571d5cb2d2294c9449ebb317a2b2f check: generate section reports between tests
+7e8a291e3bdf25bd57498131d86925bdc380837d report: derive an xml schema for the xunit report
+36c554feac175a5967ef70bab6904315c190484c report: capture the time zone in the test report timestamp
+f7367629f92fe4e90fd1f0764a919a841515a44f report: clarify the meaning of the timestamp attribute
+36c275a1500e88a7c09cc5108437dcbc40e6faeb report: record fstests start and report generation timestamps
+fc9f173562f94ffbeb432db5c0665c4e2ac49737 report: encode cdata sections correctly
+46e9c212bf8ba024f7d0eb1293e90f4df40a3fbe report: encode the kernel log as a separate xml element
+b9b05ccd3ff760be88ab3a9814113d7a519fc71f report: sort properties by name
+de57f6161f14ac071178f663d0634f210c1224e8 report: pass property value to _xunit_add_property
+6c65bb263b3304691eac93ff871ab7f0a5af29ad report: encode xml entities in property values
+57c3db4f694fe0b6bfaccd43efefbed965857fb9 report: collect basic information about a test run
+68b87376a7c82e114ab0af81414a2d102c0e5757 report: record optional environment variables
+b2f466196d7f510f9f51595423b8096ca1b84351 report: record xfs-specific information about a test run
+dcbe83cc7e5aa5e4c84492626e0ac1fa5b10bdff report: record ext*-specific information about a test run
+7e5db626c7e5f9adedff38e6fe2e4c3551e1007e report: allow test runners to inject arbitrary values
+4c0118d037c31479403f5890cfcd9b260bfa56eb xfs: test scaling of the mkfs concurrency options
+ec1ffd84a6a3cf87ca11ffeb3e34d13b60438074 xfs: online fuzz test known output
+f4ce31788d2a084db43c1af26f74b8dad0f01d1a xfs: offline fuzz test known output
+7df0d95f9957e231d90a47e3d147b0ed9113b244 xfs: norepair fuzz test known output
+422872dd54a6df272d47fb3c5e289ecc736391dd xfs: bothrepair fuzz test known output
+ce72ac0fca3b751516f5fddc5f0df3d72372a472 misc: privatize the FIEXCHANGE ioctl for now
+7e67f2a222f333adbb86fe105be3ae0b1c4b5577 misc: update xfs_io swapext usage
+d9cb58b671bcfce853e716f50c660a5e1ed88198 xfs: stress test cycling parent pointers with online repair
+25393397b78452f014b3c7fdee797ea23bb2269e xfs/004: fix column extraction code
+
+--===============5328713760726719305==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-74f165ddf985-6882dd432e0a.txt
+
+a20990a0481571d5cb2d2294c9449ebb317a2b2f check: generate section reports between tests
+7e8a291e3bdf25bd57498131d86925bdc380837d report: derive an xml schema for the xunit report
+36c554feac175a5967ef70bab6904315c190484c report: capture the time zone in the test report timestamp
+f7367629f92fe4e90fd1f0764a919a841515a44f report: clarify the meaning of the timestamp attribute
+36c275a1500e88a7c09cc5108437dcbc40e6faeb report: record fstests start and report generation timestamps
+fc9f173562f94ffbeb432db5c0665c4e2ac49737 report: encode cdata sections correctly
+46e9c212bf8ba024f7d0eb1293e90f4df40a3fbe report: encode the kernel log as a separate xml element
+b9b05ccd3ff760be88ab3a9814113d7a519fc71f report: sort properties by name
+de57f6161f14ac071178f663d0634f210c1224e8 report: pass property value to _xunit_add_property
+6c65bb263b3304691eac93ff871ab7f0a5af29ad report: encode xml entities in property values
+57c3db4f694fe0b6bfaccd43efefbed965857fb9 report: collect basic information about a test run
+68b87376a7c82e114ab0af81414a2d102c0e5757 report: record optional environment variables
+b2f466196d7f510f9f51595423b8096ca1b84351 report: record xfs-specific information about a test run
+dcbe83cc7e5aa5e4c84492626e0ac1fa5b10bdff report: record ext*-specific information about a test run
+7e5db626c7e5f9adedff38e6fe2e4c3551e1007e report: allow test runners to inject arbitrary values
+4c0118d037c31479403f5890cfcd9b260bfa56eb xfs: test scaling of the mkfs concurrency options
+ec1ffd84a6a3cf87ca11ffeb3e34d13b60438074 xfs: online fuzz test known output
+f4ce31788d2a084db43c1af26f74b8dad0f01d1a xfs: offline fuzz test known output
+7df0d95f9957e231d90a47e3d147b0ed9113b244 xfs: norepair fuzz test known output
+422872dd54a6df272d47fb3c5e289ecc736391dd xfs: bothrepair fuzz test known output
+ce72ac0fca3b751516f5fddc5f0df3d72372a472 misc: privatize the FIEXCHANGE ioctl for now
+7e67f2a222f333adbb86fe105be3ae0b1c4b5577 misc: update xfs_io swapext usage
+d9cb58b671bcfce853e716f50c660a5e1ed88198 xfs: stress test cycling parent pointers with online repair
+25393397b78452f014b3c7fdee797ea23bb2269e xfs/004: fix column extraction code
+9e2feaeb8d07259790db23cf18b8a9eea5b682fd common: make helpers for ttyprintk usage
+e56c8eb1933658c280cb604595c1067980991f68 xfs: test upgrading old features
+c65e4803dab28d7dbb7ae1e96df2db7bdee07b4d xfs/122: fix metadirino
+5af7921255b08b9eb3eca99b2d6fd5d166267b98 various: fix finding metadata inode numbers when metadir is enabled
+df5a1a3d37996f57ec165f98e2e024cca8ebd857 xfs/{030,033,178}: forcibly disable metadata directory trees
+07f8c92951954d0f1cdb1e6ee3a495d2b2df59a6 common/repair: patch up repair sb inode value complaints
+c98190fca1519fb1d908d89ce1b988dbe9ea2e11 xfs/206: update for metadata directory support
+7918167f182ca8eebb738d37af161a91c5278e04 xfs/{050,144,153,299,330}: update quota reports to leave out metadir files
+96962db6498f5a049b2073d5b21bace04ecdb7cb xfs/856: add metadir upgrade to test matrix
+550cbdb4c9ffa8a03e62fdd995affd230cb0a5ac xfs/509: adjust inumbers accounting for metadata directories
+dfff28f84a609505f9d8c8aa1e92bacefd6b5918 xfs: create fuzz tests for metadata directories
+15486b67ae5468f6e5d52b52c51ee503eab73c67 xfs: baseline golden output for metadata directory fuzz tests
+cb27bb41e76f3438f0afbece822efb97a18a19e7 common/populate: refactor caching of metadumps to a helper
+34064dd2ef5a5e990192e617e57ce3efefcf12b4 common/xfs: wipe external logs during mdrestore operations
+c93188aac558742f4c681f46f31820abbf0a7a1e common/ext4: reformat external logs during mdrestore operations
+98c20a8ac153b402dc09f0779f5c287c2dca59b3 common/xfs: capture external logs during metadump/mdrestore
+8859356f1abd784ca884250e7470e76fac59e85c xfs/122: update for rtgroups
+38533bab4a6974820f7a29af5b937ae54727ccd9 punch-alternating: detect xfs realtime files with large allocation units
+2e01db287abdf75ae928b8e5d17ec931d38bc72c xfs/206: update mkfs filtering for rt groups feature
+46f6c37fa56657d76f225acd17746ed3e2a30a8f common: pass the realtime device to xfs_db when possible
+89b1d9514a1c61291791ec6fb8e55ec4d7ca31a2 common: filter rtgroups when we're disabling metadir
+bf5451f7e9a29d3608702a70a7983b15fc54962f xfs/185: update for rtgroups
+f2dbe68e794433fd04046f0318edcf00cb4011fa xfs/449: update test to know about xfs_db -R
+d1baa9ac941e78b5824c792a8db8ef64c27db73c xfs/122: update for rtbitmap headers
+bbf8cf6c39c8d12e8dff3d06aa58f6d601015d39 xfs/122: udpate test to pick up rtword/suminfo ondisk unions
+4a80848e05d8b1bd37ab79dcaf941c6ccdcb638b xfs/27[46],xfs/556: fix tests to deal with rtgroups output in bmap/fsmap commands
+a6b97e330d99bc7e0b7c5c7e5ddf8a1fb9955a84 common/xfs: capture realtime devices during metadump/mdrestore
+d93697f0a0643abc9b2375119ea5304939b4157a common/fuzzy: adapt the scrub stress tests to support rtgroups
+679da0364e365cdd2501f66bb38d9e38eb09db22 xfs: refactor statfs field extraction
+6e0f6eea8a263a1adbccf54891f23cc61c3a9275 generic/260: compute maximum fitrim offset
+83d98674b6853cd0dfdee2dabb650d2c8e7a5203 xfs: fix tests that try to access the realtime rmap inode
+70ad7bdfeffec5bb8fd365f25190aa2a20c8c501 fuzz: for fuzzing the rtrmapbt, find the path to the rt rmap btree file
+fcb090021e93b1132f5aaae5a80d64c4f1cb3083 xfs: race fsstress with realtime rmap btree scrub and repair
+3d936cad3d66eace6fbac42e7b2c8529617b849a xfs/856: add rtrmapbt upgrade to test matrix
+3c00d5b3d20cf39e0a238ba9169992240ccec7dc xfs/122: update for rtgroups-based realtime rmap btrees
+3caafd18d5d91bf44ec34039d22c57b309db204e xfs: fix various problems with fsmap detecting the data device
+c39a763f81dcdcb2dc4dc17f7c7584b4b195dff1 xfs/341: update test for rtgroup-based rmap
+3d44cc3140ae7ff1321f37b060ffd837ba491ad3 xfs/3{43,32}: adapt tests for rt extent size greater than 1
+8c0441ea60fedf6cb1c9a7c676f697bf148d4514 xfs: skip tests if formatting small filesystem fails
+8eaac144ae2ea0b27bed28d099779adcbee1beaa xfs/443: use file allocation unit, not dbsize
+48e9f8cfeba46487f54aaa2fc4bacaceaa3876ca populate: adjust rtrmap calculations for rtgroups
+9176932df4ec160bb96b9a7c6672649c59df7cb7 populate: check that we created a realtime rmap btree of the given height
+59dd66b4ffd465a52db5b448a23681c6cb40cb44 fuzzy: create missing fuzz tests for rt rmap btrees
+36e5920adbd02c85d574f1619220f6b77bf06828 fuzzy: create known output for rt rmap btree fuzz tests
+618c9d2a3f8a1169ddaba8247cd147c42252cd2a xfs/122: update fields for realtime reflink
+509a7e1845f12a3ddca1ab17729c8d93b0118d52 common/populate: create realtime refcount btree
+a51c5f7d871a7518088fea129281173eca5df003 xfs: create fuzz tests for the realtime refcount btree
+69a64500b0230917c45d668fee4d955e5309855f xfs/27[24]: adapt for checking files on the realtime volume
+d7af74c5bf36bf1fae0a5b7831a97d8e04c709fc xfs/243: don't run when realtime storage is the default
+db2aa8b154fa57ca0243529ffd8283787714be13 xfs: race fsstress with realtime refcount btree scrub and repair
+666bfd9ee3c227f74c71d110fdeed46b6babf248 xfs: remove xfs/131 now that we allow reflink on realtime volumes
+9ba7b3c4a9f146625396638ea659eec4eadd6a72 xfs/856: add rtreflink upgrade to test matrix
+03b8e9a80abe15af1f97f128389a6240660e6d40 generic/331,xfs/240: support files that skip delayed allocation
+6d0570ce372287949248561a40e7a32a1a1ced15 common/xfs: fix _xfs_get_file_block_size when rtinherit is set and no rt section
+88516c14fe833bebba2ce274ea489cce8e9f8e9c xfs: baseline golden output for rt refcount btree fuzz tests
+8f655607b0b1e74fc9d1b26a5b1301f499d44773 xfs: make sure that CoW will write around when rextsize > 1
+e0d8c4406f8c202ae9e2de8362b05d371d2d8e05 xfs: skip cowextsize hint fragmentation tests on realtime volumes
+ec024ffc5011655dc58176a4bf4c5d860383e913 misc: add more congruent oplen testing
+7d22511c41094896465ebfe66a79f0e20631f307 generic/303: avoid test failures on weird rt extent sizes
+c43deb86e7e2f0ecf1066f377a82f11c650f655a xfs: regression testing of quota on the realtime device
+c75bc4c866c71ea61394598afdccb244fa469335 xfs/122: update for vectored scrub
+346a308c4e35c61ef8f2a2d8cb173bdcda72efd2 xfs: test output of new FSREFCOUNTS ioctl
+c3284d13c671272211c6f2464e658156d329a981 xfs: test clearing of free space
+33364f4c7b67b53d042369a3d8905e0067ab0dad xfs/122: update for parent pointers
+6dbcb0ffd561be2fbf749438132c99129fa8283b populate: create hardlinks for parent pointers
+b8741313c541f98592424508dc6e6b221b15ecfc xfs/021: adapt golden output files for parent pointers
+d32b334245c9fdd814059833ffc46fb795f42bdb generic/050: adapt for parent pointers
+260e43317d4e413caa04d8fe245274daab59db07 xfs/018: disable parent pointers for this test
+ce25ef5ca039ee560b599e358b715448088e1a09 xfs/306: fix formatting failures with parent pointers
+c6007175b9ead4588e7260445f94baa6f7c76c97 common: add helpers for parent pointer tests
+a781cfd1f3ca1d6fb2253707505d0d6982b65784 xfs: add parent pointer test
+03f007bca20e8ad5d5fa5503e6f3c5a588133ad2 xfs: add multi link parent pointer test
+5da830b6e2e71c50e9da4621797547f13d0ca8fa xfs: add parent pointer inject test
+c7a778d36d06b811a988d4abce8f9f5cf97c9667 common/parent: add license and copyright
+3567763fd36d9d45ae87c0d048b41da56c5c836c common/parent: don't _fail on missing parent pointer components
+ce7b54532e127b16e41eb6e90391926fd2d61fb4 common/parent: check xfs_io parent command paths
+cb0ca7bd9490d02b474dc8a45060e32ef3173b8e xfs/851: test xfs_io parent -p too
+d93e13adaf6f16ad596b9f4c436b4dda69084954 misc: adjust for parent pointers with namehashes
+a3d2c0122507cd0e982a898368b379d81306809b xfs/021: adjust for short parent pointers with hashes
+9c1bbbe09792510ce29746cf03e37e134f6ef41d xfs/242: fix _filter_bmap for xfs_io bmap that does rt file properly
+dc24ccf06f9e396be613f120ce4f5f1f598529aa xfs/021: adjust for short valuelens
+6c0478d908e4e201170240b4d6e5b587e022e496 xfs/122: adjust for flex-array XFS_IOC_GETPARENTS ioctl
+d377a152fab26d2fcace8e954a0b56a86a4d9fa3 generic/476: reclassify this test as a long running soak stress test
+dcaa53cfb23d73d2476e6fb26bf9fd03db86da61 misc: add duration for long soak tests
+cba5b0163b485bcda4d6e66c9c10a58d798a8230 misc: add duration for recovery loop tests
+
+--===============5328713760726719305==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-558d203b7a5d-cad09311cd1d.txt
+
+a20990a0481571d5cb2d2294c9449ebb317a2b2f check: generate section reports between tests
+7e8a291e3bdf25bd57498131d86925bdc380837d report: derive an xml schema for the xunit report
+36c554feac175a5967ef70bab6904315c190484c report: capture the time zone in the test report timestamp
+f7367629f92fe4e90fd1f0764a919a841515a44f report: clarify the meaning of the timestamp attribute
+36c275a1500e88a7c09cc5108437dcbc40e6faeb report: record fstests start and report generation timestamps
+fc9f173562f94ffbeb432db5c0665c4e2ac49737 report: encode cdata sections correctly
+46e9c212bf8ba024f7d0eb1293e90f4df40a3fbe report: encode the kernel log as a separate xml element
+b9b05ccd3ff760be88ab3a9814113d7a519fc71f report: sort properties by name
+de57f6161f14ac071178f663d0634f210c1224e8 report: pass property value to _xunit_add_property
+6c65bb263b3304691eac93ff871ab7f0a5af29ad report: encode xml entities in property values
+57c3db4f694fe0b6bfaccd43efefbed965857fb9 report: collect basic information about a test run
+68b87376a7c82e114ab0af81414a2d102c0e5757 report: record optional environment variables
+b2f466196d7f510f9f51595423b8096ca1b84351 report: record xfs-specific information about a test run
+dcbe83cc7e5aa5e4c84492626e0ac1fa5b10bdff report: record ext*-specific information about a test run
+7e5db626c7e5f9adedff38e6fe2e4c3551e1007e report: allow test runners to inject arbitrary values
+4c0118d037c31479403f5890cfcd9b260bfa56eb xfs: test scaling of the mkfs concurrency options
+ec1ffd84a6a3cf87ca11ffeb3e34d13b60438074 xfs: online fuzz test known output
+f4ce31788d2a084db43c1af26f74b8dad0f01d1a xfs: offline fuzz test known output
+7df0d95f9957e231d90a47e3d147b0ed9113b244 xfs: norepair fuzz test known output
+422872dd54a6df272d47fb3c5e289ecc736391dd xfs: bothrepair fuzz test known output
+ce72ac0fca3b751516f5fddc5f0df3d72372a472 misc: privatize the FIEXCHANGE ioctl for now
+7e67f2a222f333adbb86fe105be3ae0b1c4b5577 misc: update xfs_io swapext usage
+d9cb58b671bcfce853e716f50c660a5e1ed88198 xfs: stress test cycling parent pointers with online repair
+25393397b78452f014b3c7fdee797ea23bb2269e xfs/004: fix column extraction code
+9e2feaeb8d07259790db23cf18b8a9eea5b682fd common: make helpers for ttyprintk usage
+e56c8eb1933658c280cb604595c1067980991f68 xfs: test upgrading old features
+c65e4803dab28d7dbb7ae1e96df2db7bdee07b4d xfs/122: fix metadirino
+5af7921255b08b9eb3eca99b2d6fd5d166267b98 various: fix finding metadata inode numbers when metadir is enabled
+df5a1a3d37996f57ec165f98e2e024cca8ebd857 xfs/{030,033,178}: forcibly disable metadata directory trees
+07f8c92951954d0f1cdb1e6ee3a495d2b2df59a6 common/repair: patch up repair sb inode value complaints
+c98190fca1519fb1d908d89ce1b988dbe9ea2e11 xfs/206: update for metadata directory support
+7918167f182ca8eebb738d37af161a91c5278e04 xfs/{050,144,153,299,330}: update quota reports to leave out metadir files
+96962db6498f5a049b2073d5b21bace04ecdb7cb xfs/856: add metadir upgrade to test matrix
+550cbdb4c9ffa8a03e62fdd995affd230cb0a5ac xfs/509: adjust inumbers accounting for metadata directories
+dfff28f84a609505f9d8c8aa1e92bacefd6b5918 xfs: create fuzz tests for metadata directories
+15486b67ae5468f6e5d52b52c51ee503eab73c67 xfs: baseline golden output for metadata directory fuzz tests
+cb27bb41e76f3438f0afbece822efb97a18a19e7 common/populate: refactor caching of metadumps to a helper
+34064dd2ef5a5e990192e617e57ce3efefcf12b4 common/xfs: wipe external logs during mdrestore operations
+c93188aac558742f4c681f46f31820abbf0a7a1e common/ext4: reformat external logs during mdrestore operations
+98c20a8ac153b402dc09f0779f5c287c2dca59b3 common/xfs: capture external logs during metadump/mdrestore
+8859356f1abd784ca884250e7470e76fac59e85c xfs/122: update for rtgroups
+38533bab4a6974820f7a29af5b937ae54727ccd9 punch-alternating: detect xfs realtime files with large allocation units
+2e01db287abdf75ae928b8e5d17ec931d38bc72c xfs/206: update mkfs filtering for rt groups feature
+46f6c37fa56657d76f225acd17746ed3e2a30a8f common: pass the realtime device to xfs_db when possible
+89b1d9514a1c61291791ec6fb8e55ec4d7ca31a2 common: filter rtgroups when we're disabling metadir
+bf5451f7e9a29d3608702a70a7983b15fc54962f xfs/185: update for rtgroups
+f2dbe68e794433fd04046f0318edcf00cb4011fa xfs/449: update test to know about xfs_db -R
+d1baa9ac941e78b5824c792a8db8ef64c27db73c xfs/122: update for rtbitmap headers
+bbf8cf6c39c8d12e8dff3d06aa58f6d601015d39 xfs/122: udpate test to pick up rtword/suminfo ondisk unions
+4a80848e05d8b1bd37ab79dcaf941c6ccdcb638b xfs/27[46],xfs/556: fix tests to deal with rtgroups output in bmap/fsmap commands
+a6b97e330d99bc7e0b7c5c7e5ddf8a1fb9955a84 common/xfs: capture realtime devices during metadump/mdrestore
+d93697f0a0643abc9b2375119ea5304939b4157a common/fuzzy: adapt the scrub stress tests to support rtgroups
+679da0364e365cdd2501f66bb38d9e38eb09db22 xfs: refactor statfs field extraction
+6e0f6eea8a263a1adbccf54891f23cc61c3a9275 generic/260: compute maximum fitrim offset
+83d98674b6853cd0dfdee2dabb650d2c8e7a5203 xfs: fix tests that try to access the realtime rmap inode
+70ad7bdfeffec5bb8fd365f25190aa2a20c8c501 fuzz: for fuzzing the rtrmapbt, find the path to the rt rmap btree file
+fcb090021e93b1132f5aaae5a80d64c4f1cb3083 xfs: race fsstress with realtime rmap btree scrub and repair
+3d936cad3d66eace6fbac42e7b2c8529617b849a xfs/856: add rtrmapbt upgrade to test matrix
+3c00d5b3d20cf39e0a238ba9169992240ccec7dc xfs/122: update for rtgroups-based realtime rmap btrees
+3caafd18d5d91bf44ec34039d22c57b309db204e xfs: fix various problems with fsmap detecting the data device
+c39a763f81dcdcb2dc4dc17f7c7584b4b195dff1 xfs/341: update test for rtgroup-based rmap
+3d44cc3140ae7ff1321f37b060ffd837ba491ad3 xfs/3{43,32}: adapt tests for rt extent size greater than 1
+8c0441ea60fedf6cb1c9a7c676f697bf148d4514 xfs: skip tests if formatting small filesystem fails
+8eaac144ae2ea0b27bed28d099779adcbee1beaa xfs/443: use file allocation unit, not dbsize
+48e9f8cfeba46487f54aaa2fc4bacaceaa3876ca populate: adjust rtrmap calculations for rtgroups
+9176932df4ec160bb96b9a7c6672649c59df7cb7 populate: check that we created a realtime rmap btree of the given height
+59dd66b4ffd465a52db5b448a23681c6cb40cb44 fuzzy: create missing fuzz tests for rt rmap btrees
+36e5920adbd02c85d574f1619220f6b77bf06828 fuzzy: create known output for rt rmap btree fuzz tests
+618c9d2a3f8a1169ddaba8247cd147c42252cd2a xfs/122: update fields for realtime reflink
+509a7e1845f12a3ddca1ab17729c8d93b0118d52 common/populate: create realtime refcount btree
+a51c5f7d871a7518088fea129281173eca5df003 xfs: create fuzz tests for the realtime refcount btree
+69a64500b0230917c45d668fee4d955e5309855f xfs/27[24]: adapt for checking files on the realtime volume
+d7af74c5bf36bf1fae0a5b7831a97d8e04c709fc xfs/243: don't run when realtime storage is the default
+db2aa8b154fa57ca0243529ffd8283787714be13 xfs: race fsstress with realtime refcount btree scrub and repair
+666bfd9ee3c227f74c71d110fdeed46b6babf248 xfs: remove xfs/131 now that we allow reflink on realtime volumes
+9ba7b3c4a9f146625396638ea659eec4eadd6a72 xfs/856: add rtreflink upgrade to test matrix
+03b8e9a80abe15af1f97f128389a6240660e6d40 generic/331,xfs/240: support files that skip delayed allocation
+6d0570ce372287949248561a40e7a32a1a1ced15 common/xfs: fix _xfs_get_file_block_size when rtinherit is set and no rt section
+88516c14fe833bebba2ce274ea489cce8e9f8e9c xfs: baseline golden output for rt refcount btree fuzz tests
+8f655607b0b1e74fc9d1b26a5b1301f499d44773 xfs: make sure that CoW will write around when rextsize > 1
+e0d8c4406f8c202ae9e2de8362b05d371d2d8e05 xfs: skip cowextsize hint fragmentation tests on realtime volumes
+ec024ffc5011655dc58176a4bf4c5d860383e913 misc: add more congruent oplen testing
+7d22511c41094896465ebfe66a79f0e20631f307 generic/303: avoid test failures on weird rt extent sizes
+c43deb86e7e2f0ecf1066f377a82f11c650f655a xfs: regression testing of quota on the realtime device
+c75bc4c866c71ea61394598afdccb244fa469335 xfs/122: update for vectored scrub
+346a308c4e35c61ef8f2a2d8cb173bdcda72efd2 xfs: test output of new FSREFCOUNTS ioctl
+c3284d13c671272211c6f2464e658156d329a981 xfs: test clearing of free space
+33364f4c7b67b53d042369a3d8905e0067ab0dad xfs/122: update for parent pointers
+6dbcb0ffd561be2fbf749438132c99129fa8283b populate: create hardlinks for parent pointers
+b8741313c541f98592424508dc6e6b221b15ecfc xfs/021: adapt golden output files for parent pointers
+d32b334245c9fdd814059833ffc46fb795f42bdb generic/050: adapt for parent pointers
+260e43317d4e413caa04d8fe245274daab59db07 xfs/018: disable parent pointers for this test
+ce25ef5ca039ee560b599e358b715448088e1a09 xfs/306: fix formatting failures with parent pointers
+c6007175b9ead4588e7260445f94baa6f7c76c97 common: add helpers for parent pointer tests
+a781cfd1f3ca1d6fb2253707505d0d6982b65784 xfs: add parent pointer test
+03f007bca20e8ad5d5fa5503e6f3c5a588133ad2 xfs: add multi link parent pointer test
+5da830b6e2e71c50e9da4621797547f13d0ca8fa xfs: add parent pointer inject test
+c7a778d36d06b811a988d4abce8f9f5cf97c9667 common/parent: add license and copyright
+3567763fd36d9d45ae87c0d048b41da56c5c836c common/parent: don't _fail on missing parent pointer components
+ce7b54532e127b16e41eb6e90391926fd2d61fb4 common/parent: check xfs_io parent command paths
+cb0ca7bd9490d02b474dc8a45060e32ef3173b8e xfs/851: test xfs_io parent -p too
+d93e13adaf6f16ad596b9f4c436b4dda69084954 misc: adjust for parent pointers with namehashes
+a3d2c0122507cd0e982a898368b379d81306809b xfs/021: adjust for short parent pointers with hashes
+9c1bbbe09792510ce29746cf03e37e134f6ef41d xfs/242: fix _filter_bmap for xfs_io bmap that does rt file properly
+dc24ccf06f9e396be613f120ce4f5f1f598529aa xfs/021: adjust for short valuelens
+6c0478d908e4e201170240b4d6e5b587e022e496 xfs/122: adjust for flex-array XFS_IOC_GETPARENTS ioctl
+d377a152fab26d2fcace8e954a0b56a86a4d9fa3 generic/476: reclassify this test as a long running soak stress test
+dcaa53cfb23d73d2476e6fb26bf9fd03db86da61 misc: add duration for long soak tests
+cba5b0163b485bcda4d6e66c9c10a58d798a8230 misc: add duration for recovery loop tests
+a9e0f2afa0797220e38d14656d93ade6941e8355 xfs/554: disable until merged
+86a022bf8628046e9b161b89236b48a04d7b880f generic: test swapping process pages in and out of a swapfile
+
+--===============5328713760726719305==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-7594b0bb9bd7-5451a5d1745e.txt
+
+a20990a0481571d5cb2d2294c9449ebb317a2b2f check: generate section reports between tests
+7e8a291e3bdf25bd57498131d86925bdc380837d report: derive an xml schema for the xunit report
+36c554feac175a5967ef70bab6904315c190484c report: capture the time zone in the test report timestamp
+f7367629f92fe4e90fd1f0764a919a841515a44f report: clarify the meaning of the timestamp attribute
+36c275a1500e88a7c09cc5108437dcbc40e6faeb report: record fstests start and report generation timestamps
+fc9f173562f94ffbeb432db5c0665c4e2ac49737 report: encode cdata sections correctly
+46e9c212bf8ba024f7d0eb1293e90f4df40a3fbe report: encode the kernel log as a separate xml element
+b9b05ccd3ff760be88ab3a9814113d7a519fc71f report: sort properties by name
+de57f6161f14ac071178f663d0634f210c1224e8 report: pass property value to _xunit_add_property
+6c65bb263b3304691eac93ff871ab7f0a5af29ad report: encode xml entities in property values
+57c3db4f694fe0b6bfaccd43efefbed965857fb9 report: collect basic information about a test run
+68b87376a7c82e114ab0af81414a2d102c0e5757 report: record optional environment variables
+b2f466196d7f510f9f51595423b8096ca1b84351 report: record xfs-specific information about a test run
+dcbe83cc7e5aa5e4c84492626e0ac1fa5b10bdff report: record ext*-specific information about a test run
+7e5db626c7e5f9adedff38e6fe2e4c3551e1007e report: allow test runners to inject arbitrary values
+4c0118d037c31479403f5890cfcd9b260bfa56eb xfs: test scaling of the mkfs concurrency options
+ec1ffd84a6a3cf87ca11ffeb3e34d13b60438074 xfs: online fuzz test known output
+f4ce31788d2a084db43c1af26f74b8dad0f01d1a xfs: offline fuzz test known output
+7df0d95f9957e231d90a47e3d147b0ed9113b244 xfs: norepair fuzz test known output
+422872dd54a6df272d47fb3c5e289ecc736391dd xfs: bothrepair fuzz test known output
+ce72ac0fca3b751516f5fddc5f0df3d72372a472 misc: privatize the FIEXCHANGE ioctl for now
+7e67f2a222f333adbb86fe105be3ae0b1c4b5577 misc: update xfs_io swapext usage
+d9cb58b671bcfce853e716f50c660a5e1ed88198 xfs: stress test cycling parent pointers with online repair
+25393397b78452f014b3c7fdee797ea23bb2269e xfs/004: fix column extraction code
+9e2feaeb8d07259790db23cf18b8a9eea5b682fd common: make helpers for ttyprintk usage
+e56c8eb1933658c280cb604595c1067980991f68 xfs: test upgrading old features
+
+--===============5328713760726719305==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-8fdf0b817c30-2790321be38c.txt
+
+a20990a0481571d5cb2d2294c9449ebb317a2b2f check: generate section reports between tests
+7e8a291e3bdf25bd57498131d86925bdc380837d report: derive an xml schema for the xunit report
+36c554feac175a5967ef70bab6904315c190484c report: capture the time zone in the test report timestamp
+f7367629f92fe4e90fd1f0764a919a841515a44f report: clarify the meaning of the timestamp attribute
+36c275a1500e88a7c09cc5108437dcbc40e6faeb report: record fstests start and report generation timestamps
+fc9f173562f94ffbeb432db5c0665c4e2ac49737 report: encode cdata sections correctly
+46e9c212bf8ba024f7d0eb1293e90f4df40a3fbe report: encode the kernel log as a separate xml element
+b9b05ccd3ff760be88ab3a9814113d7a519fc71f report: sort properties by name
+de57f6161f14ac071178f663d0634f210c1224e8 report: pass property value to _xunit_add_property
+6c65bb263b3304691eac93ff871ab7f0a5af29ad report: encode xml entities in property values
+57c3db4f694fe0b6bfaccd43efefbed965857fb9 report: collect basic information about a test run
+68b87376a7c82e114ab0af81414a2d102c0e5757 report: record optional environment variables
+b2f466196d7f510f9f51595423b8096ca1b84351 report: record xfs-specific information about a test run
+dcbe83cc7e5aa5e4c84492626e0ac1fa5b10bdff report: record ext*-specific information about a test run
+7e5db626c7e5f9adedff38e6fe2e4c3551e1007e report: allow test runners to inject arbitrary values
+4c0118d037c31479403f5890cfcd9b260bfa56eb xfs: test scaling of the mkfs concurrency options
+ec1ffd84a6a3cf87ca11ffeb3e34d13b60438074 xfs: online fuzz test known output
+f4ce31788d2a084db43c1af26f74b8dad0f01d1a xfs: offline fuzz test known output
+7df0d95f9957e231d90a47e3d147b0ed9113b244 xfs: norepair fuzz test known output
+422872dd54a6df272d47fb3c5e289ecc736391dd xfs: bothrepair fuzz test known output
+ce72ac0fca3b751516f5fddc5f0df3d72372a472 misc: privatize the FIEXCHANGE ioctl for now
+7e67f2a222f333adbb86fe105be3ae0b1c4b5577 misc: update xfs_io swapext usage
+d9cb58b671bcfce853e716f50c660a5e1ed88198 xfs: stress test cycling parent pointers with online repair
+25393397b78452f014b3c7fdee797ea23bb2269e xfs/004: fix column extraction code
+9e2feaeb8d07259790db23cf18b8a9eea5b682fd common: make helpers for ttyprintk usage
+e56c8eb1933658c280cb604595c1067980991f68 xfs: test upgrading old features
+c65e4803dab28d7dbb7ae1e96df2db7bdee07b4d xfs/122: fix metadirino
+5af7921255b08b9eb3eca99b2d6fd5d166267b98 various: fix finding metadata inode numbers when metadir is enabled
+df5a1a3d37996f57ec165f98e2e024cca8ebd857 xfs/{030,033,178}: forcibly disable metadata directory trees
+07f8c92951954d0f1cdb1e6ee3a495d2b2df59a6 common/repair: patch up repair sb inode value complaints
+c98190fca1519fb1d908d89ce1b988dbe9ea2e11 xfs/206: update for metadata directory support
+7918167f182ca8eebb738d37af161a91c5278e04 xfs/{050,144,153,299,330}: update quota reports to leave out metadir files
+96962db6498f5a049b2073d5b21bace04ecdb7cb xfs/856: add metadir upgrade to test matrix
+550cbdb4c9ffa8a03e62fdd995affd230cb0a5ac xfs/509: adjust inumbers accounting for metadata directories
+dfff28f84a609505f9d8c8aa1e92bacefd6b5918 xfs: create fuzz tests for metadata directories
+15486b67ae5468f6e5d52b52c51ee503eab73c67 xfs: baseline golden output for metadata directory fuzz tests
+cb27bb41e76f3438f0afbece822efb97a18a19e7 common/populate: refactor caching of metadumps to a helper
+34064dd2ef5a5e990192e617e57ce3efefcf12b4 common/xfs: wipe external logs during mdrestore operations
+c93188aac558742f4c681f46f31820abbf0a7a1e common/ext4: reformat external logs during mdrestore operations
+98c20a8ac153b402dc09f0779f5c287c2dca59b3 common/xfs: capture external logs during metadump/mdrestore
+8859356f1abd784ca884250e7470e76fac59e85c xfs/122: update for rtgroups
+38533bab4a6974820f7a29af5b937ae54727ccd9 punch-alternating: detect xfs realtime files with large allocation units
+2e01db287abdf75ae928b8e5d17ec931d38bc72c xfs/206: update mkfs filtering for rt groups feature
+46f6c37fa56657d76f225acd17746ed3e2a30a8f common: pass the realtime device to xfs_db when possible
+89b1d9514a1c61291791ec6fb8e55ec4d7ca31a2 common: filter rtgroups when we're disabling metadir
+bf5451f7e9a29d3608702a70a7983b15fc54962f xfs/185: update for rtgroups
+f2dbe68e794433fd04046f0318edcf00cb4011fa xfs/449: update test to know about xfs_db -R
+d1baa9ac941e78b5824c792a8db8ef64c27db73c xfs/122: update for rtbitmap headers
+bbf8cf6c39c8d12e8dff3d06aa58f6d601015d39 xfs/122: udpate test to pick up rtword/suminfo ondisk unions
+4a80848e05d8b1bd37ab79dcaf941c6ccdcb638b xfs/27[46],xfs/556: fix tests to deal with rtgroups output in bmap/fsmap commands
+a6b97e330d99bc7e0b7c5c7e5ddf8a1fb9955a84 common/xfs: capture realtime devices during metadump/mdrestore
+d93697f0a0643abc9b2375119ea5304939b4157a common/fuzzy: adapt the scrub stress tests to support rtgroups
+679da0364e365cdd2501f66bb38d9e38eb09db22 xfs: refactor statfs field extraction
+6e0f6eea8a263a1adbccf54891f23cc61c3a9275 generic/260: compute maximum fitrim offset
+83d98674b6853cd0dfdee2dabb650d2c8e7a5203 xfs: fix tests that try to access the realtime rmap inode
+70ad7bdfeffec5bb8fd365f25190aa2a20c8c501 fuzz: for fuzzing the rtrmapbt, find the path to the rt rmap btree file
+fcb090021e93b1132f5aaae5a80d64c4f1cb3083 xfs: race fsstress with realtime rmap btree scrub and repair
+3d936cad3d66eace6fbac42e7b2c8529617b849a xfs/856: add rtrmapbt upgrade to test matrix
+3c00d5b3d20cf39e0a238ba9169992240ccec7dc xfs/122: update for rtgroups-based realtime rmap btrees
+3caafd18d5d91bf44ec34039d22c57b309db204e xfs: fix various problems with fsmap detecting the data device
+c39a763f81dcdcb2dc4dc17f7c7584b4b195dff1 xfs/341: update test for rtgroup-based rmap
+3d44cc3140ae7ff1321f37b060ffd837ba491ad3 xfs/3{43,32}: adapt tests for rt extent size greater than 1
+8c0441ea60fedf6cb1c9a7c676f697bf148d4514 xfs: skip tests if formatting small filesystem fails
+8eaac144ae2ea0b27bed28d099779adcbee1beaa xfs/443: use file allocation unit, not dbsize
+48e9f8cfeba46487f54aaa2fc4bacaceaa3876ca populate: adjust rtrmap calculations for rtgroups
+9176932df4ec160bb96b9a7c6672649c59df7cb7 populate: check that we created a realtime rmap btree of the given height
+59dd66b4ffd465a52db5b448a23681c6cb40cb44 fuzzy: create missing fuzz tests for rt rmap btrees
+36e5920adbd02c85d574f1619220f6b77bf06828 fuzzy: create known output for rt rmap btree fuzz tests
+618c9d2a3f8a1169ddaba8247cd147c42252cd2a xfs/122: update fields for realtime reflink
+509a7e1845f12a3ddca1ab17729c8d93b0118d52 common/populate: create realtime refcount btree
+a51c5f7d871a7518088fea129281173eca5df003 xfs: create fuzz tests for the realtime refcount btree
+69a64500b0230917c45d668fee4d955e5309855f xfs/27[24]: adapt for checking files on the realtime volume
+d7af74c5bf36bf1fae0a5b7831a97d8e04c709fc xfs/243: don't run when realtime storage is the default
+db2aa8b154fa57ca0243529ffd8283787714be13 xfs: race fsstress with realtime refcount btree scrub and repair
+666bfd9ee3c227f74c71d110fdeed46b6babf248 xfs: remove xfs/131 now that we allow reflink on realtime volumes
+9ba7b3c4a9f146625396638ea659eec4eadd6a72 xfs/856: add rtreflink upgrade to test matrix
+03b8e9a80abe15af1f97f128389a6240660e6d40 generic/331,xfs/240: support files that skip delayed allocation
+6d0570ce372287949248561a40e7a32a1a1ced15 common/xfs: fix _xfs_get_file_block_size when rtinherit is set and no rt section
+88516c14fe833bebba2ce274ea489cce8e9f8e9c xfs: baseline golden output for rt refcount btree fuzz tests
+8f655607b0b1e74fc9d1b26a5b1301f499d44773 xfs: make sure that CoW will write around when rextsize > 1
+e0d8c4406f8c202ae9e2de8362b05d371d2d8e05 xfs: skip cowextsize hint fragmentation tests on realtime volumes
+ec024ffc5011655dc58176a4bf4c5d860383e913 misc: add more congruent oplen testing
+7d22511c41094896465ebfe66a79f0e20631f307 generic/303: avoid test failures on weird rt extent sizes
+c43deb86e7e2f0ecf1066f377a82f11c650f655a xfs: regression testing of quota on the realtime device
+c75bc4c866c71ea61394598afdccb244fa469335 xfs/122: update for vectored scrub
+
+--===============5328713760726719305==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-13888d95ade1-8a9ea21f4577.txt
+
+a20990a0481571d5cb2d2294c9449ebb317a2b2f check: generate section reports between tests
+7e8a291e3bdf25bd57498131d86925bdc380837d report: derive an xml schema for the xunit report
+36c554feac175a5967ef70bab6904315c190484c report: capture the time zone in the test report timestamp
+f7367629f92fe4e90fd1f0764a919a841515a44f report: clarify the meaning of the timestamp attribute
+36c275a1500e88a7c09cc5108437dcbc40e6faeb report: record fstests start and report generation timestamps
+fc9f173562f94ffbeb432db5c0665c4e2ac49737 report: encode cdata sections correctly
+46e9c212bf8ba024f7d0eb1293e90f4df40a3fbe report: encode the kernel log as a separate xml element
+b9b05ccd3ff760be88ab3a9814113d7a519fc71f report: sort properties by name
+de57f6161f14ac071178f663d0634f210c1224e8 report: pass property value to _xunit_add_property
+6c65bb263b3304691eac93ff871ab7f0a5af29ad report: encode xml entities in property values
+57c3db4f694fe0b6bfaccd43efefbed965857fb9 report: collect basic information about a test run
+68b87376a7c82e114ab0af81414a2d102c0e5757 report: record optional environment variables
+b2f466196d7f510f9f51595423b8096ca1b84351 report: record xfs-specific information about a test run
+dcbe83cc7e5aa5e4c84492626e0ac1fa5b10bdff report: record ext*-specific information about a test run
+7e5db626c7e5f9adedff38e6fe2e4c3551e1007e report: allow test runners to inject arbitrary values
+
+--===============5328713760726719305==--
