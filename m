@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============0044909567919351598=="
+Content-Type: multipart/mixed; boundary="===============3403183954366262826=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jfern/linux
-Date: Wed, 15 Mar 2023 18:32:27 -0000
-Message-Id: <167890514770.966.17407501846112577146@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
+Date: Wed, 15 Mar 2023 18:34:07 -0000
+Message-Id: <167890524755.1611.5696173414311568119@gitolite.kernel.org>
 
---===============0044909567919351598==
+--===============3403183954366262826==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jfern/linux
-user: jfern
+repo: pub/scm/linux/kernel/git/kdave/linux
+user: kdave
 changes:
-  - ref: refs/heads/rcu/staging
-    old: f5e671208eb811cc50837561b7fa0cfe9333cde0
-    new: 2c2b666ea8157356f51ea14ae1d5cc67aedf6ac4
-    log: revlist-f5e671208eb8-2c2b666ea815.txt
+  - ref: refs/heads/next-fixes
+    old: 01666867abd490c848c3180a134e81acb2e5bf8a
+    new: 3c7c11ea6a6e446f17c1278162d28d479f7580ec
+    log: revlist-01666867abd4-3c7c11ea6a6e.txt
 
---===============0044909567919351598==
+--===============3403183954366262826==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-f5e671208eb8-2c2b666ea815.txt
+Content-Disposition: attachment; filename=revlist-01666867abd4-3c7c11ea6a6e.txt
 
 7245e629dcaaf308f1868aeffa218e9849c77893 drm/cirrus: NULL-check pipe->plane.state->fb in cirrus_pipe_update()
 3638a820c5c3b52f327cebb174fd4274bee08aa7 drm/nouveau/kms/nv50: fix nv50_wndw_new_ prototype
@@ -66,7 +66,6 @@ dfd2f0eb2347dbdf391fd5b8255fefc58a745472 net/sched: flower: fix fl_change() erro
 2067e7a00aa604b94de31d64f29b8893b1696f26 selftests: nft_nat: ensuring the listening side is up before starting the client
 860e874290fb3be08e966c9c8ffc510c5b0f2bd8 netfilter: nft_last: copy content when cloning expression
 aabef97a35160461e9c576848ded737558d89055 netfilter: nft_quota: copy content when cloning expression
-fcd9531b305288dc2848d38567d466af4ee147b2 btrfs: sysfs: add size class stats
 49c47cc21b5b7a3d8deb18fc57b0aa2ab1286962 net: tls: fix possible race condition between do_tls_getsockopt_conf() and do_tls_setsockopt_conf()
 f3221361dc85d4de22586ce8441ec2c67b454f5d net: tls: avoid hanging tasks on the tx_lock
 044c8bf78db818b8c726eb47c560e05fbc71e128 Merge git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
@@ -129,12 +128,6 @@ cecb1f06541e12ec68805dbddb2013ee720dfe3d udf: Fix reading of in-ICB files
 32db18d606c9a6eac7ac8bb12b4bf0e2eb1d5d14 bpf, doc: Do not link to docs.kernel.org for kselftest link
 b7abcd9c656b982a99e18f795bb1cf81f84b656d bpf, doc: Link to submitting-patches.rst for general patch submission info
 7d0930647c020f75592adde8712d2cb002b29387 tools headers x86 cpufeatures: Sync with the kernel sources
-12148367d7235a015c7a3ab20bc189a34f63688e btrfs: fix potential dead lock in size class loading logic
-2943868a909f1d526da363dc077fd7b578643f4b btrfs: ioctl: return device fsid from DEV_INFO ioctl
-c06016a02a6e316d861f7dddd4b70419a47ded2f btrfs: handle btrfs_del_item errors in __btrfs_update_delayed_inode
-98e8d36a26c2ed22f78316df7d4bf33e554b9f9f btrfs: fix unnecessary increment of read error stat on write error
-95cd356ca23c3807b5f3503687161e216b1c520d btrfs: fix percent calculation for bg reclaim message
-e4cc1483f35940c9288c332dd275f6fad485f8d2 btrfs: fix extent map logging bit not cleared for split maps after dropping range
 80c16b2b121fbc3380dbffa9bab7559acbaaa2ed cpumask: Fix typo nr_cpumask_size --> nr_cpumask_bits
 294635a8165a31408a8b3a24f9c74849ca3d8701 bpf, test_run: fix &xdp_frame misplacement for LIVE_FRAMES
 66305069eb6d17d9190cbcd196f3f7487df47ae8 Merge tag 'drm-misc-fixes-2023-02-23' of git://anongit.freedesktop.org/drm/drm-misc into drm-fixes
@@ -202,7 +195,6 @@ e7b15acdc10f74872fdae1482b3f837818362085 mailmap: add entry for Maxim Mikityansk
 b1649b0fe98c2c7eed156c957f6f524d5660d859 mailmap: update entries for Stephen Hemminger
 37d9df224d1eec1b434fe9ffa40104c756478c29 ynl: re-license uniformly under GPL-2.0 OR BSD-3-Clause
 e33062213ff2f9151e0d125e1c00f524c2b7acfe docs: sysfs-block: document hidden sysfs entry
-675dfe1223a69e270b3d52cb0211c8a501455cec btrfs: fix block group item corruption after inserting new block group
 ffec85d53d0f39ee4680a2cf0795255e000e1feb ext4: fix cgroup writeback accounting with fs-layer encryption
 60db00e0a1490adcdc8b80887f7caf954d8bcd3e ext4: make kobj_type structures constant
 c9f62c8b2dbf7240536c0cc9a4529397bb8bf38e ext4: fix RENAME_WHITEOUT handling for inline directories
@@ -283,7 +275,6 @@ ae195ca1a8a4af75073e82c485148897c923f88f Merge tag 'for-6.3-rc1-tag' of git://gi
 388a810192fd383acce6933e7f272dd6a6802bb0 Merge tag 'erofs-for-6.3-rc2-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/xiang/erofs
 b0d14d2aaf7d4b36b44f5a09955ebdf9eef4b0f8 Merge tag 'drm-fixes-2023-03-10' of git://anongit.freedesktop.org/drm/drm
 55a21105ecc156495446d8ae75d7d73f66baed7b Merge tag 'riscv-for-linus-6.3-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
-547c495bed71d30385133d8ebcfc787349fcb11d locking/lockdep: Introduce lock_sync()
 a0aefd306ebb394ea72e04f53f64d76b05d5e39f Merge tag 'thermal-6.3-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 4831f76247bc939ed1b6d71ddd23337ec8b56b8e Merge tag 'pull-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
 d33d4c9e0888e9ee7666813b3f9ecc244a64d127 Merge tag 'pull-highmem' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
@@ -297,14 +288,6 @@ f57886ca1606ba74cc4ec4eb5cbf073934ffa559 ext4: make sure fs error flag setted be
 f5361da1e60d54ec81346aee8e3d8baf1be0b762 ext4: zero i_disksize when initializing the bootloader inode
 e25c54d17914b0df4f902d1f25cd52f54e20cfbf ubi: block: Fix missing blk_mq_end_request
 81ff855485a366a391dc3aed3942715e676ed132 Merge tag 'i2c-for-6.3-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
-808a9d675969382c855acc304c288dfa713d3f9e rcutorture: Add test_nmis module parameter
-7ff0b54491791bdb99659e73c9851ac398c81416 rcutorture: Set CONFIG_BOOTPARAM_HOTPLUG_CPU0 to offline CPU 0
-7c3a8b48dc5452ec639293fd7796402d02213f58 rcutorture: Make scenario TREE04 enable lazy call_rcu()
-236bdb881d9656194a2d9c78ee11dba39329a3b1 tools: rcu: Add usage function and check for argument
-995495846f7403cd871b22b03b40bd7e24be07a3 torture: Permit kvm-again.sh --duration to default to previous run
-fdcf87a3dfbe19361ff128806a218a28da7689ad rcutorture: Eliminate variable n_rcu_torture_boost_rterror
-877a0e83c57fa5e2a7fd628ec2e1733ed70c8792 torture: Enable clocksource watchdog with "tsc=watchdog"
-015d8863538249fc7a8f1d3ea9a9e10260adb4dd rcutorture: Create nocb kthreads only when testing rcu in CONFIG_RCU_NOCB_CPU=y kernels
 e7304080e0e50d979ce9eaf694ad8283e2e539ea cpumask: relax sanity checking constraints
 40d0c0901e6c19cf268d2f505bce0b50319c5653 Merge tag 'ext4_for_linus_stable' of git://git.kernel.org/pub/scm/linux/kernel/git/tytso/ext4
 3b11717f95b1880b9cab4b90bbaf61268e6bda2b Merge tag 'vfs.misc.v6.3-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/idmapping
@@ -312,46 +295,20 @@ f5eded1f5f117ed2151f605867ad7df1fd7d1bbe Merge tag 'kernel.fork.v6.3-rc2' of git
 d3d0cac69fc509ece28a267c093d2f1094f88dba Merge tag 'x86_urgent_for_v6.3_rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 134231664868e163580cfe79e8c923560d7de302 Merge tag 'staging-6.3-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/staging
 2e545d69bd43a97879309493864529194661bb43 Merge tag 'xfs-6.3-fixes-1' of git://git.kernel.org/pub/scm/fs/xfs/xfs-linux
-57e98b73317b764361a5a3ef3fef5b5ea8e6ca64 rcu: Annotate SRCU's update-side lockdep dependencies
-af19174d7ec0d09726a44029005e0ebeded7ea26 locking: Reduce the number of locks in ww_mutex stress tests
-74b1efee8d1b1a40ca1191a4895c60acad2b90c6 locking/lockdep: Improve the deadlock scenario print for sync and read lock
-a606adb2a099da368d43f15d4426a764b3c1bdab rcutorture: Add SRCU deadlock scenarios
-04b2806ddd1b1a3654077a2032dcea24757f5bd0 rcutorture: Add RCU Tasks Trace and SRCU deadlock scenarios
-24390de557735fd7ee9a7c4201fbb55a53d5be2a rcutorture: Add srcu_lockdep.sh
 80a6c216b16d7f5c584d2148c2e4345ea4eb06ce tpm/eventlog: Don't abort tpm_read_log on faulty ACPI address
 f1324bbc4011ed8aef3f4552210fc429bcd616da tpm: disable hwrng for fTPM on some AMD designs
 c4ecd87f75ec4d5ac3006ef21ce07e812982e46e Merge tag 'tpm-v6.3-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 79d1ed5ca7db67d48e870c979f0e0f6b0947944a wifi: cfg80211: Partial revert "wifi: cfg80211: Fix use after free for wext"
 eeac8ede17557680855031c6f305ece2378af326 Linux 6.3-rc2
-540b83dc0d80659fbde46af73873514521c0fae9 drbd: Rename kvfree_rcu() to kvfree_rcu_mightsleep()
-500d47c280c8f6c6dc9a00e2cc0b07d4dc71441a misc: vmw_vmci: Rename kvfree_rcu() to kvfree_rcu_mightsleep()
-0e6fcb90e719bd3edf1c4e9acd42c53a6927addd tracing: Rename kvfree_rcu() to kvfree_rcu_mightsleep()
-7a412cdce85d2fe93562a76428c119d9b86bdfd9 lib/test_vmalloc.c: Rename kvfree_rcu() to kvfree_rcu_mightsleep()
-8a20a37cb8d1e5afac61a7da97118899b9b6ce3a net/sysctl: Rename kvfree_rcu() to kvfree_rcu_mightsleep()
-325ce8a0e599892f6ae6d245c52f51f566b60014 net/mlx5: Rename kfree_rcu() to kfree_rcu_mightsleep()
-b6abcfe80f0ceeecaa798b636e2659ecbe33cfe2 ext4/super: Rename kfree_rcu() to kfree_rcu_mightsleep()
-f97ba0798dde2c6564625bdc73a2db51c5d639bb rcuscale: Rename kfree_rcu() to kfree_rcu_mightsleep()
-530db53380e285447584b4144e7a1cb1ac70cf3d torture: Enable clocksource watchdog with "tsc=watchdog"
-d97facf01f04d2bf380bed59d1c63915f2140371 rcutorture: Create nocb kthreads only when testing rcu in CONFIG_RCU_NOCB_CPU=y kernels
-fc2dcf3dd19b50d8b74b2fbb4a529064ce38bf89 rcu/kvfree: Eliminate k[v]free_rcu() single argument macro
-f3cb4f3fdedf526ccb57c6101f0372680cd1ab2f mac802154: Rename kfree_rcu() to kvfree_rcu_mightsleep()
-bd5b49391b62c82e9415b22b9366ee06ef5c09f0 RDMA/rxe: Rename kfree_rcu() to kvfree_rcu_mightsleep()
-a90bb1fd2c01b402be103007610fcaef00bcece7 checkpatch: Error out if deprecated RCU API used
-4db559fd517927bb511a3cfd2eba8aa136a11622 srcu: Add comments for srcu_size_state
-5f52054558449e762436dbcc7f4b74bcbb7025a1 Documentation/RCU: s/not/note/ in checklist.rst
-2ed272bfc4da62dd02a049e4599f9f6a27739504 srcu: Clarify comments on memory barrier "E"
-ac0e5f4871fd3be8155d4a9620fc57b2ba994ad5 Documentation: RCU: Correct spelling
-e6c1e0b3261e30d619965a9e7dc101b542a3fc01 doc: Update whatisRCU.rst
-e85cb6efd41728ebfe509e70a694ef418cba1e3c rcu: Add comment to rcu_do_batch() identifying rcuoc code path
-e6a1aee8edf9487db061a07e1fd53354937abf7d rcu: Fix set/clear TICK_DEP_BIT_RCU_EXP bitmask race
-6b69f3e27e95bed9fda49cdaeaa2e9063766b0d3 rcu: Fix missing TICK_DEP_MASK_RCU_EXP dependency check
-5050f1f583ae2850aa3d283182fe164cd8ef1168 entry/rcu: Check TIF_RESCHED _after_ delayed RCU wake-up
-5c8e751eec0d25a23bf5b59f98414b7965dc8616 rcu: Register rcu-lazy shrinker only for CONFIG_RCU_LAZY=y kernels
-47211dcd435f9de5580fd8a9ed37ded4f24f5914 rcu: Remove never-set needwake assignment from rcu_report_qs_rdp()
-6383723a24e9e9d08855db069e28a97855ba9d93 rcu: Permit start_poll_synchronize_rcu_expedited() to be invoked early
-20c88b623e2c9d7682366fa496c790bffb211ef9 rcu-tasks: Report stalls during synchronize_srcu() in rcu_tasks_postscan()
-d5ade0b852ba6bd3e964fdce0b7c08bb009d8f31 rcu: Avoid stack overflow due to __rcu_irq_enter_check_tick() being kprobe-ed
-ff4b8493bfe3a3dd1028e5129f7396090e8d3e09 rcu: Protect rcu_print_task_exp_stall() ->exp_tasks access
-2c2b666ea8157356f51ea14ae1d5cc67aedf6ac4 Merge branches 'rcu/staging-core', 'rcu/staging-docs' and 'rcu/staging-kfree', remote-tracking branches 'fbq/rcu/rcutorture.2023.03.11a' and 'fbq/rcu/lockdep.2023.03.12a' into rcu/staging
+1d93349fa5cc639755503c5e9f7a632adb771ea7 btrfs: add function to create and return an ordered extent
+ab22f914968e24c11bba4ddde96e3b9c4c3099b5 btrfs: fix dio continue after short write due to buffer page fault
+58260d71f539a273f428fc89de7e6d3ffbfd08a9 btrfs: handle missing chunk mapping more gracefully
+0f3b4dc8ff5b441aaa71dac3ac0f56cd847337d7 btrfs: fix compiler warning on SPARC/PA-RISC handling fscrypt_setup_filename
+222c0d14e56dd247915b7719114c9e0327b1710e btrfs: zoned: fix btrfs_can_activate_zone() to support DUP profile
+1bf2892c99f6ebdfcb470c5becf36d4d11246e29 btrfs: rename BTRFS_FS_NO_OVERCOMMIT to BTRFS_FS_ACTIVE_ZONE_TRACKING
+83ee8118f4b203bd80343159840a9a470a1c9a9b btrfs: use temporary variable for space_info in btrfs_update_block_group
+7055d26a12a01b6ee15e9636a78449bbc0b7773e btrfs: zoned: count fresh BG region as zone unusable
+93bf1c3432af86438aeb5e206cfa1ff46d2d66f2 btrfs: zoned: drop space_info->active_total_bytes
+3c7c11ea6a6e446f17c1278162d28d479f7580ec Merge branch 'misc-6.3' into next-fixes
 
---===============0044909567919351598==--
+--===============3403183954366262826==--
