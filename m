@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0958332236165126514=="
+Content-Type: multipart/mixed; boundary="===============0659385039140675652=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Wed, 15 Mar 2023 11:56:34 -0000
-Message-Id: <167888139470.28880.17176244586075756559@gitolite.kernel.org>
+Date: Wed, 15 Mar 2023 11:57:22 -0000
+Message-Id: <167888144212.29216.5429774700435658310@gitolite.kernel.org>
 
---===============0958332236165126514==
+--===============0659385039140675652==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,67 +17,67 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/linux-4.14.y
-    old: 4072b97ba27696f54bb12b4ba5f390360dca4e5a
-    new: 352f33d2503a41f09041eeb0c5177d8cef3b0f0a
-    log: revlist-4072b97ba276-352f33d2503a.txt
+    old: 352f33d2503a41f09041eeb0c5177d8cef3b0f0a
+    new: 1f84872fb75a51cf016c2c2e050b06bd99238e04
+    log: revlist-352f33d2503a-1f84872fb75a.txt
 
---===============0958332236165126514==
+--===============0659385039140675652==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1678881393 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1678881441 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1678881392-0c8f8b9c97ea01e1a65760e760a9ae2ee1669650
+nonce 1678881440-5ba5ce9dc83b57e278781b1c4d367edf7b3dca8a
 
-4072b97ba27696f54bb12b4ba5f390360dca4e5a 352f33d2503a41f09041eeb0c5177d8cef3b0f0a refs/heads/linux-4.14.y
+352f33d2503a41f09041eeb0c5177d8cef3b0f0a 1f84872fb75a51cf016c2c2e050b06bd99238e04 refs/heads/linux-4.14.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQRsnEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+QtQP/jW7jYDcztMCZ3P2JuKS
-XAc8pe+3OOiYB5hHlfNcvJstxu3h0TcUyZPI909JyYqDymNaCmIdH6eGtqHuSkbU
-j0dmp103aIhQO9VuARzGClh4DEjylinmVW/LcjYPUfhmL5rIhHe+Heq9ZLrHJZGV
-s9e/tGVnO3GESDlNoUsO5GB4mq9yiNorcWnF4e7nPEnYWXEZguGhAFbxIxAao7VD
-oGXCzh7Qk6/FHlUq4GFzM0MXw35Tcv8JCFdZA+pzas6gDd3Vg4/KRFIMLnT1NnyZ
-M0vKfOVdtFqlHVkchge9gbRFRe9nbV7Ilg9kjS72t/SAO3qZvbJpxnSBdZRxtz+v
-do1dN/Sm+CAvltGxDu4eXFBSlP25EVqGQW4uGdilNDhgvHab20EiI6sWWTGolqo5
-edhTgDGoG/XRsLWHDzhbTsHt/5rGcxs511tdrNiAnIUES2aUOnhY8AZL/r+I0GE+
-bGbWlGZDpL8XZl9J7iNx/fiCjxqhYIAHPk/X1pjjYO3/vxRpl6PAViJ/OJk44MUD
-ElSyaFKJRET3C5H4mq2wGWWEpptRR09D8pdc7Jit/1+V/OwRU1YKx+1qx19YLFbP
-jzcyeuD8xN57yM2YJPVqkgwdjhtrhngJ7LDKiO+8MAWxrsbyMlQH+kWaIKdQRcJ8
-Okik0KmECwyI/6dWg3ryajhY
-=cDh0
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQRsqEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+X5YP/0b3j6+VgwCAfM8QBk38
+AxpUPOOUSc0As5QJ0EpE9Llbn870jsfB3qKCW7a1ioOmogecRDPJth8x/vqAL0e1
+0qjH9RNGo2jmqv8J9t0i1XT0UwQBDUvWbuf87StuwBZJrvWeIHQOWcq5T50RqqxO
+AnNdgy2acf0qjG6DpyspeCCD70w0je5zCKUJe8tLOfQjqfWi6Pnc9ziFB55SR18C
+LjfDnn+jy9U7T9Nb+dGjHtRiOZKQjaeI94XQMlifHYFnzkt1BZOGcpBv40bHAkj7
+MJQMtpmzpKsQNIaRPhNCUR1Bt6nddQLRfxUMT3y2w6YonOFgjAjhsT8hHkyFrvku
+HlCUaudXulKmLPpidGHSGn54L8DUeaVmdxUqYeWC3VCv01/rbmjsexf7DE0yvxyy
+Rtd8sLOvuh4LLje65j4o+ug4Kw0mCIrdNC2ckU3xoFT2qSs51EU/ifpbIIqs/F9r
+vm9b3tA4MMhLOWjm3sKzpRPpzeEvLYhNyOyoXT+IxFipQD7xxoZBOP6yq+J+fbkL
+As1ukdGw2nC/i/XQYrYdZWWPsqREPlcaTl+oPZ0lem9oypNzvQNlALKx7rD9vJQs
+fiHuYI7Jz32/mey7TSQ5RNRpYkZn202K7qhC3/V1JJFu2s5i/f+RNfGtnDJ4yMdF
+hb82BuXIqzAHk6wSHde5fgJE
+=ObOq
 -----END PGP SIGNATURE-----
 
---===============0958332236165126514==
+--===============0659385039140675652==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4072b97ba276-352f33d2503a.txt
+Content-Disposition: attachment; filename=revlist-352f33d2503a-1f84872fb75a.txt
 
-e02e666fb55883ec782b50a3bc650ad60401f29b fs: prevent out-of-bounds array speculation when closing a file descriptor
-649a4f23996aa5c62d56fcc97882b15f468cac91 x86/CPU/AMD: Disable XSAVES on AMD family 0x17
-f5396a7ab3c950bc8ed919285d96e998e9a3bc3d ext4: fix RENAME_WHITEOUT handling for inline directories
-18b46d406620349fdf70e1b328dff9b9600fa57c ext4: fix another off-by-one fsmap error on 1k block filesystems
-bfe36c294674c008a5c41c899c4925a7c799c38a ext4: move where set the MAY_INLINE_DATA flag is set
-f7fdc14fcbc82e7fbfeed584981194391a0c3eee ext4: fix WARNING in ext4_update_inline_data
-d26ca246b1745549c0da04ad8f361a7eb497487e ext4: zero i_disksize when initializing the bootloader inode
-935c5477bd4a2182d54118e424731f86764fb49f nfc: change order inside nfc_se_io error path
-f94b38d2b76415ac3ce67214089a34c7344df1bd nfc: fdp: add null check of devm_kmalloc_array in fdp_nci_i2c_read_device_properties
-9ada8b2689845e64a25708c331417fe529424acf ila: do not generate empty messages in ila_xlat_nl_cmd_get_mapping()
-a3c2110af3e9662a053a8090fe4b3a0cd8e27966 net: caif: Fix use-after-free in cfusbl_device_notify()
-914618b83d9110d89d86c540d7ec86ff02c202c3 clk: qcom: mmcc-apq8084: remove spdm clocks
-8ba8bb7d417888df6b79943206ff87c6848c3ab4 MIPS: Fix a compilation issue
-5bc8a7a1b7c0d33194c768577108e38ae87e8fbf alpha: fix R_ALPHA_LITERAL reloc for large modules
-5925a1564995e18ffc1a16bd98d3e15b7f3ab161 macintosh: windfarm: Use unsigned type for 1-bit bitfields
-94f671196624a202d993c26e0818c7e4871842d8 PCI: Add SolidRun vendor ID
-57c6cdc6b54316f0d459b1fad2be7b4fed041658 PCI: Avoid FLR for SolidRun SNET DPU rev 1
-2ee2e1aaee9f78b7abf1c02d73e65ce8333416af media: ov5640: Fix analogue gain control
-23651df164f0976cb4e45266256fb2fa189c00a0 tipc: improve function tipc_wait_for_cond()
-da4a2f4e9ca51939eb7cf101ca1e86753ca2634b drm/i915: Don't use BAR mappings for ring buffers with LLC
-feeba072efcb66b4f12372e0bb70bba5c9fd8052 x86/cpu: Fix LFENCE serialization check in init_amd()
-352f33d2503a41f09041eeb0c5177d8cef3b0f0a Linux 4.14.310-rc1
+8cc25453b8a7d1d3edeb7364fc4df22cd5b3c17c fs: prevent out-of-bounds array speculation when closing a file descriptor
+d2559166d5da53db7692011ed1be643a9c3fcfee x86/CPU/AMD: Disable XSAVES on AMD family 0x17
+e6be09d2db9c6dfb8f49affbbff17a13bbd699c3 ext4: fix RENAME_WHITEOUT handling for inline directories
+51072d43d7a0f2d222e2241f26b2ad14af959e4f ext4: fix another off-by-one fsmap error on 1k block filesystems
+e61fccdd2b5e5d783aceb5bf3becc8b2b12ec226 ext4: move where set the MAY_INLINE_DATA flag is set
+f924f9c8be7d2be45bbd5881d0323939d5ae6342 ext4: fix WARNING in ext4_update_inline_data
+00c6f7496d0a67b256ce028e3cdfd9d67a3a8871 ext4: zero i_disksize when initializing the bootloader inode
+7be9b26563048f23714e05499df18c9f1aa8196b nfc: change order inside nfc_se_io error path
+f78d4e32b21dfe6c1e7a418d375818f48f73d9b2 nfc: fdp: add null check of devm_kmalloc_array in fdp_nci_i2c_read_device_properties
+40dee1a5ad1ce53f3c625f1ce359639a7797f0c0 ila: do not generate empty messages in ila_xlat_nl_cmd_get_mapping()
+8155bfe86e0af1f6144d0c9fee4f8343930a5d86 net: caif: Fix use-after-free in cfusbl_device_notify()
+ffb80472d8f38c567521c11c1791cd4ebce9b67c clk: qcom: mmcc-apq8084: remove spdm clocks
+9d65d5bf877246d3d9a1dbe9f7b17ba412fc0e5e MIPS: Fix a compilation issue
+93f5afd61251ef3b3622d94ec22ea35183b82421 alpha: fix R_ALPHA_LITERAL reloc for large modules
+5eaa87d1134f85134c5ec90302335b1967f667a4 macintosh: windfarm: Use unsigned type for 1-bit bitfields
+aa609ff758615f1f27952e7e5b3bb40b35439393 PCI: Add SolidRun vendor ID
+f6362122907dbee003924698259b590ff2576ccc PCI: Avoid FLR for SolidRun SNET DPU rev 1
+262f884e339782e0df9e412162783f174a705d6e media: ov5640: Fix analogue gain control
+c2c9d29897972f4286344d2eb8bb4a4e0267a6cc tipc: improve function tipc_wait_for_cond()
+46335f89148426ac6c3a688522cf7dfb0b8b7c8c drm/i915: Don't use BAR mappings for ring buffers with LLC
+6d0f1fb4d8db0f63096da3a9daed82f1b80ce8c1 x86/cpu: Fix LFENCE serialization check in init_amd()
+1f84872fb75a51cf016c2c2e050b06bd99238e04 Linux 4.14.310-rc1
 
---===============0958332236165126514==--
+--===============0659385039140675652==--
