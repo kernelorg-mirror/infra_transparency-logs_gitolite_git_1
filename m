@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7709354652714270863=="
+Content-Type: multipart/mixed; boundary="===============2578075754212520253=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Wed, 15 Mar 2023 16:18:42 -0000
-Message-Id: <167889712204.9592.14895007535041898115@gitolite.kernel.org>
+Date: Wed, 15 Mar 2023 16:19:39 -0000
+Message-Id: <167889717923.9948.15288668022824285946@gitolite.kernel.org>
 
---===============7709354652714270863==
+--===============2578075754212520253==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/main
     old: bcc858689db5f2e5a8d4d6e8bc5bb9736cd80626
     new: a02d83f9947d8f71904eda4de046630c3eb6802c
     log: revlist-bcc858689db5-a02d83f9947d.txt
 
---===============7709354652714270863==
+--===============2578075754212520253==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -57,4 +57,4 @@ f947568e258038d3c2f8f38a9a7dabaca36643ec net/smc: Introduce explicit check for v
 c4216a83078bc46f9e0475ff810a0a798572b0ec Merge branch 'net-smc-updates'
 a02d83f9947d8f71904eda4de046630c3eb6802c scm: fix MSG_CTRUNC setting condition for SO_PASSSEC
 
---===============7709354652714270863==--
+--===============2578075754212520253==--
