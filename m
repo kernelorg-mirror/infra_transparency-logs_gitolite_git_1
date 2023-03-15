@@ -1,27 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 15 Mar 2023 08:06:12 -0000
-Message-Id: <167886757268.17221.4832451960174538641@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============6098991315746333007=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Wed, 15 Mar 2023 08:07:27 -0000
+Message-Id: <167886764775.17708.5994644929980875929@gitolite.kernel.org>
+
+--===============6098991315746333007==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: davem
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 575942a2e2d311c7f5abe17f9958abab45604cbd
-    new: a52ed50a04de179cc866c18bdd1b9a2f59d6bdfc
+  - ref: refs/heads/master
+    old: ce6c7225c26ba11f3a55749665f43d26a694fcad
+    new: 0418b78e69390ef94c4f5ba7900d54ca68355d4d
     log: |
-         69444581d0022b8afced2c90c441b7b4d9b8eba9 net: dsa: microchip: add ksz_setup_tc_mode() function
-         c570f861fa059ea653599415a7c8cc1dfaf16763 net: dsa: microchip: add ETS Qdisc support for KSZ9477 series
-         c0a274151d3970ec7f3d07c8a1292733ed17d612 Merge branch 'dsa-microchip-tc-ets'
-         dc54e450a5dd0fd9147dc9fea0684293569d3609 net: stmmac: qcom: drop of_match_ptr for ID table
-         e6512465838bf634d147399c8c96612d3cb419b9 net: stmmac: generic: drop of_match_ptr for ID table
-         69df36d524dbb6f0692252c5f9d41bed9a064ff5 net: marvell: pxa168_eth: drop of_match_ptr for ID table
-         7f319fe4363c613f8b00b4bfab66c3659c38378b net: samsung: sxgbe: drop of_match_ptr for ID table
-         7e9aa8cad0844b85a6877cd072c95ac2844eb666 net: ni: drop of_match_ptr for ID table
-         a52ed50a04de179cc866c18bdd1b9a2f59d6bdfc nfc: trf7970a: mark OF related data as maybe unused
+         0418b78e69390ef94c4f5ba7900d54ca68355d4d 5.10-stable patches
          
+
+--===============6098991315746333007==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1678867646 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1678867646-0463b608c30dae0ebed8794796d156ae986279ec
+
+ce6c7225c26ba11f3a55749665f43d26a694fcad 0418b78e69390ef94c4f5ba7900d54ca68355d4d refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQRfL4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+5AwQAKGjmBUZ7iXsO0DTcVLh
+DSeMbCF+RZGzWMh96/MBNLb90d4EiGh+fwDlvolth6QEAJlB94efcdY6PZFfylOv
+Ke9cNd1d1wDUfOgDsDZTlVArGUklZyZnZVgyyjEc2o7/ir23BVkscTs3x5euQhOP
+uo6KV6f+et9moeW7lAfGBb/n0hK48KatTANkOAc1BCjlTusC9uJb2qxb2E/yC997
+TZnEAu7i1YBUPpkEMO7A/3IPGr0+tc8NsdkYnClyai5rI9/0bdyATYPbdcO2kq13
+EBn15rdFIzz8yls34TOX5vxAUvzJtaXakQJ6xU73JEfnybawlJPOw/opic+qyQOb
+j53hrKCnef561htot2DoNc7j6fkSBZhTVBjBfkEMX7HJn3Z7ddPSRI8l1Hx3/PyX
+6Gf9VmUoe59U7ckLLmUCAVLOhtWZdw1tDnU/AnQSRrHrMUt/qUUnL7Hwo+mdS8yU
+o/46cM6yoxZAXqLsAu/yvvrxrPHhV1wt4yq519HQ15/CdEFpZ4FKWR6Lm4v6YglB
+D6HZsjseLGYaqdJvLX23VQjTsuDGMR/hQbsbYuW7+2mSAnxS9QZnJWtnNdQ1/stq
+KB2uMLAUy+R0Z2Cpa2AveAAdh1m/OoVp/c7c1ANMPx51cXVlBEFaukrrHYZDWoxJ
+1+xghroqtWqAA2SrDtrqTHkM
+=JImD
+-----END PGP SIGNATURE-----
+
+--===============6098991315746333007==--
