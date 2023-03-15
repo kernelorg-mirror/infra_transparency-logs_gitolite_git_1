@@ -1,41 +1,57 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvalo/ath
-Date: Wed, 15 Mar 2023 10:31:05 -0000
-Message-Id: <167887626584.2491.14225508325973879905@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============3209551193431641436=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Wed, 15 Mar 2023 10:44:19 -0000
+Message-Id: <167887705981.9565.3483845678129638725@gitolite.kernel.org>
+
+--===============3209551193431641436==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvalo/ath
-user: kvalo
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/master-pending
-    old: 2eebd27660d8fe05dcd4a7e7d4c44fb72f613ea7
-    new: 71ea0f3761391f70bdef44032e899a940ca8293d
+  - ref: refs/heads/master
+    old: 60e1ea55b7a4d1106747e3e5211792b90d1f37d2
+    new: bc95558d8e360b3e4233eaceaa95481c83469c55
     log: |
-         f94d7a3a51070d185e9203b53a3d669e27931e3d wifi: ath9k: Remove Qwest/Actiontec 802AIN ID
-         f94557154d9fc77c392844523388edd4661a27a3 wifi: wcn36xx: add support for pronto-v3
-         488d9a484f96eee4f0e8e108aed42a057a1c7295 wifi: ath12k: Add missing unwind goto in ath12k_pci_probe()
-         3b1088a09ec9438523c251d8435e78988824bc0d wifi: ath11k: Replace fake flex-array with flexible-array member
-         5a78ac33e3cb8822da64dd1af196e83664b332b0 wifi: ath11k: fix deinitialization of firmware resources
-         123bbcb30f3db694f65f0f32b155457bacbe75a5 Merge branch 'ath-next'
-         bfada1a955c861daf15db86e6f293a84c0c8ab49 Merge remote-tracking branch 'mhi/mhi-next'
-         3df3715e556027e94246b2cb30986563362a65f4 Add localversion-wireless-testing-ath
-         1487628c051b1692f79675532c02027e044e76c0 wifi: ath12k: fix memory leak in ath12k_qmi_driver_event_work()
-         b8764b86afb8b8fb5ac61ecb1bc1b2759fb71f46 wifi: ath11k: fix BUFFER_DONE read on monitor ring rx  buffer
-         71ea0f3761391f70bdef44032e899a940ca8293d Merge branch 'pending' into master-pending
+         f6a9086997c1775817e4a36cd58fe22879a92b01 drop software-node-introduce-device_add_software_node.patch from 5.4 and 5.10
+         bc95558d8e360b3e4233eaceaa95481c83469c55 5.10-stable patches
          
-  - ref: refs/heads/pending
-    old: 7cc200147f2d39358157f036b0edab7905671912
-    new: b8764b86afb8b8fb5ac61ecb1bc1b2759fb71f46
-    log: |
-         f94d7a3a51070d185e9203b53a3d669e27931e3d wifi: ath9k: Remove Qwest/Actiontec 802AIN ID
-         f94557154d9fc77c392844523388edd4661a27a3 wifi: wcn36xx: add support for pronto-v3
-         488d9a484f96eee4f0e8e108aed42a057a1c7295 wifi: ath12k: Add missing unwind goto in ath12k_pci_probe()
-         3b1088a09ec9438523c251d8435e78988824bc0d wifi: ath11k: Replace fake flex-array with flexible-array member
-         5a78ac33e3cb8822da64dd1af196e83664b332b0 wifi: ath11k: fix deinitialization of firmware resources
-         1487628c051b1692f79675532c02027e044e76c0 wifi: ath12k: fix memory leak in ath12k_qmi_driver_event_work()
-         b8764b86afb8b8fb5ac61ecb1bc1b2759fb71f46 wifi: ath11k: fix BUFFER_DONE read on monitor ring rx  buffer
-         
+
+--===============3209551193431641436==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1678877058 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1678877058-616d1c8109facd030512bfbff024da65c86eb3b8
+
+60e1ea55b7a4d1106747e3e5211792b90d1f37d2 bc95558d8e360b3e4233eaceaa95481c83469c55 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQRoYIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+o9cQANfISwUG55sgHbCtHC5I
+rr/8uty26q28lt3jBhCgutM5fY+GqmxE01KpoXItaJcC9lrKQKjEPl5w8HvrXIGe
+zGBjtQT6QNDu8kOeZB0c7FNDMNnN64ccNGlLREkkytLKkyFeL7YNaZDVujpk1Yoa
+TXqLs0Aidw3IyNEM18iCxifhO49Is+W0X5s2E/0LTUP6ETl9XIyaG7/zxoDcgUDn
+p5nkw/vihS6s0uw3kAqDVyd6IiWMfi3CIJhkP77YPQPPzr2FWPFKK7Cfr2BwrBLx
+kSIdkAwohrU+xGx+gS/139uOio+f/Nl1AiWjjl4qsS3DKeVQwiUNUVujqgmUPlAC
+h+gKhl5qqm7a/t9ZJ/LdX90sxFO4xc9vBy7vdH/2awfSHqMTJfgjCB48ItjUkdDQ
+kiI8pMIFfq3nwCDtGTiXMWMhkadyCnk2Kw1nT9xewTWm0pQTzccPIO8aJzleXRD3
+gH7ad4iCBAbO+GKRtgMBu6fOiULJP8ltRFYUDEmowo9ezEtDwrJVEWs/jRGOZBnJ
+2m8KsqU6HxpOA8eFbD5MJUFU/AgjCaUWgmIzS6qsjijSo8xg53FwSY2kRAuwxBPh
+9rmirDn4U5lkNmXG8z0WqowRtiTXSJb/IsJpOz0Ei0GYBV90WaTzTqoKxwbVMS96
+D6+NtEwSPGAMc51bnIRdLpwp
+=3xXs
+-----END PGP SIGNATURE-----
+
+--===============3209551193431641436==--
