@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1132869024559508191=="
+Content-Type: multipart/mixed; boundary="===============1222387057859164986=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Wed, 15 Mar 2023 09:05:51 -0000
-Message-Id: <167887115194.28815.15799423330996256531@gitolite.kernel.org>
+Date: Wed, 15 Mar 2023 09:06:01 -0000
+Message-Id: <167887116146.28937.844708009882203272@gitolite.kernel.org>
 
---===============1132869024559508191==
+--===============1222387057859164986==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,89 +16,127 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.19.y
-    old: c6894bbabcd564ef9f3f489a76dfe3ed45c37d58
-    new: cb91edfa52f0b1a9fca6342d158744cd1d673a57
-    log: revlist-c6894bbabcd5-cb91edfa52f0.txt
+  - ref: refs/heads/linux-5.4.y
+    old: 8c42a6615eb2fcd47df1a5699204fd805d56ad12
+    new: 1ae1d193c86d47dddc1fbcb3b1e1e32da8cd4d69
+    log: revlist-8c42a6615eb2-1ae1d193c86d.txt
 
---===============1132869024559508191==
+--===============1222387057859164986==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1678871150 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1678871158 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1678871149-6ee9b204068b0bfd2d9d1ab9b4b0929af815c697
+nonce 1678871158-6144b9d90fddd9befe0f620b543494032a2a5f33
 
-c6894bbabcd564ef9f3f489a76dfe3ed45c37d58 cb91edfa52f0b1a9fca6342d158744cd1d673a57 refs/heads/linux-4.19.y
+8c42a6615eb2fcd47df1a5699204fd805d56ad12 1ae1d193c86d47dddc1fbcb3b1e1e32da8cd4d69 refs/heads/linux-5.4.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQRim4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+37QP/iMeS467iEk2D31Vf5Rf
-lGKrr5y/gxrEsjJVnOwIoMx9jROIQmqIJsMxqpJECYVPjun8keWCljI4o83XHRHT
-DHJVrKrSt42woYtmZQBMEdWPsLJWdQL+ZhkExuoFBf9LIubaNXZRtUw3QQiH3Jb9
-x5OkU/nTKWzwT1X7kRhvqao6OtatR5+emyjq3pbWz3xh3wsr3ykl/mcL8vTHHIIT
-lyYMr+NAKU6II2prPsb6hamMDkJIv3IpmJDMi0786BKnWvF64/fAmy4uWCKWdZcJ
-wkA09cg058eCX9doK+5cGWzlb+CmjzqaErYxv1fY56rf3wAlsMeMc31p11GyL+fX
-FPaTG2aBndSxOOttQ5ul/iRcf1iitC475ruGCyntRj513PBafb/ULZd0kSbyCGNB
-FlBy+Qc5k7NL63whcehuE86McPDdHaSFvSxBPYHN0Ka9mJVjWHbT+rqACERqKvnV
-uF/dtUo86eCI3/8d14uolwIe3EDPRFXWr7fc/FpfhOmWqjHTah/NEuwmtTYW1ZmZ
-XCmlla/ybHS4kt2SkaNMnYDmkPPZLvgZBBX7NGnZvQlEFqc5l7LekpT0vdig+Lt7
-t1iEKDb+SEpX3doAnDOtU2Muk5d5mnjNuFvPQUWCMIrvDTn2TZZJvq2THOT+7sni
-gbPHv49z0/NlzkJ7pk39SCdP
-=rSL1
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQRinYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ALAQAJ8Rg6dWZcoUcFZw5rFO
+xmR4UplofpmFgBwZNL4T6H+N3CVXmcLWqBSLWro9A6tth6wZk1jHT31Trq+vnzWV
+j94D5zlEbQYYgCEykBr6WjlU9Blpx0MvN9mnZucnFaL/BmSgLNBlFe4Jb2PJWc1n
+0htEit3/+trZDU4U+e89KIgyp+4FTnux2ku2QlEOcSPbGQX96RDyK/827ZbAzHoh
+4N81xjY6lOKWIsbeTQW1VzzlzAc2/oGW/NCQcJjSBy8mylIdaj7Ok46LgkvV3vgh
+fm4rQGfqdaWjaBAVkq0om2NAi032+TdlDkb66ODjsDc4lC3C9C0h1HD2GwgA5PgH
+lttjED2aOJVQ22pk0g7EqiRDH7fVBYJmrCo4KTFDGwm+YGPLpmfL1g671bCk+5tc
+6lTus07pEa6KKPf+I+4acNQZQW/rHAetlqNBJFMjpJywydldOYiBYO04bU/3ne2r
+ornnnWqzQgk8TAgiRS6fB7bRMWUSJM0s6+WimHVxKogCAIzsqQQ4dwp5fPqdhUR7
+AiVxgnoxZ23nAVBYxhdq4EYsgzCR3Zhw207vU6tXXPBA/JcZvqrHTWx+yI3lqGLW
+MJLBb4cy55nKsgS1f/q3bE+zqsajCSdVFkMLHN3BhqOL0s+y/rN6QgUBF7J7K3KQ
+xfPjhKO57HUq6LDDzNHdQJB/
+=6vcb
 -----END PGP SIGNATURE-----
 
---===============1132869024559508191==
+--===============1222387057859164986==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c6894bbabcd5-cb91edfa52f0.txt
+Content-Disposition: attachment; filename=revlist-8c42a6615eb2-1ae1d193c86d.txt
 
-8548b7d2dd7d82f066f5b50e6a0b47566cd27b72 fs: prevent out-of-bounds array speculation when closing a file descriptor
-d73386b13eeb82a1578a0ab2b96132f3e9474592 x86/CPU/AMD: Disable XSAVES on AMD family 0x17
-f8bbab86322d3330dcb2ce063235204d0a74acc2 ext4: fix RENAME_WHITEOUT handling for inline directories
-3fadec684d16bcdbb5a961a585b9562f8bd97faf ext4: fix another off-by-one fsmap error on 1k block filesystems
-35ea1d3770031db712fca668d45510370a9598aa ext4: move where set the MAY_INLINE_DATA flag is set
-d1fe1c52fb7224502340ff4379bae9d8fde34b9e ext4: fix WARNING in ext4_update_inline_data
-e94441c39fd1387ae554b143542aa3e612eda532 ext4: zero i_disksize when initializing the bootloader inode
-6d49a0053a4bffb21fd7a630aaefac632c6e902d nfc: change order inside nfc_se_io error path
-761462ef34a89add88e78ca18109250acd1f12a0 udf: Explain handling of load_nls() failure
-a894599892a5b995a1eaac647ee9ca3f852ab7ce udf: reduce leakage of blocks related to named streams
-59e7701a3065dffcd0ee7daa5283be020c13fc1a udf: Remove pointless union in udf_inode_info
-3920e8906fc1aae8b40beca9c88d1d49cc0ab7a0 udf: Preserve link count of system files
-5f77207bba610579a8793d6dd034a6b8b8d6cd51 udf: Detect system inodes linked into directory hierarchy
-2dde27b5769e74da19b690c1d258cd26f75d0a0b riscv: Using PATCHABLE_FUNCTION_ENTRY instead of MCOUNT
-895346203aba3c280c16f8e89ec2190e8f61ed17 ARM: dts: exynos: Fix language typo and indentation
-fd537b63e9c0581524b0f31f4ac3e7826b66c0ac riscv: ftrace: Remove wasted nops for !RISCV_ISA_C
-94e7e16666d602f89bcb7703045ded8873a548d4 ARM: dts: exynos: Override thermal by label in Exynos4210
-bdabd2c97148cfdf6435117c11ea73171ebd21af riscv: ftrace: Reduce the detour code size to half
-78804fd9fea9cccc461d24d2f96e9a61add0a4e0 ARM: dts: exynos: correct TMU phandle in Exynos4210
-b205ec8ba6452940be6bc774fe51d326429c697d ARM: dts: exynos: Add all CPUs in cooling maps
-8d056037e5eea414b4d8f0296d8460a1f080e402 ARM: dts: exynos: Move pmu and timer nodes out of soc
-e2f30194b83fc187436d20dfba0d3dd0b384d447 ARM: dts: exynos: Override thermal by label in Exynos5250
-507c7b068e8d69f451092432cfcf7df6c17bd205 ARM: dts: exynos: correct TMU phandle in Exynos5250
-32fc0dfe271c284c45ed6de56030193ff0a23958 kbuild: fix false-positive need-builtin calculation
-0c7d427c7d6e37526bc19b67466fd254652d120d kbuild: generate modules.order only in directories visited by obj-y/m
-de809bdf6e5e4407a4fba0bf7afe7950be796200 ARM: dts: exynos: Add GPU thermal zone cooling maps for Odroid XU3/XU4/HC1
-75a731eb30a32090f2d20825afeccb5714c7a757 ARM: dts: exynos: correct TMU phandle in Odroid HC1
-ce7c38e8d3d7d613a15ecf1a7268bd2ee521b15d ARM: dts: exynos: correct TMU phandle in Odroid XU3 family
-4ee3b7cae0c4b8cf4e01571f9716ca496286a4f3 scsi: core: Remove the /proc/scsi/${proc_name} directory earlier
-71e6e08b2dab14f743c1d65a9d465d9132a5b2e6 Revert "spi: mt7621: Fix an error message in mt7621_spi_probe()"
-732b65ea3ff2b52f527fc31444ba25780ebbbaad clk: qcom: mmcc-apq8084: remove spdm clocks
-240069a905ff8ae98e0e75e0d7f719eb92e3e3aa MIPS: Fix a compilation issue
-0d0c9755f9556f01b6bb20b2ff7093330f90aba3 alpha: fix R_ALPHA_LITERAL reloc for large modules
-0e7045fdc7b553a4fbdffb1089390ebca03afb7e macintosh: windfarm: Use unsigned type for 1-bit bitfields
-97508205294239a445286d6e7c830a2a78adc7e3 PCI: Add SolidRun vendor ID
-91dd211580030ed5e3bca5afcb1abc916309a216 PCI: Avoid FLR for SolidRun SNET DPU rev 1
-28c70a1dd57d0516fe755c3dc1bd4290e116a0b2 media: ov5640: Fix analogue gain control
-4ca306c8cb4fef3264f36fcaee39b8ba4023e88f tipc: improve function tipc_wait_for_cond()
-6fe5c4a55f3b45fc1fe0e531083cbb8c8ff87b1e drm/i915: Don't use BAR mappings for ring buffers with LLC
-85219818af4bd3666dcce3c920e81793635163fc cgroup/cpuset: Change cpuset_rwsem and hotplug lock order
-b37fb75964cc116d7c3a776df22fbe90724503b8 cgroup: Fix threadgroup_rwsem <-> cpus_read_lock() deadlock
-7161c7697c1405252087729feee4b8d6bee42e7f cgroup: Add missing cpus_read_lock() to cgroup_attach_task_all()
-cb91edfa52f0b1a9fca6342d158744cd1d673a57 Linux 4.19.278-rc1
+12df849242b9f7ac7a4c1ef041c764ddf39e26cd fs: prevent out-of-bounds array speculation when closing a file descriptor
+b234b96d44dc2856d053d254c5cfe2fea4748394 x86/CPU/AMD: Disable XSAVES on AMD family 0x17
+c148e676ee489970d4bf69d1d7736a7a0223fb32 drm/connector: print max_requested_bpc in state debugfs
+61d2e81ff63d9cf6174233357bba5ebf19638c98 ext4: fix RENAME_WHITEOUT handling for inline directories
+e60632ac69f4c16df1817f999d175bc4a9541fd7 ext4: fix another off-by-one fsmap error on 1k block filesystems
+0e4352d0bb243606adc7db7517da68003f698e07 ext4: move where set the MAY_INLINE_DATA flag is set
+a4b660dede87686f15a914cb354ac118480e9c40 ext4: fix WARNING in ext4_update_inline_data
+abb72942430ce4f458d7f78ece816e8daaa1a3f3 ext4: zero i_disksize when initializing the bootloader inode
+cf2dd6ac243d1f3f323d2aac97ae55fd828b803b nfc: change order inside nfc_se_io error path
+66af3e4d2383cef51b4c1f4e3cf9bb4aba2b63e5 drm/edid: Extract drm_mode_cea_vic()
+edbc0f1c2c69ddfe84fb01de35c80a8d0042210e drm/edid: Fix HDMI VIC handling
+76553db1b37b820fe23658919c7863ef0f37bdc7 drm/edid: Add aspect ratios to HDMI 4K modes
+993682f6951d29e4991ee54866960fe2f3f825fb drm/edid: fix AVI infoframe aspect ratio handling
+a8942887b381b3119e20721c94f36b5e2462eeb6 iommu/amd: Add PCI segment support for ivrs_[ioapic/hpet/acpihid] commands
+2703d10d6381f4802eb8d2862aa689f9364cbba5 iommu/amd: Fix ill-formed ivrs_ioapic, ivrs_hpet and ivrs_acpihid options
+6341f6c718d9cb5dc7c4ec9883c52f8cb711a605 iommu/amd: Add a length limitation for the ivrs_acpihid command-line parameter
+0b888982b5cb90a64e321a8bf0fd8ff0bb6da0d9 ipmi:ssif: make ssif_i2c_send() void
+b886ec89e3bfdd36f6848980c553f9ee785f103e ipmi:ssif: resend_msg() cannot fail
+60f853aa65234fdf3c2e8fe6ded7699bbbe66dc7 ipmi:ssif: Remove rtc_us_timer
+ed0fafe2ce145ffba932762a7178e84e78aadfc0 ipmi:ssif: Increase the message retry time
+aa1be545798836daed913e238cc685373a8b182e ipmi:ssif: Add a timer between request retries
+261a1fff7066afa7c06380cbd2bb766a009d4be5 irqdomain: Change the type of 'size' in __irq_domain_add() to be consistent
+4a4f2f6cdfca33f84792e016bcdca373bc79b487 irqdomain: Fix domain registration race
+aa20fd316c6a2cabf7baf307f4202da0a6336f95 software node: Introduce device_add_software_node()
+20f528632c881106926819d837aab596b35fc83f usb: dwc3: pci: Register a software node for the dwc3 platform device
+f042bdc06dce8e60e915725d29e90acc55bb258a usb: dwc3: pci: ID for Tiger Lake CPU
+c4962727f6b15826643cca0f80b2d33d275b9468 usb: dwc3: pci: add support for the Intel Raptor Lake-S
+ca513f98627104dcd3a1df4d80930274adda2bd4 usb: dwc3: pci: add support for the Intel Meteor Lake-P
+1dafd4cd5b88572decd55d54a3ba9d160a684718 usb: dwc3: pci: add support for the Intel Meteor Lake-M
+7ffb00e76911bb290e389bc89828db31f82c7ddc riscv: Using PATCHABLE_FUNCTION_ENTRY instead of MCOUNT
+c6e73562faf6bb7090e22927200229b63bcbf2a6 riscv: ftrace: Remove wasted nops for !RISCV_ISA_C
+060166b7e822d8325fc3bf947ebb757152277d98 iommu/vt-d: Fix PASID directory pointer coherency
+5a090dfa93e397b7b7154edd92c13dcfe115cf34 ARM: dts: exynos: Override thermal by label in Exynos4210
+fda1931df9c3fa21c2ef14ce0442ce00ef1143c9 ARM: dts: exynos: correct TMU phandle in Exynos4210
+7afaebb831c1b500ad91e74cd1412d0adce95309 ARM: dts: exynos: Override thermal by label in Exynos5250
+a85a8f873cf99e7a60457128e428ac7c2ffde939 ARM: dts: exynos: correct TMU phandle in Exynos5250
+6a9d1ef6598b650ff49b501730d14e77c32404b1 ARM: dts: exynos: Add GPU thermal zone cooling maps for Odroid XU3/XU4/HC1
+dbd32ee8769e550d07c384626c4e2838014608e7 ARM: dts: exynos: correct TMU phandle in Odroid HC1
+9f2d3f6f143460a7679f31a318b88e1f4bba9a3d ARM: dts: exynos: correct TMU phandle in Odroid XU3 family
+f32bb260b4bca06f4ca7ea4e9210f5f1b9f47d6c SMB3: Backup intent flag missing from some more ops
+ea7e2f8a475b7023ec6733cb3d80ef967433ed1c cifs: Fix uninitialized memory read in smb3_qfs_tcon()
+b917f037a9e5a5691e850c6054b4806ca20cb553 riscv: abstract out CSR names for supervisor vs machine mode
+f9e6769fa5c1ab75cc9533503d46a29d02734502 RISC-V: Avoid dereferening NULL regs in die()
+07b07d09d0dcbdd70006befd96c3cdde0424c81e riscv: Avoid enabling interrupts in die()
+b3358f13f1c350c86e6f6ea6a5137abaa20f7310 scsi: core: Remove the /proc/scsi/${proc_name} directory earlier
+a91aa128d8b4aaceb87db9b14df1dd880dba0c8a ext4: Fix possible corruption when moving a directory
+782a6b9c204ca300daa5c4545e65f38bc0c5ad47 drm/msm/a5xx: fix setting of the CP_PREEMPT_ENABLE_LOCAL register
+22876984a82b2f75de8d8b9be96925d0973e0076 nfc: fdp: add null check of devm_kmalloc_array in fdp_nci_i2c_read_device_properties
+1c78962746e91f4c07fb40fcb4386fc4c0bc8723 ila: do not generate empty messages in ila_xlat_nl_cmd_get_mapping()
+2ad20b46c5d7e2939987aee0bc659e8aa5d5d7dc selftests: nft_nat: ensuring the listening side is up before starting the client
+e747e91c651ae009f193e10bf1d9d2c721495c64 net: usb: lan78xx: Remove lots of set but unused 'ret' variables
+adc1d4d9cbd04b240aa7a19c68d31920e5442a20 net: lan78xx: fix accessing the LAN7800's internal phy specific registers from the MAC driver
+a70ec26fa96f5f8eaffc4bcc17670155194d0742 net: caif: Fix use-after-free in cfusbl_device_notify()
+981bd7a7075dc51e393429cee163bdb125d4e46c bnxt_en: Avoid order-5 memory allocation for TPA data
+da3b593f6074dd40232a1e67e91acb2fe4020040 netfilter: tproxy: fix deadlock due to missing BH disable
+12296ff740fb8f5396b6e33caa3103e76714ab0f btf: fix resolving BTF_KIND_VAR after ARRAY, STRUCT, UNION, PTR
+89444a5683d8cd03e4687e76041505643b4b5149 scsi: megaraid_sas: Update max supported LD IDs to 240
+43a03df562f5a3ab96a9398159a9ace6b7d9af75 net/smc: fix fallback failed while sendmsg with fastopen
+37fda408d91536298f84ce51dc33deb9d7517af5 riscv: Use READ_ONCE_NOCHECK in imprecise unwinding stack mode
+4a559a1c0cf5f5142474a0329db37ac135652be8 ext4: Fix deadlock during directory rename
+811141475c037075afaaddf537921ba22f67b453 clk: qcom: mmcc-apq8084: remove spdm clocks
+2efc2e180ef0d1efe1a71daf236d24527aebb001 MIPS: Fix a compilation issue
+eb816593f532812f82be3c15527a112c8fd5e6b6 powerpc: Check !irq instead of irq == NO_IRQ and remove NO_IRQ
+8a49de212c9c942a2aa66426ba09036d6ac46c1b alpha: fix R_ALPHA_LITERAL reloc for large modules
+2e5208d5a17ee5f85e81b1b3897140ca0bfb7f19 macintosh: windfarm: Use unsigned type for 1-bit bitfields
+f265cad27f9dcb0683112dbc8444692efae1a111 PCI: Add SolidRun vendor ID
+c96f349e024cf57f2f615770b35713c93ab94336 PCI: Avoid FLR for SolidRun SNET DPU rev 1
+77ade6cc87f55fe997f303cf23643b2243ac97c9 media: ov5640: Fix analogue gain control
+cacd30a261cebf35a16d19c3c62662683601ab3b ipmi/watchdog: replace atomic_add() and atomic_sub()
+1ee4cd89fdbbf0abf36ba93734ab03489f32b355 ipmi:watchdog: Set panic count to proper value on a panic
+39842d355d8818c43cca9fb6dc50e20f9e1abc1f drm/i915: Don't use BAR mappings for ring buffers with LLC
+d933991ec9ebba89bcb516c24925580232f1e4a3 x86, vmlinux.lds: Add RUNTIME_DISCARD_EXIT to generic DISCARDS
+d11358046a9a07b6d2898c71ba60af319caa583f arch: fix broken BuildID for arm64 and riscv
+3e3f47fcf1512405d806dcbe728dd1d92f922808 powerpc/vmlinux.lds: Define RUNTIME_DISCARD_EXIT
+962e9fac0f57627d403363531a25962a8dc73bf2 powerpc/vmlinux.lds: Don't discard .rela* for relocatable builds
+68c33de71206a828e106202cc05a0ab65dfe7cb5 s390: define RUNTIME_DISCARD_EXIT to fix link error with GNU ld < 2.36
+13f4ee3753653a83021d98bed8937e4680b544e2 sh: define RUNTIME_DISCARD_EXIT
+1b41b90b2488478f4d3c19a5fbfe2cc3e85c9448 UML: define RUNTIME_DISCARD_EXIT
+93c3b88c1813f9fbf60ef0283dbaab555c032c8b software node: Fix device_add_software_node()
+a9d20289d084ad26c3e871054045ec9a0e01e63a software node: Allow node addition to already existing device
+1ae1d193c86d47dddc1fbcb3b1e1e32da8cd4d69 Linux 5.4.237-rc1
 
---===============1132869024559508191==--
+--===============1222387057859164986==--
