@@ -1,53 +1,41 @@
-Content-Type: multipart/mixed; boundary="===============4773246217062206929=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netfilter/nf
-Date: Wed, 15 Mar 2023 10:30:50 -0000
-Message-Id: <167887625091.2348.8627196840535674616@gitolite.kernel.org>
-
---===============4773246217062206929==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/kvalo/ath
+Date: Wed, 15 Mar 2023 10:31:05 -0000
+Message-Id: <167887626584.2491.14225508325973879905@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netfilter/nf
-user: pablo
+repo: pub/scm/linux/kernel/git/kvalo/ath
+user: kvalo
 changes:
-  - ref: refs/heads/main
-    old: 064d70527aaab23ef46c2481df706451f6814106
-    new: 75014826d0826d175aa9e36cd8e118793263e3f4
-    log: revlist-064d70527aaa-75014826d082.txt
-
---===============4773246217062206929==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-064d70527aaa-75014826d082.txt
-
-131db499162274858bdbd7b5323a639da4aab86c bnxt_en: reset PHC frequency in free-running mode
-22a825c541d775c1dbe7b2402786025acad6727b net/smc: fix NULL sndbuf_desc in smc_cdc_tx_handler()
-1a9dc5610ef89d807acdcfbff93a558f341a44da qed/qed_dev: guard against a possible division by zero
-feb03fd11c5616f3a47e4714d2f9917d0f1a2edd net: dsa: mt7530: remove now incorrect comment regarding port 5
-0b086d76e7b011772b0ac214c6e5fd5816eff2df net: dsa: mt7530: set PLL frequency and trgmii only when trgmii is used
-512dd354718b98c60d4ff6017ff8c9f66c10d03f net: ipa: fix a surprising number of bad offsets
-28e8cabe80f3e6e3c98121576eda898eeb20f1b1 net: hsr: Don't log netdev_err message on unknown prp dst node
-248401cb2c4612d83eb0c352ee8103b78b8eb365 ice: avoid bonding causing auxiliary plug/unplug under RTNL lock
-4b397c06cb987935b1b097336532aa6b4210e091 net: tunnels: annotate lockless accesses to dev->needed_headroom
-c22c3bbf351e4ce905f082649cffa1ff893ea8c1 net: phy: smsc: bail out in lan87xx_read_status if genphy_read_status fails
-d9ba9934285514f1f95d96326a82398a22dc77f2 tcp: Fix bind() conflict check for dual-stack wildcard address.
-13715acf8ab5b32a6d7e42686fceeb66df114185 selftest: Add test for bind() conflicts.
-cf18d55e535b34fd4845e87e31e1c5609db6d0a3 Merge branch 'tcp-fix-bind-regression-for-dual-stack-wildcard-address'
-5000fe6c27827a61d8250a7e4a1d26c3298ef4f6 nfc: st-nci: Fix use after free bug in ndlc_remove due to race condition
-5ce76fe1eead179c058d9151ee1f4088cfdc1c6b veth: rely on rtnl_dereference() instead of on rcu_dereference() in veth_set_xdp_features()
-35c356924fe3669dfbb1185607ce3b37f70bfa80 mlxsw: spectrum: Fix incorrect parsing depth after reload
-13085e1b5cab8ad802904d72e6a6dae85ae0cd20 net/smc: fix deadlock triggered by cancel_delayed_work_syn()
-9d876d3ef27fa84355597ad269939772192356d8 net/smc: Fix device de-init sequence
-fd6ad75f8c008925e279576dc749ad12aa3fb64b Merge branch 'net-smc-fixes'
-d8b228318935044dafe3a5bc07ee71a1f1424b8d net: usb: smsc75xx: Limit packet length to skb->len
-611e2dabb4b3243d176739fd6a5a34d007fa3f86 net: ethernet: mtk_eth_soc: reset PCS state
-6e933a804c7db8be64f367f33e63cd7dcc302ebb net: ethernet: mtk_eth_soc: only write values if needed
-75014826d0826d175aa9e36cd8e118793263e3f4 Merge branch 'mtk_eth_soc-SGMII-fixes'
-
---===============4773246217062206929==--
+  - ref: refs/heads/master-pending
+    old: 2eebd27660d8fe05dcd4a7e7d4c44fb72f613ea7
+    new: 71ea0f3761391f70bdef44032e899a940ca8293d
+    log: |
+         f94d7a3a51070d185e9203b53a3d669e27931e3d wifi: ath9k: Remove Qwest/Actiontec 802AIN ID
+         f94557154d9fc77c392844523388edd4661a27a3 wifi: wcn36xx: add support for pronto-v3
+         488d9a484f96eee4f0e8e108aed42a057a1c7295 wifi: ath12k: Add missing unwind goto in ath12k_pci_probe()
+         3b1088a09ec9438523c251d8435e78988824bc0d wifi: ath11k: Replace fake flex-array with flexible-array member
+         5a78ac33e3cb8822da64dd1af196e83664b332b0 wifi: ath11k: fix deinitialization of firmware resources
+         123bbcb30f3db694f65f0f32b155457bacbe75a5 Merge branch 'ath-next'
+         bfada1a955c861daf15db86e6f293a84c0c8ab49 Merge remote-tracking branch 'mhi/mhi-next'
+         3df3715e556027e94246b2cb30986563362a65f4 Add localversion-wireless-testing-ath
+         1487628c051b1692f79675532c02027e044e76c0 wifi: ath12k: fix memory leak in ath12k_qmi_driver_event_work()
+         b8764b86afb8b8fb5ac61ecb1bc1b2759fb71f46 wifi: ath11k: fix BUFFER_DONE read on monitor ring rx  buffer
+         71ea0f3761391f70bdef44032e899a940ca8293d Merge branch 'pending' into master-pending
+         
+  - ref: refs/heads/pending
+    old: 7cc200147f2d39358157f036b0edab7905671912
+    new: b8764b86afb8b8fb5ac61ecb1bc1b2759fb71f46
+    log: |
+         f94d7a3a51070d185e9203b53a3d669e27931e3d wifi: ath9k: Remove Qwest/Actiontec 802AIN ID
+         f94557154d9fc77c392844523388edd4661a27a3 wifi: wcn36xx: add support for pronto-v3
+         488d9a484f96eee4f0e8e108aed42a057a1c7295 wifi: ath12k: Add missing unwind goto in ath12k_pci_probe()
+         3b1088a09ec9438523c251d8435e78988824bc0d wifi: ath11k: Replace fake flex-array with flexible-array member
+         5a78ac33e3cb8822da64dd1af196e83664b332b0 wifi: ath11k: fix deinitialization of firmware resources
+         1487628c051b1692f79675532c02027e044e76c0 wifi: ath12k: fix memory leak in ath12k_qmi_driver_event_work()
+         b8764b86afb8b8fb5ac61ecb1bc1b2759fb71f46 wifi: ath11k: fix BUFFER_DONE read on monitor ring rx  buffer
+         
