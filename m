@@ -1,26 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Thu, 16 Mar 2023 22:11:50 -0000
-Message-Id: <167900471001.31333.17940279265362283002@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/efi/efi
+Date: Thu, 16 Mar 2023 22:31:09 -0000
+Message-Id: <167900586941.12494.1366127953726331510@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/efi/efi
+user: ardb
 changes:
-  - ref: refs/heads/master
-    old: 0ddc84d2dd43e2c2c3f634baa05ea10abd31197e
-    new: 38e04b3e4240a6d8fb43129ebad41608db64bc6f
+  - ref: refs/heads/urgent
+    old: 261b4ba2d70ca2c560b8648ce21e0d4de5e62d4a
+    new: 03870ad6e047a922e761c07902e41b4ce43e744d
     log: |
-         d0dc41119905f740e8d5594adce277f7c0de8c92 cifs: Move the in_send statistic to __smb_send_rqst()
-         211baef0eabf4169ce4f73ebd917749d1a7edd74 cifs: Fix smb2_set_path_size()
-         05ce0448c3f36febd8db0ee0e9e16557f3ab5ee8 cifs: generate signkey for the channel that's reconnecting
-         b56bce502f55505a97e381d546ee881928183126 cifs: set DFS root session in cifs_get_smb_ses()
-         396935de145589c8bfe552fa03a5e38604071829 cifs: fix use-after-free bug in refresh_cache_worker()
-         f446a630802f154ef0087771683bd4f8e9d08384 cifs: return DFS root session id in DebugData
-         6284e46bdd47743a064fe6ac834a7ac05b1fd206 cifs: use DFS root session instead of tcon ses
-         38e04b3e4240a6d8fb43129ebad41608db64bc6f Merge tag '6.3-rc2-smb3-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
+         5a223eba53edf2a46c1ab1e790a142241af691aa efi: libstub: Use relocated version of kernel's struct screen_info
+         0c233bdd891b95e30e4542a4fa7b1da52a1a7bd5 efi/libstub: smbios: Use length member instead of record struct size
+         073f30ded0f225bee8be830d0a104806db599336 arm64: efi: Use SMBIOS processor version to key off Ampere quirk
+         03870ad6e047a922e761c07902e41b4ce43e744d efi/libstub: smbios: Drop unused 'recsize' parameter
          
