@@ -1,49 +1,60 @@
-Content-Type: multipart/mixed; boundary="===============6216724230480284520=="
+Content-Type: multipart/mixed; boundary="===============5542868015662575545=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/iwlwifi/iwlwifi-next
-Date: Thu, 16 Mar 2023 08:42:23 -0000
-Message-Id: <167895614397.21869.8413753910749349358@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
+Date: Thu, 16 Mar 2023 08:48:44 -0000
+Message-Id: <167895652411.26807.1328957727506680207@gitolite.kernel.org>
 
---===============6216724230480284520==
+--===============5542868015662575545==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/iwlwifi/iwlwifi-next
-user: ggreenman
+repo: pub/scm/linux/kernel/git/gregkh/staging
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/pending
-    old: 4eca8cbf7ba83c3291b5841905ce64584036b1ff
-    new: be2a8d6131b883f957d653da24acf89544ace8aa
-    log: revlist-4eca8cbf7ba8-be2a8d6131b8.txt
+  - ref: refs/heads/staging-testing
+    old: 56d098b7fff39aa91701f8612b131c174976f910
+    new: f20eed8bf6671de2e90b2f15cf6b616a72dd72cc
+    log: |
+         95a4919ab7328cb9442c0f8f1cfe5c3931f007f1 staging: wlan-ng: small cleanup in writeimage()
+         238f55be3eaf73b161739a4a61ddb3291a42b909 staging: wlan-ng: small cleanup in plugimage()
+         00b2c0918b1ff730b756ec4944f0ca68770d5b93 staging: rtl8192u: rtl8192_SetRFPowerState() is not used
+         73633855a6b682a8cc36f581e52a3cea63393b66 staging: rtl8192u: dm_shadow_init() is not used
+         f20eed8bf6671de2e90b2f15cf6b616a72dd72cc Staging: qlge: Fix indentation in conditional statement
+         
 
---===============6216724230480284520==
+--===============5542868015662575545==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4eca8cbf7ba8-be2a8d6131b8.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-ab6c5d70474db78e9fbda536bf4db0b299e3207e iwlwifi: mvm: vendor-cmd: Add support to configure TM/FTM protocols
-1675e90590b87df221a700cda4295abca5943723 iwlwifi: mvm: add support for timing measurement
-52978556869fdda05d8bd944dce72b80ceed8683 iwlwifi: mvm: add support for PTP HW clock (PHC)
-9fad112f0672ee7cf29f7f233eb95c44e9a7db95 iwlwifi: mvm: remove unnecessary 'not supported' print
-8a0bcb05cf4b7d87386e93d9646301800f0f3187 iwlwifi: mvm: make iwl_mvm_phc_get_crosstimestamp() static
-7f2abb23e2f3cd556768076724851c73424f73df iwlwifi: mvm: 0x100000000 is long
-6002600c0c0cb990a2bf1b663d4186b21b2f7100 iwlwifi: mvm: read synced time from firmware if supported
-446d6d941e5c6d1c8ca3b30b700da3fcdc56519e iwlwifi: mvm: report hardware timestamps in RX/TX status
-840d866b10a61373f6e0bf94f434afe8c9796112 iwlwifi: mvm: enable TX beacon protection
-a7c24cfd8f0a3cbf6a1a4fc923531fa033523303 iwlwifi: mvm: hold the mutex when calling iwl_mvm_get_sync_time()
-889fe6210383d3949844687428e92673cad66d91 iwlwifi: mvm: fix wrap around handling in PTP clock
-048b87452a7e3a23223548a0a3cc1f4362e5b46f iwlwifi: mvm: implement PHC clock adjustments
-e825b8cc9db3f26a4b8e2b7906cbfb63bbe63e4c iwlwifi: mvm: select ptp cross timestamp from multiple reads
-975d130db99245b5063c2a55ac5d787130d19f9d iwlwifi: mvm: add start_ap() and join_ibss() callbacks for MLD mode
-61475f8f45d0262755d43bf5c32c7eddf3d7f270 iwlwifi: mvm: add stop_ap() and leave_ibss() callbacks for MLD mode
-69854130415800a498e983337dc49a718f76222a iwlwifi: mvm: Don't send MAC CTXT cmd after deauthorization
-62a63416b148fe6932bbee0863054b8a552ba163 iwlwifi: mvm: refactor iwl_mvm_cfg_he_sta()
-bcef188a5e26331c6878458165fe2a1874724062 iwlwifi: mvm: refactor iwl_mvm_sta
-be2a8d6131b883f957d653da24acf89544ace8aa iwlwifi: mvm: refactor iwl_mvm_sta_send_to_fw()
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1678956520 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
+nonce 1678956520-21add9beb90cf4dfbe7dc494acb86bee9b99c0c9
 
---===============6216724230480284520==--
+56d098b7fff39aa91701f8612b131c174976f910 f20eed8bf6671de2e90b2f15cf6b616a72dd72cc refs/heads/staging-testing
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQS1+gbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+lb0P/RwzLsFOd4IYDtOuWct2
+DXI+JWbzdsCwsAIr3ASHVji6QNqLuuaiEh4AqQZlfCh4BH3cDtSHZAmD7tz05wja
+3AgmOTwKVA34+rBIueYhTPEGyBp6scS3nxV0IIHTC3Ththbthmpj7bTHB7ZArB9/
+oQeTPUr1raRFLZJzWTAhNal5RdYjeRBcwzwEr4wdxlov1XivWO2huSUH/CpaBtCe
+YWX9wrgdzhx9woccpH75gpzHnH4jWtcubEYtUmSEUj4dWDIDzLuDpEJ+5WFhdgCv
+OuIMuzmpPjdyEI/XZSAlwMc+PouWQPgXhHEsCXS6YBosav41sYHR9GJQqxN01QR8
+2VcXCSeNcTGUd/u6WhSKpReXNLEak0NtR74xwzPTa5amSgweGttCLt9iIsZkDUR/
++MzhTKBIlTyk5uiyPgvh5ZQgZ2KCq9NTWgqtWhzVPvb6JuDPXGw/ds8++nS6hCJh
+DSb8heMe0b1K8xSdNVdjx5Oz4ymG0/I+TPt1ztgaoj0P607heAy4xhDzrVaVsK02
+vpadYxpVv1P8XoVCK/VdnUsKVLJ84YwGlCP1f20caKYOZEDNOIe+BfvB99b5LBev
+9R+3KP1pj2g+XNS0BZE/N8u46Zi5EbUGCYXG6ECDB7hMhNG85WZLZWEksRThzrJp
+eTYCBYVvKW0FyQ0nBPSUM42f
+=J3Q8
+-----END PGP SIGNATURE-----
+
+--===============5542868015662575545==--
