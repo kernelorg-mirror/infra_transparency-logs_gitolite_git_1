@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Thu, 16 Mar 2023 17:34:38 -0000
-Message-Id: <167898807820.6413.11227125760352891387@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 16 Mar 2023 17:37:14 -0000
+Message-Id: <167898823469.8830.666405055549339416@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
-user: maz
+repo: pub/scm/linux/kernel/git/netdev/net
+user: davem
 changes:
-  - ref: refs/heads/kvm-arm64/plug-ptw-races
-    old: dc1e8afd2244599c225e48cbeb8f60ff1780f424
-    new: e9f63556cdb5f4cda8f111e6542190b4efeb8eb0
+  - ref: refs/heads/main
+    old: 1a200b51fa75100d24861511ccdb105321291b75
+    new: b830c9642386867863ac64295185f896ff2928ac
     log: |
-         2e811512a1c0f1f29291c97db255bdefd6cc4ce1 KVM: arm64: Disable interrupts while walking userspace PTs
-         e9f63556cdb5f4cda8f111e6542190b4efeb8eb0 KVM: arm64: Check for kvm_vma_mte_allowed in the critical section
+         b830c9642386867863ac64295185f896ff2928ac ice: xsk: disable txq irq before flushing hw
          
