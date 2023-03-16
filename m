@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 16 Mar 2023 17:37:14 -0000
-Message-Id: <167898823469.8830.666405055549339416@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
+Date: Thu, 16 Mar 2023 17:39:45 -0000
+Message-Id: <167898838599.9690.12109540128486415665@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: davem
+repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
+user: snitzer
 changes:
-  - ref: refs/heads/main
-    old: 1a200b51fa75100d24861511ccdb105321291b75
-    new: b830c9642386867863ac64295185f896ff2928ac
+  - ref: refs/heads/dm-6.3
+    old: d9a02e016aaf5a57fb44e9a5e6da8ccd3b9e2e70
+    new: d3aa3e060c4a80827eb801fc448debc9daa7c46b
     log: |
-         b830c9642386867863ac64295185f896ff2928ac ice: xsk: disable txq irq before flushing hw
+         d3aa3e060c4a80827eb801fc448debc9daa7c46b dm stats: check for and propagate alloc_percpu failure
          
