@@ -1,40 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============4583902612681416893=="
+Content-Type: multipart/mixed; boundary="===============2107677831775653218=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lee/backlight
-Date: Thu, 16 Mar 2023 15:10:47 -0000
-Message-Id: <167897944777.6409.18354038619646922184@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/lee/leds
+Date: Thu, 16 Mar 2023 15:10:53 -0000
+Message-Id: <167897945378.6494.6722619525907512882@gitolite.kernel.org>
 
---===============4583902612681416893==
+--===============2107677831775653218==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lee/backlight
+repo: pub/scm/linux/kernel/git/lee/leds
 user: lee
 changes:
-  - ref: refs/heads/for-backlight-next
-    old: e0b63e236ca1089a639dc1f6fe2d6d9f8eb0379f
-    new: 541ec23c603dcb3b9cebebe40d9a68cdc89dd36b
-    log: revlist-e0b63e236ca1-541ec23c603d.txt
+  - ref: refs/heads/for-leds-next
+    old: 5538d0ce04f859ca97bc735223ec9e8830528b0f
+    new: 1aeff621689120db60cb7029e5a0fde7d01f7fb6
+    log: revlist-5538d0ce04f8-1aeff6216891.txt
 
---===============4583902612681416893==
+--===============2107677831775653218==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e0b63e236ca1-541ec23c603d.txt
+Content-Disposition: attachment; filename=revlist-5538d0ce04f8-1aeff6216891.txt
 
-ae6ad5d0b7901b301234143e93624417ac9fd9ef SUNRPC: Rename .encrypt_v2 and .decrypt_v2 methods
-2691a27d9b3e6a48adeb87a9dcf4e8a0ca84a26e SUNRPC: Hoist KDF into struct gss_krb5_enctype
-ec4aaab39afcec749ff7ed78e560213ff9e1c23c SUNRPC: Clean up cipher set up for v1 encryption types
-8b3a09f3454240cb2c2ab3da02b86f354aab0bd6 SUNRPC: Parametrize the key length passed to context_v2_alloc_cipher()
-af664fc9023e69d1a90800c0f815c296bf727e18 SUNRPC: Add new subkey length fields
-dfb632432a9b2548b5a4429598bb19edf58122f0 SUNRPC: Refactor CBC with CTS into helpers
-a40cf7530d3104793f9361e69e84ada7960724f2 SUNRPC: Add gk5e definitions for RFC 8009 encryption types
-ae2e4d2bae0007b040e8327f123911c0a6b24d68 SUNRPC: Add KDF-HMAC-SHA2
-0d5b5a0f32dfc9be3521803aba53e856759f0250 SUNRPC: Add RFC 8009 encryption and decryption functions
 f26ec6b1b15c5d84e4c8e5b361e2be119def498d SUNRPC: Advertise support for RFC 8009 encryption types
 3394682fba3b9010c6147e94f37633f044876e5e SUNRPC: Support the Camellia enctypes
 45b4ef46b5e88ced7edd4fba26b5fa0e3103de0b SUNRPC: Add KDF_FEEDBACK_CMAC
@@ -426,6 +417,20 @@ b838d36fa73c1584d814f08c3a6d4b9582418a02 Merge branch 'for-6.3/steam' into for-l
 a738688177dcdffe8064dc5ecac6ec4431b6b951 Merge branch 'for-6.3/uclogic' into for-linus
 904e28c6de083fa4834cdbd0026470ddc30676fc Merge branch 'for-6.3/hid-bpf' into for-linus
 7c15430822e71e90203d87e6d0cfe83fa058b0dc wifi: ath11k: allow system suspend to survive ath11k
+3755b46a1bf47a6778f4ce33def1e6122796f57c backlight: backlight: Fix doc for backlight_device_get_by_name
+81bc9eada9e75d011d055505a7a30b760af0455f backlight: ktd253: Switch to use dev_err_probe() helper
+901ae537b7977716dc6d2db34b3a75d64a72ab2b dt-bindings: backlight: qcom-wled: Add PMI8950 compatible
+5a7fbe452ad9e4a8988d4c20d7acf148383f8106 backlight: pwm_bl: Drop support for legacy PWM probing
+3a396f9859755e822775319516cd71dabc2b4e69 backlight: sky81452: Fix sky81452_bl_platform_data kernel-doc
+fef0b89a451fa06bf275dcd31afee09fffea5e17 backlight: arcxcnn: Use backlight helper
+e3b2ac4088126eebcf2e6d5797f9a94bb67e491e backlight: ipaq_micro: Use backlight helper
+32fb2588ce69ec254cfd8269bc31d9fbe5b999aa backlight: aat2870: Use backlight helper
+744fc2dada5073b8d9822c8c838c8141037ec651 backlight: Remove pxa tosa support
+00e7e698bff1dfdb74da6aff1d80508cdbde25f9 backlight: pwm_bl: Configure pwm only once per backlight toggle
+deaeeda2051fa280884bf5769021bcdeae5de44e backlight: pwm_bl: Don't rely on a disabled PWM emiting inactive state
+c8990c3889ea0a052edcff9dd890a3ab28bc5a47 dt-bindings: leds: backlight: Add Kinetic KTZ8866 backlight
+f8449c8f73552b82e2a29dfdb99df54bd3a5aafc backlight: ktz8866: Add support for Kinetic KTZ8866 backlight
+ad614f81d2e8b9704478921935c75ccd4024b854 backlight: ktz8866: Convert to i2c's .probe_new()
 cbb60951ce18c9b6e91d2eb97deb41d8ff616622 gfs2: jdata writepage fix
 c1b0c3cfcbad25d2c412863c27638c933f1d911b gfs2: Convert gfs2_page_add_databufs to folios
 eb7b85853c3866236f9cb378fc68ce5f76efbf9c rtc: bbnsm: Add the bbnsm rtc support
@@ -1036,19 +1041,14 @@ b01fe98d34f3bed944a93bd8119fed80c856fad8 Merge tag 'i2c-for-6.3-rc1-part2' of gi
 f915322fe014c5c515119381e886faf07b3c9d31 Merge tag 'v6.3-p2' of git://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6
 596ff4a09b8981790e15572e8e7bc904df5835e7 cpumask: re-introduce constant-sized cpumask optimizations
 fe15c26ee26efa11741a7b632e9f23b01aca4cc6 Linux 6.3-rc1
-10258bf4534bf8123b5fa620f73fe69901857f69 backlight: qcom-wled: Add PMI8950 compatible
-8b339caf4255a5cfafdc743be601100c5da6c304 backlight: aat2870_bl: Convert to platform remove callback returning void
-6879039167ff4b6805760f1c5935e93c92dc6aa4 backlight: adp5520_bl: Convert to platform remove callback returning void
-f6672d7f0cff6ee8bd09851545b60e41099197ae backlight: cr_bllcd: Convert to platform remove callback returning void
-78a2bb4802071788ce2315f1c8002f10b121d33c backlight: da9052_bl: Convert to platform remove callback returning void
-7150f8c2aa9d28a9bdc2f67180df26af5896253d backlight: hp680_bl: Convert to platform remove callback returning void
-c4c4fa57fd3cc00020152baa169337521f90b2ad backlight: led_bl: Convert to platform remove callback returning void
-cba7dfe04f84f39e0fea353eec511b9ce8455e59 backlight: lm3533_bl: Convert to platform remove callback returning void
-1c708d346c15e2cd2e0f701e6df04094d1b544ca backlight: lp8788_bl: Convert to platform remove callback returning void
-519e5cc52946c62878b4b4a7ef9f79fcb8164c52 backlight: mt6370-backlight: Convert to platform remove callback returning void
-0a4606a7a4bc6f876354ff6d90b969172208eeef backlight: pwm_bl: Convert to platform remove callback returning void
-ea379bc80231c8a86730f854e436eff19a729950 backlight: qcom-wled: Convert to platform remove callback returning void
-20c111d2e18c7318a9f2ae815c84ea0a9218317e backlight: rt4831-backlight: Convert to platform remove callback returning void
-541ec23c603dcb3b9cebebe40d9a68cdc89dd36b backlight: sky81452-backlight: Convert to platform remove callback returning void
+a61079efc87888587e463afaed82417b162fbd69 leds: TI_LMU_COMMON: select REGMAP instead of depending on it
+2956ad80fc56af2cb3a6bb374ebe587795abff0f leds: lp8860: Remove unused of_gpio,h
+6d19367b9e2f63e14bc034110f34b9a112b43ce0 leds: lp8860: Remove duplicate NULL checks for gpio_desc
+8af70e202ac4ea5dd2d5561cc2675bc09b30412e leds: Fix reference to led_set_brightness() in doc
+e91a4d5deb96c496ef8e6fd8d7342515d9e64ab5 dt-bindings: leds: Document commonly used LED triggers
+e0248a258c7f5f7b0a3f2283f5cd2e472dfb7eeb leds: tlc591xx: Mark OF related data as maybe unused
+8f0adae1cb1a3cf83e38dd435831baa38dd84b4c leds: Mark GPIO LED trigger broken
+96a2e242a5dcb677fe3063be38bda335c17849d3 leds: flash: Add driver to support flash LED module in QCOM PMICs
+1aeff621689120db60cb7029e5a0fde7d01f7fb6 dt-bindings: leds: Add QCOM flash LED controller
 
---===============4583902612681416893==--
+--===============2107677831775653218==--
