@@ -1,89 +1,120 @@
-Content-Type: multipart/mixed; boundary="===============2344175321882376151=="
+Content-Type: multipart/mixed; boundary="===============6474728080913950756=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Thu, 16 Mar 2023 09:41:34 -0000
-Message-Id: <167895969432.11160.5674669076802635416@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netfilter/nf-next
+Date: Thu, 16 Mar 2023 09:49:08 -0000
+Message-Id: <167896014814.16420.16142055432277061733@gitolite.kernel.org>
 
---===============2344175321882376151==
+--===============6474728080913950756==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/netfilter/nf-next
+user: fwestphal
 changes:
-  - ref: refs/heads/linux-4.19.y
-    old: 7744cbd3cd3861823c1c719b792662e52104a261
-    new: 0233a363477c634e1ba87559073eeab4b8fac88e
-    log: revlist-7744cbd3cd38-0233a363477c.txt
+  - ref: refs/heads/main
+    old: 95b744508d4d5135ae2a096ff3f0ee882bcc52b3
+    new: 9bdf4489a3950335af088604876fdc3209a9dd8e
+    log: revlist-95b744508d4d-9bdf4489a395.txt
 
---===============2344175321882376151==
+--===============6474728080913950756==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-95b744508d4d-9bdf4489a395.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1678959692 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1678959691-911c284de00e1390974cc3b87aae7cd4e7f19058
+a4ba62906db80246b24408e5c8a9e9d78b647b00 i40e: consolidate maximum frame size calculation for vsi
+f7f732a7196d2e876639b1af453b30a6a5fe4a90 i40e: change Rx buffer size for legacy-rx to support XDP multi-buffer
+e2843f037127c3a9db26718aaa293d2a8e5881e4 i40e: add pre-xdp page_count in rx_buffer
+03e88c8a791c0655ddea07fd4c7cd6cb16087c8f i40e: Change size to truesize when using i40e_rx_buffer_flip()
+2bc0de9aca3ebdf24674f5a2a7890fde6304f5ca i40e: use frame_sz instead of recalculating truesize for building skb
+e9031f2da1aef34b0b4c659ead613c335b46ae92 i40e: introduce next_to_process to i40e_ring
+01aa49e31e1674e22dd9c868ca6b4b945acd621e i40e: add xdp_buff to i40e_ring struct
+e213ced19befc09d6d6913799053b67896596cd1 i40e: add support for XDP multi-buffer Rx
+504ce971f260c178fa625f1278d9a762bc366504 ice: re-order ice_mbx_reset_snapshot function
+28756d9ec93e6588b1c3a00cc9123e238a71c709 ice: convert ice_mbx_clear_malvf to void and use WARN
+e4eaf8938852d092fa447b32adb8ec233621d86a ice: track malicious VFs in new ice_mbx_vf_info structure
+8cd8a6b17d275a45e3722d0215f6115b687c8c3e ice: move VF overflow message count into struct ice_mbx_vf_info
+4bdf5f258331f049bbff2d770cfcb62f6b789dfe ice: remove ice_mbx_deinit_snapshot
+07cc1a942216d1f211f1c641af8b6f810bb16699 ice: merge ice_mbx_report_malvf with ice_mbx_vf_state_handler
+dde7db637d9981b47da0da575661d0ec83f8b25a ice: initialize mailbox snapshot earlier in PF init
+33b035e70611c10c5aa3864a7517570b25a46ebb ice: declare ice_vc_process_vf_msg in ice_virtchnl.h
+4f0636fef61ad0b22fed4fb06f369d6ba38f807d ice: always report VF overflowing mailbox even without PF VSI
+3f22fc3131b814f0d5d1ce6d94fb8239e6df1754 ice: remove unnecessary &array[0] and just use array
+afc24d6584fbd246d98c0feb464b94da67661e3e ice: pass mbxdata to ice_is_malicious_vf()
+4508bf02bf8a3de8fb65869f40dfdef74dc1b339 ice: print message if ice_mbx_vf_state_handler returns an error
+c414463ab1bb098e67f4c1a4ef64f3e97780f087 ice: move ice_is_malicious_vf() to ice_virtchnl.c
+be96815c616822d3800405b8fbebe3e069d6eed2 ice: call ice_is_malicious_vf() from ice_vc_process_vf_msg()
+e4ed8ba08e3f1ef24771eb95f87da129ad752063 net: phy: micrel: Add support for PTP_PF_PEROUT for lan8841
+c5a8027de26e1b7c0ba4f8e430165b6a4a29a869 net: phy: dp83867: Disable IRQs on suspend
+ad4bf5f2406f6a2e29266bbad74e18f0d955ac4c net: socket: suppress unused warning
+90c7dd32652bcfcc7716c762bc095a7d49ad85dd net: phy: smsc: use device_property_present in smsc_phy_probe
+4821c186b9c343760a293b455b603735291a7865 net: hsr: Don't log netdev_err message on unknown prp dst node
+be50da3e9d4ad1958f7b11322d44d94d5c25a4c1 net: virtio_net: implement exact header length guest feature
+7c6dddc239abe660598c49ec95ea0ed6399a4b2a bnxt: avoid overflow in bnxt_get_nvram_directory()
+c66b2111c9c952f3bbf454a755768e80308cc6e2 selftests: tc-testing: add tests for action binding
+b39212d5936c0fc3d4605abf2b51f734bf59ee11 Merge branch '40GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/next-queue
+bcc858689db5f2e5a8d4d6e8bc5bb9736cd80626 net: Use of_property_present() for testing DT property presence
+68a84a127bb07d2a47e95c808520f742c54781c7 net: lan966x: Change lan966x_police_del return type
+b071af523579df7341cabf0f16fc661125e9a13f neighbour: annotate lockless accesses to n->nud_state
+c486640aa710ddd06c13a7f7162126e1552e8842 ipv6: remove one read_lock()/read_unlock() pair in rt6_check_neigh()
+575942a2e2d311c7f5abe17f9958abab45604cbd Merge branch 'ipv6-optimize-rt6_score_route'
+69444581d0022b8afced2c90c441b7b4d9b8eba9 net: dsa: microchip: add ksz_setup_tc_mode() function
+c570f861fa059ea653599415a7c8cc1dfaf16763 net: dsa: microchip: add ETS Qdisc support for KSZ9477 series
+c0a274151d3970ec7f3d07c8a1292733ed17d612 Merge branch 'dsa-microchip-tc-ets'
+dc54e450a5dd0fd9147dc9fea0684293569d3609 net: stmmac: qcom: drop of_match_ptr for ID table
+e6512465838bf634d147399c8c96612d3cb419b9 net: stmmac: generic: drop of_match_ptr for ID table
+69df36d524dbb6f0692252c5f9d41bed9a064ff5 net: marvell: pxa168_eth: drop of_match_ptr for ID table
+7f319fe4363c613f8b00b4bfab66c3659c38378b net: samsung: sxgbe: drop of_match_ptr for ID table
+7e9aa8cad0844b85a6877cd072c95ac2844eb666 net: ni: drop of_match_ptr for ID table
+a52ed50a04de179cc866c18bdd1b9a2f59d6bdfc nfc: trf7970a: mark OF related data as maybe unused
+6ea1e67788f30710d1991de42802cbdeb67afec4 net: dsa: lantiq_gswip: mark OF related data as maybe unused
+ced5c5a0a2ea5eec6ed6cf1fcdde719fdafed82c net: dsa: lan9303: drop of_match_ptr for ID table
+1eb8566dd08db9c7402a26b027086eaabc20ff2a net: dsa: seville_vsc9953: drop of_match_ptr for ID table
+00923ff2e1baf6bc9832f12e44f73439de5fcd72 net: dsa: ksz9477: drop of_match_ptr for ID table
+0f17b42827ae63aaf08cad875d9575b1bca1e066 net: dsa: ocelot: drop of_match_ptr for ID table
+b0b7d1b6260b3acb9f3f3bc7f3ca88a8898e95b1 net: phy: ks8995: drop of_match_ptr for ID table
+3df09beef650af667be5ec7eee88629e6e479a51 net: ieee802154: adf7242: drop of_match_ptr for ID table
+3896c40b7824c8874963e257afc0f464200d2d2c net: ieee802154: mcr20a: drop of_match_ptr for ID table
+32b7030681a488186bf1753b29a170f5d4644721 net: ieee802154: at86rf230: drop of_match_ptr for ID table
+cdfe4fc4d946e2a5d589f73985043674cf298ff6 net: ieee802154: ca8210: drop of_match_ptr for ID table
+059fa99723405b47833c7e14e062c7ba7066ca3c net: ieee802154: adf7242: drop owner from driver
+613a3c44a3737c9a2dfd9f70f9b79427459bb745 net: ieee802154: ca8210: drop owner from driver
+45ef71d108e6f1545e2981d8af03be13f2e39411 net: geneve: set IFF_POINTOPOINT with IFLA_GENEVE_INNER_PROTO_INHERIT
+f947568e258038d3c2f8f38a9a7dabaca36643ec net/smc: Introduce explicit check for v2 support
+298c91dc40e51395198533433716d0521ed10995 net/ism: Remove extra include
+c4216a83078bc46f9e0475ff810a0a798572b0ec Merge branch 'net-smc-updates'
+a02d83f9947d8f71904eda4de046630c3eb6802c scm: fix MSG_CTRUNC setting condition for SO_PASSSEC
+543c143dac5d64a8de8db3ccadea6d92c34fd1e6 ptp: ines: drop of_match_ptr for ID table
+0384d05555d2b3dacd647668cd84df2ccd15ac61 Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/next-queue
+83456576a42050cc0675aece14277a3cbdee9cbe net: phy: update obsolete comment about PHY_STARTING
+a57cc54d69d601282c4451010b12f53630834203 net: phy: micrel: drop superfluous use of temp variable
+c05d145abea138dbba213ce775820af73e893d92 net/mlx5: remove redundant clear_bit
+8ff38e730c3f5ee717f25365ef8aa4739562d567 net/mlx5: Stop waiting for PCI up if teardown was triggered
+ceefcfb8a37510f2c2b99b9e8d6c0b3941687b2b net/mlx5: Add comment to mlx5_devlink_params_register()
+c1fef618d611b31964ab397aa0bf0611da94bade net/mlx5: Implement thermal zone
+aa98d15ea40b9d370871df7882b6d56d08aed692 net/mlx5e: Utilize the entire fifo
+2b5bd5b1611b817970f13b1c4dfdcda0b35e3690 net/mlx5e: Rename RQ/SQ adaptive moderation state flag
+1fe7bc109e3e18f7776ba71953cbc922b7ee9165 net/mlx5e: Stringify RQ SW state in RQ devlink health diagnostics
+fc9d982a2512b294607b2922de3809e7c92810da net/mlx5e: Expose SQ SW state as part of SQ health diagnostics
+bb76d250e55c72975b77f5d610fd3733306b3031 net/mlx5e: Add XSK RQ state flag for RQ devlink health diagnostics
+028522e2844393abc44f7bd7477eb4a455f01579 net/mlx5: Move needed PTYS functions to core layer
+1bffcea42926b26e092045ac398850e80d950bb2 net/mlx5e: Add devlink hairpin queues parameters
+8a0594c0961012ac07112f41800da29dd5632c03 net/mlx5e: Add more information to hairpin table dump
+244fd698207f0baec062da4737e31c76b1be2371 net/mlx5e: TC, Extract indr setup block checks to function
+d5d006bb27ad9d408074eef7e091fbd87335f913 net/mlx5e: Enable TC offload for ingress MACVLAN over bond
+63b02048f9a781e01e59743cd2d3e0a1f10c971a net/mlx5e: Enable TC offload for egress MACVLAN over bond
+fabdc10075b8f67b120091a3dc9173616f3ccebe Merge mlx5 updates 2023-03-13
+8a8db7aeaa6dae4ddae033858bf5b49aecfbbe42 nfp: flower: add get_flow_act_ct() for ct action
+cee7b339d806f71df611087724ddfbaad2d8f8b7 nfp: flower: refactor function "is_pre_ct_flow"
+0b8d953cce26287a7f5eb78ff49496e9836c88ed nfp: flower: refactor function "is_post_ct_flow"
+3e44d19934b92398785b3ffc2353b9eba264140e nfp: flower: add goto_chain_index for ct entry
+46a83c85b683b647d86e679e2b095494e87f4d7c nfp: flower: prepare for parameterisation of number of offload rules
+a87ceb3d42afebd86191054314ef1a2f98c4556b nfp: flower: offload tc flows of multiple conntrack zones
+6873465c1930e0caeccbe0f9987a7b4f9afbdac8 Merge branch 'nfp-flower-add-support-for-multi-zone-conntrack'
+9bdf4489a3950335af088604876fdc3209a9dd8e net: phy: micrel: Fix spelling mistake "minimim" -> "minimum"
 
-7744cbd3cd3861823c1c719b792662e52104a261 0233a363477c634e1ba87559073eeab4b8fac88e refs/heads/linux-4.19.y
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQS5EwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+aFMP/0vVg+voUI877I5R2Kdi
-hJ5hll6XzIKniaXmrRh33z7BH40d4ASt1KpMv2zUl90QuqI5hwAL3RknxUtStlnc
-wQ0spJymm5i+5YvmWiXbYB6op63/6pXzgOfCmIleH+JbkAcZf26L5ejIMBCf+59A
-hHQnExTqE3mCpvGLSZOWRY3Ik5p5uAoQd44s/aTDz1Vf6ohzeuYBMKS579EBVsiq
-wlPXPsVs/llEFvEjYM5Yr35MVw+zv0L6RABjwzBlvcG+s/ok4p7a9MgdviXVcfEA
-+B7BkTd2JDMDnu+6nGsyLJ5Xgn+I3q9NR4XwTxyxiSpKo/n23IUiQm8UnKtL1CF6
-mHyPo1gmFawkok8FxuUqQ8u6gShoEnXi+TIHTB381guLbHPPPUjsqAMxccxMZJCG
-gAPDynU+KnlEINI6be6l12rZHlgXD7Ya/92s14I0qAB7667FQ7vC/7+I6G/t7ojE
-PHje+4vfaMxpM+Ryh9YyAWarTsUm+zDVgO6Wag4Zw2PxKF2oHzn/bg9/29iCr8Gg
-1fWi6RuvJZUY3x33bWSQawFAk27K0QRhBBawvT/eSRtjkz7q1CZT6e/7df4T1vEM
-iKWkEuTMyO573k+fAgM2MX5QQfKq/gZHzlFt0SoRQx0UMmXk+YpyODQJgMShkU0g
-1E6wRqlM/dzhkNC68ggI9Bcf
-=IsTX
------END PGP SIGNATURE-----
-
---===============2344175321882376151==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7744cbd3cd38-0233a363477c.txt
-
-a7ad1035280b78f958874f0e0409dccf1a0da78f fs: prevent out-of-bounds array speculation when closing a file descriptor
-bd21aed12b7de990db18bf5aa8b029f386b15743 x86/CPU/AMD: Disable XSAVES on AMD family 0x17
-567526cc821e48dd31dbffb190fd2250955e2e46 ext4: fix RENAME_WHITEOUT handling for inline directories
-cfaf9e3a9c5ae40b71bfa591172b5731c8c56ff9 ext4: fix another off-by-one fsmap error on 1k block filesystems
-51c2590fe6bcc27744f0d016a76404f473b30b51 ext4: move where set the MAY_INLINE_DATA flag is set
-35133e03a4adfc9bae713cdd4e09526cef9f61d7 ext4: fix WARNING in ext4_update_inline_data
-e556ec2e3324505b1cbcc441c1757ee295278217 ext4: zero i_disksize when initializing the bootloader inode
-b7e5f8cbd6fbcaae9f97919203622ed286d37413 nfc: change order inside nfc_se_io error path
-2d3bc724b74c2021cc9787118ce4cf19110d1acc udf: Explain handling of load_nls() failure
-80e055a8c9c6ecd824db9bb75a1d0d10937e36e1 udf: reduce leakage of blocks related to named streams
-1876a8952ee839dde083ec17d52f6359e36a72b1 udf: Remove pointless union in udf_inode_info
-7347a65326f8c7004ff823599182b9f47fb1b217 udf: Preserve link count of system files
-295dcfb44385348bebd15b911eb81705bd6c4d22 udf: Detect system inodes linked into directory hierarchy
-8bf35482f58c7a7b4391c748a8fdec4f684e407c kbuild: fix false-positive need-builtin calculation
-42a305af4804d4bc2871e5a91f24a4afdd8b0037 kbuild: generate modules.order only in directories visited by obj-y/m
-c4175008e1635e6c6c86bb693f857d9f87caf3dc scsi: core: Remove the /proc/scsi/${proc_name} directory earlier
-d781c069657e878d002ffa6bbdacca99598aca2d Revert "spi: mt7621: Fix an error message in mt7621_spi_probe()"
-3f470ec160dd7a6a3695233a69d82e413db42396 MIPS: Fix a compilation issue
-b63528695d24f933ab82018e2ca4e8bdc7ca5b7f alpha: fix R_ALPHA_LITERAL reloc for large modules
-821ecac3ba8dc0dd39b3e940fb675e2ad127ec66 macintosh: windfarm: Use unsigned type for 1-bit bitfields
-8571ab6d9dea87da2ee08e8a3c7a551412be3a68 PCI: Add SolidRun vendor ID
-a6e98d886484f2d41cded1475b9c6eaa1ea4c9f6 media: ov5640: Fix analogue gain control
-87869a3be646f3aa2a5afc601ff37c453326d7fd tipc: improve function tipc_wait_for_cond()
-290d92cb0de23a6c52eb6d83169ba1bdbbd21d7c drm/i915: Don't use BAR mappings for ring buffers with LLC
-8e6ecd2738a9c07e6b10e7d7049dcdfa9f761cc4 net: caif: Fix use-after-free in cfusbl_device_notify()
-41c1a0b4cbc57008441f13e00b14e99cdc0d3196 nfc: fdp: add null check of devm_kmalloc_array in fdp_nci_i2c_read_device_properties
-8a613f7252f6d848691f84b7e2b2668d8baf15df ila: do not generate empty messages in ila_xlat_nl_cmd_get_mapping()
-0233a363477c634e1ba87559073eeab4b8fac88e Linux 4.19.278-rc3
-
---===============2344175321882376151==--
+--===============6474728080913950756==--
