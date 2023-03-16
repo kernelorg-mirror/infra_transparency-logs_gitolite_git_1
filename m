@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2662374663027920586=="
+Content-Type: multipart/mixed; boundary="===============2339119024979443056=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Thu, 16 Mar 2023 15:32:37 -0000
-Message-Id: <167898075767.21651.16785379899077076752@gitolite.kernel.org>
+Date: Thu, 16 Mar 2023 15:33:35 -0000
+Message-Id: <167898081559.22034.6678406300351160955@gitolite.kernel.org>
 
---===============2662374663027920586==
+--===============2339119024979443056==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/main
     old: a02d83f9947d8f71904eda4de046630c3eb6802c
     new: 9bdf4489a3950335af088604876fdc3209a9dd8e
     log: revlist-a02d83f9947d-9bdf4489a395.txt
 
---===============2662374663027920586==
+--===============2339119024979443056==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -69,4 +69,4 @@ a87ceb3d42afebd86191054314ef1a2f98c4556b nfp: flower: offload tc flows of multip
 6873465c1930e0caeccbe0f9987a7b4f9afbdac8 Merge branch 'nfp-flower-add-support-for-multi-zone-conntrack'
 9bdf4489a3950335af088604876fdc3209a9dd8e net: phy: micrel: Fix spelling mistake "minimim" -> "minimum"
 
---===============2662374663027920586==--
+--===============2339119024979443056==--
