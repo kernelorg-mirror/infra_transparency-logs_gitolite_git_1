@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Thu, 16 Mar 2023 04:32:41 -0000
-Message-Id: <167894116178.17586.1346340683242631031@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 16 Mar 2023 04:34:07 -0000
+Message-Id: <167894124788.18048.6880753933116105516@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: 0384d05555d2b3dacd647668cd84df2ccd15ac61
-    new: a57cc54d69d601282c4451010b12f53630834203
+    old: 7c10131803e45269ddc6c817f19ed649110f3cae
+    new: cd356010ce4c69ac7e1a40586112df24d22c6a4b
     log: |
-         83456576a42050cc0675aece14277a3cbdee9cbe net: phy: update obsolete comment about PHY_STARTING
-         a57cc54d69d601282c4451010b12f53630834203 net: phy: micrel: drop superfluous use of temp variable
+         cd356010ce4c69ac7e1a40586112df24d22c6a4b net: phy: mscc: fix deadlock in phy_ethtool_{get,set}_wol()
          
