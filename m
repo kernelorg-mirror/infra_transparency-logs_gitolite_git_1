@@ -1,21 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Thu, 16 Mar 2023 11:33:42 -0000
-Message-Id: <167896642200.21128.11206466289568361793@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ogabbay/linux
+Date: Thu, 16 Mar 2023 11:37:07 -0000
+Message-Id: <167896662795.23714.11164023260448439988@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/ogabbay/linux
+user: ogabbay
 changes:
-  - ref: refs/heads/master
-    old: 9004e76b4ba716022a7c851ffa7fbd9e9e4bf073
-    new: dc983c2e4a63ff160abcdba4dda0433b40c70df8
+  - ref: refs/heads/habanalabs-next
+    old: e04bc2d1cffcb5029a204010eb99cacf487fc7e9
+    new: 9a6cbf54146bd4e0bf85fc1c2a5047edc6c33b4a
     log: |
-         5d061821ab96b7e1d0ea97e4a9afa3181865a6ca Add fadvise.1.adoc to po4a.cfg
-         d8416a9fd6c592e1f59184fc0ce3989e422d8475 mkfs.cramfs: (man) Fix markup in makefs.cramfs.8.adoc
-         dc983c2e4a63ff160abcdba4dda0433b40c70df8 Merge branch 'patch-7' of https://github.com/mariobl/util-linux
+         a3c6a3a14759d3e9f67fb88b17dc033cbd855986 accel/habanalabs: align to latest firmware specs
+         55204331f0a3baccdd090c9a961ba2cac50de74c accel/habanalabs: do not verify engine modes after being changed
+         4c104b8d495bc1d6abb8e74c11b48e2204031fec accel/habanalabs: increase reset poll timeout
+         728009f5c7cc5d4637d346ab1b511b8ddf8e8fcd accel/habanalabs: in hw_fini return error code if polling timed-out
+         6796c1383c3915cea8e2c9c57e66dac1bb5afabb accel/habanalabs: fix use of var reset_sleep_ms
+         e1633ec236b6f6ec804ef542b5ac32257baa88ad accel/habanalabs: in {e/p}dma_core events read the err cause reg
+         4208ac2f1614cc09336014de4609fa47363e18c9 accel/habanalabs: fix field names in hl_info_hw_ip_info
+         73c0363195683d2466c7399acb938c3e2afd2b74 accel/habanalabs: return tlb inv error code upon failure
+         1af54bdfae898073b1efe5ae7b3e3e367243f7bd accel/habanalabs: remove '\n' when passing strings to gaudi2_print_event()
+         9a6cbf54146bd4e0bf85fc1c2a5047edc6c33b4a accel/habanalabs: expose dram reserved size by kmd
          
