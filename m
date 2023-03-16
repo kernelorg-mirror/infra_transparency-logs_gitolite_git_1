@@ -1,31 +1,36 @@
-Content-Type: multipart/mixed; boundary="===============0980169185180492290=="
+Content-Type: multipart/mixed; boundary="===============4583902612681416893=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lee/mfd
-Date: Thu, 16 Mar 2023 15:10:46 -0000
-Message-Id: <167897944673.6345.13019228637535824857@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/lee/backlight
+Date: Thu, 16 Mar 2023 15:10:47 -0000
+Message-Id: <167897944777.6409.18354038619646922184@gitolite.kernel.org>
 
---===============0980169185180492290==
+--===============4583902612681416893==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lee/mfd
+repo: pub/scm/linux/kernel/git/lee/backlight
 user: lee
 changes:
-  - ref: refs/heads/for-mfd-next
-    old: 1e47ccad49c91266de4cd83f2dd6f66469a8756e
-    new: 3030a8fd168828917e92c747aa1e0e8ec5b8816d
-    log: revlist-1e47ccad49c9-3030a8fd1688.txt
+  - ref: refs/heads/for-backlight-next
+    old: e0b63e236ca1089a639dc1f6fe2d6d9f8eb0379f
+    new: 541ec23c603dcb3b9cebebe40d9a68cdc89dd36b
+    log: revlist-e0b63e236ca1-541ec23c603d.txt
 
---===============0980169185180492290==
+--===============4583902612681416893==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1e47ccad49c9-3030a8fd1688.txt
+Content-Disposition: attachment; filename=revlist-e0b63e236ca1-541ec23c603d.txt
 
+ae6ad5d0b7901b301234143e93624417ac9fd9ef SUNRPC: Rename .encrypt_v2 and .decrypt_v2 methods
+2691a27d9b3e6a48adeb87a9dcf4e8a0ca84a26e SUNRPC: Hoist KDF into struct gss_krb5_enctype
+ec4aaab39afcec749ff7ed78e560213ff9e1c23c SUNRPC: Clean up cipher set up for v1 encryption types
+8b3a09f3454240cb2c2ab3da02b86f354aab0bd6 SUNRPC: Parametrize the key length passed to context_v2_alloc_cipher()
+af664fc9023e69d1a90800c0f815c296bf727e18 SUNRPC: Add new subkey length fields
 dfb632432a9b2548b5a4429598bb19edf58122f0 SUNRPC: Refactor CBC with CTS into helpers
 a40cf7530d3104793f9361e69e84ada7960724f2 SUNRPC: Add gk5e definitions for RFC 8009 encryption types
 ae2e4d2bae0007b040e8327f123911c0a6b24d68 SUNRPC: Add KDF-HMAC-SHA2
@@ -384,6 +389,28 @@ fc663711b94468f4e1427ebe289c9f05669699c9 scsi: core: Remove the /proc/scsi/${pro
 3ab01810153b0ca26cfc846ba72996b250adde6d scsi: zfcp: Change the type of all fsf request id fields and variables to u64
 901b894af5b933cf6576eec05746f34b46e2ac83 scsi: zfcp: Trace when request remove fails after qdio send fails
 f82cdc37c4bd4ba905bf99ade9782a639b5c12e9 powerpc/pseries: Avoid hcall in plpks_is_available() on non-pseries
+28e1958009cf73166b13551d1b52c6b907f993d8 Merge tags 'ib-mfd-extcon-i2c-v6.3' and 'ib-mfd-fpga-hwmon-v6.3-1' into ibs-for-mfd-merged
+5d69b181cd0db10dc8327d28ce837b3623cd531a mfd: rk808: Re-add rk808-clkout to RK818
+725a2acd851dbef94a3e68c1a8a1de2862742ecd dt-bindings: mfd: qcom,spmi-pmic: Document PMICs bundled with SM8550
+8781ba7f45695af3ab8e8d1b55a31f527c9201a3 mfd: axp20x: Fix order of pek rise and fall events
+5ec32a3e4053c1a726b45381d56aa9e39eaf3911 mfd: cs5535: Don't build on UML
+8cc5e62bae28d02f706a6abc8fd804609579964c mfd: Use sysfs_emit() to instead of scnprintf()
+0c8884fe34bb3e2d739c883000691bb665c01843 dt-bindings: mfd: cros-ec: Add compatible string for UART support
+3a8678dfa857b671ff56de2573cb236fc6f0f0d2 MAINTAINERS: Move MFD from a Supported to Maintaied state
+8b450dcff23aa254844492831a8e2b508a9d522d mfd: pcf50633-adc: Fix potential memleak in pcf50633_adc_async_read()
+ccc91b3ed3f641efa8e9050c587ef509b0e2be3a mfd: twl: Fix TWL6032 phy vbus detection
+58a3fb991ec21e8cba82062be374c67447496e3a mfd: twl4030-power: Drop empty platform remove function
+0b05327947dc68e8901477ced9ea6f8e3fb0c5f5 dt-bindings: mfd: syscon: Document GXP register compatible
+49184844b6653292b2954304005357ef6828b0fa mfd: qcom-pm8xxx: Remove set but unused variable 'rev'
+8aa06dbe50a612e32b5c367421e2a51ae3f1acc9 mfd: max8925: Remove the unused function irq_to_max8925()
+88a32c2c5e98d72765846db83c1739e7b036770a mfd: core: Spelling s/compement/complement/
+1b1305e95e85624f538ec56db9acf88e2d3d7397 mfd: axp20x: Switch to the sys-off handler API
+81435ed2bdea54bef20a898827b127d8ce087495 mfd: simple-mfd-i2c: Fix incoherent comment regarding DT registration
+484cd9c0ec63b807227c44c10e47330eba136dff dt-bindings: mfd: qcom,tcsr: Add compatible for MSM8226
+8e993c5888fa7131b384f3c8ec710209b7be78e6 dt-bindings: mfd: syscon: Add amd,pensando-elba-syscon compatible
+0f4d261989a89aa78f309eb0c5cb816028182bca dt-bindings: mfd/syscon: Add resets property
+7d1e3bd94828ad9fc86f55253cd6fec8edd65394 mfd: syscon: Allow reset control for syscon devices
+4414a7ab80cebf715045e3c4d465feefbad21139 mfd: arizona: Use pm_runtime_resume_and_get() to prevent refcnt leak
 0af8c09c896810879387decfba8c942994bb61f5 netfilter: x_tables: fix percpu counter block leak on error path when creating new netns
 06db2af35e5f44cebf36c1dc122f5769f630d2f8 Merge branch 'for-6.3/hid-core' into for-linus
 94109c9f237d4f5b3148c7242b020f9485b55cf0 Merge branch 'for-6.3/asus' into for-linus
@@ -399,26 +426,17 @@ b838d36fa73c1584d814f08c3a6d4b9582418a02 Merge branch 'for-6.3/steam' into for-l
 a738688177dcdffe8064dc5ecac6ec4431b6b951 Merge branch 'for-6.3/uclogic' into for-linus
 904e28c6de083fa4834cdbd0026470ddc30676fc Merge branch 'for-6.3/hid-bpf' into for-linus
 7c15430822e71e90203d87e6d0cfe83fa058b0dc wifi: ath11k: allow system suspend to survive ath11k
-3755b46a1bf47a6778f4ce33def1e6122796f57c backlight: backlight: Fix doc for backlight_device_get_by_name
-81bc9eada9e75d011d055505a7a30b760af0455f backlight: ktd253: Switch to use dev_err_probe() helper
-901ae537b7977716dc6d2db34b3a75d64a72ab2b dt-bindings: backlight: qcom-wled: Add PMI8950 compatible
-5a7fbe452ad9e4a8988d4c20d7acf148383f8106 backlight: pwm_bl: Drop support for legacy PWM probing
-3a396f9859755e822775319516cd71dabc2b4e69 backlight: sky81452: Fix sky81452_bl_platform_data kernel-doc
-fef0b89a451fa06bf275dcd31afee09fffea5e17 backlight: arcxcnn: Use backlight helper
-e3b2ac4088126eebcf2e6d5797f9a94bb67e491e backlight: ipaq_micro: Use backlight helper
-32fb2588ce69ec254cfd8269bc31d9fbe5b999aa backlight: aat2870: Use backlight helper
-744fc2dada5073b8d9822c8c838c8141037ec651 backlight: Remove pxa tosa support
-00e7e698bff1dfdb74da6aff1d80508cdbde25f9 backlight: pwm_bl: Configure pwm only once per backlight toggle
-deaeeda2051fa280884bf5769021bcdeae5de44e backlight: pwm_bl: Don't rely on a disabled PWM emiting inactive state
-c8990c3889ea0a052edcff9dd890a3ab28bc5a47 dt-bindings: leds: backlight: Add Kinetic KTZ8866 backlight
-f8449c8f73552b82e2a29dfdb99df54bd3a5aafc backlight: ktz8866: Add support for Kinetic KTZ8866 backlight
-ad614f81d2e8b9704478921935c75ccd4024b854 backlight: ktz8866: Convert to i2c's .probe_new()
 cbb60951ce18c9b6e91d2eb97deb41d8ff616622 gfs2: jdata writepage fix
 c1b0c3cfcbad25d2c412863c27638c933f1d911b gfs2: Convert gfs2_page_add_databufs to folios
 eb7b85853c3866236f9cb378fc68ce5f76efbf9c rtc: bbnsm: Add the bbnsm rtc support
 b6ef5d4a0295bc0567021c0102d1c66f2ed212a2 rtc: rv3028: add ACPI support
 2d433e9c897dcb0b70ef17b536f61430b1e151d4 rtc: rv3032: add ACPI support
 a783c962619271a8b905efad1d89adfec11ae0c8 rtc: allow rtc_read_alarm without read_alarm callback
+ca78476e4888f1f1caac26c48ec715e546baf432 mfd: Remove toshiba tmio drivers
+4d83bcbeee12be0842ec99606f08c1c65e986a97 dt-bindings: mfd: syscon: Add mt8365-syscfg
+8a15b4daed3d45c9162f23d393a06df2a7be4778 mfd: ntxec: Add version number for EC in Tolino Vision
+43be4f662ae23c38d7f29204a3b635d4c6d61646 dt-bindings: mfd: Add NXP BBNSM
+59c54c59974649b2e7bc92faae4a21e2b2408db2 dt-bindings: mfd: qcom,tcsr: Add compatible for IPQ5332
 1b2f85a8bac67b9909f2ee4be1bc11548a7aeaf3 dt-bindings: rtc: nxp,pcf8563: move pcf85263/pcf85363 to a dedicated binding
 fd9a6a13949af81062f4cd04f2c1b28ca5311e71 rtc: pcf85363: add support for the quartz-load-femtofarads property
 c1855dd0a62b7ead360eb9231fb65c2108efaf47 clk: qcom: Revert sync_state based clk_disable_unused
@@ -1018,37 +1036,19 @@ b01fe98d34f3bed944a93bd8119fed80c856fad8 Merge tag 'i2c-for-6.3-rc1-part2' of gi
 f915322fe014c5c515119381e886faf07b3c9d31 Merge tag 'v6.3-p2' of git://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6
 596ff4a09b8981790e15572e8e7bc904df5835e7 cpumask: re-introduce constant-sized cpumask optimizations
 fe15c26ee26efa11741a7b632e9f23b01aca4cc6 Linux 6.3-rc1
-0d9d8c4a27a62a4a94c0f7661c16269e5e2b5af1 mfd: intel_soc_pmic_chtwc: Add Lenovo Yoga Book X90F to intel_cht_wc_models
-b017b296a475092bf07fd48ee702abf8b59daba5 mfd: si476x-cmd: Fix several issues reported by codespell
-83aa32bc0a36f3601026b1d4fbf7873dc43a2d88 mfd: hi6421-pmic: Use devm_platform_get_and_ioremap_resource()
-ae3f323692ea384e2a8f85e4fb4381f5053404cd mfd: ipaq-micro: Use devm_platform_get_and_ioremap_resource()
-2e80d99639d8e9b8cbbeeac956965aac4ac5e978 mfd: ssbi: Use devm_platform_get_and_ioremap_resource()
-7c80013c2eb56eb0fa3532fe1f2931e64c3b9e01 mfd: sun4i-gpadc: Use devm_platform_get_and_ioremap_resource()
-8d4b8908916e88df754ad33061ce6dc4642b63e6 mfd: atmel-flexcom: Use devm_platform_get_and_ioremap_resource()
-7fcc835ce0329a0dde7ed3b5e289f23da8046fb0 mfd: qcom_rpm: Use devm_platform_get_and_ioremap_resource()
-3bf7b868002b4264f11d97259a40ec9c036bbfa9 dt-bindings: mfd: qcom,spmi-pmic: Allow RRADC as adc@ subnode
-7e207486532985f3f388ae97118a3c4da77911dd mfd: core: Reorder fields in 'struct mfd_cell' to save some memory
-8c4c7c5b04b98e37d52a5f7b7c7562a22d7c1118 dt-bindings: mfd: Add the tcsr compatible for IPQ9574
-ae46819c0ca6098fc07a0adc0c3316ea5d1054ad mfd: qcom-pm8008: Fix swapped mask/unmask in irq chip
-a21c25c4ec6d073e16b27b3b1f1688496f87b899 mfd: qcom-pm8008: Convert irq chip to config regs
-840661f7419ea7aac6d17aa16fafc24e2bf1d7e8 mfd: qcom-pm8008: Use .get_irq_reg() for irq chip
-3bcb8068ae5f3106790496bdd906757155b5a4d3 mfd: qcom-pm8008: Remove workaround for a regmap-irq quirk
-98bef466b0db274d6ea07260e17420f0a269bc30 mfd: bcm2835-pm: Remove MODULE_LICENSE in non-modules
-a276e86bf9fa68c04dfce6c43995b96c5b63e7b8 mfd: intel_soc_pmic_crc: Remove MODULE_LICENSE in non-modules
-22dbf0bb61932242eca0345ba62be40c1e4a51ed dt-bindings: mfd: syscon: Add StarFive JH7100 sysmain compatible
-a1b6d8f68ab719892fd4d2caa9088c5e7a66c5fc mfd: tqmx86: Do not access I2C_DETECT register through io_base
-8141a60cc74d5ae0c37cc185eb5c0242ba8b5077 mfd: tqmx86: Specify IO port register range more precisely
-592aa1d58dffd1523292266d71269b1298f67247 mfd: tqmx86: Correct board names for TQMxE39x
-c30d346a0fe3513759bda247c2ba0764cbcca9a9 dt-bindings: mfd: qcom,tcsr: Add compatible for sm8450
-b313d8c57325667243c9717d93191a03920ef8d1 mfd: rt5033: Fix comments and style in includes
-a5af9ff0e4eba45d70e8269ea6e4bb8c5f39b783 gpio: Add support for Intel LJCA USB GPIO driver
-84bef0fe1df5a3c03fa488757ee52f291a25e70d dt-bindings: mfd: qcom,tcsr: Add compatible for sdx65
-663b1a03f338c0255ef3a85a3d59a936dd71cec2 dt-bindings: mfd: Add MAX5970 and MAX5978
-951c86d9b007411c4646b18b92577cd6b7706f9d mfd: max597x: Add support for MAX5970 and MAX5978
-6b5523becbc1de1391384bf286647b126941ec50 dt-bindings: mfd: qcom,tcsr: Document SDX55 TCSR
-17d3acab398db2ed52691bf02047a7a620a8cbd4 mfd: core: Remove .enable() and .disable() callbacks
-e09c96c1444f502c7fc6d559211930c792d28ce4 dt-bindings: mfd: Add TI-Nspire misc registers
-5357817c80e359196d3b90f91ea9e06741bdfbda mfd: da9062: Use MFD_CELL_OF macro
-3030a8fd168828917e92c747aa1e0e8ec5b8816d mfd: da9062: Remove IRQ requirement
+10258bf4534bf8123b5fa620f73fe69901857f69 backlight: qcom-wled: Add PMI8950 compatible
+8b339caf4255a5cfafdc743be601100c5da6c304 backlight: aat2870_bl: Convert to platform remove callback returning void
+6879039167ff4b6805760f1c5935e93c92dc6aa4 backlight: adp5520_bl: Convert to platform remove callback returning void
+f6672d7f0cff6ee8bd09851545b60e41099197ae backlight: cr_bllcd: Convert to platform remove callback returning void
+78a2bb4802071788ce2315f1c8002f10b121d33c backlight: da9052_bl: Convert to platform remove callback returning void
+7150f8c2aa9d28a9bdc2f67180df26af5896253d backlight: hp680_bl: Convert to platform remove callback returning void
+c4c4fa57fd3cc00020152baa169337521f90b2ad backlight: led_bl: Convert to platform remove callback returning void
+cba7dfe04f84f39e0fea353eec511b9ce8455e59 backlight: lm3533_bl: Convert to platform remove callback returning void
+1c708d346c15e2cd2e0f701e6df04094d1b544ca backlight: lp8788_bl: Convert to platform remove callback returning void
+519e5cc52946c62878b4b4a7ef9f79fcb8164c52 backlight: mt6370-backlight: Convert to platform remove callback returning void
+0a4606a7a4bc6f876354ff6d90b969172208eeef backlight: pwm_bl: Convert to platform remove callback returning void
+ea379bc80231c8a86730f854e436eff19a729950 backlight: qcom-wled: Convert to platform remove callback returning void
+20c111d2e18c7318a9f2ae815c84ea0a9218317e backlight: rt4831-backlight: Convert to platform remove callback returning void
+541ec23c603dcb3b9cebebe40d9a68cdc89dd36b backlight: sky81452-backlight: Convert to platform remove callback returning void
 
---===============0980169185180492290==--
+--===============4583902612681416893==--
