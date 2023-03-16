@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/libgpiod/libgpiod
-Date: Thu, 16 Mar 2023 12:44:05 -0000
-Message-Id: <167897064532.2759.11544983288148498129@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Thu, 16 Mar 2023 12:59:01 -0000
+Message-Id: <167897154158.13434.1354232523942744633@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/libgpiod/libgpiod
-user: brgl
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
   - ref: refs/heads/master
-    old: f2245fa32c1bccd171e53c579bd272a6d2c01c61
-    new: a81d25572593f1b5990ba3599dc4914655fb5728
+    old: dc983c2e4a63ff160abcdba4dda0433b40c70df8
+    new: 57746ff0eb4305761baa51bee945e496574559ca
     log: |
-         a81d25572593f1b5990ba3599dc4914655fb5728 bindings: cxx: tests: fix the test case for chip::unwatch_line_info()
+         57746ff0eb4305761baa51bee945e496574559ca Fix markup in mkfs.cramfs.8.adoc (again)
          
