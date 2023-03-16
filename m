@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
-Date: Thu, 16 Mar 2023 15:30:13 -0000
-Message-Id: <167898061356.20720.11973948731144169031@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Thu, 16 Mar 2023 15:30:58 -0000
+Message-Id: <167898065881.21017.9517841535007137010@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/liburing
-user: axboe
+repo: pub/scm/linux/kernel/git/tip/tip
+user: daveh
 changes:
-  - ref: refs/heads/master
-    old: 3bf49df7e927aa927c2b60ac2e22720bea10ce95
-    new: 24858f9531bbb5128bddb30df50ccda5d7dce356
+  - ref: refs/heads/x86/cleanups
+    old: 8c3223a50faf1d173e0159eff10a9de902407135
+    new: b9da86e3aade0cd8c8b60a0f6356e7730fc90d5d
     log: |
-         24858f9531bbb5128bddb30df50ccda5d7dce356 Add man pages for io_uring_prep_msg_ring_fd() and friends
+         b9da86e3aade0cd8c8b60a0f6356e7730fc90d5d x86/uaccess: Remove memcpy_page_flushcache()
          
