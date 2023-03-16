@@ -1,34 +1,50 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Thu, 16 Mar 2023 13:50:03 -0000
-Message-Id: <167897460332.17164.328808787422491396@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============8906055217123033850=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
+Date: Thu, 16 Mar 2023 13:52:01 -0000
+Message-Id: <167897472161.17958.15347815531173638929@gitolite.kernel.org>
+
+--===============8906055217123033850==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/cel/linux
+user: cel
 changes:
-  - ref: refs/heads/block-6.3
-    old: 23e5b9307ede26e37c5a97f91d0b7f3f86c4182b
-    new: 890a2fb06eb9af88b16f18840bf0b4dddc08b53d
-    log: |
-         54686b611eb054a5c84976e6f6e03788fa8e6a38 MAINTAINERS: repair malformed T: entries in NVM EXPRESS DRIVERS
-         37f0dc2ec78af0c3f35dd05578763de059f6fe77 nvme: fix handling single range discard request
-         a61d265533b7fe0026a02a49916aa564ffe38e4c nvme-pci: fixing memory leak in probe teardown path
-         9630d80655bfe7e62e4aff2889dc4eae7ceeb887 nvme-pci: add NVME_QUIRK_BOGUS_NID for Netac NV3000
-         b65d44fa0fe072c91bf41cd8756baa2b4c77eff2 nvme-pci: add NVME_QUIRK_BOGUS_NID for Lexar NM620
-         a3406352c54fbc476f4f6b98159c3ea1c7dbb6fc nvme-tcp: fix opcode reporting in the timeout handler
-         7e87965d3807ab1f518ef2365f91d5ba6b0c5abe nvme-tcp: add nvme-tcp pdu size build protection
-         8e19b87cfce2de2125f11363d7dea3d08f16ccae nvme-trace: show more opcode names
-         6173a77b7e9d3e202bdb9897b23f2a8afe7bf286 nvmet: avoid potential UAF in nvmet_req_complete()
-         890a2fb06eb9af88b16f18840bf0b4dddc08b53d Merge tag 'nvme-6.3-2022-03-16' of git://git.infradead.org/nvme into block-6.3
-         
-  - ref: refs/heads/io_uring-6.3
-    old: 6acd352dfee558194643adbed7e849fe80fd1b93
-    new: 5da28edd7bd5518f97175ecea77615bb729a7a28
-    log: |
-         5da28edd7bd5518f97175ecea77615bb729a7a28 io_uring/msg_ring: let target know allocated index
-         
+  - ref: refs/heads/topic-rpc-with-tls-upcall
+    old: e587a30183f8f2dac4d2dceb5d46b87bca8c3f9b
+    new: 25d00876cba9abbd0d5d67b84f336b2ccfa0097e
+    log: revlist-e587a30183f8-25d00876cba9.txt
+
+--===============8906055217123033850==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-e587a30183f8-25d00876cba9.txt
+
+aa2a4304fcbec96d085a8275c3e8628af36d854a net/handshake: Create a NETLINK service for handling handshake requests
+b7d74d7db9f18afa5258c92060bb77ab913029af net/tls: Add kernel APIs for requesting a TLSv1.3 handshake
+c6f6404af09e50c47592b69484949509507f5df4 NFS: Improvements for fs_context-related tracepoints
+ad26d6983017dac7fb8db8f451486c5a8f45de4e SUNRPC: Plumb an API for setting transport layer security
+6531f372b6f6b3ab603b47ad61381c151cad78df SUNRPC: Trace the rpc_create_args
+e2a6b8ebc8ae122bc67d81b431b793253421d0b9 SUNRPC: Refactor rpc_call_null_helper()
+f2e830a46d9cc84e324d7ec322f21f2efc8cf34b SUNRPC: Add RPC client support for the RPC_AUTH_TLS auth flavor
+c2dce903bfe3bb328444e8736495a5f9141ecf9c SUNRPC: Ignore data_ready callbacks during TLS handshakes
+b56b1c81eff82dfacbf5eb309dbf9959697c039b SUNRPC: Capture CMSG metadata on client-side receive
+5fd2593a5db8ac12c54e2c326cd759989ac7f8fc SUNRPC: Add a connect worker function for TLS
+47787dd17500fe233eebdf9a421c0c3dde2cdbd5 SUNRPC: Add RPC-with-TLS support to xprtsock.c
+7684947d8ccda5c44ebf16452914ecd104512c01 SUNRPC: Add RPC-with-TLS tracepoints
+9fcc5bed36c0e1e05314b6767c59789efe067a6d NFS: Have struct nfs_client carry a TLS policy field
+2e68dce54291a807511375d56cb8a231cdf5181c NFS: Add an "xprtsec=" NFS mount option
+92ae7f4387ac24626091384f6451cf7d2fdef179 NFS: Add mount options that specify TLS-related files
+eaeaaaefb1f4d6497b624df49a5dfb24e136047a SUNRPC: Recognize control messages in server-side TCP socket code
+f87ae81bd9a2ebe2a01fee5cd7ac095e9088e196 SUNRPC: Ensure server-side sockets have a sock->file
+7340995f27e9e625fce82c79c9ee9f91ee82320e SUNRPC: Support TLS handshake in the server-side TCP socket code
+404dd8df923fe07b7965d400b15883c48533e71c NFSD: Handle new xprtsec= export option
+25d00876cba9abbd0d5d67b84f336b2ccfa0097e SUNRPC: Coalesce xdr_buf parts when sending via TCP
+
+--===============8906055217123033850==--
