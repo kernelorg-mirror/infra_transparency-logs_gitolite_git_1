@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-Date: Thu, 16 Mar 2023 17:29:39 -0000
-Message-Id: <167898777906.2994.1766884153040462564@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Thu, 16 Mar 2023 17:31:00 -0000
+Message-Id: <167898786069.5099.10996075274000447461@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-user: vudentz
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: davem
 changes:
-  - ref: refs/heads/master
-    old: dd41882582a9ab19938598179386b81b793b4a5c
-    new: 8abee3773899049aefdf8eb397f426be3a219bf8
+  - ref: refs/heads/main
+    old: 9bdf4489a3950335af088604876fdc3209a9dd8e
+    new: 0ba13995be9b416ea1d3daaf3ba871a67f45899b
     log: |
-         8abee3773899049aefdf8eb397f426be3a219bf8 Bluetooth: mgmt: Fix MGMT add advmon with RSSI command
+         0ba13995be9b416ea1d3daaf3ba871a67f45899b net: phy: mxl-gpy: enhance delay time required by loopback disable function
          
