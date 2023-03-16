@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/wireless/iwd
-Date: Thu, 16 Mar 2023 15:24:53 -0000
-Message-Id: <167898029330.15641.3377039206824482488@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Thu, 16 Mar 2023 15:26:41 -0000
+Message-Id: <167898040107.17782.14963477786811972942@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/wireless/iwd
-user: denkenz
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
+user: tnguy
 changes:
   - ref: refs/heads/master
-    old: 62301b7918160672009250a2db7e900c64df4440
-    new: dc38964e42eb4f5439ce666a433f6869ce63cab7
+    old: 75014826d0826d175aa9e36cd8e118793263e3f4
+    new: cd356010ce4c69ac7e1a40586112df24d22c6a4b
     log: |
-         3345c56fbba8935fa71393e00d8f38291a2553af ft: Introduce ft_authenticate_onchannel
-         dc38964e42eb4f5439ce666a433f6869ce63cab7 station: Use ft_authenticate_onchannel
+         7c10131803e45269ddc6c817f19ed649110f3cae veth: Fix use after free in XDP_REDIRECT
+         cd356010ce4c69ac7e1a40586112df24d22c6a4b net: phy: mscc: fix deadlock in phy_ethtool_{get,set}_wol()
          
