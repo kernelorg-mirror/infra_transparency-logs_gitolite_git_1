@@ -1,28 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/xfs/xfs-linux
-Date: Thu, 16 Mar 2023 17:10:11 -0000
-Message-Id: <167898661151.22678.16295967282724743874@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Thu, 16 Mar 2023 17:13:13 -0000
+Message-Id: <167898679359.23701.16085634210003884717@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/xfs/xfs-linux
-user: djwong
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: dborkman
 changes:
-  - ref: refs/heads/for-next
-    old: 8ac5b996bf5199f15b7687ceae989f8b2a410dda
-    new: 6de4b1ab470fe52351415217ac6dffddee571c45
+  - ref: refs/heads/master
+    old: 72fe61d745cb0e199448e9125d894e59508b2bb3
+    new: 226efec2b0efad60d4a6c4b2c3a8710dafc4dc21
     log: |
-         6de4b1ab470fe52351415217ac6dffddee571c45 xfs: try to idiot-proof the allocators
+         ed01385c0d78a025bdc72128b7aa7c3309cd5852 selftests/bpf: Use ASSERT_EQ instead ASSERT_OK for testing memcmp result
+         226efec2b0efad60d4a6c4b2c3a8710dafc4dc21 selftests/bpf: Fix a fd leak in an error path in network_helpers.c
          
-  - ref: refs/heads/xfs-6.3-fixes
-    old: 8ac5b996bf5199f15b7687ceae989f8b2a410dda
-    new: 6de4b1ab470fe52351415217ac6dffddee571c45
-    log: |
-         6de4b1ab470fe52351415217ac6dffddee571c45 xfs: try to idiot-proof the allocators
-         
-  - ref: refs/tags/xfs-6.3-fixes-2
-    old: 0000000000000000000000000000000000000000
-    new: 5375e112a18132e86f6dbec8fb3c8f569cd136e2
