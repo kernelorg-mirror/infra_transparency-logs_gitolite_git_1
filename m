@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Thu, 16 Mar 2023 17:40:04 -0000
-Message-Id: <167898840401.11447.17653402041629324299@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 16 Mar 2023 17:40:25 -0000
+Message-Id: <167898842538.11666.2153513040169907594@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
-user: snitzer
+repo: pub/scm/linux/kernel/git/netdev/net
+user: davem
 changes:
-  - ref: refs/heads/for-next
-    old: d9a02e016aaf5a57fb44e9a5e6da8ccd3b9e2e70
-    new: d3aa3e060c4a80827eb801fc448debc9daa7c46b
+  - ref: refs/heads/main
+    old: b830c9642386867863ac64295185f896ff2928ac
+    new: 65d63e82b19201a5b522ca4eb2d6dffe0b4b6a31
     log: |
-         d3aa3e060c4a80827eb801fc448debc9daa7c46b dm stats: check for and propagate alloc_percpu failure
+         636e8adf7878eab3614250234341bde45537f47a net: dsa: don't error out when drivers return ETH_DATA_LEN in .port_max_mtu()
+         7e9517375a14f44ee830ca1c3278076dd65fcc8f net: dsa: mv88e6xxx: fix max_mtu of 1492 on 6165, 6191, 6220, 6250, 6290
+         65d63e82b19201a5b522ca4eb2d6dffe0b4b6a31 Merge branch 'net-dsa-marvell-mtu-reporting'
          
