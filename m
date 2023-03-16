@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2339119024979443056=="
+Content-Type: multipart/mixed; boundary="===============2204100251974282860=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Thu, 16 Mar 2023 15:33:35 -0000
-Message-Id: <167898081559.22034.6678406300351160955@gitolite.kernel.org>
+Date: Thu, 16 Mar 2023 15:44:25 -0000
+Message-Id: <167898146583.28443.15851775523102703586@gitolite.kernel.org>
 
---===============2339119024979443056==
+--===============2204100251974282860==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: a02d83f9947d8f71904eda4de046630c3eb6802c
-    new: 9bdf4489a3950335af088604876fdc3209a9dd8e
-    log: revlist-a02d83f9947d-9bdf4489a395.txt
+  - ref: refs/heads/dev-queue
+    old: f51d310778f87c948cbfa593abfa0fa5358bcc1e
+    new: 67140759e0fb842329a5d268e77978cbf40ff82f
+    log: revlist-f51d310778f8-67140759e0fb.txt
 
---===============2339119024979443056==
+--===============2204100251974282860==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a02d83f9947d-9bdf4489a395.txt
+Content-Disposition: attachment; filename=revlist-f51d310778f8-67140759e0fb.txt
 
 504ce971f260c178fa625f1278d9a762bc366504 ice: re-order ice_mbx_reset_snapshot function
 28756d9ec93e6588b1c3a00cc9123e238a71c709 ice: convert ice_mbx_clear_malvf to void and use WARN
@@ -68,5 +68,35 @@ cee7b339d806f71df611087724ddfbaad2d8f8b7 nfp: flower: refactor function "is_pre_
 a87ceb3d42afebd86191054314ef1a2f98c4556b nfp: flower: offload tc flows of multiple conntrack zones
 6873465c1930e0caeccbe0f9987a7b4f9afbdac8 Merge branch 'nfp-flower-add-support-for-multi-zone-conntrack'
 9bdf4489a3950335af088604876fdc3209a9dd8e net: phy: micrel: Fix spelling mistake "minimim" -> "minimum"
+8fdd9fed3d9edc3a922740d48305020a0d56f33f intel/igbvf: free irq on the error path in igbvf_request_msix()
+7d87f6e5c6e69d09942bb27554284bd767856f38 igb: Enable SR-IOV after reinit
+bb2da11e5a3f6d03692d67a8dedf56ae88b5d0e8 igbvf: Regard vf reset nack as success
+548264f02078f37af7064235094c5f46041902b0 ice: xsk: disable txq irq before flushing hw
+ba3aa81fcd009fbb9e2e3ea64397930f4f1cf140 ice: Write all GNSS buffers instead of first one
+114c9168e9f012a92fbd11fd6a7e176ec66e5f43 i40e: Fix kernel crash during reboot when adapter is in recovery mode
+e55892c24b22e1dab4ed2a8fd6fbc1ecd0c79202 igc: Remove obsolete DMA coalescing code
+87ecbaf5d674dc8e8d50dabea5c123efdd1b3fd7 ice: avoid bonding causing auxiliary plug/unplug under RTNL lock
+9744d4c06ce05b5d29ddd6d2ebf8a07f4ed9cffb ice: remove comment about not supporting driver reinit
+d6e3483b38a15e6b780c3c5e97928e73519adfd6 iavf: fix inverted Rx hash condition leading to disabled hash
+947aa18d99111f8768d2a71356c1eecd18e9b1a0 iavf: fix non-tunneled IPv6 UDP packet type and hashing
+f2d2317b7ae5db510539f4056c58ead284cc683a igbvf: add PCI reset handler functions
+bd5b1a5b738fa03e434d98cb2fb17612c1aa2d1f igb: revert rtnl_lock() that causes deadlock
+cdc7fb285055b4fdb2fbfc77ab557a730c6b3921 iavf: do not track VLAN 0 filters
+cf579818e2dec9d1108794df202b4a7d2ed70b6b igc: fix the validation logic for taprio's gate list
+43a963b3997ec5112d6d28337a772e8a750ca308 igb: refactor igb_ptp_adjfine_82580 to use diff_by_scaled_ppm
+2efb6ef815ad6ab38d1dfc9639984df6b5c06c9d ixgbe: Panic during XDP_TX with > 64 CPUs
+fa5589056e56b0b16507435f5e35524d96a095d0 ice: fix rx buffers handling for flow director packets
+58d463653926863e8c4f15194e701d37586249be ice: check if VF exists before mode check
+a0af720513e548de93f415cc94b01ef5a0928502 ice: remove filters only if VSI is deleted
+236f3f6c3d561d65ca1ac12f2d4332fec140b0e0 i40e: fix flow director packet filter programming
+93c190d5da17f60a7a08de867656ccc7c0c77b76 iavf: fix hang on reboot with ice
+5fc9efb3f8df1b1b9be4c71cba3a44dce2108dc0 ice: fix W=1 headers mismatch
+c9faedf7fd677a52ab0b4065cc3e73866f2d1e5d ice: Fix ice_cfg_rdma_fltr() to only update relevant fields
+3a102a50e974b0153547ec8f528bcb2dd6ff1fd6 ice: add profile conflict check for AVF FDIR
+d142337937864be4b636f1c8dcccf997109f18df ice: remove FW logging code
+d1d8fa657b403a7b5d3b4dc12d967d6f505d51c6 ice: enable debugfs to check FW logging status
+becbedb7e62005cb73f3a1166e773e9f3767d885 ice: add ability to set FW log configuration
+00a5b1fb180c37b9a4d4d8d76675c54f1afe41fd ice: enable FW logging based on stored configuration
+67140759e0fb842329a5d268e77978cbf40ff82f ice: add ability to read FW logging data
 
---===============2339119024979443056==--
+--===============2204100251974282860==--
