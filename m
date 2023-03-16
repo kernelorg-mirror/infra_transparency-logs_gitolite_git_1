@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2953236410591441482=="
+Content-Type: multipart/mixed; boundary="===============7427064578639269029=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Thu, 16 Mar 2023 08:37:53 -0000
-Message-Id: <167895587341.18757.2815324171395934290@gitolite.kernel.org>
+Date: Thu, 16 Mar 2023 08:40:27 -0000
+Message-Id: <167895602790.21153.16351227478245963620@gitolite.kernel.org>
 
---===============2953236410591441482==
+--===============7427064578639269029==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,71 +17,44 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/staging-testing
-    old: 458219ca9246076971961d695eef9eb56e05fcf7
-    new: 94f7d4a4641d2fc2dc4065b76914d0a37cebfd17
-    log: revlist-458219ca9246-94f7d4a4641d.txt
+    old: 94f7d4a4641d2fc2dc4065b76914d0a37cebfd17
+    new: 26269cbc7f2debf4cad98c74f14d0113672bb780
+    log: |
+         78c0fb1ad68ce120efafe86790e4a674c2c12ef4 staging: rtl8723bs: MapCharToHexDigit() is not used
+         e65df7f096d50200e7b6e0b545aeada510cbba63 staging: rtl8723bs: ParseQualifiedString() is not used
+         f89a163f1f66a9bea1222b0e61c3171b6bd0a080 staging: rtl8723bs: isAllSpaceOrTab() is not used
+         1558280ca955c26bf0e13f7f17750a89c201d25b staging: rtl8723bs: linked_info_dump() is not used
+         26269cbc7f2debf4cad98c74f14d0113672bb780 staging: rtl8723bs: rtw_get_raw_rssi_info() is not used
+         
 
---===============2953236410591441482==
+--===============7427064578639269029==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1678955870 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1678956025 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1678955870-791d89ba0e4ea5caaf7dfd9b69e1513dc808864c
+nonce 1678956025-b580a72987ce90e4492bd003a74bab20d4e8d1ba
 
-458219ca9246076971961d695eef9eb56e05fcf7 94f7d4a4641d2fc2dc4065b76914d0a37cebfd17 refs/heads/staging-testing
+94f7d4a4641d2fc2dc4065b76914d0a37cebfd17 26269cbc7f2debf4cad98c74f14d0113672bb780 refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQS1V4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+8T0QALkMmrKT+cinGTe6d/Tu
-EPUT6mAnF5jQHa44WiiUf+aV5fwLyJEAcILBEUMXaThO3E9zcGfkPu2H18Vi2zFo
-wM5Po4KeVdrig6tSG8FLdREL6orPWyEIuK6wCRjjAjzZTNTUR9Lt7k8Kq/aWvOjF
-asMEaA2FF3Xzeuufum/RkZztXSX00vfByC7mOf2RjkEjYWRPome5EZJcc3XDsqEZ
-269rbAyagsL51iiSwurnePPxy/ef9PQ+TrX82ZQ31l1UwzgUKUGOS6Oja/BMYmpZ
-l4sjd2pkXdqDcZPIzAhtLAxuDXj5mG0AlX425Uzg5VH9EyGMOx2Nq6ikcfVOrANi
-khmu/U9j4znKXVQlvVZeHRV3KsgvCKVk52X8MITR/hZmxir2RBodwpf2ThOoRdlC
-EQSUs8DDrJK/sdJ57DZ96CpuVicjBOxnaMypfsXIdtITJG7K9ZkEqaEP9sCoaG/Y
-+AKKzLXs109qofvBjx8NssaZF3vuRF0MpY04WOVNiidUtG9QnFIsIuQTyHMM/OTI
-2FHbn+0XJD4XqPCdxoLiR9PECjmXobEVdJu5dHvr3uByIyiu/TJJn2Br/KlXbD9K
-KnrxiKSd3jzTWw2337wfMi070z5JXtjHrrFNie4LktEJO/Va3x1zWvdsUMYFEv2q
-v5gJ6DZX8g77RxIFVGNkqOFF
-=8MLu
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQS1fkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+WhwQALenMR4a74CDu8aP+DNc
+lfdr1E97psBSOJuxwuLavIoI/ccorT1CIFSkqdcaGMJSGIA1qFnwx3QMfFfz8DQy
+jW7FyLWBaWMQm3mlAp7KjtA+WUsgCS8GiPIl+emY0EODeTcrgoABZ+CERJDGkAYp
+o89VlcKff5321+uCclInQfKucZXyDGbWIzcHNI6it3Au3VZh9NCW6MKq3Hxwtez3
+DVACXeZUR2xqZqhUXtJ/Lecfvv5Z1ePDXjrgc3VoHzQOQA6t6atf7DdV0cqV5t+R
+ksPk3ppWT+aisKyyNsS9cWsF7Jkv1ssWNhmU5rWUt6EiQ9F57dU86/CO5NPzQgEN
+Gai0ZMZDPeqDTRAzJM7WzvdXG8cfGaSekx8FFDqBrKaKtr89LLIywIAU1t32MAH1
+rA82SKy4VVNqE3mDl+A4bxI6vzU9o65nqZ9vMdDDIXR5XiYD1iF1mo47CWcKMw8K
+NvYcMpDso3B/kacXVFezan2WUgvPkSnXH7fumntuGN/XbK84CBGTIPs3ZRtUc8fO
+mWkh2Zb9m6bsxHYgDKMHoDz16st/MfaBtI6SudKFDAEiNYnMKHiaynrLqC0UJ6fI
+ZXZNy71xSx1g/yDy11qx76l2WYQzn9N+meK0Ko6AUg9qB2zZtnrhf7bX2kKG/kHg
+4JTm9dxSlvXh/Y6o9vadZ/KM
+=fz7S
 -----END PGP SIGNATURE-----
 
---===============2953236410591441482==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-458219ca9246-94f7d4a4641d.txt
-
-eab1fd002a4f1389496a17fe8b7bcdb510c6afed staging: rtl8192e: Remove unused RF90_PATH_C and ..D in rtl92e_config_rf
-3faa16d5217b0abb5fcc1d5e0ea7b78a0d9df003 staging: rtl8192e: Remove unused RF90_PATH_C and ..D for rfintfs
-308e4650ea173d0e337b496cd9ea67c0ae24c572 staging: rtl8192e: Remove unused variable rfintfi
-0b8f11cdcb3ab3e83bc5506d6e97d95f0093647b staging: rtl8192e: Remove unused RF90_PATH_C and ..D for rfintfo and ..fe
-9272ddf969bc1656179c095b7fc683b08b1f6d5e staging: rtl8192e: Remove unused RF90_PATH_C and ..D for rf3wireOffset
-7358afd5bee314fc740d10c1de49a1038df478e0 staging: rtl8192e: Remove unused variable rfLSSI_Select and rfTxGainStage
-37acdfa8beaa8669b0980e8ece6045047126469a staging: rtl8192e: Remove unused variable rfHSSIPara1 and rfSwitchControl
-76535902f6d4ab1b0e81894e770476da3e8b199e staging: rtl8192e: Remove unused variable rfAGCControl1 and rfAGCControl2
-6362c2acfc3a2629fdbfdc130b6f54c5e63e0532 staging: rtl8192e: Remove unused variable rfRxIQImbalance and rfRxAFE
-5a828b61b8b6300384fad60aa2d7fe340ff4957d staging: rtl8192e: Remove unused variable rfTxIQImbalance and rfTxAFE
-9d5e2ea45b58c5180aefdf1ef5071e9af445f11b staging: rtl8192e: Remove unused RF90_PATH_C and ..D for rfLSSIReadBack
-3e83b45cb66a6077300bae384b59cdd2b66b00e0 staging: rtl8192e: Remove unused RF90_PATH_C and ..D for rfHSSIPara2
-7c4b9278d44c567f335ef3714e201e1f2074bb9d staging: rtl8192e: Replace RF90_PATH_C in test expression of for loop
-f933c226ceae738f5e9daeb73eab304bb7e3bfcc staging: rtl8192e: Remove function rtl92e_is_legal_rf_path
-3dcf9a25d85a0e2bb619c045a64845cccdaf9fc3 staging: rtl8192e: Join constants AGCTAB_ArrayLength with ..LengthPciE
-27d218e343f980a252e8d08938cbebea2563e04c staging: rtl8192e: Join constants MACPHY_ArrayLength with ..LengthPciE
-8f214347a71e0f57d80f44e2079a282c745a4dca staging: rtl8192e: Join constants RadioA_ArrayLength with ..LengthPciE
-ae9cb2196468e7e201d5a99c0a6f7fdb12719f59 staging: rtl8192e: Join constants RadioB_ArrayLength with ..LengthPciE
-b89dd56751257a0aff2ed5af38945cdd6e318fdd staging: rtl8192e: Join constants MACPHY_Array_PGLength with ..LengthPciE
-abeb432189962c0248657a92f7b13f80febe97a2 staging: rtl8192e: Join constants PHY_REG_1T2RArray.. with ..LengthPciE
-85246543066536a352d72b53dc2852fe0d3ae6a8 staging: rtl8192e: Join constants Rtl819XMACPHY_..PG with Rtl8192PciE..
-bfe890e59253f667b1ccccfa46051251ad513d51 staging: rtl8192e: Join constants Rtl819XMACPHY_.. with Rtl8192PciE..
-abb3551a4af8c16f2d478185b315258a62a13966 staging: rtl8192e: Join constants Rtl819XRadioA_.. with ..RadioA_..
-22fc1bb4750150e3b743c51e5c5b8dc78fbe7ea4 staging: rtl8192e: Join constants Rtl819XRadioB_.. with ..RadioB_..
-dc756b9354b844c7a35385bf1b91cd9368feb18f staging: rtl8192e: Join constants Rtl819XAGCTAB_.. with ..PciEAGCTAB..
-94f7d4a4641d2fc2dc4065b76914d0a37cebfd17 staging: rtl8192e: Join constants Rtl819XPHY_REG_.. with ..PciEPHY_REG_..
-
---===============2953236410591441482==--
+--===============7427064578639269029==--
