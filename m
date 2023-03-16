@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1688314259091606024=="
+Content-Type: multipart/mixed; boundary="===============6282748771122240408=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 16 Mar 2023 17:54:55 -0000
-Message-Id: <167898929567.20866.16637299172395020037@gitolite.kernel.org>
+Date: Thu, 16 Mar 2023 17:55:53 -0000
+Message-Id: <167898935333.22724.9423375787314955176@gitolite.kernel.org>
 
---===============1688314259091606024==
+--===============6282748771122240408==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/main
     old: cd356010ce4c69ac7e1a40586112df24d22c6a4b
     new: 04504793feec0484dd0deea566c386d1965578f6
     log: revlist-cd356010ce4c-04504793feec.txt
 
---===============1688314259091606024==
+--===============6282748771122240408==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -40,4 +40,4 @@ fa0f1ba7c8233118b6fdaa65e2f5ded563d3e1fa virtio_net: fix page_to_skb() miss head
 1a3bd6eabae35afc5c6dbe2651f21467cf8ad3fd virtio_net: free xdp shinfo frags when build_skb_from_xdp_buff() fails
 04504793feec0484dd0deea566c386d1965578f6 Merge branch 'virtio_net-xdp-bugs'
 
---===============1688314259091606024==--
+--===============6282748771122240408==--
