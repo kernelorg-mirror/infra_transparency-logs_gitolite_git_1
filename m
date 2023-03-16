@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/efi/efi
-Date: Thu, 16 Mar 2023 13:43:30 -0000
-Message-Id: <167897421098.10546.8626360754931846334@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+Date: Thu, 16 Mar 2023 13:46:23 -0000
+Message-Id: <167897438333.14393.16357629118801220554@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/efi/efi
-user: ardb
+repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+user: masahiroy
 changes:
-  - ref: refs/heads/urgent
-    old: ef3efc2af044f6da5bb8c55e99f2398081d99c09
-    new: e11717a83d66723222627f07e94f7f2a4832ba64
+  - ref: refs/heads/fixes
+    old: 36862e14e31611f9786622db366327209a7aede7
+    new: 05e96e96a315fa49faca4da2aedd1761a218b616
     log: |
-         4710f46fdb91e0821431a7973fc81f47e533d1e9 efi/libstub: smbios: Use length member instead of record struct size
-         c0b43e312d84be8e40d0d1ddea22bcbf733a328a arm64: efi: Use SMBIOS processor version to key off Ampere quirk
-         e11717a83d66723222627f07e94f7f2a4832ba64 efi/libstub: smbios: Drop unused 'recsize' parameter
+         81f59a26f3d59c6aeb137b7b5546848779222c65 kbuild: rpm-pkg: move source components to rpmbuild/SOURCES
+         05e96e96a315fa49faca4da2aedd1761a218b616 kbuild: use git-archive for source package creation
          
