@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Fri, 17 Mar 2023 11:27:11 -0000
-Message-Id: <167905243188.7181.13448800141831838220@gitolite.kernel.org>
+Date: Fri, 17 Mar 2023 12:14:19 -0000
+Message-Id: <167905525907.4476.10496351176663730527@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,9 @@ repo: pub/scm/utils/util-linux/util-linux
 user: kzak
 changes:
   - ref: refs/heads/master
-    old: abd05a411c57f9f986ec4a457ceee5ba7e5db29c
-    new: 9c9cc3f02d9f017d8072b8ead4e6183300f4fd03
+    old: 9c9cc3f02d9f017d8072b8ead4e6183300f4fd03
+    new: bccae5d85831c4cfa6b5d147acec739bd3c148b9
     log: |
-         df19f7c6c463d9e628e63daf303a8c4dd54f72a8 Fix typo in lsfd.c
-         9c9cc3f02d9f017d8072b8ead4e6183300f4fd03 Merge branch 'patch-9' of https://github.com/mariobl/util-linux
+         c8fc8a59e13bbb2ec37956b491577a5ed46879bd build-sys: report fuzzing support status
+         bccae5d85831c4cfa6b5d147acec739bd3c148b9 build-sys: fix libblkid fuzz sample test if-endif
          
