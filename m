@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9146541482915441081=="
+Content-Type: multipart/mixed; boundary="===============4034778734654838855=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Fri, 17 Mar 2023 03:59:50 -0000
-Message-Id: <167902559063.11234.18004485813879904698@gitolite.kernel.org>
+Date: Fri, 17 Mar 2023 04:00:06 -0000
+Message-Id: <167902560636.13017.11457987116481476247@gitolite.kernel.org>
 
---===============9146541482915441081==
+--===============4034778734654838855==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-queue
-    old: f3e85bfeff1eae919a2bb68123508d95605ad79f
-    new: f7ceab65ceeab71320c3c10244c844cc00db099b
-    log: revlist-f3e85bfeff1e-f7ceab65ceea.txt
+  - ref: refs/heads/6.4/scsi-queue
+    old: 04d02221dbf9dec37b814baae118d6bc0e2ddad6
+    new: 0b31b77f281a1734fe14821c5cc044baea9154fc
+    log: revlist-04d02221dbf9-0b31b77f281a.txt
 
---===============9146541482915441081==
+--===============4034778734654838855==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1679025578 -0400
+pusher 75C5DE3D 1679025594 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1679025578-518674c670f79d48d5927bf8d433d7ba37d83c99
+nonce 1679025593-0e573541a8551e9eacea6eaeb73013f032e44c7a
 
-f3e85bfeff1eae919a2bb68123508d95605ad79f f7ceab65ceeab71320c3c10244c844cc00db099b refs/tags/mkp-scsi-queue
+04d02221dbf9dec37b814baae118d6bc0e2ddad6 0b31b77f281a1734fe14821c5cc044baea9154fc refs/heads/6.4/scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmQT5aoACgkQ7ulgGnXF
-3j2UDA/9Ez4I3NsqP3djHQn2nQ7b/MpsEIug0mPPhXQMihP5EXU9Ypgrcn5y8yg5
-sgRHMerKuFB3UaNEHsYgoMpKcIBYwRmKempwWCREdQ1kgfFjnVecilPsUpb1sZMR
-R8WlDLxjbWZjLgRp8iBt8KLa19JhgU0GJEZ36JY0vJianSJYS5d2vXeUoc8v0fRT
-uLOgLHsz/wh7uYJ/zaPxzh/IeL+7ObdIRyDYUw5VnKSi65Kj3IfR/zbHBTuJ4OBK
-9zzYoR7bc9RpEjGaB+KdRLY9N75jwBmQ7FAq5dnttcOUPmm6UelZW4su3aRsH6Zr
-MxocjFmgfmYbK4fhHE/3HnfGnaWoe5x+Mn4mhuZcFl6J+UaWVcYg4n84TLFNR0KN
-UPpArYumaqE0suVgZHkiq0vmMQPmsnA4eyqkVionmulNHR0Z9MCiIV8FrwSg2rsB
-PYyMD3FhRaMRkiFUGAd1mam14tjqh0U4WvrBXnEAz1m86sry4yvB1DVa84AJmpFu
-kWys95eE/40g6N23iells15CxMRn4nuCzHxjRUogqW+U/U/YtwACPAOLPug30ff8
-2mVMhMe6c+4NRfg2Lc1EwHkFTHh62+HlYsMm7TwduTv7AXgLbqyCm31p5qrWwP9u
-2ewa+1PmGbOB3ba3uoTPn0lJ6eUEz2z8Os+ciapVou4viGwtAto=
-=JpGu
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmQT5boACgkQ7ulgGnXF
+3j0K7g//SWeGKrmM9QCVKtD/Nf8Vhrf5DrQzLPgospt72+hVtoY6TH9F1r7hjUlB
+YrmAf5Ja5MFKBtqhLnh4yQPRxvuMuzTN9T+zi6+64SUS9y6OZd4rJCSUq731w3Uj
+vpjkYXha/doPEYv/VHWXH5SB1nOKHrBayw3ktnsz0MLS2BWeQMQ1JJmyRsfPZivT
+UAnJdAaOx/EKtHhSN6BO7qTH12mR/dUU/SR2DTCmKP9Uf1iR/joKEBP5ymVXphZS
+jEsvn++h1eaYDCIkT/7+Zc3S6OhLwdFij7m8PtV/ON0MCFFhdbXQuRuQ32Kk99lC
+vstrg7vCkSZc4QTihdFExiCRwjMiYbFd7AeW7aj7R4zjebQgmTTe3Ggtx6bljZc1
+JRCaFphlxoR2jwySdiUYp2/6wVuojyj2y6fHQvjSL6xX+iAKo/KAZpZcyG0YFcl0
+2UOMBGCFSWtl8XXP51ychpXCx6ya+lfkjBX1pkgZxXM+AOD6BHP3MoY6D6y4Hn7E
+iRbXy40yWSbl6GmFWlb3D9aNd888o3/P/ao+pg94kG+CuQroyOBS0+HkU6qFKwt4
+RvjC9fTVY7SS69HjLqKQMpbrOwXgmqLzDZZPSkr4L1FJbPnK1KcDzfX4r4MExrKh
+156dbykbgQBMjygm05n4l/bWvP6YLtJhaLdml3acBvyfaOS6bdk=
+=vBbA
 -----END PGP SIGNATURE-----
 
---===============9146541482915441081==
+--===============4034778734654838855==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f3e85bfeff1e-f7ceab65ceea.txt
+Content-Disposition: attachment; filename=revlist-04d02221dbf9-0b31b77f281a.txt
 
 3f4b9cb4133a4ecf16447cbd5fdb8ed618593bf8 scsi: target: core: Add RTPI field to target port
 b9e063adfb8a812d9c47ff690e645086c6f76f42 scsi: target: core: Use RTPI from target port
@@ -78,4 +78,4 @@ c5c440bbff8636bb67ec1f60857e0b6311a4c2f0 scsi: qla2xxx: Drop redundant pci_enabl
 d7ba106418d6d789d238f87535952edb65b0dbea scsi: qla4xxx: Drop redundant pci_enable_pcie_error_reporting()
 0b31b77f281a1734fe14821c5cc044baea9154fc Merge patch series "PCI/AER: Remove redundant Device Control Error Reporting Enable"
 
---===============9146541482915441081==--
+--===============4034778734654838855==--
