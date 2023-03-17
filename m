@@ -1,32 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Fri, 17 Mar 2023 16:40:32 -0000
-Message-Id: <167907123261.24722.10544641730539007793@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Fri, 17 Mar 2023 16:50:04 -0000
+Message-Id: <167907180403.32548.1182232554513045818@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
-user: broonie
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/for-linus
-    old: 30549964ce67f6f363023ec680ddca9fac63904e
-    new: 205efd4619b860404ebb5882e5a119eb3b3b3716
+  - ref: refs/heads/for-6.4/io_uring
+    old: 80d5ea4e019d5ac0257c9bf06a7bcf30c9500adc
+    new: 8e8decb2c151d907aefc53a6297c85db1bda0746
     log: |
-         205efd4619b860404ebb5882e5a119eb3b3b3716 ASoC: amd: yc: Add DMI entries to support Victus by HP Laptop 16-e1xxx (8A22)
+         8e8decb2c151d907aefc53a6297c85db1bda0746 io_uring/kbuf: disallow mapping a badly aligned provided ring buffer
          
   - ref: refs/heads/for-next
-    old: 7ebd2c9652476e63e18e523d27a7f01908e9f1da
-    new: 4968055f393d65564c6ea99dbec67828cc6c13a5
+    old: 22dd958c3b872596657daa024c53c41ecd7d2b46
+    new: 0278fba00c43399373f0154062d3fb53a110e76e
     log: |
-         205efd4619b860404ebb5882e5a119eb3b3b3716 ASoC: amd: yc: Add DMI entries to support Victus by HP Laptop 16-e1xxx (8A22)
-         279e52d6b9f366f9930a0f90ee84e7d0a6a27b26 ASoC: SOF: ipc4-pcm: support multiple configs for BE DAIs
-         37ec7ab49f951ef8c38102328b84d3dc7155dc68 ASoC: SOF: ipc4-topology: use common helper function in copier prepare
-         ef51cd1ebab63bb92bfef050fbf12b2265f5c7a5 ASoC: SOF: ipc4-topology: Initialize in_format to NULL in sof_ipc4_get_audio_fmt
-         b36bf721578bfe8229c1d7f2fcd0bd021cc8b2f4 ASoC: dt-bindings: adi,adau17x1: fix indentation and example
-         47df94faa5e3775510177cdc0909e397300cc791 ASoC: dt-bindings: renesas: rsnd: correct comments syntax
-         6a36690a64d61314ea7fe07b441aab903626a4dc ASoC: SOF: ipc4: upport multiple configs for BE DAIs
-         4968055f393d65564c6ea99dbec67828cc6c13a5 Merge remote-tracking branch 'asoc/for-6.4' into asoc-next
+         8e8decb2c151d907aefc53a6297c85db1bda0746 io_uring/kbuf: disallow mapping a badly aligned provided ring buffer
+         0278fba00c43399373f0154062d3fb53a110e76e Merge branch 'for-6.4/io_uring' into for-next
          
