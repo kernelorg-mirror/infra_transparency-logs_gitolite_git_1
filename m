@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6926828597300203777=="
+Content-Type: multipart/mixed; boundary="===============2953017798932606472=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/lenb/linux
-Date: Fri, 17 Mar 2023 15:37:42 -0000
-Message-Id: <167906746289.13562.12629104902795349802@gitolite.kernel.org>
+Date: Fri, 17 Mar 2023 15:41:08 -0000
+Message-Id: <167906766871.16147.13275026318030262614@gitolite.kernel.org>
 
---===============6926828597300203777==
+--===============2953017798932606472==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,24 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/lenb/linux
 user: lenb
 changes:
-  - ref: refs/heads/master
-    old: 2475bf0250dee99b477e0c56d7dc9d7ac3f04117
-    new: eeac8ede17557680855031c6f305ece2378af326
-    log: revlist-2475bf0250de-eeac8ede1755.txt
+  - ref: refs/heads/turbostat
+    old: 9992dd777123b052e106eb5633de47148fef502e
+    new: de7839ee02c651335db6bf0af24cf5cac3cc4c72
+    log: revlist-9992dd777123-de7839ee02c6.txt
 
---===============6926828597300203777==
+--===============2953017798932606472==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-2475bf0250de-eeac8ede1755.txt
+Content-Disposition: attachment; filename=revlist-9992dd777123-de7839ee02c6.txt
 
-4a7d37e824f57dbace61abf62f53843800bd245c Merge tag 'hardening-v6.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
-7ae9fb1b7ecbb5d85d07857943f677fd1a559b18 Merge branch 'next' into for-linus
-ccfd889acb06eab10b98deb4b5eef0ec74157ea0 smackfs: Added check catlen
-2504ba8b01634319a6f95b7fa9bf9c101437e158 Merge tag 'pm-6.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
-88af9b164c7a25a71b1a1a699872b869e2e84c77 Merge tag 'acpi-6.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
-1b72607d7321e66829e11148712b3a2ba1dc83e7 Merge tag 'thermal-6.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
-f1aa2eb5ea05ccd1fd92d235346e60e90a1ed949 sysctl: fix proc_dobool() usability
 9b4f5028e493cb353a5c8f5c45073eeea0303abd scsi: ses: Fix slab-out-of-bounds in ses_enclosure_data_process()
 db95d4df71cb55506425b6e4a5f8d68e3a765b63 scsi: ses: Fix possible addl_desc_ptr out-of-bounds accesses
 801ab13d50cf3d26170ee073ea8bb4eececb76ab scsi: ses: Fix possible desc_ptr out-of-bounds accesses
@@ -1050,5 +1043,12 @@ f1324bbc4011ed8aef3f4552210fc429bcd616da tpm: disable hwrng for fTPM on some AMD
 c4ecd87f75ec4d5ac3006ef21ce07e812982e46e Merge tag 'tpm-v6.3-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 79d1ed5ca7db67d48e870c979f0e0f6b0947944a wifi: cfg80211: Partial revert "wifi: cfg80211: Fix use after free for wext"
 eeac8ede17557680855031c6f305ece2378af326 Linux 6.3-rc2
+884a1f956179b561e7e7f1d29fc331cf53233c89 tools/power turbostat: update dump of SECONDARY_TURBO_RATIO_LIMIT
+9c08581728ccadc6b9e4135b7b8d31948e814f6f tools/power turbostat: Provide better debug messages for failed capabilities accesses
+40aafc7d58d3544f152a863a0e9863014b6d5d8c tools/power turbostat: Fix /dev/cpu_dma_latency warnings
+6cbfedc7afc93a7f06d4a2f7c4d4732b20adfc2b tools/power turbostat: remove stray newlines from warn/warnx strings
+93cac4150727dae0ee89f501dd75413b88eedec0 tools/power turbostat: Introduce support for EMR
+92c25393586ac799b9b7d9e50434f3c44a7622c4 tools/power turbostat: fix decoding of HWP_STATUS
+de7839ee02c651335db6bf0af24cf5cac3cc4c72 tools/power turbostat: version 2023.03.17
 
---===============6926828597300203777==--
+--===============2953017798932606472==--
