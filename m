@@ -1,37 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============6113324962424421295=="
+Content-Type: multipart/mixed; boundary="===============6621933379492500103=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Fri, 17 Mar 2023 02:35:24 -0000
-Message-Id: <167902052447.19756.16225080805968498602@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Fri, 17 Mar 2023 02:35:34 -0000
+Message-Id: <167902053423.19934.4429339950779959728@gitolite.kernel.org>
 
---===============6113324962424421295==
+--===============6621933379492500103==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
   - ref: refs/heads/master
     old: 6f72958a49f68553f2b6ff713e8c8e51a34c1e1e
     new: 6f08c1de13a9403341c18b66638a05588b2663ce
     log: revlist-6f72958a49f6-6f08c1de13a9.txt
-  - ref: refs/heads/pending-fixes
-    old: 71c206ed429bcd060918a00616d993244294315e
-    new: 0e8bb497921ed7a14859725fc9a6f5d70533ff8f
-    log: revlist-71c206ed429b-0e8bb497921e.txt
-  - ref: refs/heads/stable
-    old: 9c1bec9c0b08abeac72ed6214b723adc224013bf
-    new: 0ddc84d2dd43e2c2c3f634baa05ea10abd31197e
-    log: revlist-9c1bec9c0b08-0ddc84d2dd43.txt
   - ref: refs/tags/next-20230317
     old: 0000000000000000000000000000000000000000
     new: daff85a706ed3a8fda75850ea165bccd6fec0d0b
 
---===============6113324962424421295==
+--===============6621933379492500103==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -924,147 +916,4 @@ cf8de0b87ce3b54f36dcdafb15666e66b5c180e1 Merge branch 'next' of git://git.kernel
 4479d3dff82d22b152f2085f2c717d12e5fbe777 Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/jgg/iommufd.git
 6f08c1de13a9403341c18b66638a05588b2663ce Add linux-next specific files for 20230317
 
---===============6113324962424421295==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-71c206ed429b-0e8bb497921e.txt
-
-f77ebdda0ee652124061c2ac42399bb6c367e729 interconnect: qcom: osm-l3: fix icc_onecell_data allocation
-87e8fab1917a2b3f6e3dedfd1cdf22a1416e6676 interconnect: qcom: sm8450: switch to qcom_icc_rpmh_* function
-0d00cd114f20e4a6db37e4b08435c27acc1d1db0 interconnect: qcom: sm8550: switch to qcom_icc_rpmh_* function
-633a12fda6536a1a17bcea29502e777e86a4547e interconnect: qcom: qcm2290: Fix MASTER_SNOC_BIMC_NRT
-a5904f415e1af72fa8fe6665aa4f554dc2099a95 interconnect: fix mem leak when freeing nodes
-e0e7089bf9a87bc5e3997422e4e24563424f9018 interconnect: fix icc_provider_del() error handling
-eb59eca0d8ac15f8c1b7f1cd35999455a90292c0 interconnect: fix provider registration API
-9fbd35520f1f7f3cbe1873939a27ad9b009f21f9 interconnect: imx: fix registration race
-174941ed28a3573db075da46d95b4dcf9d4c49c2 interconnect: qcom: osm-l3: fix registration race
-bc463201f60803fa6bf2741d59441031cd0910e4 interconnect: qcom: rpm: fix probe child-node error handling
-90ae93d8affc1061cd87ca8ddd9a838c7d31a158 interconnect: qcom: rpm: fix registration race
-6570d1d46eeade82965ccc4a3ab7d778898ef4bf interconnect: qcom: rpmh: fix probe child-node error handling
-74240a5bebd48d8b843c6d0f1acfaa722a5abeb7 interconnect: qcom: rpmh: fix registration race
-bfe7bcd2b9f5215de2144f097f39971180e7ea54 interconnect: qcom: msm8974: fix registration race
-3aab264875bf3c915ea2517fae1eec213e0b4987 interconnect: exynos: fix node leak in probe PM QoS error path
-c9e46ca612cfbb0cf890f7ae7389b742e90efe64 interconnect: exynos: fix registration race
-859ad5f177efa59f6b8a2fac20561ca5cb13c89f interconnect: exynos: drop redundant link destroy
-5553055c62683ce339f9ef5fb2a26c8331485d68 memory: tegra: fix interconnect registration race
-abd9f1b49cf25eebeaba193c7707355be3f48dae memory: tegra124-emc: fix interconnect registration race
-c5587f61ec050f7e9ebb3e2da29d12af63e833d3 memory: tegra20-emc: fix interconnect registration race
-9db481c909dd6312ccfbdc7e343b50e41c727483 memory: tegra30-emc: fix interconnect registration race
-7c3940bf81e5664cdb50c3fedfec8f0a756a34fb swiotlb: fix the deadlock in swiotlb_do_find_slots
-f89ae20e3345b41607484b5acc89a0b150925299 Kconfig.debug: fix SCHED_DEBUG dependency
-e1c162a816b6a32a8e43f4d20af6996e019fc281 mm, vmalloc: fix high order __GFP_NOFAIL allocations
-60a1899e4afc34e36d3fc14bfb6fe00203a03dba maple_tree: fix mas_skip_node() end slot detection
-a5005ac2b506a7e41c53380275b5152ba2b6e3f8 test_maple_tree: add more testing for mas_empty_area()
-c8e73208035ee98e77774beaa2b1db75624ca42b nilfs2: fix kernel-infoleak in nilfs_ioctl_wrap_copy()
-8aaafa097f1d87527732f7fe090070f319d484cb checksyscalls: ignore fstat to silence build warning on LoongArch
-4bb2323599ef91fc26573d9d261e2e7f008a0c49 mm: deduplicate error handling for map_deny_write_exec
-007dfa3a455ad9322d75823ef2e3090e558c3e7d mm: fix error handling for map_deny_write_exec
-9c89465d6186e9cd68cf201eb9e81dc1f02f606f kselftest: vm: fix unused variable warning
-7a0d71addb82b286602cc211bb99c210c7b1c341 tools headers UAPI: sync linux/prctl.h with the kernel sources
-2573f58c71eef584822745b6011c5e5ddfe60100 mm/ksm: fix race with VMA iteration and mm_struct teardown
-ea3e1cdb2c652dc4fc40dfdc477c2afcec2230d4 kasan, powerpc: don't rename memintrinsics if compiler adds prefixes
-be2748b96272a8c401f579d7a9f1b38e9e0a62b1 mailmap: add entry for Tobias Klauser
-a3dc36a188c359ddd172301b11f9e9019ce750e7 Revert "kasan: drop skip_kasan_poison variable in free_pages_prepare"
-a696cdffe808471a947ac971871962dfb222bd71 mailmap: map Rajendra Nayak's old address to his current one
-407df7d7c0948cb57d0dcf34e8c00ec446b53e9b mailmap: map Sai Prakash Ranjan's old address to his current one
-355979597aff6bc19159a3389ea4c8e0c3a99a28 mailmap: add entry for Enric Balletbo i Serra
-0dd0c09e30cf4a2b171b0593d45328969cbdb5ab kernel/sys.c: fix and improve control flow in __sys_setres[ug]id()
-92514b9aa63f2eaf53631013200f3d4d1e901fe2 lib: dhry: fix unstable smp_processor_id(_) usage
-cf72cdc423b0464317ca2072ed27a83ad4818936 mm: kfence: fix using kfence_metadata without initialization in show_object()
-a5bb73b3f5db1a4e91402ad132b59b13d2651ed9 hwmon: (adm1266) Set `can_sleep` flag for GPIO chip
-ab00709310eedcd8dae0df1f66d332f9bc64c99e hwmon: (ltc2992) Set `can_sleep` flag for GPIO chip
-7c10131803e45269ddc6c817f19ed649110f3cae veth: Fix use after free in XDP_REDIRECT
-cd356010ce4c69ac7e1a40586112df24d22c6a4b net: phy: mscc: fix deadlock in phy_ethtool_{get,set}_wol()
-a075bacde257f755bea0e53400c9f1cdd1b8e8e6 fsverity: don't drop pagecache at end of FS_IOC_ENABLE_VERITY
-f551592f72563e119bdec5b9d5242f584111b2aa Merge tag 'icc-6.3-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/djakov/icc into char-misc-linus
-c3aa32ac86fe5f27659f07474995ec743a3251b0 MAINTAINERS: make me a reviewer of USB/IP
-5bc38d33a5a1209fd4de65101d1ae8255ea12c6e usb: cdnsp: Fixes issue with redundant Status Stage
-1272fd652a226ccb34e9f47371b6121948048438 usb: cdns3: Fix issue with using incorrect PCI device function
-96b96b2a567fb34dd41c87e6cf01f6902ce8cae4 usb: cdnsp: changes PCI Device ID to fix conflict with CNDS3 driver
-a37eb61b6ec064ac794b8a1e89fd33eb582fe51d uas: Add US_FL_NO_REPORT_OPCODES for JMicron JMS583Gen 2
-bbf860ed710bacc0279c4cda2817f70e1200d04b usb: gadget: Use correct endianness of the wLength field for WebUSB
-4710f46fdb91e0821431a7973fc81f47e533d1e9 efi/libstub: smbios: Use length member instead of record struct size
-c0b43e312d84be8e40d0d1ddea22bcbf733a328a arm64: efi: Use SMBIOS processor version to key off Ampere quirk
-e11717a83d66723222627f07e94f7f2a4832ba64 efi/libstub: smbios: Drop unused 'recsize' parameter
-81f59a26f3d59c6aeb137b7b5546848779222c65 kbuild: rpm-pkg: move source components to rpmbuild/SOURCES
-05e96e96a315fa49faca4da2aedd1761a218b616 kbuild: use git-archive for source package creation
-261b4ba2d70ca2c560b8648ce21e0d4de5e62d4a fixup! arm64: efi: Use SMBIOS processor version to key off Ampere quirk
-c7df4813b149362248d6ef7be41a311e27bf75fe xsk: Add missing overflow check in xdp_umem_reg
-077706165717686a2a6a71405fef036cd5b37ae0 virtio/vsock: don't use skbuff state to account credit
-6825e6b4f8e53799d83bc39ca6ec5baed4e2adde virtio/vsock: remove redundant 'skb_pull()' call
-8daaf39f7f6ef53a11817f6a11ec104016c3545f virtio/vsock: don't drop skbuff on copy failure
-7e699d2a4e8104d304e921ac5e0a0c73f0f7b623 test/vsock: copy to user failure test
-1a200b51fa75100d24861511ccdb105321291b75 Merge branch 'net-virtio-vsock'
-b830c9642386867863ac64295185f896ff2928ac ice: xsk: disable txq irq before flushing hw
-636e8adf7878eab3614250234341bde45537f47a net: dsa: don't error out when drivers return ETH_DATA_LEN in .port_max_mtu()
-7e9517375a14f44ee830ca1c3278076dd65fcc8f net: dsa: mv88e6xxx: fix max_mtu of 1492 on 6165, 6191, 6220, 6250, 6290
-65d63e82b19201a5b522ca4eb2d6dffe0b4b6a31 Merge branch 'net-dsa-marvell-mtu-reporting'
-1a87e641d8a50c30b63b1d90819bc607b4327596 net: Use of_property_read_bool() for boolean properties
-fa0f1ba7c8233118b6fdaa65e2f5ded563d3e1fa virtio_net: fix page_to_skb() miss headroom
-1a3bd6eabae35afc5c6dbe2651f21467cf8ad3fd virtio_net: free xdp shinfo frags when build_skb_from_xdp_buff() fails
-04504793feec0484dd0deea566c386d1965578f6 Merge branch 'virtio_net-xdp-bugs'
-0ddc84d2dd43e2c2c3f634baa05ea10abd31197e Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
-33977dc9a8865f747165e8b2200cf4d31a3e048b Merge branch 'mm-hotfixes-unstable' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
-0fe8acf0f379c62fd26802d5ab7dddfcabff588a Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild.git
-fb30c0dc45fc1897a51b0481b50b411fe8a15813 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux.git
-1659e78f921494d1bfa65151ace22297ab277ba8 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux.git
-d1e05825f847b6e59e699a074cecc0fe36932da6 Merge branch 'master' of git://git.kernel.org/pub/scm/linux/kernel/git/davem/sparc.git
-0c4db6987e7527a132efbfe026d138d5e31539b6 Merge branch 'for-current' of git://git.kernel.org/pub/scm/fs/fscrypt/linux.git
-930861cfb8e42d0d9a02d98def2e1b88aa5eb342 Merge branch 'for-current' of git://git.kernel.org/pub/scm/fs/fsverity/linux.git
-45b51c4479bbf70a47a902f6be60ce625ac60604 Merge branch 'main' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net.git
-39a7b2ee7f0f5ffdfdcaf0f6878ac985e9d529e8 Merge branch 'master' of git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf.git
-3ea493f4c601081acdf12e0f97989aaff63c91f9 Merge branch 'master' of git://git.kernel.org/pub/scm/linux/kernel/git/klassert/ipsec.git
-120bc0896eacb88105dc480cd86fd2d017ff6f7e Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless.git
-ebff11a55c7cf2b2282f69baf11c7b28b23c598d Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound.git
-7740f817a744c63e44a6b1fe738535086f98e2ab Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-ab45ab68ee164c9f4b393adcdcea5bc250751664 Merge branch 'driver-core-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/driver-core.git
-561dca2485347729c70726d0ce90f307ebd12ffc Merge branch 'tty-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/tty.git
-29bae5057720c39da4bbc51f13510c2de2415f02 Merge branch 'usb-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb.git
-d3c23555f71ee926eaf023c699d1ed3ddef1a79d Merge branch 'usb-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/johan/usb-serial.git
-d4e78cd4099eecce4996211ea0d4c7b40a6eb051 Merge branch 'fixes-togreg' of git://git.kernel.org/pub/scm/linux/kernel/git/jic23/iio.git
-e4d0c11869da955023d8140a38265619c552ad63 Merge branch 'char-misc-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc.git
-dcc1a007b67756eda669102b6447e804cb4d2dc1 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vkoul/soundwire.git
-dd22d7b6e8d629c18c1a2030766b88666f988a98 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/westeri/thunderbolt.git
-b27824b97023f6959b83e747ecbe3cbc55f948cc Merge branch 'for-linus' of git://github.com/awilliam/linux-vfio.git
-0cc53335f07eaada1dbb478d6a69fed8cd5997fb Merge branch 'mtd/fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/mtd/linux.git
-bcf1a2fab76885b956d4bb6bcbe013aa64985708 Merge branch 'hwmon' of git://git.kernel.org/pub/scm/linux/kernel/git/groeck/linux-staging.git
-6a1759b6f1ab9f99446bd5b1ca68bec7a6d183f6 Merge branch 'next-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux.git
-20823802d552a1d8eff460909ff6fdb92449d28e Merge branch 'for-linus' of git://git.infradead.org/users/hch/dma-mapping.git
-aa9dfc4a0a29684a49a5211614064776c1fc562b Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/mkp/scsi.git
-7a6987be1038bd0a283b9761ff3d7ff7fc264990 Merge branch 'for-linux-next-fixes' of git://anongit.freedesktop.org/drm-intel
-7d41390b4b6a83d42f5993c3664a050d4f757cee Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/mmc.git
-d59d4144c6f028005cab5308f9faea2393d254f9 Merge branch 'hyperv-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/hyperv/linux.git
-6c277559ece4efb0f53a4d33df86c836a93152f3 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux.git
-a52d3c1a01f1569a1a921097f00b028efaffe2e1 Merge branch 'gpio/for-current' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux.git
-262d8d3cd5f89e3a861ca53282fdd8596dc006ee Merge branch 'urgent' of git://git.kernel.org/pub/scm/linux/kernel/git/efi/efi.git
-a8be76ae6f1f2aec0026e49f45b3a41027a32877 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/sre/linux-power-supply.git
-0e8bb497921ed7a14859725fc9a6f5d70533ff8f Merge branch 'for-linux-next-fixes' of git://anongit.freedesktop.org/drm/drm-misc
-
---===============6113324962424421295==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9c1bec9c0b08-0ddc84d2dd43.txt
-
-47053904e18282af4525a02e3e0f519f014fc7f9 KVM: arm64: timers: Convert per-vcpu virtual offset to a global value
-bceeedb2f0b803fa188b931b30c064ee60196f09 Merge tag 'kvmarm-fixes-6.3-1' of git://git.kernel.org/pub/scm/linux/kernel/git/kvmarm/kvmarm into HEAD
-112e66017bff7f2837030f34c2bc19501e9212d5 KVM: nVMX: add missing consistency checks for CR0 and CR4
-77900bffed14894476969042718a9ca05eb1f477 KVM: nVMX: remove unnecessary #ifdef
-06e18547286068be803ba28c6d1c377e94f8745b KVM: VMX: Fix indentation coding style issue
-53293cb81be6db06306666d51e85778725934be5 KVM: VMX: Use tabs instead of spaces for indentation
-3dc40cf89b9b763910cb0540a35f9d66a067475d selftests: KVM: skip hugetlb tests if huge pages are not available
-3ec7a1b2743c07c45f4a0c508114f6cb410ddef3 KVM: SVM: Fix a benign off-by-one bug in AVIC physical table mask
-5999715922c5a3ede5d8fe2a6b17aba58a157d41 KVM: SVM: Modify AVIC GATag to support max number of 512 vCPUs
-c281794eaa5c635c0edf39c6a9a3b0171000e92f KVM: SVM: WARN if GATag generation drops VM or vCPU ID information
-4009e0bb7b83d967a14e108d271f003b378f9af9 KVM: selftests: Move the guts of kvm_hypercall() to a separate macro
-c0c76d99939cb4ac28cbc5ce542cff2b9e1e1b02 KVM: selftests: Add helpers to make Xen-style VMCALL/VMMCALL hypercalls
-e7062a98d0b3e0b42089f4c5da633a1ce41b807f KVM: selftests: Use enum for test numbers in xen_shinfo_test
-e6239a4ec5c51e4d5ee4d1604f741f490c32054c KVM: selftests: Add EVTCHNOP_send slow path test to xen_shinfo_test
-c96f57b08012805da323c6bdf929bab1b88d250c KVM: selftests: Make vCPU exit reason test assertion common
-6f974494b8077bb1a2a10fe33f62c143f246f102 KVM: selftests: Print expected and actual exit reason in KVM exit reason assert
-1b3d660e5d7b8b408a2b0988de65672199ebfaf2 KVM: selftests: Add macro to generate KVM exit reason strings
-f3e707413dbe3920a972d0c2b51175180e7de36b KVM: selftests: Sync KVM exit reasons in selftests
-0ddc84d2dd43e2c2c3f634baa05ea10abd31197e Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
-
---===============6113324962424421295==--
+--===============6621933379492500103==--
