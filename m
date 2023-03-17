@@ -1,21 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Fri, 17 Mar 2023 05:24:34 -0000
-Message-Id: <167903067430.5985.199110686171076067@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Fri, 17 Mar 2023 05:26:04 -0000
+Message-Id: <167903076497.8034.12148645226173743957@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/for-next
-    old: 082cdc69a4651dd2a77539d69416a359ed1214f5
-    new: 94bbbdfbde165820e4078ffe9a78305d556dec35
-    log: |
-         e5995bc7e2ba1a0d444f806016d2e4ea91c032d0 bpf, test_run: fix crashes due to XDP frame overwriting/corruption
-         5640b6d894342d153b719644681b0345fd28ee96 selftests/bpf: fix "metadata marker" getting overwritten by the netstack
-         94bbbdfbde165820e4078ffe9a78305d556dec35 Merge branch 'double-fix bpf_test_run + XDP_PASS recycling'
-         
+  - ref: refs/tags/net-6.3-rc3
+    old: 0000000000000000000000000000000000000000
+    new: 3b71e2d49e3a8cc00a9163ef10149f466b0a44ca
