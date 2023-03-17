@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vfs/idmapping
-Date: Fri, 17 Mar 2023 10:22:10 -0000
-Message-Id: <167904853030.27956.7720527530653632750@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dtor/input
+Date: Fri, 17 Mar 2023 10:26:17 -0000
+Message-Id: <167904877729.30796.6221543227611084689@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vfs/idmapping
-user: brauner
+repo: pub/scm/linux/kernel/git/dtor/input
+user: dtor
 changes:
-  - ref: refs/heads/for-next
-    old: 740d9119ceff8022dbc872eba29f16f96a80f7a4
-    new: 9576d493741c4e7f8eebdee4e6b6fdf521f97c60
+  - ref: refs/heads/for-linus
+    old: 7ae9fb1b7ecbb5d85d07857943f677fd1a559b18
+    new: 8a0432bab6ea3203d220785da7ab3c7677f70ecb
     log: |
-         4e04143c869c5b6d499fbd5083caa860d5c942c3 fs_context: drop the unused lsm_flags member
-         9576d493741c4e7f8eebdee4e6b6fdf521f97c60 Merge branch 'fs.misc' into for-next
+         f5bad62f9107b701a6def7cac1f5f65862219b83 Input: i8042 - add quirk for Fujitsu Lifebook A574/H
+         8a0432bab6ea3203d220785da7ab3c7677f70ecb Input: goodix - add Lenovo Yoga Book X90F to nine_bytes_report DMI table
          
