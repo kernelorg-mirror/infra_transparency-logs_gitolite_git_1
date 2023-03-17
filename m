@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7581116433693439104=="
+Content-Type: multipart/mixed; boundary="===============4500827211425659658=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Fri, 17 Mar 2023 04:00:22 -0000
-Message-Id: <167902562210.13174.11686585687761687265@gitolite.kernel.org>
+Date: Fri, 17 Mar 2023 04:00:39 -0000
+Message-Id: <167902563957.13378.4205224311160123639@gitolite.kernel.org>
 
---===============7581116433693439104==
+--===============4500827211425659658==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,66 +16,89 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue
-    old: 04d02221dbf9dec37b814baae118d6bc0e2ddad6
-    new: 0b31b77f281a1734fe14821c5cc044baea9154fc
-    log: revlist-04d02221dbf9-0b31b77f281a.txt
+  - ref: refs/tags/mkp-scsi-staging
+    old: f077bde562dfbb610a55e7762ea6ee450bae2689
+    new: 70cbd0703d944e1ab602885bc02eb09c7db0e788
+    log: revlist-f077bde562df-70cbd0703d94.txt
 
---===============7581116433693439104==
+--===============4500827211425659658==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1679025610 -0400
+pusher 75C5DE3D 1679025626 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1679025609-cbb3ed9ca7c335f34ac28f16b17cc1a51c1fb07a
+nonce 1679025626-00c12314413ae4c82aa0171cec0892402b206be0
 
-04d02221dbf9dec37b814baae118d6bc0e2ddad6 0b31b77f281a1734fe14821c5cc044baea9154fc refs/heads/queue
+f077bde562dfbb610a55e7762ea6ee450bae2689 70cbd0703d944e1ab602885bc02eb09c7db0e788 refs/tags/mkp-scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmQT5coACgkQ7ulgGnXF
-3j33dg//aQLkpJIFwNt80BYMbnJ9lT6uZkdQHgoIoDHIrcjWH7T1rGdVHbC+l+j8
-+jP/rVUdAdJorzOUR2ZwCcI2KJKD8ZLq8Wi/lb1M1jjcd1YHu88gsTRCojCxM8va
-3cWnpYhq1TSoHKl6VRMddvAeGSxc5kCla9KrczL1br+z5wMUXO8RpC2XZCi7xJBL
-xdsZeBbMljxIGex75ATKve1VnfKzPAuKG+QrF7HB/ZLqBz8qMT7texXwQpmuDCc5
-ribVawMC0XY5EpfkOcSLQjQcw/VQUe0ghBT03+GOMFC+DR6TA8D4vSeheB5JE6oR
-deIOa/VJrBOMrsvh9L8xoAjaGDC7yqLRssJfg/58SUczVl5MUXgdSBECi2BCI2Uu
-1qMAJ9Bd41efI5jbzCCfE1YavBcbZ4EfROlh5P01pfdCinw8lxyCP1gN59scYFVH
-hd25Uy8UN+rugFohPkEWGZm6/TrWk/Ir1RISVJAew4l3Zn9c1O1gS5n6YaBPH82y
-aXMSasy+PdlmwdrygcqwW3X+bZNun/GnZl61Vp1f3SRi5lWROLMjIm5s/evXRTqY
-jRod7Anz7EqBEpQJlLVdJFrckxSt/cbcCzO1X+Z1j0Nc3evDdj/ulDJIv9kHG5B/
-gqN3wxaPdSTPFPUCHo7PP1hC9rB9+eQui8J69oMO0yjla4kyLlU=
-=gpQ+
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmQT5doACgkQ7ulgGnXF
+3j2bWw/8CuOO7ZXya/WLBHTlR0Q9MY9KlqNgVObVTH2a3v4gtd+9BRWTIAruddpX
+RAocDJwxQhQ3CPFsd+L1zKrqEj1V+q9h8bY+oRtLsBrpvN5QoIr3x+W6/rpfg5W7
+cYetfgF+yN5g5xYaR6gqgtyytjP4VAbUViHsHr/g8jVOba7s+mpSO1Io6/TCrjWj
+Jq9X49LbV5W35/579+UMqDKrtqj6beb3W+3c7OhYNQ36OUfwle/GrqrMKf1sQjim
+bp1f6IvC7CS7phSL0MKUPD0jWuoffOm1Wjebm03Gl4ypCt4F5/C+8OVWMlXrzuXw
+JpOORaiLxrzEJ5+Hyu090RR89k+mi79phlEXT3I9zgzUfGswuouqw6yfQa9CvG11
+BL0fwB4ZKrBFe9w7PZ/35N4TWs99qKQBD5bguUBef9YH/AZg5eAHY8VPuYJghP00
+6XkyIzqtMm59FRX8NAV8msD/5AlraMKx3U4qGyZXZL4qhMs58VrrmlAt/qzBewoP
+ikjOXCK5Bvox6wlI/b1KFLlfuGxumHIx6rw99fqnuOGC53GE5FsMCdgScbK4clQo
+XBfTb9i3ft8HB/dR+Ks+YAtoz7kDLoXkCZ1yLhWllZrc40SUoONomzpRZUh3bmSj
+nC1cxCI9oGtLuZt9ZQMMgHYl4qL9UoP1EkJ+qJmLHVTIqm2oeYc=
+=8pCG
 -----END PGP SIGNATURE-----
 
---===============7581116433693439104==
+--===============4500827211425659658==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-04d02221dbf9-0b31b77f281a.txt
+Content-Disposition: attachment; filename=revlist-f077bde562df-70cbd0703d94.txt
 
-3f4b9cb4133a4ecf16447cbd5fdb8ed618593bf8 scsi: target: core: Add RTPI field to target port
-b9e063adfb8a812d9c47ff690e645086c6f76f42 scsi: target: core: Use RTPI from target port
-5fe99dace4313b0061d46f69e32f981956c92445 scsi: target: core: Drop device-based RTPI
-31177b74790cc566200f30705bf9a83d168da893 scsi: target: core: Add RTPI attribute for target port
-7466a7a33f376e2c0bc17f9b1e4c1fb8620fd4e2 Merge patch series "scsi: target: make RTPI an TPG identifier"
-538a60468966f47c53071d06db27bb78c2aaa81d scsi: hisi_sas: Add function complete_v3_hw()
-0e47effa77067d0e5fdd41871941d2b3d38a0e61 scsi: hisi_sas: Add poll support for v3 hw
-b711ef5e176bf47c10c0d24e21c1486b5331d33f scsi: hisi_sas: Sync complete queue for poll queue
-0c2fb1701155062b842cdff69475482029fa8b14 scsi: hisi_sas: Add device attribute experimental_iopoll_q_cnt for v3 hw
-99e0cd4d552a152c4e453511997441d1d0dde3cc Merge patch series "Add poll support for hisi_sas v3 hw"
-b3e2bf9c967b28a97f1f8e255b206026a777226c scsi: aacraid: Drop redundant pci_enable_pcie_error_reporting()
-915b071a6f83a61f7cbd6829cbbe51fc8e98662f scsi: arcmsr: Remove unnecessary aer.h include
-6574fb2580b038f108351ad95aac5ef43a890594 scsi: be2iscsi: Drop redundant pci_enable_pcie_error_reporting()
-b54e1e47b5f5d330a12bcbbad048b8fdcb90709f scsi: bfa: Drop redundant pci_enable_pcie_error_reporting()
-3afe8d64c4f597f11fadcdbdc6ff84315df2243a scsi: csiostor: Remove unnecessary aer.h include
-b2bce40c5b81f9026793c515a9cc1f927a07f496 scsi: hpsa: Remove unnecessary pci_disable_pcie_error_reporting() comment
-e891681b1d5d94e18b49e7aef16415bae30ce581 scsi: lpfc: Drop redundant pci_enable_pcie_error_reporting()
-edf6722f4ad200c03e190fad31d739e3fe09cf8a scsi: mpt3sas: Drop redundant pci_enable_pcie_error_reporting()
-c5c440bbff8636bb67ec1f60857e0b6311a4c2f0 scsi: qla2xxx: Drop redundant pci_enable_pcie_error_reporting()
-d7ba106418d6d789d238f87535952edb65b0dbea scsi: qla4xxx: Drop redundant pci_enable_pcie_error_reporting()
-0b31b77f281a1734fe14821c5cc044baea9154fc Merge patch series "PCI/AER: Remove redundant Device Control Error Reporting Enable"
+1efbacd2b95a97d6039bf0982794c2e2d346feac scsi: be2iscsi: Make some variables static
+58b42c949b30212026d7a1a01d12fb61a30604c0 scsi: fnic: Switch to use %ptTs
+fb5ea4f5202bcf2fd35c2ce49f73fe49fcbc6d41 scsi: ufs: core: Disable the reset settle delay
+cb38845d90fc4ad905aecd36ed85a75764d0b5fb scsi: ufs: core: Set the residual byte count
+127fd07da459379d39d5a048afbd3e51d00f3f60 scsi: ufs: core: Print trs for pending requests in MCQ mode
+4a52338bf288c95a46f20af1f5df77b80b74c9ad scsi: ufs: core: Add trace event for MCQ
+785d6b7cf300637c684e5c7b7c186b01d8a4cf28 scsi: scsi_debug: Don't hold driver host struct pointer in host->hostdata[]
+d280a4ef229c0def06f6641183fb92100b410c63 scsi: scsi_debug: Stop setting devip->sdbg_host twice
+06be9fbebb1beb6a885c95fbe3bb2f05f3463a70 scsi: scsi_debug: Drop scsi_debug_abort() NULL pointer checks
+a19226f844c247bd5d5ef11df4152c5ab71a59fb scsi: scsi_debug: Drop scsi_debug_device_reset() NULL pointer checks
+a15df530a189fcc62003df7a7272b2918a9ef73a scsi: scsi_debug: Drop scsi_debug_target_reset() NULL pointer checks
+519bfc14c156f31cc113709c71e7f66e0f6f228e scsi: scsi_debug: Drop scsi_debug_bus_reset() NULL pointer checks
+9c2303820bf033f798fe14a856d7df431640001b scsi: scsi_debug: Drop scsi_debug_host_reset() device NULL pointer check
+0befb8790969087946f5726d8d80b4f83053ea21 scsi: scsi_debug: Drop check for num_in_q exceeding queue depth
+151f0ec9ddb539c403a17c86da092e751736c121 scsi: scsi_debug: Drop sdebug_dev_info.num_in_q
+f037b5cb07138cd519f35fd08ebef2faf075959f scsi: scsi_debug: Get command abort feature working again
+548ebb335f743fa2647fe61bb1ad29d2c706afda scsi: scsi_debug: Add poll mode deferred completions to statistics
+e943e97ca9b94fc7d222465c48598dd417b599d8 Merge patch series "scsi_debug: Some minor improvements"
+e5dc6e445c38b93674b88ff37f0d4ce6752afd93 scsi: target: Add default fabric ops callouts
+aafa9bdd4d68cb7c71de3c87e35087ce52f7cb23 scsi: infiniband: srpt: Remove default fabric ops callouts
+8ff1c3623d06f4938566eb98e632d493b7f86ff4 scsi: ibmvscsit: Remove default fabric ops callouts
+2af6800f2135b5e824c2b0d02d0415010372ca64 scsi: target: loop: Remove default fabric ops callouts
+c9593f4856f3f39f28609a16cbc9778da4272046 scsi: target: sbp: Remove default fabric ops callouts
+515509855d1fad459236deb95c074f837019c01c scsi: target: fcoe: Remove default fabric ops callouts
+55a42c313ec9003f5fec265dba7de655ac3840d4 scsi: usb: gadget: f_tcm: Remove default fabric ops callouts
+22ebaf61ecbcfc3f499a83c8bc11196e131938b2 scsi: vhost-scsi: Remove default fabric ops callouts
+355c3d61357a857c326b82c9221142e5dad8d530 scsi: xen-scsiback: Remove default fabric ops callouts
+237f109ceee7d5d83649f0e5d90c87856328def8 scsi: qla2xxx: Remove default fabric ops callouts
+df02beb9afd246a41c70c62de9c186464e10282a scsi: efct: Remove default fabric ops callouts
+075a5d356103b32bc7023b03ede60a2f183bcfb3 scsi: target: Add virtual remote target
+c5797fda210fc852f876f0660e959b5e9db604d8 Merge patch series "add virtual remote fabric"
+06f8e0714c9f617dcc40db63b8376a1e547d9531 scsi: qlogicpti: sun_esp: Use of_property_read_bool() for boolean properties
+dd3f53301181dece3fb377173bff9902cdba0ba7 scsi: ufs: qcom: Add __maybe_unused to OF ID table
+cd6a6893ac055dab9c21c39ef20293094d38045b scsi: ufs: exynos: Drop of_match_ptr() for ID table
+d43250ed0fec61a8026019b218953328f239ccd0 scsi: ufs: hisi: Drop of_match_ptr() for ID table
+3f1254ed01d0860d72eead408b4fb0f38858219e scsi: mpi3mr: Successive VD delete and add causes FW fault
+23b3d1cf157299d4786e7fd0f5888beb47ce86d1 scsi: mpi3mr: Fix admin queue memory leak upon soft reset
+22beef38e52c69488a0633806a136c40c4ff8ca2 scsi: mpi3mr: Modify MUR timeout value to 120 seconds
+f1dec6b1e25e755cbccb728eee898fc7d005069e scsi: mpi3mr: Avoid escalating to higher level reset when target is removed
+e5f596bc25925e33bb4da8bc7976ecd808e9f6d0 scsi: mpi3mr: Update MPI Headers to revision 27
+80b8fd0231d5c04a4a7d3442c243a4c93fac4fe4 scsi: mpi3mr: Fix W=1 compilation warnings
+e74f2fbd8b06e57c60ad4b92ea302a11671ac634 scsi: mpi3mr: Update copyright year
+1ea41edd88f22077a9f86f45f2eca5663bbcfd3e scsi: mpi3mr: Update driver version to 8.4.1.0.0
+e05c006dac08ef346fc5e223f6f14cc2c6c96a7b Merge patch series "mpi3mr: Few Enhancements and minor fixes"
 
---===============7581116433693439104==--
+--===============4500827211425659658==--
