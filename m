@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5463326552199268719=="
+Content-Type: multipart/mixed; boundary="===============7125656729323110096=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Fri, 17 Mar 2023 18:02:37 -0000
-Message-Id: <167907615704.16174.18202897687790509105@gitolite.kernel.org>
+Date: Fri, 17 Mar 2023 18:02:54 -0000
+Message-Id: <167907617409.16372.16388521781697490087@gitolite.kernel.org>
 
---===============5463326552199268719==
+--===============7125656729323110096==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jejb/scsi
 user: jejb
 changes:
-  - ref: refs/heads/misc
-    old: 04d02221dbf9dec37b814baae118d6bc0e2ddad6
-    new: 0b31b77f281a1734fe14821c5cc044baea9154fc
-    log: revlist-04d02221dbf9-0b31b77f281a.txt
+  - ref: refs/heads/for-next
+    old: 5e5d9dce9be20ba294227020e9c3a82aea286c6f
+    new: 2b6ac25dfa2a433f826ede9f6ac9bd7c4ac03898
+    log: revlist-5e5d9dce9be2-2b6ac25dfa2a.txt
 
---===============5463326552199268719==
+--===============7125656729323110096==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-04d02221dbf9-0b31b77f281a.txt
+Content-Disposition: attachment; filename=revlist-5e5d9dce9be2-2b6ac25dfa2a.txt
 
 3f4b9cb4133a4ecf16447cbd5fdb8ed618593bf8 scsi: target: core: Add RTPI field to target port
 b9e063adfb8a812d9c47ff690e645086c6f76f42 scsi: target: core: Use RTPI from target port
@@ -47,5 +47,11 @@ edf6722f4ad200c03e190fad31d739e3fe09cf8a scsi: mpt3sas: Drop redundant pci_enabl
 c5c440bbff8636bb67ec1f60857e0b6311a4c2f0 scsi: qla2xxx: Drop redundant pci_enable_pcie_error_reporting()
 d7ba106418d6d789d238f87535952edb65b0dbea scsi: qla4xxx: Drop redundant pci_enable_pcie_error_reporting()
 0b31b77f281a1734fe14821c5cc044baea9154fc Merge patch series "PCI/AER: Remove redundant Device Control Error Reporting Enable"
+a204b490595de71016b2360a1886ec8c12d0afac scsi: core: Add BLIST_SKIP_VPD_PAGES for SKhynix H28U74301AMR
+0367076b0817d5c75dfb83001ce7ce5c64d803a9 scsi: qla2xxx: Perform lockless command completion in abort path
+d3affdeb400f3adc925bd996f3839481f5291839 scsi: qla2xxx: Synchronize the IOCB count to be in order
+a13faca032acbf2699293587085293bdfaafc8ae scsi: scsi_dh_alua: Fix memleak for 'qdata' in alua_activate()
+8aab91d67d8b3955c7b9a983803dcc71e9a6e529 Merge branch 'fixes' into for-next
+2b6ac25dfa2a433f826ede9f6ac9bd7c4ac03898 Merge branch 'misc' into for-next
 
---===============5463326552199268719==--
+--===============7125656729323110096==--
