@@ -1,53 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============5712084992233896254=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/powerpc/linux
-Date: Fri, 17 Mar 2023 03:22:55 -0000
-Message-Id: <167902337527.19728.12635786087618110243@gitolite.kernel.org>
-
---===============5712084992233896254==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Fri, 17 Mar 2023 03:50:03 -0000
+Message-Id: <167902500374.6100.2481290811293954815@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/powerpc/linux
-user: mpe
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/tags/powerpc-6.3-3
-    old: 0000000000000000000000000000000000000000
-    new: 1f35a4066637b83b9a22ee5fa1283c1abfb8f572
-
---===============5712084992233896254==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Michael Ellerman <mpe@ellerman.id.au> 1679023374 +1100
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/powerpc/linux
-nonce 1679023373-252fc14a6abade37994f74e3ae6af40a2580f8ab
-
-0000000000000000000000000000000000000000 1f35a4066637b83b9a22ee5fa1283c1abfb8f572 refs/tags/powerpc-6.3-3
------BEGIN PGP SIGNATURE-----
-
-iQJHBAABCAAxFiEEJFGtCPCthwEv2Y/bUevqPMjhpYAFAmQT3Q4THG1wZUBlbGxl
-cm1hbi5pZC5hdQAKCRBR6+o8yOGlgIaoD/47CsTe9NTO6KailtywcCPFJ4uvl6qy
-KT58YdMEhl7r+QHJmyOfa/jTLwQ6D+LdY2FeptZQopG1aoOgh/kiCArmc7jCtrMp
-prAKTJT1xjf2W7zP7NIW6qvV2CP+9EXeT3VhUxgU8O/Q8OEqxUKhofwwisTOsx6M
-1Eg/5r/yLQdZJ3s8/OkBC2yjmI19yrHmxsevDmpk/we2AFns+zWTijaCg18skK3V
-RBHZnntVV0CDtKfpu387Usxn6gg9EUDkGl3Ht89BnWlhnrHlzivjk2KVl9qHiMBE
-X8C4fDu6EiXO2DkSZ8v5EttIjDGWCx1q0wwsW3uTHI7pUxh95lYJkago8e9jsYfc
-jPS7njukIvSDx8QZ4Nl1mJjVYbSovnCAyZAoxCXVbJqf4Gb9tmQeTsiMoz6DCHS8
-wOOoi+/uWQhOvK4cqubudGygM614f2AEKThP+nt0tWKv6TJnS7e6aElURwqLCB3W
-VFdZiZjxh1iElVQbDPwFyKnuK3FkWD3XFpgDArrPR27yk9hfeOaX6z2TpB9CD9bn
-bpDsNpuJlQtGLJMcTqzV1Fw5/N3VcumlOHNi33WiL8Dw7eyPExgl6YskKzcFcjpf
-GOKbikZ797YOpvryFXBpq5r15X7vI6iETvVd7Reslo0Bd1U/vRmC5anTVJaZxYtP
-r2iqGLR2nT/Ttg==
-=V8PR
------END PGP SIGNATURE-----
-
---===============5712084992233896254==--
+  - ref: refs/heads/master
+    old: 0ddc84d2dd43e2c2c3f634baa05ea10abd31197e
+    new: 38e04b3e4240a6d8fb43129ebad41608db64bc6f
+    log: |
+         d0dc41119905f740e8d5594adce277f7c0de8c92 cifs: Move the in_send statistic to __smb_send_rqst()
+         211baef0eabf4169ce4f73ebd917749d1a7edd74 cifs: Fix smb2_set_path_size()
+         05ce0448c3f36febd8db0ee0e9e16557f3ab5ee8 cifs: generate signkey for the channel that's reconnecting
+         b56bce502f55505a97e381d546ee881928183126 cifs: set DFS root session in cifs_get_smb_ses()
+         396935de145589c8bfe552fa03a5e38604071829 cifs: fix use-after-free bug in refresh_cache_worker()
+         f446a630802f154ef0087771683bd4f8e9d08384 cifs: return DFS root session id in DebugData
+         6284e46bdd47743a064fe6ac834a7ac05b1fd206 cifs: use DFS root session instead of tcon ses
+         38e04b3e4240a6d8fb43129ebad41608db64bc6f Merge tag '6.3-rc2-smb3-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
+         
