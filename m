@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Fri, 17 Mar 2023 17:43:17 -0000
-Message-Id: <167907499707.1507.1148560203549886633@gitolite.kernel.org>
+Date: Fri, 17 Mar 2023 17:43:23 -0000
+Message-Id: <167907500349.1586.12017008843957782560@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/20230316_peter_ujfalusi_asoc_sof_ipc4_topology_add_support_for_effect_widget
-    old: 811a742f2d4d1b0aee686bc2f4282b51534898a2
+  - ref: refs/heads/20230317_u_kleine_koenig_spi_atmel_quadspi_convert_to_platform_remove_callback_returning_void
+    old: 4d70dd0a25081bc4e6378d0da4a7c367389df707
     new: 0000000000000000000000000000000000000000
