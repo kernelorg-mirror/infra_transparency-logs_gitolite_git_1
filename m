@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jejb/openssl_tpm2_engine
-Date: Fri, 17 Mar 2023 17:11:53 -0000
-Message-Id: <167907311369.13316.8761656304796992683@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vkoul/soundwire
+Date: Fri, 17 Mar 2023 17:19:25 -0000
+Message-Id: <167907356523.18703.10830626001934299646@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jejb/openssl_tpm2_engine
-user: jejb
+repo: pub/scm/linux/kernel/git/vkoul/soundwire
+user: vkoul
 changes:
   - ref: refs/heads/next
-    old: 07344a654c2bb17bfabbdbbd7422ba8864818493
-    new: cf6bcb0dc82612815e16fad08d7af52bf5303870
+    old: f90c359aa25f382b41529c9a74381ca5fec2861e
+    new: 6c469871e801ce415bd05261e6598a7b4b1c8f75
     log: |
-         cf6bcb0dc82612815e16fad08d7af52bf5303870 doc: update the OID in the RFC to match reality
+         ec4bb2d71b14ec4fcefbca9b599a92774cfe4b0d soundwire: bandwidth allocation: Use hweight32() to calculate set bits
+         6c469871e801ce415bd05261e6598a7b4b1c8f75 soundwire: stream: restore cumulative bus bandwidth when compute_params callback failed
          
