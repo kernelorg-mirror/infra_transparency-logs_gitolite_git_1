@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Fri, 17 Mar 2023 00:35:00 -0000
-Message-Id: <167901330066.29322.1968862215302730024@gitolite.kernel.org>
+Date: Fri, 17 Mar 2023 00:36:06 -0000
+Message-Id: <167901336602.31235.3976848676859965520@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: 37d010399f7552add2b68e2b347901c83562dab8
-    new: 3d87debb8ed2649608ff432699e7c961c0c6f03b
+    old: 3d87debb8ed2649608ff432699e7c961c0c6f03b
+    new: f38373345c65529639a01fba3675eb8cb4c579c3
     log: |
-         3d87debb8ed2649608ff432699e7c961c0c6f03b net/iucv: Fix size of interrupt data
+         f38373345c65529639a01fba3675eb8cb4c579c3 i825xx: sni_82596: use eth_hw_addr_set()
          
