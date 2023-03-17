@@ -1,184 +1,193 @@
-Content-Type: multipart/mixed; boundary="===============1344591929026983927=="
+Content-Type: multipart/mixed; boundary="===============5175183002936126843=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/horms/ipvs-next
-Date: Fri, 17 Mar 2023 21:28:00 -0000
-Message-Id: <167908848095.25801.13765416748356315834@gitolite.kernel.org>
+Subject: post-receive: pub/scm/git/git
+Date: Fri, 17 Mar 2023 21:32:29 -0000
+Message-Id: <167908874953.28860.10468079169880633259@gitolite.kernel.org>
 
---===============1344591929026983927==
+--===============5175183002936126843==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/horms/ipvs-next
-user: horms
+repo: pub/scm/git/git
+user: junio
 changes:
   - ref: refs/heads/main
-    old: 95b744508d4d5135ae2a096ff3f0ee882bcc52b3
-    new: 79a22238b4f22c45cadd3b4040d644f4de320d1b
-    log: revlist-95b744508d4d-79a22238b4f2.txt
+    old: 73876f4861cd3d187a4682290ab75c9dccadbc56
+    new: 950264636c68591989456e3ba0a5442f93152c1a
+    log: revlist-73876f4861cd-950264636c68.txt
+  - ref: refs/heads/master
+    old: 73876f4861cd3d187a4682290ab75c9dccadbc56
+    new: 950264636c68591989456e3ba0a5442f93152c1a
+    log: revlist-73876f4861cd-950264636c68.txt
+  - ref: refs/heads/next
+    old: f938b09366326fbbe13acfec711b20e64765ea4f
+    new: d9ab777d41f92a8c1684c91cfb02053d7dd1046b
+    log: |
+         2d019f46b00530c6c97413a840a4f0bb14b45877 Merge branch 'jk/fsck-indices-in-worktrees'
+         f17d232f14135c9cce6e043389a9b7c434443606 Merge branch 'en/dir-api-cleanup'
+         88cc8ed8bc7d4bc9521b426e95ae2a38d3aec13a Merge branch 'en/header-cleanup'
+         d0732a8120d9cc62d8b6efa4ec48966f890f84b7 Merge branch 'jk/unused-post-2.39-part2'
+         af5388d2ddb0bc7c22fbe698078f4ca07879d954 Merge branch 'jc/gpg-lazy-init'
+         92c56da09683fa3331668adec073b6769da8f0b7 Merge branch 'mc/credential-helper-www-authenticate'
+         4d87411ffe2432efa8800b9e9d889241dd0f1f07 Merge branch 'ew/fetch-hiderefs'
+         5009dd4a1c1b18b3093d9a37e6508d218c1e8876 Merge branch 'fz/rebase-msg-update'
+         950264636c68591989456e3ba0a5442f93152c1a Start the 2.41 cycle
+         d9ab777d41f92a8c1684c91cfb02053d7dd1046b Sync with 'master'
+         
+  - ref: refs/heads/seen
+    old: 0232cdcd8c4c844b3367df29ac9fd7537dc56e1a
+    new: 3a58e7d6f2f0d0b852127d55f2c3e532ef174ad9
+    log: revlist-0232cdcd8c4c-3a58e7d6f2f0.txt
 
---===============1344591929026983927==
+--===============5175183002936126843==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-95b744508d4d-79a22238b4f2.txt
+Content-Disposition: attachment; filename=revlist-73876f4861cd-950264636c68.txt
 
-a4ba62906db80246b24408e5c8a9e9d78b647b00 i40e: consolidate maximum frame size calculation for vsi
-f7f732a7196d2e876639b1af453b30a6a5fe4a90 i40e: change Rx buffer size for legacy-rx to support XDP multi-buffer
-e2843f037127c3a9db26718aaa293d2a8e5881e4 i40e: add pre-xdp page_count in rx_buffer
-03e88c8a791c0655ddea07fd4c7cd6cb16087c8f i40e: Change size to truesize when using i40e_rx_buffer_flip()
-2bc0de9aca3ebdf24674f5a2a7890fde6304f5ca i40e: use frame_sz instead of recalculating truesize for building skb
-e9031f2da1aef34b0b4c659ead613c335b46ae92 i40e: introduce next_to_process to i40e_ring
-01aa49e31e1674e22dd9c868ca6b4b945acd621e i40e: add xdp_buff to i40e_ring struct
-e213ced19befc09d6d6913799053b67896596cd1 i40e: add support for XDP multi-buffer Rx
-504ce971f260c178fa625f1278d9a762bc366504 ice: re-order ice_mbx_reset_snapshot function
-28756d9ec93e6588b1c3a00cc9123e238a71c709 ice: convert ice_mbx_clear_malvf to void and use WARN
-e4eaf8938852d092fa447b32adb8ec233621d86a ice: track malicious VFs in new ice_mbx_vf_info structure
-8cd8a6b17d275a45e3722d0215f6115b687c8c3e ice: move VF overflow message count into struct ice_mbx_vf_info
-4bdf5f258331f049bbff2d770cfcb62f6b789dfe ice: remove ice_mbx_deinit_snapshot
-07cc1a942216d1f211f1c641af8b6f810bb16699 ice: merge ice_mbx_report_malvf with ice_mbx_vf_state_handler
-dde7db637d9981b47da0da575661d0ec83f8b25a ice: initialize mailbox snapshot earlier in PF init
-33b035e70611c10c5aa3864a7517570b25a46ebb ice: declare ice_vc_process_vf_msg in ice_virtchnl.h
-4f0636fef61ad0b22fed4fb06f369d6ba38f807d ice: always report VF overflowing mailbox even without PF VSI
-3f22fc3131b814f0d5d1ce6d94fb8239e6df1754 ice: remove unnecessary &array[0] and just use array
-afc24d6584fbd246d98c0feb464b94da67661e3e ice: pass mbxdata to ice_is_malicious_vf()
-4508bf02bf8a3de8fb65869f40dfdef74dc1b339 ice: print message if ice_mbx_vf_state_handler returns an error
-c414463ab1bb098e67f4c1a4ef64f3e97780f087 ice: move ice_is_malicious_vf() to ice_virtchnl.c
-be96815c616822d3800405b8fbebe3e069d6eed2 ice: call ice_is_malicious_vf() from ice_vc_process_vf_msg()
-e4ed8ba08e3f1ef24771eb95f87da129ad752063 net: phy: micrel: Add support for PTP_PF_PEROUT for lan8841
-c5a8027de26e1b7c0ba4f8e430165b6a4a29a869 net: phy: dp83867: Disable IRQs on suspend
-ad4bf5f2406f6a2e29266bbad74e18f0d955ac4c net: socket: suppress unused warning
-90c7dd32652bcfcc7716c762bc095a7d49ad85dd net: phy: smsc: use device_property_present in smsc_phy_probe
-4821c186b9c343760a293b455b603735291a7865 net: hsr: Don't log netdev_err message on unknown prp dst node
-be50da3e9d4ad1958f7b11322d44d94d5c25a4c1 net: virtio_net: implement exact header length guest feature
-7c6dddc239abe660598c49ec95ea0ed6399a4b2a bnxt: avoid overflow in bnxt_get_nvram_directory()
-c66b2111c9c952f3bbf454a755768e80308cc6e2 selftests: tc-testing: add tests for action binding
-b39212d5936c0fc3d4605abf2b51f734bf59ee11 Merge branch '40GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/next-queue
-bcc858689db5f2e5a8d4d6e8bc5bb9736cd80626 net: Use of_property_present() for testing DT property presence
-68a84a127bb07d2a47e95c808520f742c54781c7 net: lan966x: Change lan966x_police_del return type
-b071af523579df7341cabf0f16fc661125e9a13f neighbour: annotate lockless accesses to n->nud_state
-c486640aa710ddd06c13a7f7162126e1552e8842 ipv6: remove one read_lock()/read_unlock() pair in rt6_check_neigh()
-575942a2e2d311c7f5abe17f9958abab45604cbd Merge branch 'ipv6-optimize-rt6_score_route'
-69444581d0022b8afced2c90c441b7b4d9b8eba9 net: dsa: microchip: add ksz_setup_tc_mode() function
-c570f861fa059ea653599415a7c8cc1dfaf16763 net: dsa: microchip: add ETS Qdisc support for KSZ9477 series
-c0a274151d3970ec7f3d07c8a1292733ed17d612 Merge branch 'dsa-microchip-tc-ets'
-dc54e450a5dd0fd9147dc9fea0684293569d3609 net: stmmac: qcom: drop of_match_ptr for ID table
-e6512465838bf634d147399c8c96612d3cb419b9 net: stmmac: generic: drop of_match_ptr for ID table
-69df36d524dbb6f0692252c5f9d41bed9a064ff5 net: marvell: pxa168_eth: drop of_match_ptr for ID table
-7f319fe4363c613f8b00b4bfab66c3659c38378b net: samsung: sxgbe: drop of_match_ptr for ID table
-7e9aa8cad0844b85a6877cd072c95ac2844eb666 net: ni: drop of_match_ptr for ID table
-a52ed50a04de179cc866c18bdd1b9a2f59d6bdfc nfc: trf7970a: mark OF related data as maybe unused
-6ea1e67788f30710d1991de42802cbdeb67afec4 net: dsa: lantiq_gswip: mark OF related data as maybe unused
-ced5c5a0a2ea5eec6ed6cf1fcdde719fdafed82c net: dsa: lan9303: drop of_match_ptr for ID table
-1eb8566dd08db9c7402a26b027086eaabc20ff2a net: dsa: seville_vsc9953: drop of_match_ptr for ID table
-00923ff2e1baf6bc9832f12e44f73439de5fcd72 net: dsa: ksz9477: drop of_match_ptr for ID table
-0f17b42827ae63aaf08cad875d9575b1bca1e066 net: dsa: ocelot: drop of_match_ptr for ID table
-b0b7d1b6260b3acb9f3f3bc7f3ca88a8898e95b1 net: phy: ks8995: drop of_match_ptr for ID table
-3df09beef650af667be5ec7eee88629e6e479a51 net: ieee802154: adf7242: drop of_match_ptr for ID table
-3896c40b7824c8874963e257afc0f464200d2d2c net: ieee802154: mcr20a: drop of_match_ptr for ID table
-32b7030681a488186bf1753b29a170f5d4644721 net: ieee802154: at86rf230: drop of_match_ptr for ID table
-cdfe4fc4d946e2a5d589f73985043674cf298ff6 net: ieee802154: ca8210: drop of_match_ptr for ID table
-059fa99723405b47833c7e14e062c7ba7066ca3c net: ieee802154: adf7242: drop owner from driver
-613a3c44a3737c9a2dfd9f70f9b79427459bb745 net: ieee802154: ca8210: drop owner from driver
-45ef71d108e6f1545e2981d8af03be13f2e39411 net: geneve: set IFF_POINTOPOINT with IFLA_GENEVE_INNER_PROTO_INHERIT
-f947568e258038d3c2f8f38a9a7dabaca36643ec net/smc: Introduce explicit check for v2 support
-298c91dc40e51395198533433716d0521ed10995 net/ism: Remove extra include
-c4216a83078bc46f9e0475ff810a0a798572b0ec Merge branch 'net-smc-updates'
-a02d83f9947d8f71904eda4de046630c3eb6802c scm: fix MSG_CTRUNC setting condition for SO_PASSSEC
-543c143dac5d64a8de8db3ccadea6d92c34fd1e6 ptp: ines: drop of_match_ptr for ID table
-0384d05555d2b3dacd647668cd84df2ccd15ac61 Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/next-queue
-83456576a42050cc0675aece14277a3cbdee9cbe net: phy: update obsolete comment about PHY_STARTING
-a57cc54d69d601282c4451010b12f53630834203 net: phy: micrel: drop superfluous use of temp variable
-c05d145abea138dbba213ce775820af73e893d92 net/mlx5: remove redundant clear_bit
-8ff38e730c3f5ee717f25365ef8aa4739562d567 net/mlx5: Stop waiting for PCI up if teardown was triggered
-ceefcfb8a37510f2c2b99b9e8d6c0b3941687b2b net/mlx5: Add comment to mlx5_devlink_params_register()
-c1fef618d611b31964ab397aa0bf0611da94bade net/mlx5: Implement thermal zone
-aa98d15ea40b9d370871df7882b6d56d08aed692 net/mlx5e: Utilize the entire fifo
-2b5bd5b1611b817970f13b1c4dfdcda0b35e3690 net/mlx5e: Rename RQ/SQ adaptive moderation state flag
-1fe7bc109e3e18f7776ba71953cbc922b7ee9165 net/mlx5e: Stringify RQ SW state in RQ devlink health diagnostics
-fc9d982a2512b294607b2922de3809e7c92810da net/mlx5e: Expose SQ SW state as part of SQ health diagnostics
-bb76d250e55c72975b77f5d610fd3733306b3031 net/mlx5e: Add XSK RQ state flag for RQ devlink health diagnostics
-028522e2844393abc44f7bd7477eb4a455f01579 net/mlx5: Move needed PTYS functions to core layer
-1bffcea42926b26e092045ac398850e80d950bb2 net/mlx5e: Add devlink hairpin queues parameters
-8a0594c0961012ac07112f41800da29dd5632c03 net/mlx5e: Add more information to hairpin table dump
-244fd698207f0baec062da4737e31c76b1be2371 net/mlx5e: TC, Extract indr setup block checks to function
-d5d006bb27ad9d408074eef7e091fbd87335f913 net/mlx5e: Enable TC offload for ingress MACVLAN over bond
-63b02048f9a781e01e59743cd2d3e0a1f10c971a net/mlx5e: Enable TC offload for egress MACVLAN over bond
-fabdc10075b8f67b120091a3dc9173616f3ccebe Merge mlx5 updates 2023-03-13
-8a8db7aeaa6dae4ddae033858bf5b49aecfbbe42 nfp: flower: add get_flow_act_ct() for ct action
-cee7b339d806f71df611087724ddfbaad2d8f8b7 nfp: flower: refactor function "is_pre_ct_flow"
-0b8d953cce26287a7f5eb78ff49496e9836c88ed nfp: flower: refactor function "is_post_ct_flow"
-3e44d19934b92398785b3ffc2353b9eba264140e nfp: flower: add goto_chain_index for ct entry
-46a83c85b683b647d86e679e2b095494e87f4d7c nfp: flower: prepare for parameterisation of number of offload rules
-a87ceb3d42afebd86191054314ef1a2f98c4556b nfp: flower: offload tc flows of multiple conntrack zones
-6873465c1930e0caeccbe0f9987a7b4f9afbdac8 Merge branch 'nfp-flower-add-support-for-multi-zone-conntrack'
-9bdf4489a3950335af088604876fdc3209a9dd8e net: phy: micrel: Fix spelling mistake "minimim" -> "minimum"
-0ba13995be9b416ea1d3daaf3ba871a67f45899b net: phy: mxl-gpy: enhance delay time required by loopback disable function
-053fdaa841bd1af9fe9c2c30bba81119059aac95 nfc: mrvl: Move platform_data struct into driver
-cc6d85c1cb5ccc04c594392339c81227abd1667d nfc: mrvl: Use of_property_read_bool() for boolean properties
-d565263b7d83371e64ef315bdc3428909808b46f net: dsa: hellcreek: Get rid of custom led_init_default_state_get()
-abc783a7b0ff34d20a799d2fbf0ed0b2b06b72ed net: macb: Add PTP support to GEM for sama7g5
-9bae0dd05e61009bf45f4a6a8fbde87ed9567166 net: macb: Add PTP support to EMAC for sama7g5
-b883d1ee9816194e7333283ff5bbfd5fd2727913 Merge branch 'add-ptp-support-for-sama7g5'
-c36a77c33db36277ca33b6a2fa5f802ba93694f7 net: dsa: realtek: rtl8365mb: add change_mtu
-81dc07417f0f82cd8f9733a1a3ebc2a473423e86 net: wangxun: Implement the ndo change mtu interface
-bd7fc6e1957c2102866f9e464c1f2302e891b7e9 net: mana: Add new MANA VF performance counters for easier troubleshooting
-40235edeadf58e4232bfcf8bf15be453cfe233b7 dt-bindings: net: ti: k3-am654-cpsw-nuss: Fix compatible order
-e0c9c2a7dd738120c2fbc155c6fba1066f109be0 dt-bindings: net: ti: k3-am654-cpsw-nuss: Add J784S4 CPSW9G support
-ec47dcb489ba3313291af7266b058c7df1205c5c Merge branch 'J784S4-CPSW9G-bindings'
-8c44fa12c8fa09c6c12f0dc25129a6d13ee0a1ea net: Add MDB net device operations
-c009de1061b57162fed206998dcdf8001416a481 bridge: mcast: Implement MDB net device operations
-cc7f5022f810cf7bf4f1826dd620656c35942a13 rtnetlink: bridge: mcast: Move MDB handlers out of bridge driver
-da654c80a0ebba2e2a0614e017c9bbe57f643fe2 rtnetlink: bridge: mcast: Relax group address validation in common code
-f307c8bf37a346ed3e8b6090b64b4ca8d61e1bcd vxlan: Move address helpers to private headers
-6ab271aaad25351ea8587d67c6837678b875eb2c vxlan: Expose vxlan_xmit_one()
-a3a48de5eade770e911d35291217bdd69ce04ef1 vxlan: mdb: Add MDB control path support
-bc6c6b013ffee36eb555cc0a68aa3d9608e1fad2 vxlan: mdb: Add an internal flag to indicate MDB usage
-0f83e69f44bf8dc8ab48ff0196b3475c1f0f6c07 vxlan: Add MDB data path support
-08f876a7d79ed235f90af0373d1e548a71c1f4f6 vxlan: Enable MDB support
-62199e3f16583e766f46d1767deca109fd8ea408 selftests: net: Add VXLAN MDB test
-abf36703d7046cd0aaf5ac5524d321851fb6bf03 Merge branch 'vxlan-MDB-support'
-ef63461caf427a77a04620d74ba90035a712af9c net: pcs: xpcs: remove double-read of link state when using AN
-ecec0ebbc6381a5a375f1cf10c4858f24e91e2ef net: pcs: lynx: don't print an_enabled in pcs_get_state()
-e05c518196c4ea72c1e84620f2e0251d25858a97 Merge branch 'pcs_get_state-fixes'
-731b73dba359e3ff00517c13aa0daa82b34ff466 vlan: partially enable SIOCSHWTSTAMP in container
-cee1af825d65b8122627fc2efbc36c1bd51ee103 tcp: annotate lockless accesses to sk->sk_err_soft
-9a25f0cb0d7ee689f54f38890e66bc78520b0c62 dccp: annotate lockless accesses to sk->sk_err_soft
-2f2d9972affae1f3282eff97c794cf843aedf61e net: annotate lockless accesses to sk->sk_err_soft
-e13ec3da05d130f0d10da8e1fbe1be26dcdb0e27 tcp: annotate lockless access to sk->sk_err
-9ae8e5ad99b8ebcd3d3dd46075f3825e6f08f063 mptcp: annotate lockless accesses to sk->sk_err
-cc04410af7de348234ac36a5f50c4ce416efdb4b af_unix: annotate lockless accesses to sk->sk_err
-ec4040ae5fd058fe06a9dbe4161abc2829669e36 Merge branch 'net-sk_err-lockless-annotate'
-2e80aeae9f807ac7e967dea7633abea5829c6531 gve: XDP support GQI-QPL: helper function changes
-7fc2bf78a430f975e53f2b1e87e99d8f83cafd11 gve: Changes to add new TX queues
-75eaae158b1b7d8d5bde2bafc0bcf778423071d3 gve: Add XDP DROP and TX support for GQI-QPL format
-39a7f4aa3e4a7947614cf1d5c27abba3300adb1e gve: Add XDP REDIRECT support for GQI-QPL format
-fd8e40321a12391e6f554cc637d0c4b6109682a9 gve: Add AF_XDP zero-copy support for GQI-QPL format
-dc021e6c24e1edd809e4f109783c48e8a74b2d8c Merge branch 'gve-xdp-support'
-b9d83ab8a708f23a4001d60e9d8d0b3be3d9f607 net/packet: annotate accesses to po->xmit
-ee5675ecdf7a4e713ed21d98a70c2871d6ebed01 net/packet: convert po->origdev to an atomic flag
-fd53c297aa7b077ae98a3d3d2d3aa278a1686ba6 net/packet: convert po->auxdata to an atomic flag
-1051ce4ab64db91f7b62369ddc321ba8747f8c84 net/packet: annotate accesses to po->tp_tstamp
-7438344660fa55b33b8234c1797c886eb73667a7 net/packet: convert po->tp_tx_has_off to an atomic flag
-164bddace2e03f6005e650cb88f101a66ebdc05a net/packet: convert po->tp_loss to an atomic flag
-50d935eafee292fc432d5ac8c8715a6492961abc net/packet: convert po->has_vnet_hdr to an atomic flag
-61edf479818e63978cabd243b82ca80f8948a313 net/packet: convert po->running to an atomic flag
-791a3e9f1a86fe8eb09173c9788493b8b5c957f4 net/packet: convert po->pressure to an atomic flag
-19a9fbc074a9b1ed63b5b83d3696db447f4c503e Merge branch 'net-packet-KCSAN'
-74bf6477c18b2904936763132e9224a41b8da13a netlink-specs: add partial specification for devlink
-82b3297009b6831dfe47f0f38ed4043e39f58c9f netlink: specs: allow uapi-header in genetlink
-abc17a11ed29b0471e428d86189acca8d1a213c6 inet: preserve const qualifier in inet_sk()
-33e972bdf0b0aa208b67164c64eef3c307e4b303 ipv4: constify ip_mc_sf_allow() socket argument
-a0a989d3007538cd7dae9431d8ac47850ced3100 udp: constify __udp_is_mcast_sock() socket argument
-66eb554c6449cef8c1e1b814f74d13f264582591 ipv6: constify inet6_mc_check()
-dc3731bad8e133ca1893ae414fdebdf85a333495 udp6: constify __udp_v6_is_mcast_sock() socket argument
-db6af4fdb150b45e1ba6b295ccfd3df482e022d2 ipv6: raw: constify raw_v6_match() socket argument
-0a8c2568209ee0c3392593c7c5c7fe41c625a383 ipv4: raw: constify raw_v4_match() socket argument
-736c8b52c8ada4ca93a59f7d597c5650ebc45921 inet_diag: constify raw_lookup() socket argument
-d27d367d3b7861d9d6c852450d935507ba4044ee Merge branch 'inet-const'
-79a22238b4f22c45cadd3b4040d644f4de320d1b net/smc: Use percpu ref for wr tx reference
+fd2d4c135ed974fdddf2af687748d28c58575984 gpg-interface: lazily initialize and read the configuration
+8bff5ca030d314d613e1ab58f07b27914d6dfd33 treewide: ensure one of the appropriate headers is sourced first
+f332121e75d3aa2b0ce7efd120ac3ede19e9a733 treewide: remove unnecessary git-compat-util.h includes in headers
+ba3d1c73daa02152acf4729d45ca7fe4d71d5747 treewide: remove unnecessary cache.h includes
+15db4e7f4ac20cc41902a2479c7784fff8edf2e9 treewide: remove unnecessary cache.h includes in source files
+36bf19589055fb71aac0ed6719dfe5b385adc2bf alloc.h: move ALLOC_GROW() functions from cache.h
+41227cb138c91fbd369ac6ee4877f253b39260cc hash.h: move some oid-related declarations from cache.h
+b73ecb48114926d063d7ab96943bafcc0ae913b6 hex.h: move some hex-related declarations from cache.h
+41771fa435a44ff8be3f23753bde0309a2a65b03 cache.h: remove dependence on hex.h; make other files include it explicitly
+b6c09c03eba37934871239ff98d88bd023c60b5a pretty.h: move has_non_ascii() declaration from commit.h
+b5fa608180d4270b3495258ab098426551a18372 ident.h: move ident-related declarations out of cache.h
+a64215b6cd5e67939187475c5b248dc5d13e3d60 object.h: stop depending on cache.h; make cache.h depend on object.h
+ac48adf488794417b1060b5ed2377a9fd4c33c17 dir.h: refactor to no longer need to include cache.h
+1c02840008b61676373f3703696dc0c07e6eff7d object-store.h: move struct object_info from cache.h
+cbeab74713b6a97dfe6cf9e3bd9dbf7c68ea4e7b replace-object.h: move read_replace_refs declaration from cache.h to here
+fc7bd51b06424694c2e3dd97c11fa095d84d52b1 treewide: replace cache.h with more direct headers, where possible
+eef65c716ceb23fd4570d1a0dfbd84d7b5f1e039 Remove unnecessary includes of builtin.h
+f524970185963a180ecf3a750a31405c4d0de484 diff.h: remove unnecessary include of object.h
+fe6258c348ad79a3c11e309995d88cdf08cde984 ref-filter: drop unused atom parameter from get_worktree_path()
+c4716086d8653ff2761b5f8b0452c97c24e117ed ls-refs: drop config caching
+4b4e75dd4f1dac0c25bded7466b0cc20c9649efb serve: use repository pointer to get config
+74595cca21a41e4be6ca8d578d805b70b7653e98 serve: mark unused parameters in virtual functions
+07ffb954b3421f78c5789477a540d400bbe647a2 object-name: mark unused parameters in disambiguate callbacks
+77ef8b0e1e9e9e70aa8756b45ed12a190a3bcc91 http-backend: mark argc/argv unused
+2be1506a788a24e87ba4b53a1654c9ff40402750 http-backend: mark unused parameters in virtual functions
+5fe9e1ce2f7e0be5ea817f2e4ae2c7edecf771c0 ref-filter: mark unused callback parameters
+d3dcfa047f415de5590b60781dcdf11492e25d41 mark "pointless" data pointers in callbacks
+ce41759ed5edac9d30a73640b4fdd155c9f9fee0 run-command: mark error routine parameters as unused
+9ec03b59a8c4f5a0b4e666bd179a8eed71484825 mark unused parameters in signal handlers
+c50dca2a18077306eb6796938d3d01c76590b4c6 list-objects: mark unused callback parameters
+be252d3349f1a5fdf7aaf53390f3ce555b5de9d9 for_each_object: mark unused callback parameters
+1758712248ab134a99cf73dcb62c115d955697d8 prio-queue: mark unused parameters in comparison functions
+3c50c88f426dddd6c4cb1c1ae847a1eddd5eafee notes: mark unused callback parameters
+65daa9ba1c86052d7a889a407b95c3ffa61be47b fetch-pack: mark unused parameter in callback function
+c764e2806013e65c1ebee4b82afe3da1b55d3e51 rewrite_parents(): mark unused callback parameter
+43090008e365a5dfec5a167b5ab64b1f0c1345a6 for_each_commit_graft(): mark unused callback parameter
+1bff855419b0cb338e7ef53b77f99207704bf63e userformat_want_item(): mark unused parameter
+a5c76b3698f3672afecd65eed233b095123ae1d6 run_processes_parallel: mark unused callback parameters
+506ebaac96b7d9a42853c16d0523fd493b7991da help: mark unused parameter in git_unknown_cmd_config()
+8840069a37e69129ed3c2792ddb172557f98e205 fsck: factor out index fsck
+fb64ca526a7c695aa137c2d2577585ddea5cce28 fsck: check index files in all worktrees
+592ec63b38ca7e2fb069ce1bf41b47a6f5a4ef8a fsck: mention file path for index errors
+8d3e7eac529b42319622692028b45670bdff8835 fsck: check even zero-entry index files
+cc5d1d32fd489f7eb98f762de303b499f2117638 drop pure pass-through config callbacks
+24a49cf78eef2a13bc3f7c730e236d58b5e2ebbe t2021: fix platform-specific leftover cruft
+b413a827126abd54fa95470be7c63fa4f00d5d47 unpack-trees: heed requests to overwrite ignored files
+5fdf285e6254fff4d9560f72878456f0a53e2e38 dir: separate public from internal portion of dir_struct
+59e009bf15cefd89105c3e162776ccf10f4e68f1 dir: add a usage note to exclude_per_dir
+d144a9d30d883ec4b2ea5ed065e1b42237217c14 dir: mark output only fields of dir_struct as such
+5d4f4a592e99e8fb220b2db410f0d81203f3762e unpack-trees: clean up some flow control
+1147c56ff70d5d1152601a73c9e76b9856ceebf6 sparse-checkout: avoid using internal API of unpack-trees
+33b1b4c7681703c44babdbd229cc96a3ad540569 sparse-checkout: avoid using internal API of unpack-trees, take 2
+576de3d95608df759c1f09e84f4ce1cea3c404d4 unpack_trees: start splitting internal fields from public API
+13e1fd6e38f17fe7fecfb6e6c30af053a3c2c420 unpack-trees: mark fields only used internally as internal
+0d680a7158b647ced6a4e24a8687decc2ad6fb78 unpack-trees: rewrap a few overlong lines from previous patch
+1ca13dd3ca6e153a2bc5b0b53555996cdd668e93 unpack-trees: special case read-tree debugging as internal usage
+f297424a3a02b552865798ac8367cf657ef1df2d unpack-trees: add usage notices around df_conflict_entry
+c6ce27ab08d30dd9d626d7a56cb928bc5792eb27 fetch: support hideRefs to speed up connectivity checks
+988aad99b44f3fb3f04f4a75cadf0dbb7ac89ffe t5563: add tests for basic and anoymous HTTP access
+6b8dda9a4fdec1638b047506a121df8e15872492 http: read HTTP WWW-Authenticate response headers
+5f2117b24f568ecc789c677748d70ccd538b16ba credential: add WWW-Authenticate header to cred requests
+f17a1542b28941b2f849a0185c15cd9131f46c54 rebase: fix capitalisation autoSquash in i18n string
+2d019f46b00530c6c97413a840a4f0bb14b45877 Merge branch 'jk/fsck-indices-in-worktrees'
+f17d232f14135c9cce6e043389a9b7c434443606 Merge branch 'en/dir-api-cleanup'
+88cc8ed8bc7d4bc9521b426e95ae2a38d3aec13a Merge branch 'en/header-cleanup'
+d0732a8120d9cc62d8b6efa4ec48966f890f84b7 Merge branch 'jk/unused-post-2.39-part2'
+af5388d2ddb0bc7c22fbe698078f4ca07879d954 Merge branch 'jc/gpg-lazy-init'
+92c56da09683fa3331668adec073b6769da8f0b7 Merge branch 'mc/credential-helper-www-authenticate'
+4d87411ffe2432efa8800b9e9d889241dd0f1f07 Merge branch 'ew/fetch-hiderefs'
+5009dd4a1c1b18b3093d9a37e6508d218c1e8876 Merge branch 'fz/rebase-msg-update'
+950264636c68591989456e3ba0a5442f93152c1a Start the 2.41 cycle
 
---===============1344591929026983927==--
+--===============5175183002936126843==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-0232cdcd8c4c-3a58e7d6f2f0.txt
+
+dfbfdc521daece092a599959da79c3c134f26b3c object-name: fix quiet @{u} parsing
+2d019f46b00530c6c97413a840a4f0bb14b45877 Merge branch 'jk/fsck-indices-in-worktrees'
+f17d232f14135c9cce6e043389a9b7c434443606 Merge branch 'en/dir-api-cleanup'
+88cc8ed8bc7d4bc9521b426e95ae2a38d3aec13a Merge branch 'en/header-cleanup'
+d0732a8120d9cc62d8b6efa4ec48966f890f84b7 Merge branch 'jk/unused-post-2.39-part2'
+af5388d2ddb0bc7c22fbe698078f4ca07879d954 Merge branch 'jc/gpg-lazy-init'
+92c56da09683fa3331668adec073b6769da8f0b7 Merge branch 'mc/credential-helper-www-authenticate'
+4d87411ffe2432efa8800b9e9d889241dd0f1f07 Merge branch 'ew/fetch-hiderefs'
+5009dd4a1c1b18b3093d9a37e6508d218c1e8876 Merge branch 'fz/rebase-msg-update'
+950264636c68591989456e3ba0a5442f93152c1a Start the 2.41 cycle
+c2aeb0db480ddecd23630a65749b5a8be2f5535c Merge branch 'ab/avoid-losing-exit-codes-in-tests' into jch
+d6a81faaef3b2477d80214fc17b83b0ad298f6a2 Merge branch 'ew/commit-reach-clean-up-flags-fix' into jch
+076843dc0d016d48bd14a95e2ec18efec0e6fd00 Merge branch 'ak/restore-both-incompatible-with-conflicts' into jch
+954b6029e18a3c273daf2189a0f4b819fa227b43 Merge branch 'zh/push-to-delete-onelevel-ref' into jch
+663fabbbeb8e0128ebe0824dec26f4c04fc10bb2 Merge branch 'rj/bisect-already-used-branch' into jch
+c03ad832e114772dc7c3234f823e14a515615dbc Merge branch 'rj/branch-unborn-in-other-worktrees' into jch
+7532af823014b253e7decaf6aa1a582dabd8b071 Merge branch 'rj/avoid-switching-to-already-used-branch' into jch
+45962029bedc64d152cb6776afc9eb26b2473f4c Merge branch 'as/doc-markup-fix' into jch
+bd2dfa5d1b2bdd5919a6cc7f14f05c72c398dc30 Merge branch 'jk/bundle-progress' into jch
+a17727d2bc599b304e4fc2e0a2830372864ade35 Merge branch 'jk/bundle-use-dash-for-stdfiles' into jch
+0c2f9c73772c4f53c42f6a8f0041930fc5fa4e02 Merge branch 'jk/format-patch-change-format-for-empty-commits' into jch
+6ceb19da5ae6fba6362c2c67ce8889ce1e9fad78 Merge branch 'ds/reprepare-alternates-when-repreparing-packfiles' into jch
+0b36ef5cd370e4d26cfef06ed81ae16e33acb108 Merge branch 'ab/fix-strategy-opts-parsing' into jch
+755a0124a99df3ce754b75dbb13eceb71441ca17 Merge branch 'fc/advice-diverged-history' into jch
+4561911070ebf87df9efb62a5bc63c98a5ad9143 Merge branch 'ew/fetch-no-write-fetch-head-fix' into jch
+302ff2c7c984b1b79245abe626537cf413e462a2 Merge branch 'jk/add-p-unmerged-fix' into jch
+6cd85e39fada350dfe45dbc7f77b2c9879e20426 Merge branch 'jk/format-patch-ignore-noprefix' into jch
+7aeab4a7b05cb6d580261bc448eab43e4951028e Merge branch 'aj/ls-files-format-fix' into jch
+b92bd598eb8ea42a490bca9214968741431949c3 Merge branch 'ps/receive-pack-unlock-before-die' into jch
+e69c71443111ac2faeada1694e256891dba501a8 Merge branch 'fc/test-aggregation-clean-up' into jch
+2365f51d4ed822f9cfd133cb2905eaca70862cce ### match next
+569faa3f2f2305462ebee0f558092fe90d94e1bc Merge branch 'fc/completion-colors-do-not-need-prompt-command' into jch
+3a62f2841a700a6dfaf8f68e2a3e1b9c983bd61b Merge branch 'ds/ahead-behind' into jch
+ecf454fec98130b330407bccaf74949a837f0e43 Merge branch 'ps/fetch-ref-update-reporting' into jch
+662a3cca9cf6aa13adee1493cc055475f949356c Merge branch 'ab/config-multi-and-nonbool' into jch
+6d39f40bc3bcad5659aa109bb4a0e2a3afd8bcf3 Merge branch 'ja/worktree-orphan' into jch
+25994c20343108017566b96e7e056d043cf9d0b9 Merge branch 'jc/spell-id-in-both-caps-in-message-id' into jch
+ab5275100ef764cdecd8dac9df2beb7e269dd788 Merge branch 'ad/test-record-count-when-harness-is-in-use' into jch
+924740666ced5360bfff57eb48d05f656496afb1 Merge branch 'ab/imap-send-requires-curl' into jch
+d1e7b39bcee5393a95ed0b6658f9fa4b36e8f0e7 Merge branch 'ed/fsmonitor-inotify' into seen
+9e31b35f8c3a09f8ad0820b7fd642079164ce8af Merge branch 'ab/tag-object-type-errors' into seen
+966fe7a035173617f8b357e480fe09a8c7b530fd Merge branch 'so/diff-merges-more' into seen
+9176897fd6716cf7c0560287070966ff22c569a3 Merge branch 'ms/send-email-feed-header-to-validate-hook' into seen
+1d2b59c1898820d3cf9fccaff2d52fbe16a18e3b Merge branch 'cw/submodule-status-in-parallel' into seen
+0dcaa9d86acaf9e397f1d4f7583badc2aaddabbb Merge branch 'cb/checkout-same-branch-twice' into seen
+179041737bfec2aa63f0fbf6f87b8fc31283c211 Merge branch 'tk/pull-conflict-suggest-rebase-merge-not-rebase-true' into seen
+c4e32d553b309ee4f9331a0fd47be7383e6afedb Merge branch 'ah/rebase-merges-config' into seen
+8da0578f84981ccbe1840bf48b92949d2f7a87c2 Merge branch 'tl/notes--blankline' into seen
+1b7d5ec29ad9ceaa2d9e5e8960a825e086e2c5a6 Merge branch 'my/wildmatch-cleanups' into seen
+117466ecdd917ad84bbb60d5c63dd93d1dd02283 Merge branch 'gc/config-parsing-cleanup' into seen
+7991a0e169b5670033ddc9dba77fd56f8c83ac01 Merge branch 'sl/diff-files-sparse' into seen
+b1182edf833a16b6999a90b72601a0d2d0a7f1dd Merge branch 'ar/test-cleanup-unused-file-creation' into seen
+1cb0656002a0d9371c4b9374349ae85eabdf566c Merge branch 'mh/credential-password-expiry-libsecret' into seen
+49ee2c279382d56c17f29d671282f19576953673 Merge branch 'pw/rebase-cleanup-merge-strategy-option-handling' into seen
+6f1bf6bf80032f1494ff3a0c1542f61d3b96d1cc Merge branch 'mh/credential-oauth-refresh-token' into seen
+868e255cbbbded7f91cea8a98c949fc103a40c59 Merge branch 'ab/remove-implicit-use-of-the-repository' into seen
+6c6a79c3551a10cdd914398d89f3dd4b40498df4 Merge branch 'fc/oid-quietly-parse-upstream' into seen
+910d07a861d3dd1cae7ee1ae85f60184c32087e8 mailmap: drop debugging code
+647edf79d6b61391392ed42435b3214c02f539f1 http: drop unused parameter from start_object_request()
+1e5e0974964170a917d6950dda74e82745ab65aa http: mark unused parameter in fill_active_slot() callbacks
+b3edf335dfa978b43d10de7e722a7e355a3d0e4c transport: mark unused parameters in fetch_refs_from_bundle()
+3a58e7d6f2f0d0b852127d55f2c3e532ef174ad9 Merge branch 'jk/unused-post-2.40' into seen
+
+--===============5175183002936126843==--
