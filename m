@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9153035362980870969=="
+Content-Type: multipart/mixed; boundary="===============7175548636405803148=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 17 Mar 2023 18:22:06 -0000
-Message-Id: <167907732613.30207.2567497981188023450@gitolite.kernel.org>
+Date: Fri, 17 Mar 2023 18:23:03 -0000
+Message-Id: <167907738308.30616.16559229680262795382@gitolite.kernel.org>
 
---===============9153035362980870969==
+--===============7175548636405803148==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/main
     old: 9bdf4489a3950335af088604876fdc3209a9dd8e
     new: 79a22238b4f22c45cadd3b4040d644f4de320d1b
     log: revlist-9bdf4489a395-79a22238b4f2.txt
 
---===============9153035362980870969==
+--===============7175548636405803148==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -91,4 +91,4 @@ db6af4fdb150b45e1ba6b295ccfd3df482e022d2 ipv6: raw: constify raw_v6_match() sock
 d27d367d3b7861d9d6c852450d935507ba4044ee Merge branch 'inet-const'
 79a22238b4f22c45cadd3b4040d644f4de320d1b net/smc: Use percpu ref for wr tx reference
 
---===============9153035362980870969==--
+--===============7175548636405803148==--
