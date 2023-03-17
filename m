@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
-Date: Fri, 17 Mar 2023 15:26:06 -0000
-Message-Id: <167906676668.6476.4179777361524962769@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
+Date: Fri, 17 Mar 2023 15:34:29 -0000
+Message-Id: <167906726926.10714.6321187583272123551@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/liburing
-user: axboe
+repo: pub/scm/linux/kernel/git/soc/soc
+user: arnd
 changes:
-  - ref: refs/heads/master
-    old: 3387f4b32e4ee068545b9813197bdc584e4f7a6b
-    new: 0e06552f7e32323d3d490fc88b7c0ffd876efbbe
-    log: |
-         0e06552f7e32323d3d490fc88b7c0ffd876efbbe test: remove timeout-overflow.c
-         
+  - ref: refs/heads/omap2-cleanup
+    old: b5d7e92d590bc969010087a9c9d8e7c4e3916d70
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/rockchip/dt-bindings
+    old: 8e63197ffe7750c94c8ea9d159ce3e46a76bfcf2
+    new: 0000000000000000000000000000000000000000
