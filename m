@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0254298466528909426=="
+Content-Type: multipart/mixed; boundary="===============5643800275911128043=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Fri, 17 Mar 2023 18:44:43 -0000
-Message-Id: <167907868304.11617.4396000490500596295@gitolite.kernel.org>
+Date: Fri, 17 Mar 2023 18:45:19 -0000
+Message-Id: <167907871969.13689.17581042131211393995@gitolite.kernel.org>
 
---===============0254298466528909426==
+--===============5643800275911128043==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 04504793feec0484dd0deea566c386d1965578f6
-    new: f5e305e63b035a1782a666a6535765f80bb2dca3
-    log: revlist-04504793feec-f5e305e63b03.txt
+  - ref: refs/heads/dev-queue
+    old: 63c504d35e759ade2fb86d70695ba31dd8134283
+    new: cebeaee2e9fc6200805bc10696ef8a330846d07f
+    log: revlist-63c504d35e75-cebeaee2e9fc.txt
 
---===============0254298466528909426==
+--===============5643800275911128043==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-04504793feec-f5e305e63b03.txt
+Content-Disposition: attachment; filename=revlist-63c504d35e75-cebeaee2e9fc.txt
 
 8222d5910dae08213b6d9d4bc9a7f8502855e624 xfrm: Zero padding when dumping algos and encap
 c276a706ea1f51cf9723ed8484feceaf961b8f89 xfrm: Allow transport-mode states with AF_UNSPEC selector
@@ -77,5 +77,24 @@ e05bb97d9c9dd4ba5739a27921044c935a7fb3be net: renesas: rswitch: Fix the output v
 e667d469098671261d558be0cd93dca4d285ce1e bonding: restore bond's IFF_SLAVE flag if a non-eth dev enslave fails
 222c94ec0ad48b951f0f692a7cf5bcf7a6bcb6b1 selftests: bonding: add tests for ether type changes
 f5e305e63b035a1782a666a6535765f80bb2dca3 Merge branch 'bonding-fixes'
+e8cf49b423d5afb1625af57f3f94ba7587b17104 intel/igbvf: free irq on the error path in igbvf_request_msix()
+78b08a6939c3586e993944dc4e3b2430df0a55be igb: Enable SR-IOV after reinit
+467b5d6cbadbb73b08957953d5ebcb693fb9bc3f igbvf: Regard vf reset nack as success
+6ae807d4b7d4e8df6c7a56c97dc38442c6102230 ice: Write all GNSS buffers instead of first one
+6adb5d109ad81c7c6699e332dd8f14fd39a5a7c4 iavf: fix inverted Rx hash condition leading to disabled hash
+901e40880401ab2dd30f8b15679e0b0d4e9221a4 iavf: fix non-tunneled IPv6 UDP packet type and hashing
+d9e180bda7d6e0453fc60fb3dc87938dc110d50b igb: revert rtnl_lock() that causes deadlock
+47d369a96d811b67ddcec2bd1fede5afeedd57b4 igc: fix the validation logic for taprio's gate list
+9b54c4bec9db0478eb519babd1d3a58e0295fefd ixgbe: Panic during XDP_TX with > 64 CPUs
+e6fe47425afb91f6b2ab017d7c156a4e003ae399 ice: fix rx buffers handling for flow director packets
+27010df659a593db4fd3bb7ad374c95ee7892cc5 ice: check if VF exists before mode check
+bd5840b3bda20a1af3e601a1359e3a35e78484a3 ice: remove filters only if VSI is deleted
+8b5c4cdd9fe6d2c2c638e1211c348d869ad6e9da i40e: fix flow director packet filter programming
+738f0c19fd4c2d80216d724b3c4f2ff9659b0d30 iavf: fix hang on reboot with ice
+cb1dcd9994c742381ca07e54b81c9871a6a1f392 ice: fix W=1 headers mismatch
+cc63fc5b88dddf26cf1e21b3be5c09ee7597f013 ice: Fix ice_cfg_rdma_fltr() to only update relevant fields
+52847a5fc76f7f3a4fe304c500eeff99a06d356d ice: add profile conflict check for AVF FDIR
+8857a6d586e177e57ed7adc0d046b6c866871d0b iavf: do not track VLAN 0 filters
+cebeaee2e9fc6200805bc10696ef8a330846d07f ice: identify aRFS flows using L3/L4 dissector info
 
---===============0254298466528909426==--
+--===============5643800275911128043==--
