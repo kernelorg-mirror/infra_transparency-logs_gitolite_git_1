@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Fri, 17 Mar 2023 09:20:32 -0000
-Message-Id: <167904483216.5522.8147127912224950323@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ulfh/mmc
+Date: Fri, 17 Mar 2023 09:22:03 -0000
+Message-Id: <167904492362.6043.11050258483423610806@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/ulfh/mmc
+user: ulfh
 changes:
-  - ref: refs/tags/foo
-    old: 6d439a086eb9d505f4326b4749f72102079aca22
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/mmc-v6.3-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 24cd9941eaa2a801df07fb663b9058c984bab436
