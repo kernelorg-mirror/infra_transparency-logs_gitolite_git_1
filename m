@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Sat, 18 Mar 2023 15:58:23 -0000
-Message-Id: <167915510389.5111.18087458934568284625@gitolite.kernel.org>
+Date: Sat, 18 Mar 2023 16:23:22 -0000
+Message-Id: <167915660245.21873.14663527814650579267@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jic23/iio
 user: jic23
 changes:
-  - ref: refs/heads/fixes-togreg
-    old: 7b3825e9487d77e83bf1e27b10a74cd729b8f972
-    new: 49f76c499d38bf67803438eee88c8300d0f6ce09
+  - ref: refs/heads/testing
+    old: fb37fdd02856e45e78209d32522029c9f77fe7b7
+    new: 76f2c491a0cae850ad7413e89f62673e6ef90a97
     log: |
-         49f76c499d38bf67803438eee88c8300d0f6ce09 iio: adc: palmas_gpadc: fix NULL dereference on rmmod
+         76f2c491a0cae850ad7413e89f62673e6ef90a97 iio: frequency: admv1013: Benefit from devm_clk_get_enabled() to simplify
          
