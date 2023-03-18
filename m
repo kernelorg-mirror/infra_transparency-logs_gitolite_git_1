@@ -1,25 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/dtc/dtc
-Date: Sat, 18 Mar 2023 02:00:38 -0000
-Message-Id: <167910483826.16814.14547113351031370356@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Sat, 18 Mar 2023 04:57:40 -0000
+Message-Id: <167911546025.5045.6863329654214257615@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/dtc/dtc
-user: dwg
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
   - ref: refs/heads/main
-    old: 72fc810c3025f07de718f5f32a290a6cd5d1f4ee
-    new: 2cdf93a6d402a161edf16de6011bd5ad76382e92
+    old: 478a351ce0d69cef2d2bf2a686a09b356b63a66c
+    new: 30796d0dcb6e41c6558a07950f2ce60c209da867
     log: |
-         2cdf93a6d402a161edf16de6011bd5ad76382e92 fdtoverlay: Fix usage string to not mention "<type>"
-         
-  - ref: refs/heads/master
-    old: 72fc810c3025f07de718f5f32a290a6cd5d1f4ee
-    new: 2cdf93a6d402a161edf16de6011bd5ad76382e92
-    log: |
-         2cdf93a6d402a161edf16de6011bd5ad76382e92 fdtoverlay: Fix usage string to not mention "<type>"
+         30796d0dcb6e41c6558a07950f2ce60c209da867 net: dsa: b53: mmap: fix device tree support
          
