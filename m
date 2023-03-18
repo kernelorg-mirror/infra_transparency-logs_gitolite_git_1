@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vfs/idmapping
-Date: Sat, 18 Mar 2023 14:52:58 -0000
-Message-Id: <167915117831.26095.2806774784203009524@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
+Date: Sat, 18 Mar 2023 15:25:22 -0000
+Message-Id: <167915312211.15681.11940411480778846355@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vfs/idmapping
-user: brauner
+repo: pub/scm/linux/kernel/git/cel/linux
+user: cel
 changes:
-  - ref: refs/heads/b4/fs-tucked-mounts
-    old: 8b857aa22eb8de4fe63ce6952734a2d88a9cac92
-    new: 919496dd33626811b95d92016638bb8f272e73df
+  - ref: refs/heads/nfsd-fixes
+    old: 9ca6705d9d609441d34f8b853e1e4a6369b3b171
+    new: 27c934dd8832dd40fd34776f916dc201e18b319b
     log: |
-         5b31ca65629e53f06bb0edf43d31fe5723d91ccd fs: allow to tuck mounts explicitly
-         919496dd33626811b95d92016638bb8f272e73df [RFC] fs: allow to tuck mounts explicitly
+         e57d06527738798039b8e91af762fbd33881b34d NFS & NFSD: Update GSS dependencies
+         27c934dd8832dd40fd34776f916dc201e18b319b nfsd: don't replace page in rq_pages if it's a continuation of last page
          
