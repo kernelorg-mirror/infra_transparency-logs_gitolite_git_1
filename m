@@ -1,19 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Sat, 18 Mar 2023 01:22:24 -0000
-Message-Id: <167910254460.23706.3988908865361249355@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/dtc/dtc
+Date: Sat, 18 Mar 2023 02:00:38 -0000
+Message-Id: <167910483826.16814.14547113351031370356@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/man-pages/man-pages
-user: alx
+repo: pub/scm/utils/dtc/dtc
+user: dwg
 changes:
-  - ref: refs/heads/master
-    old: c231ce81ca3df02e199a26196fd043d3f96a2afb
-    new: 179cc19e69d8cb7476a864390a355a12c0f38d06
+  - ref: refs/heads/main
+    old: 72fc810c3025f07de718f5f32a290a6cd5d1f4ee
+    new: 2cdf93a6d402a161edf16de6011bd5ad76382e92
     log: |
-         179cc19e69d8cb7476a864390a355a12c0f38d06 arc4random.3: Simplify STANDARDS; add HISTORY
+         2cdf93a6d402a161edf16de6011bd5ad76382e92 fdtoverlay: Fix usage string to not mention "<type>"
+         
+  - ref: refs/heads/master
+    old: 72fc810c3025f07de718f5f32a290a6cd5d1f4ee
+    new: 2cdf93a6d402a161edf16de6011bd5ad76382e92
+    log: |
+         2cdf93a6d402a161edf16de6011bd5ad76382e92 fdtoverlay: Fix usage string to not mention "<type>"
          
