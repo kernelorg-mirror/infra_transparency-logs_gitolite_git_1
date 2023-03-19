@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Sun, 19 Mar 2023 00:50:01 -0000
-Message-Id: <167918700178.1940.6545560866323637800@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/libcap/libcap
+Date: Sun, 19 Mar 2023 01:11:13 -0000
+Message-Id: <167918827357.16012.10779518866143689458@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/libs/libcap/libcap
+user: morgan
 changes:
   - ref: refs/heads/master
-    old: d553afba05762bff80561733676b466f4326088a
-    new: 4172e6365d84feca6d8e53226f76c83ec9f655a7
+    old: 9c084eceb21250d3ffd4cf1c368dd39f99ef4df1
+    new: 8c435a6fecece9e1c0e1625c2add7eaa546bb93c
     log: |
-         4172e6365d84feca6d8e53226f76c83ec9f655a7 Sun Mar 19 12:49:00 AM UTC 2023
+         8c435a6fecece9e1c0e1625c2add7eaa546bb93c Some formatting fixes for the libpsx man page.
          
