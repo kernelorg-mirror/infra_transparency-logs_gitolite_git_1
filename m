@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6827194232225091433=="
+Content-Type: multipart/mixed; boundary="===============4279394662328795455=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Sun, 19 Mar 2023 14:44:06 -0000
-Message-Id: <167923704649.20395.13708230716908201734@gitolite.kernel.org>
+Date: Sun, 19 Mar 2023 14:44:28 -0000
+Message-Id: <167923706828.20644.6617907140632174256@gitolite.kernel.org>
 
---===============6827194232225091433==
+--===============4279394662328795455==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/bus_cleanup
-    old: 93dbc63c47e682ba8a493cbfc09c2c4c8e88f17b
-    new: e3d785337bafe082897389e22a3d9489720b64f5
-    log: revlist-93dbc63c47e6-e3d785337baf.txt
+  - ref: refs/heads/class_cleanup
+    old: 041dfae8c6afe392e231fe468a065a6dab3f767b
+    new: fea087fc291b102521427c26da3d0a30c329606f
+    log: revlist-041dfae8c6af-fea087fc291b.txt
 
---===============6827194232225091433==
+--===============4279394662328795455==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1679237040 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1679237067 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1679237040-2d02c673f50198b5a8e9354507fd0a616564b7b8
+nonce 1679237067-a57369650a60fa1ccc02a3b36af37c5f7a50c5bd
 
-93dbc63c47e682ba8a493cbfc09c2c4c8e88f17b e3d785337bafe082897389e22a3d9489720b64f5 refs/heads/bus_cleanup
+041dfae8c6afe392e231fe468a065a6dab3f767b fea087fc291b102521427c26da3d0a30c329606f refs/heads/class_cleanup
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQXH7AbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+LogP/imeh8wIh9UMErwSa2dI
-y/FPcB4I8hpjwG+xlD/0vfURH/PxlBVDBlcL2NLUnXTO4O4gsakab7hK5/IhVZeN
-cvco1UrcWLZsS/M3RxnQaQwv7bVDCP7g0xAflVvzDGwNgK7Fs+Sk6eCG/bhUem1r
-8IC3olEUHmoQuuznHlKEUl3HqDpOYCBKZbSyIZZ42PH3O+uVOx3VEQcqUdK4TUoc
-uetQEyGWasIp1WFmG0V5FMNmEpodp7CRQPfVNLSdUyDeNfRzRScRB9OqKC56pRHi
-OTasCgAEEXpnLJHC6KsySOD95pZzwsvfWLZQvw/wodaBgwlis98L/96081Xik6XR
-v+oPcWfm5LyKMuA/gPN6JK+ZBJsXMJk3vginIkTT6WOOkbRSdK7lgH3jCfPIYwkc
-l7OxEZuvQBcmMC1DYkOIsIQRQQYAaaLFH2DoKPua7xr5OASG4v6/j+UEiIoTl+eY
-QJPr8iI98IeWMrPxs5a2ORIbOma7De7jV4nFcefia21YamOYIDyg+Om2leuxQwc6
-DEVDWuGZbsR6RyZ0rddJ6zlhqyDC6XcHo2f2AEmUDMneo/QULpKhfZmCHALCfGXs
-S0jki29jRLnGhLEmcwN2Hh2GBeXoMAahSwSFxtcIA/EV469lCS43Go30KSw2Qh78
-PGjsf65VqGmqHFGmmzSrZNdg
-=B4V+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQXH8sbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+HXUP/3Ub0aQPRAhqlFKpWznP
+/ORLZZ2sRiSlsRFuvLd6DdMMVvu8E2gVXNfjv9URjIz0U5JqdWsNhYdKwX0UQk+Q
+H6zd/D4v56uCAVYDHb91tSK6id5dyvhTRARL+7jnwq5WC8LPHDxW9e4u1YJQA/4S
+0VBuX1udPTBjnXxgj8fBNQhV4BnD62RXCFj94YneqZqCerkxi5I7tgXcTUb1zne0
+7S2iroez9M3EFwrdK86sqMDLv4sqGYA1EnXdn2NyY2XFaiEy5HoF/qTpNSxc/04o
+UgwQi3zo+ofrNzevpuzsKYoYEjLZPVGT2p4gChmCLPL1bKx9WztxgSDfGCo/zfk8
+sFal6amBsAvT11o+aW2SFMhQnWigw3eGRb2htNhbsIp4UwLB2HmPgK5uGvyabVOQ
+PzTqtmyY4rJrsAFWrGQgK8RsGz+AAOkNp9zYiXDJoevJAsy1nyypcMuVLkHZH67t
+9ck+5mBHLyPPx1cNi1uBh7Ay0xk/urZ8jnp8GpUe69HbQRZqZM3Z/lXvVrE6Hxo8
+MyhDKvDY0FRiNH9Mg0HKWpwEzlPmunkQ9JW48AIhWfqt2StylKmarDN/CoNj9kWe
++++lCP/rul9eop/r2SFwGU8HNPvLlGK0od9NMylSOswFYkveBct1vJ/Y8pBKTAVQ
+Udu6n7Y5GCI6jE7Ozh8X4qkl
+=x0sU
 -----END PGP SIGNATURE-----
 
---===============6827194232225091433==
+--===============4279394662328795455==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-93dbc63c47e6-e3d785337baf.txt
+Content-Disposition: attachment; filename=revlist-041dfae8c6af-fea087fc291b.txt
 
 410e7088e971ad656170fe9768b072b267a95310 devres: Pass unique name of the resource to devm_add_action_or_reset()
 984063339e9ec9b6d9b011169d1f330a505a7571 kobject: define common logging prefix
@@ -91,24 +91,5 @@ f6d1975cd2668d239bb97ef4833ad1ddc5ffed6d sh: dma-sysfs: move to use bus_get_dev_
 31e7c4cc7da9d1b5ac01de9829aba53081b1b794 s390/smp: move to use bus_get_dev_root()
 3666062b87ec8be4b85dc475dfb54bb17e10a7f6 cpufreq: amd-pstate: move to use bus_get_dev_root()
 fea087fc291b102521427c26da3d0a30c329606f irqchip/mbigen: move to use bus_get_dev_root()
-bb3a4d60a44f434ce1bfec9e32fcb80802b8a78c EDAC/sysfs: move to use bus_get_dev_root()
-4508ab06ef99dbeb90e0013fac925fbda6ddb3f1 ACPI: LPIT: move to use bus_get_dev_root()
-3085d34be67bfe8c04d316252bf8fae7539b991f cpuidle: move to use bus_get_dev_root()
-57f6c9707301d36679bb5715d43aca2603171517 driver core: bus: move dev_root out of struct bus_type
-001d16d363ac2b9a1845d94deffeb802affc7e65 driver core: bus: mark the struct bus_type for sysfs callbacks as constant
-c4633f6552e5345c852dfa3ce03347c49b638923 driver core: bus: constantify bus_register()
-a8462e3a85739ab1c63509366d464f679708f8e1 driver core: bus: constify bus_rescan_devices()
-dc80b6818a7d2fef8354cbaaab27912b6caa1356 driver core: bus: constify driver_find()
-ed9df377610f5442bbcff06b68752a3d5c92076e driver core: bus: constify bus_get()
-68cb23804a70ed3fa325fc53d6d4b8ade8eb9b45 driver core: make the bus_type in struct device_driver constant
-d2a703da8c450ac26c6321d6c4d40dd8e3a1a7a4 crypto: hisilicon/qm - make struct bus_type * const
-1e083f35794388a764ed3777367847f491dd41dc drm/i915/huc: use const struct bus_type pointers
-50675e753f85138ec514c67dc03e2e8314d9fb0b vhost-vdpa: vhost_vdpa_alloc_domain() should be using a const struct bus_type *
-bd598d7f1e2614d861252dc4ea1ac5d655cd1023 dmaengine: idxd: use const struct bus_type *
-83cde945ac80be513b5a131aa9e5cb1674ac8d21 ARM/dma-mapping: const a pointer to bus_type in arm_iommu_create_mapping()
-d3c38f31b86ca399cfa5332df0394171f5c50b00 iommu: make the pointer to struct bus_type constant
-e137b1dc8574e35e564d1aafc7cd09e9c36e0cd6 driver core: device.h: make struct bus_type a const *
-766b1a7c12fe9e044b4c99bcbf5304c3907c794a USB: mark all struct bus_type as const
-e3d785337bafe082897389e22a3d9489720b64f5 FIXME: driver core: platform: make platform_bus_type constant
 
---===============6827194232225091433==--
+--===============4279394662328795455==--
