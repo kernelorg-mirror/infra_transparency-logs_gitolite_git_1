@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jpoimboe/linux
-Date: Sun, 19 Mar 2023 03:58:45 -0000
-Message-Id: <167919832509.30093.9793460525801899164@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/fscrypt/linux
+Date: Sun, 19 Mar 2023 04:08:38 -0000
+Message-Id: <167919891815.3994.17136781162349982527@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jpoimboe/linux
-user: jpoimboe
+repo: pub/scm/fs/fscrypt/linux
+user: ebiggers
 changes:
-  - ref: refs/heads/static-call-null-4
-    old: 7f7e0649e8daa4d77b60c9f9924def9324036069
-    new: b96170eb4e61f5b1f4ff1d800a165b68b6aab567
+  - ref: refs/heads/for-current
+    old: 536ecc564437ef766dc0b6f2991e1bb3f90cf5eb
+    new: 4bcf6f827a79c59806c695dc280e763c5b6a6813
     log: |
-         d71a3ec0c1db68138bb3523f454bdbadb6b298ed static_call: Reorganize static call headers
-         b96170eb4e61f5b1f4ff1d800a165b68b6aab567 todo
+         43e5f1d5921128373743585e3275ed9044ef8b8f fscrypt: improve fscrypt_destroy_keyring() documentation
+         4bcf6f827a79c59806c695dc280e763c5b6a6813 fscrypt: check for NULL keyring in fscrypt_put_master_key_activeref()
          
