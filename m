@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6770970617224757115=="
+Content-Type: multipart/mixed; boundary="===============8908858835383764244=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/fs/xfs/xfstests-dev
-Date: Sun, 19 Mar 2023 11:13:57 -0000
-Message-Id: <167922443791.9797.15674262561836499910@gitolite.kernel.org>
+Date: Sun, 19 Mar 2023 11:14:59 -0000
+Message-Id: <167922449960.10164.4434158230840483359@gitolite.kernel.org>
 
---===============6770970617224757115==
+--===============8908858835383764244==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,30 +15,28 @@ service: git-receive-pack
 repo: pub/scm/fs/xfs/xfstests-dev
 user: zlang
 changes:
-  - ref: refs/heads/master
-    old: b90914dfe3f63730b7bcfbe2300a7f6b9259c629
-    new: f7765774a1b5cb98c2f21a892e82b3421f40e791
-    log: revlist-b90914dfe3f6-f7765774a1b5.txt
+  - ref: refs/heads/for-next
+    old: f7765774a1b5cb98c2f21a892e82b3421f40e791
+    new: 02200cb8853dcd4cb6272126b7f9bc0a83b889c6
+    log: revlist-f7765774a1b5-02200cb8853d.txt
 
---===============6770970617224757115==
+--===============8908858835383764244==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b90914dfe3f6-f7765774a1b5.txt
+Content-Disposition: attachment; filename=revlist-f7765774a1b5-02200cb8853d.txt
 
-e19c99400cfe67bd5f11d3cfe5587446ed3026ef xfs/122: fix for swapext log items
-5d2aea2b1f6dc3ac84909bbd3c155edccc131aae generic: test old xfs extent swapping ioctl
-815ea93652305f0ebba36b3e0ed48602235b9b1c generic: test new vfs swapext ioctl
-81cbafc4597a0cc59e87eeae99ab7a1c8f2a70e8 generic, xfs: test scatter-gather atomic file updates
-f02d41a7b5cade6bb7f9b4009e787b284283eccf generic: test that file privilege gets dropped with FIEXCHANGE_RANGE
-bf183828b8f4c3caf3d3fd1f96d9f396db7508e5 fsx: support FIEXCHANGE_RANGE
-ae5ac04996c581c9e8b70bacb663ff5708f65e18 fsstress: update for FIEXCHANGE_RANGE
-d8cf497797b015b68e2e60822ba3e5eb2bc5714e xfs: race fsstress with online repair of realtime summary files
-a199f989b6f187e28b789ac69f0dbe3a55c1d572 xfs: race fsstress with online repair of extended attribute data
-249f5a78d3094477c8615cb62fb49ef3aec4f785 xfs: ensure that online directory repairs don't hit EDQUOT
-0999380268abb51a7e9f1cec4da920f5a077bad5 xfs: race fsstress with online repair of dirs and parent pointers
-fc0a397e3ec479a5883fbaba7dea75fd5cbf5ebf xfs: test xfs_scrub dry run, preen, and repair mode
-b3096c996a48960160b72738e5599df808a53260 common/rc: don't clear superblock for zoned scratch pools
-f7765774a1b5cb98c2f21a892e82b3421f40e791 generic/020: fix really long attr test failure for ceph
+7f1135469db74aeaa67bb6d528ba92ffc190b40d vfs: Don't open-code safe_close()
+2f94417630d5a34171f82a91a4ef8e8ea8e70973 vfs: Fix documentation typo
+e4332ec809d0b373d7b4c5e999a8f92501adb9ce vfs: Use tabs to indent, not spaces
+f4f0038d5c48a15b6bd2ff23b2b4723c996de030 vfs: Fix race condition on get_userns_fd()
+60de82ed2d23cd4ec81f7e406b036fbca5db4710 vfs: Make switch_userns set PR_SET_DUMPABLE
+dd7d351114324d91f4ff29c769a89da5936bf0db vfs: Prepare tests in &s_idmapped_mounts to be reused inside a userns
+6e230a617c677718119f3cf81eb384bdd852beda vfs: Make idmapped core tests public
+4dd193b59b25b41a6b09641632e13a72e9d636c0 vfs: Export test_setup() and test_cleanup()
+3f96d37e394228e30a112500f9c660c11922ac9f vfs: Add tmpfs tests for idmap mounts
+c7cc038e0a4d41f0389765959f7f5c11137dbec2 btrfs/284: list a couple btrfs-progs git commits
+caac10c777865c76a3c4d051a1e5790ce3444bdf btrfs/286: add missing calls to _scratch_dev_pool_put and _spare_dev_put
+02200cb8853dcd4cb6272126b7f9bc0a83b889c6 xfs: stress test cycling parent pointers with online repair
 
---===============6770970617224757115==--
+--===============8908858835383764244==--
