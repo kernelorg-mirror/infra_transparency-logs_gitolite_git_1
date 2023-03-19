@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Sun, 19 Mar 2023 08:39:34 -0000
-Message-Id: <167921517461.21632.5020934858767515702@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Sun, 19 Mar 2023 08:41:00 -0000
+Message-Id: <167921526085.23663.17506069008891253207@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: davem
 changes:
   - ref: refs/heads/main
-    old: df28e8690e7126fa5c99e8863c27574204589f31
-    new: b31587feaa0133b19a1900a26bce07a3c6d21af6
+    old: e866f29a6ff1804efb5c9cfc1e354192615dfb64
+    new: 25143b6a01d0cc5319edd3de22ffa2578b045550
     log: |
-         b31587feaa0133b19a1900a26bce07a3c6d21af6 net: macb: Set MDIO clock divisor for pclk higher than 160MHz
+         25143b6a01d0cc5319edd3de22ffa2578b045550 qed/qed_sriov: guard against NULL derefs from qed_iov_get_vf_info
          
