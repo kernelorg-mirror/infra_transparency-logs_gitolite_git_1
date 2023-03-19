@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Sun, 19 Mar 2023 13:18:16 -0000
-Message-Id: <167923189649.29608.1946827437051317099@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+Date: Sun, 19 Mar 2023 13:37:32 -0000
+Message-Id: <167923305235.9364.2912397178215538386@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
-user: leon
+repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+user: jarkko
 changes:
-  - ref: refs/heads/xfrm-next
-    old: e21741435b1b9d560ba48971a3db211bd7c240ab
-    new: 098f6491198a69f1c12358e9e2c580bfa6d905e1
+  - ref: refs/heads/master
+    old: f1324bbc4011ed8aef3f4552210fc429bcd616da
+    new: a3f5b791aa2bb4856c59688adcda63c12a0eadd0
     log: |
-         098f6491198a69f1c12358e9e2c580bfa6d905e1 net/mlx5e: Support IPsec upper protocol selector field offload for RX
+         a3f5b791aa2bb4856c59688adcda63c12a0eadd0 tpm: cr50: i2c: use jiffies to wait for tpm ready irq
          
