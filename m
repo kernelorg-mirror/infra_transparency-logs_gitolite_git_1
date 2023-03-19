@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Sun, 19 Mar 2023 15:30:39 -0000
-Message-Id: <167923983945.21742.3975403899553526314@gitolite.kernel.org>
+Subject: post-receive: pub/scm/docs/man-pages/man-pages
+Date: Sun, 19 Mar 2023 15:42:04 -0000
+Message-Id: <167924052487.28266.16005773183577250136@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs-utils
-user: xiang
+repo: pub/scm/docs/man-pages/man-pages
+user: alx
 changes:
-  - ref: refs/heads/dev
-    old: a4fb8ea13ac734a2f6b2bc12c0e3f1e20912fa0c
-    new: d14c08ec96aefbcfda7db4c4b72490aeb003b26f
+  - ref: refs/heads/master
+    old: 179cc19e69d8cb7476a864390a355a12c0f38d06
+    new: 6b3889798f039d64ac02ec6f602facb83ca04656
     log: |
-         21d84349e79ae760755d6fbf143743880cb24a46 erofs-utils: rearrange on-disk metadata
-         d14c08ec96aefbcfda7db4c4b72490aeb003b26f erofs-utils: fix up nlink for d_type unsupported fses
+         30d22b84a5b276401cf006f647c5871f1329f187 timer_settime.2: SYNOPSIS: Put timer_gettime() first
+         6b3889798f039d64ac02ec6f602facb83ca04656 CONTRIBUTING: Recommend make(1)'s -W, rather than actually touching the file
          
