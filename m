@@ -1,23 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Sun, 19 Mar 2023 21:26:47 -0000
-Message-Id: <167926120722.785.1769681512742887261@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rppt/linux
+Date: Sun, 19 Mar 2023 21:37:47 -0000
+Message-Id: <167926186708.7385.15764780713181078973@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/soc/soc
-user: arnd
+repo: pub/scm/linux/kernel/git/rppt/linux
+user: rppt
 changes:
-  - ref: refs/heads/for-next
-    old: 8d309741595cf1f8644ac05f6ccc8ccd20b23f9f
-    new: 811bbcfc8ea2be3c4dc0b2a91eeb8282eb212808
+  - ref: refs/heads/mm-init/v1
+    old: e07c5ad3dffa98ea59ccf909c5afd1d3dc00d767
+    new: dc7dc51d67cacd0def0f53d84adb9014d408abd5
     log: |
-         68e505e2aa7fe534226d57364f1e1753deb22d2d ARM: mmp: remove obsolete config USB_EHCI_MV_U2O
-         811bbcfc8ea2be3c4dc0b2a91eeb8282eb212808 Merge branch 'soc/arm' into for-next
+         dc7dc51d67cacd0def0f53d84adb9014d408abd5 MAINTAINERS: extend memblock entry to include MM initialization
          
-  - ref: refs/heads/soc/arm
-    old: 0000000000000000000000000000000000000000
-    new: 68e505e2aa7fe534226d57364f1e1753deb22d2d
