@@ -1,23 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/iwlwifi/iwlwifi-next
-Date: Sun, 19 Mar 2023 17:58:19 -0000
-Message-Id: <167924869941.23292.18445104006775368227@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Sun, 19 Mar 2023 18:00:31 -0000
+Message-Id: <167924883142.25638.4883875681413940850@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/iwlwifi/iwlwifi-next
-user: ggreenman
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/pending
-    old: f493b0fe3483c54577b56e42cd9a589e7ae93f67
-    new: 83d1abf7ced2258b8c1cafe40e337118de277d7a
+  - ref: refs/heads/dev
+    old: 587e6ab1c5b22e8d182c09b6e0a5852444c5866c
+    new: ac214445ceb15bbd2286e5362bd01a0f834e5bef
     log: |
-         4123287fe6b9adf3616b3a2ca4e70ea1c1b88823 wifi: iwlwifi: mvm: fix mvmtxq->stopped handling
-         83d1abf7ced2258b8c1cafe40e337118de277d7a wifi: iwlwifi: mvm: protect TXQ list manipulation
+         ac214445ceb15bbd2286e5362bd01a0f834e5bef tools/nolibc: always disable stack protector for tests
          
-  - ref: refs/tags/iwlwifi-next-sent-for-review-2023-03-19-2
-    old: 0000000000000000000000000000000000000000
-    new: 83d1abf7ced2258b8c1cafe40e337118de277d7a
