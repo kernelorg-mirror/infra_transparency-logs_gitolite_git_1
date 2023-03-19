@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Sun, 19 Mar 2023 13:48:05 -0000
-Message-Id: <167923368527.17286.12015283717316793730@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Sun, 19 Mar 2023 14:16:28 -0000
+Message-Id: <167923538868.4300.12008845275932542225@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-user: jarkko
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: leon
 changes:
-  - ref: refs/heads/master
-    old: a3f5b791aa2bb4856c59688adcda63c12a0eadd0
-    new: 3dc8b8b705a7ad8c6938cd90453fa474c668703d
+  - ref: refs/heads/wip/leon-for-next
+    old: c4526fe2e4090b2d2167d36da8d9f4a866114e7a
+    new: 697d5cf073acd41a8ab135695bb1e2ae3fd0acb3
     log: |
-         3dc8b8b705a7ad8c6938cd90453fa474c668703d tpm: remove unnecessary (void*) conversions
+         512ed1199e3ee210c68a9e37a70b399fea3c2099 IB/hfi1: Drop redundant pci_enable_pcie_error_reporting()
+         697d5cf073acd41a8ab135695bb1e2ae3fd0acb3 IB/qib: Drop redundant pci_enable_pcie_error_reporting()
          
