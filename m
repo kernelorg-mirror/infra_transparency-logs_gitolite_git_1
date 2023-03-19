@@ -1,26 +1,43 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/trace/linux-trace
-Date: Sun, 19 Mar 2023 16:41:27 -0000
-Message-Id: <167924408702.3519.10986760119262943247@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/xfs/xfs-linux
+Date: Sun, 19 Mar 2023 17:05:09 -0000
+Message-Id: <167924550912.20350.15278856664875048871@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/trace/linux-trace
-user: rostedt
+repo: pub/scm/fs/xfs/xfs-linux
+user: djwong
 changes:
-  - ref: refs/heads/trace/urgent
-    old: 309b56d6b1d1f71e9666ba889058133856c4038a
-    new: 7e11ef3dd01bd781bbbd975b58564518cf7d3949
+  - ref: refs/heads/for-next
+    old: 6de4b1ab470fe52351415217ac6dffddee571c45
+    new: e9b60c7f97130795c7aa81a649ae4b93a172a277
     log: |
-         bc4f359b3b607daac0290d0038561237a86b38cb tracing: Fix wrong return in kprobe_event_gen_test.c
-         7a025e066e0f0afd39cc88a089929ccb945ce9e8 tracing/osnoise: set several trace_osnoise.c variables storage-class-specifier to static
-         4c42f5f0d1dd20bddd9f940beb1e6ccad60c4498 trace/hwlat: Do not wipe the contents of per-cpu thread data
-         08697bca9bbba15f2058fdbd9f970bd5f6a8a2e8 trace/hwlat: Do not start per-cpu thread if it is already running
-         8732565549011cabbea08329a1aefd78a68d96c7 ftrace: Set direct_ops storage-class-specifier to static
-         d03929a0b96b07cd26ceaa59e35882810baa9b86 tracing: Make splice_read available again
-         0823c7c2ab1e8f3fafaeb8fa5b321f25b76d635a ring-buffer: remove obsolete comment for free_buffer_page()
-         7e11ef3dd01bd781bbbd975b58564518cf7d3949 tracing/hwlat: Replace sched_setaffinity with set_cpus_allowed_ptr
+         9eb775968b68d049fb3b00353f12cd10308527c7 xfs: walk all AGs if TRYLOCK passed to xfs_alloc_vextent_iterate_ags
+         e6fbb7167ed005783ac5aef3e75699f45ffe2af8 xfs: add tracepoints for each of the externally visible allocators
+         3cfb9290da3d87a5877b03bda96c3d5d3ed9fcb0 xfs: test dir/attr hash when loading module
+         1470afefc3c42df5d1662f87d079b46651bdc95b cpumask: introduce for_each_cpu_or
+         8b57b11cca88f397035a95b9e12b03511847b0e8 pcpcntrs: fix dying cpu summation race
+         7ba85fba47bd89618fdb7dc322bdf823b1b56efb fork: remove use of percpu_counter_sum_all
+         e9b60c7f97130795c7aa81a649ae4b93a172a277 pcpcntr: remove percpu_counter_sum_all()
          
+  - ref: refs/heads/xfs-6.3-fixes
+    old: 6de4b1ab470fe52351415217ac6dffddee571c45
+    new: e9b60c7f97130795c7aa81a649ae4b93a172a277
+    log: |
+         9eb775968b68d049fb3b00353f12cd10308527c7 xfs: walk all AGs if TRYLOCK passed to xfs_alloc_vextent_iterate_ags
+         e6fbb7167ed005783ac5aef3e75699f45ffe2af8 xfs: add tracepoints for each of the externally visible allocators
+         3cfb9290da3d87a5877b03bda96c3d5d3ed9fcb0 xfs: test dir/attr hash when loading module
+         1470afefc3c42df5d1662f87d079b46651bdc95b cpumask: introduce for_each_cpu_or
+         8b57b11cca88f397035a95b9e12b03511847b0e8 pcpcntrs: fix dying cpu summation race
+         7ba85fba47bd89618fdb7dc322bdf823b1b56efb fork: remove use of percpu_counter_sum_all
+         e9b60c7f97130795c7aa81a649ae4b93a172a277 pcpcntr: remove percpu_counter_sum_all()
+         
+  - ref: refs/tags/xfs-6.3-fixes-3
+    old: 0000000000000000000000000000000000000000
+    new: 3d5c7834b51d741c0436aa44ecd41e0ff90288c6
+  - ref: refs/tags/xfs-6.3-fixes-4
+    old: 0000000000000000000000000000000000000000
+    new: 2d4e6ed688eedabb56ed4b5f7155621ddad3eb17
