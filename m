@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Mon, 20 Mar 2023 01:32:40 -0000
-Message-Id: <167927596039.8982.15637928621375487900@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/libcap/libcap
+Date: Mon, 20 Mar 2023 03:20:05 -0000
+Message-Id: <167928240598.16930.1374293375027796717@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/libs/libcap/libcap
+user: morgan
 changes:
   - ref: refs/heads/master
-    old: 61bc2da56dae551d0cb5db12b154160e662c0a3d
-    new: 07964f3ad4e524f8e8342a9fe01797369f7f8c2e
+    old: 8c435a6fecece9e1c0e1625c2add7eaa546bb93c
+    new: 5496a0e3854dba9374823e9b561ee8c5fd9c59f4
     log: |
-         07964f3ad4e524f8e8342a9fe01797369f7f8c2e Mon Mar 20 01:31:43 AM UTC 2023
+         5496a0e3854dba9374823e9b561ee8c5fd9c59f4 Tidy up some text explaining cap.NamedCaps.
          
