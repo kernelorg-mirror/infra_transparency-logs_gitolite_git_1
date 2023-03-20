@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/devicetree/devicetree-rebasing
-Date: Mon, 20 Mar 2023 07:40:59 -0000
-Message-Id: <167929805977.27898.11452269826823933069@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/westeri/thunderbolt
+Date: Mon, 20 Mar 2023 07:41:07 -0000
+Message-Id: <167929806725.27991.11304547716367791654@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/devicetree/devicetree-rebasing
-user: ijc
+repo: pub/scm/linux/kernel/git/westeri/thunderbolt
+user: westeri
 changes:
-  - ref: refs/tags/v6.3-rc3-dts
-    old: 0000000000000000000000000000000000000000
-    new: f5483819bd780b09d249bbf83903b1039bd61914
+  - ref: refs/heads/next
+    old: 68b8e15848c492829a763837ec26d8a6c6af5ad5
+    new: ebde5ba27c640e08e92c83fe30be0d9fa224eea9
