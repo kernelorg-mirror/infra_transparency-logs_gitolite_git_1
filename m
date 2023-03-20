@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9192108736461809143=="
+Content-Type: multipart/mixed; boundary="===============8020309717188657355=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Mon, 20 Mar 2023 08:17:50 -0000
-Message-Id: <167930027024.21435.17821667407028992712@gitolite.kernel.org>
+Date: Mon, 20 Mar 2023 08:17:54 -0000
+Message-Id: <167930027472.21552.5423413014978287057@gitolite.kernel.org>
 
---===============9192108736461809143==
+--===============8020309717188657355==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: fe15c26ee26efa11741a7b632e9f23b01aca4cc6
+  - ref: refs/heads/tty-linus
+    old: 18365ebf23f3e713e5dd8e295c9a639295250f3c
     new: e8d018dd0257f744ca50a729e3d042cf2ec9da65
-    log: revlist-fe15c26ee26e-e8d018dd0257.txt
+    log: revlist-18365ebf23f3-e8d018dd0257.txt
 
---===============9192108736461809143==
+--===============8020309717188657355==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1679300269 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1679300274 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1679300269-43b47b73d40600e8fa3b03e4491ce6188251c96f
+nonce 1679300273-173d9cc487a7f3576826cb1e7df974d1c8c13a99
 
-fe15c26ee26efa11741a7b632e9f23b01aca4cc6 e8d018dd0257f744ca50a729e3d042cf2ec9da65 refs/heads/main
+18365ebf23f3e713e5dd8e295c9a639295250f3c e8d018dd0257f744ca50a729e3d042cf2ec9da65 refs/heads/tty-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQYFq0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+kEQQAIzf3zZDL/mHrjNy0O3B
-dN3ryjat9PBZunnsJBcXRRcNqZpFJjO/lb/CNEhBoWdMFWjPtsu5AQZXldWBIhqa
-u8Wb57BlUtFJM4slpTFW71TnhSZZ9kU8lP+nOeTCzaXSyEb6vd8qJDem3Tb4ZKSv
-aRO3wP8hiZ1GUEOnCD22G5UWFogFRkmL/XyKKjTS1/vV3dnXD5bptEnLv1UFNJ9f
-wWEETRpixlC/H4Yqvkd+aCzUDRGOzcjBHLZ12IrJcWZRBVLut7dKa+8PJ3oXTIRY
-0/CEgsJibFcdpLD3Pe7e/vv1HmR8l5Xl0VSZFkPbtIXuuixMmXvG9gPCHM6fQoIq
-dWa9lkUPS530YCUHMM0tRieHud69yfuhw8EI69IIfUet/TMVNyieuyzgVlYOAn4z
-YbJnYSQL3VDGOpVXstW3veXMER2C1U4RDwN0kdxd//otbbOCqTCI236wLeDbEAFR
-9Y61iEA1SLOlfZlbii9Grfrj8nsW+EboDe93Co8t/8pY/DroSPxp1C93qkb3OmBM
-sqXu96DelCiuKTpfWy+0uf6Sa2E/r8lxOYqS6yjC7U18HHfxCbQAA+rlR96RIBNW
-avBF6TUlL1RpQ2byKycsK14HLSpn/J7bkIHn/gShqUtBuHA6LV2H+/jdzhX23Ez/
-eJ5h9SrJdzbEhvBFltIom+Yh
-=GG/Q
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQYFrIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+2VIQAJtDSqvX/4Qvz8wNl/ra
+BJ42/ePMjugJjLAjW8UF/Pq7ZYCGJAN57ka4+zIVDsIzEUWh2MoKZaV4RXBiplvw
+tnAgovd/jUJ2Sxqcr2SuEWfC12iqX1l/wn/34fcVnIseGOMx+lAjNzK1OCJcbMbB
+RwDNeiNT2AW/WxTXAUQf3ZON62hgEhnO/ndTx4SbdVXuVNM8wc5goMW2CS/n1vSo
+g0ZECDKNFBuoOIU/7CQrydH7o9hr1KnOXj/R5ZIG4iLW7u4mXJMHbmdEEhVsF4jx
+ZZrhcJrpfuwopqYF3TFOiT0vbsLxQ6f8XiGkfu8rznLqFMf5G59jQq5wddvaXReU
+cmSrq63FbpiB1mDKTcALa5KAB/ilvteNj3SsS0D9DuqFeOb3CLZYWZvMM1aIE2vk
+mrhzg93S1MLnfyVUSJAyOGeseQhQ5Cyk4FZi/sozGwEVfCKV7D4KyD6MN1UBEc25
+kWRsKkWfgZh7gSG/ZUr4KCGbHlwrZ0XwRhViCKjraa2qQxojYaaL1ySsUop30duS
+fsDmu3Vt34o3e9wzLg4egnc4/btLUhAcvru1yhOLHP/eS1pPjsR4zIhjC6nwR/fP
+E6Wf72occPjWT01cvfdUiXi6Yz2oABWEWRIs3kaFHvayumqHksmzoJ60k0cIOqNl
+8w5XmPH9XliBKnbf8i1Z9839
+=/C3f
 -----END PGP SIGNATURE-----
 
---===============9192108736461809143==
+--===============8020309717188657355==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-fe15c26ee26e-e8d018dd0257.txt
+Content-Disposition: attachment; filename=revlist-18365ebf23f3-e8d018dd0257.txt
 
 8222d5910dae08213b6d9d4bc9a7f8502855e624 xfrm: Zero padding when dumping algos and encap
 7245e629dcaaf308f1868aeffa218e9849c77893 drm/cirrus: NULL-check pipe->plane.state->fb in cirrus_pipe_update()
@@ -381,20 +381,7 @@ a279adedbb5206ccadb6b2817838cbb1c834133d erofs: mark z_erofs_lzma_init/erofs_pcp
 647dd2c3f0e16b71a1a77897d038164d48eea154 erofs: Revert "erofs: fix kvcalloc() misuse with __GFP_NOFAIL"
 9ff471800b74f5f952c7e75a0355f1d30ee2b046 erofs: get rid of a useless DBG_BUGON
 3993f4f456309580445bb515fbc609d995b6a3ae erofs: use wrapper i_blocksize() in erofs_file_read_iter()
-2d638be71155b2e036aca1966b6129e2d661e91f Revert "tty: serial: fsl_lpuart: adjust SERIAL_FSL_LPUART_CONSOLE config dependency"
-2411fd94ceaa6e11326e95d6ebf876cbfed28d23 tty: serial: fsl_lpuart: skip waiting for transmission complete when UARTCTRL_SBK is asserted
-f8086d1a65ac693e3fd863128352b4b11ee7324d serial: 8250: ASPEED_VUART: select REGMAP instead of depending on it
-32e293be736b853f168cd065d9cbc1b0c69f545d serial: 8250_em: Fix UART port type
-6e01f9a594ee0f69fb52cc8d11971612b4817f0b serial: 8250_fsl: fix handle_irq locking
-5d943b5d69c032de7ce9cd625ac083a5c277b9c5 serial: 8250_pci1xxxx: Disable SERIAL_8250_PCI1XXXX config by default
-1be6f2b15f902c02e055ae0b419ca789200473c9 tty: serial: fsl_lpuart: fix race on RX DMA shutdown
-1a5ecc73b2bfeffe036212d4a6bfacee053ab0a1 serdev: Set fwnode for serdev devices
 03b3d6be73e81ddb7c2930d942cdd17f4cfd5ba5 io_uring/uring_cmd: ensure that device supports IOPOLL
-9aff74cc4e9eb841dde5fd009ed7ddca5db40e68 serial: qcom-geni: fix console shutdown hang
-95fcfc08537763bff21ec8c450d3d3cb1a60ad09 serial: qcom-geni: fix DMA mapping leak on shutdown
-97820780b723197d1b472f2bd39fd8593b5d4edc serial: qcom-geni: fix mapping of empty DMA buffer
-b6a7bac184472b5b79286a71a61c2f16ea4e86ad serial: qcom-geni: drop bogus uart_write_wakeup()
-18365ebf23f3e713e5dd8e295c9a639295250f3c tty: vt: protect KD_FONT_OP_GET_TALL from unbound access
 38ed310c22e7a0fc978b1f8292136a4a4a8b3051 firmware: xilinx: don't make a sleepable memory allocation from an atomic context
 fa780334a8c392d959ae05eb19f2410b3a1e6cb0 io_uring: silence variable ‘prev’ set but not used warning
 573b22ccb7ce9ab7f0539a2e11a9d3609a8783f5 sh: sanitize the flags on sigreturn
@@ -812,4 +799,4 @@ a98151ad53b53f010ee364ec2fd06445b328578b ring-buffer: remove obsolete comment fo
 eaba52d63bfcf0047ce3a1bb011b35d4f066df8e Merge tag 'trace-v6.3-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 e8d018dd0257f744ca50a729e3d042cf2ec9da65 Linux 6.3-rc3
 
---===============9192108736461809143==--
+--===============8020309717188657355==--
