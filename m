@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/westeri/thunderbolt
-Date: Mon, 20 Mar 2023 17:01:24 -0000
-Message-Id: <167933168450.15456.6782666353748381190@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Mon, 20 Mar 2023 17:06:50 -0000
+Message-Id: <167933201061.18676.3270094136227927238@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/westeri/thunderbolt
-user: westeri
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: andrii
 changes:
-  - ref: refs/heads/fixes
-    old: 4b503ac18f6def6a7b122c8dca45ea12ef270a74
-    new: 58cdfe6f58b35f17f56386f5fcf937168a423ad1
+  - ref: refs/heads/master
+    old: 08ff1c9f3e927ba3701c113dda70953a6f4afffa
+    new: bb4a6a9237293346cf1b3b7bc4ff4dfc1977a103
     log: |
-         58cdfe6f58b35f17f56386f5fcf937168a423ad1 thunderbolt: Rename shadowed variables bit to interrupt_bit and auto_clear_bit
+         a506d6ce1dd184051037dc9d26c3eb187c9fe625 libbpf: Fix ld_imm64 copy logic for ksym in light skeleton.
+         bb4a6a9237293346cf1b3b7bc4ff4dfc1977a103 selftest/bpf: Add a test case for ld_imm64 copy logic.
          
