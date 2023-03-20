@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Mon, 20 Mar 2023 18:30:00 -0000
-Message-Id: <167933700030.10051.14423266246880667895@gitolite.kernel.org>
+Date: Mon, 20 Mar 2023 18:30:07 -0000
+Message-Id: <167933700700.11749.11509476230034838344@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/v2_20230308_clamor95_fix_sound_on_asus_transformers
-    old: 85a375fe8df906b2701346e03e71501e6861a75a
+  - ref: refs/heads/20230315_cristian_ciocaltea_enable_i2s_support_for_rk3588_rk3588s_socs
+    old: 0e6c37610934e9b91f6f5f2599de5e2f1ab59e72
     new: 0000000000000000000000000000000000000000
