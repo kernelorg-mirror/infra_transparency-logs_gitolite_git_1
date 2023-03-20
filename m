@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============1137728416055567173=="
+Content-Type: multipart/mixed; boundary="===============1428045097576743722=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Mon, 20 Mar 2023 10:46:59 -0000
-Message-Id: <167930921947.9709.18322518579016482627@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Mon, 20 Mar 2023 10:47:14 -0000
+Message-Id: <167930923439.9864.9647174796244761770@gitolite.kernel.org>
 
---===============1137728416055567173==
+--===============1428045097576743722==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: leon
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: e8d018dd0257f744ca50a729e3d042cf2ec9da65
     log: revlist-eeac8ede1755-e8d018dd0257.txt
 
---===============1137728416055567173==
+--===============1428045097576743722==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -499,4 +499,4 @@ a98151ad53b53f010ee364ec2fd06445b328578b ring-buffer: remove obsolete comment fo
 eaba52d63bfcf0047ce3a1bb011b35d4f066df8e Merge tag 'trace-v6.3-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 e8d018dd0257f744ca50a729e3d042cf2ec9da65 Linux 6.3-rc3
 
---===============1137728416055567173==--
+--===============1428045097576743722==--
