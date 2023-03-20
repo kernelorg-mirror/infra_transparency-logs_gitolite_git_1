@@ -1,68 +1,36 @@
-Content-Type: multipart/mixed; boundary="===============5711742126931778864=="
+Content-Type: multipart/mixed; boundary="===============7407469626678426528=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rt/linux-rt-devel
-Date: Mon, 20 Mar 2023 09:03:00 -0000
-Message-Id: <167930298036.19361.10471427082220694167@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-devel
+Date: Mon, 20 Mar 2023 09:08:31 -0000
+Message-Id: <167930331116.22631.11674443169191740987@gitolite.kernel.org>
 
---===============5711742126931778864==
+--===============7407469626678426528==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rt/linux-rt-devel
-user: bigeasy
-git_push_cert_status: Y
+repo: pub/scm/linux/kernel/git/geert/renesas-devel
+user: geert
 changes:
-  - ref: refs/heads/for-kbuild-bot/current-stable
-    old: aec74fac8799ea1f9546cf61078d1b9abb744f5c
-    new: 65d172fdb862a825eace9b418119a5aa2461a3ff
-    log: revlist-aec74fac8799-65d172fdb862.txt
-  - ref: refs/heads/for-kbuild-bot/prepare-release
-    old: aec74fac8799ea1f9546cf61078d1b9abb744f5c
-    new: 65d172fdb862a825eace9b418119a5aa2461a3ff
-    log: revlist-aec74fac8799-65d172fdb862.txt
-  - ref: refs/heads/linux-6.3.y-rt-rebase
-    old: aec74fac8799ea1f9546cf61078d1b9abb744f5c
-    new: 65d172fdb862a825eace9b418119a5aa2461a3ff
-    log: revlist-aec74fac8799-65d172fdb862.txt
+  - ref: refs/heads/master
+    old: 051221db2246899aa46144707b31ce26056b42eb
+    new: 66c91e0a046e821d0a1f6ba6f95fe72ebd67960d
+    log: revlist-051221db2246-66c91e0a046e.txt
+  - ref: refs/tags/renesas-devel-2023-03-20-v6.3-rc3
+    old: 0000000000000000000000000000000000000000
+    new: 429d4c6187cd510d584d4aa51d56d19c9b41b4ef
+  - ref: refs/tags/v6.3-rc3
+    old: 0000000000000000000000000000000000000000
+    new: b04d78201ce644e5182e95f1d0bd131b35ec8816
 
---===============5711742126931778864==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Sebastian Andrzej Siewior <bigeasy@linutronix.de> 1679302952 +0100
-pushee ssh://ko-g/pub/scm/linux/kernel/git/rt/linux-rt-devel.git
-nonce 1679302951-beb91a1ec4fef124c1ab23c22f411c8818517c2e
-
-aec74fac8799ea1f9546cf61078d1b9abb744f5c 65d172fdb862a825eace9b418119a5aa2461a3ff refs/heads/for-kbuild-bot/current-stable
-aec74fac8799ea1f9546cf61078d1b9abb744f5c 65d172fdb862a825eace9b418119a5aa2461a3ff refs/heads/for-kbuild-bot/prepare-release
-aec74fac8799ea1f9546cf61078d1b9abb744f5c 65d172fdb862a825eace9b418119a5aa2461a3ff refs/heads/linux-6.3.y-rt-rebase
------BEGIN PGP SIGNATURE-----
-
-iQHKBAABCgA0FiEEV4kucFIzBRM39v3RBWQfF1cS+lsFAmQYISgWHGJpZ2Vhc3lA
-bGludXRyb25peC5kZQAKCRAFZB8XVxL6W/FWDACWRYbZbySlrLgQVWbjDV+BRq0J
-IHsjx1yxZ6PdLrISdUCv6tVu94Wd+x20D3169oemlH0xHgvMVM0l3fU56xtRRZsS
-O2cgcFR1kJV2vCvPnNwbsL50fKmXCYBftRdOJcS6Z0jMcHuh3q20LHMryUl2diRg
-W5dw/Gw88gWNK0RtaJsUMeWTBmWMygXxoZuhLQlkIGOdO4LLSgNKcwzspPvbGy9b
-/vVAlER28AWpyxYwJVNXYkL1vrsPJCIff/6Hta/Tva9j+0xEiuSxG6tJlXgaScQS
-qhbP5J6nid2hSNDmr0dVQtA/mF6B4i3CBX/EF4blKjIDsRxST4pBiSXSt/7jVYym
-OKmFZZDxldZaHmFl9cd4Ou4Ssp5AcJw6MzBgV7tw5Oib8NoKXBee1l1xUjWPWtsm
-OkVMQVBZUABheFJnhHQb/0dejK0jgxsOCZDuC1juLVVA+criy7h5pmmgGT7+5lvw
-nSxffMtaqXFQupXsj8BQvlJ7UjbJqCz2DEaIBaE=
-=ztgP
------END PGP SIGNATURE-----
-
---===============5711742126931778864==
+--===============7407469626678426528==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-aec74fac8799-65d172fdb862.txt
+Content-Disposition: attachment; filename=revlist-051221db2246-66c91e0a046e.txt
 
 8222d5910dae08213b6d9d4bc9a7f8502855e624 xfrm: Zero padding when dumping algos and encap
 5f6e839ebc951c50f1ca06791d016c256f0285a9 xen: update arch/x86/include/asm/xen/cpuid.h
@@ -536,73 +504,6 @@ a98151ad53b53f010ee364ec2fd06445b328578b ring-buffer: remove obsolete comment fo
 71c7a30442b724717a30d5e7d1662ba4904eb3d4 tracing/hwlat: Replace sched_setaffinity with set_cpus_allowed_ptr
 eaba52d63bfcf0047ce3a1bb011b35d4f066df8e Merge tag 'trace-v6.3-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 e8d018dd0257f744ca50a729e3d042cf2ec9da65 Linux 6.3-rc3
-c64fca87eab8114ffb519cc52692331dbc869491 signal: Don't disable preemption in ptrace_stop() on PREEMPT_RT.
-486d9f54a1cc64a3883dbe1a7e0e8125c22edc3b sched: Consider task_struct::saved_state in wait_task_inactive().
-19492347e61daad8f463d92c87fbb2daa154bd90 io-mapping: Don't disable preempt on RT in io_mapping_map_atomic_wc().
-5df271e36bf3ed2e1074e92da07bdd56608a87ec net: Avoid the IPI to free the
-e77729f67df9b427651a5703815ec3178fed52c4 x86: Allow to enable RT
-db93f5631b370cc21baef336aca0f6c3ce962c8e x86: Enable RT also on 32bit
-ba66773eda041663e23debb949b92879e43ad0f5 softirq: Use a dedicated thread for timer wakeups.
-5d0e6eb55a769feee63258a5647a21089f757998 rcutorture: Also force sched priority to timersd on boosting test.
-2d73fc64e2f6be4b602be6728205c025cdc01296 tick: Fix timer storm since introduction of timersd
-7203cb5aa584247fd4803e2ed8d1a9b0f17d5fa3 softirq: Wake ktimers thread also in softirq.
-6bf17b05632d390ebfc94100d3e8fbb442da4a0c tpm_tis: fix stall after iowrite*()s
-0bb2b116fb8da9debbd173026ec8ec11566dafdf zram: Replace bit spinlocks with spinlock_t for PREEMPT_RT.
-ef15c67d9e9dfc1586f4e899f4a3a66213a96542 preempt: Put preempt_enable() within an instrumentation*() section.
-6310854468605b0e0a24fe211348803c79e9333d kdb: do not assume write() callback available
-bddd3d08646da4ef5a536af4ddbd051ef04ff6f1 printk: Add NMI check to down_trylock_console_sem()
-4603f7e596ccfec0bb52c2999ece6f1f4ecf865f printk: Consolidate console deferred printing
-1b18cd06dc2c476d178e3716555ae0ffce787429 printk: Add per-console suspended state
-d67124d4d1340162c012d90419d36f7093a8c34c printk: Add non-BKL console basic infrastructure
-c2ddb2bccf4309b8026c754fcd703968d952032a printk: nobkl: Add acquire/release logic
-e69d0e207f53486fb33a77dd0c5ca1623d135a0e printk: nobkl: Add buffer management
-30fae99aa867440108b17d6ad6189a4160f31fbf printk: nobkl: Add sequence handling
-fe9bd188d9031b34f83c3cda83f3e1906aa192f4 printk: nobkl: Add print state functions
-b687e6f7ffd199406aaba9b70b0d76b499b64c8f printk: nobkl: Add emit function and callback functions for atomic printing
-86cd64834498f36271c0cd664aabd0e5fb3c75aa printk: nobkl: Introduce printer threads
-7662d871c947837e954854b1c16826ce0817a868 printk: nobkl: Add printer thread wakeups
-5ced767e6b531210c6b72a8a82cbf67d1ae22572 printk: nobkl: Add write context storage for atomic writes
-7f9a44c5ec5a4bcdeb73dea38c4dfba59a704fca printk: nobkl: Provide functions for atomic write enforcement
-f5954ec1c7f6db5bfb49913f662d676b6d102446 printk: nobkl: Stop threads on shutdown/reboot
-250d462c42c0b4f84e8c7b0f3eccee0bf8a59bd8 tty: tty_io: Show non-BKL consoles as active
-0a1fc09405329d31471f742859198a4eaf446eea proc: consoles: Add support for non-BKL consoles
-1336b576543161e5f383da1c44fcf2f822d0b550 kernel/panic: Add atomic write enforcement to warn/panic
-5fc863c10fda246018a146a4c927893da77047cd rcu: Add atomic write enforcement for rcu stalls
-120a392cbeb6041e18334e4b4e0532a0b2d82855 printk: Perform atomic flush in console_flush_on_panic()
-c4cdc99f868a03393e1ff8918b1831e26cf64222 printk: only disable if actually unregistered
-2e100b3dc2cb1a8a4b64b0dc84dd6e4b9768a3b8 printk: Add threaded printing support for BKL consoles.
-ed1845f6bb1dbb9a0ab36adba74fdc6441d56feb serial: 8250: implement non-BKL console
-21a0ee56ea79e8fe233aea05c954f79741e826a6 printk: Don't invoke the BLK-console with disabled interrupts.
-ea021bf03b90d6d4d8fab7034897962d82e6f5f9 drm/i915: Use preempt_disable/enable_rt() where recommended
-a422904b3e6c3833bae463f5994b3401ab048c19 drm/i915: Don't disable interrupts on PREEMPT_RT during atomic updates
-ab330ccf5d043a90798bf71b2dda89674d771bd1 drm/i915: Don't check for atomic context on PREEMPT_RT
-b517f5a489d227ade2629990953be7e3e1cd9d87 drm/i915: Disable tracing points on PREEMPT_RT
-c525effba931f7f27d97c1dfef787f75f264e01f drm/i915: skip DRM_I915_LOW_LEVEL_TRACEPOINTS with NOTRACE
-d69e7cb567448dba4a25ec4cfdeab80ea466435b drm/i915/gt: Queue and wait for the irq_work item.
-59bf75ad1b6f3b37ea211741d12608cd6fbab5c9 drm/i915/gt: Use spin_lock_irq() instead of local_irq_disable() + spin_lock()
-7696fb5b92ce4b2190100429159c03622a80ab97 drm/i915: Drop the irqs_disabled() check
-b4c7cf7c973b513138c8089123adeb62e5d3cb9b Revert "drm/i915: Depend on !PREEMPT_RT."
-d63b6270ca29b8611a6ce73b0a59cb0467ff0d53 sched: Add support for lazy preemption
-c933833aa3ed551f5cfc41ee8c596e08de13d300 x86/entry: Use should_resched() in idtentry_exit_cond_resched()
-942741e17b009c8344cdde57ef5e2c4a9a1eac7c x86: Support for lazy preemption
-ddeea377594d48f7c8f03ee1d3ac9df3dbec5e15 entry: Fix the preempt lazy fallout
-e752676e7e3368998f1858d625e3534ee439747d arm: Add support for lazy preemption
-41d10af720aa8a318beb468dedaa1754b5cbcc79 powerpc: Add support for lazy preemption
-c0858b8c75346972ad0afb8a47fb920838789ea0 arch/arm64: Add lazy preempt support
-45d28aba5b5731f09e839672b636cfbad7c85bae arm: Disable jump-label on PREEMPT_RT.
-600432d35783476b7f2fd29a2420f92dd93d93f5 ARM: enable irq in translation/section permission fault handlers
-bcbcd6a0f776b28a15e54b93ba0ed43b33e3ab7d tty/serial/omap: Make the locking RT aware
-ccd49a6f63aa623331a28b63735febb85cbdd4e1 tty/serial/pl011: Make the locking work on RT
-f9e4010d6b79db09e47632ae8eb59a9c2d3808d4 ARM: Allow to enable RT
-586caf77c7a3fdff2ae2d958210520b1f42efa12 ARM64: Allow to enable RT
-061b971b82a28473497c0ba27784277e83b5a57c powerpc: traps: Use PREEMPT_RT
-389f17d4aca1579e6dd1f67079bd52ff6be718e8 powerpc/pseries/iommu: Use a locallock instead local_irq_save()
-7720d760d02ac0ecdbdbe4ddf8e1fe1963d5a1a2 powerpc/imc-pmu: Use the correct spinlock initializer.
-3142e7625a9102bb541466eb5fd612153017728c powerpc/pseries: Select the generic memory allocator.
-140753873a7dbc973b0402f0e6c567c33e031f08 powerpc/kvm: Disable in-kernel MPIC emulation for PREEMPT_RT
-a4b22130d8c2a12afe87b142f1c47b2954d48973 powerpc/stackprotector: work around stack-guard init from atomic
-39392a9de74f51d685a80487c829cf36a53c3ab7 POWERPC: Allow to enable RT
-bcd074ce997180294d4bd46dc6b14bd4505a7c71 sysfs: Add /sys/kernel/realtime entry
-65d172fdb862a825eace9b418119a5aa2461a3ff Add localversion for -RT release
+66c91e0a046e821d0a1f6ba6f95fe72ebd67960d Merge tag 'v6.3-rc3' into renesas-devel
 
---===============5711742126931778864==--
+--===============7407469626678426528==--
