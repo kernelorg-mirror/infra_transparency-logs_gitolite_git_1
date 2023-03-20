@@ -1,34 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============3512052412287231542=="
+Content-Type: multipart/mixed; boundary="===============4958400016629473852=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/fsverity/linux
-Date: Mon, 20 Mar 2023 20:58:27 -0000
-Message-Id: <167934590700.15213.2962807912431159345@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/linux
+Date: Mon, 20 Mar 2023 21:01:16 -0000
+Message-Id: <167934607602.17780.13729010318358342480@gitolite.kernel.org>
 
---===============3512052412287231542==
+--===============4958400016629473852==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/fsverity/linux
-user: ebiggers
+repo: pub/scm/linux/kernel/git/chanwoo/linux
+user: chanwoo
 changes:
-  - ref: refs/tags/fsverity-for-linus
-    old: 3e68123930d04ff6b7c21847e078b78fe883b9dd
-    new: 5511e1e8e3f6fa6eda7873329df9fcf6b497b9a9
-    log: revlist-3e68123930d0-5511e1e8e3f6.txt
+  - ref: refs/heads/devfreq-testing
+    old: f5c0fed632588e30451a32cc7189541fa685029a
+    new: dfb3d4a9e2bdb5e89ec73147c838f15a235cc0dd
+    log: revlist-f5c0fed63258-dfb3d4a9e2bd.txt
 
---===============3512052412287231542==
+--===============4958400016629473852==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-3e68123930d0-5511e1e8e3f6.txt
+Content-Disposition: attachment; filename=revlist-f5c0fed63258-dfb3d4a9e2bd.txt
 
-ccfd889acb06eab10b98deb4b5eef0ec74157ea0 smackfs: Added check catlen
-2504ba8b01634319a6f95b7fa9bf9c101437e158 Merge tag 'pm-6.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
-88af9b164c7a25a71b1a1a699872b869e2e84c77 Merge tag 'acpi-6.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 1b72607d7321e66829e11148712b3a2ba1dc83e7 Merge tag 'thermal-6.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 f1aa2eb5ea05ccd1fd92d235346e60e90a1ed949 sysctl: fix proc_dobool() usability
 9b4f5028e493cb353a5c8f5c45073eeea0303abd scsi: ses: Fix slab-out-of-bounds in ses_enclosure_data_process()
@@ -1048,7 +1045,10 @@ f1324bbc4011ed8aef3f4552210fc429bcd616da tpm: disable hwrng for fTPM on some AMD
 c4ecd87f75ec4d5ac3006ef21ce07e812982e46e Merge tag 'tpm-v6.3-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 79d1ed5ca7db67d48e870c979f0e0f6b0947944a wifi: cfg80211: Partial revert "wifi: cfg80211: Fix use after free for wext"
 eeac8ede17557680855031c6f305ece2378af326 Linux 6.3-rc2
-f959325e6ac3f499450088b8d9c626d1177be160 fsverity: Remove WQ_UNBOUND from fsverity read workqueue
-a075bacde257f755bea0e53400c9f1cdd1b8e8e6 fsverity: don't drop pagecache at end of FS_IOC_ENABLE_VERITY
+737dbd6667ff38b6cc72d35c3ddc04db027ed76c PM / devfreq: Remove "select SRCU"
+f9d0393a8898d0bc67730ac736ad9c6f51434463 PM / devfreq: exyos-bus: drop of_match_ptr for ID table
+b7405e3f62d68be4cc5f4677499e1b8c13a0d216 PM / devfreq: exynos: Use of_property_present() for testing DT property presence
+6945f2925f0fbc45d9567574f8079f4587ae4fb2 PM / devfreq: Drop unneed locking to appease lockdep
+dfb3d4a9e2bdb5e89ec73147c838f15a235cc0dd PM / devfreq: Teach lockdep about locking order
 
---===============3512052412287231542==--
+--===============4958400016629473852==--
