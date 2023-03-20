@@ -1,31 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dtor/input
-Date: Mon, 20 Mar 2023 04:35:54 -0000
-Message-Id: <167928695432.2596.4753889980191279716@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless-next
+Date: Mon, 20 Mar 2023 05:56:15 -0000
+Message-Id: <167929177532.23726.15345302666049770659@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dtor/input
-user: dtor
+repo: pub/scm/linux/kernel/git/wireless/wireless-next
+user: kvalo
 changes:
-  - ref: refs/heads/for-linus
-    old: 8a0432bab6ea3203d220785da7ab3c7677f70ecb
-    new: ffa6206ebf8d39e83d87ac226df68dbbe155819a
+  - ref: refs/heads/main
+    old: 499183cc3b52613f06cf4ce70809546971c96ed8
+    new: 70664495e3d24803ec47ccaccee9a822220558a0
     log: |
-         ffa6206ebf8d39e83d87ac226df68dbbe155819a Input: xpad - fix incorrectly applied patch for MAP_PROFILE_BUTTON
-         
-  - ref: refs/heads/master
-    old: f1e96f0617fc578f74319a5ba46473773035594f
-    new: 6906f5060d39f95aa0be30e998e0cc1179ba3d04
-    log: |
-         6906f5060d39f95aa0be30e998e0cc1179ba3d04 Input: iqs62x-keys - suppress duplicated error message in .remove()
-         
-  - ref: refs/heads/next
-    old: f1e96f0617fc578f74319a5ba46473773035594f
-    new: 6906f5060d39f95aa0be30e998e0cc1179ba3d04
-    log: |
-         6906f5060d39f95aa0be30e998e0cc1179ba3d04 Input: iqs62x-keys - suppress duplicated error message in .remove()
+         d46e04ccd40457a0119b76e11ab64a2ad403e138 wifi: rtl8xxxu: RTL8192EU always needs full init
+         70664495e3d24803ec47ccaccee9a822220558a0 wifi: rtl8xxxu: Support new chip RTL8710BU aka RTL8188GU
          
