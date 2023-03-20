@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0679598124893862111=="
+Content-Type: multipart/mixed; boundary="===============0337073999794286870=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 20 Mar 2023 14:40:10 -0000
-Message-Id: <167932321059.13047.2898980502682993134@gitolite.kernel.org>
+Date: Mon, 20 Mar 2023 14:40:31 -0000
+Message-Id: <167932323147.13198.4394004425885703816@gitolite.kernel.org>
 
---===============0679598124893862111==
+--===============0337073999794286870==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,23 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/for-next
-    old: e36a82bebbf7da814530d5a179bef9df5934b717
-    new: fda1941b8eab786112afe91088fa0a1ed4880360
-    log: |
-         7f400a1dc29f3ed6cb0fe0e58f706b6933f72625 nubus: Drop noop match function
-         fda1941b8eab786112afe91088fa0a1ed4880360 m68k: Remove obsolete config NO_KERNEL_MSG
-         
-  - ref: refs/heads/master
-    old: 28230bb22d4ea73c91d7e934dc2f162f931733ae
-    new: b55f773e598a93232307dc61278cdf081adad7fa
-    log: revlist-28230bb22d4e-b55f773e598a.txt
+  - ref: refs/heads/m68k-queue
+    old: ba87743b9e88255af203b9b16173d50e83265add
+    new: 5e60b41c318580b3e78042d164c85ad38fbb2820
+    log: revlist-ba87743b9e88-5e60b41c3185.txt
 
---===============0679598124893862111==
+--===============0337073999794286870==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-28230bb22d4e-b55f773e598a.txt
+Content-Disposition: attachment; filename=revlist-ba87743b9e88-5e60b41c3185.txt
 
 8222d5910dae08213b6d9d4bc9a7f8502855e624 xfrm: Zero padding when dumping algos and encap
 5f6e839ebc951c50f1ca06791d016c256f0285a9 xen: update arch/x86/include/asm/xen/cpuid.h
@@ -505,8 +498,10 @@ a98151ad53b53f010ee364ec2fd06445b328578b ring-buffer: remove obsolete comment fo
 71c7a30442b724717a30d5e7d1662ba4904eb3d4 tracing/hwlat: Replace sched_setaffinity with set_cpus_allowed_ptr
 eaba52d63bfcf0047ce3a1bb011b35d4f066df8e Merge tag 'trace-v6.3-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 e8d018dd0257f744ca50a729e3d042cf2ec9da65 Linux 6.3-rc3
-40bacfa962e8af91b998fcbfbe7b39dd4249fc06 Merge tag 'v6.3-rc3'
-6edcc4c5a059319013fbfe664f7086cfcadbb1bb nubus: Drop noop match function
-b55f773e598a93232307dc61278cdf081adad7fa m68k: Remove obsolete config NO_KERNEL_MSG
+08f563d37fa52b23a0321da368cc1d69d61cb041 nubus: Drop noop match function
+56901e25efa86ec94f5727e80a9f36cbbb822cdf m68k: Remove obsolete config NO_KERNEL_MSG
+f06f45b98cc6a25a8d5eba44d007845c20c8b805 m68k: atari: usb: Add ISP1160 USB host controller support
+21c949d37e4718f0ceef2bfb776644bfaeaea9e5 m68k: atari: Update Kconfig.bus help text
+5e60b41c318580b3e78042d164c85ad38fbb2820 m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============0679598124893862111==--
+--===============0337073999794286870==--
