@@ -1,44 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============3503248869277934877=="
+Content-Type: multipart/mixed; boundary="===============9021703362751504965=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-power-supply
-Date: Mon, 20 Mar 2023 11:02:17 -0000
-Message-Id: <167931013728.20363.16473123277023749288@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 20 Mar 2023 11:02:28 -0000
+Message-Id: <167931014823.20492.14622498003702208957@gitolite.kernel.org>
 
---===============3503248869277934877==
+--===============9021703362751504965==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sre/linux-power-supply
-user: sre
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-next
-    old: 5161ec200f5a84416667da853ff822d72df507f2
-    new: 2c9fafafd1866f22deb8988d9b63ff9f921ce8e3
-    log: revlist-5161ec200f5a-2c9fafafd186.txt
+  - ref: refs/heads/master
+    old: d68ccb83abd757877de8c7f344fa43c05b81760f
+    new: e5d4cf3a63ff70b459b945bbdd27e17423bb7034
+    log: |
+         e5d4cf3a63ff70b459b945bbdd27e17423bb7034 4.19-stable patches
+         
 
---===============3503248869277934877==
+--===============9021703362751504965==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5161ec200f5a-2c9fafafd186.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-25b800631773163a0bbf8b761d7ea4f921f3cfba dt-bindings: power: supply: adc-battery: add binding
-6a89d71d87c52a0260b0de56c41cb240124ddd2e power: supply: core: auto-exposure of simple-battery data
-62c3a9dba56c630c559e01da38c229ae0c1d456c power: supply: generic-adc-battery: convert to managed resources
-6ec76fe0262e041df2c961218b168ca135263c2f power: supply: generic-adc-battery: fix unit scaling
-813e9743e41b3c64e706ce6c9e70cff1c5c7b226 power: supply: generic-adc-battery: drop jitter delay support
-3aaaca3cc5fc30bdcdf8d4008cd65f2a1f045526 power: supply: generic-adc-battery: drop charge now support
-3c67712e0f268fd3d36439af30111bbe1a32f186 power: supply: generic-adc-battery: drop memory alloc error message
-dd965d9b526ee9a3768fceb0e37854aa2bce7190 power: supply: generic-adc-battery: use simple-battery API
-af962173d191b519015dc0b83bfe8a91261a35a7 power: supply: generic-adc-battery: simplify read_channel logic
-8e5d3caa28d73e3d5b6f3054fed871fcb6040083 power: supply: generic-adc-battery: add temperature support
-14d8f2ea0751bfb15506a1462adb8c781aba8708 power: supply: generic-adc-battery: add DT support
-872a6f367cc26817a22de687b79b98c9acb10641 power: supply: generic-adc-battery: update copyright info
-0dd24698f654d415c3388bc962d17c41a8b75ede power: supply: generic-adc-battery: improve error message
-2c9fafafd1866f22deb8988d9b63ff9f921ce8e3 power: supply: generic-adc-battery: style fixes
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1679310147 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1679310146-f800bb87df738b9480daa0056d2cabe5a84f9a88
 
---===============3503248869277934877==--
+d68ccb83abd757877de8c7f344fa43c05b81760f e5d4cf3a63ff70b459b945bbdd27e17423bb7034 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQYPUMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+tTUQAItUDN+VKZiSu6Xvy4et
+vExOFsa5R+Oh1BETXnyophitnYuEPMPd3Z8IZXcY8pEyAQFh88NWlgzR2oD5RmP6
+4innvphTq6k3YGFL2F15bV6DzepRLmM9ua+Oh046ezCaZp7ZXZ+5vA8lvnkC2qDo
+4dpgLJDJaRH136BZq+jZZqHIMXPhrDXcjzUc8QTfRmWa0X/DMEJjEKasCqvs4N8f
+ZrRKRzjGQ+y6NE3yQkZroYLItQKpHXmiZKb7L6jFlZIyGF0KfIsQu+ldSGS2QYC8
+r2jTuO3z7SWxwjbER4Z/wo7sx3SNSe2Jc2ZIA9RcjROU0wjgl1t7bFxaqnAC5T2n
+KFuiszk0ID7tUcGwrmMsge6KLDDzDOsQJiUEyejuGwvzzGdeXffIyNgcOEEDkbgP
++GcNe89MTdkqE07SuXEzKCw+N99XaUX1Dvk2RUUHYdIfZxTTm3Gsw8RJk0VNkIin
+yM8n75DU5bpEljkHwufB62OdphsvvAsxlQKkqnitbt2T3R/RvPSDuEJ1TDMUXMRV
+M+EF20O+85L/o1EBd4yNQZP/mOWtems7lEpnDs9U8jdNTNoAgKE/zDPPPGKrTYz6
+V0R8T8P9dbyYQHdHIvh2yAYhfdwJezleqVi/a/L069bvyzgEg+B6slgowCx7l++4
+5B1upK09MS62QtLeag+yI6o5
+=9zVx
+-----END PGP SIGNATURE-----
+
+--===============9021703362751504965==--
