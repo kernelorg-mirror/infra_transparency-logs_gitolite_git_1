@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1125380026172674065=="
+Content-Type: multipart/mixed; boundary="===============2519863878690415798=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Mon, 20 Mar 2023 13:27:10 -0000
-Message-Id: <167931883035.25475.13044307381240608600@gitolite.kernel.org>
+Date: Mon, 20 Mar 2023 13:27:27 -0000
+Message-Id: <167931884705.25634.6399860664014418958@gitolite.kernel.org>
 
---===============1125380026172674065==
+--===============2519863878690415798==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/next
+  - ref: refs/heads/master
     old: 5b3731b0fcab96eaa16684f008c95e33caab8765
     new: 923c8dfa9a3640d4dcedd7df12b53254f7e6e4fc
     log: revlist-5b3731b0fcab-923c8dfa9a36.txt
 
---===============1125380026172674065==
+--===============2519863878690415798==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -505,4 +505,4 @@ d36ab5498a899a6f3939b3135fe64069956ce8ff tpm: cr50: i2c: use jiffies to wait for
 e52a6162cf6b4f2cda8004a803b55240c1ef29f3 tpm: remove unnecessary (void*) conversions
 923c8dfa9a3640d4dcedd7df12b53254f7e6e4fc tpm: fix build break in tpm-chip.c caused by AMD fTPM quirk
 
---===============1125380026172674065==--
+--===============2519863878690415798==--
