@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8485672985419044754=="
+Content-Type: multipart/mixed; boundary="===============0171350230964920894=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Mon, 20 Mar 2023 13:58:33 -0000
-Message-Id: <167932071363.14928.15432109827177390802@gitolite.kernel.org>
+Date: Mon, 20 Mar 2023 13:59:18 -0000
+Message-Id: <167932075850.15227.4609457401148036380@gitolite.kernel.org>
 
---===============8485672985419044754==
+--===============0171350230964920894==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cel/linux
 user: cel
 changes:
-  - ref: refs/heads/master
-    old: eeac8ede17557680855031c6f305ece2378af326
-    new: e8d018dd0257f744ca50a729e3d042cf2ec9da65
-    log: revlist-eeac8ede1755-e8d018dd0257.txt
-  - ref: refs/tags/v6.3-rc3
-    old: 0000000000000000000000000000000000000000
-    new: b04d78201ce644e5182e95f1d0bd131b35ec8816
+  - ref: refs/heads/nfsd-next
+    old: a5ed9be147beb3ac520c9ead912803aff1f8c593
+    new: 3077f83bfb9e40371b4aa84d2dd5bfb5311ecae4
+    log: revlist-a5ed9be147be-3077f83bfb9e.txt
 
---===============8485672985419044754==
+--===============0171350230964920894==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-eeac8ede1755-e8d018dd0257.txt
+Content-Disposition: attachment; filename=revlist-a5ed9be147be-3077f83bfb9e.txt
 
 8222d5910dae08213b6d9d4bc9a7f8502855e624 xfrm: Zero padding when dumping algos and encap
 5f6e839ebc951c50f1ca06791d016c256f0285a9 xen: update arch/x86/include/asm/xen/cpuid.h
@@ -501,5 +498,24 @@ a98151ad53b53f010ee364ec2fd06445b328578b ring-buffer: remove obsolete comment fo
 71c7a30442b724717a30d5e7d1662ba4904eb3d4 tracing/hwlat: Replace sched_setaffinity with set_cpus_allowed_ptr
 eaba52d63bfcf0047ce3a1bb011b35d4f066df8e Merge tag 'trace-v6.3-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 e8d018dd0257f744ca50a729e3d042cf2ec9da65 Linux 6.3-rc3
+7337f19aceba1088e4593fe5e384d24d170c1505 nfsd: don't open-code clear_and_wake_up_bit
+47457ead021b03ac5076fcf4991b24426657a896 nfsd: NFSD_FILE_KEY_INODE only needs to find GC'ed entries
+e659ef7db182847b81e6e7c7977bd73b8d639501 nfsd: simplify test_bit return in NFSD_FILE_KEY_FULL comparator
+e1eb8b6e67e8ffd9faa7a5271b0989200b2dc4e5 nfsd: don't kill nfsd_files because of lease break error
+955a899f1c4097207d2b30de8b90cb354012b021 nfsd: add some comments to nfsd_file_do_acquire
+34d4d7b37417564feacf4993df48dc7d9a5c642d nfsd: simplify the delayed disposal list code
+963e747c07eb13c56563dab5efe341e5a097d517 nfsd: don't take/put an extra reference when putting a file
+a7966353a365b9d040c1ad5e5a653027f5d070f7 nfsd: update comment over __nfsd_file_cache_purge
+1cb33d4b870b453ae4a3fe7f9ad93c32fea6d01a nfsd: allow reaping files still under writeback
+cbaf9841e928a80d19a073b1b6b5b48d86ddb373 NFSD: Convert filecache to rhltable
+33bedb1e4e12e3b954c8de6aa1106c92e54d96a8 lockd: purge resources held on behalf of nlm clients when shutting down
+82c7943c9358b2d4e7770dca10a10cd9fc805b22 lockd: remove 2 unused helper functions
+88f9809a1e91f04bc461641848c05d0ec2aa3d11 lockd: move struct nlm_wait to lockd.h
+4de983d502c2353ca080a08d19f0afba67fda72c lockd: fix races in client GRANTED_MSG wait logic
+0d446182338520cd583d3d246bb4abead36c4e3b lockd: server should unlock lock if client rejects the grant
+3edaf1fa1dc5202146a8cf64160358acd1fd1fb0 nfs: move nfs_fhandle_hash to common include file
+48e667e5b0181dbb5c41eb494ef0a06d371284dd lockd: add some client-side tracepoints
+c35349d4eaac1a958b1f8bdeb10e5b4952005301 SUNRPC: return proper error from get_expiry()
+3077f83bfb9e40371b4aa84d2dd5bfb5311ecae4 sunrpc: simplify two-level sysctl registration for svcrdma_parm_table
 
---===============8485672985419044754==--
+--===============0171350230964920894==--
