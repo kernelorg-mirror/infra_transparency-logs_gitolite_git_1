@@ -1,59 +1,92 @@
-Content-Type: multipart/mixed; boundary="===============8921944285175478921=="
+Content-Type: multipart/mixed; boundary="===============6164577206585553910=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-pinctrl
-Date: Mon, 20 Mar 2023 14:41:41 -0000
-Message-Id: <167932330124.13656.12954480994546553563@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
+Date: Mon, 20 Mar 2023 14:54:27 -0000
+Message-Id: <167932406717.22441.9807788917981834404@gitolite.kernel.org>
 
---===============8921944285175478921==
+--===============6164577206585553910==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/linusw/linux-pinctrl
-user: linusw
+repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-next
-    old: 5c6073d29c45de473db1c63cf957672e3ba91520
-    new: 454c44542d3547c8088dedd3efcc94d53b21ec24
-    log: revlist-5c6073d29c45-454c44542d35.txt
+  - ref: refs/heads/linux-4.14.y
+    old: 0eeee799f7c656b5ff9024a7502785ed8c1c6179
+    new: 771f7d636cc99d7d29357a63b34dc212c76c2e16
+    log: revlist-0eeee799f7c6-771f7d636cc9.txt
 
---===============8921944285175478921==
+--===============6164577206585553910==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5c6073d29c45-454c44542d35.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-7c19147d9cfc0f9328049d2e278279150d7de9ca pinctrl: ralink: reintroduce ralink,rt2880-pinmux compatible string
-5465d9891254b9ebc5fedee298bd40dda9ddf6c1 pinctrl: ralink: rt305x: add new compatible string for every SoC
-f7dedad4e290e8be87b1c5a63a19a9663bcd2740 pinctrl: ralink: mt7620: split out to mt76x8
-dc6ae2057c9cf24a4580e4c421a3cc16ade3ac21 pinctrl: ralink: move to mediatek as mtmips
-ea183c37312334f4d93908e0fee0835e3a441ca3 pinctrl: mediatek: remove OF_GPIO as reverse dependency
-e19e35a85216ac5ac5fa74b62d2d3f4a92665a2b dt-bindings: pinctrl: ralink: move additionalProperties to top
-6c011cc41091625c9abbf1e711bd44c655645377 dt-bindings: pinctrl: ralink: drop quotes from referred schemas
-0b91c8aa698f29ca6880c0f4f7920782c6e9aed8 dt-bindings: pinctrl: ralink: add new compatible strings
-9c5ade5a7304ba79a7603f0c66d2b9d6ae7b69e7 dt-bindings: pinctrl: ralink: {mt7620,mt7621}: rename to mediatek
-a22452afa896af118e9cdea06b591e4a77309b41 dt-bindings: pinctrl: mediatek: mt6795: rename to mediatek,mt6795-pinctrl
-ff01f753682b0a09ec442173669b2114c5e8fc1c dt-bindings: pinctrl: mediatek: mt8186: rename to mediatek,mt8186-pinctrl
-0dcf5a56bd93f92665f9e3437843811fd4374355 dt-bindings: pinctrl: mediatek: mt8192: rename to mediatek,mt8192-pinctrl
-1d45ecb05ab4ec878254f2a11a5af49b64020148 dt-bindings: pinctrl: mediatek: mt8195: rename to mediatek,mt8195-pinctrl
-a9d44c4cc049d9024ed05dc9a615100b019c6f93 dt-bindings: pinctrl: mediatek: fix naming inconsistency
-c911ad22a884795529241cf7074b5cde355741b7 dt-bindings: pinctrl: {mediatek,ralink}: fix formatting
-03af785ee25a753c6b93ef70130b97020ccfae27 dt-bindings: pinctrl: mediatek: fix pinmux header location
-6a735ad501816786af9fc372eeace9ce4735bac0 dt-bindings: pinctrl: mediatek: drop quotes from referred schemas
-4b8efbae17e1f2762cd3799970b702bf61dfb5be dt-bindings: pinctrl: mediatek: mt7986: fix patternProperties regex
-5c7daf4a06065de15e29a9a14dc22acd4b0062f2 dt-bindings: pinctrl: ralink: rt305x: split binding
-565afac7a37ab861f62edcb0683bc8d67949fc92 dt-bindings: pinctrl: mediatek: mt7620: split binding
-c7c4891bc787850a86e3c797f754bb1623e171ae MAINTAINERS: move ralink pinctrl to mediatek mips pinctrl
-709d60b5dfbfc7d2973ad6085cb1117e827cfc8d dt-bindings: pinctrl: qcom: Add SM7150 pinctrl binding
-b915395c9e04361926ec329f784a1a6fda033492 pinctrl: qcom: Add SM7150 pinctrl driver
-5b63ccb69ee8ee5ddb58d8ce105b880905678bd5 dt-bindings: pinctrl: qcom: Add support for IPQ9574
-c74eef68fd2d3a7821ecb57a607d597775df53ac pinctrl: qcom: Add IPQ9574 pinctrl driver
-f1148d3491b4b76eb233e6f6b85e9811ae4c96f8 dt-bindings: pinctrl: qcom,qcm2290-tlmm: Allow input-enable
-cae630bf47f84d426407ff6261debfe073ce8a4b dt-bindings: pinctrl: qcom,sc8280xp-tlmm: allow 'bias-bus-hold'
-d11f932808dc689717e409bbc81b5093e7902fc9 pinctrl: mlxbf3: Add pinctrl driver support
-454c44542d3547c8088dedd3efcc94d53b21ec24 Merge branch 'devel' into for-next
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1679324065 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
+nonce 1679324062-863aa8fa643770d11311d56ba1a14025393efc65
 
---===============8921944285175478921==--
+0eeee799f7c656b5ff9024a7502785ed8c1c6179 771f7d636cc99d7d29357a63b34dc212c76c2e16 refs/heads/linux-4.14.y
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQYc6EbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+QQgP/18liLLbzpqHaUU+yBhZ
+JhC4WYFY3XFlxngIVzrONuaartie4bnA01fAK+jU+zjwqWfxEUNDVHWj/JxsZMQT
+N0eyoIFVTxuwl845u3XQ4Z/zNeetqftaXoikfOBv0gVVE6X2sCdR8Tbd0PLVQDy5
+itdgv4t6Gm8JM6ZtIZUYAK0F61W5g+ABoFFrMk0i7Zx7WIHHZTIHo9/5/3ZDGuXZ
+iGgPkwNv+Km6ULp+K7NPmC0OnsPNGonM0Da3RVQb/ysTsNAOYFV0i153NRS/4qXT
+o5jiFLDiN7r487u4krfaJK4EA7nhLRi9RnIsjXgHaDV7/B4Sx/cWqzqo9UG5E23w
+IcXobkeHcCZVbZISsBX/Jz0SC3Q4Md1xDYtk2qn6gASC2MkLNj/IBb3o64Ho0aJ2
+X+QCWRvep8IeuFz02KhZyPlvaQJ6QrwXOYptuuAozjwbo6Gr8r3lNCzwi5vbmbte
+IxfdJgJCDom7NyDKfH814ex3aaOzPW0APsEdtRMzjKAO1YbuMI0DOR0vFoYxDN5U
+qXENmINLhyzfFR09g+B5NL89T4jXwq1FhNInHmbOp8eNwLFZzVCjuTF8OUlP+Za9
+sfoGrO+gYz6wd/V+Wnmh2bvEzSp0oYxlnAARq2obHaSpuJTBQ4VvZmZgUK4Q6c8f
+KpZw43fuZPd/SC3zmKtpdBo2
+=zSfa
+-----END PGP SIGNATURE-----
+
+--===============6164577206585553910==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-0eeee799f7c6-771f7d636cc9.txt
+
+88bb8e5e1160fd6cfa26d6a00e1c722da47d3dfa ext4: fix cgroup writeback accounting with fs-layer encryption
+21e4fbabbebdafe9bd204689064ca9e7dc4d95a6 fs: sysfs_emit_at: Remove PAGE_SIZE alignment check
+7f04547924831cd7e91f8c31d6d6796a85884b59 tcp: tcp_make_synack() can be called from process context
+6173fe94d7fcb8ed045c59da4fed2bdbd959281e nfc: pn533: initialize struct pn533_out_arg properly
+4b952de2e754c0254f36ba838e1ef94d41be5d98 qed/qed_dev: guard against a possible division by zero
+c1a4e38468796ef132bbc49cff6b86f4cf929d52 net: tunnels: annotate lockless accesses to dev->needed_headroom
+c3f8356d438b5a3d8035c75057ad24c3685af55b net: phy: smsc: bail out in lan87xx_read_status if genphy_read_status fails
+107bde6fae186b4de5849dc1a23149a5e88c445b nfc: st-nci: Fix use after free bug in ndlc_remove due to race condition
+190c632db808bf5629292ea463833ebf793df866 net: usb: smsc75xx: Limit packet length to skb->len
+05c00966c294e7a3135a717d59e049dbcb3c1dd1 nvmet: avoid potential UAF in nvmet_req_complete()
+f49bca9f8c95d9926d8b968cfda985287c4b34a0 block: sunvdc: add check for mdesc_grab() returning NULL
+3fdc2756423a32c580d212508d7690d89f6c1fd4 ipv4: Fix incorrect table ID in IOCTL path
+579178efb495c7f9be22df03b1dae5e4e4df9463 net: usb: smsc75xx: Move packet length check to prevent kernel panic in skb_pull
+71c1fb8d4c1bd4bb1235fa1a188a4082cee2603e net/iucv: Fix size of interrupt data
+75d53e81a2ef93d0a69fd7a1e66a05ca112ed86d ethernet: sun: add check for the mdesc_grab()
+99d174c964099fdc4d3a261e7978ecd2f29b8150 hwmon: (adt7475) Display smoothing attributes in correct order
+a6d7491f980bf93a78d19f05a5d16d8682b775af hwmon: (adt7475) Fix masking of hysteresis registers
+6c6f3606300162bddbf064af93e31fff57253795 hwmon: (xgene) Fix use after free bug in xgene_hwmon_remove due to race condition
+9514ac2cdb39a411e5660d8404791ae77d593904 media: m5mols: fix off-by-one loop termination error
+874fcc31f33929deb00c6007d2fa0410e9bbbb9e mmc: atmel-mci: fix race between stop command and start of next command
+60eba06ec37b7cf33a852780c12138d3ed563924 rust: arch/um: Disable FP/SIMD instruction to match x86
+80f078db3aa2a7a1d7275909a056975ee9e3924e ext4: fail ext4_iget if special inode unallocated
+658ce822dfadebc6dd5d80ad19164acaf05612fa ext4: fix task hung in ext4_xattr_delete_inode
+291db4feba0cd0670df335ab79e26c855a06f4b0 sh: intc: Avoid spurious sizeof-pointer-div warning
+5d2bcdbd21ad7f90d13b97d7b26c5a50c1d69498 ftrace: Fix invalid address access in lookup_rec() when index is 0
+c67701d15bbca97ba83eca097d340512eae8fbe8 fbdev: stifb: Provide valid pixelclock and add fb_check_var() checks
+29d0567227c7f810680a4305071228991256e964 drm/i915: Don't use stolen memory for ring buffers with LLC
+da33068c67f2713a2054f29af8912b1cfc86646f serial: 8250_em: Fix UART port type
+ae8d06506fc7065628f40349df6925d06128ec87 HID: core: Provide new max_buffer_size attribute to over-ride the default
+32c16b4e0d62a3c6d41fe047b7d09b555f6a6464 HID: uhid: Over-ride the default maximum data buffer value with our own
+771f7d636cc99d7d29357a63b34dc212c76c2e16 Linux 4.14.311-rc1
+
+--===============6164577206585553910==--
