@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4731177320428083097=="
+Content-Type: multipart/mixed; boundary="===============7721153207523867142=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
-Date: Mon, 20 Mar 2023 11:52:02 -0000
-Message-Id: <167931312276.24059.13838916937333472056@gitolite.kernel.org>
+Date: Mon, 20 Mar 2023 11:52:18 -0000
+Message-Id: <167931313807.24208.14933828709570225680@gitolite.kernel.org>
 
---===============4731177320428083097==
+--===============7721153207523867142==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,18 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/s390/linux
 user: heiko
 changes:
-  - ref: refs/heads/features
-    old: 45e5f0c017e0d0dabb952db63428e31eca6be87e
-    new: d28d86a07dbca4b6e33032196ef4a9a7121181b4
-    log: revlist-45e5f0c017e0-d28d86a07dbc.txt
+  - ref: refs/heads/for-next
+    old: 70cc5f4c53d5da9acadef91ecfb516295b7c61db
+    new: 1485d9a4eecf871b032162cc1478f6b726f064a9
+    log: revlist-70cc5f4c53d5-1485d9a4eecf.txt
 
---===============4731177320428083097==
+--===============7721153207523867142==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-45e5f0c017e0-d28d86a07dbc.txt
+Content-Disposition: attachment; filename=revlist-70cc5f4c53d5-1485d9a4eecf.txt
 
-a52e5cdbe8016d4e3e6322fd93d71afddb9a5af9 s390/ipl: add missing intersection check to ipl_report handling
 0599331c3da6dbbe814262079f6b0c4f3575fd5d s390: simplify one-level sysctl registration for topology_ctl_table
 751e24071c2e408f4b1781327756700ee4c941ab s390: simplify one-level syctl registration for s390dbf_table
 71cb8c00a2eb74b6c61374366fef4fd402faa692 s390: simplify one-level sysctl registration for appldata_table
@@ -58,5 +57,7 @@ c81cf436e47c34d2ff29e1b3db296f00d55b1c6f s390/ap: new low level inline functions
 2d72eaf036d2f2b7ec16cda2d0e7ce292537dad9 s390/ap: implement SE AP bind, unbind and associate
 038c5bedbc313b55f66b26fda5a7808727c2f177 s390/ap: add ap status asynch error support
 d28d86a07dbca4b6e33032196ef4a9a7121181b4 s390/mm: make use of atomic_fetch_xor()
+4d7e5f5b9f86f9a15927baffcdb05274cc38779c Merge branch 'fixes' into for-next
+1485d9a4eecf871b032162cc1478f6b726f064a9 Merge branch 'features' into for-next
 
---===============4731177320428083097==--
+--===============7721153207523867142==--
