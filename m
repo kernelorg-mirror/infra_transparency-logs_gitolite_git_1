@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1518582654574981469=="
+Content-Type: multipart/mixed; boundary="===============6277996852209762622=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Mon, 20 Mar 2023 08:07:48 -0000
-Message-Id: <167929966846.13533.13811235963572249215@gitolite.kernel.org>
+Date: Mon, 20 Mar 2023 08:07:53 -0000
+Message-Id: <167929967337.13621.7082507201589942606@gitolite.kernel.org>
 
---===============1518582654574981469==
+--===============6277996852209762622==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: fe15c26ee26efa11741a7b632e9f23b01aca4cc6
+  - ref: refs/heads/char-misc-linus
+    old: f551592f72563e119bdec5b9d5242f584111b2aa
     new: e8d018dd0257f744ca50a729e3d042cf2ec9da65
-    log: revlist-fe15c26ee26e-e8d018dd0257.txt
+    log: revlist-f551592f7256-e8d018dd0257.txt
 
---===============1518582654574981469==
+--===============6277996852209762622==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1679299667 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1679299672 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1679299667-49ca3d0a48f5fb41ecf0631c809dbd2ef79f9f2b
+nonce 1679299671-5dbf4341af2d1c17f931bd0681037be8423b17f3
 
-fe15c26ee26efa11741a7b632e9f23b01aca4cc6 e8d018dd0257f744ca50a729e3d042cf2ec9da65 refs/heads/main
+f551592f72563e119bdec5b9d5242f584111b2aa e8d018dd0257f744ca50a729e3d042cf2ec9da65 refs/heads/char-misc-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQYFFMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ztUP/RQxBoy78yfmpFfnURFt
-dew/rwLEtyJFBT+qzLlW3TVwEHjYS612Mr8UcChAqa9PduD/nZHbifGtDwXxxbCa
-9+UtLcvGwZ1sCbainlEW3Yaqwwd3T5cGic7plunBXrGVQEdMNsvl+63rnBMJibxS
-JX2CGhJErI2uX8nfMdaK+R575oJDjTL9JI2+dsvIRYJMJiNsKY6RUnyN5Nyt3hDS
-RICb9iSB37PmZbtwrzxyreEq0fuqvoE/FAmdZN+iewe83rq570YcprfRh9UMg9ky
-QgLksf+fY0KnU4n9uiWrlPHdI1v3IVStQMqde0lIrBkmvjuZoDM7KyQpntthPn/J
-apDJHMhx8yzv0zej6m18GSx/KaDWPuJr1upTa0JLvHZTtOK+sfNqHZ/4/hZM43Zm
-csI+nnTc1B0yfc2//DYIibogFMBzvJdrQD+prLThpNGlzBmA7a7zHcldfAgvX13Y
-/azPMMsHJCOj0ic/zSQxmaQGLZt418dlCw3id2CZTivMFi9yHqsdvUU6yXr9HjX3
-oQ6DQCNxRGplE5z7pPVFWYXqEmAALVu50mwSwfQyJsbWCR4ia1Wo7uW6wf+Trfjh
-EZ9rYHVoqROI0tDD4SfaiAPjxT3nB3edmIiz4kZTzwq1QAfOv1s14Lgq7SSzrIYq
-ZP8Wd5nx9QqGTynqkxzHWgpO
-=jGzM
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQYFFgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+6lkP/3JLJKDAxwoSco+d5L7z
+3/fUhs5kaRIq56efmj0FBpdqweuqQeLc+7S1MNL9mvp8V4ma8et78lsav5S3gTml
+dC/M/EG5CJpgxUtQSwBAGzs6CEidthEZ2ynYFjKy6XuJwC3CWoWTa4KnszyZy1Ig
+/hmL3Ozo9BP+ACBVvg84p9X22oD7Vq3/GA2BBpu5eadhC6YePeDJ/26yHNBvheYz
+9VQQZSnHlCwo5vGvVHIMLDx8G7+hpHo3T+Bezi99TsXhWASoPkGJLgh1sjrl7ERQ
+Uk/k99qw2EarKyb3rDjABS0HL6cuaI00922Jfhdp1gKXnIREJwYEpAa8pFz17/Q3
++8MTaiFkfLPqEOOFa99ECNWsHez7Z6nQLdWLt5HguQtrRxZOR0FKTIE68Fw/BPl3
+6QzHfTKYOOfu01WJrU9C21xoV8aQUwCAM86MdWffucLeM/4O/ru6OSy4aCuUrkIV
+X4+4yAyiJIxt5kEHTTCKYlAM8ftZCEE50/Fu2jOAgMU8mmx4QBDFxUxJGM3MLfJ7
+w8/wP5u9O2HduWhqV9zQfCCgBV371tYBXP8eXJFN0VhH8j7R5lB4MMvtDKImIEEc
+4Ya0juecplWM/A8H87kP461G+SjS2nJjzZEq29dlxuCUgraZrEHpN7DTNZLJOmlC
+mEQ2D+w9BLC9VXtDF021sJ46
+=k1Ps
 -----END PGP SIGNATURE-----
 
---===============1518582654574981469==
+--===============6277996852209762622==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-fe15c26ee26e-e8d018dd0257.txt
+Content-Disposition: attachment; filename=revlist-f551592f7256-e8d018dd0257.txt
 
 8222d5910dae08213b6d9d4bc9a7f8502855e624 xfrm: Zero padding when dumping algos and encap
 7245e629dcaaf308f1868aeffa218e9849c77893 drm/cirrus: NULL-check pipe->plane.state->fb in cirrus_pipe_update()
@@ -171,9 +171,6 @@ accd7e23693aaaa9aa0d3e9eca0ae77d1be80ab3 bnxt_en: Avoid order-5 memory allocatio
 0d9fad91abfd723ea5070a46d98a9f4496c93ba9 m68k: mm: Fix systems with memory at end of 32-bit address space
 d4b97925e87eb133e400fe4a482d750c74ce392f m68k: mm: Move initrd phys_to_virt handling after paging_init()
 e36a82bebbf7da814530d5a179bef9df5934b717 m68k: Only force 030 bus error if PC not in exception table
-f77ebdda0ee652124061c2ac42399bb6c367e729 interconnect: qcom: osm-l3: fix icc_onecell_data allocation
-87e8fab1917a2b3f6e3dedfd1cdf22a1416e6676 interconnect: qcom: sm8450: switch to qcom_icc_rpmh_* function
-0d00cd114f20e4a6db37e4b08435c27acc1d1db0 interconnect: qcom: sm8550: switch to qcom_icc_rpmh_* function
 49854d3ccc55efd7e6873e0c39f360bdbe251c51 udf: Fix lost writes in udf_adinicb_writepage()
 cecb1f06541e12ec68805dbddb2013ee720dfe3d udf: Fix reading of in-ICB files
 63bceed808c5cafbac4e20b5a40012a0ec6c6529 udf: Warn if block mapping is done for in-ICB files
@@ -203,7 +200,6 @@ dfdd608c3b365f0fd49d7e13911ebcde06b9865b selftests/bpf: check that modifier reso
 32dfc59e43019e43deab7afbfff37a2f9f17a222 Merge branch 'fix resolving VAR after DATASEC'
 8ca09d5fa3549d142c2080a72a4c70ce389163cd cpumask: fix incorrect cpumask scanning result checks
 26243872fe26ec0df7d81766253d00213990e382 MAINTAINERS: add missing clock driver coverage for Microchip FPGAs
-633a12fda6536a1a17bcea29502e777e86a4547e interconnect: qcom: qcm2290: Fix MASTER_SNOC_BIMC_NRT
 06a1574b94ee5272789eaea05a5bdddedea7cc0d tools headers UAPI: Sync linux/perf_event.h with the kernel sources
 5b201a82cd9d0945d70562974ea6ad8e3b1861b5 perf tools: Add Adrian Hunter to MAINTAINERS as a reviewer
 38d408f5b1250d56f8a19d2f2ff65aa8c7b93ff4 ASoC: Intel: avs: Machine board fixes
@@ -288,12 +284,6 @@ a7ee5b426fb66f5eab1790339f1c722060d3d6fc SoC: SOF: Intel: FIx device description
 3b80a03d455143cc9135dac86722bbdd079daff3 docs/mm: Physical Memory: fix a reference to a file that doesn't exist
 87eae260995577d203a70d72d46976521a5687e1 docs/mm: hugetlbfs_reserv: fix a reference to a file that doesn't exist
 63355b9884b3d1677de6bd1517cd2b8a9bf53978 cpumask: be more careful with 'cpumask_setall()'
-a5904f415e1af72fa8fe6665aa4f554dc2099a95 interconnect: fix mem leak when freeing nodes
-e0e7089bf9a87bc5e3997422e4e24563424f9018 interconnect: fix icc_provider_del() error handling
-eb59eca0d8ac15f8c1b7f1cd35999455a90292c0 interconnect: fix provider registration API
-9fbd35520f1f7f3cbe1873939a27ad9b009f21f9 interconnect: imx: fix registration race
-174941ed28a3573db075da46d95b4dcf9d4c49c2 interconnect: qcom: osm-l3: fix registration race
-bc463201f60803fa6bf2741d59441031cd0910e4 interconnect: qcom: rpm: fix probe child-node error handling
 bf89b7ee52af5a5944fa3539e86089f72475055b RISC-V: fix taking the text_mutex twice during sifive errata patching
 e5eef23e267c72521d81f23f7f82d1f523d4a253 drm/display: Don't block HDR_OUTPUT_METADATA on unknown EOTF
 7d386975f6a495902e679a3a250a7456d7e54765 drm/connector: print max_requested_bpc in state debugfs
@@ -395,7 +385,6 @@ f8086d1a65ac693e3fd863128352b4b11ee7324d serial: 8250: ASPEED_VUART: select REGM
 97820780b723197d1b472f2bd39fd8593b5d4edc serial: qcom-geni: fix mapping of empty DMA buffer
 b6a7bac184472b5b79286a71a61c2f16ea4e86ad serial: qcom-geni: drop bogus uart_write_wakeup()
 18365ebf23f3e713e5dd8e295c9a639295250f3c tty: vt: protect KD_FONT_OP_GET_TALL from unbound access
-38ed310c22e7a0fc978b1f8292136a4a4a8b3051 firmware: xilinx: don't make a sleepable memory allocation from an atomic context
 fa780334a8c392d959ae05eb19f2410b3a1e6cb0 io_uring: silence variable ‘prev’ set but not used warning
 573b22ccb7ce9ab7f0539a2e11a9d3609a8783f5 sh: sanitize the flags on sigreturn
 c70e9b8ea3936a60e2a696dd0ed9bb57885f6bec Merge tag 'm68k-for-v6.3-tag2' of git://git.kernel.org/pub/scm/linux/kernel/git/geert/linux-m68k
@@ -441,7 +430,6 @@ c24ff3ec55f08788fb2c404c312f213d9081e1ba Merge tag 'asoc-fix-v6.3-rc1' of https:
 bced3f7db95ff2e6ca29dc4d1c9751ab5e736a09 tcp: tcp_make_synack() can be called from process context
 aed8efddd39b3434c96718d39009285c52b1cafc vp_vdpa: fix the crash in hot unplug with vp_vdpa
 09e65ee9059d76b89cb713795748805efd3f50c6 vdpa/mlx5: should not activate virtq object when suspended
-06be62083c5308c76a891ca975d66d832e2afc07 nvmem: core: return -ENOENT if nvmem cell is not found
 f624bb6fad23df3270580b4fcef415c6e7bf7705 wifi: nl80211: fix NULL-ptr deref in offchan check
 b27f07c50a73e34eefb6b1030b235192b7ded850 wifi: nl80211: fix puncturing bitmap policy
 ce04abc3fcc62cd5640af981ebfd7c4dc3bded28 wifi: mac80211: check basic rates validity
@@ -539,17 +527,6 @@ fa4ae42cc60a7dea30e8f2db444b808d80862345 virt/coco/sev-guest: Convert the sw_exi
 fc89d7fb499b0162e081f434d45e8d1b47e82ece Merge tag 'for_linus' of git://git.kernel.org/pub/scm/linux/kernel/git/mst/vhost
 3e453522593d74a87cf68a38e14aa36ebca1dbcd md: Free resources in __md_stop
 ee06a3ef7e3cddb62b90ac40aa661d3c12f7cabc kconfig: Update config changed flag before calling callback
-90ae93d8affc1061cd87ca8ddd9a838c7d31a158 interconnect: qcom: rpm: fix registration race
-6570d1d46eeade82965ccc4a3ab7d778898ef4bf interconnect: qcom: rpmh: fix probe child-node error handling
-74240a5bebd48d8b843c6d0f1acfaa722a5abeb7 interconnect: qcom: rpmh: fix registration race
-bfe7bcd2b9f5215de2144f097f39971180e7ea54 interconnect: qcom: msm8974: fix registration race
-3aab264875bf3c915ea2517fae1eec213e0b4987 interconnect: exynos: fix node leak in probe PM QoS error path
-c9e46ca612cfbb0cf890f7ae7389b742e90efe64 interconnect: exynos: fix registration race
-859ad5f177efa59f6b8a2fac20561ca5cb13c89f interconnect: exynos: drop redundant link destroy
-5553055c62683ce339f9ef5fb2a26c8331485d68 memory: tegra: fix interconnect registration race
-abd9f1b49cf25eebeaba193c7707355be3f48dae memory: tegra124-emc: fix interconnect registration race
-c5587f61ec050f7e9ebb3e2da29d12af63e833d3 memory: tegra20-emc: fix interconnect registration race
-9db481c909dd6312ccfbdc7e343b50e41c727483 memory: tegra30-emc: fix interconnect registration race
 3bc57292278a0b6ac4656cad94c14f2453344b57 md: avoid signed overflow in slot_store()
 131db499162274858bdbd7b5323a639da4aab86c bnxt_en: reset PHC frequency in free-running mode
 22a825c541d775c1dbe7b2402786025acad6727b net/smc: fix NULL sndbuf_desc in smc_cdc_tx_handler()
@@ -697,7 +674,6 @@ ab00709310eedcd8dae0df1f66d332f9bc64c99e hwmon: (ltc2992) Set `can_sleep` flag f
 7c10131803e45269ddc6c817f19ed649110f3cae veth: Fix use after free in XDP_REDIRECT
 cd356010ce4c69ac7e1a40586112df24d22c6a4b net: phy: mscc: fix deadlock in phy_ethtool_{get,set}_wol()
 5bc9e2d43f86105a95f86fa096fb4e517bb0ce73 ata: pata_parport: fix memory leaks
-f551592f72563e119bdec5b9d5242f584111b2aa Merge tag 'icc-6.3-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/djakov/icc into char-misc-linus
 7ad2c39860dc0ca01d2152232224d2124e160fe3 xen: remove unnecessary (void*) conversions
 cbebd68f59f03633469f3ecf9bea99cd6cce3854 x86/mm: Fix use of uninitialized buffer in sme_enable()
 890a2fb06eb9af88b16f18840bf0b4dddc08b53d Merge tag 'nvme-6.3-2022-03-16' of git://git.infradead.org/nvme into block-6.3
@@ -812,4 +788,4 @@ a98151ad53b53f010ee364ec2fd06445b328578b ring-buffer: remove obsolete comment fo
 eaba52d63bfcf0047ce3a1bb011b35d4f066df8e Merge tag 'trace-v6.3-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 e8d018dd0257f744ca50a729e3d042cf2ec9da65 Linux 6.3-rc3
 
---===============1518582654574981469==--
+--===============6277996852209762622==--
