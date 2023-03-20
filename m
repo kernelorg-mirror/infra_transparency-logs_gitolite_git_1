@@ -1,55 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============8224850229785206661=="
+Content-Type: multipart/mixed; boundary="===============4372235773609973645=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Mon, 20 Mar 2023 18:30:59 -0000
-Message-Id: <167933705958.12191.5640481882097044051@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Mon, 20 Mar 2023 18:31:37 -0000
+Message-Id: <167933709761.12495.16166500120513298083@gitolite.kernel.org>
 
---===============8224850229785206661==
+--===============4372235773609973645==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.4
-    old: e32acf7b00ba0893532d44f3dba34bb1efeafeb3
-    new: 446967a46db5a740293d00faf550886dcfde5eab
-    log: revlist-e32acf7b00ba-446967a46db5.txt
+  - ref: refs/heads/for-next
+    old: fb829b6dd819feaed4dac1f9e0c15f7630cd17d7
+    new: c9435e9a4174f69fbb4f8d00f2b4351c91919015
+    log: revlist-fb829b6dd819-c9435e9a4174.txt
 
---===============8224850229785206661==
+--===============4372235773609973645==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1679337057 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1679337057-cd95f87c92fdf43fc980c108608afdcdeaf43dee
-
-e32acf7b00ba0893532d44f3dba34bb1efeafeb3 446967a46db5a740293d00faf550886dcfde5eab refs/heads/asoc-6.4
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmQYpmEACgkQJNaLcl1U
-h9DwoAf/Vi+vDGPWf/K/cqPhPj5JgAOGIU3lSN6GlGdToMVbKgK7d4FhMkTBsVjY
-IXgJV0Z7VhPpqVj4OLbvycsyL3zWmdinwiImEflPrJJOvw5wfEw55dDArU5zL6Hu
-fFo1aiAepoHrei/68aJKCFRAnfWV28pbvFSJrQTpcKi+Wb7Fa52QvSAWV0Y1uFS/
-f9xsmTFRvfYfFrRvA0DLCfj/uFpWf+PZ2NP09I/CoDH29Cb3udJGDgezg9XDus/Y
-IW5dnNTWyT5wMlUGQhqjz5jy2SxOMvsl5pdMxGaDVv5GYMpzuZiE5HMBmO+hsstx
-/3AN03Q8GV1hNsR+vJfx4mfxQPNZwg==
-=sfWg
------END PGP SIGNATURE-----
-
---===============8224850229785206661==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e32acf7b00ba-446967a46db5.txt
+Content-Disposition: attachment; filename=revlist-fb829b6dd819-c9435e9a4174.txt
 
 eb0b8481c2e03a5ae01f6bea60b42109bd12b6fe ASoC: tegra: Support coupled mic-hp detection
 44b2fc2edb61e956885b4305bddaaec7f05d93d2 ASoC: tegra: Support RT5631 by machine driver
@@ -68,5 +43,6 @@ d9e909e219a843c6bf49f9affe536660f830d6fc ASoC: dt-bindings: Drop unneeded quotes
 9934844f6b49fb9964f878f12912abe689eaed5d ASoC: fsl: Specify driver name in ASoC card
 be7a2dad942369c4b872e26de0b438346453c69c Fix sound on ASUS Transformers
 446967a46db5a740293d00faf550886dcfde5eab Enable I2S support for RK3588/RK3588S SoCs
+c9435e9a4174f69fbb4f8d00f2b4351c91919015 Merge remote-tracking branch 'asoc/for-6.4' into asoc-next
 
---===============8224850229785206661==--
+--===============4372235773609973645==--
