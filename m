@@ -1,26 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Mon, 20 Mar 2023 07:50:57 -0000
-Message-Id: <167929865710.3456.13121092944794173275@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Mon, 20 Mar 2023 07:52:10 -0000
+Message-Id: <167929873060.3907.11454684681587442975@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: leon
 changes:
-  - ref: refs/heads/for-next
-    old: 6aa9b1d071bf62e7489601f57a13da55b1a96add
-    new: b1e675d1b57eb991a5e194e8648477a98f612617
+  - ref: refs/heads/wip/leon-for-rc
+    old: e4522c097ec10f23ea0933e9e69d4fa9d8ae9441
+    new: 88c9483faf15ada14eca82714114656893063458
     log: |
-         b1e675d1b57eb991a5e194e8648477a98f612617 ALSA: ac97: Remove redundant driver match function
-         
-  - ref: refs/heads/master
-    old: da548864ff3f55b0e94e8de39d9abcfb7b21cc3a
-    new: 881711e05d2c6e52a1af51d0404465e86e6ffe42
-    log: |
-         b1e675d1b57eb991a5e194e8648477a98f612617 ALSA: ac97: Remove redundant driver match function
-         881711e05d2c6e52a1af51d0404465e86e6ffe42 Merge branch 'for-next'
+         88c9483faf15ada14eca82714114656893063458 IB/mlx5: Add support for 400G_8X lane speed
          
