@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2074658001131677002=="
+Content-Type: multipart/mixed; boundary="===============8713464277010253785=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Mon, 20 Mar 2023 14:30:05 -0000
-Message-Id: <167932260558.6246.16995106645403908049@gitolite.kernel.org>
+Date: Mon, 20 Mar 2023 14:30:07 -0000
+Message-Id: <167932260718.6323.15200990822522843487@gitolite.kernel.org>
 
---===============2074658001131677002==
+--===============8713464277010253785==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,77 +16,83 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.14.y
-    old: 04363512e510c11598b6d27511285e6779820df5
-    new: 0eeee799f7c656b5ff9024a7502785ed8c1c6179
-    log: revlist-04363512e510-0eeee799f7c6.txt
+  - ref: refs/heads/linux-4.19.y
+    old: 7e0df88a369006df976f46481292a07f3f68e54b
+    new: fbac71e29cf0d340ad7bcb51bf6bed07299f19e3
+    log: revlist-7e0df88a3690-fbac71e29cf0.txt
 
---===============2074658001131677002==
+--===============8713464277010253785==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1679322603 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1679322605 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1679322601-0816f62d1bc67c97de54fc2ebfd1b0e46bce01d8
+nonce 1679322603-96ebe4f1ffaf923f1a97ffa5901645661eef3d87
 
-04363512e510c11598b6d27511285e6779820df5 0eeee799f7c656b5ff9024a7502785ed8c1c6179 refs/heads/linux-4.14.y
+7e0df88a369006df976f46481292a07f3f68e54b fbac71e29cf0d340ad7bcb51bf6bed07299f19e3 refs/heads/linux-4.19.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQYbesbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+c6cQAMKpTRNxpC/TsBhajQi7
-t3jV3qZf7K/rHJGTic5egfwcNx+JvCiuXutJFHKnloaUVIWqiuJBPgNfmAl417Nd
-ik9OHYPBvo6I5ehee/3kzAqvxs6FuRqCnlvaV+iWNBzcYgbFl4opP/sO3bNlHyWd
-yx6cYxIzB6CZJ0oxO1SjoABRRB+hc8xH320oGSjuIHEY/YPz5FE7cPcmjgNuzkCO
-fClWhU536/9pxeAGj9s0BJjzEKboSu9m+9Gbmeodk7jNSa/37QY0s3rhAF+Ie3iR
-jTfQz/CmR5ztWHkBmczUDU1XkquIQZssy9/9OvdNFmEdmF/72nINPIk09IqGWPC0
-80jZTPSIh+HExP9HtIzja/EwzV+TVUq6fLL9L1KePXpdQb5yphlwn37eo8DUijQc
-+76f2a1q7pGQ3w520rSoJ0nnao3xGEXOSyhPoU+BwguwwZjeg8ffQnNx7AqjyHrB
-7OJ2zwx90BSrEgAmJNw0OKTkp1D3bQ0vcSOAUcR6h8av90N5PnfhnOPj0L2F5CuO
-Xot7tnyFMXDOBiwibxUzM7vwTIVLxGZW0ru0Bxh5Cp510qrgLSRKUxahqYRmdkNl
-yl0uC2OJOVQvzjX9k5GjZNR/Y5Bn2SQUMdtVlQGVLYnqlUKr83j91UxixJolNFxY
-yN38SUxVU19Q0tkSbdutrloa
-=pn9W
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQYbe0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+L84P/3gf0IB59c+CzPyQNbdq
+/srFoAXIJdxQSc0X3+/RBlJmeoGnjbti/m0I6qpPK7juSly1aQRPi3uHWMAUl5Jx
+FZzi2qLrUPip+uRme2XFdxsLP1a2YznBpzzotomSFHFTeCJbeGUOSKGH6L0tIQXm
+srv4j9GJapulOqrDfr7wQyB/awLdO/cIrJC4P5GLCdy6tWiFCCN6E+DJRswm2lya
+79MDQlLQBwkA364/gwZDOSZ/YRnIVWB/UIMyPYu5pbXcpg0P61FlNVbnZOs4Uzhv
+rilSrk9ylAqCML08CVj6vdruKgF/6IbalGdnzbtzbnR/y5+mX9fwwEd4KH5PjZRZ
+4Znk289ULeZhpflkV4wjWbWO+IE58vO9CX4tnGAMjk+2sXDVtfIiRJ5++gWWeUIK
+C6qT6uzkObKa3P3XV34YuD82SPFUXcN8Nv5f5CI9OqwlqLXHUyWuBjVEFoIzYccE
+jws4K53AT7zNzDS+wlcWOrU36whFYiKyLrU/YqIuXYHtlD5Bs9v0qyvmRrnDcxwf
+Ukcah11v8ttZRSk5RY2reg5kkgm2K/tQ4iUrOVWGFQTel4iVDAOtHMjlHwZLSohv
+jmtmcQtHpZJTjDxkj0cISfAoOeFtmtYJFv8L7l/vNQ/h2RMlOOrwsum94R6O5gPZ
+fIX3gCPcoDpstLxeDxxv2sm8
+=RoUC
 -----END PGP SIGNATURE-----
 
---===============2074658001131677002==
+--===============8713464277010253785==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-04363512e510-0eeee799f7c6.txt
+Content-Disposition: attachment; filename=revlist-7e0df88a3690-fbac71e29cf0.txt
 
-0e5d3150f37bb277e8d044c2d6aa8377cb309450 ext4: fix cgroup writeback accounting with fs-layer encryption
-fc90dfc5fecfa214485ab40f833ccb4e7e0f1556 fs: sysfs_emit_at: Remove PAGE_SIZE alignment check
-319a2d5c658bd07ee4a4dd24f8ff42ec4fd6d56e tcp: tcp_make_synack() can be called from process context
-1cab859cdb26a1140607f122898113737fa63b82 nfc: pn533: initialize struct pn533_out_arg properly
-d91eb83a3f8b3644eaad0f47dc7979da46183e4b qed/qed_dev: guard against a possible division by zero
-538585a9ed70d4d6444658132b91dd2a2d9a0ba4 net: tunnels: annotate lockless accesses to dev->needed_headroom
-28402104f8b6bb04b05fba8eec095100ef1f3f4f net: phy: smsc: bail out in lan87xx_read_status if genphy_read_status fails
-9d89481fb5027ceb5a2d16e823ef2ace42379500 nfc: st-nci: Fix use after free bug in ndlc_remove due to race condition
-4314f4be78b4731da590ecb8dd2cd0f572a7a15d net: usb: smsc75xx: Limit packet length to skb->len
-6b9adcd2a2d4d9dda7a833a25ac38bc5935afc93 nvmet: avoid potential UAF in nvmet_req_complete()
-5d5e0a0e073737b0d28fbfaa24c989805fa08fea block: sunvdc: add check for mdesc_grab() returning NULL
-e0cb1b35f4e9d55ec458fe47f4bab92913724d6e ipv4: Fix incorrect table ID in IOCTL path
-a6185a39f6d0ac3edbd543806ccee3e3fa7cb259 net: usb: smsc75xx: Move packet length check to prevent kernel panic in skb_pull
-8eab840f07a45114f11f404f6061696b8da78da4 net/iucv: Fix size of interrupt data
-f4b14e96fa1f8fe395805e776f9932a95ae69574 ethernet: sun: add check for the mdesc_grab()
-7c19c554767ba9b3d901fd065269ee0bca394872 hwmon: (adt7475) Display smoothing attributes in correct order
-254ab85966a1bc80f15b6b945563e1cd734f8e5a hwmon: (adt7475) Fix masking of hysteresis registers
-b651ffc07372c4f56aeaa8e387125489087f1526 hwmon: (xgene) Fix use after free bug in xgene_hwmon_remove due to race condition
-893b18c56a5f85acdc53c97edfc592f94a8ad11a media: m5mols: fix off-by-one loop termination error
-f85040193095ec6176c6f887dfc111141379291c mmc: atmel-mci: fix race between stop command and start of next command
-7a5adc88bcad1b10d65f678de89f8255571fa8bb rust: arch/um: Disable FP/SIMD instruction to match x86
-75c0b021b110f2c63b7bd8b90c54b86041149327 ext4: fail ext4_iget if special inode unallocated
-74639f7e7a057409b85029abcaf469e646bf22d7 ext4: fix task hung in ext4_xattr_delete_inode
-af5b47f35d8fef784cfe7fa880b7422115e6d011 sh: intc: Avoid spurious sizeof-pointer-div warning
-b50a5a7125a92d093c493680a6305cd24e85ab77 ftrace: Fix invalid address access in lookup_rec() when index is 0
-b1ccde85f140bb61a9cd1d61a5e4c869c0ab0a7f fbdev: stifb: Provide valid pixelclock and add fb_check_var() checks
-ff23972d9908232b5094eff3a144d89fbeb73f91 drm/i915: Don't use stolen memory for ring buffers with LLC
-962201c172c302e0efb15ffbf5c254b8ed699c11 serial: 8250_em: Fix UART port type
-720c18d2e0bc17e1512b7d1ac86bd0dd3d0b122d HID: core: Provide new max_buffer_size attribute to over-ride the default
-445b83babad3ac4a5c8e33b67db2f423c5c2caef HID: uhid: Over-ride the default maximum data buffer value with our own
-0eeee799f7c656b5ff9024a7502785ed8c1c6179 Linux 4.14.311-rc1
+225b8ca3da3299a8d63a7b7715638180fcaac845 ext4: fix cgroup writeback accounting with fs-layer encryption
+45a151b526653d333ea10dd23d26c3bbe4fb1bb0 fs: sysfs_emit_at: Remove PAGE_SIZE alignment check
+560ee52d30c15d37bf77051fb4457c17ec893b6b clk: HI655X: select REGMAP instead of depending on it
+84ac8d51b9ba3eeecb61f4b988bdc5119cce1df1 tcp: tcp_make_synack() can be called from process context
+58325db655275465a6477b2842f297c065b16986 nfc: pn533: initialize struct pn533_out_arg properly
+9d2ac8c5c9e94dccef280fc15ce20f06f1c4375e qed/qed_dev: guard against a possible division by zero
+8a246b92f43e3f9a69d210af1a530f4868f81b70 net: tunnels: annotate lockless accesses to dev->needed_headroom
+1ec43127125ef51cb0c109f7d77cdce3edc77c0e net: phy: smsc: bail out in lan87xx_read_status if genphy_read_status fails
+c752136f8f7da0893010697c65f69c040285bb87 nfc: st-nci: Fix use after free bug in ndlc_remove due to race condition
+0fe01eadd4d8d89914b1840547ae95e585e42c9b net: usb: smsc75xx: Limit packet length to skb->len
+476c596789203af945f0e6fb703a8b3fe4d9ca79 nvmet: avoid potential UAF in nvmet_req_complete()
+b8235fdbb6cc796f89104751a88685b7a660a52e block: sunvdc: add check for mdesc_grab() returning NULL
+f75f88d5e5dc2982dc157e534a35e62b8af976c6 ipv4: Fix incorrect table ID in IOCTL path
+9c659e42edecc4c79ebaacdc672802ce6e8439af net: usb: smsc75xx: Move packet length check to prevent kernel panic in skb_pull
+dcb5b2b7d0086051c33f5004b1b638ec0fece75c net/iucv: Fix size of interrupt data
+50e536e2add2182782b382999dc9742e559ab5ac ethernet: sun: add check for the mdesc_grab()
+0701701f82a01e3ca8214ddcf99c5e86769f7cdd hwmon: (adt7475) Display smoothing attributes in correct order
+0706fc1c30afb6c4e713422e99cbc512cbd422dd hwmon: (adt7475) Fix masking of hysteresis registers
+295b81961879a0f80445c002f77f39d484328a8e hwmon: (xgene) Fix use after free bug in xgene_hwmon_remove due to race condition
+6f06568fb0aee8edd4cf245fc6b8bae488e3d157 media: m5mols: fix off-by-one loop termination error
+47217bb1ad20a3cd1b5ece6dbd9f27ea6e361e1a mmc: atmel-mci: fix race between stop command and start of next command
+c127a7d4743c76fb559ce881609f260a1197617f jffs2: correct logic when creating a hole in jffs2_write_begin
+e91eb87eb99bc1be2e521dac7ca38239aa55fa59 rust: arch/um: Disable FP/SIMD instruction to match x86
+ee7f8caf623c925e3a4ed9d6ea300936304b9ceb ext4: fail ext4_iget if special inode unallocated
+9e9443c6f316bf983a11aeff480448b3492447d8 ext4: fix task hung in ext4_xattr_delete_inode
+7e2ca2c324378c361d131a52edceb709135b31e0 drm/amdkfd: Fix an illegal memory access
+92b5d5b02abbd06e15966e5dc898a7efb1ccd05b sh: intc: Avoid spurious sizeof-pointer-div warning
+88eed94085120e87e1e20a933c3fb43063fa3b96 tracing: Check field value in hist_field_name()
+933e04d160370b771e6893aad8af7a2f3ae6b47b tracing: Make tracepoint lockdep check actually test something
+44ad67cb792c7a599324abaa6f15d123791226a8 ftrace: Fix invalid address access in lookup_rec() when index is 0
+85f7e3650e7c4db11daf5c141b41b65f12fdbec8 fbdev: stifb: Provide valid pixelclock and add fb_check_var() checks
+075ce2fe598099493ba9ee8908216e21566d8bb8 x86/mm: Fix use of uninitialized buffer in sme_enable()
+9c7d5ab3335759240b802ff4793967215af047f2 drm/i915: Don't use stolen memory for ring buffers with LLC
+ac4b915a4486d02600f6cb36e21478e6edb8b6eb serial: 8250_em: Fix UART port type
+93dc492398e3a7cf9d0d6477ff9fddb9cd35c18b HID: core: Provide new max_buffer_size attribute to over-ride the default
+a2e89c0a9b0af4c6d2a52f7fd1e3e0a28dc9281d HID: uhid: Over-ride the default maximum data buffer value with our own
+fbac71e29cf0d340ad7bcb51bf6bed07299f19e3 Linux 4.19.279-rc1
 
---===============2074658001131677002==--
+--===============8713464277010253785==--
