@@ -1,29 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Mon, 20 Mar 2023 20:01:41 -0000
-Message-Id: <167934250145.9816.12808452526777832361@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Mon, 20 Mar 2023 20:35:56 -0000
+Message-Id: <167934455616.32512.9248441034760540694@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/robh/linux
-user: robh
+repo: pub/scm/linux/kernel/git/acme/linux
+user: acme
 changes:
-  - ref: refs/heads/dt/next
-    old: 0415d5a010d5273afc8b069eedb68cb1250e1b4b
-    new: c9c9d764daeeb264c647b0c6a3d2f602a7deb586
+  - ref: refs/heads/tmp.perf-tools-next
+    old: 96d541699e5c50b1bc2d50c83cd7145994d5f071
+    new: ec9640f77d199c4ed78d7a00fbbaf78773c38d9d
     log: |
-         5cdade2d77dd41a2ed98967c3887f5d66a4d23c4 of: unittest: Drop call to platform_set_drvdata(..., NULL)
-         13cd9ac670df5e052d3a31ae21bb1787202870dd of: unittest: Drop if blocks with always false condition
-         c9c9d764daeeb264c647b0c6a3d2f602a7deb586 of: unittest: Convert to platform remove callback returning void
-         
-  - ref: refs/heads/for-next
-    old: 0415d5a010d5273afc8b069eedb68cb1250e1b4b
-    new: c9c9d764daeeb264c647b0c6a3d2f602a7deb586
-    log: |
-         5cdade2d77dd41a2ed98967c3887f5d66a4d23c4 of: unittest: Drop call to platform_set_drvdata(..., NULL)
-         13cd9ac670df5e052d3a31ae21bb1787202870dd of: unittest: Drop if blocks with always false condition
-         c9c9d764daeeb264c647b0c6a3d2f602a7deb586 of: unittest: Convert to platform remove callback returning void
+         c9602aa0469e19a84f9552a146ef87ec5dc7d576 perf symbol: Avoid memory leak from abi::__cxa_demangle
+         39b5e434fb3f06fae44c8a2df87eca036f9f9b5c perf bpf_counter: Use public cpumap accessors
+         9bb5e1f682d8391b7e9918b12d22af9492b74dad perf tests: Add common error route for code-reading
+         82c6d83bc1779cc306f78083fc79dc7ec7d9b18d perf test: Fix memory leak in symbols
+         ec9640f77d199c4ed78d7a00fbbaf78773c38d9d perf symbol: Sort names under write lock
          
