@@ -1,22 +1,17 @@
-Content-Type: multipart/mixed; boundary="===============5114238221922821556=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Mon, 20 Mar 2023 19:01:18 -0000
-Message-Id: <167933887867.1299.5284132808396078035@gitolite.kernel.org>
-
---===============5114238221922821556==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Mon, 20 Mar 2023 19:01:34 -0000
+Message-Id: <167933889431.1548.800590874381189306@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/regulator
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/regulator-6.4
+  - ref: refs/heads/for-next
     old: cff5c895137cb5c3d48811881f111b17c444e2d5
     new: 02ce28bc083e8196db8612adf08c1288fb198d76
     log: |
@@ -29,29 +24,3 @@ changes:
          bdce47bb19cbf7784d48e93677c868a69dbae439 regulator: Set PROBE_PREFER_ASYNCHRONOUS for drivers that are newer than 6.1
          02ce28bc083e8196db8612adf08c1288fb198d76 regulator: Set PROBE_PREFER_ASYNCHRONOUS for
          
-
---===============5114238221922821556==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1679338876 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1679338875-e8c76f793b5da6904a8b9f78105db1111ad9e7a1
-
-cff5c895137cb5c3d48811881f111b17c444e2d5 02ce28bc083e8196db8612adf08c1288fb198d76 refs/heads/regulator-6.4
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmQYrXwACgkQJNaLcl1U
-h9BukAf/dBn9pTpShiPWhb07mweyWlzgPOlTZdE19Vu/aobalWlzW82XR86KPjCr
-Fw58Ok4Yzsi5/E+Zv/WwFn34MUxHKTiVVoojKGLpCjZhbz6WJSMKPUDaPnxDJm03
-wDftCPwtdNUTHHVLySemxiS4MrGsaiZG9mPq8cDAmY17zF1DXQzSsxlg00vOpQ0U
-cogoJDeibFjScdTCVba1jOfaHF4Xk6Uq5kGdKryQX3ngCNeWnuDKfYcDhcE/0k9M
-Wmysk0LLx696jEU0U8rFhGZgAP37v9WBnCuPmS9yJXVrzrR9gE1E+U1m+oZyhRtL
-1807JzXQoleRp4nTfbS2YcVWXuqKow==
-=mqH1
------END PGP SIGNATURE-----
-
---===============5114238221922821556==--
