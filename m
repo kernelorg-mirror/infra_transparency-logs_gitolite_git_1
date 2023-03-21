@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Tue, 21 Mar 2023 15:24:43 -0000
-Message-Id: <167941228339.32620.16531840035209569259@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vfs/idmapping
+Date: Tue, 21 Mar 2023 15:25:33 -0000
+Message-Id: <167941233385.2133.9960943638239628440@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/net-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/vfs/idmapping
+user: brauner
 changes:
-  - ref: refs/heads/master
-    old: f36fa5581bcace4e1054347c46ca67f2664fba33
-    new: f038f3917baf04835ba2b7bcf2a04ac93fbf8a9c
+  - ref: refs/heads/vfs.open.directory.creat
+    old: f73504a3457616c5aaf8f0d9040cb16057eed765
+    new: 3f318666a741e2811e9813aa904c0de5682423dd
     log: |
-         f038f3917baf04835ba2b7bcf2a04ac93fbf8a9c octeontx2-vf: Add missing free for alloc_percpu
+         3f318666a741e2811e9813aa904c0de5682423dd open: return EINVAL for O_DIRECTORY | O_CREAT
          
