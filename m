@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jpoimboe/linux
-Date: Tue, 21 Mar 2023 00:06:31 -0000
-Message-Id: <167935719135.13035.3569299185208153242@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gerg/m68knommu
+Date: Tue, 21 Mar 2023 00:08:15 -0000
+Message-Id: <167935729509.13682.3170865015331525611@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jpoimboe/linux
-user: jpoimboe
+repo: pub/scm/linux/kernel/git/gerg/m68knommu
+user: gerg
 changes:
-  - ref: refs/heads/static-call-null-4
-    old: f21612e541bd5f67253977f2b662a4b7c924b2b0
-    new: b16845ccaeaedbd22fa17eda3037baf1fa7bbe4c
+  - ref: refs/heads/for-next
+    old: dbb93ae1a8acd92fb2e1d54d45a329c4ec8990d9
+    new: 8fc6ba5f96bcbd75b14e128c8fb460672a0771de
     log: |
-         b16845ccaeaedbd22fa17eda3037baf1fa7bbe4c static_call,arm64: Fix CFI_CLANG + !HAVE_STATIC_CALL incompatibility
+         8fc6ba5f96bcbd75b14e128c8fb460672a0771de m68k: Kconfig.machine: remove obsolete configs ROMBASE and ROMSIZE
          
