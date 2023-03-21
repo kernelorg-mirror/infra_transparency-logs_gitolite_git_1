@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/zx2c4/wireguard-linux
-Date: Tue, 21 Mar 2023 15:55:20 -0000
-Message-Id: <167941412030.22614.12358881795383032488@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vfs/idmapping
+Date: Tue, 21 Mar 2023 16:00:36 -0000
+Message-Id: <167941443615.25908.4069251656506544258@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/zx2c4/wireguard-linux
-user: zx2c4
+repo: pub/scm/linux/kernel/git/vfs/idmapping
+user: brauner
 changes:
-  - ref: refs/heads/stable
-    old: 7d0b9ab9ac20b727f9c59b241a49ed5338754ae1
-    new: 5802a7ccfc10774eb6514097d86fd469d009267d
+  - ref: refs/tags/vfs.open.directory.creat.v6.3
+    old: 6284982a143a76e74cd62541dfdce57a9e846a10
+    new: 4a593cf4c02a810b7503187e4dc5baddf45572f0
     log: |
-         5802a7ccfc10774eb6514097d86fd469d009267d wireguard: selftests: enable ISA extensions for risc-v
+         6bc6e6a4c9ed0dcbe0c85cbbaca90953e27889e5 open: return EINVAL for O_DIRECTORY | O_CREAT
          
