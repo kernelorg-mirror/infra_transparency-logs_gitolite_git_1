@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============6582041338875434079=="
+Content-Type: multipart/mixed; boundary="===============0442666218903753132=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux
-Date: Tue, 21 Mar 2023 09:12:48 -0000
-Message-Id: <167938996870.26134.5526833811490190129@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
+Date: Tue, 21 Mar 2023 09:12:55 -0000
+Message-Id: <167938997566.26266.17965277950074181501@gitolite.kernel.org>
 
---===============6582041338875434079==
+--===============0442666218903753132==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux
+repo: pub/scm/linux/kernel/git/amlogic/linux
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -26,7 +26,7 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: b04d78201ce644e5182e95f1d0bd131b35ec8816
 
---===============6582041338875434079==
+--===============0442666218903753132==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -693,4 +693,4 @@ e8d018dd0257f744ca50a729e3d042cf2ec9da65 Linux 6.3-rc3
 4f1e308df88ad25c88ab4240161cbac45ba2d78e Merge tag 'fscrypt-for-linus' of git://git.kernel.org/pub/scm/fs/fscrypt/linux
 17214b70a159c6547df9ae204a6275d983146f6b Merge tag 'fsverity-for-linus' of git://git.kernel.org/pub/scm/fs/fsverity/linux
 
---===============6582041338875434079==--
+--===============0442666218903753132==--
