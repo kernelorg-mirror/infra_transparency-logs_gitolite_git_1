@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8374142039770213797=="
+Content-Type: multipart/mixed; boundary="===============2342301867859522186=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 21 Mar 2023 15:53:23 -0000
-Message-Id: <167941400319.20138.679320061577731305@gitolite.kernel.org>
+Date: Tue, 21 Mar 2023 15:54:20 -0000
+Message-Id: <167941406015.20532.15897806104088231539@gitolite.kernel.org>
 
---===============8374142039770213797==
+--===============2342301867859522186==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/main
     old: 56aecc0a655d997342ca85a3dd1f59715f2b3349
     new: c8384d4a51e7cb0e6587f3143f29099f202c5de1
     log: revlist-56aecc0a655d-c8384d4a51e7.txt
 
---===============8374142039770213797==
+--===============2342301867859522186==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -43,4 +43,4 @@ ce3bf94871f7aeb0167370206699872472f30220 net: dsa: b53: add support for BCM63xx 
 251d5a2813f96a2f8d566575a9b97a42b32669f9 net: geneve: accept every ethertype
 c8384d4a51e7cb0e6587f3143f29099f202c5de1 net: pasemi: Fix return type of pasemi_mac_start_tx()
 
---===============8374142039770213797==--
+--===============2342301867859522186==--
