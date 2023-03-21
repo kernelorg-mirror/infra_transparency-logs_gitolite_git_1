@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vfs/idmapping
-Date: Tue, 21 Mar 2023 16:00:36 -0000
-Message-Id: <167941443615.25908.4069251656506544258@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/zx2c4/wireguard-linux
+Date: Tue, 21 Mar 2023 16:00:40 -0000
+Message-Id: <167941444009.26012.8205782001621930403@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vfs/idmapping
-user: brauner
+repo: pub/scm/linux/kernel/git/zx2c4/wireguard-linux
+user: zx2c4
 changes:
-  - ref: refs/tags/vfs.open.directory.creat.v6.3
-    old: 6284982a143a76e74cd62541dfdce57a9e846a10
-    new: 4a593cf4c02a810b7503187e4dc5baddf45572f0
+  - ref: refs/heads/stable
+    old: 5802a7ccfc10774eb6514097d86fd469d009267d
+    new: bb8953e0e3df3519c7e9dccb5e42e66787c1e243
     log: |
-         6bc6e6a4c9ed0dcbe0c85cbbaca90953e27889e5 open: return EINVAL for O_DIRECTORY | O_CREAT
+         bb8953e0e3df3519c7e9dccb5e42e66787c1e243 wireguard: selftests: enable ISA extensions for risc-v
          
