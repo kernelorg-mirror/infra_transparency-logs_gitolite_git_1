@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andy/linux-gpio-intel
-Date: Tue, 21 Mar 2023 14:19:57 -0000
-Message-Id: <167940839765.21150.14645719493159880604@gitolite.kernel.org>
+Date: Tue, 21 Mar 2023 14:20:05 -0000
+Message-Id: <167940840504.22752.18432415468323505324@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,7 +11,7 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andy/linux-gpio-intel
 user: andy
 changes:
-  - ref: refs/heads/for-next
+  - ref: refs/heads/review-andy
     old: 0928069402ec683f3dd2b0ddd8b22aa7e6655490
     new: d884ae2571afb7ab6363a2292279132d3340b530
     log: |
