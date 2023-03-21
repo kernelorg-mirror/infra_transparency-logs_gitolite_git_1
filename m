@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Tue, 21 Mar 2023 12:46:52 -0000
-Message-Id: <167940281210.23719.17596009275883051595@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 21 Mar 2023 12:51:17 -0000
+Message-Id: <167940307710.27039.11732958751791459826@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: pabeni
 changes:
-  - ref: refs/heads/20230321_peter_ujfalusi_asoc_sof_ipc4_intel_support_for_chaindma
-    old: 0000000000000000000000000000000000000000
-    new: ca5ce0caa67fa9eeecaa29d895c2e4c3151c159e
-  - ref: refs/heads/fileOjzkwe
-    old: 0000000000000000000000000000000000000000
-    new: 6c07be8fe92c6b0c24ee1c599601dce3506b83c7
-  - ref: refs/heads/v3_20230320_rf_asoc_initial_support_for_cirrus_logic_cs35l56
-    old: 0000000000000000000000000000000000000000
-    new: e496112529006ce0c2cfe67d1136186e2786d2e8
+  - ref: refs/heads/main
+    old: 251d5a2813f96a2f8d566575a9b97a42b32669f9
+    new: c8384d4a51e7cb0e6587f3143f29099f202c5de1
+    log: |
+         c8384d4a51e7cb0e6587f3143f29099f202c5de1 net: pasemi: Fix return type of pasemi_mac_start_tx()
+         
