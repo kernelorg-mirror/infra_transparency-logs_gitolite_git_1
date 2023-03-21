@@ -1,23 +1,36 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Tue, 21 Mar 2023 14:25:48 -0000
-Message-Id: <167940874843.26132.16097206283969056377@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Tue, 21 Mar 2023 14:35:32 -0000
+Message-Id: <167940933208.32305.5676663995728076560@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
-user: acme
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/heads/tmp.perf-tools-next
-    old: 605704391a761c808c469c0486ada63c3ec78fa8
-    new: 204e7c499f5fa7732144ef9765c195982be72f31
+  - ref: refs/heads/bleeding-edge
+    old: 226ec3112c6fa4db1188828f76319f7eb6eb85ee
+    new: d2b39ea7edac4664cfb878e6b472df0e0f4596cc
     log: |
-         f1e8f25980968f7c18f1eb977bd1d5fd716325a5 perf kvm: Reference count 'struct kvm_info'
-         51b02a964728115761acc5baa5e67c8d0a9bc222 perf kvm: Delete histograms entries before exiting
-         636203670716c2a8d76791d6b8f4c4cd76e8c701 perf jevents: Sort list of input files
-         7effbd18e496a954540fb6319db0d87d28a70496 perf vendor events arm64: Add N1 metrics
-         204e7c499f5fa7732144ef9765c195982be72f31 perf tools: Add support for perf_event_attr::config3
+         8e95155f8f299d6c2941c7bfa133ae8d0242870e Merge branches 'acpi-video' and 'acpi-resource' into linux-next
+         d2b39ea7edac4664cfb878e6b472df0e0f4596cc Merge branches 'acpi-processor', 'acpi-utils', 'acpi-apei', 'acpi-pm' and 'acpi-docs' into bleeding-edge
+         
+  - ref: refs/heads/linux-next
+    old: 51555d0c77b35f23311fe0c81bad3a8083478a96
+    new: 8e95155f8f299d6c2941c7bfa133ae8d0242870e
+    log: |
+         bb796d5112d21c875ed9293bc35f7536ffe6b293 ACPI: resource: Add Medion S17413 to IRQ override quirk
+         5e7a3bf65db57461d0f47955248fcadf37321a74 ACPI: video: Add backlight=native DMI quirk for Acer Aspire 3830TG
+         8e95155f8f299d6c2941c7bfa133ae8d0242870e Merge branches 'acpi-video' and 'acpi-resource' into linux-next
+         
+  - ref: refs/heads/testing
+    old: 51555d0c77b35f23311fe0c81bad3a8083478a96
+    new: 8e95155f8f299d6c2941c7bfa133ae8d0242870e
+    log: |
+         bb796d5112d21c875ed9293bc35f7536ffe6b293 ACPI: resource: Add Medion S17413 to IRQ override quirk
+         5e7a3bf65db57461d0f47955248fcadf37321a74 ACPI: video: Add backlight=native DMI quirk for Acer Aspire 3830TG
+         8e95155f8f299d6c2941c7bfa133ae8d0242870e Merge branches 'acpi-video' and 'acpi-resource' into linux-next
          
