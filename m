@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============3140667980242770891=="
+Content-Type: multipart/mixed; boundary="===============3000506252775273351=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mark/linux
-Date: Tue, 21 Mar 2023 14:18:05 -0000
-Message-Id: <167940828595.20384.10501340322740734303@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Tue, 21 Mar 2023 14:18:20 -0000
+Message-Id: <167940830083.20537.1344286177838686735@gitolite.kernel.org>
 
---===============3140667980242770891==
+--===============3000506252775273351==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mark/linux
-user: mark
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/arm64/fixmap/cleanup
-    old: 279a2d1c4e8503f457d64c5de93a6f951ef91c15
-    new: fcd13b4affdf2ed9d27efcf97edb97ad3a708bfc
-    log: revlist-279a2d1c4e85-fcd13b4affdf.txt
+  - ref: refs/heads/kvm-arm64-fgt
+    old: d81d40aa26186082c617c56ac3864e673230f48c
+    new: 8a96ba9535c81cdd8eaf7630e4c45affd511b9e6
+    log: revlist-d81d40aa2618-8a96ba9535c8.txt
 
---===============3140667980242770891==
+--===============3000506252775273351==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-279a2d1c4e85-fcd13b4affdf.txt
+Content-Disposition: attachment; filename=revlist-d81d40aa2618-8a96ba9535c8.txt
 
 8222d5910dae08213b6d9d4bc9a7f8502855e624 xfrm: Zero padding when dumping algos and encap
 7245e629dcaaf308f1868aeffa218e9849c77893 drm/cirrus: NULL-check pipe->plane.state->fb in cirrus_pipe_update()
@@ -780,7 +780,8 @@ a98151ad53b53f010ee364ec2fd06445b328578b ring-buffer: remove obsolete comment fo
 71c7a30442b724717a30d5e7d1662ba4904eb3d4 tracing/hwlat: Replace sched_setaffinity with set_cpus_allowed_ptr
 eaba52d63bfcf0047ce3a1bb011b35d4f066df8e Merge tag 'trace-v6.3-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 e8d018dd0257f744ca50a729e3d042cf2ec9da65 Linux 6.3-rc3
-c8b639d4c72d33cd15c5a9d97fbc9eee29edb874 arm64: mm: move fixmap code to its own file
-fcd13b4affdf2ed9d27efcf97edb97ad3a708bfc arm64: mm: always map fixmap at page granularity
+cc7221de01923aafee4f0b549d2ef6c5e1b88bd7 KVM: arm64: Support for per-guest fine grained traps configuration
+6e4324801cf36e467e7a3528b1d0d2efb02dd8f8 arm64: Add feature detection for fine grained traps
+8a96ba9535c81cdd8eaf7630e4c45affd511b9e6 KVM: arm64: Move FGT value configuration to vCPU state
 
---===============3140667980242770891==--
+--===============3000506252775273351==--
