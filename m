@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Tue, 21 Mar 2023 19:33:40 -0000
-Message-Id: <167942722038.9053.2629465451780625440@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
+Date: Tue, 21 Mar 2023 19:44:23 -0000
+Message-Id: <167942786338.15340.15414860455133723183@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/bpf/bpf
+user: ast
 changes:
   - ref: refs/heads/master
-    old: dcfd7da235ca426852176df77159c8c107c7135c
-    new: ff2d5cc7c4a6330a50987c60097b76ed08ce702f
+    old: c7df4813b149362248d6ef7be41a311e27bf75fe
+    new: 10ec8ca8ec1a2f04c4ed90897225231c58c124a7
     log: |
-         ff2d5cc7c4a6330a50987c60097b76ed08ce702f Tue Mar 21 07:32:41 PM UTC 2023
+         10ec8ca8ec1a2f04c4ed90897225231c58c124a7 bpf: Adjust insufficient default bpf_jit_limit
          
