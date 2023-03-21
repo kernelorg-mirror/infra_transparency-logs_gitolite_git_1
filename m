@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 21 Mar 2023 12:23:57 -0000
-Message-Id: <167940143708.6518.12099146142946121475@gitolite.kernel.org>
+Date: Tue, 21 Mar 2023 12:27:47 -0000
+Message-Id: <167940166782.9253.17095000340740261459@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: pabeni
 changes:
   - ref: refs/heads/main
-    old: a4926c2943dd17f84b552ba6fb754df0dc6a2fa8
-    new: 9ef70d0130f282638b28cfce24222f71ada00c9c
+    old: 9ef70d0130f282638b28cfce24222f71ada00c9c
+    new: ce3bf94871f7aeb0167370206699872472f30220
     log: |
-         9ef70d0130f282638b28cfce24222f71ada00c9c net: dsa: qca8k: remove assignment of an_enabled in pcs_get_state()
+         ce3bf94871f7aeb0167370206699872472f30220 net: dsa: b53: add support for BCM63xx RGMIIs
          
