@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vfs/idmapping
-Date: Tue, 21 Mar 2023 13:56:54 -0000
-Message-Id: <167940701467.5829.18165403796294341465@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jack/linux-fs
+Date: Tue, 21 Mar 2023 14:08:08 -0000
+Message-Id: <167940768859.12483.4776752053984418389@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vfs/idmapping
-user: brauner
+repo: pub/scm/linux/kernel/git/jack/linux-fs
+user: jack
 changes:
-  - ref: refs/tags/vfs.open.directory.creat.v6.3
-    old: 0000000000000000000000000000000000000000
-    new: 6284982a143a76e74cd62541dfdce57a9e846a10
+  - ref: refs/heads/for_next
+    old: c87d175d0ae715a1cdd9a315253f3fb410fb0421
+    new: fae0a2b2077c30f567b6b32c2467e7dda8e1d270
+    log: |
+         fae0a2b2077c30f567b6b32c2467e7dda8e1d270 ext2: remove redundant assignment to pointer end
+         
