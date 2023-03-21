@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============1705384363462975105=="
+Content-Type: multipart/mixed; boundary="===============8546913235965666504=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Tue, 21 Mar 2023 16:49:57 -0000
-Message-Id: <167941739793.27129.3353418797522443227@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 21 Mar 2023 16:50:05 -0000
+Message-Id: <167941740551.28775.15261769386658202559@gitolite.kernel.org>
 
---===============1705384363462975105==
+--===============8546913235965666504==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.4
+  - ref: refs/heads/asoc-6.4
     old: 00a7ef3242f42c38c9ffdf14ab2d729fd9754391
     new: 1d78e193b5ad4601b75e86a9dc1850132d9ce303
     log: revlist-00a7ef3242f4-1d78e193b5ad.txt
 
---===============1705384363462975105==
+--===============8546913235965666504==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1679417395 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1679417394-17f9963036a4b17ca8902ad55b931708135944e3
+pusher C3F436CA30F5D8EB 1679417402 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1679417402-7099a58c920d442892f74c621f82b87bce87992b
 
-00a7ef3242f42c38c9ffdf14ab2d729fd9754391 1d78e193b5ad4601b75e86a9dc1850132d9ce303 refs/heads/for-6.4
+00a7ef3242f42c38c9ffdf14ab2d729fd9754391 1d78e193b5ad4601b75e86a9dc1850132d9ce303 refs/heads/asoc-6.4
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmQZ4DMACgkQJNaLcl1U
-h9Dw6Af/a/7M9WAIDqYk1KFXZOCt2XXcjvx+WrzzH1YEUJLe1n6VdxqBQ3IFaz+l
-JEgODjH1NO9cERa8rK9APleWXQeYksW0ebbPbcf0knDhoGU9gpVUrfHc39J2yYi7
-W3o3CUBdWwUZaCZ9A98lWK9Ictde8l5xYCtchyJMsAs4XZSwMd471WPo0OCqibVt
-EMLwDeGLptmyiGoRkl6w4PDOHO0c3Rve1XvgAGcgxVGtw21Si/lKD5ugawBQ7/WD
-6FcwMAFlGRkmB3Dj1789aU2F8gISaFBjxh42s07qPFfgAcESccii2IeeQ4243Bn+
-j8XfaulergHLiUfLg/lkcRY5FXkKUw==
-=CMPg
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmQZ4DoACgkQJNaLcl1U
+h9D1Jwf+IB0m+M5vFFU7k2AGTEmVIB/vOGvj7zvuvtAaZBTr3ci8RRO90vwEVx3E
+NeMf/5lD9+nsg/Cw1N4Axpq8uJ2ckSpxcWGypH9Xg1htdzcu7QF3NeNJXJaHJGO+
+OZJPWHEaDRXlQVE+4O01iTMMfsN1zAh4DiHtY0QW1F4RSK2A/s/jms+q6N4SsBpI
+9ye/d5+22/OmnTbXbkD1GjNNhNGFYF+HHoKJKhf8NGeMwJh2aZhrgkR2RTUvBB7L
+0JOfRdNzrq20tSGScXr5mn9iTOLp09xbR8ZHQAZIC5RqVB2QiVE6mlXGoUVnE1PM
+MpCbuD93kG5FFn8BdSIxVkjAhik6gA==
+=ietF
 -----END PGP SIGNATURE-----
 
---===============1705384363462975105==
+--===============8546913235965666504==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -239,4 +239,4 @@ c6cec088ab037b57e08e0694e2b150b1b034826c ASoC: dt-bindings: cs35l45: GPIOs confi
 4af574f58f2fec551abfe6ac7e77f8bd60ee227f ALSA/ASoC: Convert to platform remove callback
 1d78e193b5ad4601b75e86a9dc1850132d9ce303 ASoC: Initial support for Cirrus Logic CS35L56
 
---===============1705384363462975105==--
+--===============8546913235965666504==--
