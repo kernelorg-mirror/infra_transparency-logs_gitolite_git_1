@@ -1,56 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============5337398740839455293=="
+Content-Type: multipart/mixed; boundary="===============0747992278278586622=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Tue, 21 Mar 2023 15:35:45 -0000
-Message-Id: <167941294545.8662.15088492399561130544@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
+Date: Tue, 21 Mar 2023 15:37:18 -0000
+Message-Id: <167941303895.9218.9684725406403526460@gitolite.kernel.org>
 
---===============5337398740839455293==
+--===============0747992278278586622==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
+repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-testing
-    old: 213acadd21a080fc8cda8eebe6d14cc2d4ad1332
-    new: 8be174835f07b2c106b9961c0775486d06112a3c
+  - ref: refs/heads/char-misc-linus
+    old: 840525415bdb2cb9873c6faea1984303efa65008
+    new: 4dd52392b5d75d88acf0d16eb69fe30d0de8c225
     log: |
-         8be174835f07b2c106b9961c0775486d06112a3c usb: ftdi-elan: Delete driver
+         bf84937e882009075f57fd213836256fc65d96bc coresight-etm4: Fix for() loop drvdata->nr_addr_cmp range bug
+         735e7b30a53a1679c050cddb73f5e5316105d2e3 coresight: etm4x: Do not access TRCIDR1 for identification
+         4dd52392b5d75d88acf0d16eb69fe30d0de8c225 Merge tag 'coresight-fixes-v6.3' of git://git.kernel.org/pub/scm/linux/kernel/git/coresight/linux into char-misc-linus
          
 
---===============5337398740839455293==
+--===============0747992278278586622==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1679412943 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1679412942-4e49f651ca11bec8c3f16c3d47cc4a4d54d93469
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1679413036 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
+nonce 1679413036-865156897cdd6c643d706783e361db1dc32eb316
 
-213acadd21a080fc8cda8eebe6d14cc2d4ad1332 8be174835f07b2c106b9961c0775486d06112a3c refs/heads/usb-testing
+840525415bdb2cb9873c6faea1984303efa65008 4dd52392b5d75d88acf0d16eb69fe30d0de8c225 refs/heads/char-misc-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQZzs8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+qm4QAMS9DXEImtM9OCZaXpC1
-AH1gBNsAiMYp3DgP6EewifvJZgYJCUgJibgoqYJZmnfct1Ca5CPtGYpBtjQoDntj
-5916LZz3nwiboJG4HOMw7J5ePAQrJoAcW/g3nYTWoKqDVv6vxRXFgFrgfI19Fph7
-z6dJu9co/Or1UrMLr+l0JR9SDZMsvIvlyPVK42EQX7qFrhOwh5evt8jIxLlsPckV
-+xVv1/2R4J8woILyMI/8V+Ctbdk9neB6Y01juwWpGf3rjuxHy60Cc/Z6oFD+7JgE
-84To7ZEiruqTInIr38AEl+Cpe3t1S8pML4A7HpBltqbnzxZ/cmGC9oq7qVIaSt/h
-eDua6xeaez1rZJ3g7tM2sjOc9c6izsJLbpUlSwP39kktkcvHE+RkDMVPBMRK4/Ae
-Wvty5icDdDYxIDedL8qgIhHh9VD4bcj73avmIKeVVE57ydqUHrwyzgNfnAVCsXco
-7u0AWbe+E4YLCgPHvlVZ2flXtWpzmPCCJfP4GMljGBIjJUNdqnNis8rayGLOvCf+
-EOpLEDM3qNhsy082NVNYrTttGWFwDmLZiDmiUVHIhAN1inlVRp8W6sveKJq89aPU
-alv/7w7TrHrVIVljWO4aQhXMug79bjkvW2uygwiO3MX9UeaVyjeHccz1o7zIUPuJ
-cnsCmCjXEBFW+LzrA+9ElEOR
-=Szpa
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQZzywbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+qq4P/2Wl8lH9uR4zVg3gW7t+
+PbLzXU6DDvfw78j51wshE/w4/EUYsZDJxYZSv2me6MFHTdiiZUPb0ksqUpxj2QWm
++1ZVm2dGqOvqUDiHmE+OIwdIRbVle9ws7aTaaktSBxs+vMOwgrNfKp9EzbJd4u7U
+FVcbzZeuwfPCi03D5iywZd/q0kBcM62UI8zd+mpKVQP+U7r3GZEGSiYV4msQrpAX
+7AGzfFO3hW73IpZQ9vQTgPlspOoIYI3AEyOUAU7bQYBXqXxyq+NAVnL+Ndt8GhB7
+qb9nJlc2EctN7RBjBcyxR6yVPuJWOqaZPsSE6D4/kLFp231PTWHKc3fOgwpdKBEW
+mHUBEED8kGtDKjBs5hNd63it1BfH7lX2oP/0+vcpU5ML6RZtqry3jlDlO/cL2py2
+xOkT9QV7IVfnrsg3PLmisAQejG2eQeacsPfUt4H6e8VSferCF0Bpnus/f8XDU4Lt
+knSIj+AHOGXPVphMf55yPH+eaissfETce3JXAdE1Dxsk0jNjezAblno0/fqhhmNu
+r29fta7fw5NjjSY4DrVGUI9WhagXe9bH+nvj4rU/EIy/FWbSMVdAI8hKeyEw/Wvn
+et50RMRDYj+1xGQcrcPVbvPICNKE9qMUVzp8NIv4pY+8gAv6wo4QiPUYcwQhOEtN
+gx6o3NdC1o1OpnVXxHTIpO2H
+=Ivad
 -----END PGP SIGNATURE-----
 
---===============5337398740839455293==--
+--===============0747992278278586622==--
