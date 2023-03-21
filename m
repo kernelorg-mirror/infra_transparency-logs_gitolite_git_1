@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mark/linux
-Date: Tue, 21 Mar 2023 11:57:13 -0000
-Message-Id: <167939983387.21016.10284319339110830606@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 21 Mar 2023 12:02:15 -0000
+Message-Id: <167940013549.24348.13948718341519017894@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mark/linux
-user: mark
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: pabeni
 changes:
-  - ref: refs/heads/arm64/uaccess/fixes
-    old: c9ba0c728450ed4ae98cfb7e6cbdd2b178b27381
-    new: ca3ac74893aea27f7fc14c3b95e793201154aa71
+  - ref: refs/heads/main
+    old: a08df15eab0c572bc1d98c2392bcfcd744f26eda
+    new: a4926c2943dd17f84b552ba6fb754df0dc6a2fa8
     log: |
-         b035a5833d7b53e3392b4b0e6973b9f4e89186df lib: test copy_{to,from}_user()
-         1fdc6c06a83a1c7630c003ba8b242c562fd68b15 lib: test clear_user()
-         5f0395aa6d667071356495c21018def33b3c6a70 arm64: fix __raw_copy_to_user semantics
-         ca3ac74893aea27f7fc14c3b95e793201154aa71 arm64: fix clear_user() semantics
+         a4926c2943dd17f84b552ba6fb754df0dc6a2fa8 net: dsa: mv88e6xxx: fix mdio bus' phy_mask member
          
