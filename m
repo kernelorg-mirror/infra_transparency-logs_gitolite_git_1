@@ -1,55 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============8546913235965666504=="
+Content-Type: multipart/mixed; boundary="===============2467856072334492890=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Tue, 21 Mar 2023 16:50:05 -0000
-Message-Id: <167941740551.28775.15261769386658202559@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Tue, 21 Mar 2023 16:50:23 -0000
+Message-Id: <167941742371.28932.7391933733442664129@gitolite.kernel.org>
 
---===============8546913235965666504==
+--===============2467856072334492890==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.4
-    old: 00a7ef3242f42c38c9ffdf14ab2d729fd9754391
-    new: 1d78e193b5ad4601b75e86a9dc1850132d9ce303
-    log: revlist-00a7ef3242f4-1d78e193b5ad.txt
+  - ref: refs/heads/for-next
+    old: fff75ca8da561ebc043b8f98aa677d0eede06a87
+    new: 54c5dc1df4b078436e62e5dce4d11aa3c7ab396f
+    log: revlist-fff75ca8da56-54c5dc1df4b0.txt
 
---===============8546913235965666504==
+--===============2467856072334492890==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1679417402 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1679417402-7099a58c920d442892f74c621f82b87bce87992b
-
-00a7ef3242f42c38c9ffdf14ab2d729fd9754391 1d78e193b5ad4601b75e86a9dc1850132d9ce303 refs/heads/asoc-6.4
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmQZ4DoACgkQJNaLcl1U
-h9D1Jwf+IB0m+M5vFFU7k2AGTEmVIB/vOGvj7zvuvtAaZBTr3ci8RRO90vwEVx3E
-NeMf/5lD9+nsg/Cw1N4Axpq8uJ2ckSpxcWGypH9Xg1htdzcu7QF3NeNJXJaHJGO+
-OZJPWHEaDRXlQVE+4O01iTMMfsN1zAh4DiHtY0QW1F4RSK2A/s/jms+q6N4SsBpI
-9ye/d5+22/OmnTbXbkD1GjNNhNGFYF+HHoKJKhf8NGeMwJh2aZhrgkR2RTUvBB7L
-0JOfRdNzrq20tSGScXr5mn9iTOLp09xbR8ZHQAZIC5RqVB2QiVE6mlXGoUVnE1PM
-MpCbuD93kG5FFn8BdSIxVkjAhik6gA==
-=ietF
------END PGP SIGNATURE-----
-
---===============8546913235965666504==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-00a7ef3242f4-1d78e193b5ad.txt
+Content-Disposition: attachment; filename=revlist-fff75ca8da56-54c5dc1df4b0.txt
 
 e3a8459d726532be70fa917e39812570618b857e ALSA: sh: aica: Drop if blocks with always false condition
 9ac0d69ee5891c2d0f0425acbb13993ceef9cd12 ASoC: amd: acp: rembrandt: Drop if blocks with always false condition
@@ -238,5 +213,6 @@ c6cec088ab037b57e08e0694e2b150b1b034826c ASoC: dt-bindings: cs35l45: GPIOs confi
 6c07be8fe92c6b0c24ee1c599601dce3506b83c7 ASoC: cs35l45: Hibernation support
 4af574f58f2fec551abfe6ac7e77f8bd60ee227f ALSA/ASoC: Convert to platform remove callback
 1d78e193b5ad4601b75e86a9dc1850132d9ce303 ASoC: Initial support for Cirrus Logic CS35L56
+54c5dc1df4b078436e62e5dce4d11aa3c7ab396f Merge remote-tracking branch 'asoc/for-6.4' into asoc-next
 
---===============8546913235965666504==--
+--===============2467856072334492890==--
