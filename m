@@ -1,43 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============4180567658970492820=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-power-supply
-Date: Wed, 22 Mar 2023 03:30:12 -0000
-Message-Id: <167945581275.10497.1553935734757619832@gitolite.kernel.org>
-
---===============4180567658970492820==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/jpoimboe/linux
+Date: Wed, 22 Mar 2023 03:34:55 -0000
+Message-Id: <167945609516.12008.1548545909214363681@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sre/linux-power-supply
-user: sre
+repo: pub/scm/linux/kernel/git/jpoimboe/linux
+user: jpoimboe
 changes:
-  - ref: refs/heads/for-next
-    old: 2c9fafafd1866f22deb8988d9b63ff9f921ce8e3
-    new: 86c0ef8652f7079d09ef01b18cff5c3a385bfdd1
-    log: revlist-2c9fafafd186-86c0ef8652f7.txt
-
---===============4180567658970492820==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2c9fafafd186-86c0ef8652f7.txt
-
-b2f046816dfd095ef7cf401e5679ab45efd736d7 power: supply: core: auto-exposure of simple-battery data
-1115a74ca88c0847c77491cc847e999b16b0aef8 power: supply: generic-adc-battery: convert to managed resources
-c4bd65d7878b90652e9dde87475c1d7cd857b5c7 power: supply: generic-adc-battery: fix unit scaling
-225003a0c7a8a0b5e5f4e8b1f62a4eeeefe890ea power: supply: generic-adc-battery: drop jitter delay support
-78d40808a5bf42fb01aa8e3acbf83fcc5c64fed9 power: supply: generic-adc-battery: drop charge now support
-25e5bcf7c8515534a39f987d49f5e904348ea5d2 power: supply: generic-adc-battery: drop memory alloc error message
-10ec06d3987ba94ee30c7630733b48ca203bbed2 power: supply: generic-adc-battery: use simple-battery API
-090a58368f6fac724a9cfc5ecb82784b078a5453 power: supply: generic-adc-battery: simplify read_channel logic
-4f1c8d1a46d3585851b7843d518d8958f7915d83 power: supply: generic-adc-battery: add temperature support
-b0c486f98c55321a9d2007427461137d85835466 power: supply: generic-adc-battery: add DT support
-c7233528d2b7a2bd6cd39bfdf0fbf66ca65efafc power: supply: generic-adc-battery: update copyright info
-98ffde60171fbb3b97ee8b6d2398e15549f1c03c power: supply: generic-adc-battery: improve error message
-86c0ef8652f7079d09ef01b18cff5c3a385bfdd1 power: supply: generic-adc-battery: style fixes
-
---===============4180567658970492820==--
+  - ref: refs/heads/static-call-null-4
+    old: 41520dea84d189acacdfbfc27c86e2cf02cbb4db
+    new: 99a484ab8cf69008f50c0cc79d3ebec8d67ebc2d
+    log: |
+         c8bc83b2c70aeaad3ce01d12dc1153981ab693f8 static_call: Improve key type abstraction
+         a7f3a10a7dedfd41cc25bdc5bf35e74d3483a684 static_call: Flip key type union bit
+         3b07f3830d7e4e967cc9714dbf54b7391f35cf8b static_call: Remove static_call_mod_init() declaration
+         252c12888b50482ee5bda8415a67cdc971285843 static_call: Remove static_call.h dependency on cpu.h
+         6a0d8889143580b3eac61ecabca783a5e8ad1bad static_call: Make ARCH_ADD_TRAMP_KEY() generic
+         00373cd98e299d6ab3c6c7417514acf0f0ead157 static_call: "EXPORT_STATIC_CALL_TRAMP" -> "EXPORT_STATIC_CALL_RO"
+         315c9c6959d53bcdfc05e64a90bfd465137aca95 static_call: Reorganize static call headers
+         1ce838094e96ecb63367912cc6fe7ac83ea006f0 arm64/static_call: Fix CFI_CLANG + !HAVE_STATIC_CALL incompatibility
+         f0c3c39909b309b3507f9d28686387a1197f7d8e static_call: Make NULL static calls consistent
+         644ec6a57f07a5283b313d7ecc5af90270558881 static_call: Remove static_call_cond()
+         99a484ab8cf69008f50c0cc79d3ebec8d67ebc2d static_call: Remove DEFINE_STATIC_CALL_RET0()
+         
