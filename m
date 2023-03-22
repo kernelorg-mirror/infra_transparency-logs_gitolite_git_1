@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Wed, 22 Mar 2023 14:53:39 -0000
-Message-Id: <167949681917.30370.6288171947288624354@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/andy/linux-gpio-intel
+Date: Wed, 22 Mar 2023 14:56:56 -0000
+Message-Id: <167949701680.565.4122584105952398601@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: pabeni
+repo: pub/scm/linux/kernel/git/andy/linux-gpio-intel
+user: andy
 changes:
-  - ref: refs/heads/main
-    old: 4107b8746d93ace135b8c4da4f19bbae81db785f
-    new: bb765a743377d46d8da8e7f7e5128022504741b9
+  - ref: refs/heads/review-andy
+    old: d884ae2571afb7ab6363a2292279132d3340b530
+    new: 1d1fd40259265bf86994adcd50d569ce874f6112
     log: |
-         bb765a743377d46d8da8e7f7e5128022504741b9 mlxsw: spectrum_fid: Fix incorrect local port type
+         fbee439629a9dc03eca7c53f5fdd3f28a1df7f43 gpio: mm-lantiq: Fix typo in the newly added header filename
+         74f39c5130b956fe63a6df5ce25b0a2121d8e845 gpiolib: acpi: use the fwnode in acpi_gpiochip_find()
+         7b964d1892b3e12ba518592ed535962e5924d10b gpiolib: acpi: Move ACPI device NULL check to acpi_get_driver_gpio_data()
+         1d1fd40259265bf86994adcd50d569ce874f6112 gpiolib: acpi: Add a ignore wakeup quirk for Clevo NL5xNU
          
