@@ -1,22 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
-Date: Wed, 22 Mar 2023 10:37:56 -0000
-Message-Id: <167948147629.18379.3966231605374430058@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/westeri/thunderbolt
+Date: Wed, 22 Mar 2023 10:40:17 -0000
+Message-Id: <167948161770.20722.1070444577555283610@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/amlogic/linux
-user: narmstrong
+repo: pub/scm/linux/kernel/git/westeri/thunderbolt
+user: westeri
 changes:
-  - ref: refs/heads/for-next
-    old: 001ba459dbecc219e45f822dc790116bfbd9bb99
-    new: da2e9232b20f5a8dc5fdd81e489a256f17c1745a
-    log: |
-         4ca4a633205fb372882de3e6e93a0a3584298249 ARM: dts: meson8: add the xtal_32k_out pin
-         ef8474d50a37ab5f2f2f60e179d749b4273470de ARM: dts: meson8: add the SDXC_A pins
-         8446b84c894f7441f8bf4410f9638e38dcb29c49 ARM: dts: meson8m2: mxiii-plus: Enable Bluetooth and WiFi support
-         da2e9232b20f5a8dc5fdd81e489a256f17c1745a Merge branch 'v6.4/arm-dt' into for-next
-         
+  - ref: refs/tags/thunderbolt-for-v6.3-rc4
+    old: 0000000000000000000000000000000000000000
+    new: b99f73b2910d10a34b629ebce443caa47c3341d4
