@@ -1,22 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Wed, 22 Mar 2023 18:47:20 -0000
-Message-Id: <167951084051.28585.5101967861599249505@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Wed, 22 Mar 2023 18:47:22 -0000
+Message-Id: <167951084287.28656.4155111091888350953@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rafael/linux-pm
-user: rafael
+repo: pub/scm/linux/kernel/git/broonie/spi
+user: broonie
 changes:
-  - ref: refs/heads/bleeding-edge
-    old: bb2752a090360a84c9d65b9048439ce8b16ca3da
-    new: 5fbbce7a7c99c620b0250939a9a5c4095c2b797d
+  - ref: refs/heads/for-next
+    old: 103c6a315bc7ae0442be683b8d725d51615d280b
+    new: bc43c5ec1a97772269785d19f62d32c91ac5fc36
     log: |
-         073828e954459b883f23e53999d31e4c55ab9654 ACPI: processor: Fix evaluating _PDC method when running as Xen dom0
-         f29826b0134e0be46781254a7c5d7f9089996bea Merge branch 'acpi-processor' into bleeding-edge
-         da30a34a0edb88144ac10db5ef781ae84769af67 ACPI: SPCR: Prefix error messages with FW_BUG
-         5fbbce7a7c99c620b0250939a9a5c4095c2b797d Merge branch 'acpi-tables' into bleeding-edge
+         1ab09f1d070c4774175dab95e55d2b72c2a054ab spi: spi-nxp-fspi: correct the comment for the DLL config
+         99d822b3adc4f9af59cefdc6619cb3f64182efed spi: spi-nxp-fspi: use DLL calibration when clock rate > 100MHz
+         bc43c5ec1a97772269785d19f62d32c91ac5fc36 spi: f_ospi: Add missing spi_mem_default_supports_op() helper
          
