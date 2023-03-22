@@ -1,30 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvalo/ath
-Date: Wed, 22 Mar 2023 18:13:48 -0000
-Message-Id: <167950882827.3437.9698619468005896867@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Wed, 22 Mar 2023 18:14:57 -0000
+Message-Id: <167950889763.3900.5642258736650996933@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvalo/ath
-user: kvalo
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/master-pending
-    old: c831ffc15b2daa0780c22047f0c4785e1e2a7d3b
-    new: e240b49ac61124ffc5b421a8cf0594490815505e
+  - ref: refs/heads/dev
+    old: 86b3da94693e412ca43d996a7e6ed5766ef7a5f4
+    new: 2b310e064e797a07765afd4b61c61de70d57ac78
     log: |
-         08b791c6419ae70d9d4781c452ab86a8a06ea063 wifi: ath10k: remove unused ath10k_get_ring_byte function
-         fb703a109013a49a825623a5569dae997e87f52d wifi: carl9170: Fix multiple -Warray-bounds warnings
-         bb1d6321a928b5f43a59a172c54fa7262751f91b wifi: carl9170: Replace fake flex-array with flexible-array member
-         e240b49ac61124ffc5b421a8cf0594490815505e Merge branch 'pending' into master-pending
-         
-  - ref: refs/heads/pending
-    old: a1b1107cba9dd516f398afba185f17faa2d1a07b
-    new: bb1d6321a928b5f43a59a172c54fa7262751f91b
-    log: |
-         08b791c6419ae70d9d4781c452ab86a8a06ea063 wifi: ath10k: remove unused ath10k_get_ring_byte function
-         fb703a109013a49a825623a5569dae997e87f52d wifi: carl9170: Fix multiple -Warray-bounds warnings
-         bb1d6321a928b5f43a59a172c54fa7262751f91b wifi: carl9170: Replace fake flex-array with flexible-array member
+         0879ccc54dec18ff030fa40f39bf636e856be5a3 rcu/rcuscale: Move rcu_scale_*() after kfree_scale_cleanup()
+         2b310e064e797a07765afd4b61c61de70d57ac78 rcu/rcuscale: Stop kfree_scale_thread thread(s) after unloading rcuscale
          
