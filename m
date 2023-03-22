@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7428663076521308475=="
+Content-Type: multipart/mixed; boundary="===============6347152816801086456=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 22 Mar 2023 09:08:22 -0000
-Message-Id: <167947610283.8253.2456182308506880706@gitolite.kernel.org>
+Date: Wed, 22 Mar 2023 09:13:14 -0000
+Message-Id: <167947639480.11352.2858037053430306787@gitolite.kernel.org>
 
---===============7428663076521308475==
+--===============6347152816801086456==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,18 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: peterz
 changes:
-  - ref: refs/heads/perf/core
-    old: c828441f21ddc819a28b5723a72e3c840e9de1c6
-    new: 872d28001be56b205bd9b3f97cea1571a1bde317
-    log: revlist-c828441f21dd-872d28001be5.txt
+  - ref: refs/heads/sched/core
+    old: 7c4a5b89a0b5a57a64b601775b296abf77a9fe97
+    new: 41abdba9374734b743019fc1cc05e3225c82ba6b
+    log: revlist-7c4a5b89a0b5-41abdba93747.txt
 
---===============7428663076521308475==
+--===============6347152816801086456==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-c828441f21dd-872d28001be5.txt
+Content-Disposition: attachment; filename=revlist-7c4a5b89a0b5-41abdba93747.txt
 
-0813299c586b175d7edb25f56412c54b812d0379 ext4: Fix possible corruption when moving a directory
 e3645d72f8865ffe36f9dc811540d40aa3c848d3 ext4: fix incorrect options show of original mount_opt and extend mount_opt2
 e534a583cc438ec2e9a7dc534c9d80d14b440718 Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/mattst88/alpha
 472a2abb7af5067c45db25fb59c17e828af07886 Merge tag 'flex-array-transformations-6.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gustavoars/linux
@@ -1047,8 +1046,9 @@ a98151ad53b53f010ee364ec2fd06445b328578b ring-buffer: remove obsolete comment fo
 71c7a30442b724717a30d5e7d1662ba4904eb3d4 tracing/hwlat: Replace sched_setaffinity with set_cpus_allowed_ptr
 eaba52d63bfcf0047ce3a1bb011b35d4f066df8e Merge tag 'trace-v6.3-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 e8d018dd0257f744ca50a729e3d042cf2ec9da65 Linux 6.3-rc3
-bc4000fdb009a531fc5b94339f8531eee64bc232 perf/x86/intel: Add Granite Rapids
-5a796d5cb5d11f5aad4893a59f22715810769928 perf/x86/msr: Add Granite Rapids
-872d28001be56b205bd9b3f97cea1571a1bde317 perf/x86/cstate: Add Granite Rapids support
+d91e15a21d4b3823ce93a42b05f0d171689f4e6a sched/topology: Make sched_energy_mutex,update static
+530bfad1d53d103f98cec66a3e491a36d397884d sched/core: Avoid selecting the task that is throttled to run when core-sched enable
+eff6c8ce8d4d7faef75f66614dd20bb50595d261 sched/core: Reduce cost of sched_move_task when config autogroup
+41abdba9374734b743019fc1cc05e3225c82ba6b sched: Interleave cfs bandwidth timers for improved single thread performance at low utilization
 
---===============7428663076521308475==--
+--===============6347152816801086456==--
