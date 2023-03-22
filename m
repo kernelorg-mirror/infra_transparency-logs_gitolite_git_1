@@ -1,71 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============5910211273453618819=="
+Content-Type: multipart/mixed; boundary="===============6823356393416907239=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Wed, 22 Mar 2023 19:23:33 -0000
-Message-Id: <167951301346.20747.5377321673555942457@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Wed, 22 Mar 2023 19:25:57 -0000
+Message-Id: <167951315715.23075.15446787982014819722@gitolite.kernel.org>
 
---===============5910211273453618819==
+--===============6823356393416907239==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-linus
-    old: bbf860ed710bacc0279c4cda2817f70e1200d04b
-    new: bbefb7ed83e639ba1633e807f56b38a71c51fda3
-    log: revlist-bbf860ed710b-bbefb7ed83e6.txt
+  - ref: refs/heads/driver-core-testing
+    old: cb4a0bec0bb982991b27d6826f3372890cebb8ab
+    new: bf6479dbe743ca343fa122aaffbe9dcb1de80a51
+    log: |
+         af48ab8b39ee9e4c4593a5da6e2501ebb8f99b12 ACPI: LPIT: move to use bus_get_dev_root()
+         bf6479dbe743ca343fa122aaffbe9dcb1de80a51 cpuidle: move to use bus_get_dev_root()
+         
 
---===============5910211273453618819==
+--===============6823356393416907239==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1679513011 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1679513010-ccade2dd500c3bd4c81e43604b6c1fcb26972349
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1679513155 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1679513154-4ccede278bb1820bd3598fc9ff01b9e9b9630f0b
 
-bbf860ed710bacc0279c4cda2817f70e1200d04b bbefb7ed83e639ba1633e807f56b38a71c51fda3 refs/heads/usb-linus
+cb4a0bec0bb982991b27d6826f3372890cebb8ab bf6479dbe743ca343fa122aaffbe9dcb1de80a51 refs/heads/driver-core-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQbVbMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+o6EQAJpUDNT7oFmQvgbGORxI
-QzsktnpLPYZHjPDoFd1KZwg8FqaxC465+6I8WN06kHPcSnDT/ia16GhMqiu3swek
-2cdZEex+rO04CxWlyIp2DKLoGD7lnkCq9WrZsDnVekoP5dCsknrPGgZa2uGPt3BU
-Pm0dv5BNtAqoW5sxj2J4SdulFXRKArPIDDPwxhNTtC88kkR9F+zypA6Gpr0jidVL
-+QNNK+4ptSVvAVpc3yX+qx0VmsEc9JqZ1DDPpFwrZ4mg4wpTzs2Qbeej+dCuJ/1o
-iYNNqe4/8icX5dkAHzStM4x0IFJ+LrTE7rbcQh2NFK1DU2UvY0Nbw8JwTIpGVMkH
-S61MGxRxtXRh8DQfexXezyYtV6LrKMjPYj2/DmJ9t+OXnf2wnJ8eFIFUDKiIDjhO
-RPD5Quy3uiXaGrRr4HpNFTEd/JPYtN0lDj8CwYfGIfrcayuEVjXFCEn8dkAVhouh
-4D2s6ylUikJBBsYji8xNXFQJZ9vW6YDJgtPYQYla2UAr3whO/yBnaty18LpUDtvk
-tvas2xhX3r/UOaCaWpLrcPNERK6BmU9VTfyaybRf46IVLfNhhlavzB/ACFqy7+XM
-IAKG6Z1kjI0oPuChKG3Ngrd6WLAICfRX2E5FVczBS59+ISvrac47LNMJHCTwtUn/
-MG7UwqQAS00xWIJ7yu2dR9qr
-=BlGd
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQbVkMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+SnIP/jKo74LxNkOIO48xxKJX
+TXM22dee/7aiiCrOZX5KaDP5nrY/1+ymxnztnu0uJ0tq0xvaxncSRYOporm9+3vW
+pv9nMQg5vOyfiWdiJoyTLzLDzF/F3Hd70Q3uk9BAvrefjQ2+XjogfhW2g3O3Telx
+ypOSaMakgzd1EWm+EP8J7kYCFnpyQrZKgZiS8Or7fadlG3833ykX33im5xYBSDk2
+ojbMy5/hDZ6c+fKkz+BGByjaDvtbqnhFjrXmOTabG/BDKsv6vU+7G9Lb6nCuRhz4
+LXCBbWBzgfSpVGL60kw6Xv8flZVaPe3QzlH6VVqeejBhjtdxijmohXUN1KzuAMO4
+HdMo2kuBjUFUZ640Vn5Jrm9Bcgpbqrtz0waKzZpdrw8y/wd/vLNjA8YxD2gIS2Yq
+HULXVN7bHjy1zdb8mbcc0iCcKBlZpSoAEdCmNwK0HYtx7IsM4J80SaXOBMHb2KMW
+7drB2yo6vCSl3E6qxe1N5UevIY8cnbxeH5Ii8utuEo4xv9t7AH+dvNmslsqjMc6X
+qnOjxXiycjnOPb1Jm7eJmBVMIcqkPl1npMszmxzo0i+PijzSXMIbtds/D0chuHFN
+uXB+wXOh4UDSKhS4uglxEs+nTXF8I/dMCgkDkoRSDF219eApZu9SYT4cg4T/RX/9
+A94ChdGhVRCv9mKXhZWcWu34
+=F8u+
 -----END PGP SIGNATURE-----
 
---===============5910211273453618819==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bbf860ed710b-bbefb7ed83e6.txt
-
-7af9da8ce8f9a16221ecd8ba4280582f5bd452fc thunderbolt: Add quirk to disable CLx
-acec726473822bc6b585961f4ca2a11fa7f28341 thunderbolt: Fix memory leak in margining
-cd0c1e582b055dea615001b8bd8eccaf6f69f7ce thunderbolt: Add missing UNSET_INBOUND_SBTX for retimer access
-d2d6ddf188f609861489d5d188d545856a3ed399 thunderbolt: Call tb_check_quirks() after initializing adapters
-f0a57dd33b3eadf540912cd130db727ea824d174 thunderbolt: Limit USB3 bandwidth of certain Intel USB4 host routers
-c82510b1d87bdebfe916048857d2ef46f1778aa5 thunderbolt: Use scale field when allocating USB3 bandwidth
-1716efdb07938bd6510e1127d02012799112c433 thunderbolt: Use const qualifier for `ring_interrupt_index`
-468c49f44759720a312e52d44a71c3949ed63d7c thunderbolt: Disable interrupt auto clear for rings
-58cdfe6f58b35f17f56386f5fcf937168a423ad1 thunderbolt: Rename shadowed variables bit to interrupt_bit and auto_clear_bit
-bbefb7ed83e639ba1633e807f56b38a71c51fda3 Merge tag 'thunderbolt-for-v6.3-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/westeri/thunderbolt into usb-linus
-
---===============5910211273453618819==--
+--===============6823356393416907239==--
