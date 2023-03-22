@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Wed, 22 Mar 2023 20:58:57 -0000
-Message-Id: <167951873742.20222.1640154903146947834@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Wed, 22 Mar 2023 21:04:47 -0000
+Message-Id: <167951908738.23663.6382990582787167664@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cel/linux
-user: cel
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/nfsd-fixes
-    old: 27c934dd8832dd40fd34776f916dc201e18b319b
-    new: 5f24a8725fe7bc2c6adf7ce00dd3e818387d8995
-    log: |
-         5f24a8725fe7bc2c6adf7ce00dd3e818387d8995 SUNRPC: Fix a crash in gss_krb5_checksum()
-         
+  - ref: refs/heads/dev.2023.03.20a
+    old: 0000000000000000000000000000000000000000
+    new: 2b310e064e797a07765afd4b61c61de70d57ac78
