@@ -1,46 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============7153568913259057694=="
+Content-Type: multipart/mixed; boundary="===============6502599982197664037=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Wed, 22 Mar 2023 09:18:03 -0000
-Message-Id: <167947668384.15991.14211676923786338667@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
+Date: Wed, 22 Mar 2023 09:18:19 -0000
+Message-Id: <167947669921.16138.5905456440459595902@gitolite.kernel.org>
 
---===============7153568913259057694==
+--===============6502599982197664037==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
-user: leon
+repo: pub/scm/linux/kernel/git/gregkh/staging
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/rdma-next
-    old: b390f82563e1f1fd818f8ed6bf825e6761080cd2
-    new: b7e48e48348ff24d3b91db6954b5269486dafb0f
-    log: revlist-b390f82563e1-b7e48e48348f.txt
+  - ref: refs/heads/staging-testing
+    old: 72a456de903389aa9d484ee0127af3352f156e1c
+    new: 288dee556536f07f51df4b0d265c83be73991fb1
+    log: |
+         8f51a66a629b67a11250f555b89aa8d91137ed94 staging: most: use inline functions for to_hdm
+         c388adce927c302dc740a550e79236f4dc9864b7 staging: most: define iface_to_hdm as an inline function
+         288dee556536f07f51df4b0d265c83be73991fb1 staging: rtl8723bs: use inline functions for dvobj_to_dev
+         
 
---===============7153568913259057694==
+--===============6502599982197664037==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b390f82563e1-b7e48e48348f.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-7d964b1397a20f639200527174070cc010346e6a net/mlx5: Add EQ WAs
-1efb271e7225912ef044afededfd9df46a157bec net/mlx5: Introduce other vport query for Q-counters
-0dac74719658574656cd11efc0c92e640d075315 RDMA/mlx5: Expand switchdev Q-counters to expose representor statistics
-adb0f433ba3c639c2fe2ccb6cb5a706847ca1ee4 net/mlx5: Expose bits for enabling out-of-order by default
-e36d23da77c0f918926d2fe68cf915675e6c3055 RDMA/mlx5: Disable out-of-order in integrity enabled QPs
-28bef793ab25027ef1c9bd92d284e9f3f9dcef76 net/mlx5: Set out of order (ooo) by default
-4bab46d8574ef0ce825f447e79a9771a4eb7ed9d mlx4: Get rid of the mlx4_interface.get_dev callback
-6e4cc4afc5154e0324e1bd671e59d5d417e80482 mlx4: Rename member mlx4_en_dev.nb to netdev_nb
-52cf41b4f9012ddd11bd2eff772de56cf68aabb4 mlx4: Replace the mlx4_interface.event callback with a notifier
-b7840db3cdf241f9c247e489d16c55986dcb9a8b mlx4: Get rid of the mlx4_interface.activate callback
-d8915f5135aa916d9212b946c9240bd8dfaa48d3 mlx4: Move the bond work to the core driver
-43879689aa9dfd1ab7e9af490f689cf330d4edbb mlx4: Avoid resetting MLX4_INTFF_BONDING per driver
-6ad704eb361a72d429af76b6c219511ff99c1941 mlx4: Register mlx4 devices to an auxiliary virtual bus
-70c8acf602cbff749c36ca2da6cf92c6334308da mlx4: Connect the ethernet part to the auxiliary bus
-a45919a0d22d9ac650a04deacc5fb4215ec82e01 mlx4: Connect the infiniband part to the auxiliary bus
-b7e48e48348ff24d3b91db6954b5269486dafb0f mlx4: Delete custom device management logic
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1679476697 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
+nonce 1679476696-457a03dfbc94f42b68afd36da483352c2a06139c
 
---===============7153568913259057694==--
+72a456de903389aa9d484ee0127af3352f156e1c 288dee556536f07f51df4b0d265c83be73991fb1 refs/heads/staging-testing
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQax9kbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+SQ4P/RCGnFEOZPSIf36jDZw0
+29/LQRBqZKLp6TVreozxGyEuCYEZFMi96FRkdHE0j/zm2FRISk0iPT6iOYOp6p/r
+mV+fwy6ZsVtb1z2zKaWktXfALm+GZ9m92iB9b6bMzWmKokkRhCguiPaAnfAaQriQ
+XDOYVtOJ+ODkEC10TN76PF6rzCIwcyMcQpgf3F7a4/rgbRsc4Yc5eWy1jGtrMCGn
+MDrGOqnK4dXvsxp7p0CG5NFMGmGPkrg8UMu5CK01umF9HOcQ+39o8/P0QUlmhcA1
+uTP19vrGwPLXibpDyoBufio9ot0I4/GKZZOvoHtyL44zdA4J55VAA9q2T3g3CIax
+YgWVMEphqws5SA3fNW+WXL/eMQUWTXWSYnaoWuH1uTIYxwaw4k+M/SkYuT/+rRcL
+UCa5g8pQyUjm6A9RX/8o7zLZWSzTh/MXnKwaZ+Qlvce/s8Yj6xUum31h1VY6Uq32
+n0zIV97TGBc5+Ph7dMuNmjMNt4DH7Y2FESyknRPDLb/h3Bp0yvdWFQFowIYSazKF
+fxLciyF5XNWtHbjO4MSEn1B2zCoXfOEerjgECFQavG/Dcq33czjUEHMGl18QX/yw
+G6UzoyC9Y+ccAUSMjZ5WHQ6DDsepGGhcIboMOhvqAkFt6oiTTEiAxH7HcAZO4L59
+Yx02EWoZPvcyzXrRDiXXmyM7
+=AkXP
+-----END PGP SIGNATURE-----
+
+--===============6502599982197664037==--
