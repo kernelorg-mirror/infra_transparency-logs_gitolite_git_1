@@ -1,21 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Wed, 22 Mar 2023 20:35:52 -0000
-Message-Id: <167951735207.4972.15642238186261240026@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
+Date: Wed, 22 Mar 2023 20:38:46 -0000
+Message-Id: <167951752623.5928.11718055629318904217@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
-user: acme
+repo: pub/scm/linux/kernel/git/conor/linux
+user: conor
 changes:
-  - ref: refs/heads/tmp.perf-tools-next
-    old: 204e7c499f5fa7732144ef9765c195982be72f31
-    new: 5cbac4e6a1a74512f222afb19f89e6c8b4da6196
+  - ref: refs/heads/auto-update-v2
+    old: e40011c7f9d396dff02a6bea9af527966ca661dc
+    new: 3a171d0191a5da0dfc2931d49d2f32a0f4e85c79
     log: |
-         133719598a90874d62231915ef4f9c7a0cdc056a perf report: Append inlines to non-DWARF callchains
-         12a83df53444165d39d3e09fcd9627e7bec7828e perf build: Add warning for when vmlinux.h generation fails
-         5cbac4e6a1a74512f222afb19f89e6c8b4da6196 perf test: Fix wrong size expectation for 'Setup struct perf_event_attr'
+         29b87221099a340e4d56db092bb9c1dce4f613ba soc: microchip: mpfs: print service status in warning message
+         2bcc4526a41da089552c40adb848f8dfa4eed42a soc: microchip: mpfs: add auto-update subdev to system controller
+         749e4a5397b762ac4d08e2aeecde4084ae61e79d fpga: add PolarFire SoC Auto Update support
+         118ebe31072fb566984094e17b6d138e9204cf79 riscv: dts: microchip: add the mpfs' system controller qspi & associated flash
+         3a171d0191a5da0dfc2931d49d2f32a0f4e85c79 riscv: dts: microchip: add a dts for the Vauban board
          
