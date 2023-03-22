@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
-Date: Wed, 22 Mar 2023 20:38:46 -0000
-Message-Id: <167951752623.5928.11718055629318904217@gitolite.kernel.org>
+Date: Wed, 22 Mar 2023 20:44:23 -0000
+Message-Id: <167951786313.9218.15101932587983882096@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,12 +12,11 @@ repo: pub/scm/linux/kernel/git/conor/linux
 user: conor
 changes:
   - ref: refs/heads/auto-update-v2
-    old: e40011c7f9d396dff02a6bea9af527966ca661dc
-    new: 3a171d0191a5da0dfc2931d49d2f32a0f4e85c79
+    old: 3a171d0191a5da0dfc2931d49d2f32a0f4e85c79
+    new: a55d227a3492aefbdd18aeaf60fe9aece6deb2a1
     log: |
-         29b87221099a340e4d56db092bb9c1dce4f613ba soc: microchip: mpfs: print service status in warning message
-         2bcc4526a41da089552c40adb848f8dfa4eed42a soc: microchip: mpfs: add auto-update subdev to system controller
-         749e4a5397b762ac4d08e2aeecde4084ae61e79d fpga: add PolarFire SoC Auto Update support
-         118ebe31072fb566984094e17b6d138e9204cf79 riscv: dts: microchip: add the mpfs' system controller qspi & associated flash
-         3a171d0191a5da0dfc2931d49d2f32a0f4e85c79 riscv: dts: microchip: add a dts for the Vauban board
+         6c23eebc74d0b764e533b462c9863a964ca4d2e4 fpga: add PolarFire SoC Auto Update support
+         2b681fc9aba29f1c0846c9f412579dba21f01b82 riscv: dts: microchip: add the mpfs' system controller qspi & associated flash
+         b27053fdda87802c0035673a77b3435818ab6b78 riscv: dts: microchip: add a dts for the Vauban board
+         a55d227a3492aefbdd18aeaf60fe9aece6deb2a1 fpga: auto-update: add hack to trigger update
          
