@@ -1,82 +1,88 @@
-Content-Type: multipart/mixed; boundary="===============7617023707132038497=="
+Content-Type: multipart/mixed; boundary="===============5818552120488998506=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Wed, 22 Mar 2023 12:24:31 -0000
-Message-Id: <167948787179.25850.11500520331987229458@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/powerpc/linux
+Date: Wed, 22 Mar 2023 12:24:35 -0000
+Message-Id: <167948787538.25910.14293624339769962610@gitolite.kernel.org>
 
---===============7617023707132038497==
+--===============5818552120488998506==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux
-user: gregkh
+repo: pub/scm/linux/kernel/git/powerpc/linux
+user: mpe
 git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: e8d018dd0257f744ca50a729e3d042cf2ec9da65
-    new: a1effab7a3a35a837dd9d2b974a1bc4939df1ad5
-    log: revlist-e8d018dd0257-a1effab7a3a3.txt
+    old: 9c1bec9c0b08abeac72ed6214b723adc224013bf
+    new: 38e04b3e4240a6d8fb43129ebad41608db64bc6f
+    log: revlist-9c1bec9c0b08-38e04b3e4240.txt
 
---===============7617023707132038497==
+--===============5818552120488998506==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1679487868 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1679487867-348b6c4e803a2b2d2b62b5c714d00d7601ba37fa
+pusher Michael Ellerman <mpe@ellerman.id.au> 1679487860 +1100
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/powerpc/linux
+nonce 1679487859-8e2563b7711a963a01924dbda6d87255da4db0b3
 
-e8d018dd0257f744ca50a729e3d042cf2ec9da65 a1effab7a3a35a837dd9d2b974a1bc4939df1ad5 refs/heads/master
+9c1bec9c0b08abeac72ed6214b723adc224013bf 38e04b3e4240a6d8fb43129ebad41608db64bc6f refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQa83wbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+NYkP/2hkA5Y9ly3CoD6OkjGX
-PLWp5oe22dbCKm8O0ttKCK58WKzVuDNHU/r0OkyLk/9Vr5epvncEE+iQO4dNPTJ5
-Vb2/5Ud/e6QaJGtEC/KDARSWoD3cKIZK5GJYXQCc8utqoBZmNOTX96ICSsESre4f
-afSknojyKiA6bsaqX7GhX6cZmRNL4Km+SZ6NWpM3jshFxyGSr2n6LoGe7Ot/rxKp
-2SN2fbf7FUBnrvhDlXYaQBMhE392zl+6WIt2Vth5AiiOhOaIQhljxG/I3eOUBjG9
-p9mb7T2BckyA+JbwwVM0m/8ea5v28+izzgK3gQ/09f/SozCsNlMnIphcOULWLDLw
-9hq01eZynZo1cYCgItmD5eutBYeANSCi+WesOu4B0lB+q8sI3pxLoRuh5/NrSCsk
-UKwDvBs2u/6t+psfhEEMhBlC7ClwQbbteynjIpSeIvPxJffEqdx9p9bNNx0w5pgz
-2mL+s/dqbdCHZgV8Tip/VET8R2TGAYsaIGbrIrT4lUmAubx+I1ncYxSue7lJ2QUM
-my96Wo56JGbwmzzFFnYXdwcvtMc9bGs4FIny2qjzrOmNxO45OJGBRy9u6+GOPcGp
-j0uvSjl+KLIWuiaqupq3JaM4uNcGJ2HLZjvr1G0H+xqKxZUWda7VwJ0HplfLE4BC
-L20pxlvka9OpQBZzN/THqt+v
-=bPTk
+iQJHBAABCAAxFiEEJFGtCPCthwEv2Y/bUevqPMjhpYAFAmQa83QTHG1wZUBlbGxl
+cm1hbi5pZC5hdQAKCRBR6+o8yOGlgK0VD/9l1h8fsOA38KiSILMwqW6L7Hu7U1XU
+4YVDKe6FVrJqLxu8LvXLdtxlwXdbdKe8yD13F2Im02ntDonboH+xmw/93ljKn8wc
+nfJlyecalIyXpKx2O5mHeRVmU39bOm5rS8FY3Era3PI7egnhvi6x0ECoo//XBJWw
+3pZmu1y0WZCL17DagNChqbKGlpAI5PvSSh+rjsFuUUv7EJjjlzyXlfTHb1OxaGa3
+qJus/GaOF76oBuYQd8LZIYpeFod9R9VWlHbo6w1FBf/tACrELo5BeSFNZccJj8jd
+HqjqfOSkrYg3T2wB9Lmy4rtQxZYQZC9YzC5UZESr5UJFV8xJaqL5c5mhWDrmUift
+4j8hbE18/pJmwIKyAPhHxH9ign3REbHnifrQA6mqVFuxOM+x2hZnhOnpx7DXtZji
+GogOrTKKDjnxzToSwfXgCfJOaxGR/sl0ZUEfHBtxAJCKXUUweVfE/fQI0pX/4Rx4
++28tW+GoNR8qKkexatUPvgkW6RxiAyFxZqcM1iLPypXmsoBVJsKVTtJ1Z1GL6SAE
+kbbNaVRpfnbWdT5eUw8rix+PR0n7pf0n9/OO7hFO+Ha5mQCrmKLmPMal+dg0gxXt
+F3zpwFqt5/P7UGwuZEddgpvB3S0aI4N2vVgxUOh3Iw8OCb2c2iEQLM1PEobEgiS4
+Iy3rstljYfbb6g==
+=s2eL
 -----END PGP SIGNATURE-----
 
---===============7617023707132038497==
+--===============5818552120488998506==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e8d018dd0257-a1effab7a3a3.txt
+Content-Disposition: attachment; filename=revlist-9c1bec9c0b08-38e04b3e4240.txt
 
-e57d06527738798039b8e91af762fbd33881b34d NFS & NFSD: Update GSS dependencies
-4928f67bc911e46a43004251a4d7eb2259ba6077 vfio/mlx5: Fix the report of dirty_bytes upon pre-copy
-ccb820dc7d2236b1af0d54ae038a27b5b6d5ae5a fscrypt: destroy keyring after security_sb_delete()
-9c88ea00fef03031ce6554531e89be82f6a42835 NFS: Fix /proc/PID/io read_bytes for buffered reads
-7ff84910c66c9144cc0de9d9deed9fb84c03aff0 lockd: set file_lock start and end when decoding nlm4 testargs
-21fd9e8700de86d1169f6336e97d7a74916ed04a NFS: Correct timing for assigning access cache timestamp
-f959325e6ac3f499450088b8d9c626d1177be160 fsverity: Remove WQ_UNBOUND from fsverity read workqueue
-a075bacde257f755bea0e53400c9f1cdd1b8e8e6 fsverity: don't drop pagecache at end of FS_IOC_ENABLE_VERITY
-27c934dd8832dd40fd34776f916dc201e18b319b nfsd: don't replace page in rq_pages if it's a continuation of last page
-43e5f1d5921128373743585e3275ed9044ef8b8f fscrypt: improve fscrypt_destroy_keyring() documentation
-4bcf6f827a79c59806c695dc280e763c5b6a6813 fscrypt: check for NULL keyring in fscrypt_put_master_key_activeref()
-3d3699bde4b043eea17993e4e76804a8128f0fdb Merge tag 'nfs-for-6.3-2' of git://git.linux-nfs.org/projects/anna/linux-nfs
-7d31677bb7b1944ac89e9155110dc1b9acbb3895 gpu: host1x: fix uninitialized variable use
-4f1e308df88ad25c88ab4240161cbac45ba2d78e Merge tag 'fscrypt-for-linus' of git://git.kernel.org/pub/scm/fs/fscrypt/linux
-17214b70a159c6547df9ae204a6275d983146f6b Merge tag 'fsverity-for-linus' of git://git.kernel.org/pub/scm/fs/fsverity/linux
-47f9e4c924025c5be87959d3335e66fcbb7f6b5c keys: Do not cache key in task struct if key is requested from kernel thread
-4fc5c74dde69a7eda172514aaeb5a7df3600adb3 verify_pefile: relax wrapper length check
-3584c1dbfffdabf8e3dc1dd25748bb38dd01cd43 asymmetric_keys: log on fatal failures in PE/pkcs7
-2faac9a98f010cf5b342fa89ac489c4586364e6e Merge tag 'keys-fixes-20230321' of git://git.kernel.org/pub/scm/linux/kernel/git/dhowells/linux-fs
-a2eaf246f5732519f3dcc34e18fd41909e226284 Merge tag 'nfsd-6.3-3' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
-a1effab7a3a35a837dd9d2b974a1bc4939df1ad5 Merge tag 'vfio-v6.3-rc4' of https://github.com/awilliam/linux-vfio
+d0dc41119905f740e8d5594adce277f7c0de8c92 cifs: Move the in_send statistic to __smb_send_rqst()
+47053904e18282af4525a02e3e0f519f014fc7f9 KVM: arm64: timers: Convert per-vcpu virtual offset to a global value
+bceeedb2f0b803fa188b931b30c064ee60196f09 Merge tag 'kvmarm-fixes-6.3-1' of git://git.kernel.org/pub/scm/linux/kernel/git/kvmarm/kvmarm into HEAD
+112e66017bff7f2837030f34c2bc19501e9212d5 KVM: nVMX: add missing consistency checks for CR0 and CR4
+77900bffed14894476969042718a9ca05eb1f477 KVM: nVMX: remove unnecessary #ifdef
+06e18547286068be803ba28c6d1c377e94f8745b KVM: VMX: Fix indentation coding style issue
+53293cb81be6db06306666d51e85778725934be5 KVM: VMX: Use tabs instead of spaces for indentation
+3dc40cf89b9b763910cb0540a35f9d66a067475d selftests: KVM: skip hugetlb tests if huge pages are not available
+3ec7a1b2743c07c45f4a0c508114f6cb410ddef3 KVM: SVM: Fix a benign off-by-one bug in AVIC physical table mask
+5999715922c5a3ede5d8fe2a6b17aba58a157d41 KVM: SVM: Modify AVIC GATag to support max number of 512 vCPUs
+c281794eaa5c635c0edf39c6a9a3b0171000e92f KVM: SVM: WARN if GATag generation drops VM or vCPU ID information
+4009e0bb7b83d967a14e108d271f003b378f9af9 KVM: selftests: Move the guts of kvm_hypercall() to a separate macro
+c0c76d99939cb4ac28cbc5ce542cff2b9e1e1b02 KVM: selftests: Add helpers to make Xen-style VMCALL/VMMCALL hypercalls
+e7062a98d0b3e0b42089f4c5da633a1ce41b807f KVM: selftests: Use enum for test numbers in xen_shinfo_test
+e6239a4ec5c51e4d5ee4d1604f741f490c32054c KVM: selftests: Add EVTCHNOP_send slow path test to xen_shinfo_test
+c96f57b08012805da323c6bdf929bab1b88d250c KVM: selftests: Make vCPU exit reason test assertion common
+6f974494b8077bb1a2a10fe33f62c143f246f102 KVM: selftests: Print expected and actual exit reason in KVM exit reason assert
+1b3d660e5d7b8b408a2b0988de65672199ebfaf2 KVM: selftests: Add macro to generate KVM exit reason strings
+f3e707413dbe3920a972d0c2b51175180e7de36b KVM: selftests: Sync KVM exit reasons in selftests
+211baef0eabf4169ce4f73ebd917749d1a7edd74 cifs: Fix smb2_set_path_size()
+05ce0448c3f36febd8db0ee0e9e16557f3ab5ee8 cifs: generate signkey for the channel that's reconnecting
+b56bce502f55505a97e381d546ee881928183126 cifs: set DFS root session in cifs_get_smb_ses()
+396935de145589c8bfe552fa03a5e38604071829 cifs: fix use-after-free bug in refresh_cache_worker()
+f446a630802f154ef0087771683bd4f8e9d08384 cifs: return DFS root session id in DebugData
+6284e46bdd47743a064fe6ac834a7ac05b1fd206 cifs: use DFS root session instead of tcon ses
+0ddc84d2dd43e2c2c3f634baa05ea10abd31197e Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
+38e04b3e4240a6d8fb43129ebad41608db64bc6f Merge tag '6.3-rc2-smb3-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
 
---===============7617023707132038497==--
+--===============5818552120488998506==--
