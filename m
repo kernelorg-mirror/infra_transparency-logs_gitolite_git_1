@@ -1,29 +1,55 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jpoimboe/linux
-Date: Wed, 22 Mar 2023 05:11:24 -0000
-Message-Id: <167946188486.12988.8680375670497123760@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============2118041156770523424=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/clk/linux
+Date: Wed, 22 Mar 2023 05:20:11 -0000
+Message-Id: <167946241189.20130.9140379008751994203@gitolite.kernel.org>
+
+--===============2118041156770523424==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jpoimboe/linux
-user: jpoimboe
+repo: pub/scm/linux/kernel/git/clk/linux
+user: sboyd
 changes:
-  - ref: refs/heads/static-call-null-4
-    old: 99a484ab8cf69008f50c0cc79d3ebec8d67ebc2d
-    new: 67517470624490a1d82c0b3a5e744a72d325b4af
+  - ref: refs/heads/clk-fixes
+    old: 47d43086531f10539470a63e8ad92803e686a3dd
+    new: 632e04739c8f45c2d9ca4d4c5bd18d80c2ac9296
     log: |
-         0aed0e72eafb1d6c57af36b579f544c2647369cf static_call: Improve key type abstraction
-         4b463a0a26d2e9bced0def0771a40af6eb2e4b5e static_call: Flip key type union bit
-         b79a3f087729025e2898b31752437db44a761935 static_call: Remove static_call_mod_init() declaration
-         168ea060ca1ef89c02f30dc6180448b362a31ab8 static_call: Remove static_call.h dependency on cpu.h
-         049be348ce1aeda70969a15f99cb270c16827e7b static_call: Make ARCH_ADD_TRAMP_KEY() generic
-         e48866851f80f0ad327b682269794b90270fe3e9 static_call: "EXPORT_STATIC_CALL_TRAMP" -> "EXPORT_STATIC_CALL_RO"
-         6f46fd85e031a09d16ccd8fd6fafea08028c1a07 static_call: Reorganize static call headers
-         a803b770867cf5e9f3bd0cf42f0c32e581bf60be arm64/static_call: Fix static call CFI violations
-         125bab09dcc7914b0dc37b8ef4d1770ec4e7501e static_call: Make NULL static calls consistent
-         37c88ccaa010352cab740b041814daee2b226a21 static_call: Remove static_call_cond()
-         67517470624490a1d82c0b3a5e744a72d325b4af static_call: Remove DEFINE_STATIC_CALL_RET0()
+         f420f47e56c67587d9bc8f94267327b6fb214c1d clk: imx6ul: fix "failed to get parent" error
+         632e04739c8f45c2d9ca4d4c5bd18d80c2ac9296 clk: rs9: Fix suspend/resume
          
+  - ref: refs/heads/clk-next
+    old: 61a672cbb14d55c1cee9e87179739025cefe815e
+    new: ea09982f97815d8e584724aa581657230e67516f
+    log: revlist-61a672cbb14d-ea09982f9781.txt
+
+--===============2118041156770523424==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-61a672cbb14d-ea09982f9781.txt
+
+f420f47e56c67587d9bc8f94267327b6fb214c1d clk: imx6ul: fix "failed to get parent" error
+0c862a3e4619ca363fb3198e92bf1b619ad536a9 Merge branch 'clk-fixes' into clk-next
+d54c1fd4a51e8fbc7f9da86b0cd338a4f7cd2bb2 clk: Add Sunplus SP7021 clock driver
+26e2b0f81a7e9d6f02eef055bdfb7397e6160d1d Merge branch 'clk-sunplus' into clk-next
+632e04739c8f45c2d9ca4d4c5bd18d80c2ac9296 clk: rs9: Fix suspend/resume
+33920bc3f4fd3478a0fa2ef8c4e94e689fcc439a Merge branch 'clk-fixes' into clk-next
+12de2f50244efdbc8e98f89a340255c3c847e1dc dt-bindings: clock: Add Loongson-1 clock
+c46496119ed07be49537fcb61fa07a34e9a726b2 clk: loongson1: Remove the outdated driver
+fbdb1873656be002df069b7a235c202aefcfdf2e clk: loongson1: Re-implement the clock driver
+b927c76c805432cc66e1cee67e1209514868c873 MIPS: loongson32: Update the clock initialization
+c0e3eb47ad53ec3566209d34578f5e431c01ef88 Merge branch 'clk-loongson' into clk-next
+488018957c72498e9a30db6258d48dbd6c4ceb57 clk: socfpga: use of_clk_add_hw_provider and improve error handling
+da939f6d8080ad12415240c584de03816fd575b8 clk: socfpga: arria10: use of_clk_add_hw_provider and improve error handling
+85f1b574059d88f4b7f5dc0401f3745b305476f9 clk: socfpga: use of_clk_add_hw_provider and improve error handling
+6e83bd71c0cf196b52e3cb69c26b0cc579fe4c6c clk: socfpga: arria10: use of_clk_add_hw_provider and improve error handling
+00720a904877bb7e5f16e5ca409391bdd64ea5c4 clk: socfpga: use of_clk_add_hw_provider and improve error handling
+3dc6faa3ab0260c1d2058d45f0a93928f917348a clk: socfpga: arria10: use of_clk_add_hw_provider and improve error handling
+ea09982f97815d8e584724aa581657230e67516f Merge branch 'clk-socfpga' into clk-next
+
+--===============2118041156770523424==--
