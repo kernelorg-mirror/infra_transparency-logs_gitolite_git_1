@@ -1,51 +1,76 @@
-Content-Type: multipart/mixed; boundary="===============3705212892754690600=="
+Content-Type: multipart/mixed; boundary="===============2076872762606037702=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mcgrof/linux
-Date: Wed, 22 Mar 2023 23:39:52 -0000
-Message-Id: <167952839248.31844.12862837272928651298@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mmind/linux-rockchip
+Date: Wed, 22 Mar 2023 23:40:13 -0000
+Message-Id: <167952841326.1175.13345473858350816996@gitolite.kernel.org>
 
---===============3705212892754690600==
+--===============2076872762606037702==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mcgrof/linux
-user: mcgrof
+repo: pub/scm/linux/kernel/git/mmind/linux-rockchip
+user: mmind
 changes:
-  - ref: refs/heads/modules-next
-    old: 10e533d84726c863986933a47a02779b1d81ca2d
-    new: 6e82310365bade624ff38dd11a8467739adab6cc
-    log: revlist-10e533d84726-6e82310365ba.txt
+  - ref: refs/heads/for-next
+    old: 6d6761582819dd36bbacffc64a2d96cac2330eb3
+    new: 52964e8dd25b558e055f94b86330e2c3e69dc97e
+    log: revlist-6d6761582819-52964e8dd25b.txt
+  - ref: refs/heads/v6.3-armsoc/dtsfixes
+    old: 78aedee18a86abb0bb8e31d994467c46656e9b5d
+    new: b37115b6534c4027df75854a44b485596d368171
+    log: |
+         b37115b6534c4027df75854a44b485596d368171 arm64: dts: rockchip: add rk3588 cache level information
+         
+  - ref: refs/heads/v6.4-armsoc/dts64
+    old: c6629b9a6738a64507478527da6c7b83c10a6d2c
+    new: cadda005961cd6a202ae6f8ff99f2bba35a31dc8
+    log: revlist-c6629b9a6738-cadda005961c.txt
 
---===============3705212892754690600==
+--===============2076872762606037702==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-10e533d84726-6e82310365ba.txt
+Content-Disposition: attachment; filename=revlist-6d6761582819-52964e8dd25b.txt
 
-a467459a2ee310a89566a7b59afccc7cf2b479de module: move get_modinfo() helpers all above
-7f678bfd670e192a851c189985accbc778b54677 module: rename next_string() to module_next_tag_pair()
-c23285bbe48ffe0a5c11adb834461dccfd4b4cc2 module: add a for_each_modinfo_entry()
-1dc7674119b00d1a57d2641976f22f50fa0d375a module: move early sanity checks into a helper
-6acaeff7e575891cba0fbe3302aa06cf974f58c3 module: move check_modinfo() early to early_mod_check()
-75a5f047d46b9e27dba95466d2ad690d3bf30eb8 module: rename set_license() to module_license_taint_check()
-04d65d381c1bca0e62b634bc63a565c26d7facd6 module: split taint work out of check_modinfo_livepatch()
-f3d86cdb5fad10a4e658678f055bf45ed6e08f7d module: split taint adding with info checking
-50f59fce0fbbab096ec98f1e81977071a4e64d1a module: move tainting until after a module hits our linked list
-4b53823393d8640931bdc53224b82abf31363f33 module: move signature taint to module_augment_kernel_taints()
-43ecc4e7944476f34778e492c2679f9597a34b3c module: converge taint work together
-251729396e5bdfc17c4711459811a2946128c635 module: rename check_module_license_and_versions() to check_export_symbol_versions()
-e1cd199071d76f7ea9078ef2b931da2763983fe9 module: add sanity check for ELF module section
-5d574e4cbfdc4bb4ab121a9aabd9cf1ad189423d module: add stop-grap sanity check on module memcpy()
-6b3017001d959de58c4f97d8decfcf52962169a8 module: move more elf validity checks to elf_validity_check()
-9758bbb01d3d54173979b82c73f6828969d4b3af module: merge remnants of setup_load_info() to elf validation
-d6f819908f8aac733aab062854cc9142be1ae216 module: fold usermode helper kmod into modules directory
-4ab9c7dca82f215fa596fb61192384e4c922bf9c module: in layout_sections, move_module: add the modname
-9f5d69a7852db158bc9f5c5afa105ce12058afc3 module: add symbol-name to pr_debug Absolute symbol
-8cf2cfac04e4b24dfc4371306e202b09ab574a80 module: add section-size to move_module pr_debug
-6e82310365bade624ff38dd11a8467739adab6cc module: already_uses() - reduce pr_debug output volume
+b37115b6534c4027df75854a44b485596d368171 arm64: dts: rockchip: add rk3588 cache level information
+c8ec73b05a95d9f0969ae0f28dd8799a54fcdfc7 arm64: dts: rockchip: create common dtsi for NanoPi R5 series
+7d4fc70351d155699fe41949d16ce696885a4ca8 dt-bindings: Add doc for FriendlyARM NanoPi R5C
+05620031408ac6cfc6d5c048431827e49aa0ade1 arm64: dts: rockchip: Add FriendlyARM NanoPi R5C
+31425b1fadb2040b359e52ffc24c049a78d56c96 arm64: dts: rockchip: fix gmac support for NanoPi R5S
+975e9bbad11950fc8276f1fa260d8bf2c341aa41 arm64: dts: rockchip: remove I2S1 TDM node for the NanoPi R5 series
+ea2d16f90629e3158307d0183cad5c40aa55c995 ARM: dts: rockchip: fix rk3288 dsi node
+8a19e4c74d17ed8d1e6bc06b32c5b7b7c3b9fcfb ARM: dts: rockchip: fix rk3288 lvds node
+95e2ac6ae9f2330557a6aef70bf15173e1dd9714 ARM: dts: rockchip: fix rk3288 dp node
+0d5e24918976edffffee006e07730434a36d264a arm64: dts: rockchip: fix px30 lvds node
+30322f812d4e0e75e2488c1d45aba94e51dd19bb arm64: dts: rockchip: fix px30 dsi node
+f82fe7ad31530b38d2f61aa6ae68bd35c33f4ad0 arm64: dts: rockchip: fix rk3399 dsi node
+d94024bd6342c6f3e88c5fac785a685c1974d48e arm64: dts: rockchip: fix rk3399 dp node
+fc440ea1732abb714150bb8f3d90672ccc679e2d arm64: dts: rockchip: rename vbus-supply to phy-supply in rk3566-box-demo.dts
+cadda005961cd6a202ae6f8ff99f2bba35a31dc8 arm64: dts: rockchip: remove hclk from dsi node on rk356x
+8bcda705220025788e86b8c49f6eda1ec75ffecc Merge branch 'v6.3-armsoc/dtsfixes' into for-next
+74e5b858baec80fb14426ff27dc29996e9ecdd50 Merge branch 'v6.4-armsoc/dts32' into for-next
+52964e8dd25b558e055f94b86330e2c3e69dc97e Merge branch 'v6.4-armsoc/dts64' into for-next
 
---===============3705212892754690600==--
+--===============2076872762606037702==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-c6629b9a6738-cadda005961c.txt
+
+c8ec73b05a95d9f0969ae0f28dd8799a54fcdfc7 arm64: dts: rockchip: create common dtsi for NanoPi R5 series
+7d4fc70351d155699fe41949d16ce696885a4ca8 dt-bindings: Add doc for FriendlyARM NanoPi R5C
+05620031408ac6cfc6d5c048431827e49aa0ade1 arm64: dts: rockchip: Add FriendlyARM NanoPi R5C
+31425b1fadb2040b359e52ffc24c049a78d56c96 arm64: dts: rockchip: fix gmac support for NanoPi R5S
+975e9bbad11950fc8276f1fa260d8bf2c341aa41 arm64: dts: rockchip: remove I2S1 TDM node for the NanoPi R5 series
+0d5e24918976edffffee006e07730434a36d264a arm64: dts: rockchip: fix px30 lvds node
+30322f812d4e0e75e2488c1d45aba94e51dd19bb arm64: dts: rockchip: fix px30 dsi node
+f82fe7ad31530b38d2f61aa6ae68bd35c33f4ad0 arm64: dts: rockchip: fix rk3399 dsi node
+d94024bd6342c6f3e88c5fac785a685c1974d48e arm64: dts: rockchip: fix rk3399 dp node
+fc440ea1732abb714150bb8f3d90672ccc679e2d arm64: dts: rockchip: rename vbus-supply to phy-supply in rk3566-box-demo.dts
+cadda005961cd6a202ae6f8ff99f2bba35a31dc8 arm64: dts: rockchip: remove hclk from dsi node on rk356x
+
+--===============2076872762606037702==--
