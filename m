@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1764096977492065161=="
+Content-Type: multipart/mixed; boundary="===============3622940820598584080=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
-Date: Thu, 23 Mar 2023 07:22:42 -0000
-Message-Id: <167955616258.27102.793091907393135946@gitolite.kernel.org>
+Date: Thu, 23 Mar 2023 07:22:52 -0000
+Message-Id: <167955617223.27196.16518566316007162856@gitolite.kernel.org>
 
---===============1764096977492065161==
+--===============3622940820598584080==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/johan/usb-serial
 user: johan
 changes:
-  - ref: refs/heads/usb-next
+  - ref: refs/heads/master
     old: eeac8ede17557680855031c6f305ece2378af326
     new: e8d018dd0257f744ca50a729e3d042cf2ec9da65
     log: revlist-eeac8ede1755-e8d018dd0257.txt
 
---===============1764096977492065161==
+--===============3622940820598584080==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -499,4 +499,4 @@ a98151ad53b53f010ee364ec2fd06445b328578b ring-buffer: remove obsolete comment fo
 eaba52d63bfcf0047ce3a1bb011b35d4f066df8e Merge tag 'trace-v6.3-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 e8d018dd0257f744ca50a729e3d042cf2ec9da65 Linux 6.3-rc3
 
---===============1764096977492065161==--
+--===============3622940820598584080==--
