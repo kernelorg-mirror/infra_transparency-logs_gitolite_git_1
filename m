@@ -1,20 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ras/ras
-Date: Thu, 23 Mar 2023 11:06:16 -0000
-Message-Id: <167956957695.28894.9990930651698931556@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/efi/efi
+Date: Thu, 23 Mar 2023 11:29:13 -0000
+Message-Id: <167957095368.11004.1967969824331769222@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ras/ras
-user: bp
+repo: pub/scm/linux/kernel/git/efi/efi
+user: ardb
 changes:
-  - ref: refs/heads/edac-for-next
-    old: 50f6bc3d1bb065cb9328b06def9b9fd219b8b359
-    new: 196088de1ab2eee0448b891cd3b81a40d860ee3b
+  - ref: refs/heads/urgent
+    old: 10e9aa1d82f64760fc41e4b994ca1689f4cee4ae
+    new: fc3608aaa5751318837e4bbe0282b3836bca5080
     log: |
-         5b6cb45072c03f0e0f0eff2dce2fe683cbbb9bf6 EDAC/i5100: Fix typo in comment
-         196088de1ab2eee0448b891cd3b81a40d860ee3b Merge ras/edac-misc into for-next
+         fc3608aaa5751318837e4bbe0282b3836bca5080 efi/libstub: Use relocated version of kernel's struct screen_info
+         
+  - ref: refs/tags/efi-fixes-for-v6.3-1
+    old: 533cdaa33f2a91148a2b6e721137a0e0a1d9f65c
+    new: 53094be53deabffae5bec015c47cce060d32dacc
+    log: |
+         fc3608aaa5751318837e4bbe0282b3836bca5080 efi/libstub: Use relocated version of kernel's struct screen_info
          
