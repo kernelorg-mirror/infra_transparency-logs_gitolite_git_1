@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
-Date: Thu, 23 Mar 2023 23:46:41 -0000
-Message-Id: <167961520139.22816.17908734257691960818@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Thu, 23 Mar 2023 23:52:20 -0000
+Message-Id: <167961554047.26118.6010985163477868553@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/conor/linux
-user: conor
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/riscv-xip_plus_fpu
-    old: f8d6b9e1d290389042b8042ecfa061068d0c1b40
-    new: 8e0915f7b3b9f85cd8a0e10057d5c3ee87300e7e
-    log: |
-         71bf5ecf58f85728ab0e6c8e643f99e094f8556f RISC-V: add non-alternative fallback for riscv_has_extension_[un]likely()
-         ffc3cc4bf6d773ed0fe3fd6170499bc5bddd441c RISC-V: always select RISCV_ALTERNATIVE for non-xip kernels
-         8e0915f7b3b9f85cd8a0e10057d5c3ee87300e7e RISC-V: align Svpbmt Kconfig help text with other extensions
-         
+  - ref: refs/heads/dev.2023.03.22a
+    old: 0000000000000000000000000000000000000000
+    new: 33494b924da8809e1ade9ae2346f6d99313f1d9b
+  - ref: refs/heads/dev.2023.03.22b
+    old: 0000000000000000000000000000000000000000
+    new: 6c104ef06e7fcd7a66237e2ffbac435e00503eed
