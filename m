@@ -1,131 +1,62 @@
-Content-Type: multipart/mixed; boundary="===============7483142462359437505=="
+Content-Type: multipart/mixed; boundary="===============0467797158939736953=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jfern/linux
-Date: Thu, 23 Mar 2023 19:23:48 -0000
-Message-Id: <167959942838.7233.10906713396728116417@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
+Date: Thu, 23 Mar 2023 19:37:16 -0000
+Message-Id: <167960023616.16056.10985545608813854551@gitolite.kernel.org>
 
---===============7483142462359437505==
+--===============0467797158939736953==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jfern/linux
-user: jfern
+repo: pub/scm/linux/kernel/git/leon/linux-rdma
+user: leon
 changes:
-  - ref: refs/heads/rcu/staging
-    old: a30299c3261c9f5f2e66161eb8f6b0ca3fd77dd8
-    new: 26cc477c9b07b48c0b09fe3c3b0c03c4434fa7ad
-    log: revlist-a30299c3261c-26cc477c9b07.txt
-  - ref: refs/heads/rcu/staging-core
-    old: 6324a49dafed51c19d0b90e10ad8d3fc987ab6c2
-    new: 9398e1c056784398fc9a1ad3aba352cb1f2c14a1
-    log: revlist-6324a49dafed-9398e1c05678.txt
-  - ref: refs/heads/rcu/staging-docs
-    old: 38a4a8225e0de1f1e60bc1d63f5c4586f60d6d45
-    new: 47ebda4215fe2d171da9d15974ee773aa3035dce
-    log: |
-         eb3b84a9766d2b81618f27f65dd6a6d6b4f699dd rcu: Further comment and explain the state space of GP sequences
-         7ed3ffdd416a7cff31820587007a3d1930c70d6b srcu: Add comments for srcu_size_state
-         0254d5cb90bccd683aa3af4bf03332fcee70891e Documentation/RCU: s/not/note/ in checklist.rst
-         8ff7dc796aa48afc8e590dfb9a236eea83000268 srcu: Clarify comments on memory barrier "E"
-         af2ff87604c2e78aba5b783083e9bb3af0543c1c Documentation: RCU: Correct spelling
-         d62b70263be4104ccd7365884eabd35be2ca096b doc: Update whatisRCU.rst
-         47ebda4215fe2d171da9d15974ee773aa3035dce rcu: Add comment to rcu_do_batch() identifying rcuoc code path
-         
-  - ref: refs/heads/rcu/staging-kfree
-    old: 0d3b69c2281258dafff3986089f68f13248261f5
-    new: e20a27a2926959b25b7598e0d36d3af9da0129f7
-    log: revlist-0d3b69c22812-e20a27a29269.txt
-  - ref: refs/remotes/fbq/rcu/lockdep.2023.03.22a
-    old: 0000000000000000000000000000000000000000
-    new: 450ef54e199f5b8f2fdeed33f292a44ab6778d95
-  - ref: refs/tags/rcu.6.4.march23.2023.1
-    old: 0000000000000000000000000000000000000000
-    new: 26cc477c9b07b48c0b09fe3c3b0c03c4434fa7ad
+  - ref: refs/heads/xfrm-next
+    old: 2e5a347959dca63bca293ac6b435ca1fa64a681d
+    new: 2c905a039d9032c263b9d04c2295bf3efdca6951
+    log: revlist-2e5a347959dc-2c905a039d90.txt
 
---===============7483142462359437505==
+--===============0467797158939736953==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a30299c3261c-26cc477c9b07.txt
+Content-Disposition: attachment; filename=revlist-2e5a347959dc-2c905a039d90.txt
 
-783e8d3bf417c1a70a3911e5bc842ef429c579b2 locking/lockdep: Introduce lock_sync()
-1cc0f80d8c0f2c62ac4cedeb6121f3a117d0fbd5 rcu: Annotate SRCU's update-side lockdep dependencies
-2df8bfdb4cfcb9f969c31c9055a7fe06a3f014c3 locking: Reduce the number of locks in ww_mutex stress tests
-2cebcc0297f239eda8854aed29bf6ea37a56f6e0 locking/lockdep: Improve the deadlock scenario print for sync and read lock
-d2f8ce6a4223fea2cebd6978963e3f2d9eae01fc rcutorture: Add SRCU deadlock scenarios
-0010a4d10a701568a6c3217d5a260299aff6bde3 rcutorture: Add RCU Tasks Trace and SRCU deadlock scenarios
-450ef54e199f5b8f2fdeed33f292a44ab6778d95 rcutorture: Add srcu_lockdep.sh
-eb3b84a9766d2b81618f27f65dd6a6d6b4f699dd rcu: Further comment and explain the state space of GP sequences
-7ed3ffdd416a7cff31820587007a3d1930c70d6b srcu: Add comments for srcu_size_state
-0254d5cb90bccd683aa3af4bf03332fcee70891e Documentation/RCU: s/not/note/ in checklist.rst
-8ff7dc796aa48afc8e590dfb9a236eea83000268 srcu: Clarify comments on memory barrier "E"
-af2ff87604c2e78aba5b783083e9bb3af0543c1c Documentation: RCU: Correct spelling
-d62b70263be4104ccd7365884eabd35be2ca096b doc: Update whatisRCU.rst
-47ebda4215fe2d171da9d15974ee773aa3035dce rcu: Add comment to rcu_do_batch() identifying rcuoc code path
-a468bc139db2e5610b1f2f37e51b712e8e4cd54c tick/nohz: Fix cpu_is_hotpluggable() by checking with nohz subsystem
-275093621d054060220a7c76281fa9fd56d9b904 rcu/trace: use strscpy() to instead of strncpy()
-9dc7dcd8b64e0e2d91e6141a63dc8ffebab48d91 rcu: Fix set/clear TICK_DEP_BIT_RCU_EXP bitmask race
-19a7ef0b7d885ccc60f76c7c7e2ddbf761077997 rcu: Fix missing TICK_DEP_MASK_RCU_EXP dependency check
-f5e7b99457b033faffc19a383a2d31315533cd7e rcu: Register rcu-lazy shrinker only for CONFIG_RCU_LAZY=y kernels
-96badcb8011bb4ffb9aa39d4ea71920b4a8352fd rcu: Remove never-set needwake assignment from rcu_report_qs_rdp()
-f26278e70bc7bcfdc9b27cea316a237f5ba5368f rcu: Permit start_poll_synchronize_rcu_expedited() to be invoked early
-24c15d3ba556ba88b5a278bd72002a0242cc3ce9 rcu-tasks: Report stalls during synchronize_srcu() in rcu_tasks_postscan()
-4f3862e117fcf046d943371843b148cb52e0d89d rcu: Avoid stack overflow due to __rcu_irq_enter_check_tick() being kprobe-ed
-e20a27a2926959b25b7598e0d36d3af9da0129f7 rcu: Protect rcu_print_task_exp_stall() ->exp_tasks access
-4fe651ba9ee6474dbeb980411b127e189bf3bad2 MAINTAINERS: Change Joel Fernandes from R: to M:
-0052554d49ec266909e47617cd6de4a4dcb8543c MAINTAINERS: Add Boqun to RCU entry
-2e3df0e3d306458b67506f25196f06ab91cd2e16 MAINTAINERS: Add Zqiang as a RCU reviewer
-594d97b3b9f3d70a397ab64d384fc14aebce35d9 tick/nohz: Fix cpu_is_hotpluggable() by checking with nohz subsystem
-9270d83d2d0b8b6732edd0c68fe75e52ec9a14ad rcu/trace: use strscpy() to instead of strncpy()
-cda70c61568c56687e76b2accf7130796754c4a4 rcu: Fix set/clear TICK_DEP_BIT_RCU_EXP bitmask race
-712f945afe76d8447bdb8e2d0f9fbca5538f7eab rcu: Fix missing TICK_DEP_MASK_RCU_EXP dependency check
-df6306ee2ad5acd4e8dce95b34503e6a812a5565 rcu: Register rcu-lazy shrinker only for CONFIG_RCU_LAZY=y kernels
-9ce991745e83f1bfa285b7f9c1b33204381ef05a rcu: Remove never-set needwake assignment from rcu_report_qs_rdp()
-21a38a4e08db7c121868f9fbb896fce5e567c4f3 rcu: Permit start_poll_synchronize_rcu_expedited() to be invoked early
-6a39ba3dadba6feed8fc1d9005095cdcbf694a53 rcu-tasks: Report stalls during synchronize_srcu() in rcu_tasks_postscan()
-0cd97ebe1a4f25646b9e16c05cd356251039efdb rcu: Avoid stack overflow due to __rcu_irq_enter_check_tick() being kprobe-ed
-9398e1c056784398fc9a1ad3aba352cb1f2c14a1 rcu: Protect rcu_print_task_exp_stall() ->exp_tasks access
-26cc477c9b07b48c0b09fe3c3b0c03c4434fa7ad Merge branches 'rcu/staging-core', 'rcu/staging-docs' and 'rcu/staging-kfree', remote-tracking branches 'fbq/rcu/lockdep.2023.03.22a' and 'fbq/rcu/rcutorture.2023.03.20a' into rcu/staging
+1af2fed33c62ff010a1722320d63720819cc1e6c net/mlx5: fs_chains: Refactor to detach chains from tc usage
+1d118e31404810ea5567988b9c32bd7e833772eb net/mlx5: fs_core: Allow ignore_flow_level on TX dest
+51e636043708c6eaa7b1f707c47f4fadf307ce98 net/mlx5e: Use chains for IPsec policy priority offload
+e2770cfccf43dff7cf133cfd8eb44e9650725e14 xfrm: add new device offload acquire flag
+3541d7b2be27bfcc1a2b7c9e48ea028047ecef2f xfrm: copy_to_user_state fetch offloaded SA packets/bytes statistics
+59f413992a0e3c20cd7f6f4e8a034a42ca0b90e4 net/mlx5e: Allow policies with reqid 0, to support IKE policy holes
+e658ca57aa89473bb121e86db2792a9dc4325310 net/mlx5e: Support IPsec acquire default SA
+1b27d0b2040e9ce8c406cc3498453db08b2366c9 net/mlx5e: Use one rule to count all IPsec Tx offloaded traffic
+63c8a0aaccf51019f549e9e3241022d80ae7a793 net/mlx5e: Update IPsec per SA packets/bytes count
+0502a3e704836b9686f722c6a60c40e3b1e63ca5 net/mlx5e: Factor out IPsec ASO update function
+26db498e5843af613ef796f3597f5fd0e7bdd7ac net/mlx5e: Prevent zero IPsec soft/hard limits
+7411a1a28d238b5946e921fb5239e3e30a9d440a net/mlx5e: Add SW implementation to support IPsec 64 bit soft and hard limits
+6e4b7fbb10ea06dc35b9e027e9917c08d37924aa net/mlx5e: Overcome slow response for first IPsec ASO WQE
+c1c2580e4679e333d8454786554db276977e498e xfrm: don't require advance ESN callback for packet offload
+255fe10578268432a288d4f1e6b22ab31dd15943 net/mlx5e: Remove ESN callbacks if it is not supported
+eba54f25c97bd2b245aa300489f5dcf4463c2103 net/mlx5e: Set IPsec replay sequence numbers
+af3785ab3abd3bbf7a0b3b684705de2eae97cd04 net/mlx5e: Reduce contention in IPsec workqueue
+195bd035bbbbe1b8d0b54d2867d50807034092e9 net/mlx5e: Generalize IPsec work structs
+19ddc5749d3bdadd41d019b609e874a10d05e8c3 net/mlx5e: Simulate missing IPsec TX limits hardware functionality
+e4a0c46825234187b49bbfe01b64da2a957aca03 net/mlx5e: Add IPsec packet offload tunnel bits
+d587ad4f11c43b98647ee032f00cc3c3d164db07 net/mlx5e: Check IPsec packet offload tunnel capabilities
+df20e5a16fc163791924ae91c82105ffd6af6bcf net/mlx5e: Configure IPsec SA tables to support tunnel mode
+1830af93bdad2e6029e9b88bf4fd6816887f72b2 net/mlx5e: Prepare IPsec packet reformat code for tunnel mode
+3c98a7e620376242dc60d010d65838a400a24aae net/mlx5e: Support IPsec RX packet offload in tunnel mode
+814844dd9840cb7f9018097276e6f535ec4d3c42 net/mlx5e: Support IPsec TX packet offload in tunnel mode
+29234bf8e747810ac77b741c86324a90a8764d0d net/mlx5e: Listen to ARP events to update IPsec L2 headers in tunnel mode
+a83a33bc956fd3448b2118babc16e778edce7e59 net/mlx5: Allow blocking encap changes in eswitch
+a9bc6306602dbd5db96a6f26ea9b131aa1e235bd net/mlx5e: Create IPsec table with tunnel support only when encap is disabled
+ef6c1ccc2435dd46b703b4b2aa0248709ead1763 net/mlx5e: Accept tunnel mode for IPsec packet offload
+0da7aadb04b51f8950713e77c1ceb7403a782b09 net/mlx5e: Fix FW error while setting IPsec policy block action
+179d759816dd0fae3e407b48417acfa116a72f55 net/mlx5: Don't overwrite extack message returned from IPsec SA validator
+2c905a039d9032c263b9d04c2295bf3efdca6951 net/mlx5e: Compare all fields in IPv6 address
 
---===============7483142462359437505==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6324a49dafed-9398e1c05678.txt
-
-4fe651ba9ee6474dbeb980411b127e189bf3bad2 MAINTAINERS: Change Joel Fernandes from R: to M:
-0052554d49ec266909e47617cd6de4a4dcb8543c MAINTAINERS: Add Boqun to RCU entry
-2e3df0e3d306458b67506f25196f06ab91cd2e16 MAINTAINERS: Add Zqiang as a RCU reviewer
-594d97b3b9f3d70a397ab64d384fc14aebce35d9 tick/nohz: Fix cpu_is_hotpluggable() by checking with nohz subsystem
-9270d83d2d0b8b6732edd0c68fe75e52ec9a14ad rcu/trace: use strscpy() to instead of strncpy()
-cda70c61568c56687e76b2accf7130796754c4a4 rcu: Fix set/clear TICK_DEP_BIT_RCU_EXP bitmask race
-712f945afe76d8447bdb8e2d0f9fbca5538f7eab rcu: Fix missing TICK_DEP_MASK_RCU_EXP dependency check
-df6306ee2ad5acd4e8dce95b34503e6a812a5565 rcu: Register rcu-lazy shrinker only for CONFIG_RCU_LAZY=y kernels
-9ce991745e83f1bfa285b7f9c1b33204381ef05a rcu: Remove never-set needwake assignment from rcu_report_qs_rdp()
-21a38a4e08db7c121868f9fbb896fce5e567c4f3 rcu: Permit start_poll_synchronize_rcu_expedited() to be invoked early
-6a39ba3dadba6feed8fc1d9005095cdcbf694a53 rcu-tasks: Report stalls during synchronize_srcu() in rcu_tasks_postscan()
-0cd97ebe1a4f25646b9e16c05cd356251039efdb rcu: Avoid stack overflow due to __rcu_irq_enter_check_tick() being kprobe-ed
-9398e1c056784398fc9a1ad3aba352cb1f2c14a1 rcu: Protect rcu_print_task_exp_stall() ->exp_tasks access
-
---===============7483142462359437505==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0d3b69c22812-e20a27a29269.txt
-
-a468bc139db2e5610b1f2f37e51b712e8e4cd54c tick/nohz: Fix cpu_is_hotpluggable() by checking with nohz subsystem
-275093621d054060220a7c76281fa9fd56d9b904 rcu/trace: use strscpy() to instead of strncpy()
-9dc7dcd8b64e0e2d91e6141a63dc8ffebab48d91 rcu: Fix set/clear TICK_DEP_BIT_RCU_EXP bitmask race
-19a7ef0b7d885ccc60f76c7c7e2ddbf761077997 rcu: Fix missing TICK_DEP_MASK_RCU_EXP dependency check
-f5e7b99457b033faffc19a383a2d31315533cd7e rcu: Register rcu-lazy shrinker only for CONFIG_RCU_LAZY=y kernels
-96badcb8011bb4ffb9aa39d4ea71920b4a8352fd rcu: Remove never-set needwake assignment from rcu_report_qs_rdp()
-f26278e70bc7bcfdc9b27cea316a237f5ba5368f rcu: Permit start_poll_synchronize_rcu_expedited() to be invoked early
-24c15d3ba556ba88b5a278bd72002a0242cc3ce9 rcu-tasks: Report stalls during synchronize_srcu() in rcu_tasks_postscan()
-4f3862e117fcf046d943371843b148cb52e0d89d rcu: Avoid stack overflow due to __rcu_irq_enter_check_tick() being kprobe-ed
-e20a27a2926959b25b7598e0d36d3af9da0129f7 rcu: Protect rcu_print_task_exp_stall() ->exp_tasks access
-
---===============7483142462359437505==--
+--===============0467797158939736953==--
