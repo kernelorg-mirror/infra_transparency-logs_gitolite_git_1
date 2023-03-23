@@ -1,24 +1,51 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/andy/linux-gpio-intel
-Date: Thu, 23 Mar 2023 14:21:46 -0000
-Message-Id: <167958130654.31805.14503677287554669160@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============7238321167838077637=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Thu, 23 Mar 2023 14:25:28 -0000
+Message-Id: <167958152850.2228.6095325581106949439@gitolite.kernel.org>
+
+--===============7238321167838077637==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/andy/linux-gpio-intel
-user: andy
+repo: pub/scm/linux/kernel/git/broonie/sound
+user: broonie
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/review-andy
-    old: 1d1fd40259265bf86994adcd50d569ce874f6112
-    new: 782eea0c89f7d071d6b56ecfa1b8b0c81164b9be
+  - ref: refs/heads/for-6.4
+    old: 935d31fdda2c69324b3eeb648a73fdedf4131474
+    new: 80404e4e13882cf3037577e4a3451a61d54f58db
     log: |
-         559e4a3df02991456113089996df1168a74c2e0a powerpc/40x: Add missing select OF_GPIO_MM_GPIOCHIP
-         d94ffb99a379a6307af99b6f59b08ec3d58eb958 sh: mach-x3proto: Add missing #include <linux/gpio/driver.h>
-         2ffd04ca2ae66c274eb116d5f0330af14cb63383 gpio: mm-lantiq: Fix typo in the newly added header filename
-         5062e4c14b752a21aa24d6500ace6e251fde1d7c gpiolib: acpi: use the fwnode in acpi_gpiochip_find()
-         af3b462a8e07bc5529e19f60d04a225bfce659e1 gpiolib: acpi: Move ACPI device NULL check to acpi_get_driver_gpio_data()
-         782eea0c89f7d071d6b56ecfa1b8b0c81164b9be gpiolib: acpi: Add a ignore wakeup quirk for Clevo NL5xNU
+         056db840115653659d86a3931a78b3c504edb2cc ASoC: SOF: ipc4/intel: Fix spelling mistake "schduler" -> "scheduler"
+         80404e4e13882cf3037577e4a3451a61d54f58db ASoC: dt-bindings: wlf,wm8994: Convert to dtschema
          
+
+--===============7238321167838077637==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher C3F436CA30F5D8EB 1679581527 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
+nonce 1679581526-739a3e13314e4c9ea35151283dd62621eab28f84
+
+935d31fdda2c69324b3eeb648a73fdedf4131474 80404e4e13882cf3037577e4a3451a61d54f58db refs/heads/for-6.4
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmQcYVcACgkQJNaLcl1U
+h9Duqgf+JPHk/VWWDHodHjYcEfrDKjdM5Wf1WeofV9DKwZhoIIcoBglQh0tdrNJr
+PFvOCbqL7H/Az+X7jwTGhbj4LX+TPNWa1CdlUndU3G2zS3B2y9+Tvi7QPf2CwpYc
+hOfdHZmyG4GTrCiRla8HrHRCfkoka9TZ8bemzkfymUFJfLpx9fapSJRUG8yGit6p
+peJVOWrSkxh4aBsR4cdzfD4+mFJmadyzfhOxTTnuBjbiEz9eQmyenNKubGZVzNAc
+U8mmgZqEPj3YEoOXDQNan0tKOpqOsXPQtQEeNqNkSmjo/f6qZEwPKQGHVrz8mo6/
+/f76HkJ1RGPiopR5wghHL1JxFUAVhw==
+=rHzP
+-----END PGP SIGNATURE-----
+
+--===============7238321167838077637==--
