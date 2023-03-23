@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7386574047411199627=="
+Content-Type: multipart/mixed; boundary="===============0445867720151830939=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Thu, 23 Mar 2023 15:37:46 -0000
-Message-Id: <167958586665.17357.11388074144302967724@gitolite.kernel.org>
+Date: Thu, 23 Mar 2023 15:38:23 -0000
+Message-Id: <167958590319.17600.5991114908571898961@gitolite.kernel.org>
 
---===============7386574047411199627==
+--===============0445867720151830939==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: c8384d4a51e7cb0e6587f3143f29099f202c5de1
-    new: fcb3a4653bc5fb0525d957db0cc8b413252029f8
-    log: revlist-c8384d4a51e7-fcb3a4653bc5.txt
+  - ref: refs/heads/dev-queue
+    old: 9b4073870948b5975123ee404896f4fcf0091314
+    new: e11bb63a77ca23b52a5f05a9a2b925feba842ac3
+    log: revlist-9b4073870948-e11bb63a77ca.txt
 
---===============7386574047411199627==
+--===============0445867720151830939==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c8384d4a51e7-fcb3a4653bc5.txt
+Content-Disposition: attachment; filename=revlist-9b4073870948-e11bb63a77ca.txt
 
 8e80e5648092f63b17c2665b2a36422a77143278 net/mlx5: fs_chains: Refactor to detach chains from tc usage
 664eab8a02d3331f2facf6c4359f4baaeefe6a3b net/mlx5: fs_core: Allow ignore_flow_level on TX dest
@@ -91,5 +91,33 @@ ecb3c1e675c719885ac05bb5473fa5c495d1ad24 selftests: rtnetlink: Make the set of t
 c5cf13fbf1c915f7b1c41714029fd44c4d2bcefb Merge branch 'ipv4-address-protocol'
 d0e43912c188149675ab8a0f52e26027e49b4f64 Merge branch '1GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/next-queue
 fcb3a4653bc5fb0525d957db0cc8b413252029f8 net/sched: act_api: use the correct TCA_ACT attributes in dump
+a8bb58a2d338ca525188f1434005c5dd7ad89958 intel/igbvf: free irq on the error path in igbvf_request_msix()
+f179b7d482e323f023d191b39cab6f7515a6d762 igb: Enable SR-IOV after reinit
+2951360129f40d9d422120a767650675297c0e4a igbvf: Regard vf reset nack as success
+84db59592f353eabcf95da75b4facaa6f6763edf ice: Write all GNSS buffers instead of first one
+5d8d8519446a3c59b6c878dbd6d716210a8cf2f7 ice: remove comment about not supporting driver reinit
+dc3ac73528643cdc4577a64d3d30822ebaf95d15 iavf: fix inverted Rx hash condition leading to disabled hash
+6b64c7fa3cdea02afce0f01b8206b160c6e8dbc1 iavf: fix non-tunneled IPv6 UDP packet type and hashing
+c0c91b91d1c912d39c807c9e441457b6a04de5a8 igb: revert rtnl_lock() that causes deadlock
+477c1430964ae9eed06f49486dad75b49f1d476f igc: fix the validation logic for taprio's gate list
+6ffb61643c2b010364075a2acb123ce328bdc8c2 ixgbe: Panic during XDP_TX with > 64 CPUs
+bfad4b1fe25af0860078cc6792632dde38062dfe ice: fix rx buffers handling for flow director packets
+e8e5be7f4ecfed374a07f261d6bd88059f857299 ice: check if VF exists before mode check
+19526da7d14ed6dadab3b0aa57a94e053b54261b ice: remove filters only if VSI is deleted
+feed22f945a413d62e63c5d1819192d7f5f316dc i40e: fix flow director packet filter programming
+c43f7a1e6d8e38bcd9834584d9bdd9c66110072a iavf: fix hang on reboot with ice
+5b1a05107f1e0b86a7ffb5277c52f98f614a5868 ice: fix W=1 headers mismatch
+8d838bd77eb55ff96445ab6c597b558c8654b37d ice: Fix ice_cfg_rdma_fltr() to only update relevant fields
+9e20e0ca1b32cce41ce7fb0ec7c2f5b71f46e7dd ice: add profile conflict check for AVF FDIR
+3c1c80401c0c51072f27acf7db9c8ceb34b76d9a iavf: do not track VLAN 0 filters
+5c2c55108b47a646be5021b3b858723225620b42 ice: identify aRFS flows using L3/L4 dissector info
+f66e93d8be22fdeebad1fed18259d4009da478b6 ice: remove FW logging code
+2fec741d110ebdeb4884c3eed33174b2a04e33d6 ice: enable debugfs to check FW logging status
+ee6e6b4706cf65a50c15c9f56ec13a28b7cede9e ice: add ability to set FW log configuration
+b106a21f6f20123534c93398f5c999507e10ffc2 ice: enable FW logging based on stored configuration
+aac0aa7ef6f196946b8156e480c100f393cd1fd2 ice: add ability to read FW logging data
+f93e7605099c92e92766188b066212ea4e353ef2 ice: clear number of qs when rings are free
+dcc2f1858a0e291f3af3749e6262bee4f7a1a1b4 ice: fix invalid check for empty list in ice_sched_assoc_vsi_to_agg()
+e11bb63a77ca23b52a5f05a9a2b925feba842ac3 i40e: Add support for VF to specify its primary MAC address
 
---===============7386574047411199627==--
+--===============0445867720151830939==--
