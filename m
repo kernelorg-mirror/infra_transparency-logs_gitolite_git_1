@@ -1,21 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/lsm
-Date: Thu, 23 Mar 2023 23:43:45 -0000
-Message-Id: <167961502520.18933.15130681428438252146@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
+Date: Thu, 23 Mar 2023 23:46:41 -0000
+Message-Id: <167961520139.22816.17908734257691960818@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pcmoore/lsm
-user: pcmoore
+repo: pub/scm/linux/kernel/git/conor/linux
+user: conor
 changes:
-  - ref: refs/heads/next
-    old: b9b8701b43146f5ebd7fe13d89103cfc545cda34
-    new: 0d57b970df352517a75f4533820c49de360c4123
+  - ref: refs/heads/riscv-xip_plus_fpu
+    old: f8d6b9e1d290389042b8042ecfa061068d0c1b40
+    new: 8e0915f7b3b9f85cd8a0e10057d5c3ee87300e7e
     log: |
-         52ca4b6435a493e47aaa98e7345e19e1e8710b13 reiserfs: Switch to security_inode_init_security()
-         de3004c874e740304cc4f4a83d6200acb511bbda ocfs2: Switch to security_inode_init_security()
-         0d57b970df352517a75f4533820c49de360c4123 security: Remove security_old_inode_init_security()
+         71bf5ecf58f85728ab0e6c8e643f99e094f8556f RISC-V: add non-alternative fallback for riscv_has_extension_[un]likely()
+         ffc3cc4bf6d773ed0fe3fd6170499bc5bddd441c RISC-V: always select RISCV_ALTERNATIVE for non-xip kernels
+         8e0915f7b3b9f85cd8a0e10057d5c3ee87300e7e RISC-V: align Svpbmt Kconfig help text with other extensions
          
