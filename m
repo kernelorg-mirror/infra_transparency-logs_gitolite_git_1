@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/cs-sw
-Date: Thu, 23 Mar 2023 14:51:20 -0000
-Message-Id: <167958308047.19560.7985919168382751376@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
+Date: Thu, 23 Mar 2023 15:03:50 -0000
+Message-Id: <167958383074.26528.16892399891391113243@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/cs-sw
-user: maz
+repo: pub/scm/linux/kernel/git/conor/linux
+user: conor
 changes:
-  - ref: refs/heads/dual-port
-    old: 7cd95e62ff811ac1ce6acdff653391d48f1fb474
-    new: 79a82a16c1e1df080a963d73d107c3b61ce6b5fe
-    log: |
-         79a82a16c1e1df080a963d73d107c3b61ce6b5fe Add serial port location for M2 Pro mini
-         
+  - ref: refs/heads/riscv-xip_plus_fpu
+    old: 0000000000000000000000000000000000000000
+    new: f8d6b9e1d290389042b8042ecfa061068d0c1b40
