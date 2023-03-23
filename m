@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1930364607217100851=="
+Content-Type: multipart/mixed; boundary="===============3470074024375567482=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mbroz/linux
-Date: Thu, 23 Mar 2023 11:32:49 -0000
-Message-Id: <167957116993.13731.4188785022168125051@gitolite.kernel.org>
+Date: Thu, 23 Mar 2023 11:35:16 -0000
+Message-Id: <167957131633.16072.1727328213090279082@gitolite.kernel.org>
 
---===============1930364607217100851==
+--===============3470074024375567482==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mbroz/linux
 user: mbroz
 changes:
-  - ref: refs/heads/master
-    old: 44889ba56cbb3d51154660ccd15818bc77276696
-    new: fff5a5e7f528b2ed2c335991399a766c2cf01103
-    log: revlist-44889ba56cbb-fff5a5e7f528.txt
+  - ref: refs/heads/dm-cryptsetup
+    old: 614a321c6d0400073399804e76b478847886e615
+    new: b1c42339a4b090c87601134ab11907fb9ee217b3
+    log: revlist-614a321c6d04-b1c42339a4b0.txt
 
---===============1930364607217100851==
+--===============3470074024375567482==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-44889ba56cbb-fff5a5e7f528.txt
+Content-Disposition: attachment; filename=revlist-614a321c6d04-b1c42339a4b0.txt
 
 8222d5910dae08213b6d9d4bc9a7f8502855e624 xfrm: Zero padding when dumping algos and encap
 7245e629dcaaf308f1868aeffa218e9849c77893 drm/cirrus: NULL-check pipe->plane.state->fb in cirrus_pipe_update()
@@ -700,5 +700,11 @@ a1effab7a3a35a837dd9d2b974a1bc4939df1ad5 Merge tag 'vfio-v6.3-rc4' of https://gi
 caa0708a81d6a2217c942959ef40d515ec1d3108 bootconfig: Change message if no bootconfig with CONFIG_BOOT_CONFIG_FORCE=y
 c13e02d335c825ffc7f4af3733329d38e695b482 Merge tag 'bootconfig-fixes-v6.3-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 fff5a5e7f528b2ed2c335991399a766c2cf01103 Merge tag 'for-linus' of git://git.armlinux.org.uk/~rmk/linux-arm
+c9e14cd67c482f9abc0962fcea5af2148eb39e46 dm-zero, dm-error: support discards
+29cf08f769fe6dda703cf4875396c7bb0132e51f sed-opal: do not add user authority twice in boolean ace.
+c067b1616f0333f9ad3f7fba94f229c7eb9664a0 sed-opal: add helper for adding user authorities in ACE.
+2d41c362cf1910ce723a2c8fa95329060d690fd5 sed-opal: allow user authority to get locking range attributes.
+3d6e14155f6bafc74ac2eab43df18f4fa28e6059 sed-opal: add helper to get multiple columns at once.
+b1c42339a4b090c87601134ab11907fb9ee217b3 sed-opal: Add command to read locking range parameters.
 
---===============1930364607217100851==--
+--===============3470074024375567482==--
