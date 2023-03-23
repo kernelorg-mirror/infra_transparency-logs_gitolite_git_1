@@ -1,28 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Thu, 23 Mar 2023 20:31:09 -0000
-Message-Id: <167960346998.20049.14731446109165073305@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Thu, 23 Mar 2023 20:39:49 -0000
+Message-Id: <167960398915.24172.13720109985421217401@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/master
-    old: 37d021978c56876b8538d5f63ccd8db17ccfe035
-    new: d155c11d2e5374623d16c6bae7198ec9b8f479bb
+  - ref: refs/heads/dev
+    old: 186339e4f60938cec8db05c24775edc22da0da5c
+    new: 6c104ef06e7fcd7a66237e2ffbac435e00503eed
     log: |
-         e0a12a5fbe7c8bd161baa3e40ad377a226b01254 tests: fclose(stdin) UB
-         e971b3b730e1f37e4f8f6edf99a398bb0ae2bdfe lsfd: (man) fix typo
-         59370266151d2bcbe103fab053ad7db85cb02825 lscpu: Parse loongarch specific lines
-         eaee3132a07b4223718a6bc2b42f6517e75762ed lscpu: Add "ISA" field into lscpu_cputype and determine loongarch op-mode from its value
-         d6301859a8725f7c4979e69ba71bdc2bd51b203f lscpu: Add loongarch testcase
-         648e2d6c8d060195550101b3751277d9c4002749 idmap: kill child when writing the idmap fails
-         f8b6d9b8e4409a7f732fd71a3571e2c6b84759aa Merge branch 'nasal_daemon_part1_fclose' of https://github.com/crrodriguez/util-linux
-         c0d3e2589acaaba8eee61b7e69d153e53e2c2545 Merge branch 'lsfd/typo' of https://github.com/t-8ch/util-linux
-         a680f228b193acd25cdcdfae7f8d68dbdabf7a1b Merge branch 'xry111/lscpu-loongarch' of https://github.com/xry111/util-linux
-         d155c11d2e5374623d16c6bae7198ec9b8f479bb Merge branch 'fixes' of https://github.com/brauner/util-linux
+         1e7cded7383986d788cb2020bd4e56b298518de2 doc/rcutorture: Add description of rcutorture.stall_cpu_block
+         5ed9db0a5ebc9112ad9702cb26e07877a4db5a20 squash! srcu: Use static init for statically allocated in-module srcu_struct
+         a96ad2d49fcebd9313301e80507b10b0702b4ddb tools/memory-model: Remove out-of-date SRCU documentation
+         b633cfb127a1baa23e9463fb3b0feb605b9d7c06 squash! tools/memory-model:  Document locking corner cases
+         6c104ef06e7fcd7a66237e2ffbac435e00503eed rcu-tasks: Clarify the cblist_init_generic() function's pr_info() output
          
