@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1075440069876595020=="
+Content-Type: multipart/mixed; boundary="===============9208798397219167519=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ulfh/mmc
-Date: Thu, 23 Mar 2023 12:11:58 -0000
-Message-Id: <167957351840.7496.9661914424999381512@gitolite.kernel.org>
+Date: Thu, 23 Mar 2023 12:12:15 -0000
+Message-Id: <167957353572.7657.17744031995359947378@gitolite.kernel.org>
 
---===============1075440069876595020==
+--===============9208798397219167519==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ulfh/mmc
 user: ulfh
 changes:
-  - ref: refs/heads/next
-    old: 46d19dc62b455849c3aa8146f6f7d7d3cdbc65a9
-    new: bad4c304c7e8861fb258012d7294837dff11506b
-    log: revlist-46d19dc62b45-bad4c304c7e8.txt
-  - ref: refs/tags/v6.3-rc3
-    old: 0000000000000000000000000000000000000000
-    new: b04d78201ce644e5182e95f1d0bd131b35ec8816
+  - ref: refs/heads/fixes
+    old: 92771cdd90de64b15e65f3c88d6c6199bd5f33f5
+    new: 2265098fd6a6272fde3fd1be5761f2f5895bd99a
+    log: revlist-92771cdd90de-2265098fd6a6.txt
 
---===============1075440069876595020==
+--===============9208798397219167519==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-46d19dc62b45-bad4c304c7e8.txt
+Content-Disposition: attachment; filename=revlist-92771cdd90de-2265098fd6a6.txt
 
 8222d5910dae08213b6d9d4bc9a7f8502855e624 xfrm: Zero padding when dumping algos and encap
 7245e629dcaaf308f1868aeffa218e9849c77893 drm/cirrus: NULL-check pipe->plane.state->fb in cirrus_pipe_update()
@@ -781,34 +778,6 @@ a98151ad53b53f010ee364ec2fd06445b328578b ring-buffer: remove obsolete comment fo
 71c7a30442b724717a30d5e7d1662ba4904eb3d4 tracing/hwlat: Replace sched_setaffinity with set_cpus_allowed_ptr
 eaba52d63bfcf0047ce3a1bb011b35d4f066df8e Merge tag 'trace-v6.3-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 e8d018dd0257f744ca50a729e3d042cf2ec9da65 Linux 6.3-rc3
-4453d51e1814a8b7c2e686e50241d7b28088622e mmc: sdhci-of-arasan: Add support to request the "gate" clock
-4b4b7ac73704bfa796d2be6b96cb9072f7298861 mmc: core: Allow invalid regulator in mmc_regulator_set_ocr()
-63264422785021704c39b38f65a78ab9e4a186d7 memstick: r592: Fix UAF bug in r592_remove due to race condition
-07248afa83b0b31d7906201cf0348800d0552d99 mmc: renesas_sdhi: remove R-Car H3 ES1.* handling
-49502408007b77ff290ce62e6218cefaeedcb31a mmc: sdhci-of-dwcmshc: properly determine max clock on Rockchip
-66756ca342547af8d3d8156b7abf47cb30082f0f mmc: arasan: Use of_property_present() for testing DT property presence
-e37556d947794c0c7730460a3cb029c700fe70cb dt-bindings: mmc: mediatek,mtk-sd: add mt8365
-ca6b5fe277e91ebca5101dc00c0e26755f0ed6c4 mmc: Use of_property_read_bool() for boolean properties
-51dfc6142acecfea9bf2041ccadbc3438e31af56 mmc: sdhci-pci-o2micro: Fix SDR50 mode timing issue
-2c52e002693dc51a789f54ce72e2f639d7cb1067 mmc: meson-gx: simplify usage of mmc_regulator_set_ocr
-8d91f3f8ae57e6292142ca89f322e90fa0d6ac02 mmc: core: add helpers mmc_regulator_enable/disable_vqmmc
-e3f0d2213dba10900a1eca08e775c37e1cf8e69f mmc: meson-gx: use new helpers mmc_regulator_enable/disable_vqmmc
-b8548e387f2ab2d1bfeeadd28d0739825eae3c93 dt-bindings: mmc: sdhci-msm: Document QCM2290 SDHCI
-6fb11c1812d337e2cc0dd482ffd99fce1b3f88e0 mmc: sdhci: drop useless sdhci_get_compatibility() !OF stub
-220b484fa6e027e6fd296422513f2e7a76f7e6cf mmc: dw_mmc-pltfm: Use devm_platform_get_and_ioremap_resource()
-e3d1672741eda6763426a467e5fe36c7147a139e mmc: jz4740: Use devm_platform_get_and_ioremap_resource()
-73226532da9554f45e4703244b0b0f9a04ae2bd7 mmc: omap: Use devm_platform_get_and_ioremap_resource()
-c66c55bec586de84bfccb361c13a70f5b79dd187 mmc: owl-mmc: Use devm_platform_get_and_ioremap_resource()
-288b7baf090b7ea2ac30c09293df00b03e874458 mmc: sdhci-of-aspeed: Use devm_platform_get_and_ioremap_resource()
-cf2679018190c75dea87196528e31936da8986aa mmc: usdhi6rol0: Use devm_platform_get_and_ioremap_resource()
 2265098fd6a6272fde3fd1be5761f2f5895bd99a mmc: sdhci_am654: Set HIGH_SPEED_ENA for SDR12 and SDR25
-b3637c9b6af3e0da584e82616d507d1ab2113753 mmc: core: remove unnecessary (void*) conversions
-a244e8604fd0079b62928d77f3664e9f9dce3b00 mmc: sdhci-of-arasan: Remove Intel Thunder Bay SOC support
-b6a140d7ee713199f159939aefaa5bd985f90882 dt-bindings: mmc: Remove bindings for Intel Thunder Bay SoC"
-bc38e7b9544049c7a8e4947ffff7151300f4b892 mmc: sdricoh_cs: remove unused sdricoh_readw function
-094b33e0e27ab9259ba38a46e0494616d8de4d4c dt-bindings: mmc: fujitsu: Add Socionext Synquacer
-bbf2972925221d7569cfa0f12ced4b1ea2a6590d mmc: core: Log about empty non-removable slots
-e57411fc51afcdb7f528056748958cf41356a1f9 mmc: sdhci-of-esdhc: fix quirk to ignore command inhibit for data
-bad4c304c7e8861fb258012d7294837dff11506b mmc: Merge branch fixes into next
 
---===============1075440069876595020==--
+--===============9208798397219167519==--
