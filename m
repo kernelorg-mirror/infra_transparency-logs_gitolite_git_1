@@ -1,22 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/niks/linux
-Date: Thu, 23 Mar 2023 14:21:04 -0000
-Message-Id: <167958126476.31344.4348606551699518878@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/andy/linux-gpio-intel
+Date: Thu, 23 Mar 2023 14:21:40 -0000
+Message-Id: <167958130032.31651.15928584474492023408@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/niks/linux
-user: niks
+repo: pub/scm/linux/kernel/git/andy/linux-gpio-intel
+user: andy
 changes:
-  - ref: refs/heads/has_ioport_v4
-    old: 303212c1140a004e74ce53f484b114d52b75ddd7
-    new: 326c799b631bdd17fe55ccbf9881cb34d6693e8b
+  - ref: refs/heads/for-next
+    old: 1d1fd40259265bf86994adcd50d569ce874f6112
+    new: 782eea0c89f7d071d6b56ecfa1b8b0c81164b9be
     log: |
-         6cd56def2ec87d1848968bfe62f090b218088af1 video: handle HAS_IOPORT dependencies
-         1b8f17311f965069d45054cf9ee5d88ac1e56f8c watchdog: add HAS_IOPORT dependencies
-         74ad0fc0821551ba9845e6ce567f346db7a939c6 wireless: add HAS_IOPORT dependencies
-         326c799b631bdd17fe55ccbf9881cb34d6693e8b asm-generic/io.h: drop inb() etc for HAS_IOPORT=n
+         559e4a3df02991456113089996df1168a74c2e0a powerpc/40x: Add missing select OF_GPIO_MM_GPIOCHIP
+         d94ffb99a379a6307af99b6f59b08ec3d58eb958 sh: mach-x3proto: Add missing #include <linux/gpio/driver.h>
+         2ffd04ca2ae66c274eb116d5f0330af14cb63383 gpio: mm-lantiq: Fix typo in the newly added header filename
+         5062e4c14b752a21aa24d6500ace6e251fde1d7c gpiolib: acpi: use the fwnode in acpi_gpiochip_find()
+         af3b462a8e07bc5529e19f60d04a225bfce659e1 gpiolib: acpi: Move ACPI device NULL check to acpi_get_driver_gpio_data()
+         782eea0c89f7d071d6b56ecfa1b8b0c81164b9be gpiolib: acpi: Add a ignore wakeup quirk for Clevo NL5xNU
          
