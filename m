@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3379376685107313042=="
+Content-Type: multipart/mixed; boundary="===============8077395111069197265=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 23 Mar 2023 15:28:21 -0000
-Message-Id: <167958530100.11017.3792632322125833004@gitolite.kernel.org>
+Date: Thu, 23 Mar 2023 15:29:18 -0000
+Message-Id: <167958535832.11394.9551752153716196807@gitolite.kernel.org>
 
---===============3379376685107313042==
+--===============8077395111069197265==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/main
     old: f038f3917baf04835ba2b7bcf2a04ac93fbf8a9c
     new: b1de5c78ebe9858ccec9d49af2f76724f1d47e3e
     log: revlist-f038f3917baf-b1de5c78ebe9.txt
 
---===============3379376685107313042==
+--===============8077395111069197265==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -59,4 +59,4 @@ cad4fb02d8a3aa9dff97e10342c253a7b96b371b Merge branch '40GbE' of git://git.kerne
 fb63d217e68f5040aec88b63c96355f32d522d01 Merge tag 'mlx5-fixes-2023-03-21' of git://git.kernel.org/pub/scm/linux/kernel/git/saeed/linux
 b1de5c78ebe9858ccec9d49af2f76724f1d47e3e net: mdio: thunder: Add missing fwnode_handle_put()
 
---===============3379376685107313042==--
+--===============8077395111069197265==--
