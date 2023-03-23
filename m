@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Thu, 23 Mar 2023 06:29:02 -0000
-Message-Id: <167955294280.22595.4152132279790134414@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/srini/nvmem
+Date: Thu, 23 Mar 2023 07:06:05 -0000
+Message-Id: <167955516532.15756.10488156093855505458@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-user: masahiroy
+repo: pub/scm/linux/kernel/git/srini/nvmem
+user: srini
 changes:
-  - ref: refs/heads/fixes
-    old: 3ced71d273f8edf07bf01a831a49ca6b988e06b3
-    new: fb27e70f6e408dee5d22b083e7a38a59e6118253
+  - ref: refs/heads/for-next
+    old: 1fc7a13bb731e2c0e71550ddd07d36abc83c5514
+    new: 40ddfcb8562638feba94a4d11ca0006f51a7f20f
     log: |
-         1073c15fd39e804ad36ff26a7c7d53b0ab51b184 scripts: merge_config: Fix typo in variable name.
-         fb27e70f6e408dee5d22b083e7a38a59e6118253 modpost: Fix processing of CRCs on 32-bit build machines
+         4e0fded75a6bd4dcd5d250d36983c3087e6fc158 nvmem: stm32-romem: mark OF related data as maybe unused
+         40ddfcb8562638feba94a4d11ca0006f51a7f20f nvmem: mtk-efuse: Support postprocessing for GPU speed binning data
          
