@@ -1,21 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Thu, 23 Mar 2023 16:07:33 -0000
-Message-Id: <167958765377.5928.5810571463137202513@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
+Date: Thu, 23 Mar 2023 16:15:04 -0000
+Message-Id: <167958810401.11299.18368884566791621447@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
+repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
   - ref: refs/heads/dm-6.4
-    old: 91df746a5d2f06d9ec985958b35e087fc74f56fa
-    new: f0d87d8f9a237c1a3f9d45681874d99c2bd27e6b
-    log: |
-         390a59ac97fd7ddc891c06e604a5a2273b609a62 dm bufio: improve concurrent IO performance
-         ffb895062607af0833674021ebd7575d0d0c2df1 dm bufio: move dm_bufio_client members to avoid spanning cachelines
-         f0d87d8f9a237c1a3f9d45681874d99c2bd27e6b dm thin: speed up cell_defer_no_holder()
-         
+    old: c1a9d841033a72bb1c3b3ba028f2c2ce85a6213e
+    new: 0000000000000000000000000000000000000000
