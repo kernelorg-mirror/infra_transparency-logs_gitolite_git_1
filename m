@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Thu, 23 Mar 2023 12:24:27 -0000
-Message-Id: <167957426719.16062.8739713583023125749@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mcgrof/linux
+Date: Thu, 23 Mar 2023 12:26:47 -0000
+Message-Id: <167957440787.18371.11166286848495985288@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/mcgrof/linux
+user: mcgrof
 changes:
-  - ref: refs/heads/filer7rcKA
+  - ref: refs/heads/20230323-deprecate-bdev_disk_changed
     old: 0000000000000000000000000000000000000000
-    new: 80404e4e13882cf3037577e4a3451a61d54f58db
-  - ref: refs/heads/fileWpJQv5
-    old: 0000000000000000000000000000000000000000
-    new: eef644d3802e7d5b899514dc9c3663a692817162
+    new: 3eefc81a354492f702fc05328aadb54bb4bd644c
