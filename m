@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8077395111069197265=="
+Content-Type: multipart/mixed; boundary="===============1809587475776190670=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 23 Mar 2023 15:29:18 -0000
-Message-Id: <167958535832.11394.9551752153716196807@gitolite.kernel.org>
+Date: Thu, 23 Mar 2023 15:29:52 -0000
+Message-Id: <167958539224.11644.14370378803032264728@gitolite.kernel.org>
 
---===============8077395111069197265==
+--===============1809587475776190670==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: f038f3917baf04835ba2b7bcf2a04ac93fbf8a9c
-    new: b1de5c78ebe9858ccec9d49af2f76724f1d47e3e
-    log: revlist-f038f3917baf-b1de5c78ebe9.txt
+  - ref: refs/heads/dev-queue
+    old: ef04ce672cd263be630fea26246c609b3eff987d
+    new: 2c2727c11a21101693acc7cf902893c691c0b4ad
+    log: revlist-ef04ce672cd2-2c2727c11a21.txt
 
---===============8077395111069197265==
+--===============1809587475776190670==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f038f3917baf-b1de5c78ebe9.txt
+Content-Disposition: attachment; filename=revlist-ef04ce672cd2-2c2727c11a21.txt
 
 387d42ae6df76d2ae813432d05630535a5480038 ice: fix rx buffers handling for flow director packets
 83b49e7f63da88a1544cba2b2e40bfabb24bd203 ice: check if VF exists before mode check
@@ -58,5 +58,13 @@ cad4fb02d8a3aa9dff97e10342c253a7b96b371b Merge branch '40GbE' of git://git.kerne
 3e212b0b968a02ddb36c73ff7e8abe0a2256ce49 Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
 fb63d217e68f5040aec88b63c96355f32d522d01 Merge tag 'mlx5-fixes-2023-03-21' of git://git.kernel.org/pub/scm/linux/kernel/git/saeed/linux
 b1de5c78ebe9858ccec9d49af2f76724f1d47e3e net: mdio: thunder: Add missing fwnode_handle_put()
+061c7b68d3262ff35680651fcb87e14386ec03c6 ice: Write all GNSS buffers instead of first one
+a7de16095e07362b4e1d04ded3ea494b26d46548 ixgbe: Panic during XDP_TX with > 64 CPUs
+2af599e1433b2ad27edd86b3bd7d08ba9aaa9221 ice: fix W=1 headers mismatch
+7c2e59bb2b7d134688e8890167b51a6f43f8e40f ice: Fix ice_cfg_rdma_fltr() to only update relevant fields
+705e128887f1838db54d38637b40aa94dedc3f85 ice: add profile conflict check for AVF FDIR
+3c0a4d05134c709c912cff3f40f0f796b6611f19 ice: identify aRFS flows using L3/L4 dissector info
+d396a52ff654e7306ec9c9cd0d2944a0be3d023d ice: clear number of qs when rings are free
+2c2727c11a21101693acc7cf902893c691c0b4ad ice: fix invalid check for empty list in ice_sched_assoc_vsi_to_agg()
 
---===============8077395111069197265==--
+--===============1809587475776190670==--
