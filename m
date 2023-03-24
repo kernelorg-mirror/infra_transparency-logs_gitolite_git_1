@@ -1,26 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tj/cgroup
-Date: Fri, 24 Mar 2023 02:03:50 -0000
-Message-Id: <167962343048.20095.12936857978649152699@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tzungbi/chrome-platform
+Date: Fri, 24 Mar 2023 02:18:43 -0000
+Message-Id: <167962432360.30509.16606782893121872453@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tj/cgroup
-user: tj
+repo: pub/scm/linux/kernel/git/tzungbi/chrome-platform
+user: tzungbi
 changes:
-  - ref: refs/heads/for-6.4
-    old: 4cdb91b0dea7d7f59fa84a13c7753cd434fdedcf
-    new: 8e4645226b4931e96d55546a1fb3863aa50b5e62
-    log: |
-         8e4645226b4931e96d55546a1fb3863aa50b5e62 cpuset: Clean up cpuset_node_allowed
-         
   - ref: refs/heads/for-next
-    old: f7ac82ea4b457c02eeedf5bb9ceccc777448e1ce
-    new: 70a0eb104712a7a657e6869aa69bec6417d4877f
+    old: d86addbeb14c493f0f3148998a2193787f97fbea
+    new: b47e60e9f6fca22e8af7c53d068d4d4d0a7c4fa7
     log: |
-         8e4645226b4931e96d55546a1fb3863aa50b5e62 cpuset: Clean up cpuset_node_allowed
-         70a0eb104712a7a657e6869aa69bec6417d4877f Merge branch 'for-6.4' into for-next
+         b47e60e9f6fca22e8af7c53d068d4d4d0a7c4fa7 platform/chrome: cros_ec_chardev: fix kernel data leak from ioctl
          
