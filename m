@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/xfs/xfs-linux
-Date: Fri, 24 Mar 2023 15:49:33 -0000
-Message-Id: <167967297361.648.4966696601218186741@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Fri, 24 Mar 2023 15:50:33 -0000
+Message-Id: <167967303327.2678.10239834119781415998@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/xfs/xfs-linux
-user: djwong
+repo: pub/scm/linux/kernel/git/pci/pci
+user: lpieralisi
 changes:
-  - ref: refs/heads/whatamess
-    old: e9b60c7f97130795c7aa81a649ae4b93a172a277
-    new: e2e63b071b2da53ad6a154e34c387bb064137f74
-    log: |
-         fcde88af6a783d32e735dd2615528e2bf7a0f533 xfs: pass the correct cursor to xfs_iomap_prealloc_size
-         e2e63b071b2da53ad6a154e34c387bb064137f74 xfs: clear incore AGFL_RESET state if it's not needed
-         
+  - ref: refs/heads/controller/ixp4xx
+    old: 0000000000000000000000000000000000000000
+    new: 6c6fa1f3f7715484a1991a38345b3a63b20914cf
