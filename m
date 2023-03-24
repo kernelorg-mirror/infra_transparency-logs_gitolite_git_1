@@ -1,19 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Fri, 24 Mar 2023 00:37:44 -0000
-Message-Id: <167961826480.22797.11904551017984075073@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jejb/openssl_tpm2_engine
+Date: Fri, 24 Mar 2023 00:47:52 -0000
+Message-Id: <167961887233.30238.1096802833410842339@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/jejb/openssl_tpm2_engine
+user: jejb
 changes:
-  - ref: refs/heads/master
-    old: 5d933d902e40bfa34299c8d9399006c47362041d
-    new: a93c0f42541081fa0a2887e7e2c53cd93253963c
+  - ref: refs/heads/next
+    old: 3e7e24c66f8a4de0ce2e11ac892af18033750dee
+    new: ebd7ed47000caa972be7ba5d7392be9d8020137d
     log: |
-         a93c0f42541081fa0a2887e7e2c53cd93253963c foo
+         97543e17c5bcb06006495099f190b9421c9a2016 Add missing OpenSSL3 functions
+         44706619a76f5d5092b4d2f193f277bb4393a59e Add openssl3 provider
+         f6fae5fb6b3cba927e8cf49ad9d1f2d9a2a801da openssl3 provider: add signatures
+         5fe4ac30a30bc8fa1693dbbf4ca6a3ab2b57bff6 provider: add decryption functions
+         184d8dda5c317536ab40ec90b008849c23c67246 provider: add nv key handling with store
+         e718104c9aaf79c192cccd6f2cdfd56875145797 tests: add provider tests
+         ebd7ed47000caa972be7ba5d7392be9d8020137d decode_encode: fix the provider recursion problem
          
