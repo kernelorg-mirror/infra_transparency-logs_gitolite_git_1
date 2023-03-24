@@ -1,55 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============5445352138158635016=="
+Content-Type: multipart/mixed; boundary="===============0654025902266436299=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Fri, 24 Mar 2023 16:36:34 -0000
-Message-Id: <167967579446.886.4621496491275913710@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Fri, 24 Mar 2023 16:36:41 -0000
+Message-Id: <167967580107.1023.17640304382140906681@gitolite.kernel.org>
 
---===============5445352138158635016==
+--===============0654025902266436299==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/regulator
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.4
-    old: ab76c891a687ae871f7e76dbf9bc3a0e32b53423
-    new: 09d950723479ef0af3a317ac190a8c1fadd7343c
+  - ref: refs/heads/for-6.4
+    old: 58973046c1bf782cac01644a9dcd8e5bba9c2f16
+    new: ad44ac082fdff7ee57fe125432f7d9d7cb610a23
     log: |
-         33683cbf49b5412061cb1e4c876063fdef86def4 ASoC: fsl: remove unnecessary dai_link->platform
-         2f650f87c03cab72e751fc739f42a1e257bdc6b9 ASoC: atmel: remove unnecessary dai_link->platform
-         3b0db249cf8fe0027e2a4161d27a8566d82fcd80 ASoC: ti: remove unnecessary dai_link->platform
-         e7098ba9b3785d626326040d300f95fec79aa765 ASoC: soc-topology.c: remove unnecessary dai_link->platform
-         37b58becc1cee4d591024f2056d7ffa99c6089e0 ASoC: soc-compress: Inherit atomicity from DAI link for Compress FE
-         09d950723479ef0af3a317ac190a8c1fadd7343c ASoC: remove unnecessary dai_link->platform
+         ad44ac082fdff7ee57fe125432f7d9d7cb610a23 regulator: qcom-rpmh: Revert "regulator: qcom-rpmh: Use PROBE_FORCE_SYNCHRONOUS"
          
 
---===============5445352138158635016==
+--===============0654025902266436299==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1679675792 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1679675792-af87a964707eeb5972cd83b8b3fc0c00136bcd26
+pusher C3F436CA30F5D8EB 1679675799 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
+nonce 1679675799-837d0efddd4f9a55e9a399431dbb2731fb68288f
 
-ab76c891a687ae871f7e76dbf9bc3a0e32b53423 09d950723479ef0af3a317ac190a8c1fadd7343c refs/heads/asoc-6.4
+58973046c1bf782cac01644a9dcd8e5bba9c2f16 ad44ac082fdff7ee57fe125432f7d9d7cb610a23 refs/heads/for-6.4
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmQd0ZAACgkQJNaLcl1U
-h9B/WAf/Xc2toiRdgdSgOua7ygMuwAxwiLZmeBW/KaKmVA8Swd2AemcX5/XbHF/L
-5RIyDMfWmF7xfOi0WMt9KJZMk9y6KY0rblNzSQrmyubP9RZQznXhfAfZLd8SY0yd
-oGL/7byysEDZOBlL4pVZu+pOb+yESTQVlM01JFEV7zf74elM4keN4W+UKMUgwqsl
-sL3yfWmA/9UUelfQ+d3qbIUQEj5hjyhBydNg55oChz1jFZvlL7Ego0y5LIOPyLus
-eWsZPoguf2o6QxLbn3dNznytm1cM63X6fkkh6hgwEisRfRYMgNkcUT4mkSYdi2pA
-3Yo0loF+KncCa5SanhpWJAVsT38Ekw==
-=KMUP
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmQd0ZcACgkQJNaLcl1U
+h9BJIAf/YP3hkfxor8+gUeiLjfswhoDsRIKSbyRNy35Hg18c+FXg1GzZ8js/L+Fb
+O8UD2yQy1qajw3bnL2awryzjtd++/SIMNITg2SefNEU/lo6g9hWxm+jiuWtqyTzg
+0CwcsgkR1glRIV+fCIvALtPU+Sne9KRNQiRZm4OS3sswcganSXcYHaPG4s1bzSe2
+4TW5QRJNZwGqsiMiypIT5Lzl5AlNwsrGE0Sww6SgWIyBO6tg9yn+8O4Z5OiHuy7e
+VOYxvP+Nw6Xs2aK0q/FkJh9MQAK9odQl1YEWFRA3yE2oDAXzRyX7n6rpR1VJJa6z
+1WPVV0VkKDbi7iFOwt0xlwydk6/g7Q==
+=pABC
 -----END PGP SIGNATURE-----
 
---===============5445352138158635016==--
+--===============0654025902266436299==--
