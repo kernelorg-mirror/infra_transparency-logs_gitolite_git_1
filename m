@@ -1,48 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Fri, 24 Mar 2023 16:00:13 -0000
-Message-Id: <167967361318.8773.1372990518351316388@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
+Date: Fri, 24 Mar 2023 16:03:14 -0000
+Message-Id: <167967379446.9760.13483775081946134030@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rafael/linux-pm
-user: rafael
+repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
+user: snitzer
 changes:
-  - ref: refs/heads/bleeding-edge
-    old: 68611940d0f307cff16552aa920496418935205c
-    new: 29468e280ce5617470ddef97adc751fc9cc9827b
+  - ref: refs/heads/dm-6.4
+    old: f0d87d8f9a237c1a3f9d45681874d99c2bd27e6b
+    new: 8f73efd34dbf11a10fd589a8d350e95ab31895fa
     log: |
-         9b10d01c2b8f03218f1c84ac3bdfedc3da33bdb2 Merge branch 'thermal-core-fixes' into linux-next
-         2ccaa28d86f4e3b5ec238c3ecfe439d90961ba21 Merge branches 'acpi-tables' and 'acpi-processor' into linux-next
-         7473086579df355c73c562503a622866052017fe Merge branch 'pm-cpufreq' into linux-next
-         29468e280ce5617470ddef97adc751fc9cc9827b Merge branch 'thermal/bleeding-edge' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/thermal/linux into bleeding-edge
-         
-  - ref: refs/heads/linux-next
-    old: fc5f43f31bdc387e18804a52d4a0d28b6282f781
-    new: 7473086579df355c73c562503a622866052017fe
-    log: |
-         073828e954459b883f23e53999d31e4c55ab9654 ACPI: processor: Fix evaluating _PDC method when running as Xen dom0
-         da30a34a0edb88144ac10db5ef781ae84769af67 ACPI: SPCR: Prefix error messages with FW_BUG
-         f1b80a3878b2d76ced46a275fdfd7fb80b4f083b thermal: core: Restore behavior regarding invalid trip points
-         877d5cd2aeed8fddeb3afe174c6b9eb77cd56f8b cpufreq: warn about invalid vals to scaling_max/min_freq interfaces
-         8ffdb1fe9121f85232171630a8cfb0574cbf81b2 cpufreq: Fix typo in the ARM_BRCMSTB_AVS_CPUFREQ Kconfig entry
-         9b10d01c2b8f03218f1c84ac3bdfedc3da33bdb2 Merge branch 'thermal-core-fixes' into linux-next
-         2ccaa28d86f4e3b5ec238c3ecfe439d90961ba21 Merge branches 'acpi-tables' and 'acpi-processor' into linux-next
-         7473086579df355c73c562503a622866052017fe Merge branch 'pm-cpufreq' into linux-next
-         
-  - ref: refs/heads/testing
-    old: fc5f43f31bdc387e18804a52d4a0d28b6282f781
-    new: 7473086579df355c73c562503a622866052017fe
-    log: |
-         073828e954459b883f23e53999d31e4c55ab9654 ACPI: processor: Fix evaluating _PDC method when running as Xen dom0
-         da30a34a0edb88144ac10db5ef781ae84769af67 ACPI: SPCR: Prefix error messages with FW_BUG
-         f1b80a3878b2d76ced46a275fdfd7fb80b4f083b thermal: core: Restore behavior regarding invalid trip points
-         877d5cd2aeed8fddeb3afe174c6b9eb77cd56f8b cpufreq: warn about invalid vals to scaling_max/min_freq interfaces
-         8ffdb1fe9121f85232171630a8cfb0574cbf81b2 cpufreq: Fix typo in the ARM_BRCMSTB_AVS_CPUFREQ Kconfig entry
-         9b10d01c2b8f03218f1c84ac3bdfedc3da33bdb2 Merge branch 'thermal-core-fixes' into linux-next
-         2ccaa28d86f4e3b5ec238c3ecfe439d90961ba21 Merge branches 'acpi-tables' and 'acpi-processor' into linux-next
-         7473086579df355c73c562503a622866052017fe Merge branch 'pm-cpufreq' into linux-next
+         ad7a116b6c92fefe31ff5b4c619bb9ac86f7c5ab dm bufio: improve concurrent IO performance
+         474b3e0cc2a01a31f5531a150350d649c8650e05 dm bufio: move dm_bufio_client members to avoid spanning cachelines
+         a0d5e45bbd39edd49c90e53f68229bd65d86356a dm bufio: use waitqueue_active in __free_buffer_wake
+         ae870d8bd9d9158c7b15d69200c9bb33536479a8 dm bufio: use multi-page bio vector
+         8b7d0dccc97c528f3f9a6d1a6876a2957abc2664 dm thin: speed up cell_defer_no_holder()
+         9fbc7654785be2179177c08fa42f0922991ddd7f dm: split discards further if target sets max_discard_granularity
+         8f73efd34dbf11a10fd589a8d350e95ab31895fa dm bio prison v1: improve concurrent IO performance
          
