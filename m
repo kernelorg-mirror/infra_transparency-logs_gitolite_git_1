@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8389986569034915429=="
+Content-Type: multipart/mixed; boundary="===============3179563843303117782=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Fri, 24 Mar 2023 14:34:55 -0000
-Message-Id: <167966849577.13844.6046619116898005421@gitolite.kernel.org>
+Date: Fri, 24 Mar 2023 14:34:59 -0000
+Message-Id: <167966849976.13917.15112927968540413953@gitolite.kernel.org>
 
---===============8389986569034915429==
+--===============3179563843303117782==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,41 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/class_cleanup
-    old: 4aba732a283fd00c469557c5e0b57efe54594067
-    new: e09a7105a78b7bfc4768e19221666927f7a7273b
+  - ref: refs/heads/driver-core-testing
+    old: 5b9ff0ba11042096bfb396e506fa9038e6a61de7
+    new: 43718dca48429b9eb5b82cdd41e2a1f162a02fb9
     log: |
-         e09a7105a78b7bfc4768e19221666927f7a7273b driver core: class: mark the struct class for sysfs callbacks as constant
+         dcfbb67e48a2becfce7990386e985b9c45098ee5 driver core: class: use lock_class_key already present in struct subsys_private
+         43718dca48429b9eb5b82cdd41e2a1f162a02fb9 driver core: class.h: remove extern from function prototypes
          
 
---===============8389986569034915429==
+--===============3179563843303117782==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1679668488 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1679668496 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1679668487-2d4d6c4eacb4f8a4fd02dcb23c818cc7f6b3cecb
+nonce 1679668495-adc00fa26f3558e15515288ff126d55978295cb2
 
-4aba732a283fd00c469557c5e0b57efe54594067 e09a7105a78b7bfc4768e19221666927f7a7273b refs/heads/class_cleanup
+5b9ff0ba11042096bfb396e506fa9038e6a61de7 43718dca48429b9eb5b82cdd41e2a1f162a02fb9 refs/heads/driver-core-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQdtQgbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+5zcQANPSP535qFVaGJywZREG
-W9HRSseLlimgEw+MyBNWdCbX5h8DI6g+WPqKZk5+BcOnIKj0+HJYRopodz4Pyzxk
-f64NUCBv22CphxK1gfJMtpV3bGLNFyU22Qoqvym0cOcNlIP/WT3DUdeZeREWuzkc
-7hM/Bt2adfH3kjm2YHSnNjP2DqAt0bhwPtPXyxexI+Ye2yQHsth1DvW4f7wU7r8J
-uqlC1NZPraH3IyF8caBfxktF7JHyw2zOdfX++tgQTcCQBAsopb5FkjoET5lj0Ln8
-sJICg/hb7SZd9K8D1jsXDfGCoh5sDl54+qCg6QKJPKS5rzjdCfEULKIqTXyIN24g
-45v3hZJNnLM7mhEdmRcLVe9DkvtkiXVwiT+JBqmlqCl3aEhPscCpFpN5aoGJ1yut
-TeCd+UOQsC3RMEPssJCZtK7G77KgYxJF8NHWpcJRyPdV7Pg+9z4knrqtdnF5Jm3B
-If+rG1z/gxrNlgR/rRl4Xda1fFa26BSD+3Jo21ldYHgFNHhA5YniPtvr0lRhz4jW
-cLHRZfujo6ybnzcCL2wZMhyaouAGjJ5aLr+jTIFk7m9uc63kK3yAtGgH+SkFkR3/
-vB0Pt1QNd11Uuew8jSTEyINDKwgQBNlAEx+rK0ob4iV+h459Oxrr/v7ryyOpLtUC
-JD3PzzT4Iqcy58aV9MAQdWw5
-=xClY
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQdtRAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+5MIQAIli8tsqO3y51gpY9BU/
+vnem1LqkktQmg6onfbqMBZiF0VJTP6qTDdjSL6oWqdPhXu91W8PNAgbBlIgThYho
+URwRHirtDy20meyTXiSnEIVsqZCAegUKZRMlxf0Q9SadQS2cJsXocDkdh1Kq//VN
+Y8yk0A5znx1AS6ogELe2dzj35FsYvJnVkf3rI9e99ZW8qLEpWs6GPpee1XV8SEoF
+/IWzVV4mj2Q9v4TqOtBhcHiBcwlXziLHz9F86W+ydfZrUjUgC28dMdD9hamKpSpp
+DJWjrNQ5ROv+NJWy0Sh6mGDCjg3bHh1MYMXwpT471lZ9alYN1uGsNePJCJ64Akp8
+uYiHcPkA+edHmoWrAz2sgB/yj/pCj6etNqbyKZi9AFpW1rbrNtS+OWHOxchXmUIj
+eNpeWqmxqt60R+zZut+BGEis6A0VtoBAlDnmH22undUjv2AxrgddeGsVSqgGpKl6
+nPxuEflIPLCRtsTjZFQuximsc89eY/2j15EzrPqxayS2oDYMk73Z3ae2wSj0M7fG
+FNTcRF/Y20OS82v9/ZpRM8qXkWswRwMYfIX9T2CAzkvzfUnR91dF2Ks0gY0EsJCt
+dEHNxHR6uVmf0+cMOLUMgt2dK2x1acVmgZOnLsx5Wgw+A1u7HtdSWOHnLApcwDcV
+O3xtUtaj276Tc/eZJBw24mD+
+=MAVO
 -----END PGP SIGNATURE-----
 
---===============8389986569034915429==--
+--===============3179563843303117782==--
