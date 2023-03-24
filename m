@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Fri, 24 Mar 2023 00:23:54 -0000
-Message-Id: <167961743481.14120.3113865460428846544@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Fri, 24 Mar 2023 00:37:44 -0000
+Message-Id: <167961826480.22797.11904551017984075073@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
-user: broonie
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
-  - ref: refs/heads/for-next
-    old: b65a0a8edba2c0a03e8fdb03b6807132e4166483
-    new: 58973046c1bf782cac01644a9dcd8e5bba9c2f16
+  - ref: refs/heads/master
+    old: 5d933d902e40bfa34299c8d9399006c47362041d
+    new: a93c0f42541081fa0a2887e7e2c53cd93253963c
     log: |
-         58973046c1bf782cac01644a9dcd8e5bba9c2f16 regulator: qcom-rpmh: Use PROBE_FORCE_SYNCHRONOUS
+         a93c0f42541081fa0a2887e7e2c53cd93253963c foo
          
