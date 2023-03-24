@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8624580920877302729=="
+Content-Type: multipart/mixed; boundary="===============8816569130342872231=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Fri, 24 Mar 2023 12:37:09 -0000
-Message-Id: <167966142971.31481.7264282721611331837@gitolite.kernel.org>
+Date: Fri, 24 Mar 2023 12:37:39 -0000
+Message-Id: <167966145995.31714.11692915015000363110@gitolite.kernel.org>
 
---===============8624580920877302729==
+--===============8816569130342872231==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/driver-core-testing
-    old: 9d11b13402d1b80f7f3ca5061d75f15cf8002555
-    new: 0a392354dbc3ff748e0856a75592fe8d0fdc7674
+    old: 0a392354dbc3ff748e0856a75592fe8d0fdc7674
+    new: 5b9ff0ba11042096bfb396e506fa9038e6a61de7
     log: |
-         0a392354dbc3ff748e0856a75592fe8d0fdc7674 device property: constify fwnode_get_phy_mode() argument
+         5b9ff0ba11042096bfb396e506fa9038e6a61de7 device property: Constify a few fwnode APIs
          
 
---===============8624580920877302729==
+--===============8816569130342872231==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1679661427 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1679661456 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1679661426-6b646785df7749d1d30e2eb999ce747c30d4d0a4
+nonce 1679661456-5098bf2fdd91eb16870e5b9616b0548a93cab66c
 
-9d11b13402d1b80f7f3ca5061d75f15cf8002555 0a392354dbc3ff748e0856a75592fe8d0fdc7674 refs/heads/driver-core-testing
+0a392354dbc3ff748e0856a75592fe8d0fdc7674 5b9ff0ba11042096bfb396e506fa9038e6a61de7 refs/heads/driver-core-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQdmXMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ymEP/AswxKcNeSE2aSdX5j+f
-4gfmr/cycPkZ5qshkYbHvqaEQqqmsSoCCAJXMxaEbmt3B2La7PA5g2CcHy2rTViu
-3v6eaHB2714C3N1BGT3t9GG/+IjoGatJ+97oannO9ap8/7QVL335AlisoaVDXCCk
-EscUT4v/Bk4RPWiF9TL4wE2qdfXPbzb+qpJQ967sRhkm0WA+pwEwJvQSd4LBf1p6
-tTuEGVIzYFM+jG7Gr9EpNNmk2NWFXl8m92pMjRVRsYA/bMrO/cJ/xpAasiq8uhYi
-4I5axUs2FzMbbUQaPVsXpB3qOkRYgrFa/J+w9OSYASzd2JuaO901xmjOFCSZ2/3U
-2SGuwD4/wAYNbXlHS18znnl+6bgO6qJ+pOoocXNraeZmReJPqBOG7rYXFtEnltpR
-gC5dLyS8B/nn3RGsOoLzALb3GItOSUesQTUnOQkFuwVaXrd1QBJ9S1RmuamorHh/
-MjL/Irz5E4O+P2uil0GUqTMVKJn5bUJzDa91CED8ugSFOjeRAGkYR5xXt0us/zw1
-w9TQVd38Af5MZ/4XimvpyBOSRUdltnewdZMtM9VCqsuVDuWEnFDdHAVaU00SkYVK
-jYOhQ9ojb5EASEPjh46t8voU7bLYu2HH0h36lBltNlj5oU8sCoqpfBCuSdajyoWN
-qMIAqGFuT1No00WT7/1m2RFp
-=Qqey
+iQJOBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQdmZAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+SAkP+K1AHxgL1h69AbeZOAiT
+6vahB+cp69/QYINmgJc/wxshfaTu3BjoVL5sAd82Y0LAhdzneKR3D/aQve4sIYiB
+naBnoBI2D0RphcXgtHx9b8Jk7mNbVAXnwvoY4tFU13c5p31s64tnDz4I9CZd0v/j
+kXz0dtvFyGmfuC51v4qTKSjJLCL78rfyKqEaEyrmZNQ7BKirwNyA9Bf7p1UzW49U
+4II2v4VpvOEb7AEdHloaMF83yR5IN70nNVqLcLT31JylT+8IaOpxwl8jomid4VCv
+v3TjazHjJFPPVB5Q8CjuF5fudFvMhCpQ2Xk/9N+Sd699bZZW6UNGAXUUp2xh0AuG
+vKS6G498JT7nG4IA2mfXznO7ka6DvF1pSUnDQkDZcgZRGwdoQFcJsEuaZp3JcvIq
+RHz/SPlOSreneHC0O5P0dAo+Sen2Y2cyKynN02EJUxKZ6xde+OMq7ymA1DwZeHhy
+H/p23V9T+N2IKi5n5FScgLBD3YR12gE/gvwEv1zZRNGdLZmv2EDG9siIPu311784
+Tsg3H3jrJpA4Wuo1/UzvzWM5GU7V4qGF2zmAIl/TvPTGY9tM9iSaZpLhA5wetC+D
+gqs3zacr97oWNA99xhNYZUX+CUFWjcnXvITRuYM1y8RyFJC03U40sHOaEzZzZD2K
+LWnbTG097FqXjyAsZ1Uxh1k=
+=4XNv
 -----END PGP SIGNATURE-----
 
---===============8624580920877302729==--
+--===============8816569130342872231==--
