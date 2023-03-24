@@ -1,26 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
-Date: Fri, 24 Mar 2023 13:09:57 -0000
-Message-Id: <167966339776.20958.13696004639651425155@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mips/linux
+Date: Fri, 24 Mar 2023 13:11:03 -0000
+Message-Id: <167966346370.22877.1587685874997710133@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/hid/hid
-user: jikos
+repo: pub/scm/linux/kernel/git/mips/linux
+user: tsbogend
 changes:
-  - ref: refs/heads/for-6.3/upstream-fixes
-    old: dbf56d2fb53b7397002219bd221cfc72aadfdc82
-    new: 7c3650a8007c43bc1a60d8bdb4cdbea3ad9a7dd4
+  - ref: refs/heads/mips-next
+    old: ed6a0b6e9fd78e167d0488331d1695c6c84192be
+    new: 600efe35d54961dd026f04c6ea5b4074b3284c87
     log: |
-         7c3650a8007c43bc1a60d8bdb4cdbea3ad9a7dd4 HID: hid-sensor-custom: Fix buffer overrun in device name
-         
-  - ref: refs/heads/for-next
-    old: 4c80b7da9a0da0f0a760d8ec2ed845c17ea224cb
-    new: 2aa727f17266acba7093d3e5dfe672746bc03f11
-    log: |
-         7c3650a8007c43bc1a60d8bdb4cdbea3ad9a7dd4 HID: hid-sensor-custom: Fix buffer overrun in device name
-         2aa727f17266acba7093d3e5dfe672746bc03f11 Merge branch 'for-6.3/upstream-fixes' into for-next
+         6be87d61c427e63c33d9cea8dc2e20cd06700882 MIPS: Always select ARCH_HAS_SETUP_DMA_OPS
+         e0b7fd1207a8ec47091439fb62dd87ca6f5b4ad3 MIPS: Always select ARCH_HAS_SYNC_DMA_FOR_CPU for noncoherent platforms
+         600efe35d54961dd026f04c6ea5b4074b3284c87 MIPS: c-r4k: Always install dma flush functions
          
