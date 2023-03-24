@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Fri, 24 Mar 2023 04:49:12 -0000
-Message-Id: <167963335237.758.1286237967460784486@gitolite.kernel.org>
+Date: Fri, 24 Mar 2023 04:49:38 -0000
+Message-Id: <167963337826.948.8889167343006247368@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: 8da3a5598f75cd0361e11b6d74697084380eb4b0
-    new: 0c04328ccf8550f29f1357ae90ce460e9568a5a9
+    old: 0c04328ccf8550f29f1357ae90ce460e9568a5a9
+    new: 4691720f509ae037a3b2b33d008abfd8bb8ed505
     log: |
-         0c04328ccf8550f29f1357ae90ce460e9568a5a9 net: ipa: add IPA v5.0 to ipa_version_string()
+         4691720f509ae037a3b2b33d008abfd8bb8ed505 bnx2: remove deadcode in bnx2_init_cpus()
          
