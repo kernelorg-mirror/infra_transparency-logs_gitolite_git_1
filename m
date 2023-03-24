@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0235282967728749289=="
+Content-Type: multipart/mixed; boundary="===============7366396075468350982=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Fri, 24 Mar 2023 21:01:34 -0000
-Message-Id: <167969169420.18072.11103845729849345726@gitolite.kernel.org>
+Date: Fri, 24 Mar 2023 21:01:45 -0000
+Message-Id: <167969170575.18203.15610952812275032472@gitolite.kernel.org>
 
---===============0235282967728749289==
+--===============7366396075468350982==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,41 +16,41 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-staging
-    old: 70cbd0703d944e1ab602885bc02eb09c7db0e788
-    new: 24d892a0d03e97d23b2c719dc34033b0f37ee69d
+  - ref: refs/heads/6.4/scsi-staging
+    old: e05c006dac08ef346fc5e223f6f14cc2c6c96a7b
+    new: 5c8c74ef20e7973c270498dbbf96170c9f92dae3
     log: |
          d93523877e6f3e34de749dcaef385e5df5d884fd scsi: hpsa: Remove unused variable transMethod
          5c8c74ef20e7973c270498dbbf96170c9f92dae3 scsi: target: uapi: Replace fake flex-array with flexible-array member
          
 
---===============0235282967728749289==
+--===============7366396075468350982==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1679691680 -0400
+pusher 75C5DE3D 1679691697 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1679691680-d8c24e56dcc6f7219be32d515408ada4ce228cb9
+nonce 1679691697-dc83308eafdbb77d686f6a241789c5a7b925da82
 
-70cbd0703d944e1ab602885bc02eb09c7db0e788 24d892a0d03e97d23b2c719dc34033b0f37ee69d refs/tags/mkp-scsi-staging
+e05c006dac08ef346fc5e223f6f14cc2c6c96a7b 5c8c74ef20e7973c270498dbbf96170c9f92dae3 refs/heads/6.4/scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmQeD6AACgkQ7ulgGnXF
-3j2kphAAlWCuQmUbrzc4wnkTO6PAF8Ox6fX+IdKbJqQ4pf8Cc2mq9U9HZgF5nPfT
-JI9ldxevbw54ZyCxRL1KFPhLxdMHNZZDgwCbkZo+KgBUHUsnUwB6uIMFWL8Hr/Hx
-TlYbYDJEk2mPEvxvINZOHP2Myh0wl7fjwgB04DCTaxbMmGxO0rEVVjq6aWrqTqkY
-5pD5bZsGj0rg21T/RHvh3zfzVsladVEUMqp1Qe5zJGOdMC8nfBUpX5c7cqwYqChF
-YH94OfJJnNEn8G2OHl1OSVQNLtqLFfkHZ21qJbgbIF7FvFxDzCPcQli6EEjlVx8O
-Sil/KUyrRBAfITFeQJGyu8tkwBAtdCgV2N3j13LFElQLcA3xbrtd+ElI6OTJk+A0
-SJwzE468miiTPrFwpMFOHRqczdA9Vl+f22W6OmA0J5nE9u1Xm/4FJJpGlq10Flty
-C0N9HgKB5g5yEsthcEMZ/1FJZiGfb7O4nTtICEXp8wPVN2TWzLXoF6WrN9j5pzI+
-p0IU1pQUvF+Tjth5q1uViBqQ0HiTzzRp5xJs/mzctkvSoNUI48H2QVrmCAT34SjK
-94KH+yKOmkBAN2hhTswWEDXkpfvp0z5aqyvRPwlSDbLNQ+WY+EUHKn0s9UGGd0a3
-wAfBr59ejxNlHaConK/N3MjqlKtCNDr36L76faPy1IkMpR5wlh4=
-=FIMI
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmQeD7EACgkQ7ulgGnXF
+3j1EfBAAnrGhTV/4UAz9PVyqJq5q/CFZVhvmLMySEFK8NHl56YNhK7BOO4MOx87W
+G/mk/fVz+ANrShRjLOsWzMEE/LvO8OiHFYuBXrfzFjuRypA3rLp7sPmC8kITaTW3
+kBHktPrGzT5itpCv9cO/6BMD7ksVAslu0rle6ELHfEV/zLiTlkwZs7RZy3XMc8H3
+jC9FluIvR9yI7JFiA5WjAI7R6xIZNy79z6TOgbXkZiAbPiPgy7wypkFykk/9pajV
+EMSVvwEkvcTUccFUCiDw111igoFK2g1F0vmPXrfcEvFrjPSZr5YPLWlV/dOMOl90
+JLW7jGIeCRkHB4wpcXax23zli8s9SiRRkx/tpD4veu2wcoiRym0raOg1J4RxdCQh
+Mn1sHL2U42/NUWjyEPmqbIfL0gafKSi/5BeP+SFxYoNtSLZBlaqqTLYAAW7yJ/t5
+Vm4usCSq/LLabzKfqIPDVvdFxfb3+f4eZGX/jRA+RloLeaL3q4ZZ/MLS3Q0ZFIVV
+64vMlLptDO4msroFwuVTKCPCxvax3UCn3dS0oyt41NS1ilLH4nY7v6fs7siOhQ56
+VQzd6y6qIRV/MSPyz5TQS3Hy9UyBPbwBZJYeIWWaHi2wMthZDhPfoJhK89tH89oq
+5OYsUB5u2vRwX+i4FWcUl1P3OLZBZu1Ud7rEPYVNlw3MpU8qOdg=
+=HaWY
 -----END PGP SIGNATURE-----
 
---===============0235282967728749289==--
+--===============7366396075468350982==--
