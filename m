@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3764617396655151505=="
+Content-Type: multipart/mixed; boundary="===============9177026262403450130=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 24 Mar 2023 17:19:26 -0000
-Message-Id: <167967836688.30820.3383200869570838881@gitolite.kernel.org>
+Date: Fri, 24 Mar 2023 17:28:57 -0000
+Message-Id: <167967893788.4490.16611966099672065569@gitolite.kernel.org>
 
---===============3764617396655151505==
+--===============9177026262403450130==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 323fe43cf9aef79159ba8937218a3f076bf505af
-    new: dc0a7b52007145a85d0c2f3151870b101568b449
-    log: revlist-323fe43cf9ae-dc0a7b520071.txt
+  - ref: refs/heads/dev-queue
+    old: b070c492ec0adaf83efb8e9fa659130e43fe6034
+    new: 150544143c39d0a77e9b0bfda6a6bf18b937cd1c
+    log: revlist-b070c492ec0a-150544143c39.txt
 
---===============3764617396655151505==
+--===============9177026262403450130==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-323fe43cf9ae-dc0a7b520071.txt
+Content-Disposition: attachment; filename=revlist-b070c492ec0a-150544143c39.txt
 
 5f8d1e3b6f9b5971f9c06d5846ce00c49e3a8d94 hwmon: (adt7475) Display smoothing attributes in correct order
 48e8186870d9d0902e712d601ccb7098cb220688 hwmon: (adt7475) Fix masking of hysteresis registers
@@ -275,5 +275,35 @@ bce56405201111807cc8e4f47c6de3e10b17c1ac Bluetooth: HCI: Fix global-out-of-bound
 285063049a65251aada1c34664de692dd083aa03 Merge tag 'for-6.3-rc3-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
 608f1b136616ff09d717776922c9ea9e9f9f3947 Merge tag 'net-6.3-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 dc0a7b52007145a85d0c2f3151870b101568b449 Merge git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
+2f5638dd8c0e23a73d61f5b6b55cf78017e5cb96 ice: Write all GNSS buffers instead of first one
+027f1f0e59077949c2456688e220c43615964ccd ice: remove comment about not supporting driver reinit
+c022c563411017a536495f86c7ed9e093c996aa2 ixgbe: Panic during XDP_TX with > 64 CPUs
+47b1f562b739bcfaa4262894a775f641b0212112 ice: fix W=1 headers mismatch
+6c84b58f17536bd567c3dda8a38853db16c9e983 ice: Fix ice_cfg_rdma_fltr() to only update relevant fields
+13e92de1c6797411416986701b2221ee04d96d3e ice: add profile conflict check for AVF FDIR
+99371896c01bb86f0a2b744148522745f2db7d9e ice: identify aRFS flows using L3/L4 dissector info
+c4bd9d3738ba136a688630cfb806108303b1eb32 ice: clear number of qs when rings are free
+0311961bf23d588be9eeb9c2891117407d3c3089 ice: fix invalid check for empty list in ice_sched_assoc_vsi_to_agg()
+f6a9a475b8b3afc7eb6b630c2c6f38d8bc90130c i40e: Add support for VF to specify its primary MAC address
+8270b7dbaaa7c7682a77a57392456cda93331032 ice: fix wrong fallback logic for FDIR
+b8bdabd9c22d00f610ce45b1a15964808f505d1d i40e: fix registers dump after run ethtool adapter self test
+b3c2e0ac4141d82e1da4fabb00f911ae598729f1 ice: Support 5 layer topology
+0face305af2770750d34655b3e453cf412917ef4 ice: Adjust the VSI/Aggregator layers
+709a75d61d3e69b4fffae6a5e8a080a491b6c00f ice: Enable switching default tx scheduler topology
+352e84b67155e9bc9e11276e8e09db898a49012d ice: Add txbalancing devlink param
+b5160c606b3420768ffb6998b2070b4e97711504 ice: Document txbalancing parameter
+3e038644597513d1e33b024488cb098d3244ba82 ice: move interrupt related code to separate file
+a91e0cdd7a122cbb66eef1c678bd6b1ee69a877d ice: use pci_irq_vector helper function
+c1c14e38c45549e2246bb17fcc343e2881ae645e ice: use preferred MSIX allocation api
+dc468c15ed9cdf468b9979d09bafe9a5c53462d8 ice: refactor VF control VSI interrupt handling
+b88e110e9c3d80dbefe79a6308e91027e7f87ef2 ice: remove redundant SRIOV code
+c2ea15b385ef8ce18b7d145513144f31e350f873 ice: add individual interrupt allocation
+52dc14e45ad625eba0b113a53c62eb527302e6a8 ice: track interrupt vectors with xarray
+5b3d03b5933e29da27edb3aee3868819127f0c17 ice: add dynamic interrupt allocation
+78f29af5a4da371c555059c3759e7467d8cf452c ice: remove FW logging code
+a17d9dc82fef17d2d56a12402b19fd6869f8ab5b ice: enable debugfs to check FW logging status
+07e6d198976ccc557da32e5353bb62a9c4aa092b ice: add ability to set FW log configuration
+c270a35db68511c4870b230bdb0867a66ff33426 ice: enable FW logging based on stored configuration
+150544143c39d0a77e9b0bfda6a6bf18b937cd1c ice: add ability to read FW logging data
 
---===============3764617396655151505==--
+--===============9177026262403450130==--
