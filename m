@@ -1,41 +1,43 @@
-Content-Type: multipart/mixed; boundary="===============6684029513963773268=="
+Content-Type: multipart/mixed; boundary="===============4071602904060342574=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Fri, 24 Mar 2023 20:54:06 -0000
-Message-Id: <167969124693.12442.3449643446891679249@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Fri, 24 Mar 2023 20:54:38 -0000
+Message-Id: <167969127817.12724.14085042932772610281@gitolite.kernel.org>
 
---===============6684029513963773268==
+--===============4071602904060342574==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/acme/linux
+user: acme
 changes:
-  - ref: refs/heads/master
-    old: cb7f5b41f8341148050fe63e27cf52aa4f1519ad
-    new: fd3d06ff5f4fa23f32bdb7f4d9f308503801d9e0
-    log: revlist-cb7f5b41f834-fd3d06ff5f4f.txt
+  - ref: refs/heads/tmp.perf-tools-next
+    old: 9b2683d756fdf71254ce4da51cc5a9c4b2d44534
+    new: d2278cf6dd096dd58f86abf04c33ab6fe8c2881d
+    log: revlist-9b2683d756fd-d2278cf6dd09.txt
 
---===============6684029513963773268==
+--===============4071602904060342574==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cb7f5b41f834-fd3d06ff5f4f.txt
+Content-Disposition: attachment; filename=revlist-9b2683d756fd-d2278cf6dd09.txt
 
-5e7a3bf65db57461d0f47955248fcadf37321a74 ACPI: video: Add backlight=native DMI quirk for Acer Aspire 3830TG
-c0e0421a60bf468e88cf569fbd727346b138ed04 ACPI: processor: Reorder acpi_processor_driver_init()
-c43198af05cffa5de8d4f356c40ce4bdca066272 thermal: core: Introduce thermal_cooling_device_present()
-790930f44289c8209c57461b2db499fcc702e0b3 thermal: core: Introduce thermal_cooling_device_update()
-22c52fa5155a2f48aedb0f675903b20457285a27 ACPI: processor: thermal: Update CPU cooling devices on cpufreq policy changes
-f1b80a3878b2d76ced46a275fdfd7fb80b4f083b thermal: core: Restore behavior regarding invalid trip points
-2d0ab14634a26e54f8d6d231b47b7ef233e84599 ACPI: resource: Add Medion S17413 to IRQ override quirk
-8dbfa057b3f8e8402f639c0bf5fcbc4e43a8b3da Merge branch 'acpi-video'
-6babf38d894bec696761c10fbfccafceae76f4eb Merge branch 'thermal-acpi'
-1868d192d8f504f88e61a8e83164fce6e6b7190c Merge tag 'acpi-6.3-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
-fd3d06ff5f4fa23f32bdb7f4d9f308503801d9e0 Merge tag 'thermal-6.3-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
+c8806fbfd2d1fb81a4b5bcecdcc118a8569f4176 perf lock contention: Fix msan issue in lock_contention_read()
+8548fd8f301bd70802d0df96bbc236873b2ee32d perf vendor events intel: Broadwell v27 events
+29600ef7c0a795752c6e80c005ee1c8a08da15f6 perf vendor events intel: Broadwellde v9 events
+c70ba270ff3514a3b39a328535e1aa15332da997 perf vendor events intel: Broadwellx v20 events
+8deeb7ec5125aa1a12c78f50e7c600ac575fe9f7 perf vendor events intel: Haswell v33 events
+60c668422a5b6f12b703e55120ac34285625ad59 perf vendor events intel: Haswellx v27 events
+9f0153e20810f8adc44ec73ac97eb0f1efbdc4da perf vendor events intel: Jaketown v23 events
+17936e37bf84cb3350eed50fcb1e156ae890e573 perf vendor events intel: Sandybridge v19 events
+82d4f3fb26f9ea73c84e0f1a80e48a998be0cfd1 perf metrics: Add has_pmem literal
+828686d05cba3c6cbe73b3640e03f7c132befe7e perf vendor events intel: Update metrics to detect pmem at runtime
+ea5f243b00a77fcfae857751b250ba32f5baaa32 perf tests record_offcpu.sh: Fix redirection of stderr to stdin
+4d5e0df0c72a8c2bff8f6d10cb7d0ece0c98ef9e perf tests test_bridge_fdb_stress.sh: Fix redirection of stderr to stdin
+d2278cf6dd096dd58f86abf04c33ab6fe8c2881d perf stat: Suppress warning when using cpum_cf events on s390
 
---===============6684029513963773268==--
+--===============4071602904060342574==--
