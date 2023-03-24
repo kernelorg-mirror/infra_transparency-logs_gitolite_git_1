@@ -1,56 +1,52 @@
-Content-Type: multipart/mixed; boundary="===============6176356153527523470=="
+Content-Type: multipart/mixed; boundary="===============5604045339811542303=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
-Date: Fri, 24 Mar 2023 18:31:15 -0000
-Message-Id: <167968267587.14784.11125838980309826968@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mcgrof/linux
+Date: Fri, 24 Mar 2023 18:35:14 -0000
+Message-Id: <167968291487.17600.16812402808133323239@gitolite.kernel.org>
 
---===============6176356153527523470==
+--===============5604045339811542303==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/qcom/linux
-user: andersson
+repo: pub/scm/linux/kernel/git/mcgrof/linux
+user: mcgrof
 changes:
-  - ref: refs/heads/for-next
-    old: ac7094420ac87d734b558195d45ac26d565ada65
-    new: f60e08a098f637a45dcbb694290d6f0d83cfed1a
-    log: revlist-ac7094420ac8-f60e08a098f6.txt
+  - ref: refs/heads/modules-next
+    old: 6e82310365bade624ff38dd11a8467739adab6cc
+    new: 3edf091d5c1241fa191a1d860a3930411fc81d79
+    log: revlist-6e82310365ba-3edf091d5c12.txt
 
---===============6176356153527523470==
+--===============5604045339811542303==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ac7094420ac8-f60e08a098f6.txt
+Content-Disposition: attachment; filename=revlist-6e82310365ba-3edf091d5c12.txt
 
-2702f54f400ad3979632cdb76553772414f4c5e3 arm64: dts: qcom: sc8280xp-x13s: add wifi calibration variant
-8504fa9baf8bdc5f333f24077b54df1d16173d99 dt-bindings: mailbox: qcom,apcs-kpss-global: correct SDX55 clocks
-22ead09ba40745e50970565af1996c2c1cc4e909 dt-bindings: mailbox: qcom,apcs-kpss-global: fix SDX55 'if' match
-1d83f18be5ad3054636322925f6614e62cb5ff91 clk: qcom: apss-ipq-pll: refactor the driver to accommodate different PLL types
-102262767edefbe2560c1111b19b193fcfd9de5d dt-bindings: clock: qcom,a53pll: add IPQ5332 compatible
-c7ef7fbb1ccfc8b25f3b5382b70274189ba75bcc clk: qcom: apss-ipq-pll: add support for IPQ5332
-e16dd29a3dff57eb6c84374ad8d824f1ec1c48bd arm64: dts: qcom: ipq5332: enable the CPUFreq support
-45875db5cc91958af0e0ada3d8d27ad57ab7c8bb arm64: dts: qcom: sc7180-trogdor-pazquel360: drop incorrect RT5682S VBAT-supply
-11c0d37d4c03ac8002d378cb814aca89118e7d35 arm64: dts: qcom: sc7280-herobrine-audio-rt5682: add missing supplies
-a93af4677e8c3db24eeeb0498bee83b6b7e341fe arm64: dts: qcom: sc7280: align RPMh regulator nodes with bindings
-2458a305e80ef736ae03e6ca0bcae4c3f6923163 arm64: dts: qcom: sm8350: switch to combo usb3/dp phy
-a2802008af93b70165a80624082c695d89f51eb2 arm64: dts: qcom: sm8350: add dp controller
-d3054cec1e9ea475e53280724db62b62e25669d7 arm64: dts: qcom: sm8450: switch to usb3/dp combo phy
-bdd2f4ce5e762d5aede6c30ae161e377536dae1c arm64: dts: qcom: sm8450: add dp controller
-1681ce3735483ab6897e403a20a7faf5c34c1f09 arm64: dts: qcom: sc8280xp-pmics: fix sdam 'reg' property
-a246c20c45a0a2bf5e865a4c3a76822b79b38c80 arm64: dts: qcom: sdm850-lenovo-yoga-c630: Use proper WSA881x shutdown GPIO polarity
-5b91fab8eae27d1436eacde60107bab9987bbd9d arm64: dts: qcom: sdm850-samsung-w737: Use proper WSA881x shutdown GPIO polarity
-4ded91530544afdbac350f609e6597076f569e52 arm64: dts: qcom: sm8250-mtp: Use proper WSA881x shutdown GPIO polarity
-41841f120345be87a12a4096ebcc2d2959c484ef arm64: dts: qcom: qrb5165-rb5: Use proper WSA881x shutdown GPIO polarity
-4367d763698c5c7c2c0e540f0508e48b337c7d8a arm64: dts: qcom: sc8280xp-x13s: enable alternate touchpad
-74f9d27ac7591e0df05c85ca5eb538253f39919d soc: qcom: smsm: Use dev_err_probe()
-72630ba422b70ea0874fc90d526353cf71c72488 arm64: dts: qcom: ipq8074-hk01: enable QMP device, not the PHY node
-1dc40551f206d20b7e46ea7dd538dcdd928451c6 arm64: dts: qcom: ipq8074-hk10: enable QMP device, not the PHY node
-c98a56395e7854f7975dd8539d0563e0ac7d060e arm64: dts: qcom: sm8450: remove invalid power-domain-names in pcie nodes
-e57430d2483506f046e39bf8c61159dde88aede2 arm64: dts: qcom: sm8450: fix pcie1 gpios properties name
-f60e08a098f637a45dcbb694290d6f0d83cfed1a Merge branches 'arm64-defconfig-for-6.4', 'arm64-fixes-for-6.3', 'arm64-for-6.4', 'clk-for-6.4', 'drivers-fixes-for-6.3', 'drivers-for-6.4', 'dts-fixes-for-6.3' and 'dts-for-6.4' into for-next
+b66973b82d4426b318f78a20c6b39ddd977a508a module: move get_modinfo() helpers all above
+feb5b784a26363b690f618213450faf244c1c58e module: rename next_string() to module_next_tag_pair()
+1e684172358453df1cb783d7c101a09ff08ceee1 module: add a for_each_modinfo_entry()
+85e6f61c134f111232d27d3f63667c1bccbbc12d module: move early sanity checks into a helper
+02da2cbab452a236fa67abc9fc9e47430934e652 module: move check_modinfo() early to early_mod_check()
+ad8d3a36e981064f8a646531cddca30516894457 module: rename set_license() to module_license_taint_check()
+ed52cabecb7a7e4242cee9c370c2622a47177d5d module: split taint work out of check_modinfo_livepatch()
+437c1f9cc61fd37829eaf12d8ae2f7dcc5dddce0 module: split taint adding with info checking
+a12b94511cf36855cd731c16005bd535e2007552 module: move tainting until after a module hits our linked list
+c3bbf62ebf8c9e87cea875cfa146f44f46af4145 module: move signature taint to module_augment_kernel_taints()
+72f08b3cc631f4ebcaa9f373d18fc0b877fb6458 module: converge taint work together
+419e1a20f7bdef5380fde5ed73f05c98c28a598b module: rename check_module_license_and_versions() to check_export_symbol_versions()
+46752820f9abc013b6bd8172562b642376723313 module: add sanity check for ELF module section
+c7ee8aebf6c0588c0aab76538aff395c3abf811c module: add stop-grap sanity check on module memcpy()
+1bb49db9919a4d4186cba288930e7026d8f7ec96 module: move more elf validity checks to elf_validity_check()
+3d40bb903ed1f654707d34bdd61ee2c332000e4b module: merge remnants of setup_load_info() to elf validation
+25be451aa4c0e9a96c59a626ab0e93d5cb7f6f48 module: fold usermode helper kmod into modules directory
+6ed81802d4d1b037ad2d1657511ff0c2e9aeda14 module: in layout_sections, move_module: add the modname
+b10addf37bbcaee66672eb54c15532266c8daea6 module: add symbol-name to pr_debug Absolute symbol
+66a2301edf313d630c2ece4f3721c5b3402653ee module: add section-size to move_module pr_debug
+33c951f62920d144ca89daa0560180a49afb6f1e module: already_uses() - reduce pr_debug output volume
+3edf091d5c1241fa191a1d860a3930411fc81d79 Documentation: core-api: update kernel-doc reference to kmod.c
 
---===============6176356153527523470==--
+--===============5604045339811542303==--
