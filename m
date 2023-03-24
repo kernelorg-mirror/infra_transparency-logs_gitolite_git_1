@@ -1,61 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============1891114100931143409=="
+Content-Type: multipart/mixed; boundary="===============8624580920877302729=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ras/ras
-Date: Fri, 24 Mar 2023 12:20:08 -0000
-Message-Id: <167966040828.21704.16380906091245259119@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Fri, 24 Mar 2023 12:37:09 -0000
+Message-Id: <167966142971.31481.7264282721611331837@gitolite.kernel.org>
 
---===============1891114100931143409==
+--===============8624580920877302729==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ras/ras
-user: bp
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/edac-for-next
-    old: 196088de1ab2eee0448b891cd3b81a40d860ee3b
-    new: 567b4e1595112749844b2f1a37b566d3ae070caf
-    log: revlist-196088de1ab2-567b4e159511.txt
+  - ref: refs/heads/driver-core-testing
+    old: 9d11b13402d1b80f7f3ca5061d75f15cf8002555
+    new: 0a392354dbc3ff748e0856a75592fe8d0fdc7674
+    log: |
+         0a392354dbc3ff748e0856a75592fe8d0fdc7674 device property: constify fwnode_get_phy_mode() argument
+         
 
---===============1891114100931143409==
+--===============8624580920877302729==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-196088de1ab2-567b4e159511.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-ccb820dc7d2236b1af0d54ae038a27b5b6d5ae5a fscrypt: destroy keyring after security_sb_delete()
-9c88ea00fef03031ce6554531e89be82f6a42835 NFS: Fix /proc/PID/io read_bytes for buffered reads
-7ff84910c66c9144cc0de9d9deed9fb84c03aff0 lockd: set file_lock start and end when decoding nlm4 testargs
-21fd9e8700de86d1169f6336e97d7a74916ed04a NFS: Correct timing for assigning access cache timestamp
-f959325e6ac3f499450088b8d9c626d1177be160 fsverity: Remove WQ_UNBOUND from fsverity read workqueue
-a075bacde257f755bea0e53400c9f1cdd1b8e8e6 fsverity: don't drop pagecache at end of FS_IOC_ENABLE_VERITY
-43e5f1d5921128373743585e3275ed9044ef8b8f fscrypt: improve fscrypt_destroy_keyring() documentation
-4bcf6f827a79c59806c695dc280e763c5b6a6813 fscrypt: check for NULL keyring in fscrypt_put_master_key_activeref()
-3d3699bde4b043eea17993e4e76804a8128f0fdb Merge tag 'nfs-for-6.3-2' of git://git.linux-nfs.org/projects/anna/linux-nfs
-7d31677bb7b1944ac89e9155110dc1b9acbb3895 gpu: host1x: fix uninitialized variable use
-4f1e308df88ad25c88ab4240161cbac45ba2d78e Merge tag 'fscrypt-for-linus' of git://git.kernel.org/pub/scm/fs/fscrypt/linux
-17214b70a159c6547df9ae204a6275d983146f6b Merge tag 'fsverity-for-linus' of git://git.kernel.org/pub/scm/fs/fsverity/linux
-00e4feb8c0476bbde3c8bf4a593e0f82ca9a4df6 EDAC/amd64: Rename debug_display_dimm_sizes()
-c0984666fde9cf7da4c1123443b469f44e94dd84 EDAC/amd64: Split get_csrow_nr_pages() into dct/umc functions
-a2e59ab8e93301466cb3ff3f2b7b65eb1a4e8786 EDAC/amd64: Drop dbam_to_cs() for Family 17h and later
-5a1adb375d7a86ee3b703f895b61de20773b6670 EDAC/amd64: Do not discover ECC symbol size for Family 17h and later
-ed623d55eef46d0ca7557b9665b4693931bfb507 EDAC/amd64: Merge struct amd64_family_type into struct amd64_pvt
-9a97a7f4d7b26cb61cdbb328b9d8982d94c99170 EDAC/amd64: Rework hw_info_{get,put}
-637f60ef2cc7c015c2e065503f8da89272ab208d EDAC/amd64: Split prep_chip_selects() into dct/umc functions
-b29dad9bf3ce13e7a37f7fc75ee2c95ac48b9f08 EDAC/amd64: Split read_base_mask() into dct/umc functions
-78ec161a91dda15ecdfa153196bf0a739f0cb9a9 EDAC/amd64: Split determine_memory_type() into dct/umc functions
-32ecdf8688d7b6ae183cce88c9307850ff6918f0 EDAC/amd64: Split read_mc_regs() into dct/umc functions
-eb2bcdfc3755342f6af5b9b8365f27c05e4bf275 EDAC/amd64: Split ecc_enabled() into dct/umc functions
-0a42a37f65155f9aa9ca40a959ad7d64f6cdc37a EDAC/amd64: Split setup_mci_misc_attrs() into dct/umc functions
-9369239e8d8b3e91eaa61bca4a546ff7d67bc8bc EDAC/amd64: Rename f17h_determine_edac_ctl_cap()
-f6a4b4a1aa1647a5a9c58aeef099a7a8593151fe EDAC/amd64: Split determine_edac_cap() into dct/umc functions
-6fb8b5fb9e324c617092d61bbe193aa6a49ff2dc EDAC/amd64: Split init_csrows() into dct/umc functions
-f6f36382d6353f648ca111661e0584cd7eb5962a EDAC/amd64: Split dump_misc_regs() into dct/umc functions
-b3ece3a6a231e51c262d67fd47c017970a7dee44 EDAC/amd64: Add get_err_info() to pvt->ops
-eeefdb892c693f7c97dba7a9630776c0970b5915 Merge ras/edac-misc into for-next
-567b4e1595112749844b2f1a37b566d3ae070caf Merge ras/edac-drivers into for-next
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1679661427 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1679661426-6b646785df7749d1d30e2eb999ce747c30d4d0a4
 
---===============1891114100931143409==--
+9d11b13402d1b80f7f3ca5061d75f15cf8002555 0a392354dbc3ff748e0856a75592fe8d0fdc7674 refs/heads/driver-core-testing
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQdmXMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ymEP/AswxKcNeSE2aSdX5j+f
+4gfmr/cycPkZ5qshkYbHvqaEQqqmsSoCCAJXMxaEbmt3B2La7PA5g2CcHy2rTViu
+3v6eaHB2714C3N1BGT3t9GG/+IjoGatJ+97oannO9ap8/7QVL335AlisoaVDXCCk
+EscUT4v/Bk4RPWiF9TL4wE2qdfXPbzb+qpJQ967sRhkm0WA+pwEwJvQSd4LBf1p6
+tTuEGVIzYFM+jG7Gr9EpNNmk2NWFXl8m92pMjRVRsYA/bMrO/cJ/xpAasiq8uhYi
+4I5axUs2FzMbbUQaPVsXpB3qOkRYgrFa/J+w9OSYASzd2JuaO901xmjOFCSZ2/3U
+2SGuwD4/wAYNbXlHS18znnl+6bgO6qJ+pOoocXNraeZmReJPqBOG7rYXFtEnltpR
+gC5dLyS8B/nn3RGsOoLzALb3GItOSUesQTUnOQkFuwVaXrd1QBJ9S1RmuamorHh/
+MjL/Irz5E4O+P2uil0GUqTMVKJn5bUJzDa91CED8ugSFOjeRAGkYR5xXt0us/zw1
+w9TQVd38Af5MZ/4XimvpyBOSRUdltnewdZMtM9VCqsuVDuWEnFDdHAVaU00SkYVK
+jYOhQ9ojb5EASEPjh46t8voU7bLYu2HH0h36lBltNlj5oU8sCoqpfBCuSdajyoWN
+qMIAqGFuT1No00WT7/1m2RFp
+=Qqey
+-----END PGP SIGNATURE-----
+
+--===============8624580920877302729==--
