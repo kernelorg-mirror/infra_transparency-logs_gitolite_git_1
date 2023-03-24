@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1231277963005726720=="
+Content-Type: multipart/mixed; boundary="===============3491622521601954073=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 24 Mar 2023 15:32:44 -0000
-Message-Id: <167967196412.21603.12267476283564671547@gitolite.kernel.org>
+Date: Fri, 24 Mar 2023 15:33:41 -0000
+Message-Id: <167967202119.21981.6651810621635155215@gitolite.kernel.org>
 
---===============1231277963005726720==
+--===============3491622521601954073==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/main
     old: fcb3a4653bc5fb0525d957db0cc8b413252029f8
     new: 323fe43cf9aef79159ba8937218a3f076bf505af
     log: revlist-fcb3a4653bc5-323fe43cf9ae.txt
 
---===============1231277963005726720==
+--===============3491622521601954073==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -53,4 +53,4 @@ fac63186f11682fc5ffd0472d1a990256bd61348 net: phy: micrel: Add support for PTP_P
 c85bd3dacc80b99ae68c7082f8e2edd8b9f83c39 net/ism: Remove redundant pci_clear_master
 323fe43cf9aef79159ba8937218a3f076bf505af net: phy: Improved PHY error reporting in state machine
 
---===============1231277963005726720==--
+--===============3491622521601954073==--
