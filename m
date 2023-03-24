@@ -1,56 +1,45 @@
-Content-Type: multipart/mixed; boundary="===============4262109473885255346=="
+Content-Type: multipart/mixed; boundary="===============2922159911286548162=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/git/git
-Date: Fri, 24 Mar 2023 23:01:04 -0000
-Message-Id: <167969886475.1681.11045332122060839010@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
+Date: Fri, 24 Mar 2023 23:08:51 -0000
+Message-Id: <167969933124.5605.11339854487723690727@gitolite.kernel.org>
 
---===============4262109473885255346==
+--===============2922159911286548162==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/git/git
-user: junio
+repo: pub/scm/linux/kernel/git/saeed/linux
+user: saeed
 changes:
-  - ref: refs/heads/seen
-    old: cedcaf3c789b600864960d51d2ee77994cc54d49
-    new: 79d56b9b95f546c67f09579a98cb78e36d530e6c
-    log: revlist-cedcaf3c789b-79d56b9b95f5.txt
+  - ref: refs/tags/mlx5-updates-2023-03-20
+    old: 5bc3815383a785bc962eed35b9449898c3ae25f5
+    new: 9439af9584791817b4cf66e55b62abc8cf682852
+    log: revlist-5bc3815383a7-9439af958479.txt
 
---===============4262109473885255346==
+--===============2922159911286548162==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cedcaf3c789b-79d56b9b95f5.txt
+Content-Disposition: attachment; filename=revlist-5bc3815383a7-9439af958479.txt
 
-1a3119ed06c8fbb1c00a6aa3615299252575abab blame: allow --contents to work with non-HEAD commit
-3ff774e34fbb11e1e67ad33a5cb2277181b92923 fsmonitor: handle differences between Windows named pipe functions
-a32fae433d81a6f444f39d3a7b0204d4c5930af8 t3070: make chain lint tester happy
-2e7ee2681f8ff1facef209d4a3377679dcb346be Merge branch 'pw/wildmatch-fixes' into jch
-bbff47853daf0c18b1f3b5f163b42305995d47d2 Merge branch 'ab/tag-object-type-errors' into seen
-5e0d0054a30d328f00c599d91613e7ba3d6f752a Merge branch 'so/diff-merges-more' into seen
-beb91acd1b17053a3a50861944900a426ebbb60c Merge branch 'ms/send-email-feed-header-to-validate-hook' into seen
-4166cea2fafa1e07c5d46d89f00df8b5b69df148 Merge branch 'cw/submodule-status-in-parallel' into seen
-b80579a4a85982fb3fe648f4e60cb796e093e751 Merge branch 'tk/pull-conflict-suggest-rebase-merge-not-rebase-true' into seen
-e5403cd88574200c7ada0aa4ff38d28d08de7a07 Merge branch 'tl/notes--blankline' into seen
-3b6ce83c99007ae8e78ac440c8343a9ec31f3ea8 Merge branch 'gc/config-parsing-cleanup' into seen
-905f2daf73a9ddca33a985af6b6ca9c9d22eb491 Merge branch 'mh/credential-password-expiry-libsecret' into seen
-c217b49727cda73595ade9b5cbd73134bb1dfa61 Merge branch 'pw/rebase-cleanup-merge-strategy-option-handling' into seen
-6f445b26314556debc622642fa56f57ff1b37903 Merge branch 'mh/credential-oauth-refresh-token' into seen
-05232477a2c512cf9104401e1ae5cf2503bc6379 Merge branch 'ab/remove-implicit-use-of-the-repository' into seen
-fdd765fcc63d3c6532b87cc24fe29f1057a6d696 Merge branch 'jk/unused-post-2.40' into seen
-4eada5e82f350a1c53f73cf90f74d4ec0a388e44 Merge branch 'en/header-split-cleanup' into seen
-6d4eeda5599ce3aa0b640ba308e8d362021acd83 Merge branch 'ed/fsmonitor-inotify' into seen
-543f4f8ebb00a0e751d5e721617a5019011e78da Merge branch 'sl/diff-files-sparse' into seen
-043190d6b65fd0fb063eca1e825a6a803fdddc49 Merge branch 'cb/checkout-same-branch-twice' into seen
-1be73c3a745369823789c896ebd4789a38f26fea Merge branch 'jk/blame-contents-with-arbitrary-commit' into seen
-23a248523376e4c4823e3613d02b9b06db3e9acb Merge branch 'ob/rollback-after-commit-lock-failure' into seen
-b3795593a6abad19e70ba875f3ea920d4a61a0fa Merge branch 'ob/sequencer-save-head-simplify' into seen
-1f8f672250b6492540483172cd5453183930dbac Merge branch 'ed/fsmonitor-windows-named-pipe' into seen
-92b1dd1b9e6e272c5115d6e37e19a892610a2686 archive: improve support for running in subdirectory
-79d56b9b95f546c67f09579a98cb78e36d530e6c Merge branch 'rs/archive-from-subdirectory-fixes' into seen
+cb2abffd3fb215acb5e3bd5a9980c33c8ee0fd3a lib: cpu_rmap: Avoid use after free on rmap->obj array entries
+2662001feae59909ebe036ea9f3de33f53ee1e53 lib: cpu_rmap: Use allocator for rmap entries
+ba47be084a83418051ac3c205193a89942d1d81d lib: cpu_rmap: Add irq_cpu_rmap_remove to complement irq_cpu_rmap_add
+93960c99845a99b2159900b2646c30a6d18f7209 net/mlx5e: Coding style fix, add empty line
+2aba1b2197d6bf22d16389ece58fd923dbbfce98 net/mlx5: Fix wrong comment
+471b5b31b23a99e2e0927c488d9cee95bb0e7172 net/mlx5: Modify struct mlx5_irq to use struct msi_map
+e6c70db7c6fe53bb5301a8bb04a1e9b17d497f65 net/mlx5: Use newer affinity descriptor
+ff9df0a1e4927a8a3041000759c4f2b3d62552b0 net/mlx5: Improve naming of pci function vectors
+d15713299b65f4b3e08031661638d02b5b38141e net/mlx5: Refactor completion irq request/release code
+3d15ccf8543e48079221e5ea18d3c80925908ce9 net/mlx5: Use dynamic msix vectors allocation
+36cc21ca9bf2445fda8190bcea61b73a0d56bebe net/mlx5: Move devlink registration before mlx5_load
+940b0a72f7d3f256a2310bea2fc0945433f56a55 net/mlx5: Refactor calculation of required completion vectors
+d4703d25167eee2d2e0fe63e9aed000ca9e4970d net/mlx5: Use one completion vector if eth is disabled
+f10919714612d86d2ec38165b3fbdb3e26549ac1 net/mlx5: Provide external API for allocating vectors
+2e21ab28e230fd8333ac0586901431132cc308d7 vdpa/mlx5: Support interrupt bypassing
 
---===============4262109473885255346==--
+--===============2922159911286548162==--
