@@ -1,51 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============7195187573590421186=="
+Content-Type: multipart/mixed; boundary="===============1543909862937745394=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Fri, 24 Mar 2023 20:37:11 -0000
-Message-Id: <167969023197.942.17311534226776195312@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regmap
+Date: Fri, 24 Mar 2023 20:37:25 -0000
+Message-Id: <167969024594.1139.13806423178271163133@gitolite.kernel.org>
 
---===============7195187573590421186==
+--===============1543909862937745394==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/regmap
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/regmap-6.4
+  - ref: refs/heads/for-next
     old: 24d80fde40c995b2e2faaf72034e12e60a416630
     new: dc4c6232b8831ee4884b1026fcd963bd7e3ae21f
     log: revlist-24d80fde40c9-dc4c6232b883.txt
 
---===============7195187573590421186==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1679690230 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1679690229-4fb1adab4e0320c760ba738d26a75d132e3b616f
-
-24d80fde40c995b2e2faaf72034e12e60a416630 dc4c6232b8831ee4884b1026fcd963bd7e3ae21f refs/heads/regmap-6.4
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmQeCfYACgkQJNaLcl1U
-h9Cc5gf/dhK0LJPEXFJ4pmsxgoS7dquaMrAnALqBB8cmpaA5SWL5yHKfecdSKyhS
-pVl6CnivfdO7DKlW6GjuNmNc1R5uToOxw1MthQQ+LC9gl/ATSUO0xi4VRIfN4Qvw
-3GN+LmFt1DBdFGzAzLLy6ZbW4aYcON/a+TEq6Hy+DaSqxYOm141C8HBOvy6pd3JU
-XfWQQcXEYI7dkJMCpFeeDfRVq3bhDcNbFeifyn9bnHVL6mudUJBHPYNywMuFO5AG
-nB92GFEsVZD1KFuGxS+fDT0Fx2OVojYKxJZm68MiuGN0fLwH6O2cDKsKrAt9TCzz
-F7EW354T8wg+s/vRXquOtNDkTHzHYg==
-=zLNa
------END PGP SIGNATURE-----
-
---===============7195187573590421186==
+--===============1543909862937745394==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -526,4 +501,4 @@ e8d018dd0257f744ca50a729e3d042cf2ec9da65 Linux 6.3-rc3
 3f58f6dc4d92ed6fae4a4da0d5b091e00ec10fa8 regmap: add a helper to translate the register address
 dc4c6232b8831ee4884b1026fcd963bd7e3ae21f Introduce a helper to translate register addresses
 
---===============7195187573590421186==--
+--===============1543909862937745394==--
