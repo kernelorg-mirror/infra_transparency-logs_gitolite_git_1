@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Sat, 25 Mar 2023 18:20:36 -0000
-Message-Id: <167976843611.31771.4983483924206369775@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pinchartl/linux
+Date: Sat, 25 Mar 2023 18:47:12 -0000
+Message-Id: <167977003219.16311.3652470426876523764@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/pinchartl/linux
+user: pinchartl
 changes:
-  - ref: refs/heads/master
-    old: 8d9b0efc9510e5b12671f6192040afd6ce0ebe23
-    new: e9d1e2b1510cef56ee0a9f387b8375980c06f899
-    log: |
-         e9d1e2b1510cef56ee0a9f387b8375980c06f899 Sat Mar 25 06:19:42 PM UTC 2023
-         
+  - ref: refs/heads/next/media/imx6
+    old: 011c9c43c22c5988d46f3b2aac5ecdcb4a7d5b6a
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/media-imx-next-20230325
+    old: 0000000000000000000000000000000000000000
+    new: 733456d95bb260168f403b9db9e05f1c87d64beb
+  - ref: refs/heads/next/media/imx
+    old: 0000000000000000000000000000000000000000
+    new: 1f1863b6ca3c12c50407e728d12060f81f6c108c
