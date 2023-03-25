@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1033044221433755658=="
+Content-Type: multipart/mixed; boundary="===============4127918377871818684=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Sat, 25 Mar 2023 01:02:39 -0000
-Message-Id: <167970615953.16648.2978954815143365931@gitolite.kernel.org>
+Date: Sat, 25 Mar 2023 01:03:01 -0000
+Message-Id: <167970618116.16823.10034889417045136591@gitolite.kernel.org>
 
---===============1033044221433755658==
+--===============4127918377871818684==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
-  - ref: refs/heads/perf-tools-next
+  - ref: refs/heads/perf/core
     old: 9b2683d756fdf71254ce4da51cc5a9c4b2d44534
     new: d2278cf6dd096dd58f86abf04c33ab6fe8c2881d
     log: revlist-9b2683d756fd-d2278cf6dd09.txt
 
---===============1033044221433755658==
+--===============4127918377871818684==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -40,4 +40,4 @@ ea5f243b00a77fcfae857751b250ba32f5baaa32 perf tests record_offcpu.sh: Fix redire
 4d5e0df0c72a8c2bff8f6d10cb7d0ece0c98ef9e perf tests test_bridge_fdb_stress.sh: Fix redirection of stderr to stdin
 d2278cf6dd096dd58f86abf04c33ab6fe8c2881d perf stat: Suppress warning when using cpum_cf events on s390
 
---===============1033044221433755658==--
+--===============4127918377871818684==--
