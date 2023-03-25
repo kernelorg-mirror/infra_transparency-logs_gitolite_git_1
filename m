@@ -1,58 +1,59 @@
-Content-Type: multipart/mixed; boundary="===============2408364620580344411=="
+Content-Type: multipart/mixed; boundary="===============2750595035730519628=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Sat, 25 Mar 2023 08:44:01 -0000
-Message-Id: <167973384181.29791.3976091978590797818@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
+Date: Sat, 25 Mar 2023 08:51:07 -0000
+Message-Id: <167973426724.4391.14822535836567180601@gitolite.kernel.org>
 
---===============2408364620580344411==
+--===============2750595035730519628==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/driver-core
+repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/class_cleanup
-    old: 87faab31e09c2de00447b6181f12f1ec9288cc38
-    new: 739cce96993523113b4a7192c7f75664dcdbf323
+  - ref: refs/heads/staging-testing
+    old: 1bd51241bde49f134d3631ebbcc3d5ce4f8b143a
+    new: d24927f43b9f3f3994ddf075caee531391c56559
     log: |
-         e0afcab9d90d9a39ffa8b2a4010139c996d63c9c driver core: class: mark the struct class for sysfs callbacks as constant
-         0eaf5586221c5dd0ad438b0bf190cc13e79783ab driver core: class_to_subsys()
-         739cce96993523113b4a7192c7f75664dcdbf323 driver core: class: use subsys internal structure
+         1acaceb1a43b86a3a8d340c37444214f4bbf0cdd staging: most: remove extra blank line
+         c35cc254f34503a53d58560367a1eb4ac0a430cc staging: most: fix line ending with '(' in video/
+         bb75546bb630d2fccd39dfcf691a9cb73cfbc7d9 staging: most: fix line ending with '(' in dim2/
+         d24927f43b9f3f3994ddf075caee531391c56559 staging: ks7010: fix line ending with '('
          
 
---===============2408364620580344411==
+--===============2750595035730519628==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1679733840 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1679733839-93486cda58392a80ee7eab956bc235d47b9d136e
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1679734265 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
+nonce 1679734264-6075dc669e5faf93bf69d5818109b635f9472949
 
-87faab31e09c2de00447b6181f12f1ec9288cc38 739cce96993523113b4a7192c7f75664dcdbf323 refs/heads/class_cleanup
+1bd51241bde49f134d3631ebbcc3d5ce4f8b143a d24927f43b9f3f3994ddf075caee531391c56559 refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQetFAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+39QP/3xH8Z8yhS7ydb9ZCCJi
-7rFqU2amGNcJHnSygNZnPRft8LGCTuX8u11jUtGp2qVv/Q4OTNQrGJ5IPgEAJ5Jk
-vd1wkaaA4WFk8jXwTCgalmXOB+1m3aj7UvSTwAoaWJWeUVxNfksLTerl9hh2hndI
-ajhiQ85WVe/n9/N9csQpPvNMtXre/ZO0aleeNBwd+jQAatY4fRVqyQqFoMmxEyHm
-qk0LGzleoBJUhCAFDSCK6yS1JiiZpd/FIkrL50uDX5lZk59PlHlNIDsjCe8U8Gya
-X4azF8Mg0vpzZzmT94TLJd1xaE3yPXsYzC7ZyFss64h4MiN/1Pa2NWAwEyUckWs9
-XDh3zav0Whl0jdUnHcySWCKMyuRkRWciPHacgyBw1rp8a3Lgbe64vrK4j3te+Zu6
-Y8KtzEwnKk/zgTPVbW58gXoROMtdA3IjAECAyFJemMZr1GgMeXH20hVRLagRKCpa
-wDaCzLSRF9nvX+wtX6evB+nAA/fsn18Xiv42rU8YcM1U9Mrwma9O6gAVLfMUQCKl
-zPAUFRnvKJDANAVIHJbatx2SYpchmtDzAwW/QjUzH2RLMgFM6l+hTq9Vpy4XckTx
-kJWc9VycDHKp0rdo8lSGXCOpXxHeBwWl0qagWYV0H9l5RAITOOCI3ZGDsYEoBhP1
-QkqIIY5z8dqo6nV07hKjjE05
-=YbVP
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQetfkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+HFcQAMK7jjscwJZWyFLjowCT
+07Ezj8ahbaLoR9QPJiR25t1BACRIGGL2eiGHsQFo4WwgGnFA6oK/U9XW4gVBY8HO
+1tgRWocCp8Tbp/3kI0xY03uiDCQtly0/mDJW7M3YepiIWyWoLL3szC3DmY/zCsbV
++eLypifpa3m/OTpQ466faXN+r/bKNalpwTIFVF9Smi8jsUvCwbfi5F0oYkDEQauD
+0+3/rHZGb+xcLm25kMFcZ8ihuZXV/FyVsgQoJY8eAsp2ghuUpdOrabLmXeBvREPc
+HxRcvpK7Kb6q6APbxWHOF0sRXw6+0qusoqkOiRYswl9tGTcz/JjkGr+4Dy8kZhr4
+g5tmlKFtoXO6gZbtsJzj2re5j2D5g/i5lYLFlRtxLFhQwNONpeKq4zXxLxL1Lngn
+0enjufVFkZTQ3nXPzCF+h0PE3nWjfFdALDoHThOizSlinCJfru5c+QiLrMJI55Ut
+3uThchBIM4zFvbeVDdUBBlbK3P9Cupt0WBppuue2iLyFwuYmzI5y2YlEVJVbZ3Wi
+JaJS92oPeavOkCUxQtavbwoJeJ/noglpSuzLKzy6jvup4ov0ERNQ2sJKQ5d7ENiS
+6I7z/KBstYso1ovqw3nbilBz3APB8bFk4KKxITKe0YpISdNVpgN4TRqipBjYSugy
+HdXCyT/f5sKhpvs+VVvbsHgR
+=NJ5l
 -----END PGP SIGNATURE-----
 
---===============2408364620580344411==--
+--===============2750595035730519628==--
