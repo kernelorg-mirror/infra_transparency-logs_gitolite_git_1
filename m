@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7491535654718652892=="
+Content-Type: multipart/mixed; boundary="===============4245765353505704398=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Sat, 25 Mar 2023 08:55:58 -0000
-Message-Id: <167973455815.7526.15447623756106924871@gitolite.kernel.org>
+Date: Sat, 25 Mar 2023 08:56:18 -0000
+Message-Id: <167973457816.7691.11889647304383805688@gitolite.kernel.org>
 
---===============7491535654718652892==
+--===============4245765353505704398==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,41 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/staging-testing
-    old: 016227800e3b085d90638312bf79d40add8da1e4
-    new: f5aca1a63e83178374195d3a26790091fdf2ed05
+    old: f5aca1a63e83178374195d3a26790091fdf2ed05
+    new: 01bc9ff2749b1aee1eab70d98c5313361add336c
     log: |
-         f48198232d605a0d29f1e11235a6f6142b074b39 staging: greybus: Inline gpio_chip_to_gb_gpio_controller()
-         f5aca1a63e83178374195d3a26790091fdf2ed05 staging: greybus: Inline gb_audio_manager_module()
+         01bc9ff2749b1aee1eab70d98c5313361add336c staging: vme_user: Replace "<<" with BIT macro
          
 
---===============7491535654718652892==
+--===============4245765353505704398==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1679734555 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1679734575 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1679734555-80d20b223bebed34fb490a89a7fc6bc6de625fcf
+nonce 1679734575-d6c92cb412a42465162c080a90a80c5914ab7581
 
-016227800e3b085d90638312bf79d40add8da1e4 f5aca1a63e83178374195d3a26790091fdf2ed05 refs/heads/staging-testing
+f5aca1a63e83178374195d3a26790091fdf2ed05 01bc9ff2749b1aee1eab70d98c5313361add336c refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQetxwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+mL0QAJLczY7w1cGkG6RWeHs/
-8YtZjpAgBN8aGojKKS0ntpmWokADTEqn88Uym3X7kzES19RNmy3rv00Z42ot9rAT
-qjZg3RPrhll4ZOkjrmeTQVKz6hmi/fbpZrLb43uJ5truEa5NPEIYHTAEqsRTcYeV
-70hC8yUwU+C5hxJHW3Y5ByKSuBN+P/cM5Lt2ksXKunGdoVEN4r1ucs5lbMDcfb3z
-c5ni6/k0Kzwt3S3MLIHu29qOIq6I0+b98Ob67PU7Si+SlvXUhU7GiD0YWASfTcyz
-AFPUI0R2xYhm7q9prVEJjRnOduD38Y1oIag80mPJqR63FUCOj3bhG2G15Y6WFed8
-twjdrSXw/SBoW06eg7H5SRev8ZZcOeBheaAX9UduLiK5bqLUGJZs9rOyoukCTU6y
-1/5/xHiwO/poZacLtAyCgwD0YIxxblZLtLMki/X0N0/BdfLwc9+XV+EWFlYVA5xx
-vua+1jpdHWAPYH+/ZqjMG/p3T5l6p4x+xPCltcDV3qsmT+6eaYsRXLn7bG1m/Oe2
-+s+iezF2izVpD3Q0yg9TgCm5czhy45uQl/onNzEXUdlfanRKMUliivmB1FrKKqBg
-VQHtjQrMhgcyQsbRxscAuYjO8M1Mlcec+V8IxSsbiPC6+6O92taGsSY+xCAe3icl
-a5qrWI/uqWoclNv0RYrrzYWc
-=dTQd
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQety8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk++E8P/jOaCLAMQUwg2DtXtgbX
+M3pqCDUw5vsa+zve6w5Syv7DnMsb49EkHEWZgCtOSJOI4QlyakJFXE8QziJU/NpA
+YcXQdwhL7MupWmC8II3F3FF9IEeNQcn1SEbdYvPs0OxJaahJNOXHPA5vIZLk+3Dy
+Pt4zgGILx5/KEA08/YqOCoMt1n85WEdifg+vYwuXHSM77QBniV2dOzSxCq3ZsFUJ
+KcEFSI/CwMIj+WLyO+hnR3NUk9yKa2dVbIbdhjOkDehiTbNqAXL/ZYWRx4eDZ2g2
+ZP/pTp/GrBRncOCFt/d53i1XFA+/TkdvogrEzS3KUkyh+fuL3W4c+IxAGuHYJhnX
+dHeW0LtIScfMtdh98lNqPuIGzMf6xLCHbfcsExGvw/Ch876Em0NLS3GW6yV+05QK
+N48nrbUnx0aDTTNQU7GKwSUIK653Os/PF6eyPXtC8C1Z6vTgXfFHVBWMhPMvinNn
+w/ktYbLmi8lOzwF0YZB99W/hBKnrX6H6y6E+kq6eStWRs6yRDuXTeTM4ELcUlSUL
++mVYpSf2viCj0e9d4lt4+m4qqHEGvjlL88NsJxu5/PBv6T7JgOOy02hNvPcrnUV0
+nsLHUBY6mb1bz4ayDBmLFX2YqKM3wcaMNqOxb8X68rpz/7qGIS2fNp2zYNlnWBwJ
+ApP1T5ETaQkYP3atTImte6J6
+=Q132
 -----END PGP SIGNATURE-----
 
---===============7491535654718652892==--
+--===============4245765353505704398==--
