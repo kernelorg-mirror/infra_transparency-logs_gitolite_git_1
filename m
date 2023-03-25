@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Sat, 25 Mar 2023 02:09:29 -0000
-Message-Id: <167971016967.28986.10982630608313966269@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Sat, 25 Mar 2023 02:10:31 -0000
+Message-Id: <167971023197.30900.2728555741258499864@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/master
-    old: beb0643bfadbeaecb29aaac555a0db9f82f19d14
-    new: 8de993891eb90b82b1fc2414b67d6b6d24f95424
+  - ref: refs/heads/main
+    old: dc0a7b52007145a85d0c2f3151870b101568b449
+    new: 2d08f3e128b1b380b0992ab40d60e0843db3c6b2
     log: |
-         8de993891eb90b82b1fc2414b67d6b6d24f95424 Sat Mar 25 02:07:39 AM UTC 2023
+         2d08f3e128b1b380b0992ab40d60e0843db3c6b2 mISDN: remove unused vpm_read_address and cpld_read_reg functions
          
