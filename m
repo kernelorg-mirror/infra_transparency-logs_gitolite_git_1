@@ -1,43 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============4127918377871818684=="
+Content-Type: multipart/mixed; boundary="===============6782466867358136109=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Sat, 25 Mar 2023 01:03:01 -0000
-Message-Id: <167970618116.16823.10034889417045136591@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
+Date: Sat, 25 Mar 2023 01:15:05 -0000
+Message-Id: <167970690583.25090.7445273427095496414@gitolite.kernel.org>
 
---===============4127918377871818684==
+--===============6782466867358136109==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
-user: acme
+repo: pub/scm/linux/kernel/git/mkp/scsi
+user: mkp
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/perf/core
-    old: 9b2683d756fdf71254ce4da51cc5a9c4b2d44534
-    new: d2278cf6dd096dd58f86abf04c33ab6fe8c2881d
-    log: revlist-9b2683d756fd-d2278cf6dd09.txt
+  - ref: refs/tags/mkp-scsi-fixes
+    old: d7c0d3981db3ff056972a0e4d56dbccae121c0b9
+    new: fcc21c8c6f03e9090047961b1b831d115b49f92a
+    log: |
+         0808ed6ebbc292222ca069d339744870f6d801da scsi: megaraid_sas: Fix fw_crash_buffer_show()
+         2309df27111a51734cb9240b4d3c25f2f3c6ab06 scsi: megaraid_sas: Fix crash after a double completion
+         f0aa59a33d2ac2267d260fe21eaf92500df8e7b4 scsi: core: Improve scsi_vpd_inquiry() checks
+         d684a7a26f7d2c7122a4581ac966ed64e88fb29c scsi: mpt3sas: Don't print sense pool info twice
+         
 
---===============4127918377871818684==
+--===============6782466867358136109==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9b2683d756fd-d2278cf6dd09.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-c8806fbfd2d1fb81a4b5bcecdcc118a8569f4176 perf lock contention: Fix msan issue in lock_contention_read()
-8548fd8f301bd70802d0df96bbc236873b2ee32d perf vendor events intel: Broadwell v27 events
-29600ef7c0a795752c6e80c005ee1c8a08da15f6 perf vendor events intel: Broadwellde v9 events
-c70ba270ff3514a3b39a328535e1aa15332da997 perf vendor events intel: Broadwellx v20 events
-8deeb7ec5125aa1a12c78f50e7c600ac575fe9f7 perf vendor events intel: Haswell v33 events
-60c668422a5b6f12b703e55120ac34285625ad59 perf vendor events intel: Haswellx v27 events
-9f0153e20810f8adc44ec73ac97eb0f1efbdc4da perf vendor events intel: Jaketown v23 events
-17936e37bf84cb3350eed50fcb1e156ae890e573 perf vendor events intel: Sandybridge v19 events
-82d4f3fb26f9ea73c84e0f1a80e48a998be0cfd1 perf metrics: Add has_pmem literal
-828686d05cba3c6cbe73b3640e03f7c132befe7e perf vendor events intel: Update metrics to detect pmem at runtime
-ea5f243b00a77fcfae857751b250ba32f5baaa32 perf tests record_offcpu.sh: Fix redirection of stderr to stdin
-4d5e0df0c72a8c2bff8f6d10cb7d0ece0c98ef9e perf tests test_bridge_fdb_stress.sh: Fix redirection of stderr to stdin
-d2278cf6dd096dd58f86abf04c33ab6fe8c2881d perf stat: Suppress warning when using cpum_cf events on s390
+certificate version 0.1
+pusher 75C5DE3D 1679706897 -0400
+pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
+nonce 1679706897-924b421d09766c65f2114e770c1d491fccc772ef
 
---===============4127918377871818684==--
+d7c0d3981db3ff056972a0e4d56dbccae121c0b9 fcc21c8c6f03e9090047961b1b831d115b49f92a refs/tags/mkp-scsi-fixes
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmQeSxEACgkQ7ulgGnXF
+3j0c+Q//UnV7NENza/rk/rHFXzqFFvUGqAfhcvUPhiQ0/GRygXB1pFKsXBcyGyF+
+S3AK3neGSXJfhlf6P6K+7oqydOwCCSjqCOmEkg4iCFGZW/HYIE205PZMuWQ4GbW/
+qKV/F/xEw6vxG7yv19lbYSRq/vTfNr5Ori+zfhNPzo3J8YClPoAQbzHIS8uTNwj7
+RusvRc5sNhADerlh25BQ+ipuLV35L4B7GVBbHMQnmHW5+g7ukwz+RGtbXWMUeXC+
+WjPpQp4a5Zbcj2ZlDc2gwLsIBnHK+4Sovs4fLk8OHtl8StXKxzVWzxeOetTpMI7a
+HN0XvmLmJyhtZKjzJkI3AznTEtDHbU0arfHC0B1ER/Dn1YT8jTQSnxcbQIuvzsZN
+1IL2BFb1zDCMmYrtLxCUoca3LUD33gl2G6tiI0uoN6pqKN7ssScGSgVbbfbyz817
+LYRl3FnNCL6t/obohdikZhZS559fgOC8XZEhNNTTyiCfCU9VRkZnvoUREwbI6wIv
+8btTx/GYSr0dQbFIaikd5yFpoYEJTky+8o+6IFxCF9ETa68roUPzyT119TP4FcGg
+ui6Uq5k0k1jyM/dDTZRLNQqwpwg0LaZ+Z+Ittx1lUoDJJukFWpOW7BDMoV6ewaDV
+w+uPyE8BHUcQga56e6fvMSvrUTrQgE6iSRzHGq1CMZPae7ZyAxk=
+=mcdt
+-----END PGP SIGNATURE-----
+
+--===============6782466867358136109==--
