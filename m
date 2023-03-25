@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2818101817811507394=="
+Content-Type: multipart/mixed; boundary="===============0262237815390674332=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Sat, 25 Mar 2023 02:37:33 -0000
-Message-Id: <167971185352.16238.109939355154270945@gitolite.kernel.org>
+Date: Sat, 25 Mar 2023 02:37:49 -0000
+Message-Id: <167971186954.16411.13315980370312419251@gitolite.kernel.org>
 
---===============2818101817811507394==
+--===============0262237815390674332==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jejb/scsi
 user: jejb
 changes:
-  - ref: refs/heads/misc
-    old: 0b31b77f281a1734fe14821c5cc044baea9154fc
-    new: e05c006dac08ef346fc5e223f6f14cc2c6c96a7b
-    log: revlist-0b31b77f281a-e05c006dac08.txt
+  - ref: refs/heads/for-next
+    old: 2b6ac25dfa2a433f826ede9f6ac9bd7c4ac03898
+    new: 54b700cb9d4b74a5e84b499d5f05e425a06d2cf2
+    log: revlist-2b6ac25dfa2a-54b700cb9d4b.txt
 
---===============2818101817811507394==
+--===============0262237815390674332==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0b31b77f281a-e05c006dac08.txt
+Content-Disposition: attachment; filename=revlist-2b6ac25dfa2a-54b700cb9d4b.txt
 
 1efbacd2b95a97d6039bf0982794c2e2d346feac scsi: be2iscsi: Make some variables static
 58b42c949b30212026d7a1a01d12fb61a30604c0 scsi: fnic: Switch to use %ptTs
@@ -70,5 +70,11 @@ e5f596bc25925e33bb4da8bc7976ecd808e9f6d0 scsi: mpi3mr: Update MPI Headers to rev
 e74f2fbd8b06e57c60ad4b92ea302a11671ac634 scsi: mpi3mr: Update copyright year
 1ea41edd88f22077a9f86f45f2eca5663bbcfd3e scsi: mpi3mr: Update driver version to 8.4.1.0.0
 e05c006dac08ef346fc5e223f6f14cc2c6c96a7b Merge patch series "mpi3mr: Few Enhancements and minor fixes"
+0808ed6ebbc292222ca069d339744870f6d801da scsi: megaraid_sas: Fix fw_crash_buffer_show()
+2309df27111a51734cb9240b4d3c25f2f3c6ab06 scsi: megaraid_sas: Fix crash after a double completion
+f0aa59a33d2ac2267d260fe21eaf92500df8e7b4 scsi: core: Improve scsi_vpd_inquiry() checks
+d684a7a26f7d2c7122a4581ac966ed64e88fb29c scsi: mpt3sas: Don't print sense pool info twice
+6d05f8d14c840b717d6ff5fcadf5c9e238255cb6 Merge branch 'misc' into for-next
+54b700cb9d4b74a5e84b499d5f05e425a06d2cf2 Merge branch 'fixes' into for-next
 
---===============2818101817811507394==--
+--===============0262237815390674332==--
