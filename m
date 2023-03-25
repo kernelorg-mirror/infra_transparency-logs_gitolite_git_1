@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6309042504117895184=="
+Content-Type: multipart/mixed; boundary="===============1782819885025772283=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/colyli/linux-bcache
-Date: Sat, 25 Mar 2023 05:07:59 -0000
-Message-Id: <167972087970.19182.9824603522427309995@gitolite.kernel.org>
+Date: Sat, 25 Mar 2023 05:29:03 -0000
+Message-Id: <167972214385.541.3107093773200408716@gitolite.kernel.org>
 
---===============6309042504117895184==
+--===============1782819885025772283==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/colyli/linux-bcache
 user: colyli
 changes:
-  - ref: refs/heads/master
-    old: 2eb29d59ddf02e39774abfb60b2030b0b7e27c1f
+  - ref: refs/heads/for-next
+    old: bd7641b1a9479f9a34ccfb3ce2cfad631ed05c88
     new: 65aca32efdcb0965502d3db2f1fa33838c070952
-    log: revlist-2eb29d59ddf0-65aca32efdcb.txt
+    log: revlist-bd7641b1a947-65aca32efdcb.txt
 
---===============6309042504117895184==
+--===============1782819885025772283==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-2eb29d59ddf0-65aca32efdcb.txt
+Content-Disposition: attachment; filename=revlist-bd7641b1a947-65aca32efdcb.txt
 
 0bdf4a8bf0aab64757c23ef3acf8190af2b23797 Merge tag 's390-6.3-2' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
 57b76324c2a03b7b75d2d93f5c83f4340fd9b621 Merge branches 'acpi-pm' and 'acpi-x86'
@@ -1051,4 +1051,4 @@ e76db6e50c85cce9e68c47076f8eab06189fe4db Merge tag 'arm-fixes-6.3-2' of git://gi
 90c8ce31dbe93f277fc1157e34740e841094c254 Merge tag '6.3-rc3-ksmbd-smb3-server-fixes' of git://git.samba.org/ksmbd
 65aca32efdcb0965502d3db2f1fa33838c070952 Merge tag 'mm-hotfixes-stable-2023-03-24-17-09' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 
---===============6309042504117895184==--
+--===============1782819885025772283==--
