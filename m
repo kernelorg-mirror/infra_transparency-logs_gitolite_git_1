@@ -1,13 +1,9 @@
-Content-Type: multipart/mixed; boundary="===============0462704514399075138=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Sat, 25 Mar 2023 22:56:49 -0000
-Message-Id: <167978500924.19468.7766580101689634368@gitolite.kernel.org>
-
---===============0462704514399075138==
-Content-Type: text/plain; charset="us-ascii"
+Date: Sat, 25 Mar 2023 23:10:04 -0000
+Message-Id: <167978580404.28062.8966050955729561344@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
@@ -16,30 +12,16 @@ repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
 user: snitzer
 changes:
   - ref: refs/heads/for-next
-    old: 8f73efd34dbf11a10fd589a8d350e95ab31895fa
-    new: 1940d461ec0670c0a21bce7bffb2e67f53062fa0
-    log: revlist-8f73efd34dbf-1940d461ec06.txt
-
---===============0462704514399075138==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8f73efd34dbf-1940d461ec06.txt
-
-aceb8a8666fa9c5cde0fdad24ac2b6742e44b673 dm bufio: remove unused dm_bufio_release_move interface
-2fca6188b5fefa8cab49de91e25a611326a57a26 dm bufio: use WARN_ON in dm_bufio_client_destroy and dm_bufio_exit
-b27a77dfa1c91835daab4d217e3c04d57f2216c7 dm bufio: never crash if dm_bufio_in_request()
-2a83adcc363c85af99cc79212380f4694a552033 dm bufio: don't bug for clear developer oversight
-b635f5adf3b6172c93019c7c44bddc8bd617ac6f dm bufio: add LRU abstraction
-727e7c76a1d1d0bb38adb28c340db69622aaff85 dm bufio: add dm_buffer_cache abstraction
-0ddc1c6756078d0d96aa3ba257f071d65e5f8a03 dm bufio: improve concurrent IO performance
-64ad4f6ed617af81da62e469d14adf8791e20ca4 dm bufio: add lock_history optimization for cache iterators
-aab6025b7e94f997005ba8265410c6e526d0ea9c dm bufio: move dm_bufio_client members to avoid spanning cachelines
-251e46f44bf54ba975a5967dcfca47e4c5486295 dm bufio: use waitqueue_active in __free_buffer_wake
-e91dbead6948ee0ea0dc14e96338472bbf3fd84d dm bufio: use multi-page bio vector
-246021d6d7c2dfe229c201c77bbd3a0cf1ccb965 dm thin: speed up cell_defer_no_holder()
-b0982f8c9ed03437b7c731ef1f2183a49fa46b2b dm: split discards further if target sets max_discard_granularity
-572301073d356b21f08cb0539da947a1494c268b dm bio prison v1: improve concurrent IO performance
-1940d461ec0670c0a21bce7bffb2e67f53062fa0 dm bio prison v1: add dm_cell_key_has_valid_range
-
---===============0462704514399075138==--
+    old: 1940d461ec0670c0a21bce7bffb2e67f53062fa0
+    new: 3f0f0b8b32ccde692a50ef07305aa6c6629dac90
+    log: |
+         94f15d43f54a9370db9968071c8ec4bd991c06fd dm bufio: improve concurrent IO performance
+         15d3305c435861dbbf2c383b7b2432ac39e66b81 dm bufio: add lock_history optimization for cache iterators
+         4215e9a0d28913be0cfb417139a195df065ea17c dm bufio: move dm_bufio_client members to avoid spanning cachelines
+         78889e46789fd329e4e42ae6727c7b4c34011461 dm bufio: use waitqueue_active in __free_buffer_wake
+         2c3b5a8364eaab66805372fd40fdd5d957fc2a1b dm bufio: use multi-page bio vector
+         55ef6de342fdb48ac7a11a56883c6900bd9b9a30 dm thin: speed up cell_defer_no_holder()
+         e00cb7209b4d976ae2c8c29389d02145327cb0e4 dm: split discards further if target sets max_discard_granularity
+         5dc1698ff858a5afa0be4b68811e8a14e0a7332d dm bio prison v1: improve concurrent IO performance
+         3f0f0b8b32ccde692a50ef07305aa6c6629dac90 dm bio prison v1: add dm_cell_key_has_valid_range
+         
