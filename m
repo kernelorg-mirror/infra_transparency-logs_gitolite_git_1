@@ -1,56 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============4245765353505704398=="
+Content-Type: multipart/mixed; boundary="===============4737317481185746800=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Sat, 25 Mar 2023 08:56:18 -0000
-Message-Id: <167973457816.7691.11889647304383805688@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/arnd/asm-generic
+Date: Sat, 25 Mar 2023 10:55:30 -0000
+Message-Id: <167974173020.1746.2467148233282673387@gitolite.kernel.org>
 
---===============4245765353505704398==
+--===============4737317481185746800==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/staging
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/arnd/asm-generic
+user: arnd
 changes:
-  - ref: refs/heads/staging-testing
-    old: f5aca1a63e83178374195d3a26790091fdf2ed05
-    new: 01bc9ff2749b1aee1eab70d98c5313361add336c
-    log: |
-         01bc9ff2749b1aee1eab70d98c5313361add336c staging: vme_user: Replace "<<" with BIT macro
-         
+  - ref: refs/heads/dma-sync-rework
+    old: 985cd64f3b17b82468e68c6269e09a5556d3720e
+    new: 854b3f802e18f13161b3227759d12eb36930152e
+    log: revlist-985cd64f3b17-854b3f802e18.txt
 
---===============4245765353505704398==
+--===============4737317481185746800==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-985cd64f3b17-854b3f802e18.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1679734575 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1679734575-d6c92cb412a42465162c080a90a80c5914ab7581
+56a06569466d9be14889e4e369e319d6c37ec02d build workaround for gcc-13
+0d56085d0962b55dadd2aa11c9a8415bb808b29a openrisc: dma-mapping: flush bidirectional mappings
+61471781758e3da952b53e2e352cdb44d40dd760 xtensa: dma-mapping: use normal cache invalidation rules
+a013d82e1da632a3c2923e05f7ac66987fa896bf sparc32: flush caches in dma_sync_*for_device
+d9a1419fcf04874d6a32b172c484a0df7c8091cf microblaze: dma-mapping: skip extra DMA flushes
+15b2bea7a7510bafcc33fe8e5128c7aed31c14dc powerpc: dma-mapping: split out cache operation logic
+b28b081d7dd0993ec7358758410cf846b9c65ecd powerpc: dma-mapping: minimize for_cpu flushing
+6981c8c5fc02f750a014e4c713e09e08aa45c453 powerpc: dma-mapping: always clean cache in _for_device() op
+17793ef17f5efa349da2f943c1e0ce9addf714e1 riscv: dma-mapping: only invalidate after DMA, not flush
+1d416eee9565808caa26ee498ef5b7932f9a80ba riscv: dma-mapping: skip invalidation before bidirectional DMA
+d723e3690627678df3d6dc59ca0b931d095bb9f1 csky: dma-mapping: skip invalidating before DMA from device
+98f4cc210d0eabd0baa0ce57366f50a5e8c1249b mips: dma-mapping: skip invalidating before bidirectional DMA
+bd1552f4ef6c4471637a5db41956557e85ccba05 mips: dma-mapping: split out cache operation logic
+883a4b2a2bf4070042c02c6572c27ec164e4fe1f arc: dma-mapping: skip invalidating before bidirectional DMA
+2bdf066d2cca696effd677065264bb83bb0349a0 parisc: dma-mapping: use regular flush/invalidate ops
+3230657ccbc558144ffcbc06c1283f1115221b3a ARM: dma-mapping: always invalidate WT caches before DMA
+94a24738dd1cd152e3a9054cc8679693037d4a26 ARM: dma-mapping: bring back dmac_{clean,inv}_range
+311714a441af1cfd18f85a618215154b1814c8cc ARM: dma-mapping: use arch_sync_dma_for_{device,cpu}() internally
+f5070cab707689629c9fd0bdf28433f2b80f0118 ARM: drop SMP support for ARM11MPCore
+e7568309f49a5fe3b1d063580e4dfa9a85ecea1c ARM: dma-mapping: use generic form of arch_sync_dma_* helpers
+854b3f802e18f13161b3227759d12eb36930152e dma-mapping: replace custom code with generic implementation
 
-f5aca1a63e83178374195d3a26790091fdf2ed05 01bc9ff2749b1aee1eab70d98c5313361add336c refs/heads/staging-testing
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQety8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk++E8P/jOaCLAMQUwg2DtXtgbX
-M3pqCDUw5vsa+zve6w5Syv7DnMsb49EkHEWZgCtOSJOI4QlyakJFXE8QziJU/NpA
-YcXQdwhL7MupWmC8II3F3FF9IEeNQcn1SEbdYvPs0OxJaahJNOXHPA5vIZLk+3Dy
-Pt4zgGILx5/KEA08/YqOCoMt1n85WEdifg+vYwuXHSM77QBniV2dOzSxCq3ZsFUJ
-KcEFSI/CwMIj+WLyO+hnR3NUk9yKa2dVbIbdhjOkDehiTbNqAXL/ZYWRx4eDZ2g2
-ZP/pTp/GrBRncOCFt/d53i1XFA+/TkdvogrEzS3KUkyh+fuL3W4c+IxAGuHYJhnX
-dHeW0LtIScfMtdh98lNqPuIGzMf6xLCHbfcsExGvw/Ch876Em0NLS3GW6yV+05QK
-N48nrbUnx0aDTTNQU7GKwSUIK653Os/PF6eyPXtC8C1Z6vTgXfFHVBWMhPMvinNn
-w/ktYbLmi8lOzwF0YZB99W/hBKnrX6H6y6E+kq6eStWRs6yRDuXTeTM4ELcUlSUL
-+mVYpSf2viCj0e9d4lt4+m4qqHEGvjlL88NsJxu5/PBv6T7JgOOy02hNvPcrnUV0
-nsLHUBY6mb1bz4ayDBmLFX2YqKM3wcaMNqOxb8X68rpz/7qGIS2fNp2zYNlnWBwJ
-ApP1T5ETaQkYP3atTImte6J6
-=Q132
------END PGP SIGNATURE-----
-
---===============4245765353505704398==--
+--===============4737317481185746800==--
