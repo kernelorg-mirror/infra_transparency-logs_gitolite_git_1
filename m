@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Sat, 25 Mar 2023 06:53:36 -0000
-Message-Id: <167972721653.23872.1925946818102928473@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/fpga/linux-fpga
+Date: Sat, 25 Mar 2023 07:48:45 -0000
+Message-Id: <167973052531.27263.11079442458721810678@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-user: jarkko
+repo: pub/scm/linux/kernel/git/fpga/linux-fpga
+user: yilunxu
 changes:
-  - ref: refs/heads/master
-    old: 923c8dfa9a3640d4dcedd7df12b53254f7e6e4fc
-    new: e52a6162cf6b4f2cda8004a803b55240c1ef29f3
+  - ref: refs/heads/for-6.3
+    old: 83a458e330ff54951d3ddd378f970ab96b864020
+    new: d2b727cb532b15e8b33aa259c2e885679618971c
+    log: |
+         d2b727cb532b15e8b33aa259c2e885679618971c fpga: xilinx-pr-decoupler: Use readl wrapper instead of pure readl
+         
