@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Sun, 26 Mar 2023 12:22:13 -0000
-Message-Id: <167983333320.9700.7748276684928071814@gitolite.kernel.org>
+Date: Sun, 26 Mar 2023 12:28:52 -0000
+Message-Id: <167983373294.13273.16581321114316604468@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,11 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/regcache-maple
-    old: 4af3053a956457882ba34e259c4ae8df3502caf4
-    new: fa6d06e92bf8a5b25b837def23bf8197c27c4af8
+  - ref: refs/heads/regmap-kunit
+    old: e3a7e04374c910e91752e4d60baf638fd07215a0
+    new: d16a58f06d8cd12f1fd1939c3f53d054f1d89955
     log: |
-         fa6d06e92bf8a5b25b837def23bf8197c27c4af8 regmap: Add maple tree based register cache
+         7306fa9ab2ab20671eda064fdb006047cccb142f regmap: Initial KUnit coverage
+         87d2a0a3ff04364a424708154600beed83fd7204 regmap: Add RAM backed register map
+         d16a58f06d8cd12f1fd1939c3f53d054f1d89955 regmap: Add some basic kunit tests
          
