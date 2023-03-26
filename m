@@ -1,51 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============4168931821651932069=="
+Content-Type: multipart/mixed; boundary="===============3743082615978312755=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Sun, 26 Mar 2023 05:00:40 -0000
-Message-Id: <167980684079.1166.10440849162508167211@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
+Date: Sun, 26 Mar 2023 06:58:15 -0000
+Message-Id: <167981389526.12276.2463174791288373553@gitolite.kernel.org>
 
---===============4168931821651932069==
+--===============3743082615978312755==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/groeck/linux-staging
-user: groeck
+repo: pub/scm/linux/kernel/git/gregkh/staging
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: 65aca32efdcb0965502d3db2f1fa33838c070952
-    new: da8e7da11e4ba758caf4c149cc8d8cd555aefe5f
-    log: revlist-65aca32efdcb-da8e7da11e4b.txt
+  - ref: refs/heads/staging-testing
+    old: 91de7cdc784f28655eb97de3e66ede0ada94b6eb
+    new: b07c8ef8c60a4714fad3d7c95a8e464ad83ca715
+    log: |
+         b07c8ef8c60a4714fad3d7c95a8e464ad83ca715 staging: greybus: Inline pwm_chip_to_gb_pwm_chip()
+         
 
---===============4168931821651932069==
+--===============3743082615978312755==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-65aca32efdcb-da8e7da11e4b.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-6de4b1ab470fe52351415217ac6dffddee571c45 xfs: try to idiot-proof the allocators
-9eb775968b68d049fb3b00353f12cd10308527c7 xfs: walk all AGs if TRYLOCK passed to xfs_alloc_vextent_iterate_ags
-e6fbb7167ed005783ac5aef3e75699f45ffe2af8 xfs: add tracepoints for each of the externally visible allocators
-3cfb9290da3d87a5877b03bda96c3d5d3ed9fcb0 xfs: test dir/attr hash when loading module
-1470afefc3c42df5d1662f87d079b46651bdc95b cpumask: introduce for_each_cpu_or
-8b57b11cca88f397035a95b9e12b03511847b0e8 pcpcntrs: fix dying cpu summation race
-7ba85fba47bd89618fdb7dc322bdf823b1b56efb fork: remove use of percpu_counter_sum_all
-e9b60c7f97130795c7aa81a649ae4b93a172a277 pcpcntr: remove percpu_counter_sum_all()
-2b91c4a870c9830eaf95e744454c9c218cccb736 hwmon: (peci/cputemp) Fix miscalculated DTS for SKX
-2315332efcbe7124252f080e03b57d3d2f1f4771 hwmon: fix potential sensor registration fail if of_node is missing
-813cc94c7847ae4a17e9f744fb4dbdf7df6bd732 hwmon: (xgene) Fix ioremap and memremap leak
-968b66ffeb7956acc72836a7797aeb7b2444ec51 hwmon (it87): Fix voltage scaling for chips with 10.9mV  ADCs
-5f24a8725fe7bc2c6adf7ce00dd3e818387d8995 SUNRPC: Fix a crash in gss_krb5_checksum()
-fcde88af6a783d32e735dd2615528e2bf7a0f533 xfs: pass the correct cursor to xfs_iomap_prealloc_size
-e2e63b071b2da53ad6a154e34c387bb064137f74 xfs: clear incore AGFL_RESET state if it's not needed
-4dfb02d5cae80289384c4d3c6ddfbd92d30aced9 xfs: fix mismerged tracepoints
-4bdec23f971b1a5caf7a18ae117e44bdfaf26c93 Merge tag 'hwmon-for-v6.3-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/groeck/linux-staging
-d704426300f2e95275267a387ffc3b8e5f4ae8b7 Merge tag 'xfs-6.3-fixes-3' of git://git.kernel.org/pub/scm/fs/xfs/xfs-linux
-f768b35a2371ccf85255f608444d234062a1b5c9 Merge tag 'xfs-6.3-fixes-4' of git://git.kernel.org/pub/scm/fs/xfs/xfs-linux
-5b9ff397a26aeb94180e0d459fda9731c3c617ba Merge tag 'xfs-6.3-fixes-7' of git://git.kernel.org/pub/scm/fs/xfs/xfs-linux
-da8e7da11e4ba758caf4c149cc8d8cd555aefe5f Merge tag 'nfsd-6.3-4' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1679813888 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
+nonce 1679813889-a5994919d3176e94e0fd79301b2472983fa6b27c
 
---===============4168931821651932069==--
+91de7cdc784f28655eb97de3e66ede0ada94b6eb b07c8ef8c60a4714fad3d7c95a8e464ad83ca715 refs/heads/staging-testing
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQf7QAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+C/QP/2gOTX/Rph0gErzCMqYI
+oF1juE64tkAAvMrAH5mpxa0QuEfJWa38+tebhzleRtYMUYmz19lrE2Hu1pDDFLw4
+fSLiHNOROmYaQ6tuciJmCBavtU8n9X8vdHkOCWqOF06DZ5GhsQxpBdTRVebj4Da5
+YT07Ayr49A2SBe+eLAJz07qk4bAeCXq//qpjUGqSk2UXvKfuQ8lQTRBQD/sexphO
+PIK6LwXpzdKnRTHsAv1rMH7ZpV80gOhQmBj0r0CSj02hgbjQBfbnWsQ41hwyr5yG
+fB22tqBHYCS5s0iHXqSZC/hNZ3qQozz0CR44jWz5HC8su6ZM97YBkZRQIkaOmtl6
+T/bJ1VPvX5MHUKXmCQZg6/potCT1CrROZJ6R7abJ6BTNS07Dr93BMKroZWx98NJf
+jqjeupreqod7o2p6aq+Gf5Hd7pGpH3d9Hm/lrJfzuTXWQkQdXSp99f7oylhVD3t3
+OEW993ww1kRA3DrRCuI2FRZxyCgfDo8nXJnYYhl9krS8RL3PJOQFTCd/OCdaEjAh
+G0DZnNyMBL32wGCX5ZPUISldJZNl7HzL1/twkKWMliCAY9j5eKuTKaRxaEcbklYP
+68S9FwoWBccLRb04JFyzSK9TEyAAHTPdvQZfOenAMuIrYFuQiE3GfUVCOtZ+e4ya
+LbR1jOUwJXtJtC4FH5DNjImS
+=Hsed
+-----END PGP SIGNATURE-----
+
+--===============3743082615978312755==--
