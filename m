@@ -1,73 +1,114 @@
-Content-Type: multipart/mixed; boundary="===============6716149882610411717=="
+Content-Type: multipart/mixed; boundary="===============8782114863692140448=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Sun, 26 Mar 2023 01:15:57 -0000
-Message-Id: <167979335792.15279.18074699827145587670@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/linux-stable
+Date: Sun, 26 Mar 2023 01:18:31 -0000
+Message-Id: <167979351142.16187.7359817556331198331@gitolite.kernel.org>
 
---===============6716149882610411717==
+--===============8782114863692140448==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+repo: pub/scm/linux/kernel/git/sashal/linux-stable
+user: sashal
 changes:
-  - ref: refs/heads/for-next
-    old: 496f4f1b0f8e01baea22e6573f60af8cfd84df48
-    new: e99360762a9cbd93bf1d352e90df5df78daa2f90
-    log: revlist-496f4f1b0f8e-e99360762a9c.txt
+  - ref: refs/heads/pending-4.19
+    old: 4bbb6df6d26bd61e61ad5bc5599a2b32aceb8a51
+    new: 6997c38e94a40c83f38e4fed74948c0f45a4846e
+    log: |
+         6997c38e94a40c83f38e4fed74948c0f45a4846e net: qcom/emac: Fix use after free bug in emac_remove due to race condition
+         
+  - ref: refs/heads/pending-5.10
+    old: c65ffec77009d1ace72aeb81cc133333a36c44ad
+    new: 86de57a583009244b8dab2847952503da3a08a19
+    log: revlist-c65ffec77009-86de57a58300.txt
+  - ref: refs/heads/pending-5.4
+    old: 7d2fd1077d2c60066f55fa4eceec487858f3e9f2
+    new: 30b5cb6260e9f09dad11ff68c1619292301bd283
+    log: |
+         4b3af4292395f84e7361aba2c4ac6ff213f472ee net: qcom/emac: Fix use after free bug in emac_remove due to race condition
+         475436178a6547fc0ac86fbb1e021a16d48bb49b net/ps3_gelic_net: Fix RX sk_buff length
+         85ceb67b6205f14ddba0a1d98321acc445120247 net/ps3_gelic_net: Use dma_mapping_error
+         83df1e2108455e0897ae513de23aad6a2b759465 FAILED: bebe933d35a6 ("net/ps3_gelic_net: Use dma_mapping_error")
+         d4dfe31b4d3fa87be2f679318d672d999916ec3c keys: Do not cache key in task struct if key is requested from kernel thread
+         448e43b6adfbac0e7e8612a8807b54c5f2ec5ef7 bpf: Adjust insufficient default bpf_jit_limit
+         30b5cb6260e9f09dad11ff68c1619292301bd283 FAILED: 10ec8ca8ec1a ("bpf: Adjust insufficient default bpf_jit_limit")
+         
+  - ref: refs/heads/pending-6.1
+    old: d08aa187bd29b094cebed43ef381813fe3ea579c
+    new: 84529c05d1f33687a7c32e46a5ffed50603b2ee8
+    log: revlist-d08aa187bd29-84529c05d1f3.txt
 
---===============6716149882610411717==
+--===============8782114863692140448==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-496f4f1b0f8e-e99360762a9c.txt
+Content-Disposition: attachment; filename=revlist-c65ffec77009-86de57a58300.txt
 
-3e5329e193f463e6aaf98c33f7cb1308160880ab selftests/bpf: Report program name on parse_test_spec error
-207b1ba3019100d862931e97b49f76ff1e0a89f2 selftests/bpf: __imm_insn & __imm_const macro for bpf_misc.h
-1d56ade032a49b2042f43b3f6bdf116928064267 selftests/bpf: Unprivileged tests for test_loader.c
-19a8e06f5f9155caf1a5577a0f7969eee13d0cbb selftests/bpf: Tests execution support for test_loader.c
-55108621a35e42f773de5d4b20cf7a14d6d53503 selftests/bpf: prog_tests entry point for migrated test_verifier tests
-9d0f1568ad5ba29feddc0897e2ccc7d6de6713c8 selftests/bpf: verifier/and.c converted to inline assembly
-a3c830ae02093315a4526fa74fb7d1f66989d895 selftests/bpf: verifier/array_access.c converted to inline assembly
-0ccbe4956d6c20fa0a09a72d2033c49f0976ed6c selftests/bpf: verifier/basic_stack.c converted to inline assembly
-7605f94b3492328f37815c9b5749ffba5c76da84 selftests/bpf: verifier/bounds_deduction.c converted to inline assembly
-b14a702afd0d2da746294ed6070668b839a77793 selftests/bpf: verifier/bounds_mix_sign_unsign.c converted to inline assembly
-2f2047c22cda4fbbe6bb889cc6c5450cd90688f8 selftests/bpf: verifier/cfg.c converted to inline assembly
-047687a7f494d45198f112b51e72228aa054732c selftests/bpf: verifier/cgroup_inv_retcode.c converted to inline assembly
-b1b6372535c0cc0cce4870b07a0938309f3a5d37 selftests/bpf: verifier/cgroup_skb.c converted to inline assembly
-8f16f3c07e460f81ff6f4d673c7edd413db19ffe selftests/bpf: verifier/cgroup_storage.c converted to inline assembly
-a2777eaad5d9b7b06917d5bd3e786a1733e9dc3c selftests/bpf: verifier/const_or.c converted to inline assembly
-a58475a98903c756a7f731cffdf20242ed17b9b0 selftests/bpf: verifier/ctx_sk_msg.c converted to inline assembly
-84988478fb2c9068c6adf107eb630c48c00ff690 selftests/bpf: verifier/direct_stack_access_wraparound.c converted to inline assembly
-01a0925531a4ec962c88ceccb464c1c1178e9d81 selftests/bpf: verifier/div0.c converted to inline assembly
-9553de70a8412a07b16703449b4b4c4e5d37c388 selftests/bpf: verifier/div_overflow.c converted to inline assembly
-b37d776b431ec056075feeeaddcdee4512c522f6 selftests/bpf: verifier/helper_access_var_len.c converted to inline assembly
-fb179fe69e6a7bf66232d72a77f53ec10c026ee7 selftests/bpf: verifier/helper_packet_access.c converted to inline assembly
-77aa2563cb44a6241990cf4f082b55ee6f0a0623 selftests/bpf: verifier/helper_restricted.c converted to inline assembly
-ecc424827b775860119f5a5e2c521d7485bcc74f selftests/bpf: verifier/helper_value_access.c converted to inline assembly
-01481e67dd4d1c2c62eb6a506a5f4803ee50f8a6 selftests/bpf: verifier/int_ptr.c converted to inline assembly
-e297875580662f2fdcde1cba4ea28bf70ea2ca49 selftests/bpf: verifier/ld_ind.c converted to inline assembly
-583c7ce5be093277ef1691f35d9bec5ef9934e24 selftests/bpf: verifier/leak_ptr.c converted to inline assembly
-caf345cf12073eb5905b03c3c5f905cc0964dc6c selftests/bpf: verifier/map_ptr.c converted to inline assembly
-05e474ecbb56a5fadea6b36b7aa7d8d237aea064 selftests/bpf: verifier/map_ret_val.c converted to inline assembly
-ade3f08fc236ce8a5f00c1ffaf85ba42aa18ded4 selftests/bpf: verifier/masking.c converted to inline assembly
-65428312e38d896ce101ee3489403cff320d9b74 selftests/bpf: verifier/meta_access.c converted to inline assembly
-5a77a01f3320562db51dfdd24b2921768637daf2 selftests/bpf: verifier/raw_stack.c converted to inline assembly
-18cdc2b531fbe13450c51132a5b511c670c77585 selftests/bpf: verifier/raw_tp_writable.c converted to inline assembly
-b7e4203086eb4d85aa7bccd7f33c2835b34778d6 selftests/bpf: verifier/ringbuf.c converted to inline assembly
-f4fe3cfe6c3ac60a6ec086a291b1c0f59e7daaa2 selftests/bpf: verifier/spill_fill.c converted to inline assembly
-edff37b2f28f5c24f628981d0f26ca2fcd7e2ad5 selftests/bpf: verifier/stack_ptr.c converted to inline assembly
-ab839a58194633bd1c5ff42e6a9de87a746a67aa selftests/bpf: verifier/uninit.c converted to inline assembly
-033914942da4696dcd9009ba88bc1bba06706549 selftests/bpf: verifier/value_adj_spill.c converted to inline assembly
-8f59e87a3bc6a5618f0ed459f1d36838c16bcad7 selftests/bpf: verifier/value.c converted to inline assembly
-d330528617b78ae893c405bf06c6c604bd2e6357 selftests/bpf: verifier/value_or_null.c converted to inline assembly
-d15f5b68b63ad7f47e05aba33c4794fb3bfaf1af selftests/bpf: verifier/var_off.c converted to inline assembly
-a8036aea2d4f412c98a5fdbc0c987fa8a3c023ed selftests/bpf: verifier/xadd.c converted to inline assembly
-ffb515c933a9e8000e50b03f76569ffb6ef4d39d selftests/bpf: verifier/xdp.c converted to inline assembly
-e99360762a9cbd93bf1d352e90df5df78daa2f90 Merge branch 'First set of verifier/*.c migrated to inline assembly'
+9cd1b7ae28690f24cc448eb0bf28ec7a237c0224 xen/events: link interdomain events to associated xenbus device
+f39dc315a0d2bc8fbad2f3c33e408b399544ba65 hvc/xen: prevent concurrent accesses to the shared ring
+d44f15246f84a1c8e3e825e350ca2b0c892f848c gve: Cache link_speed value from device
+9ffd7607dcdcc3f26b6f8d3647336e730a5fd801 net: dsa: mt7530: move setting ssc_delta to PHY_INTERFACE_MODE_TRGMII case
+2e419fc065c51af9f4434a87d02c16949576be58 net: mdio: thunder: Add missing fwnode_handle_put()
+25a020ce667d8c5e214531397d134348442e0041 Bluetooth: btqcomsmd: Fix command timeout after setting BD address
+022eb442029dc6633183234afc41db0ff60ff2ed Bluetooth: L2CAP: Fix not checking for maximum number of DCID
+e13c4fedd3259a75ddf86e9714b7a150a9c8c533 Bluetooth: L2CAP: Fix responding with wrong PDU type
+f572e5eeceb566c4865809970eb9060e091cf79c Bluetooth: btsdio: fix use after free bug in btsdio_remove due to unfinished work
+86de57a583009244b8dab2847952503da3a08a19 platform/chrome: cros_ec_chardev: fix kernel data leak from ioctl
 
---===============6716149882610411717==--
+--===============8782114863692140448==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-d08aa187bd29-84529c05d1f3.txt
+
+f7362651297c3c6b8ecede3b057d9fe504098b0f net: qcom/emac: Fix use after free bug in emac_remove due to race condition
+997d7c43a040fa7760c33743807822db225a4cfd net: usb: lan78xx: Limit packet length to skb->len
+7ec31ade777a07daa36fd12b8ba3bb1a2fea4e17 net/ps3_gelic_net: Fix RX sk_buff length
+b0e747cb5522fa15f54a9e99c45c13615a4b0319 net/ps3_gelic_net: Use dma_mapping_error
+d5ec5ed50b61269ef0958da26d242fd148d1ec27 octeontx2-vf: Add missing free for alloc_percpu
+3e48f21bc483464fa49f679374fd4f4af5fcee67 bootconfig: Fix testcase to increase max node
+001ed070f135f5a36702ed556dd6c71cf8c55066 keys: Do not cache key in task struct if key is requested from kernel thread
+6c4465cbb4a6e2294ec64483b6e29667abf9d173 ice: check if VF exists before mode check
+34fda523f3fd1b26a819fe4bea8cf0130fedf6e8 iavf: fix hang on reboot with ice
+afafdf7197b5ff8512ed4c7e5a76ab5bc6131ff0 i40e: fix flow director packet filter programming
+d767df11c7344aad124e74e81e78c731d5287d06 bpf: Adjust insufficient default bpf_jit_limit
+d6c1a5956943106f119017bd0cfdea82ddb26930 net/mlx5e: Set uplink rep as NETNS_LOCAL
+0098e98f40e85dabd1d0f69872333e567d6ed400 net/mlx5e: Block entering switchdev mode with ns inconsistency
+26a60ae7b77b2945d066954ff44f4941f2647f9a net/mlx5: Fix steering rules cleanup
+982eecb33dc155f73fa7a5e847e784cf3cf7a837 net/mlx5e: Overcome slow response for first macsec ASO WQE
+03d6bac1f1c983f9f1ba7206cb21ff84519acd71 net/mlx5: Read the TC mapping of all priorities on ETS query
+f47814250c821752c6f0a3bc54eb64f27dc8f455 net/mlx5: E-Switch, Fix an Oops in error handling code
+f7290416e7db150fafe905c42791247ad3e2e9cd net: dsa: tag_brcm: legacy: fix daisy-chained switches
+e295745e56998a861ccef1cca6eb2809aaae6c72 atm: idt77252: fix kmemleak when rmmod idt77252
+be1c3fda3ea9310a4700211307282647f5564d65 erspan: do not use skb_mac_header() in ndo_start_xmit()
+fc4e102268a3bfcacdfcc2a891a8a437ca74c338 net/sonic: use dma_mapping_error() for error check
+79c79872b9790a329e55254ef7cba89df28e0b22 nvme-tcp: fix nvme_tcp_term_pdu to match spec
+189587a31eadade5c031aa9a5078945cbfb16091 mlxsw: spectrum_fid: Fix incorrect local port type
+c7c91ff323fb8d191a896e824ca91dc8626ce02e hvc/xen: prevent concurrent accesses to the shared ring
+4c58c4193a8004a8264c21ba5f1007016d2a3bde ksmbd: add low bound validation to FSCTL_SET_ZERO_DATA
+020fa9e0f6fdba7fca321c7fbe4a3f38fa382f23 ksmbd: add low bound validation to FSCTL_QUERY_ALLOCATED_RANGES
+d63d3ccc14f52a70c03b141eb1eff8fed7401c49 ksmbd: fix possible refcount leak in smb2_open()
+d8ca8294f5ce6c8269e357aa443f3e9b264278a9 Bluetooth: hci_sync: Resume adv with no RPA when active scan
+d093fa45b7afd5c38540da845fec30da63ed4863 Bluetooth: hci_core: Detect if an ACL packet is in fact an ISO packet
+858b727f394ecab23d2aa0099d3d2e4de1afc55f Bluetooth: btusb: Remove detection of ISO packets over bulk
+89ef870072a09fbc856759d2fdf0a68d1fd71721 Bluetooth: ISO: fix timestamped HCI ISO data packet parsing
+72461a9e79a137ec83e03deb94997502ed6ae2d9 Bluetooth: Remove "Power-on" check from Mesh feature
+4f8ed6cc22e85b43252407549c66a0df73e1c7a9 gve: Cache link_speed value from device
+e2f51040acf32cfc6109096950edf1a66811b0cd net: asix: fix modprobe "sysfs: cannot create duplicate filename"
+25f1a1e9b45f6d6fb86928390303d7753854a1c1 net: dsa: mt7530: move enabling disabling core clock to mt7530_pll_setup()
+d62a028f854a46d04ff51e3f31ce5b2d5c23f2be net: dsa: mt7530: move lowering TRGMII driving to mt7530_setup()
+954f1d28ee0fe24d2882193ba2e8254ec1a42bfb net: dsa: mt7530: move setting ssc_delta to PHY_INTERFACE_MODE_TRGMII case
+b1c38235808b595fe41b8a2a5e38dd0d0ef7866e net: mdio: thunder: Add missing fwnode_handle_put()
+62a53f45d7a83c32701b144ce5a9a730a3b4dc6f drm/amd/display: Set dcn32 caps.seamless_odm
+177abc9388571543c05cf7f424a7a756bcda05b2 Bluetooth: btqcomsmd: Fix command timeout after setting BD address
+3a6d0e2999cd6d3a36949d243cf3042ac8020b80 Bluetooth: L2CAP: Fix responding with wrong PDU type
+fce5b3abb061c6e42849b15924a33fea28d85bdf Bluetooth: btsdio: fix use after free bug in btsdio_remove due to unfinished work
+ea49a90cd52a3c09420c93520a0be81a658fe386 Bluetooth: mgmt: Fix MGMT add advmon with RSSI command
+88db9689cd3769938e03819a2895dc195427cc39 Bluetooth: HCI: Fix global-out-of-bounds
+84529c05d1f33687a7c32e46a5ffed50603b2ee8 platform/chrome: cros_ec_chardev: fix kernel data leak from ioctl
+
+--===============8782114863692140448==--
