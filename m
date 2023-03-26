@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Sun, 26 Mar 2023 16:09:30 -0000
-Message-Id: <167984697007.28074.9297659619702299820@gitolite.kernel.org>
+Date: Sun, 26 Mar 2023 16:09:41 -0000
+Message-Id: <167984698125.28222.18374178923553121150@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,7 +11,7 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/dm-6.4-dev3
+  - ref: refs/heads/dm-6.4-dev
     old: e65480cde8d4a08228678688f5d049a34312d0f9
     new: f86a3ebd94d181b4282163aa6192877f854c3d00
     log: |
