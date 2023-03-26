@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5206088898043505416=="
+Content-Type: multipart/mixed; boundary="===============6716149882610411717=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Sun, 26 Mar 2023 01:15:49 -0000
-Message-Id: <167979334968.15132.6754649337955748516@gitolite.kernel.org>
+Date: Sun, 26 Mar 2023 01:15:57 -0000
+Message-Id: <167979335792.15279.18074699827145587670@gitolite.kernel.org>
 
---===============5206088898043505416==
+--===============6716149882610411717==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: 496f4f1b0f8e01baea22e6573f60af8cfd84df48
     new: e99360762a9cbd93bf1d352e90df5df78daa2f90
     log: revlist-496f4f1b0f8e-e99360762a9c.txt
 
---===============5206088898043505416==
+--===============6716149882610411717==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -70,4 +70,4 @@ a8036aea2d4f412c98a5fdbc0c987fa8a3c023ed selftests/bpf: verifier/xadd.c converte
 ffb515c933a9e8000e50b03f76569ffb6ef4d39d selftests/bpf: verifier/xdp.c converted to inline assembly
 e99360762a9cbd93bf1d352e90df5df78daa2f90 Merge branch 'First set of verifier/*.c migrated to inline assembly'
 
---===============5206088898043505416==--
+--===============6716149882610411717==--
