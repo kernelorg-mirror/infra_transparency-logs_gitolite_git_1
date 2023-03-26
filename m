@@ -1,26 +1,51 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Sun, 26 Mar 2023 04:33:27 -0000
-Message-Id: <167980520777.14626.4748303043022487734@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============4168931821651932069=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
+Date: Sun, 26 Mar 2023 05:00:40 -0000
+Message-Id: <167980684079.1166.10440849162508167211@gitolite.kernel.org>
+
+--===============4168931821651932069==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/linux/kernel/git/groeck/linux-staging
+user: groeck
 changes:
-  - ref: refs/heads/dev
-    old: a1d73e24050ed265c88e9d2560a499aa203e527e
-    new: 70b5c4573f3c6b30d27941d0cb042ae63470de14
-    log: |
-         96a831329548c5d495309b7e730df4e90c88d31c tools/nolibc: add definitions for standard fds
-         7704cc880f0312a9acb2398041312e5303934677 tools/nolibc: add helpers for wait() signal exits
-         6f6de66fc418ef6cef8740d64d567e5cb5cd429a tools/nolibc: tests: constify test_names
-         333f96c385638abd83bdc750b04a20ddbc65e93e tools/nolibc: add support for stack protector
-         6bd45938f02ebafa1acd13db0022f5f80905cf96 tools/nolibc: tests: fold in no-stack-protector cflags
-         f0e856cf304da401a2f732fa5c0fface747cc5fd tools/nolibc: tests: add test for -fstack-protector
-         25977a9f1e1914ed23609a4ae32c9519f2f08f61 tools/nolibc: i386: add stackprotector support
-         70b5c4573f3c6b30d27941d0cb042ae63470de14 tools/nolibc: x86_64: add stackprotector support
-         
+  - ref: refs/heads/master
+    old: 65aca32efdcb0965502d3db2f1fa33838c070952
+    new: da8e7da11e4ba758caf4c149cc8d8cd555aefe5f
+    log: revlist-65aca32efdcb-da8e7da11e4b.txt
+
+--===============4168931821651932069==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-65aca32efdcb-da8e7da11e4b.txt
+
+6de4b1ab470fe52351415217ac6dffddee571c45 xfs: try to idiot-proof the allocators
+9eb775968b68d049fb3b00353f12cd10308527c7 xfs: walk all AGs if TRYLOCK passed to xfs_alloc_vextent_iterate_ags
+e6fbb7167ed005783ac5aef3e75699f45ffe2af8 xfs: add tracepoints for each of the externally visible allocators
+3cfb9290da3d87a5877b03bda96c3d5d3ed9fcb0 xfs: test dir/attr hash when loading module
+1470afefc3c42df5d1662f87d079b46651bdc95b cpumask: introduce for_each_cpu_or
+8b57b11cca88f397035a95b9e12b03511847b0e8 pcpcntrs: fix dying cpu summation race
+7ba85fba47bd89618fdb7dc322bdf823b1b56efb fork: remove use of percpu_counter_sum_all
+e9b60c7f97130795c7aa81a649ae4b93a172a277 pcpcntr: remove percpu_counter_sum_all()
+2b91c4a870c9830eaf95e744454c9c218cccb736 hwmon: (peci/cputemp) Fix miscalculated DTS for SKX
+2315332efcbe7124252f080e03b57d3d2f1f4771 hwmon: fix potential sensor registration fail if of_node is missing
+813cc94c7847ae4a17e9f744fb4dbdf7df6bd732 hwmon: (xgene) Fix ioremap and memremap leak
+968b66ffeb7956acc72836a7797aeb7b2444ec51 hwmon (it87): Fix voltage scaling for chips with 10.9mV  ADCs
+5f24a8725fe7bc2c6adf7ce00dd3e818387d8995 SUNRPC: Fix a crash in gss_krb5_checksum()
+fcde88af6a783d32e735dd2615528e2bf7a0f533 xfs: pass the correct cursor to xfs_iomap_prealloc_size
+e2e63b071b2da53ad6a154e34c387bb064137f74 xfs: clear incore AGFL_RESET state if it's not needed
+4dfb02d5cae80289384c4d3c6ddfbd92d30aced9 xfs: fix mismerged tracepoints
+4bdec23f971b1a5caf7a18ae117e44bdfaf26c93 Merge tag 'hwmon-for-v6.3-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/groeck/linux-staging
+d704426300f2e95275267a387ffc3b8e5f4ae8b7 Merge tag 'xfs-6.3-fixes-3' of git://git.kernel.org/pub/scm/fs/xfs/xfs-linux
+f768b35a2371ccf85255f608444d234062a1b5c9 Merge tag 'xfs-6.3-fixes-4' of git://git.kernel.org/pub/scm/fs/xfs/xfs-linux
+5b9ff397a26aeb94180e0d459fda9731c3c617ba Merge tag 'xfs-6.3-fixes-7' of git://git.kernel.org/pub/scm/fs/xfs/xfs-linux
+da8e7da11e4ba758caf4c149cc8d8cd555aefe5f Merge tag 'nfsd-6.3-4' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
+
+--===============4168931821651932069==--
