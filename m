@@ -1,54 +1,47 @@
-Content-Type: multipart/mixed; boundary="===============1516284155533390328=="
+Content-Type: multipart/mixed; boundary="===============0792974389614522428=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Sun, 26 Mar 2023 16:20:28 -0000
-Message-Id: <167984762810.5400.745181747345520329@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
+Date: Sun, 26 Mar 2023 16:38:10 -0000
+Message-Id: <167984869071.15270.2481868218752917582@gitolite.kernel.org>
 
---===============1516284155533390328==
+--===============0792974389614522428==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/peterz/queue
+user: peterz
 changes:
-  - ref: refs/heads/master
-    old: da8e7da11e4ba758caf4c149cc8d8cd555aefe5f
-    new: 18940c888c85fd7527375343bd4fcc94a540c69c
-    log: revlist-da8e7da11e4b-18940c888c85.txt
+  - ref: refs/heads/sched/eevdf
+    old: 042901b30bd70d8acfaa2753f994f5a380c722c9
+    new: 757a8ca40738a90f69ec65470ddae5f4d5e5256c
+    log: revlist-042901b30bd7-757a8ca40738.txt
 
---===============1516284155533390328==
+--===============0792974389614522428==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-da8e7da11e4b-18940c888c85.txt
+Content-Disposition: attachment; filename=revlist-042901b30bd7-757a8ca40738.txt
 
-2f0e4f0342201fe2228fcc2301cc2b42ae04b8e3 cifs: check only tcon status on tcon related functions
-f87d28673b71b35b248231a2086f9404afbb7f28 entry: Fix noinstr warning in __enter_from_user_mode()
-a53ce18cacb477dd0513c607f187d16f0fa96f71 sched/fair: Sanitize vruntime of entity being migrated
-263f5ecaf7080513efc248ec739b6d9e00f4129f perf/x86/amd/core: Always clear status for idx
-b416514054810cf2d2cc348ae477cea619b64da7 entry/rcu: Check TIF_RESCHED _after_ delayed RCU wake-up
-a3f547addcaa10df5a226526bc9e2d9a94542344 x86/mm: Do not shuffle CPU entry areas without KASLR
-b15888840207c2bfe678dd1f68a32db54315e71f x86/fpu/xstate: Prevent false-positive warning in __copy_xstate_uabi_buf()
-62faca1ca10cc84e99ae7f38aa28df2bc945369b selftests/x86/amx: Add a ptrace test
-2f4e429c846972c8405951a9ff7a82aceeca7461 cifs: lock chan_lock outside match_session
-072a28c8907c841f7d4b56c78bce46d3ee211e73 cifs: do not poll server interfaces too regularly
-896cd316b841053f6df95ab77b5f1322c16a8e18 cifs: empty interface list when server doesn't support query interfaces
-d12bc6d26f92c51b28e8f4a146ffcc630b688198 cifs: dump pending mids for all channels in DebugData
-175b54abc443b6965e9379b71ec05f7c73c192e9 cifs: print session id while listing open files
-fddc6ccc487e5de07b98df8d04118d5dcb5e0407 cifs: append path to open_enter trace event
-bc962159e8e326af634a506508034a375bf2b858 cifs: avoid race conditions with parallel reconnects
-c24bb1a87dc3f2d77d410eaac2c6a295961bf50e cifs: fix missing unload_nls() in smb2_reconnect()
-7e0e76d99079be13c9961dde7c93b2d1ee665af4 smb3: lower default deferred close timeout to address perf regression
-be4fde79812f02914e350bde0bc4cfeae8429378 cifs: fix dentry lookups in directory handle cache
-491eafce1a51c457701351a4bf40733799745314 smb3: fix unusable share after force unmount failure
-6485ac65af2b204e5150576d800c92d968c065b0 Merge tag 'smb3-client-fixes-6.3-rc3' of git://git.samba.org/sfrench/cifs-2.6
-986c63741da243c68e1faa97064a1bb216e8d7c0 Merge tag 'x86_urgent_for_v6.3_rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-f6cdaeb08b66db0d06b1b70c0801a00b6f30571c Merge tag 'core_urgent_for_v6.3_rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-974fc94336df81137b3b3502e73f89282a743607 Merge tag 'perf_urgent_for_v6.3_rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-18940c888c85fd7527375343bd4fcc94a540c69c Merge tag 'sched_urgent_for_v6.3_rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+4b4aabb5f50b4bb5b40560a49f38942147851bcd sched: Introduce latency-nice as a per-task attribute
+3f8edc97e37a52734039c1e92eafdf34a8ab3aba sched/fair: Add latency_offset
+fb8864c2a4ebcb15f0286217d31040a228ea8e03 sched/fair: Add sched group latency support
+3866726e6f55b11a1162e11853463dd52db194c7 sched/fair: Add avg_vruntime
+6066a176fcb88eca4997b5949b7e2c952e20ded7 sched/fair: Remove START_DEBIT
+d5c885ce53e17d4e172e9245a219d65c5cf02a2f sched/fair: Add lag based placement
+9df9e8efacc9f897502b8438ff7f535f4b0602a7 rbtree: Add rb_add_augmented_cached() helper
+7710de55e9435536368c280b9b8564c1e982d2e8 sched/fair: Implement an EEVDF like policy
+c7e836649872ed2e5905838dd5ae3d7c62e171aa sched: Commit to lag based placement
+cae7d041cc3a40b509d95a4281c4b5002d0f89ff sched/smp: Use lag to simplify cross-runqueue placement
+6b7f9c7281b6105f264586c44a6acc07bcfabad8 sched: Commit to EEVDF
+ced03871966f8c712eaebd8e5f1ac6df3a28f5ce sched/debug: Rename min_granularity to base_slice
+a5f29da277a220ced5d1df8e83a581f29c32c758 sched: Merge latency_offset into slice
+8b18bbc0e32ead8d6707c11d5c7d8666430fce36 sched/eevdf: Better handle mixed slice length
+64bf62583563ac096b7b30e522d31b23bd97f0c1 sched/eevdf: Sleeper bonus
+6f512ca6f749f5a39711ad3b8dd4e53448457320 sched/eevdf: Minimal vavg option
+757a8ca40738a90f69ec65470ddae5f4d5e5256c sched/eevdf: Debug / validation crud
 
---===============1516284155533390328==--
+--===============0792974389614522428==--
