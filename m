@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/xfs/xfstests-dev
-Date: Sun, 26 Mar 2023 14:13:22 -0000
-Message-Id: <167984000205.17269.8807815295218309549@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Sun, 26 Mar 2023 15:14:17 -0000
+Message-Id: <167984365726.24191.286950155147524846@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/xfs/xfstests-dev
-user: zlang
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/tags/v2023.03.26
-    old: 0000000000000000000000000000000000000000
-    new: e505485d3c3d0b3359b6a81cbda4e42bf6c5c43e
+  - ref: refs/heads/dev
+    old: 70b5c4573f3c6b30d27941d0cb042ae63470de14
+    new: 1a76974365d2187cb4efb3e9f2fab5b7373116ef
+    log: |
+         1a76974365d2187cb4efb3e9f2fab5b7373116ef torture: Remove duplicated argument -enable-kvm for ppc64
+         
