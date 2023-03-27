@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4061031979604029515=="
+Content-Type: multipart/mixed; boundary="===============8603234892578342048=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Mon, 27 Mar 2023 16:20:12 -0000
-Message-Id: <167993401272.12126.12040798632316414447@gitolite.kernel.org>
+Date: Mon, 27 Mar 2023 16:23:24 -0000
+Message-Id: <167993420472.13179.17858829860793140426@gitolite.kernel.org>
 
---===============4061031979604029515==
+--===============8603234892578342048==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,41 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/class_cleanup
-    old: a6c3a8376c3b9e48955ef11f0fa7c7402a2b349b
-    new: 2c2613bcf7564c30d977f5ee55479986c354fd03
+  - ref: refs/heads/driver-core-testing
+    old: 170848d4060d40220194c0af19f977a582f08922
+    new: 579d472b379983498a6a7d9f7b1dd74c20afdc50
     log: |
-         2c2613bcf7564c30d977f5ee55479986c354fd03 driver core: clean up the logic to determine which /sys/dev/ directory to use
+         386af3bdb53585405c22dae58ad99b72ed5895f5 device property: Add headers to the Driver Core entry in MAINTAINERS
+         579d472b379983498a6a7d9f7b1dd74c20afdc50 device property: Remove unused struct net_device forward declaration
          
 
---===============4061031979604029515==
+--===============8603234892578342048==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1679934005 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1679934199 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1679934004-aad70fbc001058e3e3c6f74cb31f7353b2cd2bfe
+nonce 1679934198-879750b960176204bc09f1f24a7a26b84db3c0eb
 
-a6c3a8376c3b9e48955ef11f0fa7c7402a2b349b 2c2613bcf7564c30d977f5ee55479986c354fd03 refs/heads/class_cleanup
+170848d4060d40220194c0af19f977a582f08922 579d472b379983498a6a7d9f7b1dd74c20afdc50 refs/heads/driver-core-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQhwjUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+VjcP/RWGusym5edKNuBjMY21
-LzOxWkm2nS+FcXR2vNeLsFKAUjJ/5FTwTcdD8gd9rvEiN0sbwkpv43PiGt8R3LSG
-0NLBcq9vDNEjCbGOUiVvJp9z0/LQjbDd75/fXPEaCplc+8BnaMNeej8xKLPyNIMz
-aeVFcjxS4Zq89qqaX8cXaO+vmKNsfmxznl+9emj1PhRVQYyS1UhRIgc0IiHqUCJa
-kViuliPVANA3tpE2RmNVKdye3RPzENZ2iXgdYqyNoxusSMUvCltYA4WFCgtSyht2
-rghCB5jykIyEQWXcinBseLDFEbek+zNV0KOormflzIxvjVdYk+O2fuuDChLilZrK
-xbyX36inPIK/E1RxoceHdZop5tQtrUz7SdWj8v3sUghDLLcoPUjZzkyl0weCcw7S
-IesxXW/OAqcWHv+bjmoNrlJ8Y5RWTrzbboFcNMNoZDFkAmQrgEveCFUFXNAde3YW
-7OqTsw4NLVSlTFGo8snrsRzU025uepyX5hLGbO8wNPsPbLAQKGnRXRvvqRB3EBf2
-W9x7slCUeq0+dkWWIwBlHEDP+zfD82+KwR/cdYcwktDpv2AhQXPbC5k7mdzcON9R
-pVtRVpubpk/+wAlyyZBIk/i4JwKk2HWxieWDLvp3lXYhxb+Yq4SyCFFQboaEMXTr
-SH1hrfaZU1KQcwXke5KrQV3I
-=/Uf/
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQhwvcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+18QP/3pe4pyR6i57v7tASPL2
+H/IqaSTAX/hOfySx82WWCnwpyiXc8XD0plohlWBEOW9y6kYVPiR3/mGlkjjMiVYK
+KDz0VYSJvtxR25NUdrEcu5LZPHyQuiZjyWwumyu7Oo6nLjoRP+rd8Oxjsqx9NpBS
+wAqk8x+sQdokqydDbK1JXN1fQVc20jlxgLnyzOoaS497Q/kdgKQQHpyPQnLX/mW7
+A1NnK5uTeLIzOFxn9TCzBQ6jOMpPzXXW4WrmyLuba8A0DPD+xpRAq7QEN4hHua+t
+EvssfEwZLj9leTTPLoLM3LjggMBuBjEDTMRvdLWBWPp+NdCPxNINnJy4h5b9Vk08
+Dozr2aQLMpVV53ky9phcls0UB5nks8t88Bzzei73V0v7GYIJx7j8/pBUs1uZv35k
+YVrLGY1NF0wQ3+LHxBd/SUTtI3i4GkXS7c4WJ+QG0O6UK4TD9l4e+sm0xJ5GU/iV
+0jVSv2SxppjbdKOVo2r6Yqqqkyxj1U/fKdrZYx8n5VsldC+4fKv80AxODt4g1p63
+eR+tEdhDD7YfxA7/H7dGJr+u0uf67GtR0kGPdylhyXBdwY8xRg5an6w6R9tnpVJz
+fXuC3/couDxWpEuAc4mfMGkCllg/lbCH1k+Q/Dr2DB65fYF3/SGCuo6YCHBjCXfB
+sJKwYfVIA21mbcnVfTnugHNJ
+=ma9b
 -----END PGP SIGNATURE-----
 
---===============4061031979604029515==--
+--===============8603234892578342048==--
