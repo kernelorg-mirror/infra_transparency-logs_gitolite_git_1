@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6036402183015702612=="
+Content-Type: multipart/mixed; boundary="===============7487306141163984583=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Mon, 27 Mar 2023 15:51:39 -0000
-Message-Id: <167993229936.24869.15181847814368298386@gitolite.kernel.org>
+Date: Mon, 27 Mar 2023 15:52:12 -0000
+Message-Id: <167993233232.25146.4075302453352148527@gitolite.kernel.org>
 
---===============6036402183015702612==
+--===============7487306141163984583==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 1b4ae19e432dfec785d980993c09593cbb182754
-    new: a7602e7332b97cfbec7bacb0f1ade99a575fe104
-    log: revlist-1b4ae19e432d-a7602e7332b9.txt
+  - ref: refs/heads/dev-queue
+    old: 26618eea70453e2d7f30ba4c1080c9e66e927c2f
+    new: 4026561ee39f2f85458cc1c3f6f79261fcb1edf6
+    log: revlist-26618eea7045-4026561ee39f.txt
 
---===============6036402183015702612==
+--===============7487306141163984583==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1b4ae19e432d-a7602e7332b9.txt
+Content-Disposition: attachment; filename=revlist-26618eea7045-4026561ee39f.txt
 
 5f8d1e3b6f9b5971f9c06d5846ce00c49e3a8d94 hwmon: (adt7475) Display smoothing attributes in correct order
 48e8186870d9d0902e712d601ccb7098cb220688 hwmon: (adt7475) Fix masking of hysteresis registers
@@ -203,5 +203,15 @@ b465518dc27da1ed74b8cbada4659708aac35adb vsock/loopback: use only sk_buff_head.l
 f2e9d083f768ec147da3e3e5209030d3c090c689 net: phy: micrel: correct KSZ9131RNX EEE capabilities and advertisement
 45977e58ce65ed0459edc9a0466d9dfea09463f5 net: dsa: b53: mmap: add phy ops
 a7602e7332b97cfbec7bacb0f1ade99a575fe104 net: stmmac: don't reject VLANs when IFF_PROMISC is set
+a64814f76cb01f5108d1116e384f1c8859f34558 ice: Write all GNSS buffers instead of first one
+2f452135d1106767c57a936ed84568937c3ca278 ixgbe: Panic during XDP_TX with > 64 CPUs
+8c466083516c472d92f4eb7ab9d2d540b6090006 ice: fix W=1 headers mismatch
+e1a9dc16ac60715e25f7cae96c22ee28a9d32557 ice: Fix ice_cfg_rdma_fltr() to only update relevant fields
+46575ca31f69ffc026b0b9fa0ae98385960284e9 ice: add profile conflict check for AVF FDIR
+6ded8bb40d47002f5f674d614157fa95340abe6f ice: identify aRFS flows using L3/L4 dissector info
+63ca375a0baf609a4185f52c69384940cc9ef08f ice: clear number of qs when rings are free
+68c85fb499dbca9021e604a08e38bff308974f8f ice: fix invalid check for empty list in ice_sched_assoc_vsi_to_agg()
+1de372d289f27950276f19618ea0d7efb115d83a ice: fix wrong fallback logic for FDIR
+4026561ee39f2f85458cc1c3f6f79261fcb1edf6 i40e: fix registers dump after run ethtool adapter self test
 
---===============6036402183015702612==--
+--===============7487306141163984583==--
