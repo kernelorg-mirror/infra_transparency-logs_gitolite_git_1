@@ -1,43 +1,24 @@
-Content-Type: multipart/mixed; boundary="===============4753761918885373450=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Mon, 27 Mar 2023 20:02:15 -0000
-Message-Id: <167994733539.32111.3417918947094679431@gitolite.kernel.org>
-
---===============4753761918885373450==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Mon, 27 Mar 2023 20:05:28 -0000
+Message-Id: <167994752868.2383.17098059894721345929@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
-user: snitzer
+repo: pub/scm/linux/kernel/git/tip/tip
+user: bp
 changes:
-  - ref: refs/heads/dm-6.4-dev3
-    old: f86a3ebd94d181b4282163aa6192877f854c3d00
-    new: aeb52e33e1935f65ece28cfac15f7a95087773d1
-    log: revlist-f86a3ebd94d1-aeb52e33e193.txt
-
---===============4753761918885373450==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f86a3ebd94d1-aeb52e33e193.txt
-
-b5e4690660e542cafd0e2c82b67b47a814c81693 dm bufio: add lock_history optimization for cache iterators
-f90577a7ce546bfc79d9da04a14c53c6bf7cba1d dm bufio: move dm_bufio_client members to avoid spanning cachelines
-18cde30412cf77e1e03c69a238b03c33998fdb33 dm bufio: use waitqueue_active in __free_buffer_wake
-8ea25efeab652234fb8efbb74c26367f27d5b661 dm bufio: use multi-page bio vector
-67347a8ab9b50489614f5de454b961b4f709af07 dm thin: speed up cell_defer_no_holder()
-7c64ba5684367ef67be2589b60e001d61c116d88 dm: split discards further if target sets max_discard_granularity
-ecc617f79e8cffa8cd8a1faf4a7e37b549bd7e03 dm bio prison v1: improve concurrent IO performance
-d4c77052ab18b61b53ab04f56553cd3f0d0e158d dm bio prison v1: add dm_cell_key_has_valid_range
-2259c08a2c19241f1dd044df59cee058190b3934 dm: add dm_num_sharded_locks()
-4d0947fa400f01f8d2f11d057dd6d55dad387067 dm bufio: prepare to intelligently size dm_buffer_cache's buffer_trees
-cb676577bbda187ac63dc22c0e5eb0ef7b128e24 dm bufio: intelligently size dm_buffer_cache's buffer_trees
-158f5072a218d06299a77e75e33f46d4134c9df2 dm bio prison v1: prepare to intelligently size dm_bio_prison's prison_regions
-aeb52e33e1935f65ece28cfac15f7a95087773d1 dm bio prison v1: intelligently size dm_bio_prison's prison_regions
-
---===============4753761918885373450==--
+  - ref: refs/heads/x86/sev
+    old: 0144e3b85d7b42e8a4cda991c0e81f131897457a
+    new: 812b0597fb4043240724e4c7bed7ba1fe15c0e3f
+    log: |
+         88e378d400fa0544d51cf62037e7774d8a4b4379 x86/ioremap: Add hypervisor callback for private MMIO mapping in coco VM
+         71290be18f2deeae013482bf79cd526df61fcfcd x86/hyperv: Reorder code to facilitate future work
+         d33ddc92db8a61416473ff3d7f1c621c50733dc0 Drivers: hv: Explicitly request decrypted in vmap_pfn() calls
+         c7b5254bd802ee3868f1c59333545272dc700d6d x86/mm: Handle decryption/re-encryption of bss_decrypted consistently
+         e45e761b77bc0739e7e23258c4394013bbb919c7 init: Call mem_encrypt_init() after Hyper-V hypercall init is done
+         812b0597fb4043240724e4c7bed7ba1fe15c0e3f x86/hyperv: Change vTOM handling to use standard coco mechanisms
+         
