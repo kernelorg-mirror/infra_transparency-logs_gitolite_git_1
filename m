@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8603234892578342048=="
+Content-Type: multipart/mixed; boundary="===============6307015698781083063=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Mon, 27 Mar 2023 16:23:24 -0000
-Message-Id: <167993420472.13179.17858829860793140426@gitolite.kernel.org>
+Date: Mon, 27 Mar 2023 16:24:48 -0000
+Message-Id: <167993428868.13645.4080185610149161731@gitolite.kernel.org>
 
---===============8603234892578342048==
+--===============6307015698781083063==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,41 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/driver-core-testing
-    old: 170848d4060d40220194c0af19f977a582f08922
-    new: 579d472b379983498a6a7d9f7b1dd74c20afdc50
+    old: 579d472b379983498a6a7d9f7b1dd74c20afdc50
+    new: 5c9a27df4eb9a402770d5547af255a765e1c10ac
     log: |
-         386af3bdb53585405c22dae58ad99b72ed5895f5 device property: Add headers to the Driver Core entry in MAINTAINERS
-         579d472b379983498a6a7d9f7b1dd74c20afdc50 device property: Remove unused struct net_device forward declaration
+         5c9a27df4eb9a402770d5547af255a765e1c10ac driver core: move sysfs_dev_char_kobj out of class.h
          
 
---===============8603234892578342048==
+--===============6307015698781083063==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1679934199 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1679934286 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1679934198-879750b960176204bc09f1f24a7a26b84db3c0eb
+nonce 1679934285-f28bbc01461378a72b9f087077cb3ca322368780
 
-170848d4060d40220194c0af19f977a582f08922 579d472b379983498a6a7d9f7b1dd74c20afdc50 refs/heads/driver-core-testing
+579d472b379983498a6a7d9f7b1dd74c20afdc50 5c9a27df4eb9a402770d5547af255a765e1c10ac refs/heads/driver-core-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQhwvcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+18QP/3pe4pyR6i57v7tASPL2
-H/IqaSTAX/hOfySx82WWCnwpyiXc8XD0plohlWBEOW9y6kYVPiR3/mGlkjjMiVYK
-KDz0VYSJvtxR25NUdrEcu5LZPHyQuiZjyWwumyu7Oo6nLjoRP+rd8Oxjsqx9NpBS
-wAqk8x+sQdokqydDbK1JXN1fQVc20jlxgLnyzOoaS497Q/kdgKQQHpyPQnLX/mW7
-A1NnK5uTeLIzOFxn9TCzBQ6jOMpPzXXW4WrmyLuba8A0DPD+xpRAq7QEN4hHua+t
-EvssfEwZLj9leTTPLoLM3LjggMBuBjEDTMRvdLWBWPp+NdCPxNINnJy4h5b9Vk08
-Dozr2aQLMpVV53ky9phcls0UB5nks8t88Bzzei73V0v7GYIJx7j8/pBUs1uZv35k
-YVrLGY1NF0wQ3+LHxBd/SUTtI3i4GkXS7c4WJ+QG0O6UK4TD9l4e+sm0xJ5GU/iV
-0jVSv2SxppjbdKOVo2r6Yqqqkyxj1U/fKdrZYx8n5VsldC+4fKv80AxODt4g1p63
-eR+tEdhDD7YfxA7/H7dGJr+u0uf67GtR0kGPdylhyXBdwY8xRg5an6w6R9tnpVJz
-fXuC3/couDxWpEuAc4mfMGkCllg/lbCH1k+Q/Dr2DB65fYF3/SGCuo6YCHBjCXfB
-sJKwYfVIA21mbcnVfTnugHNJ
-=ma9b
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQhw04bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+4icQAI66CUOtSyqdkp2upfc5
+IqgXfOEgTFjwJbA9Ka8uXK26LvvQIrbbpIkPRjV2cY7T7rKJKGGbVFggqLzkDqkn
+mxcsnrFOWZFi4Iy1GQUNIuOMtOc945yN7A+aeZ4ygJUN6t7GSS14dleUSOmY2WNE
+GYiEPT7zVifQVlkJAvsGpkzS260M0tz5FFOIcy8tZrwDGj0fTL1ql6+LKw6gpLed
+8dMbRv367BS8U2XlK1VrT1LJYi8tQ9HRkwplRkYAfHvcMNl2s+OZ+xEe7LyyM3uS
+/8jIBi8RpEafpxDgilTpMSs6ot2B0tAsiw7gBtnnLHrCVLSHjVtBbBsuyRuNFjLI
+a8mgHCYHvJw/MYb087jnFbmeBTzq66Q+36YH/43TLRnVQLBL3BSLjf8tB7sLioGf
+Jad39yGHum3wm7ToDpBi52/P0REjCY4IbcjiM1Ndbk1zTmwYYqSpLMMaAbLiTkKw
+matksbJRfLmFp9QCXRFRjU1z+yXStnC2WPKRdAxjxMjks2yb12DfDe2vSajkZ8sT
+vcaiN6Atpdurgpx42UUF+rgR8uC5xEKdV7iO9fpO1Ri7IQRN0APWdOZa1N61r+qA
+WmDym1Bpv4daryonntkQHjuXeJSKrvnErYayIoNOOpZ/DGA3l+sNrGWUow/3B3WT
+u2rGpmIk1234dM8Sa2zqXEcy
+=zKOf
 -----END PGP SIGNATURE-----
 
---===============8603234892578342048==--
+--===============6307015698781083063==--
