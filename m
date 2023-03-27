@@ -1,63 +1,66 @@
-Content-Type: multipart/mixed; boundary="===============1963859809040876497=="
+Content-Type: multipart/mixed; boundary="===============8521511241626255237=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gfs2/linux-gfs2
-Date: Mon, 27 Mar 2023 12:42:45 -0000
-Message-Id: <167992096517.25545.10728241775569760200@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/niks/linux
+Date: Mon, 27 Mar 2023 12:50:16 -0000
+Message-Id: <167992141677.32654.17051805108288403848@gitolite.kernel.org>
 
---===============1963859809040876497==
+--===============8521511241626255237==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gfs2/linux-gfs2
-user: agruen
+repo: pub/scm/linux/kernel/git/niks/linux
+user: niks
 changes:
-  - ref: refs/heads/for-next
-    old: 260595b439776c473cc248f0de63fe78d964d849
-    new: 14a585177c0f5870c82b32000d79aca1baa94bfc
-    log: revlist-260595b43977-14a585177c0f.txt
+  - ref: refs/heads/has_ioport_v4
+    old: 53b49a3f5a95d058e0deb169b87e695d69033f5c
+    new: 94b3553800a99058f9324dc169960b871a467fc6
+    log: revlist-53b49a3f5a95-94b3553800a9.txt
 
---===============1963859809040876497==
+--===============8521511241626255237==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-260595b43977-14a585177c0f.txt
+Content-Disposition: attachment; filename=revlist-53b49a3f5a95-94b3553800a9.txt
 
-ceac10c83b330680cc01ceaaab86cd49f4f30d81 ARM: 9290/1: uaccess: Fix KASAN false-positives
-e57d06527738798039b8e91af762fbd33881b34d NFS & NFSD: Update GSS dependencies
-4928f67bc911e46a43004251a4d7eb2259ba6077 vfio/mlx5: Fix the report of dirty_bytes upon pre-copy
-ccb820dc7d2236b1af0d54ae038a27b5b6d5ae5a fscrypt: destroy keyring after security_sb_delete()
-9c88ea00fef03031ce6554531e89be82f6a42835 NFS: Fix /proc/PID/io read_bytes for buffered reads
-7ff84910c66c9144cc0de9d9deed9fb84c03aff0 lockd: set file_lock start and end when decoding nlm4 testargs
-21fd9e8700de86d1169f6336e97d7a74916ed04a NFS: Correct timing for assigning access cache timestamp
-f959325e6ac3f499450088b8d9c626d1177be160 fsverity: Remove WQ_UNBOUND from fsverity read workqueue
-a075bacde257f755bea0e53400c9f1cdd1b8e8e6 fsverity: don't drop pagecache at end of FS_IOC_ENABLE_VERITY
-27c934dd8832dd40fd34776f916dc201e18b319b nfsd: don't replace page in rq_pages if it's a continuation of last page
-43e5f1d5921128373743585e3275ed9044ef8b8f fscrypt: improve fscrypt_destroy_keyring() documentation
-4bcf6f827a79c59806c695dc280e763c5b6a6813 fscrypt: check for NULL keyring in fscrypt_put_master_key_activeref()
-3d3699bde4b043eea17993e4e76804a8128f0fdb Merge tag 'nfs-for-6.3-2' of git://git.linux-nfs.org/projects/anna/linux-nfs
-7d31677bb7b1944ac89e9155110dc1b9acbb3895 gpu: host1x: fix uninitialized variable use
-d7e673c2a900206bea3461a4b4ecc74ea930f80e zonefs: Prevent uninitialized symbol 'size' warning
-88b170088ad2c3e27086fe35769aa49f8a512564 zonefs: Fix error message in zonefs_file_dio_append()
-4f1e308df88ad25c88ab4240161cbac45ba2d78e Merge tag 'fscrypt-for-linus' of git://git.kernel.org/pub/scm/fs/fscrypt/linux
-17214b70a159c6547df9ae204a6275d983146f6b Merge tag 'fsverity-for-linus' of git://git.kernel.org/pub/scm/fs/fsverity/linux
-b69245126a48e50882021180fa5d264dc7149ccc bootconfig: Fix testcase to increase max node
-47f9e4c924025c5be87959d3335e66fcbb7f6b5c keys: Do not cache key in task struct if key is requested from kernel thread
-4fc5c74dde69a7eda172514aaeb5a7df3600adb3 verify_pefile: relax wrapper length check
-3584c1dbfffdabf8e3dc1dd25748bb38dd01cd43 asymmetric_keys: log on fatal failures in PE/pkcs7
-2faac9a98f010cf5b342fa89ac489c4586364e6e Merge tag 'keys-fixes-20230321' of git://git.kernel.org/pub/scm/linux/kernel/git/dhowells/linux-fs
-a2eaf246f5732519f3dcc34e18fd41909e226284 Merge tag 'nfsd-6.3-3' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
-a1effab7a3a35a837dd9d2b974a1bc4939df1ad5 Merge tag 'vfio-v6.3-rc4' of https://github.com/awilliam/linux-vfio
-caa0708a81d6a2217c942959ef40d515ec1d3108 bootconfig: Change message if no bootconfig with CONFIG_BOOT_CONFIG_FORCE=y
-c13e02d335c825ffc7f4af3733329d38e695b482 Merge tag 'bootconfig-fixes-v6.3-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
-fff5a5e7f528b2ed2c335991399a766c2cf01103 Merge tag 'for-linus' of git://git.armlinux.org.uk/~rmk/linux-arm
-9fd6ba5420ba2b637d1ecc6de8613ec8b9c87e5a Merge tag 'zonefs-6.3-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/dlemoal/zonefs
-1e760fa3596e8c7f08412712c168288b79670d78 Merge tag 'gfs2-v6.3-rc3-fix' of git://git.kernel.org/pub/scm/linux/kernel/git/gfs2/linux-gfs2
-8dc14966ca3eb5bf4e200c50cc73199ee6de2bd7 gfs2: Remove duplicate i_nlink check from gfs2_link()
-2d08478060438a5af86f44adba2a16727c89ff03 gfs2: Remove ghs[] from gfs2_link
-14a585177c0f5870c82b32000d79aca1baa94bfc gfs2: Remove ghs[] from gfs2_unlink
+0a58b3cbe16038815f08bc33621c81d2701189ec char: impi, tpm: depend on HAS_IOPORT
+6538a034e1b96956f56b26b9c4ed5dff11fab02e comedi: add HAS_IOPORT dependencies
+277fa28c53cefe320984b1082560d5a007fca9dc counter: add HAS_IOPORT dependencies
+6f0a0867c1f35ec351a4f82979d69fc1399acf7e /dev/port: don't compile file operations without CONFIG_DEVPORT
+4f70bd1352f21f5b40bc3a31bd16c968d7180d41 drm: handle HAS_IOPORT dependencies
+a62676ed5f72907d46a3d3ce2a53d9e2cb46f0d1 firmware: dmi-sysfs: handle HAS_IOPORT=n
+29740b8579ae8b588e83b4416fa7b482587c9b64 gpio: add HAS_IOPORT dependencies
+1f7db17c75980c0fc45ba75eb3e1c40441563158 hwmon: add HAS_IOPORT dependencies
+05deab55986c13c5c08fde4f9fe3ad594b2b1b3c i2c: add HAS_IOPORT dependencies
+2d27db09c26a03fe20ee36b98e0a00541c640d01 iio: ad7606: Kconfig: add HAS_IOPORT dependencies
+6953fbb552fa30d59ca32d34fe80370a1ae35803 Input: add HAS_IOPORT dependencies
+fa4ebd25af807ca4e1808312ce237a37dd2e941d Input: gameport: add ISA and HAS_IOPORT dependencies
+3d8381ac9f0333d8f9f14ec541fb37596a673ca7 leds: add HAS_IOPORT dependencies
+ebc1828d090d0244c9b79c0bb63672f7a5f0378b media: add HAS_IOPORT dependencies
+2a4d71ca9c8c102842824aae13e3e01b2469c6e5 misc: add HAS_IOPORT dependencies
+3480a8a7f105db0767a46f87d2453bd0ecfd7ccd mISDN: add HAS_IOPORT dependencies
+015fd5113ff1a842bc9d6603bf33a4f9e827350a mpt fusion: add HAS_IOPORT dependencies
+026da7a7e438c3499c52089130c7f211deb13425 net: handle HAS_IOPORT dependencies
+307ee0b68f26abc08b9093efbc7631cd422a2ec6 parport: PC style parport depends on HAS_IOPORT
+bda7a982ada21acdeca5fe0cb49e3b79dba928d0 PCI: Make quirk using inw() depend on HAS_IOPORT
+a61faff3f82bbf78d1b9c841629901479bc4efb7 PCI/sysfs: Make I/O resource depend on HAS_IOPORT
+b304fe2c95606ea3731433e029e017845d072d3a pcmcia: add HAS_IOPORT dependencies
+3f8dab29f058aea39ba6679c36487ed02da32c55 platform: add HAS_IOPORT dependencies
+f107eee84ffd0764bb79cd29567d4f0a4f5e0aed pnp: add HAS_IOPORT dependencies
+314fabde078ce1d4d6d68ae4444dfbb41a0bdcb5 power: add HAS_IOPORT dependencies
+b8de7283003270aefbae363b06108c33d4c871fe rtc: add HAS_IOPORT dependencies
+490077f18bbdcce28befb6d78cba6e52fce6998c scsi: add HAS_IOPORT dependencies
+ea5550bf8c214ae2d9ac921a876be320bcd1f073 sound: add HAS_IOPORT dependencies
+9054220b1b47a50f23a87e5280bd0289fc01a4c6 speakup: add HAS_IOPORT dependency for SPEAKUP_SERIALIO
+64a2aba1d6d9055e75139cc613ac351ffd243880 staging: add HAS_IOPORT dependencies
+82a4158771c68057238c89c3c6ec07fe655f03d8 tty: serial: handle HAS_IOPORT dependencies
+15bc768e8bff123f8d6e2ce82b05a5d4ab299476 usb: handle HAS_IOPORT dependencies
+808b1d9f21bf82d176d3ca0ed9c2e97cfb8e0556 video: handle HAS_IOPORT dependencies
+44da00146774f904c721bf5f4bc08e18a3c8471b watchdog: add HAS_IOPORT dependencies
+6fe277fda4c65c1498584d12de29f79df63c00c1 wireless: add HAS_IOPORT dependencies
+94b3553800a99058f9324dc169960b871a467fc6 asm-generic/io.h: drop inb() etc for HAS_IOPORT=n
 
---===============1963859809040876497==--
+--===============8521511241626255237==--
