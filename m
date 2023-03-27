@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4050310875008025345=="
+Content-Type: multipart/mixed; boundary="===============1165107427304438686=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 27 Mar 2023 06:17:13 -0000
-Message-Id: <167989783389.11623.8961287786767738284@gitolite.kernel.org>
+Date: Mon, 27 Mar 2023 06:17:57 -0000
+Message-Id: <167989787751.11914.16472431627927624667@gitolite.kernel.org>
 
---===============4050310875008025345==
+--===============1165107427304438686==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: bp
 changes:
-  - ref: refs/heads/core/urgent
-    old: b416514054810cf2d2cc348ae477cea619b64da7
+  - ref: refs/heads/perf/urgent
+    old: 263f5ecaf7080513efc248ec739b6d9e00f4129f
     new: 197b6b60ae7bc51dd0814953c562833143b292aa
-    log: revlist-b41651405481-197b6b60ae7b.txt
+    log: revlist-263f5ecaf708-197b6b60ae7b.txt
 
---===============4050310875008025345==
+--===============1165107427304438686==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b41651405481-197b6b60ae7b.txt
+Content-Disposition: attachment; filename=revlist-263f5ecaf708-197b6b60ae7b.txt
 
 6715df8d5d24655b9fd368e904028112b54c7de1 bpf: Allow reads from uninit stack
 6338a94d5ab42a94e96ea36edc5f7df1fe73e68e selftests/bpf: Tests for uninitialized stack reads
@@ -220,8 +220,9 @@ d7e673c2a900206bea3461a4b4ecc74ea930f80e zonefs: Prevent uninitialized symbol 's
 74e2e17ee1f8d8a0928b90434ad7e2df70f8483e io_uring/net: avoid sending -ECONNABORTED on repeated connection requests
 f038f3917baf04835ba2b7bcf2a04ac93fbf8a9c octeontx2-vf: Add missing free for alloc_percpu
 03aecb1acbcd7a660f97d645ca6c09d9de27ff9d drm: panel-orientation-quirks: Add quirk for Lenovo Yoga Book X90F
+f87d28673b71b35b248231a2086f9404afbb7f28 entry: Fix noinstr warning in __enter_from_user_mode()
 a53ce18cacb477dd0513c607f187d16f0fa96f71 sched/fair: Sanitize vruntime of entity being migrated
-263f5ecaf7080513efc248ec739b6d9e00f4129f perf/x86/amd/core: Always clear status for idx
+b416514054810cf2d2cc348ae477cea619b64da7 entry/rcu: Check TIF_RESCHED _after_ delayed RCU wake-up
 97fd768e501fd5d377cb0bf46a35bad2cd21c153 efi/libstub: zboot: Add compressed image to make targets
 2b91c4a870c9830eaf95e744454c9c218cccb736 hwmon: (peci/cputemp) Fix miscalculated DTS for SKX
 2315332efcbe7124252f080e03b57d3d2f1f4771 hwmon: fix potential sensor registration fail if of_node is missing
@@ -420,4 +421,4 @@ f6cdaeb08b66db0d06b1b70c0801a00b6f30571c Merge tag 'core_urgent_for_v6.3_rc4' of
 0ec57cfa721fbd36b4c4c0d9ccc5d78a78f7fa35 Merge tag 'usb-6.3-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb
 197b6b60ae7bc51dd0814953c562833143b292aa Linux 6.3-rc4
 
---===============4050310875008025345==--
+--===============1165107427304438686==--
