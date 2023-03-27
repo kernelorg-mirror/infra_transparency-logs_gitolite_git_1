@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Mon, 27 Mar 2023 11:49:10 -0000
-Message-Id: <167991775064.22102.5153768707596626471@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Mon, 27 Mar 2023 11:52:22 -0000
+Message-Id: <167991794231.24667.10783582080837997403@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: hansg
 changes:
-  - ref: refs/heads/master
-    old: d155c11d2e5374623d16c6bae7198ec9b8f479bb
-    new: 8149f7b6bb8a3a7e9c5d2eef024942fbbb41fc31
+  - ref: refs/heads/review-hans
+    old: 6f561677c2f234bcf215350b76f2a2fea95fbebf
+    new: 9a62a9be30c2caab402c66105171cd96bbfd077d
     log: |
-         8149f7b6bb8a3a7e9c5d2eef024942fbbb41fc31 libmount: (idmap) reuse tree FD, fix umount
+         9a62a9be30c2caab402c66105171cd96bbfd077d platform/x86: Add new msi-ec driver
          
