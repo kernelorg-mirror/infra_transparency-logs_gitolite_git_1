@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Mon, 27 Mar 2023 08:32:34 -0000
-Message-Id: <167990595459.5371.3441672821469735669@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mips/linux
+Date: Mon, 27 Mar 2023 08:41:31 -0000
+Message-Id: <167990649179.11225.12374582114396828715@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: davem
+repo: pub/scm/linux/kernel/git/mips/linux
+user: tsbogend
 changes:
-  - ref: refs/heads/main
-    old: 4228c3a23adc3a4369ecf7329af34ba753be3594
-    new: e5b42483ccce50d5b957f474fd332afd4ef0c27b
+  - ref: refs/heads/mips-next
+    old: 600efe35d54961dd026f04c6ea5b4074b3284c87
+    new: 101f26c72825c5dba1dfe826e4202a9a04b435c6
     log: |
-         e5b42483ccce50d5b957f474fd332afd4ef0c27b dev_ioctl: fix a W=1 warning
+         101f26c72825c5dba1dfe826e4202a9a04b435c6 MIPS: octeon: Fix compile error
          
