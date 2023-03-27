@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5676710522697839060=="
+Content-Type: multipart/mixed; boundary="===============6715858923732885641=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Mon, 27 Mar 2023 16:47:39 -0000
-Message-Id: <167993565940.29983.4340835620047976176@gitolite.kernel.org>
+Date: Mon, 27 Mar 2023 16:48:36 -0000
+Message-Id: <167993571627.30365.3847740108544380137@gitolite.kernel.org>
 
---===============5676710522697839060==
+--===============6715858923732885641==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/main
     old: dc0a7b52007145a85d0c2f3151870b101568b449
     new: e5b42483ccce50d5b957f474fd332afd4ef0c27b
     log: revlist-dc0a7b520071-e5b42483ccce.txt
 
---===============5676710522697839060==
+--===============6715858923732885641==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -57,4 +57,4 @@ a504d246d2129b6fe40059d372288ffb36e4588b selftests: tls: add a test for queuing 
 4228c3a23adc3a4369ecf7329af34ba753be3594 net: phy: bcm7xxx: use devm_clk_get_optional_enabled to simplify the code
 e5b42483ccce50d5b957f474fd332afd4ef0c27b dev_ioctl: fix a W=1 warning
 
---===============5676710522697839060==--
+--===============6715858923732885641==--
