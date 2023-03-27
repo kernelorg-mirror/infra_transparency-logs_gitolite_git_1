@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Mon, 27 Mar 2023 07:54:15 -0000
-Message-Id: <167990365567.11636.15531875535187370747@gitolite.kernel.org>
+Date: Mon, 27 Mar 2023 07:56:15 -0000
+Message-Id: <167990377589.13853.11220090185004802842@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: davem
 changes:
   - ref: refs/heads/main
-    old: dd3a7d58dcc2434632bed31683ff134b7d6d1da4
-    new: a504d246d2129b6fe40059d372288ffb36e4588b
+    old: a504d246d2129b6fe40059d372288ffb36e4588b
+    new: 4c6170d1ae2ccb20ed8d06d191868ed01e6bece0
     log: |
-         a504d246d2129b6fe40059d372288ffb36e4588b selftests: tls: add a test for queuing data before setting the ULP
+         4c6170d1ae2ccb20ed8d06d191868ed01e6bece0 tools: ynl: default to treating enums as flags for mask generation
          
