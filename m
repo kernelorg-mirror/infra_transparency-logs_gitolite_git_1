@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gfs2/linux-gfs2
-Date: Mon, 27 Mar 2023 22:59:00 -0000
-Message-Id: <167995794017.20134.2488683343854467539@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Mon, 27 Mar 2023 23:17:45 -0000
+Message-Id: <167995906509.1018.6030016819021755268@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gfs2/linux-gfs2
-user: agruen
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/for-next
-    old: 14a585177c0f5870c82b32000d79aca1baa94bfc
-    new: cfcdb5bad34f600aed7613c3c1a5e618111f77b7
-    log: |
-         cfcdb5bad34f600aed7613c3c1a5e618111f77b7 gfs2: Fix inode height consistency check
-         
+  - ref: refs/heads/srcu-cf.2023.03.27b
+    old: 0000000000000000000000000000000000000000
+    new: 8f5cabd81ba865b873bdeabe26ddebf5a966b102
