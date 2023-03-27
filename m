@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Mon, 27 Mar 2023 21:20:40 -0000
-Message-Id: <167995204066.20793.14153813328183157049@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs-tools
+Date: Mon, 27 Mar 2023 21:27:06 -0000
+Message-Id: <167995242615.24340.7010279531561130151@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/jaegeuk/f2fs-tools
+user: jaegeuk
 changes:
-  - ref: refs/heads/master
-    old: 149bc62ef645aebdcc5d093c01cfc6bd1624491d
-    new: 2d60a670b3b84e44dd9b61cb43c6fd3d3b6570da
+  - ref: refs/heads/dev-test
+    old: c6995ab9b3f0dd9a059b44ba9506f242e79b3a31
+    new: f43c6775108715bbf720f94a3e5ef5d68c7bb6e3
     log: |
-         2d60a670b3b84e44dd9b61cb43c6fd3d3b6570da foo
+         f43c6775108715bbf720f94a3e5ef5d68c7bb6e3 mkfs.f2fs: remove indentation
          
