@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
-Date: Tue, 28 Mar 2023 14:52:16 -0000
-Message-Id: <168001513663.9011.2676369453785838613@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/atorgue/stm32
+Date: Tue, 28 Mar 2023 14:54:14 -0000
+Message-Id: <168001525420.9715.17317726414398255432@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/liburing
-user: axboe
+repo: pub/scm/linux/kernel/git/atorgue/stm32
+user: atorgue
 changes:
-  - ref: refs/heads/master
-    old: 2b8b7a93ff85584d37ef7a92f413b9c87f4ff99f
-    new: 9134244a4e16e68cb514ea5192fcd7e9beca96f5
+  - ref: refs/heads/stm32-next
+    old: 76afff432f262712044864e3835841b1b41835a9
+    new: be7417004eb86ca7f419e9462b92db6b697fbcd3
     log: |
-         0c020c66a413980e237a22f8620fa8e22150a6b5 man/io_uring_prep_timeout_update: add note that remove doesn't take flags
-         0ba9f4d8d9d768c197ace81665251dbff520f19e man: document that shutdown processing may run asynchronously
-         9134244a4e16e68cb514ea5192fcd7e9beca96f5 Merge branch 'master' of https://github.com/freitmi/liburing
+         be7417004eb86ca7f419e9462b92db6b697fbcd3 ARM: dts: stm32: add FMC support on STM32MP13x SoC family
          
