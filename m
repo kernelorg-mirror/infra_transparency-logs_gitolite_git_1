@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6486169328628188204=="
+Content-Type: multipart/mixed; boundary="===============1732743662455927024=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 28 Mar 2023 15:28:48 -0000
-Message-Id: <168001732832.424.10332711693967190949@gitolite.kernel.org>
+Date: Tue, 28 Mar 2023 15:29:45 -0000
+Message-Id: <168001738545.829.10009458560813419399@gitolite.kernel.org>
 
---===============6486169328628188204==
+--===============1732743662455927024==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/main
     old: e5b42483ccce50d5b957f474fd332afd4ef0c27b
     new: 86e2eca4ddedc07d639c44c990e1c220cac3741e
     log: revlist-e5b42483ccce-86e2eca4dded.txt
 
---===============6486169328628188204==
+--===============1732743662455927024==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -57,4 +57,4 @@ d8b0c963e9191cbb43b6979835f31dc52f9fd095 Merge branch 'allocate-multiple-skbuffs
 5c8560c4a19fc3e400715a347ce82bd909e3ac74 net: ethernet: ti: am65-cpsw: add .ndo to set dma per-queue rate
 86e2eca4ddedc07d639c44c990e1c220cac3741e net: ethernet: ti: am65-cpsw: enable p0 host port rx_vlan_remap
 
---===============6486169328628188204==--
+--===============1732743662455927024==--
