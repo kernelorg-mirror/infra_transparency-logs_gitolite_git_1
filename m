@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/atorgue/stm32
-Date: Tue, 28 Mar 2023 09:38:42 -0000
-Message-Id: <167999632216.765.16842366507210801604@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Tue, 28 Mar 2023 09:44:26 -0000
+Message-Id: <167999666653.18056.15833253121551894655@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/atorgue/stm32
-user: atorgue
+repo: pub/scm/linux/kernel/git/netdev/net
+user: pabeni
 changes:
-  - ref: refs/heads/stm32-next
-    old: 0fbb60def782c40ac6338e4fed6898b690be50b0
-    new: 1b9f0ec81af0012aae30aa3b4c711ad71d42e246
+  - ref: refs/heads/main
+    old: ebd3b826343bb4a7a280aad68a113bbf044add1d
+    new: b4c66d755e6d5620920168c15eb75f53394a952c
     log: |
-         1b9f0ec81af0012aae30aa3b4c711ad71d42e246 ARM: dts: stm32: fix spi1 pin assignment on stm32mp15
+         9a251cae51d57289908222e6c322ca61fccc25fd net: mvpp2: classifier flow fix fragmentation flags
+         a587a84813b90372cb0a7565e201a4075da67919 net: mvpp2: parser fix QinQ
+         031a416c2170866be5132ae42e14453d669b0cb1 net: mvpp2: parser fix PPPoE
+         b4c66d755e6d5620920168c15eb75f53394a952c Merge branch 'net-mvpp2-rss-fixes'
          
