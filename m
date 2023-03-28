@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3666574243399456828=="
+Content-Type: multipart/mixed; boundary="===============2746293741463980881=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
-Date: Tue, 28 Mar 2023 10:02:54 -0000
-Message-Id: <167999777442.31697.2422989125678578007@gitolite.kernel.org>
+Date: Tue, 28 Mar 2023 10:03:04 -0000
+Message-Id: <167999778408.31853.1921200533857947963@gitolite.kernel.org>
 
---===============3666574243399456828==
+--===============2746293741463980881==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/johan/usb-serial
 user: johan
 changes:
-  - ref: refs/heads/usb-next
+  - ref: refs/heads/master
     old: e8d018dd0257f744ca50a729e3d042cf2ec9da65
     new: 197b6b60ae7bc51dd0814953c562833143b292aa
     log: revlist-e8d018dd0257-197b6b60ae7b.txt
 
---===============3666574243399456828==
+--===============2746293741463980881==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -422,4 +422,4 @@ f6cdaeb08b66db0d06b1b70c0801a00b6f30571c Merge tag 'core_urgent_for_v6.3_rc4' of
 0ec57cfa721fbd36b4c4c0d9ccc5d78a78f7fa35 Merge tag 'usb-6.3-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb
 197b6b60ae7bc51dd0814953c562833143b292aa Linux 6.3-rc4
 
---===============3666574243399456828==--
+--===============2746293741463980881==--
