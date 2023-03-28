@@ -1,26 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
-Date: Tue, 28 Mar 2023 13:17:31 -0000
-Message-Id: <168000945177.7474.216928708321877240@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Tue, 28 Mar 2023 13:23:57 -0000
+Message-Id: <168000983767.11100.15953928126225402703@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/conor/linux
-user: conor
+repo: pub/scm/linux/kernel/git/netdev/net
+user: pabeni
 changes:
-  - ref: refs/heads/pwm-dev-v15
-    old: f675a783c2fc465c5fb8f52191d740467e265b89
-    new: 263b6eb4e1a5f7bbcde50d2a54008d67b27295fd
+  - ref: refs/heads/main
+    old: f22c993f31fa9615df46e49cd768b713d39a852f
+    new: 917fd7d6cdda179fdced2ebb060a9cda517d76e0
     log: |
-         9c2cef68c2eba14cbf69e26144c683655a3baa48 report pwmchip_add() failures
-         5ffccdb2316a7c78e5dac9a06cea2f878aff1797 don't use a bad definition for period_steps/prescale in get_state()
-         7f1d13663f53dac105fbe31eeaf56e282a4d77c6 only use period_steps and prescale to mean the register values in calc_period
-         45fe4f28c0746adc260ec76f7b21117d5fd9bd39 add a comment about sync_upd mode
-         26c7f3bc5baf5500065173f12aeb594de11d0846 re-fix use of defines
-         4a441a455fc2ce37048ca0aa96c0cf295825bc4b explain what "optimal" means
-         cede8afac5a86ffc5a86316db4e2decd31e003ae change period_steps calculation logic
-         263b6eb4e1a5f7bbcde50d2a54008d67b27295fd [drop] dts changes
+         05310f31ca74673a96567fb14637b7d5d6c82ea5 xen/netback: don't do grant copy across page boundary
+         8fb8ebf9487785184846d04e915bfe327bf4ccd5 xen/netback: remove not needed test in xenvif_tx_build_gops()
+         917fd7d6cdda179fdced2ebb060a9cda517d76e0 Merge branch 'xen-netback-fix-issue-introduced-recently'
          
