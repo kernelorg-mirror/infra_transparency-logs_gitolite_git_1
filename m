@@ -1,29 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/mm
-Date: Tue, 28 Mar 2023 22:27:28 -0000
-Message-Id: <168004244801.26868.16559913566598575089@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Tue, 28 Mar 2023 22:50:03 -0000
+Message-Id: <168004380370.10746.9323719286187482565@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
-Content-Transfer-Encoding: 8bit
+Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/mm
-user: akpm
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/linus
-    old: 3a93e40326c8f470e71d20b4c42d36767450f38f
-    new: 4979bf8668255a67449714653314662fbc7e5bdb
-  - ref: refs/heads/mm-hotfixes-stable
-    old: 197b6b60ae7bc51dd0814953c562833143b292aa
-    new: bdd034de3a28ffdacab528aebad17f1df968180c
+  - ref: refs/heads/iter-ubuf
+    old: 3e3a0d0868a8a120ce846e3d7afd988ab62e0d7e
+    new: 6cf49f92e9c66086b037a58d9cc23d7afb4a48e4
     log: |
-         1a4b52ce8548355f09170faa67070bc2b8e3ba53 .mailmap: add entry for Leonard Göhrs
-         35260cf545226c3b21d52a9d21083f7ff999969c Kconfig.debug: fix SCHED_DEBUG dependency
-         f478b9987cc8236b412d9f2afc958d3e15a7cf85 lib/Kconfig.debug: correct help info of LOCKDEP_STACK_TRACE_HASH_BITS
-         13dd4e04625f600e5affb1b3f0b6c35268ab839b fsdax: unshare: zero destination if srcmap is HOLE or UNWRITTEN
-         e900ba10d15041a6236cc75778cc6e06c3590a58 fsdax: dedupe should compare the min of two iters' length
-         3ee2d7471fa4963a2ced0a84f0653ce88b43c5b2 mm: kfence: fix PG_slab and memcg_data clearing
-         1f2803b2660f4b04d48d065072c0ae0c9ca255fd mm: kfence: fix handling discontiguous page
-         bdd034de3a28ffdacab528aebad17f1df968180c mailmap: add an entry for Leonard Crestez
+         4cb1248c7167ecc1aeb15f7144914c12d5a42b8c iov_iter: teach iov_iter_iovec() to deal with ITER_UBUF
+         fff3efcb59987987064f20733a38f8299d70d213 iov_iter: overlay struct iovec and ubuf/len
+         67ce14118af2e06b2f82a5a6c62e52519597cb7d iov_iter: set nr_segs = 1 for ITER_UBUF
+         bd674374cd2fff8daa4f201aa306c89c89bacbaa IB/hfi1: check for user backed iterator, not specific iterator type
+         a5c2517c77def46f0678a0685733e733b373ba5d IB/qib: check for user backed iterator, not specific iterator type
+         a58b40115baa7211aaefb54ac47bb30a0d8afc9b ALSA: pcm: check for user backed iterator, not specific iterator type
+         1bbb71816943646759eb189a68617362597895a6 iov_iter: convert import_single_range() to ITER_UBUF
+         6cf49f92e9c66086b037a58d9cc23d7afb4a48e4 iov_iter: import single vector iovecs as ITER_UBUF
          
