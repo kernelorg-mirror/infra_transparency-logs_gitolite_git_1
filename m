@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/bluetooth/bluez
-Date: Tue, 28 Mar 2023 20:49:58 -0000
-Message-Id: <168003659882.25794.10070114665639520461@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+Date: Tue, 28 Mar 2023 20:55:06 -0000
+Message-Id: <168003690633.30478.6515005540262497093@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/bluetooth/bluez
+repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
 user: vudentz
 changes:
   - ref: refs/heads/master
-    old: 011e562a98a8b8c278391bc64d9dc2c8df0a5585
-    new: 54601cbcf283468ecb867d3db14ddbd1badbe858
+    old: 2731e038a76d53dc29ab0fdfb8e70e22ba2bfa51
+    new: cb3248d369afc05f0e80cf2b9d1b9b9cfdff9bba
     log: |
-         cedace72c3f71d356fc1895787569c7412ee94b2 l2test: Enable hex input for PSM
-         54601cbcf283468ecb867d3db14ddbd1badbe858 l2test: Fix setting mode for BR/EDR l2cap socket
+         8052aa4f4e7c6452b30d65e50de61c2d71a44151 bluetooth: Add device 0bda:887b to device tables
+         cb3248d369afc05f0e80cf2b9d1b9b9cfdff9bba bluetooth: Add device 13d3:3571 to device tables
          
