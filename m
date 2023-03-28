@@ -1,28 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Tue, 28 Mar 2023 16:41:06 -0000
-Message-Id: <168002166623.17436.14008882074703022328@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============6038633633821093579=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Tue, 28 Mar 2023 16:48:26 -0000
+Message-Id: <168002210639.22695.6251791832563607198@gitolite.kernel.org>
+
+--===============6038633633821093579==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
-user: broonie
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-next
-    old: 37b3fedfb4caacb976eaaba190f706e69f4c7992
-    new: 5fe5e255c114aee89312d43afa283a0a00542593
+  - ref: refs/heads/driver-core-testing
+    old: 517d4927aabe488144863e72b52bb3e506fecd34
+    new: 8ad266d133b005e88953b08d988fac86f74a0665
     log: |
-         e4cf7805f084772cccf2094b634a16bccf2f444f ASoC: dt-bindings: qcom,lpass-rx-macro: narrow clocks per variants
-         0fc109f875721f9cef29bb68095f50d67343b4b7 ASoC: dt-bindings: qcom,lpass-rx-macro: Add SM8550 RX macro
-         492fe974fed0754f7076580e069e1e182e7b3603 ASoC: codecs: lpass-rx-macro: add support for SM8550
-         bf4afbf950938d42cf0df1ecd915affeb26f4d76 ASoC: dt-bindings: qcom,lpass-tx-macro: narrow clocks per variants
-         050578c6f18c28e95f9659493a52a67b68b4b667 ASoC: dt-bindings: qcom,lpass-tx-macro: Add SM8550 TX macro
-         5faf6a1c5256559af98c998b7416e4db8fb09b75 ASoC: codecs: lpass-tx-macro: add support for SM8550
-         c1bda22bd2f382f9c3b27fb7a899f8804d92f897 ASoC: dt-bindings: qcom,lpass-wsa-macro: Add SM8550 WSA macro
-         6b004b836ced4d9ce655b5f1c810833c1a880369 ASoC: codecs: lpass-wsa-macro: add support for SM8550
-         d6790ae09a56dd8898ff025337c235540334d760 ASoC: add audio digital codecs for Qualcomm SM8550
-         5fe5e255c114aee89312d43afa283a0a00542593 Merge remote-tracking branch 'asoc/for-6.4' into asoc-next
+         8ad266d133b005e88953b08d988fac86f74a0665 driver core: Add CONFIG_FW_DEVLINK_SYNC_STATE_TIMEOUT
          
+
+--===============6038633633821093579==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1680022103 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1680022103-620fcd9169b28bd3fbe2c1fd9df1036506eac705
+
+517d4927aabe488144863e72b52bb3e506fecd34 8ad266d133b005e88953b08d988fac86f74a0665 refs/heads/driver-core-testing
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQjGlcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+f58P/0tFr6Wx6x7ELXtV73JG
+8vcjMvab6KLiatfBZBwae/PFRKTk9QQnk/s+LCWZmi/4nwMrhXD6hcbAW/UnbZ/7
+REzbQ6m3VZobegOqDN5qY602SKmygaRYXWTculEgl0rKR/E8RtEZ5vMGBXGk2bHO
+Fyj/Xz/erK7Ns56AXNxdDXW2b9veED2BDEtw76iKzH2vd1FYY6vtwFhq1jUs52Kn
+f0ep+2pZECeHG2QoQa8CRY1f/6oNeWA0G+Wy26rFzl/i39n2wHTbCNvtdwpA0fEp
+Q0hKjgWlmj00BvYaPi+rB9MEDG+mwM8BQEqPGLCgeG1amm/dKcd+jUZ6iC4TxIzl
+nsRiyfuDa+1lnT625SAvdWQOh1vo2W0l1hjoLJ4vJixmmfaPY65WahyAGWKpGZQG
+x3Boua75T/PqKlkH/OCCa6s2aHgoSeisaSoEcnDuT7hNAz7IdV0iVx0i/99S6xG+
+7kxJiUU/Ytxz5CjZvx7h1HjcVH3mFrRYN/9Y1DY+1nJuDRMY9XqNNAhmKUS3FeD5
+uzZQrM5Tj7m+wkU6QCa/UBdcKFNLCRi7dYHUCm1QL04EP4FN4esg8ryIX2Nv+5tg
+VR5br8FaBttk49h4Npp1BkMCB62KPhxj3IBfkcr/iEvoIBVPBs7FEtH5u26rsUm2
+fOIFsj37XmaQjibm60OFVj4v
+=W3ww
+-----END PGP SIGNATURE-----
+
+--===============6038633633821093579==--
