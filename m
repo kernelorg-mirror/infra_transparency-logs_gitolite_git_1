@@ -1,26 +1,42 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Tue, 28 Mar 2023 22:50:03 -0000
-Message-Id: <168004380370.10746.9323719286187482565@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============8145483965880052197=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
+Date: Tue, 28 Mar 2023 23:01:41 -0000
+Message-Id: <168004450146.17604.14098329783142510496@gitolite.kernel.org>
+
+--===============8145483965880052197==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/robh/linux
+user: robh
 changes:
-  - ref: refs/heads/iter-ubuf
-    old: 3e3a0d0868a8a120ce846e3d7afd988ab62e0d7e
-    new: 6cf49f92e9c66086b037a58d9cc23d7afb4a48e4
-    log: |
-         4cb1248c7167ecc1aeb15f7144914c12d5a42b8c iov_iter: teach iov_iter_iovec() to deal with ITER_UBUF
-         fff3efcb59987987064f20733a38f8299d70d213 iov_iter: overlay struct iovec and ubuf/len
-         67ce14118af2e06b2f82a5a6c62e52519597cb7d iov_iter: set nr_segs = 1 for ITER_UBUF
-         bd674374cd2fff8daa4f201aa306c89c89bacbaa IB/hfi1: check for user backed iterator, not specific iterator type
-         a5c2517c77def46f0678a0685733e733b373ba5d IB/qib: check for user backed iterator, not specific iterator type
-         a58b40115baa7211aaefb54ac47bb30a0d8afc9b ALSA: pcm: check for user backed iterator, not specific iterator type
-         1bbb71816943646759eb189a68617362597895a6 iov_iter: convert import_single_range() to ITER_UBUF
-         6cf49f92e9c66086b037a58d9cc23d7afb4a48e4 iov_iter: import single vector iovecs as ITER_UBUF
-         
+  - ref: refs/heads/dt/test
+    old: cd0ee6f205b2f74bd22bbf67dce3a6cfc76db8cb
+    new: 2b813ce156bb4f39aae9c92bddaf6e47019fc280
+    log: revlist-cd0ee6f205b2-2b813ce156bb.txt
+
+--===============8145483965880052197==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-cd0ee6f205b2-2b813ce156bb.txt
+
+db93175a6095ba725280bb5698220223c9989191 of: Make devtree_lock private
+a812214716040a5b20636ec55f5f36154fdc8a4e of: Move of_device_(add|register|unregister) to of_platform.h
+aa95bde733457d3b0850d7690c3fe57ef03e960a of: Move of_device_get_match_data() declaration
+e009f77b57195cf087c21decea5eee84ff64a22f of: Move CPU node related functions to their own file
+f04fbcf780f9d8d39267f8307df31078c6f568d6 of: Drop unnecessary includes in headers
+e2244a40afa675600d575fce0dec5d9f487360af clocksource: ingenic: Add explicit include for cpuhotplug.h
+9797b5ca51d4f95417b0f2c89031e866c71a5e70 thermal: cpuidle_cooling: Adjust includes to remove of_device.h
+152a030476bedc666041625e4a9a48da968d6f7e soc: mediatek: mtk-svs: Add explicit linux/cpu.h include
+8af89b54dba854fa218447a00697dfc86cdd8cea cpufreq: sun50i: Add explicit linux/cpu.h include
+e5b873b620e09619572a327126575dfd25f09c53 cpuidle: riscv-sbi: Adjust includes to remove of_device.h
+e4855def1d83939663a53fcd2e3d0dcb9b88037d irqchip: loongson: Adjust include files
+2b813ce156bb4f39aae9c92bddaf6e47019fc280 of: Drop cpu.h include from of_device.h
+
+--===============8145483965880052197==--
