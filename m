@@ -1,56 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============6038633633821093579=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Tue, 28 Mar 2023 16:48:26 -0000
-Message-Id: <168002210639.22695.6251791832563607198@gitolite.kernel.org>
-
---===============6038633633821093579==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Tue, 28 Mar 2023 16:50:03 -0000
+Message-Id: <168002220366.24788.3877958284740492268@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/driver-core
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/driver-core-testing
-    old: 517d4927aabe488144863e72b52bb3e506fecd34
-    new: 8ad266d133b005e88953b08d988fac86f74a0665
+  - ref: refs/heads/iter-ubuf
+    old: 15cec60ea67ca07738dbdd37964f3270e2ecb3cf
+    new: 31b8ba9c415b9e74ceb61f1a017291105fc7cfb4
     log: |
-         8ad266d133b005e88953b08d988fac86f74a0665 driver core: Add CONFIG_FW_DEVLINK_SYNC_STATE_TIMEOUT
+         128fc83f7f160ee65fab22d61df0dd7c859317c3 iov_iter: add iovec_nr_user_vecs() helper
+         f8f9c9cb8eb6d0192e56e4b791aa9fefd336b26c btrfs: make check_direct_read() deal with ITER_UBUF
+         d28da1ae83031b18af3a7173cdc3b7807d24610c snd: move mapping an iov_iter to user bufs into a helper
+         0df0f931cc92b54c487bb936b4355f75feb3b1a1 snd: make snd_map_bufs() deal with ITER_UBUF
+         d4b2bf6e9a21648fd9e71af0b3ac14f1a2abc130 IB/hfi1: make hfi1_write_iter() deal with ITER_UBUF iov_iter
+         e536c82e501e258ea7a14bf659c88f33225e08c3 IB/qib: make qib_write_iter() deal with ITER_UBUF iov_iter
+         b502b21ff5b54f01671d0d91536544d9bf4a8378 iov_iter: convert import_single_range() to ITER_UBUF
+         31b8ba9c415b9e74ceb61f1a017291105fc7cfb4 iov_iter: import single vector iovecs as ITER_UBUF
          
-
---===============6038633633821093579==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1680022103 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1680022103-620fcd9169b28bd3fbe2c1fd9df1036506eac705
-
-517d4927aabe488144863e72b52bb3e506fecd34 8ad266d133b005e88953b08d988fac86f74a0665 refs/heads/driver-core-testing
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQjGlcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+f58P/0tFr6Wx6x7ELXtV73JG
-8vcjMvab6KLiatfBZBwae/PFRKTk9QQnk/s+LCWZmi/4nwMrhXD6hcbAW/UnbZ/7
-REzbQ6m3VZobegOqDN5qY602SKmygaRYXWTculEgl0rKR/E8RtEZ5vMGBXGk2bHO
-Fyj/Xz/erK7Ns56AXNxdDXW2b9veED2BDEtw76iKzH2vd1FYY6vtwFhq1jUs52Kn
-f0ep+2pZECeHG2QoQa8CRY1f/6oNeWA0G+Wy26rFzl/i39n2wHTbCNvtdwpA0fEp
-Q0hKjgWlmj00BvYaPi+rB9MEDG+mwM8BQEqPGLCgeG1amm/dKcd+jUZ6iC4TxIzl
-nsRiyfuDa+1lnT625SAvdWQOh1vo2W0l1hjoLJ4vJixmmfaPY65WahyAGWKpGZQG
-x3Boua75T/PqKlkH/OCCa6s2aHgoSeisaSoEcnDuT7hNAz7IdV0iVx0i/99S6xG+
-7kxJiUU/Ytxz5CjZvx7h1HjcVH3mFrRYN/9Y1DY+1nJuDRMY9XqNNAhmKUS3FeD5
-uzZQrM5Tj7m+wkU6QCa/UBdcKFNLCRi7dYHUCm1QL04EP4FN4esg8ryIX2Nv+5tg
-VR5br8FaBttk49h4Npp1BkMCB62KPhxj3IBfkcr/iEvoIBVPBs7FEtH5u26rsUm2
-fOIFsj37XmaQjibm60OFVj4v
-=W3ww
------END PGP SIGNATURE-----
-
---===============6038633633821093579==--
