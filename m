@@ -1,75 +1,76 @@
-Content-Type: multipart/mixed; boundary="===============7469134441518035515=="
+Content-Type: multipart/mixed; boundary="===============7693301360601202577=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Tue, 28 Mar 2023 11:31:48 -0000
-Message-Id: <168000310881.27061.17567655663268484485@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
+Date: Tue, 28 Mar 2023 11:35:26 -0000
+Message-Id: <168000332674.29808.1046578013853707475@gitolite.kernel.org>
 
---===============7469134441518035515==
+--===============7693301360601202577==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
+repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-linus
-    old: 4dd52392b5d75d88acf0d16eb69fe30d0de8c225
-    new: 4bffd2c7a3fc165fc70bc69211b8e6436f41a5c3
-    log: revlist-4dd52392b5d7-4bffd2c7a3fc.txt
+  - ref: refs/heads/staging-testing
+    old: b07c8ef8c60a4714fad3d7c95a8e464ad83ca715
+    new: 0cda003f1d9e662e55660c657e37f6f1e66437b6
+    log: revlist-b07c8ef8c60a-0cda003f1d9e.txt
 
---===============7469134441518035515==
+--===============7693301360601202577==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1680003106 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1680003105-1b82bcba95895f9e41b20b729d077c36998a7a19
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1680003324 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
+nonce 1680003323-40c76114c65ee7f4dc0755a02497b7433db88fba
 
-4dd52392b5d75d88acf0d16eb69fe30d0de8c225 4bffd2c7a3fc165fc70bc69211b8e6436f41a5c3 refs/heads/char-misc-linus
+b07c8ef8c60a4714fad3d7c95a8e464ad83ca715 0cda003f1d9e662e55660c657e37f6f1e66437b6 refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQi0CIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+6yIP/jgPMyQVeQd5Gtw0btkx
-z6IPsftn6Mu8EiD/B5t4+32CKHW0LxbiMjSC2QTUbsAA6wsn1hLVHamYPlgAkF0I
-BqM6/oc6eZABmraN+bOXqZLoELSLAPa/uA0zIuXQjArOu80LMh+soiL3j4LUaEQv
-1wM0o0PFMUgdPIfbdf7KVsf2SQsZm2AlFt7N/B4mqlRqVgSX27X4k6LhdQqv88k2
-28+bAyeeBKE8GafV5muYbvR5IKhm5rEFwoaOe0OnLktjDME3Tx6lGhshZTsv1yc3
-vaKZySJ3pH6LmqrnUa3tZ/TL0TWVJTZbX5eCH3RNHBSK2d2tY0kw9qnRiZfJ4GNb
-xc6xjsc3MtwOJ9Ek/EQPhYL2keTSVX0+6p3LEM9IiZd5feWSPytF0eCg9fmaO9Rv
-y4daWirtqYOCweYySovkk9MKHyDRFCTAbphsfmIeMeEdJxQ7XnVg3yc3tWAVOCIo
-kWNlDLqAtFfvar6W7UXiZHFbEyMKBgNmXclyLgC3TU6dHdr747FtNRhk/cLjjX2L
-ahfkN2Em1knKt3dZDh0cpvaIMLI58tpaEC4ON3Vf3y9sgZr9oRBHKZtszm617mw5
-bGjGDXJItZ6p1GELeF9B5X9QYDufQOKbLdOgBg8soLHAODVZlSp1Kg3XfZLo/AR8
-9rWH1QEx/FSqZamF91SqT5f6
-=IMlk
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQi0PwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+wFEQAIv4nf0RGNzEdIWRXB5i
+y7Fb0iFHi4rYOhiZrETwPrrGCFZ+j62lQh1bpAWrta7LsAiezQ8cvSyq9TiYZufT
+Pr4qbU4nwIPl56BacSB8AhzG13AmhVbz2kbGnpytb2iWWrNxfO0MQ8DNDBHBgPTJ
+Nad9Zgp9WXojFtvWT8x+NKi13raJnQAzjNW1UF58KShbuKeHjcpKW9h73BWf2sII
+SA/NXXImTX1wsDBX/LAVHpkX/iklbcIoADz5m3U7TrI6t5rWrJkpAg5Y5H60Mvl1
+VKOiISsabpZnDbnr5n9WCqZNMOriZCI0Dcc2xY1ynRhh0I5Rt68KvOOTyKmpfy5G
+36ckokfYnFglcp0IXEgWxzA8YtGtRBOP/5k0RGVUIPqHsg+MpIIZakTqn0Dz0sJU
+WlGqMcYtUy6srEIJTu3RIhhzd2QxStTKgWZ4rM46ellgL+PVptJf2VkYDQmmBvst
+msg0IXzk8Zgf9qyH29friWQcA8SJ3PqxC+fWghmp02K3BLaEZsFFEoICgi46HYcP
+aRFJKtSBODLwEv8XE5O/UTOREfAURwJyEt+9DJUw9zpHMIWXbzcEz9BpC1ZPVH/X
+8z2xljZNuUHenorJ9HBfuUp5Q5gW3aYlciaohZnCKs+ZBKbvzxAsUBqRO4NkplSU
+a4WddZSAtutSt7iUxoVTPIrz
+=pALi
 -----END PGP SIGNATURE-----
 
---===============7469134441518035515==
+--===============7693301360601202577==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4dd52392b5d7-4bffd2c7a3fc.txt
+Content-Disposition: attachment; filename=revlist-b07c8ef8c60a-0cda003f1d9e.txt
 
-701c875aded880013aacac608832995c4b052257 iio: adc: qcom-spmi-adc5: Fix the channel name
-6327a930ab7bfa1ab33bcdffd5f5f4b1e7131504 drivers: iio: adc: ltc2497: fix LSB shift
-d9b540ee461cca7edca0dd2c2a42625c6b9ffb8f iio: adis16480: select CONFIG_CRC32
-42ec40b0883c1cce58b06e8fa82049a61033151c iio: light: vcnl4000: Fix WARN_ON on uninitialized lock
-b5184a26a28fac1d708b0bfeeb958a9260c2924c iio: buffer: correctly return bytes written in output buffers
-3da1814184582ed0faf039275a3f02e6f69944ee iio: buffer: make sure O_NONBLOCK is respected
-0c6ef985a1fd8a74dcb5cad941ddcadd55cb8697 iio: adc: ad7791: fix IRQ flags
-03fada47311a3e668f73efc9278c4a559e64ee85 iio: accel: kionix-kx022a: Get the timestamp from the driver's private data in the trigger_handler
-099cc90a5a62e68b2fe3a42da011ab929b98bf73 iio: light: cm32181: Unregister second I2C client if present
-c3701185ee1973845db088d8b0fc443397ab0eb2 iio: dac: cio-dac: Fix max DAC write value check for 12-bit
-7b3825e9487d77e83bf1e27b10a74cd729b8f972 iio: adc: max11410: fix read_poll_timeout() usage
-49f76c499d38bf67803438eee88c8300d0f6ce09 iio: adc: palmas_gpadc: fix NULL dereference on rmmod
-363c7dc72f79edd55bf1c4380e0fbf7f1bbc2c86 iio: adc: ti-ads7950: Set `can_sleep` flag for GPIO chip
-4bffd2c7a3fc165fc70bc69211b8e6436f41a5c3 Merge tag 'iio-fixes-for-6.3a' of https://git.kernel.org/pub/scm/linux/kernel/git/jic23/iio into char-misc-linus
+16313403d873ff17a587818b61f84c8cb4971cef staging: iio: resolver: ads1210: fix config mode
+1068d4e910cc8e8d06dc04512287a59737292f40 staging: rtl8192e: fix line ending with '('
+5ceb51dae50666635d6e5dcd4cca9582e0826bf8 staging: rtl8192e: remove extra blank lines
+bf8d1ecccb297b81bcca980dcd04fc1fb74d4209 staging: rtl8192e: Remove rtl92e_config_phy
+f57a7f1515828cb493efb0628537e98d0747da71 staging: rtl8192e: Remove _rtl92e_get_supported_wireless_mode
+1b4217b400aedad80512c389c8aef4fe7bbc0119 staging: rtl8192e: Remove 5G wireless_mode in rtl92e_set_wireless_mode
+4648ac046624d7d59d51122277f50fed84923629 staging: rtl8192e: Remove unused if clauses in rtl92e_set_wireless_mode
+1bfa151cc0e10b717921630330dfd53f15b28b77 staging: rtl8192e: Remove wireless modes A, N_5G from _rtl92e_hwconfig
+a993465cd1e3499bd1f5841dadfae354b8a95f06 staging: rtl8192e: Remove wireless modes A, N_5G from rtl92e_set_channel
+35c2274d3417b837097d87901705abae4e121f7a staging: rtl8192e: Remove wireless mode WIRELESS_MODE_N_5G
+c7177ef36c743923a093d6b0ffd73f1002fc7cd6 staging: rtl8192u: remove change history from comments
+a430e7757debd2c0ac096a808e4363eace287773 staging: rtl8192u: remove commented out code
+ba25552a58b4e463c6716aaa775936bbb66022c5 staging: rtl8192u: add '*' on subsequent lines in block comment
+63ff870ce0e54f34c4c7a3b95883c30916801400 staging: rtl8192u: add '*/' on separate line in block comments
+0cda003f1d9e662e55660c657e37f6f1e66437b6 staging: rtl8192e: fix unbalanced braces around else
 
---===============7469134441518035515==--
+--===============7693301360601202577==--
