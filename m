@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4732356777642659056=="
+Content-Type: multipart/mixed; boundary="===============0560479812347133089=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Tue, 28 Mar 2023 06:24:47 -0000
-Message-Id: <167998468746.1017.16573611429099420132@gitolite.kernel.org>
+Date: Tue, 28 Mar 2023 06:36:22 -0000
+Message-Id: <167998538245.9287.15019976154709178738@gitolite.kernel.org>
 
---===============4732356777642659056==
+--===============0560479812347133089==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,41 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-next
-    old: 5c9a27df4eb9a402770d5547af255a765e1c10ac
-    new: cf34b880a66e3581300b997df25a7c12f7cfe7d7
+  - ref: refs/heads/driver-core-testing
+    old: cf34b880a66e3581300b997df25a7c12f7cfe7d7
+    new: 517d4927aabe488144863e72b52bb3e506fecd34
     log: |
-         cf34b880a66e3581300b997df25a7c12f7cfe7d7 powerpc/fsl: fix compiler warning in fsl_wakeup_sys_init()
+         2f9e87f5a2941b259336c7ea6c5a1499ede4554a driver core: Add a comment to set_primary_fwnode() on nullifying
+         517d4927aabe488144863e72b52bb3e506fecd34 driver core: bus: constify class_unregister/destroy()
          
 
---===============4732356777642659056==
+--===============0560479812347133089==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1679984686 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1679985379 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1679984685-978bbb56bf1b2cf5bc74451eb4d437bdcd5733a5
+nonce 1679985378-2438b51b7271a8bdffe3d7d5fdd50c2c22c2deb4
 
-5c9a27df4eb9a402770d5547af255a765e1c10ac cf34b880a66e3581300b997df25a7c12f7cfe7d7 refs/heads/driver-core-next
+cf34b880a66e3581300b997df25a7c12f7cfe7d7 517d4927aabe488144863e72b52bb3e506fecd34 refs/heads/driver-core-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQiiC4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+TgYQAMpB40NyEBfFPNrIL7ln
-M15vszt7vAhB6Mv9TAbEu7M+J/AOCzDMGXcM+jfaXwuTjNt6Cqs5VO2UAKxQjmt9
-T2Vb8e5wuUmj+p1vsZijPQ3qa+TZSJAUXun4sgmTLu8nEmv4lAlT7kUxxXufTkSL
-sd0tcWNWj9Qk3jL1ZYVgMRBXJhAvjA2YGYHbMAebARmvVNs6DKkaGS8EDHUcQerb
-JG+GNnd/bOtyFHV1uctj/rb0aqJonQnytjZOB0gly+sTfa4JXGqQj0Y51SZ2nc8+
-GkDMciWcGDG+Amw95RvKd3zTcoufothB9RLLg+xd04GNi/9VeXXXUGCYKebUoG4U
-uJ9CBEMCF4QhseDG1OTiSTwAv4uINTkRkiLooS7FiD1ar0hLPox6OV30flGnYfqW
-e2mgJzLDo4VR+O4zK1+Wp0P76z5/Ny+A42QME0izLV3b280gCxEOMOKDsnmaLYqA
-FtPilbjkGJlNYfmGjiM3vFRikyo2Dmkk/VqQs1sx8Zux1oCtMd4gLEm0QQedDTXl
-+t9SH8aGEn9zU+tCaYIgoirS8+J2yj3n4Ci9Uyl1t1MLyAm+vhz0E5znYz4f53lm
-K7tVznxsVgoTmKOsfYhddMxJAJuFtemcn1Z350PjFw9AWZarHE9Yu0jhH2ADUWj4
-wDgqFhMEXMhOXMN7gPOWXPwh
-=PGZC
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQiiuMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+6oIP/A9TRhv/VbwQjomoFLhJ
+KeiKwC6SCEywvvWaIP6d98IoWYPf9PetFlA/YbDrU/96jMjHC1ZEga+8tPgTGTYD
+t4fBaZpPH5iUTP5+Zxu+d94LLlAJPDNBwRILUTbeySXCBR7d2rC0SSk59ul3Jkfz
+Q3Kel/DtHJn9Xl0u6v9AcJQveV3e8Czmxlhjh0kq6gh62blu/rhLSOG9DdfhNkfQ
+7qp5WE3SkfJrVtDganMAB4lPdmTQlJPwvtxkuFdEVRAgKHqNz4EVQzvLxvlKeEna
+2oS8A7QzdvmlrG5jMhBNbtivUBsUR/wKMOny9GKCAQUMlgMdOOXQEdQoJzMToNPM
+Ggnjz7m0EJxJnWl+Rf+2FrRe1Tkof3BFt4+RE3kI84IZafgwqJ5wNaxnF+8eYsS7
+w+XJfe8s5xFyspeD/XXSwQWzkDJCJNhtgOW7j1ah+EpQ2r9mu9xBd8k/cZ4mRB7E
+EZGaX9JQZbGKFo8qvNCkL/Ak2TXTodrwcb8WAAM/NKCxRiYjAZnR/b6KtCcUdyco
+NPzlKQq/RMBDxPOrriad3/nPADbNDu8+3Be03H5r1rRei06c56YO2i8QsZIaZkCX
+bzcPRbE+njD0VeVcMEC4TSZFc84z08VxdgONYcNOMK4J9HIvayGO9HIDqXYjdWUt
+8NIUUdTkVGsqzp9e4z4Jlx5E
+=PMJP
 -----END PGP SIGNATURE-----
 
---===============4732356777642659056==--
+--===============0560479812347133089==--
