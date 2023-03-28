@@ -1,25 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wpan/wpan
-Date: Tue, 28 Mar 2023 07:08:01 -0000
-Message-Id: <167998728142.30228.17702856829448673532@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tmlind/linux-omap
+Date: Tue, 28 Mar 2023 07:18:41 -0000
+Message-Id: <167998792118.5727.9853147844781300448@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wpan/wpan
-user: sschmidt
+repo: pub/scm/linux/kernel/git/tmlind/linux-omap
+user: tmlind
 changes:
-  - ref: refs/tags/ieee802154-for-net-2023-03-24
-    old: 0000000000000000000000000000000000000000
-    new: 984cfd55e0c99e80b2e5b1dc6b2bf98608af7ff9
-  - ref: refs/tags/v6.3-rc1
-    old: 0000000000000000000000000000000000000000
-    new: d0656701c5a27a5a8a3a38bc07d18f2e157e963d
-  - ref: refs/tags/v6.3-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 62f7115b1ddd72766123d3cdc6a0c4330da29f3b
-  - ref: refs/tags/v6.3-rc3
-    old: 0000000000000000000000000000000000000000
-    new: b04d78201ce644e5182e95f1d0bd131b35ec8816
+  - ref: refs/heads/omap-for-v6.4/cleanup
+    old: 6eaf5d97bb46a625274c84ef4b320a7242630929
+    new: 19050da1d1057a7bc73fd9039f94b7f63a00e54e
+    log: |
+         977f54705e99b92779f2bfac2597b967772b1b16 ARM: OMAP2+: remove obsolete config OMAP3_SDRC_AC_TIMING
+         31006a885118ef7eb18f865f5ff615fb31868bfe ARM: OMAP2+: fix repeated words in comments
+         89e990559c378e06d2b2ef4f5dd6e963795cb7d8 ARM: OMAP2+: Remove the unneeded result variable
+         19050da1d1057a7bc73fd9039f94b7f63a00e54e ARM: OMAP2+: hwmod: Use kzalloc for allocating only one element
+         
