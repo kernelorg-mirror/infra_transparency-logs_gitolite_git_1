@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Tue, 28 Mar 2023 14:51:51 -0000
-Message-Id: <168001511140.8768.2290358524552056568@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
+Date: Tue, 28 Mar 2023 14:52:16 -0000
+Message-Id: <168001513663.9011.2676369453785838613@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
-user: broonie
+repo: pub/scm/linux/kernel/git/axboe/liburing
+user: axboe
 changes:
-  - ref: refs/heads/for-next
-    old: 0098c52745112c4387942a37559ababeaf072f0c
-    new: 0623ec17c45ed3e96880453f69461d526dc97f41
+  - ref: refs/heads/master
+    old: 2b8b7a93ff85584d37ef7a92f413b9c87f4ff99f
+    new: 9134244a4e16e68cb514ea5192fcd7e9beca96f5
     log: |
-         0623ec17c45ed3e96880453f69461d526dc97f41 spi: xilinx: Use devm_platform_get_and_ioremap_resource()
+         0c020c66a413980e237a22f8620fa8e22150a6b5 man/io_uring_prep_timeout_update: add note that remove doesn't take flags
+         0ba9f4d8d9d768c197ace81665251dbff520f19e man: document that shutdown processing may run asynchronously
+         9134244a4e16e68cb514ea5192fcd7e9beca96f5 Merge branch 'master' of https://github.com/freitmi/liburing
          
