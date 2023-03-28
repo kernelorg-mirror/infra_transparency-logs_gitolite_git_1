@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============6284416279148860627=="
+Content-Type: multipart/mixed; boundary="===============7674112351446120338=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Tue, 28 Mar 2023 16:40:47 -0000
-Message-Id: <168002164782.17170.11517250726530936307@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 28 Mar 2023 16:40:53 -0000
+Message-Id: <168002165367.17275.11071581191385844606@gitolite.kernel.org>
 
---===============6284416279148860627==
+--===============7674112351446120338==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.4
+  - ref: refs/heads/asoc-6.4
     old: 7739b152776655a86568103afded77aa240f3ad4
     new: d6790ae09a56dd8898ff025337c235540334d760
     log: |
@@ -31,28 +31,28 @@ changes:
          d6790ae09a56dd8898ff025337c235540334d760 ASoC: add audio digital codecs for Qualcomm SM8550
          
 
---===============6284416279148860627==
+--===============7674112351446120338==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1680021646 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1680021645-e7745e8a746e368b65a1f289f342451587da76d0
+pusher C3F436CA30F5D8EB 1680021652 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1680021651-b737f4c183014f1b2c4e1b62c81dd370bd9daa85
 
-7739b152776655a86568103afded77aa240f3ad4 d6790ae09a56dd8898ff025337c235540334d760 refs/heads/for-6.4
+7739b152776655a86568103afded77aa240f3ad4 d6790ae09a56dd8898ff025337c235540334d760 refs/heads/asoc-6.4
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmQjGI4ACgkQJNaLcl1U
-h9Bolgf9HQAM6B5S7AdHzrUurXxG2TB5Znso7khKoCoOlnStTiXqryHiuyxFopp8
-fOBhBvMOqJpdrkIYb00VWHn/XKY3Tr8dhj3YW9VWt2BZYyeDALoMih93amlH11IV
-pq9sTpTQI/skqE4LXbP2l6fwVLaCCxHApzS7Cul10222nC5Z/+7vSQfAa4EIBxS9
-cIhxMph39cxvkvJ/xPJfK1FWziWHY6N2nDAT9YEtgqjJcIWsjLvJ3fX98AUcjgvu
-FdBr4mbE4B9XHATi9OztgPXeeDYl+Bbp2lJhzkbF3nlQvWRlsJvRIJBQlIlUFl+0
-74ub+pKF569jWCAaSNPhnyfMM4D3xA==
-=kR75
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmQjGJQACgkQJNaLcl1U
+h9AUBAf/VFk5v5j5hpbtyV0MzaGQri8LtYf/YNK90n6SCB7cOu2amKXAsfRuCZ2D
+BNJR1L1w9/4Ddi44pF8TeklOTtkAEv0wQyawnLmrvyQhE3PfThj8qused3yNND4S
+V3OIrRMwy92P+QE1OHI0SVKDUpfAk6V6cf9rsAZ1nJAo49vhDw4Urcb5JWuIseDq
+M+7dC72sh/zwJFALXCR8Q8Bgy9yYJE3yXy88bPkbF9//P3SxIrWXQXJzOolHP4YK
+B7JyiIvFBDkZ1ONEnPN/wq8bHrYQUv4TgZQXnc09cFiSso1b46LNwzu7N8AwCdaJ
+psn2GXJ7ukXocrVXiimnV3DXTNLKTQ==
+=Vt0p
 -----END PGP SIGNATURE-----
 
---===============6284416279148860627==--
+--===============7674112351446120338==--
