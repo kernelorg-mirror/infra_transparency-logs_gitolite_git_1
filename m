@@ -1,58 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============7188159174067631866=="
+Content-Type: multipart/mixed; boundary="===============4544878910724319163=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Tue, 28 Mar 2023 13:05:34 -0000
-Message-Id: <168000873442.31299.17588681706786604184@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Tue, 28 Mar 2023 13:05:41 -0000
+Message-Id: <168000874135.31451.16762458919227920875@gitolite.kernel.org>
 
---===============7188159174067631866==
+--===============4544878910724319163==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.3
-    old: f6887a71bdd2f0dcba9b8180dd2223cfa8637e85
-    new: 44378cd113e5f15bb0a89f5ac5a0e687b52feb90
+  - ref: refs/heads/for-6.4
+    old: 5936e77c202add2cc20c21cd4486ace1a362bd43
+    new: 0098c52745112c4387942a37559ababeaf072f0c
     log: |
-         44378cd113e5f15bb0a89f5ac5a0e687b52feb90 ASoC: da7213.c: add missing pm_runtime_disable()
-         
-  - ref: refs/heads/asoc-6.4
-    old: ad58151fa04280a938c173bcba05ba42a4073d92
-    new: ffaf886e249ee269f9084c21fbd8617ce9b83817
-    log: |
-         8908c36dabad7dd52872034f9f42c6c077bc7270 ASoC: qcom: audioreach: drop stray 'get' from error message
-         ffaf886e249ee269f9084c21fbd8617ce9b83817 ASoC: soc-core.c: add snd_soc_add_pcm_runtimes()
+         0098c52745112c4387942a37559ababeaf072f0c spi: spi-qcom-qspi: Support pinctrl sleep states
          
 
---===============7188159174067631866==
+--===============4544878910724319163==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1680008732 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1680008732-b04ddb39fc286f706448d50793001895daa2a6e7
+pusher C3F436CA30F5D8EB 1680008740 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1680008739-4888a1e7c92aeecf58e0e7539bd195d6020efa4e
 
-f6887a71bdd2f0dcba9b8180dd2223cfa8637e85 44378cd113e5f15bb0a89f5ac5a0e687b52feb90 refs/heads/asoc-6.3
-ad58151fa04280a938c173bcba05ba42a4073d92 ffaf886e249ee269f9084c21fbd8617ce9b83817 refs/heads/asoc-6.4
+5936e77c202add2cc20c21cd4486ace1a362bd43 0098c52745112c4387942a37559ababeaf072f0c refs/heads/for-6.4
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmQi5hwACgkQJNaLcl1U
-h9D5+Qf7BkGpqdygTK2uCZwIkt/pDl0jdgKni5Y3UtcoLyCO9o0ODAcyqSXspORj
-nuwUX3Wj3aSxFMFydrkKUudKnSPGcbs726qHD92EpshJedcfYPy12UdoGpy8j3WS
-zmbIwtJQco9itW37uS0Zsp+cyNaY12QWQHBzFrVTme6/cmZ+P+kz8fDNDIhVA9Nd
-DB/uykwuBwznaC0MVbQ8zf2fmiVHDTtQG9snEw9a7DYvpZasqRMQYKX/sT01pDto
-PnHNlEzPfbgraa/gD0JlpbsxYCxG9UPUrgF9IcH1tcH1qZz9IViZsF5w2veAAo/7
-3og5uTVd6VwWDKO+27yMJck0kRQRZw==
-=KP96
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmQi5iQACgkQJNaLcl1U
+h9BwCwf/Z/66O9u3JHZkv+r11CKvVVRLXcYKAtxgD+5ceOY+Ayqmv+qkcU4wqBvz
+OzfkB7edPVhY44LGmWStxkr/O5uMmlL/o55jD+B7ub9XC4X6jBfvyLBNUEpvwFFF
+linbiz9yP+mrwo7igA0adLece04nxKwzH/XUka2Mpiw0ckE3MhsS8e3SJShpz4jI
+rn4naNQwuq2HwtZCuIN+Hc0JmPIc8Bw/5jNYE5gulgnCjcZAJiBPDXZmozsLSG/U
+rvWlvRzTgZ4d30puGDI/wmLaOCg5tPSUsfhjC0ZOnfEY5tC62vmsK2ylG/SjsdHs
+z0GuJ2O1TC3Xv4Eh5pyHI9sgl/u86w==
+=73xd
 -----END PGP SIGNATURE-----
 
---===============7188159174067631866==--
+--===============4544878910724319163==--
