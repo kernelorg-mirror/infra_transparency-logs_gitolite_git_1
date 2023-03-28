@@ -1,20 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ras/ras
-Date: Tue, 28 Mar 2023 13:44:21 -0000
-Message-Id: <168001106167.24302.14132447981609520384@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Tue, 28 Mar 2023 13:49:51 -0000
+Message-Id: <168001139168.28967.4906700813433429703@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ras/ras
-user: bp
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/edac-misc
-    old: 5b6cb45072c03f0e0f0eff2dce2fe683cbbb9bf6
-    new: 371b27f2f3b03588bcf472763f541050e18f21a3
-    log: |
-         01db1030f16535fa8f9a6bb1d6af9cda06977adb EDAC/amd81[13]1: Remove trailing newline from MODULE_AUTHOR
-         371b27f2f3b03588bcf472763f541050e18f21a3 EDAC: Sanitize MODULE_AUTHOR strings
-         
+  - ref: refs/heads/filebbSjoh
+    old: 0000000000000000000000000000000000000000
+    new: 0623ec17c45ed3e96880453f69461d526dc97f41
+  - ref: refs/heads/filek7PzIO
+    old: 0000000000000000000000000000000000000000
+    new: 7739b152776655a86568103afded77aa240f3ad4
+  - ref: refs/heads/filesItpG0
+    old: 0000000000000000000000000000000000000000
+    new: 9aa5ef3da6742bb2228308e738c22b49efa6efcc
+  - ref: refs/heads/v2_20230313_krzysztof_kozlowski_asoc_add_audio_digital_codecs_for_qualcomm_sm8550
+    old: 0000000000000000000000000000000000000000
+    new: 6b004b836ced4d9ce655b5f1c810833c1a880369
