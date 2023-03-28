@@ -1,50 +1,28 @@
-Content-Type: multipart/mixed; boundary="===============6572685099013984427=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Tue, 28 Mar 2023 13:05:47 -0000
-Message-Id: <168000874732.31551.11846988108366694360@gitolite.kernel.org>
-
---===============6572685099013984427==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Tue, 28 Mar 2023 13:05:59 -0000
+Message-Id: <168000875963.31690.11699619250115945296@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/spi-6.4
-    old: 5936e77c202add2cc20c21cd4486ace1a362bd43
-    new: 0098c52745112c4387942a37559ababeaf072f0c
+  - ref: refs/heads/for-linus
+    old: f6887a71bdd2f0dcba9b8180dd2223cfa8637e85
+    new: 44378cd113e5f15bb0a89f5ac5a0e687b52feb90
     log: |
-         0098c52745112c4387942a37559ababeaf072f0c spi: spi-qcom-qspi: Support pinctrl sleep states
+         44378cd113e5f15bb0a89f5ac5a0e687b52feb90 ASoC: da7213.c: add missing pm_runtime_disable()
          
-
---===============6572685099013984427==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1680008745 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1680008745-fe9cd9468392b9b2e4d2a445e552335f1251938c
-
-5936e77c202add2cc20c21cd4486ace1a362bd43 0098c52745112c4387942a37559ababeaf072f0c refs/heads/spi-6.4
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmQi5ioACgkQJNaLcl1U
-h9CGBgf7Bn3GOB3xkeF3Gx/qc3X8fYUSdeyFdEIYbs5IaXHvxQTkwx/f4Hq9VTyT
-7IMGUziuOLzkAh/XdShBUa+uQXY2t5AL7TUHnR7bQGKzw3i3Tsu4UvPVyk8gIEBr
-CzpWFuPFqj419iEzMTZVmNlcT5T1GHOnmuKcVzk0PhpO6/hQL0EBlgLQLdkb0pm9
-wySXVYzWAsf+ydjpUvp2GNskaZCCfnZz96LqaIaJJ/B/UciDy8semTG1eiyK8Znh
-qiZJMk+wjQPOUtMsmQDVpYulFUmTEOraUUFPx+15gmosDmy7sLu3lJJgH1+dIOnj
-KZi4owYcSugNibNbQpr01ThcwIXEUQ==
-=MAeO
------END PGP SIGNATURE-----
-
---===============6572685099013984427==--
+  - ref: refs/heads/for-next
+    old: 26a9a89cfd028062b861fdea0b9e59cde5ed5e92
+    new: 041690f204ca1881de761b68986e11d22607aea4
+    log: |
+         8908c36dabad7dd52872034f9f42c6c077bc7270 ASoC: qcom: audioreach: drop stray 'get' from error message
+         ffaf886e249ee269f9084c21fbd8617ce9b83817 ASoC: soc-core.c: add snd_soc_add_pcm_runtimes()
+         44378cd113e5f15bb0a89f5ac5a0e687b52feb90 ASoC: da7213.c: add missing pm_runtime_disable()
+         041690f204ca1881de761b68986e11d22607aea4 Merge remote-tracking branch 'asoc/for-6.4' into asoc-next
+         
