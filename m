@@ -1,44 +1,59 @@
-Content-Type: multipart/mixed; boundary="===============4374285472376281209=="
+Content-Type: multipart/mixed; boundary="===============7421816664374273228=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Tue, 28 Mar 2023 19:00:04 -0000
-Message-Id: <168003000427.17650.9159316104630309563@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Tue, 28 Mar 2023 19:02:51 -0000
+Message-Id: <168003017139.18659.7684787274364243422@gitolite.kernel.org>
 
---===============4374285472376281209==
+--===============7421816664374273228==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/net-queue
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
   - ref: refs/heads/dev-queue
-    old: ae79e5654d6dd0901b5abee1c7bf6d340e700936
-    new: ed84a264013b169c829f8d0fad2c54f1664cc8ba
-    log: revlist-ae79e5654d6d-ed84a264013b.txt
+    old: 689b8f11b30b3d28e43a7baefd6cab9dc706d9b5
+    new: 0b3f3127833ea165753687917c46d7802991146f
+    log: revlist-689b8f11b30b-0b3f3127833e.txt
 
---===============4374285472376281209==
+--===============7421816664374273228==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ae79e5654d6d-ed84a264013b.txt
+Content-Disposition: attachment; filename=revlist-689b8f11b30b-0b3f3127833e.txt
 
-ec2acb9104bc635a18e44a7ccaff5c1f3ee632b0 ixgbe: Panic during XDP_TX with > 64 CPUs
-e7617b5a3154548f87fff34908423a1dc9b4837a ice: fix W=1 headers mismatch
-9839ab49b107de84ed9611bfb138cd8fe8e1c88c ice: Fix ice_cfg_rdma_fltr() to only update relevant fields
-48de57b1105bf1213b78ae6b539206687302b79e ice: add profile conflict check for AVF FDIR
-e16def2fbb698bc5d184616649e34e67ad4aff6b ice: identify aRFS flows using L3/L4 dissector info
-fd2afdde133f93a92dca572a034a4f93c53b0c35 ice: clear number of qs when rings are free
-4d43929b388aae28b0131e1c8ec5dd4bb94a8282 ice: fix invalid check for empty list in ice_sched_assoc_vsi_to_agg()
-c3fc19f3715d7b5f049d546745d16e021aeaa969 ice: fix wrong fallback logic for FDIR
-39920cd07faac8a3946e56c1acb08ab71976b367 i40e: fix registers dump after run ethtool adapter self test
-726c477e13f50608ba592ad13db56d34666062e1 e1000e: Disable TSO on i219-LM card to increase speed
-d4cb6a8692c5e7c6e5808e483a6b50918a2cd38b i40e: fix accessing vsi->active_filters without holding lock
-0216f3485a5d571d923cc483e43213c7736a938e iavf: refactor VLAN filter states
-49887f86c99d602673f5f0772c6adf5cd77e9730 iavf: remove active_cvlans and active_svlans bitmaps
-ed84a264013b169c829f8d0fad2c54f1664cc8ba ice: make writes to /dev/gnssX synchronous
+07f1c15b534f0aaf4ece055f64c0b163e1bd854f ice: remove comment about not supporting driver reinit
+f817d250073ea21acd8b915b0b52c293ef601c84 ixgbe: Panic during XDP_TX with > 64 CPUs
+116250808d5fa309d11398010e281d03ee419938 ice: fix W=1 headers mismatch
+a7dbfef1fe3ad38234a09cb2d8bcadc6788020bf ice: Fix ice_cfg_rdma_fltr() to only update relevant fields
+c090cc3b3a9470cc12d044d6082403ddb8bcfd71 ice: add profile conflict check for AVF FDIR
+89b77fed5ebc96d75bc28e4ecfa2bd5f53d98e67 ice: identify aRFS flows using L3/L4 dissector info
+63596df39541002ac5cbb0a06c9a7fc484c0390d ice: clear number of qs when rings are free
+906be20046a92c6bb1240e367b8d04bb028deba0 ice: fix invalid check for empty list in ice_sched_assoc_vsi_to_agg()
+d72778200fe85aca05a219bf3c7a0aaf8518f4bf i40e: Add support for VF to specify its primary MAC address
+00fd5be5c1c72b4b9bb78d69f36a5407ed6d8194 ice: fix wrong fallback logic for FDIR
+04284eae64ab74f8dbe978ad8f2400762087efa5 i40e: fix registers dump after run ethtool adapter self test
+d88842323581bfd9940ba9bc054942076758a070 ice: Support 5 layer topology
+32c33fb38337fe7a4dc90ae6e99dfa4fc4bbaaf1 ice: Adjust the VSI/Aggregator layers
+f9abda7f191a7ea9f18ca949f0ee8f6e5931ef66 ice: Enable switching default tx scheduler topology
+4e3ce596686bdbf6b7b28d550bf342eab9ad1a8b ice: Add txbalancing devlink param
+59e3784ed78683c14a82bbbf922f37d487412677 ice: Document txbalancing parameter
+d568a58ca53ffaf3d6fe7937902797747b7c7be6 ice: move interrupt related code to separate file
+9f2556ca722156a042cd9bdcfdecff5620abf9f0 ice: use pci_irq_vector helper function
+6fe3abd81a7cb559471f03819975d91092b3f3c6 ice: use preferred MSIX allocation api
+6f03090f18798144d663fed964f925784459dfc6 ice: refactor VF control VSI interrupt handling
+d6a2fec1b23abab5261337bba8cd73b7b94accef ice: remove redundant SRIOV code
+29a26fd0b44d45d3339a699cc4a9657a42bcaa12 ice: add individual interrupt allocation
+77283eb4aebb59977d033190d8e5b24a9482bb4f ice: track interrupt vectors with xarray
+68416374b8117474572fd30da43821b26632079b ice: add dynamic interrupt allocation
+1de539eca12954790f96b77163e5a56f5fb501f2 e1000e: Disable TSO on i219-LM card to increase speed
+fa1dfca74c587657f7bb6511865f90a69b26dacf i40e: fix accessing vsi->active_filters without holding lock
+d6a24400adc6177880d9c57f4f03c5221425ed9d iavf: refactor VLAN filter states
+5716a79efbea51c14ddb6844d6408331710f8ebb iavf: remove active_cvlans and active_svlans bitmaps
+0b3f3127833ea165753687917c46d7802991146f ice: make writes to /dev/gnssX synchronous
 
---===============4374285472376281209==--
+--===============7421816664374273228==--
