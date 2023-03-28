@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-Date: Tue, 28 Mar 2023 20:55:06 -0000
-Message-Id: <168003690633.30478.6515005540262497093@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/will/linux
+Date: Tue, 28 Mar 2023 20:59:47 -0000
+Message-Id: <168003718745.32054.12807439472887869819@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-user: vudentz
+repo: pub/scm/linux/kernel/git/will/linux
+user: will
 changes:
-  - ref: refs/heads/master
-    old: 2731e038a76d53dc29ab0fdfb8e70e22ba2bfa51
-    new: cb3248d369afc05f0e80cf2b9d1b9b9cfdff9bba
+  - ref: refs/heads/for-next/perf
+    old: 7d0bfb7c997753ef88f4c3a29f3409c8cb052ab1
+    new: 4248d043e462bd43dbef60164d35b817d5664eb1
     log: |
-         8052aa4f4e7c6452b30d65e50de61c2d71a44151 bluetooth: Add device 0bda:887b to device tables
-         cb3248d369afc05f0e80cf2b9d1b9b9cfdff9bba bluetooth: Add device 13d3:3571 to device tables
+         4248d043e462bd43dbef60164d35b817d5664eb1 Revert "ARM: mach-virt: Select PMUv3 driver by default"
          
