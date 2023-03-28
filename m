@@ -1,22 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Tue, 28 Mar 2023 15:52:06 -0000
-Message-Id: <168001872635.17523.1057871066796332344@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Tue, 28 Mar 2023 15:52:17 -0000
+Message-Id: <168001873703.17693.17022367258482044263@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/regulator
 user: broonie
 changes:
   - ref: refs/heads/for-next
-    old: 041690f204ca1881de761b68986e11d22607aea4
-    new: 37b3fedfb4caacb976eaaba190f706e69f4c7992
+    old: cac936f8bafd18e5cc5033a491e3939deb32f7d2
+    new: 072fdff9422a462a5cb2e61ea17e4e2e6574b9ae
     log: |
-         d23d50de4ad9a960b752b8b7f4ffce32e05a8971 ASoC: dt-bindings: maxim,max9867: fix example
-         39db65a0a17b54915b269d3685f253a4731f344c ASoC: es8316: Handle optional IRQ assignment
-         7739b152776655a86568103afded77aa240f3ad4 ASoC: wm8903: Remove outdated DMIC comment
-         37b3fedfb4caacb976eaaba190f706e69f4c7992 Merge remote-tracking branch 'asoc/for-6.4' into asoc-next
+         9aa5ef3da6742bb2228308e738c22b49efa6efcc dt-bindings: regulator: pf8x00: Remove restrictions for regulator-name
+         072fdff9422a462a5cb2e61ea17e4e2e6574b9ae Merge remote-tracking branch 'regulator/for-6.4' into regulator-next
          
