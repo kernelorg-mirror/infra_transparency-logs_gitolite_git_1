@@ -1,56 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============4448554279938645091=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Wed, 29 Mar 2023 08:40:51 -0000
-Message-Id: <168007925152.22389.661611398754697985@gitolite.kernel.org>
-
---===============4448554279938645091==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-pinctrl
+Date: Wed, 29 Mar 2023 08:47:35 -0000
+Message-Id: <168007965550.27482.4388507721729604993@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/tty
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/linusw/linux-pinctrl
+user: linusw
 changes:
-  - ref: refs/heads/tty-testing
-    old: f16a70c0472ea4cda3ab53fd3b5d2fa5628fb2c7
-    new: 2b76ffe81e32afd6d318dc4547e2ba8c46207b77
+  - ref: refs/heads/devel
+    old: 94df03a4527611bfa7b461f2ba45370341e763b8
+    new: 2a6ac65c941dc1c6c00d0f765eec898bcb96fc63
     log: |
-         2b76ffe81e32afd6d318dc4547e2ba8c46207b77 linux/vt_buffer.h: allow either builtin or modular for macros
+         c4a48b0df8bfcf45256e8690f959a5af39c20ce7 dt-bindings: pinctrl: qcom: tlmm should use output-disable, not input-enable
+         988a9eab4d9a0eb07339b9d3f2bc9bee66af47b1 dt-bindings: pinctrl: qcom: Add output-enable
+         e49eabe3e13f295e4f46daa897a0575654789a8c pinctrl: qcom: Support OUTPUT_ENABLE; deprecate INPUT_ENABLE
+         2a6ac65c941dc1c6c00d0f765eec898bcb96fc63 Merge branch 'ib-qcom-quad-spi' into devel
          
-
---===============4448554279938645091==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1680079249 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1680079248-3c23048b4b9253ca38170cd0ce789afb58b1aa89
-
-f16a70c0472ea4cda3ab53fd3b5d2fa5628fb2c7 2b76ffe81e32afd6d318dc4547e2ba8c46207b77 refs/heads/tty-testing
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQj+ZEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+nqEP/RkOnQdDYyN6dlOXUr9Y
-pqDpInazVr24iqMWREzcOM2w6S+M3efnjqMFl2w1Ssyv4jwxkDv1DVG7g7ahrBe0
-y4By/l1kAlHPkFLpLOT4P6CXq3b90yrR4LgDLQAGdOGK3zo/K+o3tE1aYnOZ+sSb
-sNqxLvoMWj3Y4as+K/oVxQ1jhglZBj27RUmCqXePa3k4n+4EQXGFJ1YRZl+fXOh3
-wNLoIWfMiuH30MzJql5ApRTesPMMwLGWQZSQz7jx6WpduLgvXt3QLa6Ndn6NBkQq
-B7Qu6KXV5DZnAZOcrLhxarOgCvfeOFn4W422ZZymDV0OQ3/6VePQ9b1GiLsH0Zyi
-EPkG5v4031ztm6JQo97a6NlxjYJT98U5Oig7CGezSDoXRQ3OQCCSvP1wUkZaRSrq
-1kwD+N1+ZdVzTCGP+ll9bMayouXJCacyxD4J8BimLj79Zb2+ILZpJJHvRP7X1bs5
-B/3s+mZnM4iqXfw31NQJcBYyClcqD0hMYGvz8J02bq8Sc6q2ZXoI55P8QQdFFrR6
-sd7QuR1/wxUxOZDtKsRT9C7bEO69i1+LtcXKpRE94RJUw5wFtnYXOgsznZ9+ljU8
-ca+7SIs2iaHBLz7jdWCJqNsjxX2AELflskKkw2pKliFPHznlTnx2rwmLcSJpBi/s
-hS8v98MbbvaTwR4Rbicrulii
-=gKnz
------END PGP SIGNATURE-----
-
---===============4448554279938645091==--
+  - ref: refs/heads/fixes
+    old: b26cd9325be4c1fcd331b77f10acb627c560d4d7
+    new: e4056e38ec87b4c21eb34bb8e38b1b0ca1221744
+    log: |
+         e4056e38ec87b4c21eb34bb8e38b1b0ca1221744 dt-bindings: pinctrl: qcom,sm8550-lpass-lpi: allow input-enabled and bias-bus-hold
+         
+  - ref: refs/heads/ib-qcom-quad-spi
+    old: 0000000000000000000000000000000000000000
+    new: e49eabe3e13f295e4f46daa897a0575654789a8c
