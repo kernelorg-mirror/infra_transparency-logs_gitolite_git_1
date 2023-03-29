@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1434902694433731415=="
+Content-Type: multipart/mixed; boundary="===============1634579361147072747=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Wed, 29 Mar 2023 08:59:00 -0000
-Message-Id: <168008034083.2472.1988038299317082437@gitolite.kernel.org>
+Date: Wed, 29 Mar 2023 09:00:06 -0000
+Message-Id: <168008040634.4468.4629979826148724291@gitolite.kernel.org>
 
---===============1434902694433731415==
+--===============1634579361147072747==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,41 +17,42 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/tty-linus
-    old: e8d018dd0257f744ca50a729e3d042cf2ec9da65
-    new: 7b21f329ae0ab6361c0aebfc094db95821490cd1
+    old: 7b21f329ae0ab6361c0aebfc094db95821490cd1
+    new: 178e00f36f934a88682d96aa046c1f90cb6f83a7
     log: |
-         b43a18647f03c87e77d50d6fe74904b61b96323e tty: serial: sh-sci: Fix transmit end interrupt handler
-         7b21f329ae0ab6361c0aebfc094db95821490cd1 dt-bindings: serial: renesas,scif: Fix 4th IRQ for 4-IRQ SCIFs
+         90b8596ac46043e4a782d9111f5b285251b13756 serial: 8250: Prevent starting up DMA Rx on THRI interrupt
+         9425914f3de6febbd6250395f56c8279676d9c3c tty: serial: fsl_lpuart: avoid checking for transfer complete when UARTCTRL_SBK is asserted in lpuart32_tx_empty
+         178e00f36f934a88682d96aa046c1f90cb6f83a7 tty: serial: fsl_lpuart: fix crash in lpuart_uport_is_active
          
 
---===============1434902694433731415==
+--===============1634579361147072747==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1680080338 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1680080404 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1680080337-31714cc8b1c2a6f95e886afa85d509e105486e02
+nonce 1680080403-c9f41384e441b4e113d8426c08911e07045fcfee
 
-e8d018dd0257f744ca50a729e3d042cf2ec9da65 7b21f329ae0ab6361c0aebfc094db95821490cd1 refs/heads/tty-linus
+7b21f329ae0ab6361c0aebfc094db95821490cd1 178e00f36f934a88682d96aa046c1f90cb6f83a7 refs/heads/tty-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQj/dIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+3mUP/i9/SFy97OuJ6h/+n0Rc
-VlhhwmZvwd68LUxPKPcNJw1maY/l9f+J+O1vc9Meklmn9vdIo8OOheMUdIN60LLp
-dJWbsgPH5h9mAAOQsbeYuBoNTZYtlD8PJU/7QdJUthqWUJJfX/thLq+F/7xaONiq
-pn7sWzNVxdNe8RVp84vvauRbVRfzvpJsJfCqNbgVnhKM0JfX1+99Wa6i4OmlsM7P
-2jfHwmInP6EQR7Lr1fitTaIHByYhMC5Q6ei5Ja0vmqMIBE+JttY5CrEN/HoPwXcl
-opAlnWFqQILVsWAz4ChAC4FfGbvo1KclvIS/GasHKhJGiKsQS4hAZ7njT5ozbDbR
-aw7r6Zu95+uqUMNsQYA9ZvWLexkoFmKNtnqgrtX6x/cre3weYKdlJMVG0FHvZd+j
-H05LybcCbr+9pPj8IUC4rm3MR/uyjB6zWheTIvkTNt0/+GN+T7wOdsdf4J79aJYZ
-YYhEC34FtDDgkqls+NcwgTtVJzHCZOpzfJGZOg2R5VLLpIoPLPYzgX1aiJLOW9wW
-Y4OFNdG4LgDgvOMbqvOh47WF4sci5p+UCUCHyFVg0eJ6RR+67yWV4WcP9gEgMs34
-fr1ouaKg5sD//NzEl5mswiVUhhECfijbVOCNZ9NDGDxqRhojNLdmg3is2S276TkE
-c8acA1okacqANiNCFXNK76Fs
-=5X/y
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQj/hQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+C9QP/24tAVbuJF73gxtMrxOf
+qDKken2vD73AE5a9w2nRlMJ2Ot5sURjLhnGvQdlCIwvxaOjdHIL2K/J1hgJ/VuHO
+b57Ej5cRu5ojsz55uh1OvFyRmzd1/o/GhJdPoJ3qDLXOxhtYY3UEOL/C5H9OD0hH
+cyCWGWRwoSImzo5/8xzqRgK6DTPEkyjFXKnjkb6NsAXlPQGuTsv9ynVxXlVozX24
+MXwCo3c8SRDp0ziOQRJQwDk5ADiRlg6MBJW794+8/inbhKcFXKw0SE10gg1JkBoE
+f50h5mRLiJ1bk7+UlsoEDKKvA6AwkgjzGAKvqCOGR2jPT60qjjCVMFtDvmbwLORy
+PDIsY/08mqzjRX5ZU0sIBhdXehtVFYMDR0WpAyxczU6ab4iybjfyviiAuc10r/mI
+VoPJtZqAGp8qnwLK5d/tsjWxomr+5r3QuNfSB4MWwwEtGbo7LZfSvXN45k+gru7J
+MeCuGB5lnLgv+i3u6h2mJgWaY7aD8u8RwA7WbQOUUr+0MVURKHCEpo2UzkeO56Cc
+zxqQHpmo9yGXBwe0/pcZ8zulf5nHbkS7SybsS3jZXc6nW4ewiwWE/bo6B5H8964p
+k3hL8MmgoVq6VFzkv0VUTzFlmR9pO0FlnOpoAxElWE6TjOVD9RMIx+2zz0KGVRLz
+2gAzmQmkiycgwjjt26neIEXP
+=jySJ
 -----END PGP SIGNATURE-----
 
---===============1434902694433731415==--
+--===============1634579361147072747==--
