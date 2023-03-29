@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
-Date: Wed, 29 Mar 2023 13:01:32 -0000
-Message-Id: <168009489217.18557.15875616900405149840@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Wed, 29 Mar 2023 13:04:26 -0000
+Message-Id: <168009506614.19537.9062797536407809944@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs
-user: xiang
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/dev
-    old: 4f24ebae35ff9739e963eb4a164fe97d00069dad
-    new: 13ca2171581d15a38dd20ee9f73e22391cf930e2
-    log: |
-         13ca2171581d15a38dd20ee9f73e22391cf930e2 erofs: tidy up EROFS on-disk naming
-         
+  - ref: refs/tags/sound-6.3-rc5
+    old: 0000000000000000000000000000000000000000
+    new: 4543ed074f3c6d4ac8b4d872358c25552aea95f4
