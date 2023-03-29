@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6324434927964513993=="
+Content-Type: multipart/mixed; boundary="===============4158005139339326253=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Wed, 29 Mar 2023 06:56:18 -0000
-Message-Id: <168007297847.17494.3594142958035218985@gitolite.kernel.org>
+Date: Wed, 29 Mar 2023 06:57:27 -0000
+Message-Id: <168007304733.17928.8643947244048827984@gitolite.kernel.org>
 
---===============6324434927964513993==
+--===============4158005139339326253==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,41 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-testing
-    old: 0d6a119cecd7ffa059970dbc5b557bfce737945f
-    new: f54134b3fc7954dbaa4da42198286e49bcb48ed7
+    old: f54134b3fc7954dbaa4da42198286e49bcb48ed7
+    new: 130eac4170859fb368681e00d390f20f44bbf27b
     log: |
-         7bf1c56a90decd3bec4d49815289d2e40bb771ae usb: gadget: uvc: Make bmControls attr read/write
-         f54134b3fc7954dbaa4da42198286e49bcb48ed7 usb: gadget: ffs: remove ENTER() macro
+         130eac4170859fb368681e00d390f20f44bbf27b xhci: use pm_ptr() instead of #ifdef for CONFIG_PM conditionals
          
 
---===============6324434927964513993==
+--===============4158005139339326253==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1680072974 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1680073044 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1680072973-d94ab9c94f92bd6e779f868644e7c43b17c65a5c
+nonce 1680073043-87c2b0c6cab706fcf444ff83a522de64a95c1c39
 
-0d6a119cecd7ffa059970dbc5b557bfce737945f f54134b3fc7954dbaa4da42198286e49bcb48ed7 refs/heads/usb-testing
+f54134b3fc7954dbaa4da42198286e49bcb48ed7 130eac4170859fb368681e00d390f20f44bbf27b refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQj4Q4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+iaAQAM3/fRrD0bpNw9Vh6fzR
-ySXGTz+j/sSxs9iH1N2LyNdhJXTfCe6mhFmod6FZrKtkBFlnAjtRPAkZ0BVZnSDA
-m6gt3puWMS/319ehbsfMUZ8/mkssb9VxyrZ+WGK8GrOyrLr1HCoFTag+LOLY/zA5
-0r7hF3W6SkB8RQMwyvn3sbOjJwdVSY2xdVB97UZHQJkzsgy2rza2BUfVUCV6Z7Jw
-hlZy83Vonf26ni3dlndaypbqbpDD93GOIUiKRSwJZRBYn3YTp2qkKbvlY9C7+Pp3
-8XLDCdnSnMvLuKruEkbIkVi9pbtM7pN4Tn4aaCqRh8v2Ubc0GGxztyfhDevMZsWe
-lTuReRwcxVzcqzVLJAXLff8OMOtAh24Np+cawzwF1n13lBlnVvHkJ9ghjJuVufDW
-IkyvjUk33nfX1998qczuMlfN8yJdiBmeakYKc4lVVp9RCOr2C/Rfz/x2ogZtQA5q
-FykhHbMP6NGMKo6DrnXZkHH4pG21sZevL9ZKFgshDTTMGOHw1ZKHwRpNDrN09T3r
-Rb6gZBr7PsFVcWb42BEDW7/1oGcJNci6CdmjKjRxPcKZw8N2Ku2ZDFdInMNyfHKh
-RgHcMIuCDm8toq1MLLdYkGCpbd4zsU/SJi5A3ivroTnugfrXRazh9Gq4lFk3MhRA
-3KKPWbgEvreqDz6XF0YOfuMH
-=c2DS
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQj4VQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+gx4P/itn1VWVlZcJIaKEfZ1T
+DLvmslkYoxcVJ14WoaUhmbWCS5umt0SsIiFxeWfS7SUNd5Bg/FmsHIVKO7eMAtQo
+zUR67Ocb2t8ar+d2TreBtZmr1qKAvFsrBp3JVZvncVoMmO8N9BOkCwaEbyTagD4x
+D2Uw3Mxjr44QkW5oibMBx2M2vQrvcUccVmzkLoTdt+JTMbq7wn1gEHXy3kfrFkfM
+KEy2zU2jhwvjs+qEwnbELdP7lyPVu+NoPeKj93/2Lysl9s/+p2LOXeu1KsyK/Lp6
+Jwbl/EbBLLLiazahS7BT3+giDv5hiifPWcol9qN/sQcHWqPIcKdiSwe3bEnahi3t
+o38YCnTsyDF5/9C+8e8VIym2BTWpIzrNpI833Z2OvDqCQbLn5c9Tmf1N/Hg0RN9b
+4H6G5zcZni/CvYac5VFvkfQ3bMFKeV16wz+atvgLDYMa3QHYHY4NY1pd4q3ef+ii
+4XzbDaiddAKNd4hBQn/jzbDqsiIeURJ/T+3q9oYhDfgExjP+lBfw5G3+wBEPFx67
+DHUADcgG3uYa/cxyCBYh2Y0CQasYeK/QDU1X+LMrup8dh159T4EhPXO7fA2MS/EC
+MAORcpRFCvtZVn5uB7nYW3pTOZIU99j/qp1lDVGWP1KlIcEYpOh1dLYKUyvTKsw7
+ZV0DA4ISQVzJiCnPjHfPbvKC
+=awAV
 -----END PGP SIGNATURE-----
 
---===============6324434927964513993==--
+--===============4158005139339326253==--
