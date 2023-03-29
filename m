@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/westeri/thunderbolt
-Date: Wed, 29 Mar 2023 08:08:03 -0000
-Message-Id: <168007728334.32019.14279359817190310175@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Wed, 29 Mar 2023 08:09:51 -0000
+Message-Id: <168007739114.32655.16242698579764587908@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/westeri/thunderbolt
-user: westeri
+repo: pub/scm/linux/kernel/git/netdev/net
+user: davem
 changes:
-  - ref: refs/heads/next
-    old: ebde5ba27c640e08e92c83fe30be0d9fa224eea9
-    new: 5d88366807fce55ab5bd1bf94055e1d1d0032604
+  - ref: refs/heads/main
+    old: 07b3af42d8d528374d4f42d688bae86eeb30831a
+    new: 5f70bcbca469a087b54ad2d934185ed69a098576
     log: |
-         4e99c98e3071bd7fd4d7f20440f1a5c3bf533149 thunderbolt: Get rid of redundant 'else'
-         5d88366807fce55ab5bd1bf94055e1d1d0032604 thunderbolt: Make use of SI units from units.h
+         5f70bcbca469a087b54ad2d934185ed69a098576 net: wwan: iosm: fixes 7560 modem crash
          
