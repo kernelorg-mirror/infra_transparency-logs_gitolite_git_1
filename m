@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
-Date: Wed, 29 Mar 2023 18:50:21 -0000
-Message-Id: <168011582103.30923.7493063342368022859@gitolite.kernel.org>
+Date: Wed, 29 Mar 2023 19:23:11 -0000
+Message-Id: <168011779168.19272.18184350710792111123@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,10 +12,8 @@ repo: pub/scm/linux/kernel/git/palmer/linux
 user: palmer
 changes:
   - ref: refs/heads/fixes
-    old: e89c2e815e76471cb507bd95728bf26da7976430
-    new: 2c770e801be0084e9beda7553e9a9cfdb2e02280
+    old: 2c770e801be0084e9beda7553e9a9cfdb2e02280
+    new: 4622f159098e098611f393cccf73d52b007e70bc
     log: |
-         1aa866931b8026a0dd636e9ef7b5c5dfb4cc5ce8 RISC-V: add non-alternative fallback for riscv_has_extension_[un]likely()
-         1ee7fc3f4d0a93831a20d5566f203d5ad6d44de8 RISC-V: always select RISCV_ALTERNATIVE for non-xip kernels
-         2c770e801be0084e9beda7553e9a9cfdb2e02280 Merge patch series "RISC-V: Fixes for riscv_has_extension[un]likely()'s alternative dependency"
+         4622f159098e098611f393cccf73d52b007e70bc Merge patch series "RISC-V: Fixes for riscv_has_extension[un]likely()'s alternative dependency"
          
