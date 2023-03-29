@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============8526218954884852457=="
+Content-Type: multipart/mixed; boundary="===============5129985524235434046=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux
-Date: Wed, 29 Mar 2023 16:22:49 -0000
-Message-Id: <168010696984.27334.11239663233621967562@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
+Date: Wed, 29 Mar 2023 16:22:56 -0000
+Message-Id: <168010697692.27460.14010322833282306125@gitolite.kernel.org>
 
---===============8526218954884852457==
+--===============5129985524235434046==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux
+repo: pub/scm/linux/kernel/git/amlogic/linux
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: fcd476ea6a888ef6e6627f4c21a2ea8cca3e9312
     log: revlist-91fe204578ba-fcd476ea6a88.txt
 
---===============8526218954884852457==
+--===============5129985524235434046==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -45,4 +45,4 @@ f9bbf25e7b2b74b52b2f269216a92657774f239c s390/ptrace: fix PTRACE_GET_LAST_BREAK 
 756c1a0593e7d26bd7dc6332e9490607cd106c4f Merge tag 'linux-kselftest-fixes-6.3-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
 fcd476ea6a888ef6e6627f4c21a2ea8cca3e9312 Merge tag 'urgent-rcu.2023.03.28a' of git://git.kernel.org/pub/scm/linux/kernel/git/paulmck/linux-rcu
 
---===============8526218954884852457==--
+--===============5129985524235434046==--
