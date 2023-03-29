@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6241441162342755076=="
+Content-Type: multipart/mixed; boundary="===============0786589849467424984=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Wed, 29 Mar 2023 08:26:14 -0000
-Message-Id: <168007837449.12833.11719973712048077769@gitolite.kernel.org>
+Date: Wed, 29 Mar 2023 08:27:33 -0000
+Message-Id: <168007845350.13315.14701965895240128477@gitolite.kernel.org>
 
---===============6241441162342755076==
+--===============0786589849467424984==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,48 +17,45 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-testing
-    old: 2926c5275028e44f6a2ac31b37d75d6d6e260306
-    new: 79e94aa19736ec8f38ec02880eeec37cc5900bd8
+    old: 79e94aa19736ec8f38ec02880eeec37cc5900bd8
+    new: 0a1af6dfa0772ffedaef422127f1338fa0ddfed3
     log: |
-         580f4ea2cd1666bac76a67167d0901536e93c58c dt-bindings: usb: usbmisc-imx: convert to DT schema
-         4c8375d35f72f2daef1ac0c35831c43a36357d81 dt-bindings: usb: ci-hdrc-usb2: convert to DT schema format
-         64de129680a45a25b822bd0bf4c4aeb62f1b9c2f dt-bindings: usb: usb-nop-xceiv: add power-domains property
-         835765da87d8d07db20218a5676bb5b3d9f2e7c6 arm64: dts: imx8mn: update usb compatible
-         69fef68e4c8f5f80539b6a7d4f76af0de0732da3 arm64: dts: imx8mm: update usb compatible
-         276dd9a66e7157a0f317a7a59bf9fbe8ec0cd3d0 arm64: dts: imx8: update usb compatible
-         2656e9f5119f8dfb9796e4ba11082ffe49d8cecc arm64: dts: imx8dxl: update usb compatible
-         6304876355fb6ac60fef306fff6da71bb08401b7 arm64: dts: imx8dxl: drop #stream-id-cells for usb node
-         79e94aa19736ec8f38ec02880eeec37cc5900bd8 ARM64: dts: imx7ulp: update usb compatible
+         b93c2a68f3d9dc98ec30dcb342ae47c1c8d09d18 usb: gadget: Properly configure the device for remote wakeup
+         047161686b813ae9035a3fb342ba8b6932053492 usb: dwc3: Add remote wakeup handling
+         f0db885fb05d35befa81896db6b19eb3ee9ccdfe usb: gadget: Add function wakeup support
+         92c08a84b53e5dd1f2150e870db2ae9e5a5459e1 usb: dwc3: Add function suspend and function wakeup support
+         481c225c4802be62e52aabddae5338ed1705b232 usb: gadget: Handle function suspend feature selector
+         0a1af6dfa0772ffedaef422127f1338fa0ddfed3 usb: gadget: f_ecm: Add suspend/resume and remote wakeup support
          
 
---===============6241441162342755076==
+--===============0786589849467424984==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1680078370 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1680078449 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1680078369-2c2e58b20b3eb6173ac8010731ce67fe6fc89737
+nonce 1680078448-3dd9cd4b8f84779292ba6c4c5b3b9900ee84f8bf
 
-2926c5275028e44f6a2ac31b37d75d6d6e260306 79e94aa19736ec8f38ec02880eeec37cc5900bd8 refs/heads/usb-testing
+79e94aa19736ec8f38ec02880eeec37cc5900bd8 0a1af6dfa0772ffedaef422127f1338fa0ddfed3 refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQj9iIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+6zYP/1YtlHxLIUJYyxKbtsBH
-sFzcUGUBcEfrr6xlnyWM3XRawQvH8nFMYAKRVliYEFGs0dY2fQ3hPjOm/dtYv3Lt
-jNXidj9HSHCKnsg9s6rnrJJRdk3ZSWafNpyK7qQ3ObjlkVJ6v1oj2NULv8RH9HAz
-0NdEGKtrjQdk8y1JgHoCIoppeNyJAdfwglHIiIjjC8oV6PbtkuJkgdL2guctNqsi
-dqylle68loG5s1rUUeOCNk7b1fKVvdXNs/3+KBHMiY6jWvYOi4Uyq8h5oW6j3SHs
-5vDmwk+nKfxg9dLEcVMqF97AjwAZbbZ1cb6sxeD+Lhw2+NqcyuypbgLZYZYCVGHD
-ejZLf4xNcsBnTQ5r97+RrYipWdXCFl5kvluomBzswiWNMeRT7cNmQjUAsGoGFfbp
-6k1gNLUlFTC8wVgyPqmbEmAFql8CewUi01t6Fzd51XMmONU0olzE50G8aZj7szS4
-kB79nRymIpA9SfCKea84lHgj1K+HaK1DJ4/31BAsTE+IcOwq1izeDk2aCX9ATy79
-TAscHTYbB51y3pGShfulKFARyv0yPvdmnrgbPztzMnBxXEsaR6aKVLANRh+OtxIS
-7XFyEm8iGPy5bnuN5U03k4YTCXJoGMWi+Pr/ghEAN7tO0sE3SuPED6isrel2RUah
-p6Xhn85eQc7CQdmwDeEhjbLn
-=ATbd
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQj9nEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+vPQP/R0KVEG0qLgAr13VHQVs
+BETr+umW3KRumD3LPAiCAphgEPOBmRp6mGaglhmNDQW3s91ez4ax6EmdypTrfUg9
+7fHxbKVHn0PJWVDVYm2TpjE1uHW6bXbo+QheQGjk3CuSX4ZBQ0k+W/nsW0MnAY/a
+QROv+v/FuR+MIJrnfYeXirEgy4705TLVkILi+SnpqcaSJCrB9L+rfSyZO/rOkNtc
+OkGlXjjM+/JAmIzRkgmL8PwnHQUaMQuRD/GHU3JmM43mIgdqo0nsgxNyNrftF2o9
+FzHItFnv3fjJw4aq910Lwk0ElAZPthPcCdmAD8PtkHNJGLLgRm6+OIPMrss0ihJ8
+dY17KLlj9VymMQjIYQTDVsuzAk8h5IjIg8cCPV3mJoAlwaLJCnENwvbVLmE8pZcn
+AtJeqmRSZotFHKDiMaNDvmWDh4QDRuHTfwgl/biPlWVjIVF4BcZzN6OFzDqARO/F
+Vtf7yEIbT8ZhtD/O6tZQ+Ev3IsQm/fxobFcB1k5vKzdj+OsqpViuQ7/rvZfuCb+L
+GvYqKKEjm4+X3Wj+y1AD+1y+8kZlzkdrwjIJxJKgN+3VTOR0I6S0ri5x5qaGNKni
+iaCVtfwjkqJPUnYhTN0qods8gdpFI2vfOv96YNj2BDXG45eroL/AY7NRL1Intvoj
+CYdBS9aRjywhnDrlF2ilAxHX
+=iZwc
 -----END PGP SIGNATURE-----
 
---===============6241441162342755076==--
+--===============0786589849467424984==--
