@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/song/md
-Date: Wed, 29 Mar 2023 18:30:44 -0000
-Message-Id: <168011464488.16846.14063588351466148409@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Wed, 29 Mar 2023 18:37:11 -0000
+Message-Id: <168011503170.20431.8744597248244177997@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/song/md
-user: song
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/heads/md-fixes
-    old: 969eb2a7464c5170bd5e33e55904b15eb59f9896
-    new: 433279beba1d4872da10b7b60a539e0cb828b32b
+  - ref: refs/heads/bleeding-edge
+    old: ce847ea97127581521296c1ebda5ed2c6f586ab1
+    new: 86506ae8e8d0a0cfebd3eabc77feb25abe92d364
     log: |
-         433279beba1d4872da10b7b60a539e0cb828b32b md: fix regression for null-ptr-deference in __md_stop()
+         a57cc2dbb3738930d9cb361b9b473f90c8ede0b8 thermal: intel: int340x: processor_thermal: Fix additional deadlock
+         86506ae8e8d0a0cfebd3eabc77feb25abe92d364 Merge branch 'thermal-intel-fixes' into bleeding-edge
          
