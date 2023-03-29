@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1228550771201525189=="
+Content-Type: multipart/mixed; boundary="===============3173749280195901603=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Wed, 29 Mar 2023 09:02:18 -0000
-Message-Id: <168008053842.5252.17583803586364780814@gitolite.kernel.org>
+Date: Wed, 29 Mar 2023 09:07:35 -0000
+Message-Id: <168008085599.8449.13442676186721416037@gitolite.kernel.org>
 
---===============1228550771201525189==
+--===============3173749280195901603==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,41 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-linus
-    old: 178e00f36f934a88682d96aa046c1f90cb6f83a7
-    new: f92ed0cd9328aed918ebb0ebb64d259eccbcc6e7
+  - ref: refs/heads/tty-testing
+    old: 146a37e05d620cef4ad430e5d1c9c077fe6fa76f
+    new: d30a28a764a8221874ab53b7cbe79f842c30b671
     log: |
-         f92ed0cd9328aed918ebb0ebb64d259eccbcc6e7 tty: serial: sh-sci: Fix Rx on RZ/G2L SCI
+         ec956e2c6f4e65c797a7107b32e22484f687f88d dt-bindings: serial: snps-dw-apb-uart: Switch dma-names order
+         a4b7c361602fefd1120b58b327aef156768e846a ARM: dts: sun6i: a31: Switch dma-names order for snps,dw-apb-uart nodes
+         0b796ffab3b4fe5eea7b2b613a5710c323a24d44 ARM: dts: sun8i: a23/a33: Switch dma-names order for snps,dw-apb-uart nodes
+         646a203a661bdb5777dd57fb1abd76fc6ed01bc1 ARM: dts: sun8i: v3s: Switch dma-names order for snps,dw-apb-uart nodes
+         28cbc3a4473fa607e4501112d700585b1ee4ce75 ARM: dts: sunxi: h3/h5: Switch dma-names order for snps,dw-apb-uart nodes
+         d30a28a764a8221874ab53b7cbe79f842c30b671 riscv: dts: allwinner: d1: Switch dma-names order for snps,dw-apb-uart nodes
          
 
---===============1228550771201525189==
+--===============3173749280195901603==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1680080536 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1680080853 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1680080535-d4236000f88a700883c42f52f58ded3e674e7752
+nonce 1680080852-860758f8b019eb317963b2d9fd982771b2779dbc
 
-178e00f36f934a88682d96aa046c1f90cb6f83a7 f92ed0cd9328aed918ebb0ebb64d259eccbcc6e7 refs/heads/tty-linus
+146a37e05d620cef4ad430e5d1c9c077fe6fa76f d30a28a764a8221874ab53b7cbe79f842c30b671 refs/heads/tty-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQj/pgbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+G74P/ijzpd/+f0mk60fv3aAf
-7VZ7I/sX/rSCVJw8Yy5VnNH19ll+0uSpp9Rz1K7PT1DhbpdFZ53zP1Ok+FXq7a5l
-IUSd2hIGrJaoGdSZnsHAeU17J/hoarClfS9ZMuocDdQSFdxJHVZMjrwyIakHHhnd
-omB+9/xTYvzFdGNdsPNV0vOM2YVneV9N6BWCacs8PrGQNmPMtmFIOZ6ymMxm+7iQ
-2Z5vqXx7Hh/K9V/8KvTwqAstXo05hhHHyHEDeAm3ZSRKGpU/w719LYhOa5V+t7d5
-UQRNOB1hDVGD3Q0s7vufDL3WxfUByxR4ZwumXf1e3m51asRi2SEOUgS4iFUuZ9Ga
-nynEukcYkITQLsDMs3SaEU6cqagK/X4nxaNp7BVvhViHw7+Gzjj62usw1BkdQWtc
-/T3e5kZgrOyZdq92uyLdCaPgNx/wPXn9TsiUGCP6GkFX1S3R1l9gMBBdAd7VAggS
-V/9lPkd660ChxtqOSmJ6jeJ574wLRWtKL52hyFamYSRJl/8v8Fq/iH+v+p/1SyTv
-71Xg/dBrvHCYXMFqUSk5pR6a/TEKr6jngOel+JSiTyjKkIidau482ZMzYelFyYmO
-fcMxmH2tJAmQoXYxG+7gfxmw5GcNK8y6qDGrspuupe7ne1uF5npanddeYZQss9mv
-NVCAdHP3kwxP3eawOUhA61rM
-=UE3P
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQj/9UbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+MaUP/3XIB+iWZLhOZlMWTEHy
+qwi5e3VbQZncI3c+Luyd4soeVqUWnObUdGAXh80m+3iKOuHjYW6MELfZgmnqfa8l
+miCrNh2E3EGj+mKX7mPk+mfBYvhWrD5iotJ3Maw/VWHDO15wpZXT+ewlnK9897+9
+i1cJOPUw2NMjUNwfSAnb/IuWhlLnM05YUZ8YrBOVX5PEr2WrAThOTZDYUtTubZWE
+mcfspHiMw0COYSbh/TSO8OvFAqbpoaWdljMp4RKFrg/5mgbzXmCPEVdoGF9HLCyH
+odi21q1tJWCOEgiYb+qWZx9e3WRYcacAipN0o8MErFNds/6rQMGRp+CYjPy1vJv3
+Y05iQd2y7ZLC5xvg4Xip+FkiwbtEwBoTG8geIwvTk5Z3iuwOH6wMLe6UQQr0zUz9
+ns0u3X5E9Q4i/BxlQjF00xFE7WOkSGuk55vGiA2ltcXhq7iPFTNykkN/OAybHqPp
+fA7wK9WD66mDUC5rakGmFvC8QTmDxIk5FACXvexCy8aMNW0qJ8E5IctyKrLq5wwj
+WV1G9s/m7pTp5KWMq1UsigHWX6HaomFLjZ1OD94jsceAdOfh0sr051TcJL1zkFfk
+7eRpR4kiory47PBonAj1oY9x6h+F6Ezrko1eNCMZH+VCupZCMph6vlfz22yp/Ull
+zTTMu67LqU0w2Wj2fNVuc9Ah
+=BgSE
 -----END PGP SIGNATURE-----
 
---===============1228550771201525189==--
+--===============3173749280195901603==--
