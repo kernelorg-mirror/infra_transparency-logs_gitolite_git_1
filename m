@@ -1,34 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Wed, 29 Mar 2023 16:08:21 -0000
-Message-Id: <168010610141.16805.14896556285007640024@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
+Date: Wed, 29 Mar 2023 16:21:15 -0000
+Message-Id: <168010687545.26777.16469574895159633878@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rafael/linux-pm
-user: rafael
+repo: pub/scm/linux/kernel/git/brgl/linux
+user: brgl
 changes:
-  - ref: refs/heads/bleeding-edge
-    old: b9a097cdd24d0833b1b072d07a6f6e4cee2ae644
-    new: b584ac712c32ffec2caeec461925a9c9f2f30557
+  - ref: refs/heads/gpio/for-next
+    old: 2093bcd872321a5301470978231b23cc121e3476
+    new: 4ea0c97776bf8c63805eb0f8182d9c20072219d9
     log: |
-         4eb7c2f3a3d7cd6c50f391ac555b50c3fc5b3799 thermal: thermal_hwmon: Fix a kernel NULL pointer dereference
-         b584ac712c32ffec2caeec461925a9c9f2f30557 Merge branch 'thermal-next' into bleeding-edge
-         
-  - ref: refs/heads/linux-next
-    old: 2a0bc402682085328f33e102245b49ffc51ca4a4
-    new: b6c50a7858215b7aea9958979c0c15f2f98de0fb
-    log: |
-         4eb7c2f3a3d7cd6c50f391ac555b50c3fc5b3799 thermal: thermal_hwmon: Fix a kernel NULL pointer dereference
-         b6c50a7858215b7aea9958979c0c15f2f98de0fb Merge branch 'thermal-next' into linux-next
-         
-  - ref: refs/heads/testing
-    old: 2a0bc402682085328f33e102245b49ffc51ca4a4
-    new: b6c50a7858215b7aea9958979c0c15f2f98de0fb
-    log: |
-         4eb7c2f3a3d7cd6c50f391ac555b50c3fc5b3799 thermal: thermal_hwmon: Fix a kernel NULL pointer dereference
-         b6c50a7858215b7aea9958979c0c15f2f98de0fb Merge branch 'thermal-next' into linux-next
+         79736429c97f517247645e73e75c956efd09ad03 gpiolib: Replace open coded krealloc()
+         4ea0c97776bf8c63805eb0f8182d9c20072219d9 gpiolib: Check array_info for NULL only once in gpiod_get_array()
          
