@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/remoteproc/linux
-Date: Wed, 29 Mar 2023 23:20:37 -0000
-Message-Id: <168013203759.17979.17809504362311667886@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/perfbook
+Date: Wed, 29 Mar 2023 23:24:26 -0000
+Message-Id: <168013226661.19277.8984578477947141496@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/remoteproc/linux
-user: mjp
+repo: pub/scm/linux/kernel/git/paulmck/perfbook
+user: paulmck
 changes:
-  - ref: refs/heads/for-next
-    old: e19967994d342a5986d950a1bfddf19d7e1191b7
-    new: 51723657be6865c3eb86e4fa7778cfaa4a97bddd
+  - ref: refs/heads/master
+    old: 3f8f4bf82c2cf1947b8dcef6af1daf71ba4feff1
+    new: c72371753921a6f986f6f3385fbf814e1276be3d
     log: |
-         7f402919278aa5b8eec82a7dad2e0cb8e6bdee14 remoteproc: k3-r5: Simplify cluster mode setting usage
-         f3d81b4537a5dab6fb97b7802ce73ff6b75e10b5 dt-bindings: remoteproc: ti: Add new compatible for AM62 SoC family
-         51723657be6865c3eb86e4fa7778cfaa4a97bddd remoteproc: k3-r5: Use separate compatible string for TI AM62x SoC family
+         a7dcda34850ac783b20927699e886f207676ea7a docker: Cope with change in latexpand-v1.3.tar.gz from gitlab
+         c72371753921a6f986f6f3385fbf814e1276be3d CodeSamples/count: Add necessary partial memory barriers
          
