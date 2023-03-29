@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Wed, 29 Mar 2023 15:19:12 -0000
-Message-Id: <168010315283.16595.11270203010537617284@gitolite.kernel.org>
+Date: Wed, 29 Mar 2023 15:19:35 -0000
+Message-Id: <168010317509.16799.18137518264151457480@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,14 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
 user: snitzer
 changes:
-  - ref: refs/heads/dm-6.4-dev4
-    old: 0000000000000000000000000000000000000000
+  - ref: refs/heads/dm-6.4
+    old: aeb52e33e1935f65ece28cfac15f7a95087773d1
     new: e47632a67c6f0110e5c8e5d61c4572a4f62a0ae8
+    log: |
+         d93eba4fc62c50872b62b7b45bb5d42032d7fc1d dm: add dm_num_hash_locks()
+         fc70a630ff9b4ecde7532091149db64bc82b0f19 dm bufio: prepare to intelligently size dm_buffer_cache's buffer_trees
+         8f510c6e2b3a8e3e652c4fe013a4954acd74aba3 dm bufio: intelligently size dm_buffer_cache's buffer_trees
+         bbde6b111dc30794f7b67eff8c6bb184dfc4b805 dm bio prison v1: prepare to intelligently size dm_bio_prison's prison_regions
+         2aa7e5a2a6123ea0f1a8e6a402b6765eab9c79fc dm bio prison v1: intelligently size dm_bio_prison's prison_regions
+         e47632a67c6f0110e5c8e5d61c4572a4f62a0ae8 dm: improve hash_locks sizing and hash function
+         
