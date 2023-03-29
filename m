@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Wed, 29 Mar 2023 23:18:22 -0000
-Message-Id: <168013190201.15518.13606459018740338815@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Wed, 29 Mar 2023 23:18:31 -0000
+Message-Id: <168013191163.15675.10254902805687322230@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 changes:
   - ref: refs/heads/for-next
-    old: 072fdff9422a462a5cb2e61ea17e4e2e6574b9ae
-    new: f5999ac18f6e52bf65c00335bffbcdf70502f0f1
+    old: 0623ec17c45ed3e96880453f69461d526dc97f41
+    new: 526c2966fca3337f01c513b1f0d85c839f8d8175
     log: |
-         e126cdaad15c4206f27b450e5d87391d5066615c regulator: dt-bindings: Add Richtek RT4803
-         6928a3c082f19404bd41bf33beeae112915dc666 regulator: Add Richtek RT4803 boost regulator
-         f5999ac18f6e52bf65c00335bffbcdf70502f0f1 Merge remote-tracking branch 'regulator/for-6.4' into regulator-next
+         526c2966fca3337f01c513b1f0d85c839f8d8175 spi: rockchip-sfc: Use devm_platform_ioremap_resource()
          
