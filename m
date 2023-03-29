@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Wed, 29 Mar 2023 11:35:17 -0000
-Message-Id: <168008971755.24935.9294633031411341901@gitolite.kernel.org>
+Date: Wed, 29 Mar 2023 11:35:34 -0000
+Message-Id: <168008973419.25111.2911792782223894694@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,12 +11,11 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/file8GMJk2
-    old: 0000000000000000000000000000000000000000
-    new: 6b967db82f8d11d4839d880333c812f138cea026
-  - ref: refs/heads/fileCXbEdg
-    old: 0000000000000000000000000000000000000000
-    new: 63e280a549140d0c162e5b958ddf02840bf35f0f
-  - ref: refs/heads/fileleuo0O
-    old: 0000000000000000000000000000000000000000
-    new: 91b5e4fba5a755d4a888ff9a2d8140d33bdec235
+  - ref: refs/heads/regcache-maple
+    old: fa6d06e92bf8a5b25b837def23bf8197c27c4af8
+    new: d0ad050978356732a879889e796425bce31b8cbd
+    log: |
+         fd010509d2639b172e72db8808d99728cfb12e11 regmap: Add basic maple tree register cache
+         fb46346e29260276ecaef880f13cdeb680ffc3b7 regmap: Factor out single value register syncing
+         d0ad050978356732a879889e796425bce31b8cbd regmap: Add maple tree based register cache
+         
