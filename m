@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1634579361147072747=="
+Content-Type: multipart/mixed; boundary="===============1228550771201525189=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Wed, 29 Mar 2023 09:00:06 -0000
-Message-Id: <168008040634.4468.4629979826148724291@gitolite.kernel.org>
+Date: Wed, 29 Mar 2023 09:02:18 -0000
+Message-Id: <168008053842.5252.17583803586364780814@gitolite.kernel.org>
 
---===============1634579361147072747==
+--===============1228550771201525189==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,42 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/tty-linus
-    old: 7b21f329ae0ab6361c0aebfc094db95821490cd1
-    new: 178e00f36f934a88682d96aa046c1f90cb6f83a7
+    old: 178e00f36f934a88682d96aa046c1f90cb6f83a7
+    new: f92ed0cd9328aed918ebb0ebb64d259eccbcc6e7
     log: |
-         90b8596ac46043e4a782d9111f5b285251b13756 serial: 8250: Prevent starting up DMA Rx on THRI interrupt
-         9425914f3de6febbd6250395f56c8279676d9c3c tty: serial: fsl_lpuart: avoid checking for transfer complete when UARTCTRL_SBK is asserted in lpuart32_tx_empty
-         178e00f36f934a88682d96aa046c1f90cb6f83a7 tty: serial: fsl_lpuart: fix crash in lpuart_uport_is_active
+         f92ed0cd9328aed918ebb0ebb64d259eccbcc6e7 tty: serial: sh-sci: Fix Rx on RZ/G2L SCI
          
 
---===============1634579361147072747==
+--===============1228550771201525189==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1680080404 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1680080536 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1680080403-c9f41384e441b4e113d8426c08911e07045fcfee
+nonce 1680080535-d4236000f88a700883c42f52f58ded3e674e7752
 
-7b21f329ae0ab6361c0aebfc094db95821490cd1 178e00f36f934a88682d96aa046c1f90cb6f83a7 refs/heads/tty-linus
+178e00f36f934a88682d96aa046c1f90cb6f83a7 f92ed0cd9328aed918ebb0ebb64d259eccbcc6e7 refs/heads/tty-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQj/hQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+C9QP/24tAVbuJF73gxtMrxOf
-qDKken2vD73AE5a9w2nRlMJ2Ot5sURjLhnGvQdlCIwvxaOjdHIL2K/J1hgJ/VuHO
-b57Ej5cRu5ojsz55uh1OvFyRmzd1/o/GhJdPoJ3qDLXOxhtYY3UEOL/C5H9OD0hH
-cyCWGWRwoSImzo5/8xzqRgK6DTPEkyjFXKnjkb6NsAXlPQGuTsv9ynVxXlVozX24
-MXwCo3c8SRDp0ziOQRJQwDk5ADiRlg6MBJW794+8/inbhKcFXKw0SE10gg1JkBoE
-f50h5mRLiJ1bk7+UlsoEDKKvA6AwkgjzGAKvqCOGR2jPT60qjjCVMFtDvmbwLORy
-PDIsY/08mqzjRX5ZU0sIBhdXehtVFYMDR0WpAyxczU6ab4iybjfyviiAuc10r/mI
-VoPJtZqAGp8qnwLK5d/tsjWxomr+5r3QuNfSB4MWwwEtGbo7LZfSvXN45k+gru7J
-MeCuGB5lnLgv+i3u6h2mJgWaY7aD8u8RwA7WbQOUUr+0MVURKHCEpo2UzkeO56Cc
-zxqQHpmo9yGXBwe0/pcZ8zulf5nHbkS7SybsS3jZXc6nW4ewiwWE/bo6B5H8964p
-k3hL8MmgoVq6VFzkv0VUTzFlmR9pO0FlnOpoAxElWE6TjOVD9RMIx+2zz0KGVRLz
-2gAzmQmkiycgwjjt26neIEXP
-=jySJ
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQj/pgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+G74P/ijzpd/+f0mk60fv3aAf
+7VZ7I/sX/rSCVJw8Yy5VnNH19ll+0uSpp9Rz1K7PT1DhbpdFZ53zP1Ok+FXq7a5l
+IUSd2hIGrJaoGdSZnsHAeU17J/hoarClfS9ZMuocDdQSFdxJHVZMjrwyIakHHhnd
+omB+9/xTYvzFdGNdsPNV0vOM2YVneV9N6BWCacs8PrGQNmPMtmFIOZ6ymMxm+7iQ
+2Z5vqXx7Hh/K9V/8KvTwqAstXo05hhHHyHEDeAm3ZSRKGpU/w719LYhOa5V+t7d5
+UQRNOB1hDVGD3Q0s7vufDL3WxfUByxR4ZwumXf1e3m51asRi2SEOUgS4iFUuZ9Ga
+nynEukcYkITQLsDMs3SaEU6cqagK/X4nxaNp7BVvhViHw7+Gzjj62usw1BkdQWtc
+/T3e5kZgrOyZdq92uyLdCaPgNx/wPXn9TsiUGCP6GkFX1S3R1l9gMBBdAd7VAggS
+V/9lPkd660ChxtqOSmJ6jeJ574wLRWtKL52hyFamYSRJl/8v8Fq/iH+v+p/1SyTv
+71Xg/dBrvHCYXMFqUSk5pR6a/TEKr6jngOel+JSiTyjKkIidau482ZMzYelFyYmO
+fcMxmH2tJAmQoXYxG+7gfxmw5GcNK8y6qDGrspuupe7ne1uF5npanddeYZQss9mv
+NVCAdHP3kwxP3eawOUhA61rM
+=UE3P
 -----END PGP SIGNATURE-----
 
---===============1634579361147072747==--
+--===============1228550771201525189==--
