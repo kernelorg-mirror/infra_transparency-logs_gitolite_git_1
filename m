@@ -1,21 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Thu, 30 Mar 2023 16:53:51 -0000
-Message-Id: <168019523177.2259.3271620032602409324@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/lee/mfd
+Date: Thu, 30 Mar 2023 17:13:46 -0000
+Message-Id: <168019642658.14527.17056958185482161815@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/linux
-user: jlayton
+repo: pub/scm/linux/kernel/git/lee/mfd
+user: lee
 changes:
-  - ref: refs/heads/nfsd-next
-    old: ee8399fcb9f0649d7c9dd1caa6db93c92d59bc18
-    new: 35d0e058589abc99c43f3d326db1708f4f138f6e
+  - ref: refs/heads/for-mfd-next
+    old: 1b3b1d6c27cc0bfda4326de574f9d73f13a26bc4
+    new: 6df50ee51ce1be595237277719485d3f1316443a
     log: |
-         fe3372a3dc123180b435aceced24436f7cfdf5ac sunrpc: only free unix grouplist after RCU settles
-         95a540a4204db67d2245733dd01b0a76fbfd1d99 Merge remote-tracking branch 'mrchuck/nfsd-fixes' into nfsd-next
-         35d0e058589abc99c43f3d326db1708f4f138f6e nfsd: set opdesc to NULL when we get an OP_ILLEGAL
+         a8a194fb82d22d5d55d2067209fe2d6c216e3de1 dt-bindings: mfd: x-powers,axp152: Simplify disallowing properties
+         63aa18121704329f38b0cf95775a769643eb43cf mfd: axp20x: Fix axp288 writable-ranges
+         a5bab315cda8f6d7eba155d738899a9e4fbeb9b0 mfd: dln2: Fix memory leak in dln2_probe()
+         6df50ee51ce1be595237277719485d3f1316443a mfd: intel-lpss: Add Intel Meteor Lake PCH-S LPSS PCI IDs
          
