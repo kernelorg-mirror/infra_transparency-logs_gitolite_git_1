@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5610781510576630976=="
+Content-Type: multipart/mixed; boundary="===============4248736970678156733=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Thu, 30 Mar 2023 15:44:26 -0000
-Message-Id: <168019106698.18581.5728547471471038900@gitolite.kernel.org>
+Date: Thu, 30 Mar 2023 15:45:23 -0000
+Message-Id: <168019112395.20640.4237842483639943833@gitolite.kernel.org>
 
---===============5610781510576630976==
+--===============4248736970678156733==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/main
     old: 86e2eca4ddedc07d639c44c990e1c220cac3741e
     new: da617cd8d90608582eb8d0b58026f31f1a9bfb1d
     log: revlist-86e2eca4dded-da617cd8d906.txt
 
---===============5610781510576630976==
+--===============4248736970678156733==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -109,4 +109,4 @@ c59647c0dc679008886756a888368da1c6d4ccd3 net: add softnet_data.in_net_rx_action
 4ddd6375c3ef6756d492ea5466408cace097121b Merge branch 'net-rps-rfs-improvements'
 da617cd8d90608582eb8d0b58026f31f1a9bfb1d smsc911x: remove superfluous variable init
 
---===============5610781510576630976==--
+--===============4248736970678156733==--
