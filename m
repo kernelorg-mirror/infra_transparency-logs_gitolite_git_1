@@ -1,22 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Thu, 30 Mar 2023 10:49:45 -0000
-Message-Id: <168017338551.12659.8306555574823011418@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============2103317011760361185=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Thu, 30 Mar 2023 10:50:08 -0000
+Message-Id: <168017340861.17789.9523003406179027575@gitolite.kernel.org>
+
+--===============2103317011760361185==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
-user: leon
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/rdma-next
-    old: 583785110fa76d41841f27a1d90220b455f2103c
-    new: 18be5c8a9664398c0e405373984c29ee5fa57d04
+  - ref: refs/heads/master
+    old: 5663694d55db3a39a7aa3839c805ad80811fb232
+    new: c0c234bb7c882338605e1fb11d01f11d4cd6252d
     log: |
-         06fdad542d432d95362c1cbd833bd28dada203e1 RDMA/mlx5: Remove pcie_relaxed_ordering_enabled() check for RO write
-         41bdc1a9e57edc3ab175e5bdeac68a645fac21ea RDMA/mlx5: Check pcie_relaxed_ordering_enabled() in UMR
-         af336ce2c85eeeb570beee472971b26f2991b4e0 net/mlx5: Update relaxed ordering read HCA capabilities
-         18be5c8a9664398c0e405373984c29ee5fa57d04 RDMA/mlx5: Allow relaxed ordering read in VFs and VMs
+         c0c234bb7c882338605e1fb11d01f11d4cd6252d Linux 6.1.22
          
+
+--===============2103317011760361185==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1680173407 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1680173406-4d1b0718481a2457953a89d2d198f663a35ad74d
+
+5663694d55db3a39a7aa3839c805ad80811fb232 c0c234bb7c882338605e1fb11d01f11d4cd6252d refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQlaV8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+4P4P+waFSJXNdjDoa3SAKQfD
+Jznb10rHjCgIPkhsE3HxfEu6mGDVp+dR/c3KBhT2TN2X6naUfqXHRMEOz8xZKaBL
+BCCAfQTOsWKxgUS97ayKeMveYCLhnleiM5KezgBMsZrvAzy8A3vJyxKPwXaxIowM
+NIPDFOf/Cbv3wWAIa0Ailf5vI/v3765ChnU3rkY/4raERZqKiOrKCTI8XcUpwnus
+vP36n9onmW2hblK/u90p0GAs19aC6SxGM1Yfruw3zieyindotwZbAt9KLzrSehSA
+GZK5uqjLk8hvE3rvlNGLNRyvVFxJO2mXBq2C29YjpogMpMwhldYamTvXb1ZaSyhx
+/1qW0bVQxszrL8kOLuqPp9gs6dhPhhWssapNEjSAmmgZ3altNIbuZq2/PWcQcQqk
+zA6NNAmkS6KDLJX3oRojIGGKBae8bAR2+T2oagFYYli70MckiGPL/ZwZgdyQw1mZ
+ILxcs0rdDgWUzcEO6iTG6PXrZnhfxPwrMvLgJiL4nsafqOLAG0LQ3b2EBMxIOJ+2
+yK7w3mlCbJhzYYDC6U9UO8VLLlJ7rRQjqomY1VKuPgJVA40z3Kob/86bJIaLzM2T
+GB0VzPT4tntQnFK5pjxsKlKIySVee8JfkoeTOtSQzDtOGP6gAoyr6gUhunXUdihj
+I+IvEfcfoCTdUYUCHl90vjbx
+=byZa
+-----END PGP SIGNATURE-----
+
+--===============2103317011760361185==--
