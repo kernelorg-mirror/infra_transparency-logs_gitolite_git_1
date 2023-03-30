@@ -1,50 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============9201694174616584766=="
+Content-Type: multipart/mixed; boundary="===============8240919110863316999=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Thu, 30 Mar 2023 19:58:56 -0000
-Message-Id: <168020633652.29377.16309400594352612240@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Thu, 30 Mar 2023 19:59:02 -0000
+Message-Id: <168020634254.29490.16584303075052870166@gitolite.kernel.org>
 
---===============9201694174616584766==
+--===============8240919110863316999==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.4
-    old: 59257015ac8813d2430988aa01c2f4609a60e8e7
-    new: cfad817095e111b640c7d538b9f182d2535ee065
+  - ref: refs/heads/for-6.4
+    old: 526c2966fca3337f01c513b1f0d85c839f8d8175
+    new: e3d53ded577328f2b26d361f2e62fc70e85ab6a3
     log: |
-         cfad817095e111b640c7d538b9f182d2535ee065 ASoC: dt-bindings: qcom,lpass-va-macro: Add missing NPL clock
+         e3d53ded577328f2b26d361f2e62fc70e85ab6a3 spi: s3c64xx: add no_cs description
          
 
---===============9201694174616584766==
+--===============8240919110863316999==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1680206335 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1680206334-6b731c1574f64147ce9671e5f8e813a85b9a531d
+pusher C3F436CA30F5D8EB 1680206341 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1680206340-79ec8eb47493cb165fcd04e38cd94c68c5d26388
 
-59257015ac8813d2430988aa01c2f4609a60e8e7 cfad817095e111b640c7d538b9f182d2535ee065 refs/heads/asoc-6.4
+526c2966fca3337f01c513b1f0d85c839f8d8175 e3d53ded577328f2b26d361f2e62fc70e85ab6a3 refs/heads/for-6.4
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmQl6f8ACgkQJNaLcl1U
-h9DoXQf9FGS+f76uToFSUMfDbM8Y6i0lj+i135jP8bSI03iUQPmg+bxm+Ay9TpIT
-twsDIRkBJd9kJrMjmGmqGGTRyAAJSr0/dgon3Y216O/TAGd7qcPGshL6NZUaNJlN
-5Ku7rJmLld7KbRKqvJn2AHwDAAVs4mSbHXoC49E4mpbfGl7z7a/R+BlPNmXijaKY
-Iwp4y2xyxY891J48t8UlXseCsuQEvoAo4sVDxQ0l3qotVLztk/o5vZTz9j4e88RF
-Omw5fbaMFtS61neGVNyv61vaIVvizlWTVQPeZMzMM6cxilVCeBH/xriaVR/BQDbH
-JmL5kTW9+QL4tbmq8bFJW/Qsth7Pqw==
-=KGkx
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmQl6gUACgkQJNaLcl1U
+h9BLhwf+KEwctaeXjcgZTtBsBFaiAcXK9Zo9fHzXYFoynRmuJZjTTZ61jBF/qxVe
+HQ19SWLgkzq03VIbcb1ZxA5I2M6SRxfjtjNchZCW2qC0FCjkzMtBWCLwlErpFRW2
+cfDeTzoT+SHLEEDaDazzRWAW/xD5Yz2pl6Mh3nUnl01wacWOUtYid67opB/v3C5T
+96gEMWvr6KPHf97r9PLei32eMt1urzxHnRl/v3R7WxlUPtDu2loSP9oxif8eM4Mk
+3fierUx6koM/sPkRLeOOHofC4k4UCY2vSv6bq0R0uAtiLDbd6y/RRTs8esfXzIVi
+OwWrkmeCbbolUhS/LM9ERcf11mWjcg==
+=z0xG
 -----END PGP SIGNATURE-----
 
---===============9201694174616584766==--
+--===============8240919110863316999==--
