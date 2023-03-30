@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 30 Mar 2023 09:27:25 -0000
-Message-Id: <168016844588.7974.545091663656231665@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ogabbay/linux
+Date: Thu, 30 Mar 2023 09:35:12 -0000
+Message-Id: <168016891210.13541.2317377461647862259@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: bp
+repo: pub/scm/linux/kernel/git/ogabbay/linux
+user: ogabbay
 changes:
-  - ref: refs/heads/master
-    old: 4b7aa0abddffed3cdd3f96bbf32ae98cd68f4d30
-    new: 6766c9be0e10a4cdd0d8d4b8937c9024e984b29c
+  - ref: refs/heads/habanalabs-next
+    old: 3b3aca92b5573e213cf12257388e8dccfbe5c62f
+    new: a3f4881e118cdd6544d1aab4162a9712241700d3
     log: |
-         a74fabfbd1b7013045afc8cc541e6cab3360ccb5 x86/ACPI/boot: Use FADT version to check support for online capable
-         fed8d8773b8ea68ad99d9eee8c8343bef9da2c2c x86/acpi/boot: Correct acpi_is_processor_usable() check
-         6766c9be0e10a4cdd0d8d4b8937c9024e984b29c Merge x86/urgent into tip/master
+         a3f4881e118cdd6544d1aab4162a9712241700d3 accel/habanalabs/uapi: new Gaudi2 server type
          
