@@ -1,43 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============2036639827525109795=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/peebz/peebz
-Date: Thu, 30 Mar 2023 20:36:31 -0000
-Message-Id: <168020859151.24780.11272175876836337014@gitolite.kernel.org>
-
---===============2036639827525109795==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
+Date: Thu, 30 Mar 2023 20:42:33 -0000
+Message-Id: <168020895307.28184.29490757855146489@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/peebz/peebz
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/jejb/scsi
+user: jejb
 changes:
-  - ref: refs/heads/master
-    old: 0000000000000000000000000000000000000000
-    new: 5b903b6d1469d211a19966cf893972111fec280d
-
---===============2036639827525109795==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher B6C41CE35664996C! 1680208591 -0400
-pushee gitolite.kernel.org:pub/scm/utils/peebz/peebz
-nonce 1680208591-d0e5f1e09b385de1f272ab3527c9622feca8138c
-
-0000000000000000000000000000000000000000 5b903b6d1469d211a19966cf893972111fec280d refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCZCXyzwAKCRC2xBzjVmSZ
-bDukAQDZyuYGBhft97DbEB04GUoC2IY3l1JaBu+ig1YtT71OsQEA2VdyYgxT//zV
-VNlaOG3RmUpE07vBP96wa++9xX51bQQ=
-=gd5w
------END PGP SIGNATURE-----
-
---===============2036639827525109795==--
+  - ref: refs/tags/scsi-fixes
+    old: 52b06114da2823c7c78d5f29fb1f8bc4abdc1e80
+    new: 878b61e65c59c0f5c5e1cde67dccb6f954aec72e
+    log: |
+         0808ed6ebbc292222ca069d339744870f6d801da scsi: megaraid_sas: Fix fw_crash_buffer_show()
+         2309df27111a51734cb9240b4d3c25f2f3c6ab06 scsi: megaraid_sas: Fix crash after a double completion
+         f0aa59a33d2ac2267d260fe21eaf92500df8e7b4 scsi: core: Improve scsi_vpd_inquiry() checks
+         d684a7a26f7d2c7122a4581ac966ed64e88fb29c scsi: mpt3sas: Don't print sense pool info twice
+         
