@@ -1,26 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Thu, 30 Mar 2023 13:34:13 -0000
-Message-Id: <168018325313.28266.6594706963998962898@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Thu, 30 Mar 2023 13:38:00 -0000
+Message-Id: <168018348061.31002.2795152958179041573@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: pabeni
 changes:
-  - ref: refs/heads/for-next
-    old: 55b0c557bbd339610d1713c26f98423bd96bfe91
-    new: 64014942a03c2f13f835478c3377e751b81baa9e
+  - ref: refs/heads/main
+    old: 4ddd6375c3ef6756d492ea5466408cace097121b
+    new: da617cd8d90608582eb8d0b58026f31f1a9bfb1d
     log: |
-         64014942a03c2f13f835478c3377e751b81baa9e ALSA: ac97: Define dummy functions for snd_ac97_suspend() and resume()
-         
-  - ref: refs/heads/master
-    old: 5d63864b33a4ee6a3e49c7366a07f5e9566ec26a
-    new: a85daec314362e61cc27fd9cac9651266aac2943
-    log: |
-         64014942a03c2f13f835478c3377e751b81baa9e ALSA: ac97: Define dummy functions for snd_ac97_suspend() and resume()
-         a85daec314362e61cc27fd9cac9651266aac2943 Merge branch 'for-next'
+         da617cd8d90608582eb8d0b58026f31f1a9bfb1d smsc911x: remove superfluous variable init
          
