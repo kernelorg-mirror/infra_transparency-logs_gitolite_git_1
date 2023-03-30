@@ -1,28 +1,58 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Thu, 30 Mar 2023 14:50:03 -0000
-Message-Id: <168018780343.16452.15425879920930924611@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============6638471412379807572=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-drivers
+Date: Thu, 30 Mar 2023 14:53:06 -0000
+Message-Id: <168018798601.17887.15610419264377358922@gitolite.kernel.org>
+
+--===============6638471412379807572==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/geert/renesas-drivers
+user: geert
 changes:
-  - ref: refs/heads/iter-ubuf.2
-    old: 4770fc582e03e107b13919dfd662eb7a91fb110c
-    new: 3b2deb0e46da9798b694cf50bd8bea1b26dcc789
+  - ref: refs/heads/renesas-clk
+    old: 72cd8436ece036294322fecf91567fef3ce3e868
+    new: 5e96c2e0e88d3617477313b071cf199bfc29d794
     log: |
-         de4f5fed3f231a8ff4790bf52975f847b95b85ea iov_iter: add iter_iovec() helper
-         23ecdcd0c070e200f52b58e131af2b276b3d800e IB/hfi1: check for user backed iterator, not specific iterator type
-         da67ba07b4aa0a192e2957540eca15f8cb2e1ee7 IB/qib: check for user backed iterator, not specific iterator type
-         e4d3202c18329ba2733c9e04489b6ef05d3bce08 ALSA: pcm: check for user backed iterator, not specific iterator type
-         95e49cf8373a0a4d1ec85f0512080bb4f945df74 iov_iter: add iter_iov_addr() and iter_iov_len() helpers
-         6eb203e1a868187cbc23ae3bad443dc929ca6cca iov_iter: remove iov_iter_iovec()
-         cd0bd57a9de59019fe99e9305a2337a66a4f9d39 iov_iter: set nr_segs = 1 for ITER_UBUF
-         747b1f65d39ae729b7914075899b0c82d7f667db iov_iter: overlay struct iovec and ubuf/len
-         e03ad4ee2783e41afc90cc7848468aef10741c0e iov_iter: convert import_single_range() to ITER_UBUF
-         3b2deb0e46da9798b694cf50bd8bea1b26dcc789 iov_iter: import single vector iovecs as ITER_UBUF
+         5e96c2e0e88d3617477313b071cf199bfc29d794 clk: renesas: r8a77980: Add I2C5 clock
          
+  - ref: refs/heads/renesas-clk-for-v6.4
+    old: 72cd8436ece036294322fecf91567fef3ce3e868
+    new: 5e96c2e0e88d3617477313b071cf199bfc29d794
+    log: |
+         5e96c2e0e88d3617477313b071cf199bfc29d794 clk: renesas: r8a77980: Add I2C5 clock
+         
+  - ref: refs/heads/renesas-pinctrl
+    old: 9d7558ed8372c51cbed011cb1dc3eb1beee212cf
+    new: 45e6cc8ef1cd8576707506a4eeffef858e4a1a83
+    log: revlist-9d7558ed8372-45e6cc8ef1cd.txt
+  - ref: refs/heads/renesas-pinctrl-for-v6.4
+    old: 9d7558ed8372c51cbed011cb1dc3eb1beee212cf
+    new: 45e6cc8ef1cd8576707506a4eeffef858e4a1a83
+    log: revlist-9d7558ed8372-45e6cc8ef1cd.txt
+
+--===============6638471412379807572==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-9d7558ed8372-45e6cc8ef1cd.txt
+
+31f0a454d3dff997eb6570297e0c555d511dbdd6 pinctrl: renesas: r8a77995: Retain POCCTRL0 register across suspend/resume
+a3ca1e18931e60c9f1765f630b677cad8372d1b7 pinctrl: renesas: rcar: Phase out old SH_PFC_PIN_CFG_IO_VOLTAGE flag
+b88e733ac5170efe5f26c62606ff97901dad9248 pinctrl: renesas: Add support for 1.8V/2.5V I/O voltage levels
+a7bebdc5905ed23a3d33ec194a800b04b4161d3c pinctrl: renesas: r8a77970: Add support for AVB power-source
+6cd853a45324e26d71d7848b7f0fe28b5c023375 pinctrl: renesas: r8a77980: Add support for AVB/GE power-sources
+7f25d5b04af2ec0b85a18071ab59f9a6e456dfe0 pinctrl: renesas: r8a77990: Add support for AVB power-source
+d04b961dd44d02c47ca7b716b493478d4a3f3967 pinctrl: renesas: r8a77995: Add support for AVB power-source
+3c2465067f32beacc61ff898af7d8add1390aa95 pinctrl: renesas: r8a779g0: Add support for AVB/TSN power-sources
+0256b6aeee11d705ae248c5a47aa0867976b00a5 pinctrl: renesas: Annotate sentinels in tables
+63a66eb8ff1d620333ce388d121eb101a353b014 pinctrl: renesas: r8a7779: Add bias pinconf support
+890c3a6ff25fbbcedcd9c77fc97ac4d54d7a5a61 pinctrl: renesas: r8a7779: Add PWM pins, groups, and functions
+45e6cc8ef1cd8576707506a4eeffef858e4a1a83 pinctrl: renesas: core: Drop unneeded #ifdef CONFIG_OF
+
+--===============6638471412379807572==--
