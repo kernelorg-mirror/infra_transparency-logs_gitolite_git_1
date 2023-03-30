@@ -1,25 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Thu, 30 Mar 2023 11:50:48 -0000
-Message-Id: <168017704804.22994.10202400171969401094@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Thu, 30 Mar 2023 11:53:29 -0000
+Message-Id: <168017720911.23955.14720039980054101332@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: sashal
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: pabeni
 changes:
-  - ref: refs/heads/master
-    old: ee089a8f3f28e1e22bc581a38c47082e821225f6
-    new: 3f285a0c80552516d4fdc0319ff3ac7f6549772f
+  - ref: refs/heads/main
+    old: 7079d5e61aaa14cd04fd2fe7a8a2b6eca7833fdb
+    new: 4ddd6375c3ef6756d492ea5466408cace097121b
     log: |
-         69a4ff8d9cea6be38a73f8bd112d2b9e6a33a888 Fixes for 6.2
-         3fcf643db31ca1c179b6b3dae26aa88cdcd62c84 Fixes for 6.1
-         45bc6501a394108c9343b0ae9c861c3b1a308aa5 Fixes for 5.15
-         279e4521fa0b2a17128534ce3b1ec3af813f6128 Fixes for 5.10
-         0bf44700b85285883071be8732d315b6e5713ddd Fixes for 5.4
-         62dc839234dbab1f32346e78828edc65be66a4eb Fixes for 4.19
-         3f285a0c80552516d4fdc0319ff3ac7f6549772f Fixes for 4.14
+         8fcb76b934daff12cde76adeab3d502eeb0734b1 net: napi_schedule_rps() cleanup
+         c59647c0dc679008886756a888368da1c6d4ccd3 net: add softnet_data.in_net_rx_action
+         821eba962d95806beb0440742c4062a9da8a386b net: optimize napi_schedule_rps()
+         8b43fd3d1d7d88293eb15e92090826e6b7cc13e4 net: optimize ____napi_schedule() to avoid extra NET_RX_SOFTIRQ
+         4ddd6375c3ef6756d492ea5466408cace097121b Merge branch 'net-rps-rfs-improvements'
          
