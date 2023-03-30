@@ -1,58 +1,98 @@
-Content-Type: multipart/mixed; boundary="===============6638471412379807572=="
+Content-Type: multipart/mixed; boundary="===============6016203948692131367=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-drivers
-Date: Thu, 30 Mar 2023 14:53:06 -0000
-Message-Id: <168018798601.17887.15610419264377358922@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-devel
+Date: Thu, 30 Mar 2023 14:53:13 -0000
+Message-Id: <168018799354.18021.1304317757396244072@gitolite.kernel.org>
 
---===============6638471412379807572==
+--===============6016203948692131367==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/geert/renesas-drivers
+repo: pub/scm/linux/kernel/git/geert/renesas-devel
 user: geert
 changes:
-  - ref: refs/heads/renesas-clk
-    old: 72cd8436ece036294322fecf91567fef3ce3e868
-    new: 5e96c2e0e88d3617477313b071cf199bfc29d794
+  - ref: refs/heads/master
+    old: 7244cafb37b479232e3cc50acf74245ccab3c490
+    new: 0bdeaa9d6106a95da9fe0d7e1fcf8a196e91805c
+    log: revlist-7244cafb37b4-0bdeaa9d6106.txt
+  - ref: refs/heads/next
+    old: 8184e7e383be876199a3be519c067b40143d8ab8
+    new: 2fd5359030e85226294411286259035a9a915ae8
+    log: revlist-8184e7e383be-2fd5359030e8.txt
+  - ref: refs/heads/renesas-drivers-for-v6.4
+    old: 2653d5bf1c9d123c0d8b8c1634cf54dacfcfdb52
+    new: 1e135922f608572f216c959202d0ef303aa2a0c1
     log: |
-         5e96c2e0e88d3617477313b071cf199bfc29d794 clk: renesas: r8a77980: Add I2C5 clock
+         1e135922f608572f216c959202d0ef303aa2a0c1 MAINTAINERS: renesas: Add "renesas," file contents pattern
          
-  - ref: refs/heads/renesas-clk-for-v6.4
-    old: 72cd8436ece036294322fecf91567fef3ce3e868
-    new: 5e96c2e0e88d3617477313b071cf199bfc29d794
+  - ref: refs/heads/renesas-dts-for-v6.4
+    old: 4db0ce4038dec3cf5cb42587a111f4415be381b6
+    new: 3d52973db7457362e54b5b62242671eee80b2c14
     log: |
-         5e96c2e0e88d3617477313b071cf199bfc29d794 clk: renesas: r8a77980: Add I2C5 clock
+         05d11e2f4460752fa5f7ce7657e1b040056c1736 arm64: dts: renesas: rzg2l: Add clock-names and reset-names to DMAC nodes
+         f0545078e13973ca032cf131eb7580d86b78d147 dt-bindings: clock: r8a7779: Add PWM module clock
+         2114ab85f3fc8f833508d763a59459be8f2e9ad2 ARM: dts: r8a7779: Add PWM support
+         cab3511ea7a0b1fc0c664e654f948f7ebe4f9072 ARM: dts: marzen: Add slide switches
+         1b4d507e89136e60c6b1db4543cae5f8e20085ae ARM: dts: marzen: Enable I2C support
+         82e6c62820d758c37eabb9b4bee157068ff6835d ARM: dts: r8a7790: Add TPU device node
+         c21a1fc21727defdba1ad00e75c94bd497681dd3 ARM: dts: r8a7790: Add PWM device nodes
+         52a3554bdf9dbaff42b42f0e0360f456890894d9 arm64: dts: renesas: r9a07g044: Enable SCI0 using DT overlay
+         95c91e77664866517a999abdb246ffb207882c30 arm64: dts: renesas: r9a07g044: Add CSI and CRU nodes
+         3d52973db7457362e54b5b62242671eee80b2c14 arm64: dts: renesas: rzg2l-smarc: Enable CRU, CSI support
          
-  - ref: refs/heads/renesas-pinctrl
-    old: 9d7558ed8372c51cbed011cb1dc3eb1beee212cf
-    new: 45e6cc8ef1cd8576707506a4eeffef858e4a1a83
-    log: revlist-9d7558ed8372-45e6cc8ef1cd.txt
-  - ref: refs/heads/renesas-pinctrl-for-v6.4
-    old: 9d7558ed8372c51cbed011cb1dc3eb1beee212cf
-    new: 45e6cc8ef1cd8576707506a4eeffef858e4a1a83
-    log: revlist-9d7558ed8372-45e6cc8ef1cd.txt
+  - ref: refs/heads/renesas-arm-soc-for-v6.4
+    old: 0000000000000000000000000000000000000000
+    new: 6050cb1c7ad40b5673cd6ee7cfd36db3ca9be5fe
+  - ref: refs/tags/renesas-devel-2023-03-30-v6.3-rc4
+    old: 0000000000000000000000000000000000000000
+    new: 57ec78266a6b853d43b11ce0c63d65faea8dfe52
+  - ref: refs/tags/renesas-next-2023-03-30-v6.3-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 6ee69247b00f3c8ff0b2339d28f28ff347ec9828
 
---===============6638471412379807572==
+--===============6016203948692131367==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9d7558ed8372-45e6cc8ef1cd.txt
+Content-Disposition: attachment; filename=revlist-7244cafb37b4-0bdeaa9d6106.txt
 
-31f0a454d3dff997eb6570297e0c555d511dbdd6 pinctrl: renesas: r8a77995: Retain POCCTRL0 register across suspend/resume
-a3ca1e18931e60c9f1765f630b677cad8372d1b7 pinctrl: renesas: rcar: Phase out old SH_PFC_PIN_CFG_IO_VOLTAGE flag
-b88e733ac5170efe5f26c62606ff97901dad9248 pinctrl: renesas: Add support for 1.8V/2.5V I/O voltage levels
-a7bebdc5905ed23a3d33ec194a800b04b4161d3c pinctrl: renesas: r8a77970: Add support for AVB power-source
-6cd853a45324e26d71d7848b7f0fe28b5c023375 pinctrl: renesas: r8a77980: Add support for AVB/GE power-sources
-7f25d5b04af2ec0b85a18071ab59f9a6e456dfe0 pinctrl: renesas: r8a77990: Add support for AVB power-source
-d04b961dd44d02c47ca7b716b493478d4a3f3967 pinctrl: renesas: r8a77995: Add support for AVB power-source
-3c2465067f32beacc61ff898af7d8add1390aa95 pinctrl: renesas: r8a779g0: Add support for AVB/TSN power-sources
-0256b6aeee11d705ae248c5a47aa0867976b00a5 pinctrl: renesas: Annotate sentinels in tables
-63a66eb8ff1d620333ce388d121eb101a353b014 pinctrl: renesas: r8a7779: Add bias pinconf support
-890c3a6ff25fbbcedcd9c77fc97ac4d54d7a5a61 pinctrl: renesas: r8a7779: Add PWM pins, groups, and functions
-45e6cc8ef1cd8576707506a4eeffef858e4a1a83 pinctrl: renesas: core: Drop unneeded #ifdef CONFIG_OF
+1e135922f608572f216c959202d0ef303aa2a0c1 MAINTAINERS: renesas: Add "renesas," file contents pattern
+05d11e2f4460752fa5f7ce7657e1b040056c1736 arm64: dts: renesas: rzg2l: Add clock-names and reset-names to DMAC nodes
+f0545078e13973ca032cf131eb7580d86b78d147 dt-bindings: clock: r8a7779: Add PWM module clock
+2114ab85f3fc8f833508d763a59459be8f2e9ad2 ARM: dts: r8a7779: Add PWM support
+cab3511ea7a0b1fc0c664e654f948f7ebe4f9072 ARM: dts: marzen: Add slide switches
+1b4d507e89136e60c6b1db4543cae5f8e20085ae ARM: dts: marzen: Enable I2C support
+82e6c62820d758c37eabb9b4bee157068ff6835d ARM: dts: r8a7790: Add TPU device node
+c21a1fc21727defdba1ad00e75c94bd497681dd3 ARM: dts: r8a7790: Add PWM device nodes
+52a3554bdf9dbaff42b42f0e0360f456890894d9 arm64: dts: renesas: r9a07g044: Enable SCI0 using DT overlay
+95c91e77664866517a999abdb246ffb207882c30 arm64: dts: renesas: r9a07g044: Add CSI and CRU nodes
+3d52973db7457362e54b5b62242671eee80b2c14 arm64: dts: renesas: rzg2l-smarc: Enable CRU, CSI support
+6050cb1c7ad40b5673cd6ee7cfd36db3ca9be5fe ARM: sh-mobile: Use of_cpu_node_to_id() to read CPU node 'reg'
+2fd5359030e85226294411286259035a9a915ae8 Merge branches 'renesas-arm-soc-for-v6.4', 'renesas-drivers-for-v6.4' and 'renesas-dts-for-v6.4' into renesas-next
+0bdeaa9d6106a95da9fe0d7e1fcf8a196e91805c Merge branch 'renesas-next' into renesas-devel
 
---===============6638471412379807572==--
+--===============6016203948692131367==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-8184e7e383be-2fd5359030e8.txt
+
+1e135922f608572f216c959202d0ef303aa2a0c1 MAINTAINERS: renesas: Add "renesas," file contents pattern
+05d11e2f4460752fa5f7ce7657e1b040056c1736 arm64: dts: renesas: rzg2l: Add clock-names and reset-names to DMAC nodes
+f0545078e13973ca032cf131eb7580d86b78d147 dt-bindings: clock: r8a7779: Add PWM module clock
+2114ab85f3fc8f833508d763a59459be8f2e9ad2 ARM: dts: r8a7779: Add PWM support
+cab3511ea7a0b1fc0c664e654f948f7ebe4f9072 ARM: dts: marzen: Add slide switches
+1b4d507e89136e60c6b1db4543cae5f8e20085ae ARM: dts: marzen: Enable I2C support
+82e6c62820d758c37eabb9b4bee157068ff6835d ARM: dts: r8a7790: Add TPU device node
+c21a1fc21727defdba1ad00e75c94bd497681dd3 ARM: dts: r8a7790: Add PWM device nodes
+52a3554bdf9dbaff42b42f0e0360f456890894d9 arm64: dts: renesas: r9a07g044: Enable SCI0 using DT overlay
+95c91e77664866517a999abdb246ffb207882c30 arm64: dts: renesas: r9a07g044: Add CSI and CRU nodes
+3d52973db7457362e54b5b62242671eee80b2c14 arm64: dts: renesas: rzg2l-smarc: Enable CRU, CSI support
+6050cb1c7ad40b5673cd6ee7cfd36db3ca9be5fe ARM: sh-mobile: Use of_cpu_node_to_id() to read CPU node 'reg'
+2fd5359030e85226294411286259035a9a915ae8 Merge branches 'renesas-arm-soc-for-v6.4', 'renesas-drivers-for-v6.4' and 'renesas-dts-for-v6.4' into renesas-next
+
+--===============6016203948692131367==--
