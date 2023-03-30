@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Thu, 30 Mar 2023 16:00:25 -0000
-Message-Id: <168019202552.31699.13440460372390542835@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
+Date: Thu, 30 Mar 2023 16:00:40 -0000
+Message-Id: <168019204037.31867.9006522770246105296@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/next-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/hid/hid
+user: bentiss
 changes:
-  - ref: refs/heads/dev-queue
-    old: 27ebc2c57c3f8f88bba2e7a260a305aece68e429
-    new: 1e93bc6dcc393cfa07ac963885030ad212abb76e
+  - ref: refs/heads/for-next
+    old: 6e661c67d392de7630aafdec486e7e0221024f53
+    new: dd85f024ebe004c6359b02c768485f456559c05c
     log: |
-         41b25678cdba2ad5a6138c9a9a6297b10017a6b9 ice: Reset FDIR counter in FDIR init stage
-         8e0f2379f9d5de30521ea1b46aebbb8f586e3453 Documentation/eth/intel: Update address for driver support
-         1e93bc6dcc393cfa07ac963885030ad212abb76e Documentation/eth/intel: Remove references to SourceForge
+         a0f5276716c80415230b47e321e1c46357d70993 HID: Recognize "Digitizer" as a valid input application
+         dd85f024ebe004c6359b02c768485f456559c05c Merge branch 'for-6.4/core' into for-next
          
