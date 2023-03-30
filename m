@@ -1,22 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Thu, 30 Mar 2023 00:24:27 -0000
-Message-Id: <168013586740.26883.14395757247881040966@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Thu, 30 Mar 2023 00:26:46 -0000
+Message-Id: <168013600662.29164.13009485317275264903@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/for-next
-    old: 8b52cc2a2fef541d605debb7efc7dc1bae7b2876
-    new: 8a9abe0293294fee279750058a509bbfab0c57a3
-    log: |
-         d6e6286a12e7b8a4ddc66237c4ccf6f531ef1c82 libbpf: disassociate section handler on explicit bpf_program__set_type() call
-         b3c63d7ad81ad6f43921d59af18fc25c64327a74 veristat: add -d debug mode option to see debug libbpf log
-         fa7cc90620870e4444bb5184c08148495b1627c6 veristat: guess and substitue underlying program type for freplace (EXT) progs
-         8a9abe0293294fee279750058a509bbfab0c57a3 Merge branch 'veristat: add better support of freplace programs'
-         
+  - ref: refs/heads/file07osyh
+    old: 9ec1a267eda52d0bd9be5dc1409f98089f7c482e
+    new: 0000000000000000000000000000000000000000
