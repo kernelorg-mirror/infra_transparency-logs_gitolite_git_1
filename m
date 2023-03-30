@@ -1,22 +1,46 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Thu, 30 Mar 2023 20:42:33 -0000
-Message-Id: <168020895307.28184.29490757855146489@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============3963681722848825380=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/utils/peebz/peebz
+Date: Thu, 30 Mar 2023 20:42:49 -0000
+Message-Id: <168020896973.28333.905546626632283167@gitolite.kernel.org>
+
+--===============3963681722848825380==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jejb/scsi
-user: jejb
+repo: pub/scm/utils/peebz/peebz
+user: mricon
+git_push_cert_status: G
 changes:
-  - ref: refs/tags/scsi-fixes
-    old: 52b06114da2823c7c78d5f29fb1f8bc4abdc1e80
-    new: 878b61e65c59c0f5c5e1cde67dccb6f954aec72e
+  - ref: refs/heads/master
+    old: 5b903b6d1469d211a19966cf893972111fec280d
+    new: 25d5f90fb7fb9bbc20ebd3d563fb57c49219e1e0
     log: |
-         0808ed6ebbc292222ca069d339744870f6d801da scsi: megaraid_sas: Fix fw_crash_buffer_show()
-         2309df27111a51734cb9240b4d3c25f2f3c6ab06 scsi: megaraid_sas: Fix crash after a double completion
-         f0aa59a33d2ac2267d260fe21eaf92500df8e7b4 scsi: core: Improve scsi_vpd_inquiry() checks
-         d684a7a26f7d2c7122a4581ac966ed64e88fb29c scsi: mpt3sas: Don't print sense pool info twice
+         25d5f90fb7fb9bbc20ebd3d563fb57c49219e1e0 Add COPYING and README.md
          
+
+--===============3963681722848825380==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher B6C41CE35664996C! 1680208969 -0400
+pushee gitolite.kernel.org:pub/scm/utils/peebz/peebz
+nonce 1680208968-628462e67714570a80329a6a8d3b927a74f4cf6b
+
+5b903b6d1469d211a19966cf893972111fec280d 25d5f90fb7fb9bbc20ebd3d563fb57c49219e1e0 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iHQEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCZCX0SQAKCRC2xBzjVmSZ
+bMS0AP0XlUpPySPNXUlkY4wCS+xUtO9UOz7fNPclfglJjiWi4AD3T5OUegVQQTEK
+sFXm0d5bVHGsnQx6pLVCMv0wk97hCA==
+=9XKa
+-----END PGP SIGNATURE-----
+
+--===============3963681722848825380==--
