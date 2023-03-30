@@ -1,43 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============7826805700682298959=="
+Content-Type: multipart/mixed; boundary="===============4166045445074895069=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Thu, 30 Mar 2023 03:48:14 -0000
-Message-Id: <168014809451.6037.1503070942719670969@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Thu, 30 Mar 2023 03:48:26 -0000
+Message-Id: <168014810697.6220.16037190846839052489@gitolite.kernel.org>
 
---===============7826805700682298959==
+--===============4166045445074895069==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
   - ref: refs/heads/master
     old: 198925fae644b0099b66fac1d972721e6e563b17
     new: a6d9e3034536ba4b68ac34490c02267e6eec9c05
     log: revlist-198925fae644-a6d9e3034536.txt
-  - ref: refs/heads/pending-fixes
-    old: a0c0d56fba87d456105a36590837689ce63bc1a2
-    new: 7827aece40de38935eccec13028429f78aa6b170
-    log: revlist-a0c0d56fba87-7827aece40de.txt
-  - ref: refs/heads/stable
-    old: fcd476ea6a888ef6e6627f4c21a2ea8cca3e9312
-    new: ffe78bbd512166e0ef1cc4858010b128c510ed7d
-    log: |
-         0b04d4c0542e8573a837b1d81b94209e48723b25 f2fs: Fix f2fs_truncate_partial_nodes ftrace event
-         1d3b7a788ca7435156809a6bd5b20c95b2370d45 xtensa: fix KASAN report for show_stack
-         e313de5b5b04176f28384b45ebebd552c0c7dae3 MAINTAINERS: xtensa: drop linux-xtensa@linux-xtensa.org mailing list
-         3577a4d37f9e5caeb817e221482385151795ec6a Merge tag 'f2fs-fix-6.3-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/jaegeuk/f2fs
-         ffe78bbd512166e0ef1cc4858010b128c510ed7d Merge tag 'xtensa-20230327' of https://github.com/jcmvbkbc/linux-xtensa
-         
   - ref: refs/tags/next-20230330
     old: 0000000000000000000000000000000000000000
     new: 8891b2ec319defeac11fee3047d654144bcbf594
 
---===============7826805700682298959==
+--===============4166045445074895069==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -978,100 +964,4 @@ af24219411f11a2c239e2ca883e56ea84eff1f0d Merge branch 'bitmap-for-next' of https
 36a49efa10f631bf961c0507db203bef9996f5aa next-20230329/iommufd
 a6d9e3034536ba4b68ac34490c02267e6eec9c05 Add linux-next specific files for 20230330
 
---===============7826805700682298959==
-Content-Type: text/plain; charset="utf-8"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-a0c0d56fba87-7827aece40de.txt
-
-0b04d4c0542e8573a837b1d81b94209e48723b25 f2fs: Fix f2fs_truncate_partial_nodes ftrace event
-1d3b7a788ca7435156809a6bd5b20c95b2370d45 xtensa: fix KASAN report for show_stack
-58e84f6b3e84e46524b7e5a916b53c1ad798bc8f RDMA/cma: Allow UD qp_type to join multicast only
-e313de5b5b04176f28384b45ebebd552c0c7dae3 MAINTAINERS: xtensa: drop linux-xtensa@linux-xtensa.org mailing list
-1a4b52ce8548355f09170faa67070bc2b8e3ba53 .mailmap: add entry for Leonard Göhrs
-35260cf545226c3b21d52a9d21083f7ff999969c Kconfig.debug: fix SCHED_DEBUG dependency
-f478b9987cc8236b412d9f2afc958d3e15a7cf85 lib/Kconfig.debug: correct help info of LOCKDEP_STACK_TRACE_HASH_BITS
-13dd4e04625f600e5affb1b3f0b6c35268ab839b fsdax: unshare: zero destination if srcmap is HOLE or UNWRITTEN
-e900ba10d15041a6236cc75778cc6e06c3590a58 fsdax: dedupe should compare the min of two iters' length
-3ee2d7471fa4963a2ced0a84f0653ce88b43c5b2 mm: kfence: fix PG_slab and memcg_data clearing
-1f2803b2660f4b04d48d065072c0ae0c9ca255fd mm: kfence: fix handling discontiguous page
-bdd034de3a28ffdacab528aebad17f1df968180c mailmap: add an entry for Leonard Crestez
-2280d425ba3599bdd85c41bd0ec8ba568f00c032 btrfs: ignore fiemap path cache when there are multiple paths for a node
-5a5bbe1ef0cecae35502e8476fdb26179a98962a kernel/sys.c: fix and improve control flow in __sys_setres[ug]id()
-e7b25824ae2a3966c8dd32011f03d1cd4726ef7d maple_tree: be more cautious about dead nodes
-2218a475c73b8fceb1cbbfb87356f63719268013 maple_tree: detect dead nodes in mas_start()
-977c32a3a42e2c0dc1710c2a95e1f72da8a290ac maple_tree: fix freeing of nodes in rcu mode
-1571418b5bd3e5d803d6beaec8448f6edca6953c maple_tree: remove extra smp_wmb() from mas_dead_leaves()
-10832508c732ff49796b6b4178e32e8a82411ac1 maple_tree: fix write memory barrier of nodes once dead for RCU mode
-8f8dd3a31578baec883587c2d83d14e94d82f26f maple_tree: add smp_rmb() to dead node detection
-9d14fb59e25fb3b676e5687b71d92f3bc645518a maple_tree: add RCU lock checking to rcu callback functions
-cb768880dbbd8cb7f3febf12bef45c3cb768bc45 mm: enable maple tree RCU mode by default
-d2ff6ff6bf0e18e6d779e6d5561cdf664dce63c2 mm: enable maple tree RCU mode by default.
-c142ba909af981648fea25efed9afe5810ddc5a2 mm/hugetlb: fix uffd wr-protection for CoW optimization path
-fb008b67fd611717b74adf2b096a54e90bf275ec mm-hugetlb-fix-uffd-wr-protection-for-cow-optimization-path-v2
-0875963b7e4aac62c37bdb4e6a5b5f4eb6160b19 mm-hugetlb-fix-uffd-wr-protection-for-cow-optimization-path-v3
-014a778a41cdcf004115257762012178a86e3ba7 fsdax: force clear dirty mark if CoW
-f0b955a932f5992a8186864cebe072e1defb788f zsmalloc: document new fullness grouping
-3e87a44d9a029a5af7a5fbb0c46f9fa926d634e5 zsmalloc: document freeable stats
-77a0fc2ed084828d65cd62f22b88248d23a90e03 nilfs2: fix potential UAF of struct nilfs_sc_info in nilfs_segctor_thread()
-aaacd7170ef0e6f0c698d9d05fc15143b134dc92 nilfs2: initialize "struct nilfs_binfo_dat"->bi_pad field
-dedec589ecd5ce8daf84105eedbc7681572cbd58 mm: take a page reference when removing device exclusive entries
-07b3af42d8d528374d4f42d688bae86eeb30831a net: ethernet: mtk_eth_soc: fix tx throughput regression with direct 1G links
-f33fc1576757741479452255132d6e3aaf558ffe ALSA: ymfpci: Create card with device-managed snd_devm_card_new()
-6be2e7522eb529b41c16d459f33bbdbcddbf5c15 ALSA: ymfpci: Fix BUG_ON in probe function
-5f70bcbca469a087b54ad2d934185ed69a098576 net: wwan: iosm: fixes 7560 modem crash
-4c7f9d2e413dc06a157c4e5dccde84aaf4655eb3 usb: xhci: tegra: fix sleep in atomic call
-b43a18647f03c87e77d50d6fe74904b61b96323e tty: serial: sh-sci: Fix transmit end interrupt handler
-7b21f329ae0ab6361c0aebfc094db95821490cd1 dt-bindings: serial: renesas,scif: Fix 4th IRQ for 4-IRQ SCIFs
-90b8596ac46043e4a782d9111f5b285251b13756 serial: 8250: Prevent starting up DMA Rx on THRI interrupt
-9425914f3de6febbd6250395f56c8279676d9c3c tty: serial: fsl_lpuart: avoid checking for transfer complete when UARTCTRL_SBK is asserted in lpuart32_tx_empty
-178e00f36f934a88682d96aa046c1f90cb6f83a7 tty: serial: fsl_lpuart: fix crash in lpuart_uport_is_active
-f92ed0cd9328aed918ebb0ebb64d259eccbcc6e7 tty: serial: sh-sci: Fix Rx on RZ/G2L SCI
-7708a3858e69db91a8b69487994f33b96d20192a USB: serial: option: add Quectel RM500U-CN modem
-30fb97ba4a8e082ba0a5432479d6995472edbd7b drm/nouveau/kms: Fix backlight registration
-5c2712387d4850e0b64121d5fd3e6c4e84ea3266 cacheinfo: Fix LLC is not exported through sysfs
-eca9f6e6f83b6725b84e1c76fdde19b003cff0eb powerpc/pseries/vas: Ignore VAS update for DLPAR if copy/paste is not enabled
-52aad39385e1bfdb34a1b405f699a8ef302c58b0 ALSA: hda/realtek: Add quirk for Lenovo ZhaoYang CF4620Z
-4453545b5b4c3eff941f69a5530f916d899db025 drm: buddy_allocator: Fix buddy allocator init on 32-bit systems
-25bbe844ef5c4fb4d7d8dcaa0080f922b7cd3a16 drm: test: Fix 32-bit issue in drm_buddy_test
-1bba5918c553db9a6afd16db590f343f3fd87b7e Merge branch 'misc-6.3' into next-fixes
-3577a4d37f9e5caeb817e221482385151795ec6a Merge tag 'f2fs-fix-6.3-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/jaegeuk/f2fs
-ffe78bbd512166e0ef1cc4858010b128c510ed7d Merge tag 'xtensa-20230327' of https://github.com/jcmvbkbc/linux-xtensa
-45ea8707621333b62cd4267bc32a541683f21a0f Merge branch 'mm-hotfixes-unstable' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
-c09cd762ff50edbdc4fde0ba86f89e1ec5b42255 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild.git
-1185172452ad49b084c0e1093dafb22fe8b514d4 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux.git
-89202051d4d2fcf0991613c289523e770b815311 Merge branch 'master' of git://git.kernel.org/pub/scm/linux/kernel/git/davem/sparc.git
-d31f988b6ac9b333328f36962077e8a1ac7c4533 Merge branch 'main' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net.git
-2a67f3e32d42c8f027114c73d56bf9e8e797d316 Merge branch 'master' of git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf.git
-c9ee4351c2c1fe28e2907b6026d34a111fd6ecaf Merge branch 'for-rc' of git://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma.git
-022caa2307e658fb59fc580e182a6011b76b4128 Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound.git
-f2638371d1c2f11a61cd5421367af4c46bdfe018 Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-393bef6337168bfacdb0075bff6c46ac931369be Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
-005371eb1f3a0e3765b165b073ff7cf56277a0d4 Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/pci/pci.git
-a8b911d1741657a6ef0943116205c30bdfba20e8 Merge branch 'driver-core-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/driver-core.git
-1b03af3ea0f34cbf12d62e10b258bb5c20467e19 Merge branch 'tty-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/tty.git
-dfa24297f4ff60306140641ee1ba44105e72e612 Merge branch 'usb-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb.git
-bc5a49aa6aa8cd64a7522323401fc258da9ebd08 Merge branch 'usb-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/johan/usb-serial.git
-b30fed356151492a4664aca71a70c17ddf858df0 Merge branch 'fixes-togreg' of git://git.kernel.org/pub/scm/linux/kernel/git/jic23/iio.git
-e00b7ceeec9b7ed6ff890cc59b29f4de0bbf14e0 Merge branch 'counter-current' of git://git.kernel.org/pub/scm/linux/kernel/git/wbg/counter.git
-0625a20a59bc8225695bcc193fd8c70746ecedd5 Merge branch 'char-misc-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc.git
-6160d9223f063a0b52d0cbc7acfe571674c81436 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vkoul/soundwire.git
-9ca3f870546a7129d50190ea48c3c6c76ee08da8 Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input.git
-526ca486ca1e11ea846c991a63ccbda63b7f6b58 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vkoul/dmaengine.git
-21194d8f2cef8e87e73a1a07e12d29e8c22feefd Merge branch 'fixes' of git://linuxtv.org/mchehab/media-next.git
-479742b89bac01b8e5e0c56bc16fd973795e2001 Merge branch 'mips-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/mips/linux.git
-706bf02fa488bedf35934e03c2ce91d23d2a90b0 Merge branch 'master' of git://git.kernel.org/pub/scm/linux/kernel/git/kvms390/linux.git
-a83f85c8fc0b0e3cd51f76b79f512c32640df2dd Merge branch 'next-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux.git
-3f1a1ad578d7c7d899a3a2d2abd1d15742d2c60e Merge branch 'for-linus' of git://git.infradead.org/users/hch/dma-mapping.git
-da09e60211bf942f1ab0f7c2517d53e7b9bd3b2d Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
-e283c296a59f516a9710cf672b3ebc26d7c82830 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/mkp/scsi.git
-2926c0c70ea19230d1e20cf1bc6499af1ccfd279 Merge branch 'for-linux-next-fixes' of git://anongit.freedesktop.org/drm-intel
-1893159ad822da85dda827ea4b17adebf3b7e441 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/mmc.git
-b8ac80b9087cbee3c37ab6ff679d1693656b649f Merge branch 'hyperv-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/hyperv/linux.git
-058702861a70119767a4ef82991d0bdc7c2cae3b Merge branch 'riscv-dt-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/conor/linux.git
-1ec94aa38869f6d816845fa2a3e89f5beed7d974 Merge branch 'gpio/for-current' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux.git
-f8589fec2e4c987acacc48c2dd1f7bf864a8d16a Merge branch 'nfsd-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
-38076056229a2f7608a30a3c35d5a82bacba1ca0 Merge branch 'fixes/next' of git://git.kernel.org/pub/scm/linux/kernel/git/ericvh/v9fs.git
-7827aece40de38935eccec13028429f78aa6b170 Merge branch 'for-linux-next-fixes' of git://anongit.freedesktop.org/drm/drm-misc
-
---===============7826805700682298959==--
+--===============4166045445074895069==--
