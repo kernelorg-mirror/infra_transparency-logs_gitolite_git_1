@@ -1,43 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============0425667096132504672=="
+Content-Type: multipart/mixed; boundary="===============6721093874432668602=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Thu, 30 Mar 2023 11:20:35 -0000
-Message-Id: <168017523597.2656.11532159134225002342@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Thu, 30 Mar 2023 11:24:02 -0000
+Message-Id: <168017544200.3788.7507644206379093477@gitolite.kernel.org>
 
---===============0425667096132504672==
+--===============6721093874432668602==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
-user: acme
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/perf/core
-    old: d2278cf6dd096dd58f86abf04c33ab6fe8c2881d
-    new: 457d5612348dff393f34654c649999201d896788
-    log: revlist-d2278cf6dd09-457d5612348d.txt
+  - ref: refs/heads/class_cleanup
+    old: 585a0c4d7e93e9ea9dbf31b58138bfe0e2f9d3b6
+    new: b21f747c419ca7d3910446cf21f23fd4cdfad597
+    log: |
+         b21f747c419ca7d3910446cf21f23fd4cdfad597 driver core: convert class_create() to class_register()
+         
 
---===============0425667096132504672==
+--===============6721093874432668602==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d2278cf6dd09-457d5612348d.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-8fb5030055be27fe6f14b55e2f3c46bab7bbd01d perf bench syscall: Add fork syscall benchmark
-27d8ff4304219d27c5d1efbe473ee5270f596d1d perf ftrace: Make system wide the default target for latency subcommand
-af06c80663583757a7edd54e7701bf44b1da5fce perf vendor events power9: Remove UTF-8 characters from JSON files
-f526ac622d4bdce7015b877b9d8aecf91eed0f89 perf symbols: Fix use-after-free in get_plt_got_name()
-45174634a3cffd3a6649fe597955847600725481 perf symbols: Fix unaligned access in get_x86_64_plt_disp()
-8e78f8c8b93d30de938606a3d15965115eab8107 perf tools: Avoid warning in do_realloc_array_as_needed()
-1d37f5120e862c9fd9d260c26d2b631484061f83 perf annotate: Delete session for debug builds
-ce67c41bec512b711c15066bd66c096a62777cf1 perf report: Additional config warnings
-8af230cdd9321365e6f425f6de1f69381cd655e2 perf annotate: Add init/exit to annotation_options remove default
-f0fa23d4d75ae004feaad977143b7b83e96cbca7 perf annotate: Own objdump_path and disassembler_style strings
-5e7a1390d26794f1ff7d7a22bded1df3164e30de perf annotate: Allow objdump to be set in perfconfig
-f180e3fb6af0a3974f0afd38b13e838eb73ed6fc perf symbol: Add command line support for addr2line path
-457d5612348dff393f34654c649999201d896788 perf vendor events: Update Alderlake for E-Core TMA v2.3
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1680175437 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1680175436-46a042a1f557fc19e5bf82e5daf9c7be502fbe68
 
---===============0425667096132504672==--
+585a0c4d7e93e9ea9dbf31b58138bfe0e2f9d3b6 b21f747c419ca7d3910446cf21f23fd4cdfad597 refs/heads/class_cleanup
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQlcU0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+JAQP+wTL/UJyxwe5fwAtO5bw
+u0Um+D9W6rg7IBY0VLgtpMvO17nFOPIDlNvVoN00Qw2KalHcW1Hd+XwtvEg+v26E
+vPGYuauMoR7ZGOOaGOgt3d5kuT0mjhEdpQVQNdOZqsOikN+Ab7y3ISnLZ83mIm5A
+MdvH0fxqCOXod8OD+3TeYJQNBs8dTmN+CFTYf81kUET238pVDcNjwMAOwB34ZDHu
+RvUl0/MlewKBLxFwdQLjaYk/xrkYyB9OBsoDFPAE4dh5BVCi8j/bmnCrV41mpfVT
+jnHhpXG7NwzOdpsrneNhwcFe97Ig97l/ct9lhb4zNbMAVeCfrOmPEmyCUVaBG40O
+8c6hCDazmwJh22F2+Q15UH0CkhMRACnBsR2afOvh1mdhvMbDOWMJ3or764FPh50P
+YTGFzLCL0PPVhvyaoXq4533yBPez3eqxGPQBSD7vCKUUkzfArmXYMVDQG0UTGhc1
+fxAf9OQbMvdMa0b2fgqaSN5GR8BQdkWULARRhAbisu9i5SRgJfrV+zKodAkeBx57
+FYNsh6MZ+rxad3UotQ4S6ooDgFg7aE51blhRPY9e5mHPDMSWRtu4+Z9jjwqDl96s
+2/FTzwc0JmfrNv77EzszN2stu/8vV7cDOjrG0YomrvtrTy12FqCU+PLuE+ppndee
+J7Wki9vmdWNeUQSIFK0Df7GS
+=S+Tg
+-----END PGP SIGNATURE-----
+
+--===============6721093874432668602==--
