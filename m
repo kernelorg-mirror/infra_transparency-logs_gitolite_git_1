@@ -1,19 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ogabbay/linux
-Date: Thu, 30 Mar 2023 09:35:12 -0000
-Message-Id: <168016891210.13541.2317377461647862259@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ribalda/linux
+Date: Thu, 30 Mar 2023 09:45:41 -0000
+Message-Id: <168016954127.2046.16726041398908122047@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ogabbay/linux
-user: ogabbay
+repo: pub/scm/linux/kernel/git/ribalda/linux
+user: ribalda
 changes:
-  - ref: refs/heads/habanalabs-next
-    old: 3b3aca92b5573e213cf12257388e8dccfbe5c62f
-    new: a3f4881e118cdd6544d1aab4162a9712241700d3
+  - ref: refs/heads/b4/kexec_clang16
+    old: c370856cb509f20a8b5e04d2a59a98eadc3296db
+    new: adb990f52b61aa9b2c3b6f884325c94cfe6741a3
     log: |
-         a3f4881e118cdd6544d1aab4162a9712241700d3 accel/habanalabs/uapi: new Gaudi2 server type
+         5b0ce038a5f2634a78261c770d3b67bbd971b995 kexec: Fix kexec_file_load for llvm16
+         ba02f148e1e2769af194eee14dea5d3fb6b4a0da kexec: Support purgatories with .text.hot sections
+         adb990f52b61aa9b2c3b6f884325c94cfe6741a3 x86/purgatory: Add linker script
          
+  - ref: refs/tags/sent/kexec_clang16-v5
+    old: 0000000000000000000000000000000000000000
+    new: c1cfbbe6e2e281986fbefd8e05516bc32f7c923e
