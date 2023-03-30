@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netfilter/nf-next
-Date: Thu, 30 Mar 2023 12:40:57 -0000
-Message-Id: <168018005744.24062.17822281729133076688@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tmlind/linux-omap
+Date: Thu, 30 Mar 2023 12:41:41 -0000
+Message-Id: <168018010148.24380.17191765340217643725@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netfilter/nf-next
-user: fwestphal
+repo: pub/scm/linux/kernel/git/tmlind/linux-omap
+user: tmlind
 changes:
-  - ref: refs/heads/testing
+  - ref: refs/tags/omap-for-v6.4/dt-overlays-signed
     old: 0000000000000000000000000000000000000000
-    new: 7306c33562816da5afa038d2f3f4d6ce4d23310a
+    new: bd15911caa6d540da558bd8004beaad169d22cdc
