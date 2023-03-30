@@ -1,28 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jfern/linux
-Date: Thu, 30 Mar 2023 14:47:04 -0000
-Message-Id: <168018762406.13985.12834706757610886889@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Thu, 30 Mar 2023 14:50:03 -0000
+Message-Id: <168018780343.16452.15425879920930924611@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jfern/linux
-user: jfern
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/rcu-6-4-kfree
-    old: 4d026152f9a08bdb6c27b1d21cc9c63756b0efb7
-    new: d52b231530c4af0d9029c964b2cf2a99d022eafb
+  - ref: refs/heads/iter-ubuf.2
+    old: 4770fc582e03e107b13919dfd662eb7a91fb110c
+    new: 3b2deb0e46da9798b694cf50bd8bea1b26dcc789
     log: |
-         1242be87fb3df67ab00389f60ada25385c12d0e2 drbd: Rename kvfree_rcu() to kvfree_rcu_mightsleep()
-         e3f2abec7a17992795b0b5c67ad5890f35a36e6e misc: vmw_vmci: Rename kvfree_rcu() to kvfree_rcu_mightsleep()
-         00382befa9f667b5d8ece62d62fc1915c221d0b2 tracing: Rename kvfree_rcu() to kvfree_rcu_mightsleep()
-         8d4d64bfec02b9b2eeb872db6610f775f8da7279 lib/test_vmalloc.c: Rename kvfree_rcu() to kvfree_rcu_mightsleep()
-         e36ae4fdd3c34da4ef4db9eac026bc9c35b3bf86 net/sysctl: Rename kvfree_rcu() to kvfree_rcu_mightsleep()
-         96e539ba7e513ff667773ca03dd9fc2a7560dd28 net/mlx5: Rename kfree_rcu() to kfree_rcu_mightsleep()
-         91c81938bdbe11681488c8e19d8f6e32ba6448cd ext4/super: Rename kfree_rcu() to kfree_rcu_mightsleep()
-         caf6e3badb012b02639bbb950f4d94f33b2d356c rcuscale: Rename kfree_rcu() to kfree_rcu_mightsleep()
-         45e6f216d4c591083de1c6eee3ca1f67063816ff mac802154: Rename kfree_rcu() to kvfree_rcu_mightsleep()
-         d52b231530c4af0d9029c964b2cf2a99d022eafb checkpatch: Error out if deprecated RCU API used
+         de4f5fed3f231a8ff4790bf52975f847b95b85ea iov_iter: add iter_iovec() helper
+         23ecdcd0c070e200f52b58e131af2b276b3d800e IB/hfi1: check for user backed iterator, not specific iterator type
+         da67ba07b4aa0a192e2957540eca15f8cb2e1ee7 IB/qib: check for user backed iterator, not specific iterator type
+         e4d3202c18329ba2733c9e04489b6ef05d3bce08 ALSA: pcm: check for user backed iterator, not specific iterator type
+         95e49cf8373a0a4d1ec85f0512080bb4f945df74 iov_iter: add iter_iov_addr() and iter_iov_len() helpers
+         6eb203e1a868187cbc23ae3bad443dc929ca6cca iov_iter: remove iov_iter_iovec()
+         cd0bd57a9de59019fe99e9305a2337a66a4f9d39 iov_iter: set nr_segs = 1 for ITER_UBUF
+         747b1f65d39ae729b7914075899b0c82d7f667db iov_iter: overlay struct iovec and ubuf/len
+         e03ad4ee2783e41afc90cc7848468aef10741c0e iov_iter: convert import_single_range() to ITER_UBUF
+         3b2deb0e46da9798b694cf50bd8bea1b26dcc789 iov_iter: import single vector iovecs as ITER_UBUF
          
