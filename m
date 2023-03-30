@@ -1,28 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
-Date: Thu, 30 Mar 2023 09:00:20 -0000
-Message-Id: <168016682031.22389.4839930728201078516@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============4367161338011336790=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Thu, 30 Mar 2023 09:00:49 -0000
+Message-Id: <168016684920.22636.1439704511613275143@gitolite.kernel.org>
+
+--===============4367161338011336790==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ardb/linux
-user: ardb
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/arm-efi-zboot
-    old: a0cc57a3083891c10ed3b53598e06c638694c9af
-    new: 0cf33b405a4aa0915fbe092694b18cc0315c69b9
+  - ref: refs/heads/class_cleanup
+    old: e2b50ea8f1fbe9571a6d653deef97e8316743de8
+    new: 9ad60dc658cb3ded7984e302f7ef8c4500a70429
     log: |
-         d65de98bda9e16c7e1d03fe9715252bf550c873e efi/zboot: Add BSS padding before compression
-         5cced67f390e5c6c11152c0aac4cbc5bcec7279b efi/zboot: Set forward edge CFI compat header flag if supported
-         4ac63f50bcc3c227255818cdf70b975d67925032 efi/zboot: arm64: Grab code size from image header
-         1e3dc68e06b2fde95df5bdd3dc6668ef81faa6e5 mm/page_alloc: Account for misaligned PFN_OFFSET again
-         2ea6ac3f6a44c6a03ad1fa9695f0d006d39f53d9 ARM: head: Remove 1-2 MiB of pointless padding
-         7f342c944a4a76b9370ecba66e1c18c1f2d69b40 ARM: mmu: Ensure all lowmem regions are mapped in all cases
-         bbe5799874be6425f146fb15b04c9dd59f96f69a ARM: head: Omit TEXT_OFFSET from initial kernel mapping when possible
-         5c6e49187eedd720f2f0df0ed1d44317a27b3297 lib/decompress: Only treat out_buf == 0 as error if malloc() failed
-         260e84b945702258702b2f7ca457f1fd22380b0f ARM: vmlinux.lds: Add image header to decompressed kernel image
-         0cf33b405a4aa0915fbe092694b18cc0315c69b9 efi/zboot: Enable for 32-bit ARM
+         9ad60dc658cb3ded7984e302f7ef8c4500a70429 driver core: convert class_create() to class_register()
          
+
+--===============4367161338011336790==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1680166844 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1680166844-b21049ae3486adfd66f194403bd1cef37895b597
+
+e2b50ea8f1fbe9571a6d653deef97e8316743de8 9ad60dc658cb3ded7984e302f7ef8c4500a70429 refs/heads/class_cleanup
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQlT7wbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+W+MP/A9ZdFoZqiIpX/kzrN4r
+lVaanSihOG0cmr3r7cvnDSVmz7ZXilLI76jNW0oO8fAKa6FDik8DJeHUeURXpPNO
+Ae/yoxQ+4fGIeV7rcyl2aUFhWAzksN1+RJWmXGSl/7Flq32W4eYcKeWBXaNva6xS
+MEDo8RvmSVUWtVhEj8xypyypQpJST2OWY5q6+gwWUB7ia8kJnidCnTVndZe0a0FM
+8ihESZmLqW72vWk5oI8zzopUEX2E0vDvUeCCx2DKZBc+UtjtsRzBl0Es+iCudXal
+rJzOeHd/r0QOcSxNxS8xBj6ElPNbNhrKdL5OVpWCsoA1fPk8Io8q+JW9d+ZU+x/1
+09P62gnLXaH/KJu0kLUcMYJyAom+Y46u5E/xOnDPN3kGpyJRa6MyvzbQ+eDU/AQe
+qG8rRYDrkAsUSVtSIxSmbNImTvXJCArSCIBzNWouOdgQNKHdGQwgfLh2svyY7mDX
+f/8MGnEgxdi8Ye8m48BEpHmbHRTSNuhPd8S4zVTtOXXBJMkL2mG0hRIW6Qj5v324
+n57/SBkte6njSU3ESJKiI3ycEEhDA68iZ/6ExmyOFX5XDk5fPIYsvBhJB8X9CiKh
+wRafTTK9lTncQkr7OLUSZlivGr0NvY336XOA9TH0HZTonkFPgoWXNaIMd9xod+vd
+5TPO78DsNYBuaruNiBJ/465Q
+=VbpN
+-----END PGP SIGNATURE-----
+
+--===============4367161338011336790==--
