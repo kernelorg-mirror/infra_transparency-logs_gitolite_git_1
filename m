@@ -1,77 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============6446469686559908444=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ti/linux
-Date: Thu, 30 Mar 2023 21:57:43 -0000
-Message-Id: <168021346382.15088.15047374814606983089@gitolite.kernel.org>
-
---===============6446469686559908444==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Thu, 30 Mar 2023 22:13:46 -0000
+Message-Id: <168021442654.24500.14633545253675554872@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ti/linux
-user: nmenon
+repo: pub/scm/linux/kernel/git/pci/pci
+user: helgaas
 changes:
-  - ref: refs/heads/ti-k3-config-next
-    old: 673c8894d7d0124f14c900313d85dba0870bb7cc
-    new: 44b263bf040a8e819da11c45f14a80de8866461a
+  - ref: refs/heads/next
+    old: b0d4fc005ef2baeb56f648d422d0e59810eddb96
+    new: b916e003d6392ebf0fd6294fbd4317f5b52ee5f3
     log: |
-         38f250cf9615d762a4dc1179bb063c66762a76e6 arm64: defconfig: Enable drivers for BeaglePlay
-         44b263bf040a8e819da11c45f14a80de8866461a arm64: defconfig: Enable audio drivers for AM62-SK
+         be567c6cbc08e8fb6de9f03d6ab5088e33f58012 PCI: layerscape: Add EP mode support for ls1028a
+         5f5ac460dfe7f4e11f99de9870f240e39189cf72 PCI: imx6: Install the fault handler only on compatible match
+         50233e105a0332ec0f3bc83180c416e6b200471e PCI: mt7621: Use dev_info() to log PCIe card detection
+         6c6fa1f3f7715484a1991a38345b3a63b20914cf PCI: ixp4xx: Use PCI_CONF1_ADDRESS() macro
+         43727cec9e2d3735acc57cde8d0c7322dd2bbb45 Merge branch 'pci/aer'
+         f16b9e714d272b4aeed00b52d7395afb8ae1fa8b Merge branch 'pci/controller/dt'
+         48e32dccd46bc284cc3d896937f515f054a91743 Merge branch 'pci/controller/dwc'
+         2f8ec41538e322724cf07a3dee81a59b28606a63 Merge branch 'pci/controller/ixp4xx'
+         92cb4db94929ce9a6166e96398554db0fd452c5b Merge branch 'pci/controller/kirin'
+         b7f6c3102751962cd85615b2e5e5daa6c4476d86 Merge branch 'pci/controller/layerscape'
+         0c8fff0d6d76c2f153506321f2eacf644aa30e79 Merge branch 'pci/controller/mt7621'
+         b916e003d6392ebf0fd6294fbd4317f5b52ee5f3 Merge branch 'pci/controller/rcar'
          
-  - ref: refs/heads/ti-k3-dts-next
-    old: 1865f15b2c90f133293fcbf45f05355c1462880f
-    new: 891db0c48efb48c3af334006f9d7ea6a0aa49cb9
-    log: revlist-1865f15b2c90-891db0c48efb.txt
-  - ref: refs/heads/ti-next
-    old: 489d8dcc44140083941b1dae928b314020070c2c
-    new: a8fccb83f3e25d2412c6a6557b146ac9a6dce770
-    log: revlist-489d8dcc4414-a8fccb83f3e2.txt
-
---===============6446469686559908444==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1865f15b2c90-891db0c48efb.txt
-
-f5a731f0787fd63d81ab0e1457c44c65fa9d7b41 arm64: dts: ti: Add k3-am625-beagleplay
-fee4f08db8ae40114cf729ebd022fc43df55f68b arm64: dts: ti: k3-am68-sk-base-board: Update IO EXP GPIO lines for Rev E2
-4b71618cb772f20dfeeba826e9d1713a04f9687f arm64: dts: ti: k3-am625-sk: Add ti,vbus-divider property to usbss1
-3bc4f501be71766e5988d8233fc29196f552b9b0 dt-bindings: arm: ti: k3: Add compatible for AM62x LP SK
-a841581451af7beaf4c77b0c48ae3dd3205ab3bc arm64: dts: ti: Refractor AM625 SK dts
-e6a51ffabfc16b1df9607e674ddf377673627513 arm64: ti: dts: Add support for AM62x LP SK
-76aa309f9fa7e8c9b25234e1d1641d0b05e43e52 arm64: dts: ti: k3-j721e: Add MCSPI nodes
-8f6c475f4ca7a82d5203e20d33a6bb522902b44c arm64: dts: ti: k3-j7200: Add MCSPI nodes
-04d7cb647b8527398e292c0b6960980de5359d09 arm64: dts: ti: k3-j721s2: Add MCSPI nodes
-e23d5a3d116dce2152c56ee55d802630c92636bc arm64: dts: ti: k3-j784s4: Add MCSPI nodes
-d4b0379af83b67ef85bf90639cd38eb910dc507d arm64: dts: ti: k3-am62-main: Add McASP nodes
-b94b43715e91646a7023e5837941a514c9e2f934 arm64: dts: ti: Enable audio on SK-AM62(-LP)
-891db0c48efb48c3af334006f9d7ea6a0aa49cb9 arm64: dts: ti: k3-j784s4-evm: Add eMMC mmc0 support
-
---===============6446469686559908444==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-489d8dcc4414-a8fccb83f3e2.txt
-
-38f250cf9615d762a4dc1179bb063c66762a76e6 arm64: defconfig: Enable drivers for BeaglePlay
-44b263bf040a8e819da11c45f14a80de8866461a arm64: defconfig: Enable audio drivers for AM62-SK
-f5a731f0787fd63d81ab0e1457c44c65fa9d7b41 arm64: dts: ti: Add k3-am625-beagleplay
-fee4f08db8ae40114cf729ebd022fc43df55f68b arm64: dts: ti: k3-am68-sk-base-board: Update IO EXP GPIO lines for Rev E2
-4b71618cb772f20dfeeba826e9d1713a04f9687f arm64: dts: ti: k3-am625-sk: Add ti,vbus-divider property to usbss1
-3bc4f501be71766e5988d8233fc29196f552b9b0 dt-bindings: arm: ti: k3: Add compatible for AM62x LP SK
-a841581451af7beaf4c77b0c48ae3dd3205ab3bc arm64: dts: ti: Refractor AM625 SK dts
-e6a51ffabfc16b1df9607e674ddf377673627513 arm64: ti: dts: Add support for AM62x LP SK
-76aa309f9fa7e8c9b25234e1d1641d0b05e43e52 arm64: dts: ti: k3-j721e: Add MCSPI nodes
-8f6c475f4ca7a82d5203e20d33a6bb522902b44c arm64: dts: ti: k3-j7200: Add MCSPI nodes
-04d7cb647b8527398e292c0b6960980de5359d09 arm64: dts: ti: k3-j721s2: Add MCSPI nodes
-e23d5a3d116dce2152c56ee55d802630c92636bc arm64: dts: ti: k3-j784s4: Add MCSPI nodes
-d4b0379af83b67ef85bf90639cd38eb910dc507d arm64: dts: ti: k3-am62-main: Add McASP nodes
-b94b43715e91646a7023e5837941a514c9e2f934 arm64: dts: ti: Enable audio on SK-AM62(-LP)
-891db0c48efb48c3af334006f9d7ea6a0aa49cb9 arm64: dts: ti: k3-j784s4-evm: Add eMMC mmc0 support
-a8fccb83f3e25d2412c6a6557b146ac9a6dce770 Merge branches 'ti-drivers-soc-next', 'ti-k3-config-next' and 'ti-k3-dts-next' into ti-next
-
---===============6446469686559908444==--
