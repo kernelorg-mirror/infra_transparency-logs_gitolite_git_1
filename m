@@ -1,22 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lee/mfd
-Date: Thu, 30 Mar 2023 17:13:46 -0000
-Message-Id: <168019642658.14527.17056958185482161815@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/matthias.bgg/linux
+Date: Thu, 30 Mar 2023 17:15:34 -0000
+Message-Id: <168019653405.17003.12033600504139533585@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lee/mfd
-user: lee
+repo: pub/scm/linux/kernel/git/matthias.bgg/linux
+user: matthias.bgg
 changes:
-  - ref: refs/heads/for-mfd-next
-    old: 1b3b1d6c27cc0bfda4326de574f9d73f13a26bc4
-    new: 6df50ee51ce1be595237277719485d3f1316443a
+  - ref: refs/heads/v6.3-next/dts64
+    old: 61ac25e5296015c7a5d49cd7405459d4f47f28e6
+    new: 988eff6543618d2cfd4690c30bfce68b69b88424
     log: |
-         a8a194fb82d22d5d55d2067209fe2d6c216e3de1 dt-bindings: mfd: x-powers,axp152: Simplify disallowing properties
-         63aa18121704329f38b0cf95775a769643eb43cf mfd: axp20x: Fix axp288 writable-ranges
-         a5bab315cda8f6d7eba155d738899a9e4fbeb9b0 mfd: dln2: Fix memory leak in dln2_probe()
-         6df50ee51ce1be595237277719485d3f1316443a mfd: intel-lpss: Add Intel Meteor Lake PCH-S LPSS PCI IDs
+         92d2c23dc269985fdf098735710b2ac3f91801dd arm64: dts: mt8195: add display node for vdosys1
+         dbf17e13f04ac04ef8d70158b002fd53f07ccc88 arm64: dts: mediatek: add i2c support for mt8365 SoC
+         988eff6543618d2cfd4690c30bfce68b69b88424 arm64: dts: mediatek: enable i2c0 for mt8365-evk board
          
