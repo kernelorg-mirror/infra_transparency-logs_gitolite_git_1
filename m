@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 30 Mar 2023 04:43:46 -0000
-Message-Id: <168015142659.10393.12094576465585343705@gitolite.kernel.org>
+Date: Thu, 30 Mar 2023 04:47:27 -0000
+Message-Id: <168015164713.14509.10010830119599926661@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,10 +12,12 @@ repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: 8c495270845d6b4854607e946baef3637a8259ed
-    new: a4d7108c2efb536e0f55c3d02d5b37dd0ec67601
+    old: a4d7108c2efb536e0f55c3d02d5b37dd0ec67601
+    new: 165d35159c5797ae900a8262ce2c44592216aa4e
     log: |
-         748b2f5e82d17480404b3e2895388fc2925f7caf ca8210: Fix unsigned mac_len comparison with zero in ca8210_skb_tx()
-         984cfd55e0c99e80b2e5b1dc6b2bf98608af7ff9 net: ieee802154: remove an unnecessary null pointer check
-         a4d7108c2efb536e0f55c3d02d5b37dd0ec67601 Merge tag 'ieee802154-for-net-2023-03-29' of git://git.kernel.org/pub/scm/linux/kernel/git/wpan/wpan
+         66ceaa4c4507f2b598d37b528796dd34158d31bf ice: fix W=1 headers mismatch
+         d94dbdc4e0209b5e7d736ab696f8d635b034e3ee ice: Fix ice_cfg_rdma_fltr() to only update relevant fields
+         29486b6df3e6a63b57d1ed1dce06051267282ff4 ice: add profile conflict check for AVF FDIR
+         e9a1cc2e4c4ee7c7e60fb26345618c2522a2a10f ice: fix invalid check for empty list in ice_sched_assoc_vsi_to_agg()
+         165d35159c5797ae900a8262ce2c44592216aa4e Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
          
