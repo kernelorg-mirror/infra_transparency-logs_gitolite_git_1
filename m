@@ -1,58 +1,28 @@
-Content-Type: multipart/mixed; boundary="===============7490556227177380048=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Thu, 30 Mar 2023 14:44:50 -0000
-Message-Id: <168018749042.10309.1884131491384503845@gitolite.kernel.org>
-
---===============7490556227177380048==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/jfern/linux
+Date: Thu, 30 Mar 2023 14:47:04 -0000
+Message-Id: <168018762406.13985.12834706757610886889@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/jfern/linux
+user: jfern
 changes:
-  - ref: refs/heads/usb-linus
-    old: 4c7f9d2e413dc06a157c4e5dccde84aaf4655eb3
-    new: f6caea4855553a8b99ba3ec23ecdb5ed8262f26c
+  - ref: refs/heads/rcu-6-4-kfree
+    old: 4d026152f9a08bdb6c27b1d21cc9c63756b0efb7
+    new: d52b231530c4af0d9029c964b2cf2a99d022eafb
     log: |
-         ecaa4902439298f6b0e29f47424a86b310a9ff4f xhci: also avoid the XHCI_ZERO_64B_REGS quirk with a passthrough iommu
-         8e77d3d59d7b5da13deda1d832c51b8bbdbe2037 Revert "usb: xhci-pci: Set PROBE_PREFER_ASYNCHRONOUS"
-         f6caea4855553a8b99ba3ec23ecdb5ed8262f26c xhci: Free the command allocated for setting LPM if we return early
+         1242be87fb3df67ab00389f60ada25385c12d0e2 drbd: Rename kvfree_rcu() to kvfree_rcu_mightsleep()
+         e3f2abec7a17992795b0b5c67ad5890f35a36e6e misc: vmw_vmci: Rename kvfree_rcu() to kvfree_rcu_mightsleep()
+         00382befa9f667b5d8ece62d62fc1915c221d0b2 tracing: Rename kvfree_rcu() to kvfree_rcu_mightsleep()
+         8d4d64bfec02b9b2eeb872db6610f775f8da7279 lib/test_vmalloc.c: Rename kvfree_rcu() to kvfree_rcu_mightsleep()
+         e36ae4fdd3c34da4ef4db9eac026bc9c35b3bf86 net/sysctl: Rename kvfree_rcu() to kvfree_rcu_mightsleep()
+         96e539ba7e513ff667773ca03dd9fc2a7560dd28 net/mlx5: Rename kfree_rcu() to kfree_rcu_mightsleep()
+         91c81938bdbe11681488c8e19d8f6e32ba6448cd ext4/super: Rename kfree_rcu() to kfree_rcu_mightsleep()
+         caf6e3badb012b02639bbb950f4d94f33b2d356c rcuscale: Rename kfree_rcu() to kfree_rcu_mightsleep()
+         45e6f216d4c591083de1c6eee3ca1f67063816ff mac802154: Rename kfree_rcu() to kvfree_rcu_mightsleep()
+         d52b231530c4af0d9029c964b2cf2a99d022eafb checkpatch: Error out if deprecated RCU API used
          
-
---===============7490556227177380048==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1680187488 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1680187487-574986ef39b34b3aab71e36ac7149a78a5caaca5
-
-4c7f9d2e413dc06a157c4e5dccde84aaf4655eb3 f6caea4855553a8b99ba3ec23ecdb5ed8262f26c refs/heads/usb-linus
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQloGAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+zuAP/iY+iL7qF5ALcaUhH/bt
-EMvw9ql8HGl2aZcGh87+//6NHU/kvo1HpWEtOp68z8F1+EsmnRgpJHiwRGB/wjjg
-ru1IDFpF178XkNWG+yzO5lijOjtqCoS0ZQ54DIdTzuGgGrQ1IZ5L4DKboh2SMSEy
-kbS0Mot0dXOT8t5rn/21sO/9UEJaiymcOQEoiJoY/9n0Kw8RbBCgco6CWC19eDie
-Bj62sykXijUp8HxLtA9KjxbgXoneR3zi+I8WaKK3eJ6RUSB9itPe7h9hSYcSOQzO
-N1OilqvrPfk7mMXOj4nVCGuCyBpkS49eL6Qy+pTVT/m8CEigCUcx6OReB3VOIggF
-W+TdzViEkNCcA8tjUYdXBC/XTn6btE5H9Va8fTcgRVC8vL1inZGTjslf3+SkI+iL
-xvBOkdDXhmFg19GkmURR1f6gHANHornLtrQtd9Jh0lD291rOXIRIduEkqKJjTFh/
-a4JQ5NTSIOrHRz84WuP37aLmEIgnUuRJcsZ/yjQ4uCfT9QduKM7WQJFezv+7Dcni
-GcVYEEOBQmK3vvCALR8RuIflX8gkEvFCzBfCh85UTq08XxvlRW/1q0OdOK9CKgne
-oaQoxQRrx4976trT0kmjq3L3fAQniU6/ZM97/oTdOuyteX0x28PmSHW72ZR7I6jY
-JoKIATLi3roBSErkvuGZbTa3
-=g3/n
------END PGP SIGNATURE-----
-
---===============7490556227177380048==--
