@@ -1,22 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/bluetooth/bluez
-Date: Thu, 30 Mar 2023 18:07:41 -0000
-Message-Id: <168019966127.18817.5332596883664707470@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+Date: Thu, 30 Mar 2023 18:08:25 -0000
+Message-Id: <168019970500.19111.14263855541837630448@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/bluetooth/bluez
+repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
 user: vudentz
 changes:
   - ref: refs/heads/master
-    old: 54601cbcf283468ecb867d3db14ddbd1badbe858
-    new: 5106fe8c868d5ec69af70f299eeedad42b900f69
+    old: 5b23f8375a3685b93022feb625a2c4b43e5c0ad3
+    new: 0b93eeba44548b15b44f63e5ea820fd5dab0a835
     log: |
-         ca07d198f9c7d289e95091c30ed15bff2106a7db bap: Mark devices to auto-connect
-         2b022fa5297a56875f06c2b5612258cd99dcbe74 device: Fix not setting initiator flag when auto-connecting
-         8bd2f29617743a5587ca9679957c2e4bf3b78aa9 vhci: Add support to trigger devcoredump and read the dump file
-         5106fe8c868d5ec69af70f299eeedad42b900f69 mgmt-tester: Add devcoredump tests
+         c5ee89a3a86e7fe2679867d86f16ce5f761aa566 Bluetooth: Add support for hci devcoredump
+         d5d5df6da0aa1b6cb3fa3899ca4c4b8c2acf2a75 Bluetooth: Add vhci devcoredump support
+         1078959dcb5c600e467db2413cb0abf3a95db4dd Bluetooth: btusb: Add btusb devcoredump support
+         0b93eeba44548b15b44f63e5ea820fd5dab0a835 Bluetooth: btintel: Add Intel devcoredump support
          
