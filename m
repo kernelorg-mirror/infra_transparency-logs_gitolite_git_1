@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4248736970678156733=="
+Content-Type: multipart/mixed; boundary="===============3533189299520759192=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Thu, 30 Mar 2023 15:45:23 -0000
-Message-Id: <168019112395.20640.4237842483639943833@gitolite.kernel.org>
+Date: Thu, 30 Mar 2023 15:45:59 -0000
+Message-Id: <168019115957.22034.15569937216614097038@gitolite.kernel.org>
 
---===============4248736970678156733==
+--===============3533189299520759192==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 86e2eca4ddedc07d639c44c990e1c220cac3741e
-    new: da617cd8d90608582eb8d0b58026f31f1a9bfb1d
-    log: revlist-86e2eca4dded-da617cd8d906.txt
+  - ref: refs/heads/dev-queue
+    old: 20d15e09bcfad9cc553c8cbc6a04c01bd875ad2f
+    new: 27ebc2c57c3f8f88bba2e7a260a305aece68e429
+    log: revlist-20d15e09bcfa-27ebc2c57c3f.txt
 
---===============4248736970678156733==
+--===============3533189299520759192==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-86e2eca4dded-da617cd8d906.txt
+Content-Disposition: attachment; filename=revlist-20d15e09bcfa-27ebc2c57c3f.txt
 
 4e0473f1060aa49621d40a113afde24818101d37 lib: cpu_rmap: Avoid use after free on rmap->obj array entries
 9821d8d4628e630ab56f47a8e6b878a2576e069b lib: cpu_rmap: Use allocator for rmap entries
@@ -108,5 +108,34 @@ c59647c0dc679008886756a888368da1c6d4ccd3 net: add softnet_data.in_net_rx_action
 8b43fd3d1d7d88293eb15e92090826e6b7cc13e4 net: optimize ____napi_schedule() to avoid extra NET_RX_SOFTIRQ
 4ddd6375c3ef6756d492ea5466408cace097121b Merge branch 'net-rps-rfs-improvements'
 da617cd8d90608582eb8d0b58026f31f1a9bfb1d smsc911x: remove superfluous variable init
+7e5c614bb1a51414a86e0d65f885c843ebc7508b ice: Write all GNSS buffers instead of first one
+cfa61ef73ef54f5bc08cef39da6ad9e576be0fde ice: remove comment about not supporting driver reinit
+56c0e58ddfbb1945255c88a1bf856543cf3b5ac7 ixgbe: Panic during XDP_TX with > 64 CPUs
+34029e4e09cd71b0f288129b63e6ade60ed98230 ice: fix W=1 headers mismatch
+65475a739f6be391ad60128e66fc278a47172c28 ice: Fix ice_cfg_rdma_fltr() to only update relevant fields
+ff1a63302708665fa78a4cc930f6eea55397d844 ice: add profile conflict check for AVF FDIR
+97b14826037baca1b610b34bd25c30fcfbb62513 ice: identify aRFS flows using L3/L4 dissector info
+da85fa0aa3f7482e2126da35f7b05782daa05bcd ice: clear number of qs when rings are free
+242da665191c26dbc1b370f37a8ac942db9d55af ice: fix invalid check for empty list in ice_sched_assoc_vsi_to_agg()
+c81d11dc9e458f4c413e93ee013ea27c18cd46e7 i40e: Add support for VF to specify its primary MAC address
+d75b6c2a3049aa023fe5600d605041117bf99a55 ice: fix wrong fallback logic for FDIR
+9c106e493dbfcf0384c8eb6ab3c272cb1fceaaf8 i40e: fix registers dump after run ethtool adapter self test
+1b8ff9f01428362fb06c175723926cc6a349224d ice: Support 5 layer topology
+fc5f959cae3f774791d6682c29beffbd26a68f57 ice: Adjust the VSI/Aggregator layers
+85caafe3b60b8806968fa3f4c9fee6455c80919c ice: Enable switching default tx scheduler topology
+a5dc2dd9f05eb67698cd9ca217de47e4e409e1f8 ice: Add txbalancing devlink param
+48265ee4b9fe2b17353c58099e671ca19d6e2ad2 ice: Document txbalancing parameter
+40d795aa4a2a745c9ee42a8281696ff5b727ce3e ice: move interrupt related code to separate file
+fc43d4ae31da4a417d42790a1f323d09b2f45528 ice: use pci_irq_vector helper function
+13e030a940653491e96bd602228a2c8aa37c896c ice: use preferred MSIX allocation api
+fc7b9b9a80f3741b9296c60124ec1c217c51a3ab ice: refactor VF control VSI interrupt handling
+11220b570e13deee0738c30cc87574affb3b192f ice: remove redundant SRIOV code
+bde97c8a8eda50e747986e3f7c4387dff0d3d204 ice: add individual interrupt allocation
+cc103708549c5f2d06b6f233303b34d8b86d0ab7 ice: track interrupt vectors with xarray
+ff7000f66108aa78d58fbd012525420e719e7fdc ice: add dynamic interrupt allocation
+9b4ec51aaaba26b5630f87f4660bf989713f4150 e1000e: Disable TSO on i219-LM card to increase speed
+5f1169540238a7c68b9d3f9b7fae835e41b2662b i40e: fix accessing vsi->active_filters without holding lock
+8440972ea42d4ce05a348e1c3321ae2dc31b77b4 iavf: refactor VLAN filter states
+27ebc2c57c3f8f88bba2e7a260a305aece68e429 iavf: remove active_cvlans and active_svlans bitmaps
 
---===============4248736970678156733==--
+--===============3533189299520759192==--
