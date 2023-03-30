@@ -1,42 +1,42 @@
-Content-Type: multipart/mixed; boundary="===============5356693061461922535=="
+Content-Type: multipart/mixed; boundary="===============2387906766961277142=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
-Date: Thu, 30 Mar 2023 19:36:52 -0000
-Message-Id: <168020501237.14708.14885123423434183214@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
+Date: Thu, 30 Mar 2023 19:49:16 -0000
+Message-Id: <168020575651.22839.6222228800550475976@gitolite.kernel.org>
 
---===============5356693061461922535==
+--===============2387906766961277142==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kdave/linux
-user: kdave
+repo: pub/scm/linux/kernel/git/conor/linux
+user: conor
 changes:
-  - ref: refs/heads/master
-    old: ffe78bbd512166e0ef1cc4858010b128c510ed7d
-    new: 8bb95a1662f8b97c443984550a7aefbe5a1a064e
-    log: revlist-ffe78bbd5121-8bb95a1662f8.txt
+  - ref: refs/heads/auto-update-v2
+    old: 0155b56d15171204827fcf17c637c7cd9067bf12
+    new: 42458a3a65031fc659cae0be7bd2a0a630b05917
+    log: revlist-0155b56d1517-42458a3a6503.txt
 
---===============5356693061461922535==
+--===============2387906766961277142==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ffe78bbd5121-8bb95a1662f8.txt
+Content-Disposition: attachment; filename=revlist-0155b56d1517-42458a3a6503.txt
 
-b7a5822810c4398515300d614d988cf638adecad ALSA: hda/realtek: Add quirks for some Clevo laptops
-b871cb971c683f7f212e7ca3c9a6709a75785116 ALSA: hda/conexant: Partial revert of a quirk for Lenovo
-8c721c53dda512fdd48eb24d6d99e56deee57898 ALSA: usb-audio: Fix recursive locking at XRUN during syncing
-5f4efc9dfcfd8440113057290f624ba2c893afb7 ALSA: hda/realtek: Fix support for Dell Precision 3260
-fa4e7a6fa12b1132340785e14bd439cbe95b7a5a ALSA: usb-audio: Fix regression on detection of Roland VS-100
-f33fc1576757741479452255132d6e3aaf558ffe ALSA: ymfpci: Create card with device-managed snd_devm_card_new()
-6be2e7522eb529b41c16d459f33bbdbcddbf5c15 ALSA: ymfpci: Fix BUG_ON in probe function
-52aad39385e1bfdb34a1b405f699a8ef302c58b0 ALSA: hda/realtek: Add quirk for Lenovo ZhaoYang CF4620Z
-c1976bd8f23016d8706973908f2bb0ac0d852a8f zonefs: Always invalidate last cached page on append write
-77af13ba3c7f91d91c377c7e2d122849bbc17128 zonefs: Do not propagate iomap_dio_rw() ENOTBLK error to user space
-4ee772243af1a6f5955413a64c5b36e8daed49bb Merge tag 'zonefs-6.3-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/dlemoal/zonefs
-8bb95a1662f8b97c443984550a7aefbe5a1a064e Merge tag 'sound-6.3-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
+ee45ec60e39575cc94e1fee073a2451c661aa3e1 dt-bindings: soc: microchip: add a property for system controller flash
+6529973e86d3006a18ef6d720524bab3136c8616 soc: microchip: mpfs: enable access to the system controller's flash
+7026a9a56660072bbd36b83f309df5705605e0f9 soc: microchip: mpfs: print service status in warning message
+d3233273483b46ee8c906d3b50aac75177847c64 soc: microchip: mpfs: add auto-update subdev to system controller
+c362cd3a94ee89389559357243b0cadc533026cc fpga: add PolarFire SoC Auto Update support
+774b68a515940a7d69670d2ba3d7e5e1c5733ccf riscv: dts: microchip: add the mpfs' system controller qspi & associated flash
+1f6f987abeeecf5796cf0c2888e43fd9bdf01f84 riscv: dts: microchip: add a dts for the Vauban board
+5cbec1611cbfea619c76ce0cf05a25b86a350f33 fpga: auto-update: add hack to trigger update
+65dc0d16e5af4f8e2dc20753b1acf7fd0cccc6ee fixup! fpga: add PolarFire SoC Auto Update support
+3055e0b883f511e1a68411883517254ab5449e06 fixup! fpga: add PolarFire SoC Auto Update support
+6880617ff1aa13b189df3ec3b0a63b9783edbc29 fixup! fpga: add PolarFire SoC Auto Update support
+42458a3a65031fc659cae0be7bd2a0a630b05917 fixup! fpga: add PolarFire SoC Auto Update support
 
---===============5356693061461922535==--
+--===============2387906766961277142==--
