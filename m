@@ -1,29 +1,41 @@
-Content-Type: multipart/mixed; boundary="===============3853017834280391061=="
+Content-Type: multipart/mixed; boundary="===============7521850361972801058=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Thu, 30 Mar 2023 19:57:01 -0000
-Message-Id: <168020622136.28357.7985524501003278830@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
+Date: Thu, 30 Mar 2023 19:57:21 -0000
+Message-Id: <168020624177.28539.15749739873631567024@gitolite.kernel.org>
 
---===============3853017834280391061==
+--===============7521850361972801058==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
+repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
   - ref: refs/heads/dm-6.3
     old: d3aa3e060c4a80827eb801fc448debc9daa7c46b
     new: 666eed46769d929c3e13636134ecfc67d75ef548
     log: revlist-d3aa3e060c4a-666eed46769d.txt
+  - ref: refs/tags/for-6.3/dm-fixes
+    old: 0000000000000000000000000000000000000000
+    new: 78e803eb523e54dd59530a9002ff35aacdd03e4c
+  - ref: refs/tags/v6.3-rc1
+    old: 0000000000000000000000000000000000000000
+    new: d0656701c5a27a5a8a3a38bc07d18f2e157e963d
+  - ref: refs/tags/v6.3-rc2
+    old: 0000000000000000000000000000000000000000
+    new: 62f7115b1ddd72766123d3cdc6a0c4330da29f3b
+  - ref: refs/tags/v6.3-rc3
+    old: 0000000000000000000000000000000000000000
+    new: b04d78201ce644e5182e95f1d0bd131b35ec8816
   - ref: refs/tags/v6.3-rc4
     old: 0000000000000000000000000000000000000000
     new: bb81ed6862b864c9eb99447f04d49a84ecb647e5
 
---===============3853017834280391061==
+--===============7521850361972801058==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1054,4 +1066,4 @@ f6cdaeb08b66db0d06b1b70c0801a00b6f30571c Merge tag 'core_urgent_for_v6.3_rc4' of
 f7b58a69fad9d2c4c90cab0247811155dd0d48e7 dm: fix improper splitting for abnormal bios
 666eed46769d929c3e13636134ecfc67d75ef548 dm: fix __send_duplicate_bios() to always allow for splitting IO
 
---===============3853017834280391061==--
+--===============7521850361972801058==--
