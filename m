@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Fri, 31 Mar 2023 22:46:28 -0000
-Message-Id: <168030278880.25433.9072193914735241619@gitolite.kernel.org>
+Date: Fri, 31 Mar 2023 22:52:10 -0000
+Message-Id: <168030313055.29123.11051289209599443650@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/docs/man-pages/man-pages
 user: alx
 changes:
   - ref: refs/heads/master
-    old: f2a1f466093b72f9630ed8e1a406548128c09630
-    new: 2c90b4a7e9ceb0c6e8cb26770571a5c8166a4111
+    old: 2c90b4a7e9ceb0c6e8cb26770571a5c8166a4111
+    new: fa2c576542d347dc62acc527c7156965df80b232
     log: |
-         2c90b4a7e9ceb0c6e8cb26770571a5c8166a4111 proc.5: Fix caps needed to read map_files contents
+         fa2c576542d347dc62acc527c7156965df80b232 mount_setattr.2: ffix
          
