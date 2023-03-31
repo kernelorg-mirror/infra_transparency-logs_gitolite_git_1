@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Fri, 31 Mar 2023 22:05:01 -0000
-Message-Id: <168030030173.27960.14728874357019474040@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+Date: Fri, 31 Mar 2023 22:07:42 -0000
+Message-Id: <168030046262.30363.8748169069278361552@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/man-pages/man-pages
-user: alx
+repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+user: vudentz
 changes:
   - ref: refs/heads/master
-    old: 92964433bd8547aefbae1fd002d4a6534eecf9d7
-    new: c26322bc8eddeb05a5ca7628ce8eca56d5b0b836
+    old: 0b93eeba44548b15b44f63e5ea820fd5dab0a835
+    new: 991aa4a69a47625c8a6e9b1f3cb27a62cce42ade
     log: |
-         c26322bc8eddeb05a5ca7628ce8eca56d5b0b836 landlock.7: Document Landlock ABI v2 (file reparenting; Linux 5.19)
+         53fd49a194f611cb7b5af5edcdd07a3ecfac983f Bluetooth: SCO: Fix possible circular locking dependency on sco_connect_cfm
+         c545d02663ac6808f16732ad53dea816a250b87e Bluetooth: SCO: Fix possible circular locking dependency sco_sock_getsockopt
+         991aa4a69a47625c8a6e9b1f3cb27a62cce42ade Bluetooth: Split bt_iso_qos into dedicated structures
          
