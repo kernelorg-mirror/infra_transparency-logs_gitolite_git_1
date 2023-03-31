@@ -1,22 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Fri, 31 Mar 2023 16:44:43 -0000
-Message-Id: <168028108340.3679.7948440814176158278@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jfern/linux
+Date: Fri, 31 Mar 2023 17:20:10 -0000
+Message-Id: <168028321042.29434.1115521342666153895@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+repo: pub/scm/linux/kernel/git/jfern/linux
+user: jfern
 changes:
-  - ref: refs/heads/for-next
-    old: 67efbd57bc6e57de276b964f023f8f947bc52460
-    new: e941933c4944b34fb4c7713d8c247108cede10f3
+  - ref: refs/heads/sched/rt-throttle
+    old: 27bb0296c50364599525e4c2c92f736d9b8e9a11
+    new: 5176a8f43b87b48f450fa59be3fdec1beee9d3c4
     log: |
-         328bafc9a373da5f268d82533dd8f2e66526d168 selftests/bpf: Add err.h header
-         88dc8b3605b38a440fba45edcc53a6c7a98eee3b selftests/bpf: Add read_build_id function
-         dcc46f51d770bde625e4845cac42e808b3302b62 selftests/bpf: Replace extract_build_id with read_build_id
-         e941933c4944b34fb4c7713d8c247108cede10f3 Merge branch 'selftests/bpf: Add read_build_id function'
+         96ac5fb282d7710543a808b514ec123540145cb7 REVISE: fixup: enqueue and dequue doesn't need adjust_cg_throttle
+         5176a8f43b87b48f450fa59be3fdec1beee9d3c4 REVISE: fixup: Trigger reschedule on unthrottle
          
