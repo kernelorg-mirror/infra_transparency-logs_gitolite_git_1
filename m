@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Fri, 31 Mar 2023 21:44:03 -0000
-Message-Id: <168029904300.14090.5418486679588945251@gitolite.kernel.org>
+Date: Fri, 31 Mar 2023 22:05:01 -0000
+Message-Id: <168030030173.27960.14728874357019474040@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/docs/man-pages/man-pages
 user: alx
 changes:
   - ref: refs/heads/master
-    old: acd7fbf633c9630cf1ea5de62ee688eeec04e31c
-    new: 92964433bd8547aefbae1fd002d4a6534eecf9d7
+    old: 92964433bd8547aefbae1fd002d4a6534eecf9d7
+    new: c26322bc8eddeb05a5ca7628ce8eca56d5b0b836
     log: |
-         92964433bd8547aefbae1fd002d4a6534eecf9d7 symlink.7: cross-link to proc.5 for fs.protected_symlinks
+         c26322bc8eddeb05a5ca7628ce8eca56d5b0b836 landlock.7: Document Landlock ABI v2 (file reparenting; Linux 5.19)
          
