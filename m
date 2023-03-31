@@ -1,48 +1,61 @@
-Content-Type: multipart/mixed; boundary="===============1410441075227373795=="
+Content-Type: multipart/mixed; boundary="===============4439587473544595468=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Fri, 31 Mar 2023 15:48:05 -0000
-Message-Id: <168027768575.31669.8684724074346892725@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Fri, 31 Mar 2023 15:48:56 -0000
+Message-Id: <168027773634.32016.4125812508547179318@gitolite.kernel.org>
 
---===============1410441075227373795==
+--===============4439587473544595468==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/net-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: b2bc47e9b2011a183f9d3d3454a294a938082fb9
-    new: ffa5395a7901e83a68d88207c4592962906641bd
-    log: revlist-b2bc47e9b201-ffa5395a7901.txt
+  - ref: refs/heads/driver-core-testing
+    old: 7d90e81a2d5edbd04037100bdd54d955bdd9b0d0
+    new: 980c05616e5d554c46176fe08b5601801f2f8192
+    log: |
+         6f14c02220c791d5c46b0f965b9340c58f3d503d driver core: create class_is_registered()
+         2df418cf4b720fe3a0db4b4aab67be43d26af9dd driver core: class: remove subsystem private pointer from struct class
+         d6bdbbdfb0d45a92407b90209e377bf8c0ed49e9 driver core: clean up the logic to determine which /sys/dev/ directory to use
+         e78195d52981fc634a4e1e66610a316088bd7458 driver core: class: remove dev_kobj from struct class
+         575ab414c90a317158db48475a88de42f37e0afa driver core: make sysfs_dev_block_kobj static
+         980c05616e5d554c46176fe08b5601801f2f8192 driver core: make sysfs_dev_char_kobj static
+         
 
---===============1410441075227373795==
+--===============4439587473544595468==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b2bc47e9b201-ffa5395a7901.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-4d78e032fee5d532e189cdb2c3c76112094e9751 wifi: mac80211: drop bogus static keywords in A-MSDU rx
-a16fc38315f2c69c520ee769976ecb9c706b8560 wifi: mac80211: fix potential null pointer dereference
-dd01579e5ed922dcfcb8fec53fa03b81c7649a04 wifi: mac80211: fix the size calculation of ieee80211_ie_len_eht_cap()
-e26c0946a5c1aa4d27f8dfe78f2a72b4550df91f wifi: mac80211: fix receiving mesh packets in forwarding=0 networks
-8f0149a8ac59c12cd47271ac625c27dac5621d3a wifi: mac80211: fix mesh forwarding
-899c2c11810cfe38cb01c847d0df98e181ea5728 wifi: mac80211: fix flow dissection for forwarded packets
-12b220a6171faf10638ab683a975cadcf1a352d6 wifi: mac80211: fix invalid drv_sta_pre_rcu_remove calls for non-uploaded sta
-6b36d68cc9bb1fc85bbe54ebe2eb6b2c3beec73d Merge tag 'wireless-2023-03-30' of git://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless
-f9d2b1e146e0f82f3d04629afd92698522058361 virtio/vsock: fix leaks due to missing skb owner
-44d807320000db0d0013372ad39b53e12d52f758 net: qrtr: Fix a refcount bug in qrtr_recvmsg()
-653a180957a85c3fc30320cc7e84f5dc913a64f8 net: phylink: add phylink_expects_phy() method
-fe2cfbc9680356a3d9f8adde8a38e715831e32f5 net: stmmac: check if MAC needs to attach to a PHY
-6fc21a6ed5953b1dd3a41ce7be1ea57f5ef8c081 net: stmmac: remove redundant fixup to support fixed-link mode
-279d8ff5ec00b06a5dc9b90f3d00a5a5253aa95d Merge branch 'phy-handle-fixes'
-154e07c164859fc90bf4e8143f2f6c1af9f3a35e l2tp: generate correct module alias strings
-c5b959eeb7f9e40673b97c08c71cbfff5f5923f2 net: netcp: MAX_SKB_FRAGS is now 'int'
-362f0b6678ad1377c322a7dd237ea6785efc7342 net: wwan: t7xx: do not compile with -Werror
-ffa5395a7901e83a68d88207c4592962906641bd vsock/vmci: convert VMCI error code to -ENOMEM on send
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1680277734 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1680277734-f07ae85547846d3809a3aad0cd7405ceea3afced
 
---===============1410441075227373795==--
+7d90e81a2d5edbd04037100bdd54d955bdd9b0d0 980c05616e5d554c46176fe08b5601801f2f8192 refs/heads/driver-core-testing
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQnAOYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+FX8QAIg4coCF1tF4ZbkHSXua
+TtxXLk2HEcDjz501JkeTFSPkP136Ti/mdzz1zK7aHiXRQs4Dc/UziBUrvk+ybiXC
+v1sJMzX85jVvVLsvdspgxZQgfHXyr2E5HFwWuNpNnSgTQjdwYBiQy30UKFO6fuqI
+XyX3iJhu4k8OkU1af6J0i1Gv254wNKZZxK+m9ORKt0lwG8DR7xtGbc5DYiIuEVnu
+A5sjewAuT6aKyofo7SXg19gaakImsVqii5EQTxqyrSfazi9ZcPkxCzbWjTYE3Vvs
+srFo0r/SidrFEv6WUqKgORCaxlVvMaWXJMi4xvZZ74HlPDDS5xK3LyoeuvKPTmbK
+wyhdSMW3nY+shUhHM78H16GuLJ02H+LaLvCynWtPU2jpdaMBHRWdV2O6TTjpcA1A
+kcXH2J/iGxIfQ7ceRjw9aqxhXAZpK6dD2lmErbbZCrtHAMVdoI5Bl4LdtKZ42YHa
+xqUTTcJfzIt9GpZ4x04D4ucHrWWdXpFU57e8VgoKv9EeQ/vHhThWUGId9HK4VTrO
+eBouCr8W1RrIk5jdfgzAvE1yIHEluZ58+HnoGBTuXdR2ZaCVmfmbIBCqooUnwtKT
+dwkAdDI7lCt4RVraYiUA4NmNHBkSNf+tAGBIoT2qImUtUiX516LCtCgZexAdPiUa
+hMUWbuHyu5nvFk9RZPBgsIBC
+=69V3
+-----END PGP SIGNATURE-----
+
+--===============4439587473544595468==--
