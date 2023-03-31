@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/bluetooth/bluez
-Date: Fri, 31 Mar 2023 22:07:54 -0000
-Message-Id: <168030047496.30524.9704967068302033989@gitolite.kernel.org>
+Date: Fri, 31 Mar 2023 22:11:35 -0000
+Message-Id: <168030069583.816.18375122743265012029@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,8 @@ repo: pub/scm/bluetooth/bluez
 user: vudentz
 changes:
   - ref: refs/heads/master
-    old: 5106fe8c868d5ec69af70f299eeedad42b900f69
-    new: c4d9b99db5a6b8efb7b710818a5261634086824b
+    old: c4d9b99db5a6b8efb7b710818a5261634086824b
+    new: de8e7cfce25b8d717f5ee60ee3b79d426fdcc681
     log: |
-         f54299a850676d92c3dafd83e9174fcfe420ccc9 avrcp: Fix crash while handling unsupported events
-         c4d9b99db5a6b8efb7b710818a5261634086824b Split bt_iso_qos into dedicated structures
+         de8e7cfce25b8d717f5ee60ee3b79d426fdcc681 adapter: Use regular discovery for filters which only have discoverable set
          
