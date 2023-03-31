@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5531020310379547396=="
+Content-Type: multipart/mixed; boundary="===============4226857436524141802=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 31 Mar 2023 15:42:34 -0000
-Message-Id: <168027735442.26949.12509078580112479199@gitolite.kernel.org>
+Date: Fri, 31 Mar 2023 15:43:09 -0000
+Message-Id: <168027738978.27232.2860681605565624991@gitolite.kernel.org>
 
---===============5531020310379547396==
+--===============4226857436524141802==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 79548b7984e4c606c6caaad72a0864a83855ebc9
-    new: ee05d90d0ac7f1f6e8e3403f02a39d83e0ce6729
-    log: revlist-79548b7984e4-ee05d90d0ac7.txt
+  - ref: refs/heads/dev-queue
+    old: 84603f1eda365906fd5b192db8335566cf2b182c
+    new: fcb703c87e84edbbffb2f9a110aa264c2d5e9447
+    log: revlist-84603f1eda36-fcb703c87e84.txt
 
---===============5531020310379547396==
+--===============4226857436524141802==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-79548b7984e4-ee05d90d0ac7.txt
+Content-Disposition: attachment; filename=revlist-84603f1eda36-fcb703c87e84.txt
 
 cf8f3d4deb02a8fdc806c46d4112b69868544697 wifi: ath11k: Set ext passive scan flag to adjust passive scan start time
 778f83f889e7fca37780d9640fcbd0229ae38eaa wifi: ath6kl: minor fix for allocation size
@@ -226,5 +226,32 @@ dee1efb301f4c380f454bc84c2258b3d594c9615 Merge branch 'tools-ynl-fill-in-some-ga
 ce7928f7cf988e3f20ec3cca050838b266e9ef14 Merge tag 'wireless-next-2023-03-30' of git://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless-next
 ae63ad9b2cc766bc4b3b6328e68dd27995abb0fe macvlan: Fix mc_filter calculation
 ee05d90d0ac7f1f6e8e3403f02a39d83e0ce6729 tcp: Refine SYN handling for PAWS.
+2e16341179f989ddc9ac82f1423ab6283b87a980 ice: Write all GNSS buffers instead of first one
+f29a2431ac794f25465949f8dcd1a92aede9adaf ice: remove comment about not supporting driver reinit
+89bd86dbee29420c0ee1bb7fc4842b1124b04144 ixgbe: Panic during XDP_TX with > 64 CPUs
+f64550d7dd41781418dea86e77a1fb645747cee6 ice: identify aRFS flows using L3/L4 dissector info
+67ea59724010b9fca9310d0275132b4ea289ca0a ice: clear number of qs when rings are free
+1faa315ede95914cff8a2c229016a46963a4b12f i40e: Add support for VF to specify its primary MAC address
+edf2f2358aa587175e0ac3a7bf00d82253606e83 ice: fix wrong fallback logic for FDIR
+46ff8b793a1b0bab76089a9abbbbf9b925abaaa2 ice: Support 5 layer topology
+b9b0a0711b6be0453e1232503cebe8cf7b91adb8 ice: Adjust the VSI/Aggregator layers
+87cbe8857927374b02b2f57cf2d09432c185eefe ice: Enable switching default tx scheduler topology
+789a69c4758a2f15ad2c58409afa2b943a02f6fe ice: Add txbalancing devlink param
+b6a088f189b9538849b0ca78010aad98e94b3471 ice: Document txbalancing parameter
+57ccdf25e6b69bcba995c42d64455a36e190517a ice: move interrupt related code to separate file
+309dd09ef4a0b3665260fc38559b189210087592 ice: use pci_irq_vector helper function
+1648627a3ab61a9a6c098632809facfa7cd7ab80 ice: use preferred MSIX allocation api
+3b16f72d29e408f665d57f86647bf9c817b9815a ice: refactor VF control VSI interrupt handling
+b82b65c6c4287ef658678209ed0798277f173c65 ice: remove redundant SRIOV code
+9708451fcbfe9b1aef1afddf4ce2dae9f9460bae ice: add individual interrupt allocation
+e8b46bdf084d35fa83db57a22be75796a9fdeb5d ice: track interrupt vectors with xarray
+e608cd3e09df611b246bc7d2aaf5a3c5d627a5ff ice: add dynamic interrupt allocation
+3682eb4f6c311addb39ecbe43528e3244a7487cf e1000e: Disable TSO on i219-LM card to increase speed
+f03a1fc5efc7cf65502aba1b2a7e0cebfdfb70b3 i40e: fix accessing vsi->active_filters without holding lock
+edf8ed730ed87cfd06f82cb68a01a3226234377a iavf: refactor VLAN filter states
+de9c951534559767e294fd4fe3b06e9ead678678 iavf: remove active_cvlans and active_svlans bitmaps
+680e79f349ba3a4990a928af135db7b64cf7b791 ice: Reset FDIR counter in FDIR init stage
+527f0bba6ae020429d433a988fad01da06e34d68 Documentation/eth/intel: Update address for driver support
+fcb703c87e84edbbffb2f9a110aa264c2d5e9447 Documentation/eth/intel: Remove references to SourceForge
 
---===============5531020310379547396==--
+--===============4226857436524141802==--
