@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1304279955686718122=="
+Content-Type: multipart/mixed; boundary="===============1510925765116013181=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Fri, 31 Mar 2023 19:42:45 -0000
-Message-Id: <168029176561.29415.3331416674401752020@gitolite.kernel.org>
+Date: Fri, 31 Mar 2023 19:43:12 -0000
+Message-Id: <168029179225.29661.8530973171697802558@gitolite.kernel.org>
 
---===============1304279955686718122==
+--===============1510925765116013181==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tiwai/sound
 user: tiwai
 changes:
-  - ref: refs/heads/for-linus
-    old: 9fdc1605c504204e0fdec7892b29c916579e06f3
-    new: 36d4d213c6d4fffae2645a601e8ae996de4c3645
-    log: revlist-9fdc1605c504-36d4d213c6d4.txt
+  - ref: refs/heads/master
+    old: c513e9b6e0632233082203a6a92fff18fbf9bc6f
+    new: 02915b5796a8dfb7c080448a9c754877f14838ce
+    log: revlist-c513e9b6e063-02915b5796a8.txt
 
---===============1304279955686718122==
+--===============1510925765116013181==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-9fdc1605c504-36d4d213c6d4.txt
+Content-Disposition: attachment; filename=revlist-c513e9b6e063-02915b5796a8.txt
 
 7245e629dcaaf308f1868aeffa218e9849c77893 drm/cirrus: NULL-check pipe->plane.state->fb in cirrus_pipe_update()
 3638a820c5c3b52f327cebb174fd4274bee08aa7 drm/nouveau/kms/nv50: fix nv50_wndw_new_ prototype
@@ -322,5 +322,6 @@ f6887a71bdd2f0dcba9b8180dd2223cfa8637e85 ASoC: hdac_hdmi: use set_stream() inste
 e3720f92e0237921da537e47a0b24e27899203f8 ASoC: SOF: avoid a NULL dereference with unsupported widgets
 f43359501e2d70ba8a68f2302c1009d9194fc60d Merge tag 'asoc-fix-v6.3-rc4' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
 36d4d213c6d4fffae2645a601e8ae996de4c3645 ALSA: hda/realtek: Add quirk for Clevo X370SNW
+02915b5796a8dfb7c080448a9c754877f14838ce Merge branch 'for-linus'
 
---===============1304279955686718122==--
+--===============1510925765116013181==--
