@@ -1,55 +1,83 @@
-Content-Type: multipart/mixed; boundary="===============0483723557305199912=="
+Content-Type: multipart/mixed; boundary="===============4766715983424402518=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/trace/linux-trace
-Date: Fri, 31 Mar 2023 11:40:43 -0000
-Message-Id: <168026284345.28454.11501049168977951894@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/joro/iommu
+Date: Fri, 31 Mar 2023 11:52:05 -0000
+Message-Id: <168026352580.4090.4359453036651590973@gitolite.kernel.org>
 
---===============0483723557305199912==
+--===============4766715983424402518==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/trace/linux-trace
-user: rostedt
+repo: pub/scm/linux/kernel/git/joro/iommu
+user: joro
 changes:
-  - ref: refs/heads/for-next
-    old: cd17e0c74a07d637ad3f3578f7c478edb0255c66
-    new: 88fe1ec75fcb296579e05eaf3807da3ee83137e4
-    log: revlist-cd17e0c74a07-88fe1ec75fcb.txt
+  - ref: refs/heads/core
+    old: c33fcc13ee0d02efe5729588e8fba8b899c8879a
+    new: 99b5726b44230329f35b4c4d7fe1577d4f4edb31
+    log: |
+         760f41d182ec94a651977e70045fd61b57973408 iommu/vt-d: Remove virtual command interface
+         cd3891158a77685aee6129f7374a018d13540b2c iommu/sva: Move PASID helpers to sva code
+         2bef9ba8aefc211674427a0db046a773001b3329 iommu/sva: Remove PASID to mm lookup function
+         4e14176ab13fb6986dd079c711d46b70712da2f1 iommu/sva: Stop using ioasid_set for SVA
+         1a14bf0fc7ed9476284cd6ab358c783fd9a0cb5b iommu/sva: Use GFP_KERNEL for pasid allocation
+         fffaed1e24b8d114e958d180cb4a8aed3febbb5a iommu/ioasid: Rename INVALID_IOASID
+         99b5726b44230329f35b4c4d7fe1577d4f4edb31 iommu: Remove ioasid infrastructure
+         
+  - ref: refs/heads/iommu/fixes
+    old: f91bf3272a18356e8585f6bbba896d794632f2af
+    new: 16812c96550c30a8d5743167ef4e462d6fbe7472
+    log: |
+         c7d624520c1bd4e42d8ceb8283d6505fc90acccb iommu/vt-d: Remove unnecessary locking in intel_irq_remapping_alloc()
+         bfd3c6b9fa4a1dc78139dd1621d5bea321ffa69d iommu/vt-d: Allow zero SAGAW if second-stage not supported
+         16812c96550c30a8d5743167ef4e462d6fbe7472 iommu/vt-d: Fix an IOMMU perfmon warning when CPU hotplug
+         
+  - ref: refs/heads/next
+    old: b266151aed18a29e1dc1d50bf140b7d5c8687054
+    new: 43a31380ed6e16ad08675de5e68b5e4d05cf8716
+    log: revlist-b266151aed18-43a31380ed6e.txt
+  - ref: refs/heads/unisoc
+    old: e8d018dd0257f744ca50a729e3d042cf2ec9da65
+    new: 816c698c052471f525bea92ff0aeeda8a5844a85
+    log: |
+         9afea57384d4ae7b2034593eac7fa76c7122762a iommu/sprd: Release dma buffer to avoid memory leak
+         816c698c052471f525bea92ff0aeeda8a5844a85 iommu/sprd: Add support for reattaching an existing domain
+         
+  - ref: refs/heads/platform-remove_new
+    old: 0000000000000000000000000000000000000000
+    new: 421b6093f5ac3edf9cb79f36e79b7e2d51d6182b
 
---===============0483723557305199912==
+--===============4766715983424402518==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cd17e0c74a07-88fe1ec75fcb.txt
+Content-Disposition: attachment; filename=revlist-b266151aed18-43a31380ed6e.txt
 
-76d0de5729c0569c4071e7f21fcab394e502f03a fprobe: Pass entry_data to handlers
-34cabf8fd18f31c773b489d4113fbf6cb5b964c9 lib/test_fprobe: Add private entry_data testcases
-59a7a298565aa0ce44ce8e4fbcbb89a19730013a fprobe: Add nr_maxactive to specify rethook_node pool size
-7e7ef1bfe5522faab6f245ced7b6749e9ac410d8 lib/test_fprobe: Add a test case for nr_maxactive
-39d954200bf6ad503c722e44d0be80c7b826fa42 fprobe: Skip exit_handler if entry_handler returns !0
-87de2163a36b3ffb0d2e0df8e903dc7e30566548 lib/test_fprobe: Add a testcase for skipping exit_handler
-8be098a9eb2710bc5381ba1ebaac660f8d9b6963 docs: tracing: Update fprobe documentation
-4336cc15b9f7b34bc0ddc85c76f71be6a0355028 selftests: use canonical ftrace path
-d1c27c55427e3fe54c1bc22bd4d40fc21ff5406c leaking_addresses: also skip canonical ftrace path
-c2f92e8b2d24615acda3fc571180d8b44a710df5 tools/kvm_stat: use canonical ftrace path
-80a76994b2d88161697bd92b8b6367d9040dbe2a tracing: Add "fields" option to show raw trace event fields
-e5a26a4048eeb9558e5c84f340a989c78db4adf4 tracing/user_events: Split header into uapi and kernel
-fd593511cdfc0b0e38af2eb21c99f5154a1d7acf tracing/user_events: Track fork/exec/exit for mm lifetime
-7235759084a4f8524a46bd2638885ff3b34ce279 tracing/user_events: Use remote writes for event enablement
-81f8fb65499817a4d1d5d66d9e74a903061ce637 tracing/user_events: Fixup enable faults asyncly
-dcb8177c13953872c9e5ce4a99b63a87a3c2f683 tracing/user_events: Add ioctl for disabling addresses
-0d309f04f8089759bed62bf6c8a805b31d725cb8 tracing/user_events: Update self-tests to write ABI
-60b1af8de8c17f0edc86dc55c0bea9be3bb41626 tracing/user_events: Add ABI self-test
-9211ddaa78261373b50711c84de978cff8e2bd17 tracing/user_events: Use write ABI in example
-27dc2ae7c8d88a23014a74171b2194f8d47ecca7 tracing/user_events: Update documentation for ABI
-f9cce238ee287a2aa580de1a0187390d6ffdcdeb tracing/user_events: Charge event allocs to cgroups
-ce58e96e9fe24022312ee1eeefb18ed460efdb18 tracing/user_events: Limit global user_event count
-a4c40c1349e32f9510707ed09e0961626980d8cb tracing/user_events: Align structs with tabs for readability
-4bec284cc0b99d880c3fb00fe0d2af7a0c285db3 tracing/user_events: Use print_format_fields() for trace output
-88fe1ec75fcb296579e05eaf3807da3ee83137e4 tracing: Unbreak user events
+a2972cb89935160bfe515b15d28a77694723ac06 iommu/arm-smmu: Drop if with an always false condition
+f80473183b40bb98a7499c61091c3c55b646f387 iommu/apple-dart: Convert to platform remove callback returning void
+66c7076f7636f197d8a67416961037d6d2d7b4df iommu/arm-smmu-v3: Convert to platform remove callback returning void
+62565a77c2323d32f2be737455729ac7d3efe6ad iommu/arm-smmu: Convert to platform remove callback returning void
+7471ea50eae448953126c285e8ee0351db5e2b44 iommu/ipmmu-vmsa: Convert to platform remove callback returning void
+816a4afce133e75f5977bbf0f4c24c02280b1a99 iommu/msm: Convert to platform remove callback returning void
+d8149d39299ec89125a1cb35cdd77defd7a79deb iommu/mtk: Convert to platform remove callback returning void
+85e1049e50da9409678fc247ebad4c019d68041f iommu/mtk_iommu_v1: Convert to platform remove callback returning void
+5930df68aec6cc63ea8525c75561dfb203a9441f iommu/omap: Convert to platform remove callback returning void
+421b6093f5ac3edf9cb79f36e79b7e2d51d6182b iommu/sprd: Convert to platform remove callback returning void
+760f41d182ec94a651977e70045fd61b57973408 iommu/vt-d: Remove virtual command interface
+cd3891158a77685aee6129f7374a018d13540b2c iommu/sva: Move PASID helpers to sva code
+2bef9ba8aefc211674427a0db046a773001b3329 iommu/sva: Remove PASID to mm lookup function
+4e14176ab13fb6986dd079c711d46b70712da2f1 iommu/sva: Stop using ioasid_set for SVA
+1a14bf0fc7ed9476284cd6ab358c783fd9a0cb5b iommu/sva: Use GFP_KERNEL for pasid allocation
+fffaed1e24b8d114e958d180cb4a8aed3febbb5a iommu/ioasid: Rename INVALID_IOASID
+99b5726b44230329f35b4c4d7fe1577d4f4edb31 iommu: Remove ioasid infrastructure
+c7d624520c1bd4e42d8ceb8283d6505fc90acccb iommu/vt-d: Remove unnecessary locking in intel_irq_remapping_alloc()
+bfd3c6b9fa4a1dc78139dd1621d5bea321ffa69d iommu/vt-d: Allow zero SAGAW if second-stage not supported
+16812c96550c30a8d5743167ef4e462d6fbe7472 iommu/vt-d: Fix an IOMMU perfmon warning when CPU hotplug
+9afea57384d4ae7b2034593eac7fa76c7122762a iommu/sprd: Release dma buffer to avoid memory leak
+816c698c052471f525bea92ff0aeeda8a5844a85 iommu/sprd: Add support for reattaching an existing domain
+43a31380ed6e16ad08675de5e68b5e4d05cf8716 Merge branches 'iommu/fixes', 'arm/allwinner', 'arm/mediatek', 'arm/omap', 'arm/renesas', 'ppc/pamu', 'unisoc', 'x86/amd', 'core' and 'platform-remove_new' into next
 
---===============0483723557305199912==--
+--===============4766715983424402518==--
