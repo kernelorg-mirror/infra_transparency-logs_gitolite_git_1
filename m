@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============8606586625662574568=="
+Content-Type: multipart/mixed; boundary="===============4648974306819359566=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux
-Date: Fri, 31 Mar 2023 16:18:06 -0000
-Message-Id: <168027948665.20073.12849167996648530602@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
+Date: Fri, 31 Mar 2023 16:18:14 -0000
+Message-Id: <168027949422.20200.4111499885043057664@gitolite.kernel.org>
 
---===============8606586625662574568==
+--===============4648974306819359566==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux
+repo: pub/scm/linux/kernel/git/amlogic/linux
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: 62bad54b26db8bc98e28749cd76b2d890edb4258
     log: revlist-fcd476ea6a88-62bad54b26db.txt
 
---===============8606586625662574568==
+--===============4648974306819359566==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -154,4 +154,4 @@ b2bc47e9b2011a183f9d3d3454a294a938082fb9 Merge tag 'net-6.3-rc5' of git://git.ke
 10f76dc3abb4d8fbc2cee7a63fda22e8b08628b2 Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 62bad54b26db8bc98e28749cd76b2d890edb4258 Merge tag 'dma-mapping-6.3-2023-03-31' of git://git.infradead.org/users/hch/dma-mapping
 
---===============8606586625662574568==--
+--===============4648974306819359566==--
