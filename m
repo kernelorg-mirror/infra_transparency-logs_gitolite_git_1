@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1521813633004631375=="
+Content-Type: multipart/mixed; boundary="===============4369172128972049743=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Fri, 31 Mar 2023 15:49:03 -0000
-Message-Id: <168027774368.32118.4835620519909599971@gitolite.kernel.org>
+Date: Fri, 31 Mar 2023 15:49:36 -0000
+Message-Id: <168027777696.32366.14375005635098408049@gitolite.kernel.org>
 
---===============1521813633004631375==
+--===============4369172128972049743==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: b2bc47e9b2011a183f9d3d3454a294a938082fb9
-    new: ffa5395a7901e83a68d88207c4592962906641bd
-    log: revlist-b2bc47e9b201-ffa5395a7901.txt
+  - ref: refs/heads/dev-queue
+    old: 931603ac2ca6f7733f73f554f44f776e07ceda5f
+    new: 4863fc6c4c285f8ed68ac3460ea95c8d28a67637
+    log: revlist-931603ac2ca6-4863fc6c4c28.txt
 
---===============1521813633004631375==
+--===============4369172128972049743==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b2bc47e9b201-ffa5395a7901.txt
+Content-Disposition: attachment; filename=revlist-931603ac2ca6-4863fc6c4c28.txt
 
 4d78e032fee5d532e189cdb2c3c76112094e9751 wifi: mac80211: drop bogus static keywords in A-MSDU rx
 a16fc38315f2c69c520ee769976ecb9c706b8560 wifi: mac80211: fix potential null pointer dereference
@@ -44,5 +44,15 @@ fe2cfbc9680356a3d9f8adde8a38e715831e32f5 net: stmmac: check if MAC needs to atta
 c5b959eeb7f9e40673b97c08c71cbfff5f5923f2 net: netcp: MAX_SKB_FRAGS is now 'int'
 362f0b6678ad1377c322a7dd237ea6785efc7342 net: wwan: t7xx: do not compile with -Werror
 ffa5395a7901e83a68d88207c4592962906641bd vsock/vmci: convert VMCI error code to -ENOMEM on send
+f44723f46d622ea4d650f26f8776c1f77444de0f ice: Write all GNSS buffers instead of first one
+420dc38b35ba50852f4dc6b7f16e67f9057f9b13 ixgbe: Panic during XDP_TX with > 64 CPUs
+5e97bb8510b3d506a2937af08e09c8d1cc8978ef ice: identify aRFS flows using L3/L4 dissector info
+d4a1211ce5d269f9072517914d184f7630f4ac67 ice: clear number of qs when rings are free
+c2a4b61c2d8e6d5b51f62d9094922614bd214461 ice: fix wrong fallback logic for FDIR
+12cb2c18708a3b83cbeb486e8cafe67e49abbaf9 e1000e: Disable TSO on i219-LM card to increase speed
+01fab6471664f7be1511131eb85623b84f598275 i40e: fix accessing vsi->active_filters without holding lock
+a1bd48b7e309b0b02e16ff8e2c3787fc6f9d774e iavf: refactor VLAN filter states
+0dafee7e531474eb9ca0d0a86d8b64c6b87a25fa iavf: remove active_cvlans and active_svlans bitmaps
+4863fc6c4c285f8ed68ac3460ea95c8d28a67637 ice: Reset FDIR counter in FDIR init stage
 
---===============1521813633004631375==--
+--===============4369172128972049743==--
