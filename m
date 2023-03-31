@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Fri, 31 Mar 2023 15:02:36 -0000
-Message-Id: <168027495607.540.17889871804582128156@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless
+Date: Fri, 31 Mar 2023 15:03:52 -0000
+Message-Id: <168027503270.1087.10736375369040641671@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
-user: broonie
+repo: pub/scm/linux/kernel/git/wireless/wireless
+user: kvalo
 changes:
-  - ref: refs/heads/for-next
-    old: cfad817095e111b640c7d538b9f182d2535ee065
-    new: 276d8c08e82b9f6062f6febc7bc63913829bde27
+  - ref: refs/heads/main
+    old: 12b220a6171faf10638ab683a975cadcf1a352d6
+    new: eb85df0a5643612285f61f38122564498d0c49f7
     log: |
-         18c0af945fa35766730d3f729adcf417a3d1ad5d ASoC: max98363: add soundwire amplifier driver
-         276d8c08e82b9f6062f6febc7bc63913829bde27 ASoC: dt-bindings: max98363: add soundwire amplifier
+         e4efa515d58f1363d8a27e548f9c5769d3121e03 wifi: brcmfmac: Fix SDIO suspend/resume regression
+         2ceb76f734e37833824b7fab6af17c999eb48d2b wifi: mt76: mt7921: Fix use-after-free in fw features query.
+         eb85df0a5643612285f61f38122564498d0c49f7 wifi: mt76: mt7921: fix fw used for offload check for mt7922
          
