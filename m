@@ -1,75 +1,43 @@
-Content-Type: multipart/mixed; boundary="===============2387721000545126098=="
+Content-Type: multipart/mixed; boundary="===============8196557113115060894=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Fri, 31 Mar 2023 13:25:52 -0000
-Message-Id: <168026915252.1956.15573337984733300502@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vkoul/soundwire
+Date: Fri, 31 Mar 2023 13:27:46 -0000
+Message-Id: <168026926639.2641.2954030620897418576@gitolite.kernel.org>
 
---===============2387721000545126098==
+--===============8196557113115060894==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/driver-core
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/vkoul/soundwire
+user: vkoul
 changes:
-  - ref: refs/heads/class_cleanup
-    old: 26128bc1e61f2af9f32442292ccc7a29d32a54fb
-    new: b52a15e1e5faf1b010dbd91dc675daef6d377e45
-    log: revlist-26128bc1e61f-b52a15e1e5fa.txt
+  - ref: refs/heads/next
+    old: 6c469871e801ce415bd05261e6598a7b4b1c8f75
+    new: 8f806c0f3363efbfbc898f5d1ce85c806141a71b
+    log: revlist-6c469871e801-8f806c0f3363.txt
 
---===============2387721000545126098==
+--===============8196557113115060894==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-6c469871e801-8f806c0f3363.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1680269151 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1680269151-fdff4c327dcbbc7151b6bbceabc51341f6e510e6
+1125fb0082d6dfe240c330393ecfde34e7d757ce soundwire: export sdw_compute_slave_ports() function
+a673a8dfc21463fcd28a614ea6ce71a4c2243187 soundwire: amd: Add support for AMD Manager driver
+f36f21b4b41096b5a12e85e32e1174fb14933782 soundwire: amd: register SoundWire manager dai ops
+914a1d19b9250f942edfbaf06c66c84c67b573a6 soundwire: amd: enable build for AMD SoundWire manager driver
+e42c6c9d9e0c6a128afff5454743ee4d0bcd5c1e soundwire: amd: add SoundWire manager interrupt handling
+74b9a5a2bf5a26635a657d35b7e613978eacf08a soundwire: amd: add runtime pm ops for AMD SoundWire manager driver
+7f399b0243446cabe1b1f986df82d99748473479 soundwire: amd: handle SoundWire wake enable interrupt
+58b0e0fe50352502c60cc0e5f20cfc6097ef3fad soundwire: amd: add pm_prepare callback and pm ops support
+64f41f7be1d979af9f6271291dc767b6b6d98ae2 soundwire: stream: remove bus->dev from logs on multiple buses
+536ebb990069b6460bbb423b9a1496c63b67b3ce soundwire: stream: uniquify dev_err() logs
+6a5e00a0c657c361f6fce5076b617ace15a1005e soundwire: bus: Remove now outdated comments on no_pm IO
+3eb4328461279ba8d56e9bebef400acb2f50fac6 soundwire: bus: Update kernel doc for no_pm functions
+8f806c0f3363efbfbc898f5d1ce85c806141a71b soundwire: bus: Update sdw_nread/nwrite_no_pm to handle page boundaries
 
-26128bc1e61f2af9f32442292ccc7a29d32a54fb b52a15e1e5faf1b010dbd91dc675daef6d377e45 refs/heads/class_cleanup
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQm318bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+SjkQAIU4HhiwjuGPXZZn3Sb1
-6bZmo6lacIqBoP2tPW+1hTt3QxLKJw0EiPoxK22/+9DAnlcpgmiPHSNkv1lZQ4nz
-FIIJ48X68Bup1dwh3olwktnfv321OapgVnqHiGKhX1gdCsU+bB1I/wqkiGEz+btK
-sCsQag22OJgpNcF1EZHN6rnJkaizrnQYQS+kObTJMSsKxpD7RZDpXB99Si/vVO7h
-wtaiwd0p8H+R15ct3nUrGO4Ey/JruBpQUZnV4Vohyd/2nRbPyr9nM0WENK6K7QcR
-UMF/Pz3dAP6fPdDMUmwe1eGZxKHOfKiSgQnie3rqH+dvxRgjQTWWQ+pVyrooyLsY
-mgyAvujtIQttdYze9P57GYMjGu+jacJ0FumGHumHPxZLuwE21DrJ8yTDRTGu+5Ge
-FDqX+rPC1u1UqjarkqGZHjDCQg9LHSAoq1PXussUIOeaSKVFceK+5Bh4dva77tVM
-1NwEoXgETb6PFkNfo52k3EPSVttkIxSoNd7Sc2QKxDs2HdQr8lggeh2udOwOWc2A
-197Rs2o+b9xZSe0UdQZxKSFZ43f+YKYRMJB09oArR0CfuZbVxOe0bPb+EOSQYXbE
-69y30QeDky40ewvtvmJA8JlUYQTw2l5FWzIYWp1+u2QyrTsSXzIElCh665296JZP
-B3l6upGvogp7bjadxFngLUKG
-=3zP4
------END PGP SIGNATURE-----
-
---===============2387721000545126098==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-26128bc1e61f-b52a15e1e5fa.txt
-
-7d90e81a2d5edbd04037100bdd54d955bdd9b0d0 driver core: core: move to use class_to_subsys()
-c2612cb0f5c8989d51e2a93a36792f307eefdaed driver core: create class_is_registered()
-9e80247b54f6dc6d68872e19d14affa303f0bf64 driver core: class: remove subsystem private pointer from struct class
-6127f29176fd33d5f66b46dfef8f04e80f7249ab driver core: clean up the logic to determine which /sys/dev/ directory to use
-1a73c3197a24212eaab335cad102da77d75e6f92 driver core: class: remove dev_kobj from struct class
-0b61cfa0b4dc2987afc1e02956a74f3297f86b25 driver core: make sysfs_dev_block_kobj static
-bf26140d13a1922d27838bc5f47b9baa1b6891ac driver core: make sysfs_dev_char_kobj static
-f92027771b1afacc25439af95600cf301cb8b337 pktcdvd: simplify the class_pktcdvd logic
-020ff5480bc1d5e2a440c9c73ade3b3f78c75ed1 driver core: class: mark class_release() as taking a const *
-2f098957ddbf75447b65add2a47d6010f11673a8 driver core: class: make class_register() take a const *
-685bf2db9b90e926c9fb3f10f702f6359fa0ae1c driver core: class: mark the struct class in struct class_interface constant
-96bfbe0054aea654a5aee076a31b4915005ea932 driver core: class: remove struct class_interface * from callbacks
-4d075ad63cc52c2a8d762022fab84e8285556684 tty: make tty_class a static const structure
-b52a15e1e5faf1b010dbd91dc675daef6d377e45 driver core: convert class_create() to class_register()
-
---===============2387721000545126098==--
+--===============8196557113115060894==--
