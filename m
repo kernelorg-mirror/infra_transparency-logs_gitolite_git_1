@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1084171083490773871=="
+Content-Type: multipart/mixed; boundary="===============5531020310379547396=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 31 Mar 2023 15:41:37 -0000
-Message-Id: <168027729739.26581.10620941416213171977@gitolite.kernel.org>
+Date: Fri, 31 Mar 2023 15:42:34 -0000
+Message-Id: <168027735442.26949.12509078580112479199@gitolite.kernel.org>
 
---===============1084171083490773871==
+--===============5531020310379547396==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/main
     old: 79548b7984e4c606c6caaad72a0864a83855ebc9
     new: ee05d90d0ac7f1f6e8e3403f02a39d83e0ce6729
     log: revlist-79548b7984e4-ee05d90d0ac7.txt
 
---===============1084171083490773871==
+--===============5531020310379547396==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -227,4 +227,4 @@ ce7928f7cf988e3f20ec3cca050838b266e9ef14 Merge tag 'wireless-next-2023-03-30' of
 ae63ad9b2cc766bc4b3b6328e68dd27995abb0fe macvlan: Fix mc_filter calculation
 ee05d90d0ac7f1f6e8e3403f02a39d83e0ce6729 tcp: Refine SYN handling for PAWS.
 
---===============1084171083490773871==--
+--===============5531020310379547396==--
