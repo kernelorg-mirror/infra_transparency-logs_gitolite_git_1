@@ -1,23 +1,35 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Fri, 31 Mar 2023 06:30:36 -0000
-Message-Id: <168024423673.3393.5615048473991765857@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
+Date: Fri, 31 Mar 2023 06:53:08 -0000
+Message-Id: <168024558862.17862.8116391819978737215@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/xiang/erofs
+user: xiang
 changes:
-  - ref: refs/heads/main
-    old: 709d0b880ceae9503ce4282fcfaf4cb59c6dd267
-    new: dee1efb301f4c380f454bc84c2258b3d594c9615
+  - ref: refs/heads/dev
+    old: 13ca2171581d15a38dd20ee9f73e22391cf930e2
+    new: 137cc04b44a55c74c814dd99ebc75886b42a0cf5
     log: |
-         9f7cc57fe5508c495d3a75efd7f942aeec0013e0 tools: ynl: support byte-order in cli
-         a353318ebf24100bcc7254d293cd9f041f4075dd tools: ynl: populate most of the ethtool spec
-         48993e22d23ae1bda1db3616f5d9baa4e7b18d35 tools: ynl: replace print with NlError
-         f3d07b02b2b8eba5b0e168405614e15cd6617a43 tools: ynl: ethtool testing tool
-         dee1efb301f4c380f454bc84c2258b3d594c9615 Merge branch 'tools-ynl-fill-in-some-gaps-of-ethtool-spec'
+         8d82d413b2a8a6f1c5ba2b079db3d372837819ea erofs: set block size to the on-disk block size
+         16ee46365206d43c9d75d492aff9c55ec0c60d60 erofs: support flattened block device for multi-blob images
+         acecfb4c545ce1496eec862cc273dfc23802eafd erofs: tidy up EROFS on-disk naming
+         7fc27a2cf02381b5023495fa6e0f36da5576bd25 erofs: move several xattr helpers into xattr.c
+         652f13cafd119c7ff9831daa17bfccda7b932045 erofs: rename init_inode_xattrs with erofs_ prefix
+         137cc04b44a55c74c814dd99ebc75886b42a0cf5 erofs: simplify erofs_xattr_generic_get()
+         
+  - ref: refs/heads/dev-test
+    old: b63362b35d9c20c4cd6a8becf06f3031d6f820e1
+    new: 137cc04b44a55c74c814dd99ebc75886b42a0cf5
+    log: |
+         8d82d413b2a8a6f1c5ba2b079db3d372837819ea erofs: set block size to the on-disk block size
+         16ee46365206d43c9d75d492aff9c55ec0c60d60 erofs: support flattened block device for multi-blob images
+         acecfb4c545ce1496eec862cc273dfc23802eafd erofs: tidy up EROFS on-disk naming
+         7fc27a2cf02381b5023495fa6e0f36da5576bd25 erofs: move several xattr helpers into xattr.c
+         652f13cafd119c7ff9831daa17bfccda7b932045 erofs: rename init_inode_xattrs with erofs_ prefix
+         137cc04b44a55c74c814dd99ebc75886b42a0cf5 erofs: simplify erofs_xattr_generic_get()
          
