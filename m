@@ -1,26 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Sat, 01 Apr 2023 16:06:24 -0000
-Message-Id: <168036518441.14619.12351802573014207536@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Sat, 01 Apr 2023 16:06:28 -0000
+Message-Id: <168036518856.14748.16181048538076207876@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: ast
 changes:
-  - ref: refs/heads/for-linus
-    old: 36d4d213c6d4fffae2645a601e8ae996de4c3645
-    new: f785f5ee968f7045268b8be6b0abc850c4a4277c
-    log: |
-         f785f5ee968f7045268b8be6b0abc850c4a4277c ALSA: hda/hdmi: Preserve the previous PCM device upon re-enablement
-         
   - ref: refs/heads/master
-    old: 02915b5796a8dfb7c080448a9c754877f14838ce
-    new: 96106b5db9c54c7888500f708543a9e3508693a7
+    old: 9af0f555ae4add25f0950753fb410c509aa71f50
+    new: 8585005823863230afe37e5794ecd992ffc5f34d
     log: |
-         f785f5ee968f7045268b8be6b0abc850c4a4277c ALSA: hda/hdmi: Preserve the previous PCM device upon re-enablement
-         96106b5db9c54c7888500f708543a9e3508693a7 Merge branch 'for-linus'
+         3ed85ae80283885ef8491d07cdcd7124328bed35 veristat: relicense veristat.c as dual GPL-2.0-only or BSD-2-Clause licensed
+         71c8c39f517787af19d9f35fe60463f7eec914e1 veristat: improve version reporting
+         e3b65c0c1a5b8ed06818b7eeb0c44165ea817d52 veristat: avoid using kernel-internal headers
+         ebf390c9d0136e01f327439c012ab5741971e72d veristat: small fixed found in -O2 mode
+         8585005823863230afe37e5794ecd992ffc5f34d Merge branch 'Prepare veristat for packaging'
          
