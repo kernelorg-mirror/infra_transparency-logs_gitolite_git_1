@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Sat, 01 Apr 2023 18:12:44 -0000
-Message-Id: <168037276488.649.5251626035829098763@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/thermal/linux
+Date: Sat, 01 Apr 2023 19:01:20 -0000
+Message-Id: <168037568053.1566.495575719447420759@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/thermal/linux
+user: daniel.lezcano
 changes:
-  - ref: refs/heads/master
-    old: 12470db08b5b7e0417ab417354da981773dd18a8
-    new: 17642220e70b8c04ab05152b65ddd7a765ff54ba
-    log: |
-         17642220e70b8c04ab05152b65ddd7a765ff54ba Sat Apr  1 06:11:49 PM UTC 2023
-         
+  - ref: refs/tags/thermal-v6.4-rc1-1
+    old: 0000000000000000000000000000000000000000
+    new: 5ddf9a354230fb628a57e706259a68a8ec9bcc4a
