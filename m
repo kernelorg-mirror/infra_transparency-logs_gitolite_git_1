@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Sat, 01 Apr 2023 16:06:34 -0000
-Message-Id: <168036519406.14846.434896267421351817@gitolite.kernel.org>
+Date: Sat, 01 Apr 2023 16:12:03 -0000
+Message-Id: <168036552369.18161.3405944703568988270@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,13 +11,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/for-next
-    old: 9af0f555ae4add25f0950753fb410c509aa71f50
-    new: 8585005823863230afe37e5794ecd992ffc5f34d
+  - ref: refs/heads/master
+    old: 8585005823863230afe37e5794ecd992ffc5f34d
+    new: a033907e7b34505ab281b6207750f55c98c69156
     log: |
-         3ed85ae80283885ef8491d07cdcd7124328bed35 veristat: relicense veristat.c as dual GPL-2.0-only or BSD-2-Clause licensed
-         71c8c39f517787af19d9f35fe60463f7eec914e1 veristat: improve version reporting
-         e3b65c0c1a5b8ed06818b7eeb0c44165ea817d52 veristat: avoid using kernel-internal headers
-         ebf390c9d0136e01f327439c012ab5741971e72d veristat: small fixed found in -O2 mode
-         8585005823863230afe37e5794ecd992ffc5f34d Merge branch 'Prepare veristat for packaging'
+         d02c48fa113953aba0b330ec6c35f50c7d1d7986 bpf: Make struct task_struct an RCU-safe type
+         f85671c6ef46d490a90dac719e0c0e0adbacfd9b bpf: Remove now-defunct task kfuncs
+         db9d479ab59b21d719486e6bf673f83f129dae32 bpf,docs: Update documentation to reflect new task kfuncs
+         a033907e7b34505ab281b6207750f55c98c69156 Merge branch 'Enable RCU semantics for task kptrs'
          
