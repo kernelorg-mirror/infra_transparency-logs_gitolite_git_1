@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4417686725391433564=="
+Content-Type: multipart/mixed; boundary="===============1180361436043427153=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Sun, 02 Apr 2023 08:37:24 -0000
-Message-Id: <168042464400.22250.2022108364367359893@gitolite.kernel.org>
+Date: Sun, 02 Apr 2023 08:54:20 -0000
+Message-Id: <168042566078.1249.2950026102398037800@gitolite.kernel.org>
 
---===============4417686725391433564==
+--===============1180361436043427153==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,41 +16,41 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/class_cleanup
-    old: 3c67c8b50a42b564a2bd0f67ff1cadbce1225b0e
-    new: 4a753a9cb59294c67a889a22966910d68090512a
+  - ref: refs/heads/driver-core-testing
+    old: f326ea63ecc683b3dc88d8ee4f598598d4ed3b39
+    new: 43ba3d4af7a73ae958207caada6af0612d67f08e
     log: |
-         4a753a9cb59294c67a889a22966910d68090512a MIPS: vpe-cmp: remove module owner pointer from struct class usage.
+         43ba3d4af7a73ae958207caada6af0612d67f08e pktcdvd: simplify the class_pktcdvd logic
          
 
---===============4417686725391433564==
+--===============1180361436043427153==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1680424643 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1680425659 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1680424642-27dd562ad93de49dcb6d808a1de27bb532f02da4
+nonce 1680425659-d6c802aabc5a48c723fdfdc73b8633331480dbba
 
-3c67c8b50a42b564a2bd0f67ff1cadbce1225b0e 4a753a9cb59294c67a889a22966910d68090512a refs/heads/class_cleanup
+f326ea63ecc683b3dc88d8ee4f598598d4ed3b39 43ba3d4af7a73ae958207caada6af0612d67f08e refs/heads/driver-core-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQpPsMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+F2MP/036bSaE6BDiJSc3KGVA
-qqqfEFq/Ibp26ISq7A63apgQ7GUo5sl5b8abHjWbx5eTWGlcL6+GOJjlejH/nd4O
-SIHewUNeawy3Kg2jr8HgKkBipbAPsfZNZY+DPyoLnOoTfbbgnTJGCZMyQ5FoWREr
-n0uZO4Q5You/Tl72ZVPx4eX9QfS18NixSbbxbbhlXPycsLE3ibW4SYIiPv6QflCY
-nYz39aj3n/TCYSd3NOJFN9dwqvK7N11WU0T21IQR6ZLdldYeR9AZdGu6Y9hGv6pK
-yd/QJXcqc4PtxwzlMpee6jWuzMEPcdi0tjzKuOu8E8ETN+prkEMB3tnSgBFEpIdo
-u93MOOyFRH2pXZaPkalajfZeaP9yjyM7RbrKQKApakYfupW7DJQ+ZAq2YZEPfxGJ
-PokVTZgn4IzfappUs3JHZVVCVtZ6F39wWKnRSG84opzaIUXj2XD6Tz3kwB5sJZ6Z
-HZlkMT8hPxesDNgUnZXI/EV8VhMZ9P+K4PzRHguFoGT5xd5MvuWaYDUfG5F7we/p
-vUooxqQ2/Du/vQLaJyHK9Vc5ZsPTb9sfVWmyR5Px+HKtQplOfWDnGAJVqpcWi9Ul
-F1TIG+f6n8D6WoCl5ePbpVRt0YHUnoE+F3di/gt8i/HavTcbuNZaIcGB7vDTXiw6
-lHAOKCvaazprw/Qz39Knw0v7
-=SA8D
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQpQrsbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+5QkQAK6EGdTvQGPJ+bkDayu6
+b2SqpPYIuoeCHzTEePLx67TaJlK8D6RI2ONFl0JsGNcyGZBalFGU3AYxjM+elNuM
+BmVOwcVj1CH8PJi/DLpU3XWyb8IeGqxrmFbhjpdqy8Fyk5GC7ZObeAC9D/B8YCJc
+qRloJppN53hAp0o7/U+Un5W28YBZb4+EaCu7Mh9E7eKAM9xG9sNDpo3ItgRqUpPq
+j1iOb7k/cMoG9hBegVCKmIEIlzqGv7EQst7RePYnwQWG5/Y7AvXioNz5OUM0yH4p
+ALIGJHrJ9x0o2Kqs5KGIZWkBxy/dZRNQjPpUJ8sPVwHrfU1VeOPyMQhVkJfKnMOr
+Dudu3cJ4B8g/HcHglxWTGpzifk/wvhrTVTyxMbDLb+9HjSLEUluMwH9klvpzH8lN
+llsnvkHS0HVAKWZPWak9OP4e/pSbungkwsIrt2NgGrRg0GTkALQsn+ohKLfj6AI4
+7x6BwTw1j98ck6PsL6iGxE29TpbxnQ+cr9XoLwN/4c+a1gchRLLILPnyyT5LMGSx
+IWzWDicG+EnxLt1XCtQar6i12+yWApsogJ896+KDCsizvq9POZScJr8u8QIbYve5
+nvjwwET16pruTwSLjFrZw5fOEWttYEyOPoaY/EsbM8uH5V03rPAAYcctyL/+L70r
+0jSJPn+OWioyZsZ0Deq7bn5p
+=ExYD
 -----END PGP SIGNATURE-----
 
---===============4417686725391433564==--
+--===============1180361436043427153==--
