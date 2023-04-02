@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
-Date: Sun, 02 Apr 2023 19:09:23 -0000
-Message-Id: <168046256378.32328.14667434879225435548@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Sun, 02 Apr 2023 19:15:52 -0000
+Message-Id: <168046295292.6360.5671977466744001992@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/conor/linux
-user: conor
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
-  - ref: refs/heads/riscv-jh7110_initial_dts
-    old: d76753c8210c19db931eb80c4e4892dc25b007bd
-    new: 395006a0ebbabcd13f9dbb13d91ce8c8fc3d81f4
+  - ref: refs/heads/master
+    old: 1abd7806db83d69109e9d21e9585fbf03ddf696c
+    new: 61d08f679b40f1e5d0c3892d4e2ee778453efce5
     log: |
-         cf74c1d162b614a8b3e6a0e2a39416b962ff95cd riscv: dts: starfive: Add initial StarFive JH7110 device tree
-         a123701f5fe3001cb2316176be24abc63a3e4b33 riscv: dts: starfive: Add StarFive JH7110 pin function definitions
-         395006a0ebbabcd13f9dbb13d91ce8c8fc3d81f4 riscv: dts: starfive: Add StarFive JH7110 VisionFive 2 board device tree
+         61d08f679b40f1e5d0c3892d4e2ee778453efce5 Sun Apr  2 07:14:48 PM UTC 2023
          
