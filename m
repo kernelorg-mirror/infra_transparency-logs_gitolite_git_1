@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Sun, 02 Apr 2023 01:16:43 -0000
-Message-Id: <168039820381.23368.11874045930263251164@gitolite.kernel.org>
+Date: Sun, 02 Apr 2023 01:33:18 -0000
+Message-Id: <168039919828.635.7887307441997933423@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,9 @@ repo: pub/scm/docs/man-pages/man-pages
 user: alx
 changes:
   - ref: refs/heads/master
-    old: 2e1c1a57f138eedd35b7b2a825002fddb12d240f
-    new: aa344d4ba28c988c4d7f177373d565be193e2d39
+    old: aa344d4ba28c988c4d7f177373d565be193e2d39
+    new: 0afc6b902daf8178a7e3b7158319c630dda14d99
     log: |
-         aa344d4ba28c988c4d7f177373d565be193e2d39 *.mk, CONTRIBUTING, INSTALL: lint, build, check: Reorganize some targets
+         5bf82f50cf02ded2403666d6c1ee2878b8bd602e lint-man.mk: Fix previous commit
+         0afc6b902daf8178a7e3b7158319c630dda14d99 landlock.7: Fix warnings
          
