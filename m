@@ -1,64 +1,53 @@
-Content-Type: multipart/mixed; boundary="===============6987888053051261982=="
+Content-Type: multipart/mixed; boundary="===============4312035522804977058=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Sun, 02 Apr 2023 09:11:59 -0000
-Message-Id: <168042671989.13057.2576969805683864159@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/powerpc/linux
+Date: Sun, 02 Apr 2023 09:50:52 -0000
+Message-Id: <168042905215.21190.4530941947422186176@gitolite.kernel.org>
 
---===============6987888053051261982==
+--===============4312035522804977058==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/driver-core
-user: gregkh
+repo: pub/scm/linux/kernel/git/powerpc/linux
+user: mpe
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/class_cleanup
-    old: efc22eec1750412fec058f8706646d2f48575857
-    new: 1e76198bc357818f85964e07ebcffab8a6dacb57
-    log: |
-         643b26733a0167552ef87404341b259f6d7aef89 driver core: remove incorrect comment for device_create*
-         59ae5d346034d539a7c2d5fc1d0bae6ae4c0c92d driver core: class: mark class_release() as taking a const *
-         b19302091dd62c0f46444a228f86bece48e276c3 driver core: class: make class_register() take a const *
-         6fc0c9fe4478beca939cb20683220682e5809906 driver core: class: mark the struct class in struct class_interface constant
-         e4d131f2b95fc250bdea4340b504a7775219ff4e driver core: class: remove struct class_interface * from callbacks
-         3bd99c5671b83d6ddb8fe422a378eaa23af7e3fa tty: make tty_class a static const structure
-         da5c3f40b5c4ad97a152bdb97092bc84b9406b1a driver core: convert class_create() to class_register()
-         7ce333f556e9e0011536d356f8c7c691ff675f92 memstick: fix memory leak if card device is never registered with the driver core
-         1e76198bc357818f85964e07ebcffab8a6dacb57 MIPS: vpe-cmp: remove module owner pointer from struct class usage.
-         
+  - ref: refs/tags/powerpc-6.3-4
+    old: 0000000000000000000000000000000000000000
+    new: c56a745a727c49bba9f869f21dc1bb69c6f16b11
 
---===============6987888053051261982==
+--===============4312035522804977058==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1680426718 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1680426718-90efd6773f1d83ab2282f4ec6c2020cf7066ba94
+pusher Michael Ellerman <mpe@ellerman.id.au> 1680429050 +1000
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/powerpc/linux
+nonce 1680429050-5f9372e21e0c0462ce0ba768f2c3cddbb6735462
 
-efc22eec1750412fec058f8706646d2f48575857 1e76198bc357818f85964e07ebcffab8a6dacb57 refs/heads/class_cleanup
+0000000000000000000000000000000000000000 c56a745a727c49bba9f869f21dc1bb69c6f16b11 refs/tags/powerpc-6.3-4
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQpRt4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+iH0P/0kkdHRmkyQs0LEruEOZ
-cklskrCsixYicaplTCU8Ke2vSJQ72oBCtg47nLogk4c02IVXwlfuNlk6uokaV2mF
-tV+X7AOK+nbhPNy3mYVvVFpxktE+qofw9tkwvQniv7R9fOhelCQb8xoHKf23iqrk
-EoZ/c0rzwNKtIp/Z4sFvtFHg0hnW4Hr7cCT6MXU4/eCcr/5xoPB5Gcs5AvNrHaxt
-CHtdxsOb82AXiZrtR/cxm+PRJrWKzktXXT69mLE0QHfnwJEFAQ8j/o7ogfvcacnq
-n3MkRGGWCYvsnmdyRBAmeG0Mk90P+6z3pkdYkjNcB8bnqei4o5Ywx/+AE9fHQMnV
-M7Wy0X1aD0ecKCp4qNL+tgfohxngwXlbr1UMwkjYvakX2Xf6Wj4Z9Mng6uxj8Lm/
-0fdW57tfttFcLRK+RG77ivUsKj4/EMWfjcSFRttQXFPXP1BdtGD/yMc3QJM5m1cX
-1TY6kd6UzD0i+s8Ejx/4oBiU090RbNXLP1Ph0ZIRKk2cNfi5C8Cbjcd+5OWW5DTx
-6gn5SXcRbnqm2oeYSth5k1cDKJc3unaPjVImCjGFZl58BkXsnwGqNHz5omVcqda7
-cza32dzXA3bZEB7jMVGa2WxEAFbazHRyQv3EQsjJ0+GfV8Fw8PFgv6Gte308l2XA
-9MSj2m7lG0BGe5FDad0tkEFK
-=ppeB
+iQJHBAABCAAxFiEEJFGtCPCthwEv2Y/bUevqPMjhpYAFAmQpT/oTHG1wZUBlbGxl
+cm1hbi5pZC5hdQAKCRBR6+o8yOGlgJSWD/43xeXKF6BVr9IgOCIHGwhZdfg4xNrF
+GGqREuxPF/5Q7XNONiQtD1v4QuT3MP1feSOO2l5Z+D2fpyuFWPoQ9sgufTnCpp0l
+G1SVymSS94EdA7J5NzAGpkLy2nk+6/I9BOpx/x93aKceHOlWE5SU+tMOTK3iQhRU
+zqGEkhQ0OiTEMzir3QAJqW00mYHXzmZRyxU14foVls8KM6r2Ms61ns8G5LsslHhc
+8n8Dv8+/fBt1Ife9Z0kHGiXaXWXlsuP87tNdxAT/NRmGdUDhmGjGrN5atry4yVOH
+RWOeTAwmohRJvWkjnnlcBcBxSUtkNBDVcjRDeTlYmy5/12h/wCrP5GLbF9NQzQi4
+ttZXsLtRwks5EtawutYFZUm8DPudpnvbF1e1dF69syX28PxDb/SHW3TXqxKQOf1G
+cIhntZOPNwA9c3tlG7BjcwNW5qdHqKGEIACEe2SuK/obmsPnYwyLrRc2yWXUduD4
+VuXqm/2Ub/oOYYMOBpnUGsK/eW+F1UxcpDRbWe/LVeQyF79MeeTM+FF5CxPCfuV4
+RYgisc7CgViBMDQ9napqaDbYNduc9egpi1Oiie7lQIOHTz67qEKF5iGtW2P17Erh
+nQPQBdFQ4F/TA1rXqN12Zz9vk6vz/nKc0fmAARXozCyNLrKb77JajaEA51aGqT++
+orUbg50rGZt1ag==
+=6Uf9
 -----END PGP SIGNATURE-----
 
---===============6987888053051261982==--
+--===============4312035522804977058==--
