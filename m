@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Sun, 02 Apr 2023 15:47:14 -0000
-Message-Id: <168045043402.29417.12819334520073978319@gitolite.kernel.org>
+Subject: post-receive: pub/scm/docs/man-pages/man-pages
+Date: Sun, 02 Apr 2023 16:30:31 -0000
+Message-Id: <168045303153.25276.6149365964464487663@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+repo: pub/scm/docs/man-pages/man-pages
+user: alx
 changes:
-  - ref: refs/heads/for-next
-    old: 5b85575ad4280171c382e888b006cb8d12c35bde
-    new: 92b2e810f0d3a2c05d8cf12a800592b238d458df
+  - ref: refs/heads/master
+    old: 437a0ad8283d29ef2c8f59d08388c9aa4170b567
+    new: b0058fa6658ad2499b928a25c65ee017eda7a85a
     log: |
-         92b2e810f0d3a2c05d8cf12a800592b238d458df bpf: compute hashes in bloom filter similar to hashmap
+         b0058fa6658ad2499b928a25c65ee017eda7a85a *.mk: Simplify build tree
          
