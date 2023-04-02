@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Sun, 02 Apr 2023 19:15:52 -0000
-Message-Id: <168046295292.6360.5671977466744001992@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/maz/cs-hw
+Date: Sun, 02 Apr 2023 20:45:25 -0000
+Message-Id: <168046832508.31687.7303313082633760895@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/maz/cs-hw
+user: maz
 changes:
   - ref: refs/heads/master
-    old: 1abd7806db83d69109e9d21e9585fbf03ddf696c
-    new: 61d08f679b40f1e5d0c3892d4e2ee778453efce5
+    old: 3e06aff5617af1e165ae06c60c9c45ec8bdb0f60
+    new: 953747ac930dd82225b9eb07b57618ca8b9e78c9
     log: |
-         61d08f679b40f1e5d0c3892d4e2ee778453efce5 Sun Apr  2 07:14:48 PM UTC 2023
+         953747ac930dd82225b9eb07b57618ca8b9e78c9 Update README.txt
          
