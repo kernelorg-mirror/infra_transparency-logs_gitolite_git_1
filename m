@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Sun, 02 Apr 2023 23:39:30 -0000
-Message-Id: <168047877023.16166.10606075095282931289@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ericvh/v9fs
+Date: Sun, 02 Apr 2023 23:54:07 -0000
+Message-Id: <168047964725.26896.1176665111130785988@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/man-pages/man-pages
-user: alx
+repo: pub/scm/linux/kernel/git/ericvh/v9fs
+user: ericvh
 changes:
-  - ref: refs/heads/master
-    old: 185ed498eef2733ec8e39f8bd9e3ed9930eefa53
-    new: 95bc8914a77f53bed4528c42afcce0cae4f8d5ea
+  - ref: refs/heads/fixes/next
+    old: ea4f1009408efb4989a0f139b70fb338e7f687d0
+    new: 347dca97f75d461ac2ac256b68e495dfc6f14d61
     log: |
-         95bc8914a77f53bed4528c42afcce0cae4f8d5ea difftime.3: Don't suggest redefining a reserved identifier
+         347dca97f75d461ac2ac256b68e495dfc6f14d61 Update email address and mailing list for v9fs
          
