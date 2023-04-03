@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8110900811685231604=="
+Content-Type: multipart/mixed; boundary="===============7260013605676696375=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Mon, 03 Apr 2023 15:21:54 -0000
-Message-Id: <168053531439.4038.4866242821417107189@gitolite.kernel.org>
+Date: Mon, 03 Apr 2023 15:22:30 -0000
+Message-Id: <168053535049.4357.1295561229348836061@gitolite.kernel.org>
 
---===============8110900811685231604==
+--===============7260013605676696375==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: ee05d90d0ac7f1f6e8e3403f02a39d83e0ce6729
-    new: 7b600f8da8fe65183014c2b87e61da7c597476cf
-    log: revlist-ee05d90d0ac7-7b600f8da8fe.txt
+  - ref: refs/heads/dev-queue
+    old: fcb703c87e84edbbffb2f9a110aa264c2d5e9447
+    new: d29ce84f19b36ccc2940365e64c348b47f2b9a8b
+    log: revlist-fcb703c87e84-d29ce84f19b3.txt
 
---===============8110900811685231604==
+--===============7260013605676696375==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ee05d90d0ac7-7b600f8da8fe.txt
+Content-Disposition: attachment; filename=revlist-fcb703c87e84-d29ce84f19b3.txt
 
 8ba732befd6ff44cd8ecc809bd6df850e246f31a Documentation/eth/intel: Update address for driver support
 79d872c62b16e6c640e125fd4613c6beadac5210 Documentation/eth/intel: Remove references to SourceForge
@@ -74,5 +74,28 @@ cb675afcddbbeb2bfa6596e3bc236bc026cd425f net: dsa: mt7530: introduce separate MD
 110c18bfed41421edd677935dd33be5e6507ba92 net: dsa: mt7530: introduce driver for MT7988 built-in switch
 386f5fc9061b0c8429c7c0cc57f12c05f8662e23 dt-bindings: net: dsa: mediatek,mt7530: add mediatek,mt7988-switch
 7b600f8da8fe65183014c2b87e61da7c597476cf Merge branch 'mt7988-support'
+f2dd134ab795753bded952e2073371c9e071c71d ice: Write all GNSS buffers instead of first one
+db555f87e3cfd37977b08c5b26a8ad68727d453e ixgbe: Panic during XDP_TX with > 64 CPUs
+49731075f6f60c5ebea815038cccd1578105e545 ice: identify aRFS flows using L3/L4 dissector info
+c74d3cb7787fa5ee59a1d636082567d6956633d5 ice: clear number of qs when rings are free
+e2a3c76b181363bf39bc3d6d2f478ba185e4591f ice: fix wrong fallback logic for FDIR
+9e2778ec6c83f0f1b3cad4eabf78d3d90fa49864 ice: Support 5 layer topology
+2638cd33a7b7913da3e08a35c4facaca32099ab4 ice: Adjust the VSI/Aggregator layers
+c23ffdaa80d82d2eef82387f9a2eec2c9e0df939 ice: Enable switching default tx scheduler topology
+26ac0d687de67439b1340af0a2ecba81ff03d00f ice: Add txbalancing devlink param
+c8d4f9b008992588ffac8d97b821c7a346a65833 ice: Document txbalancing parameter
+eacc655b7987ebe8a6b789626c7b17476719609a ice: move interrupt related code to separate file
+c6e8a05ccd16dc9d222ec5049ac0bcb83324dc3c ice: use pci_irq_vector helper function
+007e92c9e703e1e046b1f00f70b8fc69c383bb6c ice: use preferred MSIX allocation api
+6ddc24a16e7264cab6a608c3a04a7c190a5cbb2a ice: refactor VF control VSI interrupt handling
+294f82599fa2d1affb14a8d611abd1287e979110 ice: remove redundant SRIOV code
+60d99a0677fa5339d16225296f5e6e46a3ed1253 ice: add individual interrupt allocation
+3b28cb308466f4c3685bb2f157623e53a8ce5d51 ice: track interrupt vectors with xarray
+5f86b8eb4777c56f4d4cf84438db23f4d9005b36 ice: add dynamic interrupt allocation
+9e5df89718f9341136e8e0740ea7205213dd5a16 e1000e: Disable TSO on i219-LM card to increase speed
+772ef319a8c0692bf987279f092d2f595a8d0bce i40e: fix accessing vsi->active_filters without holding lock
+085f38002bdd09235fa93cdb5b8ca2dfab52f343 iavf: refactor VLAN filter states
+9f494abd152afbcd0a105bb9cf87ac8a2000550d iavf: remove active_cvlans and active_svlans bitmaps
+d29ce84f19b36ccc2940365e64c348b47f2b9a8b ice: Reset FDIR counter in FDIR init stage
 
---===============8110900811685231604==--
+--===============7260013605676696375==--
