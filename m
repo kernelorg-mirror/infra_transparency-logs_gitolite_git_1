@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1036224123247310030=="
+Content-Type: multipart/mixed; boundary="===============8847734871581030639=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Mon, 03 Apr 2023 07:44:50 -0000
-Message-Id: <168050789004.24610.17463402736291789097@gitolite.kernel.org>
+Date: Mon, 03 Apr 2023 07:45:09 -0000
+Message-Id: <168050790966.26403.2210020223622987135@gitolite.kernel.org>
 
---===============1036224123247310030==
+--===============8847734871581030639==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,53 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/debugfs_cleanup
-    old: 55dfb460182e300676ae236da915d39b3cf31567
-    new: cb21a0a2efbe6996216b9d1b1464031c78f2ddf9
-    log: revlist-55dfb460182e-cb21a0a2efbe.txt
+  - ref: refs/heads/bus_cleanup
+    old: 64806eea947c5f6f49456e6e288d76716e848302
+    new: 53099e267a7e4f5ff17c742fc255266fc3ecb917
+    log: revlist-64806eea947c-53099e267a7e.txt
 
---===============1036224123247310030==
+--===============8847734871581030639==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1680507888 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1680507908 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1680507888-0e7c7027802ee54b2ba42eef5fb8ef384fbf6fec
+nonce 1680507907-92379b83ce8184b969dee8f5defab714bd922de0
 
-55dfb460182e300676ae236da915d39b3cf31567 cb21a0a2efbe6996216b9d1b1464031c78f2ddf9 refs/heads/debugfs_cleanup
+64806eea947c5f6f49456e6e288d76716e848302 53099e267a7e4f5ff17c742fc255266fc3ecb917 refs/heads/bus_cleanup
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQqg/AbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+h7sP/2Hrk9S3Wx5uxjX7U1FV
-WeI2Kxe67ynYYKvqNjnV/k7S/4vK4o82Lugj9UuagHZXuo00eiBfFzhu4EsIy2Yu
-frC4y6PxZFV5rkUa7YLLg4jKLa7Ni0ValH7FjUjyRN9ENKUkXRiO+kIBeRrizoVw
-1PDFzFwMB94xwpkieF+/y+iyW7Mt/Gg653pFngCVTYrdSyWZIO57zJTri1P4qn/9
-1o3vHm2/vTnKbUiDm7qsd6/KtidhDUm4zRhcWUrJXdZL+7JwkB/VGXE/Fwo27Xu8
-bXzSoUgQSaWxQHzyHyxjYKKVIRmaVYKO2QfJdgMGXPCjk3bOqog3FAYfYCJIfb85
-pFFWBTxAKK/P2tM6ZnSZPOhsj2fm7XNSo20ZJOWznmoaZ0sPCz/wHMpsWI3GO8AQ
-56UHpaKz4B9UDQxdF/t1B4ik5er0iu9UnYprmvSCRe9KUsw9SnH03HuSlv4LWjAT
-NyFJ42IxlmX1KzgbRVdPFUfcRruwoy1wNwuczZQdnJbFeMfwlwXm4ft2PtYkDH9I
-bhAmYQB73+a2Awc/NQNHrnlUvh/4d3Vdxt/dg41G8XWeMFQR9ReMnzCEyo6zaGCj
-kc+k9qNThMoGJI00sVw6iCuLEdwy6aATo1Iziq4Tiu3LCi85DIo1h5zj8KhkPsOq
-OvA37j3+tZ+xB/eVGocQFYJv
-=tX/C
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQqhAQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Bi8QAKTodgCEsBWY+oORJXks
+CqcUH15KSh3esehWZFxYUTjeUe/wuFPzr4m6fryRjG0+hDNCLTHfXAjez0eZVrHH
+tfR8sqAwAY/esWeF4QbtRIovwMBQoidXP7MEM2X/0E2VfJNUIEc2wZlWvQe0ybqO
+mlBa9iusuM6nqrGcuiW9dutSe2H+0dHFZnwVo05rfHC2+kwOhdfSmU7AQXiAbNTy
+N+ewt0WtopRkniqNKGXhh49Mw2upi1e6/G6YceM6UIn1u2FPypO0zKhyCS9S7auL
+CvowAcsfgGWf/4hjRPA2K1BvkihMK/aUjRtEXfRIJy8nIFoPBlREWSD0CoG/Cxca
+jm4drBLtWnZx6Xe5/44iIJqLJidrd5IiFgJSH0H9V095p/PRbFEPmQzABsS6Hao3
+ieFJhSvNQ/m1FpEPyX7Jx/esv599yFFWfpfkbwF6uLXAoGiPAneg+2gwmfaGct4j
+7k78wtuoPxgYRB4H8vv9GDk8ciP5K3kTYwrQfJ24StWq99Hw+tV+L3t3ariUy2Sj
+0trTpf9XGlnLJ2BAkRc5+GxeneIJ21uvtD45YsOsigylP/OrmmiOUbNSN+1i86zq
+Q/K3rJ/6Fj4uu2QrU+PCUmjqieFQQPu8Z48D5zu8x/ptvbKsBmpsIq/cALyfZ2Ir
+kJCiA3SNL/c91nP//TDKugvc
+=k77T
 -----END PGP SIGNATURE-----
 
---===============1036224123247310030==
+--===============8847734871581030639==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-55dfb460182e-cb21a0a2efbe.txt
+Content-Disposition: attachment; filename=revlist-64806eea947c-53099e267a7e.txt
 
+01d93875dafdaaf90bfc782074cae5b4605f3907 serial: sc16is7xx: Convert to i2c's .probe_new()
+670b7d6569bf439c90d7aac48ec36ee3e3013754 arm64: dts: qcom: sc8280xp: fix rx frame shapping info
+e43bd22cb377bf4c4e5b12daacaf02f5c24fbb16 arm64: dts: qcom: sc8280xp: fix lpass tx macro clocks
+4def7aa377ba1dbe66335ca3ebe3aa5a5bc3fe67 arm64: dts: qcom: sc8280xp-x13s: fix dmic sample rate
+2e498f35c385654396e94cf12e097522d3973d41 arm64: dts: qcom: sc8280xp-x13s: fix va dmic dai links and routing
+e60289897e90801e951a3e172789967c9e2afb7e w1: ds2482: Convert to i2c's .probe_new()
 79e070c5ee7a3faeb9ab8e1fa270b846a4fa2e56 media: i2c: ov5695: convert to i2c's .probe_new()
 7eafbd40901c2b6f884c022c10bec5c8ec5c6a24 media: i2c: ov2685: convert to i2c's .probe_new()
 03c835f498b540087244a6757e87dfe7ef10999b i2c: Switch .probe() to not take an id parameter
@@ -1074,12 +1080,6 @@ f95b8ea79c47c0ad3d18f45ad538f9970e414d1f Revert "venus: firmware: Correct non-pi
 6ab608fe852b50fe809b22cdf7db6cbe006d7cb3 Merge tag 'for-6.3-rc4-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
 7e364e56293bb98cae1b55fd835f5991c4e96e7d Linux 6.3-rc5
 cd8fe5b6dbb3a487bea5f1601437c013a3d56163 Merge 6.3-rc5 into driver-core-next
-63071c6e8433afe6d821eea4ee228ad1dcee7260 driver core: remove devm_device_add_groups()
-7af0d452c0df663fdaf527932b72e66211760ab3 sysfs: do not create empty directories if no attributes are present
-961b5ff56a59e02c5f467d937d1e66bc961c2d2b soundwire: sysfs: move sdw_slave_dev_attr_group into the existing list of groups
-074441ed60a2820af67c8e6d1d06559497b7f850 soundwire: sysfs: cleanup the logic for creating the dp0 sysfs attributes
-f6809539b9843503b74c3bdf30351e62b1343335 soundwire: sysfs: have the driver core handle the creation of the device groups
-3f3e891ea0c47194a1111298618ee2cd80426429 soundwire: sysfs: remove sdw_slave_sysfs_init()
-cb21a0a2efbe6996216b9d1b1464031c78f2ddf9 soundwire: sysfs: remove unneeded ATTRIBUTE_GROUPS() comments
+53099e267a7e4f5ff17c742fc255266fc3ecb917 FIXME: driver core: platform: make platform_bus_type constant
 
---===============1036224123247310030==--
+--===============8847734871581030639==--
