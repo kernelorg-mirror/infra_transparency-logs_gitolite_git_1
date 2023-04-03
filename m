@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Mon, 03 Apr 2023 12:39:55 -0000
-Message-Id: <168052559585.14336.9486334741812612210@gitolite.kernel.org>
+Date: Mon, 03 Apr 2023 12:49:23 -0000
+Message-Id: <168052616393.21974.14729668932146390229@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,11 +12,10 @@ repo: pub/scm/linux/kernel/git/rdma/rdma
 user: leon
 changes:
   - ref: refs/heads/wip/leon-for-next
-    old: b6ba68555d75fd99f7daa9c5a5e476f8635cb155
-    new: 9eed9353a1675543fd1bf3235feb3c6c0fcae4ba
+    old: 9eed9353a1675543fd1bf3235feb3c6c0fcae4ba
+    new: 08ebf57f6e1d73cc1890e1ff1b1c74887c53770b
     log: |
-         b7727e231dad51150ef14e1dbcbf0d185077e54b IB/iser: remove unused macros
-         92363895b6c31bb5ba846b1f04cf624b8ed893a6 IB/iser: centralize setting desc type and done callback
-         070fc1c0e272a03c194bb1a54565d8eda23960a5 IB/iser: remove redundant new line
-         9eed9353a1675543fd1bf3235feb3c6c0fcae4ba RDMA/mlx5: remove unused num_alloc_xa_entries variable
+         081c27b3bcdbfad6fa3c16975e02e33073f1267d RDMA/mlx5: Remove unused num_alloc_xa_entries variable
+         e7706c4bbfe88fe5bc9b8a6b1b5a84a5d58e2f7e IB/qib: Remove unused cnt variable
+         08ebf57f6e1d73cc1890e1ff1b1c74887c53770b RDMA/cma: Remove NULL check before dev_{put, hold}
          
