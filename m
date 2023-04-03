@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5585222019646726288=="
+Content-Type: multipart/mixed; boundary="===============1036224123247310030=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Mon, 03 Apr 2023 07:44:35 -0000
-Message-Id: <168050787507.24459.7815147779623933739@gitolite.kernel.org>
+Date: Mon, 03 Apr 2023 07:44:50 -0000
+Message-Id: <168050789004.24610.17463402736291789097@gitolite.kernel.org>
 
---===============5585222019646726288==
+--===============1036224123247310030==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,83 +16,47 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/debugfs_lookup_fix
-    old: 91e1c88a089a4eca307d7136c7799bf26209a078
-    new: 7e364e56293bb98cae1b55fd835f5991c4e96e7d
-    log: revlist-91e1c88a089a-7e364e56293b.txt
+  - ref: refs/heads/debugfs_cleanup
+    old: 55dfb460182e300676ae236da915d39b3cf31567
+    new: cb21a0a2efbe6996216b9d1b1464031c78f2ddf9
+    log: revlist-55dfb460182e-cb21a0a2efbe.txt
 
---===============5585222019646726288==
+--===============1036224123247310030==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1680507874 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1680507888 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1680507873-4f04c29afc066423c9bdf3e41c515c59ed9d6824
+nonce 1680507888-0e7c7027802ee54b2ba42eef5fb8ef384fbf6fec
 
-91e1c88a089a4eca307d7136c7799bf26209a078 7e364e56293bb98cae1b55fd835f5991c4e96e7d refs/heads/debugfs_lookup_fix
+55dfb460182e300676ae236da915d39b3cf31567 cb21a0a2efbe6996216b9d1b1464031c78f2ddf9 refs/heads/debugfs_cleanup
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQqg+IbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+6IcP/AzLylfsXwypAwdBBLWQ
-y/zv935T4mPXtfvT5FCLe8QA2VHrA42Kd1m6iIN7vmjSuNfEq0ZLPP8sLam37Swx
-takFR5jObyMRubKO2OdjUTybzSAWlGsY48k8L1tgbhuF4KxMEA13lENUF05vjWBo
-WvNeVM8Jgz1RBosiqGxeMb7Uo2lEbkhQLc2tyniAUlJhR7+lHKA1rEVnbFPafy4F
-wOTqeDHni0K/Zp5YNJ5SOxB1eUAksk94OuMHjCwx0b2lzAfyOcul67PKMNnhRzo0
-68/VbhWgfpoE3DOrZWMIbb6xiL9kc5jOhyEfsNUTEv+kLyWYT6M62w2VFhkd03LJ
-03J8X1tjtwID5+nU+G3rcmxDOzlLO/Sr2JTjmwZG21TwXurUdZHaimVha4pPqaVl
-dKxxVAHMi7reX5N41ghq7JwF5iPvt1W26szL9+cHlz9QevwnwVcYZ6Dg/CeCkDgV
-1BTzTMXqVdNaEpS3pYAH8e+3XYl7FGtiFEXkXpkjyi2nalQsJlgSZismirhUSuyc
-vb4RSPioUQgu7l5hc0mRqsnamAxZISB+YvKcSCvCKtvQ4k1JC8KDmtSnsL6TNyEU
-PLrLMXP5fiQggUHTiaRxHqV3xsSzJuOcdNBUtv2jtyz6eIcWRjRrXqjQy2oBoCka
-kAu293GycIbR2oY8wPOc55vc
-=bftF
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQqg/AbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+h7sP/2Hrk9S3Wx5uxjX7U1FV
+WeI2Kxe67ynYYKvqNjnV/k7S/4vK4o82Lugj9UuagHZXuo00eiBfFzhu4EsIy2Yu
+frC4y6PxZFV5rkUa7YLLg4jKLa7Ni0ValH7FjUjyRN9ENKUkXRiO+kIBeRrizoVw
+1PDFzFwMB94xwpkieF+/y+iyW7Mt/Gg653pFngCVTYrdSyWZIO57zJTri1P4qn/9
+1o3vHm2/vTnKbUiDm7qsd6/KtidhDUm4zRhcWUrJXdZL+7JwkB/VGXE/Fwo27Xu8
+bXzSoUgQSaWxQHzyHyxjYKKVIRmaVYKO2QfJdgMGXPCjk3bOqog3FAYfYCJIfb85
+pFFWBTxAKK/P2tM6ZnSZPOhsj2fm7XNSo20ZJOWznmoaZ0sPCz/wHMpsWI3GO8AQ
+56UHpaKz4B9UDQxdF/t1B4ik5er0iu9UnYprmvSCRe9KUsw9SnH03HuSlv4LWjAT
+NyFJ42IxlmX1KzgbRVdPFUfcRruwoy1wNwuczZQdnJbFeMfwlwXm4ft2PtYkDH9I
+bhAmYQB73+a2Awc/NQNHrnlUvh/4d3Vdxt/dg41G8XWeMFQR9ReMnzCEyo6zaGCj
+kc+k9qNThMoGJI00sVw6iCuLEdwy6aATo1Iziq4Tiu3LCi85DIo1h5zj8KhkPsOq
+OvA37j3+tZ+xB/eVGocQFYJv
+=tX/C
 -----END PGP SIGNATURE-----
 
---===============5585222019646726288==
-Content-Type: text/plain; charset="utf-8"
+--===============1036224123247310030==
+Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
-Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-91e1c88a089a-7e364e56293b.txt
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-55dfb460182e-cb21a0a2efbe.txt
 
-d9a02e016aaf5a57fb44e9a5e6da8ccd3b9e2e70 dm crypt: avoid accessing uninitialized tasklet
-647dd2c3f0e16b71a1a77897d038164d48eea154 erofs: Revert "erofs: fix kvcalloc() misuse with __GFP_NOFAIL"
-9ff471800b74f5f952c7e75a0355f1d30ee2b046 erofs: get rid of a useless DBG_BUGON
-3993f4f456309580445bb515fbc609d995b6a3ae erofs: use wrapper i_blocksize() in erofs_file_read_iter()
-2d638be71155b2e036aca1966b6129e2d661e91f Revert "tty: serial: fsl_lpuart: adjust SERIAL_FSL_LPUART_CONSOLE config dependency"
-2411fd94ceaa6e11326e95d6ebf876cbfed28d23 tty: serial: fsl_lpuart: skip waiting for transmission complete when UARTCTRL_SBK is asserted
-f8086d1a65ac693e3fd863128352b4b11ee7324d serial: 8250: ASPEED_VUART: select REGMAP instead of depending on it
-32e293be736b853f168cd065d9cbc1b0c69f545d serial: 8250_em: Fix UART port type
-6e01f9a594ee0f69fb52cc8d11971612b4817f0b serial: 8250_fsl: fix handle_irq locking
-5d943b5d69c032de7ce9cd625ac083a5c277b9c5 serial: 8250_pci1xxxx: Disable SERIAL_8250_PCI1XXXX config by default
-1be6f2b15f902c02e055ae0b419ca789200473c9 tty: serial: fsl_lpuart: fix race on RX DMA shutdown
-1a5ecc73b2bfeffe036212d4a6bfacee053ab0a1 serdev: Set fwnode for serdev devices
-03b3d6be73e81ddb7c2930d942cdd17f4cfd5ba5 io_uring/uring_cmd: ensure that device supports IOPOLL
-9aff74cc4e9eb841dde5fd009ed7ddca5db40e68 serial: qcom-geni: fix console shutdown hang
-95fcfc08537763bff21ec8c450d3d3cb1a60ad09 serial: qcom-geni: fix DMA mapping leak on shutdown
-97820780b723197d1b472f2bd39fd8593b5d4edc serial: qcom-geni: fix mapping of empty DMA buffer
-b6a7bac184472b5b79286a71a61c2f16ea4e86ad serial: qcom-geni: drop bogus uart_write_wakeup()
-18365ebf23f3e713e5dd8e295c9a639295250f3c tty: vt: protect KD_FONT_OP_GET_TALL from unbound access
-38ed310c22e7a0fc978b1f8292136a4a4a8b3051 firmware: xilinx: don't make a sleepable memory allocation from an atomic context
-fa780334a8c392d959ae05eb19f2410b3a1e6cb0 io_uring: silence variable ‘prev’ set but not used warning
-573b22ccb7ce9ab7f0539a2e11a9d3609a8783f5 sh: sanitize the flags on sigreturn
-c70e9b8ea3936a60e2a696dd0ed9bb57885f6bec Merge tag 'm68k-for-v6.3-tag2' of git://git.kernel.org/pub/scm/linux/kernel/git/geert/linux-m68k
-2653e3fe33f411227296552b2e5f9c2640924900 Merge tag 'for-linus-2023030901' of git://git.kernel.org/pub/scm/linux/kernel/git/hid/hid
-44889ba56cbb3d51154660ccd15818bc77276696 Merge tag 'net-6.3-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
-b2bda460b1b744a3835ce9d291360b6185e7e305 mailmap: add mailmap entries for Faith.
-3a43e30b8e2cff245b7d3cb807fb0b4409452bda Merge tag 'drm-msm-fixes-2023-03-09' of https://gitlab.freedesktop.org/drm/msm into drm-fixes
-ecd240875e877d78fd03efbc62292f550872df3f ARM: dts: qcom: apq8026-lg-lenok: add missing reserved memory
-6df6fab9320bc9ebdf50136a01e7bf0ee5984c62 arm64: dts: qcom: sm8450: correct WSA2 assigned clocks
-55e7dddcaf4a55d2f097463cdf5709c3278c6fa9 misc: ad525x_dpot-i2c: Convert to i2c's .probe_new()
-0b79d5d1e5982bc3b0da9cd3b40ce972a72f2541 mtd: maps: pismo: Convert to i2c's .probe_new()
-01d93875dafdaaf90bfc782074cae5b4605f3907 serial: sc16is7xx: Convert to i2c's .probe_new()
-670b7d6569bf439c90d7aac48ec36ee3e3013754 arm64: dts: qcom: sc8280xp: fix rx frame shapping info
-e43bd22cb377bf4c4e5b12daacaf02f5c24fbb16 arm64: dts: qcom: sc8280xp: fix lpass tx macro clocks
-4def7aa377ba1dbe66335ca3ebe3aa5a5bc3fe67 arm64: dts: qcom: sc8280xp-x13s: fix dmic sample rate
-2e498f35c385654396e94cf12e097522d3973d41 arm64: dts: qcom: sc8280xp-x13s: fix va dmic dai links and routing
-e60289897e90801e951a3e172789967c9e2afb7e w1: ds2482: Convert to i2c's .probe_new()
 79e070c5ee7a3faeb9ab8e1fa270b846a4fa2e56 media: i2c: ov5695: convert to i2c's .probe_new()
 7eafbd40901c2b6f884c022c10bec5c8ec5c6a24 media: i2c: ov2685: convert to i2c's .probe_new()
 03c835f498b540087244a6757e87dfe7ef10999b i2c: Switch .probe() to not take an id parameter
@@ -949,6 +913,9 @@ fb5755100a0a5aa5957bdb204fd1e249684557fc platform/x86/intel/pmc: Alder Lake PCH 
 8f8cf767589f2131ae5d40f3758429095c701c84 s390/vfio-ap: fix memory leak in vfio_ap device driver
 7bb2107e63d8a4a13bbb6fe0e1cbd68784a2e9ac s390: reintroduce expoline dependence to scripts
 f9bbf25e7b2b74b52b2f269216a92657774f239c s390/ptrace: fix PTRACE_GET_LAST_BREAK error handling
+386af3bdb53585405c22dae58ad99b72ed5895f5 device property: Add headers to the Driver Core entry in MAINTAINERS
+579d472b379983498a6a7d9f7b1dd74c20afdc50 device property: Remove unused struct net_device forward declaration
+5c9a27df4eb9a402770d5547af255a765e1c10ac driver core: move sysfs_dev_char_kobj out of class.h
 fc5d1a9233eef4a3656712994e5bfa0c0470ebfc Merge tag 'mtd/fixes-for-6.3-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/mtd/linux
 91fe204578ba3183cc32984a613bd539b3670507 Merge tag 'platform-drivers-x86-v6.3-3' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 c56610a869bce03490faf4f157076370c71b8ae3 ACPI: bus: Rework system-level device notification handling
@@ -961,6 +928,9 @@ bb430b69422640891b0b8db762885730579a4145 loop: LOOP_CONFIGURE: send uevents for 
 ac9bba3ff1ef18ef0038eb7a590f93529eb566de net: fman: Add myself as a reviewer
 4f7702ab6fc3c03cc10b0cf0bdbd0433146483e0 MAINTAINERS: remove the linux-nfc@lists.01.org list
 ebd3b826343bb4a7a280aad68a113bbf044add1d Merge tag 'linux-can-fixes-for-6.3-20230327' of git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can
+cf34b880a66e3581300b997df25a7c12f7cfe7d7 powerpc/fsl: fix compiler warning in fsl_wakeup_sys_init()
+2f9e87f5a2941b259336c7ea6c5a1499ede4554a driver core: Add a comment to set_primary_fwnode() on nullifying
+517d4927aabe488144863e72b52bb3e506fecd34 driver core: bus: constify class_unregister/destroy()
 9a251cae51d57289908222e6c322ca61fccc25fd net: mvpp2: classifier flow fix fragmentation flags
 a587a84813b90372cb0a7565e201a4075da67919 net: mvpp2: parser fix QinQ
 031a416c2170866be5132ae42e14453d669b0cb1 net: mvpp2: parser fix PPPoE
@@ -976,6 +946,7 @@ b26cd9325be4c1fcd331b77f10acb627c560d4d7 pinctrl: amd: Disable and mask interrup
 f91bf3272a18356e8585f6bbba896d794632f2af iommu/exynos: Fix set_platform_dma_ops() callback
 66ceaa4c4507f2b598d37b528796dd34158d31bf ice: fix W=1 headers mismatch
 d94dbdc4e0209b5e7d736ab696f8d635b034e3ee ice: Fix ice_cfg_rdma_fltr() to only update relevant fields
+8ad266d133b005e88953b08d988fac86f74a0665 driver core: Add CONFIG_FW_DEVLINK_SYNC_STATE_TIMEOUT
 29486b6df3e6a63b57d1ed1dce06051267282ff4 ice: add profile conflict check for AVF FDIR
 e9a1cc2e4c4ee7c7e60fb26345618c2522a2a10f ice: fix invalid check for empty list in ice_sched_assoc_vsi_to_agg()
 05c24161f4d2adc0deb6f3f0f55d25e12fbbdcde Merge tag 's390-6.3-4' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
@@ -983,6 +954,9 @@ b57841fb0b564c61508222e885ac8f30a2811089 thermal: core: Drop excessive lockdep_a
 756c1a0593e7d26bd7dc6332e9490607cd106c4f Merge tag 'linux-kselftest-fixes-6.3-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
 fcd476ea6a888ef6e6627f4c21a2ea8cca3e9312 Merge tag 'urgent-rcu.2023.03.28a' of git://git.kernel.org/pub/scm/linux/kernel/git/paulmck/linux-rcu
 2280d425ba3599bdd85c41bd0ec8ba568f00c032 btrfs: ignore fiemap path cache when there are multiple paths for a node
+75a2d4226b53710380d1017b3f4c88f937ddba78 driver core: class: mark the struct class for sysfs callbacks as constant
+884f8ce42ccec9d0bf11d8bf9f111e5961ca1c82 driver core: class: implement class_get/put without the private pointer.
+7b884b7f24b42fa25e92ed724ad82f137610afaf driver core: class.c: convert to only use class_to_subsys
 07b3af42d8d528374d4f42d688bae86eeb30831a net: ethernet: mtk_eth_soc: fix tx throughput regression with direct 1G links
 f33fc1576757741479452255132d6e3aaf558ffe ALSA: ymfpci: Create card with device-managed snd_devm_card_new()
 6be2e7522eb529b41c16d459f33bbdbcddbf5c15 ALSA: ymfpci: Fix BUG_ON in probe function
@@ -990,8 +964,15 @@ f33fc1576757741479452255132d6e3aaf558ffe ALSA: ymfpci: Create card with device-m
 e4056e38ec87b4c21eb34bb8e38b1b0ca1221744 dt-bindings: pinctrl: qcom,sm8550-lpass-lpi: allow input-enabled and bias-bus-hold
 30fb97ba4a8e082ba0a5432479d6995472edbd7b drm/nouveau/kms: Fix backlight registration
 5c2712387d4850e0b64121d5fd3e6c4e84ea3266 cacheinfo: Fix LLC is not exported through sysfs
+3f84aa5ec052dba960baca4ab8a352d43d47028e base: soc: populate machine name in soc_device_register if empty
+67ca1b9346fe255cfe503b967407fd24ec76da37 soc: amlogic: meson-gx-socinfo: use new soc_device_register functionality to populate machine name
+02fe26f25325b547b7a31a65deb0326c04bb5174 firmware_loader: Add debug message with checksum for FW file
+9caf696142252a466fb89e629d0eddcdced027b0 kernfs: Introduce separate rwsem to protect inode attributes.
+c9f2dfb7b59e5a6db054f821a6e1a6db8fa57d64 kernfs: Use a per-fs rwsem to protect per-fs list of kernfs_super_info.
+06fb4736139fde0e1431fe2a5b4912dcb7588d09 kernfs: change kernfs_rename_lock into a read-write lock.
 eca9f6e6f83b6725b84e1c76fdde19b003cff0eb powerpc/pseries/vas: Ignore VAS update for DLPAR if copy/paste is not enabled
 52aad39385e1bfdb34a1b405f699a8ef302c58b0 ALSA: hda/realtek: Add quirk for Lenovo ZhaoYang CF4620Z
+61f21988d806a5c93c39179f2d91ea2d3219b025 docs: driver-api: firmware_loader: fix missing argument in usage example
 4453545b5b4c3eff941f69a5530f916d899db025 drm: buddy_allocator: Fix buddy allocator init on 32-bit systems
 25bbe844ef5c4fb4d7d8dcaa0080f922b7cd3a16 drm: test: Fix 32-bit issue in drm_buddy_test
 4ff0b50de8cabba055efe50bbcb7506c41a69835 io_uring/rsrc: fix rogue rsrc node grabbing
@@ -1014,6 +995,7 @@ c5cff16f461a4a434a9915a7be7ac9ced861a8a4 i40e: fix registers dump after run etht
 62aad36ed31abc80f35db11e187e690448a79f7d bnxt_en: Fix typo in PCI id to device description string mapping
 581bce7bcb7e7f100908728e7b292e266c76895b bnxt_en: Add missing 200G link speed reporting
 209373537648d815a104c3af787663d7db06bd5d Merge branch 'bnxt_en-3-bug-fixes'
+9467af61bf6a92bb0e2f783fcfc379f943fa4e0d mISDN: remove unneeded mISDN_class_release()
 f7154d967bc4ee25ea1572937550e711b2525474 virtio/vsock: fix header length on skb merging
 b8d2f61fdf2a566f7872158f35e65599aceb90fb virtio/vsock: WARN_ONCE() for invalid state of socket
 25209a3209ecc44f93300b7ee5287f451be1d6ff test/vsock: new skbuff appending test
@@ -1056,7 +1038,15 @@ e03677100707f849f01d8faf07ee58b4e56cdbf1 cifs: get rid of dead check in smb2_rec
 c7d624520c1bd4e42d8ceb8283d6505fc90acccb iommu/vt-d: Remove unnecessary locking in intel_irq_remapping_alloc()
 bfd3c6b9fa4a1dc78139dd1621d5bea321ffa69d iommu/vt-d: Allow zero SAGAW if second-stage not supported
 16812c96550c30a8d5743167ef4e462d6fbe7472 iommu/vt-d: Fix an IOMMU perfmon warning when CPU hotplug
+6332a6ced62ac0c9ad7617be34aa2ee4543a52ab media: pvrusb2: clean up unneeded complexity in pvrusb2 class logic
 896c5150edfd5c01ed7abfcf02612f4aac6296b3 Merge branch 'thermal-intel-fixes'
+7d90e81a2d5edbd04037100bdd54d955bdd9b0d0 driver core: core: move to use class_to_subsys()
+6f14c02220c791d5c46b0f965b9340c58f3d503d driver core: create class_is_registered()
+2df418cf4b720fe3a0db4b4aab67be43d26af9dd driver core: class: remove subsystem private pointer from struct class
+d6bdbbdfb0d45a92407b90209e377bf8c0ed49e9 driver core: clean up the logic to determine which /sys/dev/ directory to use
+e78195d52981fc634a4e1e66610a316088bd7458 driver core: class: remove dev_kobj from struct class
+575ab414c90a317158db48475a88de42f37e0afa driver core: make sysfs_dev_block_kobj static
+980c05616e5d554c46176fe08b5601801f2f8192 driver core: make sysfs_dev_char_kobj static
 52f1959502dec5069dcd247ce0462cdc608494b1 Merge tag 'mips-fixes_6.3_1' of git://git.kernel.org/pub/scm/linux/kernel/git/mips/linux
 39f692125c388aa657e77e5ae07ea72be02d99a5 Merge tag 'riscv-for-linus-6.3-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
 f964333194b877effae897314d89818347ed90d7 Merge tag 'acpi-6.3-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
@@ -1071,15 +1061,25 @@ f3fa7f026e5faf10f730b0655b2f96f86d3c7dd8 Merge tag 'io_uring-6.3-2023-03-30' of 
 5a57b48fdfcb1e196292665d87fac46180344f8a Merge tag 'platform-drivers-x86-v6.3-4' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 a0264d198aad19429df0ca2e320caf8b1f98ec64 Merge tag 'nfs-for-6.3-3' of git://git.linux-nfs.org/projects/anna/linux-nfs
 7b50567bdcad8925ca1e075feb7171c12015afd1 media: i2c: imx290: fix conditional function defintions
+f326ea63ecc683b3dc88d8ee4f598598d4ed3b39 driver core: class: fix slab-use-after-free Read in class_register()
 92367fdf3b699e97acb4d5fbf7159f5c458b2b30 Merge tag 'iommu-fixes-6.3-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/joro/iommu
 ce0c2375ff56781ee26d9ad6b4cb40d85e0a9ebd Merge tag 'kbuild-fixes-v6.3-2' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 93e2b01740863cf2f4a58887ac1384e6324b50a2 Merge tag 'pinctrl-v6.3-2' of git://git.kernel.org/pub/scm/linux/kernel/git/linusw/linux-pinctrl
 00c7b5f4ddc5b346df62b757ec73f9357bb452af Merge tag 'input-for-v6.3-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input
 f7772da66255ab2b478a33df404a335fab55cc25 Merge tag '6.3-rc4-smb3-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
+43ba3d4af7a73ae958207caada6af0612d67f08e pktcdvd: simplify the class_pktcdvd logic
 95d0b9d89d78e0983d4feb012b0f12d13d1ae19a Merge tag 'powerpc-6.3-4' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
 a10ca0950afe36fa5a20e8fc3e843beef8808fc1 Merge tag 'driver-core-6.3-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/driver-core
 f95b8ea79c47c0ad3d18f45ad538f9970e414d1f Revert "venus: firmware: Correct non-pix start and end addresses"
 6ab608fe852b50fe809b22cdf7db6cbe006d7cb3 Merge tag 'for-6.3-rc4-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
 7e364e56293bb98cae1b55fd835f5991c4e96e7d Linux 6.3-rc5
+cd8fe5b6dbb3a487bea5f1601437c013a3d56163 Merge 6.3-rc5 into driver-core-next
+63071c6e8433afe6d821eea4ee228ad1dcee7260 driver core: remove devm_device_add_groups()
+7af0d452c0df663fdaf527932b72e66211760ab3 sysfs: do not create empty directories if no attributes are present
+961b5ff56a59e02c5f467d937d1e66bc961c2d2b soundwire: sysfs: move sdw_slave_dev_attr_group into the existing list of groups
+074441ed60a2820af67c8e6d1d06559497b7f850 soundwire: sysfs: cleanup the logic for creating the dp0 sysfs attributes
+f6809539b9843503b74c3bdf30351e62b1343335 soundwire: sysfs: have the driver core handle the creation of the device groups
+3f3e891ea0c47194a1111298618ee2cd80426429 soundwire: sysfs: remove sdw_slave_sysfs_init()
+cb21a0a2efbe6996216b9d1b1464031c78f2ddf9 soundwire: sysfs: remove unneeded ATTRIBUTE_GROUPS() comments
 
---===============5585222019646726288==--
+--===============1036224123247310030==--
