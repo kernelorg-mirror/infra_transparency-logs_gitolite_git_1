@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============5913160268627789311=="
+Content-Type: multipart/mixed; boundary="===============8055656247160659692=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Mon, 03 Apr 2023 12:37:31 -0000
-Message-Id: <168052545101.13285.7254029793383677754@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Mon, 03 Apr 2023 12:37:44 -0000
+Message-Id: <168052546427.13433.2470133155359453141@gitolite.kernel.org>
 
---===============5913160268627789311==
+--===============8055656247160659692==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: leon
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: 7e364e56293bb98cae1b55fd835f5991c4e96e7d
     log: revlist-197b6b60ae7b-7e364e56293b.txt
 
---===============5913160268627789311==
+--===============8055656247160659692==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -271,4 +271,4 @@ f95b8ea79c47c0ad3d18f45ad538f9970e414d1f Revert "venus: firmware: Correct non-pi
 6ab608fe852b50fe809b22cdf7db6cbe006d7cb3 Merge tag 'for-6.3-rc4-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
 7e364e56293bb98cae1b55fd835f5991c4e96e7d Linux 6.3-rc5
 
---===============5913160268627789311==--
+--===============8055656247160659692==--
