@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6244447077128908732=="
+Content-Type: multipart/mixed; boundary="===============0211310038082197781=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Mon, 03 Apr 2023 02:15:09 -0000
-Message-Id: <168048810903.32292.18298725869525970271@gitolite.kernel.org>
+Date: Mon, 03 Apr 2023 02:15:22 -0000
+Message-Id: <168048812287.32602.6290202618722976206@gitolite.kernel.org>
 
---===============6244447077128908732==
+--===============0211310038082197781==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,148 +16,110 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue
-    old: e05c006dac08ef346fc5e223f6f14cc2c6c96a7b
-    new: 882f4adac9a8411ba9993810132add18896b82c1
-    log: revlist-e05c006dac08-882f4adac9a8.txt
+  - ref: refs/tags/mkp-scsi-staging
+    old: 25a50391b11ce7900cabd69c0339ffae3f6a12fc
+    new: a5b847d84ee4f1e63d03ba91eaf566a03dbaabb1
+    log: revlist-25a50391b11c-a5b847d84ee4.txt
 
---===============6244447077128908732==
+--===============0211310038082197781==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1680488107 -0400
+pusher 75C5DE3D 1680488114 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1680488107-d80dbf4d7b5cab92bf35045195bdb333eb8047bd
+nonce 1680488113-7068506d4c64380f9cc21dd54a0a0e7cd68bd483
 
-e05c006dac08ef346fc5e223f6f14cc2c6c96a7b 882f4adac9a8411ba9993810132add18896b82c1 refs/heads/queue
+25a50391b11ce7900cabd69c0339ffae3f6a12fc a5b847d84ee4f1e63d03ba91eaf566a03dbaabb1 refs/tags/mkp-scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmQqNqsACgkQ7ulgGnXF
-3j2ZAQ//Xx92gZytgLjSkksstkQDO8HBi4z6/Cpg/yDhsXpVjH9zJF+QbIyQuvtu
-Etv4v+Dt9x/wvc+9l3JIxLLSvliCAGs7JZWGhTsRjvG9a4pF5AAZ75JBvEU9iY2K
-BGQ0LNAFnG2QGcNuFQEPbx+Q0E/Pu7E1Z9yHtfWgDLdo24v7KakSAumaG4+3cNc5
-PVLYdjPmuv7EuRomkAK9cEHitDQJpI2y6qBaxFlLquFla+mpuvuxTXyiXtz4KguC
-iag/yaanhPpxXbSO33cAZ8YF83N/LeLKSg3FoApH4G8orj2QhC9F/Yp9qi19Q4mm
-btT6h7kCUeVuj1XKiSoCMWp8AM3Xry+Xc6T2ndLk29CLXRSraY3n5j67HRdBM7YA
-q1Cn4DaSVlAIGdvDq11T5zmkishx62VdrvUFNVmb6HuvLgmfwWsn46r7yey3xpKb
-Vnn0a0SvsUk8cqMzn/d9PpKzzPU7tqqTBN5y0daEnA7BSuxT+suzL1EFAv1AqLea
-1rxGqUyqOYYHNaEpmcMph8YYtVbl21iXD6x2l2F1glfQcMGHi7hCPcYriXsqnwfk
-sb7CTS2/RiDT57M0YzDvut6a1NZSpQR2xpCbWK3VugAQgWG2vY1PrTWg2W9+jpxH
-P05MQf7uBPHkUt+z3Kar4Pu1vtCkkkWx/q0Qnt0G+AQ1SQ1z7bY=
-=68bc
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmQqNrIACgkQ7ulgGnXF
+3j1YRg/+JAFSyKeLeU7IjlyDY6+7SrJvq1uffT82uBfpawL1aGKllfYnB8sFNZYk
+61PFpLWo0gL0mSVstv+cl0wxMvR8zEyS55B4Al6RfqhrFxpxQw9QPYsejN8eAdDW
+zTcOAncUhWKU7KrLgX53zH2P9tzoeRsdW0WBSw9sqejWxa+R06BOt8S0gGiTihZM
+AIEvE/mgzlivXJaemK3Alfsb7MLZn9Kqji+oFiztLFYg+k3AjVubNzEwA6VytDPC
+XnCVhCjM+SWUpWfk+jS+cFxTBmxloXkDlP+ro3NzrlBGV37VIIRe53xnDYNG3FsN
+WqeXreuFm0ttCnYxxisgqtaUWsCYWUYedhpbNJNTY688RtUJMSVfGaAJmfWL+bM+
+TzJyBGKOrWk3qIW0qC94iyT9eOkOKtFfhLw1ay9WavzRKRl2CFGXNBqH6J/yX8TL
+iMgjExx+T3b+ll6Y/VVKeKIHHLhUw0ONo1r3cAIgeyVtGjnRhStAa6CSBpkriRpo
+kNOvMn6zxNprMxOqcOcNhZLkyu6KBVss+loqECFj1tpcCYzJ9sthVFq1rBEMB091
+zSIkhdKRZInBj6TSr26QARMNWeg+c7vfN8dm72+pzqrS+fJcB/7A9Z9/btMeaUmJ
+CiNFUBNZUCbak8Xv0tR63Y+3vnThm64ibTWIEkyico+efYtQ5gs=
+=cvji
 -----END PGP SIGNATURE-----
 
---===============6244447077128908732==
+--===============0211310038082197781==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e05c006dac08-882f4adac9a8.txt
+Content-Disposition: attachment; filename=revlist-25a50391b11c-a5b847d84ee4.txt
 
-d93523877e6f3e34de749dcaef385e5df5d884fd scsi: hpsa: Remove unused variable transMethod
-5c8c74ef20e7973c270498dbbf96170c9f92dae3 scsi: target: uapi: Replace fake flex-array with flexible-array member
-becd9be6069e7b183c084f460f0eb363e43cc487 scsi: target: Move sess cmd counter to new struct
-4edba7e4a8f39112398d3cda94128a8e13a7d527 scsi: target: Move cmd counter allocation
-8e288be8606ad87c1726618eacfb8fbd3ab4b806 scsi: target: Pass in cmd counter to use during cmd setup
-6d256bee602b131bd4fbc92863b6a1210bcf6325 scsi: target: iscsit: isert: Alloc per conn cmd counter
-395cee83d02de3073211b04fc85724f4abc663ad scsi: target: iscsit: Stop/wait on cmds during conn close
-d8990b5a4d065f38f35d69bcd627ec5a7f8330ca scsi: target: iscsit: Free cmds before session free
-673db054d7a2b5a470d7a25baf65956d005ad729 scsi: target: Fix multiple LUN_RESET handling
-cc79da306ebb2edb700c3816b90219223182ac3c scsi: target: iscsit: Fix TAS handling during conn cleanup
-ea87981a0ee8fb8ced1c87d004a541b60623ff97 scsi: target: iscsi: Handle abort for WRITE_PENDING cmds
-ae2fb3cb0f00482c0ec0079e4244bdee3e1fc46b Merge patch series "target: TMF and recovery fixes"
-c45b3804292ba5f95b86a8866e2e2cac03fa0155 scsi: scsi_debug: Remove redundant driver match function
-959c014ffcb4ee6f971e7c28bd7529d1361a66ff scsi: arcmsr: Deprecate using arcmsr_pci_unmap_dma()
-c3e9b937fb817ca36610dc10677cb1442aa07e72 scsi: arcmsr: Fix ADAPTER_TYPE_B 64-bit DMA compatibility issue
-3e40814818cee1b564962786f867fb71bb754686 scsi: arcmsr: Fix reading empty buffer length
-76556de243ac5b23929fb1d4bae5929d3c40f846 scsi: arcmsr: Add driver proc_name
-8d4cce50728ce86a469d39177b877c88ee2f3155 scsi: arcmsr: Update driver version
-9abb593e59ce0960a3282b3fd92b80d1aa426a0e Merge patch series "arcmsr fixes"
-a07be936d923431109837fe049545609af86c470 scsi: qla2xxx: Refer directly to the qla2xxx_driver_template
-31435de9746670d884f84a3c094a401aa27747aa scsi: core: Declare most SCSI host template pointers const
-e0d3f2c694e5db309af270a07fc570fe19902ba4 scsi: core: Declare SCSI host template pointer members const
-25df73d93323e20c1f05700776fe3df75d3b27b2 scsi: ata: Declare SCSI host templates const
-0ca31ecacfe565e354207f76f0b351e130d5cb8a scsi: firewire: sbp2: Declare the SCSI host template const
-4281af9d9f13dab7233f6d168d0be310bd305291 scsi: RDMA/srp: Declare the SCSI host template const
-95a24cf170ed1d2c21275bfa1f635fb7277eb7c6 scsi: message: fusion: Declare SCSI host template members const
-2887b7a8e07f5bf2b25977c3f533bad2eb35b8d0 scsi: zfcp: Declare SCSI host template const
-682895797e56e16a3780e4af7c3fbba23046bf71 scsi: 3w-9xxx: Declare SCSI host template const
-e5be9953cb02250393a78f3fdec541b3a6500a20 scsi: 3w-sas: Declare SCSI host template const
-ca1b0e01f6b53778900b5671034157f275966480 scsi: 3w-xxxx: Declare SCSI host template const
-83e479e12bfc79c7c465a47912b66298c2d7da0b scsi: BusLogic: Declare SCSI host template const
-157fc774cc785e350a992859ecfa99581422775e scsi: a100u2w: Declare SCSI host template const
-4412df387040cda6005f3dd4907129728abcb4c3 scsi: a2091: Declare SCSI host template const
-88530b3ea9020550bebe2a1896d5691497b89407 scsi: a3000: Declare SCSI host template const
-0cd7324b9e9debe33a77952733e749c92ffa20c3 scsi: aacraid: Declare SCSI host template const
-8afc6e14a69bd192250f2489d793b8b3d1d41297 scsi: advansys: Declare SCSI host template const
-11e58ceacfabda48fcdc0901dbef41c21c52a031 scsi: aha152x: Declare SCSI host template const
-77168bd721bcbef610dab3c2bb4a3d87dba4b321 scsi: aha1542: Declare SCSI host template const
-dbb26f2b4200a744fd0b67b0ca92e848094da3fd scsi: aic94xx: Declare SCSI host template const
-34f5d2dc00381df593bf57b7787d136522e18b77 scsi: arcmsr: Declare SCSI host template const
-5d94e575a1f1df4036fe41af5cca89b60a3c63bb scsi: acornscsi: Declare SCSI host template const
-116e5de74270b66c69fe86db514d87ffbba28b04 scsi: arxescsi: Declare SCSI host template const
-4df23b30fa23dc532d3becd71ac1b1f0e44d8988 scsi: aha1740: Declare SCSI host template const
-202423c58724315d9aba26aa832500a600ff3cb5 scsi: cumana: Declare SCSI host template const
-13c2e9647198a10266a52a14f76e492d3cfe8838 scsi: eesox: Declare SCSI host template const
-644d8d77eee5814c056c54e9f005e4fcb7f2f53c scsi: oak: Declare SCSI host template const
-9db801178eb8caca3058eea7d7f337a992c785ac scsi: powertec: Declare SCSI host template const
-f44e1c639ef00f517a65b4becafab51f97ce9861 scsi: atp870u: Declare SCSI host template const
-16c0a2db0c4a937078df3268c15c2c5f2885db77 scsi: dc395x: Declare SCSI host template const
-b816c6bf69a7d9b99e55e71485c9f4ef5ec6acbe scsi: dmx3191d: Declare SCSI host template const
-67791ce19f0003831bb17fd69024ca9a1474498b scsi: elx: efct: Declare SCSI host template const
-1f4e77dbcbad700777197a24a30cdafb3a3b57b1 scsi: esas2r: Declare SCSI host template const
-3b465a149146032be5c3e42735e7eaf45517aa97 scsi: esp_scsi: Declare SCSI host template const
-d15515f918010464e4c6e225f678926f9ab173fd scsi: fcoe: Declare SCSI host template const
-bf3614bd7e8a3727d29b01e76596daa7c40f5be0 scsi: fnic: Declare host template const
-be8532d15342d3ee64c39512a6f162ffb313ffa2 scsi: qedf: Declare host template const
-8e6a87aa91624d5a07799491528b2bb7c7ae5628 scsi: fdomain: Declare SCSI host template const
-bd5e469a7f698ea5c4de3c4de17c05070db51d74 scsi: NCR5380: Declare SCSI host template const
-ccc54750f9b77223f0813d74f2850fc9b5bb1c7d scsi: gvp11: Declare SCSI host template const
-e8c0ced993ddcb01af21c269983205c7c16c5ffd scsi: hisi_sas: Declare SCSI host template const
-207761bf1a8dfcafec5ba3310253b3ed3c5ce4b3 scsi: hpsa: Declare SCSI host template const
-9194970becd88b71f929ab5c843f4440cbb451bf scsi: hptiop: Declare SCSI host template const
-7bced3fc285a3f0791eb50bd1c9bbf4305804f50 scsi: ibmvfc: Declare SCSI host template const
-09dce26c4a8957069d06bdf4046b45bfc0ba7f38 scsi: imm: Declare SCSI host template const
-4ba116af0fd3f665ba6f855c0cd7e2b6a4b6b5e7 scsi: initio: Declare SCSI host template const
-4ea4394e7120f3b7d2ab3409e1e8de5da999dd73 scsi: ipr: Declare SCSI host template const
-eb60d17a0e4a239b9834d3542f0d3724a242eb76 scsi: isci: Declare SCSI host template const
-80602aca4fcca2b0a90ab39fcce31ec591a3fba0 scsi: iscsi: Declare SCSI host template const
-5e328664ed0b6388b317dd47f5381ec13fe8b557 scsi: mac53c94: Declare SCSI host template const
-264e222b004cbf2950e60a873ab15339399a1b0d scsi: megaraid: Declare SCSI host template const
-0fabb7fbad553a06f3e1066a82ba5761b2e617b5 scsi: mesh: Declare SCSI host template const
-b85f82f3c92a05cad2ae785de21299e52a22c63b scsi: mpi3mr: Declare SCSI host template const
-1785ced8bd4b547d01a3d6c9ede0a1cd1bc84558 scsi: mpt3sas: Declare SCSI host template const
-c9ac4e73b373cdc4fe70356ac97aff5c8d7d8be2 scsi: mvme147: Declare SCSI host template const
-f01feece6b64c0931c5e5cc7aee6d880ef6ce840 scsi: mvsas: Declare SCSI host template const
-8a098ba4d996a063c8ef54c3a41193566d00d69b scsi: mvumi: Declare SCSI host template const
-8e64d59d1f1c96c3fdd5d16918dc24f42dab04f0 scsi: myrb: Declare SCSI host template const
-914fa37a8a549efe4c1db3091ba907225cff9de8 scsi: myrs: Declare SCSI host template const
-36242912e24f0d4c00406b065f90019800ac3708 scsi: nsp32: Declare SCSI host template const
-54aefe23a6c46d7194a98ece8d98fad08d5cbdb1 scsi: pcmcia-sym53c500: Declare SCSI host template const
-8fe69e4abdb5adaf8b2a060351086f005557de62 scsi: pcmcia-pm8001: Declare SCSI host template const
-4e9e0a51aa31e82a949a4b34b1a8503e57c3932e scsi: pmcraid: Declare SCSI host template const
-d23901a8d700dac17a72a405af497eb095b7a31e scsi: ppa: Declare SCSI host template const
-4fe61364e7d1b0e74f0b49b5a0d6dd8130e71c53 scsi: ps3rom: Declare SCSI host template const
-796e8f8082989a40f45f7c6830d8f45067100b53 scsi: qla1280: Declare SCSI host template const
-421c20b7668e31a63c9dc1dad0e5ee79b5ae9027 scsi: qla2xxx: Declare SCSI host template const
-7c7a1419179a80f46d7dce76f65563db6b5d73d7 scsi: qlogicpti: Declare SCSI host template const
-4517353a048e045b28c07071abc783d69850694d scsi: sgiwd93: Declare SCSI host template const
-077126d6b9415592bacc5e6743643e67ff224dc8 scsi: smartpqi: Declare SCSI host template const
-8fb5b37e070e3c5434be816937cadf06873bcbe1 scsi: snic: Declare SCSI host template const
-08d6075192d10a9a54ba2155b5f68a923dbce131 scsi: stex: Declare SCSI host template const
-d2c16f8f1ed2c2b926afa3bec2fefadc9d7ee4f5 scsi: sym53c8xx: Declare SCSI host template const
-273ab251950ffbffba3d831ef82731deb1260ea6 scsi: virtio-scsi: Declare SCSI host template const
-a5b78e81c712c3eb3229cdc4fa559dea60f93cd8 scsi: wd719x: Declare SCSI host template const
-65e5447a10140a91bb10b67e30dccab4357892e2 scsi: xen-scsifront: Declare SCSI host template const
-f8adf8e99a23a49dad9cdb054f2abba0ce5d1865 scsi: rts5208: Declare SCSI host template const
-8e2ab8cda5aa70b4e6d406f158d69363cd8dfc4e scsi: target: tcm-loop: Declare SCSI host template const
-f2e2fe3dec7f44fea4c0cd66ca5abf5cd080407c scsi: ufs: Declare SCSI host template const
-04d1fa4346ccedde68886a4d5a0003f3a322467b scsi: usb: uas: Declare two host templates and host template pointers const
-62d15dba0aa4448c15da9c9443018c70fc2527b2 Merge patch series "Constify most SCSI host templates"
-75cb113cd43f06aaf4f1bda0069cfd5b98e909eb scsi: megaraid: Fix mega_cmd_done() CMDID_INT_CMDS
-f486893288f3e9b171b836f43853a6426515d800 scsi: message: mptlan: Fix use after free bug in mptlan_remove() due to race condition
-882f4adac9a8411ba9993810132add18896b82c1 scsi: target: tcm_loop: Remove redundant driver match function
+6cc55c969b7ce8d85e09a636693d4126c3676c11 scsi: target: iscsi: Fix an error message in iscsi_check_key()
+877b03795fcf29ff2e2351f7e574ecc9b9c51732 scsi: qla2xxx: Add option to disable FC2 Target support
+06d1a90de60208054cca15ef200138cfdbb642a9 scsi: hisi_sas: Check devm_add_action() return value
+2ebe16155dc8bd4e602cad5b5f65458d2eaa1a75 scsi: ufs: core: Add soft dependency on governor_simpleondemand
+fa8d32721a07d1349d963832400e97ebb515aa96 scsi: ufs: ufs-qcom: Remove impossible check
+c8be073bd2bced20f58e65276281fc116758c7cb scsi: ufs: mcq: qcom: Fix passing zero to PTR_ERR
+c9507eab9fa7af7ab4c80856eeafd1481ff16f7c scsi: ufs: mcq: qcom: Clean the return path of ufs_qcom_mcq_config_resource()
+312320b0e0ec21249a17645683fe5304d796aec1 scsi: lpfc: Check kzalloc() in lpfc_sli4_cgn_params_read()
+2850b23e9f9ae3696e472d2883ea1b43aafa884e scsi: lpfc: Avoid usage of list iterator variable after loop
+02ca7da2919ada525fb424640205110e24646b50 scsi: mpi3mr: ioctl timeout when disabling/enabling interrupt
+5b06a7169c59ce0c77ef8b9c82aa07c478f82aac scsi: mpi3mr: Driver unload crashes host when enhanced logging is enabled
+0a319f1629495d27879b7ebf6eee62b8cf6e4c37 scsi: mpi3mr: Wait for diagnostic save during controller init
+ba8a9ba41fbde250fd8b0ed1e5dad0dc9318df46 scsi: mpi3mr: Return proper values for failures in firmware init path
+4f297e856a7b5da2f2c66a12e739666e23943560 scsi: mpi3mr: NVMe command size greater than 8K fails
+8e45183978d64699df639e795235433a60f35047 scsi: mpi3mr: Bad drive in topology results kernel crash
+bfa659177dcba48cf13f2bd88c1972f12a60bf1c scsi: megaraid_sas: Update max supported LD IDs to 240
+9bcb1d5a3d10f4d15da2174f8eaec942602f681f scsi: megaraid_sas: Add crash dump mode capability bit in MFI capabilities
+a2033f9f9d785972513bca207ed4a48bffc75f8f scsi: megaraid_sas: Driver version update to 07.725.01.00-rc1
+11d9874c4204a785f43d899a1ab12f9dc8d9de3e scsi: storvsc: Handle BlockSize change in Hyper-V VHD/VHDX file
+288b3271d920c9ba949c3bab0f749f4cecc70e09 scsi: sd: Fix wrong zone_write_granularity value during revalidate
+d3c57724f1569311e4b81e98fad0931028b9bdcd scsi: mpt3sas: Fix NULL pointer access in mpt3sas_transport_port_add()
+f305a7b6ca21a665e8d0cf70b5936991a298c93c scsi: mpi3mr: Fix throttle_groups memory leak
+7d2b02172b6a2ae6aecd7ef6480b9c4bf3dc59f4 scsi: mpi3mr: Fix config page DMA memory leak
+d0f3c3728da8af76dfe435f7f0cfa2b9d9e43ef0 scsi: mpi3mr: Fix mpi3mr_hba_port memory leak in mpi3mr_remove()
+d4caa1a4255cc44be56bcab3db2c97c632e6cc10 scsi: mpi3mr: Fix sas_hba.phy memory leak in mpi3mr_remove()
+c798304470cab88723d895726d17fcb96472e0e9 scsi: mpi3mr: Fix memory leaks in mpi3mr_init_ioc()
+ce756daa36e1ba271bb3334267295e447aa57a5c scsi: mpi3mr: Fix expander node leak in mpi3mr_remove()
+4b1a2c2a8e0ddcb89c5f6c5003bd9b53142f69e3 scsi: core: Add BLIST_NO_VPD_SIZE for some VDASD
+be03df3d4bfe7e8866d4aa43d62e648ffe884f5f scsi: core: Fix a procfs host directory removal regression
+c6001025d53ab56d7159cf313313c6b5bd250380 scsi: ufs: mcq: Use active_reqs to check busy in clock scaling
+a204b490595de71016b2360a1886ec8c12d0afac scsi: core: Add BLIST_SKIP_VPD_PAGES for SKhynix H28U74301AMR
+0367076b0817d5c75dfb83001ce7ce5c64d803a9 scsi: qla2xxx: Perform lockless command completion in abort path
+d3affdeb400f3adc925bd996f3839481f5291839 scsi: qla2xxx: Synchronize the IOCB count to be in order
+a13faca032acbf2699293587085293bdfaafc8ae scsi: scsi_dh_alua: Fix memleak for 'qdata' in alua_activate()
+0808ed6ebbc292222ca069d339744870f6d801da scsi: megaraid_sas: Fix fw_crash_buffer_show()
+2309df27111a51734cb9240b4d3c25f2f3c6ab06 scsi: megaraid_sas: Fix crash after a double completion
+f0aa59a33d2ac2267d260fe21eaf92500df8e7b4 scsi: core: Improve scsi_vpd_inquiry() checks
+d684a7a26f7d2c7122a4581ac966ed64e88fb29c scsi: mpt3sas: Don't print sense pool info twice
+f467b865cf5b25aac3feee3fb5e25b90f5df35c4 Merge branch '6.3/scsi-fixes' into 6.4/scsi-staging
+543a827b1db3ef0a123dc7a48e8feb6585eae0a6 scsi: core: Clean up struct ufs_saved_pwr_info
+0e4b1791d9b192ac263a03707d876132eb0f8dab scsi: libsas: Abort all in-flight requests when device is gone
+aa4d7812cf2cb0847e027d0e2a124926eea9d4fb scsi: target: core: Remove unused 'prod_len' variable
+ca62009eff728c0a62ea76184adcc6be411f4066 scsi: sr: Simplify the sr_open() function
+e324dd00fd17906ad9f0386f5e15d78da2e2b9fe scsi: scsi_transport_fc: Remove unused 'desc_cnt' variable
+0a07d3c7a1d205b47d9f3608ff4e9d1065d63b6d scsi: ufs: ufs-pci: Add support for Intel Lunar Lake
+7866e03b9825e1e08fc5136d3ab9a35ebabdc7f5 scsi: qedf: Remove unused 'num_handled' variable
+4e0966a4829178b3cc7d8dc8686d9d6fcc221187 scsi: snic: Remove unused 'xfer_len' variable
+3d2efb5470f58707a9120720af238d1dacdf77b5 scsi: qla4xxx: Remove unused 'count' variable
+71fb36b5ff113a7674710b9d6063241eada84ff7 scsi: hisi_sas: Grab sas_dev lock when traversing the members of sas_dev.list
+bb544224da77b96b2c11a13872bf91ede1e015be scsi: hisi_sas: Handle NCQ error when IPTT is valid
+89954f024c3ae5e8674d9b5313a7cc08e79c6f6d scsi: hisi_sas: Ensure all enabled PHYs up during controller reset
+e368d38cb9524415ceb5b2b54a0dacdfb9f73b6c scsi: hisi_sas: Exit suspend state when usage count is greater than 0
+60b3f355c7a3808a16dbef34dc61971a2b9bc80d Merge patch series "scsi: hisi_sas: Some misc changes"
+6500d2045d5247cfb2ac31cc1691d7191096389b scsi: scsi_debug: Fix check for sdev queue full
+00f9d622e8b237d8403569ee51f7bfb9bf89a2d5 scsi: scsi_debug: Don't iter all shosts in clear_luns_changed_on_target()
+0aaa3fad4fd931ba3accac3a1fcc7334ca780591 scsi: scsi_debug: Change shost list lock to a mutex
+25b80b2c7582ea15ba90b8007f1e1f1b8fc762b9 scsi: scsi_debug: Protect block_unblock_all_queues() with mutex
+a0473bf31df5bf2da7ecb50023c129659ce0a835 scsi: scsi_debug: Use scsi_block_requests() to block queues
+1107c7b24ee3280abfc59f1b9186e285cabdd3ec scsi: scsi_debug: Dynamically allocate sdebug_queued_cmd
+600d9ead3936b2f22e664c59345a2e006ff324c5 scsi: scsi_debug: Use blk_mq_tagset_busy_iter() in sdebug_blk_mq_poll()
+9c559c9b4748fed11687694e65e5d6d1eb2919cd scsi: scsi_debug: Use blk_mq_tagset_busy_iter() in stop_all_queued()
+12f3eef016ea7a72c6e0d0fe6f66882086d9c4a9 scsi: scsi_debug: Use scsi_host_busy() in delay_store() and ndelay_store()
+57f7225a4fe25425c29402adad990c7409958c40 scsi: scsi_debug: Only allow sdebug_max_queue be modified when no shosts
+f1437cd1e535c5d5cc9f6e5bfdfc9b1cd3141bc4 scsi: scsi_debug: Drop sdebug_queue
+dc70c9615c067dbc34a1af736477f7d2b7f75319 Merge patch series "Fix shost command overloading issues"
 
---===============6244447077128908732==--
+--===============0211310038082197781==--
