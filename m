@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5728719265502490234=="
+Content-Type: multipart/mixed; boundary="===============3830629805000732007=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Mon, 03 Apr 2023 02:21:29 -0000
-Message-Id: <168048848979.5335.10246487603828770742@gitolite.kernel.org>
+Date: Mon, 03 Apr 2023 02:21:49 -0000
+Message-Id: <168048850946.5550.18107816697459342585@gitolite.kernel.org>
 
---===============5728719265502490234==
+--===============3830629805000732007==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jejb/scsi
 user: jejb
 changes:
-  - ref: refs/heads/misc
-    old: e05c006dac08ef346fc5e223f6f14cc2c6c96a7b
-    new: 882f4adac9a8411ba9993810132add18896b82c1
-    log: revlist-e05c006dac08-882f4adac9a8.txt
+  - ref: refs/heads/for-next
+    old: 54b700cb9d4b74a5e84b499d5f05e425a06d2cf2
+    new: 8e3ced132a8c32fbb857f964fc4626fbd6ab4bbf
+    log: revlist-54b700cb9d4b-8e3ced132a8c.txt
 
---===============5728719265502490234==
+--===============3830629805000732007==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e05c006dac08-882f4adac9a8.txt
+Content-Disposition: attachment; filename=revlist-54b700cb9d4b-8e3ced132a8c.txt
 
 d93523877e6f3e34de749dcaef385e5df5d884fd scsi: hpsa: Remove unused variable transMethod
 5c8c74ef20e7973c270498dbbf96170c9f92dae3 scsi: target: uapi: Replace fake flex-array with flexible-array member
@@ -129,5 +129,11 @@ f2e2fe3dec7f44fea4c0cd66ca5abf5cd080407c scsi: ufs: Declare SCSI host template c
 75cb113cd43f06aaf4f1bda0069cfd5b98e909eb scsi: megaraid: Fix mega_cmd_done() CMDID_INT_CMDS
 f486893288f3e9b171b836f43853a6426515d800 scsi: message: mptlan: Fix use after free bug in mptlan_remove() due to race condition
 882f4adac9a8411ba9993810132add18896b82c1 scsi: target: tcm_loop: Remove redundant driver match function
+86eb94bf8006a85738f0ccf49e3ce894e03922a6 scsi: Revert "scsi: ufs: core: Initialize devfreq synchronously"
+a3d27dfdcfc27ac3f46de5391bb6d24f04af7941 scsi: mpi3mr: Handle soft reset in progress fault code (0xF002)
+85ade4010e13ef152ea925c74d94253db92e5428 scsi: qla2xxx: Fix memory leak in qla2x00_probe_one()
+48b19b79cfa37b1e50da3b5a8af529f994c08901 scsi: iscsi_tcp: Check that sock is valid before iscsi_set_param()
+e8732519961ea8339f36a23bd4fad4d1df184f56 Merge branch 'fixes' into for-next
+8e3ced132a8c32fbb857f964fc4626fbd6ab4bbf Merge branch 'misc' into for-next
 
---===============5728719265502490234==--
+--===============3830629805000732007==--
