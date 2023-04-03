@@ -1,24 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Mon, 03 Apr 2023 12:37:49 -0000
-Message-Id: <168052546921.13525.132645151772728280@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Mon, 03 Apr 2023 12:38:26 -0000
+Message-Id: <168052550600.13818.5639816348124803052@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
+repo: pub/scm/linux/kernel/git/rdma/rdma
 user: leon
 changes:
-  - ref: refs/heads/xfrm-next
-    old: fe9488bae2fa469a6395d8a39850a97321b2f893
-    new: 6d9ff3a7205e6aa8617ec56f1de1062a95cfd9ff
+  - ref: refs/heads/for-next
+    old: d649c638dc26f3501da510cf7fceb5c15ca54258
+    new: b6ba68555d75fd99f7daa9c5a5e476f8635cb155
     log: |
-         a8f0b5bf37e1462ed63ff8e06b364a3285977bdd net/mlx5: Allow blocking encap changes in eswitch
-         2e988c47963db2714d0e42b79c7afaef9fbacdcb net/mlx5e: Create IPsec table with tunnel support only when encap is disabled
-         e8b05ad16560bd165d49c16455c51daf648c6a9b net/mlx5e: Accept tunnel mode for IPsec packet offload
-         c66bb545e63ee51f25ce21af19d5292dd8631c85 net/mlx5e: Fix FW error while setting IPsec policy block action
-         9ff0fc5245de811f96f419d334f2f53617d21047 net/mlx5: Don't overwrite extack message returned from IPsec SA validator
-         6d9ff3a7205e6aa8617ec56f1de1062a95cfd9ff net/mlx5e: Compare all fields in IPv6 address
+         d54bd5abf4d26e1b6722238f75e36069ea91def9 RDMA/bnxt_re: Add resize_cq support
+         77f7eb9f3416aace703971156133926e44e2195b net/mlx5: Introduce other vport query for Q-counters
+         bbe371399ed004f4deb57151ad36dcc720a0d687 Merge branch 'mlx5-next' into wip/leon-for-next
+         d22467a71ebe96ff5ab7e000dbef60d4ea76e5b0 RDMA/mlx5: Expand switchdev Q-counters to expose representor statistics
+         fc36ce35e9458589ed7443985d11d044d17c6456 RDMA/usnic: Remove redundant pci_clear_master
+         1b69f1e3d7449d0c66f7bc0f429ed94fc03dfeb3 RDMA/bnxt_re: remove unused num_srqne_processed and num_cqne_processed variables
+         cba968e33e5df086b6e681179d199f959bc71f33 RDMA/ocrdma: remove unused discard_cnt variable
+         78b26a335310a097d6b22581b706050db42f196c RDMA/rxe: Remove tasklet call from rxe_cq.c
+         b6ba68555d75fd99f7daa9c5a5e476f8635cb155 RDMA/rxe: Clean kzalloc failure paths
          
