@@ -1,25 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/linux-stable
-Date: Mon, 03 Apr 2023 03:59:36 -0000
-Message-Id: <168049437653.3776.682215758241692771@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
+Date: Mon, 03 Apr 2023 04:28:22 -0000
+Message-Id: <168049610277.24070.14820432196699833623@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/linux-stable
-user: sashal
+repo: pub/scm/linux/kernel/git/vireshk/pm
+user: vireshk
 changes:
-  - ref: refs/heads/for-greg/6.1-112
-    old: ed38787050614e11a67ec0eb21b0793f80a3f21e
-    new: 8568b8da64ad444ead27cbe82ea89d22e0255c7f
+  - ref: refs/heads/opp/linux-next
+    old: e9eadc28271940266ace3f748a1c6278bd886ea8
+    new: 528f2d8d540a3c374d6b765c769620d91536b176
     log: |
-         8568b8da64ad444ead27cbe82ea89d22e0255c7f mtd: spi-nor: fix memory leak when using debugfs_lookup()
-         
-  - ref: refs/heads/for-greg/6.2-112
-    old: c3e6dba5bd91542ef688ab21e5e389ba3ba1cd86
-    new: 59cfbf76633b410042a78c912b67b77021b9f165
-    log: |
-         59cfbf76633b410042a78c912b67b77021b9f165 mtd: spi-nor: fix memory leak when using debugfs_lookup()
+         29b1a92e5e953214388ac1f3656cb3af266ca74f OPP: Handle all genpd cases together in _set_required_opps()
+         528f2d8d540a3c374d6b765c769620d91536b176 OPP: Move required opps configuration to specialized callback
          
