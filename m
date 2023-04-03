@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1062955088470855891=="
+Content-Type: multipart/mixed; boundary="===============2273079146284077681=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Mon, 03 Apr 2023 07:33:13 -0000
-Message-Id: <168050719366.17335.15713142233590567364@gitolite.kernel.org>
+Date: Mon, 03 Apr 2023 07:33:17 -0000
+Message-Id: <168050719708.17418.11715329034455429105@gitolite.kernel.org>
 
---===============1062955088470855891==
+--===============2273079146284077681==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,49 +16,47 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-linus
-    old: 5c2712387d4850e0b64121d5fd3e6c4e84ea3266
+  - ref: refs/heads/main
+    old: fe15c26ee26efa11741a7b632e9f23b01aca4cc6
     new: 7e364e56293bb98cae1b55fd835f5991c4e96e7d
-    log: revlist-5c2712387d48-7e364e56293b.txt
+    log: revlist-fe15c26ee26e-7e364e56293b.txt
 
---===============1062955088470855891==
+--===============2273079146284077681==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1680507192 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1680507196 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1680507192-8eb7d44a4aab5c48aa6a43dc615dd54e05600459
+nonce 1680507195-cf03614717eb82247e4daa4d90c9e54dfad15066
 
-5c2712387d4850e0b64121d5fd3e6c4e84ea3266 7e364e56293bb98cae1b55fd835f5991c4e96e7d refs/heads/driver-core-linus
+fe15c26ee26efa11741a7b632e9f23b01aca4cc6 7e364e56293bb98cae1b55fd835f5991c4e96e7d refs/heads/main
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQqgTkbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+cjcP/3suL5epmc+qipa7wsxD
-B2aezIFocX2kENKy/Ii0Bq6/Glgdg7eZrCBmUAo+h1m1L00b3nP/BrzSNr9tc+0a
-jfUCvyEgK7XO/px63z4F0O0z31C4DtgtwkdFdHYYyO8ZWvfWNwMLYWpzoZO92sfl
-O353VgrBr0bIXTNQhunj9n7dfSrQwuIIS1xpUXftHiOqHTt1VyxuMi8aiN+L+xGx
-FME311mEse11z65ufrTGUMqzEiJ6RH2Mt6w7DLnK3VtBnlmgjT8KGv3bGf6R7aQ+
-Ay4nfetd0dNt2UaoJZN0wGIy0t0Qkd4EMYEAt+X283NfkF4ZMp8FKBOfUXqPJhM0
-HcUUpriH46qIFuVr/XkwqYa2gtqD7Yn1eNtQAfbzVHcYbd0ypwaEPNcHmBixHkMR
-c03l4pFGBB2HGfSWMiSf4bp8LCQfKFnuOQFuFP07w0FzhsjFbjjhOXeAF7YtbeJ7
-oklV3vyglqr4er7pyvNo3yiOWeFcITCpUwA4PsXGP9E+kNPM/lq1/AEWxF6tIiEu
-y+/ILWN9omJG/B4LQJh89KIr4S2CJdRcix0x5flicfJFiNE6H7MkFuw86+CKK36o
-A2X8m43sjFNRMuy+/0kPYSpergmnskM0snv6hjYfP1rUu275FRogT1CjDVAQn1l0
-lj8QD85L8qmA6wpbjZ/0s8Uu
-=AhVz
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQqgTwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+o0wP/25kRnJ67bHeJxlSjhTo
+QwEdTsH//8uCrgMlZ3ntOZ/5PsAX9hMWsEwesym5vJFbTO/RDLo1oLGKJFaqvPKB
+t3S1aPDPEFwSHTw6yZs2QiD3Kh82VIEPmkO4RVbZdi3wMXyN1xWTYC5oTybJh0g0
+9Vey08tZDpyOL1S6t1W2nbItTUmQofjqN/5tsTzT/yVZMHdYE4kqHgDCxILhMDcd
+rGNHVuEDc3FSZt8wWu6xaoDYSM24sylgVpCOxLjokq0R8nIckgPAGtkz4G7fhOl0
+5f7VC7JCUrhC45rmqcdGXp8blQ7r2RRD/pNZDUwZW3086ngzv6zRJKni9yraKgXy
+h1Kga+iAWQ0UmiPLDnSZ60E9shSSX8L3ulS2Mx9IdVq1rZ4QnI7gciSXSnWISYHN
+52CPvvMyTK45QTCXIrPpDtI23gM8rzW/VGiHh3MrN3lYnEM53gYzh+3M0KGYO/Y1
+6f0PKyevGvT0cND9QshwIhGF32wbKxd7JLa+78Bue9i0F1VfsKRuPdbiUkIEujxR
+VX2sTkltHak2PTTT+706o8ooQBQyqpmGJlh/Fyi5EScNIPpl7UqKWFqm0kF1cZKY
+jmFhCPqo/3gwvTBOm9oYd8VilFh17hhanqnyB9CRt/UqsqTkpDKBNBmehiFY+H3Y
+pVWmTK/9mDaT1301JYYuzyk7
+=6zf1
 -----END PGP SIGNATURE-----
 
---===============1062955088470855891==
+--===============2273079146284077681==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-5c2712387d48-7e364e56293b.txt
+Content-Disposition: attachment; filename=revlist-fe15c26ee26e-7e364e56293b.txt
 
-a279adedbb5206ccadb6b2817838cbb1c834133d erofs: mark z_erofs_lzma_init/erofs_pcpubuf_init w/ __init
-8f121dfb15f7b4ab345992ce96003eb63fd608f4 erofs: fix wrong kunmap when using LZMA on HIGHMEM platforms
 d9a02e016aaf5a57fb44e9a5e6da8ccd3b9e2e70 dm crypt: avoid accessing uninitialized tasklet
 647dd2c3f0e16b71a1a77897d038164d48eea154 erofs: Revert "erofs: fix kvcalloc() misuse with __GFP_NOFAIL"
 9ff471800b74f5f952c7e75a0355f1d30ee2b046 erofs: get rid of a useless DBG_BUGON
@@ -204,6 +202,7 @@ f5361da1e60d54ec81346aee8e3d8baf1be0b762 ext4: zero i_disksize when initializing
 47053904e18282af4525a02e3e0f519f014fc7f9 KVM: arm64: timers: Convert per-vcpu virtual offset to a global value
 e25c54d17914b0df4f902d1f25cd52f54e20cfbf ubi: block: Fix missing blk_mq_end_request
 81ff855485a366a391dc3aed3942715e676ed132 Merge tag 'i2c-for-6.3-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
+44ac5abac86b20856e6d9e5e5e40dcc2623fe330 Documentation/security-bugs: move from admin-guide/ to process/
 e7304080e0e50d979ce9eaf694ad8283e2e539ea cpumask: relax sanity checking constraints
 40d0c0901e6c19cf268d2f505bce0b50319c5653 Merge tag 'ext4_for_linus_stable' of git://git.kernel.org/pub/scm/linux/kernel/git/tytso/ext4
 3b11717f95b1880b9cab4b90bbaf61268e6bda2b Merge tag 'vfs.misc.v6.3-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/idmapping
@@ -990,6 +989,7 @@ f33fc1576757741479452255132d6e3aaf558ffe ALSA: ymfpci: Create card with device-m
 5f70bcbca469a087b54ad2d934185ed69a098576 net: wwan: iosm: fixes 7560 modem crash
 e4056e38ec87b4c21eb34bb8e38b1b0ca1221744 dt-bindings: pinctrl: qcom,sm8550-lpass-lpi: allow input-enabled and bias-bus-hold
 30fb97ba4a8e082ba0a5432479d6995472edbd7b drm/nouveau/kms: Fix backlight registration
+5c2712387d4850e0b64121d5fd3e6c4e84ea3266 cacheinfo: Fix LLC is not exported through sysfs
 eca9f6e6f83b6725b84e1c76fdde19b003cff0eb powerpc/pseries/vas: Ignore VAS update for DLPAR if copy/paste is not enabled
 52aad39385e1bfdb34a1b405f699a8ef302c58b0 ALSA: hda/realtek: Add quirk for Lenovo ZhaoYang CF4620Z
 4453545b5b4c3eff941f69a5530f916d899db025 drm: buddy_allocator: Fix buddy allocator init on 32-bit systems
@@ -1082,4 +1082,4 @@ f95b8ea79c47c0ad3d18f45ad538f9970e414d1f Revert "venus: firmware: Correct non-pi
 6ab608fe852b50fe809b22cdf7db6cbe006d7cb3 Merge tag 'for-6.3-rc4-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
 7e364e56293bb98cae1b55fd835f5991c4e96e7d Linux 6.3-rc5
 
---===============1062955088470855891==--
+--===============2273079146284077681==--
