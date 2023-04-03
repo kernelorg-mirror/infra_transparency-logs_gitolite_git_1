@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6449910746383193361=="
+Content-Type: multipart/mixed; boundary="===============6531021621515528157=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Mon, 03 Apr 2023 02:14:27 -0000
-Message-Id: <168048806765.30153.18214944768519710468@gitolite.kernel.org>
+Date: Mon, 03 Apr 2023 02:14:39 -0000
+Message-Id: <168048807961.30299.7850265319812310956@gitolite.kernel.org>
 
---===============6449910746383193361==
+--===============6531021621515528157==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,9 +16,9 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-fixes
-    old: fcc21c8c6f03e9090047961b1b831d115b49f92a
-    new: f6a215a417cd5dc00ed86756000e6ae654a9d20f
+  - ref: refs/heads/6.3/scsi-fixes
+    old: d684a7a26f7d2c7122a4581ac966ed64e88fb29c
+    new: 48b19b79cfa37b1e50da3b5a8af529f994c08901
     log: |
          86eb94bf8006a85738f0ccf49e3ce894e03922a6 scsi: Revert "scsi: ufs: core: Initialize devfreq synchronously"
          a3d27dfdcfc27ac3f46de5391bb6d24f04af7941 scsi: mpi3mr: Handle soft reset in progress fault code (0xF002)
@@ -26,33 +26,33 @@ changes:
          48b19b79cfa37b1e50da3b5a8af529f994c08901 scsi: iscsi_tcp: Check that sock is valid before iscsi_set_param()
          
 
---===============6449910746383193361==
+--===============6531021621515528157==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1680488053 -0400
+pusher 75C5DE3D 1680488071 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1680488053-b7966fbb84bdcee40f1176726e9a5bbc34a1d64d
+nonce 1680488070-225bc72c1812c07c286eb4691067c7bc71661210
 
-fcc21c8c6f03e9090047961b1b831d115b49f92a f6a215a417cd5dc00ed86756000e6ae654a9d20f refs/tags/mkp-scsi-fixes
+d684a7a26f7d2c7122a4581ac966ed64e88fb29c 48b19b79cfa37b1e50da3b5a8af529f994c08901 refs/heads/6.3/scsi-fixes
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmQqNnUACgkQ7ulgGnXF
-3j2HRA//ZEUZm1SRoQt+X8WYd19VldssH/miJE2FBNW5jDCa3H13RtSCoTPjdPh1
-f5ByLrMIR2ZA0WArpaOWy+TMwi3qgcqydQP6VHvfVOFZSkls/hnfWCkHsICt+y/o
-DFbUQfDq0+R+LL6cuT2WIzLTr9eQb/0xr6vvSLnh5AtweAl/ayNt3+1zrhDuCNam
-mVKUSU3WthxBkF1srgwX9z0rp9zRuiWhDe70macA871w4dgEdUx9cemhFXtLVXkT
-YuAXU9EExIji+14oPgnUzYNYRsGHISgeW+UvnG7PqxEmDuyvd8OyYxeJzP//l/8x
-Sf0+OAxEZgyGhKUTOhD44F/EtVR2WnSYXYlfD9siczz+edsm7iHIgfAWvYdoLu1D
-YEJkE9d8VMU46CPXS4g66xTfn996z8OUcxQBqShP4G6oMGNJQDJQ5QXm8Y6Dnb2S
-XOfjwRhwXrdK+GFc9V9vE+gf/MvVY5mQRg/UXb57AHt0BFJsLl2o6pqPtyt1QHol
-xfPxpbmtZHedme9I9V9nb1CGPX1vb4L03/MJ9g4288aoxlt5XICd/5gNbS5IMgvP
-CiCmKGbSD1rJdnZ9Cl8Ltm2CaU1AvDn2VL6Drobv9BQhhi1Hrit9XIbr5PDZwyLH
-aj08k/AfIYV/qvCn/p/dwClUnulOiIVQvBISulcGBPWBPUSfBQ4=
-=gZ94
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmQqNocACgkQ7ulgGnXF
+3j2jww//RmS1JlxClwW4uokikYnSu+Usl4eLVU+r/mpp+TV8++V74e0Pdk6wzNyr
+AF8814XGxFDYN8bZ68ZKZoVX1uKii65WOztYgb8ESG7r7R9Cn4AOoijwei4NZviD
+1Ww2IhUBkrKU+wXA/rH62S5dZVj7AK3eZOlkssRB0nmKn2iKK3onCGgY8mPjUGc/
+bDn66qDvcH9aw9TVIIWvPWLZg5uF02BmEVKyznoBgSFH/B5eVFcEqEvbKuip7qA2
+Hat+ff4i/O6vxUiwZlxTK32NsOCuYFHymujPWMO4yDBxSVdBt9N+oPWon2eFvKiW
+21KuTtckup+nLPcSydNBf4vHD4D5rwDGCrDmuAS82uXFQQV8HISWMOGo6AA2F3dM
+Fongb9dS0o0sQz5H6FfnNbWLmZmFqaXVAtLq5H7Nn5R1dwonsqZQo9KOEa9N6LQl
+OPVLYwwLiAu18H4XPHYkSnRr74kskR0xPaP9zwydluu5FDnN2CtV3DJvoJK6GyPf
+5j9cOWRMxaQZ4OYaUJHKmdXDssj+Ux1fY2tCwgXNkPv+euzWkUy5GdD23rbfqk5y
+bwCrG5f6+SHeev55TXzFMLp/3bNb3la05A4dpgumqc4zt+2D3nDDev70BvmyyU3D
+Olg5mkvODPH2J1c/mAnIClRxHITJQzFQ64HibqWty3/GkkjN+Jk=
+=FJPc
 -----END PGP SIGNATURE-----
 
---===============6449910746383193361==--
+--===============6531021621515528157==--
