@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6539499334026700066=="
+Content-Type: multipart/mixed; boundary="===============4161333327638428882=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Mon, 03 Apr 2023 07:42:21 -0000
-Message-Id: <168050774149.23521.12726897640907499999@gitolite.kernel.org>
+Date: Mon, 03 Apr 2023 07:42:54 -0000
+Message-Id: <168050777448.23776.1454312475907010744@gitolite.kernel.org>
 
---===============6539499334026700066==
+--===============4161333327638428882==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,50 +16,47 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-testing
-    old: 43ba3d4af7a73ae958207caada6af0612d67f08e
-    new: cd8fe5b6dbb3a487bea5f1601437c013a3d56163
-    log: revlist-43ba3d4af7a7-cd8fe5b6dbb3.txt
+  - ref: refs/heads/readfile
+    old: 7cc583a595c9347df8278873b839bcf8316ddadf
+    new: 57531d392198f649cb9df85dc5dfcc915eb61b28
+    log: revlist-7cc583a595c9-57531d392198.txt
 
---===============6539499334026700066==
+--===============4161333327638428882==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1680507740 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1680507772 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1680507740-9819ef81f703df5afe7140ea6930357f61dac765
+nonce 1680507772-155f7eb3caa56434930995a79a9b1fa21f39ba2b
 
-43ba3d4af7a73ae958207caada6af0612d67f08e cd8fe5b6dbb3a487bea5f1601437c013a3d56163 refs/heads/driver-core-testing
+7cc583a595c9347df8278873b839bcf8316ddadf 57531d392198f649cb9df85dc5dfcc915eb61b28 refs/heads/readfile
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQqg1wbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+f30P+wRnkcJGEQ7CW0BYid/N
-AL2EykI2qDGoBfN0pAatS6QnXMa3LF+I6gHxW1U3HKurIcpYryHFBLWjogT8GODD
-nmqknc9gxgZsGkalk1QPRcWqP9+qsuq9caFfrTFCmulMKRHp+gky5bHl2JXdJ99I
-hELsvTXp36SMCx/0M5xs+zqIpWFWkX43RA1P0GY3H752qdXSx5sHXqy0Euy5bJ+E
-8I3xIZuMjV6pywLT9BKXAcHJHpJPdsdnGNmHPNefdm3u+c/CkvpNDzBcUgDbsabV
-FolmpXhoBYeeJc2NGY9ydBW5It46Q7mVnvbwQQzuSkQD5ILvqUuDmBuQ6b2DsTLW
-27pF4U9arRfTuSdqobbAAPzg9p21SNWD7nBcONMGmdskX+PW6YK1DkASXGs0NMrl
-dLKnVemvGYqF6u3J0aBj1R7WL6sgKJvxfkSTwSB6fV4ngyQDG7UCN9pRCk9Aa9FG
-QIDpouOn79P+cxRUt8d/N7RUaG6gga5rU5xjw/5pLV2mum0gnb/8B2I2GqJKKDad
-LSRMpvjpgW3aYEiORX6l+PucBBzHh7a+9D0pwvQrP+Sj7z5BPcmwK1h68stXTyE/
-MZhZXoZc/YbxQwvy9uvdVY+acQ9hQYBux2CtDu5QiYPFDM1yatO2XtsEqwHx4IiL
-/gYzV8je8NiM7W15SXCrWY5Q
-=oay8
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQqg30bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+TqcP/1ybvaodyzgIL8X61AvL
+l7Eq8mDzklKCMesff3rtNnUO0gl26idwiCWi5zny7vZoDKcIWZ9bwfOfE3u72oh/
+DFoF5XQgmeXbuHSu5d9oOLm687KZAXb7I4q3yL+1nAbgXzue5aBvXPlPB1/NjoDF
+K9DqFyH7jFSU9KtkYMDo7umy0SCKK/bzyD2NDZOTKiw8ZWkY6BZ2ZrJAuhSxhSnd
+iNCJTMUeM8fGk5i3gQHTCmkMHooW3uTTrsxoHHWupzSV95BzrDefstdGl8YReHSX
+fi1g24ANS3VRCgv7U0ow1Gma0NFalJ3kp4Sot1ItGp/OdOZmJjymMXKFdI/Y+FXx
++TDBALpytcV49+N25NpsqQbD7QDLkGKSdXLlsDZSr0Uy9iL2dYZ01lEhXqT4Pqb2
+FrYFJng2NCgpfOYUKC5N5uxbw6PdjnNPhRvM1WZqdE45RvtwCbJOXtDrSQeJE4IA
+5IYyrqVgfFA3Xr+9SkdT/i+Hjgy8Zyio6xODfiUY0h68EQvMra+0FP/9LANitTL2
+bc7MV174Q05eiVzOMVI6Jglj8F1CG/noiON/jIWdCN7uashypjng7mFMdTKvsAeL
+sYkSSon4vPjSSnY8COMJzMiR0m8iktqKFwpI1vlgsoVYogq1TxRPS4f8/nPKDBQW
+WGC1W2niGYqMg49RU2WkcHdH
+=d8hl
 -----END PGP SIGNATURE-----
 
---===============6539499334026700066==
+--===============4161333327638428882==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-43ba3d4af7a7-cd8fe5b6dbb3.txt
+Content-Disposition: attachment; filename=revlist-7cc583a595c9-57531d392198.txt
 
-647dd2c3f0e16b71a1a77897d038164d48eea154 erofs: Revert "erofs: fix kvcalloc() misuse with __GFP_NOFAIL"
-9ff471800b74f5f952c7e75a0355f1d30ee2b046 erofs: get rid of a useless DBG_BUGON
-3993f4f456309580445bb515fbc609d995b6a3ae erofs: use wrapper i_blocksize() in erofs_file_read_iter()
 2d638be71155b2e036aca1966b6129e2d661e91f Revert "tty: serial: fsl_lpuart: adjust SERIAL_FSL_LPUART_CONSOLE config dependency"
 2411fd94ceaa6e11326e95d6ebf876cbfed28d23 tty: serial: fsl_lpuart: skip waiting for transmission complete when UARTCTRL_SBK is asserted
 f8086d1a65ac693e3fd863128352b4b11ee7324d serial: 8250: ASPEED_VUART: select REGMAP instead of depending on it
@@ -1080,6 +1077,9 @@ a10ca0950afe36fa5a20e8fc3e843beef8808fc1 Merge tag 'driver-core-6.3-rc5' of git:
 f95b8ea79c47c0ad3d18f45ad538f9970e414d1f Revert "venus: firmware: Correct non-pix start and end addresses"
 6ab608fe852b50fe809b22cdf7db6cbe006d7cb3 Merge tag 'for-6.3-rc4-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
 7e364e56293bb98cae1b55fd835f5991c4e96e7d Linux 6.3-rc5
-cd8fe5b6dbb3a487bea5f1601437c013a3d56163 Merge 6.3-rc5 into driver-core-next
+7e607d4ba524275046ff84021bcfacaf1392f555 readfile: implement readfile syscall
+743b56718de249d1c9ff5566de557868e1a75936 arch: wire up the readfile syscall
+adaed3f9264969bdc7e5b6eef62a8afe464bd05b selftests: add readfile(2) selftests
+57531d392198f649cb9df85dc5dfcc915eb61b28 readfile.2: new page describing readfile(2)
 
---===============6539499334026700066==--
+--===============4161333327638428882==--
