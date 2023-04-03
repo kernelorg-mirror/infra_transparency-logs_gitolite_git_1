@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============7692263302466928605=="
+Content-Type: multipart/mixed; boundary="===============7120964156260725558=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux
-Date: Mon, 03 Apr 2023 19:51:51 -0000
-Message-Id: <168055151175.24757.16578976450399957924@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
+Date: Mon, 03 Apr 2023 19:51:59 -0000
+Message-Id: <168055151953.24890.6464225198471591137@gitolite.kernel.org>
 
---===============7692263302466928605==
+--===============7120964156260725558==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux
+repo: pub/scm/linux/kernel/git/amlogic/linux
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -23,7 +23,7 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: 83af7b1468c0dca86b4dc9e43e73bfa4f38d9637
 
---===============7692263302466928605==
+--===============7120964156260725558==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -118,4 +118,4 @@ f95b8ea79c47c0ad3d18f45ad538f9970e414d1f Revert "venus: firmware: Correct non-pi
 2d72ab2449fa9fce8f6898fd5adda10497f7c111 Merge tag 'hyperv-fixes-signed-20230402' of git://git.kernel.org/pub/scm/linux/kernel/git/hyperv/linux
 148341f0a2f53b5e8808d093333d85170586a15d Merge tag 'vfs.misc.fixes.v6.3-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/idmapping
 
---===============7692263302466928605==--
+--===============7120964156260725558==--
