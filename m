@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Mon, 03 Apr 2023 18:20:22 -0000
-Message-Id: <168054602298.27755.17683001855968462095@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Mon, 03 Apr 2023 18:23:46 -0000
+Message-Id: <168054622631.28871.18104075841990376685@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jic23/iio
-user: jic23
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: leon
 changes:
-  - ref: refs/heads/togreg
-    old: 4e6bc7a75c244434f3f9011baeeff0e00112b133
-    new: f73df43e957a6fc705a9bd6d143585bdf1b13365
+  - ref: refs/heads/wip/leon-for-next
+    old: 08ebf57f6e1d73cc1890e1ff1b1c74887c53770b
+    new: 3ffe884d48b7a9e363a48cc1b2a7b0552f7e6e4f
     log: |
-         1f8207daed8b12f0c9a17f015c272d880663877b iio: adc: ti-ads1100: fix error code in probe()
-         3f4ade55e08bbb0f97ea89addf7ec2a5b7aa6d41 staging: iio: resolver: ads1210: fix config mode
-         f73df43e957a6fc705a9bd6d143585bdf1b13365 dt-bindings: iio: st-sensors: Fix repeated text
+         3ffe884d48b7a9e363a48cc1b2a7b0552f7e6e4f RDMA/siw: remove namespace check from siw_netdev_event()
          
