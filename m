@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/geert/fbtest
-Date: Mon, 03 Apr 2023 09:14:44 -0000
-Message-Id: <168051328488.24969.3468361817106444730@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Mon, 03 Apr 2023 09:15:59 -0000
+Message-Id: <168051335906.28229.5567488095568624278@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/geert/fbtest
-user: geert
+repo: pub/scm/linux/kernel/git/netdev/net
+user: davem
 changes:
-  - ref: refs/heads/master
-    old: dbf4e0bd06410e54617f847f8f33a5280f1b8c93
-    new: 47f6351b7c227308b213285d9fd3c1affa53871a
+  - ref: refs/heads/main
+    old: ad651d68cee75e9ac20002254c4e5d09ee67a84b
+    new: 839349d13905927d8a567ca4d21d88c82028e31d
     log: |
-         131c53cd0e5c7984d7b1c5d764559431690c6fef pnmtohex: Optionally use pkg-config for netpbm
-         47f6351b7c227308b213285d9fd3c1affa53871a pnmtohex: Add netpbm to include search patch
+         839349d13905927d8a567ca4d21d88c82028e31d net: qrtr: Do not do DEL_SERVER broadcast after DEL_CLIENT
          
