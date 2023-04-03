@@ -1,26 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Mon, 03 Apr 2023 12:50:51 -0000
-Message-Id: <168052625114.24284.10854098498955838917@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 03 Apr 2023 13:02:07 -0000
+Message-Id: <168052692757.30970.5352699448467632028@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
-user: broonie
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: sashal
 changes:
-  - ref: refs/heads/for-linus
-    old: e3720f92e0237921da537e47a0b24e27899203f8
-    new: de6aa72b265b72bca2b1897d5000c8f0147d3157
+  - ref: refs/heads/master
+    old: fbd9743d2ce44d4fb7508526d9b32f20b88d4f8e
+    new: 66bd6b31e20418ae8852a38c4d63a13bba4820cd
     log: |
-         de6aa72b265b72bca2b1897d5000c8f0147d3157 ASoC: SOF: ipc4-topology: Clarify bind failure caused by missing fw_module
-         
-  - ref: refs/heads/for-next
-    old: a4d432e9132c0b29d857b09ca2ec4c1f455b5948
-    new: e16aeb95c73c4bc45aded66d967968b5652b964a
-    log: |
-         de6aa72b265b72bca2b1897d5000c8f0147d3157 ASoC: SOF: ipc4-topology: Clarify bind failure caused by missing fw_module
-         e16aeb95c73c4bc45aded66d967968b5652b964a Merge remote-tracking branch 'asoc/for-6.4' into asoc-next
+         66eb0c88523419a0f781458907d85e71538e6fbf Fixes for 6.2
+         acd412c31ae405a01068336c46698f1b84fdda9e Fixes for 6.1
+         f7439d3b7412b7b9842c9d6fd10dacc199c32600 Fixes for 5.15
+         66bd6b31e20418ae8852a38c4d63a13bba4820cd Fixes for 5.10
          
