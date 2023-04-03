@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8832538440426017646=="
+Content-Type: multipart/mixed; boundary="===============8110900811685231604=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Mon, 03 Apr 2023 15:20:56 -0000
-Message-Id: <168053525646.3699.2751496459641916629@gitolite.kernel.org>
+Date: Mon, 03 Apr 2023 15:21:54 -0000
+Message-Id: <168053531439.4038.4866242821417107189@gitolite.kernel.org>
 
---===============8832538440426017646==
+--===============8110900811685231604==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/main
     old: ee05d90d0ac7f1f6e8e3403f02a39d83e0ce6729
     new: 7b600f8da8fe65183014c2b87e61da7c597476cf
     log: revlist-ee05d90d0ac7-7b600f8da8fe.txt
 
---===============8832538440426017646==
+--===============8110900811685231604==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -75,4 +75,4 @@ cb675afcddbbeb2bfa6596e3bc236bc026cd425f net: dsa: mt7530: introduce separate MD
 386f5fc9061b0c8429c7c0cc57f12c05f8662e23 dt-bindings: net: dsa: mediatek,mt7530: add mediatek,mt7988-switch
 7b600f8da8fe65183014c2b87e61da7c597476cf Merge branch 'mt7988-support'
 
---===============8832538440426017646==--
+--===============8110900811685231604==--
