@@ -1,44 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============2466931294092026657=="
+Content-Type: multipart/mixed; boundary="===============3345434415649934975=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless-next
-Date: Mon, 03 Apr 2023 13:45:15 -0000
-Message-Id: <168052951568.32530.6713878230609096546@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 03 Apr 2023 13:45:16 -0000
+Message-Id: <168052951667.32606.830074451160409535@gitolite.kernel.org>
 
---===============2466931294092026657==
+--===============3345434415649934975==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wireless/wireless-next
-user: kvalo
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 21898a40b2f84deb9438c2ef63f7a5072d6ab2af
-    new: cbef9a83c51dfcb07f77cfa6ac26f53a1ea86f49
-    log: revlist-21898a40b2f8-cbef9a83c51d.txt
+  - ref: refs/heads/master
+    old: b016d9e869106584fc1cef51fb0a940c17c44ca0
+    new: 87f3ce8151d956d4beafc928bfcac01538a8e518
+    log: |
+         87f3ce8151d956d4beafc928bfcac01538a8e518 5.10-stable patches
+         
 
---===============2466931294092026657==
+--===============3345434415649934975==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-21898a40b2f8-cbef9a83c51d.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-70a13e5f00e9ee5497b0c25c2787347c4431b5e4 wifi: rtw89: coex: Add LPS protocol radio state for RTL8852B
-829b3a8b212a71b55598b9bd5861a41906a611ae wifi: rtw89: coex: Not to enable firmware report when WiFi is power saving
-20595db3c0681cc034e50fbcba85a1e6cf3325b5 wifi: rtw89: coex: Update RTL8852B LNA2 hardware parameter
-d7904ca8a04062e1c926498966a9fab4abfab161 wifi: rtw89: coex: Add report control v5 variation
-7527251f77664dd19716f36f53b723845d537eec wifi: rtw89: coex: Update Wi-Fi Bluetooth coexistence version to 7.0.1
-e749ef968f14a92155b2c3138d7720cf39e65e00 wifi: rtw89: add counters of register-based H2C/C2H
-e5307c9cd7ee50accd4e5f28d6a6e09ec11849e3 wifi: rtw89: set data lowest rate according to AP supported rate
-41209362d700f868ae7f0f30dc7634d0e0026880 wifi: rtw89: remove superfluous H2C of join_info
-40711486c7ba91a35ba495564e45be0f2a1b3729 wifi: rtw89: fix incorrect channel info during scan due to ppdu_sts filtering
-280c444745aaf0ff7f2e54b000bd9fff9f1bbaf2 wifi: rtw89: config EDCCA threshold during scan to prevent TX failed
-47515664ecfbde11425dff121f298ae4499425c9 wifi: rtw89: fix potential race condition between napi_init and napi_enable
-5995f746310108b11c7e377b0ebac4c98e53f9dc wifi: rtw89: Remove redundant pci_clear_master
-e83ce86aa7d914484038b181725718136387c7e1 wifi: b43legacy: Remove the unused function prev_slot()
-cbef9a83c51dfcb07f77cfa6ac26f53a1ea86f49 wifi: rt2x00: Fix memory leak when handling surveys
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1680529515 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1680529515-9b19358441c57d8bb767c42d0334d2ba187e4791
 
---===============2466931294092026657==--
+b016d9e869106584fc1cef51fb0a940c17c44ca0 87f3ce8151d956d4beafc928bfcac01538a8e518 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQq2GsbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ULIP/iJOo+w37P8uzUdAP8Bs
+t9M2aTkm3n+S+NtnCOdKaXp+QkTI+8qpRK1/qEYk0gRLe08jmSK3EQS2+c/iwAUP
+45uRzc48n44ZbmDFszvCzPVPU/8UOPUSh9CVfibdGgW6WW+xlkNgGcn1hO1uApRz
+M77sOfiphZrDkEj4or0b32KeHAE1Y7oOxZSx5d5Hm00UNwQ0gCvHZ3AqAF86ElCv
+hv2Q+fLMIzpCPjnbumg5op57ZWhv0b9l75Uf3i5ZiGTD6p/aXcHixYE3NA2Uole/
+MmjOj3VdnhvhGosq3BtfdqEzIQrzzX1Dsc0acFMAaxGy4PKNThT0YNOBQQFrzXcV
+HrsASgihlmZRMHkxwSkSqQXNY3PRsGBytBqzmRDeL2wH1KhDDMan3OUUQfabagH6
+WF8do3hR1eFa/Fvu0f+hxl3UFfu7WP0P0PZALB+uEsJKD52h9xf/qxfiYmKYJ2YY
+PoY49iIVBSpuNqTAZogGOsprgHthUlnt1rE+IiDDpBeyBLxOGg1zVxwoaxlRm+dM
+WfxtaRPF/woautFabeuwQiUKXP95P58yf/lX8aDka+BV4PPPBqIs2GU7Qrwd30OX
+6W+OpMtmR/WieqpVcSz74ofP79wFfuBfVV5e18G1mhwcBKjM3XmSvCuszmUH2X5s
+3x1EdFVFyK3wTfkOzIv+qLSe
+=7Ec3
+-----END PGP SIGNATURE-----
+
+--===============3345434415649934975==--
