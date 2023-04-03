@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Mon, 03 Apr 2023 22:16:10 -0000
-Message-Id: <168056017010.24259.489286399384322553@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Mon, 03 Apr 2023 23:00:27 -0000
+Message-Id: <168056282757.20366.6817983068032305257@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/for-next
-    old: 16b7c970cc8192e929dbd5192ccc1867e19d7bda
-    new: f6a6a5a976288e4d0d94eb1c6c9e983e8e5cdb31
+  - ref: refs/heads/dev
+    old: 89c3e48e8a297da14703ac28a06104636e0d1d11
+    new: e222f9a512539c3f4093a55d16624d9da614800b
     log: |
-         f6a6a5a976288e4d0d94eb1c6c9e983e8e5cdb31 bpf: Fix struct_meta lookup for bpf_obj_free_fields kfunc call
+         e222f9a512539c3f4093a55d16624d9da614800b rcu: Avoid freeing new kfree_rcu() memory after old grace period
          
