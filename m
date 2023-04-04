@@ -1,46 +1,23 @@
-Content-Type: multipart/mixed; boundary="===============2120167133931051268=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/peebz/peebz
-Date: Tue, 04 Apr 2023 17:38:26 -0000
-Message-Id: <168062990602.10309.11819802806686902070@gitolite.kernel.org>
-
---===============2120167133931051268==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
+Date: Tue, 04 Apr 2023 17:39:42 -0000
+Message-Id: <168062998284.10760.3110978155527532202@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/peebz/peebz
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
+user: snitzer
 changes:
-  - ref: refs/heads/master
-    old: 48d62f445304dc536846a5a8235ca71d4db66c90
-    new: 8d69c88d256470c8866ef6955c9c5373e9c8b86a
+  - ref: refs/heads/for-next
+    old: 0e4001e9b7249a2841aa5bf105915ca5fc833778
+    new: 7b8f6340e26bad880c095b43b9b0f2f4c711dda1
     log: |
-         8d69c88d256470c8866ef6955c9c5373e9c8b86a pi2bz: use a 10-minute overlap buffer for queries
+         6b79a428c02769f2a11f8ae76bf866226d134887 dm integrity: call kmem_cache_destroy() in dm_integrity_init() error path
+         e6c908b5d86faf3dbcf314b1c07c342268e32def dm: push error reporting down to dm_register_target()
+         2a455a0b418f972d61b68f9321b7d1892c16b4f7 dm mirror: add DMERR message if alloc_workqueue fails
+         178ab055c55a6446e1b99ea92d665e874df8d476 dm: remove unnecessary (void*) conversions
+         7b8f6340e26bad880c095b43b9b0f2f4c711dda1 dm raid: remove unused d variable
          
-
---===============2120167133931051268==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher B6C41CE35664996C! 1680629905 -0400
-pushee gitolite.kernel.org:pub/scm/utils/peebz/peebz
-nonce 1680629905-c8a4d912624510bcdcc0171d52e957538c994dd7
-
-48d62f445304dc536846a5a8235ca71d4db66c90 8d69c88d256470c8866ef6955c9c5373e9c8b86a refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCZCxgkQAKCRC2xBzjVmSZ
-bCV4AP4vBw7P+GtHc1ChRkMPeUXpCB0dm749sjkbK5w+CEoSWQEA9e4bQ3l2nrM6
-q7ZO7l+X1oebc2kb7ePMSxBsXn9FqgA=
-=ko6A
------END PGP SIGNATURE-----
-
---===============2120167133931051268==--
