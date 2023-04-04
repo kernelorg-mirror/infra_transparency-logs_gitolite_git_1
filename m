@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Tue, 04 Apr 2023 09:59:52 -0000
-Message-Id: <168060239263.20080.5009733049339800976@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Tue, 04 Apr 2023 10:09:49 -0000
+Message-Id: <168060298902.26213.3129939523224893871@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs-utils
-user: xiang
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
-  - ref: refs/heads/dev
-    old: 1ea619ec3d653dbda58bbf9fd6a31fd872ee70fb
-    new: 54144b7ffdc36e819906bded88c056cda1332e5b
+  - ref: refs/heads/master
+    old: 22769acf56daf6683d635fe92e06ceb52e0433ff
+    new: 43a6b183d8945cc91307f21adc8070254eb925b5
     log: |
-         54144b7ffdc36e819906bded88c056cda1332e5b erofs-utils: xattr: declare prefix_len as u8
+         43a6b183d8945cc91307f21adc8070254eb925b5 fstab: improve 4th field description
          
