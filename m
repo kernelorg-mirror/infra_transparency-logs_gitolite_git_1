@@ -1,28 +1,46 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Tue, 04 Apr 2023 17:31:03 -0000
-Message-Id: <168062946392.6478.9492630082901970038@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============2120167133931051268=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/utils/peebz/peebz
+Date: Tue, 04 Apr 2023 17:38:26 -0000
+Message-Id: <168062990602.10309.11819802806686902070@gitolite.kernel.org>
+
+--===============2120167133931051268==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
-user: snitzer
+repo: pub/scm/utils/peebz/peebz
+user: mricon
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-next
-    old: 363b7fd76c91dc611a56d992e9550bb1ba070e1a
-    new: 0e4001e9b7249a2841aa5bf105915ca5fc833778
+  - ref: refs/heads/master
+    old: 48d62f445304dc536846a5a8235ca71d4db66c90
+    new: 8d69c88d256470c8866ef6955c9c5373e9c8b86a
     log: |
-         e8c5d45f82ce0c238a4817739892fe8897a3dcc3 dm verity: fix error handling for check_at_most_once on FEC
-         074c44664f60f62ef932eae9ee89d663563cf307 dm verity: emit audit events on verification failure and more
-         85c938e8914f8f0e276b8e82d4f2e4bcab044e96 dm table: allow targets without devices to set ->io_hints
-         00065f925efb077ade3e7fea49150d798cf87d05 dm zero: add discard support
-         b6bcb84446810df0c9364ee6e23e07866316beaf dm error: add discard support
-         6827af4a9a9f5bb664c42abf7c11af4978d72201 dm clone: call kmem_cache_destroy() in dm_clone_init() error path
-         cdfed41c21579bd41f9b8f1a3cee1fd197ce0d0d dm: push error reporting down to dm_register_target()
-         0abe853cb061ad448470ec9d827025f00c9a5f3d dm mirror: add DMERR message if alloc_workqueue fails
-         88845749f952993a699b65baed57b815a10ff7a5 dm: remove unnecessary (void*) conversions
-         0e4001e9b7249a2841aa5bf105915ca5fc833778 dm raid: remove unused d variable
+         8d69c88d256470c8866ef6955c9c5373e9c8b86a pi2bz: use a 10-minute overlap buffer for queries
          
+
+--===============2120167133931051268==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher B6C41CE35664996C! 1680629905 -0400
+pushee gitolite.kernel.org:pub/scm/utils/peebz/peebz
+nonce 1680629905-c8a4d912624510bcdcc0171d52e957538c994dd7
+
+48d62f445304dc536846a5a8235ca71d4db66c90 8d69c88d256470c8866ef6955c9c5373e9c8b86a refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCZCxgkQAKCRC2xBzjVmSZ
+bCV4AP4vBw7P+GtHc1ChRkMPeUXpCB0dm749sjkbK5w+CEoSWQEA9e4bQ3l2nrM6
+q7ZO7l+X1oebc2kb7ePMSxBsXn9FqgA=
+=ko6A
+-----END PGP SIGNATURE-----
+
+--===============2120167133931051268==--
