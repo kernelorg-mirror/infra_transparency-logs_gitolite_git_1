@@ -1,22 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 04 Apr 2023 11:45:48 -0000
-Message-Id: <168060874847.26494.12217285045048599697@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Tue, 04 Apr 2023 11:47:52 -0000
+Message-Id: <168060887234.27273.17060148174215541699@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: pabeni
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/main
-    old: b3803399196e961ca190561d26ccf567f26841e6
-    new: b103bab0944be030954e5de23851b37980218f54
-    log: |
-         f59f3006ca7b2fc9bf38fbf44e3dc4b1fbd686c1 vsock/vmci: convert VMCI error code to -ENOMEM on receive
-         02ab696febab622c4c837d509f6825884c952c22 vsock: return errors other than -ENOMEM to socket
-         b5d54eb5899a7c2d478909041446499f379c716c vsock/test: update expected return values
-         b103bab0944be030954e5de23851b37980218f54 Merge branch 'vsock-return-errors-other-than-enomem-to-socket'
-         
+  - ref: refs/heads/20230330_u_kleine_koenig_spi_qup_convert_to_platform_remove_callback_returning_void
+    old: 0000000000000000000000000000000000000000
+    new: dea8e70f68f4105279bbc6de4d68d89fb07665c2
+  - ref: refs/heads/20230404_peter_ujfalusi_asoc_sof_core_intel_introduce_dspless_mode
+    old: 0000000000000000000000000000000000000000
+    new: 5962c2a527b52b95426167ba59a2ef01a522d077
+  - ref: refs/heads/filedZJiek
+    old: 0000000000000000000000000000000000000000
+    new: 194f8692302cbf31d8072f3fc2710fb04720d8a0
+  - ref: refs/heads/fileJeGYHT
+    old: 0000000000000000000000000000000000000000
+    new: 69d286c5293a35cbf2de3efe3cf4a47bdd264b92
+  - ref: refs/heads/filetaxrXq
+    old: 0000000000000000000000000000000000000000
+    new: 451941ac1ee2be125ac5029593a64b04badaa314
