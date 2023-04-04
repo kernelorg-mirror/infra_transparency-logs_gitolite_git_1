@@ -1,39 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============7325400422720908978=="
+Content-Type: multipart/mixed; boundary="===============5563647230884744632=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Tue, 04 Apr 2023 05:44:54 -0000
-Message-Id: <168058709484.31503.5533152022215443691@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Tue, 04 Apr 2023 05:45:07 -0000
+Message-Id: <168058710744.809.16917767987301324046@gitolite.kernel.org>
 
---===============7325400422720908978==
+--===============5563647230884744632==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
   - ref: refs/heads/master
     old: 31bd35b66249699343d2416658f57e97314a433a
     new: 6a53bda3aaf3de5edeea27d0b1d8781d067640b6
     log: revlist-31bd35b66249-6a53bda3aaf3.txt
-  - ref: refs/heads/stable
-    old: 7e364e56293bb98cae1b55fd835f5991c4e96e7d
-    new: 148341f0a2f53b5e8808d093333d85170586a15d
-    log: |
-         1eb65c8687316c65140b48fad27133d583178e15 Drivers: vmbus: Check for channel allocation before looking up relids
-         f8acb24aaf89fc46cd953229462ea8abe31b395f x86/hyperv: Block root partition functionality in a Confidential VM
-         cb2239c198ad9fbd5aced22cf93e45562da781eb fs: drop peer group ids under namespace lock
-         2d72ab2449fa9fce8f6898fd5adda10497f7c111 Merge tag 'hyperv-fixes-signed-20230402' of git://git.kernel.org/pub/scm/linux/kernel/git/hyperv/linux
-         148341f0a2f53b5e8808d093333d85170586a15d Merge tag 'vfs.misc.fixes.v6.3-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/idmapping
-         
   - ref: refs/tags/next-20230404
     old: 0000000000000000000000000000000000000000
     new: c9103553b6c421cda3d9f1b824335a544d6616da
 
---===============7325400422720908978==
+--===============5563647230884744632==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -970,4 +960,4 @@ da954d7864a3cd7adb6a8048610c4e73b521af29 Merge branch 'for-next/kspp' of git://g
 e5e090b80d30c82bbfd85f961d2b3163f9a210a5 Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/jgg/iommufd.git
 6a53bda3aaf3de5edeea27d0b1d8781d067640b6 Add linux-next specific files for 20230404
 
---===============7325400422720908978==--
+--===============5563647230884744632==--
