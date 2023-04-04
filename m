@@ -1,51 +1,68 @@
-Content-Type: multipart/mixed; boundary="===============7883813022833975836=="
+Content-Type: multipart/mixed; boundary="===============4395313057953806342=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mst/vhost
-Date: Tue, 04 Apr 2023 18:02:16 -0000
-Message-Id: <168063133664.26900.5133684529287271712@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Tue, 04 Apr 2023 18:05:12 -0000
+Message-Id: <168063151231.29366.3572694339278588695@gitolite.kernel.org>
 
---===============7883813022833975836==
+--===============4395313057953806342==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mst/vhost
-user: mst
+repo: pub/scm/linux/kernel/git/broonie/sound
+user: broonie
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-next
-    old: 916839e3fd81f608ebf30dbe83c9a6aa55539f07
-    new: fd4085f9e56afc94f0cba535e578437d92c817e1
-    log: revlist-916839e3fd81-fd4085f9e56a.txt
-  - ref: refs/heads/test
-    old: 916839e3fd81f608ebf30dbe83c9a6aa55539f07
-    new: fd4085f9e56afc94f0cba535e578437d92c817e1
-    log: revlist-916839e3fd81-fd4085f9e56a.txt
-  - ref: refs/heads/vhost
-    old: 916839e3fd81f608ebf30dbe83c9a6aa55539f07
-    new: fd4085f9e56afc94f0cba535e578437d92c817e1
-    log: revlist-916839e3fd81-fd4085f9e56a.txt
+  - ref: refs/heads/for-6.4
+    old: 194f8692302cbf31d8072f3fc2710fb04720d8a0
+    new: 750e1a226cd73930f9e66ad897b1fe13acb336e2
+    log: revlist-194f8692302c-750e1a226cd7.txt
 
---===============7883813022833975836==
+--===============4395313057953806342==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-916839e3fd81-fd4085f9e56a.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-bbd28aaed7c5438cb828b938078c95bac5202df9 vhost: use struct_size and size_add to compute flex array sizes
-55bcf43f2c8a8ba9d1f5ea76fa759f6b37b464b4 virtio: Reorder fields in 'struct virtqueue'
-0aac4ae9d736f05eef8a0c231034aa7b1e7d38ef tools/virtio: virtio_test: Fix indentation
-06bbf9f7e2e51eecb4b47a3bbc9ed318fa421e98 tools/virtio: virtio_test -h,--help should return directly
-d557b9399345ac479471c2bfa6e7071ff27ac6ba virtio_ring: Avoid using inline for small functions
-0718ad25fc7184ef09d63f850b8b7a9d59cfec5d virtio_ring: Use const to annotate read-only pointer params
-d9dd4632cc8d293f061497993abd06c0ac8bd1f6 vhost-scsi: Delay releasing our refcount on the tpg
-0eabaedaff3a91e60d958c5a9343d26939e1a3a4 vhost-scsi: Drop device mutex use in vhost_scsi_do_plug
-77753df489ee9ece4536895083c28246eff19a8e vhost-scsi: Check for a cleared backend before queueing an event
-825876be7d7c0680b0d180e9a8755c1c580a99d8 vhost-scsi: Drop vhost_scsi_mutex use in port callouts
-5f3f6182545c39f236dbc09154526345f8e93028 vhost-scsi: Reduce vhost_scsi_mutex use
-7b3b496b957505cfe0e70fbf47760735ba988c76 vdpa/mlx5: Verify wq is a valid pointer in mlx5_vdpa_suspend
-fd4085f9e56afc94f0cba535e578437d92c817e1 vdpa/mlx5: Avoid losing link state updates
+certificate version 0.1
+pusher C3F436CA30F5D8EB 1680631510 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
+nonce 1680631510-47f1ad14dd03227ba8e773c2b66099b2aa784918
 
---===============7883813022833975836==--
+194f8692302cbf31d8072f3fc2710fb04720d8a0 750e1a226cd73930f9e66ad897b1fe13acb336e2 refs/heads/for-6.4
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmQsZtYACgkQJNaLcl1U
+h9BhkggAhsUNnMhV4tsj7zCMkeTxUWLaldslmWBvHcCAh0NmaAuO9PTS0Azi+0BG
+ZaZlwpmStXs3I/eR05qzX4HLT9jFjtgVjLGUNj0VZWu3LAVgnPwdJ8LjKfyzkUQv
+NDPrd9copdOwJM7gpd5KRBrRtBmq1c9+YAhaMWDGypdQlhwuRUbx1yu7Ndl+0UVM
+Afw1fj/i58D9NByE+LoplmRCTl+5sKsu0frtn6j38q1Ge9xbPNmkWaqtkOsaBANw
+bM9Ivi6lkPQEaQyPwiR4tajY/yQi7SXbpPP5gz4gjPSuT6X0F5wCkHfUvPIe11rQ
+EXMH/h1isTSOZtFMyQ2aa8neWaAOJQ==
+=gsYk
+-----END PGP SIGNATURE-----
+
+--===============4395313057953806342==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-194f8692302c-750e1a226cd7.txt
+
+09255c7ed8ca1f1ed99357b845d2f63fe2ef3e1e ASoC: SOF: Intel: hda-stream: Do not dereference hstream until it is safe
+59611370f92923089ceb284072d01445164a0191 ASoC: SOF: Add flag and state which will be used for DSP-less mode
+28d40e7adfd4108c11c9397c6fe9d9f80fed31e9 ASoC: SOF: Add support for DSPless mode
+4a3b1433a8d384ff8d668b4f8665d6c67dbb30d3 ASoC: SOF: Intel: hda: Skip interfaces not supported on a platform
+1f7b5d52be130e16fda60be446b30136698738c6 ASoC: SOF: Intel: hda: Add support for DSPless mode
+9fc6786f549c4d71e55bd646ffb4814933286072 ASoC: SOF: Intel: hda: make DSPless mode work with DSP disabled in BIOS
+04957f87ae7e862216a3bc901710c82de55c4078 ASoC: SOF: Intel: pci-apl: Allow DSPless mode
+a417d71fd3f6a60d1cda0abf62e7961489908dca ASoC: SOF: Intel: pci-cnl: Allow DSPless mode
+937a7fb441f5f1796398e171eef479de34a7c64f ASoC: SOF: Intel: pci-icl: Allow DSPless mode
+b58bbd067585af1f38cc24dbeccf98218c717281 ASoC: SOF: Intel: pci-mtl: Allow DSPless mode
+f45b1fd61e874cae0217c04406f8e99d57ddfacc ASoC: SOF: Intel: pci-skl: Allow DSPless mode
+5962c2a527b52b95426167ba59a2ef01a522d077 ASoC: SOF: Intel: pci-tgl: Allow DSPless mode
+750e1a226cd73930f9e66ad897b1fe13acb336e2 ASoC: SOF: core/Intel: Introduce DSPless mode
+
+--===============4395313057953806342==--
