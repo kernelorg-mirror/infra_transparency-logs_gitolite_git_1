@@ -1,55 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============5877191800840181546=="
+Content-Type: multipart/mixed; boundary="===============2645883076326247523=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Tue, 04 Apr 2023 18:05:18 -0000
-Message-Id: <168063151862.29477.12710860615504447854@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Tue, 04 Apr 2023 18:05:31 -0000
+Message-Id: <168063153121.29622.14823743978024235547@gitolite.kernel.org>
 
---===============5877191800840181546==
+--===============2645883076326247523==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.4
-    old: 194f8692302cbf31d8072f3fc2710fb04720d8a0
-    new: 750e1a226cd73930f9e66ad897b1fe13acb336e2
-    log: revlist-194f8692302c-750e1a226cd7.txt
+  - ref: refs/heads/for-next
+    old: cb19c1dc483ad9c1e0a72cafc6a4e29427577cf3
+    new: 2b89f150b7118acb337458255a90c73b11729691
+    log: revlist-cb19c1dc483a-2b89f150b711.txt
 
---===============5877191800840181546==
+--===============2645883076326247523==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1680631517 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1680631516-274db0a7b5d0d93f05815e2b0dfab62f93e589dc
-
-194f8692302cbf31d8072f3fc2710fb04720d8a0 750e1a226cd73930f9e66ad897b1fe13acb336e2 refs/heads/asoc-6.4
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmQsZt0ACgkQJNaLcl1U
-h9A+ogf/egeNqrEaK18l8VMda2fihhqg1qD20JJbnWB8QCbvkfJT9fb17sDubLqO
-He2Z8nZTIPHDxPu+7duMCA+yRlpt2hKDI53aHs2rBnpy+qoo18TPNIuqtTKYb38t
-/zT0n7dMeBglC+70RF2htf2ngMZVTjClBY9Y1mfCETmIqxStiyCX6sJs999yttci
-RsSsw+fX2hZmbdbcivFnozIRd36psLA/HlItdzD/gLTXiNTrwzPrh6Mvkf4ZuT/L
-mG0j1LKULsf5xONRC07mZuSK029kNes95/LohY32p7GiZhfbY7s+VPa69podcWH5
-6plYDhAlh7esj38v6UDP7w2HhnWPSw==
-=UEaE
------END PGP SIGNATURE-----
-
---===============5877191800840181546==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-194f8692302c-750e1a226cd7.txt
+Content-Disposition: attachment; filename=revlist-cb19c1dc483a-2b89f150b711.txt
 
 09255c7ed8ca1f1ed99357b845d2f63fe2ef3e1e ASoC: SOF: Intel: hda-stream: Do not dereference hstream until it is safe
 59611370f92923089ceb284072d01445164a0191 ASoC: SOF: Add flag and state which will be used for DSP-less mode
@@ -64,5 +39,6 @@ b58bbd067585af1f38cc24dbeccf98218c717281 ASoC: SOF: Intel: pci-mtl: Allow DSPles
 f45b1fd61e874cae0217c04406f8e99d57ddfacc ASoC: SOF: Intel: pci-skl: Allow DSPless mode
 5962c2a527b52b95426167ba59a2ef01a522d077 ASoC: SOF: Intel: pci-tgl: Allow DSPless mode
 750e1a226cd73930f9e66ad897b1fe13acb336e2 ASoC: SOF: core/Intel: Introduce DSPless mode
+2b89f150b7118acb337458255a90c73b11729691 Merge remote-tracking branch 'asoc/for-6.4' into asoc-next
 
---===============5877191800840181546==--
+--===============2645883076326247523==--
