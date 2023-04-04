@@ -1,57 +1,43 @@
-Content-Type: multipart/mixed; boundary="===============7647065441015999658=="
+Content-Type: multipart/mixed; boundary="===============3591810003214542329=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Tue, 04 Apr 2023 06:22:28 -0000
-Message-Id: <168058934807.25612.16822077055534236214@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mtd/linux
+Date: Tue, 04 Apr 2023 06:45:46 -0000
+Message-Id: <168059074654.8658.15399611940301291380@gitolite.kernel.org>
 
---===============7647065441015999658==
+--===============3591810003214542329==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
-user: leon
+repo: pub/scm/linux/kernel/git/mtd/linux
+user: tudor.ambarus
 changes:
-  - ref: refs/heads/rdma-next
-    old: 18be5c8a9664398c0e405373984c29ee5fa57d04
-    new: c17dd8d4483bd9cf331897937a5bba0fa2a8de06
-    log: revlist-18be5c8a9664-c17dd8d4483b.txt
+  - ref: refs/heads/spi-nor/next
+    old: 74df43b3f626a3594a4de50556048852bf2753f7
+    new: c87c9b11c53cecab8e8a93290fa3b488e6838dab
+    log: revlist-74df43b3f626-c87c9b11c53c.txt
 
---===============7647065441015999658==
+--===============3591810003214542329==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-18be5c8a9664-c17dd8d4483b.txt
+Content-Disposition: attachment; filename=revlist-74df43b3f626-c87c9b11c53c.txt
 
-b7727e231dad51150ef14e1dbcbf0d185077e54b IB/iser: remove unused macros
-92363895b6c31bb5ba846b1f04cf624b8ed893a6 IB/iser: centralize setting desc type and done callback
-070fc1c0e272a03c194bb1a54565d8eda23960a5 IB/iser: remove redundant new line
-081c27b3bcdbfad6fa3c16975e02e33073f1267d RDMA/mlx5: Remove unused num_alloc_xa_entries variable
-e7706c4bbfe88fe5bc9b8a6b1b5a84a5d58e2f7e IB/qib: Remove unused cnt variable
-08ebf57f6e1d73cc1890e1ff1b1c74887c53770b RDMA/cma: Remove NULL check before dev_{put, hold}
-266e9b3475ba82212062771fdbc40be0e3c06ec8 RDMA/siw: Remove namespace check from siw_netdev_event()
-a9a457f338e7711af391f618b60d8a4b15ba8050 RDMA/bnxt_re: Update HW interface headers
-b400acee0622d550d325078558d3bd3f0c60967d RDMA/bnxt_re: Remove HW queue mapping from RoCE Driver
-e576adf583b52542f16940d33af5c968be4f1253 RDMA/bnxt_re: Convert RCFW_CMD_PREP macro to static inline function
-ff015bcd213b5d8e234482394e1a7c5c92e5da39 RDMA/bnxt_re: Reduce number of argumets to control path command APIs
-0722f1f7bf85c83a8ed62c626e49f97d6ebd09c3 RDMA/bnxt_re: RoCE slow path TLV support
-c682c6eda08140c4706bc9e3e763867fd705dd1c RDAM/bnxt_re: Use tlv apis while processing the slow path commands
-f13bcef04ba0467b7901998c22408d5847d314a1 RDMA/bnxt_re: Enable congestion control by default
-9ded7ca99acd83275dd0d44f48c0e391be338e9f net/sched: Don't print dump stack in event of transmission timeout
-635cd3316309842855c70dfe39c42147384c6b66 RDMA/core: Introduce peer memory interface
-01e1fe0760586da55dcbbfe780f3c8a88583886e net/mlx5: Nullify qp->dbg pointer post destruction
-da7710cccea2eedf510647ee2c77fdaee1ab3535 RDMA/mlx5: Handling dct common resource destruction upon firmware failure
-39f8fab9d27a7b086981e9e13099cde5ebefaa4e RDMA/mlx5: Return the firmware result upon destroying QP/RQ
-e3584c2bd9ad1a36c34d52b791406199d47ef00d RDMA: Split kernel-only create QP flags from uverbs create QP flags
-ef6dc5a4f5ad74241154d9bf36add987f632483d RDMA/mlx5: Initiate dropless RQ for RAW Ethernet functions
-2fe016689a0411dacd95375fa327321f8487b0a0 IB/mlx5: Add HW counter called rx_dct_connect
-b7a38b78a648edf171e6c1345b515918f5763e43 Revert "IB/mlx5: Add HW counter called rx_dct_connect"
-f649289dc8d4e958436dd209c96f62a1d093ad68 RDMA/mlx5: Remove pcie_relaxed_ordering_enabled() check for RO write
-e4b1fde526757126fac98f91eb661a81ad4760cb RDMA/mlx5: Check pcie_relaxed_ordering_enabled() in UMR
-3e9155caa035f9e092b8797e2b4d778ab5c6d41b net/mlx5: Update relaxed ordering read HCA capabilities
-c17dd8d4483bd9cf331897937a5bba0fa2a8de06 RDMA/mlx5: Allow relaxed ordering read in VFs and VMs
+705c9ef831ce505f007d0af3fed2475764619533 mtd: spi-nor: Fix a trivial typo
+79a4db50192c196757e1dffa7f590fc7080ad746 mtd: spi-nor: Delay the initialization of bank_size
+f0a499acb4b6f4c9a169ce35195b8021578ea14a mtd: spi-nor: macronix: Add support for mx25uw51245g with RWW
+076aa4eac8b3f7e8ade56a64a7197836d6bd3a72 mtd: spi-nor: core: Move generic method to core - micron_st_nor_set_4byte_addr_mode
+288df43783199dd796eb58552b997d92a115ebbd mtd: spi-nor: core: Update name and description of micron_st_nor_set_4byte_addr_mode
+f1f1976224f3b2e0197cddf57b905a995c5528ca mtd: spi-nor: core: Update name and description of spansion_set_4byte_addr_mode
+d75c22f376f6c31b6f16da3989c8f07ccc6cb2ca mtd: spi-nor: core: Update name and description of spi_nor_set_4byte_addr_mode
+3a4d5f4af9e668e59ce65115221fd964b3041da5 mtd: spi-nor: core: Make spi_nor_set_4byte_addr_mode_brwr public
+4e53ab0c292db99eff5dd65670bfdba79bbf338f mtd: spi-nor: Set the 4-Byte Address Mode method based on SFDP data
+7fe1b00d92eaceb83f95200b5114cf5df0919892 mtd: spi-nor: Stop exporting spi_nor_restore()
+37513c56139b79dd43c1774513c28f8ab2b05224 mtd: spi-nor: core: Update flash's current address mode when changing address mode
+b6094ac83dd4fb4fa2849b804cc9fc1c70054852 mtd: spi-nor: core: Introduce spi_nor_set_4byte_addr_mode()
+c87c9b11c53cecab8e8a93290fa3b488e6838dab mtd: spi-nor: spansion: Determine current address mode
 
---===============7647065441015999658==--
+--===============3591810003214542329==--
