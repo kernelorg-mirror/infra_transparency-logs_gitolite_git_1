@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8145488957986203399=="
+Content-Type: multipart/mixed; boundary="===============8119348957087239063=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
-Date: Tue, 04 Apr 2023 16:53:26 -0000
-Message-Id: <168062720698.13146.13388729621561893172@gitolite.kernel.org>
+Date: Tue, 04 Apr 2023 16:53:37 -0000
+Message-Id: <168062721706.13252.17187778038835989691@gitolite.kernel.org>
 
---===============8145488957986203399==
+--===============8119348957087239063==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,20 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/s390/linux
 user: gor
 changes:
-  - ref: refs/heads/features
-    old: 85206bf95313c33a244d6ea4304b01ade95b8b05
-    new: b94c0ebb1ec752016a3e41bfb66bb51ea905e533
-    log: revlist-85206bf95313-b94c0ebb1ec7.txt
+  - ref: refs/heads/for-next
+    old: 5aed5bd9e869dcd1ef985c4d12bdbd811bd97b92
+    new: 18589b3de230107b25085c1192ff84393e41a169
+    log: revlist-5aed5bd9e869-18589b3de230.txt
 
---===============8145488957986203399==
+--===============8119348957087239063==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-85206bf95313-b94c0ebb1ec7.txt
+Content-Disposition: attachment; filename=revlist-5aed5bd9e869-18589b3de230.txt
 
-ab909509850b27fd39b8ba99e44cda39dbc3858c PCI: s390: Fix use-after-free of PCI resources with per-function hotplug
-d7a0bdbf17276b757d2b89f5351bbee9ecf58fe6 s390: update defconfigs
-89aba4c26fae4e459f755a18912845c348ee48f3 s390/uaccess: add missing earlyclobber annotations to __clear_user()
 10679e4d9848a04694eb99ec7390a6585d1b7ca9 s390/uaccess: use symbolic names for inline assembly operands
 b96adf0d03e01fa10483f38e302a5f93bb733ed0 s390/uaccess: remove unused label in inline assemblies
 4e0b0ad45c6616d85564cb27dbae04a962d068bd s390/uaccess: rename/sort labels in inline assemblies
@@ -49,5 +46,7 @@ cfea9bc78bc3f99abcef3efbe7631d3ed3b70406 s390/stack: set lowcore kernel stack po
 60afa6d1662c08dd266463231acc129488fffe6e s390: remove arch_early_irq_init()
 22ca1e7738025ae38d07c05bae2af934b1b2c11f s390: move on_thread_stack() to processor.h
 b94c0ebb1ec752016a3e41bfb66bb51ea905e533 s390: enable HAVE_ARCH_STACKLEAK
+125e430cda2e8eb015d60503e141d611a4482dfd Merge branch 'fixes' into for-next
+18589b3de230107b25085c1192ff84393e41a169 Merge branch 'features' into for-next
 
---===============8145488957986203399==--
+--===============8119348957087239063==--
