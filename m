@@ -1,50 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============8115793729807079009=="
+Content-Type: multipart/mixed; boundary="===============1873480782404510584=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Tue, 04 Apr 2023 17:12:58 -0000
-Message-Id: <168062837871.25538.16775423011855982099@gitolite.kernel.org>
+Subject: post-receive: pub/scm/virt/kvm/kvm
+Date: Tue, 04 Apr 2023 17:22:28 -0000
+Message-Id: <168062894890.467.5200116126354719661@gitolite.kernel.org>
 
---===============8115793729807079009==
+--===============1873480782404510584==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/robh/linux
-user: robh
+repo: pub/scm/virt/kvm/kvm
+user: bonzini
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/dt/next
-    old: c9c9d764daeeb264c647b0c6a3d2f602a7deb586
-    new: 5eac0bdc787e3252869a49b50d90b52b830aed35
-    log: revlist-c9c9d764daee-5eac0bdc787e.txt
-  - ref: refs/heads/for-next
-    old: c9c9d764daeeb264c647b0c6a3d2f602a7deb586
-    new: 5eac0bdc787e3252869a49b50d90b52b830aed35
-    log: revlist-c9c9d764daee-5eac0bdc787e.txt
+  - ref: refs/heads/master
+    old: c2594091d0e517f3c46b99a3f380cd7ae23e4ffc
+    new: fb5015bc8b733323b58f015b88e4f316010ec856
+    log: |
+         fb5015bc8b733323b58f015b88e4f316010ec856 docs: kvm: x86: Fix broken field list
+         
+  - ref: refs/tags/for-linus
+    old: 0db866fb3ec171f62aed51738bdbc0de231c9f49
+    new: cc496dfcd39e4db3855c6c543cee031a3b200a0e
+    log: |
+         fb5015bc8b733323b58f015b88e4f316010ec856 docs: kvm: x86: Fix broken field list
+         
 
---===============8115793729807079009==
+--===============1873480782404510584==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c9c9d764daee-5eac0bdc787e.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-3267197782a9160c558efc80ce8e57e5bee56f01 dt-bindings: clock: Drop unneeded quotes
-43d78445da006ef8d81684b2ade6f4cf22d01b2f dt-bindings: interrupt-controller: Drop unneeded quotes
-5bae6ac11938dc8215503440a7166fa59fa66c6e dt-bindings: ata: Drop unneeded quotes
-72e418c478c7b978d12a13d15fefb8c9d439b371 dt-bindings: reserved-memory: Drop unneeded quotes
-f550162395e6068f7726a1a0255c7374056e21ef dt-bindings: PCI: Drop unneeded quotes
-81c00b588116abc524668070eb3dd7922632c033 dt-bindings: watchdog: Drop unneeded quotes
-fcb52d7deafe04eb6cc26ff89c0b3c9e3acd849a dt-bindings: input: Drop unneeded quotes
-a65f2cf65f6a7df405264aadd1379c47f0a4994c dt-bindings: reset: Drop unneeded quotes
-68b8960a65e341294766dab276e60aba51cd852d dt-bindings: mailbox: Drop unneeded quotes
-ef998faf9fc343fd170dbfe3eafcb82f80a4cfe6 dt-bindings: crypto: sec-v4.0-mon: add snvs power off support
-41d7e4f257f328d0131c46fb6092b08087721efd dt-bindings: vendor-prefixes: document Novatek
-0291b586ef5df4fe9a626d01dbd53e01f8c41e3c dt-bindings: timer: convert timer/amlogic,meson6-timer.txt to dt-schema
-dc8ea9204b242cd93e63585396ac7d13f622802d dt-bindings: move cache controller bindings to a cache directory
-7be5e675c86d6c473220a0c9e9420a1fdb0d04da of: address: Document return value of of_address_to_resource()
-65b6b046e2b4cec2bd9d4849324d319122d6f2b2 of: address: Fix documented return value of of_pci_range_to_resource()
-5eac0bdc787e3252869a49b50d90b52b830aed35 of: address: Reshuffle to remove forward declarations
+certificate version 0.1
+pusher Paolo Bonzini <pbonzini@redhat.com> 1680628947 -0400
+pushee gitolite.kernel.org:/pub/scm/virt/kvm/kvm.git
+nonce 1680628946-d68526cfb51d8ae529a45acfa36aba8ca7ae96b4
 
---===============8115793729807079009==--
+c2594091d0e517f3c46b99a3f380cd7ae23e4ffc fb5015bc8b733323b58f015b88e4f316010ec856 refs/heads/master
+0db866fb3ec171f62aed51738bdbc0de231c9f49 cc496dfcd39e4db3855c6c543cee031a3b200a0e refs/tags/for-linus
+-----BEGIN PGP SIGNATURE-----
+
+iQFIBAABCAAyFiEE8TM4V0tmI4mGbHaCv/vSX3jHroMFAmQsXNMUHHBib256aW5p
+QHJlZGhhdC5jb20ACgkQv/vSX3jHroNJ7wgAqG0U57Zf1u2lwpedY3EZjXxN08EA
+euUTkJmyLORQ07cSX5Ykmsy19i3SrJ17Mpw+9K+zRpKnarSNYw0QU6i3+9kfhXyE
+IVQ6yH8fmjtZzXLbV+jCnk3pCofeEXIO3mnGEiWf0i7n2zTPkUtDHWBf4CEhlTBY
+zNWRZrf5M9g9vv3kPb0roB1VIBMUKGFpUDHf76iV2nYNNw6zg51hlEaaVh4TfTJY
+EYrmvDBe5Gsxg1w2VLOb6JI1l/edarIo4Mt+ejn6q05d6+oS1tjY9N1/siUzYwh/
+GRot48JclzrI4ckbQcTJB4IZr8CejHiTRNzhAfJB8TaqOUF+/N8XWgKycA==
+=wMqT
+-----END PGP SIGNATURE-----
+
+--===============1873480782404510584==--
