@@ -1,16 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Tue, 04 Apr 2023 15:41:40 -0000
-Message-Id: <168062290013.28793.12145900422881895685@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
+Date: Tue, 04 Apr 2023 15:42:35 -0000
+Message-Id: <168062295548.29121.14558854806907916611@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/linux/kernel/git/kdave/linux
+user: kdave
 changes:
-  - ref: refs/heads/srcu-cf.2023.04.04a
-    old: 0000000000000000000000000000000000000000
-    new: cefc0a599b19d8dd0e26d0b2e43311bae7530ca1
+  - ref: refs/heads/master
+    old: 7e364e56293bb98cae1b55fd835f5991c4e96e7d
+    new: 148341f0a2f53b5e8808d093333d85170586a15d
+    log: |
+         1eb65c8687316c65140b48fad27133d583178e15 Drivers: vmbus: Check for channel allocation before looking up relids
+         f8acb24aaf89fc46cd953229462ea8abe31b395f x86/hyperv: Block root partition functionality in a Confidential VM
+         cb2239c198ad9fbd5aced22cf93e45562da781eb fs: drop peer group ids under namespace lock
+         2d72ab2449fa9fce8f6898fd5adda10497f7c111 Merge tag 'hyperv-fixes-signed-20230402' of git://git.kernel.org/pub/scm/linux/kernel/git/hyperv/linux
+         148341f0a2f53b5e8808d093333d85170586a15d Merge tag 'vfs.misc.fixes.v6.3-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/idmapping
+         
