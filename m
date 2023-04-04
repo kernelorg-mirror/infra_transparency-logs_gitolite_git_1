@@ -1,52 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/ieee1394/libhinoko
-Date: Tue, 04 Apr 2023 01:58:56 -0000
-Message-Id: <168057353686.13135.5691125117178471350@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 04 Apr 2023 02:09:25 -0000
+Message-Id: <168057416591.19459.7574869987386491492@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/ieee1394/libhinoko
-user: takaswie
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/tags/v0.1.0
-    old: 0000000000000000000000000000000000000000
-    new: d20c2289423b6f381fe63c74cb251eaaed43a818
-  - ref: refs/tags/v0.2.0
-    old: 0000000000000000000000000000000000000000
-    new: 8afd2fc41a28fe692320898f39d1f310a17548c6
-  - ref: refs/tags/v0.3.0
-    old: 0000000000000000000000000000000000000000
-    new: 63d70d06f37d885d0542e46c64153503829538f7
-  - ref: refs/tags/v0.4.0
-    old: 0000000000000000000000000000000000000000
-    new: 5b9d38abce34e909173c65c4881301ed298e7ea3
-  - ref: refs/tags/v0.5.0
-    old: 0000000000000000000000000000000000000000
-    new: ad3cc69a808cdd92082cfce09aec3197d5480006
-  - ref: refs/tags/v0.5.1
-    old: 0000000000000000000000000000000000000000
-    new: 46796b7d2e898a2c614936b1c70f1399d582e591
-  - ref: refs/tags/v0.6.0
-    old: 0000000000000000000000000000000000000000
-    new: 06e95b2c7b3b252034e84151da1c41b97e0a241d
-  - ref: refs/tags/v0.7.0
-    old: 0000000000000000000000000000000000000000
-    new: bf11d00e5279bd514b6e97fae2e2cb8000146229
-  - ref: refs/tags/v0.7.1
-    old: 0000000000000000000000000000000000000000
-    new: 8e9aa3ede8f4756967bc0774a0bdd9a18967b778
-  - ref: refs/tags/v0.7.2
-    old: 0000000000000000000000000000000000000000
-    new: da31da83c4a23543d940f2e0c0ebb495b8df1c57
-  - ref: refs/tags/v0.7.3
-    old: 0000000000000000000000000000000000000000
-    new: 50d620910c93161344373e217d028a643053c28d
-  - ref: refs/tags/v0.7.4
-    old: 0000000000000000000000000000000000000000
-    new: 51d65cdef0145d8511205c5bacbc2786b36d0b19
-  - ref: refs/tags/v0.8.0
-    old: 0000000000000000000000000000000000000000
-    new: 2dee0626a716b4ab1c4640e750ef3cd92127f4e4
+  - ref: refs/heads/main
+    old: 7b600f8da8fe65183014c2b87e61da7c597476cf
+    new: b3803399196e961ca190561d26ccf567f26841e6
+    log: |
+         e790fc15bfbf3d9e6edd4e42b6288a4dd678e2f4 sfc: store PTP filters in a list
+         75687cd06620e5229a74c127e6a46048aa6307f3 sfc: allow insertion of filters for unicast PTP
+         49ed35a0b6aafacd5e4d7c24ed6c02fbfbadaedc sfc: support unicast PTP
+         ad47655eadc8918a60c4165237a4c7da383c1d08 sfc: remove expired unicast PTP filters
+         b3803399196e961ca190561d26ccf567f26841e6 Merge branch 'sfc-support-unicast-ptp'
+         
