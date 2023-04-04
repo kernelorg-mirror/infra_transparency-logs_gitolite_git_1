@@ -1,74 +1,28 @@
-Content-Type: multipart/mixed; boundary="===============9152153334541339984=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Tue, 04 Apr 2023 08:19:40 -0000
-Message-Id: <168059638074.5934.10236430280444396289@gitolite.kernel.org>
-
---===============9152153334541339984==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
+Date: Tue, 04 Apr 2023 08:31:30 -0000
+Message-Id: <168059709062.14182.13852025249895710678@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/staging
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/ardb/linux
+user: ardb
 changes:
-  - ref: refs/heads/staging-next
-    old: a8a9e95243581d4f30295960f968d56a401c0eb1
-    new: e3e1e149176c7c9371b04d3b96c873cca31f520e
-    log: revlist-a8a9e9524358-e3e1e149176c.txt
-
---===============9152153334541339984==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1680596380 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1680596379-f06be4b0c59c08e57549bf910184f73c857ec45a
-
-a8a9e95243581d4f30295960f968d56a401c0eb1 e3e1e149176c7c9371b04d3b96c873cca31f520e refs/heads/staging-next
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQr3ZwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+jngQAJmW8lpcfrjpfikNvY2r
-WnFJbdBi/IZYeWVDZTuc1J8oXTE6hoW4fmbkyw2jMjqka1/Ovp4ALYVck2WNAcYy
-xHjCbeoXR9D6+PzNDqTDpQPatZrmK3/yQsQAqGgt0ubKzEhz/LmJwAWEOfNTWdN+
-gPjfUabzPQdcSA+V2YICyuiXZPglmb6pfKBZ4v1eiL+o/aB5G134L+bJe9ti4m2F
-+5IoXSl0OSCcUe2wSmUf9dXscACmRPFd96tXP9y8cd6lFn9B40vR3Uat1SrkkW/D
-mi8dcJ+GqTgW8OSOyzUtU1IVLluT6eCWFoypWK8If12zutVvq3plf0JyYDzSsld9
-djWrfZQRv/RiqkWdDwsregtUiFu/ji5mrzckEMBPYemdO8X9iybawvEBZsYQknNM
-ijBDr+voMDghnt6FfrJWfAlrd0d7rt/I+F3PgaPkBhdK8MfUnqb9YLdJSlL595vi
-tosGXvjj4zfMzig0M2wogwW6ggWyxt4/g83ikIUioD0PHCGmMW/aWx8CavCdfMsW
-5CQMfGzSzJtES3SCPl1wmQgX94pLhwsijbwMPrup44ILHj84YUo5daDFxEL8DxI5
-efsMdx11cOmjB5K8G7T2r1vg+Qs9OyTiCOZGX9zLbaTXd6XWtNGJatOBmvddmR+s
-cB6Cs9a+NZLF6yyNMCTYR4zv
-=7r4T
------END PGP SIGNATURE-----
-
---===============9152153334541339984==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a8a9e9524358-e3e1e149176c.txt
-
-63b2af49654b11b57ca1746e48c1ac63e0bd6de1 staging: axis-fifo: Convert to platform remove callback returning void
-68c8e9ff5d32d0ce34f972746b96d1e4a2f5b042 staging: emxx_udc: Convert to platform remove callback returning void
-ba110722924c1b2c111170736278d87ee381484b staging: fieldbus: arcx-anybus: Convert to platform remove callback returning void
-9b19a31c20f1040004e4cbda4945023e2ce86ad3 staging: greybus: arche-apb-ctrl: Convert to platform remove callback returning void
-7846a2ae5ccd1d08bcfff4a6cfedbc33680cf6cc staging: greybus: arche: Convert to platform remove callback returning void
-51559b8e9bf9e3324413ab1c171df05d408dd81b staging: most: dim2: Convert to platform remove callback returning void
-398296fd509df4d36b8b09bb0c839e80ebb9a05b staging: nvec: Convert to platform remove callback returning void
-46ea3230264b591dcabbceb06e87fc33236900a4 staging: nvec: nvec_kbd: Convert to platform remove callback returning void
-f1e870c45be5b6262dc452b7131ab81290ad7180 staging: nvec_power: Convert to platform remove callback returning void
-cedff4e3e23c5b26c64e901b139fe88b89678540 staging: nvec_ps2: Convert to platform remove callback returning void
-c46d4073ec6871c3531fa96c49bf45c8598bf791 staging: octeon: ethernet: Convert to platform remove callback returning void
-360365104dca5d3f6e5f1c00dd16e7a9996406f8 staging: vc04_services: bcm2835-camera: Convert to platform remove callback returning void
-e3e1e149176c7c9371b04d3b96c873cca31f520e staging: vc04_services: vchiq_arm: Convert to platform remove callback returning void
-
---===============9152153334541339984==--
+  - ref: refs/heads/arm-efi-zboot
+    old: 0cf33b405a4aa0915fbe092694b18cc0315c69b9
+    new: 90c71e0a776484a81fdfadacf0e84c6bec598afb
+    log: |
+         e4298be2a9d1952de3dd6c10dd9d2a84c5a1ded5 efi/zboot: Add BSS padding before compression
+         ca7cad4cc1eda64c08ea50f8acab7fb31b6aac5b efi/zboot: Set forward edge CFI compat header flag if supported
+         8d677ef9228cecaded8d0ee73988d81c2088ea31 efi/zboot: arm64: Grab code size from image header
+         a1089e60d345304c147079c420a69f6613497333 mm/page_alloc: Account for misaligned PFN_OFFSET again
+         95472d6db56f3dc248da8519b1cf613694f66feb ARM: head: Remove 1-2 MiB of pointless padding
+         b31b9215490c48e5558390250e5641d4dcb43928 ARM: mmu: Ensure all lowmem regions are mapped in all cases
+         f0f9dbdfd4c2395dc1b3eab74b89cf9dc2ae279c ARM: head: Omit TEXT_OFFSET from initial kernel mapping when possible
+         241841512361eb16e0f23cbd8c85b05a19e1b9f5 lib/decompress: Only treat out_buf == 0 as error if malloc() failed
+         026d82ea8a0848bafc5556379c15f4b57f600d14 ARM: vmlinux.lds: Add image header to decompressed kernel image
+         90c71e0a776484a81fdfadacf0e84c6bec598afb efi/zboot: Enable for 32-bit ARM
+         
