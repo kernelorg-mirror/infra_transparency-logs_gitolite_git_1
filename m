@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6912438802889103138=="
+Content-Type: multipart/mixed; boundary="===============2701192392310821328=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/uml/linux
-Date: Tue, 04 Apr 2023 07:57:45 -0000
-Message-Id: <168059506594.23731.11463607028274443741@gitolite.kernel.org>
+Date: Tue, 04 Apr 2023 07:57:57 -0000
+Message-Id: <168059507732.23883.18006221114211276118@gitolite.kernel.org>
 
---===============6912438802889103138==
+--===============2701192392310821328==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/uml/linux
 user: rw
 changes:
-  - ref: refs/heads/next
-    old: 04df97e150c83d4640540008e95d0229cb188135
+  - ref: refs/heads/fixes
+    old: bd71558d585ac61cfd799db7f25e78dca404dd7a
     new: a3046a618a284579d1189af8711765f553eed707
-    log: revlist-04df97e150c8-a3046a618a28.txt
+    log: revlist-bd71558d585a-a3046a618a28.txt
 
---===============6912438802889103138==
+--===============2701192392310821328==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-04df97e150c8-a3046a618a28.txt
+Content-Disposition: attachment; filename=revlist-bd71558d585a-a3046a618a28.txt
 
 647dd2c3f0e16b71a1a77897d038164d48eea154 erofs: Revert "erofs: fix kvcalloc() misuse with __GFP_NOFAIL"
 9ff471800b74f5f952c7e75a0355f1d30ee2b046 erofs: get rid of a useless DBG_BUGON
@@ -1051,4 +1051,4 @@ f95b8ea79c47c0ad3d18f45ad538f9970e414d1f Revert "venus: firmware: Correct non-pi
 7e364e56293bb98cae1b55fd835f5991c4e96e7d Linux 6.3-rc5
 a3046a618a284579d1189af8711765f553eed707 um: Only disable SSE on clang to work around old GCC bugs
 
---===============6912438802889103138==--
+--===============2701192392310821328==--
