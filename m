@@ -1,46 +1,20 @@
-Content-Type: multipart/mixed; boundary="===============9031512868374881622=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/peebz/peebz
-Date: Wed, 05 Apr 2023 19:28:42 -0000
-Message-Id: <168072292206.30630.15932684130846207699@gitolite.kernel.org>
-
---===============9031512868374881622==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/bluetooth/bluez
+Date: Wed, 05 Apr 2023 19:41:05 -0000
+Message-Id: <168072366549.6696.8101949425335366861@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/peebz/peebz
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/bluetooth/bluez
+user: vudentz
 changes:
   - ref: refs/heads/master
-    old: fec93955bf015348492fe0f6902dcb10b42df75a
-    new: e5fa089379d750298886d5576de8dd93cd1cbbe3
+    old: cffd5832a52cab71679e0bc6ee02a8f7816f1950
+    new: 61971f026466391ca8fa563559e2fe6bd5129581
     log: |
-         e5fa089379d750298886d5576de8dd93cd1cbbe3 Better fix bugs without a config-defined component
+         7aee0b67ba9fadb0713a14a3f4121cdeffa75f6c set: Fix not attempt to connect devices with RSI
+         61971f026466391ca8fa563559e2fe6bd5129581 monitor/att: Add decoding support for BASS
          
-
---===============9031512868374881622==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher B6C41CE35664996C! 1680722921 -0400
-pushee gitolite.kernel.org:pub/scm/utils/peebz/peebz
-nonce 1680722921-cb143e68326e12a8d29aa3ea6b61dbaf7a0f74ff
-
-fec93955bf015348492fe0f6902dcb10b42df75a e5fa089379d750298886d5576de8dd93cd1cbbe3 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCZC3L6QAKCRC2xBzjVmSZ
-bLFxAQDl1WtrLL16khiUNnBldnC9AmL41lIxOlw51GzsjYLmiwEA/HGhgL58pU1p
-0z/aLuQ2XfrvE4Vxg2LgfqnHY3JYbgU=
-=DZmH
------END PGP SIGNATURE-----
-
---===============9031512868374881622==--
