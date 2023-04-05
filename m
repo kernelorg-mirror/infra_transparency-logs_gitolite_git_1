@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Wed, 05 Apr 2023 19:48:24 -0000
-Message-Id: <168072410475.12341.9161004136165336733@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Wed, 05 Apr 2023 19:48:46 -0000
+Message-Id: <168072412624.12504.11581998175985778308@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: martin.lau
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
-  - ref: refs/heads/for-next
-    old: f2b50f17268390567bc0e95642170d88f336c8f4
-    new: 68e7322142f5e731af222892d384d311835db0f1
+  - ref: refs/heads/master
+    old: 7c79eff867b7d41c3fea187e2f07b4a43f01a654
+    new: c7ffe0cf6b7bdf62db70bd7700d6ed40d9106ba9
     log: |
-         68e7322142f5e731af222892d384d311835db0f1 selftests: xsk: Deflakify STATS_RX_DROPPED test
+         c7ffe0cf6b7bdf62db70bd7700d6ed40d9106ba9 libmount: fix superblock rw/ro reconfiguration
          
