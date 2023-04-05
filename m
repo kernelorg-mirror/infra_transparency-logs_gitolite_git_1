@@ -1,50 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============3292320335702797463=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Wed, 05 Apr 2023 12:25:10 -0000
-Message-Id: <168069751089.4894.8037375507014495656@gitolite.kernel.org>
-
---===============3292320335702797463==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Wed, 05 Apr 2023 12:25:23 -0000
+Message-Id: <168069752319.4999.5057874902543422889@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/regmap-6.4
-    old: 451941ac1ee2be125ac5029593a64b04badaa314
-    new: fac79bad889bb167a37492181646992c8c48903b
+  - ref: refs/heads/for-linus
+    old: de6aa72b265b72bca2b1897d5000c8f0147d3157
+    new: 0b186bb06198653d74a141902a7739e0bde20cf4
     log: |
-         fac79bad889bb167a37492181646992c8c48903b regmap: Use mas_walk() instead of mas_find()
+         0b186bb06198653d74a141902a7739e0bde20cf4 ASoC: SOF: pm: Tear down pipelines only if DSP was active
          
-
---===============3292320335702797463==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1680697509 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1680697509-f47b8ccb315a068369f76445f8689d74113beea4
-
-451941ac1ee2be125ac5029593a64b04badaa314 fac79bad889bb167a37492181646992c8c48903b refs/heads/regmap-6.4
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmQtaKUACgkQJNaLcl1U
-h9AkuAf/dG1MA48quUlbNnXeWK6Vz8oEXCOPMCO/lhiprcE/oZd+dzI89TL32vE7
-goHVRq+e+a3ckK2gJuoAGSKUxdnAn7Au4xNyntc1hvyc6hX0AjFKZhCOXDv35cmO
-z5IiI8g5un6zXLfoATPtbhYARgv7V4Avn7KN/nSfCgl0MWW+52UKVQb0DwyyU/Yr
-GMs796vXTKArenZBr73EN+oyHzvt4GDNez2rJoVVZvdefTxzsbflkcUKvJborVEG
-yJNXxhRLqfSRB5r9BnE2DMNwHloH1THWhm0jiFCvON/wQB4OKwpntUif7i9GGNg/
-V8kPStO5G7L2a2DlPcODJnTiztqWSw==
-=ZWSw
------END PGP SIGNATURE-----
-
---===============3292320335702797463==--
+  - ref: refs/heads/for-next
+    old: 2b89f150b7118acb337458255a90c73b11729691
+    new: c350fce73c22b93ea8a9e8bd3a153fb56887bff9
+    log: |
+         0b186bb06198653d74a141902a7739e0bde20cf4 ASoC: SOF: pm: Tear down pipelines only if DSP was active
+         c350fce73c22b93ea8a9e8bd3a153fb56887bff9 Merge remote-tracking branch 'asoc/for-6.4' into asoc-next
+         
