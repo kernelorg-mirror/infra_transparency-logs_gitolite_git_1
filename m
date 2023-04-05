@@ -1,40 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============0594702927972333933=="
+Content-Type: multipart/mixed; boundary="===============4004946661173758474=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Wed, 05 Apr 2023 04:57:11 -0000
-Message-Id: <168067063178.16886.11712720557775197037@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Wed, 05 Apr 2023 04:57:25 -0000
+Message-Id: <168067064591.17079.15095124651900567379@gitolite.kernel.org>
 
---===============0594702927972333933==
+--===============4004946661173758474==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
   - ref: refs/heads/master
     old: 6a53bda3aaf3de5edeea27d0b1d8781d067640b6
     new: 8417c8f5007bf4567ccffda850a3157c7d905f67
     log: revlist-6a53bda3aaf3-8417c8f5007b.txt
-  - ref: refs/heads/pending-fixes
-    old: 3a20340084c7ec1eaed02f9355fc4c7cee08cd29
-    new: 0f20c88b6871a0b9aedea5789b54f81b1abe512a
-    log: revlist-3a20340084c7-0f20c88b6871.txt
-  - ref: refs/heads/stable
-    old: 148341f0a2f53b5e8808d093333d85170586a15d
-    new: 76f598ba7d8e2bfb4855b5298caedd5af0c374a8
-    log: revlist-148341f0a2f5-76f598ba7d8e.txt
-  - ref: refs/tags/next-20230105
-    old: 390bb5f929293c42f87977d0163403eab4f8b8d6
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20230405
     old: 0000000000000000000000000000000000000000
     new: 67c3b9fdfd205d7ba7bea2b769c00911334b1887
 
---===============0594702927972333933==
+--===============4004946661173758474==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1042,120 +1031,4 @@ a698f379a5eec6ee19f4c6e64f9e79ab5e795f5c Merge branch 'for-next/kspp' of git://g
 a00d03962d6095dee71e116a006ca7ed5fd9d182 Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/jgg/iommufd.git
 8417c8f5007bf4567ccffda850a3157c7d905f67 Add linux-next specific files for 20230405
 
---===============0594702927972333933==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3a20340084c7-0f20c88b6871.txt
-
-fbaa38214cd9e150764ccaa82e04ecf42cc1140c cxl/pci: Fix CDAT retrieval on big endian
-34bafc747c54fb58c1908ec3116fa6137393e596 cxl/pci: Handle truncated CDAT header
-b56faef2312057db20479b240eb71bd2e51fb51c cxl/pci: Handle truncated CDAT entries
-4fe2c13d59d849be3b45371e3913ec5dc77fc0fb cxl/pci: Handle excessive CDAT length
-92dc899c3b4927f3cfa23f55bf759171234b5802 PCI/DOE: Silence WARN splat with CONFIG_DEBUG_OBJECTS=y
-abf04be0e7071f2bcd39bf97ba407e7d4439785e PCI/DOE: Fix memory leak with CONFIG_DEBUG_OBJECTS=y
-a3046a618a284579d1189af8711765f553eed707 um: Only disable SSE on clang to work around old GCC bugs
-c6b486fb33680ad5a3a6390ce693c835caaae3f7 net: ethernet: ti: am65-cpsw: Fix mdio cleanup in probe
-6459a9bf7e46cef5e27db72bdb2be7632b2e328e memstick: fix memory leak if card device is never registered
-b277fc793daf258877b4c0744b52f69d6e6ba22e powerpc/papr_scm: Update the NUMA distance table for the target node
-e4395701330fc4aee530905039516fe770b81417 iommufd: Check for uptr overflow
-727c28c1cef2bc013d2c8bb6c50e410a3882a04e iommufd: Fix unpinning of pages when an access is present
-13a0d1ae7ee6b438f5537711a8c60cba00554943 iommufd: Do not corrupt the pfn list when doing batch carry
-218c597325f4faf7b7a6049233a30d7842b5b2dc net: stmmac: fix up RX flow hash indirection table when setting channels
-5085e41f9e83a1bec51da1f20b54f2ec3a13a3fe sunrpc: only free unix grouplist after RCU settles
-8be8f170e8383fd1421e8b87950e90d7dd45be07 NFS: Remove "select RPCSEC_GSS_KRB5
-7de82c2f36fb26aa78440bbf0efcf360b691d98b NFSD: callback request does not use correct credential for AUTH_SYS
-fb5015bc8b733323b58f015b88e4f316010ec856 docs: kvm: x86: Fix broken field list
-ceeea1b78293834378b8d32a18288610de5600f3 Merge tag 'nfsd-6.3-5' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
-76f598ba7d8e2bfb4855b5298caedd5af0c374a8 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
-82f0832af26a30ae5f21b335c5f68b538e710c29 cxl/hdm: Fix double allocation of @cxlhdm
-b70c2cf95ee1ca2806cb7191504920f8f5b4454e cxl/hdm: Skip emulation when driver manages mem_enable
-d35b495ddf92c964eedf2ac86fdbf88dc3e5cbc9 cxl/port: Fix find_cxl_root() for RCDs and simplify it
-030f880342b875c7d714d06d3ca4058ae9f13fee cxl/region: Fix region setup/teardown for RCDs
-9ff3eec958cf365857ae8a630237ece4f83bb337 cxl/region: Move coherence tracking into cxl_region_attach()
-52cc48ad2a76a5fe82d239044d67944bbb928de6 cxl/hdm: Limit emulation to the number of range registers
-24b18197184ac39bb8566fb82c0bf788bcd0d45b cxl/hdm: Extend DVSEC range register emulation for region enumeration
-ca712e47054678c5ce93a0e0f686353ad5561195 Merge branch 'for-6.3/cxl-doe-fixes' into for-6.3/cxl
-c009ad46b0a645365e397bfe0ee217ac04da98e4 kernel/sys.c: fix and improve control flow in __sys_setres[ug]id()
-868f4928e38d39aa38b71d10f8326d20d761cafe maple_tree: be more cautious about dead nodes
-61efcab3b41487ef8e37d264f651bfb66e7c422a maple_tree: detect dead nodes in mas_start()
-091067dab2c49d612fd39479b4594a895b728cb7 maple_tree: fix freeing of nodes in rcu mode
-01064711d02c7e37bb59b14e27cd3cafec40c8d9 maple_tree: remove extra smp_wmb() from mas_dead_leaves()
-78eccd4dd3fd9492a3a87e9c3c05b55c278e37d3 maple_tree: fix write memory barrier of nodes once dead for RCU mode
-2aa3b7f4ddd9afbe87eeb9861c8c23abd776cdc6 maple_tree: add smp_rmb() to dead node detection
-091440711fd93842777f01a51b141da3b5fd4f47 maple_tree: add RCU lock checking to rcu callback functions
-ba8a364895eb2088b372fea5042b037d7df1e60c mm: enable maple tree RCU mode by default
-6ec668d3f0a5c63358b011487f6942578db579ea mm: enable maple tree RCU mode by default.
-18e3a90e3faffad6d0e2ce88593b8bdb9d273d46 mm/hugetlb: fix uffd wr-protection for CoW optimization path
-ab1f071d658a5a37856df3a8602ca47110de4cb2 mm-hugetlb-fix-uffd-wr-protection-for-cow-optimization-path-v2
-589dd168349805fc11b2309df0619917d1588eed mm-hugetlb-fix-uffd-wr-protection-for-cow-optimization-path-v3
-65997b124a6ba43ca75e024fefe5c92d5fce1b52 fsdax: force clear dirty mark if CoW
-eb133663e80aafca041ac20768355ec9c337cbf9 zsmalloc: document new fullness grouping
-11ef3e3a975075dd63b9cadfe615e0ea031bea02 zsmalloc: document freeable stats
-600f412b55d6ec7824e1ebf45dcb86c63ad75ca6 nilfs2: fix potential UAF of struct nilfs_sc_info in nilfs_segctor_thread()
-6319ec33b10c4985336bc5066a97cb69df5e8018 nilfs2: initialize "struct nilfs_binfo_dat"->bi_pad field
-4aa42f90bc60aedcfe749d7d853c84b8b5d0345d mm: vmalloc: avoid warn_alloc noise caused by fatal signal
-de24b449b836e7cf192bc7fe6310040b840e515a mm: khugepaged: fix kernel BUG in hpage_collapse_scan_file()
-ccb7b5d78bf2878e6dbdb27c1f07118aadca5f6c mm-khugepaged-fix-kernel-bug-in-hpage_collapse_scan_file-fix
-5b1b37af09be2778efcb6461aed05d44c078cd4c mm: fix memory leak on mm_init error handling
-97b4ac4396736dc4afa5da65bf30bad0e0195760 mm: take a page reference when removing device exclusive entries
-de8a58daf6a0c64ddd8425e9e1116346383a495c nilfs2: fix sysfs interface lifetime
-baa90ac12115b3558b494c61b295060fb145633d mm/swap: fix swap_info_struct race between swapoff and get_swap_pages()
-5d892068bc085ea6b5b13eb83c5b4f2d47f882fd mm/page_alloc: fix potential deadlock on zonelist_update_seq seqlock
-e3387986bbb9d2c08eb187551e1a4bf93bce15e0 Merge branch 'mm-hotfixes-unstable' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
-1dc158adbd9d9f52199e8c562dd6cca3760ffb58 Merge branch 'arm/fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc.git
-b3af5f6d09ed76cd0e333ae3b0cb80b76cb3d1a5 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux.git
-d87a5f51b480b94a32888ca7f5759846074cb5b4 Merge branch 'master' of git://git.kernel.org/pub/scm/linux/kernel/git/davem/sparc.git
-a804f9af2aaa508d28b8bdff8bf1574d6be8605b Merge branch 'main' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net.git
-4248a5efd2d7011b2eeda3a37fe7ba21cbb0b3f8 Merge branch 'master' of git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf.git
-8dc96fee6bda07fb1dc379456d0892a9d973ab4e Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless.git
-5728b0d97a97f37de2481a9b7ca2cbc3fbc53859 Merge branch 'for-rc' of git://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma.git
-3e3148e7ee527b943b74d6d54afb9914295e4562 Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound.git
-fc335c54d6afe72e8e7b70b29287da7468aef678 Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-d11bf4a63413f993edc4d9fe74a66b60025c5163 Merge branch 'tty-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/tty.git
-75c92a4b0ea2a23ae6f014559a5cfa42419fa2d4 Merge branch 'usb-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb.git
-4ac8602827188fd52b46b8dbc5d04d3f446a3967 Merge branch 'fixes-togreg' of git://git.kernel.org/pub/scm/linux/kernel/git/jic23/iio.git
-a4696796c32dd7894b8b4dcc8349e399cb1118b9 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vkoul/soundwire.git
-649a373f49b16ac318221caab0333a2b6db228e1 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest.git
-a3d421dce773380c31af8c73f5c68612e0bfc78a Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vkoul/dmaengine.git
-d76b0039b1d4b924c69be5f48b75b64e0a6196fb Merge branch 'mtd/fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/mtd/linux.git
-c2f61cf75bd449226868faf0db4d34cb0ccae2ca Merge branch 'fixes' of git://linuxtv.org/mchehab/media-next.git
-8aacc66cc7208a6527369a36347406dbf551f083 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/cxl/cxl.git
-f2b42a6293f5adcfb0df5c4fbaf0150bebe404bd Merge branch 'next-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux.git
-784858d1cb4a2ba49990657871ce7e62f218217d Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
-057dfc70e970497b8d4b44980e15626880f1c439 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/mkp/scsi.git
-cc9115c2b22dbc12d63aaea6ae49606272f6d16a Merge branch 'for-linux-next-fixes' of git://anongit.freedesktop.org/drm-intel
-2da78e4356d397934898993cddfc16cd4315ff18 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/mmc.git
-c36120af23f8a91de8ae3f2d3a87d8521b637a82 Merge branch 'riscv-dt-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/conor/linux.git
-80af36e3de5270b01351174f957ad059a4c59f2a Merge branch 'gpio/for-current' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux.git
-81cf95c1467fa4e5b666a927c075c6efcb52f17d Merge branch 'nfsd-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
-a0ef30d4b4c7efd3c584933c6e97b83477fcce4e Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/uml/linux.git
-ae282c8b6b489530b111a430664439d68194fab2 Merge branch 'for-rc' of git://git.kernel.org/pub/scm/linux/kernel/git/jgg/iommufd.git
-2bb18f0641c1e2ed40f6069db7a104c270dbd94c Merge branch 'fixes/next' of git://git.kernel.org/pub/scm/linux/kernel/git/ericvh/v9fs.git
-0f20c88b6871a0b9aedea5789b54f81b1abe512a Merge branch 'for-linux-next-fixes' of git://anongit.freedesktop.org/drm/drm-misc
-
---===============0594702927972333933==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-148341f0a2f5-76f598ba7d8e.txt
-
-e5c972c1fadacc858b6a564d056f177275238040 KVM: SVM: Flush Hyper-V TLB when required
-d583fbd7066a2dea43050521a95d9770f7d7593e KVM: irqfd: Make resampler_list an RCU list
-fef8f2b90edbd7089a4278021314f11f056b0cbb KVM: x86/ioapic: Resample the pending state of an IRQ when unmasking
-0dc902267cb32ade1c29eed8208e566ad743518a KVM: x86: Suppress pending MMIO write exits if emulator detects exception
-6c41468c7c12d74843bb414fc00307ea8a6318c3 KVM: x86: Clear "has_error_code", not "error_code", for RM exception injection
-80962ec912db56d323883154efc2297473e692cb KVM: nVMX: Do not report error code when synthesizing VM-Exit from Real Mode
-21f27df854008b86349a203bf97fef79bb11f53e KVM: s390: pv: fix external interruption loop not always detected
-85b475a4502d45380c1b9223c01954daa228eeb0 Merge tag 'kvm-s390-master-6.3-1' of https://git.kernel.org/pub/scm/linux/kernel/git/kvms390/linux into HEAD
-52882b9c7a761b2b4e44717d6fbd1ed94c601b7f KVM: PPC: Make KVM_CAP_IRQFD_RESAMPLE platform dependent
-804d8e0a6e54427268790472781e03bc243f4ee3 NFSD: Avoid calling OPDESC() with ops->opnum == OP_ILLEGAL
-15a8b55dbb1ba154d82627547c5761cac884d810 nfsd: call op_release, even when op_func returns an error
-5085e41f9e83a1bec51da1f20b54f2ec3a13a3fe sunrpc: only free unix grouplist after RCU settles
-8be8f170e8383fd1421e8b87950e90d7dd45be07 NFS: Remove "select RPCSEC_GSS_KRB5
-7de82c2f36fb26aa78440bbf0efcf360b691d98b NFSD: callback request does not use correct credential for AUTH_SYS
-fb5015bc8b733323b58f015b88e4f316010ec856 docs: kvm: x86: Fix broken field list
-ceeea1b78293834378b8d32a18288610de5600f3 Merge tag 'nfsd-6.3-5' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
-76f598ba7d8e2bfb4855b5298caedd5af0c374a8 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
-
---===============0594702927972333933==--
+--===============4004946661173758474==--
