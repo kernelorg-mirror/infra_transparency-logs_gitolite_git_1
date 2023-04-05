@@ -1,102 +1,43 @@
-Content-Type: multipart/mixed; boundary="===============5468498503450380433=="
+Content-Type: multipart/mixed; boundary="===============5990711674666119508=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Wed, 05 Apr 2023 17:10:45 -0000
-Message-Id: <168071464573.3294.1436517293754278430@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jpoimboe/linux
+Date: Wed, 05 Apr 2023 17:13:47 -0000
+Message-Id: <168071482731.4305.9528721084939419718@gitolite.kernel.org>
 
---===============5468498503450380433==
+--===============5990711674666119508==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/linux/kernel/git/jpoimboe/linux
+user: jpoimboe
 changes:
-  - ref: refs/heads/dev
-    old: 900093e6ea97d9ff5be2dee062f93a72437ca3a5
-    new: bbb3e10096f3609f3d1cb6134a90be111d9219d0
-    log: revlist-900093e6ea97-bbb3e10096f3.txt
-  - ref: refs/heads/dev.2023.04.04a
-    old: 0000000000000000000000000000000000000000
-    new: 900093e6ea97d9ff5be2dee062f93a72437ca3a5
+  - ref: refs/heads/objtool-test
+    old: 9314f30bad6d446a4d823f7a73b5bff6f64f10eb
+    new: 9e072bb1210798893ca78dca2974d926126dcbea
+    log: revlist-9314f30bad6d-9e072bb12107.txt
 
---===============5468498503450380433==
+--===============5990711674666119508==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-900093e6ea97-bbb3e10096f3.txt
+Content-Disposition: attachment; filename=revlist-9314f30bad6d-9e072bb12107.txt
 
-3636d8d114c648af2484f8049eb7ecb204c542c6 rcu: Further comment and explain the state space of GP sequences
-e15a19306004b3d7b6a5fe269e4e7cb7934aa3fe srcu: Add comments for srcu_size_state
-e5ad8b68f8d49211a5a2a20fdccac4180451f7f6 Documentation/RCU: s/not/note/ in checklist.rst
-754aa6427efeb8a059233e18e810263a108fdd71 srcu: Clarify comments on memory barrier "E"
-c4af9e00894575797395e6cdd98b3a227ee70e29 Documentation: RCU: Correct spelling
-81573694a48599f1edf928f390c6dcab5cbb6f49 doc: Update whatisRCU.rst
-09853fb89f6bc46727ccd325c0f6f266df51d155 rcu: Add comment to rcu_do_batch() identifying rcuoc code path
-e035e8876e6c2aa887c43edbd245c22f9f66de6d rcu: Remove CONFIG_SRCU
-54a32d29dd6dcbec7fd9db60a6526166efd5288f mm: Remove "select SRCU"
-79cf833be68bd96c48ead083527cc04b37ee0898 kvm: Remove "select SRCU"
-d276134ed4843d98f19acd10f8ad196eee0c1c0c arch/x86: Remove "select SRCU"
-0fb09f8bdd9de0297cd1b970fd0655b9bd3908ef MAINTAINERS: Change Joel Fernandes from R: to M:
-d4957c531a8ab44522c45daf43bb32a04220848d MAINTAINERS: Add Boqun to RCU entry
-424d7b3ea99d13d7787432df8a6d2327fc6fda3c MAINTAINERS: Add Zqiang as a RCU reviewer
-58d7668242647e661a20efe065519abd6454287e tick/nohz: Fix cpu_is_hotpluggable() by checking with nohz subsystem
-16d78e8cda8b4447812f375480c8cb780f396c1e rcu/trace: use strscpy() to instead of strncpy()
-e22abe180cd8ccf12eb68e7c40f99c33fb48a9ce rcu: Fix set/clear TICK_DEP_BIT_RCU_EXP bitmask race
-db7b464df9d820186e98a65aa6a10f0d51fbf8ce rcu: Fix missing TICK_DEP_MASK_RCU_EXP dependency check
-2450b78e0bb1e034eaa2a33dca689282bd8c892a rcu: Register rcu-lazy shrinker only for CONFIG_RCU_LAZY=y kernels
-46103fe01b02169150f16d8d6e028217c5a7abe5 rcu: Remove never-set needwake assignment from rcu_report_qs_rdp()
-7ea91307ad2dbdd15ed0b762a2d994f816039b9d rcu: Permit start_poll_synchronize_rcu_expedited() to be invoked early
-a4533cc0a59f0956e1b78e6013b75014b4857fce rcu-tasks: Report stalls during synchronize_srcu() in rcu_tasks_postscan()
-7a29fb4a4771124bc61de397dbfc1554dbbcc19c rcu: Avoid stack overflow due to __rcu_irq_enter_check_tick() being kprobe-ed
-3c1566bca3f8349f12b75d0a2d5e4a20ad6262ec rcu: Protect rcu_print_task_exp_stall() ->exp_tasks access
-a77b2109f71e0a963325869123b9b5f159b2ae5e drbd: Rename kvfree_rcu() to kvfree_rcu_mightsleep()
-09b2286af617bc6f9480404b565393628f86037d misc: vmw_vmci: Rename kvfree_rcu() to kvfree_rcu_mightsleep()
-cae16f2c2e11c60c888715f4d98c12740683d6a2 tracing: Rename kvfree_rcu() to kvfree_rcu_mightsleep()
-c779b97281d52faac253e9afb004537e50ada4e8 lib/test_vmalloc.c: Rename kvfree_rcu() to kvfree_rcu_mightsleep()
-aef3b8b8dd55a8bdfd7ef96cfde0aa71fd82ed10 net/sysctl: Rename kvfree_rcu() to kvfree_rcu_mightsleep()
-23532061ad3047c014eacab048e9cef2d6463742 net/mlx5: Rename kfree_rcu() to kfree_rcu_mightsleep()
-10e4f310a887fd908b6800088f64fe21d7cc75a6 ext4/super: Rename kfree_rcu() to kfree_rcu_mightsleep()
-936c7e19c695d624adac28ea390fd8d53c653542 rcuscale: Rename kfree_rcu() to kfree_rcu_mightsleep()
-eb56a4cbc3ea348dc07fbe82531c27cce83df3b9 mac802154: Rename kfree_rcu() to kvfree_rcu_mightsleep()
-1eacac3255495be7502d406e2ba5444fb5c3607c checkpatch: Error out if deprecated RCU API used
-8ae99857748bece993962dd8d04e096f9e76731f Merge branches 'rcu/staging-core', 'rcu/staging-docs' and 'rcu/staging-kfree', remote-tracking branches 'paul/srcu-cf.2023.04.04a', 'fbq/rcu/lockdep.2023.03.27a' and 'fbq/rcu/rcutorture.2023.03.20a' into rcu/staging
-acdc79917d651fc800dce6347ec0051cd36b8897 rcu/kvfree: Avoid freeing new kfree_rcu() memory after old grace period
-90279abf571b21c8729881b73513bac83ed52dfa Merge branches 'urgent-rcu.2023.04.05a' and 'joel-boqun.2023.04.05a' into HEAD
-c8dab25bec9f51db6f866cceefcf2ade3886e8fc locktorture: Add long_hold to adjust lock-hold delays
-35690c33a35585af7c562bbffe6ee5499c37c80d srcu: Remove extraneous parentheses from srcu_read_lock() etc.
-724b1736dc5000d3461fc0bb02c1ad844436ea7b rcu: Remove RCU_NONIDLE()
-6e2087f5b7e7b74660d2f39b9c03964ac9d24b8e rcu-tasks: Avoid pr_info() with spin lock in cblist_init_generic()
-c02744bffd01c7afa5a848c5d2e1019ba77b391f rcutorture: Correct name of use_softirq module parameter
-429f067825b7736c7bfea80f92c736491366a398 rcu: Check callback-invocation time limit for rcuc kthreads
-38bbd81f19488b80165ec81f531392d0fd683e9e doc: Get rcutree module parameters back into alpha order
-2d73caac49e72a172b4ad27263435eb461105070 doc: Document the rcutree.rcu_resched_ns module parameter
-60526bdd4859b5b94d97c3b2be293aa7fe153493 rcu/rcuscale: Move rcu_scale_*() after kfree_scale_cleanup()
-19f59b31f5c4656262f0b7334e8f23bf4914690c rcu/rcuscale: Stop kfree_scale_thread thread(s) after unloading rcuscale
-b17f94fe6e6d06cbbc19691659df5ff1ff639885 doc/rcutorture: Add description of rcutorture.stall_cpu_block
-05e304176d043bb528642237726d3264a55fb3c6 rcu-tasks: Clarify the cblist_init_generic() function's pr_info() output
-f27f18b73caf72e4c43d7ac5f310260e2055d53a torture: Remove duplicated argument -enable-kvm for ppc64
-45a882f932af877e25bf089a25d20ad148ea1a3f tools/nolibc: tests: use volatile to force stack smashing
-45648eb435a2135647cf740328b37ff0fd10f642 rcu/kvfree: Eliminate k[v]free_rcu() single argument macro
-ed80dd1fd8179f7c6597088760d5bc329273ec5e rcu: Employ jiffies-based backstop to callback time limit
-86af622981f974fd998387e389aaa915e598f33c tools/nolibc: tests: fix build on non-c99 compliant compilers
-dd141865836bceed91c34edc52343d4a4e846747 tools/nolibc: fix build of the test case using glibc
-889a09380bd699718e89eb4d7eec9da5c19b172e tools/nolibc: add libc-test binary
-85b1b6ff7ff050e02292e5eabb2c79a4dd7d0b97 tools/nolibc: add wrapper for memfd_create
-4eb9f25fa801e120a5b74bc9af63f8d0d1ff7d32 tools/nolibc: implement fd-based FILE streams
-a8c9c337336301c88e9a720d505de6a3a956952d tools/nolibc: add testcases for vfprintf
-f7f462e03415b33d05f9b6f9a772d47214c2c5ad rcu/kvfree: Add debug to check grace periods
-07030d20c8ec1a03e2b2bf626d12f1787db8b65e rcu/kvfree: Add debug check for GP complete for kfree_rcu_cpu list
-93a0a9e05a23688c3c67ec6fd68b8b3d3775c2b2 Revert "rcu/kvfree: Eliminate k[v]free_rcu() single argument macro"
-a3664801b04ca3f3804d47abc92b635bb5d5ee49 EXP locking: Comment out virt_spin_lock() check in queued_spin_lock_slowpath()
-29f81ee4a5dd5e79928f64c60ff89482c264673f objtool: Fix for unreachable instruction warning
-e35efcc782ac6338f92bac1e75c87f664b3004a9 qspinlock: Diagnostics for excessive lock-drop wait loop time
-c8fb9dbd8dbbb0170f052443a670b52b8e446255 qspinlock: Lockless diagnostics for excessive spin-drop wait loop time
-5df46ed3626d86d367b8a61af141a6d340d4281f x86/nmi: Add a set_nmi_torture() function to control NMI testing
-2778e91b5533672d73bf9ed5bbb5abc050d239bf rcutorture: Test NMI diagnostics
-bbb3e10096f3609f3d1cb6134a90be111d9219d0 EXP qspinlock: debugging
+6ebc3613f2afc5947496e6dd8c2d9e440ade86d5 btrfs: Mark btrfs_assertfail() __noreturn
+400504552af1a9cdfed78a4f5aa4c04d4eac3349 arm64/cpu: Mark panic_smp_self_stop() and friends __noreturn
+d5a26e83fe1db4d7159dea5be81eea10981a0daf cpu: Mark panic_smp_self_stop() __noreturn
+d6a9b12b9817bc65c89665a16bee8ba6815e859d cpu: Mark nmi_panic_self_stop() __noreturn
+ef3b58d35202303d7a7eb65ded3da1fe150e88b3 objtool: Include weak functions in 'global_noreturns' check
+f1b3440a820eed8b52588aa91cdce7ce7b45cbad scsi: message: fusion: Mark mpt_halt_firmware() __noreturn
+f0dbcb3435bc151d2f44d5255f192273c92a8aae x86/hyperv: Mark hv_ghcb_terminate() as noreturn
+6bd75fc4086813623f78062615a2f5fb64174465 objtool: Add verbose option for disassembling affected functions
+bfdfffcde1a591bdff9222783d886e58fa15b0a0 objtool: Include backtrace in verbose mode
+b0d422526ba997bc60013771c4bbd2dbb056cee6 objtool: Remove superfluous dead_end_function() check
+63ccbbaeee178de268d62a63f9407c083265b5d4 objtool: Detect missing __noreturn annotations
+0236ea6ec099b99f141a2f9f504cefef795bb5d0 x86/ibt: Move IBT selftest to asm
+9e072bb1210798893ca78dca2974d926126dcbea Merge branch 'objtool-debug' into objtool-test
 
---===============5468498503450380433==--
+--===============5990711674666119508==--
