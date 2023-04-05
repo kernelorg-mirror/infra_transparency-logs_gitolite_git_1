@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Wed, 05 Apr 2023 19:48:46 -0000
-Message-Id: <168072412624.12504.11581998175985778308@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/cpu/mce/mcelog
+Date: Wed, 05 Apr 2023 20:02:44 -0000
+Message-Id: <168072496425.21483.375978451537615382@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/utils/cpu/mce/mcelog
+user: aegl
 changes:
   - ref: refs/heads/master
-    old: 7c79eff867b7d41c3fea187e2f07b4a43f01a654
-    new: c7ffe0cf6b7bdf62db70bd7700d6ed40d9106ba9
+    old: 481e3c5b9f8509ecfce5dfd3e1fa757c9c0153ec
+    new: 8f33fdc47160edce09d75e1316b4d88129ca60a0
     log: |
-         c7ffe0cf6b7bdf62db70bd7700d6ed40d9106ba9 libmount: fix superblock rw/ro reconfiguration
+         8f33fdc47160edce09d75e1316b4d88129ca60a0 mcelog: New model number for Arrowlake
          
+  - ref: refs/tags/v194
+    old: 0000000000000000000000000000000000000000
+    new: 8f33fdc47160edce09d75e1316b4d88129ca60a0
