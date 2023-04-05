@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
-Date: Wed, 05 Apr 2023 14:52:53 -0000
-Message-Id: <168070637312.6849.11971480879704097995@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
+Date: Wed, 05 Apr 2023 14:54:53 -0000
+Message-Id: <168070649369.7560.8060486507383942527@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/conor/linux
-user: conor
+repo: pub/scm/linux/kernel/git/axboe/liburing
+user: axboe
 changes:
-  - ref: refs/heads/riscv-jh7110_clk_reset
-    old: f363a5f627b75d080e98109e09db8d5401d1f93f
-    new: 63a30e1f44d5e3afbb47efe8a15fd86feeb62b4b
+  - ref: refs/heads/master
+    old: c0940508607ff842d88344962eaa1bb5252d9ff3
+    new: 4fed79510a189cc7997f6d04855ebf7fb66cc323
     log: |
-         63a30e1f44d5e3afbb47efe8a15fd86feeb62b4b MAINTAINERS: generalise StarFive clk/reset entries
+         4fed79510a189cc7997f6d04855ebf7fb66cc323 Factor in IORING_FILE_INDEX_ALLOC for direct fd instantiations
          
