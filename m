@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ulfh/mmc
-Date: Wed, 05 Apr 2023 09:46:38 -0000
-Message-Id: <168068799851.28551.2257427210431565956@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Wed, 05 Apr 2023 10:01:28 -0000
+Message-Id: <168068888802.5400.4157831826910471526@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ulfh/mmc
-user: ulfh
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
-  - ref: refs/heads/next
-    old: f99eac75231c0be02696ba8510c8e43b17f68409
-    new: ec49843332dfffe85408b0a33acc818ff6c068b8
+  - ref: refs/heads/master
+    old: 6df1a6c45549eb8683f0152e0202e2c46ed656da
+    new: 6d9c74af8862487440f44491ad06fb3885abf8c8
     log: |
-         4b6d621c9d859ff89e68cebf6178652592676013 memstick: fix memory leak if card device is never registered
-         ec49843332dfffe85408b0a33acc818ff6c068b8 mmc: Merge branch fixes into next
+         6d9c74af8862487440f44491ad06fb3885abf8c8 findmnt: use warning rather than error from FS type mismatch
          
