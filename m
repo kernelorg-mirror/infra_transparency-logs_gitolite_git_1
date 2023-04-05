@@ -1,75 +1,46 @@
-Content-Type: multipart/mixed; boundary="===============8094158139265991731=="
+Content-Type: multipart/mixed; boundary="===============7043605545735655156=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Wed, 05 Apr 2023 14:39:48 -0000
-Message-Id: <168070558830.28410.8108965181729562774@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
+Date: Wed, 05 Apr 2023 14:45:28 -0000
+Message-Id: <168070592821.1192.14369324269465837095@gitolite.kernel.org>
 
---===============8094158139265991731==
+--===============7043605545735655156==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/staging
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/conor/linux
+user: conor
 changes:
-  - ref: refs/heads/staging-testing
-    old: e3e1e149176c7c9371b04d3b96c873cca31f520e
-    new: 41500f45356277f20dbca6e40b33f799f3d1e72a
-    log: revlist-e3e1e149176c-41500f453562.txt
+  - ref: refs/heads/riscv-jh7110_clk_reset
+    old: 203ff342aa2c8a590fc9ab55febe766fcaa139a2
+    new: f363a5f627b75d080e98109e09db8d5401d1f93f
+    log: revlist-203ff342aa2c-f363a5f627b7.txt
 
---===============8094158139265991731==
+--===============7043605545735655156==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-203ff342aa2c-f363a5f627b7.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1680705586 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1680705586-edd5211732ae7e0f4a59e5753f226ad09644213c
+7fce1e39f01900a294cd2c456c77f3e2512e0634 dt-bindings: clock: Add StarFive JH7110 system clock and reset generator
+3de0c91032580d4923624fe6ee773eddd1b574bc dt-bindings: clock: Add StarFive JH7110 always-on clock and reset generator
+c61f19ec3be35271fc005dac34390d9c5e1a2737 clk: starfive: Replace SOC_STARFIVE with ARCH_STARFIVE
+00f1cb17aeb71daf3d9ead5d11412c650329d6cf clk: starfive: Factor out common JH7100 and JH7110 code
+e19aa7861fccced5f72745fcd14b87d281c9bb99 clk: starfive: Rename clk-starfive-jh7100.h to clk-starfive-jh71x0.h
+147455edfe8a2a3748d411d588ad952124773efe clk: starfive: Rename "jh7100" to "jh71x0" for the common code
+c49a757a5a9e2eab2202ecd28aedc22a0aedfbe8 reset: starfive: Replace SOC_STARFIVE with ARCH_STARFIVE
+69bfec7548f4c1595bac0e3ddfc0458a5af31f4c reset: Create subdirectory for StarFive drivers
+1ec3d20e4e2fef33c618b2ef550cbf3b4728e4cd reset: starfive: Factor out common JH71X0 reset code
+ed36fcd160f3a703e0264539abdf0da2f3e0fc35 reset: starfive: Extract the common JH71X0 reset code
+0333103ee96069a7a53d8f599e70d86d4c18a53c reset: starfive: Rename "jh7100" to "jh71x0" for the common code
+b6d7406cd7a199fabf93008e9fc0aa0358695a79 reset: starfive: jh71x0: Use 32bit I/O on 32bit registers
+edab7204afe55bdf2d17d3490eb88497ba60f628 clk: starfive: Add StarFive JH7110 system clock driver
+b2ab3c94f41f888f9bec6ac6bf75935e2e2e253a clk: starfive: Add StarFive JH7110 always-on clock driver
+82327b127d4117e5b867cca945f97a5074aef786 reset: starfive: Add StarFive JH7110 reset driver
+f363a5f627b75d080e98109e09db8d5401d1f93f MAINTAINERS: generalise StarFive clk/reset entries
 
-e3e1e149176c7c9371b04d3b96c873cca31f520e 41500f45356277f20dbca6e40b33f799f3d1e72a refs/heads/staging-testing
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQtiDIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+66UQAJu2GFyHdhXQQeMxUhsA
-0H4sCjDj5kbBVKODa0/op0wVVeOpmIZpIxjE27feputnWg9F4xGw4xetRdI2HN/y
-QBNQfmjxstafFO9KMLdYAtFVWM70BkWLdt/dfnGJP41Pm2dZtUeqj3p03XKahs64
-7lLx8QN9f4xKT7ECTeBtZk3cwcBOB3xXauSMsXHUGXxcuz4La7Rq85IcOawev9/p
-uC1CXZYrdra1HaTvA76x25jJOVs0rzJb6Ca1Y92H5Zm44qtE2rIk55D++Yv+q61t
-uU1SUzI4kyCCygXt/E8fcryEZbam6UOXpb/259FcWO4F2ZKLKQwYpU+ZvSRT8Yfb
-zM6f0z2q+4T9OHeh8UiQWpCGLd4XJaOhYQssQU+s4ELjT1wmvevyOzwDt3Qwj0c8
-sPyxU2oQBbbpNjPXomGhtEbdQkWQqT6x855rYCzqrQLWibN4SPIE64HG5evBJImk
-bniaV76tKXUE61hIWRniOozAh/0waRPXuCN/dI+Lr1oCCuvOtdfJrEmO61sNeFXb
-OG883Xm/CRnU6K+3/qMAaI9xf6q9b2i79wQGPPtfQdkXTtYiJlizxlwLTMrfjJol
-rNtMbqyRTcDXzqs6HhRB3t1rgryjZZbwvQ4MWB6Md1ITRrPWMs3+tTx7Yh5wjrSn
-EnzqUhhl3H0KBjGZWrLigXLO
-=yqMx
------END PGP SIGNATURE-----
-
---===============8094158139265991731==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e3e1e149176c-41500f453562.txt
-
-80472350d9d1b8c4094b48a2dc8fdea172dab85b staging: vme: clean up duplicate definitions of dependencies
-7c2455436242b1187e86e954aae4b04cfc81b14c staging: rtl8723bs: indent with tab, align with space
-d8571801a61c01841ac1813e0fb97048c2505a6a staging: rtl8192e: Remove RF_Type from .._dm_tx_update_tssi_weak_signal
-b7119698bcca83d6d755b866bcf7328314d9cde0 staging: rtl8192e: Remove enum RF_1T2R and RF_Type
-0be699ab84b1e796173bbc8a055f8a1b30da85a9 staging: rtl8192e: Remove local variable Value and powerlevelOFDM24G
-8e45222d792cf50ff17632892d4ab932a61e62f0 staging: rtl8192e: Remove case customer_id = RT_CID_DLINK
-795916c1c8be85fc49bf50823343b075517fe573 staging: rtl8192e: Remove case customer_id = RT_CID_819x_CAMEO, ..
-3642e50acc63b92123b95bf8a63da204e44c4efb staging: rtl8192e: Remove case customer_id = RT_CID_DEFAULT, ..
-f395d3f9d2d08a8b312eab72b9094f4f9cb72636 staging: rtl8192e: remove extra blank lines in rtllib_crypt_ccmp.c
-7cf3f17b58e20c8a3b9266b8aa205cafb2e10d3c staging: rtl8192e: fix alignment to match open parenthesis
-73749c7fb4ab99eb9930ed400ce56eb18a077983 staging: rtl8192e: avoid CamelCase <dot11RSNAStatsCCMPFormatErrors>
-f60fc1311bcc7601750ec38bb215d6202c1c9461 staging: rtl8192e: avoid CamelCase <dot11RSNAStatsCCMPReplays>
-85f76d9301ff439ef2c11ce0f854468285133f0e staging: rtl8192e: avoid CamelCase <dot11RSNAStatsCCMPDecryptErrors>
-41500f45356277f20dbca6e40b33f799f3d1e72a staging: rtl8192e: Add blank lines after declarations
-
---===============8094158139265991731==--
+--===============7043605545735655156==--
