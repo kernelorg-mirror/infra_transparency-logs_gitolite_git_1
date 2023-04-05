@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6702080021126947902=="
+Content-Type: multipart/mixed; boundary="===============2325999411627280756=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mbroz/linux
-Date: Wed, 05 Apr 2023 11:23:50 -0000
-Message-Id: <168069383070.27305.17536021626032605415@gitolite.kernel.org>
+Date: Wed, 05 Apr 2023 11:27:26 -0000
+Message-Id: <168069404668.29993.12567320282897131403@gitolite.kernel.org>
 
---===============6702080021126947902==
+--===============2325999411627280756==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mbroz/linux
 user: mbroz
 changes:
-  - ref: refs/heads/master
-    old: fff5a5e7f528b2ed2c335991399a766c2cf01103
-    new: 76f598ba7d8e2bfb4855b5298caedd5af0c374a8
-    log: revlist-fff5a5e7f528-76f598ba7d8e.txt
+  - ref: refs/heads/dm-cryptsetup
+    old: b1c42339a4b090c87601134ab11907fb9ee217b3
+    new: 277b045dea11dd4e3b3cbc293e95af9fa318f3e2
+    log: revlist-b1c42339a4b0-277b045dea11.txt
 
---===============6702080021126947902==
+--===============2325999411627280756==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fff5a5e7f528-76f598ba7d8e.txt
+Content-Disposition: attachment; filename=revlist-b1c42339a4b0-277b045dea11.txt
 
 6715df8d5d24655b9fd368e904028112b54c7de1 bpf: Allow reads from uninit stack
 6338a94d5ab42a94e96ea36edc5f7df1fe73e68e selftests/bpf: Tests for uninitialized stack reads
@@ -661,5 +661,12 @@ f95b8ea79c47c0ad3d18f45ad538f9970e414d1f Revert "venus: firmware: Correct non-pi
 fb5015bc8b733323b58f015b88e4f316010ec856 docs: kvm: x86: Fix broken field list
 ceeea1b78293834378b8d32a18288610de5600f3 Merge tag 'nfsd-6.3-5' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
 76f598ba7d8e2bfb4855b5298caedd5af0c374a8 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
+707f2688dd5e8b2aba10b4a8a14cd20ab5d06027 dm zero: add discard support
+8a8e0c0b06a1daf7fd3ba611ff46f7e0b9ce93cd dm error: add discard support
+cbb25bb2e749d801b89ded53412c53ed0519c27f sed-opal: do not add same authority twice in boolean ace.
+04624d00f6b28dc0a1a9698c4c8258e245755459 sed-opal: add helper for adding user authorities in ACE.
+3e6162e3e1ac6c5a2d9d84ba719b42f6cd41dec3 sed-opal: allow user authority to get locking range attributes.
+5aeabcfb6efeef2fdb9ce93e0dca77a260213f7a sed-opal: add helper to get multiple columns at once.
+277b045dea11dd4e3b3cbc293e95af9fa318f3e2 sed-opal: Add command to read locking range parameters.
 
---===============6702080021126947902==--
+--===============2325999411627280756==--
