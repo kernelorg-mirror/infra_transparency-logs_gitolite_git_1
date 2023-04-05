@@ -1,46 +1,19 @@
-Content-Type: multipart/mixed; boundary="===============4496083130405215500=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/peebz/peebz
-Date: Wed, 05 Apr 2023 19:42:48 -0000
-Message-Id: <168072376889.7359.8921503675756094541@gitolite.kernel.org>
-
---===============4496083130405215500==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Wed, 05 Apr 2023 19:43:19 -0000
+Message-Id: <168072379952.7596.6842666145374761396@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/peebz/peebz
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: martin.lau
 changes:
   - ref: refs/heads/master
-    old: e5fa089379d750298886d5576de8dd93cd1cbbe3
-    new: a93d30d7b9ba5f4aaf46408ab05a25d158a15725
+    old: 756aaf2a9a321bf54e9aac75cd9d3a590b1cf392
+    new: f2b50f17268390567bc0e95642170d88f336c8f4
     log: |
-         a93d30d7b9ba5f4aaf46408ab05a25d158a15725 TODO: add plan to add patches as attachments
+         f2b50f17268390567bc0e95642170d88f336c8f4 selftests: xsk: Disable IPv6 on VETH1
          
-
---===============4496083130405215500==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher B6C41CE35664996C! 1680723768 -0400
-pushee gitolite.kernel.org:pub/scm/utils/peebz/peebz
-nonce 1680723768-b303aaf3ba3b09020219414eedc09cf1a31d9fbd
-
-e5fa089379d750298886d5576de8dd93cd1cbbe3 a93d30d7b9ba5f4aaf46408ab05a25d158a15725 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCZC3POAAKCRC2xBzjVmSZ
-bBatAP4xpfv7U6tC4786Y2mYBXNS7GUfGKkbfP+8Y9SDIOx5lwD/Si9a9N2BWBNp
-VMNGfFM+lb0GDWh1g6qKZj7HJi2iwA8=
-=hGuC
------END PGP SIGNATURE-----
-
---===============4496083130405215500==--
