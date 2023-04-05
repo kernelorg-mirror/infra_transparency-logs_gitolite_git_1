@@ -1,26 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============5390765874972983288=="
+Content-Type: multipart/mixed; boundary="===============6984823245575338228=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Wed, 05 Apr 2023 13:42:49 -0000
-Message-Id: <168070216964.22965.17253021920741066818@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Wed, 05 Apr 2023 13:42:55 -0000
+Message-Id: <168070217572.23095.3312481273976228684@gitolite.kernel.org>
 
---===============5390765874972983288==
+--===============6984823245575338228==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.3
+  - ref: refs/heads/spi-6.3
     old: eeac8ede17557680855031c6f305ece2378af326
     new: e8d018dd0257f744ca50a729e3d042cf2ec9da65
     log: revlist-eeac8ede1755-e8d018dd0257.txt
-  - ref: refs/heads/for-6.4
+  - ref: refs/heads/spi-6.4
     old: 43bac5158bcc5fe392a17457fda1f8e33a13e458
     new: 28e0377c3af08848982af3f072622fca3a7b937f
     log: |
@@ -35,32 +35,32 @@ changes:
          28e0377c3af08848982af3f072622fca3a7b937f spi: mchp-pci1xxxx: Fix minor bugs in spi-pci1xxxx
          
 
---===============5390765874972983288==
+--===============6984823245575338228==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1680702167 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1680702167-fcea8180fe4687c5b41fe17b333c405b0b8b9c45
+pusher C3F436CA30F5D8EB 1680702174 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1680702173-b0d0f51a6cd3d30d9b9ee69f1b3ed3ffe1527c2c
 
-eeac8ede17557680855031c6f305ece2378af326 e8d018dd0257f744ca50a729e3d042cf2ec9da65 refs/heads/for-6.3
-43bac5158bcc5fe392a17457fda1f8e33a13e458 28e0377c3af08848982af3f072622fca3a7b937f refs/heads/for-6.4
+eeac8ede17557680855031c6f305ece2378af326 e8d018dd0257f744ca50a729e3d042cf2ec9da65 refs/heads/spi-6.3
+43bac5158bcc5fe392a17457fda1f8e33a13e458 28e0377c3af08848982af3f072622fca3a7b937f refs/heads/spi-6.4
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmQtetgACgkQJNaLcl1U
-h9BMUAf/U2A2GcVyw2wJTx9t4lvMvR1BKBKWBzOutwCPxoLEQWESgz7rSyZyPLcS
-GH2mShbymnHXB/y8Ry32G5TvgLDmKaW4icMZXAdH4gf7vxikj2ORr/Q+lqAmycq5
-7izg10LyXg5OisJZ4JbV7pp2PMHRqjWRXCVhndLSgFVfkiLveM+WED387yr2H9aV
-8SjFJ59hegdomVZhqNQRLihkulJsmX2Q3/ry9AtE7QrUD8+C0QZ29mkOLfUnXXCH
-OchjHF1gvkqocLKNt/d3kNAv6sJMiRNDZbhl1dU1YBtTEBjO/PRkdQ6oAWIc0/WT
-b0bVVr/oB8kqUlruSlL3fQVjbUKj1g==
-=6yUY
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmQtet4ACgkQJNaLcl1U
+h9DUhgf/b++ep4Q4tajtF9l+b3sfQXO1FaA3E6tYjxh8bqa7a37asHc3uF/4+auR
+8uUEgaFiQIV5+Y/0oN+whPnU7FMO4m5MGPc4xZjh0Qw8t3+sGwI9NdD1SaSzcAOH
+5TNfUw9KW1uG2Iy/vdznOnlbY3mqoebP7Ii1TL/SPLS9oaBjCpHDz4034FaCQM7v
+7VrmUWWF4jQBQh/hK+eLt/YL1kysZIPx7AXeZFm36hufuDFVd/ZT1SR4ESJltaHq
+MjiKP+zxNuTJlBRkcEAtkxNCnNVviN79DgvlPmH1WihCGUvlP4YANdJAsFZ4zEAr
+wKzzqOOmdHXqLYZdRNgYFUa34v+N0Q==
+=MBID
 -----END PGP SIGNATURE-----
 
---===============5390765874972983288==
+--===============6984823245575338228==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -539,4 +539,4 @@ a98151ad53b53f010ee364ec2fd06445b328578b ring-buffer: remove obsolete comment fo
 eaba52d63bfcf0047ce3a1bb011b35d4f066df8e Merge tag 'trace-v6.3-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 e8d018dd0257f744ca50a729e3d042cf2ec9da65 Linux 6.3-rc3
 
---===============5390765874972983288==--
+--===============6984823245575338228==--
