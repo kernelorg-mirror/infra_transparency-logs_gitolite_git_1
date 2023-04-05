@@ -1,20 +1,46 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/bluetooth/bluez
-Date: Wed, 05 Apr 2023 19:41:05 -0000
-Message-Id: <168072366549.6696.8101949425335366861@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============4496083130405215500=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/utils/peebz/peebz
+Date: Wed, 05 Apr 2023 19:42:48 -0000
+Message-Id: <168072376889.7359.8921503675756094541@gitolite.kernel.org>
+
+--===============4496083130405215500==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/bluetooth/bluez
-user: vudentz
+repo: pub/scm/utils/peebz/peebz
+user: mricon
+git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: cffd5832a52cab71679e0bc6ee02a8f7816f1950
-    new: 61971f026466391ca8fa563559e2fe6bd5129581
+    old: e5fa089379d750298886d5576de8dd93cd1cbbe3
+    new: a93d30d7b9ba5f4aaf46408ab05a25d158a15725
     log: |
-         7aee0b67ba9fadb0713a14a3f4121cdeffa75f6c set: Fix not attempt to connect devices with RSI
-         61971f026466391ca8fa563559e2fe6bd5129581 monitor/att: Add decoding support for BASS
+         a93d30d7b9ba5f4aaf46408ab05a25d158a15725 TODO: add plan to add patches as attachments
          
+
+--===============4496083130405215500==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher B6C41CE35664996C! 1680723768 -0400
+pushee gitolite.kernel.org:pub/scm/utils/peebz/peebz
+nonce 1680723768-b303aaf3ba3b09020219414eedc09cf1a31d9fbd
+
+e5fa089379d750298886d5576de8dd93cd1cbbe3 a93d30d7b9ba5f4aaf46408ab05a25d158a15725 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCZC3POAAKCRC2xBzjVmSZ
+bBatAP4xpfv7U6tC4786Y2mYBXNS7GUfGKkbfP+8Y9SDIOx5lwD/Si9a9N2BWBNp
+VMNGfFM+lb0GDWh1g6qKZj7HJi2iwA8=
+=hGuC
+-----END PGP SIGNATURE-----
+
+--===============4496083130405215500==--
