@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Wed, 05 Apr 2023 20:39:07 -0000
-Message-Id: <168072714731.12931.7567292406173461801@gitolite.kernel.org>
+Date: Wed, 05 Apr 2023 20:43:57 -0000
+Message-Id: <168072743720.15995.5628788871254816151@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,10 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/robh/linux
 user: robh
 changes:
-  - ref: refs/heads/for-next
-    old: d2605f6e1fb23beb6aaa0ba01401992eb313f98a
-    new: e62fc18213632ee11e35ea1e954a9156cd67a792
+  - ref: refs/heads/dt/linus
+    old: 707344c8a188bb1d6704d3546229fc7a07c01a63
+    new: bc1ca7b77b7b462641a4aadf0b008b2127ae6089
     log: |
-         e62fc18213632ee11e35ea1e954a9156cd67a792 dt-bindings: Add missing (unevaluated|additional)Properties on child node schemas
+         5f90a083b1fcf7f2d0e98498f93d2ee85f89b4e4 dt-bindings: interrupt-controller: loongarch: Fix mismatched compatible
+         bc1ca7b77b7b462641a4aadf0b008b2127ae6089 treewide: Fix probing of devices in DT overlays
          
