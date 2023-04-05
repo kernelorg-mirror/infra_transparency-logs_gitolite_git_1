@@ -1,50 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============2127146445335411585=="
+Content-Type: multipart/mixed; boundary="===============1319286595044085166=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/clk/linux
-Date: Wed, 05 Apr 2023 17:31:10 -0000
-Message-Id: <168071587012.17382.8536278434475457225@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
+Date: Wed, 05 Apr 2023 17:31:22 -0000
+Message-Id: <168071588283.17481.6624041789218728665@gitolite.kernel.org>
 
---===============2127146445335411585==
+--===============1319286595044085166==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/clk/linux
-user: sboyd
+repo: pub/scm/linux/kernel/git/gregkh/tty
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/clk-next
-    old: 1bd575707d704530a52d5dd320c29d79e9cff42d
-    new: 3a8b60ff5b73dab2c23cdb03e43915f3e355fa51
-    log: revlist-1bd575707d70-3a8b60ff5b73.txt
+  - ref: refs/heads/tty-testing
+    old: d30a28a764a8221874ab53b7cbe79f842c30b671
+    new: 86c276b91c4a4faea90e8399b1aba580e9df1cb5
+    log: |
+         86c276b91c4a4faea90e8399b1aba580e9df1cb5 dt-bindings: serial: fsl-lpuart: add optional power-domains property
+         
 
---===============2127146445335411585==
+--===============1319286595044085166==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1bd575707d70-3a8b60ff5b73.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-521568cff7065069bfb02b3a9945bac637d2e324 dt-bindings: clock: exynos850: Add Exynos850 CMU_G3D
-284f6dcb50ae7f25167617c89aa2d3f93323ee67 dt-bindings: clock: exynos850: Add AUD and HSI main gate clocks
-45dab81899800e0e2874f6c9e58b8b0343f33edf clk: samsung: Remove np argument from samsung_clk_init()
-65bf1fbe784cafaa10906b1ba1402920c61f4a7e clk: samsung: Don't pass reg_base to samsung_clk_register_pll()
-a4c78367f62ae36aa3529029346788cc7f5e3073 clk: samsung: Set dev in samsung_clk_init()
-ac409adafb5eb195a3c7f02a58509bf172d6c595 Merge branch 'for-v6.4/clk-exynos850-dt-binding' into next/clk
-f2819ea168ef6a66c6b91fc30ce659a030268add clk: samsung: clk-pll: Implement pll0818x PLL type
-e145c7650728cad74f18328478777849a5e5e1de clk: samsung: exynos850: Implement CMU_G3D domain
-9a8ab39f7f8d32cf36dcd80cdaaec4998e834cf5 clk: samsung: exynos850: Add AUD and HSI main gate clocks
-bed76f697a9adda26c40ce4a064f371d54e71331 clk: samsung: Extract clocks registration to common function
-454e8d296ce4267ca1728bf4f6fe6d41eabe080e clk: samsung: Extract parent clock enabling to common function
-f05dc20243163d0218bbb258b6461681865cff5c clk: samsung: exynos5433: Extract PM support to common ARM64 layer
-e853fb1803f60da69db82d41d92e30539a859227 clk: samsung: Convert to platform remove callback returning void
-babb3e6a8a8e5a61a65d4463610108808139b23e clk: samsung: exynos850: Make PMU_ALIVE_PCLK critical
-ef382228d25a93aa9dcb8be6e82322c272831cda Merge tag 'samsung-clk-6.4' of https://git.kernel.org/pub/scm/linux/kernel/git/krzk/linux into clk-samsung
-053671cfb8d65346119c2b72812165bc107ee6eb Merge branch 'clk-samsung' into clk-next
-643980fb08d00d7e750af03fe0101c9910ab4c1f clk: stm32h7: Remove an unused field in struct stm32_fractional_divider
-519abee90edf6a3e47a441b0e2d2d8a67863f4be Merge branch 'clk-cleanup' into clk-next
-e0e3aca997f7f2b9b5b5e27f878e9bf5b573720a clk: mediatek: Use right match table, include mod_devicetable
-3a8b60ff5b73dab2c23cdb03e43915f3e355fa51 Merge branch 'clk-mediatek' into clk-next
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1680715881 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
+nonce 1680715881-3f387c9bd420c8e544c61202bd8b8d490cf17fec
 
---===============2127146445335411585==--
+d30a28a764a8221874ab53b7cbe79f842c30b671 86c276b91c4a4faea90e8399b1aba580e9df1cb5 refs/heads/tty-testing
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQtsGkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+MjoQAJVL2UUfkpuj+Zpfx4KD
+ITcxiKHTAYptBpMCyOhIm1RjDs8BNq/RuaMg7dK5CB5diHrGrrszSaCwJIaCm41a
+jbUafchRyszztU8kW1rtrCXQRS/qGgGYGEA+xYlPPZYLRDoP8FK5e/0KP162ULAQ
+afKu0mc+UVrFqYfrHRDz7HNEXPPg6gIiw8Cb5dfhF5YgZLIzG7k3GGxkpJDVSyRg
+coSXvd19Pe8njqnQuUsZpgkv+cmfNrX/gc+QAXHs9JWCNnLoETk3Tk6LlmG0723U
+lgiFm/U4VHIq4eAK569Ei+f9COBTB0bwSAwu6ilxuwS2QJfP873AEpxg0z+enawN
+SQWzBUXQmWfQr3IR8O3fIPPak+2zmoPONEtjVP8ONOIYXpJKkxRwFC25qTA9vtBY
+kElYJFZMfiKAjBEmeHjeXJFl4nz/xZytMvwkASt9meVd9tOO2HkXPNa/hZQZG4CQ
+Jq0xoNj3g05uhMGT/0hJoS6tSwFH6rUh1Ww/Tj8+RuPm/tn/HTA8R2wPlTg1z1Gx
+x1LUe3k8w6WppoHvQIir9ARkBQqHN2HyAHAPK6W0+jdXfuO8cSMTJX6toK5kcB8m
+KDYXlvem/teTeFurzhnn8gIdqEVVj0Q8H8J3RR7FU86OI8T6jL3l2JnSANRzy0M0
+OFf/wJIDuYQ9Me2WDAyTYDVk
+=VZOE
+-----END PGP SIGNATURE-----
+
+--===============1319286595044085166==--
