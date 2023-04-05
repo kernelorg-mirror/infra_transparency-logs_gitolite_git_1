@@ -1,59 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============3566309353281020394=="
+Content-Type: multipart/mixed; boundary="===============2127146445335411585=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Wed, 05 Apr 2023 17:24:28 -0000
-Message-Id: <168071546884.12211.6115601603780381280@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/clk/linux
+Date: Wed, 05 Apr 2023 17:31:10 -0000
+Message-Id: <168071587012.17382.8536278434475457225@gitolite.kernel.org>
 
---===============3566309353281020394==
+--===============2127146445335411585==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/clk/linux
+user: sboyd
 changes:
-  - ref: refs/heads/usb-linus
-    old: 5d1a70f77dcf7b93f955d40691ac729fc7b3d151
-    new: e07fec475cc86ce6ded82908df1d511edc3303b7
-    log: |
-         ec799c8a92e0be91e0940cc739a27f483242df65 usb: dwc3: pci: add support for the Intel Meteor Lake-S
-         eddebe39602efe631b83ff8d03f26eba12cfd760 usb: typec: altmodes/displayport: Fix configure initial pin assignment
-         d356b3cdd00cae4508be566a47c0cfb74e14862a usb: gadget: f_fs: Fix ffs_epfile_read_iter to handle ITER_UBUF
-         e07fec475cc86ce6ded82908df1d511edc3303b7 usb: gadgetfs: Fix ep_read_iter to handle ITER_UBUF
-         
+  - ref: refs/heads/clk-next
+    old: 1bd575707d704530a52d5dd320c29d79e9cff42d
+    new: 3a8b60ff5b73dab2c23cdb03e43915f3e355fa51
+    log: revlist-1bd575707d70-3a8b60ff5b73.txt
 
---===============3566309353281020394==
+--===============2127146445335411585==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-1bd575707d70-3a8b60ff5b73.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1680715467 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1680715467-ae9409f52ba2bdcdeeeaaf00db2c2e70415a1634
+521568cff7065069bfb02b3a9945bac637d2e324 dt-bindings: clock: exynos850: Add Exynos850 CMU_G3D
+284f6dcb50ae7f25167617c89aa2d3f93323ee67 dt-bindings: clock: exynos850: Add AUD and HSI main gate clocks
+45dab81899800e0e2874f6c9e58b8b0343f33edf clk: samsung: Remove np argument from samsung_clk_init()
+65bf1fbe784cafaa10906b1ba1402920c61f4a7e clk: samsung: Don't pass reg_base to samsung_clk_register_pll()
+a4c78367f62ae36aa3529029346788cc7f5e3073 clk: samsung: Set dev in samsung_clk_init()
+ac409adafb5eb195a3c7f02a58509bf172d6c595 Merge branch 'for-v6.4/clk-exynos850-dt-binding' into next/clk
+f2819ea168ef6a66c6b91fc30ce659a030268add clk: samsung: clk-pll: Implement pll0818x PLL type
+e145c7650728cad74f18328478777849a5e5e1de clk: samsung: exynos850: Implement CMU_G3D domain
+9a8ab39f7f8d32cf36dcd80cdaaec4998e834cf5 clk: samsung: exynos850: Add AUD and HSI main gate clocks
+bed76f697a9adda26c40ce4a064f371d54e71331 clk: samsung: Extract clocks registration to common function
+454e8d296ce4267ca1728bf4f6fe6d41eabe080e clk: samsung: Extract parent clock enabling to common function
+f05dc20243163d0218bbb258b6461681865cff5c clk: samsung: exynos5433: Extract PM support to common ARM64 layer
+e853fb1803f60da69db82d41d92e30539a859227 clk: samsung: Convert to platform remove callback returning void
+babb3e6a8a8e5a61a65d4463610108808139b23e clk: samsung: exynos850: Make PMU_ALIVE_PCLK critical
+ef382228d25a93aa9dcb8be6e82322c272831cda Merge tag 'samsung-clk-6.4' of https://git.kernel.org/pub/scm/linux/kernel/git/krzk/linux into clk-samsung
+053671cfb8d65346119c2b72812165bc107ee6eb Merge branch 'clk-samsung' into clk-next
+643980fb08d00d7e750af03fe0101c9910ab4c1f clk: stm32h7: Remove an unused field in struct stm32_fractional_divider
+519abee90edf6a3e47a441b0e2d2d8a67863f4be Merge branch 'clk-cleanup' into clk-next
+e0e3aca997f7f2b9b5b5e27f878e9bf5b573720a clk: mediatek: Use right match table, include mod_devicetable
+3a8b60ff5b73dab2c23cdb03e43915f3e355fa51 Merge branch 'clk-mediatek' into clk-next
 
-5d1a70f77dcf7b93f955d40691ac729fc7b3d151 e07fec475cc86ce6ded82908df1d511edc3303b7 refs/heads/usb-linus
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQtrssbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+jLIQALGEi+itfRaDzO5gRYng
-7gwmydLQKxMe/OAvMVRRC1R5ReerGy7z7fFR2CIKKr6F6DJS/H8Zt8fh/03skyx8
-7sNgDt3HaJw3rhYFiPzGH/uLwdUXjf5JTQolWTSeAmX6wMothe6L2hO8cwdmHIgx
-YBZI09qLnC8Ua38mibviK3L7UkOm2JaxOxIRwx3KjcDggtrzkuJVoBPdJAihAVrX
-LKB4aOSZpI7uyIVRBQj/nXM7dxmbyA+H8lkC84q62Z0BP2Sdc3zy0HiPDQ9BJ35p
-27L4YKq60sRx43eUftlAgXI8XibAwPePtptZUtrpIFN7AUStwIrP3mKO6pE0lXEJ
-1V5ONDJ7RNqh+QWCb4/Ouujdk6dYDZgXiVfjpnrFeNeEfi0ZR6RGUyBUn84rn8Ms
-Mghx9PC+GobzXG7pQj1N6pseBmNiT+fSwSU3Dy9SKccEvFCa7InEAEC7NN+j0RhB
-3Xc8gwbEEDOZ4A3kEobeEq6jGdV+DOnBOuBeEz16satDZQ2MtyG8M69LSntaoMHI
-HoI5GH7E9fElGW/9r1/bpM5WDqeqja5QRW/HUMu50+yuZ2q/HAYEEHucMzCovijA
-VQt2HeYYGwbKn4U+sS4ZWgLOkeU/F+d/EFu+tgPvoV6/uZhEwbkC5ynk3jwjMJXD
-ho2znaJkSy0kFBqdIs62YF2R
-=jHW4
------END PGP SIGNATURE-----
-
---===============3566309353281020394==--
+--===============2127146445335411585==--
