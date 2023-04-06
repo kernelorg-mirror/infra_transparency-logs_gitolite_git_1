@@ -1,141 +1,235 @@
-Content-Type: multipart/mixed; boundary="===============6427478302472027609=="
+Content-Type: multipart/mixed; boundary="===============1165561750363794835=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rt/linux-rt-devel
-Date: Thu, 06 Apr 2023 21:21:06 -0000
-Message-Id: <168081606628.21369.17966157792717670471@gitolite.kernel.org>
+Subject: post-receive: pub/scm/git/git
+Date: Thu, 06 Apr 2023 21:21:56 -0000
+Message-Id: <168081611680.21738.11209673710126154099@gitolite.kernel.org>
 
---===============6427478302472027609==
+--===============1165561750363794835==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rt/linux-rt-devel
-user: bigeasy
-git_push_cert_status: Y
+repo: pub/scm/git/git
+user: junio
 changes:
-  - ref: refs/heads/for-kbuild-bot/current-stable
-    old: 89f00e418f76d681167fa4413ed135f045bf6430
-    new: e3f76aedbe64323695266e1f61b83507422f4c46
-    log: revlist-89f00e418f76-e3f76aedbe64.txt
-  - ref: refs/heads/for-kbuild-bot/prepare-release
-    old: 89f00e418f76d681167fa4413ed135f045bf6430
-    new: e3f76aedbe64323695266e1f61b83507422f4c46
-    log: revlist-89f00e418f76-e3f76aedbe64.txt
-  - ref: refs/heads/linux-6.3.y-rt-rebase
-    old: 89f00e418f76d681167fa4413ed135f045bf6430
-    new: e3f76aedbe64323695266e1f61b83507422f4c46
-    log: revlist-89f00e418f76-e3f76aedbe64.txt
+  - ref: refs/heads/main
+    old: ae73b2c8f1da39c39335ee76a0f95857712c22a7
+    new: 0607f793cbe0af16aee6d2480056d891835884bd
+    log: revlist-ae73b2c8f1da-0607f793cbe0.txt
+  - ref: refs/heads/master
+    old: ae73b2c8f1da39c39335ee76a0f95857712c22a7
+    new: 0607f793cbe0af16aee6d2480056d891835884bd
+    log: revlist-ae73b2c8f1da-0607f793cbe0.txt
+  - ref: refs/heads/next
+    old: 2691fad020e94d65ba9d7433a75d4ed15b04f4dd
+    new: 4ca3ef321147b456561d0c3a4c90cbb38891a488
+    log: revlist-2691fad020e9-4ca3ef321147.txt
+  - ref: refs/heads/seen
+    old: efcbf974b8414a0e4d8e61338cf78bf1bdcbf191
+    new: a8b69c729996666154afa469cb2c85db894d0ba2
+    log: revlist-efcbf974b841-a8b69c729996.txt
 
---===============6427478302472027609==
+--===============1165561750363794835==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-ae73b2c8f1da-0607f793cbe0.txt
 
-certificate version 0.1
-pusher Sebastian Andrzej Siewior <bigeasy@linutronix.de> 1680816040 +0200
-pushee ssh://ko-g/pub/scm/linux/kernel/git/rt/linux-rt-devel.git
-nonce 1680816039-f696b68f0028198a3cd234f692daf7ff4cb502af
+910d07a861d3dd1cae7ee1ae85f60184c32087e8 mailmap: drop debugging code
+647edf79d6b61391392ed42435b3214c02f539f1 http: drop unused parameter from start_object_request()
+1e5e0974964170a917d6950dda74e82745ab65aa http: mark unused parameter in fill_active_slot() callbacks
+b3edf335dfa978b43d10de7e722a7e355a3d0e4c transport: mark unused parameters in fetch_refs_from_bundle()
+ce9636d645714974e5f7e1e9abc65fa57186b147 fetch: move reference width calculation into `display_state`
+5cab51ff7156edca8cb9eba30205efa11900e49c fetch: move output format into `display_state`
+7c978db889f2a0eddf0799268f57b9457ef9ab3d fetch: pass the full local reference name to `format_display`
+331b7d29f05b62fc73f1218e0e6db6969481a3cd fetch: centralize handling of per-reference format
+c4ef5edbc952302097d6a55ac490bad7726bf840 fetch: centralize logic to print remote URL
+d6606e02aaff963f51fe9cbda048613ff0cd5870 fetch: centralize printing of reference updates
+b73dec55309d9b4f7e0db95dba729af0fcafb67f for-each-ref: add --stdin option
+b2c51b75902acfbb8ab8ac9aadc919bf5a447c1b for-each-ref: explicitly test no matches
+368d19b0b7fa780d84918cf4ed4a31a410ed865d commit-graph: refactor compute_topological_levels()
+80c928d947c257ef4d9f13c358117d0c1914f71f commit-graph: simplify compute_generation_numbers()
+2ee11f7261cc7ac386ec683f774472b0309dcc82 commit-graph: return generation from memory
+c08645b353514fe14dbd62cf52afd49d0e88146b commit-graph: introduce `ensure_generations_valid()`
+fd67d149bde24c44bc342d43ce621f36cf495929 commit-reach: implement ahead_behind() logic
+49abcd21da65f12b4ae873433e5f6220bfaae1da for-each-ref: add ahead-behind format atom
+cbfe360b140fe92d9c4a763bf630c3b8ba431522 commit-reach: add tips_reachable_from_bases()
+a6dc3d364cdf89075582cd521f33d599e6b53cf2 treewide: remove unnecessary cache.h inclusion from a few headers
+f394e093df10f1867d9bb2180b3789ee61124aed treewide: be explicit about dependence on gettext.h
+553d4d70d128e78fd12031f5109d0164088c784f treewide: remove unnecessary inclusion of gettext.h
+4f6728d52d5dc79ce522e92171f984455c04b963 treewide: remove unnecessary cache.h inclusion from several sources
+7ee24e18e55f5459183189a793cb216fb50c20f8 environment: move comment_line_char from cache.h
+0b027f6ca79cafbc14f36ff1741fc7378282f295 abspath.h: move absolute path functions from cache.h
+f7e552d7ca8ca76cb3d080be14d2a89c311d667f cache.h: remove expand_user_path()
+905f96939b7887e532c84747ef51466a959b6eb9 path.h: move function declarations for path.c functions from cache.h
+d5ebb50dcb2bae27cf9f233088f7258f21e72be7 wrapper.h: move declarations for wrapper.c functions from cache.h
+a64acf7298e87740a596123d2b39fefe623fd46f treewide: remove unnecessary includes of cache.h
+32a8f510614312cc8b81bbc6a982d08ab7562ab4 environment.h: move declarations for environment.c functions from cache.h
+987505887058584ebb0e76ba8499f221c80153b6 treewide: remove cache.h inclusion due to environment.h changes
+e38da487cc50ce4b5b48085eebcab8268c541579 setup.h: move declarations for setup.c functions from cache.h
+61a7b982647bb64779df9be66d9b13ecac811924 treewide: remove cache.h inclusion due to setup.h changes
+d48be35ca6f62e1ddd0161f9bbb4c893ee498bfe write-or-die.h: move declarations for write-or-die.c functions from cache.h
+ec2f02696157d3781fbfd410f0017c49cc1eda01 csum-file.h: remove unnecessary inclusion of cache.h
+0a01d41ee4ca7f8afb75219f46f4f1c573465075 http: add support for different sslcert and sslkey types.
+d3af1c193d4d62668a9d7ea98e2ef3771ac4e65a commit-graph: fix truncated generation numbers
+49c2d93ecf08b47698f9437372965b6f9d3af9fc cocci: remove dead rule from "the_repository.pending.cocci"
+6f1436ba2a72bfcbeac9688fa7fe374870a49779 cocci: fix incorrect & verbose "the_repository" rules
+5978de20319602ae18d2b8241aa6f59f3f04f198 cocci: sort "the_repository" rules by header
+7258e892d2c0f7a615562656e9978f39f610c056 cocci: add missing "the_repository" macros to "pending"
+d850b7a545fcfbd97460a921c7f7c59d933eb0f7 cocci: apply the "cache.h" part of "the_repository.pending"
+cb338c23d6d518947bf6f7240bf30e2ec232bd3b cocci: apply the "commit-reach.h" part of "the_repository.pending"
+ecb5091fd4301ac647db0bd2504112b38f7ee06d cocci: apply the "commit.h" part of "the_repository.pending"
+085390328f5fe1dfba67039b1fd6cc51546a4e41 cocci: apply the "diff.h" part of "the_repository.pending"
+bc726bd075929aab6b3e09d4dd5c2b0726fd5350 cocci: apply the "object-store.h" part of "the_repository.pending"
+bab821646a74c446370fa8d01ca851f247df5033 cocci: apply the "pretty.h" part of "the_repository.pending"
+afe27c889429438829bc8818ed17e4960bd3ef02 cocci: apply the "packfile.h" part of "the_repository.pending"
+a5183d7696db34433ebcae64bad7609d5bb3a744 cocci: apply the "promisor-remote.h" part of "the_repository.pending"
+12cb1c10a64170a5d600dd1c6c8abfeec105fb6b cocci: apply the "refs.h" part of "the_repository.pending"
+b26a71b1beadf0184259384c12c9567ac89c0d13 cocci: apply the "rerere.h" part of "the_repository.pending"
+035c7de9e9ea11d26df5f9e4bb117f91ed11a9fd cocci: apply the "revision.h" part of "the_repository.pending"
+c7c33f50bd1bb168a8c69157a0735ded84084f20 post-cocci: adjust comments for recent repo_* migration
+4a93b899c19794c28b140bf78a13fb9c2b34f433 libs: use "struct repository *" argument, not "the_repository"
+258902ce07779a6ca532d092279c1554a199ba2a config tests: cover blind spots in git_die_config() tests
+e7587a8f53e84d4b666c0107987b0a9fa2f8336d config tests: add "NULL" tests for *_get_value_multi()
+b83efcecaf12884d2bbb72b8ef2e4528205a0b02 config API: add and use a "git_config_get()" family of functions
+f6f348a6d5d585fb3eda326a20bf2bab9e60ef51 versioncmp.c: refactor config reading next commit
+a428619309f42b76b5f750e66a5c1fd2225db3b3 config API: have *_multi() return an "int" and take a "dest"
+f7b2ff95163247a3ec437f0ce78bb27cdac68b75 for-each-repo: error on bad --config
+1c7e239bd0bc91d6296835e30fa597b8c56e752d config API users: test for *_get_value_multi() segfaults
+9e2d884d0fcf0631164c33d458a251bee6053bb1 config API: add "string" version of *_value_multi(), fix segfaults
+3611f7467fddcff6063ed2c99484047b410969fc for-each-repo: with bad config, don't conflate <path> and <cmd>
+c97f3ed25611eb816c291ac283be8b7146a8e099 config.c: plumb config_source through static fns
+c009bc898bafadea8add49198cd30c40666b5f33 config.c: don't assign to "cf_global" directly
+0c60285147441fbf93e435b4b022fe362b616a5a config.c: create config_reader and the_reader
+a798a56c8aea492a2078c40e16a4a46f3fea5133 config.c: plumb the_reader through callbacks
+9828453ff00b330c57daa3a8b672cbb5f0cdce34 config.c: remove current_config_kvi
+5cdf18e7cd6d6e3ce2fb21fef2b5ec84e570abf8 config.c: remove current_parsing_scope
+e2016508e7690cddc789fb28879703082363549d config: report cached filenames in die_bad_number()
+9b4a655302aae41a35752acfb61da1b43b4c7ce7 config.c: rename "struct config_source cf"
+9dc607f1c29de88bc5194df49cc7f834e528a3e9 fast-import: fix file access when run from subdir
+836c8ceb7a4d26910a70a17ffba5a0d8b87bd1a1 builtins: always pass prefix to parse_options()
+79156913774ef7c5f72264067e0764a1447a1bb3 builtins: annotate always-empty prefix parameters
+5247b762d0c22875c4ac71183e89b50d9f9acc2d builtins: mark unused prefix parameters
+6ba21fa65cbdf97aac337a2857f8ffb072dda29c mark "argv" as unused when we check argc
+126e3b3d2aa06c58994ed09e12cb0a0008897039 t/helper: mark unused argv/argc arguments
+4a4d9706ade6dcdca7cc16372f1f83f5011a5d2b parse-options: drop parse_opt_unknown_cb()
+fcf31daae4cdb71ec367aac0d2cbeef779e97451 pack-redundant: document deprecation
+4833b084261a77e226b198a86c4f2ed737889f16 ref-filter: remove unused ref_format member
+7b6555ab8d166545499e1f504d7b60cbd7cd8a0f tests: run internal chain-linter under "make test"
+1686de55facd0225739290e6afb51e3600351883 tests: replace chainlint subshell with a function
+2b61c8dc8843319d09f1485fbcb3b1dc4aecb36d tests: diagnose unclosed here-doc in chainlint.pl
+750b2604118b4b7d9983f77adeb36d839107861f tests: drop here-doc check from internal chain-linter
+cc48ddd937f9d852da73e188e4a3216cb038c421 tests: skip test_eval_ in internal chain-lint
+25bccb4b79dce1d5c259228ef3c91eadcd13d8ac fetch: download bundles once, even with --all
+7727da99dfab82148c5b77eaf334b305fb835956 Merge branch 'ds/ahead-behind'
+119e82a515e279548cd82aaf74f75927c75adfa1 Merge branch 'ps/ahead-behind-truncation-fix'
+ae61aecb9e338ab02a7d3cced40135ab43880093 Merge branch 'jk/document-pack-redundant-deprecation'
+9bc647a2d177f0c70b7a39fe84a20349589dc9da Merge branch 'jk/unused-post-2.40'
+955abf5f72617f6044fdadeeaee7e9b78735340a Merge branch 'jk/unused-post-2.40-part2'
+e9dffbc7f11704bd25e5a36e41e5fe5c5d1f7183 Merge branch 'ps/fetch-ref-update-reporting'
+87daf40750c9e344dd50495fdca1809aebcb1a94 Merge branch 'ab/config-multi-and-nonbool'
+0a8c337394c208f584173d1c8c0dca600f9be1fe Merge branch 'sm/ssl-key-type-config'
+06e9e726d463b413d45703b31881de4ed99b3417 Merge branch 'gc/config-parsing-cleanup'
+72871b198f50962a555685726e42f435cdd4efa1 Merge branch 'ab/remove-implicit-use-of-the-repository'
+6047b28eb7e1a0b0061c5310034f7b5683ea401a Merge branch 'en/header-split-cleanup'
+0b94009649f7bca3a4f4e29acdb26d38b6e4abf5 Merge branch 'jk/chainlint-fixes'
+c5305bbe322edfadd746c162f8af090a227019b7 Merge branch 'ow/ref-format-remove-unused-member'
+89833fc249189d5b91509b1b3f16b26aade9e7f7 Merge branch 'ds/fetch-bundle-uri-with-all'
+0607f793cbe0af16aee6d2480056d891835884bd The eighth batch
 
-89f00e418f76d681167fa4413ed135f045bf6430 e3f76aedbe64323695266e1f61b83507422f4c46 refs/heads/for-kbuild-bot/current-stable
-89f00e418f76d681167fa4413ed135f045bf6430 e3f76aedbe64323695266e1f61b83507422f4c46 refs/heads/for-kbuild-bot/prepare-release
-89f00e418f76d681167fa4413ed135f045bf6430 e3f76aedbe64323695266e1f61b83507422f4c46 refs/heads/linux-6.3.y-rt-rebase
------BEGIN PGP SIGNATURE-----
-
-iQHKBAABCgA0FiEEV4kucFIzBRM39v3RBWQfF1cS+lsFAmQvN6gWHGJpZ2Vhc3lA
-bGludXRyb25peC5kZQAKCRAFZB8XVxL6WyUVC/9hTfhyQyYltoPvPUD0x6ey5OJs
-YcLLEgpSw28gOQE8IKwMbxbkq9A/T602L0maxBOJK1WlJfplY6/ZNTR7eiZjEQl0
-Hu3j+zDbUIlVpfwaq7DuTTW2Xe6JVN981Pi7VqoFLLUB5cUtWgMlDAHPiUMUsG+3
-STxda8Ue6kJd40C1G5eqesQT9pbuBcCs7d6puZTFcSO/gPZJA0qNIMo1N0wI5XF3
-uctdKrWJm+UXVVUZT6Jn8vSsC5omx3lL0Mh1lPoe2tmwGlI+Az0VveFY3DElf4Zf
-PUKrCVT0ab1Ruu8Kmd1UDk3qZNKrefwrXKXRuvHsmKJGWUkp8h5jIQP2OTOkJ79w
-l0FMcFRdgts7kHQfZsCHeRRPxciXhz/KbZpHLGL1e97wxO/Mey/odmURbyVjqZPA
-330AY3SRAgRiM0QlAOTA5PngkvRjGLyx1qOEnALsw32M1j5bkzQZlMJl07hO6drK
-Q3FSByrs8jpf1puF2V6ICDJmApF5uNOB+eFUDGA=
-=ZvRF
------END PGP SIGNATURE-----
-
---===============6427478302472027609==
+--===============1165561750363794835==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-89f00e418f76-e3f76aedbe64.txt
+Content-Disposition: attachment; filename=revlist-2691fad020e9-4ca3ef321147.txt
 
-e23adc6056fc775960943ed690bb3ab1b9929206 sched: Consider task_struct::saved_state in wait_task_inactive().
-3b692f65bc37ddfd8186f4c959d1804dccc5a817 io-mapping: Don't disable preempt on RT in io_mapping_map_atomic_wc().
-d7b6aefa0ba32b5c0fbefb3c58e6d0806879cd42 locking/rwbase: Mitigate indefinite writer starvation.
-06b82f5afe44d339aefa819d18a3f89718b8a2e7 locking/rtmutex: Flush the plug before the slowpath.
-1919921edce7affab9e28172e2ecd6a00448e243 locking/rtmutex: Do the trylock-slowpath with DEBUG_RT_MUTEXES enabled.
-fa5d70cbd406a5b0e821bd74211f65d39788e388 signal: Let tasks cache one sigqueue struct.
-df69a9dcd5cb3273997e3a9454fefa430816691f signal: Add proper comment about the preempt-disable in ptrace_stop().
-2ca13ac52041699799f8a197d07218ea737d6bba signal: Don't disable preemption in ptrace_stop() on PREEMPT_RT.
-325c717ed8a6eeeac59f137bcd20814bb6a10dcd net: Avoid the IPI to free the
-34566ee7e14b341517a4b77ed8958660f547c1ae x86: Allow to enable RT
-c6c3a6ddcbcdb1ff39308f410a7069d434da34b9 x86: Enable RT also on 32bit
-fb335666b4ad17ba6fc5728338ac1081302e85b3 softirq: Use a dedicated thread for timer wakeups.
-1a2234216268ae22bbbe2c8fee45cbc7534f5969 rcutorture: Also force sched priority to timersd on boosting test.
-6129b6b08ea918808e464672724c310d5a91e712 tick: Fix timer storm since introduction of timersd
-3864b2daae5808d717a08f71f2b2738b8f513d24 softirq: Wake ktimers thread also in softirq.
-9f17c8e95e3f1589e325eab60554cf9029c9765f tpm_tis: fix stall after iowrite*()s
-c8d61450fec9844156c9d482709c16ec146a2d5f zram: Replace bit spinlocks with spinlock_t for PREEMPT_RT.
-e2083e899a43c9bc5602ebb711037d23539f3a63 preempt: Put preempt_enable() within an instrumentation*() section.
-f7b08c3ef71e2f932e440b2dff04e75abea12c25 kdb: do not assume write() callback available
-76dbb404ef71911ee26b9f1c23ec504beaf345bf printk: Add NMI check to console_flush_on_panic() and console_unblank()
-b6afa1052778993b6f68fcf7a8ec49a382974eb6 printk: Consolidate console deferred printing
-58597ffb5ca82e70d3722d331a71d0eb91c2f46d printk: Add per-console suspended state
-8fc1a32e73571390048abc8ac0d96527fac23e43 printk: Add non-BKL console basic infrastructure
-8988ed7f831f39320411e9086c55d6ec99774dcb printk: nobkl: Add acquire/release logic
-8a604f535a670ccb4f5e44217ea47291a35e96f0 printk: nobkl: Add buffer management
-e1ea341ad02888ffc2b38c98150511afb163e75b printk: nobkl: Add sequence handling
-280cdb2bf15edc9350fce101beb074b651769499 printk: nobkl: Add print state functions
-0b8a1c67c2c28118ed2a22bfcde17627549550fe printk: nobkl: Add emit function and callback functions for atomic printing
-f19022f882b1fda7b32d470d40796fa92f6657cf printk: nobkl: Introduce printer threads
-1a04a55a43a6b4967e92d9daff395a4e54f1d434 printk: nobkl: Add printer thread wakeups
-b4258511b12994925f6337915310c10ad3f6af23 printk: nobkl: Add write context storage for atomic writes
-9cbb6340c177ea2517a87c07e47b996646023d6c printk: nobkl: Provide functions for atomic write enforcement
-c5f0e77be8f5d51d561495fff7e5ee42052856dc printk: nobkl: Stop threads on shutdown/reboot
-a2a4d2042ecae67d52759bf47d861ec5651528e4 tty: tty_io: Show non-BKL consoles as active
-cd1369d45e30f271905503c64e0a89cc133b3d7f proc: consoles: Add support for non-BKL consoles
-2cacedac91f02e0245fa21f8983995e43a273b49 kernel/panic: Add atomic write enforcement to warn/panic
-cb9f70013504668e834efefeacbf2e53f9adab21 rcu: Add atomic write enforcement for rcu stalls
-5f34f0d03934e305e80b58f56a3a7a3fae89521c printk: Perform atomic flush in console_flush_on_panic()
-ecb561e73d375e5138bd46ff5c2ae8bde056cbf2 printk: only disable if actually unregistered
-124bb85c737524cf6b252ba30841b3785c20c05b printk: Add threaded printing support for BKL consoles.
-49499eb03b32698e5ae7f9cba1d069a38edb7da2 printk: replace local_irq_save with local_lock for safe mode
-4e56e5b527bc202cdb8937f7828f7fd568203ed3 serial: 8250: implement non-BKL console
-b4ab3547c798496f04dd5dcb39a264a666132b06 drm/i915: Use preempt_disable/enable_rt() where recommended
-4a9e096ba3960b8223ce433c66742d2267eefb5b drm/i915: Don't disable interrupts on PREEMPT_RT during atomic updates
-b3949d9cbb4972aae812015da671890115ea4a54 drm/i915: Don't check for atomic context on PREEMPT_RT
-2fb15a97a59406075c193678eed97f9021642468 drm/i915: Disable tracing points on PREEMPT_RT
-a87790a7c7a9738e13a6a303e53c44053988beda drm/i915: skip DRM_I915_LOW_LEVEL_TRACEPOINTS with NOTRACE
-67036179ebaef198118d6a6618e84ea5d0b28faa drm/i915/gt: Queue and wait for the irq_work item.
-ef0c541d9f5a277d841232c9b8f1f159b9dbf011 drm/i915/gt: Use spin_lock_irq() instead of local_irq_disable() + spin_lock()
-c42ae390d69a124e5bc79288d52edae07b88a952 drm/i915: Drop the irqs_disabled() check
-fc9f51fd84ec1efae7efe34b6cedf7a5e0968e2c Revert "drm/i915: Depend on !PREEMPT_RT."
-60e204eb45080c6f3b4fab43ab7248d0e0feef4b sched: Add support for lazy preemption
-6c083270c53344006c959476543fe90594357edf x86/entry: Use should_resched() in idtentry_exit_cond_resched()
-dc7a80cd155a86d18ee0dc613b37e7f8e67e4219 x86: Support for lazy preemption
-21a2f2466fab73f09337dc0ec6fbde320f53b440 entry: Fix the preempt lazy fallout
-f8ea0b96dd5cccde5ab80cd162944affc498477a arm: Add support for lazy preemption
-80e24d7e9a0644b452f13b1b5185da266b6e0cc4 powerpc: Add support for lazy preemption
-8e3662294f68a5ce561c94fc30316db4c6d1b29d arch/arm64: Add lazy preempt support
-1c0f64c376cc2822bc44c331bfa2833ba778760f arm: Disable jump-label on PREEMPT_RT.
-4dc8534bf21a8bea7c07cf957ed5fef69051ad75 ARM: enable irq in translation/section permission fault handlers
-505014c241f0f46fee8236990e215651f16bc3a2 tty/serial/omap: Make the locking RT aware
-b9c4de954ceeba967dd1846da36ac4dea3b554e0 tty/serial/pl011: Make the locking work on RT
-bb6fa50de19af18a3acdbee5fb07e9b5a0b0d171 ARM: Allow to enable RT
-c5ff5458dfd54ffd50d9bd83f0007c3214f83083 ARM64: Allow to enable RT
-66745bd4b661ae2fd01e69035bf780af2bf2250b powerpc: traps: Use PREEMPT_RT
-c5094c0c0b7d65ff53eb02c747f7169abc52e62b powerpc/pseries/iommu: Use a locallock instead local_irq_save()
-7c5830886b45246aab5829c80bde6a4554943df3 powerpc/imc-pmu: Use the correct spinlock initializer.
-9c945aa482a6dea0cc500a84e076ebfbe0164ece powerpc/pseries: Select the generic memory allocator.
-518951a907fcd96485593a3d42e1227e9bf01506 powerpc/kvm: Disable in-kernel MPIC emulation for PREEMPT_RT
-f45227f32e3c5d06daebe29360dd11af9286fa39 powerpc/stackprotector: work around stack-guard init from atomic
-1c875c65cafa35df40d491eeb4fdf60f20df7142 POWERPC: Allow to enable RT
-638274a7468628b82dda1c9a38d3b473f5a308d2 sysfs: Add /sys/kernel/realtime entry
-e3f76aedbe64323695266e1f61b83507422f4c46 Add localversion for -RT release
+7727da99dfab82148c5b77eaf334b305fb835956 Merge branch 'ds/ahead-behind'
+119e82a515e279548cd82aaf74f75927c75adfa1 Merge branch 'ps/ahead-behind-truncation-fix'
+ae61aecb9e338ab02a7d3cced40135ab43880093 Merge branch 'jk/document-pack-redundant-deprecation'
+9bc647a2d177f0c70b7a39fe84a20349589dc9da Merge branch 'jk/unused-post-2.40'
+955abf5f72617f6044fdadeeaee7e9b78735340a Merge branch 'jk/unused-post-2.40-part2'
+e9dffbc7f11704bd25e5a36e41e5fe5c5d1f7183 Merge branch 'ps/fetch-ref-update-reporting'
+87daf40750c9e344dd50495fdca1809aebcb1a94 Merge branch 'ab/config-multi-and-nonbool'
+0a8c337394c208f584173d1c8c0dca600f9be1fe Merge branch 'sm/ssl-key-type-config'
+06e9e726d463b413d45703b31881de4ed99b3417 Merge branch 'gc/config-parsing-cleanup'
+72871b198f50962a555685726e42f435cdd4efa1 Merge branch 'ab/remove-implicit-use-of-the-repository'
+6047b28eb7e1a0b0061c5310034f7b5683ea401a Merge branch 'en/header-split-cleanup'
+0b94009649f7bca3a4f4e29acdb26d38b6e4abf5 Merge branch 'jk/chainlint-fixes'
+c5305bbe322edfadd746c162f8af090a227019b7 Merge branch 'ow/ref-format-remove-unused-member'
+89833fc249189d5b91509b1b3f16b26aade9e7f7 Merge branch 'ds/fetch-bundle-uri-with-all'
+0607f793cbe0af16aee6d2480056d891835884bd The eighth batch
+4ca3ef321147b456561d0c3a4c90cbb38891a488 Sync with 'master'
 
---===============6427478302472027609==--
+--===============1165561750363794835==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-efcbf974b841-a8b69c729996.txt
+
+bac65a483d9312938614adef8bff88225b382d87 hooks: add sendemail-validate-series
+42943b950e12f2d3e56688ecef1b0502e162b436 mergetool: new config guiDefault supports auto-toggling gui by DISPLAY
+8806120de6c242a7143cfb1701106c5f9f77cf90 doc: asciidoc: remove custom header macro
+c1917156a04e371f33cc344af093a8b237e09eb1 t/lib-httpd: pass PERL_PATH to CGI scripts
+f9bd9486faf019c9d52595183ce92cfc107e2811 branch, for-each-ref: add option to omit empty lines
+4c643fb321db00a9c79e2dcd1fd033681333584b branch: improve error log on branch not found by checking remotes refs
+7727da99dfab82148c5b77eaf334b305fb835956 Merge branch 'ds/ahead-behind'
+119e82a515e279548cd82aaf74f75927c75adfa1 Merge branch 'ps/ahead-behind-truncation-fix'
+ae61aecb9e338ab02a7d3cced40135ab43880093 Merge branch 'jk/document-pack-redundant-deprecation'
+9bc647a2d177f0c70b7a39fe84a20349589dc9da Merge branch 'jk/unused-post-2.40'
+955abf5f72617f6044fdadeeaee7e9b78735340a Merge branch 'jk/unused-post-2.40-part2'
+e9dffbc7f11704bd25e5a36e41e5fe5c5d1f7183 Merge branch 'ps/fetch-ref-update-reporting'
+87daf40750c9e344dd50495fdca1809aebcb1a94 Merge branch 'ab/config-multi-and-nonbool'
+0a8c337394c208f584173d1c8c0dca600f9be1fe Merge branch 'sm/ssl-key-type-config'
+06e9e726d463b413d45703b31881de4ed99b3417 Merge branch 'gc/config-parsing-cleanup'
+72871b198f50962a555685726e42f435cdd4efa1 Merge branch 'ab/remove-implicit-use-of-the-repository'
+6047b28eb7e1a0b0061c5310034f7b5683ea401a Merge branch 'en/header-split-cleanup'
+0b94009649f7bca3a4f4e29acdb26d38b6e4abf5 Merge branch 'jk/chainlint-fixes'
+c5305bbe322edfadd746c162f8af090a227019b7 Merge branch 'ow/ref-format-remove-unused-member'
+89833fc249189d5b91509b1b3f16b26aade9e7f7 Merge branch 'ds/fetch-bundle-uri-with-all'
+0607f793cbe0af16aee6d2480056d891835884bd The eighth batch
+e7da4bf995f45d83dfb0aa3b7cb23a596fcdc326 Merge branch 'tb/pack-bitmap-index-seek' into jch
+b2e5b41a7313e7a5d3dfc1f39613cb5439831b75 Merge branch 'ws/sparse-check-rules' into jch
+fecd0bd5a0ec608cf6e82fdd8e29b003608b9e56 Merge branch 'jc/spell-id-in-both-caps-in-message-id' into jch
+225e3becc5557b73a2d9787dceb2bcc7deb55b8f Merge branch 'ar/adjust-tests-for-the-index-fallout' into jch
+7830c3d1dad59fdc65a6144f86d93e9b13e138b1 Merge branch 'jx/cap-object-info-uninitialized-fix' into jch
+b839a84f0abbce0a67a913e5fe1fa5ae1ed6fb95 Merge branch 'dw/doc-submittingpatches-grammofix' into jch
+a5b0efdea3a8b4691acb34402d146415685a9bf0 ### match next
+92f47791f7c4fb8032ffb47af70657ef9ba5dfa5 Merge branch 'fc/doc-manpage-base-url-fix' into jch
+481ad9efdbdc6209e04a353b1b984badaae7a655 Merge branch 'jc/clone-object-format-from-void' into jch
+32962a5618118ffd95d4dfb60d36fb5fef0f0623 Merge branch 'rj/branch-unborn-in-other-worktrees' into jch
+1be42efa23faf9c3ac624ee1498c8d1bc614c771 Merge branch 'en/header-split-cache-h' into jch
+7774b7337995a3641b7c667236fcc443f337ac9c Merge branch 'ad/test-record-count-when-harness-is-in-use' into jch
+43c5a1a83ade1930218148685e65ffd43a080345 Merge branch 'ab/imap-send-requires-curl' into jch
+9b13a7bf3d9ca08f0dc68e199f611a83c867d00e Merge branch 'pw/sequencer-rescheduled-ones-are-not-done-yet' into jch
+202b1b95c6752751b9ef706016fc82576751882d Merge branch 'rs/archive-from-subdirectory-fixes' into jch
+f0f5efcb86f2fb880cd4a4d8d7d2baa0c80c8719 Merge branch 'ed/fsmonitor-windows-named-pipe' into jch
+9e89806e0983f4175e93affce164193f195295bc Merge branch 'sl/diff-files-sparse' into jch
+dc6ba3b32a9e50649b4d9a29cc4ec12550fe28d5 Merge branch 'mh/credential-oauth-refresh-token' into jch
+97300bed69511f15642ff99d2803ff3932bdf5c0 Merge branch 'mh/credential-password-expiry-libsecret' into jch
+846f2022d25b847edb8524f812da2b8d30214669 Merge branch 'pw/rebase-cleanup-merge-strategy-option-handling' into jch
+dd2052238b9abfcf74fab962c004292dc368a796 Merge branch 'ms/send-email-feed-header-to-validate-hook' into jch
+c6a09b93730c3df8a3506d048543d4ac44adf7f4 Merge branch 'mh/credential-password-expiry-wincred' into jch
+f111f58b9857fa7a42a82f895823c5d7a4363074 Merge branch 'rn/sparse-describe' into jch
+c5aae512d537314c7065c6382206e5ce1650b768 Merge branch 'ar/test-cleanup-unused-file-creation-part2' into jch
+7ed66b572c9209541a5caf48a64cafdfce170b3b Merge branch 'ah/format-patch-thread-doc' into jch
+b7040ab9a42b7951d8ce1b73e431d3277ae92883 Merge branch 'fc/remove-header-workarounds-for-asciidoc' into jch
+d562d43f0e72ea7447e01e31583ff954ad5c80b8 Merge branch 'jk/use-perl-path-consistently' into jch
+eb1c1eb2f7638e90c2cd717e2bf3a933af652992 Merge branch 'so/diff-merges-more' into seen
+e21e4b5507ae62967f802a08a0be232de543a464 Merge branch 'cw/submodule-status-in-parallel' into seen
+0959a20f817d7dc834eae4ae9bdd85b84384183d Merge branch 'tk/pull-conflict-suggest-rebase-merge-not-rebase-true' into seen
+751dbed39791f6a43048f912579d0ece9057275a Merge branch 'ed/fsmonitor-inotify' into seen
+0a8b3c34832ce01e05f9895fd135c3a87ac01045 Merge branch 'cb/checkout-same-branch-twice' into seen
+cfc419883c0de5a539c4238e9fc275277f020fb0 Merge branch 'mh/use-wincred-from-system' into seen
+bae42cc0f1bc9040205d2b4e5765c8a3d3dab89f Merge branch 'ob/revert-of-revert' into seen
+219bb45501336ad4b5b38b721a782dd0ecc131b9 Merge branch 'ow/ref-filter-omit-empty' into seen
+52cc6c3e8366252439324a4256049672a6d5efa8 Merge branch 'sl/sparse-write-tree' into seen
+d191cc0a19e769ab710222c46753dbad360f8a82 Merge branch 'ab/tag-object-type-errors' into seen
+55fb1f33a7f6a29fb11240ee94dc136847bbd095 Merge branch 'ja/worktree-orphan' into seen
+011ad0d92a367b03529fb8a244b0eb5e2823235e Merge branch 'rj/sendemail-validate-series-hook' into seen
+efbb2b271e3403940ceed89f2b20f7da65e5f767 Merge branch 'tk/mergetool-gui-default-config' into seen
+a8b69c729996666154afa469cb2c85db894d0ba2 Merge branch 'cm/branch-delete-error-message-update' into seen
+
+--===============1165561750363794835==--
