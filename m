@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Thu, 06 Apr 2023 12:27:16 -0000
-Message-Id: <168078403685.15521.14558101423556003890@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tegra/maint-scripts
+Date: Thu, 06 Apr 2023 12:33:03 -0000
+Message-Id: <168078438384.18922.15065334891844792497@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: hansg
+repo: pub/scm/linux/kernel/git/tegra/maint-scripts
+user: thierry.reding
 changes:
-  - ref: refs/heads/review-hans
-    old: c69fec50ec2e3aeea46b13235b72d9d5a1bf095a
-    new: 7bef7eea539dac6182e25e2e8d4a33063d458878
+  - ref: refs/heads/master
+    old: b230ac47bbf9ee6f7b7f390ed3f9a91b753c1975
+    new: 1bf592e9da4a99b70861c9a845c2b961df3d53c0
     log: |
-         fb131c472df92b2885262e747906c0a4038c82e5 platform/x86: apple-gmux: Fix iomem_base __iomem annotation
-         7bef7eea539dac6182e25e2e8d4a33063d458878 platform/mellanox: add firmware reset support
+         d738c14c289623f6a4c7170f2c4ca2b4dea4b985 Final branches for v6.3-rc1
+         46164e18b4121903b506c6b10f47e7f9293d1de1 tms: Use 1 as the default value for the reroll count
+         1bf592e9da4a99b70861c9a845c2b961df3d53c0 Final branches for v6.4-rc1
          
