@@ -1,209 +1,898 @@
-Content-Type: multipart/mixed; boundary="===============1648785322863636053=="
+Content-Type: multipart/mixed; boundary="===============6996592148249339923=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 06 Apr 2023 18:53:44 -0000
-Message-Id: <168080722403.18655.3419137215225791489@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/djwong/xfsprogs-dev
+Date: Thu, 06 Apr 2023 19:05:48 -0000
+Message-Id: <168080794849.27004.16364151567181435803@gitolite.kernel.org>
 
---===============1648785322863636053==
+--===============6996592148249339923==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/djwong/xfsprogs-dev
+user: djwong
 changes:
-  - ref: refs/heads/main
-    old: 8fbc10b995a506e173f1080dfa2764f232a65e02
-    new: f2afccfefe7be1f7346564fe619277110d341f9b
-    log: revlist-8fbc10b995a5-f2afccfefe7b.txt
-  - ref: refs/tags/v6.3-rc5
+  - ref: refs/heads/pptrs
+    old: 37964331ee3ac2045dbf25b8caefa219444b1ba3
+    new: f569afa9b6dfcecb147ca1dcb937cb85725bf74a
+    log: revlist-37964331ee3a-f569afa9b6df.txt
+  - ref: refs/heads/pptrs-attr-nvlookups
+    old: 29e1d798018a1e85e043a31b764907c69b0ea77c
+    new: b62ca7edb1b0afb080165cc61ebadf64869b1b27
+    log: revlist-29e1d798018a-b62ca7edb1b0.txt
+  - ref: refs/heads/pptrs-for-next
+    old: a7be75dd69a9a7c457844bcd55d6349d74808d36
+    new: 6e68acc9726cdbb7b34dd71de8febea0003307c3
+    log: revlist-a7be75dd69a9-6e68acc9726c.txt
+  - ref: refs/heads/pptrs-mkfs-defaults
+    old: 005dd35d157275819fa4ac094e2d57a5bcf79bfa
+    new: ce964dc74bb06f0baefc0368818fec8b88999640
+    log: revlist-005dd35d1572-ce964dc74bb0.txt
+  - ref: refs/heads/pptrs-offline-repair
+    old: 1fe0bf40d65a6b08ec44877b2a53d2e489272b02
+    new: c56d8b660ec8f00c6533c7535e18840180203b75
+    log: revlist-1fe0bf40d65a-c56d8b660ec8.txt
+  - ref: refs/heads/pptrs-online-dir-repair
+    old: c33fe95a84d5d8f4deb4925b579c14441977be16
+    new: 425a4dd26dfc1c81857c68ad7f5b0a428dd00124
+    log: revlist-c33fe95a84d5-425a4dd26dfc.txt
+  - ref: refs/heads/pptrs-online-fsck-backports
+    old: 5cf03ddb097be9b1d32d7210397e56c9606c356b
+    new: e641d15e44802532a61ae9b81f3caea5708808f8
+    log: revlist-5cf03ddb097b-e641d15e4480.txt
+  - ref: refs/heads/pptrs-online-parent-check
+    old: 25d88987c8fbfa5dc33bfa65a573abac19dc0d15
+    new: 6d27a8bd89efdd6ab797d62d4508c1d807c9dfad
+    log: revlist-25d88987c8fb-6d27a8bd89ef.txt
+  - ref: refs/heads/pptrs-online-parent-repair
+    old: a4d41a25e9bc43e1df58a83e4f5f059536122fe2
+    new: 2fe3a5d3c5af9c46998ec703c0e42c5a3dfbc07b
+    log: revlist-a4d41a25e9bc-2fe3a5d3c5af.txt
+  - ref: refs/tags/pptrs-for-next_2023-04-06
     old: 0000000000000000000000000000000000000000
-    new: 83af7b1468c0dca86b4dc9e43e73bfa4f38d9637
+    new: 1b9def0b8ad3f2ce7e7ca55fd32e59aad7598900
+  - ref: refs/tags/pptrs-attr-nvlookups_2023-04-06
+    old: 0000000000000000000000000000000000000000
+    new: 00239f7810635f3a7f39b81493e2d2d5fca66cf0
+  - ref: refs/tags/pptrs_2023-04-06
+    old: 0000000000000000000000000000000000000000
+    new: 432b230fe489dfc871ede215abe94a1265ef574d
+  - ref: refs/tags/pptrs-online-fsck-backports_2023-04-06
+    old: 0000000000000000000000000000000000000000
+    new: a5663f118646ccae83d4cbc24279986875974b23
+  - ref: refs/tags/pptrs-online-dir-repair_2023-04-06
+    old: 0000000000000000000000000000000000000000
+    new: 89fc6b22eff873ebcf2e9aac6268e656189dcf18
+  - ref: refs/tags/pptrs-online-parent-check_2023-04-06
+    old: 0000000000000000000000000000000000000000
+    new: 64dafe7d060896fe547e02f04b272095fc2518b2
+  - ref: refs/tags/pptrs-online-parent-repair_2023-04-06
+    old: 0000000000000000000000000000000000000000
+    new: b7744bbe3d8c761552cadd4fe30ed32267a472bf
+  - ref: refs/tags/pptrs-offline-repair_2023-04-06
+    old: 0000000000000000000000000000000000000000
+    new: c6fecc2bf2df1fc093d6bcc16d1246a87411083f
+  - ref: refs/tags/pptrs-mkfs-defaults_2023-04-06
+    old: 0000000000000000000000000000000000000000
+    new: 4cbf344d7e64585f66e4d4659d34e3713a8f06cb
 
---===============1648785322863636053==
+--===============6996592148249339923==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8fbc10b995a5-f2afccfefe7b.txt
+Content-Disposition: attachment; filename=revlist-37964331ee3a-f569afa9b6df.txt
 
-ec738ca127d07ecac6afae36e2880341ec89150e mtd: spi-nor: fix memory leak when using debugfs_lookup()
-c0ad453e94e5c404efbcf668648d07eaa1a71ed7 pinctrl: mediatek: add missing options to PINCTRL_MT7981
-6de67ca4dab7d855ef9598cd894cd7dfa4077f96 pinctrl: mediatek: fix naming inconsistency
-7bb97e360acdd38b68ad0a1defb89c6e89c85596 pinctrl: at91-pio4: fix domain name assignment
-657fd9da2d4b4aa0a384105b236baa22fa0233bf pinctrl: ocelot: Fix alt mode for ocelot
-913a956c4363c3b5fd13d3a00836fad4c46646a7 pinctrl: stm32: use dynamic allocation of GPIO base
-1eb65c8687316c65140b48fad27133d583178e15 Drivers: vmbus: Check for channel allocation before looking up relids
-44ac5abac86b20856e6d9e5e5e40dcc2623fe330 Documentation/security-bugs: move from admin-guide/ to process/
-dda5c809d42389b82f37cbbe562044d8a29083c6 Merge tag 'v6.3-rc2' into asoc-6.3 to fix clock related failures
-3c728b1bc5b99c5275ac5c7788ef814c0e51ef54 ASOC: Intel: sof_sdw: add quirk for Intel 'Rooks County' NUC M15
-9c691a42b8926c8966561265cdae3ddc7464d3a2 ASoC: Intel: soc-acpi: add table for Intel 'Rooks County' NUC M15
-083a25b18d6ad9f1f540e629909aa3eaaaf01823 ASoC: soc-pcm: fix hw->formats cleared by soc_pcm_hw_init() for dpcm
-30549964ce67f6f363023ec680ddca9fac63904e ASOC: Intel: add quirk for Intel 'Rooks County' NUC
-7c3940bf81e5664cdb50c3fedfec8f0a756a34fb swiotlb: fix the deadlock in swiotlb_do_find_slots
-f5bad62f9107b701a6def7cac1f5f65862219b83 Input: i8042 - add quirk for Fujitsu Lifebook A574/H
-8a0432bab6ea3203d220785da7ab3c7677f70ecb Input: goodix - add Lenovo Yoga Book X90F to nine_bytes_report DMI table
-f8acb24aaf89fc46cd953229462ea8abe31b395f x86/hyperv: Block root partition functionality in a Confidential VM
-205efd4619b860404ebb5882e5a119eb3b3b3716 ASoC: amd: yc: Add DMI entries to support Victus by HP Laptop 16-e1xxx (8A22)
-ab327f8acdf8d06601fbf058859a539a9422afff mips: bmips: BCM6358: disable RAC flush for TP1
-ffa6206ebf8d39e83d87ac226df68dbbe155819a Input: xpad - fix incorrectly applied patch for MAP_PROFILE_BUTTON
-8980f190947ba29f23110408e712444884b74251 Input: focaltech - use explicitly signed char type
-754ff5060daf5a1cf4474eff9b4edeb6c17ef7ab Input: alps - fix compatibility with -funsigned-char
-cdce67099117ece371582f706c6eff7d3a65326d PCI: dwc: Fix PORT_LINK_CONTROL update when CDM check enabled
-3ced71d273f8edf07bf01a831a49ca6b988e06b3 kbuild: deb-pkg: set version for linux-headers paths
-39e7d2ab6ea9fd6b389091ec223d566934fe7be5 swiotlb: use wrap_area_index() instead of open-coding it
-0eee5ae1025699ea93d44fdb6ef2365505082103 swiotlb: fix slot alignment checks
-e51f49512d98783b90799c9cc2002895ec3aa0eb ASoC: SOF: ipc4: Ensure DSP is in D0I0 during sof_ipc4_set_get_data()
-d701cf6578e8447af4ac0fa08e7c5a0fad6df1ae MAINTAINERS: Update s390-iommu driver maintainer information
-e38c5e80c3d293a883c6f1d553f2146ec0bda35e ASoC: Intel: bytcr_rt5640: Add quirk for the Acer Iconia One 7 B1-750
-6165a16a5ad9b237bb3131cff4d3c601ccb8f9a3 NFSv4: Fix hangs when recovering open state after a server reboot
-1073c15fd39e804ad36ff26a7c7d53b0ab51b184 scripts: merge_config: Fix typo in variable name.
-fb27e70f6e408dee5d22b083e7a38a59e6118253 modpost: Fix processing of CRCs on 32-bit build machines
-6f57937980142715e927697a6ffd2050f38ed6f6 pwm: hibvt: Explicitly set .polarity in .get_state()
-30006b77c7e130e01d1ab2148cc8abf73dfcc4bf pwm: cros-ec: Explicitly set .polarity in .get_state()
-b20b097128d9145fadcea1cbb45c4d186cb57466 pwm: iqs620a: Explicitly set .polarity in .get_state()
-2be4dcf6627e1bcbbef8e6ba1811f5127d39202c pwm: sprd: Explicitly set .polarity in .get_state()
-8caa81eb950cb2e9d2d6959b37d853162d197f57 pwm: meson: Explicitly set .polarity in .get_state()
-1271a7b98e7989ba6bb978e14403fc84efe16e13 pwm: Zero-initialize the pwm_state passed to driver's .get_state()
-a4a3203426f4b67535d6442ddc5dca8878a0678f ASoC: codecs: lpass: fix the order or clks turn off during suspend
-943d045a6d796175e5d08f9973953b1d2c07d797 SUNRPC: fix shutdown of NFS TCP client socket
-cbedf1a33970c9b825ae75b81fbd3e88e224a418 Input: i8042 - add TUXEDO devices to i8042 quirk tables for partial fix
-f6887a71bdd2f0dcba9b8180dd2223cfa8637e85 ASoC: hdac_hdmi: use set_stream() instead of set_tdm_slots()
-0808ed6ebbc292222ca069d339744870f6d801da scsi: megaraid_sas: Fix fw_crash_buffer_show()
-2309df27111a51734cb9240b4d3c25f2f3c6ab06 scsi: megaraid_sas: Fix crash after a double completion
-f0aa59a33d2ac2267d260fe21eaf92500df8e7b4 scsi: core: Improve scsi_vpd_inquiry() checks
-d684a7a26f7d2c7122a4581ac966ed64e88fb29c scsi: mpt3sas: Don't print sense pool info twice
-02bcba0b9f9da706d5bd1e8cbeb83493863e17b5 regulator: Handle deferred clk
-fb5755100a0a5aa5957bdb204fd1e249684557fc platform/x86/intel/pmc: Alder Lake PCH slp_s0_residency fix
-441d901fbf669f6360566a4437b1e563b854de4a platform/x86: gigabyte-wmi: add support for B650 AORUS ELITE AX
-e5c972c1fadacc858b6a564d056f177275238040 KVM: SVM: Flush Hyper-V TLB when required
-d583fbd7066a2dea43050521a95d9770f7d7593e KVM: irqfd: Make resampler_list an RCU list
-fef8f2b90edbd7089a4278021314f11f056b0cbb KVM: x86/ioapic: Resample the pending state of an IRQ when unmasking
-0dc902267cb32ade1c29eed8208e566ad743518a KVM: x86: Suppress pending MMIO write exits if emulator detects exception
-6c41468c7c12d74843bb414fc00307ea8a6318c3 KVM: x86: Clear "has_error_code", not "error_code", for RM exception injection
-80962ec912db56d323883154efc2297473e692cb KVM: nVMX: Do not report error code when synthesizing VM-Exit from Real Mode
-c56610a869bce03490faf4f157076370c71b8ae3 ACPI: bus: Rework system-level device notification handling
-bb430b69422640891b0b8db762885730579a4145 loop: LOOP_CONFIGURE: send uevents for partitions
-2f1a6be12ab6c8470d5776e68644726c94257c54 btrfs: fix race between quota disable and quota assign ioctls
-50d281fc434cb8e2497f5e70a309ccca6b1a09f0 btrfs: scan device in non-exclusive mode
-2d82a40aa7d6fcae0250ec68b8566cdee7bfd44c btrfs: fix deadlock when aborting transaction during relocation with scrub
-44378cd113e5f15bb0a89f5ac5a0e687b52feb90 ASoC: da7213.c: add missing pm_runtime_disable()
-1231363aec86704a6b0467a12e3ca7bdf890e01d nvme-pci: mark Lexar NM760 as IGNORE_DEV_SUBNQN
-21f27df854008b86349a203bf97fef79bb11f53e KVM: s390: pv: fix external interruption loop not always detected
-1abce0580b89464546ae06abd5891ebec43c9470 powerpc/64s: Fix __pte_needs_flush() false positive warning
-fd7276189450110ed835eb0a334e62d2f1c4e3be powerpc: Don't try to copy PPR for task with NULL pt_regs
-005308f7bdacf5685ed1a431244a183dbbb9e0e8 io_uring/poll: clear single/double poll flags on poll arming
-b26cd9325be4c1fcd331b77f10acb627c560d4d7 pinctrl: amd: Disable and mask interrupts on resume
-f91bf3272a18356e8585f6bbba896d794632f2af iommu/exynos: Fix set_platform_dma_ops() callback
-b57841fb0b564c61508222e885ac8f30a2811089 thermal: core: Drop excessive lockdep_assert_held() calls
-2280d425ba3599bdd85c41bd0ec8ba568f00c032 btrfs: ignore fiemap path cache when there are multiple paths for a node
-e4056e38ec87b4c21eb34bb8e38b1b0ca1221744 dt-bindings: pinctrl: qcom,sm8550-lpass-lpi: allow input-enabled and bias-bus-hold
-5c2712387d4850e0b64121d5fd3e6c4e84ea3266 cacheinfo: Fix LLC is not exported through sysfs
-eca9f6e6f83b6725b84e1c76fdde19b003cff0eb powerpc/pseries/vas: Ignore VAS update for DLPAR if copy/paste is not enabled
-e3720f92e0237921da537e47a0b24e27899203f8 ASoC: SOF: avoid a NULL dereference with unsupported widgets
-4ff0b50de8cabba055efe50bbcb7506c41a69835 io_uring/rsrc: fix rogue rsrc node grabbing
-433279beba1d4872da10b7b60a539e0cb828b32b md: fix regression for null-ptr-deference in __md_stop()
-a57cc2dbb3738930d9cb361b9b473f90c8ede0b8 thermal: intel: int340x: processor_thermal: Fix additional deadlock
-1aa866931b8026a0dd636e9ef7b5c5dfb4cc5ce8 RISC-V: add non-alternative fallback for riscv_has_extension_[un]likely()
-1ee7fc3f4d0a93831a20d5566f203d5ad6d44de8 RISC-V: always select RISCV_ALTERNATIVE for non-xip kernels
-4622f159098e098611f393cccf73d52b007e70bc Merge patch series "RISC-V: Fixes for riscv_has_extension[un]likely()'s alternative dependency"
-88eaba80328b31ef81813a1207b4056efd7006a6 nvme-tcp: fix a possible UAF when failing to allocate an io queue
-fd30d1cdcc4ff405fc54765edf2e11b03f2ed4f3 io_uring: fix poll/netmsg alloc caches
-ae817e618d4b5d221daae34d32a39476e4bdcb36 thermal: intel: powerclamp: Fix cpumask and max_idle module parameters
-179a88a8558bbf42991d361595281f3e45d7edfc cifs: fix DFS traversal oops without CONFIG_CIFS_DFS_UPCALL
-1a06ed2d4289e392c38feb9dc0ef223b1c4efb34 Merge tag 'nvme-6.3-2023-03-31' of git://git.infradead.org/nvme into block-6.3
-10f76dc3abb4d8fbc2cee7a63fda22e8b08628b2 Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
-6cc041e90c178955219dcee4030bd5423f800f10 cifs: avoid races in parallel reconnects in smb1
-09ba47b44d26b475bbdf9c80db9e0193d2b58956 cifs: prevent infinite recursion in CIFSGetDFSRefer()
-e03677100707f849f01d8faf07ee58b4e56cdbf1 cifs: get rid of dead check in smb2_reconnect()
-62bad54b26db8bc98e28749cd76b2d890edb4258 Merge tag 'dma-mapping-6.3-2023-03-31' of git://git.infradead.org/users/hch/dma-mapping
-24ab70d83784a807c9ddff939ea762ef19bd4ffd Merge tag 'md-fixes-2023-03-29' of https://git.kernel.org/pub/scm/linux/kernel/git/song/md into block-6.3
-c7d624520c1bd4e42d8ceb8283d6505fc90acccb iommu/vt-d: Remove unnecessary locking in intel_irq_remapping_alloc()
-bfd3c6b9fa4a1dc78139dd1621d5bea321ffa69d iommu/vt-d: Allow zero SAGAW if second-stage not supported
-16812c96550c30a8d5743167ef4e462d6fbe7472 iommu/vt-d: Fix an IOMMU perfmon warning when CPU hotplug
-896c5150edfd5c01ed7abfcf02612f4aac6296b3 Merge branch 'thermal-intel-fixes'
-cb2239c198ad9fbd5aced22cf93e45562da781eb fs: drop peer group ids under namespace lock
-9fdc1605c504204e0fdec7892b29c916579e06f3 ALSA: hda/realtek: fix mute/micmute LEDs for a HP ProBook
-85b475a4502d45380c1b9223c01954daa228eeb0 Merge tag 'kvm-s390-master-6.3-1' of https://git.kernel.org/pub/scm/linux/kernel/git/kvms390/linux into HEAD
-f1594bc676579133a3cd906d7d27733289edfb86 selftests mount: Fix mount_setattr_test builds failed
-52882b9c7a761b2b4e44717d6fbd1ed94c601b7f KVM: PPC: Make KVM_CAP_IRQFD_RESAMPLE platform dependent
-52f1959502dec5069dcd247ce0462cdc608494b1 Merge tag 'mips-fixes_6.3_1' of git://git.kernel.org/pub/scm/linux/kernel/git/mips/linux
-39f692125c388aa657e77e5ae07ea72be02d99a5 Merge tag 'riscv-for-linus-6.3-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
-f964333194b877effae897314d89818347ed90d7 Merge tag 'acpi-6.3-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
-2bac7dc169af3cd4a0cb5200aa1f7b89affa042a Merge tag 'thermal-6.3-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
-52f91e51944808d83dfe2d5582601b5e84e472cc platform/x86: gigabyte-wmi: add support for X570S AORUS ELITE
-e352d685fde427a8fc9beb2ba30888f5d6f2e5e6 platform/x86: asus-nb-wmi: Add quirk_asus_tablet_mode to other ROG Flow X13 models
-e3271a5917d1501089b1a224d702aa053e2877f4 platform/x86: ideapad-laptop: Stop sending KEY_TOUCHPAD_TOGGLE
-f3fa7f026e5faf10f730b0655b2f96f86d3c7dd8 Merge tag 'io_uring-6.3-2023-03-30' of git://git.kernel.dk/linux
-81409e5e483cbdf6930e24c8556a289266fea39f Merge tag 'block-6.3-2023-03-30' of git://git.kernel.dk/linux
-f43359501e2d70ba8a68f2302c1009d9194fc60d Merge tag 'asoc-fix-v6.3-rc4' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
-36d4d213c6d4fffae2645a601e8ae996de4c3645 ALSA: hda/realtek: Add quirk for Clevo X370SNW
-3df82e4201f5415f4773d4ca8f0ee5a71d5b88fa Merge tag 'regulator-fix-v6.3-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regulator
-916fc60988545499530104342a01df6357fd3647 Merge tag 'pci-v6.3-fixes-1' of git://git.kernel.org/pub/scm/linux/kernel/git/pci/pci
-5a57b48fdfcb1e196292665d87fac46180344f8a Merge tag 'platform-drivers-x86-v6.3-4' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-a0264d198aad19429df0ca2e320caf8b1f98ec64 Merge tag 'nfs-for-6.3-3' of git://git.linux-nfs.org/projects/anna/linux-nfs
-804d8e0a6e54427268790472781e03bc243f4ee3 NFSD: Avoid calling OPDESC() with ops->opnum == OP_ILLEGAL
-15a8b55dbb1ba154d82627547c5761cac884d810 nfsd: call op_release, even when op_func returns an error
-7b50567bdcad8925ca1e075feb7171c12015afd1 media: i2c: imx290: fix conditional function defintions
-7f67aa097e875c87fba024e850cf405342300059 drm/nouveau/disp: Support more modes by checking with lower bpc
-f785f5ee968f7045268b8be6b0abc850c4a4277c ALSA: hda/hdmi: Preserve the previous PCM device upon re-enablement
-92367fdf3b699e97acb4d5fbf7159f5c458b2b30 Merge tag 'iommu-fixes-6.3-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/joro/iommu
-ce0c2375ff56781ee26d9ad6b4cb40d85e0a9ebd Merge tag 'kbuild-fixes-v6.3-2' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-93e2b01740863cf2f4a58887ac1384e6324b50a2 Merge tag 'pinctrl-v6.3-2' of git://git.kernel.org/pub/scm/linux/kernel/git/linusw/linux-pinctrl
-00c7b5f4ddc5b346df62b757ec73f9357bb452af Merge tag 'input-for-v6.3-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input
-f7772da66255ab2b478a33df404a335fab55cc25 Merge tag '6.3-rc4-smb3-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
-95d0b9d89d78e0983d4feb012b0f12d13d1ae19a Merge tag 'powerpc-6.3-4' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
-a10ca0950afe36fa5a20e8fc3e843beef8808fc1 Merge tag 'driver-core-6.3-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/driver-core
-f95b8ea79c47c0ad3d18f45ad538f9970e414d1f Revert "venus: firmware: Correct non-pix start and end addresses"
-6ab608fe852b50fe809b22cdf7db6cbe006d7cb3 Merge tag 'for-6.3-rc4-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
-7e364e56293bb98cae1b55fd835f5991c4e96e7d Linux 6.3-rc5
-764a2ab9eb56e1200083e771aab16186836edf1d drm/panfrost: Fix the panfrost_mmu_map_fault_addr() error path
-f1b17f429f066f920a6a1056332e66f8a5b92256 drm/i915/ttm: fix sparse warning
-c74237496fbc799257b091179dd01a3200f7314d drm/i915/huc: Cancel HuC delayed load timer on reset.
-95d939bb97ff9be101ae4ceeb322535589da2190 drm/i915: Use compressed bpp when calculating m/n value for DP MST DSC
-dc30c011469165d57af9adac5baff7d767d20e5c drm/i915: fix race condition UAF in i915_perf_add_config_ioctl
-dc3421560a67361442f33ec962fc6dd48895a0df drm/i915: Fix context runtime accounting
-a3c4c053014585dcf20f4df954791b74d8a8afcd platform/x86: think-lmi: Fix memory leak when showing current settings
-e7d796fccdc8d17c2d21817ebe4c7bf5bbfe5433 platform/x86: think-lmi: Fix memory leaks when parsing ThinkStation WMI strings
-7065655216d4d034d71164641f3bec0b189ad6fa platform/x86: think-lmi: Clean up display of current_value on Thinkstation
-9a469c6dfab38326f99f105386db84230be09ee3 platform/x86: thinkpad_acpi: Add missing T14s Gen1 type to s2idle quirk list
-4ccf11c4e8a8e051499d53a12f502196c97a758e tracing/synthetic: Fix races on freeing last_cmd
-6455b6163d8c680366663cdb8c679514d55fc30c ring-buffer: Fix race while reader and writer are on the same page
-ea65b41807a26495ff2a73dd8b1bab2751940887 ftrace: Mark get_lock_parent_ip() __always_inline
-b9f451a9029a16eb7913ace09b92493d00f2e564 tracing/timerlat: Notify new max thread latency
-d3cba7f02cd82118c32651c73374d8a5a459d9a6 tracing/osnoise: Fix notify new tracing_max_latency
-f82e7ca019dfad3b006fd3b772f7ac569672db55 tracing: Error if a trace event has an array for a __field()
-2d72ab2449fa9fce8f6898fd5adda10497f7c111 Merge tag 'hyperv-fixes-signed-20230402' of git://git.kernel.org/pub/scm/linux/kernel/git/hyperv/linux
-148341f0a2f53b5e8808d093333d85170586a15d Merge tag 'vfs.misc.fixes.v6.3-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/idmapping
-e4395701330fc4aee530905039516fe770b81417 iommufd: Check for uptr overflow
-727c28c1cef2bc013d2c8bb6c50e410a3882a04e iommufd: Fix unpinning of pages when an access is present
-13a0d1ae7ee6b438f5537711a8c60cba00554943 iommufd: Do not corrupt the pfn list when doing batch carry
-5085e41f9e83a1bec51da1f20b54f2ec3a13a3fe sunrpc: only free unix grouplist after RCU settles
-8be8f170e8383fd1421e8b87950e90d7dd45be07 NFS: Remove "select RPCSEC_GSS_KRB5
-7de82c2f36fb26aa78440bbf0efcf360b691d98b NFSD: callback request does not use correct credential for AUTH_SYS
-d564fa1ff19e893e2971d66e5c8f49dc1cdc8ffc asm-generic/io.h: suppress endianness warnings for readq() and writeq()
-05d3855b4d21ef3c2df26be1cbba9d2c68915fcb asm-generic/io.h: suppress endianness warnings for relaxed accessors
-656e9007ef5862746cdf7ac16267c8e06e7b0989 asm-generic: avoid __generic_cmpxchg_local warnings
-fb5015bc8b733323b58f015b88e4f316010ec856 docs: kvm: x86: Fix broken field list
-ceeea1b78293834378b8d32a18288610de5600f3 Merge tag 'nfsd-6.3-5' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
-76f598ba7d8e2bfb4855b5298caedd5af0c374a8 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
-9d52727f8043cfda241ae96896628d92fa9c50bb tracing: Have tracing_snapshot_instance_cond() write errors to the appropriate instance
-e94891641c21f607e4d6887bcd3beff882fcc483 tracing: Fix ftrace_boot_snapshot command line logic
-774e7cb50359eff7e966f4e2e80c9486014d3a23 accel/ivpu: Add dma fence to command buffers only
-0ec8671837a61d841462179686c5819d951d3b10 accel/ivpu: Fix S3 system suspend when not idle
-1a4edef8e846f0ff7cfbd35b6e62cf26989e59ce Merge tag 'drm-intel-fixes-2023-04-05' of git://anongit.freedesktop.org/drm/drm-intel into drm-fixes
-3357c6e429643231e60447b52ffbb7ac895aca22 tracing: Free error logs of tracing instances
-99ddf2254febae9eab7fb0bcc02c5322243f5c49 Merge tag 'trace-v6.3-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
-3dfa8926efa910d423844bfc0132f70cd07f76e2 Merge tag 'drm-misc-fixes-2023-04-05' of git://anongit.freedesktop.org/drm/drm-misc into drm-fixes
-fcff5f99eaf06ff6818e14751ffeeb677a325127 Merge tag 'asm-generic-fixes-6.3' of git://git.kernel.org/pub/scm/linux/kernel/git/arnd/asm-generic
-8dfab5237d9f728fab8528a5673d8348996a898f Merge tag 'platform-drivers-x86-v6.3-5' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-2a28a8b3659cff2dd2042baacd7cca53badca9d6 Merge tag 'sound-6.3-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
-ac6c043391b266a360a53f933638003365bd10c9 Merge tag 'drm-fixes-2023-04-06' of git://anongit.freedesktop.org/drm/drm
-ae52f797904ef0e98951e43d15a274fa8e80bbe5 Merge tag 'pwm/for-6.3-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/thierry.reding/linux-pwm
-105b64c83872c39d86c1e3dea9ee4185c62114dc Merge tag 'for-linus-iommufd' of git://git.kernel.org/pub/scm/linux/kernel/git/jgg/iommufd
-8f2e1a855b47fa9fd936eafa617a7ab4582bd916 Merge tag 'linux-kselftest-fixes-6.3-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
-f2afccfefe7be1f7346564fe619277110d341f9b Merge tag 'net-6.3-rc6-2' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
+d0e6fb6a8285859410658dd5e26d621309373243 xfs: pass the xfs_bmbt_irec directly through the log intent code
+d87318f55513a0e444ffda574deb383709e92beb xfs: fix confusing xfs_extent_item variable names
+6e59a3b5252e6ec776e1e9d991c3a4e0acd871f8 xfs: pass rmap space mapping directly through the log intent code
+bb1beef73943adfadf8ffd8e5ec1926c5df51298 xfs: pass refcount intent directly through the log intent code
+5818641edf2143c2edf6a922dd0cf822d4e2ca17 xfs: don't use BMBT btree split workers for IO completion
+caef648de7b2255d107ebfb5b713215bec56edcc xfs: fix low space alloc deadlock
+854594740343e2b2f438da2e3d5345370d4510dd xfs: prefer free inodes at ENOSPC over chunk allocation
+05ba6e091505d2f00376aef10c9c8d84b47da787 xfs: block reservation too large for minleft allocation
+2b8d558a6d6e39a8813f967e79091db4364a18db xfs: drop firstblock constraints from allocation setup
+6653dfe2ad3f213c67da2cfb060f0181220fe867 xfs: t_firstblock is tracking AGs not blocks
+731e889bf871e9674998520a3c7a60e0ea8c3ea0 xfs: active perag reference counting
+4119da9722e718f5c0a222bf27db0da6f6c5af6c xfs: rework the perag trace points to be perag centric
+4fcc9f7b8faa4a320d53ba0e3568bd8667e1bcdd xfs: convert xfs_imap() to take a perag
+9bd7cc877e4e3de7962bbb8ec702d32fe8b4e9d1 xfs: use active perag references for inode allocation
+15c11c089683eccff214eff83bcde26ef95642b6 xfs: inobt can use perags in many more places than it does
+14938babd9e050b7630e30da0ebbe4932742b997 xfs: convert xfs_ialloc_next_ag() to an atomic
+3d5f19b00a5c4c826c0e66e0cac275667979f50b xfs: perags need atomic operational state
+de85a4cc1657088d3d52c5a2fbbdaeb709b99466 xfs: introduce xfs_for_each_perag_wrap()
+369342329845bb06b50ab7bd84b222329e077010 xfs: rework xfs_alloc_vextent()
+9904bae3def6f2bc89d01ac9f574b01876569c9a xfs: factor xfs_alloc_vextent_this_ag() for  _iterate_ags()
+de3e49f61463828a4a34f84bee5cb826544c5d7e xfs: combine __xfs_alloc_vextent_this_ag and  xfs_alloc_ag_vextent
+cac684d7bc8d830b83313259404f5a328c4284e3 xfs: use xfs_alloc_vextent_this_ag() where appropriate
+6224eabed5f8426f7a45cd3a9ce8c867398ad7f4 xfs: factor xfs_bmap_btalloc()
+b84c9e23ff857e3ad10f78c701dfd66a8f9d4f2f xfs: use xfs_alloc_vextent_first_ag() where appropriate
+12e738dff6cf50a8007b6d671dcb05d2100a06af xfs: use xfs_alloc_vextent_start_bno() where appropriate
+abdc0d6ebbf656cd6ebe4db682ae37158b8982a0 xfs: introduce xfs_alloc_vextent_near_bno()
+a25c00514a6c5b2da2c56a83efbea8b67924b8d8 xfs: introduce xfs_alloc_vextent_exact_bno()
+2c100979e84c6858c2dd38de4df9cc094946fe70 xfs: introduce xfs_alloc_vextent_prepare()
+46b10c73a389153cfac87c834eefe3b2eb638eb4 xfs: move allocation accounting to xfs_alloc_vextent_set_fsbno()
+ce29285e06c6cb40b16bdbc8726f23d221114e42 xfs: fold xfs_alloc_ag_vextent() into callers
+ea8eb063a218e19c8259ac7944e98f05b7ae63b3 xfs: move the minimum agno checks into xfs_alloc_vextent_check_args
+c36f88c5b57737747ca120168aac976c83bc0cf6 xfs: convert xfs_alloc_vextent_iterate_ags() to use perag walker
+0c3629413cc14464556b1794941b893a06d18e8c xfs: factor out filestreams from xfs_bmap_btalloc_nullfb
+f99d1456385b31e37219fad490e06ca67b287b0e xfs: get rid of notinit from xfs_bmap_longest_free_extent
+b221c465f077e580c39454f4b8acb04ac128e56e xfs: use xfs_bmap_longest_free_extent() in filestreams
+7e1f833546a90f4c5fe781a9ce1d7a5059d6e1cd xfs: move xfs_bmap_btalloc_filestreams() to xfs_filestreams.c
+3fbffd70aa28f685c816f1bcbc3ffe0d6194327e xfs: return a referenced perag from filestreams allocator
+a6ec3ff034be124d4e6d87c123583d9e5dcc1e53 xfs: restore old agirotor behavior
+ff878ba77df258d7200850eba69362d61a66b709 xfs: try to idiot-proof the allocators
+6914894d44881664762e8e698af89520587641cd xfs: walk all AGs if TRYLOCK passed to xfs_alloc_vextent_iterate_ags
+b1752d945bec52df13ac8824247613c63f140d1e xfs: add tracepoints for each of the externally visible allocators
+df7219607d911ade1a219b620f6b42eaf62b6fb4 xfs: clear incore AGFL_RESET state if it's not needed
+6e68acc9726cdbb7b34dd71de8febea0003307c3 xfs: fix mismerged tracepoints
+01ef36a7d61e24dec45946c714c6f9f4ef5853e3 xfs: make xfs_attr_set require XFS_DA_OP_REMOVE
+6f039a0b602642092e6d94a5074f2f61d06b1313 xfs: allow xattr matching on name and value for local/sf attrs
+33b799bab165a01fbb499b8167c54bcab07f4847 xfs: preserve NVLOOKUP in xfs_attr_set
+09e8a6d6155c86e6c9e6fa964b89e68e7b5e904a xfs: restructure xfs_attr_complete_op a bit
+ec3474898fe413f85e5e3da717ab950e46e7c241 xfs: use helpers to extract xattr op from opflags
+de1ebb31f059326dba4b8c71ee61775ad1a0ee10 xfs: log NVLOOKUP xattr removal operations
+3d7a754bd39fc89a01a09542ceb91bba246df33b xfs: log NVLOOKUP xattr setting operations
+8d87fd470995041bbe6c4b5bba6fe0b4fda8562e xfs: log NVLOOKUP xattr nvreplace operations
+432376f15221dbb4b8b92e586fe5d63caf522575 xfs_logprint: dump new attr log item fields
+b62ca7edb1b0afb080165cc61ebadf64869b1b27 xfs_logprint: print missing attri header fields
+763bca64e6645ac0a3091f90826bc96b3e1f1883 xfsprogs: Increase XFS_DEFER_OPS_NR_INODES to 5
+719d39b38538cf8fc9ab380c658dc470d4c26b39 xfs: add parent pointer support to attribute code
+33162bd0c4cce72979e38a8421d6e1eaf90e03ce xfs: define parent pointer ondisk extended attribute format
+3701f3fa648645e979592b86d7ea3e981e0a5f53 xfs: add parent pointer validator functions
+453ebb885483c26085fd6ac8595012294f639fe2 xfs: extend transaction reservations for parent attributes
+3a0b1f3978a8a15c3ec3a7b2475048c97d423352 xfs: parent pointer attribute creation
+a386d9762d846d6dbb3af49e6f912c2b3fb3da9d xfs: add parent attributes to link
+c7c0d50824a910560c34ce53cb71ddb013fec173 xfs: add parent attributes to symlink
+329de8dd75219dc9517bf615398a3bdcb3ef1c73 xfs: remove parent pointers in unlink
+9b44409004a2c230c0308d398fbe5ff81fe44323 xfs: Add parent pointers to rename
+91c69ae691869d1545bac53a3b1a4abea0dc0551 xfsprogs: pass the attr value to put_listent when possible
+69a5a0de4dd890f6d6f33ba57c3178e3f7cba1cc xfs: add a libxfs header file for staging new ioctls
+efffc908b75dc5367a873b7b6978eab7f18ff1ed xfs: Add parent pointer ioctl
+502a28b8541a32ee825099d611c9ee8e415bb9aa xfs: fix unit conversion error in xfs_log_calc_max_attrsetm_res
+f772fde9a40882b90d5e0348c960e97cb6ab4d34 xfs: drop compatibility minimum log size computations for reflink
+678d9aade30c30bb94e64e4d46dc432bb414a50b xfs: don't remove the attr fork when parent pointers are enabled
+a04deebd86662979720a1105114b9ee5b6e9f36d xfs: Add the parent pointer support to the superblock version 5.
+4e5a4d55e155fb8f4c49284fb09e6e5a3320e6b5 libfrog: add parent pointer support code
+e215bc8c8f2b239fbfc43b689377cf2dc9bf693a xfs_io: adapt parent command to new parent pointer ioctls
+048be613a813e1b93680787aef2ebb6b2d007940 xfs_io: Add i, n and f flags to parent command
+6a468db151a44cc7a22db9fc276608fac060cd46 xfs_logprint: decode parent pointers in ATTRI items fully
+b78d11479bd6c3c08d3fe006003ef25a9fbf0440 xfs_scrub: use parent pointers when possible to report file operations
+856f7c1d74ce1a45e2cecf6f6c9090520cf6ea8b xfs_db: report parent bit on xattrs
+3908a16d419d8b31f09a53c428cdf1a6a3b87b4a xfs_db: report parent pointers embedded in xattrs
+961a60fb7ca90511e1f4d03251eb4d4963d7b88c xfs_db: obfuscate dirent and parent pointer names consistently
+3198c857882ccbef055ca031a2c74cf11f57a4c3 xfs_db: hoist name obfuscation code out of metadump.c
+b1dea57ffad39671a01348e7f48822da80c607ce xfs_db: create dirents and xattrs with colliding names
+2c6e8312ba927b8d44eb98f0f3eae6c99b3cfdab xfs_db: add a parents command to list the parents of a file
+c0c27b89939a0a70f728942be1b0df1580bb8c1d libxfs: create new files with attr forks if necessary
+b5f704cb782790970119344d93ab634bb9e6924c xfsprogs: Fix default superblock attr bits
+d903a9bb2a1c1447ca9f15f0585b27aea7a25cb2 mkfs: Add parent pointers during protofile creation
+f569afa9b6dfcecb147ca1dcb937cb85725bf74a mkfs: enable formatting with parent pointers
 
---===============1648785322863636053==--
+--===============6996592148249339923==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-29e1d798018a-b62ca7edb1b0.txt
+
+d0e6fb6a8285859410658dd5e26d621309373243 xfs: pass the xfs_bmbt_irec directly through the log intent code
+d87318f55513a0e444ffda574deb383709e92beb xfs: fix confusing xfs_extent_item variable names
+6e59a3b5252e6ec776e1e9d991c3a4e0acd871f8 xfs: pass rmap space mapping directly through the log intent code
+bb1beef73943adfadf8ffd8e5ec1926c5df51298 xfs: pass refcount intent directly through the log intent code
+5818641edf2143c2edf6a922dd0cf822d4e2ca17 xfs: don't use BMBT btree split workers for IO completion
+caef648de7b2255d107ebfb5b713215bec56edcc xfs: fix low space alloc deadlock
+854594740343e2b2f438da2e3d5345370d4510dd xfs: prefer free inodes at ENOSPC over chunk allocation
+05ba6e091505d2f00376aef10c9c8d84b47da787 xfs: block reservation too large for minleft allocation
+2b8d558a6d6e39a8813f967e79091db4364a18db xfs: drop firstblock constraints from allocation setup
+6653dfe2ad3f213c67da2cfb060f0181220fe867 xfs: t_firstblock is tracking AGs not blocks
+731e889bf871e9674998520a3c7a60e0ea8c3ea0 xfs: active perag reference counting
+4119da9722e718f5c0a222bf27db0da6f6c5af6c xfs: rework the perag trace points to be perag centric
+4fcc9f7b8faa4a320d53ba0e3568bd8667e1bcdd xfs: convert xfs_imap() to take a perag
+9bd7cc877e4e3de7962bbb8ec702d32fe8b4e9d1 xfs: use active perag references for inode allocation
+15c11c089683eccff214eff83bcde26ef95642b6 xfs: inobt can use perags in many more places than it does
+14938babd9e050b7630e30da0ebbe4932742b997 xfs: convert xfs_ialloc_next_ag() to an atomic
+3d5f19b00a5c4c826c0e66e0cac275667979f50b xfs: perags need atomic operational state
+de85a4cc1657088d3d52c5a2fbbdaeb709b99466 xfs: introduce xfs_for_each_perag_wrap()
+369342329845bb06b50ab7bd84b222329e077010 xfs: rework xfs_alloc_vextent()
+9904bae3def6f2bc89d01ac9f574b01876569c9a xfs: factor xfs_alloc_vextent_this_ag() for  _iterate_ags()
+de3e49f61463828a4a34f84bee5cb826544c5d7e xfs: combine __xfs_alloc_vextent_this_ag and  xfs_alloc_ag_vextent
+cac684d7bc8d830b83313259404f5a328c4284e3 xfs: use xfs_alloc_vextent_this_ag() where appropriate
+6224eabed5f8426f7a45cd3a9ce8c867398ad7f4 xfs: factor xfs_bmap_btalloc()
+b84c9e23ff857e3ad10f78c701dfd66a8f9d4f2f xfs: use xfs_alloc_vextent_first_ag() where appropriate
+12e738dff6cf50a8007b6d671dcb05d2100a06af xfs: use xfs_alloc_vextent_start_bno() where appropriate
+abdc0d6ebbf656cd6ebe4db682ae37158b8982a0 xfs: introduce xfs_alloc_vextent_near_bno()
+a25c00514a6c5b2da2c56a83efbea8b67924b8d8 xfs: introduce xfs_alloc_vextent_exact_bno()
+2c100979e84c6858c2dd38de4df9cc094946fe70 xfs: introduce xfs_alloc_vextent_prepare()
+46b10c73a389153cfac87c834eefe3b2eb638eb4 xfs: move allocation accounting to xfs_alloc_vextent_set_fsbno()
+ce29285e06c6cb40b16bdbc8726f23d221114e42 xfs: fold xfs_alloc_ag_vextent() into callers
+ea8eb063a218e19c8259ac7944e98f05b7ae63b3 xfs: move the minimum agno checks into xfs_alloc_vextent_check_args
+c36f88c5b57737747ca120168aac976c83bc0cf6 xfs: convert xfs_alloc_vextent_iterate_ags() to use perag walker
+0c3629413cc14464556b1794941b893a06d18e8c xfs: factor out filestreams from xfs_bmap_btalloc_nullfb
+f99d1456385b31e37219fad490e06ca67b287b0e xfs: get rid of notinit from xfs_bmap_longest_free_extent
+b221c465f077e580c39454f4b8acb04ac128e56e xfs: use xfs_bmap_longest_free_extent() in filestreams
+7e1f833546a90f4c5fe781a9ce1d7a5059d6e1cd xfs: move xfs_bmap_btalloc_filestreams() to xfs_filestreams.c
+3fbffd70aa28f685c816f1bcbc3ffe0d6194327e xfs: return a referenced perag from filestreams allocator
+a6ec3ff034be124d4e6d87c123583d9e5dcc1e53 xfs: restore old agirotor behavior
+ff878ba77df258d7200850eba69362d61a66b709 xfs: try to idiot-proof the allocators
+6914894d44881664762e8e698af89520587641cd xfs: walk all AGs if TRYLOCK passed to xfs_alloc_vextent_iterate_ags
+b1752d945bec52df13ac8824247613c63f140d1e xfs: add tracepoints for each of the externally visible allocators
+df7219607d911ade1a219b620f6b42eaf62b6fb4 xfs: clear incore AGFL_RESET state if it's not needed
+6e68acc9726cdbb7b34dd71de8febea0003307c3 xfs: fix mismerged tracepoints
+01ef36a7d61e24dec45946c714c6f9f4ef5853e3 xfs: make xfs_attr_set require XFS_DA_OP_REMOVE
+6f039a0b602642092e6d94a5074f2f61d06b1313 xfs: allow xattr matching on name and value for local/sf attrs
+33b799bab165a01fbb499b8167c54bcab07f4847 xfs: preserve NVLOOKUP in xfs_attr_set
+09e8a6d6155c86e6c9e6fa964b89e68e7b5e904a xfs: restructure xfs_attr_complete_op a bit
+ec3474898fe413f85e5e3da717ab950e46e7c241 xfs: use helpers to extract xattr op from opflags
+de1ebb31f059326dba4b8c71ee61775ad1a0ee10 xfs: log NVLOOKUP xattr removal operations
+3d7a754bd39fc89a01a09542ceb91bba246df33b xfs: log NVLOOKUP xattr setting operations
+8d87fd470995041bbe6c4b5bba6fe0b4fda8562e xfs: log NVLOOKUP xattr nvreplace operations
+432376f15221dbb4b8b92e586fe5d63caf522575 xfs_logprint: dump new attr log item fields
+b62ca7edb1b0afb080165cc61ebadf64869b1b27 xfs_logprint: print missing attri header fields
+
+--===============6996592148249339923==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-a7be75dd69a9-6e68acc9726c.txt
+
+d0e6fb6a8285859410658dd5e26d621309373243 xfs: pass the xfs_bmbt_irec directly through the log intent code
+d87318f55513a0e444ffda574deb383709e92beb xfs: fix confusing xfs_extent_item variable names
+6e59a3b5252e6ec776e1e9d991c3a4e0acd871f8 xfs: pass rmap space mapping directly through the log intent code
+bb1beef73943adfadf8ffd8e5ec1926c5df51298 xfs: pass refcount intent directly through the log intent code
+5818641edf2143c2edf6a922dd0cf822d4e2ca17 xfs: don't use BMBT btree split workers for IO completion
+caef648de7b2255d107ebfb5b713215bec56edcc xfs: fix low space alloc deadlock
+854594740343e2b2f438da2e3d5345370d4510dd xfs: prefer free inodes at ENOSPC over chunk allocation
+05ba6e091505d2f00376aef10c9c8d84b47da787 xfs: block reservation too large for minleft allocation
+2b8d558a6d6e39a8813f967e79091db4364a18db xfs: drop firstblock constraints from allocation setup
+6653dfe2ad3f213c67da2cfb060f0181220fe867 xfs: t_firstblock is tracking AGs not blocks
+731e889bf871e9674998520a3c7a60e0ea8c3ea0 xfs: active perag reference counting
+4119da9722e718f5c0a222bf27db0da6f6c5af6c xfs: rework the perag trace points to be perag centric
+4fcc9f7b8faa4a320d53ba0e3568bd8667e1bcdd xfs: convert xfs_imap() to take a perag
+9bd7cc877e4e3de7962bbb8ec702d32fe8b4e9d1 xfs: use active perag references for inode allocation
+15c11c089683eccff214eff83bcde26ef95642b6 xfs: inobt can use perags in many more places than it does
+14938babd9e050b7630e30da0ebbe4932742b997 xfs: convert xfs_ialloc_next_ag() to an atomic
+3d5f19b00a5c4c826c0e66e0cac275667979f50b xfs: perags need atomic operational state
+de85a4cc1657088d3d52c5a2fbbdaeb709b99466 xfs: introduce xfs_for_each_perag_wrap()
+369342329845bb06b50ab7bd84b222329e077010 xfs: rework xfs_alloc_vextent()
+9904bae3def6f2bc89d01ac9f574b01876569c9a xfs: factor xfs_alloc_vextent_this_ag() for  _iterate_ags()
+de3e49f61463828a4a34f84bee5cb826544c5d7e xfs: combine __xfs_alloc_vextent_this_ag and  xfs_alloc_ag_vextent
+cac684d7bc8d830b83313259404f5a328c4284e3 xfs: use xfs_alloc_vextent_this_ag() where appropriate
+6224eabed5f8426f7a45cd3a9ce8c867398ad7f4 xfs: factor xfs_bmap_btalloc()
+b84c9e23ff857e3ad10f78c701dfd66a8f9d4f2f xfs: use xfs_alloc_vextent_first_ag() where appropriate
+12e738dff6cf50a8007b6d671dcb05d2100a06af xfs: use xfs_alloc_vextent_start_bno() where appropriate
+abdc0d6ebbf656cd6ebe4db682ae37158b8982a0 xfs: introduce xfs_alloc_vextent_near_bno()
+a25c00514a6c5b2da2c56a83efbea8b67924b8d8 xfs: introduce xfs_alloc_vextent_exact_bno()
+2c100979e84c6858c2dd38de4df9cc094946fe70 xfs: introduce xfs_alloc_vextent_prepare()
+46b10c73a389153cfac87c834eefe3b2eb638eb4 xfs: move allocation accounting to xfs_alloc_vextent_set_fsbno()
+ce29285e06c6cb40b16bdbc8726f23d221114e42 xfs: fold xfs_alloc_ag_vextent() into callers
+ea8eb063a218e19c8259ac7944e98f05b7ae63b3 xfs: move the minimum agno checks into xfs_alloc_vextent_check_args
+c36f88c5b57737747ca120168aac976c83bc0cf6 xfs: convert xfs_alloc_vextent_iterate_ags() to use perag walker
+0c3629413cc14464556b1794941b893a06d18e8c xfs: factor out filestreams from xfs_bmap_btalloc_nullfb
+f99d1456385b31e37219fad490e06ca67b287b0e xfs: get rid of notinit from xfs_bmap_longest_free_extent
+b221c465f077e580c39454f4b8acb04ac128e56e xfs: use xfs_bmap_longest_free_extent() in filestreams
+7e1f833546a90f4c5fe781a9ce1d7a5059d6e1cd xfs: move xfs_bmap_btalloc_filestreams() to xfs_filestreams.c
+3fbffd70aa28f685c816f1bcbc3ffe0d6194327e xfs: return a referenced perag from filestreams allocator
+a6ec3ff034be124d4e6d87c123583d9e5dcc1e53 xfs: restore old agirotor behavior
+ff878ba77df258d7200850eba69362d61a66b709 xfs: try to idiot-proof the allocators
+6914894d44881664762e8e698af89520587641cd xfs: walk all AGs if TRYLOCK passed to xfs_alloc_vextent_iterate_ags
+b1752d945bec52df13ac8824247613c63f140d1e xfs: add tracepoints for each of the externally visible allocators
+df7219607d911ade1a219b620f6b42eaf62b6fb4 xfs: clear incore AGFL_RESET state if it's not needed
+6e68acc9726cdbb7b34dd71de8febea0003307c3 xfs: fix mismerged tracepoints
+
+--===============6996592148249339923==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-005dd35d1572-ce964dc74bb0.txt
+
+d0e6fb6a8285859410658dd5e26d621309373243 xfs: pass the xfs_bmbt_irec directly through the log intent code
+d87318f55513a0e444ffda574deb383709e92beb xfs: fix confusing xfs_extent_item variable names
+6e59a3b5252e6ec776e1e9d991c3a4e0acd871f8 xfs: pass rmap space mapping directly through the log intent code
+bb1beef73943adfadf8ffd8e5ec1926c5df51298 xfs: pass refcount intent directly through the log intent code
+5818641edf2143c2edf6a922dd0cf822d4e2ca17 xfs: don't use BMBT btree split workers for IO completion
+caef648de7b2255d107ebfb5b713215bec56edcc xfs: fix low space alloc deadlock
+854594740343e2b2f438da2e3d5345370d4510dd xfs: prefer free inodes at ENOSPC over chunk allocation
+05ba6e091505d2f00376aef10c9c8d84b47da787 xfs: block reservation too large for minleft allocation
+2b8d558a6d6e39a8813f967e79091db4364a18db xfs: drop firstblock constraints from allocation setup
+6653dfe2ad3f213c67da2cfb060f0181220fe867 xfs: t_firstblock is tracking AGs not blocks
+731e889bf871e9674998520a3c7a60e0ea8c3ea0 xfs: active perag reference counting
+4119da9722e718f5c0a222bf27db0da6f6c5af6c xfs: rework the perag trace points to be perag centric
+4fcc9f7b8faa4a320d53ba0e3568bd8667e1bcdd xfs: convert xfs_imap() to take a perag
+9bd7cc877e4e3de7962bbb8ec702d32fe8b4e9d1 xfs: use active perag references for inode allocation
+15c11c089683eccff214eff83bcde26ef95642b6 xfs: inobt can use perags in many more places than it does
+14938babd9e050b7630e30da0ebbe4932742b997 xfs: convert xfs_ialloc_next_ag() to an atomic
+3d5f19b00a5c4c826c0e66e0cac275667979f50b xfs: perags need atomic operational state
+de85a4cc1657088d3d52c5a2fbbdaeb709b99466 xfs: introduce xfs_for_each_perag_wrap()
+369342329845bb06b50ab7bd84b222329e077010 xfs: rework xfs_alloc_vextent()
+9904bae3def6f2bc89d01ac9f574b01876569c9a xfs: factor xfs_alloc_vextent_this_ag() for  _iterate_ags()
+de3e49f61463828a4a34f84bee5cb826544c5d7e xfs: combine __xfs_alloc_vextent_this_ag and  xfs_alloc_ag_vextent
+cac684d7bc8d830b83313259404f5a328c4284e3 xfs: use xfs_alloc_vextent_this_ag() where appropriate
+6224eabed5f8426f7a45cd3a9ce8c867398ad7f4 xfs: factor xfs_bmap_btalloc()
+b84c9e23ff857e3ad10f78c701dfd66a8f9d4f2f xfs: use xfs_alloc_vextent_first_ag() where appropriate
+12e738dff6cf50a8007b6d671dcb05d2100a06af xfs: use xfs_alloc_vextent_start_bno() where appropriate
+abdc0d6ebbf656cd6ebe4db682ae37158b8982a0 xfs: introduce xfs_alloc_vextent_near_bno()
+a25c00514a6c5b2da2c56a83efbea8b67924b8d8 xfs: introduce xfs_alloc_vextent_exact_bno()
+2c100979e84c6858c2dd38de4df9cc094946fe70 xfs: introduce xfs_alloc_vextent_prepare()
+46b10c73a389153cfac87c834eefe3b2eb638eb4 xfs: move allocation accounting to xfs_alloc_vextent_set_fsbno()
+ce29285e06c6cb40b16bdbc8726f23d221114e42 xfs: fold xfs_alloc_ag_vextent() into callers
+ea8eb063a218e19c8259ac7944e98f05b7ae63b3 xfs: move the minimum agno checks into xfs_alloc_vextent_check_args
+c36f88c5b57737747ca120168aac976c83bc0cf6 xfs: convert xfs_alloc_vextent_iterate_ags() to use perag walker
+0c3629413cc14464556b1794941b893a06d18e8c xfs: factor out filestreams from xfs_bmap_btalloc_nullfb
+f99d1456385b31e37219fad490e06ca67b287b0e xfs: get rid of notinit from xfs_bmap_longest_free_extent
+b221c465f077e580c39454f4b8acb04ac128e56e xfs: use xfs_bmap_longest_free_extent() in filestreams
+7e1f833546a90f4c5fe781a9ce1d7a5059d6e1cd xfs: move xfs_bmap_btalloc_filestreams() to xfs_filestreams.c
+3fbffd70aa28f685c816f1bcbc3ffe0d6194327e xfs: return a referenced perag from filestreams allocator
+a6ec3ff034be124d4e6d87c123583d9e5dcc1e53 xfs: restore old agirotor behavior
+ff878ba77df258d7200850eba69362d61a66b709 xfs: try to idiot-proof the allocators
+6914894d44881664762e8e698af89520587641cd xfs: walk all AGs if TRYLOCK passed to xfs_alloc_vextent_iterate_ags
+b1752d945bec52df13ac8824247613c63f140d1e xfs: add tracepoints for each of the externally visible allocators
+df7219607d911ade1a219b620f6b42eaf62b6fb4 xfs: clear incore AGFL_RESET state if it's not needed
+6e68acc9726cdbb7b34dd71de8febea0003307c3 xfs: fix mismerged tracepoints
+01ef36a7d61e24dec45946c714c6f9f4ef5853e3 xfs: make xfs_attr_set require XFS_DA_OP_REMOVE
+6f039a0b602642092e6d94a5074f2f61d06b1313 xfs: allow xattr matching on name and value for local/sf attrs
+33b799bab165a01fbb499b8167c54bcab07f4847 xfs: preserve NVLOOKUP in xfs_attr_set
+09e8a6d6155c86e6c9e6fa964b89e68e7b5e904a xfs: restructure xfs_attr_complete_op a bit
+ec3474898fe413f85e5e3da717ab950e46e7c241 xfs: use helpers to extract xattr op from opflags
+de1ebb31f059326dba4b8c71ee61775ad1a0ee10 xfs: log NVLOOKUP xattr removal operations
+3d7a754bd39fc89a01a09542ceb91bba246df33b xfs: log NVLOOKUP xattr setting operations
+8d87fd470995041bbe6c4b5bba6fe0b4fda8562e xfs: log NVLOOKUP xattr nvreplace operations
+432376f15221dbb4b8b92e586fe5d63caf522575 xfs_logprint: dump new attr log item fields
+b62ca7edb1b0afb080165cc61ebadf64869b1b27 xfs_logprint: print missing attri header fields
+763bca64e6645ac0a3091f90826bc96b3e1f1883 xfsprogs: Increase XFS_DEFER_OPS_NR_INODES to 5
+719d39b38538cf8fc9ab380c658dc470d4c26b39 xfs: add parent pointer support to attribute code
+33162bd0c4cce72979e38a8421d6e1eaf90e03ce xfs: define parent pointer ondisk extended attribute format
+3701f3fa648645e979592b86d7ea3e981e0a5f53 xfs: add parent pointer validator functions
+453ebb885483c26085fd6ac8595012294f639fe2 xfs: extend transaction reservations for parent attributes
+3a0b1f3978a8a15c3ec3a7b2475048c97d423352 xfs: parent pointer attribute creation
+a386d9762d846d6dbb3af49e6f912c2b3fb3da9d xfs: add parent attributes to link
+c7c0d50824a910560c34ce53cb71ddb013fec173 xfs: add parent attributes to symlink
+329de8dd75219dc9517bf615398a3bdcb3ef1c73 xfs: remove parent pointers in unlink
+9b44409004a2c230c0308d398fbe5ff81fe44323 xfs: Add parent pointers to rename
+91c69ae691869d1545bac53a3b1a4abea0dc0551 xfsprogs: pass the attr value to put_listent when possible
+69a5a0de4dd890f6d6f33ba57c3178e3f7cba1cc xfs: add a libxfs header file for staging new ioctls
+efffc908b75dc5367a873b7b6978eab7f18ff1ed xfs: Add parent pointer ioctl
+502a28b8541a32ee825099d611c9ee8e415bb9aa xfs: fix unit conversion error in xfs_log_calc_max_attrsetm_res
+f772fde9a40882b90d5e0348c960e97cb6ab4d34 xfs: drop compatibility minimum log size computations for reflink
+678d9aade30c30bb94e64e4d46dc432bb414a50b xfs: don't remove the attr fork when parent pointers are enabled
+a04deebd86662979720a1105114b9ee5b6e9f36d xfs: Add the parent pointer support to the superblock version 5.
+4e5a4d55e155fb8f4c49284fb09e6e5a3320e6b5 libfrog: add parent pointer support code
+e215bc8c8f2b239fbfc43b689377cf2dc9bf693a xfs_io: adapt parent command to new parent pointer ioctls
+048be613a813e1b93680787aef2ebb6b2d007940 xfs_io: Add i, n and f flags to parent command
+6a468db151a44cc7a22db9fc276608fac060cd46 xfs_logprint: decode parent pointers in ATTRI items fully
+b78d11479bd6c3c08d3fe006003ef25a9fbf0440 xfs_scrub: use parent pointers when possible to report file operations
+856f7c1d74ce1a45e2cecf6f6c9090520cf6ea8b xfs_db: report parent bit on xattrs
+3908a16d419d8b31f09a53c428cdf1a6a3b87b4a xfs_db: report parent pointers embedded in xattrs
+961a60fb7ca90511e1f4d03251eb4d4963d7b88c xfs_db: obfuscate dirent and parent pointer names consistently
+3198c857882ccbef055ca031a2c74cf11f57a4c3 xfs_db: hoist name obfuscation code out of metadump.c
+b1dea57ffad39671a01348e7f48822da80c607ce xfs_db: create dirents and xattrs with colliding names
+2c6e8312ba927b8d44eb98f0f3eae6c99b3cfdab xfs_db: add a parents command to list the parents of a file
+c0c27b89939a0a70f728942be1b0df1580bb8c1d libxfs: create new files with attr forks if necessary
+b5f704cb782790970119344d93ab634bb9e6924c xfsprogs: Fix default superblock attr bits
+d903a9bb2a1c1447ca9f15f0585b27aea7a25cb2 mkfs: Add parent pointers during protofile creation
+f569afa9b6dfcecb147ca1dcb937cb85725bf74a mkfs: enable formatting with parent pointers
+357d763f94c03c31ac0090dab888794e46ccc59a xfs: teach scrub to check file nlinks
+1e9827f41939cd2ecde21d51e366acbc59072fef libxfs: add xfile support
+0133b41e1a17e398d2b1280809a7ad5782aaae6c xfs: track file link count updates during live nlinks fsck
+48d65b60995d23f3a595e7bcaf1384023368fb7f xfs: create a blob array data structure
+e641d15e44802532a61ae9b81f3caea5708808f8 libxfs: export attr3_leaf_hdr_from_disk via libxfs_api_defs.h
+425a4dd26dfc1c81857c68ad7f5b0a428dd00124 xfs: add hooks to do directory updates
+6d27a8bd89efdd6ab797d62d4508c1d807c9dfad xfs: deferred scrub of parent pointers
+22146010fac11179ac03bb7c6f217516241808ad xfs: repair parent pointers by scanning directories
+2fe3a5d3c5af9c46998ec703c0e42c5a3dfbc07b xfs: repair parent pointers with live scan hooks
+dc65ba1b1dd37891efeeb361fc6d4484f821df96 xfs_repair: build a parent pointer index
+ade501ea7d7958954e3cd7f4cd5649784f9582e2 xfs_repair: move the global dirent name store to a separate object
+986746945d9a5397602d8f3e0a12fb1f8020d0d7 xfs_repair: deduplicate strings stored in string blob
+8b1143658f4a8c37dc53bfe14bfaa7b0963802a3 xfs_repair: check parent pointers
+d51ea4854349ff707b83f645f49c3ec2c506e7b9 xfs_repair: dump garbage parent pointer attributes
+0d4b97a2c372aa36b97d286623225ac4bdea5595 xfs_repair: update ondisk parent pointer records
+c56d8b660ec8f00c6533c7535e18840180203b75 xfs_repair: wipe ondisk parent pointers when there are none
+39968514a23231efd0b140e646efde41df617068 mkfs: enable large extent counts by default
+e5a2e2b64e5f11ca7978bf9215c15c577de8b427 mkfs: enable reverse mapping by default
+ce964dc74bb06f0baefc0368818fec8b88999640 mkfs: enable parent pointers by default
+
+--===============6996592148249339923==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-1fe0bf40d65a-c56d8b660ec8.txt
+
+d0e6fb6a8285859410658dd5e26d621309373243 xfs: pass the xfs_bmbt_irec directly through the log intent code
+d87318f55513a0e444ffda574deb383709e92beb xfs: fix confusing xfs_extent_item variable names
+6e59a3b5252e6ec776e1e9d991c3a4e0acd871f8 xfs: pass rmap space mapping directly through the log intent code
+bb1beef73943adfadf8ffd8e5ec1926c5df51298 xfs: pass refcount intent directly through the log intent code
+5818641edf2143c2edf6a922dd0cf822d4e2ca17 xfs: don't use BMBT btree split workers for IO completion
+caef648de7b2255d107ebfb5b713215bec56edcc xfs: fix low space alloc deadlock
+854594740343e2b2f438da2e3d5345370d4510dd xfs: prefer free inodes at ENOSPC over chunk allocation
+05ba6e091505d2f00376aef10c9c8d84b47da787 xfs: block reservation too large for minleft allocation
+2b8d558a6d6e39a8813f967e79091db4364a18db xfs: drop firstblock constraints from allocation setup
+6653dfe2ad3f213c67da2cfb060f0181220fe867 xfs: t_firstblock is tracking AGs not blocks
+731e889bf871e9674998520a3c7a60e0ea8c3ea0 xfs: active perag reference counting
+4119da9722e718f5c0a222bf27db0da6f6c5af6c xfs: rework the perag trace points to be perag centric
+4fcc9f7b8faa4a320d53ba0e3568bd8667e1bcdd xfs: convert xfs_imap() to take a perag
+9bd7cc877e4e3de7962bbb8ec702d32fe8b4e9d1 xfs: use active perag references for inode allocation
+15c11c089683eccff214eff83bcde26ef95642b6 xfs: inobt can use perags in many more places than it does
+14938babd9e050b7630e30da0ebbe4932742b997 xfs: convert xfs_ialloc_next_ag() to an atomic
+3d5f19b00a5c4c826c0e66e0cac275667979f50b xfs: perags need atomic operational state
+de85a4cc1657088d3d52c5a2fbbdaeb709b99466 xfs: introduce xfs_for_each_perag_wrap()
+369342329845bb06b50ab7bd84b222329e077010 xfs: rework xfs_alloc_vextent()
+9904bae3def6f2bc89d01ac9f574b01876569c9a xfs: factor xfs_alloc_vextent_this_ag() for  _iterate_ags()
+de3e49f61463828a4a34f84bee5cb826544c5d7e xfs: combine __xfs_alloc_vextent_this_ag and  xfs_alloc_ag_vextent
+cac684d7bc8d830b83313259404f5a328c4284e3 xfs: use xfs_alloc_vextent_this_ag() where appropriate
+6224eabed5f8426f7a45cd3a9ce8c867398ad7f4 xfs: factor xfs_bmap_btalloc()
+b84c9e23ff857e3ad10f78c701dfd66a8f9d4f2f xfs: use xfs_alloc_vextent_first_ag() where appropriate
+12e738dff6cf50a8007b6d671dcb05d2100a06af xfs: use xfs_alloc_vextent_start_bno() where appropriate
+abdc0d6ebbf656cd6ebe4db682ae37158b8982a0 xfs: introduce xfs_alloc_vextent_near_bno()
+a25c00514a6c5b2da2c56a83efbea8b67924b8d8 xfs: introduce xfs_alloc_vextent_exact_bno()
+2c100979e84c6858c2dd38de4df9cc094946fe70 xfs: introduce xfs_alloc_vextent_prepare()
+46b10c73a389153cfac87c834eefe3b2eb638eb4 xfs: move allocation accounting to xfs_alloc_vextent_set_fsbno()
+ce29285e06c6cb40b16bdbc8726f23d221114e42 xfs: fold xfs_alloc_ag_vextent() into callers
+ea8eb063a218e19c8259ac7944e98f05b7ae63b3 xfs: move the minimum agno checks into xfs_alloc_vextent_check_args
+c36f88c5b57737747ca120168aac976c83bc0cf6 xfs: convert xfs_alloc_vextent_iterate_ags() to use perag walker
+0c3629413cc14464556b1794941b893a06d18e8c xfs: factor out filestreams from xfs_bmap_btalloc_nullfb
+f99d1456385b31e37219fad490e06ca67b287b0e xfs: get rid of notinit from xfs_bmap_longest_free_extent
+b221c465f077e580c39454f4b8acb04ac128e56e xfs: use xfs_bmap_longest_free_extent() in filestreams
+7e1f833546a90f4c5fe781a9ce1d7a5059d6e1cd xfs: move xfs_bmap_btalloc_filestreams() to xfs_filestreams.c
+3fbffd70aa28f685c816f1bcbc3ffe0d6194327e xfs: return a referenced perag from filestreams allocator
+a6ec3ff034be124d4e6d87c123583d9e5dcc1e53 xfs: restore old agirotor behavior
+ff878ba77df258d7200850eba69362d61a66b709 xfs: try to idiot-proof the allocators
+6914894d44881664762e8e698af89520587641cd xfs: walk all AGs if TRYLOCK passed to xfs_alloc_vextent_iterate_ags
+b1752d945bec52df13ac8824247613c63f140d1e xfs: add tracepoints for each of the externally visible allocators
+df7219607d911ade1a219b620f6b42eaf62b6fb4 xfs: clear incore AGFL_RESET state if it's not needed
+6e68acc9726cdbb7b34dd71de8febea0003307c3 xfs: fix mismerged tracepoints
+01ef36a7d61e24dec45946c714c6f9f4ef5853e3 xfs: make xfs_attr_set require XFS_DA_OP_REMOVE
+6f039a0b602642092e6d94a5074f2f61d06b1313 xfs: allow xattr matching on name and value for local/sf attrs
+33b799bab165a01fbb499b8167c54bcab07f4847 xfs: preserve NVLOOKUP in xfs_attr_set
+09e8a6d6155c86e6c9e6fa964b89e68e7b5e904a xfs: restructure xfs_attr_complete_op a bit
+ec3474898fe413f85e5e3da717ab950e46e7c241 xfs: use helpers to extract xattr op from opflags
+de1ebb31f059326dba4b8c71ee61775ad1a0ee10 xfs: log NVLOOKUP xattr removal operations
+3d7a754bd39fc89a01a09542ceb91bba246df33b xfs: log NVLOOKUP xattr setting operations
+8d87fd470995041bbe6c4b5bba6fe0b4fda8562e xfs: log NVLOOKUP xattr nvreplace operations
+432376f15221dbb4b8b92e586fe5d63caf522575 xfs_logprint: dump new attr log item fields
+b62ca7edb1b0afb080165cc61ebadf64869b1b27 xfs_logprint: print missing attri header fields
+763bca64e6645ac0a3091f90826bc96b3e1f1883 xfsprogs: Increase XFS_DEFER_OPS_NR_INODES to 5
+719d39b38538cf8fc9ab380c658dc470d4c26b39 xfs: add parent pointer support to attribute code
+33162bd0c4cce72979e38a8421d6e1eaf90e03ce xfs: define parent pointer ondisk extended attribute format
+3701f3fa648645e979592b86d7ea3e981e0a5f53 xfs: add parent pointer validator functions
+453ebb885483c26085fd6ac8595012294f639fe2 xfs: extend transaction reservations for parent attributes
+3a0b1f3978a8a15c3ec3a7b2475048c97d423352 xfs: parent pointer attribute creation
+a386d9762d846d6dbb3af49e6f912c2b3fb3da9d xfs: add parent attributes to link
+c7c0d50824a910560c34ce53cb71ddb013fec173 xfs: add parent attributes to symlink
+329de8dd75219dc9517bf615398a3bdcb3ef1c73 xfs: remove parent pointers in unlink
+9b44409004a2c230c0308d398fbe5ff81fe44323 xfs: Add parent pointers to rename
+91c69ae691869d1545bac53a3b1a4abea0dc0551 xfsprogs: pass the attr value to put_listent when possible
+69a5a0de4dd890f6d6f33ba57c3178e3f7cba1cc xfs: add a libxfs header file for staging new ioctls
+efffc908b75dc5367a873b7b6978eab7f18ff1ed xfs: Add parent pointer ioctl
+502a28b8541a32ee825099d611c9ee8e415bb9aa xfs: fix unit conversion error in xfs_log_calc_max_attrsetm_res
+f772fde9a40882b90d5e0348c960e97cb6ab4d34 xfs: drop compatibility minimum log size computations for reflink
+678d9aade30c30bb94e64e4d46dc432bb414a50b xfs: don't remove the attr fork when parent pointers are enabled
+a04deebd86662979720a1105114b9ee5b6e9f36d xfs: Add the parent pointer support to the superblock version 5.
+4e5a4d55e155fb8f4c49284fb09e6e5a3320e6b5 libfrog: add parent pointer support code
+e215bc8c8f2b239fbfc43b689377cf2dc9bf693a xfs_io: adapt parent command to new parent pointer ioctls
+048be613a813e1b93680787aef2ebb6b2d007940 xfs_io: Add i, n and f flags to parent command
+6a468db151a44cc7a22db9fc276608fac060cd46 xfs_logprint: decode parent pointers in ATTRI items fully
+b78d11479bd6c3c08d3fe006003ef25a9fbf0440 xfs_scrub: use parent pointers when possible to report file operations
+856f7c1d74ce1a45e2cecf6f6c9090520cf6ea8b xfs_db: report parent bit on xattrs
+3908a16d419d8b31f09a53c428cdf1a6a3b87b4a xfs_db: report parent pointers embedded in xattrs
+961a60fb7ca90511e1f4d03251eb4d4963d7b88c xfs_db: obfuscate dirent and parent pointer names consistently
+3198c857882ccbef055ca031a2c74cf11f57a4c3 xfs_db: hoist name obfuscation code out of metadump.c
+b1dea57ffad39671a01348e7f48822da80c607ce xfs_db: create dirents and xattrs with colliding names
+2c6e8312ba927b8d44eb98f0f3eae6c99b3cfdab xfs_db: add a parents command to list the parents of a file
+c0c27b89939a0a70f728942be1b0df1580bb8c1d libxfs: create new files with attr forks if necessary
+b5f704cb782790970119344d93ab634bb9e6924c xfsprogs: Fix default superblock attr bits
+d903a9bb2a1c1447ca9f15f0585b27aea7a25cb2 mkfs: Add parent pointers during protofile creation
+f569afa9b6dfcecb147ca1dcb937cb85725bf74a mkfs: enable formatting with parent pointers
+357d763f94c03c31ac0090dab888794e46ccc59a xfs: teach scrub to check file nlinks
+1e9827f41939cd2ecde21d51e366acbc59072fef libxfs: add xfile support
+0133b41e1a17e398d2b1280809a7ad5782aaae6c xfs: track file link count updates during live nlinks fsck
+48d65b60995d23f3a595e7bcaf1384023368fb7f xfs: create a blob array data structure
+e641d15e44802532a61ae9b81f3caea5708808f8 libxfs: export attr3_leaf_hdr_from_disk via libxfs_api_defs.h
+425a4dd26dfc1c81857c68ad7f5b0a428dd00124 xfs: add hooks to do directory updates
+6d27a8bd89efdd6ab797d62d4508c1d807c9dfad xfs: deferred scrub of parent pointers
+22146010fac11179ac03bb7c6f217516241808ad xfs: repair parent pointers by scanning directories
+2fe3a5d3c5af9c46998ec703c0e42c5a3dfbc07b xfs: repair parent pointers with live scan hooks
+dc65ba1b1dd37891efeeb361fc6d4484f821df96 xfs_repair: build a parent pointer index
+ade501ea7d7958954e3cd7f4cd5649784f9582e2 xfs_repair: move the global dirent name store to a separate object
+986746945d9a5397602d8f3e0a12fb1f8020d0d7 xfs_repair: deduplicate strings stored in string blob
+8b1143658f4a8c37dc53bfe14bfaa7b0963802a3 xfs_repair: check parent pointers
+d51ea4854349ff707b83f645f49c3ec2c506e7b9 xfs_repair: dump garbage parent pointer attributes
+0d4b97a2c372aa36b97d286623225ac4bdea5595 xfs_repair: update ondisk parent pointer records
+c56d8b660ec8f00c6533c7535e18840180203b75 xfs_repair: wipe ondisk parent pointers when there are none
+
+--===============6996592148249339923==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-c33fe95a84d5-425a4dd26dfc.txt
+
+d0e6fb6a8285859410658dd5e26d621309373243 xfs: pass the xfs_bmbt_irec directly through the log intent code
+d87318f55513a0e444ffda574deb383709e92beb xfs: fix confusing xfs_extent_item variable names
+6e59a3b5252e6ec776e1e9d991c3a4e0acd871f8 xfs: pass rmap space mapping directly through the log intent code
+bb1beef73943adfadf8ffd8e5ec1926c5df51298 xfs: pass refcount intent directly through the log intent code
+5818641edf2143c2edf6a922dd0cf822d4e2ca17 xfs: don't use BMBT btree split workers for IO completion
+caef648de7b2255d107ebfb5b713215bec56edcc xfs: fix low space alloc deadlock
+854594740343e2b2f438da2e3d5345370d4510dd xfs: prefer free inodes at ENOSPC over chunk allocation
+05ba6e091505d2f00376aef10c9c8d84b47da787 xfs: block reservation too large for minleft allocation
+2b8d558a6d6e39a8813f967e79091db4364a18db xfs: drop firstblock constraints from allocation setup
+6653dfe2ad3f213c67da2cfb060f0181220fe867 xfs: t_firstblock is tracking AGs not blocks
+731e889bf871e9674998520a3c7a60e0ea8c3ea0 xfs: active perag reference counting
+4119da9722e718f5c0a222bf27db0da6f6c5af6c xfs: rework the perag trace points to be perag centric
+4fcc9f7b8faa4a320d53ba0e3568bd8667e1bcdd xfs: convert xfs_imap() to take a perag
+9bd7cc877e4e3de7962bbb8ec702d32fe8b4e9d1 xfs: use active perag references for inode allocation
+15c11c089683eccff214eff83bcde26ef95642b6 xfs: inobt can use perags in many more places than it does
+14938babd9e050b7630e30da0ebbe4932742b997 xfs: convert xfs_ialloc_next_ag() to an atomic
+3d5f19b00a5c4c826c0e66e0cac275667979f50b xfs: perags need atomic operational state
+de85a4cc1657088d3d52c5a2fbbdaeb709b99466 xfs: introduce xfs_for_each_perag_wrap()
+369342329845bb06b50ab7bd84b222329e077010 xfs: rework xfs_alloc_vextent()
+9904bae3def6f2bc89d01ac9f574b01876569c9a xfs: factor xfs_alloc_vextent_this_ag() for  _iterate_ags()
+de3e49f61463828a4a34f84bee5cb826544c5d7e xfs: combine __xfs_alloc_vextent_this_ag and  xfs_alloc_ag_vextent
+cac684d7bc8d830b83313259404f5a328c4284e3 xfs: use xfs_alloc_vextent_this_ag() where appropriate
+6224eabed5f8426f7a45cd3a9ce8c867398ad7f4 xfs: factor xfs_bmap_btalloc()
+b84c9e23ff857e3ad10f78c701dfd66a8f9d4f2f xfs: use xfs_alloc_vextent_first_ag() where appropriate
+12e738dff6cf50a8007b6d671dcb05d2100a06af xfs: use xfs_alloc_vextent_start_bno() where appropriate
+abdc0d6ebbf656cd6ebe4db682ae37158b8982a0 xfs: introduce xfs_alloc_vextent_near_bno()
+a25c00514a6c5b2da2c56a83efbea8b67924b8d8 xfs: introduce xfs_alloc_vextent_exact_bno()
+2c100979e84c6858c2dd38de4df9cc094946fe70 xfs: introduce xfs_alloc_vextent_prepare()
+46b10c73a389153cfac87c834eefe3b2eb638eb4 xfs: move allocation accounting to xfs_alloc_vextent_set_fsbno()
+ce29285e06c6cb40b16bdbc8726f23d221114e42 xfs: fold xfs_alloc_ag_vextent() into callers
+ea8eb063a218e19c8259ac7944e98f05b7ae63b3 xfs: move the minimum agno checks into xfs_alloc_vextent_check_args
+c36f88c5b57737747ca120168aac976c83bc0cf6 xfs: convert xfs_alloc_vextent_iterate_ags() to use perag walker
+0c3629413cc14464556b1794941b893a06d18e8c xfs: factor out filestreams from xfs_bmap_btalloc_nullfb
+f99d1456385b31e37219fad490e06ca67b287b0e xfs: get rid of notinit from xfs_bmap_longest_free_extent
+b221c465f077e580c39454f4b8acb04ac128e56e xfs: use xfs_bmap_longest_free_extent() in filestreams
+7e1f833546a90f4c5fe781a9ce1d7a5059d6e1cd xfs: move xfs_bmap_btalloc_filestreams() to xfs_filestreams.c
+3fbffd70aa28f685c816f1bcbc3ffe0d6194327e xfs: return a referenced perag from filestreams allocator
+a6ec3ff034be124d4e6d87c123583d9e5dcc1e53 xfs: restore old agirotor behavior
+ff878ba77df258d7200850eba69362d61a66b709 xfs: try to idiot-proof the allocators
+6914894d44881664762e8e698af89520587641cd xfs: walk all AGs if TRYLOCK passed to xfs_alloc_vextent_iterate_ags
+b1752d945bec52df13ac8824247613c63f140d1e xfs: add tracepoints for each of the externally visible allocators
+df7219607d911ade1a219b620f6b42eaf62b6fb4 xfs: clear incore AGFL_RESET state if it's not needed
+6e68acc9726cdbb7b34dd71de8febea0003307c3 xfs: fix mismerged tracepoints
+01ef36a7d61e24dec45946c714c6f9f4ef5853e3 xfs: make xfs_attr_set require XFS_DA_OP_REMOVE
+6f039a0b602642092e6d94a5074f2f61d06b1313 xfs: allow xattr matching on name and value for local/sf attrs
+33b799bab165a01fbb499b8167c54bcab07f4847 xfs: preserve NVLOOKUP in xfs_attr_set
+09e8a6d6155c86e6c9e6fa964b89e68e7b5e904a xfs: restructure xfs_attr_complete_op a bit
+ec3474898fe413f85e5e3da717ab950e46e7c241 xfs: use helpers to extract xattr op from opflags
+de1ebb31f059326dba4b8c71ee61775ad1a0ee10 xfs: log NVLOOKUP xattr removal operations
+3d7a754bd39fc89a01a09542ceb91bba246df33b xfs: log NVLOOKUP xattr setting operations
+8d87fd470995041bbe6c4b5bba6fe0b4fda8562e xfs: log NVLOOKUP xattr nvreplace operations
+432376f15221dbb4b8b92e586fe5d63caf522575 xfs_logprint: dump new attr log item fields
+b62ca7edb1b0afb080165cc61ebadf64869b1b27 xfs_logprint: print missing attri header fields
+763bca64e6645ac0a3091f90826bc96b3e1f1883 xfsprogs: Increase XFS_DEFER_OPS_NR_INODES to 5
+719d39b38538cf8fc9ab380c658dc470d4c26b39 xfs: add parent pointer support to attribute code
+33162bd0c4cce72979e38a8421d6e1eaf90e03ce xfs: define parent pointer ondisk extended attribute format
+3701f3fa648645e979592b86d7ea3e981e0a5f53 xfs: add parent pointer validator functions
+453ebb885483c26085fd6ac8595012294f639fe2 xfs: extend transaction reservations for parent attributes
+3a0b1f3978a8a15c3ec3a7b2475048c97d423352 xfs: parent pointer attribute creation
+a386d9762d846d6dbb3af49e6f912c2b3fb3da9d xfs: add parent attributes to link
+c7c0d50824a910560c34ce53cb71ddb013fec173 xfs: add parent attributes to symlink
+329de8dd75219dc9517bf615398a3bdcb3ef1c73 xfs: remove parent pointers in unlink
+9b44409004a2c230c0308d398fbe5ff81fe44323 xfs: Add parent pointers to rename
+91c69ae691869d1545bac53a3b1a4abea0dc0551 xfsprogs: pass the attr value to put_listent when possible
+69a5a0de4dd890f6d6f33ba57c3178e3f7cba1cc xfs: add a libxfs header file for staging new ioctls
+efffc908b75dc5367a873b7b6978eab7f18ff1ed xfs: Add parent pointer ioctl
+502a28b8541a32ee825099d611c9ee8e415bb9aa xfs: fix unit conversion error in xfs_log_calc_max_attrsetm_res
+f772fde9a40882b90d5e0348c960e97cb6ab4d34 xfs: drop compatibility minimum log size computations for reflink
+678d9aade30c30bb94e64e4d46dc432bb414a50b xfs: don't remove the attr fork when parent pointers are enabled
+a04deebd86662979720a1105114b9ee5b6e9f36d xfs: Add the parent pointer support to the superblock version 5.
+4e5a4d55e155fb8f4c49284fb09e6e5a3320e6b5 libfrog: add parent pointer support code
+e215bc8c8f2b239fbfc43b689377cf2dc9bf693a xfs_io: adapt parent command to new parent pointer ioctls
+048be613a813e1b93680787aef2ebb6b2d007940 xfs_io: Add i, n and f flags to parent command
+6a468db151a44cc7a22db9fc276608fac060cd46 xfs_logprint: decode parent pointers in ATTRI items fully
+b78d11479bd6c3c08d3fe006003ef25a9fbf0440 xfs_scrub: use parent pointers when possible to report file operations
+856f7c1d74ce1a45e2cecf6f6c9090520cf6ea8b xfs_db: report parent bit on xattrs
+3908a16d419d8b31f09a53c428cdf1a6a3b87b4a xfs_db: report parent pointers embedded in xattrs
+961a60fb7ca90511e1f4d03251eb4d4963d7b88c xfs_db: obfuscate dirent and parent pointer names consistently
+3198c857882ccbef055ca031a2c74cf11f57a4c3 xfs_db: hoist name obfuscation code out of metadump.c
+b1dea57ffad39671a01348e7f48822da80c607ce xfs_db: create dirents and xattrs with colliding names
+2c6e8312ba927b8d44eb98f0f3eae6c99b3cfdab xfs_db: add a parents command to list the parents of a file
+c0c27b89939a0a70f728942be1b0df1580bb8c1d libxfs: create new files with attr forks if necessary
+b5f704cb782790970119344d93ab634bb9e6924c xfsprogs: Fix default superblock attr bits
+d903a9bb2a1c1447ca9f15f0585b27aea7a25cb2 mkfs: Add parent pointers during protofile creation
+f569afa9b6dfcecb147ca1dcb937cb85725bf74a mkfs: enable formatting with parent pointers
+357d763f94c03c31ac0090dab888794e46ccc59a xfs: teach scrub to check file nlinks
+1e9827f41939cd2ecde21d51e366acbc59072fef libxfs: add xfile support
+0133b41e1a17e398d2b1280809a7ad5782aaae6c xfs: track file link count updates during live nlinks fsck
+48d65b60995d23f3a595e7bcaf1384023368fb7f xfs: create a blob array data structure
+e641d15e44802532a61ae9b81f3caea5708808f8 libxfs: export attr3_leaf_hdr_from_disk via libxfs_api_defs.h
+425a4dd26dfc1c81857c68ad7f5b0a428dd00124 xfs: add hooks to do directory updates
+
+--===============6996592148249339923==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-5cf03ddb097b-e641d15e4480.txt
+
+d0e6fb6a8285859410658dd5e26d621309373243 xfs: pass the xfs_bmbt_irec directly through the log intent code
+d87318f55513a0e444ffda574deb383709e92beb xfs: fix confusing xfs_extent_item variable names
+6e59a3b5252e6ec776e1e9d991c3a4e0acd871f8 xfs: pass rmap space mapping directly through the log intent code
+bb1beef73943adfadf8ffd8e5ec1926c5df51298 xfs: pass refcount intent directly through the log intent code
+5818641edf2143c2edf6a922dd0cf822d4e2ca17 xfs: don't use BMBT btree split workers for IO completion
+caef648de7b2255d107ebfb5b713215bec56edcc xfs: fix low space alloc deadlock
+854594740343e2b2f438da2e3d5345370d4510dd xfs: prefer free inodes at ENOSPC over chunk allocation
+05ba6e091505d2f00376aef10c9c8d84b47da787 xfs: block reservation too large for minleft allocation
+2b8d558a6d6e39a8813f967e79091db4364a18db xfs: drop firstblock constraints from allocation setup
+6653dfe2ad3f213c67da2cfb060f0181220fe867 xfs: t_firstblock is tracking AGs not blocks
+731e889bf871e9674998520a3c7a60e0ea8c3ea0 xfs: active perag reference counting
+4119da9722e718f5c0a222bf27db0da6f6c5af6c xfs: rework the perag trace points to be perag centric
+4fcc9f7b8faa4a320d53ba0e3568bd8667e1bcdd xfs: convert xfs_imap() to take a perag
+9bd7cc877e4e3de7962bbb8ec702d32fe8b4e9d1 xfs: use active perag references for inode allocation
+15c11c089683eccff214eff83bcde26ef95642b6 xfs: inobt can use perags in many more places than it does
+14938babd9e050b7630e30da0ebbe4932742b997 xfs: convert xfs_ialloc_next_ag() to an atomic
+3d5f19b00a5c4c826c0e66e0cac275667979f50b xfs: perags need atomic operational state
+de85a4cc1657088d3d52c5a2fbbdaeb709b99466 xfs: introduce xfs_for_each_perag_wrap()
+369342329845bb06b50ab7bd84b222329e077010 xfs: rework xfs_alloc_vextent()
+9904bae3def6f2bc89d01ac9f574b01876569c9a xfs: factor xfs_alloc_vextent_this_ag() for  _iterate_ags()
+de3e49f61463828a4a34f84bee5cb826544c5d7e xfs: combine __xfs_alloc_vextent_this_ag and  xfs_alloc_ag_vextent
+cac684d7bc8d830b83313259404f5a328c4284e3 xfs: use xfs_alloc_vextent_this_ag() where appropriate
+6224eabed5f8426f7a45cd3a9ce8c867398ad7f4 xfs: factor xfs_bmap_btalloc()
+b84c9e23ff857e3ad10f78c701dfd66a8f9d4f2f xfs: use xfs_alloc_vextent_first_ag() where appropriate
+12e738dff6cf50a8007b6d671dcb05d2100a06af xfs: use xfs_alloc_vextent_start_bno() where appropriate
+abdc0d6ebbf656cd6ebe4db682ae37158b8982a0 xfs: introduce xfs_alloc_vextent_near_bno()
+a25c00514a6c5b2da2c56a83efbea8b67924b8d8 xfs: introduce xfs_alloc_vextent_exact_bno()
+2c100979e84c6858c2dd38de4df9cc094946fe70 xfs: introduce xfs_alloc_vextent_prepare()
+46b10c73a389153cfac87c834eefe3b2eb638eb4 xfs: move allocation accounting to xfs_alloc_vextent_set_fsbno()
+ce29285e06c6cb40b16bdbc8726f23d221114e42 xfs: fold xfs_alloc_ag_vextent() into callers
+ea8eb063a218e19c8259ac7944e98f05b7ae63b3 xfs: move the minimum agno checks into xfs_alloc_vextent_check_args
+c36f88c5b57737747ca120168aac976c83bc0cf6 xfs: convert xfs_alloc_vextent_iterate_ags() to use perag walker
+0c3629413cc14464556b1794941b893a06d18e8c xfs: factor out filestreams from xfs_bmap_btalloc_nullfb
+f99d1456385b31e37219fad490e06ca67b287b0e xfs: get rid of notinit from xfs_bmap_longest_free_extent
+b221c465f077e580c39454f4b8acb04ac128e56e xfs: use xfs_bmap_longest_free_extent() in filestreams
+7e1f833546a90f4c5fe781a9ce1d7a5059d6e1cd xfs: move xfs_bmap_btalloc_filestreams() to xfs_filestreams.c
+3fbffd70aa28f685c816f1bcbc3ffe0d6194327e xfs: return a referenced perag from filestreams allocator
+a6ec3ff034be124d4e6d87c123583d9e5dcc1e53 xfs: restore old agirotor behavior
+ff878ba77df258d7200850eba69362d61a66b709 xfs: try to idiot-proof the allocators
+6914894d44881664762e8e698af89520587641cd xfs: walk all AGs if TRYLOCK passed to xfs_alloc_vextent_iterate_ags
+b1752d945bec52df13ac8824247613c63f140d1e xfs: add tracepoints for each of the externally visible allocators
+df7219607d911ade1a219b620f6b42eaf62b6fb4 xfs: clear incore AGFL_RESET state if it's not needed
+6e68acc9726cdbb7b34dd71de8febea0003307c3 xfs: fix mismerged tracepoints
+01ef36a7d61e24dec45946c714c6f9f4ef5853e3 xfs: make xfs_attr_set require XFS_DA_OP_REMOVE
+6f039a0b602642092e6d94a5074f2f61d06b1313 xfs: allow xattr matching on name and value for local/sf attrs
+33b799bab165a01fbb499b8167c54bcab07f4847 xfs: preserve NVLOOKUP in xfs_attr_set
+09e8a6d6155c86e6c9e6fa964b89e68e7b5e904a xfs: restructure xfs_attr_complete_op a bit
+ec3474898fe413f85e5e3da717ab950e46e7c241 xfs: use helpers to extract xattr op from opflags
+de1ebb31f059326dba4b8c71ee61775ad1a0ee10 xfs: log NVLOOKUP xattr removal operations
+3d7a754bd39fc89a01a09542ceb91bba246df33b xfs: log NVLOOKUP xattr setting operations
+8d87fd470995041bbe6c4b5bba6fe0b4fda8562e xfs: log NVLOOKUP xattr nvreplace operations
+432376f15221dbb4b8b92e586fe5d63caf522575 xfs_logprint: dump new attr log item fields
+b62ca7edb1b0afb080165cc61ebadf64869b1b27 xfs_logprint: print missing attri header fields
+763bca64e6645ac0a3091f90826bc96b3e1f1883 xfsprogs: Increase XFS_DEFER_OPS_NR_INODES to 5
+719d39b38538cf8fc9ab380c658dc470d4c26b39 xfs: add parent pointer support to attribute code
+33162bd0c4cce72979e38a8421d6e1eaf90e03ce xfs: define parent pointer ondisk extended attribute format
+3701f3fa648645e979592b86d7ea3e981e0a5f53 xfs: add parent pointer validator functions
+453ebb885483c26085fd6ac8595012294f639fe2 xfs: extend transaction reservations for parent attributes
+3a0b1f3978a8a15c3ec3a7b2475048c97d423352 xfs: parent pointer attribute creation
+a386d9762d846d6dbb3af49e6f912c2b3fb3da9d xfs: add parent attributes to link
+c7c0d50824a910560c34ce53cb71ddb013fec173 xfs: add parent attributes to symlink
+329de8dd75219dc9517bf615398a3bdcb3ef1c73 xfs: remove parent pointers in unlink
+9b44409004a2c230c0308d398fbe5ff81fe44323 xfs: Add parent pointers to rename
+91c69ae691869d1545bac53a3b1a4abea0dc0551 xfsprogs: pass the attr value to put_listent when possible
+69a5a0de4dd890f6d6f33ba57c3178e3f7cba1cc xfs: add a libxfs header file for staging new ioctls
+efffc908b75dc5367a873b7b6978eab7f18ff1ed xfs: Add parent pointer ioctl
+502a28b8541a32ee825099d611c9ee8e415bb9aa xfs: fix unit conversion error in xfs_log_calc_max_attrsetm_res
+f772fde9a40882b90d5e0348c960e97cb6ab4d34 xfs: drop compatibility minimum log size computations for reflink
+678d9aade30c30bb94e64e4d46dc432bb414a50b xfs: don't remove the attr fork when parent pointers are enabled
+a04deebd86662979720a1105114b9ee5b6e9f36d xfs: Add the parent pointer support to the superblock version 5.
+4e5a4d55e155fb8f4c49284fb09e6e5a3320e6b5 libfrog: add parent pointer support code
+e215bc8c8f2b239fbfc43b689377cf2dc9bf693a xfs_io: adapt parent command to new parent pointer ioctls
+048be613a813e1b93680787aef2ebb6b2d007940 xfs_io: Add i, n and f flags to parent command
+6a468db151a44cc7a22db9fc276608fac060cd46 xfs_logprint: decode parent pointers in ATTRI items fully
+b78d11479bd6c3c08d3fe006003ef25a9fbf0440 xfs_scrub: use parent pointers when possible to report file operations
+856f7c1d74ce1a45e2cecf6f6c9090520cf6ea8b xfs_db: report parent bit on xattrs
+3908a16d419d8b31f09a53c428cdf1a6a3b87b4a xfs_db: report parent pointers embedded in xattrs
+961a60fb7ca90511e1f4d03251eb4d4963d7b88c xfs_db: obfuscate dirent and parent pointer names consistently
+3198c857882ccbef055ca031a2c74cf11f57a4c3 xfs_db: hoist name obfuscation code out of metadump.c
+b1dea57ffad39671a01348e7f48822da80c607ce xfs_db: create dirents and xattrs with colliding names
+2c6e8312ba927b8d44eb98f0f3eae6c99b3cfdab xfs_db: add a parents command to list the parents of a file
+c0c27b89939a0a70f728942be1b0df1580bb8c1d libxfs: create new files with attr forks if necessary
+b5f704cb782790970119344d93ab634bb9e6924c xfsprogs: Fix default superblock attr bits
+d903a9bb2a1c1447ca9f15f0585b27aea7a25cb2 mkfs: Add parent pointers during protofile creation
+f569afa9b6dfcecb147ca1dcb937cb85725bf74a mkfs: enable formatting with parent pointers
+357d763f94c03c31ac0090dab888794e46ccc59a xfs: teach scrub to check file nlinks
+1e9827f41939cd2ecde21d51e366acbc59072fef libxfs: add xfile support
+0133b41e1a17e398d2b1280809a7ad5782aaae6c xfs: track file link count updates during live nlinks fsck
+48d65b60995d23f3a595e7bcaf1384023368fb7f xfs: create a blob array data structure
+e641d15e44802532a61ae9b81f3caea5708808f8 libxfs: export attr3_leaf_hdr_from_disk via libxfs_api_defs.h
+
+--===============6996592148249339923==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-25d88987c8fb-6d27a8bd89ef.txt
+
+d0e6fb6a8285859410658dd5e26d621309373243 xfs: pass the xfs_bmbt_irec directly through the log intent code
+d87318f55513a0e444ffda574deb383709e92beb xfs: fix confusing xfs_extent_item variable names
+6e59a3b5252e6ec776e1e9d991c3a4e0acd871f8 xfs: pass rmap space mapping directly through the log intent code
+bb1beef73943adfadf8ffd8e5ec1926c5df51298 xfs: pass refcount intent directly through the log intent code
+5818641edf2143c2edf6a922dd0cf822d4e2ca17 xfs: don't use BMBT btree split workers for IO completion
+caef648de7b2255d107ebfb5b713215bec56edcc xfs: fix low space alloc deadlock
+854594740343e2b2f438da2e3d5345370d4510dd xfs: prefer free inodes at ENOSPC over chunk allocation
+05ba6e091505d2f00376aef10c9c8d84b47da787 xfs: block reservation too large for minleft allocation
+2b8d558a6d6e39a8813f967e79091db4364a18db xfs: drop firstblock constraints from allocation setup
+6653dfe2ad3f213c67da2cfb060f0181220fe867 xfs: t_firstblock is tracking AGs not blocks
+731e889bf871e9674998520a3c7a60e0ea8c3ea0 xfs: active perag reference counting
+4119da9722e718f5c0a222bf27db0da6f6c5af6c xfs: rework the perag trace points to be perag centric
+4fcc9f7b8faa4a320d53ba0e3568bd8667e1bcdd xfs: convert xfs_imap() to take a perag
+9bd7cc877e4e3de7962bbb8ec702d32fe8b4e9d1 xfs: use active perag references for inode allocation
+15c11c089683eccff214eff83bcde26ef95642b6 xfs: inobt can use perags in many more places than it does
+14938babd9e050b7630e30da0ebbe4932742b997 xfs: convert xfs_ialloc_next_ag() to an atomic
+3d5f19b00a5c4c826c0e66e0cac275667979f50b xfs: perags need atomic operational state
+de85a4cc1657088d3d52c5a2fbbdaeb709b99466 xfs: introduce xfs_for_each_perag_wrap()
+369342329845bb06b50ab7bd84b222329e077010 xfs: rework xfs_alloc_vextent()
+9904bae3def6f2bc89d01ac9f574b01876569c9a xfs: factor xfs_alloc_vextent_this_ag() for  _iterate_ags()
+de3e49f61463828a4a34f84bee5cb826544c5d7e xfs: combine __xfs_alloc_vextent_this_ag and  xfs_alloc_ag_vextent
+cac684d7bc8d830b83313259404f5a328c4284e3 xfs: use xfs_alloc_vextent_this_ag() where appropriate
+6224eabed5f8426f7a45cd3a9ce8c867398ad7f4 xfs: factor xfs_bmap_btalloc()
+b84c9e23ff857e3ad10f78c701dfd66a8f9d4f2f xfs: use xfs_alloc_vextent_first_ag() where appropriate
+12e738dff6cf50a8007b6d671dcb05d2100a06af xfs: use xfs_alloc_vextent_start_bno() where appropriate
+abdc0d6ebbf656cd6ebe4db682ae37158b8982a0 xfs: introduce xfs_alloc_vextent_near_bno()
+a25c00514a6c5b2da2c56a83efbea8b67924b8d8 xfs: introduce xfs_alloc_vextent_exact_bno()
+2c100979e84c6858c2dd38de4df9cc094946fe70 xfs: introduce xfs_alloc_vextent_prepare()
+46b10c73a389153cfac87c834eefe3b2eb638eb4 xfs: move allocation accounting to xfs_alloc_vextent_set_fsbno()
+ce29285e06c6cb40b16bdbc8726f23d221114e42 xfs: fold xfs_alloc_ag_vextent() into callers
+ea8eb063a218e19c8259ac7944e98f05b7ae63b3 xfs: move the minimum agno checks into xfs_alloc_vextent_check_args
+c36f88c5b57737747ca120168aac976c83bc0cf6 xfs: convert xfs_alloc_vextent_iterate_ags() to use perag walker
+0c3629413cc14464556b1794941b893a06d18e8c xfs: factor out filestreams from xfs_bmap_btalloc_nullfb
+f99d1456385b31e37219fad490e06ca67b287b0e xfs: get rid of notinit from xfs_bmap_longest_free_extent
+b221c465f077e580c39454f4b8acb04ac128e56e xfs: use xfs_bmap_longest_free_extent() in filestreams
+7e1f833546a90f4c5fe781a9ce1d7a5059d6e1cd xfs: move xfs_bmap_btalloc_filestreams() to xfs_filestreams.c
+3fbffd70aa28f685c816f1bcbc3ffe0d6194327e xfs: return a referenced perag from filestreams allocator
+a6ec3ff034be124d4e6d87c123583d9e5dcc1e53 xfs: restore old agirotor behavior
+ff878ba77df258d7200850eba69362d61a66b709 xfs: try to idiot-proof the allocators
+6914894d44881664762e8e698af89520587641cd xfs: walk all AGs if TRYLOCK passed to xfs_alloc_vextent_iterate_ags
+b1752d945bec52df13ac8824247613c63f140d1e xfs: add tracepoints for each of the externally visible allocators
+df7219607d911ade1a219b620f6b42eaf62b6fb4 xfs: clear incore AGFL_RESET state if it's not needed
+6e68acc9726cdbb7b34dd71de8febea0003307c3 xfs: fix mismerged tracepoints
+01ef36a7d61e24dec45946c714c6f9f4ef5853e3 xfs: make xfs_attr_set require XFS_DA_OP_REMOVE
+6f039a0b602642092e6d94a5074f2f61d06b1313 xfs: allow xattr matching on name and value for local/sf attrs
+33b799bab165a01fbb499b8167c54bcab07f4847 xfs: preserve NVLOOKUP in xfs_attr_set
+09e8a6d6155c86e6c9e6fa964b89e68e7b5e904a xfs: restructure xfs_attr_complete_op a bit
+ec3474898fe413f85e5e3da717ab950e46e7c241 xfs: use helpers to extract xattr op from opflags
+de1ebb31f059326dba4b8c71ee61775ad1a0ee10 xfs: log NVLOOKUP xattr removal operations
+3d7a754bd39fc89a01a09542ceb91bba246df33b xfs: log NVLOOKUP xattr setting operations
+8d87fd470995041bbe6c4b5bba6fe0b4fda8562e xfs: log NVLOOKUP xattr nvreplace operations
+432376f15221dbb4b8b92e586fe5d63caf522575 xfs_logprint: dump new attr log item fields
+b62ca7edb1b0afb080165cc61ebadf64869b1b27 xfs_logprint: print missing attri header fields
+763bca64e6645ac0a3091f90826bc96b3e1f1883 xfsprogs: Increase XFS_DEFER_OPS_NR_INODES to 5
+719d39b38538cf8fc9ab380c658dc470d4c26b39 xfs: add parent pointer support to attribute code
+33162bd0c4cce72979e38a8421d6e1eaf90e03ce xfs: define parent pointer ondisk extended attribute format
+3701f3fa648645e979592b86d7ea3e981e0a5f53 xfs: add parent pointer validator functions
+453ebb885483c26085fd6ac8595012294f639fe2 xfs: extend transaction reservations for parent attributes
+3a0b1f3978a8a15c3ec3a7b2475048c97d423352 xfs: parent pointer attribute creation
+a386d9762d846d6dbb3af49e6f912c2b3fb3da9d xfs: add parent attributes to link
+c7c0d50824a910560c34ce53cb71ddb013fec173 xfs: add parent attributes to symlink
+329de8dd75219dc9517bf615398a3bdcb3ef1c73 xfs: remove parent pointers in unlink
+9b44409004a2c230c0308d398fbe5ff81fe44323 xfs: Add parent pointers to rename
+91c69ae691869d1545bac53a3b1a4abea0dc0551 xfsprogs: pass the attr value to put_listent when possible
+69a5a0de4dd890f6d6f33ba57c3178e3f7cba1cc xfs: add a libxfs header file for staging new ioctls
+efffc908b75dc5367a873b7b6978eab7f18ff1ed xfs: Add parent pointer ioctl
+502a28b8541a32ee825099d611c9ee8e415bb9aa xfs: fix unit conversion error in xfs_log_calc_max_attrsetm_res
+f772fde9a40882b90d5e0348c960e97cb6ab4d34 xfs: drop compatibility minimum log size computations for reflink
+678d9aade30c30bb94e64e4d46dc432bb414a50b xfs: don't remove the attr fork when parent pointers are enabled
+a04deebd86662979720a1105114b9ee5b6e9f36d xfs: Add the parent pointer support to the superblock version 5.
+4e5a4d55e155fb8f4c49284fb09e6e5a3320e6b5 libfrog: add parent pointer support code
+e215bc8c8f2b239fbfc43b689377cf2dc9bf693a xfs_io: adapt parent command to new parent pointer ioctls
+048be613a813e1b93680787aef2ebb6b2d007940 xfs_io: Add i, n and f flags to parent command
+6a468db151a44cc7a22db9fc276608fac060cd46 xfs_logprint: decode parent pointers in ATTRI items fully
+b78d11479bd6c3c08d3fe006003ef25a9fbf0440 xfs_scrub: use parent pointers when possible to report file operations
+856f7c1d74ce1a45e2cecf6f6c9090520cf6ea8b xfs_db: report parent bit on xattrs
+3908a16d419d8b31f09a53c428cdf1a6a3b87b4a xfs_db: report parent pointers embedded in xattrs
+961a60fb7ca90511e1f4d03251eb4d4963d7b88c xfs_db: obfuscate dirent and parent pointer names consistently
+3198c857882ccbef055ca031a2c74cf11f57a4c3 xfs_db: hoist name obfuscation code out of metadump.c
+b1dea57ffad39671a01348e7f48822da80c607ce xfs_db: create dirents and xattrs with colliding names
+2c6e8312ba927b8d44eb98f0f3eae6c99b3cfdab xfs_db: add a parents command to list the parents of a file
+c0c27b89939a0a70f728942be1b0df1580bb8c1d libxfs: create new files with attr forks if necessary
+b5f704cb782790970119344d93ab634bb9e6924c xfsprogs: Fix default superblock attr bits
+d903a9bb2a1c1447ca9f15f0585b27aea7a25cb2 mkfs: Add parent pointers during protofile creation
+f569afa9b6dfcecb147ca1dcb937cb85725bf74a mkfs: enable formatting with parent pointers
+357d763f94c03c31ac0090dab888794e46ccc59a xfs: teach scrub to check file nlinks
+1e9827f41939cd2ecde21d51e366acbc59072fef libxfs: add xfile support
+0133b41e1a17e398d2b1280809a7ad5782aaae6c xfs: track file link count updates during live nlinks fsck
+48d65b60995d23f3a595e7bcaf1384023368fb7f xfs: create a blob array data structure
+e641d15e44802532a61ae9b81f3caea5708808f8 libxfs: export attr3_leaf_hdr_from_disk via libxfs_api_defs.h
+425a4dd26dfc1c81857c68ad7f5b0a428dd00124 xfs: add hooks to do directory updates
+6d27a8bd89efdd6ab797d62d4508c1d807c9dfad xfs: deferred scrub of parent pointers
+
+--===============6996592148249339923==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-a4d41a25e9bc-2fe3a5d3c5af.txt
+
+d0e6fb6a8285859410658dd5e26d621309373243 xfs: pass the xfs_bmbt_irec directly through the log intent code
+d87318f55513a0e444ffda574deb383709e92beb xfs: fix confusing xfs_extent_item variable names
+6e59a3b5252e6ec776e1e9d991c3a4e0acd871f8 xfs: pass rmap space mapping directly through the log intent code
+bb1beef73943adfadf8ffd8e5ec1926c5df51298 xfs: pass refcount intent directly through the log intent code
+5818641edf2143c2edf6a922dd0cf822d4e2ca17 xfs: don't use BMBT btree split workers for IO completion
+caef648de7b2255d107ebfb5b713215bec56edcc xfs: fix low space alloc deadlock
+854594740343e2b2f438da2e3d5345370d4510dd xfs: prefer free inodes at ENOSPC over chunk allocation
+05ba6e091505d2f00376aef10c9c8d84b47da787 xfs: block reservation too large for minleft allocation
+2b8d558a6d6e39a8813f967e79091db4364a18db xfs: drop firstblock constraints from allocation setup
+6653dfe2ad3f213c67da2cfb060f0181220fe867 xfs: t_firstblock is tracking AGs not blocks
+731e889bf871e9674998520a3c7a60e0ea8c3ea0 xfs: active perag reference counting
+4119da9722e718f5c0a222bf27db0da6f6c5af6c xfs: rework the perag trace points to be perag centric
+4fcc9f7b8faa4a320d53ba0e3568bd8667e1bcdd xfs: convert xfs_imap() to take a perag
+9bd7cc877e4e3de7962bbb8ec702d32fe8b4e9d1 xfs: use active perag references for inode allocation
+15c11c089683eccff214eff83bcde26ef95642b6 xfs: inobt can use perags in many more places than it does
+14938babd9e050b7630e30da0ebbe4932742b997 xfs: convert xfs_ialloc_next_ag() to an atomic
+3d5f19b00a5c4c826c0e66e0cac275667979f50b xfs: perags need atomic operational state
+de85a4cc1657088d3d52c5a2fbbdaeb709b99466 xfs: introduce xfs_for_each_perag_wrap()
+369342329845bb06b50ab7bd84b222329e077010 xfs: rework xfs_alloc_vextent()
+9904bae3def6f2bc89d01ac9f574b01876569c9a xfs: factor xfs_alloc_vextent_this_ag() for  _iterate_ags()
+de3e49f61463828a4a34f84bee5cb826544c5d7e xfs: combine __xfs_alloc_vextent_this_ag and  xfs_alloc_ag_vextent
+cac684d7bc8d830b83313259404f5a328c4284e3 xfs: use xfs_alloc_vextent_this_ag() where appropriate
+6224eabed5f8426f7a45cd3a9ce8c867398ad7f4 xfs: factor xfs_bmap_btalloc()
+b84c9e23ff857e3ad10f78c701dfd66a8f9d4f2f xfs: use xfs_alloc_vextent_first_ag() where appropriate
+12e738dff6cf50a8007b6d671dcb05d2100a06af xfs: use xfs_alloc_vextent_start_bno() where appropriate
+abdc0d6ebbf656cd6ebe4db682ae37158b8982a0 xfs: introduce xfs_alloc_vextent_near_bno()
+a25c00514a6c5b2da2c56a83efbea8b67924b8d8 xfs: introduce xfs_alloc_vextent_exact_bno()
+2c100979e84c6858c2dd38de4df9cc094946fe70 xfs: introduce xfs_alloc_vextent_prepare()
+46b10c73a389153cfac87c834eefe3b2eb638eb4 xfs: move allocation accounting to xfs_alloc_vextent_set_fsbno()
+ce29285e06c6cb40b16bdbc8726f23d221114e42 xfs: fold xfs_alloc_ag_vextent() into callers
+ea8eb063a218e19c8259ac7944e98f05b7ae63b3 xfs: move the minimum agno checks into xfs_alloc_vextent_check_args
+c36f88c5b57737747ca120168aac976c83bc0cf6 xfs: convert xfs_alloc_vextent_iterate_ags() to use perag walker
+0c3629413cc14464556b1794941b893a06d18e8c xfs: factor out filestreams from xfs_bmap_btalloc_nullfb
+f99d1456385b31e37219fad490e06ca67b287b0e xfs: get rid of notinit from xfs_bmap_longest_free_extent
+b221c465f077e580c39454f4b8acb04ac128e56e xfs: use xfs_bmap_longest_free_extent() in filestreams
+7e1f833546a90f4c5fe781a9ce1d7a5059d6e1cd xfs: move xfs_bmap_btalloc_filestreams() to xfs_filestreams.c
+3fbffd70aa28f685c816f1bcbc3ffe0d6194327e xfs: return a referenced perag from filestreams allocator
+a6ec3ff034be124d4e6d87c123583d9e5dcc1e53 xfs: restore old agirotor behavior
+ff878ba77df258d7200850eba69362d61a66b709 xfs: try to idiot-proof the allocators
+6914894d44881664762e8e698af89520587641cd xfs: walk all AGs if TRYLOCK passed to xfs_alloc_vextent_iterate_ags
+b1752d945bec52df13ac8824247613c63f140d1e xfs: add tracepoints for each of the externally visible allocators
+df7219607d911ade1a219b620f6b42eaf62b6fb4 xfs: clear incore AGFL_RESET state if it's not needed
+6e68acc9726cdbb7b34dd71de8febea0003307c3 xfs: fix mismerged tracepoints
+01ef36a7d61e24dec45946c714c6f9f4ef5853e3 xfs: make xfs_attr_set require XFS_DA_OP_REMOVE
+6f039a0b602642092e6d94a5074f2f61d06b1313 xfs: allow xattr matching on name and value for local/sf attrs
+33b799bab165a01fbb499b8167c54bcab07f4847 xfs: preserve NVLOOKUP in xfs_attr_set
+09e8a6d6155c86e6c9e6fa964b89e68e7b5e904a xfs: restructure xfs_attr_complete_op a bit
+ec3474898fe413f85e5e3da717ab950e46e7c241 xfs: use helpers to extract xattr op from opflags
+de1ebb31f059326dba4b8c71ee61775ad1a0ee10 xfs: log NVLOOKUP xattr removal operations
+3d7a754bd39fc89a01a09542ceb91bba246df33b xfs: log NVLOOKUP xattr setting operations
+8d87fd470995041bbe6c4b5bba6fe0b4fda8562e xfs: log NVLOOKUP xattr nvreplace operations
+432376f15221dbb4b8b92e586fe5d63caf522575 xfs_logprint: dump new attr log item fields
+b62ca7edb1b0afb080165cc61ebadf64869b1b27 xfs_logprint: print missing attri header fields
+763bca64e6645ac0a3091f90826bc96b3e1f1883 xfsprogs: Increase XFS_DEFER_OPS_NR_INODES to 5
+719d39b38538cf8fc9ab380c658dc470d4c26b39 xfs: add parent pointer support to attribute code
+33162bd0c4cce72979e38a8421d6e1eaf90e03ce xfs: define parent pointer ondisk extended attribute format
+3701f3fa648645e979592b86d7ea3e981e0a5f53 xfs: add parent pointer validator functions
+453ebb885483c26085fd6ac8595012294f639fe2 xfs: extend transaction reservations for parent attributes
+3a0b1f3978a8a15c3ec3a7b2475048c97d423352 xfs: parent pointer attribute creation
+a386d9762d846d6dbb3af49e6f912c2b3fb3da9d xfs: add parent attributes to link
+c7c0d50824a910560c34ce53cb71ddb013fec173 xfs: add parent attributes to symlink
+329de8dd75219dc9517bf615398a3bdcb3ef1c73 xfs: remove parent pointers in unlink
+9b44409004a2c230c0308d398fbe5ff81fe44323 xfs: Add parent pointers to rename
+91c69ae691869d1545bac53a3b1a4abea0dc0551 xfsprogs: pass the attr value to put_listent when possible
+69a5a0de4dd890f6d6f33ba57c3178e3f7cba1cc xfs: add a libxfs header file for staging new ioctls
+efffc908b75dc5367a873b7b6978eab7f18ff1ed xfs: Add parent pointer ioctl
+502a28b8541a32ee825099d611c9ee8e415bb9aa xfs: fix unit conversion error in xfs_log_calc_max_attrsetm_res
+f772fde9a40882b90d5e0348c960e97cb6ab4d34 xfs: drop compatibility minimum log size computations for reflink
+678d9aade30c30bb94e64e4d46dc432bb414a50b xfs: don't remove the attr fork when parent pointers are enabled
+a04deebd86662979720a1105114b9ee5b6e9f36d xfs: Add the parent pointer support to the superblock version 5.
+4e5a4d55e155fb8f4c49284fb09e6e5a3320e6b5 libfrog: add parent pointer support code
+e215bc8c8f2b239fbfc43b689377cf2dc9bf693a xfs_io: adapt parent command to new parent pointer ioctls
+048be613a813e1b93680787aef2ebb6b2d007940 xfs_io: Add i, n and f flags to parent command
+6a468db151a44cc7a22db9fc276608fac060cd46 xfs_logprint: decode parent pointers in ATTRI items fully
+b78d11479bd6c3c08d3fe006003ef25a9fbf0440 xfs_scrub: use parent pointers when possible to report file operations
+856f7c1d74ce1a45e2cecf6f6c9090520cf6ea8b xfs_db: report parent bit on xattrs
+3908a16d419d8b31f09a53c428cdf1a6a3b87b4a xfs_db: report parent pointers embedded in xattrs
+961a60fb7ca90511e1f4d03251eb4d4963d7b88c xfs_db: obfuscate dirent and parent pointer names consistently
+3198c857882ccbef055ca031a2c74cf11f57a4c3 xfs_db: hoist name obfuscation code out of metadump.c
+b1dea57ffad39671a01348e7f48822da80c607ce xfs_db: create dirents and xattrs with colliding names
+2c6e8312ba927b8d44eb98f0f3eae6c99b3cfdab xfs_db: add a parents command to list the parents of a file
+c0c27b89939a0a70f728942be1b0df1580bb8c1d libxfs: create new files with attr forks if necessary
+b5f704cb782790970119344d93ab634bb9e6924c xfsprogs: Fix default superblock attr bits
+d903a9bb2a1c1447ca9f15f0585b27aea7a25cb2 mkfs: Add parent pointers during protofile creation
+f569afa9b6dfcecb147ca1dcb937cb85725bf74a mkfs: enable formatting with parent pointers
+357d763f94c03c31ac0090dab888794e46ccc59a xfs: teach scrub to check file nlinks
+1e9827f41939cd2ecde21d51e366acbc59072fef libxfs: add xfile support
+0133b41e1a17e398d2b1280809a7ad5782aaae6c xfs: track file link count updates during live nlinks fsck
+48d65b60995d23f3a595e7bcaf1384023368fb7f xfs: create a blob array data structure
+e641d15e44802532a61ae9b81f3caea5708808f8 libxfs: export attr3_leaf_hdr_from_disk via libxfs_api_defs.h
+425a4dd26dfc1c81857c68ad7f5b0a428dd00124 xfs: add hooks to do directory updates
+6d27a8bd89efdd6ab797d62d4508c1d807c9dfad xfs: deferred scrub of parent pointers
+22146010fac11179ac03bb7c6f217516241808ad xfs: repair parent pointers by scanning directories
+2fe3a5d3c5af9c46998ec703c0e42c5a3dfbc07b xfs: repair parent pointers with live scan hooks
+
+--===============6996592148249339923==--
