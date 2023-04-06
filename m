@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8272166833473233141=="
+Content-Type: multipart/mixed; boundary="===============2354335409923987016=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 06 Apr 2023 15:23:11 -0000
-Message-Id: <168079459163.5222.7237902821370330299@gitolite.kernel.org>
+Date: Thu, 06 Apr 2023 15:23:46 -0000
+Message-Id: <168079462609.5471.9132377139214044319@gitolite.kernel.org>
 
---===============8272166833473233141==
+--===============2354335409923987016==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 218c597325f4faf7b7a6049233a30d7842b5b2dc
-    new: 8fbc10b995a506e173f1080dfa2764f232a65e02
-    log: revlist-218c597325f4-8fbc10b995a5.txt
+  - ref: refs/heads/dev-queue
+    old: c3ecd92b1515c1505305430a6fe8c6a715a961a1
+    new: 4dfe62c125e83fbf531b4e84bd3794f8bffe6484
+    log: revlist-c3ecd92b1515-4dfe62c125e8.txt
 
---===============8272166833473233141==
+--===============2354335409923987016==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-218c597325f4-8fbc10b995a5.txt
+Content-Disposition: attachment; filename=revlist-c3ecd92b1515-4dfe62c125e8.txt
 
 e4efa515d58f1363d8a27e548f9c5769d3121e03 wifi: brcmfmac: Fix SDIO suspend/resume regression
 2ceb76f734e37833824b7fab6af17c999eb48d2b wifi: mt76: mt7921: Fix use-after-free in fw features query.
@@ -50,5 +50,16 @@ abc33494ddd5c1e4bd0e17c4abe361038fb6693f net: fec: make use of MDIO C45 quirk
 38e058cc7d245dc8034426415bee8fec16ace1bd selftests: net: rps_default_mask.sh: delete veth link specifically
 24e3fce00c0b557491ff596c0682a29dee6fe848 net: stmmac: Add queue reset into stmmac_xdp_open() function
 8fbc10b995a506e173f1080dfa2764f232a65e02 net: stmmac: check fwnode for phy device before scanning for phy
+68364c600ba7112cd3a1ee003e1c1d43d7fffca7 ice: Write all GNSS buffers instead of first one
+7d2aa7be02a7cfdb854438b3c236a65776d4b01e ixgbe: Panic during XDP_TX with > 64 CPUs
+bb73ea0b6a96cbe97abf84f489bc8970b9fd1e22 ice: identify aRFS flows using L3/L4 dissector info
+c7fcdd5a41e27b369d40dd298ecd3abfcd694e5f ice: clear number of qs when rings are free
+2ee0450d65b47de0dc942f463a6cf134d63d3c73 e1000e: Disable TSO on i219-LM card to increase speed
+ea5fb5b08c6b861863ef8f927dcd90a89031ec1f i40e: fix accessing vsi->active_filters without holding lock
+c4fa0322d32d1e12db0ab027813fb5a6740c68cd iavf: refactor VLAN filter states
+41261b281c8c986b5617a90f50c07fe1591b475b iavf: remove active_cvlans and active_svlans bitmaps
+c10b02d29ef99f196019d5a25dd5de5b2c77eb3b i40e: Fix crash when rebuild fails in i40e_xdp_setup
+cbae4bb43416feb2dd628b57f47c568286812f0c i40e: fix PTP pins verification
+4dfe62c125e83fbf531b4e84bd3794f8bffe6484 i40e: fix i40e_setup_misc_vector() error handling
 
---===============8272166833473233141==--
+--===============2354335409923987016==--
