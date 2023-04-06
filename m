@@ -1,51 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============8891489062538647784=="
+Content-Type: multipart/mixed; boundary="===============0118439481411902417=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Thu, 06 Apr 2023 05:17:32 -0000
-Message-Id: <168075825223.8256.11522925997295582395@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Thu, 06 Apr 2023 05:17:45 -0000
+Message-Id: <168075826579.8419.122243450969658483@gitolite.kernel.org>
 
---===============8891489062538647784==
+--===============0118439481411902417==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
   - ref: refs/heads/master
     old: 8417c8f5007bf4567ccffda850a3157c7d905f67
     new: e134c93f788fb93fd6a3ec3af9af850a2048c7e6
     log: revlist-8417c8f5007b-e134c93f788f.txt
-  - ref: refs/heads/pending-fixes
-    old: 0f20c88b6871a0b9aedea5789b54f81b1abe512a
-    new: 1beddc8728adc4cebe4f26de448b6c93d09e4ab9
-    log: revlist-0f20c88b6871-1beddc8728ad.txt
-  - ref: refs/heads/stable
-    old: 76f598ba7d8e2bfb4855b5298caedd5af0c374a8
-    new: 99ddf2254febae9eab7fb0bcc02c5322243f5c49
-    log: |
-         4ccf11c4e8a8e051499d53a12f502196c97a758e tracing/synthetic: Fix races on freeing last_cmd
-         6455b6163d8c680366663cdb8c679514d55fc30c ring-buffer: Fix race while reader and writer are on the same page
-         ea65b41807a26495ff2a73dd8b1bab2751940887 ftrace: Mark get_lock_parent_ip() __always_inline
-         b9f451a9029a16eb7913ace09b92493d00f2e564 tracing/timerlat: Notify new max thread latency
-         d3cba7f02cd82118c32651c73374d8a5a459d9a6 tracing/osnoise: Fix notify new tracing_max_latency
-         f82e7ca019dfad3b006fd3b772f7ac569672db55 tracing: Error if a trace event has an array for a __field()
-         9d52727f8043cfda241ae96896628d92fa9c50bb tracing: Have tracing_snapshot_instance_cond() write errors to the appropriate instance
-         e94891641c21f607e4d6887bcd3beff882fcc483 tracing: Fix ftrace_boot_snapshot command line logic
-         3357c6e429643231e60447b52ffbb7ac895aca22 tracing: Free error logs of tracing instances
-         99ddf2254febae9eab7fb0bcc02c5322243f5c49 Merge tag 'trace-v6.3-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
-         
-  - ref: refs/tags/next-20230106
-    old: f370cad3ed407f12c355622548a91d30dba5f9c0
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20230406
     old: 0000000000000000000000000000000000000000
     new: d545ca14447267925dd4caaf8532026dfbcb6bf5
 
---===============8891489062538647784==
+--===============0118439481411902417==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -843,72 +821,4 @@ bc7d09092d33a9ed7f23b2e370bbc8a8d4f58a1a Merge branch 'bitmap-for-next' of https
 3b5bf8903e8029a46ec4060215b44afea61e69c5 Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/jgg/iommufd.git
 e134c93f788fb93fd6a3ec3af9af850a2048c7e6 Add linux-next specific files for 20230406
 
---===============8891489062538647784==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0f20c88b6871-1beddc8728ad.txt
-
-4ccf11c4e8a8e051499d53a12f502196c97a758e tracing/synthetic: Fix races on freeing last_cmd
-6455b6163d8c680366663cdb8c679514d55fc30c ring-buffer: Fix race while reader and writer are on the same page
-ea65b41807a26495ff2a73dd8b1bab2751940887 ftrace: Mark get_lock_parent_ip() __always_inline
-b9f451a9029a16eb7913ace09b92493d00f2e564 tracing/timerlat: Notify new max thread latency
-d3cba7f02cd82118c32651c73374d8a5a459d9a6 tracing/osnoise: Fix notify new tracing_max_latency
-f82e7ca019dfad3b006fd3b772f7ac569672db55 tracing: Error if a trace event has an array for a __field()
-0a78cf7264d29abeca098eae0b188a10aabc8a32 raw: Fix NULL deref in raw_get_next().
-ab5fb73ffa01072b4d8031cc05801fa1cb653bee ping: Fix potentail NULL deref for /proc/net/icmp.
-95fac54004a8aebddad74e9984c1c9785190668c Merge branch 'raw-ping-fix-locking-in-proc-net-raw-icmp'
-e847c7675e19ef344913724dc68f83df31ad6a17 ethtool: reset #lanes when lanes is omitted
-a1865f2e7d10dde00d35a2122b38d2e469ae67ed netlink: annotate lockless accesses to nlk->max_recvmsg_len
-3ce9345580974863c060fa32971537996a7b2d57 gve: Secure enough bytes in the first TX desc for all TCP pkts
-9d52727f8043cfda241ae96896628d92fa9c50bb tracing: Have tracing_snapshot_instance_cond() write errors to the appropriate instance
-e94891641c21f607e4d6887bcd3beff882fcc483 tracing: Fix ftrace_boot_snapshot command line logic
-774e7cb50359eff7e966f4e2e80c9486014d3a23 accel/ivpu: Add dma fence to command buffers only
-0ec8671837a61d841462179686c5819d951d3b10 accel/ivpu: Fix S3 system suspend when not idle
-1a4edef8e846f0ff7cfbd35b6e62cf26989e59ce Merge tag 'drm-intel-fixes-2023-04-05' of git://anongit.freedesktop.org/drm/drm-intel into drm-fixes
-4b6d621c9d859ff89e68cebf6178652592676013 memstick: fix memory leak if card device is never registered
-0b186bb06198653d74a141902a7739e0bde20cf4 ASoC: SOF: pm: Tear down pipelines only if DSP was active
-3357c6e429643231e60447b52ffbb7ac895aca22 tracing: Free error logs of tracing instances
-99ddf2254febae9eab7fb0bcc02c5322243f5c49 Merge tag 'trace-v6.3-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
-32d85999680601d01b2a36713c9ffd7397c8688b arm64: compat: Work around uninitialized variable warning
-ec799c8a92e0be91e0940cc739a27f483242df65 usb: dwc3: pci: add support for the Intel Meteor Lake-S
-eddebe39602efe631b83ff8d03f26eba12cfd760 usb: typec: altmodes/displayport: Fix configure initial pin assignment
-d356b3cdd00cae4508be566a47c0cfb74e14862a usb: gadget: f_fs: Fix ffs_epfile_read_iter to handle ITER_UBUF
-e07fec475cc86ce6ded82908df1d511edc3303b7 usb: gadgetfs: Fix ep_read_iter to handle ITER_UBUF
-1edf48991a783d00a3a18dc0d27c88139e4030a2 usb: cdnsp: Fixes error: uninitialized symbol 'len'
-3dfa8926efa910d423844bfc0132f70cd07f76e2 Merge tag 'drm-misc-fixes-2023-04-05' of git://anongit.freedesktop.org/drm/drm-misc into drm-fixes
-5f90a083b1fcf7f2d0e98498f93d2ee85f89b4e4 dt-bindings: interrupt-controller: loongarch: Fix mismatched compatible
-bc1ca7b77b7b462641a4aadf0b008b2127ae6089 treewide: Fix probing of devices in DT overlays
-24e0f9904983f3a58b81ba4a00d6ef30cadd0ace Merge branch 'mm-hotfixes-unstable' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
-c798aa84fb08de5919bcad97ddf93450058330e7 Merge branch 'for-next/fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux
-6889f39babe9be9412903ab62a1abcf6558564b7 Merge branch 'arm/fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc.git
-289800496c48e7792304b1e9cbeb29fd99b0dd3e Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux.git
-4d940493e9c1917ea8477983475f1f1cee6e8237 Merge branch 'master' of git://git.kernel.org/pub/scm/linux/kernel/git/davem/sparc.git
-b55a67d05a9698f1805687cf05608bfe5ce05d2b Merge branch 'main' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net.git
-814d63b275efbbe107ecc33585499f12c5d70075 Merge branch 'master' of git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf.git
-535d89ce16f70d58e15c2f33f55a4aca1300d12f Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless.git
-9e35708a1cfa2c5ecaa15caead1616a51a04a075 Merge branch 'for-rc' of git://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma.git
-5421835972975c7965f015f7c3865761727f5bda Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound.git
-43215bf454e79c3ba96d2a1b6dbd7fac5160eda8 Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-c84cdc60b2cbf4cb7f86c3b4cc06d3a4060ff7d2 Merge branch 'tty-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/tty.git
-7f39f5cbd8831f3a2a10302a6010cb2e4ee3cd6f Merge branch 'usb-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb.git
-2ff2382e1ecb62a0166990628c7b5de9bba9621f Merge branch 'fixes-togreg' of git://git.kernel.org/pub/scm/linux/kernel/git/jic23/iio.git
-0262b395befafa671d4bd2bcf129ac1ef72be566 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vkoul/soundwire.git
-d14ebf8c719d118245e7ac961c077d92c78b13c5 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest.git
-9cfce98265c1675c66eeff56e5fff400837472a0 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vkoul/dmaengine.git
-cb9c1c32cd1d48d1791afdcdf1d5cd565201a863 Merge branch 'mtd/fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/mtd/linux.git
-95fcf43103f4a7a7f8f82992471e518e90a73f69 Merge branch 'fixes' of git://linuxtv.org/mchehab/media-next.git
-eccf78c1f6e03b59733d8a9a5583360c0b9b6340 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/cxl/cxl.git
-67ccb26cf49290ac1c1ad4aa58c8e557038dce90 Merge branch 'next-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux.git
-f88e8c523ba05ffbd210017930f68a943a680389 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
-2ec7d872ad975cef8ae27616346350e28f5f9ff6 Merge branch 'dt/linus' of git://git.kernel.org/pub/scm/linux/kernel/git/robh/linux.git
-ebd660d9520c147109b1806cf462bd45e8578883 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/mkp/scsi.git
-ca0a9d3450dfb2b310f6c7f5bfc4500a8c411c21 Merge branch 'drm-fixes' of git://git.freedesktop.org/git/drm/drm.git
-ece5d8f649812958ae99458295b0f1e020c84eea Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/mmc.git
-3eac628ea0064f1489dc33dda20d53e262991d22 Merge branch 'riscv-dt-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/conor/linux.git
-71efcd998a905c562c53f0f153474af093308dfc Merge branch 'gpio/for-current' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux.git
-0e2768df541f35eebfef9257809a31e179975529 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/uml/linux.git
-37ed55d83c36b790634358cea136c3daf8338fd2 Merge branch 'for-rc' of git://git.kernel.org/pub/scm/linux/kernel/git/jgg/iommufd.git
-1beddc8728adc4cebe4f26de448b6c93d09e4ab9 Merge branch 'fixes/next' of git://git.kernel.org/pub/scm/linux/kernel/git/ericvh/v9fs.git
-
---===============8891489062538647784==--
+--===============0118439481411902417==--
