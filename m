@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0029228988005000012=="
+Content-Type: multipart/mixed; boundary="===============7129092902915147132=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Thu, 06 Apr 2023 23:12:28 -0000
-Message-Id: <168082274828.30148.11867923614998528910@gitolite.kernel.org>
+Date: Thu, 06 Apr 2023 23:13:04 -0000
+Message-Id: <168082278497.30402.495547777437502580@gitolite.kernel.org>
 
---===============0029228988005000012==
+--===============7129092902915147132==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: b103bab0944be030954e5de23851b37980218f54
-    new: d9c960675adcc6e26bb6464b6b500fd75fd55dcf
-    log: revlist-b103bab0944b-d9c960675adc.txt
+  - ref: refs/heads/dev-queue
+    old: b35acff4cbac48f6dbd8c3cb4b071a6c9bf0eb46
+    new: e1da418893694508948fa7930a9f699027a25cfa
+    log: revlist-b35acff4cbac-e1da41889369.txt
 
---===============0029228988005000012==
+--===============7129092902915147132==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b103bab0944b-d9c960675adc.txt
+Content-Disposition: attachment; filename=revlist-b35acff4cbac-e1da41889369.txt
 
 ec738ca127d07ecac6afae36e2880341ec89150e mtd: spi-nor: fix memory leak when using debugfs_lookup()
 c0ad453e94e5c404efbcf668648d07eaa1a71ed7 pinctrl: mediatek: add missing options to PINCTRL_MT7981
@@ -317,5 +317,29 @@ ae52f797904ef0e98951e43d15a274fa8e80bbe5 Merge tag 'pwm/for-6.3-rc6' of git://gi
 8f2e1a855b47fa9fd936eafa617a7ab4582bd916 Merge tag 'linux-kselftest-fixes-6.3-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
 f2afccfefe7be1f7346564fe619277110d341f9b Merge tag 'net-6.3-rc6-2' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 d9c960675adcc6e26bb6464b6b500fd75fd55dcf Merge git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
+184ea06d4a62cd1521375e83be85c833a306ee20 ice: Write all GNSS buffers instead of first one
+5b2d0383da57d0faf22f56981faef27f2907b0fa ixgbe: Panic during XDP_TX with > 64 CPUs
+e1e6f1028008d47eac3170251fdfaeaa8de5bf28 ice: identify aRFS flows using L3/L4 dissector info
+c63fa25837e1b521e12d7324da91c91db662cc5c ice: clear number of qs when rings are free
+e3e506d6209d600e1ba1ab3235fede3c4f242258 ice: Support 5 layer topology
+1651586dfe1f366e19a7e462b9c46df4d977ff5f ice: Adjust the VSI/Aggregator layers
+62c464d392b6868f03904e44fe535184cfc9dc38 ice: Enable switching default tx scheduler topology
+97d3dd73a16e1ca070ac07ba5e809b9550651ec9 ice: Add txbalancing devlink param
+7de0cb9d024f9a10faddb58ddc899433250baf7a ice: Document txbalancing parameter
+666595435e0a370e4904c080f744c6884719f089 ice: move interrupt related code to separate file
+23d880955eefacb0565293958c4b23ab78b0b87c ice: use pci_irq_vector helper function
+bcfa0a7d8e6c77a082bd76f542a1ebbaae46084e ice: use preferred MSIX allocation api
+7bf667033cec45b07f13cf5bf90bf30c57bc707a ice: refactor VF control VSI interrupt handling
+da1e1a49d77b5c01db6a6c8cc049716e45eaa08c ice: remove redundant SRIOV code
+2cc1a92455920862dc96bec40744e7c71bbf8e2c ice: add individual interrupt allocation
+9ea382389b558b4201dd55bcc4cfbd1971adaafc ice: track interrupt vectors with xarray
+12d988c578e91d3866eb586fa38d5dbbe9849a98 ice: add dynamic interrupt allocation
+217e7d9da8e542c392843412739efc8f59771d94 e1000e: Disable TSO on i219-LM card to increase speed
+6be1a2d50b5377d6db8d2f3701ca85ab0cb8434c i40e: fix accessing vsi->active_filters without holding lock
+43c308922cf5e012988c7d222817c761f0867fb8 i40e: fix PTP pins verification
+0bdaae85f69b5ba645e98e8245b4ac060ec24b7f i40e: Fix crash when rebuild fails in i40e_xdp_setup
+3065e8b84325f7e7c1049e50a50d3e43c7ba7870 i40e: fix i40e_setup_misc_vector() error handling
+1f8dbc1a869426bb1b71a8b1ede1e7b1a6e68ab1 iavf: refactor VLAN filter states
+e1da418893694508948fa7930a9f699027a25cfa iavf: remove active_cvlans and active_svlans bitmaps
 
---===============0029228988005000012==--
+--===============7129092902915147132==--
