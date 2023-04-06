@@ -1,54 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============6363920306124523616=="
+Content-Type: multipart/mixed; boundary="===============6504918007808235295=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Thu, 06 Apr 2023 15:02:49 -0000
-Message-Id: <168079336962.22861.8097756544260296576@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Thu, 06 Apr 2023 15:02:56 -0000
+Message-Id: <168079337614.22988.16838410600983672390@gitolite.kernel.org>
 
---===============6363920306124523616==
+--===============6504918007808235295==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/regulator
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.4
-    old: 99fddc1618ff64cc71bd51dbf83bd13e74778fe0
-    new: 8a0cfac697777bda216d73a2b3b8fe02fcaa7e38
+  - ref: refs/heads/for-6.4
+    old: fc4fef625decc80cf3a72e884a4e37288bfa0f9b
+    new: cba6cfdc7c3f1516f0d08ddfb24e689af0932573
     log: |
-         3456aeb02a28e82235d45da434752e6f441427f0 ASoC: soc-dapm.c: tidyup dapm_connect_dai_pair()
-         63a511284c9ea72696a5dd0a2d2721bdef19f774 ASoC: rt712-sdca: Add RT712 SDCA driver for Mic topology
-         c52615e494f17f44b076ac8ae5a53cfc0041a0dd ASoC: qcom: q6apm-lpass-dai: close graphs before opening a new one
-         e2e530886359246ae782c779be248c59bc2ed111 ASoC: qcom: sdw: do not restart soundwire ports for every prepare
-         8a0cfac697777bda216d73a2b3b8fe02fcaa7e38 ASoC: qcom: fixes for Click/Pop Noise
+         b83a1772be854f87602de14726737d3e5b06e1f4 regulator: core: Consistently set mutex_owner when using ww_mutex_lock_slow()
+         cba6cfdc7c3f1516f0d08ddfb24e689af0932573 regulator: core: Avoid lockdep reports when resolving supplies
          
 
---===============6363920306124523616==
+--===============6504918007808235295==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1680793368 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1680793367-26e38c5bcd3f794221a30a6dd2adef33e7846b3d
+pusher C3F436CA30F5D8EB 1680793374 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
+nonce 1680793374-857cd67981eaed66fe4fb02c51ad3257c6f8d684
 
-99fddc1618ff64cc71bd51dbf83bd13e74778fe0 8a0cfac697777bda216d73a2b3b8fe02fcaa7e38 refs/heads/asoc-6.4
+fc4fef625decc80cf3a72e884a4e37288bfa0f9b cba6cfdc7c3f1516f0d08ddfb24e689af0932573 refs/heads/for-6.4
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmQu3xgACgkQJNaLcl1U
-h9A/4Qf+Ot+6YzZo94kQbJc+eudg4n81VTCJoaBQgm0yodZRNYVm272NmSTU7Jhp
-4F8+ORBnTZTnLSGqQ6i3Osre+Z5RgwT3sWfHrwSPZo1DhXcsrpdLcBQNNP3DlAEV
-r7JpIe0wvZEWzDqmnKgAns7x429c76DyDlA2qbgB2CogZ5KtuyNXa6AeQcvrssHk
-xRdlYjdF6W9Jm/EcdNZJ26yDd7kmdkNIK4aNNqUAna02qYluoIeDQzkaFy5yCzbp
-DEM/AAKD3ZVWUPxwTMKUrOs/L2dxCemi4/qZwPQJ0UlebkwUE0SQawQfih5e1h3O
-MfTnSAp52JPjCqstb2nMb6Ah/aMqKg==
-=/FzM
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmQu3x4ACgkQJNaLcl1U
+h9B5eggAgeh1K6TtJrTeXaQUMOVaHuBHA1sIBAomoBmQZoN4523rQgKPcEUcLfW7
+nKeVL8/EThqPMDQfcoBgOUdnphBeKNeUnFo2SnLQdYC+95fyMiy4EpPvx4nWXPMz
+BOsZ+HPicQlxOWurqNBL1obVRxBCN6TfvyF2rxR47QsuVqXK/KwQjukxFG6nauPA
+FtnH3HwCspXUyTVThdVmbcolx7ryBAH9mpJTSYqkfs0qsPLe/75mpPB+27PfuzaM
+tdq5W4Ff0BdliG2a/MYM5K8FdZbQ5aQXPtVU4B2azWRIYhz0W2hOkrvTqkurAPgv
+ErzFWjQiUNThwgelzd9sn1hiaLiabQ==
+=rmm2
 -----END PGP SIGNATURE-----
 
---===============6363920306124523616==--
+--===============6504918007808235295==--
