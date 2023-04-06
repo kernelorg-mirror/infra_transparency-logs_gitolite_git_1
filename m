@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Thu, 06 Apr 2023 11:55:51 -0000
-Message-Id: <168078215150.27821.7080910891291413407@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Thu, 06 Apr 2023 12:27:16 -0000
+Message-Id: <168078403685.15521.14558101423556003890@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: pabeni
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: hansg
 changes:
-  - ref: refs/heads/main
-    old: 0f72997036f32264fbecefb6a329de8e8d1bb5ce
-    new: 905a9eb5f636f3312964b162362e4d6ca4e37378
+  - ref: refs/heads/review-hans
+    old: c69fec50ec2e3aeea46b13235b72d9d5a1bf095a
+    new: 7bef7eea539dac6182e25e2e8d4a33063d458878
     log: |
-         905a9eb5f636f3312964b162362e4d6ca4e37378 selftests/net: fix typo in tcp_mmap
+         fb131c472df92b2885262e747906c0a4038c82e5 platform/x86: apple-gmux: Fix iomem_base __iomem annotation
+         7bef7eea539dac6182e25e2e8d4a33063d458878 platform/mellanox: add firmware reset support
          
