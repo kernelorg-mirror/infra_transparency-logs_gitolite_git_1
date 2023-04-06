@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4612695697724485872=="
+Content-Type: multipart/mixed; boundary="===============3405704569497881793=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec
-Date: Thu, 06 Apr 2023 10:03:35 -0000
-Message-Id: <168077541553.15426.1339873627885752411@gitolite.kernel.org>
+Date: Thu, 06 Apr 2023 10:04:15 -0000
+Message-Id: <168077545543.15700.5261571918613810432@gitolite.kernel.org>
 
---===============4612695697724485872==
+--===============3405704569497881793==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/klassert/ipsec
 user: klassert
 changes:
-  - ref: refs/heads/testing
+  - ref: refs/heads/master
     old: c276a706ea1f51cf9723ed8484feceaf961b8f89
     new: 24e3fce00c0b557491ff596c0682a29dee6fe848
     log: revlist-c276a706ea1f-24e3fce00c0b.txt
 
---===============4612695697724485872==
+--===============3405704569497881793==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ abc33494ddd5c1e4bd0e17c4abe361038fb6693f net: fec: make use of MDIO C45 quirk
 38e058cc7d245dc8034426415bee8fec16ace1bd selftests: net: rps_default_mask.sh: delete veth link specifically
 24e3fce00c0b557491ff596c0682a29dee6fe848 net: stmmac: Add queue reset into stmmac_xdp_open() function
 
---===============4612695697724485872==--
+--===============3405704569497881793==--
