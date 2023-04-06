@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Thu, 06 Apr 2023 13:57:36 -0000
-Message-Id: <168078945688.11467.9592296116721681243@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tglx/devel
+Date: Thu, 06 Apr 2023 14:14:17 -0000
+Message-Id: <168079045735.21200.5908244703018887@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
-user: broonie
+repo: pub/scm/linux/kernel/git/tglx/devel
+user: tglx
 changes:
-  - ref: refs/tags/sent/20230405-kselftest-nolibc-cb2ce0446d09-v1
+  - ref: refs/heads/hotplug
     old: 0000000000000000000000000000000000000000
-    new: 7d04143d30522bd0db18157c9e96587253d8ef24
+    new: 5b422b9bb7318b5ab8d0c124d623db4d3f6b2771
