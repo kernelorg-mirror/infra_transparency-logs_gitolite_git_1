@@ -1,22 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jpoimboe/linux
-Date: Thu, 06 Apr 2023 14:52:28 -0000
-Message-Id: <168079274894.16063.9827679932525784776@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Thu, 06 Apr 2023 14:53:12 -0000
+Message-Id: <168079279221.16377.17966277562887604834@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jpoimboe/linux
-user: jpoimboe
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/objtool-debug
-    old: 261316083661e4879d4db1cc7d34efb3f3dfcbbf
-    new: 63ccbbaeee178de268d62a63f9407c083265b5d4
+  - ref: refs/heads/kselftest-nolibc
+    old: 76277b30c7134cadcede77daa256dd29d0158808
+    new: cdc6dd90df4e23ab209e497e2468712c540979e7
     log: |
-         6bd75fc4086813623f78062615a2f5fb64174465 objtool: Add verbose option for disassembling affected functions
-         bfdfffcde1a591bdff9222783d886e58fa15b0a0 objtool: Include backtrace in verbose mode
-         b0d422526ba997bc60013771c4bbd2dbb056cee6 objtool: Remove superfluous dead_end_function() check
-         63ccbbaeee178de268d62a63f9407c083265b5d4 objtool: Detect missing __noreturn annotations
+         02ccf49a58ccaf67809dbad33609984fe3ea469d tools/nolibc: Support vprintf() so we can use kselftest.h with nolibc
+         28a4ede97bc467113275777f11f00065ded6a4a2 tools/nolibc/stdio: Implement vprintf()
+         b0eba2575514097a82d0aadbb2388551c0d0e8e7 kselftest: Support nolibc
+         cdc6dd90df4e23ab209e497e2468712c540979e7 kselftest/arm64: Convert za-fork to use kselftest.h
          
