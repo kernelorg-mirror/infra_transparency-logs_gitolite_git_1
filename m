@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2614730364173362017=="
+Content-Type: multipart/mixed; boundary="===============4465769683337537124=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 06 Apr 2023 23:21:04 -0000
-Message-Id: <168082326428.5430.13841351255834895952@gitolite.kernel.org>
+Date: Thu, 06 Apr 2023 23:21:37 -0000
+Message-Id: <168082329766.5673.10955665733328618136@gitolite.kernel.org>
 
---===============2614730364173362017==
+--===============4465769683337537124==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 8fbc10b995a506e173f1080dfa2764f232a65e02
-    new: f2afccfefe7be1f7346564fe619277110d341f9b
-    log: revlist-8fbc10b995a5-f2afccfefe7b.txt
+  - ref: refs/heads/dev-queue
+    old: 4dfe62c125e83fbf531b4e84bd3794f8bffe6484
+    new: 135f057f4ad0a86a138bbb6d395acbc23e6e0a81
+    log: revlist-4dfe62c125e8-135f057f4ad0.txt
 
---===============2614730364173362017==
+--===============4465769683337537124==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8fbc10b995a5-f2afccfefe7b.txt
+Content-Disposition: attachment; filename=revlist-4dfe62c125e8-135f057f4ad0.txt
 
 ec738ca127d07ecac6afae36e2880341ec89150e mtd: spi-nor: fix memory leak when using debugfs_lookup()
 c0ad453e94e5c404efbcf668648d07eaa1a71ed7 pinctrl: mediatek: add missing options to PINCTRL_MT7981
@@ -202,5 +202,16 @@ ae52f797904ef0e98951e43d15a274fa8e80bbe5 Merge tag 'pwm/for-6.3-rc6' of git://gi
 105b64c83872c39d86c1e3dea9ee4185c62114dc Merge tag 'for-linus-iommufd' of git://git.kernel.org/pub/scm/linux/kernel/git/jgg/iommufd
 8f2e1a855b47fa9fd936eafa617a7ab4582bd916 Merge tag 'linux-kselftest-fixes-6.3-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
 f2afccfefe7be1f7346564fe619277110d341f9b Merge tag 'net-6.3-rc6-2' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
+e650f64e34d33414b5c4e6bfaff740d38fff649a ice: Write all GNSS buffers instead of first one
+411b9ee07ee6b13a05c58f2e054c5e3caea7634c ixgbe: Panic during XDP_TX with > 64 CPUs
+f91c43901f7e2b439f8127ee4f95dd55926c87c3 ice: identify aRFS flows using L3/L4 dissector info
+a43a1970ed2e1a73205d9773b6d944bbd78bbbdb ice: clear number of qs when rings are free
+3f5074a9eb447a3a90d978f1344c6efa14b1b770 e1000e: Disable TSO on i219-LM card to increase speed
+2d95c3312a272dc30aca7809244ffb8223df1759 i40e: fix accessing vsi->active_filters without holding lock
+66d83a3848ca60b03241a0528c3b707da57b88ed i40e: Fix crash when rebuild fails in i40e_xdp_setup
+2a86e5b3df1474d0abbdf7c6caa8036c76524eec i40e: fix PTP pins verification
+3677da01033ac58721769c849062d6fc8994d8f8 i40e: fix i40e_setup_misc_vector() error handling
+2fc0af438f6f3e8203ae85ee7a4a1c6f30209609 iavf: refactor VLAN filter states
+135f057f4ad0a86a138bbb6d395acbc23e6e0a81 iavf: remove active_cvlans and active_svlans bitmaps
 
---===============2614730364173362017==--
+--===============4465769683337537124==--
