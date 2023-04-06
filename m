@@ -1,21 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Thu, 06 Apr 2023 15:03:27 -0000
-Message-Id: <168079340726.23484.15673171413308187075@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Thu, 06 Apr 2023 15:06:09 -0000
+Message-Id: <168079356903.25882.17551398644360430421@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/for-next
-    old: 0437dfb926c0c8dfabdac2564dd46288643b13c0
-    new: 45f82b0d9d9552cf9089be0ebd11e99895b72bcb
+  - ref: refs/heads/arm64-fgt-reg-gen
+    old: 41f22049fcee0001d136c5750e86f41d7a58bfe9
+    new: 9c2915b45c38e0fa161c382de3164fec8dbe78ef
     log: |
-         b83a1772be854f87602de14726737d3e5b06e1f4 regulator: core: Consistently set mutex_owner when using ww_mutex_lock_slow()
-         cba6cfdc7c3f1516f0d08ddfb24e689af0932573 regulator: core: Avoid lockdep reports when resolving supplies
-         45f82b0d9d9552cf9089be0ebd11e99895b72bcb Merge remote-tracking branch 'regulator/for-6.4' into regulator-next
+         2501358432c2e7e7e3efcafc7cb247c107fff0cd arm64/sysregs: Generate definitions fine grained traps control registers
+         f83465904f5919fed09d80dbeb62af0b4427d4b5 arm64/sysreg: Convert HFG[RW]TR_EL2 to automatic generation
+         9c2915b45c38e0fa161c382de3164fec8dbe78ef arm64/sysreg: Convert HFGITR_EL2 to automatic generation
          
