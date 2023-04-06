@@ -1,70 +1,80 @@
-Content-Type: multipart/mixed; boundary="===============1510313177199416594=="
+Content-Type: multipart/mixed; boundary="===============2421021025478787410=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Thu, 06 Apr 2023 07:22:14 -0000
-Message-Id: <168076573487.25378.13499489513247681126@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Thu, 06 Apr 2023 07:56:52 -0000
+Message-Id: <168076781245.15482.14980168420390496831@gitolite.kernel.org>
 
---===============1510313177199416594==
+--===============2421021025478787410==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
-user: leon
+repo: pub/scm/linux/kernel/git/gregkh/usb
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/rdma-next
-    old: 2f65299ea23ece0e0bba61ae2c6cf606d9a0eb12
-    new: 9a446c3b0349dc5c4aad2451f1d8d0cd317dea5e
-    log: revlist-2f65299ea23e-9a446c3b0349.txt
-  - ref: refs/heads/xfrm-next
-    old: 6d9ff3a7205e6aa8617ec56f1de1062a95cfd9ff
-    new: 81ac7191b0bcab3469c6c2fd32044b785e6f9f4f
-    log: revlist-6d9ff3a7205e-81ac7191b0bc.txt
+  - ref: refs/heads/usb-next
+    old: d629c0e221cd99198b843d8351a0a9bfec6c0423
+    new: 0246b15bbb43404d8d6f0ec86121c05515e0ed0b
+    log: revlist-d629c0e221cd-0246b15bbb43.txt
 
---===============1510313177199416594==
+--===============2421021025478787410==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2f65299ea23e-9a446c3b0349.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-a0554af60d3c549d73758400db7e52ade43a37f5 RDMA/mlx5: Reduce QP table exposure
-ea0a4b3a745365c7e422015030075f89b285181e RDMA/mlx5: Handle DCT QP logic separately from low level QP interface
-11975f94c8737bb9ee4878dde7cba14f8bcbfef4 RDMA/mlx5: Return the firmware result upon destroying QP/RQ
-086e97078bca996b90405e4504ae80dd91eb4517 RDMA: Split kernel-only create QP flags from uverbs create QP flags
-a617a441ebbdb929456523f9faca994f946719b2 RDMA/mlx5: Initiate dropless RQ for RAW Ethernet functions
-bc88aa4b83cce25e78fbe1d6a39677361ce1b993 IB/mlx5: Add HW counter called rx_dct_connect
-a1c90301f17fd00f5cb7cb54438ac20f48ca5659 Revert "IB/mlx5: Add HW counter called rx_dct_connect"
-bb81afca8157c358672e4021383b96ba90c08df5 RDMA/mlx5: Remove pcie_relaxed_ordering_enabled() check for RO write
-75926f100f15850a2d5a21e1415917a60e041113 RDMA/mlx5: Check pcie_relaxed_ordering_enabled() in UMR
-a3ae45359770c3f1f4f14ff60c1ce271c369ce7f net/mlx5: Update relaxed ordering read HCA capabilities
-e378e1bebecd90c78a519fec69ae7f39fba23938 RDMA/mlx5: Allow relaxed ordering read in VFs and VMs
-38bef04f3f126981a16cd6bab4b4f728011eaf5d IB/core: Query IBoE link speed with a new driver API
-e3cc1e7580ee90f723bcbabd054a3c543ac23061 IB/mlx5: Implement query_iboe_speed driver API
-9a446c3b0349dc5c4aad2451f1d8d0cd317dea5e RDMA/mlx5: Fix flow counter query via DEVX
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1680767811 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1680767811-2244162e57d2a754103b3d2443ae249ee58ba21a
 
---===============1510313177199416594==
+d629c0e221cd99198b843d8351a0a9bfec6c0423 0246b15bbb43404d8d6f0ec86121c05515e0ed0b refs/heads/usb-next
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQue0MbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Jo4QANXOQhlNf3WAze+W2u0I
+hHnchoKtBSX7yMB4oa/GyLIL8zq8UrnmS9GjQ3TlgP08NFmXakGdvCMzSo0xkmqQ
+GGsA75A8EugE2AX3rbuv54Geqwnb78EupZPavmeOyAlxdxtKNjs/hCdH3w0pOeTf
+Q+D9dtcjpWgvGJLpOwk30GfcZalfahYVw62Hx7LPd01UbvNgk3GfLLNfJkPtumkK
+x/qLlCThbGjNvT0aQav63KPpNC9dGyOnOFfXXjzWGulvBqEiz+EHjMTPuMyZZEBe
+U18mz9p+Jm29BkfEL38h5uRFESN7278LP9eh/zQWPog/bmojS6KEZIFDfmG+Mr84
+4flHx3ak6CGq6bn27Ki/fDXNbJCniQcY5rdBGZ5mBEZSMnfS4i6d9u2d+Cs1P9X9
+dhJcm3f5O/cHCYMKgIFwPxaUsV6AWsvdyUUnxxOpZijDexCtnZU0Mh3b+5UTwq/+
+MqRYa8CPMSXmLstV3viYkeNASLoxPGQDnzm9HhFM8MCJT0EIkw8Ma0n/pWHgQVXa
+A9d31xqMFjLN04kdwy4MIr3NH9cvSUbJ3fjPct+rcdTS/lq8dPASZw7EOwZkVn7J
+nTr4rZdhMvLXycPBBr79yIw0Tvh5SoFDG4szo2jcfcRgKh5ZO2/RBBse118+WhVf
+D2MKYp3Z1nclkYqzj/ADEQyi
+=fQ85
+-----END PGP SIGNATURE-----
+
+--===============2421021025478787410==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6d9ff3a7205e-81ac7191b0bc.txt
+Content-Disposition: attachment; filename=revlist-d629c0e221cd-0246b15bbb43.txt
 
-2477367300cdfcac2d02c8e1d9bbd683bbef0603 net/mlx5e: Generalize IPsec work structs
-05c7d923ffc2295740e776367e49236b79295686 net/mlx5e: Simulate missing IPsec TX limits hardware functionality
-da455f27be2ec2d02d5f4c56f5daa19a9ca56ebd net/mlx5e: Add IPsec packet offload tunnel bits
-de3dac278123da308b6a3e65913b1c65afa4c703 net/mlx5e: Check IPsec packet offload tunnel capabilities
-5747a33a74357e914020085f52f8c2016f0ec401 net/mlx5e: Configure IPsec SA tables to support tunnel mode
-2f62b6e9f7350d82344169303ee0e0de8c575893 net/mlx5e: Prepare IPsec packet reformat code for tunnel mode
-b13e958294c8b0d3a1bb4ef645990c963a53c2c7 net/mlx5e: Support IPsec RX packet offload in tunnel mode
-96bd6936168f02d8283b7d510a75fe548df83ffc net/mlx5e: Support IPsec TX packet offload in tunnel mode
-026d57476062dc23e035b50dabd831678c9f0d86 net/mlx5e: Listen to ARP events to update IPsec L2 headers in tunnel mode
-4a5ef4694d6874a0cd552905f547e42c4209bd2d net/mlx5: Allow blocking encap changes in eswitch
-d8420519b757052b477bc4901e771290b55a7d16 net/mlx5e: Create IPsec table with tunnel support only when encap is disabled
-3f6252fe97469e9935d17abcfce743c78ce6782d net/mlx5e: Accept tunnel mode for IPsec packet offload
-0fe7c08b045a50e0172726a527603b6d2db567a7 net/mlx5e: Fix FW error while setting IPsec policy block action
-9e99ed8cc0aa1a6b96ff8438980a03deb8184001 net/mlx5: Don't overwrite extack message returned from IPsec SA validator
-81ac7191b0bcab3469c6c2fd32044b785e6f9f4f net/mlx5e: Compare all fields in IPv6 address
+a9042796f9d00643856c31bd3f216305cc5d9dfa usb: musb: da8xx: Convert to platform remove callback returning void
+c5477ce3bc3d137c553180eaccf88f4b85fa70fc usb: musb: jz4740: Convert to platform remove callback returning void
+ace4e2637c016d0e693a15760df9f4add1bcbe9c usb: musb: mediatek: Convert to platform remove callback returning void
+37e7750091ad5f3911a8266564e89394c6ac94a1 usb: musb: mpfs: Convert to platform remove callback returning void
+aa846a29e1cc733e6c966bde918bdd1d3a5c5e8a usb: musb: musb_core: Convert to platform remove callback returning void
+e6547b5e5c2c493bbd3b6add3177e8498ff0e063 usb: musb: musb_dsps: Convert to platform remove callback returning void
+cb020bf52253327fe382e10bcae02a4f1da33c04 usb: musb: omap2430: Convert to platform remove callback returning void
+2a21aceed2fe94816d596969a761f6829954d879 usb: musb: sunxi: Convert to platform remove callback returning void
+969c9528ad05763f468a60b7287486afa62deb23 usb: musb: tusb6010: Convert to platform remove callback returning void
+8000540218439e06ee1161b039a1472718798646 usb: musb: ux500: Convert to platform remove callback returning void
+d56de8c9a17d8f5202d0f37dd06ce186cc512586 usb: typec: tcpm: try to get role switch from tcpc fwnode
+be15c65ad027f467c856ae9d2cbabaa62680506a dt-bindings: usb: typec-tcpci: convert to DT schema format
+03f009a9d41f902e4e9e2dd618b35b712e4b67df dt-bindings: usb: tps6598x: make interrupts optional
+917dc99b659114a4aad2ee8b20bcdc05c80e5f09 usb: dwc3: pci: Change PCI device macros
+326e1c208f3f24d14b93f910b8ae32c94923d22c usb: typec: ucsi: acpi: add quirk for ASUS Zenbook UM325
+c336fae2c5be3689a7a74562458a23afb88b655e usb: chipidea: imx: avoid unnecessary probe defer
+72958d337859626c8538fcd3a5f905825820b72e dt-bindings: usb: mediatek,mtk-xhci: drop assigned-clocks
+d024ebb274573baaf999914ba33a361141b66bef dt-bindings: usb: ti,j721e-usb: drop assigned-clocks
+0246b15bbb43404d8d6f0ec86121c05515e0ed0b dt-bindings: usb: ti,keystone-dwc3: drop assigned-clocks
 
---===============1510313177199416594==--
+--===============2421021025478787410==--
