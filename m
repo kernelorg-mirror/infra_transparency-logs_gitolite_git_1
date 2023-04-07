@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2220302455065182779=="
+Content-Type: multipart/mixed; boundary="===============7053395977735369206=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jpoimboe/linux
-Date: Fri, 07 Apr 2023 23:51:56 -0000
-Message-Id: <168091151604.27644.8315599344806089803@gitolite.kernel.org>
+Date: Fri, 07 Apr 2023 23:52:12 -0000
+Message-Id: <168091153213.27791.17106703566246244668@gitolite.kernel.org>
 
---===============2220302455065182779==
+--===============7053395977735369206==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,18 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jpoimboe/linux
 user: jpoimboe
 changes:
-  - ref: refs/heads/objtool-noreturn
-    old: eac054b9616f69c189a7f10e2f31329d219cf4ed
-    new: 6df2fb39e07e2a2685c8deca3d19646806da75e1
-    log: revlist-eac054b9616f-6df2fb39e07e.txt
+  - ref: refs/heads/objtool-test
+    old: 4e5fb7f91c779c8e3f281593486a563983211c19
+    new: 866bbd8fc85389401d8e08f8f357724dd38cf613
+    log: revlist-4e5fb7f91c77-866bbd8fc853.txt
 
---===============2220302455065182779==
+--===============7053395977735369206==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-eac054b9616f-6df2fb39e07e.txt
+Content-Disposition: attachment; filename=revlist-4e5fb7f91c77-866bbd8fc853.txt
 
+371c1cc619ae431b6fc31a32fbf60e4859f02a6d objtool: Ignore exc_double_fault() __noreturn warnings
 b24a972397061a67d46ff5a98657e352040f427a init: Mark [arch_call_]rest_init() __noreturn
 cb5dab6038dfe5156f5d68424cf372f7eed1b934 init: Mark start_kernel() __noreturn
 064f6f3473b39061aad3b9aa09f21b4fe724e5f9 x86/head: Mark *_start_kernel() __noreturn
@@ -42,5 +43,6 @@ c5939160ab44a078b00adfb55966cb8fe4fb065b objtool: Include weak functions in glob
 9a0fef0a255b8ae77cb54b3973f1fcdc05becfb3 sched: Fix KCSAN noinstr violation
 54c747c82edb6761a7d9e4695a963bc27413d004 printk: Add pr_*_instr() interfaces
 6df2fb39e07e2a2685c8deca3d19646806da75e1 lkdtm/stackleak: Fix noinstr violations
+866bbd8fc85389401d8e08f8f357724dd38cf613 Merge branch 'objtool-debug' into objtool-test
 
---===============2220302455065182779==--
+--===============7053395977735369206==--
