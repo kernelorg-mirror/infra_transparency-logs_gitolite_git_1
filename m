@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0619572751492708818=="
+Content-Type: multipart/mixed; boundary="===============5009707091553872865=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
-Date: Fri, 07 Apr 2023 17:56:38 -0000
-Message-Id: <168089019822.15390.11330113394555473620@gitolite.kernel.org>
+Date: Fri, 07 Apr 2023 17:56:39 -0000
+Message-Id: <168089019989.15501.1337712997173605795@gitolite.kernel.org>
 
---===============0619572751492708818==
+--===============5009707091553872865==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/qcom/linux
 user: andersson
 changes:
-  - ref: refs/heads/arm64-for-6.4
-    old: 97cb36ff52a1061a0d3ef4bf448813acef207140
-    new: 9f5cdeb7031062a36e135ebb88bd99c03f32e5ee
-    log: revlist-97cb36ff52a1-9f5cdeb70310.txt
+  - ref: refs/heads/for-next
+    old: 98e14d8cebf975eede59503f84eafdc4d6efa445
+    new: d7af5d107a150c94384b00a0979d8dcacb2888f4
+    log: revlist-98e14d8cebf9-d7af5d107a15.txt
 
---===============0619572751492708818==
+--===============5009707091553872865==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-97cb36ff52a1-9f5cdeb70310.txt
+Content-Disposition: attachment; filename=revlist-98e14d8cebf9-d7af5d107a15.txt
 
 c4a48b0df8bfcf45256e8690f959a5af39c20ce7 dt-bindings: pinctrl: qcom: tlmm should use output-disable, not input-enable
 988a9eab4d9a0eb07339b9d3f2bc9bee66af47b1 dt-bindings: pinctrl: qcom: Add output-enable
@@ -40,5 +40,6 @@ e8df226339fa032c49f8db4281903930d018a22c arm64: dts: qcom: sc7180: Remove superf
 ab752f03e2feb3323dfd9c1ce161ac759ce09634 arm64: dts: qcom: sc7180: Fix trogdor qspi pin config
 5f89df31096d67c244d8f36502f651ce701ddcde arm64: dts: qcom: sc7280: Fix qspi pin config
 9f5cdeb7031062a36e135ebb88bd99c03f32e5ee arm64: dts: qcom: sdm845: Fix cheza qspi pin config
+d7af5d107a150c94384b00a0979d8dcacb2888f4 Merge branches 'arm64-defconfig-for-6.4', 'arm64-fixes-for-6.3', 'arm64-for-6.4', 'clk-for-6.4', 'drivers-fixes-for-6.3', 'drivers-for-6.4', 'dts-fixes-for-6.3' and 'dts-for-6.4' into for-next
 
---===============0619572751492708818==--
+--===============5009707091553872865==--
