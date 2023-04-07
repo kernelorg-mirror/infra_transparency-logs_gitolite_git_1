@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0681991620229060377=="
+Content-Type: multipart/mixed; boundary="===============5824326122598324371=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 07 Apr 2023 15:43:32 -0000
-Message-Id: <168088221274.22431.16696703616686452130@gitolite.kernel.org>
+Date: Fri, 07 Apr 2023 15:44:07 -0000
+Message-Id: <168088224743.22688.7126577489255171611@gitolite.kernel.org>
 
---===============0681991620229060377==
+--===============5824326122598324371==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: d9c960675adcc6e26bb6464b6b500fd75fd55dcf
-    new: e28531143b257a4cbfdc1c3358eff18cc3024783
-    log: revlist-d9c960675adc-e28531143b25.txt
+  - ref: refs/heads/dev-queue
+    old: e1da418893694508948fa7930a9f699027a25cfa
+    new: 9d51c671031614ba6e89e779c6ec7ddb78c0d68b
+    log: revlist-e1da41889369-9d51c6710316.txt
 
---===============0681991620229060377==
+--===============5824326122598324371==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d9c960675adc-e28531143b25.txt
+Content-Disposition: attachment; filename=revlist-e1da41889369-9d51c6710316.txt
 
 0840c9f7d80b1baf959d0ddcedc97c9f383ded1c net/mlx5e: Set default can_offload action
 7195d9a0c8df0ab78c9d7a587809d16b00432426 net/mlx5e: TC, Remove unused vf_tun variable
@@ -46,5 +46,29 @@ a9fda7a0b0331250c4af006f1862752dbefcab9c selftests: forwarding: hw_stats_l3: Det
 92d2c594aa096bba674da5fdcdc0e89cba79a147 Merge tag 'mlx5-updates-2023-04-05' of git://git.kernel.org/pub/scm/linux/kernel/git/saeed/linux
 05f3ab7780b3c0cfe26a8134606bdf641c4f4bb2 net: ethernet: mtk_eth_soc: add code for offloading flows from wlan devices
 e28531143b257a4cbfdc1c3358eff18cc3024783 net: ethernet: mtk_eth_soc: mtk_ppe: prefer newly added l2 flows
+8041a6f190f2c0cfbc857e234577c67a2eef806b ice: Write all GNSS buffers instead of first one
+3e36c8d963e5d2e7d68ac430c2f6724b95ebba25 ixgbe: Panic during XDP_TX with > 64 CPUs
+a136aca561ec8c7c724808ce34f0dd1789568782 ice: identify aRFS flows using L3/L4 dissector info
+1107b78396b3038714a748d6ff000e2d5dcc0984 ice: clear number of qs when rings are free
+5e97cc062438894e2998ce064a7e7764c6022cfa ice: Support 5 layer topology
+686a048250be69f80e202cc066f247bb6925b2ab ice: Adjust the VSI/Aggregator layers
+d7dfd5054ae3a07f9608bf2f6d7e92f130f55266 ice: Enable switching default tx scheduler topology
+70d3a11ed0e513bdfba83a48cb73b8a3d3f28841 ice: Add txbalancing devlink param
+b5957308f51494a3f67946e437fd907b46dc83cc ice: Document txbalancing parameter
+de315e744dc0346cc6ff140ee7739365300d1c2d ice: move interrupt related code to separate file
+733785d7a349371b4f18d69d033469c85f0dc7bb ice: use pci_irq_vector helper function
+c4ce2fcab47226f3f84fc1850e87213141c23f0d ice: use preferred MSIX allocation api
+18455047d6f64f79fe4c49710dc850753164e50a ice: refactor VF control VSI interrupt handling
+a84b7ece780ba4ba594e45847915372762e9b758 ice: remove redundant SRIOV code
+4f4436b5e2f6139147a36643386dc25cc11691c0 ice: add individual interrupt allocation
+90f81a0a817acdba3890f7849a32acc8a98fbf85 ice: track interrupt vectors with xarray
+40a46316cfae3c26049377df6c16d025f09b782e ice: add dynamic interrupt allocation
+ef35428da086b879b49ba53ff4c435d99c8db7f1 e1000e: Disable TSO on i219-LM card to increase speed
+3e45efd0c22f7f1d6710cd42cdc1a99cf2a81fb1 i40e: fix accessing vsi->active_filters without holding lock
+8ebb8d54ae0ec104cf8a5297ff3be48293a4714e i40e: fix PTP pins verification
+c71fdd772bf20fbeadc78b35e889a437335b639d i40e: Fix crash when rebuild fails in i40e_xdp_setup
+4bf99863f5e3e90476e87d3a782b6f107006a2d3 i40e: fix i40e_setup_misc_vector() error handling
+5b18d30c18957a6009ca294a77bbb0780ad42732 iavf: refactor VLAN filter states
+9d51c671031614ba6e89e779c6ec7ddb78c0d68b iavf: remove active_cvlans and active_svlans bitmaps
 
---===============0681991620229060377==--
+--===============5824326122598324371==--
