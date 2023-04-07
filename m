@@ -1,23 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gclement/mvebu
-Date: Fri, 07 Apr 2023 15:30:36 -0000
-Message-Id: <168088143610.14891.7888215923111161891@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Fri, 07 Apr 2023 15:31:12 -0000
+Message-Id: <168088147233.15167.6236056952195349737@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gclement/mvebu
-user: gclement
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
+user: tnguy
 changes:
-  - ref: refs/heads/for-next
-    old: 6849ce51950d4300137111f3d6777f55fd601190
-    new: a68cfc073bd9580e9cb3786b47eb2cb5c22b05ad
+  - ref: refs/heads/master
+    old: f2afccfefe7be1f7346564fe619277110d341f9b
+    new: b9881d9a761a7e078c394ff8e30e1659d74f898f
     log: |
-         8aea8659a5f3ae8dc63c9f632ce1f676a1483556 ARM: dts: kirkwood: Add missing phy-mode and fixed links
-         e2e1bcb19b7522a582026460bf5d49fd2ac15e62 ARM: dts: orion5: Add missing phy-mode and fixed links
-         0939de7d89d2efc4f565ce1961b4020787e9f297 ARM: dts: armada: Add missing phy-mode and fixed links
-         ac2608bd10fa7634f52a85f08eac800518cf806e Merge branch 'mvebu/dt64' into mvebu/for-next
-         a68cfc073bd9580e9cb3786b47eb2cb5c22b05ad Merge branch 'mvebu/dt' into mvebu/for-next
+         8ce07be703456acb00e83d99f3b8036252c33b02 niu: Fix missing unwind goto in niu_alloc_channels()
+         dc5110c2d959c1707e12df5f792f41d90614adaa tcp: restrict net.ipv4.tcp_app_win
+         4598380f9c548aa161eb4e990a1583f0a7d1e0d7 bonding: fix ns validation on backup slaves
+         481b56e0391ea46d6bf1a2604422a21063615901 selftests: bonding: re-format bond option tests
+         2e825f8accb4491466677162cd9893fe77aea2f9 selftests: bonding: add arp validate test
+         b9881d9a761a7e078c394ff8e30e1659d74f898f Merge branch 'bonding-ns-validation-fixes'
          
