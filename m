@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4252116417095828065=="
+Content-Type: multipart/mixed; boundary="===============5840205757100611852=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Fri, 07 Apr 2023 15:46:59 -0000
-Message-Id: <168088241901.26631.1660015514930936725@gitolite.kernel.org>
+Date: Fri, 07 Apr 2023 15:47:16 -0000
+Message-Id: <168088243639.26783.10457964681304884082@gitolite.kernel.org>
 
---===============4252116417095828065==
+--===============5840205757100611852==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/groeck/linux-staging
 user: groeck
 changes:
-  - ref: refs/heads/hwmon
-    old: 968b66ffeb7956acc72836a7797aeb7b2444ec51
-    new: 7e364e56293bb98cae1b55fd835f5991c4e96e7d
-    log: revlist-968b66ffeb79-7e364e56293b.txt
+  - ref: refs/heads/hwmon-next
+    old: 8a863eb1b1162653d133856702e13560f3596b85
+    new: 04bae6798b30ee919eb9648e83009c3a1b97fab2
+    log: revlist-8a863eb1b116-04bae6798b30.txt
 
---===============4252116417095828065==
+--===============5840205757100611852==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-968b66ffeb79-7e364e56293b.txt
+Content-Disposition: attachment; filename=revlist-8a863eb1b116-04bae6798b30.txt
 
 6715df8d5d24655b9fd368e904028112b54c7de1 bpf: Allow reads from uninit stack
 6338a94d5ab42a94e96ea36edc5f7df1fe73e68e selftests/bpf: Tests for uninitialized stack reads
@@ -661,5 +661,104 @@ a10ca0950afe36fa5a20e8fc3e843beef8808fc1 Merge tag 'driver-core-6.3-rc5' of git:
 f95b8ea79c47c0ad3d18f45ad538f9970e414d1f Revert "venus: firmware: Correct non-pix start and end addresses"
 6ab608fe852b50fe809b22cdf7db6cbe006d7cb3 Merge tag 'for-6.3-rc4-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
 7e364e56293bb98cae1b55fd835f5991c4e96e7d Linux 6.3-rc5
+b3802fe86772157275fe42717c870e24ae9b5308 hwmon: (gpio-fan) drop of_match_ptr for ID table
+0e46a10395a4fa76037174b8b396e560008aa5dc hwmon: (nzxt-smart2) add another USB ID
+badb7cfbcf06aff7d396da48a5a045fd05f3e4e9 hwmon: (nct6775) Drop unneeded casting and conjunction
+06e195b002e57761a66cfef50234146fead84eb0 hwmon: (ltc4245) Use of_property_read_bool() for boolean properties
+8faa854d0acf284d65ec684ee3f7be6b5f786542 hwmon: (ibmpowernv, pwm-fan) Use of_property_present() for testing DT property presence
+a292d2aaa6cff9e8e0f54166553f07b9e2156ee0 hwmon: (ftsteutates) Update specifications website
+ede25c8c71248220c0c31d24d96945ae145ff007 hwmon: (nzxt-smart2) handle failure of devm_add_action in nzxt_smart2_hid_probe
+847c2460bfc2efa4696213438212d3a1a3720a50 hwmon: (g762) add a check of devm_add_action in g762_of_clock_enable
+f420b91154d9159a3b7c4659cf386a1f05b8cb95 hwmon: (nct6775) ASUS PRIME Z590 boards support
+d4b14b66902f71ad0f3fafd0ab53e7a2d7354c37 hwmon: (aquacomputer_d5next) Support one byte control values
+f107648b74507418acb7595ce64bafee65b48e79 hwmon: (aquacomputer_d5next) Support writing multiple control values at once
+0f873bf65eda1ecc5fa966bedda4ad70c7e19b2b hwmon: (aquacomputer_d5next) Device dependent control report settings
+d5e15995aca8371c0db48e79b671aad3c2d67e0d hwmon: (aquacomputer_d5next) Add infrastructure for Aquaero control reports
+a4e41614fdf998f7cfe6eeb657b272f35bfce07c hwmon: (aquacomputer_d5next) Add temperature offset control for Aquaero
+957444ae541ebb381191c00635231dfb4ba185ab hwmon: (aquacomputer_d5next) Add fan PWM control for Aquaero
+e0f74e3e574ba4e03cd8c68ef51160077eeec1d4 hwmon: (pmbus/core) Generalize pmbus status flag map
+83c83fcaee093842f34bd8d0502e04b0030c48e8 hwmon: (pmbus/core) Generalise pmbus get status
+4e6ccdf52fdd1e90498447b4656789ce0ae8fcb7 hwmon: (pmbus/core) Add interrupt support
+84db6250c4836cc8890860956033817546cc17a5 hwmon: (pmbus/core) Notify hwmon events
+c10cc5e6b2fd0ec4d26a1df41ffddd404696e483 docs: hwmon: sysfs-interface: Fix stray colon
+fed9a39673bbac49ed2eda1f6c7f9434a8bef361 Documentation/hwmon: Remove description of deprecated registration functions
+f7b439332927f497f0d4a1305479ab94232d713b hwmon: (nct6775) add Asus Pro A520M-C II/CSM
+281b550a891b9e1003caa73fc3e36dee7e9d1286 hwmon: (nct6775) Fix TUF GAMING B550M-E WIFI name
+b7f99010273406838522c0f39d5812d0f64f5046 hwmon: (nct6775) update ASUS WMI monitoring list A520/B360/B460/B550...
+0662660dcf71afe9448900447391d80b79e811c0 hwmon: (it87) Use voltage scaling macro where appropriate
+3bd73b2457fbb2bb4d44466c4b0c510880270014 hwmon: (pwm-fan) set usage_power on PWM state
+2e1b2c2f9aa9717e286c66811b603962a95c9592 hwmon: remove unused superio_outb function
+e59f59bac8f2fdaeea7273bf8ac8c336b358b34b hwmon: (nct6775) Sort ASUS board list
+a49e3848739c3978dc4553471bd127f75238fea9 hwmon: (nct6775) Fix ROG B550-XE WIFI and Pro B660M-C D4 names
+c5846ea46c72f17de8ca942c73fac8695862c713 hwmon: (nct6775) update ASUS WMI monitoring list B360/H410/H610/Z390...
+107c2566479ac14fddf538bd555d681959bf20bf MAINTAINERS: hwmon: drop Agathe Porte
+61bcd4b4518415c6bdb164b33f177f855c16e5ae hwmon: constify pointers to hwmon_channel_info
+b508224fd7fdcd1ff6d3a68ed8f6ff9f778f63d5 hwmon: adm1177: constify pointers to hwmon_channel_info
+fa706d11cf037bca3e72ff381687788391f8daa8 hwmon: adm9240: constify pointers to hwmon_channel_info
+70fd01df50ada3fe4387636ec51cbe1a6fae201f hwmon: adt7411: constify pointers to hwmon_channel_info
+a8ff50effdd75824d6f798793a8c73e447955382 hwmon: adt7470: constify pointers to hwmon_channel_info
+1d610780c6e93cc8110075ef4d6318979042290e hwmon: adt7x10: constify pointers to hwmon_channel_info
+0181fc6d93b23055d732b7c9e5b8db95af056fef hwmon: aht10: constify pointers to hwmon_channel_info
+8f2e9f57c602ed515a558a282c3da7fc36f69927 hwmon: aquacomputer: constify pointers to hwmon_channel_info
+c8962806d115008c2f2800f249e1d5c309a271eb hwmon: as370: constify pointers to hwmon_channel_info
+c573907770b7598f58fb8e08c8c5d5bc64cb883e hwmon: axi-fan: constify pointers to hwmon_channel_info
+291fab70dc595b837cd201fa7e1ff11b6735c6c4 hwmon: bt1-pvt: constify pointers to hwmon_channel_info
+45d79e9c6d4ad7d9eb178214814d49c346cec323 hwmon: corsair: constify pointers to hwmon_channel_info
+03872f939457e37a13c6ce7bd5586f8bfa96ccd5 hwmon: dell-smm: constify pointers to hwmon_channel_info
+fcb5dc8c3c76e09ef2761055e2a90a4b4816f919 hwmon: drivetemp: constify pointers to hwmon_channel_info
+9642c521810ff5bd225b237d5f13052af9710b76 hwmon: emc2305: constify pointers to hwmon_channel_info
+a6c4a908fec4a2929badd2eb8aa42715bfed9aab hwmon: ftsteutates: constify pointers to hwmon_channel_info
+4e1c5573b3e0115318845a178d16f3caa00793c9 hwmon: gxp-fan: constify pointers to hwmon_channel_info
+f6811ab3084894dad4fca8b73a889fdd91fa4829 hwmon: i5500_temp: constify pointers to hwmon_channel_info
+033dee616c563d3f0bc850162a3bbf72a607a4b8 hwmon: ina238: constify pointers to hwmon_channel_info
+9594609aa9f04975e9f30e4e48b3ad5450aafa33 hwmon: ina3221: constify pointers to hwmon_channel_info
+7474f3a1fb1cf17cc57ae685b0ee96840ec02114 hwmon: intel-m10-bmc: constify pointers to hwmon_channel_info
+73b47a21744d22f00bda136f7b3c27deced8d9c0 hwmon: jc42: constify pointers to hwmon_channel_info
+837261ba8828f38f1ce22a7ed4096d7a62a22403 hwmon: k10temp: constify pointers to hwmon_channel_info
+c17d6706c89fe81bca45a20c0a3410006d2fc796 hwmon: k8temp: constify pointers to hwmon_channel_info
+049f71bd174d3bccf097428088f8eced408c6843 hwmon: lan966x: constify pointers to hwmon_channel_info
+779f1090800dc04f01694a649a9de1430cf5397e hwmon: lm75: constify pointers to hwmon_channel_info
+86bc31aa70b4bf6318941262c9848c8af5dd6786 hwmon: lm83: constify pointers to hwmon_channel_info
+b5caed94fde740c2beae6f07f5dbcd1c5e1329f6 hwmon: lm95241: constify pointers to hwmon_channel_info
+b12261088effc012f6882c8a61d4174b72a36e75 hwmon: lm95245: constify pointers to hwmon_channel_info
+f666dc4395dcbc3e57a9a3b7e5fbfbb5803da9d1 hwmon: lochnagar: constify pointers to hwmon_channel_info
+b7923392903513cd12bf52f129877e2f115c8eba hwmon: ltc2947: constify pointers to hwmon_channel_info
+0880d9e770050b7dc401ca1a88224a460f50c08d hwmon: ltc2992: constify pointers to hwmon_channel_info
+ba022110e6b802ba1924cd0194c267e3463d8b57 hwmon: ltc4245: constify pointers to hwmon_channel_info
+bf1835f576cc2014ae5efeddf01512c65c14adbb hwmon: ltq-cputemp: constify pointers to hwmon_channel_info
+6905fcedadec35e0a3d062f72ed4f6d81dc5aa01 hwmon: max127: constify pointers to hwmon_channel_info
+9ea16e532d9b043eec0a6d24dd36b4061028f648 hwmon: max31730: constify pointers to hwmon_channel_info
+59598eb88b5575cf206d776580dd598ae3a0e234 hwmon: max31760: constify pointers to hwmon_channel_info
+724366db1b3b534ada7400470a66de9c59a28b58 hwmon: max31790: constify pointers to hwmon_channel_info
+ae8a5ee93bd97c84c1d31a1e7307aca4239f5c3e hwmon: max6620: constify pointers to hwmon_channel_info
+dae496e888b054b5966cc67d690affc19c71ffbf hwmon: max6621: constify pointers to hwmon_channel_info
+8a254bd58996934a7905f67b889fbdd17e67f9d2 hwmon: max6650: constify pointers to hwmon_channel_info
+050cceb36fdf9a953ae780a6ac5fc2f825c85fe6 hwmon: mc34vr500: constify pointers to hwmon_channel_info
+57603d12c8e4a8adaabc92b63588b6db9e56349b hwmon: mcp3021: constify pointers to hwmon_channel_info
+57586a7bc58e991f55e2722fb0ed07f33ee24e1c hwmon: mlxreg: constify pointers to hwmon_channel_info
+984e99c66af4ae5f581ad1566c0267eaf1f7f3a3 hwmon: nct7904: constify pointers to hwmon_channel_info
+5c579ca2ab60da00d41872e482f778d558c0c6f4 hwmon: npcm750-pwm: constify pointers to hwmon_channel_info
+12858e71aafac685992dc5c9720f494a8faf82a7 hwmon: ntc_thermistor: constify pointers to hwmon_channel_info
+98864838f427b972d23f858118b660e4cdb32abf hwmon: nzxt: constify pointers to hwmon_channel_info
+535df58120ea4240d5802cf93e4ba49ab1a74603 hwmon: oxp-sensors: constify pointers to hwmon_channel_info
+ad58b723417b21173d1f7ccfb801fe31d44813c1 hwmon: peci: constify pointers to hwmon_channel_info
+cb4388e6dfe5be0e284fe472495e0bb9958620d9 hwmon: powr1220: constify pointers to hwmon_channel_info
+0802b757aa44128754adc58a82cafffc4fbe376b hwmon: raspberrypi: constify pointers to hwmon_channel_info
+305711279319097b31db7a756aecf17f9d8b4dcd hwmon: sbrmi: constify pointers to hwmon_channel_info
+8519b1b3a3900527d2ef61554383b665d54011d6 hwmon: sbtsi_temp: constify pointers to hwmon_channel_info
+0285ead935d30deac5239e6b0ab02474f0fe20d1 hwmon: sch5627: constify pointers to hwmon_channel_info
+d266e2ba517677dc51f88779a8a8708761bdcbfb hwmon: sht4x: constify pointers to hwmon_channel_info
+0f7d7ac1b353efd2529b3bf152bd8294e40b15b9 hwmon: sl28cpld: constify pointers to hwmon_channel_info
+a11e83b399283eebbdf67edf5756f51670f67774 hwmon: smpro: constify pointers to hwmon_channel_info
+096c40c421dab54bcf9f0cf549e0f66ef11ed433 hwmon: sparx5-temp: constify pointers to hwmon_channel_info
+00598f851984077e37066ee4d7563a33ed8c9498 hwmon: sy7636a: constify pointers to hwmon_channel_info
+b95bd39781d4fa1042c331544f829ec7a82216af hwmon: tmp102: constify pointers to hwmon_channel_info
+982b7992764b923cbdf609ed94e2f72ed40b4486 hwmon: tmp103: constify pointers to hwmon_channel_info
+7bd0bac9a1ac3cbb38ab81ebed8ed868102e6da8 hwmon: tmp108: constify pointers to hwmon_channel_info
+4107096c8f2f44b483c15df1b4e225d10e277b52 hwmon: tmp464: constify pointers to hwmon_channel_info
+70bf5d21738b33557ae3d08c12e84c64ec5771c8 hwmon: tmp513: constify pointers to hwmon_channel_info
+08d4bdcf3123b6a5deafaba7600f8b9a5af6cd53 hwmon: tps23861: constify pointers to hwmon_channel_info
+362df687f42c1b26ec8f3bba6769d338d2394c4e hwmon: w83627ehf: constify pointers to hwmon_channel_info
+04bae6798b30ee919eb9648e83009c3a1b97fab2 hwmon: w83773g: constify pointers to hwmon_channel_info
 
---===============4252116417095828065==--
+--===============5840205757100611852==--
