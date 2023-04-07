@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3183403799615023328=="
+Content-Type: multipart/mixed; boundary="===============3705634736618821345=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Fri, 07 Apr 2023 02:09:57 -0000
-Message-Id: <168083339737.23644.7745593978151679090@gitolite.kernel.org>
+Date: Fri, 07 Apr 2023 02:10:05 -0000
+Message-Id: <168083340513.25250.4049699404610255531@gitolite.kernel.org>
 
---===============3183403799615023328==
+--===============3705634736618821345==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
-  - ref: refs/heads/perf-tools-next
+  - ref: refs/heads/perf/core
     old: e5116f46d44b72ede59a6923829f68a8b8f84e76
     new: ec417ad4c691b5d90ab13cf26789e8719468ae39
     log: revlist-e5116f46d44b-ec417ad4c691.txt
 
---===============3183403799615023328==
+--===============3705634736618821345==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -52,4 +52,4 @@ ddee3f2bddc11f850f7f6fcfc04bc26ceeab23ce perf map: Add accessors for ->prot, ->p
 392cf49ec54f0c7ba825ce9b04bf32bb85998135 perf maps: Modify maps_by_name to hold a reference to a map
 ec417ad4c691b5d90ab13cf26789e8719468ae39 perf map: Changes to reference counting
 
---===============3183403799615023328==--
+--===============3705634736618821345==--
