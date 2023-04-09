@@ -1,26 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Sun, 09 Apr 2023 14:59:05 -0000
-Message-Id: <168105234587.6828.13636167501512813304@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Sun, 09 Apr 2023 15:03:09 -0000
+Message-Id: <168105258966.9738.8606572717235143532@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs-utils
-user: xiang
+repo: pub/scm/linux/kernel/git/netdev/net
+user: davem
 changes:
-  - ref: refs/heads/dev
-    old: 54144b7ffdc36e819906bded88c056cda1332e5b
-    new: 9e37a7a5f90195fa763e704e4c0fa22f1d5fc0bf
+  - ref: refs/heads/main
+    old: 5cc33f139e11b893ff6dc60d8a0ae865a65521ac
+    new: 9a06fe08ae938bc2c2fb96e36ebcdb7b1a5133c4
     log: |
-         750a105a5aa2c1720a912575edf5067e57ebefbc erofs-utils: get rid of erofs_buf_write_bhops
-         276e3504b7c07af68aec304938c4bed6192d59ad erofs-utils: xattr: avoid global variable shared_xattrs_size
-         3da56fc37bc5e1fe60751a52062c74b68081aa48 erofs-utils: xattr: avoid using inode_xattr_node for shared xattrs
-         e5329d18d2840580e75aa4b83960e7daeee6f193 erofs-utils: lib: rb_tree: fix broken rb_iter_init() prototype
-         22d66b3c3c65c48da1b1fa6dc272b2aca5df5fdc erofs-utils: mkfs: drop dead code in -z parsing
-         e8c3e921047f12f31f5ecb84df336d697a897099 erofs-utils: man: mkfs.erofs: wording/formatting touchups
-         3be147e4b5e681a80c50c8569725249cd84e95a4 erofs-utils: man: fsck.erofs: wording/formatting touchups
-         9e37a7a5f90195fa763e704e4c0fa22f1d5fc0bf erofs-utils: man: dump.erofs: wording/formatting touchups
+         813c2dd78618f108fdcf9cd726ea90f081ee2881 net: sfp: initialize sfp->i2c_block_size at sfp allocation
+         bef227c1537cb8005311c0842bc5449e8c7a5973 net: sfp: avoid EEPROM read of absent SFP module
+         9a06fe08ae938bc2c2fb96e36ebcdb7b1a5133c4 Merge branch 'sfp-eeprom'
          
