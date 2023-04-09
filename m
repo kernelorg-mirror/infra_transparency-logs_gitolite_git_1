@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2389861820705964887=="
+Content-Type: multipart/mixed; boundary="===============7639521512258183596=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/abelvesa/linux
-Date: Sun, 09 Apr 2023 14:37:38 -0000
-Message-Id: <168105105833.24659.14425053433941523870@gitolite.kernel.org>
+Date: Sun, 09 Apr 2023 14:38:21 -0000
+Message-Id: <168105110116.24964.5979846965936087379@gitolite.kernel.org>
 
---===============2389861820705964887==
+--===============7639521512258183596==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/abelvesa/linux
 user: abelvesa
 changes:
-  - ref: refs/heads/clk/imx
+  - ref: refs/heads/for-next
     old: 79ef82c55a37b9c3605602c4909db84481c9fb2f
     new: 8a05f5cccdbe851265bf513643ada48c26b1267f
     log: revlist-79ef82c55a37-8a05f5cccdbe.txt
 
---===============2389861820705964887==
+--===============7639521512258183596==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -43,4 +43,4 @@ d608c18018c897b88d66f1340fe274b7181817fa clk: imx: imx8ulp: Fix XBAR_DIVBUS and 
 66d72c62d20eb571b7ab624813b1b98b626ab493 clk: imx: imx8ulp: Add tpm5 clock as critical gate clock
 8a05f5cccdbe851265bf513643ada48c26b1267f clk: imx: imx8ulp: update clk flag for system critical clock
 
---===============2389861820705964887==--
+--===============7639521512258183596==--
