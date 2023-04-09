@@ -1,60 +1,68 @@
-Content-Type: multipart/mixed; boundary="===============5707510737366836536=="
+Content-Type: multipart/mixed; boundary="===============4610913747719330485=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Sun, 09 Apr 2023 12:38:10 -0000
-Message-Id: <168104389093.11119.3894339379292250919@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/hansg/linux
+Date: Sun, 09 Apr 2023 13:03:16 -0000
+Message-Id: <168104539683.27966.7488683167993996688@gitolite.kernel.org>
 
---===============5707510737366836536==
+--===============4610913747719330485==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
-user: leon
+repo: pub/scm/linux/kernel/git/hansg/linux
+user: hansg
 changes:
-  - ref: refs/heads/rdma-next
-    old: 9a446c3b0349dc5c4aad2451f1d8d0cd317dea5e
-    new: e164033f175225a5eb966f769694abdee0200fe2
-    log: revlist-9a446c3b0349-e164033f1752.txt
-  - ref: refs/heads/xfrm-next
-    old: 81ac7191b0bcab3469c6c2fd32044b785e6f9f4f
-    new: 1e3ba72eab366affa9bd5cc7cc58ee5885527ab4
-    log: |
-         1e3ba72eab366affa9bd5cc7cc58ee5885527ab4 net/mlx5e: Properly release work data structure
-         
+  - ref: refs/heads/media-atomisp
+    old: c62b31fa94c3e4477ea0ed3f5a114f01ad73b7e9
+    new: df852cfd8802302abf43264fde6a4c9757e26e69
+    log: revlist-c62b31fa94c3-df852cfd8802.txt
 
---===============5707510737366836536==
+--===============4610913747719330485==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9a446c3b0349-e164033f1752.txt
+Content-Disposition: attachment; filename=revlist-c62b31fa94c3-df852cfd8802.txt
 
-bd9de1badac7e4ff6780365d4aa38983f5e2a436 RDMA/cm: Trace icm_send_rej event before the cm state is reset
-eca5cd9474cd26d62f9756f536e2e656d3f62f3a RDMA/srpt: Add a check for valid 'mad_agent' pointer
-d2590edc93e894137e29d3fa1b5db6a2ecc14b69 IB/hfi1: Remove trace newlines
-cf0455f1a92b7eb3075f84c7c086207ced08e0f5 IB/hfi1: Suppress useless compiler warnings
-9fe8fec5e43d5a80f43cbf61aaada1b047a1eb61 IB/hfi1: Fix SDMA mmu_rb_node not being evicted in LRU order
-00cbce5cbf88459cd1aa1d60d0f1df15477df127 IB/hfi1: Fix bugs with non-PAGE_SIZE-end multi-iovec user SDMA requests
-866694afd644cd5ee32411713c3d802fcca22ebb IB/hfi1: Place struct mmu_rb_handler on cache line start
-b4782a07cd14091715a34467f445785f0b915625 net/sched: Don't print dump stack in event of transmission timeout
-f794105511beeb49aae5e04f2feb43d68b1029de RDMA/core: Introduce peer memory interface
-1f70872aa885ab4dfb4f791bc270df92386ae881 net/mlx5: Nullify qp->dbg pointer post destruction
-6a10545575ed1deaab3a840f953120b7f127b6ac RDMA/mlx5: Reduce QP table exposure
-774fe87f22906da91b9b6d25c0e835ef20884daa RDMA/mlx5: Handle DCT QP logic separately from low level QP interface
-0f178bf4da888281ec38718b6b3dd7c9c7bfc67c RDMA/mlx5: Return the firmware result upon destroying QP/RQ
-670941d6960064998f1745044c3b6b49804b6017 RDMA: Split kernel-only create QP flags from uverbs create QP flags
-68e2fd37413b6a509d07978f27c5df4d76a2456b RDMA/mlx5: Initiate dropless RQ for RAW Ethernet functions
-7205d85a5d66e178c733772da9a671710424b5a4 IB/mlx5: Add HW counter called rx_dct_connect
-746738447ca79462ded34ea5bd5763c82cada18a Revert "IB/mlx5: Add HW counter called rx_dct_connect"
-7e8f55e31572c1702d69cae015a395d3a824a38a RDMA/mlx5: Remove pcie_relaxed_ordering_enabled() check for RO write
-8d39eb8317e7bed1a354311a20ae707788fd94ed RDMA/mlx5: Check pcie_relaxed_ordering_enabled() in UMR
-caa0002fd8135086357dfcc368e2f5cc73b08480 net/mlx5: Update relaxed ordering read HCA capabilities
-e7048640d66c341a8fa0465e099926e7989184bc RDMA/mlx5: Allow relaxed ordering read in VFs and VMs
-67b6ea0621b22b77db4cd637a4f9b48a2f447898 IB/core: Query IBoE link speed with a new driver API
-4fbb30ce37154465308c6004debf68807e52c6fb IB/mlx5: Implement query_iboe_speed driver API
-e164033f175225a5eb966f769694abdee0200fe2 RDMA/mlx5: Fix flow counter query via DEVX
+ad3c41d650acd21797f4122a1b219cbceb6513bd media: atomisp: Remove continuous mode support
+4ccbf408fcf0bb826305f052f12538a0b1a2855b media: atomisp: Remove delayed_init related code
+a96d419b7258e84fa3a5ccb29883c1f5ae68b5cd media: atomisp: Remove crop_needs_override from atomisp_set_fmt()
+63cf956d8e4afa346a04eede8d40e9247305f428 media: atomisp: Remove atomisp_css_enable_raw_binning()
+bbd8ec487674c4fffeef797842fd47405aff9526 media: atomisp: Remove atomisp_get_metadata_type()
+2b13e9b04306f39880b0e48caf3e419b3e095a89 media: atomisp: Remove unused SOC_CAMERA, XENON_FLASH and FILE_INPUT subdev types
+fd71753adf953d45db666f7c0ef575ae90fb076c media: atomisp: Remove ATOMISP_USE_YUVPP()
+8801cce08a287b1e33b4ce62bc08b642958d152b media: atomisp: Remove yuvpp_mode
+52048fb2804cc2d897c054c7dad1ee99fb499791 media: atomisp: Remove online_process setting
+47490c9f6239988a8bc306348b50f5bf570436d7 media: atomisp: Remove remaining instance of call to trace_printk
+3526644ff6b55ffbdc16c0cd48f17eb135ad6abb media: atomisp: Add v4l2_get_acpi_sensor_info() helper
+761716e1b47d51652ebc0480343853225aaa35e0 media: atomisp: ov2680: Use v4l2_get_acpi_sensor_info() for the GPIO lookups
+1c067a0e69f6ec9379ad6cc1dd5dc16a24cd6354 media: atomisp: ov2680: Error handling fixes
+5ae38c1e5c6a44be425834030552c76ba7bb2ed3 media: atomisp: gc0310: Remove some unused structure definitions
+cd4186bd7ef98e272470584b0c84438686a621b2 media: atomisp: gc0310: Remove GC0310_TOK_*
+a1c49ad9d2296211429badd87d20fa3bd9307843 media: atomisp: gc0310: Simplify gc0310_write_reg_array()
+c9359169aa1624b88e7a003bc22a59434ca59e75 media: atomisp: gc0310: Remove enum gc0310_tok_type
+9f2cc61120f5cfad07e232f97fe9252192f1fd64 media: atomisp: gc0310: Replace custom reg access functions with smbus helpers
+111dbf39babf0253ee2205852099067124e89f40 media: atomisp: gc0310: Remove non working flip-controls
+0564c952cd9b12aaa1d9cf7c5cbef166f2073f60 media: atomisp: gc0310: Remove read-only exposure control
+2d98ee3015f873e25d63bc3d844a22b5cd933cbf media: atomisp: gc0310: Drop custom ATOMISP_IOC_S_EXPOSURE support
+b1be0e6e09bb6708ae9e71c8395c4bcb685c1cf8 media: atomisp: gc0310: Add exposure and gain controls
+b88143cc75627cc63cfd3a8ffbbf70992243ac87 media: atomisp: gc0310: Add error_unlock label to s_stream()
+6f3a8a450228d3e8c699290ab849141acf0da324 media: atomisp: gc0310: Modernize and simply set_fmt(), get_fmt(), etc.
+366c83434a70557be99bd355271714294d32277e media: atomisp: gc0310: Delay power-on till streaming is started
+ee8be2f7ccf676fbc589b1b8ec00305a4a991b9e media: atomisp: gc0310: Add runtime-pm support
+db449cc319743f688aee890020f03a6351596e35 media: atomisp: gc0310: Use devm_kzalloc() for data struct
+d077dcdba9226db0bcb74b47d1297366634bd476 media: atomisp: gc0310: Switch over to ACPI powermanagement
+29c400aae56ed41f2ac099e9c575deaef67d7cde media: atomisp: Remove duplicate atomisp_[start|stop]_streaming() prototypes
+3d26ce36b77e96bdbe6ee02eda871756058879a6 media: atomisp: Remove continuous mode related code from atomisp_set_fmt()
+f0bf1033e3c875bc7f91bd470d993a96ebff7446 media: atomisp: Remove custom V4L2_CID_FMT_AUTO control
+d97f3ce941b9a0d65bd691c88d39e5a246cb2409 media: atomisp: Remove snr_mbus_fmt local var from atomisp_try_fmt()
+f52b363155e5fd14e127fc268294a771198957fe media: atomisp: Remove unused ATOM_ISP_MAX_WIDTH_TMP and ATOM_ISP_MAX_HEIGHT_TMP
+d6bec09c188f4d1d1d38050c00a8632c12501cd8 media: atomisp: Remove atomisp_try_fmt() call from atomisp_set_fmt()
+7e2630353020a7cf300e9e6fd73e68e4853eb4cf media: atomisp: Drop support for streaming from 2 sensors at once
+1a44bac7ca19ceea14278fc00444401e97cb1d46 media: atomisp: Remove struct atomisp_sub_device index field
+27c32b34a5e398bd2a255f33d1783ef5afc7d1aa media: atomisp: gmin_platform: Make DMI quirks take precedence over the _DSM table
+df852cfd8802302abf43264fde6a4c9757e26e69 media: atomisp: gmin_platform: Add Lenovo Ideapad Miix 310 gmin_vars
 
---===============5707510737366836536==--
+--===============4610913747719330485==--
