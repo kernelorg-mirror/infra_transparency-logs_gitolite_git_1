@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4308383143692812284=="
+Content-Type: multipart/mixed; boundary="===============7889046964832947109=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/fs/xfs/xfstests-dev
-Date: Sun, 09 Apr 2023 14:23:28 -0000
-Message-Id: <168105020855.15627.3388973800799518200@gitolite.kernel.org>
+Date: Sun, 09 Apr 2023 14:24:28 -0000
+Message-Id: <168105026835.16021.2214721890485927865@gitolite.kernel.org>
 
---===============4308383143692812284==
+--===============7889046964832947109==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,37 +15,28 @@ service: git-receive-pack
 repo: pub/scm/fs/xfs/xfstests-dev
 user: zlang
 changes:
-  - ref: refs/heads/master
-    old: 02200cb8853dcd4cb6272126b7f9bc0a83b889c6
-    new: dc08f43f0fc91beba673d4aaa136d5122ae024f4
-    log: revlist-02200cb8853d-dc08f43f0fc9.txt
+  - ref: refs/heads/for-next
+    old: dc08f43f0fc91beba673d4aaa136d5122ae024f4
+    new: 3a56e665384ed5d1f1fd9a1a5cd6f1bf857bfd2b
+    log: revlist-dc08f43f0fc9-3a56e665384e.txt
 
---===============4308383143692812284==
+--===============7889046964832947109==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-02200cb8853d-dc08f43f0fc9.txt
+Content-Disposition: attachment; filename=revlist-dc08f43f0fc9-3a56e665384e.txt
 
-2d7d5f49e7276a8f40ca28d03408a4d807be8936 generic/020: fix another really long attr test failure for ceph
-3a9e43ba45fb10740c2c7964c2be91aad9606709 btrfs/246: skip the test if the tested btrfs doesn't support inline extents creation
-2a280de522cfe8a7209f5030a57e56d9f7d9cf5a m4: Check for FTW_ACTIONRETVAL along with nftw
-593fcfbb573ab40a1620e4ba4ce7011fd0eaefcb fscrypt-crypt-util: fix HKDF self-test with latest OpenSSL
-8727e8cb78107bac174f51bb2edc45793f8cb08d fscrypt-crypt-util: use OpenSSL EVP API for AES self-tests
-5d6a0f38d175a21cc50a0f8c695343f6dada02a7 fscrypt-crypt-util: fix XTS self-test with latest OpenSSL
-ec13788638b36d64287407ad97a85a102fe0071c check: generate section reports between tests
-b76a6cdb40b5091537cefcccd9165e3a88631eab report: derive an xml schema for the xunit report
-545315976e728b682e2cc5732c652dd574f1149a report: capture the time zone in the test report timestamp
-72dc174d42d97549a5770edaeae429702579912f report: clarify the meaning of the timestamp attribute
-a8963ceb25ef375bdc8cd89bdcaf87f72d9cc7ac report: record fstests start and report generation timestamps
-77bedb6a7db2c4727fe033819bf3e03a1e8bb06b report: encode cdata sections correctly
-396d221df719435d16dcb569b18ce392efdcdffd report: encode the kernel log as a separate xml element
-9c54fea5f5f9a142f8ae90c0d0210efd0f048ec9 report: sort properties by name
-e30945a820b4353c94df1a7b347390d999786d7b report: pass property value to _xunit_add_property
-35de6ce721cc2f0b6438f06f5a11e1c61b27c9c7 report: encode xml entities in property values
-4f604f90f060a050941905aa8e26d1904498a4da report: collect basic information about a test run
-391134eaf7609fb7335c80b953a4f0ad5cdc1e78 report: record optional environment variables
-159d630a3d539baad3b1980a2149ce8a4604bb71 report: record xfs-specific information about a test run
-ea9db87c90a1ce0e1dd3ffd44a1c0c550c25d824 report: record ext*-specific information about a test run
-dc08f43f0fc91beba673d4aaa136d5122ae024f4 report: allow test runners to inject arbitrary values
+c91ff78d21f62ad3c54198df6d65234139cc3f4a common: switch _get_{available,total}_space accounting to units of single bytes
+5858995b1f4e14f52230c70bfe9f83df295b04ec generic/{251,260}: compute maximum fitrim offset
+7d5d3f77154ee927c574808dc0b3c977746dcea7 xfs/242: fix _filter_bmap for xfs_io bmap that does rt file properly
+ccf4d08d12e36664f556ada077acdce728d06d6f common/report: fix typo in FSSTRESS_AVOID
+a8e4eb5f7d2f2182d6574eb69319af194400ce3e common/populate: fix btree-format xattr creation on xfs
+c7db4edfe9677f29fb6d4c012257454473974a4f populate: create fewer subdirs when constructing directories
+8d69dc3757cee7dbeafb1396d93453eee72e719c populate: create fewer holes in directories and xattrs
+2a442d6a587d8675d632436e64a9e26351188587 fstests: add MAINTAINERS and get_maintainer.pl files
+d349bd4a0dff837b7a46bd8b18959b749e09805f tools/get_maintainer.pl: remove penguin chiefs
+c72cc820eb60e2abbbcc24d007231e028fb0ce3c fstests/MAINTAINERS: add supported mailing list
+3a49eed5c634d4a1e10464c1d8e2e5626b5a987d fstests/MAINTAINERS: add some specific reviewers
+3a56e665384ed5d1f1fd9a1a5cd6f1bf857bfd2b fstests/MAINTAINERS: add a co-maintainer for btrfs testing part
 
---===============4308383143692812284==--
+--===============7889046964832947109==--
