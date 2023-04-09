@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Sun, 09 Apr 2023 19:04:47 -0000
-Message-Id: <168106708763.5774.11834940190743349497@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/uml/linux
+Date: Sun, 09 Apr 2023 20:09:32 -0000
+Message-Id: <168107097246.15077.2282209588777917415@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/uml/linux
+user: rw
 changes:
-  - ref: refs/heads/master
-    old: 09d1c914c940066f827d2b0470cb051ff29b2c3f
-    new: 4a68d2669a02fe63594ca52cb3ae5c04ab008674
-    log: |
-         4a68d2669a02fe63594ca52cb3ae5c04ab008674 Sun Apr  9 07:03:51 PM UTC 2023
-         
+  - ref: refs/tags/uml-for-linus-6.3-rc7
+    old: 0000000000000000000000000000000000000000
+    new: b7faec09721676ed6d9747bba89444de09a500b5
