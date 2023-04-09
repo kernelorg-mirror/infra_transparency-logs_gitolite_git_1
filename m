@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Sun, 09 Apr 2023 02:15:46 -0000
-Message-Id: <168100654695.11810.3322699614597299525@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Sun, 09 Apr 2023 03:06:47 -0000
+Message-Id: <168100960781.11682.2581189904757808944@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
   - ref: refs/heads/master
-    old: 68047c48b2288803c441df9f3e61d0d26bed87df
-    new: cdc9718d5e590d6905361800b938b93f2b66818e
+    old: 0be9e837a3dc3a14912548d1b87de20a0ad6007c
+    new: a176d6752d2ed92944af49c7aca5e79ced6cc390
     log: |
-         d19342c6609b67f2ba83b9eccca2777e3687f625 cifs: sanitize paths in cifs_update_super_prepath.
-         4f5d5b33fc400911d6e1f49095522b361d9cbe13 cifs: double lock in cifs_reconnect_tcon()
-         cdc9718d5e590d6905361800b938b93f2b66818e Merge tag '6.3-rc5-smb3-cifs-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
+         a176d6752d2ed92944af49c7aca5e79ced6cc390 Sun Apr  9 03:05:54 AM UTC 2023
          
