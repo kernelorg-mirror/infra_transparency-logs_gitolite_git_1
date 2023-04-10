@@ -1,26 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
-Date: Mon, 10 Apr 2023 18:14:05 -0000
-Message-Id: <168115044582.5207.2579416496581995440@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
+Date: Mon, 10 Apr 2023 18:22:19 -0000
+Message-Id: <168115093910.12267.14260219812803781203@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs
-user: xiang
+repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
+user: shuah
 changes:
-  - ref: refs/heads/dev-test
-    old: 663ae2ffc293dfa925aa7a3ba4b36c404b78bfde
-    new: 349ea8a32b55212884161ba771dfba1c2e8886f9
+  - ref: refs/heads/next
+    old: 5290586186d24d81d7f8eee4ba837f0cbc304b09
+    new: 5874a6a187f2e814542d7fdf918fd29f79ff25c3
     log: |
-         02be582c7fdaeebd6a034652c5fbf8d38ef528f9 erofs: stop parsing non-compact HEAD index if clusterofs is invalid
-         cdb9a1361809d411d892f58f902402feeed504bb erofs: initialize packed inode after root inode is assigned
-         5a69ad845385b030420bdc26b349cf981aedf131 erofs: keep meta inode into erofs_buf
-         42cd10de0299cd0eb600b59e3bf2b848256463ec erofs: move packed inode out of the compression part
-         0e716273c819925e931f4cfa75cb94d184c2381c erofs: introduce on-disk format for long xattr name prefixes
-         3d948898be41d602d9805e9b50c9fc0edff2b9b1 erofs: add helpers to load long xattr name prefixes
-         8830ddab6e9fa53930403319f8299b4033ce465b erofs: handle long xattr name prefixes properly
-         349ea8a32b55212884161ba771dfba1c2e8886f9 erofs: enable long extended attribute name prefixes
+         22a8be280383812235131dda18a8212a59fadd2d selftests/resctrl: Return NULL if malloc_and_init_memory() did not alloc mem
+         c90b3b588e369c20087699316259fa5ebbb16f2d selftests/resctrl: Move ->setup() call outside of test specific branches
+         fa10366cc6f4cc862871f8938426d85c2481f084 selftests/resctrl: Allow ->setup() to return errors
+         0d45c83b95da414e98ad333e723141a94f6e2c64 selftests/resctrl: Check for return value after write_schemata()
+         5d869d7bb4b8d8f2e5fd207e521419f27f7ad115 selftests/resctrl: Replace obsolete memalign() with posix_memalign()
+         9ce29d23a13399b44b8e52505464c5d0365ce086 selftests/resctrl: Change initialize_llc_perf() return type to void
+         e48c32306bce38a7b2617543fe0d8d51ca49a448 selftests/resctrl: Change name from CBM_MASK_PATH to INFO_PATH
+         a967e17f918400226e57335e6131572d9f456a9f selftests/resctrl: Use remount_resctrlfs() consistently with boolean
+         5874a6a187f2e814542d7fdf918fd29f79ff25c3 selftests/resctrl: Correct get_llc_perf() param in function comment
          
