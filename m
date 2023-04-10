@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/mdadm/mdadm
-Date: Mon, 10 Apr 2023 15:51:39 -0000
-Message-Id: <168114189995.8846.8640821777128598975@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
+Date: Mon, 10 Apr 2023 15:55:58 -0000
+Message-Id: <168114215886.11685.6174715336041588448@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/mdadm/mdadm
-user: jes
+repo: pub/scm/linux/kernel/git/qcom/linux
+user: andersson
 changes:
-  - ref: refs/heads/master
-    old: f8d2c4286a92b7acb7872271a401ad1efe336096
-    new: 76c224c6cfc8ff154bd041d30b9551faecd593c1
-    log: |
-         76c224c6cfc8ff154bd041d30b9551faecd593c1 Remove the config files in mdcheck_start|continue service
-         
+  - ref: refs/tags/qcom-arm64-defconfig-for-6.4
+    old: 0000000000000000000000000000000000000000
+    new: c02922e61ed7007fe3d0fa22761ff245df259449
