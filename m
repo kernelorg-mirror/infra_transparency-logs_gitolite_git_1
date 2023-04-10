@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2046735809285668326=="
+Content-Type: multipart/mixed; boundary="===============3263151783725125481=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Mon, 10 Apr 2023 06:58:18 -0000
-Message-Id: <168110989801.28837.2428505778660317292@gitolite.kernel.org>
+Date: Mon, 10 Apr 2023 06:58:24 -0000
+Message-Id: <168110990484.28947.2827432935677176406@gitolite.kernel.org>
 
---===============2046735809285668326==
+--===============3263151783725125481==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-linus
-    old: 1edf48991a783d00a3a18dc0d27c88139e4030a2
-    new: 09a9639e56c01c7a00d6c0ca63f4c7c41abe075d
-    log: revlist-1edf48991a78-09a9639e56c0.txt
+  - ref: refs/heads/usb-next
+    old: 0246b15bbb43404d8d6f0ec86121c05515e0ed0b
+    new: 8e86652e3e7152bba80c3b4d03814e40ede1abc7
+    log: revlist-0246b15bbb43-8e86652e3e71.txt
 
---===============2046735809285668326==
+--===============3263151783725125481==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1681109897 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1681109902 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1681109896-3a596d6a5b9fd9b5bf9866d55f155d567c034c47
+nonce 1681109901-4e99c6bbee66b638662526a2eb9abb60e138bb7e
 
-1edf48991a783d00a3a18dc0d27c88139e4030a2 09a9639e56c01c7a00d6c0ca63f4c7c41abe075d refs/heads/usb-linus
+0246b15bbb43404d8d6f0ec86121c05515e0ed0b 8e86652e3e7152bba80c3b4d03814e40ede1abc7 refs/heads/usb-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQzs4kbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+3nwP/2KfolhGgaTYuCqxR5Ue
-zNSBoUUnYbNz+wSpsWstaOjk4qiu1UwYd4T5Wq94KFGEpGBXu3vJ1pE+1FRDQsEl
-hufOQ4tXnirIBG3OyhjgGd9pHrUEml6I0FIuAo7s1zFQ2OzcRxr7Gu0aL6BONYc8
-AkcSTaVtENZRViU0NQ3Nd33U+QJyWZ1CUEgEMn05ixN5HtrqMW6am1FyTdt5uig/
-a5CFRswJ6I1Q4t7W7CsXxTPWxSYTxEqYB5BHIutzLDGr2dJuVy2yvNb7lFxDO1po
-d5kyeXbU/+Y7V/qFEEoCbQXfsLUlt0RLt4og0F37V2QMMrqrlKqj1pohjFmNA6d3
-QttwAmeuRBjldtB6NF3CvQiuh8ofNE730xbX2UQ2VACD/9AVdyPgAb9Tah7j07zY
-B0PFXHsecTc2ODKVklWViVvJhkcDFdUgKnUDHHtv5CPGsahcmT4a4OpGbgHybDG4
-lxluwNd3wFZmpQVFVc0cGUrZc0zZj4GVCj290OuRoCxJqZLKGzX2y2mkPNUmG8Ml
-J6EbL8uv+/s2iynf8EAi+7oYJ79BlUTZbiRWaFeKixSWlsvacTD4RdWeokgjOA83
-gXmTubJsq05MO7qLWCcLKPF/oWVi2Yr1Vf6Kg6O03+FdxIBJZKeiQNAEYRBtNRsK
-Qo4N/fifM9IKHMbtr3zWGEdQ
-=bCWB
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQzs44bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Nc8P/2oOb/i/v4vZJRaLumpl
+tqlOUe+TTG0C1Uj4482hQK7sn+ZVnTBK94qYPtO5gfBK/QtU15bHYSiZBkQVYFxR
+VvFVw+xIqfzDgAqQXMrihq85fBFGZdMXgkkhvWPhHuZbfmyb6QCDwwumLVB7XMY1
+r5jRBpd+oJQI70nJLyXVq1CUB00TyJ6Hhd2LD+MCZsESgSqpYiJWmvdqob9U6toH
+02MCHknX4XoGQRK7Lus17M/NEYvSDQyjBMigv1mEPvFPgTDMrrh915lVf4g7Yznw
+WauiaYbE+QDpojf+WYKER+HHiy/59PZOufhG/C3n1udaTagprHXm0MX63SxNIZ9n
+Gf581C9uw0oMHn7Wq/uoPTg5au2ZhgPXjyebU+YMGhiP1rWvzuzXgj5QC3KSUfSv
+jyolsewn4eLAu1jsdhuRd4DKU8uAkOeqzRk5bE6TsGMCq9+lA0WXNnPV/GokBh+W
+QcYBWqFIM8HK/DoFjQnEC95K/Ljn0d+6n9lTQLPMhR7JVmu5sfbzOV5sYU209WGp
+i9HMAxFj/raKX3W5E6hsKiAboGlG1EavhXFvtnYZ/WEY+grSTh3+sUEc7JBGCgJ8
+LqvMhsPubUrTuxrHTaC0igvixTs77X4lnBUjfsWZPV68JOBdyqlxn+qHZkGUuy0f
+j0HQ8ay1CwfW+yGMxd7aWZnB
+=jpBc
 -----END PGP SIGNATURE-----
 
---===============2046735809285668326==
+--===============3263151783725125481==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-1edf48991a78-09a9639e56c0.txt
+Content-Disposition: attachment; filename=revlist-0246b15bbb43-8e86652e3e71.txt
 
 701c875aded880013aacac608832995c4b052257 iio: adc: qcom-spmi-adc5: Fix the channel name
 6327a930ab7bfa1ab33bcdffd5f5f4b1e7131504 drivers: iio: adc: ltc2497: fix LSB shift
@@ -81,8 +81,10 @@ c3701185ee1973845db088d8b0fc443397ab0eb2 iio: dac: cio-dac: Fix max DAC write va
 44ac5abac86b20856e6d9e5e5e40dcc2623fe330 Documentation/security-bugs: move from admin-guide/ to process/
 7b3825e9487d77e83bf1e27b10a74cd729b8f972 iio: adc: max11410: fix read_poll_timeout() usage
 dda5c809d42389b82f37cbbe562044d8a29083c6 Merge tag 'v6.3-rc2' into asoc-6.3 to fix clock related failures
+71f8afa2b66e356f435b6141b4a9ccf953e18356 USB: serial: cp210x: add Silicon Labs IFS-USB-DATACABLE IDs
 9228b26194d1cc00449f12f306f53ef2e234a55b KVM: arm64: PMU: Fix GET_ONE_REG for vPMC regs to return the current value
 f6da81f650fa47b61b847488f3938d43f90d093d KVM: arm64: PMU: Don't save PMCR_EL0.{C,P} for the vCPU
+773e8e7d07b753474b2ccd605ff092faaa9e65b9 USB: serial: option: add Telit FE990 compositions
 3c728b1bc5b99c5275ac5c7788ef814c0e51ef54 ASOC: Intel: sof_sdw: add quirk for Intel 'Rooks County' NUC M15
 9c691a42b8926c8966561265cdae3ddc7464d3a2 ASoC: Intel: soc-acpi: add table for Intel 'Rooks County' NUC M15
 083a25b18d6ad9f1f540e629909aa3eaaaf01823 ASoC: soc-pcm: fix hw->formats cleared by soc_pcm_hw_init() for dpcm
@@ -265,6 +267,7 @@ bdd034de3a28ffdacab528aebad17f1df968180c mailmap: add an entry for Leonard Crest
 f33fc1576757741479452255132d6e3aaf558ffe ALSA: ymfpci: Create card with device-managed snd_devm_card_new()
 6be2e7522eb529b41c16d459f33bbdbcddbf5c15 ALSA: ymfpci: Fix BUG_ON in probe function
 5f70bcbca469a087b54ad2d934185ed69a098576 net: wwan: iosm: fixes 7560 modem crash
+4c7f9d2e413dc06a157c4e5dccde84aaf4655eb3 usb: xhci: tegra: fix sleep in atomic call
 e4056e38ec87b4c21eb34bb8e38b1b0ca1221744 dt-bindings: pinctrl: qcom,sm8550-lpass-lpi: allow input-enabled and bias-bus-hold
 b43a18647f03c87e77d50d6fe74904b61b96323e tty: serial: sh-sci: Fix transmit end interrupt handler
 7b21f329ae0ab6361c0aebfc094db95821490cd1 dt-bindings: serial: renesas,scif: Fix 4th IRQ for 4-IRQ SCIFs
@@ -272,6 +275,7 @@ b43a18647f03c87e77d50d6fe74904b61b96323e tty: serial: sh-sci: Fix transmit end i
 9425914f3de6febbd6250395f56c8279676d9c3c tty: serial: fsl_lpuart: avoid checking for transfer complete when UARTCTRL_SBK is asserted in lpuart32_tx_empty
 178e00f36f934a88682d96aa046c1f90cb6f83a7 tty: serial: fsl_lpuart: fix crash in lpuart_uport_is_active
 f92ed0cd9328aed918ebb0ebb64d259eccbcc6e7 tty: serial: sh-sci: Fix Rx on RZ/G2L SCI
+7708a3858e69db91a8b69487994f33b96d20192a USB: serial: option: add Quectel RM500U-CN modem
 30fb97ba4a8e082ba0a5432479d6995472edbd7b drm/nouveau/kms: Fix backlight registration
 5c2712387d4850e0b64121d5fd3e6c4e84ea3266 cacheinfo: Fix LLC is not exported through sysfs
 eca9f6e6f83b6725b84e1c76fdde19b003cff0eb powerpc/pseries/vas: Ignore VAS update for DLPAR if copy/paste is not enabled
@@ -316,6 +320,9 @@ c1976bd8f23016d8706973908f2bb0ac0d852a8f zonefs: Always invalidate last cached p
 77af13ba3c7f91d91c377c7e2d122849bbc17128 zonefs: Do not propagate iomap_dio_rw() ENOTBLK error to user space
 fd30d1cdcc4ff405fc54765edf2e11b03f2ed4f3 io_uring: fix poll/netmsg alloc caches
 2eca98e5b24d01c02b46c67be05a5f98cc9789b1 xen/netback: use same error messages for same errors
+ecaa4902439298f6b0e29f47424a86b310a9ff4f xhci: also avoid the XHCI_ZERO_64B_REGS quirk with a passthrough iommu
+8e77d3d59d7b5da13deda1d832c51b8bbdbe2037 Revert "usb: xhci-pci: Set PROBE_PREFER_ASYNCHRONOUS"
+f6caea4855553a8b99ba3ec23ecdb5ed8262f26c xhci: Free the command allocated for setting LPM if we return early
 2fec9dc8e0acc3dfb56d1389151bcf405f087b10 drm/amdgpu: allow more APUs to do mode2 reset when go to S4
 963b2e8c428f79489ceeb058e8314554ec9cbe6f drm/etnaviv: fix reference leak when mmaping imported buffer
 2658d0d0355a3470a96d0e4268cbad174fadf0ed Revert "drm/etnaviv: export client GPU usage statistics via fdinfo"
@@ -348,6 +355,7 @@ e03677100707f849f01d8faf07ee58b4e56cdbf1 cifs: get rid of dead check in smb2_rec
 62bad54b26db8bc98e28749cd76b2d890edb4258 Merge tag 'dma-mapping-6.3-2023-03-31' of git://git.infradead.org/users/hch/dma-mapping
 24ab70d83784a807c9ddff939ea762ef19bd4ffd Merge tag 'md-fixes-2023-03-29' of https://git.kernel.org/pub/scm/linux/kernel/git/song/md into block-6.3
 6b36d68cc9bb1fc85bbe54ebe2eb6b2c3beec73d Merge tag 'wireless-2023-03-30' of git://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless
+5d1a70f77dcf7b93f955d40691ac729fc7b3d151 Merge tag 'usb-serial-6.3-rc5' of https://git.kernel.org/pub/scm/linux/kernel/git/johan/usb-serial into usb-linus
 f9d2b1e146e0f82f3d04629afd92698522058361 virtio/vsock: fix leaks due to missing skb owner
 c7d624520c1bd4e42d8ceb8283d6505fc90acccb iommu/vt-d: Remove unnecessary locking in intel_irq_remapping_alloc()
 bfd3c6b9fa4a1dc78139dd1621d5bea321ffa69d iommu/vt-d: Allow zero SAGAW if second-stage not supported
@@ -491,7 +499,12 @@ b45193cb4df556fe6251b285a5ce44046dd36b4a can: j1939: j1939_tp_tx_dat_new(): fix 
 d3205ab75e99a47539ec91ef85ba488f4ddfeaa9 nvme: fix discard support without oncs
 99ddf2254febae9eab7fb0bcc02c5322243f5c49 Merge tag 'trace-v6.3-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 32d85999680601d01b2a36713c9ffd7397c8688b arm64: compat: Work around uninitialized variable warning
+ec799c8a92e0be91e0940cc739a27f483242df65 usb: dwc3: pci: add support for the Intel Meteor Lake-S
+eddebe39602efe631b83ff8d03f26eba12cfd760 usb: typec: altmodes/displayport: Fix configure initial pin assignment
+d356b3cdd00cae4508be566a47c0cfb74e14862a usb: gadget: f_fs: Fix ffs_epfile_read_iter to handle ITER_UBUF
+e07fec475cc86ce6ded82908df1d511edc3303b7 usb: gadgetfs: Fix ep_read_iter to handle ITER_UBUF
 d19342c6609b67f2ba83b9eccca2777e3687f625 cifs: sanitize paths in cifs_update_super_prepath.
+1edf48991a783d00a3a18dc0d27c88139e4030a2 usb: cdnsp: Fixes error: uninitialized symbol 'len'
 78dfc9d1d1abb9e400386fa9c5724a8f7d75e3b9 ACPI: video: Add auto_detect arg to __acpi_video_get_backlight_type()
 e506731c8f35699d746c615164ed620cd53c00ca ACPI: video: Make acpi_backlight=video work independent from GPU driver
 2699107989431d6db44f8a9e809ea74c387336d1 ACPI: video: Add acpi_backlight=video quirk for Apple iMac14,1 and iMac14,2
@@ -558,5 +571,6 @@ c08cfd6716a170c549c1140f1d4a0e749c888a79 Merge tag 'cxl-fixes-6.3-rc6' of git://
 4ba115e2694dc9a10abfe94766d70b64ae9479c7 Merge tag 'x86_urgent_for_v6.3_rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 faf8f41858e2792925b2c526e16d2f539a53a730 Merge tag 'perf_urgent_for_v6.3_rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 09a9639e56c01c7a00d6c0ca63f4c7c41abe075d Linux 6.3-rc6
+8e86652e3e7152bba80c3b4d03814e40ede1abc7 Merge 6.3-rc6 into usb-next
 
---===============2046735809285668326==--
+--===============3263151783725125481==--
