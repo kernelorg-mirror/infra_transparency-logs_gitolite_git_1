@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4274689989800613613=="
+Content-Type: multipart/mixed; boundary="===============7328869331372408960=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 10 Apr 2023 09:49:48 -0000
-Message-Id: <168112018814.27052.2876191512584434836@gitolite.kernel.org>
+Date: Mon, 10 Apr 2023 09:50:08 -0000
+Message-Id: <168112020882.28759.14786626077659346450@gitolite.kernel.org>
 
---===============4274689989800613613==
+--===============7328869331372408960==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: 98485defdf60678296754fce632b05c68f447029
-    new: ca3e36cc6eed6c195a39cdcd740c9d46349bc78b
-    log: revlist-98485defdf60-ca3e36cc6eed.txt
+  - ref: refs/heads/m68k-queue
+    old: 687d176b8d94376f9a0c79ac7c8f51a87b79329c
+    new: 6edd581a29e82c809ea9d986f65daee10b0c9014
+    log: revlist-687d176b8d94-6edd581a29e8.txt
 
---===============4274689989800613613==
+--===============7328869331372408960==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-98485defdf60-ca3e36cc6eed.txt
+Content-Disposition: attachment; filename=revlist-687d176b8d94-6edd581a29e8.txt
 
 701c875aded880013aacac608832995c4b052257 iio: adc: qcom-spmi-adc5: Fix the channel name
 6327a930ab7bfa1ab33bcdffd5f5f4b1e7131504 drivers: iio: adc: ltc2497: fix LSB shift
@@ -296,6 +296,10 @@ c08cfd6716a170c549c1140f1d4a0e749c888a79 Merge tag 'cxl-fixes-6.3-rc6' of git://
 4ba115e2694dc9a10abfe94766d70b64ae9479c7 Merge tag 'x86_urgent_for_v6.3_rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 faf8f41858e2792925b2c526e16d2f539a53a730 Merge tag 'perf_urgent_for_v6.3_rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 09a9639e56c01c7a00d6c0ca63f4c7c41abe075d Linux 6.3-rc6
-ca3e36cc6eed6c195a39cdcd740c9d46349bc78b Merge tag 'v6.3-rc6'
+ba6cbe899db1e48e60aff88bfc5e23b014c9ea30 nubus: Drop noop match function
+be96cff11442d6df82e1906017da6b7620add58c m68k: Remove obsolete config NO_KERNEL_MSG
+4cda4a240e76b44a9b214f39c80120e30e28a3b8 m68k: atari: usb: Add ISP1160 USB host controller support
+3636f545d296431ca0f10841ae081f626643ec00 m68k: atari: Update Kconfig.bus help text
+6edd581a29e82c809ea9d986f65daee10b0c9014 m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============4274689989800613613==--
+--===============7328869331372408960==--
