@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Mon, 10 Apr 2023 16:37:37 -0000
-Message-Id: <168114465729.5643.12449456323807435674@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ras/ras
+Date: Mon, 10 Apr 2023 16:39:08 -0000
+Message-Id: <168114474872.6185.2664855201845492606@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/man-pages/man-pages
-user: alx
+repo: pub/scm/linux/kernel/git/ras/ras
+user: aegl
 changes:
-  - ref: refs/heads/master
-    old: 890adb523bd9c7638097cb460038389b545fe469
-    new: 26807bcd0a1bfa380e4eedf25f4cfa637edc0f5b
+  - ref: refs/heads/edac-drivers
+    old: 71b1e3ba3fed5a34c5fac6d3a15c2634b04c1eb7
+    new: 96ae3995c6930d2b6c11a48dad9a59ddd34abaad
     log: |
-         26807bcd0a1bfa380e4eedf25f4cfa637edc0f5b CONTRIBUTING: Remove old links
+         96ae3995c6930d2b6c11a48dad9a59ddd34abaad EDAC/i10nm: Add Intel Sierra Forest server support
          
