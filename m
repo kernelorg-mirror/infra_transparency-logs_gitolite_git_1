@@ -1,9 +1,13 @@
+Content-Type: multipart/mixed; boundary="===============3857197869801352529=="
+MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Mon, 10 Apr 2023 11:12:46 -0000
-Message-Id: <168112516686.17580.8963270044576206213@gitolite.kernel.org>
+Date: Mon, 10 Apr 2023 11:13:23 -0000
+Message-Id: <168112520338.17830.2281920928519432607@gitolite.kernel.org>
+
+--===============3857197869801352529==
+Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
@@ -11,11 +15,34 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jic23/iio
 user: jic23
 changes:
-  - ref: refs/heads/togreg
-    old: f73df43e957a6fc705a9bd6d143585bdf1b13365
-    new: 86fb8b3aebd7f2236c11521ee0c460cceb0e4d6f
-    log: |
-         c4351b646123536048ea71cbcabe1cbd7f4e40c8 iio: adc: ti-ads1100: fix error code in probe()
-         87441b31232577050a55503362bba4aad439db48 staging: iio: resolver: ads1210: fix config mode
-         86fb8b3aebd7f2236c11521ee0c460cceb0e4d6f dt-bindings: iio: st-sensors: Fix repeated text
-         
+  - ref: refs/heads/testing
+    old: cdbf0041fef47547e725d29d46b940f8dbae39cf
+    new: c86b0e73f0bebbb0245ef2bac4cf269d61ff828c
+    log: revlist-cdbf0041fef4-c86b0e73f0be.txt
+
+--===============3857197869801352529==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-cdbf0041fef4-c86b0e73f0be.txt
+
+c4351b646123536048ea71cbcabe1cbd7f4e40c8 iio: adc: ti-ads1100: fix error code in probe()
+87441b31232577050a55503362bba4aad439db48 staging: iio: resolver: ads1210: fix config mode
+86fb8b3aebd7f2236c11521ee0c460cceb0e4d6f dt-bindings: iio: st-sensors: Fix repeated text
+9740827468cea80c42db29e7171a50e99acf7328 iio: addac: stx104: Fix race condition for stx104_write_raw()
+4f9b80aefb9e2f542a49d9ec087cf5919730e1dd iio: addac: stx104: Fix race condition when converting analog-to-digital
+46a4cac7f841a2a2cb397bcb2fd24324004c853e iio: addac: stx104: Use define rather than hardcoded limit for write val
+a94abc74c5248d3c09bb18aa8437e85a6a31eadd iio: addac: stx104: Improve indentation in stx104_write_raw()
+c7301b848191f18719c5a6247300998269059c0b iio: addac: stx104: Migrate to the regmap API
+7c95a3f51a54db694d3eeef60e77e3a8558ef25e iio: addac: stx104: Use regmap_read_poll_timeout() for conversion poll
+543c8f2f3cc4706ab0dd2e70dc87bdcbcf8126b3 dt-bindings: iio: temperature: ltc2983: Fix child node unevaluated properties
+ac2babe70a9b8ab11a408481cad69b71a8b5fa91 dt-bindings: iio: temperature: ltc2983: Make 'adi,custom-thermocouple' signed
+f1caa90085ef31078076990c2ac64d05dd035278 iio: dac: set variable max5522_channels storage-class-specifier to static
+b27f0b40e49f4b109353c62e8eae74f96f842745 doc: Make sysfs-bus-iio doc more exact
+38416c28e16890b52fdd5eb73479299ec3f062f3 iio: light: Add gain-time-scale helpers
+ca11e4a3515430a083fd59822bce0d418f6b6541 MAINTAINERS: Add IIO gain-time-scale helpers
+0dca5c9730dcfcf9ba05362e5e36b1ea0c85066d dt-bindings: iio: light: Support ROHM BU27034
+e52afbd61039e2c5a4e611e23b4aa963d34a4aef iio: light: ROHM BU27034 Ambient Light Sensor
+c86b0e73f0bebbb0245ef2bac4cf269d61ff828c MAINTAINERS: Add ROHM BU27034
+
+--===============3857197869801352529==--
