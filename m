@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6265556565069908565=="
+Content-Type: multipart/mixed; boundary="===============0962186529950985982=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Mon, 10 Apr 2023 06:50:15 -0000
-Message-Id: <168110941539.24034.6289751653175323479@gitolite.kernel.org>
+Date: Mon, 10 Apr 2023 06:50:20 -0000
+Message-Id: <168110942025.24130.15130587736790181165@gitolite.kernel.org>
 
---===============6265556565069908565==
+--===============0962186529950985982==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,59 +16,50 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: e8d018dd0257f744ca50a729e3d042cf2ec9da65
+  - ref: refs/heads/char-misc-linus
+    old: 4bffd2c7a3fc165fc70bc69211b8e6436f41a5c3
     new: 09a9639e56c01c7a00d6c0ca63f4c7c41abe075d
-    log: revlist-e8d018dd0257-09a9639e56c0.txt
+    log: revlist-4bffd2c7a3fc-09a9639e56c0.txt
 
---===============6265556565069908565==
+--===============0962186529950985982==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1681109414 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1681109419 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1681109414-655574cd4dc8f76447b637ac5529e150ed86b6b4
+nonce 1681109418-22feffd89d4d6307b474f5903fab3c470fdaeb68
 
-e8d018dd0257f744ca50a729e3d042cf2ec9da65 09a9639e56c01c7a00d6c0ca63f4c7c41abe075d refs/heads/main
+4bffd2c7a3fc165fc70bc69211b8e6436f41a5c3 09a9639e56c01c7a00d6c0ca63f4c7c41abe075d refs/heads/char-misc-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQzsaYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+2j4P/2fdFSqMiYqyvOZjXKwz
-fQMHkhEkROIWiFOpmlJ9p7d2Kjuib4sIcAD2Lx6q3/QOP0LxRJd/zZF4WrGPuoXI
-Sg9EK6pxd+0iXMvTmBOPi1BOyae+q+RfvSQuTrs4TcUUJP0GqebCRBgAoUWjC7tq
-86okvCfujobJzqN66gBRg7Z9xVreuLsuw0JAn/43r/9gqySXhYkz5nSJwqvmLnkY
-KTRS7gEjLl+Vvto88r9Mbjd0IXHA5GU7HExrrkbjsYEXK8ssw34Dusj5dkn9e4zl
-9e3x3RAXA4t6iAd/PUtqKgmkPb9DCQth3cI+hQYssWglCsVwi9g//gWsyiTRbgbP
-XaRlwqUMPlHdtZP1D4lXmS//JdzLi25cP3ZC+lBKYU9etQaA8iC02kfsIZt+bvHg
-qPz6vs3FKkcwWi+KEfrKXgi8VVY9ErcLEEAQBKWlNxQgiGpGr1pN/+ZwbCGcpjpF
-CnIlR7oTnjIcWWrp7/HLgW0MxtasemkK4Yj7cLGckGWBPP9gKZMudjGCEz8QwTsV
-eNg/fUPCwPcJzXO221+Tzh5TecQRnpMWjT+PTyL7CkIhgpLXUc2ZD3o7Lhumne2o
-gDzcRGCR7Q1NzkJg2DbT9HODiE10AZfhfqcnx5dl5UsmbH3Vw0o0qhVSTMVbPFDG
-x1LA2IbKSyPXg7ZvsHw5X5d+
-=ydcH
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQzsasbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+hKMP/AmZ8s9XRJ/ccfow9V/J
+SZBCSWPqrSKnSTK6lIKRfA+WmgBwAiWCZqwLbKEky89RTVWNL0nmH6dSnj4vOnuO
+4+8kn1E2c9slgXEGhrJ2fDSu2XSJoc63izhYJs2XtMu3ty4khLi/+sAC7NgiHr+m
+1fnUGRowvS6UsFZCRBDrT1pvhkVHpmkS7pLrK1MYw0Jp3+EXJja/VDEjsQadhvOK
+dOVBVMlg2hXzj8w5t6PKhi5FRnpJesN+aQVlth4uaZ5YSkL4d3K3hw+BE8uzQQMh
+sS+jTM1sBF3m9OzRm+hs1ImzXTg1cgYWyutgpKHCzxIx3RYX4CMo0oN/g67ihQdw
+BI/VNJbr6clzcEhufcIhxkco3yrNX9wNtuHLZfWsCrnpokcfQ4TZJq0Oicgq2Myf
+dvfWd4wCPZH0jNott+WfvjzJwutcfYFavatfB3LgVrZCfGS9b3+gyjj/KA8fngRR
+hw38VUL/dB+YiS5J9zbsRg2AAwBCa8nqc0/QFFRIvz+zeu5HNDsUDaKjTnignKh4
+rN/W2C9rGReYvrPOtI7xyeqbFaqUg+5w95AQXm250fji2xa0ekfoY6xuyh1Her+w
+r0GLsMTOSHE3T8hQdOGumvyKaTguYMsOT8zY9PM9ker+swa212Tmvi9mIrQK1duX
+HjocmCrvCvNp8jyyZMHu/5x3
+=tF3/
 -----END PGP SIGNATURE-----
 
---===============6265556565069908565==
+--===============0962186529950985982==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-e8d018dd0257-09a9639e56c0.txt
+Content-Disposition: attachment; filename=revlist-4bffd2c7a3fc-09a9639e56c0.txt
 
-701c875aded880013aacac608832995c4b052257 iio: adc: qcom-spmi-adc5: Fix the channel name
-6327a930ab7bfa1ab33bcdffd5f5f4b1e7131504 drivers: iio: adc: ltc2497: fix LSB shift
-d9b540ee461cca7edca0dd2c2a42625c6b9ffb8f iio: adis16480: select CONFIG_CRC32
-42ec40b0883c1cce58b06e8fa82049a61033151c iio: light: vcnl4000: Fix WARN_ON on uninitialized lock
-b5184a26a28fac1d708b0bfeeb958a9260c2924c iio: buffer: correctly return bytes written in output buffers
-3da1814184582ed0faf039275a3f02e6f69944ee iio: buffer: make sure O_NONBLOCK is respected
-0c6ef985a1fd8a74dcb5cad941ddcadd55cb8697 iio: adc: ad7791: fix IRQ flags
-03fada47311a3e668f73efc9278c4a559e64ee85 iio: accel: kionix-kx022a: Get the timestamp from the driver's private data in the trigger_handler
 6715df8d5d24655b9fd368e904028112b54c7de1 bpf: Allow reads from uninit stack
 6338a94d5ab42a94e96ea36edc5f7df1fe73e68e selftests/bpf: Tests for uninitialized stack reads
 bf9bec4cb3a401a14c24a7ef937d3c26aff9ad60 Merge branch 'bpf: Allow reads from uninit stack'
-099cc90a5a62e68b2fe3a42da011ab929b98bf73 iio: light: cm32181: Unregister second I2C client if present
 f8502fba45bd30e1a6a354d9d898bc99d1a11e6d tee: amdtee: fix race condition in amdtee_open_session
 4bb54c2ce48ffb3a06133ac0fb4086f7b48d9109 arm64: tegra: Bump CBB ranges property on Tegra194 and Tegra234
 fd4334a06d452ce89a0bb831b03130c51331d927 arm64: dts: freescale: imx8-ss-lsio: Fix flexspi clock order
@@ -141,9 +132,7 @@ e57d06527738798039b8e91af762fbd33881b34d NFS & NFSD: Update GSS dependencies
 d6f7ff9dd387861fa30cbc6375d15b586da17d33 libbpf: Revert poisoning of strlcpy
 32513d40d908b267508d37994753d9bd1600914b selftests/bpf: Fix progs/find_vma_fail1.c build error.
 e8c8361cfdbf450f760e8a2bdbd4222d1947366b selftests/bpf: Fix progs/test_deny_namespace.c issues.
-c3701185ee1973845db088d8b0fc443397ab0eb2 iio: dac: cio-dac: Fix max DAC write value check for 12-bit
 44ac5abac86b20856e6d9e5e5e40dcc2623fe330 Documentation/security-bugs: move from admin-guide/ to process/
-7b3825e9487d77e83bf1e27b10a74cd729b8f972 iio: adc: max11410: fix read_poll_timeout() usage
 06615d11cc78162dfd5116efb71f29eb29502d37 power: supply: da9150: Fix use after free bug in da9150_charger_remove due to race condition
 acec726473822bc6b585961f4ca2a11fa7f28341 thunderbolt: Fix memory leak in margining
 cd0c1e582b055dea615001b8bd8eccaf6f69f7ce thunderbolt: Add missing UNSET_INBOUND_SBTX for retimer access
@@ -244,12 +233,8 @@ eb684408f3ea4856639675d6465f0024e498e4b1 arm64: efi: Use SMBIOS processor versio
 f59a7ec1e69fc23946175b8c0d7e0fd21f94f8c9 efi/libstub: smbios: Drop unused 'recsize' parameter
 3615c78673c332b69aaacefbcde5937c5c706686 efi: sysfb_efi: Fix DMI quirks not working for simpledrm
 5ed213dd64681f84a01ceaa82fb336cf7d59ddcf efi: sysfb_efi: Add quirk for Lenovo Yoga Book X91F/L
-4aa3b75c74603c3374877d5fd18ad9cc3a9a62ed counter: 104-quad-8: Fix race condition between FLAG and CNTR reads
-00f4bc5184c19cb33f468f1ea409d70d19f8f502 counter: 104-quad-8: Fix Synapse action reported for Index signals
 ab327f8acdf8d06601fbf058859a539a9422afff mips: bmips: BCM6358: disable RAC flush for TP1
 4985e7b2c002eb4c5c794a1d3acd91b82c89a0fd block: ublk_drv: mark device as LIVE before adding disk
-49f76c499d38bf67803438eee88c8300d0f6ce09 iio: adc: palmas_gpadc: fix NULL dereference on rmmod
-363c7dc72f79edd55bf1c4380e0fbf7f1bbc2c86 iio: adc: ti-ads7950: Set `can_sleep` flag for GPIO chip
 43e5f1d5921128373743585e3275ed9044ef8b8f fscrypt: improve fscrypt_destroy_keyring() documentation
 4bcf6f827a79c59806c695dc280e763c5b6a6813 fscrypt: check for NULL keyring in fscrypt_put_master_key_activeref()
 b7a5822810c4398515300d614d988cf638adecad ALSA: hda/realtek: Add quirks for some Clevo laptops
@@ -295,7 +280,6 @@ f36fa5581bcace4e1054347c46ca67f2664fba33 Merge branch 'ps3_gelic_net-fixes'
 da0ba0ccce54059d6c6b788a75099bfce95126da platform/x86/intel: vsec: Fix a memory leak in intel_vsec_add_aux
 4d5a2a7d2c97dbd658533eea5f79dab1ad5dc0ee platform/x86/intel: tpmi: Fix double free in tpmi_create_device()
 8d13d50b157655247cdb3a69aca7836b58ff8735 platform/x86/intel: tpmi: Revise the comment of intel_vsec_add_aux
-840525415bdb2cb9873c6faea1984303efa65008 Merge tag 'counter-fixes-6.3a' of git://git.kernel.org/pub/scm/linux/kernel/git/wbg/counter into char-misc-linus
 b7c994f8c35e916e27c60803bb21457bc1373500 platform/x86 (gigabyte-wmi): Add support for A320M-S2H V2
 58cdfe6f58b35f17f56386f5fcf937168a423ad1 thunderbolt: Rename shadowed variables bit to interrupt_bit and auto_clear_bit
 3d3699bde4b043eea17993e4e76804a8128f0fdb Merge tag 'nfs-for-6.3-2' of git://git.linux-nfs.org/projects/anna/linux-nfs
@@ -313,8 +297,6 @@ b871cb971c683f7f212e7ca3c9a6709a75785116 ALSA: hda/conexant: Partial revert of a
 8c721c53dda512fdd48eb24d6d99e56deee57898 ALSA: usb-audio: Fix recursive locking at XRUN during syncing
 03aecb1acbcd7a660f97d645ca6c09d9de27ff9d drm: panel-orientation-quirks: Add quirk for Lenovo Yoga Book X90F
 f87d28673b71b35b248231a2086f9404afbb7f28 entry: Fix noinstr warning in __enter_from_user_mode()
-bf84937e882009075f57fd213836256fc65d96bc coresight-etm4: Fix for() loop drvdata->nr_addr_cmp range bug
-735e7b30a53a1679c050cddb73f5e5316105d2e3 coresight: etm4x: Do not access TRCIDR1 for identification
 a53ce18cacb477dd0513c607f187d16f0fa96f71 sched/fair: Sanitize vruntime of entity being migrated
 263f5ecaf7080513efc248ec739b6d9e00f4129f perf/x86/amd/core: Always clear status for idx
 b416514054810cf2d2cc348ae477cea619b64da7 entry/rcu: Check TIF_RESCHED _after_ delayed RCU wake-up
@@ -322,7 +304,6 @@ b416514054810cf2d2cc348ae477cea619b64da7 entry/rcu: Check TIF_RESCHED _after_ de
 2b91c4a870c9830eaf95e744454c9c218cccb736 hwmon: (peci/cputemp) Fix miscalculated DTS for SKX
 2315332efcbe7124252f080e03b57d3d2f1f4771 hwmon: fix potential sensor registration fail if of_node is missing
 813cc94c7847ae4a17e9f744fb4dbdf7df6bd732 hwmon: (xgene) Fix ioremap and memremap leak
-4dd52392b5d75d88acf0d16eb69fe30d0de8c225 Merge tag 'coresight-fixes-v6.3' of git://git.kernel.org/pub/scm/linux/kernel/git/coresight/linux into char-misc-linus
 b69245126a48e50882021180fa5d264dc7149ccc bootconfig: Fix testcase to increase max node
 47f9e4c924025c5be87959d3335e66fcbb7f6b5c keys: Do not cache key in task struct if key is requested from kernel thread
 4fc5c74dde69a7eda172514aaeb5a7df3600adb3 verify_pefile: relax wrapper length check
@@ -633,7 +614,6 @@ a587a84813b90372cb0a7565e201a4075da67919 net: mvpp2: parser fix QinQ
 b4c66d755e6d5620920168c15eb75f53394a952c Merge branch 'net-mvpp2-rss-fixes'
 1abce0580b89464546ae06abd5891ebec43c9470 powerpc/64s: Fix __pte_needs_flush() false positive warning
 fd7276189450110ed835eb0a334e62d2f1c4e3be powerpc: Don't try to copy PPR for task with NULL pt_regs
-4bffd2c7a3fc165fc70bc69211b8e6436f41a5c3 Merge tag 'iio-fixes-for-6.3a' of https://git.kernel.org/pub/scm/linux/kernel/git/jic23/iio into char-misc-linus
 f22c993f31fa9615df46e49cd768b713d39a852f smsc911x: avoid PHY being resumed when interface is not up
 05310f31ca74673a96567fb14637b7d5d6c82ea5 xen/netback: don't do grant copy across page boundary
 8fb8ebf9487785184846d04e915bfe327bf4ccd5 xen/netback: remove not needed test in xenvif_tx_build_gops()
@@ -967,4 +947,4 @@ c08cfd6716a170c549c1140f1d4a0e749c888a79 Merge tag 'cxl-fixes-6.3-rc6' of git://
 faf8f41858e2792925b2c526e16d2f539a53a730 Merge tag 'perf_urgent_for_v6.3_rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 09a9639e56c01c7a00d6c0ca63f4c7c41abe075d Linux 6.3-rc6
 
---===============6265556565069908565==--
+--===============0962186529950985982==--
