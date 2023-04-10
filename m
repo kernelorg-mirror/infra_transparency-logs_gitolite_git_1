@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3350436611215374711=="
+Content-Type: multipart/mixed; boundary="===============7809098189504819102=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Mon, 10 Apr 2023 06:52:52 -0000
-Message-Id: <168110957298.25556.7954780501324041018@gitolite.kernel.org>
+Date: Mon, 10 Apr 2023 06:58:13 -0000
+Message-Id: <168110989389.28746.7277398308674319090@gitolite.kernel.org>
 
---===============3350436611215374711==
+--===============7809098189504819102==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/rndis-removal
-    old: a1f15a819288625cd97437e58aaf0cb6280fde63
-    new: f0052ad6fa1ab90dba8b5450c48192788a4b88be
-    log: revlist-a1f15a819288-f0052ad6fa1a.txt
+  - ref: refs/heads/main
+    old: 197b6b60ae7bc51dd0814953c562833143b292aa
+    new: 09a9639e56c01c7a00d6c0ca63f4c7c41abe075d
+    log: revlist-197b6b60ae7b-09a9639e56c0.txt
 
---===============3350436611215374711==
+--===============7809098189504819102==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1681109571 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1681109893 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1681109571-2945a70dc5a8cda949a010fa2585ee50986f86cc
+nonce 1681109892-21f6df7f31c3455cbd35de4a707a00be8357763e
 
-a1f15a819288625cd97437e58aaf0cb6280fde63 f0052ad6fa1ab90dba8b5450c48192788a4b88be refs/heads/rndis-removal
+197b6b60ae7bc51dd0814953c562833143b292aa 09a9639e56c01c7a00d6c0ca63f4c7c41abe075d refs/heads/main
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQzskMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+tBAP/3qs0xMO+vQi1I0AWD0J
-BisICFgIhnnI8V7HnsF7jd1DJn1zrDnP1yiJiz9RGcO0rw6aPlUp6Od1mdA66xXh
-PfYi+8Iue5wmw6d9pHPku9rjZZe3ofJDc+z8nz181TqvRhJslZqaDZ+fQ+zDoGlI
-zGUYYR8LbSbi3MDILS+hLpBSEfxwcrgSYjEyXHAq/uYHYU8A9Bm809hSGII4KlK+
-FCYdLIYady52PTZ8vgvMi3UnWkjJ/ZhYJuikPh/DaSzMXAHQswQ2UTXM/R2EzF71
-gVhlxgAUoFLtbp2teMS+M5LI3FhoaFpBPMt7/FnRO3D1t3rkternuFIQQ7sQPTAQ
-tBRHI8xIUQoPCbzZVAuZyIPKCikqQIyADVql6kq47+FjQmgRGDDB1rFZ/e1z1N/C
-0ro76w9XvTQPvlyqtgrmemxEqgyNT2ovpGmD1F9TrrKNAZ1d/OyLZQRvY9hgJC+V
-2c/cH7/mnJD7+aEh/vUv5JqZEXESxO2T0Vx0qfaHHjm0GcYhADaWHlbxXJJQrsax
-JNegF7J38FY6En0PASQe/vdHy06iFotZe9F/PPzQ93SLrFLq+2fq9uKzIauI011d
-A1L6RdqVeccIi0JclTFwb1RiioTwmlRjMzt0BLKl1tixMzJCyCO9OretuJET+JJs
-WWEZAvJrRknPaB4awYTTG6gY
-=g9K5
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQzs4UbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+DgIQAJptlMULDVeaioxTQckQ
+O1HNregzFnXBXPc2asu+Yd8DToGkNZshQUmqE0/FdFvEU7DzPgYUE0MezSZkMEqY
+3iWHea7EhsOo8/tI2t1Own01y8aiV6RpgJZUxXb8yYFrhp3emGnZQhM4rQJD1Zqj
+5nIOYcyqBWy5RJN4KbSYXHSxisTTRxjfI5EMomrjz9S8yR5NkzfbjFrf7g3D3JQp
+1QrV07ZxN1x7hTbANQepzom70Oti7Y2K17UjEyZj294qYzNqjfVKmhd6pIgiJZjE
+ZtVfRyhw86lQyuVM9PgtK/x4yvJ2SBA7pH5t8w+560yTkLjUGVnbYVkVwx8izB2S
+Jqfk0eamAD8AiPdWoCUrwQBFNEdwvDzDwgEpCAKvhqMRHUqYMBtaFi7drx/U+3mE
+qE4lUgFWH95BDe8ezHXa0dJLuod8y/Kgznst6vH9hxdhVftxpl51+oe+ElUUJ2LZ
+X5aIvDbOAraI7E1zfxxWyA1QA7HOCXLpZkpyLEFK8O1MxCRszUkkqhFLl9BaxUFk
+Hzr3eYjpRu7Eg39BQBqQ1pCVV1zX2BcEDjqPwHxDt6b4sYsSGboGDWLXYv2ACZfD
+tK11H6hKoRmWNr/zgb1Nav2CrzGuWZ8F7Zv8Lh1CCbMLDdH914tVf1DVhefeW5VN
+OfRIIW8yn9jKECBNsROKePvd
+=tmRn
 -----END PGP SIGNATURE-----
 
---===============3350436611215374711==
+--===============7809098189504819102==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-a1f15a819288-f0052ad6fa1a.txt
+Content-Disposition: attachment; filename=revlist-197b6b60ae7b-09a9639e56c0.txt
 
 701c875aded880013aacac608832995c4b052257 iio: adc: qcom-spmi-adc5: Fix the channel name
 6327a930ab7bfa1ab33bcdffd5f5f4b1e7131504 drivers: iio: adc: ltc2497: fix LSB shift
@@ -571,6 +571,5 @@ c08cfd6716a170c549c1140f1d4a0e749c888a79 Merge tag 'cxl-fixes-6.3-rc6' of git://
 4ba115e2694dc9a10abfe94766d70b64ae9479c7 Merge tag 'x86_urgent_for_v6.3_rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 faf8f41858e2792925b2c526e16d2f539a53a730 Merge tag 'perf_urgent_for_v6.3_rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 09a9639e56c01c7a00d6c0ca63f4c7c41abe075d Linux 6.3-rc6
-f0052ad6fa1ab90dba8b5450c48192788a4b88be USB: disable all RNDIS protocol drivers
 
---===============3350436611215374711==--
+--===============7809098189504819102==--
