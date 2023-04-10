@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ras/ras
-Date: Mon, 10 Apr 2023 16:39:26 -0000
-Message-Id: <168114476647.6381.5870685175990739871@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Mon, 10 Apr 2023 16:40:52 -0000
+Message-Id: <168114485253.8372.17257417649895589314@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ras/ras
-user: aegl
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: andrii
 changes:
-  - ref: refs/heads/edac-for-next
-    old: 5f107e9728987173b8ecc7f89e1cde7ef9b4a53f
-    new: d6c5e688899b09dc8c17c665c403cdc23de220f3
+  - ref: refs/heads/master
+    old: 5855b0999de4213bf51d856a345c4b53f2304e33
+    new: c4d3b488a90be95f4f9413dc7eae5fc113d15fe9
     log: |
-         96ae3995c6930d2b6c11a48dad9a59ddd34abaad EDAC/i10nm: Add Intel Sierra Forest server support
-         d6c5e688899b09dc8c17c665c403cdc23de220f3 Merge branch 'edac-drivers' into edac-for-next
+         c4d3b488a90be95f4f9413dc7eae5fc113d15fe9 selftests/bpf: Reset err when symbol name already exist in kprobe_multi_test
          
