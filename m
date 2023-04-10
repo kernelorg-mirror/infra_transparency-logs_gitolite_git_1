@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6019655859625032663=="
+Content-Type: multipart/mixed; boundary="===============3641725609489736796=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Mon, 10 Apr 2023 13:45:22 -0000
-Message-Id: <168113432297.22269.11643970684010115201@gitolite.kernel.org>
+Date: Mon, 10 Apr 2023 13:45:51 -0000
+Message-Id: <168113435133.23572.8435289310973780033@gitolite.kernel.org>
 
---===============6019655859625032663==
+--===============3641725609489736796==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cel/linux
 user: cel
 changes:
-  - ref: refs/heads/master
-    old: 7e364e56293bb98cae1b55fd835f5991c4e96e7d
-    new: 09a9639e56c01c7a00d6c0ca63f4c7c41abe075d
-    log: revlist-7e364e56293b-09a9639e56c0.txt
-  - ref: refs/tags/v6.3-rc6
-    old: 0000000000000000000000000000000000000000
-    new: ab3affb8ed84f68638162fe7e6fd4055e15bff5b
+  - ref: refs/heads/nfsd-next
+    old: 2b946126c1416607bbd528142165502d4a14346b
+    new: dcf700e2b6b4c8f3a0c336dfe1abaf72e93a4b2d
+    log: revlist-2b946126c141-dcf700e2b6b4.txt
 
---===============6019655859625032663==
+--===============3641725609489736796==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-7e364e56293b-09a9639e56c0.txt
+Content-Disposition: attachment; filename=revlist-2b946126c141-dcf700e2b6b4.txt
 
 701c875aded880013aacac608832995c4b052257 iio: adc: qcom-spmi-adc5: Fix the channel name
 6327a930ab7bfa1ab33bcdffd5f5f4b1e7131504 drivers: iio: adc: ltc2497: fix LSB shift
@@ -39,7 +36,6 @@ b5184a26a28fac1d708b0bfeeb958a9260c2924c iio: buffer: correctly return bytes wri
 03fada47311a3e668f73efc9278c4a559e64ee85 iio: accel: kionix-kx022a: Get the timestamp from the driver's private data in the trigger_handler
 099cc90a5a62e68b2fe3a42da011ab929b98bf73 iio: light: cm32181: Unregister second I2C client if present
 d49765b5f4320a402fbc4ed5edfd73d87640f27c gpio: GPIO_REGMAP: select REGMAP instead of depending on it
-1eb65c8687316c65140b48fad27133d583178e15 Drivers: vmbus: Check for channel allocation before looking up relids
 c3701185ee1973845db088d8b0fc443397ab0eb2 iio: dac: cio-dac: Fix max DAC write value check for 12-bit
 7b3825e9487d77e83bf1e27b10a74cd729b8f972 iio: adc: max11410: fix read_poll_timeout() usage
 dda5c809d42389b82f37cbbe562044d8a29083c6 Merge tag 'v6.3-rc2' into asoc-6.3 to fix clock related failures
@@ -49,7 +45,6 @@ dda5c809d42389b82f37cbbe562044d8a29083c6 Merge tag 'v6.3-rc2' into asoc-6.3 to f
 9c691a42b8926c8966561265cdae3ddc7464d3a2 ASoC: Intel: soc-acpi: add table for Intel 'Rooks County' NUC M15
 083a25b18d6ad9f1f540e629909aa3eaaaf01823 ASoC: soc-pcm: fix hw->formats cleared by soc_pcm_hw_init() for dpcm
 30549964ce67f6f363023ec680ddca9fac63904e ASOC: Intel: add quirk for Intel 'Rooks County' NUC
-f8acb24aaf89fc46cd953229462ea8abe31b395f x86/hyperv: Block root partition functionality in a Confidential VM
 205efd4619b860404ebb5882e5a119eb3b3b3716 ASoC: amd: yc: Add DMI entries to support Victus by HP Laptop 16-e1xxx (8A22)
 4aa3b75c74603c3374877d5fd18ad9cc3a9a62ed counter: 104-quad-8: Fix race condition between FLAG and CNTR reads
 00f4bc5184c19cb33f468f1ea409d70d19f8f502 counter: 104-quad-8: Fix Synapse action reported for Index signals
@@ -72,14 +67,7 @@ a4a3203426f4b67535d6442ddc5dca8878a0678f ASoC: codecs: lpass: fix the order or c
 f6887a71bdd2f0dcba9b8180dd2223cfa8637e85 ASoC: hdac_hdmi: use set_stream() instead of set_tdm_slots()
 e416ea62a9166e6075a07a970cc5bf79255d2700 ksmbd: do not call kvmalloc() with __GFP_NORETRY | __GFP_NO_WARN
 2824861773eb512b37547516d81ef78108032cb2 ksmbd: remove unused is_char_allowed function
-e5c972c1fadacc858b6a564d056f177275238040 KVM: SVM: Flush Hyper-V TLB when required
-d583fbd7066a2dea43050521a95d9770f7d7593e KVM: irqfd: Make resampler_list an RCU list
-fef8f2b90edbd7089a4278021314f11f056b0cbb KVM: x86/ioapic: Resample the pending state of an IRQ when unmasking
-0dc902267cb32ade1c29eed8208e566ad743518a KVM: x86: Suppress pending MMIO write exits if emulator detects exception
-6c41468c7c12d74843bb414fc00307ea8a6318c3 KVM: x86: Clear "has_error_code", not "error_code", for RM exception injection
-80962ec912db56d323883154efc2297473e692cb KVM: nVMX: Do not report error code when synthesizing VM-Exit from Real Mode
 44378cd113e5f15bb0a89f5ac5a0e687b52feb90 ASoC: da7213.c: add missing pm_runtime_disable()
-21f27df854008b86349a203bf97fef79bb11f53e KVM: s390: pv: fix external interruption loop not always detected
 4bffd2c7a3fc165fc70bc69211b8e6436f41a5c3 Merge tag 'iio-fixes-for-6.3a' of https://git.kernel.org/pub/scm/linux/kernel/git/jic23/iio into char-misc-linus
 1a4b52ce8548355f09170faa67070bc2b8e3ba53 .mailmap: add entry for Leonard Göhrs
 35260cf545226c3b21d52a9d21083f7ff999969c Kconfig.debug: fix SCHED_DEBUG dependency
@@ -122,18 +110,13 @@ fe2cfbc9680356a3d9f8adde8a38e715831e32f5 net: stmmac: check if MAC needs to atta
 c5b959eeb7f9e40673b97c08c71cbfff5f5923f2 net: netcp: MAX_SKB_FRAGS is now 'int'
 362f0b6678ad1377c322a7dd237ea6785efc7342 net: wwan: t7xx: do not compile with -Werror
 ffa5395a7901e83a68d88207c4592962906641bd vsock/vmci: convert VMCI error code to -ENOMEM on send
-cb2239c198ad9fbd5aced22cf93e45562da781eb fs: drop peer group ids under namespace lock
 9fdc1605c504204e0fdec7892b29c916579e06f3 ALSA: hda/realtek: fix mute/micmute LEDs for a HP ProBook
 e4efa515d58f1363d8a27e548f9c5769d3121e03 wifi: brcmfmac: Fix SDIO suspend/resume regression
 2ceb76f734e37833824b7fab6af17c999eb48d2b wifi: mt76: mt7921: Fix use-after-free in fw features query.
 eb85df0a5643612285f61f38122564498d0c49f7 wifi: mt76: mt7921: fix fw used for offload check for mt7922
-85b475a4502d45380c1b9223c01954daa228eeb0 Merge tag 'kvm-s390-master-6.3-1' of https://git.kernel.org/pub/scm/linux/kernel/git/kvms390/linux into HEAD
 f1594bc676579133a3cd906d7d27733289edfb86 selftests mount: Fix mount_setattr_test builds failed
-52882b9c7a761b2b4e44717d6fbd1ed94c601b7f KVM: PPC: Make KVM_CAP_IRQFD_RESAMPLE platform dependent
 f43359501e2d70ba8a68f2302c1009d9194fc60d Merge tag 'asoc-fix-v6.3-rc4' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
 36d4d213c6d4fffae2645a601e8ae996de4c3645 ALSA: hda/realtek: Add quirk for Clevo X370SNW
-804d8e0a6e54427268790472781e03bc243f4ee3 NFSD: Avoid calling OPDESC() with ops->opnum == OP_ILLEGAL
-15a8b55dbb1ba154d82627547c5761cac884d810 nfsd: call op_release, even when op_func returns an error
 7f67aa097e875c87fba024e850cf405342300059 drm/nouveau/disp: Support more modes by checking with lower bpc
 adef41b03b35839e5677aace628d02597f04a616 Revert "net: netcp: MAX_SKB_FRAGS is now 'int'"
 7d63b67125382ff0ffdfca434acbc94a38bd092b icmp: guard against too small mtu
@@ -173,8 +156,6 @@ ea65b41807a26495ff2a73dd8b1bab2751940887 ftrace: Mark get_lock_parent_ip() __alw
 b9f451a9029a16eb7913ace09b92493d00f2e564 tracing/timerlat: Notify new max thread latency
 d3cba7f02cd82118c32651c73374d8a5a459d9a6 tracing/osnoise: Fix notify new tracing_max_latency
 f82e7ca019dfad3b006fd3b772f7ac569672db55 tracing: Error if a trace event has an array for a __field()
-2d72ab2449fa9fce8f6898fd5adda10497f7c111 Merge tag 'hyperv-fixes-signed-20230402' of git://git.kernel.org/pub/scm/linux/kernel/git/hyperv/linux
-148341f0a2f53b5e8808d093333d85170586a15d Merge tag 'vfs.misc.fixes.v6.3-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/idmapping
 34bafc747c54fb58c1908ec3116fa6137393e596 cxl/pci: Handle truncated CDAT header
 b56faef2312057db20479b240eb71bd2e51fb51c cxl/pci: Handle truncated CDAT entries
 4fe2c13d59d849be3b45371e3913ec5dc77fc0fb cxl/pci: Handle excessive CDAT length
@@ -185,17 +166,11 @@ e4395701330fc4aee530905039516fe770b81417 iommufd: Check for uptr overflow
 727c28c1cef2bc013d2c8bb6c50e410a3882a04e iommufd: Fix unpinning of pages when an access is present
 13a0d1ae7ee6b438f5537711a8c60cba00554943 iommufd: Do not corrupt the pfn list when doing batch carry
 218c597325f4faf7b7a6049233a30d7842b5b2dc net: stmmac: fix up RX flow hash indirection table when setting channels
-5085e41f9e83a1bec51da1f20b54f2ec3a13a3fe sunrpc: only free unix grouplist after RCU settles
-8be8f170e8383fd1421e8b87950e90d7dd45be07 NFS: Remove "select RPCSEC_GSS_KRB5
-7de82c2f36fb26aa78440bbf0efcf360b691d98b NFSD: callback request does not use correct credential for AUTH_SYS
 b4a01ace20f5c93c724abffc0a83ec84f514b98d ice: fix wrong fallback logic for FDIR
 83c911dc5e0e8e6eaa6431c06972a8f159bfe2fc ice: Reset FDIR counter in FDIR init stage
 d564fa1ff19e893e2971d66e5c8f49dc1cdc8ffc asm-generic/io.h: suppress endianness warnings for readq() and writeq()
 05d3855b4d21ef3c2df26be1cbba9d2c68915fcb asm-generic/io.h: suppress endianness warnings for relaxed accessors
 656e9007ef5862746cdf7ac16267c8e06e7b0989 asm-generic: avoid __generic_cmpxchg_local warnings
-fb5015bc8b733323b58f015b88e4f316010ec856 docs: kvm: x86: Fix broken field list
-ceeea1b78293834378b8d32a18288610de5600f3 Merge tag 'nfsd-6.3-5' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
-76f598ba7d8e2bfb4855b5298caedd5af0c374a8 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 38a8c4d1d45006841f0643f4cb29b5e50758837c blk-mq: directly poll requests
 82f0832af26a30ae5f21b335c5f68b538e710c29 cxl/hdm: Fix double allocation of @cxlhdm
 b70c2cf95ee1ca2806cb7191504920f8f5b4454e cxl/hdm: Skip emulation when driver manages mem_enable
@@ -299,5 +274,27 @@ c08cfd6716a170c549c1140f1d4a0e749c888a79 Merge tag 'cxl-fixes-6.3-rc6' of git://
 4ba115e2694dc9a10abfe94766d70b64ae9479c7 Merge tag 'x86_urgent_for_v6.3_rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 faf8f41858e2792925b2c526e16d2f539a53a730 Merge tag 'perf_urgent_for_v6.3_rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 09a9639e56c01c7a00d6c0ca63f4c7c41abe075d Linux 6.3-rc6
+8c89ae4fc17e1d50b6498737ebe31ab8c9adc35d nfsd: don't open-code clear_and_wake_up_bit
+04488c68edcd2a29caa8978613d7c71b3b3fabb7 nfsd: NFSD_FILE_KEY_INODE only needs to find GC'ed entries
+4cf5809bc96dd81b57a1c01e015d6dde6ab744fc nfsd: simplify test_bit return in NFSD_FILE_KEY_FULL comparator
+ce981c92e1e13ad96c6bfd841953bf0632c43572 nfsd: don't kill nfsd_files because of lease break error
+208cf31d4c4294cc6b8d2f18c5440f624480b880 nfsd: add some comments to nfsd_file_do_acquire
+dfca7616712973bf6cbfb2d8840e66a6d37a1a6d nfsd: simplify the delayed disposal list code
+f387656f07dd002156221f6f8c60e333166cb478 nfsd: don't take/put an extra reference when putting a file
+dbbdde5afc8e64584b755fc63b41d875d95615d7 nfsd: update comment over __nfsd_file_cache_purge
+aae22594013d0b99dc065122947018db0fbc5a9a nfsd: allow reaping files still under writeback
+77905a947df471ffaadb32218cec389008f4e4a4 NFSD: Convert filecache to rhltable
+b6a984137b47f6e0b0cc1f2a365473497a184d7a lockd: purge resources held on behalf of nlm clients when shutting down
+958821de61209d5319db6a132495a5a55bba408d lockd: remove 2 unused helper functions
+ce5960315a0af154c9e2760621c8a0f6da9834df lockd: move struct nlm_wait to lockd.h
+05ce1df2facd6233c3628961856a58a35a0c1e71 lockd: fix races in client GRANTED_MSG wait logic
+6bc7ff7676af61ccf9a2cc6c86ed2357f6706ef5 lockd: server should unlock lock if client rejects the grant
+30d25279fda1859e1fb269a4cb406c24cf42898d nfs: move nfs_fhandle_hash to common include file
+8062e3e479820524e17b2d462f79e2dd9aee6e2e lockd: add some client-side tracepoints
+49bfc7d3af3991f7c26f9a743b130929bf06dd69 SUNRPC: return proper error from get_expiry()
+1052569c4f2c836f72bdf671133834969ba5639c sunrpc: simplify two-level sysctl registration for svcrdma_parm_table
+81b232d2774603f4f718dca27a12b7bf234bfcab NFSD: Watch for rq_pages bounds checking errors in nfsd_splice_actor()
+ee0abcd3aa354ef113f060d1f418283db9367e37 SUNRPC: Ensure server-side sockets have a sock->file
+dcf700e2b6b4c8f3a0c336dfe1abaf72e93a4b2d SUNRPC: Ignore return value of ->xpo_sendto
 
---===============6019655859625032663==--
+--===============3641725609489736796==--
