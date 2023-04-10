@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0619920674388298155=="
+Content-Type: multipart/mixed; boundary="===============4329028883178746117=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/wbg/counter
-Date: Mon, 10 Apr 2023 13:36:50 -0000
-Message-Id: <168113381019.16348.12574976636868227880@gitolite.kernel.org>
+Date: Mon, 10 Apr 2023 13:37:12 -0000
+Message-Id: <168113383204.16545.11194987947341171605@gitolite.kernel.org>
 
---===============0619920674388298155==
+--===============4329028883178746117==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,19 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/wbg/counter
 user: wbg
 changes:
-  - ref: refs/heads/counter-next
-    old: fe15c26ee26efa11741a7b632e9f23b01aca4cc6
+  - ref: refs/heads/counter-fixes
+    old: 00f4bc5184c19cb33f468f1ea409d70d19f8f502
     new: 09a9639e56c01c7a00d6c0ca63f4c7c41abe075d
-    log: revlist-fe15c26ee26e-09a9639e56c0.txt
+    log: revlist-00f4bc5184c1-09a9639e56c0.txt
 
---===============0619920674388298155==
+--===============4329028883178746117==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-fe15c26ee26e-09a9639e56c0.txt
+Content-Disposition: attachment; filename=revlist-00f4bc5184c1-09a9639e56c0.txt
 
+8eeddc0d4200762063e1c66b9cc63afa7b24ebf0 drm/amdkfd: Get prange->offset after svm_range_vram_node_new
+b2ca5c5d416b4e72d1e9d0293fc720e2d525fd42 drm/amdkfd: fix a potential double free in pqm_create_queue
 ab9bdb1213b4b40942af6a383f555d0c14874c1b drm/amd/pm: bump SMU 13.0.4 driver_if header version
 a9386ee9681585794dbab95d4ce6826f73d19af6 drm/amd/pm: Fix sienna cichlid incorrect OD volage after resume
 d71e38df3b730a17ab6b25cabb2ccfe8a7f04385 drm/amdgpu/vcn: custom video info caps for sriov
@@ -307,8 +309,6 @@ eb684408f3ea4856639675d6465f0024e498e4b1 arm64: efi: Use SMBIOS processor versio
 f59a7ec1e69fc23946175b8c0d7e0fd21f94f8c9 efi/libstub: smbios: Drop unused 'recsize' parameter
 3615c78673c332b69aaacefbcde5937c5c706686 efi: sysfb_efi: Fix DMI quirks not working for simpledrm
 5ed213dd64681f84a01ceaa82fb336cf7d59ddcf efi: sysfb_efi: Add quirk for Lenovo Yoga Book X91F/L
-4aa3b75c74603c3374877d5fd18ad9cc3a9a62ed counter: 104-quad-8: Fix race condition between FLAG and CNTR reads
-00f4bc5184c19cb33f468f1ea409d70d19f8f502 counter: 104-quad-8: Fix Synapse action reported for Index signals
 ab327f8acdf8d06601fbf058859a539a9422afff mips: bmips: BCM6358: disable RAC flush for TP1
 4985e7b2c002eb4c5c794a1d3acd91b82c89a0fd block: ublk_drv: mark device as LIVE before adding disk
 49f76c499d38bf67803438eee88c8300d0f6ce09 iio: adc: palmas_gpadc: fix NULL dereference on rmmod
@@ -1051,4 +1051,4 @@ c08cfd6716a170c549c1140f1d4a0e749c888a79 Merge tag 'cxl-fixes-6.3-rc6' of git://
 faf8f41858e2792925b2c526e16d2f539a53a730 Merge tag 'perf_urgent_for_v6.3_rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 09a9639e56c01c7a00d6c0ca63f4c7c41abe075d Linux 6.3-rc6
 
---===============0619920674388298155==--
+--===============4329028883178746117==--
