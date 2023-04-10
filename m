@@ -1,55 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============3856441034491741098=="
+Content-Type: multipart/mixed; boundary="===============5238666313257910090=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/clk/linux
-Date: Mon, 10 Apr 2023 23:39:53 -0000
-Message-Id: <168116999310.25715.9724269012457596068@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
+Date: Mon, 10 Apr 2023 23:43:48 -0000
+Message-Id: <168117022877.28500.9558095208096059591@gitolite.kernel.org>
 
---===============3856441034491741098==
+--===============5238666313257910090==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/clk/linux
-user: sboyd
+repo: pub/scm/linux/kernel/git/robh/linux
+user: robh
 changes:
-  - ref: refs/heads/clk-cleanup
-    old: 643980fb08d00d7e750af03fe0101c9910ab4c1f
-    new: fb8b9d23f15f1440671d0127f7ad68d679fd29a3
-    log: |
-         fb8b9d23f15f1440671d0127f7ad68d679fd29a3 clk: sifive: make SiFive clk drivers depend on ARCH_ symbols
-         
-  - ref: refs/heads/clk-next
-    old: fec91134e30580afd51a036e2cc4616a83e345a6
-    new: 237b220351a821727610ea0bbedce3d4cd2c841c
-    log: revlist-fec91134e305-237b220351a8.txt
-  - ref: refs/heads/clk-devmof
-    old: 0000000000000000000000000000000000000000
-    new: c0e19528439db9051c7847f1c91f22bd1e87e0ce
+  - ref: refs/heads/for-next
+    old: e62fc18213632ee11e35ea1e954a9156cd67a792
+    new: f7a365727d3f9c0d8aa6d8c054b6937956034374
+    log: revlist-e62fc1821363-f7a365727d3f.txt
 
---===============3856441034491741098==
+--===============5238666313257910090==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fec91134e305-237b220351a8.txt
+Content-Disposition: attachment; filename=revlist-e62fc1821363-f7a365727d3f.txt
 
-5e96c2e0e88d3617477313b071cf199bfc29d794 clk: renesas: r8a77980: Add I2C5 clock
-6aa252ae8888382769200159b1573bb996bceb44 Merge tag 'renesas-clk-for-v6.4-tag2' of git://git.kernel.org/pub/scm/linux/kernel/git/geert/renesas-drivers into clk-renesas
-878da96b007691e2f6ad1cb1269eb36d1ae02e27 Merge branch 'clk-renesas' into clk-next
-a301528f79d1ec27cd34122d655e0200a950f960 clk: axi-clkgen: Use managed `of_clk_add_hw_provider()`
-f042ebcfccaa9761b4f36ffa33b0663d6f6eaaa4 clk: axm5516: Use managed `of_clk_add_hw_provider()`
-7bed704f803cabfd7d5c3e92b0e8ecd29eefe5a3 clk: axs10x: Use managed `of_clk_add_hw_provider()`
-c2e59c7f27c8a001eba725ba48e6d647d7b1f3d0 clk: cdce706: Use managed `of_clk_add_hw_provider()`
-56d144d0344aaa3810e2d18229f315480fc72a89 clk: hsdk-pll: Use managed `of_clk_add_hw_provider()`
-56fc9a343a2001bf64a7370b3e3cf2256c60af3e clk: lmk04832: Use managed `of_clk_add_hw_provider()`
-a7f3b6757acde808e1558ffa23b4a80f6831a081 clk: si514: Use managed `of_clk_add_hw_provider()`
-bda73391c8efea9de9d69503c9ab5a1ecabb1786 clk: si570: Use managed `of_clk_add_hw_provider()`
-361dde3c283324b71494dec4f51e829054d0822f clk: si5351: Use managed `of_clk_add_hw_provider()`
-c0e19528439db9051c7847f1c91f22bd1e87e0ce clk: uniphier: Use managed `of_clk_add_hw_provider()`
-3dab7546d98df24269774ef5c59fa8d2bc7fc445 Merge branch 'clk-devmof' into clk-next
-fb8b9d23f15f1440671d0127f7ad68d679fd29a3 clk: sifive: make SiFive clk drivers depend on ARCH_ symbols
-237b220351a821727610ea0bbedce3d4cd2c841c Merge branch 'clk-cleanup' into clk-next
+c12cc1bc7d70f0efa46e5afad5775daef2f4cc81 bus: uniphier-system-bus: Remove open coded "ranges" parsing
+1dd5474ee6ee1d6ddc95f1423966ab8d4afda448 of: Make devtree_lock declaration private
+4c32fb7dcf65b16cc7b2837ccfc35d00be92bddb of: Move of_device_(add|register|unregister) to of_platform.h
+f5a2dc7516571e3a0173ca206b30636451a9deab of: Move of_device_get_match_data() declaration
+bac06718990c5041487ff3a88302acf50038f690 of: Move CPU node related functions to their own file
+f40be2c449d0b79f99e74ea1a631fb80fbb2897b of: Drop unnecessary includes in headers
+03a72ee8a282a8a75233664c9d48625b5ef315f6 ARM: sunxi: Drop of_device.h include
+b7ae9dd5186e7edf988fa58343ffe252b4f8511d ARM: cpuidle: Drop of_device.h include
+2dd09925be06d015afebea94c550b9d3f40c77f5 riscv: Add explicit include for cpu.h
+a8e6c41388dc66a306d0257f4241858c5a58b4e8 riscv: cacheinfo: Adjust includes to remove of_device.h
+13214b0da03a7b322d8f4ad9a5f5ccef62029fb2 cacheinfo: Adjust includes to remove of_device.h
+b4416f42efc9a0207117f2d52130064711992d23 clocksource: ingenic: Add explicit include for cpuhotplug.h
+9500c7331fca49ea71c1e5a1c43bc23eedb7c4db thermal: cpuidle_cooling: Adjust includes to remove of_device.h
+0e4b6fd093c6060b6e8cd77a9c68eb57e8c8498d soc: mediatek: mtk-svs: Add explicit include for cpu.h
+6f2db1788a53dcdbe6fe5639583e871e017f7167 cpufreq: Adjust includes to remove of_device.h
+efa4c2abdfb9266a298746355d502fbe29064710 cpufreq: sun50i: Add explicit include for cpu.h
+c4aa81bed3d8ee6949c90d1d413eff76946e583f cpuidle: Adjust includes to remove of_device.h
+c0f4078df5c383c8f88fd3576e2519bbdc2d5118 irqchip: loongson-eiointc: Add explicit include for cpuhotplug.h
+a92cbab3b9d3990500cbe8d19e859ee0d4b19803 OPP: Adjust includes to remove of_device.h
+4b57e7e536b655537f596ff0848e402ecbe16fbf of: Drop cpu.h include from of_device.h
+91989c9fb0c4d75e4b16e9aa9844d13fbfc6c666 of: unittest: Add bus address range parsing tests
+ce56bc39638e032f8a7b441777e9eceff64d8aa2 of/address: Add of_range_to_resource() helper
+2ad2f14b4f295228b47da595a2ead4543b638f7c of/address: Add support for 3 address cell bus
+904bfc93463df134c0b8462f98b1d3847cc4c3d5 of/address: Add of_range_count() helper
+87b764b15f9a0279991f9518f561d25cab0cf1be of/address: Add of_property_read_reg() helper
+f7a365727d3f9c0d8aa6d8c054b6937956034374 Merge branch 'dt/address-cleanups' into dt/next
 
---===============3856441034491741098==--
+--===============5238666313257910090==--
