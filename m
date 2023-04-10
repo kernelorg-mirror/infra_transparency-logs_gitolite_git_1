@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2380205495752084605=="
+Content-Type: multipart/mixed; boundary="===============3597406719629274803=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Mon, 10 Apr 2023 06:52:00 -0000
-Message-Id: <168110952058.24975.3105975783782136478@gitolite.kernel.org>
+Date: Mon, 10 Apr 2023 06:52:05 -0000
+Message-Id: <168110952561.25072.5937626870726365464@gitolite.kernel.org>
 
---===============2380205495752084605==
+--===============3597406719629274803==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: e8d018dd0257f744ca50a729e3d042cf2ec9da65
+  - ref: refs/heads/tty-linus
+    old: f92ed0cd9328aed918ebb0ebb64d259eccbcc6e7
     new: 09a9639e56c01c7a00d6c0ca63f4c7c41abe075d
-    log: revlist-e8d018dd0257-09a9639e56c0.txt
+    log: revlist-f92ed0cd9328-09a9639e56c0.txt
 
---===============2380205495752084605==
+--===============3597406719629274803==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1681109519 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1681109524 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1681109519-8dd965d389d4cd892ac28a0bedc316cb82dd1d18
+nonce 1681109523-a10e3b8ce45fbb3a638c2499a3e405602c6665eb
 
-e8d018dd0257f744ca50a729e3d042cf2ec9da65 09a9639e56c01c7a00d6c0ca63f4c7c41abe075d refs/heads/main
+f92ed0cd9328aed918ebb0ebb64d259eccbcc6e7 09a9639e56c01c7a00d6c0ca63f4c7c41abe075d refs/heads/tty-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQzsg8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+3PoQAKtKBlwQOSREVs5hAKF6
-dw9+UTmgy60DRUzgCHUPTArZrLHLQO75hC/dEINj+Wcv+gRfGum8WfwXTx3YAm01
-UKFZ3WmJvYlcfnABAyJv3z8sHoJRMFpOlkQ3NHD4K2xoBDje/gE4Y/ioaUN+NbDh
-F2M9SxcS/SdJyxiQUfNAUjsBPYdcK6EZ/k8OzJbkHfvvRHKeNvShwJcr0qE6FJ12
-5nuhYfNUxHVkr+rpXi0Y7ofw2Z2x9n5F0SF3Jf0bqoidW3e1MCeia0df1F+D5VyX
-obdoeakcWeyGRVllkG4y68BurgZ9C+ubUusBUWe22+UIXUAF/NqU7tvmE+AkyZ/4
-OCYdgQjnpqllKHGZCVn130YBd44pvWNl7ysPY6qR8ybarM4E9TnbE8NpLeX+789h
-AlnmbK1wD2IGGkW5jkYqyVcqKQ62y1trTXtD2ahS8zkKVlJSgGn2wSCxz5J90b97
-0yGMP6JddjDZkAauAIARe6L313avs7swDAdPxZWnkByWJdQlIoH++1Vm9ZlH+2yM
-0Bdqj1c8PDWDjpEPvWJQ24RFLyqKVKPqxJsdAoppAUt9Cjg2aDB7e5mF+BJzq+x8
-x4ZYJYFUcly5pH3iCNUD70XziUxQAQ5nU9kWiAYkY1VxooTxC8f6+r8dBbdR2WWd
-DE/oFyuHAF9sGYpK/P3KLziI
-=OMxp
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQzshUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ybcP/37eTMro0DQVyG5SixKm
+/7EprVY5FKtUzKp4HIT6WIdzRr+YP6pZ+TJyrsumYbEZPz8e3MDZFChtY7PfgY8P
+De1Iiv78Wq63oj3Q7zqqPBem3eJAMkklYOI/bT5ugUSgcloHKUIlfeTI8G4iiAwk
+ophxjnukHWVttgBsWNwusk4a0vyHMduBoWtNrxNxs2zC8VQ2SONkyqahJa27Z7nO
+clydyQdiH0/49O/Okvyz20+dTlUIPrTwzvoSOJBDBQGFn6t/Qf0XM1xnhMsT3Ds1
++0hywPLKNLbn6kmmhEf8o9Bx1Ox2GyWBH6wq7VkjyZsnmr5cVmFroiCTLEJivfFR
+FqgP0LfoRj1Q+jsUcGkNKK+qrcajKxSm9TSmEpNAT7En81fp+qn4Fx6Mh6v2NFkC
+hefI2LTx/3/s5w8k5BMN8waL+tQnibC0k8rawtECFmZXtJgl1PYCZ1ZrUvhA23az
+X1nuso5YyvTPX4Z+ViQLHKJhwzhC6vgK+vpgryJSqgunctP+C5LVx//s6eweO0Yc
+DT83cNQ/SP4C6Nts0Mkdgv7dhRpt50wFu7lRIpd11m3Eq6GSisQxu8k65ID1IbGq
+mcapR91jkwCDV3eT/WyzGTEK1/8BNGk66oNV2RA0SaDJMhXhxtstgWEfCwYXiqc1
+aYeBD/dgpWUe+m83XWEOaKaI
+=tw5j
 -----END PGP SIGNATURE-----
 
---===============2380205495752084605==
+--===============3597406719629274803==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-e8d018dd0257-09a9639e56c0.txt
+Content-Disposition: attachment; filename=revlist-f92ed0cd9328-09a9639e56c0.txt
 
 701c875aded880013aacac608832995c4b052257 iio: adc: qcom-spmi-adc5: Fix the channel name
 6327a930ab7bfa1ab33bcdffd5f5f4b1e7131504 drivers: iio: adc: ltc2497: fix LSB shift
@@ -664,12 +664,6 @@ f33fc1576757741479452255132d6e3aaf558ffe ALSA: ymfpci: Create card with device-m
 5f70bcbca469a087b54ad2d934185ed69a098576 net: wwan: iosm: fixes 7560 modem crash
 4c7f9d2e413dc06a157c4e5dccde84aaf4655eb3 usb: xhci: tegra: fix sleep in atomic call
 e4056e38ec87b4c21eb34bb8e38b1b0ca1221744 dt-bindings: pinctrl: qcom,sm8550-lpass-lpi: allow input-enabled and bias-bus-hold
-b43a18647f03c87e77d50d6fe74904b61b96323e tty: serial: sh-sci: Fix transmit end interrupt handler
-7b21f329ae0ab6361c0aebfc094db95821490cd1 dt-bindings: serial: renesas,scif: Fix 4th IRQ for 4-IRQ SCIFs
-90b8596ac46043e4a782d9111f5b285251b13756 serial: 8250: Prevent starting up DMA Rx on THRI interrupt
-9425914f3de6febbd6250395f56c8279676d9c3c tty: serial: fsl_lpuart: avoid checking for transfer complete when UARTCTRL_SBK is asserted in lpuart32_tx_empty
-178e00f36f934a88682d96aa046c1f90cb6f83a7 tty: serial: fsl_lpuart: fix crash in lpuart_uport_is_active
-f92ed0cd9328aed918ebb0ebb64d259eccbcc6e7 tty: serial: sh-sci: Fix Rx on RZ/G2L SCI
 7708a3858e69db91a8b69487994f33b96d20192a USB: serial: option: add Quectel RM500U-CN modem
 30fb97ba4a8e082ba0a5432479d6995472edbd7b drm/nouveau/kms: Fix backlight registration
 5c2712387d4850e0b64121d5fd3e6c4e84ea3266 cacheinfo: Fix LLC is not exported through sysfs
@@ -967,4 +961,4 @@ c08cfd6716a170c549c1140f1d4a0e749c888a79 Merge tag 'cxl-fixes-6.3-rc6' of git://
 faf8f41858e2792925b2c526e16d2f539a53a730 Merge tag 'perf_urgent_for_v6.3_rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 09a9639e56c01c7a00d6c0ca63f4c7c41abe075d Linux 6.3-rc6
 
---===============2380205495752084605==--
+--===============3597406719629274803==--
