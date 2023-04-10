@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ogabbay/linux
-Date: Mon, 10 Apr 2023 12:50:01 -0000
-Message-Id: <168113100130.17865.12517058480975052743@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mani/mhi
+Date: Mon, 10 Apr 2023 13:16:15 -0000
+Message-Id: <168113257552.3934.6920542293427029693@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ogabbay/linux
-user: ogabbay
+repo: pub/scm/linux/kernel/git/mani/mhi
+user: mani
 changes:
-  - ref: refs/heads/habanalabs-next-6.5
-    old: 0000000000000000000000000000000000000000
-    new: 56499c461589634f2c89ffbd9cfb78268191d349
+  - ref: refs/heads/mhi-next
+    old: c2dbd34f6a9558b7e99849d4f73eb9b95a45a83c
+    new: 4308c6878acfb58eda46483644b516abd732b6dd
+    log: |
+         4308c6878acfb58eda46483644b516abd732b6dd bus: mhi: host: Avoid ringing EV DB if there are no elements to process
+         
