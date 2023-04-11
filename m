@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Tue, 11 Apr 2023 17:19:05 -0000
-Message-Id: <168123354517.9315.7352216048242738929@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/remoteproc/linux
+Date: Tue, 11 Apr 2023 17:20:09 -0000
+Message-Id: <168123360906.11220.16794638834827122638@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jic23/iio
-user: jic23
+repo: pub/scm/linux/kernel/git/remoteproc/linux
+user: mjp
 changes:
-  - ref: refs/heads/testings
-    old: 0000000000000000000000000000000000000000
-    new: 4c7e876ff00d0fc0501fd5811bd1328cfc5d8408
+  - ref: refs/heads/rproc-next
+    old: 5de6ef496eee0c0063aceec7b9843fb824bd85ce
+    new: 3c497f624d40171ebead1a6705793100d92ecb85
+    log: |
+         3c497f624d40171ebead1a6705793100d92ecb85 remoteproc: imx_dsp_rproc: Fix kernel test robot sparse warning
+         
