@@ -1,51 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============4421449716952952014=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Tue, 11 Apr 2023 13:55:44 -0000
-Message-Id: <168122134494.317.11995381212255202128@gitolite.kernel.org>
-
---===============4421449716952952014==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Tue, 11 Apr 2023 13:56:08 -0000
+Message-Id: <168122136863.529.12131865070505259634@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/regulator
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/spi-6.4
-    old: 28e0377c3af08848982af3f072622fca3a7b937f
-    new: 909fac05b92653f860ecaa1e59b23fc25d27166e
+  - ref: refs/heads/for-linus
+    old: c5d5b55b3c1a314137a251efc1001dfd435c6242
+    new: 7c7504067c709905fc188c61ac3072d6022d1209
     log: |
-         d040fe8f9fa94cf17cb3558bd061cb580a4d63c8 dt-bindings: spi: add Amlogic A1 SPI controller
-         909fac05b92653f860ecaa1e59b23fc25d27166e spi: add support for Amlogic A1 SPI Flash Controller
+         7c7504067c709905fc188c61ac3072d6022d1209 regulator: sm5703: Fix missing n_voltages for fixed regulators
          
-
---===============4421449716952952014==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1681221343 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1681221343-30f6453f4da8dcc669c5d6f6dab78c558a29f9a6
-
-28e0377c3af08848982af3f072622fca3a7b937f 909fac05b92653f860ecaa1e59b23fc25d27166e refs/heads/spi-6.4
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmQ1Zt8ACgkQJNaLcl1U
-h9DBOAf+NiWx2DSo7PDyNYNI8KxNt4k7aL1GLNP9juSrANGtdbzAYfzI7YQa9c6Q
-wVfCXokHKnS+HMqKbiS8SM9oUZX0BUi97H7gwT1WsADceDw02fnsamhFnZfesJjx
-DbSrtu+GahdCmTHtPfu/+PiXvrGE490XL4ecrFt4nhWfj7CKVRTrKynoEdkA8Sht
-kDGUb9ns09pCwpAfK0Pjo6ENI1QlM1ov5uvHhlQ3fBs+gY1jZvuJDG0F8Fhv/SK+
-Em/ak4p0bxFuZ2TEBIE2NN8yOQsxcEHz9wSuGEOarTH4uV+X7ii2JKkRDu+miWQd
-BMPQkEVtG6gyOouRFoGFVGhoEMcxKg==
-=unG9
------END PGP SIGNATURE-----
-
---===============4421449716952952014==--
+  - ref: refs/heads/for-next
+    old: fe0fac1762dee5ef79e48f1ff1baa8d707da1247
+    new: 39bd431ef21541ca57a2cd20948a9376e5b3d45c
+    log: |
+         7c7504067c709905fc188c61ac3072d6022d1209 regulator: sm5703: Fix missing n_voltages for fixed regulators
+         39bd431ef21541ca57a2cd20948a9376e5b3d45c Merge remote-tracking branch 'regulator/for-6.4' into regulator-next
+         
