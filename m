@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Tue, 11 Apr 2023 19:52:17 -0000
-Message-Id: <168124273704.15595.8438205877265174139@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
+Date: Tue, 11 Apr 2023 19:52:26 -0000
+Message-Id: <168124274631.15720.9736697032585416850@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/riscv/linux
+user: palmer
 changes:
-  - ref: refs/heads/master
-    old: fa1c71981775d5c567bc5ce6d56c82aeb57fefd9
-    new: ba166cb759843ae6904fff76fbef054358737f59
+  - ref: refs/heads/fixes
+    old: 4622f159098e098611f393cccf73d52b007e70bc
+    new: 85bd93a1b2619dbcb912822d269570444de2e18a
     log: |
-         ba166cb759843ae6904fff76fbef054358737f59 Tue Apr 11 07:51:20 PM UTC 2023
+         85bd93a1b2619dbcb912822d269570444de2e18a riscv: add icache flush for nommu sigreturn trampoline
          
