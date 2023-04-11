@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Tue, 11 Apr 2023 09:51:45 -0000
-Message-Id: <168120670592.29218.4317229151270263790@gitolite.kernel.org>
+Date: Tue, 11 Apr 2023 09:59:49 -0000
+Message-Id: <168120718943.809.10236611966783370535@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/pci/pci
 user: lpieralisi
 changes:
   - ref: refs/heads/controller/qcom
-    old: 05f4646409625b45e315ed0c5ab1078445f5ef43
-    new: ca0e2aad27202b971def5a3dfeffb23d80ebe350
+    old: ca0e2aad27202b971def5a3dfeffb23d80ebe350
+    new: 2dee743c8b4dbc5d8fbfbf2b49ad24767f5fa3aa
     log: |
-         ca0e2aad27202b971def5a3dfeffb23d80ebe350 PCI: qcom: Add support for system suspend and resume
+         2dee743c8b4dbc5d8fbfbf2b49ad24767f5fa3aa PCI: qcom: Enable async probe by default
          
