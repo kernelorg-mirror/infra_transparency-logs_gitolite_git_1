@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
-Date: Tue, 11 Apr 2023 15:29:08 -0000
-Message-Id: <168122694881.32416.5006269132767526576@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Tue, 11 Apr 2023 15:46:39 -0000
+Message-Id: <168122799986.12988.4364303202272288871@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/palmer/linux
-user: palmer
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: dborkman
 changes:
-  - ref: refs/heads/for-next
-    old: d34a6b715a23ccd9c9d0bc7a475bea59dc3e28b2
-    new: 9c2598d43510eff09c658f9c0e0f921ba1871c4b
+  - ref: refs/heads/master
+    old: c4d3b488a90be95f4f9413dc7eae5fc113d15fe9
+    new: eafa92152e2ec6318e32b6ddda9c1d95d161000a
     log: |
-         9c2598d43510eff09c658f9c0e0f921ba1871c4b riscv: entry: Save a0 prior syscall_enter_from_user_mode()
+         eafa92152e2ec6318e32b6ddda9c1d95d161000a bpf: Remove extra whitespace in SPDX tag for syscall/helpers man pages
          
