@@ -1,55 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============5813803626010557880=="
+Content-Type: multipart/mixed; boundary="===============3859144422222692463=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Tue, 11 Apr 2023 18:47:43 -0000
-Message-Id: <168123886385.4776.16801837249229032196@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Tue, 11 Apr 2023 18:47:56 -0000
+Message-Id: <168123887656.4930.5025731560359453036@gitolite.kernel.org>
 
---===============5813803626010557880==
+--===============3859144422222692463==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.4
-    old: 3e5f79723dc3f22fed30ba5a559db11b53b632ae
-    new: a1d68507c1cd3192785d0b9a1a476590c63e9a3c
-    log: revlist-3e5f79723dc3-a1d68507c1cd.txt
+  - ref: refs/heads/for-next
+    old: 6eb230befc822ce6954d86e42b82312306adcdd8
+    new: 97098b7b82c5430a7d5ec8fb1e3c247f3f4345b6
+    log: revlist-6eb230befc82-97098b7b82c5.txt
 
---===============5813803626010557880==
+--===============3859144422222692463==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1681238862 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1681238861-336fa613a200757975984c891b243f3769c5c40c
-
-3e5f79723dc3f22fed30ba5a559db11b53b632ae a1d68507c1cd3192785d0b9a1a476590c63e9a3c refs/heads/asoc-6.4
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmQ1q04ACgkQJNaLcl1U
-h9AzMwf/YEiJnYMWO7B1fjBntCJ4oeZZ445ViuwuSoQ49s11ClScLTRv5cx6aTIn
-k8v/iYINg51jM93UZxR31S/tPsLEhqaN/dWtfc5hMRYcfFk6ivGYFuTSpo32NIkk
-DNdhztBZgBXJgEg238h7xyeuZZarPcb3z4weM1cmDywVuuQlNaWeQ3VUE7qEf5od
-JYkgMBmMkUu8V04W9Nsf6oKiPWlICISrjpGDFZn4MV8E6mYLvfW3+bFbZfMjsROW
-KTCdhIXY2ixrCjFjwyM5uS+eh4HoJEYCVcvogCAQPdzue7cwckZX+wtMulTxqeFa
-NxzFbNQuiteKpDPAUNRr+fIOCwDsXA==
-=tPaQ
------END PGP SIGNATURE-----
-
---===============5813803626010557880==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3e5f79723dc3-a1d68507c1cd.txt
+Content-Disposition: attachment; filename=revlist-6eb230befc82-97098b7b82c5.txt
 
 c7a92574ec03692a057db541db12e41744a862fa Documentation: sound: add description of Intel HDaudio multi-links
 34e582b559c78746c544442b3925554e0665351b ALSA: hda: add HDaudio Extended link definitions
@@ -70,5 +45,6 @@ d56d205857a2f6e10a1047532134321072f758b7 ASoC: SOF: Intel: hda-mlink: add helper
 82958c406da4fec8f818826624c33cf2e62f4147 ASoC: SOF: Intel: hda-mlink: add helper to offload link ownership
 681f27f302ff85ddf3f6e7fd0231059f99c0f26e ASoC: SOF: Intel: hda-mlink: add helper to retrieve eml_lock
 a1d68507c1cd3192785d0b9a1a476590c63e9a3c ASoC: SOF: Intel: hda-mlink: HDaudio multi-link
+97098b7b82c5430a7d5ec8fb1e3c247f3f4345b6 Merge remote-tracking branch 'asoc/for-6.4' into asoc-next
 
---===============5813803626010557880==--
+--===============3859144422222692463==--
