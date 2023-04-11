@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tzungbi/chrome-platform
-Date: Tue, 11 Apr 2023 08:37:07 -0000
-Message-Id: <168120222750.29774.18200154027012057256@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chrome-platform/linux
+Date: Tue, 11 Apr 2023 08:38:00 -0000
+Message-Id: <168120228055.30121.12558308927423856565@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tzungbi/chrome-platform
+repo: pub/scm/linux/kernel/git/chrome-platform/linux
 user: tzungbi
 changes:
-  - ref: refs/heads/for-next
-    old: 4696f24c5655dafc277c778bc7c20812bd72d44b
-    new: 507699fbcba9cd524f41b5f382309888f69df2e0
+  - ref: refs/heads/for-kernelci
+    old: 14bb09b32f433c1c87d96732ad71442d03fd4e73
+    new: 419346a0381034fcc0866be9605108c8612847de
     log: |
-         507699fbcba9cd524f41b5f382309888f69df2e0 platform/chrome: cros_ec_debugfs: fix kernel-doc warning
+         419346a0381034fcc0866be9605108c8612847de platform/chrome: cros_ec_debugfs: fix kernel-doc warning
          
