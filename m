@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5487147984226660522=="
+Content-Type: multipart/mixed; boundary="===============6643587031925614913=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Tue, 11 Apr 2023 16:08:34 -0000
-Message-Id: <168122931476.25858.17243775657768429524@gitolite.kernel.org>
+Date: Tue, 11 Apr 2023 16:08:52 -0000
+Message-Id: <168122933269.26013.12252167561049865056@gitolite.kernel.org>
 
---===============5487147984226660522==
+--===============6643587031925614913==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: dborkman
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: eafa92152e2ec6318e32b6ddda9c1d95d161000a
     new: 255f0e14b9b0f8afe53dd6607c7b8ba489100a66
     log: revlist-eafa92152e2e-255f0e14b9b0.txt
 
---===============5487147984226660522==
+--===============6643587031925614913==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -47,4 +47,4 @@ be983f44274f575e42025130e3c62b8718b0a29a selftests/bpf: Add testing of log_buf==
 054b6c7866c7a2537fffd4aa12d88aac47db60f9 selftests/bpf: Add verifier log tests for BPF_BTF_LOAD command
 255f0e14b9b0f8afe53dd6607c7b8ba489100a66 Merge branch 'bpf-verifier-log-rotation'
 
---===============5487147984226660522==--
+--===============6643587031925614913==--
