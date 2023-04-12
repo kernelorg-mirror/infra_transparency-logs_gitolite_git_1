@@ -1,24 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Wed, 12 Apr 2023 01:13:42 -0000
-Message-Id: <168126202205.4230.15721540395704105618@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/shawnguo/linux
+Date: Wed, 12 Apr 2023 01:34:56 -0000
+Message-Id: <168126329662.19092.172982908244024966@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/shawnguo/linux
+user: shawnguo
 changes:
-  - ref: refs/heads/master
-    old: 5ac7d3b85c2e102316eb2f6f783f521826a6dee8
-    new: 67a056dd7494cefb09a11066384dab071e742243
+  - ref: refs/tags/imx-bindings-6.4
+    old: 030c963e1d9a7b2c732eb5b3ce36769706462182
+    new: bf60d32a3959a786c8371135a44272d76d25a303
     log: |
-         cdd7f3ab66afa9f18f22df4919c13d5a29a65a59 foo
-         59faadf5e05a3f1e23accf04256f6c4379e9187b foo
-         0db6d76c4d9e5896879c0d1803b108bd8aec42d0 foo
-         dfcca90c66b59a027d82ea212adf3cbf72c34e8c foo
-         e7bb3762090ee9495f37d4ca23268860840a3279 foo
-         67a056dd7494cefb09a11066384dab071e742243 foo
+         fcb8b72db5800be7ca97ba7fa419d8aff2ffcaf1 dt-bindings: vendor-prefixes: add chargebyte
+         98896cf432398c8e2c59347190f3efda53bc3670 dt-bindings: arm: fsl: Add chargebyte Tarragon
+         e7a985d50841e43ea1794b3597fd7f646ed95a32 dt-bindings: arm: Add Data Modul i.MX8M Plus eDM SBC
          
