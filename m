@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jpoimboe/linux
-Date: Wed, 12 Apr 2023 19:57:37 -0000
-Message-Id: <168132945701.24031.6059213275935426028@gitolite.kernel.org>
+Date: Wed, 12 Apr 2023 19:58:02 -0000
+Message-Id: <168132948292.24260.8337588842894842911@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/jpoimboe/linux
 user: jpoimboe
 changes:
   - ref: refs/heads/objtool-prefix-orc
-    old: 947e762d452f2ef5c59f56d32f35e6913bdc080f
-    new: 929c36557bbd27560c90e51cfd2e03a366c4e99d
+    old: 929c36557bbd27560c90e51cfd2e03a366c4e99d
+    new: 05bd387b160799b8834bd69d0d3482e9ec2a7eb2
     log: |
-         929c36557bbd27560c90e51cfd2e03a366c4e99d objtool: Generate ORC data for __pfx symbols
+         05bd387b160799b8834bd69d0d3482e9ec2a7eb2 objtool: Generate ORC data for __pfx symbols
          
