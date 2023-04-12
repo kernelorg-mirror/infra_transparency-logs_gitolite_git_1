@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2953962602329581833=="
+Content-Type: multipart/mixed; boundary="===============1042636774298051550=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Wed, 12 Apr 2023 02:02:52 -0000
-Message-Id: <168126497252.5929.17984553037167645828@gitolite.kernel.org>
+Date: Wed, 12 Apr 2023 02:02:57 -0000
+Message-Id: <168126497753.6046.2476488637112574467@gitolite.kernel.org>
 
---===============2953962602329581833==
+--===============1042636774298051550==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-queue
-    old: dbe5ccabf92383d92059b0337c23c1041712ff0d
-    new: c02e18841216aa80a01aacbb5f81ca0e704b452c
-    log: revlist-dbe5ccabf923-c02e18841216.txt
+  - ref: refs/heads/6.4/scsi-queue
+    old: 882f4adac9a8411ba9993810132add18896b82c1
+    new: dc70c9615c067dbc34a1af736477f7d2b7f75319
+    log: revlist-882f4adac9a8-dc70c9615c06.txt
 
---===============2953962602329581833==
+--===============1042636774298051550==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1681264964 -0400
+pusher 75C5DE3D 1681264976 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1681264964-8b970a55e8a55e3967985715a13f768a27f6f561
+nonce 1681264975-39971ca522f110b1916cc5f27683e0c3fdfd0f71
 
-dbe5ccabf92383d92059b0337c23c1041712ff0d c02e18841216aa80a01aacbb5f81ca0e704b452c refs/tags/mkp-scsi-queue
+882f4adac9a8411ba9993810132add18896b82c1 dc70c9615c067dbc34a1af736477f7d2b7f75319 refs/heads/6.4/scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmQ2EUQACgkQ7ulgGnXF
-3j0k8A/8D4zsuehBMbOm1Me3sU4CC7mZQYGfKOplI5Y1bPZZeL8A4dwlHamiFmVM
-gN5R++Dter7HsAQmQrI7GJxBxepS0jvWLKf/QEVveb/85em8FRV5Cdbey3W9Zv7e
-1h3Y8ezUO/OseAuh8eewL+enqpbRDBcXnsY3WqEqd5QIZrk7Swm457e8plpUg5ni
-FJ7a6MHBGHnzbtRT8zJ9xlripiiatIRef9DEoCARFTddrhqhW7qTPp0QcNtTc85v
-EbOOSMe2pR8SNhVGw5mBq/6yK/vjgkhbSOG0utknNbx8YCz5idgy+vg7xdeiD33E
-0SXRw5j79T5Wfw+kXYIJ+wH03rC4bW2HdcKEcMKwVfVkg5GtkUoK2lKENTJIEvem
-RJfU3nJ9ukqy/P9s2ZD0rKWy5/2EbwzQ0uhz2Shd3WrKyqW36+Q8ydCUucgVRZdW
-IBPNOkbf7JXKTOK+MHTVvYI4o8PgfRJcDtYr8N0AHcnMrFfoATCiJpdky12lHgvv
-0nqwA9oZYmoFL9ZVi2kB8PeGPGqh6LcF1pGV/1iSGNZytA9i0v9SxQjlqeEky0Wg
-HpU/kYK67i7xybjMQV76PehYvz8rdA5a+pvtbJinQFW3bOD6os+uEh7H48smbr32
-tXX7XNZeh5bTau0yS+94ngX9gBY8yGbcXpWn3K+XmTQN5iOeLRI=
-=9S2l
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmQ2EVAACgkQ7ulgGnXF
+3j1baw//Z9FGE0HER8q30J5+F/7fupM9fIhnqUjVpmiPKm+2df97M999xLCYUnFU
+MhMH9ulDgd/uPcfZfEfBWyE+LvpIOHSz4xc3rxgAVV+mGo4Kqo0BHhXS4yEveFtf
+3b8UUd08eBF0Dw2SH9Als03WYu+YZZ+SZfYgnFUKjCcgKyYCF/dAqgjaCaserfH1
+ZYgGfUqZWJ3xE+wJMSDCseLeP/ifE9nbSqtIl0VuWcXdZ9rUmimM1K2MywZuW80G
+7HAa74su2Gbw5E4d9XWfG4SUMkkdxz3nYLvTNscGF85hEDYmtaQd+pCf0WJeRkTr
+fE1rX/BgADQkxtEaSs+ElSRRlle5/7zhXUqmY/pmXwy9ru/27NU8/ubvbWeHDvIA
+/9D4gafNHhqswnROLawrbaJfbcYkvviVTIgi/cYX8Bi/nLH7zjY5kNMUXWxUefGC
+F9avhA9fUAq9YvwK+9g4Cyv4E3/7+oY5KTdFX99P+VehP6ay5M+1d/+yegljq+9I
+0T0eHF5TMPqbT7AYnEnAUUY5QIC//FHvWs6PPaER+9twSYi6UNTUN6jBH8wI3Auc
+DHcQhaIOs5fIIMOh9ny8TaVu/rb1aI2N/m+m1OYVzuafOhpzzV9eeyAd77SHlIEu
+cy8JOXcbmYeMFaMhtGD/RGTLZhF1tbtE8cori1WPENQNjMN0iiY=
+=WQOq
 -----END PGP SIGNATURE-----
 
---===============2953962602329581833==
+--===============1042636774298051550==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-dbe5ccabf923-c02e18841216.txt
+Content-Disposition: attachment; filename=revlist-882f4adac9a8-dc70c9615c06.txt
 
 6cc55c969b7ce8d85e09a636693d4126c3676c11 scsi: target: iscsi: Fix an error message in iscsi_check_key()
 877b03795fcf29ff2e2351f7e574ecc9b9c51732 scsi: qla2xxx: Add option to disable FC2 Target support
@@ -122,4 +122,4 @@ a0473bf31df5bf2da7ecb50023c129659ce0a835 scsi: scsi_debug: Use scsi_block_reques
 f1437cd1e535c5d5cc9f6e5bfdfc9b1cd3141bc4 scsi: scsi_debug: Drop sdebug_queue
 dc70c9615c067dbc34a1af736477f7d2b7f75319 Merge patch series "Fix shost command overloading issues"
 
---===============2953962602329581833==--
+--===============1042636774298051550==--
