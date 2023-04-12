@@ -1,24 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Wed, 12 Apr 2023 20:21:25 -0000
-Message-Id: <168133088517.8590.3989303457923191192@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jpoimboe/linux
+Date: Wed, 12 Apr 2023 20:30:05 -0000
+Message-Id: <168133140502.14348.1199670254054307873@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/man-pages/man-pages
-user: alx
+repo: pub/scm/linux/kernel/git/jpoimboe/linux
+user: jpoimboe
 changes:
-  - ref: refs/heads/master
-    old: 121c8de01732bc36daea563edf5764bd3f0f8720
-    new: bc15c1d7b6e8ab424f8873b8c2dfb5c6eda124a9
+  - ref: refs/heads/objtool/queue
+    old: dc8d96d2968e86e480ab2f4102a09d2f326e5d10
+    new: 17bd0594750a4a2198ec0b007d902a47409de6c9
     log: |
-         254fe38b229dd37f9128fa39d4e8a29d40433388 dist.mk, version.mk: Create reproducible tarballs
-         69ad95988f40648ea21d96f248ea54ab7ca082fa *.mk: dist, dist-lz: Create tarballs compressed with lzip(1)
-         b220bc5b0bcc73904715f387bca67d3ca7dd6e56 *.mk: $Z: Support installing lzip(1) compressed pages
-         c2fffefba4f2834ef337903178978207f15f5f9f *.mk: Add *FLAGS variables for compression commands
-         db5795531c592b7778e8155a495041a1f93fe07d *.mk: $Z: Support installing xz(1) compressed pages
-         bc15c1d7b6e8ab424f8873b8c2dfb5c6eda124a9 Makefile: tfix
+         0da98e389519aeeddffd7087a08c06eb16ff4937 objtool: Separate prefix code from stack validation code
+         052542950e45cc12e1ca3cb76372d9a5641007df x86/linkage: Fix padding for typed functions
+         17bd0594750a4a2198ec0b007d902a47409de6c9 objtool: Generate ORC data for __pfx code
          
