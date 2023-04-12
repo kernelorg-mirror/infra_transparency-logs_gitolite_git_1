@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4651884169258549887=="
+Content-Type: multipart/mixed; boundary="===============2833896478763449352=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-dt
-Date: Wed, 12 Apr 2023 09:08:01 -0000
-Message-Id: <168129048176.30557.2490472596132070528@gitolite.kernel.org>
+Date: Wed, 12 Apr 2023 09:12:00 -0000
+Message-Id: <168129072064.968.3655353797606963913@gitolite.kernel.org>
 
---===============4651884169258549887==
+--===============2833896478763449352==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/krzk/linux-dt
 user: krzk
 git_push_cert_status: Y
 changes:
-  - ref: refs/heads/next/qcom-pinctrl
-    old: fe15c26ee26efa11741a7b632e9f23b01aca4cc6
-    new: 152674ab2e98bfd8677117314a77d223a2a1bedf
-    log: revlist-fe15c26ee26e-152674ab2e98.txt
+  - ref: refs/heads/for-next
+    old: efb75299863e1fc241a5a69f622b4f71d71494a6
+    new: 936f3b6478b7b044b3ac870bc125faa8a82d3c3b
+    log: revlist-efb75299863e-936f3b6478b7.txt
 
---===============4651884169258549887==
+--===============2833896478763449352==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1681290476 +0200
+pusher krzk@kernel.org 1681290719 +0200
 pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-dt.git
-nonce 1681290476-c78832fdfd6a3edde67efb9f8b49a66b6c66700e
+nonce 1681290718-dc59ebbc8bf0523f261aa129a8cfcdeb909b8d76
 
-fe15c26ee26efa11741a7b632e9f23b01aca4cc6 152674ab2e98bfd8677117314a77d223a2a1bedf refs/heads/next/qcom-pinctrl
+efb75299863e1fc241a5a69f622b4f71d71494a6 936f3b6478b7b044b3ac870bc125faa8a82d3c3b refs/heads/for-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmQ2dOwQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD18XZD/0XUYRjP8uzSion/XBwaDCjRVD6wOlOL9cj
-0lYZhAFIGyhC18mKhArPElrRWpjrVzNFfxv7POInFhu7Lmixqcvg5eKuDgcrvMJF
-4VQMWwv3Ca9N76ZymDq3YlDZbSaptV3Du7NKJo8lfu4tLo6S2OLewCqb/Cb+05g1
-pVCPh2wSs1ngNFdFy5VeJgLU4NjnstgrAJ2W4SlWnBgB0aeoU/AGOKs/Eai3h5fg
-M36jSabVbVN8eVcIwkS1dy5mJKpcadAyEihsqwPmDNH4eQvIFinPCBOPJVyq1Ces
-o7o75IkHVComS7SaJA7OT4RadPfGw6Blv8N4KMtgKLa0Qq3fXjDxQ0lujaJrVu2+
-bMLqtBdV0Ffcbc/Q1jR43tdY2EOjVckFFi6uM/ZUkBnymxHrQtpG7S3JOJAwLAKK
-JibzgagAVBRJ4YWdvO46eJeJJvLMvQf+1kzpv221M54eFY6+lv/RFPEZ3ingJPqj
-StjzBI4g22tLBtiQwKAPxxLr37+pCxh2okTdIeMbxxSThFoL9cP/u450B/eE6HL7
-m2rDW9nlcNFUYyDsPSmjy0hi6Frrf934YZc5W1doDOCtu0PDPLD7njpRrPEeBCVh
-9MY1uM1b2TedivQ0o/KWwJ1wu+OY6GQ2ulmvZhnCDueLonypuy7xXJ5lS53XhppH
-K+KezV6cGQ==
-=DShR
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmQ2dd8QHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD11HfD/9VCuKqQwB4ekT0ZZNOTYmvplf50cKmOgQc
+m8wMATaDDzXKsSAmhr70WLyeD0F/iaZ50OswMGKhhuRv/PF4hcJwsDbUPiyNrDgw
+pIPDi5hV/jhlsz24mQUwcQvGOjapcuyqvfLgYHPYxehdfpTbTUF3BU3ZvB48WcQx
+sn+VXoMW+q2o2aWxDa58L+VcI206yuolguVPPnhv/Ph+CguubQXfkfWiLlv+KPQ7
++IZ3unPPFXssSD1OCuKjyNRXxq997sVV9NFthLZI1BZPUllYsXkBpnPGzIHOKtHK
+lR4MqRXZdn2obWTEkzh4F1FYa8231VWAcSSbZg9ietKH82KE3Q93AHrS3A8xEfNS
+chd9PK9s7otglKtHfR7F8KlESi4MbaXvfrwpc0jAfs/b7mk0dzfAaelO2o7Tg6Zu
+pQsowk+riZuCGj9R5mKckkjGTi16PmuopLVfHFGG/zZFMWWLHtnBIHNQoLVT+WHm
+eas+1ACIsVcHaY7c5icvRgLKORF79qaiOxkyiWPGjNitdlWnwf0tv9Z0rIYpT3mB
+3/V6dOIJzQ2xe/uhy6BlfieQmrpjy58JW2SXctFpXSCGhgzGz8A/DBXUh6bFQDvE
+dVT5Dh2uFd2KJ88INnhXNT5sDJMm8zbATBK7vkupScILhMhL4X+tiLNtHchKSCUm
+l+c4/lUVgA==
+=CN0K
 -----END PGP SIGNATURE-----
 
---===============4651884169258549887==
+--===============2833896478763449352==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fe15c26ee26e-152674ab2e98.txt
+Content-Disposition: attachment; filename=revlist-efb75299863e-936f3b6478b7.txt
 
 2cf599ed720e353c1a4e7d7932d4252ce30360dd dt-bindings: pinctrl: qcom,ipq5332-tlmm: simplify with unevaluatedProperties
 b64e16983f8cfc9cdf8662f04f762a3e8498fcb0 dt-bindings: pinctrl: qcom,ipq6018: simplify with unevaluatedProperties
@@ -93,5 +93,6 @@ ae4331560778a21ead4e910e3c3aa2516533f902 dt-bindings: pinctrl: qcom,sm6350-tlmm:
 a3c355b59bfc1f33be343b581d1a4953fc802605 dt-bindings: pinctrl: qcom,sm8350-tlmm: simplify with unevaluatedProperties
 ede4773a2fa9d380bc32e027710b874cce0dbc69 dt-bindings: pinctrl: qcom,sm8450-tlmm: simplify with unevaluatedProperties
 152674ab2e98bfd8677117314a77d223a2a1bedf dt-bindings: pinctrl: qcom,sm8550-tlmm: simplify with unevaluatedProperties
+936f3b6478b7b044b3ac870bc125faa8a82d3c3b Merge branch 'next/qcom-pinctrl' into for-next
 
---===============4651884169258549887==--
+--===============2833896478763449352==--
