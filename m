@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4274005196770392663=="
+Content-Type: multipart/mixed; boundary="===============8823610010887288807=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Wed, 12 Apr 2023 22:29:23 -0000
-Message-Id: <168133856304.27122.4365633827159646159@gitolite.kernel.org>
+Date: Wed, 12 Apr 2023 22:29:31 -0000
+Message-Id: <168133857169.27270.15225601527124102838@gitolite.kernel.org>
 
---===============4274005196770392663==
+--===============8823610010887288807==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
-  - ref: refs/heads/perf-tools-next
+  - ref: refs/heads/perf/core
     old: e013733612854f446fae9193a42addfe7a926b9c
     new: 9efe423e4387893498e11c75207bc9a1c9121246
     log: revlist-e01373361285-9efe423e4387.txt
 
---===============4274005196770392663==
+--===============8823610010887288807==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -57,4 +57,4 @@ eab5051788f6111adb88268a784af0c981616579 perf top: Expand the range of multithre
 b277851417e0149aff5e6986e1ad6e2d8054e4a6 libperf: Add a perf_cpu_map__set_nr() available as an internal function for tools/perf to use
 9efe423e4387893498e11c75207bc9a1c9121246 perf pmu: Use perf_cpu_map__set_nr() in perf_pmu__cpus_match() to allow for refcnt checking
 
---===============4274005196770392663==--
+--===============8823610010887288807==--
