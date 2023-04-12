@@ -1,57 +1,27 @@
-Content-Type: multipart/mixed; boundary="===============2900435790041442075=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Wed, 12 Apr 2023 08:48:13 -0000
-Message-Id: <168128929332.17516.15329359863752152117@gitolite.kernel.org>
-
---===============2900435790041442075==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Wed, 12 Apr 2023 08:49:16 -0000
+Message-Id: <168128935697.18223.2242312185228688450@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: hansg
 changes:
-  - ref: refs/heads/master
-    old: 17ff9fdbde329838a531388e1d0cfa2bcf6c92c5
-    new: 0e7c380deb84c2023632e0fb00cd21fc256ceab1
+  - ref: refs/heads/for-next
+    old: 4f59630a5ed0a4e7d275bd7e5d253a8f5a425c5a
+    new: 5b309e80f457ebb41770e0122766825a78cfc11b
     log: |
-         eb68030686aad1c20d5f8cec4ceb2e22c8ad0587 5.10-stable patches
-         0e7c380deb84c2023632e0fb00cd21fc256ceab1 5.15-stable patches
+         aec8298c093f052fc8a86f9411b69b23953b0edb platform/x86/amd/pmf: Move out of BIOS SMN pair for driver probe
+         b845772677ea19b8e4c032bc07393ef32de4ee39 platform/x86/amd: pmc: Don't try to read SMU version on Picasso
+         5ec9ee0d464750d72972d5685edf675824e259a1 platform/x86/amd: pmc: Hide SMU version and program attributes for Picasso
+         7abc3618b65304d409d9489d77e4a8f047842fb7 platform/x86/amd: pmc: Don't dump data after resume from s0i3 on picasso
+         9217bd1d7699f34a01b26ba14ff38c1714ce1185 platform/x86/amd: pmc: Move idlemask check into `amd_pmc_idlemask_read`
+         310e782a99c7f16fb533a45d8f9c16defefa5aab platform/x86/amd: pmc: Utilize SMN index 0 for driver probe
+         8d99129eef8f42377b41c1bacee9f8ce806e9f44 platform/x86/amd: pmc: Move out of BIOS SMN pair for STB init
+         336ba968d3e30038c13b03a71f5a672db6c9e303 platform/x86/intel/pmc/mtl: Put GNA/IPU/VPU devices in D3
+         5b309e80f457ebb41770e0122766825a78cfc11b platform/x86: amd: pmc: Remove __maybe_unused from amd_pmc_suspend_handler()
          
-
---===============2900435790041442075==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1681289290 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1681289289-c6c8e4b8837fc152d428981895ae03b3aa9f1018
-
-17ff9fdbde329838a531388e1d0cfa2bcf6c92c5 0e7c380deb84c2023632e0fb00cd21fc256ceab1 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQ2cEobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+e5MP/Ak/HJ0CAPx8tZB/DovP
-nZCV6nt/wNiMG35mAxHR/QIYsW6JlRJggWEIeSjcKHKrNUw5OgD+1MH2Hi/NIjyg
-nb6zhuJBGVyuG6Hewmr1it6tV02F3hGPu9XvQlPnM+HnarsdsZtxQl0P6/uNOrjm
-c6oyBaEmnZOMdX+DgAILQG6Qb0twbmlEvu25UBbQW30xLf9795h9p0jwKb19bccW
-h88GsULCOX2qSOymXDItwkj1fWjyqKtDvp6BuUtfN+g6SjrPowysFp09Aw467S7D
-tqQfu8pZIjH98c9v8TBU6LyOHA5mGJYxpBEpmb8DL/au16VzC0MV4Ax72CzdyamK
-g7ziKkpRH5JMlaq/4ZmyXwXnSCZRaQTdYL3lZTywWoMU4tFHpTapSPBKbJilgoWV
-6uKeh/ukAs7dlBoirMfM11oqLevaQRSOjcHTDVhXtmhsjsfgdjwgMg2XCF+UchjD
-7A6rcHnluN4AiT131/X/Zcn+ccv8gTimLH+BEhBzwL2iUxWgFijF8C1NbM1QDNIr
-xbRSNGgNgL1ftpA/BS3aSzjd/XN/uDBYpGYnwrtgVXQytNUrnP2FVeHr0sUuZO/S
-eG9oEaT4/7DcsAhCkGy8W6zabOrTKHPp4sPlRhSr7as09I+njvYz8W9AlVhr25Is
-Md3TK/ct5FL/eWRVN+2fCqao
-=DQrE
------END PGP SIGNATURE-----
-
---===============2900435790041442075==--
