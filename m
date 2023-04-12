@@ -1,21 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/fsverity/linux
-Date: Wed, 12 Apr 2023 02:23:44 -0000
-Message-Id: <168126622466.19990.14716670936891736888@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
+Date: Wed, 12 Apr 2023 02:33:26 -0000
+Message-Id: <168126680646.26017.5574350198372367065@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/fsverity/linux
-user: ebiggers
+repo: pub/scm/linux/kernel/git/xiang/erofs-utils
+user: xiang
 changes:
-  - ref: refs/heads/for-next
-    old: 095936cb2638a174beb8cb9e28067e2dd34a1df5
-    new: 04839139213cf60d4c5fc792214a08830e294ff8
+  - ref: refs/heads/experimental
+    old: 6decd621cfd54d5d4a4643dd802ac0c61b2833e1
+    new: bdfc983f676a1969ac32b0de901075e534e12f86
     log: |
-         8eb8af4b3df5965dc65a24a32768043f39d82d59 fsverity: use WARN_ON_ONCE instead of WARN_ON
-         39049b69ec9fc125fa1f314165dcc86f72cb72ec fsverity: explicitly check for buffer overflow in build_merkle_tree()
-         04839139213cf60d4c5fc792214a08830e294ff8 fsverity: reject FS_IOC_ENABLE_VERITY on mode 3 fds
+         d3e7bc1e2c5b7ba4a579fe8d2b76bafc2242ff37 erofs-utils: lib: export packedfile APIs
+         d96c909640fab43e445ed921a72362c3ebb66f10 erofs-utils: introduce on-disk format for long xattr name prefixes
+         72fb315654f65e6988eeff27c65940f614d3cf67 erofs-utils: build xattrs upon extra long name prefixes
+         bdfc983f676a1969ac32b0de901075e534e12f86 erofs-utils: introduce tarerofs
          
