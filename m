@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/abelvesa/linux
-Date: Wed, 12 Apr 2023 12:46:45 -0000
-Message-Id: <168130360551.28628.8077034496494331774@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kvmarm/kvmarm
+Date: Wed, 12 Apr 2023 12:55:15 -0000
+Message-Id: <168130411553.2214.10758208555402791771@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/abelvesa/linux
-user: abelvesa
+repo: pub/scm/linux/kernel/git/kvmarm/kvmarm
+user: maz
 changes:
-  - ref: refs/heads/qcom/gdsc/hw-ctrl
-    old: 2b20d3528740494cc6db40d4bc8ad623355d326d
-    new: 99607ddb95c4a73c60761030a573b242bd729f72
+  - ref: refs/heads/next
+    old: df706d5176fdd92cdfe27ee6ec4389e4cff18bed
+    new: 3c049bb547bfb49e27541ef10e6c6bbbc6684d8f
     log: |
-         99607ddb95c4a73c60761030a573b242bd729f72 media: venus: pm_helpers: Switch domains to back and forth to hwmode
+         49e5d16b6fc003407a33a9961b4bcbb970bd1c76 KVM: arm64: vgic: Don't acquire its_lock before config_lock
+         3c049bb547bfb49e27541ef10e6c6bbbc6684d8f Merge branch kvm-arm64/lock-inversion into kvmarm-master/next
          
