@@ -1,27 +1,55 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/shawnguo/linux
-Date: Wed, 12 Apr 2023 01:36:27 -0000
-Message-Id: <168126338700.21190.13456965567001925443@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============1666259320111542111=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
+Date: Wed, 12 Apr 2023 02:02:23 -0000
+Message-Id: <168126494357.5566.14844086558119823451@gitolite.kernel.org>
+
+--===============1666259320111542111==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/shawnguo/linux
-user: shawnguo
+repo: pub/scm/linux/kernel/git/mkp/scsi
+user: mkp
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-next
-    old: 03adbea9c29264890566e109da27e8e818b5df32
-    new: 159d28f66699094d3b9dd65a621ae7834d3f8134
+  - ref: refs/tags/mkp-scsi-fixes
+    old: f6a215a417cd5dc00ed86756000e6ae654a9d20f
+    new: 8fdf043ca01f2dd1fac9b1348dda76ba435458de
     log: |
-         fcb8b72db5800be7ca97ba7fa419d8aff2ffcaf1 dt-bindings: vendor-prefixes: add chargebyte
-         98896cf432398c8e2c59347190f3efda53bc3670 dt-bindings: arm: fsl: Add chargebyte Tarragon
-         e7a985d50841e43ea1794b3597fd7f646ed95a32 dt-bindings: arm: Add Data Modul i.MX8M Plus eDM SBC
-         894b79e1ffc4186926fc8f99ffe053a20dc94fe2 Merge branch 'imx/drivers' into for-next
-         708f13c9bac4a51ca426f5e0eb21a2a2a9a906b7 Merge branch 'imx/soc' into for-next
-         0fd1e4bfcf174661f5e2909af9ee5fb3805fd2e3 Merge branch 'imx/bindings' into for-next
-         1b29f2d7ef58a2b9c8502e58e627c21e864c8b3f Merge branch 'imx/dt' into for-next
-         fbb6cc0cf9e21994470a3670b26e075c2b32209a Merge branch 'imx/dt64' into for-next
-         159d28f66699094d3b9dd65a621ae7834d3f8134 Merge branch 'imx/defconfig' into for-next
+         c8e22b7a1694bb8d025ea636816472739d859145 scsi: ses: Handle enclosure with just a primary component gracefully
          
+
+--===============1666259320111542111==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher 75C5DE3D 1681264930 -0400
+pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
+nonce 1681264930-7a082272a7d2c962a82c119654289ca702638c7f
+
+f6a215a417cd5dc00ed86756000e6ae654a9d20f 8fdf043ca01f2dd1fac9b1348dda76ba435458de refs/tags/mkp-scsi-fixes
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmQ2ESIACgkQ7ulgGnXF
+3j3I2A//Y0A80sJC9pGik+YnK1uxwqWt0XAikU+RfO6AJGvt0SCbOq3ke4e6BVrG
+cv0TQ5B/zRYH8sDYPxw8ibJ8PpHunbSbMl6B+eyxIeaiyntjqNH7zie9+XOSqshb
+BYBLCuXCnqWS0sg00aEMObJgH5P/BWF7Q/50lJJjZ/tsZxUswua3yTvVMHfiXw6j
+9HbOfC6VhzYVhgouiRgvXi5lhUyM2ejDYX0QDPogfPamKZrf1f7b6CPbmHfEVEdq
+Yu+psNs2LClFkbkQFXtOGfnCuwUfc/1uUJM0QjAoiVztGBanH4BDUYXjuKUcauh2
+xJfa2tfOmAlUeyRXckjwbulRfYUzeM+tnnpkzlIWMPqRjNdtdR/W88J4i0z6eadd
+AsKUVio6TXbFMdwSNOQZisJsOhHvG88hcwtQtYt1zDEOsvrEA4qic6hkHI21uufG
+icWS9c5nH2lcv5xAFjApg1J/hWBdZdQg6yHFsyaY9uZJxDFa3FGDmK7NTegIKiaB
+T+6/D4lbRJL9gXHqJL54tbUPLwuYHpHwAN6rO7bz405mJUwz2dD9tTLSpTIsV7Ps
+2A624dWrrUL7Q+quT8G8+8Ezqz0oAhdSLkq82FlhaAWkAalq6eFlqvOU7PnH7h7/
+X0fDENOvfZvogwVupLh1ipqKfVGQseYWEcnpDlVjoseqjSOR9SA=
+=oDDJ
+-----END PGP SIGNATURE-----
+
+--===============1666259320111542111==--
