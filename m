@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 13 Apr 2023 20:33:06 -0000
-Message-Id: <168141798663.29353.12708581317580203420@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mcgrof/linux
+Date: Thu, 13 Apr 2023 21:04:39 -0000
+Message-Id: <168141987950.17493.8955417015022845865@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/mcgrof/linux
+user: mcgrof
 changes:
-  - ref: refs/tags/net-6.3-rc7
-    old: 0000000000000000000000000000000000000000
-    new: f7adc8c3ed0bc4e36d2edc2b97594d07131c46ef
+  - ref: refs/heads/modules-next
+    old: 560db7ccf96dda75592c6d2a604c1e296104fe7a
+    new: b4aff7513df323553de714dcf7b54e896577be1f
+    log: |
+         b4aff7513df323553de714dcf7b54e896577be1f scripts/gdb: use mem instead of core_layout to get the module address
+         
