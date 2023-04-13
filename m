@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Thu, 13 Apr 2023 03:46:38 -0000
-Message-Id: <168135759824.19819.5653282643458701536@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
+Date: Thu, 13 Apr 2023 03:51:40 -0000
+Message-Id: <168135790020.23029.9820985655823496408@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/ebiggers/linux
+user: ebiggers
 changes:
-  - ref: refs/heads/main
-    old: ed72bd5a6790a0c3747cb32b0427f921bd03bb71
-    new: 37f9b2a6c086bb28487a0682b8098f907861c4a1
+  - ref: refs/heads/fsverity-pending
+    old: b07bfc4a19b119116b213dfca6ce3802b4113204
+    new: dd375927614a47277d82252879e68560293c71b8
     log: |
-         37f9b2a6c086bb28487a0682b8098f907861c4a1 net: ethernet: Add missing depends on MDIO_DEVRES
+         8eb8af4b3df5965dc65a24a32768043f39d82d59 fsverity: use WARN_ON_ONCE instead of WARN_ON
+         39049b69ec9fc125fa1f314165dcc86f72cb72ec fsverity: explicitly check for buffer overflow in build_merkle_tree()
+         04839139213cf60d4c5fc792214a08830e294ff8 fsverity: reject FS_IOC_ENABLE_VERITY on mode 3 fds
+         dd375927614a47277d82252879e68560293c71b8 fsverity: use shash API instead of ahash API
          
