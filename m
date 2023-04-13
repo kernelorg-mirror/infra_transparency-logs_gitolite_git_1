@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/libgpiod/libgpiod
-Date: Thu, 13 Apr 2023 07:54:58 -0000
-Message-Id: <168137249817.21658.6992166090620026187@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 13 Apr 2023 08:11:42 -0000
+Message-Id: <168137350264.576.3801324104660406165@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/libgpiod/libgpiod
-user: brgl
+repo: pub/scm/linux/kernel/git/netdev/net
+user: pabeni
 changes:
-  - ref: refs/heads/master
-    old: 381862780dc34ce63af7c87a3f8c91837619a165
-    new: 0929f3990edda0c84ce4c82156c94989580e88a3
+  - ref: refs/heads/main
+    old: 6417070918de3bcdbe0646e7256dae58fd8083ba
+    new: 32832a2caf82663870126c5186cf8f86c8b2a649
     log: |
-         ff1245f351dd1e8354d23eb972cec3b84c4589d3 bindings: python: add missing test package files to the manifest
-         0929f3990edda0c84ce4c82156c94989580e88a3 bindings: python: bump version to v2.0.1
+         32832a2caf82663870126c5186cf8f86c8b2a649 sctp: fix a potential overflow in sctp_ifwdtsn_skip
          
