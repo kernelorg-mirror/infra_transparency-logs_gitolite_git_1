@@ -1,22 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
-Date: Thu, 13 Apr 2023 21:12:46 -0000
-Message-Id: <168142036625.23098.7847849546705736031@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
+Date: Thu, 13 Apr 2023 22:11:00 -0000
+Message-Id: <168142386087.29462.1000248162494566497@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/palmer/linux
-user: palmer
+repo: pub/scm/linux/kernel/git/robh/linux
+user: robh
 changes:
-  - ref: refs/heads/fixes
-    old: 8d736482749f6d350892ef83a7a11d43cd49981e
-    new: 512836f7ac093c0a6870e25cf2106bc36b9ef151
+  - ref: refs/heads/dt/next
+    old: e62fc18213632ee11e35ea1e954a9156cd67a792
+    new: d1115de6aff33a947adf6645dbdacdd956cc3feb
     log: |
-         99a2896234539f9e56fd8f19960ed523f8def3ac riscv: Move early dtb mapping into the fixmap region
-         becc32e1f2efa45f45289d3c68d73b66786d06e6 riscv: Do not set initial_boot_params to the linear address of the dtb
-         585da9dacc9ca8c08adf4bd10abd6a9e2d39da5e riscv: No need to relocate the dtb as it lies in the fixmap region
-         512836f7ac093c0a6870e25cf2106bc36b9ef151 Merge patch series "Fixes for dtb mapping"
+         a0108409c715dbaad1848aa3dfe1c9502fada272 dt-bindings: irqchip: ti,sci-inta: Add optional power-domains property
+         d1115de6aff33a947adf6645dbdacdd956cc3feb dt-bindings: iommu: Convert QCOM IOMMU to YAML
          
