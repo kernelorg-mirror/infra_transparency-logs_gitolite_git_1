@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Thu, 13 Apr 2023 10:42:34 -0000
-Message-Id: <168138255416.16911.14718499452488255494@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 13 Apr 2023 10:46:55 -0000
+Message-Id: <168138281585.21237.14319456507284276531@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/netdev/net
+user: pabeni
 changes:
-  - ref: refs/heads/fileKLav47
-    old: 0000000000000000000000000000000000000000
-    new: c6c3581a3e178882c8815462ca129e60be50fde8
-  - ref: refs/heads/v2_20230412_rohitner_spi_loopback_testing_framework_updates
-    old: 0000000000000000000000000000000000000000
-    new: 6d87552c0b86b9677d762002082df5f5b7e3c33f
+  - ref: refs/heads/main
+    old: 32832a2caf82663870126c5186cf8f86c8b2a649
+    new: 5b7be2d4fd6eb8bec14c2de96c664e07c7d0bd82
+    log: |
+         5b7be2d4fd6eb8bec14c2de96c664e07c7d0bd82 net: enetc: workaround for unresponsive pMAC after receiving express traffic
+         
