@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Thu, 13 Apr 2023 18:25:00 -0000
-Message-Id: <168141030018.8370.7654409263341271714@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Thu, 13 Apr 2023 18:37:25 -0000
+Message-Id: <168141104544.16747.14682131409708506764@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
-user: broonie
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: dborkman
 changes:
-  - ref: refs/tags/next-20230413
-    old: 0000000000000000000000000000000000000000
-    new: 43932c8dbaa82ae6c195541c5a449803fdf080da
+  - ref: refs/heads/master
+    old: 23acb14af1914010dd0aae1bbb7fab28bf518b8e
+    new: 8c5c2a4898e3d6bad86e29d471e023c8a19ba799
+    log: |
+         8c5c2a4898e3d6bad86e29d471e023c8a19ba799 bpf, sockmap: Revert buggy deadlock fix in the sockhash and sockmap
+         
