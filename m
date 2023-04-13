@@ -1,19 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 13 Apr 2023 07:48:17 -0000
-Message-Id: <168137209736.17834.14425125679953405043@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Thu, 13 Apr 2023 07:51:16 -0000
+Message-Id: <168137227683.20430.18173476919757296531@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: pabeni
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/heads/main
-    old: 59d3efd27c11c59b32291e5ebc307bed2edb65ee
-    new: 6417070918de3bcdbe0646e7256dae58fd8083ba
+  - ref: refs/heads/auto-latest
+    old: f91f9332d78265ccf24c2b773adbb5ff83b95db2
+    new: 10508385e3569369220aea75d7d1a0ab2082d33c
     log: |
-         6417070918de3bcdbe0646e7256dae58fd8083ba net: qrtr: Fix an uninit variable access bug in qrtr_tx_resume()
+         5af507bef93c09a94fb8f058213b489178f4cbe5 x86/ioapic: Don't return 0 from arch_dynirq_lower_bound()
+         10508385e3569369220aea75d7d1a0ab2082d33c Merge branch into tip/master: 'x86/apic'
+         
+  - ref: refs/heads/master
+    old: f91f9332d78265ccf24c2b773adbb5ff83b95db2
+    new: 10508385e3569369220aea75d7d1a0ab2082d33c
+    log: |
+         5af507bef93c09a94fb8f058213b489178f4cbe5 x86/ioapic: Don't return 0 from arch_dynirq_lower_bound()
+         10508385e3569369220aea75d7d1a0ab2082d33c Merge branch into tip/master: 'x86/apic'
          
