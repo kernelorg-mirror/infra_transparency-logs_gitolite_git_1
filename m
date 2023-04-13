@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 13 Apr 2023 12:41:24 -0000
-Message-Id: <168138968497.32551.1666336145295079205@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Thu, 13 Apr 2023 12:43:00 -0000
+Message-Id: <168138978087.679.1465901308498300672@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: tglx
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: dborkman
 changes:
-  - ref: refs/heads/x86/urgent
-    old: 09a9639e56c01c7a00d6c0ca63f4c7c41abe075d
-    new: 775d3c514c5b2763a50ab7839026d7561795924d
-    log: |
-         775d3c514c5b2763a50ab7839026d7561795924d x86/rtc: Remove __init for runtime functions
-         
+  - ref: refs/heads/master
+    old: f2fa721e75208208a4717fce0334faa6211c0c47
+    new: ee5059a64dbad4806a3c11babd0dbed5a5d04ead
