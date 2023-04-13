@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mcgrof/linux
-Date: Thu, 13 Apr 2023 21:04:39 -0000
-Message-Id: <168141987950.17493.8955417015022845865@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
+Date: Thu, 13 Apr 2023 21:12:46 -0000
+Message-Id: <168142036625.23098.7847849546705736031@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mcgrof/linux
-user: mcgrof
+repo: pub/scm/linux/kernel/git/palmer/linux
+user: palmer
 changes:
-  - ref: refs/heads/modules-next
-    old: 560db7ccf96dda75592c6d2a604c1e296104fe7a
-    new: b4aff7513df323553de714dcf7b54e896577be1f
+  - ref: refs/heads/fixes
+    old: 8d736482749f6d350892ef83a7a11d43cd49981e
+    new: 512836f7ac093c0a6870e25cf2106bc36b9ef151
     log: |
-         b4aff7513df323553de714dcf7b54e896577be1f scripts/gdb: use mem instead of core_layout to get the module address
+         99a2896234539f9e56fd8f19960ed523f8def3ac riscv: Move early dtb mapping into the fixmap region
+         becc32e1f2efa45f45289d3c68d73b66786d06e6 riscv: Do not set initial_boot_params to the linear address of the dtb
+         585da9dacc9ca8c08adf4bd10abd6a9e2d39da5e riscv: No need to relocate the dtb as it lies in the fixmap region
+         512836f7ac093c0a6870e25cf2106bc36b9ef151 Merge patch series "Fixes for dtb mapping"
          
