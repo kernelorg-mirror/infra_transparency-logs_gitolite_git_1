@@ -1,23 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Thu, 13 Apr 2023 12:41:23 -0000
-Message-Id: <168138968358.32445.9893120136631768175@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Thu, 13 Apr 2023 12:41:24 -0000
+Message-Id: <168138968497.32551.1666336145295079205@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: dborkman
+repo: pub/scm/linux/kernel/git/tip/tip
+user: tglx
 changes:
-  - ref: refs/heads/for-next
-    old: ee5059a64dbad4806a3c11babd0dbed5a5d04ead
-    new: f2fa721e75208208a4717fce0334faa6211c0c47
+  - ref: refs/heads/x86/urgent
+    old: 09a9639e56c01c7a00d6c0ca63f4c7c41abe075d
+    new: 775d3c514c5b2763a50ab7839026d7561795924d
     log: |
-         e96512ad88d8ba919eb405ea7bf32299c835bce1 xsk: Use pool->dma_pages to check for DMA
-         a177cd4fc4531d33558b23c32d61e5afa7456c14 xsk: Support UMEM chunk_size > PAGE_SIZE
-         79db3a997ace19349a44ba0bda56315381e6acf2 selftests: xsk: Use hugepages when umem->frame_size > PAGE_SIZE
-         cb471e976f3372ab494daa44c02f15821605fdc4 selftests: xsk: Add tests for 8K and 9K frame sizes
-         f2fa721e75208208a4717fce0334faa6211c0c47 Merge branch 'xsk-hugepages'
+         775d3c514c5b2763a50ab7839026d7561795924d x86/rtc: Remove __init for runtime functions
          
