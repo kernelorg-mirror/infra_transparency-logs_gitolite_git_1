@@ -1,33 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============3868785213294156022=="
+Content-Type: multipart/mixed; boundary="===============6397386794885209094=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Thu, 13 Apr 2023 18:21:47 -0000
-Message-Id: <168141010756.7048.2181690137673775290@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Thu, 13 Apr 2023 18:22:07 -0000
+Message-Id: <168141012701.7233.14584376934567438774@gitolite.kernel.org>
 
---===============3868785213294156022==
+--===============6397386794885209094==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: broonie
 changes:
   - ref: refs/heads/master
     old: 7d8214bba44c1aa6a75921a09a691945d26a8d43
     new: e3342532ecd39bbd9c2ab5b9001cec1589bc37e9
     log: revlist-7d8214bba44c-e3342532ecd3.txt
-  - ref: refs/heads/stable
-    old: e62252bc55b6d4eddc6c2bdbf95a448180d6a08d
-    new: de4664485abbc0529b1eec44d0061bbfe58a28fb
-    log: revlist-e62252bc55b6-de4664485abb.txt
-  - ref: refs/tags/next-20230113
-    old: af8a4d7a23cded77f3627474e7698b6328d271c6
-    new: 0000000000000000000000000000000000000000
 
---===============3868785213294156022==
+--===============6397386794885209094==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -991,23 +984,4 @@ ecbeeae04dbd002eaf95dae92bee2c5bb762a0e9 Merge branch 'bitmap-for-next' of https
 062aaf203916f0284817ad84f44a852c50c89b79 Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/jgg/iommufd.git
 e3342532ecd39bbd9c2ab5b9001cec1589bc37e9 Add linux-next specific files for 20230413
 
---===============3868785213294156022==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e62252bc55b6-de4664485abb.txt
-
-50c6b976fb66f623440066f8e44309b4c2f687a0 HID: add HP 13t-aw100 & 14t-ea100 digitizer battery quirks
-dbf56d2fb53b7397002219bd221cfc72aadfdc82 HID: topre: Add support for 87 keys Realforce R2
-91e78b2585348284ef7cdb6a8736fd21389914fe dmaengine: Actually use devm_add_action_or_reset()
-b771baf3988a094c5129b05f1e5eaa383f1ec185 dmaengine: xilinx: xdma: Fix some kernel-doc comments
-7c3650a8007c43bc1a60d8bdb4cdbea3ad9a7dd4 HID: hid-sensor-custom: Fix buffer overrun in device name
-38518593ec55e897abda4b4be77b2ec8ec4447d1 HID: intel-ish-hid: Fix kernel panic during warm reset
-a288fd158fbf85c06a9ac01cecabf97ac5d962e7 dmaengine: apple-admac: Handle 'global' interrupt flags
-6e96adcaa7a29827ac8ee8df290a44957a4823ec dmaengine: apple-admac: Set src_addr_widths capability
-d9503be5a100c553731c0e8a82c7b4201e8a970c dmaengine: apple-admac: Fix 'current_tx' not getting freed
-0bcc4025550403ae28d2984bddacafbca0a2f112 netfs: Fix netfs_extract_iter_to_sg() for ITER_UBUF/IOVEC
-b05e0f5e74e48a3e39066794fc1d7df37507953d Merge tag 'dmaengine-fix-6.3' of git://git.kernel.org/pub/scm/linux/kernel/git/vkoul/dmaengine
-de4664485abbc0529b1eec44d0061bbfe58a28fb Merge tag 'for-linus-2023041201' of git://git.kernel.org/pub/scm/linux/kernel/git/hid/hid
-
---===============3868785213294156022==--
+--===============6397386794885209094==--
