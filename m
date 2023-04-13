@@ -1,67 +1,45 @@
-Content-Type: multipart/mixed; boundary="===============6766119285911169042=="
+Content-Type: multipart/mixed; boundary="===============4188188430385429315=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tglx/devel
-Date: Thu, 13 Apr 2023 12:22:27 -0000
-Message-Id: <168138854713.19817.1435628474516122783@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless-testing
+Date: Thu, 13 Apr 2023 12:28:24 -0000
+Message-Id: <168138890450.23202.5328938113253951647@gitolite.kernel.org>
 
---===============6766119285911169042==
+--===============4188188430385429315==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tglx/devel
-user: tglx
+repo: pub/scm/linux/kernel/git/wireless/wireless-testing
+user: bcopeland
 changes:
-  - ref: refs/heads/hotplug
-    old: d7f9f48885591b7c7551c606d448f3fcb5d200dd
-    new: d48bd313bebb2d7535ee31422539cc698e22dbfa
-    log: revlist-d7f9f4888559-d48bd313bebb.txt
+  - ref: refs/heads/master
+    old: eeadce0457fd2e54fc0faa7eee959e97c3cf9ea8
+    new: 19d6d49eb2d12c7661465e03df9212fb7bfd4d4e
+    log: revlist-eeadce0457fd-19d6d49eb2d1.txt
 
---===============6766119285911169042==
+--===============4188188430385429315==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d7f9f4888559-d48bd313bebb.txt
+Content-Disposition: attachment; filename=revlist-eeadce0457fd-19d6d49eb2d1.txt
 
-e5c0200d3708dd3f60d37edddc0a58d0f58e8bfb x86/smpboot: Cleanup topology_phys_to_logical_pkg()/die()
-09138751c884e16a751f95239cb64216d7c8584b cpu/hotplug: Mark arch_disable_smp_support() and bringup_nonboot_cpus() __init
-497bb49ced09e3faa1de19e0dc844c3a4041c518 x86/smpboot: Avoid pointless delay calibration is TSC is synchronized
-661567dc41f186173f4b641657ead20ca68fc4c2 x86/smpboot: Rename start_cpu0() to soft_restart_cpu()
-842285e9b85eded6a0a7449539871cafa475a9aa x86/topology: Remove CPU0 hotplug option
-5b016b5e6c247f8eb6c0bde74a5885c5be54452b x86/smpboot: Remove the CPU0 hotplug kludge
-8d4507d9b98e0468fbdeca000d52fa11b7426535 x86/smpboot: Restrict soft_restart_cpu() to SEV
-aba19b68d51e1d3ccf2ae6e249941dcdbc3cbb28 x86/smpboot: Split up native_cpu_up() into separate phases and document them
-368bcfd4aa9e5be1529389215632018eb7614c4d x86/smpboot: Get rid of cpu_init_secondary()
-278408d74c880c96cb27497d6aa404295d54ffe2 x86/cpu/cacheinfo: Remove cpu_callout_mask dependency
-a89dcacccdb388793e02ea3a7e64bf198eedc545 x86/smpboot: Move synchronization masks to SMP boot code
-69f6b499e4aed7697bebc9468f32155c9cececa6 x86/smpboot: Make TSC synchronization function call based
-2dbb524cbe0a51110c8fbb336e1b6e6301c4f26a x86/smpboot: Remove cpu_callin_mask
-a2c5add101e507df6e6a1cd58b91269fa2579970 cpu/hotplug: Rework sparse_irq locking in bringup_cpu()
-f6805c00d3b641de0c235fb2a5b53dd761beea2f x86/smpboot: Remove wait for cpu_online()
-2ad31e27057c79ccff2edfc38a25fc3493f3a6cd x86/xen/smp_pv: Remove wait for CPU online
-47f94dc3ff6c853b6a1f09bff781422042f11c4b x86/xen/hvm: Get rid of DEAD_FROZEN handling
-631851b675f5c377c5f4863de30fa08fb394ff59 cpu/hotplug: Add CPU state tracking and synchronization
-30a3182a5111d14d31bab36064e0ed41bec05036 x86/smpboot: Switch to hotplug core state synchronization
-5c9b7cf6ef92f6b8ef5ff77e3e3aef4eefe5d54b cpu/hotplug: Remove cpu_report_state() and related unused cruft
-f87f81ec8dfa0c83407ee9f39dc6e37f16aea245 ARM: smp: Switch to hotplug core state synchronization
-4dda873a8898424fd278a72a16f009a53ea401d9 arm64: smp: Switch to hotplug core state synchronization
-50aefbde85cf1eebc6646a4602171b42d83450af csky/smp: Switch to hotplug core state synchronization
-78ca613e2ad3f023135ea52e8f1b232c2bcb1906 MIPS: SMP_CPS: Switch to hotplug core state synchronization
-177fce6d4cecbf74919ec936a583be115aad0eca parisc: Switch to hotplug core state synchronization
-2b4eb6208be2643900c3ac3d421c5a8ec8e3059f riscv: Switch to hotplug core state synchronization
-3d9bb779f464cc3de97c72d4f607332a272a6e46 cpu/hotplug: Remove unused state functions
-d6f68d57325861270eed78922a4f7396d74419a9 cpu/hotplug: Reset task stack state in _cpu_up()
-87027510c97e6a8b39d0cde554e4d119f6c753fa cpu/hotplug: Provide a split up CPUHP_BRINGUP mechanism
-5ed68f49005b0f6c1fa2c0205f3b3a8918dde226 x86/smpboot: Enable split CPU startup
-7afb55a6a5ba3abc3adec078b265b7ed5f87fdaa x86/apic: Provide cpu_primary_thread mask
-dbb6d3c6ad27487d122e3dff25a8add31eac0adc cpu/hotplug: Allow "parallel" bringup up to CPUHP_BP_KICK_AP_STATE
-00de4315f72e6bdc7537c6e895a2608c334e022e x86/topology: Store extended topology leaf information
-234628b0b69ec29d429e7ccd590156cdc3f5d977 x86/cpu/amd; Invoke detect_extended_topology_early() on boot CPU
-3421f88d6a721e3c490e5a5f09f3c4a79fdf8104 x86/smpboot: Support parallel startup of secondary CPUs
-611152bdcc005e03c5d929baf2e13c5e6d10f90e x86/smpboot/64: Implement arch_cpuhp_init_parallel_bringup() and enable it
-d48bd313bebb2d7535ee31422539cc698e22dbfa x86/smpboot: Allow parallel bringup for SEV-ES
+d8f975594da8dc59b463db9bcc0bec3fd961630b wifi: iwlwifi: mvm: fix the order of TIMING_MEASUREMENT notifications
+fc3c2f0ed86b65dff4b6844c59c597b977cae533 wifi: iwlwifi: fix duplicate entry in iwl_dev_info_table
+2bef4d1fb8b3401d70f28e5d62380a25cefc9d3e wifi: mac80211_hwsim: fix potential NULL deref in hwsim_pmsr_report_nl()
+e3e0ca32cf478e78c579b02cd9c1657d93c97add wifi: mac80211: set EHT support flag in AP mode
+6a92566088b1a37c1cf2c4b6b5fb733dc5bdc6a6 wifi: rtw88: Clear RTW_FLAG_POWERON early in rtw_mac_power_switch()
+65371a3f14e73979958aea0db1e3bb456a296149 wifi: rtw88: sdio: Add HCI implementation for SDIO based chipsets
+b722e5b130bcaa8224c93c6625685d8276742cbd wifi: rtw88: mac: Support SDIO specific bits in the power on sequence
+a5d25f9ff91831f3a87aca96480a8b080546ccb8 wifi: rtw88: main: Add the {cpwm,rpwm}_addr for SDIO based chipsets
+02461d9368c59510ef51cc8a1db1f0f31cfbf9ad wifi: rtw88: main: Reserve 8 bytes of extra TX headroom for SDIO cards
+7d6d2dd326a8a8d32091e9748f3428dd3be68367 mmc: sdio: add Realtek SDIO vendor ID and various wifi device IDs
+095e62dd74276dd801c04d9a2a9afcd922811218 wifi: rtw88: Add support for the SDIO based RTL8822BS chipset
+6fdacb78f7999f5c14d9dae10d47de50959297d9 wifi: rtw88: Add support for the SDIO based RTL8822CS chipset
+b2a777d68434375dc05a6fda5fec34a474bbf21f wifi: rtw88: Add support for the SDIO based RTL8821CS chipset
+968cc82d7858c9bab8fbd395f657309fa19a4a07 Merge remote-tracking branch 'wireless-next/main'
+19d6d49eb2d12c7661465e03df9212fb7bfd4d4e Add localversion to identify builds from this tree
 
---===============6766119285911169042==--
+--===============4188188430385429315==--
