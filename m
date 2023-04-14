@@ -1,21 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
-Date: Fri, 14 Apr 2023 08:44:46 -0000
-Message-Id: <168146188613.5776.4006272252980288055@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
+Date: Fri, 14 Apr 2023 09:13:53 -0000
+Message-Id: <168146363323.25400.14520062745080260354@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs
-user: xiang
+repo: pub/scm/linux/kernel/git/sudeep.holla/linux
+user: sudeep.holla
 changes:
-  - ref: refs/heads/dev-test
-    old: 31efe13d6e20f515c4b96eddd401b2077a5f48da
-    new: e284794b5b92fbaf26efbc2138b1d72bfd90e8be
+  - ref: refs/heads/for-next/cacheinfo
+    old: 99cb4fee57f9036286cc94bdc47ef471ce0fa067
+    new: ef9f643a9f8b62bcbcc51f0e0af8599adc2e17ed
     log: |
-         2556fe24ca3a3160b89f8d0c221446eb525ab950 erofs: fix potential overflow calculating xattr_isize
-         f868832a7cd16ffc90f866d31edcb101896544b4 erofs: sunset erofs_dbg()
-         e284794b5b92fbaf26efbc2138b1d72bfd90e8be erofs: cleanup i_format-related stuffs
+         7a306e3eabf2b2fd8cffa69b87b32dbf814d79ce cacheinfo: Check sib_leaf in cache_leaves_are_shared()
+         cde0fbff07eff7e4e0e85fa053fe19a24c86b1e0 cacheinfo: Check cache properties are present in DT
+         3522340199cc060b70f0094e3039bdb43c3f6ee1 arch_topology: Remove early cacheinfo error message if -ENOENT
+         ef9f643a9f8b62bcbcc51f0e0af8599adc2e17ed cacheinfo: Add use_arch[|_cache]_info field/function
          
