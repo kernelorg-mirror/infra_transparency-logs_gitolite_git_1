@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8633799745515078028=="
+Content-Type: multipart/mixed; boundary="===============3918803014124906821=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Fri, 14 Apr 2023 00:12:50 -0000
-Message-Id: <168143117050.14152.4139395493305952100@gitolite.kernel.org>
+Date: Fri, 14 Apr 2023 00:12:56 -0000
+Message-Id: <168143117652.14276.15267344387540831077@gitolite.kernel.org>
 
---===============8633799745515078028==
+--===============3918803014124906821==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: 8c5c2a4898e3d6bad86e29d471e023c8a19ba799
     new: c2865b1122595e69e7df52d01f7f02338b8babca
     log: revlist-8c5c2a4898e3-c2865b112259.txt
 
---===============8633799745515078028==
+--===============3918803014124906821==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ f1be7b6c165f0d451c3ea2062f506bf5f130bd5e Merge tag 'drm-fixes-2023-04-13' of git
 800e68c44ffe71f9715f745b38fd1af6910b3773 Merge git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 c2865b1122595e69e7df52d01f7f02338b8babca Daniel Borkmann says:
 
---===============8633799745515078028==--
+--===============3918803014124906821==--
