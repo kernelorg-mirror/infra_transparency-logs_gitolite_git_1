@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lee/leds
-Date: Fri, 14 Apr 2023 07:02:25 -0000
-Message-Id: <168145574535.4242.4857664409796834705@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/lee/mfd
+Date: Fri, 14 Apr 2023 07:03:10 -0000
+Message-Id: <168145579068.4582.7249871012401041294@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lee/leds
+repo: pub/scm/linux/kernel/git/lee/mfd
 user: lee
 changes:
-  - ref: refs/heads/for-leds-next
-    old: 22dc3789b737fe29d8f54f0d084047aede5550ad
-    new: c1087c29e96a48e9080377e168d35dcb52fb068b
+  - ref: refs/heads/for-mfd-next
+    old: 045fd3612e77b808ac384e57ec01e3d99c01cf0d
+    new: 9d8d0d98885abba451d7ffc4885236d14ead3c9a
     log: |
-         c1087c29e96a48e9080377e168d35dcb52fb068b leds: tca6507: Fix error handling of using fwnode_property_read_string
+         9d8d0d98885abba451d7ffc4885236d14ead3c9a dt-bindings: mfd: syscon: Add nuvoton,ma35d1-sys compatible
          
