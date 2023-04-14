@@ -1,21 +1,31 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mcgrof/linux
-Date: Fri, 14 Apr 2023 00:16:00 -0000
-Message-Id: <168143136029.18175.11655702562804105244@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Fri, 14 Apr 2023 00:16:06 -0000
+Message-Id: <168143136647.18319.1363891436309855910@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mcgrof/linux
-user: mcgrof
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: ast
 changes:
-  - ref: refs/heads/modules-next
-    old: b4aff7513df323553de714dcf7b54e896577be1f
-    new: 0a3bf86092c38f7b72c56c6901c78dd302411307
-    log: |
-         87e5b1e8f257023ac5c4d2b8f07716a7f3dcc8ea module: Sync code of is_arm_mapping_symbol()
-         987d2e0aaa55de40938435be760aa96428470fd6 module: Move is_arm_mapping_symbol() to module_symbol.h
-         0a3bf86092c38f7b72c56c6901c78dd302411307 module: Ignore L0 and rename is_arm_mapping_symbol()
-         
+  - ref: refs/tags/v6.3-rc1
+    old: 0000000000000000000000000000000000000000
+    new: d0656701c5a27a5a8a3a38bc07d18f2e157e963d
+  - ref: refs/tags/v6.3-rc2
+    old: 0000000000000000000000000000000000000000
+    new: 62f7115b1ddd72766123d3cdc6a0c4330da29f3b
+  - ref: refs/tags/v6.3-rc3
+    old: 0000000000000000000000000000000000000000
+    new: b04d78201ce644e5182e95f1d0bd131b35ec8816
+  - ref: refs/tags/v6.3-rc4
+    old: 0000000000000000000000000000000000000000
+    new: bb81ed6862b864c9eb99447f04d49a84ecb647e5
+  - ref: refs/tags/v6.3-rc5
+    old: 0000000000000000000000000000000000000000
+    new: 83af7b1468c0dca86b4dc9e43e73bfa4f38d9637
+  - ref: refs/tags/v6.3-rc6
+    old: 0000000000000000000000000000000000000000
+    new: ab3affb8ed84f68638162fe7e6fd4055e15bff5b
