@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Fri, 14 Apr 2023 14:08:58 -0000
-Message-Id: <168148133867.12998.8577099058925741490@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
+Date: Fri, 14 Apr 2023 14:09:14 -0000
+Message-Id: <168148135480.13166.10333497848561423387@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/peterz/queue
-user: peterz
+repo: pub/scm/linux/kernel/git/hid/hid
+user: jikos
 changes:
-  - ref: refs/heads/sched/urgent
-    old: 91dcf1e8068e9a8823e419a7a34ff4341275fb70
-    new: ab21c40bec64d1f870208f975791a644f1320fab
+  - ref: refs/heads/for-6.4/wacom
+    old: 08a46b4190d345544d04ce4fe2e1844b772b8535
+    new: bea407a427baa019758f29f4d31b26f008bb8cc6
     log: |
-         60a83cc8f2dcd49c923fde0ceb50768bd026f8a6 sched/rt: Fix bad task migration for rt tasks
-         ab21c40bec64d1f870208f975791a644f1320fab sched/clock: Fix local_clock() before sched_clock_init()
+         7fc68653fc2e1a3457bb886e10164119ac48734f HID: wacom: Lazy-init batteries
+         bea407a427baa019758f29f4d31b26f008bb8cc6 HID: wacom: generic: Set battery quirk only when we see battery data
          
