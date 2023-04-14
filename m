@@ -1,22 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/thierry.reding/linux-pwm
-Date: Fri, 14 Apr 2023 10:10:52 -0000
-Message-Id: <168146705271.13861.13618295905048283583@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Fri, 14 Apr 2023 10:20:54 -0000
+Message-Id: <168146765442.21361.5752756301930414516@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/thierry.reding/linux-pwm
-user: thierry.reding
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: davem
 changes:
-  - ref: refs/heads/for-next
-    old: d0a4564bd024eaa81cab8c7255e7c44230bdd8a2
-    new: 247ee6c780406513c6031a7f4ea41f1648b03295
+  - ref: refs/heads/main
+    old: eaaa4e92397981c65dae7b9a38425b8fa984d674
+    new: c11d2e718c792468e67389b506451eddf26c2dac
     log: |
-         eb411c0cf59ae6344b34bc6f0d298a22b300627e pwm: meson: Fix axg ao mux parents
-         9e4fa80ab7ef9eb4f7b1ea9fc31e0eb040e85e25 pwm: meson: Fix g12a ao clk81 name
-         0af4d704ba8e5ee632b6e65015ffe4d229c1a9a9 pwm: Delete deprecated functions pwm_request() and pwm_free()
-         247ee6c780406513c6031a7f4ea41f1648b03295 pwm: Remove unused radix tree
+         c39ef2130491b2382f2c81774c825527d4bdf4e2 net: Ensure ->msg_control_user is used for user buffers
+         60daf8d40b80ccbd593930235aea9ee82ea8dbc2 net/compat: Update msg_control_is_user when setting a kernel pointer
+         b6d85cf5bd1433c5dd6bf6bb3a176537184c630c net/ipv6: Initialise msg_control_is_user
+         c11d2e718c792468e67389b506451eddf26c2dac Merge branch 'msg_control-split'
          
