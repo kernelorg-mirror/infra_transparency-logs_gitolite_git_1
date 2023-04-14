@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Fri, 14 Apr 2023 16:38:28 -0000
-Message-Id: <168149030832.18641.2226207675656764265@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/matthias.bgg/linux
+Date: Fri, 14 Apr 2023 16:40:44 -0000
+Message-Id: <168149044448.20927.14492231481624840268@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
-user: snitzer
+repo: pub/scm/linux/kernel/git/matthias.bgg/linux
+user: matthias.bgg
 changes:
-  - ref: refs/heads/dm-6.4
-    old: 3664ff82dae1ef9f14f7763d3dd30565e7ef9e14
-    new: f7995089c508a5a11b0491c7b348d5c07217a4e8
-    log: |
-         13f6facf3faeed34ca381aef4c9b153c7aed3972 dm: allow targets to require splitting WRITE_ZEROES and SECURE_ERASE
-         f7995089c508a5a11b0491c7b348d5c07217a4e8 dm: unexport dm_get_queue_limits()
-         
+  - ref: refs/tags/v6.3-next-dts64
+    old: 0000000000000000000000000000000000000000
+    new: 12b637559ce5e6dedce4f532d65b374c0911b4b7
