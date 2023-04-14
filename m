@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Fri, 14 Apr 2023 17:55:52 -0000
-Message-Id: <168149495235.7383.4754527485699184907@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Fri, 14 Apr 2023 18:44:19 -0000
+Message-Id: <168149785999.4795.615140137499294090@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
-user: snitzer
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
-  - ref: refs/heads/for-next
-    old: 3664ff82dae1ef9f14f7763d3dd30565e7ef9e14
-    new: f7995089c508a5a11b0491c7b348d5c07217a4e8
+  - ref: refs/heads/master
+    old: 42b78a359e12f7b9ae42cc204573a678e1d6a8d3
+    new: 525f5368a12ef5f8cf6f22e8249b9854452204c2
     log: |
-         13f6facf3faeed34ca381aef4c9b153c7aed3972 dm: allow targets to require splitting WRITE_ZEROES and SECURE_ERASE
-         f7995089c508a5a11b0491c7b348d5c07217a4e8 dm: unexport dm_get_queue_limits()
+         525f5368a12ef5f8cf6f22e8249b9854452204c2 Fri Apr 14 06:43:08 PM UTC 2023
          
