@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mcgrof/linux
-Date: Fri, 14 Apr 2023 04:54:32 -0000
-Message-Id: <168144807292.15344.11367411167916799645@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Fri, 14 Apr 2023 04:57:52 -0000
+Message-Id: <168144827236.17947.16678970345813914908@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mcgrof/linux
-user: mcgrof
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: ast
 changes:
-  - ref: refs/heads/20230413-module-alloc-opts
-    old: 0000000000000000000000000000000000000000
-    new: b40c1a39dfb04b688a41f60434d18da848d02cf3
+  - ref: refs/heads/master
+    old: 1cf3bfc60f9836f44da951f58b6ae24680484b35
+    new: 4a1e885c6d143ff1b557ec7f3fc6ddf39c51502f
+    log: |
+         4a1e885c6d143ff1b557ec7f3fc6ddf39c51502f samples/bpf: sampleip: Replace PAGE_OFFSET with _text address
+         
