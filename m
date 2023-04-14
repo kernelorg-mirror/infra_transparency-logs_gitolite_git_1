@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Fri, 14 Apr 2023 12:33:31 -0000
-Message-Id: <168147561147.12858.9937455246747013515@gitolite.kernel.org>
+Date: Fri, 14 Apr 2023 12:34:09 -0000
+Message-Id: <168147564939.13103.15890816236254556341@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/soc/soc
 user: arnd
 changes:
-  - ref: refs/heads/renesas/drivers-2
+  - ref: refs/heads/k3/drivers
     old: 0000000000000000000000000000000000000000
-    new: fc187a46a8e682f0f1167b230792b88de01ceaa0
+    new: a33bfafd99e0d1e33dfe910f751426f298a218b6
