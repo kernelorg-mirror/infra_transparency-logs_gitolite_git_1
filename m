@@ -1,74 +1,60 @@
-Content-Type: multipart/mixed; boundary="===============5314314622409878946=="
+Content-Type: multipart/mixed; boundary="===============3334348588155215642=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Fri, 14 Apr 2023 17:16:11 -0000
-Message-Id: <168149257142.13719.4211216127278906742@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Fri, 14 Apr 2023 17:39:30 -0000
+Message-Id: <168149397058.26898.8858104266193485885@gitolite.kernel.org>
 
---===============5314314622409878946==
+--===============3334348588155215642==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: helgaas
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/next
-    old: be829256e322f688098e5d3afba55ea1c0233e18
-    new: 1fdef2055d8690d6f29d08d6d506bb7fba708488
-    log: revlist-be829256e322-1fdef2055d86.txt
+  - ref: refs/heads/master
+    old: 44149752e9987a9eac5ad78e6d3a20934b5e018d
+    new: 95abc817ab3a5af57cc0b522f72225307fa6333f
+    log: revlist-44149752e998-95abc817ab3a.txt
 
---===============5314314622409878946==
+--===============3334348588155215642==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-be829256e322-1fdef2055d86.txt
+Content-Disposition: attachment; filename=revlist-44149752e998-95abc817ab3a.txt
 
-72a31ff9d71c69ed787b8276bfd033065aae4f89 efi/cper: Remove unnecessary aer.h include
-c441b1e03da6c680a3e12da59c554f454f2ccf5e PCI/EDR: Clear Device Status after EDR error recovery
-774820b362b07b903354470f9372d528b327a3e5 PCI/EDR: Add edr_handle_event() comments
-2542e16c392508800f1d9037feee881a9c444951 PCI: qcom: Fix the incorrect register usage in v2.7.0 config
-39171b33f6523f28c1c1256427e5f50c74b69639 PCI: qcom: Remove PCIE20_ prefix from register definitions
-769e49d87b15c302c9aadd87c7d114cfe7052320 PCI: qcom: Sort and group registers and bitfield definitions
-57eddec8dc30ed968f31664f76548ee8d7c47c5e PCI: qcom: Use bitfield definitions for register fields
-17804668ca545232e94dee5fe87ab3eaf6391cbe PCI: qcom: Add missing macros for register fields
-94ebd232dbc84dfdfbf0c406137a8b2aa8b37a01 PCI: qcom: Use lower case for hex
-383215dd2fd716f151608886ff19bbe1e1a9cf91 PCI: qcom: Use bulk reset APIs for handling resets for IP rev 2.1.0
-5d4ffe5ec5e91c78de51f095673f1ad74438f60a PCI: qcom: Use bulk clock APIs for handling clocks for IP rev 1.0.0
-5329bcc4a1e7dc41fcdffaa55c73b17b527b804f PCI: qcom: Use bulk clock APIs for handling clocks for IP rev 2.3.2
-b699ed9b03de4fbf6eed51dfdec3c437fe3d653c PCI: qcom: Use bulk clock APIs for handling clocks for IP rev 2.3.3
-157fecca3558dd21b33038d6a935e8533c16043d PCI: qcom: Use bulk reset APIs for handling resets for IP rev 2.3.3
-fb0eacb2972e2f330b188e5b22955d020599bf38 PCI: qcom: Use bulk reset APIs for handling resets for IP rev 2.4.0
-656a08820e7b10d5b6dfecdb8035e2c9411b5474 PCI: qcom: Use macros for defining total no. of clocks & supplies
-1f70939871b260b52e9d1941f1cad740b7295c2c PCI: qcom: Rename qcom_pcie_config_sid_sm8250() to reflect IP version
-0f80edf8447d23e9eb07fcdbdec19b431ea7ad89 dt-bindings: PCI: qcom: Add "mhi" register region to supported SoCs
-05f4646409625b45e315ed0c5ab1078445f5ef43 PCI: qcom: Expose link transition counts via debugfs
-606012dddebbc4123d51a2223e2b26ed6c746696 PCI: Fix up L1SS capability for Intel Apollo Lake Root Port
-e8b908146d44310473e43b3382eca126e12d279c PCI/PM: Increase wait time after resume
-e74b2b58ff715ca17bb49c3ad89f665a7150e14b PCI/PM: Drop pci_bridge_wait_for_secondary_bus() timeout parameter
-ad9b9b6e36c920234af6e86982dd48be560385b1 PCI: qcom: Add support for system suspend and resume
-c0e1eb441b1de42500cbc081b8d754caae6b27b1 PCI: qcom: Enable async probe by default
-a4c716706f3f1725ebf578d9c8db63b36b9570e1 dt-bindings: PCI: qcom: Update maintainers entry
-1bc7ae328cedd5fefbda443c70c304fa66963437 dt-bindings: PCI: qcom: Add SDX55 SoC
-e12b6893d2333f08dc108ab045b7744adc198bed dt-bindings: PCI: qcom-ep: Fix the unit address used in example
-7394d0a85d6f847946dfe3f114f4d3f6a3988a36 PCI: qcom: Add support for SDX55 SoC
-1a24edc38dbfa9e77461b5e2bb84441351181574 dt-bindings: PCI: qcom: Add SM8550 compatible
-6276a403c0ff2908a05d1ff4f80f961478baebbd PCI: qcom: Add SM8550 PCIe support
-c025c7e5dbf4706279183c16788fa83001b8331e dt-bindings: PCI: qcom: Document msi-map and msi-map-mask properties
-7b09294f6adb626c7efc0abbbead1d9999af0d00 Merge branch 'pci/aer'
-6d45365f14e15839a353cdd917ec69a15fbba38b Merge branch 'pci/aspm'
-8540f1b652da6c6f41c4f03c11ab3bd293a37b90 Merge branch 'pci/p2pdma'
-20a2d1796ca56de2a75cc70599b31fc6317552e5 Merge branch 'pci/reset'
-d35db3149c5097024b86c8955a6803bb3b3d9c28 Merge branch 'pci/resource'
-6bcaad08ae0d91e712334a38fe6696bfc7f5bf48 Merge branch 'pci/controller/dt'
-1e2b4d79ac4bf8564a923312de58e22ba175dde7 Merge branch 'pci/controller/dwc'
-d132175cfbada2624ad2294fa9516ac24eea5d3b Merge branch 'pci/controller/ixp4xx'
-636273db803eb1888573a5fea2006328f3f164a6 Merge branch 'pci/controller/kirin'
-70a38955d4aa793a6005ed3413ed00f9fd7b02be Merge branch 'pci/controller/layerscape'
-91e0e189f932f62684eb566f241f25ce0bd56cf0 Merge branch 'pci/controller/mt7621'
-ed3fcba1622fdf9b107314fa0f6b809f30e831cb Merge branch 'pci/controller/qcom'
-1fdef2055d8690d6f29d08d6d506bb7fba708488 Merge branch 'pci/controller/rcar'
+30ed9ee9a10a90ae719dcfcacead1d0506fa45ed RDMA/irdma: Do not generate SW completions for NOPs
+b69a6979dbaa2453675fe9c71bdc2497fedb11f9 RDMA/irdma: Fix memory leak of PBLE objects
+8385a875c9eecc429b2f72970efcbb0e5cb5b547 RDMA/irdma: Increase iWARP CM default rexmit count
+e4522c097ec10f23ea0933e9e69d4fa9d8ae9441 RDMA/irdma: Add ipv4 check to irdma_find_listener()
+88c9483faf15ada14eca82714114656893063458 IB/mlx5: Add support for 400G_8X lane speed
+3fe26c0493e4c2da4b7d8ba8c975a6f48fb75ec2 RDMA/erdma: Fix some typos
+6256aa9ae955d10ec73a434533ca62034eff1b76 RDMA/erdma: Update default EQ depth to 4096 and max_send_wr to 8192
+0dd83a4d7756713f81990d6c5547500f212a1190 RDMA/erdma: Inline mtt entries into WQE if supported
+6bd1bca858f1734a75572a788213d1e1143f2f0a RDMA/erdma: Defer probing if netdevice can not be found
+58e84f6b3e84e46524b7e5a916b53c1ad798bc8f RDMA/cma: Allow UD qp_type to join multicast only
+e98e7a82bca2b6dce3e03719cff800ec913f9af7 ALSA: i2c/cs8427: fix iec958 mixer control deactivation
+c17f8fd31700392b1bb9e7b66924333568cb3700 ALSA: hda/sigmatel: add pin overrides for Intel DP45SG motherboard
+f342ac00da1064eb4f94b1f4bcacbdfea955797a ALSA: hda/sigmatel: fix S/PDIF out on Intel D*45* motherboards
+b09c551c77c7e01dc6e4f3c8bf06b5ffa7b06db5 ALSA: emu10k1: fix capture interrupt handler unlinking
+8dd13214a810c695044aa168c0ddba1a9c433e4f ALSA: emu10k1: don't create old pass-through playback device on Audigy
+fb4a624f88f658c7b7ae124452bd42eaa8ac7168 ALSA: firewire-tascam: add missing unwind goto in snd_tscm_stream_start_duplex()
+e959f2beec8e655dba79c5a7111beedae5e757e0 ALSA: hda: patch_realtek: add quirk for Asus N7601ZM
+10b6b4a8ac6120ec36555fd286eed577f7632e3b ACPI: x86: utils: Add Picasso to the list for forcing StorageD3Enable
+117e4e5bd9d47b89777dbf6b37a709dcfe59520f thermal: intel: Avoid updating unsupported THERM_STATUS_CLEAR mask bits
+4654e9f9f43993eb9ce383fa7c88d14b052b8cc3 amd-pstate: Fix amd_pstate mode switch
+05cda427126f30ce3fc8ffd82fd6f5196398d502 ACPI: resource: Skip IRQ override on ASUS ExpertBook B1502CBA
+8eda19cd59cedbfe4ec11aea4bcecabe4c98e9e4 ALSA: hda/realtek: Add quirks for Lenovo Z13/Z16 Gen2
+aca3b0fa3d04b40c96934d86cc224cccfa7ea8e0 RDMA/core: Fix GID entry ref leak when create_ah fails
+6ab6f98fcdc9d4fbe245aa67de03542deea65322 ALSA: hda/hdmi: disable KAE for Intel DG2
+a3babdb7a8f73c3d8965b245fe1b758b87538912 Merge branch 'acpi-x86'
+aee3c14e8659b2d14f417422b7eeb8a1e97ced30 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma
+e251c4231834184a3a2a39b1800e983bb116ac6b Merge tag 'sound-6.3-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
+d0b85e7e60b83348b022441de9047c60ff555bfa Merge tag 'thermal-6.3-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
+4b992ead33cdd47723f606350efcf8a8cae4fe36 Merge tag 'pm-6.3-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
+95abc817ab3a5af57cc0b522f72225307fa6333f Merge tag 'acpi-6.3-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 
---===============5314314622409878946==--
+--===============3334348588155215642==--
