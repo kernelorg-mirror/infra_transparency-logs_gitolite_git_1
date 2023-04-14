@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
-Date: Fri, 14 Apr 2023 12:29:41 -0000
-Message-Id: <168147538112.9722.3498684666745100736@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
+Date: Fri, 14 Apr 2023 12:30:02 -0000
+Message-Id: <168147540291.10874.17153410189683794734@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/johan/usb-serial
-user: johan
+repo: pub/scm/linux/kernel/git/soc/soc
+user: arnd
 changes:
-  - ref: refs/heads/usb-next
-    old: 197b6b60ae7bc51dd0814953c562833143b292aa
-    new: ad813605f77553f5e73cd23913fa7591b0d794f6
-    log: |
-         ad813605f77553f5e73cd23913fa7591b0d794f6 USB: serial: quatech2: remove unused qt2_setdevice function
-         
+  - ref: refs/heads/tegra/firmware-drivers
+    old: 0000000000000000000000000000000000000000
+    new: 8c47b8253f4cfd8b4dbda8c9adc1d0b1d7f3009d
