@@ -1,117 +1,119 @@
-Content-Type: multipart/mixed; boundary="===============6639842626628908362=="
+Content-Type: multipart/mixed; boundary="===============2966073616087868467=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Fri, 14 Apr 2023 13:28:19 -0000
-Message-Id: <168147889922.18743.4815049037641907669@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/powerpc/linux
+Date: Fri, 14 Apr 2023 13:28:46 -0000
+Message-Id: <168147892643.18966.6647937722358284649@gitolite.kernel.org>
 
---===============6639842626628908362==
+--===============2966073616087868467==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/soc/soc
-user: arnd
+repo: pub/scm/linux/kernel/git/powerpc/linux
+user: mpe
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/soc/dt
-    old: 837be1cc222f8f29bb2e39d3bf7ebaa2a80d83b3
-    new: 83f91bb49cbceb8a07b65ff825907378793005d9
-    log: revlist-837be1cc222f-83f91bb49cbc.txt
+  - ref: refs/heads/next-test
+    old: 89954837dc0de437d780a687da646b6e3983b071
+    new: e2fc3a5d89adb5ca4a719942122475bd121c9143
+    log: revlist-89954837dc0d-e2fc3a5d89ad.txt
 
---===============6639842626628908362==
+--===============2966073616087868467==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-837be1cc222f-83f91bb49cbc.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-9aa8727b3b15c4d941353c784f61f49e33513b3e ARM: dts: exynos: align STMPE ADC node name with bindings in P4 Note
-74cbc0e6b2051a604c9bec8c825d83832def0462 ARM: dts: exynos: drop fake align STMPE properties in P4 Note
-704121ff1f6e05bd00ecb1ef2918ac309c18eb45 ARM: dts: exynos: add ports to TC358764 bridge on Arndale
-6c950c20da38debf1ed531e0b972bd8b53d1c11f ARM: dts: exynos: fix WM8960 clock name in Itop Elite
-2beafeafeb4edce6540c37bc2117ea6e21c86d6a ARM: dts: exynos: correct whitespace in Midas
-665b9459bb53b8f19bd1541567e1fe9782c83c4b ARM: dts: s5pv210: correct MIPI CSIS clock name
-cb8d0fcc5024981e1aed2516921f8bfb3476ffa7 ARM: dts: exynos: drop unused samsung,camclk-out property in Midas
-37688852fd6f4fed2b3800a7652be87147137125 ARM: dts: exynos: move MIPI phy to PMU node in Exynos3250
-d237b2270c68032ad3471ca82d1f3581398179c6 ARM: dts: exynos: move MIPI phy to PMU node in Exynos4
-972b567075845a55d525f1ed5d7cd7b6d524afdc ARM: dts: exynos: move DP and MIPI phys to PMU node in Exynos5420
-6dc01bc640b1278f225ed73b891645202be72b55 ARM: dts: exynos: move DP and MIPI phys to PMU node in Exynos5250
-521568cff7065069bfb02b3a9945bac637d2e324 dt-bindings: clock: exynos850: Add Exynos850 CMU_G3D
-284f6dcb50ae7f25167617c89aa2d3f93323ee67 dt-bindings: clock: exynos850: Add AUD and HSI main gate clocks
-017cdefe9dce8b241c3c506ef4cd51e90084e7c1 arm64: dts: exynos: move MIPI phy to PMU node in Exynos5433
-35ade1eb465438cfd16fdc3a4905dd82f658fdce arm64: dts: exynos: Add CMU_G3D node for Exynos850 SoC
-0e9b70c1e3623fa110fb6be553e644524228ef60 riscv: dts: microchip: add mpfs specific macb reset support
-0e84f3493a37d50f2f629dbea670135b8a8ee391 ARM: dts: exynos: fix MCT compatible in Universal C210
-e77da13b8e3626fc6d01287fba7c1eee4ebfe018 riscv: dts: microchip: fix the mpfs' mailbox regs
-c04d7b263d3ff036ca124494c57011c1c274dbe6 arm64: dts: exynos: drop mshc aliases
-5f67124757464d632f0e5288e0ba48e3ff5531a9 arm64: dts: exynos: add mmc aliases
-19f969c0c7388a729ec209ff74590c65a1957aab ARM: dts: stm32: Add coprocessor detach mbox on stm32mp15xx-osd32 SoM
-0fbb60def782c40ac6338e4fed6898b690be50b0 ARM: dts: stm32: drop invalid simple-panel compatible on stm32mp157c-lxa
-1b9f0ec81af0012aae30aa3b4c711ad71d42e246 ARM: dts: stm32: fix spi1 pin assignment on stm32mp15
-4d93b3a974a828a5d330075358d55a6a3e2df2f2 dt-bindings: power: apple,pmgr-pwrstate: Add t8112 compatible
-bbdd33769d319d1e7bb8fec09124a49b3573a2d3 dt-bindings: arm: apple: apple,pmgr: Add t8112-pmgr compatible
-1f21734b14b4cc93d82374108a549b42a7672c4c dt-bindings: watchdog: apple,wdt: Add t8112-wdt compatible
-355d090ecbbc808bcfe21635f5ca7e25ba252846 dt-bindings: arm: cpus: Add apple,avalanche & blizzard compatibles
-93b415b2e164348bf29fb89b77a3d9585bab76a5 dt-bindings: interrupt-controller: apple,aic2: Add apple,t8112-aic compatible
-667b44ee3aaa10a5aaf9af3f0d1f51716e3132db dt-bindings: iommu: apple,sart: Add apple,t8112-sart compatible string
-695ea8cc5eb51b8baece7be07480a13a91bfdf48 dt-bindings: mailbox: apple,mailbox: Add t8112 compatibles
-20fa978cd98c6a44c206bfd7bcb16afa4d4e8a29 dt-bindings: nvme: apple: Add apple,t8112-nvme-ans2 compatible string
-869c942fb567c9b1dcc25487200fdcf474157029 dt-bindings: pci: apple,pcie: Add t8112 support
-43145cfe308214addb3f4ecaa48fd2c415a2938f dt-bindings: pinctrl: apple,pinctrl: Add apple,t8112-pinctrl compatible
-1e8edd6a6d5f5a604a7f71b90f5dca831c5d3490 dt-bindings: i2c: apple,i2c: Add apple,t8112-i2c compatible
-b058e9d8ceb0992dbb7c3f195248442f7f9cca93 dt-bindings: clock: apple,nco: Add t8112-nco compatible
-828fe6b6245bd9b20dbf3e0dd54c79b17be758e7 dt-bindings: arm: apple: Add t8112 j413/j473/j493 compatibles
-2d5ce3fbef324295f7c210f29d724b44b5642cb2 arm64: dts: apple: t8112: Initial t8112 (M2) device trees
-a0189fdfb73dac856b8fa9b9f9581e5099c9391f arm64: dts: apple: t8103: Disable unused PCIe ports
-8d59efc33fdaa2c82072b4d3ba5f67d7dd9270d0 arm64: dts: apple: t600x: Disable unused PCIe ports
-2b48106419288b78ff934601c4c5c1c84532fcab ARM: tegra: transformers: Update WM8903 sound nodes
-e9e17bcd554e29d18b065f48eca355382f06e9cb ARM: tegra: transformers: Bind RT5631 sound nodes
-76afff432f262712044864e3835841b1b41835a9 ARM: stm32: add support for STM32MP151
-dcbce56cac2676a6ca1ca33f352c8d46dd9626d6 ARM: dts: stm32: fix slew-rate of USART2 on stm32mp15xx-dkx
-abf52335762e7048e9fa5bc6f4c56a3e63b5bc80 ARM: dts: stm32: clean uart aliases on stm32mp15xx-dkx boards
-92fd4848a181e1d8c118106d222d01a5172325d0 ARM: dts: stm32: clean uart aliases on stm32mp15xx-exx boards
-c1689f854cb9daa5f2ea098462107969452b0492 ARM: dts: stm32: add uart nodes on stm32mp13
-8d696053f308cb5b242fb5b7f66500310b3087a1 ARM: dts: stm32: add pins for usart2/1/4/8 in stm32mp13-pinctrl
-623ac593a360f5c5fe34a002d006844f087549ce ARM: dts: stm32: add uart nodes and uart aliases on stm32mp135f-dk
-3c3e8a92ae57e5d5cc03abdf15970432d80ac4a5 ARM: dts: stm32: YAML validation fails for STM32MP15 ST Boards
-84a34e1862aae43e4dcdfb743a7dd3ade1fe4a3c ARM: dts: stm32: YAML validation fails for Odyssey Boards
-fc8d2b21bc5d5d7a6eadaa8c2a5d2e6856689480 ARM: dts: stm32: YAML validation fails for Argon Boards
-645a603783633a9d6e2bbaaa98d4cac847d97b2c ARM: dts: stm32: add FMC support on STM32MP13x SoC family
-8768487fc6cc5ed13705978057f1cfa3e1ce1e4c ARM: dts: stm32: Add QSPI support on STM32MP13x SoC family
-71de0a054d0ee1f9d0b13401330069cdb8f3e50a arm64: tegra: Drop serial clock-names and reset-names
-8e0ae0fb4b91655bcdca2a4d7d16ebb81fc5d786 arm64: tegra: Add DSU PMUs for Tegra234
-37f9514e618f3b95125d7eda8991a7ae3b17da96 ARM: dts: exynos: replace mshc0 alias with mmc-ddr-1_8v property
-3ddba33dc270209868de79f695e5b27afa49e230 ARM: dts: exynos: add mmc aliases
-062dfd995e8cbaf47f6cbf8bcdf5525439ebaa5e dt-bindings: tegra: Document Jetson Orin NX
-d89baa52929f00e9052f61b4eef838ccc8ebf180 dt-bindings: tegra: Document Jetson Orin NX reference platform
-13b0aca303e97500e6aa6fa7965c620394c67775 arm64: tegra: Support Jetson Orin NX
-e63472eda5ea84424e4bff2b809389b0ba266613 arm64: tegra: Support Jetson Orin NX reference platform
-62a4276877d21fe8f42085b25db8351de9406643 ARM: tegra: asus-tf101: Fix accelerometer mount matrix
-b3f65f45303f2453f477044cd02f8285a4c65bf0 ARM: tegra30: peripherals: Add 266.5MHz nodes
-13a53ebc229996f424bbf7db466f1ff96f73e8a5 ARM: tegra30: Use cpu* labels
-c94673e80377d67ba36ee4059d7814b2ab98fa71 dt-bindings: arm: nvidia: Drop unneeded quotes
-b903a6c5aaa862f8b88f4be4431ccca3b6fbc187 arm64: tegra: Audio codec support on Jetson AGX Orin
-e154a338e16cc3b3bbd54c891253319d22383746 dt-bindings: soc: samsung: exynos-pmu: allow phys as child on Exynos3 and Exynos4
-16744314ee57928c24aca95aa15f1381657edcfe arm64: tegra: Populate USB Type-C Controller for Jetson AGX Orin
-5c0ddb4e715d89e4ea94821cd85bcac220bd7ea4 arm64: tegra: Add vccmq on Jetson TX2
-7fce1e39f01900a294cd2c456c77f3e2512e0634 dt-bindings: clock: Add StarFive JH7110 system clock and reset generator
-3de0c91032580d4923624fe6ee773eddd1b574bc dt-bindings: clock: Add StarFive JH7110 always-on clock and reset generator
-1ff5482ab9a5565a56b15626a6bc5bf20dab3465 dt-bindings: timer: Add StarFive JH7110 clint
-8406d19ca0493aa8b4b83314efe57219c8bb92b6 dt-bindings: interrupt-controller: Add StarFive JH7110 plic
-8868caa2a073cdac8a3c28e4e30cf72fe6b44f22 dt-bindings: riscv: Add SiFive S7 compatible
-60bf0a39842eb042bbdc4539285c7e524011fc2d riscv: dts: starfive: Add initial StarFive JH7110 device tree
-e22f09e598d12e46e7c96df3c10271d037e1fd39 riscv: dts: starfive: Add StarFive JH7110 pin function definitions
-54baba33392d428a8be4942441a92a9b05cf537e riscv: dts: starfive: Add StarFive JH7110 VisionFive 2 board device tree
-4cd4beb98fe5ac2c4bcb995ba6e82322be174abb Merge branch 'riscv-jh7110_initial_dts' into riscv-dt-for-next
-49f1d0b65f87692a11386a8b8cd3a4aa3a1d0daa ARM: stm32: add initial documentation for STM32MP151
-6dcb6ff6ece6096e3bd9796b25769e46917dfae4 Merge tag 'samsung-dt64-6.4' of https://git.kernel.org/pub/scm/linux/kernel/git/krzk/linux into soc/dt
-cfb6bb3831fa23a2dde0d92a34ec94bce931e861 Merge tag 'samsung-dt-6.4' of https://git.kernel.org/pub/scm/linux/kernel/git/krzk/linux into soc/dt
-295954fefe2a497fd6832bc2858d2a0c2cbea2a0 Merge tag 'asahi-soc-dt-6.4' of https://github.com/AsahiLinux/linux into soc/dt
-065b3ec77f77ad9fd1df8d563ce5b02e879898b7 Merge tag 'tegra-for-6.4-dt-bindings' of git://git.kernel.org/pub/scm/linux/kernel/git/tegra/linux into soc/dt
-31e985a2c4e98898077fbd218a4ae84c31c057a6 Merge tag 'tegra-for-6.4-arm-dt' of git://git.kernel.org/pub/scm/linux/kernel/git/tegra/linux into soc/dt
-acda89d621df04833063bc85f8c6523c4a7b3bb7 Merge tag 'tegra-for-6.4-arm64-dt' of git://git.kernel.org/pub/scm/linux/kernel/git/tegra/linux into soc/dt
-d40a2f5062ee3ccb9412ef1133d8600b8abb397e Merge tag 'riscv-dt-for-v6.4' of https://git.kernel.org/pub/scm/linux/kernel/git/conor/linux into soc/dt
-83f91bb49cbceb8a07b65ff825907378793005d9 Merge tag 'stm32-dt-for-v6.4-1' of git://git.kernel.org/pub/scm/linux/kernel/git/atorgue/stm32 into soc/dt
+certificate version 0.1
+pusher Michael Ellerman <mpe@ellerman.id.au> 1681478909 +1000
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/powerpc/linux
+nonce 1681478908-80a5030951b30ce294e857d8a17919347361884c
 
---===============6639842626628908362==--
+89954837dc0de437d780a687da646b6e3983b071 e2fc3a5d89adb5ca4a719942122475bd121c9143 refs/heads/next-test
+-----BEGIN PGP SIGNATURE-----
+
+iQJHBAABCAAxFiEEJFGtCPCthwEv2Y/bUevqPMjhpYAFAmQ5VP0THG1wZUBlbGxl
+cm1hbi5pZC5hdQAKCRBR6+o8yOGlgJdbD/425o6eCjKYgyr5rbep1bIUGvMkYuMj
+dun38VRN1PbUacUL08m5OCG4iBr8A7Gfu27CIOXqFF78FaKI4BH2CuW8YibMFVyH
+M8mKLM1y4Nh9AEKxpDg4/QEcG7KjaIroIDwJ2KkbiQCjBvC4cjLBOK5JxHXI0i9Y
+HazjiKmQARbPd3KNyUlxgGUspdaK+jpT+/NkssMOfNaFzbwipfHhk1YtISy1H8u3
+V99k2p0LLqNf/QI5CVENT4yxoj6YU/1RAtcQNwwusScrpaJSVPwXkawvwjOpU31A
+E5/iS7jW6q5zptypVXATfI0xg7JloMMo8Rf+LO65KsJyn7Syv8pQYcIiHOvNqI+L
+sQ6SlaD/oaSEtyqdy+wnW7T6ODViDL+sKFaIKGkrZ9EZzCeqPOmE6RWqKjgBk/t+
+cH/WpeT8PuE8q5pUdwLRlr9zVm639d3Cruh1njisXSiXJG9/uAvcVU/MvyFPgxqq
+j4Q7UySXCtF6WJ1Vqq6+sXoEUzZx3fmEEHoJIBV/ITjYZn+SCwwlT9KlmW/RF00C
+tFp/+oGK6P8VBez8Do2QRvwQvd2Jqhg716kwlIACLhXt6JFnv6sNeHh2AsxJQxa4
+yBch+oyxK5N3UPFLBhmzpnV4wBo8+jAqdG5Vn5QpPREeGdNkZXd+FeStkWoR7jyn
+kDSHEMT+UkI7LA==
+=8fDF
+-----END PGP SIGNATURE-----
+
+--===============2966073616087868467==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-89954837dc0d-e2fc3a5d89ad.txt
+
+35451128f38c0114d2baaceedb18fcc56eea4f84 powerpc: drop HPC II (MPC7448) evaluation platform support.
+e1ad9c114fe17224aad53376e39dc12e91841d25 powerpc: drop HPC-NET/MPC8641D evaluation platform support
+451783c9d1f3a30094d681dd9f55ebc86acfcc40 powerpc: drop HPCD/MPC8610 evaluation platform support
+2e1bef4f76eab08c90a8c74de5076519445a2c63 powerpc: drop MPC8272_ADS platform support
+fb1f95b4bd8251b58e0d214d8036e550f319c9d3 powerpc: drop PowerQUICC II Family ADS platform support
+14db897511f11216fdc7038f1944107942593e93 powerpc: drop MPC8272-ADS and PowerQUICC II FADS shared code.
+1ed693ecb7c7d8f4f14ea126a78efa4770d9ce86 powerpc/corenet: Add PPC_QEMU_E500 to corenet configs
+8590ee03da98a5994514099a194c6d19ad523fb3 powerpc/irq: Mark check_return_regs_valid() notrace
+2b86ac67cfdd1834919ba2ceebdb7020af364664 powerpc/64: Mark prep_irq_for_idle() __cpuidle
+68fc18e0fd6d8fe36c63cffe845aabcf5cfe7485 powerpc/64: Don't call trace_hardirqs_on() in prep_irq_for_idle()
+22e8572230267ec6d0efb3895bf8366a31d04cf3 cpuidle: pseries: Mark ->enter() functions as __cpuidle
+c72ed82c18c815ecbe17126d10943b5e91d8cebe powerpc/pseries: Always inline functions called from cpuidle
+95ce5b6fa8c4b302694569f81c058d0f7d7a145b powerpc/book3s: Add missing <linux/sched.h> include
+12ae8c505e5c033360a6bf842a367664c8949b81 powerpc/ptrace: Add missing <linux/regset.h> include
+10260e696b095d02e238b5773ad2e8973ede26bd powerpc/dexcr: Add initial Dynamic Execution Control Register (DEXCR) support
+fa65b4a68be3f9a984cfe8ec86cacd50d163ee42 powerpc/dexcr: Handle hashchk exception
+603e5454610e7881a8702d2d6a95a194705b3358 powerpc/dexcr: Support userspace ROP protection
+796d9c6914ebae2a95d163f14510eacd0e7edd03 powerpc/dexcr: Support custom default DEXCR value
+d4627798e6b68e72753cdf40d182506e65f97518 powerpc/ptrace: Expose DEXCR and HDEXCR registers to ptrace
+68571c0c0b7d4dd7141b303d7b0a61c91a88eb76 powerpc/ptrace: Expose HASHKEYR register to ptrace
+a395a762b1ddc3c8bb704754a076d49d7e243683 Documentation: Document PowerPC kernel DEXCR interface
+a54e351f66932ff0eb4ad303ef112f36cf7a62c7 selftests/powerpc: Add more utility macros
+ac9f2300e0e4081fdbbb48d475d531d059c95428 selftests/powerpc/dexcr: Add hashst/hashchk test
+5174b1771d13c8a8d54fd8680d723322f5d1cfbb selftests/powerpc/dexcr: Add DEXCR status utility lsdexcr
+86e866f25540640d9d0325e2a7dba120f1c8fc61 powerpc/Makefile: Don't prefix archhelp commands with "@"
+db7b4379d4694ac5e81bc3d1ae3da554d98c57b1 powerpc/Makefile: Add generated defconfigs to help output
+c801178415ffdf26ab53af01296af10a10980306 powerpc/configs/64s: Update defconfig for symbol movement
+45c9a344cb7a48f679016b64c6d5195a6603958a powerpc/configs/64s: Drop SPLPAR which is default y
+997dfb74fa5f35b89d7427e5f74a22e6fde64a51 powerpc/configs/64s: Drop IPV6 which is default y
+35a5c3cffb9b5ac6f7527fe5d603c6a7920b24d3 powerpc/configs/6s: Drop obsolete crypto ALGs
+6d27f08ad9ce6f972060dc0ecc261589dcadd6dd powerpc/configs/64s: Enable PAPR_SCM
+f2ab3099fbba4d5d7049170f7eb4d89251900f4e powerpc/configs/64s: Add secure boot options to defconfig
+f2d4f8f70a5c12cb167ab216e8bc2b78547d7f0e powerpc/configs/64s: Select ARCH_WANT_DEFAULT_BPF_JIT
+7b02ceb3f45750f1132ce5f9597ba599039bffe9 powerpc/configs/64s: Enable PREEMPT_VOLUNTARY
+3260db73a57f435120a51f1f770e4cc2ee38dd74 powerpc/configs/64s: Enable AUDIT
+e70c86ea32a4db1d4e6777f157f952532644745e powerpc/configs/64s: Enable common accounting options
+da0e71de1fd5d9d775e08d06213a2bf55194edd1 powerpc/configs/64s: Enable NO_HZ_FULL
+de80c8861cc093c2f98bdc140fe246dca4287362 powerpc/configs/64s: Enable common CGROUP & related options
+853d4481dad1dd16835d43cf3a11ea3cd0144606 powerpc/configs/64s: Enable CHECKPOINT_RESTORE
+9661c5dff5b2269f0e561ff98721b45745d6205d powerpc/configs/64s: Enable ZSWAP & ZRAM
+d14095673a7d79b3377feb0144e561df814ac7d3 powerpc/configs/64s: Enable SLAB hardening options
+336d7f8d2d904ca14a4b3cea8c67667701124c36 powerpc/configs/64s: Enable YAMA, LANDLOCK & BPF LSMs
+ac22416a2e9a5bdf7bb333b8753bdf8e7c2e6d59 powerpc/configs/64s: Enable SELINUX
+a772323d6fcd50ee7bd2a5854294a8d473b8d4b1 powerpc/configs/64s: Enable KUNIT and most tests
+002475dcc0d59a7e69fc77805f0197db31b090cf powerpc/configs/64s: Enable EMULATED_STATS
+5cacc41ffe2236ca9d63e60d3b0b011393aa3991 powerpc/configs/64s: Enable DEBUG_VM & other options
+2d877c960c96d43c81c449a97abbc2f5d23ab4e5 powerpc/configs/64s: Enable SCHEDSTATS
+26f53c40d4f86856d9247bfd52e5795879715a12 powerpc/configs/64s: Enable IO_STRICT_DEVMEM
+3162634e95169b52d97ec465d7d05efd2211da08 powerpc/configs/64s: Use SHA512 for module signatures
+bb219e875cc3394772803102bb7d58c904003af2 powerpc/configs/64s: Drop REISERFS
+05c42cf7c9636a8d0e8d5ebfca2134ffafd1cfb6 powerpc/configs/64s: Enable BLK_DEV_NVME
+cbdae4d88747dade5a5b26c37acefb9f4eb55895 powerpc/configs/64s: Enable VLAN support
+3d8b3b5fa1a75c171eddfed21d95ac31d644e913 powerpc/configs/64s: Enable PSTORE
+65329564d59d5e4262c0881a35f6076b423cf5d1 powerpc/configs/64s: Enable Device Mapper options
+0694e4a1a768ec4292c1a2fb25e982f2364e1943 powerpc/configs: Add IBMVETH=y and IBMVNIC=y to guest configs
+1221ba41e0fdab8d89e92134d6e5b8144d767942 powerpc/configs: Incorporate generic kvm_guest.config into guest configs
+c511775f52612f751826315abd9a02df3b7bd7c4 powerpc/configs: Make pseries_le an alias for ppc64le_guest
+e2fc3a5d89adb5ca4a719942122475bd121c9143 powerpc/configs: Make pseries_defconfig an alias for ppc64le_guest
+
+--===============2966073616087868467==--
