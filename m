@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Fri, 14 Apr 2023 16:02:29 -0000
-Message-Id: <168148814925.27128.15670028239234329049@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/matthias.bgg/linux
+Date: Fri, 14 Apr 2023 16:10:11 -0000
+Message-Id: <168148861113.32709.10810356686243792955@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/soc/soc
-user: arnd
+repo: pub/scm/linux/kernel/git/matthias.bgg/linux
+user: matthias.bgg
 changes:
-  - ref: refs/heads/qcom/dt64-2
+  - ref: refs/tags/v6.3-next-soc
     old: 0000000000000000000000000000000000000000
-    new: 8d58a8c0d930c52dd30bd50af24b786d55509cbf
+    new: e0b297c86ce4f372ed94202a46bca2332397c92d
