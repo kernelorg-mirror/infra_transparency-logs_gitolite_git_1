@@ -1,21 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
-Date: Fri, 14 Apr 2023 01:15:27 -0000
-Message-Id: <168143492718.30735.3413863786462028627@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Fri, 14 Apr 2023 01:31:02 -0000
+Message-Id: <168143586268.9039.1440642575799076010@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/riscv/linux
-user: palmer
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: jgg
 changes:
-  - ref: refs/heads/fixes
-    old: 512836f7ac093c0a6870e25cf2106bc36b9ef151
-    new: 1b50f956c8fe9082bdee4a9cfd798149c52f7043
+  - ref: refs/heads/for-next
+    old: 979e5e0a255d7a4fe568aa23f2ec9c21eb97c258
+    new: a2e20b29cf9ce6d2070a6e36666e2239f7f9625b
     log: |
-         ef69d2559fe91f23d27a3d6fd640b5641787d22e riscv: Move early dtb mapping into the fixmap region
-         f1581626071c8e37c58c5e8f0b4126b17172a211 riscv: Do not set initial_boot_params to the linear address of the dtb
-         1b50f956c8fe9082bdee4a9cfd798149c52f7043 riscv: No need to relocate the dtb as it lies in the fixmap region
+         a2e20b29cf9ce6d2070a6e36666e2239f7f9625b RDMA/irdma: Slightly optimize irdma_form_ah_cm_frame()
+         
+  - ref: refs/heads/for-rc
+    old: 58e84f6b3e84e46524b7e5a916b53c1ad798bc8f
+    new: aca3b0fa3d04b40c96934d86cc224cccfa7ea8e0
+    log: |
+         aca3b0fa3d04b40c96934d86cc224cccfa7ea8e0 RDMA/core: Fix GID entry ref leak when create_ah fails
          
