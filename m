@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
-Date: Fri, 14 Apr 2023 03:11:34 -0000
-Message-Id: <168144189494.10625.14903899135069034762@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Fri, 14 Apr 2023 03:26:59 -0000
+Message-Id: <168144281949.21269.12557938186313036430@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/qcom/linux
-user: andersson
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
-  - ref: refs/tags/qcom-arm64-for-6.4-2
-    old: 0000000000000000000000000000000000000000
-    new: 24f6144d9d8de6c766c7eb6e780d3123b987d176
+  - ref: refs/heads/master
+    old: fef2923e3a5e4a21887dba30dc9c1df0dfcb8080
+    new: 42b78a359e12f7b9ae42cc204573a678e1d6a8d3
+    log: |
+         42b78a359e12f7b9ae42cc204573a678e1d6a8d3 Fri Apr 14 03:26:01 AM UTC 2023
+         
