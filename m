@@ -1,24 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Fri, 14 Apr 2023 10:04:17 -0000
-Message-Id: <168146665799.8751.12232628451711216560@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/thierry.reding/linux-pwm
+Date: Fri, 14 Apr 2023 10:10:52 -0000
+Message-Id: <168146705271.13861.13618295905048283583@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: davem
+repo: pub/scm/linux/kernel/git/thierry.reding/linux-pwm
+user: thierry.reding
 changes:
-  - ref: refs/heads/main
-    old: e473ea818bfe42cbdf872c41593cbaf24dbf1297
-    new: eaaa4e92397981c65dae7b9a38425b8fa984d674
+  - ref: refs/heads/for-next
+    old: d0a4564bd024eaa81cab8c7255e7c44230bdd8a2
+    new: 247ee6c780406513c6031a7f4ea41f1648b03295
     log: |
-         ce518bc3e9ca342309995c9270c3ec4892963695 net: mana: Use napi_build_skb in RX path
-         a2917b23497e4205db32271e4e06e142a9f8a6aa net: mana: Refactor RX buffer allocation code to prepare for various MTU
-         2fbbd712baf1c60996554326728bbdbef5616e12 net: mana: Enable RX path to handle various MTU sizes
-         80f6215b450eb8e92d8b1f117abf5ecf867f963e net: mana: Add support for jumbo frame
-         c61fcc090fd9e3c214d1aad2e020bcab30088b42 Merge branch 'mana-jumbo-frames'
-         eaaa4e92397981c65dae7b9a38425b8fa984d674 vsock/loopback: don't disable irqs for queue access
+         eb411c0cf59ae6344b34bc6f0d298a22b300627e pwm: meson: Fix axg ao mux parents
+         9e4fa80ab7ef9eb4f7b1ea9fc31e0eb040e85e25 pwm: meson: Fix g12a ao clk81 name
+         0af4d704ba8e5ee632b6e65015ffe4d229c1a9a9 pwm: Delete deprecated functions pwm_request() and pwm_free()
+         247ee6c780406513c6031a7f4ea41f1648b03295 pwm: Remove unused radix tree
          
