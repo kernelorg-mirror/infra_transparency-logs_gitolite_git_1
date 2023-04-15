@@ -1,26 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Sat, 15 Apr 2023 03:50:03 -0000
-Message-Id: <168153060341.12725.15755850427665241025@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/perfbook
+Date: Sat, 15 Apr 2023 04:55:17 -0000
+Message-Id: <168153451768.24470.12645131479048674668@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/paulmck/perfbook
+user: paulmck
 changes:
-  - ref: refs/heads/for-6.4/block
-    old: d0b072f4b48953ed56b5a9069ce4bfbfe987e390
-    new: 87e5c949c2e63cb409450f35f7512c40649e3d19
+  - ref: refs/heads/master
+    old: 8b2744e5edfd85cb90a7429c55b56f262100452f
+    new: 6b99fc526e32a28dff14cb3b32cfa3b725846036
     log: |
-         87e5c949c2e63cb409450f35f7512c40649e3d19 block: store bdev->bd_disk->fops->submit_bio state in bdev
-         
-  - ref: refs/heads/for-next
-    old: 471f96a59625b001ddbc2f43dcc169e56de94276
-    new: b369b54784f7d4e97aae68d2273df8e5a964a255
-    log: |
-         87e5c949c2e63cb409450f35f7512c40649e3d19 block: store bdev->bd_disk->fops->submit_bio state in bdev
-         b369b54784f7d4e97aae68d2273df8e5a964a255 Merge branch 'for-6.4/block' into for-next
+         ca58c983e2e07a152f72a7e3f53147db1419b472 memorder: Self-review of chapter lead-in text
+         26c33531c06c37278192fc3e4b4a6008967ee29e memorder: Add Intel Core 2 Architecture diagram
+         e2076059e209dddcac163dce7196313d11ba8cf2 memorder: Add simplified Intel Core 2 Architecture diagram
+         6b99fc526e32a28dff14cb3b32cfa3b725846036 memorder: Add text for Intel_Core2_arch diagrams
          
