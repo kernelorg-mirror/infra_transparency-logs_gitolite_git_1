@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wtarreau/nolibc
-Date: Sat, 15 Apr 2023 17:15:14 -0000
-Message-Id: <168157891454.10370.14949625699618582476@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mason/schbench
+Date: Sat, 15 Apr 2023 17:39:12 -0000
+Message-Id: <168158035216.24849.10268897756531333622@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wtarreau/nolibc
-user: wtarreau
+repo: pub/scm/linux/kernel/git/mason/schbench
+user: mason
 changes:
-  - ref: refs/heads/20230415-nolibc-updates-4a
-    old: 9f157b092a1448a69abc46274fff2dfb0d6e42f3
-    new: 6d4ec2e2931e34da8b39811a76ce02996c11ae00
+  - ref: refs/heads/master
+    old: 2449d446d138dc02bbd7b05740ca49fd0da481a1
+    new: 394be0023393d55ccb8fa064bc883b2d7ab94585
     log: |
-         ff39a4fa6f8db0da839d1a8914005871d32acf25 tools/nolibc: use C89 comment syntax
-         6d4ec2e2931e34da8b39811a76ce02996c11ae00 tools/nolibc: validate C89 compatibility
+         394be0023393d55ccb8fa064bc883b2d7ab94585 schbench: fix recording oddities with small runtimes
          
