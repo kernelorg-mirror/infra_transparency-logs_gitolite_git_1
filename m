@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2879800257599154940=="
+Content-Type: multipart/mixed; boundary="===============8662245873161238195=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Sat, 15 Apr 2023 16:51:19 -0000
-Message-Id: <168157747931.27169.7742049152430322123@gitolite.kernel.org>
+Date: Sat, 15 Apr 2023 16:54:20 -0000
+Message-Id: <168157766035.28249.11643715778351830104@gitolite.kernel.org>
 
---===============2879800257599154940==
+--===============8662245873161238195==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,292 +16,301 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: bot-stable-queue
 changes:
   - ref: refs/heads/queue/4.14
-    old: 5618395e79e3755bee2b6dda9335647c0ed951de
-    new: 426346b3c57ef4773aeb9fecc3bc4b8b3ca266f5
-    log: revlist-5618395e79e3-426346b3c57e.txt
+    old: 426346b3c57ef4773aeb9fecc3bc4b8b3ca266f5
+    new: 44cd86b931936279d2681eda3ce61a2d40d19a2b
+    log: revlist-426346b3c57e-44cd86b93193.txt
   - ref: refs/heads/queue/4.19
-    old: 29d237d3e65595b5444a280baf38974c9da8d3f1
-    new: f07080f22998428863bac6b30211021e5c980f21
-    log: revlist-29d237d3e655-f07080f22998.txt
+    old: f07080f22998428863bac6b30211021e5c980f21
+    new: fa488088c7bad6c3fd71142682d62de149eac42c
+    log: revlist-f07080f22998-fa488088c7ba.txt
   - ref: refs/heads/queue/5.10
-    old: 6ace8665518ba2899d4863a0051f94562d7b0dac
-    new: fe0c17cae3e14a7eb30dd029c805414b7caea0fc
-    log: revlist-6ace8665518b-fe0c17cae3e1.txt
+    old: fe0c17cae3e14a7eb30dd029c805414b7caea0fc
+    new: 7e22bbb6096bcec28a20155476681933d72b631a
+    log: revlist-fe0c17cae3e1-7e22bbb6096b.txt
   - ref: refs/heads/queue/5.15
-    old: d0fa0a038a688eee026a664a9c1e9d0abb6d991c
-    new: 7669e92427b5bf8e77e4aadb198761e735acbe21
-    log: revlist-d0fa0a038a68-7669e92427b5.txt
+    old: 7669e92427b5bf8e77e4aadb198761e735acbe21
+    new: 60d79b2c931a5c6510374452a2d942273dad50d9
+    log: revlist-7669e92427b5-60d79b2c931a.txt
   - ref: refs/heads/queue/5.4
-    old: 6a4f2d86662d18e22e686fc0ac47fd5760e6ab7e
-    new: 2731a404b690133d9009def6584be7eef2a49619
-    log: revlist-6a4f2d86662d-2731a404b690.txt
+    old: 2731a404b690133d9009def6584be7eef2a49619
+    new: 9957bde7b5c6378c92cb76d34304e785847dbf27
+    log: revlist-2731a404b690-9957bde7b5c6.txt
   - ref: refs/heads/queue/6.1
-    old: f7dc7e601a2a86fe0445fb56ab002c87b4973bf1
-    new: 3da4bf2160832423257cc78ad83837cbdbbc1061
-    log: revlist-f7dc7e601a2a-3da4bf216083.txt
+    old: 3da4bf2160832423257cc78ad83837cbdbbc1061
+    new: 39097b93e319129696fcb085b552b36ee08c5c69
+    log: revlist-3da4bf216083-39097b93e319.txt
   - ref: refs/heads/queue/6.2
-    old: 2d6a600586c0f013cbfcce95fb058da835637c35
-    new: d1faff8c67686ca19d984a94243093a31b5786ae
-    log: revlist-2d6a600586c0-d1faff8c6768.txt
+    old: d1faff8c67686ca19d984a94243093a31b5786ae
+    new: d8d1156aab77b751cad8b6b2f8bb8c1cb692b923
+    log: revlist-d1faff8c6768-d8d1156aab77.txt
 
---===============2879800257599154940==
+--===============8662245873161238195==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5618395e79e3-426346b3c57e.txt
+Content-Disposition: attachment; filename=revlist-426346b3c57e-44cd86b93193.txt
 
-ffe59ea83792b8861de35f4e2c2c11f0097da444 pwm: cros-ec: Explicitly set .polarity in .get_state()
-50c2145e950129910a1d551bb82e6e4bd8885425 wifi: mac80211: fix invalid drv_sta_pre_rcu_remove calls for non-uploaded sta
-93900512955ef3205eb3173cc01d1e8e8abe321e icmp: guard against too small mtu
-6f5ed1d005e40b4e4a05f0fec7a86c0a84f2aa06 ipv6: Fix an uninit variable access bug in __ip6_make_skb()
-55474c54eeafe3e3fdd443b4955d0f00e6df6cab gpio: davinci: Add irq chip flag to skip set wake
-9c9063fb2daef5d2f7d98057758bb491fa0ca16d USB: serial: cp210x: add Silicon Labs IFS-USB-DATACABLE IDs
-57d9550e8c3a374700cdad80d1f3cb65632679f9 USB: serial: option: add Telit FE990 compositions
-53068765613e1eae74c8af8a42f554b46acd567b USB: serial: option: add Quectel RM500U-CN modem
-a411a90b5b9fa41233cd29a436b9c394a0c65523 iio: dac: cio-dac: Fix max DAC write value check for 12-bit
-a542c37b5de7a382d5d6988f7e75f67c5c539f1a tty: serial: sh-sci: Fix Rx on RZ/G2L SCI
-4166bce398b832b83269ae8b09b4e5ee2b292cd4 nilfs2: fix potential UAF of struct nilfs_sc_info in nilfs_segctor_thread()
-d8d1f08222dd59d5d6afa86a13dca0d8a081b837 nilfs2: fix sysfs interface lifetime
-bb17ec3c4b3aba432198fa822d26388bb3e7d6c6 perf/core: Fix the same task check in perf_event_set_output
-29a3bae488a93943f9bbfbf5fc05ef1e7fcd1e2d ftrace: Mark get_lock_parent_ip() __always_inline
-d1a291e09582843194ad329fe728d9cb2e24b897 ring-buffer: Fix race while reader and writer are on the same page
-108368b11041beb4ac5fcae9082c0c3603204a77 mm/swap: fix swap_info_struct race between swapoff and get_swap_pages()
-f75492f1817687a9e3b8f832ff7254caa6c8bc0a ALSA: emu10k1: fix capture interrupt handler unlinking
-c5a3de715cc41bf6e95933b69f6bb8d90632b145 ALSA: hda/sigmatel: add pin overrides for Intel DP45SG motherboard
-daeab1031ff5a85c9beaa728b98540e2d8066a8a ALSA: i2c/cs8427: fix iec958 mixer control deactivation
-2f9f0106f4ceac1e3053b55ea85f27bcdfba1fe5 ALSA: hda/sigmatel: fix S/PDIF out on Intel D*45* motherboards
-a47297091a88645ad259d1e653a46e9a61c0027d Bluetooth: L2CAP: Fix use-after-free in l2cap_disconnect_{req,rsp}
-426346b3c57ef4773aeb9fecc3bc4b8b3ca266f5 Bluetooth: Fix race condition in hidp_session_thread
+b08161994d4a37ac3d32dcdbaf05aff6797a50a6 pwm: cros-ec: Explicitly set .polarity in .get_state()
+c29f391fff22dde6ced82f750b7ab6b5ca50871e wifi: mac80211: fix invalid drv_sta_pre_rcu_remove calls for non-uploaded sta
+2e736bd41caf3e8ecfb9a7946d0e85f117bac400 icmp: guard against too small mtu
+df36f98f14b5a6a442102e457fea539f3daab30b ipv6: Fix an uninit variable access bug in __ip6_make_skb()
+063ccf0c09bcf7f360d59836b1fdbc145848b006 gpio: davinci: Add irq chip flag to skip set wake
+84189d0ac6c3e4220405f3708ba5e61f96601e45 USB: serial: cp210x: add Silicon Labs IFS-USB-DATACABLE IDs
+b67099a283b34b6d3c57e08c92b54477012c6563 USB: serial: option: add Telit FE990 compositions
+7152bbd8e5d44f6d2a45d70175e2e077f10c13bb USB: serial: option: add Quectel RM500U-CN modem
+7a846b213822040d5d93d1c82993e958d1582a37 iio: dac: cio-dac: Fix max DAC write value check for 12-bit
+397166d095cd7b4be933e35f798adafab6a753b0 tty: serial: sh-sci: Fix Rx on RZ/G2L SCI
+8d502a01e3894333dbabe05e2a3a15c54c95b5ed nilfs2: fix potential UAF of struct nilfs_sc_info in nilfs_segctor_thread()
+76f05108736e00ec33f2b7a6e26b3220b1fc305c nilfs2: fix sysfs interface lifetime
+c739384c1d192e1b06a5544b278e4c570b445222 perf/core: Fix the same task check in perf_event_set_output
+98bf4fb2c31863a4068f6e307b8a79ef34b60d67 ftrace: Mark get_lock_parent_ip() __always_inline
+d1334bb2a79f856dfe91a7f0ac6473e13322965c ring-buffer: Fix race while reader and writer are on the same page
+418b2f20a8a3fdfd176c857512df1ee063f4b8fd mm/swap: fix swap_info_struct race between swapoff and get_swap_pages()
+eda45dae5d3ae95da7ba61ac99a07d1b2cb9f42a ALSA: emu10k1: fix capture interrupt handler unlinking
+18aca06628d0167004d0e058d941204da6601bc8 ALSA: hda/sigmatel: add pin overrides for Intel DP45SG motherboard
+4dd0abcb933e1ea2e6aaaf51179127bad635c025 ALSA: i2c/cs8427: fix iec958 mixer control deactivation
+84791648f41376f918a4bd0285677079a60d9fc5 ALSA: hda/sigmatel: fix S/PDIF out on Intel D*45* motherboards
+e6756946f22a1163a848c85f9b2ae0e7a7a5f7df Bluetooth: L2CAP: Fix use-after-free in l2cap_disconnect_{req,rsp}
+44cd86b931936279d2681eda3ce61a2d40d19a2b Bluetooth: Fix race condition in hidp_session_thread
 
---===============2879800257599154940==
+--===============8662245873161238195==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-29d237d3e655-f07080f22998.txt
+Content-Disposition: attachment; filename=revlist-f07080f22998-fa488088c7ba.txt
 
-54d11c3240ed49228c382e25a52f89a9f4422a91 pinctrl: Added IRQF_SHARED flag for amd-pinctrl driver
-1dd07fc48787c3c47725ef447385f153661f6fa0 pinctrl: amd: Use irqchip template
-a527665ec5011c3a1851deb2fc2ebdea7023140d pinctrl: amd: disable and mask interrupts on probe
-9d4d63b54a3f77112955d7395e0f6d08ecca366a pinctrl: amd: Disable and mask interrupts on resume
-06e89d9ea8a28fe56a9d2d0b0717763babc683f7 NFSv4: Convert struct nfs4_state to use refcount_t
-121360fe058ee2805a98a06774096ad7947052d5 NFSv4: Check the return value of update_open_stateid()
-cd87c360a618785027e3a08ff4d0b1de4a3a1493 NFSv4: Fix hangs when recovering open state after a server reboot
-56e590a7a80b01093734caddb9b14327cfaa5950 pwm: cros-ec: Explicitly set .polarity in .get_state()
-9e511b135c125a6e0e771b14b75567bb632f2f7f wifi: mac80211: fix invalid drv_sta_pre_rcu_remove calls for non-uploaded sta
-caaa82b5128f404775453691f47cbd08e03c7353 icmp: guard against too small mtu
-103a523d5190ced976fec73026edcf3f04e1ccdf net: don't let netpoll invoke NAPI if in xmit context
-53febc172269194b5b60f14b742b32589264971a sctp: check send stream number after wait_for_sndbuf
-b692ae915d977b35f9c2d05cfdf816b1c921dc17 ipv6: Fix an uninit variable access bug in __ip6_make_skb()
-5b2452f548b58ed1edf59b436e4479742282d5f2 gpio: davinci: Add irq chip flag to skip set wake
-aa4c92634b47b2845b95f07a5a37fb5d529beff1 USB: serial: cp210x: add Silicon Labs IFS-USB-DATACABLE IDs
-6a9555e8a39f162a9888521db645cbce5b94afd7 USB: serial: option: add Telit FE990 compositions
-d6a2152acac5a1578879d344a1579900e1c2b862 USB: serial: option: add Quectel RM500U-CN modem
-e5f2101f9da0732646fecf96f4528d79fc5a9179 iio: dac: cio-dac: Fix max DAC write value check for 12-bit
-09a2cc70d554afd851884c0015c6c71af5659061 tty: serial: sh-sci: Fix transmit end interrupt handler
-894b63c1503026802a13fba5dfa5d1fa33956dc0 tty: serial: sh-sci: Fix Rx on RZ/G2L SCI
-3dc2c42fe65da703b86914ca74c844b2c61905d7 nilfs2: fix potential UAF of struct nilfs_sc_info in nilfs_segctor_thread()
-a261af1baff5d490155bb5d6519041ee394c8692 nilfs2: fix sysfs interface lifetime
-e79d53bebe8599dbf1e70d8fb66e178cfbef225e ALSA: hda/realtek: Add quirk for Clevo X370SNW
-4cb8c6046a0b318ec67bfac0136e8f2cbcfb6f48 perf/core: Fix the same task check in perf_event_set_output
-53ca58496df00513e7952d0390fd8a0f43e05017 ftrace: Mark get_lock_parent_ip() __always_inline
-aa8d6dc966ed86be9f0120f6d34f5a8a0aa00f81 ring-buffer: Fix race while reader and writer are on the same page
-c971138ac6eacd5e40526dae0e2e6105fe8d4531 mm/swap: fix swap_info_struct race between swapoff and get_swap_pages()
-cf360e7568cb863d063435fd6a5efbc392c7975b Revert "pinctrl: amd: Disable and mask interrupts on resume"
-056dd3f0c2909133148d99be60e7b35b3cbcc8b7 ALSA: emu10k1: fix capture interrupt handler unlinking
-8e20c67c791015250b4bf3d2ba0a8a532139f3d5 ALSA: hda/sigmatel: add pin overrides for Intel DP45SG motherboard
-79faf4fa3375ca3722e7e664175f480ac57ef64d ALSA: i2c/cs8427: fix iec958 mixer control deactivation
-f0f0a39316fd95f1f14486b49a4eba1017836bf9 ALSA: hda/sigmatel: fix S/PDIF out on Intel D*45* motherboards
-a096c1507462c72a297e2f5bb05fb66823dc88ee Bluetooth: L2CAP: Fix use-after-free in l2cap_disconnect_{req,rsp}
-f07080f22998428863bac6b30211021e5c980f21 Bluetooth: Fix race condition in hidp_session_thread
+29525f3d05c1a6dacf259db9012554f77de42c6a pinctrl: Added IRQF_SHARED flag for amd-pinctrl driver
+f5742969a65bc3f65273dd37ce872af7c9e72fe7 pinctrl: amd: Use irqchip template
+eb5ba41b62f6a57ef7bf06341133c1c957657ab6 pinctrl: amd: disable and mask interrupts on probe
+93a71b5485928996ebbcb04c3fe499aca9278501 pinctrl: amd: Disable and mask interrupts on resume
+546c195ae862e2660ec42e6f90c9dd22838f55c8 NFSv4: Convert struct nfs4_state to use refcount_t
+8564779575feb8c2a88f08ac9db36d2b10048e04 NFSv4: Check the return value of update_open_stateid()
+332449bd6e213ba3beb264a9f4495ab1090f8555 NFSv4: Fix hangs when recovering open state after a server reboot
+37cd5e6a41e1800937940ac887c61a1dd988578a pwm: cros-ec: Explicitly set .polarity in .get_state()
+881c0bc704bd2243bd33c9d36ea7028c04b68fbf wifi: mac80211: fix invalid drv_sta_pre_rcu_remove calls for non-uploaded sta
+e4d67233472f52262fcb01375b13a9f111c2b811 icmp: guard against too small mtu
+045a3094a965f4c999efb520363da6c2c85946f0 net: don't let netpoll invoke NAPI if in xmit context
+bf17544e62c5154fe60a2161657dc58fe252f890 sctp: check send stream number after wait_for_sndbuf
+0a0e2aa6e1823cab41a205ea0d1d9bf2d38e9a2e ipv6: Fix an uninit variable access bug in __ip6_make_skb()
+8745d7948551cdd8978d37b0cbdb0e463d71da6c gpio: davinci: Add irq chip flag to skip set wake
+629fd30ac5e26d8d50c80943a5abedfc88117fec USB: serial: cp210x: add Silicon Labs IFS-USB-DATACABLE IDs
+3eeb473ea67b264f766a7913f78cae640da8155c USB: serial: option: add Telit FE990 compositions
+a9a4d7de55a9b7eb2cdf0ef3b834de927c67967d USB: serial: option: add Quectel RM500U-CN modem
+8b1a21d71aa4a4b1ccb030dea19dd83458098c03 iio: dac: cio-dac: Fix max DAC write value check for 12-bit
+e2ba55474100383177643da59c74de01ab0809cd tty: serial: sh-sci: Fix transmit end interrupt handler
+a7258a15ff4b7d078040f2f5260088bce721fa91 tty: serial: sh-sci: Fix Rx on RZ/G2L SCI
+365c747d9c1533afc8d2ee9c24c3968ccec2208c nilfs2: fix potential UAF of struct nilfs_sc_info in nilfs_segctor_thread()
+3c71cc320dbfbd73a6d069c263784d0b04167757 nilfs2: fix sysfs interface lifetime
+99638d25a3cbbdad28bef4dcebf6fcf9790338b1 ALSA: hda/realtek: Add quirk for Clevo X370SNW
+b5741f4d8885a670f57dddbf7adaac4a6065a47c perf/core: Fix the same task check in perf_event_set_output
+0d5eeca569dfd37f5bdb8f0c7f295c8538628a10 ftrace: Mark get_lock_parent_ip() __always_inline
+15bbe6c63d84bee13401d5c7abd357dbe01272e5 ring-buffer: Fix race while reader and writer are on the same page
+3fbbc360601c7ca7cf95a2bac04e7fd23793eca7 mm/swap: fix swap_info_struct race between swapoff and get_swap_pages()
+7e46daa77f97b305ffe95d81b2e422ce6d9964cc Revert "pinctrl: amd: Disable and mask interrupts on resume"
+776d6453ec8d2756319132ba6af44d5c452f0e8b ALSA: emu10k1: fix capture interrupt handler unlinking
+46fd1810792e4c79232545cd61e0a3c44d4ffc3c ALSA: hda/sigmatel: add pin overrides for Intel DP45SG motherboard
+bc51b44030a80452e2109387337b65441ad46885 ALSA: i2c/cs8427: fix iec958 mixer control deactivation
+91c59e0c546e2f4edc98a7a466cd573496ff9b86 ALSA: hda/sigmatel: fix S/PDIF out on Intel D*45* motherboards
+d9a64455a5cedb884f57478cc2ad2fe5a98a1679 Bluetooth: L2CAP: Fix use-after-free in l2cap_disconnect_{req,rsp}
+fa488088c7bad6c3fd71142682d62de149eac42c Bluetooth: Fix race condition in hidp_session_thread
 
---===============2879800257599154940==
+--===============8662245873161238195==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6ace8665518b-fe0c17cae3e1.txt
+Content-Disposition: attachment; filename=revlist-fe0c17cae3e1-7e22bbb6096b.txt
 
-19c08b563ad2748bc312623fbdb8bba17d4a1441 gpio: GPIO_REGMAP: select REGMAP instead of depending on it
-1d56e553187899260876bf84e1be12a6ac2dc6e2 Drivers: vmbus: Check for channel allocation before looking up relids
-4eca9078bfb729ab62c1fa88f2b92837010a9036 pwm: cros-ec: Explicitly set .polarity in .get_state()
-f92a4941fa5cef3633a01ac2cb578180d1c15151 pwm: sprd: Explicitly set .polarity in .get_state()
-dd937fbd6356c218d240f6e0a9c1e9337887a406 KVM: s390: pv: fix external interruption loop not always detected
-88f9bb761c347ee088064ccae992a56d5e5fb4b0 wifi: mac80211: fix invalid drv_sta_pre_rcu_remove calls for non-uploaded sta
-1c3803c9f68d2b99c954101b8fb37ac1673ca26d net: qrtr: combine nameservice into main module
-a2e9415eee97f1b78792c3ba259c914c3cfa8411 net: qrtr: Fix a refcount bug in qrtr_recvmsg()
-521a6b655cd6e66379da03487112e0a859f6de8e icmp: guard against too small mtu
-32fdfd25d99a17b2bd12c571f6a276867486fa27 net: don't let netpoll invoke NAPI if in xmit context
-01a9cc0f9ec01428848e8a0c75e597c76ce61f7e sctp: check send stream number after wait_for_sndbuf
-1bc1ad99ea83f7e6d8e1cb7fac6b1d0234878819 net: qrtr: Do not do DEL_SERVER broadcast after DEL_CLIENT
-9ba14a20cd9ece5f97a15048a893b6c879622ec0 ipv6: Fix an uninit variable access bug in __ip6_make_skb()
-348fce70475b3432e5e48b6fdb46c44015b69312 gpio: davinci: Add irq chip flag to skip set wake
-956fecdd252c23b34bec3a378aed0f7e09bdbb8c net: ethernet: ti: am65-cpsw: Fix mdio cleanup in probe
-ee8295db1a37f12a92fe611be3debbb85646b89f net: stmmac: fix up RX flow hash indirection table when setting channels
-e7efdda1cb8b8de9a104686ee194e00160c724aa sunrpc: only free unix grouplist after RCU settles
-998c999b1ef14b31573814b75df5b0781a0c7d7f NFSD: callback request does not use correct credential for AUTH_SYS
-2052c4f248765b81c9c2e3bcbfe558e78f6a422a usb: xhci: tegra: fix sleep in atomic call
-80c01876e20522edf7caff6b6019f64fa1afaaab xhci: also avoid the XHCI_ZERO_64B_REGS quirk with a passthrough iommu
-ee4754258bf6d44323021e1aab588dcdc15bda5e USB: serial: cp210x: add Silicon Labs IFS-USB-DATACABLE IDs
-10ec822a831041827354a33061221fbc2e8d2409 usb: typec: altmodes/displayport: Fix configure initial pin assignment
-850665315b190baea89d3a614d07bc2d5bc660ab USB: serial: option: add Telit FE990 compositions
-3d1d52e33ca4b5365e76a757c57616b19505aac5 USB: serial: option: add Quectel RM500U-CN modem
-8b2ef6889bb2440f9e472f28973eb2174450e1b1 iio: adc: ti-ads7950: Set `can_sleep` flag for GPIO chip
-5ee57f29b9ee71511d18d4cf735d79e443d4b7d5 iio: dac: cio-dac: Fix max DAC write value check for 12-bit
-9f3b30624d691138928ad8591bb3d755be6b4bc1 iio: light: cm32181: Unregister second I2C client if present
-2d3b460e0bc6d26534ee3ed935dfcb66d48071e7 tty: serial: sh-sci: Fix transmit end interrupt handler
-ce90bd2745adaf6ec84943e8192c80e2801aafed tty: serial: sh-sci: Fix Rx on RZ/G2L SCI
-2555cb22ed0d0f02ebd4d3ceee0dc319be8af8f5 tty: serial: fsl_lpuart: avoid checking for transfer complete when UARTCTRL_SBK is asserted in lpuart32_tx_empty
-ec152ef2f6216fa65b526ea46ce9ab1c41bd9992 nilfs2: fix potential UAF of struct nilfs_sc_info in nilfs_segctor_thread()
-982fb67e906721ed5d05870ff08938e586e2b392 nilfs2: fix sysfs interface lifetime
-acfe790673b0146b6b8a6c2467c9e3ec6eaae671 dt-bindings: serial: renesas,scif: Fix 4th IRQ for 4-IRQ SCIFs
-9d475136e858ae1a2a08514e5882f2b7688cad6d ALSA: hda/realtek: Add quirk for Clevo X370SNW
-2c5fc93da44599ca9b6fec17647fe930f144af43 iio: adc: ad7791: fix IRQ flags
-0ed1bc720755be19a076c3f01cc009e237238c6b scsi: iscsi_tcp: Check that sock is valid before iscsi_set_param()
-5757593d578c198b7a7b60793c7a300bf02ccd12 perf/core: Fix the same task check in perf_event_set_output
-33ba37e7dac7e22d341a0bc8a04ac5aee1255ee7 ftrace: Mark get_lock_parent_ip() __always_inline
-8a6321fe4984d173d9d52619794e97e0f699fa1a ftrace: Fix issue that 'direct->addr' not restored in modify_ftrace_direct()
-6e4c960abf76316e93bf1b3485c7a80ad38239e8 can: j1939: j1939_tp_tx_dat_new(): fix out-of-bounds memory access
-bb20edcd470426295c763916f24393b422b4ebc4 can: isotp: isotp_ops: fix poll() to not report false EPOLLOUT events
-a5a699a4beba3ae4cea4dbd3e43afe9f57c47597 tracing: Free error logs of tracing instances
-754b2dc1510dafc5e21d8afb9300f13ab8e5039a ASoC: hdac_hdmi: use set_stream() instead of set_tdm_slots()
-301cc2650bba89b12fe3e14d4fdb848b0fd220e0 drm/panfrost: Fix the panfrost_mmu_map_fault_addr() error path
-df330228e9150585ea6dd640ca436570f70cb11f drm/nouveau/disp: Support more modes by checking with lower bpc
-d1cbdf4c0a55d600170d920b435d3643b0475aea ring-buffer: Fix race while reader and writer are on the same page
-2f64ce70e054be5c435e56dc22e0a567fa1d18fd mm/swap: fix swap_info_struct race between swapoff and get_swap_pages()
-c110aeb9324b31983c81b9746627d49ecbf65e69 selftests: intel_pstate: ftime() is deprecated
-9729358eb119511f1e23dca6ddd902ebb98fd3ea drm/bridge: lt9611: Fix PLL being unable to lock
-202df02253e61c34918be5847319b653f5781334 Revert "media: ti: cal: fix possible memory leak in cal_ctx_create()"
-d84b7fb0ffa31d2b5cfa4279a5712866290a5961 ocfs2: fix freeing uninitialized resource on ocfs2_dlm_shutdown
-ed5fd37358d7d03de3748bf1da59777581d58295 bpftool: Print newline before '}' for struct with padding only fields
-ac5b0f3f197c5f182a5145dda286151ba07186b7 Revert "pinctrl: amd: Disable and mask interrupts on resume"
-9f4fc51628d6157eb3b39802258611038efba721 ALSA: emu10k1: fix capture interrupt handler unlinking
-9ae26dcf21b31ccadacadbd9415a5f68a01b89ab ALSA: hda/sigmatel: add pin overrides for Intel DP45SG motherboard
-c4d45e082e06931e427a38501863498e1e86d8aa ALSA: i2c/cs8427: fix iec958 mixer control deactivation
-5645e7eba15058dd27b8f7f2a43925c5a39ecf6d ALSA: firewire-tascam: add missing unwind goto in snd_tscm_stream_start_duplex()
-d88939405a9ac25ed8c20dc996cb434cd6e8e496 ALSA: hda/sigmatel: fix S/PDIF out on Intel D*45* motherboards
-9e5567807b44bc25accec86406069577ce2f6c89 Bluetooth: L2CAP: Fix use-after-free in l2cap_disconnect_{req,rsp}
-d4cdd1faffa817e54d60b7574a1c5b02708ec2c3 Bluetooth: Fix race condition in hidp_session_thread
-686e28be66dcfa85f1674cb31d0f17eb24fbdbb4 btrfs: print checksum type and implementation at mount time
-0703fd1e932c235f20042d33b78a93447d7988bc btrfs: fix fast csum implementation detection
-fe0c17cae3e14a7eb30dd029c805414b7caea0fc fbmem: Reject FB_ACTIVATE_KD_TEXT from userspace
+01a0f0f37a7736f774240387c81c7be88c6bc8bb gpio: GPIO_REGMAP: select REGMAP instead of depending on it
+c0d5df83b2615a84a3be0664dee2c9bdd73b430c Drivers: vmbus: Check for channel allocation before looking up relids
+62813a55d9419182c2c009e0f1e4b90d87cb79c0 pwm: cros-ec: Explicitly set .polarity in .get_state()
+16c3df2de548382b83acb7a9823c901f6f948eff pwm: sprd: Explicitly set .polarity in .get_state()
+872868db8bbd32fa14b13750211a9303360fd17e KVM: s390: pv: fix external interruption loop not always detected
+0f9e17fb8b7cb6fc07798181428aa0d879726a59 wifi: mac80211: fix invalid drv_sta_pre_rcu_remove calls for non-uploaded sta
+66eee3817dc39f800abe38a56c451ec2efc990e5 net: qrtr: combine nameservice into main module
+d18137e1f7c7ad6cbf1ee5b416a93b3038e5aa53 net: qrtr: Fix a refcount bug in qrtr_recvmsg()
+85fe7ec628a9c6badd79e0c5959e705fa39e5c75 icmp: guard against too small mtu
+399f976bf3ec1369d18b6c6d262bedb451c324e9 net: don't let netpoll invoke NAPI if in xmit context
+8525b33df61f6423e875e8f0193a54e82bc7c06e sctp: check send stream number after wait_for_sndbuf
+c236ce865b1ebeb7233f21b2d44fa5b7fece9176 net: qrtr: Do not do DEL_SERVER broadcast after DEL_CLIENT
+87043d813aac313dd611d7a68405117a230cd2b8 ipv6: Fix an uninit variable access bug in __ip6_make_skb()
+ff8a0f5fd750b90eddbdc18c101d33015261c0eb gpio: davinci: Add irq chip flag to skip set wake
+7d16a2288332f201f22c1f25fdc3f95d8195d540 net: ethernet: ti: am65-cpsw: Fix mdio cleanup in probe
+95fcfe9a2d83e4220fde3e41b948215624d003fa net: stmmac: fix up RX flow hash indirection table when setting channels
+02c113f4ad20977b1dd2049926d4205ec113ae76 sunrpc: only free unix grouplist after RCU settles
+32b8ce8f92d81771ebf2ea93028224090a25a85c NFSD: callback request does not use correct credential for AUTH_SYS
+5174178401d566475b2e0dc27e46a0162b45f367 usb: xhci: tegra: fix sleep in atomic call
+22ec08a57abd0a528e628c97fc6036be436dcc3e xhci: also avoid the XHCI_ZERO_64B_REGS quirk with a passthrough iommu
+65a74580304fe59d026cd456e2a8b57a0a7ea2ee USB: serial: cp210x: add Silicon Labs IFS-USB-DATACABLE IDs
+2bfa03ab78640a6d6fa47c02836b3b3dce4787ce usb: typec: altmodes/displayport: Fix configure initial pin assignment
+55d3c4ff99aa472d05480090e9c4a41c47fced58 USB: serial: option: add Telit FE990 compositions
+467bfac02f59a82d5110dd25705736dae7a47231 USB: serial: option: add Quectel RM500U-CN modem
+69bef1c81a053ee3c29393f7cd2a51707090bab8 iio: adc: ti-ads7950: Set `can_sleep` flag for GPIO chip
+fa2dcb0bf7ae9751de2c8ffda4c060d3533001e0 iio: dac: cio-dac: Fix max DAC write value check for 12-bit
+bf2eee2c7d3836b5c3d81dab1a27a43d7d01163f iio: light: cm32181: Unregister second I2C client if present
+e76f56ba9bd86a1ce678d4b37b52ea4f0b85fba8 tty: serial: sh-sci: Fix transmit end interrupt handler
+eb8349276cbacf0e4374fee7e61a636a50a37391 tty: serial: sh-sci: Fix Rx on RZ/G2L SCI
+5c485dff0ba9a14cc74a123549e2d5c47a8f12c6 tty: serial: fsl_lpuart: avoid checking for transfer complete when UARTCTRL_SBK is asserted in lpuart32_tx_empty
+e7d43e806a3e7e3c89aee75baeaeef836669dd04 nilfs2: fix potential UAF of struct nilfs_sc_info in nilfs_segctor_thread()
+92ef0eb64a6dd4d775e7f09f55470e1912770f39 nilfs2: fix sysfs interface lifetime
+ceea40fae56fcb897441efe99d13ecc328628674 dt-bindings: serial: renesas,scif: Fix 4th IRQ for 4-IRQ SCIFs
+a01b903164b1d1dab41b82befcecd8bc9ca90788 ALSA: hda/realtek: Add quirk for Clevo X370SNW
+89410262ecc853bfb4ce6d6c44df0f93fb7cb25d iio: adc: ad7791: fix IRQ flags
+8f735cb6d1a1cf39f52a74b1390d62160802559d scsi: iscsi_tcp: Check that sock is valid before iscsi_set_param()
+1a2ddd1b95547b1b7e8a29f7744220de1f166f57 perf/core: Fix the same task check in perf_event_set_output
+ecfb7d0c5e77459eff0438c30bf6c0a5f6d230ce ftrace: Mark get_lock_parent_ip() __always_inline
+81936b0be8233ae1368a2c0c8905fa73727d079c ftrace: Fix issue that 'direct->addr' not restored in modify_ftrace_direct()
+354639f38187c043b328a68524d4223ffe8b0f64 can: j1939: j1939_tp_tx_dat_new(): fix out-of-bounds memory access
+eea4b30af421c34664a4a3559046e04323ff9a31 can: isotp: isotp_ops: fix poll() to not report false EPOLLOUT events
+f14658acb7cc34d39b3ceef02a32d63d9d3df012 tracing: Free error logs of tracing instances
+218a0aa65855c9dcfe096e251acec2829859b9ed ASoC: hdac_hdmi: use set_stream() instead of set_tdm_slots()
+3dfa7e91764cbc1ccddb08b93f3d340d33a6edc2 drm/panfrost: Fix the panfrost_mmu_map_fault_addr() error path
+db6ec2951d04bdb187d4213bed50b81835bdf201 drm/nouveau/disp: Support more modes by checking with lower bpc
+44e629f87d4f9208def4d8bbea952c88a0cac020 ring-buffer: Fix race while reader and writer are on the same page
+fd492992e153d72951682a0f9c521306c9c654f1 mm/swap: fix swap_info_struct race between swapoff and get_swap_pages()
+700b37a40391c8c2a51924a6c0e9dabf73165315 selftests: intel_pstate: ftime() is deprecated
+607221caf4c6bdd20c8f249c416540266c1276b3 drm/bridge: lt9611: Fix PLL being unable to lock
+ec14e4d941058814bc6b869e3bce0d7a72ad3f3a Revert "media: ti: cal: fix possible memory leak in cal_ctx_create()"
+661f54a9c3a06c5e34183cc731cbb6d20939f225 ocfs2: fix freeing uninitialized resource on ocfs2_dlm_shutdown
+442582bc8fd460fe6d18d1189f676351dc6cbca1 bpftool: Print newline before '}' for struct with padding only fields
+90adcc400d40d1994de6134fa28cb8569978524c Revert "pinctrl: amd: Disable and mask interrupts on resume"
+e89b9f225d70a0f335f8fdac652001959664ff74 ALSA: emu10k1: fix capture interrupt handler unlinking
+bc2c80d758d5071c33d798276c819c03b61f5927 ALSA: hda/sigmatel: add pin overrides for Intel DP45SG motherboard
+30f83667adc288b2a4a86395932a0cbef2322346 ALSA: i2c/cs8427: fix iec958 mixer control deactivation
+e32a22f8d25526cb21c40b55593a7af28dcdd046 ALSA: firewire-tascam: add missing unwind goto in snd_tscm_stream_start_duplex()
+069e4a3deff4a64b3b0cedcdd1073b72992fb490 ALSA: hda/sigmatel: fix S/PDIF out on Intel D*45* motherboards
+bca28ee47975771c6d7e24c9f013f18d8898249d Bluetooth: L2CAP: Fix use-after-free in l2cap_disconnect_{req,rsp}
+e566910c870fc20cbd51fdf07f1be9aa9fcac718 Bluetooth: Fix race condition in hidp_session_thread
+d8fc4d0860d6dd9cf8fb828793cf65b08206eff1 btrfs: print checksum type and implementation at mount time
+50a78f4c68588ecf3aa2972e1e7b301ade13c5d2 btrfs: fix fast csum implementation detection
+7e22bbb6096bcec28a20155476681933d72b631a fbmem: Reject FB_ACTIVATE_KD_TEXT from userspace
 
---===============2879800257599154940==
+--===============8662245873161238195==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d0fa0a038a68-7669e92427b5.txt
+Content-Disposition: attachment; filename=revlist-7669e92427b5-60d79b2c931a.txt
 
-93369ac95e5bbf75c7f9e3132713258b064e15ac Revert "pinctrl: amd: Disable and mask interrupts on resume"
-9331c96935e76e8d857b629616125593938a8884 ALSA: emu10k1: fix capture interrupt handler unlinking
-00d3d01ce09d55a0ebd315f0ed25a654d42ef9c5 ALSA: hda/sigmatel: add pin overrides for Intel DP45SG motherboard
-9f79b7842210453bd66d09825d8a361632ea8c14 ALSA: i2c/cs8427: fix iec958 mixer control deactivation
-f27e5d0fe045f332b65fa77b35377f71c362891f ALSA: firewire-tascam: add missing unwind goto in snd_tscm_stream_start_duplex()
-8c84f18f6c6cda62bc7592c246d31db5e5a4a5e9 ALSA: emu10k1: don't create old pass-through playback device on Audigy
-04560a7ed7baf5d7e2a5a4ab13e954c622eed7cc ALSA: hda/sigmatel: fix S/PDIF out on Intel D*45* motherboards
-d55b78880cf6a4c7c4985beed556766cc5fef74f Bluetooth: L2CAP: Fix use-after-free in l2cap_disconnect_{req,rsp}
-dd1c38612e9a6a8f96f1999c685f85356f55d2ed Bluetooth: Fix race condition in hidp_session_thread
-e6820f5121d36e856e7f25dfe3ab63d7ab05a006 btrfs: print checksum type and implementation at mount time
-f2e03ab1e0b099c3d958310d07344f8c69fbe78b btrfs: fix fast csum implementation detection
-7669e92427b5bf8e77e4aadb198761e735acbe21 fbmem: Reject FB_ACTIVATE_KD_TEXT from userspace
+822d17195be9c7de5fd081ec35958e196abd5fca Revert "pinctrl: amd: Disable and mask interrupts on resume"
+18ae0e90055a9a5d6a749f1d72109fb2063234c9 ALSA: emu10k1: fix capture interrupt handler unlinking
+4b4fc93dda33dd4f25be6421213fe3fb76c2bd9a ALSA: hda/sigmatel: add pin overrides for Intel DP45SG motherboard
+f0293da79bf7f71927ae8eaae5e2b0d02259edf7 ALSA: i2c/cs8427: fix iec958 mixer control deactivation
+ad40d4624040cce21de8bc1da805bd4849d82cda ALSA: firewire-tascam: add missing unwind goto in snd_tscm_stream_start_duplex()
+ac7ba45f9ea87ecfd3cf7382eaa553a40f2b05cc ALSA: emu10k1: don't create old pass-through playback device on Audigy
+86b5f07d67a9be5291e75d4986a45a0ddd66731d ALSA: hda/sigmatel: fix S/PDIF out on Intel D*45* motherboards
+9edd77ae4328d2a794967de228c5ce217a399887 Bluetooth: L2CAP: Fix use-after-free in l2cap_disconnect_{req,rsp}
+2b32f851563917e5d13c839171c9f0bb22a9ab46 Bluetooth: Fix race condition in hidp_session_thread
+0268c0c2d2b42b4cd718baf9711d1377b6b353f6 btrfs: print checksum type and implementation at mount time
+7e3189aef0401eda40177e84e7b618af22a2bdf9 btrfs: fix fast csum implementation detection
+60d79b2c931a5c6510374452a2d942273dad50d9 fbmem: Reject FB_ACTIVATE_KD_TEXT from userspace
 
---===============2879800257599154940==
+--===============8662245873161238195==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6a4f2d86662d-2731a404b690.txt
+Content-Disposition: attachment; filename=revlist-2731a404b690-9957bde7b5c6.txt
 
-5bffffa11fdead06d70687f69396d2ef77dfd97a Revert "treewide: Replace DECLARE_TASKLET() with DECLARE_TASKLET_OLD()"
-52ffc4464aa71f2f195ee7b463a5f02d3538c9de treewide: Replace DECLARE_TASKLET() with DECLARE_TASKLET_OLD()
-d5edd84009889dddae7ca4fbc849d6bd511f1298 smb3: fix problem with null cifs super block with previous patch
-08beb3ec363e083f2fb2b58c0446649f0986a5f1 pinctrl: amd: Use irqchip template
-875dc266e2a18f5253c93c03ac358670d4d8f401 pinctrl: amd: disable and mask interrupts on probe
-05a23be855daa8b6900809980d80e00dcae95ae6 pinctrl: amd: Disable and mask interrupts on resume
-b1955700dfb3636d1a850c519d8a66bc85d2ba5b pwm: cros-ec: Explicitly set .polarity in .get_state()
-f1bdd6c1121c69d68c0a267703de56ed10682185 pwm: sprd: Explicitly set .polarity in .get_state()
-4d53236d697fe168ebbd00c8b2d0412037c7d88c wifi: mac80211: fix invalid drv_sta_pre_rcu_remove calls for non-uploaded sta
-acbd6dd26bfe8d08b46f2a68040ee7c31f3c05a1 icmp: guard against too small mtu
-e957962b407a83eed4c1a2c6b67b2e853be2a7d3 net: don't let netpoll invoke NAPI if in xmit context
-69cf250d911ab0f41f7250b409a3149914808812 sctp: check send stream number after wait_for_sndbuf
-04f46177557e73ffd9a49d2280115f5ea65337d8 ipv6: Fix an uninit variable access bug in __ip6_make_skb()
-bbb44f7003b73466fdf40fa65274054b6dc59858 gpio: davinci: Add irq chip flag to skip set wake
-08c8b4299ed2dd75d07da642875b6b6302892905 sunrpc: only free unix grouplist after RCU settles
-5fad417cf0607d5bca7e336920ca2bdb97b4b5ea NFSD: callback request does not use correct credential for AUTH_SYS
-1c910e5066a2106fd91aea1f194d9a05bb863a04 xhci: also avoid the XHCI_ZERO_64B_REGS quirk with a passthrough iommu
-13e58870ebe22b35c5b70eda39cfa0521e53e008 USB: serial: cp210x: add Silicon Labs IFS-USB-DATACABLE IDs
-b1cdd95e829c0050567621ceb4a724e92dd223c8 usb: typec: altmodes/displayport: Fix configure initial pin assignment
-f58f68c22f6990a5cd8ab1d20a4dae7766cc3584 USB: serial: option: add Telit FE990 compositions
-fedb62aa81c28c1c069c55dd2b032be02b39e347 USB: serial: option: add Quectel RM500U-CN modem
-9332fd6d70e7b795071ff54040690613e697a735 iio: adc: ti-ads7950: Set `can_sleep` flag for GPIO chip
-cfb65e31fb8ec37e408afebfc0cc67eb083f4262 iio: dac: cio-dac: Fix max DAC write value check for 12-bit
-15593608a7961945fe440dd3096c5cce0154bf42 tty: serial: sh-sci: Fix transmit end interrupt handler
-e5d7ea284845f732c54d5537eb95973e15e3a2a8 tty: serial: sh-sci: Fix Rx on RZ/G2L SCI
-07b79aae9143224342f42b7c4945f3eb7667e2d5 tty: serial: fsl_lpuart: avoid checking for transfer complete when UARTCTRL_SBK is asserted in lpuart32_tx_empty
-6523c64b904e4cfb69096fbcf625525d9240f9d5 nilfs2: fix potential UAF of struct nilfs_sc_info in nilfs_segctor_thread()
-aee5a5ef0b62aa833efadea3f03e58acfcac2062 nilfs2: fix sysfs interface lifetime
-43ec3dc21cf27b1ec47d8285ddf59c534a04f678 ALSA: hda/realtek: Add quirk for Clevo X370SNW
-da300cd054286940a95de73cd0d2732b99811747 perf/core: Fix the same task check in perf_event_set_output
-abeafb9072f03b980b5f5d810f288015549b10bc ftrace: Mark get_lock_parent_ip() __always_inline
-9e393329d356a1f8176220bfbc20c08a65f29b6e can: j1939: j1939_tp_tx_dat_new(): fix out-of-bounds memory access
-8cc250981782abc1bc82502a8aa1cbab69536800 tracing: Free error logs of tracing instances
-44cd8550ecf53a794f4e037f2791715d8303e8ec net_sched: prevent NULL dereference if default qdisc setup failed
-9990ce4c164a2facf5247574e52d8353e3a88742 drm/panfrost: Fix the panfrost_mmu_map_fault_addr() error path
-0b1ae172abdd7677a9fbce6a2a5d886cd31f2d31 ring-buffer: Fix race while reader and writer are on the same page
-6b860e846b671abdf125570bcbd2e5590f834492 mm/swap: fix swap_info_struct race between swapoff and get_swap_pages()
-b70ecb49ed3ad1976e3dad5a6b05b8ddbec08061 irqdomain: Look for existing mapping only once
-c97ed3787b518b266484ed2dc1c0ed03b9ce3b85 irqdomain: Refactor __irq_domain_alloc_irqs()
-3a30b29af04504568c5af60da766aa25db2b1499 irqdomain: Fix mapping-creation race
-2731a404b690133d9009def6584be7eef2a49619 Revert "pinctrl: amd: Disable and mask interrupts on resume"
+d7f6fb9814bf14bd6a6f472a7df47483e2c2a9fe Revert "treewide: Replace DECLARE_TASKLET() with DECLARE_TASKLET_OLD()"
+a9f24ebca30c6970399641bf5a22dc8ceec30231 treewide: Replace DECLARE_TASKLET() with DECLARE_TASKLET_OLD()
+e5a203f8888402973aa01500e40ce108bbf38def smb3: fix problem with null cifs super block with previous patch
+d3cddfe58d002e4c91d281f5becb253e105901a9 pinctrl: amd: Use irqchip template
+82b7d2eab12acb1ef71c51180d97c2d0411b5c43 pinctrl: amd: disable and mask interrupts on probe
+a2136cddc7a7b5c459d0189d4807109ffa3fbf77 pinctrl: amd: Disable and mask interrupts on resume
+e47bfcf00698159529c83078848a8a3cc6c7a4ff pwm: cros-ec: Explicitly set .polarity in .get_state()
+232e296b22a7deef398926694efef96786a7faff pwm: sprd: Explicitly set .polarity in .get_state()
+40f083fb447cf96ecc0bba811476a25802c87042 wifi: mac80211: fix invalid drv_sta_pre_rcu_remove calls for non-uploaded sta
+046b14e19ed37f48f774f621beff39a2101e6353 icmp: guard against too small mtu
+f3cea099f5e3d97272421120189eeb9ddf5dc862 net: don't let netpoll invoke NAPI if in xmit context
+7bf8d87df932961af08d578e9806c40a7ba23259 sctp: check send stream number after wait_for_sndbuf
+ff04a302d5a609000ed250480d3d4535af739ba8 ipv6: Fix an uninit variable access bug in __ip6_make_skb()
+c66b129642a2acf53df5024c252d419cd775b665 gpio: davinci: Add irq chip flag to skip set wake
+fb792d77e8f4cd7ae0a227fb507b1318cd42ee48 sunrpc: only free unix grouplist after RCU settles
+e4561ba87b0347ced53e132e53f7d5b1384696e6 NFSD: callback request does not use correct credential for AUTH_SYS
+b553fa10604cabe62da0f3f41236e9ac97c0eac7 xhci: also avoid the XHCI_ZERO_64B_REGS quirk with a passthrough iommu
+49b2e6f41f1fa98c2ce832cbdc5885cd9a488096 USB: serial: cp210x: add Silicon Labs IFS-USB-DATACABLE IDs
+afbf43e34579c4172f51f3e238a1b5de35db227c usb: typec: altmodes/displayport: Fix configure initial pin assignment
+f5f783cf01afe717ad922aa8a8a0d5ab9e7a2847 USB: serial: option: add Telit FE990 compositions
+4a9fe703266cda9fac99752e9e5a7e3387d906d7 USB: serial: option: add Quectel RM500U-CN modem
+3f8fe5144e5cff6e7d6fde279698a15ffafc92a4 iio: adc: ti-ads7950: Set `can_sleep` flag for GPIO chip
+c1e5581928b305bac1bef557b0f8bed607aede85 iio: dac: cio-dac: Fix max DAC write value check for 12-bit
+dc6ee5ce43a3b8cb3b08553cffd613fb2a7ea458 tty: serial: sh-sci: Fix transmit end interrupt handler
+18bad46f9aad5e84d8e0c97cf25a2ed99c7e9ec8 tty: serial: sh-sci: Fix Rx on RZ/G2L SCI
+bce2c8f1677bc0265272755c5fd8536a60873115 tty: serial: fsl_lpuart: avoid checking for transfer complete when UARTCTRL_SBK is asserted in lpuart32_tx_empty
+ea0f4586fbb03e92db2286db54888c1469364b09 nilfs2: fix potential UAF of struct nilfs_sc_info in nilfs_segctor_thread()
+a9c9802a50e313b742286a2504d818cdcbdf5b08 nilfs2: fix sysfs interface lifetime
+2078ce15ee7d1b2afc7e50a30f37ca1129058db7 ALSA: hda/realtek: Add quirk for Clevo X370SNW
+d8940ce96f7153e244727e63cc23e62684c6e231 perf/core: Fix the same task check in perf_event_set_output
+666a291febbe707390fa04dde7e8a376009c05c1 ftrace: Mark get_lock_parent_ip() __always_inline
+a93a38df0aa326bc8bb3483cece115ea628a5193 can: j1939: j1939_tp_tx_dat_new(): fix out-of-bounds memory access
+105049820ecb984d3ecefb0bd1ca4d91f86540e7 tracing: Free error logs of tracing instances
+5cb49058d648f1308d6bec952116154066292f17 net_sched: prevent NULL dereference if default qdisc setup failed
+ea371c44aff3fd4c9c2fddb6695fd3a9e80b3db6 drm/panfrost: Fix the panfrost_mmu_map_fault_addr() error path
+1812fbf4e8e801f419e6d2278ec834b1b5b5931e ring-buffer: Fix race while reader and writer are on the same page
+64d1432a035486ba13628d763711a680e8bf6fcd mm/swap: fix swap_info_struct race between swapoff and get_swap_pages()
+78d940e6d70a25035b905bfead691a00b93fa8f0 irqdomain: Look for existing mapping only once
+2d3d5e51cfde79f3244873375986a1be6bad59b7 irqdomain: Refactor __irq_domain_alloc_irqs()
+52c1128999b06fa5700a3ef950e5e6407532ba11 irqdomain: Fix mapping-creation race
+801dc5e4203ad78ea800914187dab90df6f3acda Revert "pinctrl: amd: Disable and mask interrupts on resume"
+40673ae4de28feb45877dc3781692015df5cafcb ALSA: emu10k1: fix capture interrupt handler unlinking
+48a219ca6b83d35a34c3639bac03532d1ab29aba ALSA: hda/sigmatel: add pin overrides for Intel DP45SG motherboard
+0ddd0bf437277bd3dba403892f85d8003c1e89ee ALSA: i2c/cs8427: fix iec958 mixer control deactivation
+b45d5ca51ce198c51bcc9aaf615c21a8d640b9ea ALSA: firewire-tascam: add missing unwind goto in snd_tscm_stream_start_duplex()
+62fc3f822c69c18c3311d2b9ce3d0434fae13f35 ALSA: hda/sigmatel: fix S/PDIF out on Intel D*45* motherboards
+d83c7ec84ee75431c9d956147afe5580db4d8430 Bluetooth: L2CAP: Fix use-after-free in l2cap_disconnect_{req,rsp}
+acbd576bacd088577d291a2f957c00f44f063703 Bluetooth: Fix race condition in hidp_session_thread
+4a569e03edf2e71b71375d343c038f8c7fd6acdb btrfs: print checksum type and implementation at mount time
+9957bde7b5c6378c92cb76d34304e785847dbf27 btrfs: fix fast csum implementation detection
 
---===============2879800257599154940==
+--===============8662245873161238195==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f7dc7e601a2a-3da4bf216083.txt
+Content-Disposition: attachment; filename=revlist-3da4bf216083-39097b93e319.txt
 
-4df8ec7c1e52058f7f61b8a41612141230389720 Revert "pinctrl: amd: Disable and mask interrupts on resume"
-b7e31d1b23a80f18da709716ffa98bc45cf0d75b drm/amd/display: Pass the right info to drm_dp_remove_payload
-e823cfb819b2050bfa1c4518f298e21afd40b895 ALSA: emu10k1: fix capture interrupt handler unlinking
-e871b96a2b317e9c07a52c1546560940f6ff1857 ALSA: hda/sigmatel: add pin overrides for Intel DP45SG motherboard
-3a0cf65315ae79be43a14e877dbb1311364332b5 ALSA: i2c/cs8427: fix iec958 mixer control deactivation
-743e8a7cf0f7deaecb8acc343ffe6f446c440899 ALSA: hda: patch_realtek: add quirk for Asus N7601ZM
-2a0d7dec1e338c0bc7490e48dce6a7e490dece05 ALSA: hda/realtek: Add quirks for Lenovo Z13/Z16 Gen2
-af0261e9021113bca1ecb05cef0bd85825e97a4d ALSA: firewire-tascam: add missing unwind goto in snd_tscm_stream_start_duplex()
-674a71e8e510113b627c1f28632599868eafa2b1 ALSA: emu10k1: don't create old pass-through playback device on Audigy
-e32baf3a78de23ff4e55c21197da628ef06fb2c0 ALSA: hda/sigmatel: fix S/PDIF out on Intel D*45* motherboards
-c98bab6639a80163eed376efdaf630a3a3126149 ALSA: hda/hdmi: disable KAE for Intel DG2
-0a809cdc8a8036cb8611b63187459121a97547c7 Bluetooth: L2CAP: Fix use-after-free in l2cap_disconnect_{req,rsp}
-5bdc32084db845d369b9cf1ed205f09336905e69 Bluetooth: Fix race condition in hidp_session_thread
-28ded571243f79293b2f1b0a5bdd7a1665201aa2 bluetooth: btbcm: Fix logic error in forming the board name.
-6a0dda92d3c6e1cd79a0d0c7623318588635ca0d Bluetooth: Free potentially unfreed SCO connection
-5aa4b4bfdc973feb3c2ca3d697841910746fc517 Bluetooth: hci_conn: Fix possible UAF
-c54bab2e846f43b11ba20e6d3c66754d5f4b5dc2 btrfs: restore the thread_pool= behavior in remount for the end I/O workqueues
-a0ff8ca1ce2a61785776d8fcdf4d98c7bbc7a96a btrfs: fix fast csum implementation detection
-3da4bf2160832423257cc78ad83837cbdbbc1061 fbmem: Reject FB_ACTIVATE_KD_TEXT from userspace
+56ec64ac0c09b3eb561a46baa28d976333cabcea Revert "pinctrl: amd: Disable and mask interrupts on resume"
+fe1d47f082ab1caa5e78c946f5d6e1ab5d656c46 drm/amd/display: Pass the right info to drm_dp_remove_payload
+5c816962f56e4e8c6daf424e66efdfcf17be1bc0 ALSA: emu10k1: fix capture interrupt handler unlinking
+a1d955874d1a1c7f23ec5d264ce7b6b526b4ba62 ALSA: hda/sigmatel: add pin overrides for Intel DP45SG motherboard
+20e4aaa054cfa689f32b1270d356cb9f2727c6f8 ALSA: i2c/cs8427: fix iec958 mixer control deactivation
+d3b7f8e1972f8391891e1302b82c901fcc431c3c ALSA: hda: patch_realtek: add quirk for Asus N7601ZM
+bfcbdae6a668113670f186ea090ccbc227f9fdd3 ALSA: hda/realtek: Add quirks for Lenovo Z13/Z16 Gen2
+2b5b3cd1d914d80152d7f364e3cd488adea011f8 ALSA: firewire-tascam: add missing unwind goto in snd_tscm_stream_start_duplex()
+364d02d582fc1fa1daadd0f21ffdcc3467435f00 ALSA: emu10k1: don't create old pass-through playback device on Audigy
+579a7d8dc0087ed6a8be7bd579758754a141927a ALSA: hda/sigmatel: fix S/PDIF out on Intel D*45* motherboards
+8ad6de63805d865917dd5c059ef16b4ca851b7bb ALSA: hda/hdmi: disable KAE for Intel DG2
+566b0cfc7b1311346aaf5a04b592658f1652e3c7 Bluetooth: L2CAP: Fix use-after-free in l2cap_disconnect_{req,rsp}
+0eadacb6879d946f44ea233e8d52172ac126090c Bluetooth: Fix race condition in hidp_session_thread
+2e594888db58dedf53ad9558b09fcd6795122dea bluetooth: btbcm: Fix logic error in forming the board name.
+aef9ecb39910274235d6326990aa710606738d71 Bluetooth: Free potentially unfreed SCO connection
+0d07e35e39abd2e95873c8e009faba541732760e Bluetooth: hci_conn: Fix possible UAF
+166cd0099bc0d7c02695d99a674c055f6ca60c8b btrfs: restore the thread_pool= behavior in remount for the end I/O workqueues
+4b0ac8d695bf8a61be68e08ee1006fd25f344feb btrfs: fix fast csum implementation detection
+39097b93e319129696fcb085b552b36ee08c5c69 fbmem: Reject FB_ACTIVATE_KD_TEXT from userspace
 
---===============2879800257599154940==
+--===============8662245873161238195==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2d6a600586c0-d1faff8c6768.txt
+Content-Disposition: attachment; filename=revlist-d1faff8c6768-d8d1156aab77.txt
 
-ab2e5d880aa3e7f5869d06f63ab80b4e026bc001 Revert "pinctrl: amd: Disable and mask interrupts on resume"
-cd3ea76bf0c2cf949200ef9ed8449d6c6165b7d4 drm/amd/display: Pass the right info to drm_dp_remove_payload
-9eed89483ba734e2e7721fd6da9a45c4a118d51c drm/i915: Workaround ICL CSC_MODE sticky arming
-8512842d7b7e76a03c66b5b6526096998dccf927 ALSA: emu10k1: fix capture interrupt handler unlinking
-13f953835866977143a1b219e2f164603177df7f ALSA: hda/sigmatel: add pin overrides for Intel DP45SG motherboard
-686d33430ef94e4db1bfb608ecae24dec0221a38 ALSA: i2c/cs8427: fix iec958 mixer control deactivation
-a75e4de50210178a10aa97f8899771fd25780f76 ALSA: hda: patch_realtek: add quirk for Asus N7601ZM
-bf91cb2ae4033297c8ba1b40394907687977d5b4 ALSA: hda/realtek: Add quirks for Lenovo Z13/Z16 Gen2
-93944d3b86a1b12c5de4b8ff3be77e23ac6646aa ALSA: firewire-tascam: add missing unwind goto in snd_tscm_stream_start_duplex()
-7ea5a8966fb10a271dcfff22ae73c5539709eede ALSA: emu10k1: don't create old pass-through playback device on Audigy
-449cea7427d1c8ac67c7980540d86cb3ef43bb77 ALSA: hda/sigmatel: fix S/PDIF out on Intel D*45* motherboards
-7ee7bdf9e628816e017f22581729c3a050e70832 ALSA: hda/hdmi: disable KAE for Intel DG2
-de19eddbe44bc2d248c3c45948afa75c89bd1369 Bluetooth: L2CAP: Fix use-after-free in l2cap_disconnect_{req,rsp}
-023a3165c4c419b50302c9838e31eab0c7360a89 Bluetooth: Fix race condition in hidp_session_thread
-81105436a434793798051dcf841f0b6617d9a145 bluetooth: btbcm: Fix logic error in forming the board name.
-a0aede2ae81a5bccf32b97eb3971e7c4f67c71ca Bluetooth: Free potentially unfreed SCO connection
-0b986f74cf9d970673a917551ff8b93d351a1068 Bluetooth: hci_conn: Fix possible UAF
-793e395b5f1a7c4c4d39a8b366c2dc82a19a7d5a btrfs: restore the thread_pool= behavior in remount for the end I/O workqueues
-431f46f08ccc8f76ec868a0d3b47b76a595966c6 btrfs: fix fast csum implementation detection
-d1faff8c67686ca19d984a94243093a31b5786ae fbmem: Reject FB_ACTIVATE_KD_TEXT from userspace
+e98f61572c98af429e591682a27d8cf40b74e719 Revert "pinctrl: amd: Disable and mask interrupts on resume"
+888e920dc56d14785d753619789891c3ed5710e1 drm/amd/display: Pass the right info to drm_dp_remove_payload
+dadc9e8bd4cc2ac4c52ea06cdfbc31b071e0dc0c drm/i915: Workaround ICL CSC_MODE sticky arming
+6e4a82bb21e386e6c1f8fd3363f905954ba0d1bd ALSA: emu10k1: fix capture interrupt handler unlinking
+a8165c4f2c87a844fe6d4d15e73d3177ccbfd991 ALSA: hda/sigmatel: add pin overrides for Intel DP45SG motherboard
+b0f0c2f8336721cb1c26d3692de3d2f339a07ac4 ALSA: i2c/cs8427: fix iec958 mixer control deactivation
+6667081d3e2a20d8f73fc4025ddf31eb1bcbe5ac ALSA: hda: patch_realtek: add quirk for Asus N7601ZM
+795743a34f6db094b54f75768abba03066313d56 ALSA: hda/realtek: Add quirks for Lenovo Z13/Z16 Gen2
+c84f4b6a9582a5a4c48b7711c79905da93013415 ALSA: firewire-tascam: add missing unwind goto in snd_tscm_stream_start_duplex()
+498a9b657b01e4c4353b3a04d20948eacef23619 ALSA: emu10k1: don't create old pass-through playback device on Audigy
+f529baea7c205a64268aa4985318333474f0bffc ALSA: hda/sigmatel: fix S/PDIF out on Intel D*45* motherboards
+18e911b2828f7952cfa809d8e23a91206938ac0c ALSA: hda/hdmi: disable KAE for Intel DG2
+9de089ed4b95f90e45beb8a6ace18564f7901afc Bluetooth: L2CAP: Fix use-after-free in l2cap_disconnect_{req,rsp}
+f7dabd1819ec0517b5cfebde46adaa1d63b332d2 Bluetooth: Fix race condition in hidp_session_thread
+8ffa584cc40dd34890111696f8b9013d43f36454 bluetooth: btbcm: Fix logic error in forming the board name.
+e32ee3be1651ce2fcad17d04d345b42ef95a786b Bluetooth: Free potentially unfreed SCO connection
+1dc45017c4c718d71d584ea0cdc4de6bdf73f723 Bluetooth: hci_conn: Fix possible UAF
+00984b9d861b5ecbd2235ce2edf5fdab8ef8f788 btrfs: restore the thread_pool= behavior in remount for the end I/O workqueues
+6cdbdceb0cabaaa78908364a909372a1392a7916 btrfs: fix fast csum implementation detection
+d8d1156aab77b751cad8b6b2f8bb8c1cb692b923 fbmem: Reject FB_ACTIVATE_KD_TEXT from userspace
 
---===============2879800257599154940==--
+--===============8662245873161238195==--
