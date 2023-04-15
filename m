@@ -1,22 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/perfbook
-Date: Sat, 15 Apr 2023 04:55:17 -0000
-Message-Id: <168153451768.24470.12645131479048674668@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============5907711415273322512=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Sat, 15 Apr 2023 06:59:39 -0000
+Message-Id: <168154197994.7296.16722691636617513798@gitolite.kernel.org>
+
+--===============5907711415273322512==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/perfbook
-user: paulmck
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 8b2744e5edfd85cb90a7429c55b56f262100452f
-    new: 6b99fc526e32a28dff14cb3b32cfa3b725846036
+    old: dc24fb18e0c9b20f06823e40b8bfe0ae6e53fbcd
+    new: d2b0a55251b6d7d18b37254b9031a083a0ca4ca7
     log: |
-         ca58c983e2e07a152f72a7e3f53147db1419b472 memorder: Self-review of chapter lead-in text
-         26c33531c06c37278192fc3e4b4a6008967ee29e memorder: Add Intel Core 2 Architecture diagram
-         e2076059e209dddcac163dce7196313d11ba8cf2 memorder: Add simplified Intel Core 2 Architecture diagram
-         6b99fc526e32a28dff14cb3b32cfa3b725846036 memorder: Add text for Intel_Core2_arch diagrams
+         d2b0a55251b6d7d18b37254b9031a083a0ca4ca7 4.19-stable patches
          
+
+--===============5907711415273322512==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1681541978 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1681541977-5e3332f8db91ac769ece616b4062c771fdf88379
+
+dc24fb18e0c9b20f06823e40b8bfe0ae6e53fbcd d2b0a55251b6d7d18b37254b9031a083a0ca4ca7 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQ6S1obHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+aFgP/jU9PsBY8cu9OrMO+s0r
+a4UTX3/aO/XRap+Ayw/GF2XrK2jakuZtORlaPvI9CHm7ik2xfBtdopAwKwuCqBv/
+2iiQ0B/exBEsEiPQq+Ddlsxg1oMf1T2OxPqbKWzd17fiC7DeIsy/EYC7v/8GhZFf
+K4Yb33iTWHlZd/hq2Xs0/mxx5m+dcj3L8L5i3bdEqWRmXq8zIbPqz1TYDLUP2EcH
+RYFDtVWXfb9D82FecfjxYsTrYffRiXsuw1I3+B6WBZ3ptp4XdNvZmXFWY27hKxi/
+uMvQ94ON09AtUFOSTnxszHLPCodrRKgkkaeMmSIjByDOZ/vdJupQYTOjZA9yQQLT
+6L/j06n3HfUs6QL21zLoSA2a9YDRYZ4TJbxif5q6QamX6YbZTMUD3ANkE7pe1P9+
+x5l7006CF1rzp6GcBtBz1Hs59jd/mRNc6RYXiqLSDvQwBMZJmQOaboHrN5VCLPd9
+1N1qgyHQ8Q7Pwi6SbUfSHDU/yjMEnnR3/+LsBO+aOjDEqCVbuqbYLeDh3RW2XUr4
+2jaXKy7DGd1ms1P3Or9phw6mLtHYO8un5gB4kZ8I4VjFUC2hPGgr4ZU9qrS+/QXD
+lw1YqmwmXJ3wCeQNZlZNIRVMXqPY6HodYiL+BHUoFfLYDZLiXf685yNuLxj3zUsx
+pSJNU4pGULfk+6Q2QRVU/Rsg
+=sGum
+-----END PGP SIGNATURE-----
+
+--===============5907711415273322512==--
