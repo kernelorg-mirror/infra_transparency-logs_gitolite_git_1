@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4124353708014391751=="
+Content-Type: multipart/mixed; boundary="===============6785486739355584699=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
-Date: Sun, 16 Apr 2023 17:16:33 -0000
-Message-Id: <168166539383.14399.14863760379839233947@gitolite.kernel.org>
+Date: Sun, 16 Apr 2023 17:17:46 -0000
+Message-Id: <168166546614.14859.2794405593243780361@gitolite.kernel.org>
 
---===============4124353708014391751==
+--===============6785486739355584699==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/xiang/erofs
 user: xiang
 changes:
-  - ref: refs/heads/dev-test
+  - ref: refs/heads/dev
     old: cce2089356b120af440492ce4147b71d90b0eada
     new: 745ed7d77834048879bf24088c94e5a6462b613f
     log: revlist-cce2089356b1-745ed7d77834.txt
 
---===============4124353708014391751==
+--===============6785486739355584699==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ b3bfcb9dbfff3da26a63efc60558acd60b96392a erofs: introduce on-disk format for lon
 10656f9ca60ed85f4cfc06bcbe1f240ee310fa8c erofs: sunset erofs_dbg()
 745ed7d77834048879bf24088c94e5a6462b613f erofs: cleanup i_format-related stuffs
 
---===============4124353708014391751==--
+--===============6785486739355584699==--
