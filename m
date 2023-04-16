@@ -1,55 +1,53 @@
-Content-Type: multipart/mixed; boundary="===============3818881430979566942=="
+Content-Type: multipart/mixed; boundary="===============8246087417761670883=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sun, 16 Apr 2023 14:23:23 -0000
-Message-Id: <168165500330.23633.1617360910390025134@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
+Date: Sun, 16 Apr 2023 14:32:07 -0000
+Message-Id: <168165552774.29441.12938478315958951658@gitolite.kernel.org>
 
---===============3818881430979566942==
+--===============8246087417761670883==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
+user: krzk
+git_push_cert_status: Y
 changes:
-  - ref: refs/heads/master
-    old: 0ff5efe3f93f64922c51004e988a5f0a7e2fdc69
-    new: ead8a6ae0502fba9f88d8a19e58df01ac1e1e67c
-    log: revlist-0ff5efe3f93f-ead8a6ae0502.txt
+  - ref: refs/tags/memory-controller-drv-6.4-2
+    old: 0000000000000000000000000000000000000000
+    new: ff9b51c9e4b1da31f005e74c1cc361b6c46c48d4
 
---===============3818881430979566942==
+--===============8246087417761670883==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0ff5efe3f93f-ead8a6ae0502.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-775d3c514c5b2763a50ab7839026d7561795924d x86/rtc: Remove __init for runtime functions
-e0b081d17a9f4e5c0cbb0e5fbeb1abe3de0f7e4e sched: Fix KCSAN noinstr violation
-f571da059f86fd9d432aea32c9c7e5aaa53245d8 lkdtm/stackleak: Fix noinstr violation
-e18398e80c73e3cc7d9c3d2e0bc06a4af8f4f1cb Revert "objtool: Support addition to set CFA base"
-7f530fba1123edcad00d59e1a73019814935f0c1 objtool: Add stackleak instrumentation to uaccess safe list
-e8deb00c0c4808654d1bf96a8f79cf1deb59b631 context_tracking: Fix KCSAN noinstr violation
-27d000d635ce48b579988e9b3240352a2a0306e0 scripts/objdump-func: Support multiple functions
-246b2c85487a7bc5f6a09098e18a96506b1b55df objtool: Add WARN_INSN()
-9290e772baccecec324ae9f2e0b470f870c097de objtool: Add symbol iteration helpers
-6126ed5dfbc656374e851bfdfb128f3aa9e1263a objtool: Remove superfluous dead_end_function() check
-bd456a1bedd20cebd37493f8cb0291294a7356ea objtool: Separate prefix code from stack validation code
-4a2c3448ed3d362431c249ec0eb0f90281804ea8 x86/linkage: Fix padding for typed functions
-5743654f5e2ebd56df99f56fca5ba4b23fe3c815 objtool: Generate ORC data for __pfx code
-f4bf3ca2e5cba655824b6e0893a98dfb33ed24e5 softirq: Add trace points for tasklet entry/exit
-803235982b8c086184d04798d9079d236f352f88 genirq: Update affinity of secondary threads
-63a759694eed61025713b3e14dd827c8548daadc debugobject: Prevent init race with static objects
-bcb7ee79029dcaeb09668a4d1489de256829a7cc posix-timers: Prefer delivery of signals to the current thread
-e797203fb3ba8c0ed2f4a8800d626c9d54fedfbf selftests/timers/posix_timers: Test delivery of signals across threads
-e3c026be4d3ca046799fde55ccbae9d0f059fb93 PCI/MSI: Remove over-zealous hardware size check in pci_msix_validate_entries()
-f22c7e92320b754e282b47b3e9955683a2d04f05 Merge branch into tip/master: 'irq/urgent'
-0b7b56c79cd7f38ee48cad2dfc30b76db5dd9828 Merge branch into tip/master: 'x86/urgent'
-627d26214edbe06fcd3d939eae538361abbd19a2 Merge branch into tip/master: 'core/debugobjects'
-197da76ad333b632367ac99b75aeb0bb4f6d51e2 Merge branch into tip/master: 'irq/core'
-481acb257fa7c24d6145e74410a3670ae525f400 Merge branch into tip/master: 'objtool/core'
-ead8a6ae0502fba9f88d8a19e58df01ac1e1e67c Merge branch into tip/master: 'timers/core'
+certificate version 0.1
+pusher krzk@kernel.org 1681655525 +0200
+pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-mem-ctrl.git
+nonce 1681655525-60eff6aafb7cedf40f3bf75322d2494639d1edb4
 
---===============3818881430979566942==--
+0000000000000000000000000000000000000000 ff9b51c9e4b1da31f005e74c1cc361b6c46c48d4 refs/tags/memory-controller-drv-6.4-2
+-----BEGIN PGP SIGNATURE-----
+
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmQ8BuUQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD1/8zD/9zINr3gR+tDBeIuQj6m98XqPE+xvEcN7zz
+CIPjf4s6cE4ST7OdWmgRDqoLOOiJ7xWmEIpq2bnSPzqXhTfebYOnaHQxWcyUsQk3
+q7hK/yick1ZKKOrQR1+CGwnjOwqvXgK1miYXHFehCJW1BnZluQQHdc/RT3elSjYQ
+mX1nnzikT1d3gLb1H4GsfK9s+X8F27uQKF1L4Ia0K0Z0Ovj0CrkffrQolfT5tqBC
+tLQA3yWVS5X8hlMRGqMeiaJal1EoK+15xvcpEkv8D5s2yFcod9AI/BBV0VuoNBwj
+ih0T0GC98KrzfNCZeIhGB+Xt4HIVZnemLzEga6AFk9Fjml8nk5L36KPeR+U6pd3a
+9xbI7irxTQP2OWTe9oDBpw10KCAxIp8GQ+YsPuitifudY4AhYyflshc5HEFcghmh
+84UJNJdinA2u7Cuc4UWHRzJQFKRCnq2MuOjQWPNdixccCe5cAofJpCBxgFhjzmAE
+ce0FWb00ewhpjA6CzdGf600q8kpXSGZNv2FHLFHI5xZqTxp7NmNacLMC25QzPx/Q
+ekvwcxuB142No9L177iUYpD8HrnaQtRaiUtOvqFMBYEQ/ybjpRnnqTbz0XFck1RU
+NhFDtylH3QHf2pd1MGu7nzoO5Re+4bKAC/E1ZMcwYC36YwZeXAq0d5HehXZnBaR1
+lp9dhyBQgQ==
+=skrA
+-----END PGP SIGNATURE-----
+
+--===============8246087417761670883==--
