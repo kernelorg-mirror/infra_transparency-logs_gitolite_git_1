@@ -1,47 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============7543982311867982759=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Sun, 16 Apr 2023 17:42:27 -0000
-Message-Id: <168166694762.30229.7734029182258751449@gitolite.kernel.org>
-
---===============7543982311867982759==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/network/wireless/iwd
+Date: Sun, 16 Apr 2023 18:14:24 -0000
+Message-Id: <168166886454.18414.376596607202419028@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/network/wireless/iwd
+user: denkenz
 changes:
   - ref: refs/heads/master
-    old: 3e7bb4f2461710b70887704af7f175383251088e
-    new: 6c538e1adbfc696ac4747fb10d63e704344f763d
-    log: revlist-3e7bb4f24617-6c538e1adbfc.txt
-
---===============7543982311867982759==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3e7bb4f24617-6c538e1adbfc.txt
-
-b277fc793daf258877b4c0744b52f69d6e6ba22e powerpc/papr_scm: Update the NUMA distance table for the target node
-d83806c4c0cccc0d6d3c3581a11983a9c186a138 purgatory: fix disabling debug info
-dcc11ac9dcaffdce428794f282c100a736244b55 Documentation/llvm: Add a note about prebuilt kernel.org toolchains
-aa7d233f45b4c549750044c9921f7afcbe50925b kbuild: give up untracked files for source package builds
-91dcf1e8068e9a8823e419a7a34ff4341275fb70 sched/fair: Fix imbalance overflow
-775d3c514c5b2763a50ab7839026d7561795924d x86/rtc: Remove __init for runtime functions
-e7067a446264a7514fa1cfaa4052cdb6803bc6a2 ksmbd: avoid out of bounds access in decode_preauth_ctxt()
-5efb685bb3af112038af78a2cdf28f0ffdad45f5 initramfs: Check negative timestamp to prevent broken cpio archive
-735faf92fb06d083ddcf6cfcf6665666dea5dcc1 init/initramfs: Fix argument forwarding to panic() in panic_show_mem()
-f6d8283549bc200e2babdd627239ece3547d634c kbuild: merge cmd_archive_linux and cmd_archive_perf
-f8d94c4e403c89ec6b09ba69f65e4547ba99dd07 kbuild: do not create intermediate *.tar for source tarballs
-3c65a2704cdd2a0cd0766352e587bae4a6268155 kbuild: do not create intermediate *.tar for tar packages
-6586c4d48018eb62d3df8af8ebe5436510ed04b1 Merge tag '6.3-rc6-ksmbd-server-fix' of git://git.samba.org/ksmbd
-f0dd81db3eac4b9455be5ce40d36320989024593 Merge tag 'kbuild-fixes-v6.3-3' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-4a1c388ce0521163f1556f7edbacb50ec2df15cf Merge tag 'powerpc-6.3-5' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
-e623175f6418f5873b28ca91a88312843b2e0dab Merge tag 'x86_urgent_for_v6.3_rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-6c538e1adbfc696ac4747fb10d63e704344f763d Merge tag 'sched_urgent_for_v6.3_rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-
---===============7543982311867982759==--
+    old: e0ea324f770c4276f1bd76a3a0a6bd37955be2e0
+    new: e13e2a56369f83ce7b39710cc2de6a981034f9a5
+    log: |
+         b42923dc5d7f2c6d6aca5ca997c35fb86f088aa4 treewide: Prefer flexible arrays to zero-length arrays
+         8465dddcab878a408953f48328cb41efd6f62f30 build: Drop Werror=variadic-macros
+         44a37d7eae0483c3f3a25d964bb105dbce172a16 hwsim: properly cleanup rules queue
+         a952cc6a47341823cb47f7e90acbecaa13984605 eapol: relax (but warn) on secure bit check in handshake 1/4
+         590e8f4f136089e332434a0e1e5b45bc7098a887 eapol: add support for FT-8021X-SHA384
+         ad769b718b6e08eae0e2d4ceb13c963201aed41b handshake: remove hardcoded kek_len for FTE decode
+         e13e2a56369f83ce7b39710cc2de6a981034f9a5 common: add FT-8021X-SHA384 to AKM_IS_8021X
+         
