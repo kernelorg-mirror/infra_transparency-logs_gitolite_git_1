@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Sun, 16 Apr 2023 22:24:35 -0000
-Message-Id: <168168387508.22275.10797940753199668058@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Sun, 16 Apr 2023 23:13:59 -0000
+Message-Id: <168168683967.21899.12965441217052661259@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
   - ref: refs/heads/master
-    old: 6c538e1adbfc696ac4747fb10d63e704344f763d
-    new: 6a8f57ae2eb07ab39a6f0ccad60c760743051026
+    old: 82654e75301a95916e49e384e25f36fb65940d07
+    new: 1a7f96c8bb6f16979326a1a15487ea472b784b16
     log: |
-         6a8f57ae2eb07ab39a6f0ccad60c760743051026 Linux 6.3-rc7
+         1a7f96c8bb6f16979326a1a15487ea472b784b16 Sun Apr 16 11:13:08 PM UTC 2023
          
-  - ref: refs/tags/v6.3-rc7
-    old: 0000000000000000000000000000000000000000
-    new: 1c8c28415e8743368a2b800520a6dd0b22ee6ec2
