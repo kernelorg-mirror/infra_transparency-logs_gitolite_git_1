@@ -1,28 +1,61 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/perfbook
-Date: Sun, 16 Apr 2023 07:13:11 -0000
-Message-Id: <168162919146.14539.17590020811279803159@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============0391879084574030714=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
+Date: Sun, 16 Apr 2023 07:31:25 -0000
+Message-Id: <168163028592.27644.4484478889978633826@gitolite.kernel.org>
+
+--===============0391879084574030714==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/perfbook
-user: paulmck
+repo: pub/scm/linux/kernel/git/gregkh/staging
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: 6b99fc526e32a28dff14cb3b32cfa3b725846036
-    new: 5675181b174d2e197dd1f0816f8c915799db00fe
+  - ref: refs/heads/staging-next
+    old: 41500f45356277f20dbca6e40b33f799f3d1e72a
+    new: 86d3ad9684562cd3cee30f28d5976cd92e702473
     log: |
-         9165dd56afdf094ca06f17200bbc9650701b7034 memorder: Self-review of Section 15.1 lead-in
-         4fc3500929503fbf408203ea3b901eb3a1cb1b34 memorder: Update Intel_Core2_arch-simplified borders
-         4258829f0795d2d3fa0dc58819ad960036df9046 memorder: Straggling Section 15.1 lead-in change
-         8a016a8377fccba950d1672b082ba4ea871283f0 memorder: Add Section 15.1.3 paragraph on handlers
-         fd4c5dcc8d82bb5d50d858d65701cb335d89c52a memorder: Self-review of Section 15.2
-         95f3b4dd185b33080493a1db6322b6db8232bd12 memorder: Self-review of Section 15.3
-         8d65245db55835512612da57ddbe3e4c72072b05 memorder: Self-review Section 15.4
-         c68916b8ae048a3d3ba2c8725210188423cdd1f4 glossary: Combinatorial explosion and implosion
-         d9648dea214ff49eb9f79d8d89fc7704e7d66995 memorder: Section 15.5 self-review
-         5675181b174d2e197dd1f0816f8c915799db00fe memorder: Section 15.6 self-review
+         ffc5e1f3585e31c8f3572389a6418f5149db0fad staging: greybus: drop loopback test files
+         748b5db6a9991ba6549758a767ccecf6f3bf0096 staging: rtl8192e: Remove macro IS_HARDWARE_TYPE_8192SE
+         edc332a9f4deac969394c1ada1918f75564867aa staging: rtl8192e: Remove unused function _rtl92e_dm_init_wa_broadcom_iot
+         a273033cf466a8f078beb87ea0f4938382f90fb5 staging: rtl8192e: Remove one of two checks for hardware RTL8192SE
+         1cadfcfe353dc36d3c37224047cd422264dab263 staging: rtl8192e: Remove unused variable RF_Type
+         86d3ad9684562cd3cee30f28d5976cd92e702473 staging: rtl8172: Add blank lines after declarations
          
+
+--===============0391879084574030714==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1681630285 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
+nonce 1681630284-9b7355ae3119074fd2ce9e671eb83de3c826b4e4
+
+41500f45356277f20dbca6e40b33f799f3d1e72a 86d3ad9684562cd3cee30f28d5976cd92e702473 refs/heads/staging-next
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQ7pE0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+eNoP/1L0jk3uBhOzPxHrrvA7
+bana6xtVOYKY5KiRwmz+4S1DIlnl6bR8XILErsjoPsolMXoumZ0P6pbl+2V2fcTO
+xXJ5SasBKwmVJXUCeWawi92QdB+bbb9pWIZZm2/r/y3FkZ3/b3j8ytAtEkE2puid
+qhRN4pGOlvvcwIePBWyc5IPO73dIwWjt526VAqYPInelyK78yTir9uBIYP/iyFGj
+oy74z5i+i3RrrIoAikhS38LEKSVJbAFwoubyAniP89S3P8E1M1YC9RAg/Ox9lHT4
+tLvi9Y4fhFZNkdy4U+MK+EwO+TSmX6mYP2xQtlANi0EwZTNpFhAMS+QiuXyqJ6dU
+bdfaR5qz/5L7/wfdxdbwF8+ldVikAwVnRbiEmPeB8MnyADS3KCHJOTw4LZS9w6tx
+BfVScd6fP3L5SJaI/fAHP+9DQmbZdPewS22GIUU7kZxoi6yC6dW9GHELE9GvBDCJ
+pmN6Ax/po5ZmEdYI8dMGPzSfrUgnPjtNPGTTJH1cwyr5ADgpyIBz2Czv3ugFRP2Y
+MbJis7D6ZyBKUDBzOas88xndXIJnlmlTzzqWFbTjSl30fNL0+Ra7t/D+r1IavRqY
+LnP0wgwMKDqvoJwiPwWwoykIknPXPWhZCOz4wo/bdAo75hlkH34H/+Pm0x+YJYaC
+h0XeHKQEy3x7f97+BwoAkDn7
+=OjBS
+-----END PGP SIGNATURE-----
+
+--===============0391879084574030714==--
