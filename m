@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8158834920694838712=="
+Content-Type: multipart/mixed; boundary="===============1290560689143641224=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 17 Apr 2023 08:35:02 -0000
-Message-Id: <168172050267.15738.3821887879134652812@gitolite.kernel.org>
+Date: Mon, 17 Apr 2023 08:35:07 -0000
+Message-Id: <168172050760.16256.6374449737062098548@gitolite.kernel.org>
 
---===============8158834920694838712==
+--===============1290560689143641224==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: ca3e36cc6eed6c195a39cdcd740c9d46349bc78b
-    new: 94ea4c5cbeeba22abb2abca416eedb2aca30bc67
-    log: revlist-ca3e36cc6eed-94ea4c5cbeeb.txt
+  - ref: refs/heads/m68k-queue
+    old: 6edd581a29e82c809ea9d986f65daee10b0c9014
+    new: 478db79a2987d41ce11bf2b184a8d3302b6e987f
+    log: revlist-6edd581a29e8-478db79a2987.txt
 
---===============8158834920694838712==
+--===============1290560689143641224==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ca3e36cc6eed-94ea4c5cbeeb.txt
+Content-Disposition: attachment; filename=revlist-6edd581a29e8-478db79a2987.txt
 
 f773f0a331d6c41733b17bebbc1b6cae12e016f5 ubi: Fix deadlock caused by recursively holding work_sem
 50c6b976fb66f623440066f8e44309b4c2f687a0 HID: add HP 13t-aw100 & 14t-ea100 digitizer battery quirks
@@ -232,6 +232,10 @@ f0dd81db3eac4b9455be5ce40d36320989024593 Merge tag 'kbuild-fixes-v6.3-3' of git:
 e623175f6418f5873b28ca91a88312843b2e0dab Merge tag 'x86_urgent_for_v6.3_rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 6c538e1adbfc696ac4747fb10d63e704344f763d Merge tag 'sched_urgent_for_v6.3_rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 6a8f57ae2eb07ab39a6f0ccad60c760743051026 Linux 6.3-rc7
-94ea4c5cbeeba22abb2abca416eedb2aca30bc67 Merge tag 'v6.3-rc7'
+63bc33527b75387c906074030c36aa17e34fb7ef nubus: Drop noop match function
+6d27d2470cf656f99b1c7296af1af111b777641c m68k: Remove obsolete config NO_KERNEL_MSG
+a4cf5f4a0fbcbd043152a80ac994d56eef30ce7a m68k: atari: usb: Add ISP1160 USB host controller support
+ac33c3696af7e836bb1aac5018f66cb10074eedf m68k: atari: Update Kconfig.bus help text
+478db79a2987d41ce11bf2b184a8d3302b6e987f m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============8158834920694838712==--
+--===============1290560689143641224==--
