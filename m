@@ -1,23 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-Date: Mon, 17 Apr 2023 18:28:43 -0000
-Message-Id: <168175612329.11088.2793558735980391905@gitolite.kernel.org>
+Subject: post-receive: pub/scm/docs/man-pages/man-pages
+Date: Mon, 17 Apr 2023 18:29:55 -0000
+Message-Id: <168175619554.11525.16865805971883838076@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-user: vudentz
+repo: pub/scm/docs/man-pages/man-pages
+user: alx
 changes:
   - ref: refs/heads/master
-    old: 492cf2b505d66b2bc0b50dae1d5e5921978f4802
-    new: 0330a285b7f111b6b6e420d038f17e1de41f7bb9
+    old: 6263befb32fdc99dd5d02b6afdd5613db9df4c3b
+    new: 4a6621c0195171e8d67e7d97eef0a608c48ca22b
     log: |
-         5612e6a8ff35581d2b5bd07590d8017d59e62898 bluetooth: Add cmd validity checks at the start of hci_sock_ioctl()
-         ed62f7eeea0d9b73a7a96b3b9db2b77143db3700 Bluetooth: L2CAP: fix "bad unlock balance" in l2cap_disconnect_rsp
-         313016d2888899897cdd7b0b1f2cb84f8da60961 bluetooth: Perform careful capability checks in hci_sock_ioctl()
-         61cad9af36db87578af1b36a3e51055ceb43a85e Bluetooth: Devcoredump: Fix storing u32 without specifying byte order issue
-         0330a285b7f111b6b6e420d038f17e1de41f7bb9 Bluetooth: btrtl: Firmware format v2 support
+         92b8493d81697e1505075c6843d1d06781b6cb27 proc.5: Document exact /proc/PID/exe behavior on unlinked pathnames
+         6c989df1af2ae2daf532c6c26b6300ac0039c4db proc.5: A process can increase its own /proc/PID/oom_adj setting
+         4a673f1645e1906393197108cfc65c7dc5d99c10 proc.5: Document that /proc/PID/oom_adj is no longer present
+         4a6621c0195171e8d67e7d97eef0a608c48ca22b proc.5: tfix
          
