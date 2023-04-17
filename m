@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1414644212829568705=="
+Content-Type: multipart/mixed; boundary="===============0961417766904057517=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Mon, 17 Apr 2023 02:31:49 -0000
-Message-Id: <168169870994.29841.3151557417443745665@gitolite.kernel.org>
+Date: Mon, 17 Apr 2023 02:32:00 -0000
+Message-Id: <168169872084.29979.8977907106840554599@gitolite.kernel.org>
 
---===============1414644212829568705==
+--===============0961417766904057517==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/kbuild
+  - ref: refs/heads/for-next
     old: 58ee5ab975abec5d3624c2bf24fd115c56327a2e
     new: ccb2d173b983984bfa35398abed3f8a76c75f788
     log: revlist-58ee5ab975ab-ccb2d173b983.txt
 
---===============1414644212829568705==
+--===============0961417766904057517==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -518,4 +518,4 @@ fb318e54fea6b8532833faef98c8b7720a30b29d kconfig: menuconfig: reorder functions 
 ddc72c9659b5a85a2d135503caf193da0723e813 kbuild: clang: do not use CROSS_COMPILE for target triple
 ccb2d173b983984bfa35398abed3f8a76c75f788 Makefile: use -z pack-relative-relocs
 
---===============1414644212829568705==--
+--===============0961417766904057517==--
