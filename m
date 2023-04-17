@@ -1,46 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============9043159511078489959=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/kernel/pgpkeys
-Date: Mon, 17 Apr 2023 16:37:04 -0000
-Message-Id: <168174942446.2202.4935256260059369275@gitolite.kernel.org>
-
---===============9043159511078489959==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Mon, 17 Apr 2023 16:46:53 -0000
+Message-Id: <168175001325.9622.16300432661959052617@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/kernel/pgpkeys
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
+user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: e869fe9def1d425b10ab566b957b93f7e74824c7
-    new: ebb08d4da97c3766069ed1cb8449378bd127470b
+  - ref: refs/heads/dev-queue
+    old: ba570adc9b8975d000a7d756b90e828a1f2004f1
+    new: 7c3aef6b016deac8695b16037c39f8cc9a4d3eff
     log: |
-         ebb08d4da97c3766069ed1cb8449378bd127470b Add D9D98003B060B92D and FA625F640EEB13CA
+         2a484ba4f73cee990fd9bcca2b85c0f5669e46c8 e1000e: Disable TSO on i219-LM card to increase speed
+         b6b0b36bce932937d2cc907f25b054500b9ed27e i40e: fix accessing vsi->active_filters without holding lock
+         a5245d5a3437509cb3d83d1f6a910ae7a043858b i40e: fix PTP pins verification
+         7c3aef6b016deac8695b16037c39f8cc9a4d3eff i40e: fix i40e_setup_misc_vector() error handling
          
-
---===============9043159511078489959==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher B6C41CE35664996C! 1681749424 -0400
-pushee gitolite.kernel.org:pub/scm/docs/kernel/pgpkeys
-nonce 1681749424-e7cacf9f950dffa15d73a0b5fcab6191edeec26c
-
-e869fe9def1d425b10ab566b957b93f7e74824c7 ebb08d4da97c3766069ed1cb8449378bd127470b refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCZD11sAAKCRC2xBzjVmSZ
-bFvaAQDJGeAXtf2wBMJ4sAzg3/0vFz4fKHZuGMNkUEIqjvAy3wEAtJDADp/0hdra
-XufpqlrKS2xXHgtYwq2aX1ba/3L7DwI=
-=kr/+
------END PGP SIGNATURE-----
-
---===============9043159511078489959==--
