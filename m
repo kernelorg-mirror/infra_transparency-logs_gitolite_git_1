@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
-Date: Mon, 17 Apr 2023 16:01:53 -0000
-Message-Id: <168174731390.10948.3888412209203641606@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
+Date: Mon, 17 Apr 2023 16:06:27 -0000
+Message-Id: <168174758790.13971.4530070873047348236@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/johan/usb-serial
-user: johan
+repo: pub/scm/linux/kernel/git/sudeep.holla/linux
+user: sudeep.holla
 changes:
-  - ref: refs/heads/usb-next
-    old: ad813605f77553f5e73cd23913fa7591b0d794f6
-    new: 5b6ab914682cc1a07db791dd35f721344f6168e7
-    log: |
-         5b6ab914682cc1a07db791dd35f721344f6168e7 USB: serial: option: add UNISOC vendor and TOZED LT70C product
-         
+  - ref: refs/tags/cacheinfo-updates-6.4
+    old: 31d459acf19c648e316f02ff280f412facd10516
+    new: 1a13dbcf32007f4b33ed39847ed102cf1e9cbc8a
