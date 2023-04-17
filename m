@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Mon, 17 Apr 2023 12:33:22 -0000
-Message-Id: <168173480265.27927.5869990742552256838@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ieee1394/linux1394
+Date: Mon, 17 Apr 2023 12:42:06 -0000
+Message-Id: <168173532628.1299.1376797794536674828@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/ieee1394/linux1394
+user: takaswie
 changes:
-  - ref: refs/heads/master
-    old: 7f99cc2880a00a1d48b44df550a1dba03c0f6f40
-    new: 42e141d20505a0deb969c2e583a463c26aadc62f
+  - ref: refs/heads/for-next
+    old: fe15c26ee26efa11741a7b632e9f23b01aca4cc6
+    new: ca8175319410d761451308d9012ca8beb3b072f5
     log: |
-         0d754deeddb60c016e199faa6ad4f1b26e934897 libmount: don't define struct stat is unnecessary
-         42e141d20505a0deb969c2e583a463c26aadc62f libmount: use AT_STATX_DONT_SYNC when touch mountpoints
+         752ca5354bfdfc51ecaaafe7cbd1349c49fe6802 MAINTAINERS: replace maintainer of FireWire subsystem
+         ca8175319410d761451308d9012ca8beb3b072f5 firewire: init_ohci1394_dma: use correct function names in comments
          
