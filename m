@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Mon, 17 Apr 2023 14:43:57 -0000
-Message-Id: <168174263730.18177.16109777488981051762@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
+Date: Mon, 17 Apr 2023 14:49:28 -0000
+Message-Id: <168174296897.23024.4515553760469703441@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/soc/soc
-user: arnd
+repo: pub/scm/linux/kernel/git/sudeep.holla/linux
+user: sudeep.holla
 changes:
-  - ref: refs/heads/drivers/memory-2
+  - ref: refs/tags/cacheinfo-updates-6.4
     old: 0000000000000000000000000000000000000000
-    new: 3ec0e1ea4770e40575bfb2bb4e9ebbbaa3c80d3f
+    new: 31d459acf19c648e316f02ff280f412facd10516
