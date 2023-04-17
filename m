@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Mon, 17 Apr 2023 21:01:15 -0000
-Message-Id: <168176527509.19872.6329476010200231172@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Mon, 17 Apr 2023 21:14:45 -0000
+Message-Id: <168176608505.26907.17796277197315216345@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/robh/linux
-user: robh
+repo: pub/scm/linux/kernel/git/pci/pci
+user: helgaas
 changes:
-  - ref: refs/heads/for-kernelci
-    old: ed5e534459a3917e17948147144f3efa5967959d
-    new: 6f51957fe7b40c042740a023a228c35043993bcc
+  - ref: refs/heads/reset
+    old: e74b2b58ff715ca17bb49c3ad89f665a7150e14b
+    new: a5a6dd2624698b6e3045c3a1450874d8c790d5d9
     log: |
-         6f51957fe7b40c042740a023a228c35043993bcc of: fdt: Scan /memreserve/ last
+         a5a6dd2624698b6e3045c3a1450874d8c790d5d9 PCI/PM: Extend D3hot delay for NVIDIA HDA controllers
          
