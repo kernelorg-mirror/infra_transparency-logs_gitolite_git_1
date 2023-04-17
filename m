@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Mon, 17 Apr 2023 16:13:08 -0000
-Message-Id: <168174798839.17776.202327117907900037@gitolite.kernel.org>
+Date: Mon, 17 Apr 2023 16:17:01 -0000
+Message-Id: <168174822171.21966.16550704066216006257@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
 user: snitzer
 changes:
   - ref: refs/heads/for-next
-    old: f7995089c508a5a11b0491c7b348d5c07217a4e8
-    new: d731e53370624b904f192790f11f88226e998e14
+    old: d731e53370624b904f192790f11f88226e998e14
+    new: 3d32aaa7e66d5c1479a3c31d6c2c5d45dd0d3b89
     log: |
-         d731e53370624b904f192790f11f88226e998e14 dm ioctl: fix possible deadlock in table_clear()
+         3d32aaa7e66d5c1479a3c31d6c2c5d45dd0d3b89 dm ioctl: fix nested locking in table_clear() to remove deadlock concern
          
