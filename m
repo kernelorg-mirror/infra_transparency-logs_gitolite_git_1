@@ -1,22 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Mon, 17 Apr 2023 16:46:53 -0000
-Message-Id: <168175001325.9622.16300432661959052617@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/devicetree/devicetree-rebasing
+Date: Mon, 17 Apr 2023 16:49:45 -0000
+Message-Id: <168175018564.10836.1497090334828812913@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/net-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/devicetree/devicetree-rebasing
+user: ijc
 changes:
-  - ref: refs/heads/dev-queue
-    old: ba570adc9b8975d000a7d756b90e828a1f2004f1
-    new: 7c3aef6b016deac8695b16037c39f8cc9a4d3eff
+  - ref: refs/heads/master
+    old: e554bcb017ea318a3b7358907700db075fcddc76
+    new: 50a96c5c823f1e935e488fbec1c1b1083fc466e8
     log: |
-         2a484ba4f73cee990fd9bcca2b85c0f5669e46c8 e1000e: Disable TSO on i219-LM card to increase speed
-         b6b0b36bce932937d2cc907f25b054500b9ed27e i40e: fix accessing vsi->active_filters without holding lock
-         a5245d5a3437509cb3d83d1f6a910ae7a043858b i40e: fix PTP pins verification
-         7c3aef6b016deac8695b16037c39f8cc9a4d3eff i40e: fix i40e_setup_misc_vector() error handling
+         0ea02791639c3142c8d1c3a812c0a4e417315cf9 dt-bindings: interrupt-controller: loongarch: Fix mismatched compatible
+         f28da87e0345c6af82c2f527c92e3751a6bcd9ef Merge tag 'devicetree-fixes-for-6.2-3' of git://git.kernel.org/pub/scm/linux/kernel/git/robh/linux
+         50a96c5c823f1e935e488fbec1c1b1083fc466e8 Merge tag 'v6.3-rc7-dts-raw'
          
