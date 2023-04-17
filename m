@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 17 Apr 2023 10:43:09 -0000
-Message-Id: <168172818964.18330.13260590364524734745@gitolite.kernel.org>
+Date: Mon, 17 Apr 2023 10:43:32 -0000
+Message-Id: <168172821260.18503.2296751237454331653@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: peterz
 changes:
-  - ref: refs/heads/perf/core
-    old: 872d28001be56b205bd9b3f97cea1571a1bde317
-    new: 15def34e2635ab7e0e96f1bc32e1b69609f14942
+  - ref: refs/heads/locking/core
+    old: 561b081f19655a46a9690e868fa4aa516ff1b62c
+    new: 93eff603d6a2bc1895eeb7063dbd0661bb760b74
     log: |
-         15def34e2635ab7e0e96f1bc32e1b69609f14942 perf/core: Fix hardlockup failure caused by perf throttle
+         93eff603d6a2bc1895eeb7063dbd0661bb760b74 locking/atomic: Correct (cmp)xhcg instrumentation
          
