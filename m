@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============7364442769343654458=="
+Content-Type: multipart/mixed; boundary="===============7294886661054794772=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Mon, 17 Apr 2023 20:27:15 -0000
-Message-Id: <168176323581.29461.11394249546684329237@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 17 Apr 2023 20:27:23 -0000
+Message-Id: <168176324336.29562.2509476883457096172@gitolite.kernel.org>
 
---===============7364442769343654458==
+--===============7294886661054794772==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.4
+  - ref: refs/heads/asoc-6.4
     old: 97c236e2d4628bddbd1ac5877da030f9be291d30
     new: 3a5e13eb151eaa7835e169c69cf38ced8724d1f2
     log: |
@@ -29,28 +29,28 @@ changes:
          3a5e13eb151eaa7835e169c69cf38ced8724d1f2 ASoC: cs35l56: Code improvements
          
 
---===============7364442769343654458==
+--===============7294886661054794772==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1681763234 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1681763233-f98824fbeb0f0ad9e6bc75989fb5cfa8c2e72217
+pusher C3F436CA30F5D8EB 1681763241 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1681763241-b748ac388a302217e2a596e558f7d4151e510ceb
 
-97c236e2d4628bddbd1ac5877da030f9be291d30 3a5e13eb151eaa7835e169c69cf38ced8724d1f2 refs/heads/for-6.4
+97c236e2d4628bddbd1ac5877da030f9be291d30 3a5e13eb151eaa7835e169c69cf38ced8724d1f2 refs/heads/asoc-6.4
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmQ9q6IACgkQJNaLcl1U
-h9Ct9wf7BWuuoBh0KRuqkLcmLtt7DtWt7BmyXwOjNe8IezHNBhm4UowpWtDeubE1
-aC8UsKsi5qXj73k5M/b83EGtjs7Qk68jTd0NT9f+MDR9WSXUmRHJVzW3BUtlCDMq
-zybPR7vCb7hDLrmbMYpEjdgdHFJT+pGC6plfkuTFbgcbl+6klpXwNW5L18nPvDDk
-SXhcJo19b+1mQLKRiEW0UgOCnpx4XuueDOBNNIkpRN9jS85AtfFPznyWr3r5eBPX
-u6MRxaSNhQEjk+NV7hbUF5UQgleVpCwvXK/WARhFY7qYZEEY/K8i8fBoOpzhWEe7
-PorOl76ItSyoezZcXudRmG3FLFVVWw==
-=xMUU
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmQ9q6kACgkQJNaLcl1U
+h9CEZgf/XXxsSV8BPofzVHXxhm2EQeyR/RPXQ2Muc8v21hHx/h6zU4hbIKhgIVbS
+OekLu5iUbyULyw2wdKQWtn144UPgo3TVtsYWYTToF/gx2wWBxJzPGQ+A4/PBsxm/
+YXOSJQl9NnrUk/g5JlY2s83zEIS+9XAudMcX4E6O6fx/U8R5sBIYPzrowdfNGnZf
+0Kd7EnzPu40OknxOlbjJ3S/Pb6k4f/wHopLnFizlDKixIXeqddhFPkmOMT+K4BEu
+5+CoTkO8tp+UcSYKUVv3G380kghoLbjwqjSHIMWCu2LleQcIBVf2tWUuXGDOJ0C9
+kE4piw1MeqNgi27V0xfCCpuNTBZbsQ==
+=g/Tc
 -----END PGP SIGNATURE-----
 
---===============7364442769343654458==--
+--===============7294886661054794772==--
