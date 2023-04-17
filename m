@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1389474706745780136=="
+Content-Type: multipart/mixed; boundary="===============1740786668271827552=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/wbg/counter
-Date: Mon, 17 Apr 2023 20:09:36 -0000
-Message-Id: <168176217616.15677.16271349304133419423@gitolite.kernel.org>
+Date: Mon, 17 Apr 2023 20:09:53 -0000
+Message-Id: <168176219326.15844.5826883640800990525@gitolite.kernel.org>
 
---===============1389474706745780136==
+--===============1740786668271827552==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/wbg/counter
 user: wbg
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/counter-next
     old: 09a9639e56c01c7a00d6c0ca63f4c7c41abe075d
     new: 6a8f57ae2eb07ab39a6f0ccad60c760743051026
     log: revlist-09a9639e56c0-6a8f57ae2eb0.txt
 
---===============1389474706745780136==
+--===============1740786668271827552==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -233,4 +233,4 @@ e623175f6418f5873b28ca91a88312843b2e0dab Merge tag 'x86_urgent_for_v6.3_rc7' of 
 6c538e1adbfc696ac4747fb10d63e704344f763d Merge tag 'sched_urgent_for_v6.3_rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 6a8f57ae2eb07ab39a6f0ccad60c760743051026 Linux 6.3-rc7
 
---===============1389474706745780136==--
+--===============1740786668271827552==--
