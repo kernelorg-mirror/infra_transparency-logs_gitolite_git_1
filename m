@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/ethtool/ethtool
-Date: Tue, 18 Apr 2023 22:49:05 -0000
-Message-Id: <168185814597.4960.3339131487499647758@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/kernel/kmod/kmod
+Date: Tue, 18 Apr 2023 22:53:09 -0000
+Message-Id: <168185838976.7827.13534060203741222493@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/ethtool/ethtool
-user: mkubecek
+repo: pub/scm/utils/kernel/kmod/kmod
+user: demarchi
 changes:
-  - ref: refs/heads/next
-    old: 5cea67304a3c13e7757a0946aa1a0bff4989b899
-    new: dd5d8b9678c5433eb8ee40f46cf32881a4c89e99
+  - ref: refs/heads/master
+    old: 3d1bd339ab942ea47e60f053f4b11b0c47ff082b
+    new: 116e7c7fc00e8565caf913399c38852975094a75
     log: |
-         ec573f209dfdfe7fd36928bbf55f4a4fcc20e0b1 netlink: settings: add netlink support for coalesce tx aggr params
-         dd5d8b9678c5433eb8ee40f46cf32881a4c89e99 add support for Ethernet PSE and PD devices
+         116e7c7fc00e8565caf913399c38852975094a75 modprobe: rmmod_do_module: Free kmod list of holders
          
