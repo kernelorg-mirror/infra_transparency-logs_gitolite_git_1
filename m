@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/thermal/linux
-Date: Tue, 18 Apr 2023 13:51:49 -0000
-Message-Id: <168182590960.3995.15803831991047328185@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Tue, 18 Apr 2023 13:55:32 -0000
+Message-Id: <168182613227.6686.9901944345773147798@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/thermal/linux
-user: daniel.lezcano
+repo: pub/scm/linux/kernel/git/netdev/net
+user: pabeni
 changes:
-  - ref: refs/heads/thermal/bleeding-edge
-    old: e050f104fdb13bdccf702f2dde728de5031ef7e2
-    new: fee74ed432f73548eec010f3fb4169e7fa7e19f5
+  - ref: refs/heads/main
+    old: 28e63d01a9f46d47b73045817f95c114a7769c71
+    new: c0e73276f0fcbbd3d4736ba975d7dc7a48791b0c
     log: |
-         fee74ed432f73548eec010f3fb4169e7fa7e19f5 thermal/drivers/cpuidle_cooling: Delete unmatched comments
+         c0e73276f0fcbbd3d4736ba975d7dc7a48791b0c mlxfw: fix null-ptr-deref in mlxfw_mfa2_tlv_next()
          
