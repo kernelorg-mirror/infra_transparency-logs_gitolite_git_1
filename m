@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Tue, 18 Apr 2023 14:08:56 -0000
-Message-Id: <168182693668.14005.9994953960989253884@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
+Date: Tue, 18 Apr 2023 14:09:07 -0000
+Message-Id: <168182694756.14104.13679208674796087370@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
-user: broonie
+repo: pub/scm/linux/kernel/git/soc/soc
+user: arnd
 changes:
-  - ref: refs/tags/sent/20230417-arm64-iss2-dabt-decode-ec9b46c98a91-v1
+  - ref: refs/heads/rockchips/dt64-2
     old: 0000000000000000000000000000000000000000
-    new: 1408903b91b06c5913f4b075c2cc9625acfa3083
+    new: d3150ed535805403291b95fd84b00b0b5ef41096
