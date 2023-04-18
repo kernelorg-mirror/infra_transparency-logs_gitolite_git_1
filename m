@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Tue, 18 Apr 2023 19:04:36 -0000
-Message-Id: <168184467691.18194.8782931887613830046@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Tue, 18 Apr 2023 19:49:25 -0000
+Message-Id: <168184736552.15527.11417106089701093426@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/groeck/linux-staging
-user: groeck
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
-  - ref: refs/heads/watchdog-next
-    old: f274a08c940a34645bff534bf022ab1e85f7a44b
-    new: f616619d9f206214783324e54b094cff0f7afcc5
+  - ref: refs/heads/master
+    old: 1555b70f844a75a5f18814df9fbc08ee33d9a8bd
+    new: 6ac2f01ebf165512e2e19e4e92c41380d158f0e7
     log: |
-         1729393aba6d8854fec01ff7035a1058640e5be1 watchdog: menz069_wdt: fix watchdog initialisation
-         f616619d9f206214783324e54b094cff0f7afcc5 watchdog: menz069_wdt: fix timeout setting
+         6ac2f01ebf165512e2e19e4e92c41380d158f0e7 foo
          
