@@ -1,23 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Tue, 18 Apr 2023 16:21:11 -0000
-Message-Id: <168183487143.7868.11269716132168317942@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Tue, 18 Apr 2023 16:24:02 -0000
+Message-Id: <168183504280.8852.17182683122326452937@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
-user: broonie
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
+user: tnguy
 changes:
-  - ref: refs/heads/for-next
-    old: 598f59fc47d8ddf333c7a8b9b81fafadcfec7ce7
-    new: f9124f9715cb92d06036ed5950a5171e93498d64
+  - ref: refs/heads/dev-queue
+    old: 1048af9e90e8a2d09657dfd067b36d5b61b4f520
+    new: 663e7671059b59c1abb2a0b5b2fd2d4299cbd3c6
     log: |
-         2087e85bb66ee3652dafe732bb9b9b896229eafc spi: cadence-quadspi: fix suspend-resume implementations
-         f6997e9bd879ed1f1c61e65b6fcab0de9a873ab0 spi: spi-cadence: Switch to spi_controller structure
-         b1b90514eaa3454223d6f576a108cc0a58924a65 spi: spi-cadence: Add support for Slave mode
-         01875342ae659629b72c730ead5461eb330a9a02 spi: spi-cadence: Add Slave mode support
-         f9124f9715cb92d06036ed5950a5171e93498d64 Merge remote-tracking branch 'spi/for-6.4' into spi-next
+         1346df6f2a85eb6797af13a3e7f43b9f789be235 igc: Clean the TX buffer and TX descriptor ring
+         6cd62ce056843d6f3bd8765ee8575dd3fed05fa7 igc: read before write to SRRCTL register
+         87c717ed92b199d9bf174c35bca8225ab3b491ae iavf: send VLAN offloading caps once after VFR
+         98c011936c5cbc9e0714a8dc24fa51a9adbb3e26 ice: Fix stats after PF reset
+         69b9b87cb334dd8ae2668f4605e73f2c1005d063 igc: Fix possible system crash when loading module
+         663e7671059b59c1abb2a0b5b2fd2d4299cbd3c6 ice: Fix ice VF reset during iavf initialization
          
