@@ -1,63 +1,40 @@
-Content-Type: multipart/mixed; boundary="===============0516964204112902353=="
+Content-Type: multipart/mixed; boundary="===============5218620433607545431=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Tue, 18 Apr 2023 09:13:45 -0000
-Message-Id: <168180922508.21160.9663104165209855656@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Tue, 18 Apr 2023 09:15:53 -0000
+Message-Id: <168180935340.24757.4667651186051489482@gitolite.kernel.org>
 
---===============0516964204112902353==
+--===============5218620433607545431==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: hansg
 changes:
-  - ref: refs/heads/master
-    old: ad137ccd779d8d9804f54d8a432938dc428af69d
-    new: 9f3b1ce88a482ff84cace46b65006603653b1804
-    log: |
-         d9d8262c33c35c5c604f29598222b3a08864c1f4 4.14-stable patches
-         2b344043ee79afe79a517ae4708ee2928986075e 4.19-stable patches
-         f519e7ddd89584381bf2193900fa4bce3cf8902b 5.4-stable patches
-         0e6a2203608a7bdbebdb14b3591aac8be60c8e93 5.10-stable patches
-         d322f46ed45d3e999de4a9e07a773c7805be24e9 5.15-stable patches
-         b3705ceba4543c716564a5debc2d6ccebcd45b1b 6.1-stable patches
-         f541afb16378b4abb62d4ed2f52f0635c913002b 6.2-stable patches
-         9f3b1ce88a482ff84cace46b65006603653b1804 Merge branch 'master' of gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue
-         
+  - ref: refs/heads/for-next
+    old: 5b309e80f457ebb41770e0122766825a78cfc11b
+    new: e578c943e363ff47d08e7b4f5648f3da9db325d8
+    log: revlist-5b309e80f457-e578c943e363.txt
 
---===============0516964204112902353==
+--===============5218620433607545431==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-5b309e80f457-e578c943e363.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1681809224 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1681809221-85d4274ea039546fcfafab8d939b4aaf2f989028
+82c3a0b7f0cb97445eeb8b91b0a37d95f8c2c2a9 mlxbf-bootctl: Add sysfs file for BlueField boot fifo
+f6e7ac4c35a28aef0be93b32c533ae678ad0b9e7 platform/x86/amd: pmc: Fix memory leak in amd_pmc_stb_debugfs_open_v2()
+efebfa80ce24cba9e7af786e9dec911cf9e7b35d platform/x86: amd: pmc: provide user message where s0ix is not supported
+3f581602a22cc5445a66501fa13a80894d83e42a platform/x86/intel/pmt: Ignore uninitialized entries
+14f6f0e3709a8aa987ae78783d2e4d63f88cc13a platform/x86/intel/sdsi: Change mailbox timeout
+3a133f7c51b20d5d330d5424f3ef0dc283992500 platform/x86: thinkpad_acpi: Fix Embedded Controller access on X380 Yoga
+02377e983e22396e52d43c4d0adb9bbc85fa9a26 platform/x86: x86-android-tablets: Update Yoga Book HiDeep touchscreen comment
+95b829f89da3fd635b60b9b069395dede17a612c platform/x86: x86-android-tablets: Add Wacom digitizer info for Lenovo Yoga Book
+1d3f7a31aa9671c43e03570edaebcd7e02751c15 platform/x86: x86-android-tablets: Add "yogabook-touch-kbd-digitizer-switch" pdev for Lenovo Yoga Book
+e578c943e363ff47d08e7b4f5648f3da9db325d8 platform/x86: x86-android-tablets: Add accelerometer support for Yoga Tablet 2 1050/830 series
 
-ad137ccd779d8d9804f54d8a432938dc428af69d 9f3b1ce88a482ff84cace46b65006603653b1804 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQ+X0gbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Ow4P/Ak2OwLJwtT1K44henzj
-u5M2YITXwmXwJZwEi7+rHE0HmQxTBR65TWhAwLlNi7nARbdvWX4Qu9ZJzYQqR8CB
-dgzBG6lcSttSeYCcgKryUl1kz4fQ+E3+DRayQO/oQ+h//dAl3pKB3ma2mT/8FuDt
-yQk0KtEVrV4n6T/JruZbmIOC2R458dQ4qMi+qMZfN3kvQmCYWTDe4sYFvtymtI4G
-4xxfrN/Ea6f2YfIzWx6y/MlfPVzeQHq8QlTTXRMj6Q5eiMNzPIM69RyyQRvklkF+
-uvIQYzcFhXe8V5UOCcGHSRqIsZeCj4zRBLsaGvIQH806GO2kYcpgNgXxcr1rPz2V
-VnsDlNh1GCuS03cpCTCuLvbukrfNtPTuqSr8aR/15NkqGwKY2dBrx6YwTCJM+5hB
-oGlNfl2+ECvjsCLqE5CtVaAelkV7d3rWVJoZnF6hcDi7kYVIFyAei/dnS+IedKyD
-T96tmZiVty88NB6fSND8ou29H3EyDp3W4b1z9MmkQryi7yRSbNn/KNmi1uDRnNTj
-2lna19tQZtLZesXv0dkrt6Xj8Ds/HnHfbfIz8dcvaUCD+2hrVbUrsZOhpoylMm/d
-NRO8LnMQEkx+1crmbQegpmRfpwTuqNGKos+LODf62BnJ3vljXUJAvSea7Fbw1l4x
-1BagcScczRzyYkxHdQ2P8CMx
-=V7e6
------END PGP SIGNATURE-----
-
---===============0516964204112902353==--
+--===============5218620433607545431==--
