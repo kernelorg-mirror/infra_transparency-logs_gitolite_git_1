@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Tue, 18 Apr 2023 14:08:34 -0000
-Message-Id: <168182691486.13791.615039482683188427@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 18 Apr 2023 14:08:56 -0000
+Message-Id: <168182693668.14005.9994953960989253884@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 changes:
-  - ref: refs/heads/v2_20230418_srinivas_goud_spi_spi_cadence_add_slave_mode_support
+  - ref: refs/tags/sent/20230417-arm64-iss2-dabt-decode-ec9b46c98a91-v1
     old: 0000000000000000000000000000000000000000
-    new: b1b90514eaa3454223d6f576a108cc0a58924a65
+    new: 1408903b91b06c5913f4b075c2cc9625acfa3083
