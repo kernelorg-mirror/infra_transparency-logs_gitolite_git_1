@@ -1,24 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Tue, 18 Apr 2023 05:38:55 -0000
-Message-Id: <168179633596.9478.14310167002091942289@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Tue, 18 Apr 2023 06:01:57 -0000
+Message-Id: <168179771713.25459.14882692343856554426@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: leon
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
   - ref: refs/heads/for-next
-    old: a2e20b29cf9ce6d2070a6e36666e2239f7f9625b
-    new: bd4ba605c4a92b46ab414626a4f969a19103f97a
+    old: 714b2f025d767e7df1fe9da18bd70537d64cc157
+    new: f609bf6b21951569036d23cf66a1317d066ef9ed
     log: |
-         b2b1ddc457458fecd1c6f385baa9fbda5f0c63ad RDMA/rxe: Fix the error "trying to register non-static key in rxe_cleanup_task"
-         8d7c7c0eeb74281c846ef9231ce20536c79a99b4 RDMA: Add ib_virt_dma_to_page()
-         ed4b0661cce119870edb1994fd06c9cbc1dc05c3 RDMA/mlx5: Remove pcie_relaxed_ordering_enabled() check for RO write
-         d43b020b0f82c088ef8ff3196ef00575a97d200e RDMA/mlx5: Check pcie_relaxed_ordering_enabled() in UMR
-         ccbbfe0682f2fff1e157413c30092dd27c50e20e net/mlx5: Update relaxed ordering read HCA capabilities
-         bd4ba605c4a92b46ab414626a4f969a19103f97a RDMA/mlx5: Allow relaxed ordering read in VFs and VMs
+         f609bf6b21951569036d23cf66a1317d066ef9ed ALSA: hda/hdmi: Remove some dead code
+         
+  - ref: refs/heads/master
+    old: bd6bc4f3b4a66b11eb7a64c463b9ab3899ad9735
+    new: 23174002367b27e36fffb814acb19872dd8fa816
+    log: |
+         f609bf6b21951569036d23cf66a1317d066ef9ed ALSA: hda/hdmi: Remove some dead code
+         23174002367b27e36fffb814acb19872dd8fa816 Merge branch 'for-next'
          
