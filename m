@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless-testing
-Date: Tue, 18 Apr 2023 12:43:41 -0000
-Message-Id: <168182182140.20728.8588193225899053939@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/legion/kbd
+Date: Tue, 18 Apr 2023 12:46:55 -0000
+Message-Id: <168182201574.24674.9696298082522138349@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wireless/wireless-testing
-user: bcopeland
+repo: pub/scm/linux/kernel/git/legion/kbd
+user: legion
 changes:
-  - ref: refs/tags/v6.3-rc7
-    old: 0000000000000000000000000000000000000000
-    new: 1c8c28415e8743368a2b800520a6dd0b22ee6ec2
+  - ref: refs/heads/master
+    old: 675fa5d0ba7ee8e9c7daf0373da94f21eac5690c
+    new: 3d0d3dee354a623fb4b1c39e03e5f44f4e2edc00
+    log: |
+         3d0d3dee354a623fb4b1c39e03e5f44f4e2edc00 CI: Update github rules
+         
