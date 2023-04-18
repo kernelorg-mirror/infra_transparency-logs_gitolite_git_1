@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mcgrof/linux
-Date: Tue, 18 Apr 2023 15:39:34 -0000
-Message-Id: <168183237433.9618.2117022812655113352@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux
+Date: Tue, 18 Apr 2023 15:39:43 -0000
+Message-Id: <168183238390.9748.1396034846376085560@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mcgrof/linux
-user: mcgrof
+repo: pub/scm/linux/kernel/git/shuah/linux
+user: shuah
 changes:
-  - ref: refs/heads/modules-next
-    old: 9fe6623206a3bc96043d1ce363a998116992d3d9
-    new: fc70bf35e178a701f34dc1247ce5e9a237608890
+  - ref: refs/heads/cpupower
+    old: fe15c26ee26efa11741a7b632e9f23b01aca4cc6
+    new: 9f8acaf033b38f9b0784ae9bfaae2230114fe680
     log: |
-         fc70bf35e178a701f34dc1247ce5e9a237608890 module: stats: fix invalid_mod_bytes typo
+         9f8acaf033b38f9b0784ae9bfaae2230114fe680 cpupower:Fix resource leaks in sysfs_get_enabled()
          
