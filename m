@@ -1,56 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============5395584873514497814=="
+Content-Type: multipart/mixed; boundary="===============0765222485545515511=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 18 Apr 2023 10:49:54 -0000
-Message-Id: <168181499425.5029.12770571760887972506@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Tue, 18 Apr 2023 10:51:45 -0000
+Message-Id: <168181510580.7246.6552262652680296094@gitolite.kernel.org>
 
---===============5395584873514497814==
+--===============0765222485545515511==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/auto-latest
-    old: 78cfa77a5f54735e9513432e5fb998f6457ee69c
-    new: 66f0d3f79c23210822aaec1e9c3a985129258d01
-    log: revlist-78cfa77a5f54-66f0d3f79c23.txt
   - ref: refs/heads/master
-    old: 78cfa77a5f54735e9513432e5fb998f6457ee69c
-    new: 66f0d3f79c23210822aaec1e9c3a985129258d01
-    log: revlist-78cfa77a5f54-66f0d3f79c23.txt
+    old: b00cb6aa607114d5318a1cfa4f6461b592216682
+    new: a1b317ad763dad1d6a3f1cea485e676d08086df3
+    log: |
+         a1b317ad763dad1d6a3f1cea485e676d08086df3 5.15-stable patches
+         
 
---===============5395584873514497814==
+--===============0765222485545515511==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-78cfa77a5f54-66f0d3f79c23.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-9a316202132e4921f6a4cf3ff3aec61dff68e6a4 Merge branch into tip/master: 'irq/urgent'
-ac5f0582de71a6aff0211fdd8f48c4ced3d01c80 Merge branch into tip/master: 'x86/urgent'
-d4340c6c0c13467a389297a2d1354d2f5ed4d763 Merge branch into tip/master: 'x86/merge'
-0629403c4612de168de00fedbf6e6e59b0ff0164 Merge branch into tip/master: 'core/debugobjects'
-3c0cc640e5a4dbdaa97aa98b8fe51cff2fb57c48 Merge branch into tip/master: 'core/entry'
-42a81d67935f88d414177bc09f5e914cf296f203 Merge branch into tip/master: 'irq/core'
-45f82bab2e8176c5df9235cedfb776cf8dbe462f Merge branch into tip/master: 'locking/core'
-873ea69270dfc93619219933a783439258ffafe6 Merge branch into tip/master: 'perf/core'
-fcccdac5e499b6ad3ab05d0bc8963fc7486733d9 Merge branch into tip/master: 'ras/core'
-baa613aea20aede3d95804864db9a8c8ca82bd1a Merge branch into tip/master: 'sched/core'
-a7c842566c1ee2df17c3af4a717bdb48a4929965 Merge branch into tip/master: 'smp/core'
-5cae245d754d7b8363b83e8eea9373a94b7ae4ad Merge branch into tip/master: 'timers/core'
-71a47cd72056f2754351ba7e9245704fdf5aff15 Merge branch into tip/master: 'x86/acpi'
-d9bde9d595311122b0e8974ddf03809f63243f0f Merge branch into tip/master: 'x86/apic'
-b2caafa9a20dda0ba70d115d3bab9cd613a1e023 Merge branch into tip/master: 'x86/cache'
-076a203de4532f1efc2fcf8fcfabd529215b4e39 Merge branch into tip/master: 'x86/cleanups'
-c399e4e180d7a54e1a4fab3db04ea01827d94678 Merge branch into tip/master: 'x86/cpu'
-f62b7f0010f85450ae0c4ac7a52cdeb01b6c2edb Merge branch into tip/master: 'x86/fpu'
-1d61ddb5170cc3483b47a766043ce1d1417a9bbb Merge branch into tip/master: 'x86/microcode'
-34c9262504a7483d28492ac8ee0fffa9353f53b0 Merge branch into tip/master: 'x86/misc'
-25cd9d0840ff8da376d3d56ed6e52b9217f06844 Merge branch into tip/master: 'x86/mm'
-66f0d3f79c23210822aaec1e9c3a985129258d01 Merge branch into tip/master: 'x86/tdx'
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1681815105 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1681815103-efcdc2a396769382adf154eb183176f46aca689b
 
---===============5395584873514497814==--
+b00cb6aa607114d5318a1cfa4f6461b592216682 a1b317ad763dad1d6a3f1cea485e676d08086df3 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQ+dkEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+MEcQAMmZllDWQ+kSB13j1ENx
+0VCxUQh3fN/ALaqTLk29xLNX13h5y8ra9qtxN6i8kjBc40Mj2kZ9o8WAQxep5nnV
+xDWqtyWLY7K701HiR9Gkq4oH5DI2qb/L+ghG+jnTwh8+5ArojUMpdkqgTcX41qaU
+EbV2/XU8z3K/NiGNJil2x7vniTACmFmctDM8WtjBuvXssy4bXijDCk4YzHEGfLq8
+dp2E3k4gzk92NiCXLbAASAbXwLsY2JOHd7Pkx4FvJQ8m9HDkMDxjOqIXOdcEGhFu
+yMbaTnHI6oEZl2eg2uRf84DzwGb9Vjbu8TaeVSitxDKqr8SWDb5p0MFM/hTFkMGP
+4xD/Y5MqE4K8xCSX+4jG2VFSLWv1S3yE1sLAWPjZtaHQ+QgoKSdc1rDujzIntmq1
+Q9NEEzfUs+sGaXffmB/u2Frs2W57AKti9Ybs8T5Ch5UPwW3CkcqQKO6BOM7e7G70
+qn7whQ2Uc18Xjq/LnB5aZ4epxMfaVPSuefd2qAvdUN7tPPjb5T2u5KbpqvXb4B6J
+kcM/dEtr2S0rnovS0CA1zU7oqgs14c7MnbwitBi7IhxrnsEaOtxns9RyQdMx9Gn7
+rIZe7Z9FAA+CqI8VoGTqH5pJpIvD6KEXuxDmbTAuDnV2m/zE1yIwggNEwMQ1ziht
+wkZnm78ZAgRv+aGjn99Kvmzv
+=Mht5
+-----END PGP SIGNATURE-----
+
+--===============0765222485545515511==--
