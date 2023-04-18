@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2388840213611967474=="
+Content-Type: multipart/mixed; boundary="===============6095760328091767735=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 18 Apr 2023 15:32:52 -0000
-Message-Id: <168183197267.5862.18023861549830824877@gitolite.kernel.org>
+Date: Tue, 18 Apr 2023 15:33:49 -0000
+Message-Id: <168183202928.6247.11686650774037268975@gitolite.kernel.org>
 
---===============2388840213611967474==
+--===============6095760328091767735==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/main
     old: 99676a5766412f3936c55b9d18565d248e5463ee
     new: dce46f1b0cab9f31c6b57c40ea06236b001ae323
     log: revlist-99676a576641-dce46f1b0cab.txt
 
---===============2388840213611967474==
+--===============6095760328091767735==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -61,4 +61,4 @@ b76eaf7d7ede35adbbb914cb2e9223a250448e52 dt-bindings: net: Add support StarFive 
 b4a5afa51ceecab128b301da3896f0d0110ec347 net: stmmac: dwmac-starfive: Add phy interface settings
 dce46f1b0cab9f31c6b57c40ea06236b001ae323 Merge branch 'add-ethernet-driver-for-starfive-jh7110-soc'
 
---===============2388840213611967474==--
+--===============6095760328091767735==--
