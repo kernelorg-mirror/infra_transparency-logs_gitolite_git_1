@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5276798692068829652=="
+Content-Type: multipart/mixed; boundary="===============5839969135252019931=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 18 Apr 2023 10:44:21 -0000
-Message-Id: <168181466182.32239.3117149227355075603@gitolite.kernel.org>
+Date: Tue, 18 Apr 2023 10:47:31 -0000
+Message-Id: <168181485186.3894.15832147015339758008@gitolite.kernel.org>
 
---===============5276798692068829652==
+--===============5839969135252019931==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,29 +15,40 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
-  - ref: refs/heads/auto-latest
-    old: 979357505b52daf2519352e4622cc861597cd6f9
-    new: 7d866e111ecda0551f7270ab932fde37ddba1470
-    log: |
-         07cc5639f14dcc3763a926dbe7cc38ac2694de0c x86/microcode/AMD: Document which patches are not released for late loading
-         7d866e111ecda0551f7270ab932fde37ddba1470 Merge x86/microcode into tip/master
-         
-  - ref: refs/heads/master
-    old: ee6c11e60cd60811ed37d8dbeadd2f81676a7196
-    new: dc88a230f9752db59f653d1929cecbf1d84b4c65
-    log: revlist-ee6c11e60cd6-dc88a230f975.txt
-  - ref: refs/tags/v6.3-rc7
-    old: 0000000000000000000000000000000000000000
-    new: 1c8c28415e8743368a2b800520a6dd0b22ee6ec2
+  - ref: refs/heads/x86/merge
+    old: 71304e99c407c6b3fdb7ab31aac9454f554658fa
+    new: 8091f9e1f61f7394fd19c0f3526466c2ec579c56
+    log: revlist-71304e99c407-8091f9e1f61f.txt
 
---===============5276798692068829652==
+--===============5839969135252019931==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ee6c11e60cd6-dc88a230f975.txt
+Content-Disposition: attachment; filename=revlist-71304e99c407-8091f9e1f61f.txt
 
-15def34e2635ab7e0e96f1bc32e1b69609f14942 perf/core: Fix hardlockup failure caused by perf throttle
-93eff603d6a2bc1895eeb7063dbd0661bb760b74 locking/atomic: Correct (cmp)xhcg instrumentation
+efb339a83368ab25de1a18c0fdff85e01c13a1ea crypto: ccp - Name -1 return value as SEV_RET_NO_FW_CALL
+dbf07b544ca12c0ab8bd3fc1ea3509ea713a8bf5 crypto: ccp: Get rid of __sev_platform_init_locked()'s local function pointer
+965006103a14703cc42043bbf9b5e0cdf7a468ad virt/coco/sev-guest: Double-buffer messages
+0144e3b85d7b42e8a4cda991c0e81f131897457a x86/sev: Change snp_guest_issue_request()'s fw_err argument
+88e378d400fa0544d51cf62037e7774d8a4b4379 x86/ioremap: Add hypervisor callback for private MMIO mapping in coco VM
+71290be18f2deeae013482bf79cd526df61fcfcd x86/hyperv: Reorder code to facilitate future work
+d33ddc92db8a61416473ff3d7f1c621c50733dc0 Drivers: hv: Explicitly request decrypted in vmap_pfn() calls
+c7b5254bd802ee3868f1c59333545272dc700d6d x86/mm: Handle decryption/re-encryption of bss_decrypted consistently
+e45e761b77bc0739e7e23258c4394013bbb919c7 init: Call mem_encrypt_init() after Hyper-V hypercall init is done
+812b0597fb4043240724e4c7bed7ba1fe15c0e3f x86/hyperv: Change vTOM handling to use standard coco mechanisms
+87efe384109f7938c94e74b1ce9c613136f50fd9 Merge branch 'x86/cc' into x86/sev
+e0b081d17a9f4e5c0cbb0e5fbeb1abe3de0f7e4e sched: Fix KCSAN noinstr violation
+f571da059f86fd9d432aea32c9c7e5aaa53245d8 lkdtm/stackleak: Fix noinstr violation
+e18398e80c73e3cc7d9c3d2e0bc06a4af8f4f1cb Revert "objtool: Support addition to set CFA base"
+7f530fba1123edcad00d59e1a73019814935f0c1 objtool: Add stackleak instrumentation to uaccess safe list
+e8deb00c0c4808654d1bf96a8f79cf1deb59b631 context_tracking: Fix KCSAN noinstr violation
+27d000d635ce48b579988e9b3240352a2a0306e0 scripts/objdump-func: Support multiple functions
+246b2c85487a7bc5f6a09098e18a96506b1b55df objtool: Add WARN_INSN()
+9290e772baccecec324ae9f2e0b470f870c097de objtool: Add symbol iteration helpers
+6126ed5dfbc656374e851bfdfb128f3aa9e1263a objtool: Remove superfluous dead_end_function() check
+bd456a1bedd20cebd37493f8cb0291294a7356ea objtool: Separate prefix code from stack validation code
+4a2c3448ed3d362431c249ec0eb0f90281804ea8 x86/linkage: Fix padding for typed functions
+5743654f5e2ebd56df99f56fca5ba4b23fe3c815 objtool: Generate ORC data for __pfx code
 9ea7e6b62c2bd2f7bbfc3f10099df803002dd33b init: Mark [arch_call_]rest_init() __noreturn
 25a6917ca63ad4470bf88535c56f0dec72b570fe init: Mark start_kernel() __noreturn
 4208d2d79837ef70f260d6170e3ac7fd6fde7788 x86/head: Mark *_start_kernel() __noreturn
@@ -49,15 +60,7 @@ Content-Disposition: attachment; filename=revlist-ee6c11e60cd6-dc88a230f975.txt
 52668badd34b4b346f32c33a9bcba069a06c3caa x86/cpu: Mark {hlt,resume}_play_dead() __noreturn
 6e36a56a5f617262c0e8ae7e961487361c720b9e scsi: message: fusion: Mark mpt_halt_firmware() __noreturn
 611d4c716db0141cfc436994dc5aff1d69c924ad x86/hyperv: Mark hv_ghcb_terminate() as noreturn
-43360686328b1f4b7d9dcc883ee9243ad7c16fae syscall_user_dispatch: Split up set_syscall_user_dispatch()
-463b7715e7ce367fce89769c5d85e31595715ee1 syscall_user_dispatch: Untag selector address before access_ok()
-3f67987cdc09778e75098f9f5168832f8f8e1f1c ptrace: Provide set/get interface for syscall user dispatch
-8c8fa605f7b8b6df3e6fb280a74cff8d7374a7b7 selftest, ptrace: Add selftest for syscall user dispatch config api
-d491ab4c730d26f480ddff841c545e021a6347c1 Merge branch 'linus'
-217f4238e12177dc8b9ed317154518fd3801ae6f Merge branch into tip/master: 'core/entry'
-f878bd59f7b4b5029ec1114465c19a6e461a42ec Merge branch into tip/master: 'locking/core'
-641a5d29cba877c71033680b955f40b22fae3494 Merge branch 'objtool/core'
-92a901bcc6a215a4c1fe12eef346f83a3d1294fb Merge branch into tip/master: 'perf/core'
-dc88a230f9752db59f653d1929cecbf1d84b4c65 Merge branch into tip/master: 'x86/urgent'
+1b7d7ab35f381a48970b6316fcbc5867b83614b2 Merge branch 'x86/sev' into x86/merge, to ease integration testing
+8091f9e1f61f7394fd19c0f3526466c2ec579c56 Merge branch 'objtool/core' into x86/merge, to ease integration testing
 
---===============5276798692068829652==--
+--===============5839969135252019931==--
