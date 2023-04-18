@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0195386561205619177=="
+Content-Type: multipart/mixed; boundary="===============7757584750403140142=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Tue, 18 Apr 2023 01:50:39 -0000
-Message-Id: <168178263944.22293.14421605787106768222@gitolite.kernel.org>
+Date: Tue, 18 Apr 2023 01:50:46 -0000
+Message-Id: <168178264616.22427.4979226524520006135@gitolite.kernel.org>
 
---===============0195386561205619177==
+--===============7757584750403140142==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
-  - ref: refs/heads/perf-tools-next
+  - ref: refs/heads/perf/core
     old: 17354d1528f902b3a4f66023cd24012e7999c4dc
     new: de047c1091854f0c0561f3d199c2ea2e344f10a5
     log: revlist-17354d1528f9-de047c109185.txt
 
---===============0195386561205619177==
+--===============7757584750403140142==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -38,4 +38,4 @@ f94c21dfd02e98aa0fcb9b453a1198e76ede60e7 perf namespaces: Introduce nsinfo__refc
 2d1acd3f10baed49329c1b201cafb060aeb377e0 perf namespaces: Introduce nsinfo__mntns_path() accessor to avoid accessing ->mntns_path directly
 de047c1091854f0c0561f3d199c2ea2e344f10a5 perf script task-analyzer: Fix spelling mistake "miliseconds" -> "milliseconds"
 
---===============0195386561205619177==--
+--===============7757584750403140142==--
