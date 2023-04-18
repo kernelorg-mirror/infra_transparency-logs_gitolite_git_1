@@ -1,20 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
-Date: Tue, 18 Apr 2023 12:03:43 -0000
-Message-Id: <168181942322.24884.11787430156508686132@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Tue, 18 Apr 2023 12:04:07 -0000
+Message-Id: <168181944725.25084.3741793465086254062@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/firmware/linux-firmware
-user: jwboyer
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
-  - ref: refs/heads/main
-    old: 45530bcb3c62a5777e43fac79f97cc928a303e23
-    new: 1c942e46b0813a45ef543713ae5ea436cdf14b49
+  - ref: refs/heads/master
+    old: 42e141d20505a0deb969c2e583a463c26aadc62f
+    new: 24cc65349a3d64b46bd5f455f711bad99f440213
     log: |
-         74afc00db84cb49768a057720c8595c04786ed20 linux-firmware: Add firmware for Cirrus CS35L41 on Lenovo Laptops
-         1c942e46b0813a45ef543713ae5ea436cdf14b49 Merge branch 'for-upstream' of https://github.com/CirrusLogic/linux-firmware
+         652fcc5409eb151d2b2357c871154bc21b0c9c6a fincore: (tests) correctly look for findmnt
+         ead6a96eee10a6dfadd754ffab789e802bc0d7dd tests: don't skip on incorrectly search executables
+         5f03a197bd8c59dc23096b3cad9e4aab35bcc57b lib/crc32c: fix assert()
+         24cc65349a3d64b46bd5f455f711bad99f440213 Merge branch 'test/commands' of https://github.com/t-8ch/util-linux
          
