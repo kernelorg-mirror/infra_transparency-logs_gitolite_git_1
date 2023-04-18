@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7481387108296774214=="
+Content-Type: multipart/mixed; boundary="===============4437184645269763831=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Tue, 18 Apr 2023 11:35:29 -0000
-Message-Id: <168181772959.4416.16671608056576566032@gitolite.kernel.org>
+Date: Tue, 18 Apr 2023 11:35:53 -0000
+Message-Id: <168181775391.4594.5926496850025133945@gitolite.kernel.org>
 
---===============7481387108296774214==
+--===============4437184645269763831==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,83 +17,83 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/linux-4.14.y
-    old: 2eb3b556d7a93b72caedf9034e8a980e426972e3
-    new: ecd4cad2368df4bbc2af05dd67eb2b056197adc9
-    log: revlist-2eb3b556d7a9-ecd4cad2368d.txt
+    old: ecd4cad2368df4bbc2af05dd67eb2b056197adc9
+    new: 64621ab442a6948b96a382db55f5457d93f2cd91
+    log: revlist-ecd4cad2368d-64621ab442a6.txt
 
---===============7481387108296774214==
+--===============4437184645269763831==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1681817728 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1681817752 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1681817727-c6cdd231a2938f37687ecda9ba65be9950a09d9c
+nonce 1681817751-a6a6e266210f3f185a2b7973db5848e42a501eb7
 
-2eb3b556d7a93b72caedf9034e8a980e426972e3 ecd4cad2368df4bbc2af05dd67eb2b056197adc9 refs/heads/linux-4.14.y
+ecd4cad2368df4bbc2af05dd67eb2b056197adc9 64621ab442a6948b96a382db55f5457d93f2cd91 refs/heads/linux-4.14.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQ+gIAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+OjMQANcKOmw2yoZi3lf5GKGI
-b5ufRsnowKtnQo9faGaKG6b6batv9O2HbpxEC/w/G8202EIKz9lnX5pz1s7SKXP8
-pnEoT64hDSDwiSLi1Bf0f1mZAWOXp6XGmvkRS70V2nIDhSoZXR11bxV4h5mnrUqP
-/KviDqu3muY3r9R9dMl1iUGD25lTvFKoxgHVMvK9JtUO9T+Y0SZLwY+VXcKAaE3E
-0ZYtpsojvyl0FG0kpBeHNuuFpd+f4DdoZpRhPXCR6Brumwj/qqFl7GUsxoEE4VdQ
-69Flrv+bqLyXDpQE80a2LJ4UwgSi0tmaNQoxxH8daPtBp3KfViTGYk7rx/0fxHiW
-vKhFXxiqpJXFd4jZqHKVzQDnjdH97aTVokBqSsfW7S5BLs/NsMzcloEP+VoNlXza
-ql2JmqKulqvdggyUiwQFIr+0IqJVTZCD/Ns8YUm0bGRa4sW7Uec5tmA06Dui7AX3
-pblHEfZqe3ymy2OnU27/Rwbl5xHYQNJlRe3kodVIzWZFvplvG1N4tE/XxMGx2fRO
-9n7Uj9jdyZRzbnPKIKVnrCm6bF3YtEVrBFUTjWkjGVIEL8wfarEzUW47K7Rsl+rt
-mcjqo8gPteIh2z4zVSW8Bl2v6jMAf+q+Ia9loif6tmtfIhvVWjhaK9JCQ2kNqBAj
-LJa+2jA5Jhj5DW0YLWot98fa
-=VM43
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQ+gJgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+g0MP/1FM9OPKLe1zKDyFqMO0
+qOrGDCpUyd7Og5JRDtstXsHup0xTnM6i+o6RDL1vzjOrDH4TzVu3mqxfXUFLlipr
+kaTumisx3PMUhpO+eg49SSFFQxThG+81epW93Vt/ClopQoZ+A+Z86Qg481SKkW1u
+D5HCnSq6VehIgYgpv39z8vLL5j3jNsfT1kDkLiqehAoNLkzhiJRilppF1jFlh8mG
+MWWXq/I9XBt5C5r+Ov0vqfZcWR5/Nj36Hj6SEDGi2grCtkzKDOteyjBKXWzXcAzi
+xuYHjd5Au1IgLM/zypdxFzNx//QSG+YqCJJjV+2kWud0dmNSDvXLnFulHtP333bA
+4+hLup+jm8JLOCXdKI/S6Wg80V/FTKD/8m/7s7urNGEYs+E05BTV3R+VTioPzH0B
+TqCnHU3Zpd1SE4YMvG9JxF/bxdo0eaTEOauUq+t2egLij5XBUpRTeLQ6Ac/cBEDl
+PBiEVql8x4n/cc9z7XVUnfX4v2gYj11mKLs9oELodTjOZbB6qsf9ksqw5WXdVFdY
+aassVf7wntIPVZ/E0PX9HIr3tkAZhSQ6znnvQGPrcQOTEPudvRlELHc9/hKfL86K
+XY7MpBCyQvMnKRppEtRA/ebmo8gHHvfzK5QdzmOgnDaG3vXEn7HlABUIyu9o4whf
+4IxHCEbOLlnyIAMVfwNRLgYG
+=n4Uh
 -----END PGP SIGNATURE-----
 
---===============7481387108296774214==
+--===============4437184645269763831==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2eb3b556d7a9-ecd4cad2368d.txt
+Content-Disposition: attachment; filename=revlist-ecd4cad2368d-64621ab442a6.txt
 
-812973224d503c0d7f233f63c4907bd5dba9fa66 pwm: cros-ec: Explicitly set .polarity in .get_state()
-c12b3a6e33ef8a335197ffefaee7bf8a8019782f wifi: mac80211: fix invalid drv_sta_pre_rcu_remove calls for non-uploaded sta
-ff7e01b0b1ea4abf195c695c615112f211138f21 icmp: guard against too small mtu
-f330d1ac9e2320aec6de34fdd4d189390e338f33 ipv6: Fix an uninit variable access bug in __ip6_make_skb()
-3766fadc262f629a781cf18688aa1b2a92db3ccb gpio: davinci: Add irq chip flag to skip set wake
-44d192aa6ba4017e8e8be4bfa38a13530bca2d29 USB: serial: cp210x: add Silicon Labs IFS-USB-DATACABLE IDs
-164b5a9412a282ac9bd92686182be34132f807ad USB: serial: option: add Telit FE990 compositions
-d9209849ddb8c54a01cf22f09ec68772f21e87f2 USB: serial: option: add Quectel RM500U-CN modem
-983f2df8f95e51204cf9298791e551f60eaa3c59 iio: dac: cio-dac: Fix max DAC write value check for 12-bit
-e1ddd22baadaa4f3b89772f8fd674e6aa2425ddb tty: serial: sh-sci: Fix Rx on RZ/G2L SCI
-f876c52329798052d8fd59bf1ac7b92539f6f0c0 nilfs2: fix potential UAF of struct nilfs_sc_info in nilfs_segctor_thread()
-86125c76b97595fd6c39db0cf4e5a12b4ce8aee7 nilfs2: fix sysfs interface lifetime
-16faf66ab8375ee92894c11147571cb42041c5f7 perf/core: Fix the same task check in perf_event_set_output
-d8d3b0491ef2399120292d0af2e2071c7f691814 ftrace: Mark get_lock_parent_ip() __always_inline
-85874ea36937e0a4ae899bb9ee462aefa68c9a06 ring-buffer: Fix race while reader and writer are on the same page
-863ce44a32451381b1bb1f144e605254cb5ba413 mm/swap: fix swap_info_struct race between swapoff and get_swap_pages()
-faf86796495febc0742dd941fdabbe115ef3214b ALSA: emu10k1: fix capture interrupt handler unlinking
-4c0a8c82ebaa9ae3ff6e1486edc690add3cecffa ALSA: hda/sigmatel: add pin overrides for Intel DP45SG motherboard
-65604d284392cbd527879cf494adff7569665da2 ALSA: i2c/cs8427: fix iec958 mixer control deactivation
-2dea3e2e3ac5fa32d18d3ffbb83f90cfe716ff51 ALSA: hda/sigmatel: fix S/PDIF out on Intel D*45* motherboards
-9b3968dd015ecdfa359da1428b90989514ccff9f Bluetooth: L2CAP: Fix use-after-free in l2cap_disconnect_{req,rsp}
-27852d52017d3c91f0e092f093f2d99bd1eebecd Bluetooth: Fix race condition in hidp_session_thread
-82348c286454bd73df21998f2ea99ad215f72f0c mtdblock: tolerate corrected bit-flips
-36b76f4def32632556ea8662d6fc8628331a46c9 9p/xen : Fix use after free bug in xen_9pfs_front_remove due to race condition
-3b0365322f0ed2e2b3d03e4c9cca757b4b01b05d niu: Fix missing unwind goto in niu_alloc_channels()
-8b1cce6fb2d6d3baa5ae897586d601fcaec99a1d qlcnic: check pci_reset_function result
-3b30a95f9b36e81a949d03ad68781ddee43a4d8e net: macb: fix a memory corruption in extended buffer descriptor mode
-618aa574a45a3d24d5f6fa3c55c1c6455ec6bd31 i2c: imx-lpi2c: clean rx/tx buffers upon new message
-66ce3edc40542284b8e6ca53284036d313b93a35 efi: sysfb_efi: Add quirk for Lenovo Yoga Book X91F/L
-904c716fb2b5f0b568c0066563cb318f31ea8c7e verify_pefile: relax wrapper length check
-c037a1851c3ee3c78f13d96aa8261af506502f6e ubi: Fix failure attaching when vid_hdr offset equals to (sub)page size
-a18d489563e0b9f2e69314318bf6b3e8368050fe cgroup/cpuset: Wake up cpuset_attach_wq tasks in cpuset_cancel_attach()
-76e2c9391cbba3336301d57a56f9a8f312023bc3 watchdog: sbsa_wdog: Make sure the timeout programming is within the limits
-39623817853edeec37865492ce6bd79e9134f5b6 coresight-etm4: Fix for() loop drvdata->nr_addr_cmp range bug
-97bce6c60ef09f5b9c3e1e147e04eda4e43c11e6 KVM: arm64: Factor out core register ID enumeration
-e4feb03cee24352ae5683b1b3b174e495877b209 KVM: arm64: Filter out invalid core register IDs in KVM_GET_REG_LIST
-0f2c49292dae22049b9b9720679a3e3e4cff4235 arm64: KVM: Fix system register enumeration
-ecd4cad2368df4bbc2af05dd67eb2b056197adc9 Linux 4.14.313-rc1
+7526c8adb6e66f040d7735cd44a4fe59b02c0dac pwm: cros-ec: Explicitly set .polarity in .get_state()
+e495177d0e89a255801c983d3f7cfaabd59a9cc5 wifi: mac80211: fix invalid drv_sta_pre_rcu_remove calls for non-uploaded sta
+a09fe4e4493c3fb1a7d9871fea0043655b91e05f icmp: guard against too small mtu
+1799cc4565ad466521469e84a8e25a2f91f5f962 ipv6: Fix an uninit variable access bug in __ip6_make_skb()
+91688f51b3630a49ead4575fca56907bf5e94ddd gpio: davinci: Add irq chip flag to skip set wake
+ac9de919d751ddc4544492e9d94cf9e0963bea11 USB: serial: cp210x: add Silicon Labs IFS-USB-DATACABLE IDs
+7ccb4fc28f12487fbc1be01b69c379d77f8b619c USB: serial: option: add Telit FE990 compositions
+c10160710301d854e755755e862219f160223018 USB: serial: option: add Quectel RM500U-CN modem
+ed8a012cf63358050241aaf794244c2b243a0ed7 iio: dac: cio-dac: Fix max DAC write value check for 12-bit
+5ed36dc74f9e52f72a74b76df9dfdd6b401ecd05 tty: serial: sh-sci: Fix Rx on RZ/G2L SCI
+bfdf2ddbf1d21bae4896a663661b565268d66ca8 nilfs2: fix potential UAF of struct nilfs_sc_info in nilfs_segctor_thread()
+99dd18771bd5f79ead1f62367e9d729ce522d86a nilfs2: fix sysfs interface lifetime
+a3d91aad97e7a535ca60f19658d127b822ddaba9 perf/core: Fix the same task check in perf_event_set_output
+15b6765d98bdfdb7e2f66ab2e73a4074d82aecdf ftrace: Mark get_lock_parent_ip() __always_inline
+fd0fe6a7ec36e9992f8893ae9640781e77150faf ring-buffer: Fix race while reader and writer are on the same page
+34dcd9e928d97cc618bd2febd8c51db4124bb76e mm/swap: fix swap_info_struct race between swapoff and get_swap_pages()
+18764ddefefe978e6057cfdea025cc389fb4576f ALSA: emu10k1: fix capture interrupt handler unlinking
+4c4b4f2a696aa71bc197674e713f80a265fe9267 ALSA: hda/sigmatel: add pin overrides for Intel DP45SG motherboard
+ac8db2e607e58851fe3dd70390009ee90db16a5e ALSA: i2c/cs8427: fix iec958 mixer control deactivation
+282407ef4f0cb884e6ef86705bb78d4f7be6c424 ALSA: hda/sigmatel: fix S/PDIF out on Intel D*45* motherboards
+8ca739fc5bf6b772c04a5e5ba49c5f4e6a78382a Bluetooth: L2CAP: Fix use-after-free in l2cap_disconnect_{req,rsp}
+861703c7e712edc6c87f75776d59dc9e784551ca Bluetooth: Fix race condition in hidp_session_thread
+611f006073417a3dcf6e5f4893df00bd7a053161 mtdblock: tolerate corrected bit-flips
+d5cb84f8f8ce7c1c36ab80ec07fe4d60efe0cf53 9p/xen : Fix use after free bug in xen_9pfs_front_remove due to race condition
+21b4791227bd921a34cf70a783384181da0aa35a niu: Fix missing unwind goto in niu_alloc_channels()
+249f889a33266a98addbc26c44ab0da3b1a9d776 qlcnic: check pci_reset_function result
+6296e40b94bc2cfbd56861b9169fde6936145afb net: macb: fix a memory corruption in extended buffer descriptor mode
+720c4b39f02b8bc7fcbb89a85e3de7d18e859062 i2c: imx-lpi2c: clean rx/tx buffers upon new message
+9867f16d60332aaa53c8e8676cd4794dd7c23fb3 efi: sysfb_efi: Add quirk for Lenovo Yoga Book X91F/L
+9e6b6251a45e71ece0ac2e476246dede7c31be0c verify_pefile: relax wrapper length check
+6cf43434ef5fd61999c124af73548238d0fd9190 ubi: Fix failure attaching when vid_hdr offset equals to (sub)page size
+a0bae91ed081460e29a0c0eba87b00fc65fb7060 cgroup/cpuset: Wake up cpuset_attach_wq tasks in cpuset_cancel_attach()
+c8612c4c73624aee334614b8aab2ab383ec98c10 watchdog: sbsa_wdog: Make sure the timeout programming is within the limits
+178d03a5bba44cdeee2659a1a68417bb4e1e8c9a coresight-etm4: Fix for() loop drvdata->nr_addr_cmp range bug
+90ba54db9f26118d9f14c392fa488267473111f8 KVM: arm64: Factor out core register ID enumeration
+d544505bb7ccb3383a0c20163e744c026b4d712e KVM: arm64: Filter out invalid core register IDs in KVM_GET_REG_LIST
+cbf8f98acd57b5383e715c75a3045539e08f9ee1 arm64: KVM: Fix system register enumeration
+64621ab442a6948b96a382db55f5457d93f2cd91 Linux 4.14.313-rc1
 
---===============7481387108296774214==--
+--===============4437184645269763831==--
