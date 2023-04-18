@@ -1,50 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============0977025365753565976=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Tue, 18 Apr 2023 14:18:05 -0000
-Message-Id: <168182748553.21568.14536386378199510165@gitolite.kernel.org>
-
---===============0977025365753565976==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Tue, 18 Apr 2023 14:35:27 -0000
+Message-Id: <168182852704.456.7237055667160618642@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
-user: broonie
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/tip/tip
+user: tglx
 changes:
-  - ref: refs/heads/spi-6.4
-    old: ed5a25ac750684269b905e434ea9ffcc86e5e75a
-    new: 2087e85bb66ee3652dafe732bb9b9b896229eafc
+  - ref: refs/heads/timers/core
+    old: e9523a0d81899361214d118ad60ef76f0e92f71d
+    new: 263dda24fff0957f6b0a9abde2809122f7f0fad8
     log: |
-         2087e85bb66ee3652dafe732bb9b9b896229eafc spi: cadence-quadspi: fix suspend-resume implementations
+         605da849d5982dee0527edb2488b79795f31a150 timers/nohz: Restructure and reshuffle struct tick_sched
+         07b65a800b6d5b6afbd6a91487b47038eac97c21 timers/nohz: Only ever update sleeptime from idle exit
+         620a30fa0bd14878891b22bf2261e6ed4587c2b4 timers/nohz: Protect idle/iowait sleep time under seqcount
+         ead70b75237371c735a481a9843b411cfbb18404 timers/nohz: Add a comment about broken iowait counter update race
+         289dafed3851a7693a47896f5d09420bf6046ef2 timers/nohz: Remove middle-function __tick_nohz_idle_stop_tick()
+         9a1d4b8a7b80c5c796f05744851c535c5020024b MAINTAINERS: Remove stale email address
+         270b2a679ea7be1ee2d84ea67751fb1ab15bcb20 selftests/proc: Remove idle time monotonicity assertions
+         263dda24fff0957f6b0a9abde2809122f7f0fad8 selftests/proc: Assert clock_gettime(CLOCK_BOOTTIME) VS /proc/uptime monotonicity
          
-
---===============0977025365753565976==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1681827484 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1681827482-001860df5b501220f6ab7b23699e5db7d780a6cf
-
-ed5a25ac750684269b905e434ea9ffcc86e5e75a 2087e85bb66ee3652dafe732bb9b9b896229eafc refs/heads/spi-6.4
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmQ+ppwACgkQJNaLcl1U
-h9CvhAf6A5dUr80TKqWSB9YHPG1ggofUCNM6kLPKDQJgVKQ6qXJddXHnZsXpUz96
-AjYAyUtgtRe55eUD4D8JEbcPixt2oKM5VUqplz3pwYXj2ktmA7DSf1kt2MHjWNeA
-40zOeN8wCWbV9qMKLRqOn1CN5AWkoJGlHY4TLVc4LigtlSee4R6JsrHTHjxOln0W
-3DNX0QiOC00AX0seIA6kIb1sk8fOWwkG7cji/34A6dtSnwE6PnOe/N8pmYIre+Rf
-w/T3eYr6nVkhFq9+1BMl++pgG8MtlWIEEjtVp825B1pqvGw9VvW/NzSHzY/LPDIh
-R/xQ9eGQyBazCJJAcMcpnXg8S63YSQ==
-=VqCT
------END PGP SIGNATURE-----
-
---===============0977025365753565976==--
