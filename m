@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1216897258453282612=="
+Content-Type: multipart/mixed; boundary="===============6623295451008651718=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/firmware
-Date: Tue, 18 Apr 2023 16:29:17 -0000
-Message-Id: <168183535706.12134.9596345894375632176@gitolite.kernel.org>
+Date: Tue, 18 Apr 2023 16:29:47 -0000
+Message-Id: <168183538733.12384.8241686690715484246@gitolite.kernel.org>
 
---===============1216897258453282612==
+--===============6623295451008651718==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/firmware
 user: tnguy
 changes:
-  - ref: refs/heads/main
+  - ref: refs/heads/dev-queue
     old: 83f1d7781300b52785c062a8285da59042c0d1ff
     new: 8451c2b1d529dc1a49328ac9235d3cf5bb8a8fcb
     log: revlist-83f1d7781300-8451c2b1d529.txt
 
---===============1216897258453282612==
+--===============6623295451008651718==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -115,4 +115,4 @@ b9c8e9f7056ba3bd0313208ac4d185b695a84f2d rtw89: 8852c: update fw to v0.27.56.13
 53e48f93f594f4109d5ddcfb049a5ae266cff529 rtl_bt: Add firmware and config files for RTL8851B
 8451c2b1d529dc1a49328ac9235d3cf5bb8a8fcb mt76xx: Move the old Mediatek WiFi firmware to mediatek
 
---===============1216897258453282612==--
+--===============6623295451008651718==--
