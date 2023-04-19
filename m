@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
-Date: Wed, 19 Apr 2023 22:21:58 -0000
-Message-Id: <168194291875.30779.13807243148275264489@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/xfs/xfs-linux
+Date: Wed, 19 Apr 2023 22:46:43 -0000
+Message-Id: <168194440334.14939.4943090545373458516@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/liburing
-user: axboe
+repo: pub/scm/fs/xfs/xfs-linux
+user: dgc
 changes:
-  - ref: refs/heads/huge.2
-    old: 8a92e92f0789b5d6f5cc9818c0b92ef18168ac7b
-    new: 698c0e7209c6a3b92b0167c60c0cbb7b0c2a4edb
+  - ref: refs/heads/for-next
+    old: 798352cb25d2c27affbb5c733ed28430057228ca
+    new: 71deb8a5658c592ccad5ededb2ceffef6fcbba5f
     log: |
-         76616d6a48a21367d531b70dbfb6f9ca09b07821 setup: add support for io_uring_queue_init_mem()
-         698c0e7209c6a3b92b0167c60c0cbb7b0c2a4edb setup: unify queue exit path
+         422d56536fd2ebac254e469e196c64cf53cd8a07 xfs: fix duplicate includes
+         71deb8a5658c592ccad5ededb2ceffef6fcbba5f xfs: Extend table marker on deprecated mount options table
          
