@@ -1,62 +1,41 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/cryptsetup/cryptsetup
-Date: Wed, 19 Apr 2023 10:57:52 -0000
-Message-Id: <168190187205.20794.18304065036821674570@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============0894789560421396218=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
+Date: Wed, 19 Apr 2023 11:47:34 -0000
+Message-Id: <168190485474.21170.15255733528971547965@gitolite.kernel.org>
+
+--===============0894789560421396218==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/cryptsetup/cryptsetup
-user: mbroz
+repo: pub/scm/linux/kernel/git/jejb/scsi
+user: jejb
 changes:
-  - ref: refs/heads/coverity_scan
-    old: 7859673bd2ba162cd7526a5b295474793bfe2974
-    new: 23dd9885457fce1f8124e9bc391ef5b7a266e6b1
-    log: |
-         c81c3d1fc06b254183889fa5485cc47bda7680b3 Remove unused code in reencryption.
-         23dd9885457fce1f8124e9bc391ef5b7a266e6b1 Fix PBKDF2 vectors test for RHEL8 OpenSSL.
-         
-  - ref: refs/heads/main
-    old: 7859673bd2ba162cd7526a5b295474793bfe2974
-    new: 23dd9885457fce1f8124e9bc391ef5b7a266e6b1
-    log: |
-         c81c3d1fc06b254183889fa5485cc47bda7680b3 Remove unused code in reencryption.
-         23dd9885457fce1f8124e9bc391ef5b7a266e6b1 Fix PBKDF2 vectors test for RHEL8 OpenSSL.
-         
-  - ref: refs/heads/master
-    old: 7859673bd2ba162cd7526a5b295474793bfe2974
-    new: 23dd9885457fce1f8124e9bc391ef5b7a266e6b1
-    log: |
-         c81c3d1fc06b254183889fa5485cc47bda7680b3 Remove unused code in reencryption.
-         23dd9885457fce1f8124e9bc391ef5b7a266e6b1 Fix PBKDF2 vectors test for RHEL8 OpenSSL.
-         
-  - ref: refs/merge-requests/420/merge
-    old: 1584112ccb1885491f1d00362927e4a349637f72
-    new: bcbd3f5a1c35bc48ba851f2e84a086c2f38be70e
-    log: |
-         bc426bba6786aaf30437d14593800cafc561049f bitlk: Fix segfaults when attempting to test volume key
-         34953cb10fc88bb3629bec0e5cfb978585085769 Add support for Argon2 from libgcrypt.
-         7859673bd2ba162cd7526a5b295474793bfe2974 Support OpenSSL 3.2 Argon2 implementation.
-         bcbd3f5a1c35bc48ba851f2e84a086c2f38be70e Merge branch 'xchacha20-random' into 'main'
-         
-  - ref: refs/merge-requests/461/merge
-    old: 0bd9ea31b8210a0806c363549fbdb42a331f019e
-    new: e9af14a2a861b37747b84cd013fa2ef0ef36de32
-    log: |
-         c81c3d1fc06b254183889fa5485cc47bda7680b3 Remove unused code in reencryption.
-         e9af14a2a861b37747b84cd013fa2ef0ef36de32 Merge branch 'opal' into 'main'
-         
-  - ref: refs/merge-requests/503/head
-    old: 0000000000000000000000000000000000000000
-    new: c81c3d1fc06b254183889fa5485cc47bda7680b3
-  - ref: refs/merge-requests/503/merge
-    old: 0000000000000000000000000000000000000000
-    new: cc8f2246ce905b0473cf7bbf1e42913613864037
-  - ref: refs/merge-requests/504/head
-    old: 0000000000000000000000000000000000000000
-    new: 23dd9885457fce1f8124e9bc391ef5b7a266e6b1
-  - ref: refs/merge-requests/504/merge
-    old: 0000000000000000000000000000000000000000
-    new: b2f5140ab56c16018d14c351b926c46d41c457b1
+  - ref: refs/heads/misc
+    old: dc70c9615c067dbc34a1af736477f7d2b7f75319
+    new: 3c85f087faeca3ca9ec9e7b085e1eff370e3f0db
+    log: revlist-dc70c9615c06-3c85f087faec.txt
+
+--===============0894789560421396218==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-dc70c9615c06-3c85f087faec.txt
+
+a0fde512f7030e7fbdd5f0d8d70908d37389aae2 scsi: target: core: Fix invalid memory access
+3fc5d6d6dcac1f98139c8f16c69dd03f4fe4152c scsi: mpt3sas: Remove HBA BIOS version in the kernel log
+85140baf096bdca07cd5ab2fdc507db9cd4ba4e7 scsi: mpt3sas: Fix an issue when driver is being removed
+91a0c0c1413239d0548b5aac4c82f38f6d53a91e scsi: lpfc: Fix ioremap issues in lpfc_sli4_pci_mem_setup()
+e01e2290f0948ea6d383a5b715738911308b4d2b scsi: hisi_sas: Work around build failure in suspend function
+b32283d75335d8263fc9f5ae16c8a196f1d8b5d5 scsi: scsi_debug: Fix missing error code in scsi_debug_init()
+2acc635a0e5e91c267f2cb1c25748e8d06888e63 scsi: mpi3mr: Use IRQ save variants of spinlock to protect chain frame allocation
+8bfb89f6149ea8e790f58abad1f4a84066d86c91 scsi: lpfc: Silence an incorrect device output
+cabb637465116771742390c89b15634eb491960a scsi: cxlflash: s/semahpore/semaphore/
+4de243c40c0f6c701123eb12938a5d9caee08679 scsi: ufs: mcq: Annotate ufshcd_inc_sq_tail() appropriately
+3c85f087faeca3ca9ec9e7b085e1eff370e3f0db scsi: ufs: mcq: Use pointer arithmetic in ufshcd_send_command()
+
+--===============0894789560421396218==--
