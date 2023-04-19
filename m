@@ -1,26 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Wed, 19 Apr 2023 13:51:48 -0000
-Message-Id: <168191230890.8538.8131451160211031810@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/glaubitz/sh-linux
+Date: Wed, 19 Apr 2023 13:56:03 -0000
+Message-Id: <168191256334.11421.9744236605857196549@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
-user: broonie
+repo: pub/scm/linux/kernel/git/glaubitz/sh-linux
+user: glaubitz
 changes:
-  - ref: refs/heads/for-linus
-    old: e8d018dd0257f744ca50a729e3d042cf2ec9da65
-    new: 359f5b0d4e26b7a7bcc574d6148b31a17cefe47d
-    log: |
-         359f5b0d4e26b7a7bcc574d6148b31a17cefe47d spi: spi-rockchip: Fix missing unwind goto in rockchip_sfc_probe()
-         
   - ref: refs/heads/for-next
-    old: f9124f9715cb92d06036ed5950a5171e93498d64
-    new: cf9fd89280e8c644a1313c6cf65618addf10ce67
+    old: 63f148c44f3919047301a023b10b0e3ce65a7389
+    new: 80f746e2bd0e1da3fdb49a53570e54a1a225faac
     log: |
-         359f5b0d4e26b7a7bcc574d6148b31a17cefe47d spi: spi-rockchip: Fix missing unwind goto in rockchip_sfc_probe()
-         cf9fd89280e8c644a1313c6cf65618addf10ce67 Merge remote-tracking branch 'spi/for-6.4' into spi-next
+         80f746e2bd0e1da3fdb49a53570e54a1a225faac sh: sq: Fix incorrect element size for allocating bitmap buffer
          
