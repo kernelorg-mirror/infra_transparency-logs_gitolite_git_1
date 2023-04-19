@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8127346077997616366=="
+Content-Type: multipart/mixed; boundary="===============1252863540491647372=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
-Date: Wed, 19 Apr 2023 15:25:49 -0000
-Message-Id: <168191794991.8579.6697497724680677847@gitolite.kernel.org>
+Date: Wed, 19 Apr 2023 15:25:55 -0000
+Message-Id: <168191795563.8699.7347144597340776620@gitolite.kernel.org>
 
---===============8127346077997616366==
+--===============1252863540491647372==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/s390/linux
 user: gor
 changes:
-  - ref: refs/heads/features
-    old: c8b63559530b96944e46352a9b25ab34211f175d
-    new: 87e132c06c16acbce5011789dadc0021b66cd175
-    log: revlist-c8b63559530b-87e132c06c16.txt
+  - ref: refs/heads/for-next
+    old: b6143203df29f0a3c8b144974b62d83b57c04c99
+    new: 3307ecf712427f250b02f0207b1cbbbc12421ef6
+    log: revlist-b6143203df29-3307ecf71242.txt
 
---===============8127346077997616366==
+--===============1252863540491647372==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c8b63559530b-87e132c06c16.txt
+Content-Disposition: attachment; filename=revlist-b6143203df29-3307ecf71242.txt
 
 7a04d491edf4766e7724671355b1ab27cae81a4a s390/kexec: turn DAT mode off immediately before purgatory
 86295cb4530dfbc2315ca5997502dad03748e5dd s390/kdump: cleanup do_start_kdump() prototype and usage
@@ -48,5 +48,6 @@ fda1dffa44b0ea657e413f1e548022e3f0269592 s390/entry: use SYM* macros instead of 
 0ae241f4d7d0003f091df6f8d1f45767c3d96d62 s390/relocate_kernel: adjust indentation
 4af9fef1ad31ef82e1a87dd0752bfd9c48103dda stackleak: allow to specify arch specific stackleak poison function
 87e132c06c16acbce5011789dadc0021b66cd175 s390/stackleak: provide fast __stackleak_poison() implementation
+3307ecf712427f250b02f0207b1cbbbc12421ef6 Merge branch 'features' into for-next
 
---===============8127346077997616366==--
+--===============1252863540491647372==--
