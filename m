@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Wed, 19 Apr 2023 14:35:57 -0000
-Message-Id: <168191495795.6258.12667360708136030690@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Wed, 19 Apr 2023 14:36:54 -0000
+Message-Id: <168191501413.6572.3011497231595105749@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: dborkman
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/for-next
-    old: 276dcdd1a8f33047524dd0ae517290f0842fe4b8
-    new: 2ddade322925641ee2a75f13665c51f2e74d7791
-    log: |
-         2ddade322925641ee2a75f13665c51f2e74d7791 selftests/xsk: Fix munmap for hugepage allocated umem
-         
+  - ref: refs/heads/filerIoJbN
+    old: 0000000000000000000000000000000000000000
+    new: 09cda705860125ffee1b1359b1da79f8e0c77a40
