@@ -1,57 +1,61 @@
-Content-Type: multipart/mixed; boundary="===============9099397216384645076=="
+Content-Type: multipart/mixed; boundary="===============6951136481557004444=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Wed, 19 Apr 2023 09:43:12 -0000
-Message-Id: <168189739297.3558.12644222390702996457@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Wed, 19 Apr 2023 10:22:25 -0000
+Message-Id: <168189974569.30222.14205989531017446161@gitolite.kernel.org>
 
---===============9099397216384645076==
+--===============6951136481557004444==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/driver-core
+repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/class_cleanup
-    old: d4c0264acd0d35e2b6f037961774d5e2f92935ad
-    new: e962187350a81f6d8e2471468743b99c2b81e6c5
+  - ref: refs/heads/usb-testing
+    old: 8e86652e3e7152bba80c3b4d03814e40ede1abc7
+    new: ced7c981f382fc34b941ee3b861d49bdd9180af4
     log: |
-         ca9d081b49cc225627aa73feb9284b7ffc190df5 zram: fix up permission for the hot_add sysfs file
-         e962187350a81f6d8e2471468743b99c2b81e6c5 driver core: convert class_create() to class_register()
+         c8325b3227508459fab42f4f48fb232bc687f1ba thunderbolt: use `tb_eeprom_get_drom_offset` to discover DROM offset
+         ebde5ba27c640e08e92c83fe30be0d9fa224eea9 thunderbolt: Refactor DROM reading
+         4e99c98e3071bd7fd4d7f20440f1a5c3bf533149 thunderbolt: Get rid of redundant 'else'
+         5d88366807fce55ab5bd1bf94055e1d1d0032604 thunderbolt: Make use of SI units from units.h
+         1f15af76784cc902a1fe85e864c7ddf3d74b4130 thunderbolt: Introduce usb4_port_sb_opcode_err_to_errno() helper
+         ced7c981f382fc34b941ee3b861d49bdd9180af4 Merge tag 'thunderbolt-for-v6.4-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/westeri/thunderbolt into usb-next
          
 
---===============9099397216384645076==
+--===============6951136481557004444==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1681897390 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1681897390-9d9e76cef760f9c8d2ccc3c368baa92e6d1ad40a
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1681899744 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1681899743-fb7019e93c893dff5303a024ae835157f6a03f2f
 
-d4c0264acd0d35e2b6f037961774d5e2f92935ad e962187350a81f6d8e2471468743b99c2b81e6c5 refs/heads/class_cleanup
+8e86652e3e7152bba80c3b4d03814e40ede1abc7 ced7c981f382fc34b941ee3b861d49bdd9180af4 refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQ/t64bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+zkoP/2uqJWBZYCQR73SsC+B1
-vgY2uBYLq99ZvJLufwbKlKs9y6bG2dZ82xgSrlcgPj3NWaYYPGqqEwnS0SHjJ3GT
-9zkz1B8miAC7+QDzV9abPT9UwkUTiYp4sxQXW/2KH7c9T2X1CICORnMTzbv8qIej
-w4mqzy6xRHQjrEmF/NXRYpFJWAyoi9k58SM8X+0Anfcv8bMRffeZqUWPV0aqku9A
-59vyPP8rIzS1zkasnwke34aq5FKBeu9An4nL+5yECgaWMtHQbhz13qxzZY/jufjZ
-fpEndYaB2go1yIWw9NCCmrJslqbo5QYTkw0sV/CyJm6ySGE+lld3azFDhlnvXK6H
-2logjpKXPBoysuGfSKLVuTnYo9Cc/dizymnP5XqAWwRzWbuc8lPkQ07G+0Ych4p/
-20gLKQCHY0nr+htiiL0A4dFizSI3V9bWbDrIdrggM+nCZx6kqwTzSu9P+Hn4slwr
-q3k2mi8/FlPaD9XVogN0hZ5Pt/C9DFDvtUuXcYMkk6Ax+lwfe8zk4eWO9kFExIBa
-whFpIThWaT22rStka2mcXNfAnmv5k3YpY76R35FTINO93fSQUjxK+VDS9JYLwt1X
-TD1ZECu97Rx3bf+TNrZLhe64uADBQjnoQKuWscf4k1Cr5GzYLMZgBOHUcKtXMgUp
-fHIaFqCeQxXc762L10SzVU9Z
-=ERab
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQ/wOAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+sMgQAJngxk+p3S64dVENvfkG
+ssA71K+6+8SZgyIuxymwDTsCRFSXaY4yJEkTUHwXfi2nPRtgoOCsuMV3S/e7gDGH
+SCEj3lRvXAaSytnOERSG63lWNOTExkAX1gKyF4FO7ow/IYfCUQapR/VR0jtzIVaW
+yjYnZMak2NxoB0ZuOzJXGfCFuojFAZ0vihJFCUJXiD+/ER8TyDM8ckZrGAhLJCaV
+dlggNd6EMbIUSuNgsxEx1/Ags+N2C0e6sau7D5cPrNUfxCd40Any/M2bjCRk26qy
+79BfVYQv+eliW1lMPgKngq3aTSpRtqUdlAn+pYDT9AWACcpWkj0Xc925zxNvWYtm
+TgkykvKvZOlRAPmlrJdmr0HEFKGbLmrA/nbyegZ5PNrO+wMdUu6ProEEL+zLIPY2
+CxEZziwZfiTfubWDax60QmX5gh0p3M5jkSn76TgzZU1zfE0H/1S7X/oGL+vce3n6
+aSKjqU0TIpmZ6y7a0mb6gEhnjjZ4iETdBiFY3KsJ9gQADfKmTC69whFYPrgzc/z0
+LD+aE5+F3yIiTDdvmvsglQiyv5bSYEhbM2M2n3YKjEBFWbGxTeNCKrx0KdTe+T5n
+/L3pw5XGs5SpVJw3jzHIyCk7v8TlPtD2oHnM+esapD9S/trv4Be9rYdzlMcdCXxs
+11LZ3LH22UoH3RUqqIEwubZM
+=MWEq
 -----END PGP SIGNATURE-----
 
---===============9099397216384645076==--
+--===============6951136481557004444==--
