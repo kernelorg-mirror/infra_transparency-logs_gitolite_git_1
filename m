@@ -1,24 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/thermal/linux
-Date: Wed, 19 Apr 2023 08:36:18 -0000
-Message-Id: <168189337875.9674.17450999992071182154@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Wed, 19 Apr 2023 08:42:15 -0000
+Message-Id: <168189373581.13036.7011651763351523943@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/thermal/linux
-user: daniel.lezcano
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/thermal/bleeding-edge
-    old: fee74ed432f73548eec010f3fb4169e7fa7e19f5
-    new: c6b901152a85bc6f81a83cb5bac30af4aab5f571
+  - ref: refs/heads/for-linus
+    old: 6ab6f98fcdc9d4fbe245aa67de03542deea65322
+    new: bc66b591903e197982215f9febcfa09c4becfd89
     log: |
-         9852d100d86e03fc6cc1f1e0d4e72cdeac3135eb thermal/drivers/cpuidle_cooling: Delete unmatched comments
-         85dc567189087906daff12e964d60c346c05af75 Revert "thermal/drivers/mediatek: Add delay after thermal banks initialization"
-         61dcdd1b7ed4bc26f56eca6e55447685e4d6ee2c thermal/drivers/mediatek: Add temperature constraints to validate read
-         c3706fb1f41b87eb1e4c951b3a8ef8c9c4287f54 thermal/drivers/mediatek: Use devm_of_iomap to avoid resource leak in mtk_thermal_probe
-         1c64acc6cb47fb01d40178a5b9a444471670ea9b thermal/drivers/mediatek: Change clk_prepare_enable to devm_clk_get_enabled in mtk_thermal_probe
-         c6b901152a85bc6f81a83cb5bac30af4aab5f571 thermal/drivers/mediatek: Use of_address_to_resource()
+         bc66b591903e197982215f9febcfa09c4becfd89 ALSA: hda/realtek: Remove specific patch for Dell Precision 3260
+         
+  - ref: refs/heads/master
+    old: 8ffec76f825ed6a87d0519ea29aff288e3bf9bb3
+    new: 1cfb7266f7994114d0dc6bb2b902255dc2015ab0
+    log: |
+         bc66b591903e197982215f9febcfa09c4becfd89 ALSA: hda/realtek: Remove specific patch for Dell Precision 3260
+         1cfb7266f7994114d0dc6bb2b902255dc2015ab0 Merge branch 'for-linus'
          
