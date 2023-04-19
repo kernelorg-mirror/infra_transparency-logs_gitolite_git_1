@@ -1,45 +1,61 @@
-Content-Type: multipart/mixed; boundary="===============6820625171029738721=="
+Content-Type: multipart/mixed; boundary="===============4053352095024924470=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Wed, 19 Apr 2023 13:04:57 -0000
-Message-Id: <168190949758.6762.14545199723178436951@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Wed, 19 Apr 2023 13:05:36 -0000
+Message-Id: <168190953653.8529.5505116461713297658@gitolite.kernel.org>
 
---===============6820625171029738721==
+--===============4053352095024924470==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
-user: acme
+repo: pub/scm/linux/kernel/git/gregkh/usb
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/tmp.perf/core
-    old: 17354d1528f902b3a4f66023cd24012e7999c4dc
-    new: ef38c03be16edecd4833c3ba213d5bd2117c53da
-    log: revlist-17354d1528f9-ef38c03be16e.txt
+  - ref: refs/heads/usb-next
+    old: 8e86652e3e7152bba80c3b4d03814e40ede1abc7
+    new: ced7c981f382fc34b941ee3b861d49bdd9180af4
+    log: |
+         c8325b3227508459fab42f4f48fb232bc687f1ba thunderbolt: use `tb_eeprom_get_drom_offset` to discover DROM offset
+         ebde5ba27c640e08e92c83fe30be0d9fa224eea9 thunderbolt: Refactor DROM reading
+         4e99c98e3071bd7fd4d7f20440f1a5c3bf533149 thunderbolt: Get rid of redundant 'else'
+         5d88366807fce55ab5bd1bf94055e1d1d0032604 thunderbolt: Make use of SI units from units.h
+         1f15af76784cc902a1fe85e864c7ddf3d74b4130 thunderbolt: Introduce usb4_port_sb_opcode_err_to_errno() helper
+         ced7c981f382fc34b941ee3b861d49bdd9180af4 Merge tag 'thunderbolt-for-v6.4-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/westeri/thunderbolt into usb-next
+         
 
---===============6820625171029738721==
+--===============4053352095024924470==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-17354d1528f9-ef38c03be16e.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-4121234a32887a49d5da06e4c219f67abb6e744f libperf: Add perf_cpu_map__refcnt() interanl accessor to use in the maps test
-a9b867f68e89a54fcac334b77e6d243e872573c9 libperf: Add reference count checking macros
-d57fd4926ab81ad5749c6950047ea40863a52e18 perf cpumap: Remove initializations done in perf_cpu_map__alloc()
-491b13c46d4165eacc294b880f388e00ed85e5aa perf cpumap: Use perf_cpu_map__cpu(map, cpu) instead of accessing map->map[cpu] directly
-da885a0e5e0610e011f14a70c2dc7c4ddf79c6d6 perf cpumap: Add reference count checking
-7031edac9dbc0f880c9fbaa40ca08b5de34239c6 perf dso: Add dso__filename_with_chroot() to reduce number of accesses to dso->nsinfo members
-c35ce1d918c12900375a60165c908de47856900d perf namespaces: Add reference count checking
-4d623903f1ed63a06e469c4ce45231440d1be5b6 perf namespaces: Use the need_setns() accessors instead of accessing ->need_setns directly
-f94c21dfd02e98aa0fcb9b453a1198e76ede60e7 perf namespaces: Introduce nsinfo__refcnt() accessor to avoid accessing ->refcnt directly
-2d1acd3f10baed49329c1b201cafb060aeb377e0 perf namespaces: Introduce nsinfo__mntns_path() accessor to avoid accessing ->mntns_path directly
-de047c1091854f0c0561f3d199c2ea2e344f10a5 perf script task-analyzer: Fix spelling mistake "miliseconds" -> "milliseconds"
-b550bc90bb8218da8c944f28b99cb372ad969749 perf cs-etm: Fix segfault in dso lookup
-5434e8e4598dbdf6096730c64d719d7b687296fb perf dso: Fix use before NULL check introduced by map__dso() introduction
-4789ff075f4f6d66dde7dbdcb6680a5de738cd38 perf maps: Add maps__refcnt() accessor to allow checking maps pointer
-ef38c03be16edecd4833c3ba213d5bd2117c53da perf maps: Use maps__nr_maps() instead of open coded maps->nr_maps
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1681909535 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1681909535-72b71053941e11f17cfbf61bd5ab37e468ae0abb
 
---===============6820625171029738721==--
+8e86652e3e7152bba80c3b4d03814e40ede1abc7 ced7c981f382fc34b941ee3b861d49bdd9180af4 refs/heads/usb-next
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQ/5yAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+szwP+wVvc/wbbo3qZViQjasa
+fXJHv3kEFIa5qAxHf8XK5O9kveMFCS9n6y9EqOGhsXCODM6FuDZCwkBqMv6sQ2PS
+14Im+/Yrl+LDSk9t/+HvajFIV1VF+oemAoZK6VwlR2vJMPJGGVhFgNOVHfQJfese
+fSRICpfoozORDcb1c8lmrKlU0ks2Ff37pEGS3ovO+FXbHzyJ0u2ZFRQiqXIL0+Ns
+t85SekoCUg26LTvqHCHXI7sSC2o6A6P0ELmZY8IsEMCvNVDGS2kEOggZUXPo6M2w
+RpnxUTXtM/Pc0BcUCWofzLMaD0HBKV0tZTVXg3i/odngHGugc9wutIt973kR63Zk
+pVq+QxtPJnZPLlokdme2YAWcPd67bTDk1jkymiDnL7wil703faKAzWQUWWzNw+XA
+N0myraK9i5DAsOsQu3/1AISlB/xguDIMldW1p4Dfl3qb4QvO/JsK8A1LS2vNvoMW
+lESpNKqwF5bIOBcfqCr26hiwFF6JW3ApddRJOXXMvcjJ6EdTMDEoxbZp0wOCXZ0i
+j0i21AN5Bb+VUDr5doep47quYva9lQZ8cyYAYWZCPufQhVLYAMfjXwLhjlJRWvuj
+g6YC+8pu+E70b2I6rvOL/VugybQKkNW5muhnffKcfofPbcXFYbj9TTGdaCJviN7N
+rg4/twKesT0wGBSi8fNqpjft
+=UW9x
+-----END PGP SIGNATURE-----
+
+--===============4053352095024924470==--
