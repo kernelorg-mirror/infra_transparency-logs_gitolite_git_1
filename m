@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/xfs/xfs-linux
-Date: Wed, 19 Apr 2023 22:46:43 -0000
-Message-Id: <168194440334.14939.4943090545373458516@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Wed, 19 Apr 2023 22:50:03 -0000
+Message-Id: <168194460355.17790.13882867152395566974@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/xfs/xfs-linux
-user: dgc
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/for-next
-    old: 798352cb25d2c27affbb5c733ed28430057228ca
-    new: 71deb8a5658c592ccad5ededb2ceffef6fcbba5f
-    log: |
-         422d56536fd2ebac254e469e196c64cf53cd8a07 xfs: fix duplicate includes
-         71deb8a5658c592ccad5ededb2ceffef6fcbba5f xfs: Extend table marker on deprecated mount options table
-         
+  - ref: refs/heads/io_uring-ring-alloc
+    old: 0000000000000000000000000000000000000000
+    new: 68fe7d4b2666fb3101e02da3886213f71a530d49
