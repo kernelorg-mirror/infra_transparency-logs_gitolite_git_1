@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============4467867667657015924=="
+Content-Type: multipart/mixed; boundary="===============8559636420740102481=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux
-Date: Wed, 19 Apr 2023 18:48:37 -0000
-Message-Id: <168193011725.15185.3883730012043879844@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
+Date: Wed, 19 Apr 2023 18:48:50 -0000
+Message-Id: <168193013029.15412.2319490361690619396@gitolite.kernel.org>
 
---===============4467867667657015924==
+--===============8559636420740102481==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux
+repo: pub/scm/linux/kernel/git/amlogic/linux
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -26,7 +26,7 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: 1c8c28415e8743368a2b800520a6dd0b22ee6ec2
 
---===============4467867667657015924==
+--===============8559636420740102481==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -564,4 +564,4 @@ b5533e990dd1de5872a34cba2f4f7f508c9b2ec3 tools/loongarch: Use __SIZEOF_LONG__ to
 40aacb3183ff74e15940189ff9a998a93b5ca76f Merge tag 'loongarch-fixes-6.3-1' of git://git.kernel.org/pub/scm/linux/kernel/git/chenhuacai/linux-loongson
 789b4a41c247ed654322a6150815025b5497cad0 Merge tag 'nfsd-6.3-6' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
 
---===============4467867667657015924==--
+--===============8559636420740102481==--
