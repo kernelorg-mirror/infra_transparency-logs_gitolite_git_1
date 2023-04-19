@@ -1,21 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 19 Apr 2023 04:40:13 -0000
-Message-Id: <168187921381.16056.8272529049913984551@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Wed, 19 Apr 2023 06:27:58 -0000
+Message-Id: <168188567885.20977.3932896369025866005@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/main
-    old: 980f0799a15c75403f1f9284a32b6056b9660144
-    new: 14cac662235ea097b6ff97f558ce5066292806b9
+  - ref: refs/heads/for-next
+    old: f609bf6b21951569036d23cf66a1317d066ef9ed
+    new: 0d19bd4df75eee7df20377ffa2b62a4adedd19ff
     log: |
-         6b2c6e4a938fece9b539c8085f21d17c5e6eb9de net: stmmac: propagate feature flags to vlan
-         33d74c8ff5ced854bc0ab6f94a778464dd2b905b net: mscc: ocelot: remove incompatible prototypes
-         14cac662235ea097b6ff97f558ce5066292806b9 net: ethernet: stmmac: dwmac-sti: remove stih415/stih416/stid127
+         d42c521ff4c9824e81c13d5fe1af947c1c652669 ALSA: ppc/tumbler: Use of_property_present() for testing DT property presence
+         0d19bd4df75eee7df20377ffa2b62a4adedd19ff ALSA: Use of_property_read_bool() for boolean properties
+         
+  - ref: refs/heads/master
+    old: 23174002367b27e36fffb814acb19872dd8fa816
+    new: 8ffec76f825ed6a87d0519ea29aff288e3bf9bb3
+    log: |
+         d42c521ff4c9824e81c13d5fe1af947c1c652669 ALSA: ppc/tumbler: Use of_property_present() for testing DT property presence
+         0d19bd4df75eee7df20377ffa2b62a4adedd19ff ALSA: Use of_property_read_bool() for boolean properties
+         8ffec76f825ed6a87d0519ea29aff288e3bf9bb3 Merge branch 'for-next'
          
