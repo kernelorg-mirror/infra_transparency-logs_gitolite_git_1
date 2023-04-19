@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
-Date: Wed, 19 Apr 2023 04:08:12 -0000
-Message-Id: <168187729279.25422.13184434920873253830@gitolite.kernel.org>
+Date: Wed, 19 Apr 2023 04:08:22 -0000
+Message-Id: <168187730211.25517.3641423964895521610@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,7 +11,7 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
 user: chenhuacai
 changes:
-  - ref: refs/heads/loongarch-fixes
+  - ref: refs/heads/loongarch-next
     old: bacc96035ef048bb44722bd2b52d2d3ab56da187
     new: b5533e990dd1de5872a34cba2f4f7f508c9b2ec3
     log: |
