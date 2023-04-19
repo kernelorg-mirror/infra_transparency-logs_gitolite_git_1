@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6088474437768138945=="
+Content-Type: multipart/mixed; boundary="===============7405550277508411162=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Wed, 19 Apr 2023 03:20:01 -0000
-Message-Id: <168187440128.25841.11042187460012137483@gitolite.kernel.org>
+Date: Wed, 19 Apr 2023 03:20:12 -0000
+Message-Id: <168187441264.27513.7077106210079996118@gitolite.kernel.org>
 
---===============6088474437768138945==
+--===============7405550277508411162==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,9 +16,9 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-staging
-    old: c4a44cba9dbd0c32b24a791c773d5c49af0f2e2a
-    new: 318883c651a18ea4b813865b46e9010f61b6342d
+  - ref: refs/heads/6.4/scsi-staging
+    old: 3c85f087faeca3ca9ec9e7b085e1eff370e3f0db
+    new: 8ca286830fa41c324de99ecb3ad08239443d6810
     log: |
          0c028b6a115e7f18480ec3f98ba7bccf011646ea scsi: scsi_debug: Abort commands from scsi_debug_device_reset()
          65a15d6560dff065339f6cac91de4beded60fe3f scsi: ipr: Remove SATA support
@@ -26,33 +26,33 @@ changes:
          8ca286830fa41c324de99ecb3ad08239443d6810 scsi: pm80xx: Log device registration
          
 
---===============6088474437768138945==
+--===============7405550277508411162==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1681874391 -0400
+pusher 75C5DE3D 1681874404 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1681874391-60e5a26fd8e9b31dceb5a7fc736bdfa4b6b40bde
+nonce 1681874404-a4015260732d20add0a5555c796a7969a5ef147b
 
-c4a44cba9dbd0c32b24a791c773d5c49af0f2e2a 318883c651a18ea4b813865b46e9010f61b6342d refs/tags/mkp-scsi-staging
+3c85f087faeca3ca9ec9e7b085e1eff370e3f0db 8ca286830fa41c324de99ecb3ad08239443d6810 refs/heads/6.4/scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmQ/XdcACgkQ7ulgGnXF
-3j25Rw/+PVTU2zeYO6O0QlRmBLrei/fWTrG/iYm8uWdAKHsm+oZpR40zlp4L+vcj
-nM8glb5hX1RdJEo8yk6ynqWCzj5le3+aPUycDsSlFGt36EVDggGDpGoRKO1HHo4k
-Oi6Rkt/KaOLfq1xFS8cZigWK6wPp0ldxPyX1O4gdFSyPfuoMTkbw+sq172jA888c
-udYTBRL7tCusjS6KweFn5pnJEokIeWu4CpHRmauPsDLUTvL0usd07IrlglzPqz4v
-2qBU+p/kQJTHkVauuECnIMuG7sqx/40jmbkchnRNxRTisVFcsgvSufs5a1X8I9c3
-5vwEb+0fG7caEGrTfbeOAeTjQjNgXOXGQE3lNusGUXbwwCLY2Orz1wyqDBjw0OKc
-tnfeYlyCnJBX4dYLF0jUQBlV/u5izWkWaV1eVPAnaF89W7TmEJK2R5nQyG+wfA32
-bPqwUh0GNONG2uODcw0O3pVqpMrslbUfrF9y0moVN4zBWr8Nt3kyk2yl7SqFUtcL
-wrUgWE8uTQ3vKlyB5Tld5yC0CBkBSC0db9XLrIl9ah+DhNTitpE6FQZAamxOLYcC
-DMxv0mbbiDS2q3voJR5pJbhFmI3XfHMsYjbb+B/VpK5UB0k+Eqyi6UYElJ01mZ1i
-ZLGAqiqKLZFc1m0yYkMeIp5D+n99BaHAiHHbB+z7Gbqm1znQmf8=
-=Ddvu
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmQ/XeQACgkQ7ulgGnXF
+3j1w5w//dCNFURl+q7jHOg9VpJAVsZSkNyIarUogXsjTRR+UnnjvMOk5JIWTrfHA
+Wfai4AY8vBNIIP7d50aOCoCkSHwY48CExbDpsUNWMWarqeGQ0MwrUs/mVIfmYHwy
+bSQoAmAKpSBscaN6t6lvWYBXKWwgE85NJbOgC3KT5NUZAeya4m9t8dA/5js1q23E
+7w7CmRV9kz0k7kjjgEXfe/5EHMPBgABX8jW1PtZcYE42j85EQ/a0P8SCmKgG1kso
+O1Fa50bC66hqe5RTnS39VFHrOEybAwOh3/PqUAAUpzn6lP6oXmhj/OjuO85rYnKl
+Gm9QJ51EcBmgwL31brMiShXrtoTzUUYqibRRsCq3g+RrREaZKNVo0KYzdTZ9ougU
+wOc802xg/4KZYLPrJEXdm7blcGxLYjCBy9rJPbTGGyy9f0Kefvgbc0c0m69e4JZ9
+sBC2+xJeOr+vGT+oUEbisC9x0ilUaMulLXOo/mCgsXpk7PNeOvbaPFzFh22sX1L1
+YmUEvqZkn1UV1Nt9lhDnLXPnqRM/NoXcbAuACTyLFyU/tbzbdTlFHNYzxqqxfcM5
+7VwU9/IBY/XFW2xaJMhVlm8kTpXI4xYTmOrCxIpCO8d3X3tUQLMMWWg6Jbzc7S3i
+ojMMfQy28pbt6RrxsSmhPU/w34ogGmeFrOffuHdH/GBYGsDWTmM=
+=rvjw
 -----END PGP SIGNATURE-----
 
---===============6088474437768138945==--
+--===============7405550277508411162==--
