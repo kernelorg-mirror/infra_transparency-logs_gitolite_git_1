@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6461075982111845324=="
+Content-Type: multipart/mixed; boundary="===============6088474437768138945=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Wed, 19 Apr 2023 03:19:47 -0000
-Message-Id: <168187438744.25706.11905705743022593536@gitolite.kernel.org>
+Date: Wed, 19 Apr 2023 03:20:01 -0000
+Message-Id: <168187440128.25841.11042187460012137483@gitolite.kernel.org>
 
---===============6461075982111845324==
+--===============6088474437768138945==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,56 +16,43 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue
-    old: dc70c9615c067dbc34a1af736477f7d2b7f75319
-    new: 3c85f087faeca3ca9ec9e7b085e1eff370e3f0db
-    log: revlist-dc70c9615c06-3c85f087faec.txt
+  - ref: refs/tags/mkp-scsi-staging
+    old: c4a44cba9dbd0c32b24a791c773d5c49af0f2e2a
+    new: 318883c651a18ea4b813865b46e9010f61b6342d
+    log: |
+         0c028b6a115e7f18480ec3f98ba7bccf011646ea scsi: scsi_debug: Abort commands from scsi_debug_device_reset()
+         65a15d6560dff065339f6cac91de4beded60fe3f scsi: ipr: Remove SATA support
+         5f9fb4b56e84261311a16c959b5f86495724aa6b scsi: advansys: Disallow ISA-only build
+         8ca286830fa41c324de99ecb3ad08239443d6810 scsi: pm80xx: Log device registration
+         
 
---===============6461075982111845324==
+--===============6088474437768138945==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1681874386 -0400
+pusher 75C5DE3D 1681874391 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1681874385-6a7f9ca74abe0d20ccbe2682cce753ece9e9b90b
+nonce 1681874391-60e5a26fd8e9b31dceb5a7fc736bdfa4b6b40bde
 
-dc70c9615c067dbc34a1af736477f7d2b7f75319 3c85f087faeca3ca9ec9e7b085e1eff370e3f0db refs/heads/queue
+c4a44cba9dbd0c32b24a791c773d5c49af0f2e2a 318883c651a18ea4b813865b46e9010f61b6342d refs/tags/mkp-scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmQ/XdIACgkQ7ulgGnXF
-3j1rARAAleMvSTC4YespDGGKOYjGM0iTXeXr7LbI3ulYcbt9dmOGkzrmfR6sVdpb
-Dc4PKtAvrR9XO58ZvEALqoO1bZvT/oQ7TC/dQ7BnpOhxNpLUO+fAvFCSNsU8z6FM
-PZGu4qjlLgEnrj9EKtGh3PeMjqc3iIuwx6mr2jwjUkeyUYctpVOfg0gP7KevG4o/
-bdJhQU7s4wBLCAosaQpofeuuGRxPX7SkPm1DbIXgxT+MzIAHvDi+3kUBODah6MMa
-L4/WmsQ4gMpWuyK25NubxsJGq908hNhj/dXAsPVhZxU8w/0nOsEPIi7NcMtoaJDq
-yOtqmRgOZuAWHlIKE7iC6wS6YE9G0+3xJdqdjMsLDa5WsGlt3uhqgD4T0LsAgz8J
-4e9wgNZwAu3IqavIVs5arNgMyA6Z2PFROSwrsa9QjnMZqMxutFG1ER38JdOboJfs
-8cRIwBJZnJ4MpGnpLqIbhaU80levwKf/rvbd6fqQnC/iz/RzPZyRYnkDC0sGxkFp
-qLgdglT4qRB/jRUz0tjUJpHSmPW7Z6VWe0Qk0rSl38M4zRNuwftuLp3aZd/KExo1
-w1J1Mf0BReHU5jl1Ap+SZiFMhV5uxk8l85ywflDQeCw+I6tMkwydILA4uG9EA+QW
-8CPgzM+0qpl81nPxqxH9QqrzNUEKwHPhDZOlf6mr5HfcmpxTgpY=
-=u0z9
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmQ/XdcACgkQ7ulgGnXF
+3j25Rw/+PVTU2zeYO6O0QlRmBLrei/fWTrG/iYm8uWdAKHsm+oZpR40zlp4L+vcj
+nM8glb5hX1RdJEo8yk6ynqWCzj5le3+aPUycDsSlFGt36EVDggGDpGoRKO1HHo4k
+Oi6Rkt/KaOLfq1xFS8cZigWK6wPp0ldxPyX1O4gdFSyPfuoMTkbw+sq172jA888c
+udYTBRL7tCusjS6KweFn5pnJEokIeWu4CpHRmauPsDLUTvL0usd07IrlglzPqz4v
+2qBU+p/kQJTHkVauuECnIMuG7sqx/40jmbkchnRNxRTisVFcsgvSufs5a1X8I9c3
+5vwEb+0fG7caEGrTfbeOAeTjQjNgXOXGQE3lNusGUXbwwCLY2Orz1wyqDBjw0OKc
+tnfeYlyCnJBX4dYLF0jUQBlV/u5izWkWaV1eVPAnaF89W7TmEJK2R5nQyG+wfA32
+bPqwUh0GNONG2uODcw0O3pVqpMrslbUfrF9y0moVN4zBWr8Nt3kyk2yl7SqFUtcL
+wrUgWE8uTQ3vKlyB5Tld5yC0CBkBSC0db9XLrIl9ah+DhNTitpE6FQZAamxOLYcC
+DMxv0mbbiDS2q3voJR5pJbhFmI3XfHMsYjbb+B/VpK5UB0k+Eqyi6UYElJ01mZ1i
+ZLGAqiqKLZFc1m0yYkMeIp5D+n99BaHAiHHbB+z7Gbqm1znQmf8=
+=Ddvu
 -----END PGP SIGNATURE-----
 
---===============6461075982111845324==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-dc70c9615c06-3c85f087faec.txt
-
-a0fde512f7030e7fbdd5f0d8d70908d37389aae2 scsi: target: core: Fix invalid memory access
-3fc5d6d6dcac1f98139c8f16c69dd03f4fe4152c scsi: mpt3sas: Remove HBA BIOS version in the kernel log
-85140baf096bdca07cd5ab2fdc507db9cd4ba4e7 scsi: mpt3sas: Fix an issue when driver is being removed
-91a0c0c1413239d0548b5aac4c82f38f6d53a91e scsi: lpfc: Fix ioremap issues in lpfc_sli4_pci_mem_setup()
-e01e2290f0948ea6d383a5b715738911308b4d2b scsi: hisi_sas: Work around build failure in suspend function
-b32283d75335d8263fc9f5ae16c8a196f1d8b5d5 scsi: scsi_debug: Fix missing error code in scsi_debug_init()
-2acc635a0e5e91c267f2cb1c25748e8d06888e63 scsi: mpi3mr: Use IRQ save variants of spinlock to protect chain frame allocation
-8bfb89f6149ea8e790f58abad1f4a84066d86c91 scsi: lpfc: Silence an incorrect device output
-cabb637465116771742390c89b15634eb491960a scsi: cxlflash: s/semahpore/semaphore/
-4de243c40c0f6c701123eb12938a5d9caee08679 scsi: ufs: mcq: Annotate ufshcd_inc_sq_tail() appropriately
-3c85f087faeca3ca9ec9e7b085e1eff370e3f0db scsi: ufs: mcq: Use pointer arithmetic in ufshcd_send_command()
-
---===============6461075982111845324==--
+--===============6088474437768138945==--
