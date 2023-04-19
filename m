@@ -1,22 +1,34 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Wed, 19 Apr 2023 20:34:08 -0000
-Message-Id: <168193644819.22691.8125595252361469809@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Wed, 19 Apr 2023 20:50:04 -0000
+Message-Id: <168193740400.2906.1490000509784295927@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/man-pages/man-pages
-user: alx
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/master
-    old: 6693a21cf73c502f2429b4ec07698130a2be9a93
-    new: 34bb376e954f61adf9b70c84155d06568d161fd9
+  - ref: refs/heads/for-6.4/block
+    old: 63f8793ee60513a09f110ea460a6ff2c33811cdb
+    new: 9e05a2599a37295eb2dc5c03441daa6741abed4b
     log: |
-         c4c56409c9ab3a7415e5cf472135f519f7de6082 landlock.7: Check syscall result with == -1 instead of <= 0
-         621ff5ae9813be8af7de75245dab35c29e126ada landlock.7: Use LANDLOCK_* constants for compatibility table
-         abfaf4a953948c45bd6a45a6a9c3283be437c270 landlock.7: wfix: Error message wording in code example
-         34bb376e954f61adf9b70c84155d06568d161fd9 landlock.7: Return instead of exit() if Landlock is unusable
+         9e05a2599a37295eb2dc5c03441daa6741abed4b sed-opal: geometry feature reporting command
+         
+  - ref: refs/heads/for-6.4/io_uring
+    old: 4d1a35cf08801c2737f8a300ce52674f51197bd3
+    new: fbd3aaf37886d3645b1bd6920f6298f5884049f8
+    log: |
+         fbd3aaf37886d3645b1bd6920f6298f5884049f8 Revert "io_uring/rsrc: disallow multi-source reg buffers"
+         
+  - ref: refs/heads/for-next
+    old: 18a80df721b40619f936cbae6070f49d67a0feb0
+    new: aaf9cff31abee81358eccbc000c3dff8c6e9b858
+    log: |
+         9e05a2599a37295eb2dc5c03441daa6741abed4b sed-opal: geometry feature reporting command
+         74fab731d80d02264a69d7f537997800be4ebe98 Merge branch 'for-6.4/block' into for-next
+         fbd3aaf37886d3645b1bd6920f6298f5884049f8 Revert "io_uring/rsrc: disallow multi-source reg buffers"
+         aaf9cff31abee81358eccbc000c3dff8c6e9b858 Merge branch 'for-6.4/io_uring' into for-next
          
