@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6027571410952606870=="
+Content-Type: multipart/mixed; boundary="===============6448635597388754797=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Wed, 19 Apr 2023 13:07:58 -0000
-Message-Id: <168190967822.9501.12063010455314925037@gitolite.kernel.org>
+Date: Wed, 19 Apr 2023 13:09:02 -0000
+Message-Id: <168190974277.9913.8789898666080794318@gitolite.kernel.org>
 
---===============6027571410952606870==
+--===============6448635597388754797==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,59 +17,42 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/char-misc-testing
-    old: 2a1dd5c88ce3b43b9fa9b4f61a847f0a13371bb7
-    new: 3fcf52b71161d52ae47fa4dd2c4911125fe11cc5
-    log: revlist-2a1dd5c88ce3-3fcf52b71161.txt
+    old: 3fcf52b71161d52ae47fa4dd2c4911125fe11cc5
+    new: 12124d16726ca7d9cb1eb8725767cbcfb96195c8
+    log: |
+         dd8f7f463394f92c2f402e29cb39f5265ef97776 MAINTAINERS: Remove Mathieu Poirier as coresight maintainer
+         18996a113f2567aef3057e300e3193ce2df1684c coresight: etm_pmu: Set the module field
+         12124d16726ca7d9cb1eb8725767cbcfb96195c8 Merge tag 'coresight-next-v6.4' of git://git.kernel.org/pub/scm/linux/kernel/git/coresight/linux into char-misc-next
+         
 
---===============6027571410952606870==
+--===============6448635597388754797==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1681909676 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1681909740 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1681909676-99eb3b88e09538d9941716abdcde0aeee2cce2a8
+nonce 1681909740-57e86a953efab0989d796f35f563b78c48b285c0
 
-2a1dd5c88ce3b43b9fa9b4f61a847f0a13371bb7 3fcf52b71161d52ae47fa4dd2c4911125fe11cc5 refs/heads/char-misc-testing
+3fcf52b71161d52ae47fa4dd2c4911125fe11cc5 12124d16726ca7d9cb1eb8725767cbcfb96195c8 refs/heads/char-misc-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQ/56wbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+xDoP/AxVW5sqJREjbXL3Qyst
-y1fZpH2MP1gcWa8tZh4FegMwdOlnz8AK+ZxBZbxKEfj3qh8fnNdMYLdfuGT0aJLF
-sJK0bMW2ZRSl7hr/IzNCVyjB/3NYal8K+1HBrXUqeyUF5ofzyZ2GBnBGyrAL3WpI
-iWHCZhly5uhDLjsBJjQBUwupoDFYycJ4UB3B7WtbqIvB7bLnNyD16l2wIOMUg9WH
-8YJ9AUZKuU1O5uyONQMaNbOZ8OFJPHEGm8EM4XS4ruxKuk+NX/RLMk+/LkO1DuOg
-DZGa63dI2QaMLQ6CKP/zpwvvFsmetMJXOJWGSZ5feHDnCzEtCkq4AmwKyuyt8XlU
-BoUCPNlXwK7Zn/koXCvtj4OiNKxoIemgzrHn6rEbUGdGqEzz4/HujNX79vlqYv+9
-dQsq0hJEJRPFbAHHF3khock1SAxBqKJMEGTfFX7zWTZi0gAIBUD/B2UKCHeYl//O
-+XaYzNdL9hbitQK3iR1cdTiNnfvT5ltf5mE8jc3DEsBmPIXzWDfBQSeF3zdFnocZ
-N0fQqTUoxPrbOWGifE0uy/OGHyFSTYitAUlTv2ammShXSARS6v7BrMi5aLY68PWc
-JBWCgHiCmZBIGy3NgTOScswVKP0MA+6V86fAG8Uv2icQ9h+PbprOoFiBVhzHVS5D
-DubX1tHpvkvoDCD1nVdb8999
-=cW2i
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmQ/5+wbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+73wQAKI+oNd4GEkoxNb988mb
+KN9GrMPfofZVC6hkpRBpWJhUr9t8b0FK4aMy+GhIfP2PRLlf9t2ASPS9xVEgbSoy
+ngua0u6MGTNMfPAcAF6T0vFbfRCpdkh/2n8+LFySPSLsathcvkY2w/NwyQdrEwBI
+fjNmg3BGx9uz40RYTZTkbveGEtz4H+b3XTl31EitzRoeZnjJAWLnro07p2KK7jaB
+5z78f3CjQXCQFKjXm+RU1rCdokqjTNxN8DcS/jLSf7bB2GDTw0fvwuCYD8ypqt4V
+qVTYFd0WQZ9sLcxxn/YlT5ggvE4LTIr3qsHRqMLvAdkWMUVHa5lEVlwh68ktbWxd
+eLMKGEfDWTXUxbnsM3oyyknIfAM/rZgaLPPlAgc3SgAAVbkUxGeilFMt12zHtjev
+ikMugFY+Xl2tL8Ebht+/8Tmmf11tW8WZD4+NqE//VMFpNOHErCXKigwqQZr3oNmE
+fI2A9JXUcA0/NeaP9GnQnuHwBlia+4VOAKLZA4aAiOYpkhV7lkzDbxsyBXOpw61W
+cX2+pEw8Bl1QzdTQfVcoYgnz268BKVDlKLkFQwRqj1Bo0oQAdV4u8Ua8yTBDPB4v
+4yyYl5LfuQ4JViTd6sxNlpc7135g0s1zaLqqFa1vx1WFt7sGe6HI3RUtiQWq+SXB
+zthe87qbWj+STCklcij48Hdc
+=GBmE
 -----END PGP SIGNATURE-----
 
---===============6027571410952606870==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2a1dd5c88ce3-3fcf52b71161.txt
-
-4658842abce4bebb0a0caef53f9c99f0ec4e27e3 interconnect: qcom: Drop obsolete dependency on COMPILE_TEST
-558ea12354882bb8250be8ea09a6658af3f7d912 interconnect: Skip call into provider if initial bw is zero
-4c4161b4c81b632fc29002c324e996cbb79894e7 interconnect: qcom: drop obsolete OSM_L3/EPSS defines
-f730038fe6a6de170268fd779b2c029aa70a928b interconnect: qcom: osm-l3: drop unuserd header inclusion
-213913ff2b89ab5ba76aceba24198b217e8e325c interconnect: Use of_property_present() for testing DT property presence
-419405c92299d793b95053aa54d95e2d3f45a1a4 interconnect: drop racy registration API
-b2d110cd5d28ded813f060b735cd68bfe2e5010f interconnect: drop unused icc_link_destroy() interface
-72b2720c18ecde92e6a36c4ac897dd5848e3f379 interconnect: qcom: rpm: drop bogus pm domain attach
-1d779317eb6529d89bfe6d7900a2cf9e03149aeb interconnect: qcom: rpm: make QoS INVALID default
-02819953b33a4410e6aa4595a043c052408c90d3 interconnect: qcom: rpm: Add support for specifying channel num
-82a4b285abcaa3631446e7e4103ef61d0787362d interconnect: qcom: Sort kerneldoc entries
-e0c35141f9ca5869a51d7c135688350c06ebdded dt-bindings: interconnect: OSM L3: Add SM6375 CPUCP compatible
-b7590f3841f47d5c6732db9a6d6474162109f487 dt-bindings: interconnect: qcom,msm8998-bwmon: Resolve MSM8998 support
-3fcf52b71161d52ae47fa4dd2c4911125fe11cc5 Merge tag 'icc-6.4-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/djakov/icc into char-misc-next
-
---===============6027571410952606870==--
+--===============6448635597388754797==--
