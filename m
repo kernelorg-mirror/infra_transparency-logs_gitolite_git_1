@@ -1,22 +1,29 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/remoteproc/linux
-Date: Wed, 19 Apr 2023 01:57:17 -0000
-Message-Id: <168186943735.4587.7083641389711989820@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Wed, 19 Apr 2023 02:50:03 -0000
+Message-Id: <168187260358.7381.6787160602042728051@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/remoteproc/linux
-user: andersson
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/for-next
-    old: aff87857ff8394f14859836f1363511610513769
-    new: fb967507b799cf9daa686bb4e0d8f6edef14bf96
+  - ref: refs/heads/for-6.4/block
+    old: 26a42b614eb934f400cd3d1cc0b7fa1955ae3320
+    new: 63f8793ee60513a09f110ea460a6ff2c33811cdb
     log: |
-         f187a431c494348d8afdb77900fc879be73bdbf3 rpmsg: glink: Propagate TX failures in intentless mode as well
-         cc888eb072b6a48642e429a030b065d4da1d594b rpmsg: glink: Consolidate TX_DATA and TX_DATA_CONT
-         1f6fa392a9942e4a2bd3122913baeb33e987ccd9 remoteproc: st: Use of_property_present() for testing DT property presence
-         fb967507b799cf9daa686bb4e0d8f6edef14bf96 Merge branches 'rpmsg-next' and 'rproc-next' into for-next
+         2d786e66c9662d84cbeab981ce3a371d2fb5a4bb block: ublk: switch to ioctl command encoding
+         63f8793ee60513a09f110ea460a6ff2c33811cdb null_blk: Always check queue mode setting from configfs
+         
+  - ref: refs/heads/for-next
+    old: e3f6b898bd3eea6dbe327987d5380dddb6c9bbc2
+    new: 0a67acfe6f7ad5833e4844f7888f609e3070ac3c
+    log: |
+         2d786e66c9662d84cbeab981ce3a371d2fb5a4bb block: ublk: switch to ioctl command encoding
+         a8f007985a7538464563b22cbdac404905c0f0ed Merge branch 'for-6.4/block' into for-next
+         63f8793ee60513a09f110ea460a6ff2c33811cdb null_blk: Always check queue mode setting from configfs
+         0a67acfe6f7ad5833e4844f7888f609e3070ac3c Merge branch 'for-6.4/block' into for-next
          
