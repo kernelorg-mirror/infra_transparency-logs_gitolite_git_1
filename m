@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0310519078213245906=="
+Content-Type: multipart/mixed; boundary="===============5967718778181638720=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Wed, 19 Apr 2023 03:19:37 -0000
-Message-Id: <168187437769.25496.11290441771587687610@gitolite.kernel.org>
+Date: Wed, 19 Apr 2023 03:19:42 -0000
+Message-Id: <168187438255.25617.2136990956396338687@gitolite.kernel.org>
 
---===============0310519078213245906==
+--===============5967718778181638720==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-queue
-    old: c02e18841216aa80a01aacbb5f81ca0e704b452c
-    new: b4ca64fa5a9f4f017652b142f5c30f4113ee6071
-    log: revlist-c02e18841216-b4ca64fa5a9f.txt
+  - ref: refs/heads/6.4/scsi-queue
+    old: dc70c9615c067dbc34a1af736477f7d2b7f75319
+    new: 3c85f087faeca3ca9ec9e7b085e1eff370e3f0db
+    log: revlist-dc70c9615c06-3c85f087faec.txt
 
---===============0310519078213245906==
+--===============5967718778181638720==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1681874366 -0400
+pusher 75C5DE3D 1681874381 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1681874366-408bb7603f5c469032e0c59b8d9916820d4f55ed
+nonce 1681874380-f73ad0bda912332c73c658a0946e3bf4dcb772f6
 
-c02e18841216aa80a01aacbb5f81ca0e704b452c b4ca64fa5a9f4f017652b142f5c30f4113ee6071 refs/tags/mkp-scsi-queue
+dc70c9615c067dbc34a1af736477f7d2b7f75319 3c85f087faeca3ca9ec9e7b085e1eff370e3f0db refs/heads/6.4/scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmQ/Xb4ACgkQ7ulgGnXF
-3j2rvA/9GRL+9snzu7SNYhz5SKnsqyVYWqjwKCh71XM+0X8QPAJsAKGI3quGfytr
-+avvQrQLMy0feOz0N4cw7KVZhbW0G1JyLkcvY/FWlnB2mm9J7uEEKar5WgEHppZI
-JTYgFjE7T+8D1UwA1l6hBX5SVDj3yY9cL9sF0jcBd37n+jVtRm5UkL69aUoxDOXr
-Lq3J3dmHB/UcgLw6aSFCRThKKybPinbfOip9vynNO14YoQj5PhZoroqj4yAt1A2L
-6I+kqr8t7rfitLkEjRRqvNpLQXIG0QPGG0hAjPf9B+Is90JVute8MAmv2cO7gcCn
-OzAGWMscaHg47QiJY+mgi3LbKpA4MtT0XSiyAxzZKkR1tOxt7NRy6k5uicb4bEja
-zvnz2LW0dPwopTOZEMYrBLEKXuCKKZPT8gAJ/fvCkXMMu64iFQWk6D41fhtqZQQP
-WBkmEA/bS+qYFgP/jpGf73LZURJvGBJjdm6Naqn1n9zLYWvFHWz/ogxMX2OzcRm8
-HEEeW2r6JC6IE6ng9vlYOwz2Z1mITiJrt1KSbJg9fY+raphP0IT501kVXmnADEnX
-VDEu+hr6+Q4BgZ+ojfj2/ZYCmfOR61jwDJYeLMrEGC2XjG4+nZSqnCAMhkRbCcqJ
-ipnl1sLEyju82eWZiHjuaN2lrH9q7AJWTU4vsjFQnHiypi/1BoA=
-=jujp
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmQ/Xc0ACgkQ7ulgGnXF
+3j22+A//bDoXSVPDpOcCA+punkDRZ82XLU6emTAoIJcVrPa9tSU+dewW/eSjorvw
+vHkSGPfjHk+QPyErlA+tzB3pOOPhgmlPrbqPuv1YNYJduRnUIvCWEcyDOfS27AYb
+YxUXZkX/lzGQsggey00mBHqgY0RHSWbfC0ZkLV7IdPV6CAWc3fwjz9tltV2Q2aHz
+0VKUwzBEdgzY6HTnuNqTP604vFcZV5W3yvpNU9triA6BxQ3zS4sGlwA6hj1I/OBw
+beOaLYdPj1ToYp8mpNH/5PG0KxWRFedm6H9Z/SOXWx/G1u7oWmzC9fdu3qFJjleG
+86Bpawnjk8+/w292u/6jPH+7I1Kj9YzFq6sulrz3P7oi/K5brQNxob9BWIbXA88V
+0RWtScQqA6aYZ3TiKvRrJyVEt5ZA/RmeW36SmIvxe5KrKda9MpTE0WmX82AjPWXc
+UtuCX1NeeQENT4fBXSXM9KJLIi7nLLg/udZP8hmKW7QNcijCQusLR4wrKSP9W6E1
+2zNljKB3NRXUfBBHTuEpqcfZ1L7zmVXB6QoKIUPjBlZUFBnHjZFviZPVUGve0zCa
+9/JAn/FNCrZDw/YzapGr4SOe/5iat94Ep9Ci4/8+Ro80h0g5rPmC7PKfwqd3zp7v
+KWqmh2byNJZhyLT1xCoRrIEyPLernd5UBzAdQtWvrnqbHGzlOEU=
+=yoQ3
 -----END PGP SIGNATURE-----
 
---===============0310519078213245906==
+--===============5967718778181638720==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c02e18841216-b4ca64fa5a9f.txt
+Content-Disposition: attachment; filename=revlist-dc70c9615c06-3c85f087faec.txt
 
 a0fde512f7030e7fbdd5f0d8d70908d37389aae2 scsi: target: core: Fix invalid memory access
 3fc5d6d6dcac1f98139c8f16c69dd03f4fe4152c scsi: mpt3sas: Remove HBA BIOS version in the kernel log
@@ -68,4 +68,4 @@ cabb637465116771742390c89b15634eb491960a scsi: cxlflash: s/semahpore/semaphore/
 4de243c40c0f6c701123eb12938a5d9caee08679 scsi: ufs: mcq: Annotate ufshcd_inc_sq_tail() appropriately
 3c85f087faeca3ca9ec9e7b085e1eff370e3f0db scsi: ufs: mcq: Use pointer arithmetic in ufshcd_send_command()
 
---===============0310519078213245906==--
+--===============5967718778181638720==--
