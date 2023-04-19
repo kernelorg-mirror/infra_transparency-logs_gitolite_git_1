@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Wed, 19 Apr 2023 15:08:57 -0000
-Message-Id: <168191693709.28292.17039987723769165261@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kvmarm/kvmarm
+Date: Wed, 19 Apr 2023 15:23:54 -0000
+Message-Id: <168191783465.6369.8293706194940167053@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
-user: snitzer
+repo: pub/scm/linux/kernel/git/kvmarm/kvmarm
+user: oupton
 changes:
-  - ref: refs/heads/dm-6.4
-    old: 3d32aaa7e66d5c1479a3c31d6c2c5d45dd0d3b89
-    new: e3675dc1e7ea2e4e5a6527fa7068e9fcbc2475cc
+  - ref: refs/heads/fixes
+    old: 35dcb3ac663a16510afc27ba2725d70c15e012a5
+    new: a25bc8486f9c01c1af6b6c5657234b2eee2c39d6
     log: |
-         98dba02d9a93eec11bffbb93c7c51624290702d2 dm flakey: fix a crash with invalid table line
-         e3675dc1e7ea2e4e5a6527fa7068e9fcbc2475cc dm flakey: remove trailing space in the table line
+         a25bc8486f9c01c1af6b6c5657234b2eee2c39d6 KVM: arm64: Fix buffer overflow in kvm_arm_set_fw_reg()
          
