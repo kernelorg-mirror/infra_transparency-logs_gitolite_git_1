@@ -1,28 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Wed, 19 Apr 2023 14:23:12 -0000
-Message-Id: <168191419228.29315.6953415660232745073@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
+Date: Wed, 19 Apr 2023 14:25:31 -0000
+Message-Id: <168191433167.31674.17263655319894211477@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
-user: broonie
+repo: pub/scm/linux/kernel/git/palmer/linux
+user: palmer
 changes:
-  - ref: refs/heads/for-linus
-    old: 352e1eb17eee86ab4dd66c0c9df528b350aaace2
-    new: 86a24e99c97234f87d9f70b528a691150e145197
-    log: |
-         238787157d83969e5149c8e99787d5d90e85fbe5 ASoC: fsl_sai: Fix pins setting for i.MX8QM platform
-         86a24e99c97234f87d9f70b528a691150e145197 ASoC: fsl_asrc_dma: fix potential null-ptr-deref
-         
   - ref: refs/heads/for-next
-    old: b1c4144592ef1d3623d5caed0b79efb0e7410ece
-    new: 6d1b1ede1b56ba8341fe98cde253b66f8b6fcca5
+    old: 2e75ab3189ecfe5f4383ef82896d30eaad0b3cd6
+    new: 2667e3673f7079cf95d58cf84d7c0b5a455ac68b
     log: |
-         238787157d83969e5149c8e99787d5d90e85fbe5 ASoC: fsl_sai: Fix pins setting for i.MX8QM platform
-         86a24e99c97234f87d9f70b528a691150e145197 ASoC: fsl_asrc_dma: fix potential null-ptr-deref
-         6d1b1ede1b56ba8341fe98cde253b66f8b6fcca5 Merge remote-tracking branch 'asoc/for-6.4' into asoc-next
+         cd0334e1c091fc0263ccf76e81d333a2ece4f3ab riscv: Split early and final KASAN population functions
+         96f9d4daf745205fe869e9e5ac23199ef11c5448 riscv: Rework kasan population functions
+         401e84488800d05e8ed6db2a687eaa94415f4ec8 riscv: Move DTB_EARLY_BASE_VA to the kernel address space
+         617955ca6e275c4dd0dcf5316fca7fc04a8f2fe6 riscv: Fix EFI stub usage of KASAN instrumented strcmp function
+         ecd7ebaf0b5a094a6180b299a5635c0eea42be4b riscv: Fix ptdump when KASAN is enabled
+         864046c512c2cd8418dc928b91981fb12a80396c riscv: Unconditionnally select KASAN_VMALLOC if KASAN
+         2667e3673f7079cf95d58cf84d7c0b5a455ac68b Merge patch series "RISC-V kasan rework"
          
